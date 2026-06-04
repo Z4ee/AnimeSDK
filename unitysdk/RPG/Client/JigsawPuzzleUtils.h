@@ -7,30 +7,30 @@ namespace RPG::Client::Prop { class JigsawPuzzleBoard; }
 namespace RPG::Client::Prop { class JigsawPuzzleItem; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_JIGSAWPUZZLEUTILS_ISMOUSEPOSINRECTBYCLAMP_OFFSET UNITYSDK_OFFSET(0xA663720)
-#define RPG_CLIENT_JIGSAWPUZZLEUTILS_ISPOSINRECT_OFFSET UNITYSDK_OFFSET(0xA663DD0)
-#define RPG_CLIENT_JIGSAWPUZZLEUTILS_SETUPJIGSAWPUZZLEITEM_OFFSET UNITYSDK_OFFSET(0xA663D20)
+#define RPG_CLIENT_JIGSAWPUZZLEUTILS_ISMOUSEPOSINRECTBYCLAMP_OFFSET UNITYSDK_OFFSET(0xBD6AE90)
+#define RPG_CLIENT_JIGSAWPUZZLEUTILS_ISPOSINRECT_OFFSET UNITYSDK_OFFSET(0xBD6B560)
+#define RPG_CLIENT_JIGSAWPUZZLEUTILS_SETUPJIGSAWPUZZLEITEM_OFFSET UNITYSDK_OFFSET(0xBD6B4B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int JigsawPuzzleUtils_TypeDefinitionIndex = 60543;
+	inline static constexpr unsigned int JigsawPuzzleUtils_TypeDefinitionIndex = 61477;
 
 	class JigsawPuzzleUtils : public ::System::Object
 	{
 	public:
-		static ::System::Void SetupJigsawPuzzleItem(::RPG::Client::Prop::JigsawPuzzleItem* item, ::RPG::Client::Prop::JigsawItemData* itemData, ::RPG::Client::Prop::JigsawPuzzleBoard* board)
+		static ::System::Void SetupJigsawPuzzleItem(::RPG::Client::Prop::JigsawPuzzleItem* a1, ::RPG::Client::Prop::JigsawItemData* a2, ::RPG::Client::Prop::JigsawPuzzleBoard* a3)
 		{
-			return ((::System::Void(*)(::RPG::Client::Prop::JigsawPuzzleItem*, ::RPG::Client::Prop::JigsawItemData*, ::RPG::Client::Prop::JigsawPuzzleBoard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_JIGSAWPUZZLEUTILS_SETUPJIGSAWPUZZLEITEM_OFFSET))(item, itemData, board);
+			return ((::System::Void(*)(::RPG::Client::Prop::JigsawPuzzleItem*, ::RPG::Client::Prop::JigsawItemData*, ::RPG::Client::Prop::JigsawPuzzleBoard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_JIGSAWPUZZLEUTILS_SETUPJIGSAWPUZZLEITEM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean IsMousePosInRectByClamp(::UnityEngine::RectTransform* rectTransfrom)
+		static ::System::Boolean IsMousePosInRectByClamp(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_JIGSAWPUZZLEUTILS_ISMOUSEPOSINRECTBYCLAMP_OFFSET))(rectTransfrom);
+			return ((::System::Boolean(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_JIGSAWPUZZLEUTILS_ISMOUSEPOSINRECTBYCLAMP_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsPosInRect(::UnityEngine::RectTransform* rectTransfrom, ::System::Single positionX, ::System::Single positionY)
+		static ::System::Boolean IsPosInRect(::UnityEngine::RectTransform* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_JIGSAWPUZZLEUTILS_ISPOSINRECT_OFFSET))(rectTransfrom, positionX, positionY);
+			return ((::System::Boolean(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_JIGSAWPUZZLEUTILS_ISPOSINRECT_OFFSET))(a1, a2, a3);
 		}
 	};
 }

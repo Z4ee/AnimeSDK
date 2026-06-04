@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETMAPDAMAGEDEFENDER_METHOD_3_63557D0EBE19C913_OFFSET UNITYSDK_OFFSET(0x18EE87D0)
-#define RPG_GAMECORE_TARGETMAPDAMAGEDEFENDER_METHOD_3_D0AA79EC756516BE_OFFSET UNITYSDK_OFFSET(0x18EE8710)
-#define RPG_GAMECORE_TARGETMAPDAMAGEDEFENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EE87B0)
+#define RPG_GAMECORE_TARGETMAPDAMAGEDEFENDER_METHOD_3_48E6ADFA93845395_OFFSET UNITYSDK_OFFSET(0x19D13560)
+#define RPG_GAMECORE_TARGETMAPDAMAGEDEFENDER_METHOD_3_63557D0EBE19C913_OFFSET UNITYSDK_OFFSET(0x19D134C0)
+#define RPG_GAMECORE_TARGETMAPDAMAGEDEFENDER_METHOD_3_9042E5D64FC0E5EA_OFFSET UNITYSDK_OFFSET(0x19D13520)
+#define RPG_GAMECORE_TARGETMAPDAMAGEDEFENDER_METHOD_3_D0AA79EC756516BE_OFFSET UNITYSDK_OFFSET(0x19D13400)
+#define RPG_GAMECORE_TARGETMAPDAMAGEDEFENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19D134A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMapDamageDefender_TypeDefinitionIndex = 23009;
+	inline static constexpr unsigned int TargetMapDamageDefender_TypeDefinitionIndex = 22699;
 
 	class TargetMapDamageDefender : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -28,6 +31,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_63557D0EBE19C913(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapDamageDefender* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapDamageDefender*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDAMAGEDEFENDER_METHOD_3_63557D0EBE19C913_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_9042E5D64FC0E5EA(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapDamageDefender*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapDamageDefender*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDAMAGEDEFENDER_METHOD_3_9042E5D64FC0E5EA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_48E6ADFA93845395(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapDamageDefender* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapDamageDefender*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDAMAGEDEFENDER_METHOD_3_48E6ADFA93845395_OFFSET))(a1, a2);
 		}
 	};
 }

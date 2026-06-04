@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CloudUIBattlePosRegion_TypeDefinitionIndex = 55227;
+	inline static constexpr unsigned int CloudUIBattlePosRegion_TypeDefinitionIndex = 55961;
 
 	enum class CloudUIBattlePosRegion : ::System::Int32
 	{

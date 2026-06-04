@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EPedestrianMemberSpecialTag_TypeDefinitionIndex = 63846;
+	inline static constexpr unsigned int EPedestrianMemberSpecialTag_TypeDefinitionIndex = 64767;
 
 	enum class EPedestrianMemberSpecialTag : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace System { template <typename T> class Lazy_1___c; }
 
 namespace System
 {
-	inline static constexpr unsigned int Lazy_1___c_TypeDefinitionIndex = 162;
+	inline static constexpr unsigned int Lazy_1___c_TypeDefinitionIndex = 161;
 
 	template <typename T>
 	class Lazy_1___c : public ::System::Object

@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A7232A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A7232F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A722FB0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A722F90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B527510)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B527560)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B527500)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B527490)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__PerformFirmwareUpdate_TypeDefinitionIndex = 35694;
+	inline static constexpr unsigned int IVRSystem__PerformFirmwareUpdate_TypeDefinitionIndex = 35994;
 
 	class IVRSystem__PerformFirmwareUpdate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError Invoke(::System::UInt32 unDeviceIndex)
+		::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError Invoke(::System::UInt32 a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_INVOKE_OFFSET))(this, unDeviceIndex);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt32 unDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt32 a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_BEGININVOKE_OFFSET))(this, unDeviceIndex, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError EndInvoke(::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRFirmwareError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__PERFORMFIRMWAREUPDATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

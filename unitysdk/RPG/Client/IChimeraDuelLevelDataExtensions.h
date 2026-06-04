@@ -6,36 +6,36 @@ namespace RPG::Client { class IChimeraDuelChimeraLevelData; }
 namespace RPG::Client { class IChimeraDuelSkillData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETBATTLESKILLDATA_OFFSET UNITYSDK_OFFSET(0xA61CC80)
-#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETSHOPSKILLDATA_OFFSET UNITYSDK_OFFSET(0xA61CB60)
-#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETSKILLDATAFORDISPLAY_OFFSET UNITYSDK_OFFSET(0xA61CDA0)
-#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS__TRYGETFIRSTSKILLDATA_OFFSET UNITYSDK_OFFSET(0xA61C990)
+#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETBATTLESKILLDATA_OFFSET UNITYSDK_OFFSET(0xBD20F40)
+#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETSHOPSKILLDATA_OFFSET UNITYSDK_OFFSET(0xBD20DF0)
+#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETSKILLDATAFORDISPLAY_OFFSET UNITYSDK_OFFSET(0xBD21090)
+#define RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS__TRYGETFIRSTSKILLDATA_OFFSET UNITYSDK_OFFSET(0xBD20BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChimeraDuelLevelDataExtensions_TypeDefinitionIndex = 58354;
+	inline static constexpr unsigned int IChimeraDuelLevelDataExtensions_TypeDefinitionIndex = 59284;
 
 	class IChimeraDuelLevelDataExtensions : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::IChimeraDuelSkillData* _TryGetFirstSkillData(::RPG::Client::IChimeraDuelChimeraLevelData* self, ::System::Predicate_1<::RPG::Client::IChimeraDuelSkillData*>* predicate)
+		static ::RPG::Client::IChimeraDuelSkillData* _TryGetFirstSkillData(::RPG::Client::IChimeraDuelChimeraLevelData* a1, ::System::Predicate_1<::RPG::Client::IChimeraDuelSkillData*>* a2)
 		{
-			return ((::RPG::Client::IChimeraDuelSkillData*(*)(::RPG::Client::IChimeraDuelChimeraLevelData*, ::System::Predicate_1<::RPG::Client::IChimeraDuelSkillData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS__TRYGETFIRSTSKILLDATA_OFFSET))(self, predicate);
+			return ((::RPG::Client::IChimeraDuelSkillData*(*)(::RPG::Client::IChimeraDuelChimeraLevelData*, ::System::Predicate_1<::RPG::Client::IChimeraDuelSkillData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS__TRYGETFIRSTSKILLDATA_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::IChimeraDuelSkillData* TryGetShopSkillData(::RPG::Client::IChimeraDuelChimeraLevelData* self)
+		static ::RPG::Client::IChimeraDuelSkillData* TryGetShopSkillData(::RPG::Client::IChimeraDuelChimeraLevelData* a1)
 		{
-			return ((::RPG::Client::IChimeraDuelSkillData*(*)(::RPG::Client::IChimeraDuelChimeraLevelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETSHOPSKILLDATA_OFFSET))(self);
+			return ((::RPG::Client::IChimeraDuelSkillData*(*)(::RPG::Client::IChimeraDuelChimeraLevelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETSHOPSKILLDATA_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::IChimeraDuelSkillData* TryGetBattleSkillData(::RPG::Client::IChimeraDuelChimeraLevelData* self)
+		static ::RPG::Client::IChimeraDuelSkillData* TryGetBattleSkillData(::RPG::Client::IChimeraDuelChimeraLevelData* a1)
 		{
-			return ((::RPG::Client::IChimeraDuelSkillData*(*)(::RPG::Client::IChimeraDuelChimeraLevelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETBATTLESKILLDATA_OFFSET))(self);
+			return ((::RPG::Client::IChimeraDuelSkillData*(*)(::RPG::Client::IChimeraDuelChimeraLevelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETBATTLESKILLDATA_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::IChimeraDuelSkillData* TryGetSkillDataForDisplay(::RPG::Client::IChimeraDuelChimeraLevelData* self)
+		static ::RPG::Client::IChimeraDuelSkillData* TryGetSkillDataForDisplay(::RPG::Client::IChimeraDuelChimeraLevelData* a1)
 		{
-			return ((::RPG::Client::IChimeraDuelSkillData*(*)(::RPG::Client::IChimeraDuelChimeraLevelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETSKILLDATAFORDISPLAY_OFFSET))(self);
+			return ((::RPG::Client::IChimeraDuelSkillData*(*)(::RPG::Client::IChimeraDuelChimeraLevelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ICHIMERADUELLEVELDATAEXTENSIONS_TRYGETSKILLDATAFORDISPLAY_OFFSET))(a1);
 		}
 	};
 }

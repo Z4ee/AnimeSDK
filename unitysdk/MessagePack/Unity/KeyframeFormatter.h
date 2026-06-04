@@ -7,13 +7,13 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1731FD00)
-#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1731FC90)
-#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17320170)
+#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1812E660)
+#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1812E5F0)
+#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1812EAD0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int KeyframeFormatter_TypeDefinitionIndex = 9993;
+	inline static constexpr unsigned int KeyframeFormatter_TypeDefinitionIndex = 9820;
 
 	class KeyframeFormatter : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace MessagePack::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_KEYFRAMEFORMATTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Serialize(::MessagePack::MessagePackWriter& writer, ::UnityEngine::Keyframe value, ::MessagePack::MessagePackSerializerOptions* options)
+		::System::Void Serialize(::MessagePack::MessagePackWriter& a1, ::UnityEngine::Keyframe a2, ::MessagePack::MessagePackSerializerOptions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::Keyframe, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_SERIALIZE_OFFSET))(this, writer, value, options);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::Keyframe, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Keyframe Deserialize(::MessagePack::MessagePackReader& reader, ::MessagePack::MessagePackSerializerOptions* options)
+		::UnityEngine::Keyframe Deserialize(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackSerializerOptions* a2)
 		{
-			return ((::UnityEngine::Keyframe(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_DESERIALIZE_OFFSET))(this, reader, options);
+			return ((::UnityEngine::Keyframe(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
 	};
 }

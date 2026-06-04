@@ -6,30 +6,30 @@
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_UISYSTEMPROFILERAPI_ADDMARKER_OFFSET UNITYSDK_OFFSET(0x1A528340)
-#define UNITYENGINE_UISYSTEMPROFILERAPI_BEGINSAMPLE_OFFSET UNITYSDK_OFFSET(0x1A528320)
-#define UNITYENGINE_UISYSTEMPROFILERAPI_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0x1A528330)
+#define UNITYENGINE_UISYSTEMPROFILERAPI_ADDMARKER_OFFSET UNITYSDK_OFFSET(0x1B373C40)
+#define UNITYENGINE_UISYSTEMPROFILERAPI_BEGINSAMPLE_OFFSET UNITYSDK_OFFSET(0x1B373C20)
+#define UNITYENGINE_UISYSTEMPROFILERAPI_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0x1B373C30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UISystemProfilerApi_TypeDefinitionIndex = 5270;
+	inline static constexpr unsigned int UISystemProfilerApi_TypeDefinitionIndex = 5346;
 
 	class UISystemProfilerApi : public ::System::Object
 	{
 	public:
-		static ::System::Void BeginSample(::UnityEngine::UISystemProfilerApi_SampleType type)
+		static ::System::Void BeginSample(::UnityEngine::UISystemProfilerApi_SampleType a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::UISystemProfilerApi_SampleType))((::PBYTE)hIl2Cpp + UNITYENGINE_UISYSTEMPROFILERAPI_BEGINSAMPLE_OFFSET))(type);
+			return ((::System::Void(*)(::UnityEngine::UISystemProfilerApi_SampleType))((::PBYTE)hIl2Cpp + UNITYENGINE_UISYSTEMPROFILERAPI_BEGINSAMPLE_OFFSET))(a1);
 		}
 
-		static ::System::Void EndSample(::UnityEngine::UISystemProfilerApi_SampleType type)
+		static ::System::Void EndSample(::UnityEngine::UISystemProfilerApi_SampleType a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::UISystemProfilerApi_SampleType))((::PBYTE)hIl2Cpp + UNITYENGINE_UISYSTEMPROFILERAPI_ENDSAMPLE_OFFSET))(type);
+			return ((::System::Void(*)(::UnityEngine::UISystemProfilerApi_SampleType))((::PBYTE)hIl2Cpp + UNITYENGINE_UISYSTEMPROFILERAPI_ENDSAMPLE_OFFSET))(a1);
 		}
 
-		static ::System::Void AddMarker(::System::String* name, ::UnityEngine::Object* obj)
+		static ::System::Void AddMarker(::System::String* a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UISYSTEMPROFILERAPI_ADDMARKER_OFFSET))(name, obj);
+			return ((::System::Void(*)(::System::String*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UISYSTEMPROFILERAPI_ADDMARKER_OFFSET))(a1, a2);
 		}
 	};
 }

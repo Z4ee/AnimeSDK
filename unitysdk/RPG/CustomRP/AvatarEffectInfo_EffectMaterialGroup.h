@@ -4,19 +4,19 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0x181027F0)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP_RESET_OFFSET UNITYSDK_OFFSET(0x181028D0)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x181028E0)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0x18EA5A30)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP_RESET_OFFSET UNITYSDK_OFFSET(0x18EA5B10)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA5B20)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectInfo_EffectMaterialGroup_TypeDefinitionIndex = 34971;
+	inline static constexpr unsigned int AvatarEffectInfo_EffectMaterialGroup_TypeDefinitionIndex = 35256;
 
 	class AvatarEffectInfo_EffectMaterialGroup : public ::System::Object
 	{
 	public:
-		::UnityEngine::Material* mat; // 0x10
-		::Il2CppArray<::System::Int32>* passIDs; // 0x18
+		::Il2CppArray<::System::Int32>* passIDs; // 0x10
+		::UnityEngine::Material* mat; // 0x18
 		::System::Boolean afterTransparent; // 0x20
 
 		::System::Void _ctor()
@@ -29,9 +29,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP_RESET_OFFSET))(this);
 		}
 
-		static ::RPG::CustomRP::AvatarEffectInfo_EffectMaterialGroup* Create(::UnityEngine::Material* mat, ::Il2CppArray<::System::Int32>* overridePassIDs, ::System::Boolean afterTransparent)
+		static ::RPG::CustomRP::AvatarEffectInfo_EffectMaterialGroup* Create(::UnityEngine::Material* a1, ::Il2CppArray<::System::Int32>* a2, ::System::Boolean a3)
 		{
-			return ((::RPG::CustomRP::AvatarEffectInfo_EffectMaterialGroup*(*)(::UnityEngine::Material*, ::Il2CppArray<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP_CREATE_OFFSET))(mat, overridePassIDs, afterTransparent);
+			return ((::RPG::CustomRP::AvatarEffectInfo_EffectMaterialGroup*(*)(::UnityEngine::Material*, ::Il2CppArray<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_EFFECTMATERIALGROUP_CREATE_OFFSET))(a1, a2, a3);
 		}
 	};
 }

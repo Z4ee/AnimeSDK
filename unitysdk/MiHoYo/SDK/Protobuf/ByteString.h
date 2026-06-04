@@ -8,40 +8,40 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_ATTACHBYTES_OFFSET UNITYSDK_OFFSET(0x1738EBA0)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_COPYFROM_1_OFFSET UNITYSDK_OFFSET(0x1738EDD0)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1738ECC0)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_CREATECODEDINPUT_OFFSET UNITYSDK_OFFSET(0x1738EF30)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1738F3E0)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_EQUALS_OFFSET UNITYSDK_OFFSET(0x1738F260)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1738EE40)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1738F350)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1738EBF0)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1738EC50)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1738F110)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1738F1A0)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1738EF20)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_TOBASE64_OFFSET UNITYSDK_OFFSET(0x1738EC70)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING_WRITERAWBYTESTO_OFFSET UNITYSDK_OFFSET(0x1738F4C0)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1738F640)
-#define MIHOYO_SDK_PROTOBUF_BYTESTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1738EBE0)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_ATTACHBYTES_OFFSET UNITYSDK_OFFSET(0x18199370)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_COPYFROM_1_OFFSET UNITYSDK_OFFSET(0x181995A0)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_COPYFROM_OFFSET UNITYSDK_OFFSET(0x18199490)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_CREATECODEDINPUT_OFFSET UNITYSDK_OFFSET(0x18199700)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18199BB0)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_EQUALS_OFFSET UNITYSDK_OFFSET(0x18199A30)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18199610)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18199B20)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x181993C0)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x18199420)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x181998E0)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x18199970)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x181996F0)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_TOBASE64_OFFSET UNITYSDK_OFFSET(0x18199440)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING_WRITERAWBYTESTO_OFFSET UNITYSDK_OFFSET(0x18199C90)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x18199E10)
+#define MIHOYO_SDK_PROTOBUF_BYTESTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x181993B0)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int ByteString_TypeDefinitionIndex = 33621;
+	inline static constexpr unsigned int ByteString_TypeDefinitionIndex = 33903;
 
 	class ByteString : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::ByteString** StaticGet_empty()
 		{
-			return (::MiHoYo::SDK::Protobuf::ByteString**)Il2CppClass::FromTypeDefinitionIndex(ByteString_TypeDefinitionIndex)->GetStaticField(0x688D0);
+			return (::MiHoYo::SDK::Protobuf::ByteString**)Il2CppClass::FromTypeDefinitionIndex(ByteString_TypeDefinitionIndex)->GetStaticField(0x4C170);
 		}
 		::Il2CppArray<::System::Byte>* bytes; // 0x10
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* bytes)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING__CTOR_OFFSET))(this, bytes);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -49,9 +49,9 @@ namespace MiHoYo::SDK::Protobuf
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING__CCTOR_OFFSET))();
 		}
 
-		static ::MiHoYo::SDK::Protobuf::ByteString* AttachBytes(::Il2CppArray<::System::Byte>* bytes)
+		static ::MiHoYo::SDK::Protobuf::ByteString* AttachBytes(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::MiHoYo::SDK::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_ATTACHBYTES_OFFSET))(bytes);
+			return ((::MiHoYo::SDK::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_ATTACHBYTES_OFFSET))(a1);
 		}
 
 		static ::MiHoYo::SDK::Protobuf::ByteString* get_Empty()
@@ -69,14 +69,14 @@ namespace MiHoYo::SDK::Protobuf
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_TOBASE64_OFFSET))(this);
 		}
 
-		static ::MiHoYo::SDK::Protobuf::ByteString* CopyFrom(::Il2CppArray<::System::Byte>* bytes)
+		static ::MiHoYo::SDK::Protobuf::ByteString* CopyFrom(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::MiHoYo::SDK::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_COPYFROM_OFFSET))(bytes);
+			return ((::MiHoYo::SDK::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_COPYFROM_OFFSET))(a1);
 		}
 
-		static ::MiHoYo::SDK::Protobuf::ByteString* CopyFrom_1(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 offset, ::System::Int32 count)
+		static ::MiHoYo::SDK::Protobuf::ByteString* CopyFrom_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::MiHoYo::SDK::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_COPYFROM_1_OFFSET))(bytes, offset, count);
+			return ((::MiHoYo::SDK::Protobuf::ByteString*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_COPYFROM_1_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Collections::Generic::IEnumerator_1<::System::Byte>* GetEnumerator()
@@ -94,19 +94,19 @@ namespace MiHoYo::SDK::Protobuf
 			return ((::MiHoYo::SDK::Protobuf::CodedInputStream*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_CREATECODEDINPUT_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::MiHoYo::SDK::Protobuf::ByteString* lhs, ::MiHoYo::SDK::Protobuf::ByteString* rhs)
+		static ::System::Boolean op_Equality(::MiHoYo::SDK::Protobuf::ByteString* a1, ::MiHoYo::SDK::Protobuf::ByteString* a2)
 		{
-			return ((::System::Boolean(*)(::MiHoYo::SDK::Protobuf::ByteString*, ::MiHoYo::SDK::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::MiHoYo::SDK::Protobuf::ByteString*, ::MiHoYo::SDK::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::MiHoYo::SDK::Protobuf::ByteString* lhs, ::MiHoYo::SDK::Protobuf::ByteString* rhs)
+		static ::System::Boolean op_Inequality(::MiHoYo::SDK::Protobuf::ByteString* a1, ::MiHoYo::SDK::Protobuf::ByteString* a2)
 		{
-			return ((::System::Boolean(*)(::MiHoYo::SDK::Protobuf::ByteString*, ::MiHoYo::SDK::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_OP_INEQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::MiHoYo::SDK::Protobuf::ByteString*, ::MiHoYo::SDK::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -114,14 +114,14 @@ namespace MiHoYo::SDK::Protobuf
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals_1(::MiHoYo::SDK::Protobuf::ByteString* other)
+		::System::Boolean Equals_1(::MiHoYo::SDK::Protobuf::ByteString* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteRawBytesTo(::MiHoYo::SDK::Protobuf::CodedOutputStream* outputStream)
+		::System::Void WriteRawBytesTo(::MiHoYo::SDK::Protobuf::CodedOutputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_WRITERAWBYTESTO_OFFSET))(this, outputStream);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_BYTESTRING_WRITERAWBYTESTO_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,25 +5,25 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_GET_ANCHORPOSITION_OFFSET UNITYSDK_OFFSET(0xA6899E0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_GET_DELTACOIN_OFFSET UNITYSDK_OFFSET(0xA689A10)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_SET_ANCHORPOSITION_OFFSET UNITYSDK_OFFSET(0xA689A00)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_SET_DELTACOIN_OFFSET UNITYSDK_OFFSET(0xA689A20)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA688F90)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_GET_ANCHORPOSITION_OFFSET UNITYSDK_OFFSET(0xBDD3E50)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_GET_DELTACOIN_OFFSET UNITYSDK_OFFSET(0xBDD3E80)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_SET_ANCHORPOSITION_OFFSET UNITYSDK_OFFSET(0xBDD3E70)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_SET_DELTACOIN_OFFSET UNITYSDK_OFFSET(0xBDD3E90)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBDD3470)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int GainCoinChangeData_TypeDefinitionIndex = 71324;
+	inline static constexpr unsigned int GainCoinChangeData_TypeDefinitionIndex = 72346;
 
 	class GainCoinChangeData : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 _AnchorPosition_k__BackingField; // 0x10
-		::System::Int32 _DeltaCoin_k__BackingField; // 0x1C
+		::System::Int32 _DeltaCoin_k__BackingField; // 0x10
+		::UnityEngine::Vector3 _AnchorPosition_k__BackingField; // 0x14
 
-		::System::Void _ctor(::UnityEngine::Transform* ancestorTransform, ::System::Int32 deltaCoin)
+		::System::Void _ctor(::UnityEngine::Transform* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA__CTOR_OFFSET))(this, ancestorTransform, deltaCoin);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector3 get_AnchorPosition()
@@ -31,9 +31,9 @@ namespace RPG::Client::LittleGame::ChenLing
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_GET_ANCHORPOSITION_OFFSET))(this);
 		}
 
-		::System::Void set_AnchorPosition(::UnityEngine::Vector3 value)
+		::System::Void set_AnchorPosition(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_SET_ANCHORPOSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_SET_ANCHORPOSITION_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_DeltaCoin()
@@ -41,9 +41,9 @@ namespace RPG::Client::LittleGame::ChenLing
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_GET_DELTACOIN_OFFSET))(this);
 		}
 
-		::System::Void set_DeltaCoin(::System::Int32 value)
+		::System::Void set_DeltaCoin(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_SET_DELTACOIN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_GAINCOINCHANGEDATA_SET_DELTACOIN_OFFSET))(this, a1);
 		}
 	};
 }

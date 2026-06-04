@@ -5,23 +5,23 @@
 namespace RPG::Client::Billboard { class IBillboardTypeData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_BILLBOARD_BUBBLEBILLBOARDDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x9E99450)
-#define RPG_CLIENT_BILLBOARD_BUBBLEBILLBOARDDATA_GET_SPEAKER_OFFSET UNITYSDK_OFFSET(0x9E99400)
-#define RPG_CLIENT_BILLBOARD_BUBBLEBILLBOARDDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x9E99410)
-#define RPG_CLIENT_BILLBOARD_BUBBLEBILLBOARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9E97550)
+#define RPG_CLIENT_BILLBOARD_BUBBLEBILLBOARDDATA_CLONE_OFFSET UNITYSDK_OFFSET(0xB435090)
+#define RPG_CLIENT_BILLBOARD_BUBBLEBILLBOARDDATA_GET_SPEAKER_OFFSET UNITYSDK_OFFSET(0xB435040)
+#define RPG_CLIENT_BILLBOARD_BUBBLEBILLBOARDDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0xB435050)
+#define RPG_CLIENT_BILLBOARD_BUBBLEBILLBOARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB433120)
 
 namespace RPG::Client::Billboard
 {
-	inline static constexpr unsigned int BubbleBillboardData_TypeDefinitionIndex = 69051;
+	inline static constexpr unsigned int BubbleBillboardData_TypeDefinitionIndex = 69863;
 
 	class BubbleBillboardData : public ::System::Object
 	{
 	public:
 		::UnityEngine::GameObject* _Speaker_k__BackingField; // 0x10
 
-		::System::Void _ctor(::UnityEngine::GameObject* speaker)
+		::System::Void _ctor(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_BUBBLEBILLBOARDDATA__CTOR_OFFSET))(this, speaker);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_BUBBLEBILLBOARDDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::GameObject* get_Speaker()

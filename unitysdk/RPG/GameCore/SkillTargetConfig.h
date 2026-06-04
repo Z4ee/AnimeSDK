@@ -11,12 +11,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLTARGETCONFIG_METHOD_2_847860BE801C153F_OFFSET UNITYSDK_OFFSET(0x18E71390)
-#define RPG_GAMECORE_SKILLTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E72F30)
+#define RPG_GAMECORE_SKILLTARGETCONFIG_METHOD_2_847860BE801C153F_OFFSET UNITYSDK_OFFSET(0x19C8D000)
+#define RPG_GAMECORE_SKILLTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8EBE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillTargetConfig_TypeDefinitionIndex = 17268;
+	inline static constexpr unsigned int SkillTargetConfig_TypeDefinitionIndex = 17275;
 
 	class SkillTargetConfig : public ::RPG::GameCore::JsonConfig
 	{

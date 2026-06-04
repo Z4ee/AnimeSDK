@@ -6,7 +6,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_81F92B0B04671207;
+class Class_2_24A88014580ADDB3;
 namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class CameraFightStateCasterToTargetConfig; }
 namespace RPG::Client { class CameraSomatoDynamicOffset; }
@@ -15,48 +15,48 @@ namespace RPG::Client { class FightModuleConfig; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_0B8EFE5D289B7D3F_OFFSET UNITYSDK_OFFSET(0xC70BF90)
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_31F1C58AB372DEB4_OFFSET UNITYSDK_OFFSET(0xC70A930)
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_3ABD0165571B5EF8_OFFSET UNITYSDK_OFFSET(0xC70B1D0)
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_71DD74098CFB7065_OFFSET UNITYSDK_OFFSET(0xC70BD40)
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_7BF0BA6C204CED90_OFFSET UNITYSDK_OFFSET(0xC709DA0)
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_8240BDD4F62E3F20_OFFSET UNITYSDK_OFFSET(0xC709400)
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_95C211358C4AF964_OFFSET UNITYSDK_OFFSET(0xC70A5A0)
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_B153DBF66F2B9EE2_OFFSET UNITYSDK_OFFSET(0xC70ABC0)
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xC7092F0)
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_B51668C48B36C071_1_OFFSET UNITYSDK_OFFSET(0xC70B4B0)
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_B51668C48B36C071_OFFSET UNITYSDK_OFFSET(0xC70B2C0)
-#define CLASS_1_5C16A1F7496735F4_METHOD_1_B9A97467188E4B69_OFFSET UNITYSDK_OFFSET(0xC70B6A0)
-#define CLASS_1_5C16A1F7496735F4__CTOR_OFFSET UNITYSDK_OFFSET(0xC709020)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_13D78D8CCC5186FB_OFFSET UNITYSDK_OFFSET(0x13C471A0)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_31F1C58AB372DEB4_OFFSET UNITYSDK_OFFSET(0x13C46F10)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_3ABD0165571B5EF8_OFFSET UNITYSDK_OFFSET(0x13C47750)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_71DD74098CFB7065_OFFSET UNITYSDK_OFFSET(0x13C48280)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_7BF0BA6C204CED90_OFFSET UNITYSDK_OFFSET(0x13C463E0)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_8240BDD4F62E3F20_OFFSET UNITYSDK_OFFSET(0x13C45A30)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_95C211358C4AF964_OFFSET UNITYSDK_OFFSET(0x13C46B90)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x13C45920)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_B51668C48B36C071_1_OFFSET UNITYSDK_OFFSET(0x13C47A30)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_B51668C48B36C071_OFFSET UNITYSDK_OFFSET(0x13C47840)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_B57F451F6CE4E576_OFFSET UNITYSDK_OFFSET(0x13C484E0)
+#define CLASS_1_5C16A1F7496735F4_METHOD_1_B9A97467188E4B69_OFFSET UNITYSDK_OFFSET(0x13C47C20)
+#define CLASS_1_5C16A1F7496735F4__CTOR_OFFSET UNITYSDK_OFFSET(0x13C45690)
 
-inline static constexpr unsigned int Class_1_5C16A1F7496735F4_TypeDefinitionIndex = 64203;
+inline static constexpr unsigned int Class_1_5C16A1F7496735F4_TypeDefinitionIndex = 65124;
 
 class Class_1_5C16A1F7496735F4 : public ::System::Object
 {
 public:
-	::RPG::Client::FightModuleConfig* Field_1_10; // 0x10
-	::RPG::Client::CameraDataAndFlags* Field_1_0; // 0x18
-	::RPG::Client::CloseupShotData* Field_1_1; // 0x20
-	::RPG::Client::CameraFightStateCasterToTargetConfig* Field_1_9; // 0x28
-	::Class_2_81F92B0B04671207* Field_1_20; // 0x30
-	::UnityEngine::Quaternion Field_1_3; // 0x38
-	::UnityEngine::Vector3 Field_1_22; // 0x48
-	::System::Single Field_1_19; // 0x54
-	::System::Boolean Field_1_11; // 0x58
-	::System::Boolean Field_1_13; // 0x59
-	::System::Single Field_1_6; // 0x5C
-	::UnityEngine::Vector3 Field_1_14; // 0x60
-	::RPG::MVector3 Field_1_17; // 0x6C
-	::UnityEngine::Vector3 Field_1_21; // 0x78
-	::UnityEngine::Quaternion Field_1_5; // 0x84
-	::UnityEngine::Vector3 Field_1_4; // 0x94
-	::UnityEngine::Vector3 Field_1_2; // 0xA0
-	::System::Single Field_1_12; // 0xAC
-	::UnityEngine::Quaternion Field_1_16; // 0xB0
-	::UnityEngine::Vector3 Field_1_8; // 0xC0
-	::UnityEngine::Vector3 Field_1_15; // 0xCC
-	::System::Single Field_1_18; // 0xD8
-	::System::Single Field_1_7; // 0xDC
+	::RPG::Client::FightModuleConfig* Field_1_0; // 0x10
+	::RPG::Client::CameraFightStateCasterToTargetConfig* Field_1_1; // 0x18
+	::RPG::Client::CameraDataAndFlags* Field_1_2; // 0x20
+	::RPG::Client::CloseupShotData* Field_1_3; // 0x28
+	::Class_2_24A88014580ADDB3* Field_1_4; // 0x30
+	::UnityEngine::Vector3 Field_1_5; // 0x38
+	::UnityEngine::Vector3 Field_1_6; // 0x44
+	::UnityEngine::Quaternion Field_1_7; // 0x50
+	::System::Boolean Field_1_8; // 0x60
+	::System::Boolean Field_1_9; // 0x61
+	::UnityEngine::Vector3 Field_1_10; // 0x64
+	::RPG::MVector3 Field_1_11; // 0x70
+	::UnityEngine::Vector3 Field_1_12; // 0x7C
+	::System::Single Field_1_13; // 0x88
+	::System::Single Field_1_14; // 0x8C
+	::UnityEngine::Quaternion Field_1_15; // 0x90
+	::System::Single Field_1_16; // 0xA0
+	::UnityEngine::Vector3 Field_1_17; // 0xA4
+	::UnityEngine::Vector3 Field_1_18; // 0xB0
+	::UnityEngine::Quaternion Field_1_19; // 0xBC
+	::System::Single Field_1_20; // 0xCC
+	::System::Single Field_1_21; // 0xD0
+	::UnityEngine::Vector3 Field_1_22; // 0xD4
 
 	::System::Void _ctor(::RPG::Client::CameraDataAndFlags* a1, ::RPG::Client::CloseupShotData* a2, ::System::Nullable_1<::UnityEngine::Vector3> a3)
 	{
@@ -83,9 +83,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + CLASS_1_5C16A1F7496735F4_METHOD_1_7BF0BA6C204CED90_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_B153DBF66F2B9EE2(::System::Single a1)
+	::System::Void Method_1_13D78D8CCC5186FB(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_5C16A1F7496735F4_METHOD_1_B153DBF66F2B9EE2_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_5C16A1F7496735F4_METHOD_1_13D78D8CCC5186FB_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_B9A97467188E4B69()
@@ -93,9 +93,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5C16A1F7496735F4_METHOD_1_B9A97467188E4B69_OFFSET))(this);
 	}
 
-	::RPG::Client::CameraSomatoDynamicOffset* Method_1_0B8EFE5D289B7D3F(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1, ::System::Single& a2)
+	::RPG::Client::CameraSomatoDynamicOffset* Method_1_B57F451F6CE4E576(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1, ::System::Single& a2)
 	{
-		return ((::RPG::Client::CameraSomatoDynamicOffset*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Single&))((::PBYTE)hIl2Cpp + CLASS_1_5C16A1F7496735F4_METHOD_1_0B8EFE5D289B7D3F_OFFSET))(this, a1, a2);
+		return ((::RPG::Client::CameraSomatoDynamicOffset*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Single&))((::PBYTE)hIl2Cpp + CLASS_1_5C16A1F7496735F4_METHOD_1_B57F451F6CE4E576_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_71DD74098CFB7065(::RPG::Client::CameraSomatoDynamicOffset* a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)

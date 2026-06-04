@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefShareCodeS11nErrorType_TypeDefinitionIndex = 62253;
+	inline static constexpr unsigned int RogueTournBuildRefShareCodeS11nErrorType_TypeDefinitionIndex = 63186;
 
 	enum class RogueTournBuildRefShareCodeS11nErrorType : ::System::Int32
 	{

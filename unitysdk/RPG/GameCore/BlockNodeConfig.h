@@ -5,14 +5,16 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HoyoTagContainer; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_37D3DE6D8A866A73_OFFSET UNITYSDK_OFFSET(0x1870CC70)
-#define RPG_GAMECORE_BLOCKNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1870D310)
+#define RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_37D3DE6D8A866A73_OFFSET UNITYSDK_OFFSET(0x194DED00)
+#define RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_AE3CBB691880A973_OFFSET UNITYSDK_OFFSET(0x194DF3A0)
+#define RPG_GAMECORE_BLOCKNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194DF390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockNodeConfig_TypeDefinitionIndex = 18137;
+	inline static constexpr unsigned int BlockNodeConfig_TypeDefinitionIndex = 18134;
 
 	class BlockNodeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -45,6 +47,11 @@ namespace RPG::GameCore
 		static ::System::Void Method_2_37D3DE6D8A866A73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockNodeConfig*& a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlockNodeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_37D3DE6D8A866A73_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_AE3CBB691880A973(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::BlockNodeConfig*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::BlockNodeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_AE3CBB691880A973_OFFSET))(a1, a2);
 		}
 	};
 }

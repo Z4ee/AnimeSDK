@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _Exception_TypeDefinitionIndex = 1435;
+	inline static constexpr unsigned int _Exception_TypeDefinitionIndex = 1434;
 
 	class _Exception
 	{

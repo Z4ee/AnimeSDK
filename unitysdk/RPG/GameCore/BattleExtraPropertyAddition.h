@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleExtraPropertyAddition_TypeDefinitionIndex = 22627;
+	inline static constexpr unsigned int BattleExtraPropertyAddition_TypeDefinitionIndex = 23409;
 
 	enum class BattleExtraPropertyAddition : ::System::Int32
 	{

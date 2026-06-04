@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HFLayerType_TypeDefinitionIndex = 43741;
+	inline static constexpr unsigned int HFLayerType_TypeDefinitionIndex = 37805;
 
 	enum class HFLayerType : ::System::Int32
 	{

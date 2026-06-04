@@ -8,16 +8,16 @@ namespace Epic::OnlineServices::Ecom { class TransactionCopyEntitlementByIndexOp
 namespace Epic::OnlineServices::Ecom { class TransactionGetEntitlementsCountOptions; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_TRANSACTION_COPYENTITLEMENTBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E83F30)
-#define EPIC_ONLINESERVICES_ECOM_TRANSACTION_GETENTITLEMENTSCOUNT_OFFSET UNITYSDK_OFFSET(0x8E84130)
-#define EPIC_ONLINESERVICES_ECOM_TRANSACTION_GETTRANSACTIONID_OFFSET UNITYSDK_OFFSET(0x8E84350)
-#define EPIC_ONLINESERVICES_ECOM_TRANSACTION_RELEASE_OFFSET UNITYSDK_OFFSET(0x8E845D0)
-#define EPIC_ONLINESERVICES_ECOM_TRANSACTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8E83F20)
-#define EPIC_ONLINESERVICES_ECOM_TRANSACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x8E83F10)
+#define EPIC_ONLINESERVICES_ECOM_TRANSACTION_COPYENTITLEMENTBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2C4E10)
+#define EPIC_ONLINESERVICES_ECOM_TRANSACTION_GETENTITLEMENTSCOUNT_OFFSET UNITYSDK_OFFSET(0xA2C5010)
+#define EPIC_ONLINESERVICES_ECOM_TRANSACTION_GETTRANSACTIONID_OFFSET UNITYSDK_OFFSET(0xA2C5250)
+#define EPIC_ONLINESERVICES_ECOM_TRANSACTION_RELEASE_OFFSET UNITYSDK_OFFSET(0xA2C54D0)
+#define EPIC_ONLINESERVICES_ECOM_TRANSACTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA2C4E00)
+#define EPIC_ONLINESERVICES_ECOM_TRANSACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA2C4DF0)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int Transaction_TypeDefinitionIndex = 42227;
+	inline static constexpr unsigned int Transaction_TypeDefinitionIndex = 43030;
 
 	class Transaction : public ::Epic::OnlineServices::Handle
 	{
@@ -30,24 +30,24 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_TRANSACTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_TRANSACTION__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_TRANSACTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopyEntitlementByIndex(::Epic::OnlineServices::Ecom::TransactionCopyEntitlementByIndexOptions* options, ::Epic::OnlineServices::Ecom::Entitlement*& outEntitlement)
+		::Epic::OnlineServices::Result CopyEntitlementByIndex(::Epic::OnlineServices::Ecom::TransactionCopyEntitlementByIndexOptions* a1, ::Epic::OnlineServices::Ecom::Entitlement*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::TransactionCopyEntitlementByIndexOptions*, ::Epic::OnlineServices::Ecom::Entitlement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_TRANSACTION_COPYENTITLEMENTBYINDEX_OFFSET))(this, options, outEntitlement);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::TransactionCopyEntitlementByIndexOptions*, ::Epic::OnlineServices::Ecom::Entitlement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_TRANSACTION_COPYENTITLEMENTBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetEntitlementsCount(::Epic::OnlineServices::Ecom::TransactionGetEntitlementsCountOptions* options)
+		::System::UInt32 GetEntitlementsCount(::Epic::OnlineServices::Ecom::TransactionGetEntitlementsCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::TransactionGetEntitlementsCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_TRANSACTION_GETENTITLEMENTSCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::TransactionGetEntitlementsCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_TRANSACTION_GETENTITLEMENTSCOUNT_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result GetTransactionId(::System::String*& outBuffer)
+		::Epic::OnlineServices::Result GetTransactionId(::System::String*& a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_TRANSACTION_GETTRANSACTIONID_OFFSET))(this, outBuffer);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_TRANSACTION_GETTRANSACTIONID_OFFSET))(this, a1);
 		}
 
 		::System::Void Release()

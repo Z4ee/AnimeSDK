@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int Base64FormattingOptions_TypeDefinitionIndex = 222;
+	inline static constexpr unsigned int Base64FormattingOptions_TypeDefinitionIndex = 221;
 
 	enum class Base64FormattingOptions : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace UnityEngine { class Camera; }
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int ICameraStateMgr_TypeDefinitionIndex = 40946;
+	inline static constexpr unsigned int ICameraStateMgr_TypeDefinitionIndex = 41764;
 
 	class ICameraStateMgr
 	{

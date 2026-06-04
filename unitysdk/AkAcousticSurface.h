@@ -4,25 +4,25 @@
 
 namespace System { class String; }
 
-#define AKACOUSTICSURFACE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A5C5180)
-#define AKACOUSTICSURFACE_CLONE_OFFSET UNITYSDK_OFFSET(0x1A5C5390)
-#define AKACOUSTICSURFACE_DELETENAME_OFFSET UNITYSDK_OFFSET(0x1A5C5230)
-#define AKACOUSTICSURFACE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1A5C4A80)
-#define AKACOUSTICSURFACE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5C4990)
-#define AKACOUSTICSURFACE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A5C4A10)
-#define AKACOUSTICSURFACE_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1A5C4880)
-#define AKACOUSTICSURFACE_GETSIZEOF_OFFSET UNITYSDK_OFFSET(0x1A5C52E0)
-#define AKACOUSTICSURFACE_GET_OCCLUSION_OFFSET UNITYSDK_OFFSET(0x1A5C4ED0)
-#define AKACOUSTICSURFACE_GET_STRNAME_OFFSET UNITYSDK_OFFSET(0x1A5C5060)
-#define AKACOUSTICSURFACE_GET_TEXTUREID_OFFSET UNITYSDK_OFFSET(0x1A5C4D60)
-#define AKACOUSTICSURFACE_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1A5C48D0)
-#define AKACOUSTICSURFACE_SET_OCCLUSION_OFFSET UNITYSDK_OFFSET(0x1A5C4E10)
-#define AKACOUSTICSURFACE_SET_STRNAME_OFFSET UNITYSDK_OFFSET(0x1A5C4F80)
-#define AKACOUSTICSURFACE_SET_TEXTUREID_OFFSET UNITYSDK_OFFSET(0x1A5C4CA0)
-#define AKACOUSTICSURFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A5C4C20)
-#define AKACOUSTICSURFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C4870)
+#define AKACOUSTICSURFACE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B410240)
+#define AKACOUSTICSURFACE_CLONE_OFFSET UNITYSDK_OFFSET(0x1B410450)
+#define AKACOUSTICSURFACE_DELETENAME_OFFSET UNITYSDK_OFFSET(0x1B4102F0)
+#define AKACOUSTICSURFACE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1B40FB00)
+#define AKACOUSTICSURFACE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B40F9E0)
+#define AKACOUSTICSURFACE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B40FA90)
+#define AKACOUSTICSURFACE_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1B40F8A0)
+#define AKACOUSTICSURFACE_GETSIZEOF_OFFSET UNITYSDK_OFFSET(0x1B4103A0)
+#define AKACOUSTICSURFACE_GET_OCCLUSION_OFFSET UNITYSDK_OFFSET(0x1B40FF90)
+#define AKACOUSTICSURFACE_GET_STRNAME_OFFSET UNITYSDK_OFFSET(0x1B410120)
+#define AKACOUSTICSURFACE_GET_TEXTUREID_OFFSET UNITYSDK_OFFSET(0x1B40FE20)
+#define AKACOUSTICSURFACE_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1B40F8F0)
+#define AKACOUSTICSURFACE_SET_OCCLUSION_OFFSET UNITYSDK_OFFSET(0x1B40FED0)
+#define AKACOUSTICSURFACE_SET_STRNAME_OFFSET UNITYSDK_OFFSET(0x1B410040)
+#define AKACOUSTICSURFACE_SET_TEXTUREID_OFFSET UNITYSDK_OFFSET(0x1B40FD60)
+#define AKACOUSTICSURFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B40FCE0)
+#define AKACOUSTICSURFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40F890)
 
-inline static constexpr unsigned int AkAcousticSurface_TypeDefinitionIndex = 40267;
+inline static constexpr unsigned int AkAcousticSurface_TypeDefinitionIndex = 41094;
 
 class AkAcousticSurface : public ::System::Object
 {
@@ -30,9 +30,9 @@ public:
 	::System::Boolean swigCMemOwn; // 0x10
 	::System::IntPtr swigCPtr; // 0x18
 
-	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void _ctor_1()
@@ -40,14 +40,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE__CTOR_1_OFFSET))(this);
 	}
 
-	static ::System::IntPtr getCPtr(::AkAcousticSurface* obj)
+	static ::System::IntPtr getCPtr(::AkAcousticSurface* a1)
 	{
-		return ((::System::IntPtr(*)(::AkAcousticSurface*))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_GETCPTR_OFFSET))(obj);
+		return ((::System::IntPtr(*)(::AkAcousticSurface*))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_GETCPTR_OFFSET))(a1);
 	}
 
-	::System::Void setCPtr(::System::IntPtr cPtr)
+	::System::Void setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_SETCPTR_OFFSET))(this, cPtr);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_SETCPTR_OFFSET))(this, a1);
 	}
 
 	::System::Void Finalize()
@@ -60,14 +60,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Dispose_1(::System::Boolean disposing)
+	::System::Void Dispose_1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_DISPOSE_1_OFFSET))(this, disposing);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_DISPOSE_1_OFFSET))(this, a1);
 	}
 
-	::System::Void set_textureID(::System::UInt32 value)
+	::System::Void set_textureID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_SET_TEXTUREID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_SET_TEXTUREID_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_textureID()
@@ -75,9 +75,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_GET_TEXTUREID_OFFSET))(this);
 	}
 
-	::System::Void set_occlusion(::System::Single value)
+	::System::Void set_occlusion(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_SET_OCCLUSION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_SET_OCCLUSION_OFFSET))(this, a1);
 	}
 
 	::System::Single get_occlusion()
@@ -85,9 +85,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_GET_OCCLUSION_OFFSET))(this);
 	}
 
-	::System::Void set_strName(::System::String* value)
+	::System::Void set_strName(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_SET_STRNAME_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_SET_STRNAME_OFFSET))(this, a1);
 	}
 
 	::System::String* get_strName()
@@ -110,8 +110,8 @@ public:
 		return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_GETSIZEOF_OFFSET))();
 	}
 
-	::System::Void Clone(::AkAcousticSurface* other)
+	::System::Void Clone(::AkAcousticSurface* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkAcousticSurface*))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_CLONE_OFFSET))(this, other);
+		return ((::System::Void(*)(::PVOID, ::AkAcousticSurface*))((::PBYTE)hIl2Cpp + AKACOUSTICSURFACE_CLONE_OFFSET))(this, a1);
 	}
 };

@@ -6,29 +6,29 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_RELICLEVELUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xAF95FF0)
-#define RPG_CLIENT_RELICLEVELUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAF95EA0)
+#define RPG_CLIENT_RELICLEVELUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xC6DD840)
+#define RPG_CLIENT_RELICLEVELUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC6DD920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicLevelUpBeforeData_TypeDefinitionIndex = 61589;
+	inline static constexpr unsigned int RelicLevelUpBeforeData_TypeDefinitionIndex = 62522;
 
 	class RelicLevelUpBeforeData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* SubAffixPropertyValueBefore; // 0x10
-		::RPG::GameCore::FixPoint MainAffixPropertyValueBefore; // 0x18
-		::System::UInt32 ExpBefore; // 0x20
-		::System::UInt32 LevelBefore; // 0x24
+		::System::UInt32 ExpBefore; // 0x18
+		::System::UInt32 LevelBefore; // 0x1C
+		::RPG::GameCore::FixPoint MainAffixPropertyValueBefore; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICLEVELUPBEFOREDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void CopyTo(::RPG::Client::RelicLevelUpBeforeData* other)
+		::System::Void CopyTo(::RPG::Client::RelicLevelUpBeforeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicLevelUpBeforeData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICLEVELUPBEFOREDATA_COPYTO_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicLevelUpBeforeData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICLEVELUPBEFOREDATA_COPYTO_OFFSET))(this, a1);
 		}
 	};
 }

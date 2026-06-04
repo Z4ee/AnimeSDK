@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class LuaUIController; }
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PORTALBUFFSELECTSTATE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA49C9A0)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PORTALBUFFSELECTSTATE___C__DISPLAYCLASS0_0__ONENTER_B__1_OFFSET UNITYSDK_OFFSET(0xA49C9B0)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PORTALBUFFSELECTSTATE___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB3C1C0)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_PORTALBUFFSELECTSTATE___C__DISPLAYCLASS0_0__ONENTER_B__1_OFFSET UNITYSDK_OFFSET(0xBB3C1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_PortalBuffSelectState___c__DisplayClass0_0_TypeDefinitionIndex = 59447;
+	inline static constexpr unsigned int GridFightFlowDirector_PortalBuffSelectState___c__DisplayClass0_0_TypeDefinitionIndex = 60382;
 
 	class GridFightFlowDirector_PortalBuffSelectState___c__DisplayClass0_0 : public ::System::Object
 	{

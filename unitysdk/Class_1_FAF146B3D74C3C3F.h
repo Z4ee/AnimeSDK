@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define CLASS_1_FAF146B3D74C3C3F_METHOD_1_8A4821B6962F6B25_OFFSET UNITYSDK_OFFSET(0x12136710)
-#define CLASS_1_FAF146B3D74C3C3F_TOSTRING_OFFSET UNITYSDK_OFFSET(0x121366A0)
-#define CLASS_1_FAF146B3D74C3C3F__CTOR_OFFSET UNITYSDK_OFFSET(0x12136690)
-#define CLASS_1_FAF146B3D74C3C3F___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x121369C0)
+#define CLASS_1_FAF146B3D74C3C3F_METHOD_1_107B313D17FCB4F7_OFFSET UNITYSDK_OFFSET(0x14453EB0)
+#define CLASS_1_FAF146B3D74C3C3F_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14453E40)
+#define CLASS_1_FAF146B3D74C3C3F__CTOR_OFFSET UNITYSDK_OFFSET(0x14453E30)
+#define CLASS_1_FAF146B3D74C3C3F___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x144540E0)
 
-inline static constexpr unsigned int Class_1_FAF146B3D74C3C3F_TypeDefinitionIndex = 72662;
+inline static constexpr unsigned int Class_1_FAF146B3D74C3C3F_TypeDefinitionIndex = 74485;
 
 class Class_1_FAF146B3D74C3C3F : public ::System::Object
 {
 public:
-	::System::String* Field_1_2; // 0x10
-	::System::Int32 Field_1_0; // 0x18
-	::System::Int32 Field_1_1; // 0x1C
+	::System::String* Field_1_0; // 0x10
+	::System::Int32 Field_1_1; // 0x18
+	::System::Int32 Field_1_2; // 0x1C
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3)
 	{
@@ -28,9 +28,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FAF146B3D74C3C3F_TOSTRING_OFFSET))(this);
 	}
 
-	::System::Void Method_1_8A4821B6962F6B25(::Class_1_FAF146B3D74C3C3F* a1)
+	::System::Void Method_1_107B313D17FCB4F7(::Class_1_FAF146B3D74C3C3F* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_FAF146B3D74C3C3F*))((::PBYTE)hIl2Cpp + CLASS_1_FAF146B3D74C3C3F_METHOD_1_8A4821B6962F6B25_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_FAF146B3D74C3C3F*))((::PBYTE)hIl2Cpp + CLASS_1_FAF146B3D74C3C3F_METHOD_1_107B313D17FCB4F7_OFFSET))(this, a1);
 	}
 
 	::System::String* __iFixBaseProxy_ToString()

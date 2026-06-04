@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SKILLPARAMMAPPING_METHOD_2_21CC4DB7E1DBD914_OFFSET UNITYSDK_OFFSET(0x18E729F0)
-#define RPG_GAMECORE_SKILLPARAMMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x18E72C20)
+#define RPG_GAMECORE_SKILLPARAMMAPPING_METHOD_2_82AA03DE7525152B_OFFSET UNITYSDK_OFFSET(0x19C8E700)
+#define RPG_GAMECORE_SKILLPARAMMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8E8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillParamMapping_TypeDefinitionIndex = 17263;
+	inline static constexpr unsigned int SkillParamMapping_TypeDefinitionIndex = 17271;
 
 	class SkillParamMapping : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLPARAMMAPPING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_21CC4DB7E1DBD914(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SkillParamMapping*& a2)
+		static ::System::Void Method_2_82AA03DE7525152B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SkillParamMapping*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SkillParamMapping*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLPARAMMAPPING_METHOD_2_21CC4DB7E1DBD914_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SkillParamMapping*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLPARAMMAPPING_METHOD_2_82AA03DE7525152B_OFFSET))(a1, a2);
 		}
 	};
 }

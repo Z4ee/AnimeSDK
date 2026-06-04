@@ -7,12 +7,12 @@ namespace System::Net { class Authorization; }
 namespace System::Net { class ICredentials; }
 namespace System::Net { class WebRequest; }
 
-#define SYSTEM_NET_BASICCLIENT_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1A0F07A0)
-#define SYSTEM_NET_BASICCLIENT_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1A0F0AB0)
-#define SYSTEM_NET_BASICCLIENT_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1A0F0B90)
-#define SYSTEM_NET_BASICCLIENT_INTERNALAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1A0F0850)
-#define SYSTEM_NET_BASICCLIENT_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1A0F0B80)
-#define SYSTEM_NET_BASICCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0EF1F0)
+#define SYSTEM_NET_BASICCLIENT_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1AF56F90)
+#define SYSTEM_NET_BASICCLIENT_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1AF572D0)
+#define SYSTEM_NET_BASICCLIENT_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1AF573A0)
+#define SYSTEM_NET_BASICCLIENT_INTERNALAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1AF57040)
+#define SYSTEM_NET_BASICCLIENT_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1AF57390)
+#define SYSTEM_NET_BASICCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF55EA0)
 
 namespace System::Net
 {
@@ -26,24 +26,24 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_BASICCLIENT__CTOR_OFFSET))(this);
 		}
 
-		::System::Net::Authorization* Authenticate(::System::String* challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials)
+		::System::Net::Authorization* Authenticate(::System::String* a1, ::System::Net::WebRequest* a2, ::System::Net::ICredentials* a3)
 		{
-			return ((::System::Net::Authorization*(*)(::PVOID, ::System::String*, ::System::Net::WebRequest*, ::System::Net::ICredentials*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BASICCLIENT_AUTHENTICATE_OFFSET))(this, challenge, webRequest, credentials);
+			return ((::System::Net::Authorization*(*)(::PVOID, ::System::String*, ::System::Net::WebRequest*, ::System::Net::ICredentials*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BASICCLIENT_AUTHENTICATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetBytes(::System::String* str)
+		static ::Il2CppArray<::System::Byte>* GetBytes(::System::String* a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BASICCLIENT_GETBYTES_OFFSET))(str);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BASICCLIENT_GETBYTES_OFFSET))(a1);
 		}
 
-		static ::System::Net::Authorization* InternalAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials)
+		static ::System::Net::Authorization* InternalAuthenticate(::System::Net::WebRequest* a1, ::System::Net::ICredentials* a2)
 		{
-			return ((::System::Net::Authorization*(*)(::System::Net::WebRequest*, ::System::Net::ICredentials*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BASICCLIENT_INTERNALAUTHENTICATE_OFFSET))(webRequest, credentials);
+			return ((::System::Net::Authorization*(*)(::System::Net::WebRequest*, ::System::Net::ICredentials*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BASICCLIENT_INTERNALAUTHENTICATE_OFFSET))(a1, a2);
 		}
 
-		::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials)
+		::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* a1, ::System::Net::ICredentials* a2)
 		{
-			return ((::System::Net::Authorization*(*)(::PVOID, ::System::Net::WebRequest*, ::System::Net::ICredentials*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BASICCLIENT_PREAUTHENTICATE_OFFSET))(this, webRequest, credentials);
+			return ((::System::Net::Authorization*(*)(::PVOID, ::System::Net::WebRequest*, ::System::Net::ICredentials*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BASICCLIENT_PREAUTHENTICATE_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_AuthenticationType()

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONSTERSNEAKCONST_METHOD_2_72EC30BC54AB6B00_OFFSET UNITYSDK_OFFSET(0x18B61470)
-#define RPG_GAMECORE_MONSTERSNEAKCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x18B61840)
+#define RPG_GAMECORE_MONSTERSNEAKCONST_METHOD_2_EDA7D147F13CB5EF_OFFSET UNITYSDK_OFFSET(0x199B0A00)
+#define RPG_GAMECORE_MONSTERSNEAKCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x199B0DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterSneakConst_TypeDefinitionIndex = 16213;
+	inline static constexpr unsigned int MonsterSneakConst_TypeDefinitionIndex = 16253;
 
 	class MonsterSneakConst : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSNEAKCONST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_72EC30BC54AB6B00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterSneakConst*& a2)
+		static ::System::Void Method_2_EDA7D147F13CB5EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterSneakConst*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterSneakConst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSNEAKCONST_METHOD_2_72EC30BC54AB6B00_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterSneakConst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSNEAKCONST_METHOD_2_EDA7D147F13CB5EF_OFFSET))(a1, a2);
 		}
 	};
 }

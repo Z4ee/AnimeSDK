@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AimSolver_Struct_2_CC346D804C45C8EA_TypeDefinitionIndex = 63101;
+	inline static constexpr unsigned int AimSolver_Struct_2_CC346D804C45C8EA_TypeDefinitionIndex = 64018;
 
 	struct alignas(2) AimSolver_Struct_2_CC346D804C45C8EA
 	{

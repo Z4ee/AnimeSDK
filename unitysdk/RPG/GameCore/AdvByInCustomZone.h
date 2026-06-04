@@ -4,15 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVBYINCUSTOMZONE_METHOD_4_9E7088E2144032D1_OFFSET UNITYSDK_OFFSET(0x18649240)
-#define RPG_GAMECORE_ADVBYINCUSTOMZONE_METHOD_4_C162C7C2FEF38DE9_OFFSET UNITYSDK_OFFSET(0x18649310)
-#define RPG_GAMECORE_ADVBYINCUSTOMZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x186492C0)
+#define RPG_GAMECORE_ADVBYINCUSTOMZONE_METHOD_4_7AD276F2CF1E156A_OFFSET UNITYSDK_OFFSET(0x1941B760)
+#define RPG_GAMECORE_ADVBYINCUSTOMZONE_METHOD_4_9E7088E2144032D1_OFFSET UNITYSDK_OFFSET(0x1941B470)
+#define RPG_GAMECORE_ADVBYINCUSTOMZONE_METHOD_4_B4D85E953F186AE9_OFFSET UNITYSDK_OFFSET(0x1941B7E0)
+#define RPG_GAMECORE_ADVBYINCUSTOMZONE_METHOD_4_C162C7C2FEF38DE9_OFFSET UNITYSDK_OFFSET(0x1941B540)
+#define RPG_GAMECORE_ADVBYINCUSTOMZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1941B4F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvByInCustomZone_TypeDefinitionIndex = 18943;
+	inline static constexpr unsigned int AdvByInCustomZone_TypeDefinitionIndex = 18897;
 
 	class AdvByInCustomZone : public ::RPG::GameCore::PredicateConfig
 	{
@@ -34,6 +37,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_C162C7C2FEF38DE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvByInCustomZone* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvByInCustomZone*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYINCUSTOMZONE_METHOD_4_C162C7C2FEF38DE9_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_7AD276F2CF1E156A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvByInCustomZone*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvByInCustomZone*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYINCUSTOMZONE_METHOD_4_7AD276F2CF1E156A_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_B4D85E953F186AE9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvByInCustomZone* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvByInCustomZone*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYINCUSTOMZONE_METHOD_4_B4D85E953F186AE9_OFFSET))(a1, a2);
 		}
 	};
 }

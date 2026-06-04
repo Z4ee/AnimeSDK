@@ -3,7 +3,7 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ArrayPoolEventSource_BufferAllocatedReason_TypeDefinitionIndex = 4770;
+	inline static constexpr unsigned int ArrayPoolEventSource_BufferAllocatedReason_TypeDefinitionIndex = 3737;
 
 	enum class ArrayPoolEventSource_BufferAllocatedReason : ::System::Int32
 	{

@@ -9,34 +9,34 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define MIHOYOSDKJSON_JSONNULL_CREATEORGET_OFFSET UNITYSDK_OFFSET(0x8DE4E20)
-#define MIHOYOSDKJSON_JSONNULL_EQUALS_OFFSET UNITYSDK_OFFSET(0x8DE7190)
-#define MIHOYOSDKJSON_JSONNULL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x8DE7130)
-#define MIHOYOSDKJSON_JSONNULL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8DE71D0)
-#define MIHOYOSDKJSON_JSONNULL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x8DE7170)
-#define MIHOYOSDKJSON_JSONNULL_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x8DE7120)
-#define MIHOYOSDKJSON_JSONNULL_GET_TAG_OFFSET UNITYSDK_OFFSET(0x8DE7110)
-#define MIHOYOSDKJSON_JSONNULL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x8DE7150)
-#define MIHOYOSDKJSON_JSONNULL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x8DE7180)
-#define MIHOYOSDKJSON_JSONNULL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x8DE7160)
-#define MIHOYOSDKJSON_JSONNULL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x8DE71E0)
-#define MIHOYOSDKJSON_JSONNULL__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DE7210)
-#define MIHOYOSDKJSON_JSONNULL__CTOR_OFFSET UNITYSDK_OFFSET(0x8DE70F0)
+#define MIHOYOSDKJSON_JSONNULL_CREATEORGET_OFFSET UNITYSDK_OFFSET(0xA22E260)
+#define MIHOYOSDKJSON_JSONNULL_EQUALS_OFFSET UNITYSDK_OFFSET(0xA233880)
+#define MIHOYOSDKJSON_JSONNULL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xA233820)
+#define MIHOYOSDKJSON_JSONNULL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA2338E0)
+#define MIHOYOSDKJSON_JSONNULL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0xA233860)
+#define MIHOYOSDKJSON_JSONNULL_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0xA233810)
+#define MIHOYOSDKJSON_JSONNULL_GET_TAG_OFFSET UNITYSDK_OFFSET(0xA233800)
+#define MIHOYOSDKJSON_JSONNULL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA233840)
+#define MIHOYOSDKJSON_JSONNULL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0xA233870)
+#define MIHOYOSDKJSON_JSONNULL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xA233850)
+#define MIHOYOSDKJSON_JSONNULL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0xA2338F0)
+#define MIHOYOSDKJSON_JSONNULL__CCTOR_OFFSET UNITYSDK_OFFSET(0xA233920)
+#define MIHOYOSDKJSON_JSONNULL__CTOR_OFFSET UNITYSDK_OFFSET(0xA2337E0)
 
 namespace MiHoYoSDKJSON
 {
-	inline static constexpr unsigned int JSONNull_TypeDefinitionIndex = 42665;
+	inline static constexpr unsigned int JSONNull_TypeDefinitionIndex = 43468;
 
 	class JSONNull : public ::MiHoYoSDKJSON::JSONNode
 	{
 	public:
 		static ::MiHoYoSDKJSON::JSONNull** StaticGet_m_StaticInstance()
 		{
-			return (::MiHoYoSDKJSON::JSONNull**)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0x56550);
+			return (::MiHoYoSDKJSON::JSONNull**)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0x15900);
 		}
 		static ::System::Boolean* StaticGet_reuseSameInstance()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0x100C0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0x7DF0);
 		}
 
 		::System::Void _ctor()
@@ -74,9 +74,9 @@ namespace MiHoYoSDKJSON
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNULL_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::String* value)
+		::System::Void set_Value(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNULL_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNULL_SET_VALUE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_AsBool()
@@ -84,14 +84,14 @@ namespace MiHoYoSDKJSON
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNULL_GET_ASBOOL_OFFSET))(this);
 		}
 
-		::System::Void set_AsBool(::System::Boolean value)
+		::System::Void set_AsBool(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNULL_SET_ASBOOL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNULL_SET_ASBOOL_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNULL_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNULL_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -99,9 +99,9 @@ namespace MiHoYoSDKJSON
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNULL_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* aSB, ::System::Int32 aIndent, ::System::Int32 aIndentInc, ::MiHoYoSDKJSON::JSONTextMode aMode)
+		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* a1, ::System::Int32 a2, ::System::Int32 a3, ::MiHoYoSDKJSON::JSONTextMode a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::MiHoYoSDKJSON::JSONTextMode))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNULL_WRITETOSTRINGBUILDER_OFFSET))(this, aSB, aIndent, aIndentInc, aMode);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::MiHoYoSDKJSON::JSONTextMode))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNULL_WRITETOSTRINGBUILDER_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

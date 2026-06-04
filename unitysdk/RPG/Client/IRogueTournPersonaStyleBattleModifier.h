@@ -5,7 +5,7 @@ namespace RPG::Client { class IRogueTournPersonaStyleModifierBattlePassive; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaStyleBattleModifier_TypeDefinitionIndex = 62389;
+	inline static constexpr unsigned int IRogueTournPersonaStyleBattleModifier_TypeDefinitionIndex = 63322;
 
 	class IRogueTournPersonaStyleBattleModifier
 	{

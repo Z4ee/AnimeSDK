@@ -11,23 +11,23 @@ namespace System::Xml::Schema { class XmlSchemaElement; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 
-#define SYSTEM_XML_XMLNAME_CREATE_OFFSET UNITYSDK_OFFSET(0x1A05A980)
-#define SYSTEM_XML_XMLNAME_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A05B040)
-#define SYSTEM_XML_XMLNAME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A05B050)
-#define SYSTEM_XML_XMLNAME_GET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x1A05AFB0)
-#define SYSTEM_XML_XMLNAME_GET_ISDEFAULT_OFFSET UNITYSDK_OFFSET(0x1A05AFE0)
-#define SYSTEM_XML_XMLNAME_GET_ISNIL_OFFSET UNITYSDK_OFFSET(0x1A05AFF0)
-#define SYSTEM_XML_XMLNAME_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1A05AF80)
-#define SYSTEM_XML_XMLNAME_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1A05B000)
-#define SYSTEM_XML_XMLNAME_GET_NAMESPACEURI_OFFSET UNITYSDK_OFFSET(0x1A05AF90)
-#define SYSTEM_XML_XMLNAME_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A0497C0)
-#define SYSTEM_XML_XMLNAME_GET_OWNERDOCUMENT_OFFSET UNITYSDK_OFFSET(0x1A05AFC0)
-#define SYSTEM_XML_XMLNAME_GET_PREFIX_OFFSET UNITYSDK_OFFSET(0x1A05AFA0)
-#define SYSTEM_XML_XMLNAME_GET_SCHEMAATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1A05B030)
-#define SYSTEM_XML_XMLNAME_GET_SCHEMAELEMENT_OFFSET UNITYSDK_OFFSET(0x1A05B020)
-#define SYSTEM_XML_XMLNAME_GET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1A05B010)
-#define SYSTEM_XML_XMLNAME_GET_VALIDITY_OFFSET UNITYSDK_OFFSET(0x1A05AFD0)
-#define SYSTEM_XML_XMLNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05AA60)
+#define SYSTEM_XML_XMLNAME_CREATE_OFFSET UNITYSDK_OFFSET(0x1AECCDF0)
+#define SYSTEM_XML_XMLNAME_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AECD4D0)
+#define SYSTEM_XML_XMLNAME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AECD4E0)
+#define SYSTEM_XML_XMLNAME_GET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x1AECD440)
+#define SYSTEM_XML_XMLNAME_GET_ISDEFAULT_OFFSET UNITYSDK_OFFSET(0x1AECD470)
+#define SYSTEM_XML_XMLNAME_GET_ISNIL_OFFSET UNITYSDK_OFFSET(0x1AECD480)
+#define SYSTEM_XML_XMLNAME_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1AECD410)
+#define SYSTEM_XML_XMLNAME_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1AECD490)
+#define SYSTEM_XML_XMLNAME_GET_NAMESPACEURI_OFFSET UNITYSDK_OFFSET(0x1AECD420)
+#define SYSTEM_XML_XMLNAME_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1AEBBC80)
+#define SYSTEM_XML_XMLNAME_GET_OWNERDOCUMENT_OFFSET UNITYSDK_OFFSET(0x1AECD450)
+#define SYSTEM_XML_XMLNAME_GET_PREFIX_OFFSET UNITYSDK_OFFSET(0x1AECD430)
+#define SYSTEM_XML_XMLNAME_GET_SCHEMAATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1AECD4C0)
+#define SYSTEM_XML_XMLNAME_GET_SCHEMAELEMENT_OFFSET UNITYSDK_OFFSET(0x1AECD4B0)
+#define SYSTEM_XML_XMLNAME_GET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1AECD4A0)
+#define SYSTEM_XML_XMLNAME_GET_VALIDITY_OFFSET UNITYSDK_OFFSET(0x1AECD460)
+#define SYSTEM_XML_XMLNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1AECCED0)
 
 namespace System::Xml
 {
@@ -36,22 +36,22 @@ namespace System::Xml
 	class XmlName : public ::System::Object
 	{
 	public:
-		::System::String* localName; // 0x10
-		::System::Xml::XmlName* next; // 0x18
-		::System::String* prefix; // 0x20
-		::System::String* ns; // 0x28
-		::System::Xml::XmlDocument* ownerDoc; // 0x30
-		::System::String* name; // 0x38
+		::System::String* prefix; // 0x10
+		::System::String* localName; // 0x18
+		::System::String* name; // 0x20
+		::System::Xml::XmlName* next; // 0x28
+		::System::String* ns; // 0x30
+		::System::Xml::XmlDocument* ownerDoc; // 0x38
 		::System::Int32 hashCode; // 0x40
 
-		::System::Void _ctor(::System::String* prefix, ::System::String* localName, ::System::String* ns, ::System::Int32 hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4, ::System::Xml::XmlDocument* a5, ::System::Xml::XmlName* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Xml::XmlDocument*, ::System::Xml::XmlName*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAME__CTOR_OFFSET))(this, prefix, localName, ns, hashCode, ownerDoc, next);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Xml::XmlDocument*, ::System::Xml::XmlName*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAME__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Xml::XmlName* Create(::System::String* prefix, ::System::String* localName, ::System::String* ns, ::System::Int32 hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo)
+		static ::System::Xml::XmlName* Create(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4, ::System::Xml::XmlDocument* a5, ::System::Xml::XmlName* a6, ::System::Xml::Schema::IXmlSchemaInfo* a7)
 		{
-			return ((::System::Xml::XmlName*(*)(::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Xml::XmlDocument*, ::System::Xml::XmlName*, ::System::Xml::Schema::IXmlSchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAME_CREATE_OFFSET))(prefix, localName, ns, hashCode, ownerDoc, next, schemaInfo);
+			return ((::System::Xml::XmlName*(*)(::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Xml::XmlDocument*, ::System::Xml::XmlName*, ::System::Xml::Schema::IXmlSchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAME_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::String* get_LocalName()
@@ -119,14 +119,14 @@ namespace System::Xml
 			return ((::System::Xml::Schema::XmlSchemaAttribute*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAME_GET_SCHEMAATTRIBUTE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Xml::Schema::IXmlSchemaInfo* schemaInfo)
+		::System::Boolean Equals(::System::Xml::Schema::IXmlSchemaInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Xml::Schema::IXmlSchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAME_EQUALS_OFFSET))(this, schemaInfo);
+			return ((::System::Boolean(*)(::PVOID, ::System::Xml::Schema::IXmlSchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAME_EQUALS_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 GetHashCode(::System::String* name)
+		static ::System::Int32 GetHashCode(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAME_GETHASHCODE_OFFSET))(name);
+			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAME_GETHASHCODE_OFFSET))(a1);
 		}
 	};
 }

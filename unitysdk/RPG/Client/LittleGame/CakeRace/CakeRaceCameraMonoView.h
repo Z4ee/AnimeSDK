@@ -6,16 +6,16 @@ namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCameraMonoView_MoveC
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_MANUALSTART_OFFSET UNITYSDK_OFFSET(0xA676960)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_MANUALSTOP_OFFSET UNITYSDK_OFFSET(0xA676EE0)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0xA676B10)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_TICKCAMERALIST_OFFSET UNITYSDK_OFFSET(0xA676BA0)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xA677240)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW__TRIGGERSTARTCAMERAEVENT_OFFSET UNITYSDK_OFFSET(0xA6770D0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_MANUALSTART_OFFSET UNITYSDK_OFFSET(0xBDC1250)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_MANUALSTOP_OFFSET UNITYSDK_OFFSET(0xBDC1790)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0xBDC13C0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_TICKCAMERALIST_OFFSET UNITYSDK_OFFSET(0xBDC1460)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC1AD0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW__TRIGGERSTARTCAMERAEVENT_OFFSET UNITYSDK_OFFSET(0xBDC1960)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCameraMonoView_TypeDefinitionIndex = 71642;
+	inline static constexpr unsigned int CakeRaceCameraMonoView_TypeDefinitionIndex = 72664;
 
 	class CakeRaceCameraMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceMonoView
 	{
@@ -36,9 +36,9 @@ namespace RPG::Client::LittleGame::CakeRace
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_MANUALSTART_OFFSET))(this);
 		}
 
-		::System::Void ManualUpdate(::System::Single deltaTime)
+		::System::Void ManualUpdate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_MANUALUPDATE_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_MANUALUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Void ManualStop()
@@ -46,14 +46,14 @@ namespace RPG::Client::LittleGame::CakeRace
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_MANUALSTOP_OFFSET))(this);
 		}
 
-		::System::Boolean TickCameraList(::System::Collections::Generic::List_1<::RPG::Client::LittleGame::CakeRace::CakeRaceCameraMonoView_MoveCameraInfo*>* cameraInfoList, ::System::Single deltaTime)
+		::System::Boolean TickCameraList(::System::Collections::Generic::List_1<::RPG::Client::LittleGame::CakeRace::CakeRaceCameraMonoView_MoveCameraInfo*>* a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::CakeRace::CakeRaceCameraMonoView_MoveCameraInfo*>*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_TICKCAMERALIST_OFFSET))(this, cameraInfoList, deltaTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::CakeRace::CakeRaceCameraMonoView_MoveCameraInfo*>*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW_TICKCAMERALIST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _TriggerStartCameraEvent(::System::Int32 camIndex)
+		::System::Void _TriggerStartCameraEvent(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW__TRIGGERSTARTCAMERAEVENT_OFFSET))(this, camIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECAMERAMONOVIEW__TRIGGERSTARTCAMERAEVENT_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,17 +6,17 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_GET_NAME_OFFSET UNITYSDK_OFFSET(0x8BA3460)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_GET_THRESHOLD_OFFSET UNITYSDK_OFFSET(0x8BA3480)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_1_OFFSET UNITYSDK_OFFSET(0x8BA3700)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_NAME_OFFSET UNITYSDK_OFFSET(0x8BA3470)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_OFFSET UNITYSDK_OFFSET(0x8BA34A0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_THRESHOLD_OFFSET UNITYSDK_OFFSET(0x8BA3490)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BA3810)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA0BDB40)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_GET_THRESHOLD_OFFSET UNITYSDK_OFFSET(0xA0BDB60)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_1_OFFSET UNITYSDK_OFFSET(0xA0BDDE0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_NAME_OFFSET UNITYSDK_OFFSET(0xA0BDB50)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_OFFSET UNITYSDK_OFFSET(0xA0BDB80)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_THRESHOLD_OFFSET UNITYSDK_OFFSET(0xA0BDB70)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS__CTOR_OFFSET UNITYSDK_OFFSET(0xA0BDF00)
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int StatThresholds_TypeDefinitionIndex = 42641;
+	inline static constexpr unsigned int StatThresholds_TypeDefinitionIndex = 43444;
 
 	class StatThresholds : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::Achievements
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Threshold()
@@ -44,19 +44,19 @@ namespace Epic::OnlineServices::Achievements
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_GET_THRESHOLD_OFFSET))(this);
 		}
 
-		::System::Void set_Threshold(::System::Int32 value)
+		::System::Void set_Threshold(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_THRESHOLD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_THRESHOLD_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Achievements::StatThresholdsInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Achievements::StatThresholdsInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Achievements::StatThresholdsInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Achievements::StatThresholdsInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_STATTHRESHOLDS_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

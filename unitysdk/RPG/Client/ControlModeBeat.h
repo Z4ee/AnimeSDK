@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ControlModeBeat_TypeDefinitionIndex = 65287;
+	inline static constexpr unsigned int ControlModeBeat_TypeDefinitionIndex = 66214;
 
 	enum class ControlModeBeat : ::System::Int32
 	{

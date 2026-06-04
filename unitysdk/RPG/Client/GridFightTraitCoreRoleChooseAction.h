@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightTraitChooseBaseAction.h"
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION_SELECTMEMBER_OFFSET UNITYSDK_OFFSET(0xA5B5DD0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION_SYNC_OFFSET UNITYSDK_OFFSET(0xA5B5D80)
-#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA5B5D70)
+#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION_SELECTMEMBER_OFFSET UNITYSDK_OFFSET(0xBC282C0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION_SYNC_OFFSET UNITYSDK_OFFSET(0xBC28270)
+#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xBC28260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitCoreRoleChooseAction_TypeDefinitionIndex = 60176;
+	inline static constexpr unsigned int GridFightTraitCoreRoleChooseAction_TypeDefinitionIndex = 61111;
 
 	class GridFightTraitCoreRoleChooseAction : public ::RPG::Client::GridFightTraitChooseBaseAction
 	{
 	public:
-		::System::Void _ctor(::System::UInt32 traitID, ::System::UInt32 effectID)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION__CTOR_OFFSET))(this, traitID, effectID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Sync(::System::UInt32 actionID)
+		::System::Void Sync(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION_SYNC_OFFSET))(this, actionID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION_SYNC_OFFSET))(this, a1);
 		}
 
-		::System::Void SelectMember(::System::UInt32 uid)
+		::System::Void SelectMember(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION_SELECTMEMBER_OFFSET))(this, uid);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEACTION_SELECTMEMBER_OFFSET))(this, a1);
 		}
 	};
 }

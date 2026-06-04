@@ -12,26 +12,26 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::EventSystems { class PointerInputModule_MouseState; }
 
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_CLEARSELECTION_OFFSET UNITYSDK_OFFSET(0x1A530C20)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_COPYFROMTO_OFFSET UNITYSDK_OFFSET(0x1A52FD60)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_DESELECTIFSELECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1A531130)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETLASTPOINTEREVENTDATA_OFFSET UNITYSDK_OFFSET(0x1A5304F0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETMOUSEPOINTEREVENTDATA_1_OFFSET UNITYSDK_OFFSET(0x1A52FEA0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETMOUSEPOINTEREVENTDATA_OFFSET UNITYSDK_OFFSET(0x1A52FE80)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETPOINTERDATA_OFFSET UNITYSDK_OFFSET(0x1A52F8F0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETTOUCHPOINTEREVENTDATA_OFFSET UNITYSDK_OFFSET(0x1A52FB10)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_ISPOINTEROVERGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1A530B80)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_PROCESSDRAG_OFFSET UNITYSDK_OFFSET(0x1A530600)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_PROCESSMOVE_OFFSET UNITYSDK_OFFSET(0x1A5305C0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_REMOVEPOINTERDATA_OFFSET UNITYSDK_OFFSET(0x1A52FAE0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_SHOULDSTARTDRAG_OFFSET UNITYSDK_OFFSET(0x1A530580)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_STATEFORMOUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1A52FDF0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A530E30)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A531290)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_CLEARSELECTION_OFFSET UNITYSDK_OFFSET(0x1B37C680)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_COPYFROMTO_OFFSET UNITYSDK_OFFSET(0x1B37B8F0)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_DESELECTIFSELECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1B37CBC0)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETLASTPOINTEREVENTDATA_OFFSET UNITYSDK_OFFSET(0x1B37BFB0)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETMOUSEPOINTEREVENTDATA_1_OFFSET UNITYSDK_OFFSET(0x1B37BA30)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETMOUSEPOINTEREVENTDATA_OFFSET UNITYSDK_OFFSET(0x1B37BA10)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETPOINTERDATA_OFFSET UNITYSDK_OFFSET(0x1B37B520)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETTOUCHPOINTEREVENTDATA_OFFSET UNITYSDK_OFFSET(0x1B37B730)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_ISPOINTEROVERGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B37C610)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_PROCESSDRAG_OFFSET UNITYSDK_OFFSET(0x1B37C090)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_PROCESSMOVE_OFFSET UNITYSDK_OFFSET(0x1B37C050)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_REMOVEPOINTERDATA_OFFSET UNITYSDK_OFFSET(0x1B37B6D0)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_SHOULDSTARTDRAG_OFFSET UNITYSDK_OFFSET(0x1B37C010)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_STATEFORMOUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1B37B980)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B37C8D0)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B37CD20)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int PointerInputModule_TypeDefinitionIndex = 5819;
+	inline static constexpr unsigned int PointerInputModule_TypeDefinitionIndex = 6096;
 
 	class PointerInputModule : public ::UnityEngine::EventSystems::BaseInputModule
 	{
@@ -48,29 +48,29 @@ namespace UnityEngine::EventSystems
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean GetPointerData(::System::Int32 id, ::UnityEngine::EventSystems::PointerEventData*& data, ::System::Boolean create)
+		::System::Boolean GetPointerData(::System::Int32 a1, ::UnityEngine::EventSystems::PointerEventData*& a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::EventSystems::PointerEventData*&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETPOINTERDATA_OFFSET))(this, id, data, create);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::EventSystems::PointerEventData*&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETPOINTERDATA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RemovePointerData(::UnityEngine::EventSystems::PointerEventData* data)
+		::System::Void RemovePointerData(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_REMOVEPOINTERDATA_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_REMOVEPOINTERDATA_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::EventSystems::PointerEventData* GetTouchPointerEventData(::UnityEngine::Touch input, ::System::Boolean& pressed, ::System::Boolean& released)
+		::UnityEngine::EventSystems::PointerEventData* GetTouchPointerEventData(::UnityEngine::Touch a1, ::System::Boolean& a2, ::System::Boolean& a3)
 		{
-			return ((::UnityEngine::EventSystems::PointerEventData*(*)(::PVOID, ::UnityEngine::Touch, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETTOUCHPOINTEREVENTDATA_OFFSET))(this, input, pressed, released);
+			return ((::UnityEngine::EventSystems::PointerEventData*(*)(::PVOID, ::UnityEngine::Touch, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETTOUCHPOINTEREVENTDATA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void CopyFromTo(::UnityEngine::EventSystems::PointerEventData* from, ::UnityEngine::EventSystems::PointerEventData* to)
+		::System::Void CopyFromTo(::UnityEngine::EventSystems::PointerEventData* a1, ::UnityEngine::EventSystems::PointerEventData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_COPYFROMTO_OFFSET))(this, from, to);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_COPYFROMTO_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::EventSystems::PointerEventData_FramePressState StateForMouseButton(::System::Int32 buttonId)
+		::UnityEngine::EventSystems::PointerEventData_FramePressState StateForMouseButton(::System::Int32 a1)
 		{
-			return ((::UnityEngine::EventSystems::PointerEventData_FramePressState(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_STATEFORMOUSEBUTTON_OFFSET))(this, buttonId);
+			return ((::UnityEngine::EventSystems::PointerEventData_FramePressState(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_STATEFORMOUSEBUTTON_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::EventSystems::PointerInputModule_MouseState* GetMousePointerEventData()
@@ -78,34 +78,34 @@ namespace UnityEngine::EventSystems
 			return ((::UnityEngine::EventSystems::PointerInputModule_MouseState*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETMOUSEPOINTEREVENTDATA_OFFSET))(this);
 		}
 
-		::UnityEngine::EventSystems::PointerInputModule_MouseState* GetMousePointerEventData_1(::System::Int32 id)
+		::UnityEngine::EventSystems::PointerInputModule_MouseState* GetMousePointerEventData_1(::System::Int32 a1)
 		{
-			return ((::UnityEngine::EventSystems::PointerInputModule_MouseState*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETMOUSEPOINTEREVENTDATA_1_OFFSET))(this, id);
+			return ((::UnityEngine::EventSystems::PointerInputModule_MouseState*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETMOUSEPOINTEREVENTDATA_1_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::EventSystems::PointerEventData* GetLastPointerEventData(::System::Int32 id)
+		::UnityEngine::EventSystems::PointerEventData* GetLastPointerEventData(::System::Int32 a1)
 		{
-			return ((::UnityEngine::EventSystems::PointerEventData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETLASTPOINTEREVENTDATA_OFFSET))(this, id);
+			return ((::UnityEngine::EventSystems::PointerEventData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_GETLASTPOINTEREVENTDATA_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean ShouldStartDrag(::UnityEngine::Vector2 pressPos, ::UnityEngine::Vector2 currentPos, ::System::Single threshold, ::System::Boolean useDragThreshold)
+		static ::System::Boolean ShouldStartDrag(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_SHOULDSTARTDRAG_OFFSET))(pressPos, currentPos, threshold, useDragThreshold);
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_SHOULDSTARTDRAG_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::Void ProcessMove(::UnityEngine::EventSystems::PointerEventData* pointerEvent)
+		::System::Void ProcessMove(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_PROCESSMOVE_OFFSET))(this, pointerEvent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_PROCESSMOVE_OFFSET))(this, a1);
 		}
 
-		::System::Void ProcessDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent)
+		::System::Void ProcessDrag(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_PROCESSDRAG_OFFSET))(this, pointerEvent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_PROCESSDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsPointerOverGameObject(::System::Int32 pointerId)
+		::System::Boolean IsPointerOverGameObject(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_ISPOINTEROVERGAMEOBJECT_OFFSET))(this, pointerId);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_ISPOINTEROVERGAMEOBJECT_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearSelection()
@@ -118,9 +118,9 @@ namespace UnityEngine::EventSystems
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void DeselectIfSelectionChanged(::UnityEngine::GameObject* currentOverGo, ::UnityEngine::EventSystems::BaseEventData* pointerEvent)
+		::System::Void DeselectIfSelectionChanged(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::BaseEventData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_DESELECTIFSELECTIONCHANGED_OFFSET))(this, currentOverGo, pointerEvent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_DESELECTIFSELECTIONCHANGED_OFFSET))(this, a1, a2);
 		}
 	};
 }

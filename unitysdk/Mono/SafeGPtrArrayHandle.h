@@ -3,10 +3,10 @@
 #include "unitysdk/Mono/RuntimeGPtrArrayHandle.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MONO_SAFEGPTRARRAYHANDLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x229D5F0)
-#define MONO_SAFEGPTRARRAYHANDLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x229D4F0)
-#define MONO_SAFEGPTRARRAYHANDLE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x229D4D0)
-#define MONO_SAFEGPTRARRAYHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC0)
+#define MONO_SAFEGPTRARRAYHANDLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x382CCE0)
+#define MONO_SAFEGPTRARRAYHANDLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x382CBE0)
+#define MONO_SAFEGPTRARRAYHANDLE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x382CBC0)
+#define MONO_SAFEGPTRARRAYHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0xC630)
 
 namespace Mono
 {
@@ -16,9 +16,9 @@ namespace Mono
 	{
 		::Mono::RuntimeGPtrArrayHandle handle; // 0x10
 
-		::System::Void _ctor(::System::IntPtr ptr)
+		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_SAFEGPTRARRAYHANDLE__CTOR_OFFSET))(this, ptr);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_SAFEGPTRARRAYHANDLE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -31,9 +31,9 @@ namespace Mono
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SAFEGPTRARRAYHANDLE_GET_LENGTH_OFFSET))(this);
 		}
 
-		::System::IntPtr get_Item(::System::Int32 i)
+		::System::IntPtr get_Item(::System::Int32 a1)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SAFEGPTRARRAYHANDLE_GET_ITEM_OFFSET))(this, i);
+			return ((::System::IntPtr(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SAFEGPTRARRAYHANDLE_GET_ITEM_OFFSET))(this, a1);
 		}
 	};
 }

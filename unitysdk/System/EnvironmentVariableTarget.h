@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int EnvironmentVariableTarget_TypeDefinitionIndex = 398;
+	inline static constexpr unsigned int EnvironmentVariableTarget_TypeDefinitionIndex = 397;
 
 	enum class EnvironmentVariableTarget : ::System::Int32
 	{

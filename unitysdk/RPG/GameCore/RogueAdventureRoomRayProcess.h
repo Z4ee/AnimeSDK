@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_56ACD268BEBA407D_OFFSET UNITYSDK_OFFSET(0x18CE72E0)
-#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_F9C7918C5E106D65_OFFSET UNITYSDK_OFFSET(0x18CE7200)
-#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x18CE7280)
+#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_7E2A3336281F7B72_OFFSET UNITYSDK_OFFSET(0x19B0CBF0)
+#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_ADF004088BF565EC_OFFSET UNITYSDK_OFFSET(0x19B0CCD0)
+#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19B0CC70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdventureRoomRayProcess_TypeDefinitionIndex = 21158;
+	inline static constexpr unsigned int RogueAdventureRoomRayProcess_TypeDefinitionIndex = 21056;
 
 	class RogueAdventureRoomRayProcess : public ::RPG::GameCore::TaskConfig
 	{
@@ -43,14 +43,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F9C7918C5E106D65(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureRoomRayProcess*& a2)
+		static ::System::Void Method_3_7E2A3336281F7B72(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureRoomRayProcess*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureRoomRayProcess*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_F9C7918C5E106D65_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureRoomRayProcess*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_7E2A3336281F7B72_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_56ACD268BEBA407D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureRoomRayProcess* a2)
+		static ::System::Void Method_3_ADF004088BF565EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureRoomRayProcess* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureRoomRayProcess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_56ACD268BEBA407D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureRoomRayProcess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_ADF004088BF565EC_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUIUSECOLORDICEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA139440)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUIUSECOLORDICEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB7B4AC0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUIUseColorDiceParam_TypeDefinitionIndex = 69793;
+	inline static constexpr unsigned int DiceCombatUIUseColorDiceParam_TypeDefinitionIndex = 70605;
 
 	class DiceCombatUIUseColorDiceParam : public ::System::Object
 	{
 	public:
 		::System::String* DiceName; // 0x10
 		::System::UInt32 DiceID; // 0x18
-		::System::Boolean IsPlayer; // 0x1C
-		::System::UInt32 ContentID; // 0x20
+		::System::UInt32 ContentID; // 0x1C
+		::System::Boolean IsPlayer; // 0x20
 
 		::System::Void _ctor()
 		{

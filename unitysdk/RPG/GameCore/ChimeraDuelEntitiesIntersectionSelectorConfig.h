@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERADUELENTITIESINTERSECTIONSELECTORCONFIG_METHOD_3_1B4E3A63F788679C_OFFSET UNITYSDK_OFFSET(0x187F9AD0)
-#define RPG_GAMECORE_CHIMERADUELENTITIESINTERSECTIONSELECTORCONFIG_METHOD_3_7784055A96AF916C_OFFSET UNITYSDK_OFFSET(0x187F9B30)
-#define RPG_GAMECORE_CHIMERADUELENTITIESINTERSECTIONSELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187F9B20)
+#define RPG_GAMECORE_CHIMERADUELENTITIESINTERSECTIONSELECTORCONFIG_METHOD_3_36835CBC71D232A1_OFFSET UNITYSDK_OFFSET(0x1963BCF0)
+#define RPG_GAMECORE_CHIMERADUELENTITIESINTERSECTIONSELECTORCONFIG_METHOD_3_7B6DE5D55825B6D9_OFFSET UNITYSDK_OFFSET(0x1963BC90)
+#define RPG_GAMECORE_CHIMERADUELENTITIESINTERSECTIONSELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1963BCE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEntitiesIntersectionSelectorConfig_TypeDefinitionIndex = 15079;
+	inline static constexpr unsigned int ChimeraDuelEntitiesIntersectionSelectorConfig_TypeDefinitionIndex = 15142;
 
 	class ChimeraDuelEntitiesIntersectionSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITIESINTERSECTIONSELECTORCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1B4E3A63F788679C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelEntitiesIntersectionSelectorConfig*& a2)
+		static ::System::Void Method_3_7B6DE5D55825B6D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelEntitiesIntersectionSelectorConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelEntitiesIntersectionSelectorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITIESINTERSECTIONSELECTORCONFIG_METHOD_3_1B4E3A63F788679C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelEntitiesIntersectionSelectorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITIESINTERSECTIONSELECTORCONFIG_METHOD_3_7B6DE5D55825B6D9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7784055A96AF916C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelEntitiesIntersectionSelectorConfig* a2)
+		static ::System::Void Method_3_36835CBC71D232A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelEntitiesIntersectionSelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelEntitiesIntersectionSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITIESINTERSECTIONSELECTORCONFIG_METHOD_3_7784055A96AF916C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelEntitiesIntersectionSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITIESINTERSECTIONSELECTORCONFIG_METHOD_3_36835CBC71D232A1_OFFSET))(a1, a2);
 		}
 	};
 }

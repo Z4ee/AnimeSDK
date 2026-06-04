@@ -4,13 +4,13 @@
 
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CUSTOMRP_CAPTUREPOSTPROCESSPASS_RTHANDLE_GET_FILTERRT_OFFSET UNITYSDK_OFFSET(0x18120810)
-#define RPG_CUSTOMRP_CAPTUREPOSTPROCESSPASS_RTHANDLE_SET_FILTERRT_OFFSET UNITYSDK_OFFSET(0x18120820)
-#define RPG_CUSTOMRP_CAPTUREPOSTPROCESSPASS_RTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18120800)
+#define RPG_CUSTOMRP_CAPTUREPOSTPROCESSPASS_RTHANDLE_GET_FILTERRT_OFFSET UNITYSDK_OFFSET(0x18EC2C50)
+#define RPG_CUSTOMRP_CAPTUREPOSTPROCESSPASS_RTHANDLE_SET_FILTERRT_OFFSET UNITYSDK_OFFSET(0x18EC2C60)
+#define RPG_CUSTOMRP_CAPTUREPOSTPROCESSPASS_RTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC2C40)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CapturePostProcessPass_RTHandle_TypeDefinitionIndex = 35142;
+	inline static constexpr unsigned int CapturePostProcessPass_RTHandle_TypeDefinitionIndex = 35438;
 
 	class CapturePostProcessPass_RTHandle : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::CustomRP
 			return ((::UnityEngine::RenderTexture*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREPOSTPROCESSPASS_RTHANDLE_GET_FILTERRT_OFFSET))(this);
 		}
 
-		::System::Void set_FilterRT(::UnityEngine::RenderTexture* value)
+		::System::Void set_FilterRT(::UnityEngine::RenderTexture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderTexture*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREPOSTPROCESSPASS_RTHANDLE_SET_FILTERRT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderTexture*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREPOSTPROCESSPASS_RTHANDLE_SET_FILTERRT_OFFSET))(this, a1);
 		}
 	};
 }

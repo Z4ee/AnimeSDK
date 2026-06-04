@@ -5,12 +5,12 @@
 
 namespace UnityEngine::Networking::PlayerConnection { class PlayerEditorConnectionEvents_MessageTypeSubscribers; }
 
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYERCONNECTION___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A461520)
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYERCONNECTION___C__DISPLAYCLASS13_0__UNREGISTER_B__0_OFFSET UNITYSDK_OFFSET(0x1A462D00)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYERCONNECTION___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2B1880)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYERCONNECTION___C__DISPLAYCLASS13_0__UNREGISTER_B__0_OFFSET UNITYSDK_OFFSET(0x1B2B2F40)
 
 namespace UnityEngine::Networking::PlayerConnection
 {
-	inline static constexpr unsigned int PlayerConnection___c__DisplayClass13_0_TypeDefinitionIndex = 4483;
+	inline static constexpr unsigned int PlayerConnection___c__DisplayClass13_0_TypeDefinitionIndex = 4657;
 
 	class PlayerConnection___c__DisplayClass13_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace UnityEngine::Networking::PlayerConnection
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYERCONNECTION___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _Unregister_b__0(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers* x)
+		::System::Boolean _Unregister_b__0(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYERCONNECTION___C__DISPLAYCLASS13_0__UNREGISTER_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYERCONNECTION___C__DISPLAYCLASS13_0__UNREGISTER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

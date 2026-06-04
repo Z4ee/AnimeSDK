@@ -5,14 +5,14 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1A4F38E0)
-#define UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1A4F38F0)
-#define UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A4F3910)
-#define UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F3900)
+#define UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B340760)
+#define UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1B340770)
+#define UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B340790)
+#define UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B340780)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int StaticAccessorAttribute_TypeDefinitionIndex = 3715;
+	inline static constexpr unsigned int StaticAccessorAttribute_TypeDefinitionIndex = 3722;
 
 	class StaticAccessorAttribute : public ::System::Attribute
 	{
@@ -20,24 +20,24 @@ namespace UnityEngine::Bindings
 		::System::String* _Name_k__BackingField; // 0x10
 		::UnityEngine::Bindings::StaticAccessorType _Type_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::String* name)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE__CTOR_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::String* name, ::UnityEngine::Bindings::StaticAccessorType type)
+		::System::Void _ctor_1(::System::String* a1, ::UnityEngine::Bindings::StaticAccessorType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Bindings::StaticAccessorType))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE__CTOR_1_OFFSET))(this, name, type);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Bindings::StaticAccessorType))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE_SET_NAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Type(::UnityEngine::Bindings::StaticAccessorType value)
+		::System::Void set_Type(::UnityEngine::Bindings::StaticAccessorType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bindings::StaticAccessorType))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bindings::StaticAccessorType))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_STATICACCESSORATTRIBUTE_SET_TYPE_OFFSET))(this, a1);
 		}
 	};
 }

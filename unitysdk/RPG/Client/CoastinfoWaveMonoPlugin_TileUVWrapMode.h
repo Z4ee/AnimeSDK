@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoastinfoWaveMonoPlugin_TileUVWrapMode_TypeDefinitionIndex = 65383;
+	inline static constexpr unsigned int CoastinfoWaveMonoPlugin_TileUVWrapMode_TypeDefinitionIndex = 66310;
 
 	enum class CoastinfoWaveMonoPlugin_TileUVWrapMode : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioManager_AudioDownloadState_TypeDefinitionIndex = 55109;
+	inline static constexpr unsigned int AudioManager_AudioDownloadState_TypeDefinitionIndex = 55843;
 
 	enum class AudioManager_AudioDownloadState : ::System::Int32
 	{

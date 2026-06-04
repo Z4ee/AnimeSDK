@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdaptState_TypeDefinitionIndex = 55428;
+	inline static constexpr unsigned int UIAdaptState_TypeDefinitionIndex = 56173;
 
 	enum class UIAdaptState : ::System::Int32
 	{

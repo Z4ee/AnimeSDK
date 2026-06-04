@@ -6,22 +6,22 @@ namespace RPG::Client { class BattleMonsterTeamDetailExtraEffectData; }
 namespace RPG::GameCore { class MonsterSkillRowData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9E67AA0)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_GET_EXTRAEFFECTDATAS_OFFSET UNITYSDK_OFFSET(0x9E68A70)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_GET_PHASEID_OFFSET UNITYSDK_OFFSET(0x9E68A30)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_GET_SKILLROWS_OFFSET UNITYSDK_OFFSET(0x9E68A50)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_ONADDALLSKILLSEND_OFFSET UNITYSDK_OFFSET(0x9E676F0)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_EXTRAEFFECTDATAS_OFFSET UNITYSDK_OFFSET(0x9E68A80)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_PHASEID_OFFSET UNITYSDK_OFFSET(0x9E68A40)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_SKILLROWS_OFFSET UNITYSDK_OFFSET(0x9E68A60)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9E68040)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA__GETEXTRAEFFECTIDS_OFFSET UNITYSDK_OFFSET(0x9E685B0)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA__SORTSKILLS_OFFSET UNITYSDK_OFFSET(0x9E680B0)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA__UPDATEEXTRAEFFECTDATAS_OFFSET UNITYSDK_OFFSET(0x9E68370)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB4017B0)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_GET_EXTRAEFFECTDATAS_OFFSET UNITYSDK_OFFSET(0xB4026A0)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_GET_PHASEID_OFFSET UNITYSDK_OFFSET(0xB402660)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_GET_SKILLROWS_OFFSET UNITYSDK_OFFSET(0xB402680)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_ONADDALLSKILLSEND_OFFSET UNITYSDK_OFFSET(0xB401420)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_EXTRAEFFECTDATAS_OFFSET UNITYSDK_OFFSET(0xB4026B0)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_PHASEID_OFFSET UNITYSDK_OFFSET(0xB402670)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_SKILLROWS_OFFSET UNITYSDK_OFFSET(0xB402690)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB401D70)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA__GETEXTRAEFFECTIDS_OFFSET UNITYSDK_OFFSET(0xB402390)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA__SORTSKILLS_OFFSET UNITYSDK_OFFSET(0xB401DE0)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA__UPDATEEXTRAEFFECTDATAS_OFFSET UNITYSDK_OFFSET(0xB402100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleMonsterTeamDetailSkillData_TypeDefinitionIndex = 66365;
+	inline static constexpr unsigned int BattleMonsterTeamDetailSkillData_TypeDefinitionIndex = 67304;
 
 	class BattleMonsterTeamDetailSkillData : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::BattleMonsterTeamDetailSkillData* Create(::System::UInt32 phaseID)
+		static ::RPG::Client::BattleMonsterTeamDetailSkillData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::BattleMonsterTeamDetailSkillData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_CREATE_OFFSET))(phaseID);
+			return ((::RPG::Client::BattleMonsterTeamDetailSkillData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_CREATE_OFFSET))(a1);
 		}
 
 		::System::Void OnAddAllSkillsEnd()
@@ -65,9 +65,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_GET_PHASEID_OFFSET))(this);
 		}
 
-		::System::Void set_PhaseID(::System::UInt32 value)
+		::System::Void set_PhaseID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_PHASEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_PHASEID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::GameCore::MonsterSkillRowData*>* get_SkillRows()
@@ -75,9 +75,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::GameCore::MonsterSkillRowData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_GET_SKILLROWS_OFFSET))(this);
 		}
 
-		::System::Void set_SkillRows(::System::Collections::Generic::List_1<::RPG::GameCore::MonsterSkillRowData*>* value)
+		::System::Void set_SkillRows(::System::Collections::Generic::List_1<::RPG::GameCore::MonsterSkillRowData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::MonsterSkillRowData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_SKILLROWS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::MonsterSkillRowData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_SKILLROWS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::BattleMonsterTeamDetailExtraEffectData*>* get_ExtraEffectDatas()
@@ -85,9 +85,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::BattleMonsterTeamDetailExtraEffectData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_GET_EXTRAEFFECTDATAS_OFFSET))(this);
 		}
 
-		::System::Void set_ExtraEffectDatas(::System::Collections::Generic::List_1<::RPG::Client::BattleMonsterTeamDetailExtraEffectData*>* value)
+		::System::Void set_ExtraEffectDatas(::System::Collections::Generic::List_1<::RPG::Client::BattleMonsterTeamDetailExtraEffectData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::BattleMonsterTeamDetailExtraEffectData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_EXTRAEFFECTDATAS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::BattleMonsterTeamDetailExtraEffectData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA_SET_EXTRAEFFECTDATAS_OFFSET))(this, a1);
 		}
 	};
 }

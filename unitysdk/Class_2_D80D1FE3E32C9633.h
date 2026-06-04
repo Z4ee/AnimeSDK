@@ -8,22 +8,22 @@ namespace RPG::Client { class MonoUIColorSwitcher; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define CLASS_2_D80D1FE3E32C9633_METHOD_2_40E6AFCB91524816_OFFSET UNITYSDK_OFFSET(0x11E10180)
-#define CLASS_2_D80D1FE3E32C9633_METHOD_2_F698023FC94DE47E_OFFSET UNITYSDK_OFFSET(0x11E10060)
-#define CLASS_2_D80D1FE3E32C9633__CTOR_OFFSET UNITYSDK_OFFSET(0x11E10300)
-#define CLASS_2_D80D1FE3E32C9633__ONBIND_OFFSET UNITYSDK_OFFSET(0x11E0FFC0)
-#define CLASS_2_D80D1FE3E32C9633___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x11E10330)
+#define CLASS_2_D80D1FE3E32C9633_METHOD_2_1B9BAFE25893B138_OFFSET UNITYSDK_OFFSET(0x142CC210)
+#define CLASS_2_D80D1FE3E32C9633_METHOD_2_F698023FC94DE47E_OFFSET UNITYSDK_OFFSET(0x142CC0F0)
+#define CLASS_2_D80D1FE3E32C9633__CTOR_OFFSET UNITYSDK_OFFSET(0x142CC390)
+#define CLASS_2_D80D1FE3E32C9633__ONBIND_OFFSET UNITYSDK_OFFSET(0x142CC050)
+#define CLASS_2_D80D1FE3E32C9633___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x142CC3C0)
 
-inline static constexpr unsigned int Class_2_D80D1FE3E32C9633_TypeDefinitionIndex = 66580;
+inline static constexpr unsigned int Class_2_D80D1FE3E32C9633_TypeDefinitionIndex = 67521;
 
 class Class_2_D80D1FE3E32C9633 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	::Class_1_9015B34004B876E5* Field_2_0; // 0x60
-	::RPG::Client::GridFightAugmentConfig* Field_2_2; // 0x68
-	::RPG::Client::MonoUIColorSwitcher* Field_2_1; // 0x70
-	::UnityEngine::Sprite* Field_2_4; // 0x78
-	::UnityEngine::UI::SmoothMask* Field_2_3; // 0x80
+	::RPG::Client::MonoUIColorSwitcher* Field_2_0; // 0x60
+	::RPG::Client::GridFightAugmentConfig* Field_2_1; // 0x68
+	::UnityEngine::Sprite* Field_2_2; // 0x70
+	::UnityEngine::UI::SmoothMask* Field_2_3; // 0x78
+	::Class_1_9015B34004B876E5* Field_2_4; // 0x80
 	::System::Double Field_2_5; // 0x88
 
 	::System::Void _ctor()
@@ -41,9 +41,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_1_9015B34004B876E5*, ::System::Double))((::PBYTE)hIl2Cpp + CLASS_2_D80D1FE3E32C9633_METHOD_2_F698023FC94DE47E_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_40E6AFCB91524816()
+	::System::Void Method_2_1B9BAFE25893B138()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D80D1FE3E32C9633_METHOD_2_40E6AFCB91524816_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D80D1FE3E32C9633_METHOD_2_1B9BAFE25893B138_OFFSET))(this);
 	}
 
 	::System::Void __iFixBaseProxy__OnBind()

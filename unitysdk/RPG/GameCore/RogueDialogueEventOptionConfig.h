@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RogueDialogueEventOptionDynamicConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONCONFIG_METHOD_2_A141BF27AD0680E7_OFFSET UNITYSDK_OFFSET(0x18D12D00)
-#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D13040)
+#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONCONFIG_METHOD_2_DAF7B417EEFAC6E1_OFFSET UNITYSDK_OFFSET(0x19B379E0)
+#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B37D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDialogueEventOptionConfig_TypeDefinitionIndex = 17012;
+	inline static constexpr unsigned int RogueDialogueEventOptionConfig_TypeDefinitionIndex = 17026;
 
 	class RogueDialogueEventOptionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A141BF27AD0680E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDialogueEventOptionConfig*& a2)
+		static ::System::Void Method_2_DAF7B417EEFAC6E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDialogueEventOptionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDialogueEventOptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONCONFIG_METHOD_2_A141BF27AD0680E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDialogueEventOptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONCONFIG_METHOD_2_DAF7B417EEFAC6E1_OFFSET))(a1, a2);
 		}
 	};
 }

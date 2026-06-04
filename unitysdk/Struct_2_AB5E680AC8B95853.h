@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/CakeRaceCellType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_AB5E680AC8B95853_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x22B0670)
-#define STRUCT_2_AB5E680AC8B95853__CTOR_OFFSET UNITYSDK_OFFSET(0x22B0660)
+#define STRUCT_2_AB5E680AC8B95853_METHOD_2_AA972BE565DAF9E3_OFFSET UNITYSDK_OFFSET(0x3842480)
+#define STRUCT_2_AB5E680AC8B95853__CTOR_OFFSET UNITYSDK_OFFSET(0x3842470)
 
-inline static constexpr unsigned int Struct_2_AB5E680AC8B95853_TypeDefinitionIndex = 34608;
+inline static constexpr unsigned int Struct_2_AB5E680AC8B95853_TypeDefinitionIndex = 34891;
 
 struct alignas(4) Struct_2_AB5E680AC8B95853
 {
@@ -18,8 +18,8 @@ struct alignas(4) Struct_2_AB5E680AC8B95853
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_AB5E680AC8B95853__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean Method_2_A3FAE12D7B6ACD62()
+	::System::Boolean Method_2_AA972BE565DAF9E3()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_AB5E680AC8B95853_METHOD_2_A3FAE12D7B6ACD62_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_AB5E680AC8B95853_METHOD_2_AA972BE565DAF9E3_OFFSET))(this);
 	}
 };

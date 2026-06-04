@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ConditionChecker.h"
 
-class Class_0_16E4307DCC419505_576;
+class Class_0_16E4307DCC419505_598;
 namespace System { class String; }
 
-#define RPG_CLIENT_EXPRCONDITIONCHECKER_CREATE_OFFSET UNITYSDK_OFFSET(0xA312370)
-#define RPG_CLIENT_EXPRCONDITIONCHECKER_DOSYNCCHECK_OFFSET UNITYSDK_OFFSET(0xA312570)
-#define RPG_CLIENT_EXPRCONDITIONCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0xA312410)
-#define RPG_CLIENT_EXPRCONDITIONCHECKER__PARSEEXPR_OFFSET UNITYSDK_OFFSET(0xA312460)
-#define RPG_CLIENT_EXPRCONDITIONCHECKER___IFIXBASEPROXY_DOSYNCCHECK_OFFSET UNITYSDK_OFFSET(0xA312650)
+#define RPG_CLIENT_EXPRCONDITIONCHECKER_CREATE_OFFSET UNITYSDK_OFFSET(0xB962FB0)
+#define RPG_CLIENT_EXPRCONDITIONCHECKER_DOSYNCCHECK_OFFSET UNITYSDK_OFFSET(0xB963050)
+#define RPG_CLIENT_EXPRCONDITIONCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0xB9634F0)
+#define RPG_CLIENT_EXPRCONDITIONCHECKER__PARSEEXPR_OFFSET UNITYSDK_OFFSET(0xB9633F0)
+#define RPG_CLIENT_EXPRCONDITIONCHECKER___IFIXBASEPROXY_DOSYNCCHECK_OFFSET UNITYSDK_OFFSET(0xB963540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExprConditionChecker_TypeDefinitionIndex = 55276;
+	inline static constexpr unsigned int ExprConditionChecker_TypeDefinitionIndex = 56010;
 
 	class ExprConditionChecker : public ::RPG::Client::ConditionChecker
 	{
 	public:
-		::Class_0_16E4307DCC419505_576* _Expr; // 0x18
+		::Class_0_16E4307DCC419505_598* _Expr; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPRCONDITIONCHECKER__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ExprConditionChecker* Create(::System::String* expression)
+		static ::RPG::Client::ExprConditionChecker* Create(::System::String* a1)
 		{
-			return ((::RPG::Client::ExprConditionChecker*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPRCONDITIONCHECKER_CREATE_OFFSET))(expression);
+			return ((::RPG::Client::ExprConditionChecker*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPRCONDITIONCHECKER_CREATE_OFFSET))(a1);
 		}
 
 		::System::Boolean DoSyncCheck()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPRCONDITIONCHECKER_DOSYNCCHECK_OFFSET))(this);
 		}
 
-		::System::Void _ParseExpr(::System::String* expression)
+		::System::Void _ParseExpr(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPRCONDITIONCHECKER__PARSEEXPR_OFFSET))(this, expression);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPRCONDITIONCHECKER__PARSEEXPR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __iFixBaseProxy_DoSyncCheck()

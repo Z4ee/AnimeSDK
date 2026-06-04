@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Terrain; }
 
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINMAP___C__DISPLAYCLASS4_0__CREATEFROMPLACEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x1A4F8F00)
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINMAP___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F72B0)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINMAP___C__DISPLAYCLASS4_0__CREATEFROMPLACEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x1B344840)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINMAP___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B343250)
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
-	inline static constexpr unsigned int TerrainUtility_TerrainMap___c__DisplayClass4_0_TypeDefinitionIndex = 5257;
+	inline static constexpr unsigned int TerrainUtility_TerrainMap___c__DisplayClass4_0_TypeDefinitionIndex = 5333;
 
 	class TerrainUtility_TerrainMap___c__DisplayClass4_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace UnityEngine::Experimental::TerrainAPI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINMAP___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _CreateFromPlacement_b__0(::UnityEngine::Terrain* x)
+		::System::Boolean _CreateFromPlacement_b__0(::UnityEngine::Terrain* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Terrain*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINMAP___C__DISPLAYCLASS4_0__CREATEFROMPLACEMENT_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Terrain*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINMAP___C__DISPLAYCLASS4_0__CREATEFROMPLACEMENT_B__0_OFFSET))(this, a1);
 		}
 	};
 }

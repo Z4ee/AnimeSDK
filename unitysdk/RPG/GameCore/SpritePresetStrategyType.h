@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpritePresetStrategyType_TypeDefinitionIndex = 23446;
+	inline static constexpr unsigned int SpritePresetStrategyType_TypeDefinitionIndex = 23476;
 
 	enum class SpritePresetStrategyType : ::System::Int32
 	{

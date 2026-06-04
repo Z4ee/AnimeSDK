@@ -6,33 +6,33 @@ namespace Epic::OnlineServices::Lobby { class LobbySearchSetLobbyIdOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x50160)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x50040)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x4FEC0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x4FF70)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x54EB0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x54EA0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x54D20)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x54DD0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbySearchSetLobbyIdOptionsInternal_TypeDefinitionIndex = 41935;
+	inline static constexpr unsigned int LobbySearchSetLobbyIdOptionsInternal_TypeDefinitionIndex = 42738;
 
 	struct alignas(8) LobbySearchSetLobbyIdOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_LobbyId; // 0x18
 
-		::System::Void set_LobbyId(::System::String* value)
+		::System::Void set_LobbyId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Lobby::LobbySearchSetLobbyIdOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Lobby::LobbySearchSetLobbyIdOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchSetLobbyIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchSetLobbyIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETLOBBYIDOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

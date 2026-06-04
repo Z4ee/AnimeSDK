@@ -11,12 +11,12 @@ namespace RPG::GameCore { class AlleyWalkableGridItemData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ALLEYMAPGRIDCONFIG_METHOD_2_360BA3F10FDB9491_OFFSET UNITYSDK_OFFSET(0x18698D20)
-#define RPG_GAMECORE_ALLEYMAPGRIDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18699090)
+#define RPG_GAMECORE_ALLEYMAPGRIDCONFIG_METHOD_2_14B742DA12109809_OFFSET UNITYSDK_OFFSET(0x1946DEC0)
+#define RPG_GAMECORE_ALLEYMAPGRIDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1946E220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyMapGridConfig_TypeDefinitionIndex = 14843;
+	inline static constexpr unsigned int AlleyMapGridConfig_TypeDefinitionIndex = 14907;
 
 	class AlleyMapGridConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYMAPGRIDCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_360BA3F10FDB9491(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AlleyMapGridConfig*& a2)
+		static ::System::Void Method_2_14B742DA12109809(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AlleyMapGridConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AlleyMapGridConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYMAPGRIDCONFIG_METHOD_2_360BA3F10FDB9491_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AlleyMapGridConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYMAPGRIDCONFIG_METHOD_2_14B742DA12109809_OFFSET))(a1, a2);
 		}
 	};
 }

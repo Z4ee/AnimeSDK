@@ -6,33 +6,33 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::Sessions { class CopySessionHandleForPresenceOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11E70)
-#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x11D40)
-#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x11BB0)
-#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x11C70)
+#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12A80)
+#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x12A70)
+#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x128E0)
+#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x129A0)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int CopySessionHandleForPresenceOptionsInternal_TypeDefinitionIndex = 41252;
+	inline static constexpr unsigned int CopySessionHandleForPresenceOptionsInternal_TypeDefinitionIndex = 42055;
 
 	struct alignas(8) CopySessionHandleForPresenceOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_LocalUserId; // 0x18
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::CopySessionHandleForPresenceOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::CopySessionHandleForPresenceOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopySessionHandleForPresenceOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopySessionHandleForPresenceOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEFORPRESENCEOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

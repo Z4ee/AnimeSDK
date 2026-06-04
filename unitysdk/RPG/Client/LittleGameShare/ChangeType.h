@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ChangeType_TypeDefinitionIndex = 34417;
+	inline static constexpr unsigned int ChangeType_TypeDefinitionIndex = 34699;
 
 	enum class ChangeType : ::System::Byte
 	{

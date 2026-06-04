@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x22BA540)
-#define RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22BA560)
-#define RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22BB8D0)
-#define RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x73E20)
+#define RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x384B490)
+#define RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x384B4B0)
+#define RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x38529E0)
+#define RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x7BBE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBuffExcelTable_IndexKey_TypeDefinitionIndex = 13283;
+	inline static constexpr unsigned int MazeBuffExcelTable_IndexKey_TypeDefinitionIndex = 13358;
 
 	struct alignas(4) MazeBuffExcelTable_IndexKey
 	{
 		::System::UInt32 ID; // 0x10
 		::System::UInt32 Lv; // 0x14
 
-		::System::Void _ctor(::System::UInt32 ID, ::System::UInt32 Lv)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, ID, Lv);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* ToString()
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::GameCore::MazeBuffExcelTable_IndexKey other)
+		::System::Boolean Equals(::RPG::GameCore::MazeBuffExcelTable_IndexKey a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::MazeBuffExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::MazeBuffExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBUFFEXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

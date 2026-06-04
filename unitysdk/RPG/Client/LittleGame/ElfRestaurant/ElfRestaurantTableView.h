@@ -4,11 +4,11 @@
 
 namespace RPG::Client::LittleGame::ElfRestaurant { class FoodDebris; }
 
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTTABLEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xA69B130)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTTABLEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xBDEBCC0)
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int ElfRestaurantTableView_TypeDefinitionIndex = 70984;
+	inline static constexpr unsigned int ElfRestaurantTableView_TypeDefinitionIndex = 71806;
 
 	class ElfRestaurantTableView : public ::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantView
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationTimeAtmosphereShowNumberType_TypeDefinitionIndex = 21507;
+	inline static constexpr unsigned int ElationTimeAtmosphereShowNumberType_TypeDefinitionIndex = 23284;
 
 	enum class ElationTimeAtmosphereShowNumberType : ::System::Int32
 	{

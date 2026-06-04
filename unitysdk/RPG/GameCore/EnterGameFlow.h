@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_AFDB16E02C215CE4_OFFSET UNITYSDK_OFFSET(0x188ABC40)
-#define RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_CF15060DF0DBDF73_OFFSET UNITYSDK_OFFSET(0x188ABBC0)
-#define RPG_GAMECORE_ENTERGAMEFLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x188ABC10)
+#define RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_A306605762AA5A6A_OFFSET UNITYSDK_OFFSET(0x196E9CA0)
+#define RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_D47FCF29810D6ADB_OFFSET UNITYSDK_OFFSET(0x196E9D20)
+#define RPG_GAMECORE_ENTERGAMEFLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x196E9CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnterGameFlow_TypeDefinitionIndex = 23051;
+	inline static constexpr unsigned int EnterGameFlow_TypeDefinitionIndex = 22739;
 
 	class EnterGameFlow : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERGAMEFLOW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CF15060DF0DBDF73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterGameFlow*& a2)
+		static ::System::Void Method_3_A306605762AA5A6A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterGameFlow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterGameFlow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_CF15060DF0DBDF73_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterGameFlow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_A306605762AA5A6A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AFDB16E02C215CE4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterGameFlow* a2)
+		static ::System::Void Method_3_D47FCF29810D6ADB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterGameFlow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterGameFlow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_AFDB16E02C215CE4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterGameFlow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_D47FCF29810D6ADB_OFFSET))(a1, a2);
 		}
 	};
 }

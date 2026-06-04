@@ -8,15 +8,15 @@ namespace Spine { class Event; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_RGBATIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x19DE39E0)
-#define SPINE_RGBATIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x19DE38F0)
-#define SPINE_RGBATIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x19DE3900)
-#define SPINE_RGBATIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x19DE3910)
-#define SPINE_RGBATIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE3780)
+#define SPINE_RGBATIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1AC5FA80)
+#define SPINE_RGBATIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1AC5F9D0)
+#define SPINE_RGBATIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1AC5F9E0)
+#define SPINE_RGBATIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1AC5F9F0)
+#define SPINE_RGBATIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5F890)
 
 namespace Spine
 {
-	inline static constexpr unsigned int RGBATimeline_TypeDefinitionIndex = 36375;
+	inline static constexpr unsigned int RGBATimeline_TypeDefinitionIndex = 36675;
 
 	class RGBATimeline : public ::Spine::CurveTimeline
 	{
@@ -28,9 +28,9 @@ namespace Spine
 		// static const ::System::Int32 A = 0x4; // 0x0
 		::System::Int32 slotIndex; // 0x28
 
-		::System::Void _ctor(::System::Int32 frameCount, ::System::Int32 bezierCount, ::System::Int32 slotIndex)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_RGBATIMELINE__CTOR_OFFSET))(this, frameCount, bezierCount, slotIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_RGBATIMELINE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_FrameEntries()
@@ -43,14 +43,14 @@ namespace Spine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_RGBATIMELINE_GET_SLOTINDEX_OFFSET))(this);
 		}
 
-		::System::Void SetFrame(::System::Int32 frame, ::System::Single time, ::System::Single r, ::System::Single g, ::System::Single b, ::System::Single a)
+		::System::Void SetFrame(::System::Int32 a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_RGBATIMELINE_SETFRAME_OFFSET))(this, frame, time, r, g, b, a);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_RGBATIMELINE_SETFRAME_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void Apply(::Spine::Skeleton* skeleton, ::System::Single lastTime, ::System::Single time, ::Spine::ExposedList_1<::Spine::Event*>* firedEvents, ::System::Single alpha, ::Spine::MixBlend blend, ::Spine::MixDirection direction)
+		::System::Void Apply(::Spine::Skeleton* a1, ::System::Single a2, ::System::Single a3, ::Spine::ExposedList_1<::Spine::Event*>* a4, ::System::Single a5, ::Spine::MixBlend a6, ::Spine::MixDirection a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_RGBATIMELINE_APPLY_OFFSET))(this, skeleton, lastTime, time, firedEvents, alpha, blend, direction);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_RGBATIMELINE_APPLY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 	};
 }

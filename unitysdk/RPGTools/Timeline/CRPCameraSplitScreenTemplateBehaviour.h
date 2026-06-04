@@ -6,15 +6,15 @@
 
 namespace RPGTools::Timeline { class CRPCameraSplitScreenTemplateClip; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8A4220)
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8A4240)
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8A4230)
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A4490)
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8A44A0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFE7EC0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFE7EE0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFE7ED0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE8190)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFE81A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSplitScreenTemplateBehaviour_TypeDefinitionIndex = 44667;
+	inline static constexpr unsigned int CRPCameraSplitScreenTemplateBehaviour_TypeDefinitionIndex = 45214;
 
 	class CRPCameraSplitScreenTemplateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::CRPCameraSplitScreenTemplateClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::CRPCameraSplitScreenTemplateClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::CRPCameraSplitScreenTemplateClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::CRPCameraSplitScreenTemplateClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::CRPCameraSplitScreenTemplateClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -41,9 +41,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

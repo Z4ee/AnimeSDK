@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MUNICIPALQUALITYSETTING_METHOD_2_1AD312E3323F776D_OFFSET UNITYSDK_OFFSET(0x18B69300)
-#define RPG_GAMECORE_MUNICIPALQUALITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x18B69570)
+#define RPG_GAMECORE_MUNICIPALQUALITYSETTING_METHOD_2_98BB791B74E0FD02_OFFSET UNITYSDK_OFFSET(0x199B86E0)
+#define RPG_GAMECORE_MUNICIPALQUALITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x199B8930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MunicipalQualitySetting_TypeDefinitionIndex = 16006;
+	inline static constexpr unsigned int MunicipalQualitySetting_TypeDefinitionIndex = 16056;
 
 	class MunicipalQualitySetting : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALQUALITYSETTING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1AD312E3323F776D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MunicipalQualitySetting*& a2)
+		static ::System::Void Method_2_98BB791B74E0FD02(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MunicipalQualitySetting*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MunicipalQualitySetting*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALQUALITYSETTING_METHOD_2_1AD312E3323F776D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MunicipalQualitySetting*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALQUALITYSETTING_METHOD_2_98BB791B74E0FD02_OFFSET))(a1, a2);
 		}
 	};
 }

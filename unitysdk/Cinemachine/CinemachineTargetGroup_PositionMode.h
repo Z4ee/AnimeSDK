@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTargetGroup_PositionMode_TypeDefinitionIndex = 36523;
+	inline static constexpr unsigned int CinemachineTargetGroup_PositionMode_TypeDefinitionIndex = 36823;
 
 	enum class CinemachineTargetGroup_PositionMode : ::System::Int32
 	{

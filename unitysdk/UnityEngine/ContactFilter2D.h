@@ -3,16 +3,16 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 
-#define UNITYENGINE_CONTACTFILTER2D_CHECKCONSISTENCY_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4D4D10)
-#define UNITYENGINE_CONTACTFILTER2D_CHECKCONSISTENCY_OFFSET UNITYSDK_OFFSET(0x22F68F0)
-#define UNITYENGINE_CONTACTFILTER2D_CREATELEGACYFILTER_OFFSET UNITYSDK_OFFSET(0x1A4D4D50)
-#define UNITYENGINE_CONTACTFILTER2D_NOFILTER_OFFSET UNITYSDK_OFFSET(0x22F68A0)
-#define UNITYENGINE_CONTACTFILTER2D_SETDEPTH_OFFSET UNITYSDK_OFFSET(0x22F6910)
-#define UNITYENGINE_CONTACTFILTER2D_SETLAYERMASK_OFFSET UNITYSDK_OFFSET(0x22F6900)
+#define UNITYENGINE_CONTACTFILTER2D_CHECKCONSISTENCY_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B322860)
+#define UNITYENGINE_CONTACTFILTER2D_CHECKCONSISTENCY_OFFSET UNITYSDK_OFFSET(0x3895E00)
+#define UNITYENGINE_CONTACTFILTER2D_CREATELEGACYFILTER_OFFSET UNITYSDK_OFFSET(0x1B3228A0)
+#define UNITYENGINE_CONTACTFILTER2D_NOFILTER_OFFSET UNITYSDK_OFFSET(0x3895DB0)
+#define UNITYENGINE_CONTACTFILTER2D_SETDEPTH_OFFSET UNITYSDK_OFFSET(0x3895E20)
+#define UNITYENGINE_CONTACTFILTER2D_SETLAYERMASK_OFFSET UNITYSDK_OFFSET(0x3895E10)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ContactFilter2D_TypeDefinitionIndex = 5197;
+	inline static constexpr unsigned int ContactFilter2D_TypeDefinitionIndex = 5273;
 
 	struct alignas(4) ContactFilter2D
 	{
@@ -38,24 +38,24 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_CHECKCONSISTENCY_OFFSET))(this);
 		}
 
-		::System::Void SetLayerMask(::UnityEngine::LayerMask layerMask)
+		::System::Void SetLayerMask(::UnityEngine::LayerMask a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_SETLAYERMASK_OFFSET))(this, layerMask);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_SETLAYERMASK_OFFSET))(this, a1);
 		}
 
-		::System::Void SetDepth(::System::Single minDepth, ::System::Single maxDepth)
+		::System::Void SetDepth(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_SETDEPTH_OFFSET))(this, minDepth, maxDepth);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_SETDEPTH_OFFSET))(this, a1, a2);
 		}
 
-		static ::UnityEngine::ContactFilter2D CreateLegacyFilter(::System::Int32 layerMask, ::System::Single minDepth, ::System::Single maxDepth)
+		static ::UnityEngine::ContactFilter2D CreateLegacyFilter(::System::Int32 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::ContactFilter2D(*)(::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_CREATELEGACYFILTER_OFFSET))(layerMask, minDepth, maxDepth);
+			return ((::UnityEngine::ContactFilter2D(*)(::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_CREATELEGACYFILTER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void CheckConsistency_Injected(::UnityEngine::ContactFilter2D& _unity_self)
+		static ::System::Void CheckConsistency_Injected(::UnityEngine::ContactFilter2D& a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::ContactFilter2D&))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_CHECKCONSISTENCY_INJECTED_OFFSET))(_unity_self);
+			return ((::System::Void(*)(::UnityEngine::ContactFilter2D&))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTFILTER2D_CHECKCONSISTENCY_INJECTED_OFFSET))(a1);
 		}
 	};
 }

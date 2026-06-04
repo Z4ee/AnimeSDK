@@ -3,13 +3,13 @@
 #include "unitysdk/System/DateTimeParse_TM.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_DATETIMERAWINFO_ADDNUMBER_OFFSET UNITYSDK_OFFSET(0x22A6100)
-#define SYSTEM_DATETIMERAWINFO_GETNUMBER_OFFSET UNITYSDK_OFFSET(0x1701470)
-#define SYSTEM_DATETIMERAWINFO_INIT_OFFSET UNITYSDK_OFFSET(0x22A60D0)
+#define SYSTEM_DATETIMERAWINFO_ADDNUMBER_OFFSET UNITYSDK_OFFSET(0x38360F0)
+#define SYSTEM_DATETIMERAWINFO_GETNUMBER_OFFSET UNITYSDK_OFFSET(0x2CB0360)
+#define SYSTEM_DATETIMERAWINFO_INIT_OFFSET UNITYSDK_OFFSET(0x38360C0)
 
 namespace System
 {
-	inline static constexpr unsigned int DateTimeRawInfo_TypeDefinitionIndex = 262;
+	inline static constexpr unsigned int DateTimeRawInfo_TypeDefinitionIndex = 261;
 
 	struct alignas(8) DateTimeRawInfo
 	{
@@ -24,19 +24,19 @@ namespace System
 		::System::Boolean hasSameDateAndTimeSeparators; // 0x38
 		::System::Boolean timeZone; // 0x39
 
-		::System::Void Init(::System::Int32* numberBuffer)
+		::System::Void Init(::System::Int32* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERAWINFO_INIT_OFFSET))(this, numberBuffer);
+			return ((::System::Void(*)(::PVOID, ::System::Int32*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERAWINFO_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Void AddNumber(::System::Int32 value)
+		::System::Void AddNumber(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERAWINFO_ADDNUMBER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERAWINFO_ADDNUMBER_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetNumber(::System::Int32 index)
+		::System::Int32 GetNumber(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERAWINFO_GETNUMBER_OFFSET))(this, index);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERAWINFO_GETNUMBER_OFFSET))(this, a1);
 		}
 	};
 }

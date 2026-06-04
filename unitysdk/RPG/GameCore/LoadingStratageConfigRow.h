@@ -6,19 +6,19 @@
 class Class_1_0B20F1FA28B84337;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOADINGSTRATAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A74870)
-#define RPG_GAMECORE_LOADINGSTRATAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A74B10)
+#define RPG_GAMECORE_LOADINGSTRATAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198A7EF0)
+#define RPG_GAMECORE_LOADINGSTRATAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198A8180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingStratageConfigRow_TypeDefinitionIndex = 13250;
+	inline static constexpr unsigned int LoadingStratageConfigRow_TypeDefinitionIndex = 13326;
 
 	class LoadingStratageConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Class_1_0B20F1FA28B84337*>* FloorOperation; // 0x10
-		::Il2CppArray<::System::UInt32>* AvailableEntranceIDList; // 0x18
-		::Il2CppArray<::System::UInt32>* MissionIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* MissionIDList; // 0x10
+		::Il2CppArray<::Class_1_0B20F1FA28B84337*>* FloorOperation; // 0x18
+		::Il2CppArray<::System::UInt32>* AvailableEntranceIDList; // 0x20
 		::System::UInt32 Priority; // 0x28
 		::System::UInt32 LoadingID; // 0x2C
 		::System::UInt32 LoadingType; // 0x30
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGSTRATAGECONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LoadingStratageConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoadingStratageConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoadingStratageConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGSTRATAGECONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoadingStratageConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGSTRATAGECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

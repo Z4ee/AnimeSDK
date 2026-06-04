@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ChenLingFes/ChenLingFesToastItemControl.h"
+
+namespace RPG::Client { class UIStateCtrl; }
+namespace System { class String; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine::UI { class Text; }
+
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL_GETHEIGHT_OFFSET UNITYSDK_OFFSET(0xB62C270)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xB62C3A0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB62BEB0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xB62BD30)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL___IFIXBASEPROXY_GETHEIGHT_OFFSET UNITYSDK_OFFSET(0xB62C490)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB62C430)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xB62C3D0)
+
+namespace RPG::Client::ChenLingFes
+{
+	inline static constexpr unsigned int ChenLingFesToastIncomeChangeControl_TypeDefinitionIndex = 74013;
+
+	class ChenLingFesToastIncomeChangeControl : public ::RPG::Client::ChenLingFes::ChenLingFesToastItemControl
+	{
+	public:
+		// static const ::System::String* PREFAB_PATH; // 0x0
+		::RPG::Client::UIStateCtrl* _UIStateCtrl; // 0x50
+		::UnityEngine::RectTransform* _NodeRoot; // 0x58
+		::UnityEngine::UI::Text* _TextValue; // 0x60
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void _OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Single GetHeight()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL_GETHEIGHT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Single __iFixBaseProxy_GetHeight()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTINCOMECHANGECONTROL___IFIXBASEPROXY_GETHEIGHT_OFFSET))(this);
+		}
+	};
+}

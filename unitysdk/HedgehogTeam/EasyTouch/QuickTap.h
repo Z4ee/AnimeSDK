@@ -6,13 +6,13 @@
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace HedgehogTeam::EasyTouch { class QuickTap_OnTap; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_DOACTION_OFFSET UNITYSDK_OFFSET(0x12C4E430)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_UPDATE_OFFSET UNITYSDK_OFFSET(0x12C4E350)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP__CTOR_OFFSET UNITYSDK_OFFSET(0x12C4E2C0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_DOACTION_OFFSET UNITYSDK_OFFSET(0x146FCA60)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_UPDATE_OFFSET UNITYSDK_OFFSET(0x146FC970)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP__CTOR_OFFSET UNITYSDK_OFFSET(0x146FC8E0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickTap_TypeDefinitionIndex = 37009;
+	inline static constexpr unsigned int QuickTap_TypeDefinitionIndex = 37309;
 
 	class QuickTap : public ::HedgehogTeam::EasyTouch::QuickBase
 	{
@@ -31,9 +31,9 @@ namespace HedgehogTeam::EasyTouch
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void DoAction(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void DoAction(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_DOACTION_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_DOACTION_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,19 +7,19 @@ namespace RPG::GameCore { class AvatarDemoConfigRow; }
 namespace RPG::GameCore { class BattleScoringChangeParams; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TRIALOBJECTIVEDATA_GETTARGETDESC_OFFSET UNITYSDK_OFFSET(0xB3911A0)
-#define RPG_CLIENT_TRIALOBJECTIVEDATA_GET_CURPROGRESS_OFFSET UNITYSDK_OFFSET(0xB391350)
-#define RPG_CLIENT_TRIALOBJECTIVEDATA_GET_GUIDEGROUPID_OFFSET UNITYSDK_OFFSET(0xB391330)
-#define RPG_CLIENT_TRIALOBJECTIVEDATA_GET_ISFINISHALL_OFFSET UNITYSDK_OFFSET(0xB391370)
-#define RPG_CLIENT_TRIALOBJECTIVEDATA_GET_OBJECTIVECOUNT_OFFSET UNITYSDK_OFFSET(0xB3912E0)
-#define RPG_CLIENT_TRIALOBJECTIVEDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0xB391220)
-#define RPG_CLIENT_TRIALOBJECTIVEDATA_SET_CURPROGRESS_OFFSET UNITYSDK_OFFSET(0xB391360)
-#define RPG_CLIENT_TRIALOBJECTIVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB390FB0)
-#define RPG_CLIENT_TRIALOBJECTIVEDATA__INITDATA_OFFSET UNITYSDK_OFFSET(0xB391000)
+#define RPG_CLIENT_TRIALOBJECTIVEDATA_GETTARGETDESC_OFFSET UNITYSDK_OFFSET(0xCAEE410)
+#define RPG_CLIENT_TRIALOBJECTIVEDATA_GET_CURPROGRESS_OFFSET UNITYSDK_OFFSET(0xCAEE5D0)
+#define RPG_CLIENT_TRIALOBJECTIVEDATA_GET_GUIDEGROUPID_OFFSET UNITYSDK_OFFSET(0xCAEE5B0)
+#define RPG_CLIENT_TRIALOBJECTIVEDATA_GET_ISFINISHALL_OFFSET UNITYSDK_OFFSET(0xCAEE5F0)
+#define RPG_CLIENT_TRIALOBJECTIVEDATA_GET_OBJECTIVECOUNT_OFFSET UNITYSDK_OFFSET(0xCAEE560)
+#define RPG_CLIENT_TRIALOBJECTIVEDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0xCAEE4B0)
+#define RPG_CLIENT_TRIALOBJECTIVEDATA_SET_CURPROGRESS_OFFSET UNITYSDK_OFFSET(0xCAEE5E0)
+#define RPG_CLIENT_TRIALOBJECTIVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCAEE1F0)
+#define RPG_CLIENT_TRIALOBJECTIVEDATA__INITDATA_OFFSET UNITYSDK_OFFSET(0xCAEE240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrialObjectiveData_TypeDefinitionIndex = 66663;
+	inline static constexpr unsigned int TrialObjectiveData_TypeDefinitionIndex = 67603;
 
 	class TrialObjectiveData : public ::System::Object
 	{
@@ -29,19 +29,19 @@ namespace RPG::Client
 		::System::UInt32 _CurProgress_k__BackingField; // 0x20
 		::System::UInt32 _ScoreID; // 0x24
 
-		::System::Void _ctor(::System::UInt32 trialStageID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIALOBJECTIVEDATA__CTOR_OFFSET))(this, trialStageID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIALOBJECTIVEDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::TextID GetTargetDesc(::System::UInt32 progress)
+		::RPG::Client::TextID GetTargetDesc(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::TextID(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIALOBJECTIVEDATA_GETTARGETDESC_OFFSET))(this, progress);
+			return ((::RPG::Client::TextID(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIALOBJECTIVEDATA_GETTARGETDESC_OFFSET))(this, a1);
 		}
 
-		::System::Void Refresh(::RPG::GameCore::BattleScoringChangeParams* param)
+		::System::Void Refresh(::RPG::GameCore::BattleScoringChangeParams* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleScoringChangeParams*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIALOBJECTIVEDATA_REFRESH_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleScoringChangeParams*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIALOBJECTIVEDATA_REFRESH_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitData()
@@ -59,9 +59,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIALOBJECTIVEDATA_GET_CURPROGRESS_OFFSET))(this);
 		}
 
-		::System::Void set_CurProgress(::System::UInt32 value)
+		::System::Void set_CurProgress(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIALOBJECTIVEDATA_SET_CURPROGRESS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIALOBJECTIVEDATA_SET_CURPROGRESS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ObjectiveCount()

@@ -3,39 +3,39 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_99D526797741C2F2;
+class Class_1_A1EDFD8801F68886;
 namespace RPG::Client { class FiveDimGameInstance; }
 namespace RPG::Client { class WaypointIdentifier; }
 namespace RPG::Client::Billboard { class BillboardIdentifier; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_CREATE_OFFSET UNITYSDK_OFFSET(0xA3BC280)
-#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GETBILLBOARDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0xA3BC0F0)
-#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GETTARGETENTITYPOS_OFFSET UNITYSDK_OFFSET(0xA3BBEF0)
-#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GETTARGETPOS_OFFSET UNITYSDK_OFFSET(0xA3BBBC0)
-#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xA3BBBB0)
-#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GET__BORNPOSITION_OFFSET UNITYSDK_OFFSET(0xA3BBE80)
-#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GET__GAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xA3BBDA0)
-#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GET__LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0xA3BBE20)
-#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0xA3BC0B0)
-#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xA3BC3B0)
+#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_CREATE_OFFSET UNITYSDK_OFFSET(0xBA59140)
+#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GETBILLBOARDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0xBA58FC0)
+#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GETTARGETENTITYPOS_OFFSET UNITYSDK_OFFSET(0xBA58DC0)
+#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GETTARGETPOS_OFFSET UNITYSDK_OFFSET(0xBA58A80)
+#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xBA58A70)
+#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GET__BORNPOSITION_OFFSET UNITYSDK_OFFSET(0xBA58D40)
+#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GET__GAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xBA58C60)
+#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GET__LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0xBA58CE0)
+#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0xBA58F80)
+#define RPG_CLIENT_FIVEDIMWAYPOINTTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xBA59270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimWaypointTarget_TypeDefinitionIndex = 63678;
+	inline static constexpr unsigned int FiveDimWaypointTarget_TypeDefinitionIndex = 64599;
 
 	class FiveDimWaypointTarget : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* _TargetTransform; // 0x10
-		::Class_1_99D526797741C2F2* _FiveDimEntityCheatSheet; // 0x18
+		::Class_1_A1EDFD8801F68886* _FiveDimEntityCheatSheet; // 0x18
 		::RPG::Client::WaypointIdentifier* _Identifier_k__BackingField; // 0x20
-		::System::UInt32 _ContainerGroupID; // 0x28
-		::System::UInt32 _ContainerInstanceID; // 0x2C
+		::System::UInt32 _ContainerInstanceID; // 0x28
+		::System::UInt32 _ContainerGroupID; // 0x2C
 
-		::System::Void _ctor(::System::UInt32 containerGroupID, ::System::UInt32 containerInstanceID, ::Class_1_99D526797741C2F2* fiveDimEntityCheatSheet)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::Class_1_A1EDFD8801F68886* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::Class_1_99D526797741C2F2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMWAYPOINTTARGET__CTOR_OFFSET))(this, containerGroupID, containerInstanceID, fiveDimEntityCheatSheet);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::Class_1_A1EDFD8801F68886*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMWAYPOINTTARGET__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::WaypointIdentifier* get_Identifier()
@@ -63,9 +63,9 @@ namespace RPG::Client
 			return ((::RPG::Client::Billboard::BillboardIdentifier*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMWAYPOINTTARGET_GETBILLBOARDIDENTIFIER_OFFSET))(this);
 		}
 
-		static ::RPG::Client::FiveDimWaypointTarget* Create(::System::UInt32 containerGroupID, ::System::UInt32 containerInstanceID, ::System::UInt32 littleGameEntityID)
+		static ::RPG::Client::FiveDimWaypointTarget* Create(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::FiveDimWaypointTarget*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMWAYPOINTTARGET_CREATE_OFFSET))(containerGroupID, containerInstanceID, littleGameEntityID);
+			return ((::RPG::Client::FiveDimWaypointTarget*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMWAYPOINTTARGET_CREATE_OFFSET))(a1, a2, a3);
 		}
 
 		::System::UInt32 get__LittleGameEntityID()

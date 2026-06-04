@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA335470)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS7_0__SYNCTRAITBUFFUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xA336CD0)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB986DD0)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS7_0__SYNCTRAITBUFFUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xB988740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass7_0_TypeDefinitionIndex = 58870;
+	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass7_0_TypeDefinitionIndex = 59800;
 
 	class FateBuffTraitInfo___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _SyncTraitBuffUpdate_b__0(::System::UInt32 id)
+		::System::Boolean _SyncTraitBuffUpdate_b__0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS7_0__SYNCTRAITBUFFUPDATE_B__0_OFFSET))(this, id);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS7_0__SYNCTRAITBUFFUPDATE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

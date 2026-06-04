@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class IBookletView; }
-namespace RPG::GameCore::Booklet { class ElementConfig; }
+class Class_1_3020D9016E0BA2D9_Class_1_CA4F817DD40902B7;
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TurnBasedModifierInstance; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_989_TypeDefinitionIndex = 66748;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_989_TypeDefinitionIndex = 66783;
 
 class Class_0_16E4307DCC419505_989
 {

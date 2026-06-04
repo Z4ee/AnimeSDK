@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class ABTestInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONFIGMANAGER_PAYPLATCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x17407220)
+#define MIHOYO_SDK_CONFIGMANAGER_PAYPLATCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1820A8D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigManager_PayPlatConfigModel_TypeDefinitionIndex = 7243;
+	inline static constexpr unsigned int ConfigManager_PayPlatConfigModel_TypeDefinitionIndex = 8146;
 
 	class ConfigManager_PayPlatConfigModel : public ::System::Object
 	{

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENABLENPCMONSTERAI_METHOD_3_325A992D91EDD1DD_OFFSET UNITYSDK_OFFSET(0x188A6790)
-#define RPG_GAMECORE_ENABLENPCMONSTERAI_METHOD_3_ABD8CFB81786013F_OFFSET UNITYSDK_OFFSET(0x188A6700)
-#define RPG_GAMECORE_ENABLENPCMONSTERAI__CTOR_OFFSET UNITYSDK_OFFSET(0x188A6760)
+#define RPG_GAMECORE_ENABLENPCMONSTERAI_METHOD_3_326B5420CA091A32_OFFSET UNITYSDK_OFFSET(0x196E4C70)
+#define RPG_GAMECORE_ENABLENPCMONSTERAI_METHOD_3_B6E199BDBB7E35E1_OFFSET UNITYSDK_OFFSET(0x196E4D00)
+#define RPG_GAMECORE_ENABLENPCMONSTERAI__CTOR_OFFSET UNITYSDK_OFFSET(0x196E4CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableNPCMonsterAI_TypeDefinitionIndex = 19375;
+	inline static constexpr unsigned int EnableNPCMonsterAI_TypeDefinitionIndex = 19283;
 
 	class EnableNPCMonsterAI : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLENPCMONSTERAI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ABD8CFB81786013F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableNPCMonsterAI*& a2)
+		static ::System::Void Method_3_326B5420CA091A32(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableNPCMonsterAI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableNPCMonsterAI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLENPCMONSTERAI_METHOD_3_ABD8CFB81786013F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableNPCMonsterAI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLENPCMONSTERAI_METHOD_3_326B5420CA091A32_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_325A992D91EDD1DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableNPCMonsterAI* a2)
+		static ::System::Void Method_3_B6E199BDBB7E35E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableNPCMonsterAI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableNPCMonsterAI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLENPCMONSTERAI_METHOD_3_325A992D91EDD1DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableNPCMonsterAI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLENPCMONSTERAI_METHOD_3_B6E199BDBB7E35E1_OFFSET))(a1, a2);
 		}
 	};
 }

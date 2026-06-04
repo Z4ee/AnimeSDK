@@ -8,13 +8,13 @@ namespace System { class Type; }
 namespace System::Collections { class Hashtable; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CHECKSERIALIZABLETYPE_OFFSET UNITYSDK_OFFSET(0x19FFAAD0)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDCLRTYPE_OFFSET UNITYSDK_OFFSET(0x19FFA9E0)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x19FFA870)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERCLRTYPE_OFFSET UNITYSDK_OFFSET(0x19FFA910)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x19FFA7F0)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FFAEF0)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFAE40)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CHECKSERIALIZABLETYPE_OFFSET UNITYSDK_OFFSET(0x1AE6F110)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDCLRTYPE_OFFSET UNITYSDK_OFFSET(0x1AE6F020)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1AE6EEA0)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERCLRTYPE_OFFSET UNITYSDK_OFFSET(0x1AE6EF50)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1AE6EE20)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE6F530)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE6F480)
 
 namespace System::Xml::Serialization
 {
@@ -25,7 +25,7 @@ namespace System::Xml::Serialization
 	public:
 		static ::Il2CppArray<::System::Reflection::ParameterModifier>** StaticGet_empty_modifiers()
 		{
-			return (::Il2CppArray<::System::Reflection::ParameterModifier>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionHelper_TypeDefinitionIndex)->GetStaticField(0xDAF0);
+			return (::Il2CppArray<::System::Reflection::ParameterModifier>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionHelper_TypeDefinitionIndex)->GetStaticField(0x16440);
 		}
 		::System::Collections::Hashtable* _schemaTypes; // 0x10
 		::System::Collections::Hashtable* _clrTypes; // 0x18
@@ -40,29 +40,29 @@ namespace System::Xml::Serialization
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CCTOR_OFFSET))();
 		}
 
-		::System::Void RegisterSchemaType(::System::Xml::Serialization::XmlTypeMapping* map, ::System::String* xmlType, ::System::String* ns)
+		::System::Void RegisterSchemaType(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERSCHEMATYPE_OFFSET))(this, map, xmlType, ns);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERSCHEMATYPE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Xml::Serialization::XmlTypeMapping* GetRegisteredSchemaType(::System::String* xmlType, ::System::String* ns)
+		::System::Xml::Serialization::XmlTypeMapping* GetRegisteredSchemaType(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Xml::Serialization::XmlTypeMapping*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDSCHEMATYPE_OFFSET))(this, xmlType, ns);
+			return ((::System::Xml::Serialization::XmlTypeMapping*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDSCHEMATYPE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterClrType(::System::Xml::Serialization::XmlTypeMapping* map, ::System::Type* type, ::System::String* ns)
+		::System::Void RegisterClrType(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::Type* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERCLRTYPE_OFFSET))(this, map, type, ns);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERCLRTYPE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Xml::Serialization::XmlTypeMapping* GetRegisteredClrType(::System::Type* type, ::System::String* ns)
+		::System::Xml::Serialization::XmlTypeMapping* GetRegisteredClrType(::System::Type* a1, ::System::String* a2)
 		{
-			return ((::System::Xml::Serialization::XmlTypeMapping*(*)(::PVOID, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDCLRTYPE_OFFSET))(this, type, ns);
+			return ((::System::Xml::Serialization::XmlTypeMapping*(*)(::PVOID, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDCLRTYPE_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void CheckSerializableType(::System::Type* type, ::System::Boolean allowPrivateConstructors)
+		static ::System::Void CheckSerializableType(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CHECKSERIALIZABLETYPE_OFFSET))(type, allowPrivateConstructors);
+			return ((::System::Void(*)(::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CHECKSERIALIZABLETYPE_OFFSET))(a1, a2);
 		}
 	};
 }

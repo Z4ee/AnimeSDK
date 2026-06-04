@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TextContainerAnchors_TypeDefinitionIndex = 40250;
+	inline static constexpr unsigned int TextContainerAnchors_TypeDefinitionIndex = 41077;
 
 	enum class TextContainerAnchors : ::System::Int32
 	{

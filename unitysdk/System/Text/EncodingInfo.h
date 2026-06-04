@@ -4,26 +4,26 @@
 
 namespace System { class String; }
 
-#define SYSTEM_TEXT_ENCODINGINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x178413F0)
-#define SYSTEM_TEXT_ENCODINGINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17841450)
-#define SYSTEM_TEXT_ENCODINGINFO_GET_CODEPAGE_OFFSET UNITYSDK_OFFSET(0x178413E0)
-#define SYSTEM_TEXT_ENCODINGINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17841460)
-#define SYSTEM_TEXT_ENCODINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x178413D0)
+#define SYSTEM_TEXT_ENCODINGINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x185FB270)
+#define SYSTEM_TEXT_ENCODINGINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x185FB2D0)
+#define SYSTEM_TEXT_ENCODINGINFO_GET_CODEPAGE_OFFSET UNITYSDK_OFFSET(0x185FB260)
+#define SYSTEM_TEXT_ENCODINGINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x185FB2E0)
+#define SYSTEM_TEXT_ENCODINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x185FB250)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int EncodingInfo_TypeDefinitionIndex = 492;
+	inline static constexpr unsigned int EncodingInfo_TypeDefinitionIndex = 491;
 
 	class EncodingInfo : public ::System::Object
 	{
 	public:
-		::System::String* strDisplayName; // 0x10
-		::System::String* strEncodingName; // 0x18
+		::System::String* strEncodingName; // 0x10
+		::System::String* strDisplayName; // 0x18
 		::System::Int32 iCodePage; // 0x20
 
-		::System::Void _ctor(::System::Int32 codePage, ::System::String* name, ::System::String* displayName)
+		::System::Void _ctor(::System::Int32 a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGINFO__CTOR_OFFSET))(this, codePage, name, displayName);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGINFO__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1()
@@ -36,9 +36,9 @@ namespace System::Text
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGINFO_GET_CODEPAGE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* value)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGINFO_EQUALS_OFFSET))(this, value);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGINFO_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

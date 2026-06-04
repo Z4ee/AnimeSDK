@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore { class TeamDataComponent; }
 
-inline static constexpr unsigned int Struct_2_79FA0AAF60FE0B5C_TypeDefinitionIndex = 51486;
+inline static constexpr unsigned int Struct_2_79FA0AAF60FE0B5C_TypeDefinitionIndex = 52154;
 
 struct alignas(8) Struct_2_79FA0AAF60FE0B5C
 {

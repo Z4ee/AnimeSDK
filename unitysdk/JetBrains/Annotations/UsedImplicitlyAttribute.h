@@ -4,12 +4,12 @@
 #include "unitysdk/JetBrains/Annotations/ImplicitUseTargetFlags.h"
 #include "unitysdk/System/Attribute.h"
 
-#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A423420)
-#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A423410)
+#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B2766A0)
+#define JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B276690)
 
 namespace JetBrains::Annotations
 {
-	inline static constexpr unsigned int UsedImplicitlyAttribute_TypeDefinitionIndex = 3822;
+	inline static constexpr unsigned int UsedImplicitlyAttribute_TypeDefinitionIndex = 3996;
 
 	class UsedImplicitlyAttribute : public ::System::Attribute
 	{
@@ -22,9 +22,9 @@ namespace JetBrains::Annotations
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags)
+		::System::Void _ctor_1(::JetBrains::Annotations::ImplicitUseKindFlags a1, ::JetBrains::Annotations::ImplicitUseTargetFlags a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::JetBrains::Annotations::ImplicitUseKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags))((::PBYTE)hIl2Cpp + JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_1_OFFSET))(this, useKindFlags, targetFlags);
+			return ((::System::Void(*)(::PVOID, ::JetBrains::Annotations::ImplicitUseKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags))((::PBYTE)hIl2Cpp + JETBRAINS_ANNOTATIONS_USEDIMPLICITLYATTRIBUTE__CTOR_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

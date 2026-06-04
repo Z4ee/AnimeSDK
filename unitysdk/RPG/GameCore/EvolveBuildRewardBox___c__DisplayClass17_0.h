@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class EvolveBuildCollectionGearDisplayData; }
 
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB682710)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS17_0___ADDTOWAVEDATABYGEARID_B__0_OFFSET UNITYSDK_OFFSET(0xB685160)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCDED190)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS17_0___ADDTOWAVEDATABYGEARID_B__0_OFFSET UNITYSDK_OFFSET(0xCDEFAD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRewardBox___c__DisplayClass17_0_TypeDefinitionIndex = 49352;
+	inline static constexpr unsigned int EvolveBuildRewardBox___c__DisplayClass17_0_TypeDefinitionIndex = 50019;
 
 	class EvolveBuildRewardBox___c__DisplayClass17_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __AddToWaveDataByGearID_b__0(::RPG::Client::EvolveBuildCollectionGearDisplayData* a)
+		::System::Boolean __AddToWaveDataByGearID_b__0(::RPG::Client::EvolveBuildCollectionGearDisplayData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::EvolveBuildCollectionGearDisplayData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS17_0___ADDTOWAVEDATABYGEARID_B__0_OFFSET))(this, a);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::EvolveBuildCollectionGearDisplayData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS17_0___ADDTOWAVEDATABYGEARID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

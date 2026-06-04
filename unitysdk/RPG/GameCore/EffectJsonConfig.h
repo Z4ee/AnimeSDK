@@ -14,12 +14,12 @@ namespace RPG::GameCore { class ModifierBindEffectConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_EFFECTJSONCONFIG_METHOD_2_6D068E337B4A253A_OFFSET UNITYSDK_OFFSET(0x188966B0)
-#define RPG_GAMECORE_EFFECTJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18896ED0)
+#define RPG_GAMECORE_EFFECTJSONCONFIG_METHOD_2_EE07C13025A521B8_OFFSET UNITYSDK_OFFSET(0x196D4D90)
+#define RPG_GAMECORE_EFFECTJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196D54C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectJsonConfig_TypeDefinitionIndex = 15605;
+	inline static constexpr unsigned int EffectJsonConfig_TypeDefinitionIndex = 15667;
 
 	class EffectJsonConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -49,9 +49,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTJSONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6D068E337B4A253A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectJsonConfig*& a2)
+		static ::System::Void Method_2_EE07C13025A521B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectJsonConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectJsonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTJSONCONFIG_METHOD_2_6D068E337B4A253A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectJsonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTJSONCONFIG_METHOD_2_EE07C13025A521B8_OFFSET))(a1, a2);
 		}
 	};
 }

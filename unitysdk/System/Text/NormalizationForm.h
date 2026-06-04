@@ -3,7 +3,7 @@
 
 namespace System::Text
 {
-	inline static constexpr unsigned int NormalizationForm_TypeDefinitionIndex = 513;
+	inline static constexpr unsigned int NormalizationForm_TypeDefinitionIndex = 512;
 
 	enum class NormalizationForm : ::System::Int32
 	{

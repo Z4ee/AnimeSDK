@@ -4,23 +4,23 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_3B1EA953A4067E26_1;
-class Class_1_7370FAEB2C64106B;
-class Class_2_7AF1D57CA4301272;
+class Class_1_683531EF1026FCA6;
+class Class_2_C01BA129C3E40259;
 namespace RPG::GameCore { class ChimeraAbility; }
 namespace RPG::GameCore { class ChimeraAbilityModifier; }
 namespace RPG::GameCore { class ChimeraBattleExtraConditionEvaluator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_07F3159234271541_METHOD_1_2AAEDB40A8EB07AB_OFFSET UNITYSDK_OFFSET(0x118A7E80)
-#define CLASS_1_07F3159234271541_METHOD_1_63350BD540BA59C3_OFFSET UNITYSDK_OFFSET(0x118A85A0)
-#define CLASS_1_07F3159234271541_METHOD_1_7F7C7ACAFD70D2CB_OFFSET UNITYSDK_OFFSET(0x118A7B00)
-#define CLASS_1_07F3159234271541_METHOD_1_B452D9EF147A389B_OFFSET UNITYSDK_OFFSET(0x118A83A0)
-#define CLASS_1_07F3159234271541_METHOD_1_B47CA45178F1E077_OFFSET UNITYSDK_OFFSET(0x118A7F60)
-#define CLASS_1_07F3159234271541_METHOD_1_BB697BCE8627B14D_OFFSET UNITYSDK_OFFSET(0x118A7EF0)
-#define CLASS_1_07F3159234271541_METHOD_1_EDB3D17E6E7B93A4_OFFSET UNITYSDK_OFFSET(0x118A7370)
-#define CLASS_1_07F3159234271541__CTOR_OFFSET UNITYSDK_OFFSET(0x118A7360)
+#define CLASS_1_07F3159234271541_METHOD_1_2AAEDB40A8EB07AB_OFFSET UNITYSDK_OFFSET(0x13B05210)
+#define CLASS_1_07F3159234271541_METHOD_1_7F7C7ACAFD70D2CB_OFFSET UNITYSDK_OFFSET(0x13B04D80)
+#define CLASS_1_07F3159234271541_METHOD_1_B47CA45178F1E077_OFFSET UNITYSDK_OFFSET(0x13B052F0)
+#define CLASS_1_07F3159234271541_METHOD_1_BB697BCE8627B14D_OFFSET UNITYSDK_OFFSET(0x13B05280)
+#define CLASS_1_07F3159234271541_METHOD_1_CE986F991628D9C2_OFFSET UNITYSDK_OFFSET(0x13B05700)
+#define CLASS_1_07F3159234271541_METHOD_1_EDB3D17E6E7B93A4_OFFSET UNITYSDK_OFFSET(0x13B04580)
+#define CLASS_1_07F3159234271541_METHOD_1_F6F9209066958B8F_OFFSET UNITYSDK_OFFSET(0x13B05930)
+#define CLASS_1_07F3159234271541__CTOR_OFFSET UNITYSDK_OFFSET(0x13B04570)
 
-inline static constexpr unsigned int Class_1_07F3159234271541_TypeDefinitionIndex = 70379;
+inline static constexpr unsigned int Class_1_07F3159234271541_TypeDefinitionIndex = 71195;
 
 class Class_1_07F3159234271541 : public ::System::Object
 {
@@ -32,38 +32,38 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_1_3B1EA953A4067E26_1*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_EDB3D17E6E7B93A4(::RPG::GameCore::ChimeraBattleActionType a1, ::Class_2_7AF1D57CA4301272* a2)
+	::System::Void Method_1_EDB3D17E6E7B93A4(::RPG::GameCore::ChimeraBattleActionType a1, ::Class_2_C01BA129C3E40259* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraBattleActionType, ::Class_2_7AF1D57CA4301272*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_EDB3D17E6E7B93A4_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraBattleActionType, ::Class_2_C01BA129C3E40259*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_EDB3D17E6E7B93A4_OFFSET))(this, a1, a2);
 	}
 
-	::Class_1_7370FAEB2C64106B* Method_1_BB697BCE8627B14D(::Class_2_7AF1D57CA4301272* a1, ::RPG::GameCore::ChimeraAbility* a2, ::Class_1_7370FAEB2C64106B* a3)
+	::Class_1_683531EF1026FCA6* Method_1_BB697BCE8627B14D(::Class_2_C01BA129C3E40259* a1, ::RPG::GameCore::ChimeraAbility* a2, ::Class_1_683531EF1026FCA6* a3)
 	{
-		return ((::Class_1_7370FAEB2C64106B*(*)(::PVOID, ::Class_2_7AF1D57CA4301272*, ::RPG::GameCore::ChimeraAbility*, ::Class_1_7370FAEB2C64106B*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_BB697BCE8627B14D_OFFSET))(this, a1, a2, a3);
+		return ((::Class_1_683531EF1026FCA6*(*)(::PVOID, ::Class_2_C01BA129C3E40259*, ::RPG::GameCore::ChimeraAbility*, ::Class_1_683531EF1026FCA6*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_BB697BCE8627B14D_OFFSET))(this, a1, a2, a3);
 	}
 
-	::Class_1_7370FAEB2C64106B* Method_1_2AAEDB40A8EB07AB(::Class_2_7AF1D57CA4301272* a1, ::RPG::GameCore::ChimeraAbility* a2, ::Class_2_7AF1D57CA4301272* a3)
+	::Class_1_683531EF1026FCA6* Method_1_2AAEDB40A8EB07AB(::Class_2_C01BA129C3E40259* a1, ::RPG::GameCore::ChimeraAbility* a2, ::Class_2_C01BA129C3E40259* a3)
 	{
-		return ((::Class_1_7370FAEB2C64106B*(*)(::PVOID, ::Class_2_7AF1D57CA4301272*, ::RPG::GameCore::ChimeraAbility*, ::Class_2_7AF1D57CA4301272*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_2AAEDB40A8EB07AB_OFFSET))(this, a1, a2, a3);
+		return ((::Class_1_683531EF1026FCA6*(*)(::PVOID, ::Class_2_C01BA129C3E40259*, ::RPG::GameCore::ChimeraAbility*, ::Class_2_C01BA129C3E40259*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_2AAEDB40A8EB07AB_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Boolean Method_1_7F7C7ACAFD70D2CB(::Class_2_7AF1D57CA4301272* a1, ::RPG::GameCore::ChimeraAbility* a2, ::Class_2_7AF1D57CA4301272* a3, ::RPG::GameCore::ChimeraBattleActionType a4, ::Il2CppArray<::System::Object*>* a5)
+	::System::Boolean Method_1_7F7C7ACAFD70D2CB(::Class_2_C01BA129C3E40259* a1, ::RPG::GameCore::ChimeraAbility* a2, ::Class_2_C01BA129C3E40259* a3, ::RPG::GameCore::ChimeraBattleActionType a4, ::Il2CppArray<::System::Object*>* a5)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_2_7AF1D57CA4301272*, ::RPG::GameCore::ChimeraAbility*, ::Class_2_7AF1D57CA4301272*, ::RPG::GameCore::ChimeraBattleActionType, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_7F7C7ACAFD70D2CB_OFFSET))(this, a1, a2, a3, a4, a5);
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_C01BA129C3E40259*, ::RPG::GameCore::ChimeraAbility*, ::Class_2_C01BA129C3E40259*, ::RPG::GameCore::ChimeraBattleActionType, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_7F7C7ACAFD70D2CB_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
-	::System::Boolean Method_1_B47CA45178F1E077(::RPG::GameCore::ChimeraBattleExtraConditionEvaluator* a1, ::Class_2_7AF1D57CA4301272* a2)
+	::System::Boolean Method_1_B47CA45178F1E077(::RPG::GameCore::ChimeraBattleExtraConditionEvaluator* a1, ::Class_2_C01BA129C3E40259* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChimeraBattleExtraConditionEvaluator*, ::Class_2_7AF1D57CA4301272*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_B47CA45178F1E077_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChimeraBattleExtraConditionEvaluator*, ::Class_2_C01BA129C3E40259*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_B47CA45178F1E077_OFFSET))(this, a1, a2);
 	}
 
-	::System::Collections::Generic::List_1<::System::Int32>* Method_1_B452D9EF147A389B(::Class_1_7370FAEB2C64106B* a1, ::RPG::GameCore::ChimeraAbilityModifier* a2)
+	::System::Collections::Generic::List_1<::System::Int32>* Method_1_CE986F991628D9C2(::Class_1_683531EF1026FCA6* a1, ::RPG::GameCore::ChimeraAbilityModifier* a2)
 	{
-		return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::PVOID, ::Class_1_7370FAEB2C64106B*, ::RPG::GameCore::ChimeraAbilityModifier*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_B452D9EF147A389B_OFFSET))(this, a1, a2);
+		return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::PVOID, ::Class_1_683531EF1026FCA6*, ::RPG::GameCore::ChimeraAbilityModifier*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_CE986F991628D9C2_OFFSET))(this, a1, a2);
 	}
 
-	::System::Collections::Generic::List_1<::Class_2_7AF1D57CA4301272*>* Method_1_63350BD540BA59C3(::Class_1_7370FAEB2C64106B* a1, ::RPG::GameCore::ChimeraAbilityModifier* a2)
+	::System::Collections::Generic::List_1<::Class_2_C01BA129C3E40259*>* Method_1_F6F9209066958B8F(::Class_1_683531EF1026FCA6* a1, ::RPG::GameCore::ChimeraAbilityModifier* a2)
 	{
-		return ((::System::Collections::Generic::List_1<::Class_2_7AF1D57CA4301272*>*(*)(::PVOID, ::Class_1_7370FAEB2C64106B*, ::RPG::GameCore::ChimeraAbilityModifier*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_63350BD540BA59C3_OFFSET))(this, a1, a2);
+		return ((::System::Collections::Generic::List_1<::Class_2_C01BA129C3E40259*>*(*)(::PVOID, ::Class_1_683531EF1026FCA6*, ::RPG::GameCore::ChimeraAbilityModifier*))((::PBYTE)hIl2Cpp + CLASS_1_07F3159234271541_METHOD_1_F6F9209066958B8F_OFFSET))(this, a1, a2);
 	}
 };

@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IPlayerEditorConnectionNative_TypeDefinitionIndex = 4042;
+	inline static constexpr unsigned int IPlayerEditorConnectionNative_TypeDefinitionIndex = 4216;
 
 	class IPlayerEditorConnectionNative
 	{

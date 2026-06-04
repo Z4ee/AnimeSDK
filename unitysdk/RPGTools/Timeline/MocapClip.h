@@ -10,15 +10,15 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_MOCAPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB8ECD10)
-#define RPGTOOLS_TIMELINE_MOCAPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB8ECD00)
-#define RPGTOOLS_TIMELINE_MOCAPCLIP_GET_OFFSETPOSITION_OFFSET UNITYSDK_OFFSET(0xB8ECCD0)
-#define RPGTOOLS_TIMELINE_MOCAPCLIP_SET_OFFSETPOSITION_OFFSET UNITYSDK_OFFSET(0xB8ECCF0)
-#define RPGTOOLS_TIMELINE_MOCAPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB8ECF00)
+#define RPGTOOLS_TIMELINE_MOCAPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD02ECB0)
+#define RPGTOOLS_TIMELINE_MOCAPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xD02ECA0)
+#define RPGTOOLS_TIMELINE_MOCAPCLIP_GET_OFFSETPOSITION_OFFSET UNITYSDK_OFFSET(0xD02EC70)
+#define RPGTOOLS_TIMELINE_MOCAPCLIP_SET_OFFSETPOSITION_OFFSET UNITYSDK_OFFSET(0xD02EC90)
+#define RPGTOOLS_TIMELINE_MOCAPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xD02EE40)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MocapClip_TypeDefinitionIndex = 44931;
+	inline static constexpr unsigned int MocapClip_TypeDefinitionIndex = 45479;
 
 	class MocapClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -37,9 +37,9 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOCAPCLIP_GET_OFFSETPOSITION_OFFSET))(this);
 		}
 
-		::System::Void set_OffsetPosition(::UnityEngine::Vector3 value)
+		::System::Void set_OffsetPosition(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOCAPCLIP_SET_OFFSETPOSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOCAPCLIP_SET_OFFSETPOSITION_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()

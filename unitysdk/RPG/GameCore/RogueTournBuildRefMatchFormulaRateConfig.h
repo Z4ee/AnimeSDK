@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHFORMULARATECONFIG_METHOD_2_2CEE076929F0D6E9_OFFSET UNITYSDK_OFFSET(0x18D6ECC0)
-#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHFORMULARATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D6F020)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHFORMULARATECONFIG_METHOD_2_D1C113438BA2F418_OFFSET UNITYSDK_OFFSET(0x19BC2C50)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHFORMULARATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC2EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournBuildRefMatchFormulaRateConfig_TypeDefinitionIndex = 16786;
+	inline static constexpr unsigned int RogueTournBuildRefMatchFormulaRateConfig_TypeDefinitionIndex = 16802;
 
 	class RogueTournBuildRefMatchFormulaRateConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNBUILDREFMATCHFORMULARATECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2CEE076929F0D6E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournBuildRefMatchFormulaRateConfig*& a2)
+		static ::System::Void Method_2_D1C113438BA2F418(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournBuildRefMatchFormulaRateConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournBuildRefMatchFormulaRateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNBUILDREFMATCHFORMULARATECONFIG_METHOD_2_2CEE076929F0D6E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournBuildRefMatchFormulaRateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNBUILDREFMATCHFORMULARATECONFIG_METHOD_2_D1C113438BA2F418_OFFSET))(a1, a2);
 		}
 	};
 }

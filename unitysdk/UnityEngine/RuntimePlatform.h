@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RuntimePlatform_TypeDefinitionIndex = 3828;
+	inline static constexpr unsigned int RuntimePlatform_TypeDefinitionIndex = 4002;
 
 	enum class RuntimePlatform : ::System::Int32
 	{

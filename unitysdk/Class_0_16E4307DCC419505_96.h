@@ -1,7 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_96_TypeDefinitionIndex = 38038;
+namespace UnityEngine { class Animator; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_96_TypeDefinitionIndex = 38761;
 
 class Class_0_16E4307DCC419505_96
 {

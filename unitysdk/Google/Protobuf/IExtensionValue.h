@@ -6,7 +6,7 @@ namespace Google::Protobuf { class CodedOutputStream; }
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int IExtensionValue_TypeDefinitionIndex = 6173;
+	inline static constexpr unsigned int IExtensionValue_TypeDefinitionIndex = 5375;
 
 	class IExtensionValue
 	{

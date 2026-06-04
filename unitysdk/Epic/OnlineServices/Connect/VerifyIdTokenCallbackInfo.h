@@ -9,41 +9,41 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E635A0)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_ACCOUNTIDTYPE_OFFSET UNITYSDK_OFFSET(0x8E63520)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x8E63540)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8E634C0)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_DEVICETYPE_OFFSET UNITYSDK_OFFSET(0x8E63580)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_ISACCOUNTINFOPRESENT_OFFSET UNITYSDK_OFFSET(0x8E63500)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x8E63560)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x8E634E0)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E634A0)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8E64150)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ACCOUNTIDTYPE_OFFSET UNITYSDK_OFFSET(0x8E63530)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x8E63550)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8E634D0)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_DEVICETYPE_OFFSET UNITYSDK_OFFSET(0x8E63590)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ISACCOUNTINFOPRESENT_OFFSET UNITYSDK_OFFSET(0x8E63510)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8E635C0)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_PLATFORM_OFFSET UNITYSDK_OFFSET(0x8E63570)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x8E634F0)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E634B0)
-#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8E64290)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2A7F90)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_ACCOUNTIDTYPE_OFFSET UNITYSDK_OFFSET(0xA2A7F10)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xA2A7F30)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2A7EB0)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_DEVICETYPE_OFFSET UNITYSDK_OFFSET(0xA2A7F70)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_ISACCOUNTINFOPRESENT_OFFSET UNITYSDK_OFFSET(0xA2A7EF0)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_PLATFORM_OFFSET UNITYSDK_OFFSET(0xA2A7F50)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0xA2A7ED0)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2A7E90)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA2A8B40)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ACCOUNTIDTYPE_OFFSET UNITYSDK_OFFSET(0xA2A7F20)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xA2A7F40)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2A7EC0)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_DEVICETYPE_OFFSET UNITYSDK_OFFSET(0xA2A7F80)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ISACCOUNTINFOPRESENT_OFFSET UNITYSDK_OFFSET(0xA2A7F00)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA2A7FB0)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_PLATFORM_OFFSET UNITYSDK_OFFSET(0xA2A7F60)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0xA2A7EE0)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2A7EA0)
+#define EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA2A8C80)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int VerifyIdTokenCallbackInfo_TypeDefinitionIndex = 42348;
+	inline static constexpr unsigned int VerifyIdTokenCallbackInfo_TypeDefinitionIndex = 43151;
 
 	class VerifyIdTokenCallbackInfo : public ::System::Object
 	{
 	public:
-		::System::String* _Platform_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _ProductUserId_k__BackingField; // 0x18
-		::System::Object* _ClientData_k__BackingField; // 0x20
-		::System::String* _DeviceType_k__BackingField; // 0x28
+		::Epic::OnlineServices::ProductUserId* _ProductUserId_k__BackingField; // 0x10
+		::System::String* _Platform_k__BackingField; // 0x18
+		::System::String* _DeviceType_k__BackingField; // 0x20
+		::System::Object* _ClientData_k__BackingField; // 0x28
 		::System::String* _AccountId_k__BackingField; // 0x30
-		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x38
-		::System::Boolean _IsAccountInfoPresent_k__BackingField; // 0x3C
+		::System::Boolean _IsAccountInfoPresent_k__BackingField; // 0x38
+		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x3C
 		::Epic::OnlineServices::ExternalAccountType _AccountIdType_k__BackingField; // 0x40
 
 		::System::Void _ctor()
@@ -56,9 +56,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -66,9 +66,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_ProductUserId()
@@ -76,9 +76,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_PRODUCTUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_ProductUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_ProductUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_PRODUCTUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_PRODUCTUSERID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsAccountInfoPresent()
@@ -86,9 +86,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_ISACCOUNTINFOPRESENT_OFFSET))(this);
 		}
 
-		::System::Void set_IsAccountInfoPresent(::System::Boolean value)
+		::System::Void set_IsAccountInfoPresent(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ISACCOUNTINFOPRESENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ISACCOUNTINFOPRESENT_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ExternalAccountType get_AccountIdType()
@@ -96,9 +96,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ExternalAccountType(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_ACCOUNTIDTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_AccountIdType(::Epic::OnlineServices::ExternalAccountType value)
+		::System::Void set_AccountIdType(::Epic::OnlineServices::ExternalAccountType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalAccountType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ACCOUNTIDTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalAccountType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ACCOUNTIDTYPE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_AccountId()
@@ -106,9 +106,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_ACCOUNTID_OFFSET))(this);
 		}
 
-		::System::Void set_AccountId(::System::String* value)
+		::System::Void set_AccountId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ACCOUNTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_ACCOUNTID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Platform()
@@ -116,9 +116,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_PLATFORM_OFFSET))(this);
 		}
 
-		::System::Void set_Platform(::System::String* value)
+		::System::Void set_Platform(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_PLATFORM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_PLATFORM_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DeviceType()
@@ -126,9 +126,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GET_DEVICETYPE_OFFSET))(this);
 		}
 
-		::System::Void set_DeviceType(::System::String* value)
+		::System::Void set_DeviceType(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_DEVICETYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_DEVICETYPE_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -136,14 +136,14 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Connect::VerifyIdTokenCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Connect::VerifyIdTokenCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Connect::VerifyIdTokenCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Connect::VerifyIdTokenCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_VERIFYIDTOKENCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

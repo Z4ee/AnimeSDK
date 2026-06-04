@@ -3,43 +3,45 @@
 #include "unitysdk/RPG/Client/UIStateCtrlStatus.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_CD08FD31D792BD24;
+class Class_1_6CC143B9599F1FCA;
+class Class_1_9EF7AFCD5A0A1C74;
 namespace RPG::Client { class UIStateCtrl_UIStateCtrlInternalAccessor; }
 namespace RPG::Client::UI::UIStateCtrl { class StateData; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_UISTATECTRL_COMPLETECURRENTSTATEIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xB437B90)
-#define RPG_CLIENT_UISTATECTRL_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xB4383E0)
-#define RPG_CLIENT_UISTATECTRL_GET_INTERNALACCESSOR_OFFSET UNITYSDK_OFFSET(0xB438440)
-#define RPG_CLIENT_UISTATECTRL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB4380F0)
-#define RPG_CLIENT_UISTATECTRL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB437EA0)
-#define RPG_CLIENT_UISTATECTRL_PLAYSTATE_OFFSET UNITYSDK_OFFSET(0xB437850)
-#define RPG_CLIENT_UISTATECTRL_UPDATE_OFFSET UNITYSDK_OFFSET(0xB4380A0)
-#define RPG_CLIENT_UISTATECTRL__CTOR_OFFSET UNITYSDK_OFFSET(0xB4384E0)
-#define RPG_CLIENT_UISTATECTRL__FORCECOMPLETECURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xB437C70)
-#define RPG_CLIENT_UISTATECTRL__GETCURRENTSTATEACTIONSSTATUS_OFFSET UNITYSDK_OFFSET(0xB4376F0)
-#define RPG_CLIENT_UISTATECTRL__GETSTATEDATABYSTATENAME_OFFSET UNITYSDK_OFFSET(0xB438290)
-#define RPG_CLIENT_UISTATECTRL__INITSTATEDATAS_OFFSET UNITYSDK_OFFSET(0xB437F80)
-#define RPG_CLIENT_UISTATECTRL__PLAYSTATEINTERNAL_OFFSET UNITYSDK_OFFSET(0xB437910)
-#define RPG_CLIENT_UISTATECTRL__SETPARENT_OFFSET UNITYSDK_OFFSET(0xB438210)
-#define RPG_CLIENT_UISTATECTRL__STARTSTATE_OFFSET UNITYSDK_OFFSET(0xB4371F0)
-#define RPG_CLIENT_UISTATECTRL__TICKSTATE_OFFSET UNITYSDK_OFFSET(0xB4373A0)
-#define RPG_CLIENT_UISTATECTRL__TICK_OFFSET UNITYSDK_OFFSET(0xB437290)
-#define RPG_CLIENT_UISTATECTRL__TRYUPDATESTATUSOFCURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xB437670)
+#define RPG_CLIENT_UISTATECTRL_COMPLETECURRENTSTATEIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xCB97DA0)
+#define RPG_CLIENT_UISTATECTRL_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xCB985B0)
+#define RPG_CLIENT_UISTATECTRL_GET_INTERNALACCESSOR_OFFSET UNITYSDK_OFFSET(0xCB98610)
+#define RPG_CLIENT_UISTATECTRL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCB982C0)
+#define RPG_CLIENT_UISTATECTRL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCB98090)
+#define RPG_CLIENT_UISTATECTRL_PLAYSTATE_OFFSET UNITYSDK_OFFSET(0xCB97A60)
+#define RPG_CLIENT_UISTATECTRL_UPDATE_OFFSET UNITYSDK_OFFSET(0xCB98270)
+#define RPG_CLIENT_UISTATECTRL__CTOR_OFFSET UNITYSDK_OFFSET(0xCB986B0)
+#define RPG_CLIENT_UISTATECTRL__FORCECOMPLETECURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xCB97E80)
+#define RPG_CLIENT_UISTATECTRL__GETCURRENTSTATEACTIONSSTATUS_OFFSET UNITYSDK_OFFSET(0xCB97940)
+#define RPG_CLIENT_UISTATECTRL__GETSTATEDATABYSTATENAME_OFFSET UNITYSDK_OFFSET(0xCB98440)
+#define RPG_CLIENT_UISTATECTRL__INITSTATEDATAS_OFFSET UNITYSDK_OFFSET(0xCB98170)
+#define RPG_CLIENT_UISTATECTRL__PLAYSTATEINTERNAL_OFFSET UNITYSDK_OFFSET(0xCB97B20)
+#define RPG_CLIENT_UISTATECTRL__SETPARENT_OFFSET UNITYSDK_OFFSET(0xCB983C0)
+#define RPG_CLIENT_UISTATECTRL__STARTSTATE_OFFSET UNITYSDK_OFFSET(0xCB97450)
+#define RPG_CLIENT_UISTATECTRL__TICKSTATE_OFFSET UNITYSDK_OFFSET(0xCB97600)
+#define RPG_CLIENT_UISTATECTRL__TICK_OFFSET UNITYSDK_OFFSET(0xCB974F0)
+#define RPG_CLIENT_UISTATECTRL__TRYUPDATESTATUSOFCURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xCB978C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIStateCtrl_TypeDefinitionIndex = 63717;
+	inline static constexpr unsigned int UIStateCtrl_TypeDefinitionIndex = 64638;
 
 	class UIStateCtrl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::UI::UIStateCtrl::StateData*>* _StateDatas; // 0x18
-		::Class_1_CD08FD31D792BD24* _Context; // 0x20
+		::Class_1_9EF7AFCD5A0A1C74* _Context; // 0x20
 		::System::Boolean _Inited; // 0x28
 		::RPG::Client::UIStateCtrl_UIStateCtrlInternalAccessor* _internalAccessor; // 0x30
+		::Class_1_6CC143B9599F1FCA* _assetLoader; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -51,14 +53,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__STARTSTATE_OFFSET))(this);
 		}
 
-		::System::Void _Tick(::System::Single deltaTime)
+		::System::Void _Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__TICK_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void _TickState(::System::Single deltaTime)
+		::System::Void _TickState(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__TICKSTATE_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__TICKSTATE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::UIStateCtrlStatus _GetCurrentStateActionsStatus()
@@ -66,9 +68,9 @@ namespace RPG::Client
 			return ((::RPG::Client::UIStateCtrlStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__GETCURRENTSTATEACTIONSSTATUS_OFFSET))(this);
 		}
 
-		::System::Void PlayState(::System::String* stateName, ::System::Boolean isImmediately, ::System::Action* onUIStatePlayCompleted)
+		::System::Void PlayState(::System::String* a1, ::System::Boolean a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL_PLAYSTATE_OFFSET))(this, stateName, isImmediately, onUIStatePlayCompleted);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL_PLAYSTATE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void CompleteCurrentStateImmediately()
@@ -96,19 +98,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__INITSTATEDATAS_OFFSET))(this);
 		}
 
-		::System::Void _SetParent(::RPG::Client::UIStateCtrl* parentUIStateCtrl)
+		::System::Void _SetParent(::RPG::Client::UIStateCtrl* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIStateCtrl*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__SETPARENT_OFFSET))(this, parentUIStateCtrl);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIStateCtrl*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__SETPARENT_OFFSET))(this, a1);
 		}
 
-		::System::Void _PlayStateInternal(::System::String* stateName, ::System::Boolean isImmediately, ::System::Action* onUIStatePlayCompleted)
+		::System::Void _PlayStateInternal(::System::String* a1, ::System::Boolean a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__PLAYSTATEINTERNAL_OFFSET))(this, stateName, isImmediately, onUIStatePlayCompleted);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__PLAYSTATEINTERNAL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::UI::UIStateCtrl::StateData* _GetStateDataByStateName(::System::String* stateName)
+		::RPG::Client::UI::UIStateCtrl::StateData* _GetStateDataByStateName(::System::String* a1)
 		{
-			return ((::RPG::Client::UI::UIStateCtrl::StateData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__GETSTATEDATABYSTATENAME_OFFSET))(this, stateName);
+			return ((::RPG::Client::UI::UIStateCtrl::StateData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISTATECTRL__GETSTATEDATABYSTATENAME_OFFSET))(this, a1);
 		}
 
 		::System::Void _TryUpdateStatusOfCurrentState()

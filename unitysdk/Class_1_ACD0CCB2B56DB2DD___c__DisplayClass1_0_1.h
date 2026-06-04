@@ -4,7 +4,7 @@
 
 namespace RPG::Client { class TABehaviorBase; }
 
-inline static constexpr unsigned int Class_1_ACD0CCB2B56DB2DD___c__DisplayClass1_0_1_TypeDefinitionIndex = 65263;
+inline static constexpr unsigned int Class_1_ACD0CCB2B56DB2DD___c__DisplayClass1_0_1_TypeDefinitionIndex = 66190;
 
 template <typename TBehavior>
 class Class_1_ACD0CCB2B56DB2DD___c__DisplayClass1_0_1 : public ::System::Object

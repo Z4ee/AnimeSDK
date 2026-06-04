@@ -3,16 +3,16 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/Bool.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_GET_HASPOSITIONS_OFFSET UNITYSDK_OFFSET(0x2A500)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_GET_HASUVS_OFFSET UNITYSDK_OFFSET(0x22CE520)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_GET_HASWIDTHS_OFFSET UNITYSDK_OFFSET(0x22A7200)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASPOSITIONS_OFFSET UNITYSDK_OFFSET(0xD87E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASUVS_OFFSET UNITYSDK_OFFSET(0x22D8A70)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASWIDTHS_OFFSET UNITYSDK_OFFSET(0x22D8A80)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_GET_HASPOSITIONS_OFFSET UNITYSDK_OFFSET(0x2D770)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_GET_HASUVS_OFFSET UNITYSDK_OFFSET(0x3868AE0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_GET_HASWIDTHS_OFFSET UNITYSDK_OFFSET(0x3837310)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASPOSITIONS_OFFSET UNITYSDK_OFFSET(0x13CFF0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASUVS_OFFSET UNITYSDK_OFFSET(0x3874520)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASWIDTHS_OFFSET UNITYSDK_OFFSET(0x3874530)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiCurvesSummary_TypeDefinitionIndex = 40811;
+	inline static constexpr unsigned int aiCurvesSummary_TypeDefinitionIndex = 41637;
 
 	struct alignas(1) aiCurvesSummary
 	{
@@ -25,9 +25,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_GET_HASPOSITIONS_OFFSET))(this);
 		}
 
-		::System::Void set_hasPositions(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasPositions(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASPOSITIONS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASPOSITIONS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasUVs()
@@ -35,9 +35,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_GET_HASUVS_OFFSET))(this);
 		}
 
-		::System::Void set_hasUVs(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasUVs(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASUVS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASUVS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasWidths()
@@ -45,9 +45,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_GET_HASWIDTHS_OFFSET))(this);
 		}
 
-		::System::Void set_hasWidths(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasWidths(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASWIDTHS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AICURVESSUMMARY_SET_HASWIDTHS_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,12 +5,12 @@
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class String; }
 
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS103_0__CHECKISPUSHNOTIFYOPEN_B__0_OFFSET UNITYSDK_OFFSET(0xAF624F0)
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAF624E0)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS103_0__CHECKISPUSHNOTIFYOPEN_B__0_OFFSET UNITYSDK_OFFSET(0xC6A7AD0)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6A7AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass103_0_TypeDefinitionIndex = 56337;
+	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass103_0_TypeDefinitionIndex = 57099;
 
 	class RPGSDKAccountManager___c__DisplayClass103_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS103_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _CheckIsPushNotifyOpen_b__0(::System::String* responseString)
+		::System::Void _CheckIsPushNotifyOpen_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS103_0__CHECKISPUSHNOTIFYOPEN_B__0_OFFSET))(this, responseString);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS103_0__CHECKISPUSHNOTIFYOPEN_B__0_OFFSET))(this, a1);
 		}
 	};
 }

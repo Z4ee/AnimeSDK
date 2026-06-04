@@ -7,26 +7,26 @@
 
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E80500)
-#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8E804C0)
-#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E804E0)
-#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E804A0)
-#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8E80830)
-#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8E804D0)
-#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E804F0)
-#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8E80520)
-#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E804B0)
-#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8E80940)
+#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2C1360)
+#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2C1320)
+#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2C1340)
+#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2C1300)
+#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA2C1690)
+#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2C1330)
+#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2C1350)
+#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA2C1380)
+#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2C1310)
+#define EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA2C17B0)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int QueryEntitlementsCallbackInfo_TypeDefinitionIndex = 42207;
+	inline static constexpr unsigned int QueryEntitlementsCallbackInfo_TypeDefinitionIndex = 43010;
 
 	class QueryEntitlementsCallbackInfo : public ::System::Object
 	{
 	public:
-		::System::Object* _ClientData_k__BackingField; // 0x10
-		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x10
+		::System::Object* _ClientData_k__BackingField; // 0x18
 		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x20
 
 		::System::Void _ctor()
@@ -39,9 +39,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -49,9 +49,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::EpicAccountId* get_LocalUserId()
@@ -59,9 +59,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -69,14 +69,14 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Ecom::QueryEntitlementsCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Ecom::QueryEntitlementsCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Ecom::QueryEntitlementsCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Ecom::QueryEntitlementsCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYENTITLEMENTSCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

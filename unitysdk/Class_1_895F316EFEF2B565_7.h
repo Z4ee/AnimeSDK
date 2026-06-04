@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_C4FD36003027AC99;
-class Class_2_49CAB3DE74280C58;
+class Class_1_A92BC063ED2379EB;
+class Class_2_B66C1067C0468FBB;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_895F316EFEF2B565_7_METHOD_1_9EC05CD8054C8C05_OFFSET UNITYSDK_OFFSET(0x9E57E00)
-#define CLASS_1_895F316EFEF2B565_7__CTOR_OFFSET UNITYSDK_OFFSET(0x9E57EC0)
+#define CLASS_1_895F316EFEF2B565_7_METHOD_1_9EC05CD8054C8C05_OFFSET UNITYSDK_OFFSET(0x13CBCF40)
+#define CLASS_1_895F316EFEF2B565_7__CTOR_OFFSET UNITYSDK_OFFSET(0x13CBD000)
 
-inline static constexpr unsigned int Class_1_895F316EFEF2B565_7_TypeDefinitionIndex = 71114;
+inline static constexpr unsigned int Class_1_895F316EFEF2B565_7_TypeDefinitionIndex = 72052;
 
 class Class_1_895F316EFEF2B565_7 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_895F316EFEF2B565_7__CTOR_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::IEnumerable_1<::Class_2_49CAB3DE74280C58*>* Method_1_9EC05CD8054C8C05(::Class_1_C4FD36003027AC99* a1, ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig* a2)
+	::System::Collections::Generic::IEnumerable_1<::Class_2_B66C1067C0468FBB*>* Method_1_9EC05CD8054C8C05(::Class_1_A92BC063ED2379EB* a1, ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig* a2)
 	{
-		return ((::System::Collections::Generic::IEnumerable_1<::Class_2_49CAB3DE74280C58*>*(*)(::PVOID, ::Class_1_C4FD36003027AC99*, ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig*))((::PBYTE)hIl2Cpp + CLASS_1_895F316EFEF2B565_7_METHOD_1_9EC05CD8054C8C05_OFFSET))(this, a1, a2);
+		return ((::System::Collections::Generic::IEnumerable_1<::Class_2_B66C1067C0468FBB*>*(*)(::PVOID, ::Class_1_A92BC063ED2379EB*, ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig*))((::PBYTE)hIl2Cpp + CLASS_1_895F316EFEF2B565_7_METHOD_1_9EC05CD8054C8C05_OFFSET))(this, a1, a2);
 	}
 };

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/MotionBlurMethod.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define RPG_CUSTOMRP_MOTIONBLURMETHODPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x18145900)
+#define RPG_CUSTOMRP_MOTIONBLURMETHODPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EEBA40)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MotionBlurMethodParameter_TypeDefinitionIndex = 35203;
+	inline static constexpr unsigned int MotionBlurMethodParameter_TypeDefinitionIndex = 35503;
 
 	class MotionBlurMethodParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::RPG::CustomRP::MotionBlurMethod>
 	{

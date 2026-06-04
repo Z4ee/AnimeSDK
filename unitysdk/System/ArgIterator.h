@@ -4,40 +4,40 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_ARGITERATOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x229D720)
-#define SYSTEM_ARGITERATOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x68F0)
-#define SYSTEM_ARGITERATOR_GETNEXTARG_OFFSET UNITYSDK_OFFSET(0x229D780)
-#define SYSTEM_ARGITERATOR_GETREMAININGCOUNT_OFFSET UNITYSDK_OFFSET(0x229D810)
-#define SYSTEM_ARGITERATOR_INTGETNEXTARG_OFFSET UNITYSDK_OFFSET(0x229D800)
-#define SYSTEM_ARGITERATOR_SETUP_OFFSET UNITYSDK_OFFSET(0x229D6E0)
-#define SYSTEM_ARGITERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x229D6F0)
+#define SYSTEM_ARGITERATOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x382CE10)
+#define SYSTEM_ARGITERATOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xDAD0)
+#define SYSTEM_ARGITERATOR_GETNEXTARG_OFFSET UNITYSDK_OFFSET(0x382CE70)
+#define SYSTEM_ARGITERATOR_GETREMAININGCOUNT_OFFSET UNITYSDK_OFFSET(0x382CF00)
+#define SYSTEM_ARGITERATOR_INTGETNEXTARG_OFFSET UNITYSDK_OFFSET(0x382CEF0)
+#define SYSTEM_ARGITERATOR_SETUP_OFFSET UNITYSDK_OFFSET(0x382CDD0)
+#define SYSTEM_ARGITERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x382CDE0)
 
 namespace System
 {
-	inline static constexpr unsigned int ArgIterator_TypeDefinitionIndex = 377;
+	inline static constexpr unsigned int ArgIterator_TypeDefinitionIndex = 376;
 
 	struct alignas(8) ArgIterator
 	{
-		::System::IntPtr args; // 0x10
-		::System::Int32 next_arg; // 0x18
-		::System::Int32 num_args; // 0x1C
-		::System::IntPtr sig; // 0x20
+		::System::Int32 next_arg; // 0x10
+		::System::Int32 num_args; // 0x14
+		::System::IntPtr sig; // 0x18
+		::System::IntPtr args; // 0x20
 
 		/*
-		::System::Void _ctor(::System::RuntimeArgumentHandle arglist)
+		::System::Void _ctor(::System::RuntimeArgumentHandle a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::RuntimeArgumentHandle))((::PBYTE)hIl2Cpp + SYSTEM_ARGITERATOR__CTOR_OFFSET))(this, arglist);
+			return ((::System::Void(*)(::PVOID, ::System::RuntimeArgumentHandle))((::PBYTE)hIl2Cpp + SYSTEM_ARGITERATOR__CTOR_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Void Setup(::System::IntPtr argsp, ::System::IntPtr start)
+		::System::Void Setup(::System::IntPtr a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_ARGITERATOR_SETUP_OFFSET))(this, argsp, start);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_ARGITERATOR_SETUP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* o)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ARGITERATOR_EQUALS_OFFSET))(this, o);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_ARGITERATOR_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

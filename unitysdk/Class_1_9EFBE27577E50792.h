@@ -7,39 +7,39 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9EFBE27577E50792_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAC48F0)
-#define CLASS_1_9EFBE27577E50792_GET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xBAC3D20)
-#define CLASS_1_9EFBE27577E50792_METHOD_1_1E1B584909E026DF_OFFSET UNITYSDK_OFFSET(0xBAC4090)
-#define CLASS_1_9EFBE27577E50792_METHOD_1_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0xBAC41B0)
-#define CLASS_1_9EFBE27577E50792_METHOD_1_479759059E440327_OFFSET UNITYSDK_OFFSET(0xBAC3D50)
-#define CLASS_1_9EFBE27577E50792_METHOD_1_47F50B259C23D1F5_OFFSET UNITYSDK_OFFSET(0xBAC46C0)
-#define CLASS_1_9EFBE27577E50792_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0xBAC3D40)
-#define CLASS_1_9EFBE27577E50792_METHOD_1_905C5B739E978596_OFFSET UNITYSDK_OFFSET(0xBAC3DE0)
-#define CLASS_1_9EFBE27577E50792_METHOD_1_97445C748F8ED5C4_OFFSET UNITYSDK_OFFSET(0xBAC3EC0)
-#define CLASS_1_9EFBE27577E50792_METHOD_1_BBF1FF1CE4B71F13_OFFSET UNITYSDK_OFFSET(0xBAC3FB0)
-#define CLASS_1_9EFBE27577E50792_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xBAC3DD0)
-#define CLASS_1_9EFBE27577E50792_SET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xBAC3D30)
-#define CLASS_1_9EFBE27577E50792__CCTOR_OFFSET UNITYSDK_OFFSET(0xBAC4940)
-#define CLASS_1_9EFBE27577E50792__CTOR_OFFSET UNITYSDK_OFFSET(0xBAC4450)
+#define CLASS_1_9EFBE27577E50792_DISPOSE_OFFSET UNITYSDK_OFFSET(0x143FC470)
+#define CLASS_1_9EFBE27577E50792_GET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0x143FB8A0)
+#define CLASS_1_9EFBE27577E50792_METHOD_1_00004B41EFDB322F_OFFSET UNITYSDK_OFFSET(0x143FC270)
+#define CLASS_1_9EFBE27577E50792_METHOD_1_1E1B584909E026DF_OFFSET UNITYSDK_OFFSET(0x143FBBF0)
+#define CLASS_1_9EFBE27577E50792_METHOD_1_364E91940C737CC9_OFFSET UNITYSDK_OFFSET(0x143FBD10)
+#define CLASS_1_9EFBE27577E50792_METHOD_1_479759059E440327_OFFSET UNITYSDK_OFFSET(0x143FB8D0)
+#define CLASS_1_9EFBE27577E50792_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x143FB8C0)
+#define CLASS_1_9EFBE27577E50792_METHOD_1_905C5B739E978596_OFFSET UNITYSDK_OFFSET(0x143FB960)
+#define CLASS_1_9EFBE27577E50792_METHOD_1_97445C748F8ED5C4_OFFSET UNITYSDK_OFFSET(0x143FBA30)
+#define CLASS_1_9EFBE27577E50792_METHOD_1_BBF1FF1CE4B71F13_OFFSET UNITYSDK_OFFSET(0x143FBB20)
+#define CLASS_1_9EFBE27577E50792_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x143FB950)
+#define CLASS_1_9EFBE27577E50792_SET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0x143FB8B0)
+#define CLASS_1_9EFBE27577E50792__CCTOR_OFFSET UNITYSDK_OFFSET(0x143FC4C0)
+#define CLASS_1_9EFBE27577E50792__CTOR_OFFSET UNITYSDK_OFFSET(0x143FC010)
 
-inline static constexpr unsigned int Class_1_9EFBE27577E50792_TypeDefinitionIndex = 65572;
+inline static constexpr unsigned int Class_1_9EFBE27577E50792_TypeDefinitionIndex = 66506;
 
 class Class_1_9EFBE27577E50792 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_Field_1_5()
+	static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EFBE27577E50792_TypeDefinitionIndex)->GetStaticField(0x6A610);
+		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EFBE27577E50792_TypeDefinitionIndex)->GetStaticField(0x37430);
 	}
-	static ::System::UInt32* StaticGet_Field_1_0()
+	static ::System::UInt32* StaticGet_Field_1_1()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EFBE27577E50792_TypeDefinitionIndex)->GetStaticField(0x119E0);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EFBE27577E50792_TypeDefinitionIndex)->GetStaticField(0xB150);
 	}
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* Field_1_6; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* Field_1_2; // 0x10
 	::RPG::Client::MonoEmoBlendShapesController* _Controller_k__BackingField; // 0x18
-	::System::Boolean Field_1_3; // 0x20
-	::System::Single Field_1_4; // 0x24
-	::System::UInt32 Field_1_1; // 0x28
+	::System::Single Field_1_4; // 0x20
+	::System::Boolean Field_1_5; // 0x24
+	::System::UInt32 Field_1_6; // 0x28
 
 	::System::Void _ctor(::RPG::Client::MonoEmoBlendShapesController* a1, ::System::Single a2)
 	{
@@ -56,9 +56,9 @@ public:
 		return ((::RPG::Client::MonoEmoBlendShapesController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9EFBE27577E50792_GET_CONTROLLER_OFFSET))(this);
 	}
 
-	::System::Void set_Controller(::RPG::Client::MonoEmoBlendShapesController* value)
+	::System::Void set_Controller(::RPG::Client::MonoEmoBlendShapesController* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEmoBlendShapesController*))((::PBYTE)hIl2Cpp + CLASS_1_9EFBE27577E50792_SET_CONTROLLER_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEmoBlendShapesController*))((::PBYTE)hIl2Cpp + CLASS_1_9EFBE27577E50792_SET_CONTROLLER_OFFSET))(this, a1);
 	}
 
 	::System::Single Method_1_5323F2DF46A044DA()
@@ -96,14 +96,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_9EFBE27577E50792_METHOD_1_1E1B584909E026DF_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_460F8AE6EF9687FD()
+	::System::Void Method_1_364E91940C737CC9()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9EFBE27577E50792_METHOD_1_460F8AE6EF9687FD_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9EFBE27577E50792_METHOD_1_364E91940C737CC9_OFFSET))(this);
 	}
 
-	::System::Void Method_1_47F50B259C23D1F5(::Class_1_9EFBE27577E50792* a1)
+	::System::Void Method_1_00004B41EFDB322F(::Class_1_9EFBE27577E50792* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_9EFBE27577E50792*))((::PBYTE)hIl2Cpp + CLASS_1_9EFBE27577E50792_METHOD_1_47F50B259C23D1F5_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_9EFBE27577E50792*))((::PBYTE)hIl2Cpp + CLASS_1_9EFBE27577E50792_METHOD_1_00004B41EFDB322F_OFFSET))(this, a1);
 	}
 
 	::System::Void Dispose()

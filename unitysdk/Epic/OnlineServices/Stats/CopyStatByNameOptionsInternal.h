@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::Stats { class CopyStatByNameOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B300)
-#define EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x1B290)
-#define EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B1D0)
-#define EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1B280)
-#define EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1B110)
+#define EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B9D0)
+#define EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x1B950)
+#define EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B890)
+#define EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1B940)
+#define EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1B7D0)
 
 namespace Epic::OnlineServices::Stats
 {
-	inline static constexpr unsigned int CopyStatByNameOptionsInternal_TypeDefinitionIndex = 41206;
+	inline static constexpr unsigned int CopyStatByNameOptionsInternal_TypeDefinitionIndex = 42009;
 
 	struct alignas(8) CopyStatByNameOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::Stats
 		::System::IntPtr m_TargetUserId; // 0x18
 		::System::IntPtr m_Name; // 0x20
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_NAME_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Stats::CopyStatByNameOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Stats::CopyStatByNameOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Stats::CopyStatByNameOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Stats::CopyStatByNameOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_COPYSTATBYNAMEOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOWROGUEFORMALUAUI_METHOD_3_DDB3E6CC80F7BEE5_OFFSET UNITYSDK_OFFSET(0x18E65800)
-#define RPG_GAMECORE_SHOWROGUEFORMALUAUI_METHOD_3_EB91225D7B4D19A3_OFFSET UNITYSDK_OFFSET(0x18E65880)
-#define RPG_GAMECORE_SHOWROGUEFORMALUAUI__CTOR_OFFSET UNITYSDK_OFFSET(0x18E65850)
+#define RPG_GAMECORE_SHOWROGUEFORMALUAUI_METHOD_3_11DA21EAFE4D635F_OFFSET UNITYSDK_OFFSET(0x19C81920)
+#define RPG_GAMECORE_SHOWROGUEFORMALUAUI_METHOD_3_FB2374F35CC9D699_OFFSET UNITYSDK_OFFSET(0x19C819A0)
+#define RPG_GAMECORE_SHOWROGUEFORMALUAUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19C81970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowRogueFormaluaUI_TypeDefinitionIndex = 19790;
+	inline static constexpr unsigned int ShowRogueFormaluaUI_TypeDefinitionIndex = 19666;
 
 	class ShowRogueFormaluaUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWROGUEFORMALUAUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DDB3E6CC80F7BEE5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowRogueFormaluaUI*& a2)
+		static ::System::Void Method_3_11DA21EAFE4D635F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowRogueFormaluaUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowRogueFormaluaUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWROGUEFORMALUAUI_METHOD_3_DDB3E6CC80F7BEE5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowRogueFormaluaUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWROGUEFORMALUAUI_METHOD_3_11DA21EAFE4D635F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EB91225D7B4D19A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowRogueFormaluaUI* a2)
+		static ::System::Void Method_3_FB2374F35CC9D699(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowRogueFormaluaUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowRogueFormaluaUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWROGUEFORMALUAUI_METHOD_3_EB91225D7B4D19A3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowRogueFormaluaUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWROGUEFORMALUAUI_METHOD_3_FB2374F35CC9D699_OFFSET))(a1, a2);
 		}
 	};
 }

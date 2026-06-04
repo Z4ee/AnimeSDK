@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AttributeData_AttributeType_TypeDefinitionIndex = 43525;
+	inline static constexpr unsigned int HEU_AttributeData_AttributeType_TypeDefinitionIndex = 37459;
 
 	enum class HEU_AttributeData_AttributeType : ::System::Int32
 	{

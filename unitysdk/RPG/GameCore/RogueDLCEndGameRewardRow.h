@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D0B4B0)
-#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D0B5F0)
+#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B30430)
+#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B30570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCEndGameRewardRow_TypeDefinitionIndex = 14004;
+	inline static constexpr unsigned int RogueDLCEndGameRewardRow_TypeDefinitionIndex = 14068;
 
 	class RogueDLCEndGameRewardRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueDLCEndGameRewardRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDLCEndGameRewardRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLCEndGameRewardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLCEndGameRewardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::TitleStorage { class QueryFileListOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E960)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x1E8F0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LISTOFTAGS_OFFSET UNITYSDK_OFFSET(0x1E870)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1E7B0)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1E8E0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EF40)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x1EEC0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LISTOFTAGS_OFFSET UNITYSDK_OFFSET(0x1EE40)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x1ED80)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1EEB0)
 
 namespace Epic::OnlineServices::TitleStorage
 {
-	inline static constexpr unsigned int QueryFileListOptionsInternal_TypeDefinitionIndex = 41191;
+	inline static constexpr unsigned int QueryFileListOptionsInternal_TypeDefinitionIndex = 41994;
 
 	struct alignas(8) QueryFileListOptionsInternal
 	{
@@ -24,24 +24,24 @@ namespace Epic::OnlineServices::TitleStorage
 		::System::IntPtr m_ListOfTags; // 0x20
 		::System::UInt32 m_ListOfTagsCount; // 0x28
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ListOfTags(::Il2CppArray<::System::String*>* value)
+		::System::Void set_ListOfTags(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LISTOFTAGS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LISTOFTAGS_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::TitleStorage::QueryFileListOptions* other)
+		::System::Void Set(::Epic::OnlineServices::TitleStorage::QueryFileListOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::TitleStorage::QueryFileListOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::TitleStorage::QueryFileListOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

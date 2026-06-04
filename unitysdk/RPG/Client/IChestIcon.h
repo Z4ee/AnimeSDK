@@ -5,7 +5,7 @@ namespace RPG::Client { class FindChestData; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChestIcon_TypeDefinitionIndex = 57945;
+	inline static constexpr unsigned int IChestIcon_TypeDefinitionIndex = 58861;
 
 	class IChestIcon
 	{

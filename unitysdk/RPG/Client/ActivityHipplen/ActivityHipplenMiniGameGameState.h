@@ -11,21 +11,21 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenGameInstance; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_DEBUGFORCESETGAMECONFIG_OFFSET UNITYSDK_OFFSET(0x9AF7760)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_GET_CANSWITCHAUTOMODE_OFFSET UNITYSDK_OFFSET(0x9AF77E0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_GET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x9AF77C0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_GET_STATETYPE_OFFSET UNITYSDK_OFFSET(0x9AF7400)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_GET__CYCLEDATA_OFFSET UNITYSDK_OFFSET(0x9AF7360)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_ONFINISH_OFFSET UNITYSDK_OFFSET(0x9AF75A0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_ONREALENTER_OFFSET UNITYSDK_OFFSET(0x9AF7410)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SETTLEGAME_OFFSET UNITYSDK_OFFSET(0x9AF75F0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SET_CANSWITCHAUTOMODE_OFFSET UNITYSDK_OFFSET(0x9AF77F0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x9AF77D0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x9AF7100)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_DEBUGFORCESETGAMECONFIG_OFFSET UNITYSDK_OFFSET(0xB0DB9A0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_GET_CANSWITCHAUTOMODE_OFFSET UNITYSDK_OFFSET(0xB0DBA20)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_GET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0xB0DBA00)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_GET_STATETYPE_OFFSET UNITYSDK_OFFSET(0xB0DB630)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_GET__CYCLEDATA_OFFSET UNITYSDK_OFFSET(0xB0DB590)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_ONFINISH_OFFSET UNITYSDK_OFFSET(0xB0DB7E0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_ONREALENTER_OFFSET UNITYSDK_OFFSET(0xB0DB640)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SETTLEGAME_OFFSET UNITYSDK_OFFSET(0xB0DB830)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SET_CANSWITCHAUTOMODE_OFFSET UNITYSDK_OFFSET(0xB0DBA30)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0xB0DBA10)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB0DB330)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenMiniGameGameState_TypeDefinitionIndex = 69577;
+	inline static constexpr unsigned int ActivityHipplenMiniGameGameState_TypeDefinitionIndex = 70389;
 
 	class ActivityHipplenMiniGameGameState : public ::RPG::Client::ActivityHipplen::ActivityHipplenWorkGameStateBase
 	{
@@ -33,9 +33,9 @@ namespace RPG::Client::ActivityHipplen
 		::RPG::Client::ActivityHipplen::ActivityHipplenGameConfig _GameConfig_k__BackingField; // 0x18
 		::System::Boolean _CanSwitchAutoMode_k__BackingField; // 0x28
 
-		::System::Void _ctor(::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* workData)
+		::System::Void _ctor(::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE__CTOR_OFFSET))(this, workData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ActivityHipplen::ActivityHipplenGameStateType get_StateType()
@@ -43,24 +43,24 @@ namespace RPG::Client::ActivityHipplen
 			return ((::RPG::Client::ActivityHipplen::ActivityHipplenGameStateType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_GET_STATETYPE_OFFSET))(this);
 		}
 
-		::System::Void OnRealEnter(::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* game)
+		::System::Void OnRealEnter(::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_ONREALENTER_OFFSET))(this, game);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_ONREALENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void OnFinish(::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* game)
+		::System::Void OnFinish(::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_ONFINISH_OFFSET))(this, game);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_ONFINISH_OFFSET))(this, a1);
 		}
 
-		::System::Void SettleGame(::RPG::GameCore::HipplenGameGradeType gradeType)
+		::System::Void SettleGame(::RPG::GameCore::HipplenGameGradeType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenGameGradeType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SETTLEGAME_OFFSET))(this, gradeType);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenGameGradeType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SETTLEGAME_OFFSET))(this, a1);
 		}
 
-		::System::Void DebugForceSetGameConfig(::RPG::GameCore::HipplenMiniGameType type, ::System::String* jsonPath)
+		::System::Void DebugForceSetGameConfig(::RPG::GameCore::HipplenMiniGameType a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenMiniGameType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_DEBUGFORCESETGAMECONFIG_OFFSET))(this, type, jsonPath);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenMiniGameType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_DEBUGFORCESETGAMECONFIG_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::ActivityHipplen::ActivityHipplenGameCycleData* get__CycleData()
@@ -73,9 +73,9 @@ namespace RPG::Client::ActivityHipplen
 			return ((::RPG::Client::ActivityHipplen::ActivityHipplenGameConfig(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_GET_GAMECONFIG_OFFSET))(this);
 		}
 
-		::System::Void set_GameConfig(::RPG::Client::ActivityHipplen::ActivityHipplenGameConfig value)
+		::System::Void set_GameConfig(::RPG::Client::ActivityHipplen::ActivityHipplenGameConfig a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SET_GAMECONFIG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SET_GAMECONFIG_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_CanSwitchAutoMode()
@@ -83,9 +83,9 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_GET_CANSWITCHAUTOMODE_OFFSET))(this);
 		}
 
-		::System::Void set_CanSwitchAutoMode(::System::Boolean value)
+		::System::Void set_CanSwitchAutoMode(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SET_CANSWITCHAUTOMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE_SET_CANSWITCHAUTOMODE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYPHOTOEXHIBITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18626350)
-#define RPG_GAMECORE_ACTIVITYPHOTOEXHIBITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18626670)
+#define RPG_GAMECORE_ACTIVITYPHOTOEXHIBITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193F5F10)
+#define RPG_GAMECORE_ACTIVITYPHOTOEXHIBITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193F6220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPhotoExhibitionRow_TypeDefinitionIndex = 11501;
+	inline static constexpr unsigned int ActivityPhotoExhibitionRow_TypeDefinitionIndex = 11546;
 
 	class ActivityPhotoExhibitionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* CommentList; // 0x10
 		::Il2CppArray<::System::UInt32>* PhotoID; // 0x18
-		::System::UInt32 GroupID; // 0x20
-		::System::UInt32 ActivityModuleID; // 0x24
-		::System::UInt32 QuestID; // 0x28
-		::RPG::Client::TextID Daily; // 0x30
+		::RPG::Client::TextID Daily; // 0x20
+		::System::UInt32 GroupID; // 0x30
+		::System::UInt32 ActivityModuleID; // 0x34
+		::System::UInt32 QuestID; // 0x38
 		::RPG::Client::TextID Tab; // 0x40
 
 		::System::Void _ctor()
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYPHOTOEXHIBITIONROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityPhotoExhibitionRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityPhotoExhibitionRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityPhotoExhibitionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYPHOTOEXHIBITIONROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityPhotoExhibitionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYPHOTOEXHIBITIONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

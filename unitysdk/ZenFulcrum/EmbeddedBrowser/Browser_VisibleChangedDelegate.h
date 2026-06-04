@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6A4710)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6A4770)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6969A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A46F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4E7760)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4E77C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4DEC90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E7670)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser_VisibleChangedDelegate_TypeDefinitionIndex = 36097;
+	inline static constexpr unsigned int Browser_VisibleChangedDelegate_TypeDefinitionIndex = 36397;
 
 	class Browser_VisibleChangedDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::ZenFulcrum::EmbeddedBrowser::Browser* sender, ::System::Boolean visible)
+		::System::Void Invoke(::ZenFulcrum::EmbeddedBrowser::Browser* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_INVOKE_OFFSET))(this, sender, visible);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::ZenFulcrum::EmbeddedBrowser::Browser* sender, ::System::Boolean visible, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::ZenFulcrum::EmbeddedBrowser::Browser* a1, ::System::Boolean a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_BEGININVOKE_OFFSET))(this, sender, visible, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_VISIBLECHANGEDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

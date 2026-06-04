@@ -9,23 +9,23 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_MESHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8C94E20)
+#define HOUDINIENGINEUNITY_HEU_MESHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17F228F0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_MeshData_TypeDefinitionIndex = 43708;
+	inline static constexpr unsigned int HEU_MeshData_TypeDefinitionIndex = 37692;
 
 	class HEU_MeshData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* _indices; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _triangleNormals; // 0x10
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _vertices; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Color32>* _colors; // 0x20
+		::System::Collections::Generic::List_1<::System::Int32>* _indices; // 0x20
 		::Il2CppArray<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>* _uvs; // 0x28
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _triangleNormals; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* _pointIndexToMeshIndexMap; // 0x38
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _normals; // 0x40
-		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _tangents; // 0x48
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _normals; // 0x30
+		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _tangents; // 0x38
+		::System::Collections::Generic::List_1<::UnityEngine::Color32>* _colors; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* _pointIndexToMeshIndexMap; // 0x48
 		::UnityEngine::MeshTopology _meshTopology; // 0x50
 
 		::System::Void _ctor()

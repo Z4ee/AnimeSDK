@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZERESETMONSTERCONFIG_METHOD_2_B6F5C0CF4558FE22_OFFSET UNITYSDK_OFFSET(0x18ADAB20)
-#define RPG_GAMECORE_MAZERESETMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18ADAC70)
+#define RPG_GAMECORE_MAZERESETMONSTERCONFIG_METHOD_2_B6F5C0CF4558FE22_OFFSET UNITYSDK_OFFSET(0x1990A360)
+#define RPG_GAMECORE_MAZERESETMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1990A4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeResetMonsterConfig_TypeDefinitionIndex = 16730;
+	inline static constexpr unsigned int MazeResetMonsterConfig_TypeDefinitionIndex = 16751;
 
 	class MazeResetMonsterConfig : public ::RPG::GameCore::JsonConfig
 	{

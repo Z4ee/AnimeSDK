@@ -7,17 +7,17 @@ namespace Epic::OnlineServices::RTCAdmin { class QueryJoinRoomTokenOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x69D70)
-#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x69D00)
-#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x69A60)
-#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x69CF0)
-#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x69B20)
-#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_TARGETUSERIDS_OFFSET UNITYSDK_OFFSET(0x69BD0)
-#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_TARGETUSERIPADDRESSES_OFFSET UNITYSDK_OFFSET(0x69C40)
+#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x6F8C0)
+#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x6F840)
+#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x6F5A0)
+#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x6F830)
+#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x6F660)
+#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_TARGETUSERIDS_OFFSET UNITYSDK_OFFSET(0x6F710)
+#define EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_TARGETUSERIPADDRESSES_OFFSET UNITYSDK_OFFSET(0x6F780)
 
 namespace Epic::OnlineServices::RTCAdmin
 {
-	inline static constexpr unsigned int QueryJoinRoomTokenOptionsInternal_TypeDefinitionIndex = 41510;
+	inline static constexpr unsigned int QueryJoinRoomTokenOptionsInternal_TypeDefinitionIndex = 42313;
 
 	struct alignas(8) QueryJoinRoomTokenOptionsInternal
 	{
@@ -28,34 +28,34 @@ namespace Epic::OnlineServices::RTCAdmin
 		::System::UInt32 m_TargetUserIdsCount; // 0x30
 		::System::IntPtr m_TargetUserIpAddresses; // 0x38
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_RoomName(::System::String* value)
+		::System::Void set_RoomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_ROOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_ROOMNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_TargetUserIds(::Il2CppArray<::Epic::OnlineServices::ProductUserId*>* value)
+		::System::Void set_TargetUserIds(::Il2CppArray<::Epic::OnlineServices::ProductUserId*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::ProductUserId*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_TARGETUSERIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::ProductUserId*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_TARGETUSERIDS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_TargetUserIpAddresses(::System::String* value)
+		::System::Void set_TargetUserIpAddresses(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_TARGETUSERIPADDRESSES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_TARGETUSERIPADDRESSES_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::RTCAdmin::QueryJoinRoomTokenOptions* other)
+		::System::Void Set(::Epic::OnlineServices::RTCAdmin::QueryJoinRoomTokenOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::QueryJoinRoomTokenOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::QueryJoinRoomTokenOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_QUERYJOINROOMTOKENOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

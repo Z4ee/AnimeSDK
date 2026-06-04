@@ -5,14 +5,14 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PLAYERPLATFORMINFO_GET_ISPSPLAYER_OFFSET UNITYSDK_OFFSET(0xAD67790)
-#define RPG_CLIENT_PLAYERPLATFORMINFO_GET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0xAD67770)
-#define RPG_CLIENT_PLAYERPLATFORMINFO_SET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0xAD67780)
-#define RPG_CLIENT_PLAYERPLATFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xAD677E0)
+#define RPG_CLIENT_PLAYERPLATFORMINFO_GET_ISPSPLAYER_OFFSET UNITYSDK_OFFSET(0xC4A88C0)
+#define RPG_CLIENT_PLAYERPLATFORMINFO_GET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0xC4A88A0)
+#define RPG_CLIENT_PLAYERPLATFORMINFO_SET_PLATFORMUUID_OFFSET UNITYSDK_OFFSET(0xC4A88B0)
+#define RPG_CLIENT_PLAYERPLATFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC4A8910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerPlatformInfo_TypeDefinitionIndex = 61430;
+	inline static constexpr unsigned int PlayerPlatformInfo_TypeDefinitionIndex = 62354;
 
 	class PlayerPlatformInfo : public ::System::Object
 	{
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERPLATFORMINFO_GET_PLATFORMUUID_OFFSET))(this);
 		}
 
-		::System::Void set_PlatformUUID(::System::String* value)
+		::System::Void set_PlatformUUID(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERPLATFORMINFO_SET_PLATFORMUUID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERPLATFORMINFO_SET_PLATFORMUUID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsPSPlayer()

@@ -9,31 +9,31 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_UIBILLBOARD_AWAKE_OFFSET UNITYSDK_OFFSET(0xB3D0CC0)
-#define RPG_CLIENT_UIBILLBOARD_CLEARLATETICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xB3D0C70)
-#define RPG_CLIENT_UIBILLBOARD_GETCAMERADISTANCE_OFFSET UNITYSDK_OFFSET(0xB3D0A30)
-#define RPG_CLIENT_UIBILLBOARD_GETRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xB3D0B90)
-#define RPG_CLIENT_UIBILLBOARD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB3D0F20)
-#define RPG_CLIENT_UIBILLBOARD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB3D1220)
-#define RPG_CLIENT_UIBILLBOARD_SETISLOOKATCAMERA_OFFSET UNITYSDK_OFFSET(0xB3D09E0)
-#define RPG_CLIENT_UIBILLBOARD_SETLATEUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0xB3D0C10)
-#define RPG_CLIENT_UIBILLBOARD_SETPOSITIONXOFFSET_OFFSET UNITYSDK_OFFSET(0xB3D0870)
-#define RPG_CLIENT_UIBILLBOARD_SETPOSITIONYOFFSET_OFFSET UNITYSDK_OFFSET(0xB3D08D0)
-#define RPG_CLIENT_UIBILLBOARD_SETPOSITIONZOFFSET_OFFSET UNITYSDK_OFFSET(0xB3D0930)
-#define RPG_CLIENT_UIBILLBOARD_SETSHOWMODE_OFFSET UNITYSDK_OFFSET(0xB3D07D0)
-#define RPG_CLIENT_UIBILLBOARD_SETSHOWTOP_OFFSET UNITYSDK_OFFSET(0xB3D0990)
-#define RPG_CLIENT_UIBILLBOARD_SETTARGET_OFFSET UNITYSDK_OFFSET(0xB3D0820)
-#define RPG_CLIENT_UIBILLBOARD_SETTICKACTIVE_OFFSET UNITYSDK_OFFSET(0xB3D0760)
-#define RPG_CLIENT_UIBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xB3D1A80)
-#define RPG_CLIENT_UIBILLBOARD__SETUPBILLBOARD_OFFSET UNITYSDK_OFFSET(0xB3D0FB0)
-#define RPG_CLIENT_UIBILLBOARD__SETUPORTHOGRAPHICPOSITION_OFFSET UNITYSDK_OFFSET(0xB3D17E0)
-#define RPG_CLIENT_UIBILLBOARD__SETUPORTHOGRAPHICSIZE_OFFSET UNITYSDK_OFFSET(0xB3D1270)
-#define RPG_CLIENT_UIBILLBOARD__SETUPPERSPECTIVESIZE_OFFSET UNITYSDK_OFFSET(0xB3D1960)
-#define RPG_CLIENT_UIBILLBOARD__TICKLATEUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0xB3D11B0)
+#define RPG_CLIENT_UIBILLBOARD_AWAKE_OFFSET UNITYSDK_OFFSET(0xCB31A40)
+#define RPG_CLIENT_UIBILLBOARD_CLEARLATETICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xCB319F0)
+#define RPG_CLIENT_UIBILLBOARD_GETCAMERADISTANCE_OFFSET UNITYSDK_OFFSET(0xCB317B0)
+#define RPG_CLIENT_UIBILLBOARD_GETRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xCB31910)
+#define RPG_CLIENT_UIBILLBOARD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCB31CA0)
+#define RPG_CLIENT_UIBILLBOARD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCB31FB0)
+#define RPG_CLIENT_UIBILLBOARD_SETISLOOKATCAMERA_OFFSET UNITYSDK_OFFSET(0xCB31760)
+#define RPG_CLIENT_UIBILLBOARD_SETLATEUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0xCB31990)
+#define RPG_CLIENT_UIBILLBOARD_SETPOSITIONXOFFSET_OFFSET UNITYSDK_OFFSET(0xCB315F0)
+#define RPG_CLIENT_UIBILLBOARD_SETPOSITIONYOFFSET_OFFSET UNITYSDK_OFFSET(0xCB31650)
+#define RPG_CLIENT_UIBILLBOARD_SETPOSITIONZOFFSET_OFFSET UNITYSDK_OFFSET(0xCB316B0)
+#define RPG_CLIENT_UIBILLBOARD_SETSHOWMODE_OFFSET UNITYSDK_OFFSET(0xCB31550)
+#define RPG_CLIENT_UIBILLBOARD_SETSHOWTOP_OFFSET UNITYSDK_OFFSET(0xCB31710)
+#define RPG_CLIENT_UIBILLBOARD_SETTARGET_OFFSET UNITYSDK_OFFSET(0xCB315A0)
+#define RPG_CLIENT_UIBILLBOARD_SETTICKACTIVE_OFFSET UNITYSDK_OFFSET(0xCB314E0)
+#define RPG_CLIENT_UIBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xCB32810)
+#define RPG_CLIENT_UIBILLBOARD__SETUPBILLBOARD_OFFSET UNITYSDK_OFFSET(0xCB31D40)
+#define RPG_CLIENT_UIBILLBOARD__SETUPORTHOGRAPHICPOSITION_OFFSET UNITYSDK_OFFSET(0xCB32570)
+#define RPG_CLIENT_UIBILLBOARD__SETUPORTHOGRAPHICSIZE_OFFSET UNITYSDK_OFFSET(0xCB32000)
+#define RPG_CLIENT_UIBILLBOARD__SETUPPERSPECTIVESIZE_OFFSET UNITYSDK_OFFSET(0xCB326F0)
+#define RPG_CLIENT_UIBILLBOARD__TICKLATEUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0xCB31F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIBillboard_TypeDefinitionIndex = 63684;
+	inline static constexpr unsigned int UIBillboard_TypeDefinitionIndex = 64605;
 
 	class UIBillboard : public ::UnityEngine::MonoBehaviour
 	{
@@ -67,44 +67,44 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetTickActive(::System::Boolean active)
+		::System::Void SetTickActive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETTICKACTIVE_OFFSET))(this, active);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETTICKACTIVE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetShowMode(::System::Boolean isOrthographic)
+		::System::Void SetShowMode(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETSHOWMODE_OFFSET))(this, isOrthographic);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETSHOWMODE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTarget(::UnityEngine::Transform* targetTransform)
+		::System::Void SetTarget(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETTARGET_OFFSET))(this, targetTransform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPositionXOffset(::System::Single offset)
+		::System::Void SetPositionXOffset(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETPOSITIONXOFFSET_OFFSET))(this, offset);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETPOSITIONXOFFSET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPositionYOffset(::System::Single offset)
+		::System::Void SetPositionYOffset(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETPOSITIONYOFFSET_OFFSET))(this, offset);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETPOSITIONYOFFSET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPositionZOffset(::System::Single offset)
+		::System::Void SetPositionZOffset(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETPOSITIONZOFFSET_OFFSET))(this, offset);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETPOSITIONZOFFSET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetShowTop(::System::Boolean flag)
+		::System::Void SetShowTop(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETSHOWTOP_OFFSET))(this, flag);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETSHOWTOP_OFFSET))(this, a1);
 		}
 
-		::System::Void SetIsLookAtCamera(::System::Boolean isLookAtCamera)
+		::System::Void SetIsLookAtCamera(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETISLOOKATCAMERA_OFFSET))(this, isLookAtCamera);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETISLOOKATCAMERA_OFFSET))(this, a1);
 		}
 
 		::System::Single GetCameraDistance()
@@ -117,9 +117,9 @@ namespace RPG::Client
 			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_GETRECTTRANSFORM_OFFSET))(this);
 		}
 
-		::System::Void SetLateUpdateCallback(::System::Action_2<::XLua::LuaTable*, ::System::Single>* callback, ::XLua::LuaTable* luaSelf)
+		::System::Void SetLateUpdateCallback(::System::Action_2<::XLua::LuaTable*, ::System::Single>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Single>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETLATEUPDATECALLBACK_OFFSET))(this, callback, luaSelf);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Single>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETLATEUPDATECALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearLateTickCallback()
@@ -147,9 +147,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD__SETUPBILLBOARD_OFFSET))(this);
 		}
 
-		::System::Void _SetupPerspectiveSize(::System::Single distance)
+		::System::Void _SetupPerspectiveSize(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD__SETUPPERSPECTIVESIZE_OFFSET))(this, distance);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD__SETUPPERSPECTIVESIZE_OFFSET))(this, a1);
 		}
 
 		::System::Void _SetupOrthographicSize()

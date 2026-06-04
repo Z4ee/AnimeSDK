@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ComplexSkillAIFactorGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAIGLOBALGROUPLOOKUP_METHOD_2_535D5DD3096BDC36_OFFSET UNITYSDK_OFFSET(0x18829FC0)
-#define RPG_GAMECORE_COMPLEXSKILLAIGLOBALGROUPLOOKUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1882A0D0)
+#define RPG_GAMECORE_COMPLEXSKILLAIGLOBALGROUPLOOKUP_METHOD_2_2F059E66F2F1387C_OFFSET UNITYSDK_OFFSET(0x1966ACB0)
+#define RPG_GAMECORE_COMPLEXSKILLAIGLOBALGROUPLOOKUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1966ADB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIGlobalGroupLookup_TypeDefinitionIndex = 14734;
+	inline static constexpr unsigned int ComplexSkillAIGlobalGroupLookup_TypeDefinitionIndex = 14799;
 
 	class ComplexSkillAIGlobalGroupLookup : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIGLOBALGROUPLOOKUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_535D5DD3096BDC36(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIGlobalGroupLookup*& a2)
+		static ::System::Void Method_2_2F059E66F2F1387C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIGlobalGroupLookup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIGlobalGroupLookup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIGLOBALGROUPLOOKUP_METHOD_2_535D5DD3096BDC36_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIGlobalGroupLookup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIGLOBALGROUPLOOKUP_METHOD_2_2F059E66F2F1387C_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,34 +4,34 @@
 
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIPMASK_OFFSET UNITYSDK_OFFSET(0x1A474B90)
-#define UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIPWITHMASK_OFFSET UNITYSDK_OFFSET(0x1A474B80)
-#define UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIP_OFFSET UNITYSDK_OFFSET(0x1A474B70)
+#define UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIPMASK_OFFSET UNITYSDK_OFFSET(0x1B2C3CF0)
+#define UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIPWITHMASK_OFFSET UNITYSDK_OFFSET(0x1B2C3CE0)
+#define UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIP_OFFSET UNITYSDK_OFFSET(0x1B2C3CD0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BAClipNodeParamaters_TypeDefinitionIndex = 4601;
+	inline static constexpr unsigned int BAClipNodeParamaters_TypeDefinitionIndex = 4775;
 
 	struct alignas(1) BAClipNodeParamaters
 	{
 		/*
-		static ::System::Void SetClip(::UnityEngine::Rendering::BatchAnimationInstance* instance, ::UnityEngine::Rendering::BANodeHash& nodeHash, ::System::Int32 clipIndex, ::System::Int32 layer)
+		static ::System::Void SetClip(::UnityEngine::Rendering::BatchAnimationInstance* a1, ::UnityEngine::Rendering::BANodeHash& a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimationInstance*, ::UnityEngine::Rendering::BANodeHash&, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIP_OFFSET))(instance, nodeHash, clipIndex, layer);
+			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimationInstance*, ::UnityEngine::Rendering::BANodeHash&, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIP_OFFSET))(a1, a2, a3, a4);
 		}
 		*/
 
 		/*
-		static ::System::Void SetClipWithMask(::UnityEngine::Rendering::BatchAnimationInstance* instance, ::UnityEngine::Rendering::BANodeHash& nodeHash, ::System::Int32 clipIndex, ::System::Int32 clipMaskIndex, ::System::Boolean inversMask, ::System::Int32 layer)
+		static ::System::Void SetClipWithMask(::UnityEngine::Rendering::BatchAnimationInstance* a1, ::UnityEngine::Rendering::BANodeHash& a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimationInstance*, ::UnityEngine::Rendering::BANodeHash&, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIPWITHMASK_OFFSET))(instance, nodeHash, clipIndex, clipMaskIndex, inversMask, layer);
+			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimationInstance*, ::UnityEngine::Rendering::BANodeHash&, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIPWITHMASK_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 		*/
 
 		/*
-		static ::System::Void SetClipMask(::UnityEngine::Rendering::BatchAnimationInstance* instance, ::UnityEngine::Rendering::BANodeHash& nodeHash, ::System::Int32 clipMaskIndex, ::System::Boolean inversMask, ::System::Int32 layer)
+		static ::System::Void SetClipMask(::UnityEngine::Rendering::BatchAnimationInstance* a1, ::UnityEngine::Rendering::BANodeHash& a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimationInstance*, ::UnityEngine::Rendering::BANodeHash&, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIPMASK_OFFSET))(instance, nodeHash, clipMaskIndex, inversMask, layer);
+			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimationInstance*, ::UnityEngine::Rendering::BANodeHash&, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BACLIPNODEPARAMATERS_SETCLIPMASK_OFFSET))(a1, a2, a3, a4, a5);
 		}
 		*/
 	};

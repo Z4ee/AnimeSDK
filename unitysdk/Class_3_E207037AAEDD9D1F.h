@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class BySimulateSpeedUp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E207037AAEDD9D1F_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11A46B10)
-#define CLASS_3_E207037AAEDD9D1F__CTOR_OFFSET UNITYSDK_OFFSET(0x11A46AE0)
+#define CLASS_3_E207037AAEDD9D1F_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA9DEAA0)
+#define CLASS_3_E207037AAEDD9D1F__CTOR_OFFSET UNITYSDK_OFFSET(0xA9DEA70)
 
-inline static constexpr unsigned int Class_3_E207037AAEDD9D1F_TypeDefinitionIndex = 50482;
+inline static constexpr unsigned int Class_3_E207037AAEDD9D1F_TypeDefinitionIndex = 51147;
 
 class Class_3_E207037AAEDD9D1F : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::BySimulateSpeedUp*>
 {

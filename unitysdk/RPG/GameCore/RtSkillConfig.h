@@ -14,12 +14,12 @@ namespace RPG::GameCore { class RtSkillPropertyConfig; }
 namespace RPG::GameCore { class RtSkillTargetInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTSKILLCONFIG_METHOD_2_86079EA1A94B8414_OFFSET UNITYSDK_OFFSET(0x18DD64B0)
-#define RPG_GAMECORE_RTSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD6A40)
+#define RPG_GAMECORE_RTSKILLCONFIG_METHOD_2_6DFCEE77CB09009A_OFFSET UNITYSDK_OFFSET(0x19BF0550)
+#define RPG_GAMECORE_RTSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF0B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSkillConfig_TypeDefinitionIndex = 16781;
+	inline static constexpr unsigned int RtSkillConfig_TypeDefinitionIndex = 16797;
 
 	class RtSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -45,9 +45,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_86079EA1A94B8414(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtSkillConfig*& a2)
+		static ::System::Void Method_2_6DFCEE77CB09009A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtSkillConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLCONFIG_METHOD_2_86079EA1A94B8414_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLCONFIG_METHOD_2_6DFCEE77CB09009A_OFFSET))(a1, a2);
 		}
 	};
 }

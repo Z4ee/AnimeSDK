@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D73210)
-#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D73390)
+#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BC6F60)
+#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC70E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournExpRewardRow_TypeDefinitionIndex = 14184;
+	inline static constexpr unsigned int RogueTournExpRewardRow_TypeDefinitionIndex = 14244;
 
 	class RogueTournExpRewardRow : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXPREWARDROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueTournExpRewardRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournExpRewardRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournExpRewardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXPREWARDROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournExpRewardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXPREWARDROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

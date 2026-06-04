@@ -4,7 +4,7 @@
 
 namespace System::Net { class TimerThread_TimerNode; }
 
-#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A155620)
+#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFB8AC0)
 
 namespace System::Net
 {
@@ -15,9 +15,9 @@ namespace System::Net
 	public:
 		::System::Net::TimerThread_TimerNode* m_Timers; // 0x18
 
-		::System::Void _ctor(::System::Int32 durationMilliseconds)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMERQUEUE__CTOR_OFFSET))(this, durationMilliseconds);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMERQUEUE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

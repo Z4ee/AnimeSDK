@@ -10,84 +10,84 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System::IO { class EndOfStreamException; }
 
-#define MESSAGEPACK_MESSAGEPACKREADER_CLONE_OFFSET UNITYSDK_OFFSET(0x2299120)
-#define MESSAGEPACK_MESSAGEPACKREADER_CREATEPEEKREADER_OFFSET UNITYSDK_OFFSET(0x22991D0)
-#define MESSAGEPACK_MESSAGEPACKREADER_GETBYTESLENGTH_OFFSET UNITYSDK_OFFSET(0x2299770)
-#define MESSAGEPACK_MESSAGEPACKREADER_GETSTRINGLENGTHINBYTES_OFFSET UNITYSDK_OFFSET(0x22999A0)
-#define MESSAGEPACK_MESSAGEPACKREADER_GET_CANCELLATIONTOKEN_OFFSET UNITYSDK_OFFSET(0xD0F20)
-#define MESSAGEPACK_MESSAGEPACKREADER_GET_CONSUMED_OFFSET UNITYSDK_OFFSET(0xD0F00)
-#define MESSAGEPACK_MESSAGEPACKREADER_GET_DEPTH_OFFSET UNITYSDK_OFFSET(0xE3C7A0)
-#define MESSAGEPACK_MESSAGEPACKREADER_GET_END_OFFSET UNITYSDK_OFFSET(0x164D6B0)
-#define MESSAGEPACK_MESSAGEPACKREADER_GET_ISNIL_OFFSET UNITYSDK_OFFSET(0x2298FF0)
-#define MESSAGEPACK_MESSAGEPACKREADER_GET_NEXTCODE_OFFSET UNITYSDK_OFFSET(0x2299090)
-#define MESSAGEPACK_MESSAGEPACKREADER_GET_NEXTMESSAGEPACKTYPE_OFFSET UNITYSDK_OFFSET(0x2299080)
-#define MESSAGEPACK_MESSAGEPACKREADER_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x164D750)
-#define MESSAGEPACK_MESSAGEPACKREADER_GET_SEQUENCE_OFFSET UNITYSDK_OFFSET(0x164D6C0)
-#define MESSAGEPACK_MESSAGEPACKREADER_READARRAYHEADER_OFFSET UNITYSDK_OFFSET(0x2299330)
-#define MESSAGEPACK_MESSAGEPACKREADER_READBOOLEAN_OFFSET UNITYSDK_OFFSET(0x2299370)
-#define MESSAGEPACK_MESSAGEPACKREADER_READBYTES_OFFSET UNITYSDK_OFFSET(0x2299650)
-#define MESSAGEPACK_MESSAGEPACKREADER_READBYTE_OFFSET UNITYSDK_OFFSET(0x2299AD0)
-#define MESSAGEPACK_MESSAGEPACKREADER_READCHAR_OFFSET UNITYSDK_OFFSET(0x2299380)
-#define MESSAGEPACK_MESSAGEPACKREADER_READDATETIME_1_OFFSET UNITYSDK_OFFSET(0x2299640)
-#define MESSAGEPACK_MESSAGEPACKREADER_READDATETIME_OFFSET UNITYSDK_OFFSET(0x2299590)
-#define MESSAGEPACK_MESSAGEPACKREADER_READDOUBLE_OFFSET UNITYSDK_OFFSET(0x22994E0)
-#define MESSAGEPACK_MESSAGEPACKREADER_READEXTENSIONFORMATHEADER_OFFSET UNITYSDK_OFFSET(0x22996A0)
-#define MESSAGEPACK_MESSAGEPACKREADER_READEXTENSIONFORMAT_OFFSET UNITYSDK_OFFSET(0x2299750)
-#define MESSAGEPACK_MESSAGEPACKREADER_READINT16_OFFSET UNITYSDK_OFFSET(0x2299D60)
-#define MESSAGEPACK_MESSAGEPACKREADER_READINT32_OFFSET UNITYSDK_OFFSET(0x2299E10)
-#define MESSAGEPACK_MESSAGEPACKREADER_READINT64_OFFSET UNITYSDK_OFFSET(0x2299EB0)
-#define MESSAGEPACK_MESSAGEPACKREADER_READMAPHEADER_OFFSET UNITYSDK_OFFSET(0x2299350)
-#define MESSAGEPACK_MESSAGEPACKREADER_READNIL_OFFSET UNITYSDK_OFFSET(0x2299260)
-#define MESSAGEPACK_MESSAGEPACKREADER_READRAW_OFFSET UNITYSDK_OFFSET(0x2299310)
-#define MESSAGEPACK_MESSAGEPACKREADER_READSBYTE_OFFSET UNITYSDK_OFFSET(0x2299CC0)
-#define MESSAGEPACK_MESSAGEPACKREADER_READSINGLE_OFFSET UNITYSDK_OFFSET(0x2299430)
-#define MESSAGEPACK_MESSAGEPACKREADER_READSTRINGSEQUENCE_OFFSET UNITYSDK_OFFSET(0x2299670)
-#define MESSAGEPACK_MESSAGEPACKREADER_READSTRINGSLOW_OFFSET UNITYSDK_OFFSET(0x22999B0)
-#define MESSAGEPACK_MESSAGEPACKREADER_READSTRING_OFFSET UNITYSDK_OFFSET(0x2299690)
-#define MESSAGEPACK_MESSAGEPACKREADER_READUINT16_OFFSET UNITYSDK_OFFSET(0x2299380)
-#define MESSAGEPACK_MESSAGEPACKREADER_READUINT32_OFFSET UNITYSDK_OFFSET(0x2299B70)
-#define MESSAGEPACK_MESSAGEPACKREADER_READUINT64_OFFSET UNITYSDK_OFFSET(0x2299C10)
-#define MESSAGEPACK_MESSAGEPACKREADER_SET_CANCELLATIONTOKEN_OFFSET UNITYSDK_OFFSET(0xD0F30)
-#define MESSAGEPACK_MESSAGEPACKREADER_SET_DEPTH_OFFSET UNITYSDK_OFFSET(0xE3C7B0)
-#define MESSAGEPACK_MESSAGEPACKREADER_SKIP_OFFSET UNITYSDK_OFFSET(0x22991F0)
-#define MESSAGEPACK_MESSAGEPACKREADER_THROWINSUFFICIENTBUFFERUNLESS_OFFSET UNITYSDK_OFFSET(0x1736C3A0)
-#define MESSAGEPACK_MESSAGEPACKREADER_THROWINVALIDCODE_OFFSET UNITYSDK_OFFSET(0x1736CC30)
-#define MESSAGEPACK_MESSAGEPACKREADER_THROWNOTENOUGHBYTESEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x1736D060)
-#define MESSAGEPACK_MESSAGEPACKREADER_THROWNOTENOUGHBYTESEXCEPTION_OFFSET UNITYSDK_OFFSET(0x173706A0)
-#define MESSAGEPACK_MESSAGEPACKREADER_THROWUNREACHABLE_OFFSET UNITYSDK_OFFSET(0x17370750)
-#define MESSAGEPACK_MESSAGEPACKREADER_TRYGETBYTESLENGTH_OFFSET UNITYSDK_OFFSET(0x2299860)
-#define MESSAGEPACK_MESSAGEPACKREADER_TRYGETSTRINGLENGTHINBYTES_OFFSET UNITYSDK_OFFSET(0x2299900)
-#define MESSAGEPACK_MESSAGEPACKREADER_TRYREADARRAYHEADER_OFFSET UNITYSDK_OFFSET(0x2299340)
-#define MESSAGEPACK_MESSAGEPACKREADER_TRYREADEXTENSIONFORMATHEADER_OFFSET UNITYSDK_OFFSET(0x22996B0)
-#define MESSAGEPACK_MESSAGEPACKREADER_TRYREADMAPHEADER_OFFSET UNITYSDK_OFFSET(0x2299360)
-#define MESSAGEPACK_MESSAGEPACKREADER_TRYREADNIL_OFFSET UNITYSDK_OFFSET(0x2299270)
-#define MESSAGEPACK_MESSAGEPACKREADER_TRYSKIPNEXTARRAY_OFFSET UNITYSDK_OFFSET(0x22999C0)
-#define MESSAGEPACK_MESSAGEPACKREADER_TRYSKIPNEXTMAP_OFFSET UNITYSDK_OFFSET(0x2299A50)
-#define MESSAGEPACK_MESSAGEPACKREADER_TRYSKIP_1_OFFSET UNITYSDK_OFFSET(0x2299A60)
-#define MESSAGEPACK_MESSAGEPACKREADER_TRYSKIP_OFFSET UNITYSDK_OFFSET(0x2299250)
-#define MESSAGEPACK_MESSAGEPACKREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2298FE0)
-#define MESSAGEPACK_MESSAGEPACKREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x2298EB0)
-#define MESSAGEPACK_MESSAGEPACKREADER__READBYTE_G__SLOWPATH_63_0_OFFSET UNITYSDK_OFFSET(0x173711B0)
-#define MESSAGEPACK_MESSAGEPACKREADER__READDATETIME_G__SLOWPATH_41_0_OFFSET UNITYSDK_OFFSET(0x1736E830)
-#define MESSAGEPACK_MESSAGEPACKREADER__READDATETIME_G__SLOWPATH_42_0_OFFSET UNITYSDK_OFFSET(0x1736ECB0)
-#define MESSAGEPACK_MESSAGEPACKREADER__READDOUBLE_G__SLOWPATH_40_0_OFFSET UNITYSDK_OFFSET(0x1736E3B0)
-#define MESSAGEPACK_MESSAGEPACKREADER__READINT16_G__SLOWPATH_68_0_OFFSET UNITYSDK_OFFSET(0x17372740)
-#define MESSAGEPACK_MESSAGEPACKREADER__READINT32_G__SLOWPATH_69_0_OFFSET UNITYSDK_OFFSET(0x17372BB0)
-#define MESSAGEPACK_MESSAGEPACKREADER__READINT64_G__SLOWPATH_70_0_OFFSET UNITYSDK_OFFSET(0x17373020)
-#define MESSAGEPACK_MESSAGEPACKREADER__READSBYTE_G__SLOWPATH_67_0_OFFSET UNITYSDK_OFFSET(0x173722D0)
-#define MESSAGEPACK_MESSAGEPACKREADER__READSINGLE_G__SLOWPATH_39_0_OFFSET UNITYSDK_OFFSET(0x1736DF30)
-#define MESSAGEPACK_MESSAGEPACKREADER__READUINT16_G__SLOWPATH_64_0_OFFSET UNITYSDK_OFFSET(0x17371580)
-#define MESSAGEPACK_MESSAGEPACKREADER__READUINT32_G__SLOWPATH_65_0_OFFSET UNITYSDK_OFFSET(0x173719F0)
-#define MESSAGEPACK_MESSAGEPACKREADER__READUINT64_G__SLOWPATH_66_0_OFFSET UNITYSDK_OFFSET(0x17371E60)
-#define MESSAGEPACK_MESSAGEPACKREADER__TRYGETBYTESLENGTH_G__SLOWPATH_56_0_OFFSET UNITYSDK_OFFSET(0x173707A0)
-#define MESSAGEPACK_MESSAGEPACKREADER__TRYGETSTRINGLENGTHINBYTES_G__SLOWPATH_57_0_OFFSET UNITYSDK_OFFSET(0x17370CC0)
-#define MESSAGEPACK_MESSAGEPACKREADER__TRYREADARRAYHEADER_G__SLOWPATH_34_0_OFFSET UNITYSDK_OFFSET(0x1736D280)
-#define MESSAGEPACK_MESSAGEPACKREADER__TRYREADEXTENSIONFORMATHEADER_G__SLOWPATH_48_0_OFFSET UNITYSDK_OFFSET(0x17370000)
-#define MESSAGEPACK_MESSAGEPACKREADER__TRYREADMAPHEADER_G__SLOWPATH_36_0_OFFSET UNITYSDK_OFFSET(0x1736D890)
+#define MESSAGEPACK_MESSAGEPACKREADER_CLONE_OFFSET UNITYSDK_OFFSET(0x3826DA0)
+#define MESSAGEPACK_MESSAGEPACKREADER_CREATEPEEKREADER_OFFSET UNITYSDK_OFFSET(0x3826E50)
+#define MESSAGEPACK_MESSAGEPACKREADER_GETBYTESLENGTH_OFFSET UNITYSDK_OFFSET(0x38273F0)
+#define MESSAGEPACK_MESSAGEPACKREADER_GETSTRINGLENGTHINBYTES_OFFSET UNITYSDK_OFFSET(0x3827620)
+#define MESSAGEPACK_MESSAGEPACKREADER_GET_CANCELLATIONTOKEN_OFFSET UNITYSDK_OFFSET(0x1C03EA0)
+#define MESSAGEPACK_MESSAGEPACKREADER_GET_CONSUMED_OFFSET UNITYSDK_OFFSET(0x1C03E80)
+#define MESSAGEPACK_MESSAGEPACKREADER_GET_DEPTH_OFFSET UNITYSDK_OFFSET(0x86A80)
+#define MESSAGEPACK_MESSAGEPACKREADER_GET_END_OFFSET UNITYSDK_OFFSET(0x2BEE010)
+#define MESSAGEPACK_MESSAGEPACKREADER_GET_ISNIL_OFFSET UNITYSDK_OFFSET(0x3826C70)
+#define MESSAGEPACK_MESSAGEPACKREADER_GET_NEXTCODE_OFFSET UNITYSDK_OFFSET(0x3826D10)
+#define MESSAGEPACK_MESSAGEPACKREADER_GET_NEXTMESSAGEPACKTYPE_OFFSET UNITYSDK_OFFSET(0x3826D00)
+#define MESSAGEPACK_MESSAGEPACKREADER_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x2BEE0B0)
+#define MESSAGEPACK_MESSAGEPACKREADER_GET_SEQUENCE_OFFSET UNITYSDK_OFFSET(0x2BEE020)
+#define MESSAGEPACK_MESSAGEPACKREADER_READARRAYHEADER_OFFSET UNITYSDK_OFFSET(0x3826FB0)
+#define MESSAGEPACK_MESSAGEPACKREADER_READBOOLEAN_OFFSET UNITYSDK_OFFSET(0x3826FF0)
+#define MESSAGEPACK_MESSAGEPACKREADER_READBYTES_OFFSET UNITYSDK_OFFSET(0x38272D0)
+#define MESSAGEPACK_MESSAGEPACKREADER_READBYTE_OFFSET UNITYSDK_OFFSET(0x3827750)
+#define MESSAGEPACK_MESSAGEPACKREADER_READCHAR_OFFSET UNITYSDK_OFFSET(0x3827000)
+#define MESSAGEPACK_MESSAGEPACKREADER_READDATETIME_1_OFFSET UNITYSDK_OFFSET(0x38272C0)
+#define MESSAGEPACK_MESSAGEPACKREADER_READDATETIME_OFFSET UNITYSDK_OFFSET(0x3827210)
+#define MESSAGEPACK_MESSAGEPACKREADER_READDOUBLE_OFFSET UNITYSDK_OFFSET(0x3827160)
+#define MESSAGEPACK_MESSAGEPACKREADER_READEXTENSIONFORMATHEADER_OFFSET UNITYSDK_OFFSET(0x3827320)
+#define MESSAGEPACK_MESSAGEPACKREADER_READEXTENSIONFORMAT_OFFSET UNITYSDK_OFFSET(0x38273D0)
+#define MESSAGEPACK_MESSAGEPACKREADER_READINT16_OFFSET UNITYSDK_OFFSET(0x38279E0)
+#define MESSAGEPACK_MESSAGEPACKREADER_READINT32_OFFSET UNITYSDK_OFFSET(0x3827A90)
+#define MESSAGEPACK_MESSAGEPACKREADER_READINT64_OFFSET UNITYSDK_OFFSET(0x3827B30)
+#define MESSAGEPACK_MESSAGEPACKREADER_READMAPHEADER_OFFSET UNITYSDK_OFFSET(0x3826FD0)
+#define MESSAGEPACK_MESSAGEPACKREADER_READNIL_OFFSET UNITYSDK_OFFSET(0x3826EE0)
+#define MESSAGEPACK_MESSAGEPACKREADER_READRAW_OFFSET UNITYSDK_OFFSET(0x3826F90)
+#define MESSAGEPACK_MESSAGEPACKREADER_READSBYTE_OFFSET UNITYSDK_OFFSET(0x3827940)
+#define MESSAGEPACK_MESSAGEPACKREADER_READSINGLE_OFFSET UNITYSDK_OFFSET(0x38270B0)
+#define MESSAGEPACK_MESSAGEPACKREADER_READSTRINGSEQUENCE_OFFSET UNITYSDK_OFFSET(0x38272F0)
+#define MESSAGEPACK_MESSAGEPACKREADER_READSTRINGSLOW_OFFSET UNITYSDK_OFFSET(0x3827630)
+#define MESSAGEPACK_MESSAGEPACKREADER_READSTRING_OFFSET UNITYSDK_OFFSET(0x3827310)
+#define MESSAGEPACK_MESSAGEPACKREADER_READUINT16_OFFSET UNITYSDK_OFFSET(0x3827000)
+#define MESSAGEPACK_MESSAGEPACKREADER_READUINT32_OFFSET UNITYSDK_OFFSET(0x38277F0)
+#define MESSAGEPACK_MESSAGEPACKREADER_READUINT64_OFFSET UNITYSDK_OFFSET(0x3827890)
+#define MESSAGEPACK_MESSAGEPACKREADER_SET_CANCELLATIONTOKEN_OFFSET UNITYSDK_OFFSET(0x1C03EB0)
+#define MESSAGEPACK_MESSAGEPACKREADER_SET_DEPTH_OFFSET UNITYSDK_OFFSET(0x86A90)
+#define MESSAGEPACK_MESSAGEPACKREADER_SKIP_OFFSET UNITYSDK_OFFSET(0x3826E70)
+#define MESSAGEPACK_MESSAGEPACKREADER_THROWINSUFFICIENTBUFFERUNLESS_OFFSET UNITYSDK_OFFSET(0x18178AC0)
+#define MESSAGEPACK_MESSAGEPACKREADER_THROWINVALIDCODE_OFFSET UNITYSDK_OFFSET(0x18179340)
+#define MESSAGEPACK_MESSAGEPACKREADER_THROWNOTENOUGHBYTESEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x18179830)
+#define MESSAGEPACK_MESSAGEPACKREADER_THROWNOTENOUGHBYTESEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1817CEB0)
+#define MESSAGEPACK_MESSAGEPACKREADER_THROWUNREACHABLE_OFFSET UNITYSDK_OFFSET(0x1817CF60)
+#define MESSAGEPACK_MESSAGEPACKREADER_TRYGETBYTESLENGTH_OFFSET UNITYSDK_OFFSET(0x38274E0)
+#define MESSAGEPACK_MESSAGEPACKREADER_TRYGETSTRINGLENGTHINBYTES_OFFSET UNITYSDK_OFFSET(0x3827580)
+#define MESSAGEPACK_MESSAGEPACKREADER_TRYREADARRAYHEADER_OFFSET UNITYSDK_OFFSET(0x3826FC0)
+#define MESSAGEPACK_MESSAGEPACKREADER_TRYREADEXTENSIONFORMATHEADER_OFFSET UNITYSDK_OFFSET(0x3827330)
+#define MESSAGEPACK_MESSAGEPACKREADER_TRYREADMAPHEADER_OFFSET UNITYSDK_OFFSET(0x3826FE0)
+#define MESSAGEPACK_MESSAGEPACKREADER_TRYREADNIL_OFFSET UNITYSDK_OFFSET(0x3826EF0)
+#define MESSAGEPACK_MESSAGEPACKREADER_TRYSKIPNEXTARRAY_OFFSET UNITYSDK_OFFSET(0x3827640)
+#define MESSAGEPACK_MESSAGEPACKREADER_TRYSKIPNEXTMAP_OFFSET UNITYSDK_OFFSET(0x38276D0)
+#define MESSAGEPACK_MESSAGEPACKREADER_TRYSKIP_1_OFFSET UNITYSDK_OFFSET(0x38276E0)
+#define MESSAGEPACK_MESSAGEPACKREADER_TRYSKIP_OFFSET UNITYSDK_OFFSET(0x3826ED0)
+#define MESSAGEPACK_MESSAGEPACKREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3826C60)
+#define MESSAGEPACK_MESSAGEPACKREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x3826B30)
+#define MESSAGEPACK_MESSAGEPACKREADER__READBYTE_G__SLOWPATH_63_0_OFFSET UNITYSDK_OFFSET(0x1817D9C0)
+#define MESSAGEPACK_MESSAGEPACKREADER__READDATETIME_G__SLOWPATH_41_0_OFFSET UNITYSDK_OFFSET(0x1817B090)
+#define MESSAGEPACK_MESSAGEPACKREADER__READDATETIME_G__SLOWPATH_42_0_OFFSET UNITYSDK_OFFSET(0x1817B510)
+#define MESSAGEPACK_MESSAGEPACKREADER__READDOUBLE_G__SLOWPATH_40_0_OFFSET UNITYSDK_OFFSET(0x1817AC00)
+#define MESSAGEPACK_MESSAGEPACKREADER__READINT16_G__SLOWPATH_68_0_OFFSET UNITYSDK_OFFSET(0x1817EF40)
+#define MESSAGEPACK_MESSAGEPACKREADER__READINT32_G__SLOWPATH_69_0_OFFSET UNITYSDK_OFFSET(0x1817F3B0)
+#define MESSAGEPACK_MESSAGEPACKREADER__READINT64_G__SLOWPATH_70_0_OFFSET UNITYSDK_OFFSET(0x1817F810)
+#define MESSAGEPACK_MESSAGEPACKREADER__READSBYTE_G__SLOWPATH_67_0_OFFSET UNITYSDK_OFFSET(0x1817EAD0)
+#define MESSAGEPACK_MESSAGEPACKREADER__READSINGLE_G__SLOWPATH_39_0_OFFSET UNITYSDK_OFFSET(0x1817A770)
+#define MESSAGEPACK_MESSAGEPACKREADER__READUINT16_G__SLOWPATH_64_0_OFFSET UNITYSDK_OFFSET(0x1817DD90)
+#define MESSAGEPACK_MESSAGEPACKREADER__READUINT32_G__SLOWPATH_65_0_OFFSET UNITYSDK_OFFSET(0x1817E200)
+#define MESSAGEPACK_MESSAGEPACKREADER__READUINT64_G__SLOWPATH_66_0_OFFSET UNITYSDK_OFFSET(0x1817E660)
+#define MESSAGEPACK_MESSAGEPACKREADER__TRYGETBYTESLENGTH_G__SLOWPATH_56_0_OFFSET UNITYSDK_OFFSET(0x1817CFB0)
+#define MESSAGEPACK_MESSAGEPACKREADER__TRYGETSTRINGLENGTHINBYTES_G__SLOWPATH_57_0_OFFSET UNITYSDK_OFFSET(0x1817D4C0)
+#define MESSAGEPACK_MESSAGEPACKREADER__TRYREADARRAYHEADER_G__SLOWPATH_34_0_OFFSET UNITYSDK_OFFSET(0x18179A50)
+#define MESSAGEPACK_MESSAGEPACKREADER__TRYREADEXTENSIONFORMATHEADER_G__SLOWPATH_48_0_OFFSET UNITYSDK_OFFSET(0x1817C800)
+#define MESSAGEPACK_MESSAGEPACKREADER__TRYREADMAPHEADER_G__SLOWPATH_36_0_OFFSET UNITYSDK_OFFSET(0x1817A030)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackReader_TypeDefinitionIndex = 9250;
+	inline static constexpr unsigned int MessagePackReader_TypeDefinitionIndex = 7153;
 
 	struct alignas(8) MessagePackReader
 	{
@@ -96,16 +96,16 @@ namespace MessagePack
 		::System::Int32 _Depth_k__BackingField; // 0xA8
 
 		/*
-		::System::Void _ctor(::System::ReadOnlyMemory_1<::System::Byte> memory)
+		::System::Void _ctor(::System::ReadOnlyMemory_1<::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ReadOnlyMemory_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__CTOR_OFFSET))(this, memory);
+			return ((::System::Void(*)(::PVOID, ::System::ReadOnlyMemory_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__CTOR_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::System::Void _ctor_1(::System::Buffers::ReadOnlySequence_1<::System::Byte>& readOnlySequence)
+		::System::Void _ctor_1(::System::Buffers::ReadOnlySequence_1<::System::Byte>& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Buffers::ReadOnlySequence_1<::System::Byte>&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__CTOR_1_OFFSET))(this, readOnlySequence);
+			return ((::System::Void(*)(::PVOID, ::System::Buffers::ReadOnlySequence_1<::System::Byte>&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__CTOR_1_OFFSET))(this, a1);
 		}
 		*/
 
@@ -114,9 +114,9 @@ namespace MessagePack
 			return ((::System::Threading::CancellationToken(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_GET_CANCELLATIONTOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_CancellationToken(::System::Threading::CancellationToken value)
+		::System::Void set_CancellationToken(::System::Threading::CancellationToken a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_SET_CANCELLATIONTOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_SET_CANCELLATIONTOKEN_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Depth()
@@ -124,9 +124,9 @@ namespace MessagePack
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_GET_DEPTH_OFFSET))(this);
 		}
 
-		::System::Void set_Depth(::System::Int32 value)
+		::System::Void set_Depth(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_SET_DEPTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_SET_DEPTH_OFFSET))(this, a1);
 		}
 
 		/*
@@ -169,9 +169,9 @@ namespace MessagePack
 		}
 
 		/*
-		::MessagePack::MessagePackReader Clone(::System::Buffers::ReadOnlySequence_1<::System::Byte>& readOnlySequence)
+		::MessagePack::MessagePackReader Clone(::System::Buffers::ReadOnlySequence_1<::System::Byte>& a1)
 		{
-			return ((::MessagePack::MessagePackReader(*)(::PVOID, ::System::Buffers::ReadOnlySequence_1<::System::Byte>&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_CLONE_OFFSET))(this, readOnlySequence);
+			return ((::MessagePack::MessagePackReader(*)(::PVOID, ::System::Buffers::ReadOnlySequence_1<::System::Byte>&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_CLONE_OFFSET))(this, a1);
 		}
 		*/
 
@@ -203,9 +203,9 @@ namespace MessagePack
 		}
 
 		/*
-		::System::Buffers::ReadOnlySequence_1<::System::Byte> ReadRaw(::System::Int64 length)
+		::System::Buffers::ReadOnlySequence_1<::System::Byte> ReadRaw(::System::Int64 a1)
 		{
-			return ((::System::Buffers::ReadOnlySequence_1<::System::Byte>(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READRAW_OFFSET))(this, length);
+			return ((::System::Buffers::ReadOnlySequence_1<::System::Byte>(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READRAW_OFFSET))(this, a1);
 		}
 		*/
 
@@ -214,9 +214,9 @@ namespace MessagePack
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READARRAYHEADER_OFFSET))(this);
 		}
 
-		::System::Boolean TryReadArrayHeader(::System::Int32& count)
+		::System::Boolean TryReadArrayHeader(::System::Int32& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYREADARRAYHEADER_OFFSET))(this, count);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYREADARRAYHEADER_OFFSET))(this, a1);
 		}
 
 		::System::Int32 ReadMapHeader()
@@ -224,9 +224,9 @@ namespace MessagePack
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READMAPHEADER_OFFSET))(this);
 		}
 
-		::System::Boolean TryReadMapHeader(::System::Int32& count)
+		::System::Boolean TryReadMapHeader(::System::Int32& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYREADMAPHEADER_OFFSET))(this, count);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYREADMAPHEADER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean ReadBoolean()
@@ -257,9 +257,9 @@ namespace MessagePack
 		*/
 
 		/*
-		::System::DateTime ReadDateTime_1(::MessagePack::ExtensionHeader header)
+		::System::DateTime ReadDateTime_1(::MessagePack::ExtensionHeader a1)
 		{
-			return ((::System::DateTime(*)(::PVOID, ::MessagePack::ExtensionHeader))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READDATETIME_1_OFFSET))(this, header);
+			return ((::System::DateTime(*)(::PVOID, ::MessagePack::ExtensionHeader))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READDATETIME_1_OFFSET))(this, a1);
 		}
 		*/
 
@@ -290,9 +290,9 @@ namespace MessagePack
 		*/
 
 		/*
-		::System::Boolean TryReadExtensionFormatHeader(::MessagePack::ExtensionHeader& extensionHeader)
+		::System::Boolean TryReadExtensionFormatHeader(::MessagePack::ExtensionHeader& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MessagePack::ExtensionHeader&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYREADEXTENSIONFORMATHEADER_OFFSET))(this, extensionHeader);
+			return ((::System::Boolean(*)(::PVOID, ::MessagePack::ExtensionHeader&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYREADEXTENSIONFORMATHEADER_OFFSET))(this, a1);
 		}
 		*/
 
@@ -308,19 +308,19 @@ namespace MessagePack
 			return ((::System::IO::EndOfStreamException*(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_THROWNOTENOUGHBYTESEXCEPTION_OFFSET))();
 		}
 
-		static ::System::IO::EndOfStreamException* ThrowNotEnoughBytesException_1(::System::Exception* innerException)
+		static ::System::IO::EndOfStreamException* ThrowNotEnoughBytesException_1(::System::Exception* a1)
 		{
-			return ((::System::IO::EndOfStreamException*(*)(::System::Exception*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_THROWNOTENOUGHBYTESEXCEPTION_1_OFFSET))(innerException);
+			return ((::System::IO::EndOfStreamException*(*)(::System::Exception*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_THROWNOTENOUGHBYTESEXCEPTION_1_OFFSET))(a1);
 		}
 
-		static ::System::Exception* ThrowInvalidCode(::System::Byte code)
+		static ::System::Exception* ThrowInvalidCode(::System::Byte a1)
 		{
-			return ((::System::Exception*(*)(::System::Byte))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_THROWINVALIDCODE_OFFSET))(code);
+			return ((::System::Exception*(*)(::System::Byte))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_THROWINVALIDCODE_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowInsufficientBufferUnless(::System::Boolean condition)
+		static ::System::Void ThrowInsufficientBufferUnless(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_THROWINSUFFICIENTBUFFERUNLESS_OFFSET))(condition);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_THROWINSUFFICIENTBUFFERUNLESS_OFFSET))(a1);
 		}
 
 		static ::System::Exception* ThrowUnreachable()
@@ -333,14 +333,14 @@ namespace MessagePack
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_GETBYTESLENGTH_OFFSET))(this);
 		}
 
-		::System::Boolean TryGetBytesLength(::System::UInt32& length)
+		::System::Boolean TryGetBytesLength(::System::UInt32& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYGETBYTESLENGTH_OFFSET))(this, length);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYGETBYTESLENGTH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGetStringLengthInBytes(::System::UInt32& length)
+		::System::Boolean TryGetStringLengthInBytes(::System::UInt32& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYGETSTRINGLENGTHINBYTES_OFFSET))(this, length);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYGETSTRINGLENGTHINBYTES_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetStringLengthInBytes()
@@ -348,9 +348,9 @@ namespace MessagePack
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_GETSTRINGLENGTHINBYTES_OFFSET))(this);
 		}
 
-		::System::String* ReadStringSlow(::System::UInt32 byteLength)
+		::System::String* ReadStringSlow(::System::UInt32 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READSTRINGSLOW_OFFSET))(this, byteLength);
+			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READSTRINGSLOW_OFFSET))(this, a1);
 		}
 
 		::System::Boolean TrySkipNextArray()
@@ -363,9 +363,9 @@ namespace MessagePack
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYSKIPNEXTMAP_OFFSET))(this);
 		}
 
-		::System::Boolean TrySkip_1(::System::Int32 count)
+		::System::Boolean TrySkip_1(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYSKIP_1_OFFSET))(this, count);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYSKIP_1_OFFSET))(this, a1);
 		}
 
 		::System::Byte ReadByte()
@@ -408,95 +408,95 @@ namespace MessagePack
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READINT64_OFFSET))(this);
 		}
 
-		static ::System::Boolean _TryReadArrayHeader_g__SlowPath_34_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::Int32& count, ::System::Int32& tokenSize)
+		static ::System::Boolean _TryReadArrayHeader_g__SlowPath_34_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::Int32& a3, ::System::Int32& a4)
 		{
-			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__TRYREADARRAYHEADER_G__SLOWPATH_34_0_OFFSET))(self, readResult, count, tokenSize);
+			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__TRYREADARRAYHEADER_G__SLOWPATH_34_0_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean _TryReadMapHeader_g__SlowPath_36_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::Int32& count, ::System::Int32& tokenSize)
+		static ::System::Boolean _TryReadMapHeader_g__SlowPath_36_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::Int32& a3, ::System::Int32& a4)
 		{
-			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__TRYREADMAPHEADER_G__SLOWPATH_36_0_OFFSET))(self, readResult, count, tokenSize);
+			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__TRYREADMAPHEADER_G__SLOWPATH_36_0_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single _ReadSingle_g__SlowPath_39_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::Single value, ::System::Int32& tokenSize)
+		static ::System::Single _ReadSingle_g__SlowPath_39_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::Single a3, ::System::Int32& a4)
 		{
-			return ((::System::Single(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Single, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READSINGLE_G__SLOWPATH_39_0_OFFSET))(self, readResult, value, tokenSize);
+			return ((::System::Single(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Single, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READSINGLE_G__SLOWPATH_39_0_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Double _ReadDouble_g__SlowPath_40_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::Double value, ::System::Int32& tokenSize)
+		static ::System::Double _ReadDouble_g__SlowPath_40_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::Double a3, ::System::Int32& a4)
 		{
-			return ((::System::Double(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Double, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READDOUBLE_G__SLOWPATH_40_0_OFFSET))(self, readResult, value, tokenSize);
+			return ((::System::Double(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Double, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READDOUBLE_G__SLOWPATH_40_0_OFFSET))(a1, a2, a3, a4);
 		}
 
 		/*
-		static ::System::DateTime _ReadDateTime_g__SlowPath_41_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::DateTime value, ::System::Int32& tokenSize)
+		static ::System::DateTime _ReadDateTime_g__SlowPath_41_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::DateTime a3, ::System::Int32& a4)
 		{
-			return ((::System::DateTime(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::DateTime, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READDATETIME_G__SLOWPATH_41_0_OFFSET))(self, readResult, value, tokenSize);
+			return ((::System::DateTime(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::DateTime, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READDATETIME_G__SLOWPATH_41_0_OFFSET))(a1, a2, a3, a4);
 		}
 		*/
 
 		/*
-		static ::System::DateTime _ReadDateTime_g__SlowPath_42_0(::MessagePack::MessagePackReader& self, ::MessagePack::ExtensionHeader header, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::DateTime value, ::System::Int32& tokenSize)
+		static ::System::DateTime _ReadDateTime_g__SlowPath_42_0(::MessagePack::MessagePackReader& a1, ::MessagePack::ExtensionHeader a2, ::MessagePack::MessagePackPrimitives_DecodeResult a3, ::System::DateTime a4, ::System::Int32& a5)
 		{
-			return ((::System::DateTime(*)(::MessagePack::MessagePackReader&, ::MessagePack::ExtensionHeader, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::DateTime, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READDATETIME_G__SLOWPATH_42_0_OFFSET))(self, header, readResult, value, tokenSize);
+			return ((::System::DateTime(*)(::MessagePack::MessagePackReader&, ::MessagePack::ExtensionHeader, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::DateTime, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READDATETIME_G__SLOWPATH_42_0_OFFSET))(a1, a2, a3, a4, a5);
 		}
 		*/
 
 		/*
-		static ::System::Boolean _TryReadExtensionFormatHeader_g__SlowPath_48_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::MessagePack::ExtensionHeader& extensionHeader, ::System::Int32& tokenSize)
+		static ::System::Boolean _TryReadExtensionFormatHeader_g__SlowPath_48_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::MessagePack::ExtensionHeader& a3, ::System::Int32& a4)
 		{
-			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::MessagePack::ExtensionHeader&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__TRYREADEXTENSIONFORMATHEADER_G__SLOWPATH_48_0_OFFSET))(self, readResult, extensionHeader, tokenSize);
+			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::MessagePack::ExtensionHeader&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__TRYREADEXTENSIONFORMATHEADER_G__SLOWPATH_48_0_OFFSET))(a1, a2, a3, a4);
 		}
 		*/
 
-		static ::System::Boolean _TryGetBytesLength_g__SlowPath_56_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::Boolean usingBinaryHeader, ::System::UInt32& length, ::System::Int32& tokenSize)
+		static ::System::Boolean _TryGetBytesLength_g__SlowPath_56_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::Boolean a3, ::System::UInt32& a4, ::System::Int32& a5)
 		{
-			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Boolean, ::System::UInt32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__TRYGETBYTESLENGTH_G__SLOWPATH_56_0_OFFSET))(self, readResult, usingBinaryHeader, length, tokenSize);
+			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Boolean, ::System::UInt32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__TRYGETBYTESLENGTH_G__SLOWPATH_56_0_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean _TryGetStringLengthInBytes_g__SlowPath_57_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::UInt32& length, ::System::Int32& tokenSize)
+		static ::System::Boolean _TryGetStringLengthInBytes_g__SlowPath_57_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::UInt32& a3, ::System::Int32& a4)
 		{
-			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::UInt32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__TRYGETSTRINGLENGTHINBYTES_G__SLOWPATH_57_0_OFFSET))(self, readResult, length, tokenSize);
+			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::UInt32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__TRYGETSTRINGLENGTHINBYTES_G__SLOWPATH_57_0_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Byte _ReadByte_g__SlowPath_63_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::Byte value, ::System::Int32& tokenSize)
+		static ::System::Byte _ReadByte_g__SlowPath_63_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::Byte a3, ::System::Int32& a4)
 		{
-			return ((::System::Byte(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Byte, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READBYTE_G__SLOWPATH_63_0_OFFSET))(self, readResult, value, tokenSize);
+			return ((::System::Byte(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Byte, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READBYTE_G__SLOWPATH_63_0_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::UInt16 _ReadUInt16_g__SlowPath_64_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::UInt16 value, ::System::Int32& tokenSize)
+		static ::System::UInt16 _ReadUInt16_g__SlowPath_64_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::UInt16 a3, ::System::Int32& a4)
 		{
-			return ((::System::UInt16(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::UInt16, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READUINT16_G__SLOWPATH_64_0_OFFSET))(self, readResult, value, tokenSize);
+			return ((::System::UInt16(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::UInt16, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READUINT16_G__SLOWPATH_64_0_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::UInt32 _ReadUInt32_g__SlowPath_65_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::UInt32 value, ::System::Int32& tokenSize)
+		static ::System::UInt32 _ReadUInt32_g__SlowPath_65_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::UInt32 a3, ::System::Int32& a4)
 		{
-			return ((::System::UInt32(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::UInt32, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READUINT32_G__SLOWPATH_65_0_OFFSET))(self, readResult, value, tokenSize);
+			return ((::System::UInt32(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::UInt32, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READUINT32_G__SLOWPATH_65_0_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::UInt64 _ReadUInt64_g__SlowPath_66_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::UInt64 value, ::System::Int32& tokenSize)
+		static ::System::UInt64 _ReadUInt64_g__SlowPath_66_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::UInt64 a3, ::System::Int32& a4)
 		{
-			return ((::System::UInt64(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::UInt64, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READUINT64_G__SLOWPATH_66_0_OFFSET))(self, readResult, value, tokenSize);
+			return ((::System::UInt64(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::UInt64, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READUINT64_G__SLOWPATH_66_0_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::SByte _ReadSByte_g__SlowPath_67_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::SByte value, ::System::Int32& tokenSize)
+		static ::System::SByte _ReadSByte_g__SlowPath_67_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::SByte a3, ::System::Int32& a4)
 		{
-			return ((::System::SByte(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::SByte, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READSBYTE_G__SLOWPATH_67_0_OFFSET))(self, readResult, value, tokenSize);
+			return ((::System::SByte(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::SByte, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READSBYTE_G__SLOWPATH_67_0_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int16 _ReadInt16_g__SlowPath_68_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::Int16 value, ::System::Int32& tokenSize)
+		static ::System::Int16 _ReadInt16_g__SlowPath_68_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::Int16 a3, ::System::Int32& a4)
 		{
-			return ((::System::Int16(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Int16, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READINT16_G__SLOWPATH_68_0_OFFSET))(self, readResult, value, tokenSize);
+			return ((::System::Int16(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Int16, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READINT16_G__SLOWPATH_68_0_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 _ReadInt32_g__SlowPath_69_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::Int32 value, ::System::Int32& tokenSize)
+		static ::System::Int32 _ReadInt32_g__SlowPath_69_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::Int32 a3, ::System::Int32& a4)
 		{
-			return ((::System::Int32(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READINT32_G__SLOWPATH_69_0_OFFSET))(self, readResult, value, tokenSize);
+			return ((::System::Int32(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READINT32_G__SLOWPATH_69_0_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int64 _ReadInt64_g__SlowPath_70_0(::MessagePack::MessagePackReader& self, ::MessagePack::MessagePackPrimitives_DecodeResult readResult, ::System::Int64 value, ::System::Int32& tokenSize)
+		static ::System::Int64 _ReadInt64_g__SlowPath_70_0(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackPrimitives_DecodeResult a2, ::System::Int64 a3, ::System::Int32& a4)
 		{
-			return ((::System::Int64(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Int64, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READINT64_G__SLOWPATH_70_0_OFFSET))(self, readResult, value, tokenSize);
+			return ((::System::Int64(*)(::MessagePack::MessagePackReader&, ::MessagePack::MessagePackPrimitives_DecodeResult, ::System::Int64, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER__READINT64_G__SLOWPATH_70_0_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

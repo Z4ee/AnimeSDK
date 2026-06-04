@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IVertexModifier_TypeDefinitionIndex = 5768;
+	inline static constexpr unsigned int IVertexModifier_TypeDefinitionIndex = 6045;
 
 	class IVertexModifier
 	{

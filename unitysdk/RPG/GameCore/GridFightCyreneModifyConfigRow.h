@@ -8,22 +8,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTCYRENEMODIFYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189A6570)
-#define RPG_GAMECORE_GRIDFIGHTCYRENEMODIFYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189A6880)
+#define RPG_GAMECORE_GRIDFIGHTCYRENEMODIFYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197DE600)
+#define RPG_GAMECORE_GRIDFIGHTCYRENEMODIFYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x197DE8C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightCyreneModifyConfigRow_TypeDefinitionIndex = 12821;
+	inline static constexpr unsigned int GridFightCyreneModifyConfigRow_TypeDefinitionIndex = 12908;
 
 	class GridFightCyreneModifyConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ModifyValues; // 0x10
-		::System::String* CyreneMultipleValueKey; // 0x18
-		::Il2CppArray<::System::UInt32>* ModifySkillIndexs; // 0x20
-		::Il2CppArray<::RPG::GameCore::ModifyCalcOpType>* ModifyOps; // 0x28
-		::RPG::GameCore::GridFightSkillType ModifySkillType; // 0x30
-		::System::UInt32 ModifySkillID; // 0x34
+		::Il2CppArray<::System::UInt32>* ModifySkillIndexs; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ModifyValues; // 0x18
+		::Il2CppArray<::RPG::GameCore::ModifyCalcOpType>* ModifyOps; // 0x20
+		::System::String* CyreneMultipleValueKey; // 0x28
+		::System::UInt32 ModifySkillID; // 0x30
+		::RPG::GameCore::GridFightSkillType ModifySkillType; // 0x34
 		::System::UInt32 ModifyRoleID; // 0x38
 
 		::System::Void _ctor()
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCYRENEMODIFYCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightCyreneModifyConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightCyreneModifyConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightCyreneModifyConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCYRENEMODIFYCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightCyreneModifyConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCYRENEMODIFYCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

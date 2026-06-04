@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_AIRLINEBIRDWAY_CURVERANGE_METHOD_2_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0xD3420)
-#define RPG_CLIENT_AIRLINEBIRDWAY_CURVERANGE_METHOD_2_D7DDA895983CCCB2_OFFSET UNITYSDK_OFFSET(0xD33C0)
+#define RPG_CLIENT_AIRLINEBIRDWAY_CURVERANGE_METHOD_2_7B5CF29097D2700A_OFFSET UNITYSDK_OFFSET(0x135F90)
+#define RPG_CLIENT_AIRLINEBIRDWAY_CURVERANGE_METHOD_2_D7DDA895983CCCB2_OFFSET UNITYSDK_OFFSET(0x135F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineBirdWay_CurveRange_TypeDefinitionIndex = 55164;
+	inline static constexpr unsigned int AirlineBirdWay_CurveRange_TypeDefinitionIndex = 55898;
 
 	struct alignas(8) AirlineBirdWay_CurveRange
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINEBIRDWAY_CURVERANGE_METHOD_2_D7DDA895983CCCB2_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_2_D437D090E63BE8A7(::System::Single a1)
+		::System::Single Method_2_7B5CF29097D2700A(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINEBIRDWAY_CURVERANGE_METHOD_2_D437D090E63BE8A7_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINEBIRDWAY_CURVERANGE_METHOD_2_7B5CF29097D2700A_OFFSET))(this, a1);
 		}
 	};
 }

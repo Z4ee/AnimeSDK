@@ -4,12 +4,12 @@
 
 class Class_2_1DB6C02CA182EEBA;
 
-#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5C8CE0)
-#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C8D30)
+#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCD2E2A0)
+#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xCD2E2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleFateHouguRuntime_TypeDefinitionIndex = 51687;
+	inline static constexpr unsigned int BattleFateHouguRuntime_TypeDefinitionIndex = 52360;
 
 	class BattleFateHouguRuntime : public ::System::Object
 	{

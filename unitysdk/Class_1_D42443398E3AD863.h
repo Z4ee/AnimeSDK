@@ -5,10 +5,10 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_D42443398E3AD863_DISPOSE_OFFSET UNITYSDK_OFFSET(0x117A9A60)
-#define CLASS_1_D42443398E3AD863__CTOR_OFFSET UNITYSDK_OFFSET(0x117A9AB0)
+#define CLASS_1_D42443398E3AD863_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13C4A5E0)
+#define CLASS_1_D42443398E3AD863__CTOR_OFFSET UNITYSDK_OFFSET(0x13C4A630)
 
-inline static constexpr unsigned int Class_1_D42443398E3AD863_TypeDefinitionIndex = 52848;
+inline static constexpr unsigned int Class_1_D42443398E3AD863_TypeDefinitionIndex = 53557;
 
 class Class_1_D42443398E3AD863 : public ::System::Object
 {

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMPRELOADINFO_METHOD_2_7B27258F9759C2D5_OFFSET UNITYSDK_OFFSET(0x18914A30)
-#define RPG_GAMECORE_FIVEDIMPRELOADINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18914B70)
+#define RPG_GAMECORE_FIVEDIMPRELOADINFO_METHOD_2_6F0B68A23C34D7F7_OFFSET UNITYSDK_OFFSET(0x1974E190)
+#define RPG_GAMECORE_FIVEDIMPRELOADINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1974E2C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPreloadInfo_TypeDefinitionIndex = 15846;
+	inline static constexpr unsigned int FiveDimPreloadInfo_TypeDefinitionIndex = 15900;
 
 	class FiveDimPreloadInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPRELOADINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7B27258F9759C2D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPreloadInfo*& a2)
+		static ::System::Void Method_2_6F0B68A23C34D7F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPreloadInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPreloadInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPRELOADINFO_METHOD_2_7B27258F9759C2D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPreloadInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPRELOADINFO_METHOD_2_6F0B68A23C34D7F7_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190ACB80)
-#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190ACCE0)
+#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19DF7860)
+#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19DF79C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyPassengerDiaryRow_TypeDefinitionIndex = 14530;
+	inline static constexpr unsigned int TrainPartyPassengerDiaryRow_TypeDefinitionIndex = 14554;
 
 	class TrainPartyPassengerDiaryRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TrainPartyPassengerDiaryRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyPassengerDiaryRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyPassengerDiaryRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyPassengerDiaryRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

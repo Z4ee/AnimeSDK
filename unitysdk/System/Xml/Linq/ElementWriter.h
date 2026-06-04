@@ -8,47 +8,47 @@ namespace System::Xml { class XmlWriter; }
 namespace System::Xml::Linq { class XElement; }
 namespace System::Xml::Linq { class XNamespace; }
 
-#define SYSTEM_XML_LINQ_ELEMENTWRITER_GETPREFIXOFNAMESPACE_OFFSET UNITYSDK_OFFSET(0x22D07A0)
-#define SYSTEM_XML_LINQ_ELEMENTWRITER_PUSHANCESTORS_OFFSET UNITYSDK_OFFSET(0x22D0850)
-#define SYSTEM_XML_LINQ_ELEMENTWRITER_PUSHELEMENT_OFFSET UNITYSDK_OFFSET(0x22D0860)
-#define SYSTEM_XML_LINQ_ELEMENTWRITER_WRITEELEMENT_OFFSET UNITYSDK_OFFSET(0x22D0790)
-#define SYSTEM_XML_LINQ_ELEMENTWRITER_WRITEENDELEMENT_OFFSET UNITYSDK_OFFSET(0x22D0870)
-#define SYSTEM_XML_LINQ_ELEMENTWRITER_WRITEFULLENDELEMENT_OFFSET UNITYSDK_OFFSET(0x22D0900)
-#define SYSTEM_XML_LINQ_ELEMENTWRITER_WRITESTARTELEMENT_OFFSET UNITYSDK_OFFSET(0x22D0990)
-#define SYSTEM_XML_LINQ_ELEMENTWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0xDE220)
+#define SYSTEM_XML_LINQ_ELEMENTWRITER_GETPREFIXOFNAMESPACE_OFFSET UNITYSDK_OFFSET(0x386B810)
+#define SYSTEM_XML_LINQ_ELEMENTWRITER_PUSHANCESTORS_OFFSET UNITYSDK_OFFSET(0x386B8C0)
+#define SYSTEM_XML_LINQ_ELEMENTWRITER_PUSHELEMENT_OFFSET UNITYSDK_OFFSET(0x386B8D0)
+#define SYSTEM_XML_LINQ_ELEMENTWRITER_WRITEELEMENT_OFFSET UNITYSDK_OFFSET(0x386B800)
+#define SYSTEM_XML_LINQ_ELEMENTWRITER_WRITEENDELEMENT_OFFSET UNITYSDK_OFFSET(0x386B8E0)
+#define SYSTEM_XML_LINQ_ELEMENTWRITER_WRITEFULLENDELEMENT_OFFSET UNITYSDK_OFFSET(0x386B970)
+#define SYSTEM_XML_LINQ_ELEMENTWRITER_WRITESTARTELEMENT_OFFSET UNITYSDK_OFFSET(0x386BA00)
+#define SYSTEM_XML_LINQ_ELEMENTWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x2BBFD00)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int ElementWriter_TypeDefinitionIndex = 4918;
+	inline static constexpr unsigned int ElementWriter_TypeDefinitionIndex = 3885;
 
 	struct alignas(8) ElementWriter
 	{
 		::System::Xml::XmlWriter* writer; // 0x10
 		::System::Xml::Linq::NamespaceResolver resolver; // 0x18
 
-		::System::Void _ctor(::System::Xml::XmlWriter* writer)
+		::System::Void _ctor(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER__CTOR_OFFSET))(this, writer);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteElement(::System::Xml::Linq::XElement* e)
+		::System::Void WriteElement(::System::Xml::Linq::XElement* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XElement*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER_WRITEELEMENT_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XElement*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER_WRITEELEMENT_OFFSET))(this, a1);
 		}
 
-		::System::String* GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, ::System::Boolean allowDefaultNamespace)
+		::System::String* GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* a1, ::System::Boolean a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Xml::Linq::XNamespace*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER_GETPREFIXOFNAMESPACE_OFFSET))(this, ns, allowDefaultNamespace);
+			return ((::System::String*(*)(::PVOID, ::System::Xml::Linq::XNamespace*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER_GETPREFIXOFNAMESPACE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PushAncestors(::System::Xml::Linq::XElement* e)
+		::System::Void PushAncestors(::System::Xml::Linq::XElement* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XElement*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER_PUSHANCESTORS_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XElement*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER_PUSHANCESTORS_OFFSET))(this, a1);
 		}
 
-		::System::Void PushElement(::System::Xml::Linq::XElement* e)
+		::System::Void PushElement(::System::Xml::Linq::XElement* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XElement*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER_PUSHELEMENT_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XElement*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER_PUSHELEMENT_OFFSET))(this, a1);
 		}
 
 		::System::Void WriteEndElement()
@@ -61,9 +61,9 @@ namespace System::Xml::Linq
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER_WRITEFULLENDELEMENT_OFFSET))(this);
 		}
 
-		::System::Void WriteStartElement(::System::Xml::Linq::XElement* e)
+		::System::Void WriteStartElement(::System::Xml::Linq::XElement* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XElement*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER_WRITESTARTELEMENT_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XElement*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_ELEMENTWRITER_WRITESTARTELEMENT_OFFSET))(this, a1);
 		}
 	};
 }

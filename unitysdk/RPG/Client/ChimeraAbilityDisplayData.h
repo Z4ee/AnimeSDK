@@ -5,25 +5,25 @@
 
 namespace RPG::GameCore { class ChimeraAbilityDisplayRow; }
 
-#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9FF4920)
-#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0x9FF4840)
-#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_GET_DISPLAYID_OFFSET UNITYSDK_OFFSET(0x9FF4700)
-#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9FF4770)
-#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0x9FF4710)
-#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9FF4910)
+#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB66C630)
+#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0xB66C540)
+#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_GET_DISPLAYID_OFFSET UNITYSDK_OFFSET(0xB66C3F0)
+#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB66C460)
+#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xB66C400)
+#define RPG_CLIENT_CHIMERAABILITYDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB66C620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraAbilityDisplayData_TypeDefinitionIndex = 58414;
+	inline static constexpr unsigned int ChimeraAbilityDisplayData_TypeDefinitionIndex = 59344;
 
 	class ChimeraAbilityDisplayData : public ::System::Object
 	{
 	public:
 		::System::UInt32 _DisplayID_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::UInt32 displayID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAABILITYDISPLAYDATA__CTOR_OFFSET))(this, displayID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAABILITYDISPLAYDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_DisplayID()
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_GET_DESC_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ChimeraAbilityDisplayData* Create(::System::UInt32 displayID)
+		static ::RPG::Client::ChimeraAbilityDisplayData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraAbilityDisplayData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_CREATE_OFFSET))(displayID);
+			return ((::RPG::Client::ChimeraAbilityDisplayData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAABILITYDISPLAYDATA_CREATE_OFFSET))(a1);
 		}
 	};
 }

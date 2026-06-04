@@ -8,7 +8,7 @@ namespace System { template <typename T> class Pinnable_1; }
 
 namespace System
 {
-	inline static constexpr unsigned int Span_1_TypeDefinitionIndex = 4981;
+	inline static constexpr unsigned int Span_1_TypeDefinitionIndex = 4955;
 
 	template <typename T>
 	struct Span_1

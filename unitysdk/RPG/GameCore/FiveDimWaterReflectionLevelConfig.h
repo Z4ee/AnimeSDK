@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONLEVELCONFIG_METHOD_2_E612BD7313D289EA_OFFSET UNITYSDK_OFFSET(0x18909430)
-#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18924020)
+#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONLEVELCONFIG_METHOD_2_E612BD7313D289EA_OFFSET UNITYSDK_OFFSET(0x1975E320)
+#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1975E520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimWaterReflectionLevelConfig_TypeDefinitionIndex = 17596;
+	inline static constexpr unsigned int FiveDimWaterReflectionLevelConfig_TypeDefinitionIndex = 17622;
 
 	class FiveDimWaterReflectionLevelConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -16,80 +16,80 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 template <typename T> class Class_1_463D937AB9C3D339;
 
-#define EDITORLIGHTPREVIEWER_CANCELPINCURRENTCAMPOS_OFFSET UNITYSDK_OFFSET(0xF2F1810)
-#define EDITORLIGHTPREVIEWER_CHANGEENV_OFFSET UNITYSDK_OFFSET(0xF2F1580)
-#define EDITORLIGHTPREVIEWER_CHANGEQUALITY_OFFSET UNITYSDK_OFFSET(0xF2F1300)
-#define EDITORLIGHTPREVIEWER_EXITLIGHTPREVIEW_OFFSET UNITYSDK_OFFSET(0xF2F2D80)
-#define EDITORLIGHTPREVIEWER_EXITPREVIEW_OFFSET UNITYSDK_OFFSET(0xF2F0420)
-#define EDITORLIGHTPREVIEWER_GETCIDFROMOBJ_OFFSET UNITYSDK_OFFSET(0xF2F0330)
-#define EDITORLIGHTPREVIEWER_GETLIGHTFGAMEOBJECTFROMCONTROLID_OFFSET UNITYSDK_OFFSET(0xF2F1B10)
-#define EDITORLIGHTPREVIEWER_GET_INPREVIEW_OFFSET UNITYSDK_OFFSET(0xF2F2F60)
-#define EDITORLIGHTPREVIEWER_ISALIVE_OFFSET UNITYSDK_OFFSET(0xF2F02A0)
-#define EDITORLIGHTPREVIEWER_ISINLIGHTPREVIEW_OFFSET UNITYSDK_OFFSET(0xF2F2ED0)
-#define EDITORLIGHTPREVIEWER_LOADHEADER_OFFSET UNITYSDK_OFFSET(0xF2F0E30)
-#define EDITORLIGHTPREVIEWER_METHOD_5_00605CD46BC5ED28_OFFSET UNITYSDK_OFFSET(0xF2F2D40)
-#define EDITORLIGHTPREVIEWER_METHOD_5_14014646206E49EF_OFFSET UNITYSDK_OFFSET(0xF2F1860)
-#define EDITORLIGHTPREVIEWER_METHOD_5_58DF4ECFAC9D8302_OFFSET UNITYSDK_OFFSET(0xF2F2600)
-#define EDITORLIGHTPREVIEWER_METHOD_5_5E288D22F52E3FF4_OFFSET UNITYSDK_OFFSET(0xF2F2110)
-#define EDITORLIGHTPREVIEWER_METHOD_5_648BBA11A4556807_OFFSET UNITYSDK_OFFSET(0xF2F1C90)
-#define EDITORLIGHTPREVIEWER_METHOD_5_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0xF2EF0D0)
-#define EDITORLIGHTPREVIEWER_METHOD_5_96980C17A8BB1F06_OFFSET UNITYSDK_OFFSET(0xF2F0980)
-#define EDITORLIGHTPREVIEWER_METHOD_5_AFFFB1DD57EDD0F7_OFFSET UNITYSDK_OFFSET(0xF2F2410)
-#define EDITORLIGHTPREVIEWER_METHOD_5_B10D028FBFD259C7_OFFSET UNITYSDK_OFFSET(0xF2F2BF0)
-#define EDITORLIGHTPREVIEWER_METHOD_5_BA18886DD7F7CF46_OFFSET UNITYSDK_OFFSET(0xF2F2970)
-#define EDITORLIGHTPREVIEWER_METHOD_5_BB5D5C8FD881E686_OFFSET UNITYSDK_OFFSET(0xF2F1FC0)
-#define EDITORLIGHTPREVIEWER_METHOD_5_C1CFF8CC0530F137_OFFSET UNITYSDK_OFFSET(0xF2F2AF0)
-#define EDITORLIGHTPREVIEWER_METHOD_5_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xF2F1730)
-#define EDITORLIGHTPREVIEWER_METHOD_5_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0xF2F25C0)
-#define EDITORLIGHTPREVIEWER_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xF2F16F0)
-#define EDITORLIGHTPREVIEWER_METHOD_5_CF3FF89BC7293141_OFFSET UNITYSDK_OFFSET(0xF2F22C0)
-#define EDITORLIGHTPREVIEWER_METHOD_5_F3B08E53C999F05B_OFFSET UNITYSDK_OFFSET(0xF2F1E40)
-#define EDITORLIGHTPREVIEWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF2F2E80)
-#define EDITORLIGHTPREVIEWER_PINCURRENTCAMPOS_OFFSET UNITYSDK_OFFSET(0xF2F1770)
-#define EDITORLIGHTPREVIEWER_RESETLIGHTSCENE_OFFSET UNITYSDK_OFFSET(0xF2F0620)
-#define EDITORLIGHTPREVIEWER_STARTLIGHTPREVIEW_OFFSET UNITYSDK_OFFSET(0xF2F2C50)
-#define EDITORLIGHTPREVIEWER_STARTPREVIEW_OFFSET UNITYSDK_OFFSET(0xF2F0CB0)
-#define EDITORLIGHTPREVIEWER_UPDATE_OFFSET UNITYSDK_OFFSET(0xF2EF080)
-#define EDITORLIGHTPREVIEWER__CTOR_OFFSET UNITYSDK_OFFSET(0xF2F3020)
+#define EDITORLIGHTPREVIEWER_CANCELPINCURRENTCAMPOS_OFFSET UNITYSDK_OFFSET(0x13578310)
+#define EDITORLIGHTPREVIEWER_CHANGEENV_OFFSET UNITYSDK_OFFSET(0x135780A0)
+#define EDITORLIGHTPREVIEWER_CHANGEQUALITY_OFFSET UNITYSDK_OFFSET(0x13577DE0)
+#define EDITORLIGHTPREVIEWER_EXITLIGHTPREVIEW_OFFSET UNITYSDK_OFFSET(0x13579950)
+#define EDITORLIGHTPREVIEWER_EXITPREVIEW_OFFSET UNITYSDK_OFFSET(0x13576FA0)
+#define EDITORLIGHTPREVIEWER_GETCIDFROMOBJ_OFFSET UNITYSDK_OFFSET(0x13576EC0)
+#define EDITORLIGHTPREVIEWER_GETLIGHTFGAMEOBJECTFROMCONTROLID_OFFSET UNITYSDK_OFFSET(0x135785D0)
+#define EDITORLIGHTPREVIEWER_GET_INPREVIEW_OFFSET UNITYSDK_OFFSET(0x13579AE0)
+#define EDITORLIGHTPREVIEWER_ISALIVE_OFFSET UNITYSDK_OFFSET(0x13576E50)
+#define EDITORLIGHTPREVIEWER_ISINLIGHTPREVIEW_OFFSET UNITYSDK_OFFSET(0x13579A70)
+#define EDITORLIGHTPREVIEWER_LOADHEADER_OFFSET UNITYSDK_OFFSET(0x135778F0)
+#define EDITORLIGHTPREVIEWER_METHOD_5_00605CD46BC5ED28_OFFSET UNITYSDK_OFFSET(0x13579910)
+#define EDITORLIGHTPREVIEWER_METHOD_5_2144A24F9EC80B59_OFFSET UNITYSDK_OFFSET(0x13577480)
+#define EDITORLIGHTPREVIEWER_METHOD_5_283DA224BE06DA9F_OFFSET UNITYSDK_OFFSET(0x13575DF0)
+#define EDITORLIGHTPREVIEWER_METHOD_5_5E288D22F52E3FF4_OFFSET UNITYSDK_OFFSET(0x13578C20)
+#define EDITORLIGHTPREVIEWER_METHOD_5_648BBA11A4556807_OFFSET UNITYSDK_OFFSET(0x13578700)
+#define EDITORLIGHTPREVIEWER_METHOD_5_AFFFB1DD57EDD0F7_OFFSET UNITYSDK_OFFSET(0x13578F80)
+#define EDITORLIGHTPREVIEWER_METHOD_5_B10D028FBFD259C7_OFFSET UNITYSDK_OFFSET(0x135797F0)
+#define EDITORLIGHTPREVIEWER_METHOD_5_BA18886DD7F7CF46_OFFSET UNITYSDK_OFFSET(0x13579580)
+#define EDITORLIGHTPREVIEWER_METHOD_5_C1CFF8CC0530F137_OFFSET UNITYSDK_OFFSET(0x13579700)
+#define EDITORLIGHTPREVIEWER_METHOD_5_C4E832CB292C28C8_OFFSET UNITYSDK_OFFSET(0x13578360)
+#define EDITORLIGHTPREVIEWER_METHOD_5_C5FF6C7F68BCA1BA_OFFSET UNITYSDK_OFFSET(0x135788A0)
+#define EDITORLIGHTPREVIEWER_METHOD_5_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x13578230)
+#define EDITORLIGHTPREVIEWER_METHOD_5_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x13579130)
+#define EDITORLIGHTPREVIEWER_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x135781F0)
+#define EDITORLIGHTPREVIEWER_METHOD_5_E8D4C6A8B82CBBF7_OFFSET UNITYSDK_OFFSET(0x13578A70)
+#define EDITORLIGHTPREVIEWER_METHOD_5_EBC80583F9EE84E5_OFFSET UNITYSDK_OFFSET(0x13579170)
+#define EDITORLIGHTPREVIEWER_METHOD_5_FFEDDDE50B9BE570_OFFSET UNITYSDK_OFFSET(0x13578DD0)
+#define EDITORLIGHTPREVIEWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13579A20)
+#define EDITORLIGHTPREVIEWER_PINCURRENTCAMPOS_OFFSET UNITYSDK_OFFSET(0x13578270)
+#define EDITORLIGHTPREVIEWER_RESETLIGHTSCENE_OFFSET UNITYSDK_OFFSET(0x135771A0)
+#define EDITORLIGHTPREVIEWER_STARTLIGHTPREVIEW_OFFSET UNITYSDK_OFFSET(0x13579850)
+#define EDITORLIGHTPREVIEWER_STARTPREVIEW_OFFSET UNITYSDK_OFFSET(0x13577770)
+#define EDITORLIGHTPREVIEWER_UPDATE_OFFSET UNITYSDK_OFFSET(0x13575DA0)
+#define EDITORLIGHTPREVIEWER__CTOR_OFFSET UNITYSDK_OFFSET(0x13579B60)
 
-inline static constexpr unsigned int EditorLightPreviewer_TypeDefinitionIndex = 44126;
+inline static constexpr unsigned int EditorLightPreviewer_TypeDefinitionIndex = 44672;
 
 class EditorLightPreviewer : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::EditorLightPreviewer** StaticGet_viewer()
 	{
-		return (::EditorLightPreviewer**)Il2CppClass::FromTypeDefinitionIndex(EditorLightPreviewer_TypeDefinitionIndex)->GetStaticField(0x12120);
+		return (::EditorLightPreviewer**)Il2CppClass::FromTypeDefinitionIndex(EditorLightPreviewer_TypeDefinitionIndex)->GetStaticField(0x447D0);
 	}
-	::ScenenLightManager::BlockEnvExportDataHeader* Field_5_0; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* Field_5_1; // 0x20
-	::Class_1_463D937AB9C3D339<::System::Int32>* Field_5_2; // 0x28
-	::Class_1_463D937AB9C3D339<::System::Int32>* Field_5_3; // 0x30
-	::UnityEngine::Transform* Field_5_4; // 0x38
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>* Field_5_5; // 0x40
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Int32>* Field_5_6; // 0x48
+	::ScenenLightManager::BlockEnvExportDataHeader* Field_5_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* Field_5_2; // 0x20
+	::Class_1_463D937AB9C3D339<::System::Int32>* Field_5_3; // 0x28
+	::Class_1_463D937AB9C3D339<::System::Int32>* Field_5_4; // 0x30
+	::UnityEngine::Transform* Field_5_5; // 0x38
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>* Field_5_6; // 0x40
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Int32>* Field_5_7; // 0x48
 	::System::Int32 LightId; // 0x50
 	::System::Int32 LightCount; // 0x54
 	::UnityEngine::Vector3 SetPos; // 0x58
 	::System::Boolean SetP; // 0x64
-	::System::Boolean Field_5_11; // 0x65
-	::System::Boolean Field_5_12; // 0x66
+	::System::Boolean Field_5_12; // 0x65
+	::System::Boolean Field_5_13; // 0x66
 	::RPG::CustomRP::CustomLightQualityFilter quality; // 0x68
-	::RPG::CustomRP::CustomLightQualityFilter Field_5_14; // 0x6C
+	::RPG::CustomRP::CustomLightQualityFilter Field_5_15; // 0x6C
 	::System::Collections::Generic::List_1<::System::String*>* envOption; // 0x70
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_5_16; // 0x78
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_5_17; // 0x80
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_5_17; // 0x78
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_5_18; // 0x80
 	::System::Int32 envIdx; // 0x88
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::EditorLightPreviewer_Class_1_128EA0FF53AE8A47*>* Field_5_19; // 0x90
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Boolean>* Field_5_20; // 0x98
-	::System::Collections::Generic::List_1<::SceneLightVolume*>* Field_5_21; // 0xA0
-	::UnityEngine::Vector3 Field_5_22; // 0xA8
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_E4CB20B056222958*>* Field_5_23; // 0xB8
-	::System::Boolean Field_5_24; // 0xC0
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::OpenWorld::StreamingLightEnum>* Field_5_25; // 0xC8
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* Field_5_26; // 0xD0
-	::System::Collections::Generic::List_1<::SceneLightVolume*>* Field_5_27; // 0xD8
-	::System::String* Field_5_28; // 0xE0
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::EditorLightPreviewer_Class_1_128EA0FF53AE8A47*>* Field_5_20; // 0x90
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Boolean>* Field_5_21; // 0x98
+	::System::Collections::Generic::List_1<::SceneLightVolume*>* Field_5_22; // 0xA0
+	::UnityEngine::Vector3 Field_5_23; // 0xA8
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_E4CB20B056222958*>* Field_5_24; // 0xB8
+	::System::Boolean Field_5_25; // 0xC0
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::OpenWorld::StreamingLightEnum>* Field_5_26; // 0xC8
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* Field_5_27; // 0xD0
+	::System::Collections::Generic::List_1<::SceneLightVolume*>* Field_5_28; // 0xD8
+	::System::String* Field_5_29; // 0xE0
 
 	::System::Void _ctor()
 	{
@@ -141,9 +141,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CustomLightQualityFilter))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_CHANGEQUALITY_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_5_14014646206E49EF()
+	::System::Void Method_5_C4E832CB292C28C8()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_14014646206E49EF_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_C4E832CB292C28C8_OFFSET))(this);
 	}
 
 	::System::Void ResetLightScene()
@@ -166,9 +166,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_CA373AA1C7054598_OFFSET))(this);
 	}
 
-	::System::Void Method_5_96980C17A8BB1F06()
+	::System::Void Method_5_2144A24F9EC80B59()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_96980C17A8BB1F06_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_2144A24F9EC80B59_OFFSET))(this);
 	}
 
 	::System::Void Method_5_CA373AA1C7054598_1()
@@ -181,14 +181,14 @@ public:
 		return ((::Class_1_463D937AB9C3D339<::System::Int32>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_648BBA11A4556807_OFFSET))(this, a1);
 	}
 
-	::UnityEngine::GameObject* Method_5_F3B08E53C999F05B(::System::String* a1)
+	::UnityEngine::GameObject* Method_5_C5FF6C7F68BCA1BA(::System::String* a1)
 	{
-		return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_F3B08E53C999F05B_OFFSET))(this, a1);
+		return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_C5FF6C7F68BCA1BA_OFFSET))(this, a1);
 	}
 
-	::RPG::Client::OpenWorld::StreamingLightEnum Method_5_BB5D5C8FD881E686(::System::String* a1)
+	::RPG::Client::OpenWorld::StreamingLightEnum Method_5_E8D4C6A8B82CBBF7(::System::String* a1)
 	{
-		return ((::RPG::Client::OpenWorld::StreamingLightEnum(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_BB5D5C8FD881E686_OFFSET))(this, a1);
+		return ((::RPG::Client::OpenWorld::StreamingLightEnum(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_E8D4C6A8B82CBBF7_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_5_5E288D22F52E3FF4(::System::String* a1, ::RPG::Client::OpenWorld::StreamingLightEnum a2)
@@ -196,9 +196,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::System::String*, ::RPG::Client::OpenWorld::StreamingLightEnum))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_5E288D22F52E3FF4_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_5_CF3FF89BC7293141(::System::String* a1)
+	::System::Boolean Method_5_FFEDDDE50B9BE570(::System::String* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_CF3FF89BC7293141_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_FFEDDDE50B9BE570_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_5_AFFFB1DD57EDD0F7(::System::String* a1, ::System::Boolean a2)
@@ -211,9 +211,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_CA373AA1C7054598_2_OFFSET))(this);
 	}
 
-	::System::Void Method_5_739DB9F245C7FAD0()
+	::System::Void Method_5_283DA224BE06DA9F()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_739DB9F245C7FAD0_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_283DA224BE06DA9F_OFFSET))(this);
 	}
 
 	::System::Void Method_5_BA18886DD7F7CF46(::System::Int32 a1, ::UnityEngine::GameObject* a2)
@@ -221,9 +221,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_BA18886DD7F7CF46_OFFSET))(this, a1, a2);
 	}
 
-	::SceneLightVolume* Method_5_58DF4ECFAC9D8302(::UnityEngine::Vector3 a1)
+	::SceneLightVolume* Method_5_EBC80583F9EE84E5(::UnityEngine::Vector3 a1)
 	{
-		return ((::SceneLightVolume*(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_58DF4ECFAC9D8302_OFFSET))(this, a1);
+		return ((::SceneLightVolume*(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EDITORLIGHTPREVIEWER_METHOD_5_EBC80583F9EE84E5_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_5_C1CFF8CC0530F137(::UnityEngine::GameObject* a1)

@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_PlaybackState_Collision_TypeDefinitionIndex = 5452;
+	inline static constexpr unsigned int ParticleSystem_PlaybackState_Collision_TypeDefinitionIndex = 5729;
 
 	struct alignas(4) ParticleSystem_PlaybackState_Collision
 	{

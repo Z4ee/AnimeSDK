@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/PropType.h"
 #include "unitysdk/System/Object.h"
 
-template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
+template <typename T> class Class_1_9EB2CB86795DEEF1_DelegateParseJson_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByComparePropType___O_TypeDefinitionIndex = 19261;
+	inline static constexpr unsigned int ByComparePropType___O_TypeDefinitionIndex = 19178;
 
 	class ByComparePropType___O : public ::System::Object
 	{
 	public:
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::PropType>** StaticGet__0___FromBinary()
+		static ::Class_1_9EB2CB86795DEEF1_DelegateParseJson_1<::RPG::GameCore::PropType>** StaticGet__0___FromJson()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::PropType>**)Il2CppClass::FromTypeDefinitionIndex(ByComparePropType___O_TypeDefinitionIndex)->GetStaticField(0x30840);
+			return (::Class_1_9EB2CB86795DEEF1_DelegateParseJson_1<::RPG::GameCore::PropType>**)Il2CppClass::FromTypeDefinitionIndex(ByComparePropType___O_TypeDefinitionIndex)->GetStaticField(0x7F60);
 		}
 	};
 }

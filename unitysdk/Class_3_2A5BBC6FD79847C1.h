@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareHeartDialScriptStep; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2A5BBC6FD79847C1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x98A3620)
-#define CLASS_3_2A5BBC6FD79847C1__CTOR_OFFSET UNITYSDK_OFFSET(0x98A35F0)
+#define CLASS_3_2A5BBC6FD79847C1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12388240)
+#define CLASS_3_2A5BBC6FD79847C1__CTOR_OFFSET UNITYSDK_OFFSET(0x12388210)
 
-inline static constexpr unsigned int Class_3_2A5BBC6FD79847C1_TypeDefinitionIndex = 48539;
+inline static constexpr unsigned int Class_3_2A5BBC6FD79847C1_TypeDefinitionIndex = 49166;
 
 class Class_3_2A5BBC6FD79847C1 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareHeartDialScriptStep*>
 {

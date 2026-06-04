@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleEffectType_TypeDefinitionIndex = 15995;
+	inline static constexpr unsigned int MarbleEffectType_TypeDefinitionIndex = 16045;
 
 	enum class MarbleEffectType : ::System::Int32
 	{

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYFAULTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F3C4E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYFAULTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB3A00)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int TryFaultHandler_TypeDefinitionIndex = 3466;
+	inline static constexpr unsigned int TryFaultHandler_TypeDefinitionIndex = 3467;
 
 	class TryFaultHandler : public ::System::Object
 	{
 	public:
-		::System::Int32 FinallyStartIndex; // 0x10
+		::System::Int32 FinallyEndIndex; // 0x10
 		::System::Int32 TryStartIndex; // 0x14
-		::System::Int32 FinallyEndIndex; // 0x18
-		::System::Int32 TryEndIndex; // 0x1C
+		::System::Int32 TryEndIndex; // 0x18
+		::System::Int32 FinallyStartIndex; // 0x1C
 
-		::System::Void _ctor(::System::Int32 tryStart, ::System::Int32 tryEnd, ::System::Int32 finallyStart, ::System::Int32 finallyEnd)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYFAULTHANDLER__CTOR_OFFSET))(this, tryStart, tryEnd, finallyStart, finallyEnd);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYFAULTHANDLER__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

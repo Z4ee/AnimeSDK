@@ -7,10 +7,10 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0E283B9322CE20B3_METHOD_1_7027832C8B8A9FCB_OFFSET UNITYSDK_OFFSET(0x96A1B90)
-#define CLASS_1_0E283B9322CE20B3_METHOD_1_F9FFAF1BC10DF2A5_OFFSET UNITYSDK_OFFSET(0x96A1FC0)
+#define CLASS_1_0E283B9322CE20B3_METHOD_1_7027832C8B8A9FCB_OFFSET UNITYSDK_OFFSET(0x10619C60)
+#define CLASS_1_0E283B9322CE20B3_METHOD_1_A876CF1DCB808A06_OFFSET UNITYSDK_OFFSET(0x1061A090)
 
-inline static constexpr unsigned int Class_1_0E283B9322CE20B3_TypeDefinitionIndex = 61223;
+inline static constexpr unsigned int Class_1_0E283B9322CE20B3_TypeDefinitionIndex = 62147;
 
 class Class_1_0E283B9322CE20B3 : public ::System::Object
 {
@@ -22,8 +22,8 @@ public:
 		return ((::System::Numerics::BigInteger(*)(::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_0E283B9322CE20B3_METHOD_1_7027832C8B8A9FCB_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32> Method_1_F9FFAF1BC10DF2A5(::System::Numerics::BigInteger a1, ::System::Int32 a2)
+	static ::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32> Method_1_A876CF1DCB808A06(::System::Numerics::BigInteger a1, ::System::Int32 a2)
 	{
-		return ((::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32>(*)(::System::Numerics::BigInteger, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_0E283B9322CE20B3_METHOD_1_F9FFAF1BC10DF2A5_OFFSET))(a1, a2);
+		return ((::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32>(*)(::System::Numerics::BigInteger, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_0E283B9322CE20B3_METHOD_1_A876CF1DCB808A06_OFFSET))(a1, a2);
 	}
 };

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRINKMAKERDAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188862B0)
-#define RPG_GAMECORE_DRINKMAKERDAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188868C0)
+#define RPG_GAMECORE_DRINKMAKERDAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196C2E40)
+#define RPG_GAMECORE_DRINKMAKERDAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196C3460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerDayRow_TypeDefinitionIndex = 12456;
+	inline static constexpr unsigned int DrinkMakerDayRow_TypeDefinitionIndex = 12544;
 
 	class DrinkMakerDayRow : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERDAYROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::DrinkMakerDayRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DrinkMakerDayRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DrinkMakerDayRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERDAYROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DrinkMakerDayRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERDAYROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

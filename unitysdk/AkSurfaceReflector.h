@@ -9,23 +9,23 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Transform; }
 
-#define AKSURFACEREFLECTOR_ADDGEOMETRYSET_OFFSET UNITYSDK_OFFSET(0x1A6627D0)
-#define AKSURFACEREFLECTOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A662640)
-#define AKSURFACEREFLECTOR_GETAKGEOMETRYSETID_OFFSET UNITYSDK_OFFSET(0x1A6625C0)
-#define AKSURFACEREFLECTOR_GETID_OFFSET UNITYSDK_OFFSET(0x1A65E530)
-#define AKSURFACEREFLECTOR_GET_ACOUSTICTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A662D00)
-#define AKSURFACEREFLECTOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A662780)
-#define AKSURFACEREFLECTOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A662710)
-#define AKSURFACEREFLECTOR_REMOVEGEOMETRYSET_OFFSET UNITYSDK_OFFSET(0x1A662440)
-#define AKSURFACEREFLECTOR_REMOVEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1A6622B0)
-#define AKSURFACEREFLECTOR_SETASSOCIATEDROOM_OFFSET UNITYSDK_OFFSET(0x1A661DC0)
-#define AKSURFACEREFLECTOR_SETGEOMETRYFROMMESH_OFFSET UNITYSDK_OFFSET(0x1A65E6E0)
-#define AKSURFACEREFLECTOR_SETGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1A661F10)
-#define AKSURFACEREFLECTOR_SET_ACOUSTICTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A662D60)
-#define AKSURFACEREFLECTOR_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1A661EC0)
-#define AKSURFACEREFLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A662F90)
+#define AKSURFACEREFLECTOR_ADDGEOMETRYSET_OFFSET UNITYSDK_OFFSET(0x1B4ADBB0)
+#define AKSURFACEREFLECTOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B4ADA30)
+#define AKSURFACEREFLECTOR_GETAKGEOMETRYSETID_OFFSET UNITYSDK_OFFSET(0x1B4AD9B0)
+#define AKSURFACEREFLECTOR_GETID_OFFSET UNITYSDK_OFFSET(0x1B4A9C40)
+#define AKSURFACEREFLECTOR_GET_ACOUSTICTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B4AE0B0)
+#define AKSURFACEREFLECTOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B4ADB60)
+#define AKSURFACEREFLECTOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B4ADAF0)
+#define AKSURFACEREFLECTOR_REMOVEGEOMETRYSET_OFFSET UNITYSDK_OFFSET(0x1B4AD830)
+#define AKSURFACEREFLECTOR_REMOVEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1B4AD6A0)
+#define AKSURFACEREFLECTOR_SETASSOCIATEDROOM_OFFSET UNITYSDK_OFFSET(0x1B4AD1D0)
+#define AKSURFACEREFLECTOR_SETGEOMETRYFROMMESH_OFFSET UNITYSDK_OFFSET(0x1B4A9DF0)
+#define AKSURFACEREFLECTOR_SETGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1B4AD320)
+#define AKSURFACEREFLECTOR_SET_ACOUSTICTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B4AE110)
+#define AKSURFACEREFLECTOR_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1B4AD2D0)
+#define AKSURFACEREFLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AE320)
 
-inline static constexpr unsigned int AkSurfaceReflector_TypeDefinitionIndex = 40511;
+inline static constexpr unsigned int AkSurfaceReflector_TypeDefinitionIndex = 41338;
 
 class AkSurfaceReflector : public ::UnityEngine::MonoBehaviour
 {
@@ -48,14 +48,14 @@ public:
 		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_GETID_OFFSET))(this);
 	}
 
-	static ::System::Void SetGeometryFromMesh(::UnityEngine::Mesh* mesh, ::Il2CppArray<::AK::Wwise::AcousticTexture*>* acousticTextures, ::Il2CppArray<::System::Single>* occlusionValues, ::UnityEngine::Transform* transform, ::System::UInt64 geometryID, ::System::UInt64 associatedRoomID, ::System::Boolean enableDiffraction, ::System::Boolean enableDiffractionOnBoundaryEdges, ::System::String* name)
+	static ::System::Void SetGeometryFromMesh(::UnityEngine::Mesh* a1, ::Il2CppArray<::AK::Wwise::AcousticTexture*>* a2, ::Il2CppArray<::System::Single>* a3, ::UnityEngine::Transform* a4, ::System::UInt64 a5, ::System::UInt64 a6, ::System::Boolean a7, ::System::Boolean a8, ::System::String* a9)
 	{
-		return ((::System::Void(*)(::UnityEngine::Mesh*, ::Il2CppArray<::AK::Wwise::AcousticTexture*>*, ::Il2CppArray<::System::Single>*, ::UnityEngine::Transform*, ::System::UInt64, ::System::UInt64, ::System::Boolean, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_SETGEOMETRYFROMMESH_OFFSET))(mesh, acousticTextures, occlusionValues, transform, geometryID, associatedRoomID, enableDiffraction, enableDiffractionOnBoundaryEdges, name);
+		return ((::System::Void(*)(::UnityEngine::Mesh*, ::Il2CppArray<::AK::Wwise::AcousticTexture*>*, ::Il2CppArray<::System::Single>*, ::UnityEngine::Transform*, ::System::UInt64, ::System::UInt64, ::System::Boolean, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_SETGEOMETRYFROMMESH_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 	}
 
-	::System::Void SetAssociatedRoom(::AkRoom* room)
+	::System::Void SetAssociatedRoom(::AkRoom* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkRoom*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_SETASSOCIATEDROOM_OFFSET))(this, room);
+		return ((::System::Void(*)(::PVOID, ::AkRoom*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_SETASSOCIATEDROOM_OFFSET))(this, a1);
 	}
 
 	::System::Void SetGeometry()
@@ -73,9 +73,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_REMOVEGEOMETRY_OFFSET))(this);
 	}
 
-	static ::System::Void RemoveGeometrySet(::UnityEngine::MeshFilter* meshFilter)
+	static ::System::Void RemoveGeometrySet(::UnityEngine::MeshFilter* a1)
 	{
-		return ((::System::Void(*)(::UnityEngine::MeshFilter*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_REMOVEGEOMETRYSET_OFFSET))(meshFilter);
+		return ((::System::Void(*)(::UnityEngine::MeshFilter*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_REMOVEGEOMETRYSET_OFFSET))(a1);
 	}
 
 	::System::Void Awake()
@@ -93,14 +93,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_ONDISABLE_OFFSET))(this);
 	}
 
-	static ::System::UInt64 GetAkGeometrySetID(::UnityEngine::MeshFilter* meshFilter)
+	static ::System::UInt64 GetAkGeometrySetID(::UnityEngine::MeshFilter* a1)
 	{
-		return ((::System::UInt64(*)(::UnityEngine::MeshFilter*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_GETAKGEOMETRYSETID_OFFSET))(meshFilter);
+		return ((::System::UInt64(*)(::UnityEngine::MeshFilter*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_GETAKGEOMETRYSETID_OFFSET))(a1);
 	}
 
-	static ::System::Void AddGeometrySet(::AK::Wwise::AcousticTexture* acousticTexture, ::UnityEngine::MeshFilter* meshFilter, ::System::UInt64 roomID, ::System::Boolean enableDiffraction, ::System::Boolean enableDiffractionOnBoundaryEdges)
+	static ::System::Void AddGeometrySet(::AK::Wwise::AcousticTexture* a1, ::UnityEngine::MeshFilter* a2, ::System::UInt64 a3, ::System::Boolean a4, ::System::Boolean a5)
 	{
-		return ((::System::Void(*)(::AK::Wwise::AcousticTexture*, ::UnityEngine::MeshFilter*, ::System::UInt64, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_ADDGEOMETRYSET_OFFSET))(acousticTexture, meshFilter, roomID, enableDiffraction, enableDiffractionOnBoundaryEdges);
+		return ((::System::Void(*)(::AK::Wwise::AcousticTexture*, ::UnityEngine::MeshFilter*, ::System::UInt64, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_ADDGEOMETRYSET_OFFSET))(a1, a2, a3, a4, a5);
 	}
 
 	::AK::Wwise::AcousticTexture* get_AcousticTexture()
@@ -108,8 +108,8 @@ public:
 		return ((::AK::Wwise::AcousticTexture*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_GET_ACOUSTICTEXTURE_OFFSET))(this);
 	}
 
-	::System::Void set_AcousticTexture(::AK::Wwise::AcousticTexture* value)
+	::System::Void set_AcousticTexture(::AK::Wwise::AcousticTexture* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AK::Wwise::AcousticTexture*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_SET_ACOUSTICTEXTURE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AK::Wwise::AcousticTexture*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_SET_ACOUSTICTEXTURE_OFFSET))(this, a1);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServantBodySize_TypeDefinitionIndex = 10250;
+	inline static constexpr unsigned int ServantBodySize_TypeDefinitionIndex = 10081;
 
 	enum class ServantBodySize : ::System::Int32
 	{

@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1750BAF0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1750BB40)
-#define MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1750B430)
-#define MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1750B410)
+#define MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18307270)
+#define MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x183072C0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18307240)
+#define MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x183071C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_CXOpenCommerceCheckoutDialogDelegate_TypeDefinitionIndex = 6726;
+	inline static constexpr unsigned int ConsoleDelegate_CXOpenCommerceCheckoutDialogDelegate_TypeDefinitionIndex = 7629;
 
 	class ConsoleDelegate_CXOpenCommerceCheckoutDialogDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Invoke(::System::String* storeId, ::System::String* productName, ::System::String* extData, ::MiHoYo::SDK::ConsoleDelegate_CommerceCheckoutCallback* callback)
+		::System::Int32 Invoke(::System::String* a1, ::System::String* a2, ::System::String* a3, ::MiHoYo::SDK::ConsoleDelegate_CommerceCheckoutCallback* a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::MiHoYo::SDK::ConsoleDelegate_CommerceCheckoutCallback*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_INVOKE_OFFSET))(this, storeId, productName, extData, callback);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::MiHoYo::SDK::ConsoleDelegate_CommerceCheckoutCallback*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* storeId, ::System::String* productName, ::System::String* extData, ::MiHoYo::SDK::ConsoleDelegate_CommerceCheckoutCallback* callback, ::System::AsyncCallback* __callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::String* a2, ::System::String* a3, ::MiHoYo::SDK::ConsoleDelegate_CommerceCheckoutCallback* a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::MiHoYo::SDK::ConsoleDelegate_CommerceCheckoutCallback*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_BEGININVOKE_OFFSET))(this, storeId, productName, extData, callback, __callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::MiHoYo::SDK::ConsoleDelegate_CommerceCheckoutCallback*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Int32 EndInvoke(::System::IAsyncResult* result)
+		::System::Int32 EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_CXOPENCOMMERCECHECKOUTDIALOGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

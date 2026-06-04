@@ -6,33 +6,33 @@ namespace Epic::OnlineServices::RTCAudio { class RegisterPlatformAudioUserOption
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x6E5C0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x6E4A0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x6E3D0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_USERID_OFFSET UNITYSDK_OFFSET(0x6E320)
+#define EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x74A30)
+#define EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x74A20)
+#define EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x74950)
+#define EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_USERID_OFFSET UNITYSDK_OFFSET(0x748A0)
 
 namespace Epic::OnlineServices::RTCAudio
 {
-	inline static constexpr unsigned int RegisterPlatformAudioUserOptionsInternal_TypeDefinitionIndex = 41476;
+	inline static constexpr unsigned int RegisterPlatformAudioUserOptionsInternal_TypeDefinitionIndex = 42279;
 
 	struct alignas(8) RegisterPlatformAudioUserOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_UserId; // 0x18
 
-		::System::Void set_UserId(::System::String* value)
+		::System::Void set_UserId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_USERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_USERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::RTCAudio::RegisterPlatformAudioUserOptions* other)
+		::System::Void Set(::Epic::OnlineServices::RTCAudio::RegisterPlatformAudioUserOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::RegisterPlatformAudioUserOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::RegisterPlatformAudioUserOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_REGISTERPLATFORMAUDIOUSEROPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

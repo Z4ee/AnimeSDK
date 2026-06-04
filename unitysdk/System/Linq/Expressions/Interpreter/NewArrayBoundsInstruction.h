@@ -6,15 +6,15 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x19F2DF60)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x19F2DF80)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x19F2DF70)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x19F2DFC0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F2DF50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1ADA5780)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1ADA57A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1ADA5790)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1ADA57E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA5770)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int NewArrayBoundsInstruction_TypeDefinitionIndex = 3297;
+	inline static constexpr unsigned int NewArrayBoundsInstruction_TypeDefinitionIndex = 3298;
 
 	class NewArrayBoundsInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
@@ -22,9 +22,9 @@ namespace System::Linq::Expressions::Interpreter
 		::System::Type* _elementType; // 0x10
 		::System::Int32 _rank; // 0x18
 
-		::System::Void _ctor(::System::Type* elementType, ::System::Int32 rank)
+		::System::Void _ctor(::System::Type* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION__CTOR_OFFSET))(this, elementType, rank);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_ConsumedStack()
@@ -42,9 +42,9 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET))(this);
 		}
 
-		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame)
+		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION_RUN_OFFSET))(this, frame);
+			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEWARRAYBOUNDSINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
 	};
 }

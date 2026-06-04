@@ -6,7 +6,7 @@ namespace RPG { class ReferencePool_ReferenceCollection; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int ReferencePool_ReferenceCollectionAccessor_1_TypeDefinitionIndex = 6423;
+	inline static constexpr unsigned int ReferencePool_ReferenceCollectionAccessor_1_TypeDefinitionIndex = 5625;
 
 	template <typename T>
 	class ReferencePool_ReferenceCollectionAccessor_1 : public ::System::Object

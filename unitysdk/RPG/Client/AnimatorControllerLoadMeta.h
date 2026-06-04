@@ -5,15 +5,14 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RuntimeAnimatorController; }
 
-#define RPG_CLIENT_ANIMATORCONTROLLERLOADMETA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x9D24B10)
-#define RPG_CLIENT_ANIMATORCONTROLLERLOADMETA_GET_LOADEDINDEX_OFFSET UNITYSDK_OFFSET(0x9D24B60)
-#define RPG_CLIENT_ANIMATORCONTROLLERLOADMETA_TRYLOAD_OFFSET UNITYSDK_OFFSET(0x9D24C50)
-#define RPG_CLIENT_ANIMATORCONTROLLERLOADMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D24DB0)
-#define RPG_CLIENT_ANIMATORCONTROLLERLOADMETA__RELOAD_OFFSET UNITYSDK_OFFSET(0x9D24B70)
+#define RPG_CLIENT_ANIMATORCONTROLLERLOADMETA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xB3144A0)
+#define RPG_CLIENT_ANIMATORCONTROLLERLOADMETA_GET_LOADEDINDEX_OFFSET UNITYSDK_OFFSET(0xB3144F0)
+#define RPG_CLIENT_ANIMATORCONTROLLERLOADMETA_TRYLOAD_OFFSET UNITYSDK_OFFSET(0xB314500)
+#define RPG_CLIENT_ANIMATORCONTROLLERLOADMETA__CTOR_OFFSET UNITYSDK_OFFSET(0xB314680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorControllerLoadMeta_TypeDefinitionIndex = 66785;
+	inline static constexpr unsigned int AnimatorControllerLoadMeta_TypeDefinitionIndex = 67725;
 
 	class AnimatorControllerLoadMeta : public ::UnityEngine::MonoBehaviour
 	{
@@ -36,14 +35,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORCONTROLLERLOADMETA_GET_LOADEDINDEX_OFFSET))(this);
 		}
 
-		::System::Void _Reload()
+		::System::Boolean TryLoad(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORCONTROLLERLOADMETA__RELOAD_OFFSET))(this);
-		}
-
-		::System::Boolean TryLoad(::System::Int32 index)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORCONTROLLERLOADMETA_TRYLOAD_OFFSET))(this, index);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORCONTROLLERLOADMETA_TRYLOAD_OFFSET))(this, a1);
 		}
 	};
 }

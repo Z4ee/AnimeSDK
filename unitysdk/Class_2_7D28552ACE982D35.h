@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define CLASS_2_7D28552ACE982D35_METHOD_2_476D909666927669_OFFSET UNITYSDK_OFFSET(0x1199A410)
-#define CLASS_2_7D28552ACE982D35__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1199A300)
-#define CLASS_2_7D28552ACE982D35__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1199A590)
-#define CLASS_2_7D28552ACE982D35__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1199A700)
-#define CLASS_2_7D28552ACE982D35__CTOR_OFFSET UNITYSDK_OFFSET(0x1199A2E0)
+#define CLASS_2_7D28552ACE982D35_METHOD_2_687F3383C6753467_OFFSET UNITYSDK_OFFSET(0xA604C00)
+#define CLASS_2_7D28552ACE982D35__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA604B20)
+#define CLASS_2_7D28552ACE982D35__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA604D10)
+#define CLASS_2_7D28552ACE982D35__CTOR_3_OFFSET UNITYSDK_OFFSET(0xA604E20)
+#define CLASS_2_7D28552ACE982D35__CTOR_OFFSET UNITYSDK_OFFSET(0xA604B00)
 
-inline static constexpr unsigned int Class_2_7D28552ACE982D35_TypeDefinitionIndex = 67796;
+inline static constexpr unsigned int Class_2_7D28552ACE982D35_TypeDefinitionIndex = 68754;
 
 class Class_2_7D28552ACE982D35 : public ::System::Attribute
 {
 public:
-	::Il2CppArray<::System::Single>* Field_2_3; // 0x10
-	::Il2CppArray<::System::String*>* Field_2_4; // 0x18
+	::Il2CppArray<::System::Single>* Field_2_0; // 0x10
+	::Il2CppArray<::System::String*>* Field_2_1; // 0x18
 	::Il2CppArray<::System::Single>* Field_2_2; // 0x20
-	::System::Single Field_2_0; // 0x28
-	::System::Boolean Field_2_5; // 0x2C
-	::System::Single Field_2_1; // 0x30
+	::System::Single Field_2_3; // 0x28
+	::System::Single Field_2_4; // 0x2C
+	::System::Boolean Field_2_5; // 0x30
 
 	::System::Void _ctor(::System::Single a1, ::System::Single a2, ::Il2CppArray<::System::String*>* a3)
 	{
@@ -42,8 +42,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + CLASS_2_7D28552ACE982D35__CTOR_3_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 	}
 
-	::Il2CppArray<::System::String*>* Method_2_476D909666927669(::Il2CppArray<::System::String*>* a1, ::System::Int32 a2)
+	::Il2CppArray<::System::String*>* Method_2_687F3383C6753467(::Il2CppArray<::System::String*>* a1, ::System::Int32 a2)
 	{
-		return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_7D28552ACE982D35_METHOD_2_476D909666927669_OFFSET))(this, a1, a2);
+		return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_7D28552ACE982D35_METHOD_2_687F3383C6753467_OFFSET))(this, a1, a2);
 	}
 };

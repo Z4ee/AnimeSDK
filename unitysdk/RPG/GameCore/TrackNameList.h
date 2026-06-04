@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRACKNAMELIST_METHOD_2_EC4F9E86676BC7A8_OFFSET UNITYSDK_OFFSET(0x190A2310)
-#define RPG_GAMECORE_TRACKNAMELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x190A23E0)
+#define RPG_GAMECORE_TRACKNAMELIST_METHOD_2_2DFC151F2E311025_OFFSET UNITYSDK_OFFSET(0x19DED0D0)
+#define RPG_GAMECORE_TRACKNAMELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19DED190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackNameList_TypeDefinitionIndex = 16182;
+	inline static constexpr unsigned int TrackNameList_TypeDefinitionIndex = 16227;
 
 	class TrackNameList : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKNAMELIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_EC4F9E86676BC7A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrackNameList*& a2)
+		static ::System::Void Method_2_2DFC151F2E311025(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrackNameList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrackNameList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKNAMELIST_METHOD_2_EC4F9E86676BC7A8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrackNameList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKNAMELIST_METHOD_2_2DFC151F2E311025_OFFSET))(a1, a2);
 		}
 	};
 }

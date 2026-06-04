@@ -7,13 +7,13 @@ namespace Microsoft::Win32::SafeHandles { class SafeProcessHandle; }
 namespace Microsoft::Win32::SafeHandles { class SafeWaitHandle; }
 namespace System::Runtime::InteropServices { class SafeHandle; }
 
-#define MICROSOFT_WIN32_NATIVEMETHODS_CLOSEPROCESS_OFFSET UNITYSDK_OFFSET(0x1A090B30)
-#define MICROSOFT_WIN32_NATIVEMETHODS_DUPLICATEHANDLE_1_OFFSET UNITYSDK_OFFSET(0x1A090900)
-#define MICROSOFT_WIN32_NATIVEMETHODS_DUPLICATEHANDLE_OFFSET UNITYSDK_OFFSET(0x1A090780)
-#define MICROSOFT_WIN32_NATIVEMETHODS_GETCURRENTPROCESSID_OFFSET UNITYSDK_OFFSET(0x1A090B20)
-#define MICROSOFT_WIN32_NATIVEMETHODS_GETCURRENTPROCESS_OFFSET UNITYSDK_OFFSET(0x1A090A20)
-#define MICROSOFT_WIN32_NATIVEMETHODS_GETEXITCODEPROCESS_1_OFFSET UNITYSDK_OFFSET(0x1A090A50)
-#define MICROSOFT_WIN32_NATIVEMETHODS_GETEXITCODEPROCESS_OFFSET UNITYSDK_OFFSET(0x1A090A30)
+#define MICROSOFT_WIN32_NATIVEMETHODS_CLOSEPROCESS_OFFSET UNITYSDK_OFFSET(0x1AF01C00)
+#define MICROSOFT_WIN32_NATIVEMETHODS_DUPLICATEHANDLE_1_OFFSET UNITYSDK_OFFSET(0x1AF019B0)
+#define MICROSOFT_WIN32_NATIVEMETHODS_DUPLICATEHANDLE_OFFSET UNITYSDK_OFFSET(0x1AF01830)
+#define MICROSOFT_WIN32_NATIVEMETHODS_GETCURRENTPROCESSID_OFFSET UNITYSDK_OFFSET(0x1AF01BF0)
+#define MICROSOFT_WIN32_NATIVEMETHODS_GETCURRENTPROCESS_OFFSET UNITYSDK_OFFSET(0x1AF01AF0)
+#define MICROSOFT_WIN32_NATIVEMETHODS_GETEXITCODEPROCESS_1_OFFSET UNITYSDK_OFFSET(0x1AF01B20)
+#define MICROSOFT_WIN32_NATIVEMETHODS_GETEXITCODEPROCESS_OFFSET UNITYSDK_OFFSET(0x1AF01B00)
 
 namespace Microsoft::Win32
 {
@@ -22,14 +22,14 @@ namespace Microsoft::Win32
 	class NativeMethods : public ::System::Object
 	{
 	public:
-		static ::System::Boolean DuplicateHandle(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::SafeHandle* hSourceHandle, ::System::Runtime::InteropServices::HandleRef hTargetProcess, ::Microsoft::Win32::SafeHandles::SafeWaitHandle*& targetHandle, ::System::Int32 dwDesiredAccess, ::System::Boolean bInheritHandle, ::System::Int32 dwOptions)
+		static ::System::Boolean DuplicateHandle(::System::Runtime::InteropServices::HandleRef a1, ::System::Runtime::InteropServices::SafeHandle* a2, ::System::Runtime::InteropServices::HandleRef a3, ::Microsoft::Win32::SafeHandles::SafeWaitHandle*& a4, ::System::Int32 a5, ::System::Boolean a6, ::System::Int32 a7)
 		{
-			return ((::System::Boolean(*)(::System::Runtime::InteropServices::HandleRef, ::System::Runtime::InteropServices::SafeHandle*, ::System::Runtime::InteropServices::HandleRef, ::Microsoft::Win32::SafeHandles::SafeWaitHandle*&, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_DUPLICATEHANDLE_OFFSET))(hSourceProcessHandle, hSourceHandle, hTargetProcess, targetHandle, dwDesiredAccess, bInheritHandle, dwOptions);
+			return ((::System::Boolean(*)(::System::Runtime::InteropServices::HandleRef, ::System::Runtime::InteropServices::SafeHandle*, ::System::Runtime::InteropServices::HandleRef, ::Microsoft::Win32::SafeHandles::SafeWaitHandle*&, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_DUPLICATEHANDLE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Boolean DuplicateHandle_1(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::HandleRef hSourceHandle, ::System::Runtime::InteropServices::HandleRef hTargetProcess, ::Microsoft::Win32::SafeHandles::SafeProcessHandle*& targetHandle, ::System::Int32 dwDesiredAccess, ::System::Boolean bInheritHandle, ::System::Int32 dwOptions)
+		static ::System::Boolean DuplicateHandle_1(::System::Runtime::InteropServices::HandleRef a1, ::System::Runtime::InteropServices::HandleRef a2, ::System::Runtime::InteropServices::HandleRef a3, ::Microsoft::Win32::SafeHandles::SafeProcessHandle*& a4, ::System::Int32 a5, ::System::Boolean a6, ::System::Int32 a7)
 		{
-			return ((::System::Boolean(*)(::System::Runtime::InteropServices::HandleRef, ::System::Runtime::InteropServices::HandleRef, ::System::Runtime::InteropServices::HandleRef, ::Microsoft::Win32::SafeHandles::SafeProcessHandle*&, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_DUPLICATEHANDLE_1_OFFSET))(hSourceProcessHandle, hSourceHandle, hTargetProcess, targetHandle, dwDesiredAccess, bInheritHandle, dwOptions);
+			return ((::System::Boolean(*)(::System::Runtime::InteropServices::HandleRef, ::System::Runtime::InteropServices::HandleRef, ::System::Runtime::InteropServices::HandleRef, ::Microsoft::Win32::SafeHandles::SafeProcessHandle*&, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_DUPLICATEHANDLE_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::IntPtr GetCurrentProcess()
@@ -37,14 +37,14 @@ namespace Microsoft::Win32
 			return ((::System::IntPtr(*)())((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_GETCURRENTPROCESS_OFFSET))();
 		}
 
-		static ::System::Boolean GetExitCodeProcess(::System::IntPtr processHandle, ::System::Int32& exitCode)
+		static ::System::Boolean GetExitCodeProcess(::System::IntPtr a1, ::System::Int32& a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::Int32&))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_GETEXITCODEPROCESS_OFFSET))(processHandle, exitCode);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::Int32&))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_GETEXITCODEPROCESS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetExitCodeProcess_1(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle, ::System::Int32& exitCode)
+		static ::System::Boolean GetExitCodeProcess_1(::Microsoft::Win32::SafeHandles::SafeProcessHandle* a1, ::System::Int32& a2)
 		{
-			return ((::System::Boolean(*)(::Microsoft::Win32::SafeHandles::SafeProcessHandle*, ::System::Int32&))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_GETEXITCODEPROCESS_1_OFFSET))(processHandle, exitCode);
+			return ((::System::Boolean(*)(::Microsoft::Win32::SafeHandles::SafeProcessHandle*, ::System::Int32&))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_GETEXITCODEPROCESS_1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Int32 GetCurrentProcessId()
@@ -52,9 +52,9 @@ namespace Microsoft::Win32
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_GETCURRENTPROCESSID_OFFSET))();
 		}
 
-		static ::System::Boolean CloseProcess(::System::IntPtr handle)
+		static ::System::Boolean CloseProcess(::System::IntPtr a1)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_CLOSEPROCESS_OFFSET))(handle);
+			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_NATIVEMETHODS_CLOSEPROCESS_OFFSET))(a1);
 		}
 	};
 }

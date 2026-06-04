@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UITopEffectType_TypeDefinitionIndex = 22102;
+	inline static constexpr unsigned int UITopEffectType_TypeDefinitionIndex = 23347;
 
 	enum class UITopEffectType : ::System::Int32
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/CriWare/CriAtomEx_CharacterEncoding.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXACBDEBUG_ACBINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x16224F0)
+#define CRIWARE_CRIATOMEXACBDEBUG_ACBINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2BD2740)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfoForMarshaling_TypeDefinitionIndex = 36931;
+	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfoForMarshaling_TypeDefinitionIndex = 37231;
 
 	struct alignas(8) CriAtomExAcbDebug_AcbInfoForMarshaling
 	{
@@ -19,9 +19,9 @@ namespace CriWare
 		::System::Int32 numCues; // 0x28
 
 		/*
-		::System::Void Convert(::CriWare::CriAtomExAcbDebug_AcbInfo& x)
+		::System::Void Convert(::CriWare::CriAtomExAcbDebug_AcbInfo& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExAcbDebug_AcbInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBDEBUG_ACBINFOFORMARSHALING_CONVERT_OFFSET))(this, x);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExAcbDebug_AcbInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBDEBUG_ACBINFOFORMARSHALING_CONVERT_OFFSET))(this, a1);
 		}
 		*/
 	};

@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_NodeType_TypeDefinitionIndex = 43560;
+	inline static constexpr unsigned int HAPI_NodeType_TypeDefinitionIndex = 37496;
 
 	enum class HAPI_NodeType : ::System::Int32
 	{
@@ -14,9 +14,11 @@ namespace HoudiniEngineUnity
 		HAPI_NODETYPE_CHOP = 4,
 		HAPI_NODETYPE_ROP = 8,
 		HAPI_NODETYPE_SHOP = 16,
-		HAPI_NODETYPE_COP = 32,
+		HAPI_NODETYPE_COP2 = 32,
 		HAPI_NODETYPE_VOP = 64,
 		HAPI_NODETYPE_DOP = 128,
 		HAPI_NODETYPE_TOP = 256,
+		HAPI_NODETYPE_COP = 512,
+		HAPI_NODETYPE_LOP = 1024,
 	};
 }

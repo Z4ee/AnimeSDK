@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMCONDITIONALLOF_METHOD_3_B2F74180553A92EE_OFFSET UNITYSDK_OFFSET(0x188FABF0)
-#define RPG_GAMECORE_FIVEDIMCONDITIONALLOF_METHOD_3_D16F57798A6BC795_OFFSET UNITYSDK_OFFSET(0x188F84A0)
-#define RPG_GAMECORE_FIVEDIMCONDITIONALLOF__CTOR_OFFSET UNITYSDK_OFFSET(0x188F8490)
+#define RPG_GAMECORE_FIVEDIMCONDITIONALLOF_METHOD_3_1D2A6B2347ACDC40_OFFSET UNITYSDK_OFFSET(0x19733AF0)
+#define RPG_GAMECORE_FIVEDIMCONDITIONALLOF_METHOD_3_DFD074E1E410140B_OFFSET UNITYSDK_OFFSET(0x19736380)
+#define RPG_GAMECORE_FIVEDIMCONDITIONALLOF__CTOR_OFFSET UNITYSDK_OFFSET(0x19733AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimConditionAllOf_TypeDefinitionIndex = 17855;
+	inline static constexpr unsigned int FiveDimConditionAllOf_TypeDefinitionIndex = 17884;
 
 	class FiveDimConditionAllOf : public ::RPG::GameCore::FiveDimBaseEventCondition
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCONDITIONALLOF__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B2F74180553A92EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimConditionAllOf*& a2)
+		static ::System::Void Method_3_DFD074E1E410140B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimConditionAllOf*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimConditionAllOf*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCONDITIONALLOF_METHOD_3_B2F74180553A92EE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimConditionAllOf*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCONDITIONALLOF_METHOD_3_DFD074E1E410140B_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D16F57798A6BC795(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimConditionAllOf* a2)
+		static ::System::Void Method_3_1D2A6B2347ACDC40(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimConditionAllOf* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimConditionAllOf*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCONDITIONALLOF_METHOD_3_D16F57798A6BC795_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimConditionAllOf*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCONDITIONALLOF_METHOD_3_1D2A6B2347ACDC40_OFFSET))(a1, a2);
 		}
 	};
 }

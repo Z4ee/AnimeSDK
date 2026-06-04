@@ -5,18 +5,18 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipEffectBallFly; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveRewardFlyService; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYSERVICE___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B71F20)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYSERVICE___C__DISPLAYCLASS44_0__SHOWEQUIPEFFECTBALL_B__0_OFFSET UNITYSDK_OFFSET(0x9B72A50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYSERVICE___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB15A2A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYSERVICE___C__DISPLAYCLASS44_0__SHOWEQUIPEFFECTBALL_B__0_OFFSET UNITYSDK_OFFSET(0xB15AE70)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveRewardFlyService___c__DisplayClass44_0_TypeDefinitionIndex = 69371;
+	inline static constexpr unsigned int IdleLiveRewardFlyService___c__DisplayClass44_0_TypeDefinitionIndex = 70183;
 
 	class IdleLiveRewardFlyService___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityIdleLive::IdleLiveEquipEffectBallFly* equipEffectFly; // 0x10
-		::RPG::Client::ActivityIdleLive::IdleLiveRewardFlyService* __4__this; // 0x18
+		::RPG::Client::ActivityIdleLive::IdleLiveRewardFlyService* __4__this; // 0x10
+		::RPG::Client::ActivityIdleLive::IdleLiveEquipEffectBallFly* equipEffectFly; // 0x18
 
 		::System::Void _ctor()
 		{

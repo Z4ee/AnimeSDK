@@ -5,15 +5,15 @@
 
 namespace RPG::Client::LittleGame::ChenLing { class ChenLingJumpTextView_HPChangeFormatTypePair; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW_SHOWCOIN_OFFSET UNITYSDK_OFFSET(0xA683890)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW_SHOW_OFFSET UNITYSDK_OFFSET(0xA683350)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xA683B10)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW__FINDHPCHANGEFORMATTYPEPAIR_OFFSET UNITYSDK_OFFSET(0xA6835F0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW__SETPAIRVISIBLE_OFFSET UNITYSDK_OFFSET(0xA683680)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW_SHOWCOIN_OFFSET UNITYSDK_OFFSET(0xBDCDF40)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW_SHOW_OFFSET UNITYSDK_OFFSET(0xBDCDA10)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xBDCE1B0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW__FINDHPCHANGEFORMATTYPEPAIR_OFFSET UNITYSDK_OFFSET(0xBDCDCA0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW__SETPAIRVISIBLE_OFFSET UNITYSDK_OFFSET(0xBDCDD30)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingJumpTextView_TypeDefinitionIndex = 71470;
+	inline static constexpr unsigned int ChenLingJumpTextView_TypeDefinitionIndex = 72492;
 
 	class ChenLingJumpTextView : public ::UnityEngine::MonoBehaviour
 	{
@@ -29,24 +29,24 @@ namespace RPG::Client::LittleGame::ChenLing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Show(::RPG::Client::LittleGame::ChenLing::ChenLingHPChangeFormatType hpChangeFormatType, ::System::Int32 deltaValue)
+		::System::Void Show(::RPG::Client::LittleGame::ChenLing::ChenLingHPChangeFormatType a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChenLing::ChenLingHPChangeFormatType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW_SHOW_OFFSET))(this, hpChangeFormatType, deltaValue);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChenLing::ChenLingHPChangeFormatType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW_SHOW_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ShowCoin(::System::Int32 coinValue)
+		::System::Void ShowCoin(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW_SHOWCOIN_OFFSET))(this, coinValue);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW_SHOWCOIN_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::LittleGame::ChenLing::ChenLingJumpTextView_HPChangeFormatTypePair* _FindHPChangeFormatTypePair(::RPG::Client::LittleGame::ChenLing::ChenLingHPChangeFormatType hpChangeFormatType)
+		::RPG::Client::LittleGame::ChenLing::ChenLingJumpTextView_HPChangeFormatTypePair* _FindHPChangeFormatTypePair(::RPG::Client::LittleGame::ChenLing::ChenLingHPChangeFormatType a1)
 		{
-			return ((::RPG::Client::LittleGame::ChenLing::ChenLingJumpTextView_HPChangeFormatTypePair*(*)(::PVOID, ::RPG::Client::LittleGame::ChenLing::ChenLingHPChangeFormatType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW__FINDHPCHANGEFORMATTYPEPAIR_OFFSET))(this, hpChangeFormatType);
+			return ((::RPG::Client::LittleGame::ChenLing::ChenLingJumpTextView_HPChangeFormatTypePair*(*)(::PVOID, ::RPG::Client::LittleGame::ChenLing::ChenLingHPChangeFormatType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW__FINDHPCHANGEFORMATTYPEPAIR_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetPairVisible(::RPG::Client::LittleGame::ChenLing::ChenLingJumpTextView_HPChangeFormatTypePair* item, ::System::Boolean visible)
+		::System::Void _SetPairVisible(::RPG::Client::LittleGame::ChenLing::ChenLingJumpTextView_HPChangeFormatTypePair* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChenLing::ChenLingJumpTextView_HPChangeFormatTypePair*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW__SETPAIRVISIBLE_OFFSET))(this, item, visible);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChenLing::ChenLingJumpTextView_HPChangeFormatTypePair*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW__SETPAIRVISIBLE_OFFSET))(this, a1, a2);
 		}
 	};
 }

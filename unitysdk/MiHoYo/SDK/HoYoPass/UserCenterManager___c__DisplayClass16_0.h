@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK { class Web; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17559350)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__ONGETTHIRDTOKENINVOKED_B__0_OFFSET UNITYSDK_OFFSET(0x1755B090)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18340D00)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__ONGETTHIRDTOKENINVOKED_B__0_OFFSET UNITYSDK_OFFSET(0x183428B0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int UserCenterManager___c__DisplayClass16_0_TypeDefinitionIndex = 7315;
+	inline static constexpr unsigned int UserCenterManager___c__DisplayClass16_0_TypeDefinitionIndex = 8218;
 
 	class UserCenterManager___c__DisplayClass16_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnGetThirdTokenInvoked_b__0(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode ret, ::System::String* accessToken)
+		::System::Void _OnGetThirdTokenInvoked_b__0(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__ONGETTHIRDTOKENINVOKED_B__0_OFFSET))(this, ret, accessToken);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__ONGETTHIRDTOKENINVOKED_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

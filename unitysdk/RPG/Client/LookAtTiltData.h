@@ -4,22 +4,22 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_LOOKATTILTDATA_GET_CURRENTTILT_OFFSET UNITYSDK_OFFSET(0xCC50)
-#define RPG_CLIENT_LOOKATTILTDATA_GET_CURRENTYTILT_OFFSET UNITYSDK_OFFSET(0xCC70)
-#define RPG_CLIENT_LOOKATTILTDATA_GET_REALBLENDTIME_OFFSET UNITYSDK_OFFSET(0xD8D70)
-#define RPG_CLIENT_LOOKATTILTDATA_GET_TARGETTILT_OFFSET UNITYSDK_OFFSET(0xCC90)
-#define RPG_CLIENT_LOOKATTILTDATA_GET_TILTCURVE_OFFSET UNITYSDK_OFFSET(0x13C30)
-#define RPG_CLIENT_LOOKATTILTDATA_METHOD_2_1885BB151FF7D3C5_OFFSET UNITYSDK_OFFSET(0xD8DD0)
-#define RPG_CLIENT_LOOKATTILTDATA_METHOD_2_7F6AA98BD4EEC9D6_OFFSET UNITYSDK_OFFSET(0xD8DE0)
-#define RPG_CLIENT_LOOKATTILTDATA_METHOD_2_D259C291033FAF75_OFFSET UNITYSDK_OFFSET(0xD8E70)
-#define RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTTILT_OFFSET UNITYSDK_OFFSET(0xCC60)
-#define RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTYTILT_OFFSET UNITYSDK_OFFSET(0xCC80)
-#define RPG_CLIENT_LOOKATTILTDATA_SET_TARGETTILT_OFFSET UNITYSDK_OFFSET(0xCCA0)
-#define RPG_CLIENT_LOOKATTILTDATA_SET_TILTCURVE_OFFSET UNITYSDK_OFFSET(0xAF80)
+#define RPG_CLIENT_LOOKATTILTDATA_GET_CURRENTTILT_OFFSET UNITYSDK_OFFSET(0xD4D0)
+#define RPG_CLIENT_LOOKATTILTDATA_GET_CURRENTYTILT_OFFSET UNITYSDK_OFFSET(0xD4F0)
+#define RPG_CLIENT_LOOKATTILTDATA_GET_REALBLENDTIME_OFFSET UNITYSDK_OFFSET(0x13D580)
+#define RPG_CLIENT_LOOKATTILTDATA_GET_TARGETTILT_OFFSET UNITYSDK_OFFSET(0xD510)
+#define RPG_CLIENT_LOOKATTILTDATA_GET_TILTCURVE_OFFSET UNITYSDK_OFFSET(0x14410)
+#define RPG_CLIENT_LOOKATTILTDATA_METHOD_2_1885BB151FF7D3C5_OFFSET UNITYSDK_OFFSET(0x13D5E0)
+#define RPG_CLIENT_LOOKATTILTDATA_METHOD_2_7F6AA98BD4EEC9D6_OFFSET UNITYSDK_OFFSET(0x13D5F0)
+#define RPG_CLIENT_LOOKATTILTDATA_METHOD_2_D259C291033FAF75_OFFSET UNITYSDK_OFFSET(0x13D680)
+#define RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTTILT_OFFSET UNITYSDK_OFFSET(0xD4E0)
+#define RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTYTILT_OFFSET UNITYSDK_OFFSET(0xD500)
+#define RPG_CLIENT_LOOKATTILTDATA_SET_TARGETTILT_OFFSET UNITYSDK_OFFSET(0xD520)
+#define RPG_CLIENT_LOOKATTILTDATA_SET_TILTCURVE_OFFSET UNITYSDK_OFFSET(0xB7C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LookAtTiltData_TypeDefinitionIndex = 63139;
+	inline static constexpr unsigned int LookAtTiltData_TypeDefinitionIndex = 64056;
 
 	struct alignas(8) LookAtTiltData
 	{
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_GET_CURRENTTILT_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentTilt(::System::Single value)
+		::System::Void set_CurrentTilt(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTTILT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTTILT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_CurrentYTilt()
@@ -53,9 +53,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_GET_CURRENTYTILT_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentYTilt(::System::Single value)
+		::System::Void set_CurrentYTilt(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTYTILT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTYTILT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_TargetTilt()
@@ -63,9 +63,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_GET_TARGETTILT_OFFSET))(this);
 		}
 
-		::System::Void set_TargetTilt(::System::Single value)
+		::System::Void set_TargetTilt(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_SET_TARGETTILT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_SET_TARGETTILT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::AnimationCurve* get_TiltCurve()
@@ -73,9 +73,9 @@ namespace RPG::Client
 			return ((::UnityEngine::AnimationCurve*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_GET_TILTCURVE_OFFSET))(this);
 		}
 
-		::System::Void set_TiltCurve(::UnityEngine::AnimationCurve* value)
+		::System::Void set_TiltCurve(::UnityEngine::AnimationCurve* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_SET_TILTCURVE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_SET_TILTCURVE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_RealBlendTime()

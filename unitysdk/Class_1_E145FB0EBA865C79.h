@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_3B1EA953A4067E26;
+class Class_1_D234421E04FD5BF4;
+class Class_1_FC4BBA00C18C42A4;
+class Class_2_B66C1067C0468FBB;
+namespace RPG::Client { class ChimeraDuelChimeraData; }
+namespace RPG::Client { class IChimeraDuelSkillData; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_E145FB0EBA865C79_METHOD_1_0A5B5ABCA89D6A9E_OFFSET UNITYSDK_OFFSET(0xAFFB660)
+#define CLASS_1_E145FB0EBA865C79_METHOD_1_1049A79D3D9CCF0C_OFFSET UNITYSDK_OFFSET(0xAFFBA90)
+#define CLASS_1_E145FB0EBA865C79_METHOD_1_69C3017A2BFBA0E1_OFFSET UNITYSDK_OFFSET(0xAFFB8F0)
+#define CLASS_1_E145FB0EBA865C79_METHOD_1_76ACF38E8EC6B272_OFFSET UNITYSDK_OFFSET(0xAFFB280)
+#define CLASS_1_E145FB0EBA865C79_METHOD_1_76BB7D870B7E4C3A_OFFSET UNITYSDK_OFFSET(0xAFFBA10)
+#define CLASS_1_E145FB0EBA865C79_METHOD_1_8E3B5344CD788A79_OFFSET UNITYSDK_OFFSET(0xAFFBB10)
+#define CLASS_1_E145FB0EBA865C79_METHOD_1_DB9702994497C011_OFFSET UNITYSDK_OFFSET(0xAFFB7B0)
+
+inline static constexpr unsigned int Class_1_E145FB0EBA865C79_TypeDefinitionIndex = 71929;
+
+class Class_1_E145FB0EBA865C79 : public ::System::Object
+{
+public:
+	static ::System::String* Method_1_76ACF38E8EC6B272(::Class_2_B66C1067C0468FBB* a1)
+	{
+		return ((::System::String*(*)(::Class_2_B66C1067C0468FBB*))((::PBYTE)hIl2Cpp + CLASS_1_E145FB0EBA865C79_METHOD_1_76ACF38E8EC6B272_OFFSET))(a1);
+	}
+
+	static ::System::String* Method_1_0A5B5ABCA89D6A9E(::Class_2_B66C1067C0468FBB* a1)
+	{
+		return ((::System::String*(*)(::Class_2_B66C1067C0468FBB*))((::PBYTE)hIl2Cpp + CLASS_1_E145FB0EBA865C79_METHOD_1_0A5B5ABCA89D6A9E_OFFSET))(a1);
+	}
+
+	static ::System::String* Method_1_DB9702994497C011(::Class_2_B66C1067C0468FBB* a1)
+	{
+		return ((::System::String*(*)(::Class_2_B66C1067C0468FBB*))((::PBYTE)hIl2Cpp + CLASS_1_E145FB0EBA865C79_METHOD_1_DB9702994497C011_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_1_69C3017A2BFBA0E1(::Class_2_B66C1067C0468FBB* a1)
+	{
+		return ((::System::Boolean(*)(::Class_2_B66C1067C0468FBB*))((::PBYTE)hIl2Cpp + CLASS_1_E145FB0EBA865C79_METHOD_1_69C3017A2BFBA0E1_OFFSET))(a1);
+	}
+
+	static ::RPG::Client::ChimeraDuelChimeraData* Method_1_76BB7D870B7E4C3A(::Class_1_FC4BBA00C18C42A4* a1)
+	{
+		return ((::RPG::Client::ChimeraDuelChimeraData*(*)(::Class_1_FC4BBA00C18C42A4*))((::PBYTE)hIl2Cpp + CLASS_1_E145FB0EBA865C79_METHOD_1_76BB7D870B7E4C3A_OFFSET))(a1);
+	}
+
+	static ::RPG::Client::IChimeraDuelSkillData* Method_1_1049A79D3D9CCF0C(::Class_1_D234421E04FD5BF4* a1)
+	{
+		return ((::RPG::Client::IChimeraDuelSkillData*(*)(::Class_1_D234421E04FD5BF4*))((::PBYTE)hIl2Cpp + CLASS_1_E145FB0EBA865C79_METHOD_1_1049A79D3D9CCF0C_OFFSET))(a1);
+	}
+
+	static ::System::Collections::Generic::List_1<::System::UInt32>* Method_1_8E3B5344CD788A79(::Class_2_B66C1067C0468FBB* a1, ::Class_1_3B1EA953A4067E26* a2)
+	{
+		return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::Class_2_B66C1067C0468FBB*, ::Class_1_3B1EA953A4067E26*))((::PBYTE)hIl2Cpp + CLASS_1_E145FB0EBA865C79_METHOD_1_8E3B5344CD788A79_OFFSET))(a1, a2);
+	}
+};

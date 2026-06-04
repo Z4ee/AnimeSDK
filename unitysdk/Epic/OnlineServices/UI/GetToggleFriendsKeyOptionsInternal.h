@@ -6,25 +6,25 @@ namespace Epic::OnlineServices::UI { class GetToggleFriendsKeyOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x20150)
-#define EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
+#define EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x20B10)
+#define EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1EB0)
 
 namespace Epic::OnlineServices::UI
 {
-	inline static constexpr unsigned int GetToggleFriendsKeyOptionsInternal_TypeDefinitionIndex = 41132;
+	inline static constexpr unsigned int GetToggleFriendsKeyOptionsInternal_TypeDefinitionIndex = 41935;
 
 	struct alignas(4) GetToggleFriendsKeyOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 
-		::System::Void Set(::Epic::OnlineServices::UI::GetToggleFriendsKeyOptions* other)
+		::System::Void Set(::Epic::OnlineServices::UI::GetToggleFriendsKeyOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UI::GetToggleFriendsKeyOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UI::GetToggleFriendsKeyOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

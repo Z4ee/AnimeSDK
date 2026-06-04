@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_EFFECTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xB8BFE50)
+#define RPGTOOLS_TIMELINE_EFFECTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xD0032F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EffectParameter_TypeDefinitionIndex = 45145;
+	inline static constexpr unsigned int EffectParameter_TypeDefinitionIndex = 45693;
 
 	class EffectParameter : public ::System::Object
 	{

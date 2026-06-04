@@ -6,16 +6,16 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_5BDCCAF28C3D308E_OFFSET UNITYSDK_OFFSET(0xABF93E0)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_A49AB36D595249BF_OFFSET UNITYSDK_OFFSET(0xABF9C30)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_A67EAA4D4BE9011F_OFFSET UNITYSDK_OFFSET(0xABF92B0)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_A770233E6C6576B2_OFFSET UNITYSDK_OFFSET(0xABF9060)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xABF9CA0)
-#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABF8FC0)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_5E2D301A84AC8100_OFFSET UNITYSDK_OFFSET(0xC306A20)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_A49AB36D595249BF_OFFSET UNITYSDK_OFFSET(0xC307460)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_A770233E6C6576B2_OFFSET UNITYSDK_OFFSET(0xC3067D0)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_BC7E7654B9B6C1E2_OFFSET UNITYSDK_OFFSET(0xC306BC0)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xC3074D0)
+#define RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC306730)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int OfflineCullingCellSubData_TypeDefinitionIndex = 67889;
+	inline static constexpr unsigned int OfflineCullingCellSubData_TypeDefinitionIndex = 68847;
 
 	class OfflineCullingCellSubData : public ::System::Object
 	{
@@ -29,14 +29,14 @@ namespace RPG::Client::OpenWorld
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_A67EAA4D4BE9011F(::RPG::Client::OpenWorld::OfflineCullingCellSubData* a1)
+		::System::Boolean Method_1_5E2D301A84AC8100(::RPG::Client::OpenWorld::OfflineCullingCellSubData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::OpenWorld::OfflineCullingCellSubData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_A67EAA4D4BE9011F_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::OpenWorld::OfflineCullingCellSubData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_5E2D301A84AC8100_OFFSET))(this, a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Int32>* Method_1_5BDCCAF28C3D308E(::System::Collections::Generic::IEnumerable_1<::System::Int32>* a1, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a2)
+		static ::System::Collections::Generic::List_1<::System::Int32>* Method_1_BC7E7654B9B6C1E2(::System::Collections::Generic::IEnumerable_1<::System::Int32>* a1, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_5BDCCAF28C3D308E_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OFFLINECULLINGCELLSUBDATA_METHOD_1_BC7E7654B9B6C1E2_OFFSET))(a1, a2);
 		}
 
 		::System::Void Method_1_A770233E6C6576B2(::System::Collections::Generic::IEnumerable_1<::System::Int32>* a1, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a2, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a3)

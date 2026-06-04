@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class VCameraVector3ChangeParam; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_3_7C65529CEEBE6D95_METHOD_3_5DA7E6E6484000DA_OFFSET UNITYSDK_OFFSET(0x9A59610)
-#define CLASS_3_7C65529CEEBE6D95_METHOD_3_6386D036D69129C5_OFFSET UNITYSDK_OFFSET(0x9A599A0)
-#define CLASS_3_7C65529CEEBE6D95_METHOD_3_E84DC0CD0CFA9FB0_OFFSET UNITYSDK_OFFSET(0x9A59380)
-#define CLASS_3_7C65529CEEBE6D95_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9A58460)
-#define CLASS_3_7C65529CEEBE6D95__CTOR_OFFSET UNITYSDK_OFFSET(0x9A58410)
+#define CLASS_3_7C65529CEEBE6D95_METHOD_3_5DA7E6E6484000DA_OFFSET UNITYSDK_OFFSET(0x144454A0)
+#define CLASS_3_7C65529CEEBE6D95_METHOD_3_6386D036D69129C5_OFFSET UNITYSDK_OFFSET(0x14445830)
+#define CLASS_3_7C65529CEEBE6D95_METHOD_3_F25E77D6D86538C0_OFFSET UNITYSDK_OFFSET(0x144451F0)
+#define CLASS_3_7C65529CEEBE6D95_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x144442E0)
+#define CLASS_3_7C65529CEEBE6D95__CTOR_OFFSET UNITYSDK_OFFSET(0x14444290)
 
-inline static constexpr unsigned int Class_3_7C65529CEEBE6D95_TypeDefinitionIndex = 50592;
+inline static constexpr unsigned int Class_3_7C65529CEEBE6D95_TypeDefinitionIndex = 51259;
 
 class Class_3_7C65529CEEBE6D95 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureCameraLookAt*>
 {
@@ -31,9 +31,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_7C65529CEEBE6D95_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	static ::UnityEngine::GameObject* Method_3_E84DC0CD0CFA9FB0(::RPG::GameCore::AdventureCameraLookAt* a1, ::RPG::GameCore::TaskContext* a2)
+	static ::UnityEngine::GameObject* Method_3_F25E77D6D86538C0(::RPG::GameCore::AdventureCameraLookAt* a1, ::RPG::GameCore::TaskContext* a2)
 	{
-		return ((::UnityEngine::GameObject*(*)(::RPG::GameCore::AdventureCameraLookAt*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_3_7C65529CEEBE6D95_METHOD_3_E84DC0CD0CFA9FB0_OFFSET))(a1, a2);
+		return ((::UnityEngine::GameObject*(*)(::RPG::GameCore::AdventureCameraLookAt*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_3_7C65529CEEBE6D95_METHOD_3_F25E77D6D86538C0_OFFSET))(a1, a2);
 	}
 
 	static ::UnityEngine::Vector3 Method_3_6386D036D69129C5(::RPG::GameCore::AdventureCameraLookAt* a1, ::UnityEngine::GameObject* a2)

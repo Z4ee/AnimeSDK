@@ -7,12 +7,12 @@ namespace RPG::GameCore { class FreeStyleAnimEventEntry; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLEANIMGROUPEVENTCONFIG_METHOD_2_DAFE0E2DF0F37EB8_OFFSET UNITYSDK_OFFSET(0x18931B20)
-#define RPG_GAMECORE_FREESTYLEANIMGROUPEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18931D70)
+#define RPG_GAMECORE_FREESTYLEANIMGROUPEVENTCONFIG_METHOD_2_AE60E12A19BC3D0B_OFFSET UNITYSDK_OFFSET(0x1976CD10)
+#define RPG_GAMECORE_FREESTYLEANIMGROUPEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1976CF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleAnimGroupEventConfig_TypeDefinitionIndex = 15425;
+	inline static constexpr unsigned int FreeStyleAnimGroupEventConfig_TypeDefinitionIndex = 15488;
 
 	class FreeStyleAnimGroupEventConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLEANIMGROUPEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DAFE0E2DF0F37EB8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleAnimGroupEventConfig*& a2)
+		static ::System::Void Method_2_AE60E12A19BC3D0B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleAnimGroupEventConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleAnimGroupEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLEANIMGROUPEVENTCONFIG_METHOD_2_DAFE0E2DF0F37EB8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleAnimGroupEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLEANIMGROUPEVENTCONFIG_METHOD_2_AE60E12A19BC3D0B_OFFSET))(a1, a2);
 		}
 	};
 }

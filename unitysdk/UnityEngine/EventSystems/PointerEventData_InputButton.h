@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int PointerEventData_InputButton_TypeDefinitionIndex = 5786;
+	inline static constexpr unsigned int PointerEventData_InputButton_TypeDefinitionIndex = 6063;
 
 	enum class PointerEventData_InputButton : ::System::Int32
 	{

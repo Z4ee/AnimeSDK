@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimationEventSource_TypeDefinitionIndex = 5061;
+	inline static constexpr unsigned int AnimationEventSource_TypeDefinitionIndex = 5155;
 
 	enum class AnimationEventSource : ::System::Int32
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGHPMEMORYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17EE8D90)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGHPMEMORYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18CCCDE0)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingHPMemoryInfo_TypeDefinitionIndex = 39508;
+	inline static constexpr unsigned int ChenLingHPMemoryInfo_TypeDefinitionIndex = 40331;
 
 	class ChenLingHPMemoryInfo : public ::System::Object
 	{

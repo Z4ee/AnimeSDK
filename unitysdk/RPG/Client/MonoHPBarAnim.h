@@ -6,17 +6,17 @@ namespace RPG::Client { class HPBar; }
 namespace System { template <typename T> class Action_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOHPBARANIM_ADDTWEENHANDLER_OFFSET UNITYSDK_OFFSET(0xA9C8F80)
-#define RPG_CLIENT_MONOHPBARANIM_SETVALUEWITHTWEEN_OFFSET UNITYSDK_OFFSET(0xA9C8D00)
-#define RPG_CLIENT_MONOHPBARANIM_SETVALUE_OFFSET UNITYSDK_OFFSET(0xA9C8DB0)
-#define RPG_CLIENT_MONOHPBARANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9C8FE0)
-#define RPG_CLIENT_MONOHPBARANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xA9C92E0)
-#define RPG_CLIENT_MONOHPBARANIM__INVOKETWEENHANDLER_OFFSET UNITYSDK_OFFSET(0xA9C9280)
-#define RPG_CLIENT_MONOHPBARANIM__SETFILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xA9C8EB0)
+#define RPG_CLIENT_MONOHPBARANIM_ADDTWEENHANDLER_OFFSET UNITYSDK_OFFSET(0xC117050)
+#define RPG_CLIENT_MONOHPBARANIM_SETVALUEWITHTWEEN_OFFSET UNITYSDK_OFFSET(0xC116DB0)
+#define RPG_CLIENT_MONOHPBARANIM_SETVALUE_OFFSET UNITYSDK_OFFSET(0xC116E60)
+#define RPG_CLIENT_MONOHPBARANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xC1170B0)
+#define RPG_CLIENT_MONOHPBARANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xC1173C0)
+#define RPG_CLIENT_MONOHPBARANIM__INVOKETWEENHANDLER_OFFSET UNITYSDK_OFFSET(0xC117360)
+#define RPG_CLIENT_MONOHPBARANIM__SETFILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xC116F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoHPBarAnim_TypeDefinitionIndex = 66873;
+	inline static constexpr unsigned int MonoHPBarAnim_TypeDefinitionIndex = 67813;
 
 	class MonoHPBarAnim : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,19 +35,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetValueWithTween(::System::Single value, ::System::Single duration, ::System::Single delay)
+		::System::Void SetValueWithTween(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM_SETVALUEWITHTWEEN_OFFSET))(this, value, duration, delay);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM_SETVALUEWITHTWEEN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetValue(::System::Single value)
+		::System::Void SetValue(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM_SETVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM_SETVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddTweenHandler(::System::Action_1<::XLua::LuaTable*>* handler, ::XLua::LuaTable* luaTable)
+		::System::Void AddTweenHandler(::System::Action_1<::XLua::LuaTable*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM_ADDTWEENHANDLER_OFFSET))(this, handler, luaTable);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM_ADDTWEENHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Update()
@@ -55,9 +55,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void _SetFillAmount(::System::Single value)
+		::System::Void _SetFillAmount(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM__SETFILLAMOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOHPBARANIM__SETFILLAMOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Void _InvokeTweenHandler()

@@ -7,7 +7,7 @@ namespace Google::Protobuf { template <typename T> class FieldCodec_1___c; }
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec_1___c_TypeDefinitionIndex = 6187;
+	inline static constexpr unsigned int FieldCodec_1___c_TypeDefinitionIndex = 5389;
 
 	template <typename T>
 	class FieldCodec_1___c : public ::System::Object

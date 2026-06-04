@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8C84370)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8C843A0)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x8C6D0E0)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x8C84350)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17F067F0)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17F06820)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17EF09A0)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17F06780)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HoudiniAsset_UpdateUIDelegate_TypeDefinitionIndex = 43502;
+	inline static constexpr unsigned int HEU_HoudiniAsset_UpdateUIDelegate_TypeDefinitionIndex = 37432;
 
 	class HEU_HoudiniAsset_UpdateUIDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -28,14 +28,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_UPDATEUIDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

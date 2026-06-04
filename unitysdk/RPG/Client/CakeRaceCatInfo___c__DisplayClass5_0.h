@@ -5,12 +5,12 @@
 namespace RPG::Client { class CakeRaceCatDataItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACECATINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EF5970)
-#define RPG_CLIENT_CAKERACECATINFO___C__DISPLAYCLASS5_0__GETRANDOMCATDATAS_B__0_OFFSET UNITYSDK_OFFSET(0x9EF5980)
+#define RPG_CLIENT_CAKERACECATINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB492570)
+#define RPG_CLIENT_CAKERACECATINFO___C__DISPLAYCLASS5_0__GETRANDOMCATDATAS_B__0_OFFSET UNITYSDK_OFFSET(0xB492580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceCatInfo___c__DisplayClass5_0_TypeDefinitionIndex = 58050;
+	inline static constexpr unsigned int CakeRaceCatInfo___c__DisplayClass5_0_TypeDefinitionIndex = 58966;
 
 	class CakeRaceCatInfo___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACECATINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetRandomCatDatas_b__0(::RPG::Client::CakeRaceCatDataItem* cat)
+		::System::Boolean _GetRandomCatDatas_b__0(::RPG::Client::CakeRaceCatDataItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CakeRaceCatDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACECATINFO___C__DISPLAYCLASS5_0__GETRANDOMCATDATAS_B__0_OFFSET))(this, cat);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CakeRaceCatDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACECATINFO___C__DISPLAYCLASS5_0__GETRANDOMCATDATAS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

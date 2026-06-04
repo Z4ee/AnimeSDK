@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEX_GAMEVARIABLEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16221A0)
-#define CRIWARE_CRIATOMEX_GAMEVARIABLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1622190)
+#define CRIWARE_CRIATOMEX_GAMEVARIABLEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2BD23D0)
+#define CRIWARE_CRIATOMEX_GAMEVARIABLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD23C0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_GameVariableInfo_TypeDefinitionIndex = 36717;
+	inline static constexpr unsigned int CriAtomEx_GameVariableInfo_TypeDefinitionIndex = 37017;
 
 	struct alignas(8) CriAtomEx_GameVariableInfo
 	{
@@ -17,14 +17,14 @@ namespace CriWare
 		::System::UInt32 id; // 0x18
 		::System::Single gameValue; // 0x1C
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* data, ::System::Int32 startIndex)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_GAMEVARIABLEINFO__CTOR_OFFSET))(this, data, startIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_GAMEVARIABLEINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::String* name, ::System::UInt32 id, ::System::Single gameValue)
+		::System::Void _ctor_1(::System::String* a1, ::System::UInt32 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_GAMEVARIABLEINFO__CTOR_1_OFFSET))(this, name, id, gameValue);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_GAMEVARIABLEINFO__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

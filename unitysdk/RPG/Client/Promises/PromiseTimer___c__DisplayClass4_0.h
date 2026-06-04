@@ -5,12 +5,12 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180F6740)
-#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS4_0__WAITWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x180F6C90)
+#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E99570)
+#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS4_0__WAITWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x18E99AD0)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int PromiseTimer___c__DisplayClass4_0_TypeDefinitionIndex = 8654;
+	inline static constexpr unsigned int PromiseTimer___c__DisplayClass4_0_TypeDefinitionIndex = 9557;
 
 	class PromiseTimer___c__DisplayClass4_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::Promises
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _WaitWhile_b__0(::RPG::Client::Promises::TimeData t)
+		::System::Boolean _WaitWhile_b__0(::RPG::Client::Promises::TimeData a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Promises::TimeData))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS4_0__WAITWHILE_B__0_OFFSET))(this, t);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Promises::TimeData))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS4_0__WAITWHILE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

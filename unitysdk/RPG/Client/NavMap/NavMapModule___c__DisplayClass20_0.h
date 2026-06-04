@@ -10,31 +10,31 @@ namespace RPG::Client::NavMap { class UniverseData; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAB66730)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__GETCARTOGRAPHERMAPPINGINFOIDIN_B__0_OFFSET UNITYSDK_OFFSET(0xAB6DF10)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC27A8C0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__GETCARTOGRAPHERMAPPINGINFOIDIN_B__0_OFFSET UNITYSDK_OFFSET(0xC27A8D0)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int NavMapModule___c__DisplayClass20_0_TypeDefinitionIndex = 68861;
+	inline static constexpr unsigned int NavMapModule___c__DisplayClass20_0_TypeDefinitionIndex = 69673;
 
 	class NavMapModule___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::NavMap::SubTabData* subTab; // 0x10
-		::RPG::Client::NavMap::UniverseData* universe; // 0x18
-		::RPG::Client::NavMap::NavMapModule* __4__this; // 0x20
-		::System::UInt32 floorID; // 0x28
+		::RPG::Client::NavMap::UniverseData* universe; // 0x10
+		::RPG::Client::NavMap::NavMapModule* __4__this; // 0x18
+		::RPG::Client::NavMap::SubTabData* subTab; // 0x20
+		::System::UInt32 groupID; // 0x28
 		::System::UInt32 mappingInfoID; // 0x2C
-		::System::UInt32 groupID; // 0x30
+		::System::UInt32 floorID; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>* _GetCartographerMappingInfoIDIn_b__0(::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>* x)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>* _GetCartographerMappingInfoIDIn_b__0(::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__GETCARTOGRAPHERMAPPINGINFOIDIN_B__0_OFFSET))(this, x);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__GETCARTOGRAPHERMAPPINGINFOIDIN_B__0_OFFSET))(this, a1);
 		}
 	};
 }

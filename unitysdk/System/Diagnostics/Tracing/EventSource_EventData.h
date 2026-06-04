@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_GET_DATAPOINTER_OFFSET UNITYSDK_OFFSET(0x5580)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SETMETADATA_OFFSET UNITYSDK_OFFSET(0x22A7530)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SET_DATAPOINTER_OFFSET UNITYSDK_OFFSET(0xBDC0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SET_SIZE_OFFSET UNITYSDK_OFFSET(0xD250)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_GET_DATAPOINTER_OFFSET UNITYSDK_OFFSET(0x5B60)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SETMETADATA_OFFSET UNITYSDK_OFFSET(0x3837600)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SET_DATAPOINTER_OFFSET UNITYSDK_OFFSET(0xC630)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SET_SIZE_OFFSET UNITYSDK_OFFSET(0xDAE0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventSource_EventData_TypeDefinitionIndex = 1654;
+	inline static constexpr unsigned int EventSource_EventData_TypeDefinitionIndex = 1652;
 
 	struct alignas(8) EventSource_EventData
 	{
@@ -22,19 +22,19 @@ namespace System::Diagnostics::Tracing
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_GET_DATAPOINTER_OFFSET))(this);
 		}
 
-		::System::Void set_DataPointer(::System::IntPtr value)
+		::System::Void set_DataPointer(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SET_DATAPOINTER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SET_DATAPOINTER_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Size(::System::Int32 value)
+		::System::Void set_Size(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SET_SIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SET_SIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetMetadata(::System::Byte* pointer, ::System::Int32 size, ::System::Int32 reserved)
+		::System::Void SetMetadata(::System::Byte* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SETMETADATA_OFFSET))(this, pointer, size, reserved);
+			return ((::System::Void(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_EVENTDATA_SETMETADATA_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetEffectFrameCaptureMatTex; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9C3E0D2E2244CC14_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1242F6F0)
-#define CLASS_3_9C3E0D2E2244CC14__CTOR_OFFSET UNITYSDK_OFFSET(0x1242F6C0)
+#define CLASS_3_9C3E0D2E2244CC14_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14217D60)
+#define CLASS_3_9C3E0D2E2244CC14__CTOR_OFFSET UNITYSDK_OFFSET(0x14217D30)
 
-inline static constexpr unsigned int Class_3_9C3E0D2E2244CC14_TypeDefinitionIndex = 51162;
+inline static constexpr unsigned int Class_3_9C3E0D2E2244CC14_TypeDefinitionIndex = 51832;
 
 class Class_3_9C3E0D2E2244CC14 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEffectFrameCaptureMatTex*>
 {

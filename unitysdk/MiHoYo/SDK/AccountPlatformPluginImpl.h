@@ -6,25 +6,25 @@ namespace MiHoYo::SDK { class AccountPlatformPlugin_Notification; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_CONFIGSYNCWITHNATIVE_OFFSET UNITYSDK_OFFSET(0x8CE2620)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_ENABLENATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x8CE2710)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x8CE2520)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_INVOKERETURN_OFFSET UNITYSDK_OFFSET(0x8CE26C0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_INVOKE_OFFSET UNITYSDK_OFFSET(0x8CE25C0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_REGISTERNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x8CE2670)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x8CE25B0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x8CE2580)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_CONFIGSYNCWITHNATIVE_OFFSET UNITYSDK_OFFSET(0xA13D100)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_ENABLENATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0xA13D1F0)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xA13D000)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_INVOKERETURN_OFFSET UNITYSDK_OFFSET(0xA13D1A0)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_INVOKE_OFFSET UNITYSDK_OFFSET(0xA13D0A0)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_REGISTERNOTIFICATION_OFFSET UNITYSDK_OFFSET(0xA13D150)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xA13D090)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0xA13D060)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatformPluginImpl_TypeDefinitionIndex = 42688;
+	inline static constexpr unsigned int AccountPlatformPluginImpl_TypeDefinitionIndex = 43491;
 
 	class AccountPlatformPluginImpl : public ::MiHoYo::SDK::AccountPlatformPlugin
 	{
 	public:
 		static ::MiHoYo::SDK::AccountPlatformPluginImpl** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::AccountPlatformPluginImpl**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatformPluginImpl_TypeDefinitionIndex)->GetStaticField(0x45AC0);
+			return (::MiHoYo::SDK::AccountPlatformPluginImpl**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatformPluginImpl_TypeDefinitionIndex)->GetStaticField(0xA7F0);
 		}
 
 		::System::Void _ctor()
@@ -37,34 +37,34 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::AccountPlatformPluginImpl*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_GET_INSTANCE_OFFSET))();
 		}
 
-		static ::System::Void set_Instance(::MiHoYo::SDK::AccountPlatformPluginImpl* value)
+		static ::System::Void set_Instance(::MiHoYo::SDK::AccountPlatformPluginImpl* a1)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::AccountPlatformPluginImpl*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_SET_INSTANCE_OFFSET))(value);
+			return ((::System::Void(*)(::MiHoYo::SDK::AccountPlatformPluginImpl*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_SET_INSTANCE_OFFSET))(a1);
 		}
 
-		::System::Void Invoke(::System::String* funcName, ::System::String* args, ::System::Action_1<::System::String*>* callback)
+		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_INVOKE_OFFSET))(this, funcName, args, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ConfigSyncWithNative(::System::String* type, ::System::String* config)
+		::System::Void ConfigSyncWithNative(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_CONFIGSYNCWITHNATIVE_OFFSET))(this, type, config);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_CONFIGSYNCWITHNATIVE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterNotification(::MiHoYo::SDK::AccountPlatformPlugin_Notification* notification)
+		::System::Void RegisterNotification(::MiHoYo::SDK::AccountPlatformPlugin_Notification* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountPlatformPlugin_Notification*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_REGISTERNOTIFICATION_OFFSET))(this, notification);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountPlatformPlugin_Notification*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_REGISTERNOTIFICATION_OFFSET))(this, a1);
 		}
 
-		::System::String* InvokeReturn(::System::String* funcName, ::System::String* args)
+		::System::String* InvokeReturn(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_INVOKERETURN_OFFSET))(this, funcName, args);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_INVOKERETURN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EnableNativeHandle(::System::Boolean enable)
+		::System::Void EnableNativeHandle(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_ENABLENATIVEHANDLE_OFFSET))(this, enable);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGINIMPL_ENABLENATIVEHANDLE_OFFSET))(this, a1);
 		}
 	};
 }

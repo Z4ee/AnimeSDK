@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConflictType_TypeDefinitionIndex = 56121;
+	inline static constexpr unsigned int ConflictType_TypeDefinitionIndex = 56883;
 
 	enum class ConflictType : ::System::Int32
 	{

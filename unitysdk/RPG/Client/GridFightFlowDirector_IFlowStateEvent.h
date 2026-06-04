@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_IFlowStateEvent_TypeDefinitionIndex = 59426;
+	inline static constexpr unsigned int GridFightFlowDirector_IFlowStateEvent_TypeDefinitionIndex = 60361;
 
 	class GridFightFlowDirector_IFlowStateEvent
 	{

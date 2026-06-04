@@ -7,13 +7,13 @@ namespace UnityEngine { class GUIContent; }
 namespace UnityEngine { class GUILayoutOption; }
 namespace UnityEngine { class GUIStyle; }
 
-#define UNITYENGINE_GUIGRIDSIZER_GETRECT_OFFSET UNITYSDK_OFFSET(0x1A4AB7E0)
-#define UNITYENGINE_GUIGRIDSIZER_GET_ROWS_OFFSET UNITYSDK_OFFSET(0x1A4AC9D0)
-#define UNITYENGINE_GUIGRIDSIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4AB980)
+#define UNITYENGINE_GUIGRIDSIZER_GETRECT_OFFSET UNITYSDK_OFFSET(0x1B2F9FA0)
+#define UNITYENGINE_GUIGRIDSIZER_GET_ROWS_OFFSET UNITYSDK_OFFSET(0x1B2FB260)
+#define UNITYENGINE_GUIGRIDSIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2FA1A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIGridSizer_TypeDefinitionIndex = 5139;
+	inline static constexpr unsigned int GUIGridSizer_TypeDefinitionIndex = 5233;
 
 	class GUIGridSizer : public ::UnityEngine::GUILayoutEntry
 	{
@@ -25,14 +25,14 @@ namespace UnityEngine
 		::System::Single m_MinButtonHeight; // 0x58
 		::System::Single m_MaxButtonHeight; // 0x5C
 
-		::System::Void _ctor(::Il2CppArray<::UnityEngine::GUIContent*>* contents, ::System::Int32 xCount, ::UnityEngine::GUIStyle* buttonStyle, ::Il2CppArray<::UnityEngine::GUILayoutOption*>* options)
+		::System::Void _ctor(::Il2CppArray<::UnityEngine::GUIContent*>* a1, ::System::Int32 a2, ::UnityEngine::GUIStyle* a3, ::Il2CppArray<::UnityEngine::GUILayoutOption*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GUIContent*>*, ::System::Int32, ::UnityEngine::GUIStyle*, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUIGRIDSIZER__CTOR_OFFSET))(this, contents, xCount, buttonStyle, options);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GUIContent*>*, ::System::Int32, ::UnityEngine::GUIStyle*, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUIGRIDSIZER__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Rect GetRect(::Il2CppArray<::UnityEngine::GUIContent*>* contents, ::System::Int32 xCount, ::UnityEngine::GUIStyle* style, ::Il2CppArray<::UnityEngine::GUILayoutOption*>* options)
+		static ::UnityEngine::Rect GetRect(::Il2CppArray<::UnityEngine::GUIContent*>* a1, ::System::Int32 a2, ::UnityEngine::GUIStyle* a3, ::Il2CppArray<::UnityEngine::GUILayoutOption*>* a4)
 		{
-			return ((::UnityEngine::Rect(*)(::Il2CppArray<::UnityEngine::GUIContent*>*, ::System::Int32, ::UnityEngine::GUIStyle*, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUIGRIDSIZER_GETRECT_OFFSET))(contents, xCount, style, options);
+			return ((::UnityEngine::Rect(*)(::Il2CppArray<::UnityEngine::GUIContent*>*, ::System::Int32, ::UnityEngine::GUIStyle*, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUIGRIDSIZER_GETRECT_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_rows()

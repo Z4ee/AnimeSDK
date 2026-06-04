@@ -4,19 +4,19 @@
 
 namespace System::Collections { class IEnumerator; }
 
-#define SRDEBUGGER_INTERNAL_BUGREPORTSCREENSHOTUTIL_SCREENSHOTCAPTURECO_OFFSET UNITYSDK_OFFSET(0x19E6D940)
-#define SRDEBUGGER_INTERNAL_BUGREPORTSCREENSHOTUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6D990)
+#define SRDEBUGGER_INTERNAL_BUGREPORTSCREENSHOTUTIL_SCREENSHOTCAPTURECO_OFFSET UNITYSDK_OFFSET(0x1ACE40D0)
+#define SRDEBUGGER_INTERNAL_BUGREPORTSCREENSHOTUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE4120)
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int BugReportScreenshotUtil_TypeDefinitionIndex = 35466;
+	inline static constexpr unsigned int BugReportScreenshotUtil_TypeDefinitionIndex = 35766;
 
 	class BugReportScreenshotUtil : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_ScreenshotData()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(BugReportScreenshotUtil_TypeDefinitionIndex)->GetStaticField(0x683F0);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(BugReportScreenshotUtil_TypeDefinitionIndex)->GetStaticField(0x634E0);
 		}
 
 		::System::Void _ctor()

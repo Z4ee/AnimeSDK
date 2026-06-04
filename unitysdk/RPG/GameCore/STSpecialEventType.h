@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int STSpecialEventType_TypeDefinitionIndex = 19061;
+	inline static constexpr unsigned int STSpecialEventType_TypeDefinitionIndex = 23135;
 
 	enum class STSpecialEventType : ::System::Int32
 	{

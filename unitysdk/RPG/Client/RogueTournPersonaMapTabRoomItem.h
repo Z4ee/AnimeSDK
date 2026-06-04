@@ -6,17 +6,17 @@
 
 namespace RPG::Client { class IRogueTournPersonaGameLevelRoom; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xB0F5E50)
-#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xB0F5E00)
-#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_GET_ROOMDATA_OFFSET UNITYSDK_OFFSET(0xB0F5E10)
-#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_GET_ROOMSTATUS_OFFSET UNITYSDK_OFFSET(0xB0F5E30)
-#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_SET_ROOMDATA_OFFSET UNITYSDK_OFFSET(0xB0F5E20)
-#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_SET_ROOMSTATUS_OFFSET UNITYSDK_OFFSET(0xB0F5E40)
-#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB0F5EE0)
+#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xC8485F0)
+#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xC8485A0)
+#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_GET_ROOMDATA_OFFSET UNITYSDK_OFFSET(0xC8485B0)
+#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_GET_ROOMSTATUS_OFFSET UNITYSDK_OFFSET(0xC8485D0)
+#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_SET_ROOMDATA_OFFSET UNITYSDK_OFFSET(0xC8485C0)
+#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_SET_ROOMSTATUS_OFFSET UNITYSDK_OFFSET(0xC8485E0)
+#define RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC848680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaMapTabRoomItem_TypeDefinitionIndex = 67164;
+	inline static constexpr unsigned int RogueTournPersonaMapTabRoomItem_TypeDefinitionIndex = 68107;
 
 	class RogueTournPersonaMapTabRoomItem : public ::System::Object
 	{
@@ -39,9 +39,9 @@ namespace RPG::Client
 			return ((::RPG::Client::IRogueTournPersonaGameLevelRoom*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_GET_ROOMDATA_OFFSET))(this);
 		}
 
-		::System::Void set_RoomData(::RPG::Client::IRogueTournPersonaGameLevelRoom* value)
+		::System::Void set_RoomData(::RPG::Client::IRogueTournPersonaGameLevelRoom* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IRogueTournPersonaGameLevelRoom*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_SET_ROOMDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IRogueTournPersonaGameLevelRoom*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_SET_ROOMDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RogueTournPersonaMapTabRoomStatus get_RoomStatus()
@@ -49,14 +49,14 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueTournPersonaMapTabRoomStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_GET_ROOMSTATUS_OFFSET))(this);
 		}
 
-		::System::Void set_RoomStatus(::RPG::Client::RogueTournPersonaMapTabRoomStatus value)
+		::System::Void set_RoomStatus(::RPG::Client::RogueTournPersonaMapTabRoomStatus a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournPersonaMapTabRoomStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_SET_ROOMSTATUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournPersonaMapTabRoomStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_SET_ROOMSTATUS_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::RogueTournPersonaMapTabRoomItem* Create(::RPG::Client::IRogueTournPersonaGameLevelRoom* room, ::RPG::Client::RogueTournPersonaMapTabRoomStatus status)
+		static ::RPG::Client::RogueTournPersonaMapTabRoomItem* Create(::RPG::Client::IRogueTournPersonaGameLevelRoom* a1, ::RPG::Client::RogueTournPersonaMapTabRoomStatus a2)
 		{
-			return ((::RPG::Client::RogueTournPersonaMapTabRoomItem*(*)(::RPG::Client::IRogueTournPersonaGameLevelRoom*, ::RPG::Client::RogueTournPersonaMapTabRoomStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_CREATE_OFFSET))(room, status);
+			return ((::RPG::Client::RogueTournPersonaMapTabRoomItem*(*)(::RPG::Client::IRogueTournPersonaGameLevelRoom*, ::RPG::Client::RogueTournPersonaMapTabRoomStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAMAPTABROOMITEM_CREATE_OFFSET))(a1, a2);
 		}
 	};
 }

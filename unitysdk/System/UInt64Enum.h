@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int UInt64Enum_TypeDefinitionIndex = 397;
+	inline static constexpr unsigned int UInt64Enum_TypeDefinitionIndex = 396;
 
 	enum class UInt64Enum : ::System::UInt64
 	{

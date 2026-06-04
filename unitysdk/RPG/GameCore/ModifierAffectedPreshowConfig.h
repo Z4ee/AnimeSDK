@@ -8,12 +8,12 @@ namespace RPG::GameCore { class ActionDelayPreshowConfig; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFIERAFFECTEDPRESHOWCONFIG_METHOD_2_3118456B80A4D68E_OFFSET UNITYSDK_OFFSET(0x18B322A0)
-#define RPG_GAMECORE_MODIFIERAFFECTEDPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B32590)
+#define RPG_GAMECORE_MODIFIERAFFECTEDPRESHOWCONFIG_METHOD_2_D2C6137E74341612_OFFSET UNITYSDK_OFFSET(0x1994A540)
+#define RPG_GAMECORE_MODIFIERAFFECTEDPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1994A7F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierAffectedPreshowConfig_TypeDefinitionIndex = 17272;
+	inline static constexpr unsigned int ModifierAffectedPreshowConfig_TypeDefinitionIndex = 17279;
 
 	class ModifierAffectedPreshowConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERAFFECTEDPRESHOWCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3118456B80A4D68E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierAffectedPreshowConfig*& a2)
+		static ::System::Void Method_2_D2C6137E74341612(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierAffectedPreshowConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierAffectedPreshowConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERAFFECTEDPRESHOWCONFIG_METHOD_2_3118456B80A4D68E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierAffectedPreshowConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERAFFECTEDPRESHOWCONFIG_METHOD_2_D2C6137E74341612_OFFSET))(a1, a2);
 		}
 	};
 }

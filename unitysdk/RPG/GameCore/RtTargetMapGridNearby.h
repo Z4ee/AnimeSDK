@@ -6,14 +6,17 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_RTTARGETMAPGRIDNEARBY_METHOD_3_042D5DB799A8EACD_OFFSET UNITYSDK_OFFSET(0x18DDA910)
-#define RPG_GAMECORE_RTTARGETMAPGRIDNEARBY_METHOD_3_DA84216489C95BD9_OFFSET UNITYSDK_OFFSET(0x18DDAAC0)
-#define RPG_GAMECORE_RTTARGETMAPGRIDNEARBY__CTOR_OFFSET UNITYSDK_OFFSET(0x18DDAA10)
+#define RPG_GAMECORE_RTTARGETMAPGRIDNEARBY_METHOD_3_042D5DB799A8EACD_OFFSET UNITYSDK_OFFSET(0x19BF66E0)
+#define RPG_GAMECORE_RTTARGETMAPGRIDNEARBY_METHOD_3_B63FE037D4ABBCA0_OFFSET UNITYSDK_OFFSET(0x19BF6BB0)
+#define RPG_GAMECORE_RTTARGETMAPGRIDNEARBY_METHOD_3_BE935820C27CB3B8_OFFSET UNITYSDK_OFFSET(0x19BF6AB0)
+#define RPG_GAMECORE_RTTARGETMAPGRIDNEARBY_METHOD_3_DA84216489C95BD9_OFFSET UNITYSDK_OFFSET(0x19BF6890)
+#define RPG_GAMECORE_RTTARGETMAPGRIDNEARBY__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF67E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtTargetMapGridNearby_TypeDefinitionIndex = 23264;
+	inline static constexpr unsigned int RtTargetMapGridNearby_TypeDefinitionIndex = 22932;
 
 	class RtTargetMapGridNearby : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -37,6 +40,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_DA84216489C95BD9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetMapGridNearby* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetMapGridNearby*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPGRIDNEARBY_METHOD_3_DA84216489C95BD9_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_BE935820C27CB3B8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetMapGridNearby*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetMapGridNearby*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPGRIDNEARBY_METHOD_3_BE935820C27CB3B8_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_B63FE037D4ABBCA0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetMapGridNearby* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetMapGridNearby*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPGRIDNEARBY_METHOD_3_B63FE037D4ABBCA0_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class CharacterFaceExpressionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONMAPPINGCONFIG_METHOD_2_688F88D73EE77492_OFFSET UNITYSDK_OFFSET(0x187D1520)
-#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187D15F0)
+#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONMAPPINGCONFIG_METHOD_2_500161B55037D8A8_OFFSET UNITYSDK_OFFSET(0x1960DA80)
+#define RPG_GAMECORE_CHARACTERFACEEXPRESSIONMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1960DB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterFaceExpressionMappingConfig_TypeDefinitionIndex = 16561;
+	inline static constexpr unsigned int CharacterFaceExpressionMappingConfig_TypeDefinitionIndex = 16591;
 
 	class CharacterFaceExpressionMappingConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFACEEXPRESSIONMAPPINGCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_688F88D73EE77492(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterFaceExpressionMappingConfig*& a2)
+		static ::System::Void Method_2_500161B55037D8A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterFaceExpressionMappingConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterFaceExpressionMappingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFACEEXPRESSIONMAPPINGCONFIG_METHOD_2_688F88D73EE77492_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterFaceExpressionMappingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFACEEXPRESSIONMAPPINGCONFIG_METHOD_2_500161B55037D8A8_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,14 +6,14 @@
 namespace System { class String; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_GET_ATTRIBUTENAME_OFFSET UNITYSDK_OFFSET(0x1A02C7F0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_GET_MAPPEDTYPE_OFFSET UNITYSDK_OFFSET(0x1A02C840)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1A02C810)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_ATTRIBUTENAME_OFFSET UNITYSDK_OFFSET(0x1A02C800)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_FORM_OFFSET UNITYSDK_OFFSET(0x1A02C830)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_MAPPEDTYPE_OFFSET UNITYSDK_OFFSET(0x1A02C850)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1A02C820)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A00CC70)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_GET_ATTRIBUTENAME_OFFSET UNITYSDK_OFFSET(0x1AE9EA10)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_GET_MAPPEDTYPE_OFFSET UNITYSDK_OFFSET(0x1AE9EA60)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1AE9EA30)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_ATTRIBUTENAME_OFFSET UNITYSDK_OFFSET(0x1AE9EA20)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_FORM_OFFSET UNITYSDK_OFFSET(0x1AE9EA50)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_MAPPEDTYPE_OFFSET UNITYSDK_OFFSET(0x1AE9EA70)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1AE9EA40)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE7F8F0)
 
 namespace System::Xml::Serialization
 {
@@ -22,9 +22,9 @@ namespace System::Xml::Serialization
 	class XmlTypeMapMemberAttribute : public ::System::Xml::Serialization::XmlTypeMapMember
 	{
 	public:
-		::System::Xml::Serialization::XmlTypeMapping* _mappedType; // 0x50
-		::System::String* _attributeName; // 0x58
-		::System::String* _namespace; // 0x60
+		::System::String* _namespace; // 0x50
+		::System::Xml::Serialization::XmlTypeMapping* _mappedType; // 0x58
+		::System::String* _attributeName; // 0x60
 		::System::Xml::Schema::XmlSchemaForm _form; // 0x68
 
 		::System::Void _ctor()
@@ -37,9 +37,9 @@ namespace System::Xml::Serialization
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_GET_ATTRIBUTENAME_OFFSET))(this);
 		}
 
-		::System::Void set_AttributeName(::System::String* value)
+		::System::Void set_AttributeName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_ATTRIBUTENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_ATTRIBUTENAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Namespace()
@@ -47,14 +47,14 @@ namespace System::Xml::Serialization
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_GET_NAMESPACE_OFFSET))(this);
 		}
 
-		::System::Void set_Namespace(::System::String* value)
+		::System::Void set_Namespace(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_NAMESPACE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_NAMESPACE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Form(::System::Xml::Schema::XmlSchemaForm value)
+		::System::Void set_Form(::System::Xml::Schema::XmlSchemaForm a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaForm))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_FORM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaForm))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_FORM_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Serialization::XmlTypeMapping* get_MappedType()
@@ -62,9 +62,9 @@ namespace System::Xml::Serialization
 			return ((::System::Xml::Serialization::XmlTypeMapping*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_GET_MAPPEDTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_MappedType(::System::Xml::Serialization::XmlTypeMapping* value)
+		::System::Void set_MappedType(::System::Xml::Serialization::XmlTypeMapping* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_MAPPEDTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE_SET_MAPPEDTYPE_OFFSET))(this, a1);
 		}
 	};
 }

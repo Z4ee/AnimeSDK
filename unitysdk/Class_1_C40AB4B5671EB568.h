@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_C40AB4B5671EB568_METHOD_1_BE5BBFDD71BF8989_OFFSET UNITYSDK_OFFSET(0x17CDD960)
+#define CLASS_1_C40AB4B5671EB568_METHOD_1_BE5BBFDD71BF8989_OFFSET UNITYSDK_OFFSET(0x18B67410)
 
-inline static constexpr unsigned int Class_1_C40AB4B5671EB568_TypeDefinitionIndex = 34475;
+inline static constexpr unsigned int Class_1_C40AB4B5671EB568_TypeDefinitionIndex = 34758;
 
 class Class_1_C40AB4B5671EB568 : public ::System::Object
 {

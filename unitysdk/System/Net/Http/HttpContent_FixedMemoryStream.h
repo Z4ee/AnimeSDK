@@ -2,38 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/MemoryStream.h"
 
-#define SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_CHECKOVERFLOW_OFFSET UNITYSDK_OFFSET(0x19F73140)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_WRITEBYTE_OFFSET UNITYSDK_OFFSET(0x19F73280)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x19F73360)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19F71F80)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_CHECKOVERFLOW_OFFSET UNITYSDK_OFFSET(0x1ADE8CD0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_WRITEBYTE_OFFSET UNITYSDK_OFFSET(0x1ADE8E10)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1ADE8EF0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADE7C40)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpContent_FixedMemoryStream_TypeDefinitionIndex = 4786;
+	inline static constexpr unsigned int HttpContent_FixedMemoryStream_TypeDefinitionIndex = 3753;
 
 	class HttpContent_FixedMemoryStream : public ::System::IO::MemoryStream
 	{
 	public:
 		::System::Int64 maxSize; // 0x50
 
-		::System::Void _ctor(::System::Int64 maxSize)
+		::System::Void _ctor(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM__CTOR_OFFSET))(this, maxSize);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void CheckOverflow(::System::Int32 count)
+		::System::Void CheckOverflow(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_CHECKOVERFLOW_OFFSET))(this, count);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_CHECKOVERFLOW_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteByte(::System::Byte value)
+		::System::Void WriteByte(::System::Byte a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_WRITEBYTE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_WRITEBYTE_OFFSET))(this, a1);
 		}
 
-		::System::Void Write(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count)
+		::System::Void Write(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_WRITE_OFFSET))(this, buffer, offset, count);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_FIXEDMEMORYSTREAM_WRITE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

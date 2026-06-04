@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_LINEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xAAD0C10)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_LINEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC1A0B40)
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MonoTextMotion_LineInfo_TypeDefinitionIndex = 67681;
+	inline static constexpr unsigned int MonoTextMotion_LineInfo_TypeDefinitionIndex = 68639;
 
 	class MonoTextMotion_LineInfo : public ::System::Object
 	{
 	public:
-		::System::Int32 StartVisibleCharIndex; // 0x10
-		::System::Int32 LineIndex; // 0x14
+		::System::Int32 EndVisibleCharIndex; // 0x10
+		::System::Int32 StartVisibleCharIndex; // 0x14
 		::System::Int32 NoneRubyTopStrCharacterCount; // 0x18
-		::System::Int32 EndVisibleCharIndex; // 0x1C
+		::System::Int32 LineIndex; // 0x1C
 
 		::System::Void _ctor()
 		{

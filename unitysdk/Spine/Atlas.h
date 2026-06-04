@@ -11,36 +11,36 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class TextReader; }
 
-#define SPINE_ATLAS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19DD19B0)
-#define SPINE_ATLAS_FINDREGION_OFFSET UNITYSDK_OFFSET(0x19DD1890)
-#define SPINE_ATLAS_FLIPV_OFFSET UNITYSDK_OFFSET(0x19DD1810)
-#define SPINE_ATLAS_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19DD00F0)
-#define SPINE_ATLAS_GET_PAGES_OFFSET UNITYSDK_OFFSET(0x19DD0240)
-#define SPINE_ATLAS_GET_REGIONS_OFFSET UNITYSDK_OFFSET(0x19DD0230)
-#define SPINE_ATLAS_READENTRY_OFFSET UNITYSDK_OFFSET(0x19DD1540)
-#define SPINE_ATLAS_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19DD0190)
-#define SPINE_ATLAS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19DD0350)
-#define SPINE_ATLAS__CTOR_OFFSET UNITYSDK_OFFSET(0x19DD0250)
+#define SPINE_ATLAS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AC4F060)
+#define SPINE_ATLAS_FINDREGION_OFFSET UNITYSDK_OFFSET(0x1AC4EF00)
+#define SPINE_ATLAS_FLIPV_OFFSET UNITYSDK_OFFSET(0x1AC4EE80)
+#define SPINE_ATLAS_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1AC4D6F0)
+#define SPINE_ATLAS_GET_PAGES_OFFSET UNITYSDK_OFFSET(0x1AC4D7E0)
+#define SPINE_ATLAS_GET_REGIONS_OFFSET UNITYSDK_OFFSET(0x1AC4D7D0)
+#define SPINE_ATLAS_READENTRY_OFFSET UNITYSDK_OFFSET(0x1AC4EBD0)
+#define SPINE_ATLAS_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1AC4D760)
+#define SPINE_ATLAS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AC4D8F0)
+#define SPINE_ATLAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC4D7F0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Atlas_TypeDefinitionIndex = 36403;
+	inline static constexpr unsigned int Atlas_TypeDefinitionIndex = 36703;
 
 	class Atlas : public ::System::Object
 	{
 	public:
 		::Spine::TextureLoader* textureLoader; // 0x10
-		::System::Collections::Generic::List_1<::Spine::AtlasRegion*>* regions; // 0x18
-		::System::Collections::Generic::List_1<::Spine::AtlasPage*>* pages; // 0x20
+		::System::Collections::Generic::List_1<::Spine::AtlasPage*>* pages; // 0x18
+		::System::Collections::Generic::List_1<::Spine::AtlasRegion*>* regions; // 0x20
 
-		::System::Void _ctor(::System::Collections::Generic::List_1<::Spine::AtlasPage*>* pages, ::System::Collections::Generic::List_1<::Spine::AtlasRegion*>* regions)
+		::System::Void _ctor(::System::Collections::Generic::List_1<::Spine::AtlasPage*>* a1, ::System::Collections::Generic::List_1<::Spine::AtlasRegion*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Spine::AtlasPage*>*, ::System::Collections::Generic::List_1<::Spine::AtlasRegion*>*))((::PBYTE)hIl2Cpp + SPINE_ATLAS__CTOR_OFFSET))(this, pages, regions);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Spine::AtlasPage*>*, ::System::Collections::Generic::List_1<::Spine::AtlasRegion*>*))((::PBYTE)hIl2Cpp + SPINE_ATLAS__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::IO::TextReader* reader, ::System::String* imagesDir, ::Spine::TextureLoader* textureLoader)
+		::System::Void _ctor_1(::System::IO::TextReader* a1, ::System::String* a2, ::Spine::TextureLoader* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::TextReader*, ::System::String*, ::Spine::TextureLoader*))((::PBYTE)hIl2Cpp + SPINE_ATLAS__CTOR_1_OFFSET))(this, reader, imagesDir, textureLoader);
+			return ((::System::Void(*)(::PVOID, ::System::IO::TextReader*, ::System::String*, ::Spine::TextureLoader*))((::PBYTE)hIl2Cpp + SPINE_ATLAS__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Collections::Generic::IEnumerator_1<::Spine::AtlasRegion*>* GetEnumerator()
@@ -63,9 +63,9 @@ namespace Spine
 			return ((::System::Collections::Generic::List_1<::Spine::AtlasPage*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ATLAS_GET_PAGES_OFFSET))(this);
 		}
 
-		static ::System::Int32 ReadEntry(::Il2CppArray<::System::String*>* entry, ::System::String* line)
+		static ::System::Int32 ReadEntry(::Il2CppArray<::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_ATLAS_READENTRY_OFFSET))(entry, line);
+			return ((::System::Int32(*)(::Il2CppArray<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_ATLAS_READENTRY_OFFSET))(a1, a2);
 		}
 
 		::System::Void FlipV()
@@ -73,9 +73,9 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_ATLAS_FLIPV_OFFSET))(this);
 		}
 
-		::Spine::AtlasRegion* FindRegion(::System::String* name)
+		::Spine::AtlasRegion* FindRegion(::System::String* a1)
 		{
-			return ((::Spine::AtlasRegion*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_ATLAS_FINDREGION_OFFSET))(this, name);
+			return ((::Spine::AtlasRegion*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_ATLAS_FINDREGION_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

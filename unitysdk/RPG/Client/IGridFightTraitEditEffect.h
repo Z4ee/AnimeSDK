@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IGridFightTraitEditEffect_TypeDefinitionIndex = 60259;
+	inline static constexpr unsigned int IGridFightTraitEditEffect_TypeDefinitionIndex = 61194;
 
 	class IGridFightTraitEditEffect
 	{

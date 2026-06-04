@@ -9,12 +9,12 @@ namespace RPG::GameCore { class CEBattleAreaInfo; }
 namespace RPG::GameCore { class LineupMazeBuffData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CEBATTLEPRESETCONFIG_METHOD_2_CB2463969EB53484_OFFSET UNITYSDK_OFFSET(0x18764160)
-#define RPG_GAMECORE_CEBATTLEPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187644E0)
+#define RPG_GAMECORE_CEBATTLEPRESETCONFIG_METHOD_2_CE10F47310F041EF_OFFSET UNITYSDK_OFFSET(0x195E1050)
+#define RPG_GAMECORE_CEBATTLEPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x195E13C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CEBattlePresetConfig_TypeDefinitionIndex = 17241;
+	inline static constexpr unsigned int CEBattlePresetConfig_TypeDefinitionIndex = 17249;
 
 	class CEBattlePresetConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CEBATTLEPRESETCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CB2463969EB53484(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CEBattlePresetConfig*& a2)
+		static ::System::Void Method_2_CE10F47310F041EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CEBattlePresetConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CEBattlePresetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CEBATTLEPRESETCONFIG_METHOD_2_CB2463969EB53484_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CEBattlePresetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CEBATTLEPRESETCONFIG_METHOD_2_CE10F47310F041EF_OFFSET))(a1, a2);
 		}
 	};
 }

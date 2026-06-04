@@ -8,13 +8,13 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define PARKOURCAMERACONTROLLER_MANUALEND_OFFSET UNITYSDK_OFFSET(0x9A8B710)
-#define PARKOURCAMERACONTROLLER_MANUALSTART_OFFSET UNITYSDK_OFFSET(0x9A8B470)
-#define PARKOURCAMERACONTROLLER_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0x9A8B760)
-#define PARKOURCAMERACONTROLLER_METHOD_5_6226389E87D2F955_OFFSET UNITYSDK_OFFSET(0x9A8B810)
-#define PARKOURCAMERACONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x9A8BBF0)
+#define PARKOURCAMERACONTROLLER_MANUALEND_OFFSET UNITYSDK_OFFSET(0xB06AD10)
+#define PARKOURCAMERACONTROLLER_MANUALSTART_OFFSET UNITYSDK_OFFSET(0xB06AAD0)
+#define PARKOURCAMERACONTROLLER_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0xB06AD60)
+#define PARKOURCAMERACONTROLLER_METHOD_5_E1E0F3E6E754D1F5_OFFSET UNITYSDK_OFFSET(0xB06AE20)
+#define PARKOURCAMERACONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB06B210)
 
-inline static constexpr unsigned int ParkourCameraController_TypeDefinitionIndex = 44061;
+inline static constexpr unsigned int ParkourCameraController_TypeDefinitionIndex = 44607;
 
 class ParkourCameraController : public ::UnityEngine::MonoBehaviour
 {
@@ -50,8 +50,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + PARKOURCAMERACONTROLLER_MANUALUPDATE_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_5_6226389E87D2F955(::System::Collections::Generic::List_1<::MoveCameraInfo*>* a1, ::System::Single a2)
+	::System::Boolean Method_5_E1E0F3E6E754D1F5(::System::Collections::Generic::List_1<::MoveCameraInfo*>* a1, ::System::Single a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::MoveCameraInfo*>*, ::System::Single))((::PBYTE)hIl2Cpp + PARKOURCAMERACONTROLLER_METHOD_5_6226389E87D2F955_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::MoveCameraInfo*>*, ::System::Single))((::PBYTE)hIl2Cpp + PARKOURCAMERACONTROLLER_METHOD_5_E1E0F3E6E754D1F5_OFFSET))(this, a1, a2);
 	}
 };

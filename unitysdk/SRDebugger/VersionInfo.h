@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int VersionInfo_TypeDefinitionIndex = 35346;
+	inline static constexpr unsigned int VersionInfo_TypeDefinitionIndex = 35646;
 
 	class VersionInfo : public ::System::Object
 	{

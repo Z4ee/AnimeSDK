@@ -9,21 +9,21 @@ namespace System::Linq::Expressions::Interpreter { class LightLambda; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER1_OFFSET UNITYSDK_OFFSET(0x19EF8560)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER2_OFFSET UNITYSDK_OFFSET(0x19EF8580)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER3_OFFSET UNITYSDK_OFFSET(0x19EF85B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_CREATE_1_OFFSET UNITYSDK_OFFSET(0x19EF7D00)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x19EF7C90)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_GETARRAYACCESSOR_OFFSET UNITYSDK_OFFSET(0x19EF7E50)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x19EF85E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x19EF7C50)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_INTERPRETLAMBDAINVOKE_OFFSET UNITYSDK_OFFSET(0x19EF7850)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_TRYGETLIGHTLAMBDATARGET_OFFSET UNITYSDK_OFFSET(0x19EF77A0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19EF8DD0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER1_OFFSET UNITYSDK_OFFSET(0x1AD6F9F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER2_OFFSET UNITYSDK_OFFSET(0x1AD6FA10)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER3_OFFSET UNITYSDK_OFFSET(0x1AD6FA80)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1AD6F210)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1AD6F1A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_GETARRAYACCESSOR_OFFSET UNITYSDK_OFFSET(0x1AD6F360)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1AD6FB00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1AD6F160)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_INTERPRETLAMBDAINVOKE_OFFSET UNITYSDK_OFFSET(0x1AD6EDC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_TRYGETLIGHTLAMBDATARGET_OFFSET UNITYSDK_OFFSET(0x1AD6ED00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD70230)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int CallInstruction_TypeDefinitionIndex = 3304;
+	inline static constexpr unsigned int CallInstruction_TypeDefinitionIndex = 3305;
 
 	class CallInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
@@ -38,34 +38,34 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET))(this);
 		}
 
-		static ::System::Linq::Expressions::Interpreter::CallInstruction* Create(::System::Reflection::MethodInfo* info)
+		static ::System::Linq::Expressions::Interpreter::CallInstruction* Create(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Linq::Expressions::Interpreter::CallInstruction*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_CREATE_OFFSET))(info);
+			return ((::System::Linq::Expressions::Interpreter::CallInstruction*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_CREATE_OFFSET))(a1);
 		}
 
-		static ::System::Linq::Expressions::Interpreter::CallInstruction* Create_1(::System::Reflection::MethodInfo* info, ::Il2CppArray<::System::Reflection::ParameterInfo*>* parameters)
+		static ::System::Linq::Expressions::Interpreter::CallInstruction* Create_1(::System::Reflection::MethodInfo* a1, ::Il2CppArray<::System::Reflection::ParameterInfo*>* a2)
 		{
-			return ((::System::Linq::Expressions::Interpreter::CallInstruction*(*)(::System::Reflection::MethodInfo*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_CREATE_1_OFFSET))(info, parameters);
+			return ((::System::Linq::Expressions::Interpreter::CallInstruction*(*)(::System::Reflection::MethodInfo*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_CREATE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Linq::Expressions::Interpreter::CallInstruction* GetArrayAccessor(::System::Reflection::MethodInfo* info, ::System::Int32 argumentCount)
+		static ::System::Linq::Expressions::Interpreter::CallInstruction* GetArrayAccessor(::System::Reflection::MethodInfo* a1, ::System::Int32 a2)
 		{
-			return ((::System::Linq::Expressions::Interpreter::CallInstruction*(*)(::System::Reflection::MethodInfo*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_GETARRAYACCESSOR_OFFSET))(info, argumentCount);
+			return ((::System::Linq::Expressions::Interpreter::CallInstruction*(*)(::System::Reflection::MethodInfo*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_GETARRAYACCESSOR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ArrayItemSetter1(::System::Array* array, ::System::Int32 index0, ::System::Object* value)
+		static ::System::Void ArrayItemSetter1(::System::Array* a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::System::Array*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER1_OFFSET))(array, index0, value);
+			return ((::System::Void(*)(::System::Array*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ArrayItemSetter2(::System::Array* array, ::System::Int32 index0, ::System::Int32 index1, ::System::Object* value)
+		static ::System::Void ArrayItemSetter2(::System::Array* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4)
 		{
-			return ((::System::Void(*)(::System::Array*, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER2_OFFSET))(array, index0, index1, value);
+			return ((::System::Void(*)(::System::Array*, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void ArrayItemSetter3(::System::Array* array, ::System::Int32 index0, ::System::Int32 index1, ::System::Int32 index2, ::System::Object* value)
+		static ::System::Void ArrayItemSetter3(::System::Array* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Object* a5)
 		{
-			return ((::System::Void(*)(::System::Array*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER3_OFFSET))(array, index0, index1, index2, value);
+			return ((::System::Void(*)(::System::Array*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_ARRAYITEMSETTER3_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::Int32 get_ConsumedStack()
@@ -73,14 +73,14 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_GET_CONSUMEDSTACK_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryGetLightLambdaTarget(::System::Object* instance, ::System::Linq::Expressions::Interpreter::LightLambda*& lightLambda)
+		static ::System::Boolean TryGetLightLambdaTarget(::System::Object* a1, ::System::Linq::Expressions::Interpreter::LightLambda*& a2)
 		{
-			return ((::System::Boolean(*)(::System::Object*, ::System::Linq::Expressions::Interpreter::LightLambda*&))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_TRYGETLIGHTLAMBDATARGET_OFFSET))(instance, lightLambda);
+			return ((::System::Boolean(*)(::System::Object*, ::System::Linq::Expressions::Interpreter::LightLambda*&))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_TRYGETLIGHTLAMBDATARGET_OFFSET))(a1, a2);
 		}
 
-		::System::Object* InterpretLambdaInvoke(::System::Linq::Expressions::Interpreter::LightLambda* targetLambda, ::Il2CppArray<::System::Object*>* args)
+		::System::Object* InterpretLambdaInvoke(::System::Linq::Expressions::Interpreter::LightLambda* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Linq::Expressions::Interpreter::LightLambda*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_INTERPRETLAMBDAINVOKE_OFFSET))(this, targetLambda, args);
+			return ((::System::Object*(*)(::PVOID, ::System::Linq::Expressions::Interpreter::LightLambda*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CALLINSTRUCTION_INTERPRETLAMBDAINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

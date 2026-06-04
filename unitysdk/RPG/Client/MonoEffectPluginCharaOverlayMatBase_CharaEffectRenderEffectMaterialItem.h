@@ -7,7 +7,7 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaOverlayMatBase_CharaEffectRenderEffectMaterialItem_TypeDefinitionIndex = 64478;
+	inline static constexpr unsigned int MonoEffectPluginCharaOverlayMatBase_CharaEffectRenderEffectMaterialItem_TypeDefinitionIndex = 65399;
 
 	struct alignas(8) MonoEffectPluginCharaOverlayMatBase_CharaEffectRenderEffectMaterialItem
 	{

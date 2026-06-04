@@ -9,14 +9,14 @@ namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x18E1CAF0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION_METHOD_4_165FBC07AF037848_OFFSET UNITYSDK_OFFSET(0x18E1CA70)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION_METHOD_4_34BCA9AB9320606C_OFFSET UNITYSDK_OFFSET(0x18E19F80)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18E19F30)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x19C40180)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION_METHOD_4_4F2CC875B65721CB_OFFSET UNITYSDK_OFFSET(0x19C40100)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION_METHOD_4_FEB84096FF7BE1A3_OFFSET UNITYSDK_OFFSET(0x19C360D0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19C36080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByAdsorption_TypeDefinitionIndex = 22830;
+	inline static constexpr unsigned int SetDynamicValueByAdsorption_TypeDefinitionIndex = 22531;
 
 	class SetDynamicValueByAdsorption : public ::RPG::GameCore::SetDynamicValueBase
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_165FBC07AF037848(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByAdsorption*& a2)
+		static ::System::Void Method_4_4F2CC875B65721CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByAdsorption*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByAdsorption*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION_METHOD_4_165FBC07AF037848_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByAdsorption*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION_METHOD_4_4F2CC875B65721CB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_34BCA9AB9320606C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByAdsorption* a2)
+		static ::System::Void Method_4_FEB84096FF7BE1A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByAdsorption* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByAdsorption*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION_METHOD_4_34BCA9AB9320606C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByAdsorption*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYADSORPTION_METHOD_4_FEB84096FF7BE1A3_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()

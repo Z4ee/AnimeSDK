@@ -4,7 +4,7 @@
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int InlineArrayMarshal_TypeDefinitionIndex = 6566;
+	inline static constexpr unsigned int InlineArrayMarshal_TypeDefinitionIndex = 6395;
 
 	class InlineArrayMarshal : public ::System::Object
 	{

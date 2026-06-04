@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByShowChallengeSelectPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_60BC6D026F06EC27_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11A733D0)
-#define CLASS_3_60BC6D026F06EC27__CTOR_OFFSET UNITYSDK_OFFSET(0x11A733A0)
+#define CLASS_3_60BC6D026F06EC27_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA790D20)
+#define CLASS_3_60BC6D026F06EC27__CTOR_OFFSET UNITYSDK_OFFSET(0xA790CF0)
 
-inline static constexpr unsigned int Class_3_60BC6D026F06EC27_TypeDefinitionIndex = 48576;
+inline static constexpr unsigned int Class_3_60BC6D026F06EC27_TypeDefinitionIndex = 49203;
 
 class Class_3_60BC6D026F06EC27 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByShowChallengeSelectPage*>
 {

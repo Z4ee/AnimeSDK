@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B65E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B6650)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B6290)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6B6270)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4F2480)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4F24F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4F2470)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F2400)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_WindowCallbackFunc_TypeDefinitionIndex = 36146;
+	inline static constexpr unsigned int BrowserNative_WindowCallbackFunc_TypeDefinitionIndex = 36446;
 
 	class BrowserNative_WindowCallbackFunc : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Int32 windowId, ::System::IntPtr data)
+		::System::Void Invoke(::System::Int32 a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_INVOKE_OFFSET))(this, windowId, data);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 windowId, ::System::IntPtr data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::System::IntPtr a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_BEGININVOKE_OFFSET))(this, windowId, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_WINDOWCALLBACKFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -9,35 +9,35 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Font_FontTextureRebuildCallback; }
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_FONT_ADD_TEXTUREREBUILT_OFFSET UNITYSDK_OFFSET(0x1A4FDB50)
-#define UNITYENGINE_FONT_GETCHARACTERINFO_1_OFFSET UNITYSDK_OFFSET(0x1A4FE000)
-#define UNITYENGINE_FONT_GETCHARACTERINFO_2_OFFSET UNITYSDK_OFFSET(0x1A4FE020)
-#define UNITYENGINE_FONT_GETCHARACTERINFO_OFFSET UNITYSDK_OFFSET(0x1A4FDFF0)
-#define UNITYENGINE_FONT_GET_DYNAMIC_OFFSET UNITYSDK_OFFSET(0x1A4FDC90)
-#define UNITYENGINE_FONT_GET_FONTNAMES_OFFSET UNITYSDK_OFFSET(0x1A4FDC80)
-#define UNITYENGINE_FONT_GET_FONTSIZE_OFFSET UNITYSDK_OFFSET(0x1A4FDCA0)
-#define UNITYENGINE_FONT_GET_MATERIAL_OFFSET UNITYSDK_OFFSET(0x1A4FDC70)
-#define UNITYENGINE_FONT_HASCHARACTER_1_OFFSET UNITYSDK_OFFSET(0x1A4FDFE0)
-#define UNITYENGINE_FONT_HASCHARACTER_OFFSET UNITYSDK_OFFSET(0x1A4FDFD0)
-#define UNITYENGINE_FONT_INTERNAL_CREATEFONT_OFFSET UNITYSDK_OFFSET(0x1A4FDCD0)
-#define UNITYENGINE_FONT_INVOKETEXTUREREBUILT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FDCE0)
-#define UNITYENGINE_FONT_REMOVE_TEXTUREREBUILT_OFFSET UNITYSDK_OFFSET(0x1A4FDBE0)
-#define UNITYENGINE_FONT_REQUESTCHARACTERSINTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1A4FE050)
-#define UNITYENGINE_FONT_REQUESTCHARACTERSINTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A4FE040)
-#define UNITYENGINE_FONT_SET_TEXTUREGROWSIZE_OFFSET UNITYSDK_OFFSET(0x1A4FDCB0)
-#define UNITYENGINE_FONT_UPDATEFONTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A4FE060)
-#define UNITYENGINE_FONT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FDCC0)
+#define UNITYENGINE_FONT_ADD_TEXTUREREBUILT_OFFSET UNITYSDK_OFFSET(0x1B3498A0)
+#define UNITYENGINE_FONT_GETCHARACTERINFO_1_OFFSET UNITYSDK_OFFSET(0x1B349AD0)
+#define UNITYENGINE_FONT_GETCHARACTERINFO_2_OFFSET UNITYSDK_OFFSET(0x1B349AF0)
+#define UNITYENGINE_FONT_GETCHARACTERINFO_OFFSET UNITYSDK_OFFSET(0x1B349AC0)
+#define UNITYENGINE_FONT_GET_DYNAMIC_OFFSET UNITYSDK_OFFSET(0x1B3499E0)
+#define UNITYENGINE_FONT_GET_FONTNAMES_OFFSET UNITYSDK_OFFSET(0x1B3499D0)
+#define UNITYENGINE_FONT_GET_FONTSIZE_OFFSET UNITYSDK_OFFSET(0x1B3499F0)
+#define UNITYENGINE_FONT_GET_MATERIAL_OFFSET UNITYSDK_OFFSET(0x1B3499C0)
+#define UNITYENGINE_FONT_HASCHARACTER_1_OFFSET UNITYSDK_OFFSET(0x1B349AB0)
+#define UNITYENGINE_FONT_HASCHARACTER_OFFSET UNITYSDK_OFFSET(0x1B349AA0)
+#define UNITYENGINE_FONT_INTERNAL_CREATEFONT_OFFSET UNITYSDK_OFFSET(0x1B349A20)
+#define UNITYENGINE_FONT_INVOKETEXTUREREBUILT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B349A30)
+#define UNITYENGINE_FONT_REMOVE_TEXTUREREBUILT_OFFSET UNITYSDK_OFFSET(0x1B349930)
+#define UNITYENGINE_FONT_REQUESTCHARACTERSINTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1B349B20)
+#define UNITYENGINE_FONT_REQUESTCHARACTERSINTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B349B10)
+#define UNITYENGINE_FONT_SET_TEXTUREGROWSIZE_OFFSET UNITYSDK_OFFSET(0x1B349A00)
+#define UNITYENGINE_FONT_UPDATEFONTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B349B30)
+#define UNITYENGINE_FONT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B349A10)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Font_TypeDefinitionIndex = 4959;
+	inline static constexpr unsigned int Font_TypeDefinitionIndex = 5037;
 
 	class Font : public ::UnityEngine::Object
 	{
 	public:
 		static ::System::Action_1<::UnityEngine::Font*>** StaticGet_textureRebuilt()
 		{
-			return (::System::Action_1<::UnityEngine::Font*>**)Il2CppClass::FromTypeDefinitionIndex(Font_TypeDefinitionIndex)->GetStaticField(0x1D0);
+			return (::System::Action_1<::UnityEngine::Font*>**)Il2CppClass::FromTypeDefinitionIndex(Font_TypeDefinitionIndex)->GetStaticField(0x260);
 		}
 		::UnityEngine::Font_FontTextureRebuildCallback* m_FontTextureRebuildCallback; // 0x18
 
@@ -46,14 +46,14 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void add_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value)
+		static ::System::Void add_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action_1<::UnityEngine::Font*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_ADD_TEXTUREREBUILT_OFFSET))(value);
+			return ((::System::Void(*)(::System::Action_1<::UnityEngine::Font*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_ADD_TEXTUREREBUILT_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value)
+		static ::System::Void remove_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action_1<::UnityEngine::Font*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_REMOVE_TEXTUREREBUILT_OFFSET))(value);
+			return ((::System::Void(*)(::System::Action_1<::UnityEngine::Font*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_REMOVE_TEXTUREREBUILT_OFFSET))(a1);
 		}
 
 		::UnityEngine::Material* get_material()
@@ -76,54 +76,54 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_GET_FONTSIZE_OFFSET))(this);
 		}
 
-		::System::Void set_textureGrowSize(::System::Int32 value)
+		::System::Void set_textureGrowSize(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_SET_TEXTUREGROWSIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_SET_TEXTUREGROWSIZE_OFFSET))(this, a1);
 		}
 
-		static ::System::Void InvokeTextureRebuilt_Internal(::UnityEngine::Font* font)
+		static ::System::Void InvokeTextureRebuilt_Internal(::UnityEngine::Font* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Font*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_INVOKETEXTUREREBUILT_INTERNAL_OFFSET))(font);
+			return ((::System::Void(*)(::UnityEngine::Font*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_INVOKETEXTUREREBUILT_INTERNAL_OFFSET))(a1);
 		}
 
-		::System::Boolean HasCharacter(::System::Char c)
+		::System::Boolean HasCharacter(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_HASCHARACTER_OFFSET))(this, c);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_HASCHARACTER_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HasCharacter_1(::System::Int32 c)
+		::System::Boolean HasCharacter_1(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_HASCHARACTER_1_OFFSET))(this, c);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_HASCHARACTER_1_OFFSET))(this, a1);
 		}
 
-		static ::System::Void Internal_CreateFont(::UnityEngine::Font* self, ::System::String* name)
+		static ::System::Void Internal_CreateFont(::UnityEngine::Font* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Font*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_INTERNAL_CREATEFONT_OFFSET))(self, name);
+			return ((::System::Void(*)(::UnityEngine::Font*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_INTERNAL_CREATEFONT_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean GetCharacterInfo(::System::Char ch, ::UnityEngine::CharacterInfo& info, ::System::Int32 size, ::UnityEngine::FontStyle style)
+		::System::Boolean GetCharacterInfo(::System::Char a1, ::UnityEngine::CharacterInfo& a2, ::System::Int32 a3, ::UnityEngine::FontStyle a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::UnityEngine::CharacterInfo&, ::System::Int32, ::UnityEngine::FontStyle))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_GETCHARACTERINFO_OFFSET))(this, ch, info, size, style);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::UnityEngine::CharacterInfo&, ::System::Int32, ::UnityEngine::FontStyle))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_GETCHARACTERINFO_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean GetCharacterInfo_1(::System::Char ch, ::UnityEngine::CharacterInfo& info, ::System::Int32 size)
+		::System::Boolean GetCharacterInfo_1(::System::Char a1, ::UnityEngine::CharacterInfo& a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::UnityEngine::CharacterInfo&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_GETCHARACTERINFO_1_OFFSET))(this, ch, info, size);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::UnityEngine::CharacterInfo&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_GETCHARACTERINFO_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean GetCharacterInfo_2(::System::Char ch, ::UnityEngine::CharacterInfo& info)
+		::System::Boolean GetCharacterInfo_2(::System::Char a1, ::UnityEngine::CharacterInfo& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::UnityEngine::CharacterInfo&))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_GETCHARACTERINFO_2_OFFSET))(this, ch, info);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char, ::UnityEngine::CharacterInfo&))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_GETCHARACTERINFO_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RequestCharactersInTexture(::System::String* characters, ::System::Int32 size, ::UnityEngine::FontStyle style)
+		::System::Void RequestCharactersInTexture(::System::String* a1, ::System::Int32 a2, ::UnityEngine::FontStyle a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::UnityEngine::FontStyle))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_REQUESTCHARACTERSINTEXTURE_OFFSET))(this, characters, size, style);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::UnityEngine::FontStyle))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_REQUESTCHARACTERSINTEXTURE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RequestCharactersInTexture_1(::System::String* characters)
+		::System::Void RequestCharactersInTexture_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_REQUESTCHARACTERSINTEXTURE_1_OFFSET))(this, characters);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_REQUESTCHARACTERSINTEXTURE_1_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateFontTexture()

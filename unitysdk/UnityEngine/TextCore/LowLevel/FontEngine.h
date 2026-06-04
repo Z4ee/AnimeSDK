@@ -16,73 +16,73 @@ namespace UnityEngine { class Font; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::TextCore { class Glyph; }
 
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETFACEINFO_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FADE0)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETFACEINFO_OFFSET UNITYSDK_OFFSET(0x1A4FAD50)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x1A4FADF0)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTRECORDSFROMMARSHALLINGARRAY_OFFSET UNITYSDK_OFFSET(0x1A4FD520)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTRECORDS_OFFSET UNITYSDK_OFFSET(0x1A4FD530)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTTABLE_OFFSET UNITYSDK_OFFSET(0x1A4FD3A0)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_INITIALIZEFONTENGINE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FACB0)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_INITIALIZEFONTENGINE_OFFSET UNITYSDK_OFFSET(0x1A4FAC80)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_LOADFONTFACE_OFFSET UNITYSDK_OFFSET(0x1A4FACC0)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_LOADFONTFACE_WITH_SIZE_FROMFONT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FAD00)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_POPULATEPAIRADJUSTMENTRECORDMARSHALLINGARRAY_FROM_GLYPHINDEXES_OFFSET UNITYSDK_OFFSET(0x1A4FD510)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RENDERGLYPHSTOTEXTUREBUFFER_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FC270)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RENDERGLYPHSTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A4FC000)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RESETATLASTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A4FD6C0)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_SETFACESIZE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FAD40)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_SETFACESIZE_OFFSET UNITYSDK_OFFSET(0x1A4FAD10)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHSTOTEXTURE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FD390)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHSTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A4FC8C0)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHTOTEXTURE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FC8B0)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A4FC280)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x1A4FAE00)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHINDEXVALUE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FB060)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHINDEXVALUE_OFFSET UNITYSDK_OFFSET(0x1A4FAF40)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHUNICODEVALUE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FAF30)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHUNICODEVALUE_OFFSET UNITYSDK_OFFSET(0x1A4FAE10)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYPACKGLYPHSINATLAS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FBFF0)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYPACKGLYPHSINATLAS_OFFSET UNITYSDK_OFFSET(0x1A4FB070)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4FD6D0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETFACEINFO_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B3468B0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETFACEINFO_OFFSET UNITYSDK_OFFSET(0x1B346820)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x1B3468C0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTRECORDSFROMMARSHALLINGARRAY_OFFSET UNITYSDK_OFFSET(0x1B349220)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTRECORDS_OFFSET UNITYSDK_OFFSET(0x1B349230)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTTABLE_OFFSET UNITYSDK_OFFSET(0x1B3490B0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_INITIALIZEFONTENGINE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B346780)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_INITIALIZEFONTENGINE_OFFSET UNITYSDK_OFFSET(0x1B346750)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_LOADFONTFACE_OFFSET UNITYSDK_OFFSET(0x1B346790)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_LOADFONTFACE_WITH_SIZE_FROMFONT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B3467D0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_POPULATEPAIRADJUSTMENTRECORDMARSHALLINGARRAY_FROM_GLYPHINDEXES_OFFSET UNITYSDK_OFFSET(0x1B349210)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RENDERGLYPHSTOTEXTUREBUFFER_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B347EE0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RENDERGLYPHSTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B347C90)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RESETATLASTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B3493B0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_SETFACESIZE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B346810)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_SETFACESIZE_OFFSET UNITYSDK_OFFSET(0x1B3467E0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHSTOTEXTURE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B3490A0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHSTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B3485B0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHTOTEXTURE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B3485A0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B347EF0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x1B3468D0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHINDEXVALUE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B346B30)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHINDEXVALUE_OFFSET UNITYSDK_OFFSET(0x1B346A10)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHUNICODEVALUE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B346A00)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHUNICODEVALUE_OFFSET UNITYSDK_OFFSET(0x1B3468E0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYPACKGLYPHSINATLAS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B347C80)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYPACKGLYPHSINATLAS_OFFSET UNITYSDK_OFFSET(0x1B346B40)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3493C0)
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int FontEngine_TypeDefinitionIndex = 5550;
+	inline static constexpr unsigned int FontEngine_TypeDefinitionIndex = 5827;
 
 	class FontEngine : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::UInt32>** StaticGet_s_GlyphIndexes_MarshallingArray_A()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x440);
-		}
-		static ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>** StaticGet_s_PairAdjustmentRecords_MarshallingArray()
-		{
-			return (::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x448);
-		}
-		static ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>** StaticGet_s_UsedGlyphRects()
-		{
-			return (::Il2CppArray<::UnityEngine::TextCore::GlyphRect>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x450);
-		}
-		static ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>** StaticGet_s_FreeGlyphRects()
-		{
-			return (::Il2CppArray<::UnityEngine::TextCore::GlyphRect>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x458);
-		}
 		static ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>** StaticGet_s_GlyphMarshallingStruct_OUT()
 		{
-			return (::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x460);
+			return (::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x470);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::TextCore::Glyph*>** StaticGet_s_GlyphLookupDictionary()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::TextCore::Glyph*>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x468);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::TextCore::Glyph*>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x478);
 		}
 		static ::Il2CppArray<::UnityEngine::TextCore::Glyph*>** StaticGet_s_Glyphs()
 		{
-			return (::Il2CppArray<::UnityEngine::TextCore::Glyph*>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x470);
+			return (::Il2CppArray<::UnityEngine::TextCore::Glyph*>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x480);
+		}
+		static ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>** StaticGet_s_PairAdjustmentRecords_MarshallingArray()
+		{
+			return (::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x488);
 		}
 		static ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>** StaticGet_s_GlyphMarshallingStruct_IN()
 		{
-			return (::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x478);
+			return (::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x490);
+		}
+		static ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>** StaticGet_s_UsedGlyphRects()
+		{
+			return (::Il2CppArray<::UnityEngine::TextCore::GlyphRect>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x498);
+		}
+		static ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>** StaticGet_s_FreeGlyphRects()
+		{
+			return (::Il2CppArray<::UnityEngine::TextCore::GlyphRect>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x4A0);
+		}
+		static ::Il2CppArray<::System::UInt32>** StaticGet_s_GlyphIndexes_MarshallingArray_A()
+		{
+			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FontEngine_TypeDefinitionIndex)->GetStaticField(0x4A8);
 		}
 
 		static ::System::Void _cctor()
@@ -100,24 +100,24 @@ namespace UnityEngine::TextCore::LowLevel
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_INITIALIZEFONTENGINE_INTERNAL_OFFSET))();
 		}
 
-		static ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(::UnityEngine::Font* font, ::System::Int32 pointSize)
+		static ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(::UnityEngine::Font* a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::TextCore::LowLevel::FontEngineError(*)(::UnityEngine::Font*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_LOADFONTFACE_OFFSET))(font, pointSize);
+			return ((::UnityEngine::TextCore::LowLevel::FontEngineError(*)(::UnityEngine::Font*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_LOADFONTFACE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 LoadFontFace_With_Size_FromFont_Internal(::UnityEngine::Font* font, ::System::Int32 pointSize)
+		static ::System::Int32 LoadFontFace_With_Size_FromFont_Internal(::UnityEngine::Font* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Font*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_LOADFONTFACE_WITH_SIZE_FROMFONT_INTERNAL_OFFSET))(font, pointSize);
+			return ((::System::Int32(*)(::UnityEngine::Font*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_LOADFONTFACE_WITH_SIZE_FROMFONT_INTERNAL_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::TextCore::LowLevel::FontEngineError SetFaceSize(::System::Int32 pointSize)
+		static ::UnityEngine::TextCore::LowLevel::FontEngineError SetFaceSize(::System::Int32 a1)
 		{
-			return ((::UnityEngine::TextCore::LowLevel::FontEngineError(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_SETFACESIZE_OFFSET))(pointSize);
+			return ((::UnityEngine::TextCore::LowLevel::FontEngineError(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_SETFACESIZE_OFFSET))(a1);
 		}
 
-		static ::System::Int32 SetFaceSize_Internal(::System::Int32 pointSize)
+		static ::System::Int32 SetFaceSize_Internal(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_SETFACESIZE_INTERNAL_OFFSET))(pointSize);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_SETFACESIZE_INTERNAL_OFFSET))(a1);
 		}
 
 		static ::UnityEngine::TextCore::FaceInfo GetFaceInfo()
@@ -125,104 +125,104 @@ namespace UnityEngine::TextCore::LowLevel
 			return ((::UnityEngine::TextCore::FaceInfo(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETFACEINFO_OFFSET))();
 		}
 
-		static ::System::Int32 GetFaceInfo_Internal(::UnityEngine::TextCore::FaceInfo& faceInfo)
+		static ::System::Int32 GetFaceInfo_Internal(::UnityEngine::TextCore::FaceInfo& a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::TextCore::FaceInfo&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETFACEINFO_INTERNAL_OFFSET))(faceInfo);
+			return ((::System::Int32(*)(::UnityEngine::TextCore::FaceInfo&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETFACEINFO_INTERNAL_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetGlyphIndex(::System::UInt32 unicode)
+		static ::System::UInt32 GetGlyphIndex(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHINDEX_OFFSET))(unicode);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHINDEX_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryGetGlyphIndex(::System::UInt32 unicode, ::System::UInt32& glyphIndex)
+		static ::System::Boolean TryGetGlyphIndex(::System::UInt32 a1, ::System::UInt32& a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHINDEX_OFFSET))(unicode, glyphIndex);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHINDEX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryGetGlyphWithUnicodeValue(::System::UInt32 unicode, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags flags, ::UnityEngine::TextCore::Glyph*& glyph)
+		static ::System::Boolean TryGetGlyphWithUnicodeValue(::System::UInt32 a1, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags a2, ::UnityEngine::TextCore::Glyph*& a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::UnityEngine::TextCore::Glyph*&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHUNICODEVALUE_OFFSET))(unicode, flags, glyph);
+			return ((::System::Boolean(*)(::System::UInt32, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::UnityEngine::TextCore::Glyph*&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHUNICODEVALUE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryGetGlyphWithUnicodeValue_Internal(::System::UInt32 unicode, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags loadFlags, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct& glyphStruct)
+		static ::System::Boolean TryGetGlyphWithUnicodeValue_Internal(::System::UInt32 a1, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags a2, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct& a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHUNICODEVALUE_INTERNAL_OFFSET))(unicode, loadFlags, glyphStruct);
+			return ((::System::Boolean(*)(::System::UInt32, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHUNICODEVALUE_INTERNAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryGetGlyphWithIndexValue(::System::UInt32 glyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags flags, ::UnityEngine::TextCore::Glyph*& glyph)
+		static ::System::Boolean TryGetGlyphWithIndexValue(::System::UInt32 a1, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags a2, ::UnityEngine::TextCore::Glyph*& a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::UnityEngine::TextCore::Glyph*&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHINDEXVALUE_OFFSET))(glyphIndex, flags, glyph);
+			return ((::System::Boolean(*)(::System::UInt32, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::UnityEngine::TextCore::Glyph*&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHINDEXVALUE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryGetGlyphWithIndexValue_Internal(::System::UInt32 glyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags loadFlags, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct& glyphStruct)
+		static ::System::Boolean TryGetGlyphWithIndexValue_Internal(::System::UInt32 a1, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags a2, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct& a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHINDEXVALUE_INTERNAL_OFFSET))(glyphIndex, loadFlags, glyphStruct);
+			return ((::System::Boolean(*)(::System::UInt32, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYGETGLYPHWITHINDEXVALUE_INTERNAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryPackGlyphsInAtlas(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* glyphsToAdd, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* glyphsAdded, ::System::Int32 padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::System::Int32 width, ::System::Int32 height, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* freeGlyphRects, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* usedGlyphRects)
+		static ::System::Boolean TryPackGlyphsInAtlas(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* a2, ::System::Int32 a3, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode a4, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* a8, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* a9)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::System::Int32, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYPACKGLYPHSINATLAS_OFFSET))(glyphsToAdd, glyphsAdded, padding, packingMode, renderMode, width, height, freeGlyphRects, usedGlyphRects);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::System::Int32, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYPACKGLYPHSINATLAS_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::System::Boolean TryPackGlyphsInAtlas_Internal(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>* glyphsToAdd, ::System::Int32& glyphsToAddCount, ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>* glyphsAdded, ::System::Int32& glyphsAddedCount, ::System::Int32 padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::System::Int32 width, ::System::Int32 height, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* freeGlyphRects, ::System::Int32& freeGlyphRectCount, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* usedGlyphRects, ::System::Int32& usedGlyphRectCount)
+		static ::System::Boolean TryPackGlyphsInAtlas_Internal(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>* a1, ::System::Int32& a2, ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>* a3, ::System::Int32& a4, ::System::Int32 a5, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode a6, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode a7, ::System::Int32 a8, ::System::Int32 a9, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* a10, ::System::Int32& a11, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* a12, ::System::Int32& a13)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*, ::System::Int32&, ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*, ::System::Int32&, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::System::Int32, ::System::Int32, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYPACKGLYPHSINATLAS_INTERNAL_OFFSET))(glyphsToAdd, glyphsToAddCount, glyphsAdded, glyphsAddedCount, padding, packingMode, renderMode, width, height, freeGlyphRects, freeGlyphRectCount, usedGlyphRects, usedGlyphRectCount);
+			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*, ::System::Int32&, ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*, ::System::Int32&, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::System::Int32, ::System::Int32, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYPACKGLYPHSINATLAS_INTERNAL_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
 		}
 
-		static ::UnityEngine::TextCore::LowLevel::FontEngineError RenderGlyphsToTexture(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* glyphs, ::System::Int32 padding, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::Il2CppArray<::System::Byte>* texBuffer, ::System::Int32 texWidth, ::System::Int32 texHeight)
+		static ::UnityEngine::TextCore::LowLevel::FontEngineError RenderGlyphsToTexture(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* a1, ::System::Int32 a2, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode a3, ::Il2CppArray<::System::Byte>* a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::UnityEngine::TextCore::LowLevel::FontEngineError(*)(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RENDERGLYPHSTOTEXTURE_OFFSET))(glyphs, padding, renderMode, texBuffer, texWidth, texHeight);
+			return ((::UnityEngine::TextCore::LowLevel::FontEngineError(*)(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>*, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RENDERGLYPHSTOTEXTURE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 RenderGlyphsToTextureBuffer_Internal(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>* glyphs, ::System::Int32 glyphCount, ::System::Int32 padding, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::Il2CppArray<::System::Byte>* texBuffer, ::System::Int32 texWidth, ::System::Int32 texHeight)
+		static ::System::Int32 RenderGlyphsToTextureBuffer_Internal(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode a4, ::Il2CppArray<::System::Byte>* a5, ::System::Int32 a6, ::System::Int32 a7)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*, ::System::Int32, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RENDERGLYPHSTOTEXTUREBUFFER_INTERNAL_OFFSET))(glyphs, glyphCount, padding, renderMode, texBuffer, texWidth, texHeight);
+			return ((::System::Int32(*)(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*, ::System::Int32, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RENDERGLYPHSTOTEXTUREBUFFER_INTERNAL_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Boolean TryAddGlyphToTexture(::System::UInt32 glyphIndex, ::System::Int32 padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* freeGlyphRects, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* usedGlyphRects, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::UnityEngine::Texture2D* texture, ::UnityEngine::TextCore::Glyph*& glyph)
+		static ::System::Boolean TryAddGlyphToTexture(::System::UInt32 a1, ::System::Int32 a2, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode a3, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* a4, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* a5, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode a6, ::UnityEngine::Texture2D* a7, ::UnityEngine::TextCore::Glyph*& a8)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*, ::UnityEngine::TextCore::Glyph*&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHTOTEXTURE_OFFSET))(glyphIndex, padding, packingMode, freeGlyphRects, usedGlyphRects, renderMode, texture, glyph);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*, ::UnityEngine::TextCore::Glyph*&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHTOTEXTURE_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Boolean TryAddGlyphToTexture_Internal(::System::UInt32 glyphIndex, ::System::Int32 padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* freeGlyphRects, ::System::Int32& freeGlyphRectCount, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* usedGlyphRects, ::System::Int32& usedGlyphRectCount, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::UnityEngine::Texture2D* texture, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct& glyph)
+		static ::System::Boolean TryAddGlyphToTexture_Internal(::System::UInt32 a1, ::System::Int32 a2, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode a3, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* a4, ::System::Int32& a5, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* a6, ::System::Int32& a7, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode a8, ::UnityEngine::Texture2D* a9, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct& a10)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHTOTEXTURE_INTERNAL_OFFSET))(glyphIndex, padding, packingMode, freeGlyphRects, freeGlyphRectCount, usedGlyphRects, usedGlyphRectCount, renderMode, texture, glyph);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*, ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHTOTEXTURE_INTERNAL_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		static ::System::Boolean TryAddGlyphsToTexture(::System::Collections::Generic::List_1<::System::UInt32>* glyphIndexes, ::System::Int32 padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* freeGlyphRects, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* usedGlyphRects, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::UnityEngine::Texture2D* texture, ::Il2CppArray<::UnityEngine::TextCore::Glyph*>*& glyphs)
+		static ::System::Boolean TryAddGlyphsToTexture(::System::Collections::Generic::List_1<::System::UInt32>* a1, ::System::Int32 a2, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode a3, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* a4, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* a5, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode a6, ::UnityEngine::Texture2D* a7, ::Il2CppArray<::UnityEngine::TextCore::Glyph*>*& a8)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*, ::Il2CppArray<::UnityEngine::TextCore::Glyph*>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHSTOTEXTURE_OFFSET))(glyphIndexes, padding, packingMode, freeGlyphRects, usedGlyphRects, renderMode, texture, glyphs);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*, ::Il2CppArray<::UnityEngine::TextCore::Glyph*>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHSTOTEXTURE_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Boolean TryAddGlyphsToTexture_Internal(::Il2CppArray<::System::UInt32>* glyphIndex, ::System::Int32 padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* freeGlyphRects, ::System::Int32& freeGlyphRectCount, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* usedGlyphRects, ::System::Int32& usedGlyphRectCount, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::UnityEngine::Texture2D* texture, ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>* glyphs, ::System::Int32& glyphCount)
+		static ::System::Boolean TryAddGlyphsToTexture_Internal(::Il2CppArray<::System::UInt32>* a1, ::System::Int32 a2, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode a3, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* a4, ::System::Int32& a5, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>* a6, ::System::Int32& a7, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode a8, ::UnityEngine::Texture2D* a9, ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>* a10, ::System::Int32& a11)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::UInt32>*, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*, ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHSTOTEXTURE_INTERNAL_OFFSET))(glyphIndex, padding, packingMode, freeGlyphRects, freeGlyphRectCount, usedGlyphRects, usedGlyphRectCount, renderMode, texture, glyphs, glyphCount);
+			return ((::System::Boolean(*)(::Il2CppArray<::System::UInt32>*, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&, ::Il2CppArray<::UnityEngine::TextCore::GlyphRect>*, ::System::Int32&, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*, ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_TRYADDGLYPHSTOTEXTURE_INTERNAL_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
-		static ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* GetGlyphPairAdjustmentTable(::Il2CppArray<::System::UInt32>* glyphIndexes)
+		static ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* GetGlyphPairAdjustmentTable(::Il2CppArray<::System::UInt32>* a1)
 		{
-			return ((::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTTABLE_OFFSET))(glyphIndexes);
+			return ((::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTTABLE_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* GetGlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::System::UInt32>* glyphIndexes, ::System::Int32& recordCount)
+		static ::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* GetGlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::System::UInt32>* a1, ::System::Int32& a2)
 		{
-			return ((::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*(*)(::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTRECORDS_OFFSET))(glyphIndexes, recordCount);
+			return ((::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*(*)(::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTRECORDS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes(::Il2CppArray<::System::UInt32>* glyphIndexes, ::System::Int32& recordCount)
+		static ::System::Int32 PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes(::Il2CppArray<::System::UInt32>* a1, ::System::Int32& a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::UInt32>*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_POPULATEPAIRADJUSTMENTRECORDMARSHALLINGARRAY_FROM_GLYPHINDEXES_OFFSET))(glyphIndexes, recordCount);
+			return ((::System::Int32(*)(::Il2CppArray<::System::UInt32>*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_POPULATEPAIRADJUSTMENTRECORDMARSHALLINGARRAY_FROM_GLYPHINDEXES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 GetGlyphPairAdjustmentRecordsFromMarshallingArray(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* glyphPairAdjustmentRecords)
+		static ::System::Int32 GetGlyphPairAdjustmentRecordsFromMarshallingArray(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* a1)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTRECORDSFROMMARSHALLINGARRAY_OFFSET))(glyphPairAdjustmentRecords);
+			return ((::System::Int32(*)(::Il2CppArray<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_GETGLYPHPAIRADJUSTMENTRECORDSFROMMARSHALLINGARRAY_OFFSET))(a1);
 		}
 
-		static ::System::Void ResetAtlasTexture(::UnityEngine::Texture2D* texture)
+		static ::System::Void ResetAtlasTexture(::UnityEngine::Texture2D* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RESETATLASTEXTURE_OFFSET))(texture);
+			return ((::System::Void(*)(::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINE_RESETATLASTEXTURE_OFFSET))(a1);
 		}
 	};
 }

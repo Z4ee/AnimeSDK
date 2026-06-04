@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RTGRIDMOVETOTARGET_METHOD_3_40594EA311C7B5E8_OFFSET UNITYSDK_OFFSET(0x18DD0510)
-#define RPG_GAMECORE_RTGRIDMOVETOTARGET_METHOD_3_83C026395C327724_OFFSET UNITYSDK_OFFSET(0x18DD0370)
-#define RPG_GAMECORE_RTGRIDMOVETOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD03B0)
+#define RPG_GAMECORE_RTGRIDMOVETOTARGET_METHOD_3_88E5AA7ECCE7358D_OFFSET UNITYSDK_OFFSET(0x19BEA0D0)
+#define RPG_GAMECORE_RTGRIDMOVETOTARGET_METHOD_3_A7FE39C6F96041D0_OFFSET UNITYSDK_OFFSET(0x19BEA270)
+#define RPG_GAMECORE_RTGRIDMOVETOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEA110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtGridMoveToTarget_TypeDefinitionIndex = 23112;
+	inline static constexpr unsigned int RtGridMoveToTarget_TypeDefinitionIndex = 22793;
 
 	class RtGridMoveToTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,14 +34,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTGRIDMOVETOTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_83C026395C327724(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtGridMoveToTarget*& a2)
+		static ::System::Void Method_3_88E5AA7ECCE7358D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtGridMoveToTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtGridMoveToTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTGRIDMOVETOTARGET_METHOD_3_83C026395C327724_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtGridMoveToTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTGRIDMOVETOTARGET_METHOD_3_88E5AA7ECCE7358D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_40594EA311C7B5E8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtGridMoveToTarget* a2)
+		static ::System::Void Method_3_A7FE39C6F96041D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtGridMoveToTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtGridMoveToTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTGRIDMOVETOTARGET_METHOD_3_40594EA311C7B5E8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtGridMoveToTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTGRIDMOVETOTARGET_METHOD_3_A7FE39C6F96041D0_OFFSET))(a1, a2);
 		}
 	};
 }

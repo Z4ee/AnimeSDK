@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17649D50)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17649DD0)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17649A00)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x176499E0)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18420B30)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18420BB0)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18420B20)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18420AB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_OnGyroEventDelegate_TypeDefinitionIndex = 6841;
+	inline static constexpr unsigned int SDKDelegate_OnGyroEventDelegate_TypeDefinitionIndex = 7744;
 
 	class SDKDelegate_OnGyroEventDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::WeLing::SDK::GyroType gyroType, ::Il2CppArray<::System::Single>* data)
+		::System::Void Invoke(::WeLing::SDK::GyroType a1, ::Il2CppArray<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_INVOKE_OFFSET))(this, gyroType, data);
+			return ((::System::Void(*)(::PVOID, ::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::WeLing::SDK::GyroType gyroType, ::Il2CppArray<::System::Single>* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::WeLing::SDK::GyroType a1, ::Il2CppArray<::System::Single>* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_BEGININVOKE_OFFSET))(this, gyroType, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

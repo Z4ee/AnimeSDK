@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A702930)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A7029C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A702520)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A702500)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B51EC10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B51ECA0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B51EBE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B51EB70)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__SetKeyboardPositionForOverlay_TypeDefinitionIndex = 35897;
+	inline static constexpr unsigned int IVROverlay__SetKeyboardPositionForOverlay_TypeDefinitionIndex = 36197;
 
 	class IVROverlay__SetKeyboardPositionForOverlay : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::UInt64 ulOverlayHandle, ::ZenFulcrum::VR::OpenVRBinding::HmdRect2_t avoidRect)
+		::System::Void Invoke(::System::UInt64 a1, ::ZenFulcrum::VR::OpenVRBinding::HmdRect2_t a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::HmdRect2_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_INVOKE_OFFSET))(this, ulOverlayHandle, avoidRect);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::HmdRect2_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt64 ulOverlayHandle, ::ZenFulcrum::VR::OpenVRBinding::HmdRect2_t avoidRect, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt64 a1, ::ZenFulcrum::VR::OpenVRBinding::HmdRect2_t a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::HmdRect2_t, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_BEGININVOKE_OFFSET))(this, ulOverlayHandle, avoidRect, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::HmdRect2_t, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETKEYBOARDPOSITIONFOROVERLAY_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

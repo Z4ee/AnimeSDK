@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::AntiCheatCommon { class LogEventParamPair; }
 namespace Epic::OnlineServices::AntiCheatCommon { class LogEventParamPairParamValue; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9E00)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_GET_PARAMVALUE_OFFSET UNITYSDK_OFFSET(0x9B30)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x9D40)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x9CC0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_PARAMVALUE_OFFSET UNITYSDK_OFFSET(0x9C50)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA610)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_GET_PARAMVALUE_OFFSET UNITYSDK_OFFSET(0xA3F0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xA600)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0xA580)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_PARAMVALUE_OFFSET UNITYSDK_OFFSET(0xA510)
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int LogEventParamPairInternal_TypeDefinitionIndex = 42473;
+	inline static constexpr unsigned int LogEventParamPairInternal_TypeDefinitionIndex = 43276;
 
 	struct alignas(8) LogEventParamPairInternal
 	{
@@ -26,19 +26,19 @@ namespace Epic::OnlineServices::AntiCheatCommon
 			return ((::Epic::OnlineServices::AntiCheatCommon::LogEventParamPairParamValue*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_GET_PARAMVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_ParamValue(::Epic::OnlineServices::AntiCheatCommon::LogEventParamPairParamValue* value)
+		::System::Void set_ParamValue(::Epic::OnlineServices::AntiCheatCommon::LogEventParamPairParamValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::LogEventParamPairParamValue*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_PARAMVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::LogEventParamPairParamValue*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_PARAMVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::LogEventParamPair* other)
+		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::LogEventParamPair* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::LogEventParamPair*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::LogEventParamPair*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGEVENTPARAMPAIRINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

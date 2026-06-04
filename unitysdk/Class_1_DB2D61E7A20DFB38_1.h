@@ -3,31 +3,38 @@
 #include "unitysdk/System/Object.h"
 
 class Class_0_16E4307DCC419505_993;
+namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_DB2D61E7A20DFB38_1_GET_STEPS_OFFSET UNITYSDK_OFFSET(0x9206840)
-#define CLASS_1_DB2D61E7A20DFB38_1_SET_STEPS_OFFSET UNITYSDK_OFFSET(0x9206850)
-#define CLASS_1_DB2D61E7A20DFB38_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9206860)
+#define CLASS_1_DB2D61E7A20DFB38_1_GET_BUFFVIEWDATAS_OFFSET UNITYSDK_OFFSET(0xA3B34E0)
+#define CLASS_1_DB2D61E7A20DFB38_1_METHOD_1_0E7A29DE2DA808D9_OFFSET UNITYSDK_OFFSET(0xA3B3240)
+#define CLASS_1_DB2D61E7A20DFB38_1_SET_BUFFVIEWDATAS_OFFSET UNITYSDK_OFFSET(0xA3B34F0)
+#define CLASS_1_DB2D61E7A20DFB38_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA3B32C0)
 
-inline static constexpr unsigned int Class_1_DB2D61E7A20DFB38_1_TypeDefinitionIndex = 66704;
+inline static constexpr unsigned int Class_1_DB2D61E7A20DFB38_1_TypeDefinitionIndex = 66848;
 
 class Class_1_DB2D61E7A20DFB38_1 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>* _Steps_k__BackingField; // 0x10
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>* _BuffViewDatas_k__BackingField; // 0x10
 
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>* a1)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>*))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_1__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>*))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_1__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>* get_Steps()
+	static ::Class_1_DB2D61E7A20DFB38_1* Method_1_0E7A29DE2DA808D9(::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* a1)
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_1_GET_STEPS_OFFSET))(this);
+		return ((::Class_1_DB2D61E7A20DFB38_1*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>*))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_1_METHOD_1_0E7A29DE2DA808D9_OFFSET))(a1);
 	}
 
-	::System::Void set_Steps(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>* value)
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>* get_BuffViewDatas()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>*))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_1_SET_STEPS_OFFSET))(this, value);
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_1_GET_BUFFVIEWDATAS_OFFSET))(this);
+	}
+
+	::System::Void set_BuffViewDatas(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>*))((::PBYTE)hIl2Cpp + CLASS_1_DB2D61E7A20DFB38_1_SET_BUFFVIEWDATAS_OFFSET))(this, a1);
 	}
 };

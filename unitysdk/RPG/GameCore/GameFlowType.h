@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameFlowType_TypeDefinitionIndex = 10343;
+	inline static constexpr unsigned int GameFlowType_TypeDefinitionIndex = 10176;
 
 	enum class GameFlowType : ::System::Int32
 	{
@@ -15,5 +15,6 @@ namespace RPG::GameCore
 		ChenLingBattle = 411,
 		IdleLive = 421,
 		DiceCombatV2 = 422,
+		ChenLingFes = 431,
 	};
 }

@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_UINTKEYGETTER_GET_OFFSET UNITYSDK_OFFSET(0x1707790)
+#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_UINTKEYGETTER_GET_OFFSET UNITYSDK_OFFSET(0x2CB6F50)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CoreUnsafeUtils_UintKeyGetter_TypeDefinitionIndex = 33390;
+	inline static constexpr unsigned int CoreUnsafeUtils_UintKeyGetter_TypeDefinitionIndex = 33672;
 
 	struct alignas(1) CoreUnsafeUtils_UintKeyGetter
 	{
-		::System::UInt32 Get(::System::UInt32& v)
+		::System::UInt32 Get(::System::UInt32& a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUNSAFEUTILS_UINTKEYGETTER_GET_OFFSET))(this, v);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUNSAFEUTILS_UINTKEYGETTER_GET_OFFSET))(this, a1);
 		}
 	};
 }

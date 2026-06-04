@@ -7,27 +7,27 @@ class Class_1_8F355422BD450641;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x118177F0)
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_782FBC558668D4E1_OFFSET UNITYSDK_OFFSET(0x11817FD0)
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_97D3351D9DA48135_OFFSET UNITYSDK_OFFSET(0x11817890)
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_FA5DABCBDCFF09FF_OFFSET UNITYSDK_OFFSET(0x11817790)
-#define CLASS_1_F3EDFB7664C753E1__CTOR_OFFSET UNITYSDK_OFFSET(0x118176F0)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xC975510)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_782FBC558668D4E1_OFFSET UNITYSDK_OFFSET(0xC976050)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_88E44DA7766978B9_OFFSET UNITYSDK_OFFSET(0xC9755B0)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_FA5DABCBDCFF09FF_OFFSET UNITYSDK_OFFSET(0xC9754B0)
+#define CLASS_1_F3EDFB7664C753E1__CTOR_OFFSET UNITYSDK_OFFSET(0xC975410)
 
-inline static constexpr unsigned int Class_1_F3EDFB7664C753E1_TypeDefinitionIndex = 68157;
+inline static constexpr unsigned int Class_1_F3EDFB7664C753E1_TypeDefinitionIndex = 69130;
 
 class Class_1_F3EDFB7664C753E1 : public ::System::Object
 {
 public:
-	::System::String* Field_1_5; // 0x10
-	::System::String* Field_1_6; // 0x18
-	::System::String* Field_1_9; // 0x20
+	::System::String* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::System::String* Field_1_2; // 0x20
 	::System::String* Field_1_3; // 0x28
-	::System::String* Field_1_2; // 0x30
-	::System::String* Field_1_4; // 0x38
-	::System::String* Field_1_0; // 0x40
-	::System::String* Field_1_1; // 0x48
+	::System::String* Field_1_4; // 0x30
+	::System::String* Field_1_5; // 0x38
+	::System::String* Field_1_6; // 0x40
+	::System::String* Field_1_7; // 0x48
 	::System::String* Field_1_8; // 0x50
-	::System::String* Field_1_7; // 0x58
+	::System::String* Field_1_9; // 0x58
 	::Struct_2_E8C1B530F552FEF0 Field_1_10; // 0x60
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
@@ -45,9 +45,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F3EDFB7664C753E1_METHOD_1_4343F372F34C05BF_OFFSET))(this);
 	}
 
-	::System::Void Method_1_97D3351D9DA48135(::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_8F355422BD450641*>* a1)
+	::System::Void Method_1_88E44DA7766978B9(::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_8F355422BD450641*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_8F355422BD450641*>*))((::PBYTE)hIl2Cpp + CLASS_1_F3EDFB7664C753E1_METHOD_1_97D3351D9DA48135_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_8F355422BD450641*>*))((::PBYTE)hIl2Cpp + CLASS_1_F3EDFB7664C753E1_METHOD_1_88E44DA7766978B9_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_782FBC558668D4E1(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_8F355422BD450641*>* a2)

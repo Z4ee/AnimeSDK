@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightEquipTrack; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA48B500)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS22_0__GETEQUIPTRACKSOURCE_B__0_OFFSET UNITYSDK_OFFSET(0xA4931B0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB2F450)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS22_0__GETEQUIPTRACKSOURCE_B__0_OFFSET UNITYSDK_OFFSET(0xBB32AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass22_0_TypeDefinitionIndex = 60150;
+	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass22_0_TypeDefinitionIndex = 61085;
 
 	class GridFightEquipTrackData___c__DisplayClass22_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS22_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetEquipTrackSource_b__0(::RPG::Client::GridFightEquipTrack* track)
+		::System::Boolean _GetEquipTrackSource_b__0(::RPG::Client::GridFightEquipTrack* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipTrack*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS22_0__GETEQUIPTRACKSOURCE_B__0_OFFSET))(this, track);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipTrack*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS22_0__GETEQUIPTRACKSOURCE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

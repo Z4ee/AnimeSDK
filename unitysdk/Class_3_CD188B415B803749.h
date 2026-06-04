@@ -6,17 +6,17 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ElationCharacterUIConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLASS_3_CD188B415B803749_METHOD_3_428CB3C2C99844DC_OFFSET UNITYSDK_OFFSET(0x183247D0)
-#define CLASS_3_CD188B415B803749_METHOD_3_660F257C3D2E4349_OFFSET UNITYSDK_OFFSET(0x18324750)
-#define CLASS_3_CD188B415B803749__CTOR_OFFSET UNITYSDK_OFFSET(0x183247A0)
+#define CLASS_3_CD188B415B803749_METHOD_3_428CB3C2C99844DC_OFFSET UNITYSDK_OFFSET(0x18F52200)
+#define CLASS_3_CD188B415B803749_METHOD_3_660F257C3D2E4349_OFFSET UNITYSDK_OFFSET(0x18F52180)
+#define CLASS_3_CD188B415B803749__CTOR_OFFSET UNITYSDK_OFFSET(0x18F521D0)
 
-inline static constexpr unsigned int Class_3_CD188B415B803749_TypeDefinitionIndex = 22123;
+inline static constexpr unsigned int Class_3_CD188B415B803749_TypeDefinitionIndex = 21911;
 
 class Class_3_CD188B415B803749 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::ElationCharacterUIConfig* Field_3_1; // 0x18
-	::RPG::GameCore::TargetEvaluator* Field_3_0; // 0x20
+	::RPG::GameCore::ElationCharacterUIConfig* Field_3_0; // 0x18
+	::RPG::GameCore::TargetEvaluator* Field_3_1; // 0x20
 	::System::Boolean Field_3_2; // 0x28
 
 	::System::Void _ctor()

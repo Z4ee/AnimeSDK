@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SmellPropConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETSPECIALVISIONON_METHOD_3_02EB6BBE542C65F8_OFFSET UNITYSDK_OFFSET(0x18E42410)
-#define RPG_GAMECORE_SETSPECIALVISIONON_METHOD_3_054D3AA93B8D654E_OFFSET UNITYSDK_OFFSET(0x18E42350)
-#define RPG_GAMECORE_SETSPECIALVISIONON__CTOR_OFFSET UNITYSDK_OFFSET(0x18E423C0)
+#define RPG_GAMECORE_SETSPECIALVISIONON_METHOD_3_068FEB0405989AD7_OFFSET UNITYSDK_OFFSET(0x19C5F020)
+#define RPG_GAMECORE_SETSPECIALVISIONON_METHOD_3_7EAC39CBB429019F_OFFSET UNITYSDK_OFFSET(0x19C5F0E0)
+#define RPG_GAMECORE_SETSPECIALVISIONON__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5F090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSpecialVisionOn_TypeDefinitionIndex = 19470;
+	inline static constexpr unsigned int SetSpecialVisionOn_TypeDefinitionIndex = 19373;
 
 	class SetSpecialVisionOn : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSPECIALVISIONON__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_054D3AA93B8D654E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSpecialVisionOn*& a2)
+		static ::System::Void Method_3_068FEB0405989AD7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSpecialVisionOn*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSpecialVisionOn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSPECIALVISIONON_METHOD_3_054D3AA93B8D654E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSpecialVisionOn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSPECIALVISIONON_METHOD_3_068FEB0405989AD7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_02EB6BBE542C65F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSpecialVisionOn* a2)
+		static ::System::Void Method_3_7EAC39CBB429019F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSpecialVisionOn* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSpecialVisionOn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSPECIALVISIONON_METHOD_3_02EB6BBE542C65F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSpecialVisionOn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSPECIALVISIONON_METHOD_3_7EAC39CBB429019F_OFFSET))(a1, a2);
 		}
 	};
 }

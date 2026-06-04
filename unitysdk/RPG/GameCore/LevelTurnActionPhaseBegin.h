@@ -5,23 +5,23 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6DFDB0)
-#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6DFD60)
-#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GET_ACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0xB6DFE00)
-#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DFD50)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE4DE90)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE4DE40)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GET_ACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0xCE4DEE0)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4DE30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTurnActionPhaseBegin_TypeDefinitionIndex = 52255;
+	inline static constexpr unsigned int LevelTurnActionPhaseBegin_TypeDefinitionIndex = 52952;
 
 	class LevelTurnActionPhaseBegin : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* _ActiveEntity; // 0x10
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* activeEntity)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN__CTOR_OFFSET))(this, activeEntity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

@@ -16,21 +16,21 @@ namespace EnviromentSystemV2Space { class LayoutVector4PropertyData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0xF91EB20)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_5AAB3991004F92F8_OFFSET UNITYSDK_OFFSET(0xF91ED40)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CCTOR_OFFSET UNITYSDK_OFFSET(0xF91FFC0)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xF91FE50)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_B247C6D88E785B91_OFFSET UNITYSDK_OFFSET(0x135D6BE0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_D760CBAEA5983162_OFFSET UNITYSDK_OFFSET(0x135D6E40)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CCTOR_OFFSET UNITYSDK_OFFSET(0x135D8220)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x135D80B0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvDynamicPropLayoutProfile_TypeDefinitionIndex = 45975;
+	inline static constexpr unsigned int EnvDynamicPropLayoutProfile_TypeDefinitionIndex = 46558;
 
 	class EnvDynamicPropLayoutProfile : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>** StaticGet__tempList()
 		{
-			return (::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>**)Il2CppClass::FromTypeDefinitionIndex(EnvDynamicPropLayoutProfile_TypeDefinitionIndex)->GetStaticField(0xC240);
+			return (::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>**)Il2CppClass::FromTypeDefinitionIndex(EnvDynamicPropLayoutProfile_TypeDefinitionIndex)->GetStaticField(0x46B70);
 		}
 		::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutIntPropertyData*>* intPropertyDatas; // 0x18
 		::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutFloatPropertyData*>* floatPropertyDatas; // 0x20
@@ -53,14 +53,14 @@ namespace EnviromentSystemV2Space
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_3_497833CF065C1894()
+		::System::Void Method_3_B247C6D88E785B91()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_497833CF065C1894_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_B247C6D88E785B91_OFFSET))(this);
 		}
 
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>* Method_3_5AAB3991004F92F8()
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>* Method_3_D760CBAEA5983162()
 		{
-			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_5AAB3991004F92F8_OFFSET))(this);
+			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_D760CBAEA5983162_OFFSET))(this);
 		}
 	};
 }

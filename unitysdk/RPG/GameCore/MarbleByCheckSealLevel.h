@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEBYCHECKSEALLEVEL_METHOD_4_13695E74FBA45B80_OFFSET UNITYSDK_OFFSET(0x18A97680)
-#define RPG_GAMECORE_MARBLEBYCHECKSEALLEVEL_METHOD_4_D4823C9FCE1E15F6_OFFSET UNITYSDK_OFFSET(0x18A97760)
-#define RPG_GAMECORE_MARBLEBYCHECKSEALLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18A97710)
+#define RPG_GAMECORE_MARBLEBYCHECKSEALLEVEL_METHOD_4_8D20444D614E7308_OFFSET UNITYSDK_OFFSET(0x198CA840)
+#define RPG_GAMECORE_MARBLEBYCHECKSEALLEVEL_METHOD_4_9AACDC1FB46922D1_OFFSET UNITYSDK_OFFSET(0x198CA920)
+#define RPG_GAMECORE_MARBLEBYCHECKSEALLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x198CA8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByCheckSealLevel_TypeDefinitionIndex = 15982;
+	inline static constexpr unsigned int MarbleByCheckSealLevel_TypeDefinitionIndex = 16032;
 
 	class MarbleByCheckSealLevel : public ::RPG::GameCore::MarblePredicateConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCHECKSEALLEVEL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_13695E74FBA45B80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCheckSealLevel*& a2)
+		static ::System::Void Method_4_8D20444D614E7308(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCheckSealLevel*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCheckSealLevel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCHECKSEALLEVEL_METHOD_4_13695E74FBA45B80_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCheckSealLevel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCHECKSEALLEVEL_METHOD_4_8D20444D614E7308_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D4823C9FCE1E15F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCheckSealLevel* a2)
+		static ::System::Void Method_4_9AACDC1FB46922D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCheckSealLevel* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCheckSealLevel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCHECKSEALLEVEL_METHOD_4_D4823C9FCE1E15F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCheckSealLevel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCHECKSEALLEVEL_METHOD_4_9AACDC1FB46922D1_OFFSET))(a1, a2);
 		}
 	};
 }

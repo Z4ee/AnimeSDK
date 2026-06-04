@@ -19,102 +19,108 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_GAMECORE_FREESTYLECOMPONENT_CREATECONTROLLER_OFFSET UNITYSDK_OFFSET(0xB68F560)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB690500)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_FINDCONTROLLER_OFFSET UNITYSDK_OFFSET(0xB68F410)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_GETCONTROLLER_OFFSET UNITYSDK_OFFSET(0xB68F660)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_ANIMATORMOVECALLBACKORDER_OFFSET UNITYSDK_OFFSET(0xB690B50)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_ANIMATORREF_OFFSET UNITYSDK_OFFSET(0xB690DD0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_CURRENTPLAYINGMOTIONID_OFFSET UNITYSDK_OFFSET(0xB68F2E0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_ENABLEANIMATORMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xB690B60)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_FREESTYLECHARACTERCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xB68F170)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_FREESTYLECHARACTERID_OFFSET UNITYSDK_OFFSET(0xB68F0F0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_FREESTYLEINSTANCE_OFFSET UNITYSDK_OFFSET(0xB690DE0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_ISPLAYING_OFFSET UNITYSDK_OFFSET(0xB68F280)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_RUNTIMEINFO_OFFSET UNITYSDK_OFFSET(0xB68F360)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_INITCOMPONENTASSETS_OFFSET UNITYSDK_OFFSET(0xB68F1F0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xB6588D0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_ISOUTFREESTYLESTATE_OFFSET UNITYSDK_OFFSET(0xB690370)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_ISTRANSITIONOUTFREESTYLESTATE_OFFSET UNITYSDK_OFFSET(0xB690260)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_JUMPTOLOOP_OFFSET UNITYSDK_OFFSET(0xB6904A0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB690AD0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_ONANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0xB690B70)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_ONANIMSTATEPLAY_OFFSET UNITYSDK_OFFSET(0xB690C30)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_ONFREESTYLEPLAY_OFFSET UNITYSDK_OFFSET(0xB690CD0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0xB6907C0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0xB690940)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINFIXEDTIME_OFFSET UNITYSDK_OFFSET(0xB68FCE0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINTERACTIONINFIXEDTIME_OFFSET UNITYSDK_OFFSET(0xB68FE20)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINTERACTION_OFFSET UNITYSDK_OFFSET(0xB68FD80)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATE_OFFSET UNITYSDK_OFFSET(0xB68FC40)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEFORAVATAR_OFFSET UNITYSDK_OFFSET(0xB68FA20)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEINTERACTIONGRAPH_OFFSET UNITYSDK_OFFSET(0xB68FED0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEINTERACTION_OFFSET UNITYSDK_OFFSET(0xB68FB20)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEONEXTENDLAYER_OFFSET UNITYSDK_OFFSET(0xB68E730)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLE_OFFSET UNITYSDK_OFFSET(0xB68F7E0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYINITFREESTYLE_OFFSET UNITYSDK_OFFSET(0xB68FF60)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYMOCAP_OFFSET UNITYSDK_OFFSET(0xB690000)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_RECOVERRUNTIMEINFO_OFFSET UNITYSDK_OFFSET(0xB68F6A0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0xB690DF0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_SETCONTROLMODE_OFFSET UNITYSDK_OFFSET(0xB68F730)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_SETUPCHARACTERID_OFFSET UNITYSDK_OFFSET(0xB68EFD0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_SET_FREESTYLECHARACTERCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xB68F190)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_SET_FREESTYLECHARACTERID_OFFSET UNITYSDK_OFFSET(0xB68F110)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_1_OFFSET UNITYSDK_OFFSET(0xB68E940)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_2_OFFSET UNITYSDK_OFFSET(0xB68ED40)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_3_OFFSET UNITYSDK_OFFSET(0xB68EE00)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_OFFSET UNITYSDK_OFFSET(0xB68E890)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLE_1_OFFSET UNITYSDK_OFFSET(0xB6901E0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLE_OFFSET UNITYSDK_OFFSET(0xB6900D0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0xB6909F0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB68EEE0)
-#define RPG_GAMECORE_FREESTYLECOMPONENT__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xB68EF70)
-#define RPG_GAMECORE_FREESTYLECOMPONENT___IFIXBASEPROXY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB690F60)
-#define RPG_GAMECORE_FREESTYLECOMPONENT___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xB690F50)
-#define RPG_GAMECORE_FREESTYLECOMPONENT___IFIXBASEPROXY__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xB690ED0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_CREATECONTROLLER_OFFSET UNITYSDK_OFFSET(0xCDF9C70)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCDFAC00)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_FINDCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCDF9B30)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_GETCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCDF9D70)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_GETCURRENTPLAYINGMOTIONIDONEXTENDLAYER_OFFSET UNITYSDK_OFFSET(0xCDF8A00)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_ANIMATORMOVECALLBACKORDER_OFFSET UNITYSDK_OFFSET(0xCDFB230)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_ANIMATORREF_OFFSET UNITYSDK_OFFSET(0xCDFB4B0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_CURRENTPLAYINGMOTIONID_OFFSET UNITYSDK_OFFSET(0xCDF9A00)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_ENABLEANIMATORMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xCDFB240)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_FREESTYLECHARACTERCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xCDF9550)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_FREESTYLECHARACTERID_OFFSET UNITYSDK_OFFSET(0xCDF94D0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_FREESTYLEINSTANCE_OFFSET UNITYSDK_OFFSET(0xCDFB4C0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_ISPLAYING_OFFSET UNITYSDK_OFFSET(0xCDF99A0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_GET_RUNTIMEINFO_OFFSET UNITYSDK_OFFSET(0xCDF9A80)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_INITCOMPONENTASSETS_OFFSET UNITYSDK_OFFSET(0xCDF9910)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xCDF95D0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_ISOUTFREESTYLESTATE_OFFSET UNITYSDK_OFFSET(0xCDFAA70)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_ISTRANSITIONOUTFREESTYLESTATE_OFFSET UNITYSDK_OFFSET(0xCDFA960)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_JUMPTOLOOP_OFFSET UNITYSDK_OFFSET(0xCDFABA0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCDFB1B0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_ONANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0xCDFB250)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_ONANIMSTATEPLAY_OFFSET UNITYSDK_OFFSET(0xCDFB310)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_ONFREESTYLEPLAY_OFFSET UNITYSDK_OFFSET(0xCDFB3B0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0xCDFAEB0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0xCDFB020)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINFIXEDTIME_OFFSET UNITYSDK_OFFSET(0xCDFA3E0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINTERACTIONINFIXEDTIME_OFFSET UNITYSDK_OFFSET(0xCDFA520)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINTERACTION_OFFSET UNITYSDK_OFFSET(0xCDFA480)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATE_OFFSET UNITYSDK_OFFSET(0xCDFA340)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEFORAVATAR_OFFSET UNITYSDK_OFFSET(0xCDFA130)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEINTERACTIONGRAPH_OFFSET UNITYSDK_OFFSET(0xCDFA5D0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEINTERACTION_OFFSET UNITYSDK_OFFSET(0xCDFA220)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEONEXTENDLAYER_OFFSET UNITYSDK_OFFSET(0xCDF8B10)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLE_OFFSET UNITYSDK_OFFSET(0xCDF9EF0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYINITFREESTYLE_OFFSET UNITYSDK_OFFSET(0xCDFA660)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_PLAYMOCAP_OFFSET UNITYSDK_OFFSET(0xCDFA700)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_RECOVERRUNTIMEINFO_OFFSET UNITYSDK_OFFSET(0xCDF9DB0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0xCDFB4D0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_SETCONTROLMODE_OFFSET UNITYSDK_OFFSET(0xCDF9E40)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_SETUPCHARACTERID_OFFSET UNITYSDK_OFFSET(0xCDF93C0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_SET_FREESTYLECHARACTERCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xCDF9570)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_SET_FREESTYLECHARACTERID_OFFSET UNITYSDK_OFFSET(0xCDF94F0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_1_OFFSET UNITYSDK_OFFSET(0xCDF8D30)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_2_OFFSET UNITYSDK_OFFSET(0xCDF9130)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_3_OFFSET UNITYSDK_OFFSET(0xCDF91F0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_OFFSET UNITYSDK_OFFSET(0xCDF8C80)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLE_1_OFFSET UNITYSDK_OFFSET(0xCDFA8E0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLE_OFFSET UNITYSDK_OFFSET(0xCDFA7D0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0xCDFB0D0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF92D0)
+#define RPG_GAMECORE_FREESTYLECOMPONENT__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xCDF9360)
+#define RPG_GAMECORE_FREESTYLECOMPONENT___IFIXBASEPROXY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCDFB640)
+#define RPG_GAMECORE_FREESTYLECOMPONENT___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xCDFB630)
+#define RPG_GAMECORE_FREESTYLECOMPONENT___IFIXBASEPROXY__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xCDFB5B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleComponent_TypeDefinitionIndex = 52781;
+	inline static constexpr unsigned int FreeStyleComponent_TypeDefinitionIndex = 53487;
 
 	class FreeStyleComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
-		::RPG::Client::MockAnimator* _Animator; // 0x18
-		::Struct_2_2B16FFFF87B43037 _RootMotionHandle; // 0x20
-		::Class_1_D7003CCDED916330* _FreeStyleInstance; // 0x30
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EFreeStyleControlMode, ::RPG::GameCore::FreeStyleController*>* _FreeStyleControllerMap; // 0x38
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EFreeStyleControlMode, ::RPG::GameCore::FreeStyleController*>* _FreeStyleControllerMap; // 0x18
+		::RPG::GameCore::TaskContext* _EventContext; // 0x20
+		::Struct_2_2B16FFFF87B43037 _RootMotionHandle; // 0x28
+		::Class_1_D7003CCDED916330* _FreeStyleInstance; // 0x38
 		::RPG::GameCore::FreeStyleController* _CurrentController; // 0x40
-		::RPG::GameCore::TaskContext* _EventContext; // 0x48
+		::RPG::Client::MockAnimator* _Animator; // 0x48
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void PlayFreeStyleOnExtendLayer(::System::String* layerName, ::System::UInt32 motionID, ::RPG::GameCore::FreeStyleMotionInfoConfig* motionInfoConfig, ::System::Nullable_1<::Struct_2_648594091F1A68D6> motionStartInfo, ::System::Boolean disableAnimEvent)
+		::System::UInt32 GetCurrentPlayingMotionIDOnExtendLayer(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::Struct_2_648594091F1A68D6>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEONEXTENDLAYER_OFFSET))(this, layerName, motionID, motionInfoConfig, motionStartInfo, disableAnimEvent);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_GETCURRENTPLAYINGMOTIONIDONEXTENDLAYER_OFFSET))(this, a1);
 		}
 
-		::System::Void StopFreeStyleOnExtendLayer(::System::Boolean bCrossFadeToIdle)
+		::System::Void PlayFreeStyleOnExtendLayer(::System::String* a1, ::System::UInt32 a2, ::RPG::GameCore::FreeStyleMotionInfoConfig* a3, ::System::Nullable_1<::Struct_2_648594091F1A68D6> a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_OFFSET))(this, bCrossFadeToIdle);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::Struct_2_648594091F1A68D6>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEONEXTENDLAYER_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void StopFreeStyleOnExtendLayer_1(::System::Boolean bCrossFadeToIdle, ::Struct_2_D3B84DD3734B83D6 transitionTime)
+		::System::Void StopFreeStyleOnExtendLayer(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_1_OFFSET))(this, bCrossFadeToIdle, transitionTime);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_OFFSET))(this, a1);
 		}
 
-		::System::Void StopFreeStyleOnExtendLayer_2(::System::String* layerName, ::System::Boolean bCrossFadeToIdle)
+		::System::Void StopFreeStyleOnExtendLayer_1(::System::Boolean a1, ::Struct_2_D3B84DD3734B83D6 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_2_OFFSET))(this, layerName, bCrossFadeToIdle);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void StopFreeStyleOnExtendLayer_3(::System::String* layerName, ::System::Boolean bCrossFadeToIdle, ::Struct_2_D3B84DD3734B83D6 transitionTime)
+		::System::Void StopFreeStyleOnExtendLayer_2(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_3_OFFSET))(this, layerName, bCrossFadeToIdle, transitionTime);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_2_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void StopFreeStyleOnExtendLayer_3(::System::String* a1, ::System::Boolean a2, ::Struct_2_D3B84DD3734B83D6 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLEONEXTENDLAYER_3_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _OnInitOwnerRef()
@@ -122,19 +128,19 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT__ONINITOWNERREF_OFFSET))(this);
 		}
 
-		::System::Void SetupCharacterID(::System::String* freeStyleCharacterID, ::System::String* freeStyleCharacterConfigPath)
+		::System::Void SetupCharacterID(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_SETUPCHARACTERID_OFFSET))(this, freeStyleCharacterID, freeStyleCharacterConfigPath);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_SETUPCHARACTERID_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InitComponent(::System::String* freeStyleCharacterID, ::System::String* freeStyleCharacterConfigPath, ::RPG::Client::MockAnimator* animator)
+		::System::Void InitComponent(::System::String* a1, ::System::String* a2, ::RPG::Client::MockAnimator* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::MockAnimator*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_INITCOMPONENT_OFFSET))(this, freeStyleCharacterID, freeStyleCharacterConfigPath, animator);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::MockAnimator*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_INITCOMPONENT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void InitComponentAssets(::System::UInt32 npcDefDefaultIdleFreeStyleMotionID, ::System::Action* onloadFinish)
+		::System::Void InitComponentAssets(::System::UInt32 a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_INITCOMPONENTASSETS_OFFSET))(this, npcDefDefaultIdleFreeStyleMotionID, onloadFinish);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_INITCOMPONENTASSETS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsPlaying()
@@ -152,9 +158,9 @@ namespace RPG::GameCore
 			return ((::Struct_2_127EAB4936C75FCC(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_GET_RUNTIMEINFO_OFFSET))(this);
 		}
 
-		::RPG::GameCore::FreeStyleController* FindController(::RPG::GameCore::EFreeStyleControlMode mode, ::System::Boolean required)
+		::RPG::GameCore::FreeStyleController* FindController(::RPG::GameCore::EFreeStyleControlMode a1, ::System::Boolean a2)
 		{
-			return ((::RPG::GameCore::FreeStyleController*(*)(::PVOID, ::RPG::GameCore::EFreeStyleControlMode, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_FINDCONTROLLER_OFFSET))(this, mode, required);
+			return ((::RPG::GameCore::FreeStyleController*(*)(::PVOID, ::RPG::GameCore::EFreeStyleControlMode, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_FINDCONTROLLER_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::FreeStyleController* GetController()
@@ -162,69 +168,69 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::FreeStyleController*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_GETCONTROLLER_OFFSET))(this);
 		}
 
-		::System::Void RecoverRuntimeInfo(::Struct_2_127EAB4936C75FCC runtimeInfo)
+		::System::Void RecoverRuntimeInfo(::Struct_2_127EAB4936C75FCC a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_127EAB4936C75FCC))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_RECOVERRUNTIMEINFO_OFFSET))(this, runtimeInfo);
+			return ((::System::Void(*)(::PVOID, ::Struct_2_127EAB4936C75FCC))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_RECOVERRUNTIMEINFO_OFFSET))(this, a1);
 		}
 
-		::System::Void PlayFreeStyle(::System::UInt32 motionID, ::RPG::GameCore::FreeStyleMotionInfoConfig* motionInfoConfig, ::System::Nullable_1<::Struct_2_648594091F1A68D6> motionStartInfo, ::System::Boolean disableAnimEvent)
+		::System::Void PlayFreeStyle(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::Struct_2_648594091F1A68D6> a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::Struct_2_648594091F1A68D6>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLE_OFFSET))(this, motionID, motionInfoConfig, motionStartInfo, disableAnimEvent);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::Struct_2_648594091F1A68D6>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void PlayFreeStyleForAvatar(::System::UInt32 avatarID, ::System::UInt32 motionID, ::RPG::GameCore::FreeStyleMotionInfoConfig* motionInfoConfig, ::System::Nullable_1<::Struct_2_648594091F1A68D6> motionStartInfo, ::System::Boolean disableAnimEvent)
+		::System::Void PlayFreeStyleForAvatar(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::FreeStyleMotionInfoConfig* a3, ::System::Nullable_1<::Struct_2_648594091F1A68D6> a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::Struct_2_648594091F1A68D6>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEFORAVATAR_OFFSET))(this, avatarID, motionID, motionInfoConfig, motionStartInfo, disableAnimEvent);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::Struct_2_648594091F1A68D6>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEFORAVATAR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void PlayFreeStyleInteraction(::System::UInt32 motionID, ::RPG::GameCore::FreeStyleMotionInfoConfig* motionInfoConfig, ::System::Nullable_1<::Struct_2_648594091F1A68D6> motionStartInfo, ::System::Boolean disableAnimEvent, ::System::Nullable_1<::System::Single> overrideStartMotionExitNormalizedTime, ::System::Boolean fastMoveState)
+		::System::Void PlayFreeStyleInteraction(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::Struct_2_648594091F1A68D6> a3, ::System::Boolean a4, ::System::Nullable_1<::System::Single> a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::Struct_2_648594091F1A68D6>, ::System::Boolean, ::System::Nullable_1<::System::Single>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEINTERACTION_OFFSET))(this, motionID, motionInfoConfig, motionStartInfo, disableAnimEvent, overrideStartMotionExitNormalizedTime, fastMoveState);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::Struct_2_648594091F1A68D6>, ::System::Boolean, ::System::Nullable_1<::System::Single>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEINTERACTION_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void PlayAnimState(::System::Int32 stateNameHash, ::System::Single normalizedTransitionTime, ::System::Single normalizedStartTime)
+		::System::Void PlayAnimState(::System::Int32 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATE_OFFSET))(this, stateNameHash, normalizedTransitionTime, normalizedStartTime);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PlayAnimStateInFixedTime(::System::Int32 stateNameHash, ::System::Single normalizedTransitionTime, ::System::Single normalizedStartTime)
+		::System::Void PlayAnimStateInFixedTime(::System::Int32 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINFIXEDTIME_OFFSET))(this, stateNameHash, normalizedTransitionTime, normalizedStartTime);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINFIXEDTIME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PlayAnimStateInteraction(::System::Int32 animStateHash, ::System::Single normalizedTransitionTime, ::System::Single normalizedStartTime)
+		::System::Void PlayAnimStateInteraction(::System::Int32 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINTERACTION_OFFSET))(this, animStateHash, normalizedTransitionTime, normalizedStartTime);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINTERACTION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PlayAnimStateInteractionInFixedTime(::System::Int32 animStateHash, ::System::Single transitionTime, ::System::Single startTime)
+		::System::Void PlayAnimStateInteractionInFixedTime(::System::Int32 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINTERACTIONINFIXEDTIME_OFFSET))(this, animStateHash, transitionTime, startTime);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYANIMSTATEINTERACTIONINFIXEDTIME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PlayFreeStyleInteractionGraph(::System::String* graphName, ::Struct_2_D3B84DD3734B83D6 transitionTime)
+		::System::Void PlayFreeStyleInteractionGraph(::System::String* a1, ::Struct_2_D3B84DD3734B83D6 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEINTERACTIONGRAPH_OFFSET))(this, graphName, transitionTime);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEINTERACTIONGRAPH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PlayInitFreeStyle(::System::UInt32 motionID)
+		::System::Void PlayInitFreeStyle(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYINITFREESTYLE_OFFSET))(this, motionID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYINITFREESTYLE_OFFSET))(this, a1);
 		}
 
-		::System::Void PlayMocap(::UnityEngine::AnimationClip* animClip)
+		::System::Void PlayMocap(::UnityEngine::AnimationClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYMOCAP_OFFSET))(this, animClip);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYMOCAP_OFFSET))(this, a1);
 		}
 
-		::System::Void StopFreeStyle(::System::Boolean bCrossFadeToIdle)
+		::System::Void StopFreeStyle(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLE_OFFSET))(this, bCrossFadeToIdle);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLE_OFFSET))(this, a1);
 		}
 
-		::System::Void StopFreeStyle_1(::System::Boolean bCrossFadeToIdle, ::Struct_2_D3B84DD3734B83D6 transitionTime)
+		::System::Void StopFreeStyle_1(::System::Boolean a1, ::Struct_2_D3B84DD3734B83D6 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLE_1_OFFSET))(this, bCrossFadeToIdle, transitionTime);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_STOPFREESTYLE_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsTransitionOutFreeStyleState()
@@ -257,14 +263,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_ONMODELARTUNLOADED_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void LateUpdate(::System::Single fElapsedTimeInSec)
+		::System::Void LateUpdate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_LATEUPDATE_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_LATEUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_AnimatorMoveCallbackOrder()
@@ -277,29 +283,29 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_GET_ENABLEANIMATORMOVECALLBACK_OFFSET))(this);
 		}
 
-		::System::Void OnAnimatorMove(::UnityEngine::Animator* animator)
+		::System::Void OnAnimatorMove(::UnityEngine::Animator* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_ONANIMATORMOVE_OFFSET))(this, animator);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_ONANIMATORMOVE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnAnimStatePlay(::System::Int32 stateHash, ::Struct_2_D3B84DD3734B83D6 time)
+		::System::Void OnAnimStatePlay(::System::Int32 a1, ::Struct_2_D3B84DD3734B83D6 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_ONANIMSTATEPLAY_OFFSET))(this, stateHash, time);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_ONANIMSTATEPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnFreeStylePlay(::System::UInt32 motionID, ::Struct_2_D3B84DD3734B83D6 time)
+		::System::Void OnFreeStylePlay(::System::UInt32 a1, ::Struct_2_D3B84DD3734B83D6 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_ONFREESTYLEPLAY_OFFSET))(this, motionID, time);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Struct_2_D3B84DD3734B83D6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_ONFREESTYLEPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetControlMode(::RPG::GameCore::EFreeStyleControlMode mode)
+		::System::Void SetControlMode(::RPG::GameCore::EFreeStyleControlMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EFreeStyleControlMode))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_SETCONTROLMODE_OFFSET))(this, mode);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EFreeStyleControlMode))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_SETCONTROLMODE_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::FreeStyleController* CreateController(::RPG::GameCore::EFreeStyleControlMode mode)
+		::RPG::GameCore::FreeStyleController* CreateController(::RPG::GameCore::EFreeStyleControlMode a1)
 		{
-			return ((::RPG::GameCore::FreeStyleController*(*)(::PVOID, ::RPG::GameCore::EFreeStyleControlMode))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_CREATECONTROLLER_OFFSET))(this, mode);
+			return ((::RPG::GameCore::FreeStyleController*(*)(::PVOID, ::RPG::GameCore::EFreeStyleControlMode))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_CREATECONTROLLER_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MockAnimator* get_AnimatorRef()
@@ -312,9 +318,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_GET_FREESTYLECHARACTERID_OFFSET))(this);
 		}
 
-		::System::Void set_FreeStyleCharacterID(::System::String* value)
+		::System::Void set_FreeStyleCharacterID(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_SET_FREESTYLECHARACTERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_SET_FREESTYLECHARACTERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_FreeStyleCharacterConfigPath()
@@ -322,9 +328,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_GET_FREESTYLECHARACTERCONFIGPATH_OFFSET))(this);
 		}
 
-		::System::Void set_FreeStyleCharacterConfigPath(::System::String* value)
+		::System::Void set_FreeStyleCharacterConfigPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_SET_FREESTYLECHARACTERCONFIGPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_SET_FREESTYLECHARACTERCONFIGPATH_OFFSET))(this, a1);
 		}
 
 		::Class_1_D7003CCDED916330* get_FreeStyleInstance()
@@ -342,14 +348,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT___IFIXBASEPROXY__ONINITOWNERREF_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+		::System::Void __iFixBaseProxy_Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_LateUpdate(::System::Single P0)
+		::System::Void __iFixBaseProxy_LateUpdate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT___IFIXBASEPROXY_LATEUPDATE_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT___IFIXBASEPROXY_LATEUPDATE_OFFSET))(this, a1);
 		}
 	};
 }

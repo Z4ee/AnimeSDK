@@ -6,27 +6,27 @@
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK::Win { class CNPayPlatManager; }
 
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS54_1__CTOR_OFFSET UNITYSDK_OFFSET(0x176D8DC0)
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS54_1__ONCREATEORDER_B__4_OFFSET UNITYSDK_OFFSET(0x176DC820)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS54_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18497480)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS54_1__ONCREATEORDER_B__4_OFFSET UNITYSDK_OFFSET(0x1849AFD0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int CNPayPlatManager___c__DisplayClass54_1_TypeDefinitionIndex = 8032;
+	inline static constexpr unsigned int CNPayPlatManager___c__DisplayClass54_1_TypeDefinitionIndex = 8935;
 
 	class CNPayPlatManager___c__DisplayClass54_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::CNPayPlatManager* __4__this; // 0x10
-		::MiHoYo::SDK::JSONObject* cBodyJson; // 0x18
+		::MiHoYo::SDK::JSONObject* cBodyJson; // 0x10
+		::MiHoYo::SDK::Win::CNPayPlatManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS54_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnCreateOrder_b__4(::MiHoYo::SDK::Alert_AlertResult result)
+		::System::Void _OnCreateOrder_b__4(::MiHoYo::SDK::Alert_AlertResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS54_1__ONCREATEORDER_B__4_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS54_1__ONCREATEORDER_B__4_OFFSET))(this, a1);
 		}
 	};
 }

@@ -9,24 +9,24 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine { class Material; }
 
-#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_1_OFFSET UNITYSDK_OFFSET(0x12BBF3E0)
-#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_2_OFFSET UNITYSDK_OFFSET(0x12BBF560)
-#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x12BBF280)
-#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_OFFSET UNITYSDK_OFFSET(0x12BBF330)
-#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_RELEASE_OFFSET UNITYSDK_OFFSET(0x12BBA3A0)
-#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_VALID_OFFSET UNITYSDK_OFFSET(0x12BBABD0)
-#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BBF6F0)
+#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_1_OFFSET UNITYSDK_OFFSET(0x1467CDA0)
+#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_2_OFFSET UNITYSDK_OFFSET(0x1467CF40)
+#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1467CC60)
+#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_OFFSET UNITYSDK_OFFSET(0x1467CCF0)
+#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_RELEASE_OFFSET UNITYSDK_OFFSET(0x14677C20)
+#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_VALID_OFFSET UNITYSDK_OFFSET(0x14678440)
+#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1467D0F0)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int MaterialRepository_TypeDefinitionIndex = 40689;
+	inline static constexpr unsigned int MaterialRepository_TypeDefinitionIndex = 41516;
 
 	class MaterialRepository : public ::System::Object
 	{
 	public:
 		static ::Coffee::UIParticleInternal::ObjectRepository_1<::UnityEngine::Material*>** StaticGet_s_Repository()
 		{
-			return (::Coffee::UIParticleInternal::ObjectRepository_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialRepository_TypeDefinitionIndex)->GetStaticField(0x1500);
+			return (::Coffee::UIParticleInternal::ObjectRepository_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialRepository_TypeDefinitionIndex)->GetStaticField(0x1430);
 		}
 
 		static ::System::Void _cctor()
@@ -39,29 +39,29 @@ namespace Coffee::UIParticleInternal
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_COUNT_OFFSET))();
 		}
 
-		static ::System::Boolean Valid(::UnityEngine::Hash128 hash, ::UnityEngine::Material* material)
+		static ::System::Boolean Valid(::UnityEngine::Hash128 a1, ::UnityEngine::Material* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Hash128, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_VALID_OFFSET))(hash, material);
+			return ((::System::Boolean(*)(::UnityEngine::Hash128, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_VALID_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Get(::UnityEngine::Hash128 hash, ::UnityEngine::Material*& material, ::System::Func_1<::UnityEngine::Material*>* onCreate)
+		static ::System::Void Get(::UnityEngine::Hash128 a1, ::UnityEngine::Material*& a2, ::System::Func_1<::UnityEngine::Material*>* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Hash128, ::UnityEngine::Material*&, ::System::Func_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_OFFSET))(hash, material, onCreate);
+			return ((::System::Void(*)(::UnityEngine::Hash128, ::UnityEngine::Material*&, ::System::Func_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Get_1(::UnityEngine::Hash128 hash, ::UnityEngine::Material*& material, ::System::String* shaderName)
+		static ::System::Void Get_1(::UnityEngine::Hash128 a1, ::UnityEngine::Material*& a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Hash128, ::UnityEngine::Material*&, ::System::String*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_1_OFFSET))(hash, material, shaderName);
+			return ((::System::Void(*)(::UnityEngine::Hash128, ::UnityEngine::Material*&, ::System::String*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Get_2(::UnityEngine::Hash128 hash, ::UnityEngine::Material*& material, ::System::String* shaderName, ::Il2CppArray<::System::String*>* keywords)
+		static ::System::Void Get_2(::UnityEngine::Hash128 a1, ::UnityEngine::Material*& a2, ::System::String* a3, ::Il2CppArray<::System::String*>* a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Hash128, ::UnityEngine::Material*&, ::System::String*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_2_OFFSET))(hash, material, shaderName, keywords);
+			return ((::System::Void(*)(::UnityEngine::Hash128, ::UnityEngine::Material*&, ::System::String*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_GET_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Release(::UnityEngine::Material*& material)
+		static ::System::Void Release(::UnityEngine::Material*& a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Material*&))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_RELEASE_OFFSET))(material);
+			return ((::System::Void(*)(::UnityEngine::Material*&))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY_RELEASE_OFFSET))(a1);
 		}
 	};
 }

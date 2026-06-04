@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_MUSICRHYTHMPROP__CTOR_OFFSET UNITYSDK_OFFSET(0xAE55E30)
+#define RPG_CLIENT_PROP_MUSICRHYTHMPROP__CTOR_OFFSET UNITYSDK_OFFSET(0xC59A650)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int MusicRhythmProp_TypeDefinitionIndex = 71679;
+	inline static constexpr unsigned int MusicRhythmProp_TypeDefinitionIndex = 72701;
 
 	class MusicRhythmProp : public ::UnityEngine::MonoBehaviour
 	{

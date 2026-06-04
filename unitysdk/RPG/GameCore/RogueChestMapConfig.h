@@ -8,12 +8,12 @@ namespace RPG::GameCore { class RogueChestGridItem; }
 namespace RPG::GameCore { class RogueChestModifierEvent; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUECHESTMAPCONFIG_METHOD_2_A068E300B1EE4746_OFFSET UNITYSDK_OFFSET(0x18CF4840)
-#define RPG_GAMECORE_ROGUECHESTMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF4B70)
+#define RPG_GAMECORE_ROGUECHESTMAPCONFIG_METHOD_2_857192509F1C804E_OFFSET UNITYSDK_OFFSET(0x19B19BA0)
+#define RPG_GAMECORE_ROGUECHESTMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B19ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueChestMapConfig_TypeDefinitionIndex = 17010;
+	inline static constexpr unsigned int RogueChestMapConfig_TypeDefinitionIndex = 17024;
 
 	class RogueChestMapConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECHESTMAPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A068E300B1EE4746(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueChestMapConfig*& a2)
+		static ::System::Void Method_2_857192509F1C804E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueChestMapConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueChestMapConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECHESTMAPCONFIG_METHOD_2_A068E300B1EE4746_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueChestMapConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECHESTMAPCONFIG_METHOD_2_857192509F1C804E_OFFSET))(a1, a2);
 		}
 	};
 }

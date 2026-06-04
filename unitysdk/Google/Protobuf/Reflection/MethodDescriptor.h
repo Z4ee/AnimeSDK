@@ -8,26 +8,26 @@ namespace Google::Protobuf::Reflection { class MethodDescriptorProto; }
 namespace Google::Protobuf::Reflection { class ServiceDescriptor; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x171138D0)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17113860)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x17113850)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x171136F0)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x17E738E0)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17E73870)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x17E73860)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E73700)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MethodDescriptor_TypeDefinitionIndex = 6351;
+	inline static constexpr unsigned int MethodDescriptor_TypeDefinitionIndex = 5553;
 
 	class MethodDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::Google::Protobuf::Reflection::MessageDescriptor* inputType; // 0x28
+		::Google::Protobuf::Reflection::MethodDescriptorProto* proto; // 0x28
 		::Google::Protobuf::Reflection::ServiceDescriptor* service; // 0x30
 		::Google::Protobuf::Reflection::MessageDescriptor* outputType; // 0x38
-		::Google::Protobuf::Reflection::MethodDescriptorProto* proto; // 0x40
+		::Google::Protobuf::Reflection::MessageDescriptor* inputType; // 0x40
 
-		::System::Void _ctor(::Google::Protobuf::Reflection::MethodDescriptorProto* proto, ::Google::Protobuf::Reflection::FileDescriptor* file, ::Google::Protobuf::Reflection::ServiceDescriptor* parent, ::System::Int32 index)
+		::System::Void _ctor(::Google::Protobuf::Reflection::MethodDescriptorProto* a1, ::Google::Protobuf::Reflection::FileDescriptor* a2, ::Google::Protobuf::Reflection::ServiceDescriptor* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::MethodDescriptorProto*, ::Google::Protobuf::Reflection::FileDescriptor*, ::Google::Protobuf::Reflection::ServiceDescriptor*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET))(this, proto, file, parent, index);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::MethodDescriptorProto*, ::Google::Protobuf::Reflection::FileDescriptor*, ::Google::Protobuf::Reflection::ServiceDescriptor*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::Google::Protobuf::Reflection::MethodDescriptorProto* get_Proto()

@@ -7,13 +7,13 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EZYSLICE_TRIANGULATOR_MONOTONECHAIN_1_OFFSET UNITYSDK_OFFSET(0x8C09F40)
-#define EZYSLICE_TRIANGULATOR_MONOTONECHAIN_OFFSET UNITYSDK_OFFSET(0x8C0BDC0)
-#define EZYSLICE_TRIANGULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x8C0BE60)
+#define EZYSLICE_TRIANGULATOR_MONOTONECHAIN_1_OFFSET UNITYSDK_OFFSET(0xA116130)
+#define EZYSLICE_TRIANGULATOR_MONOTONECHAIN_OFFSET UNITYSDK_OFFSET(0xA117F10)
+#define EZYSLICE_TRIANGULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA117FB0)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Triangulator_TypeDefinitionIndex = 43814;
+	inline static constexpr unsigned int Triangulator_TypeDefinitionIndex = 44356;
 
 	class Triangulator : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace EzySlice
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGULATOR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Boolean MonotoneChain(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* vertices, ::UnityEngine::Vector3 normal, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*& tri)
+		static ::System::Boolean MonotoneChain(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1, ::UnityEngine::Vector3 a2, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*& a3)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*&))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGULATOR_MONOTONECHAIN_OFFSET))(vertices, normal, tri);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*&))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGULATOR_MONOTONECHAIN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean MonotoneChain_1(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* vertices, ::UnityEngine::Vector3 normal, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*& tri, ::EzySlice::TextureRegion texRegion)
+		static ::System::Boolean MonotoneChain_1(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1, ::UnityEngine::Vector3 a2, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*& a3, ::EzySlice::TextureRegion a4)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*&, ::EzySlice::TextureRegion))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGULATOR_MONOTONECHAIN_1_OFFSET))(vertices, normal, tri, texRegion);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*&, ::EzySlice::TextureRegion))((::PBYTE)hIl2Cpp + EZYSLICE_TRIANGULATOR_MONOTONECHAIN_1_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

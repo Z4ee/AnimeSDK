@@ -6,34 +6,29 @@ namespace RPG::Client { class MonsterGuideSkillData; }
 namespace RPG::GameCore { class MonsterGuidePhaseConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xAACB740)
-#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xAACB780)
-#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_GET_SKILLLIST_OFFSET UNITYSDK_OFFSET(0xAACB760)
-#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xAACB750)
-#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0xAACB790)
-#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_SKILLLIST_OFFSET UNITYSDK_OFFSET(0xAACB770)
-#define RPG_CLIENT_MONSTERGUIDEPHASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAACB2D0)
-#define RPG_CLIENT_MONSTERGUIDEPHASEDATA__INITSKILLDATA_OFFSET UNITYSDK_OFFSET(0xAACB580)
+#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xC19B8B0)
+#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xC19B8F0)
+#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_GET_SKILLLIST_OFFSET UNITYSDK_OFFSET(0xC19B8D0)
+#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xC19B8C0)
+#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0xC19B900)
+#define RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_SKILLLIST_OFFSET UNITYSDK_OFFSET(0xC19B8E0)
+#define RPG_CLIENT_MONSTERGUIDEPHASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC19B620)
+#define RPG_CLIENT_MONSTERGUIDEPHASEDATA__INITSKILLDATA_OFFSET UNITYSDK_OFFSET(0xC19B910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterGuidePhaseData_TypeDefinitionIndex = 58160;
+	inline static constexpr unsigned int MonsterGuidePhaseData_TypeDefinitionIndex = 59090;
 
 	class MonsterGuidePhaseData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::MonsterGuideSkillData*>* _SkillList_k__BackingField; // 0x10
-		::RPG::GameCore::MonsterGuidePhaseConfigRow* _Row_k__BackingField; // 0x18
+		::RPG::GameCore::MonsterGuidePhaseConfigRow* _Row_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::MonsterGuideSkillData*>* _SkillList_k__BackingField; // 0x18
 		::System::UInt32 _ID_k__BackingField; // 0x20
 
-		::System::Void _ctor(::System::UInt32 id)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA__CTOR_OFFSET))(this, id);
-		}
-
-		::System::Void _InitSkillData()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA__INITSKILLDATA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -41,9 +36,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MonsterGuideSkillData*>* get_SkillList()
@@ -51,9 +46,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::MonsterGuideSkillData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA_GET_SKILLLIST_OFFSET))(this);
 		}
 
-		::System::Void set_SkillList(::System::Collections::Generic::List_1<::RPG::Client::MonsterGuideSkillData*>* value)
+		::System::Void set_SkillList(::System::Collections::Generic::List_1<::RPG::Client::MonsterGuideSkillData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MonsterGuideSkillData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_SKILLLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MonsterGuideSkillData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_SKILLLIST_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::MonsterGuidePhaseConfigRow* get_Row()
@@ -61,9 +56,14 @@ namespace RPG::Client
 			return ((::RPG::GameCore::MonsterGuidePhaseConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::MonsterGuidePhaseConfigRow* value)
+		::System::Void set_Row(::RPG::GameCore::MonsterGuidePhaseConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MonsterGuidePhaseConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MonsterGuidePhaseConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA_SET_ROW_OFFSET))(this, a1);
+		}
+
+		::System::Void _InitSkillData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERGUIDEPHASEDATA__INITSKILLDATA_OFFSET))(this);
 		}
 	};
 }

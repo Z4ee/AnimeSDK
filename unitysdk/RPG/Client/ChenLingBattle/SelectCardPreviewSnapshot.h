@@ -4,28 +4,28 @@
 
 namespace RPG::Client::ChenLingBattle { class SelectCardPhaseInfo; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT_CREATESELECTCARDSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x9FAD6B0)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT_GET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0x9FAD740)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0x9FAD750)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x9FAD730)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT_CREATESELECTCARDSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xB5C7920)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT_GET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0xB5C79B0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET UNITYSDK_OFFSET(0xB5C79C0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C79A0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SelectCardPreviewSnapshot_TypeDefinitionIndex = 70056;
+	inline static constexpr unsigned int SelectCardPreviewSnapshot_TypeDefinitionIndex = 70868;
 
 	class SelectCardPreviewSnapshot : public ::RPG::Client::ChenLingBattle::PreviewSnapshot
 	{
 	public:
 		::RPG::Client::ChenLingBattle::SelectCardPhaseInfo* _PhaseInfo_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::Int32 currentSelectCardIndex, ::RPG::Client::ChenLingBattle::SelectCardPhaseInfo* phaseInfo)
+		::System::Void _ctor(::System::Int32 a1, ::RPG::Client::ChenLingBattle::SelectCardPhaseInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::ChenLingBattle::SelectCardPhaseInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT__CTOR_OFFSET))(this, currentSelectCardIndex, phaseInfo);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::ChenLingBattle::SelectCardPhaseInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		static ::RPG::Client::ChenLingBattle::SelectCardPreviewSnapshot* CreateSelectCardSnapshot(::System::Int32 currentSelectCardIndex, ::RPG::Client::ChenLingBattle::SelectCardPhaseInfo* phaseInfo)
+		static ::RPG::Client::ChenLingBattle::SelectCardPreviewSnapshot* CreateSelectCardSnapshot(::System::Int32 a1, ::RPG::Client::ChenLingBattle::SelectCardPhaseInfo* a2)
 		{
-			return ((::RPG::Client::ChenLingBattle::SelectCardPreviewSnapshot*(*)(::System::Int32, ::RPG::Client::ChenLingBattle::SelectCardPhaseInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT_CREATESELECTCARDSNAPSHOT_OFFSET))(currentSelectCardIndex, phaseInfo);
+			return ((::RPG::Client::ChenLingBattle::SelectCardPreviewSnapshot*(*)(::System::Int32, ::RPG::Client::ChenLingBattle::SelectCardPhaseInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT_CREATESELECTCARDSNAPSHOT_OFFSET))(a1, a2);
 		}
 
 		::RPG::Client::ChenLingBattle::SelectCardPhaseInfo* get_PhaseInfo()
@@ -33,9 +33,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::RPG::Client::ChenLingBattle::SelectCardPhaseInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT_GET_PHASEINFO_OFFSET))(this);
 		}
 
-		::System::Void set_PhaseInfo(::RPG::Client::ChenLingBattle::SelectCardPhaseInfo* value)
+		::System::Void set_PhaseInfo(::RPG::Client::ChenLingBattle::SelectCardPhaseInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::SelectCardPhaseInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::SelectCardPhaseInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDPREVIEWSNAPSHOT_SET_PHASEINFO_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class JSONObject; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D44B10)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS29_0__INITSDK_B__1_OFFSET UNITYSDK_OFFSET(0x8D44B20)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA197E80)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS29_0__INITSDK_B__1_OFFSET UNITYSDK_OFFSET(0xA197E90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass29_0_TypeDefinitionIndex = 42911;
+	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass29_0_TypeDefinitionIndex = 43714;
 
 	class MiHoYoSDKEOSInterface___c__DisplayClass29_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS29_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _InitSDK_b__1(::System::Int32 ret, ::System::String* epicUserId)
+		::System::Void _InitSDK_b__1(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS29_0__INITSDK_B__1_OFFSET))(this, ret, epicUserId);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS29_0__INITSDK_B__1_OFFSET))(this, a1, a2);
 		}
 	};
 }

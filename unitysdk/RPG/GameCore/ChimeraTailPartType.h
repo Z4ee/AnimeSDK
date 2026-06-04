@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTailPartType_TypeDefinitionIndex = 12292;
+	inline static constexpr unsigned int ChimeraTailPartType_TypeDefinitionIndex = 12380;
 
 	enum class ChimeraTailPartType : ::System::Int32
 	{

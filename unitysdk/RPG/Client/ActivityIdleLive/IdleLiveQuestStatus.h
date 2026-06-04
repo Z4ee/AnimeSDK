@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveQuestStatus_TypeDefinitionIndex = 69365;
+	inline static constexpr unsigned int IdleLiveQuestStatus_TypeDefinitionIndex = 70177;
 
 	enum class IdleLiveQuestStatus : ::System::Int32
 	{

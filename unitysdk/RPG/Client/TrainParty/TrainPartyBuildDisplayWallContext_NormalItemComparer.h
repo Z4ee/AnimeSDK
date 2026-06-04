@@ -4,12 +4,12 @@
 
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_NORMALITEMCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xB33CED0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_NORMALITEMCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xB33CFE0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_NORMALITEMCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xCA97AA0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_NORMALITEMCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xCA97BC0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_NormalItemComparer_TypeDefinitionIndex = 68562;
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_NormalItemComparer_TypeDefinitionIndex = 69374;
 
 	class TrainPartyBuildDisplayWallContext_NormalItemComparer : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_NORMALITEMCOMPARER__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 Compare(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* itemA, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem* itemB)
+		::System::Int32 Compare(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* a1, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_NORMALITEMCOMPARER_COMPARE_OFFSET))(this, itemA, itemB);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_NORMALITEMCOMPARER_COMPARE_OFFSET))(this, a1, a2);
 		}
 	};
 }

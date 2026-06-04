@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_ACFDSPSETTINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1623810)
+#define CRIWARE_CRIATOMEXACF_ACFDSPSETTINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD3A20)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AcfDspSettingInfo_TypeDefinitionIndex = 36769;
+	inline static constexpr unsigned int CriAtomExAcf_AcfDspSettingInfo_TypeDefinitionIndex = 37069;
 
 	struct alignas(8) CriAtomExAcf_AcfDspSettingInfo
 	{
@@ -23,9 +23,9 @@ namespace CriWare
 		::System::UInt16 numMixerAisacs; // 0x30
 		::System::UInt16 mixerAisacStartIndex; // 0x32
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* data, ::System::Int32 startIndex)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_ACFDSPSETTINGINFO__CTOR_OFFSET))(this, data, startIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_ACFDSPSETTINGINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

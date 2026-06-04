@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8D12C70)
-#define MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8D12CD0)
-#define MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8D12920)
-#define MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8D0D310)
+#define MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA16AAD0)
+#define MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA16AB30)
+#define MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA16AAC0)
+#define MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA16AA50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSDK_CallBack_TypeDefinitionIndex = 43133;
+	inline static constexpr unsigned int HoYoChannelSDK_CallBack_TypeDefinitionIndex = 43936;
 
 	class HoYoChannelSDK_CallBack : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Int32 code, ::System::String* jsonResponse)
+		::System::Void Invoke(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_INVOKE_OFFSET))(this, code, jsonResponse);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 code, ::System::String* jsonResponse, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::System::String* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_BEGININVOKE_OFFSET))(this, code, jsonResponse, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_CALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

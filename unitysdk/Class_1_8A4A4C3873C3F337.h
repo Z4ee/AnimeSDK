@@ -7,22 +7,22 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelPerformanceInitialize; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_8A4A4C3873C3F337_GET_BLOCKNEW_OFFSET UNITYSDK_OFFSET(0x11E6BC50)
-#define CLASS_1_8A4A4C3873C3F337_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x11E6BAB0)
-#define CLASS_1_8A4A4C3873C3F337_METHOD_1_558C32A1B130B607_OFFSET UNITYSDK_OFFSET(0x11E6BB70)
-#define CLASS_1_8A4A4C3873C3F337_METHOD_1_AFF42269B55377F5_OFFSET UNITYSDK_OFFSET(0x11E6B8B0)
-#define CLASS_1_8A4A4C3873C3F337_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x11E6BA20)
-#define CLASS_1_8A4A4C3873C3F337_SET_BLOCKNEW_OFFSET UNITYSDK_OFFSET(0x11E6BC60)
-#define CLASS_1_8A4A4C3873C3F337__CTOR_OFFSET UNITYSDK_OFFSET(0x11E6BC70)
+#define CLASS_1_8A4A4C3873C3F337_GET_BLOCKNEW_OFFSET UNITYSDK_OFFSET(0xA841890)
+#define CLASS_1_8A4A4C3873C3F337_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xA8416E0)
+#define CLASS_1_8A4A4C3873C3F337_METHOD_1_558C32A1B130B607_OFFSET UNITYSDK_OFFSET(0xA8417A0)
+#define CLASS_1_8A4A4C3873C3F337_METHOD_1_AFF42269B55377F5_OFFSET UNITYSDK_OFFSET(0xA8414E0)
+#define CLASS_1_8A4A4C3873C3F337_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xA841650)
+#define CLASS_1_8A4A4C3873C3F337_SET_BLOCKNEW_OFFSET UNITYSDK_OFFSET(0xA8418A0)
+#define CLASS_1_8A4A4C3873C3F337__CTOR_OFFSET UNITYSDK_OFFSET(0xA8418B0)
 
-inline static constexpr unsigned int Class_1_8A4A4C3873C3F337_TypeDefinitionIndex = 55976;
+inline static constexpr unsigned int Class_1_8A4A4C3873C3F337_TypeDefinitionIndex = 56730;
 
 class Class_1_8A4A4C3873C3F337 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* Field_1_1; // 0x10
+	::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* Field_1_0; // 0x10
 	::System::Boolean _BlockNew_k__BackingField; // 0x18
-	::System::Boolean Field_1_0; // 0x19
+	::System::Boolean Field_1_2; // 0x19
 
 	::System::Void _ctor()
 	{
@@ -54,8 +54,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8A4A4C3873C3F337_GET_BLOCKNEW_OFFSET))(this);
 	}
 
-	::System::Void set_BlockNew(::System::Boolean value)
+	::System::Void set_BlockNew(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_8A4A4C3873C3F337_SET_BLOCKNEW_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_8A4A4C3873C3F337_SET_BLOCKNEW_OFFSET))(this, a1);
 	}
 };

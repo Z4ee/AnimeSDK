@@ -5,17 +5,17 @@
 namespace MessagePack { class IFormatterResolver; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define CLASS_1_ECDF8B8E76D570B0__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D0EE20)
-#define CLASS_1_ECDF8B8E76D570B0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D0EE10)
+#define CLASS_1_ECDF8B8E76D570B0__CCTOR_OFFSET UNITYSDK_OFFSET(0x189BDC30)
+#define CLASS_1_ECDF8B8E76D570B0__CTOR_OFFSET UNITYSDK_OFFSET(0x189BDC20)
 
-inline static constexpr unsigned int Class_1_ECDF8B8E76D570B0_TypeDefinitionIndex = 34594;
+inline static constexpr unsigned int Class_1_ECDF8B8E76D570B0_TypeDefinitionIndex = 34877;
 
 class Class_1_ECDF8B8E76D570B0 : public ::System::Object
 {
 public:
 	static ::MessagePack::IFormatterResolver** StaticGet_Field_1_0()
 	{
-		return (::MessagePack::IFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ECDF8B8E76D570B0_TypeDefinitionIndex)->GetStaticField(0x5E190);
+		return (::MessagePack::IFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ECDF8B8E76D570B0_TypeDefinitionIndex)->GetStaticField(0x51800);
 	}
 
 	::System::Void _ctor()

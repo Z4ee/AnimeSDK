@@ -10,18 +10,18 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_UIROTATABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0xB42FD50)
-#define RPG_CLIENT_UIROTATABLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0xB430430)
-#define RPG_CLIENT_UIROTATABLE_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xB42FE10)
-#define RPG_CLIENT_UIROTATABLE_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xB4308C0)
-#define RPG_CLIENT_UIROTATABLE_SETPOINTERDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0xB430940)
-#define RPG_CLIENT_UIROTATABLE_SETPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xB4309A0)
-#define RPG_CLIENT_UIROTATABLE_SIMULATEROTATE_OFFSET UNITYSDK_OFFSET(0xB430A00)
-#define RPG_CLIENT_UIROTATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xB430DD0)
+#define RPG_CLIENT_UIROTATABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0xCB90200)
+#define RPG_CLIENT_UIROTATABLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0xCB90910)
+#define RPG_CLIENT_UIROTATABLE_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xCB902C0)
+#define RPG_CLIENT_UIROTATABLE_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xCB90DE0)
+#define RPG_CLIENT_UIROTATABLE_SETPOINTERDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0xCB90E70)
+#define RPG_CLIENT_UIROTATABLE_SETPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xCB90ED0)
+#define RPG_CLIENT_UIROTATABLE_SIMULATEROTATE_OFFSET UNITYSDK_OFFSET(0xCB90F30)
+#define RPG_CLIENT_UIROTATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xCB91320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIRotatable_TypeDefinitionIndex = 63715;
+	inline static constexpr unsigned int UIRotatable_TypeDefinitionIndex = 64636;
 
 	class UIRotatable : public ::UnityEngine::MonoBehaviour
 	{
@@ -46,34 +46,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_ONPOINTERDOWN_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_ONPOINTERDOWN_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_ONDRAG_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_ONDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_ONPOINTERUP_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_ONPOINTERUP_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPointerDownCallback(::System::Action_1<::System::Object*>* luaCallback, ::System::Object* luaCallbackParam)
+		::System::Void SetPointerDownCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_SETPOINTERDOWNCALLBACK_OFFSET))(this, luaCallback, luaCallbackParam);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_SETPOINTERDOWNCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetPointerUpCallback(::System::Action_1<::System::Object*>* luaCallback, ::System::Object* luaCallbackParam)
+		::System::Void SetPointerUpCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_SETPOINTERUPCALLBACK_OFFSET))(this, luaCallback, luaCallbackParam);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_SETPOINTERUPCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SimulateRotate(::System::Single deltaAngle)
+		::System::Void SimulateRotate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_SIMULATEROTATE_OFFSET))(this, deltaAngle);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIROTATABLE_SIMULATEROTATE_OFFSET))(this, a1);
 		}
 	};
 }

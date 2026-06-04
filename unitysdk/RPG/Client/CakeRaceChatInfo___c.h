@@ -6,29 +6,29 @@ namespace RPG::Client { class CakeRaceChatEmojiDataItem; }
 namespace RPG::Client { class CakeRaceChatMessageDataItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CAKERACECHATINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9EF7650)
-#define RPG_CLIENT_CAKERACECHATINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9EF7690)
-#define RPG_CLIENT_CAKERACECHATINFO___C__GETNORMALMESSAGES_B__6_0_OFFSET UNITYSDK_OFFSET(0x9EF76A0)
-#define RPG_CLIENT_CAKERACECHATINFO___C__GETPLAYERUSEEMOJIS_B__8_0_OFFSET UNITYSDK_OFFSET(0x9EF7760)
+#define RPG_CLIENT_CAKERACECHATINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB494210)
+#define RPG_CLIENT_CAKERACECHATINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB494250)
+#define RPG_CLIENT_CAKERACECHATINFO___C__GETNORMALMESSAGES_B__6_0_OFFSET UNITYSDK_OFFSET(0xB494260)
+#define RPG_CLIENT_CAKERACECHATINFO___C__GETPLAYERUSEEMOJIS_B__8_0_OFFSET UNITYSDK_OFFSET(0xB494280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceChatInfo___c_TypeDefinitionIndex = 58069;
+	inline static constexpr unsigned int CakeRaceChatInfo___c_TypeDefinitionIndex = 58985;
 
 	class CakeRaceChatInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::CakeRaceChatEmojiDataItem*, ::System::Boolean>** StaticGet___9__8_0()
+		static ::RPG::Client::CakeRaceChatInfo___c** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::CakeRaceChatEmojiDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x43920);
+			return (::RPG::Client::CakeRaceChatInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x5C280);
 		}
 		static ::System::Func_2<::RPG::Client::CakeRaceChatMessageDataItem*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::CakeRaceChatMessageDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x43928);
+			return (::System::Func_2<::RPG::Client::CakeRaceChatMessageDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x5C288);
 		}
-		static ::RPG::Client::CakeRaceChatInfo___c** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::CakeRaceChatEmojiDataItem*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::RPG::Client::CakeRaceChatInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x43930);
+			return (::System::Func_2<::RPG::Client::CakeRaceChatEmojiDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x5C290);
 		}
 
 		static ::System::Void _cctor()
@@ -41,14 +41,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACECHATINFO___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetNormalMessages_b__6_0(::RPG::Client::CakeRaceChatMessageDataItem* item)
+		::System::Boolean _GetNormalMessages_b__6_0(::RPG::Client::CakeRaceChatMessageDataItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CakeRaceChatMessageDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACECHATINFO___C__GETNORMALMESSAGES_B__6_0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CakeRaceChatMessageDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACECHATINFO___C__GETNORMALMESSAGES_B__6_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetPlayerUseEmojis_b__8_0(::RPG::Client::CakeRaceChatEmojiDataItem* item)
+		::System::Boolean _GetPlayerUseEmojis_b__8_0(::RPG::Client::CakeRaceChatEmojiDataItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CakeRaceChatEmojiDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACECHATINFO___C__GETPLAYERUSEEMOJIS_B__8_0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CakeRaceChatEmojiDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACECHATINFO___C__GETPLAYERUSEEMOJIS_B__8_0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MULTIPLEPATHAVATARATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B672A0)
-#define RPG_GAMECORE_MULTIPLEPATHAVATARATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B67440)
+#define RPG_GAMECORE_MULTIPLEPATHAVATARATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199B6680)
+#define RPG_GAMECORE_MULTIPLEPATHAVATARATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199B6820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultiplePathAvatarAtlasRow_TypeDefinitionIndex = 11981;
+	inline static constexpr unsigned int MultiplePathAvatarAtlasRow_TypeDefinitionIndex = 12074;
 
 	class MultiplePathAvatarAtlasRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MULTIPLEPATHAVATARATLASROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MultiplePathAvatarAtlasRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MultiplePathAvatarAtlasRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MultiplePathAvatarAtlasRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MULTIPLEPATHAVATARATLASROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MultiplePathAvatarAtlasRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MULTIPLEPATHAVATARATLASROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

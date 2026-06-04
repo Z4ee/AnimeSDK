@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int EventQueue_EventType_TypeDefinitionIndex = 36396;
+	inline static constexpr unsigned int EventQueue_EventType_TypeDefinitionIndex = 36696;
 
 	enum class EventQueue_EventType : ::System::Int32
 	{

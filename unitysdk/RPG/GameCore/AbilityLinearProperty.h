@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_GAMECORE_ABILITYLINEARPROPERTY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xE1C00)
-#define RPG_GAMECORE_ABILITYLINEARPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xE1BD0)
+#define RPG_GAMECORE_ABILITYLINEARPROPERTY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x147730)
+#define RPG_GAMECORE_ABILITYLINEARPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x147700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityLinearProperty_TypeDefinitionIndex = 50194;
+	inline static constexpr unsigned int AbilityLinearProperty_TypeDefinitionIndex = 50861;
 
 	struct alignas(8) AbilityLinearProperty
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::FixPoint ExtraRatio4; // 0x48
 		::RPG::GameCore::FixPoint ExtraRatio5; // 0x50
 
-		::System::Void _ctor(::RPG::GameCore::FixPoint fBase, ::RPG::GameCore::FixPoint addedRatio, ::RPG::GameCore::FixPoint delta, ::RPG::GameCore::FixPoint convert)
+		::System::Void _ctor(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYLINEARPROPERTY__CTOR_OFFSET))(this, fBase, addedRatio, delta, convert);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYLINEARPROPERTY__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::RPG::GameCore::FixPoint get_Value()

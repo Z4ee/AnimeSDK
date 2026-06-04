@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CharacterAtlasFaceEyeShapeGroup; }
 
-#define RPG_GAMECORE_CHARACTERATLASFACEEYEBLINK_METHOD_2_43DA9DE413C62306_OFFSET UNITYSDK_OFFSET(0x187CA4A0)
-#define RPG_GAMECORE_CHARACTERATLASFACEEYEBLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x187CA720)
+#define RPG_GAMECORE_CHARACTERATLASFACEEYEBLINK_METHOD_2_516B220D5B584251_OFFSET UNITYSDK_OFFSET(0x196065A0)
+#define RPG_GAMECORE_CHARACTERATLASFACEEYEBLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x19606820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterAtlasFaceEyeBlink_TypeDefinitionIndex = 16565;
+	inline static constexpr unsigned int CharacterAtlasFaceEyeBlink_TypeDefinitionIndex = 16595;
 
 	class CharacterAtlasFaceEyeBlink : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERATLASFACEEYEBLINK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_43DA9DE413C62306(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterAtlasFaceEyeBlink*& a2)
+		static ::System::Void Method_2_516B220D5B584251(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterAtlasFaceEyeBlink*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterAtlasFaceEyeBlink*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERATLASFACEEYEBLINK_METHOD_2_43DA9DE413C62306_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterAtlasFaceEyeBlink*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERATLASFACEEYEBLINK_METHOD_2_516B220D5B584251_OFFSET))(a1, a2);
 		}
 	};
 }

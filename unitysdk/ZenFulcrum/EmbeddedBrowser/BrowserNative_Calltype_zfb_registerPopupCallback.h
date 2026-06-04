@@ -9,36 +9,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NewWindowFunc; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B17B0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B1870)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A695A60)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6B1790)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4F0150)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4F0210)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4DE950)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F00E0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerPopupCallback_TypeDefinitionIndex = 36215;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerPopupCallback_TypeDefinitionIndex = 36515;
 
 	class BrowserNative_Calltype_zfb_registerPopupCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Int32 id, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowAction windowAction, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ZFBSettings baseSettings, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc* cb)
+		::System::Void Invoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowAction a2, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ZFBSettings a3, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowAction, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ZFBSettings, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_INVOKE_OFFSET))(this, id, windowAction, baseSettings, cb);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowAction, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ZFBSettings, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 id, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowAction windowAction, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ZFBSettings baseSettings, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc* cb, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowAction a2, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ZFBSettings a3, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc* a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowAction, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ZFBSettings, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_BEGININVOKE_OFFSET))(this, id, windowAction, baseSettings, cb, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowAction, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ZFBSettings, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_REGISTERPOPUPCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

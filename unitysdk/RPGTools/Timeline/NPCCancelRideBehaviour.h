@@ -6,15 +6,15 @@
 
 namespace RPGTools::Timeline { class NPCCancelRideClip; }
 
-#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8EEE70)
-#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8EEE90)
-#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8EEE80)
-#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8EEF60)
-#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8EEF70)
+#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD030CC0)
+#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD030CE0)
+#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD030CD0)
+#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD030DB0)
+#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD030DC0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int NPCCancelRideBehaviour_TypeDefinitionIndex = 44945;
+	inline static constexpr unsigned int NPCCancelRideBehaviour_TypeDefinitionIndex = 45493;
 
 	class NPCCancelRideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::NPCCancelRideClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::NPCCancelRideClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::NPCCancelRideClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::NPCCancelRideClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::NPCCancelRideClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -41,9 +41,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

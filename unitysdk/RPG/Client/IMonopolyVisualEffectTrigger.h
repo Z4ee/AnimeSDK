@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMonopolyVisualEffectTrigger_TypeDefinitionIndex = 60974;
+	inline static constexpr unsigned int IMonopolyVisualEffectTrigger_TypeDefinitionIndex = 61908;
 
 	class IMonopolyVisualEffectTrigger
 	{

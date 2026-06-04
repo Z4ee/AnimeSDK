@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_WORMCOMPASSITEMXY_METHOD_2_127EA6CDB6955818_OFFSET UNITYSDK_OFFSET(0x19114BE0)
-#define RPG_GAMECORE_WORMCOMPASSITEMXY__CTOR_OFFSET UNITYSDK_OFFSET(0x19114DA0)
+#define RPG_GAMECORE_WORMCOMPASSITEMXY_METHOD_2_127EA6CDB6955818_OFFSET UNITYSDK_OFFSET(0x19E6D070)
+#define RPG_GAMECORE_WORMCOMPASSITEMXY__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6D230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WormCompassItemXY_TypeDefinitionIndex = 21033;
+	inline static constexpr unsigned int WormCompassItemXY_TypeDefinitionIndex = 20942;
 
 	class WormCompassItemXY : public ::RPG::GameCore::JsonConfig
 	{

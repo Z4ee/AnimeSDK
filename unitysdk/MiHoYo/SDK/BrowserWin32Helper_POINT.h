@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper_POINT_TypeDefinitionIndex = 43173;
+	inline static constexpr unsigned int BrowserWin32Helper_POINT_TypeDefinitionIndex = 43976;
 
 	struct alignas(4) BrowserWin32Helper_POINT
 	{

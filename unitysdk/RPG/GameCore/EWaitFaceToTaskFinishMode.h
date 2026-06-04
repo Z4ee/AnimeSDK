@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EWaitFaceToTaskFinishMode_TypeDefinitionIndex = 10319;
+	inline static constexpr unsigned int EWaitFaceToTaskFinishMode_TypeDefinitionIndex = 10150;
 
 	enum class EWaitFaceToTaskFinishMode : ::System::Int32
 	{

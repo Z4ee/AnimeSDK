@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int SDKUIControllerInputKey_TypeDefinitionIndex = 7730;
+	inline static constexpr unsigned int SDKUIControllerInputKey_TypeDefinitionIndex = 8633;
 
 	enum class SDKUIControllerInputKey : ::System::Int32
 	{

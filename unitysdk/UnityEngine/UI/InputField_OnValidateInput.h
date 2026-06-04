@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A574800)
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A574880)
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A564CF0)
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A564CD0)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B3C0B70)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B3C0BF0)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B3B14F0)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C0AF0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int InputField_OnValidateInput_TypeDefinitionIndex = 5623;
+	inline static constexpr unsigned int InputField_OnValidateInput_TypeDefinitionIndex = 5900;
 
 	class InputField_OnValidateInput : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Char Invoke(::System::String* text, ::System::Int32 charIndex, ::System::Char addedChar)
+		::System::Char Invoke(::System::String* a1, ::System::Int32 a2, ::System::Char a3)
 		{
-			return ((::System::Char(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Char))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_INVOKE_OFFSET))(this, text, charIndex, addedChar);
+			return ((::System::Char(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Char))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* text, ::System::Int32 charIndex, ::System::Char addedChar, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::Int32 a2, ::System::Char a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Char, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_BEGININVOKE_OFFSET))(this, text, charIndex, addedChar, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Char, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Char EndInvoke(::System::IAsyncResult* result)
+		::System::Char EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Char(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Char(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

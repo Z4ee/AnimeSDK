@@ -4,15 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PckFileList; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_EB93654A70A91154_OFFSET UNITYSDK_OFFSET(0x18BDA0F0)
-#define RPG_GAMECORE_PCKPATCHPLATFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDA370)
+#define RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_2BC2E50C084A5B05_OFFSET UNITYSDK_OFFSET(0x199EC240)
+#define RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_8EF9B783B4B43DA6_OFFSET UNITYSDK_OFFSET(0x199EBFD0)
+#define RPG_GAMECORE_PCKPATCHPLATFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x199EC230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PckPatchPlatform_TypeDefinitionIndex = 15512;
+	inline static constexpr unsigned int PckPatchPlatform_TypeDefinitionIndex = 15572;
 
 	class PckPatchPlatform : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PCKPATCHPLATFORM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_EB93654A70A91154(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PckPatchPlatform*& a2)
+		static ::System::Void Method_2_8EF9B783B4B43DA6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PckPatchPlatform*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PckPatchPlatform*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_EB93654A70A91154_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PckPatchPlatform*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_8EF9B783B4B43DA6_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_2BC2E50C084A5B05(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::PckPatchPlatform*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::PckPatchPlatform*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_2BC2E50C084A5B05_OFFSET))(a1, a2);
 		}
 	};
 }

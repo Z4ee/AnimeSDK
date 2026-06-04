@@ -4,13 +4,15 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionCustomValueGroupConfig; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_6AA237136CE533BE_OFFSET UNITYSDK_OFFSET(0x18B2CFF0)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2D0C0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_3EDC2E3ED5F89DBB_OFFSET UNITYSDK_OFFSET(0x19944900)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_C2C0AD4B578EB3BF_OFFSET UNITYSDK_OFFSET(0x199449D0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199449C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValueGroupConfigPack_TypeDefinitionIndex = 18015;
+	inline static constexpr unsigned int MissionCustomValueGroupConfigPack_TypeDefinitionIndex = 18042;
 
 	class MissionCustomValueGroupConfigPack : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6AA237136CE533BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MissionCustomValueGroupConfigPack*& a2)
+		static ::System::Void Method_2_3EDC2E3ED5F89DBB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MissionCustomValueGroupConfigPack*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionCustomValueGroupConfigPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_6AA237136CE533BE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionCustomValueGroupConfigPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_3EDC2E3ED5F89DBB_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_C2C0AD4B578EB3BF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionCustomValueGroupConfigPack*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionCustomValueGroupConfigPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_C2C0AD4B578EB3BF_OFFSET))(a1, a2);
 		}
 	};
 }

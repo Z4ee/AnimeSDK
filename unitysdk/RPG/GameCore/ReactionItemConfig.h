@@ -7,12 +7,12 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class ReactionTaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REACTIONITEMCONFIG_METHOD_2_F3CC6FE036D13D44_OFFSET UNITYSDK_OFFSET(0x18C8D790)
-#define RPG_GAMECORE_REACTIONITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C8D960)
+#define RPG_GAMECORE_REACTIONITEMCONFIG_METHOD_2_34BB0DDC4E60AFDB_OFFSET UNITYSDK_OFFSET(0x19AB2540)
+#define RPG_GAMECORE_REACTIONITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB2700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReactionItemConfig_TypeDefinitionIndex = 14801;
+	inline static constexpr unsigned int ReactionItemConfig_TypeDefinitionIndex = 14865;
 
 	class ReactionItemConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REACTIONITEMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F3CC6FE036D13D44(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReactionItemConfig*& a2)
+		static ::System::Void Method_2_34BB0DDC4E60AFDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReactionItemConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReactionItemConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REACTIONITEMCONFIG_METHOD_2_F3CC6FE036D13D44_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReactionItemConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REACTIONITEMCONFIG_METHOD_2_34BB0DDC4E60AFDB_OFFSET))(a1, a2);
 		}
 	};
 }

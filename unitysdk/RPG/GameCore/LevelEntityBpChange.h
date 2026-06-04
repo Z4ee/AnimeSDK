@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELENTITYBPCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6D5F70)
-#define RPG_GAMECORE_LEVELENTITYBPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6D6010)
-#define RPG_GAMECORE_LEVELENTITYBPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6D5FC0)
-#define RPG_GAMECORE_LEVELENTITYBPCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xB6D5F00)
-#define RPG_GAMECORE_LEVELENTITYBPCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D6060)
-#define RPG_GAMECORE_LEVELENTITYBPCHANGE___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6D6070)
+#define RPG_GAMECORE_LEVELENTITYBPCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xCE43F60)
+#define RPG_GAMECORE_LEVELENTITYBPCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE44000)
+#define RPG_GAMECORE_LEVELENTITYBPCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE43FB0)
+#define RPG_GAMECORE_LEVELENTITYBPCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xCE43EF0)
+#define RPG_GAMECORE_LEVELENTITYBPCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xCE44050)
+#define RPG_GAMECORE_LEVELENTITYBPCHANGE___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xCE44060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityBpChange_TypeDefinitionIndex = 52291;
+	inline static constexpr unsigned int LevelEntityBpChange_TypeDefinitionIndex = 52988;
 
-	class LevelEntityBpChange : public ::Class_1_9988289E7F8AA214
+	class LevelEntityBpChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::GameEntity* EntityRef; // 0x18
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBPCHANGE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelEntityBpChange* Init(::RPG::GameCore::GameEntity* pEntity, ::System::Int32 nBpChange, ::System::String* sreason)
+		::RPG::GameCore::LevelEntityBpChange* Init(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::RPG::GameCore::LevelEntityBpChange*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBPCHANGE_INIT_OFFSET))(this, pEntity, nBpChange, sreason);
+			return ((::RPG::GameCore::LevelEntityBpChange*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBPCHANGE_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Clear()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareDamageCustomName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3AB1D44C9B594DBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11A55C40)
-#define CLASS_3_3AB1D44C9B594DBE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A55C10)
+#define CLASS_3_3AB1D44C9B594DBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA4B0AA0)
+#define CLASS_3_3AB1D44C9B594DBE__CTOR_OFFSET UNITYSDK_OFFSET(0xA4B0A70)
 
-inline static constexpr unsigned int Class_3_3AB1D44C9B594DBE_TypeDefinitionIndex = 50622;
+inline static constexpr unsigned int Class_3_3AB1D44C9B594DBE_TypeDefinitionIndex = 51289;
 
 class Class_3_3AB1D44C9B594DBE : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareDamageCustomName*>
 {

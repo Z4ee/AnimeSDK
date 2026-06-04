@@ -7,29 +7,29 @@ namespace RPG::Client { class IRogueTournBuildRefTeamMemberData; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB0B3CA0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB0B3CE0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_0_OFFSET UNITYSDK_OFFSET(0xB0B3CF0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_1_OFFSET UNITYSDK_OFFSET(0xB0B4030)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC8049B0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC8049F0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_0_OFFSET UNITYSDK_OFFSET(0xC804A00)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_1_OFFSET UNITYSDK_OFFSET(0xC804C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefTeamData___c_TypeDefinitionIndex = 62236;
+	inline static constexpr unsigned int RogueTournBuildRefTeamData___c_TypeDefinitionIndex = 63169;
 
 	class RogueTournBuildRefTeamData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::RogueTournBuildRefTeamData___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournBuildRefTeamData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefTeamData___c_TypeDefinitionIndex)->GetStaticField(0x18000);
+			return (::RPG::Client::RogueTournBuildRefTeamData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefTeamData___c_TypeDefinitionIndex)->GetStaticField(0x383A0);
 		}
 		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefTeamMemberData*, ::System::String*>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefTeamMemberData*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefTeamData___c_TypeDefinitionIndex)->GetStaticField(0x18008);
+			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefTeamMemberData*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefTeamData___c_TypeDefinitionIndex)->GetStaticField(0x383A8);
 		}
 		static ::System::Func_2<::RPG::PoolList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>*, ::System::String*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::PoolList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefTeamData___c_TypeDefinitionIndex)->GetStaticField(0x18010);
+			return (::System::Func_2<::RPG::PoolList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefTeamData___c_TypeDefinitionIndex)->GetStaticField(0x383B0);
 		}
 
 		static ::System::Void _cctor()
@@ -42,14 +42,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::String* _ToString_b__1_0(::RPG::PoolList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>* candidates)
+		::System::String* _ToString_b__1_0(::RPG::PoolList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::PoolList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_0_OFFSET))(this, candidates);
+			return ((::System::String*(*)(::PVOID, ::RPG::PoolList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_0_OFFSET))(this, a1);
 		}
 
-		::System::String* _ToString_b__1_1(::RPG::Client::IRogueTournBuildRefTeamMemberData* c)
+		::System::String* _ToString_b__1_1(::RPG::Client::IRogueTournBuildRefTeamMemberData* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::Client::IRogueTournBuildRefTeamMemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_1_OFFSET))(this, c);
+			return ((::System::String*(*)(::PVOID, ::RPG::Client::IRogueTournBuildRefTeamMemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_1_OFFSET))(this, a1);
 		}
 	};
 }

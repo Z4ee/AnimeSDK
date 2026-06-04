@@ -4,22 +4,22 @@
 
 namespace System { class Exception; }
 
-#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_GET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x180F2660)
-#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_SET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x180F2670)
-#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x180F2630)
+#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_GET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x18E943C0)
+#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_SET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x18E943D0)
+#define RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18E94390)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int ExceptionEventArgs_TypeDefinitionIndex = 8658;
+	inline static constexpr unsigned int ExceptionEventArgs_TypeDefinitionIndex = 9561;
 
 	class ExceptionEventArgs : public ::System::EventArgs
 	{
 	public:
 		::System::Exception* _Exception_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::Exception* exception)
+		::System::Void _ctor(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS__CTOR_OFFSET))(this, exception);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Exception* get_Exception()
@@ -27,9 +27,9 @@ namespace RPG::Client::Promises
 			return ((::System::Exception*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_GET_EXCEPTION_OFFSET))(this);
 		}
 
-		::System::Void set_Exception(::System::Exception* value)
+		::System::Void set_Exception(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_SET_EXCEPTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_EXCEPTIONEVENTARGS_SET_EXCEPTION_OFFSET))(this, a1);
 		}
 	};
 }

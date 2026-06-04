@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderBufferStoreAction_TypeDefinitionIndex = 4501;
+	inline static constexpr unsigned int RenderBufferStoreAction_TypeDefinitionIndex = 4675;
 
 	enum class RenderBufferStoreAction : ::System::Int32
 	{

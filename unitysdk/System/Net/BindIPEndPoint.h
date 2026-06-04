@@ -8,10 +8,10 @@ namespace System { class Object; }
 namespace System::Net { class IPEndPoint; }
 namespace System::Net { class ServicePoint; }
 
-#define SYSTEM_NET_BINDIPENDPOINT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A0F1230)
-#define SYSTEM_NET_BINDIPENDPOINT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A0F12A0)
-#define SYSTEM_NET_BINDIPENDPOINT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A0F0BF0)
-#define SYSTEM_NET_BINDIPENDPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F0BD0)
+#define SYSTEM_NET_BINDIPENDPOINT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AF574F0)
+#define SYSTEM_NET_BINDIPENDPOINT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AF57560)
+#define SYSTEM_NET_BINDIPENDPOINT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AF574D0)
+#define SYSTEM_NET_BINDIPENDPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF573E0)
 
 namespace System::Net
 {
@@ -20,24 +20,24 @@ namespace System::Net
 	class BindIPEndPoint : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_BINDIPENDPOINT__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_BINDIPENDPOINT__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Net::IPEndPoint* Invoke(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEndPoint, ::System::Int32 retryCount)
+		::System::Net::IPEndPoint* Invoke(::System::Net::ServicePoint* a1, ::System::Net::IPEndPoint* a2, ::System::Int32 a3)
 		{
-			return ((::System::Net::IPEndPoint*(*)(::PVOID, ::System::Net::ServicePoint*, ::System::Net::IPEndPoint*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_BINDIPENDPOINT_INVOKE_OFFSET))(this, servicePoint, remoteEndPoint, retryCount);
+			return ((::System::Net::IPEndPoint*(*)(::PVOID, ::System::Net::ServicePoint*, ::System::Net::IPEndPoint*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_BINDIPENDPOINT_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEndPoint, ::System::Int32 retryCount, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Net::ServicePoint* a1, ::System::Net::IPEndPoint* a2, ::System::Int32 a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Net::ServicePoint*, ::System::Net::IPEndPoint*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BINDIPENDPOINT_BEGININVOKE_OFFSET))(this, servicePoint, remoteEndPoint, retryCount, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Net::ServicePoint*, ::System::Net::IPEndPoint*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BINDIPENDPOINT_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Net::IPEndPoint* EndInvoke(::System::IAsyncResult* result)
+		::System::Net::IPEndPoint* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Net::IPEndPoint*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BINDIPENDPOINT_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Net::IPEndPoint*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_BINDIPENDPOINT_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

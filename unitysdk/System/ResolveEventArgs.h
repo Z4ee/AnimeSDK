@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_RESOLVEEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x179AE690)
-#define SYSTEM_RESOLVEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x179AE660)
+#define SYSTEM_RESOLVEEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1875F850)
+#define SYSTEM_RESOLVEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1875F820)
 
 namespace System
 {
-	inline static constexpr unsigned int ResolveEventArgs_TypeDefinitionIndex = 417;
+	inline static constexpr unsigned int ResolveEventArgs_TypeDefinitionIndex = 416;
 
 	class ResolveEventArgs : public ::System::EventArgs
 	{
@@ -18,14 +18,14 @@ namespace System
 		::System::Reflection::Assembly* m_Requesting; // 0x10
 		::System::String* m_Name; // 0x18
 
-		::System::Void _ctor(::System::String* name)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOLVEEVENTARGS__CTOR_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOLVEEVENTARGS__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::String* name, ::System::Reflection::Assembly* requestingAssembly)
+		::System::Void _ctor_1(::System::String* a1, ::System::Reflection::Assembly* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Reflection::Assembly*))((::PBYTE)hIl2Cpp + SYSTEM_RESOLVEEVENTARGS__CTOR_1_OFFSET))(this, name, requestingAssembly);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Reflection::Assembly*))((::PBYTE)hIl2Cpp + SYSTEM_RESOLVEEVENTARGS__CTOR_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -6,11 +6,11 @@ namespace RPG::GameCore { class ByCheckTargetHPCanBeDamage; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8707B08F2B93B9C6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9854EC0)
-#define CLASS_3_8707B08F2B93B9C6_METHOD_3_4AB5DA02BAEEFD54_OFFSET UNITYSDK_OFFSET(0x98550B0)
-#define CLASS_3_8707B08F2B93B9C6__CTOR_OFFSET UNITYSDK_OFFSET(0x9854E90)
+#define CLASS_3_8707B08F2B93B9C6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13D320A0)
+#define CLASS_3_8707B08F2B93B9C6_METHOD_3_77B09D5652002203_OFFSET UNITYSDK_OFFSET(0x13D32290)
+#define CLASS_3_8707B08F2B93B9C6__CTOR_OFFSET UNITYSDK_OFFSET(0x13D32070)
 
-inline static constexpr unsigned int Class_3_8707B08F2B93B9C6_TypeDefinitionIndex = 50286;
+inline static constexpr unsigned int Class_3_8707B08F2B93B9C6_TypeDefinitionIndex = 50951;
 
 class Class_3_8707B08F2B93B9C6 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckTargetHPCanBeDamage*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8707B08F2B93B9C6_EVALUATE_OFFSET))(this);
 	}
 
-	::System::Boolean Method_3_4AB5DA02BAEEFD54(::RPG::GameCore::GameEntity* a1)
+	::System::Boolean Method_3_77B09D5652002203(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_8707B08F2B93B9C6_METHOD_3_4AB5DA02BAEEFD54_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_8707B08F2B93B9C6_METHOD_3_77B09D5652002203_OFFSET))(this, a1);
 	}
 };

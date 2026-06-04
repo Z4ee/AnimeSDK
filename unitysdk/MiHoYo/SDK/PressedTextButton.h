@@ -6,14 +6,14 @@
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_PRESSEDTEXTBUTTON_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1761C540)
-#define MIHOYO_SDK_PRESSEDTEXTBUTTON_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x1761C5B0)
-#define MIHOYO_SDK_PRESSEDTEXTBUTTON_START_OFFSET UNITYSDK_OFFSET(0x1761C420)
-#define MIHOYO_SDK_PRESSEDTEXTBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1761C620)
+#define MIHOYO_SDK_PRESSEDTEXTBUTTON_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x183FBCC0)
+#define MIHOYO_SDK_PRESSEDTEXTBUTTON_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x183FBD30)
+#define MIHOYO_SDK_PRESSEDTEXTBUTTON_START_OFFSET UNITYSDK_OFFSET(0x183FBBA0)
+#define MIHOYO_SDK_PRESSEDTEXTBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x183FBDA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PressedTextButton_TypeDefinitionIndex = 7054;
+	inline static constexpr unsigned int PressedTextButton_TypeDefinitionIndex = 7957;
 
 	class PressedTextButton : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,14 +32,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PRESSEDTEXTBUTTON_START_OFFSET))(this);
 		}
 
-		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PRESSEDTEXTBUTTON_ONPOINTERDOWN_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PRESSEDTEXTBUTTON_ONPOINTERDOWN_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PRESSEDTEXTBUTTON_ONPOINTERUP_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PRESSEDTEXTBUTTON_ONPOINTERUP_OFFSET))(this, a1);
 		}
 	};
 }

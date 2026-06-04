@@ -9,12 +9,12 @@ namespace RPG::GameCore { class LevelGroupSpatialBakedInfo; }
 namespace RPG::GameCore { class LevelNPCBakedInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2BakedInfo; }
 
-#define RPG_GAMECORE_LEVELGROUPBAKEDINFO_METHOD_2_210EACEC9537F0E6_OFFSET UNITYSDK_OFFSET(0x18A44450)
-#define RPG_GAMECORE_LEVELGROUPBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A448B0)
+#define RPG_GAMECORE_LEVELGROUPBAKEDINFO_METHOD_2_61EF764F3D9DA829_OFFSET UNITYSDK_OFFSET(0x19876590)
+#define RPG_GAMECORE_LEVELGROUPBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x198769B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupBakedInfo_TypeDefinitionIndex = 16258;
+	inline static constexpr unsigned int LevelGroupBakedInfo_TypeDefinitionIndex = 16292;
 
 	class LevelGroupBakedInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPBAKEDINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_210EACEC9537F0E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupBakedInfo*& a2)
+		static ::System::Void Method_2_61EF764F3D9DA829(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupBakedInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPBAKEDINFO_METHOD_2_210EACEC9537F0E6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPBAKEDINFO_METHOD_2_61EF764F3D9DA829_OFFSET))(a1, a2);
 		}
 	};
 }

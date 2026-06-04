@@ -3,7 +3,7 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int FieldAttributes_TypeDefinitionIndex = 559;
+	inline static constexpr unsigned int FieldAttributes_TypeDefinitionIndex = 558;
 
 	enum class FieldAttributes : ::System::Int32
 	{

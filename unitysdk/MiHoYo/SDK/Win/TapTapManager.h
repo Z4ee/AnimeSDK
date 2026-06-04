@@ -7,24 +7,24 @@ namespace MiHoYo::SDK::Win { class TapTapToken; }
 namespace System { class String; }
 namespace TapTap::Sdk { class LoginResult; }
 
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_GETACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x174CF870)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_GETSHOWNAME_OFFSET UNITYSDK_OFFSET(0x174CF8E0)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x174CF6C0)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x174CF780)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x174CF920)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x174CF910)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER__LOGIN_B__4_0_OFFSET UNITYSDK_OFFSET(0x174CF950)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_GETACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x182CE780)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_GETSHOWNAME_OFFSET UNITYSDK_OFFSET(0x182CE7F0)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x182CE5B0)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x182CE670)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x182CE830)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x182CE820)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER__LOGIN_B__4_0_OFFSET UNITYSDK_OFFSET(0x182CE860)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int TapTapManager_TypeDefinitionIndex = 8124;
+	inline static constexpr unsigned int TapTapManager_TypeDefinitionIndex = 9027;
 
 	class TapTapManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Win::TapTapManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::TapTapManager**)Il2CppClass::FromTypeDefinitionIndex(TapTapManager_TypeDefinitionIndex)->GetStaticField(0x27C70);
+			return (::MiHoYo::SDK::Win::TapTapManager**)Il2CppClass::FromTypeDefinitionIndex(TapTapManager_TypeDefinitionIndex)->GetStaticField(0x26130);
 		}
 		::MiHoYo::SDK::Win::TapTapManager_OnLoginDelegate* OnTapTapLogin; // 0x10
 
@@ -58,9 +58,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_TAPTAPMANAGER_GETSHOWNAME_OFFSET))(this);
 		}
 
-		::System::Void _Login_b__4_0(::TapTap::Sdk::LoginResult* result)
+		::System::Void _Login_b__4_0(::TapTap::Sdk::LoginResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::LoginResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_TAPTAPMANAGER__LOGIN_B__4_0_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::LoginResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_TAPTAPMANAGER__LOGIN_B__4_0_OFFSET))(this, a1);
 		}
 	};
 }

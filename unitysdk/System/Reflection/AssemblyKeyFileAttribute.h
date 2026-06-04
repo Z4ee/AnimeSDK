@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYKEYFILEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179954B0)
+#define SYSTEM_REFLECTION_ASSEMBLYKEYFILEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x187491A0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyKeyFileAttribute_TypeDefinitionIndex = 548;
+	inline static constexpr unsigned int AssemblyKeyFileAttribute_TypeDefinitionIndex = 547;
 
 	class AssemblyKeyFileAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* m_keyFile; // 0x10
 
-		::System::Void _ctor(::System::String* keyFile)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYKEYFILEATTRIBUTE__CTOR_OFFSET))(this, keyFile);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYKEYFILEATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

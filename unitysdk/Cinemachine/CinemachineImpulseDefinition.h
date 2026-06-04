@@ -10,14 +10,14 @@
 namespace Cinemachine { class CinemachineImpulseManager_ImpulseEvent; }
 namespace Cinemachine { class SignalSourceAsset; }
 
-#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEANDRETURNEVENT_OFFSET UNITYSDK_OFFSET(0x12B8AD50)
-#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEEVENT_OFFSET UNITYSDK_OFFSET(0x12B8AD10)
-#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x12B8ACB0)
-#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0x12B8B3C0)
+#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEANDRETURNEVENT_OFFSET UNITYSDK_OFFSET(0x146497F0)
+#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEEVENT_OFFSET UNITYSDK_OFFSET(0x146497B0)
+#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x14649750)
+#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0x14649EB0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseDefinition_TypeDefinitionIndex = 36628;
+	inline static constexpr unsigned int CinemachineImpulseDefinition_TypeDefinitionIndex = 36928;
 
 	class CinemachineImpulseDefinition : public ::System::Object
 	{
@@ -45,14 +45,14 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_ONVALIDATE_OFFSET))(this);
 		}
 
-		::System::Void CreateEvent(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 velocity)
+		::System::Void CreateEvent(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEEVENT_OFFSET))(this, position, velocity);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEEVENT_OFFSET))(this, a1, a2);
 		}
 
-		::Cinemachine::CinemachineImpulseManager_ImpulseEvent* CreateAndReturnEvent(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 velocity)
+		::Cinemachine::CinemachineImpulseManager_ImpulseEvent* CreateAndReturnEvent(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::Cinemachine::CinemachineImpulseManager_ImpulseEvent*(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEANDRETURNEVENT_OFFSET))(this, position, velocity);
+			return ((::Cinemachine::CinemachineImpulseManager_ImpulseEvent*(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEANDRETURNEVENT_OFFSET))(this, a1, a2);
 		}
 	};
 }

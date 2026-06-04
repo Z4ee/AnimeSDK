@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonerType_TypeDefinitionIndex = 14400;
+	inline static constexpr unsigned int SummonerType_TypeDefinitionIndex = 14672;
 
 	enum class SummonerType : ::System::Int32
 	{

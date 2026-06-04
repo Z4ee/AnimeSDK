@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleViewService_1_AssetAsyncLoadHandle_State_TypeDefinitionIndex = 70286;
+	inline static constexpr unsigned int SimpleViewService_1_AssetAsyncLoadHandle_State_TypeDefinitionIndex = 71102;
 
 	enum class SimpleViewService_1_AssetAsyncLoadHandle_State : ::System::Int32
 	{

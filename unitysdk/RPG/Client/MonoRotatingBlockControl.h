@@ -3,21 +3,21 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_2_7EC4B2877D4006B2;
+class Class_2_057C3FE8F02A318D;
 namespace RPG::Client { class GameObjectAudio; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xA9F5C60)
-#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA9F5D90)
-#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA9F5CD0)
-#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9F5D30)
-#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xA9F5E20)
+#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xC143CB0)
+#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC143DE0)
+#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC143D20)
+#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xC143D80)
+#define RPG_CLIENT_MONOROTATINGBLOCKCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC143E70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRotatingBlockControl_TypeDefinitionIndex = 65232;
+	inline static constexpr unsigned int MonoRotatingBlockControl_TypeDefinitionIndex = 66159;
 
 	class MonoRotatingBlockControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -43,7 +43,7 @@ namespace RPG::Client
 		::System::Single timePhase; // 0x94
 		::System::Single RoundTime; // 0x98
 		::System::Boolean isReversed; // 0x9C
-		::Class_2_7EC4B2877D4006B2* _Behavior; // 0xA0
+		::Class_2_057C3FE8F02A318D* _Behavior; // 0xA0
 
 		::System::Void _ctor()
 		{

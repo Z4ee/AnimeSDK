@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int ThirdpartyMethod_TypeDefinitionIndex = 7512;
+	inline static constexpr unsigned int ThirdpartyMethod_TypeDefinitionIndex = 8415;
 
 	enum class ThirdpartyMethod : ::System::Int32
 	{

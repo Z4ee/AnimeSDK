@@ -6,17 +6,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CLASS_3_15D80F21AA742946_METHOD_3_481800E2ED22AD35_OFFSET UNITYSDK_OFFSET(0x1916D3D0)
-#define CLASS_3_15D80F21AA742946_METHOD_3_6F57C0C4237B910A_OFFSET UNITYSDK_OFFSET(0x1916D410)
-#define CLASS_3_15D80F21AA742946__CTOR_OFFSET UNITYSDK_OFFSET(0x1916D400)
+#define CLASS_3_15D80F21AA742946_METHOD_3_481800E2ED22AD35_OFFSET UNITYSDK_OFFSET(0x18FF9170)
+#define CLASS_3_15D80F21AA742946_METHOD_3_6F57C0C4237B910A_OFFSET UNITYSDK_OFFSET(0x18FF91B0)
+#define CLASS_3_15D80F21AA742946__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF91A0)
 
-inline static constexpr unsigned int Class_3_15D80F21AA742946_TypeDefinitionIndex = 17345;
+inline static constexpr unsigned int Class_3_15D80F21AA742946_TypeDefinitionIndex = 17349;
 
 class Class_3_15D80F21AA742946 : public ::Class_2_68C34B5C1C40C2FF
 {
 public:
-	::RPG::GameCore::DynamicFloat* Field_3_1; // 0x10
-	::RPG::GameCore::TurnInsertActionConditionType Field_3_0; // 0x18
+	::RPG::GameCore::DynamicFloat* Field_3_0; // 0x10
+	::RPG::GameCore::TurnInsertActionConditionType Field_3_1; // 0x18
 
 	::System::Void _ctor()
 	{

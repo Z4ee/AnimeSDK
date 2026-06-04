@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK::Console::UI::OS { class ConsoleAgeGateParentalConsentRequiredDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTREQUIREDDIALOG___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17503DD0)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTREQUIREDDIALOG___C__DISPLAYCLASS37_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x17504020)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTREQUIREDDIALOG___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18300C00)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTREQUIREDDIALOG___C__DISPLAYCLASS37_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18300E50)
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
-	inline static constexpr unsigned int ConsoleAgeGateParentalConsentRequiredDialog___c__DisplayClass37_0_TypeDefinitionIndex = 7797;
+	inline static constexpr unsigned int ConsoleAgeGateParentalConsentRequiredDialog___c__DisplayClass37_0_TypeDefinitionIndex = 8700;
 
 	class ConsoleAgeGateParentalConsentRequiredDialog___c__DisplayClass37_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MiHoYo::SDK::Console::UI::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTREQUIREDDIALOG___C__DISPLAYCLASS37_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::Console::UI::OS::ConsoleAgeGateParentalConsentRequiredDialog* dialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::Console::UI::OS::ConsoleAgeGateParentalConsentRequiredDialog* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Console::UI::OS::ConsoleAgeGateParentalConsentRequiredDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTREQUIREDDIALOG___C__DISPLAYCLASS37_0__SHOW_B__0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Console::UI::OS::ConsoleAgeGateParentalConsentRequiredDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTREQUIREDDIALOG___C__DISPLAYCLASS37_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -8,36 +8,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE26_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1121B510)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE26_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1121B570)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE26_INVOKE_OFFSET UNITYSDK_OFFSET(0x1121AFB0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE26__CTOR_OFFSET UNITYSDK_OFFSET(0x11212E60)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE26_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E87F90)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE26_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E87FF0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE26_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E87F80)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE26__CTOR_OFFSET UNITYSDK_OFFSET(0x12E87E90)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE26_TypeDefinitionIndex = 46352;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE26_TypeDefinitionIndex = 46942;
 
 	class InternalGlobals___GEN_DELEGATE26 : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE26__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE26__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::IRogueTournGameLevelRoom* Invoke(::RPG::Client::IRogueTournGameLevelLinear* level, ::System::UInt32 progress)
+		::RPG::Client::IRogueTournGameLevelRoom* Invoke(::RPG::Client::IRogueTournGameLevelLinear* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::IRogueTournGameLevelRoom*(*)(::PVOID, ::RPG::Client::IRogueTournGameLevelLinear*, ::System::UInt32))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE26_INVOKE_OFFSET))(this, level, progress);
+			return ((::RPG::Client::IRogueTournGameLevelRoom*(*)(::PVOID, ::RPG::Client::IRogueTournGameLevelLinear*, ::System::UInt32))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE26_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueTournGameLevelLinear* level, ::System::UInt32 progress, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueTournGameLevelLinear* a1, ::System::UInt32 a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueTournGameLevelLinear*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE26_BEGININVOKE_OFFSET))(this, level, progress, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueTournGameLevelLinear*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE26_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::RPG::Client::IRogueTournGameLevelRoom* EndInvoke(::System::IAsyncResult* result)
+		::RPG::Client::IRogueTournGameLevelRoom* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::RPG::Client::IRogueTournGameLevelRoom*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE26_ENDINVOKE_OFFSET))(this, result);
+			return ((::RPG::Client::IRogueTournGameLevelRoom*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE26_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

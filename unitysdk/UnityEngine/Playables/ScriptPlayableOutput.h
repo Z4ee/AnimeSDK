@@ -5,29 +5,29 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_CREATE_OFFSET UNITYSDK_OFFSET(0x1A466910)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x7AEA80)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1A466A50)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A466A40)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x22E6CB0)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_CREATE_OFFSET UNITYSDK_OFFSET(0x1B2B6620)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2BC6740)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1B2B6740)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B2B6730)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x38839D0)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int ScriptPlayableOutput_TypeDefinitionIndex = 4730;
+	inline static constexpr unsigned int ScriptPlayableOutput_TypeDefinitionIndex = 4904;
 
 	struct alignas(8) ScriptPlayableOutput
 	{
 		::UnityEngine::Playables::PlayableOutputHandle m_Handle; // 0x10
 
-		::System::Void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle)
+		::System::Void _ctor(::UnityEngine::Playables::PlayableOutputHandle a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT__CTOR_OFFSET))(this, handle);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT__CTOR_OFFSET))(this, a1);
 		}
 
 		/*
-		static ::UnityEngine::Playables::ScriptPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::System::String* name)
+		static ::UnityEngine::Playables::ScriptPlayableOutput Create(::UnityEngine::Playables::PlayableGraph a1, ::System::String* a2)
 		{
-			return ((::UnityEngine::Playables::ScriptPlayableOutput(*)(::UnityEngine::Playables::PlayableGraph, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_CREATE_OFFSET))(graph, name);
+			return ((::UnityEngine::Playables::ScriptPlayableOutput(*)(::UnityEngine::Playables::PlayableGraph, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_CREATE_OFFSET))(a1, a2);
 		}
 		*/
 
@@ -42,9 +42,9 @@ namespace UnityEngine::Playables
 		}
 
 		/*
-		static ::UnityEngine::Playables::PlayableOutput op_Implicit(::UnityEngine::Playables::ScriptPlayableOutput output)
+		static ::UnityEngine::Playables::PlayableOutput op_Implicit(::UnityEngine::Playables::ScriptPlayableOutput a1)
 		{
-			return ((::UnityEngine::Playables::PlayableOutput(*)(::UnityEngine::Playables::ScriptPlayableOutput))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_OP_IMPLICIT_OFFSET))(output);
+			return ((::UnityEngine::Playables::PlayableOutput(*)(::UnityEngine::Playables::ScriptPlayableOutput))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_OP_IMPLICIT_OFFSET))(a1);
 		}
 		*/
 	};

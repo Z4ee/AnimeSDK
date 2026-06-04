@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_SDKDISPATCHER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DAFDF0)
-#define MIHOYO_SDK_SDKDISPATCHER___C__DISPLAYCLASS9_0__SDKINVOKE_B__0_OFFSET UNITYSDK_OFFSET(0x8DB0030)
+#define MIHOYO_SDK_SDKDISPATCHER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA1FEAE0)
+#define MIHOYO_SDK_SDKDISPATCHER___C__DISPLAYCLASS9_0__SDKINVOKE_B__0_OFFSET UNITYSDK_OFFSET(0xA1FEE30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDispatcher___c__DisplayClass9_0_TypeDefinitionIndex = 42865;
+	inline static constexpr unsigned int SDKDispatcher___c__DisplayClass9_0_TypeDefinitionIndex = 43668;
 
 	class SDKDispatcher___c__DisplayClass9_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDISPATCHER___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SDKInvoke_b__0(::System::String* response)
+		::System::Void _SDKInvoke_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDISPATCHER___C__DISPLAYCLASS9_0__SDKINVOKE_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDISPATCHER___C__DISPLAYCLASS9_0__SDKINVOKE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

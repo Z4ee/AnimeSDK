@@ -8,22 +8,22 @@ namespace RPG::GameCore { class RestaurantFarmConfigRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFFARMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA228600)
-#define RPG_CLIENT_ELFFARMDATA_GET_FIELDDATALIST_OFFSET UNITYSDK_OFFSET(0xA228990)
-#define RPG_CLIENT_ELFFARMDATA_GET_FIELDIDARRAY_OFFSET UNITYSDK_OFFSET(0xA228830)
-#define RPG_CLIENT_ELFFARMDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xA2288A0)
-#define RPG_CLIENT_ELFFARMDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA2289B0)
-#define RPG_CLIENT_ELFFARMDATA_GET_MANAGEREMPLOYEEID_OFFSET UNITYSDK_OFFSET(0xA228920)
-#define RPG_CLIENT_ELFFARMDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA228DC0)
-#define RPG_CLIENT_ELFFARMDATA_GET_UNLOCKPROGRESSID_OFFSET UNITYSDK_OFFSET(0xA228B40)
-#define RPG_CLIENT_ELFFARMDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xA2288C0)
-#define RPG_CLIENT_ELFFARMDATA_SET_FIELDDATALIST_OFFSET UNITYSDK_OFFSET(0xA2289A0)
-#define RPG_CLIENT_ELFFARMDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xA2288B0)
-#define RPG_CLIENT_ELFFARMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA228820)
+#define RPG_CLIENT_ELFFARMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB8AC1F0)
+#define RPG_CLIENT_ELFFARMDATA_GET_FIELDDATALIST_OFFSET UNITYSDK_OFFSET(0xB8AC5E0)
+#define RPG_CLIENT_ELFFARMDATA_GET_FIELDIDARRAY_OFFSET UNITYSDK_OFFSET(0xB8AC480)
+#define RPG_CLIENT_ELFFARMDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xB8AC4F0)
+#define RPG_CLIENT_ELFFARMDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xB8AC600)
+#define RPG_CLIENT_ELFFARMDATA_GET_MANAGEREMPLOYEEID_OFFSET UNITYSDK_OFFSET(0xB8AC570)
+#define RPG_CLIENT_ELFFARMDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB8AC9C0)
+#define RPG_CLIENT_ELFFARMDATA_GET_UNLOCKPROGRESSID_OFFSET UNITYSDK_OFFSET(0xB8AC790)
+#define RPG_CLIENT_ELFFARMDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xB8AC510)
+#define RPG_CLIENT_ELFFARMDATA_SET_FIELDDATALIST_OFFSET UNITYSDK_OFFSET(0xB8AC5F0)
+#define RPG_CLIENT_ELFFARMDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xB8AC500)
+#define RPG_CLIENT_ELFFARMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AC470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfFarmData_TypeDefinitionIndex = 58672;
+	inline static constexpr unsigned int ElfFarmData_TypeDefinitionIndex = 59602;
 
 	class ElfFarmData : public ::System::Object
 	{
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ElfFarmData* Create(::System::UInt32 ID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ElfFarmFieldData*>* fieldDict)
+		static ::RPG::Client::ElfFarmData* Create(::System::UInt32 a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ElfFarmFieldData*>* a2)
 		{
-			return ((::RPG::Client::ElfFarmData*(*)(::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ElfFarmFieldData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMDATA_CREATE_OFFSET))(ID, fieldDict);
+			return ((::RPG::Client::ElfFarmData*(*)(::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ElfFarmFieldData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMDATA_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::UInt32 get_ID()
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMDATA_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMDATA_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMDATA_SET_ID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::RestaurantFarmConfigRow* get__Row()
@@ -71,9 +71,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ElfFarmFieldData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMDATA_GET_FIELDDATALIST_OFFSET))(this);
 		}
 
-		::System::Void set_FieldDataList(::System::Collections::Generic::List_1<::RPG::Client::ElfFarmFieldData*>* value)
+		::System::Void set_FieldDataList(::System::Collections::Generic::List_1<::RPG::Client::ElfFarmFieldData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ElfFarmFieldData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMDATA_SET_FIELDDATALIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ElfFarmFieldData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMDATA_SET_FIELDDATALIST_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsUnlocked()

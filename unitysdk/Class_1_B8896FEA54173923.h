@@ -6,20 +6,20 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraPostSoundEvent; }
 
-#define CLASS_1_B8896FEA54173923_METHOD_1_655DDB722F1FDE73_OFFSET UNITYSDK_OFFSET(0xDFEF750)
-#define CLASS_1_B8896FEA54173923_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0xDFEF710)
-#define CLASS_1_B8896FEA54173923__CTOR_OFFSET UNITYSDK_OFFSET(0xDFEF6C0)
+#define CLASS_1_B8896FEA54173923_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x13D25A10)
+#define CLASS_1_B8896FEA54173923_METHOD_1_B43C848B078B3C34_OFFSET UNITYSDK_OFFSET(0x13D25A50)
+#define CLASS_1_B8896FEA54173923__CTOR_OFFSET UNITYSDK_OFFSET(0x13D259C0)
 
-inline static constexpr unsigned int Class_1_B8896FEA54173923_TypeDefinitionIndex = 71911;
+inline static constexpr unsigned int Class_1_B8896FEA54173923_TypeDefinitionIndex = 72933;
 
 class Class_1_B8896FEA54173923 : public ::System::Object
 {
 public:
-	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Field_1_3; // 0x10
-	::RPG::GameCore::ChimeraPostSoundEvent* Field_1_0; // 0x18
-	::RPG::Client::Promises::Promise* Field_1_4; // 0x20
-	::System::UInt32 Field_1_2; // 0x28
-	::System::UInt32 Field_1_1; // 0x2C
+	::RPG::Client::Promises::Promise* Field_1_0; // 0x10
+	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Field_1_1; // 0x18
+	::RPG::GameCore::ChimeraPostSoundEvent* Field_1_2; // 0x20
+	::System::UInt32 Field_1_3; // 0x28
+	::System::UInt32 Field_1_4; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraPostSoundEvent* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a4)
 	{
@@ -31,8 +31,8 @@ public:
 		return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B8896FEA54173923_METHOD_1_8F9DF3D751E1E0BF_OFFSET))(this);
 	}
 
-	::System::Void Method_1_655DDB722F1FDE73()
+	::System::Void Method_1_B43C848B078B3C34()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B8896FEA54173923_METHOD_1_655DDB722F1FDE73_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B8896FEA54173923_METHOD_1_B43C848B078B3C34_OFFSET))(this);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournGameWithGodMode_TypeDefinitionIndex = 62310;
+	inline static constexpr unsigned int IRogueTournGameWithGodMode_TypeDefinitionIndex = 63243;
 
 	class IRogueTournGameWithGodMode
 	{

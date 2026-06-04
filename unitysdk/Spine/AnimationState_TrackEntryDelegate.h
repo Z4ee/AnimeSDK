@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19DCFB80)
-#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19DCFBB0)
-#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DC92F0)
-#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DCFB60)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AC4D0A0)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AC4D0D0)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AC46870)
+#define SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC4CFB0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AnimationState_TrackEntryDelegate_TypeDefinitionIndex = 36391;
+	inline static constexpr unsigned int AnimationState_TrackEntryDelegate_TypeDefinitionIndex = 36691;
 
 	class AnimationState_TrackEntryDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Spine::TrackEntry* trackEntry)
+		::System::Void Invoke(::Spine::TrackEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_INVOKE_OFFSET))(this, trackEntry);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Spine::TrackEntry* trackEntry, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Spine::TrackEntry* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Spine::TrackEntry*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_BEGININVOKE_OFFSET))(this, trackEntry, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Spine::TrackEntry*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATE_TRACKENTRYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

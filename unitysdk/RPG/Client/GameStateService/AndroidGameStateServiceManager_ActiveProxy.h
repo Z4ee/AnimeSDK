@@ -5,25 +5,25 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xA428220)
-#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_REPORTACTIVESTATE_1_OFFSET UNITYSDK_OFFSET(0xA42DB30)
-#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_REPORTACTIVESTATE_OFFSET UNITYSDK_OFFSET(0xA42E730)
-#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_SETSWITCHSTATUS_OFFSET UNITYSDK_OFFSET(0xA426F60)
-#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xA42CFE0)
+#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xBAC45E0)
+#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_REPORTACTIVESTATE_1_OFFSET UNITYSDK_OFFSET(0xBAC9F80)
+#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_REPORTACTIVESTATE_OFFSET UNITYSDK_OFFSET(0xBACABE0)
+#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_SETSWITCHSTATUS_OFFSET UNITYSDK_OFFSET(0xBAC3080)
+#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xBAC9460)
 
 namespace RPG::Client::GameStateService
 {
-	inline static constexpr unsigned int AndroidGameStateServiceManager_ActiveProxy_TypeDefinitionIndex = 69687;
+	inline static constexpr unsigned int AndroidGameStateServiceManager_ActiveProxy_TypeDefinitionIndex = 70499;
 
 	class AndroidGameStateServiceManager_ActiveProxy : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Boolean>* _switchList; // 0x10
-		::System::Action* _whenActive; // 0x18
+		::System::Action* _whenActive; // 0x10
+		::Il2CppArray<::System::Boolean>* _switchList; // 0x18
 
-		::System::Void _ctor(::System::Action* actionWhenReallyActive)
+		::System::Void _ctor(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY__CTOR_OFFSET))(this, actionWhenReallyActive);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsActive()
@@ -31,14 +31,14 @@ namespace RPG::Client::GameStateService
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_ISACTIVE_OFFSET))(this);
 		}
 
-		::System::Void SetSwitchStatus(::RPG::Client::GameStateService::AndroidGameStateServiceManager_GameStateServiceSwitchType switchType, ::System::Boolean status)
+		::System::Void SetSwitchStatus(::RPG::Client::GameStateService::AndroidGameStateServiceManager_GameStateServiceSwitchType a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GameStateService::AndroidGameStateServiceManager_GameStateServiceSwitchType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_SETSWITCHSTATUS_OFFSET))(this, switchType, status);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GameStateService::AndroidGameStateServiceManager_GameStateServiceSwitchType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_SETSWITCHSTATUS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ReportActiveState(::RPG::Client::GameStateService::AndroidGameStateServiceManager_GameStateServiceSwitchType switchType)
+		::System::Void ReportActiveState(::RPG::Client::GameStateService::AndroidGameStateServiceManager_GameStateServiceSwitchType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GameStateService::AndroidGameStateServiceManager_GameStateServiceSwitchType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_REPORTACTIVESTATE_OFFSET))(this, switchType);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GameStateService::AndroidGameStateServiceManager_GameStateServiceSwitchType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER_ACTIVEPROXY_REPORTACTIVESTATE_OFFSET))(this, a1);
 		}
 
 		::System::Void ReportActiveState_1()

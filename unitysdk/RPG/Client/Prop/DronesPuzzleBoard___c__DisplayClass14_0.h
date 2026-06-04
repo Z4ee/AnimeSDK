@@ -5,12 +5,12 @@
 
 namespace RPG::Client::Prop { class DronesPuzzleBoard; }
 
-#define RPG_CLIENT_PROP_DRONESPUZZLEBOARD___C__DISPLAYCLASS14_0__BUILDACHIEVEMENTAREAS_B__1_OFFSET UNITYSDK_OFFSET(0xAE05180)
-#define RPG_CLIENT_PROP_DRONESPUZZLEBOARD___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAE044B0)
+#define RPG_CLIENT_PROP_DRONESPUZZLEBOARD___C__DISPLAYCLASS14_0__BUILDACHIEVEMENTAREAS_B__1_OFFSET UNITYSDK_OFFSET(0xC54AC30)
+#define RPG_CLIENT_PROP_DRONESPUZZLEBOARD___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC549F60)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesPuzzleBoard___c__DisplayClass14_0_TypeDefinitionIndex = 72064;
+	inline static constexpr unsigned int DronesPuzzleBoard___c__DisplayClass14_0_TypeDefinitionIndex = 73086;
 
 	class DronesPuzzleBoard___c__DisplayClass14_0 : public ::System::Object
 	{

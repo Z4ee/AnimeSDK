@@ -5,7 +5,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncValueTaskMethodBuilder_1_TypeDefinitionIndex = 9189;
+	inline static constexpr unsigned int AsyncValueTaskMethodBuilder_1_TypeDefinitionIndex = 7053;
 
 	template <typename TResult>
 	struct AsyncValueTaskMethodBuilder_1

@@ -1,0 +1,246 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CharacterVisibleReason.h"
+#include "unitysdk/RPG/GameCore/EntityClassifyType.h"
+#include "unitysdk/RPG/GameCore/TeamType.h"
+#include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_0_16E4307DCC419505_401;
+namespace RPG::Client { class MapProp; }
+namespace RPG::Client { class MapPropDef; }
+namespace RPG::Client::OpenWorld { class StreamingItemData; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class GameWorld; }
+namespace RPG::GameCore { class HoyoTag; }
+namespace RPG::GameCore { class PropComponent; }
+namespace RPG::GameCore { class PropConfig; }
+namespace RPG::GameCore { class PropRow; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
+
+#define CLASS_1_AFC3C7A272BDF32C_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB05FB30)
+#define CLASS_1_AFC3C7A272BDF32C_GET_PROPENTITYLIST_OFFSET UNITYSDK_OFFSET(0xB063440)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_10626A8EF67FC79B_OFFSET UNITYSDK_OFFSET(0xB063060)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_11204FB96892C531_OFFSET UNITYSDK_OFFSET(0xB062E60)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_129D7877BF66A75B_OFFSET UNITYSDK_OFFSET(0xB061B90)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_17FF7E72EFD64472_OFFSET UNITYSDK_OFFSET(0xB062B50)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_1827A6C4F3AD19AB_OFFSET UNITYSDK_OFFSET(0xB05FEA0)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_19FEF69702780372_OFFSET UNITYSDK_OFFSET(0xB061200)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_2055E356167A6E24_OFFSET UNITYSDK_OFFSET(0xB05FE30)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xB061790)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_2821A73AAB77A2A0_OFFSET UNITYSDK_OFFSET(0xB0620C0)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_31B5CB6007E85779_OFFSET UNITYSDK_OFFSET(0xB05FF70)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_413A6BC52928E53F_OFFSET UNITYSDK_OFFSET(0xB0600C0)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_41C5DCB68A2CA7FB_OFFSET UNITYSDK_OFFSET(0xB062910)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_45EAB6EE994942F8_OFFSET UNITYSDK_OFFSET(0xB05FD60)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_6275F121BDF44629_OFFSET UNITYSDK_OFFSET(0xB061590)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_790CBB7E237DE411_OFFSET UNITYSDK_OFFSET(0xB0619A0)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_7B6EC255F45D034F_OFFSET UNITYSDK_OFFSET(0xB0617F0)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_81E7A4FD20EC860C_OFFSET UNITYSDK_OFFSET(0xB0632D0)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_836B825FBC821E0E_OFFSET UNITYSDK_OFFSET(0xB0631A0)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_8BEBF3CCF49EF055_OFFSET UNITYSDK_OFFSET(0xB060570)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_8C7AA876B0540908_OFFSET UNITYSDK_OFFSET(0xB060E40)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_96C1D26737F3F629_OFFSET UNITYSDK_OFFSET(0xB061EC0)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_9995BC60352EC353_OFFSET UNITYSDK_OFFSET(0xB060B30)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_A1C737D89C779DCE_OFFSET UNITYSDK_OFFSET(0xB063460)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_B66A9C30B6B70E7E_OFFSET UNITYSDK_OFFSET(0xB061C00)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_BDA1BFF1B03C0DC7_OFFSET UNITYSDK_OFFSET(0xB061A80)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_CA1E0FA1865267BB_OFFSET UNITYSDK_OFFSET(0xB061030)
+#define CLASS_1_AFC3C7A272BDF32C_METHOD_1_DE33BF14C753119C_OFFSET UNITYSDK_OFFSET(0xB060040)
+#define CLASS_1_AFC3C7A272BDF32C_SET_PROPENTITYLIST_OFFSET UNITYSDK_OFFSET(0xB063450)
+#define CLASS_1_AFC3C7A272BDF32C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB063680)
+#define CLASS_1_AFC3C7A272BDF32C__CTOR_OFFSET UNITYSDK_OFFSET(0xB05F910)
+
+inline static constexpr unsigned int Class_1_AFC3C7A272BDF32C_TypeDefinitionIndex = 56791;
+
+class Class_1_AFC3C7A272BDF32C : public ::System::Object
+{
+public:
+	static ::System::String** StaticGet_Field_1_0()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AFC3C7A272BDF32C_TypeDefinitionIndex)->GetStaticField(0x4AF90);
+	}
+	static ::System::Boolean* StaticGet_Field_1_1()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_AFC3C7A272BDF32C_TypeDefinitionIndex)->GetStaticField(0xE0E0);
+	}
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*>* Field_1_2; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Matrix4x4>* Field_1_3; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _PropEntityList_k__BackingField; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* Field_1_5; // 0x28
+	::RPG::GameCore::GameWorld* Field_1_6; // 0x30
+	::RPG::GameCore::HoyoTag* Field_1_7; // 0x38
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_8; // 0x40
+	::System::Collections::Generic::List_1<::RPG::Client::MapProp*>* Field_1_9; // 0x48
+	::System::Boolean Field_1_10; // 0x50
+	::System::Boolean Field_1_11; // 0x51
+	::RPG::GameCore::CharacterVisibleReason Field_1_12; // 0x52
+
+	::System::Void _ctor(::RPG::GameCore::GameWorld* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameWorld*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C__CTOR_OFFSET))(this, a1);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C__CCTOR_OFFSET))();
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_DISPOSE_OFFSET))(this);
+	}
+
+	::RPG::GameCore::PropConfig* Method_1_45EAB6EE994942F8(::RPG::GameCore::PropRow* a1, ::RPG::Client::MapPropDef* a2)
+	{
+		return ((::RPG::GameCore::PropConfig*(*)(::PVOID, ::RPG::GameCore::PropRow*, ::RPG::Client::MapPropDef*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_45EAB6EE994942F8_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_2055E356167A6E24(::RPG::GameCore::PropComponent* a1, ::System::String* a2, ::System::String* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_2055E356167A6E24_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_1827A6C4F3AD19AB(::RPG::GameCore::PropComponent* a1, ::RPG::Client::MapPropDef* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*, ::RPG::Client::MapPropDef*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_1827A6C4F3AD19AB_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_31B5CB6007E85779(::RPG::GameCore::PropComponent* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_31B5CB6007E85779_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_DE33BF14C753119C(::RPG::GameCore::GameEntity* a1, ::RPG::Client::MapPropDef* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::MapPropDef*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_DE33BF14C753119C_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::GameCore::GameEntity* Method_1_413A6BC52928E53F(::System::UInt32 a1, ::RPG::GameCore::TeamType a2, ::System::String* a3, ::UnityEngine::GameObject* a4, ::RPG::MVector3 a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::RPG::MVector3 a9, ::RPG::Client::MapPropDef* a10, ::System::String* a11, ::System::Action_1<::RPG::GameCore::GameEntity*>* a12, ::RPG::GameCore::EntityClassifyType a13, ::System::Boolean a14, ::RPG::Client::OpenWorld::StreamingItemData* a15, ::System::Boolean a16)
+	{
+		return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::TeamType, ::System::String*, ::UnityEngine::GameObject*, ::RPG::MVector3, ::System::Single, ::System::Single, ::System::Single, ::RPG::MVector3, ::RPG::Client::MapPropDef*, ::System::String*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::EntityClassifyType, ::System::Boolean, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_413A6BC52928E53F_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
+	}
+
+	::System::Void Method_1_8BEBF3CCF49EF055(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_8BEBF3CCF49EF055_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_9995BC60352EC353(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_9995BC60352EC353_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_8C7AA876B0540908(::System::String* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_8C7AA876B0540908_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Boolean Method_1_CA1E0FA1865267BB(::System::String* a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Quaternion& a3)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_CA1E0FA1865267BB_OFFSET))(this, a1, a2, a3);
+	}
+
+	::RPG::GameCore::GameEntity* Method_1_19FEF69702780372(::System::String* a1, ::System::Boolean a2)
+	{
+		return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_19FEF69702780372_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_2685B6183E614529(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_2685B6183E614529_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_7B6EC255F45D034F(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_7B6EC255F45D034F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_790CBB7E237DE411(::RPG::Client::MapProp* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MapProp*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_790CBB7E237DE411_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_6275F121BDF44629(::RPG::Client::MapProp* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MapProp*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_6275F121BDF44629_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_BDA1BFF1B03C0DC7(::RPG::Client::MapProp* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapProp*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_BDA1BFF1B03C0DC7_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_129D7877BF66A75B(::RPG::Client::MapProp* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MapProp*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_129D7877BF66A75B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_B66A9C30B6B70E7E(::RPG::GameCore::TeamType a1, ::RPG::GameCore::GameEntity* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamType, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_B66A9C30B6B70E7E_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_96C1D26737F3F629(::RPG::GameCore::TeamType a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamType, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_96C1D26737F3F629_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_2821A73AAB77A2A0(::RPG::GameCore::CharacterVisibleReason a1, ::RPG::GameCore::HoyoTag* a2, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* a3, ::System::Boolean a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CharacterVisibleReason, ::RPG::GameCore::HoyoTag*, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_2821A73AAB77A2A0_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::System::Void Method_1_41C5DCB68A2CA7FB(::RPG::GameCore::CharacterVisibleReason a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CharacterVisibleReason))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_41C5DCB68A2CA7FB_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_17FF7E72EFD64472(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_17FF7E72EFD64472_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_11204FB96892C531(::RPG::GameCore::GameEntity* a1, ::RPG::Client::MapPropDef* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::MapPropDef*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_11204FB96892C531_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_10626A8EF67FC79B(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::PropRow* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::PropRow*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_10626A8EF67FC79B_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_836B825FBC821E0E(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_836B825FBC821E0E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_81E7A4FD20EC860C(::Class_0_16E4307DCC419505_401* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_401*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_81E7A4FD20EC860C_OFFSET))(this, a1);
+	}
+
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* get_PropEntityList()
+	{
+		return ((::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_GET_PROPENTITYLIST_OFFSET))(this);
+	}
+
+	::System::Void set_PropEntityList(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_SET_PROPENTITYLIST_OFFSET))(this, a1);
+	}
+
+	static ::System::String* Method_1_A1C737D89C779DCE(::System::String* a1, ::System::Int32 a2)
+	{
+		return ((::System::String*(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_AFC3C7A272BDF32C_METHOD_1_A1C737D89C779DCE_OFFSET))(a1, a2);
+	}
+};

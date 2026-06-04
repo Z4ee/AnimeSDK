@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_F9FBCC956DFCF137_1.h"
 
-class Class_1_D37BADBAF66E56C6;
+class Class_1_5816B66AC6910205;
 namespace RPG::GameCore { class MarbleChooseTarget; }
 
-#define CLASS_2_06093749E022C42C_METHOD_2_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x17F5BC60)
-#define CLASS_2_06093749E022C42C_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x17F5BCD0)
-#define CLASS_2_06093749E022C42C__CTOR_OFFSET UNITYSDK_OFFSET(0x17F5BC50)
+#define CLASS_2_06093749E022C42C_METHOD_2_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x18BF99D0)
+#define CLASS_2_06093749E022C42C_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x18BF9A40)
+#define CLASS_2_06093749E022C42C__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF99C0)
 
-inline static constexpr unsigned int Class_2_06093749E022C42C_TypeDefinitionIndex = 38961;
+inline static constexpr unsigned int Class_2_06093749E022C42C_TypeDefinitionIndex = 39729;
 
 class Class_2_06093749E022C42C : public ::Class_1_F9FBCC956DFCF137_1
 {
 public:
 	::RPG::GameCore::MarbleChooseTarget* Field_2_0; // 0x18
 
-	::System::Void _ctor(::RPG::GameCore::MarbleChooseTarget* a1, ::Class_1_D37BADBAF66E56C6* a2)
+	::System::Void _ctor(::RPG::GameCore::MarbleChooseTarget* a1, ::Class_1_5816B66AC6910205* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleChooseTarget*, ::Class_1_D37BADBAF66E56C6*))((::PBYTE)hIl2Cpp + CLASS_2_06093749E022C42C__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleChooseTarget*, ::Class_1_5816B66AC6910205*))((::PBYTE)hIl2Cpp + CLASS_2_06093749E022C42C__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_2_1808E1CF7A125519()

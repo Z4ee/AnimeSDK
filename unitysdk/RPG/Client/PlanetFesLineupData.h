@@ -5,21 +5,21 @@
 namespace RPG::Client { class PlanetFesLandLineupData; }
 namespace RPG::GameCore { class PlanetFesRecommendTeamRow; }
 
-#define RPG_CLIENT_PLANETFESLINEUPDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xACC36A0)
-#define RPG_CLIENT_PLANETFESLINEUPDATA_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xACC3680)
-#define RPG_CLIENT_PLANETFESLINEUPDATA_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xACC3690)
-#define RPG_CLIENT_PLANETFESLINEUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xACC3780)
+#define RPG_CLIENT_PLANETFESLINEUPDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC418170)
+#define RPG_CLIENT_PLANETFESLINEUPDATA_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xC418150)
+#define RPG_CLIENT_PLANETFESLINEUPDATA_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xC418160)
+#define RPG_CLIENT_PLANETFESLINEUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC418250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesLineupData_TypeDefinitionIndex = 61285;
+	inline static constexpr unsigned int PlanetFesLineupData_TypeDefinitionIndex = 62209;
 
 	class PlanetFesLineupData : public ::System::Object
 	{
 	public:
-		::RPG::Client::PlanetFesLandLineupData* GameLineup; // 0x10
-		::RPG::Client::PlanetFesLandLineupData* BusinessLineup; // 0x18
-		::RPG::Client::PlanetFesLandLineupData* ExhibitionLineup; // 0x20
+		::RPG::Client::PlanetFesLandLineupData* ExhibitionLineup; // 0x10
+		::RPG::Client::PlanetFesLandLineupData* GameLineup; // 0x18
+		::RPG::Client::PlanetFesLandLineupData* BusinessLineup; // 0x20
 		::System::UInt32 _Index_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -32,14 +32,14 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPDATA_GET_INDEX_OFFSET))(this);
 		}
 
-		::System::Void set_Index(::System::UInt32 value)
+		::System::Void set_Index(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPDATA_SET_INDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPDATA_SET_INDEX_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::PlanetFesLineupData* Create(::RPG::GameCore::PlanetFesRecommendTeamRow* row)
+		static ::RPG::Client::PlanetFesLineupData* Create(::RPG::GameCore::PlanetFesRecommendTeamRow* a1)
 		{
-			return ((::RPG::Client::PlanetFesLineupData*(*)(::RPG::GameCore::PlanetFesRecommendTeamRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPDATA_CREATE_OFFSET))(row);
+			return ((::RPG::Client::PlanetFesLineupData*(*)(::RPG::GameCore::PlanetFesRecommendTeamRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPDATA_CREATE_OFFSET))(a1);
 		}
 	};
 }

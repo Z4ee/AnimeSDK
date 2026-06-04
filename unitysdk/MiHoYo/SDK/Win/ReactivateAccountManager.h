@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_HIDE_OFFSET UNITYSDK_OFFSET(0x174B42C0)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_SHOW_OFFSET UNITYSDK_OFFSET(0x174B3EC0)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x174B4450)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x174B4440)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_HIDE_OFFSET UNITYSDK_OFFSET(0x182B32B0)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_SHOW_OFFSET UNITYSDK_OFFSET(0x182B2E90)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x182B3440)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x182B3430)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ReactivateAccountManager_TypeDefinitionIndex = 8037;
+	inline static constexpr unsigned int ReactivateAccountManager_TypeDefinitionIndex = 8940;
 
 	class ReactivateAccountManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Win::ReactivateAccountManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::ReactivateAccountManager**)Il2CppClass::FromTypeDefinitionIndex(ReactivateAccountManager_TypeDefinitionIndex)->GetStaticField(0x27B60);
+			return (::MiHoYo::SDK::Win::ReactivateAccountManager**)Il2CppClass::FromTypeDefinitionIndex(ReactivateAccountManager_TypeDefinitionIndex)->GetStaticField(0x260A0);
 		}
 
 		::System::Void _ctor()
@@ -33,9 +33,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER__CCTOR_OFFSET))();
 		}
 
-		::System::Void Show(::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* closeAction, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* submitAction)
+		::System::Void Show(::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* a1, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_SHOW_OFFSET))(this, closeAction, submitAction);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_SHOW_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void HIde()

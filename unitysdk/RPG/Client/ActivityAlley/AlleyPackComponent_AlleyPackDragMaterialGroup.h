@@ -4,22 +4,22 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKDRAGMATERIALGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9AACA10)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKDRAGMATERIALGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x9AAC9D0)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKDRAGMATERIALGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB08D910)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKDRAGMATERIALGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xB08D8D0)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackComponent_AlleyPackDragMaterialGroup_TypeDefinitionIndex = 68195;
+	inline static constexpr unsigned int AlleyPackComponent_AlleyPackDragMaterialGroup_TypeDefinitionIndex = 69169;
 
 	class AlleyPackComponent_AlleyPackDragMaterialGroup : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Material*>* RedMaterials; // 0x10
-		::Il2CppArray<::UnityEngine::Material*>* GreenMaterials; // 0x18
+		::Il2CppArray<::UnityEngine::Material*>* GreenMaterials; // 0x10
+		::Il2CppArray<::UnityEngine::Material*>* RedMaterials; // 0x18
 
-		::System::Void _ctor(::System::Int32 materialsCount)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKDRAGMATERIALGROUP__CTOR_OFFSET))(this, materialsCount);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKDRAGMATERIALGROUP__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

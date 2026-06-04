@@ -5,85 +5,85 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_843;
+class Class_0_16E4307DCC419505_894;
 namespace RPG::Client { class IRogueTournBuildRefDataItem; }
 namespace RPG::Client { class RogueTournBuildRefTeamData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFAPPLYTEAM_OFFSET UNITYSDK_OFFSET(0xB0AE210)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFAPPLY_OFFSET UNITYSDK_OFFSET(0xB0AB540)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFFAVORITE_OFFSET UNITYSDK_OFFSET(0xB0ADED0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFFILTER_OFFSET UNITYSDK_OFFSET(0xB0ACE10)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFLIKE_OFFSET UNITYSDK_OFFSET(0xB0ADB80)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHARECODEEXPORT_OFFSET UNITYSDK_OFFSET(0xB0AEB90)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHARECODEIMPORT_OFFSET UNITYSDK_OFFSET(0xB0AEA70)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHOWDETAIL_OFFSET UNITYSDK_OFFSET(0xB0AC7F0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTSOURCETYPE_OFFSET UNITYSDK_OFFSET(0xB0AC330)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_TOREPORTHASHCODE_OFFSET UNITYSDK_OFFSET(0xB0AC590)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER__GETHASHER_OFFSET UNITYSDK_OFFSET(0xB0AECB0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFAPPLYTEAM_OFFSET UNITYSDK_OFFSET(0xC7FF070)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFAPPLY_OFFSET UNITYSDK_OFFSET(0xC7FC520)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFFAVORITE_OFFSET UNITYSDK_OFFSET(0xC7FED60)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFFILTER_OFFSET UNITYSDK_OFFSET(0xC7FDCC0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFLIKE_OFFSET UNITYSDK_OFFSET(0xC7FEA10)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHARECODEEXPORT_OFFSET UNITYSDK_OFFSET(0xC7FF9C0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHARECODEIMPORT_OFFSET UNITYSDK_OFFSET(0xC7FF8A0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHOWDETAIL_OFFSET UNITYSDK_OFFSET(0xC7FD6C0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTSOURCETYPE_OFFSET UNITYSDK_OFFSET(0xC7FD200)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_TOREPORTHASHCODE_OFFSET UNITYSDK_OFFSET(0xC7FD460)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER__GETHASHER_OFFSET UNITYSDK_OFFSET(0xC7FFAE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefReportHelper_TypeDefinitionIndex = 62219;
+	inline static constexpr unsigned int RogueTournBuildRefReportHelper_TypeDefinitionIndex = 63152;
 
 	class RogueTournBuildRefReportHelper : public ::System::Object
 	{
 	public:
-		static ::System::Void ReportBuildRefApply(::RPG::Client::IRogueTournBuildRefDataItem* buildRefData, ::System::Guid applyBehaviorUID, ::System::Boolean isQuickApply, ::System::Boolean isApply, ::RPG::Client::RogueTournBuildRefReportFromUIType fromUIType)
+		static ::System::Void ReportBuildRefApply(::RPG::Client::IRogueTournBuildRefDataItem* a1, ::System::Guid a2, ::System::Boolean a3, ::System::Boolean a4, ::RPG::Client::RogueTournBuildRefReportFromUIType a5)
 		{
-			return ((::System::Void(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Guid, ::System::Boolean, ::System::Boolean, ::RPG::Client::RogueTournBuildRefReportFromUIType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFAPPLY_OFFSET))(buildRefData, applyBehaviorUID, isQuickApply, isApply, fromUIType);
+			return ((::System::Void(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Guid, ::System::Boolean, ::System::Boolean, ::RPG::Client::RogueTournBuildRefReportFromUIType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFAPPLY_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void ReportBuildRefShowDetail(::RPG::Client::IRogueTournBuildRefDataItem* buildRefData, ::RPG::Client::RogueTournBuildRefReportFromUIType fromUIType, ::System::UInt32 itemIndex)
+		static ::System::Void ReportBuildRefShowDetail(::RPG::Client::IRogueTournBuildRefDataItem* a1, ::RPG::Client::RogueTournBuildRefReportFromUIType a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::RPG::Client::RogueTournBuildRefReportFromUIType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHOWDETAIL_OFFSET))(buildRefData, fromUIType, itemIndex);
+			return ((::System::Void(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::RPG::Client::RogueTournBuildRefReportFromUIType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHOWDETAIL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ReportBuildRefFilter(::System::Guid filterBehaviorUID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* filterAvatarIDs, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* filterFormulaIDs, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournBuildRefDataItem*>* filteredBuildRefs)
+		static ::System::Void ReportBuildRefFilter(::System::Guid a1, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a2, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a3, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournBuildRefDataItem*>* a4)
 		{
-			return ((::System::Void(*)(::System::Guid, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournBuildRefDataItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFFILTER_OFFSET))(filterBehaviorUID, filterAvatarIDs, filterFormulaIDs, filteredBuildRefs);
+			return ((::System::Void(*)(::System::Guid, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournBuildRefDataItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFFILTER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void ReportBuildRefLike(::RPG::Client::IRogueTournBuildRefDataItem* buildRefData, ::System::Boolean isLike)
+		static ::System::Void ReportBuildRefLike(::RPG::Client::IRogueTournBuildRefDataItem* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFLIKE_OFFSET))(buildRefData, isLike);
+			return ((::System::Void(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFLIKE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReportBuildRefFavorite(::RPG::Client::IRogueTournBuildRefDataItem* buildRefData, ::System::Boolean isFavorite)
+		static ::System::Void ReportBuildRefFavorite(::RPG::Client::IRogueTournBuildRefDataItem* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFFAVORITE_OFFSET))(buildRefData, isFavorite);
+			return ((::System::Void(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFFAVORITE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReportBuildRefApplyTeam(::RPG::Client::IRogueTournBuildRefDataItem* buildRefData, ::RPG::Client::RogueTournBuildRefTeamData* teamData, ::System::Collections::Generic::List_1<::System::UInt32>* teamAvatarIDsAfter)
+		static ::System::Void ReportBuildRefApplyTeam(::RPG::Client::IRogueTournBuildRefDataItem* a1, ::RPG::Client::RogueTournBuildRefTeamData* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::RPG::Client::RogueTournBuildRefTeamData*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFAPPLYTEAM_OFFSET))(buildRefData, teamData, teamAvatarIDsAfter);
+			return ((::System::Void(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::RPG::Client::RogueTournBuildRefTeamData*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFAPPLYTEAM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ReportBuildRefShareCodeImport(::System::String* shareCodeText, ::RPG::Client::IRogueTournBuildRefDataItem* buildRefData)
+		static ::System::Void ReportBuildRefShareCodeImport(::System::String* a1, ::RPG::Client::IRogueTournBuildRefDataItem* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::RPG::Client::IRogueTournBuildRefDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHARECODEIMPORT_OFFSET))(shareCodeText, buildRefData);
+			return ((::System::Void(*)(::System::String*, ::RPG::Client::IRogueTournBuildRefDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHARECODEIMPORT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReportBuildRefShareCodeExport(::System::String* shareCodeText, ::RPG::Client::IRogueTournBuildRefDataItem* buildRefData)
+		static ::System::Void ReportBuildRefShareCodeExport(::System::String* a1, ::RPG::Client::IRogueTournBuildRefDataItem* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::RPG::Client::IRogueTournBuildRefDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHARECODEEXPORT_OFFSET))(shareCodeText, buildRefData);
+			return ((::System::Void(*)(::System::String*, ::RPG::Client::IRogueTournBuildRefDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTBUILDREFSHARECODEEXPORT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 ToReportHashCode(::RPG::Client::IRogueTournBuildRefDataItem* buildRef)
+		static ::System::Int32 ToReportHashCode(::RPG::Client::IRogueTournBuildRefDataItem* a1)
 		{
-			return ((::System::Int32(*)(::RPG::Client::IRogueTournBuildRefDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_TOREPORTHASHCODE_OFFSET))(buildRef);
+			return ((::System::Int32(*)(::RPG::Client::IRogueTournBuildRefDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_TOREPORTHASHCODE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::RogueTournBuildRefReportSourceType ReportSourceType(::RPG::Client::IRogueTournBuildRefDataItem* buildRef)
+		static ::RPG::Client::RogueTournBuildRefReportSourceType ReportSourceType(::RPG::Client::IRogueTournBuildRefDataItem* a1)
 		{
-			return ((::RPG::Client::RogueTournBuildRefReportSourceType(*)(::RPG::Client::IRogueTournBuildRefDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTSOURCETYPE_OFFSET))(buildRef);
+			return ((::RPG::Client::RogueTournBuildRefReportSourceType(*)(::RPG::Client::IRogueTournBuildRefDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER_REPORTSOURCETYPE_OFFSET))(a1);
 		}
 
-		static ::Class_0_16E4307DCC419505_843* _GetHasher()
+		static ::Class_0_16E4307DCC419505_894* _GetHasher()
 		{
-			return ((::Class_0_16E4307DCC419505_843*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER__GETHASHER_OFFSET))();
+			return ((::Class_0_16E4307DCC419505_894*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER__GETHASHER_OFFSET))();
 		}
 	};
 }

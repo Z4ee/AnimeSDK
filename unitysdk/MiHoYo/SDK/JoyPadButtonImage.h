@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace UnityEngine { class Sprite; }
 
-#define MIHOYO_SDK_JOYPADBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x17565DF0)
-#define MIHOYO_SDK_JOYPADBUTTONIMAGE_GETSPRITE_OFFSET UNITYSDK_OFFSET(0x17565D40)
-#define MIHOYO_SDK_JOYPADBUTTONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17565E70)
+#define MIHOYO_SDK_JOYPADBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1834E930)
+#define MIHOYO_SDK_JOYPADBUTTONIMAGE_GETSPRITE_OFFSET UNITYSDK_OFFSET(0x1834E880)
+#define MIHOYO_SDK_JOYPADBUTTONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1834E9B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JoyPadButtonImage_TypeDefinitionIndex = 7044;
+	inline static constexpr unsigned int JoyPadButtonImage_TypeDefinitionIndex = 7947;
 
 	class JoyPadButtonImage : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,9 +25,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JOYPADBUTTONIMAGE__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Sprite* GetSprite(::System::String* strJoyPadType)
+		::UnityEngine::Sprite* GetSprite(::System::String* a1)
 		{
-			return ((::UnityEngine::Sprite*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JOYPADBUTTONIMAGE_GETSPRITE_OFFSET))(this, strJoyPadType);
+			return ((::UnityEngine::Sprite*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JOYPADBUTTONIMAGE_GETSPRITE_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()

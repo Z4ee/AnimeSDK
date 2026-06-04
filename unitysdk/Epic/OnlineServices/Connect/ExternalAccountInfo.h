@@ -9,32 +9,32 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_ACCOUNTIDTYPE_OFFSET UNITYSDK_OFFSET(0x8E54C70)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x8E54C50)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x8E54C30)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_LASTLOGINTIME_OFFSET UNITYSDK_OFFSET(0x8E54C90)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x8E54C10)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8E55390)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_ACCOUNTIDTYPE_OFFSET UNITYSDK_OFFSET(0x8E54C80)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x8E54C60)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x8E54C40)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_LASTLOGINTIME_OFFSET UNITYSDK_OFFSET(0x8E54CB0)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_OFFSET UNITYSDK_OFFSET(0x8E54CC0)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x8E54C20)
-#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8E554D0)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_ACCOUNTIDTYPE_OFFSET UNITYSDK_OFFSET(0xA29E950)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xA29E930)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xA29E910)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_LASTLOGINTIME_OFFSET UNITYSDK_OFFSET(0xA29E970)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0xA29E8F0)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA29F070)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_ACCOUNTIDTYPE_OFFSET UNITYSDK_OFFSET(0xA29E960)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xA29E940)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xA29E920)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_LASTLOGINTIME_OFFSET UNITYSDK_OFFSET(0xA29E990)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_OFFSET UNITYSDK_OFFSET(0xA29E9A0)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0xA29E900)
+#define EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA29F1B0)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int ExternalAccountInfo_TypeDefinitionIndex = 42286;
+	inline static constexpr unsigned int ExternalAccountInfo_TypeDefinitionIndex = 43089;
 
 	class ExternalAccountInfo : public ::System::Object
 	{
 	public:
-		::System::String* _DisplayName_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _ProductUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::ProductUserId* _ProductUserId_k__BackingField; // 0x10
+		::System::String* _DisplayName_k__BackingField; // 0x18
 		::System::String* _AccountId_k__BackingField; // 0x20
-		::System::Nullable_1<::System::DateTimeOffset> _LastLoginTime_k__BackingField; // 0x28
-		::Epic::OnlineServices::ExternalAccountType _AccountIdType_k__BackingField; // 0x40
+		::Epic::OnlineServices::ExternalAccountType _AccountIdType_k__BackingField; // 0x28
+		::System::Nullable_1<::System::DateTimeOffset> _LastLoginTime_k__BackingField; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -46,9 +46,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_PRODUCTUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_ProductUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_ProductUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_PRODUCTUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_PRODUCTUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DisplayName()
@@ -56,9 +56,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_DISPLAYNAME_OFFSET))(this);
 		}
 
-		::System::Void set_DisplayName(::System::String* value)
+		::System::Void set_DisplayName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_DISPLAYNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_DISPLAYNAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_AccountId()
@@ -66,9 +66,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_ACCOUNTID_OFFSET))(this);
 		}
 
-		::System::Void set_AccountId(::System::String* value)
+		::System::Void set_AccountId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_ACCOUNTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_ACCOUNTID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ExternalAccountType get_AccountIdType()
@@ -76,9 +76,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ExternalAccountType(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_ACCOUNTIDTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_AccountIdType(::Epic::OnlineServices::ExternalAccountType value)
+		::System::Void set_AccountIdType(::Epic::OnlineServices::ExternalAccountType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalAccountType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_ACCOUNTIDTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalAccountType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_ACCOUNTIDTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::System::DateTimeOffset> get_LastLoginTime()
@@ -86,19 +86,19 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::Nullable_1<::System::DateTimeOffset>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_GET_LASTLOGINTIME_OFFSET))(this);
 		}
 
-		::System::Void set_LastLoginTime(::System::Nullable_1<::System::DateTimeOffset> value)
+		::System::Void set_LastLoginTime(::System::Nullable_1<::System::DateTimeOffset> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_LASTLOGINTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_LASTLOGINTIME_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Connect::ExternalAccountInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Connect::ExternalAccountInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Connect::ExternalAccountInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Connect::ExternalAccountInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_EXTERNALACCOUNTINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

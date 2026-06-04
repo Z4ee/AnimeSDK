@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleQTEStatus_TypeDefinitionIndex = 51778;
+	inline static constexpr unsigned int BattleQTEStatus_TypeDefinitionIndex = 52452;
 
 	enum class BattleQTEStatus : ::System::Int32
 	{

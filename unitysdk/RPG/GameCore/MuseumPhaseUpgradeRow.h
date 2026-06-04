@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MUSEUMPHASEUPGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B6F5B0)
-#define RPG_GAMECORE_MUSEUMPHASEUPGRADEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B6F7B0)
+#define RPG_GAMECORE_MUSEUMPHASEUPGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199BE6F0)
+#define RPG_GAMECORE_MUSEUMPHASEUPGRADEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199BE8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumPhaseUpgradeRow_TypeDefinitionIndex = 13473;
+	inline static constexpr unsigned int MuseumPhaseUpgradeRow_TypeDefinitionIndex = 13544;
 
 	class MuseumPhaseUpgradeRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RequireStatsB; // 0x10
+		::System::UInt32 RequireStatsA; // 0x10
 		::System::UInt32 RequireStatsC; // 0x14
 		::System::UInt32 RenewPoint; // 0x18
-		::System::UInt32 AreaID; // 0x1C
-		::System::UInt32 RequireStatsA; // 0x20
+		::System::UInt32 RequireStatsB; // 0x1C
+		::System::UInt32 AreaID; // 0x20
 		::System::UInt32 MuseumPhaseID; // 0x24
 
 		::System::Void _ctor()
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMPHASEUPGRADEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MuseumPhaseUpgradeRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MuseumPhaseUpgradeRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MuseumPhaseUpgradeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMPHASEUPGRADEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MuseumPhaseUpgradeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMPHASEUPGRADEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

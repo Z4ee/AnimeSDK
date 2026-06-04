@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int BlendMode_TypeDefinitionIndex = 36425;
+	inline static constexpr unsigned int BlendMode_TypeDefinitionIndex = 36725;
 
 	enum class BlendMode : ::System::Int32
 	{

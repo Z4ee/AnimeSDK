@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_3E3E8891404D8201_METHOD_1_503AB92BB039671B_OFFSET UNITYSDK_OFFSET(0x1838DF60)
-#define CLASS_1_3E3E8891404D8201__CTOR_OFFSET UNITYSDK_OFFSET(0x1838E1A0)
+#define CLASS_1_3E3E8891404D8201_METHOD_1_503AB92BB039671B_OFFSET UNITYSDK_OFFSET(0x193A1CF0)
+#define CLASS_1_3E3E8891404D8201__CTOR_OFFSET UNITYSDK_OFFSET(0x193A1F30)
 
-inline static constexpr unsigned int Class_1_3E3E8891404D8201_TypeDefinitionIndex = 10988;
+inline static constexpr unsigned int Class_1_3E3E8891404D8201_TypeDefinitionIndex = 11037;
 
 class Class_1_3E3E8891404D8201 : public ::System::Object
 {
 public:
-	::System::String* Field_1_5; // 0x10
-	::System::String* Field_1_4; // 0x18
-	::System::UInt32 Field_1_3; // 0x20
-	::System::UInt32 Field_1_2; // 0x24
-	::System::UInt32 Field_1_0; // 0x28
-	::System::UInt32 Field_1_1; // 0x2C
+	::System::String* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x20
+	::System::UInt32 Field_1_3; // 0x24
+	::System::UInt32 Field_1_4; // 0x28
+	::System::UInt32 Field_1_5; // 0x2C
 
 	::System::Void _ctor()
 	{

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.h"
 
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEWAITHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x1778D9F0)
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1778D980)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEWAITHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x185488F0)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18548860)
 
 namespace Microsoft::Win32::SafeHandles
 {
@@ -12,9 +12,9 @@ namespace Microsoft::Win32::SafeHandles
 	class SafeWaitHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{
 	public:
-		::System::Void _ctor(::System::IntPtr existingHandle, ::System::Boolean ownsHandle)
+		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_SAFEHANDLES_SAFEWAITHANDLE__CTOR_OFFSET))(this, existingHandle, ownsHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_SAFEHANDLES_SAFEWAITHANDLE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean ReleaseHandle()

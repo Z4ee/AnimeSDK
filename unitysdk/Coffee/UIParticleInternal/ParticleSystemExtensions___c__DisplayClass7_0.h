@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12BBF970)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS___C__DISPLAYCLASS7_0__SORTFORRENDERING_B__0_OFFSET UNITYSDK_OFFSET(0x12BBFC80)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1467D390)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS___C__DISPLAYCLASS7_0__SORTFORRENDERING_B__0_OFFSET UNITYSDK_OFFSET(0x1467D6B0)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int ParticleSystemExtensions___c__DisplayClass7_0_TypeDefinitionIndex = 40702;
+	inline static constexpr unsigned int ParticleSystemExtensions___c__DisplayClass7_0_TypeDefinitionIndex = 41529;
 
 	class ParticleSystemExtensions___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace Coffee::UIParticleInternal
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _SortForRendering_b__0(::UnityEngine::ParticleSystem* a, ::UnityEngine::ParticleSystem* b)
+		::System::Int32 _SortForRendering_b__0(::UnityEngine::ParticleSystem* a1, ::UnityEngine::ParticleSystem* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::ParticleSystem*, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS___C__DISPLAYCLASS7_0__SORTFORRENDERING_B__0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::ParticleSystem*, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS___C__DISPLAYCLASS7_0__SORTFORRENDERING_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

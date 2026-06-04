@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MonoProperty_Getter_2_TypeDefinitionIndex = 632;
+	inline static constexpr unsigned int MonoProperty_Getter_2_TypeDefinitionIndex = 631;
 
 	template <typename T, typename R>
 	class MonoProperty_Getter_2 : public ::System::MulticastDelegate

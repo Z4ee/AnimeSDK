@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class GridFightScoreRewardConfigRow; }
 
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS15_0__CHECKRANKREWARDCANBEDESTROY_B__0_OFFSET UNITYSDK_OFFSET(0xA5D35E0)
-#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5D2EA0)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS15_0__CHECKRANKREWARDCANBEDESTROY_B__0_OFFSET UNITYSDK_OFFSET(0xBCD5290)
+#define RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBCD4B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightWeeklyScore___c__DisplayClass15_0_TypeDefinitionIndex = 60324;
+	inline static constexpr unsigned int GridFightWeeklyScore___c__DisplayClass15_0_TypeDefinitionIndex = 61259;
 
 	class GridFightWeeklyScore___c__DisplayClass15_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _CheckRankRewardCanBeDestroy_b__0(::RPG::GameCore::GridFightScoreRewardConfigRow* x)
+		::System::Boolean _CheckRankRewardCanBeDestroy_b__0(::RPG::GameCore::GridFightScoreRewardConfigRow* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GridFightScoreRewardConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS15_0__CHECKRANKREWARDCANBEDESTROY_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GridFightScoreRewardConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTWEEKLYSCORE___C__DISPLAYCLASS15_0__CHECKRANKREWARDCANBEDESTROY_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,28 +7,28 @@ class PluginMsgReceiver;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PLUGINMSGHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x17A4F520)
-#define PLUGINMSGHANDLER_FINALIZEHANDLER_OFFSET UNITYSDK_OFFSET(0x17A4F600)
-#define PLUGINMSGHANDLER_GETINSTANCEFORRECEIVER_OFFSET UNITYSDK_OFFSET(0x17A4F480)
-#define PLUGINMSGHANDLER_GETRECEIVER_OFFSET UNITYSDK_OFFSET(0x17A4F780)
-#define PLUGINMSGHANDLER_GET_ISEDITOR_OFFSET UNITYSDK_OFFSET(0x17A4F460)
-#define PLUGINMSGHANDLER_GET_ISSTANDALONE_OFFSET UNITYSDK_OFFSET(0x17A4F470)
-#define PLUGINMSGHANDLER_INITIALIZEHANDLER_OFFSET UNITYSDK_OFFSET(0x17A4F5B0)
-#define PLUGINMSGHANDLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17A4F5C0)
-#define PLUGINMSGHANDLER_ONMSGFROMPLUGIN_OFFSET UNITYSDK_OFFSET(0x17A4F7E0)
-#define PLUGINMSGHANDLER_REGISTERANDGETRECEIVERID_OFFSET UNITYSDK_OFFSET(0x17A4F610)
-#define PLUGINMSGHANDLER_REMOVERECEIVER_OFFSET UNITYSDK_OFFSET(0x17A4F6E0)
-#define PLUGINMSGHANDLER_SENDMSGTOPLUGIN_OFFSET UNITYSDK_OFFSET(0x17A4FAB0)
-#define PLUGINMSGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A4FB50)
+#define PLUGINMSGHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x187FDE00)
+#define PLUGINMSGHANDLER_FINALIZEHANDLER_OFFSET UNITYSDK_OFFSET(0x187FDEC0)
+#define PLUGINMSGHANDLER_GETINSTANCEFORRECEIVER_OFFSET UNITYSDK_OFFSET(0x187FDD60)
+#define PLUGINMSGHANDLER_GETRECEIVER_OFFSET UNITYSDK_OFFSET(0x187FE040)
+#define PLUGINMSGHANDLER_GET_ISEDITOR_OFFSET UNITYSDK_OFFSET(0x187FDD40)
+#define PLUGINMSGHANDLER_GET_ISSTANDALONE_OFFSET UNITYSDK_OFFSET(0x187FDD50)
+#define PLUGINMSGHANDLER_INITIALIZEHANDLER_OFFSET UNITYSDK_OFFSET(0x187FDE90)
+#define PLUGINMSGHANDLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x187FDEA0)
+#define PLUGINMSGHANDLER_ONMSGFROMPLUGIN_OFFSET UNITYSDK_OFFSET(0x187FE0E0)
+#define PLUGINMSGHANDLER_REGISTERANDGETRECEIVERID_OFFSET UNITYSDK_OFFSET(0x187FDED0)
+#define PLUGINMSGHANDLER_REMOVERECEIVER_OFFSET UNITYSDK_OFFSET(0x187FDFA0)
+#define PLUGINMSGHANDLER_SENDMSGTOPLUGIN_OFFSET UNITYSDK_OFFSET(0x187FE3A0)
+#define PLUGINMSGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x187FE440)
 
-inline static constexpr unsigned int PluginMsgHandler_TypeDefinitionIndex = 37643;
+inline static constexpr unsigned int PluginMsgHandler_TypeDefinitionIndex = 38375;
 
 class PluginMsgHandler : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::PluginMsgHandler** StaticGet__instance()
 	{
-		return (::PluginMsgHandler**)Il2CppClass::FromTypeDefinitionIndex(PluginMsgHandler_TypeDefinitionIndex)->GetStaticField(0x1070);
+		return (::PluginMsgHandler**)Il2CppClass::FromTypeDefinitionIndex(PluginMsgHandler_TypeDefinitionIndex)->GetStaticField(0xFA0);
 	}
 	// static const ::System::String* DEFAULT_NAME; // 0x0
 	::System::Int32 _curReceiverIndex; // 0x18
@@ -49,9 +49,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_GET_ISSTANDALONE_OFFSET))(this);
 	}
 
-	static ::PluginMsgHandler* GetInstanceForReceiver(::PluginMsgReceiver* receiver)
+	static ::PluginMsgHandler* GetInstanceForReceiver(::PluginMsgReceiver* a1)
 	{
-		return ((::PluginMsgHandler*(*)(::PluginMsgReceiver*))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_GETINSTANCEFORRECEIVER_OFFSET))(receiver);
+		return ((::PluginMsgHandler*(*)(::PluginMsgReceiver*))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_GETINSTANCEFORRECEIVER_OFFSET))(a1);
 	}
 
 	::System::Void Awake()
@@ -64,24 +64,24 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_ONDESTROY_OFFSET))(this);
 	}
 
-	::System::Int32 RegisterAndGetReceiverId(::PluginMsgReceiver* receiver)
+	::System::Int32 RegisterAndGetReceiverId(::PluginMsgReceiver* a1)
 	{
-		return ((::System::Int32(*)(::PVOID, ::PluginMsgReceiver*))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_REGISTERANDGETRECEIVERID_OFFSET))(this, receiver);
+		return ((::System::Int32(*)(::PVOID, ::PluginMsgReceiver*))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_REGISTERANDGETRECEIVERID_OFFSET))(this, a1);
 	}
 
-	::System::Void RemoveReceiver(::System::Int32 nReceiverId)
+	::System::Void RemoveReceiver(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_REMOVERECEIVER_OFFSET))(this, nReceiverId);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_REMOVERECEIVER_OFFSET))(this, a1);
 	}
 
-	::PluginMsgReceiver* GetReceiver(::System::Int32 nSenderId)
+	::PluginMsgReceiver* GetReceiver(::System::Int32 a1)
 	{
-		return ((::PluginMsgReceiver*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_GETRECEIVER_OFFSET))(this, nSenderId);
+		return ((::PluginMsgReceiver*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_GETRECEIVER_OFFSET))(this, a1);
 	}
 
-	::System::Void OnMsgFromPlugin(::System::String* jsonPluginMsg)
+	::System::Void OnMsgFromPlugin(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_ONMSGFROMPLUGIN_OFFSET))(this, jsonPluginMsg);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_ONMSGFROMPLUGIN_OFFSET))(this, a1);
 	}
 
 	::System::Void InitializeHandler()
@@ -94,8 +94,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_FINALIZEHANDLER_OFFSET))(this);
 	}
 
-	::JsonObject* SendMsgToPlugin(::System::Int32 nSenderId, ::JsonObject* jsonMsg)
+	::JsonObject* SendMsgToPlugin(::System::Int32 a1, ::JsonObject* a2)
 	{
-		return ((::JsonObject*(*)(::PVOID, ::System::Int32, ::JsonObject*))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_SENDMSGTOPLUGIN_OFFSET))(this, nSenderId, jsonMsg);
+		return ((::JsonObject*(*)(::PVOID, ::System::Int32, ::JsonObject*))((::PBYTE)hIl2Cpp + PLUGINMSGHANDLER_SENDMSGTOPLUGIN_OFFSET))(this, a1, a2);
 	}
 };

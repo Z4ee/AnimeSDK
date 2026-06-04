@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEBYTEAMROUND_METHOD_4_7FFA11A9DD5CC16B_OFFSET UNITYSDK_OFFSET(0x18A9A2E0)
-#define RPG_GAMECORE_MARBLEBYTEAMROUND_METHOD_4_EABE05CC888E833B_OFFSET UNITYSDK_OFFSET(0x18A9A200)
-#define RPG_GAMECORE_MARBLEBYTEAMROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x18A9A290)
+#define RPG_GAMECORE_MARBLEBYTEAMROUND_METHOD_4_2B248D8EF0DA53E1_OFFSET UNITYSDK_OFFSET(0x198CD410)
+#define RPG_GAMECORE_MARBLEBYTEAMROUND_METHOD_4_8ACB3AB8DFB07AD9_OFFSET UNITYSDK_OFFSET(0x198CD330)
+#define RPG_GAMECORE_MARBLEBYTEAMROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x198CD3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByTeamRound_TypeDefinitionIndex = 15983;
+	inline static constexpr unsigned int MarbleByTeamRound_TypeDefinitionIndex = 16033;
 
 	class MarbleByTeamRound : public ::RPG::GameCore::MarblePredicateConfig
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYTEAMROUND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_EABE05CC888E833B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByTeamRound*& a2)
+		static ::System::Void Method_4_8ACB3AB8DFB07AD9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByTeamRound*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByTeamRound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYTEAMROUND_METHOD_4_EABE05CC888E833B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByTeamRound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYTEAMROUND_METHOD_4_8ACB3AB8DFB07AD9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7FFA11A9DD5CC16B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByTeamRound* a2)
+		static ::System::Void Method_4_2B248D8EF0DA53E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByTeamRound* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByTeamRound*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYTEAMROUND_METHOD_4_7FFA11A9DD5CC16B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByTeamRound*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYTEAMROUND_METHOD_4_2B248D8EF0DA53E1_OFFSET))(a1, a2);
 		}
 	};
 }

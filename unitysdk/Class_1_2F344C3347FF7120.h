@@ -9,12 +9,12 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_2F344C3347FF7120_METHOD_1_2D95286A4E4CCB11_OFFSET UNITYSDK_OFFSET(0x11E25520)
-#define CLASS_1_2F344C3347FF7120_METHOD_1_42F69F78C3B9D222_OFFSET UNITYSDK_OFFSET(0x11E25460)
-#define CLASS_1_2F344C3347FF7120_METHOD_1_89F4C36FF7979D31_OFFSET UNITYSDK_OFFSET(0x11E252C0)
-#define CLASS_1_2F344C3347FF7120_METHOD_1_F49D4359EF0E5544_OFFSET UNITYSDK_OFFSET(0x11E25350)
+#define CLASS_1_2F344C3347FF7120_METHOD_1_2401CA1C0D55DAA6_OFFSET UNITYSDK_OFFSET(0x1436F320)
+#define CLASS_1_2F344C3347FF7120_METHOD_1_6F67B14F69ED36E8_OFFSET UNITYSDK_OFFSET(0x1436F1F0)
+#define CLASS_1_2F344C3347FF7120_METHOD_1_89F4C36FF7979D31_OFFSET UNITYSDK_OFFSET(0x1436F040)
+#define CLASS_1_2F344C3347FF7120_METHOD_1_F49D4359EF0E5544_OFFSET UNITYSDK_OFFSET(0x1436F0D0)
 
-inline static constexpr unsigned int Class_1_2F344C3347FF7120_TypeDefinitionIndex = 57179;
+inline static constexpr unsigned int Class_1_2F344C3347FF7120_TypeDefinitionIndex = 57969;
 
 class Class_1_2F344C3347FF7120 : public ::System::Object
 {
@@ -26,14 +26,14 @@ public:
 		return ((::RPG::GameCore::LevelGraphComponent*(*)(::RPG::Client::SwordTrainingPerformanceType, ::System::Collections::Generic::List_1<::RPG::GameCore::PerformanceIDPair*>*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_2F344C3347FF7120_METHOD_1_89F4C36FF7979D31_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::Collections::Generic::List_1<::RPG::GameCore::PerformanceIDPair*>* Method_1_42F69F78C3B9D222(::System::UInt32 a1)
+	static ::System::Collections::Generic::List_1<::RPG::GameCore::PerformanceIDPair*>* Method_1_6F67B14F69ED36E8(::System::UInt32 a1)
 	{
-		return ((::System::Collections::Generic::List_1<::RPG::GameCore::PerformanceIDPair*>*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_2F344C3347FF7120_METHOD_1_42F69F78C3B9D222_OFFSET))(a1);
+		return ((::System::Collections::Generic::List_1<::RPG::GameCore::PerformanceIDPair*>*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_2F344C3347FF7120_METHOD_1_6F67B14F69ED36E8_OFFSET))(a1);
 	}
 
-	static ::System::Collections::Generic::List_1<::RPG::GameCore::PerformanceIDPair*>* Method_1_2D95286A4E4CCB11(::System::Collections::Generic::List_1<::System::UInt32>* a1)
+	static ::System::Collections::Generic::List_1<::RPG::GameCore::PerformanceIDPair*>* Method_1_2401CA1C0D55DAA6(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 	{
-		return ((::System::Collections::Generic::List_1<::RPG::GameCore::PerformanceIDPair*>*(*)(::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_2F344C3347FF7120_METHOD_1_2D95286A4E4CCB11_OFFSET))(a1);
+		return ((::System::Collections::Generic::List_1<::RPG::GameCore::PerformanceIDPair*>*(*)(::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_2F344C3347FF7120_METHOD_1_2401CA1C0D55DAA6_OFFSET))(a1);
 	}
 
 	static ::RPG::GameCore::LevelGraphComponent* Method_1_F49D4359EF0E5544(::System::Collections::Generic::List_1<::RPG::GameCore::PerformanceIDPair*>* a1, ::System::Action* a2)

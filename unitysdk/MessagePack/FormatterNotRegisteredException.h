@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x173284E0)
-#define MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17328480)
+#define MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18136DC0)
+#define MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18136D60)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int FormatterNotRegisteredException_TypeDefinitionIndex = 9215;
+	inline static constexpr unsigned int FormatterNotRegisteredException_TypeDefinitionIndex = 7118;
 
 	class FormatterNotRegisteredException : public ::MessagePack::MessagePackSerializationException
 	{
 	public:
-		::System::Void _ctor(::System::String* message)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_1_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERNOTREGISTEREDEXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

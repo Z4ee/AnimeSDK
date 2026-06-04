@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_HOUDINIVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x8C846B0)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x17F06BD0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HoudiniVersion_TypeDefinitionIndex = 43617;
+	inline static constexpr unsigned int HEU_HoudiniVersion_TypeDefinitionIndex = 37561;
 
 	class HEU_HoudiniVersion : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 HOUDINI_MAJOR = 0x12; // 0x0
-		// static const ::System::Int32 HOUDINI_MINOR = 0x5; // 0x0
-		// static const ::System::Int32 HOUDINI_BUILD = 0x214; // 0x0
+		// static const ::System::Int32 HOUDINI_MAJOR = 0x15; // 0x0
+		// static const ::System::Int32 HOUDINI_MINOR = 0x0; // 0x0
+		// static const ::System::Int32 HOUDINI_BUILD = 0x200; // 0x0
 		// static const ::System::Int32 HOUDINI_PATCH = 0x0; // 0x0
 		// static const ::System::String* HOUDINI_VERSION_STRING; // 0x0
-		// static const ::System::Int32 HOUDINI_ENGINE_MAJOR = 0x3; // 0x0
-		// static const ::System::Int32 HOUDINI_ENGINE_MINOR = 0x5; // 0x0
+		// static const ::System::Int32 HOUDINI_ENGINE_MAJOR = 0x8; // 0x0
+		// static const ::System::Int32 HOUDINI_ENGINE_MINOR = 0x0; // 0x0
 		// static const ::System::Int32 HOUDINI_ENGINE_API = 0x2; // 0x0
 		// static const ::System::Int32 UNITY_PLUGIN_VERSION = 0x2; // 0x0
 		// static const ::System::String* HAPI_BIN_PATH; // 0x0

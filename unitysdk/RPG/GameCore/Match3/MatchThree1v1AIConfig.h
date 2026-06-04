@@ -7,12 +7,12 @@ namespace RPG::GameCore::Match3 { class MatchThree1v1AILevelConfig; }
 namespace RPG::GameCore::Match3 { class MatchThree1v1AIPropPriorityConfig; }
 namespace RPG::GameCore::Match3 { class MatchThree1v1AIScoreAspectConfig; }
 
-#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AICONFIG_METHOD_2_208B9DD12D648A79_OFFSET UNITYSDK_OFFSET(0x18AB8490)
-#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB9480)
+#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AICONFIG_METHOD_2_2D77AE8DCB298603_OFFSET UNITYSDK_OFFSET(0x198E8E40)
+#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198E9E60)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int MatchThree1v1AIConfig_TypeDefinitionIndex = 23757;
+	inline static constexpr unsigned int MatchThree1v1AIConfig_TypeDefinitionIndex = 23591;
 
 	class MatchThree1v1AIConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore::Match3
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_MATCHTHREE1V1AICONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_208B9DD12D648A79(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::MatchThree1v1AIConfig*& a2)
+		static ::System::Void Method_2_2D77AE8DCB298603(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::MatchThree1v1AIConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::MatchThree1v1AIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_MATCHTHREE1V1AICONFIG_METHOD_2_208B9DD12D648A79_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::MatchThree1v1AIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_MATCHTHREE1V1AICONFIG_METHOD_2_2D77AE8DCB298603_OFFSET))(a1, a2);
 		}
 	};
 }

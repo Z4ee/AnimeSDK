@@ -8,7 +8,7 @@ namespace RPG::GameCore { class MappingInfoRow; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMapIcon_TypeDefinitionIndex = 57943;
+	inline static constexpr unsigned int IMapIcon_TypeDefinitionIndex = 58859;
 
 	class IMapIcon
 	{

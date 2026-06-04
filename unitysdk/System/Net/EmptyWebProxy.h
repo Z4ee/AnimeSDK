@@ -5,10 +5,10 @@
 namespace System { class Uri; }
 namespace System::Net { class ICredentials; }
 
-#define SYSTEM_NET_EMPTYWEBPROXY_GETPROXY_OFFSET UNITYSDK_OFFSET(0x1A1044A0)
-#define SYSTEM_NET_EMPTYWEBPROXY_GET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x1A1044C0)
-#define SYSTEM_NET_EMPTYWEBPROXY_ISBYPASSED_OFFSET UNITYSDK_OFFSET(0x1A1044B0)
-#define SYSTEM_NET_EMPTYWEBPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A104490)
+#define SYSTEM_NET_EMPTYWEBPROXY_GETPROXY_OFFSET UNITYSDK_OFFSET(0x1AF69FC0)
+#define SYSTEM_NET_EMPTYWEBPROXY_GET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x1AF69FE0)
+#define SYSTEM_NET_EMPTYWEBPROXY_ISBYPASSED_OFFSET UNITYSDK_OFFSET(0x1AF69FD0)
+#define SYSTEM_NET_EMPTYWEBPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF69FB0)
 
 namespace System::Net
 {
@@ -24,14 +24,14 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_EMPTYWEBPROXY__CTOR_OFFSET))(this);
 		}
 
-		::System::Uri* GetProxy(::System::Uri* uri)
+		::System::Uri* GetProxy(::System::Uri* a1)
 		{
-			return ((::System::Uri*(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_EMPTYWEBPROXY_GETPROXY_OFFSET))(this, uri);
+			return ((::System::Uri*(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_EMPTYWEBPROXY_GETPROXY_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsBypassed(::System::Uri* uri)
+		::System::Boolean IsBypassed(::System::Uri* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_EMPTYWEBPROXY_ISBYPASSED_OFFSET))(this, uri);
+			return ((::System::Boolean(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_EMPTYWEBPROXY_ISBYPASSED_OFFSET))(this, a1);
 		}
 
 		::System::Net::ICredentials* get_Credentials()

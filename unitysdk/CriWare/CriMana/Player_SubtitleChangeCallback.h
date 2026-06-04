@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12C1B3D0)
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12C1B420)
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x12C19D50)
-#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x12C1B3B0)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x146D4B20)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x146D4B70)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x146D3EF0)
+#define CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x146D4AB0)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_SubtitleChangeCallback_TypeDefinitionIndex = 36957;
+	inline static constexpr unsigned int Player_SubtitleChangeCallback_TypeDefinitionIndex = 37257;
 
 	class Player_SubtitleChangeCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::IntPtr subtitleBuffer)
+		::System::Void Invoke(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_INVOKE_OFFSET))(this, subtitleBuffer);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::IntPtr subtitleBuffer, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::IntPtr a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_BEGININVOKE_OFFSET))(this, subtitleBuffer, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SUBTITLECHANGECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MarbleMainsubKillSealScore; }
 namespace RPG::GameCore { class MarbleNpcConfig; }
 
-#define RPG_GAMECORE_MARBLEMAINSUBCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A9D7E0)
-#define RPG_GAMECORE_MARBLEMAINSUBCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A9E7A0)
+#define RPG_GAMECORE_MARBLEMAINSUBCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198D0A40)
+#define RPG_GAMECORE_MARBLEMAINSUBCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198D19E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleMainsubConfig_TypeDefinitionIndex = 17970;
+	inline static constexpr unsigned int MarbleMainsubConfig_TypeDefinitionIndex = 17997;
 
 	class MarbleMainsubConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEMAINSUBCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MarbleMainsubConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleMainsubConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleMainsubConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEMAINSUBCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleMainsubConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEMAINSUBCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

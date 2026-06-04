@@ -10,22 +10,22 @@ namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_5B0B78CFE6F65A6A_METHOD_1_9067083E2FE1F1BD_OFFSET UNITYSDK_OFFSET(0xC7247B0)
-#define CLASS_1_5B0B78CFE6F65A6A_METHOD_1_AE9DFC1800B9A77B_OFFSET UNITYSDK_OFFSET(0xC724840)
-#define CLASS_1_5B0B78CFE6F65A6A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xC724890)
-#define CLASS_1_5B0B78CFE6F65A6A__CTOR_1_OFFSET UNITYSDK_OFFSET(0xC724780)
-#define CLASS_1_5B0B78CFE6F65A6A__CTOR_OFFSET UNITYSDK_OFFSET(0xC724770)
+#define CLASS_1_5B0B78CFE6F65A6A_METHOD_1_9067083E2FE1F1BD_OFFSET UNITYSDK_OFFSET(0xA6FA7F0)
+#define CLASS_1_5B0B78CFE6F65A6A_METHOD_1_AE9DFC1800B9A77B_OFFSET UNITYSDK_OFFSET(0xA6FA880)
+#define CLASS_1_5B0B78CFE6F65A6A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xA6FA8D0)
+#define CLASS_1_5B0B78CFE6F65A6A__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA6FA7C0)
+#define CLASS_1_5B0B78CFE6F65A6A__CTOR_OFFSET UNITYSDK_OFFSET(0xA6FA7B0)
 
-inline static constexpr unsigned int Class_1_5B0B78CFE6F65A6A_TypeDefinitionIndex = 64155;
+inline static constexpr unsigned int Class_1_5B0B78CFE6F65A6A_TypeDefinitionIndex = 65076;
 
 class Class_1_5B0B78CFE6F65A6A : public ::System::Object
 {
 public:
-	::RPG::Client::CameraModuleConfigCollection* Field_1_3; // 0x10
-	::RPG::Client::PipelineCameraGlobalConfig* Field_1_4; // 0x18
-	::RPG::Client::PipelineCameraEngine* Field_1_0; // 0x20
-	::RPG::Client::CameraDataAndFlags* Field_1_1; // 0x28
-	::RPG::Client::CameraModuleType Field_1_2; // 0x30
+	::RPG::Client::PipelineCameraEngine* Field_1_0; // 0x10
+	::RPG::Client::PipelineCameraGlobalConfig* Field_1_1; // 0x18
+	::RPG::Client::CameraModuleConfigCollection* Field_1_2; // 0x20
+	::RPG::Client::CameraDataAndFlags* Field_1_3; // 0x28
+	::RPG::Client::CameraModuleType Field_1_4; // 0x30
 
 	::System::Void _ctor()
 	{

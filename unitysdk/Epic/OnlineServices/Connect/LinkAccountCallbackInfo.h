@@ -7,26 +7,26 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E57520)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8E574E0)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E57500)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E574C0)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8E57920)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8E574F0)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E57510)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8E57540)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E574D0)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8E57A30)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2A1250)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2A1210)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2A1230)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2A11F0)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA2A1650)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2A1220)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2A1240)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA2A1270)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2A1200)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA2A1770)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int LinkAccountCallbackInfo_TypeDefinitionIndex = 42296;
+	inline static constexpr unsigned int LinkAccountCallbackInfo_TypeDefinitionIndex = 43099;
 
 	class LinkAccountCallbackInfo : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
-		::System::Object* _ClientData_k__BackingField; // 0x18
+		::System::Object* _ClientData_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
 		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x20
 
 		::System::Void _ctor()
@@ -39,9 +39,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -49,9 +49,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -59,9 +59,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -69,14 +69,14 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Connect::LinkAccountCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Connect::LinkAccountCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Connect::LinkAccountCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Connect::LinkAccountCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

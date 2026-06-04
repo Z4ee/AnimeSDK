@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RedDotType_TypeDefinitionIndex = 10334;
+	inline static constexpr unsigned int RedDotType_TypeDefinitionIndex = 10165;
 
 	enum class RedDotType : ::System::Int32
 	{

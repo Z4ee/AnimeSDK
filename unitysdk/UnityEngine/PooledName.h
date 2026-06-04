@@ -5,16 +5,16 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_POOLEDNAME_GETHASHCODEINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A467DD0)
-#define UNITYENGINE_POOLEDNAME_GETHASHCODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x22E6DB0)
-#define UNITYENGINE_POOLEDNAME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22E6DB0)
-#define UNITYENGINE_POOLEDNAME_TOSTRINGINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A467DA0)
-#define UNITYENGINE_POOLEDNAME_TOSTRINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x22E6DA0)
-#define UNITYENGINE_POOLEDNAME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22E6DA0)
+#define UNITYENGINE_POOLEDNAME_GETHASHCODEINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2B7AB0)
+#define UNITYENGINE_POOLEDNAME_GETHASHCODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x3883AC0)
+#define UNITYENGINE_POOLEDNAME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3883AC0)
+#define UNITYENGINE_POOLEDNAME_TOSTRINGINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2B7A80)
+#define UNITYENGINE_POOLEDNAME_TOSTRINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x3883AB0)
+#define UNITYENGINE_POOLEDNAME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3883AB0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PooledName_TypeDefinitionIndex = 4157;
+	inline static constexpr unsigned int PooledName_TypeDefinitionIndex = 4331;
 
 	struct alignas(4) PooledName
 	{
@@ -41,14 +41,14 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_POOLEDNAME_GETHASHCODEINTERNAL_OFFSET))(this);
 		}
 
-		static ::System::String* ToStringInternal_Injected(::UnityEngine::PooledName& _unity_self)
+		static ::System::String* ToStringInternal_Injected(::UnityEngine::PooledName& a1)
 		{
-			return ((::System::String*(*)(::UnityEngine::PooledName&))((::PBYTE)hIl2Cpp + UNITYENGINE_POOLEDNAME_TOSTRINGINTERNAL_INJECTED_OFFSET))(_unity_self);
+			return ((::System::String*(*)(::UnityEngine::PooledName&))((::PBYTE)hIl2Cpp + UNITYENGINE_POOLEDNAME_TOSTRINGINTERNAL_INJECTED_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetHashCodeInternal_Injected(::UnityEngine::PooledName& _unity_self)
+		static ::System::Int32 GetHashCodeInternal_Injected(::UnityEngine::PooledName& a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::PooledName&))((::PBYTE)hIl2Cpp + UNITYENGINE_POOLEDNAME_GETHASHCODEINTERNAL_INJECTED_OFFSET))(_unity_self);
+			return ((::System::Int32(*)(::UnityEngine::PooledName&))((::PBYTE)hIl2Cpp + UNITYENGINE_POOLEDNAME_GETHASHCODEINTERNAL_INJECTED_OFFSET))(a1);
 		}
 	};
 }

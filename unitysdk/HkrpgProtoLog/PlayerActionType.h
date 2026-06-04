@@ -3,7 +3,7 @@
 
 namespace HkrpgProtoLog
 {
-	inline static constexpr unsigned int PlayerActionType_TypeDefinitionIndex = 23854;
+	inline static constexpr unsigned int PlayerActionType_TypeDefinitionIndex = 23687;
 
 	enum class PlayerActionType : ::System::Int32
 	{
@@ -256,6 +256,11 @@ namespace HkrpgProtoLog
 		PlayerActionChallengeBossPhaseEndBeforeBattle = 2224,
 		PlayerActionChallengeRecommendLineup = 2225,
 		PlayerActionChallengeStoryFeverBattleEnd = 2226,
+		PlayerActionChallengeTierceRecommendLineup = 2281,
+		PlayerActionChallengeTierceStart = 2282,
+		PlayerActionChallengeTierceBattleEnd = 2283,
+		PlayerActionChallengeTierceStageSettle = 2284,
+		PlayerActionChallengeTierceGradeReset = 2285,
 		PlayerActionTeamInfoChange = 2301,
 		PlayerActionChangeCurrentAvatar = 2302,
 		PlayerActionCreateVirtualTeam = 2303,
@@ -1212,5 +1217,27 @@ namespace HkrpgProtoLog
 		PlayerActionRelicPresetPlanSave = 7581,
 		PlayerActionRelicPresetPlanDelete = 7582,
 		PlayerActionRelicPresetPlanModifyName = 7583,
+		PlayerActionPixAirUnlockPlane = 7611,
+		PlayerActionPixAirStageStart = 7612,
+		PlayerActionPixAirBattleGen = 7613,
+		PlayerActionPixAirBattleEnd = 7614,
+		PlayerActionPixAirLootEquipSelect = 7615,
+		PlayerActionPixAirBuyEquip = 7616,
+		PlayerActionPixAirRefreshShop = 7617,
+		PlayerActionPixAirNodeSelectContent = 7618,
+		PlayerActionPixAirGrantReward = 7619,
+		PlayerActionPixAirEvent = 7620,
+		PlayerActionPixAirNewEquip = 7621,
+		PlayerActionPixAirSellEquip = 7622,
+		PlayerActionPixAirEquipUpgrade = 7623,
+		PlayerActionPixAirEquipEnchant = 7624,
+		PlayerActionPixAirCoinChange = 7625,
+		PlayerActionPixAirStageSettle = 7630,
+		PlayerActionExpeditionBattleGameStart = 7631,
+		PlayerActionExpeditionBattleGameEnd = 7632,
+		PlayerActionChenLingFesLevelStart = 7641,
+		PlayerActionChenLingFesBusinessDayEnd = 7642,
+		PlayerActionChenLingFesPhaseSettle = 7643,
+		PlayerActionChenLingFesLevelSettle = 7644,
 	};
 }

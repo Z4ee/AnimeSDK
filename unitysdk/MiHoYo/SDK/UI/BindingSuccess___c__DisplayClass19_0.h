@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::UI { class BindingSuccess; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1766B690)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1766B750)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1843C710)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1843C7D0)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int BindingSuccess___c__DisplayClass19_0_TypeDefinitionIndex = 7412;
+	inline static constexpr unsigned int BindingSuccess___c__DisplayClass19_0_TypeDefinitionIndex = 8315;
 
 	class BindingSuccess___c__DisplayClass19_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MiHoYo::SDK::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::UI::BindingSuccess* dialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::UI::BindingSuccess* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::BindingSuccess*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__SHOW_B__0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::BindingSuccess*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

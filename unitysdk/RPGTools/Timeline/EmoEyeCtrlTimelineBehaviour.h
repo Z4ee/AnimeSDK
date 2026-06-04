@@ -9,13 +9,13 @@ namespace RPGTools::Timeline { class EmoEyeCtrlOffsetData; }
 namespace RPGTools::Timeline { class EmoEyeCtrlShakeData; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB8C3D60)
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C3DF0)
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB8C3E00)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD007800)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD007890)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD0078A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoEyeCtrlTimelineBehaviour_TypeDefinitionIndex = 44847;
+	inline static constexpr unsigned int EmoEyeCtrlTimelineBehaviour_TypeDefinitionIndex = 45404;
 
 	class EmoEyeCtrlTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -36,9 +36,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

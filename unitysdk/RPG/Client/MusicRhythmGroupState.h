@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmGroupState_TypeDefinitionIndex = 57015;
+	inline static constexpr unsigned int MusicRhythmGroupState_TypeDefinitionIndex = 57802;
 
 	enum class MusicRhythmGroupState : ::System::Int32
 	{

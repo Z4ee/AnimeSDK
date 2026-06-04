@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SWIPEROTATIONCAMERAPARAM_METHOD_2_E4A7B00964C32BFF_OFFSET UNITYSDK_OFFSET(0x18EB7360)
-#define RPG_GAMECORE_SWIPEROTATIONCAMERAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB7630)
+#define RPG_GAMECORE_SWIPEROTATIONCAMERAPARAM_METHOD_2_E4A7B00964C32BFF_OFFSET UNITYSDK_OFFSET(0x19CD6F60)
+#define RPG_GAMECORE_SWIPEROTATIONCAMERAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD7230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwipeRotationCameraParam_TypeDefinitionIndex = 19810;
+	inline static constexpr unsigned int SwipeRotationCameraParam_TypeDefinitionIndex = 19685;
 
 	class SwipeRotationCameraParam : public ::RPG::GameCore::JsonConfig
 	{

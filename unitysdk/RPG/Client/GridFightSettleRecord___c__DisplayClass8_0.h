@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA58E3A0)
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS8_0__GETROLESBYID_B__0_OFFSET UNITYSDK_OFFSET(0xA58E3B0)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBFAB40)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS8_0__GETROLESBYID_B__0_OFFSET UNITYSDK_OFFSET(0xBBFD960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass8_0_TypeDefinitionIndex = 60045;
+	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass8_0_TypeDefinitionIndex = 60980;
 
 	class GridFightSettleRecord___c__DisplayClass8_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetRolesByID_b__0(::RPG::Client::GridFightRole* role)
+		::System::Boolean _GetRolesByID_b__0(::RPG::Client::GridFightRole* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS8_0__GETROLESBYID_B__0_OFFSET))(this, role);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS8_0__GETROLESBYID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

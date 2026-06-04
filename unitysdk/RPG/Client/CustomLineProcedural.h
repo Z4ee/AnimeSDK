@@ -9,28 +9,28 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_AWAKE_OFFSET UNITYSDK_OFFSET(0xA0EC180)
-#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_7B411317D337F87A_1_OFFSET UNITYSDK_OFFSET(0xA0ED900)
-#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_7B411317D337F87A_OFFSET UNITYSDK_OFFSET(0xA0ED0D0)
-#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_8336E89DF737C001_OFFSET UNITYSDK_OFFSET(0xA0ECC20)
-#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_95288ADC9C10D154_OFFSET UNITYSDK_OFFSET(0xA0EC430)
-#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_B50CA01B5EDC1228_OFFSET UNITYSDK_OFFSET(0xA0EE3D0)
-#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_E4F0C07FA0B569BB_OFFSET UNITYSDK_OFFSET(0xA0EE4C0)
-#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_F2BB8CA4A5596DD6_OFFSET UNITYSDK_OFFSET(0xA0EE110)
-#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_REBUILDLINE_OFFSET UNITYSDK_OFFSET(0xA0EC250)
-#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_UPDATEPOINTS_OFFSET UNITYSDK_OFFSET(0xA0EC2E0)
-#define RPG_CLIENT_CUSTOMLINEPROCEDURAL__CTOR_OFFSET UNITYSDK_OFFSET(0xA0EE830)
+#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_AWAKE_OFFSET UNITYSDK_OFFSET(0xB72B670)
+#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_2A4F3E470B1283DD_OFFSET UNITYSDK_OFFSET(0xB72B940)
+#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_40E03D354D1ACC85_OFFSET UNITYSDK_OFFSET(0xB72C170)
+#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_5B06CEE7A34B50AD_OFFSET UNITYSDK_OFFSET(0xB72DBB0)
+#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_96189EDEF38976A6_1_OFFSET UNITYSDK_OFFSET(0xB72CF80)
+#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_96189EDEF38976A6_OFFSET UNITYSDK_OFFSET(0xB72C660)
+#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_B50CA01B5EDC1228_OFFSET UNITYSDK_OFFSET(0xB72DAD0)
+#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_F2BB8CA4A5596DD6_OFFSET UNITYSDK_OFFSET(0xB72D810)
+#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_REBUILDLINE_OFFSET UNITYSDK_OFFSET(0xB72B740)
+#define RPG_CLIENT_CUSTOMLINEPROCEDURAL_UPDATEPOINTS_OFFSET UNITYSDK_OFFSET(0xB72B7D0)
+#define RPG_CLIENT_CUSTOMLINEPROCEDURAL__CTOR_OFFSET UNITYSDK_OFFSET(0xB72DEF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomLineProcedural_TypeDefinitionIndex = 64899;
+	inline static constexpr unsigned int CustomLineProcedural_TypeDefinitionIndex = 65825;
 
 	class CustomLineProcedural : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_5_9()
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_5_0()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(CustomLineProcedural_TypeDefinitionIndex)->GetStaticField(0x613E0);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(CustomLineProcedural_TypeDefinitionIndex)->GetStaticField(0x2C60);
 		}
 		::Il2CppArray<::UnityEngine::LineRenderer*>* Lines; // 0x18
 		::RPG::Client::CustomLineType LineType; // 0x20
@@ -40,7 +40,7 @@ namespace RPG::Client
 		::System::Int32 InterpolationCount; // 0x3C
 		::System::Int32 CtrlPointCount; // 0x40
 		::UnityEngine::Transform* EndNode; // 0x48
-		::System::Collections::Generic::List_1<::RPG::Client::CustomLineProcedural_Struct_2_E36BFA641C5D2AAB>* Field_5_8; // 0x50
+		::System::Collections::Generic::List_1<::RPG::Client::CustomLineProcedural_Struct_2_E36BFA641C5D2AAB>* Field_5_9; // 0x50
 
 		::System::Void _ctor()
 		{
@@ -62,9 +62,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_REBUILDLINE_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_95288ADC9C10D154()
+		::System::Boolean Method_5_2A4F3E470B1283DD()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_95288ADC9C10D154_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_2A4F3E470B1283DD_OFFSET))(this);
 		}
 
 		::System::Void Method_5_F2BB8CA4A5596DD6(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
@@ -77,24 +77,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_B50CA01B5EDC1228_OFFSET))(this);
 		}
 
-		::System::Void Method_5_8336E89DF737C001()
+		::System::Void Method_5_40E03D354D1ACC85()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_8336E89DF737C001_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_40E03D354D1ACC85_OFFSET))(this);
 		}
 
-		::System::Void Method_5_7B411317D337F87A()
+		::System::Void Method_5_96189EDEF38976A6()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_7B411317D337F87A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_96189EDEF38976A6_OFFSET))(this);
 		}
 
-		::System::Void Method_5_7B411317D337F87A_1()
+		::System::Void Method_5_96189EDEF38976A6_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_7B411317D337F87A_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_96189EDEF38976A6_1_OFFSET))(this);
 		}
 
-		static ::UnityEngine::Vector3 Method_5_E4F0C07FA0B569BB(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4)
+		static ::UnityEngine::Vector3 Method_5_5B06CEE7A34B50AD(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4)
 		{
-			return ((::UnityEngine::Vector3(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_E4F0C07FA0B569BB_OFFSET))(a1, a2, a3, a4);
+			return ((::UnityEngine::Vector3(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMLINEPROCEDURAL_METHOD_5_5B06CEE7A34B50AD_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

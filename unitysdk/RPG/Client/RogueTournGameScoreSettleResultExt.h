@@ -4,18 +4,18 @@
 
 namespace RPG::Client { class IRogueTournGameScoreSettleResult; }
 
-#define RPG_CLIENT_ROGUETOURNGAMESCORESETTLERESULTEXT_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xB0BBF00)
+#define RPG_CLIENT_ROGUETOURNGAMESCORESETTLERESULTEXT_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xC80B580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournGameScoreSettleResultExt_TypeDefinitionIndex = 62537;
+	inline static constexpr unsigned int RogueTournGameScoreSettleResultExt_TypeDefinitionIndex = 63470;
 
 	class RogueTournGameScoreSettleResultExt : public ::System::Object
 	{
 	public:
-		static ::System::Boolean IsEmpty(::RPG::Client::IRogueTournGameScoreSettleResult* result)
+		static ::System::Boolean IsEmpty(::RPG::Client::IRogueTournGameScoreSettleResult* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::IRogueTournGameScoreSettleResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMESCORESETTLERESULTEXT_ISEMPTY_OFFSET))(result);
+			return ((::System::Boolean(*)(::RPG::Client::IRogueTournGameScoreSettleResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNGAMESCORESETTLERESULTEXT_ISEMPTY_OFFSET))(a1);
 		}
 	};
 }

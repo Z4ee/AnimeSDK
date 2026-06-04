@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESGAMEGACHASYMBOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C064A0)
-#define RPG_GAMECORE_PLANETFESGAMEGACHASYMBOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C065D0)
+#define RPG_GAMECORE_PLANETFESGAMEGACHASYMBOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A1D670)
+#define RPG_GAMECORE_PLANETFESGAMEGACHASYMBOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A1D7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGameGachaSymbolRow_TypeDefinitionIndex = 11588;
+	inline static constexpr unsigned int PlanetFesGameGachaSymbolRow_TypeDefinitionIndex = 11687;
 
 	class PlanetFesGameGachaSymbolRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESGAMEGACHASYMBOLROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PlanetFesGameGachaSymbolRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlanetFesGameGachaSymbolRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlanetFesGameGachaSymbolRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESGAMEGACHASYMBOLROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlanetFesGameGachaSymbolRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLANETFESGAMEGACHASYMBOLROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

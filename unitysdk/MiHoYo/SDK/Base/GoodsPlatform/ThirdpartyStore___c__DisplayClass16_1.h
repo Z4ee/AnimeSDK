@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK { class JSONNode; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x173E4BB0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_1__EXCHANGESONYSTOREITEMINFO_B__1_OFFSET UNITYSDK_OFFSET(0x173E4BD0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x181EDA10)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_1__EXCHANGESONYSTOREITEMINFO_B__1_OFFSET UNITYSDK_OFFSET(0x181EDA30)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_1_TypeDefinitionIndex = 7609;
+	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_1_TypeDefinitionIndex = 8512;
 
 	class ThirdpartyStore___c__DisplayClass16_1 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _ExchangeSonyStoreItemInfo_b__1(::MiHoYo::SDK::Console::ConsoleProduct t)
+		::System::Boolean _ExchangeSonyStoreItemInfo_b__1(::MiHoYo::SDK::Console::ConsoleProduct a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::Console::ConsoleProduct))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_1__EXCHANGESONYSTOREITEMINFO_B__1_OFFSET))(this, t);
+			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::Console::ConsoleProduct))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_1__EXCHANGESONYSTOREITEMINFO_B__1_OFFSET))(this, a1);
 		}
 	};
 }

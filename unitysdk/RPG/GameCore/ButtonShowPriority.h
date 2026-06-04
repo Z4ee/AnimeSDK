@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ButtonShowPriority_TypeDefinitionIndex = 16658;
+	inline static constexpr unsigned int ButtonShowPriority_TypeDefinitionIndex = 16687;
 
 	enum class ButtonShowPriority : ::System::Int32
 	{

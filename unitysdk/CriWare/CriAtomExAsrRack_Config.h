@@ -6,7 +6,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAsrRack_Config_TypeDefinitionIndex = 36785;
+	inline static constexpr unsigned int CriAtomExAsrRack_Config_TypeDefinitionIndex = 37085;
 
 	struct alignas(8) CriAtomExAsrRack_Config
 	{

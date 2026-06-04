@@ -9,19 +9,19 @@ namespace RPG::Client { class UITextUtils_RemainTimeUnitTextPalette; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_MONOREMAINTIMERTEXT_AWAKE_OFFSET UNITYSDK_OFFSET(0xA9F2640)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA9F2C20)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__LOADPALETTE_OFFSET UNITYSDK_OFFSET(0xA9F2790)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__ONREMAINTIMEEXPIRED_OFFSET UNITYSDK_OFFSET(0xA9F2BB0)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__ONREMAINTIMEUPDATED_OFFSET UNITYSDK_OFFSET(0xA9F2900)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__SETREMAINTIMETEXT_OFFSET UNITYSDK_OFFSET(0xA9F2960)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT__TRYINITPALETTE_OFFSET UNITYSDK_OFFSET(0xA9F2730)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT___IFIXBASEPROXY__ONREMAINTIMEEXPIRED_OFFSET UNITYSDK_OFFSET(0xA9F2CB0)
-#define RPG_CLIENT_MONOREMAINTIMERTEXT___IFIXBASEPROXY__ONREMAINTIMEUPDATED_OFFSET UNITYSDK_OFFSET(0xA9F2C60)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT_AWAKE_OFFSET UNITYSDK_OFFSET(0xC1404D0)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC140A00)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT__LOADPALETTE_OFFSET UNITYSDK_OFFSET(0xC140620)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT__ONREMAINTIMEEXPIRED_OFFSET UNITYSDK_OFFSET(0xC140990)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT__ONREMAINTIMEUPDATED_OFFSET UNITYSDK_OFFSET(0xC140790)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT__SETREMAINTIMETEXT_OFFSET UNITYSDK_OFFSET(0xC1407F0)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT__TRYINITPALETTE_OFFSET UNITYSDK_OFFSET(0xC1405C0)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT___IFIXBASEPROXY__ONREMAINTIMEEXPIRED_OFFSET UNITYSDK_OFFSET(0xC140A90)
+#define RPG_CLIENT_MONOREMAINTIMERTEXT___IFIXBASEPROXY__ONREMAINTIMEUPDATED_OFFSET UNITYSDK_OFFSET(0xC140A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRemainTimerText_TypeDefinitionIndex = 66893;
+	inline static constexpr unsigned int MonoRemainTimerText_TypeDefinitionIndex = 67833;
 
 	class MonoRemainTimerText : public ::RPG::Client::MonoRemainTimerEvent
 	{
@@ -58,9 +58,9 @@ namespace RPG::Client
 			return ((::RPG::Client::UITextUtils_RemainTimeUnitTextPalette*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERTEXT__LOADPALETTE_OFFSET))(this);
 		}
 
-		::System::Void _OnRemainTimeUpdated(::System::TimeSpan remainTime)
+		::System::Void _OnRemainTimeUpdated(::System::TimeSpan a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERTEXT__ONREMAINTIMEUPDATED_OFFSET))(this, remainTime);
+			return ((::System::Void(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERTEXT__ONREMAINTIMEUPDATED_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnRemainTimeExpired()
@@ -68,14 +68,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERTEXT__ONREMAINTIMEEXPIRED_OFFSET))(this);
 		}
 
-		::System::Void _SetRemainTimeText(::System::TimeSpan remainTime, ::RPG::Client::UITextUtils_RemainTimeUnitTextPalette* textPalette)
+		::System::Void _SetRemainTimeText(::System::TimeSpan a1, ::RPG::Client::UITextUtils_RemainTimeUnitTextPalette* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::TimeSpan, ::RPG::Client::UITextUtils_RemainTimeUnitTextPalette*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERTEXT__SETREMAINTIMETEXT_OFFSET))(this, remainTime, textPalette);
+			return ((::System::Void(*)(::PVOID, ::System::TimeSpan, ::RPG::Client::UITextUtils_RemainTimeUnitTextPalette*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERTEXT__SETREMAINTIMETEXT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy__OnRemainTimeUpdated(::System::TimeSpan P0)
+		::System::Void __iFixBaseProxy__OnRemainTimeUpdated(::System::TimeSpan a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERTEXT___IFIXBASEPROXY__ONREMAINTIMEUPDATED_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMERTEXT___IFIXBASEPROXY__ONREMAINTIMEUPDATED_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy__OnRemainTimeExpired()

@@ -5,12 +5,12 @@
 namespace RPG::Client { class RogueTournHexData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0D1070)
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C__DISPLAYCLASS41_0__GETALLDATAS_B__1_OFFSET UNITYSDK_OFFSET(0xB0D1660)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC821620)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C__DISPLAYCLASS41_0__GETALLDATAS_B__1_OFFSET UNITYSDK_OFFSET(0xC821C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHexData___c__DisplayClass41_0_TypeDefinitionIndex = 62375;
+	inline static constexpr unsigned int RogueTournHexData___c__DisplayClass41_0_TypeDefinitionIndex = 63308;
 
 	class RogueTournHexData___c__DisplayClass41_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHEXDATA___C__DISPLAYCLASS41_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetAllDatas_b__1(::RPG::Client::RogueTournHexData* data)
+		::System::Boolean _GetAllDatas_b__1(::RPG::Client::RogueTournHexData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTournHexData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHEXDATA___C__DISPLAYCLASS41_0__GETALLDATAS_B__1_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTournHexData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHEXDATA___C__DISPLAYCLASS41_0__GETALLDATAS_B__1_OFFSET))(this, a1);
 		}
 	};
 }

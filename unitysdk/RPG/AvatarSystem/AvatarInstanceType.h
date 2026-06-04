@@ -3,18 +3,21 @@
 
 namespace RPG::AvatarSystem
 {
-	inline static constexpr unsigned int AvatarInstanceType_TypeDefinitionIndex = 47915;
+	inline static constexpr unsigned int AvatarInstanceType_TypeDefinitionIndex = 48516;
 
 	enum class AvatarInstanceType : ::System::Int32
 	{
 		None = 0,
-		CurrentPath = 1,
-		SpecificPath = 2,
-		FixedPath = 3,
-		Trial = 4,
-		Assist = 5,
-		Friend = 6,
-		Upgrade = 7,
-		Preview = 8,
+		Obtained = 1,
+		ActivePath = 2,
+		SpecificPath = 3,
+		FixedPath = 4,
+		Trial = 5,
+		PlayerReturnTrial = 6,
+		Assistant = 7,
+		Friend = 8,
+		Upgrade = 9,
+		Preview = 10,
+		AdvPlayer = 11,
 	};
 }

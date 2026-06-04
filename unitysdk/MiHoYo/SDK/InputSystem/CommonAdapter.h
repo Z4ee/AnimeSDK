@@ -6,26 +6,26 @@
 namespace MiHoYo::SDK::InputSystem { class ICommonService; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTONDOWN_OFFSET UNITYSDK_OFFSET(0x17389DE0)
-#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTONUP_OFFSET UNITYSDK_OFFSET(0x17389FA0)
-#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTON_OFFSET UNITYSDK_OFFSET(0x17389EC0)
-#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETTOUCH_OFFSET UNITYSDK_OFFSET(0x1738A080)
-#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x17389C40)
-#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_REGISTERSERVICE_OFFSET UNITYSDK_OFFSET(0x1738A1B0)
-#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_SETINPUTACTIONASSET_OFFSET UNITYSDK_OFFSET(0x17389D00)
-#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x17389CC0)
-#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17389CB0)
+#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTONDOWN_OFFSET UNITYSDK_OFFSET(0x181947B0)
+#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTONUP_OFFSET UNITYSDK_OFFSET(0x18194970)
+#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTON_OFFSET UNITYSDK_OFFSET(0x18194890)
+#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETTOUCH_OFFSET UNITYSDK_OFFSET(0x18194A50)
+#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18194640)
+#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_REGISTERSERVICE_OFFSET UNITYSDK_OFFSET(0x18194B80)
+#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_SETINPUTACTIONASSET_OFFSET UNITYSDK_OFFSET(0x181946D0)
+#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x181946C0)
+#define MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x181946B0)
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int CommonAdapter_TypeDefinitionIndex = 9959;
+	inline static constexpr unsigned int CommonAdapter_TypeDefinitionIndex = 9786;
 
 	class CommonAdapter : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::InputSystem::CommonAdapter** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::InputSystem::CommonAdapter**)Il2CppClass::FromTypeDefinitionIndex(CommonAdapter_TypeDefinitionIndex)->GetStaticField(0xBF0);
+			return (::MiHoYo::SDK::InputSystem::CommonAdapter**)Il2CppClass::FromTypeDefinitionIndex(CommonAdapter_TypeDefinitionIndex)->GetStaticField(0xB20);
 		}
 		::MiHoYo::SDK::InputSystem::ICommonService* m_service; // 0x10
 
@@ -39,39 +39,39 @@ namespace MiHoYo::SDK::InputSystem
 			return ((::MiHoYo::SDK::InputSystem::CommonAdapter*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GET_INSTANCE_OFFSET))();
 		}
 
-		static ::System::Void set_Instance(::MiHoYo::SDK::InputSystem::CommonAdapter* value)
+		static ::System::Void set_Instance(::MiHoYo::SDK::InputSystem::CommonAdapter* a1)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::InputSystem::CommonAdapter*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_SET_INSTANCE_OFFSET))(value);
+			return ((::System::Void(*)(::MiHoYo::SDK::InputSystem::CommonAdapter*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_SET_INSTANCE_OFFSET))(a1);
 		}
 
-		::System::Void SetInputActionAsset(::System::Object* actions)
+		::System::Void SetInputActionAsset(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_SETINPUTACTIONASSET_OFFSET))(this, actions);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_SETINPUTACTIONASSET_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetButtonDown(::System::String* buttonName)
+		::System::Boolean GetButtonDown(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTONDOWN_OFFSET))(this, buttonName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTONDOWN_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetButton(::System::String* buttonName)
+		::System::Boolean GetButton(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTON_OFFSET))(this, buttonName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTON_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetButtonUp(::System::String* buttonName)
+		::System::Boolean GetButtonUp(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTONUP_OFFSET))(this, buttonName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETBUTTONUP_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Touch GetTouch(::System::Int32 index)
+		::UnityEngine::Touch GetTouch(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Touch(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETTOUCH_OFFSET))(this, index);
+			return ((::UnityEngine::Touch(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_GETTOUCH_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterService(::MiHoYo::SDK::InputSystem::ICommonService* service)
+		::System::Void RegisterService(::MiHoYo::SDK::InputSystem::ICommonService* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::InputSystem::ICommonService*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_REGISTERSERVICE_OFFSET))(this, service);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::InputSystem::ICommonService*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_COMMONADAPTER_REGISTERSERVICE_OFFSET))(this, a1);
 		}
 	};
 }

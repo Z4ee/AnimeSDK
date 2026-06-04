@@ -6,9 +6,9 @@
 
 class AirshipEngineBehaviorMode;
 
-#define COMMONSHIPENGINECONTROLLER_STRUCT_2_68FF0E51C9359E7C_METHOD_2_793DE740E0E3D284_OFFSET UNITYSDK_OFFSET(0xDC690)
+#define COMMONSHIPENGINECONTROLLER_STRUCT_2_68FF0E51C9359E7C_METHOD_2_793DE740E0E3D284_OFFSET UNITYSDK_OFFSET(0x142E60)
 
-inline static constexpr unsigned int CommonShipEngineController_Struct_2_68FF0E51C9359E7C_TypeDefinitionIndex = 43892;
+inline static constexpr unsigned int CommonShipEngineController_Struct_2_68FF0E51C9359E7C_TypeDefinitionIndex = 44438;
 
 struct alignas(4) CommonShipEngineController_Struct_2_68FF0E51C9359E7C
 {

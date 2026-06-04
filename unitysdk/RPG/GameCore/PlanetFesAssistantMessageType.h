@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAssistantMessageType_TypeDefinitionIndex = 11602;
+	inline static constexpr unsigned int PlanetFesAssistantMessageType_TypeDefinitionIndex = 11701;
 
 	enum class PlanetFesAssistantMessageType : ::System::Int32
 	{

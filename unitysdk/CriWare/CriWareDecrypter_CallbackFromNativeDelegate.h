@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12C223B0)
-#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12C22400)
-#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x12C220C0)
-#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C21FF0)
+#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x146DB350)
+#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x146DB3A0)
+#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x146DB340)
+#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x146DB2D0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWareDecrypter_CallbackFromNativeDelegate_TypeDefinitionIndex = 36881;
+	inline static constexpr unsigned int CriWareDecrypter_CallbackFromNativeDelegate_TypeDefinitionIndex = 37181;
 
 	class CriWareDecrypter_CallbackFromNativeDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt64 Invoke(::System::IntPtr ptr1)
+		::System::UInt64 Invoke(::System::IntPtr a1)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET))(this, ptr1);
+			return ((::System::UInt64(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::IntPtr ptr1, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::IntPtr a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET))(this, ptr1, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 EndInvoke(::System::IAsyncResult* result)
+		::System::UInt64 EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::UInt64(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -10,21 +10,21 @@
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 
-#define RPG_CUSTOMRP_CAPTURESCENE_CAPTUREAMBIENTTEX_OFFSET UNITYSDK_OFFSET(0x18121400)
-#define RPG_CUSTOMRP_CAPTURESCENE_CAPTUREPROBEOUTPUT_OFFSET UNITYSDK_OFFSET(0x18121360)
-#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURESCENEOUTPUT_OFFSET UNITYSDK_OFFSET(0x18121310)
-#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURE_OFFSET UNITYSDK_OFFSET(0x18120830)
-#define RPG_CUSTOMRP_CAPTURESCENE_QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x18121450)
-#define RPG_CUSTOMRP_CAPTURESCENE__CAPTURECOROUTINE_OFFSET UNITYSDK_OFFSET(0x181213B0)
-#define RPG_CUSTOMRP_CAPTURESCENE__CAPTURESCENEOUTPUTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x181212B0)
-#define RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET UNITYSDK_OFFSET(0x18120B50)
-#define RPG_CUSTOMRP_CAPTURESCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x18121510)
-#define RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET UNITYSDK_OFFSET(0x181209E0)
-#define RPG_CUSTOMRP_CAPTURESCENE__QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x181214A0)
+#define RPG_CUSTOMRP_CAPTURESCENE_CAPTUREAMBIENTTEX_OFFSET UNITYSDK_OFFSET(0x18EC38A0)
+#define RPG_CUSTOMRP_CAPTURESCENE_CAPTUREPROBEOUTPUT_OFFSET UNITYSDK_OFFSET(0x18EC3800)
+#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURESCENEOUTPUT_OFFSET UNITYSDK_OFFSET(0x18EC37B0)
+#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURE_OFFSET UNITYSDK_OFFSET(0x18EC2C70)
+#define RPG_CUSTOMRP_CAPTURESCENE_QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x18EC38F0)
+#define RPG_CUSTOMRP_CAPTURESCENE__CAPTURECOROUTINE_OFFSET UNITYSDK_OFFSET(0x18EC3850)
+#define RPG_CUSTOMRP_CAPTURESCENE__CAPTURESCENEOUTPUTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x18EC3750)
+#define RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET UNITYSDK_OFFSET(0x18EC2FA0)
+#define RPG_CUSTOMRP_CAPTURESCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC39B0)
+#define RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET UNITYSDK_OFFSET(0x18EC2E60)
+#define RPG_CUSTOMRP_CAPTURESCENE__QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x18EC3940)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureScene_TypeDefinitionIndex = 34986;
+	inline static constexpr unsigned int CaptureScene_TypeDefinitionIndex = 35271;
 
 	class CaptureScene : public ::UnityEngine::MonoBehaviour
 	{
@@ -53,14 +53,14 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE_CAPTURE_OFFSET))(this);
 		}
 
-		::System::String* _DumpParams(::RPG::CustomRP::FramePassCaptureData& data)
+		::System::String* _DumpParams(::RPG::CustomRP::FramePassCaptureData& a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::CustomRP::FramePassCaptureData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET))(this, data);
+			return ((::System::String*(*)(::PVOID, ::RPG::CustomRP::FramePassCaptureData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET))(this, a1);
 		}
 
-		::System::Void _CbScene(::Unity::Collections::NativeArray_1<::System::Byte>& data)
+		::System::Void _CbScene(::Unity::Collections::NativeArray_1<::System::Byte>& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Byte>&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Byte>&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::IEnumerator* _CaptureSceneOutputCoroutine()
@@ -88,9 +88,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE_QACAPTUREALL_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* _CaptureCoroutine(::RPG::CustomRP::FramePassCapturer_CaptureTarget target)
+		::System::Collections::IEnumerator* _CaptureCoroutine(::RPG::CustomRP::FramePassCapturer_CaptureTarget a1)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::RPG::CustomRP::FramePassCapturer_CaptureTarget))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__CAPTURECOROUTINE_OFFSET))(this, target);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::RPG::CustomRP::FramePassCapturer_CaptureTarget))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__CAPTURECOROUTINE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::IEnumerator* _QACaptureAll()

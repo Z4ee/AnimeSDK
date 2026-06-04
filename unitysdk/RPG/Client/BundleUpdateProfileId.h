@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BundleUpdateProfileId_TypeDefinitionIndex = 56481;
+	inline static constexpr unsigned int BundleUpdateProfileId_TypeDefinitionIndex = 57244;
 
 	enum class BundleUpdateProfileId : ::System::Int32
 	{

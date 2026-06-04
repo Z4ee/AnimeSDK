@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _Activator_TypeDefinitionIndex = 1430;
+	inline static constexpr unsigned int _Activator_TypeDefinitionIndex = 1429;
 
 	class _Activator
 	{

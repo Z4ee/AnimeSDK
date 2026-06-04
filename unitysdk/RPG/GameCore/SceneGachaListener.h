@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_9873749414EE17E7_OFFSET UNITYSDK_OFFSET(0x18DFE240)
-#define RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_CAA4EE924E1D9B09_OFFSET UNITYSDK_OFFSET(0x18DFE1C0)
-#define RPG_GAMECORE_SCENEGACHALISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x18DFE210)
+#define RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_803A3D132E89AEEB_OFFSET UNITYSDK_OFFSET(0x19C1D2D0)
+#define RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_C5FD2DCEB6EDD545_OFFSET UNITYSDK_OFFSET(0x19C1D350)
+#define RPG_GAMECORE_SCENEGACHALISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x19C1D320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SceneGachaListener_TypeDefinitionIndex = 19294;
+	inline static constexpr unsigned int SceneGachaListener_TypeDefinitionIndex = 19210;
 
 	class SceneGachaListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCENEGACHALISTENER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CAA4EE924E1D9B09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SceneGachaListener*& a2)
+		static ::System::Void Method_3_803A3D132E89AEEB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SceneGachaListener*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SceneGachaListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_CAA4EE924E1D9B09_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SceneGachaListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_803A3D132E89AEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9873749414EE17E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SceneGachaListener* a2)
+		static ::System::Void Method_3_C5FD2DCEB6EDD545(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SceneGachaListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SceneGachaListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_9873749414EE17E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SceneGachaListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCENEGACHALISTENER_METHOD_3_C5FD2DCEB6EDD545_OFFSET))(a1, a2);
 		}
 	};
 }

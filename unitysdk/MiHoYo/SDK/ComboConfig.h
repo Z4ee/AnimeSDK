@@ -7,11 +7,11 @@ namespace MiHoYo::SDK { class QRAppIcons; }
 namespace MiHoYo::SDK { class QREnabledApps; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_COMBOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173F4950)
+#define MIHOYO_SDK_COMBOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x181F9430)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ComboConfig_TypeDefinitionIndex = 6956;
+	inline static constexpr unsigned int ComboConfig_TypeDefinitionIndex = 7859;
 
 	class ComboConfig : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MiHoYo::SDK
 		::System::String* qrAppDisplayName; // 0x38
 		::System::String* qrCloudDisplayName; // 0x40
 
-		::System::Void _ctor(::MiHoYo::SDK::JSONNode* json)
+		::System::Void _ctor(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMBOCONFIG__CTOR_OFFSET))(this, json);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMBOCONFIG__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

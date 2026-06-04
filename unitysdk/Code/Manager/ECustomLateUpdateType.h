@@ -3,7 +3,7 @@
 
 namespace Code::Manager
 {
-	inline static constexpr unsigned int ECustomLateUpdateType_TypeDefinitionIndex = 46286;
+	inline static constexpr unsigned int ECustomLateUpdateType_TypeDefinitionIndex = 46876;
 
 	enum class ECustomLateUpdateType : ::System::Int32
 	{

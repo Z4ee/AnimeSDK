@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceLoadType_TypeDefinitionIndex = 10287;
+	inline static constexpr unsigned int PerformanceLoadType_TypeDefinitionIndex = 10118;
 
 	enum class PerformanceLoadType : ::System::Int32
 	{

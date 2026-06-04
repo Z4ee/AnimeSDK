@@ -6,29 +6,29 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERASTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA082C10)
-#define RPG_CLIENT_CHIMERASTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA082C50)
-#define RPG_CLIENT_CHIMERASTATIC___C__GETRESIDENTREWARDQUESTIDS_B__71_0_OFFSET UNITYSDK_OFFSET(0xA082C60)
-#define RPG_CLIENT_CHIMERASTATIC___C__STARTPAUSEGAMEPERFORMANCE_B__73_0_OFFSET UNITYSDK_OFFSET(0xA082CC0)
+#define RPG_CLIENT_CHIMERASTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB6C21F0)
+#define RPG_CLIENT_CHIMERASTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C2230)
+#define RPG_CLIENT_CHIMERASTATIC___C__GETRESIDENTREWARDQUESTIDS_B__71_0_OFFSET UNITYSDK_OFFSET(0xB6C2240)
+#define RPG_CLIENT_CHIMERASTATIC___C__STARTPAUSEGAMEPERFORMANCE_B__73_0_OFFSET UNITYSDK_OFFSET(0xB6C22A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraStatic___c_TypeDefinitionIndex = 58426;
+	inline static constexpr unsigned int ChimeraStatic___c_TypeDefinitionIndex = 59356;
 
 	class ChimeraStatic___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChimeraStatic___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChimeraStatic___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x5AFE0);
-		}
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__71_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x5AFE8);
+			return (::RPG::Client::ChimeraStatic___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x64F40);
 		}
 		static ::System::Action** StaticGet___9__73_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x5AFF0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x64F48);
+		}
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__71_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x64F50);
 		}
 
 		static ::System::Void _cctor()
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERASTATIC___C__CTOR_OFFSET))(this);
 		}
 
-		::System::UInt32 _GetResidentRewardQuestIDs_b__71_0(::RPG::GameCore::DynamicValue* e)
+		::System::UInt32 _GetResidentRewardQuestIDs_b__71_0(::RPG::GameCore::DynamicValue* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERASTATIC___C__GETRESIDENTREWARDQUESTIDS_B__71_0_OFFSET))(this, e);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERASTATIC___C__GETRESIDENTREWARDQUESTIDS_B__71_0_OFFSET))(this, a1);
 		}
 
 		::System::Void _StartPauseGamePerformance_b__73_0()

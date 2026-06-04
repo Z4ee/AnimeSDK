@@ -5,16 +5,16 @@
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAA03260)
-#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xAA03210)
-#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xAA03100)
-#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_SETUPCHANGECALLBACK_OFFSET UNITYSDK_OFFSET(0xAA030A0)
-#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xAA032B0)
-#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE__ONACTIVECHANGE_OFFSET UNITYSDK_OFFSET(0xAA03150)
+#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC151500)
+#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC1514B0)
+#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC1513A0)
+#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_SETUPCHANGECALLBACK_OFFSET UNITYSDK_OFFSET(0xC151340)
+#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xC151550)
+#define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE__ONACTIVECHANGE_OFFSET UNITYSDK_OFFSET(0xC1513F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTransformActiveChange_TypeDefinitionIndex = 66904;
+	inline static constexpr unsigned int MonoTransformActiveChange_TypeDefinitionIndex = 67844;
 
 	class MonoTransformActiveChange : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRANSFORMACTIVECHANGE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetupChangeCallBack(::System::Action_2<::XLua::LuaTable*, ::System::Boolean>* activeChangeCall, ::XLua::LuaTable* luaTableSelf)
+		::System::Void SetupChangeCallBack(::System::Action_2<::XLua::LuaTable*, ::System::Boolean>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Boolean>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_SETUPCHANGECALLBACK_OFFSET))(this, activeChangeCall, luaTableSelf);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Boolean>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_SETUPCHANGECALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnEnable()

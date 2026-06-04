@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int TypeNameKind_TypeDefinitionIndex = 318;
+	inline static constexpr unsigned int TypeNameKind_TypeDefinitionIndex = 317;
 
 	enum class TypeNameKind : ::System::Int32
 	{

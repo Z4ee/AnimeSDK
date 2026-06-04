@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6AFB30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6AFBC0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A69E670)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6AFB10)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4EED20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4EEDB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4E3450)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EECB0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getMouseCursor_TypeDefinitionIndex = 36211;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getMouseCursor_TypeDefinitionIndex = 36511;
 
 	class BrowserNative_Calltype_zfb_getMouseCursor : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::EmbeddedBrowser::BrowserNative_CursorType Invoke(::System::Int32 id, ::System::Int32& width, ::System::Int32& height)
+		::ZenFulcrum::EmbeddedBrowser::BrowserNative_CursorType Invoke(::System::Int32 a1, ::System::Int32& a2, ::System::Int32& a3)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::BrowserNative_CursorType(*)(::PVOID, ::System::Int32, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_INVOKE_OFFSET))(this, id, width, height);
+			return ((::ZenFulcrum::EmbeddedBrowser::BrowserNative_CursorType(*)(::PVOID, ::System::Int32, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 id, ::System::Int32& width, ::System::Int32& height, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::System::Int32& a2, ::System::Int32& a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::Int32&, ::System::Int32&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_BEGININVOKE_OFFSET))(this, id, width, height, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::Int32&, ::System::Int32&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::ZenFulcrum::EmbeddedBrowser::BrowserNative_CursorType EndInvoke(::System::Int32& width, ::System::Int32& height, ::System::IAsyncResult* result)
+		::ZenFulcrum::EmbeddedBrowser::BrowserNative_CursorType EndInvoke(::System::Int32& a1, ::System::Int32& a2, ::System::IAsyncResult* a3)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::BrowserNative_CursorType(*)(::PVOID, ::System::Int32&, ::System::Int32&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_ENDINVOKE_OFFSET))(this, width, height, result);
+			return ((::ZenFulcrum::EmbeddedBrowser::BrowserNative_CursorType(*)(::PVOID, ::System::Int32&, ::System::Int32&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETMOUSECURSOR_ENDINVOKE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

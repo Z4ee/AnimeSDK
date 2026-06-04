@@ -4,10 +4,10 @@
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH8_CWNodeUnpacked__E_e__FixedBuffer_TypeDefinitionIndex = 34888;
+	inline static constexpr unsigned int BVH8_CWNodeUnpacked__E_e__FixedBuffer_TypeDefinitionIndex = 35171;
 
 	struct alignas(1) BVH8_CWNodeUnpacked__E_e__FixedBuffer
 	{
-		::System::Byte data[3]; // 0x0
+		::System::Byte data[1]; // 0x0
 	};
 }

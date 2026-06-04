@@ -7,28 +7,28 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1758AAB0)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS40_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1758D300)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS40_0__POSTREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x1758D350)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18373210)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS40_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x18375810)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS40_0__POSTREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x18375860)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass40_0_TypeDefinitionIndex = 7204;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass40_0_TypeDefinitionIndex = 8107;
 
 	class NetworkManager___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
-		::MiHoYo::SDK::NetworkManager* __4__this; // 0x18
+		::MiHoYo::SDK::NetworkManager* __4__this; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS40_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PostRequest_b__0(::System::String* responseString)
+		::System::Void _PostRequest_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS40_0__POSTREQUEST_B__0_OFFSET))(this, responseString);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS40_0__POSTREQUEST_B__0_OFFSET))(this, a1);
 		}
 
 		::System::Void _PostRequest_b__1()

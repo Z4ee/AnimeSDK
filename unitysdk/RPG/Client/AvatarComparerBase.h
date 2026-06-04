@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 
-#define RPG_CLIENT_AVATARCOMPARERBASE_ACCEPT_OFFSET UNITYSDK_OFFSET(0x9D6BC00)
-#define RPG_CLIENT_AVATARCOMPARERBASE_COMPARE_OFFSET UNITYSDK_OFFSET(0x9D6BFC0)
-#define RPG_CLIENT_AVATARCOMPARERBASE_GET_ISDESCENDING_OFFSET UNITYSDK_OFFSET(0x9D6BFB0)
-#define RPG_CLIENT_AVATARCOMPARERBASE_SET_ISDESCENDING_OFFSET UNITYSDK_OFFSET(0x9D6BFA0)
-#define RPG_CLIENT_AVATARCOMPARERBASE__ACCEPTIMPL_OFFSET UNITYSDK_OFFSET(0x9D6BF40)
-#define RPG_CLIENT_AVATARCOMPARERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x9D6B8A0)
+#define RPG_CLIENT_AVATARCOMPARERBASE_ACCEPT_OFFSET UNITYSDK_OFFSET(0xB35C650)
+#define RPG_CLIENT_AVATARCOMPARERBASE_COMPARE_OFFSET UNITYSDK_OFFSET(0xB35CA40)
+#define RPG_CLIENT_AVATARCOMPARERBASE_GET_ISDESCENDING_OFFSET UNITYSDK_OFFSET(0xB35CA30)
+#define RPG_CLIENT_AVATARCOMPARERBASE_SET_ISDESCENDING_OFFSET UNITYSDK_OFFSET(0xB35CA20)
+#define RPG_CLIENT_AVATARCOMPARERBASE__ACCEPTIMPL_OFFSET UNITYSDK_OFFSET(0xB35C9B0)
+#define RPG_CLIENT_AVATARCOMPARERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xB35C2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarComparerBase_TypeDefinitionIndex = 57855;
+	inline static constexpr unsigned int AvatarComparerBase_TypeDefinitionIndex = 58748;
 
 	class AvatarComparerBase : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERBASE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_IsDescending(::System::Boolean value)
+		::System::Void set_IsDescending(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERBASE_SET_ISDESCENDING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERBASE_SET_ISDESCENDING_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsDescending()
@@ -37,19 +37,19 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERBASE_GET_ISDESCENDING_OFFSET))(this);
 		}
 
-		::System::Int32 Compare(::RPG::Client::IAvatarInfoProvider* left, ::RPG::Client::IAvatarInfoProvider* right)
+		::System::Int32 Compare(::RPG::AvatarSystem::IAvatar* a1, ::RPG::AvatarSystem::IAvatar* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERBASE_COMPARE_OFFSET))(this, left, right);
+			return ((::System::Int32(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERBASE_COMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Accept(::System::Action_1<::System::Collections::Generic::IComparer_1<::RPG::Client::IAvatarInfoProvider*>*>* visitor)
+		::System::Void Accept(::System::Action_1<::System::Collections::Generic::IComparer_1<::RPG::AvatarSystem::IAvatar*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IComparer_1<::RPG::Client::IAvatarInfoProvider*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERBASE_ACCEPT_OFFSET))(this, visitor);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IComparer_1<::RPG::AvatarSystem::IAvatar*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERBASE_ACCEPT_OFFSET))(this, a1);
 		}
 
-		::System::Void _AcceptImpl(::System::Action_1<::System::Collections::Generic::IComparer_1<::RPG::Client::IAvatarInfoProvider*>*>* visitor)
+		::System::Void _AcceptImpl(::System::Action_1<::System::Collections::Generic::IComparer_1<::RPG::AvatarSystem::IAvatar*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IComparer_1<::RPG::Client::IAvatarInfoProvider*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERBASE__ACCEPTIMPL_OFFSET))(this, visitor);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IComparer_1<::RPG::AvatarSystem::IAvatar*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERBASE__ACCEPTIMPL_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,16 +6,16 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::Connect { class TransferDeviceIdAccountOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x34D90)
-#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x34D20)
-#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_LOCALDEVICEUSERID_OFFSET UNITYSDK_OFFSET(0x34B90)
-#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x34D10)
-#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_PRIMARYLOCALUSERID_OFFSET UNITYSDK_OFFSET(0x34AD0)
-#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_PRODUCTUSERIDTOPRESERVE_OFFSET UNITYSDK_OFFSET(0x34C50)
+#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x385B0)
+#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x38530)
+#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_LOCALDEVICEUSERID_OFFSET UNITYSDK_OFFSET(0x383A0)
+#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x38520)
+#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_PRIMARYLOCALUSERID_OFFSET UNITYSDK_OFFSET(0x382E0)
+#define EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_PRODUCTUSERIDTOPRESERVE_OFFSET UNITYSDK_OFFSET(0x38460)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int TransferDeviceIdAccountOptionsInternal_TypeDefinitionIndex = 42341;
+	inline static constexpr unsigned int TransferDeviceIdAccountOptionsInternal_TypeDefinitionIndex = 43144;
 
 	struct alignas(8) TransferDeviceIdAccountOptionsInternal
 	{
@@ -24,29 +24,29 @@ namespace Epic::OnlineServices::Connect
 		::System::IntPtr m_LocalDeviceUserId; // 0x20
 		::System::IntPtr m_ProductUserIdToPreserve; // 0x28
 
-		::System::Void set_PrimaryLocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_PrimaryLocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_PRIMARYLOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_PRIMARYLOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_LocalDeviceUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalDeviceUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_LOCALDEVICEUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_LOCALDEVICEUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ProductUserIdToPreserve(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_ProductUserIdToPreserve(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_PRODUCTUSERIDTOPRESERVE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_PRODUCTUSERIDTOPRESERVE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Connect::TransferDeviceIdAccountOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Connect::TransferDeviceIdAccountOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::TransferDeviceIdAccountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::TransferDeviceIdAccountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_TRANSFERDEVICEIDACCOUNTOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

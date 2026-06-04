@@ -9,16 +9,16 @@ namespace SRDebugger::Services { class BugReportProgressCallback; }
 namespace SRDebugger::Services { class IBugReportService; }
 namespace System { class String; }
 
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_AWAKE_OFFSET UNITYSDK_OFFSET(0x19E74CF0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x19E74DC0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_ONPROGRESS_OFFSET UNITYSDK_OFFSET(0x19E74DB0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_SENDBUGREPORT_OFFSET UNITYSDK_OFFSET(0x19E74B10)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0x19E74E30)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E75020)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ACEAD20)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1ACEAE00)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_ONPROGRESS_OFFSET UNITYSDK_OFFSET(0x1ACEADE0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_SENDBUGREPORT_OFFSET UNITYSDK_OFFSET(0x1ACEAB40)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ACEAE70)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACEB070)
 
 namespace SRDebugger::Services::Implementation
 {
-	inline static constexpr unsigned int BugReportApiService_TypeDefinitionIndex = 35438;
+	inline static constexpr unsigned int BugReportApiService_TypeDefinitionIndex = 35738;
 
 	class BugReportApiService : public ::SRF::Service::SRServiceBase_1<::SRDebugger::Services::IBugReportService*>
 	{
@@ -36,9 +36,9 @@ namespace SRDebugger::Services::Implementation
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SendBugReport(::SRDebugger::Services::BugReport* report, ::SRDebugger::Services::BugReportCompleteCallback* completeHandler, ::SRDebugger::Services::BugReportProgressCallback* progressCallback)
+		::System::Void SendBugReport(::SRDebugger::Services::BugReport* a1, ::SRDebugger::Services::BugReportCompleteCallback* a2, ::SRDebugger::Services::BugReportProgressCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::Services::BugReport*, ::SRDebugger::Services::BugReportCompleteCallback*, ::SRDebugger::Services::BugReportProgressCallback*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_SENDBUGREPORT_OFFSET))(this, report, completeHandler, progressCallback);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::Services::BugReport*, ::SRDebugger::Services::BugReportCompleteCallback*, ::SRDebugger::Services::BugReportProgressCallback*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_SENDBUGREPORT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Awake()
@@ -46,9 +46,9 @@ namespace SRDebugger::Services::Implementation
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void OnProgress(::System::Single progress)
+		::System::Void OnProgress(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_ONPROGRESS_OFFSET))(this, progress);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_ONPROGRESS_OFFSET))(this, a1);
 		}
 
 		::System::Void OnComplete()

@@ -20,49 +20,49 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_BUILDCHIMERA_OFFSET UNITYSDK_OFFSET(0xADC0D20)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_BUILDHOLLOW_OFFSET UNITYSDK_OFFSET(0xADC2380)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0xADC02A0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_GET_OUTLINEDRAWER_OFFSET UNITYSDK_OFFSET(0xADC0180)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_GET__BODYCONSTVALUE_OFFSET UNITYSDK_OFFSET(0xADC0190)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_HIDEOUTLINE_OFFSET UNITYSDK_OFFSET(0xADC0A40)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0xADC3670)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_SETSHADOWCASTINGENABLED_OFFSET UNITYSDK_OFFSET(0xADC3610)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_SHOWHIGHLIGHTOUTLINE_OFFSET UNITYSDK_OFFSET(0xADC0350)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDBLUSH_OFFSET UNITYSDK_OFFSET(0xADC2B20)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDBODY_OFFSET UNITYSDK_OFFSET(0xADC2BE0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDEYE_OFFSET UNITYSDK_OFFSET(0xADC1FC0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDFACE_OFFSET UNITYSDK_OFFSET(0xADC2EF0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDITEMS_1_OFFSET UNITYSDK_OFFSET(0xADC31A0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDITEMS_OFFSET UNITYSDK_OFFSET(0xADC3410)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDMATERIALPATH_OFFSET UNITYSDK_OFFSET(0xADC3790)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDPARTS_1_OFFSET UNITYSDK_OFFSET(0xADC34D0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDPARTS_OFFSET UNITYSDK_OFFSET(0xADC19F0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xADC3DB0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__CREATEMATERIALPARTCONFIG_OFFSET UNITYSDK_OFFSET(0xADC2A80)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xADC3DA0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__GETCHIMERACONFIG_OFFSET UNITYSDK_OFFSET(0xADC11F0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__GETVERSION_OFFSET UNITYSDK_OFFSET(0xADC1490)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ISASSETEXISTS_OFFSET UNITYSDK_OFFSET(0xADC3B50)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ISGAMEINITIALIZED_OFFSET UNITYSDK_OFFSET(0xADC3D40)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ISVALID_OFFSET UNITYSDK_OFFSET(0xADC1390)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ITERATEPARTS_OFFSET UNITYSDK_OFFSET(0xADC0420)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__LOADANDBINDCHIMERA_OFFSET UNITYSDK_OFFSET(0xADC14E0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__LOADMATERIALWITHFALLBACK_OFFSET UNITYSDK_OFFSET(0xADC36C0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__SYNCLOADMATERIAL_OFFSET UNITYSDK_OFFSET(0xADC30E0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__TRYLOADMATERIAL_OFFSET UNITYSDK_OFFSET(0xADC3CB0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__TRYSETWWISESWITCH_OFFSET UNITYSDK_OFFSET(0xADC2150)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_BUILDCHIMERA_OFFSET UNITYSDK_OFFSET(0xC504F00)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_BUILDHOLLOW_OFFSET UNITYSDK_OFFSET(0xC506540)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0xC504500)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_GET_OUTLINEDRAWER_OFFSET UNITYSDK_OFFSET(0xC5043E0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_GET__BODYCONSTVALUE_OFFSET UNITYSDK_OFFSET(0xC5043F0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_HIDEOUTLINE_OFFSET UNITYSDK_OFFSET(0xC504C70)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC507760)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_SETSHADOWCASTINGENABLED_OFFSET UNITYSDK_OFFSET(0xC507700)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_SHOWHIGHLIGHTOUTLINE_OFFSET UNITYSDK_OFFSET(0xC5045B0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDBLUSH_OFFSET UNITYSDK_OFFSET(0xC506C70)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDBODY_OFFSET UNITYSDK_OFFSET(0xC506D30)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDEYE_OFFSET UNITYSDK_OFFSET(0xC506170)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDFACE_OFFSET UNITYSDK_OFFSET(0xC507030)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDITEMS_1_OFFSET UNITYSDK_OFFSET(0xC5072A0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDITEMS_OFFSET UNITYSDK_OFFSET(0xC507500)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDMATERIALPATH_OFFSET UNITYSDK_OFFSET(0xC507880)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDPARTS_1_OFFSET UNITYSDK_OFFSET(0xC5075C0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDPARTS_OFFSET UNITYSDK_OFFSET(0xC505B70)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xC507DF0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__CREATEMATERIALPARTCONFIG_OFFSET UNITYSDK_OFFSET(0xC506BD0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC507DE0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__GETCHIMERACONFIG_OFFSET UNITYSDK_OFFSET(0xC5053C0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__GETVERSION_OFFSET UNITYSDK_OFFSET(0xC505620)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ISASSETEXISTS_OFFSET UNITYSDK_OFFSET(0xC507B90)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ISGAMEINITIALIZED_OFFSET UNITYSDK_OFFSET(0xC507D80)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ISVALID_OFFSET UNITYSDK_OFFSET(0xC505510)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ITERATEPARTS_OFFSET UNITYSDK_OFFSET(0xC504680)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__LOADANDBINDCHIMERA_OFFSET UNITYSDK_OFFSET(0xC505670)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__LOADMATERIALWITHFALLBACK_OFFSET UNITYSDK_OFFSET(0xC5077B0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__SYNCLOADMATERIAL_OFFSET UNITYSDK_OFFSET(0xC5071E0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__TRYLOADMATERIAL_OFFSET UNITYSDK_OFFSET(0xC507CF0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__TRYSETWWISESWITCH_OFFSET UNITYSDK_OFFSET(0xC506300)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraModelView_TypeDefinitionIndex = 71820;
+	inline static constexpr unsigned int ChimeraDuelChimeraModelView_TypeDefinitionIndex = 72842;
 
 	class ChimeraDuelChimeraModelView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet__EyeState()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraModelView_TypeDefinitionIndex)->GetStaticField(0x33E0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraModelView_TypeDefinitionIndex)->GetStaticField(0x77E0);
 		}
 		::System::UInt32 ChimeraID; // 0x18
 		::RPG::Client::Prop::ChimeraDuelModelShadowView* _Shadow; // 0x20
@@ -115,34 +115,34 @@ namespace RPG::Client::Prop
 			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ITERATEPARTS_OFFSET))(this);
 		}
 
-		::System::Void BuildChimera(::System::UInt32 chimeraID)
+		::System::Void BuildChimera(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_BUILDCHIMERA_OFFSET))(this, chimeraID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_BUILDCHIMERA_OFFSET))(this, a1);
 		}
 
-		::System::Void BuildHollow(::UnityEngine::Material* hollowMaterial)
+		::System::Void BuildHollow(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_BUILDHOLLOW_OFFSET))(this, hollowMaterial);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_BUILDHOLLOW_OFFSET))(this, a1);
 		}
 
-		::System::Void _BuildParts(::RPG::Client::IChimeraModelPartsConfig* config, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion version)
+		::System::Void _BuildParts(::RPG::Client::IChimeraModelPartsConfig* a1, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IChimeraModelPartsConfig*, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDPARTS_OFFSET))(this, config, version);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IChimeraModelPartsConfig*, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDPARTS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _BuildParts_1(::RPG::GameCore::ChimeraMaterialType body, ::RPG::GameCore::ChimeraHornsPartType horns, ::RPG::GameCore::ChimeraWingsPartType wings, ::RPG::GameCore::ChimeraTailPartType tail, ::System::String* itemMatOverride)
+		::System::Void _BuildParts_1(::RPG::GameCore::ChimeraMaterialType a1, ::RPG::GameCore::ChimeraHornsPartType a2, ::RPG::GameCore::ChimeraWingsPartType a3, ::RPG::GameCore::ChimeraTailPartType a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType, ::RPG::GameCore::ChimeraHornsPartType, ::RPG::GameCore::ChimeraWingsPartType, ::RPG::GameCore::ChimeraTailPartType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDPARTS_1_OFFSET))(this, body, horns, wings, tail, itemMatOverride);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType, ::RPG::GameCore::ChimeraHornsPartType, ::RPG::GameCore::ChimeraWingsPartType, ::RPG::GameCore::ChimeraTailPartType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDPARTS_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void _LoadAndBindChimera(::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion version)
+		::System::Void _LoadAndBindChimera(::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__LOADANDBINDCHIMERA_OFFSET))(this, version);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__LOADANDBINDCHIMERA_OFFSET))(this, a1);
 		}
 
-		::System::Void SetShadowCastingEnabled(::System::Boolean isEnabled)
+		::System::Void SetShadowCastingEnabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_SETSHADOWCASTINGENABLED_OFFSET))(this, isEnabled);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_SETSHADOWCASTINGENABLED_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()
@@ -150,34 +150,34 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Void _BuildFace(::RPG::GameCore::ChimeraMaterialType materialType)
+		::System::Void _BuildFace(::RPG::GameCore::ChimeraMaterialType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDFACE_OFFSET))(this, materialType);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDFACE_OFFSET))(this, a1);
 		}
 
-		::System::Void _BuildBlush(::RPG::GameCore::ChimeraMaterialType materialType)
+		::System::Void _BuildBlush(::RPG::GameCore::ChimeraMaterialType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDBLUSH_OFFSET))(this, materialType);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDBLUSH_OFFSET))(this, a1);
 		}
 
-		::System::Void _BuildBody(::RPG::GameCore::ChimeraMaterialType materialType, ::RPG::GameCore::ChimeraTailPartType tail)
+		::System::Void _BuildBody(::RPG::GameCore::ChimeraMaterialType a1, ::RPG::GameCore::ChimeraTailPartType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType, ::RPG::GameCore::ChimeraTailPartType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDBODY_OFFSET))(this, materialType, tail);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType, ::RPG::GameCore::ChimeraTailPartType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDBODY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _BuildItems(::RPG::GameCore::ChimeraMaterialType materialType, ::RPG::GameCore::ChimeraHornsPartType horns, ::RPG::GameCore::ChimeraWingsPartType wings)
+		::System::Void _BuildItems(::RPG::GameCore::ChimeraMaterialType a1, ::RPG::GameCore::ChimeraHornsPartType a2, ::RPG::GameCore::ChimeraWingsPartType a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType, ::RPG::GameCore::ChimeraHornsPartType, ::RPG::GameCore::ChimeraWingsPartType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDITEMS_OFFSET))(this, materialType, horns, wings);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType, ::RPG::GameCore::ChimeraHornsPartType, ::RPG::GameCore::ChimeraWingsPartType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDITEMS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _BuildItems_1(::UnityEngine::Material* material, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion version, ::RPG::GameCore::ChimeraHornsPartType horns, ::RPG::GameCore::ChimeraWingsPartType wings)
+		::System::Void _BuildItems_1(::UnityEngine::Material* a1, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion a2, ::RPG::GameCore::ChimeraHornsPartType a3, ::RPG::GameCore::ChimeraWingsPartType a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion, ::RPG::GameCore::ChimeraHornsPartType, ::RPG::GameCore::ChimeraWingsPartType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDITEMS_1_OFFSET))(this, material, version, horns, wings);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion, ::RPG::GameCore::ChimeraHornsPartType, ::RPG::GameCore::ChimeraWingsPartType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDITEMS_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _BuildEye(::System::Int32 eyeParam)
+		::System::Void _BuildEye(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDEYE_OFFSET))(this, eyeParam);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDEYE_OFFSET))(this, a1);
 		}
 
 		::System::Void _TrySetWwiseSwitch()
@@ -185,29 +185,29 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__TRYSETWWISESWITCH_OFFSET))(this);
 		}
 
-		::System::String* _BuildMaterialPath(::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory category, ::RPG::GameCore::ChimeraMaterialType type)
+		::System::String* _BuildMaterialPath(::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory a1, ::RPG::GameCore::ChimeraMaterialType a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory, ::RPG::GameCore::ChimeraMaterialType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDMATERIALPATH_OFFSET))(this, category, type);
+			return ((::System::String*(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory, ::RPG::GameCore::ChimeraMaterialType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__BUILDMATERIALPATH_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion _GetVersion(::RPG::GameCore::ChimeraMaterialType type)
+		::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion _GetVersion(::RPG::GameCore::ChimeraMaterialType a1)
 		{
-			return ((::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__GETVERSION_OFFSET))(this, type);
+			return ((::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialVersion(*)(::PVOID, ::RPG::GameCore::ChimeraMaterialType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__GETVERSION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Material* _LoadMaterialWithFallback(::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory category, ::RPG::GameCore::ChimeraMaterialType type)
+		::UnityEngine::Material* _LoadMaterialWithFallback(::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory a1, ::RPG::GameCore::ChimeraMaterialType a2)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory, ::RPG::GameCore::ChimeraMaterialType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__LOADMATERIALWITHFALLBACK_OFFSET))(this, category, type);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory, ::RPG::GameCore::ChimeraMaterialType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__LOADMATERIALWITHFALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _TryLoadMaterial(::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory category, ::RPG::GameCore::ChimeraMaterialType type, ::UnityEngine::Material*& material)
+		::System::Boolean _TryLoadMaterial(::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory a1, ::RPG::GameCore::ChimeraMaterialType a2, ::UnityEngine::Material*& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory, ::RPG::GameCore::ChimeraMaterialType, ::UnityEngine::Material*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__TRYLOADMATERIAL_OFFSET))(this, category, type, material);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelChimeraModelView_MaterialCategory, ::RPG::GameCore::ChimeraMaterialType, ::UnityEngine::Material*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__TRYLOADMATERIAL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::GameCore::CharacterReplaceMaterialPartShow* _CreateMaterialPartConfig(::Il2CppArray<::System::UInt32>* parts, ::System::Boolean hideNpc)
+		::RPG::GameCore::CharacterReplaceMaterialPartShow* _CreateMaterialPartConfig(::Il2CppArray<::System::UInt32>* a1, ::System::Boolean a2)
 		{
-			return ((::RPG::GameCore::CharacterReplaceMaterialPartShow*(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__CREATEMATERIALPARTCONFIG_OFFSET))(this, parts, hideNpc);
+			return ((::RPG::GameCore::CharacterReplaceMaterialPartShow*(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__CREATEMATERIALPARTCONFIG_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::IChimeraModelConfig* _GetChimeraConfig()
@@ -220,19 +220,19 @@ namespace RPG::Client::Prop
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ISGAMEINITIALIZED_OFFSET))(this);
 		}
 
-		::System::Boolean _IsValid(::RPG::Client::IChimeraModelConfig* config)
+		::System::Boolean _IsValid(::RPG::Client::IChimeraModelConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IChimeraModelConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ISVALID_OFFSET))(this, config);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IChimeraModelConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ISVALID_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsAssetExists(::System::String* asbPath)
+		::System::Boolean _IsAssetExists(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ISASSETEXISTS_OFFSET))(this, asbPath);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__ISASSETEXISTS_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Material* _SyncLoadMaterial(::System::String* asbPath)
+		::UnityEngine::Material* _SyncLoadMaterial(::System::String* a1)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__SYNCLOADMATERIAL_OFFSET))(this, asbPath);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAMODELVIEW__SYNCLOADMATERIAL_OFFSET))(this, a1);
 		}
 	};
 }

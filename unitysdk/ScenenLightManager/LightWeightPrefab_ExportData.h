@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_LIGHTWEIGHTPREFAB_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB9385E0)
+#define SCENENLIGHTMANAGER_LIGHTWEIGHTPREFAB_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD07CFB0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LightWeightPrefab_ExportData_TypeDefinitionIndex = 45708;
+	inline static constexpr unsigned int LightWeightPrefab_ExportData_TypeDefinitionIndex = 46291;
 
 	class LightWeightPrefab_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELNPCINFOOVERRIDELOCATION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A4C870)
-#define RPG_GAMECORE_LEVELNPCINFOOVERRIDELOCATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4CCA0)
+#define RPG_GAMECORE_LEVELNPCINFOOVERRIDELOCATION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1987D4A0)
+#define RPG_GAMECORE_LEVELNPCINFOOVERRIDELOCATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1987D8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCInfoOverrideLocation_TypeDefinitionIndex = 16472;
+	inline static constexpr unsigned int LevelNPCInfoOverrideLocation_TypeDefinitionIndex = 16504;
 
 	class LevelNPCInfoOverrideLocation : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCINFOOVERRIDELOCATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelNPCInfoOverrideLocation*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCInfoOverrideLocation*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCInfoOverrideLocation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCINFOOVERRIDELOCATION_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCInfoOverrideLocation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCINFOOVERRIDELOCATION_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,29 +4,29 @@
 
 namespace System { class String; }
 
-#define TMPRO_TMP_TEXTPARSINGUTILITIES_CONVERTTOUTF32_OFFSET UNITYSDK_OFFSET(0x1A386800)
-#define TMPRO_TMP_TEXTPARSINGUTILITIES_GETHASHCODECASESENSITIVE_OFFSET UNITYSDK_OFFSET(0x1A39FC70)
-#define TMPRO_TMP_TEXTPARSINGUTILITIES_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A39FBA0)
-#define TMPRO_TMP_TEXTPARSINGUTILITIES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A39FB70)
-#define TMPRO_TMP_TEXTPARSINGUTILITIES_ISHIGHSURROGATE_OFFSET UNITYSDK_OFFSET(0x1A39FEB0)
-#define TMPRO_TMP_TEXTPARSINGUTILITIES_ISLOWSURROGATE_OFFSET UNITYSDK_OFFSET(0x1A39FEC0)
-#define TMPRO_TMP_TEXTPARSINGUTILITIES_TOLOWERASCIIFAST_1_OFFSET UNITYSDK_OFFSET(0x1A39FE20)
-#define TMPRO_TMP_TEXTPARSINGUTILITIES_TOLOWERASCIIFAST_OFFSET UNITYSDK_OFFSET(0x1A39FD50)
-#define TMPRO_TMP_TEXTPARSINGUTILITIES_TOUPPERASCIIFAST_1_OFFSET UNITYSDK_OFFSET(0x1A39FDB0)
-#define TMPRO_TMP_TEXTPARSINGUTILITIES_TOUPPERASCIIFAST_OFFSET UNITYSDK_OFFSET(0x1A3897A0)
-#define TMPRO_TMP_TEXTPARSINGUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A39FB30)
-#define TMPRO_TMP_TEXTPARSINGUTILITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A39FB60)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES_CONVERTTOUTF32_OFFSET UNITYSDK_OFFSET(0x1B1DFA90)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES_GETHASHCODECASESENSITIVE_OFFSET UNITYSDK_OFFSET(0x1B1F6560)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B1F6490)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B1F6460)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES_ISHIGHSURROGATE_OFFSET UNITYSDK_OFFSET(0x1B1F67A0)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES_ISLOWSURROGATE_OFFSET UNITYSDK_OFFSET(0x1B1F67B0)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES_TOLOWERASCIIFAST_1_OFFSET UNITYSDK_OFFSET(0x1B1F6710)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES_TOLOWERASCIIFAST_OFFSET UNITYSDK_OFFSET(0x1B1F6640)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES_TOUPPERASCIIFAST_1_OFFSET UNITYSDK_OFFSET(0x1B1F66A0)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES_TOUPPERASCIIFAST_OFFSET UNITYSDK_OFFSET(0x1B1E27F0)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1F6420)
+#define TMPRO_TMP_TEXTPARSINGUTILITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F6450)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_TextParsingUtilities_TypeDefinitionIndex = 40221;
+	inline static constexpr unsigned int TMP_TextParsingUtilities_TypeDefinitionIndex = 41048;
 
 	class TMP_TextParsingUtilities : public ::System::Object
 	{
 	public:
 		static ::TMPro::TMP_TextParsingUtilities** StaticGet_s_Instance()
 		{
-			return (::TMPro::TMP_TextParsingUtilities**)Il2CppClass::FromTypeDefinitionIndex(TMP_TextParsingUtilities_TypeDefinitionIndex)->GetStaticField(0x33580);
+			return (::TMPro::TMP_TextParsingUtilities**)Il2CppClass::FromTypeDefinitionIndex(TMP_TextParsingUtilities_TypeDefinitionIndex)->GetStaticField(0x5B7A0);
 		}
 		// static const ::System::String* k_LookupStringL; // 0x0
 		// static const ::System::String* k_LookupStringU; // 0x0
@@ -46,49 +46,49 @@ namespace TMPro
 			return ((::TMPro::TMP_TextParsingUtilities*(*)())((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_GET_INSTANCE_OFFSET))();
 		}
 
-		static ::System::Int32 GetHashCode(::System::String* s)
+		static ::System::Int32 GetHashCode(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_GETHASHCODE_OFFSET))(s);
+			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_GETHASHCODE_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetHashCodeCaseSensitive(::System::String* s)
+		static ::System::Int32 GetHashCodeCaseSensitive(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_GETHASHCODECASESENSITIVE_OFFSET))(s);
+			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_GETHASHCODECASESENSITIVE_OFFSET))(a1);
 		}
 
-		static ::System::Char ToLowerASCIIFast(::System::Char c)
+		static ::System::Char ToLowerASCIIFast(::System::Char a1)
 		{
-			return ((::System::Char(*)(::System::Char))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_TOLOWERASCIIFAST_OFFSET))(c);
+			return ((::System::Char(*)(::System::Char))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_TOLOWERASCIIFAST_OFFSET))(a1);
 		}
 
-		static ::System::Char ToUpperASCIIFast(::System::Char c)
+		static ::System::Char ToUpperASCIIFast(::System::Char a1)
 		{
-			return ((::System::Char(*)(::System::Char))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_TOUPPERASCIIFAST_OFFSET))(c);
+			return ((::System::Char(*)(::System::Char))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_TOUPPERASCIIFAST_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 ToUpperASCIIFast_1(::System::UInt32 c)
+		static ::System::UInt32 ToUpperASCIIFast_1(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_TOUPPERASCIIFAST_1_OFFSET))(c);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_TOUPPERASCIIFAST_1_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 ToLowerASCIIFast_1(::System::UInt32 c)
+		static ::System::UInt32 ToLowerASCIIFast_1(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_TOLOWERASCIIFAST_1_OFFSET))(c);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_TOLOWERASCIIFAST_1_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsHighSurrogate(::System::UInt32 c)
+		static ::System::Boolean IsHighSurrogate(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_ISHIGHSURROGATE_OFFSET))(c);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_ISHIGHSURROGATE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsLowSurrogate(::System::UInt32 c)
+		static ::System::Boolean IsLowSurrogate(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_ISLOWSURROGATE_OFFSET))(c);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_ISLOWSURROGATE_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 ConvertToUTF32(::System::UInt32 highSurrogate, ::System::UInt32 lowSurrogate)
+		static ::System::UInt32 ConvertToUTF32(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_CONVERTTOUTF32_OFFSET))(highSurrogate, lowSurrogate);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTPARSINGUTILITIES_CONVERTTOUTF32_OFFSET))(a1, a2);
 		}
 	};
 }

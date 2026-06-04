@@ -4,24 +4,24 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_GETPRIMITIVEDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x19F386E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_INT32TOOBJECT_OFFSET UNITYSDK_OFFSET(0x19F29DC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_GETPRIMITIVEDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1ADB0050)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_INT32TOOBJECT_OFFSET UNITYSDK_OFFSET(0x1ADA1890)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ScriptingRuntimeHelpers_TypeDefinitionIndex = 3649;
+	inline static constexpr unsigned int ScriptingRuntimeHelpers_TypeDefinitionIndex = 3650;
 
 	class ScriptingRuntimeHelpers : public ::System::Object
 	{
 	public:
-		static ::System::Object* Int32ToObject(::System::Int32 i)
+		static ::System::Object* Int32ToObject(::System::Int32 a1)
 		{
-			return ((::System::Object*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_INT32TOOBJECT_OFFSET))(i);
+			return ((::System::Object*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_INT32TOOBJECT_OFFSET))(a1);
 		}
 
-		static ::System::Object* GetPrimitiveDefaultValue(::System::Type* type)
+		static ::System::Object* GetPrimitiveDefaultValue(::System::Type* a1)
 		{
-			return ((::System::Object*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_GETPRIMITIVEDEFAULTVALUE_OFFSET))(type);
+			return ((::System::Object*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SCRIPTINGRUNTIMEHELPERS_GETPRIMITIVEDEFAULTVALUE_OFFSET))(a1);
 		}
 	};
 }

@@ -6,12 +6,12 @@ namespace RPG::Client::DiceCombat { class DiceCombatForceRefreshEvent; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS34_0__APPENDFORCEREFRESHEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xA11E5C0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA11CA10)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS34_0__APPENDFORCEREFRESHEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xB79B8D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB799D60)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBattleContext___c__DisplayClass34_0_TypeDefinitionIndex = 69798;
+	inline static constexpr unsigned int DiceCombatBattleContext___c__DisplayClass34_0_TypeDefinitionIndex = 70610;
 
 	class DiceCombatBattleContext___c__DisplayClass34_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS34_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _AppendForceRefreshEventHandler_b__0(::RPG::Client::DiceCombat::DiceCombatForceRefreshEvent* evt)
+		::System::Void _AppendForceRefreshEventHandler_b__0(::RPG::Client::DiceCombat::DiceCombatForceRefreshEvent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatForceRefreshEvent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS34_0__APPENDFORCEREFRESHEVENTHANDLER_B__0_OFFSET))(this, evt);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatForceRefreshEvent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS34_0__APPENDFORCEREFRESHEVENTHANDLER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

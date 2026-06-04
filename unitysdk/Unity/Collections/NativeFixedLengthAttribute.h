@@ -4,7 +4,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeFixedLengthAttribute_TypeDefinitionIndex = 3794;
+	inline static constexpr unsigned int NativeFixedLengthAttribute_TypeDefinitionIndex = 3968;
 
 	class NativeFixedLengthAttribute : public ::System::Attribute
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleRightInfoSortType_TypeDefinitionIndex = 66531;
+	inline static constexpr unsigned int BattleRightInfoSortType_TypeDefinitionIndex = 67470;
 
 	enum class BattleRightInfoSortType : ::System::Int32
 	{

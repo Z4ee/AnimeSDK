@@ -5,28 +5,28 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189DEDC0)
-#define RPG_GAMECORE_GRIDFIGHTUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189DEF80)
+#define RPG_GAMECORE_GRIDFIGHTUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19811C20)
+#define RPG_GAMECORE_GRIDFIGHTUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19811DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightUnlockConfigRow_TypeDefinitionIndex = 12857;
+	inline static constexpr unsigned int GridFightUnlockConfigRow_TypeDefinitionIndex = 12942;
 
 	class GridFightUnlockConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockID; // 0x10
-		::System::UInt32 QuestID; // 0x14
-		::RPG::Client::TextID UnlockDesc; // 0x18
+		::RPG::Client::TextID UnlockDesc; // 0x10
+		::System::UInt32 QuestID; // 0x20
+		::System::UInt32 UnlockID; // 0x24
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTUNLOCKCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightUnlockConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightUnlockConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightUnlockConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTUNLOCKCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightUnlockConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTUNLOCKCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

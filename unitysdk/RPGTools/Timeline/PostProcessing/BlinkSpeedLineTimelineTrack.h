@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8FA0C0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB8FA2D0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8FA3B0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD03BC30)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD03BDE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD03BEC0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BlinkSpeedLineTimelineTrack_TypeDefinitionIndex = 45252;
+	inline static constexpr unsigned int BlinkSpeedLineTimelineTrack_TypeDefinitionIndex = 45809;
 
 	class BlinkSpeedLineTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -29,9 +29,9 @@ namespace RPGTools::Timeline::PostProcessing
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

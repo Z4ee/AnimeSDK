@@ -5,10 +5,10 @@
 
 namespace System::Xml::Schema { class BitSet; }
 
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MAX_OFFSET UNITYSDK_OFFSET(0x19FC8450)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MIN_OFFSET UNITYSDK_OFFSET(0x19FC8460)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x19FC8470)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_SET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x19FC8480)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MAX_OFFSET UNITYSDK_OFFSET(0x1AE3BF50)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MIN_OFFSET UNITYSDK_OFFSET(0x1AE3BF60)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x1AE3BF70)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_SET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x1AE3BF80)
 
 namespace System::Xml::Schema
 {
@@ -18,8 +18,8 @@ namespace System::Xml::Schema
 	{
 	public:
 		::System::Xml::Schema::BitSet* nextIteration; // 0x18
-		::System::Decimal max; // 0x20
-		::System::Decimal min; // 0x30
+		::System::Decimal min; // 0x20
+		::System::Decimal max; // 0x30
 
 		::System::Decimal get_Max()
 		{
@@ -36,9 +36,9 @@ namespace System::Xml::Schema
 			return ((::System::Xml::Schema::BitSet*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_NEXTITERATION_OFFSET))(this);
 		}
 
-		::System::Void set_NextIteration(::System::Xml::Schema::BitSet* value)
+		::System::Void set_NextIteration(::System::Xml::Schema::BitSet* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::BitSet*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_LEAFRANGENODE_SET_NEXTITERATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::BitSet*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_LEAFRANGENODE_SET_NEXTITERATION_OFFSET))(this, a1);
 		}
 	};
 }

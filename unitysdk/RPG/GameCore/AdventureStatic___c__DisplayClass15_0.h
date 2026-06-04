@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class LevelCurveInfo; }
 
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__APPLYLEVELCURVE_B__0_OFFSET UNITYSDK_OFFSET(0xB5AEAA0)
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB597F30)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__APPLYLEVELCURVE_B__0_OFFSET UNITYSDK_OFFSET(0xCD0F6E0)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCCF8160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureStatic___c__DisplayClass15_0_TypeDefinitionIndex = 54423;
+	inline static constexpr unsigned int AdventureStatic___c__DisplayClass15_0_TypeDefinitionIndex = 55150;
 
 	class AdventureStatic___c__DisplayClass15_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _ApplyLevelCurve_b__0(::RPG::GameCore::LevelCurveInfo* item)
+		::System::Boolean _ApplyLevelCurve_b__0(::RPG::GameCore::LevelCurveInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelCurveInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__APPLYLEVELCURVE_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelCurveInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS15_0__APPLYLEVELCURVE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

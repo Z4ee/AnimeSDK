@@ -7,21 +7,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A71FF90)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A71FFC0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A71FC00)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A71FBE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B526620)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B526650)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B526600)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B526590)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose_TypeDefinitionIndex = 35666;
+	inline static constexpr unsigned int IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose_TypeDefinitionIndex = 35966;
 
 	class IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t Invoke()
@@ -29,14 +29,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t EndInvoke(::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_ENDINVOKE_OFFSET))(this, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETRAWZEROPOSETOSTANDINGABSOLUTETRACKINGPOSE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

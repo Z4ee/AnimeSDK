@@ -7,6 +7,7 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_BF2B522AC5DB4E39;
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class BattleAssetPreload_AssetPreloadGroup; }
 namespace RPG::Client { class BattleAssetPreload_AssetPreloadGroupCreateParam; }
 namespace RPG::Client { class BattleAssetPreload_AvatarAssetPreloadGroup; }
@@ -17,7 +18,6 @@ namespace RPG::Client { class BattleAssetPreload_PreBattleAssetPreloadGroup; }
 namespace RPG::Client { class BattleAssetPreload_RtCharacterPreloadGroupBase; }
 namespace RPG::Client { class BattleAssetPreload_ServantAssetPreloadGroup; }
 namespace RPG::Client { class BattleAssetPreload_UIAssetPreloadGroup; }
-namespace RPG::Client { class IAvatarInfoProvider; }
 namespace RPG::GameCore { class AIDecisionGroup; }
 namespace RPG::GameCore { class AdventurePreloadConfig; }
 namespace RPG::GameCore { class BattleLineupData; }
@@ -32,64 +32,64 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLEASSETPRELOAD_CHECKLOADFINISH_OFFSET UNITYSDK_OFFSET(0x9DE3BA0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_CHECKREGISTERINPRELOAD_OFFSET UNITYSDK_OFFSET(0x9DE54E0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9DE3620)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_FOREACHPRELOADGROUPS_OFFSET UNITYSDK_OFFSET(0x9DE5430)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETAIDECISIONGROUP_OFFSET UNITYSDK_OFFSET(0x9DE3D40)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETAVATARASSETPRELOADENABLE_OFFSET UNITYSDK_OFFSET(0x9DE44D0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETAVATARASSETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0x9DE4810)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETBATTLEEVENTASSETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0x9DE4B50)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETENTITYASSETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0x9DE46D0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETENTITYPRELOADGROUPID_OFFSET UNITYSDK_OFFSET(0x9DE4D40)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETMONSTERASSETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0x9DE4910)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUPLIST_OFFSET UNITYSDK_OFFSET(0x9DE4660)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUP_1_OFFSET UNITYSDK_OFFSET(0x9DE4F00)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0x9DE4E30)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETRTCHARACTERPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0x9DE4C40)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETRULE_OFFSET UNITYSDK_OFFSET(0x9DE4310)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GETSERVANTASSETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0x9DE4A80)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ADVENTUREPRELOADCONFIG_OFFSET UNITYSDK_OFFSET(0x9DE5820)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ALLASSETPRELOADGROUPS_OFFSET UNITYSDK_OFFSET(0x9DE5A00)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_BATTLEPRELOADCONFIG_OFFSET UNITYSDK_OFFSET(0x9DE5830)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_INBATTLEASSETGROUP_OFFSET UNITYSDK_OFFSET(0x9DE5900)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISBATTLENEWPRELOADPHASE_OFFSET UNITYSDK_OFFSET(0x9DE5D20)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISBATTLEPRELOADPHASE_OFFSET UNITYSDK_OFFSET(0x9DE5CD0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISDISPOSING_OFFSET UNITYSDK_OFFSET(0x9DE5800)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISRECORDFINISHED_OFFSET UNITYSDK_OFFSET(0x9DE5EC0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISTARGETADVENTUREPHASE_OFFSET UNITYSDK_OFFSET(0x9DE5DD0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISTARGETBATTLEPHASE_OFFSET UNITYSDK_OFFSET(0x9DE5D80)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_LASTPRELOADPHASE_OFFSET UNITYSDK_OFFSET(0x9DE5D70)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_LINEUPDATA_OFFSET UNITYSDK_OFFSET(0x9DE5A10)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_MONSTERLODCONFIG_OFFSET UNITYSDK_OFFSET(0x9DE5810)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_PREBATTLEASSETGROUP_OFFSET UNITYSDK_OFFSET(0x9DE3E80)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_PRELOADPHASE_OFFSET UNITYSDK_OFFSET(0x9DE5A20)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_UIASSETGROUP_OFFSET UNITYSDK_OFFSET(0x9DE5840)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_ISPRELOADTAGACTIVE_OFFSET UNITYSDK_OFFSET(0x9DE5780)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_ISRULEFORBIDBYCONFICT_OFFSET UNITYSDK_OFFSET(0x9DE43F0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_ONBEGINPLAYVIDEO_OFFSET UNITYSDK_OFFSET(0x9DE4130)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_ONENDPLAYVIDEO_OFFSET UNITYSDK_OFFSET(0x9DE4190)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_RECORDONESTEP_OFFSET UNITYSDK_OFFSET(0x9DE5E80)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_REFRESHPETPRELOAD_OFFSET UNITYSDK_OFFSET(0x9DE3E20)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUPBYID_OFFSET UNITYSDK_OFFSET(0x9DE50B0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUPLIST_OFFSET UNITYSDK_OFFSET(0x9DE51E0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUP_OFFSET UNITYSDK_OFFSET(0x9DE38E0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_SETAVATARASSETPRELOADENABLE_OFFSET UNITYSDK_OFFSET(0x9DE4510)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_SETBATTLELINEUPDATA_OFFSET UNITYSDK_OFFSET(0x9DE3B40)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_SETPRELOADTAGSTATE_OFFSET UNITYSDK_OFFSET(0x9DE5550)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_SET_PRELOADPHASE_OFFSET UNITYSDK_OFFSET(0x9DE5A30)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_STOPRECORD_OFFSET UNITYSDK_OFFSET(0x9DE5ED0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_UAUTOSTARTRECORD_OFFSET UNITYSDK_OFFSET(0x9DE5E20)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_WAITLOADFINISH_OFFSET UNITYSDK_OFFSET(0x9DE3C70)
-#define RPG_CLIENT_BATTLEASSETPRELOAD__CLEARRULES_OFFSET UNITYSDK_OFFSET(0x9DE3A60)
-#define RPG_CLIENT_BATTLEASSETPRELOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x9DE3030)
-#define RPG_CLIENT_BATTLEASSETPRELOAD__DELAYTRIGGERONENDPLAYVIDEO_OFFSET UNITYSDK_OFFSET(0x9DE4200)
-#define RPG_CLIENT_BATTLEASSETPRELOAD__REGISTERRULES_OFFSET UNITYSDK_OFFSET(0x9DE3420)
-#define RPG_CLIENT_BATTLEASSETPRELOAD__REIGSTERRULE_OFFSET UNITYSDK_OFFSET(0x9DE4260)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHECKLOADFINISH_OFFSET UNITYSDK_OFFSET(0xB3BAC70)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_CHECKREGISTERINPRELOAD_OFFSET UNITYSDK_OFFSET(0xB3BC560)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3BA680)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_FOREACHPRELOADGROUPS_OFFSET UNITYSDK_OFFSET(0xB3BC480)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETAIDECISIONGROUP_OFFSET UNITYSDK_OFFSET(0xB3BAE10)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETAVATARASSETPRELOADENABLE_OFFSET UNITYSDK_OFFSET(0xB3BB480)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETAVATARASSETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0xB3BB7C0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETBATTLEEVENTASSETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0xB3BBB00)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETENTITYASSETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0xB3BB680)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETENTITYPRELOADGROUPID_OFFSET UNITYSDK_OFFSET(0xB3BBCF0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETMONSTERASSETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0xB3BB8D0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUPLIST_OFFSET UNITYSDK_OFFSET(0xB3BB610)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUP_1_OFFSET UNITYSDK_OFFSET(0xB3BBED0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0xB3BBDE0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETRTCHARACTERPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0xB3BBBF0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETRULE_OFFSET UNITYSDK_OFFSET(0xB3BB290)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GETSERVANTASSETPRELOADGROUP_OFFSET UNITYSDK_OFFSET(0xB3BBA30)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ADVENTUREPRELOADCONFIG_OFFSET UNITYSDK_OFFSET(0xB3BC8A0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ALLASSETPRELOADGROUPS_OFFSET UNITYSDK_OFFSET(0xB3BCAE0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_BATTLEPRELOADCONFIG_OFFSET UNITYSDK_OFFSET(0xB3BC8B0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_INBATTLEASSETGROUP_OFFSET UNITYSDK_OFFSET(0xB3BC9D0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISBATTLENEWPRELOADPHASE_OFFSET UNITYSDK_OFFSET(0xB3BCE60)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISBATTLEPRELOADPHASE_OFFSET UNITYSDK_OFFSET(0xB3BCE10)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISDISPOSING_OFFSET UNITYSDK_OFFSET(0xB3BC880)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISRECORDFINISHED_OFFSET UNITYSDK_OFFSET(0xB3BD000)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISTARGETADVENTUREPHASE_OFFSET UNITYSDK_OFFSET(0xB3BCF10)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISTARGETBATTLEPHASE_OFFSET UNITYSDK_OFFSET(0xB3BCEC0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_LASTPRELOADPHASE_OFFSET UNITYSDK_OFFSET(0xB3BCEB0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_LINEUPDATA_OFFSET UNITYSDK_OFFSET(0xB3BCAF0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_MONSTERLODCONFIG_OFFSET UNITYSDK_OFFSET(0xB3BC890)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_PREBATTLEASSETGROUP_OFFSET UNITYSDK_OFFSET(0xB3BAF40)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_PRELOADPHASE_OFFSET UNITYSDK_OFFSET(0xB3BCB00)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_GET_UIASSETGROUP_OFFSET UNITYSDK_OFFSET(0xB3BC8C0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_ISPRELOADTAGACTIVE_OFFSET UNITYSDK_OFFSET(0xB3BC800)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_ISRULEFORBIDBYCONFICT_OFFSET UNITYSDK_OFFSET(0xB3BB390)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_ONBEGINPLAYVIDEO_OFFSET UNITYSDK_OFFSET(0xB3BB020)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_ONENDPLAYVIDEO_OFFSET UNITYSDK_OFFSET(0xB3BB080)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_RECORDONESTEP_OFFSET UNITYSDK_OFFSET(0xB3BCFC0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_REFRESHPETPRELOAD_OFFSET UNITYSDK_OFFSET(0xB3BAEE0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUPBYID_OFFSET UNITYSDK_OFFSET(0xB3BC080)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUPLIST_OFFSET UNITYSDK_OFFSET(0xB3BC1A0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUP_OFFSET UNITYSDK_OFFSET(0xB3BA940)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_SETAVATARASSETPRELOADENABLE_OFFSET UNITYSDK_OFFSET(0xB3BB4C0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_SETBATTLELINEUPDATA_OFFSET UNITYSDK_OFFSET(0xB3BAC00)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_SETPRELOADTAGSTATE_OFFSET UNITYSDK_OFFSET(0xB3BC5D0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_SET_PRELOADPHASE_OFFSET UNITYSDK_OFFSET(0xB3BCB10)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_STOPRECORD_OFFSET UNITYSDK_OFFSET(0xB3BD010)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_UAUTOSTARTRECORD_OFFSET UNITYSDK_OFFSET(0xB3BCF60)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_WAITLOADFINISH_OFFSET UNITYSDK_OFFSET(0xB3BAD40)
+#define RPG_CLIENT_BATTLEASSETPRELOAD__CLEARRULES_OFFSET UNITYSDK_OFFSET(0xB3BAAD0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD__CTOR_OFFSET UNITYSDK_OFFSET(0xB3BA0A0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD__DELAYTRIGGERONENDPLAYVIDEO_OFFSET UNITYSDK_OFFSET(0xB3BB120)
+#define RPG_CLIENT_BATTLEASSETPRELOAD__REGISTERRULES_OFFSET UNITYSDK_OFFSET(0xB3BA480)
+#define RPG_CLIENT_BATTLEASSETPRELOAD__REIGSTERRULE_OFFSET UNITYSDK_OFFSET(0xB3BB180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAssetPreload_TypeDefinitionIndex = 55028;
+	inline static constexpr unsigned int BattleAssetPreload_TypeDefinitionIndex = 55762;
 
 	class BattleAssetPreload : public ::System::Object
 	{
@@ -99,18 +99,18 @@ namespace RPG::Client
 		// static const ::System::String* ADVENTURE_PRELOAD_JSON_PATH; // 0x0
 		// static const ::System::String* MONSTER_LOD_JSON_PATH; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::AIDecisionGroup*>* _InBattlePreloadAIDecisionGroupDic; // 0x10
-		::RPG::GameCore::BattlePreloadConfig* _BattlePreloadConfig; // 0x18
-		::System::Collections::Generic::List_1<::Class_1_BF2B522AC5DB4E39*>* _PreloadRules; // 0x20
-		::Il2CppArray<::System::Collections::Generic::List_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>*>* _AssetGroupsByGroupType; // 0x28
+		::System::Action* BatttleLineupDataInitCallback; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::String*>* _ActivePreloadTags; // 0x20
+		::RPG::GameCore::AdventurePreloadConfig* _AdventurePreloadConfig; // 0x28
 		::System::Collections::Generic::List_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>* _AllAssetPreloadGroups; // 0x30
-		::RPG::GameCore::AdventurePreloadConfig* _AdventurePreloadConfig; // 0x38
-		::RPG::GameCore::BattleLineupData* _LineupData; // 0x40
-		::RPG::GameCore::MonsterLodConfig* _monsterLodConfig; // 0x48
-		::System::Collections::Generic::HashSet_1<::System::String*>* _ActivePreloadTags; // 0x50
-		::System::Action* BatttleLineupDataInitCallback; // 0x58
-		::RPG::Client::BattlePreloadPhase _PreloadPhase; // 0x60
-		::System::Boolean _AvatarAssetPreloadEnable; // 0x64
-		::System::Boolean _IsDisposing; // 0x65
+		::RPG::GameCore::BattleLineupData* _LineupData; // 0x38
+		::Il2CppArray<::System::Collections::Generic::List_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>*>* _AssetGroupsByGroupType; // 0x40
+		::RPG::GameCore::BattlePreloadConfig* _BattlePreloadConfig; // 0x48
+		::System::Collections::Generic::List_1<::Class_1_BF2B522AC5DB4E39*>* _PreloadRules; // 0x50
+		::RPG::GameCore::MonsterLodConfig* _monsterLodConfig; // 0x58
+		::System::Boolean _IsDisposing; // 0x60
+		::System::Boolean _AvatarAssetPreloadEnable; // 0x61
+		::RPG::Client::BattlePreloadPhase _PreloadPhase; // 0x64
 		::RPG::Client::BattlePreloadPhase _LastPreloadPhase; // 0x68
 
 		::System::Void _ctor()
@@ -123,9 +123,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void SetBattleLineupData(::RPG::GameCore::BattleLineupData* pLineupData)
+		::System::Void SetBattleLineupData(::RPG::GameCore::BattleLineupData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleLineupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_SETBATTLELINEUPDATA_OFFSET))(this, pLineupData);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleLineupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_SETBATTLELINEUPDATA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean CheckLoadFinish()
@@ -133,14 +133,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHECKLOADFINISH_OFFSET))(this);
 		}
 
-		::System::Void WaitLoadFinish(::System::Action* pOnLoadFinish, ::Class_1_21A1F6196B1F5D5B_ELoadingWaitType waitType)
+		::System::Void WaitLoadFinish(::System::Action* a1, ::Class_1_21A1F6196B1F5D5B_ELoadingWaitType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::Class_1_21A1F6196B1F5D5B_ELoadingWaitType))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_WAITLOADFINISH_OFFSET))(this, pOnLoadFinish, waitType);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::Class_1_21A1F6196B1F5D5B_ELoadingWaitType))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_WAITLOADFINISH_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::AIDecisionGroup* GetAIDecisionGroup(::System::String* jsonPath)
+		::RPG::GameCore::AIDecisionGroup* GetAIDecisionGroup(::System::String* a1)
 		{
-			return ((::RPG::GameCore::AIDecisionGroup*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETAIDECISIONGROUP_OFFSET))(this, jsonPath);
+			return ((::RPG::GameCore::AIDecisionGroup*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETAIDECISIONGROUP_OFFSET))(this, a1);
 		}
 
 		::System::Void RefreshPetPreload()
@@ -168,9 +168,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD__REGISTERRULES_OFFSET))(this);
 		}
 
-		::System::Void _ReigsterRule(::Class_1_BF2B522AC5DB4E39* rule)
+		::System::Void _ReigsterRule(::Class_1_BF2B522AC5DB4E39* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_BF2B522AC5DB4E39*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD__REIGSTERRULE_OFFSET))(this, rule);
+			return ((::System::Void(*)(::PVOID, ::Class_1_BF2B522AC5DB4E39*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD__REIGSTERRULE_OFFSET))(this, a1);
 		}
 
 		::System::Void _ClearRules()
@@ -178,14 +178,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD__CLEARRULES_OFFSET))(this);
 		}
 
-		::Class_1_BF2B522AC5DB4E39* GetRule(::System::Type* ruleType)
+		::Class_1_BF2B522AC5DB4E39* GetRule(::System::Type* a1)
 		{
-			return ((::Class_1_BF2B522AC5DB4E39*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETRULE_OFFSET))(this, ruleType);
+			return ((::Class_1_BF2B522AC5DB4E39*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETRULE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsRuleForbidByConfict(::System::Type* ruleType)
+		::System::Boolean IsRuleForbidByConfict(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_ISRULEFORBIDBYCONFICT_OFFSET))(this, ruleType);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_ISRULEFORBIDBYCONFICT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean GetAvatarAssetPreloadEnable()
@@ -193,94 +193,94 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETAVATARASSETPRELOADENABLE_OFFSET))(this);
 		}
 
-		::System::Void SetAvatarAssetPreloadEnable(::System::Boolean enable, ::System::Boolean isAyncLoad, ::System::Action* onLoadFinish)
+		::System::Void SetAvatarAssetPreloadEnable(::System::Boolean a1, ::System::Boolean a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_SETAVATARASSETPRELOADENABLE_OFFSET))(this, enable, isAyncLoad, onLoadFinish);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_SETAVATARASSETPRELOADENABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::BattleAssetPreload_AssetPreloadGroup* GetEntityAssetPreloadGroup(::RPG::GameCore::GameEntity* entity, ::System::Boolean autoLoad)
+		::RPG::Client::BattleAssetPreload_AssetPreloadGroup* GetEntityAssetPreloadGroup(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
 		{
-			return ((::RPG::Client::BattleAssetPreload_AssetPreloadGroup*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETENTITYASSETPRELOADGROUP_OFFSET))(this, entity, autoLoad);
+			return ((::RPG::Client::BattleAssetPreload_AssetPreloadGroup*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETENTITYASSETPRELOADGROUP_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetEntityPreloadGroupID(::RPG::GameCore::GameEntity* entity)
+		::System::UInt32 GetEntityPreloadGroupID(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETENTITYPRELOADGROUPID_OFFSET))(this, entity);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETENTITYPRELOADGROUPID_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>* GetPreloadGroupList(::RPG::GameCore::PreloadGroupType groupType)
+		::System::Collections::Generic::List_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>* GetPreloadGroupList(::RPG::GameCore::PreloadGroupType a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>*(*)(::PVOID, ::RPG::GameCore::PreloadGroupType))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUPLIST_OFFSET))(this, groupType);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>*(*)(::PVOID, ::RPG::GameCore::PreloadGroupType))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUPLIST_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::BattleAssetPreload_AssetPreloadGroup* GetPreloadGroup(::RPG::GameCore::PreloadGroupType groupType, ::System::UInt32 groupID)
+		::RPG::Client::BattleAssetPreload_AssetPreloadGroup* GetPreloadGroup(::RPG::GameCore::PreloadGroupType a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::BattleAssetPreload_AssetPreloadGroup*(*)(::PVOID, ::RPG::GameCore::PreloadGroupType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUP_OFFSET))(this, groupType, groupID);
+			return ((::RPG::Client::BattleAssetPreload_AssetPreloadGroup*(*)(::PVOID, ::RPG::GameCore::PreloadGroupType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUP_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::BattleAssetPreload_AssetPreloadGroup* GetPreloadGroup_1(::RPG::GameCore::EntityType entityType, ::System::UInt32 groupID)
+		::RPG::Client::BattleAssetPreload_AssetPreloadGroup* GetPreloadGroup_1(::RPG::GameCore::EntityType a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::BattleAssetPreload_AssetPreloadGroup*(*)(::PVOID, ::RPG::GameCore::EntityType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUP_1_OFFSET))(this, entityType, groupID);
+			return ((::RPG::Client::BattleAssetPreload_AssetPreloadGroup*(*)(::PVOID, ::RPG::GameCore::EntityType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETPRELOADGROUP_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveGroup(::RPG::Client::BattleAssetPreload_AssetPreloadGroup* group)
+		::System::Void RemoveGroup(::RPG::Client::BattleAssetPreload_AssetPreloadGroup* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleAssetPreload_AssetPreloadGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUP_OFFSET))(this, group);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleAssetPreload_AssetPreloadGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUP_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveGroupByID(::RPG::GameCore::PreloadGroupType groupType, ::System::UInt32 groupID)
+		::System::Void RemoveGroupByID(::RPG::GameCore::PreloadGroupType a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PreloadGroupType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUPBYID_OFFSET))(this, groupType, groupID);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PreloadGroupType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUPBYID_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveGroupList(::RPG::GameCore::PreloadGroupType groupType)
+		::System::Void RemoveGroupList(::RPG::GameCore::PreloadGroupType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PreloadGroupType))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUPLIST_OFFSET))(this, groupType);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PreloadGroupType))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_REMOVEGROUPLIST_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::BattleAssetPreload_AvatarAssetPreloadGroup* GetAvatarAssetPreloadGroup(::System::UInt32 avatarID, ::System::Boolean autoLoad, ::System::String* overrideModelPath, ::RPG::Client::IAvatarInfoProvider* avatarData)
+		::RPG::Client::BattleAssetPreload_AvatarAssetPreloadGroup* GetAvatarAssetPreloadGroup(::System::UInt32 a1, ::System::Boolean a2, ::System::String* a3, ::RPG::AvatarSystem::IAvatar* a4)
 		{
-			return ((::RPG::Client::BattleAssetPreload_AvatarAssetPreloadGroup*(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::String*, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETAVATARASSETPRELOADGROUP_OFFSET))(this, avatarID, autoLoad, overrideModelPath, avatarData);
+			return ((::RPG::Client::BattleAssetPreload_AvatarAssetPreloadGroup*(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::String*, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETAVATARASSETPRELOADGROUP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::RPG::Client::BattleAssetPreload_ServantAssetPreloadGroup* GetServantAssetPreloadGroup(::System::UInt32 servantID, ::System::Boolean autoLoad)
+		::RPG::Client::BattleAssetPreload_ServantAssetPreloadGroup* GetServantAssetPreloadGroup(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::RPG::Client::BattleAssetPreload_ServantAssetPreloadGroup*(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETSERVANTASSETPRELOADGROUP_OFFSET))(this, servantID, autoLoad);
+			return ((::RPG::Client::BattleAssetPreload_ServantAssetPreloadGroup*(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETSERVANTASSETPRELOADGROUP_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::BattleAssetPreload_MonsterAssetPreloadGroup* GetMonsterAssetPreloadGroup(::System::UInt32 monsterID, ::System::Boolean autoLoad, ::System::Boolean bIsSummonMonster)
+		::RPG::Client::BattleAssetPreload_MonsterAssetPreloadGroup* GetMonsterAssetPreloadGroup(::System::UInt32 a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::BattleAssetPreload_MonsterAssetPreloadGroup*(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETMONSTERASSETPRELOADGROUP_OFFSET))(this, monsterID, autoLoad, bIsSummonMonster);
+			return ((::RPG::Client::BattleAssetPreload_MonsterAssetPreloadGroup*(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETMONSTERASSETPRELOADGROUP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::BattleAssetPreload_BattleEventAssetPreloadGroup* GetBattleEventAssetPreloadGroup(::System::UInt32 battleEventId, ::System::Boolean autoLoad, ::System::Boolean isDynamicPreload)
+		::RPG::Client::BattleAssetPreload_BattleEventAssetPreloadGroup* GetBattleEventAssetPreloadGroup(::System::UInt32 a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::BattleAssetPreload_BattleEventAssetPreloadGroup*(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETBATTLEEVENTASSETPRELOADGROUP_OFFSET))(this, battleEventId, autoLoad, isDynamicPreload);
+			return ((::RPG::Client::BattleAssetPreload_BattleEventAssetPreloadGroup*(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETBATTLEEVENTASSETPRELOADGROUP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::BattleAssetPreload_RtCharacterPreloadGroupBase* GetRtCharacterPreloadGroup(::System::UInt32 characterID, ::System::Boolean autoLoad, ::System::Boolean isDynamicPreload)
+		::RPG::Client::BattleAssetPreload_RtCharacterPreloadGroupBase* GetRtCharacterPreloadGroup(::System::UInt32 a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::BattleAssetPreload_RtCharacterPreloadGroupBase*(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETRTCHARACTERPRELOADGROUP_OFFSET))(this, characterID, autoLoad, isDynamicPreload);
+			return ((::RPG::Client::BattleAssetPreload_RtCharacterPreloadGroupBase*(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GETRTCHARACTERPRELOADGROUP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ForEachPreloadGroups(::System::Action_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>* action)
+		::System::Void ForEachPreloadGroups(::System::Action_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_FOREACHPRELOADGROUPS_OFFSET))(this, action);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_FOREACHPRELOADGROUPS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CheckRegisterInPreload(::System::String* assetpath)
+		::System::Boolean CheckRegisterInPreload(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHECKREGISTERINPRELOAD_OFFSET))(this, assetpath);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_CHECKREGISTERINPRELOAD_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPreloadTagState(::System::String* tag, ::System::Boolean isActive)
+		::System::Void SetPreloadTagState(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_SETPRELOADTAGSTATE_OFFSET))(this, tag, isActive);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_SETPRELOADTAGSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsPreloadTagActive(::System::String* tag)
+		::System::Boolean IsPreloadTagActive(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_ISPRELOADTAGACTIVE_OFFSET))(this, tag);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_ISPRELOADTAGACTIVE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsDisposing()
@@ -333,9 +333,9 @@ namespace RPG::Client
 			return ((::RPG::Client::BattlePreloadPhase(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GET_PRELOADPHASE_OFFSET))(this);
 		}
 
-		::System::Void set_PreloadPhase(::RPG::Client::BattlePreloadPhase value)
+		::System::Void set_PreloadPhase(::RPG::Client::BattlePreloadPhase a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattlePreloadPhase))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_SET_PRELOADPHASE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattlePreloadPhase))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_SET_PRELOADPHASE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::BattlePreloadPhase get_LastPreloadPhase()
@@ -363,9 +363,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_GET_ISTARGETADVENTUREPHASE_OFFSET))(this);
 		}
 
-		::System::Void UAutoStartRecord(::System::String* jsonString, ::System::Single interval, ::System::Action* finishCallback)
+		::System::Void UAutoStartRecord(::System::String* a1, ::System::Single a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_UAUTOSTARTRECORD_OFFSET))(this, jsonString, interval, finishCallback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEASSETPRELOAD_UAUTOSTARTRECORD_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void RecordOneStep()

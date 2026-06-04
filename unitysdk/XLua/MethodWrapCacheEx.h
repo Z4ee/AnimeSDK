@@ -7,18 +7,18 @@ namespace System::Reflection { class MethodBase; }
 namespace XLua { class ObjectTranslator; }
 namespace XLua { class OverloadMethodWrap; }
 
-#define XLUA_METHODWRAPCACHEEX_CREATE_OFFSET UNITYSDK_OFFSET(0x11239CD0)
+#define XLUA_METHODWRAPCACHEEX_CREATE_OFFSET UNITYSDK_OFFSET(0x12E9ABE0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int MethodWrapCacheEx_TypeDefinitionIndex = 46421;
+	inline static constexpr unsigned int MethodWrapCacheEx_TypeDefinitionIndex = 47011;
 
 	class MethodWrapCacheEx : public ::System::Object
 	{
 	public:
-		static ::XLua::OverloadMethodWrap* Create(::XLua::ObjectTranslator* translator, ::System::Type* targetType, ::System::Reflection::MethodBase* method)
+		static ::XLua::OverloadMethodWrap* Create(::XLua::ObjectTranslator* a1, ::System::Type* a2, ::System::Reflection::MethodBase* a3)
 		{
-			return ((::XLua::OverloadMethodWrap*(*)(::XLua::ObjectTranslator*, ::System::Type*, ::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + XLUA_METHODWRAPCACHEEX_CREATE_OFFSET))(translator, targetType, method);
+			return ((::XLua::OverloadMethodWrap*(*)(::XLua::ObjectTranslator*, ::System::Type*, ::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + XLUA_METHODWRAPCACHEEX_CREATE_OFFSET))(a1, a2, a3);
 		}
 	};
 }

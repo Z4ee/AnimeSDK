@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENTITYLODTEMPLATE_METHOD_3_A35ECDAF9C1B5006_OFFSET UNITYSDK_OFFSET(0x188AEEC0)
-#define RPG_GAMECORE_ENTITYLODTEMPLATE_METHOD_3_BB987BB6EB30049F_OFFSET UNITYSDK_OFFSET(0x188AEF00)
-#define RPG_GAMECORE_ENTITYLODTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x188AEEF0)
+#define RPG_GAMECORE_ENTITYLODTEMPLATE_METHOD_3_A716431842D8A527_OFFSET UNITYSDK_OFFSET(0x196ECF20)
+#define RPG_GAMECORE_ENTITYLODTEMPLATE_METHOD_3_B9B8DBC32781E371_OFFSET UNITYSDK_OFFSET(0x196ECEE0)
+#define RPG_GAMECORE_ENTITYLODTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x196ECF10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityLodTemplate_TypeDefinitionIndex = 18251;
+	inline static constexpr unsigned int EntityLodTemplate_TypeDefinitionIndex = 18224;
 
 	class EntityLodTemplate : public ::RPG::GameCore::LodTemplate
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODTEMPLATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A35ECDAF9C1B5006(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityLodTemplate*& a2)
+		static ::System::Void Method_3_B9B8DBC32781E371(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityLodTemplate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODTEMPLATE_METHOD_3_A35ECDAF9C1B5006_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODTEMPLATE_METHOD_3_B9B8DBC32781E371_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BB987BB6EB30049F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityLodTemplate* a2)
+		static ::System::Void Method_3_A716431842D8A527(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityLodTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODTEMPLATE_METHOD_3_BB987BB6EB30049F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODTEMPLATE_METHOD_3_A716431842D8A527_OFFSET))(a1, a2);
 		}
 	};
 }

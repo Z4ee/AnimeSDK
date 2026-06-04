@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DiceCombatCampaignConfigRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA132300)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__GETPROGRESSSTAGEINFOLIST_B__0_OFFSET UNITYSDK_OFFSET(0xA132B80)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7AE150)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__GETPROGRESSSTAGEINFOLIST_B__0_OFFSET UNITYSDK_OFFSET(0xB7AE790)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatProgressData___c__DisplayClass2_0_TypeDefinitionIndex = 69841;
+	inline static constexpr unsigned int DiceCombatProgressData___c__DisplayClass2_0_TypeDefinitionIndex = 70653;
 
 	class DiceCombatProgressData___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetProgressStageInfoList_b__0(::RPG::GameCore::DiceCombatCampaignConfigRow* x)
+		::System::Boolean _GetProgressStageInfoList_b__0(::RPG::GameCore::DiceCombatCampaignConfigRow* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::DiceCombatCampaignConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__GETPROGRESSSTAGEINFOLIST_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::DiceCombatCampaignConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__GETPROGRESSSTAGEINFOLIST_B__0_OFFSET))(this, a1);
 		}
 	};
 }

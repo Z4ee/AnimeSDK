@@ -5,8 +5,8 @@
 namespace System { class EventArgs; }
 namespace System::Net { class WebConnection; }
 
-#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER_ABORT_OFFSET UNITYSDK_OFFSET(0x1A15ED20)
-#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A157810)
+#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER_ABORT_OFFSET UNITYSDK_OFFSET(0x1AFC1B50)
+#define SYSTEM_NET_WEBCONNECTION_ABORTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFBA350)
 
 namespace System::Net
 {
@@ -22,9 +22,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_ABORTHELPER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Abort(::System::Object* sender, ::System::EventArgs* args)
+		::System::Void Abort(::System::Object* a1, ::System::EventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::EventArgs*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_ABORTHELPER_ABORT_OFFSET))(this, sender, args);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::EventArgs*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_ABORTHELPER_ABORT_OFFSET))(this, a1, a2);
 		}
 	};
 }

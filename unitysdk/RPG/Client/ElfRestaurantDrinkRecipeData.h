@@ -4,13 +4,13 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA24DA90)
-#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_ISCOOKITEMENOUGH_OFFSET UNITYSDK_OFFSET(0xA24DED0)
-#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA24DEC0)
+#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB8D3950)
+#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_ISCOOKITEMENOUGH_OFFSET UNITYSDK_OFFSET(0xB8D3D80)
+#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB8D3D70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantDrinkRecipeData_TypeDefinitionIndex = 58732;
+	inline static constexpr unsigned int ElfRestaurantDrinkRecipeData_TypeDefinitionIndex = 59662;
 
 	class ElfRestaurantDrinkRecipeData : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ElfRestaurantDrinkRecipeData* Create(::System::Int32 level)
+		static ::RPG::Client::ElfRestaurantDrinkRecipeData* Create(::System::Int32 a1)
 		{
-			return ((::RPG::Client::ElfRestaurantDrinkRecipeData*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CREATE_OFFSET))(level);
+			return ((::RPG::Client::ElfRestaurantDrinkRecipeData*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CREATE_OFFSET))(a1);
 		}
 
 		::System::Boolean IsCookItemEnough()

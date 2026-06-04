@@ -8,7 +8,7 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdAssembly_TypeDefinitionIndex = 67877;
+	inline static constexpr unsigned int CrowdAssembly_TypeDefinitionIndex = 68835;
 
 	struct alignas(8) CrowdAssembly
 	{

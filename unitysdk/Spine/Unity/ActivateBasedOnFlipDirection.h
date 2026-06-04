@@ -9,16 +9,16 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class HingeJoint2D; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_COMPENSATEMOVEMENTAFTERFLIPX_OFFSET UNITYSDK_OFFSET(0x19E2BBD0)
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x19E2B8B0)
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_HANDLEFLIP_OFFSET UNITYSDK_OFFSET(0x19E2B9D0)
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_RESETJOINTPOSITIONS_OFFSET UNITYSDK_OFFSET(0x19E2BA70)
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_START_OFFSET UNITYSDK_OFFSET(0x19E2B7E0)
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2BD20)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_COMPENSATEMOVEMENTAFTERFLIPX_OFFSET UNITYSDK_OFFSET(0x1ACA6140)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1ACA5E30)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_HANDLEFLIP_OFFSET UNITYSDK_OFFSET(0x1ACA5F40)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_RESETJOINTPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1ACA5FE0)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_START_OFFSET UNITYSDK_OFFSET(0x1ACA5D40)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACA6290)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int ActivateBasedOnFlipDirection_TypeDefinitionIndex = 40611;
+	inline static constexpr unsigned int ActivateBasedOnFlipDirection_TypeDefinitionIndex = 41438;
 
 	class ActivateBasedOnFlipDirection : public ::UnityEngine::MonoBehaviour
 	{
@@ -47,19 +47,19 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_FIXEDUPDATE_OFFSET))(this);
 		}
 
-		::System::Void HandleFlip(::System::Boolean isFlippedX)
+		::System::Void HandleFlip(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_HANDLEFLIP_OFFSET))(this, isFlippedX);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_HANDLEFLIP_OFFSET))(this, a1);
 		}
 
-		::System::Void ResetJointPositions(::Il2CppArray<::UnityEngine::HingeJoint2D*>* joints)
+		::System::Void ResetJointPositions(::Il2CppArray<::UnityEngine::HingeJoint2D*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::HingeJoint2D*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_RESETJOINTPOSITIONS_OFFSET))(this, joints);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::HingeJoint2D*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_RESETJOINTPOSITIONS_OFFSET))(this, a1);
 		}
 
-		::System::Void CompensateMovementAfterFlipX(::UnityEngine::Transform* toActivate, ::UnityEngine::Transform* toDeactivate)
+		::System::Void CompensateMovementAfterFlipX(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_COMPENSATEMOVEMENTAFTERFLIPX_OFFSET))(this, toActivate, toDeactivate);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_COMPENSATEMOVEMENTAFTERFLIPX_OFFSET))(this, a1, a2);
 		}
 	};
 }

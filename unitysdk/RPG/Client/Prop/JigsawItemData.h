@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/Prop/JigsawItemDirection.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_JIGSAWITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAE2E8A0)
+#define RPG_CLIENT_PROP_JIGSAWITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC575440)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawItemData_TypeDefinitionIndex = 72143;
+	inline static constexpr unsigned int JigsawItemData_TypeDefinitionIndex = 73165;
 
 	class JigsawItemData : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::Prop
 		::System::Boolean isInBoard; // 0x29
 		::System::Boolean isInUIDragging; // 0x2A
 
-		::System::Void _ctor(::System::Int32 ix, ::System::Int32 iy, ::System::Int32 itype, ::RPG::Client::Prop::JigsawItemDirection idirection, ::RPG::Client::Prop::JigsawItemDirection initDir)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::RPG::Client::Prop::JigsawItemDirection a4, ::RPG::Client::Prop::JigsawItemDirection a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::RPG::Client::Prop::JigsawItemDirection, ::RPG::Client::Prop::JigsawItemDirection))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWITEMDATA__CTOR_OFFSET))(this, ix, iy, itype, idirection, initDir);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::RPG::Client::Prop::JigsawItemDirection, ::RPG::Client::Prop::JigsawItemDirection))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWITEMDATA__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

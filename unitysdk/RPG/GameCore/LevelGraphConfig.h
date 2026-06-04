@@ -14,16 +14,16 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELGRAPHCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A42C20)
-#define RPG_GAMECORE_LEVELGRAPHCONFIG_GETALLTASK_OFFSET UNITYSDK_OFFSET(0x18A42E40)
-#define RPG_GAMECORE_LEVELGRAPHCONFIG_GETOBJECTCHILDTASK_OFFSET UNITYSDK_OFFSET(0x18A42E90)
-#define RPG_GAMECORE_LEVELGRAPHCONFIG_TRYADDSHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x18A431E0)
-#define RPG_GAMECORE_LEVELGRAPHCONFIG_TRYREMOVESHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x18A433A0)
-#define RPG_GAMECORE_LEVELGRAPHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A42E30)
+#define RPG_GAMECORE_LEVELGRAPHCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19874B80)
+#define RPG_GAMECORE_LEVELGRAPHCONFIG_GETALLTASK_OFFSET UNITYSDK_OFFSET(0x19874D90)
+#define RPG_GAMECORE_LEVELGRAPHCONFIG_GETOBJECTCHILDTASK_OFFSET UNITYSDK_OFFSET(0x19874DE0)
+#define RPG_GAMECORE_LEVELGRAPHCONFIG_TRYADDSHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x19875190)
+#define RPG_GAMECORE_LEVELGRAPHCONFIG_TRYREMOVESHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x19875350)
+#define RPG_GAMECORE_LEVELGRAPHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19874D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGraphConfig_TypeDefinitionIndex = 17403;
+	inline static constexpr unsigned int LevelGraphConfig_TypeDefinitionIndex = 17408;
 
 	class LevelGraphConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -39,29 +39,29 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelGraphConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGraphConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGraphConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGraphConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::GameCore::TaskConfig*>* GetAllTask(::RPG::GameCore::LevelGraphConfig* config)
+		static ::System::Collections::Generic::List_1<::RPG::GameCore::TaskConfig*>* GetAllTask(::RPG::GameCore::LevelGraphConfig* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::GameCore::TaskConfig*>*(*)(::RPG::GameCore::LevelGraphConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHCONFIG_GETALLTASK_OFFSET))(config);
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::TaskConfig*>*(*)(::RPG::GameCore::LevelGraphConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHCONFIG_GETALLTASK_OFFSET))(a1);
 		}
 
-		static ::System::Void GetObjectChildTask(::System::Object* obj, ::System::Collections::Generic::List_1<::RPG::GameCore::TaskConfig*>*& results)
+		static ::System::Void GetObjectChildTask(::System::Object* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::TaskConfig*>*& a2)
 		{
-			return ((::System::Void(*)(::System::Object*, ::System::Collections::Generic::List_1<::RPG::GameCore::TaskConfig*>*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHCONFIG_GETOBJECTCHILDTASK_OFFSET))(obj, results);
+			return ((::System::Void(*)(::System::Object*, ::System::Collections::Generic::List_1<::RPG::GameCore::TaskConfig*>*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHCONFIG_GETOBJECTCHILDTASK_OFFSET))(a1, a2);
 		}
 
-		::System::Void TryAddSharedValue(::RPG::GameCore::SharedValueType valueType, ::System::String* key)
+		::System::Void TryAddSharedValue(::RPG::GameCore::SharedValueType a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SharedValueType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHCONFIG_TRYADDSHAREDVALUE_OFFSET))(this, valueType, key);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SharedValueType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHCONFIG_TRYADDSHAREDVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void TryRemoveSharedValue(::System::String* key)
+		::System::Void TryRemoveSharedValue(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHCONFIG_TRYREMOVESHAREDVALUE_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHCONFIG_TRYREMOVESHAREDVALUE_OFFSET))(this, a1);
 		}
 	};
 }

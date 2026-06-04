@@ -1,10 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/ReadOnlySpan_1.h"
 
-#define CLASS_1_43BD383C98B4C0C5_3__CTOR_OFFSET UNITYSDK_OFFSET(0x19D67950)
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_3_TypeDefinitionIndex = 9616;
+#define CLASS_1_43BD383C98B4C0C5_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1918A730)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_3_TypeDefinitionIndex = 10393;
 
 class Class_1_43BD383C98B4C0C5_3 : public ::System::Object
 {

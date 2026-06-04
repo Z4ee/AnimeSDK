@@ -3,22 +3,22 @@
 #include "unitysdk/Newtonsoft/Json/Bson/BsonType.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_BSON_BSONREADER_CONTAINERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17A56400)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_CONTAINERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x188051E0)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonReader_ContainerContext_TypeDefinitionIndex = 8598;
+	inline static constexpr unsigned int BsonReader_ContainerContext_TypeDefinitionIndex = 9501;
 
 	class BsonReader_ContainerContext : public ::System::Object
 	{
 	public:
-		::System::Int32 Position; // 0x10
+		::Newtonsoft::Json::Bson::BsonType Type; // 0x10
 		::System::Int32 Length; // 0x14
-		::Newtonsoft::Json::Bson::BsonType Type; // 0x18
+		::System::Int32 Position; // 0x18
 
-		::System::Void _ctor(::Newtonsoft::Json::Bson::BsonType type)
+		::System::Void _ctor(::Newtonsoft::Json::Bson::BsonType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Bson::BsonType))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONREADER_CONTAINERCONTEXT__CTOR_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Bson::BsonType))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONREADER_CONTAINERCONTEXT__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

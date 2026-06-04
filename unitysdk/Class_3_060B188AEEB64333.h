@@ -3,23 +3,23 @@
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class SwitchCaseByAttackDamageType; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_060B188AEEB64333_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA06DCA0)
-#define CLASS_3_060B188AEEB64333_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA06DE80)
-#define CLASS_3_060B188AEEB64333__CTOR_OFFSET UNITYSDK_OFFSET(0xA06DA40)
-#define CLASS_3_060B188AEEB64333___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA06E220)
+#define CLASS_3_060B188AEEB64333_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1422F6D0)
+#define CLASS_3_060B188AEEB64333_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1422F890)
+#define CLASS_3_060B188AEEB64333__CTOR_OFFSET UNITYSDK_OFFSET(0x1422F470)
+#define CLASS_3_060B188AEEB64333___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1422FC20)
 
-inline static constexpr unsigned int Class_3_060B188AEEB64333_TypeDefinitionIndex = 51333;
+inline static constexpr unsigned int Class_3_060B188AEEB64333_TypeDefinitionIndex = 52001;
 
 class Class_3_060B188AEEB64333 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchCaseByAttackDamageType*>
 {
 public:
-	::Class_3_E21F6DE9B7FA4D05* Field_3_1; // 0x28
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::Class_3_E21F6DE9B7FA4D05*>* Field_3_0; // 0x30
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::Class_3_07C3C4D2990C49EE*>* Field_3_0; // 0x28
+	::Class_3_07C3C4D2990C49EE* Field_3_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchCaseByAttackDamageType* a2)
 	{

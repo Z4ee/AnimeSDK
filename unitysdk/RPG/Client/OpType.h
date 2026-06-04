@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OpType_TypeDefinitionIndex = 37673;
+	inline static constexpr unsigned int OpType_TypeDefinitionIndex = 38405;
 
 	enum class OpType : ::System::Int32
 	{

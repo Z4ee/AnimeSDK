@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Console::OS { class AgeGateManager; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalPermissionDialog; }
 
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17453DE0)
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS42_0__ONRESENDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x17455730)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182553F0)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS42_0__ONRESENDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x18256D20)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass42_0_TypeDefinitionIndex = 7820;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass42_0_TypeDefinitionIndex = 8723;
 
 	class AgeGateManager___c__DisplayClass42_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MiHoYo::SDK::Console::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS42_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnResendEmail_b__0(::MiHoYo::SDK::NetworkResponseModelEx* response)
+		::System::Void _OnResendEmail_b__0(::MiHoYo::SDK::NetworkResponseModelEx* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS42_0__ONRESENDEMAIL_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS42_0__ONRESENDEMAIL_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,24 +5,24 @@
 namespace RPG::Client { class FateExpRewardLevelDataItem; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FATEEXPREWARDINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA33A570)
-#define RPG_CLIENT_FATEEXPREWARDINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA33A5A0)
-#define RPG_CLIENT_FATEEXPREWARDINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xA33A5B0)
+#define RPG_CLIENT_FATEEXPREWARDINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB98BC40)
+#define RPG_CLIENT_FATEEXPREWARDINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB98BC70)
+#define RPG_CLIENT_FATEEXPREWARDINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xB98BC80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateExpRewardInfo___c_TypeDefinitionIndex = 58881;
+	inline static constexpr unsigned int FateExpRewardInfo___c_TypeDefinitionIndex = 59811;
 
 	class FateExpRewardInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FateExpRewardInfo___c** StaticGet___9()
-		{
-			return (::RPG::Client::FateExpRewardInfo___c**)Il2CppClass::FromTypeDefinitionIndex(FateExpRewardInfo___c_TypeDefinitionIndex)->GetStaticField(0xB5C0);
-		}
 		static ::System::Comparison_1<::RPG::Client::FateExpRewardLevelDataItem*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::FateExpRewardLevelDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(FateExpRewardInfo___c_TypeDefinitionIndex)->GetStaticField(0xB5C8);
+			return (::System::Comparison_1<::RPG::Client::FateExpRewardLevelDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(FateExpRewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x17780);
+		}
+		static ::RPG::Client::FateExpRewardInfo___c** StaticGet___9()
+		{
+			return (::RPG::Client::FateExpRewardInfo___c**)Il2CppClass::FromTypeDefinitionIndex(FateExpRewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x17788);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDINFO___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _Init_b__1_0(::RPG::Client::FateExpRewardLevelDataItem* a, ::RPG::Client::FateExpRewardLevelDataItem* b)
+		::System::Int32 _Init_b__1_0(::RPG::Client::FateExpRewardLevelDataItem* a1, ::RPG::Client::FateExpRewardLevelDataItem* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::FateExpRewardLevelDataItem*, ::RPG::Client::FateExpRewardLevelDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDINFO___C__INIT_B__1_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::FateExpRewardLevelDataItem*, ::RPG::Client::FateExpRewardLevelDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEEXPREWARDINFO___C__INIT_B__1_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

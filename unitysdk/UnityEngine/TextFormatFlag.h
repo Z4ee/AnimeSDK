@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextFormatFlag_TypeDefinitionIndex = 4956;
+	inline static constexpr unsigned int TextFormatFlag_TypeDefinitionIndex = 5034;
 
 	struct alignas(4) TextFormatFlag
 	{

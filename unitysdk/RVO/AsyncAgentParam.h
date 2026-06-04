@@ -5,7 +5,7 @@
 
 namespace RVO
 {
-	inline static constexpr unsigned int AsyncAgentParam_TypeDefinitionIndex = 41052;
+	inline static constexpr unsigned int AsyncAgentParam_TypeDefinitionIndex = 41855;
 
 	struct alignas(4) AsyncAgentParam
 	{

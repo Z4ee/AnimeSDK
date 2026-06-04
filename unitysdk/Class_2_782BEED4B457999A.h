@@ -4,10 +4,10 @@
 
 namespace System { class Action; }
 
-#define CLASS_2_782BEED4B457999A_METHOD_2_9A6DA36CCAE7D188_OFFSET UNITYSDK_OFFSET(0x9A20A20)
-#define CLASS_2_782BEED4B457999A__CTOR_OFFSET UNITYSDK_OFFSET(0x9A209C0)
+#define CLASS_2_782BEED4B457999A_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB786940)
+#define CLASS_2_782BEED4B457999A__CTOR_OFFSET UNITYSDK_OFFSET(0xB7868E0)
 
-inline static constexpr unsigned int Class_2_782BEED4B457999A_TypeDefinitionIndex = 56388;
+inline static constexpr unsigned int Class_2_782BEED4B457999A_TypeDefinitionIndex = 57150;
 
 class Class_2_782BEED4B457999A : public ::System::Exception
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_2_782BEED4B457999A__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_9A6DA36CCAE7D188()
+	::System::Void Method_2_4343F372F34C05BF()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_782BEED4B457999A_METHOD_2_9A6DA36CCAE7D188_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_782BEED4B457999A_METHOD_2_4343F372F34C05BF_OFFSET))(this);
 	}
 };

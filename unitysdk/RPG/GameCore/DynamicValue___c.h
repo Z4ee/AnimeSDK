@@ -4,20 +4,20 @@
 
 namespace System::Text { class StringBuilder; }
 
-#define RPG_GAMECORE_DYNAMICVALUE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18894B50)
-#define RPG_GAMECORE_DYNAMICVALUE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18894B80)
-#define RPG_GAMECORE_DYNAMICVALUE___C___CCTOR_B__80_0_OFFSET UNITYSDK_OFFSET(0x18894B90)
+#define RPG_GAMECORE_DYNAMICVALUE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x196D1A40)
+#define RPG_GAMECORE_DYNAMICVALUE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x196D1A70)
+#define RPG_GAMECORE_DYNAMICVALUE___C___CCTOR_B__80_0_OFFSET UNITYSDK_OFFSET(0x196D1A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicValue___c_TypeDefinitionIndex = 23560;
+	inline static constexpr unsigned int DynamicValue___c_TypeDefinitionIndex = 10435;
 
 	class DynamicValue___c : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::DynamicValue___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::DynamicValue___c**)Il2CppClass::FromTypeDefinitionIndex(DynamicValue___c_TypeDefinitionIndex)->GetStaticField(0x34690);
+			return (::RPG::GameCore::DynamicValue___c**)Il2CppClass::FromTypeDefinitionIndex(DynamicValue___c_TypeDefinitionIndex)->GetStaticField(0x13F90);
 		}
 
 		static ::System::Void _cctor()

@@ -7,9 +7,9 @@ namespace RPG::Client { class CameraModuleConfigCollection; }
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
-#define CLASS_3_556E9C29895B365A__CTOR_OFFSET UNITYSDK_OFFSET(0x91C8280)
+#define CLASS_3_556E9C29895B365A__CTOR_OFFSET UNITYSDK_OFFSET(0xA721E20)
 
-inline static constexpr unsigned int Class_3_556E9C29895B365A_TypeDefinitionIndex = 64271;
+inline static constexpr unsigned int Class_3_556E9C29895B365A_TypeDefinitionIndex = 65192;
 
 class Class_3_556E9C29895B365A : public ::Class_2_5BE5E19C57698C00
 {

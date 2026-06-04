@@ -8,39 +8,39 @@ namespace RPG::Client { class MessageGroupData; }
 namespace RPG::Client { class MessageSectionData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PHONENOTICEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xAC5FF70)
-#define RPG_CLIENT_PHONENOTICEDATA_GETMISSIONPRIORITY_OFFSET UNITYSDK_OFFSET(0xAC60320)
-#define RPG_CLIENT_PHONENOTICEDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xAC60190)
-#define RPG_CLIENT_PHONENOTICEDATA_GET_HASBATTLE_OFFSET UNITYSDK_OFFSET(0xAC60250)
-#define RPG_CLIENT_PHONENOTICEDATA_GET_HASLINKMISSION_OFFSET UNITYSDK_OFFSET(0xAC602F0)
-#define RPG_CLIENT_PHONENOTICEDATA_GET_ICON_OFFSET UNITYSDK_OFFSET(0xAC601B0)
-#define RPG_CLIENT_PHONENOTICEDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xAC60100)
-#define RPG_CLIENT_PHONENOTICEDATA_GET_ISEND_OFFSET UNITYSDK_OFFSET(0xAC60290)
-#define RPG_CLIENT_PHONENOTICEDATA_GET_ISWAITINGCHOOSE_OFFSET UNITYSDK_OFFSET(0xAC60210)
-#define RPG_CLIENT_PHONENOTICEDATA_GET_LASTTIME_OFFSET UNITYSDK_OFFSET(0xAC60230)
-#define RPG_CLIENT_PHONENOTICEDATA_GET_LINKMISSIONID_OFFSET UNITYSDK_OFFSET(0xAC60270)
-#define RPG_CLIENT_PHONENOTICEDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xAC60120)
-#define RPG_CLIENT_PHONENOTICEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAC600F0)
+#define RPG_CLIENT_PHONENOTICEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC371CE0)
+#define RPG_CLIENT_PHONENOTICEDATA_GETMISSIONPRIORITY_OFFSET UNITYSDK_OFFSET(0xC372060)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xC371ED0)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_HASBATTLE_OFFSET UNITYSDK_OFFSET(0xC371F90)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_HASLINKMISSION_OFFSET UNITYSDK_OFFSET(0xC372030)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_ICON_OFFSET UNITYSDK_OFFSET(0xC371EF0)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xC371E30)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_ISEND_OFFSET UNITYSDK_OFFSET(0xC371FD0)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_ISWAITINGCHOOSE_OFFSET UNITYSDK_OFFSET(0xC371F50)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_LASTTIME_OFFSET UNITYSDK_OFFSET(0xC371F70)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_LINKMISSIONID_OFFSET UNITYSDK_OFFSET(0xC371FB0)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC371E50)
+#define RPG_CLIENT_PHONENOTICEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC371E20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhoneNoticeData_TypeDefinitionIndex = 60844;
+	inline static constexpr unsigned int PhoneNoticeData_TypeDefinitionIndex = 61778;
 
 	class PhoneNoticeData : public ::System::Object
 	{
 	public:
 		::RPG::Client::MessageContactData* _ContactData; // 0x10
-		::RPG::Client::MessageSectionData* _SectionData; // 0x18
-		::RPG::Client::MessageGroupData* _GroupData; // 0x20
+		::RPG::Client::MessageGroupData* _GroupData; // 0x18
+		::RPG::Client::MessageSectionData* _SectionData; // 0x20
 
-		::System::Void _ctor(::RPG::Client::MessageContactData* contactData, ::RPG::Client::MessageGroupData* groupData, ::RPG::Client::MessageSectionData* sectionData)
+		::System::Void _ctor(::RPG::Client::MessageContactData* a1, ::RPG::Client::MessageGroupData* a2, ::RPG::Client::MessageSectionData* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MessageContactData*, ::RPG::Client::MessageGroupData*, ::RPG::Client::MessageSectionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA__CTOR_OFFSET))(this, contactData, groupData, sectionData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MessageContactData*, ::RPG::Client::MessageGroupData*, ::RPG::Client::MessageSectionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::RPG::Client::PhoneNoticeData* Create(::RPG::Client::MessageContactData* contactData, ::System::UInt32 groupID)
+		static ::RPG::Client::PhoneNoticeData* Create(::RPG::Client::MessageContactData* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::PhoneNoticeData*(*)(::RPG::Client::MessageContactData*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_CREATE_OFFSET))(contactData, groupID);
+			return ((::RPG::Client::PhoneNoticeData*(*)(::RPG::Client::MessageContactData*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::UInt32 get_ID()

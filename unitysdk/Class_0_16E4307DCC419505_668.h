@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RPG::Client { class IAvatarInfoProvider; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_668_TypeDefinitionIndex = 57725;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_668_TypeDefinitionIndex = 58313;
 
 class Class_0_16E4307DCC419505_668
 {

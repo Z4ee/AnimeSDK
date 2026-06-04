@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraBattleWaitEvent; }
 
-#define RPG_GAMECORE_CHIMERAEVENTHANDLERS_METHOD_2_7BB55F882C8C131F_OFFSET UNITYSDK_OFFSET(0x18808640)
-#define RPG_GAMECORE_CHIMERAEVENTHANDLERS__CTOR_OFFSET UNITYSDK_OFFSET(0x18808740)
+#define RPG_GAMECORE_CHIMERAEVENTHANDLERS_METHOD_2_4B4A4E35DEF82F6A_OFFSET UNITYSDK_OFFSET(0x19635C30)
+#define RPG_GAMECORE_CHIMERAEVENTHANDLERS__CTOR_OFFSET UNITYSDK_OFFSET(0x19649E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraEventHandlers_TypeDefinitionIndex = 15010;
+	inline static constexpr unsigned int ChimeraEventHandlers_TypeDefinitionIndex = 15073;
 
 	class ChimeraEventHandlers : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAEVENTHANDLERS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7BB55F882C8C131F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraEventHandlers*& a2)
+		static ::System::Void Method_2_4B4A4E35DEF82F6A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraEventHandlers*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraEventHandlers*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAEVENTHANDLERS_METHOD_2_7BB55F882C8C131F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraEventHandlers*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAEVENTHANDLERS_METHOD_2_4B4A4E35DEF82F6A_OFFSET))(a1, a2);
 		}
 	};
 }

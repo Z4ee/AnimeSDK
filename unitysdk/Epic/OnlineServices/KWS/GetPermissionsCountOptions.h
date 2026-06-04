@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_KWS_GETPERMISSIONSCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E90840)
-#define EPIC_ONLINESERVICES_KWS_GETPERMISSIONSCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E90850)
-#define EPIC_ONLINESERVICES_KWS_GETPERMISSIONSCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E90860)
+#define EPIC_ONLINESERVICES_KWS_GETPERMISSIONSCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2CF670)
+#define EPIC_ONLINESERVICES_KWS_GETPERMISSIONSCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2CF680)
+#define EPIC_ONLINESERVICES_KWS_GETPERMISSIONSCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2CF690)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int GetPermissionsCountOptions_TypeDefinitionIndex = 42060;
+	inline static constexpr unsigned int GetPermissionsCountOptions_TypeDefinitionIndex = 42863;
 
 	class GetPermissionsCountOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_GETPERMISSIONSCOUNTOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_GETPERMISSIONSCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_GETPERMISSIONSCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

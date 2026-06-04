@@ -3,7 +3,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadPriority_TypeDefinitionIndex = 863;
+	inline static constexpr unsigned int ThreadPriority_TypeDefinitionIndex = 862;
 
 	enum class ThreadPriority : ::System::Int32
 	{

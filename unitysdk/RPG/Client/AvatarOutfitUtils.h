@@ -5,30 +5,30 @@
 namespace RPG::Client { class AvatarOutfitUnit; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATAROUTFITUTILS_FILLNEWPLAYEROUTFITUNITS_OFFSET UNITYSDK_OFFSET(0x9DB23D0)
-#define RPG_CLIENT_AVATAROUTFITUTILS_GETAVATAROUTFITUNITBYITEMID_OFFSET UNITYSDK_OFFSET(0x9DB21F0)
-#define RPG_CLIENT_AVATAROUTFITUTILS_GETINTRODUCEIDBYITEMID_OFFSET UNITYSDK_OFFSET(0x9DB22B0)
+#define RPG_CLIENT_AVATAROUTFITUTILS_FILLNEWPLAYEROUTFITUNITS_OFFSET UNITYSDK_OFFSET(0xB38DF70)
+#define RPG_CLIENT_AVATAROUTFITUTILS_GETAVATAROUTFITUNITBYITEMID_OFFSET UNITYSDK_OFFSET(0xB38DD90)
+#define RPG_CLIENT_AVATAROUTFITUTILS_GETINTRODUCEIDBYITEMID_OFFSET UNITYSDK_OFFSET(0xB38DE50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarOutfitUtils_TypeDefinitionIndex = 57683;
+	inline static constexpr unsigned int AvatarOutfitUtils_TypeDefinitionIndex = 58473;
 
 	class AvatarOutfitUtils : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::AvatarOutfitUnit* GetAvatarOutfitUnitByItemID(::System::UInt32 itemID)
+		static ::RPG::Client::AvatarOutfitUnit* GetAvatarOutfitUnitByItemID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::AvatarOutfitUnit*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITUTILS_GETAVATAROUTFITUNITBYITEMID_OFFSET))(itemID);
+			return ((::RPG::Client::AvatarOutfitUnit*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITUTILS_GETAVATAROUTFITUNITBYITEMID_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetIntroduceIDByItemID(::System::UInt32 itemID)
+		static ::System::UInt32 GetIntroduceIDByItemID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITUTILS_GETINTRODUCEIDBYITEMID_OFFSET))(itemID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITUTILS_GETINTRODUCEIDBYITEMID_OFFSET))(a1);
 		}
 
-		static ::System::Void FillNewPlayerOutfitUnits(::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>* buffer)
+		static ::System::Void FillNewPlayerOutfitUnits(::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITUTILS_FILLNEWPLAYEROUTFITUNITS_OFFSET))(buffer);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITUTILS_FILLNEWPLAYEROUTFITUNITS_OFFSET))(a1);
 		}
 	};
 }

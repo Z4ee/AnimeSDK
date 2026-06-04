@@ -5,12 +5,12 @@
 namespace RPG::Client { class PlanetFesActiveBuff; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAD36820)
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS48_0___FINDACTIVEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xAD36830)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC4741D0)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS48_0___FINDACTIVEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xC4741E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass48_0_TypeDefinitionIndex = 61414;
+	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass48_0_TypeDefinitionIndex = 62338;
 
 	class PlanetFesModule___c__DisplayClass48_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS48_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __FindActiveBuff_b__0(::RPG::Client::PlanetFesActiveBuff* activeBuff)
+		::System::Boolean __FindActiveBuff_b__0(::RPG::Client::PlanetFesActiveBuff* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesActiveBuff*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS48_0___FINDACTIVEBUFF_B__0_OFFSET))(this, activeBuff);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesActiveBuff*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS48_0___FINDACTIVEBUFF_B__0_OFFSET))(this, a1);
 		}
 	};
 }

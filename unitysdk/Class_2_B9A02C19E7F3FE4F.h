@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_3E663F02593BDAF0.h"
 
-class Class_2_3ABA989E5AECB261;
+class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B9A02C19E7F3FE4F_METHOD_2_59832C27C4984D7D_OFFSET UNITYSDK_OFFSET(0x17CD8050)
-#define CLASS_2_B9A02C19E7F3FE4F__CTOR_OFFSET UNITYSDK_OFFSET(0x17CD7F90)
+#define CLASS_2_B9A02C19E7F3FE4F_METHOD_2_52D7E18109C63A75_OFFSET UNITYSDK_OFFSET(0x18A00C50)
+#define CLASS_2_B9A02C19E7F3FE4F__CTOR_OFFSET UNITYSDK_OFFSET(0x18A00B90)
 
-inline static constexpr unsigned int Class_2_B9A02C19E7F3FE4F_TypeDefinitionIndex = 34815;
+inline static constexpr unsigned int Class_2_B9A02C19E7F3FE4F_TypeDefinitionIndex = 35098;
 
 class Class_2_B9A02C19E7F3FE4F : public ::Class_1_3E663F02593BDAF0
 {
 public:
-	::Class_2_3ABA989E5AECB261* Field_2_0; // 0x20
-	::System::Collections::Generic::List_1<::Class_2_3ABA989E5AECB261*>* Field_2_3; // 0x28
-	::System::UInt32 Field_2_1; // 0x30
-	::System::UInt32 Field_2_2; // 0x34
+	::Class_2_21AD365C113DC484* Field_2_0; // 0x20
+	::System::Collections::Generic::List_1<::Class_2_21AD365C113DC484*>* Field_2_1; // 0x28
+	::System::UInt32 Field_2_2; // 0x30
+	::System::UInt32 Field_2_3; // 0x34
 
-	::System::Void _ctor(::Class_2_3ABA989E5AECB261* a1, ::Class_2_F3C45F1FC7349B6E* a2, ::System::UInt32 a3, ::System::UInt32 a4)
+	::System::Void _ctor(::Class_2_21AD365C113DC484* a1, ::Class_2_F3C45F1FC7349B6E* a2, ::System::UInt32 a3, ::System::UInt32 a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_3ABA989E5AECB261*, ::Class_2_F3C45F1FC7349B6E*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_B9A02C19E7F3FE4F__CTOR_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::Class_2_21AD365C113DC484*, ::Class_2_F3C45F1FC7349B6E*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_B9A02C19E7F3FE4F__CTOR_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Collections::Generic::IReadOnlyList_1<::Class_2_3ABA989E5AECB261*>* Method_2_59832C27C4984D7D()
+	::System::Collections::Generic::IReadOnlyList_1<::Class_2_21AD365C113DC484*>* Method_2_52D7E18109C63A75()
 	{
-		return ((::System::Collections::Generic::IReadOnlyList_1<::Class_2_3ABA989E5AECB261*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B9A02C19E7F3FE4F_METHOD_2_59832C27C4984D7D_OFFSET))(this);
+		return ((::System::Collections::Generic::IReadOnlyList_1<::Class_2_21AD365C113DC484*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B9A02C19E7F3FE4F_METHOD_2_52D7E18109C63A75_OFFSET))(this);
 	}
 };

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_WAITFLOORCUSTOMVALUECHANGE_METHOD_4_36CE7E2AB5911912_OFFSET UNITYSDK_OFFSET(0x190FD200)
-#define RPG_GAMECORE_WAITFLOORCUSTOMVALUECHANGE_METHOD_4_AED24A8FAE88658C_OFFSET UNITYSDK_OFFSET(0x190FD2E0)
-#define RPG_GAMECORE_WAITFLOORCUSTOMVALUECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x190FD280)
+#define RPG_GAMECORE_WAITFLOORCUSTOMVALUECHANGE_METHOD_4_1D0EA36B25BB50CE_OFFSET UNITYSDK_OFFSET(0x19E55CD0)
+#define RPG_GAMECORE_WAITFLOORCUSTOMVALUECHANGE_METHOD_4_D345C4931DCBAD10_OFFSET UNITYSDK_OFFSET(0x19E55BF0)
+#define RPG_GAMECORE_WAITFLOORCUSTOMVALUECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E55C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitFloorCustomValueChange_TypeDefinitionIndex = 19672;
+	inline static constexpr unsigned int WaitFloorCustomValueChange_TypeDefinitionIndex = 19552;
 
 	class WaitFloorCustomValueChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFLOORCUSTOMVALUECHANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_36CE7E2AB5911912(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFloorCustomValueChange*& a2)
+		static ::System::Void Method_4_D345C4931DCBAD10(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFloorCustomValueChange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFloorCustomValueChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFLOORCUSTOMVALUECHANGE_METHOD_4_36CE7E2AB5911912_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFloorCustomValueChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFLOORCUSTOMVALUECHANGE_METHOD_4_D345C4931DCBAD10_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AED24A8FAE88658C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFloorCustomValueChange* a2)
+		static ::System::Void Method_4_1D0EA36B25BB50CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFloorCustomValueChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFloorCustomValueChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFLOORCUSTOMVALUECHANGE_METHOD_4_AED24A8FAE88658C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFloorCustomValueChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFLOORCUSTOMVALUECHANGE_METHOD_4_1D0EA36B25BB50CE_OFFSET))(a1, a2);
 		}
 	};
 }

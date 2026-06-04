@@ -9,44 +9,44 @@ namespace RPG::Client { class CakeRaceParticipantData; }
 namespace RPG::Client { class LobbyMemberData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACELOBBY_CHANGESELFSTATE_OFFSET UNITYSDK_OFFSET(0x9F09150)
-#define RPG_CLIENT_CAKERACELOBBY_GET_FIELDDATA_OFFSET UNITYSDK_OFFSET(0x9F09550)
-#define RPG_CLIENT_CAKERACELOBBY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x9F09570)
-#define RPG_CLIENT_CAKERACELOBBY_GET_LEADERPARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0x9F09500)
-#define RPG_CLIENT_CAKERACELOBBY_GET_PARTICIPANTS_OFFSET UNITYSDK_OFFSET(0x9F09540)
-#define RPG_CLIENT_CAKERACELOBBY_GET_SELFPARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0x9F09520)
-#define RPG_CLIENT_CAKERACELOBBY_SET_FIELDDATA_OFFSET UNITYSDK_OFFSET(0x9F09560)
-#define RPG_CLIENT_CAKERACELOBBY_SET_LEADERPARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0x9F09510)
-#define RPG_CLIENT_CAKERACELOBBY_SET_SELFPARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0x9F09530)
-#define RPG_CLIENT_CAKERACELOBBY_STARTMATCH_OFFSET UNITYSDK_OFFSET(0x9F090F0)
-#define RPG_CLIENT_CAKERACELOBBY__CTOR_OFFSET UNITYSDK_OFFSET(0x9F09630)
-#define RPG_CLIENT_CAKERACELOBBY__GETMEMBERSBYLOBBYSTATE_OFFSET UNITYSDK_OFFSET(0x9F091C0)
-#define RPG_CLIENT_CAKERACELOBBY__ISINMATCHEDSTATE_OFFSET UNITYSDK_OFFSET(0x9F094B0)
-#define RPG_CLIENT_CAKERACELOBBY__ONINIT_OFFSET UNITYSDK_OFFSET(0x9F08990)
-#define RPG_CLIENT_CAKERACELOBBY__ONMATCHRESULTMEMBERSCHANGE_OFFSET UNITYSDK_OFFSET(0x9F09050)
-#define RPG_CLIENT_CAKERACELOBBY__ONMEMBERCHANGE_OFFSET UNITYSDK_OFFSET(0x9F08B80)
-#define RPG_CLIENT_CAKERACELOBBY__ONROOMINIT_OFFSET UNITYSDK_OFFSET(0x9F089F0)
-#define RPG_CLIENT_CAKERACELOBBY__ONSTATECHANGED_OFFSET UNITYSDK_OFFSET(0x9F090A0)
-#define RPG_CLIENT_CAKERACELOBBY__SORTPARTICIPANTS_OFFSET UNITYSDK_OFFSET(0x9F093B0)
-#define RPG_CLIENT_CAKERACELOBBY__SYNCPARTICIPANTS_OFFSET UNITYSDK_OFFSET(0x9F08BD0)
-#define RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONINIT_OFFSET UNITYSDK_OFFSET(0x9F096E0)
-#define RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONMATCHRESULTMEMBERSCHANGE_OFFSET UNITYSDK_OFFSET(0x9F09820)
-#define RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONMEMBERCHANGE_OFFSET UNITYSDK_OFFSET(0x9F097C0)
-#define RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONROOMINIT_OFFSET UNITYSDK_OFFSET(0x9F09750)
-#define RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONSTATECHANGED_OFFSET UNITYSDK_OFFSET(0x9F09880)
-#define RPG_CLIENT_CAKERACELOBBY___SORTPARTICIPANTS_B__8_0_OFFSET UNITYSDK_OFFSET(0x9F09690)
+#define RPG_CLIENT_CAKERACELOBBY_CHANGESELFSTATE_OFFSET UNITYSDK_OFFSET(0xB4A5240)
+#define RPG_CLIENT_CAKERACELOBBY_GET_FIELDDATA_OFFSET UNITYSDK_OFFSET(0xB4A5650)
+#define RPG_CLIENT_CAKERACELOBBY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB4A5670)
+#define RPG_CLIENT_CAKERACELOBBY_GET_LEADERPARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0xB4A5600)
+#define RPG_CLIENT_CAKERACELOBBY_GET_PARTICIPANTS_OFFSET UNITYSDK_OFFSET(0xB4A5640)
+#define RPG_CLIENT_CAKERACELOBBY_GET_SELFPARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0xB4A5620)
+#define RPG_CLIENT_CAKERACELOBBY_SET_FIELDDATA_OFFSET UNITYSDK_OFFSET(0xB4A5660)
+#define RPG_CLIENT_CAKERACELOBBY_SET_LEADERPARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0xB4A5610)
+#define RPG_CLIENT_CAKERACELOBBY_SET_SELFPARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0xB4A5630)
+#define RPG_CLIENT_CAKERACELOBBY_STARTMATCH_OFFSET UNITYSDK_OFFSET(0xB4A51E0)
+#define RPG_CLIENT_CAKERACELOBBY__CTOR_OFFSET UNITYSDK_OFFSET(0xB4A5730)
+#define RPG_CLIENT_CAKERACELOBBY__GETMEMBERSBYLOBBYSTATE_OFFSET UNITYSDK_OFFSET(0xB4A52B0)
+#define RPG_CLIENT_CAKERACELOBBY__ISINMATCHEDSTATE_OFFSET UNITYSDK_OFFSET(0xB4A55B0)
+#define RPG_CLIENT_CAKERACELOBBY__ONINIT_OFFSET UNITYSDK_OFFSET(0xB4A49E0)
+#define RPG_CLIENT_CAKERACELOBBY__ONMATCHRESULTMEMBERSCHANGE_OFFSET UNITYSDK_OFFSET(0xB4A5140)
+#define RPG_CLIENT_CAKERACELOBBY__ONMEMBERCHANGE_OFFSET UNITYSDK_OFFSET(0xB4A4BF0)
+#define RPG_CLIENT_CAKERACELOBBY__ONROOMINIT_OFFSET UNITYSDK_OFFSET(0xB4A4A40)
+#define RPG_CLIENT_CAKERACELOBBY__ONSTATECHANGED_OFFSET UNITYSDK_OFFSET(0xB4A5190)
+#define RPG_CLIENT_CAKERACELOBBY__SORTPARTICIPANTS_OFFSET UNITYSDK_OFFSET(0xB4A54A0)
+#define RPG_CLIENT_CAKERACELOBBY__SYNCPARTICIPANTS_OFFSET UNITYSDK_OFFSET(0xB4A4C40)
+#define RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONINIT_OFFSET UNITYSDK_OFFSET(0xB4A57E0)
+#define RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONMATCHRESULTMEMBERSCHANGE_OFFSET UNITYSDK_OFFSET(0xB4A5900)
+#define RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONMEMBERCHANGE_OFFSET UNITYSDK_OFFSET(0xB4A58A0)
+#define RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONROOMINIT_OFFSET UNITYSDK_OFFSET(0xB4A5840)
+#define RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONSTATECHANGED_OFFSET UNITYSDK_OFFSET(0xB4A5960)
+#define RPG_CLIENT_CAKERACELOBBY___SORTPARTICIPANTS_B__8_0_OFFSET UNITYSDK_OFFSET(0xB4A5790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceLobby_TypeDefinitionIndex = 58084;
+	inline static constexpr unsigned int CakeRaceLobby_TypeDefinitionIndex = 59000;
 
 	class CakeRaceLobby : public ::RPG::Client::BaseLobby
 	{
 	public:
-		::RPG::Client::CakeRaceParticipantData* _LeaderParticipantData_k__BackingField; // 0x60
-		::RPG::Client::CakeRaceParticipantData* _SelfParticipantData_k__BackingField; // 0x68
-		::RPG::Client::CakeRaceFieldData* _FieldData_k__BackingField; // 0x70
-		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceParticipantData*>* _Participants; // 0x78
+		::RPG::Client::CakeRaceParticipantData* _SelfParticipantData_k__BackingField; // 0x60
+		::RPG::Client::CakeRaceParticipantData* _LeaderParticipantData_k__BackingField; // 0x68
+		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceParticipantData*>* _Participants; // 0x70
+		::RPG::Client::CakeRaceFieldData* _FieldData_k__BackingField; // 0x78
 		::System::Boolean _IsSorted; // 0x80
 
 		::System::Void _ctor()
@@ -54,14 +54,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnInit(::System::UInt32 createParam)
+		::System::Void _OnInit(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY__ONINIT_OFFSET))(this, createParam);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY__ONINIT_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnRoomInit(::Class_1_E7DB216A3FFF6C29* roomExtInfo)
+		::System::Void _OnRoomInit(::Class_1_E7DB216A3FFF6C29* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E7DB216A3FFF6C29*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY__ONROOMINIT_OFFSET))(this, roomExtInfo);
+			return ((::System::Void(*)(::PVOID, ::Class_1_E7DB216A3FFF6C29*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY__ONROOMINIT_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnMemberChange()
@@ -84,9 +84,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_STARTMATCH_OFFSET))(this);
 		}
 
-		::System::Void ChangeSelfState(::Enum_3_63C076C405BE0674_1 type)
+		::System::Void ChangeSelfState(::Enum_3_63C076C405BE0674_1 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_63C076C405BE0674_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_CHANGESELFSTATE_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_63C076C405BE0674_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_CHANGESELFSTATE_OFFSET))(this, a1);
 		}
 
 		::System::Void _SyncParticipants()
@@ -114,9 +114,9 @@ namespace RPG::Client
 			return ((::RPG::Client::CakeRaceParticipantData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_GET_LEADERPARTICIPANTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_LeaderParticipantData(::RPG::Client::CakeRaceParticipantData* value)
+		::System::Void set_LeaderParticipantData(::RPG::Client::CakeRaceParticipantData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_SET_LEADERPARTICIPANTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_SET_LEADERPARTICIPANTDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::CakeRaceParticipantData* get_SelfParticipantData()
@@ -124,9 +124,9 @@ namespace RPG::Client
 			return ((::RPG::Client::CakeRaceParticipantData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_GET_SELFPARTICIPANTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_SelfParticipantData(::RPG::Client::CakeRaceParticipantData* value)
+		::System::Void set_SelfParticipantData(::RPG::Client::CakeRaceParticipantData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_SET_SELFPARTICIPANTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_SET_SELFPARTICIPANTDATA_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceParticipantData*>* get_Participants()
@@ -139,9 +139,9 @@ namespace RPG::Client
 			return ((::RPG::Client::CakeRaceFieldData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_GET_FIELDDATA_OFFSET))(this);
 		}
 
-		::System::Void set_FieldData(::RPG::Client::CakeRaceFieldData* value)
+		::System::Void set_FieldData(::RPG::Client::CakeRaceFieldData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceFieldData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_SET_FIELDDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceFieldData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_SET_FIELDDATA_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::CakeRaceLobby* get_Instance()
@@ -149,19 +149,19 @@ namespace RPG::Client
 			return ((::RPG::Client::CakeRaceLobby*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY_GET_INSTANCE_OFFSET))();
 		}
 
-		::System::Int32 __SortParticipants_b__8_0(::RPG::Client::CakeRaceParticipantData* a, ::RPG::Client::CakeRaceParticipantData* b)
+		::System::Int32 __SortParticipants_b__8_0(::RPG::Client::CakeRaceParticipantData* a1, ::RPG::Client::CakeRaceParticipantData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY___SORTPARTICIPANTS_B__8_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY___SORTPARTICIPANTS_B__8_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy__OnInit(::System::UInt32 P0)
+		::System::Void __iFixBaseProxy__OnInit(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONINIT_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONINIT_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy__OnRoomInit(::Class_1_E7DB216A3FFF6C29* P0)
+		::System::Void __iFixBaseProxy__OnRoomInit(::Class_1_E7DB216A3FFF6C29* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E7DB216A3FFF6C29*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONROOMINIT_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::Class_1_E7DB216A3FFF6C29*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACELOBBY___IFIXBASEPROXY__ONROOMINIT_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy__OnMemberChange()

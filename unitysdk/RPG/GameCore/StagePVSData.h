@@ -7,12 +7,12 @@ namespace RPG::GameCore { class OfflineCullingIndex; }
 namespace RPG::GameCore { class OfflineCullingLod; }
 namespace RPG::GameCore { class StageLightData; }
 
-#define RPG_GAMECORE_STAGEPVSDATA_METHOD_2_68492FEC09882C28_OFFSET UNITYSDK_OFFSET(0x18E8F050)
-#define RPG_GAMECORE_STAGEPVSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8F4D0)
+#define RPG_GAMECORE_STAGEPVSDATA_METHOD_2_2608809C218F6233_OFFSET UNITYSDK_OFFSET(0x19CAC7E0)
+#define RPG_GAMECORE_STAGEPVSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19CACC50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePVSData_TypeDefinitionIndex = 18196;
+	inline static constexpr unsigned int StagePVSData_TypeDefinitionIndex = 18190;
 
 	class StagePVSData : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPVSDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_68492FEC09882C28(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StagePVSData*& a2)
+		static ::System::Void Method_2_2608809C218F6233(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StagePVSData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StagePVSData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPVSDATA_METHOD_2_68492FEC09882C28_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StagePVSData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPVSDATA_METHOD_2_2608809C218F6233_OFFSET))(a1, a2);
 		}
 	};
 }

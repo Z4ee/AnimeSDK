@@ -11,22 +11,22 @@ namespace RPG::Client { class UIPartialBlur; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_UIMETA_ADDBLURPARTIALAREA_OFFSET UNITYSDK_OFFSET(0xB40DD70)
-#define RPG_CLIENT_UIMETA_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xB40E9F0)
-#define RPG_CLIENT_UIMETA_GET_ENABLEBLURFULL_OFFSET UNITYSDK_OFFSET(0xB40DCD0)
-#define RPG_CLIENT_UIMETA_GET_ENABLEBLURPARTIAL_OFFSET UNITYSDK_OFFSET(0xB40DD20)
-#define RPG_CLIENT_UIMETA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB40E730)
-#define RPG_CLIENT_UIMETA_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB40E670)
-#define RPG_CLIENT_UIMETA_REMOVEBLURPARTIALAREA_OFFSET UNITYSDK_OFFSET(0xB40DFA0)
-#define RPG_CLIENT_UIMETA_SETUPBLURPARTIALAREA_OFFSET UNITYSDK_OFFSET(0xB40E2D0)
-#define RPG_CLIENT_UIMETA_SPAWNED_OFFSET UNITYSDK_OFFSET(0xB40E9B0)
-#define RPG_CLIENT_UIMETA_SWITCHBLURPARTIALAREALAYER_OFFSET UNITYSDK_OFFSET(0xB40E4B0)
-#define RPG_CLIENT_UIMETA_TRIGGERAUDIOEVENT_OFFSET UNITYSDK_OFFSET(0xB40E7F0)
-#define RPG_CLIENT_UIMETA__CTOR_OFFSET UNITYSDK_OFFSET(0xB40EA60)
+#define RPG_CLIENT_UIMETA_ADDBLURPARTIALAREA_OFFSET UNITYSDK_OFFSET(0xCB6DC70)
+#define RPG_CLIENT_UIMETA_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xCB6EA10)
+#define RPG_CLIENT_UIMETA_GET_ENABLEBLURFULL_OFFSET UNITYSDK_OFFSET(0xCB6DBD0)
+#define RPG_CLIENT_UIMETA_GET_ENABLEBLURPARTIAL_OFFSET UNITYSDK_OFFSET(0xCB6DC20)
+#define RPG_CLIENT_UIMETA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCB6E760)
+#define RPG_CLIENT_UIMETA_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCB6E6A0)
+#define RPG_CLIENT_UIMETA_REMOVEBLURPARTIALAREA_OFFSET UNITYSDK_OFFSET(0xCB6DF10)
+#define RPG_CLIENT_UIMETA_SETUPBLURPARTIALAREA_OFFSET UNITYSDK_OFFSET(0xCB6E2C0)
+#define RPG_CLIENT_UIMETA_SPAWNED_OFFSET UNITYSDK_OFFSET(0xCB6E9D0)
+#define RPG_CLIENT_UIMETA_SWITCHBLURPARTIALAREALAYER_OFFSET UNITYSDK_OFFSET(0xCB6E4C0)
+#define RPG_CLIENT_UIMETA_TRIGGERAUDIOEVENT_OFFSET UNITYSDK_OFFSET(0xCB6E820)
+#define RPG_CLIENT_UIMETA__CTOR_OFFSET UNITYSDK_OFFSET(0xCB6EA80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIMeta_TypeDefinitionIndex = 67293;
+	inline static constexpr unsigned int UIMeta_TypeDefinitionIndex = 68245;
 
 	class UIMeta : public ::UnityEngine::MonoBehaviour
 	{
@@ -80,14 +80,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMETA_GET_ENABLEBLURPARTIAL_OFFSET))(this);
 		}
 
-		::System::Void AddBlurPartialArea(::RPG::Client::UIPartialBlur* partial)
+		::System::Void AddBlurPartialArea(::RPG::Client::UIPartialBlur* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIPartialBlur*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMETA_ADDBLURPARTIALAREA_OFFSET))(this, partial);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIPartialBlur*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMETA_ADDBLURPARTIALAREA_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveBlurPartialArea(::RPG::Client::UIPartialBlur* partial)
+		::System::Void RemoveBlurPartialArea(::RPG::Client::UIPartialBlur* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIPartialBlur*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMETA_REMOVEBLURPARTIALAREA_OFFSET))(this, partial);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIPartialBlur*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMETA_REMOVEBLURPARTIALAREA_OFFSET))(this, a1);
 		}
 
 		::System::Void SetupBlurPartialArea()
@@ -95,9 +95,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMETA_SETUPBLURPARTIALAREA_OFFSET))(this);
 		}
 
-		::System::Void SwitchBlurPartialAreaLayer(::System::Int32 layer)
+		::System::Void SwitchBlurPartialAreaLayer(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMETA_SWITCHBLURPARTIALAREALAYER_OFFSET))(this, layer);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMETA_SWITCHBLURPARTIALAREALAYER_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()
@@ -110,9 +110,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMETA_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void TriggerAudioEvent(::System::String* name)
+		::System::Void TriggerAudioEvent(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMETA_TRIGGERAUDIOEVENT_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMETA_TRIGGERAUDIOEVENT_OFFSET))(this, a1);
 		}
 
 		::System::Void Spawned()

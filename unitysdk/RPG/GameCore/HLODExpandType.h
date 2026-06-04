@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HLODExpandType_TypeDefinitionIndex = 18127;
+	inline static constexpr unsigned int HLODExpandType_TypeDefinitionIndex = 23099;
 
 	enum class HLODExpandType : ::System::Int32
 	{

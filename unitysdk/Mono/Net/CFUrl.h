@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define MONO_NET_CFURL_CFURLCREATEWITHSTRING_OFFSET UNITYSDK_OFFSET(0x1A098810)
-#define MONO_NET_CFURL_CREATE_OFFSET UNITYSDK_OFFSET(0x1A093550)
-#define MONO_NET_CFURL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A098780)
+#define MONO_NET_CFURL_CFURLCREATEWITHSTRING_OFFSET UNITYSDK_OFFSET(0x1AF098F0)
+#define MONO_NET_CFURL_CREATE_OFFSET UNITYSDK_OFFSET(0x1AF04950)
+#define MONO_NET_CFURL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF09860)
 
 namespace Mono::Net
 {
@@ -15,19 +15,19 @@ namespace Mono::Net
 	class CFUrl : public ::Mono::Net::CFObject
 	{
 	public:
-		::System::Void _ctor(::System::IntPtr handle, ::System::Boolean own)
+		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFURL__CTOR_OFFSET))(this, handle, own);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFURL__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::IntPtr CFURLCreateWithString(::System::IntPtr allocator, ::System::IntPtr str, ::System::IntPtr baseURL)
+		static ::System::IntPtr CFURLCreateWithString(::System::IntPtr a1, ::System::IntPtr a2, ::System::IntPtr a3)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFURL_CFURLCREATEWITHSTRING_OFFSET))(allocator, str, baseURL);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFURL_CFURLCREATEWITHSTRING_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Mono::Net::CFUrl* Create(::System::String* absolute)
+		static ::Mono::Net::CFUrl* Create(::System::String* a1)
 		{
-			return ((::Mono::Net::CFUrl*(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_NET_CFURL_CREATE_OFFSET))(absolute);
+			return ((::Mono::Net::CFUrl*(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_NET_CFURL_CREATE_OFFSET))(a1);
 		}
 	};
 }

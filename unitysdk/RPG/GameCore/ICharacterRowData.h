@@ -15,7 +15,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ICharacterRowData_TypeDefinitionIndex = 52455;
+	inline static constexpr unsigned int ICharacterRowData_TypeDefinitionIndex = 53155;
 
 	class ICharacterRowData
 	{

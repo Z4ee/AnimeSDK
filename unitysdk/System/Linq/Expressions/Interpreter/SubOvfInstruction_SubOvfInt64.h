@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SUBOVFINSTRUCTION_SUBOVFINT64_RUN_OFFSET UNITYSDK_OFFSET(0x19F3AE80)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SUBOVFINSTRUCTION_SUBOVFINT64__CTOR_OFFSET UNITYSDK_OFFSET(0x19F3A6D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SUBOVFINSTRUCTION_SUBOVFINT64_RUN_OFFSET UNITYSDK_OFFSET(0x1ADB2530)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SUBOVFINSTRUCTION_SUBOVFINT64__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB1E40)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int SubOvfInstruction_SubOvfInt64_TypeDefinitionIndex = 3622;
+	inline static constexpr unsigned int SubOvfInstruction_SubOvfInt64_TypeDefinitionIndex = 3623;
 
 	class SubOvfInstruction_SubOvfInt64 : public ::System::Linq::Expressions::Interpreter::SubOvfInstruction
 	{
@@ -19,9 +19,9 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SUBOVFINSTRUCTION_SUBOVFINT64__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame)
+		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SUBOVFINSTRUCTION_SUBOVFINT64_RUN_OFFSET))(this, frame);
+			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SUBOVFINSTRUCTION_SUBOVFINT64_RUN_OFFSET))(this, a1);
 		}
 	};
 }

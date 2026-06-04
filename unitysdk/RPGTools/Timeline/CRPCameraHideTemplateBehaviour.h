@@ -6,15 +6,15 @@
 
 namespace RPGTools::Timeline { class CRPCameraHideTemplateClip; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xB89FD00)
-#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB89FD20)
-#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xB89FD10)
-#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB89FE80)
-#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB89FE90)
+#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFE3C80)
+#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFE3CA0)
+#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFE3C90)
+#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE3E00)
+#define RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFE3E10)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraHideTemplateBehaviour_TypeDefinitionIndex = 44645;
+	inline static constexpr unsigned int CRPCameraHideTemplateBehaviour_TypeDefinitionIndex = 45192;
 
 	class CRPCameraHideTemplateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::CRPCameraHideTemplateClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::CRPCameraHideTemplateClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::CRPCameraHideTemplateClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::CRPCameraHideTemplateClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::CRPCameraHideTemplateClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -41,9 +41,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERAHIDETEMPLATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

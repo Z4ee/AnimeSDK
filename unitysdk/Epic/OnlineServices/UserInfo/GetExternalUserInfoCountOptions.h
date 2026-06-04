@@ -4,21 +4,21 @@
 
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8BF99D0)
-#define EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8BF99F0)
-#define EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8BF99E0)
-#define EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8BF9A00)
-#define EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BF9A10)
+#define EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA106F70)
+#define EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA106F90)
+#define EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA106F80)
+#define EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA106FA0)
+#define EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA106FB0)
 
 namespace Epic::OnlineServices::UserInfo
 {
-	inline static constexpr unsigned int GetExternalUserInfoCountOptions_TypeDefinitionIndex = 41102;
+	inline static constexpr unsigned int GetExternalUserInfoCountOptions_TypeDefinitionIndex = 41905;
 
 	class GetExternalUserInfoCountOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::EpicAccountId* _TargetUserId_k__BackingField; // 0x10
-		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x10
+		::Epic::OnlineServices::EpicAccountId* _TargetUserId_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::UserInfo
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::EpicAccountId* get_TargetUserId()
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::UserInfo
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_USERINFO_GETEXTERNALUSERINFOCOUNTOPTIONS_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 	};
 }

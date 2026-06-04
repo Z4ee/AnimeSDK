@@ -7,23 +7,23 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfWaiterCleanTable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_92D1F70BBEBDC31D_METHOD_3_1E1FFD875CA8014A_OFFSET UNITYSDK_OFFSET(0x11E6B220)
-#define CLASS_3_92D1F70BBEBDC31D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11E6AD40)
-#define CLASS_3_92D1F70BBEBDC31D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11E6B0C0)
-#define CLASS_3_92D1F70BBEBDC31D_TICK_OFFSET UNITYSDK_OFFSET(0x11E6B110)
-#define CLASS_3_92D1F70BBEBDC31D__CTOR_OFFSET UNITYSDK_OFFSET(0x11E6AD10)
-#define CLASS_3_92D1F70BBEBDC31D___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x11E6B6D0)
+#define CLASS_3_92D1F70BBEBDC31D_METHOD_3_1E1FFD875CA8014A_OFFSET UNITYSDK_OFFSET(0xA90A560)
+#define CLASS_3_92D1F70BBEBDC31D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA90A080)
+#define CLASS_3_92D1F70BBEBDC31D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA90A400)
+#define CLASS_3_92D1F70BBEBDC31D_TICK_OFFSET UNITYSDK_OFFSET(0xA90A450)
+#define CLASS_3_92D1F70BBEBDC31D__CTOR_OFFSET UNITYSDK_OFFSET(0xA90A050)
+#define CLASS_3_92D1F70BBEBDC31D___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xA90A9C0)
 
-inline static constexpr unsigned int Class_3_92D1F70BBEBDC31D_TypeDefinitionIndex = 48159;
+inline static constexpr unsigned int Class_3_92D1F70BBEBDC31D_TypeDefinitionIndex = 48783;
 
 class Class_3_92D1F70BBEBDC31D : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfWaiterCleanTable*>
 {
 public:
-	::RPG::Client::ElfRestaurantGameInstance* Field_3_4; // 0x28
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_3; // 0x30
-	::System::Single Field_3_1; // 0x38
-	::System::Boolean Field_3_0; // 0x3C
-	::System::Single Field_3_2; // 0x40
+	::RPG::Client::ElfRestaurantGameInstance* Field_3_0; // 0x28
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_1; // 0x30
+	::System::Single Field_3_2; // 0x38
+	::System::Single Field_3_3; // 0x3C
+	::System::Boolean Field_3_4; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfWaiterCleanTable* a2)
 	{
@@ -50,8 +50,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_92D1F70BBEBDC31D_METHOD_3_1E1FFD875CA8014A_OFFSET))(this);
 	}
 
-	::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_92D1F70BBEBDC31D___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_92D1F70BBEBDC31D___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 	}
 };

@@ -2,36 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
+class Class_1_6CC143B9599F1FCA;
 namespace Sofa { class BaseSofaWindow; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
+namespace UnityEngine::UI { class Image; }
 template <typename T> class Class_1_534BBA4C76709F67;
 
-#define SOFA_BASESOFACONTROL_BINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB945E30)
-#define SOFA_BASESOFACONTROL_GET_DATACONTEXT_OFFSET UNITYSDK_OFFSET(0xB945CB0)
-#define SOFA_BASESOFACONTROL_GET_VIEWTRANSFORM_OFFSET UNITYSDK_OFFSET(0xB945CA0)
-#define SOFA_BASESOFACONTROL_INITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xB945CD0)
-#define SOFA_BASESOFACONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB945F90)
-#define SOFA_BASESOFACONTROL_SET_DATACONTEXT_OFFSET UNITYSDK_OFFSET(0xB945CC0)
-#define SOFA_BASESOFACONTROL__ADDCHILD_OFFSET UNITYSDK_OFFSET(0xB9460A0)
-#define SOFA_BASESOFACONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xB946230)
-#define SOFA_BASESOFACONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB946020)
-#define SOFA_BASESOFACONTROL__ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB946060)
-#define SOFA_BASESOFACONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xB945FE0)
-#define SOFA_BASESOFACONTROL__REMOVECHILD_OFFSET UNITYSDK_OFFSET(0xB946180)
+#define SOFA_BASESOFACONTROL_BINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD08A370)
+#define SOFA_BASESOFACONTROL_GET_DATACONTEXT_OFFSET UNITYSDK_OFFSET(0xD08A220)
+#define SOFA_BASESOFACONTROL_GET_VIEWTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD08A210)
+#define SOFA_BASESOFACONTROL_INITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD08A240)
+#define SOFA_BASESOFACONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD08A4A0)
+#define SOFA_BASESOFACONTROL_SET_DATACONTEXT_OFFSET UNITYSDK_OFFSET(0xD08A230)
+#define SOFA_BASESOFACONTROL__ADDCHILD_OFFSET UNITYSDK_OFFSET(0xD08A5C0)
+#define SOFA_BASESOFACONTROL__ASYNCLOADSPRITETO_OFFSET UNITYSDK_OFFSET(0xD08A7A0)
+#define SOFA_BASESOFACONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD08A830)
+#define SOFA_BASESOFACONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD08A540)
+#define SOFA_BASESOFACONTROL__ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD08A580)
+#define SOFA_BASESOFACONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD08A500)
+#define SOFA_BASESOFACONTROL__REMOVECHILD_OFFSET UNITYSDK_OFFSET(0xD08A6F0)
 
 namespace Sofa
 {
-	inline static constexpr unsigned int BaseSofaControl_TypeDefinitionIndex = 44444;
+	inline static constexpr unsigned int BaseSofaControl_TypeDefinitionIndex = 44990;
 
 	class BaseSofaControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Object* _DataContext; // 0x18
 		::System::Collections::Generic::List_1<::Sofa::BaseSofaControl*>* _ChildUIControls; // 0x20
-		::Sofa::BaseSofaWindow* OwnerWindow; // 0x28
+		::Class_1_6CC143B9599F1FCA* _AssetLoader; // 0x28
+		::Sofa::BaseSofaWindow* OwnerWindow; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -48,9 +52,9 @@ namespace Sofa
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_BASESOFACONTROL_GET_DATACONTEXT_OFFSET))(this);
 		}
 
-		::System::Void set_DataContext(::System::Object* value)
+		::System::Void set_DataContext(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SOFA_BASESOFACONTROL_SET_DATACONTEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SOFA_BASESOFACONTROL_SET_DATACONTEXT_OFFSET))(this, a1);
 		}
 
 		::System::Void InitializeComponent()
@@ -83,14 +87,19 @@ namespace Sofa
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_BASESOFACONTROL__ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void _AddChild(::Sofa::BaseSofaControl* child)
+		::System::Void _AddChild(::Sofa::BaseSofaControl* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Sofa::BaseSofaControl*))((::PBYTE)hIl2Cpp + SOFA_BASESOFACONTROL__ADDCHILD_OFFSET))(this, child);
+			return ((::System::Void(*)(::PVOID, ::Sofa::BaseSofaControl*))((::PBYTE)hIl2Cpp + SOFA_BASESOFACONTROL__ADDCHILD_OFFSET))(this, a1);
 		}
 
-		::System::Void _RemoveChild(::Sofa::BaseSofaControl* child)
+		::System::Void _RemoveChild(::Sofa::BaseSofaControl* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Sofa::BaseSofaControl*))((::PBYTE)hIl2Cpp + SOFA_BASESOFACONTROL__REMOVECHILD_OFFSET))(this, child);
+			return ((::System::Void(*)(::PVOID, ::Sofa::BaseSofaControl*))((::PBYTE)hIl2Cpp + SOFA_BASESOFACONTROL__REMOVECHILD_OFFSET))(this, a1);
+		}
+
+		::System::Void _AsyncLoadSpriteTo(::UnityEngine::UI::Image* a1, ::System::String* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*, ::System::String*))((::PBYTE)hIl2Cpp + SOFA_BASESOFACONTROL__ASYNCLOADSPRITETO_OFFSET))(this, a1, a2);
 		}
 	};
 }

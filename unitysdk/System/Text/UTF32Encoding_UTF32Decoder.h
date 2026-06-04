@@ -4,13 +4,13 @@
 
 namespace System::Text { class UTF32Encoding; }
 
-#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x17850220)
-#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_RESET_OFFSET UNITYSDK_OFFSET(0x178501F0)
-#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1784FD70)
+#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x1860A420)
+#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_RESET_OFFSET UNITYSDK_OFFSET(0x1860A3F0)
+#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x18609FD0)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int UTF32Encoding_UTF32Decoder_TypeDefinitionIndex = 501;
+	inline static constexpr unsigned int UTF32Encoding_UTF32Decoder_TypeDefinitionIndex = 500;
 
 	class UTF32Encoding_UTF32Decoder : public ::System::Text::DecoderNLS
 	{
@@ -18,9 +18,9 @@ namespace System::Text
 		::System::Int32 iChar; // 0x30
 		::System::Int32 readByteCount; // 0x34
 
-		::System::Void _ctor(::System::Text::UTF32Encoding* encoding)
+		::System::Void _ctor(::System::Text::UTF32Encoding* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::UTF32Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER__CTOR_OFFSET))(this, encoding);
+			return ((::System::Void(*)(::PVOID, ::System::Text::UTF32Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()

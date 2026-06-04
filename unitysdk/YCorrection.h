@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define YCORRECTION_GET_ENABLEYCORRECTION_OFFSET UNITYSDK_OFFSET(0x11758D30)
-#define YCORRECTION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x11758D50)
-#define YCORRECTION_SET_ENABLEYCORRECTION_OFFSET UNITYSDK_OFFSET(0x11758D40)
-#define YCORRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x117590C0)
+#define YCORRECTION_GET_ENABLEYCORRECTION_OFFSET UNITYSDK_OFFSET(0x134505A0)
+#define YCORRECTION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x134505C0)
+#define YCORRECTION_SET_ENABLEYCORRECTION_OFFSET UNITYSDK_OFFSET(0x134505B0)
+#define YCORRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x13450920)
 
-inline static constexpr unsigned int YCorrection_TypeDefinitionIndex = 44313;
+inline static constexpr unsigned int YCorrection_TypeDefinitionIndex = 44859;
 
 class YCorrection : public ::UnityEngine::MonoBehaviour
 {
@@ -25,9 +25,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + YCORRECTION_GET_ENABLEYCORRECTION_OFFSET))(this);
 	}
 
-	::System::Void set_EnableYCorrection(::System::Boolean value)
+	::System::Void set_EnableYCorrection(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + YCORRECTION_SET_ENABLEYCORRECTION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + YCORRECTION_SET_ENABLEYCORRECTION_OFFSET))(this, a1);
 	}
 
 	::System::Void LateUpdate()

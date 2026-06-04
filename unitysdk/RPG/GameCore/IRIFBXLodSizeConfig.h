@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_IRIFBXLODSIZECONFIG_METHOD_2_2353662CC69507D4_OFFSET UNITYSDK_OFFSET(0x18A0D180)
-#define RPG_GAMECORE_IRIFBXLODSIZECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A0D250)
+#define RPG_GAMECORE_IRIFBXLODSIZECONFIG_METHOD_2_5B6492929B8F1D76_OFFSET UNITYSDK_OFFSET(0x1983F4C0)
+#define RPG_GAMECORE_IRIFBXLODSIZECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1983F5A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IRIFBXLodSizeConfig_TypeDefinitionIndex = 18243;
+	inline static constexpr unsigned int IRIFBXLodSizeConfig_TypeDefinitionIndex = 18218;
 
 	class IRIFBXLodSizeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IRIFBXLODSIZECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2353662CC69507D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IRIFBXLodSizeConfig*& a2)
+		static ::System::Void Method_2_5B6492929B8F1D76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IRIFBXLodSizeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IRIFBXLodSizeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IRIFBXLODSIZECONFIG_METHOD_2_2353662CC69507D4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IRIFBXLodSizeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IRIFBXLODSIZECONFIG_METHOD_2_5B6492929B8F1D76_OFFSET))(a1, a2);
 		}
 	};
 }

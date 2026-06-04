@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_MESHGENERATORDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E43AB0)
-#define SPINE_UNITY_MESHGENERATORDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E43B20)
-#define SPINE_UNITY_MESHGENERATORDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E435D0)
-#define SPINE_UNITY_MESHGENERATORDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E435B0)
+#define SPINE_UNITY_MESHGENERATORDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ACBCF20)
+#define SPINE_UNITY_MESHGENERATORDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ACBCF90)
+#define SPINE_UNITY_MESHGENERATORDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ACBCEE0)
+#define SPINE_UNITY_MESHGENERATORDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACBCE70)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MeshGeneratorDelegate_TypeDefinitionIndex = 40634;
+	inline static constexpr unsigned int MeshGeneratorDelegate_TypeDefinitionIndex = 41461;
 
 	class MeshGeneratorDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATORDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATORDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Spine::Unity::MeshGeneratorBuffers buffers)
+		::System::Void Invoke(::Spine::Unity::MeshGeneratorBuffers a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::MeshGeneratorBuffers))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATORDELEGATE_INVOKE_OFFSET))(this, buffers);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::MeshGeneratorBuffers))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATORDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Spine::Unity::MeshGeneratorBuffers buffers, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Spine::Unity::MeshGeneratorBuffers a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Spine::Unity::MeshGeneratorBuffers, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATORDELEGATE_BEGININVOKE_OFFSET))(this, buffers, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Spine::Unity::MeshGeneratorBuffers, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATORDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATORDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATORDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DemodulatorOutPutType_TypeDefinitionIndex = 44267;
+inline static constexpr unsigned int DemodulatorOutPutType_TypeDefinitionIndex = 44813;
 
 enum class DemodulatorOutPutType : ::System::Int32
 {

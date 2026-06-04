@@ -7,17 +7,17 @@
 
 namespace Epic::OnlineServices::Mods { class ModIdentifier; }
 
-#define EPIC_ONLINESERVICES_MODS_MODINFO_GET_MODS_OFFSET UNITYSDK_OFFSET(0x8ED2EC0)
-#define EPIC_ONLINESERVICES_MODS_MODINFO_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x8ED2EE0)
-#define EPIC_ONLINESERVICES_MODS_MODINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8ED30D0)
-#define EPIC_ONLINESERVICES_MODS_MODINFO_SET_MODS_OFFSET UNITYSDK_OFFSET(0x8ED2ED0)
-#define EPIC_ONLINESERVICES_MODS_MODINFO_SET_OFFSET UNITYSDK_OFFSET(0x8ED2F00)
-#define EPIC_ONLINESERVICES_MODS_MODINFO_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x8ED2EF0)
-#define EPIC_ONLINESERVICES_MODS_MODINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8ED31E0)
+#define EPIC_ONLINESERVICES_MODS_MODINFO_GET_MODS_OFFSET UNITYSDK_OFFSET(0xA306080)
+#define EPIC_ONLINESERVICES_MODS_MODINFO_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA3060A0)
+#define EPIC_ONLINESERVICES_MODS_MODINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA306290)
+#define EPIC_ONLINESERVICES_MODS_MODINFO_SET_MODS_OFFSET UNITYSDK_OFFSET(0xA306090)
+#define EPIC_ONLINESERVICES_MODS_MODINFO_SET_OFFSET UNITYSDK_OFFSET(0xA3060C0)
+#define EPIC_ONLINESERVICES_MODS_MODINFO_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xA3060B0)
+#define EPIC_ONLINESERVICES_MODS_MODINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA3063B0)
 
 namespace Epic::OnlineServices::Mods
 {
-	inline static constexpr unsigned int ModInfo_TypeDefinitionIndex = 41774;
+	inline static constexpr unsigned int ModInfo_TypeDefinitionIndex = 42577;
 
 	class ModInfo : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace Epic::OnlineServices::Mods
 			return ((::Il2CppArray<::Epic::OnlineServices::Mods::ModIdentifier*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODINFO_GET_MODS_OFFSET))(this);
 		}
 
-		::System::Void set_Mods(::Il2CppArray<::Epic::OnlineServices::Mods::ModIdentifier*>* value)
+		::System::Void set_Mods(::Il2CppArray<::Epic::OnlineServices::Mods::ModIdentifier*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::Mods::ModIdentifier*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODINFO_SET_MODS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::Mods::ModIdentifier*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODINFO_SET_MODS_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Mods::ModEnumerationType get_Type()
@@ -45,19 +45,19 @@ namespace Epic::OnlineServices::Mods
 			return ((::Epic::OnlineServices::Mods::ModEnumerationType(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODINFO_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::Epic::OnlineServices::Mods::ModEnumerationType value)
+		::System::Void set_Type(::Epic::OnlineServices::Mods::ModEnumerationType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModEnumerationType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODINFO_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModEnumerationType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODINFO_SET_TYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Mods::ModInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Mods::ModInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Mods::ModInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Mods::ModInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

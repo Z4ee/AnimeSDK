@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_AB9A0F8E7BA0F801_OFFSET UNITYSDK_OFFSET(0x1866C3D0)
-#define RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_F49CF7FAD7D69102_OFFSET UNITYSDK_OFFSET(0x1866C390)
-#define RPG_GAMECORE_ADVENTUREABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1866C3C0)
+#define RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_39BB5FCEDDCD9230_OFFSET UNITYSDK_OFFSET(0x1943EFF0)
+#define RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_AA735394EC67A1ED_OFFSET UNITYSDK_OFFSET(0x1943EFB0)
+#define RPG_GAMECORE_ADVENTUREABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1943EFE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAbilityConfig_TypeDefinitionIndex = 16534;
+	inline static constexpr unsigned int AdventureAbilityConfig_TypeDefinitionIndex = 16565;
 
 	class AdventureAbilityConfig : public ::RPG::GameCore::AbilityConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABILITYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F49CF7FAD7D69102(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureAbilityConfig*& a2)
+		static ::System::Void Method_3_AA735394EC67A1ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureAbilityConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureAbilityConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_F49CF7FAD7D69102_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureAbilityConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_AA735394EC67A1ED_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AB9A0F8E7BA0F801(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureAbilityConfig* a2)
+		static ::System::Void Method_3_39BB5FCEDDCD9230(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureAbilityConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_AB9A0F8E7BA0F801_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_39BB5FCEDDCD9230_OFFSET))(a1, a2);
 		}
 	};
 }

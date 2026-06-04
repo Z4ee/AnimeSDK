@@ -6,15 +6,15 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_PARTICLESYSTEMUTILS_AWAKE_OFFSET UNITYSDK_OFFSET(0xAC40300)
-#define RPG_CLIENT_PARTICLESYSTEMUTILS_GETPARTICLEMATERIAL_OFFSET UNITYSDK_OFFSET(0xAC404E0)
-#define RPG_CLIENT_PARTICLESYSTEMUTILS_SETPLAYBACKSPEED_OFFSET UNITYSDK_OFFSET(0xAC403C0)
-#define RPG_CLIENT_PARTICLESYSTEMUTILS_SETSTARTCOLOR_OFFSET UNITYSDK_OFFSET(0xAC40440)
-#define RPG_CLIENT_PARTICLESYSTEMUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xAC405B0)
+#define RPG_CLIENT_PARTICLESYSTEMUTILS_AWAKE_OFFSET UNITYSDK_OFFSET(0xC3500B0)
+#define RPG_CLIENT_PARTICLESYSTEMUTILS_GETPARTICLEMATERIAL_OFFSET UNITYSDK_OFFSET(0xC350290)
+#define RPG_CLIENT_PARTICLESYSTEMUTILS_SETPLAYBACKSPEED_OFFSET UNITYSDK_OFFSET(0xC350170)
+#define RPG_CLIENT_PARTICLESYSTEMUTILS_SETSTARTCOLOR_OFFSET UNITYSDK_OFFSET(0xC3501F0)
+#define RPG_CLIENT_PARTICLESYSTEMUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xC350350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParticleSystemUtils_TypeDefinitionIndex = 67111;
+	inline static constexpr unsigned int ParticleSystemUtils_TypeDefinitionIndex = 68054;
 
 	class ParticleSystemUtils : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,14 +31,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMUTILS_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void SetPlaybackSpeed(::System::Single speed)
+		::System::Void SetPlaybackSpeed(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMUTILS_SETPLAYBACKSPEED_OFFSET))(this, speed);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMUTILS_SETPLAYBACKSPEED_OFFSET))(this, a1);
 		}
 
-		::System::Void SetStartColor(::UnityEngine::Color color)
+		::System::Void SetStartColor(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMUTILS_SETSTARTCOLOR_OFFSET))(this, color);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMUTILS_SETSTARTCOLOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Material* GetParticleMaterial()

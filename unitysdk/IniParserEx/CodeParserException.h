@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define INIPARSEREX_CODEPARSEREXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1A41E490)
-#define INIPARSEREX_CODEPARSEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41E420)
+#define INIPARSEREX_CODEPARSEREXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1B271850)
+#define INIPARSEREX_CODEPARSEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2717E0)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int CodeParserException_TypeDefinitionIndex = 3740;
+	inline static constexpr unsigned int CodeParserException_TypeDefinitionIndex = 3914;
 
 	class CodeParserException : public ::System::Exception
 	{
 	public:
-		::System::String* ExceptionInfo; // 0x88
-		::System::String* Tag; // 0x90
+		::System::String* Tag; // 0x88
+		::System::String* ExceptionInfo; // 0x90
 
-		::System::Void _ctor(::System::String* tag, ::System::String* exceptionInfo)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_CODEPARSEREXCEPTION__CTOR_OFFSET))(this, tag, exceptionInfo);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_CODEPARSEREXCEPTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Message()

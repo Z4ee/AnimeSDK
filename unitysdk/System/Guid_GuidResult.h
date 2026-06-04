@@ -9,16 +9,16 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_GUID_GUIDRESULT_GETGUIDPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x22A9720)
-#define SYSTEM_GUID_GUIDRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x22A9590)
-#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x22A95B0)
-#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_2_OFFSET UNITYSDK_OFFSET(0x22A9620)
-#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_3_OFFSET UNITYSDK_OFFSET(0x22A9690)
-#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x22A95A0)
+#define SYSTEM_GUID_GUIDRESULT_GETGUIDPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x3839910)
+#define SYSTEM_GUID_GUIDRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3839780)
+#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x38397A0)
+#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_2_OFFSET UNITYSDK_OFFSET(0x3839810)
+#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_3_OFFSET UNITYSDK_OFFSET(0x3839880)
+#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3839790)
 
 namespace System
 {
-	inline static constexpr unsigned int Guid_GuidResult_TypeDefinitionIndex = 272;
+	inline static constexpr unsigned int Guid_GuidResult_TypeDefinitionIndex = 271;
 
 	struct alignas(8) Guid_GuidResult
 	{
@@ -30,29 +30,29 @@ namespace System
 		::System::String* m_failureArgumentName; // 0x38
 		::System::Exception* m_innerException; // 0x40
 
-		::System::Void Init(::System::Guid_GuidParseThrowStyle canThrow)
+		::System::Void Init(::System::Guid_GuidParseThrowStyle a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid_GuidParseThrowStyle))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_INIT_OFFSET))(this, canThrow);
+			return ((::System::Void(*)(::PVOID, ::System::Guid_GuidParseThrowStyle))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetFailure(::System::Exception* nativeException)
+		::System::Void SetFailure(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_SETFAILURE_OFFSET))(this, nativeException);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_SETFAILURE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetFailure_1(::System::Guid_ParseFailureKind failure, ::System::String* failureMessageID)
+		::System::Void SetFailure_1(::System::Guid_ParseFailureKind a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid_ParseFailureKind, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_SETFAILURE_1_OFFSET))(this, failure, failureMessageID);
+			return ((::System::Void(*)(::PVOID, ::System::Guid_ParseFailureKind, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_SETFAILURE_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetFailure_2(::System::Guid_ParseFailureKind failure, ::System::String* failureMessageID, ::System::Object* failureMessageFormatArgument)
+		::System::Void SetFailure_2(::System::Guid_ParseFailureKind a1, ::System::String* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid_ParseFailureKind, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_SETFAILURE_2_OFFSET))(this, failure, failureMessageID, failureMessageFormatArgument);
+			return ((::System::Void(*)(::PVOID, ::System::Guid_ParseFailureKind, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_SETFAILURE_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetFailure_3(::System::Guid_ParseFailureKind failure, ::System::String* failureMessageID, ::System::Object* failureMessageFormatArgument, ::System::String* failureArgumentName, ::System::Exception* innerException)
+		::System::Void SetFailure_3(::System::Guid_ParseFailureKind a1, ::System::String* a2, ::System::Object* a3, ::System::String* a4, ::System::Exception* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid_ParseFailureKind, ::System::String*, ::System::Object*, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_SETFAILURE_3_OFFSET))(this, failure, failureMessageID, failureMessageFormatArgument, failureArgumentName, innerException);
+			return ((::System::Void(*)(::PVOID, ::System::Guid_ParseFailureKind, ::System::String*, ::System::Object*, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_SETFAILURE_3_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Exception* GetGuidParseException()

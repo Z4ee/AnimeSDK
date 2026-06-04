@@ -4,17 +4,17 @@
 
 namespace Mono::Net { class CFString; }
 
-#define MONO_NET_CFRUNLOOP_ADDSOURCE_OFFSET UNITYSDK_OFFSET(0x1A093DA0)
-#define MONO_NET_CFRUNLOOP_CFRUNLOOPADDSOURCE_OFFSET UNITYSDK_OFFSET(0x1A098140)
-#define MONO_NET_CFRUNLOOP_CFRUNLOOPGETCURRENT_OFFSET UNITYSDK_OFFSET(0x1A098300)
-#define MONO_NET_CFRUNLOOP_CFRUNLOOPREMOVESOURCE_OFFSET UNITYSDK_OFFSET(0x1A0981D0)
-#define MONO_NET_CFRUNLOOP_CFRUNLOOPRUNINMODE_OFFSET UNITYSDK_OFFSET(0x1A098260)
-#define MONO_NET_CFRUNLOOP_CFRUNLOOPSTOP_OFFSET UNITYSDK_OFFSET(0x1A098380)
-#define MONO_NET_CFRUNLOOP_GET_CURRENTRUNLOOP_OFFSET UNITYSDK_OFFSET(0x1A093B60)
-#define MONO_NET_CFRUNLOOP_REMOVESOURCE_OFFSET UNITYSDK_OFFSET(0x1A093EF0)
-#define MONO_NET_CFRUNLOOP_RUNINMODE_OFFSET UNITYSDK_OFFSET(0x1A093E40)
-#define MONO_NET_CFRUNLOOP_STOP_OFFSET UNITYSDK_OFFSET(0x1A094DD0)
-#define MONO_NET_CFRUNLOOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A098400)
+#define MONO_NET_CFRUNLOOP_ADDSOURCE_OFFSET UNITYSDK_OFFSET(0x1AF051D0)
+#define MONO_NET_CFRUNLOOP_CFRUNLOOPADDSOURCE_OFFSET UNITYSDK_OFFSET(0x1AF09220)
+#define MONO_NET_CFRUNLOOP_CFRUNLOOPGETCURRENT_OFFSET UNITYSDK_OFFSET(0x1AF093E0)
+#define MONO_NET_CFRUNLOOP_CFRUNLOOPREMOVESOURCE_OFFSET UNITYSDK_OFFSET(0x1AF092B0)
+#define MONO_NET_CFRUNLOOP_CFRUNLOOPRUNINMODE_OFFSET UNITYSDK_OFFSET(0x1AF09340)
+#define MONO_NET_CFRUNLOOP_CFRUNLOOPSTOP_OFFSET UNITYSDK_OFFSET(0x1AF09460)
+#define MONO_NET_CFRUNLOOP_GET_CURRENTRUNLOOP_OFFSET UNITYSDK_OFFSET(0x1AF04FB0)
+#define MONO_NET_CFRUNLOOP_REMOVESOURCE_OFFSET UNITYSDK_OFFSET(0x1AF05320)
+#define MONO_NET_CFRUNLOOP_RUNINMODE_OFFSET UNITYSDK_OFFSET(0x1AF05270)
+#define MONO_NET_CFRUNLOOP_STOP_OFFSET UNITYSDK_OFFSET(0x1AF06270)
+#define MONO_NET_CFRUNLOOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF094E0)
 
 namespace Mono::Net
 {
@@ -23,24 +23,24 @@ namespace Mono::Net
 	class CFRunLoop : public ::Mono::Net::CFObject
 	{
 	public:
-		::System::Void _ctor(::System::IntPtr handle, ::System::Boolean own)
+		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP__CTOR_OFFSET))(this, handle, own);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void CFRunLoopAddSource(::System::IntPtr rl, ::System::IntPtr source, ::System::IntPtr mode)
+		static ::System::Void CFRunLoopAddSource(::System::IntPtr a1, ::System::IntPtr a2, ::System::IntPtr a3)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_CFRUNLOOPADDSOURCE_OFFSET))(rl, source, mode);
+			return ((::System::Void(*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_CFRUNLOOPADDSOURCE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void CFRunLoopRemoveSource(::System::IntPtr rl, ::System::IntPtr source, ::System::IntPtr mode)
+		static ::System::Void CFRunLoopRemoveSource(::System::IntPtr a1, ::System::IntPtr a2, ::System::IntPtr a3)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_CFRUNLOOPREMOVESOURCE_OFFSET))(rl, source, mode);
+			return ((::System::Void(*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_CFRUNLOOPREMOVESOURCE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 CFRunLoopRunInMode(::System::IntPtr mode, ::System::Double seconds, ::System::Boolean returnAfterSourceHandled)
+		static ::System::Int32 CFRunLoopRunInMode(::System::IntPtr a1, ::System::Double a2, ::System::Boolean a3)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::Double, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_CFRUNLOOPRUNINMODE_OFFSET))(mode, seconds, returnAfterSourceHandled);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::Double, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_CFRUNLOOPRUNINMODE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::IntPtr CFRunLoopGetCurrent()
@@ -48,9 +48,9 @@ namespace Mono::Net
 			return ((::System::IntPtr(*)())((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_CFRUNLOOPGETCURRENT_OFFSET))();
 		}
 
-		static ::System::Void CFRunLoopStop(::System::IntPtr rl)
+		static ::System::Void CFRunLoopStop(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_CFRUNLOOPSTOP_OFFSET))(rl);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_CFRUNLOOPSTOP_OFFSET))(a1);
 		}
 
 		static ::Mono::Net::CFRunLoop* get_CurrentRunLoop()
@@ -58,19 +58,19 @@ namespace Mono::Net
 			return ((::Mono::Net::CFRunLoop*(*)())((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_GET_CURRENTRUNLOOP_OFFSET))();
 		}
 
-		::System::Void AddSource(::System::IntPtr source, ::Mono::Net::CFString* mode)
+		::System::Void AddSource(::System::IntPtr a1, ::Mono::Net::CFString* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::Mono::Net::CFString*))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_ADDSOURCE_OFFSET))(this, source, mode);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::Mono::Net::CFString*))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_ADDSOURCE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveSource(::System::IntPtr source, ::Mono::Net::CFString* mode)
+		::System::Void RemoveSource(::System::IntPtr a1, ::Mono::Net::CFString* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::Mono::Net::CFString*))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_REMOVESOURCE_OFFSET))(this, source, mode);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::Mono::Net::CFString*))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_REMOVESOURCE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 RunInMode(::Mono::Net::CFString* mode, ::System::Double seconds, ::System::Boolean returnAfterSourceHandled)
+		::System::Int32 RunInMode(::Mono::Net::CFString* a1, ::System::Double a2, ::System::Boolean a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Mono::Net::CFString*, ::System::Double, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_RUNINMODE_OFFSET))(this, mode, seconds, returnAfterSourceHandled);
+			return ((::System::Int32(*)(::PVOID, ::Mono::Net::CFString*, ::System::Double, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFRUNLOOP_RUNINMODE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Stop()

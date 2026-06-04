@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicVisualization_BeatEffectElementLightSimple_ControlType_TypeDefinitionIndex = 65301;
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementLightSimple_ControlType_TypeDefinitionIndex = 66228;
 
 	enum class MusicVisualization_BeatEffectElementLightSimple_ControlType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int ByteEnum_TypeDefinitionIndex = 394;
+	inline static constexpr unsigned int ByteEnum_TypeDefinitionIndex = 393;
 
 	enum class ByteEnum : ::System::Byte
 	{

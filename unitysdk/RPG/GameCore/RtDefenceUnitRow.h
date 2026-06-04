@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTDEFENCEUNITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18DCF470)
-#define RPG_GAMECORE_RTDEFENCEUNITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18DCFBC0)
+#define RPG_GAMECORE_RTDEFENCEUNITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BE8DD0)
+#define RPG_GAMECORE_RTDEFENCEUNITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE9520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceUnitRow_TypeDefinitionIndex = 17160;
+	inline static constexpr unsigned int RtDefenceUnitRow_TypeDefinitionIndex = 17169;
 
 	class RtDefenceUnitRow : public ::RPG::GameCore::JsonConfig
 	{
@@ -42,9 +42,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCEUNITROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RtDefenceUnitRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtDefenceUnitRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtDefenceUnitRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCEUNITROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtDefenceUnitRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCEUNITROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

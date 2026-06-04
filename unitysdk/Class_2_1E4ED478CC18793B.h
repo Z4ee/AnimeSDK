@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
@@ -8,27 +8,27 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RtModifierConfig; }
 namespace System { class String; }
 
-#define CLASS_2_1E4ED478CC18793B_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x9B8B2A0)
-#define CLASS_2_1E4ED478CC18793B_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x9B8B250)
-#define CLASS_2_1E4ED478CC18793B_METHOD_2_01B86EDCA4314B2B_OFFSET UNITYSDK_OFFSET(0x9B8B130)
-#define CLASS_2_1E4ED478CC18793B__CTOR_OFFSET UNITYSDK_OFFSET(0x9B8B2F0)
+#define CLASS_2_1E4ED478CC18793B_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA6072A0)
+#define CLASS_2_1E4ED478CC18793B_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA607250)
+#define CLASS_2_1E4ED478CC18793B_METHOD_2_01B86EDCA4314B2B_OFFSET UNITYSDK_OFFSET(0xA607130)
+#define CLASS_2_1E4ED478CC18793B__CTOR_OFFSET UNITYSDK_OFFSET(0xA6072F0)
 
-inline static constexpr unsigned int Class_2_1E4ED478CC18793B_TypeDefinitionIndex = 49857;
+inline static constexpr unsigned int Class_2_1E4ED478CC18793B_TypeDefinitionIndex = 50524;
 
-class Class_2_1E4ED478CC18793B : public ::Class_1_9988289E7F8AA214
+class Class_2_1E4ED478CC18793B : public ::Class_1_BF7A075734D15E98
 {
 public:
-	::RPG::GameCore::RtModifierConfig* Field_2_2; // 0x18
-	::System::String* Field_2_3; // 0x20
-	::RPG::GameCore::GameEntity* Field_2_1; // 0x28
-	::System::String* Field_2_4; // 0x30
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x38
-	::RPG::GameCore::FixPoint Field_2_6; // 0x40
-	::RPG::GameCore::FixPoint Field_2_5; // 0x48
-	::System::Boolean Field_2_8; // 0x50
-	::System::Boolean Field_2_7; // 0x51
-	::System::Boolean Field_2_10; // 0x52
-	::RPG::GameCore::FixPoint Field_2_9; // 0x58
+	::System::String* Field_2_0; // 0x18
+	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
+	::System::String* Field_2_2; // 0x28
+	::RPG::GameCore::GameEntity* Field_2_3; // 0x30
+	::RPG::GameCore::RtModifierConfig* Field_2_4; // 0x38
+	::RPG::GameCore::FixPoint Field_2_5; // 0x40
+	::System::Boolean Field_2_6; // 0x48
+	::System::Boolean Field_2_7; // 0x49
+	::System::Boolean Field_2_8; // 0x4A
+	::RPG::GameCore::FixPoint Field_2_9; // 0x50
+	::RPG::GameCore::FixPoint Field_2_10; // 0x58
 
 	::System::Void _ctor()
 	{

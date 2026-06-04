@@ -9,12 +9,12 @@ namespace RPG::GameCore { class LevelRotatableBakedInfo; }
 namespace RPG::GameCore { class PerFloorConflictRelativeMissionBakedData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELFLOORBAKEDINFO_METHOD_2_BBD91CA5689DA08A_OFFSET UNITYSDK_OFFSET(0x18A418D0)
-#define RPG_GAMECORE_LEVELFLOORBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A41AD0)
+#define RPG_GAMECORE_LEVELFLOORBAKEDINFO_METHOD_2_1F5CCD36340F1555_OFFSET UNITYSDK_OFFSET(0x19873860)
+#define RPG_GAMECORE_LEVELFLOORBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19873A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelFloorBakedInfo_TypeDefinitionIndex = 16277;
+	inline static constexpr unsigned int LevelFloorBakedInfo_TypeDefinitionIndex = 16311;
 
 	class LevelFloorBakedInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELFLOORBAKEDINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BBD91CA5689DA08A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelFloorBakedInfo*& a2)
+		static ::System::Void Method_2_1F5CCD36340F1555(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelFloorBakedInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelFloorBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELFLOORBAKEDINFO_METHOD_2_BBD91CA5689DA08A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelFloorBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELFLOORBAKEDINFO_METHOD_2_1F5CCD36340F1555_OFFSET))(a1, a2);
 		}
 	};
 }

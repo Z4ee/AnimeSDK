@@ -8,9 +8,9 @@ namespace System::ComponentModel { class AttributeCollection; }
 namespace System::ComponentModel { class TypeConverter; }
 namespace System::ComponentModel { class TypeDescriptor_TypeDescriptionNode; }
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_DEFAULTTYPEDESCRIPTOR_SYSTEM_COMPONENTMODEL_ICUSTOMTYPEDESCRIPTOR_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x22D3E80)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_DEFAULTTYPEDESCRIPTOR_SYSTEM_COMPONENTMODEL_ICUSTOMTYPEDESCRIPTOR_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x22D3E90)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_DEFAULTTYPEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x29C30)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_DEFAULTTYPEDESCRIPTOR_SYSTEM_COMPONENTMODEL_ICUSTOMTYPEDESCRIPTOR_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x386F600)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_DEFAULTTYPEDESCRIPTOR_SYSTEM_COMPONENTMODEL_ICUSTOMTYPEDESCRIPTOR_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x386F610)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_DEFAULTTYPEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x2C890)
 
 namespace System::ComponentModel
 {
@@ -22,9 +22,9 @@ namespace System::ComponentModel
 		::System::Type* _objectType; // 0x18
 		::System::Object* _instance; // 0x20
 
-		::System::Void _ctor(::System::ComponentModel::TypeDescriptor_TypeDescriptionNode* node, ::System::Type* objectType, ::System::Object* instance)
+		::System::Void _ctor(::System::ComponentModel::TypeDescriptor_TypeDescriptionNode* a1, ::System::Type* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ComponentModel::TypeDescriptor_TypeDescriptionNode*, ::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_DEFAULTTYPEDESCRIPTOR__CTOR_OFFSET))(this, node, objectType, instance);
+			return ((::System::Void(*)(::PVOID, ::System::ComponentModel::TypeDescriptor_TypeDescriptionNode*, ::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTIONNODE_DEFAULTTYPEDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes()

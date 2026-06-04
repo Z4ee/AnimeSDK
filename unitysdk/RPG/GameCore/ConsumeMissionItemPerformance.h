@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SimpleTalkInfo; }
 
-#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_10E2BE5BBA1C301F_OFFSET UNITYSDK_OFFSET(0x1883ABC0)
-#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_9F74E7D99C106BDD_OFFSET UNITYSDK_OFFSET(0x1883AB40)
-#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1883AB90)
+#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_4B918E7CED069D6C_OFFSET UNITYSDK_OFFSET(0x19679F60)
+#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_4F67A540B9F3FA99_OFFSET UNITYSDK_OFFSET(0x19679FE0)
+#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19679FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConsumeMissionItemPerformance_TypeDefinitionIndex = 19403;
+	inline static constexpr unsigned int ConsumeMissionItemPerformance_TypeDefinitionIndex = 19308;
 
 	class ConsumeMissionItemPerformance : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9F74E7D99C106BDD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeMissionItemPerformance*& a2)
+		static ::System::Void Method_3_4B918E7CED069D6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeMissionItemPerformance*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeMissionItemPerformance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_9F74E7D99C106BDD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeMissionItemPerformance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_4B918E7CED069D6C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_10E2BE5BBA1C301F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeMissionItemPerformance* a2)
+		static ::System::Void Method_3_4F67A540B9F3FA99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeMissionItemPerformance* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeMissionItemPerformance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_10E2BE5BBA1C301F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeMissionItemPerformance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_4F67A540B9F3FA99_OFFSET))(a1, a2);
 		}
 	};
 }

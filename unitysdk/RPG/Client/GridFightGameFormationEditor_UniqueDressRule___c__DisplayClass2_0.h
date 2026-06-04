@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_UNIQUEDRESSRULE___C__DISPLAYCLASS2_0__CANDRESS_B__0_OFFSET UNITYSDK_OFFSET(0xA4B8090)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_UNIQUEDRESSRULE___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4B8080)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_UNIQUEDRESSRULE___C__DISPLAYCLASS2_0__CANDRESS_B__0_OFFSET UNITYSDK_OFFSET(0xBB5BDA0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_UNIQUEDRESSRULE___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB5BD90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_UniqueDressRule___c__DisplayClass2_0_TypeDefinitionIndex = 59488;
+	inline static constexpr unsigned int GridFightGameFormationEditor_UniqueDressRule___c__DisplayClass2_0_TypeDefinitionIndex = 60423;
 
 	class GridFightGameFormationEditor_UniqueDressRule___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_UNIQUEDRESSRULE___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _CanDress_b__0(::System::UInt32 x)
+		::System::Boolean _CanDress_b__0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_UNIQUEDRESSRULE___C__DISPLAYCLASS2_0__CANDRESS_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_UNIQUEDRESSRULE___C__DISPLAYCLASS2_0__CANDRESS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

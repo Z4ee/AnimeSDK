@@ -17,23 +17,23 @@ namespace Epic::OnlineServices::Lobby { class LobbyDetailsGetMemberByIndexOption
 namespace Epic::OnlineServices::Lobby { class LobbyDetailsGetMemberCountOptions; }
 namespace Epic::OnlineServices::Lobby { class LobbyDetailsInfo; }
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYATTRIBUTEBYINDEX_OFFSET UNITYSDK_OFFSET(0x8EAC690)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYATTRIBUTEBYKEY_OFFSET UNITYSDK_OFFSET(0x8EAC890)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYINFO_OFFSET UNITYSDK_OFFSET(0x8EACB20)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYMEMBERATTRIBUTEBYINDEX_OFFSET UNITYSDK_OFFSET(0x8EACDC0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYMEMBERATTRIBUTEBYKEY_OFFSET UNITYSDK_OFFSET(0x8EAD050)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETATTRIBUTECOUNT_OFFSET UNITYSDK_OFFSET(0x8EAD250)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETLOBBYOWNER_OFFSET UNITYSDK_OFFSET(0x8EAD470)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERATTRIBUTECOUNT_OFFSET UNITYSDK_OFFSET(0x8EAD6A0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERBYINDEX_OFFSET UNITYSDK_OFFSET(0x8EAD890)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x8EAD9F0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_RELEASE_OFFSET UNITYSDK_OFFSET(0x8EADC10)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8EAC680)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS__CTOR_OFFSET UNITYSDK_OFFSET(0x8EAC670)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYATTRIBUTEBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2E79B0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYATTRIBUTEBYKEY_OFFSET UNITYSDK_OFFSET(0xA2E7BB0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYINFO_OFFSET UNITYSDK_OFFSET(0xA2E7E40)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYMEMBERATTRIBUTEBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2E8100)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYMEMBERATTRIBUTEBYKEY_OFFSET UNITYSDK_OFFSET(0xA2E8390)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETATTRIBUTECOUNT_OFFSET UNITYSDK_OFFSET(0xA2E8590)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETLOBBYOWNER_OFFSET UNITYSDK_OFFSET(0xA2E87D0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERATTRIBUTECOUNT_OFFSET UNITYSDK_OFFSET(0xA2E8A10)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2E8C00)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xA2E8D60)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_RELEASE_OFFSET UNITYSDK_OFFSET(0xA2E8FA0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA2E79A0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2E7990)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbyDetails_TypeDefinitionIndex = 41870;
+	inline static constexpr unsigned int LobbyDetails_TypeDefinitionIndex = 42673;
 
 	class LobbyDetails : public ::Epic::OnlineServices::Handle
 	{
@@ -55,59 +55,59 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopyAttributeByIndex(::Epic::OnlineServices::Lobby::LobbyDetailsCopyAttributeByIndexOptions* options, ::Epic::OnlineServices::Lobby::Attribute*& outAttribute)
+		::Epic::OnlineServices::Result CopyAttributeByIndex(::Epic::OnlineServices::Lobby::LobbyDetailsCopyAttributeByIndexOptions* a1, ::Epic::OnlineServices::Lobby::Attribute*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsCopyAttributeByIndexOptions*, ::Epic::OnlineServices::Lobby::Attribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYATTRIBUTEBYINDEX_OFFSET))(this, options, outAttribute);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsCopyAttributeByIndexOptions*, ::Epic::OnlineServices::Lobby::Attribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYATTRIBUTEBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyAttributeByKey(::Epic::OnlineServices::Lobby::LobbyDetailsCopyAttributeByKeyOptions* options, ::Epic::OnlineServices::Lobby::Attribute*& outAttribute)
+		::Epic::OnlineServices::Result CopyAttributeByKey(::Epic::OnlineServices::Lobby::LobbyDetailsCopyAttributeByKeyOptions* a1, ::Epic::OnlineServices::Lobby::Attribute*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsCopyAttributeByKeyOptions*, ::Epic::OnlineServices::Lobby::Attribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYATTRIBUTEBYKEY_OFFSET))(this, options, outAttribute);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsCopyAttributeByKeyOptions*, ::Epic::OnlineServices::Lobby::Attribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYATTRIBUTEBYKEY_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyInfo(::Epic::OnlineServices::Lobby::LobbyDetailsCopyInfoOptions* options, ::Epic::OnlineServices::Lobby::LobbyDetailsInfo*& outLobbyDetailsInfo)
+		::Epic::OnlineServices::Result CopyInfo(::Epic::OnlineServices::Lobby::LobbyDetailsCopyInfoOptions* a1, ::Epic::OnlineServices::Lobby::LobbyDetailsInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsCopyInfoOptions*, ::Epic::OnlineServices::Lobby::LobbyDetailsInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYINFO_OFFSET))(this, options, outLobbyDetailsInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsCopyInfoOptions*, ::Epic::OnlineServices::Lobby::LobbyDetailsInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYINFO_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyMemberAttributeByIndex(::Epic::OnlineServices::Lobby::LobbyDetailsCopyMemberAttributeByIndexOptions* options, ::Epic::OnlineServices::Lobby::Attribute*& outAttribute)
+		::Epic::OnlineServices::Result CopyMemberAttributeByIndex(::Epic::OnlineServices::Lobby::LobbyDetailsCopyMemberAttributeByIndexOptions* a1, ::Epic::OnlineServices::Lobby::Attribute*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsCopyMemberAttributeByIndexOptions*, ::Epic::OnlineServices::Lobby::Attribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYMEMBERATTRIBUTEBYINDEX_OFFSET))(this, options, outAttribute);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsCopyMemberAttributeByIndexOptions*, ::Epic::OnlineServices::Lobby::Attribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYMEMBERATTRIBUTEBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyMemberAttributeByKey(::Epic::OnlineServices::Lobby::LobbyDetailsCopyMemberAttributeByKeyOptions* options, ::Epic::OnlineServices::Lobby::Attribute*& outAttribute)
+		::Epic::OnlineServices::Result CopyMemberAttributeByKey(::Epic::OnlineServices::Lobby::LobbyDetailsCopyMemberAttributeByKeyOptions* a1, ::Epic::OnlineServices::Lobby::Attribute*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsCopyMemberAttributeByKeyOptions*, ::Epic::OnlineServices::Lobby::Attribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYMEMBERATTRIBUTEBYKEY_OFFSET))(this, options, outAttribute);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsCopyMemberAttributeByKeyOptions*, ::Epic::OnlineServices::Lobby::Attribute*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_COPYMEMBERATTRIBUTEBYKEY_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetAttributeCount(::Epic::OnlineServices::Lobby::LobbyDetailsGetAttributeCountOptions* options)
+		::System::UInt32 GetAttributeCount(::Epic::OnlineServices::Lobby::LobbyDetailsGetAttributeCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsGetAttributeCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETATTRIBUTECOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsGetAttributeCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETATTRIBUTECOUNT_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::ProductUserId* GetLobbyOwner(::Epic::OnlineServices::Lobby::LobbyDetailsGetLobbyOwnerOptions* options)
+		::Epic::OnlineServices::ProductUserId* GetLobbyOwner(::Epic::OnlineServices::Lobby::LobbyDetailsGetLobbyOwnerOptions* a1)
 		{
-			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsGetLobbyOwnerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETLOBBYOWNER_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsGetLobbyOwnerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETLOBBYOWNER_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetMemberAttributeCount(::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberAttributeCountOptions* options)
+		::System::UInt32 GetMemberAttributeCount(::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberAttributeCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberAttributeCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERATTRIBUTECOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberAttributeCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERATTRIBUTECOUNT_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::ProductUserId* GetMemberByIndex(::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberByIndexOptions* options)
+		::Epic::OnlineServices::ProductUserId* GetMemberByIndex(::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberByIndexOptions* a1)
 		{
-			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERBYINDEX_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERBYINDEX_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetMemberCount(::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberCountOptions* options)
+		::System::UInt32 GetMemberCount(::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetailsGetMemberCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILS_GETMEMBERCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Void Release()

@@ -7,23 +7,23 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class FieldDescriptor; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x173967A0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x17396DE0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x173A9070)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x181A0580)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x181A0BF0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x181B2790)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldAccessorBase_TypeDefinitionIndex = 33740;
+	inline static constexpr unsigned int FieldAccessorBase_TypeDefinitionIndex = 34022;
 
 	class FieldAccessorBase : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor* descriptor; // 0x10
-		::System::Func_2<::MiHoYo::SDK::Protobuf::IMessage*, ::System::Object*>* getValueDelegate; // 0x18
+		::System::Func_2<::MiHoYo::SDK::Protobuf::IMessage*, ::System::Object*>* getValueDelegate; // 0x10
+		::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor* descriptor; // 0x18
 
-		::System::Void _ctor(::System::Reflection::PropertyInfo* property, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor* descriptor)
+		::System::Void _ctor(::System::Reflection::PropertyInfo* a1, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::PropertyInfo*, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE__CTOR_OFFSET))(this, property, descriptor);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::PropertyInfo*, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor* get_Descriptor()
@@ -31,9 +31,9 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 			return ((::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GET_DESCRIPTOR_OFFSET))(this);
 		}
 
-		::System::Object* GetValue(::MiHoYo::SDK::Protobuf::IMessage* message)
+		::System::Object* GetValue(::MiHoYo::SDK::Protobuf::IMessage* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::IMessage*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET))(this, message);
+			return ((::System::Object*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::IMessage*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET))(this, a1);
 		}
 	};
 }

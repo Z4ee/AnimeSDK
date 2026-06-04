@@ -5,15 +5,15 @@
 namespace RPG::Client { class ChimeraDuelTalkData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CHIMERADUELTALKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA020BC0)
-#define RPG_CLIENT_CHIMERADUELTALKINFO_INIT_OFFSET UNITYSDK_OFFSET(0xA020360)
-#define RPG_CLIENT_CHIMERADUELTALKINFO_TRYGETTALKDATA_OFFSET UNITYSDK_OFFSET(0xA023230)
-#define RPG_CLIENT_CHIMERADUELTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA020350)
-#define RPG_CLIENT_CHIMERADUELTALKINFO__LOADDATA_OFFSET UNITYSDK_OFFSET(0xA022FC0)
+#define RPG_CLIENT_CHIMERADUELTALKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB69D180)
+#define RPG_CLIENT_CHIMERADUELTALKINFO_INIT_OFFSET UNITYSDK_OFFSET(0xB69CB10)
+#define RPG_CLIENT_CHIMERADUELTALKINFO_TRYGETTALKDATA_OFFSET UNITYSDK_OFFSET(0xB69F4A0)
+#define RPG_CLIENT_CHIMERADUELTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB69CB00)
+#define RPG_CLIENT_CHIMERADUELTALKINFO__LOADDATA_OFFSET UNITYSDK_OFFSET(0xB69F1E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelTalkInfo_TypeDefinitionIndex = 58399;
+	inline static constexpr unsigned int ChimeraDuelTalkInfo_TypeDefinitionIndex = 59329;
 
 	class ChimeraDuelTalkInfo : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELTALKINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::RPG::Client::ChimeraDuelTalkData* TryGetTalkData(::System::UInt32 id)
+		::RPG::Client::ChimeraDuelTalkData* TryGetTalkData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraDuelTalkData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELTALKINFO_TRYGETTALKDATA_OFFSET))(this, id);
+			return ((::RPG::Client::ChimeraDuelTalkData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELTALKINFO_TRYGETTALKDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void _LoadData()

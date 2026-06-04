@@ -7,11 +7,11 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HAPI_ATTRIBUTEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x262B0)
+#define HOUDINIENGINEUNITY_HAPI_ATTRIBUTEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2D4A6A0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_AttributeInfo_TypeDefinitionIndex = 43600;
+	inline static constexpr unsigned int HAPI_AttributeInfo_TypeDefinitionIndex = 37542;
 
 	struct alignas(8) HAPI_AttributeInfo
 	{
@@ -24,9 +24,9 @@ namespace HoudiniEngineUnity
 		::System::Int64 totalArrayElements; // 0x28
 		::HoudiniEngineUnity::HAPI_AttributeTypeInfo typeInfo; // 0x30
 
-		::System::Void _ctor(::System::String* ignored)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HAPI_ATTRIBUTEINFO__CTOR_OFFSET))(this, ignored);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HAPI_ATTRIBUTEINFO__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

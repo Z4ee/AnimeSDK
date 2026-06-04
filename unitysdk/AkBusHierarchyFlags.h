@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkBusHierarchyFlags_TypeDefinitionIndex = 40277;
+inline static constexpr unsigned int AkBusHierarchyFlags_TypeDefinitionIndex = 41104;
 
 enum class AkBusHierarchyFlags : ::System::Int32
 {

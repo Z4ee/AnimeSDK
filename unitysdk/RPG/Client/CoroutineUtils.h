@@ -17,68 +17,68 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_COROUTINEUTILS_DESTROY_OFFSET UNITYSDK_OFFSET(0x19D93020)
-#define RPG_CLIENT_COROUTINEUTILS_GET_ISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x19D932E0)
-#define RPG_CLIENT_COROUTINEUTILS_GET_MAINTHREADID_OFFSET UNITYSDK_OFFSET(0x19D932C0)
-#define RPG_CLIENT_COROUTINEUTILS_INIT_OFFSET UNITYSDK_OFFSET(0x19D93130)
-#define RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERFRAMESPROMISE_OFFSET UNITYSDK_OFFSET(0x19D942A0)
-#define RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERFRAMES_OFFSET UNITYSDK_OFFSET(0x19D940B0)
-#define RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERSECONDSPROMISE_OFFSET UNITYSDK_OFFSET(0x19D94360)
-#define RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERSECONDS_OFFSET UNITYSDK_OFFSET(0x19D941A0)
-#define RPG_CLIENT_COROUTINEUTILS_INVOKEENDOFFRAME_OFFSET UNITYSDK_OFFSET(0x19D93FD0)
-#define RPG_CLIENT_COROUTINEUTILS_INVOKENEXTFRAME_OFFSET UNITYSDK_OFFSET(0x19D93EF0)
-#define RPG_CLIENT_COROUTINEUTILS_INVOKEUNTIL_OFFSET UNITYSDK_OFFSET(0x19D93E00)
-#define RPG_CLIENT_COROUTINEUTILS_INVOKE_OFFSET UNITYSDK_OFFSET(0x19D93D00)
-#define RPG_CLIENT_COROUTINEUTILS_SET_MAINTHREADID_OFFSET UNITYSDK_OFFSET(0x19D932D0)
-#define RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINEMT_1_OFFSET UNITYSDK_OFFSET(0x19D93650)
-#define RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINEMT_OFFSET UNITYSDK_OFFSET(0x19D93380)
-#define RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x19D935B0)
-#define RPG_CLIENT_COROUTINEUTILS_STARTINCTRLCOROUTINE_OFFSET UNITYSDK_OFFSET(0x19D93840)
-#define RPG_CLIENT_COROUTINEUTILS_STARTPENDINGCOROUTINES_OFFSET UNITYSDK_OFFSET(0x19D92D60)
-#define RPG_CLIENT_COROUTINEUTILS_STOPCOROUTINE_OFFSET UNITYSDK_OFFSET(0x19D938E0)
-#define RPG_CLIENT_COROUTINEUTILS_STOPINCTRLCOROUTINES_OFFSET UNITYSDK_OFFSET(0x19D93990)
-#define RPG_CLIENT_COROUTINEUTILS__ADDINCTRLCOROUTINE_OFFSET UNITYSDK_OFFSET(0x19D93670)
-#define RPG_CLIENT_COROUTINEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D945D0)
-#define RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERFRAMESCOROUTINE_OFFSET UNITYSDK_OFFSET(0x19D94170)
-#define RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERFRAMESPROMISE_OFFSET UNITYSDK_OFFSET(0x19D94480)
-#define RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERSECONDSCOROUTINE_OFFSET UNITYSDK_OFFSET(0x19D94260)
-#define RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERSECONDSPROMISE_OFFSET UNITYSDK_OFFSET(0x19D944E0)
-#define RPG_CLIENT_COROUTINEUTILS__INVOKECOROUTINEUNTIL_OFFSET UNITYSDK_OFFSET(0x19D93EC0)
-#define RPG_CLIENT_COROUTINEUTILS__INVOKECOROUTINE_OFFSET UNITYSDK_OFFSET(0x19D93DC0)
-#define RPG_CLIENT_COROUTINEUTILS__INVOKEENDOFFRAMECOROUTINE_OFFSET UNITYSDK_OFFSET(0x19D94080)
-#define RPG_CLIENT_COROUTINEUTILS__INVOKENEXTFRAMECOROUTINE_OFFSET UNITYSDK_OFFSET(0x19D93FA0)
-#define RPG_CLIENT_COROUTINEUTILS__WAITINCTRLCOROUTINE_OFFSET UNITYSDK_OFFSET(0x19D94590)
+#define RPG_CLIENT_COROUTINEUTILS_DESTROY_OFFSET UNITYSDK_OFFSET(0x1AC10C10)
+#define RPG_CLIENT_COROUTINEUTILS_GET_ISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1AC10EE0)
+#define RPG_CLIENT_COROUTINEUTILS_GET_MAINTHREADID_OFFSET UNITYSDK_OFFSET(0x1AC10EC0)
+#define RPG_CLIENT_COROUTINEUTILS_INIT_OFFSET UNITYSDK_OFFSET(0x1AC10D40)
+#define RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERFRAMESPROMISE_OFFSET UNITYSDK_OFFSET(0x1AC12060)
+#define RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERFRAMES_OFFSET UNITYSDK_OFFSET(0x1AC11E70)
+#define RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERSECONDSPROMISE_OFFSET UNITYSDK_OFFSET(0x1AC12130)
+#define RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERSECONDS_OFFSET UNITYSDK_OFFSET(0x1AC11F60)
+#define RPG_CLIENT_COROUTINEUTILS_INVOKEENDOFFRAME_OFFSET UNITYSDK_OFFSET(0x1AC11D90)
+#define RPG_CLIENT_COROUTINEUTILS_INVOKENEXTFRAME_OFFSET UNITYSDK_OFFSET(0x1AC11CB0)
+#define RPG_CLIENT_COROUTINEUTILS_INVOKEUNTIL_OFFSET UNITYSDK_OFFSET(0x1AC11BC0)
+#define RPG_CLIENT_COROUTINEUTILS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AC11AC0)
+#define RPG_CLIENT_COROUTINEUTILS_SET_MAINTHREADID_OFFSET UNITYSDK_OFFSET(0x1AC10ED0)
+#define RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINEMT_1_OFFSET UNITYSDK_OFFSET(0x1AC112B0)
+#define RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINEMT_OFFSET UNITYSDK_OFFSET(0x1AC10F80)
+#define RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1AC11210)
+#define RPG_CLIENT_COROUTINEUTILS_STARTINCTRLCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1AC11570)
+#define RPG_CLIENT_COROUTINEUTILS_STARTPENDINGCOROUTINES_OFFSET UNITYSDK_OFFSET(0x1AC10920)
+#define RPG_CLIENT_COROUTINEUTILS_STOPCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1AC11610)
+#define RPG_CLIENT_COROUTINEUTILS_STOPINCTRLCOROUTINES_OFFSET UNITYSDK_OFFSET(0x1AC116C0)
+#define RPG_CLIENT_COROUTINEUTILS__ADDINCTRLCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1AC112D0)
+#define RPG_CLIENT_COROUTINEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC123C0)
+#define RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERFRAMESCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1AC11F30)
+#define RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERFRAMESPROMISE_OFFSET UNITYSDK_OFFSET(0x1AC12270)
+#define RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERSECONDSCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1AC12020)
+#define RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERSECONDSPROMISE_OFFSET UNITYSDK_OFFSET(0x1AC122D0)
+#define RPG_CLIENT_COROUTINEUTILS__INVOKECOROUTINEUNTIL_OFFSET UNITYSDK_OFFSET(0x1AC11C80)
+#define RPG_CLIENT_COROUTINEUTILS__INVOKECOROUTINE_OFFSET UNITYSDK_OFFSET(0x1AC11B80)
+#define RPG_CLIENT_COROUTINEUTILS__INVOKEENDOFFRAMECOROUTINE_OFFSET UNITYSDK_OFFSET(0x1AC11E40)
+#define RPG_CLIENT_COROUTINEUTILS__INVOKENEXTFRAMECOROUTINE_OFFSET UNITYSDK_OFFSET(0x1AC11D60)
+#define RPG_CLIENT_COROUTINEUTILS__WAITINCTRLCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1AC12380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoroutineUtils_TypeDefinitionIndex = 9654;
+	inline static constexpr unsigned int CoroutineUtils_TypeDefinitionIndex = 33423;
 
 	class CoroutineUtils : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::CoroutineBehaviour** StaticGet__Behaviour()
 		{
-			return (::RPG::Client::CoroutineBehaviour**)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0x19530);
-		}
-		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*>>** StaticGet__PendingCoroutines2()
-		{
-			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*>>**)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0x19538);
-		}
-		static ::System::Collections::Generic::List_1<::RPG::Client::CoroutineUtils_InControlCoroutineGroup*>** StaticGet__InCtrlCoroutineGroups()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::CoroutineUtils_InControlCoroutineGroup*>**)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0x19540);
+			return (::RPG::Client::CoroutineBehaviour**)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0x47E30);
 		}
 		static ::System::Collections::Generic::List_1<::RPG::Client::CoroutineUtils_InControlCoroutineGroup*>** StaticGet__FreeInCtrlCoroutineGroups()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::CoroutineUtils_InControlCoroutineGroup*>**)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0x19548);
+			return (::System::Collections::Generic::List_1<::RPG::Client::CoroutineUtils_InControlCoroutineGroup*>**)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0x47E38);
+		}
+		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*>>** StaticGet__PendingCoroutines2()
+		{
+			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*>>**)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0x47E40);
+		}
+		static ::System::Collections::Generic::List_1<::RPG::Client::CoroutineUtils_InControlCoroutineGroup*>** StaticGet__InCtrlCoroutineGroups()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::Client::CoroutineUtils_InControlCoroutineGroup*>**)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0x47E48);
 		}
 		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*>>** StaticGet__PendingCoroutines()
 		{
-			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*>>**)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0x19550);
+			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*>>**)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0x47E50);
 		}
 		static ::System::Int32* StaticGet__MainThreadID_k__BackingField()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0x6BA0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CoroutineUtils_TypeDefinitionIndex)->GetStaticField(0xD320);
 		}
 
 		static ::System::Void _cctor()
@@ -86,9 +86,9 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void Init(::UnityEngine::GameObject* go)
+		static ::System::Void Init(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INIT_OFFSET))(go);
+			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INIT_OFFSET))(a1);
 		}
 
 		static ::System::Int32 get_MainThreadID()
@@ -96,9 +96,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_GET_MAINTHREADID_OFFSET))();
 		}
 
-		static ::System::Void set_MainThreadID(::System::Int32 value)
+		static ::System::Void set_MainThreadID(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_SET_MAINTHREADID_OFFSET))(value);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_SET_MAINTHREADID_OFFSET))(a1);
 		}
 
 		static ::System::Boolean get_IsMainThread()
@@ -111,34 +111,34 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_DESTROY_OFFSET))();
 		}
 
-		static ::System::Void StartCoroutineMT(::System::Collections::IEnumerator* routine, ::RPG::Client::ICoroutineGroupController* ctrl, ::System::Boolean forcePending)
+		static ::System::Void StartCoroutineMT(::System::Collections::IEnumerator* a1, ::RPG::Client::ICoroutineGroupController* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINEMT_OFFSET))(routine, ctrl, forcePending);
+			return ((::System::Void(*)(::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINEMT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void StartCoroutineMT_1(::RPG::Client::ICoroutineGroupController* ctrl, ::System::Collections::IEnumerator* routine)
+		static ::System::Void StartCoroutineMT_1(::RPG::Client::ICoroutineGroupController* a1, ::System::Collections::IEnumerator* a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::ICoroutineGroupController*, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINEMT_1_OFFSET))(ctrl, routine);
+			return ((::System::Void(*)(::RPG::Client::ICoroutineGroupController*, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINEMT_1_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Coroutine* StartCoroutine(::System::Collections::IEnumerator* routine, ::RPG::Client::ICoroutineGroupController* ctrl)
+		static ::UnityEngine::Coroutine* StartCoroutine(::System::Collections::IEnumerator* a1, ::RPG::Client::ICoroutineGroupController* a2)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINE_OFFSET))(routine, ctrl);
+			return ((::UnityEngine::Coroutine*(*)(::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STARTCOROUTINE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void StartInCtrlCoroutine(::RPG::Client::ICoroutineGroupController* ctrl, ::System::Collections::IEnumerator* routine)
+		static ::System::Void StartInCtrlCoroutine(::RPG::Client::ICoroutineGroupController* a1, ::System::Collections::IEnumerator* a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::ICoroutineGroupController*, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STARTINCTRLCOROUTINE_OFFSET))(ctrl, routine);
+			return ((::System::Void(*)(::RPG::Client::ICoroutineGroupController*, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STARTINCTRLCOROUTINE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void StopCoroutine(::UnityEngine::Coroutine* coroutine)
+		static ::System::Void StopCoroutine(::UnityEngine::Coroutine* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Coroutine*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STOPCOROUTINE_OFFSET))(coroutine);
+			return ((::System::Void(*)(::UnityEngine::Coroutine*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STOPCOROUTINE_OFFSET))(a1);
 		}
 
-		static ::System::Void StopInCtrlCoroutines(::RPG::Client::ICoroutineGroupController* ctrl)
+		static ::System::Void StopInCtrlCoroutines(::RPG::Client::ICoroutineGroupController* a1)
 		{
-			return ((::System::Void(*)(::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STOPINCTRLCOROUTINES_OFFSET))(ctrl);
+			return ((::System::Void(*)(::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STOPINCTRLCOROUTINES_OFFSET))(a1);
 		}
 
 		static ::System::Void StartPendingCoroutines()
@@ -146,94 +146,94 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_STARTPENDINGCOROUTINES_OFFSET))();
 		}
 
-		static ::UnityEngine::Coroutine* Invoke(::System::Single duration, ::System::Action* callback, ::RPG::Client::ICoroutineGroupController* ctrl)
+		static ::UnityEngine::Coroutine* Invoke(::System::Single a1, ::System::Action* a2, ::RPG::Client::ICoroutineGroupController* a3)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::System::Single, ::System::Action*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKE_OFFSET))(duration, callback, ctrl);
+			return ((::UnityEngine::Coroutine*(*)(::System::Single, ::System::Action*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Coroutine* InvokeUntil(::System::Action* callBack, ::System::Func_1<::System::Boolean>* condition, ::RPG::Client::ICoroutineGroupController* ctrl)
+		static ::UnityEngine::Coroutine* InvokeUntil(::System::Action* a1, ::System::Func_1<::System::Boolean>* a2, ::RPG::Client::ICoroutineGroupController* a3)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::System::Action*, ::System::Func_1<::System::Boolean>*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEUNTIL_OFFSET))(callBack, condition, ctrl);
+			return ((::UnityEngine::Coroutine*(*)(::System::Action*, ::System::Func_1<::System::Boolean>*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEUNTIL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Coroutine* InvokeNextFrame(::System::Action* callback, ::RPG::Client::ICoroutineGroupController* ctrl)
+		static ::UnityEngine::Coroutine* InvokeNextFrame(::System::Action* a1, ::RPG::Client::ICoroutineGroupController* a2)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::System::Action*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKENEXTFRAME_OFFSET))(callback, ctrl);
+			return ((::UnityEngine::Coroutine*(*)(::System::Action*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKENEXTFRAME_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Coroutine* InvokeEndOfFrame(::System::Action* callback, ::RPG::Client::ICoroutineGroupController* ctrl)
+		static ::UnityEngine::Coroutine* InvokeEndOfFrame(::System::Action* a1, ::RPG::Client::ICoroutineGroupController* a2)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::System::Action*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEENDOFFRAME_OFFSET))(callback, ctrl);
+			return ((::UnityEngine::Coroutine*(*)(::System::Action*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEENDOFFRAME_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Coroutine* InvokeAfterFrames(::System::Int32 frames, ::System::Action* callback, ::RPG::Client::ICoroutineGroupController* ctrl)
+		static ::UnityEngine::Coroutine* InvokeAfterFrames(::System::Int32 a1, ::System::Action* a2, ::RPG::Client::ICoroutineGroupController* a3)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::System::Int32, ::System::Action*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERFRAMES_OFFSET))(frames, callback, ctrl);
+			return ((::UnityEngine::Coroutine*(*)(::System::Int32, ::System::Action*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERFRAMES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Coroutine* InvokeAfterSeconds(::System::Single seconds, ::System::Action* callback, ::RPG::Client::ICoroutineGroupController* ctrl)
+		static ::UnityEngine::Coroutine* InvokeAfterSeconds(::System::Single a1, ::System::Action* a2, ::RPG::Client::ICoroutineGroupController* a3)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::System::Single, ::System::Action*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERSECONDS_OFFSET))(seconds, callback, ctrl);
+			return ((::UnityEngine::Coroutine*(*)(::System::Single, ::System::Action*, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERSECONDS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::Promises::IPromise* InvokeAfterFramesPromise(::System::Int32 frames, ::RPG::Client::ICoroutineGroupController* ctrl)
+		static ::RPG::Client::Promises::IPromise* InvokeAfterFramesPromise(::System::Int32 a1, ::RPG::Client::ICoroutineGroupController* a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::System::Int32, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERFRAMESPROMISE_OFFSET))(frames, ctrl);
+			return ((::RPG::Client::Promises::IPromise*(*)(::System::Int32, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERFRAMESPROMISE_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::Promises::IPromise* InvokeAfterSecondsPromise(::System::Single seconds, ::RPG::Client::ICoroutineGroupController* ctrl)
+		static ::RPG::Client::Promises::IPromise* InvokeAfterSecondsPromise(::System::Single a1, ::RPG::Client::ICoroutineGroupController* a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::System::Single, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERSECONDSPROMISE_OFFSET))(seconds, ctrl);
+			return ((::RPG::Client::Promises::IPromise*(*)(::System::Single, ::RPG::Client::ICoroutineGroupController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS_INVOKEAFTERSECONDSPROMISE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::IEnumerator* _InvokeCoroutine(::System::Single duration, ::System::Action* callback)
+		static ::System::Collections::IEnumerator* _InvokeCoroutine(::System::Single a1, ::System::Action* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKECOROUTINE_OFFSET))(duration, callback);
+			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKECOROUTINE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::IEnumerator* _InvokeCoroutineUntil(::System::Action* callBack, ::System::Func_1<::System::Boolean>* condition)
+		static ::System::Collections::IEnumerator* _InvokeCoroutineUntil(::System::Action* a1, ::System::Func_1<::System::Boolean>* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Action*, ::System::Func_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKECOROUTINEUNTIL_OFFSET))(callBack, condition);
+			return ((::System::Collections::IEnumerator*(*)(::System::Action*, ::System::Func_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKECOROUTINEUNTIL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::IEnumerator* _InvokeNextFrameCoroutine(::System::Action* callback)
+		static ::System::Collections::IEnumerator* _InvokeNextFrameCoroutine(::System::Action* a1)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKENEXTFRAMECOROUTINE_OFFSET))(callback);
+			return ((::System::Collections::IEnumerator*(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKENEXTFRAMECOROUTINE_OFFSET))(a1);
 		}
 
-		static ::System::Collections::IEnumerator* _InvokeEndOfFrameCoroutine(::System::Action* callback)
+		static ::System::Collections::IEnumerator* _InvokeEndOfFrameCoroutine(::System::Action* a1)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEENDOFFRAMECOROUTINE_OFFSET))(callback);
+			return ((::System::Collections::IEnumerator*(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEENDOFFRAMECOROUTINE_OFFSET))(a1);
 		}
 
-		static ::System::Collections::IEnumerator* _InvokeAfterFramesCoroutine(::System::Int32 frames, ::System::Action* callback)
+		static ::System::Collections::IEnumerator* _InvokeAfterFramesCoroutine(::System::Int32 a1, ::System::Action* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERFRAMESCOROUTINE_OFFSET))(frames, callback);
+			return ((::System::Collections::IEnumerator*(*)(::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERFRAMESCOROUTINE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::IEnumerator* _InvokeAfterSecondsCoroutine(::System::Single seconds, ::System::Action* callback)
+		static ::System::Collections::IEnumerator* _InvokeAfterSecondsCoroutine(::System::Single a1, ::System::Action* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERSECONDSCOROUTINE_OFFSET))(seconds, callback);
+			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERSECONDSCOROUTINE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::IEnumerator* _InvokeAfterFramesPromise(::System::Int32 frames, ::System::Action* resolve, ::System::Action_1<::System::Exception*>* execption)
+		static ::System::Collections::IEnumerator* _InvokeAfterFramesPromise(::System::Int32 a1, ::System::Action* a2, ::System::Action_1<::System::Exception*>* a3)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Int32, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERFRAMESPROMISE_OFFSET))(frames, resolve, execption);
+			return ((::System::Collections::IEnumerator*(*)(::System::Int32, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERFRAMESPROMISE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::IEnumerator* _InvokeAfterSecondsPromise(::System::Single seconds, ::System::Action* resolve, ::System::Action_1<::System::Exception*>* execption)
+		static ::System::Collections::IEnumerator* _InvokeAfterSecondsPromise(::System::Single a1, ::System::Action* a2, ::System::Action_1<::System::Exception*>* a3)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERSECONDSPROMISE_OFFSET))(seconds, resolve, execption);
+			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERSECONDSPROMISE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _AddInCtrlCoroutine(::RPG::Client::ICoroutineGroupController* ctrl, ::UnityEngine::Coroutine* coroutine)
+		static ::System::Void _AddInCtrlCoroutine(::RPG::Client::ICoroutineGroupController* a1, ::UnityEngine::Coroutine* a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::ICoroutineGroupController*, ::UnityEngine::Coroutine*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__ADDINCTRLCOROUTINE_OFFSET))(ctrl, coroutine);
+			return ((::System::Void(*)(::RPG::Client::ICoroutineGroupController*, ::UnityEngine::Coroutine*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__ADDINCTRLCOROUTINE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::IEnumerator* _WaitInCtrlCoroutine(::RPG::Client::ICoroutineGroupController* ctrl, ::UnityEngine::Coroutine* coroutine)
+		static ::System::Collections::IEnumerator* _WaitInCtrlCoroutine(::RPG::Client::ICoroutineGroupController* a1, ::UnityEngine::Coroutine* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::RPG::Client::ICoroutineGroupController*, ::UnityEngine::Coroutine*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__WAITINCTRLCOROUTINE_OFFSET))(ctrl, coroutine);
+			return ((::System::Collections::IEnumerator*(*)(::RPG::Client::ICoroutineGroupController*, ::UnityEngine::Coroutine*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__WAITINCTRLCOROUTINE_OFFSET))(a1, a2);
 		}
 	};
 }

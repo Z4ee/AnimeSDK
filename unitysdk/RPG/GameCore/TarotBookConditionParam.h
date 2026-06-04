@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TAROTBOOKCONDITIONPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EFB090)
-#define RPG_GAMECORE_TAROTBOOKCONDITIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18EFB1A0)
+#define RPG_GAMECORE_TAROTBOOKCONDITIONPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D305E0)
+#define RPG_GAMECORE_TAROTBOOKCONDITIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19D306F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookConditionParam_TypeDefinitionIndex = 14448;
+	inline static constexpr unsigned int TarotBookConditionParam_TypeDefinitionIndex = 14473;
 
 	class TarotBookConditionParam : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKCONDITIONPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TarotBookConditionParam*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TarotBookConditionParam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TarotBookConditionParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKCONDITIONPARAM_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TarotBookConditionParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKCONDITIONPARAM_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

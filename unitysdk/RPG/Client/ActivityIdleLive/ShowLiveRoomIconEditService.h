@@ -5,13 +5,13 @@
 namespace RPG::Client::ActivityIdleLive { class LiveRoomIconUiData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE_STARTSERVICE_OFFSET UNITYSDK_OFFSET(0x9BDEC60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x9BDF170)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE__FINDDEFAULTICONIDBYHEROAVATAR_OFFSET UNITYSDK_OFFSET(0x9BDF060)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE_STARTSERVICE_OFFSET UNITYSDK_OFFSET(0xB17AC70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xB17B210)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE__FINDDEFAULTICONIDBYHEROAVATAR_OFFSET UNITYSDK_OFFSET(0xB17B0E0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int ShowLiveRoomIconEditService_TypeDefinitionIndex = 69424;
+	inline static constexpr unsigned int ShowLiveRoomIconEditService_TypeDefinitionIndex = 70236;
 
 	class ShowLiveRoomIconEditService : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE_STARTSERVICE_OFFSET))(this);
 		}
 
-		::System::UInt32 _FindDefaultIconIdByHeroAvatar(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::LiveRoomIconUiData*>* headIconUiDatas)
+		::System::UInt32 _FindDefaultIconIdByHeroAvatar(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::LiveRoomIconUiData*>* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::LiveRoomIconUiData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE__FINDDEFAULTICONIDBYHEROAVATAR_OFFSET))(this, headIconUiDatas);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::LiveRoomIconUiData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITSERVICE__FINDDEFAULTICONIDBYHEROAVATAR_OFFSET))(this, a1);
 		}
 	};
 }

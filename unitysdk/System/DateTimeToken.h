@@ -6,7 +6,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int DateTimeToken_TypeDefinitionIndex = 261;
+	inline static constexpr unsigned int DateTimeToken_TypeDefinitionIndex = 260;
 
 	struct alignas(4) DateTimeToken
 	{

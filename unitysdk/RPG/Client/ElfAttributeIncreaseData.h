@@ -3,28 +3,28 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_GET_NEWVALUE_OFFSET UNITYSDK_OFFSET(0xA220EB0)
-#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_GET_OLDVALUE_OFFSET UNITYSDK_OFFSET(0xA220E90)
-#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_GET_TEXTID_OFFSET UNITYSDK_OFFSET(0xA220E70)
-#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_NEWVALUE_OFFSET UNITYSDK_OFFSET(0xA220EC0)
-#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_OLDVALUE_OFFSET UNITYSDK_OFFSET(0xA220EA0)
-#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_TEXTID_OFFSET UNITYSDK_OFFSET(0xA220E80)
-#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA220E60)
+#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_GET_NEWVALUE_OFFSET UNITYSDK_OFFSET(0xB8A4740)
+#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_GET_OLDVALUE_OFFSET UNITYSDK_OFFSET(0xB8A4720)
+#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_GET_TEXTID_OFFSET UNITYSDK_OFFSET(0xB8A4700)
+#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_NEWVALUE_OFFSET UNITYSDK_OFFSET(0xB8A4750)
+#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_OLDVALUE_OFFSET UNITYSDK_OFFSET(0xB8A4730)
+#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_TEXTID_OFFSET UNITYSDK_OFFSET(0xB8A4710)
+#define RPG_CLIENT_ELFATTRIBUTEINCREASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A46F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfAttributeIncreaseData_TypeDefinitionIndex = 58714;
+	inline static constexpr unsigned int ElfAttributeIncreaseData_TypeDefinitionIndex = 59644;
 
 	class ElfAttributeIncreaseData : public ::System::Object
 	{
 	public:
-		::System::UInt32 _NewValue_k__BackingField; // 0x10
-		::System::UInt32 _OldValue_k__BackingField; // 0x14
-		::RPG::Client::TextID _TextID_k__BackingField; // 0x18
+		::RPG::Client::TextID _TextID_k__BackingField; // 0x10
+		::System::UInt32 _NewValue_k__BackingField; // 0x20
+		::System::UInt32 _OldValue_k__BackingField; // 0x24
 
-		::System::Void _ctor(::RPG::Client::TextID textID, ::System::UInt32 oldValue, ::System::UInt32 newValue)
+		::System::Void _ctor(::RPG::Client::TextID a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFATTRIBUTEINCREASEDATA__CTOR_OFFSET))(this, textID, oldValue, newValue);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFATTRIBUTEINCREASEDATA__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::TextID get_TextID()
@@ -32,9 +32,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_GET_TEXTID_OFFSET))(this);
 		}
 
-		::System::Void set_TextID(::RPG::Client::TextID value)
+		::System::Void set_TextID(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_TEXTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_TEXTID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_OldValue()
@@ -42,9 +42,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_GET_OLDVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_OldValue(::System::UInt32 value)
+		::System::Void set_OldValue(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_OLDVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_OLDVALUE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_NewValue()
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_GET_NEWVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_NewValue(::System::UInt32 value)
+		::System::Void set_NewValue(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_NEWVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFATTRIBUTEINCREASEDATA_SET_NEWVALUE_OFFSET))(this, a1);
 		}
 	};
 }

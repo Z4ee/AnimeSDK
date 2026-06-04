@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIFSBINDER_CONTENTSFILEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1626C00)
+#define CRIWARE_CRIFSBINDER_CONTENTSFILEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD7100)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsBinder_ContentsFileInfo_TypeDefinitionIndex = 36846;
+	inline static constexpr unsigned int CriFsBinder_ContentsFileInfo_TypeDefinitionIndex = 37146;
 
 	struct alignas(8) CriFsBinder_ContentsFileInfo
 	{
@@ -20,9 +20,9 @@ namespace CriWare
 		::System::Int32 fileId; // 0x30
 		::System::String* userStr; // 0x38
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* data, ::System::Int32 startIndex)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CONTENTSFILEINFO__CTOR_OFFSET))(this, data, startIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CONTENTSFILEINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_012EC4700627BF5E_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x11820250)
-#define CLASS_2_012EC4700627BF5E_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x11820200)
-#define CLASS_2_012EC4700627BF5E_METHOD_2_BAC7623E02B6BF7C_OFFSET UNITYSDK_OFFSET(0x11820190)
-#define CLASS_2_012EC4700627BF5E__CTOR_OFFSET UNITYSDK_OFFSET(0x118202A0)
+#define CLASS_2_012EC4700627BF5E_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xAC7D440)
+#define CLASS_2_012EC4700627BF5E_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xAC7D3F0)
+#define CLASS_2_012EC4700627BF5E_METHOD_2_BAC7623E02B6BF7C_OFFSET UNITYSDK_OFFSET(0xAC7D380)
+#define CLASS_2_012EC4700627BF5E__CTOR_OFFSET UNITYSDK_OFFSET(0xAC7D490)
 
-inline static constexpr unsigned int Class_2_012EC4700627BF5E_TypeDefinitionIndex = 49856;
+inline static constexpr unsigned int Class_2_012EC4700627BF5E_TypeDefinitionIndex = 50523;
 
-class Class_2_012EC4700627BF5E : public ::Class_1_9988289E7F8AA214
+class Class_2_012EC4700627BF5E : public ::Class_1_BF7A075734D15E98
 {
 public:
-	::RPG::GameCore::GameEntity* Field_2_1; // 0x18
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x20
+	::RPG::GameCore::GameEntity* Field_2_0; // 0x18
+	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
 	::System::Boolean Field_2_2; // 0x28
 
 	::System::Void _ctor()

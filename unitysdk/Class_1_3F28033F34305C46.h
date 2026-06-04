@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class HoyoTag; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_3F28033F34305C46_CLEAR_OFFSET UNITYSDK_OFFSET(0xC0B78D0)
-#define CLASS_1_3F28033F34305C46__CTOR_OFFSET UNITYSDK_OFFSET(0xC0B7960)
+#define CLASS_1_3F28033F34305C46_CLEAR_OFFSET UNITYSDK_OFFSET(0xABAF880)
+#define CLASS_1_3F28033F34305C46__CTOR_OFFSET UNITYSDK_OFFSET(0xABAF910)
 
-inline static constexpr unsigned int Class_1_3F28033F34305C46_TypeDefinitionIndex = 67947;
+inline static constexpr unsigned int Class_1_3F28033F34305C46_TypeDefinitionIndex = 68905;
 
 class Class_1_3F28033F34305C46 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::HashSet_1<::RPG::GameCore::HoyoTag*>* Field_1_1; // 0x10
-	::System::Int32 Field_1_0; // 0x18
+	::System::Collections::Generic::HashSet_1<::RPG::GameCore::HoyoTag*>* Field_1_0; // 0x10
+	::System::Int32 Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

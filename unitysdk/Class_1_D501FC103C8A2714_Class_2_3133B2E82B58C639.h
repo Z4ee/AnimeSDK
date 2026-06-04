@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_D501FC103C8A2714_Struct_2_AE83ED9A4DA0CE75.h"
+#include "unitysdk/System/Collections/Generic/Dictionary_2.h"
+
+class Class_1_43BD383C98B4C0C5_104;
+namespace System { class Type; }
+
+#define CLASS_1_D501FC103C8A2714_CLASS_2_3133B2E82B58C639_GET_IDTYPE_OFFSET UNITYSDK_OFFSET(0x1AC422A0)
+#define CLASS_1_D501FC103C8A2714_CLASS_2_3133B2E82B58C639_GET_MESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x1AC42290)
+#define CLASS_1_D501FC103C8A2714_CLASS_2_3133B2E82B58C639_METHOD_2_DEF41039C1435450_OFFSET UNITYSDK_OFFSET(0x1AC42390)
+#define CLASS_1_D501FC103C8A2714_CLASS_2_3133B2E82B58C639__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC42300)
+
+inline static constexpr unsigned int Class_1_D501FC103C8A2714_Class_2_3133B2E82B58C639_TypeDefinitionIndex = 40650;
+
+class Class_1_D501FC103C8A2714_Class_2_3133B2E82B58C639 : public ::System::Collections::Generic::Dictionary_2<::Class_1_D501FC103C8A2714_Struct_2_AE83ED9A4DA0CE75, ::Class_1_43BD383C98B4C0C5_104*>
+{
+public:
+	::System::Type* _MessageType_k__BackingField; // 0x48
+
+	::System::Void _ctor(::System::Type* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + CLASS_1_D501FC103C8A2714_CLASS_2_3133B2E82B58C639__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Type* get_MessageType()
+	{
+		return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D501FC103C8A2714_CLASS_2_3133B2E82B58C639_GET_MESSAGETYPE_OFFSET))(this);
+	}
+
+	::System::Type* get_IdType()
+	{
+		return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D501FC103C8A2714_CLASS_2_3133B2E82B58C639_GET_IDTYPE_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_DEF41039C1435450(::Class_1_D501FC103C8A2714_Struct_2_AE83ED9A4DA0CE75 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_D501FC103C8A2714_Struct_2_AE83ED9A4DA0CE75))((::PBYTE)hIl2Cpp + CLASS_1_D501FC103C8A2714_CLASS_2_3133B2E82B58C639_METHOD_2_DEF41039C1435450_OFFSET))(this, a1);
+	}
+};

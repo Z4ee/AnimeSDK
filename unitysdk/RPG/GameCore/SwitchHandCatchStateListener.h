@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWITCHHANDCATCHSTATELISTENER_METHOD_3_9E829A2D5918927C_OFFSET UNITYSDK_OFFSET(0x18EBA7D0)
-#define RPG_GAMECORE_SWITCHHANDCATCHSTATELISTENER_METHOD_3_FC37EE12B42B086C_OFFSET UNITYSDK_OFFSET(0x18EBA850)
-#define RPG_GAMECORE_SWITCHHANDCATCHSTATELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EBA820)
+#define RPG_GAMECORE_SWITCHHANDCATCHSTATELISTENER_METHOD_3_688B04CAD77B34C6_OFFSET UNITYSDK_OFFSET(0x19CDA670)
+#define RPG_GAMECORE_SWITCHHANDCATCHSTATELISTENER_METHOD_3_C26041CC2928CC52_OFFSET UNITYSDK_OFFSET(0x19CDA5F0)
+#define RPG_GAMECORE_SWITCHHANDCATCHSTATELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x19CDA640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchHandCatchStateListener_TypeDefinitionIndex = 19956;
+	inline static constexpr unsigned int SwitchHandCatchStateListener_TypeDefinitionIndex = 19819;
 
 	class SwitchHandCatchStateListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCATCHSTATELISTENER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9E829A2D5918927C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchHandCatchStateListener*& a2)
+		static ::System::Void Method_3_C26041CC2928CC52(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchHandCatchStateListener*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchHandCatchStateListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCATCHSTATELISTENER_METHOD_3_9E829A2D5918927C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchHandCatchStateListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCATCHSTATELISTENER_METHOD_3_C26041CC2928CC52_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FC37EE12B42B086C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchHandCatchStateListener* a2)
+		static ::System::Void Method_3_688B04CAD77B34C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchHandCatchStateListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchHandCatchStateListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCATCHSTATELISTENER_METHOD_3_FC37EE12B42B086C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchHandCatchStateListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCATCHSTATELISTENER_METHOD_3_688B04CAD77B34C6_OFFSET))(a1, a2);
 		}
 	};
 }

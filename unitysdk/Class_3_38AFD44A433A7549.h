@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerGroupEventOnDialogEnd; }
 
-#define CLASS_3_38AFD44A433A7549_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9809B40)
-#define CLASS_3_38AFD44A433A7549__CTOR_OFFSET UNITYSDK_OFFSET(0x9809B10)
+#define CLASS_3_38AFD44A433A7549_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCBE4AB0)
+#define CLASS_3_38AFD44A433A7549__CTOR_OFFSET UNITYSDK_OFFSET(0xCBE4A80)
 
-inline static constexpr unsigned int Class_3_38AFD44A433A7549_TypeDefinitionIndex = 49278;
+inline static constexpr unsigned int Class_3_38AFD44A433A7549_TypeDefinitionIndex = 49945;
 
 class Class_3_38AFD44A433A7549 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerGroupEventOnDialogEnd*>
 {

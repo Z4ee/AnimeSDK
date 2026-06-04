@@ -5,12 +5,12 @@
 namespace SRF::Service { class SRServiceManager_ServiceStub; }
 namespace SRF::Service { class ServiceSelectorAttribute; }
 
-#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA9240)
-#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS26_0__SCANTYPEFORSELECTORS_B__0_OFFSET UNITYSDK_OFFSET(0x19EA9480)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1F860)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS26_0__SCANTYPEFORSELECTORS_B__0_OFFSET UNITYSDK_OFFSET(0x1AD1FAB0)
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRServiceManager___c__DisplayClass26_0_TypeDefinitionIndex = 33331;
+	inline static constexpr unsigned int SRServiceManager___c__DisplayClass26_0_TypeDefinitionIndex = 33613;
 
 	class SRServiceManager___c__DisplayClass26_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace SRF::Service
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS26_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _ScanTypeForSelectors_b__0(::SRF::Service::SRServiceManager_ServiceStub* p)
+		::System::Boolean _ScanTypeForSelectors_b__0(::SRF::Service::SRServiceManager_ServiceStub* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::SRF::Service::SRServiceManager_ServiceStub*))((::PBYTE)hIl2Cpp + SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS26_0__SCANTYPEFORSELECTORS_B__0_OFFSET))(this, p);
+			return ((::System::Boolean(*)(::PVOID, ::SRF::Service::SRServiceManager_ServiceStub*))((::PBYTE)hIl2Cpp + SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS26_0__SCANTYPEFORSELECTORS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -12,44 +12,44 @@ namespace Newtonsoft::Json { class JsonWriter; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x17A5CAE0)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_GET_ENABLEVECTOR2_OFFSET UNITYSDK_OFFSET(0x17A5C240)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_GET_ENABLEVECTOR3_OFFSET UNITYSDK_OFFSET(0x17A5C260)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_GET_ENABLEVECTOR4_OFFSET UNITYSDK_OFFSET(0x17A5C280)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR2_OFFSET UNITYSDK_OFFSET(0x17A5C8A0)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR3_OFFSET UNITYSDK_OFFSET(0x17A5C930)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR4_OFFSET UNITYSDK_OFFSET(0x17A5C9F0)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x17A5C780)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR2_OFFSET UNITYSDK_OFFSET(0x17A5C250)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR3_OFFSET UNITYSDK_OFFSET(0x17A5C270)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR4_OFFSET UNITYSDK_OFFSET(0x17A5C290)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x17A5C2B0)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_WRITEVECTOR_OFFSET UNITYSDK_OFFSET(0x17A5C620)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A5CCA0)
-#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A5C2A0)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1880B820)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_GET_ENABLEVECTOR2_OFFSET UNITYSDK_OFFSET(0x1880AF20)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_GET_ENABLEVECTOR3_OFFSET UNITYSDK_OFFSET(0x1880AF40)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_GET_ENABLEVECTOR4_OFFSET UNITYSDK_OFFSET(0x1880AF60)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR2_OFFSET UNITYSDK_OFFSET(0x1880B5E0)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR3_OFFSET UNITYSDK_OFFSET(0x1880B670)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR4_OFFSET UNITYSDK_OFFSET(0x1880B730)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1880B4C0)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR2_OFFSET UNITYSDK_OFFSET(0x1880AF30)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR3_OFFSET UNITYSDK_OFFSET(0x1880AF50)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR4_OFFSET UNITYSDK_OFFSET(0x1880AF70)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1880AF90)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_WRITEVECTOR_OFFSET UNITYSDK_OFFSET(0x1880B390)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1880B9F0)
+#define NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1880AF80)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int VectorConverter_TypeDefinitionIndex = 8569;
+	inline static constexpr unsigned int VectorConverter_TypeDefinitionIndex = 9472;
 
 	class VectorConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:
+		static ::System::Type** StaticGet_V4()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(VectorConverter_TypeDefinitionIndex)->GetStaticField(0x2D830);
+		}
 		static ::System::Type** StaticGet_V3()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(VectorConverter_TypeDefinitionIndex)->GetStaticField(0x33AB0);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(VectorConverter_TypeDefinitionIndex)->GetStaticField(0x2D838);
 		}
 		static ::System::Type** StaticGet_V2()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(VectorConverter_TypeDefinitionIndex)->GetStaticField(0x33AB8);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(VectorConverter_TypeDefinitionIndex)->GetStaticField(0x2D840);
 		}
-		static ::System::Type** StaticGet_V4()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(VectorConverter_TypeDefinitionIndex)->GetStaticField(0x33AC0);
-		}
-		::System::Boolean _EnableVector3_k__BackingField; // 0x10
+		::System::Boolean _EnableVector4_k__BackingField; // 0x10
 		::System::Boolean _EnableVector2_k__BackingField; // 0x11
-		::System::Boolean _EnableVector4_k__BackingField; // 0x12
+		::System::Boolean _EnableVector3_k__BackingField; // 0x12
 
 		::System::Void _ctor()
 		{
@@ -66,9 +66,9 @@ namespace Newtonsoft::Json::Converters
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_GET_ENABLEVECTOR2_OFFSET))(this);
 		}
 
-		::System::Void set_EnableVector2(::System::Boolean value)
+		::System::Void set_EnableVector2(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR2_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR2_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_EnableVector3()
@@ -76,9 +76,9 @@ namespace Newtonsoft::Json::Converters
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_GET_ENABLEVECTOR3_OFFSET))(this);
 		}
 
-		::System::Void set_EnableVector3(::System::Boolean value)
+		::System::Void set_EnableVector3(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR3_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR3_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_EnableVector4()
@@ -86,44 +86,44 @@ namespace Newtonsoft::Json::Converters
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_GET_ENABLEVECTOR4_OFFSET))(this);
 		}
 
-		::System::Void set_EnableVector4(::System::Boolean value)
+		::System::Void set_EnableVector4(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR4_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_SET_ENABLEVECTOR4_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer)
+		::System::Void WriteJson(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::JsonSerializer* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_WRITEJSON_OFFSET))(this, writer, value, serializer);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_WRITEJSON_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void WriteVector(::Newtonsoft::Json::JsonWriter* writer, ::System::Single x, ::System::Single y, ::System::Nullable_1<::System::Single> z, ::System::Nullable_1<::System::Single> w)
+		static ::System::Void WriteVector(::Newtonsoft::Json::JsonWriter* a1, ::System::Single a2, ::System::Single a3, ::System::Nullable_1<::System::Single> a4, ::System::Nullable_1<::System::Single> a5)
 		{
-			return ((::System::Void(*)(::Newtonsoft::Json::JsonWriter*, ::System::Single, ::System::Single, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_WRITEVECTOR_OFFSET))(writer, x, y, z, w);
+			return ((::System::Void(*)(::Newtonsoft::Json::JsonWriter*, ::System::Single, ::System::Single, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_WRITEVECTOR_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer)
+		::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* a1, ::System::Type* a2, ::System::Object* a3, ::Newtonsoft::Json::JsonSerializer* a4)
 		{
-			return ((::System::Object*(*)(::PVOID, ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_READJSON_OFFSET))(this, reader, objectType, existingValue, serializer);
+			return ((::System::Object*(*)(::PVOID, ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_READJSON_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean CanConvert(::System::Type* objectType)
+		::System::Boolean CanConvert(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_CANCONVERT_OFFSET))(this, objectType);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_CANCONVERT_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::Vector2 PopulateVector2(::Newtonsoft::Json::JsonReader* reader)
+		static ::UnityEngine::Vector2 PopulateVector2(::Newtonsoft::Json::JsonReader* a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::Newtonsoft::Json::JsonReader*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR2_OFFSET))(reader);
+			return ((::UnityEngine::Vector2(*)(::Newtonsoft::Json::JsonReader*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR2_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Vector3 PopulateVector3(::Newtonsoft::Json::JsonReader* reader)
+		static ::UnityEngine::Vector3 PopulateVector3(::Newtonsoft::Json::JsonReader* a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::Newtonsoft::Json::JsonReader*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR3_OFFSET))(reader);
+			return ((::UnityEngine::Vector3(*)(::Newtonsoft::Json::JsonReader*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR3_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Vector4 PopulateVector4(::Newtonsoft::Json::JsonReader* reader)
+		static ::UnityEngine::Vector4 PopulateVector4(::Newtonsoft::Json::JsonReader* a1)
 		{
-			return ((::UnityEngine::Vector4(*)(::Newtonsoft::Json::JsonReader*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR4_OFFSET))(reader);
+			return ((::UnityEngine::Vector4(*)(::Newtonsoft::Json::JsonReader*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_POPULATEVECTOR4_OFFSET))(a1);
 		}
 	};
 }

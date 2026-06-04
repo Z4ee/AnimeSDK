@@ -1,8 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_4BFB662CA8913AC0.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_410_TypeDefinitionIndex = 49566;
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_410_TypeDefinitionIndex = 50073;
 
 class Class_0_16E4307DCC419505_410
 {

@@ -6,20 +6,20 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22FACE0)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_OFFSET UNITYSDK_OFFSET(0x22FACC0)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22FAD50)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x22FAC70)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1A518040)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A518060)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22FAD90)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x22FACA0)
-#define UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x22FAC80)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x389A500)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_OFFSET UNITYSDK_OFFSET(0x389A4E0)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x389A570)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x389A490)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B363940)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B363960)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x389A5B0)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x389A4C0)
+#define UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x389A4A0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleFloat_TypeDefinitionIndex = 5978;
+	inline static constexpr unsigned int StyleFloat_TypeDefinitionIndex = 6255;
 
 	struct alignas(4) StyleFloat
 	{
@@ -27,14 +27,14 @@ namespace UnityEngine::UIElements
 		::System::Single m_Value; // 0x14
 		::System::Int32 m_Specificity; // 0x18
 
-		::System::Void _ctor(::System::Single v)
+		::System::Void _ctor(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_OFFSET))(this, v);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Single v, ::UnityEngine::UIElements::StyleKeyword keyword)
+		::System::Void _ctor_1(::System::Single a1, ::UnityEngine::UIElements::StyleKeyword a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_1_OFFSET))(this, v, keyword);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single get_value()
@@ -47,24 +47,24 @@ namespace UnityEngine::UIElements
 			return ((::UnityEngine::UIElements::StyleKeyword(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_GET_KEYWORD_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleFloat lhs, ::UnityEngine::UIElements::StyleFloat rhs)
+		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleFloat a1, ::UnityEngine::UIElements::StyleFloat a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleFloat, ::UnityEngine::UIElements::StyleFloat))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleFloat, ::UnityEngine::UIElements::StyleFloat))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::UIElements::StyleFloat op_Implicit(::System::Single v)
+		static ::UnityEngine::UIElements::StyleFloat op_Implicit(::System::Single a1)
 		{
-			return ((::UnityEngine::UIElements::StyleFloat(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_IMPLICIT_OFFSET))(v);
+			return ((::UnityEngine::UIElements::StyleFloat(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		::System::Boolean Equals(::UnityEngine::UIElements::StyleFloat other)
+		::System::Boolean Equals(::UnityEngine::UIElements::StyleFloat a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleFloat))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleFloat))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFLOAT_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

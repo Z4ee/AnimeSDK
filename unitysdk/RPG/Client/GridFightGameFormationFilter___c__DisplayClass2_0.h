@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_181F61C600ECA68B;
+namespace RPG::Client { class GridFightFormationRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONFILTER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4B8620)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONFILTER___C__DISPLAYCLASS2_0___FORMATIONHASAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0xA4B9F90)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONFILTER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB5C430)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONFILTER___C__DISPLAYCLASS2_0___FORMATIONHASAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0xBB5DFE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationFilter___c__DisplayClass2_0_TypeDefinitionIndex = 59544;
+	inline static constexpr unsigned int GridFightGameFormationFilter___c__DisplayClass2_0_TypeDefinitionIndex = 60479;
 
 	class GridFightGameFormationFilter___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONFILTER___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __FormationHasAvatar_b__0(::Class_2_181F61C600ECA68B* role)
+		::System::Boolean __FormationHasAvatar_b__0(::RPG::Client::GridFightFormationRole* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_181F61C600ECA68B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONFILTER___C__DISPLAYCLASS2_0___FORMATIONHASAVATAR_B__0_OFFSET))(this, role);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightFormationRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONFILTER___C__DISPLAYCLASS2_0___FORMATIONHASAVATAR_B__0_OFFSET))(this, a1);
 		}
 	};
 }

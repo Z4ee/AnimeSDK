@@ -11,39 +11,39 @@ namespace RPG::GameCore { class MuseumItemRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xAAFFA00)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_AREAID_OFFSET UNITYSDK_OFFSET(0xAAFFDD0)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_DISPLAYORDER_OFFSET UNITYSDK_OFFSET(0xAAFFDF0)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_EVIDENCEINFOTEXTID_OFFSET UNITYSDK_OFFSET(0xAAFFE30)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xAAFFE10)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xAAFFC80)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_MISSIONID_OFFSET UNITYSDK_OFFSET(0xAAFFC40)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_MISSIONSTARTSTRING_OFFSET UNITYSDK_OFFSET(0xAAFFC60)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_MUSEUMITEMROW_OFFSET UNITYSDK_OFFSET(0xAAFD200)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_SKILLS_OFFSET UNITYSDK_OFFSET(0xAAFFEB0)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xAAFFE90)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_STORYDESC_OFFSET UNITYSDK_OFFSET(0xAAFFE60)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xAAFFE20)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_MISSIONID_OFFSET UNITYSDK_OFFSET(0xAAFFC50)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_MISSIONSTARTSTRING_OFFSET UNITYSDK_OFFSET(0xAAFFC70)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_SKILLS_OFFSET UNITYSDK_OFFSET(0xAAFFEC0)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_STATUS_OFFSET UNITYSDK_OFFSET(0xAAFFEA0)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_UPDATEEVENTDATA_OFFSET UNITYSDK_OFFSET(0xAAFFBC0)
-#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAAFF9C0)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC20B2E0)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_AREAID_OFFSET UNITYSDK_OFFSET(0xC20B780)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_DISPLAYORDER_OFFSET UNITYSDK_OFFSET(0xC20B7A0)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_EVIDENCEINFOTEXTID_OFFSET UNITYSDK_OFFSET(0xC20B7E0)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xC20B7C0)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xC20B630)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_MISSIONID_OFFSET UNITYSDK_OFFSET(0xC20B5F0)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_MISSIONSTARTSTRING_OFFSET UNITYSDK_OFFSET(0xC20B610)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_MUSEUMITEMROW_OFFSET UNITYSDK_OFFSET(0xC208530)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_SKILLS_OFFSET UNITYSDK_OFFSET(0xC20B860)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xC20B840)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_STORYDESC_OFFSET UNITYSDK_OFFSET(0xC20B810)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xC20B7D0)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_MISSIONID_OFFSET UNITYSDK_OFFSET(0xC20B600)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_MISSIONSTARTSTRING_OFFSET UNITYSDK_OFFSET(0xC20B620)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_SKILLS_OFFSET UNITYSDK_OFFSET(0xC20B870)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_STATUS_OFFSET UNITYSDK_OFFSET(0xC20B850)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA_UPDATEEVENTDATA_OFFSET UNITYSDK_OFFSET(0xC20B570)
+#define RPG_CLIENT_MUSEUMEXHIBITITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC20B2A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumExhibitItemData_TypeDefinitionIndex = 61098;
+	inline static constexpr unsigned int MuseumExhibitItemData_TypeDefinitionIndex = 62022;
 
 	class MuseumExhibitItemData : public ::System::Object
 	{
 	public:
-		::System::String* _MissionStartString_k__BackingField; // 0x10
+		::RPG::GameCore::MuseumItemRow* _MuseumItemRow; // 0x10
 		::RPG::Client::ItemData* _ItemData; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::MuseumSkillData*>* _Skills_k__BackingField; // 0x20
-		::RPG::GameCore::MuseumItemRow* _MuseumItemRow; // 0x28
-		::System::UInt32 _ID_k__BackingField; // 0x30
-		::RPG::Client::MuseumCollectionItemStatus _Status_k__BackingField; // 0x34
+		::System::String* _MissionStartString_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::MuseumSkillData*>* _Skills_k__BackingField; // 0x28
+		::RPG::Client::MuseumCollectionItemStatus _Status_k__BackingField; // 0x30
+		::System::UInt32 _ID_k__BackingField; // 0x34
 		::System::UInt32 _MissionID_k__BackingField; // 0x38
 		::System::Boolean TakenCollectReward; // 0x3C
 
@@ -52,14 +52,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MuseumExhibitItemData* Create(::System::UInt32 id)
+		static ::RPG::Client::MuseumExhibitItemData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MuseumExhibitItemData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_CREATE_OFFSET))(id);
+			return ((::RPG::Client::MuseumExhibitItemData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void UpdateEventData(::RPG::GameCore::EventMuseumItemConfigRow* row)
+		::System::Void UpdateEventData(::RPG::GameCore::EventMuseumItemConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EventMuseumItemConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_UPDATEEVENTDATA_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EventMuseumItemConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_UPDATEEVENTDATA_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_MissionID()
@@ -67,9 +67,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_MISSIONID_OFFSET))(this);
 		}
 
-		::System::Void set_MissionID(::System::UInt32 value)
+		::System::Void set_MissionID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_MISSIONID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_MISSIONID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_MissionStartString()
@@ -77,9 +77,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_MISSIONSTARTSTRING_OFFSET))(this);
 		}
 
-		::System::Void set_MissionStartString(::System::String* value)
+		::System::Void set_MissionStartString(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_MISSIONSTARTSTRING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_MISSIONSTARTSTRING_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ItemData* get_ItemData()
@@ -107,9 +107,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_ID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_EvidenceInfoTextID()
@@ -127,9 +127,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MuseumCollectionItemStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_STATUS_OFFSET))(this);
 		}
 
-		::System::Void set_Status(::RPG::Client::MuseumCollectionItemStatus value)
+		::System::Void set_Status(::RPG::Client::MuseumCollectionItemStatus a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumCollectionItemStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_STATUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MuseumCollectionItemStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_STATUS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MuseumSkillData*>* get_Skills()
@@ -137,9 +137,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::MuseumSkillData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_GET_SKILLS_OFFSET))(this);
 		}
 
-		::System::Void set_Skills(::System::Collections::Generic::List_1<::RPG::Client::MuseumSkillData*>* value)
+		::System::Void set_Skills(::System::Collections::Generic::List_1<::RPG::Client::MuseumSkillData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MuseumSkillData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_SKILLS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MuseumSkillData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMEXHIBITITEMDATA_SET_SKILLS_OFFSET))(this, a1);
 		}
 	};
 }

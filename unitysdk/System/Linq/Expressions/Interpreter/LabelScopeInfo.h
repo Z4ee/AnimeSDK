@@ -7,15 +7,15 @@ namespace System::Linq::Expressions { class LabelTarget; }
 namespace System::Linq::Expressions::Interpreter { class LabelInfo; }
 namespace System::Linq::Expressions::Interpreter { template <typename T1, typename T2> class HybridReferenceDictionary_2; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_ADDLABELINFO_OFFSET UNITYSDK_OFFSET(0x19F0E420)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_CONTAINSTARGET_OFFSET UNITYSDK_OFFSET(0x19F0E1D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_GET_CANJUMPINTO_OFFSET UNITYSDK_OFFSET(0x19F0E6F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_TRYGETLABELINFO_OFFSET UNITYSDK_OFFSET(0x19F0E800)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19F0E7F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_ADDLABELINFO_OFFSET UNITYSDK_OFFSET(0x1AD85BB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_CONTAINSTARGET_OFFSET UNITYSDK_OFFSET(0x1AD858B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_GET_CANJUMPINTO_OFFSET UNITYSDK_OFFSET(0x1AD85E70)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_TRYGETLABELINFO_OFFSET UNITYSDK_OFFSET(0x1AD85F80)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD85F70)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LabelScopeInfo_TypeDefinitionIndex = 3429;
+	inline static constexpr unsigned int LabelScopeInfo_TypeDefinitionIndex = 3430;
 
 	class LabelScopeInfo : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace System::Linq::Expressions::Interpreter
 		::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>* _labels; // 0x18
 		::System::Linq::Expressions::Interpreter::LabelScopeKind Kind; // 0x20
 
-		::System::Void _ctor(::System::Linq::Expressions::Interpreter::LabelScopeInfo* parent, ::System::Linq::Expressions::Interpreter::LabelScopeKind kind)
+		::System::Void _ctor(::System::Linq::Expressions::Interpreter::LabelScopeInfo* a1, ::System::Linq::Expressions::Interpreter::LabelScopeKind a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeKind))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO__CTOR_OFFSET))(this, parent, kind);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeKind))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_CanJumpInto()
@@ -34,19 +34,19 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_GET_CANJUMPINTO_OFFSET))(this);
 		}
 
-		::System::Boolean ContainsTarget(::System::Linq::Expressions::LabelTarget* target)
+		::System::Boolean ContainsTarget(::System::Linq::Expressions::LabelTarget* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Linq::Expressions::LabelTarget*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_CONTAINSTARGET_OFFSET))(this, target);
+			return ((::System::Boolean(*)(::PVOID, ::System::Linq::Expressions::LabelTarget*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_CONTAINSTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGetLabelInfo(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Interpreter::LabelInfo*& info)
+		::System::Boolean TryGetLabelInfo(::System::Linq::Expressions::LabelTarget* a1, ::System::Linq::Expressions::Interpreter::LabelInfo*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*&))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_TRYGETLABELINFO_OFFSET))(this, target, info);
+			return ((::System::Boolean(*)(::PVOID, ::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*&))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_TRYGETLABELINFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddLabelInfo(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Interpreter::LabelInfo* info)
+		::System::Void AddLabelInfo(::System::Linq::Expressions::LabelTarget* a1, ::System::Linq::Expressions::Interpreter::LabelInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_ADDLABELINFO_OFFSET))(this, target, info);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_ADDLABELINFO_OFFSET))(this, a1, a2);
 		}
 	};
 }

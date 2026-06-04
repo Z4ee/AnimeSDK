@@ -14,27 +14,27 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_PAGELISTVIEW_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xAC1C740)
-#define RPG_CLIENT_PAGELISTVIEW_GET_CURRENTPAGEINDEX_OFFSET UNITYSDK_OFFSET(0xAC1CC60)
-#define RPG_CLIENT_PAGELISTVIEW_GET_PAGENUM_OFFSET UNITYSDK_OFFSET(0xAC1BE00)
-#define RPG_CLIENT_PAGELISTVIEW_MOVETOPAGEBYITEMCHILDNAME_OFFSET UNITYSDK_OFFSET(0xAC1C360)
-#define RPG_CLIENT_PAGELISTVIEW_MOVETOPAGE_OFFSET UNITYSDK_OFFSET(0xAC1C290)
-#define RPG_CLIENT_PAGELISTVIEW_ONSCROLL_OFFSET UNITYSDK_OFFSET(0xAC1C640)
-#define RPG_CLIENT_PAGELISTVIEW_REFRESHALLPAGES_OFFSET UNITYSDK_OFFSET(0xAC1C5A0)
-#define RPG_CLIENT_PAGELISTVIEW_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xAC1BE10)
-#define RPG_CLIENT_PAGELISTVIEW_SETNEARESTCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xAC1C5F0)
-#define RPG_CLIENT_PAGELISTVIEW_SETPAGENUM_OFFSET UNITYSDK_OFFSET(0xAC1BF80)
-#define RPG_CLIENT_PAGELISTVIEW__ADDDOTS_OFFSET UNITYSDK_OFFSET(0xAC1CB70)
-#define RPG_CLIENT_PAGELISTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xAC1CC70)
-#define RPG_CLIENT_PAGELISTVIEW__GETTARGETSCROLLINDEX_OFFSET UNITYSDK_OFFSET(0xAC1CA20)
-#define RPG_CLIENT_PAGELISTVIEW__ONDRAGEND_OFFSET UNITYSDK_OFFSET(0xAC1C7D0)
-#define RPG_CLIENT_PAGELISTVIEW__ONSNAPNEARESTCHANGED_OFFSET UNITYSDK_OFFSET(0xAC1CAF0)
-#define RPG_CLIENT_PAGELISTVIEW__REFRESHDOTS_OFFSET UNITYSDK_OFFSET(0xAC1C120)
-#define RPG_CLIENT_PAGELISTVIEW___IFIXBASEPROXY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xAC1CCD0)
+#define RPG_CLIENT_PAGELISTVIEW_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xC32C040)
+#define RPG_CLIENT_PAGELISTVIEW_GET_CURRENTPAGEINDEX_OFFSET UNITYSDK_OFFSET(0xC32C5D0)
+#define RPG_CLIENT_PAGELISTVIEW_GET_PAGENUM_OFFSET UNITYSDK_OFFSET(0xC32B6A0)
+#define RPG_CLIENT_PAGELISTVIEW_MOVETOPAGEBYITEMCHILDNAME_OFFSET UNITYSDK_OFFSET(0xC32BC60)
+#define RPG_CLIENT_PAGELISTVIEW_MOVETOPAGE_OFFSET UNITYSDK_OFFSET(0xC32BB90)
+#define RPG_CLIENT_PAGELISTVIEW_ONSCROLL_OFFSET UNITYSDK_OFFSET(0xC32BF40)
+#define RPG_CLIENT_PAGELISTVIEW_REFRESHALLPAGES_OFFSET UNITYSDK_OFFSET(0xC32BEA0)
+#define RPG_CLIENT_PAGELISTVIEW_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xC32B6B0)
+#define RPG_CLIENT_PAGELISTVIEW_SETNEARESTCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0xC32BEF0)
+#define RPG_CLIENT_PAGELISTVIEW_SETPAGENUM_OFFSET UNITYSDK_OFFSET(0xC32B860)
+#define RPG_CLIENT_PAGELISTVIEW__ADDDOTS_OFFSET UNITYSDK_OFFSET(0xC32C470)
+#define RPG_CLIENT_PAGELISTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC32C5E0)
+#define RPG_CLIENT_PAGELISTVIEW__GETTARGETSCROLLINDEX_OFFSET UNITYSDK_OFFSET(0xC32C320)
+#define RPG_CLIENT_PAGELISTVIEW__ONDRAGEND_OFFSET UNITYSDK_OFFSET(0xC32C0D0)
+#define RPG_CLIENT_PAGELISTVIEW__ONSNAPNEARESTCHANGED_OFFSET UNITYSDK_OFFSET(0xC32C3F0)
+#define RPG_CLIENT_PAGELISTVIEW__REFRESHDOTS_OFFSET UNITYSDK_OFFSET(0xC32BA00)
+#define RPG_CLIENT_PAGELISTVIEW___IFIXBASEPROXY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xC32C640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PageListView_TypeDefinitionIndex = 66913;
+	inline static constexpr unsigned int PageListView_TypeDefinitionIndex = 67855;
 
 	class PageListView : public ::SuperScrollView::LoopListView2
 	{
@@ -59,24 +59,24 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_GET_PAGENUM_OFFSET))(this);
 		}
 
-		::System::Void SafeInit(::System::Int32 itemTotalCount, ::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopListView2*, ::System::Int32, ::SuperScrollView::LoopListViewItem2*>* onGetItemByIndex, ::SuperScrollView::LoopListViewInitParam* initParam, ::XLua::LuaTable* table)
+		::System::Void SafeInit(::System::Int32 a1, ::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopListView2*, ::System::Int32, ::SuperScrollView::LoopListViewItem2*>* a2, ::SuperScrollView::LoopListViewInitParam* a3, ::XLua::LuaTable* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopListView2*, ::System::Int32, ::SuperScrollView::LoopListViewItem2*>*, ::SuperScrollView::LoopListViewInitParam*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_SAFEINIT_OFFSET))(this, itemTotalCount, onGetItemByIndex, initParam, table);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopListView2*, ::System::Int32, ::SuperScrollView::LoopListViewItem2*>*, ::SuperScrollView::LoopListViewInitParam*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_SAFEINIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetPageNum(::System::Int32 num)
+		::System::Void SetPageNum(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_SETPAGENUM_OFFSET))(this, num);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_SETPAGENUM_OFFSET))(this, a1);
 		}
 
-		::System::Void MoveToPage(::System::Int32 index)
+		::System::Void MoveToPage(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_MOVETOPAGE_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_MOVETOPAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void MoveToPageByItemChildName(::System::String* name)
+		::System::Void MoveToPageByItemChildName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_MOVETOPAGEBYITEMCHILDNAME_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_MOVETOPAGEBYITEMCHILDNAME_OFFSET))(this, a1);
 		}
 
 		::System::Void RefreshAllPages()
@@ -84,14 +84,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_REFRESHALLPAGES_OFFSET))(this);
 		}
 
-		::System::Void SetNearestChangedCallback(::System::Func_3<::XLua::LuaTable*, ::SuperScrollView::LoopListViewItem2*, ::System::Boolean>* onChanged)
+		::System::Void SetNearestChangedCallback(::System::Func_3<::XLua::LuaTable*, ::SuperScrollView::LoopListViewItem2*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_3<::XLua::LuaTable*, ::SuperScrollView::LoopListViewItem2*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_SETNEARESTCHANGEDCALLBACK_OFFSET))(this, onChanged);
+			return ((::System::Void(*)(::PVOID, ::System::Func_3<::XLua::LuaTable*, ::SuperScrollView::LoopListViewItem2*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_SETNEARESTCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void OnScroll(::UnityEngine::EventSystems::PointerEventData* data)
+		::System::Void OnScroll(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_ONSCROLL_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW_ONSCROLL_OFFSET))(this, a1);
 		}
 
 		::System::Void Despawned()
@@ -104,14 +104,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW__ONDRAGEND_OFFSET))(this);
 		}
 
-		::System::Int32 _GetTargetScrollIndex(::System::Int32 nearestIndex, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 velocity)
+		::System::Int32 _GetTargetScrollIndex(::System::Int32 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW__GETTARGETSCROLLINDEX_OFFSET))(this, nearestIndex, pos, velocity);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW__GETTARGETSCROLLINDEX_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _OnSnapNearestChanged(::SuperScrollView::LoopListView2* listView, ::SuperScrollView::LoopListViewItem2* item)
+		::System::Void _OnSnapNearestChanged(::SuperScrollView::LoopListView2* a1, ::SuperScrollView::LoopListViewItem2* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopListView2*, ::SuperScrollView::LoopListViewItem2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW__ONSNAPNEARESTCHANGED_OFFSET))(this, listView, item);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopListView2*, ::SuperScrollView::LoopListViewItem2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAGELISTVIEW__ONSNAPNEARESTCHANGED_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _RefreshDots()

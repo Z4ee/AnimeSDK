@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_SDKEvent_TypeDefinitionIndex = 42999;
+	inline static constexpr unsigned int SecurityTunnel_SDKEvent_TypeDefinitionIndex = 43802;
 
 	enum class SecurityTunnel_SDKEvent : ::System::Int32
 	{

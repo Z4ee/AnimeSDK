@@ -4,13 +4,13 @@
 
 namespace RPG::GameCore { class FantasticStoryBuffSlotRow; }
 
-#define RPG_CLIENT_FANTASTICSTORYBUFFSLOTDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xA323E50)
-#define RPG_CLIENT_FANTASTICSTORYBUFFSLOTDATA_GET_UNLOCKCHAPTERID_OFFSET UNITYSDK_OFFSET(0xA325C10)
-#define RPG_CLIENT_FANTASTICSTORYBUFFSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA323030)
+#define RPG_CLIENT_FANTASTICSTORYBUFFSLOTDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xB9751D0)
+#define RPG_CLIENT_FANTASTICSTORYBUFFSLOTDATA_GET_UNLOCKCHAPTERID_OFFSET UNITYSDK_OFFSET(0xB9770E0)
+#define RPG_CLIENT_FANTASTICSTORYBUFFSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB974220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FantasticStoryBuffSlotData_TypeDefinitionIndex = 58843;
+	inline static constexpr unsigned int FantasticStoryBuffSlotData_TypeDefinitionIndex = 59773;
 
 	class FantasticStoryBuffSlotData : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace RPG::Client
 		::RPG::GameCore::FantasticStoryBuffSlotRow* Row; // 0x10
 		::System::UInt32 SlotID; // 0x18
 
-		::System::Void _ctor(::System::UInt32 ID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYBUFFSLOTDATA__CTOR_OFFSET))(this, ID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYBUFFSLOTDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UnlockChapterID()

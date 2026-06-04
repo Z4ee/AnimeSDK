@@ -10,24 +10,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xA9A2AA0)
-#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID_METHOD_6_1266C0B90690EC46_OFFSET UNITYSDK_OFFSET(0xA9A2840)
-#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID_METHOD_6_9D73A4DA47109EEE_OFFSET UNITYSDK_OFFSET(0xA9A2AE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID_METHOD_6_BAE1C23C3E6356EC_OFFSET UNITYSDK_OFFSET(0xA9A2570)
-#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xA9A2750)
-#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID__CCTOR_OFFSET UNITYSDK_OFFSET(0xA9A2DB0)
-#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID__CTOR_OFFSET UNITYSDK_OFFSET(0xA9A2C90)
+#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xC0F0200)
+#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID_METHOD_6_1266C0B90690EC46_OFFSET UNITYSDK_OFFSET(0xC0EFFC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID_METHOD_6_9D73A4DA47109EEE_OFFSET UNITYSDK_OFFSET(0xC0F0240)
+#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID_METHOD_6_BAE1C23C3E6356EC_OFFSET UNITYSDK_OFFSET(0xC0EFD00)
+#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xC0EFED0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID__CCTOR_OFFSET UNITYSDK_OFFSET(0xC0F04D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTILINGBYTARGETID__CTOR_OFFSET UNITYSDK_OFFSET(0xC0F03B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginTilingByTargetID_TypeDefinitionIndex = 64645;
+	inline static constexpr unsigned int MonoEffectPluginTilingByTargetID_TypeDefinitionIndex = 65566;
 
 	class MonoEffectPluginTilingByTargetID : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_Field_6_0()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginTilingByTargetID_TypeDefinitionIndex)->GetStaticField(0x3DB10);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginTilingByTargetID_TypeDefinitionIndex)->GetStaticField(0x625D0);
 		}
 		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginTilingByTargetID_RendererData>* RendererList; // 0x28
 		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginTilingByTargetID_TilingOffsetData>* TilingOffsetDataList; // 0x30

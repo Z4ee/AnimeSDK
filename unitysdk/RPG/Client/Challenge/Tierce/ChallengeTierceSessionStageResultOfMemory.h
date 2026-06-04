@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/Challenge/Tierce/ChallengeTierceSessionStageResultBase.h"
+
+class Class_1_A16A135FC5A0DDB9;
+class Class_1_B019EAD7E127C874;
+class Class_1_D17272E82AE804C2_161;
+
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY_GET_DEADMEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB4D5380)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY_GET_USEDROUNDCOUNT_OFFSET UNITYSDK_OFFSET(0xB4D5390)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY_WITH_OFFSET UNITYSDK_OFFSET(0xB4D5450)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB4D53B0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY__CTOR_2_OFFSET UNITYSDK_OFFSET(0xB4D53E0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY__CTOR_3_OFFSET UNITYSDK_OFFSET(0xB4D5430)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY__CTOR_OFFSET UNITYSDK_OFFSET(0xB4D53A0)
+
+namespace RPG::Client::Challenge::Tierce
+{
+	inline static constexpr unsigned int ChallengeTierceSessionStageResultOfMemory_TypeDefinitionIndex = 74145;
+
+	class ChallengeTierceSessionStageResultOfMemory : public ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase
+	{
+	public:
+		::System::Int32 _DeadMemberCount_k__BackingField; // 0x18
+		::System::Int32 _UsedRoundCount_k__BackingField; // 0x1C
+
+		::System::Void _ctor(::System::Boolean a1, ::System::Int32 a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY__CTOR_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void _ctor_1(::Class_1_A16A135FC5A0DDB9* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_A16A135FC5A0DDB9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY__CTOR_1_OFFSET))(this, a1);
+		}
+
+		::System::Void _ctor_2(::Class_1_B019EAD7E127C874* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B019EAD7E127C874*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY__CTOR_2_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _ctor_3(::Class_1_D17272E82AE804C2_161* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_161*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY__CTOR_3_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_DeadMemberCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY_GET_DEADMEMBERCOUNT_OFFSET))(this);
+		}
+
+		::System::Int32 get_UsedRoundCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY_GET_USEDROUNDCOUNT_OFFSET))(this);
+		}
+
+		::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultOfMemory* With(::System::Int32 a1, ::System::Int32 a2)
+		{
+			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultOfMemory*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTOFMEMORY_WITH_OFFSET))(this, a1, a2);
+		}
+	};
+}

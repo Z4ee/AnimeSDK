@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PerformanceRollingSubtitlesPage; }
 
-#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BE83C0)
-#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE8570)
+#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199FA590)
+#define RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199FA730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceRollingSubtitlesConfig_TypeDefinitionIndex = 23434;
+	inline static constexpr unsigned int PerformanceRollingSubtitlesConfig_TypeDefinitionIndex = 23081;
 
 	class PerformanceRollingSubtitlesConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PerformanceRollingSubtitlesConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceRollingSubtitlesConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceRollingSubtitlesConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceRollingSubtitlesConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEROLLINGSUBTITLESCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

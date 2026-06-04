@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/SectionType.h"
 
-namespace System::IO { class BinaryWriter; }
+class Class_1_E750E5E5D854E770;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_82_TypeDefinitionIndex = 37832;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_82_TypeDefinitionIndex = 38642;
 
 class Class_0_16E4307DCC419505_82
 {

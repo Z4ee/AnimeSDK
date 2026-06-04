@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_GizmoPreviewType_TypeDefinitionIndex = 65494;
+	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_GizmoPreviewType_TypeDefinitionIndex = 66424;
 
 	enum class EnvWindReceiverMonoPlugin_GizmoPreviewType : ::System::Int32
 	{

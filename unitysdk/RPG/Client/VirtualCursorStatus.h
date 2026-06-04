@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCursorStatus_TypeDefinitionIndex = 67427;
+	inline static constexpr unsigned int VirtualCursorStatus_TypeDefinitionIndex = 68379;
 
 	enum class VirtualCursorStatus : ::System::Int32
 	{

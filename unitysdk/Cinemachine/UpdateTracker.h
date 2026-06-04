@@ -8,31 +8,31 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_UPDATETRACKER_GETPREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x12BAB490)
-#define CINEMACHINE_UPDATETRACKER_INITIALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x12BAAE40)
-#define CINEMACHINE_UPDATETRACKER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12BAB740)
-#define CINEMACHINE_UPDATETRACKER_UPDATETARGETS_OFFSET UNITYSDK_OFFSET(0x12BAAEE0)
-#define CINEMACHINE_UPDATETRACKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BAB850)
-#define CINEMACHINE_UPDATETRACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x12BAB840)
+#define CINEMACHINE_UPDATETRACKER_GETPREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x14668AC0)
+#define CINEMACHINE_UPDATETRACKER_INITIALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x146683F0)
+#define CINEMACHINE_UPDATETRACKER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x14668D60)
+#define CINEMACHINE_UPDATETRACKER_UPDATETARGETS_OFFSET UNITYSDK_OFFSET(0x14668480)
+#define CINEMACHINE_UPDATETRACKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14668E70)
+#define CINEMACHINE_UPDATETRACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x14668E60)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int UpdateTracker_TypeDefinitionIndex = 36615;
+	inline static constexpr unsigned int UpdateTracker_TypeDefinitionIndex = 36915;
 
 	class UpdateTracker : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Transform*>** StaticGet_sToDelete()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(UpdateTracker_TypeDefinitionIndex)->GetStaticField(0x1010);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(UpdateTracker_TypeDefinitionIndex)->GetStaticField(0xF40);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::Cinemachine::UpdateTracker_UpdateStatus*>** StaticGet_mUpdateStatus()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::Cinemachine::UpdateTracker_UpdateStatus*>**)Il2CppClass::FromTypeDefinitionIndex(UpdateTracker_TypeDefinitionIndex)->GetStaticField(0x1018);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::Cinemachine::UpdateTracker_UpdateStatus*>**)Il2CppClass::FromTypeDefinitionIndex(UpdateTracker_TypeDefinitionIndex)->GetStaticField(0xF48);
 		}
 		static ::System::Single* StaticGet_mLastUpdateTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UpdateTracker_TypeDefinitionIndex)->GetStaticField(0xF40);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UpdateTracker_TypeDefinitionIndex)->GetStaticField(0x8B0);
 		}
 
 		::System::Void _ctor()
@@ -50,19 +50,19 @@ namespace Cinemachine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_INITIALIZEMODULE_OFFSET))();
 		}
 
-		static ::System::Void UpdateTargets(::Cinemachine::UpdateTracker_UpdateClock currentClock)
+		static ::System::Void UpdateTargets(::Cinemachine::UpdateTracker_UpdateClock a1)
 		{
-			return ((::System::Void(*)(::Cinemachine::UpdateTracker_UpdateClock))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_UPDATETARGETS_OFFSET))(currentClock);
+			return ((::System::Void(*)(::Cinemachine::UpdateTracker_UpdateClock))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_UPDATETARGETS_OFFSET))(a1);
 		}
 
-		static ::Cinemachine::UpdateTracker_UpdateClock GetPreferredUpdate(::UnityEngine::Transform* target)
+		static ::Cinemachine::UpdateTracker_UpdateClock GetPreferredUpdate(::UnityEngine::Transform* a1)
 		{
-			return ((::Cinemachine::UpdateTracker_UpdateClock(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_GETPREFERREDUPDATE_OFFSET))(target);
+			return ((::Cinemachine::UpdateTracker_UpdateClock(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_GETPREFERREDUPDATE_OFFSET))(a1);
 		}
 
-		static ::System::Void OnUpdate(::Cinemachine::UpdateTracker_UpdateClock currentClock)
+		static ::System::Void OnUpdate(::Cinemachine::UpdateTracker_UpdateClock a1)
 		{
-			return ((::System::Void(*)(::Cinemachine::UpdateTracker_UpdateClock))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_ONUPDATE_OFFSET))(currentClock);
+			return ((::System::Void(*)(::Cinemachine::UpdateTracker_UpdateClock))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_ONUPDATE_OFFSET))(a1);
 		}
 	};
 }

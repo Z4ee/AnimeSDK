@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareCurrentSkillEffectIsDamaging; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_359E3DB5121C3795_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9630610)
-#define CLASS_3_359E3DB5121C3795__CTOR_OFFSET UNITYSDK_OFFSET(0x96305E0)
+#define CLASS_3_359E3DB5121C3795_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14279CB0)
+#define CLASS_3_359E3DB5121C3795__CTOR_OFFSET UNITYSDK_OFFSET(0x14279C80)
 
-inline static constexpr unsigned int Class_3_359E3DB5121C3795_TypeDefinitionIndex = 50303;
+inline static constexpr unsigned int Class_3_359E3DB5121C3795_TypeDefinitionIndex = 50968;
 
 class Class_3_359E3DB5121C3795 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareCurrentSkillEffectIsDamaging*>
 {

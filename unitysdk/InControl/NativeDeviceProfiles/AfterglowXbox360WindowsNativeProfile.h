@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_AFTERGLOWXBOX360WINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1717F180)
-#define INCONTROL_NATIVEDEVICEPROFILES_AFTERGLOWXBOX360WINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17180510)
+#define INCONTROL_NATIVEDEVICEPROFILES_AFTERGLOWXBOX360WINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x17FC6480)
+#define INCONTROL_NATIVEDEVICEPROFILES_AFTERGLOWXBOX360WINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17FC74D0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int AfterglowXbox360WindowsNativeProfile_TypeDefinitionIndex = 37599;
+	inline static constexpr unsigned int AfterglowXbox360WindowsNativeProfile_TypeDefinitionIndex = 38331;
 
 	class AfterglowXbox360WindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{

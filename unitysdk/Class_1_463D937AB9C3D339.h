@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 template <typename T> class Class_1_463D937AB9C3D339;
 
-inline static constexpr unsigned int Class_1_463D937AB9C3D339_TypeDefinitionIndex = 45736;
+inline static constexpr unsigned int Class_1_463D937AB9C3D339_TypeDefinitionIndex = 46319;
 
 template <typename T>
 class Class_1_463D937AB9C3D339 : public ::System::Object

@@ -25,31 +25,39 @@ namespace RPG::GameCore { class TurnBasedModifierUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CHECKBEHAVIORFLAGLISTCONTAINS_OFFSET UNITYSDK_OFFSET(0x190D2520)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_1_OFFSET UNITYSDK_OFFSET(0x190D2660)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_2_OFFSET UNITYSDK_OFFSET(0x190D2750)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0x190D25B0)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x190D1810)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190D16B0)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACKINFO_OFFSET UNITYSDK_OFFSET(0x190D2840)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACK_OFFSET UNITYSDK_OFFSET(0x190D2890)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x190D2940)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIMINIEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x190D2960)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIPOSITION_OFFSET UNITYSDK_OFFSET(0x190D2980)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_HASCALLBACK_OFFSET UNITYSDK_OFFSET(0x190D28F0)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x190D2990)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190D1780)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CHECKBEHAVIORFLAGLISTCONTAINS_OFFSET UNITYSDK_OFFSET(0x19E23960)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_1_OFFSET UNITYSDK_OFFSET(0x19E23B40)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_2_OFFSET UNITYSDK_OFFSET(0x19E23CB0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0x19E23A50)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19E22CC0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E22B60)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACKINFO_OFFSET UNITYSDK_OFFSET(0x19E23E30)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACK_OFFSET UNITYSDK_OFFSET(0x19E23E80)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x19E23F30)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIMINIEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x19E23F50)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETUIPOSITION_OFFSET UNITYSDK_OFFSET(0x19E23F70)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_HASCALLBACK_OFFSET UNITYSDK_OFFSET(0x19E23EE0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E23F80)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E22C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierConfig_TypeDefinitionIndex = 17320;
+	inline static constexpr unsigned int TurnBasedModifierConfig_TypeDefinitionIndex = 17325;
 
 	class TurnBasedModifierConfig : public ::RPG::GameCore::ModifierConfig
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet__ModifierEventNameList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedModifierConfig_TypeDefinitionIndex)->GetStaticField(0x7BB0);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet__ModifierEventPriorityNameList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedModifierConfig_TypeDefinitionIndex)->GetStaticField(0x7BB8);
+		}
 		static ::System::Boolean* StaticGet_EnableInlineCheck()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TurnBasedModifierConfig_TypeDefinitionIndex)->GetStaticField(0x5260);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TurnBasedModifierConfig_TypeDefinitionIndex)->GetStaticField(0x36C0);
 		}
 		::System::Int32 LifeTime; // 0x38
 		::System::Int32 MaxLayer; // 0x3C
@@ -85,49 +93,49 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TurnBasedModifierConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnBasedModifierConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnBasedModifierConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnBasedModifierConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TurnBasedModifierConfig* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnBasedModifierConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnBasedModifierConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnBasedModifierConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean CheckBehaviorFlagListContains(::RPG::GameCore::ModifierBehaviorFlag eFlag)
+		::System::Boolean CheckBehaviorFlagListContains(::RPG::GameCore::ModifierBehaviorFlag a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ModifierBehaviorFlag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CHECKBEHAVIORFLAGLISTCONTAINS_OFFSET))(this, eFlag);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ModifierBehaviorFlag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CHECKBEHAVIORFLAGLISTCONTAINS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ContainsBehaviorFlag(::RPG::GameCore::ModifierBehaviorFlag eFlag)
+		::System::Boolean ContainsBehaviorFlag(::RPG::GameCore::ModifierBehaviorFlag a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ModifierBehaviorFlag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET))(this, eFlag);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ModifierBehaviorFlag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ContainsBehaviorFlag_1(::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* eFlags)
+		::System::Boolean ContainsBehaviorFlag_1(::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_1_OFFSET))(this, eFlags);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ContainsBehaviorFlag_2(::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>* eFlags)
+		::System::Boolean ContainsBehaviorFlag_2(::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_2_OFFSET))(this, eFlags);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_CONTAINSBEHAVIORFLAG_2_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::TurnBasedModifierCallbackConfig* GetCallbackInfo(::RPG::GameCore::TurnBasedModifierEvent type)
+		::RPG::GameCore::TurnBasedModifierCallbackConfig* GetCallbackInfo(::RPG::GameCore::TurnBasedModifierEvent a1)
 		{
-			return ((::RPG::GameCore::TurnBasedModifierCallbackConfig*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierEvent))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACKINFO_OFFSET))(this, type);
+			return ((::RPG::GameCore::TurnBasedModifierCallbackConfig*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierEvent))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACKINFO_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* GetCallback(::RPG::GameCore::TurnBasedModifierEvent type)
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* GetCallback(::RPG::GameCore::TurnBasedModifierEvent a1)
 		{
-			return ((::Il2CppArray<::RPG::GameCore::TaskConfig*>*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierEvent))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACK_OFFSET))(this, type);
+			return ((::Il2CppArray<::RPG::GameCore::TaskConfig*>*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierEvent))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_GETCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HasCallback(::RPG::GameCore::TurnBasedModifierEvent type)
+		::System::Boolean HasCallback(::RPG::GameCore::TurnBasedModifierEvent a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierEvent))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_HASCALLBACK_OFFSET))(this, type);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierEvent))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERCONFIG_HASCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::String* GetUIEffectPath()

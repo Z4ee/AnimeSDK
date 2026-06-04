@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E6550)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E65B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6D61C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6E6530)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B515980)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B5159E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B50E2F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B515900)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRApplications__SetApplicationAutoLaunch_TypeDefinitionIndex = 35732;
+	inline static constexpr unsigned int IVRApplications__SetApplicationAutoLaunch_TypeDefinitionIndex = 36032;
 
 	class IVRApplications__SetApplicationAutoLaunch : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError Invoke(::System::String* pchAppKey, ::System::Boolean bAutoLaunch)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError Invoke(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_INVOKE_OFFSET))(this, pchAppKey, bAutoLaunch);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* pchAppKey, ::System::Boolean bAutoLaunch, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::Boolean a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_BEGININVOKE_OFFSET))(this, pchAppKey, bAutoLaunch, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError EndInvoke(::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_ENDINVOKE_OFFSET))(this, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__SETAPPLICATIONAUTOLAUNCH_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

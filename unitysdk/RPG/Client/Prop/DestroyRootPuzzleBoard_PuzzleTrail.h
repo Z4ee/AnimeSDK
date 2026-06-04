@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DestroyRootPuzzleBoard_PuzzleTrail_TypeDefinitionIndex = 72040;
+	inline static constexpr unsigned int DestroyRootPuzzleBoard_PuzzleTrail_TypeDefinitionIndex = 73062;
 
 	struct alignas(8) DestroyRootPuzzleBoard_PuzzleTrail
 	{

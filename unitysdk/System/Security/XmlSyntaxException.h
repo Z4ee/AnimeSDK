@@ -7,16 +7,16 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1781D2D0)
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1781D3B0)
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1781A5E0)
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1781A650)
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x178201F0)
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17818000)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x185D66C0)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x185D67A0)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x185D37F0)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x185D3860)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x185D9B10)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x185D12A0)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int XmlSyntaxException_TypeDefinitionIndex = 949;
+	inline static constexpr unsigned int XmlSyntaxException_TypeDefinitionIndex = 948;
 
 	class XmlSyntaxException : public ::System::SystemException
 	{
@@ -26,29 +26,29 @@ namespace System::Security
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Int32 lineNumber)
+		::System::Void _ctor_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_1_OFFSET))(this, lineNumber);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Int32 lineNumber, ::System::String* message)
+		::System::Void _ctor_2(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_2_OFFSET))(this, lineNumber, message);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_3(::System::String* message)
+		::System::Void _ctor_3(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_3_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_3_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_4(::System::String* message, ::System::Exception* inner)
+		::System::Void _ctor_4(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_4_OFFSET))(this, message, inner);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_5(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_5(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_5_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_5_OFFSET))(this, a1, a2);
 		}
 	};
 }

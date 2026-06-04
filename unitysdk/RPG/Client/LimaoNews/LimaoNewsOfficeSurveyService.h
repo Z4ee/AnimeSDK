@@ -1,0 +1,145 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LimaoNews/LimaoNewsStateTag.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_0BE9E9C1D5A3C687;
+class Class_1_D17272E82AE804C2_524;
+namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
+namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyItem; }
+namespace RPG::Client::LimaoNews { class LimaoNewsStateTagViewModel; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD958C0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETCUROFFICESURVEYS_OFFSET UNITYSDK_OFFSET(0xBD9AD50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETSHOWSURVEYTOTALCOUNT_OFFSET UNITYSDK_OFFSET(0xBD9B180)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETSURVEYDISPLAYREWARDID_OFFSET UNITYSDK_OFFSET(0xBD9B6A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETSURVEYITEMSTATETAGVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xBD9AD90)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETSURVEYITEMSTATETAG_1_OFFSET UNITYSDK_OFFSET(0xBD9AE30)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETSURVEYITEMSTATETAG_OFFSET UNITYSDK_OFFSET(0xBD9B7A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GET_RECOMMENDSERVICEID_OFFSET UNITYSDK_OFFSET(0xBD9B800)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GOTOSURVEYMISSIONPAGE_OFFSET UNITYSDK_OFFSET(0xBD9B450)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_ISANYSURVEYCANSHOW_OFFSET UNITYSDK_OFFSET(0xBD9B130)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_ISFINISHEDALLSURVEY_OFFSET UNITYSDK_OFFSET(0xBD9B2F0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_ISOFFICESURVEYFINISH_OFFSET UNITYSDK_OFFSET(0xBD9B020)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_ISOFFICESURVEYSHOW_OFFSET UNITYSDK_OFFSET(0xBD9B0A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_ISSURVEYHIDEREWARDAFTERSTART_OFFSET UNITYSDK_OFFSET(0xBD9B710)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_REBUILDSURVEYITEMSBYRECOMMENDID_OFFSET UNITYSDK_OFFSET(0xBD97B60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_REFRESHCUROFFICESURVEY_OFFSET UNITYSDK_OFFSET(0xBD977B0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_SETRECOMMENDSURVEYID_OFFSET UNITYSDK_OFFSET(0xBD97FE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_SET_RECOMMENDSERVICEID_OFFSET UNITYSDK_OFFSET(0xBD9B810)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xBD95230)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE__DISPOSECUROFFICESURVEYS_OFFSET UNITYSDK_OFFSET(0xBD9AB80)
+
+namespace RPG::Client::LimaoNews
+{
+	inline static constexpr unsigned int LimaoNewsOfficeSurveyService_TypeDefinitionIndex = 73786;
+
+	class LimaoNewsOfficeSurveyService : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem*>* _CurOfficeSurveyItems; // 0x10
+		::Class_1_0BE9E9C1D5A3C687* _ConditionService; // 0x18
+		::System::UInt32 _RecommendServiceID_k__BackingField; // 0x20
+
+		::System::Void _ctor(::Class_1_0BE9E9C1D5A3C687* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_0BE9E9C1D5A3C687*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE__CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void RebuildSurveyItemsByRecommendID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_REBUILDSURVEYITEMSBYRECOMMENDID_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem*>* GetCurOfficeSurveys()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETCUROFFICESURVEYS_OFFSET))(this);
+		}
+
+		::RPG::Client::LimaoNews::LimaoNewsStateTagViewModel* GetSurveyItemStateTagViewModel(::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem* a1)
+		{
+			return ((::RPG::Client::LimaoNews::LimaoNewsStateTagViewModel*(*)(::PVOID, ::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETSURVEYITEMSTATETAGVIEWMODEL_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IsOfficeSurveyFinish(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_ISOFFICESURVEYFINISH_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IsOfficeSurveyShow(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_ISOFFICESURVEYSHOW_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IsAnySurveyCanShow()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_ISANYSURVEYCANSHOW_OFFSET))(this);
+		}
+
+		::System::Int32 GetShowSurveyTotalCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETSHOWSURVEYTOTALCOUNT_OFFSET))(this);
+		}
+
+		::System::Boolean IsFinishedAllSurvey()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_ISFINISHEDALLSURVEY_OFFSET))(this);
+		}
+
+		::System::Void GotoSurveyMissionPage(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GOTOSURVEYMISSIONPAGE_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetSurveyDisplayRewardID(::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETSURVEYDISPLAYREWARDID_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IsSurveyHideRewardAfterStart(::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_ISSURVEYHIDEREWARDAFTERSTART_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::LimaoNews::LimaoNewsStateTag GetSurveyItemStateTag(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::LimaoNews::LimaoNewsStateTag(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETSURVEYITEMSTATETAG_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::LimaoNews::LimaoNewsStateTag GetSurveyItemStateTag_1(::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem* a1)
+		{
+			return ((::RPG::Client::LimaoNews::LimaoNewsStateTag(*)(::PVOID, ::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GETSURVEYITEMSTATETAG_1_OFFSET))(this, a1);
+		}
+
+		::System::Void RefreshCurOfficeSurvey(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_524*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_524*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_REFRESHCUROFFICESURVEY_OFFSET))(this, a1);
+		}
+
+		::System::Void SetRecommendSurveyID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_SETRECOMMENDSURVEYID_OFFSET))(this, a1);
+		}
+
+		::System::Void _DisposeCurOfficeSurveys()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE__DISPOSECUROFFICESURVEYS_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RecommendServiceID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_GET_RECOMMENDSERVICEID_OFFSET))(this);
+		}
+
+		::System::Void set_RecommendServiceID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE_SET_RECOMMENDSERVICEID_OFFSET))(this, a1);
+		}
+	};
+}

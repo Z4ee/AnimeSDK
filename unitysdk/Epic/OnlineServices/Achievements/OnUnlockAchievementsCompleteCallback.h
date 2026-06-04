@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8B9F970)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8B9F9A0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8B94CC0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8B9F950)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA0BA270)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA0BA2A0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA0B0020)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA0BA180)
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int OnUnlockAchievementsCompleteCallback_TypeDefinitionIndex = 42629;
+	inline static constexpr unsigned int OnUnlockAchievementsCompleteCallback_TypeDefinitionIndex = 43432;
 
 	class OnUnlockAchievementsCompleteCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Achievements::OnUnlockAchievementsCompleteCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_ONUNLOCKACHIEVEMENTSCOMPLETECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

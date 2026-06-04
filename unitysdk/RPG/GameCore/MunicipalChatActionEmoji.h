@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUNICIPALCHATACTIONEMOJI_METHOD_3_AEE6F8FE456CFD56_OFFSET UNITYSDK_OFFSET(0x18B67DB0)
-#define RPG_GAMECORE_MUNICIPALCHATACTIONEMOJI_METHOD_3_FC8B32ECE1E5F318_OFFSET UNITYSDK_OFFSET(0x18B68920)
-#define RPG_GAMECORE_MUNICIPALCHATACTIONEMOJI__CTOR_OFFSET UNITYSDK_OFFSET(0x18B67D90)
+#define RPG_GAMECORE_MUNICIPALCHATACTIONEMOJI_METHOD_3_109139A4EDA7C9E0_OFFSET UNITYSDK_OFFSET(0x199B71A0)
+#define RPG_GAMECORE_MUNICIPALCHATACTIONEMOJI_METHOD_3_82BC65BD5711027A_OFFSET UNITYSDK_OFFSET(0x199B7D20)
+#define RPG_GAMECORE_MUNICIPALCHATACTIONEMOJI__CTOR_OFFSET UNITYSDK_OFFSET(0x199B7180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MunicipalChatActionEmoji_TypeDefinitionIndex = 16014;
+	inline static constexpr unsigned int MunicipalChatActionEmoji_TypeDefinitionIndex = 16064;
 
 	class MunicipalChatActionEmoji : public ::RPG::GameCore::MunicipalChatActionBase
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATACTIONEMOJI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FC8B32ECE1E5F318(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MunicipalChatActionEmoji*& a2)
+		static ::System::Void Method_3_82BC65BD5711027A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MunicipalChatActionEmoji*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MunicipalChatActionEmoji*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATACTIONEMOJI_METHOD_3_FC8B32ECE1E5F318_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MunicipalChatActionEmoji*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATACTIONEMOJI_METHOD_3_82BC65BD5711027A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AEE6F8FE456CFD56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MunicipalChatActionEmoji* a2)
+		static ::System::Void Method_3_109139A4EDA7C9E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MunicipalChatActionEmoji* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MunicipalChatActionEmoji*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATACTIONEMOJI_METHOD_3_AEE6F8FE456CFD56_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MunicipalChatActionEmoji*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATACTIONEMOJI_METHOD_3_109139A4EDA7C9E0_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int ObjectConstructor_1_TypeDefinitionIndex = 8497;
+	inline static constexpr unsigned int ObjectConstructor_1_TypeDefinitionIndex = 9400;
 
 	template <typename T>
 	class ObjectConstructor_1 : public ::System::MulticastDelegate

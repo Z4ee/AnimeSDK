@@ -7,78 +7,78 @@ namespace RPG::Client { class EvolveBuildCollectionGearDisplayData; }
 namespace RPG::Client { class EvolveBuildGearDetail; }
 namespace RPG::GameCore { class ActivityEvolveGearForgeMaterialRow; }
 
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATECOPY_OFFSET UNITYSDK_OFFSET(0xB685190)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATEMIX_OFFSET UNITYSDK_OFFSET(0xB6841D0)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATE_OFFSET UNITYSDK_OFFSET(0xB681C80)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GETGEARLVTOFORGE_OFFSET UNITYSDK_OFFSET(0xB684270)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_CURRENTLEVEL_OFFSET UNITYSDK_OFFSET(0xB685210)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_FORGEGEAR_OFFSET UNITYSDK_OFFSET(0xB685290)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_FORGEROW_OFFSET UNITYSDK_OFFSET(0xB6825F0)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_GEARDATA_OFFSET UNITYSDK_OFFSET(0xB685230)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_GEARDETAIL_OFFSET UNITYSDK_OFFSET(0xB6852B0)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_ISMIX_OFFSET UNITYSDK_OFFSET(0xB683550)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_MIXFORGETYPE_OFFSET UNITYSDK_OFFSET(0xB683670)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_NEXTGEAR_OFFSET UNITYSDK_OFFSET(0xB685270)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_PREVGEAR_OFFSET UNITYSDK_OFFSET(0xB685250)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_PREVLEVEL_OFFSET UNITYSDK_OFFSET(0xB6851F0)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SETNEXTGEAR_OFFSET UNITYSDK_OFFSET(0xB6843F0)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SETPREVGEAR_OFFSET UNITYSDK_OFFSET(0xB684440)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_FORGEGEAR_OFFSET UNITYSDK_OFFSET(0xB6852A0)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_GEARDATA_OFFSET UNITYSDK_OFFSET(0xB685240)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_GEARDETAIL_OFFSET UNITYSDK_OFFSET(0xB6852C0)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_NEXTGEAR_OFFSET UNITYSDK_OFFSET(0xB685280)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_PREVGEAR_OFFSET UNITYSDK_OFFSET(0xB685260)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_PREVLEVEL_OFFSET UNITYSDK_OFFSET(0xB685200)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR__CTOR_OFFSET UNITYSDK_OFFSET(0xB685180)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATECOPY_OFFSET UNITYSDK_OFFSET(0xCDEFB00)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATEMIX_OFFSET UNITYSDK_OFFSET(0xCDEEB10)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATE_OFFSET UNITYSDK_OFFSET(0xCDEC6F0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GETGEARLVTOFORGE_OFFSET UNITYSDK_OFFSET(0xCDEEBB0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_CURRENTLEVEL_OFFSET UNITYSDK_OFFSET(0xCDEFB80)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_FORGEGEAR_OFFSET UNITYSDK_OFFSET(0xCDEFC00)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_FORGEROW_OFFSET UNITYSDK_OFFSET(0xCDED070)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_GEARDATA_OFFSET UNITYSDK_OFFSET(0xCDEFBA0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_GEARDETAIL_OFFSET UNITYSDK_OFFSET(0xCDEFC20)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_ISMIX_OFFSET UNITYSDK_OFFSET(0xCDEDEF0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_MIXFORGETYPE_OFFSET UNITYSDK_OFFSET(0xCDEE010)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_NEXTGEAR_OFFSET UNITYSDK_OFFSET(0xCDEFBE0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_PREVGEAR_OFFSET UNITYSDK_OFFSET(0xCDEFBC0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_PREVLEVEL_OFFSET UNITYSDK_OFFSET(0xCDEFB60)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SETNEXTGEAR_OFFSET UNITYSDK_OFFSET(0xCDEED20)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SETPREVGEAR_OFFSET UNITYSDK_OFFSET(0xCDEED70)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_FORGEGEAR_OFFSET UNITYSDK_OFFSET(0xCDEFC10)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_GEARDATA_OFFSET UNITYSDK_OFFSET(0xCDEFBB0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_GEARDETAIL_OFFSET UNITYSDK_OFFSET(0xCDEFC30)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_NEXTGEAR_OFFSET UNITYSDK_OFFSET(0xCDEFBF0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_PREVGEAR_OFFSET UNITYSDK_OFFSET(0xCDEFBD0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_PREVLEVEL_OFFSET UNITYSDK_OFFSET(0xCDEFB70)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR__CTOR_OFFSET UNITYSDK_OFFSET(0xCDEFAF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRewardBoxGear_TypeDefinitionIndex = 49353;
+	inline static constexpr unsigned int EvolveBuildRewardBoxGear_TypeDefinitionIndex = 50020;
 
 	class EvolveBuildRewardBoxGear : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::EvolveBuildRewardBoxGear* _NextGear_k__BackingField; // 0x10
-		::RPG::Client::EvolveBuildGearDetail* _GearDetail_k__BackingField; // 0x18
-		::RPG::GameCore::EvolveBuildRewardBoxGear* _ForgeGear_k__BackingField; // 0x20
-		::RPG::GameCore::EvolveBuildRewardBoxGear* _PrevGear_k__BackingField; // 0x28
-		::RPG::Client::EvolveBuildCollectionGearDisplayData* _GearData_k__BackingField; // 0x30
-		::System::UInt32 ID; // 0x38
-		::System::UInt32 _PrevLevel_k__BackingField; // 0x3C
+		::RPG::GameCore::EvolveBuildRewardBoxGear* _PrevGear_k__BackingField; // 0x10
+		::RPG::GameCore::EvolveBuildRewardBoxGear* _NextGear_k__BackingField; // 0x18
+		::RPG::Client::EvolveBuildGearDetail* _GearDetail_k__BackingField; // 0x20
+		::RPG::Client::EvolveBuildCollectionGearDisplayData* _GearData_k__BackingField; // 0x28
+		::RPG::GameCore::EvolveBuildRewardBoxGear* _ForgeGear_k__BackingField; // 0x30
+		::System::UInt32 _PrevLevel_k__BackingField; // 0x38
+		::System::UInt32 ID; // 0x3C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::GameCore::EvolveBuildRewardBoxGear* Create(::System::UInt32 id, ::System::UInt32 prevLevel, ::RPG::Client::EvolveBuildCollectionGearDisplayData* data, ::RPG::Client::EvolveBuildGearDetail* gearDetail)
+		static ::RPG::GameCore::EvolveBuildRewardBoxGear* Create(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::Client::EvolveBuildCollectionGearDisplayData* a3, ::RPG::Client::EvolveBuildGearDetail* a4)
 		{
-			return ((::RPG::GameCore::EvolveBuildRewardBoxGear*(*)(::System::UInt32, ::System::UInt32, ::RPG::Client::EvolveBuildCollectionGearDisplayData*, ::RPG::Client::EvolveBuildGearDetail*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATE_OFFSET))(id, prevLevel, data, gearDetail);
+			return ((::RPG::GameCore::EvolveBuildRewardBoxGear*(*)(::System::UInt32, ::System::UInt32, ::RPG::Client::EvolveBuildCollectionGearDisplayData*, ::RPG::Client::EvolveBuildGearDetail*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::GameCore::EvolveBuildRewardBoxGear* CreateCopy(::RPG::GameCore::EvolveBuildRewardBoxGear* boxGear)
+		static ::RPG::GameCore::EvolveBuildRewardBoxGear* CreateCopy(::RPG::GameCore::EvolveBuildRewardBoxGear* a1)
 		{
-			return ((::RPG::GameCore::EvolveBuildRewardBoxGear*(*)(::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATECOPY_OFFSET))(boxGear);
+			return ((::RPG::GameCore::EvolveBuildRewardBoxGear*(*)(::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATECOPY_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::EvolveBuildRewardBoxGear* CreateMix(::RPG::GameCore::EvolveBuildRewardBoxGear* boxGear, ::RPG::GameCore::EvolveBuildRewardBoxGear* forgeGear)
+		static ::RPG::GameCore::EvolveBuildRewardBoxGear* CreateMix(::RPG::GameCore::EvolveBuildRewardBoxGear* a1, ::RPG::GameCore::EvolveBuildRewardBoxGear* a2)
 		{
-			return ((::RPG::GameCore::EvolveBuildRewardBoxGear*(*)(::RPG::GameCore::EvolveBuildRewardBoxGear*, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATEMIX_OFFSET))(boxGear, forgeGear);
+			return ((::RPG::GameCore::EvolveBuildRewardBoxGear*(*)(::RPG::GameCore::EvolveBuildRewardBoxGear*, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_CREATEMIX_OFFSET))(a1, a2);
 		}
 
-		::System::Void SetNextGear(::RPG::GameCore::EvolveBuildRewardBoxGear* gear)
+		::System::Void SetNextGear(::RPG::GameCore::EvolveBuildRewardBoxGear* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SETNEXTGEAR_OFFSET))(this, gear);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SETNEXTGEAR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPrevGear(::RPG::GameCore::EvolveBuildRewardBoxGear* gear)
+		::System::Void SetPrevGear(::RPG::GameCore::EvolveBuildRewardBoxGear* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SETPREVGEAR_OFFSET))(this, gear);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SETPREVGEAR_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetGearLvToForge(::System::UInt32 gearID)
+		::System::UInt32 GetGearLvToForge(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GETGEARLVTOFORGE_OFFSET))(this, gearID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GETGEARLVTOFORGE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_PrevLevel()
@@ -86,9 +86,9 @@ namespace RPG::GameCore
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_PREVLEVEL_OFFSET))(this);
 		}
 
-		::System::Void set_PrevLevel(::System::UInt32 value)
+		::System::Void set_PrevLevel(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_PREVLEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_PREVLEVEL_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_CurrentLevel()
@@ -101,9 +101,9 @@ namespace RPG::GameCore
 			return ((::RPG::Client::EvolveBuildCollectionGearDisplayData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_GEARDATA_OFFSET))(this);
 		}
 
-		::System::Void set_GearData(::RPG::Client::EvolveBuildCollectionGearDisplayData* value)
+		::System::Void set_GearData(::RPG::Client::EvolveBuildCollectionGearDisplayData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::EvolveBuildCollectionGearDisplayData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_GEARDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::EvolveBuildCollectionGearDisplayData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_GEARDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::EvolveBuildRewardBoxGear* get_PrevGear()
@@ -111,9 +111,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::EvolveBuildRewardBoxGear*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_PREVGEAR_OFFSET))(this);
 		}
 
-		::System::Void set_PrevGear(::RPG::GameCore::EvolveBuildRewardBoxGear* value)
+		::System::Void set_PrevGear(::RPG::GameCore::EvolveBuildRewardBoxGear* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_PREVGEAR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_PREVGEAR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::EvolveBuildRewardBoxGear* get_NextGear()
@@ -121,9 +121,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::EvolveBuildRewardBoxGear*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_NEXTGEAR_OFFSET))(this);
 		}
 
-		::System::Void set_NextGear(::RPG::GameCore::EvolveBuildRewardBoxGear* value)
+		::System::Void set_NextGear(::RPG::GameCore::EvolveBuildRewardBoxGear* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_NEXTGEAR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_NEXTGEAR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsMix()
@@ -136,9 +136,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::EvolveBuildRewardBoxGear*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_FORGEGEAR_OFFSET))(this);
 		}
 
-		::System::Void set_ForgeGear(::RPG::GameCore::EvolveBuildRewardBoxGear* value)
+		::System::Void set_ForgeGear(::RPG::GameCore::EvolveBuildRewardBoxGear* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_FORGEGEAR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGear*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_FORGEGEAR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ActivityEvolveGearForgeMaterialRow* get_ForgeRow()
@@ -156,9 +156,9 @@ namespace RPG::GameCore
 			return ((::RPG::Client::EvolveBuildGearDetail*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_GET_GEARDETAIL_OFFSET))(this);
 		}
 
-		::System::Void set_GearDetail(::RPG::Client::EvolveBuildGearDetail* value)
+		::System::Void set_GearDetail(::RPG::Client::EvolveBuildGearDetail* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::EvolveBuildGearDetail*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_GEARDETAIL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::EvolveBuildGearDetail*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXGEAR_SET_GEARDETAIL_OFFSET))(this, a1);
 		}
 	};
 }

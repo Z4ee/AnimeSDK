@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8F1CD80)
-#define EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8F1CDB0)
-#define EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8F1C830)
-#define EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8F1C810)
+#define EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA341AF0)
+#define EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA341B20)
+#define EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA341AE0)
+#define EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA3419F0)
 
 namespace Epic::OnlineServices::RTCAdmin
 {
-	inline static constexpr unsigned int OnSetParticipantHardMuteCompleteCallback_TypeDefinitionIndex = 41505;
+	inline static constexpr unsigned int OnSetParticipantHardMuteCompleteCallback_TypeDefinitionIndex = 42308;
 
 	class OnSetParticipantHardMuteCompleteCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteCompleteCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteCompleteCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteCompleteCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteCompleteCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteCompleteCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteCompleteCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteCompleteCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::SetParticipantHardMuteCompleteCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_ONSETPARTICIPANTHARDMUTECOMPLETECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

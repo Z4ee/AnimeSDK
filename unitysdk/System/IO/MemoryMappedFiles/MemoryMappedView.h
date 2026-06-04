@@ -5,16 +5,16 @@
 
 namespace Microsoft::Win32::SafeHandles { class SafeMemoryMappedViewHandle; }
 
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_CREATE_OFFSET UNITYSDK_OFFSET(0x19EC24B0)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x19EC29F0)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19EC29C0)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_FLUSH_OFFSET UNITYSDK_OFFSET(0x19EC2990)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_GET_ACCESS_OFFSET UNITYSDK_OFFSET(0x19EC2980)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_GET_ISCLOSED_OFFSET UNITYSDK_OFFSET(0x19EC2A40)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_GET_POINTEROFFSET_OFFSET UNITYSDK_OFFSET(0x19EC2960)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x19EC2970)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_GET_VIEWHANDLE_OFFSET UNITYSDK_OFFSET(0x19EC2950)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC2930)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_CREATE_OFFSET UNITYSDK_OFFSET(0x1AD391C0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1AD39730)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AD39700)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_FLUSH_OFFSET UNITYSDK_OFFSET(0x1AD396D0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_GET_ACCESS_OFFSET UNITYSDK_OFFSET(0x1AD396C0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_GET_ISCLOSED_OFFSET UNITYSDK_OFFSET(0x1AD397B0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_GET_POINTEROFFSET_OFFSET UNITYSDK_OFFSET(0x1AD396A0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1AD396B0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_GET_VIEWHANDLE_OFFSET UNITYSDK_OFFSET(0x1AD39690)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD39670)
 
 namespace System::IO::MemoryMappedFiles
 {
@@ -28,9 +28,9 @@ namespace System::IO::MemoryMappedFiles
 		::System::IO::MemoryMappedFiles::MemoryMappedFileAccess m_access; // 0x20
 		::System::Int64 m_pointerOffset; // 0x28
 
-		::System::Void _ctor(::Microsoft::Win32::SafeHandles::SafeMemoryMappedViewHandle* viewHandle, ::System::Int64 pointerOffset, ::System::Int64 size, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess access)
+		::System::Void _ctor(::Microsoft::Win32::SafeHandles::SafeMemoryMappedViewHandle* a1, ::System::Int64 a2, ::System::Int64 a3, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::SafeHandles::SafeMemoryMappedViewHandle*, ::System::Int64, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW__CTOR_OFFSET))(this, viewHandle, pointerOffset, size, access);
+			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::SafeHandles::SafeMemoryMappedViewHandle*, ::System::Int64, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::Microsoft::Win32::SafeHandles::SafeMemoryMappedViewHandle* get_ViewHandle()
@@ -53,19 +53,19 @@ namespace System::IO::MemoryMappedFiles
 			return ((::System::IO::MemoryMappedFiles::MemoryMappedFileAccess(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_GET_ACCESS_OFFSET))(this);
 		}
 
-		static ::System::IO::MemoryMappedFiles::MemoryMappedView* Create(::System::IntPtr handle, ::System::Int64 offset, ::System::Int64 size, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess access)
+		static ::System::IO::MemoryMappedFiles::MemoryMappedView* Create(::System::IntPtr a1, ::System::Int64 a2, ::System::Int64 a3, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess a4)
 		{
-			return ((::System::IO::MemoryMappedFiles::MemoryMappedView*(*)(::System::IntPtr, ::System::Int64, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_CREATE_OFFSET))(handle, offset, size, access);
+			return ((::System::IO::MemoryMappedFiles::MemoryMappedView*(*)(::System::IntPtr, ::System::Int64, ::System::Int64, ::System::IO::MemoryMappedFiles::MemoryMappedFileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::Void Flush(::System::IntPtr capacity)
+		::System::Void Flush(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_FLUSH_OFFSET))(this, capacity);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_FLUSH_OFFSET))(this, a1);
 		}
 
-		::System::Void Dispose(::System::Boolean disposing)
+		::System::Void Dispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_DISPOSE_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEW_DISPOSE_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose_1()

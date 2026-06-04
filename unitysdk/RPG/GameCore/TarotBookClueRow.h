@@ -5,28 +5,28 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTBOOKCLUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EFAEC0)
-#define RPG_GAMECORE_TAROTBOOKCLUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EFB080)
+#define RPG_GAMECORE_TAROTBOOKCLUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D30410)
+#define RPG_GAMECORE_TAROTBOOKCLUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D305D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookClueRow_TypeDefinitionIndex = 14427;
+	inline static constexpr unsigned int TarotBookClueRow_TypeDefinitionIndex = 14463;
 
 	class TarotBookClueRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 Style; // 0x14
-		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID Name; // 0x10
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 Style; // 0x24
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKCLUEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TarotBookClueRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TarotBookClueRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TarotBookClueRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKCLUEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TarotBookClueRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKCLUEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

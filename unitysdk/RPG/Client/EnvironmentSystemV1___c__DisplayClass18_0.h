@@ -5,12 +5,12 @@
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 namespace RPG::Client { class EnvironmentSystemV1; }
 
-#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA29B700)
-#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0___REFRESHACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xA2A6400)
+#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB922760)
+#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0___REFRESHACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xB92D4C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentSystemV1___c__DisplayClass18_0_TypeDefinitionIndex = 64320;
+	inline static constexpr unsigned int EnvironmentSystemV1___c__DisplayClass18_0_TypeDefinitionIndex = 65241;
 
 	class EnvironmentSystemV1___c__DisplayClass18_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __RefreshActiveProfileAsync_b__0(::System::Object* param)
+		::System::Void __RefreshActiveProfileAsync_b__0(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0___REFRESHACTIVEPROFILEASYNC_B__0_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0___REFRESHACTIVEPROFILEASYNC_B__0_OFFSET))(this, a1);
 		}
 	};
 }

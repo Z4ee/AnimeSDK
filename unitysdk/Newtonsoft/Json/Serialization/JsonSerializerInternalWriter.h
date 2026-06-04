@@ -28,62 +28,62 @@ namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::Serialization { class ISerializable; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_CALCULATEPROPERTYVALUES_OFFSET UNITYSDK_OFFSET(0x17ABC350)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_CHECKFORCIRCULARREFERENCE_OFFSET UNITYSDK_OFFSET(0x17ABB400)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETCONTRACTSAFE_OFFSET UNITYSDK_OFFSET(0x17AB7980)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETINTERNALSERIALIZER_OFFSET UNITYSDK_OFFSET(0x17AB84C0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETPROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x17ABC660)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETREFERENCE_OFFSET UNITYSDK_OFFSET(0x17ABB840)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HANDLEERROR_OFFSET UNITYSDK_OFFSET(0x17AB83F0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_1_OFFSET UNITYSDK_OFFSET(0x17ABB300)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_2_OFFSET UNITYSDK_OFFSET(0x17ABD390)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_OFFSET UNITYSDK_OFFSET(0x17ABB3F0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ISSPECIFIED_OFFSET UNITYSDK_OFFSET(0x17ABCD40)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ONSERIALIZED_OFFSET UNITYSDK_OFFSET(0x17ABBEE0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ONSERIALIZING_OFFSET UNITYSDK_OFFSET(0x17ABBBD0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_RESOLVEISREFERENCE_OFFSET UNITYSDK_OFFSET(0x17ABB280)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZECONVERTABLE_OFFSET UNITYSDK_OFFSET(0x17AB8B90)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x17ABA4F0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEISERIALIZABLE_OFFSET UNITYSDK_OFFSET(0x17ABAD70)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZELIST_OFFSET UNITYSDK_OFFSET(0x17AB9B30)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEMULTIDIMENSIONALARRAY_1_OFFSET UNITYSDK_OFFSET(0x17ABD610)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEMULTIDIMENSIONALARRAY_OFFSET UNITYSDK_OFFSET(0x17ABA310)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x17AB9300)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x17AB85C0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZESTRING_OFFSET UNITYSDK_OFFSET(0x17ABA470)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x17AB7ED0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x17AB7770)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDSERIALIZE_OFFSET UNITYSDK_OFFSET(0x17ABCA20)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITEPROPERTY_OFFSET UNITYSDK_OFFSET(0x17ABB310)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITEREFERENCE_OFFSET UNITYSDK_OFFSET(0x17AB79D0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITETYPE_OFFSET UNITYSDK_OFFSET(0x17AB86F0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_TRYCONVERTTOSTRING_OFFSET UNITYSDK_OFFSET(0x17ABB9A0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEOBJECTSTART_OFFSET UNITYSDK_OFFSET(0x17ABC1F0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEREFERENCEIDPROPERTY_OFFSET UNITYSDK_OFFSET(0x17ABD060)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEREFERENCE_OFFSET UNITYSDK_OFFSET(0x17AB7B60)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITESTARTARRAY_OFFSET UNITYSDK_OFFSET(0x17ABD3A0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITETYPEPROPERTY_OFFSET UNITYSDK_OFFSET(0x17AB8820)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x17AB76E0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_CALCULATEPROPERTYVALUES_OFFSET UNITYSDK_OFFSET(0x1886AD90)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_CHECKFORCIRCULARREFERENCE_OFFSET UNITYSDK_OFFSET(0x18869DA0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETCONTRACTSAFE_OFFSET UNITYSDK_OFFSET(0x188660C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETINTERNALSERIALIZER_OFFSET UNITYSDK_OFFSET(0x18866C40)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETPROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1886B0A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETREFERENCE_OFFSET UNITYSDK_OFFSET(0x1886A280)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HANDLEERROR_OFFSET UNITYSDK_OFFSET(0x18866B70)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_1_OFFSET UNITYSDK_OFFSET(0x18869CA0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_2_OFFSET UNITYSDK_OFFSET(0x1886BDD0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_OFFSET UNITYSDK_OFFSET(0x18869D90)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ISSPECIFIED_OFFSET UNITYSDK_OFFSET(0x1886B780)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ONSERIALIZED_OFFSET UNITYSDK_OFFSET(0x1886A920)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ONSERIALIZING_OFFSET UNITYSDK_OFFSET(0x1886A610)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_RESOLVEISREFERENCE_OFFSET UNITYSDK_OFFSET(0x18869C20)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZECONVERTABLE_OFFSET UNITYSDK_OFFSET(0x18867310)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x18868DD0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEISERIALIZABLE_OFFSET UNITYSDK_OFFSET(0x188696C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZELIST_OFFSET UNITYSDK_OFFSET(0x18868340)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEMULTIDIMENSIONALARRAY_1_OFFSET UNITYSDK_OFFSET(0x1886C050)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEMULTIDIMENSIONALARRAY_OFFSET UNITYSDK_OFFSET(0x18868BA0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x18867AD0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x18866D40)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZESTRING_OFFSET UNITYSDK_OFFSET(0x18868D50)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x18866610)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x18865EB0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1886B460)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18869CB0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITEREFERENCE_OFFSET UNITYSDK_OFFSET(0x18866110)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITETYPE_OFFSET UNITYSDK_OFFSET(0x18866E70)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_TRYCONVERTTOSTRING_OFFSET UNITYSDK_OFFSET(0x1886A3E0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEOBJECTSTART_OFFSET UNITYSDK_OFFSET(0x1886AC30)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEREFERENCEIDPROPERTY_OFFSET UNITYSDK_OFFSET(0x1886BAA0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEREFERENCE_OFFSET UNITYSDK_OFFSET(0x188662A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITESTARTARRAY_OFFSET UNITYSDK_OFFSET(0x1886BDE0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITETYPEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18866FA0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x18865E20)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonSerializerInternalWriter_TypeDefinitionIndex = 8488;
+	inline static constexpr unsigned int JsonSerializerInternalWriter_TypeDefinitionIndex = 9391;
 
 	class JsonSerializerInternalWriter : public ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase
 	{
 	public:
-		::System::Type* _rootType; // 0x38
-		::System::Collections::Generic::List_1<::System::Object*>* _serializeStack; // 0x40
+		::System::Collections::Generic::List_1<::System::Object*>* _serializeStack; // 0x38
+		::System::Type* _rootType; // 0x40
 		::System::Int32 _rootLevel; // 0x48
 
-		::System::Void _ctor(::Newtonsoft::Json::JsonSerializer* serializer)
+		::System::Void _ctor(::Newtonsoft::Json::JsonSerializer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER__CTOR_OFFSET))(this, serializer);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void Serialize(::Newtonsoft::Json::JsonWriter* jsonWriter, ::System::Object* value, ::System::Type* objectType)
+		::System::Void Serialize(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::System::Type* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZE_OFFSET))(this, jsonWriter, value, objectType);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Newtonsoft::Json::Serialization::JsonSerializerProxy* GetInternalSerializer()
@@ -91,169 +91,169 @@ namespace Newtonsoft::Json::Serialization
 			return ((::Newtonsoft::Json::Serialization::JsonSerializerProxy*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETINTERNALSERIALIZER_OFFSET))(this);
 		}
 
-		::Newtonsoft::Json::Serialization::JsonContract* GetContractSafe(::System::Object* value)
+		::Newtonsoft::Json::Serialization::JsonContract* GetContractSafe(::System::Object* a1)
 		{
-			return ((::Newtonsoft::Json::Serialization::JsonContract*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETCONTRACTSAFE_OFFSET))(this, value);
+			return ((::Newtonsoft::Json::Serialization::JsonContract*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETCONTRACTSAFE_OFFSET))(this, a1);
 		}
 
-		::System::Void SerializePrimitive(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::Serialization::JsonPrimitiveContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Void SerializePrimitive(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::Serialization::JsonPrimitiveContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4, ::Newtonsoft::Json::Serialization::JsonContainerContract* a5, ::Newtonsoft::Json::Serialization::JsonProperty* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonPrimitiveContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEPRIMITIVE_OFFSET))(this, writer, value, contract, member, containerContract, containerProperty);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonPrimitiveContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEPRIMITIVE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void SerializeValue(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::Serialization::JsonContract* valueContract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Void SerializeValue(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::Serialization::JsonContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4, ::Newtonsoft::Json::Serialization::JsonContainerContract* a5, ::Newtonsoft::Json::Serialization::JsonProperty* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEVALUE_OFFSET))(this, writer, value, valueContract, member, containerContract, containerProperty);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEVALUE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Nullable_1<::System::Boolean> ResolveIsReference(::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Nullable_1<::System::Boolean> ResolveIsReference(::Newtonsoft::Json::Serialization::JsonContract* a1, ::Newtonsoft::Json::Serialization::JsonProperty* a2, ::Newtonsoft::Json::Serialization::JsonContainerContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4)
 		{
-			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_RESOLVEISREFERENCE_OFFSET))(this, contract, property, collectionContract, containerProperty);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_RESOLVEISREFERENCE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean ShouldWriteReference(::System::Object* value, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::Newtonsoft::Json::Serialization::JsonContract* valueContract, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Boolean ShouldWriteReference(::System::Object* a1, ::Newtonsoft::Json::Serialization::JsonProperty* a2, ::Newtonsoft::Json::Serialization::JsonContract* a3, ::Newtonsoft::Json::Serialization::JsonContainerContract* a4, ::Newtonsoft::Json::Serialization::JsonProperty* a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITEREFERENCE_OFFSET))(this, value, property, valueContract, collectionContract, containerProperty);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITEREFERENCE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean ShouldWriteProperty(::System::Object* memberValue, ::Newtonsoft::Json::Serialization::JsonProperty* property)
+		::System::Boolean ShouldWriteProperty(::System::Object* a1, ::Newtonsoft::Json::Serialization::JsonProperty* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITEPROPERTY_OFFSET))(this, memberValue, property);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITEPROPERTY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CheckForCircularReference(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Boolean CheckForCircularReference(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::Serialization::JsonProperty* a3, ::Newtonsoft::Json::Serialization::JsonContract* a4, ::Newtonsoft::Json::Serialization::JsonContainerContract* a5, ::Newtonsoft::Json::Serialization::JsonProperty* a6)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_CHECKFORCIRCULARREFERENCE_OFFSET))(this, writer, value, property, contract, containerContract, containerProperty);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_CHECKFORCIRCULARREFERENCE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void WriteReference(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value)
+		::System::Void WriteReference(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEREFERENCE_OFFSET))(this, writer, value);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEREFERENCE_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* GetReference(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value)
+		::System::String* GetReference(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETREFERENCE_OFFSET))(this, writer, value);
+			return ((::System::String*(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETREFERENCE_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Boolean TryConvertToString(::System::Object* value, ::System::Type* type, ::System::String*& s)
+		static ::System::Boolean TryConvertToString(::System::Object* a1, ::System::Type* a2, ::System::String*& a3)
 		{
-			return ((::System::Boolean(*)(::System::Object*, ::System::Type*, ::System::String*&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_TRYCONVERTTOSTRING_OFFSET))(value, type, s);
+			return ((::System::Boolean(*)(::System::Object*, ::System::Type*, ::System::String*&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_TRYCONVERTTOSTRING_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void SerializeString(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::Serialization::JsonStringContract* contract)
+		::System::Void SerializeString(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::Serialization::JsonStringContract* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonStringContract*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZESTRING_OFFSET))(this, writer, value, contract);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonStringContract*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZESTRING_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void OnSerializing(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Object* value)
+		::System::Void OnSerializing(::Newtonsoft::Json::JsonWriter* a1, ::Newtonsoft::Json::Serialization::JsonContract* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Serialization::JsonContract*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ONSERIALIZING_OFFSET))(this, writer, contract, value);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Serialization::JsonContract*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ONSERIALIZING_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void OnSerialized(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Object* value)
+		::System::Void OnSerialized(::Newtonsoft::Json::JsonWriter* a1, ::Newtonsoft::Json::Serialization::JsonContract* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Serialization::JsonContract*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ONSERIALIZED_OFFSET))(this, writer, contract, value);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Serialization::JsonContract*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ONSERIALIZED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SerializeObject(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::Serialization::JsonObjectContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Void SerializeObject(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::Serialization::JsonObjectContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4, ::Newtonsoft::Json::Serialization::JsonContainerContract* a5, ::Newtonsoft::Json::Serialization::JsonProperty* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonObjectContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEOBJECT_OFFSET))(this, writer, value, contract, member, collectionContract, containerProperty);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonObjectContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEOBJECT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean CalculatePropertyValues(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::Serialization::JsonContainerContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::Newtonsoft::Json::Serialization::JsonContract*& memberContract, ::System::Object*& memberValue)
+		::System::Boolean CalculatePropertyValues(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::Serialization::JsonContainerContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4, ::Newtonsoft::Json::Serialization::JsonProperty* a5, ::Newtonsoft::Json::Serialization::JsonContract*& a6, ::System::Object*& a7)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContract*&, ::System::Object*&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_CALCULATEPROPERTYVALUES_OFFSET))(this, writer, value, contract, member, property, memberContract, memberValue);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContract*&, ::System::Object*&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_CALCULATEPROPERTYVALUES_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void WriteObjectStart(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Void WriteObjectStart(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::Serialization::JsonContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4, ::Newtonsoft::Json::Serialization::JsonContainerContract* a5, ::Newtonsoft::Json::Serialization::JsonProperty* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEOBJECTSTART_OFFSET))(this, writer, value, contract, member, collectionContract, containerProperty);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEOBJECTSTART_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void WriteReferenceIdProperty(::Newtonsoft::Json::JsonWriter* writer, ::System::Type* type, ::System::Object* value)
+		::System::Void WriteReferenceIdProperty(::Newtonsoft::Json::JsonWriter* a1, ::System::Type* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEREFERENCEIDPROPERTY_OFFSET))(this, writer, type, value);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITEREFERENCEIDPROPERTY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteTypeProperty(::Newtonsoft::Json::JsonWriter* writer, ::System::Type* type)
+		::System::Void WriteTypeProperty(::Newtonsoft::Json::JsonWriter* a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITETYPEPROPERTY_OFFSET))(this, writer, type);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITETYPEPROPERTY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean HasFlag(::Newtonsoft::Json::DefaultValueHandling value, ::Newtonsoft::Json::DefaultValueHandling flag)
+		::System::Boolean HasFlag(::Newtonsoft::Json::DefaultValueHandling a1, ::Newtonsoft::Json::DefaultValueHandling a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::DefaultValueHandling, ::Newtonsoft::Json::DefaultValueHandling))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_OFFSET))(this, value, flag);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::DefaultValueHandling, ::Newtonsoft::Json::DefaultValueHandling))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean HasFlag_1(::Newtonsoft::Json::PreserveReferencesHandling value, ::Newtonsoft::Json::PreserveReferencesHandling flag)
+		::System::Boolean HasFlag_1(::Newtonsoft::Json::PreserveReferencesHandling a1, ::Newtonsoft::Json::PreserveReferencesHandling a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::PreserveReferencesHandling, ::Newtonsoft::Json::PreserveReferencesHandling))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_1_OFFSET))(this, value, flag);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::PreserveReferencesHandling, ::Newtonsoft::Json::PreserveReferencesHandling))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean HasFlag_2(::Newtonsoft::Json::TypeNameHandling value, ::Newtonsoft::Json::TypeNameHandling flag)
+		::System::Boolean HasFlag_2(::Newtonsoft::Json::TypeNameHandling a1, ::Newtonsoft::Json::TypeNameHandling a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::TypeNameHandling, ::Newtonsoft::Json::TypeNameHandling))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_2_OFFSET))(this, value, flag);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::TypeNameHandling, ::Newtonsoft::Json::TypeNameHandling))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HASFLAG_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SerializeConvertable(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::JsonConverter* converter, ::System::Object* value, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Void SerializeConvertable(::Newtonsoft::Json::JsonWriter* a1, ::Newtonsoft::Json::JsonConverter* a2, ::System::Object* a3, ::Newtonsoft::Json::Serialization::JsonContract* a4, ::Newtonsoft::Json::Serialization::JsonContainerContract* a5, ::Newtonsoft::Json::Serialization::JsonProperty* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::JsonConverter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZECONVERTABLE_OFFSET))(this, writer, converter, value, contract, collectionContract, containerProperty);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::JsonConverter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZECONVERTABLE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void SerializeList(::Newtonsoft::Json::JsonWriter* writer, ::System::Collections::IEnumerable* values, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Void SerializeList(::Newtonsoft::Json::JsonWriter* a1, ::System::Collections::IEnumerable* a2, ::Newtonsoft::Json::Serialization::JsonArrayContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4, ::Newtonsoft::Json::Serialization::JsonContainerContract* a5, ::Newtonsoft::Json::Serialization::JsonProperty* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Collections::IEnumerable*, ::Newtonsoft::Json::Serialization::JsonArrayContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZELIST_OFFSET))(this, writer, values, contract, member, collectionContract, containerProperty);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Collections::IEnumerable*, ::Newtonsoft::Json::Serialization::JsonArrayContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZELIST_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void SerializeMultidimensionalArray(::Newtonsoft::Json::JsonWriter* writer, ::System::Array* values, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Void SerializeMultidimensionalArray(::Newtonsoft::Json::JsonWriter* a1, ::System::Array* a2, ::Newtonsoft::Json::Serialization::JsonArrayContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4, ::Newtonsoft::Json::Serialization::JsonContainerContract* a5, ::Newtonsoft::Json::Serialization::JsonProperty* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Array*, ::Newtonsoft::Json::Serialization::JsonArrayContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEMULTIDIMENSIONALARRAY_OFFSET))(this, writer, values, contract, member, collectionContract, containerProperty);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Array*, ::Newtonsoft::Json::Serialization::JsonArrayContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEMULTIDIMENSIONALARRAY_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void SerializeMultidimensionalArray_1(::Newtonsoft::Json::JsonWriter* writer, ::System::Array* values, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::System::Int32 initialDepth, ::Il2CppArray<::System::Int32>* indices)
+		::System::Void SerializeMultidimensionalArray_1(::Newtonsoft::Json::JsonWriter* a1, ::System::Array* a2, ::Newtonsoft::Json::Serialization::JsonArrayContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4, ::System::Int32 a5, ::Il2CppArray<::System::Int32>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Array*, ::Newtonsoft::Json::Serialization::JsonArrayContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Int32, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEMULTIDIMENSIONALARRAY_1_OFFSET))(this, writer, values, contract, member, initialDepth, indices);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Array*, ::Newtonsoft::Json::Serialization::JsonArrayContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Int32, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEMULTIDIMENSIONALARRAY_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean WriteStartArray(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* values, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Boolean WriteStartArray(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::Serialization::JsonArrayContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4, ::Newtonsoft::Json::Serialization::JsonContainerContract* a5, ::Newtonsoft::Json::Serialization::JsonProperty* a6)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonArrayContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITESTARTARRAY_OFFSET))(this, writer, values, contract, member, containerContract, containerProperty);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonArrayContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_WRITESTARTARRAY_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void SerializeISerializable(::Newtonsoft::Json::JsonWriter* writer, ::System::Runtime::Serialization::ISerializable* value, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Void SerializeISerializable(::Newtonsoft::Json::JsonWriter* a1, ::System::Runtime::Serialization::ISerializable* a2, ::Newtonsoft::Json::Serialization::JsonISerializableContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4, ::Newtonsoft::Json::Serialization::JsonContainerContract* a5, ::Newtonsoft::Json::Serialization::JsonProperty* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Runtime::Serialization::ISerializable*, ::Newtonsoft::Json::Serialization::JsonISerializableContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEISERIALIZABLE_OFFSET))(this, writer, value, contract, member, collectionContract, containerProperty);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Runtime::Serialization::ISerializable*, ::Newtonsoft::Json::Serialization::JsonISerializableContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEISERIALIZABLE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean ShouldWriteType(::Newtonsoft::Json::TypeNameHandling typeNameHandlingFlag, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Boolean ShouldWriteType(::Newtonsoft::Json::TypeNameHandling a1, ::Newtonsoft::Json::Serialization::JsonContract* a2, ::Newtonsoft::Json::Serialization::JsonProperty* a3, ::Newtonsoft::Json::Serialization::JsonContainerContract* a4, ::Newtonsoft::Json::Serialization::JsonProperty* a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::TypeNameHandling, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITETYPE_OFFSET))(this, typeNameHandlingFlag, contract, member, containerContract, containerProperty);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::TypeNameHandling, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDWRITETYPE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void SerializeDictionary(::Newtonsoft::Json::JsonWriter* writer, ::System::Collections::IDictionary* values, ::Newtonsoft::Json::Serialization::JsonDictionaryContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty)
+		::System::Void SerializeDictionary(::Newtonsoft::Json::JsonWriter* a1, ::System::Collections::IDictionary* a2, ::Newtonsoft::Json::Serialization::JsonDictionaryContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4, ::Newtonsoft::Json::Serialization::JsonContainerContract* a5, ::Newtonsoft::Json::Serialization::JsonProperty* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Collections::IDictionary*, ::Newtonsoft::Json::Serialization::JsonDictionaryContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEDICTIONARY_OFFSET))(this, writer, values, contract, member, collectionContract, containerProperty);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Collections::IDictionary*, ::Newtonsoft::Json::Serialization::JsonDictionaryContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEDICTIONARY_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::String* GetPropertyName(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* name, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Boolean& escape)
+		::System::String* GetPropertyName(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::Serialization::JsonContract* a3, ::System::Boolean& a4)
 		{
-			return ((::System::String*(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonContract*, ::System::Boolean&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETPROPERTYNAME_OFFSET))(this, writer, name, contract, escape);
+			return ((::System::String*(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonContract*, ::System::Boolean&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_GETPROPERTYNAME_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void HandleError(::Newtonsoft::Json::JsonWriter* writer, ::System::Int32 initialDepth)
+		::System::Void HandleError(::Newtonsoft::Json::JsonWriter* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HANDLEERROR_OFFSET))(this, writer, initialDepth);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_HANDLEERROR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean ShouldSerialize(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::System::Object* target)
+		::System::Boolean ShouldSerialize(::Newtonsoft::Json::JsonWriter* a1, ::Newtonsoft::Json::Serialization::JsonProperty* a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDSERIALIZE_OFFSET))(this, writer, property, target);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SHOULDSERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean IsSpecified(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::System::Object* target)
+		::System::Boolean IsSpecified(::Newtonsoft::Json::JsonWriter* a1, ::Newtonsoft::Json::Serialization::JsonProperty* a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ISSPECIFIED_OFFSET))(this, writer, property, target);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_ISSPECIFIED_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

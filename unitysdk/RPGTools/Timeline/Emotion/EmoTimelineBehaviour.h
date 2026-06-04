@@ -13,18 +13,18 @@ namespace RPGTools::Timeline::Emotion { class EmoTimelineClip; }
 namespace RPGTools::Timeline::Emotion { class PoseData; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_METHOD_2_512BAEC7C92D0DBB_OFFSET UNITYSDK_OFFSET(0xB8D4CA0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_METHOD_2_7B7BD71833BFC44B_OFFSET UNITYSDK_OFFSET(0xB8D5100)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_METHOD_2_B6D3DB7A75DFFB91_OFFSET UNITYSDK_OFFSET(0xB8D5220)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xB8D4BB0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB8D4C10)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8D5660)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xB8D5670)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB8D5680)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_METHOD_2_512BAEC7C92D0DBB_OFFSET UNITYSDK_OFFSET(0xD017780)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_METHOD_2_7B7BD71833BFC44B_OFFSET UNITYSDK_OFFSET(0xD017BC0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_METHOD_2_B7B6BCFF308E3412_OFFSET UNITYSDK_OFFSET(0xD017CD0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xD017690)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD0176F0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD0181D0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xD0181E0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD0181F0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoTimelineBehaviour_TypeDefinitionIndex = 45424;
+	inline static constexpr unsigned int EmoTimelineBehaviour_TypeDefinitionIndex = 46007;
 
 	class EmoTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -60,9 +60,9 @@ namespace RPGTools::Timeline::Emotion
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_METHOD_2_512BAEC7C92D0DBB_OFFSET))(this, a1, a2);
 		}
 
-		::Struct_2_2363FCAC272B4C45 Method_2_B6D3DB7A75DFFB91(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::Struct_2_2363FCAC272B4C45 Method_2_B7B6BCFF308E3412(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::Struct_2_2363FCAC272B4C45(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_METHOD_2_B6D3DB7A75DFFB91_OFFSET))(this, a1, a2);
+			return ((::Struct_2_2363FCAC272B4C45(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_METHOD_2_B7B6BCFF308E3412_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_2_7B7BD71833BFC44B(::System::Double a1, ::System::Int32& a2, ::System::Int32& a3)
@@ -70,14 +70,14 @@ namespace RPGTools::Timeline::Emotion
 			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR_METHOD_2_7B7BD71833BFC44B_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnPlayableDestroy(::UnityEngine::Playables::Playable P0)
+		::System::Void __iFixBaseProxy_OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

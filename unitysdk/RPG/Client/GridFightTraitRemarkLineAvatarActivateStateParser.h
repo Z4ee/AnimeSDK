@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightTrait; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xA5BCBD0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xA5BCBE0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0xA5BC7E0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER__GETISACTIVE_OFFSET UNITYSDK_OFFSET(0xA5BC830)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xBC2EE00)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xBC2EE10)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0xBC2EA30)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER__GETISACTIVE_OFFSET UNITYSDK_OFFSET(0xBC2EA80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineAvatarActivateStateParser_TypeDefinitionIndex = 60280;
+	inline static constexpr unsigned int GridFightTraitRemarkLineAvatarActivateStateParser_TypeDefinitionIndex = 61215;
 
 	class GridFightTraitRemarkLineAvatarActivateStateParser : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightTrait* _Trait; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* _avatarIDs; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* _avatarIDs; // 0x10
+		::RPG::Client::GridFightTrait* _Trait; // 0x18
 
-		::System::Void _ctor(::Il2CppArray<::System::UInt32>* avatarIDs, ::RPG::Client::GridFightTrait* trait)
+		::System::Void _ctor(::Il2CppArray<::System::UInt32>* a1, ::RPG::Client::GridFightTrait* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER__CTOR_OFFSET))(this, avatarIDs, trait);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean _GetIsActive()

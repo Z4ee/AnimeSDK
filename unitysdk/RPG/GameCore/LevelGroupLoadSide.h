@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupLoadSide_TypeDefinitionIndex = 16298;
+	inline static constexpr unsigned int LevelGroupLoadSide_TypeDefinitionIndex = 16331;
 
 	enum class LevelGroupLoadSide : ::System::Int32
 	{

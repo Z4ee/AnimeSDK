@@ -5,11 +5,11 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BOXINGCLUBWININFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9EA9E90)
+#define RPG_CLIENT_BOXINGCLUBWININFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB446330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BoxingClubWinInfo_TypeDefinitionIndex = 57991;
+	inline static constexpr unsigned int BoxingClubWinInfo_TypeDefinitionIndex = 58907;
 
 	class BoxingClubWinInfo : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GroupLookUpConfig; }
 
-#define RPG_GAMECORE_EVENTLOOKUPCONFIG_METHOD_2_428A3B50B444E805_OFFSET UNITYSDK_OFFSET(0x188B7E20)
-#define RPG_GAMECORE_EVENTLOOKUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188B7FD0)
+#define RPG_GAMECORE_EVENTLOOKUPCONFIG_METHOD_2_852115C8ED56D350_OFFSET UNITYSDK_OFFSET(0x196F5810)
+#define RPG_GAMECORE_EVENTLOOKUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196F59B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EventLookUpConfig_TypeDefinitionIndex = 15507;
+	inline static constexpr unsigned int EventLookUpConfig_TypeDefinitionIndex = 15568;
 
 	class EventLookUpConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVENTLOOKUPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_428A3B50B444E805(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EventLookUpConfig*& a2)
+		static ::System::Void Method_2_852115C8ED56D350(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EventLookUpConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EventLookUpConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVENTLOOKUPCONFIG_METHOD_2_428A3B50B444E805_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EventLookUpConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVENTLOOKUPCONFIG_METHOD_2_852115C8ED56D350_OFFSET))(a1, a2);
 		}
 	};
 }

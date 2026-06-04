@@ -8,13 +8,13 @@ namespace RPG::GameCore { class NormDistanceLodTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LODCONFIG_METHOD_2_01AB4A09CD6B49D5_OFFSET UNITYSDK_OFFSET(0x18A7AC40)
-#define RPG_GAMECORE_LODCONFIG_METHOD_2_FF316D7C9BCF8CB7_OFFSET UNITYSDK_OFFSET(0x18A7AB10)
-#define RPG_GAMECORE_LODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A7AC30)
+#define RPG_GAMECORE_LODCONFIG_METHOD_2_27E8B595EABF5A18_OFFSET UNITYSDK_OFFSET(0x198ADF30)
+#define RPG_GAMECORE_LODCONFIG_METHOD_2_B168B86FB4567B46_OFFSET UNITYSDK_OFFSET(0x198AE060)
+#define RPG_GAMECORE_LODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198AE050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LodConfig_TypeDefinitionIndex = 18239;
+	inline static constexpr unsigned int LodConfig_TypeDefinitionIndex = 18214;
 
 	class LodConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LODCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FF316D7C9BCF8CB7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LodConfig*& a2)
+		static ::System::Void Method_2_27E8B595EABF5A18(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LodConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LodConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LODCONFIG_METHOD_2_FF316D7C9BCF8CB7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LodConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LODCONFIG_METHOD_2_27E8B595EABF5A18_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_01AB4A09CD6B49D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LodConfig* a2)
+		static ::System::Void Method_2_B168B86FB4567B46(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LodConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LodConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LODCONFIG_METHOD_2_01AB4A09CD6B49D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LodConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LODCONFIG_METHOD_2_B168B86FB4567B46_OFFSET))(a1, a2);
 		}
 	};
 }

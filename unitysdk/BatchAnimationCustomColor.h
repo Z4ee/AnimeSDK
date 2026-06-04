@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-inline static constexpr unsigned int BatchAnimationCustomColor_TypeDefinitionIndex = 34860;
+inline static constexpr unsigned int BatchAnimationCustomColor_TypeDefinitionIndex = 35143;
 
 struct alignas(4) BatchAnimationCustomColor
 {

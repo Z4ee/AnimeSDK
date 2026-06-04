@@ -6,15 +6,15 @@
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/ZFDefines_ReportEventParamOffset.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/ZFDefines_ReportEventType.h"
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_HASREPORTEVENTS_OFFSET UNITYSDK_OFFSET(0x1A6D0870)
-#define ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_HASREPORTEVENT_OFFSET UNITYSDK_OFFSET(0x1A6D08A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_PARSEEVENTPARAM_OFFSET UNITYSDK_OFFSET(0x1A6D0850)
-#define ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_REPORTFRAMEPARAM1_OFFSET UNITYSDK_OFFSET(0x1A6D0860)
-#define ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6D08D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_HASREPORTEVENTS_OFFSET UNITYSDK_OFFSET(0x1B50DC50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_HASREPORTEVENT_OFFSET UNITYSDK_OFFSET(0x1B50DC80)
+#define ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_PARSEEVENTPARAM_OFFSET UNITYSDK_OFFSET(0x1B50DC30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_REPORTFRAMEPARAM1_OFFSET UNITYSDK_OFFSET(0x1B50DC40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B50DCB0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int ZFDefines_TypeDefinitionIndex = 36337;
+	inline static constexpr unsigned int ZFDefines_TypeDefinitionIndex = 36637;
 
 	class ZFDefines : public ::System::Object
 	{
@@ -24,14 +24,14 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Int32 ParseEventParam(::System::Int64 param, ::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventParamOffset offset)
+		static ::System::Int32 ParseEventParam(::System::Int64 a1, ::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventParamOffset a2)
 		{
-			return ((::System::Int32(*)(::System::Int64, ::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventParamOffset))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_PARSEEVENTPARAM_OFFSET))(param, offset);
+			return ((::System::Int32(*)(::System::Int64, ::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventParamOffset))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_PARSEEVENTPARAM_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 ReportFrameParam1(::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventAction ea, ::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventFrameType frameType)
+		static ::System::Int32 ReportFrameParam1(::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventAction a1, ::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventFrameType a2)
 		{
-			return ((::System::Int32(*)(::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventAction, ::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventFrameType))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_REPORTFRAMEPARAM1_OFFSET))(ea, frameType);
+			return ((::System::Int32(*)(::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventAction, ::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventFrameType))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_REPORTFRAMEPARAM1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean HasReportEvents()
@@ -39,9 +39,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_HASREPORTEVENTS_OFFSET))();
 		}
 
-		static ::System::Boolean HasReportEvent(::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventType type)
+		static ::System::Boolean HasReportEvent(::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventType a1)
 		{
-			return ((::System::Boolean(*)(::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventType))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_HASREPORTEVENT_OFFSET))(type);
+			return ((::System::Boolean(*)(::ZenFulcrum::EmbeddedBrowser::ZFDefines_ReportEventType))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_ZFDEFINES_HASREPORTEVENT_OFFSET))(a1);
 		}
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IKHitReaction_Struct_2_CC346D804C45C8EA_1_TypeDefinitionIndex = 63127;
+	inline static constexpr unsigned int IKHitReaction_Struct_2_CC346D804C45C8EA_1_TypeDefinitionIndex = 64044;
 
 	struct alignas(2) IKHitReaction_Struct_2_CC346D804C45C8EA_1
 	{

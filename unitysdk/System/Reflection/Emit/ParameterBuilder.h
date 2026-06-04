@@ -4,7 +4,7 @@
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int ParameterBuilder_TypeDefinitionIndex = 654;
+	inline static constexpr unsigned int ParameterBuilder_TypeDefinitionIndex = 653;
 
 	class ParameterBuilder : public ::System::Object
 	{

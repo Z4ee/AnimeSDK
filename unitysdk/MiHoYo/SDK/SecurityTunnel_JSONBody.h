@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8DC7610)
-#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x8DC3510)
+#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA214200)
+#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY__CTOR_OFFSET UNITYSDK_OFFSET(0xA2105C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_JSONBody_TypeDefinitionIndex = 42990;
+	inline static constexpr unsigned int SecurityTunnel_JSONBody_TypeDefinitionIndex = 43793;
 
 	class SecurityTunnel_JSONBody : public ::System::Object
 	{
@@ -17,9 +17,9 @@ namespace MiHoYo::SDK
 		::System::String* Msg; // 0x10
 		::System::Int32 Code; // 0x18
 
-		::System::Void _ctor(::System::String* jsonString)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_JSONBODY__CTOR_OFFSET))(this, jsonString);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_JSONBODY__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

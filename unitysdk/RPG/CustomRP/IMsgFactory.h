@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int IMsgFactory_TypeDefinitionIndex = 35273;
+	inline static constexpr unsigned int IMsgFactory_TypeDefinitionIndex = 35573;
 
 	class IMsgFactory
 	{

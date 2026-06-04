@@ -5,14 +5,14 @@
 namespace RPG::Client { class CakeRaceTitleData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CAKERACETITLEINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9F0BCB0)
-#define RPG_CLIENT_CAKERACETITLEINFO_GETTITLE_OFFSET UNITYSDK_OFFSET(0x9F032B0)
-#define RPG_CLIENT_CAKERACETITLEINFO_INIT_OFFSET UNITYSDK_OFFSET(0x9F0B380)
-#define RPG_CLIENT_CAKERACETITLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9F0B130)
+#define RPG_CLIENT_CAKERACETITLEINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4A7F70)
+#define RPG_CLIENT_CAKERACETITLEINFO_GETTITLE_OFFSET UNITYSDK_OFFSET(0xB4AF030)
+#define RPG_CLIENT_CAKERACETITLEINFO_INIT_OFFSET UNITYSDK_OFFSET(0xB4A77F0)
+#define RPG_CLIENT_CAKERACETITLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB4A75A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceTitleInfo_TypeDefinitionIndex = 58099;
+	inline static constexpr unsigned int CakeRaceTitleInfo_TypeDefinitionIndex = 59015;
 
 	class CakeRaceTitleInfo : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACETITLEINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::RPG::Client::CakeRaceTitleData* GetTitle(::System::UInt32 titleId)
+		::RPG::Client::CakeRaceTitleData* GetTitle(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::CakeRaceTitleData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACETITLEINFO_GETTITLE_OFFSET))(this, titleId);
+			return ((::RPG::Client::CakeRaceTitleData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACETITLEINFO_GETTITLE_OFFSET))(this, a1);
 		}
 	};
 }

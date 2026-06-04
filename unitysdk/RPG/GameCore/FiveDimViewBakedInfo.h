@@ -10,12 +10,12 @@ namespace RPG::GameCore { class MeshBound; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FIVEDIMVIEWBAKEDINFO_METHOD_2_3301C081C377F1DC_OFFSET UNITYSDK_OFFSET(0x18923AE0)
-#define RPG_GAMECORE_FIVEDIMVIEWBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18923DC0)
+#define RPG_GAMECORE_FIVEDIMVIEWBAKEDINFO_METHOD_2_2E2F8698F2EC4C49_OFFSET UNITYSDK_OFFSET(0x1975DAB0)
+#define RPG_GAMECORE_FIVEDIMVIEWBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1975DD90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimViewBakedInfo_TypeDefinitionIndex = 15836;
+	inline static constexpr unsigned int FiveDimViewBakedInfo_TypeDefinitionIndex = 15891;
 
 	class FiveDimViewBakedInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMVIEWBAKEDINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3301C081C377F1DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimViewBakedInfo*& a2)
+		static ::System::Void Method_2_2E2F8698F2EC4C49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimViewBakedInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimViewBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMVIEWBAKEDINFO_METHOD_2_3301C081C377F1DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimViewBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMVIEWBAKEDINFO_METHOD_2_2E2F8698F2EC4C49_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,32 +6,32 @@ namespace System { class String; }
 namespace System::Security::Util { class TokenizerShortBlock; }
 namespace System::Security::Util { class TokenizerStringBlock; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_ADDSTRING_OFFSET UNITYSDK_OFFSET(0x1781FD20)
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_ADDTOKEN_OFFSET UNITYSDK_OFFSET(0x1781F630)
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GETNEXTFULLTOKEN_OFFSET UNITYSDK_OFFSET(0x1781F1E0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GETNEXTSTRING_OFFSET UNITYSDK_OFFSET(0x1781D240)
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GETNEXTTOKEN_OFFSET UNITYSDK_OFFSET(0x1781D160)
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GETTOKENCOUNT_OFFSET UNITYSDK_OFFSET(0x178200F0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GOTOPOSITION_OFFSET UNITYSDK_OFFSET(0x1781E4C0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_RESET_OFFSET UNITYSDK_OFFSET(0x1781F1B0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_TAGLASTTOKEN_OFFSET UNITYSDK_OFFSET(0x1781D190)
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_THROWAWAYNEXTSTRING_OFFSET UNITYSDK_OFFSET(0x1781D180)
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1781F100)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_ADDSTRING_OFFSET UNITYSDK_OFFSET(0x185D9650)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_ADDTOKEN_OFFSET UNITYSDK_OFFSET(0x185D8F60)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GETNEXTFULLTOKEN_OFFSET UNITYSDK_OFFSET(0x185D8B10)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GETNEXTSTRING_OFFSET UNITYSDK_OFFSET(0x185D6640)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GETNEXTTOKEN_OFFSET UNITYSDK_OFFSET(0x185D64A0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GETTOKENCOUNT_OFFSET UNITYSDK_OFFSET(0x185D9A10)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GOTOPOSITION_OFFSET UNITYSDK_OFFSET(0x185D7980)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_RESET_OFFSET UNITYSDK_OFFSET(0x185D8AE0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_TAGLASTTOKEN_OFFSET UNITYSDK_OFFSET(0x185D65B0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_THROWAWAYNEXTSTRING_OFFSET UNITYSDK_OFFSET(0x185D6530)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x185D8A30)
 
 namespace System::Security::Util
 {
-	inline static constexpr unsigned int TokenizerStream_TypeDefinitionIndex = 976;
+	inline static constexpr unsigned int TokenizerStream_TypeDefinitionIndex = 975;
 
 	class TokenizerStream : public ::System::Object
 	{
 	public:
-		::System::Security::Util::TokenizerShortBlock* m_headTokens; // 0x10
-		::System::Security::Util::TokenizerShortBlock* m_lastTokens; // 0x18
-		::System::Security::Util::TokenizerStringBlock* m_currentStrings; // 0x20
+		::System::Security::Util::TokenizerShortBlock* m_lastTokens; // 0x10
+		::System::Security::Util::TokenizerStringBlock* m_currentStrings; // 0x18
+		::System::Security::Util::TokenizerStringBlock* m_headStrings; // 0x20
 		::System::Security::Util::TokenizerShortBlock* m_currentTokens; // 0x28
-		::System::Security::Util::TokenizerStringBlock* m_headStrings; // 0x30
-		::System::Int32 m_indexStrings; // 0x38
-		::System::Int32 m_indexTokens; // 0x3C
+		::System::Security::Util::TokenizerShortBlock* m_headTokens; // 0x30
+		::System::Int32 m_indexTokens; // 0x38
+		::System::Int32 m_indexStrings; // 0x3C
 		::System::Int32 m_countTokens; // 0x40
 
 		::System::Void _ctor()
@@ -39,14 +39,14 @@ namespace System::Security::Util
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM__CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddToken(::System::Int16 token)
+		::System::Void AddToken(::System::Int16 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_ADDTOKEN_OFFSET))(this, token);
+			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_ADDTOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void AddString(::System::String* str)
+		::System::Void AddString(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_ADDSTRING_OFFSET))(this, str);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_ADDSTRING_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -74,9 +74,9 @@ namespace System::Security::Util
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_THROWAWAYNEXTSTRING_OFFSET))(this);
 		}
 
-		::System::Void TagLastToken(::System::Int16 tag)
+		::System::Void TagLastToken(::System::Int16 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_TAGLASTTOKEN_OFFSET))(this, tag);
+			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_TAGLASTTOKEN_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetTokenCount()
@@ -84,9 +84,9 @@ namespace System::Security::Util
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GETTOKENCOUNT_OFFSET))(this);
 		}
 
-		::System::Void GoToPosition(::System::Int32 position)
+		::System::Void GoToPosition(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GOTOPOSITION_OFFSET))(this, position);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_UTIL_TOKENIZERSTREAM_GOTOPOSITION_OFFSET))(this, a1);
 		}
 	};
 }

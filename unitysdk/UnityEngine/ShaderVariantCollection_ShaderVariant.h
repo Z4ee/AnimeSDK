@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Shader; }
 
-#define UNITYENGINE_SHADERVARIANTCOLLECTION_SHADERVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0xD6D10)
+#define UNITYENGINE_SHADERVARIANTCOLLECTION_SHADERVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x80C40)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ShaderVariantCollection_ShaderVariant_TypeDefinitionIndex = 4195;
+	inline static constexpr unsigned int ShaderVariantCollection_ShaderVariant_TypeDefinitionIndex = 4369;
 
 	struct alignas(8) ShaderVariantCollection_ShaderVariant
 	{
@@ -18,9 +18,9 @@ namespace UnityEngine
 		::UnityEngine::Rendering::PassType passType; // 0x18
 		::Il2CppArray<::System::String*>* keywords; // 0x20
 
-		::System::Void _ctor(::UnityEngine::Shader* shader, ::UnityEngine::Rendering::PassType passType, ::Il2CppArray<::System::String*>* keywords)
+		::System::Void _ctor(::UnityEngine::Shader* a1, ::UnityEngine::Rendering::PassType a2, ::Il2CppArray<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Shader*, ::UnityEngine::Rendering::PassType, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_SHADERVARIANTCOLLECTION_SHADERVARIANT__CTOR_OFFSET))(this, shader, passType, keywords);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Shader*, ::UnityEngine::Rendering::PassType, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_SHADERVARIANTCOLLECTION_SHADERVARIANT__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

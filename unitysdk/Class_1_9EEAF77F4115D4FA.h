@@ -13,46 +13,46 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_9EEAF77F4115D4FA_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x11D5C990)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_26607FBDCE24B1D0_OFFSET UNITYSDK_OFFSET(0x11D5C890)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_39E4B299C143F018_OFFSET UNITYSDK_OFFSET(0x11D5C4F0)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_43804D63E5675D81_OFFSET UNITYSDK_OFFSET(0x11D5C0D0)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_47614828655E04EE_OFFSET UNITYSDK_OFFSET(0x11D5B930)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_627557CE4CD0ABB4_OFFSET UNITYSDK_OFFSET(0x11D5C720)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_A5015AA5634490EB_OFFSET UNITYSDK_OFFSET(0x11D5C7C0)
-#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_DA7D5FED1E10712C_OFFSET UNITYSDK_OFFSET(0x11D5C310)
-#define CLASS_1_9EEAF77F4115D4FA_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0x11D5C9A0)
-#define CLASS_1_9EEAF77F4115D4FA__CCTOR_OFFSET UNITYSDK_OFFSET(0x11D5C9B0)
-#define CLASS_1_9EEAF77F4115D4FA__CTOR_OFFSET UNITYSDK_OFFSET(0x11D5B820)
+#define CLASS_1_9EEAF77F4115D4FA_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0xDE452A0)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_0A7450AABE61E278_OFFSET UNITYSDK_OFFSET(0xDE449A0)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_26607FBDCE24B1D0_OFFSET UNITYSDK_OFFSET(0xDE451A0)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_39E4B299C143F018_OFFSET UNITYSDK_OFFSET(0xDE44E10)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_47614828655E04EE_OFFSET UNITYSDK_OFFSET(0xDE44160)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_627557CE4CD0ABB4_OFFSET UNITYSDK_OFFSET(0xDE45030)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_A5015AA5634490EB_OFFSET UNITYSDK_OFFSET(0xDE450D0)
+#define CLASS_1_9EEAF77F4115D4FA_METHOD_1_DA7D5FED1E10712C_OFFSET UNITYSDK_OFFSET(0xDE44C60)
+#define CLASS_1_9EEAF77F4115D4FA_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0xDE452B0)
+#define CLASS_1_9EEAF77F4115D4FA__CCTOR_OFFSET UNITYSDK_OFFSET(0xDE452C0)
+#define CLASS_1_9EEAF77F4115D4FA__CTOR_OFFSET UNITYSDK_OFFSET(0xDE44050)
 
-inline static constexpr unsigned int Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex = 50876;
+inline static constexpr unsigned int Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex = 51545;
 
 class Class_1_9EEAF77F4115D4FA : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_13()
+	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x10090);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x142E0);
 	}
-	static ::System::Int32* StaticGet_Field_1_11()
+	static ::System::Int32* StaticGet_Field_1_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x10094);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x142E4);
 	}
-	static ::System::Int32* StaticGet_Field_1_12()
+	static ::System::Int32* StaticGet_Field_1_2()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x10098);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9EEAF77F4115D4FA_TypeDefinitionIndex)->GetStaticField(0x142E8);
 	}
-	::RPG::GameCore::ModifierPlayerChangeEffect* Field_1_3; // 0x10
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* Field_1_10; // 0x18
-	::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x20
-	::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_1_8; // 0x28
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* Field_1_9; // 0x30
-	::Il2CppArray<::UnityEngine::Renderer*>* Field_1_7; // 0x38
-	::System::Single Field_1_4; // 0x40
-	::System::Single Field_1_1; // 0x44
-	::UnityEngine::Color Field_1_5; // 0x48
-	::System::Int32 Field_1_2; // 0x58
-	::UnityEngine::Vector4 Field_1_6; // 0x5C
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* Field_1_3; // 0x10
+	::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x18
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* Field_1_5; // 0x20
+	::Il2CppArray<::UnityEngine::Renderer*>* Field_1_6; // 0x28
+	::RPG::GameCore::ModifierPlayerChangeEffect* Field_1_7; // 0x30
+	::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_1_8; // 0x38
+	::System::Int32 Field_1_9; // 0x40
+	::System::Single Field_1_10; // 0x44
+	::UnityEngine::Vector4 Field_1_11; // 0x48
+	::UnityEngine::Color Field_1_12; // 0x58
+	::System::Single Field_1_13; // 0x68
 
 	::System::Void _ctor(::RPG::GameCore::ModifierPlayerChangeEffect* a1)
 	{
@@ -69,9 +69,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_9EEAF77F4115D4FA_METHOD_1_47614828655E04EE_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_43804D63E5675D81(::System::Single a1)
+	::System::Boolean Method_1_0A7450AABE61E278(::System::Single a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_9EEAF77F4115D4FA_METHOD_1_43804D63E5675D81_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_9EEAF77F4115D4FA_METHOD_1_0A7450AABE61E278_OFFSET))(this, a1);
 	}
 
 	::System::Single Method_1_DA7D5FED1E10712C()
@@ -104,8 +104,8 @@ public:
 		return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9EEAF77F4115D4FA_GET_ENTITY_OFFSET))(this);
 	}
 
-	::System::Void set_Entity(::RPG::GameCore::GameEntity* value)
+	::System::Void set_Entity(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_9EEAF77F4115D4FA_SET_ENTITY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_9EEAF77F4115D4FA_SET_ENTITY_OFFSET))(this, a1);
 	}
 };

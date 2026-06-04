@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/MVector2.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_FFCEEED483D7C73B_TypeDefinitionIndex = 38934;
+inline static constexpr unsigned int Struct_2_FFCEEED483D7C73B_TypeDefinitionIndex = 39702;
 
 struct alignas(4) Struct_2_FFCEEED483D7C73B
 {

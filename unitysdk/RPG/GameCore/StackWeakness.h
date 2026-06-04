@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STACKWEAKNESS_METHOD_3_0D171A25AEE859C4_OFFSET UNITYSDK_OFFSET(0x18E88840)
-#define RPG_GAMECORE_STACKWEAKNESS_METHOD_3_CA813496135B6646_OFFSET UNITYSDK_OFFSET(0x18E887C0)
-#define RPG_GAMECORE_STACKWEAKNESS__CTOR_OFFSET UNITYSDK_OFFSET(0x18E88810)
+#define RPG_GAMECORE_STACKWEAKNESS_METHOD_3_0D171A25AEE859C4_OFFSET UNITYSDK_OFFSET(0x19CA3B40)
+#define RPG_GAMECORE_STACKWEAKNESS_METHOD_3_EB0E56FE0F292454_OFFSET UNITYSDK_OFFSET(0x19CA3AC0)
+#define RPG_GAMECORE_STACKWEAKNESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19CA3B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackWeakness_TypeDefinitionIndex = 22006;
+	inline static constexpr unsigned int StackWeakness_TypeDefinitionIndex = 21821;
 
 	class StackWeakness : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKWEAKNESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CA813496135B6646(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackWeakness*& a2)
+		static ::System::Void Method_3_EB0E56FE0F292454(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackWeakness*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackWeakness*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKWEAKNESS_METHOD_3_CA813496135B6646_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackWeakness*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKWEAKNESS_METHOD_3_EB0E56FE0F292454_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0D171A25AEE859C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackWeakness* a2)

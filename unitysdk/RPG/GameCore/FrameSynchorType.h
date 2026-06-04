@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FrameSynchorType_TypeDefinitionIndex = 49433;
+	inline static constexpr unsigned int FrameSynchorType_TypeDefinitionIndex = 50100;
 
 	enum class FrameSynchorType : ::System::Int32
 	{

@@ -6,14 +6,14 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
 namespace UnityEngine::UI { class Text; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERENUMHISTORY_REFRESHAFTERSANITIZATION_OFFSET UNITYSDK_OFFSET(0x1A32EB40)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERENUMHISTORY_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1A32E4C0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERENUMHISTORY_UPDATEVALUELABEL_OFFSET UNITYSDK_OFFSET(0x1A32E890)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERENUMHISTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A32EBA0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERENUMHISTORY_REFRESHAFTERSANITIZATION_OFFSET UNITYSDK_OFFSET(0x1B189220)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERENUMHISTORY_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1B188BB0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERENUMHISTORY_UPDATEVALUELABEL_OFFSET UNITYSDK_OFFSET(0x1B188F70)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERENUMHISTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B189280)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerEnumHistory_TypeDefinitionIndex = 33593;
+	inline static constexpr unsigned int DebugUIHandlerEnumHistory_TypeDefinitionIndex = 33875;
 
 	class DebugUIHandlerEnumHistory : public ::UnityEngine::Rendering::UI::DebugUIHandlerEnumField
 	{
@@ -26,9 +26,9 @@ namespace UnityEngine::Rendering::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERENUMHISTORY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget)
+		::System::Void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Widget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERENUMHISTORY_SETWIDGET_OFFSET))(this, widget);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Widget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERENUMHISTORY_SETWIDGET_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateValueLabel()

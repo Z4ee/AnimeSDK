@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_2_A047D65884258648.h"
 
-class Class_1_D37BADBAF66E56C6;
+class Class_1_5816B66AC6910205;
 namespace RPG::GameCore { class MarbleByTriggerFeature; }
 
-#define CLASS_3_2B1DF233B35D7D46_METHOD_3_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x180275F0)
-#define CLASS_3_2B1DF233B35D7D46__CTOR_OFFSET UNITYSDK_OFFSET(0x180275D0)
+#define CLASS_3_2B1DF233B35D7D46_METHOD_3_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x18C84900)
+#define CLASS_3_2B1DF233B35D7D46__CTOR_OFFSET UNITYSDK_OFFSET(0x18C848E0)
 
-inline static constexpr unsigned int Class_3_2B1DF233B35D7D46_TypeDefinitionIndex = 38992;
+inline static constexpr unsigned int Class_3_2B1DF233B35D7D46_TypeDefinitionIndex = 39760;
 
 class Class_3_2B1DF233B35D7D46 : public ::Class_2_A047D65884258648
 {
 public:
 	::RPG::GameCore::MarbleByTriggerFeature* Field_3_0; // 0x30
 
-	::System::Void _ctor(::RPG::GameCore::MarbleByTriggerFeature* a1, ::Class_1_D37BADBAF66E56C6* a2)
+	::System::Void _ctor(::RPG::GameCore::MarbleByTriggerFeature* a1, ::Class_1_5816B66AC6910205* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleByTriggerFeature*, ::Class_1_D37BADBAF66E56C6*))((::PBYTE)hIl2Cpp + CLASS_3_2B1DF233B35D7D46__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleByTriggerFeature*, ::Class_1_5816B66AC6910205*))((::PBYTE)hIl2Cpp + CLASS_3_2B1DF233B35D7D46__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_3_A3FAE12D7B6ACD62()

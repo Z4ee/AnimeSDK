@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRIGGERCONFIRMDIALOG_METHOD_3_55A3946D286CAD7F_OFFSET UNITYSDK_OFFSET(0x190BF190)
-#define RPG_GAMECORE_TRIGGERCONFIRMDIALOG_METHOD_3_A128247BC5B1628F_OFFSET UNITYSDK_OFFSET(0x190BF210)
-#define RPG_GAMECORE_TRIGGERCONFIRMDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x190BF1E0)
+#define RPG_GAMECORE_TRIGGERCONFIRMDIALOG_METHOD_3_553C61FC5487910F_OFFSET UNITYSDK_OFFSET(0x19E09D70)
+#define RPG_GAMECORE_TRIGGERCONFIRMDIALOG_METHOD_3_80D53BBC0CA2CA9C_OFFSET UNITYSDK_OFFSET(0x19E09DF0)
+#define RPG_GAMECORE_TRIGGERCONFIRMDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E09DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerConfirmDialog_TypeDefinitionIndex = 20415;
+	inline static constexpr unsigned int TriggerConfirmDialog_TypeDefinitionIndex = 20360;
 
 	class TriggerConfirmDialog : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCONFIRMDIALOG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_55A3946D286CAD7F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerConfirmDialog*& a2)
+		static ::System::Void Method_3_553C61FC5487910F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerConfirmDialog*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerConfirmDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCONFIRMDIALOG_METHOD_3_55A3946D286CAD7F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerConfirmDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCONFIRMDIALOG_METHOD_3_553C61FC5487910F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A128247BC5B1628F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerConfirmDialog* a2)
+		static ::System::Void Method_3_80D53BBC0CA2CA9C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerConfirmDialog* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerConfirmDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCONFIRMDIALOG_METHOD_3_A128247BC5B1628F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerConfirmDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCONFIRMDIALOG_METHOD_3_80D53BBC0CA2CA9C_OFFSET))(a1, a2);
 		}
 	};
 }

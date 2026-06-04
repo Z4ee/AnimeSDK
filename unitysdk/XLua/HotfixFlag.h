@@ -3,7 +3,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int HotfixFlag_TypeDefinitionIndex = 6409;
+	inline static constexpr unsigned int HotfixFlag_TypeDefinitionIndex = 5611;
 
 	enum class HotfixFlag : ::System::Int32
 	{

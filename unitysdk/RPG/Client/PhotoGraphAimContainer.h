@@ -8,7 +8,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_23F67DD15593C8D6;
-class Class_1_85DF9887662222C3;
+class Class_1_2A2B2DC1DA1205FE;
 class Class_1_A27BF87A78CEBB28;
 namespace RPG::Client { class InverseMask; }
 namespace RPG::Client { class PhotoGraphAimContainer_PhotoGraphAim; }
@@ -21,47 +21,47 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_CHECKCAMERAATAIMFORWARD_OFFSET UNITYSDK_OFFSET(0xAC64DE0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_CHECKFIRSTTARGETINPHOTORATIO_OFFSET UNITYSDK_OFFSET(0xAC64CD0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_CLEARALLAIMS_OFFSET UNITYSDK_OFFSET(0xAC64740)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_DISPOSEALLAIMS_OFFSET UNITYSDK_OFFSET(0xAC644F0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_EXITIDENTIFYMODE_OFFSET UNITYSDK_OFFSET(0xAC63330)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_GETIDENTIFYAREA_OFFSET UNITYSDK_OFFSET(0xAC64FB0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_GETMANUALAIMENTITYINRANGE_OFFSET UNITYSDK_OFFSET(0xAC63580)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_GET_IDENTIFYSTATE_OFFSET UNITYSDK_OFFSET(0xAC65240)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_IDENTIFYMANUALAIMENTITYINRANGE_OFFSET UNITYSDK_OFFSET(0xAC63510)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xAC612F0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAC610E0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_REFRESHPENDINGAIMANISTATE_OFFSET UNITYSDK_OFFSET(0xAC64B80)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_REFRESH_OFFSET UNITYSDK_OFFSET(0xAC635D0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SELECTIDENTIFYPENDINGTARGET_OFFSET UNITYSDK_OFFSET(0xAC61EB0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SETIDENTIFYCUSTOMTIP_OFFSET UNITYSDK_OFFSET(0xAC631F0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SETUPOWNERPHOTOGRAPHSYS_OFFSET UNITYSDK_OFFSET(0xAC63290)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SHOWIDENTIFYRESULTSTATUS_OFFSET UNITYSDK_OFFSET(0xAC64940)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_STARTIDENTIFYMODE_OFFSET UNITYSDK_OFFSET(0xAC632E0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_START_OFFSET UNITYSDK_OFFSET(0xAC60E60)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__ACQUIREAIM_OFFSET UNITYSDK_OFFSET(0xAC63BC0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__CLEARAIMS_OFFSET UNITYSDK_OFFSET(0xAC647A0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0xAC65250)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__DESTORYAIM_OFFSET UNITYSDK_OFFSET(0xAC646B0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__GETLOCALPOSINIDENTIFYAREA_OFFSET UNITYSDK_OFFSET(0xAC64FF0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__ISINIDENTIFYAREA_OFFSET UNITYSDK_OFFSET(0xAC63040)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__ISLOCALPOSINIDENTIFYAREA_OFFSET UNITYSDK_OFFSET(0xAC65190)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RELEASEAIM_OFFSET UNITYSDK_OFFSET(0xAC634A0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RESETAIM_OFFSET UNITYSDK_OFFSET(0xAC62340)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RESETTIMER_OFFSET UNITYSDK_OFFSET(0xAC621F0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SETAIMPOS_OFFSET UNITYSDK_OFFSET(0xAC62530)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SETUPCONFIG_OFFSET UNITYSDK_OFFSET(0xAC60EB0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SETUPHINTMASK_OFFSET UNITYSDK_OFFSET(0xAC60F70)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SHOWAIMRESULTSTATUS_OFFSET UNITYSDK_OFFSET(0xAC62FB0)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SHOWHINTMASK_OFFSET UNITYSDK_OFFSET(0xAC61140)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SWITCHIDENTIFYSTATE_OFFSET UNITYSDK_OFFSET(0xAC62160)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__UPDATEAIMINFOBYAIMUNION_OFFSET UNITYSDK_OFFSET(0xAC64480)
-#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__UPDATEAIMINFOWORLDPOS_OFFSET UNITYSDK_OFFSET(0xAC641B0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_CHECKCAMERAATAIMFORWARD_OFFSET UNITYSDK_OFFSET(0xC377720)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_CHECKFIRSTTARGETINPHOTORATIO_OFFSET UNITYSDK_OFFSET(0xC376DD0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_CLEARALLAIMS_OFFSET UNITYSDK_OFFSET(0xC3768F0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_DISPOSEALLAIMS_OFFSET UNITYSDK_OFFSET(0xC376660)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_EXITIDENTIFYMODE_OFFSET UNITYSDK_OFFSET(0xC375320)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_GETIDENTIFYAREA_OFFSET UNITYSDK_OFFSET(0xC3778F0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_GETMANUALAIMENTITYINRANGE_OFFSET UNITYSDK_OFFSET(0xC3755A0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_GET_IDENTIFYSTATE_OFFSET UNITYSDK_OFFSET(0xC3784D0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_IDENTIFYMANUALAIMENTITYINRANGE_OFFSET UNITYSDK_OFFSET(0xC375530)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC373140)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC372F30)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_REFRESHPENDINGAIMANISTATE_OFFSET UNITYSDK_OFFSET(0xC376C70)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_REFRESH_OFFSET UNITYSDK_OFFSET(0xC3755F0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SELECTIDENTIFYPENDINGTARGET_OFFSET UNITYSDK_OFFSET(0xC373B60)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SETIDENTIFYCUSTOMTIP_OFFSET UNITYSDK_OFFSET(0xC3751E0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SETUPOWNERPHOTOGRAPHSYS_OFFSET UNITYSDK_OFFSET(0xC375280)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SHOWIDENTIFYRESULTSTATUS_OFFSET UNITYSDK_OFFSET(0xC376B10)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_STARTIDENTIFYMODE_OFFSET UNITYSDK_OFFSET(0xC3752D0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_START_OFFSET UNITYSDK_OFFSET(0xC372CC0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__ACQUIREAIM_OFFSET UNITYSDK_OFFSET(0xC375CD0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__CLEARAIMS_OFFSET UNITYSDK_OFFSET(0xC376950)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0xC3784E0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__DESTORYAIM_OFFSET UNITYSDK_OFFSET(0xC376860)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__GETLOCALPOSINIDENTIFYAREA_OFFSET UNITYSDK_OFFSET(0xC377930)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__ISINIDENTIFYAREA_OFFSET UNITYSDK_OFFSET(0xC375030)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__ISLOCALPOSINIDENTIFYAREA_OFFSET UNITYSDK_OFFSET(0xC378420)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RELEASEAIM_OFFSET UNITYSDK_OFFSET(0xC3754C0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RESETAIM_OFFSET UNITYSDK_OFFSET(0xC374010)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RESETTIMER_OFFSET UNITYSDK_OFFSET(0xC373EC0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SETAIMPOS_OFFSET UNITYSDK_OFFSET(0xC374170)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SETUPCONFIG_OFFSET UNITYSDK_OFFSET(0xC372D10)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SETUPHINTMASK_OFFSET UNITYSDK_OFFSET(0xC372DD0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SHOWAIMRESULTSTATUS_OFFSET UNITYSDK_OFFSET(0xC374BF0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SHOWHINTMASK_OFFSET UNITYSDK_OFFSET(0xC372F90)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SWITCHIDENTIFYSTATE_OFFSET UNITYSDK_OFFSET(0xC373E30)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__UPDATEAIMINFOBYAIMUNION_OFFSET UNITYSDK_OFFSET(0xC3765F0)
+#define RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__UPDATEAIMINFOWORLDPOS_OFFSET UNITYSDK_OFFSET(0xC376320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphAimContainer_TypeDefinitionIndex = 63976;
+	inline static constexpr unsigned int PhotoGraphAimContainer_TypeDefinitionIndex = 64897;
 
 	class PhotoGraphAimContainer : public ::UnityEngine::MonoBehaviour
 	{
@@ -122,14 +122,14 @@ namespace RPG::Client
 			return ((::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SELECTIDENTIFYPENDINGTARGET_OFFSET))(this);
 		}
 
-		::System::Void SetIdentifyCustomTip(::RPG::Client::TextID customTip, ::System::Int32 priority, ::System::Boolean needNotify)
+		::System::Void SetIdentifyCustomTip(::RPG::Client::TextID a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SETIDENTIFYCUSTOMTIP_OFFSET))(this, customTip, priority, needNotify);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SETIDENTIFYCUSTOMTIP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetupOwnerPhotoGraphSys(::RPG::Client::PhotoGraphSystem* ownerSys)
+		::System::Void SetupOwnerPhotoGraphSys(::RPG::Client::PhotoGraphSystem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphSystem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SETUPOWNERPHOTOGRAPHSYS_OFFSET))(this, ownerSys);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphSystem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SETUPOWNERPHOTOGRAPHSYS_OFFSET))(this, a1);
 		}
 
 		::System::Void StartIdentifyMode()
@@ -152,9 +152,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_GETMANUALAIMENTITYINRANGE_OFFSET))(this);
 		}
 
-		::System::Void Refresh(::System::Collections::Generic::List_1<::Class_1_A27BF87A78CEBB28*>* aimTargetEntities)
+		::System::Void Refresh(::System::Collections::Generic::List_1<::Class_1_A27BF87A78CEBB28*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_A27BF87A78CEBB28*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_REFRESH_OFFSET))(this, aimTargetEntities);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_A27BF87A78CEBB28*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_REFRESH_OFFSET))(this, a1);
 		}
 
 		::System::Void DisposeAllAims()
@@ -167,9 +167,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_CLEARALLAIMS_OFFSET))(this);
 		}
 
-		::System::Void ShowIdentifyResultStatus(::System::Boolean isSuccess)
+		::System::Void ShowIdentifyResultStatus(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SHOWIDENTIFYRESULTSTATUS_OFFSET))(this, isSuccess);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_SHOWIDENTIFYRESULTSTATUS_OFFSET))(this, a1);
 		}
 
 		::System::Void RefreshPendingAimAniState()
@@ -177,14 +177,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_REFRESHPENDINGAIMANISTATE_OFFSET))(this);
 		}
 
-		::System::Boolean CheckFirstTargetInPhotoRatio(::UnityEngine::Vector3 aimPos, ::RPG::GameCore::PhotoGraphTargetSize* targetSize, ::System::Single ratio)
+		::System::Boolean CheckFirstTargetInPhotoRatio(::UnityEngine::Vector3 a1, ::RPG::GameCore::PhotoGraphTargetSize* a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::RPG::GameCore::PhotoGraphTargetSize*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_CHECKFIRSTTARGETINPHOTORATIO_OFFSET))(this, aimPos, targetSize, ratio);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::RPG::GameCore::PhotoGraphTargetSize*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_CHECKFIRSTTARGETINPHOTORATIO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ClearAims(::System::Collections::Generic::List_1<::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*>*& aimCollection)
+		::System::Void _ClearAims(::System::Collections::Generic::List_1<::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*>*& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__CLEARAIMS_OFFSET))(this, aimCollection);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__CLEARAIMS_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* _AcquireAim()
@@ -192,34 +192,34 @@ namespace RPG::Client
 			return ((::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__ACQUIREAIM_OFFSET))(this);
 		}
 
-		::System::Void _ReleaseAim(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* aim)
+		::System::Void _ReleaseAim(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RELEASEAIM_OFFSET))(this, aim);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RELEASEAIM_OFFSET))(this, a1);
 		}
 
-		::System::Void _ResetAim(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* aim)
+		::System::Void _ResetAim(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RESETAIM_OFFSET))(this, aim);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RESETAIM_OFFSET))(this, a1);
 		}
 
-		::System::Void _DestoryAim(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* aim)
+		::System::Void _DestoryAim(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__DESTORYAIM_OFFSET))(this, aim);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__DESTORYAIM_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _UpdateAimInfoByAimUnion(::System::Int32 curIndex, ::Class_1_85DF9887662222C3* aimUnion)
+		::System::Int32 _UpdateAimInfoByAimUnion(::System::Int32 a1, ::Class_1_2A2B2DC1DA1205FE* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::Class_1_85DF9887662222C3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__UPDATEAIMINFOBYAIMUNION_OFFSET))(this, curIndex, aimUnion);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::Class_1_2A2B2DC1DA1205FE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__UPDATEAIMINFOBYAIMUNION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _UpdateAimInfoWorldPos(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* aim)
+		::System::Void _UpdateAimInfoWorldPos(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__UPDATEAIMINFOWORLDPOS_OFFSET))(this, aim);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__UPDATEAIMINFOWORLDPOS_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean CheckCameraAtAimForward(::UnityEngine::Vector3 aimForward, ::UnityEngine::Vector3 aimToCamera, ::System::Single degree)
+		static ::System::Boolean CheckCameraAtAimForward(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_CHECKCAMERAATAIMFORWARD_OFFSET))(aimForward, aimToCamera, degree);
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_CHECKCAMERAATAIMFORWARD_OFFSET))(a1, a2, a3);
 		}
 
 		::UnityEngine::RectTransform* GetIdentifyArea()
@@ -227,34 +227,34 @@ namespace RPG::Client
 			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER_GETIDENTIFYAREA_OFFSET))(this);
 		}
 
-		::System::Void _SetAimPos(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* aim, ::System::Boolean isPendingAim, ::UnityEngine::Vector3 cameraPos, ::System::Boolean& showAim)
+		::System::Void _SetAimPos(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* a1, ::System::Boolean a2, ::UnityEngine::Vector3 a3, ::System::Boolean& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*, ::System::Boolean, ::UnityEngine::Vector3, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SETAIMPOS_OFFSET))(this, aim, isPendingAim, cameraPos, showAim);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*, ::System::Boolean, ::UnityEngine::Vector3, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SETAIMPOS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::UnityEngine::Vector3 _GetLocalPosInIdentifyArea(::UnityEngine::Vector3 screenPoint)
+		::UnityEngine::Vector3 _GetLocalPosInIdentifyArea(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__GETLOCALPOSINIDENTIFYAREA_OFFSET))(this, screenPoint);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__GETLOCALPOSINIDENTIFYAREA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsLocalPosInIdentifyArea(::UnityEngine::Vector3 localPos)
+		::System::Boolean _IsLocalPosInIdentifyArea(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__ISLOCALPOSINIDENTIFYAREA_OFFSET))(this, localPos);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__ISLOCALPOSINIDENTIFYAREA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsInIdentifyArea(::UnityEngine::Vector3 worldPos)
+		::System::Boolean _IsInIdentifyArea(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__ISINIDENTIFYAREA_OFFSET))(this, worldPos);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__ISINIDENTIFYAREA_OFFSET))(this, a1);
 		}
 
-		::System::Void _SwitchIdentifyState(::RPG::Client::PhotoGraphIdentifyState targetState)
+		::System::Void _SwitchIdentifyState(::RPG::Client::PhotoGraphIdentifyState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphIdentifyState))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SWITCHIDENTIFYSTATE_OFFSET))(this, targetState);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphIdentifyState))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SWITCHIDENTIFYSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void _ResetTimer(::Class_1_23F67DD15593C8D6* timer, ::System::Single timeSpawn)
+		::System::Void _ResetTimer(::Class_1_23F67DD15593C8D6* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_23F67DD15593C8D6*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RESETTIMER_OFFSET))(this, timer, timeSpawn);
+			return ((::System::Void(*)(::PVOID, ::Class_1_23F67DD15593C8D6*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__RESETTIMER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _SetupConfig()
@@ -267,14 +267,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SETUPHINTMASK_OFFSET))(this);
 		}
 
-		::System::Void _ShowHintMask(::System::Boolean show, ::System::Nullable_1<::UnityEngine::Vector3> maskCenterPos)
+		::System::Void _ShowHintMask(::System::Boolean a1, ::System::Nullable_1<::UnityEngine::Vector3> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SHOWHINTMASK_OFFSET))(this, show, maskCenterPos);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SHOWHINTMASK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowAimResultStatus(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* aim, ::System::Boolean isShow, ::System::Boolean isSuccess)
+		::System::Void _ShowAimResultStatus(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SHOWAIMRESULTSTATUS_OFFSET))(this, aim, isShow, isSuccess);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SHOWAIMRESULTSTATUS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::PhotoGraphIdentifyState get_IdentifyState()

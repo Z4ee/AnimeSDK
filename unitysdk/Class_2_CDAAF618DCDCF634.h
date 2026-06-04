@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerBranchByActivitySwordTrainingStoryLine; }
 
-#define CLASS_2_CDAAF618DCDCF634_DISPOSE_OFFSET UNITYSDK_OFFSET(0x903E880)
-#define CLASS_2_CDAAF618DCDCF634_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x903E8C0)
-#define CLASS_2_CDAAF618DCDCF634_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x903EA20)
-#define CLASS_2_CDAAF618DCDCF634_TICK_OFFSET UNITYSDK_OFFSET(0x903EA70)
-#define CLASS_2_CDAAF618DCDCF634__CTOR_OFFSET UNITYSDK_OFFSET(0x903E870)
+#define CLASS_2_CDAAF618DCDCF634_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD161470)
+#define CLASS_2_CDAAF618DCDCF634_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD1614B0)
+#define CLASS_2_CDAAF618DCDCF634_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD161610)
+#define CLASS_2_CDAAF618DCDCF634_TICK_OFFSET UNITYSDK_OFFSET(0xD161660)
+#define CLASS_2_CDAAF618DCDCF634__CTOR_OFFSET UNITYSDK_OFFSET(0xD161460)
 
-inline static constexpr unsigned int Class_2_CDAAF618DCDCF634_TypeDefinitionIndex = 54185;
+inline static constexpr unsigned int Class_2_CDAAF618DCDCF634_TypeDefinitionIndex = 54911;
 
 class Class_2_CDAAF618DCDCF634 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::TriggerBranchByActivitySwordTrainingStoryLine* Field_2_0; // 0x20
+	::RPG::GameCore::TriggerBranchByActivitySwordTrainingStoryLine* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerBranchByActivitySwordTrainingStoryLine* a2)
 	{

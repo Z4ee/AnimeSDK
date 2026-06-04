@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Shader; }
 
-#define RPG_CUSTOMRP_CRPRENDERERDATA_CRPSHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x18118460)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_CRPSHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x18EBB830)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPRendererData_CRPShaderResources_TypeDefinitionIndex = 35235;
+	inline static constexpr unsigned int CRPRendererData_CRPShaderResources_TypeDefinitionIndex = 35535;
 
 	class CRPRendererData_CRPShaderResources : public ::System::Object
 	{
@@ -47,9 +47,9 @@ namespace RPG::CustomRP
 		::UnityEngine::Shader* frameBlendingShader; // 0x108
 		::UnityEngine::Shader* viewportMaskShader; // 0x110
 		::UnityEngine::Shader* OuterGlowShader; // 0x118
-		::UnityEngine::Shader* FluidForceSourceRenderShader; // 0x120
-		::UnityEngine::Shader* DeformationShader; // 0x128
-		::UnityEngine::Shader* DeformationTessShader; // 0x130
+		::UnityEngine::Shader* ColorGradingMaskShader; // 0x120
+		::UnityEngine::Shader* FluidForceSourceRenderShader; // 0x128
+		::UnityEngine::Shader* DeformationShader; // 0x130
 		::UnityEngine::Shader* InstancedDecalShader; // 0x138
 		::UnityEngine::Shader* IrradianceCacheShader; // 0x140
 		::UnityEngine::Shader* SSGIShader; // 0x148

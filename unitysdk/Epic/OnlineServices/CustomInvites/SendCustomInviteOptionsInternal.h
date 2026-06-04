@@ -6,15 +6,15 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::CustomInvites { class SendCustomInviteOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x370D0)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x37060)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x36F20)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x37050)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_TARGETUSERIDS_OFFSET UNITYSDK_OFFSET(0x36FE0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3A980)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3A900)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x3A7C0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3A8F0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_TARGETUSERIDS_OFFSET UNITYSDK_OFFSET(0x3A880)
 
 namespace Epic::OnlineServices::CustomInvites
 {
-	inline static constexpr unsigned int SendCustomInviteOptionsInternal_TypeDefinitionIndex = 42252;
+	inline static constexpr unsigned int SendCustomInviteOptionsInternal_TypeDefinitionIndex = 43055;
 
 	struct alignas(8) SendCustomInviteOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::CustomInvites
 		::System::IntPtr m_TargetUserIds; // 0x20
 		::System::UInt32 m_TargetUserIdsCount; // 0x28
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_TargetUserIds(::Il2CppArray<::Epic::OnlineServices::ProductUserId*>* value)
+		::System::Void set_TargetUserIds(::Il2CppArray<::Epic::OnlineServices::ProductUserId*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::ProductUserId*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_TARGETUSERIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::ProductUserId*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_TARGETUSERIDS_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::CustomInvites::SendCustomInviteOptions* other)
+		::System::Void Set(::Epic::OnlineServices::CustomInvites::SendCustomInviteOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::SendCustomInviteOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::SendCustomInviteOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

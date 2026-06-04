@@ -4,21 +4,21 @@
 
 namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 
-#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_479759059E440327_OFFSET UNITYSDK_OFFSET(0x111B6790)
-#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x111B6810)
-#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_793FFA9A76FE6840_OFFSET UNITYSDK_OFFSET(0x111B6870)
-#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x111B66F0)
-#define CLASS_2_4D7E8AD230C47EB3__CTOR_OFFSET UNITYSDK_OFFSET(0x111B66E0)
+#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_3C927B51D2142A24_OFFSET UNITYSDK_OFFSET(0x14587760)
+#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_479759059E440327_OFFSET UNITYSDK_OFFSET(0x14587680)
+#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x14587700)
+#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x145875E0)
+#define CLASS_2_4D7E8AD230C47EB3__CTOR_OFFSET UNITYSDK_OFFSET(0x145875D0)
 
-inline static constexpr unsigned int Class_2_4D7E8AD230C47EB3_TypeDefinitionIndex = 71762;
+inline static constexpr unsigned int Class_2_4D7E8AD230C47EB3_TypeDefinitionIndex = 72784;
 
 class Class_2_4D7E8AD230C47EB3 : public ::Class_1_FD611945730E269E
 {
 public:
-	::RPG::Client::Prop::ChimeraDuelBubbleEvent* Field_2_1; // 0x18
-	::System::Boolean Field_2_3; // 0x20
-	::System::Boolean Field_2_0; // 0x21
-	::System::Single Field_2_2; // 0x24
+	::RPG::Client::Prop::ChimeraDuelBubbleEvent* Field_2_0; // 0x18
+	::System::Single Field_2_1; // 0x20
+	::System::Boolean Field_2_2; // 0x24
+	::System::Boolean Field_2_3; // 0x25
 
 	::System::Void _ctor(::RPG::Client::Prop::ChimeraDuelBubbleEvent* a1, ::System::Boolean a2)
 	{
@@ -40,8 +40,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4D7E8AD230C47EB3_METHOD_2_5790A55946AA509D_OFFSET))(this);
 	}
 
-	::System::Void Method_2_793FFA9A76FE6840(::System::Single P0)
+	::System::Void Method_2_3C927B51D2142A24(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_4D7E8AD230C47EB3_METHOD_2_793FFA9A76FE6840_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_4D7E8AD230C47EB3_METHOD_2_3C927B51D2142A24_OFFSET))(this, a1);
 	}
 };

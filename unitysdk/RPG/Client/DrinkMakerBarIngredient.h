@@ -5,18 +5,18 @@
 namespace RPG::GameCore { class DrinkMakerCheersIngredientRow; }
 namespace RPG::GameCore { class DrinkMakerIngredientRow; }
 
-#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_CREATEFORCHEERS_OFFSET UNITYSDK_OFFSET(0xA17F0E0)
-#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_CREATENORMAL_OFFSET UNITYSDK_OFFSET(0xA17F050)
-#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_GET_ID_OFFSET UNITYSDK_OFFSET(0xA17F340)
-#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_GET_ROW_OFFSET UNITYSDK_OFFSET(0xA17F360)
-#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xA17F160)
-#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_SET_ID_OFFSET UNITYSDK_OFFSET(0xA17F350)
-#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_SET_ROW_OFFSET UNITYSDK_OFFSET(0xA17F370)
-#define RPG_CLIENT_DRINKMAKERBARINGREDIENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA17F0D0)
+#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_CREATEFORCHEERS_OFFSET UNITYSDK_OFFSET(0xB7FE920)
+#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_CREATENORMAL_OFFSET UNITYSDK_OFFSET(0xB7FE890)
+#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_GET_ID_OFFSET UNITYSDK_OFFSET(0xB7FEC20)
+#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_GET_ROW_OFFSET UNITYSDK_OFFSET(0xB7FEC40)
+#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xB7FEA60)
+#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_SET_ID_OFFSET UNITYSDK_OFFSET(0xB7FEC30)
+#define RPG_CLIENT_DRINKMAKERBARINGREDIENT_SET_ROW_OFFSET UNITYSDK_OFFSET(0xB7FEC50)
+#define RPG_CLIENT_DRINKMAKERBARINGREDIENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB7FE910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerBarIngredient_TypeDefinitionIndex = 58590;
+	inline static constexpr unsigned int DrinkMakerBarIngredient_TypeDefinitionIndex = 59520;
 
 	class DrinkMakerBarIngredient : public ::System::Object
 	{
@@ -29,14 +29,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERBARINGREDIENT__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::DrinkMakerBarIngredient* CreateNormal(::System::UInt32 ingredientID)
+		static ::RPG::Client::DrinkMakerBarIngredient* CreateNormal(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::DrinkMakerBarIngredient*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERBARINGREDIENT_CREATENORMAL_OFFSET))(ingredientID);
+			return ((::RPG::Client::DrinkMakerBarIngredient*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERBARINGREDIENT_CREATENORMAL_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::DrinkMakerBarIngredient* CreateForCheers(::RPG::GameCore::DrinkMakerCheersIngredientRow* ingredientRow)
+		static ::RPG::Client::DrinkMakerBarIngredient* CreateForCheers(::RPG::GameCore::DrinkMakerCheersIngredientRow* a1)
 		{
-			return ((::RPG::Client::DrinkMakerBarIngredient*(*)(::RPG::GameCore::DrinkMakerCheersIngredientRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERBARINGREDIENT_CREATEFORCHEERS_OFFSET))(ingredientRow);
+			return ((::RPG::Client::DrinkMakerBarIngredient*(*)(::RPG::GameCore::DrinkMakerCheersIngredientRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERBARINGREDIENT_CREATEFORCHEERS_OFFSET))(a1);
 		}
 
 		::System::Boolean IsUnlock()
@@ -49,9 +49,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERBARINGREDIENT_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERBARINGREDIENT_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERBARINGREDIENT_SET_ID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::DrinkMakerIngredientRow* get_Row()
@@ -59,9 +59,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::DrinkMakerIngredientRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERBARINGREDIENT_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::DrinkMakerIngredientRow* value)
+		::System::Void set_Row(::RPG::GameCore::DrinkMakerIngredientRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DrinkMakerIngredientRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERBARINGREDIENT_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DrinkMakerIngredientRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERBARINGREDIENT_SET_ROW_OFFSET))(this, a1);
 		}
 	};
 }

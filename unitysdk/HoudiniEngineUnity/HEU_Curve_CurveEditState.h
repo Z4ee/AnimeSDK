@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Curve_CurveEditState_TypeDefinitionIndex = 43491;
+	inline static constexpr unsigned int HEU_Curve_CurveEditState_TypeDefinitionIndex = 37417;
 
 	enum class HEU_Curve_CurveEditState : ::System::Int32
 	{

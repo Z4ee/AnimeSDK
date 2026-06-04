@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindSetIgnoreTickLodReason_TypeDefinitionIndex = 52974;
+	inline static constexpr unsigned int TimeRewindSetIgnoreTickLodReason_TypeDefinitionIndex = 53684;
 
 	enum class TimeRewindSetIgnoreTickLodReason : ::System::Int32
 	{

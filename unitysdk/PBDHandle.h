@@ -8,17 +8,17 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Mesh; }
 
-#define PBDHANDLE_APPLYFORCE_OFFSET UNITYSDK_OFFSET(0x985EEC0)
-#define PBDHANDLE_METHOD_5_5FBAD89A54D9F070_OFFSET UNITYSDK_OFFSET(0x985E510)
-#define PBDHANDLE_METHOD_5_8451509F80A98FEC_OFFSET UNITYSDK_OFFSET(0x985E100)
-#define PBDHANDLE_METHOD_5_A029BDEE0BC74991_OFFSET UNITYSDK_OFFSET(0x985F110)
-#define PBDHANDLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x985F460)
-#define PBDHANDLE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x985F340)
-#define PBDHANDLE_START_OFFSET UNITYSDK_OFFSET(0x985DAD0)
-#define PBDHANDLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x985E2D0)
-#define PBDHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x985F4B0)
+#define PBDHANDLE_APPLYFORCE_OFFSET UNITYSDK_OFFSET(0xAD162C0)
+#define PBDHANDLE_METHOD_5_3B2051C60621D523_OFFSET UNITYSDK_OFFSET(0xAD15A80)
+#define PBDHANDLE_METHOD_5_4B2D0E39C5A3C698_OFFSET UNITYSDK_OFFSET(0xAD16550)
+#define PBDHANDLE_METHOD_5_8451509F80A98FEC_OFFSET UNITYSDK_OFFSET(0xAD15610)
+#define PBDHANDLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAD168C0)
+#define PBDHANDLE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xAD167A0)
+#define PBDHANDLE_START_OFFSET UNITYSDK_OFFSET(0xAD14FB0)
+#define PBDHANDLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xAD157C0)
+#define PBDHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0xAD16910)
 
-inline static constexpr unsigned int PBDHandle_TypeDefinitionIndex = 43937;
+inline static constexpr unsigned int PBDHandle_TypeDefinitionIndex = 44483;
 
 class PBDHandle : public ::UnityEngine::MonoBehaviour
 {
@@ -60,9 +60,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + PBDHANDLE_APPLYFORCE_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_5_A029BDEE0BC74991(::UnityEngine::Vector3 a1, ::System::Single a2)
+	::System::Void Method_5_4B2D0E39C5A3C698(::UnityEngine::Vector3 a1, ::System::Single a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + PBDHANDLE_METHOD_5_A029BDEE0BC74991_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + PBDHANDLE_METHOD_5_4B2D0E39C5A3C698_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnDrawGizmos()
@@ -70,9 +70,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBDHANDLE_ONDRAWGIZMOS_OFFSET))(this);
 	}
 
-	::System::Void Method_5_5FBAD89A54D9F070()
+	::System::Void Method_5_3B2051C60621D523()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBDHANDLE_METHOD_5_5FBAD89A54D9F070_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBDHANDLE_METHOD_5_3B2051C60621D523_OFFSET))(this);
 	}
 
 	::System::Void OnDestroy()

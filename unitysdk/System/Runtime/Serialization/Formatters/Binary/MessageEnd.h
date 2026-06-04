@@ -6,15 +6,15 @@ namespace System::IO { class Stream; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryParser; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_DUMP_1_OFFSET UNITYSDK_OFFSET(0x179FFB70)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_DUMP_OFFSET UNITYSDK_OFFSET(0x179FFB60)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_READ_OFFSET UNITYSDK_OFFSET(0x179FFB50)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_WRITE_OFFSET UNITYSDK_OFFSET(0x179FFB10)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND__CTOR_OFFSET UNITYSDK_OFFSET(0x179FFB00)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_DUMP_1_OFFSET UNITYSDK_OFFSET(0x187AEE40)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_DUMP_OFFSET UNITYSDK_OFFSET(0x187AEE30)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_READ_OFFSET UNITYSDK_OFFSET(0x187AEE20)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_WRITE_OFFSET UNITYSDK_OFFSET(0x187AEDE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND__CTOR_OFFSET UNITYSDK_OFFSET(0x187AEDD0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int MessageEnd_TypeDefinitionIndex = 1154;
+	inline static constexpr unsigned int MessageEnd_TypeDefinitionIndex = 1153;
 
 	class MessageEnd : public ::System::Object
 	{
@@ -24,14 +24,14 @@ namespace System::Runtime::Serialization::Formatters::Binary
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout)
+		::System::Void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_WRITE_OFFSET))(this, sout);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_WRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input)
+		::System::Void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_READ_OFFSET))(this, input);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_READ_OFFSET))(this, a1);
 		}
 
 		::System::Void Dump()
@@ -39,9 +39,9 @@ namespace System::Runtime::Serialization::Formatters::Binary
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_DUMP_OFFSET))(this);
 		}
 
-		::System::Void Dump_1(::System::IO::Stream* sout)
+		::System::Void Dump_1(::System::IO::Stream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_DUMP_1_OFFSET))(this, sout);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MESSAGEEND_DUMP_1_OFFSET))(this, a1);
 		}
 	};
 }

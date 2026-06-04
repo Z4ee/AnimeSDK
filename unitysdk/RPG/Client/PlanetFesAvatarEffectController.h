@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_B18A907A8E4C5C9C;
+class Class_1_95E1BEF84A79D9EB;
 namespace RPG::GameCore { class PlanetFesAvatarEmojiEffectConfig; }
 namespace System { class String; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_GET_OFFSET UNITYSDK_OFFSET(0xACA73E0)
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0xACA7470)
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xACA76D0)
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARAPPEAREFFECT_OFFSET UNITYSDK_OFFSET(0xACA7720)
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATAREMOJIEFFECT_OFFSET UNITYSDK_OFFSET(0xACA7ED0)
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARGENBUFFEFFECT_OFFSET UNITYSDK_OFFSET(0xACA79B0)
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARLEVELUPEFFECT_OFFSET UNITYSDK_OFFSET(0xACA7C40)
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xACA8260)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_GET_OFFSET UNITYSDK_OFFSET(0xC3FB950)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0xC3FB9E0)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC3FBC40)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARAPPEAREFFECT_OFFSET UNITYSDK_OFFSET(0xC3FBC90)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATAREMOJIEFFECT_OFFSET UNITYSDK_OFFSET(0xC3FC470)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARGENBUFFEFFECT_OFFSET UNITYSDK_OFFSET(0xC3FBF30)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARLEVELUPEFFECT_OFFSET UNITYSDK_OFFSET(0xC3FC1D0)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xC3FC810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarEffectController_TypeDefinitionIndex = 61232;
+	inline static constexpr unsigned int PlanetFesAvatarEffectController_TypeDefinitionIndex = 62156;
 
 	class PlanetFesAvatarEffectController : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,16 +30,16 @@ namespace RPG::Client
 		// static const ::System::String* AVATAR_LEVEL_EFFECT_PATH; // 0x0
 		// static const ::System::String* AVATAR_EMOJI_EFFECT_CONFIG_PATH; // 0x0
 		::RPG::GameCore::PlanetFesAvatarEmojiEffectConfig* _EffectConfig; // 0x18
-		::Class_1_B18A907A8E4C5C9C* _PoolMgr; // 0x20
+		::Class_1_95E1BEF84A79D9EB* _PoolMgr; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::PlanetFesAvatarEffectController* Get(::UnityEngine::GameObject* go)
+		static ::RPG::Client::PlanetFesAvatarEffectController* Get(::UnityEngine::GameObject* a1)
 		{
-			return ((::RPG::Client::PlanetFesAvatarEffectController*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_GET_OFFSET))(go);
+			return ((::RPG::Client::PlanetFesAvatarEffectController*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_GET_OFFSET))(a1);
 		}
 
 		::System::Void Init()
@@ -52,24 +52,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void ShowAvatarAppearEffect(::System::Single duration, ::UnityEngine::Transform* transform, ::UnityEngine::Canvas* baseCanvas)
+		::System::Void ShowAvatarAppearEffect(::System::Single a1, ::UnityEngine::Transform* a2, ::UnityEngine::Canvas* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Transform*, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARAPPEAREFFECT_OFFSET))(this, duration, transform, baseCanvas);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Transform*, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARAPPEAREFFECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ShowAvatarGenBuffEffect(::System::Single duration, ::UnityEngine::Transform* transform, ::UnityEngine::Canvas* baseCanvas)
+		::System::Void ShowAvatarGenBuffEffect(::System::Single a1, ::UnityEngine::Transform* a2, ::UnityEngine::Canvas* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Transform*, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARGENBUFFEFFECT_OFFSET))(this, duration, transform, baseCanvas);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Transform*, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARGENBUFFEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ShowAvatarLevelUpEffect(::System::Single duration, ::UnityEngine::Transform* transform, ::UnityEngine::Canvas* baseCanvas)
+		::System::Void ShowAvatarLevelUpEffect(::System::Single a1, ::UnityEngine::Transform* a2, ::UnityEngine::Canvas* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Transform*, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARLEVELUPEFFECT_OFFSET))(this, duration, transform, baseCanvas);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Transform*, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATARLEVELUPEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ShowAvatarEmojiEffect(::System::UInt32 effectID, ::UnityEngine::Transform* transform, ::UnityEngine::Canvas* baseCanvas)
+		::System::Void ShowAvatarEmojiEffect(::System::UInt32 a1, ::UnityEngine::Transform* a2, ::UnityEngine::Canvas* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Transform*, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATAREMOJIEFFECT_OFFSET))(this, effectID, transform, baseCanvas);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Transform*, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER_SHOWAVATAREMOJIEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

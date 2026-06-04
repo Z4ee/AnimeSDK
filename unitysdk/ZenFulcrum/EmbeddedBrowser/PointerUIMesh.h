@@ -11,15 +11,15 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class MeshCollider; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A6C8750)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_GETCURRENTHITLOCATION_OFFSET UNITYSDK_OFFSET(0x1A6C8C00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPPOINTERTOBROWSER_OFFSET UNITYSDK_OFFSET(0x1A6C87F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPRAYTOBROWSER_OFFSET UNITYSDK_OFFSET(0x1A6C8880)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6C8ED0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B505620)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_GETCURRENTHITLOCATION_OFFSET UNITYSDK_OFFSET(0x1B505AB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPPOINTERTOBROWSER_OFFSET UNITYSDK_OFFSET(0x1B5056C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPRAYTOBROWSER_OFFSET UNITYSDK_OFFSET(0x1B505750)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B505DE0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PointerUIMesh_TypeDefinitionIndex = 36248;
+	inline static constexpr unsigned int PointerUIMesh_TypeDefinitionIndex = 36548;
 
 	class PointerUIMesh : public ::ZenFulcrum::EmbeddedBrowser::PointerUIBase
 	{
@@ -38,19 +38,19 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_AWAKE_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2 MapPointerToBrowser(::UnityEngine::Vector2 screenPosition, ::System::Int32 pointerId)
+		::UnityEngine::Vector2 MapPointerToBrowser(::UnityEngine::Vector2 a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::System::Int32))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPPOINTERTOBROWSER_OFFSET))(this, screenPosition, pointerId);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::System::Int32))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPPOINTERTOBROWSER_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector2 MapRayToBrowser(::UnityEngine::Ray worldRay, ::System::Int32 pointerId)
+		::UnityEngine::Vector2 MapRayToBrowser(::UnityEngine::Ray a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Ray, ::System::Int32))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPRAYTOBROWSER_OFFSET))(this, worldRay, pointerId);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Ray, ::System::Int32))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPRAYTOBROWSER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetCurrentHitLocation(::UnityEngine::Vector3& pos, ::UnityEngine::Quaternion& rot)
+		::System::Void GetCurrentHitLocation(::UnityEngine::Vector3& a1, ::UnityEngine::Quaternion& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_GETCURRENTHITLOCATION_OFFSET))(this, pos, rot);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_GETCURRENTHITLOCATION_OFFSET))(this, a1, a2);
 		}
 	};
 }

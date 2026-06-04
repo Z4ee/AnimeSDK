@@ -8,12 +8,12 @@ namespace RPG::GameCore { class ModifierValueBindData; }
 namespace RPG::GameCore { class SubModifierData; }
 namespace RPG::GameCore { class TurnBasedModifierDependencyConfig; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERADDITIONCONFIG_METHOD_2_4ADE2199FC979325_OFFSET UNITYSDK_OFFSET(0x190D0FB0)
-#define RPG_GAMECORE_TURNBASEDMODIFIERADDITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190D11F0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERADDITIONCONFIG_METHOD_2_4068E961C806D746_OFFSET UNITYSDK_OFFSET(0x19E22470)
+#define RPG_GAMECORE_TURNBASEDMODIFIERADDITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E226A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierAdditionConfig_TypeDefinitionIndex = 17322;
+	inline static constexpr unsigned int TurnBasedModifierAdditionConfig_TypeDefinitionIndex = 17326;
 
 	class TurnBasedModifierAdditionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERADDITIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4ADE2199FC979325(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnBasedModifierAdditionConfig*& a2)
+		static ::System::Void Method_2_4068E961C806D746(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnBasedModifierAdditionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnBasedModifierAdditionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERADDITIONCONFIG_METHOD_2_4ADE2199FC979325_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnBasedModifierAdditionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERADDITIONCONFIG_METHOD_2_4068E961C806D746_OFFSET))(a1, a2);
 		}
 	};
 }

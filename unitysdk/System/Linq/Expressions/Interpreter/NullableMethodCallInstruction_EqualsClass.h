@@ -4,13 +4,13 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x19F32430)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_RUN_OFFSET UNITYSDK_OFFSET(0x19F32440)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x19F32350)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1ADA9B60)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_RUN_OFFSET UNITYSDK_OFFSET(0x1ADA9B70)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA9A80)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int NullableMethodCallInstruction_EqualsClass_TypeDefinitionIndex = 3635;
+	inline static constexpr unsigned int NullableMethodCallInstruction_EqualsClass_TypeDefinitionIndex = 3636;
 
 	class NullableMethodCallInstruction_EqualsClass : public ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction
 	{
@@ -25,9 +25,9 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_GET_CONSUMEDSTACK_OFFSET))(this);
 		}
 
-		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame)
+		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_RUN_OFFSET))(this, frame);
+			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_EQUALSCLASS_RUN_OFFSET))(this, a1);
 		}
 	};
 }

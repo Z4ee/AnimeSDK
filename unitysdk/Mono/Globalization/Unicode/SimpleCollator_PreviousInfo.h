@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_PREVIOUSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x229D490)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_PREVIOUSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x382CB80)
 
 namespace Mono::Globalization::Unicode
 {
@@ -13,9 +13,9 @@ namespace Mono::Globalization::Unicode
 		::System::Int32 Code; // 0x10
 		::System::Byte* SortKey; // 0x18
 
-		::System::Void _ctor(::System::Boolean dummy)
+		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_PREVIOUSINFO__CTOR_OFFSET))(this, dummy);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_PREVIOUSINFO__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

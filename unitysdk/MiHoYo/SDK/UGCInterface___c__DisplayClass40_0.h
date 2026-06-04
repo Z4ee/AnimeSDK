@@ -9,31 +9,31 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DD8000)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__EXCHANGETOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x8DDA980)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__EXCHANGETOKEN_B__1_OFFSET UNITYSDK_OFFSET(0x8DDAB90)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA223AF0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__EXCHANGETOKEN_B__0_OFFSET UNITYSDK_OFFSET(0xA226420)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__EXCHANGETOKEN_B__1_OFFSET UNITYSDK_OFFSET(0xA226610)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface___c__DisplayClass40_0_TypeDefinitionIndex = 43054;
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass40_0_TypeDefinitionIndex = 43857;
 
 	class UGCInterface___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::System::Action* timeoutCallback; // 0x10
-		::System::String* strUrl; // 0x18
-		::MiHoYo::SDK::UGCInterface* __4__this; // 0x20
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x28
-		::System::String* strAuthKey; // 0x30
+		::System::String* strUrl; // 0x10
+		::System::Action* timeoutCallback; // 0x18
+		::System::String* strAuthKey; // 0x20
+		::MiHoYo::SDK::UGCInterface* __4__this; // 0x28
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ExchangeToken_b__0(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* strHeaderResponse, ::System::String* strResponse)
+		::System::Void _ExchangeToken_b__0(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__EXCHANGETOKEN_B__0_OFFSET))(this, strHeaderResponse, strResponse);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__EXCHANGETOKEN_B__0_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ExchangeToken_b__1()

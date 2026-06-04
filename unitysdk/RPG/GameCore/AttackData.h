@@ -17,14 +17,14 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ATTACKDATA_METHOD_2_0BEDB3D7567D5618_OFFSET UNITYSDK_OFFSET(0x186AE8D0)
-#define RPG_GAMECORE_ATTACKDATA_METHOD_2_80498888A136FCFD_OFFSET UNITYSDK_OFFSET(0x186AEDA0)
-#define RPG_GAMECORE_ATTACKDATA_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x186AFF80)
-#define RPG_GAMECORE_ATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x186AEA00)
+#define RPG_GAMECORE_ATTACKDATA_METHOD_2_7E9645886120E859_OFFSET UNITYSDK_OFFSET(0x19486950)
+#define RPG_GAMECORE_ATTACKDATA_METHOD_2_9F0425A182D9ECC3_OFFSET UNITYSDK_OFFSET(0x19486E30)
+#define RPG_GAMECORE_ATTACKDATA_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x19488010)
+#define RPG_GAMECORE_ATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19486A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttackData_TypeDefinitionIndex = 21478;
+	inline static constexpr unsigned int AttackData_TypeDefinitionIndex = 21359;
 
 	class AttackData : public ::RPG::GameCore::JsonConfig
 	{
@@ -86,14 +86,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACKDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0BEDB3D7567D5618(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttackData*& a2)
+		static ::System::Void Method_2_7E9645886120E859(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttackData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttackData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACKDATA_METHOD_2_0BEDB3D7567D5618_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttackData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACKDATA_METHOD_2_7E9645886120E859_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_80498888A136FCFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttackData* a2)
+		static ::System::Void Method_2_9F0425A182D9ECC3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttackData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttackData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACKDATA_METHOD_2_80498888A136FCFD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttackData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACKDATA_METHOD_2_9F0425A182D9ECC3_OFFSET))(a1, a2);
 		}
 
 		::System::Object* ShareByCopy()

@@ -12,42 +12,42 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define TMPRO_TMP_TEXTUTILITIES_DISTANCETOLINE_OFFSET UNITYSDK_OFFSET(0x1A3A21C0)
-#define TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGCHARACTER_OFFSET UNITYSDK_OFFSET(0x1A3A2540)
-#define TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGLINE_OFFSET UNITYSDK_OFFSET(0x1A3A4730)
-#define TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGLINK_OFFSET UNITYSDK_OFFSET(0x1A3A4980)
-#define TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGWORD_OFFSET UNITYSDK_OFFSET(0x1A3A29D0)
-#define TMPRO_TMP_TEXTUTILITIES_FINDNEARESTCHARACTERONLINE_OFFSET UNITYSDK_OFFSET(0x1A3A1610)
-#define TMPRO_TMP_TEXTUTILITIES_FINDNEARESTCHARACTER_OFFSET UNITYSDK_OFFSET(0x1A3A0170)
-#define TMPRO_TMP_TEXTUTILITIES_FINDNEARESTLINE_OFFSET UNITYSDK_OFFSET(0x1A3A1360)
-#define TMPRO_TMP_TEXTUTILITIES_FINDNEARESTLINK_OFFSET UNITYSDK_OFFSET(0x1A3A5060)
-#define TMPRO_TMP_TEXTUTILITIES_FINDNEARESTWORD_OFFSET UNITYSDK_OFFSET(0x1A3A3420)
-#define TMPRO_TMP_TEXTUTILITIES_GETCURSORINDEXFROMPOSITION_1_OFFSET UNITYSDK_OFFSET(0x1A3A1000)
-#define TMPRO_TMP_TEXTUTILITIES_GETCURSORINDEXFROMPOSITION_OFFSET UNITYSDK_OFFSET(0x1A39FED0)
-#define TMPRO_TMP_TEXTUTILITIES_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A3A6B20)
-#define TMPRO_TMP_TEXTUTILITIES_GETSIMPLEHASHCODELOWERCASE_OFFSET UNITYSDK_OFFSET(0x1A3A6CD0)
-#define TMPRO_TMP_TEXTUTILITIES_GETSIMPLEHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A3A6BF0)
-#define TMPRO_TMP_TEXTUTILITIES_HEXTOINT_OFFSET UNITYSDK_OFFSET(0x1A3A6DD0)
-#define TMPRO_TMP_TEXTUTILITIES_INTERSECTLINEPLANE_OFFSET UNITYSDK_OFFSET(0x1A3A6940)
-#define TMPRO_TMP_TEXTUTILITIES_ISINTERSECTINGRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1A3A2360)
-#define TMPRO_TMP_TEXTUTILITIES_POINTINTERSECTRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1A3A20D0)
-#define TMPRO_TMP_TEXTUTILITIES_SCREENPOINTTOWORLDPOINTINRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1A3A0BD0)
-#define TMPRO_TMP_TEXTUTILITIES_STRINGHEXTOINT_OFFSET UNITYSDK_OFFSET(0x1A3A6DF0)
-#define TMPRO_TMP_TEXTUTILITIES_TOLOWERFAST_OFFSET UNITYSDK_OFFSET(0x1A3A6A90)
-#define TMPRO_TMP_TEXTUTILITIES_TOUPPERASCIIFAST_OFFSET UNITYSDK_OFFSET(0x1A389730)
-#define TMPRO_TMP_TEXTUTILITIES_TOUPPERFAST_OFFSET UNITYSDK_OFFSET(0x1A3A6AF0)
-#define TMPRO_TMP_TEXTUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3A6EE0)
+#define TMPRO_TMP_TEXTUTILITIES_DISTANCETOLINE_OFFSET UNITYSDK_OFFSET(0x1B1F8A30)
+#define TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGCHARACTER_OFFSET UNITYSDK_OFFSET(0x1B1F8D70)
+#define TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGLINE_OFFSET UNITYSDK_OFFSET(0x1B1FAEF0)
+#define TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGLINK_OFFSET UNITYSDK_OFFSET(0x1B1FB140)
+#define TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGWORD_OFFSET UNITYSDK_OFFSET(0x1B1F91E0)
+#define TMPRO_TMP_TEXTUTILITIES_FINDNEARESTCHARACTERONLINE_OFFSET UNITYSDK_OFFSET(0x1B1F7EB0)
+#define TMPRO_TMP_TEXTUTILITIES_FINDNEARESTCHARACTER_OFFSET UNITYSDK_OFFSET(0x1B1F6A50)
+#define TMPRO_TMP_TEXTUTILITIES_FINDNEARESTLINE_OFFSET UNITYSDK_OFFSET(0x1B1F7C10)
+#define TMPRO_TMP_TEXTUTILITIES_FINDNEARESTLINK_OFFSET UNITYSDK_OFFSET(0x1B1FB7F0)
+#define TMPRO_TMP_TEXTUTILITIES_FINDNEARESTWORD_OFFSET UNITYSDK_OFFSET(0x1B1F9C00)
+#define TMPRO_TMP_TEXTUTILITIES_GETCURSORINDEXFROMPOSITION_1_OFFSET UNITYSDK_OFFSET(0x1B1F78D0)
+#define TMPRO_TMP_TEXTUTILITIES_GETCURSORINDEXFROMPOSITION_OFFSET UNITYSDK_OFFSET(0x1B1F67C0)
+#define TMPRO_TMP_TEXTUTILITIES_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B1FD290)
+#define TMPRO_TMP_TEXTUTILITIES_GETSIMPLEHASHCODELOWERCASE_OFFSET UNITYSDK_OFFSET(0x1B1FD440)
+#define TMPRO_TMP_TEXTUTILITIES_GETSIMPLEHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B1FD360)
+#define TMPRO_TMP_TEXTUTILITIES_HEXTOINT_OFFSET UNITYSDK_OFFSET(0x1B1FD540)
+#define TMPRO_TMP_TEXTUTILITIES_INTERSECTLINEPLANE_OFFSET UNITYSDK_OFFSET(0x1B1FD0B0)
+#define TMPRO_TMP_TEXTUTILITIES_ISINTERSECTINGRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B1F8BD0)
+#define TMPRO_TMP_TEXTUTILITIES_POINTINTERSECTRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1B1F8940)
+#define TMPRO_TMP_TEXTUTILITIES_SCREENPOINTTOWORLDPOINTINRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1B1F74A0)
+#define TMPRO_TMP_TEXTUTILITIES_STRINGHEXTOINT_OFFSET UNITYSDK_OFFSET(0x1B1FD560)
+#define TMPRO_TMP_TEXTUTILITIES_TOLOWERFAST_OFFSET UNITYSDK_OFFSET(0x1B1FD200)
+#define TMPRO_TMP_TEXTUTILITIES_TOUPPERASCIIFAST_OFFSET UNITYSDK_OFFSET(0x1B1E2780)
+#define TMPRO_TMP_TEXTUTILITIES_TOUPPERFAST_OFFSET UNITYSDK_OFFSET(0x1B1FD260)
+#define TMPRO_TMP_TEXTUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1FD650)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_TextUtilities_TypeDefinitionIndex = 40226;
+	inline static constexpr unsigned int TMP_TextUtilities_TypeDefinitionIndex = 41053;
 
 	class TMP_TextUtilities : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_m_rectWorldCorners()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(TMP_TextUtilities_TypeDefinitionIndex)->GetStaticField(0x335D0);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(TMP_TextUtilities_TypeDefinitionIndex)->GetStaticField(0x5B7B0);
 		}
 		// static const ::System::String* k_lookupStringL; // 0x0
 		// static const ::System::String* k_lookupStringU; // 0x0
@@ -57,124 +57,124 @@ namespace TMPro
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES__CCTOR_OFFSET))();
 		}
 
-		static ::System::Int32 GetCursorIndexFromPosition(::TMPro::TMP_Text* textComponent, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera)
+		static ::System::Int32 GetCursorIndexFromPosition(::TMPro::TMP_Text* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_GETCURSORINDEXFROMPOSITION_OFFSET))(textComponent, position, camera);
+			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_GETCURSORINDEXFROMPOSITION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 GetCursorIndexFromPosition_1(::TMPro::TMP_Text* textComponent, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera, ::TMPro::CaretPosition& cursor)
+		static ::System::Int32 GetCursorIndexFromPosition_1(::TMPro::TMP_Text* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Camera* a3, ::TMPro::CaretPosition& a4)
 		{
-			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*, ::TMPro::CaretPosition&))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_GETCURSORINDEXFROMPOSITION_1_OFFSET))(textComponent, position, camera, cursor);
+			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*, ::TMPro::CaretPosition&))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_GETCURSORINDEXFROMPOSITION_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 FindNearestLine(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera)
+		static ::System::Int32 FindNearestLine(::TMPro::TMP_Text* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDNEARESTLINE_OFFSET))(text, position, camera);
+			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDNEARESTLINE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 FindNearestCharacterOnLine(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::System::Int32 line, ::UnityEngine::Camera* camera, ::System::Boolean visibleOnly)
+		static ::System::Int32 FindNearestCharacterOnLine(::TMPro::TMP_Text* a1, ::UnityEngine::Vector3 a2, ::System::Int32 a3, ::UnityEngine::Camera* a4, ::System::Boolean a5)
 		{
-			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::System::Int32, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDNEARESTCHARACTERONLINE_OFFSET))(text, position, line, camera, visibleOnly);
+			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::System::Int32, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDNEARESTCHARACTERONLINE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean IsIntersectingRectTransform(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera)
+		static ::System::Boolean IsIntersectingRectTransform(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_ISINTERSECTINGRECTTRANSFORM_OFFSET))(rectTransform, position, camera);
+			return ((::System::Boolean(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_ISINTERSECTINGRECTTRANSFORM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 FindIntersectingCharacter(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera, ::System::Boolean visibleOnly)
+		static ::System::Int32 FindIntersectingCharacter(::TMPro::TMP_Text* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Camera* a3, ::System::Boolean a4)
 		{
-			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGCHARACTER_OFFSET))(text, position, camera, visibleOnly);
+			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGCHARACTER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 FindNearestCharacter(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera, ::System::Boolean visibleOnly)
+		static ::System::Int32 FindNearestCharacter(::TMPro::TMP_Text* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Camera* a3, ::System::Boolean a4)
 		{
-			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDNEARESTCHARACTER_OFFSET))(text, position, camera, visibleOnly);
+			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDNEARESTCHARACTER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 FindIntersectingWord(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera)
+		static ::System::Int32 FindIntersectingWord(::TMPro::TMP_Text* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGWORD_OFFSET))(text, position, camera);
+			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGWORD_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 FindNearestWord(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera)
+		static ::System::Int32 FindNearestWord(::TMPro::TMP_Text* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDNEARESTWORD_OFFSET))(text, position, camera);
+			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDNEARESTWORD_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 FindIntersectingLine(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera)
+		static ::System::Int32 FindIntersectingLine(::TMPro::TMP_Text* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGLINE_OFFSET))(text, position, camera);
+			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGLINE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 FindIntersectingLink(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera)
+		static ::System::Int32 FindIntersectingLink(::TMPro::TMP_Text* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGLINK_OFFSET))(text, position, camera);
+			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDINTERSECTINGLINK_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 FindNearestLink(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera)
+		static ::System::Int32 FindNearestLink(::TMPro::TMP_Text* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDNEARESTLINK_OFFSET))(text, position, camera);
+			return ((::System::Int32(*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_FINDNEARESTLINK_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean PointIntersectRectangle(::UnityEngine::Vector3 m, ::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c, ::UnityEngine::Vector3 d)
+		static ::System::Boolean PointIntersectRectangle(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_POINTINTERSECTRECTANGLE_OFFSET))(m, a, b, c, d);
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_POINTINTERSECTRECTANGLE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean ScreenPointToWorldPointInRectangle(::UnityEngine::Transform* transform, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam, ::UnityEngine::Vector3& worldPoint)
+		static ::System::Boolean ScreenPointToWorldPointInRectangle(::UnityEngine::Transform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Camera* a3, ::UnityEngine::Vector3& a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Transform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_SCREENPOINTTOWORLDPOINTINRECTANGLE_OFFSET))(transform, screenPoint, cam, worldPoint);
+			return ((::System::Boolean(*)(::UnityEngine::Transform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_SCREENPOINTTOWORLDPOINTINRECTANGLE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean IntersectLinePlane(::TMPro::TMP_TextUtilities_LineSegment line, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector3& intersectingPoint)
+		static ::System::Boolean IntersectLinePlane(::TMPro::TMP_TextUtilities_LineSegment a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3& a4)
 		{
-			return ((::System::Boolean(*)(::TMPro::TMP_TextUtilities_LineSegment, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_INTERSECTLINEPLANE_OFFSET))(line, point, normal, intersectingPoint);
+			return ((::System::Boolean(*)(::TMPro::TMP_TextUtilities_LineSegment, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_INTERSECTLINEPLANE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single DistanceToLine(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 point)
+		static ::System::Single DistanceToLine(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_DISTANCETOLINE_OFFSET))(a, b, point);
+			return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_DISTANCETOLINE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Char ToLowerFast(::System::Char c)
+		static ::System::Char ToLowerFast(::System::Char a1)
 		{
-			return ((::System::Char(*)(::System::Char))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_TOLOWERFAST_OFFSET))(c);
+			return ((::System::Char(*)(::System::Char))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_TOLOWERFAST_OFFSET))(a1);
 		}
 
-		static ::System::Char ToUpperFast(::System::Char c)
+		static ::System::Char ToUpperFast(::System::Char a1)
 		{
-			return ((::System::Char(*)(::System::Char))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_TOUPPERFAST_OFFSET))(c);
+			return ((::System::Char(*)(::System::Char))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_TOUPPERFAST_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 ToUpperASCIIFast(::System::UInt32 c)
+		static ::System::UInt32 ToUpperASCIIFast(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_TOUPPERASCIIFAST_OFFSET))(c);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_TOUPPERASCIIFAST_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetHashCode(::System::String* s)
+		static ::System::Int32 GetHashCode(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_GETHASHCODE_OFFSET))(s);
+			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_GETHASHCODE_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetSimpleHashCode(::System::String* s)
+		static ::System::Int32 GetSimpleHashCode(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_GETSIMPLEHASHCODE_OFFSET))(s);
+			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_GETSIMPLEHASHCODE_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetSimpleHashCodeLowercase(::System::String* s)
+		static ::System::UInt32 GetSimpleHashCodeLowercase(::System::String* a1)
 		{
-			return ((::System::UInt32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_GETSIMPLEHASHCODELOWERCASE_OFFSET))(s);
+			return ((::System::UInt32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_GETSIMPLEHASHCODELOWERCASE_OFFSET))(a1);
 		}
 
-		static ::System::Int32 HexToInt(::System::Char hex)
+		static ::System::Int32 HexToInt(::System::Char a1)
 		{
-			return ((::System::Int32(*)(::System::Char))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_HEXTOINT_OFFSET))(hex);
+			return ((::System::Int32(*)(::System::Char))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_HEXTOINT_OFFSET))(a1);
 		}
 
-		static ::System::Int32 StringHexToInt(::System::String* s)
+		static ::System::Int32 StringHexToInt(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_STRINGHEXTOINT_OFFSET))(s);
+			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTUTILITIES_STRINGHEXTOINT_OFFSET))(a1);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class ISubsystemDescriptor; }
 
-#define UNITYENGINE_INTEGRATEDSUBSYSTEM_SETHANDLE_OFFSET UNITYSDK_OFFSET(0x1A4F3CC0)
-#define UNITYENGINE_INTEGRATEDSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F3CD0)
+#define UNITYENGINE_INTEGRATEDSUBSYSTEM_SETHANDLE_OFFSET UNITYSDK_OFFSET(0x1B340B40)
+#define UNITYENGINE_INTEGRATEDSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B340B50)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IntegratedSubsystem_TypeDefinitionIndex = 5532;
+	inline static constexpr unsigned int IntegratedSubsystem_TypeDefinitionIndex = 5809;
 
 	class IntegratedSubsystem : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INTEGRATEDSUBSYSTEM__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetHandle(::UnityEngine::IntegratedSubsystem* inst)
+		::System::Void SetHandle(::UnityEngine::IntegratedSubsystem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::IntegratedSubsystem*))((::PBYTE)hIl2Cpp + UNITYENGINE_INTEGRATEDSUBSYSTEM_SETHANDLE_OFFSET))(this, inst);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::IntegratedSubsystem*))((::PBYTE)hIl2Cpp + UNITYENGINE_INTEGRATEDSUBSYSTEM_SETHANDLE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_InputNode_InputObjectType.h"
+#include "unitysdk/HoudiniEngineUnity/HEU_InputObjectTypeWrapper.h"
 #include "unitysdk/System/Object.h"
 
 namespace HoudiniEngineUnity { class HEU_InputAssetPreset; }
@@ -8,11 +9,13 @@ namespace HoudiniEngineUnity { class HEU_InputObjectPreset; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x8C81570)
+#define HOUDINIENGINEUNITY_HEU_INPUTPRESET_GET_INPUTOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x17F1CF20)
+#define HOUDINIENGINEUNITY_HEU_INPUTPRESET_SET_INPUTOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x17F1CF40)
+#define HOUDINIENGINEUNITY_HEU_INPUTPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x17EE8B40)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputPreset_TypeDefinitionIndex = 43480;
+	inline static constexpr unsigned int HEU_InputPreset_TypeDefinitionIndex = 37402;
 
 	class HEU_InputPreset : public ::System::Object
 	{
@@ -29,6 +32,16 @@ namespace HoudiniEngineUnity
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTPRESET__CTOR_OFFSET))(this);
+		}
+
+		::HoudiniEngineUnity::HEU_InputObjectTypeWrapper get_InputObjectType()
+		{
+			return ((::HoudiniEngineUnity::HEU_InputObjectTypeWrapper(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTPRESET_GET_INPUTOBJECTTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_InputObjectType(::HoudiniEngineUnity::HEU_InputObjectTypeWrapper a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_InputObjectTypeWrapper))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTPRESET_SET_INPUTOBJECTTYPE_OFFSET))(this, a1);
 		}
 	};
 }

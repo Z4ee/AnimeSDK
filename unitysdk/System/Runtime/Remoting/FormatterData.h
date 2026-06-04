@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Remoting/ProviderData.h"
 
-#define SYSTEM_RUNTIME_REMOTING_FORMATTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x179CDBD0)
+#define SYSTEM_RUNTIME_REMOTING_FORMATTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1877E9B0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int FormatterData_TypeDefinitionIndex = 1208;
+	inline static constexpr unsigned int FormatterData_TypeDefinitionIndex = 1207;
 
 	class FormatterData : public ::System::Runtime::Remoting::ProviderData
 	{

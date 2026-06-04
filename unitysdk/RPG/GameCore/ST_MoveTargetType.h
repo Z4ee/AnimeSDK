@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_MoveTargetType_TypeDefinitionIndex = 19031;
+	inline static constexpr unsigned int ST_MoveTargetType_TypeDefinitionIndex = 23127;
 
 	enum class ST_MoveTargetType : ::System::Int32
 	{

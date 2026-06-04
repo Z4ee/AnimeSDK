@@ -5,12 +5,12 @@
 namespace RPG::Client::Prop { class RotatePillarPuzzleSwitch; }
 namespace RPG::Client::Prop { class RotateSelectParamData; }
 
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAEC1E80)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS1_0__INITSWITCH_B__1_OFFSET UNITYSDK_OFFSET(0xAEC2F90)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC608FB0)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS1_0__INITSWITCH_B__1_OFFSET UNITYSDK_OFFSET(0xC60A120)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RotatePillarPuzzleSwitch___c__DisplayClass1_0_TypeDefinitionIndex = 72312;
+	inline static constexpr unsigned int RotatePillarPuzzleSwitch___c__DisplayClass1_0_TypeDefinitionIndex = 73334;
 
 	class RotatePillarPuzzleSwitch___c__DisplayClass1_0 : public ::System::Object
 	{

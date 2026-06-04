@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightStageNode; }
 
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5987B0)
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS15_0__GETNODE_B__0_OFFSET UNITYSDK_OFFSET(0xA598AD0)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC07370)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS15_0__GETNODE_B__0_OFFSET UNITYSDK_OFFSET(0xBC076B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightStageRoute___c__DisplayClass15_0_TypeDefinitionIndex = 60073;
+	inline static constexpr unsigned int GridFightStageRoute___c__DisplayClass15_0_TypeDefinitionIndex = 61008;
 
 	class GridFightStageRoute___c__DisplayClass15_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetNode_b__0(::RPG::Client::GridFightStageNode* x)
+		::System::Boolean _GetNode_b__0(::RPG::Client::GridFightStageNode* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightStageNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS15_0__GETNODE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightStageNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS15_0__GETNODE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

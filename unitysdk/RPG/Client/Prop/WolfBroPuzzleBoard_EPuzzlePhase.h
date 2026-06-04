@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WolfBroPuzzleBoard_EPuzzlePhase_TypeDefinitionIndex = 72186;
+	inline static constexpr unsigned int WolfBroPuzzleBoard_EPuzzlePhase_TypeDefinitionIndex = 73208;
 
 	enum class WolfBroPuzzleBoard_EPuzzlePhase : ::System::Int32
 	{

@@ -12,11 +12,11 @@ namespace System::Net::Cache { class RequestCachePolicy; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 namespace System::Xml { class XmlDownloadManager; }
 
-#define SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1A0816C0)
-#define SYSTEM_XML_XMLURLRESOLVER_GETENTITY_OFFSET UNITYSDK_OFFSET(0x1A081510)
-#define SYSTEM_XML_XMLURLRESOLVER_GET_DOWNLOADMANAGER_OFFSET UNITYSDK_OFFSET(0x1A081450)
-#define SYSTEM_XML_XMLURLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1A0816B0)
-#define SYSTEM_XML_XMLURLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A081500)
+#define SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1AEF2B60)
+#define SYSTEM_XML_XMLURLRESOLVER_GETENTITY_OFFSET UNITYSDK_OFFSET(0x1AEF29B0)
+#define SYSTEM_XML_XMLURLRESOLVER_GET_DOWNLOADMANAGER_OFFSET UNITYSDK_OFFSET(0x1AEF28E0)
+#define SYSTEM_XML_XMLURLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1AEF2B50)
+#define SYSTEM_XML_XMLURLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEF29A0)
 
 namespace System::Xml
 {
@@ -27,11 +27,11 @@ namespace System::Xml
 	public:
 		static ::System::Object** StaticGet_s_DownloadManager()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(XmlUrlResolver_TypeDefinitionIndex)->GetStaticField(0x10670);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(XmlUrlResolver_TypeDefinitionIndex)->GetStaticField(0x1A0E0);
 		}
-		::System::Net::Cache::RequestCachePolicy* _cachePolicy; // 0x10
-		::System::Net::IWebProxy* _proxy; // 0x18
-		::System::Net::ICredentials* _credentials; // 0x20
+		::System::Net::IWebProxy* _proxy; // 0x10
+		::System::Net::ICredentials* _credentials; // 0x18
+		::System::Net::Cache::RequestCachePolicy* _cachePolicy; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -43,19 +43,19 @@ namespace System::Xml
 			return ((::System::Xml::XmlDownloadManager*(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_GET_DOWNLOADMANAGER_OFFSET))();
 		}
 
-		::System::Object* GetEntity(::System::Uri* absoluteUri, ::System::String* role, ::System::Type* ofObjectToReturn)
+		::System::Object* GetEntity(::System::Uri* a1, ::System::String* a2, ::System::Type* a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_GETENTITY_OFFSET))(this, absoluteUri, role, ofObjectToReturn);
+			return ((::System::Object*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_GETENTITY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Uri* ResolveUri(::System::Uri* baseUri, ::System::String* relativeUri)
+		::System::Uri* ResolveUri(::System::Uri* a1, ::System::String* a2)
 		{
-			return ((::System::Uri*(*)(::PVOID, ::System::Uri*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_RESOLVEURI_OFFSET))(this, baseUri, relativeUri);
+			return ((::System::Uri*(*)(::PVOID, ::System::Uri*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_RESOLVEURI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::System::String* role, ::System::Type* ofObjectToReturn)
+		::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* a1, ::System::String* a2, ::System::Type* a3)
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Object*>*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET))(this, absoluteUri, role, ofObjectToReturn);
+			return ((::System::Threading::Tasks::Task_1<::System::Object*>*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::Lobby { class GetRTCRoomNameOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x498A0)
-#define EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x49830)
-#define EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x496B0)
-#define EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x49760)
-#define EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x49820)
+#define EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x4DE50)
+#define EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4DDD0)
+#define EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x4DC50)
+#define EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x4DD00)
+#define EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x4DDC0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int GetRTCRoomNameOptionsInternal_TypeDefinitionIndex = 41852;
+	inline static constexpr unsigned int GetRTCRoomNameOptionsInternal_TypeDefinitionIndex = 42655;
 
 	struct alignas(8) GetRTCRoomNameOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::Lobby
 		::System::IntPtr m_LobbyId; // 0x18
 		::System::IntPtr m_LocalUserId; // 0x20
 
-		::System::Void set_LobbyId(::System::String* value)
+		::System::Void set_LobbyId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Lobby::GetRTCRoomNameOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Lobby::GetRTCRoomNameOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::GetRTCRoomNameOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::GetRTCRoomNameOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETRTCROOMNAMEOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

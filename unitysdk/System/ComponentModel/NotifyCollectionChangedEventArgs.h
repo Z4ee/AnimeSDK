@@ -4,7 +4,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int NotifyCollectionChangedEventArgs_TypeDefinitionIndex = 8322;
+	inline static constexpr unsigned int NotifyCollectionChangedEventArgs_TypeDefinitionIndex = 9225;
 
 	class NotifyCollectionChangedEventArgs : public ::System::Object
 	{

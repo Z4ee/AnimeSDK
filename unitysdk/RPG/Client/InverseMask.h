@@ -12,44 +12,44 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_INVERSEMASK_ADDMASKRECT_OFFSET UNITYSDK_OFFSET(0xA64F070)
-#define RPG_CLIENT_INVERSEMASK_ADDMASKREGION_OFFSET UNITYSDK_OFFSET(0xA64E800)
-#define RPG_CLIENT_INVERSEMASK_ADDTRANS_OFFSET UNITYSDK_OFFSET(0xA64E010)
-#define RPG_CLIENT_INVERSEMASK_AWAKE_OFFSET UNITYSDK_OFFSET(0xA64FEF0)
-#define RPG_CLIENT_INVERSEMASK_CLEAR_OFFSET UNITYSDK_OFFSET(0xA64F970)
-#define RPG_CLIENT_INVERSEMASK_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xA64F910)
-#define RPG_CLIENT_INVERSEMASK_GET_UICAM_OFFSET UNITYSDK_OFFSET(0xA6500D0)
-#define RPG_CLIENT_INVERSEMASK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA650010)
-#define RPG_CLIENT_INVERSEMASK_START_OFFSET UNITYSDK_OFFSET(0xA64FF40)
-#define RPG_CLIENT_INVERSEMASK_UPDATEBLUR_OFFSET UNITYSDK_OFFSET(0xA64F850)
-#define RPG_CLIENT_INVERSEMASK_UPDATEMASKRECT_OFFSET UNITYSDK_OFFSET(0xA64F4F0)
-#define RPG_CLIENT_INVERSEMASK_UPDATEMASKREGION_OFFSET UNITYSDK_OFFSET(0xA64EEE0)
-#define RPG_CLIENT_INVERSEMASK_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xA64FA50)
-#define RPG_CLIENT_INVERSEMASK_UPDATETRANS_OFFSET UNITYSDK_OFFSET(0xA64E670)
-#define RPG_CLIENT_INVERSEMASK__CTOR_OFFSET UNITYSDK_OFFSET(0xA650240)
-#define RPG_CLIENT_INVERSEMASK__SCALEVECTOR_OFFSET UNITYSDK_OFFSET(0xA64F3D0)
-#define RPG_CLIENT_INVERSEMASK__SETPOSITIONBYBOUNDS_OFFSET UNITYSDK_OFFSET(0xA64E9B0)
-#define RPG_CLIENT_INVERSEMASK__SETPOSITIONBYRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xA64E1B0)
-#define RPG_CLIENT_INVERSEMASK___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0xA650440)
-#define RPG_CLIENT_INVERSEMASK___IFIXBASEPROXY_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xA650420)
-#define RPG_CLIENT_INVERSEMASK___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA650460)
-#define RPG_CLIENT_INVERSEMASK___IFIXBASEPROXY_START_OFFSET UNITYSDK_OFFSET(0xA650450)
-#define RPG_CLIENT_INVERSEMASK___IFIXBASEPROXY_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xA650430)
+#define RPG_CLIENT_INVERSEMASK_ADDMASKRECT_OFFSET UNITYSDK_OFFSET(0xBD55A90)
+#define RPG_CLIENT_INVERSEMASK_ADDMASKREGION_OFFSET UNITYSDK_OFFSET(0xBD55270)
+#define RPG_CLIENT_INVERSEMASK_ADDTRANS_OFFSET UNITYSDK_OFFSET(0xBD54A90)
+#define RPG_CLIENT_INVERSEMASK_AWAKE_OFFSET UNITYSDK_OFFSET(0xBD568B0)
+#define RPG_CLIENT_INVERSEMASK_CLEAR_OFFSET UNITYSDK_OFFSET(0xBD56360)
+#define RPG_CLIENT_INVERSEMASK_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xBD56300)
+#define RPG_CLIENT_INVERSEMASK_GET_UICAM_OFFSET UNITYSDK_OFFSET(0xBD56A90)
+#define RPG_CLIENT_INVERSEMASK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBD569D0)
+#define RPG_CLIENT_INVERSEMASK_START_OFFSET UNITYSDK_OFFSET(0xBD56900)
+#define RPG_CLIENT_INVERSEMASK_UPDATEBLUR_OFFSET UNITYSDK_OFFSET(0xBD56240)
+#define RPG_CLIENT_INVERSEMASK_UPDATEMASKRECT_OFFSET UNITYSDK_OFFSET(0xBD55F10)
+#define RPG_CLIENT_INVERSEMASK_UPDATEMASKREGION_OFFSET UNITYSDK_OFFSET(0xBD55900)
+#define RPG_CLIENT_INVERSEMASK_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xBD56410)
+#define RPG_CLIENT_INVERSEMASK_UPDATETRANS_OFFSET UNITYSDK_OFFSET(0xBD55110)
+#define RPG_CLIENT_INVERSEMASK__CTOR_OFFSET UNITYSDK_OFFSET(0xBD56C00)
+#define RPG_CLIENT_INVERSEMASK__SCALEVECTOR_OFFSET UNITYSDK_OFFSET(0xBD55DF0)
+#define RPG_CLIENT_INVERSEMASK__SETPOSITIONBYBOUNDS_OFFSET UNITYSDK_OFFSET(0xBD55470)
+#define RPG_CLIENT_INVERSEMASK__SETPOSITIONBYRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xBD54C60)
+#define RPG_CLIENT_INVERSEMASK___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0xBD56E00)
+#define RPG_CLIENT_INVERSEMASK___IFIXBASEPROXY_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xBD56DE0)
+#define RPG_CLIENT_INVERSEMASK___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBD56E20)
+#define RPG_CLIENT_INVERSEMASK___IFIXBASEPROXY_START_OFFSET UNITYSDK_OFFSET(0xBD56E10)
+#define RPG_CLIENT_INVERSEMASK___IFIXBASEPROXY_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xBD56DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InverseMask_TypeDefinitionIndex = 66849;
+	inline static constexpr unsigned int InverseMask_TypeDefinitionIndex = 67789;
 
 	class InverseMask : public ::UnityEngine::UI::Graphic
 	{
 	public:
 		static ::UnityEngine::Material** StaticGet_m_MatAsset()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(InverseMask_TypeDefinitionIndex)->GetStaticField(0x25240);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(InverseMask_TypeDefinitionIndex)->GetStaticField(0x45670);
 		}
 		static ::System::Int32* StaticGet_m_Count()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InverseMask_TypeDefinitionIndex)->GetStaticField(0x9BE0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InverseMask_TypeDefinitionIndex)->GetStaticField(0xC770);
 		}
 		// static const ::System::Int32 _MAX_COUNT = 0xA; // 0x0
 		::Il2CppArray<::UnityEngine::Vector3>* m_CornersArray; // 0xA0
@@ -71,39 +71,39 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 AddTrans(::UnityEngine::RectTransform* rectTrans, ::System::UInt32 mode, ::System::Single scale, ::UnityEngine::Vector2 offset)
+		::System::Int32 AddTrans(::UnityEngine::RectTransform* a1, ::System::UInt32 a2, ::System::Single a3, ::UnityEngine::Vector2 a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::RectTransform*, ::System::UInt32, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_ADDTRANS_OFFSET))(this, rectTrans, mode, scale, offset);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::RectTransform*, ::System::UInt32, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_ADDTRANS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean UpdateTrans(::System::Int32 index, ::UnityEngine::RectTransform* rectTrans, ::System::Single scale, ::UnityEngine::Vector2 offset)
+		::System::Boolean UpdateTrans(::System::Int32 a1, ::UnityEngine::RectTransform* a2, ::System::Single a3, ::UnityEngine::Vector2 a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::RectTransform*, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_UPDATETRANS_OFFSET))(this, index, rectTrans, scale, offset);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::RectTransform*, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_UPDATETRANS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 AddMaskRegion(::UnityEngine::Bounds worldBounds, ::System::UInt32 mode, ::System::Single scale, ::UnityEngine::Vector2 offset, ::UnityEngine::Camera* camera)
+		::System::Int32 AddMaskRegion(::UnityEngine::Bounds a1, ::System::UInt32 a2, ::System::Single a3, ::UnityEngine::Vector2 a4, ::UnityEngine::Camera* a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Bounds, ::System::UInt32, ::System::Single, ::UnityEngine::Vector2, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_ADDMASKREGION_OFFSET))(this, worldBounds, mode, scale, offset, camera);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Bounds, ::System::UInt32, ::System::Single, ::UnityEngine::Vector2, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_ADDMASKREGION_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean UpdateMaskRegion(::System::Int32 index, ::UnityEngine::Bounds worldBounds, ::System::Single scale, ::UnityEngine::Vector2 offset, ::UnityEngine::Camera* camera)
+		::System::Boolean UpdateMaskRegion(::System::Int32 a1, ::UnityEngine::Bounds a2, ::System::Single a3, ::UnityEngine::Vector2 a4, ::UnityEngine::Camera* a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::Bounds, ::System::Single, ::UnityEngine::Vector2, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_UPDATEMASKREGION_OFFSET))(this, index, worldBounds, scale, offset, camera);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::Bounds, ::System::Single, ::UnityEngine::Vector2, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_UPDATEMASKREGION_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 AddMaskRect(::UnityEngine::Rect ssRect, ::System::UInt32 mode, ::System::Single scale)
+		::System::Int32 AddMaskRect(::UnityEngine::Rect a1, ::System::UInt32 a2, ::System::Single a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Rect, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_ADDMASKRECT_OFFSET))(this, ssRect, mode, scale);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Rect, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_ADDMASKRECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean UpdateMaskRect(::System::Int32 index, ::UnityEngine::Rect ssRect, ::System::Single scale)
+		::System::Boolean UpdateMaskRect(::System::Int32 a1, ::UnityEngine::Rect a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::Rect, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_UPDATEMASKRECT_OFFSET))(this, index, ssRect, scale);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::Rect, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_UPDATEMASKRECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UpdateBlur(::System::Single blur)
+		::System::Void UpdateBlur(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_UPDATEBLUR_OFFSET))(this, blur);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_UPDATEBLUR_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -141,19 +141,19 @@ namespace RPG::Client
 			return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK_GET_UICAM_OFFSET))(this);
 		}
 
-		::System::Void _SetPositionByRectTransform(::System::Int32 index)
+		::System::Void _SetPositionByRectTransform(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK__SETPOSITIONBYRECTTRANSFORM_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK__SETPOSITIONBYRECTTRANSFORM_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetPositionByBounds(::System::Int32 index, ::UnityEngine::Bounds bounds, ::System::Single scale, ::UnityEngine::Vector2 offset, ::UnityEngine::Camera* camera)
+		::System::Void _SetPositionByBounds(::System::Int32 a1, ::UnityEngine::Bounds a2, ::System::Single a3, ::UnityEngine::Vector2 a4, ::UnityEngine::Camera* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Bounds, ::System::Single, ::UnityEngine::Vector2, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK__SETPOSITIONBYBOUNDS_OFFSET))(this, index, bounds, scale, offset, camera);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Bounds, ::System::Single, ::UnityEngine::Vector2, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK__SETPOSITIONBYBOUNDS_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::UnityEngine::Vector4 _ScaleVector(::UnityEngine::Vector4 v, ::System::Single scale)
+		::UnityEngine::Vector4 _ScaleVector(::UnityEngine::Vector4 a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::Vector4, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK__SCALEVECTOR_OFFSET))(this, v, scale);
+			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::Vector4, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVERSEMASK__SCALEVECTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Material* __iFixBaseProxy_get_materialForRendering()

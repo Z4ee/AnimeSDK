@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MONO_NET_CFRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x22D3230)
+#define MONO_NET_CFRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x386E140)
 
 namespace Mono::Net
 {
@@ -13,9 +13,9 @@ namespace Mono::Net
 		::System::IntPtr Location; // 0x10
 		::System::IntPtr Length; // 0x18
 
-		::System::Void _ctor(::System::Int32 loc, ::System::Int32 len)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_CFRANGE__CTOR_OFFSET))(this, loc, len);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_CFRANGE__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUECHESTMODIFIEREVENT_METHOD_2_345CA33702013629_OFFSET UNITYSDK_OFFSET(0x18CF4B80)
-#define RPG_GAMECORE_ROGUECHESTMODIFIEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF4E10)
+#define RPG_GAMECORE_ROGUECHESTMODIFIEREVENT_METHOD_2_D7ECDBEF29483FAE_OFFSET UNITYSDK_OFFSET(0x19B19EE0)
+#define RPG_GAMECORE_ROGUECHESTMODIFIEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1A160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueChestModifierEvent_TypeDefinitionIndex = 17006;
+	inline static constexpr unsigned int RogueChestModifierEvent_TypeDefinitionIndex = 17020;
 
 	class RogueChestModifierEvent : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECHESTMODIFIEREVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_345CA33702013629(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueChestModifierEvent*& a2)
+		static ::System::Void Method_2_D7ECDBEF29483FAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueChestModifierEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueChestModifierEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECHESTMODIFIEREVENT_METHOD_2_345CA33702013629_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueChestModifierEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECHESTMODIFIEREVENT_METHOD_2_D7ECDBEF29483FAE_OFFSET))(a1, a2);
 		}
 	};
 }

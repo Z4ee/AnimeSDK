@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ROGUEGAMBLEFUNCSHOWUI_METHOD_3_19FABD9F58C64E36_OFFSET UNITYSDK_OFFSET(0x18D17A00)
-#define RPG_GAMECORE_ROGUEGAMBLEFUNCSHOWUI_METHOD_3_36E21D30F9FD5883_OFFSET UNITYSDK_OFFSET(0x18D17980)
-#define RPG_GAMECORE_ROGUEGAMBLEFUNCSHOWUI__CTOR_OFFSET UNITYSDK_OFFSET(0x18D179D0)
+#define RPG_GAMECORE_ROGUEGAMBLEFUNCSHOWUI_METHOD_3_7F77A672A6490015_OFFSET UNITYSDK_OFFSET(0x19B3C380)
+#define RPG_GAMECORE_ROGUEGAMBLEFUNCSHOWUI_METHOD_3_BECDF456A3AB6732_OFFSET UNITYSDK_OFFSET(0x19B3C300)
+#define RPG_GAMECORE_ROGUEGAMBLEFUNCSHOWUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19B3C350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueGambleFuncShowUI_TypeDefinitionIndex = 20966;
+	inline static constexpr unsigned int RogueGambleFuncShowUI_TypeDefinitionIndex = 20879;
 
 	class RogueGambleFuncShowUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEGAMBLEFUNCSHOWUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_36E21D30F9FD5883(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueGambleFuncShowUI*& a2)
+		static ::System::Void Method_3_BECDF456A3AB6732(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueGambleFuncShowUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueGambleFuncShowUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEGAMBLEFUNCSHOWUI_METHOD_3_36E21D30F9FD5883_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueGambleFuncShowUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEGAMBLEFUNCSHOWUI_METHOD_3_BECDF456A3AB6732_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_19FABD9F58C64E36(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueGambleFuncShowUI* a2)
+		static ::System::Void Method_3_7F77A672A6490015(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueGambleFuncShowUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueGambleFuncShowUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEGAMBLEFUNCSHOWUI_METHOD_3_19FABD9F58C64E36_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueGambleFuncShowUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEGAMBLEFUNCSHOWUI_METHOD_3_7F77A672A6490015_OFFSET))(a1, a2);
 		}
 	};
 }

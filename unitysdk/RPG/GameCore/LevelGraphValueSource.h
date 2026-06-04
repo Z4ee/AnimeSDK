@@ -14,30 +14,30 @@ namespace RPG::GameCore { class SharedUint; }
 namespace RPG::GameCore { class SharedValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDORREPLACESHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x18A43500)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDFLOAT_OFFSET UNITYSDK_OFFSET(0x18A43570)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDINT_OFFSET UNITYSDK_OFFSET(0x18A435C0)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDJSONCONFIGLIST_OFFSET UNITYSDK_OFFSET(0x18A43700)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDJSONCONFIG_OFFSET UNITYSDK_OFFSET(0x18A436B0)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDSTRINGLIST_OFFSET UNITYSDK_OFFSET(0x18A43660)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDSTRING_OFFSET UNITYSDK_OFFSET(0x18A43610)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDUINT_OFFSET UNITYSDK_OFFSET(0x18A43750)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x18A43A90)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A40B70)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_GET_SHAREDVALUES_OFFSET UNITYSDK_OFFSET(0x18A43430)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ISKEYEXISTS_OFFSET UNITYSDK_OFFSET(0x18A43550)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_OVERRIDESHAREDVALUEWITHSOURCE_OFFSET UNITYSDK_OFFSET(0x18A43450)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_REMOVESHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x18A437A0)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_REPLACESHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x18A43B60)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_SET_SHAREDVALUES_OFFSET UNITYSDK_OFFSET(0x18A43440)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYADDVALUE_OFFSET UNITYSDK_OFFSET(0x18A43240)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYGETSHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x18A43970)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYREMOVEVALUE_OFFSET UNITYSDK_OFFSET(0x18A433F0)
-#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A43230)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDORREPLACESHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x198754A0)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDFLOAT_OFFSET UNITYSDK_OFFSET(0x19875510)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDINT_OFFSET UNITYSDK_OFFSET(0x19875560)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDJSONCONFIGLIST_OFFSET UNITYSDK_OFFSET(0x198756A0)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDJSONCONFIG_OFFSET UNITYSDK_OFFSET(0x19875650)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDSTRINGLIST_OFFSET UNITYSDK_OFFSET(0x19875600)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDSTRING_OFFSET UNITYSDK_OFFSET(0x198755B0)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDUINT_OFFSET UNITYSDK_OFFSET(0x198756F0)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x19875A00)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19872700)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_GET_SHAREDVALUES_OFFSET UNITYSDK_OFFSET(0x198753E0)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ISKEYEXISTS_OFFSET UNITYSDK_OFFSET(0x198754F0)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_OVERRIDESHAREDVALUEWITHSOURCE_OFFSET UNITYSDK_OFFSET(0x19875400)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_REMOVESHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x19875740)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_REPLACESHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x19875AC0)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_SET_SHAREDVALUES_OFFSET UNITYSDK_OFFSET(0x198753F0)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYADDVALUE_OFFSET UNITYSDK_OFFSET(0x198751F0)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYGETSHAREDVALUE_OFFSET UNITYSDK_OFFSET(0x198758F0)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYREMOVEVALUE_OFFSET UNITYSDK_OFFSET(0x198753A0)
+#define RPG_GAMECORE_LEVELGRAPHVALUESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x198751E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGraphValueSource_TypeDefinitionIndex = 17401;
+	inline static constexpr unsigned int LevelGraphValueSource_TypeDefinitionIndex = 17406;
 
 	class LevelGraphValueSource : public ::RPG::GameCore::JsonConfig
 	{
@@ -49,9 +49,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelGraphValueSource*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGraphValueSource*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGraphValueSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGraphValueSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_FROMBINARY_OFFSET))(a1, a2);
 		}
 
 		::Il2CppArray<::RPG::GameCore::SharedValue*>* get_SharedValues()
@@ -59,89 +59,89 @@ namespace RPG::GameCore
 			return ((::Il2CppArray<::RPG::GameCore::SharedValue*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_GET_SHAREDVALUES_OFFSET))(this);
 		}
 
-		::System::Void set_SharedValues(::Il2CppArray<::RPG::GameCore::SharedValue*>* value)
+		::System::Void set_SharedValues(::Il2CppArray<::RPG::GameCore::SharedValue*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::SharedValue*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_SET_SHAREDVALUES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::SharedValue*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_SET_SHAREDVALUES_OFFSET))(this, a1);
 		}
 
-		::System::Void OverrideSharedValueWithSource(::RPG::GameCore::LevelGraphValueSource* source)
+		::System::Void OverrideSharedValueWithSource(::RPG::GameCore::LevelGraphValueSource* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelGraphValueSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_OVERRIDESHAREDVALUEWITHSOURCE_OFFSET))(this, source);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelGraphValueSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_OVERRIDESHAREDVALUEWITHSOURCE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryAddValue(::RPG::GameCore::SharedValueType type, ::System::String* key)
+		::System::Boolean TryAddValue(::RPG::GameCore::SharedValueType a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SharedValueType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYADDVALUE_OFFSET))(this, type, key);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::SharedValueType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYADDVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryRemoveValue(::System::String* key)
+		::System::Boolean TryRemoveValue(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYREMOVEVALUE_OFFSET))(this, key);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYREMOVEVALUE_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::SharedValue* TryGetSharedValue(::System::String* key)
+		::RPG::GameCore::SharedValue* TryGetSharedValue(::System::String* a1)
 		{
-			return ((::RPG::GameCore::SharedValue*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYGETSHAREDVALUE_OFFSET))(this, key);
+			return ((::RPG::GameCore::SharedValue*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_TRYGETSHAREDVALUE_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::SharedFloat* AddSharedFloat(::System::String* key)
+		::RPG::GameCore::SharedFloat* AddSharedFloat(::System::String* a1)
 		{
-			return ((::RPG::GameCore::SharedFloat*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDFLOAT_OFFSET))(this, key);
+			return ((::RPG::GameCore::SharedFloat*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDFLOAT_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::SharedInt* AddSharedInt(::System::String* key)
+		::RPG::GameCore::SharedInt* AddSharedInt(::System::String* a1)
 		{
-			return ((::RPG::GameCore::SharedInt*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDINT_OFFSET))(this, key);
+			return ((::RPG::GameCore::SharedInt*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDINT_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::SharedString* AddSharedString(::System::String* key)
+		::RPG::GameCore::SharedString* AddSharedString(::System::String* a1)
 		{
-			return ((::RPG::GameCore::SharedString*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDSTRING_OFFSET))(this, key);
+			return ((::RPG::GameCore::SharedString*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDSTRING_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::SharedStringList* AddSharedStringList(::System::String* key)
+		::RPG::GameCore::SharedStringList* AddSharedStringList(::System::String* a1)
 		{
-			return ((::RPG::GameCore::SharedStringList*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDSTRINGLIST_OFFSET))(this, key);
+			return ((::RPG::GameCore::SharedStringList*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDSTRINGLIST_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::SharedJsonConfig* AddSharedJsonConfig(::System::String* key)
+		::RPG::GameCore::SharedJsonConfig* AddSharedJsonConfig(::System::String* a1)
 		{
-			return ((::RPG::GameCore::SharedJsonConfig*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDJSONCONFIG_OFFSET))(this, key);
+			return ((::RPG::GameCore::SharedJsonConfig*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDJSONCONFIG_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::SharedJsonConfigList* AddSharedJsonConfigList(::System::String* key)
+		::RPG::GameCore::SharedJsonConfigList* AddSharedJsonConfigList(::System::String* a1)
 		{
-			return ((::RPG::GameCore::SharedJsonConfigList*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDJSONCONFIGLIST_OFFSET))(this, key);
+			return ((::RPG::GameCore::SharedJsonConfigList*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDJSONCONFIGLIST_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::SharedUint* AddSharedUint(::System::String* key)
+		::RPG::GameCore::SharedUint* AddSharedUint(::System::String* a1)
 		{
-			return ((::RPG::GameCore::SharedUint*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDUINT_OFFSET))(this, key);
+			return ((::RPG::GameCore::SharedUint*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDUINT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsKeyExists(::System::String* key)
+		::System::Boolean IsKeyExists(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ISKEYEXISTS_OFFSET))(this, key);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ISKEYEXISTS_OFFSET))(this, a1);
 		}
 
-		::System::Void AddOrReplaceSharedValue(::RPG::GameCore::SharedValue* value)
+		::System::Void AddOrReplaceSharedValue(::RPG::GameCore::SharedValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SharedValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDORREPLACESHAREDVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SharedValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDORREPLACESHAREDVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void ReplaceSharedValue(::RPG::GameCore::SharedValue* value)
+		::System::Void ReplaceSharedValue(::RPG::GameCore::SharedValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SharedValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_REPLACESHAREDVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SharedValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_REPLACESHAREDVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddSharedValue(::RPG::GameCore::SharedValue* value)
+		::System::Void AddSharedValue(::RPG::GameCore::SharedValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SharedValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SharedValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_ADDSHAREDVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveSharedValue(::System::String* key)
+		::System::Void RemoveSharedValue(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_REMOVESHAREDVALUE_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPHVALUESOURCE_REMOVESHAREDVALUE_OFFSET))(this, a1);
 		}
 	};
 }

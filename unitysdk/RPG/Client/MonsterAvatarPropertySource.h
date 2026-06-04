@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterAvatarPropertySource_TypeDefinitionIndex = 57396;
+	inline static constexpr unsigned int MonsterAvatarPropertySource_TypeDefinitionIndex = 58208;
 
 	enum class MonsterAvatarPropertySource : ::System::Int32
 	{

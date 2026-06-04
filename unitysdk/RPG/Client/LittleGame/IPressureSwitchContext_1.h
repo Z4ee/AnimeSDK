@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IPressureSwitchContext_1_TypeDefinitionIndex = 38245;
+	inline static constexpr unsigned int IPressureSwitchContext_1_TypeDefinitionIndex = 39002;
 
 	template <typename TEntity>
 	class IPressureSwitchContext_1

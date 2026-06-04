@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::Client::Prop { class WolfBroPuzzleBoard; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitWolfBroPuzzleStartup; }
 
-#define CLASS_2_B74EA541A1858FE3_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA7BC780)
-#define CLASS_2_B74EA541A1858FE3_METHOD_2_C081D0F1BA12AC56_OFFSET UNITYSDK_OFFSET(0xA7BCB40)
-#define CLASS_2_B74EA541A1858FE3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA7BC460)
-#define CLASS_2_B74EA541A1858FE3_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA7BC630)
-#define CLASS_2_B74EA541A1858FE3_TICK_OFFSET UNITYSDK_OFFSET(0xA7BC880)
-#define CLASS_2_B74EA541A1858FE3__CTOR_OFFSET UNITYSDK_OFFSET(0xA7BC380)
+#define CLASS_2_B74EA541A1858FE3_DISPOSE_OFFSET UNITYSDK_OFFSET(0x144F8EE0)
+#define CLASS_2_B74EA541A1858FE3_METHOD_2_C081D0F1BA12AC56_OFFSET UNITYSDK_OFFSET(0x144F9320)
+#define CLASS_2_B74EA541A1858FE3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x144F8B50)
+#define CLASS_2_B74EA541A1858FE3_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x144F8D40)
+#define CLASS_2_B74EA541A1858FE3_TICK_OFFSET UNITYSDK_OFFSET(0x144F8FF0)
+#define CLASS_2_B74EA541A1858FE3__CTOR_OFFSET UNITYSDK_OFFSET(0x144F8A20)
 
-inline static constexpr unsigned int Class_2_B74EA541A1858FE3_TypeDefinitionIndex = 54353;
+inline static constexpr unsigned int Class_2_B74EA541A1858FE3_TypeDefinitionIndex = 55080;
 
 class Class_2_B74EA541A1858FE3 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x18
-	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x20
-	::RPG::Client::Prop::WolfBroPuzzleBoard* Field_2_4; // 0x28
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x30
-	::RPG::GameCore::WaitWolfBroPuzzleStartup* Field_2_1; // 0x38
+	::Class_3_07C3C4D2990C49EE* Field_2_0; // 0x18
+	::RPG::Client::Prop::WolfBroPuzzleBoard* Field_2_1; // 0x20
+	::Class_3_07C3C4D2990C49EE* Field_2_2; // 0x28
+	::RPG::GameCore::WaitWolfBroPuzzleStartup* Field_2_3; // 0x30
+	::RPG::GameCore::TaskContext* Field_2_4; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitWolfBroPuzzleStartup* a2)
 	{

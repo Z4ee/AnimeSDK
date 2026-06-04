@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/ValuePostProcessConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_VP_INVERT_METHOD_3_80255ECECD0A9FC7_OFFSET UNITYSDK_OFFSET(0x190F07C0)
-#define RPG_GAMECORE_VP_INVERT_METHOD_3_E1A8E2A685C74E56_OFFSET UNITYSDK_OFFSET(0x190F0740)
-#define RPG_GAMECORE_VP_INVERT__CTOR_OFFSET UNITYSDK_OFFSET(0x190F07B0)
+#define RPG_GAMECORE_VP_INVERT_METHOD_3_6970F6AB54966964_OFFSET UNITYSDK_OFFSET(0x19E47850)
+#define RPG_GAMECORE_VP_INVERT_METHOD_3_80255ECECD0A9FC7_OFFSET UNITYSDK_OFFSET(0x19E477F0)
+#define RPG_GAMECORE_VP_INVERT_METHOD_3_9C348CBA0CA77D51_OFFSET UNITYSDK_OFFSET(0x19E47870)
+#define RPG_GAMECORE_VP_INVERT_METHOD_3_E1A8E2A685C74E56_OFFSET UNITYSDK_OFFSET(0x19E47770)
+#define RPG_GAMECORE_VP_INVERT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E477E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VP_Invert_TypeDefinitionIndex = 23044;
+	inline static constexpr unsigned int VP_Invert_TypeDefinitionIndex = 22732;
 
 	class VP_Invert : public ::RPG::GameCore::ValuePostProcessConfig
 	{
@@ -28,6 +31,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_80255ECECD0A9FC7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VP_Invert* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VP_Invert*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_INVERT_METHOD_3_80255ECECD0A9FC7_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_6970F6AB54966964(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Invert*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Invert*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_INVERT_METHOD_3_6970F6AB54966964_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_9C348CBA0CA77D51(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Invert* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Invert*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_INVERT_METHOD_3_9C348CBA0CA77D51_OFFSET))(a1, a2);
 		}
 	};
 }

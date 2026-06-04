@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/RPG/Client/TextID.h"
 
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+class Class_0_16E4307DCC419505_643;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_644_TypeDefinitionIndex = 57501;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_644_TypeDefinitionIndex = 57674;
 
 class Class_0_16E4307DCC419505_644
 {

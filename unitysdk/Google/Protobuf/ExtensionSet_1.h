@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ExtensionSet_1_TypeDefinitionIndex = 6172;
+	inline static constexpr unsigned int ExtensionSet_1_TypeDefinitionIndex = 5374;
 
 	template <typename TTarget>
 	class ExtensionSet_1 : public ::System::Object

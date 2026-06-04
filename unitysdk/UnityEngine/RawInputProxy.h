@@ -4,17 +4,17 @@
 #include "unitysdk/UnityEngine/Touch.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTONDOWN_OFFSET UNITYSDK_OFFSET(0x1A535940)
-#define UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTONUP_OFFSET UNITYSDK_OFFSET(0x1A535AB0)
-#define UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1A5357D0)
-#define UNITYENGINE_RAWINPUTPROXY_GETTOUCH_OFFSET UNITYSDK_OFFSET(0x1A5355C0)
-#define UNITYENGINE_RAWINPUTPROXY_GET_MOUSEPOSITION_OFFSET UNITYSDK_OFFSET(0x1A535C70)
-#define UNITYENGINE_RAWINPUTPROXY_GET_TOUCHCOUNT_OFFSET UNITYSDK_OFFSET(0x1A535580)
-#define UNITYENGINE_RAWINPUTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A535CE0)
+#define UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTONDOWN_OFFSET UNITYSDK_OFFSET(0x1B381320)
+#define UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTONUP_OFFSET UNITYSDK_OFFSET(0x1B381490)
+#define UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1B3811B0)
+#define UNITYENGINE_RAWINPUTPROXY_GETTOUCH_OFFSET UNITYSDK_OFFSET(0x1B380FA0)
+#define UNITYENGINE_RAWINPUTPROXY_GET_MOUSEPOSITION_OFFSET UNITYSDK_OFFSET(0x1B381660)
+#define UNITYENGINE_RAWINPUTPROXY_GET_TOUCHCOUNT_OFFSET UNITYSDK_OFFSET(0x1B380F60)
+#define UNITYENGINE_RAWINPUTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3816D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RawInputProxy_TypeDefinitionIndex = 5567;
+	inline static constexpr unsigned int RawInputProxy_TypeDefinitionIndex = 5844;
 
 	class RawInputProxy : public ::System::Object
 	{
@@ -29,24 +29,24 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RAWINPUTPROXY_GET_TOUCHCOUNT_OFFSET))(this);
 		}
 
-		::UnityEngine::Touch GetTouch(::System::Int32 index)
+		::UnityEngine::Touch GetTouch(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Touch(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RAWINPUTPROXY_GETTOUCH_OFFSET))(this, index);
+			return ((::UnityEngine::Touch(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RAWINPUTPROXY_GETTOUCH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetMouseButton(::System::Int32 index)
+		::System::Boolean GetMouseButton(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTON_OFFSET))(this, index);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTON_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetMouseButtonDown(::System::Int32 index)
+		::System::Boolean GetMouseButtonDown(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTONDOWN_OFFSET))(this, index);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTONDOWN_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetMouseButtonUp(::System::Int32 index)
+		::System::Boolean GetMouseButtonUp(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTONUP_OFFSET))(this, index);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RAWINPUTPROXY_GETMOUSEBUTTONUP_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_mousePosition()

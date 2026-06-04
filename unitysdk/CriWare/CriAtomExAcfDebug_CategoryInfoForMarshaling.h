@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXACFDEBUG_CATEGORYINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x1624B50)
+#define CRIWARE_CRIATOMEXACFDEBUG_CATEGORYINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2BD4CB0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_CategoryInfoForMarshaling_TypeDefinitionIndex = 36923;
+	inline static constexpr unsigned int CriAtomExAcfDebug_CategoryInfoForMarshaling_TypeDefinitionIndex = 37223;
 
 	struct alignas(8) CriAtomExAcfDebug_CategoryInfoForMarshaling
 	{
@@ -17,9 +17,9 @@ namespace CriWare
 		::System::Single volume; // 0x24
 
 		/*
-		::System::Void Convert(::CriWare::CriAtomExAcfDebug_CategoryInfo& x)
+		::System::Void Convert(::CriWare::CriAtomExAcfDebug_CategoryInfo& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExAcfDebug_CategoryInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACFDEBUG_CATEGORYINFOFORMARSHALING_CONVERT_OFFSET))(this, x);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExAcfDebug_CategoryInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACFDEBUG_CATEGORYINFOFORMARSHALING_CONVERT_OFFSET))(this, a1);
 		}
 		*/
 	};

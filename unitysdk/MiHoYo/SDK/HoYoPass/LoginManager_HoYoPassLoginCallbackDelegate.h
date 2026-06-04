@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x175536A0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17553710)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17545C20)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17553680)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1833AF00)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1833AF70)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1832D500)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1833AE90)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager_HoYoPassLoginCallbackDelegate_TypeDefinitionIndex = 7338;
+	inline static constexpr unsigned int LoginManager_HoYoPassLoginCallbackDelegate_TypeDefinitionIndex = 8241;
 
 	class LoginManager_HoYoPassLoginCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Int32 retcode, ::System::String* message, ::MiHoYo::SDK::AccountModel* accountModel)
+		::System::Void Invoke(::System::Int32 a1, ::System::String* a2, ::MiHoYo::SDK::AccountModel* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::MiHoYo::SDK::AccountModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_INVOKE_OFFSET))(this, retcode, message, accountModel);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::MiHoYo::SDK::AccountModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 retcode, ::System::String* message, ::MiHoYo::SDK::AccountModel* accountModel, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::System::String* a2, ::MiHoYo::SDK::AccountModel* a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::String*, ::MiHoYo::SDK::AccountModel*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_BEGININVOKE_OFFSET))(this, retcode, message, accountModel, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::String*, ::MiHoYo::SDK::AccountModel*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

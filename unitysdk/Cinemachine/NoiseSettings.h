@@ -5,14 +5,14 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CINEMACHINE_NOISESETTINGS_GETCOMBINEDFILTERRESULTS_OFFSET UNITYSDK_OFFSET(0x12BA70A0)
-#define CINEMACHINE_NOISESETTINGS_GETSIGNAL_OFFSET UNITYSDK_OFFSET(0x12BA7450)
-#define CINEMACHINE_NOISESETTINGS_GET_SIGNALDURATION_OFFSET UNITYSDK_OFFSET(0x12BA7440)
-#define CINEMACHINE_NOISESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x12BA7540)
+#define CINEMACHINE_NOISESETTINGS_GETCOMBINEDFILTERRESULTS_OFFSET UNITYSDK_OFFSET(0x14664190)
+#define CINEMACHINE_NOISESETTINGS_GETSIGNAL_OFFSET UNITYSDK_OFFSET(0x14664540)
+#define CINEMACHINE_NOISESETTINGS_GET_SIGNALDURATION_OFFSET UNITYSDK_OFFSET(0x14664530)
+#define CINEMACHINE_NOISESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x14664630)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int NoiseSettings_TypeDefinitionIndex = 36602;
+	inline static constexpr unsigned int NoiseSettings_TypeDefinitionIndex = 36902;
 
 	class NoiseSettings : public ::Cinemachine::SignalSourceAsset
 	{
@@ -25,9 +25,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_NOISESETTINGS__CTOR_OFFSET))(this);
 		}
 
-		static ::UnityEngine::Vector3 GetCombinedFilterResults(::Il2CppArray<::Cinemachine::NoiseSettings_TransformNoiseParams>* noiseParams, ::System::Single time, ::UnityEngine::Vector3 timeOffsets)
+		static ::UnityEngine::Vector3 GetCombinedFilterResults(::Il2CppArray<::Cinemachine::NoiseSettings_TransformNoiseParams>* a1, ::System::Single a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::Il2CppArray<::Cinemachine::NoiseSettings_TransformNoiseParams>*, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_NOISESETTINGS_GETCOMBINEDFILTERRESULTS_OFFSET))(noiseParams, time, timeOffsets);
+			return ((::UnityEngine::Vector3(*)(::Il2CppArray<::Cinemachine::NoiseSettings_TransformNoiseParams>*, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_NOISESETTINGS_GETCOMBINEDFILTERRESULTS_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Single get_SignalDuration()
@@ -35,9 +35,9 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_NOISESETTINGS_GET_SIGNALDURATION_OFFSET))(this);
 		}
 
-		::System::Void GetSignal(::System::Single timeSinceSignalStart, ::UnityEngine::Vector3& pos, ::UnityEngine::Quaternion& rot)
+		::System::Void GetSignal(::System::Single a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Quaternion& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + CINEMACHINE_NOISESETTINGS_GETSIGNAL_OFFSET))(this, timeSinceSignalStart, pos, rot);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + CINEMACHINE_NOISESETTINGS_GETSIGNAL_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

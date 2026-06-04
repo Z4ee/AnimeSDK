@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_GET_ARMYNUMBER_OFFSET UNITYSDK_OFFSET(0xA67BBC0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_GET_ISALLY_OFFSET UNITYSDK_OFFSET(0xA67BBA0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_GET_MAXARMYNUMBER_OFFSET UNITYSDK_OFFSET(0xA67BBE0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_ARMYNUMBER_OFFSET UNITYSDK_OFFSET(0xA67BBD0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_ISALLY_OFFSET UNITYSDK_OFFSET(0xA67BBB0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_MAXARMYNUMBER_OFFSET UNITYSDK_OFFSET(0xA67BBF0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA67BB90)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_GET_ARMYNUMBER_OFFSET UNITYSDK_OFFSET(0xBDC6210)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_GET_ISALLY_OFFSET UNITYSDK_OFFSET(0xBDC61F0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_GET_MAXARMYNUMBER_OFFSET UNITYSDK_OFFSET(0xBDC6230)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_ARMYNUMBER_OFFSET UNITYSDK_OFFSET(0xBDC6220)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_ISALLY_OFFSET UNITYSDK_OFFSET(0xBDC6200)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_MAXARMYNUMBER_OFFSET UNITYSDK_OFFSET(0xBDC6240)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC61E0)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ArmyNumberChangeData_TypeDefinitionIndex = 71321;
+	inline static constexpr unsigned int ArmyNumberChangeData_TypeDefinitionIndex = 72343;
 
 	class ArmyNumberChangeData : public ::System::Object
 	{
 	public:
-		::System::Boolean _IsAlly_k__BackingField; // 0x10
-		::System::Int32 _ArmyNumber_k__BackingField; // 0x14
-		::System::Int32 _MaxArmyNumber_k__BackingField; // 0x18
+		::System::Int32 _ArmyNumber_k__BackingField; // 0x10
+		::System::Int32 _MaxArmyNumber_k__BackingField; // 0x14
+		::System::Boolean _IsAlly_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::Boolean isAlly, ::System::Int32 armyNumber, ::System::Int32 maxArmyNumber)
+		::System::Void _ctor(::System::Boolean a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA__CTOR_OFFSET))(this, isAlly, armyNumber, maxArmyNumber);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_IsAlly()
@@ -31,9 +31,9 @@ namespace RPG::Client::LittleGame::ChenLing
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_GET_ISALLY_OFFSET))(this);
 		}
 
-		::System::Void set_IsAlly(::System::Boolean value)
+		::System::Void set_IsAlly(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_ISALLY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_ISALLY_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ArmyNumber()
@@ -41,9 +41,9 @@ namespace RPG::Client::LittleGame::ChenLing
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_GET_ARMYNUMBER_OFFSET))(this);
 		}
 
-		::System::Void set_ArmyNumber(::System::Int32 value)
+		::System::Void set_ArmyNumber(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_ARMYNUMBER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_ARMYNUMBER_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_MaxArmyNumber()
@@ -51,9 +51,9 @@ namespace RPG::Client::LittleGame::ChenLing
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_GET_MAXARMYNUMBER_OFFSET))(this);
 		}
 
-		::System::Void set_MaxArmyNumber(::System::Int32 value)
+		::System::Void set_MaxArmyNumber(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_MAXARMYNUMBER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_ARMYNUMBERCHANGEDATA_SET_MAXARMYNUMBER_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetFloatingTextInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B87E3305DE19C93C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAA47880)
-#define CLASS_3_B87E3305DE19C93C__CTOR_OFFSET UNITYSDK_OFFSET(0xAA47850)
+#define CLASS_3_B87E3305DE19C93C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA699B20)
+#define CLASS_3_B87E3305DE19C93C__CTOR_OFFSET UNITYSDK_OFFSET(0xA699AF0)
 
-inline static constexpr unsigned int Class_3_B87E3305DE19C93C_TypeDefinitionIndex = 53971;
+inline static constexpr unsigned int Class_3_B87E3305DE19C93C_TypeDefinitionIndex = 54696;
 
 class Class_3_B87E3305DE19C93C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetFloatingTextInfo*>
 {

@@ -6,16 +6,16 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x9B3A530)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_GET_NODES_OFFSET UNITYSDK_OFFSET(0x9B3A750)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9B3A730)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_SET_NODES_OFFSET UNITYSDK_OFFSET(0x9B3A760)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x9B3A740)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x9B39890)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xB120D50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_GET_NODES_OFFSET UNITYSDK_OFFSET(0xB120F50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB120F30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_SET_NODES_OFFSET UNITYSDK_OFFSET(0xB120F60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xB120F40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW__CTOR_OFFSET UNITYSDK_OFFSET(0xB120050)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTechTreeRow_TypeDefinitionIndex = 69459;
+	inline static constexpr unsigned int IdleLiveBaseTechTreeRow_TypeDefinitionIndex = 70271;
 
 	class IdleLiveBaseTechTreeRow : public ::System::Object
 	{
@@ -38,9 +38,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRowType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRowType value)
+		::System::Void set_Type(::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRowType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRowType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRowType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_SET_TYPE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>* get_Nodes()
@@ -48,9 +48,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_GET_NODES_OFFSET))(this);
 		}
 
-		::System::Void set_Nodes(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>* value)
+		::System::Void set_Nodes(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_SET_NODES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREEROW_SET_NODES_OFFSET))(this, a1);
 		}
 	};
 }

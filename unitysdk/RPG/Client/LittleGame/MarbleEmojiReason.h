@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MarbleEmojiReason_TypeDefinitionIndex = 38444;
+	inline static constexpr unsigned int MarbleEmojiReason_TypeDefinitionIndex = 39211;
 
 	enum class MarbleEmojiReason : ::System::Int32
 	{

@@ -6,11 +6,11 @@
 
 namespace UnityEngine::TextCore { class Glyph; }
 
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHMARSHALLINGSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x22F9DA0)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHMARSHALLINGSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x3899470)
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int GlyphMarshallingStruct_TypeDefinitionIndex = 5552;
+	inline static constexpr unsigned int GlyphMarshallingStruct_TypeDefinitionIndex = 5829;
 
 	struct alignas(4) GlyphMarshallingStruct
 	{
@@ -20,9 +20,9 @@ namespace UnityEngine::TextCore::LowLevel
 		::System::Single scale; // 0x38
 		::System::Int32 atlasIndex; // 0x3C
 
-		::System::Void _ctor(::UnityEngine::TextCore::Glyph* glyph)
+		::System::Void _ctor(::UnityEngine::TextCore::Glyph* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHMARSHALLINGSTRUCT__CTOR_OFFSET))(this, glyph);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHMARSHALLINGSTRUCT__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

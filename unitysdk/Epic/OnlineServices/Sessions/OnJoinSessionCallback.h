@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8BCA880)
-#define EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8BCA8B0)
-#define EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8BCA330)
-#define EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8BCA310)
+#define EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA0E0BD0)
+#define EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA0E0C00)
+#define EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA0E0BC0)
+#define EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA0E0AD0)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int OnJoinSessionCallback_TypeDefinitionIndex = 41285;
+	inline static constexpr unsigned int OnJoinSessionCallback_TypeDefinitionIndex = 42088;
 
 	class OnJoinSessionCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::Sessions::JoinSessionCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::Sessions::JoinSessionCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::JoinSessionCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::JoinSessionCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Sessions::JoinSessionCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Sessions::JoinSessionCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Sessions::JoinSessionCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Sessions::JoinSessionCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ONJOINSESSIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

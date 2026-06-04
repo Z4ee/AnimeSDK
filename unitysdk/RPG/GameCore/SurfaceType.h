@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SurfaceType_TypeDefinitionIndex = 23593;
+	inline static constexpr unsigned int SurfaceType_TypeDefinitionIndex = 10395;
 
 	enum class SurfaceType : ::System::Int32
 	{
@@ -31,6 +31,8 @@ namespace RPG::GameCore
 		RainbowBridge = 21,
 		Conductor = 22,
 		Grape = 23,
-		B21_LightBridge = 24,
+		Glass = 24,
+		Finality = 25,
+		B21_LightBridge = 26,
 	};
 }

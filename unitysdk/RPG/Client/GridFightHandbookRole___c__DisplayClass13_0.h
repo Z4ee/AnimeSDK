@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4F2730)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__DISPLAYCLASS13_0__SETOTHERROLE_B__0_OFFSET UNITYSDK_OFFSET(0xA4F2740)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB98E90)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__DISPLAYCLASS13_0__SETOTHERROLE_B__0_OFFSET UNITYSDK_OFFSET(0xBB99920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightHandbookRole___c__DisplayClass13_0_TypeDefinitionIndex = 59749;
+	inline static constexpr unsigned int GridFightHandbookRole___c__DisplayClass13_0_TypeDefinitionIndex = 60684;
 
 	class GridFightHandbookRole___c__DisplayClass13_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _SetOtherRole_b__0(::RPG::Client::GridFightRole* x)
+		::System::Boolean _SetOtherRole_b__0(::RPG::Client::GridFightRole* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__DISPLAYCLASS13_0__SETOTHERROLE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHANDBOOKROLE___C__DISPLAYCLASS13_0__SETOTHERROLE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

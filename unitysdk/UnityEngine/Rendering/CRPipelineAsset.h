@@ -26,7 +26,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPipelineAsset_TypeDefinitionIndex = 4669;
+	inline static constexpr unsigned int CRPipelineAsset_TypeDefinitionIndex = 4843;
 
 	struct alignas(8) CRPipelineAsset
 	{
@@ -116,57 +116,56 @@ namespace UnityEngine::Rendering
 		::System::Int32 GrassGPUDrivenCS; // 0x1A0
 		::System::Int32 DeformationMaterial; // 0x1A4
 		::System::Int32 DeformationCS; // 0x1A8
-		::System::Int32 DeformationTessMaterial; // 0x1AC
-		::System::Int32 FluidSimulation2DCS; // 0x1B0
-		::System::Int32 AdaptiveTessellationCS; // 0x1B4
-		::System::Int32 ShadowmapCompressCS; // 0x1B8
-		::System::Int32 ShadowmapDecompressCS; // 0x1BC
-		::System::Int32 ShadowmapDecompressPS; // 0x1C0
-		::System::Int32 ShadowFilterCS; // 0x1C4
-		::System::Int32 HiZCS; // 0x1C8
-		::System::Int32 DecalMaterial; // 0x1CC
-		::System::Int32 FrameCapturePPCS; // 0x1D0
-		::System::Int32 InstancedItemCullCS; // 0x1D4
-		::System::Int32 InstancedItemCullClusterCS; // 0x1D8
-		::System::Int32 FogEmissionBakeVolumeInjectMaterial; // 0x1DC
-		::System::Int32 GlobalSDFUpdateCS; // 0x1E0
-		::System::Int32 IrradianceCacheMaterial; // 0x1E4
-		::System::Int32 SSGIMaterial; // 0x1E8
-		::System::Int32 GPUSceneCS; // 0x1EC
-		::System::Int32 GPUSceneUpdateCS; // 0x1F0
-		::System::Int32 GeometryShadowMaterial; // 0x1F4
-		::System::Int32 OcclusionQueryMaterial; // 0x1F8
-		::System::Int32 SSGICS; // 0x1FC
-		::System::Int32 GPUParticlesManagementCS; // 0x200
-		::System::Int32 BatchAnimationCS; // 0x204
-		::System::Int32 PipelineValidation; // 0x208
-		::System::Int32 AOJitterTex; // 0x20C
-		::System::Int32 LtcTex1; // 0x210
-		::System::Int32 LtcTex2; // 0x214
-		::System::Int32 LtcTex3; // 0x218
-		::System::Int32 DeformationNoiseTex; // 0x21C
-		::System::Int32 SMAAAreaTexture; // 0x220
-		::System::Int32 SMAASearchTexture; // 0x224
-		::System::Int32 BlueNoiseTex3D; // 0x228
-		::System::Int32 qTangentPropId; // 0x22C
-		::System::Int32 zWritePropId; // 0x230
-		::System::Int32 hasDepthFetchPropId; // 0x234
-		::UnityEngine::Rendering::AOSetting aoSetting; // 0x238
-		::UnityEngine::Rendering::TAASettings taaSettings; // 0x274
-		::UnityEngine::Rendering::UIBlurSettings uiBlurSettings; // 0x28C
-		::UnityEngine::Rendering::OffScreenUISettings offScreenUISettings; // 0x36C
-		::UnityEngine::Rendering::SSRSettings ssrSettings; // 0x384
-		::UnityEngine::Rendering::SSGISettings ssgiSettings; // 0x3B4
-		::UnityEngine::Rendering::WaterSettings waterSettings; // 0x414
-		::UnityEngine::Rendering::VolumetricCloudSettings volumetricCloudSettings; // 0x42C
-		::UnityEngine::Rendering::VolumetricFogSettings volumetricFogSettings; // 0x444
-		::UnityEngine::Rendering::VolumetricCloudSphereSettings volumetricCloudSphereSettings; // 0x504
-		::UnityEngine::Rendering::VolumetricLightSettings volumetricLightSettings; // 0x518
-		::UnityEngine::Rendering::GlobalSDFSettings globalSDFSettings; // 0x528
-		::UnityEngine::Rendering::AmbientVolumneData ambientData; // 0x534
-		::UnityEngine::Rendering::ClusterLightingSettings clusterSettings; // 0x5A4
-		::UnityEngine::Rendering::VoxelIrradianceCacheSettings voxelIrradianceCacheSettings; // 0x5C4
-		::UnityEngine::Rendering::AdaptiveTessellationSettings adaptiveTessellationSettings; // 0x5D4
+		::System::Int32 FluidSimulation2DCS; // 0x1AC
+		::System::Int32 AdaptiveTessellationCS; // 0x1B0
+		::System::Int32 ShadowmapCompressCS; // 0x1B4
+		::System::Int32 ShadowmapDecompressCS; // 0x1B8
+		::System::Int32 ShadowmapDecompressPS; // 0x1BC
+		::System::Int32 ShadowFilterCS; // 0x1C0
+		::System::Int32 HiZCS; // 0x1C4
+		::System::Int32 DecalMaterial; // 0x1C8
+		::System::Int32 FrameCapturePPCS; // 0x1CC
+		::System::Int32 InstancedItemCullCS; // 0x1D0
+		::System::Int32 InstancedItemCullClusterCS; // 0x1D4
+		::System::Int32 FogEmissionBakeVolumeInjectMaterial; // 0x1D8
+		::System::Int32 GlobalSDFUpdateCS; // 0x1DC
+		::System::Int32 IrradianceCacheMaterial; // 0x1E0
+		::System::Int32 SSGIMaterial; // 0x1E4
+		::System::Int32 GPUSceneCS; // 0x1E8
+		::System::Int32 GPUSceneUpdateCS; // 0x1EC
+		::System::Int32 GeometryShadowMaterial; // 0x1F0
+		::System::Int32 OcclusionQueryMaterial; // 0x1F4
+		::System::Int32 SSGICS; // 0x1F8
+		::System::Int32 GPUParticlesManagementCS; // 0x1FC
+		::System::Int32 BatchAnimationCS; // 0x200
+		::System::Int32 PipelineValidation; // 0x204
+		::System::Int32 AOJitterTex; // 0x208
+		::System::Int32 LtcTex1; // 0x20C
+		::System::Int32 LtcTex2; // 0x210
+		::System::Int32 LtcTex3; // 0x214
+		::System::Int32 DeformationNoiseTex; // 0x218
+		::System::Int32 SMAAAreaTexture; // 0x21C
+		::System::Int32 SMAASearchTexture; // 0x220
+		::System::Int32 BlueNoiseTex3D; // 0x224
+		::System::Int32 qTangentPropId; // 0x228
+		::System::Int32 zWritePropId; // 0x22C
+		::System::Int32 hasDepthFetchPropId; // 0x230
+		::UnityEngine::Rendering::AOSetting aoSetting; // 0x234
+		::UnityEngine::Rendering::TAASettings taaSettings; // 0x270
+		::UnityEngine::Rendering::UIBlurSettings uiBlurSettings; // 0x288
+		::UnityEngine::Rendering::OffScreenUISettings offScreenUISettings; // 0x368
+		::UnityEngine::Rendering::SSRSettings ssrSettings; // 0x380
+		::UnityEngine::Rendering::SSGISettings ssgiSettings; // 0x3B0
+		::UnityEngine::Rendering::WaterSettings waterSettings; // 0x410
+		::UnityEngine::Rendering::VolumetricCloudSettings volumetricCloudSettings; // 0x428
+		::UnityEngine::Rendering::VolumetricFogSettings volumetricFogSettings; // 0x440
+		::UnityEngine::Rendering::VolumetricCloudSphereSettings volumetricCloudSphereSettings; // 0x500
+		::UnityEngine::Rendering::VolumetricLightSettings volumetricLightSettings; // 0x514
+		::UnityEngine::Rendering::GlobalSDFSettings globalSDFSettings; // 0x524
+		::UnityEngine::Rendering::AmbientVolumneData ambientData; // 0x530
+		::UnityEngine::Rendering::ClusterLightingSettings clusterSettings; // 0x5A0
+		::UnityEngine::Rendering::VoxelIrradianceCacheSettings voxelIrradianceCacheSettings; // 0x5C0
+		::UnityEngine::Rendering::AdaptiveTessellationSettings adaptiveTessellationSettings; // 0x5D0
 		::UnityEngine::Rendering::DLSSData dlssData; // 0x5E0
 		::UnityEngine::Rendering::DepthCopyFlag forwardDepthCopyFlag; // 0x610
 		::System::Int32 minInstanceCountAsyncFill; // 0x614

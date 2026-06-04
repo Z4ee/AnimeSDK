@@ -7,29 +7,29 @@
 
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F0A6D0)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8F0A670)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F0A690)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F0A650)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8F0A6B0)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8F0AC20)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8F0A680)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F0A6A0)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8F0A6F0)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F0A660)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8F0A6C0)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8F0AD50)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA333720)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA3336C0)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA3336E0)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA3336A0)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA333700)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA333C70)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA3336D0)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA3336F0)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA333740)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA3336B0)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA333710)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA333DA0)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int QueryPresenceCallbackInfo_TypeDefinitionIndex = 41616;
+	inline static constexpr unsigned int QueryPresenceCallbackInfo_TypeDefinitionIndex = 42419;
 
 	class QueryPresenceCallbackInfo : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x10
-		::Epic::OnlineServices::EpicAccountId* _TargetUserId_k__BackingField; // 0x18
-		::System::Object* _ClientData_k__BackingField; // 0x20
+		::Epic::OnlineServices::EpicAccountId* _TargetUserId_k__BackingField; // 0x10
+		::System::Object* _ClientData_k__BackingField; // 0x18
+		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x20
 		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -42,9 +42,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -52,9 +52,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::EpicAccountId* get_LocalUserId()
@@ -62,9 +62,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::EpicAccountId* get_TargetUserId()
@@ -72,9 +72,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -82,14 +82,14 @@ namespace Epic::OnlineServices::Presence
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Presence::QueryPresenceCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Presence::QueryPresenceCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Presence::QueryPresenceCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Presence::QueryPresenceCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCECALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

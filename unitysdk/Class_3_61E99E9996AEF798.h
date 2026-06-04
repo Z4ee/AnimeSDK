@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class HideEffectAutoLayout; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_61E99E9996AEF798_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9351F50)
-#define CLASS_3_61E99E9996AEF798__CTOR_OFFSET UNITYSDK_OFFSET(0x9351F20)
+#define CLASS_3_61E99E9996AEF798_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAB07A70)
+#define CLASS_3_61E99E9996AEF798__CTOR_OFFSET UNITYSDK_OFFSET(0xAB07A40)
 
-inline static constexpr unsigned int Class_3_61E99E9996AEF798_TypeDefinitionIndex = 50789;
+inline static constexpr unsigned int Class_3_61E99E9996AEF798_TypeDefinitionIndex = 51457;
 
 class Class_3_61E99E9996AEF798 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HideEffectAutoLayout*>
 {

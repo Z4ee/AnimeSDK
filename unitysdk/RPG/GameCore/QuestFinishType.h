@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestFinishType_TypeDefinitionIndex = 10226;
+	inline static constexpr unsigned int QuestFinishType_TypeDefinitionIndex = 10057;
 
 	enum class QuestFinishType : ::System::Int32
 	{
@@ -854,6 +854,7 @@ namespace RPG::GameCore
 		ChenLingBattleActivatedPrivilegeCnt = 410006,
 		RogueTournPersonaHandBookUnlockedGiftCnt = 410007,
 		ChenLingBattleFinalStagePassWaveCnt = 410008,
+		RogueTournPassArea = 410009,
 		IdleLiveReachNode = 420000,
 		IdleLiveFinishNode = 420001,
 		IdleLivePower = 420002,
@@ -906,5 +907,21 @@ namespace RPG::GameCore
 		GridFightSettleTotalRoleStar = 400059,
 		GridFightSettleExpertAndActiveTrait = 400060,
 		GridFightSettleDifferentMaxDamageRoleAndTrait = 400061,
+		ChenLingFesLevelFinish = 430000,
+		ChenLingFesLevelStarNumReachTarget = 430001,
+		ChenLingFesLevelBusinessDayReachTarget = 430002,
+		ChenLingFesLevelFacilityAdjustNumReachTarget = 430003,
+		ChenLingFesLevelCellExtendNumReachTarget = 430004,
+		PixAirFinishSomeSpecificStages = 430010,
+		ExpeditionBattlePassStageCnt = 430011,
+		PixAirCoreEquipUpgradeToLevel = 430012,
+		PixAirUnlockPlaneNum = 430013,
+		PixAirFinishStageWithLeastBasic = 430014,
+		PixAirReachLevelEquipNum = 430015,
+		PixAirFinishStageDistinctPlaneNum = 430016,
+		PixAirPlaneWinBattle = 430017,
+		PixAirTotalScore = 430018,
+		GroupPropertyValueIgnoreVerse = 430030,
+		FloorSavedValueIgnoreVerse = 430031,
 	};
 }

@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define ENTITAS_VISUALDEBUGGING_UNITY_GAMEOBJECTDESTROYEXTENSION_DESTROYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x12C58080)
+#define ENTITAS_VISUALDEBUGGING_UNITY_GAMEOBJECTDESTROYEXTENSION_DESTROYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x147057C0)
 
 namespace Entitas::VisualDebugging::Unity
 {
-	inline static constexpr unsigned int GameObjectDestroyExtension_TypeDefinitionIndex = 9888;
+	inline static constexpr unsigned int GameObjectDestroyExtension_TypeDefinitionIndex = 9715;
 
 	class GameObjectDestroyExtension : public ::System::Object
 	{
 	public:
-		static ::System::Void DestroyGameObject(::UnityEngine::GameObject* gameObject)
+		static ::System::Void DestroyGameObject(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_GAMEOBJECTDESTROYEXTENSION_DESTROYGAMEOBJECT_OFFSET))(gameObject);
+			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_GAMEOBJECTDESTROYEXTENSION_DESTROYGAMEOBJECT_OFFSET))(a1);
 		}
 	};
 }

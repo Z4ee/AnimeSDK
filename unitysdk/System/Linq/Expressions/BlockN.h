@@ -7,29 +7,29 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCKN_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x19ECB6C0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCKN_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x19ECB880)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCKN_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x19ECB7A0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCKN_REWRITE_OFFSET UNITYSDK_OFFSET(0x19ECB8C0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCKN__CTOR_OFFSET UNITYSDK_OFFSET(0x19ECB660)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCKN_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1AD42090)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCKN_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1AD42250)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCKN_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1AD42170)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCKN_REWRITE_OFFSET UNITYSDK_OFFSET(0x1AD42290)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCKN__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD42030)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int BlockN_TypeDefinitionIndex = 3184;
+	inline static constexpr unsigned int BlockN_TypeDefinitionIndex = 3185;
 
 	class BlockN : public ::System::Linq::Expressions::BlockExpression
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _expressions; // 0x10
 
-		::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions)
+		::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_BLOCKN__CTOR_OFFSET))(this, expressions);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_BLOCKN__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Expression* GetExpression(::System::Int32 index)
+		::System::Linq::Expressions::Expression* GetExpression(::System::Int32 a1)
 		{
-			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_BLOCKN_GETEXPRESSION_OFFSET))(this, index);
+			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_BLOCKN_GETEXPRESSION_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ExpressionCount()
@@ -42,9 +42,9 @@ namespace System::Linq::Expressions
 			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_BLOCKN_GETORMAKEEXPRESSIONS_OFFSET))(this);
 		}
 
-		::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables, ::Il2CppArray<::System::Linq::Expressions::Expression*>* args)
+		::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* a1, ::Il2CppArray<::System::Linq::Expressions::Expression*>* a2)
 		{
-			return ((::System::Linq::Expressions::BlockExpression*(*)(::PVOID, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*, ::Il2CppArray<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_BLOCKN_REWRITE_OFFSET))(this, variables, args);
+			return ((::System::Linq::Expressions::BlockExpression*(*)(::PVOID, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*, ::Il2CppArray<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_BLOCKN_REWRITE_OFFSET))(this, a1, a2);
 		}
 	};
 }

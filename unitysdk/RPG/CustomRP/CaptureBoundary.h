@@ -14,25 +14,25 @@ namespace RPG::CustomRP { class CaptureBoundary_FetchTextureDelegate; }
 namespace System { class String; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_BACKUPCAMERA_OFFSET UNITYSDK_OFFSET(0x1811DB50)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTUREEX_OFFSET UNITYSDK_OFFSET(0x1811DB30)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTUREIMPL_OFFSET UNITYSDK_OFFSET(0x1811D9C0)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTURE_1_OFFSET UNITYSDK_OFFSET(0x1811DB20)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1811D9B0)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_CHECKVALID_OFFSET UNITYSDK_OFFSET(0x1811E350)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_GET_OUTPUTPATH_OFFSET UNITYSDK_OFFSET(0x1811D9A0)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_RECOVERCAMERA_OFFSET UNITYSDK_OFFSET(0x1811E4F0)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_SETFORMAT_OFFSET UNITYSDK_OFFSET(0x1811D980)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_SETOUTPUTPATH_OFFSET UNITYSDK_OFFSET(0x1811D990)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_SETOUTPUTRTSIZE_OFFSET UNITYSDK_OFFSET(0x1811D970)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_SETSIZE_OFFSET UNITYSDK_OFFSET(0x1811D960)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_SETUPCAMERA_OFFSET UNITYSDK_OFFSET(0x1811E3E0)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_UPDATECAMERA_OFFSET UNITYSDK_OFFSET(0x1811DC50)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1811E5C0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_BACKUPCAMERA_OFFSET UNITYSDK_OFFSET(0x18EC0710)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTUREEX_OFFSET UNITYSDK_OFFSET(0x18EC06F0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTUREIMPL_OFFSET UNITYSDK_OFFSET(0x18EC0540)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTURE_1_OFFSET UNITYSDK_OFFSET(0x18EC06E0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTURE_OFFSET UNITYSDK_OFFSET(0x18EC0530)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_CHECKVALID_OFFSET UNITYSDK_OFFSET(0x18EC0F10)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_GET_OUTPUTPATH_OFFSET UNITYSDK_OFFSET(0x18EC0520)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_RECOVERCAMERA_OFFSET UNITYSDK_OFFSET(0x18EC1070)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_SETFORMAT_OFFSET UNITYSDK_OFFSET(0x18EC0500)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_SETOUTPUTPATH_OFFSET UNITYSDK_OFFSET(0x18EC0510)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_SETOUTPUTRTSIZE_OFFSET UNITYSDK_OFFSET(0x18EC04F0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_SETSIZE_OFFSET UNITYSDK_OFFSET(0x18EC04E0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_SETUPCAMERA_OFFSET UNITYSDK_OFFSET(0x18EC0F60)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_UPDATECAMERA_OFFSET UNITYSDK_OFFSET(0x18EC0810)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC1140)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureBoundary_TypeDefinitionIndex = 34982;
+	inline static constexpr unsigned int CaptureBoundary_TypeDefinitionIndex = 35267;
 
 	class CaptureBoundary : public ::UnityEngine::MonoBehaviour
 	{
@@ -73,24 +73,24 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetSize(::System::Single w, ::System::Single h)
+		::System::Void SetSize(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_SETSIZE_OFFSET))(this, w, h);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_SETSIZE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetOutputRTSize(::System::Int32 w, ::System::Int32 h)
+		::System::Void SetOutputRTSize(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_SETOUTPUTRTSIZE_OFFSET))(this, w, h);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_SETOUTPUTRTSIZE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetFormat(::UnityEngine::RenderTextureFormat f, ::UnityEngine::RenderTextureReadWrite w, ::UnityEngine::Experimental::Rendering::GraphicsFormat r)
+		::System::Void SetFormat(::UnityEngine::RenderTextureFormat a1, ::UnityEngine::RenderTextureReadWrite a2, ::UnityEngine::Experimental::Rendering::GraphicsFormat a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite, ::UnityEngine::Experimental::Rendering::GraphicsFormat))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_SETFORMAT_OFFSET))(this, f, w, r);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite, ::UnityEngine::Experimental::Rendering::GraphicsFormat))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_SETFORMAT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetOutputPath(::System::String* p)
+		::System::Void SetOutputPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_SETOUTPUTPATH_OFFSET))(this, p);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_SETOUTPUTPATH_OFFSET))(this, a1);
 		}
 
 		::System::String* get_OutputPath()
@@ -98,9 +98,9 @@ namespace RPG::CustomRP
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_GET_OUTPUTPATH_OFFSET))(this);
 		}
 
-		::System::Void Capture(::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate* fd)
+		::System::Void Capture(::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTURE_OFFSET))(this, fd);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTURE_OFFSET))(this, a1);
 		}
 
 		::System::Void Capture_1()
@@ -108,29 +108,29 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTURE_1_OFFSET))(this);
 		}
 
-		::System::Void CaptureEx(::System::Single height)
+		::System::Void CaptureEx(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTUREEX_OFFSET))(this, height);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTUREEX_OFFSET))(this, a1);
 		}
 
-		::System::Void CaptureImpl(::RPG::CustomRP::FrameCaptureType type, ::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate* fd, ::System::Single height)
+		::System::Void CaptureImpl(::RPG::CustomRP::FrameCaptureType a1, ::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate* a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::FrameCaptureType, ::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTUREIMPL_OFFSET))(this, type, fd, height);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::FrameCaptureType, ::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_CAPTUREIMPL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void BackupCamera(::UnityEngine::Camera* camera)
+		::System::Void BackupCamera(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_BACKUPCAMERA_OFFSET))(this, camera);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_BACKUPCAMERA_OFFSET))(this, a1);
 		}
 
-		::System::Void SetupCamera(::UnityEngine::Camera* camera)
+		::System::Void SetupCamera(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_SETUPCAMERA_OFFSET))(this, camera);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_SETUPCAMERA_OFFSET))(this, a1);
 		}
 
-		::System::Void RecoverCamera(::UnityEngine::Camera* camera)
+		::System::Void RecoverCamera(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_RECOVERCAMERA_OFFSET))(this, camera);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_RECOVERCAMERA_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateCamera()

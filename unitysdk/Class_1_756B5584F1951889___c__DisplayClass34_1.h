@@ -7,10 +7,10 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS34_1__CTOR_OFFSET UNITYSDK_OFFSET(0xF2E7280)
-#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS34_1__FIREPLAYERBRAKEEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xF2E8210)
+#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS34_1__CTOR_OFFSET UNITYSDK_OFFSET(0x142EA6B0)
+#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS34_1__FIREPLAYERBRAKEEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0x142EB630)
 
-inline static constexpr unsigned int Class_1_756B5584F1951889___c__DisplayClass34_1_TypeDefinitionIndex = 70453;
+inline static constexpr unsigned int Class_1_756B5584F1951889___c__DisplayClass34_1_TypeDefinitionIndex = 71269;
 
 class Class_1_756B5584F1951889___c__DisplayClass34_1 : public ::System::Object
 {
@@ -23,8 +23,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_756B5584F1951889___C__DISPLAYCLASS34_1__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _FirePlayerBrakeEffects_b__0(::Entitas::IEntity* e, ::UnityEngine::GameObject* go)
+	::System::Void _FirePlayerBrakeEffects_b__0(::Entitas::IEntity* a1, ::UnityEngine::GameObject* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_756B5584F1951889___C__DISPLAYCLASS34_1__FIREPLAYERBRAKEEFFECTS_B__0_OFFSET))(this, e, go);
+		return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_756B5584F1951889___C__DISPLAYCLASS34_1__FIREPLAYERBRAKEEFFECTS_B__0_OFFSET))(this, a1, a2);
 	}
 };

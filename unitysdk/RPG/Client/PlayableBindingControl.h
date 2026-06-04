@@ -8,22 +8,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Object; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_BINDOBJECT_OFFSET UNITYSDK_OFFSET(0xAD53E90)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_CLEAR_OFFSET UNITYSDK_OFFSET(0xAD537D0)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD538C0)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INITBIND_OFFSET UNITYSDK_OFFSET(0xAD53970)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INIT_OFFSET UNITYSDK_OFFSET(0xAD53880)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xAD53750)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_BINDOBJECT_OFFSET UNITYSDK_OFFSET(0xC492140)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_CLEAR_OFFSET UNITYSDK_OFFSET(0xC491A50)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC491B30)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INITBIND_OFFSET UNITYSDK_OFFSET(0xC491BE0)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INIT_OFFSET UNITYSDK_OFFSET(0xC491AF0)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC4919D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayableBindingControl_TypeDefinitionIndex = 64281;
+	inline static constexpr unsigned int PlayableBindingControl_TypeDefinitionIndex = 65202;
 
 	class PlayableBindingControl : public ::System::Object
 	{
 	public:
-		::UnityEngine::Playables::PlayableDirector* _PlayableDirector; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Playables::PlayableBinding>* _BindingDict; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Playables::PlayableBinding>* _BindingDict; // 0x10
+		::UnityEngine::Playables::PlayableDirector* _PlayableDirector; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -45,14 +45,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYABLEBINDINGCONTROL_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void InitBind(::UnityEngine::Playables::PlayableDirector* playableDirector)
+		::System::Void InitBind(::UnityEngine::Playables::PlayableDirector* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYABLEBINDINGCONTROL_INITBIND_OFFSET))(this, playableDirector);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYABLEBINDINGCONTROL_INITBIND_OFFSET))(this, a1);
 		}
 
-		::System::Void BindObject(::System::String* bindKey, ::UnityEngine::Object* bindValue)
+		::System::Void BindObject(::System::String* a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYABLEBINDINGCONTROL_BINDOBJECT_OFFSET))(this, bindKey, bindValue);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYABLEBINDINGCONTROL_BINDOBJECT_OFFSET))(this, a1, a2);
 		}
 	};
 }

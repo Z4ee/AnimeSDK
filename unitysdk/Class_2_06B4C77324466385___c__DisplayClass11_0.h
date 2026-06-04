@@ -5,16 +5,16 @@
 class Class_2_06B4C77324466385;
 namespace RPG::Client { class BattleAvatarUltraSkillFlyEffect; }
 
-#define CLASS_2_06B4C77324466385___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E79110)
-#define CLASS_2_06B4C77324466385___C__DISPLAYCLASS11_0___PLAYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x11E797E0)
+#define CLASS_2_06B4C77324466385___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10608CE0)
+#define CLASS_2_06B4C77324466385___C__DISPLAYCLASS11_0___PLAYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x106093E0)
 
-inline static constexpr unsigned int Class_2_06B4C77324466385___c__DisplayClass11_0_TypeDefinitionIndex = 65881;
+inline static constexpr unsigned int Class_2_06B4C77324466385___c__DisplayClass11_0_TypeDefinitionIndex = 66814;
 
 class Class_2_06B4C77324466385___c__DisplayClass11_0 : public ::System::Object
 {
 public:
-	::RPG::Client::BattleAvatarUltraSkillFlyEffect* effect; // 0x10
-	::Class_2_06B4C77324466385* __4__this; // 0x18
+	::Class_2_06B4C77324466385* __4__this; // 0x10
+	::RPG::Client::BattleAvatarUltraSkillFlyEffect* effect; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/RPG/Client/EPedestrianAssetType.h"
 
-namespace System { template <typename T1, typename T2> class Action_2; }
+class Class_0_16E4307DCC419505_950;
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_951_TypeDefinitionIndex = 66049;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_951_TypeDefinitionIndex = 64766;
 
 class Class_0_16E4307DCC419505_951
 {

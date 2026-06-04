@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdAssetsPathConfig_CrowdVariantPathDict_TypeDefinitionIndex = 67851;
+	inline static constexpr unsigned int CrowdAssetsPathConfig_CrowdVariantPathDict_TypeDefinitionIndex = 68809;
 
 	struct alignas(8) CrowdAssetsPathConfig_CrowdVariantPathDict
 	{

@@ -7,13 +7,13 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_ADDAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1A474780)
-#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_REMOVEAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1A474790)
-#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_SETGLOBALAMBIENTDIRTY_OFFSET UNITYSDK_OFFSET(0x1A4747A0)
+#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_ADDAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1B2C38E0)
+#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_REMOVEAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1B2C38F0)
+#define UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_SETGLOBALAMBIENTDIRTY_OFFSET UNITYSDK_OFFSET(0x1B2C3900)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AmbientVolumneData_TypeDefinitionIndex = 4617;
+	inline static constexpr unsigned int AmbientVolumneData_TypeDefinitionIndex = 4791;
 
 	struct alignas(4) AmbientVolumneData
 	{
@@ -31,14 +31,14 @@ namespace UnityEngine::Rendering
 		::System::Byte CustomLightQualityFilter; // 0x7E
 		::System::Boolean IsInverse; // 0x7F
 
-		static ::System::Void AddAmbientVolumne(::System::Int32 id, ::UnityEngine::Rendering::AmbientVolumneData& avd, ::System::String* name)
+		static ::System::Void AddAmbientVolumne(::System::Int32 a1, ::UnityEngine::Rendering::AmbientVolumneData& a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::UnityEngine::Rendering::AmbientVolumneData&, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_ADDAMBIENTVOLUMNE_OFFSET))(id, avd, name);
+			return ((::System::Void(*)(::System::Int32, ::UnityEngine::Rendering::AmbientVolumneData&, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_ADDAMBIENTVOLUMNE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void RemoveAmbientVolumne(::System::Int32 id)
+		static ::System::Void RemoveAmbientVolumne(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_REMOVEAMBIENTVOLUMNE_OFFSET))(id);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_AMBIENTVOLUMNEDATA_REMOVEAMBIENTVOLUMNE_OFFSET))(a1);
 		}
 
 		static ::System::Void SetGlobalAmbientDirty()

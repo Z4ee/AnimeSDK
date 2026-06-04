@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define ENTITAS_ENTITYISNOTDESTROYEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x12C55BA0)
+#define ENTITAS_ENTITYISNOTDESTROYEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x147029F0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntityIsNotDestroyedException_TypeDefinitionIndex = 9817;
+	inline static constexpr unsigned int EntityIsNotDestroyedException_TypeDefinitionIndex = 9644;
 
 	class EntityIsNotDestroyedException : public ::Entitas::EntitasException
 	{
 	public:
-		::System::Void _ctor(::System::String* message)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITYISNOTDESTROYEDEXCEPTION__CTOR_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITYISNOTDESTROYEDEXCEPTION__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,12 +5,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD_COMPARETO_OFFSET UNITYSDK_OFFSET(0x22B89B0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD__COMPARETO_G__PASSTAGIDTOINDEX_7_0_OFFSET UNITYSDK_OFFSET(0x181007F0)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3849680)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD__COMPARETO_G__PASSTAGIDTOINDEX_7_0_OFFSET UNITYSDK_OFFSET(0x18EA3780)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectHelper_DrawCmd_TypeDefinitionIndex = 34977;
+	inline static constexpr unsigned int AvatarEffectHelper_DrawCmd_TypeDefinitionIndex = 35262;
 
 	struct alignas(8) AvatarEffectHelper_DrawCmd
 	{
@@ -22,14 +22,14 @@ namespace RPG::CustomRP
 		::System::UInt32 RLM; // 0x2C
 		::System::Boolean ignoreMpb; // 0x30
 
-		::System::Int32 CompareTo(::RPG::CustomRP::AvatarEffectHelper_DrawCmd other)
+		::System::Int32 CompareTo(::RPG::CustomRP::AvatarEffectHelper_DrawCmd a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::CustomRP::AvatarEffectHelper_DrawCmd))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::CustomRP::AvatarEffectHelper_DrawCmd))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD_COMPARETO_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 _CompareTo_g__PassTagIDToIndex_7_0(::System::Int32 passTagID)
+		static ::System::Int32 _CompareTo_g__PassTagIDToIndex_7_0(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD__COMPARETO_G__PASSTAGIDTOINDEX_7_0_OFFSET))(passTagID);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER_DRAWCMD__COMPARETO_G__PASSTAGIDTOINDEX_7_0_OFFSET))(a1);
 		}
 	};
 }

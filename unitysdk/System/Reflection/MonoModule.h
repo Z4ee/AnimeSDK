@@ -11,20 +11,20 @@ namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class RuntimeAssembly; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_MONOMODULE_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x179A80A0)
-#define SYSTEM_REFLECTION_MONOMODULE_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x179A8090)
-#define SYSTEM_REFLECTION_MONOMODULE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x179A80C0)
-#define SYSTEM_REFLECTION_MONOMODULE_GETRUNTIMEASSEMBLY_OFFSET UNITYSDK_OFFSET(0x179A81C0)
-#define SYSTEM_REFLECTION_MONOMODULE_GET_ASSEMBLY_OFFSET UNITYSDK_OFFSET(0x179A8020)
-#define SYSTEM_REFLECTION_MONOMODULE_GET_MODULEVERSIONID_OFFSET UNITYSDK_OFFSET(0x179A8040)
-#define SYSTEM_REFLECTION_MONOMODULE_GET_SCOPENAME_OFFSET UNITYSDK_OFFSET(0x179A8030)
-#define SYSTEM_REFLECTION_MONOMODULE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x179A80B0)
-#define SYSTEM_REFLECTION_MONOMODULE_ISRESOURCE_OFFSET UNITYSDK_OFFSET(0x179A8080)
-#define SYSTEM_REFLECTION_MONOMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x179A8230)
+#define SYSTEM_REFLECTION_MONOMODULE_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x18759D40)
+#define SYSTEM_REFLECTION_MONOMODULE_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18759D30)
+#define SYSTEM_REFLECTION_MONOMODULE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x18759D60)
+#define SYSTEM_REFLECTION_MONOMODULE_GETRUNTIMEASSEMBLY_OFFSET UNITYSDK_OFFSET(0x18759E50)
+#define SYSTEM_REFLECTION_MONOMODULE_GET_ASSEMBLY_OFFSET UNITYSDK_OFFSET(0x18759CC0)
+#define SYSTEM_REFLECTION_MONOMODULE_GET_MODULEVERSIONID_OFFSET UNITYSDK_OFFSET(0x18759CE0)
+#define SYSTEM_REFLECTION_MONOMODULE_GET_SCOPENAME_OFFSET UNITYSDK_OFFSET(0x18759CD0)
+#define SYSTEM_REFLECTION_MONOMODULE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x18759D50)
+#define SYSTEM_REFLECTION_MONOMODULE_ISRESOURCE_OFFSET UNITYSDK_OFFSET(0x18759D20)
+#define SYSTEM_REFLECTION_MONOMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x18759EC0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MonoModule_TypeDefinitionIndex = 624;
+	inline static constexpr unsigned int MonoModule_TypeDefinitionIndex = 623;
 
 	class MonoModule : public ::System::Reflection::RuntimeModule
 	{
@@ -54,24 +54,24 @@ namespace System::Reflection
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMODULE_ISRESOURCE_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMODULE_GETCUSTOMATTRIBUTES_OFFSET))(this, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMODULE_GETCUSTOMATTRIBUTES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* attributeType, ::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMODULE_GETCUSTOMATTRIBUTES_1_OFFSET))(this, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMODULE_GETCUSTOMATTRIBUTES_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsDefined(::System::Type* attributeType, ::System::Boolean inherit)
+		::System::Boolean IsDefined(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMODULE_ISDEFINED_OFFSET))(this, attributeType, inherit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMODULE_ISDEFINED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMODULE_GETOBJECTDATA_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMODULE_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Reflection::RuntimeAssembly* GetRuntimeAssembly()

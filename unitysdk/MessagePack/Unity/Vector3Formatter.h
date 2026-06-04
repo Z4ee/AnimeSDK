@@ -7,13 +7,13 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_VECTOR3FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x173269C0)
-#define MESSAGEPACK_UNITY_VECTOR3FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x17326950)
-#define MESSAGEPACK_UNITY_VECTOR3FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x173262A0)
+#define MESSAGEPACK_UNITY_VECTOR3FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x18135300)
+#define MESSAGEPACK_UNITY_VECTOR3FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x18135290)
+#define MESSAGEPACK_UNITY_VECTOR3FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18134BC0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int Vector3Formatter_TypeDefinitionIndex = 9985;
+	inline static constexpr unsigned int Vector3Formatter_TypeDefinitionIndex = 9812;
 
 	class Vector3Formatter : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace MessagePack::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_VECTOR3FORMATTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Serialize(::MessagePack::MessagePackWriter& writer, ::UnityEngine::Vector3 value, ::MessagePack::MessagePackSerializerOptions* options)
+		::System::Void Serialize(::MessagePack::MessagePackWriter& a1, ::UnityEngine::Vector3 a2, ::MessagePack::MessagePackSerializerOptions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::Vector3, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_VECTOR3FORMATTER_SERIALIZE_OFFSET))(this, writer, value, options);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::Vector3, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_VECTOR3FORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Vector3 Deserialize(::MessagePack::MessagePackReader& reader, ::MessagePack::MessagePackSerializerOptions* options)
+		::UnityEngine::Vector3 Deserialize(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackSerializerOptions* a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_VECTOR3FORMATTER_DESERIALIZE_OFFSET))(this, reader, options);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_VECTOR3FORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
 	};
 }

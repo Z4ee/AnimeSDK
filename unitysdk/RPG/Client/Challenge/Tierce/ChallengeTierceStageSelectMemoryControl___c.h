@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeListControl_Class_3_6EEFE48F0F19B50B; }
+namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel; }
+namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+namespace UnityEngine { class GameObject; }
+
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTMEMORYCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB4DD380)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTMEMORYCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB4DD3C0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTMEMORYCONTROL___C__SET_PRIVATESTAGERECOMMENDDAMAGETYPES_B__36_1_OFFSET UNITYSDK_OFFSET(0xB4DD3D0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTMEMORYCONTROL___C___ONBINDVIEWMODEL_B__44_13_OFFSET UNITYSDK_OFFSET(0xB4DD540)
+
+namespace RPG::Client::Challenge::Tierce
+{
+	inline static constexpr unsigned int ChallengeTierceStageSelectMemoryControl___c_TypeDefinitionIndex = 74206;
+
+	class ChallengeTierceStageSelectMemoryControl___c : public ::System::Object
+	{
+	public:
+		static ::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectMemoryControl___c** StaticGet___9()
+		{
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectMemoryControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectMemoryControl___c_TypeDefinitionIndex)->GetStaticField(0x5AC20);
+		}
+		static ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl_Class_3_6EEFE48F0F19B50B** StaticGet___9__36_1()
+		{
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl_Class_3_6EEFE48F0F19B50B**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectMemoryControl___c_TypeDefinitionIndex)->GetStaticField(0x5AC28);
+		}
+		static ::System::Func_2<::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*, ::System::Int32>** StaticGet___9__44_13()
+		{
+			return (::System::Func_2<::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectMemoryControl___c_TypeDefinitionIndex)->GetStaticField(0x5AC30);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTMEMORYCONTROL___C__CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTMEMORYCONTROL___C__CTOR_OFFSET))(this);
+		}
+
+		::System::Action* _set_PrivateStageRecommendDamageTypes_b__36_1(::UnityEngine::GameObject* a1, ::System::Object* a2)
+		{
+			return ((::System::Action*(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTMEMORYCONTROL___C__SET_PRIVATESTAGERECOMMENDDAMAGETYPES_B__36_1_OFFSET))(this, a1, a2);
+		}
+
+		::System::Int32 __OnBindViewModel_b__44_13(::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel* a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTMEMORYCONTROL___C___ONBINDVIEWMODEL_B__44_13_OFFSET))(this, a1);
+		}
+	};
+}

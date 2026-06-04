@@ -5,15 +5,15 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_26344DF203E4572F__CTOR_OFFSET UNITYSDK_OFFSET(0x978B070)
+#define CLASS_1_26344DF203E4572F__CTOR_OFFSET UNITYSDK_OFFSET(0xD8010C0)
 
-inline static constexpr unsigned int Class_1_26344DF203E4572F_TypeDefinitionIndex = 56191;
+inline static constexpr unsigned int Class_1_26344DF203E4572F_TypeDefinitionIndex = 56953;
 
 class Class_1_26344DF203E4572F : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* Field_1_1; // 0x10
-	::RPG::Client::PhotoGraphTag Field_1_0; // 0x18
+	::UnityEngine::GameObject* Field_1_0; // 0x10
+	::RPG::Client::PhotoGraphTag Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -9,7 +9,7 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
-	inline static constexpr unsigned int Tuple_2_TypeDefinitionIndex = 145;
+	inline static constexpr unsigned int Tuple_2_TypeDefinitionIndex = 144;
 
 	template <typename T1, typename T2>
 	class Tuple_2 : public ::System::Object

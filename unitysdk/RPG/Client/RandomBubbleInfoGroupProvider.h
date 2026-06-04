@@ -6,32 +6,32 @@ namespace RPG::Client { class IBubbleInfoGroupProvider; }
 namespace RPG::Client { class IBubbleInfoProvider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0xAF71A80)
-#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER_GETBUBBLEINFOPROVIDERLIST_OFFSET UNITYSDK_OFFSET(0xAF71C20)
-#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__CREATEBUBBLEINFOPROVIDERLISTBYINDEX_OFFSET UNITYSDK_OFFSET(0xAF71E70)
-#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xAF71B80)
-#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__GETANDRECORDRANDOMSELECTEDINDEX_OFFSET UNITYSDK_OFFSET(0xAF71C70)
-#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__RESETAVAILABLEINDICES_OFFSET UNITYSDK_OFFSET(0xAF71F70)
+#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0xC6B7530)
+#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER_GETBUBBLEINFOPROVIDERLIST_OFFSET UNITYSDK_OFFSET(0xC6B76D0)
+#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__CREATEBUBBLEINFOPROVIDERLISTBYINDEX_OFFSET UNITYSDK_OFFSET(0xC6B7940)
+#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xC6B7630)
+#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__GETANDRECORDRANDOMSELECTEDINDEX_OFFSET UNITYSDK_OFFSET(0xC6B7720)
+#define RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__RESETAVAILABLEINDICES_OFFSET UNITYSDK_OFFSET(0xC6B7A50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RandomBubbleInfoGroupProvider_TypeDefinitionIndex = 57979;
+	inline static constexpr unsigned int RandomBubbleInfoGroupProvider_TypeDefinitionIndex = 58895;
 
 	class RandomBubbleInfoGroupProvider : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* _Weights; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* _AvailableIndices; // 0x10
 		::Il2CppArray<::RPG::Client::IBubbleInfoGroupProvider*>* _BubbleTalkInfoGroupList; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* _AvailableIndices; // 0x20
+		::Il2CppArray<::System::Int32>* _Weights; // 0x20
 
-		::System::Void _ctor(::Il2CppArray<::RPG::Client::IBubbleInfoGroupProvider*>* bubbleTalkInfoGroupList, ::Il2CppArray<::System::Int32>* weightList)
+		::System::Void _ctor(::Il2CppArray<::RPG::Client::IBubbleInfoGroupProvider*>* a1, ::Il2CppArray<::System::Int32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::IBubbleInfoGroupProvider*>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__CTOR_OFFSET))(this, bubbleTalkInfoGroupList, weightList);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::IBubbleInfoGroupProvider*>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		static ::RPG::Client::RandomBubbleInfoGroupProvider* Create(::Il2CppArray<::RPG::Client::IBubbleInfoGroupProvider*>* bubbleTalkInfoGroupList, ::Il2CppArray<::System::Int32>* weightList)
+		static ::RPG::Client::RandomBubbleInfoGroupProvider* Create(::Il2CppArray<::RPG::Client::IBubbleInfoGroupProvider*>* a1, ::Il2CppArray<::System::Int32>* a2)
 		{
-			return ((::RPG::Client::RandomBubbleInfoGroupProvider*(*)(::Il2CppArray<::RPG::Client::IBubbleInfoGroupProvider*>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER_CREATE_OFFSET))(bubbleTalkInfoGroupList, weightList);
+			return ((::RPG::Client::RandomBubbleInfoGroupProvider*(*)(::Il2CppArray<::RPG::Client::IBubbleInfoGroupProvider*>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER_CREATE_OFFSET))(a1, a2);
 		}
 
 		::Il2CppArray<::RPG::Client::IBubbleInfoProvider*>* GetBubbleInfoProviderList()
@@ -44,9 +44,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__GETANDRECORDRANDOMSELECTEDINDEX_OFFSET))(this);
 		}
 
-		::Il2CppArray<::RPG::Client::IBubbleInfoProvider*>* _CreateBubbleInfoProviderListByIndex(::System::Int32 index)
+		::Il2CppArray<::RPG::Client::IBubbleInfoProvider*>* _CreateBubbleInfoProviderListByIndex(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::RPG::Client::IBubbleInfoProvider*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__CREATEBUBBLEINFOPROVIDERLISTBYINDEX_OFFSET))(this, index);
+			return ((::Il2CppArray<::RPG::Client::IBubbleInfoProvider*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMBUBBLEINFOGROUPPROVIDER__CREATEBUBBLEINFOPROVIDERLISTBYINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Void _ResetAvailableIndices()

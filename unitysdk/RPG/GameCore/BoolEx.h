@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoolEx_TypeDefinitionIndex = 21632;
+	inline static constexpr unsigned int BoolEx_TypeDefinitionIndex = 23295;
 
 	enum class BoolEx : ::System::Int32
 	{

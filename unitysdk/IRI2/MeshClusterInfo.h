@@ -5,13 +5,13 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define IRI2_MESHCLUSTERINFO_METHOD_2_55CDF35EA89BC4E5_OFFSET UNITYSDK_OFFSET(0x15ADEC0)
-#define IRI2_MESHCLUSTERINFO_METHOD_2_A683D01FB86C1949_OFFSET UNITYSDK_OFFSET(0x15ADDE0)
-#define IRI2_MESHCLUSTERINFO_METHOD_2_F5599B7DA8E7E53C_OFFSET UNITYSDK_OFFSET(0x15ADDC0)
+#define IRI2_MESHCLUSTERINFO_METHOD_2_55CDF35EA89BC4E5_OFFSET UNITYSDK_OFFSET(0x2BC94B0)
+#define IRI2_MESHCLUSTERINFO_METHOD_2_A311ABF890C2D610_OFFSET UNITYSDK_OFFSET(0x2BC94A0)
+#define IRI2_MESHCLUSTERINFO_METHOD_2_F5599B7DA8E7E53C_OFFSET UNITYSDK_OFFSET(0x2BC9480)
 
 namespace IRI2
 {
-	inline static constexpr unsigned int MeshClusterInfo_TypeDefinitionIndex = 46259;
+	inline static constexpr unsigned int MeshClusterInfo_TypeDefinitionIndex = 46842;
 
 	struct alignas(8) MeshClusterInfo
 	{
@@ -25,9 +25,9 @@ namespace IRI2
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI2_MESHCLUSTERINFO_METHOD_2_F5599B7DA8E7E53C_OFFSET))(this);
 		}
 
-		::System::Void Method_2_A683D01FB86C1949(::Il2CppArray<::UnityEngine::Vector4>* a1)
+		::System::Void Method_2_A311ABF890C2D610(::Il2CppArray<::UnityEngine::Vector4>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + IRI2_MESHCLUSTERINFO_METHOD_2_A683D01FB86C1949_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + IRI2_MESHCLUSTERINFO_METHOD_2_A311ABF890C2D610_OFFSET))(this, a1);
 		}
 
 		/*

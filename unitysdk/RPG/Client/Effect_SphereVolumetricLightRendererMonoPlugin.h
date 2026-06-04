@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class Effect_SphereVolumetricLightRendererBehavior; }
 
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTRENDERERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA208EF0)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTRENDERERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB88D3C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_SphereVolumetricLightRendererMonoPlugin_TypeDefinitionIndex = 65051;
+	inline static constexpr unsigned int Effect_SphereVolumetricLightRendererMonoPlugin_TypeDefinitionIndex = 65977;
 
 	class Effect_SphereVolumetricLightRendererMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_SphereVolumetricLightRendererBehavior*>
 	{

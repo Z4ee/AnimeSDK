@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CINEMACHINE_AXISSTATEPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B5DAC0)
+#define CINEMACHINE_AXISSTATEPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1461DEC0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int AxisStatePropertyAttribute_TypeDefinitionIndex = 36584;
+	inline static constexpr unsigned int AxisStatePropertyAttribute_TypeDefinitionIndex = 36884;
 
 	class AxisStatePropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{

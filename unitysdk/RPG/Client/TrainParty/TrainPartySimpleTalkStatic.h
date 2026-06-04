@@ -4,19 +4,19 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKSTATIC_GET_ENTITYROOT_OFFSET UNITYSDK_OFFSET(0xB3628F0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKSTATIC_SET_ENTITYROOT_OFFSET UNITYSDK_OFFSET(0xB3629A0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKSTATIC_GET_ENTITYROOT_OFFSET UNITYSDK_OFFSET(0xCABE290)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKSTATIC_SET_ENTITYROOT_OFFSET UNITYSDK_OFFSET(0xCABE320)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartySimpleTalkStatic_TypeDefinitionIndex = 68593;
+	inline static constexpr unsigned int TrainPartySimpleTalkStatic_TypeDefinitionIndex = 69405;
 
 	class TrainPartySimpleTalkStatic : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Transform** StaticGet__EntityRoot()
 		{
-			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(TrainPartySimpleTalkStatic_TypeDefinitionIndex)->GetStaticField(0x23210);
+			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(TrainPartySimpleTalkStatic_TypeDefinitionIndex)->GetStaticField(0x58C30);
 		}
 
 		static ::UnityEngine::Transform* get_EntityRoot()
@@ -24,9 +24,9 @@ namespace RPG::Client::TrainParty
 			return ((::UnityEngine::Transform*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKSTATIC_GET_ENTITYROOT_OFFSET))();
 		}
 
-		static ::System::Void set_EntityRoot(::UnityEngine::Transform* value)
+		static ::System::Void set_EntityRoot(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKSTATIC_SET_ENTITYROOT_OFFSET))(value);
+			return ((::System::Void(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKSTATIC_SET_ENTITYROOT_OFFSET))(a1);
 		}
 	};
 }

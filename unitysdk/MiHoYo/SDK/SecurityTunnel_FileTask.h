@@ -6,13 +6,13 @@ namespace MiHoYo::SDK { class SecurityTunnel_FileHeader; }
 namespace MiHoYo::SDK { class SecurityTunnel_FilePart; }
 namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8DC7600)
-#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_2_OFFSET UNITYSDK_OFFSET(0x8DB84D0)
-#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x8DBB200)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA2141F0)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA206D30)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_OFFSET UNITYSDK_OFFSET(0xA209710)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_FileTask_TypeDefinitionIndex = 42983;
+	inline static constexpr unsigned int SecurityTunnel_FileTask_TypeDefinitionIndex = 43786;
 
 	class SecurityTunnel_FileTask : public ::System::Object
 	{
@@ -20,19 +20,19 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::SecurityTunnel_FileHeader* Header; // 0x10
 		::MiHoYo::SDK::SecurityTunnel_FilePart* Part; // 0x18
 
-		::System::Void _ctor(::MiHoYo::SDK::SecurityTunnel_FileHeader* header)
+		::System::Void _ctor(::MiHoYo::SDK::SecurityTunnel_FileHeader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_FileHeader*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_OFFSET))(this, header);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_FileHeader*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::MiHoYo::SDK::SecurityTunnel_FilePart* part)
+		::System::Void _ctor_1(::MiHoYo::SDK::SecurityTunnel_FilePart* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_FilePart*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_1_OFFSET))(this, part);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_FilePart*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::MiHoYo::SDK::SecurityTunnel_Packet* packet)
+		::System::Void _ctor_2(::MiHoYo::SDK::SecurityTunnel_Packet* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_Packet*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_2_OFFSET))(this, packet);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_Packet*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_2_OFFSET))(this, a1);
 		}
 	};
 }

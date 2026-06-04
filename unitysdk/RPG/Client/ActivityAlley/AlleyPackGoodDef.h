@@ -6,24 +6,24 @@
 namespace RPG::GameCore { class AlleyPackGoodItemConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKGOODDEF__CTOR_OFFSET UNITYSDK_OFFSET(0x9ABB980)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKGOODDEF__CTOR_OFFSET UNITYSDK_OFFSET(0xB09E580)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackGoodDef_TypeDefinitionIndex = 68210;
+	inline static constexpr unsigned int AlleyPackGoodDef_TypeDefinitionIndex = 69184;
 
 	class AlleyPackGoodDef : public ::System::Object
 	{
 	public:
-		::System::String* SettleAudioEvent; // 0x10
-		::RPG::GameCore::AlleyPackGoodItemConfig* Config; // 0x18
-		::System::String* RotateAudioEvent; // 0x20
-		::System::UInt32 GoodID; // 0x28
-		::RPG::GameCore::AlleyPackGoodsTypeEnum Type; // 0x2C
+		::RPG::GameCore::AlleyPackGoodItemConfig* Config; // 0x10
+		::System::String* RotateAudioEvent; // 0x18
+		::System::String* SettleAudioEvent; // 0x20
+		::RPG::GameCore::AlleyPackGoodsTypeEnum Type; // 0x28
+		::System::UInt32 GoodID; // 0x2C
 
-		::System::Void _ctor(::System::UInt32 goodID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKGOODDEF__CTOR_OFFSET))(this, goodID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKGOODDEF__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

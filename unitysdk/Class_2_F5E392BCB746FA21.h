@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_1_56FF45D7B2C55655;
+class Class_1_D70A30D666F20D90;
 namespace RPG::GameCore { class SwitchEffectBattleArea; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_F5E392BCB746FA21_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB233760)
-#define CLASS_2_F5E392BCB746FA21_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2337F0)
-#define CLASS_2_F5E392BCB746FA21_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2337A0)
-#define CLASS_2_F5E392BCB746FA21_TICK_OFFSET UNITYSDK_OFFSET(0xB2339C0)
-#define CLASS_2_F5E392BCB746FA21__CTOR_OFFSET UNITYSDK_OFFSET(0xB233750)
+#define CLASS_2_F5E392BCB746FA21_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13D256B0)
+#define CLASS_2_F5E392BCB746FA21_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13D25740)
+#define CLASS_2_F5E392BCB746FA21_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13D256F0)
+#define CLASS_2_F5E392BCB746FA21_TICK_OFFSET UNITYSDK_OFFSET(0x13D25910)
+#define CLASS_2_F5E392BCB746FA21__CTOR_OFFSET UNITYSDK_OFFSET(0x13D256A0)
 
-inline static constexpr unsigned int Class_2_F5E392BCB746FA21_TypeDefinitionIndex = 51343;
+inline static constexpr unsigned int Class_2_F5E392BCB746FA21_TypeDefinitionIndex = 52011;
 
 class Class_2_F5E392BCB746FA21 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x18
-	::Class_1_56FF45D7B2C55655* Field_2_0; // 0x20
-	::RPG::GameCore::SwitchEffectBattleArea* Field_2_1; // 0x28
+	::Class_1_D70A30D666F20D90* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::SwitchEffectBattleArea* Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchEffectBattleArea* a2)
 	{

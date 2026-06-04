@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x18A73D50)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18A73BA0)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x18A73870)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x18A73B40)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18A73ED0)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18A738F0)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18A73F10)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A740F0)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18A74240)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A74550)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18A74050)
-#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18A73FB0)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x198A73F0)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x198A7280)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x198A6F70)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x198A7220)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x198A7540)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x198A6FF0)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x198A7580)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x198A7750)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x198A78A0)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x198A7BC0)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x198A76B0)
+#define RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x198A7610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingImageExcelTable_TypeDefinitionIndex = 13243;
+	inline static constexpr unsigned int LoadingImageExcelTable_TypeDefinitionIndex = 13319;
 
 	class LoadingImageExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoadingImageRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoadingImageRow*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x315E0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoadingImageRow*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x29000);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x315E8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x29008);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x315F0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x29010);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LoadingImageExcelTable_TypeDefinitionIndex)->GetStaticField(0xC600);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LoadingImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x9880);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LoadingImageExcelTable_TypeDefinitionIndex)->GetStaticField(0xC601);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LoadingImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x9881);
 		}
 
 		static ::System::Void _cctor()
@@ -72,9 +72,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoadingImageRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GETENUMERATOR_OFFSET))();
 		}
 
-		static ::RPG::GameCore::LoadingImageRow* GetData(::System::UInt32 ID)
+		static ::RPG::GameCore::LoadingImageRow* GetData(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::LoadingImageRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GETDATA_OFFSET))(ID);
+			return ((::RPG::GameCore::LoadingImageRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_GETDATA_OFFSET))(a1);
 		}
 
 		static ::System::Boolean IsDataLoaded()
@@ -92,24 +92,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE_UNLOADDATA_OFFSET))();
 		}
 
-		static ::System::Void _LoadData(::System::String* sPath)
+		static ::System::Void _LoadData(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATA_OFFSET))(sPath);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATA_OFFSET))(a1);
 		}
 
-		static ::System::Void _LoadDataIncremential(::System::String* sPath, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* CacheMap, ::System::Boolean& NeedBake)
+		static ::System::Void _LoadDataIncremential(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean& a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(sPath, CacheMap, NeedBake);
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _AddItemFromBinary(::Class_1_7A22A3DBEEDD1F80* mByteBuf)
+		static ::System::Void _AddItemFromBinary(::Class_1_7A22A3DBEEDD1F80* a1)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(mByteBuf);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(a1);
 		}
 
-		static ::System::Void _AddItem(::RPG::GameCore::LoadingImageRow* pItem)
+		static ::System::Void _AddItem(::RPG::GameCore::LoadingImageRow* a1)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::LoadingImageRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEM_OFFSET))(pItem);
+			return ((::System::Void(*)(::RPG::GameCore::LoadingImageRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGIMAGEEXCELTABLE__ADDITEM_OFFSET))(a1);
 		}
 	};
 }

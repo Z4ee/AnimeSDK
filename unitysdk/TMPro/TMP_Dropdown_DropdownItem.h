@@ -9,21 +9,21 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0x1A34A950)
-#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1A34A970)
-#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1A34A930)
-#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1A34A990)
-#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_ONCANCEL_OFFSET UNITYSDK_OFFSET(0x1A34AA20)
-#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_ONPOINTERENTER_OFFSET UNITYSDK_OFFSET(0x1A34A9B0)
-#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_IMAGE_OFFSET UNITYSDK_OFFSET(0x1A34A960)
-#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1A34A980)
-#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1A34A940)
-#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1A34A9A0)
-#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A34AA80)
+#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0x1B1A4EC0)
+#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B1A4EE0)
+#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1B1A4EA0)
+#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1B1A4F00)
+#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_ONCANCEL_OFFSET UNITYSDK_OFFSET(0x1B1A4F90)
+#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_ONPOINTERENTER_OFFSET UNITYSDK_OFFSET(0x1B1A4F20)
+#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_IMAGE_OFFSET UNITYSDK_OFFSET(0x1B1A4ED0)
+#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B1A4EF0)
+#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1B1A4EB0)
+#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1B1A4F10)
+#define TMPRO_TMP_DROPDOWN_DROPDOWNITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A4FF0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Dropdown_DropdownItem_TypeDefinitionIndex = 40116;
+	inline static constexpr unsigned int TMP_Dropdown_DropdownItem_TypeDefinitionIndex = 40943;
 
 	class TMP_Dropdown_DropdownItem : public ::UnityEngine::MonoBehaviour
 	{
@@ -43,9 +43,9 @@ namespace TMPro
 			return ((::TMPro::TMP_Text*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_TEXT_OFFSET))(this);
 		}
 
-		::System::Void set_text(::TMPro::TMP_Text* value)
+		::System::Void set_text(::TMPro::TMP_Text* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_Text*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_TEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_Text*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_TEXT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::UI::Image* get_image()
@@ -53,9 +53,9 @@ namespace TMPro
 			return ((::UnityEngine::UI::Image*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_IMAGE_OFFSET))(this);
 		}
 
-		::System::Void set_image(::UnityEngine::UI::Image* value)
+		::System::Void set_image(::UnityEngine::UI::Image* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_IMAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_IMAGE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::RectTransform* get_rectTransform()
@@ -63,9 +63,9 @@ namespace TMPro
 			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_RECTTRANSFORM_OFFSET))(this);
 		}
 
-		::System::Void set_rectTransform(::UnityEngine::RectTransform* value)
+		::System::Void set_rectTransform(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_RECTTRANSFORM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_RECTTRANSFORM_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::UI::Toggle* get_toggle()
@@ -73,19 +73,19 @@ namespace TMPro
 			return ((::UnityEngine::UI::Toggle*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_GET_TOGGLE_OFFSET))(this);
 		}
 
-		::System::Void set_toggle(::UnityEngine::UI::Toggle* value)
+		::System::Void set_toggle(::UnityEngine::UI::Toggle* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Toggle*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_TOGGLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Toggle*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_SET_TOGGLE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_ONPOINTERENTER_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_ONPOINTERENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData)
+		::System::Void OnCancel(::UnityEngine::EventSystems::BaseEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_ONCANCEL_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_DROPDOWNITEM_ONCANCEL_OFFSET))(this, a1);
 		}
 	};
 }

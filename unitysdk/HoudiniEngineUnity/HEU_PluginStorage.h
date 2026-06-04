@@ -9,50 +9,50 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_CLEARPLUGINDATA_OFFSET UNITYSDK_OFFSET(0x8CB3620)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_CONVERTENVKEYEDPATHTOREAL_OFFSET UNITYSDK_OFFSET(0x8C75340)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_CONVERTREALPATHTOENVKEYEDPATH_OFFSET UNITYSDK_OFFSET(0x8C75850)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_DELETEALLSAVEDSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x8CB3870)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GETENVIRONMENTPATHMAP_OFFSET UNITYSDK_OFFSET(0x8CB1FC0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_1_OFFSET UNITYSDK_OFFSET(0x8CAEA00)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_2_OFFSET UNITYSDK_OFFSET(0x8CB2FB0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_3_OFFSET UNITYSDK_OFFSET(0x8CAD570)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_4_OFFSET UNITYSDK_OFFSET(0x8CAB450)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_5_OFFSET UNITYSDK_OFFSET(0x8CAF9D0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x8C752D0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_OFFSET UNITYSDK_OFFSET(0x8CABD40)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_REQUIRESSAVE_OFFSET UNITYSDK_OFFSET(0x8CB1FD0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_INSTANTIATEANDLOAD_OFFSET UNITYSDK_OFFSET(0x8CB1FE0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_LOADALLSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x8CB3820)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_LOADASSETENVIRONMENTPATHS_OFFSET UNITYSDK_OFFSET(0x8CAB7C0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_LOADFROMSAVEDFILE_OFFSET UNITYSDK_OFFSET(0x8CB3700)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_LOADPLUGINDATA_OFFSET UNITYSDK_OFFSET(0x8CB2270)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_MARKDIRTYFORSAVE_OFFSET UNITYSDK_OFFSET(0x8CB2ED0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_READFROMEDITORPREFS_OFFSET UNITYSDK_OFFSET(0x8CB3610)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SAVEALLSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x8CB3810)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SAVEIFREQUIRED_OFFSET UNITYSDK_OFFSET(0x8CB3090)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SAVEPLUGINDATA_OFFSET UNITYSDK_OFFSET(0x8CB30F0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SESSIONFILEPATH_OFFSET UNITYSDK_OFFSET(0x8CB3760)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SETCURRENTCULTURE_OFFSET UNITYSDK_OFFSET(0x8CB0FB0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SETTINGSFILEPATH_OFFSET UNITYSDK_OFFSET(0x8CB3560)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_1_OFFSET UNITYSDK_OFFSET(0x8CAEB80)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_2_OFFSET UNITYSDK_OFFSET(0x8CB2EE0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_3_OFFSET UNITYSDK_OFFSET(0x8CAD740)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_4_OFFSET UNITYSDK_OFFSET(0x8CAB700)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_5_OFFSET UNITYSDK_OFFSET(0x8CAFBC0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_OFFSET UNITYSDK_OFFSET(0x8CABEC0)
-#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x8CB21E0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_CLEARPLUGINDATA_OFFSET UNITYSDK_OFFSET(0x17F516D0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_CONVERTENVKEYEDPATHTOREAL_OFFSET UNITYSDK_OFFSET(0x17F51A50)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_CONVERTREALPATHTOENVKEYEDPATH_OFFSET UNITYSDK_OFFSET(0x17F518F0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_DELETEALLSAVEDSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x17F518E0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GETENVIRONMENTPATHMAP_OFFSET UNITYSDK_OFFSET(0x17F4FC10)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_1_OFFSET UNITYSDK_OFFSET(0x17F4B520)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_2_OFFSET UNITYSDK_OFFSET(0x17F51020)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_3_OFFSET UNITYSDK_OFFSET(0x17F4A180)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_4_OFFSET UNITYSDK_OFFSET(0x17F47E20)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_5_OFFSET UNITYSDK_OFFSET(0x17F4C640)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x17F47DE0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_OFFSET UNITYSDK_OFFSET(0x17F486B0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_REQUIRESSAVE_OFFSET UNITYSDK_OFFSET(0x17F4FC20)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_INSTANTIATEANDLOAD_OFFSET UNITYSDK_OFFSET(0x17F4FC30)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_LOADALLSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x17F51890)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_LOADASSETENVIRONMENTPATHS_OFFSET UNITYSDK_OFFSET(0x17F481A0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_LOADFROMSAVEDFILE_OFFSET UNITYSDK_OFFSET(0x17F517B0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_LOADPLUGINDATA_OFFSET UNITYSDK_OFFSET(0x17F4FE90)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_MARKDIRTYFORSAVE_OFFSET UNITYSDK_OFFSET(0x17F50F40)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_READFROMEDITORPREFS_OFFSET UNITYSDK_OFFSET(0x17F516C0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SAVEALLSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x17F51880)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SAVEIFREQUIRED_OFFSET UNITYSDK_OFFSET(0x17F51170)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SAVEPLUGINDATA_OFFSET UNITYSDK_OFFSET(0x17F51190)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SESSIONFILEPATH_OFFSET UNITYSDK_OFFSET(0x17F517D0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SETCURRENTCULTURE_OFFSET UNITYSDK_OFFSET(0x17F4E440)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SETTINGSFILEPATH_OFFSET UNITYSDK_OFFSET(0x17F51610)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_1_OFFSET UNITYSDK_OFFSET(0x17F4B6F0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_2_OFFSET UNITYSDK_OFFSET(0x17F50F50)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_3_OFFSET UNITYSDK_OFFSET(0x17F4A3A0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_4_OFFSET UNITYSDK_OFFSET(0x17F480E0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_5_OFFSET UNITYSDK_OFFSET(0x17F4C850)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_OFFSET UNITYSDK_OFFSET(0x17F488A0)
+#define HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17F4FE00)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PluginStorage_TypeDefinitionIndex = 43542;
+	inline static constexpr unsigned int HEU_PluginStorage_TypeDefinitionIndex = 37476;
 
 	class HEU_PluginStorage : public ::System::Object
 	{
 	public:
 		static ::HoudiniEngineUnity::HEU_PluginStorage** StaticGet__instance()
 		{
-			return (::HoudiniEngineUnity::HEU_PluginStorage**)Il2CppClass::FromTypeDefinitionIndex(HEU_PluginStorage_TypeDefinitionIndex)->GetStaticField(0x41DE0);
+			return (::HoudiniEngineUnity::HEU_PluginStorage**)Il2CppClass::FromTypeDefinitionIndex(HEU_PluginStorage_TypeDefinitionIndex)->GetStaticField(0xFE70);
 		}
 		// static const ::System::String* PluginSettingsLine1; // 0x0
 		// static const ::System::String* PluginSettingsLine2; // 0x0
@@ -86,69 +86,69 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_INSTANTIATEANDLOAD_OFFSET))();
 		}
 
-		static ::System::Void SetCurrentCulture(::System::Boolean useInvariant)
+		static ::System::Void SetCurrentCulture(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SETCURRENTCULTURE_OFFSET))(useInvariant);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SETCURRENTCULTURE_OFFSET))(a1);
 		}
 
-		::System::Void Set(::System::String* key, ::System::Boolean value)
+		::System::Void Set(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Set_1(::System::String* key, ::System::Int32 value)
+		::System::Void Set_1(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_1_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Set_2(::System::String* key, ::System::Int64 value)
+		::System::Void Set_2(::System::String* a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_2_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Set_3(::System::String* key, ::System::Single value)
+		::System::Void Set_3(::System::String* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_3_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Set_4(::System::String* key, ::System::String* value)
+		::System::Void Set_4(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_4_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Set_5(::System::String* key, ::System::Collections::Generic::List_1<::System::String*>* values, ::System::Char delimiter)
+		::System::Void Set_5(::System::String* a1, ::System::Collections::Generic::List_1<::System::String*>* a2, ::System::Char a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Char))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_5_OFFSET))(this, key, values, delimiter);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Char))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SET_5_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Get(::System::String* key, ::System::Boolean& value, ::System::Boolean defaultValue)
+		::System::Boolean Get(::System::String* a1, ::System::Boolean& a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_OFFSET))(this, key, value, defaultValue);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Get_1(::System::String* key, ::System::Int32& value, ::System::Int32 defaultValue)
+		::System::Boolean Get_1(::System::String* a1, ::System::Int32& a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_1_OFFSET))(this, key, value, defaultValue);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Get_2(::System::String* key, ::System::Int64& value, ::System::Int64 defaultValue)
+		::System::Boolean Get_2(::System::String* a1, ::System::Int64& a2, ::System::Int64 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int64&, ::System::Int64))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_2_OFFSET))(this, key, value, defaultValue);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int64&, ::System::Int64))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Get_3(::System::String* key, ::System::Single& value, ::System::Single defaultValue)
+		::System::Boolean Get_3(::System::String* a1, ::System::Single& a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_3_OFFSET))(this, key, value, defaultValue);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_3_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Get_4(::System::String* key, ::System::String*& value, ::System::String* defaultValue)
+		::System::Boolean Get_4(::System::String* a1, ::System::String*& a2, ::System::String* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*&, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_4_OFFSET))(this, key, value, defaultValue);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*&, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_4_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Get_5(::System::String* key, ::System::Collections::Generic::List_1<::System::String*>*& values, ::System::Char delimiter)
+		::System::Boolean Get_5(::System::String* a1, ::System::Collections::Generic::List_1<::System::String*>*& a2, ::System::Char a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*&, ::System::Char))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_5_OFFSET))(this, key, values, delimiter);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*&, ::System::Char))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_GET_5_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void MarkDirtyForSave()
@@ -196,9 +196,9 @@ namespace HoudiniEngineUnity
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SESSIONFILEPATH_OFFSET))();
 		}
 
-		static ::System::Void SaveAllSessionData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_SessionBase*>* allSessions)
+		static ::System::Void SaveAllSessionData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_SessionBase*>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_SessionBase*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SAVEALLSESSIONDATA_OFFSET))(allSessions);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_SessionBase*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_SAVEALLSESSIONDATA_OFFSET))(a1);
 		}
 
 		static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_SessionData*>* LoadAllSessionData()
@@ -216,14 +216,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_LOADASSETENVIRONMENTPATHS_OFFSET))(this);
 		}
 
-		::System::String* ConvertRealPathToEnvKeyedPath(::System::String* inPath)
+		::System::String* ConvertRealPathToEnvKeyedPath(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_CONVERTREALPATHTOENVKEYEDPATH_OFFSET))(this, inPath);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_CONVERTREALPATHTOENVKEYEDPATH_OFFSET))(this, a1);
 		}
 
-		::System::String* ConvertEnvKeyedPathToReal(::System::String* inPath)
+		::System::String* ConvertEnvKeyedPathToReal(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_CONVERTENVKEYEDPATHTOREAL_OFFSET))(this, inPath);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLUGINSTORAGE_CONVERTENVKEYEDPATHTOREAL_OFFSET))(this, a1);
 		}
 	};
 }

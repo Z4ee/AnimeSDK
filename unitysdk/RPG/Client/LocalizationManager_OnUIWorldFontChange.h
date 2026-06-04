@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA6F7C60)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA6F7CB0)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA6F78F0)
-#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA6F78D0)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xBE58190)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBE581E0)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0xBE58180)
+#define RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xBE58110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LocalizationManager_OnUIWorldFontChange_TypeDefinitionIndex = 56580;
+	inline static constexpr unsigned int LocalizationManager_OnUIWorldFontChange_TypeDefinitionIndex = 57357;
 
 	class LocalizationManager_OnUIWorldFontChange : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Boolean toWorldFont)
+		::System::Void Invoke(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_INVOKE_OFFSET))(this, toWorldFont);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Boolean toWorldFont, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Boolean a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_BEGININVOKE_OFFSET))(this, toWorldFont, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZATIONMANAGER_ONUIWORLDFONTCHANGE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

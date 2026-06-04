@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B52C90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS7_0__ONALLEQUIPSELECTFINISHED_B__0_OFFSET UNITYSDK_OFFSET(0x9B53230)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB139D80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS7_0__ONALLEQUIPSELECTFINISHED_B__0_OFFSET UNITYSDK_OFFSET(0xB13A350)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveEquipFlyService___c__DisplayClass7_0_TypeDefinitionIndex = 69346;
+	inline static constexpr unsigned int IdleLiveEquipFlyService___c__DisplayClass7_0_TypeDefinitionIndex = 70158;
 
 	class IdleLiveEquipFlyService___c__DisplayClass7_0 : public ::System::Object
 	{

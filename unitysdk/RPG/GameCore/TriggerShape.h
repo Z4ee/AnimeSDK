@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerShape_TypeDefinitionIndex = 16289;
+	inline static constexpr unsigned int TriggerShape_TypeDefinitionIndex = 16322;
 
 	enum class TriggerShape : ::System::Int32
 	{

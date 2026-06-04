@@ -7,13 +7,13 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_DOOR_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1A2D7DC0)
-#define UNITYENGINE_PROBUILDER_SHAPES_DOOR_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1A2D7E50)
-#define UNITYENGINE_PROBUILDER_SHAPES_DOOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2D9210)
+#define UNITYENGINE_PROBUILDER_SHAPES_DOOR_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1B1388B0)
+#define UNITYENGINE_PROBUILDER_SHAPES_DOOR_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1B138960)
+#define UNITYENGINE_PROBUILDER_SHAPES_DOOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B13A550)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Door_TypeDefinitionIndex = 40017;
+	inline static constexpr unsigned int Door_TypeDefinitionIndex = 40844;
 
 	class Door : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
@@ -26,14 +26,14 @@ namespace UnityEngine::ProBuilder::Shapes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_DOOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape)
+		::System::Void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Shapes::Shape*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_DOOR_COPYSHAPE_OFFSET))(this, shape);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::Shapes::Shape*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_DOOR_COPYSHAPE_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation)
+		::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3)
 		{
-			return ((::UnityEngine::Bounds(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_DOOR_REBUILDMESH_OFFSET))(this, mesh, size, rotation);
+			return ((::UnityEngine::Bounds(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_DOOR_REBUILDMESH_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

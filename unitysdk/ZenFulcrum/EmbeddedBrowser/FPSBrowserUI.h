@@ -8,16 +8,16 @@ namespace UnityEngine { class Transform; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserCursor; }
 namespace ZenFulcrum::EmbeddedBrowser { class FPSCursorRenderer; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_CREATE_OFFSET UNITYSDK_OFFSET(0x1A6BE250)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_GET_LOOKRAY_OFFSET UNITYSDK_OFFSET(0x1A6BE370)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_INPUTUPDATE_OFFSET UNITYSDK_OFFSET(0x1A6BE5D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_SETCURSOR_OFFSET UNITYSDK_OFFSET(0x1A6BE590)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_START_OFFSET UNITYSDK_OFFSET(0x1A6BE050)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6BE600)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_CREATE_OFFSET UNITYSDK_OFFSET(0x1B4F9EC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_GET_LOOKRAY_OFFSET UNITYSDK_OFFSET(0x1B4F9FE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_INPUTUPDATE_OFFSET UNITYSDK_OFFSET(0x1B4FA220)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_SETCURSOR_OFFSET UNITYSDK_OFFSET(0x1B4FA1E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_START_OFFSET UNITYSDK_OFFSET(0x1B4F9CD0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4FA250)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int FPSBrowserUI_TypeDefinitionIndex = 36239;
+	inline static constexpr unsigned int FPSBrowserUI_TypeDefinitionIndex = 36539;
 
 	class FPSBrowserUI : public ::ZenFulcrum::EmbeddedBrowser::ClickMeshBrowserUI
 	{
@@ -35,9 +35,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_START_OFFSET))(this);
 		}
 
-		static ::ZenFulcrum::EmbeddedBrowser::FPSBrowserUI* Create(::UnityEngine::MeshCollider* meshCollider, ::UnityEngine::Transform* worldPointer, ::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer* cursorRenderer)
+		static ::ZenFulcrum::EmbeddedBrowser::FPSBrowserUI* Create(::UnityEngine::MeshCollider* a1, ::UnityEngine::Transform* a2, ::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer* a3)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::FPSBrowserUI*(*)(::UnityEngine::MeshCollider*, ::UnityEngine::Transform*, ::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_CREATE_OFFSET))(meshCollider, worldPointer, cursorRenderer);
+			return ((::ZenFulcrum::EmbeddedBrowser::FPSBrowserUI*(*)(::UnityEngine::MeshCollider*, ::UnityEngine::Transform*, ::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_CREATE_OFFSET))(a1, a2, a3);
 		}
 
 		::UnityEngine::Ray get_LookRay()
@@ -45,9 +45,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::UnityEngine::Ray(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_GET_LOOKRAY_OFFSET))(this);
 		}
 
-		::System::Void SetCursor(::ZenFulcrum::EmbeddedBrowser::BrowserCursor* newCursor)
+		::System::Void SetCursor(::ZenFulcrum::EmbeddedBrowser::BrowserCursor* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::BrowserCursor*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_SETCURSOR_OFFSET))(this, newCursor);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::BrowserCursor*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSBROWSERUI_SETCURSOR_OFFSET))(this, a1);
 		}
 
 		::System::Void InputUpdate()

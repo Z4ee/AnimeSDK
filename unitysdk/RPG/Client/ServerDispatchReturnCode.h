@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ServerDispatchReturnCode_TypeDefinitionIndex = 63969;
+	inline static constexpr unsigned int ServerDispatchReturnCode_TypeDefinitionIndex = 64890;
 
 	enum class ServerDispatchReturnCode : ::System::Int32
 	{

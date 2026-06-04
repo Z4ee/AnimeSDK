@@ -20,13 +20,13 @@ namespace RPG::GameCore { class CakeRaceTrapCellConfig; }
 namespace RPG::GameCore { class CakeRaceTutorialConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_9779DE1442E7C5FF_OFFSET UNITYSDK_OFFSET(0x18771990)
-#define RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_CDB0BDD0E23F7E49_OFFSET UNITYSDK_OFFSET(0x18771950)
-#define RPG_GAMECORE_CAKERACEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18771980)
+#define RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_BD63F315F5199764_OFFSET UNITYSDK_OFFSET(0x195ED7B0)
+#define RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_DB075875CDE76E37_OFFSET UNITYSDK_OFFSET(0x195ED770)
+#define RPG_GAMECORE_CAKERACEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x195ED7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceGameConfig_TypeDefinitionIndex = 17489;
+	inline static constexpr unsigned int CakeRaceGameConfig_TypeDefinitionIndex = 17491;
 
 	class CakeRaceGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
@@ -53,14 +53,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CDB0BDD0E23F7E49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceGameConfig*& a2)
+		static ::System::Void Method_3_DB075875CDE76E37(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceGameConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_CDB0BDD0E23F7E49_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_DB075875CDE76E37_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9779DE1442E7C5FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceGameConfig* a2)
+		static ::System::Void Method_3_BD63F315F5199764(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_9779DE1442E7C5FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_BD63F315F5199764_OFFSET))(a1, a2);
 		}
 	};
 }

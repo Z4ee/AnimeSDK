@@ -1,41 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYBadgeItem; }
 
-#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xB331700)
-#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_GETBADGE_OFFSET UNITYSDK_OFFSET(0xB331790)
-#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xB3318E0)
-#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_GET_SLOTID_OFFSET UNITYSDK_OFFSET(0xB3318C0)
-#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xB331900)
-#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_SET_SLOTID_OFFSET UNITYSDK_OFFSET(0xB3318D0)
-#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB331780)
+#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xCA8C310)
+#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_GET_BADGE_OFFSET UNITYSDK_OFFSET(0xCA8C3D0)
+#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_GET_SLOTID_OFFSET UNITYSDK_OFFSET(0xCA8C3B0)
+#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_SET_BADGE_OFFSET UNITYSDK_OFFSET(0xCA8C3E0)
+#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_SET_SLOTID_OFFSET UNITYSDK_OFFSET(0xCA8C3C0)
+#define RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCA8C3A0)
 
 namespace RPG::Client::TrainParty::BadgeWall
 {
-	inline static constexpr unsigned int TrainPartyBuildBadgeSlotViewModel_TypeDefinitionIndex = 68647;
+	inline static constexpr unsigned int TrainPartyBuildBadgeSlotViewModel_TypeDefinitionIndex = 69459;
 
 	class TrainPartyBuildBadgeSlotViewModel : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 _Position_k__BackingField; // 0x10
-		::System::UInt32 _SlotID_k__BackingField; // 0x1C
+		::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem* _Badge_k__BackingField; // 0x10
+		::System::UInt32 _SlotID_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::TrainParty::BadgeWall::TrainPartyBuildBadgeSlotViewModel* Create(::System::UInt32 slotID)
+		static ::RPG::Client::TrainParty::BadgeWall::TrainPartyBuildBadgeSlotViewModel* Create(::System::UInt32 a1, ::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem* a2)
 		{
-			return ((::RPG::Client::TrainParty::BadgeWall::TrainPartyBuildBadgeSlotViewModel*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_CREATE_OFFSET))(slotID);
-		}
-
-		::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem* GetBadge()
-		{
-			return ((::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_GETBADGE_OFFSET))(this);
+			return ((::RPG::Client::TrainParty::BadgeWall::TrainPartyBuildBadgeSlotViewModel*(*)(::System::UInt32, ::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::UInt32 get_SlotID()
@@ -43,19 +36,19 @@ namespace RPG::Client::TrainParty::BadgeWall
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_GET_SLOTID_OFFSET))(this);
 		}
 
-		::System::Void set_SlotID(::System::UInt32 value)
+		::System::Void set_SlotID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_SET_SLOTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_SET_SLOTID_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 get_Position()
+		::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem* get_Badge()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_GET_POSITION_OFFSET))(this);
+			return ((::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_GET_BADGE_OFFSET))(this);
 		}
 
-		::System::Void set_Position(::UnityEngine::Vector3 value)
+		::System::Void set_Badge(::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_SET_POSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYBadgeItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_BADGEWALL_TRAINPARTYBUILDBADGESLOTVIEWMODEL_SET_BADGE_OFFSET))(this, a1);
 		}
 	};
 }

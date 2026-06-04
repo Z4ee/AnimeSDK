@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_276321B6B122C69C_1.h"
+#include "unitysdk/Struct_2_276321B6B122C69C_4.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class RogueMagicScepterDataItem; }
 
-#define CLASS_1_D4700839E2B7F917_METHOD_1_4CC205CE1D6385B6_OFFSET UNITYSDK_OFFSET(0x97B8150)
-#define CLASS_1_D4700839E2B7F917_METHOD_1_BF427EFFAD6F483A_OFFSET UNITYSDK_OFFSET(0x97B80B0)
-#define CLASS_1_D4700839E2B7F917__CTOR_OFFSET UNITYSDK_OFFSET(0x97B80A0)
+#define CLASS_1_D4700839E2B7F917_METHOD_1_4CC205CE1D6385B6_OFFSET UNITYSDK_OFFSET(0x140156B0)
+#define CLASS_1_D4700839E2B7F917_METHOD_1_BF427EFFAD6F483A_OFFSET UNITYSDK_OFFSET(0x14015610)
+#define CLASS_1_D4700839E2B7F917__CTOR_OFFSET UNITYSDK_OFFSET(0x14015600)
 
-inline static constexpr unsigned int Class_1_D4700839E2B7F917_TypeDefinitionIndex = 61952;
+inline static constexpr unsigned int Class_1_D4700839E2B7F917_TypeDefinitionIndex = 62885;
 
 class Class_1_D4700839E2B7F917 : public ::System::Object
 {
 public:
-	::RPG::Client::RogueMagicScepterDataItem* Field_1_1; // 0x10
-	::Struct_2_276321B6B122C69C_1 Field_1_0; // 0x18
+	::RPG::Client::RogueMagicScepterDataItem* Field_1_0; // 0x10
+	::Struct_2_276321B6B122C69C_4 Field_1_1; // 0x18
 
-	::System::Void _ctor(::Struct_2_276321B6B122C69C_1 a1)
+	::System::Void _ctor(::Struct_2_276321B6B122C69C_4 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_276321B6B122C69C_1))((::PBYTE)hIl2Cpp + CLASS_1_D4700839E2B7F917__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_276321B6B122C69C_4))((::PBYTE)hIl2Cpp + CLASS_1_D4700839E2B7F917__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Object* Method_1_BF427EFFAD6F483A()

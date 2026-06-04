@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_D22BBD5AAECFE505.h"
+
+class Class_0_16E4307DCC419505_28;
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Renderer; }
+
+#define CLASS_2_6097F51850B197E6_METHOD_2_187B4790D46C8F21_OFFSET UNITYSDK_OFFSET(0x14229C20)
+#define CLASS_2_6097F51850B197E6_METHOD_2_B4CF8B430805E59B_OFFSET UNITYSDK_OFFSET(0x14229910)
+#define CLASS_2_6097F51850B197E6_METHOD_2_D2DD6AE28AAF69CC_1_OFFSET UNITYSDK_OFFSET(0x14229D00)
+#define CLASS_2_6097F51850B197E6_METHOD_2_D2DD6AE28AAF69CC_OFFSET UNITYSDK_OFFSET(0x14229CA0)
+#define CLASS_2_6097F51850B197E6__CTOR_OFFSET UNITYSDK_OFFSET(0x14229C90)
+
+inline static constexpr unsigned int Class_2_6097F51850B197E6_TypeDefinitionIndex = 70577;
+
+class Class_2_6097F51850B197E6 : public ::Class_1_D22BBD5AAECFE505
+{
+public:
+	::UnityEngine::Renderer* Field_2_0; // 0x18
+	::UnityEngine::GameObject* Field_2_1; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6097F51850B197E6__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B4CF8B430805E59B(::Class_0_16E4307DCC419505_28* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_28*))((::PBYTE)hIl2Cpp + CLASS_2_6097F51850B197E6_METHOD_2_B4CF8B430805E59B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_187B4790D46C8F21(::Class_0_16E4307DCC419505_28* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_28*))((::PBYTE)hIl2Cpp + CLASS_2_6097F51850B197E6_METHOD_2_187B4790D46C8F21_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_D2DD6AE28AAF69CC(::Class_0_16E4307DCC419505_28* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_28*))((::PBYTE)hIl2Cpp + CLASS_2_6097F51850B197E6_METHOD_2_D2DD6AE28AAF69CC_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_D2DD6AE28AAF69CC_1(::Class_0_16E4307DCC419505_28* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_28*))((::PBYTE)hIl2Cpp + CLASS_2_6097F51850B197E6_METHOD_2_D2DD6AE28AAF69CC_1_OFFSET))(this, a1);
+	}
+};

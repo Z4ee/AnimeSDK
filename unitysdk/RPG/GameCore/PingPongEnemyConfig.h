@@ -9,12 +9,12 @@ namespace RPG::GameCore { class PingPongEnemyStackConfig; }
 namespace RPG::GameCore { class PingPongEnemyUnitConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PINGPONGENEMYCONFIG_METHOD_2_F72D3CEE361FFD32_OFFSET UNITYSDK_OFFSET(0x18BFA890)
-#define RPG_GAMECORE_PINGPONGENEMYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BFAB00)
+#define RPG_GAMECORE_PINGPONGENEMYCONFIG_METHOD_2_487E7584F103C511_OFFSET UNITYSDK_OFFSET(0x19A0C6F0)
+#define RPG_GAMECORE_PINGPONGENEMYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A0C940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongEnemyConfig_TypeDefinitionIndex = 16079;
+	inline static constexpr unsigned int PingPongEnemyConfig_TypeDefinitionIndex = 16129;
 
 	class PingPongEnemyConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F72D3CEE361FFD32(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongEnemyConfig*& a2)
+		static ::System::Void Method_2_487E7584F103C511(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongEnemyConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongEnemyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYCONFIG_METHOD_2_F72D3CEE361FFD32_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongEnemyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYCONFIG_METHOD_2_487E7584F103C511_OFFSET))(a1, a2);
 		}
 	};
 }

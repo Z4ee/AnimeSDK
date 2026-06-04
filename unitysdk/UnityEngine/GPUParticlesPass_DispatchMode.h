@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GPUParticlesPass_DispatchMode_TypeDefinitionIndex = 3925;
+	inline static constexpr unsigned int GPUParticlesPass_DispatchMode_TypeDefinitionIndex = 4099;
 
 	enum class GPUParticlesPass_DispatchMode : ::System::Int32
 	{

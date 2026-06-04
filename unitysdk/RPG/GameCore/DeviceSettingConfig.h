@@ -14,12 +14,12 @@ namespace RPG::GameCore { class GameObjectPoolSetting; }
 namespace RPG::GameCore { class MonsterAssetPreloadConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEVICESETTINGCONFIG_METHOD_2_837EA88F306F98DA_OFFSET UNITYSDK_OFFSET(0x1885E800)
-#define RPG_GAMECORE_DEVICESETTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1885ED60)
+#define RPG_GAMECORE_DEVICESETTINGCONFIG_METHOD_2_2CFC3B65E8D36458_OFFSET UNITYSDK_OFFSET(0x1969DBA0)
+#define RPG_GAMECORE_DEVICESETTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1969E0B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceSettingConfig_TypeDefinitionIndex = 15594;
+	inline static constexpr unsigned int DeviceSettingConfig_TypeDefinitionIndex = 15656;
 
 	class DeviceSettingConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -43,9 +43,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICESETTINGCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_837EA88F306F98DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceSettingConfig*& a2)
+		static ::System::Void Method_2_2CFC3B65E8D36458(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceSettingConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceSettingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICESETTINGCONFIG_METHOD_2_837EA88F306F98DA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceSettingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICESETTINGCONFIG_METHOD_2_2CFC3B65E8D36458_OFFSET))(a1, a2);
 		}
 	};
 }

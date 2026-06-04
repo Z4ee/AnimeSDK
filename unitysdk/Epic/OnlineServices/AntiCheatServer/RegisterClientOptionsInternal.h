@@ -8,18 +8,18 @@ namespace Epic::OnlineServices::AntiCheatServer { class RegisterClientOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE9D0)
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xE960)
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xE7F0)
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTHANDLE_OFFSET UNITYSDK_OFFSET(0x8D10)
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTPLATFORM_OFFSET UNITYSDK_OFFSET(0x6910)
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x26F0)
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_IPADDRESS_OFFSET UNITYSDK_OFFSET(0xE8A0)
-#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0xE950)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF2E0)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xF260)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xF0F0)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTHANDLE_OFFSET UNITYSDK_OFFSET(0x95B0)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTPLATFORM_OFFSET UNITYSDK_OFFSET(0x6F00)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x2A90)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_IPADDRESS_OFFSET UNITYSDK_OFFSET(0xF1A0)
+#define EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0xF250)
 
 namespace Epic::OnlineServices::AntiCheatServer
 {
-	inline static constexpr unsigned int RegisterClientOptionsInternal_TypeDefinitionIndex = 42449;
+	inline static constexpr unsigned int RegisterClientOptionsInternal_TypeDefinitionIndex = 43252;
 
 	struct alignas(8) RegisterClientOptionsInternal
 	{
@@ -30,39 +30,39 @@ namespace Epic::OnlineServices::AntiCheatServer
 		::System::IntPtr m_AccountId; // 0x28
 		::System::IntPtr m_IpAddress; // 0x30
 
-		::System::Void set_ClientHandle(::System::IntPtr value)
+		::System::Void set_ClientHandle(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTHANDLE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ClientType(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType value)
+		::System::Void set_ClientType(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ClientPlatform(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform value)
+		::System::Void set_ClientPlatform(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTPLATFORM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_CLIENTPLATFORM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_AccountId(::System::String* value)
+		::System::Void set_AccountId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_IpAddress(::System::String* value)
+		::System::Void set_IpAddress(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_IPADDRESS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_IPADDRESS_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::AntiCheatServer::RegisterClientOptions* other)
+		::System::Void Set(::Epic::OnlineServices::AntiCheatServer::RegisterClientOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatServer::RegisterClientOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatServer::RegisterClientOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATSERVER_REGISTERCLIENTOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

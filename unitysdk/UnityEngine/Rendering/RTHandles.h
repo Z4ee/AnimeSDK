@@ -17,30 +17,30 @@ namespace UnityEngine::Rendering { class RTHandle; }
 namespace UnityEngine::Rendering { class RTHandleSystem; }
 namespace UnityEngine::Rendering { class ScaleFunc; }
 
-#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_1_OFFSET UNITYSDK_OFFSET(0x1A325F40)
-#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_2_OFFSET UNITYSDK_OFFSET(0x1A3260D0)
-#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_3_OFFSET UNITYSDK_OFFSET(0x1A3262C0)
-#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_4_OFFSET UNITYSDK_OFFSET(0x1A326440)
-#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_OFFSET UNITYSDK_OFFSET(0x1A325DB0)
-#define UNITYENGINE_RENDERING_RTHANDLES_GET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x1A325C90)
-#define UNITYENGINE_RENDERING_RTHANDLES_GET_MAXWIDTH_OFFSET UNITYSDK_OFFSET(0x1A325C10)
-#define UNITYENGINE_RENDERING_RTHANDLES_GET_RTHANDLEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A325D10)
-#define UNITYENGINE_RENDERING_RTHANDLES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A3264F0)
-#define UNITYENGINE_RENDERING_RTHANDLES_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A326590)
-#define UNITYENGINE_RENDERING_RTHANDLES_SETHARDWAREDYNAMICRESOLUTIONSTATE_OFFSET UNITYSDK_OFFSET(0x1A326620)
-#define UNITYENGINE_RENDERING_RTHANDLES_SETREFERENCESIZE_OFFSET UNITYSDK_OFFSET(0x1A3266A0)
-#define UNITYENGINE_RENDERING_RTHANDLES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A326730)
+#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_1_OFFSET UNITYSDK_OFFSET(0x1B180430)
+#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_2_OFFSET UNITYSDK_OFFSET(0x1B1805C0)
+#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_3_OFFSET UNITYSDK_OFFSET(0x1B1807B0)
+#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_4_OFFSET UNITYSDK_OFFSET(0x1B180930)
+#define UNITYENGINE_RENDERING_RTHANDLES_ALLOC_OFFSET UNITYSDK_OFFSET(0x1B1802A0)
+#define UNITYENGINE_RENDERING_RTHANDLES_GET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B180180)
+#define UNITYENGINE_RENDERING_RTHANDLES_GET_MAXWIDTH_OFFSET UNITYSDK_OFFSET(0x1B180100)
+#define UNITYENGINE_RENDERING_RTHANDLES_GET_RTHANDLEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B180200)
+#define UNITYENGINE_RENDERING_RTHANDLES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B1809E0)
+#define UNITYENGINE_RENDERING_RTHANDLES_RELEASE_OFFSET UNITYSDK_OFFSET(0x1B180A80)
+#define UNITYENGINE_RENDERING_RTHANDLES_SETHARDWAREDYNAMICRESOLUTIONSTATE_OFFSET UNITYSDK_OFFSET(0x1B180B10)
+#define UNITYENGINE_RENDERING_RTHANDLES_SETREFERENCESIZE_OFFSET UNITYSDK_OFFSET(0x1B180B90)
+#define UNITYENGINE_RENDERING_RTHANDLES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B180C20)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RTHandles_TypeDefinitionIndex = 33497;
+	inline static constexpr unsigned int RTHandles_TypeDefinitionIndex = 33779;
 
 	class RTHandles : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::RTHandleSystem** StaticGet_s_DefaultInstance()
 		{
-			return (::UnityEngine::Rendering::RTHandleSystem**)Il2CppClass::FromTypeDefinitionIndex(RTHandles_TypeDefinitionIndex)->GetStaticField(0x67ED0);
+			return (::UnityEngine::Rendering::RTHandleSystem**)Il2CppClass::FromTypeDefinitionIndex(RTHandles_TypeDefinitionIndex)->GetStaticField(0x4B310);
 		}
 
 		static ::System::Void _cctor()
@@ -63,49 +63,49 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Rendering::RTHandleProperties(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_GET_RTHANDLEPROPERTIES_OFFSET))();
 		}
 
-		static ::UnityEngine::Rendering::RTHandle* Alloc(::System::Int32 width, ::System::Int32 height, ::System::Int32 slices, ::UnityEngine::Rendering::DepthBits depthBufferBits, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, ::UnityEngine::Rendering::TextureDimension dimension, ::System::Boolean enableRandomWrite, ::System::Boolean useMipMap, ::System::Boolean autoGenerateMips, ::System::Boolean isShadowMap, ::System::Int32 anisoLevel, ::System::Single mipMapBias, ::UnityEngine::Rendering::MSAASamples msaaSamples, ::System::Boolean bindTextureMS, ::System::Boolean useDynamicScale, ::UnityEngine::RenderTextureMemoryless memoryless, ::System::String* name)
+		static ::UnityEngine::Rendering::RTHandle* Alloc(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Rendering::DepthBits a4, ::UnityEngine::Experimental::Rendering::GraphicsFormat a5, ::UnityEngine::FilterMode a6, ::UnityEngine::TextureWrapMode a7, ::UnityEngine::Rendering::TextureDimension a8, ::System::Boolean a9, ::System::Boolean a10, ::System::Boolean a11, ::System::Boolean a12, ::System::Int32 a13, ::System::Single a14, ::UnityEngine::Rendering::MSAASamples a15, ::System::Boolean a16, ::System::Boolean a17, ::UnityEngine::RenderTextureMemoryless a18, ::System::String* a19)
 		{
-			return ((::UnityEngine::Rendering::RTHandle*(*)(::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::Rendering::DepthBits, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, ::UnityEngine::Rendering::TextureDimension, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Single, ::UnityEngine::Rendering::MSAASamples, ::System::Boolean, ::System::Boolean, ::UnityEngine::RenderTextureMemoryless, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_ALLOC_OFFSET))(width, height, slices, depthBufferBits, colorFormat, filterMode, wrapMode, dimension, enableRandomWrite, useMipMap, autoGenerateMips, isShadowMap, anisoLevel, mipMapBias, msaaSamples, bindTextureMS, useDynamicScale, memoryless, name);
+			return ((::UnityEngine::Rendering::RTHandle*(*)(::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::Rendering::DepthBits, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, ::UnityEngine::Rendering::TextureDimension, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Single, ::UnityEngine::Rendering::MSAASamples, ::System::Boolean, ::System::Boolean, ::UnityEngine::RenderTextureMemoryless, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_ALLOC_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19);
 		}
 
-		static ::UnityEngine::Rendering::RTHandle* Alloc_1(::UnityEngine::Vector2 scaleFactor, ::System::Int32 slices, ::UnityEngine::Rendering::DepthBits depthBufferBits, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, ::UnityEngine::Rendering::TextureDimension dimension, ::System::Boolean enableRandomWrite, ::System::Boolean useMipMap, ::System::Boolean autoGenerateMips, ::System::Boolean isShadowMap, ::System::Int32 anisoLevel, ::System::Single mipMapBias, ::System::Boolean enableMSAA, ::System::Boolean bindTextureMS, ::System::Boolean useDynamicScale, ::UnityEngine::RenderTextureMemoryless memoryless, ::System::String* name)
+		static ::UnityEngine::Rendering::RTHandle* Alloc_1(::UnityEngine::Vector2 a1, ::System::Int32 a2, ::UnityEngine::Rendering::DepthBits a3, ::UnityEngine::Experimental::Rendering::GraphicsFormat a4, ::UnityEngine::FilterMode a5, ::UnityEngine::TextureWrapMode a6, ::UnityEngine::Rendering::TextureDimension a7, ::System::Boolean a8, ::System::Boolean a9, ::System::Boolean a10, ::System::Boolean a11, ::System::Int32 a12, ::System::Single a13, ::System::Boolean a14, ::System::Boolean a15, ::System::Boolean a16, ::UnityEngine::RenderTextureMemoryless a17, ::System::String* a18)
 		{
-			return ((::UnityEngine::Rendering::RTHandle*(*)(::UnityEngine::Vector2, ::System::Int32, ::UnityEngine::Rendering::DepthBits, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, ::UnityEngine::Rendering::TextureDimension, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::UnityEngine::RenderTextureMemoryless, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_ALLOC_1_OFFSET))(scaleFactor, slices, depthBufferBits, colorFormat, filterMode, wrapMode, dimension, enableRandomWrite, useMipMap, autoGenerateMips, isShadowMap, anisoLevel, mipMapBias, enableMSAA, bindTextureMS, useDynamicScale, memoryless, name);
+			return ((::UnityEngine::Rendering::RTHandle*(*)(::UnityEngine::Vector2, ::System::Int32, ::UnityEngine::Rendering::DepthBits, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, ::UnityEngine::Rendering::TextureDimension, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::UnityEngine::RenderTextureMemoryless, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_ALLOC_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18);
 		}
 
-		static ::UnityEngine::Rendering::RTHandle* Alloc_2(::UnityEngine::Rendering::ScaleFunc* scaleFunc, ::System::Int32 slices, ::UnityEngine::Rendering::DepthBits depthBufferBits, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, ::UnityEngine::Rendering::TextureDimension dimension, ::System::Boolean enableRandomWrite, ::System::Boolean useMipMap, ::System::Boolean autoGenerateMips, ::System::Boolean isShadowMap, ::System::Int32 anisoLevel, ::System::Single mipMapBias, ::System::Boolean enableMSAA, ::System::Boolean bindTextureMS, ::System::Boolean useDynamicScale, ::UnityEngine::RenderTextureMemoryless memoryless, ::System::String* name)
+		static ::UnityEngine::Rendering::RTHandle* Alloc_2(::UnityEngine::Rendering::ScaleFunc* a1, ::System::Int32 a2, ::UnityEngine::Rendering::DepthBits a3, ::UnityEngine::Experimental::Rendering::GraphicsFormat a4, ::UnityEngine::FilterMode a5, ::UnityEngine::TextureWrapMode a6, ::UnityEngine::Rendering::TextureDimension a7, ::System::Boolean a8, ::System::Boolean a9, ::System::Boolean a10, ::System::Boolean a11, ::System::Int32 a12, ::System::Single a13, ::System::Boolean a14, ::System::Boolean a15, ::System::Boolean a16, ::UnityEngine::RenderTextureMemoryless a17, ::System::String* a18)
 		{
-			return ((::UnityEngine::Rendering::RTHandle*(*)(::UnityEngine::Rendering::ScaleFunc*, ::System::Int32, ::UnityEngine::Rendering::DepthBits, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, ::UnityEngine::Rendering::TextureDimension, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::UnityEngine::RenderTextureMemoryless, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_ALLOC_2_OFFSET))(scaleFunc, slices, depthBufferBits, colorFormat, filterMode, wrapMode, dimension, enableRandomWrite, useMipMap, autoGenerateMips, isShadowMap, anisoLevel, mipMapBias, enableMSAA, bindTextureMS, useDynamicScale, memoryless, name);
+			return ((::UnityEngine::Rendering::RTHandle*(*)(::UnityEngine::Rendering::ScaleFunc*, ::System::Int32, ::UnityEngine::Rendering::DepthBits, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, ::UnityEngine::Rendering::TextureDimension, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::UnityEngine::RenderTextureMemoryless, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_ALLOC_2_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18);
 		}
 
-		static ::UnityEngine::Rendering::RTHandle* Alloc_3(::UnityEngine::Texture* tex)
+		static ::UnityEngine::Rendering::RTHandle* Alloc_3(::UnityEngine::Texture* a1)
 		{
-			return ((::UnityEngine::Rendering::RTHandle*(*)(::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_ALLOC_3_OFFSET))(tex);
+			return ((::UnityEngine::Rendering::RTHandle*(*)(::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_ALLOC_3_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Rendering::RTHandle* Alloc_4(::UnityEngine::Rendering::RTHandle* tex)
+		static ::UnityEngine::Rendering::RTHandle* Alloc_4(::UnityEngine::Rendering::RTHandle* a1)
 		{
-			return ((::UnityEngine::Rendering::RTHandle*(*)(::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_ALLOC_4_OFFSET))(tex);
+			return ((::UnityEngine::Rendering::RTHandle*(*)(::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_ALLOC_4_OFFSET))(a1);
 		}
 
-		static ::System::Void Initialize(::System::Int32 width, ::System::Int32 height, ::System::Boolean scaledRTsupportsMSAA, ::UnityEngine::Rendering::MSAASamples scaledRTMSAASamples)
+		static ::System::Void Initialize(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3, ::UnityEngine::Rendering::MSAASamples a4)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Boolean, ::UnityEngine::Rendering::MSAASamples))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_INITIALIZE_OFFSET))(width, height, scaledRTsupportsMSAA, scaledRTMSAASamples);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Boolean, ::UnityEngine::Rendering::MSAASamples))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_INITIALIZE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Release(::UnityEngine::Rendering::RTHandle* rth)
+		static ::System::Void Release(::UnityEngine::Rendering::RTHandle* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_RELEASE_OFFSET))(rth);
+			return ((::System::Void(*)(::UnityEngine::Rendering::RTHandle*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_RELEASE_OFFSET))(a1);
 		}
 
-		static ::System::Void SetHardwareDynamicResolutionState(::System::Boolean hwDynamicResRequested)
+		static ::System::Void SetHardwareDynamicResolutionState(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_SETHARDWAREDYNAMICRESOLUTIONSTATE_OFFSET))(hwDynamicResRequested);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_SETHARDWAREDYNAMICRESOLUTIONSTATE_OFFSET))(a1);
 		}
 
-		static ::System::Void SetReferenceSize(::System::Int32 width, ::System::Int32 height, ::UnityEngine::Rendering::MSAASamples msaaSamples)
+		static ::System::Void SetReferenceSize(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Rendering::MSAASamples a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::UnityEngine::Rendering::MSAASamples))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_SETREFERENCESIZE_OFFSET))(width, height, msaaSamples);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::UnityEngine::Rendering::MSAASamples))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RTHANDLES_SETREFERENCESIZE_OFFSET))(a1, a2, a3);
 		}
 	};
 }

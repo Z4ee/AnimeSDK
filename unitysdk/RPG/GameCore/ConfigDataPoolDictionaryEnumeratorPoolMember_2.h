@@ -4,17 +4,17 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_0_16E4307DCC419505_16;
+class Class_1_43BD383C98B4C0C5_3;
 namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolDictionaryEnumeratorPoolMember_2_TypeDefinitionIndex = 23513;
+	inline static constexpr unsigned int ConfigDataPoolDictionaryEnumeratorPoolMember_2_TypeDefinitionIndex = 10368;
 
 	template <typename TKey, typename TValue>
 	struct ConfigDataPoolDictionaryEnumeratorPoolMember_2
 	{
-		::Class_0_16E4307DCC419505_16* _Pool; // 0x0
+		::Class_1_43BD383C98B4C0C5_3* _Pool; // 0x0
 		::System::UInt32 _Offset; // 0x0
 		::System::Int32 _Count; // 0x0
 		::RPG::GameCore::ConfigDataPoolDictionaryEnumeratorPoolMember_2_DictionaryStorageType<TKey, TValue> _StorageType; // 0x0

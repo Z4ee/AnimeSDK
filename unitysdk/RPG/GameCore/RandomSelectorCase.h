@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RANDOMSELECTORCASE_METHOD_2_0AED6BEF79BE3524_OFFSET UNITYSDK_OFFSET(0x18C8B150)
-#define RPG_GAMECORE_RANDOMSELECTORCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C8B2E0)
+#define RPG_GAMECORE_RANDOMSELECTORCASE_METHOD_2_A4E2EBD80D66DDBB_OFFSET UNITYSDK_OFFSET(0x19AAFF40)
+#define RPG_GAMECORE_RANDOMSELECTORCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB00D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomSelectorCase_TypeDefinitionIndex = 22765;
+	inline static constexpr unsigned int RandomSelectorCase_TypeDefinitionIndex = 22472;
 
 	class RandomSelectorCase : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTORCASE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0AED6BEF79BE3524(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectorCase*& a2)
+		static ::System::Void Method_2_A4E2EBD80D66DDBB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectorCase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectorCase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTORCASE_METHOD_2_0AED6BEF79BE3524_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectorCase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTORCASE_METHOD_2_A4E2EBD80D66DDBB_OFFSET))(a1, a2);
 		}
 	};
 }

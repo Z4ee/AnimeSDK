@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6EB480)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6EB4B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6EB1D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6EB1B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B5183F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B518420)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B5183E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B518370)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__GetCurrentGridAlpha_TypeDefinitionIndex = 35792;
+	inline static constexpr unsigned int IVRCompositor__GetCurrentGridAlpha_TypeDefinitionIndex = 36092;
 
 	class IVRCompositor__GetCurrentGridAlpha : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single Invoke()
@@ -28,14 +28,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single EndInvoke(::System::IAsyncResult* result)
+		::System::Single EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Single(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETCURRENTGRIDALPHA_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

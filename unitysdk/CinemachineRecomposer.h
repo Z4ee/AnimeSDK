@@ -6,13 +6,13 @@
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define CINEMACHINERECOMPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x12BB1AA0)
-#define CINEMACHINERECOMPOSER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x12BB1B20)
-#define CINEMACHINERECOMPOSER_PREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET UNITYSDK_OFFSET(0x12BB1B00)
-#define CINEMACHINERECOMPOSER_RESET_OFFSET UNITYSDK_OFFSET(0x12BB1A80)
-#define CINEMACHINERECOMPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB1F60)
+#define CINEMACHINERECOMPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1466EB40)
+#define CINEMACHINERECOMPOSER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1466EBC0)
+#define CINEMACHINERECOMPOSER_PREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1466EBA0)
+#define CINEMACHINERECOMPOSER_RESET_OFFSET UNITYSDK_OFFSET(0x1466EB20)
+#define CINEMACHINERECOMPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1466F000)
 
-inline static constexpr unsigned int CinemachineRecomposer_TypeDefinitionIndex = 36474;
+inline static constexpr unsigned int CinemachineRecomposer_TypeDefinitionIndex = 36774;
 
 class CinemachineRecomposer : public ::Cinemachine::CinemachineExtension
 {
@@ -40,13 +40,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINERECOMPOSER_ONVALIDATE_OFFSET))(this);
 	}
 
-	::System::Void PrePipelineMutateCameraStateCallback(::Cinemachine::CinemachineVirtualCameraBase* vcam, ::Cinemachine::CameraState& curState, ::System::Single deltaTime)
+	::System::Void PrePipelineMutateCameraStateCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CameraState& a2, ::System::Single a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINERECOMPOSER_PREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET))(this, vcam, curState, deltaTime);
+		return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINERECOMPOSER_PREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* vcam, ::Cinemachine::CinemachineCore_Stage stage, ::Cinemachine::CameraState& state, ::System::Single deltaTime)
+	::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState& a3, ::System::Single a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINERECOMPOSER_POSTPIPELINESTAGECALLBACK_OFFSET))(this, vcam, stage, state, deltaTime);
+		return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINERECOMPOSER_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
 	}
 };

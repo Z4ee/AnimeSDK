@@ -8,12 +8,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHANGECHARACTERSKILLROWDATAITEM_METHOD_2_F16D4DCD12676E45_OFFSET UNITYSDK_OFFSET(0x187C68A0)
-#define RPG_GAMECORE_CHANGECHARACTERSKILLROWDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x187C6B80)
+#define RPG_GAMECORE_CHANGECHARACTERSKILLROWDATAITEM_METHOD_2_DF9DDBA5DDBBA054_OFFSET UNITYSDK_OFFSET(0x19602AA0)
+#define RPG_GAMECORE_CHANGECHARACTERSKILLROWDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19602D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeCharacterSkillRowDataItem_TypeDefinitionIndex = 22664;
+	inline static constexpr unsigned int ChangeCharacterSkillRowDataItem_TypeDefinitionIndex = 22384;
 
 	class ChangeCharacterSkillRowDataItem : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERSKILLROWDATAITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F16D4DCD12676E45(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeCharacterSkillRowDataItem*& a2)
+		static ::System::Void Method_2_DF9DDBA5DDBBA054(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeCharacterSkillRowDataItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeCharacterSkillRowDataItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERSKILLROWDATAITEM_METHOD_2_F16D4DCD12676E45_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeCharacterSkillRowDataItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERSKILLROWDATAITEM_METHOD_2_DF9DDBA5DDBBA054_OFFSET))(a1, a2);
 		}
 	};
 }

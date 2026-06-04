@@ -5,12 +5,12 @@
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB3E7040)
-#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS29_0__LUABINDDRAGENTERCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xB3E7BD0)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB484E0)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS29_0__LUABINDDRAGENTERCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xCB490D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIDraggableManager___c__DisplayClass29_0_TypeDefinitionIndex = 63697;
+	inline static constexpr unsigned int UIDraggableManager___c__DisplayClass29_0_TypeDefinitionIndex = 64618;
 
 	class UIDraggableManager___c__DisplayClass29_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _LuaBindDragEnterCallback_b__0(::System::Object* data)
+		::System::Void _LuaBindDragEnterCallback_b__0(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS29_0__LUABINDDRAGENTERCALLBACK_B__0_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS29_0__LUABINDDRAGENTERCALLBACK_B__0_OFFSET))(this, a1);
 		}
 	};
 }

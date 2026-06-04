@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RtCharacterVisual; }
 
-#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL_METHOD_2_5B13D1AF976017D0_OFFSET UNITYSDK_OFFSET(0x18DCBB10)
-#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x18DCBC60)
+#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL_METHOD_2_76EE3D985151D217_OFFSET UNITYSDK_OFFSET(0x19BE4F30)
+#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE5040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCharacterFlagVisual_TypeDefinitionIndex = 23086;
+	inline static constexpr unsigned int RtCharacterFlagVisual_TypeDefinitionIndex = 22770;
 
 	class RtCharacterFlagVisual : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERFLAGVISUAL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5B13D1AF976017D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtCharacterFlagVisual*& a2)
+		static ::System::Void Method_2_76EE3D985151D217(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtCharacterFlagVisual*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCharacterFlagVisual*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERFLAGVISUAL_METHOD_2_5B13D1AF976017D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCharacterFlagVisual*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERFLAGVISUAL_METHOD_2_76EE3D985151D217_OFFSET))(a1, a2);
 		}
 	};
 }

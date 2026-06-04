@@ -9,36 +9,36 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A70F7B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A70F860)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A70F0F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A70F0D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B5221D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B522280)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B5221A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B522120)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRRenderModels__GetRenderModelThumbnailURL_TypeDefinitionIndex = 35918;
+	inline static constexpr unsigned int IVRRenderModels__GetRenderModelThumbnailURL_TypeDefinitionIndex = 36218;
 
 	class IVRRenderModels__GetRenderModelThumbnailURL : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 Invoke(::System::String* pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, ::System::UInt32 unThumbnailURLLen, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError& peError)
+		::System::UInt32 Invoke(::System::String* a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError& a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_INVOKE_OFFSET))(this, pchRenderModelName, pchThumbnailURL, unThumbnailURLLen, peError);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, ::System::UInt32 unThumbnailURLLen, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError& peError, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError& a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_BEGININVOKE_OFFSET))(this, pchRenderModelName, pchThumbnailURL, unThumbnailURLLen, peError, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::UInt32 EndInvoke(::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError& peError, ::System::IAsyncResult* result)
+		::System::UInt32 EndInvoke(::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_ENDINVOKE_OFFSET))(this, peError, result);
+			return ((::System::UInt32(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELTHUMBNAILURL_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -6,34 +6,34 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_CATALOGITEMID_OFFSET UNITYSDK_OFFSET(0x8E7A510)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_ENDTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x8E7A570)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_ENTITLEMENTID_OFFSET UNITYSDK_OFFSET(0x8E7A4F0)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_ENTITLEMENTNAME_OFFSET UNITYSDK_OFFSET(0x8E7A4D0)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_REDEEMED_OFFSET UNITYSDK_OFFSET(0x8E7A550)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_SERVERINDEX_OFFSET UNITYSDK_OFFSET(0x8E7A530)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_1_OFFSET UNITYSDK_OFFSET(0x8E7ADD0)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_CATALOGITEMID_OFFSET UNITYSDK_OFFSET(0x8E7A520)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENDTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x8E7A580)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENTITLEMENTID_OFFSET UNITYSDK_OFFSET(0x8E7A500)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENTITLEMENTNAME_OFFSET UNITYSDK_OFFSET(0x8E7A4E0)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_OFFSET UNITYSDK_OFFSET(0x8E7A590)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_REDEEMED_OFFSET UNITYSDK_OFFSET(0x8E7A560)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_SERVERINDEX_OFFSET UNITYSDK_OFFSET(0x8E7A540)
-#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x8E7AF10)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_CATALOGITEMID_OFFSET UNITYSDK_OFFSET(0xA2BBCA0)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_ENDTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xA2BBD00)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_ENTITLEMENTID_OFFSET UNITYSDK_OFFSET(0xA2BBC80)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_ENTITLEMENTNAME_OFFSET UNITYSDK_OFFSET(0xA2BBC60)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_REDEEMED_OFFSET UNITYSDK_OFFSET(0xA2BBCE0)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_SERVERINDEX_OFFSET UNITYSDK_OFFSET(0xA2BBCC0)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_1_OFFSET UNITYSDK_OFFSET(0xA2BC560)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_CATALOGITEMID_OFFSET UNITYSDK_OFFSET(0xA2BBCB0)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENDTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xA2BBD10)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENTITLEMENTID_OFFSET UNITYSDK_OFFSET(0xA2BBC90)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENTITLEMENTNAME_OFFSET UNITYSDK_OFFSET(0xA2BBC70)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_OFFSET UNITYSDK_OFFSET(0xA2BBD20)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_REDEEMED_OFFSET UNITYSDK_OFFSET(0xA2BBCF0)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_SERVERINDEX_OFFSET UNITYSDK_OFFSET(0xA2BBCD0)
+#define EPIC_ONLINESERVICES_ECOM_ENTITLEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA2BC6A0)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int Entitlement_TypeDefinitionIndex = 42172;
+	inline static constexpr unsigned int Entitlement_TypeDefinitionIndex = 42975;
 
 	class Entitlement : public ::System::Object
 	{
 	public:
-		::System::String* _CatalogItemId_k__BackingField; // 0x10
+		::System::String* _EntitlementId_k__BackingField; // 0x10
 		::System::String* _EntitlementName_k__BackingField; // 0x18
-		::System::String* _EntitlementId_k__BackingField; // 0x20
-		::System::Int32 _ServerIndex_k__BackingField; // 0x28
-		::System::Boolean _Redeemed_k__BackingField; // 0x2C
+		::System::String* _CatalogItemId_k__BackingField; // 0x20
+		::System::Boolean _Redeemed_k__BackingField; // 0x28
+		::System::Int32 _ServerIndex_k__BackingField; // 0x2C
 		::System::Int64 _EndTimestamp_k__BackingField; // 0x30
 
 		::System::Void _ctor()
@@ -46,9 +46,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_ENTITLEMENTNAME_OFFSET))(this);
 		}
 
-		::System::Void set_EntitlementName(::System::String* value)
+		::System::Void set_EntitlementName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENTITLEMENTNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENTITLEMENTNAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_EntitlementId()
@@ -56,9 +56,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_ENTITLEMENTID_OFFSET))(this);
 		}
 
-		::System::Void set_EntitlementId(::System::String* value)
+		::System::Void set_EntitlementId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENTITLEMENTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENTITLEMENTID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_CatalogItemId()
@@ -66,9 +66,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_CATALOGITEMID_OFFSET))(this);
 		}
 
-		::System::Void set_CatalogItemId(::System::String* value)
+		::System::Void set_CatalogItemId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_CATALOGITEMID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_CATALOGITEMID_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ServerIndex()
@@ -76,9 +76,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_SERVERINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_ServerIndex(::System::Int32 value)
+		::System::Void set_ServerIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_SERVERINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_SERVERINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Redeemed()
@@ -86,9 +86,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_REDEEMED_OFFSET))(this);
 		}
 
-		::System::Void set_Redeemed(::System::Boolean value)
+		::System::Void set_Redeemed(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_REDEEMED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_REDEEMED_OFFSET))(this, a1);
 		}
 
 		::System::Int64 get_EndTimestamp()
@@ -96,19 +96,19 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_GET_ENDTIMESTAMP_OFFSET))(this);
 		}
 
-		::System::Void set_EndTimestamp(::System::Int64 value)
+		::System::Void set_EndTimestamp(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENDTIMESTAMP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_ENDTIMESTAMP_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Ecom::EntitlementInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Ecom::EntitlementInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Ecom::EntitlementInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Ecom::EntitlementInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ENTITLEMENT_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

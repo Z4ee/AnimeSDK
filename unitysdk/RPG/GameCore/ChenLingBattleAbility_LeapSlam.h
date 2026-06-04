@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_METHOD_3_32A80D0C0F2C4537_OFFSET UNITYSDK_OFFSET(0x187DEE30)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_METHOD_3_D89DDA52D30D789E_OFFSET UNITYSDK_OFFSET(0x187DEE90)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM__CTOR_OFFSET UNITYSDK_OFFSET(0x187DEE80)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_METHOD_3_4FECF89A78C2B998_OFFSET UNITYSDK_OFFSET(0x1961D270)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_METHOD_3_9CDDB495CCC8CD08_OFFSET UNITYSDK_OFFSET(0x1961D2D0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1961D2C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_LeapSlam_TypeDefinitionIndex = 14901;
+	inline static constexpr unsigned int ChenLingBattleAbility_LeapSlam_TypeDefinitionIndex = 14964;
 
 	class ChenLingBattleAbility_LeapSlam : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
@@ -32,14 +32,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_32A80D0C0F2C4537(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_LeapSlam*& a2)
+		static ::System::Void Method_3_4FECF89A78C2B998(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_LeapSlam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_LeapSlam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_METHOD_3_32A80D0C0F2C4537_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_LeapSlam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_METHOD_3_4FECF89A78C2B998_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D89DDA52D30D789E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_LeapSlam* a2)
+		static ::System::Void Method_3_9CDDB495CCC8CD08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_LeapSlam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_LeapSlam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_METHOD_3_D89DDA52D30D789E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_LeapSlam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_LEAPSLAM_METHOD_3_9CDDB495CCC8CD08_OFFSET))(a1, a2);
 		}
 	};
 }

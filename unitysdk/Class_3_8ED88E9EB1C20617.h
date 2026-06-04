@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class NpcPossession; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8ED88E9EB1C20617_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1296ABF0)
-#define CLASS_3_8ED88E9EB1C20617__CTOR_OFFSET UNITYSDK_OFFSET(0x1296ABC0)
+#define CLASS_3_8ED88E9EB1C20617_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x137D5F90)
+#define CLASS_3_8ED88E9EB1C20617__CTOR_OFFSET UNITYSDK_OFFSET(0x137D5F60)
 
-inline static constexpr unsigned int Class_3_8ED88E9EB1C20617_TypeDefinitionIndex = 48908;
+inline static constexpr unsigned int Class_3_8ED88E9EB1C20617_TypeDefinitionIndex = 49574;
 
 class Class_3_8ED88E9EB1C20617 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::NpcPossession*>
 {

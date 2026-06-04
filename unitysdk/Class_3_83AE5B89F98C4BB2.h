@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerAfterImageEffect; }
 
-#define CLASS_3_83AE5B89F98C4BB2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x129F6310)
-#define CLASS_3_83AE5B89F98C4BB2__CTOR_OFFSET UNITYSDK_OFFSET(0x129F62E0)
+#define CLASS_3_83AE5B89F98C4BB2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAF418A0)
+#define CLASS_3_83AE5B89F98C4BB2__CTOR_OFFSET UNITYSDK_OFFSET(0xAF41870)
 
-inline static constexpr unsigned int Class_3_83AE5B89F98C4BB2_TypeDefinitionIndex = 52045;
+inline static constexpr unsigned int Class_3_83AE5B89F98C4BB2_TypeDefinitionIndex = 52719;
 
 class Class_3_83AE5B89F98C4BB2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerAfterImageEffect*>
 {

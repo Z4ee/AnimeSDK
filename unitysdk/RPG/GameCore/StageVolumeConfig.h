@@ -6,14 +6,16 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class StageVolumeComponentData; }
 namespace RPG::GameCore { class StreamingSceneObjLodScaleVolumeComponentData; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_FE4344767ACB670C_OFFSET UNITYSDK_OFFSET(0x18E93BA0)
-#define RPG_GAMECORE_STAGEVOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E93E30)
+#define RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_39B166AF9FEA40EF_OFFSET UNITYSDK_OFFSET(0x19CB0FC0)
+#define RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_5875E3BE0F78DB0F_OFFSET UNITYSDK_OFFSET(0x19CB0D20)
+#define RPG_GAMECORE_STAGEVOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB0FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVolumeConfig_TypeDefinitionIndex = 18170;
+	inline static constexpr unsigned int StageVolumeConfig_TypeDefinitionIndex = 18165;
 
 	class StageVolumeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +33,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FE4344767ACB670C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVolumeConfig*& a2)
+		static ::System::Void Method_2_5875E3BE0F78DB0F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVolumeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVolumeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_FE4344767ACB670C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVolumeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_5875E3BE0F78DB0F_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_39B166AF9FEA40EF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StageVolumeConfig*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StageVolumeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_39B166AF9FEA40EF_OFFSET))(a1, a2);
 		}
 	};
 }

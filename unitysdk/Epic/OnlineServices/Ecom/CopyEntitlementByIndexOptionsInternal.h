@@ -6,15 +6,15 @@ namespace Epic::OnlineServices { class EpicAccountId; }
 namespace Epic::OnlineServices::Ecom { class CopyEntitlementByIndexOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3A510)
-#define EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3A500)
-#define EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_ENTITLEMENTINDEX_OFFSET UNITYSDK_OFFSET(0x26F0)
-#define EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x3A360)
-#define EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3A420)
+#define EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3DD10)
+#define EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3DD00)
+#define EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_ENTITLEMENTINDEX_OFFSET UNITYSDK_OFFSET(0x2A90)
+#define EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x3DB60)
+#define EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3DC20)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int CopyEntitlementByIndexOptionsInternal_TypeDefinitionIndex = 42149;
+	inline static constexpr unsigned int CopyEntitlementByIndexOptionsInternal_TypeDefinitionIndex = 42952;
 
 	struct alignas(8) CopyEntitlementByIndexOptionsInternal
 	{
@@ -22,24 +22,24 @@ namespace Epic::OnlineServices::Ecom
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::UInt32 m_EntitlementIndex; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_EntitlementIndex(::System::UInt32 value)
+		::System::Void set_EntitlementIndex(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_ENTITLEMENTINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_ENTITLEMENTINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Ecom::CopyEntitlementByIndexOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Ecom::CopyEntitlementByIndexOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyEntitlementByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyEntitlementByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYENTITLEMENTBYINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

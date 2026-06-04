@@ -6,21 +6,21 @@ namespace RPG::GameCore { class DrinkMakerPreBartendPerformanceEndNotify; }
 namespace RPG::GameCore { class PlayScreenTransfer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_8F41AC20EFCAAE20_DISPOSE_OFFSET UNITYSDK_OFFSET(0x96CDB80)
-#define CLASS_2_8F41AC20EFCAAE20_METHOD_2_A984848EA3E436DA_OFFSET UNITYSDK_OFFSET(0x96CDD00)
-#define CLASS_2_8F41AC20EFCAAE20_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x96CDC20)
-#define CLASS_2_8F41AC20EFCAAE20_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x96CDD50)
-#define CLASS_2_8F41AC20EFCAAE20_TICK_OFFSET UNITYSDK_OFFSET(0x96CDBC0)
-#define CLASS_2_8F41AC20EFCAAE20__CTOR_OFFSET UNITYSDK_OFFSET(0x96CDAF0)
+#define CLASS_2_8F41AC20EFCAAE20_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1364F6B0)
+#define CLASS_2_8F41AC20EFCAAE20_METHOD_2_7646FFE662147970_OFFSET UNITYSDK_OFFSET(0x1364F830)
+#define CLASS_2_8F41AC20EFCAAE20_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1364F750)
+#define CLASS_2_8F41AC20EFCAAE20_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1364F880)
+#define CLASS_2_8F41AC20EFCAAE20_TICK_OFFSET UNITYSDK_OFFSET(0x1364F6F0)
+#define CLASS_2_8F41AC20EFCAAE20__CTOR_OFFSET UNITYSDK_OFFSET(0x1364F620)
 
-inline static constexpr unsigned int Class_2_8F41AC20EFCAAE20_TypeDefinitionIndex = 53574;
+inline static constexpr unsigned int Class_2_8F41AC20EFCAAE20_TypeDefinitionIndex = 54287;
 
 class Class_2_8F41AC20EFCAAE20 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::PlayScreenTransfer* Field_2_2; // 0x20
-	::RPG::GameCore::DrinkMakerPreBartendPerformanceEndNotify* Field_2_0; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::PlayScreenTransfer* Field_2_1; // 0x20
+	::RPG::GameCore::DrinkMakerPreBartendPerformanceEndNotify* Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DrinkMakerPreBartendPerformanceEndNotify* a2)
 	{
@@ -47,8 +47,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8F41AC20EFCAAE20_ONTASKRESET_OFFSET))(this);
 	}
 
-	::System::Void Method_2_A984848EA3E436DA()
+	::System::Void Method_2_7646FFE662147970()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8F41AC20EFCAAE20_METHOD_2_A984848EA3E436DA_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8F41AC20EFCAAE20_METHOD_2_7646FFE662147970_OFFSET))(this);
 	}
 };

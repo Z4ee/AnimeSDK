@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_FIXUP_OFFSET UNITYSDK_OFFSET(0x19F351F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19F352B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F35350)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_FIXUP_OFFSET UNITYSDK_OFFSET(0x1ADAC840)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1ADAC8E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADAC980)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int OffsetInstruction_TypeDefinitionIndex = 3307;
+	inline static constexpr unsigned int OffsetInstruction_TypeDefinitionIndex = 3308;
 
 	class OffsetInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
@@ -22,9 +22,9 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Linq::Expressions::Interpreter::Instruction* Fixup(::System::Int32 offset)
+		::System::Linq::Expressions::Interpreter::Instruction* Fixup(::System::Int32 a1)
 		{
-			return ((::System::Linq::Expressions::Interpreter::Instruction*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_FIXUP_OFFSET))(this, offset);
+			return ((::System::Linq::Expressions::Interpreter::Instruction*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_FIXUP_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

@@ -3,25 +3,25 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_6BD41257D23618B4_21;
+class Class_1_21C7581DFE99F091_89;
 namespace RPG::Client { class RogueTalentDataItem; }
 
-#define RPG_CLIENT_ROGUETALENTUNLOCKDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB09A8B0)
-#define RPG_CLIENT_ROGUETALENTUNLOCKDATA_GETPROGRESS_OFFSET UNITYSDK_OFFSET(0xB09AB30)
-#define RPG_CLIENT_ROGUETALENTUNLOCKDATA_GETUNLOCKDESC_OFFSET UNITYSDK_OFFSET(0xB09AA80)
-#define RPG_CLIENT_ROGUETALENTUNLOCKDATA_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xB09A980)
-#define RPG_CLIENT_ROGUETALENTUNLOCKDATA_UPDATESRVDATA_OFFSET UNITYSDK_OFFSET(0xB09A060)
-#define RPG_CLIENT_ROGUETALENTUNLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB09A970)
+#define RPG_CLIENT_ROGUETALENTUNLOCKDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC7EB720)
+#define RPG_CLIENT_ROGUETALENTUNLOCKDATA_GETPROGRESS_OFFSET UNITYSDK_OFFSET(0xC7EB9A0)
+#define RPG_CLIENT_ROGUETALENTUNLOCKDATA_GETUNLOCKDESC_OFFSET UNITYSDK_OFFSET(0xC7EB8F0)
+#define RPG_CLIENT_ROGUETALENTUNLOCKDATA_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC7EB7F0)
+#define RPG_CLIENT_ROGUETALENTUNLOCKDATA_UPDATESRVDATA_OFFSET UNITYSDK_OFFSET(0xC7EAEE0)
+#define RPG_CLIENT_ROGUETALENTUNLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC7EB7E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTalentUnlockData_TypeDefinitionIndex = 62176;
+	inline static constexpr unsigned int RogueTalentUnlockData_TypeDefinitionIndex = 63109;
 
 	class RogueTalentUnlockData : public ::System::Object
 	{
 	public:
 		::RPG::Client::RogueTalentDataItem* _TalentDataItem; // 0x10
-		::Class_1_6BD41257D23618B4_21* _Proto; // 0x18
+		::Class_1_21C7581DFE99F091_89* _Proto; // 0x18
 		::System::UInt32 UnlockID; // 0x20
 
 		::System::Void _ctor()
@@ -29,14 +29,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTUNLOCKDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::RogueTalentUnlockData* Create(::RPG::Client::RogueTalentDataItem* talentDataItem, ::System::UInt32 unlockID)
+		static ::RPG::Client::RogueTalentUnlockData* Create(::RPG::Client::RogueTalentDataItem* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::RogueTalentUnlockData*(*)(::RPG::Client::RogueTalentDataItem*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTUNLOCKDATA_CREATE_OFFSET))(talentDataItem, unlockID);
+			return ((::RPG::Client::RogueTalentUnlockData*(*)(::RPG::Client::RogueTalentDataItem*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTUNLOCKDATA_CREATE_OFFSET))(a1, a2);
 		}
 
-		::System::Void UpdateSrvData(::Class_1_6BD41257D23618B4_21* proto)
+		::System::Void UpdateSrvData(::Class_1_21C7581DFE99F091_89* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_6BD41257D23618B4_21*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTUNLOCKDATA_UPDATESRVDATA_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_21C7581DFE99F091_89*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTUNLOCKDATA_UPDATESRVDATA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsFinished()

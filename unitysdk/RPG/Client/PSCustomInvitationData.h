@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PSCUSTOMINVITATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAC17FE0)
+#define RPG_CLIENT_PSCUSTOMINVITATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC327840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PSCustomInvitationData_TypeDefinitionIndex = 60548;
+	inline static constexpr unsigned int PSCustomInvitationData_TypeDefinitionIndex = 61482;
 
 	class PSCustomInvitationData : public ::System::Object
 	{

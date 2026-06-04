@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_FACETTYPE_OFFSET UNITYSDK_OFFSET(0x19FEAE50)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x19FEAE40)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x19FEAE60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_FACETTYPE_OFFSET UNITYSDK_OFFSET(0x1AE5F370)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1AE5F360)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE5F380)
 
 namespace System::Xml::Schema
 {
@@ -24,14 +24,14 @@ namespace System::Xml::Schema
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAFACET__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::String* value)
+		::System::Void set_Value(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_VALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_FacetType(::System::Xml::Schema::FacetType value)
+		::System::Void set_FacetType(::System::Xml::Schema::FacetType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::FacetType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_FACETTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::FacetType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_FACETTYPE_OFFSET))(this, a1);
 		}
 	};
 }

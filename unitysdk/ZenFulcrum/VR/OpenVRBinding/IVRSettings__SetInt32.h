@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A7183F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A7184A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A717D30)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32__CTOR_OFFSET UNITYSDK_OFFSET(0x1A717D10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B524190)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B524240)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B524160)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5240E0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSettings__SetInt32_TypeDefinitionIndex = 35928;
+	inline static constexpr unsigned int IVRSettings__SetInt32_TypeDefinitionIndex = 36228;
 
 	class IVRSettings__SetInt32 : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::String* pchSection, ::System::String* pchSettingsKey, ::System::Int32 nValue, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError)
+		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_INVOKE_OFFSET))(this, pchSection, pchSettingsKey, nValue, peError);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* pchSection, ::System::String* pchSettingsKey, ::System::Int32 nValue, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_BEGININVOKE_OFFSET))(this, pchSection, pchSettingsKey, nValue, peError, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void EndInvoke(::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& peError, ::System::IAsyncResult* result)
+		::System::Void EndInvoke(::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_ENDINVOKE_OFFSET))(this, peError, result);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRSettingsError&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSETTINGS__SETINT32_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

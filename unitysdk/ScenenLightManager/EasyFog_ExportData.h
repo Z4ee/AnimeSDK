@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_4_F6727781D6D80ED0_CustomColorBlendMode.h"
+#include "unitysdk/Class_4_0C4F666150CF6EB8_CustomColorBlendMode.h"
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/ScenenLightManager/BaseComponentExportData.h"
 #include "unitysdk/UnityEngine/Color.h"
@@ -8,11 +8,11 @@
 
 namespace RPG::Client { class EasyFog_ExtraExportData; }
 
-#define SCENENLIGHTMANAGER_EASYFOG_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB936870)
+#define SCENENLIGHTMANAGER_EASYFOG_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD07B060)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EasyFog_ExportData_TypeDefinitionIndex = 45707;
+	inline static constexpr unsigned int EasyFog_ExportData_TypeDefinitionIndex = 46290;
 
 	class EasyFog_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
@@ -30,9 +30,9 @@ namespace ScenenLightManager
 		::System::Single distortIntensity; // 0x58
 		::System::Single directionalLightIntensity; // 0x5C
 		::UnityEngine::Color customDirectionalLightColor; // 0x60
-		::Class_4_F6727781D6D80ED0_CustomColorBlendMode directionalLightBlendMode; // 0x70
+		::Class_4_0C4F666150CF6EB8_CustomColorBlendMode directionalLightBlendMode; // 0x70
 		::UnityEngine::Color customAmbientColor; // 0x74
-		::Class_4_F6727781D6D80ED0_CustomColorBlendMode ambientLightBlendMode; // 0x84
+		::Class_4_0C4F666150CF6EB8_CustomColorBlendMode ambientLightBlendMode; // 0x84
 		::UnityEngine::Color customEmissiveColor; // 0x88
 		::System::Single softParticlesNearFadeDistance; // 0x98
 		::System::Single softParticlesFarFadeDistance; // 0x9C

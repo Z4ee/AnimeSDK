@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleMonoPluginBase_1_TypeDefinitionIndex = 65036;
+	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleMonoPluginBase_1_TypeDefinitionIndex = 65962;
 
 	template <typename TBehavior>
 	class Effect_PropScreenSpaceGPUParticleMonoPluginBase_1 : public ::RPG::Client::TAMonoPlugin_1<TBehavior>
@@ -15,5 +15,6 @@ namespace RPG::Client
 		::System::UInt32 MaxParticleNum; // 0x0
 		::System::Boolean HideTargetGO; // 0x0
 		::System::Single TotalScale; // 0x0
+		::System::Boolean UsedInUI3D; // 0x0
 	};
 }

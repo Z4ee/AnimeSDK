@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYMETADATAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179954C0)
+#define SYSTEM_REFLECTION_ASSEMBLYMETADATAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x187491B0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyMetadataAttribute_TypeDefinitionIndex = 550;
+	inline static constexpr unsigned int AssemblyMetadataAttribute_TypeDefinitionIndex = 549;
 
 	class AssemblyMetadataAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* m_key; // 0x10
-		::System::String* m_value; // 0x18
+		::System::String* m_value; // 0x10
+		::System::String* m_key; // 0x18
 
-		::System::Void _ctor(::System::String* key, ::System::String* value)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYMETADATAATTRIBUTE__CTOR_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYMETADATAATTRIBUTE__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchMascotSection_TypeDefinitionIndex = 20857;
+	inline static constexpr unsigned int SwitchMascotSection_TypeDefinitionIndex = 23246;
 
 	enum class SwitchMascotSection : ::System::Int32
 	{

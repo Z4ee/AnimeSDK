@@ -1,10 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/IPVersion.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_103__CTOR_OFFSET UNITYSDK_OFFSET(0x8FA0FA0)
+class Class_1_2978C3AFB9C9E5D0;
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_103_TypeDefinitionIndex = 52229;
+#define CLASS_1_43BD383C98B4C0C5_103__CTOR_OFFSET UNITYSDK_OFFSET(0x19F86420)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_103_TypeDefinitionIndex = 40472;
 
 class Class_1_43BD383C98B4C0C5_103 : public ::System::Object
 {

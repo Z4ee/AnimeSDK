@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYPRODUCTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17997130)
+#define SYSTEM_REFLECTION_ASSEMBLYPRODUCTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1874AE70)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyProductAttribute_TypeDefinitionIndex = 540;
+	inline static constexpr unsigned int AssemblyProductAttribute_TypeDefinitionIndex = 539;
 
 	class AssemblyProductAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* m_product; // 0x10
 
-		::System::Void _ctor(::System::String* product)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYPRODUCTATTRIBUTE__CTOR_OFFSET))(this, product);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYPRODUCTATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

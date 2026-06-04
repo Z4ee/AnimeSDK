@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINPARTICLEREWIND_PARTICLESYSTEMITEM_METHOD_1_44A9D72A4ECE8005_OFFSET UNITYSDK_OFFSET(0xA99A950)
-#define RPG_CLIENT_MONOEFFECTPLUGINPARTICLEREWIND_PARTICLESYSTEMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA99A930)
+#define RPG_CLIENT_MONOEFFECTPLUGINPARTICLEREWIND_PARTICLESYSTEMITEM_METHOD_1_44A9D72A4ECE8005_OFFSET UNITYSDK_OFFSET(0xC0E80C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINPARTICLEREWIND_PARTICLESYSTEMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC0E8140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginParticleRewind_ParticleSystemItem_TypeDefinitionIndex = 64616;
+	inline static constexpr unsigned int MonoEffectPluginParticleRewind_ParticleSystemItem_TypeDefinitionIndex = 65537;
 
 	class MonoEffectPluginParticleRewind_ParticleSystemItem : public ::System::Object
 	{

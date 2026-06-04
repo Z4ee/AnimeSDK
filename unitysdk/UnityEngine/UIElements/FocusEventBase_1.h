@@ -9,7 +9,7 @@ namespace UnityEngine::UIElements { class IEventHandler; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int FocusEventBase_1_TypeDefinitionIndex = 5917;
+	inline static constexpr unsigned int FocusEventBase_1_TypeDefinitionIndex = 6194;
 
 	template <typename T>
 	class FocusEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T>

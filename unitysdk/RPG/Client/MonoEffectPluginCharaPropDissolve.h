@@ -16,34 +16,34 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_INIT_OFFSET UNITYSDK_OFFSET(0xA9706D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_01BD521BAA5B9BAA_OFFSET UNITYSDK_OFFSET(0xA975280)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_1AE11C3424D3DD6A_OFFSET UNITYSDK_OFFSET(0xA975500)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_1D96A7003D9A3921_OFFSET UNITYSDK_OFFSET(0xA974BC0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_297AE451559FB6DB_OFFSET UNITYSDK_OFFSET(0xA970AE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xA970790)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_44E448B8C77CD61E_OFFSET UNITYSDK_OFFSET(0xA974580)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_796F456B27F8E2D1_OFFSET UNITYSDK_OFFSET(0xA9725A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_9E7AFA84A37EECD1_OFFSET UNITYSDK_OFFSET(0xA970F20)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_A4C9707E8314C3A8_OFFSET UNITYSDK_OFFSET(0xA970B80)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_B071C231B08D6398_OFFSET UNITYSDK_OFFSET(0xA973440)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_C0BC29194EEB7A9A_OFFSET UNITYSDK_OFFSET(0xA9715B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_C579909C82596E50_1_OFFSET UNITYSDK_OFFSET(0xA971F20)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_C579909C82596E50_OFFSET UNITYSDK_OFFSET(0xA971720)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_C7F2412112EF7A26_OFFSET UNITYSDK_OFFSET(0xA9707E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_E1E37B85422AF149_OFFSET UNITYSDK_OFFSET(0xA970A20)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_E4867BA7EA09293C_OFFSET UNITYSDK_OFFSET(0xA975190)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_F7488FD4C9CC18F9_OFFSET UNITYSDK_OFFSET(0xA975400)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_SETOUTLINEMATERIALLIST_OFFSET UNITYSDK_OFFSET(0xA970680)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_UNINIT_OFFSET UNITYSDK_OFFSET(0xA9712B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xA9708A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0xA9755A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xA975650)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE___IFIXBASEPROXY_UNINIT_OFFSET UNITYSDK_OFFSET(0xA975660)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_INIT_OFFSET UNITYSDK_OFFSET(0xC0BD020)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_01BD521BAA5B9BAA_OFFSET UNITYSDK_OFFSET(0xC0C1980)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_06A62CAD2678156D_OFFSET UNITYSDK_OFFSET(0xC0BD430)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_09718CBCEBCFF521_1_OFFSET UNITYSDK_OFFSET(0xC0BD800)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_09718CBCEBCFF521_OFFSET UNITYSDK_OFFSET(0xC0BD4F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_1AE11C3424D3DD6A_OFFSET UNITYSDK_OFFSET(0xC0C1C00)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_1D96A7003D9A3921_OFFSET UNITYSDK_OFFSET(0xC0C12C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xC0BD0E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_44E448B8C77CD61E_OFFSET UNITYSDK_OFFSET(0xC0C0C90)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_796F456B27F8E2D1_OFFSET UNITYSDK_OFFSET(0xC0BECB0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_B071C231B08D6398_OFFSET UNITYSDK_OFFSET(0xC0BFB50)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_C0BC29194EEB7A9A_OFFSET UNITYSDK_OFFSET(0xC0BDDF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_C7F2412112EF7A26_OFFSET UNITYSDK_OFFSET(0xC0BD130)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_E1E37B85422AF149_OFFSET UNITYSDK_OFFSET(0xC0BD370)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_E4867BA7EA09293C_OFFSET UNITYSDK_OFFSET(0xC0C1890)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_F459996FDD9506BA_1_OFFSET UNITYSDK_OFFSET(0xC0BE6D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_F459996FDD9506BA_OFFSET UNITYSDK_OFFSET(0xC0BDF90)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_F7488FD4C9CC18F9_OFFSET UNITYSDK_OFFSET(0xC0C1B00)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_SETOUTLINEMATERIALLIST_OFFSET UNITYSDK_OFFSET(0xC0BCFD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_UNINIT_OFFSET UNITYSDK_OFFSET(0xC0BDB10)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xC0BD1F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0xC0C1CA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xC0C1D50)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE___IFIXBASEPROXY_UNINIT_OFFSET UNITYSDK_OFFSET(0xC0C1D60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropDissolve_TypeDefinitionIndex = 64485;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropDissolve_TypeDefinitionIndex = 65406;
 
 	class MonoEffectPluginCharaPropDissolve : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -153,19 +153,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_C7F2412112EF7A26_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_6_297AE451559FB6DB(::System::Collections::Generic::List_1<::UnityEngine::Material*>* a1, ::System::Boolean a2)
+		::System::Void Method_6_06A62CAD2678156D(::System::Collections::Generic::List_1<::UnityEngine::Material*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_297AE451559FB6DB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_06A62CAD2678156D_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_6_A4C9707E8314C3A8(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Boolean a3)
+		::System::Void Method_6_09718CBCEBCFF521(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_A4C9707E8314C3A8_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_09718CBCEBCFF521_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_6_9E7AFA84A37EECD1(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Boolean a3)
+		::System::Void Method_6_09718CBCEBCFF521_1(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_9E7AFA84A37EECD1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_09718CBCEBCFF521_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Method_6_796F456B27F8E2D1(::UnityEngine::Material* a1, ::System::Boolean a2, ::System::Boolean a3)
@@ -193,14 +193,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_C0BC29194EEB7A9A_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_C579909C82596E50(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2)
+		::System::Void Method_6_F459996FDD9506BA(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_C579909C82596E50_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_F459996FDD9506BA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_6_C579909C82596E50_1(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2)
+		::System::Void Method_6_F459996FDD9506BA_1(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_C579909C82596E50_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::System::Int32>*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_F459996FDD9506BA_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_6_E4867BA7EA09293C(::UnityEngine::Material* a1)
@@ -223,9 +223,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE_METHOD_6_F7488FD4C9CC18F9_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_Init(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>* P0, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* P1, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& P2)
+		::System::Void __iFixBaseProxy_Init(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE___IFIXBASEPROXY_INIT_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPDISSOLVE___IFIXBASEPROXY_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __iFixBaseProxy_UnInit()

@@ -5,57 +5,57 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_BUILDPATH_OFFSET UNITYSDK_OFFSET(0x8C7AC90)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_CREATEDIRECTORY_OFFSET UNITYSDK_OFFSET(0x8CAA640)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_DOESDIRECTORYEXIST_OFFSET UNITYSDK_OFFSET(0x8CAA5B0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_DOESFILEEXIST_OFFSET UNITYSDK_OFFSET(0x8C75510)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_DOESPATHEXIST_OFFSET UNITYSDK_OFFSET(0x8CAA4A0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETALLFOLDERSINPATHHELPER_OFFSET UNITYSDK_OFFSET(0x8CAA190)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETALLFOLDERSINPATH_OFFSET UNITYSDK_OFFSET(0x8CAA030)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETENVIRONMENTVALUE_OFFSET UNITYSDK_OFFSET(0x8CAAA20)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILENAMEWITHOUTEXTENSION_OFFSET UNITYSDK_OFFSET(0x8CAA470)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILENAME_OFFSET UNITYSDK_OFFSET(0x8C947B0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILESINFOLDER_OFFSET UNITYSDK_OFFSET(0x8CAA360)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETFOLDERPATH_OFFSET UNITYSDK_OFFSET(0x8C7AB30)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETFULLPATH_OFFSET UNITYSDK_OFFSET(0x8CAA6F0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETHOUDINIENGINEDEFAULTPATH_OFFSET UNITYSDK_OFFSET(0x8CA9520)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETHOUDINIENGINEENVIRONMENTFILEPATHFULL_OFFSET UNITYSDK_OFFSET(0x8CAAAD0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETHOUDINIENGINEPATH_OFFSET UNITYSDK_OFFSET(0x8CA9310)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETPARENTDIRECTORY_OFFSET UNITYSDK_OFFSET(0x8CAA6D0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETSAVEDHOUDINIPATH_OFFSET UNITYSDK_OFFSET(0x8CA93A0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GET_DIRECTORYSEPARATORSTR_OFFSET UNITYSDK_OFFSET(0x8CA7BF0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GET_DIRECTORYSEPARATOR_OFFSET UNITYSDK_OFFSET(0x8CAA490)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GET_ISPATHSET_OFFSET UNITYSDK_OFFSET(0x8CA9220)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_GET_LIBPATH_OFFSET UNITYSDK_OFFSET(0x8CA91C0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_ISPATHROOTED_OFFSET UNITYSDK_OFFSET(0x8CAA700)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_LOADFILEINTOMEMORY_OFFSET UNITYSDK_OFFSET(0x8C755B0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_READALLTEXT_OFFSET UNITYSDK_OFFSET(0x8CAA850)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_SETHAPICLIENTNAME_OFFSET UNITYSDK_OFFSET(0x8CA92C0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_SETHOUDINIENGINEPATH_OFFSET UNITYSDK_OFFSET(0x8CA9300)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_TRIMLASTDIRECTORYSEPARATOR_OFFSET UNITYSDK_OFFSET(0x8C7ABF0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_WRITEALLTEXT_OFFSET UNITYSDK_OFFSET(0x8CAA710)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM_WRITEBYTES_OFFSET UNITYSDK_OFFSET(0x8C93460)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x8CA9280)
-#define HOUDINIENGINEUNITY_HEU_PLATFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x8CAADF0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_BUILDPATH_OFFSET UNITYSDK_OFFSET(0x17EE4650)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_CREATEDIRECTORY_OFFSET UNITYSDK_OFFSET(0x17F46B00)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_DOESDIRECTORYEXIST_OFFSET UNITYSDK_OFFSET(0x17F46A70)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_DOESFILEEXIST_OFFSET UNITYSDK_OFFSET(0x17EF9290)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_DOESPATHEXIST_OFFSET UNITYSDK_OFFSET(0x17F46960)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETALLFOLDERSINPATHHELPER_OFFSET UNITYSDK_OFFSET(0x17F46670)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETALLFOLDERSINPATH_OFFSET UNITYSDK_OFFSET(0x17F46510)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETENVIRONMENTVALUE_OFFSET UNITYSDK_OFFSET(0x17F46EB0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILENAMEWITHOUTEXTENSION_OFFSET UNITYSDK_OFFSET(0x17F46930)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILENAME_OFFSET UNITYSDK_OFFSET(0x17F22150)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILESINFOLDER_OFFSET UNITYSDK_OFFSET(0x17F46830)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETFOLDERPATH_OFFSET UNITYSDK_OFFSET(0x17EE4510)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETFULLPATH_OFFSET UNITYSDK_OFFSET(0x17F46BB0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETHOUDINIENGINEDEFAULTPATH_OFFSET UNITYSDK_OFFSET(0x17F462E0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETHOUDINIENGINEENVIRONMENTFILEPATHFULL_OFFSET UNITYSDK_OFFSET(0x17F46F60)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETHOUDINIENGINEPATH_OFFSET UNITYSDK_OFFSET(0x17F46080)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETPARENTDIRECTORY_OFFSET UNITYSDK_OFFSET(0x17F46B90)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GETSAVEDHOUDINIPATH_OFFSET UNITYSDK_OFFSET(0x17F46110)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GET_DIRECTORYSEPARATORSTR_OFFSET UNITYSDK_OFFSET(0x17F44130)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GET_DIRECTORYSEPARATOR_OFFSET UNITYSDK_OFFSET(0x17F46950)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GET_ISPATHSET_OFFSET UNITYSDK_OFFSET(0x17F45F90)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_GET_LIBPATH_OFFSET UNITYSDK_OFFSET(0x17F45F30)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_ISPATHROOTED_OFFSET UNITYSDK_OFFSET(0x17F46BC0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_LOADFILEINTOMEMORY_OFFSET UNITYSDK_OFFSET(0x17F471E0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_READALLTEXT_OFFSET UNITYSDK_OFFSET(0x17F46D00)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_SETHAPICLIENTNAME_OFFSET UNITYSDK_OFFSET(0x17F46030)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_SETHOUDINIENGINEPATH_OFFSET UNITYSDK_OFFSET(0x17F46070)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_TRIMLASTDIRECTORYSEPARATOR_OFFSET UNITYSDK_OFFSET(0x17EE45C0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_WRITEALLTEXT_OFFSET UNITYSDK_OFFSET(0x17F46BE0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM_WRITEBYTES_OFFSET UNITYSDK_OFFSET(0x17F46BD0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F45FF0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x17F47410)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Platform_TypeDefinitionIndex = 43538;
+	inline static constexpr unsigned int HEU_Platform_TypeDefinitionIndex = 37472;
 
 	class HEU_Platform : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet__lastErrorMsg()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Platform_TypeDefinitionIndex)->GetStaticField(0x415C0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Platform_TypeDefinitionIndex)->GetStaticField(0xF350);
 		}
 		static ::System::String** StaticGet__libPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Platform_TypeDefinitionIndex)->GetStaticField(0x415C8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HEU_Platform_TypeDefinitionIndex)->GetStaticField(0xF358);
 		}
 		static ::System::Boolean* StaticGet__pathSet()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HEU_Platform_TypeDefinitionIndex)->GetStaticField(0xEB60);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HEU_Platform_TypeDefinitionIndex)->GetStaticField(0x4D80);
 		}
 
 		static ::System::Void _cctor()
@@ -103,34 +103,34 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_SETHOUDINIENGINEPATH_OFFSET))();
 		}
 
-		static ::System::String* GetAllFoldersInPath(::System::String* path)
+		static ::System::String* GetAllFoldersInPath(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETALLFOLDERSINPATH_OFFSET))(path);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETALLFOLDERSINPATH_OFFSET))(a1);
 		}
 
-		static ::System::Void GetAllFoldersInPathHelper(::System::String* inPath, ::System::Text::StringBuilder* pathBuilder)
+		static ::System::Void GetAllFoldersInPathHelper(::System::String* a1, ::System::Text::StringBuilder* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETALLFOLDERSINPATHHELPER_OFFSET))(inPath, pathBuilder);
+			return ((::System::Void(*)(::System::String*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETALLFOLDERSINPATHHELPER_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::String*>* GetFilesInFolder(::System::String* folderPath, ::System::String* searchPattern, ::System::Boolean bRecursive)
+		static ::Il2CppArray<::System::String*>* GetFilesInFolder(::System::String* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILESINFOLDER_OFFSET))(folderPath, searchPattern, bRecursive);
+			return ((::Il2CppArray<::System::String*>*(*)(::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILESINFOLDER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* GetFileName(::System::String* path)
+		static ::System::String* GetFileName(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILENAME_OFFSET))(path);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILENAME_OFFSET))(a1);
 		}
 
-		static ::System::String* GetFileNameWithoutExtension(::System::String* path)
+		static ::System::String* GetFileNameWithoutExtension(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILENAMEWITHOUTEXTENSION_OFFSET))(path);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETFILENAMEWITHOUTEXTENSION_OFFSET))(a1);
 		}
 
-		static ::System::String* GetFolderPath(::System::String* path, ::System::Boolean bRemoveDirectorySeparatorAtEnd)
+		static ::System::String* GetFolderPath(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETFOLDERPATH_OFFSET))(path, bRemoveDirectorySeparatorAtEnd);
+			return ((::System::String*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETFOLDERPATH_OFFSET))(a1, a2);
 		}
 
 		static ::System::Char get_DirectorySeparator()
@@ -143,69 +143,69 @@ namespace HoudiniEngineUnity
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GET_DIRECTORYSEPARATORSTR_OFFSET))();
 		}
 
-		static ::System::String* BuildPath(::System::String* folder1, ::System::String* folder2, ::Il2CppArray<::System::Object*>* args)
+		static ::System::String* BuildPath(::System::String* a1, ::System::String* a2, ::Il2CppArray<::System::Object*>* a3)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_BUILDPATH_OFFSET))(folder1, folder2, args);
+			return ((::System::String*(*)(::System::String*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_BUILDPATH_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* TrimLastDirectorySeparator(::System::String* inPath)
+		static ::System::String* TrimLastDirectorySeparator(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_TRIMLASTDIRECTORYSEPARATOR_OFFSET))(inPath);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_TRIMLASTDIRECTORYSEPARATOR_OFFSET))(a1);
 		}
 
-		static ::System::Boolean DoesPathExist(::System::String* inPath)
+		static ::System::Boolean DoesPathExist(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_DOESPATHEXIST_OFFSET))(inPath);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_DOESPATHEXIST_OFFSET))(a1);
 		}
 
-		static ::System::Boolean DoesFileExist(::System::String* inPath)
+		static ::System::Boolean DoesFileExist(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_DOESFILEEXIST_OFFSET))(inPath);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_DOESFILEEXIST_OFFSET))(a1);
 		}
 
-		static ::System::Boolean DoesDirectoryExist(::System::String* inPath)
+		static ::System::Boolean DoesDirectoryExist(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_DOESDIRECTORYEXIST_OFFSET))(inPath);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_DOESDIRECTORYEXIST_OFFSET))(a1);
 		}
 
-		static ::System::Boolean CreateDirectory(::System::String* inPath)
+		static ::System::Boolean CreateDirectory(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_CREATEDIRECTORY_OFFSET))(inPath);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_CREATEDIRECTORY_OFFSET))(a1);
 		}
 
-		static ::System::String* GetParentDirectory(::System::String* inPath)
+		static ::System::String* GetParentDirectory(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETPARENTDIRECTORY_OFFSET))(inPath);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETPARENTDIRECTORY_OFFSET))(a1);
 		}
 
-		static ::System::String* GetFullPath(::System::String* inPath)
+		static ::System::String* GetFullPath(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETFULLPATH_OFFSET))(inPath);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETFULLPATH_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsPathRooted(::System::String* inPath)
+		static ::System::Boolean IsPathRooted(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_ISPATHROOTED_OFFSET))(inPath);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_ISPATHROOTED_OFFSET))(a1);
 		}
 
-		static ::System::Void WriteBytes(::System::String* path, ::Il2CppArray<::System::Byte>* bytes)
+		static ::System::Void WriteBytes(::System::String* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_WRITEBYTES_OFFSET))(path, bytes);
+			return ((::System::Void(*)(::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_WRITEBYTES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean WriteAllText(::System::String* path, ::System::String* text)
+		static ::System::Boolean WriteAllText(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_WRITEALLTEXT_OFFSET))(path, text);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_WRITEALLTEXT_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* ReadAllText(::System::String* path)
+		static ::System::String* ReadAllText(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_READALLTEXT_OFFSET))(path);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_READALLTEXT_OFFSET))(a1);
 		}
 
-		static ::System::String* GetEnvironmentValue(::System::String* key)
+		static ::System::String* GetEnvironmentValue(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETENVIRONMENTVALUE_OFFSET))(key);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETENVIRONMENTVALUE_OFFSET))(a1);
 		}
 
 		static ::System::String* GetHoudiniEngineEnvironmentFilePathFull()
@@ -213,9 +213,9 @@ namespace HoudiniEngineUnity
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_GETHOUDINIENGINEENVIRONMENTFILEPATHFULL_OFFSET))();
 		}
 
-		static ::System::Boolean LoadFileIntoMemory(::System::String* path, ::Il2CppArray<::System::Byte>*& buffer)
+		static ::System::Boolean LoadFileIntoMemory(::System::String* a1, ::Il2CppArray<::System::Byte>*& a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_LOADFILEINTOMEMORY_OFFSET))(path, buffer);
+			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORM_LOADFILEINTOMEMORY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace Mono::Math { class BigInteger; }
 
-#define MONO_MATH_BIGINTEGER_MODULUSRING_BARRETTREDUCTION_OFFSET UNITYSDK_OFFSET(0x17760FC0)
-#define MONO_MATH_BIGINTEGER_MODULUSRING_DIFFERENCE_OFFSET UNITYSDK_OFFSET(0x17760DD0)
-#define MONO_MATH_BIGINTEGER_MODULUSRING_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x177614F0)
-#define MONO_MATH_BIGINTEGER_MODULUSRING_POW_1_OFFSET UNITYSDK_OFFSET(0x177618A0)
-#define MONO_MATH_BIGINTEGER_MODULUSRING_POW_OFFSET UNITYSDK_OFFSET(0x17761700)
-#define MONO_MATH_BIGINTEGER_MODULUSRING__CTOR_OFFSET UNITYSDK_OFFSET(0x17760CD0)
+#define MONO_MATH_BIGINTEGER_MODULUSRING_BARRETTREDUCTION_OFFSET UNITYSDK_OFFSET(0x1851D4A0)
+#define MONO_MATH_BIGINTEGER_MODULUSRING_DIFFERENCE_OFFSET UNITYSDK_OFFSET(0x1851D240)
+#define MONO_MATH_BIGINTEGER_MODULUSRING_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1851D9B0)
+#define MONO_MATH_BIGINTEGER_MODULUSRING_POW_1_OFFSET UNITYSDK_OFFSET(0x1851DDA0)
+#define MONO_MATH_BIGINTEGER_MODULUSRING_POW_OFFSET UNITYSDK_OFFSET(0x1851DC10)
+#define MONO_MATH_BIGINTEGER_MODULUSRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1851D150)
 
 namespace Mono::Math
 {
@@ -18,37 +18,37 @@ namespace Mono::Math
 	class BigInteger_ModulusRing : public ::System::Object
 	{
 	public:
-		::Mono::Math::BigInteger* constant; // 0x10
-		::Mono::Math::BigInteger* mod; // 0x18
+		::Mono::Math::BigInteger* mod; // 0x10
+		::Mono::Math::BigInteger* constant; // 0x18
 
-		::System::Void _ctor(::Mono::Math::BigInteger* modulus)
+		::System::Void _ctor(::Mono::Math::BigInteger* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING__CTOR_OFFSET))(this, modulus);
+			return ((::System::Void(*)(::PVOID, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void BarrettReduction(::Mono::Math::BigInteger* x)
+		::System::Void BarrettReduction(::Mono::Math::BigInteger* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_BARRETTREDUCTION_OFFSET))(this, x);
+			return ((::System::Void(*)(::PVOID, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_BARRETTREDUCTION_OFFSET))(this, a1);
 		}
 
-		::Mono::Math::BigInteger* Multiply(::Mono::Math::BigInteger* a, ::Mono::Math::BigInteger* b)
+		::Mono::Math::BigInteger* Multiply(::Mono::Math::BigInteger* a1, ::Mono::Math::BigInteger* a2)
 		{
-			return ((::Mono::Math::BigInteger*(*)(::PVOID, ::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_MULTIPLY_OFFSET))(this, a, b);
+			return ((::Mono::Math::BigInteger*(*)(::PVOID, ::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_MULTIPLY_OFFSET))(this, a1, a2);
 		}
 
-		::Mono::Math::BigInteger* Difference(::Mono::Math::BigInteger* a, ::Mono::Math::BigInteger* b)
+		::Mono::Math::BigInteger* Difference(::Mono::Math::BigInteger* a1, ::Mono::Math::BigInteger* a2)
 		{
-			return ((::Mono::Math::BigInteger*(*)(::PVOID, ::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_DIFFERENCE_OFFSET))(this, a, b);
+			return ((::Mono::Math::BigInteger*(*)(::PVOID, ::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_DIFFERENCE_OFFSET))(this, a1, a2);
 		}
 
-		::Mono::Math::BigInteger* Pow(::Mono::Math::BigInteger* a, ::Mono::Math::BigInteger* k)
+		::Mono::Math::BigInteger* Pow(::Mono::Math::BigInteger* a1, ::Mono::Math::BigInteger* a2)
 		{
-			return ((::Mono::Math::BigInteger*(*)(::PVOID, ::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_POW_OFFSET))(this, a, k);
+			return ((::Mono::Math::BigInteger*(*)(::PVOID, ::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_POW_OFFSET))(this, a1, a2);
 		}
 
-		::Mono::Math::BigInteger* Pow_1(::System::UInt32 b, ::Mono::Math::BigInteger* exp)
+		::Mono::Math::BigInteger* Pow_1(::System::UInt32 a1, ::Mono::Math::BigInteger* a2)
 		{
-			return ((::Mono::Math::BigInteger*(*)(::PVOID, ::System::UInt32, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_POW_1_OFFSET))(this, b, exp);
+			return ((::Mono::Math::BigInteger*(*)(::PVOID, ::System::UInt32, ::Mono::Math::BigInteger*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_MODULUSRING_POW_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

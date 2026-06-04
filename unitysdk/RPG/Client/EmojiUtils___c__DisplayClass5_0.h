@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA283690)
-#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__GETEMOJIIDS_B__0_OFFSET UNITYSDK_OFFSET(0xA283890)
+#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB909260)
+#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__GETEMOJIIDS_B__0_OFFSET UNITYSDK_OFFSET(0xB9094B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmojiUtils___c__DisplayClass5_0_TypeDefinitionIndex = 58242;
+	inline static constexpr unsigned int EmojiUtils___c__DisplayClass5_0_TypeDefinitionIndex = 59172;
 
 	class EmojiUtils___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetEmojiIDs_b__0(::System::UInt32 a, ::System::UInt32 b)
+		::System::Int32 _GetEmojiIDs_b__0(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__GETEMOJIIDS_B__0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__GETEMOJIIDS_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

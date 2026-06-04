@@ -5,13 +5,13 @@
 
 namespace RPG::GameCore { class TrackPhotoTrashCanConfigRow; }
 
-#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xB324560)
-#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_GET_EXTRASCORE_OFFSET UNITYSDK_OFFSET(0xDF3E0)
-#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_GET_SCORE_OFFSET UNITYSDK_OFFSET(0xDF380)
+#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xCA7D0D0)
+#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_GET_EXTRASCORE_OFFSET UNITYSDK_OFFSET(0x1446E0)
+#define RPG_CLIENT_TRACKPHOTOSHOTPARAM_GET_SCORE_OFFSET UNITYSDK_OFFSET(0x144680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrackPhotoShotParam_TypeDefinitionIndex = 56186;
+	inline static constexpr unsigned int TrackPhotoShotParam_TypeDefinitionIndex = 56948;
 
 	struct alignas(8) TrackPhotoShotParam
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 		::System::Boolean isExtra; // 0x20
 		::RPG::Client::TrackPhotoShotTargetResult Result; // 0x24
 
-		static ::RPG::Client::TrackPhotoShotParam Create(::RPG::GameCore::TrackPhotoTrashCanConfigRow* row, ::System::UInt32 entityID, ::System::UInt32 npcGroupInstanceID, ::System::Boolean isExtra, ::RPG::Client::TrackPhotoShotTargetResult result)
+		static ::RPG::Client::TrackPhotoShotParam Create(::RPG::GameCore::TrackPhotoTrashCanConfigRow* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4, ::RPG::Client::TrackPhotoShotTargetResult a5)
 		{
-			return ((::RPG::Client::TrackPhotoShotParam(*)(::RPG::GameCore::TrackPhotoTrashCanConfigRow*, ::System::UInt32, ::System::UInt32, ::System::Boolean, ::RPG::Client::TrackPhotoShotTargetResult))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRACKPHOTOSHOTPARAM_CREATE_OFFSET))(row, entityID, npcGroupInstanceID, isExtra, result);
+			return ((::RPG::Client::TrackPhotoShotParam(*)(::RPG::GameCore::TrackPhotoTrashCanConfigRow*, ::System::UInt32, ::System::UInt32, ::System::Boolean, ::RPG::Client::TrackPhotoShotTargetResult))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRACKPHOTOSHOTPARAM_CREATE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::UInt32 get_Score()

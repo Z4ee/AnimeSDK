@@ -7,7 +7,7 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorInfo_TypeDefinitionIndex = 64639;
+	inline static constexpr unsigned int MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorInfo_TypeDefinitionIndex = 65560;
 
 	struct alignas(8) MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorInfo
 	{

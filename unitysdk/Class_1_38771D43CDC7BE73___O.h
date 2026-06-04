@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_38771D43CDC7BE73_Class_3_487EE6B302AC50B7_5;
+
+inline static constexpr unsigned int Class_1_38771D43CDC7BE73___O_TypeDefinitionIndex = 68320;
+
+class Class_1_38771D43CDC7BE73___O : public ::System::Object
+{
+public:
+	static ::Class_1_38771D43CDC7BE73_Class_3_487EE6B302AC50B7_5** StaticGet__0____ShowItemExceedLimit()
+	{
+		return (::Class_1_38771D43CDC7BE73_Class_3_487EE6B302AC50B7_5**)Il2CppClass::FromTypeDefinitionIndex(Class_1_38771D43CDC7BE73___O_TypeDefinitionIndex)->GetStaticField(0x44620);
+	}
+};

@@ -8,7 +8,7 @@ namespace System::Diagnostics::Tracing { template <typename T> class PropertyAcc
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int PropertyAccessor_1_TypeDefinitionIndex = 1599;
+	inline static constexpr unsigned int PropertyAccessor_1_TypeDefinitionIndex = 1597;
 
 	template <typename ContainerType>
 	class PropertyAccessor_1 : public ::System::Object

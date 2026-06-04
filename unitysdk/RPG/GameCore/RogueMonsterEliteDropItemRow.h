@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMONSTERELITEDROPITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D47810)
-#define RPG_GAMECORE_ROGUEMONSTERELITEDROPITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D47930)
+#define RPG_GAMECORE_ROGUEMONSTERELITEDROPITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B9D7F0)
+#define RPG_GAMECORE_ROGUEMONSTERELITEDROPITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B9D900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMonsterEliteDropItemRow_TypeDefinitionIndex = 13893;
+	inline static constexpr unsigned int RogueMonsterEliteDropItemRow_TypeDefinitionIndex = 13960;
 
 	class RogueMonsterEliteDropItemRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMONSTERELITEDROPITEMROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueMonsterEliteDropItemRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMonsterEliteDropItemRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMonsterEliteDropItemRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMONSTERELITEDROPITEMROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMonsterEliteDropItemRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMONSTERELITEDROPITEMROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

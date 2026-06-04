@@ -8,11 +8,11 @@
 class LocalFogSphereInstance_ExtraExportData;
 namespace UnityEngine { class Texture; }
 
-#define SCENENLIGHTMANAGER_LOCALFOGSPHEREINSTANCE_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB938810)
+#define SCENENLIGHTMANAGER_LOCALFOGSPHEREINSTANCE_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD07D1E0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LocalFogSphereInstance_ExportData_TypeDefinitionIndex = 45705;
+	inline static constexpr unsigned int LocalFogSphereInstance_ExportData_TypeDefinitionIndex = 46288;
 
 	class LocalFogSphereInstance_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

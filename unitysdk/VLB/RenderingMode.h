@@ -3,7 +3,7 @@
 
 namespace VLB
 {
-	inline static constexpr unsigned int RenderingMode_TypeDefinitionIndex = 45603;
+	inline static constexpr unsigned int RenderingMode_TypeDefinitionIndex = 46186;
 
 	enum class RenderingMode : ::System::Int32
 	{

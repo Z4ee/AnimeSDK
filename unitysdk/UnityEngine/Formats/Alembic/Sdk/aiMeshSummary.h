@@ -4,48 +4,48 @@
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/Bool.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiTopologyVariance.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTNORMALS_OFFSET UNITYSDK_OFFSET(0x165F8C0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTPOINTS_OFFSET UNITYSDK_OFFSET(0x22D8B50)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTRGBA_OFFSET UNITYSDK_OFFSET(0x75710)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTRGB_OFFSET UNITYSDK_OFFSET(0x22D8BF0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTTANGENTS_OFFSET UNITYSDK_OFFSET(0x22D8B90)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTUV0_OFFSET UNITYSDK_OFFSET(0x22D8BB0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTUV1_OFFSET UNITYSDK_OFFSET(0x22D8BD0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTVELOCITIES_OFFSET UNITYSDK_OFFSET(0x22D8B70)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASCOUNTS_OFFSET UNITYSDK_OFFSET(0xE21D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASINDSICES_OFFSET UNITYSDK_OFFSET(0x22A7220)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASNORMALS_OFFSET UNITYSDK_OFFSET(0x15A9B70)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASPOINTS_OFFSET UNITYSDK_OFFSET(0x22AB750)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASRGBA_OFFSET UNITYSDK_OFFSET(0x22D8B10)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASRGB_OFFSET UNITYSDK_OFFSET(0x22D8B30)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASTANGENTS_OFFSET UNITYSDK_OFFSET(0x22A1340)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASUV0_OFFSET UNITYSDK_OFFSET(0x22A1350)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASUV1_OFFSET UNITYSDK_OFFSET(0x22D1450)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASVELOCITIES_OFFSET UNITYSDK_OFFSET(0x22D8AB0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_TOPOLOGYVARIANCE_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTNORMALS_OFFSET UNITYSDK_OFFSET(0x16E68D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTPOINTS_OFFSET UNITYSDK_OFFSET(0x22D8B60)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTRGBA_OFFSET UNITYSDK_OFFSET(0x75720)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTRGB_OFFSET UNITYSDK_OFFSET(0x22D8C00)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTTANGENTS_OFFSET UNITYSDK_OFFSET(0x22D8BA0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTUV0_OFFSET UNITYSDK_OFFSET(0x22D8BC0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTUV1_OFFSET UNITYSDK_OFFSET(0x22D8BE0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTVELOCITIES_OFFSET UNITYSDK_OFFSET(0x22D8B80)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASCOUNTS_OFFSET UNITYSDK_OFFSET(0xE21E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASINDSICES_OFFSET UNITYSDK_OFFSET(0x22D8A90)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASNORMALS_OFFSET UNITYSDK_OFFSET(0x22D8AD0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASPOINTS_OFFSET UNITYSDK_OFFSET(0x22D8AA0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASRGBA_OFFSET UNITYSDK_OFFSET(0x22D8B20)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASRGB_OFFSET UNITYSDK_OFFSET(0x22D8B40)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASTANGENTS_OFFSET UNITYSDK_OFFSET(0x22D8AE0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASUV0_OFFSET UNITYSDK_OFFSET(0x22D8AF0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASUV1_OFFSET UNITYSDK_OFFSET(0x22D8B00)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASVELOCITIES_OFFSET UNITYSDK_OFFSET(0x22D8AC0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_TOPOLOGYVARIANCE_OFFSET UNITYSDK_OFFSET(0x299E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTNORMALS_OFFSET UNITYSDK_OFFSET(0x145A40)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTPOINTS_OFFSET UNITYSDK_OFFSET(0x3874600)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTRGBA_OFFSET UNITYSDK_OFFSET(0x2BBAA60)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTRGB_OFFSET UNITYSDK_OFFSET(0x38746A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTTANGENTS_OFFSET UNITYSDK_OFFSET(0x3874640)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTUV0_OFFSET UNITYSDK_OFFSET(0x3874660)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTUV1_OFFSET UNITYSDK_OFFSET(0x3874680)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTVELOCITIES_OFFSET UNITYSDK_OFFSET(0x3874620)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASCOUNTS_OFFSET UNITYSDK_OFFSET(0x147C60)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASINDSICES_OFFSET UNITYSDK_OFFSET(0x3837330)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASNORMALS_OFFSET UNITYSDK_OFFSET(0x84E50)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASPOINTS_OFFSET UNITYSDK_OFFSET(0x383B560)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASRGBA_OFFSET UNITYSDK_OFFSET(0x38745C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASRGB_OFFSET UNITYSDK_OFFSET(0x38745E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASTANGENTS_OFFSET UNITYSDK_OFFSET(0x3831170)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASUV0_OFFSET UNITYSDK_OFFSET(0x3831180)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASUV1_OFFSET UNITYSDK_OFFSET(0x386C460)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASVELOCITIES_OFFSET UNITYSDK_OFFSET(0x3874560)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_TOPOLOGYVARIANCE_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTNORMALS_OFFSET UNITYSDK_OFFSET(0x2C956D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTPOINTS_OFFSET UNITYSDK_OFFSET(0x3874610)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTRGBA_OFFSET UNITYSDK_OFFSET(0x2BBAA70)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTRGB_OFFSET UNITYSDK_OFFSET(0x38746B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTTANGENTS_OFFSET UNITYSDK_OFFSET(0x3874650)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTUV0_OFFSET UNITYSDK_OFFSET(0x3874670)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTUV1_OFFSET UNITYSDK_OFFSET(0x3874690)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTVELOCITIES_OFFSET UNITYSDK_OFFSET(0x3874630)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASCOUNTS_OFFSET UNITYSDK_OFFSET(0x147C70)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASINDSICES_OFFSET UNITYSDK_OFFSET(0x3874540)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASNORMALS_OFFSET UNITYSDK_OFFSET(0x3874580)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASPOINTS_OFFSET UNITYSDK_OFFSET(0x3874550)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASRGBA_OFFSET UNITYSDK_OFFSET(0x38745D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASRGB_OFFSET UNITYSDK_OFFSET(0x38745F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASTANGENTS_OFFSET UNITYSDK_OFFSET(0x3874590)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASUV0_OFFSET UNITYSDK_OFFSET(0x38745A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASUV1_OFFSET UNITYSDK_OFFSET(0x38745B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASVELOCITIES_OFFSET UNITYSDK_OFFSET(0x3874570)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_TOPOLOGYVARIANCE_OFFSET UNITYSDK_OFFSET(0x2C4C0)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiMeshSummary_TypeDefinitionIndex = 40801;
+	inline static constexpr unsigned int aiMeshSummary_TypeDefinitionIndex = 41627;
 
 	struct alignas(4) aiMeshSummary
 	{
@@ -74,9 +74,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::aiTopologyVariance(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_TOPOLOGYVARIANCE_OFFSET))(this);
 		}
 
-		::System::Void set_topologyVariance(::UnityEngine::Formats::Alembic::Sdk::aiTopologyVariance value)
+		::System::Void set_topologyVariance(::UnityEngine::Formats::Alembic::Sdk::aiTopologyVariance a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiTopologyVariance))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_TOPOLOGYVARIANCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiTopologyVariance))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_TOPOLOGYVARIANCE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasCounts()
@@ -84,9 +84,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASCOUNTS_OFFSET))(this);
 		}
 
-		::System::Void set_hasCounts(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasCounts(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASCOUNTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASCOUNTS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasIndsices()
@@ -94,9 +94,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASINDSICES_OFFSET))(this);
 		}
 
-		::System::Void set_hasIndsices(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasIndsices(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASINDSICES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASINDSICES_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasPoints()
@@ -104,9 +104,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASPOINTS_OFFSET))(this);
 		}
 
-		::System::Void set_hasPoints(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasPoints(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASPOINTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASPOINTS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasVelocities()
@@ -114,9 +114,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASVELOCITIES_OFFSET))(this);
 		}
 
-		::System::Void set_hasVelocities(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasVelocities(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASVELOCITIES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASVELOCITIES_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasNormals()
@@ -124,9 +124,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASNORMALS_OFFSET))(this);
 		}
 
-		::System::Void set_hasNormals(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasNormals(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASNORMALS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASNORMALS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasTangents()
@@ -134,9 +134,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASTANGENTS_OFFSET))(this);
 		}
 
-		::System::Void set_hasTangents(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasTangents(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASTANGENTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASTANGENTS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasUV0()
@@ -144,9 +144,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASUV0_OFFSET))(this);
 		}
 
-		::System::Void set_hasUV0(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasUV0(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASUV0_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASUV0_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasUV1()
@@ -154,9 +154,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASUV1_OFFSET))(this);
 		}
 
-		::System::Void set_hasUV1(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasUV1(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASUV1_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASUV1_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasRgba()
@@ -164,9 +164,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASRGBA_OFFSET))(this);
 		}
 
-		::System::Void set_hasRgba(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasRgba(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASRGBA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASRGBA_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_hasRgb()
@@ -174,9 +174,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_HASRGB_OFFSET))(this);
 		}
 
-		::System::Void set_hasRgb(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_hasRgb(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASRGB_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_HASRGB_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_constantPoints()
@@ -184,9 +184,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTPOINTS_OFFSET))(this);
 		}
 
-		::System::Void set_constantPoints(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_constantPoints(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTPOINTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTPOINTS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_constantVelocities()
@@ -194,9 +194,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTVELOCITIES_OFFSET))(this);
 		}
 
-		::System::Void set_constantVelocities(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_constantVelocities(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTVELOCITIES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTVELOCITIES_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_constantNormals()
@@ -204,9 +204,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTNORMALS_OFFSET))(this);
 		}
 
-		::System::Void set_constantNormals(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_constantNormals(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTNORMALS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTNORMALS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_constantTangents()
@@ -214,9 +214,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTTANGENTS_OFFSET))(this);
 		}
 
-		::System::Void set_constantTangents(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_constantTangents(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTTANGENTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTTANGENTS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_constantUV0()
@@ -224,9 +224,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTUV0_OFFSET))(this);
 		}
 
-		::System::Void set_constantUV0(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_constantUV0(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTUV0_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTUV0_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_constantUV1()
@@ -234,9 +234,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTUV1_OFFSET))(this);
 		}
 
-		::System::Void set_constantUV1(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_constantUV1(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTUV1_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTUV1_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_constantRgba()
@@ -244,9 +244,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTRGBA_OFFSET))(this);
 		}
 
-		::System::Void set_constantRgba(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_constantRgba(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTRGBA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTRGBA_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_constantRgb()
@@ -254,9 +254,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_GET_CONSTANTRGB_OFFSET))(this);
 		}
 
-		::System::Void set_constantRgb(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_constantRgb(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTRGB_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIMESHSUMMARY_SET_CONSTANTRGB_OFFSET))(this, a1);
 		}
 	};
 }

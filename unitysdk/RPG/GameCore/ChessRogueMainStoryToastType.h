@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessRogueMainStoryToastType_TypeDefinitionIndex = 13962;
+	inline static constexpr unsigned int ChessRogueMainStoryToastType_TypeDefinitionIndex = 14028;
 
 	enum class ChessRogueMainStoryToastType : ::System::Int32
 	{

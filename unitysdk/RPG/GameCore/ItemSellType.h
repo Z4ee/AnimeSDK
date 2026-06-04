@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemSellType_TypeDefinitionIndex = 13130;
+	inline static constexpr unsigned int ItemSellType_TypeDefinitionIndex = 13210;
 
 	enum class ItemSellType : ::System::Int32
 	{

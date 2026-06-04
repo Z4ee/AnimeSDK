@@ -1,0 +1,146 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Decimal.h"
+#include "unitysdk/System/IO/BinaryReader.h"
+
+namespace System { class String; }
+namespace System::IO { class Stream; }
+
+#define CLASS_2_F16C4D4624F16ABD_READDECIMAL_OFFSET UNITYSDK_OFFSET(0x188AD050)
+#define CLASS_2_F16C4D4624F16ABD_READDOUBLE_OFFSET UNITYSDK_OFFSET(0x188ACD70)
+#define CLASS_2_F16C4D4624F16ABD_READINT16_OFFSET UNITYSDK_OFFSET(0x188AC090)
+#define CLASS_2_F16C4D4624F16ABD_READINT32_OFFSET UNITYSDK_OFFSET(0x188AC410)
+#define CLASS_2_F16C4D4624F16ABD_READINT64_OFFSET UNITYSDK_OFFSET(0x188AC6F0)
+#define CLASS_2_F16C4D4624F16ABD_READSINGLE_OFFSET UNITYSDK_OFFSET(0x188ACB50)
+#define CLASS_2_F16C4D4624F16ABD_READSTRING_OFFSET UNITYSDK_OFFSET(0x188AD260)
+#define CLASS_2_F16C4D4624F16ABD_READUINT16_OFFSET UNITYSDK_OFFSET(0x188AC250)
+#define CLASS_2_F16C4D4624F16ABD_READUINT32_OFFSET UNITYSDK_OFFSET(0x188AC4E0)
+#define CLASS_2_F16C4D4624F16ABD_READUINT64_OFFSET UNITYSDK_OFFSET(0x188AC880)
+#define CLASS_2_F16C4D4624F16ABD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x188AC010)
+#define CLASS_2_F16C4D4624F16ABD__CTOR_OFFSET UNITYSDK_OFFSET(0x188ABFA0)
+#define CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READDECIMAL_OFFSET UNITYSDK_OFFSET(0x188AD560)
+#define CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READDOUBLE_OFFSET UNITYSDK_OFFSET(0x188AD520)
+#define CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READINT16_OFFSET UNITYSDK_OFFSET(0x188AD400)
+#define CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READINT32_OFFSET UNITYSDK_OFFSET(0x188AD4A0)
+#define CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READINT64_OFFSET UNITYSDK_OFFSET(0x188AD4C0)
+#define CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READSINGLE_OFFSET UNITYSDK_OFFSET(0x188AD4E0)
+#define CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READSTRING_OFFSET UNITYSDK_OFFSET(0x188AD590)
+#define CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READUINT16_OFFSET UNITYSDK_OFFSET(0x188AD450)
+#define CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READUINT32_OFFSET UNITYSDK_OFFSET(0x188AD4B0)
+#define CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READUINT64_OFFSET UNITYSDK_OFFSET(0x188AD4D0)
+
+inline static constexpr unsigned int Class_2_F16C4D4624F16ABD_TypeDefinitionIndex = 38396;
+
+class Class_2_F16C4D4624F16ABD : public ::System::IO::BinaryReader
+{
+public:
+	::System::Void _ctor(::System::IO::Stream* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void _ctor_1(::System::IO::Stream* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD__CTOR_1_OFFSET))(this, a1, a2);
+	}
+
+	::System::Int16 ReadInt16()
+	{
+		return ((::System::Int16(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD_READINT16_OFFSET))(this);
+	}
+
+	::System::UInt16 ReadUInt16()
+	{
+		return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD_READUINT16_OFFSET))(this);
+	}
+
+	::System::Int32 ReadInt32()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD_READINT32_OFFSET))(this);
+	}
+
+	::System::UInt32 ReadUInt32()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD_READUINT32_OFFSET))(this);
+	}
+
+	::System::Int64 ReadInt64()
+	{
+		return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD_READINT64_OFFSET))(this);
+	}
+
+	::System::UInt64 ReadUInt64()
+	{
+		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD_READUINT64_OFFSET))(this);
+	}
+
+	::System::Single ReadSingle()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD_READSINGLE_OFFSET))(this);
+	}
+
+	::System::Double ReadDouble()
+	{
+		return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD_READDOUBLE_OFFSET))(this);
+	}
+
+	::System::Decimal ReadDecimal()
+	{
+		return ((::System::Decimal(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD_READDECIMAL_OFFSET))(this);
+	}
+
+	::System::String* ReadString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD_READSTRING_OFFSET))(this);
+	}
+
+	::System::Int16 __iFixBaseProxy_ReadInt16()
+	{
+		return ((::System::Int16(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READINT16_OFFSET))(this);
+	}
+
+	::System::UInt16 __iFixBaseProxy_ReadUInt16()
+	{
+		return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READUINT16_OFFSET))(this);
+	}
+
+	::System::Int32 __iFixBaseProxy_ReadInt32()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READINT32_OFFSET))(this);
+	}
+
+	::System::UInt32 __iFixBaseProxy_ReadUInt32()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READUINT32_OFFSET))(this);
+	}
+
+	::System::Int64 __iFixBaseProxy_ReadInt64()
+	{
+		return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READINT64_OFFSET))(this);
+	}
+
+	::System::UInt64 __iFixBaseProxy_ReadUInt64()
+	{
+		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READUINT64_OFFSET))(this);
+	}
+
+	::System::Single __iFixBaseProxy_ReadSingle()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READSINGLE_OFFSET))(this);
+	}
+
+	::System::Double __iFixBaseProxy_ReadDouble()
+	{
+		return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READDOUBLE_OFFSET))(this);
+	}
+
+	::System::Decimal __iFixBaseProxy_ReadDecimal()
+	{
+		return ((::System::Decimal(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READDECIMAL_OFFSET))(this);
+	}
+
+	::System::String* __iFixBaseProxy_ReadString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F16C4D4624F16ABD___IFIXBASEPROXY_READSTRING_OFFSET))(this);
+	}
+};

@@ -6,10 +6,10 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_2_4A6263F694FB4D6A_METHOD_2_5E666539A1C93EAC_OFFSET UNITYSDK_OFFSET(0x19DB4D80)
-#define CLASS_2_4A6263F694FB4D6A__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB4CA0)
+#define CLASS_2_4A6263F694FB4D6A_METHOD_2_5E666539A1C93EAC_OFFSET UNITYSDK_OFFSET(0x1AC3A640)
+#define CLASS_2_4A6263F694FB4D6A__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC329D0)
 
-inline static constexpr unsigned int Class_2_4A6263F694FB4D6A_TypeDefinitionIndex = 39859;
+inline static constexpr unsigned int Class_2_4A6263F694FB4D6A_TypeDefinitionIndex = 40686;
 
 class Class_2_4A6263F694FB4D6A : public ::System::Exception
 {

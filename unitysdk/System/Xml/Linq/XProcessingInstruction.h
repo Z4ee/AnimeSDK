@@ -6,18 +6,18 @@
 namespace System { class String; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_CLONENODE_OFFSET UNITYSDK_OFFSET(0x19F9AAC0)
-#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_GET_DATA_OFFSET UNITYSDK_OFFSET(0x19F9AA10)
-#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x19F9AA20)
-#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x19F9AA30)
-#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_VALIDATENAME_OFFSET UNITYSDK_OFFSET(0x19F9A860)
-#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_WRITETO_OFFSET UNITYSDK_OFFSET(0x19F9AA40)
-#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19F9A9A0)
-#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F949D0)
+#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1AE11250)
+#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1AE111A0)
+#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1AE111B0)
+#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1AE111C0)
+#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_VALIDATENAME_OFFSET UNITYSDK_OFFSET(0x1AE10FF0)
+#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_WRITETO_OFFSET UNITYSDK_OFFSET(0x1AE111D0)
+#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AE11130)
+#define SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE0B1B0)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XProcessingInstruction_TypeDefinitionIndex = 4925;
+	inline static constexpr unsigned int XProcessingInstruction_TypeDefinitionIndex = 3892;
 
 	class XProcessingInstruction : public ::System::Xml::Linq::XNode
 	{
@@ -25,14 +25,14 @@ namespace System::Xml::Linq
 		::System::String* data; // 0x28
 		::System::String* target; // 0x30
 
-		::System::Void _ctor(::System::String* target, ::System::String* data)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION__CTOR_OFFSET))(this, target, data);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::Xml::Linq::XProcessingInstruction* other)
+		::System::Void _ctor_1(::System::Xml::Linq::XProcessingInstruction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XProcessingInstruction*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XProcessingInstruction*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Data()
@@ -50,9 +50,9 @@ namespace System::Xml::Linq
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_GET_TARGET_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::System::Xml::XmlWriter* writer)
+		::System::Void WriteTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_WRITETO_OFFSET))(this, writer);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_WRITETO_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Linq::XNode* CloneNode()
@@ -60,9 +60,9 @@ namespace System::Xml::Linq
 			return ((::System::Xml::Linq::XNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_CLONENODE_OFFSET))(this);
 		}
 
-		static ::System::Void ValidateName(::System::String* name)
+		static ::System::Void ValidateName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_VALIDATENAME_OFFSET))(name);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XPROCESSINGINSTRUCTION_VALIDATENAME_OFFSET))(a1);
 		}
 	};
 }

@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__CTOR_OFFSET UNITYSDK_OFFSET(0xA30BA00)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__3_OFFSET UNITYSDK_OFFSET(0xA30BA70)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__4_OFFSET UNITYSDK_OFFSET(0xA30BA80)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__CTOR_OFFSET UNITYSDK_OFFSET(0xB95C150)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__3_OFFSET UNITYSDK_OFFSET(0xB95C1C0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__4_OFFSET UNITYSDK_OFFSET(0xB95C1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass2_2_TypeDefinitionIndex = 58813;
+	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass2_2_TypeDefinitionIndex = 59743;
 
 	class EvolveBuildUtils___c__DisplayClass2_2 : public ::System::Object
 	{
@@ -21,14 +21,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _SortWeaponList_b__3(::System::UInt32 x)
+		::System::Boolean _SortWeaponList_b__3(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__3_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__3_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _SortWeaponList_b__4(::System::UInt32 x)
+		::System::Boolean _SortWeaponList_b__4(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__4_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__4_OFFSET))(this, a1);
 		}
 	};
 }

@@ -8,22 +8,22 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_0AAE79A4F5695165_OFFSET UNITYSDK_OFFSET(0x1884E110)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_A375176172C657A9_OFFSET UNITYSDK_OFFSET(0x1884E1F0)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_CBF4DDF5E2F7867F_OFFSET UNITYSDK_OFFSET(0x1884E2D0)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1884E340)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1884E1E0)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_A375176172C657A9_OFFSET UNITYSDK_OFFSET(0x1968D460)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_CBF4DDF5E2F7867F_OFFSET UNITYSDK_OFFSET(0x1968D540)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_FCE39163DF7C033F_OFFSET UNITYSDK_OFFSET(0x1968D370)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1968D5B0)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1968D450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageBehaviorTemplateListConfig_TypeDefinitionIndex = 14812;
+	inline static constexpr unsigned int DamageBehaviorTemplateListConfig_TypeDefinitionIndex = 14876;
 
 	class DamageBehaviorTemplateListConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::RPG::GameCore::DamageBehaviorTemplate** StaticGet_S_Default()
 		{
-			return (::RPG::GameCore::DamageBehaviorTemplate**)Il2CppClass::FromTypeDefinitionIndex(DamageBehaviorTemplateListConfig_TypeDefinitionIndex)->GetStaticField(0x5D40);
+			return (::RPG::GameCore::DamageBehaviorTemplate**)Il2CppClass::FromTypeDefinitionIndex(DamageBehaviorTemplateListConfig_TypeDefinitionIndex)->GetStaticField(0x11530);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DamageBehaviorTemplate*>* ConfigList; // 0x10
 
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void Method_2_0AAE79A4F5695165(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamageBehaviorTemplateListConfig*& a2)
+		static ::System::Void Method_2_FCE39163DF7C033F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamageBehaviorTemplateListConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DamageBehaviorTemplateListConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_0AAE79A4F5695165_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DamageBehaviorTemplateListConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_FCE39163DF7C033F_OFFSET))(a1, a2);
 		}
 
 		::RPG::GameCore::DamageBehaviorTemplate* Method_2_A375176172C657A9(::System::String* a1)

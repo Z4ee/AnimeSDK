@@ -11,30 +11,30 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x9CE1120)
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0x9CE3A10)
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETEVALUATOR_OFFSET UNITYSDK_OFFSET(0x9CE39D0)
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETLIMITHEIGHT_OFFSET UNITYSDK_OFFSET(0x9CE39F0)
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x9CE39A0)
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0x9CE3980)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1114CAE6C720FB91_OFFSET UNITYSDK_OFFSET(0x9CE1190)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x9CE12E0)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_332D6988D3174828_OFFSET UNITYSDK_OFFSET(0x9CE2C80)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_472E9805B297BD58_OFFSET UNITYSDK_OFFSET(0x9CE1890)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_81A66FB988DFA6AA_OFFSET UNITYSDK_OFFSET(0x9CE3090)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_89724E4095470BDE_OFFSET UNITYSDK_OFFSET(0x9CE32A0)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_BB8271ED1BDF8503_OFFSET UNITYSDK_OFFSET(0x9CE31F0)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0x9CDFEE0)
-#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0x9CE3A20)
-#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETEVALUATOR_OFFSET UNITYSDK_OFFSET(0x9CE39E0)
-#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETLIMITHEIGHT_OFFSET UNITYSDK_OFFSET(0x9CE3A00)
-#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x9CE39C0)
-#define RPG_CLIENT_AIMSOLVERAIMER_SET_WEIGHT_OFFSET UNITYSDK_OFFSET(0x9CE3990)
-#define RPG_CLIENT_AIMSOLVERAIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x9CE3A30)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xB2D0390)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0xB2D2A70)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETEVALUATOR_OFFSET UNITYSDK_OFFSET(0xB2D2A30)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETLIMITHEIGHT_OFFSET UNITYSDK_OFFSET(0xB2D2A50)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGET_OFFSET UNITYSDK_OFFSET(0xB2D2A00)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0xB2D29E0)
+#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1114CAE6C720FB91_OFFSET UNITYSDK_OFFSET(0xB2D0400)
+#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xB2D0540)
+#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1BFACD6C7C67841A_OFFSET UNITYSDK_OFFSET(0xB2D2320)
+#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_332D6988D3174828_OFFSET UNITYSDK_OFFSET(0xB2D1DF0)
+#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_472E9805B297BD58_OFFSET UNITYSDK_OFFSET(0xB2D0AB0)
+#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_81A66FB988DFA6AA_OFFSET UNITYSDK_OFFSET(0xB2D2120)
+#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_BB8271ED1BDF8503_OFFSET UNITYSDK_OFFSET(0xB2D2270)
+#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0xB2CF130)
+#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0xB2D2A80)
+#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETEVALUATOR_OFFSET UNITYSDK_OFFSET(0xB2D2A40)
+#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETLIMITHEIGHT_OFFSET UNITYSDK_OFFSET(0xB2D2A60)
+#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGET_OFFSET UNITYSDK_OFFSET(0xB2D2A20)
+#define RPG_CLIENT_AIMSOLVERAIMER_SET_WEIGHT_OFFSET UNITYSDK_OFFSET(0xB2D29F0)
+#define RPG_CLIENT_AIMSOLVERAIMER__CTOR_OFFSET UNITYSDK_OFFSET(0xB2D2A90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AimSolverAimer_TypeDefinitionIndex = 63099;
+	inline static constexpr unsigned int AimSolverAimer_TypeDefinitionIndex = 64016;
 
 	class AimSolverAimer : public ::System::Object
 	{
@@ -95,9 +95,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_332D6988D3174828_OFFSET))(this, a1, a2);
 		}
 
-		static ::UnityEngine::Quaternion Method_1_89724E4095470BDE(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
+		static ::UnityEngine::Quaternion Method_1_1BFACD6C7C67841A(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_89724E4095470BDE_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1BFACD6C7C67841A_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::Single get_Weight()
@@ -105,9 +105,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_GET_WEIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_Weight(::System::Single value)
+		::System::Void set_Weight(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_SET_WEIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_SET_WEIGHT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_Target()
@@ -115,9 +115,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_GET_TARGET_OFFSET))(this);
 		}
 
-		::System::Void set_Target(::UnityEngine::Vector3 value)
+		::System::Void set_Target(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_SET_TARGET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_SET_TARGET_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::AimEvaluator_2<::UnityEngine::Vector3, ::System::Boolean>* get_TargetEvaluator()
@@ -125,9 +125,9 @@ namespace RPG::Client
 			return ((::RPG::Client::AimEvaluator_2<::UnityEngine::Vector3, ::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETEVALUATOR_OFFSET))(this);
 		}
 
-		::System::Void set_TargetEvaluator(::RPG::Client::AimEvaluator_2<::UnityEngine::Vector3, ::System::Boolean>* value)
+		::System::Void set_TargetEvaluator(::RPG::Client::AimEvaluator_2<::UnityEngine::Vector3, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AimEvaluator_2<::UnityEngine::Vector3, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETEVALUATOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AimEvaluator_2<::UnityEngine::Vector3, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETEVALUATOR_OFFSET))(this, a1);
 		}
 
 		::System::Single get_TargetLimitHeight()
@@ -135,9 +135,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETLIMITHEIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_TargetLimitHeight(::System::Single value)
+		::System::Void set_TargetLimitHeight(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETLIMITHEIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETLIMITHEIGHT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 get_TargetAlpha()
@@ -145,9 +145,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETALPHA_OFFSET))(this);
 		}
 
-		::System::Void set_TargetAlpha(::UnityEngine::Vector2 value)
+		::System::Void set_TargetAlpha(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETALPHA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETALPHA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsValid()

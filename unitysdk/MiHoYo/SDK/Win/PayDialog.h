@@ -15,35 +15,35 @@ namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define MIHOYO_SDK_WIN_PAYDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x174A31D0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_BACK_OFFSET UNITYSDK_OFFSET(0x174A4B00)
-#define MIHOYO_SDK_WIN_PAYDIALOG_CLICKALIPAYBTN_OFFSET UNITYSDK_OFFSET(0x174A45C0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_CLICKWEIXINPAYBTN_OFFSET UNITYSDK_OFFSET(0x174A44D0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x174A2760)
-#define MIHOYO_SDK_WIN_PAYDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x174A4C20)
-#define MIHOYO_SDK_WIN_PAYDIALOG_PAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x174A4C10)
-#define MIHOYO_SDK_WIN_PAYDIALOG_REFRESHGOODSINFO_OFFSET UNITYSDK_OFFSET(0x174A29D0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_REFRESH_OFFSET UNITYSDK_OFFSET(0x174A3160)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x174A4930)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWPAYLOADING_OFFSET UNITYSDK_OFFSET(0x174A46B0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWPAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x174A49B0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWQRCODEOVERDUE_OFFSET UNITYSDK_OFFSET(0x174A4860)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWQRCODE_OFFSET UNITYSDK_OFFSET(0x174A4780)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x174A2600)
-#define MIHOYO_SDK_WIN_PAYDIALOG_START_OFFSET UNITYSDK_OFFSET(0x174A2850)
-#define MIHOYO_SDK_WIN_PAYDIALOG__BACK_B__62_0_OFFSET UNITYSDK_OFFSET(0x174A4CB0)
-#define MIHOYO_SDK_WIN_PAYDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x174A4C60)
+#define MIHOYO_SDK_WIN_PAYDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x182A2810)
+#define MIHOYO_SDK_WIN_PAYDIALOG_BACK_OFFSET UNITYSDK_OFFSET(0x182A4180)
+#define MIHOYO_SDK_WIN_PAYDIALOG_CLICKALIPAYBTN_OFFSET UNITYSDK_OFFSET(0x182A3C30)
+#define MIHOYO_SDK_WIN_PAYDIALOG_CLICKWEIXINPAYBTN_OFFSET UNITYSDK_OFFSET(0x182A3B30)
+#define MIHOYO_SDK_WIN_PAYDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x182A1D80)
+#define MIHOYO_SDK_WIN_PAYDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x182A42E0)
+#define MIHOYO_SDK_WIN_PAYDIALOG_PAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x182A42C0)
+#define MIHOYO_SDK_WIN_PAYDIALOG_REFRESHGOODSINFO_OFFSET UNITYSDK_OFFSET(0x182A2010)
+#define MIHOYO_SDK_WIN_PAYDIALOG_REFRESH_OFFSET UNITYSDK_OFFSET(0x182A27A0)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x182A3FB0)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWPAYLOADING_OFFSET UNITYSDK_OFFSET(0x182A3D30)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWPAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x182A4030)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWQRCODEOVERDUE_OFFSET UNITYSDK_OFFSET(0x182A3EE0)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWQRCODE_OFFSET UNITYSDK_OFFSET(0x182A3E00)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x182A1C00)
+#define MIHOYO_SDK_WIN_PAYDIALOG_START_OFFSET UNITYSDK_OFFSET(0x182A1E70)
+#define MIHOYO_SDK_WIN_PAYDIALOG__BACK_B__62_0_OFFSET UNITYSDK_OFFSET(0x182A4350)
+#define MIHOYO_SDK_WIN_PAYDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x182A4300)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayDialog_TypeDefinitionIndex = 8304;
+	inline static constexpr unsigned int PayDialog_TypeDefinitionIndex = 9207;
 
 	class PayDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::Win::PayDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::PayDialog**)Il2CppClass::FromTypeDefinitionIndex(PayDialog_TypeDefinitionIndex)->GetStaticField(0x31640);
+			return (::MiHoYo::SDK::Win::PayDialog**)Il2CppClass::FromTypeDefinitionIndex(PayDialog_TypeDefinitionIndex)->GetStaticField(0x2C080);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* BackButtonPath; // 0x0
@@ -99,9 +99,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Show(::MiHoYo::SDK::JSONNode* goods, ::MiHoYo::SDK::PayPlat plat)
+		static ::System::Void Show(::MiHoYo::SDK::JSONNode* a1, ::MiHoYo::SDK::PayPlat a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::PayPlat))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_SHOW_OFFSET))(goods, plat);
+			return ((::System::Void(*)(::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::PayPlat))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_SHOW_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Hide()
@@ -134,9 +134,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_SHOWPAYLOADING_OFFSET))(this);
 		}
 
-		::System::Void ShowQRCode(::System::String* url)
+		::System::Void ShowQRCode(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_SHOWQRCODE_OFFSET))(this, url);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_SHOWQRCODE_OFFSET))(this, a1);
 		}
 
 		::System::Void ShowQRCodeOverdue()
@@ -154,14 +154,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_SHOWPAYSUCCESS_OFFSET))(this);
 		}
 
-		::System::Void ClickAliPayBtn(::System::Boolean value)
+		::System::Void ClickAliPayBtn(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_CLICKALIPAYBTN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_CLICKALIPAYBTN_OFFSET))(this, a1);
 		}
 
-		::System::Void ClickWeixinPayBtn(::System::Boolean value)
+		::System::Void ClickWeixinPayBtn(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_CLICKWEIXINPAYBTN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_CLICKWEIXINPAYBTN_OFFSET))(this, a1);
 		}
 
 		::System::Void Back()
@@ -179,9 +179,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void _Back_b__62_0(::MiHoYo::SDK::Confirm_ConfirmResult result)
+		::System::Void _Back_b__62_0(::MiHoYo::SDK::Confirm_ConfirmResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG__BACK_B__62_0_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG__BACK_B__62_0_OFFSET))(this, a1);
 		}
 	};
 }

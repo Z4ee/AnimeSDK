@@ -8,36 +8,36 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace XLua { class ObjectTranslator; }
 
-#define XLUA_INTERNALGLOBALS_TRYARRAYSET_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11214200)
-#define XLUA_INTERNALGLOBALS_TRYARRAYSET_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x112142B0)
-#define XLUA_INTERNALGLOBALS_TRYARRAYSET_INVOKE_OFFSET UNITYSDK_OFFSET(0x11213AD0)
-#define XLUA_INTERNALGLOBALS_TRYARRAYSET__CTOR_OFFSET UNITYSDK_OFFSET(0x11213320)
+#define XLUA_INTERNALGLOBALS_TRYARRAYSET_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E86400)
+#define XLUA_INTERNALGLOBALS_TRYARRAYSET_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E864B0)
+#define XLUA_INTERNALGLOBALS_TRYARRAYSET_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E863B0)
+#define XLUA_INTERNALGLOBALS_TRYARRAYSET__CTOR_OFFSET UNITYSDK_OFFSET(0x12E862C0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals_TryArraySet_TypeDefinitionIndex = 46391;
+	inline static constexpr unsigned int InternalGlobals_TryArraySet_TypeDefinitionIndex = 46981;
 
 	class InternalGlobals_TryArraySet : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS_TRYARRAYSET__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS_TRYARRAYSET__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::Type* type, ::System::IntPtr L, ::XLua::ObjectTranslator* translator, ::System::Object* obj, ::System::Int32 array_idx, ::System::Int32 obj_idx)
+		::System::Boolean Invoke(::System::Type* a1, ::System::IntPtr a2, ::XLua::ObjectTranslator* a3, ::System::Object* a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::IntPtr, ::XLua::ObjectTranslator*, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS_TRYARRAYSET_INVOKE_OFFSET))(this, type, L, translator, obj, array_idx, obj_idx);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::IntPtr, ::XLua::ObjectTranslator*, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS_TRYARRAYSET_INVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Type* type, ::System::IntPtr L, ::XLua::ObjectTranslator* translator, ::System::Object* obj, ::System::Int32 array_idx, ::System::Int32 obj_idx, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Type* a1, ::System::IntPtr a2, ::XLua::ObjectTranslator* a3, ::System::Object* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::AsyncCallback* a7, ::System::Object* a8)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Type*, ::System::IntPtr, ::XLua::ObjectTranslator*, ::System::Object*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS_TRYARRAYSET_BEGININVOKE_OFFSET))(this, type, L, translator, obj, array_idx, obj_idx, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Type*, ::System::IntPtr, ::XLua::ObjectTranslator*, ::System::Object*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS_TRYARRAYSET_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS_TRYARRAYSET_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS_TRYARRAYSET_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

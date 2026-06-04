@@ -3,10 +3,10 @@
 #include "unitysdk/WwiseObjectReference.h"
 #include "unitysdk/WwiseObjectType.h"
 
-#define WWISEBANKREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1A68AA70)
-#define WWISEBANKREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A68AA80)
+#define WWISEBANKREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1B4D5FF0)
+#define WWISEBANKREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D6000)
 
-inline static constexpr unsigned int WwiseBankReference_TypeDefinitionIndex = 40438;
+inline static constexpr unsigned int WwiseBankReference_TypeDefinitionIndex = 41265;
 
 class WwiseBankReference : public ::WwiseObjectReference
 {

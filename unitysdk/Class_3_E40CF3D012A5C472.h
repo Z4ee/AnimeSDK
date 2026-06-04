@@ -6,31 +6,31 @@ namespace RPG::Client { class UIController; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Exception; }
 
-#define CLASS_3_E40CF3D012A5C472_METHOD_3_4AADAF19CDCB660E_OFFSET UNITYSDK_OFFSET(0x9B97B90)
-#define CLASS_3_E40CF3D012A5C472_METHOD_3_85377D41FEE05B66_OFFSET UNITYSDK_OFFSET(0x9B978F0)
-#define CLASS_3_E40CF3D012A5C472_METHOD_3_BE5CE60A38BF9255_OFFSET UNITYSDK_OFFSET(0x9B97C20)
-#define CLASS_3_E40CF3D012A5C472__CTOR_OFFSET UNITYSDK_OFFSET(0x9B978A0)
-#define CLASS_3_E40CF3D012A5C472__PLAYTRANSITION_B__1_0_OFFSET UNITYSDK_OFFSET(0x9B97D30)
+#define CLASS_3_E40CF3D012A5C472_METHOD_3_1F130271093617A5_OFFSET UNITYSDK_OFFSET(0x14188350)
+#define CLASS_3_E40CF3D012A5C472_METHOD_3_4AADAF19CDCB660E_OFFSET UNITYSDK_OFFSET(0x141885E0)
+#define CLASS_3_E40CF3D012A5C472_METHOD_3_BE5CE60A38BF9255_OFFSET UNITYSDK_OFFSET(0x14188670)
+#define CLASS_3_E40CF3D012A5C472__CTOR_OFFSET UNITYSDK_OFFSET(0x14188300)
+#define CLASS_3_E40CF3D012A5C472__PLAYTRANSITION_B__1_0_OFFSET UNITYSDK_OFFSET(0x14188780)
 
-inline static constexpr unsigned int Class_3_E40CF3D012A5C472_TypeDefinitionIndex = 67317;
+inline static constexpr unsigned int Class_3_E40CF3D012A5C472_TypeDefinitionIndex = 68269;
 
 class Class_3_E40CF3D012A5C472 : public ::Class_2_29E838C92FC61B7A
 {
 public:
 	::RPG::Client::Promises::Promise* Field_3_0; // 0x28
-	::RPG::Client::Promises::Promise* Field_3_2; // 0x30
-	::RPG::Client::UIController* Field_3_3; // 0x38
-	::RPG::Client::Promises::Promise* Field_3_1; // 0x40
-	::RPG::Client::UIController* Field_3_4; // 0x48
+	::RPG::Client::UIController* Field_3_1; // 0x30
+	::RPG::Client::UIController* Field_3_2; // 0x38
+	::RPG::Client::Promises::Promise* Field_3_3; // 0x40
+	::RPG::Client::Promises::Promise* Field_3_4; // 0x48
 
 	::System::Void _ctor(::RPG::Client::UIController* a1, ::RPG::Client::UIController* a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + CLASS_3_E40CF3D012A5C472__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_3_85377D41FEE05B66()
+	::System::Void Method_3_1F130271093617A5()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E40CF3D012A5C472_METHOD_3_85377D41FEE05B66_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E40CF3D012A5C472_METHOD_3_1F130271093617A5_OFFSET))(this);
 	}
 
 	::System::Boolean Method_3_4AADAF19CDCB660E()

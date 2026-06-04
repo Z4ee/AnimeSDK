@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class RemoveEffectOnCharacter; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERDATA_METHOD_1_57D6EA0329F3B309_OFFSET UNITYSDK_OFFSET(0xB90DEC0)
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB90DFA0)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERDATA_METHOD_1_57D6EA0329F3B309_OFFSET UNITYSDK_OFFSET(0xD04ED70)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD04EE50)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int RemoveEffectOnCharacterData_TypeDefinitionIndex = 45064;
+	inline static constexpr unsigned int RemoveEffectOnCharacterData_TypeDefinitionIndex = 45612;
 
 	class RemoveEffectOnCharacterData : public ::System::Object
 	{

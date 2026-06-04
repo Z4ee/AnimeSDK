@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtStackProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E6A64ECEE5F87828_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC6FDB90)
-#define CLASS_3_E6A64ECEE5F87828__CTOR_OFFSET UNITYSDK_OFFSET(0xC6FDB60)
+#define CLASS_3_E6A64ECEE5F87828_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13B86DD0)
+#define CLASS_3_E6A64ECEE5F87828__CTOR_OFFSET UNITYSDK_OFFSET(0x13B86DA0)
 
-inline static constexpr unsigned int Class_3_E6A64ECEE5F87828_TypeDefinitionIndex = 49698;
+inline static constexpr unsigned int Class_3_E6A64ECEE5F87828_TypeDefinitionIndex = 50365;
 
 class Class_3_E6A64ECEE5F87828 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtStackProperty*>
 {

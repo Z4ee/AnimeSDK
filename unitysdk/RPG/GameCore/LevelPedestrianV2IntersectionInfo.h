@@ -9,13 +9,13 @@ namespace RPG::GameCore { class LevelPedestrianV2RoadEntryConnectInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2RoadEntryInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2RoadEntryPairInfo; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONINFO_METHOD_2_4E33AA8EB7CFF56A_OFFSET UNITYSDK_OFFSET(0x18A55880)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONINFO_METHOD_2_6D549C05EA2497F8_OFFSET UNITYSDK_OFFSET(0x18A55BD0)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A544C0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONINFO_METHOD_2_4E33AA8EB7CFF56A_OFFSET UNITYSDK_OFFSET(0x198845E0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONINFO_METHOD_2_D082F1034C3BD96B_OFFSET UNITYSDK_OFFSET(0x19884930)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19883110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2IntersectionInfo_TypeDefinitionIndex = 16415;
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionInfo_TypeDefinitionIndex = 16449;
 
 	class LevelPedestrianV2IntersectionInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONINFO_METHOD_2_4E33AA8EB7CFF56A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_6D549C05EA2497F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionInfo* a2)
+		static ::System::Void Method_2_D082F1034C3BD96B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONINFO_METHOD_2_6D549C05EA2497F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONINFO_METHOD_2_D082F1034C3BD96B_OFFSET))(a1, a2);
 		}
 	};
 }

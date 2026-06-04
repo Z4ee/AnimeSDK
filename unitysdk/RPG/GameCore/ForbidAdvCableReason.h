@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForbidAdvCableReason_TypeDefinitionIndex = 52846;
+	inline static constexpr unsigned int ForbidAdvCableReason_TypeDefinitionIndex = 53555;
 
 	enum class ForbidAdvCableReason : ::System::Int32
 	{

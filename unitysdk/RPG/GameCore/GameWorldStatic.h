@@ -6,15 +6,15 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GAMEWORLDSTATIC_ISALLTEAMLIGHTENTITYDIED_OFFSET UNITYSDK_OFFSET(0xB6B3840)
-#define RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERADVENTUREENTITYCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0xB6B3AD0)
-#define RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERADVENTUREGROUPCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0xB6B3A40)
-#define RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERCUSTOMSTRINGEVENT_OFFSET UNITYSDK_OFFSET(0xB6B39A0)
-#define RPG_GAMECORE_GAMEWORLDSTATIC__CTOR_OFFSET UNITYSDK_OFFSET(0xB6B3C50)
+#define RPG_GAMECORE_GAMEWORLDSTATIC_ISALLTEAMLIGHTENTITYDIED_OFFSET UNITYSDK_OFFSET(0xCE1FD20)
+#define RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERADVENTUREENTITYCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0xCE1FFB0)
+#define RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERADVENTUREGROUPCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0xCE1FF20)
+#define RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERCUSTOMSTRINGEVENT_OFFSET UNITYSDK_OFFSET(0xCE1FE80)
+#define RPG_GAMECORE_GAMEWORLDSTATIC__CTOR_OFFSET UNITYSDK_OFFSET(0xCE20130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameWorldStatic_TypeDefinitionIndex = 54462;
+	inline static constexpr unsigned int GameWorldStatic_TypeDefinitionIndex = 55189;
 
 	class GameWorldStatic : public ::System::Object
 	{
@@ -24,24 +24,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEWORLDSTATIC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Boolean IsAllTeamLightEntityDied(::RPG::GameCore::GameWorld* pGameWorld)
+		static ::System::Boolean IsAllTeamLightEntityDied(::RPG::GameCore::GameWorld* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::GameWorld*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEWORLDSTATIC_ISALLTEAMLIGHTENTITYDIED_OFFSET))(pGameWorld);
+			return ((::System::Boolean(*)(::RPG::GameCore::GameWorld*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEWORLDSTATIC_ISALLTEAMLIGHTENTITYDIED_OFFSET))(a1);
 		}
 
-		static ::System::Void TriggerCustomStringEvent(::RPG::GameCore::GameWorld* pWorld, ::RPG::GameCore::GameEntity* pCastEntity, ::System::String* strContent)
+		static ::System::Void TriggerCustomStringEvent(::RPG::GameCore::GameWorld* a1, ::RPG::GameCore::GameEntity* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GameWorld*, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERCUSTOMSTRINGEVENT_OFFSET))(pWorld, pCastEntity, strContent);
+			return ((::System::Void(*)(::RPG::GameCore::GameWorld*, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERCUSTOMSTRINGEVENT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void TriggerAdventureGroupCustomEvent(::RPG::GameCore::GameWorld* pWorld, ::RPG::GameCore::GameEntity* pCastEntity, ::System::String* strContent)
+		static ::System::Void TriggerAdventureGroupCustomEvent(::RPG::GameCore::GameWorld* a1, ::RPG::GameCore::GameEntity* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GameWorld*, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERADVENTUREGROUPCUSTOMEVENT_OFFSET))(pWorld, pCastEntity, strContent);
+			return ((::System::Void(*)(::RPG::GameCore::GameWorld*, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERADVENTUREGROUPCUSTOMEVENT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void TriggerAdventureEntityCustomEvent(::RPG::GameCore::GameWorld* pWorld, ::RPG::GameCore::GameEntity* pCastEntity, ::System::String* strContent)
+		static ::System::Void TriggerAdventureEntityCustomEvent(::RPG::GameCore::GameWorld* a1, ::RPG::GameCore::GameEntity* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GameWorld*, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERADVENTUREENTITYCUSTOMEVENT_OFFSET))(pWorld, pCastEntity, strContent);
+			return ((::System::Void(*)(::RPG::GameCore::GameWorld*, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEWORLDSTATIC_TRIGGERADVENTUREENTITYCUSTOMEVENT_OFFSET))(a1, a2, a3);
 		}
 	};
 }

@@ -14,37 +14,37 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CLIENT_OFFSCREENCANVAS_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xABE0BF0)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_1CDA0051FD244886_OFFSET UNITYSDK_OFFSET(0xABE03E0)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xABE24E0)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xABE0200)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_9170A99814FEAFAC_OFFSET UNITYSDK_OFFSET(0xABE1B10)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_C0353B6D8FB55332_OFFSET UNITYSDK_OFFSET(0xABE2C30)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0xABE2370)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_E3C376C73DC2AD5B_OFFSET UNITYSDK_OFFSET(0xABE0700)
-#define RPG_CLIENT_OFFSCREENCANVAS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xABE2100)
-#define RPG_CLIENT_OFFSCREENCANVAS_ONENABLE_OFFSET UNITYSDK_OFFSET(0xABDFD10)
-#define RPG_CLIENT_OFFSCREENCANVAS_UPDATERENDERINGLAYERMASK_OFFSET UNITYSDK_OFFSET(0xABE02B0)
-#define RPG_CLIENT_OFFSCREENCANVAS__CTOR_OFFSET UNITYSDK_OFFSET(0xABE2CA0)
+#define RPG_CLIENT_OFFSCREENCANVAS_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC2EDE90)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_1CDA0051FD244886_OFFSET UNITYSDK_OFFSET(0xC2ED6B0)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xC2ED4D0)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_9170A99814FEAFAC_OFFSET UNITYSDK_OFFSET(0xC2EED60)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_C0353B6D8FB55332_OFFSET UNITYSDK_OFFSET(0xC2EFDB0)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0xC2EF520)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xC2EF690)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_E3C376C73DC2AD5B_OFFSET UNITYSDK_OFFSET(0xC2ED9D0)
+#define RPG_CLIENT_OFFSCREENCANVAS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC2EF330)
+#define RPG_CLIENT_OFFSCREENCANVAS_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC2ED010)
+#define RPG_CLIENT_OFFSCREENCANVAS_UPDATERENDERINGLAYERMASK_OFFSET UNITYSDK_OFFSET(0xC2ED580)
+#define RPG_CLIENT_OFFSCREENCANVAS__CTOR_OFFSET UNITYSDK_OFFSET(0xC2EFE20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OffScreenCanvas_TypeDefinitionIndex = 66910;
+	inline static constexpr unsigned int OffScreenCanvas_TypeDefinitionIndex = 67852;
 
 	class OffScreenCanvas : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::UnityEngine::Material** StaticGet_Field_5_7()
+		static ::Il2CppArray<::RPG::Client::OffScreenCanvas*>** StaticGet_Field_5_0()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x5A8E0);
+			return (::Il2CppArray<::RPG::Client::OffScreenCanvas*>**)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x68440);
 		}
-		static ::Il2CppArray<::RPG::Client::OffScreenCanvas*>** StaticGet_Field_5_5()
+		static ::UnityEngine::Material** StaticGet_Field_5_1()
 		{
-			return (::Il2CppArray<::RPG::Client::OffScreenCanvas*>**)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x5A8E8);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x68448);
 		}
-		static ::System::Int32* StaticGet_Field_5_6()
+		static ::System::Int32* StaticGet_Field_5_2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x10170);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x14030);
 		}
 		::UnityEngine::Mesh* sharedMesh; // 0x18
 		::System::Int32 sortingOrder; // 0x20
@@ -94,9 +94,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_4343F372F34C05BF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_4343F372F34C05BF_1()
+		::System::Void Method_5_CA373AA1C7054598()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_4343F372F34C05BF_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_CA373AA1C7054598_OFFSET))(this);
 		}
 
 		::System::Void Method_5_1CDA0051FD244886()

@@ -7,13 +7,13 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17321250)
-#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x173211E0)
-#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x173216B0)
+#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1812FBB0)
+#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1812FB40)
+#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18130010)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int QuaternionFormatter_TypeDefinitionIndex = 9987;
+	inline static constexpr unsigned int QuaternionFormatter_TypeDefinitionIndex = 9814;
 
 	class QuaternionFormatter : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace MessagePack::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_QUATERNIONFORMATTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Serialize(::MessagePack::MessagePackWriter& writer, ::UnityEngine::Quaternion value, ::MessagePack::MessagePackSerializerOptions* options)
+		::System::Void Serialize(::MessagePack::MessagePackWriter& a1, ::UnityEngine::Quaternion a2, ::MessagePack::MessagePackSerializerOptions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::Quaternion, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_QUATERNIONFORMATTER_SERIALIZE_OFFSET))(this, writer, value, options);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::Quaternion, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_QUATERNIONFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Quaternion Deserialize(::MessagePack::MessagePackReader& reader, ::MessagePack::MessagePackSerializerOptions* options)
+		::UnityEngine::Quaternion Deserialize(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackSerializerOptions* a2)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_QUATERNIONFORMATTER_DESERIALIZE_OFFSET))(this, reader, options);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_QUATERNIONFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/Client/LittleGameShare/ChangeType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_829CFD6018DBC4E4__CTOR_OFFSET UNITYSDK_OFFSET(0x17D4BD70)
+#define CLASS_1_829CFD6018DBC4E4__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC56C0)
 
-inline static constexpr unsigned int Class_1_829CFD6018DBC4E4_TypeDefinitionIndex = 34418;
+inline static constexpr unsigned int Class_1_829CFD6018DBC4E4_TypeDefinitionIndex = 34700;
 
 class Class_1_829CFD6018DBC4E4 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::Byte>* Field_1_2; // 0x10
-	::RPG::Client::LittleGameShare::ChangeType Field_1_0; // 0x18
-	::System::UInt32 Field_1_1; // 0x1C
+	::Il2CppArray<::System::Byte>* Field_1_0; // 0x10
+	::RPG::Client::LittleGameShare::ChangeType Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x1C
 
 	::System::Void _ctor()
 	{

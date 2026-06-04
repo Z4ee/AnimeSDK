@@ -4,12 +4,12 @@
 
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASKCONTINUATION_INLINEIFPOSSIBLEORELSEQUEUE_OFFSET UNITYSDK_OFFSET(0x178756F0)
-#define SYSTEM_THREADING_TASKS_TASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x17875870)
+#define SYSTEM_THREADING_TASKS_TASKCONTINUATION_INLINEIFPOSSIBLEORELSEQUEUE_OFFSET UNITYSDK_OFFSET(0x1862E4B0)
+#define SYSTEM_THREADING_TASKS_TASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1862E600)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskContinuation_TypeDefinitionIndex = 915;
+	inline static constexpr unsigned int TaskContinuation_TypeDefinitionIndex = 914;
 
 	class TaskContinuation : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace System::Threading::Tasks
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKCONTINUATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* task, ::System::Boolean needsProtection)
+		static ::System::Void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::System::Threading::Tasks::Task*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKCONTINUATION_INLINEIFPOSSIBLEORELSEQUEUE_OFFSET))(task, needsProtection);
+			return ((::System::Void(*)(::System::Threading::Tasks::Task*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKCONTINUATION_INLINEIFPOSSIBLEORELSEQUEUE_OFFSET))(a1, a2);
 		}
 	};
 }

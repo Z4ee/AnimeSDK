@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnyType_Type_TypeDefinitionIndex = 4107;
+	inline static constexpr unsigned int AnyType_Type_TypeDefinitionIndex = 4281;
 
 	enum class AnyType_Type : ::System::Int32
 	{

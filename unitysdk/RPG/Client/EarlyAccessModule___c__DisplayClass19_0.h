@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class WorldEarlyUnlockData; }
 
-#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA1AE370)
-#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS19_0__GETWORLDEARLYUNLOCKDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA1AF750)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB82FEB0)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS19_0__GETWORLDEARLYUNLOCKDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB8312A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessModule___c__DisplayClass19_0_TypeDefinitionIndex = 58644;
+	inline static constexpr unsigned int EarlyAccessModule___c__DisplayClass19_0_TypeDefinitionIndex = 59574;
 
 	class EarlyAccessModule___c__DisplayClass19_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS19_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetWorldEarlyUnlockData_b__0(::RPG::Client::WorldEarlyUnlockData* x)
+		::System::Boolean _GetWorldEarlyUnlockData_b__0(::RPG::Client::WorldEarlyUnlockData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::WorldEarlyUnlockData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS19_0__GETWORLDEARLYUNLOCKDATA_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::WorldEarlyUnlockData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS19_0__GETWORLDEARLYUNLOCKDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

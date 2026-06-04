@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_KWS_ADDNOTIFYPERMISSIONSUPDATERECEIVEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E8EE40)
+#define EPIC_ONLINESERVICES_KWS_ADDNOTIFYPERMISSIONSUPDATERECEIVEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2CDC50)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int AddNotifyPermissionsUpdateReceivedOptions_TypeDefinitionIndex = 42050;
+	inline static constexpr unsigned int AddNotifyPermissionsUpdateReceivedOptions_TypeDefinitionIndex = 42853;
 
 	class AddNotifyPermissionsUpdateReceivedOptions : public ::System::Object
 	{

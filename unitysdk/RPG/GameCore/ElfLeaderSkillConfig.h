@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ElfLeaderSkillLevelConfig; }
 
-#define RPG_GAMECORE_ELFLEADERSKILLCONFIG_METHOD_2_58561240927579D2_OFFSET UNITYSDK_OFFSET(0x1889C930)
-#define RPG_GAMECORE_ELFLEADERSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1889CA30)
+#define RPG_GAMECORE_ELFLEADERSKILLCONFIG_METHOD_2_FC23A751BFA459E7_OFFSET UNITYSDK_OFFSET(0x196DB0C0)
+#define RPG_GAMECORE_ELFLEADERSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196DB1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfLeaderSkillConfig_TypeDefinitionIndex = 17530;
+	inline static constexpr unsigned int ElfLeaderSkillConfig_TypeDefinitionIndex = 17556;
 
 	class ElfLeaderSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFLEADERSKILLCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_58561240927579D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfLeaderSkillConfig*& a2)
+		static ::System::Void Method_2_FC23A751BFA459E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfLeaderSkillConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfLeaderSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFLEADERSKILLCONFIG_METHOD_2_58561240927579D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfLeaderSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFLEADERSKILLCONFIG_METHOD_2_FC23A751BFA459E7_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -11,35 +11,35 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ADDSYSTEMDEVICEPROFILES_OFFSET UNITYSDK_OFFSET(0x171FA810)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ADDSYSTEMDEVICEPROFILE_OFFSET UNITYSDK_OFFSET(0x171FBA70)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ATTACHDEVICE_OFFSET UNITYSDK_OFFSET(0x171FB7A0)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_CHECKPLATFORMSUPPORT_OFFSET UNITYSDK_OFFSET(0x171FBAC0)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x171FA950)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DETACHDEVICE_OFFSET UNITYSDK_OFFSET(0x171FB620)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DETECTDEVICE_OFFSET UNITYSDK_OFFSET(0x171FB160)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ENABLE_OFFSET UNITYSDK_OFFSET(0x171FBED0)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDATTACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x171FB590)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDDETACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x171FB6C0)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_SYSTEMFINDDETACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x171FB830)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x171FA9D0)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x171FA530)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ADDSYSTEMDEVICEPROFILES_OFFSET UNITYSDK_OFFSET(0x18030390)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ADDSYSTEMDEVICEPROFILE_OFFSET UNITYSDK_OFFSET(0x18031760)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ATTACHDEVICE_OFFSET UNITYSDK_OFFSET(0x18031430)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_CHECKPLATFORMSUPPORT_OFFSET UNITYSDK_OFFSET(0x180317F0)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x18030560)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DETACHDEVICE_OFFSET UNITYSDK_OFFSET(0x18031250)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DETECTDEVICE_OFFSET UNITYSDK_OFFSET(0x18030D30)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ENABLE_OFFSET UNITYSDK_OFFSET(0x18031B10)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDATTACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x180311D0)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDDETACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x18031350)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_SYSTEMFINDDETACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x18031520)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x180305E0)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x180300B0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int NativeInputDeviceManager_TypeDefinitionIndex = 37171;
+	inline static constexpr unsigned int NativeInputDeviceManager_TypeDefinitionIndex = 37903;
 
 	class NativeInputDeviceManager : public ::InControl::InputDeviceManager
 	{
 	public:
 		static ::System::Func_3<::InControl::InputDeviceInfo, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::NativeInputDevice*>*, ::InControl::NativeInputDevice*>** StaticGet_CustomFindDetachedDevice()
 		{
-			return (::System::Func_3<::InControl::InputDeviceInfo, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::NativeInputDevice*>*, ::InControl::NativeInputDevice*>**)Il2CppClass::FromTypeDefinitionIndex(NativeInputDeviceManager_TypeDefinitionIndex)->GetStaticField(0x10A80);
+			return (::System::Func_3<::InControl::InputDeviceInfo, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::NativeInputDevice*>*, ::InControl::NativeInputDevice*>**)Il2CppClass::FromTypeDefinitionIndex(NativeInputDeviceManager_TypeDefinitionIndex)->GetStaticField(0x14FD0);
 		}
-		::System::Collections::Generic::List_1<::InControl::InputDeviceProfile*>* systemDeviceProfiles; // 0x18
+		::System::Collections::Generic::List_1<::InControl::NativeInputDevice*>* attachedDevices; // 0x18
 		::System::Collections::Generic::List_1<::InControl::NativeInputDevice*>* detachedDevices; // 0x20
-		::System::Collections::Generic::List_1<::InControl::InputDeviceProfile*>* customDeviceProfiles; // 0x28
-		::System::Collections::Generic::List_1<::InControl::NativeInputDevice*>* attachedDevices; // 0x30
+		::System::Collections::Generic::List_1<::InControl::InputDeviceProfile*>* systemDeviceProfiles; // 0x28
+		::System::Collections::Generic::List_1<::InControl::InputDeviceProfile*>* customDeviceProfiles; // 0x30
 		::Il2CppArray<::System::UInt32>* deviceEvents; // 0x38
 
 		::System::Void _ctor()
@@ -52,44 +52,44 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_DESTROY_OFFSET))(this);
 		}
 
-		::System::Void Update(::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void Update(::System::UInt64 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_UPDATE_OFFSET))(this, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_UPDATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DetectDevice(::System::UInt32 deviceHandle, ::InControl::InputDeviceInfo deviceInfo)
+		::System::Void DetectDevice(::System::UInt32 a1, ::InControl::InputDeviceInfo a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_DETECTDEVICE_OFFSET))(this, deviceHandle, deviceInfo);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_DETECTDEVICE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AttachDevice(::InControl::NativeInputDevice* device)
+		::System::Void AttachDevice(::InControl::NativeInputDevice* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::NativeInputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_ATTACHDEVICE_OFFSET))(this, device);
+			return ((::System::Void(*)(::PVOID, ::InControl::NativeInputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_ATTACHDEVICE_OFFSET))(this, a1);
 		}
 
-		::System::Void DetachDevice(::InControl::NativeInputDevice* device)
+		::System::Void DetachDevice(::InControl::NativeInputDevice* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::NativeInputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_DETACHDEVICE_OFFSET))(this, device);
+			return ((::System::Void(*)(::PVOID, ::InControl::NativeInputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_DETACHDEVICE_OFFSET))(this, a1);
 		}
 
-		::InControl::NativeInputDevice* FindAttachedDevice(::System::UInt32 deviceHandle)
+		::InControl::NativeInputDevice* FindAttachedDevice(::System::UInt32 a1)
 		{
-			return ((::InControl::NativeInputDevice*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDATTACHEDDEVICE_OFFSET))(this, deviceHandle);
+			return ((::InControl::NativeInputDevice*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDATTACHEDDEVICE_OFFSET))(this, a1);
 		}
 
-		::InControl::NativeInputDevice* FindDetachedDevice(::InControl::InputDeviceInfo deviceInfo)
+		::InControl::NativeInputDevice* FindDetachedDevice(::InControl::InputDeviceInfo a1)
 		{
-			return ((::InControl::NativeInputDevice*(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDDETACHEDDEVICE_OFFSET))(this, deviceInfo);
+			return ((::InControl::NativeInputDevice*(*)(::PVOID, ::InControl::InputDeviceInfo))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDDETACHEDDEVICE_OFFSET))(this, a1);
 		}
 
-		static ::InControl::NativeInputDevice* SystemFindDetachedDevice(::InControl::InputDeviceInfo deviceInfo, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::NativeInputDevice*>* detachedDevices)
+		static ::InControl::NativeInputDevice* SystemFindDetachedDevice(::InControl::InputDeviceInfo a1, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::NativeInputDevice*>* a2)
 		{
-			return ((::InControl::NativeInputDevice*(*)(::InControl::InputDeviceInfo, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::NativeInputDevice*>*))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_SYSTEMFINDDETACHEDDEVICE_OFFSET))(deviceInfo, detachedDevices);
+			return ((::InControl::NativeInputDevice*(*)(::InControl::InputDeviceInfo, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::NativeInputDevice*>*))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_SYSTEMFINDDETACHEDDEVICE_OFFSET))(a1, a2);
 		}
 
-		::System::Void AddSystemDeviceProfile(::InControl::InputDeviceProfile* deviceProfile)
+		::System::Void AddSystemDeviceProfile(::InControl::InputDeviceProfile* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceProfile*))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_ADDSYSTEMDEVICEPROFILE_OFFSET))(this, deviceProfile);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputDeviceProfile*))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_ADDSYSTEMDEVICEPROFILE_OFFSET))(this, a1);
 		}
 
 		::System::Void AddSystemDeviceProfiles()
@@ -97,9 +97,9 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_ADDSYSTEMDEVICEPROFILES_OFFSET))(this);
 		}
 
-		static ::System::Boolean CheckPlatformSupport(::System::Collections::Generic::ICollection_1<::System::String*>* errors)
+		static ::System::Boolean CheckPlatformSupport(::System::Collections::Generic::ICollection_1<::System::String*>* a1)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::ICollection_1<::System::String*>*))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_CHECKPLATFORMSUPPORT_OFFSET))(errors);
+			return ((::System::Boolean(*)(::System::Collections::Generic::ICollection_1<::System::String*>*))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEINPUTDEVICEMANAGER_CHECKPLATFORMSUPPORT_OFFSET))(a1);
 		}
 
 		static ::System::Boolean Enable()

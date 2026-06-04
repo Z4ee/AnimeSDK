@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/PuzzleTutorialType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_PUZZLETUTORIALEVENTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xAEB0E10)
+#define RPG_CLIENT_PROP_PUZZLETUTORIALEVENTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC5F6F50)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PuzzleTutorialEventParam_TypeDefinitionIndex = 72281;
+	inline static constexpr unsigned int PuzzleTutorialEventParam_TypeDefinitionIndex = 73303;
 
 	class PuzzleTutorialEventParam : public ::System::Object
 	{

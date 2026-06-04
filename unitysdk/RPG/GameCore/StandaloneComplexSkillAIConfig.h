@@ -8,12 +8,12 @@ namespace RPG::GameCore { class SkillExtensionComplexSkillAIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_METHOD_2_A4795A1AB36FF73D_OFFSET UNITYSDK_OFFSET(0x18E97C40)
-#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E97DC0)
+#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_METHOD_2_CCE81DC164485C57_OFFSET UNITYSDK_OFFSET(0x19CB5010)
+#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB5160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StandaloneComplexSkillAIConfig_TypeDefinitionIndex = 14735;
+	inline static constexpr unsigned int StandaloneComplexSkillAIConfig_TypeDefinitionIndex = 14800;
 
 	class StandaloneComplexSkillAIConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A4795A1AB36FF73D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StandaloneComplexSkillAIConfig*& a2)
+		static ::System::Void Method_2_CCE81DC164485C57(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StandaloneComplexSkillAIConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StandaloneComplexSkillAIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_METHOD_2_A4795A1AB36FF73D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StandaloneComplexSkillAIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_METHOD_2_CCE81DC164485C57_OFFSET))(a1, a2);
 		}
 	};
 }

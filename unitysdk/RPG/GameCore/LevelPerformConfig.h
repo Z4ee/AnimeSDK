@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPERFORMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A572F0)
-#define RPG_GAMECORE_LEVELPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A574A0)
+#define RPG_GAMECORE_LEVELPERFORMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19886170)
+#define RPG_GAMECORE_LEVELPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19886320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPerformConfig_TypeDefinitionIndex = 17409;
+	inline static constexpr unsigned int LevelPerformConfig_TypeDefinitionIndex = 17414;
 
 	class LevelPerformConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPERFORMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelPerformConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPerformConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPerformConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPERFORMCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPerformConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPERFORMCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -10,13 +10,13 @@ namespace System { class String; }
 
 #define MIHOYOSDKJSON_JSONNODE_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x10F0)
 #define MIHOYOSDKJSON_JSONNODE_ENUMERATOR_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1030)
-#define MIHOYOSDKJSON_JSONNODE_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x29FB0)
+#define MIHOYOSDKJSON_JSONNODE_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2CD90)
 #define MIHOYOSDKJSON_JSONNODE_ENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1090)
 #define MIHOYOSDKJSON_JSONNODE_ENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1040)
 
 namespace MiHoYoSDKJSON
 {
-	inline static constexpr unsigned int JSONNode_Enumerator_TypeDefinitionIndex = 42650;
+	inline static constexpr unsigned int JSONNode_Enumerator_TypeDefinitionIndex = 43453;
 
 	struct alignas(8) JSONNode_Enumerator
 	{
@@ -24,14 +24,14 @@ namespace MiHoYoSDKJSON
 		::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MiHoYoSDKJSON::JSONNode*> m_Object; // 0x18
 		::System::Collections::Generic::List_1_Enumerator<::MiHoYoSDKJSON::JSONNode*> m_Array; // 0x40
 
-		::System::Void _ctor(::System::Collections::Generic::List_1_Enumerator<::MiHoYoSDKJSON::JSONNode*> aArrayEnum)
+		::System::Void _ctor(::System::Collections::Generic::List_1_Enumerator<::MiHoYoSDKJSON::JSONNode*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1_Enumerator<::MiHoYoSDKJSON::JSONNode*>))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_ENUMERATOR__CTOR_OFFSET))(this, aArrayEnum);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1_Enumerator<::MiHoYoSDKJSON::JSONNode*>))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_ENUMERATOR__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MiHoYoSDKJSON::JSONNode*> aDictEnum)
+		::System::Void _ctor_1(::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MiHoYoSDKJSON::JSONNode*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MiHoYoSDKJSON::JSONNode*>))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_ENUMERATOR__CTOR_1_OFFSET))(this, aDictEnum);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MiHoYoSDKJSON::JSONNode*>))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_ENUMERATOR__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsValid()

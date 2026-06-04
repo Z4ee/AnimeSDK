@@ -9,25 +9,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_63AB485EFA8FBC73_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12ADD7D0)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_006FE46C1CBA320C_OFFSET UNITYSDK_OFFSET(0x12ADE050)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_8542E37E74FDE1B5_1_OFFSET UNITYSDK_OFFSET(0x12ADDC30)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_8542E37E74FDE1B5_OFFSET UNITYSDK_OFFSET(0x12ADD810)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x12ADD720)
-#define CLASS_1_63AB485EFA8FBC73__CTOR_OFFSET UNITYSDK_OFFSET(0x12ADE530)
+#define CLASS_1_63AB485EFA8FBC73_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13BAE8A0)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_006FE46C1CBA320C_OFFSET UNITYSDK_OFFSET(0x13BAF140)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x13BAE7F0)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_FD3B916300F77FDA_1_OFFSET UNITYSDK_OFFSET(0x13BAED10)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_FD3B916300F77FDA_OFFSET UNITYSDK_OFFSET(0x13BAE8E0)
+#define CLASS_1_63AB485EFA8FBC73__CTOR_OFFSET UNITYSDK_OFFSET(0x13BAF610)
 
-inline static constexpr unsigned int Class_1_63AB485EFA8FBC73_TypeDefinitionIndex = 55485;
+inline static constexpr unsigned int Class_1_63AB485EFA8FBC73_TypeDefinitionIndex = 56236;
 
 class Class_1_63AB485EFA8FBC73 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_4; // 0x10
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_5; // 0x18
-	::RPG::Client::AchievementData* Field_1_1; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Field_1_6; // 0x28
-	::RPG::Client::AchievementData* Field_1_0; // 0x30
-	::System::UInt32 Field_1_3; // 0x38
-	::System::UInt32 Field_1_2; // 0x3C
+	::RPG::Client::AchievementData* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x18
+	::RPG::Client::AchievementData* Field_1_2; // 0x20
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_3; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Field_1_4; // 0x30
+	::System::UInt32 Field_1_5; // 0x38
+	::System::UInt32 Field_1_6; // 0x3C
 
 	::System::Void _ctor()
 	{
@@ -44,14 +44,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_63AB485EFA8FBC73_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_8542E37E74FDE1B5()
+	::System::Void Method_1_FD3B916300F77FDA()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_63AB485EFA8FBC73_METHOD_1_8542E37E74FDE1B5_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_63AB485EFA8FBC73_METHOD_1_FD3B916300F77FDA_OFFSET))(this);
 	}
 
-	::System::Void Method_1_8542E37E74FDE1B5_1()
+	::System::Void Method_1_FD3B916300F77FDA_1()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_63AB485EFA8FBC73_METHOD_1_8542E37E74FDE1B5_1_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_63AB485EFA8FBC73_METHOD_1_FD3B916300F77FDA_1_OFFSET))(this);
 	}
 
 	::System::Void Method_1_006FE46C1CBA320C(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::Client::IsometricViewModule* a3)

@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int SpacingMode_TypeDefinitionIndex = 36445;
+	inline static constexpr unsigned int SpacingMode_TypeDefinitionIndex = 36745;
 
 	enum class SpacingMode : ::System::Int32
 	{

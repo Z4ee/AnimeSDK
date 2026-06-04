@@ -7,22 +7,22 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_CLEARLATETICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xA9EA0F0)
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_CLEARTICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xA9E9FE0)
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xA9EA2A0)
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA9EA1D0)
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA9EA350)
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETLATETICKCALLBACK_1_OFFSET UNITYSDK_OFFSET(0xA9EA090)
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETLATETICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xA9EA030)
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETTICKCALLBACK_1_OFFSET UNITYSDK_OFFSET(0xA9E9F80)
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETTICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xA9E9F20)
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SPAWNED_OFFSET UNITYSDK_OFFSET(0xA9EA260)
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9EA140)
-#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0xA9EA400)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_CLEARLATETICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xC138440)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_CLEARTICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xC138330)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xC138610)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC138530)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC1386C0)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETLATETICKCALLBACK_1_OFFSET UNITYSDK_OFFSET(0xC1383E0)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETLATETICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xC138380)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETTICKCALLBACK_1_OFFSET UNITYSDK_OFFSET(0xC1382D0)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETTICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xC138270)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SPAWNED_OFFSET UNITYSDK_OFFSET(0xC1385D0)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC138490)
+#define RPG_CLIENT_MONOPERFORMANCEUITRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0xC138770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPerformanceUITransfer_TypeDefinitionIndex = 66885;
+	inline static constexpr unsigned int MonoPerformanceUITransfer_TypeDefinitionIndex = 67825;
 
 	class MonoPerformanceUITransfer : public ::UnityEngine::MonoBehaviour
 	{
@@ -39,14 +39,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEUITRANSFER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetTickCallback(::System::Action_2<::XLua::LuaTable*, ::System::Single>* tickCallback, ::XLua::LuaTable* luaSelf)
+		::System::Void SetTickCallback(::System::Action_2<::XLua::LuaTable*, ::System::Single>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Single>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETTICKCALLBACK_OFFSET))(this, tickCallback, luaSelf);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Single>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETTICKCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetTickCallback_1(::System::Action_1<::System::Single>* callback, ::System::String* tag)
+		::System::Void SetTickCallback_1(::System::Action_1<::System::Single>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETTICKCALLBACK_1_OFFSET))(this, callback, tag);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETTICKCALLBACK_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearTickCallback()
@@ -54,14 +54,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEUITRANSFER_CLEARTICKCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void SetLateTickCallback(::System::Action_2<::XLua::LuaTable*, ::System::Single>* tickCallback, ::XLua::LuaTable* luaSelf)
+		::System::Void SetLateTickCallback(::System::Action_2<::XLua::LuaTable*, ::System::Single>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Single>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETLATETICKCALLBACK_OFFSET))(this, tickCallback, luaSelf);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Single>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETLATETICKCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetLateTickCallback_1(::System::Action_1<::System::Single>* callback, ::System::String* tag)
+		::System::Void SetLateTickCallback_1(::System::Action_1<::System::Single>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETLATETICKCALLBACK_1_OFFSET))(this, callback, tag);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEUITRANSFER_SETLATETICKCALLBACK_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearLateTickCallback()

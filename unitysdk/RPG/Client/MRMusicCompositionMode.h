@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MRMusicCompositionMode_TypeDefinitionIndex = 55771;
+	inline static constexpr unsigned int MRMusicCompositionMode_TypeDefinitionIndex = 56526;
 
 	enum class MRMusicCompositionMode : ::System::Int32
 	{

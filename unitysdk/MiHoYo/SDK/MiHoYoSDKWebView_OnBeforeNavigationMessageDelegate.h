@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8D69DA0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8D69DE0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x8D69820)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x8D69800)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA1C4260)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA1C42A0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA1C3740)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA1C4170)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebView_OnBeforeNavigationMessageDelegate_TypeDefinitionIndex = 43159;
+	inline static constexpr unsigned int MiHoYoSDKWebView_OnBeforeNavigationMessageDelegate_TypeDefinitionIndex = 43962;
 
 	class MiHoYoSDKWebView_OnBeforeNavigationMessageDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::MiHoYoSDKWebView* webView, ::System::String* url)
+		::System::Void Invoke(::MiHoYo::SDK::MiHoYoSDKWebView* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebView*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_INVOKE_OFFSET))(this, webView, url);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebView*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::MiHoYoSDKWebView* webView, ::System::String* url, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::MiHoYoSDKWebView* a1, ::System::String* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebView*, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_BEGININVOKE_OFFSET))(this, webView, url, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebView*, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFORENAVIGATIONMESSAGEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

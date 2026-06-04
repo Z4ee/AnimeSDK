@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARKOURLEVELGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BD5490)
-#define RPG_GAMECORE_PARKOURLEVELGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD5690)
+#define RPG_GAMECORE_PARKOURLEVELGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199E7050)
+#define RPG_GAMECORE_PARKOURLEVELGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199E7250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourLevelGroupRow_TypeDefinitionIndex = 11480;
+	inline static constexpr unsigned int ParkourLevelGroupRow_TypeDefinitionIndex = 11525;
 
 	class ParkourLevelGroupRow : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARKOURLEVELGROUPROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ParkourLevelGroupRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParkourLevelGroupRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParkourLevelGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARKOURLEVELGROUPROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParkourLevelGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARKOURLEVELGROUPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

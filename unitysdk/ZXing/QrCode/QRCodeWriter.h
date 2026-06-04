@@ -9,13 +9,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace ZXing::Common { class BitMatrix; }
 namespace ZXing::QrCode::Internal { class QRCode; }
 
-#define ZXING_QRCODE_QRCODEWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1A77BB30)
-#define ZXING_QRCODE_QRCODEWRITER_RENDERRESULT_OFFSET UNITYSDK_OFFSET(0x1A77C160)
-#define ZXING_QRCODE_QRCODEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A74E7B0)
+#define ZXING_QRCODE_QRCODEWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1B57CFF0)
+#define ZXING_QRCODE_QRCODEWRITER_RENDERRESULT_OFFSET UNITYSDK_OFFSET(0x1B57D630)
+#define ZXING_QRCODE_QRCODEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54FAB0)
 
 namespace ZXing::QrCode
 {
-	inline static constexpr unsigned int QRCodeWriter_TypeDefinitionIndex = 6086;
+	inline static constexpr unsigned int QRCodeWriter_TypeDefinitionIndex = 6459;
 
 	class QRCodeWriter : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace ZXing::QrCode
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_QRCODE_QRCODEWRITER__CTOR_OFFSET))(this);
 		}
 
-		::ZXing::Common::BitMatrix* encode(::System::String* contents, ::ZXing::BarcodeFormat format, ::System::Int32 width, ::System::Int32 height, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* hints)
+		::ZXing::Common::BitMatrix* encode(::System::String* a1, ::ZXing::BarcodeFormat a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* a5)
 		{
-			return ((::ZXing::Common::BitMatrix*(*)(::PVOID, ::System::String*, ::ZXing::BarcodeFormat, ::System::Int32, ::System::Int32, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>*))((::PBYTE)hIl2Cpp + ZXING_QRCODE_QRCODEWRITER_ENCODE_OFFSET))(this, contents, format, width, height, hints);
+			return ((::ZXing::Common::BitMatrix*(*)(::PVOID, ::System::String*, ::ZXing::BarcodeFormat, ::System::Int32, ::System::Int32, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>*))((::PBYTE)hIl2Cpp + ZXING_QRCODE_QRCODEWRITER_ENCODE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::ZXing::Common::BitMatrix* renderResult(::ZXing::QrCode::Internal::QRCode* code, ::System::Int32 width, ::System::Int32 height, ::System::Int32 quietZone)
+		static ::ZXing::Common::BitMatrix* renderResult(::ZXing::QrCode::Internal::QRCode* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::ZXing::Common::BitMatrix*(*)(::ZXing::QrCode::Internal::QRCode*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_QRCODE_QRCODEWRITER_RENDERRESULT_OFFSET))(code, width, height, quietZone);
+			return ((::ZXing::Common::BitMatrix*(*)(::ZXing::QrCode::Internal::QRCode*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_QRCODE_QRCODEWRITER_RENDERRESULT_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

@@ -9,36 +9,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8DA8AA0)
-#define MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8DA8AE0)
-#define MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x8DA8460)
-#define MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x8DA8440)
+#define MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA1F8B60)
+#define MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA1F8BA0)
+#define MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xA1F8B40)
+#define MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA1F8A50)
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int AutoReportHandler_TypeDefinitionIndex = 43209;
+	inline static constexpr unsigned int AutoReportHandler_TypeDefinitionIndex = 44012;
 
 	class AutoReportHandler : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::ReporterUtil::ReporterEvent* sender, ::System::String* stageName, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* result)
+		::System::Void Invoke(::MiHoYo::SDK::ReporterUtil::ReporterEvent* a1, ::System::String* a2, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterEvent*, ::System::String*, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_INVOKE_OFFSET))(this, sender, stageName, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterEvent*, ::System::String*, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::ReporterUtil::ReporterEvent* sender, ::System::String* stageName, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* result, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::ReporterUtil::ReporterEvent* a1, ::System::String* a2, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterEvent*, ::System::String*, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_BEGININVOKE_OFFSET))(this, sender, stageName, result, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterEvent*, ::System::String*, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AUTOREPORTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

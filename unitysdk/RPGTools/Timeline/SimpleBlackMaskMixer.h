@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xB915AB0)
+#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xD0562B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SimpleBlackMaskMixer_TypeDefinitionIndex = 45043;
+	inline static constexpr unsigned int SimpleBlackMaskMixer_TypeDefinitionIndex = 45591;
 
 	class SimpleBlackMaskMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{

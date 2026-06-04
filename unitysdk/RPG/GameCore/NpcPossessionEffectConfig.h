@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TriggerEffect; }
 
-#define RPG_GAMECORE_NPCPOSSESSIONEFFECTCONFIG_METHOD_2_5E86C230C28F66C0_OFFSET UNITYSDK_OFFSET(0x18BC1C90)
-#define RPG_GAMECORE_NPCPOSSESSIONEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC1DE0)
+#define RPG_GAMECORE_NPCPOSSESSIONEFFECTCONFIG_METHOD_2_70ECF9102D542D52_OFFSET UNITYSDK_OFFSET(0x199D3510)
+#define RPG_GAMECORE_NPCPOSSESSIONEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199D3660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NpcPossessionEffectConfig_TypeDefinitionIndex = 21278;
+	inline static constexpr unsigned int NpcPossessionEffectConfig_TypeDefinitionIndex = 21171;
 
 	class NpcPossessionEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCPOSSESSIONEFFECTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5E86C230C28F66C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NpcPossessionEffectConfig*& a2)
+		static ::System::Void Method_2_70ECF9102D542D52(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NpcPossessionEffectConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NpcPossessionEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCPOSSESSIONEFFECTCONFIG_METHOD_2_5E86C230C28F66C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NpcPossessionEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCPOSSESSIONEFFECTCONFIG_METHOD_2_70ECF9102D542D52_OFFSET))(a1, a2);
 		}
 	};
 }

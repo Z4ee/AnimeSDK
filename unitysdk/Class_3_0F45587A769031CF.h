@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0F45587A769031CF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD3613D0)
-#define CLASS_3_0F45587A769031CF__CTOR_OFFSET UNITYSDK_OFFSET(0xD3613A0)
+#define CLASS_3_0F45587A769031CF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13CD5F30)
+#define CLASS_3_0F45587A769031CF__CTOR_OFFSET UNITYSDK_OFFSET(0x13CD5F00)
 
-inline static constexpr unsigned int Class_3_0F45587A769031CF_TypeDefinitionIndex = 51530;
+inline static constexpr unsigned int Class_3_0F45587A769031CF_TypeDefinitionIndex = 52198;
 
 class Class_3_0F45587A769031CF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableEmotion*>
 {

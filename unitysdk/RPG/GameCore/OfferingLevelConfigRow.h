@@ -5,31 +5,31 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_OFFERINGLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BC2EE0)
-#define RPG_GAMECORE_OFFERINGLEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC30F0)
+#define RPG_GAMECORE_OFFERINGLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199D4720)
+#define RPG_GAMECORE_OFFERINGLEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199D4930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfferingLevelConfigRow_TypeDefinitionIndex = 13550;
+	inline static constexpr unsigned int OfferingLevelConfigRow_TypeDefinitionIndex = 13621;
 
 	class OfferingLevelConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Level; // 0x10
-		::RPG::GameCore::OfferingRewardType Type; // 0x14
-		::System::UInt32 ItemCost; // 0x18
-		::System::UInt32 RewardID; // 0x1C
-		::System::UInt32 TypeID; // 0x20
-		::System::UInt32 UnlockID; // 0x24
+		::RPG::GameCore::OfferingRewardType Type; // 0x10
+		::System::UInt32 TypeID; // 0x14
+		::System::UInt32 UnlockID; // 0x18
+		::System::UInt32 ItemCost; // 0x1C
+		::System::UInt32 RewardID; // 0x20
+		::System::UInt32 Level; // 0x24
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFERINGLEVELCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::OfferingLevelConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OfferingLevelConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OfferingLevelConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFERINGLEVELCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OfferingLevelConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFERINGLEVELCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,15 +4,15 @@
 
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E8C0E0)
-#define EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8E8C100)
-#define EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E8C0F0)
-#define EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8E8C110)
-#define EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E8C120)
+#define EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2CADE0)
+#define EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA2CAE00)
+#define EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2CADF0)
+#define EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA2CAE10)
+#define EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2CAE20)
 
 namespace Epic::OnlineServices::Friends
 {
-	inline static constexpr unsigned int RejectInviteOptions_TypeDefinitionIndex = 42128;
+	inline static constexpr unsigned int RejectInviteOptions_TypeDefinitionIndex = 42931;
 
 	class RejectInviteOptions : public ::System::Object
 	{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::Friends
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::EpicAccountId* get_TargetUserId()
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::Friends
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_REJECTINVITEOPTIONS_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 	};
 }

@@ -12,48 +12,48 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LIGHTCONESELECT_ADD_ONHIGHLIGHTEDINDEXCHANGED_OFFSET UNITYSDK_OFFSET(0xA66C050)
-#define RPG_CLIENT_LIGHTCONESELECT_CHANGETONEXTCOROUTINE_OFFSET UNITYSDK_OFFSET(0xA66EA70)
-#define RPG_CLIENT_LIGHTCONESELECT_FINDCAMERA3D_OFFSET UNITYSDK_OFFSET(0xA66C1F0)
-#define RPG_CLIENT_LIGHTCONESELECT_GET_HIGHLIGHTEDINDEX_OFFSET UNITYSDK_OFFSET(0xA66F510)
-#define RPG_CLIENT_LIGHTCONESELECT_GET_INMANUALCONTROL_OFFSET UNITYSDK_OFFSET(0xA66F570)
-#define RPG_CLIENT_LIGHTCONESELECT_GET_INSNAP_OFFSET UNITYSDK_OFFSET(0xA66F550)
-#define RPG_CLIENT_LIGHTCONESELECT_GET_INTERVALDEGREE_OFFSET UNITYSDK_OFFSET(0xA66F0D0)
-#define RPG_CLIENT_LIGHTCONESELECT_GET_NUMBER_OFFSET UNITYSDK_OFFSET(0xA66EA20)
-#define RPG_CLIENT_LIGHTCONESELECT_GET_ROTATEDEGREE_OFFSET UNITYSDK_OFFSET(0xA66F530)
-#define RPG_CLIENT_LIGHTCONESELECT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA66CDD0)
-#define RPG_CLIENT_LIGHTCONESELECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA66C130)
-#define RPG_CLIENT_LIGHTCONESELECT_PLAYGRADUALHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xA66D200)
-#define RPG_CLIENT_LIGHTCONESELECT_REMOVE_ONHIGHLIGHTEDINDEXCHANGED_OFFSET UNITYSDK_OFFSET(0xA66C0C0)
-#define RPG_CLIENT_LIGHTCONESELECT_RESETLIGHTCONES_OFFSET UNITYSDK_OFFSET(0xA66C2A0)
-#define RPG_CLIENT_LIGHTCONESELECT_SET_HIGHLIGHTEDINDEX_OFFSET UNITYSDK_OFFSET(0xA66F520)
-#define RPG_CLIENT_LIGHTCONESELECT_SET_INMANUALCONTROL_OFFSET UNITYSDK_OFFSET(0xA66F580)
-#define RPG_CLIENT_LIGHTCONESELECT_SET_INSNAP_OFFSET UNITYSDK_OFFSET(0xA66F560)
-#define RPG_CLIENT_LIGHTCONESELECT_SET_ROTATEDEGREE_OFFSET UNITYSDK_OFFSET(0xA66F540)
-#define RPG_CLIENT_LIGHTCONESELECT_SHOULDSNAPTONEXT_OFFSET UNITYSDK_OFFSET(0xA66EC40)
-#define RPG_CLIENT_LIGHTCONESELECT_SNAPTONEXT_OFFSET UNITYSDK_OFFSET(0xA66EDB0)
-#define RPG_CLIENT_LIGHTCONESELECT_SNAPTOSELF_OFFSET UNITYSDK_OFFSET(0xA66EF40)
-#define RPG_CLIENT_LIGHTCONESELECT_SNAP_OFFSET UNITYSDK_OFFSET(0xA66EBD0)
-#define RPG_CLIENT_LIGHTCONESELECT_UPDATELIGHTBEAMTRANSFORM_OFFSET UNITYSDK_OFFSET(0xA66D270)
-#define RPG_CLIENT_LIGHTCONESELECT_UPDATELIGHTCONESTATE_OFFSET UNITYSDK_OFFSET(0xA66D800)
-#define RPG_CLIENT_LIGHTCONESELECT__CCTOR_OFFSET UNITYSDK_OFFSET(0xA66F7E0)
-#define RPG_CLIENT_LIGHTCONESELECT__CTOR_OFFSET UNITYSDK_OFFSET(0xA66F6B0)
-#define RPG_CLIENT_LIGHTCONESELECT__DOSNAP_OFFSET UNITYSDK_OFFSET(0xA66F1C0)
-#define RPG_CLIENT_LIGHTCONESELECT__GETCEILDEGREE_OFFSET UNITYSDK_OFFSET(0xA66F050)
-#define RPG_CLIENT_LIGHTCONESELECT__GETFLOORDEGREE_OFFSET UNITYSDK_OFFSET(0xA66F3C0)
-#define RPG_CLIENT_LIGHTCONESELECT__STOPSNAP_OFFSET UNITYSDK_OFFSET(0xA66F440)
-#define RPG_CLIENT_LIGHTCONESELECT__UPDATEIDLETIMER_OFFSET UNITYSDK_OFFSET(0xA66EB20)
+#define RPG_CLIENT_LIGHTCONESELECT_ADD_ONHIGHLIGHTEDINDEXCHANGED_OFFSET UNITYSDK_OFFSET(0xBD73580)
+#define RPG_CLIENT_LIGHTCONESELECT_CHANGETONEXTCOROUTINE_OFFSET UNITYSDK_OFFSET(0xBD75D60)
+#define RPG_CLIENT_LIGHTCONESELECT_FINDCAMERA3D_OFFSET UNITYSDK_OFFSET(0xBD73720)
+#define RPG_CLIENT_LIGHTCONESELECT_GET_HIGHLIGHTEDINDEX_OFFSET UNITYSDK_OFFSET(0xBD76800)
+#define RPG_CLIENT_LIGHTCONESELECT_GET_INMANUALCONTROL_OFFSET UNITYSDK_OFFSET(0xBD76860)
+#define RPG_CLIENT_LIGHTCONESELECT_GET_INSNAP_OFFSET UNITYSDK_OFFSET(0xBD76840)
+#define RPG_CLIENT_LIGHTCONESELECT_GET_INTERVALDEGREE_OFFSET UNITYSDK_OFFSET(0xBD763C0)
+#define RPG_CLIENT_LIGHTCONESELECT_GET_NUMBER_OFFSET UNITYSDK_OFFSET(0xBD75D10)
+#define RPG_CLIENT_LIGHTCONESELECT_GET_ROTATEDEGREE_OFFSET UNITYSDK_OFFSET(0xBD76820)
+#define RPG_CLIENT_LIGHTCONESELECT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xBD74140)
+#define RPG_CLIENT_LIGHTCONESELECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0xBD73660)
+#define RPG_CLIENT_LIGHTCONESELECT_PLAYGRADUALHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xBD74570)
+#define RPG_CLIENT_LIGHTCONESELECT_REMOVE_ONHIGHLIGHTEDINDEXCHANGED_OFFSET UNITYSDK_OFFSET(0xBD735F0)
+#define RPG_CLIENT_LIGHTCONESELECT_RESETLIGHTCONES_OFFSET UNITYSDK_OFFSET(0xBD737D0)
+#define RPG_CLIENT_LIGHTCONESELECT_SET_HIGHLIGHTEDINDEX_OFFSET UNITYSDK_OFFSET(0xBD76810)
+#define RPG_CLIENT_LIGHTCONESELECT_SET_INMANUALCONTROL_OFFSET UNITYSDK_OFFSET(0xBD76870)
+#define RPG_CLIENT_LIGHTCONESELECT_SET_INSNAP_OFFSET UNITYSDK_OFFSET(0xBD76850)
+#define RPG_CLIENT_LIGHTCONESELECT_SET_ROTATEDEGREE_OFFSET UNITYSDK_OFFSET(0xBD76830)
+#define RPG_CLIENT_LIGHTCONESELECT_SHOULDSNAPTONEXT_OFFSET UNITYSDK_OFFSET(0xBD75F30)
+#define RPG_CLIENT_LIGHTCONESELECT_SNAPTONEXT_OFFSET UNITYSDK_OFFSET(0xBD760A0)
+#define RPG_CLIENT_LIGHTCONESELECT_SNAPTOSELF_OFFSET UNITYSDK_OFFSET(0xBD76230)
+#define RPG_CLIENT_LIGHTCONESELECT_SNAP_OFFSET UNITYSDK_OFFSET(0xBD75EC0)
+#define RPG_CLIENT_LIGHTCONESELECT_UPDATELIGHTBEAMTRANSFORM_OFFSET UNITYSDK_OFFSET(0xBD745E0)
+#define RPG_CLIENT_LIGHTCONESELECT_UPDATELIGHTCONESTATE_OFFSET UNITYSDK_OFFSET(0xBD74B70)
+#define RPG_CLIENT_LIGHTCONESELECT__CCTOR_OFFSET UNITYSDK_OFFSET(0xBD76AD0)
+#define RPG_CLIENT_LIGHTCONESELECT__CTOR_OFFSET UNITYSDK_OFFSET(0xBD769A0)
+#define RPG_CLIENT_LIGHTCONESELECT__DOSNAP_OFFSET UNITYSDK_OFFSET(0xBD764B0)
+#define RPG_CLIENT_LIGHTCONESELECT__GETCEILDEGREE_OFFSET UNITYSDK_OFFSET(0xBD76340)
+#define RPG_CLIENT_LIGHTCONESELECT__GETFLOORDEGREE_OFFSET UNITYSDK_OFFSET(0xBD766B0)
+#define RPG_CLIENT_LIGHTCONESELECT__STOPSNAP_OFFSET UNITYSDK_OFFSET(0xBD76730)
+#define RPG_CLIENT_LIGHTCONESELECT__UPDATEIDLETIMER_OFFSET UNITYSDK_OFFSET(0xBD75E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeSelect_TypeDefinitionIndex = 65474;
+	inline static constexpr unsigned int LightConeSelect_TypeDefinitionIndex = 66404;
 
 	class LightConeSelect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Single* StaticGet_CircularDegree()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LightConeSelect_TypeDefinitionIndex)->GetStaticField(0xA850);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LightConeSelect_TypeDefinitionIndex)->GetStaticField(0xCB90);
 		}
 		::System::Boolean updateTransform; // 0x18
 		::System::Boolean waveDirChange; // 0x19
@@ -122,14 +122,14 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT__CCTOR_OFFSET))();
 		}
 
-		::System::Void add_OnHighlightedIndexChanged(::System::Action_2<::System::Int32, ::System::Int32>* value)
+		::System::Void add_OnHighlightedIndexChanged(::System::Action_2<::System::Int32, ::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_ADD_ONHIGHLIGHTEDINDEXCHANGED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_ADD_ONHIGHLIGHTEDINDEXCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnHighlightedIndexChanged(::System::Action_2<::System::Int32, ::System::Int32>* value)
+		::System::Void remove_OnHighlightedIndexChanged(::System::Action_2<::System::Int32, ::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_REMOVE_ONHIGHLIGHTEDINDEXCHANGED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_REMOVE_ONHIGHLIGHTEDINDEXCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()
@@ -167,34 +167,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_FINDCAMERA3D_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* ChangeToNextCoroutine(::System::Single deltaDegree, ::System::Single deltaTime, ::System::Boolean changeSucceed)
+		::System::Collections::IEnumerator* ChangeToNextCoroutine(::System::Single a1, ::System::Single a2, ::System::Boolean a3)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_CHANGETONEXTCOROUTINE_OFFSET))(this, deltaDegree, deltaTime, changeSucceed);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_CHANGETONEXTCOROUTINE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Snap(::System::Boolean forward)
+		::System::Void Snap(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SNAP_OFFSET))(this, forward);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SNAP_OFFSET))(this, a1);
 		}
 
-		::System::Void SnapToNext(::System::Boolean forward)
+		::System::Void SnapToNext(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SNAPTONEXT_OFFSET))(this, forward);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SNAPTONEXT_OFFSET))(this, a1);
 		}
 
-		::System::Void SnapToSelf(::System::Boolean forward)
+		::System::Void SnapToSelf(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SNAPTOSELF_OFFSET))(this, forward);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SNAPTOSELF_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ShouldSnapToNext(::System::Boolean forward)
+		::System::Boolean ShouldSnapToNext(::System::Boolean a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SHOULDSNAPTONEXT_OFFSET))(this, forward);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SHOULDSNAPTONEXT_OFFSET))(this, a1);
 		}
 
-		::System::Void _DoSnap(::System::Single deltaDegree, ::System::Boolean changeSucceed)
+		::System::Void _DoSnap(::System::Single a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT__DOSNAP_OFFSET))(this, deltaDegree, changeSucceed);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT__DOSNAP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _StopSnap()
@@ -212,9 +212,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT__GETCEILDEGREE_OFFSET))(this);
 		}
 
-		::System::Void _UpdateIdleTimer(::System::Single deltaTime)
+		::System::Void _UpdateIdleTimer(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT__UPDATEIDLETIMER_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT__UPDATEIDLETIMER_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_HighlightedIndex()
@@ -222,9 +222,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_GET_HIGHLIGHTEDINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_HighlightedIndex(::System::Int32 value)
+		::System::Void set_HighlightedIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SET_HIGHLIGHTEDINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SET_HIGHLIGHTEDINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Single get_RotateDegree()
@@ -232,9 +232,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_GET_ROTATEDEGREE_OFFSET))(this);
 		}
 
-		::System::Void set_RotateDegree(::System::Single value)
+		::System::Void set_RotateDegree(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SET_ROTATEDEGREE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SET_ROTATEDEGREE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_InSnap()
@@ -242,9 +242,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_GET_INSNAP_OFFSET))(this);
 		}
 
-		::System::Void set_InSnap(::System::Boolean value)
+		::System::Void set_InSnap(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SET_INSNAP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SET_INSNAP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_InManualControl()
@@ -252,9 +252,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_GET_INMANUALCONTROL_OFFSET))(this);
 		}
 
-		::System::Void set_InManualControl(::System::Boolean value)
+		::System::Void set_InManualControl(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SET_INMANUALCONTROL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_SET_INMANUALCONTROL_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Number()

@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_CHARUNICODEINFO_DEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x1791AD50)
+#define SYSTEM_GLOBALIZATION_CHARUNICODEINFO_DEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x186D0490)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CharUnicodeInfo_Debug_TypeDefinitionIndex = 731;
+	inline static constexpr unsigned int CharUnicodeInfo_Debug_TypeDefinitionIndex = 730;
 
 	class CharUnicodeInfo_Debug : public ::System::Object
 	{
 	public:
-		static ::System::Void Assert(::System::Boolean condition, ::System::String* message)
+		static ::System::Void Assert(::System::Boolean a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CHARUNICODEINFO_DEBUG_ASSERT_OFFSET))(condition, message);
+			return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CHARUNICODEINFO_DEBUG_ASSERT_OFFSET))(a1, a2);
 		}
 	};
 }

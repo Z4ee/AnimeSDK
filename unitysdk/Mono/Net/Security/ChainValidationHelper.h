@@ -17,16 +17,16 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CREATE_OFFSET UNITYSDK_OFFSET(0x1A09ABB0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_DEFAULTSELECTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A09ADA0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1A09A7E0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1A09AE80)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_SELECTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1A09AE90)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1A09B220)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1A09AED0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_1_OFFSET UNITYSDK_OFFSET(0x1A09B3F0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_OFFSET UNITYSDK_OFFSET(0x1A09B110)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A09A850)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CREATE_OFFSET UNITYSDK_OFFSET(0x1AF0BF00)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_DEFAULTSELECTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AF0C110)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1AF0BA90)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1AF0C1F0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_SELECTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1AF0C200)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1AF0C610)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1AF0C250)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_1_OFFSET UNITYSDK_OFFSET(0x1AF0C850)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_OFFSET UNITYSDK_OFFSET(0x1AF0C4D0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF0BB00)
 
 namespace Mono::Net::Security
 {
@@ -35,33 +35,33 @@ namespace Mono::Net::Security
 	class ChainValidationHelper : public ::System::Object
 	{
 	public:
-		::System::Object* sender; // 0x10
-		::Mono::Net::Security::MonoTlsStream* tlsStream; // 0x18
-		::System::Net::HttpWebRequest* request; // 0x20
-		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x28
-		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x30
-		::Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper; // 0x38
-		::System::Net::ServerCertValidationCallback* certValidationCallback; // 0x40
-		::System::Net::Security::LocalCertSelectionCallback* certSelectionCallback; // 0x48
+		::System::Net::HttpWebRequest* request; // 0x10
+		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x18
+		::Mono::Net::Security::MonoTlsStream* tlsStream; // 0x20
+		::System::Net::Security::LocalCertSelectionCallback* certSelectionCallback; // 0x28
+		::System::Object* sender; // 0x30
+		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x38
+		::Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper; // 0x40
+		::System::Net::ServerCertValidationCallback* certValidationCallback; // 0x48
 
-		::System::Void _ctor(::Mono::Security::Interface::MonoTlsProvider* provider, ::Mono::Security::Interface::MonoTlsSettings* settings, ::System::Boolean cloneSettings, ::Mono::Net::Security::MonoTlsStream* stream, ::Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper)
+		::System::Void _ctor(::Mono::Security::Interface::MonoTlsProvider* a1, ::Mono::Security::Interface::MonoTlsSettings* a2, ::System::Boolean a3, ::Mono::Net::Security::MonoTlsStream* a4, ::Mono::Net::Security::ServerCertValidationCallbackWrapper* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::MonoTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*, ::System::Boolean, ::Mono::Net::Security::MonoTlsStream*, ::Mono::Net::Security::ServerCertValidationCallbackWrapper*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER__CTOR_OFFSET))(this, provider, settings, cloneSettings, stream, callbackWrapper);
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::MonoTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*, ::System::Boolean, ::Mono::Net::Security::MonoTlsStream*, ::Mono::Net::Security::ServerCertValidationCallbackWrapper*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::Mono::Security::Interface::ICertificateValidator* GetInternalValidator(::Mono::Security::Interface::MonoTlsProvider* provider, ::Mono::Security::Interface::MonoTlsSettings* settings)
+		static ::Mono::Security::Interface::ICertificateValidator* GetInternalValidator(::Mono::Security::Interface::MonoTlsProvider* a1, ::Mono::Security::Interface::MonoTlsSettings* a2)
 		{
-			return ((::Mono::Security::Interface::ICertificateValidator*(*)(::Mono::Security::Interface::MonoTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET))(provider, settings);
+			return ((::Mono::Security::Interface::ICertificateValidator*(*)(::Mono::Security::Interface::MonoTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET))(a1, a2);
 		}
 
-		static ::Mono::Net::Security::ChainValidationHelper* Create(::Mono::Security::Interface::MonoTlsProvider* provider, ::Mono::Security::Interface::MonoTlsSettings*& settings, ::Mono::Net::Security::MonoTlsStream* stream)
+		static ::Mono::Net::Security::ChainValidationHelper* Create(::Mono::Security::Interface::MonoTlsProvider* a1, ::Mono::Security::Interface::MonoTlsSettings*& a2, ::Mono::Net::Security::MonoTlsStream* a3)
 		{
-			return ((::Mono::Net::Security::ChainValidationHelper*(*)(::Mono::Security::Interface::MonoTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*&, ::Mono::Net::Security::MonoTlsStream*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CREATE_OFFSET))(provider, settings, stream);
+			return ((::Mono::Net::Security::ChainValidationHelper*(*)(::Mono::Security::Interface::MonoTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*&, ::Mono::Net::Security::MonoTlsStream*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CREATE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Security::Cryptography::X509Certificates::X509Certificate* DefaultSelectionCallback(::System::String* targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::Il2CppArray<::System::String*>* acceptableIssuers)
+		static ::System::Security::Cryptography::X509Certificates::X509Certificate* DefaultSelectionCallback(::System::String* a1, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a2, ::System::Security::Cryptography::X509Certificates::X509Certificate* a3, ::Il2CppArray<::System::String*>* a4)
 		{
-			return ((::System::Security::Cryptography::X509Certificates::X509Certificate*(*)(::System::String*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_DEFAULTSELECTIONCALLBACK_OFFSET))(targetHost, localCertificates, remoteCertificate, acceptableIssuers);
+			return ((::System::Security::Cryptography::X509Certificates::X509Certificate*(*)(::System::String*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_DEFAULTSELECTIONCALLBACK_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::Mono::Security::Interface::MonoTlsSettings* get_Settings()
@@ -69,29 +69,29 @@ namespace Mono::Net::Security
 			return ((::Mono::Security::Interface::MonoTlsSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GET_SETTINGS_OFFSET))(this);
 		}
 
-		::System::Boolean SelectClientCertificate(::System::String* targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::Il2CppArray<::System::String*>* acceptableIssuers, ::System::Security::Cryptography::X509Certificates::X509Certificate*& clientCertificate)
+		::System::Boolean SelectClientCertificate(::System::String* a1, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a2, ::System::Security::Cryptography::X509Certificates::X509Certificate* a3, ::Il2CppArray<::System::String*>* a4, ::System::Security::Cryptography::X509Certificates::X509Certificate*& a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::Il2CppArray<::System::String*>*, ::System::Security::Cryptography::X509Certificates::X509Certificate*&))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_SELECTCLIENTCERTIFICATE_OFFSET))(this, targetHost, localCertificates, remoteCertificate, acceptableIssuers, clientCertificate);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::Il2CppArray<::System::String*>*, ::System::Security::Cryptography::X509Certificates::X509Certificate*&))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_SELECTCLIENTCERTIFICATE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::Mono::Security::Interface::ValidationResult* ValidateCertificate(::System::String* host, ::System::Boolean serverMode, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs)
+		::Mono::Security::Interface::ValidationResult* ValidateCertificate(::System::String* a1, ::System::Boolean a2, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a3)
 		{
-			return ((::Mono::Security::Interface::ValidationResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_OFFSET))(this, host, serverMode, certs);
+			return ((::Mono::Security::Interface::ValidationResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Mono::Security::Interface::ValidationResult* ValidateCertificate_1(::System::String* host, ::System::Boolean serverMode, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain)
+		::Mono::Security::Interface::ValidationResult* ValidateCertificate_1(::System::String* a1, ::System::Boolean a2, ::System::Security::Cryptography::X509Certificates::X509Certificate* a3, ::System::Security::Cryptography::X509Certificates::X509Chain* a4)
 		{
-			return ((::Mono::Security::Interface::ValidationResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_1_OFFSET))(this, host, serverMode, leaf, chain);
+			return ((::Mono::Security::Interface::ValidationResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::Mono::Security::Interface::ValidationResult* ValidateChain(::System::String* host, ::System::Boolean server, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs, ::System::Net::Security::SslPolicyErrors errors)
+		::Mono::Security::Interface::ValidationResult* ValidateChain(::System::String* a1, ::System::Boolean a2, ::System::Security::Cryptography::X509Certificates::X509Certificate* a3, ::System::Security::Cryptography::X509Certificates::X509Chain* a4, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a5, ::System::Net::Security::SslPolicyErrors a6)
 		{
-			return ((::Mono::Security::Interface::ValidationResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Net::Security::SslPolicyErrors))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_OFFSET))(this, host, server, leaf, chain, certs, errors);
+			return ((::Mono::Security::Interface::ValidationResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Net::Security::SslPolicyErrors))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::Mono::Security::Interface::ValidationResult* ValidateChain_1(::System::String* host, ::System::Boolean server, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain*& chain, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs, ::System::Net::Security::SslPolicyErrors errors)
+		::Mono::Security::Interface::ValidationResult* ValidateChain_1(::System::String* a1, ::System::Boolean a2, ::System::Security::Cryptography::X509Certificates::X509Certificate* a3, ::System::Security::Cryptography::X509Certificates::X509Chain*& a4, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a5, ::System::Net::Security::SslPolicyErrors a6)
 		{
-			return ((::Mono::Security::Interface::ValidationResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*&, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Net::Security::SslPolicyErrors))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_1_OFFSET))(this, host, server, leaf, chain, certs, errors);
+			return ((::Mono::Security::Interface::ValidationResult*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*&, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Net::Security::SslPolicyErrors))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

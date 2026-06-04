@@ -5,15 +5,15 @@
 namespace UnityEngine::Rendering { class BatchAnimation; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_DOBATCHANIMATIONEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A474E40)
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_GET_OFFSET UNITYSDK_OFFSET(0x22E8600)
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A474D90)
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_INIT_OFFSET UNITYSDK_OFFSET(0x1A474DA0)
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_UNINIT_OFFSET UNITYSDK_OFFSET(0x1A474E00)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_DOBATCHANIMATIONEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B2C3FA0)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_GET_OFFSET UNITYSDK_OFFSET(0x38851C0)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B2C3EF0)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_INIT_OFFSET UNITYSDK_OFFSET(0x1B2C3F00)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_UNINIT_OFFSET UNITYSDK_OFFSET(0x1B2C3F60)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchAnimEventObjCB_TypeDefinitionIndex = 4595;
+	inline static constexpr unsigned int BatchAnimEventObjCB_TypeDefinitionIndex = 4769;
 
 	struct alignas(8) BatchAnimEventObjCB
 	{
@@ -28,9 +28,9 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Rendering::BatchAnimationInstance*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_GET_OFFSET))(this);
 		}
 
-		static ::System::Void InitInternal(::System::IntPtr data, ::System::Int32 size)
+		static ::System::Void InitInternal(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_INITINTERNAL_OFFSET))(data, size);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_INITINTERNAL_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Init()
@@ -43,9 +43,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_UNINIT_OFFSET))();
 		}
 
-		static ::System::Void DoBatchAnimationEvent_Internal(::UnityEngine::Rendering::BatchAnimation* ba, ::System::Int32 count)
+		static ::System::Void DoBatchAnimationEvent_Internal(::UnityEngine::Rendering::BatchAnimation* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_DOBATCHANIMATIONEVENT_INTERNAL_OFFSET))(ba, count);
+			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_DOBATCHANIMATIONEVENT_INTERNAL_OFFSET))(a1, a2);
 		}
 	};
 }

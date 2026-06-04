@@ -6,12 +6,12 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A237B10)
-#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__GETEDGELOOKUP_B__0_OFFSET UNITYSDK_OFFSET(0x1A237E80)
+#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B09C8D0)
+#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__GETEDGELOOKUP_B__0_OFFSET UNITYSDK_OFFSET(0x1B09CCF0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int EdgeLookup___c__DisplayClass16_0_TypeDefinitionIndex = 39908;
+	inline static constexpr unsigned int EdgeLookup___c__DisplayClass16_0_TypeDefinitionIndex = 40735;
 
 	class EdgeLookup___c__DisplayClass16_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::ProBuilder::EdgeLookup _GetEdgeLookup_b__0(::UnityEngine::ProBuilder::Edge x)
+		::UnityEngine::ProBuilder::EdgeLookup _GetEdgeLookup_b__0(::UnityEngine::ProBuilder::Edge a1)
 		{
-			return ((::UnityEngine::ProBuilder::EdgeLookup(*)(::PVOID, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__GETEDGELOOKUP_B__0_OFFSET))(this, x);
+			return ((::UnityEngine::ProBuilder::EdgeLookup(*)(::PVOID, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__GETEDGELOOKUP_B__0_OFFSET))(this, a1);
 		}
 	};
 }

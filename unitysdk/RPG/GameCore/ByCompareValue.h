@@ -5,14 +5,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_84A81064B928D711_OFFSET UNITYSDK_OFFSET(0x18740D50)
-#define RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_EDF4DBB517773015_OFFSET UNITYSDK_OFFSET(0x18740E30)
-#define RPG_GAMECORE_BYCOMPAREVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18740DD0)
+#define RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_43DC27DCFA14F989_OFFSET UNITYSDK_OFFSET(0x1953DD80)
+#define RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_84A81064B928D711_OFFSET UNITYSDK_OFFSET(0x1953DA00)
+#define RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_BEAF7A37BDAEEC38_OFFSET UNITYSDK_OFFSET(0x1953DD00)
+#define RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_EDF4DBB517773015_OFFSET UNITYSDK_OFFSET(0x1953DAE0)
+#define RPG_GAMECORE_BYCOMPAREVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1953DA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareValue_TypeDefinitionIndex = 22791;
+	inline static constexpr unsigned int ByCompareValue_TypeDefinitionIndex = 22498;
 
 	class ByCompareValue : public ::RPG::GameCore::PredicateConfig
 	{
@@ -35,6 +38,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_EDF4DBB517773015(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareValue* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_EDF4DBB517773015_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_BEAF7A37BDAEEC38(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareValue*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_BEAF7A37BDAEEC38_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_43DC27DCFA14F989(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareValue* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_43DC27DCFA14F989_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_756B5584F1951889;
-class Class_2_0C58AD91B0F4D809;
+class Class_2_B8E38BF47138A2E5;
 
-#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF2E1800)
-#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS8_0__PLAYERLEAVESHADOW_B__0_OFFSET UNITYSDK_OFFSET(0xF2E8400)
+#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x142E4D00)
+#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS8_0__PLAYERLEAVESHADOW_B__0_OFFSET UNITYSDK_OFFSET(0x142EB820)
 
-inline static constexpr unsigned int Class_1_756B5584F1951889___c__DisplayClass8_0_TypeDefinitionIndex = 70457;
+inline static constexpr unsigned int Class_1_756B5584F1951889___c__DisplayClass8_0_TypeDefinitionIndex = 71273;
 
 class Class_1_756B5584F1951889___c__DisplayClass8_0 : public ::System::Object
 {
 public:
-	::Class_1_756B5584F1951889* __4__this; // 0x10
-	::Class_2_0C58AD91B0F4D809* player; // 0x18
+	::Class_2_B8E38BF47138A2E5* player; // 0x10
+	::Class_1_756B5584F1951889* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

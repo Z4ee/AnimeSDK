@@ -7,14 +7,14 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_ACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0xB444220)
-#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_DEACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0xB4449C0)
-#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB444C60)
-#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER__SETUPBLENDCONFIG_OFFSET UNITYSDK_OFFSET(0xB4448A0)
+#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_ACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0xCBA42C0)
+#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_DEACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0xCBA4A70)
+#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xCBA4CB0)
+#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER__SETUPBLENDCONFIG_OFFSET UNITYSDK_OFFSET(0xCBA4950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIVirtualCameraController_TypeDefinitionIndex = 63722;
+	inline static constexpr unsigned int UIVirtualCameraController_TypeDefinitionIndex = 64643;
 
 	class UIVirtualCameraController : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,14 +27,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIVIRTUALCAMERACONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ActiveVirtualCamera(::UnityEngine::Transform* transRoot, ::UnityEngine::GameObject* followTarget, ::UnityEngine::GameObject* lookAtTarget, ::System::Boolean cut, ::System::Nullable_1<::UnityEngine::Vector2> vCenterPos, ::System::Boolean lookAtLocalPlayer)
+		::System::Void ActiveVirtualCamera(::UnityEngine::Transform* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::Boolean a4, ::System::Nullable_1<::UnityEngine::Vector2> a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector2>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_ACTIVEVIRTUALCAMERA_OFFSET))(this, transRoot, followTarget, lookAtTarget, cut, vCenterPos, lookAtLocalPlayer);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector2>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_ACTIVEVIRTUALCAMERA_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void DeActiveVirtualCamera(::UnityEngine::Transform* transRoot)
+		::System::Void DeActiveVirtualCamera(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_DEACTIVEVIRTUALCAMERA_OFFSET))(this, transRoot);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIVIRTUALCAMERACONTROLLER_DEACTIVEVIRTUALCAMERA_OFFSET))(this, a1);
 		}
 
 		::System::Void _SetupBlendConfig()

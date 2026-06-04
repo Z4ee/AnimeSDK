@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1765C300)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1765C3A0)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1765BF00)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1765BEE0)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1842E740)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1842E7E0)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1842E710)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1842E6A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TelemetryDelegate_SetConfigDelegate_TypeDefinitionIndex = 6740;
+	inline static constexpr unsigned int TelemetryDelegate_SetConfigDelegate_TypeDefinitionIndex = 7643;
 
 	class TelemetryDelegate_SetConfigDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Boolean isOverSea, ::System::String* launchTraceId, ::System::Int32 memoryCacheSize, ::System::Int32 diskCacheSize)
+		::System::Void Invoke(::System::Boolean a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_INVOKE_OFFSET))(this, isOverSea, launchTraceId, memoryCacheSize, diskCacheSize);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Boolean isOverSea, ::System::String* launchTraceId, ::System::Int32 memoryCacheSize, ::System::Int32 diskCacheSize, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Boolean a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Boolean, ::System::String*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_BEGININVOKE_OFFSET))(this, isOverSea, launchTraceId, memoryCacheSize, diskCacheSize, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Boolean, ::System::String*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_SETCONFIGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,37 +6,37 @@
 
 namespace RVO { class RVOManager; }
 
-#define RVO_RVOAGENT_APPLY_OFFSET UNITYSDK_OFFSET(0x8E02510)
-#define RVO_RVOAGENT_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x8E03000)
-#define RVO_RVOAGENT_GET_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x8E02980)
-#define RVO_RVOAGENT_GET_MAXNEIGHBORS_OFFSET UNITYSDK_OFFSET(0x8E03C60)
-#define RVO_RVOAGENT_GET_MAXSPEED_OFFSET UNITYSDK_OFFSET(0x8E03840)
-#define RVO_RVOAGENT_GET_NEIGHBORDIST_OFFSET UNITYSDK_OFFSET(0x8E03A50)
-#define RVO_RVOAGENT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x8E02990)
-#define RVO_RVOAGENT_GET_PREFVELOCITY_OFFSET UNITYSDK_OFFSET(0x8E02DB0)
-#define RVO_RVOAGENT_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x8E03210)
-#define RVO_RVOAGENT_GET_TIMEHORIZONOBST_OFFSET UNITYSDK_OFFSET(0x8E03630)
-#define RVO_RVOAGENT_GET_TIMEHORIZON_OFFSET UNITYSDK_OFFSET(0x8E03420)
-#define RVO_RVOAGENT_GET_VELOCITY_OFFSET UNITYSDK_OFFSET(0x8E02BA0)
-#define RVO_RVOAGENT_ONALLOC_OFFSET UNITYSDK_OFFSET(0x8E02500)
-#define RVO_RVOAGENT_ONRELEASE_OFFSET UNITYSDK_OFFSET(0x8E026D0)
-#define RVO_RVOAGENT_PERTURB_OFFSET UNITYSDK_OFFSET(0x8E03E70)
-#define RVO_RVOAGENT_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x8E027B0)
-#define RVO_RVOAGENT_SET_MAXNEIGHBORS_OFFSET UNITYSDK_OFFSET(0x8E02930)
-#define RVO_RVOAGENT_SET_MAXSPEED_OFFSET UNITYSDK_OFFSET(0x8E027F0)
-#define RVO_RVOAGENT_SET_NEIGHBORDIST_OFFSET UNITYSDK_OFFSET(0x8E028F0)
-#define RVO_RVOAGENT_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x8E02730)
-#define RVO_RVOAGENT_SET_PREFVELOCITY_OFFSET UNITYSDK_OFFSET(0x8E02ED0)
-#define RVO_RVOAGENT_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0x8E02830)
-#define RVO_RVOAGENT_SET_TIMEHORIZONOBST_OFFSET UNITYSDK_OFFSET(0x8E028B0)
-#define RVO_RVOAGENT_SET_TIMEHORIZON_OFFSET UNITYSDK_OFFSET(0x8E02870)
-#define RVO_RVOAGENT_SET_VELOCITY_OFFSET UNITYSDK_OFFSET(0x8E02770)
-#define RVO_RVOAGENT_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8E02970)
-#define RVO_RVOAGENT__CTOR_OFFSET UNITYSDK_OFFSET(0x8E021C0)
+#define RVO_RVOAGENT_APPLY_OFFSET UNITYSDK_OFFSET(0xA250DB0)
+#define RVO_RVOAGENT_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0xA2518A0)
+#define RVO_RVOAGENT_GET_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0xA251220)
+#define RVO_RVOAGENT_GET_MAXNEIGHBORS_OFFSET UNITYSDK_OFFSET(0xA252560)
+#define RVO_RVOAGENT_GET_MAXSPEED_OFFSET UNITYSDK_OFFSET(0xA252120)
+#define RVO_RVOAGENT_GET_NEIGHBORDIST_OFFSET UNITYSDK_OFFSET(0xA252340)
+#define RVO_RVOAGENT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xA251230)
+#define RVO_RVOAGENT_GET_PREFVELOCITY_OFFSET UNITYSDK_OFFSET(0xA251650)
+#define RVO_RVOAGENT_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0xA251AC0)
+#define RVO_RVOAGENT_GET_TIMEHORIZONOBST_OFFSET UNITYSDK_OFFSET(0xA251F00)
+#define RVO_RVOAGENT_GET_TIMEHORIZON_OFFSET UNITYSDK_OFFSET(0xA251CE0)
+#define RVO_RVOAGENT_GET_VELOCITY_OFFSET UNITYSDK_OFFSET(0xA251440)
+#define RVO_RVOAGENT_ONALLOC_OFFSET UNITYSDK_OFFSET(0xA250DA0)
+#define RVO_RVOAGENT_ONRELEASE_OFFSET UNITYSDK_OFFSET(0xA250F70)
+#define RVO_RVOAGENT_PERTURB_OFFSET UNITYSDK_OFFSET(0xA252770)
+#define RVO_RVOAGENT_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0xA251050)
+#define RVO_RVOAGENT_SET_MAXNEIGHBORS_OFFSET UNITYSDK_OFFSET(0xA2511D0)
+#define RVO_RVOAGENT_SET_MAXSPEED_OFFSET UNITYSDK_OFFSET(0xA251090)
+#define RVO_RVOAGENT_SET_NEIGHBORDIST_OFFSET UNITYSDK_OFFSET(0xA251190)
+#define RVO_RVOAGENT_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xA250FD0)
+#define RVO_RVOAGENT_SET_PREFVELOCITY_OFFSET UNITYSDK_OFFSET(0xA251770)
+#define RVO_RVOAGENT_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0xA2510D0)
+#define RVO_RVOAGENT_SET_TIMEHORIZONOBST_OFFSET UNITYSDK_OFFSET(0xA251150)
+#define RVO_RVOAGENT_SET_TIMEHORIZON_OFFSET UNITYSDK_OFFSET(0xA251110)
+#define RVO_RVOAGENT_SET_VELOCITY_OFFSET UNITYSDK_OFFSET(0xA251010)
+#define RVO_RVOAGENT_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA251210)
+#define RVO_RVOAGENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA250A70)
 
 namespace RVO
 {
-	inline static constexpr unsigned int RVOAgent_TypeDefinitionIndex = 41053;
+	inline static constexpr unsigned int RVOAgent_TypeDefinitionIndex = 41856;
 
 	class RVOAgent : public ::System::Object
 	{
@@ -44,14 +44,14 @@ namespace RVO
 		::RVO::RVOManager* _manager; // 0x10
 		::System::Int32 _ID; // 0x18
 
-		::System::Void _ctor(::RVO::RVOManager* manager)
+		::System::Void _ctor(::RVO::RVOManager* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RVO::RVOManager*))((::PBYTE)hIl2Cpp + RVO_RVOAGENT__CTOR_OFFSET))(this, manager);
+			return ((::System::Void(*)(::PVOID, ::RVO::RVOManager*))((::PBYTE)hIl2Cpp + RVO_RVOAGENT__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void OnAlloc(::RVO::RVOAgentParam& param)
+		::System::Void OnAlloc(::RVO::RVOAgentParam& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RVO::RVOAgentParam&))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_ONALLOC_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::RVO::RVOAgentParam&))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_ONALLOC_OFFSET))(this, a1);
 		}
 
 		::System::Void OnRelease()
@@ -59,9 +59,9 @@ namespace RVO
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_ONRELEASE_OFFSET))(this);
 		}
 
-		::System::Void Apply(::RVO::RVOAgentParam& param)
+		::System::Void Apply(::RVO::RVOAgentParam& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RVO::RVOAgentParam&))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_APPLY_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::RVO::RVOAgentParam&))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_APPLY_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -79,9 +79,9 @@ namespace RVO
 			return ((::RVO::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_GET_POSITION_OFFSET))(this);
 		}
 
-		::System::Void set_Position(::RVO::Vector2 value)
+		::System::Void set_Position(::RVO::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_POSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_POSITION_OFFSET))(this, a1);
 		}
 
 		::RVO::Vector2 get_Velocity()
@@ -89,9 +89,9 @@ namespace RVO
 			return ((::RVO::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_GET_VELOCITY_OFFSET))(this);
 		}
 
-		::System::Void set_Velocity(::RVO::Vector2 value)
+		::System::Void set_Velocity(::RVO::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_VELOCITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_VELOCITY_OFFSET))(this, a1);
 		}
 
 		::RVO::Vector2 get_PrefVelocity()
@@ -99,9 +99,9 @@ namespace RVO
 			return ((::RVO::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_GET_PREFVELOCITY_OFFSET))(this);
 		}
 
-		::System::Void set_PrefVelocity(::RVO::Vector2 value)
+		::System::Void set_PrefVelocity(::RVO::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_PREFVELOCITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RVO::Vector2))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_PREFVELOCITY_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Height()
@@ -109,9 +109,9 @@ namespace RVO
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_GET_HEIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_Height(::System::Single value)
+		::System::Void set_Height(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_HEIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_HEIGHT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Radius()
@@ -119,9 +119,9 @@ namespace RVO
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_GET_RADIUS_OFFSET))(this);
 		}
 
-		::System::Void set_Radius(::System::Single value)
+		::System::Void set_Radius(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_RADIUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_RADIUS_OFFSET))(this, a1);
 		}
 
 		::System::Single get_TimeHorizon()
@@ -129,9 +129,9 @@ namespace RVO
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_GET_TIMEHORIZON_OFFSET))(this);
 		}
 
-		::System::Void set_TimeHorizon(::System::Single value)
+		::System::Void set_TimeHorizon(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_TIMEHORIZON_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_TIMEHORIZON_OFFSET))(this, a1);
 		}
 
 		::System::Single get_TimeHorizonObst()
@@ -139,9 +139,9 @@ namespace RVO
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_GET_TIMEHORIZONOBST_OFFSET))(this);
 		}
 
-		::System::Void set_TimeHorizonObst(::System::Single value)
+		::System::Void set_TimeHorizonObst(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_TIMEHORIZONOBST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_TIMEHORIZONOBST_OFFSET))(this, a1);
 		}
 
 		::System::Single get_MaxSpeed()
@@ -149,9 +149,9 @@ namespace RVO
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_GET_MAXSPEED_OFFSET))(this);
 		}
 
-		::System::Void set_MaxSpeed(::System::Single value)
+		::System::Void set_MaxSpeed(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_MAXSPEED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_MAXSPEED_OFFSET))(this, a1);
 		}
 
 		::System::Single get_NeighborDist()
@@ -159,9 +159,9 @@ namespace RVO
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_GET_NEIGHBORDIST_OFFSET))(this);
 		}
 
-		::System::Void set_NeighborDist(::System::Single value)
+		::System::Void set_NeighborDist(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_NEIGHBORDIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_NEIGHBORDIST_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_MaxNeighbors()
@@ -169,9 +169,9 @@ namespace RVO
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_GET_MAXNEIGHBORS_OFFSET))(this);
 		}
 
-		::System::Void set_MaxNeighbors(::System::Int32 value)
+		::System::Void set_MaxNeighbors(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_MAXNEIGHBORS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RVO_RVOAGENT_SET_MAXNEIGHBORS_OFFSET))(this, a1);
 		}
 
 		::System::Void Perturb()

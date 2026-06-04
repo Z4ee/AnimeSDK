@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_OFFLINECULLINGDATA_METHOD_2_348969C0D4DF913A_OFFSET UNITYSDK_OFFSET(0x18BC3BD0)
-#define RPG_GAMECORE_OFFLINECULLINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC3DC0)
+#define RPG_GAMECORE_OFFLINECULLINGDATA_METHOD_2_3BEAB2D3CD3239E9_OFFSET UNITYSDK_OFFSET(0x199D5740)
+#define RPG_GAMECORE_OFFLINECULLINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x199D5920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfflineCullingData_TypeDefinitionIndex = 18192;
+	inline static constexpr unsigned int OfflineCullingData_TypeDefinitionIndex = 18185;
 
 	class OfflineCullingData : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFLINECULLINGDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_348969C0D4DF913A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OfflineCullingData*& a2)
+		static ::System::Void Method_2_3BEAB2D3CD3239E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OfflineCullingData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OfflineCullingData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFLINECULLINGDATA_METHOD_2_348969C0D4DF913A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OfflineCullingData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFLINECULLINGDATA_METHOD_2_3BEAB2D3CD3239E9_OFFSET))(a1, a2);
 		}
 	};
 }

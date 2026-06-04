@@ -10,12 +10,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_METHOD_2_A3827D797821B8FD_OFFSET UNITYSDK_OFFSET(0xB8CF790)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8CFA40)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_METHOD_2_C1B36272B6475D02_OFFSET UNITYSDK_OFFSET(0xD0119C0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD011C60)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBlendShapeTimelineBehaviour_TypeDefinitionIndex = 45421;
+	inline static constexpr unsigned int EmoBlendShapeTimelineBehaviour_TypeDefinitionIndex = 46004;
 
 	class EmoBlendShapeTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline::Emotion
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_A3827D797821B8FD(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Single a3)
+		::System::Void Method_2_C1B36272B6475D02(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_METHOD_2_A3827D797821B8FD_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_METHOD_2_C1B36272B6475D02_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

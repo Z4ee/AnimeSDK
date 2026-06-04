@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DamageDisplayData; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_INITSHIELD_METHOD_3_7461E441A199964F_OFFSET UNITYSDK_OFFSET(0x18A1EE80)
-#define RPG_GAMECORE_INITSHIELD_METHOD_3_A76BA6E48C1FB104_OFFSET UNITYSDK_OFFSET(0x18A1ED60)
-#define RPG_GAMECORE_INITSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x18A1EE00)
+#define RPG_GAMECORE_INITSHIELD_METHOD_3_7461E441A199964F_OFFSET UNITYSDK_OFFSET(0x19850DC0)
+#define RPG_GAMECORE_INITSHIELD_METHOD_3_A76BA6E48C1FB104_OFFSET UNITYSDK_OFFSET(0x19850CA0)
+#define RPG_GAMECORE_INITSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x19850D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InitShield_TypeDefinitionIndex = 21582;
+	inline static constexpr unsigned int InitShield_TypeDefinitionIndex = 21447;
 
 	class InitShield : public ::RPG::GameCore::TaskConfig
 	{

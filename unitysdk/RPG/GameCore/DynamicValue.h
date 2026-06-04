@@ -11,76 +11,76 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Text { class StringBuilder; }
 namespace System::Threading { template <typename T> class ThreadLocal_1; }
 
-#define RPG_GAMECORE_DYNAMICVALUE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18893680)
-#define RPG_GAMECORE_DYNAMICVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x188935C0)
-#define RPG_GAMECORE_DYNAMICVALUE_FROMBYTEBINARY_OFFSET UNITYSDK_OFFSET(0x18894290)
-#define RPG_GAMECORE_DYNAMICVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18893770)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_ARRAYVALUE_OFFSET UNITYSDK_OFFSET(0x18893D70)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_BOOLVALUE_1_OFFSET UNITYSDK_OFFSET(0x188935B0)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_BOOLVALUE_OFFSET UNITYSDK_OFFSET(0x18893BB0)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_DOUBLEVALUE_1_OFFSET UNITYSDK_OFFSET(0x18893A30)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_DOUBLEVALUE_OFFSET UNITYSDK_OFFSET(0x18893AD0)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_FIXPOINTVALUE_OFFSET UNITYSDK_OFFSET(0x18893B50)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_FLOATVALUE_OFFSET UNITYSDK_OFFSET(0x18893A40)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_INTVALUE_OFFSET UNITYSDK_OFFSET(0x18893C10)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_ISARRAY_OFFSET UNITYSDK_OFFSET(0x18893DA0)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_ISBOOL_OFFSET UNITYSDK_OFFSET(0x18893AC0)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_ISFLOAT_OFFSET UNITYSDK_OFFSET(0x18893AA0)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_ISINT_OFFSET UNITYSDK_OFFSET(0x18893AB0)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_ISMAP_OFFSET UNITYSDK_OFFSET(0x18893DF0)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x18894280)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_ISSTRING_OFFSET UNITYSDK_OFFSET(0x18893D60)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_LONGVALUE_1_OFFSET UNITYSDK_OFFSET(0x18893A20)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_LONGVALUE_OFFSET UNITYSDK_OFFSET(0x18893CB0)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_MAPVALUE_OFFSET UNITYSDK_OFFSET(0x18893DC0)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_STRINGVALUE_OFFSET UNITYSDK_OFFSET(0x18893D30)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_UINTVALUE_OFFSET UNITYSDK_OFFSET(0x18893C60)
-#define RPG_GAMECORE_DYNAMICVALUE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x188933B0)
-#define RPG_GAMECORE_DYNAMICVALUE_GET__DEBUGGERDISPLAY_OFFSET UNITYSDK_OFFSET(0x188949B0)
-#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x18892D60)
-#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x18892D90)
-#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_3_OFFSET UNITYSDK_OFFSET(0x18892DC0)
-#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_4_OFFSET UNITYSDK_OFFSET(0x18892E00)
-#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_5_OFFSET UNITYSDK_OFFSET(0x18892E30)
-#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_6_OFFSET UNITYSDK_OFFSET(0x18892E60)
-#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_7_OFFSET UNITYSDK_OFFSET(0x18892E90)
-#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x18892D30)
-#define RPG_GAMECORE_DYNAMICVALUE_TOBINARY_OFFSET UNITYSDK_OFFSET(0x18894610)
-#define RPG_GAMECORE_DYNAMICVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18892EC0)
-#define RPG_GAMECORE_DYNAMICVALUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18894A40)
-#define RPG_GAMECORE_DYNAMICVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18892CB0)
-#define RPG_GAMECORE_DYNAMICVALUE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18892CC0)
-#define RPG_GAMECORE_DYNAMICVALUE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x18892CD0)
-#define RPG_GAMECORE_DYNAMICVALUE__CTOR_4_OFFSET UNITYSDK_OFFSET(0x18892CE0)
-#define RPG_GAMECORE_DYNAMICVALUE__CTOR_5_OFFSET UNITYSDK_OFFSET(0x18892CF0)
-#define RPG_GAMECORE_DYNAMICVALUE__CTOR_6_OFFSET UNITYSDK_OFFSET(0x18892D00)
-#define RPG_GAMECORE_DYNAMICVALUE__CTOR_7_OFFSET UNITYSDK_OFFSET(0x18892D10)
-#define RPG_GAMECORE_DYNAMICVALUE__CTOR_8_OFFSET UNITYSDK_OFFSET(0x18892D20)
-#define RPG_GAMECORE_DYNAMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18892CA0)
-#define RPG_GAMECORE_DYNAMICVALUE__ESCAPESTRING_OFFSET UNITYSDK_OFFSET(0x188933C0)
-#define RPG_GAMECORE_DYNAMICVALUE__LOGERROR_1_OFFSET UNITYSDK_OFFSET(0x18893E60)
-#define RPG_GAMECORE_DYNAMICVALUE__LOGERROR_OFFSET UNITYSDK_OFFSET(0x18893E10)
-#define RPG_GAMECORE_DYNAMICVALUE__LOGINVALIDVALUE_OFFSET UNITYSDK_OFFSET(0x18894050)
-#define RPG_GAMECORE_DYNAMICVALUE__LOGTYPEMISMATCH_OFFSET UNITYSDK_OFFSET(0x18893EB0)
+#define RPG_GAMECORE_DYNAMICVALUE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x196D0580)
+#define RPG_GAMECORE_DYNAMICVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x196D0490)
+#define RPG_GAMECORE_DYNAMICVALUE_FROMBYTEBINARY_OFFSET UNITYSDK_OFFSET(0x196D11D0)
+#define RPG_GAMECORE_DYNAMICVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x196D0670)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_ARRAYVALUE_OFFSET UNITYSDK_OFFSET(0x196D0D70)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_BOOLVALUE_1_OFFSET UNITYSDK_OFFSET(0x196D0480)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_BOOLVALUE_OFFSET UNITYSDK_OFFSET(0x196D0BB0)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_DOUBLEVALUE_1_OFFSET UNITYSDK_OFFSET(0x196D0920)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_DOUBLEVALUE_OFFSET UNITYSDK_OFFSET(0x196D09C0)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_FIXPOINTVALUE_OFFSET UNITYSDK_OFFSET(0x196D0A40)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_FLOATVALUE_OFFSET UNITYSDK_OFFSET(0x196D0930)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_INTVALUE_OFFSET UNITYSDK_OFFSET(0x196D0C10)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_ISARRAY_OFFSET UNITYSDK_OFFSET(0x196D0DA0)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_ISBOOL_OFFSET UNITYSDK_OFFSET(0x196D09B0)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_ISFLOAT_OFFSET UNITYSDK_OFFSET(0x196D0990)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_ISINT_OFFSET UNITYSDK_OFFSET(0x196D09A0)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_ISMAP_OFFSET UNITYSDK_OFFSET(0x196D0DF0)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x196D11C0)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_ISSTRING_OFFSET UNITYSDK_OFFSET(0x196D0D60)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_LONGVALUE_1_OFFSET UNITYSDK_OFFSET(0x196D0910)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_LONGVALUE_OFFSET UNITYSDK_OFFSET(0x196D0CB0)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_MAPVALUE_OFFSET UNITYSDK_OFFSET(0x196D0DC0)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_STRINGVALUE_OFFSET UNITYSDK_OFFSET(0x196D0D30)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_UINTVALUE_OFFSET UNITYSDK_OFFSET(0x196D0C60)
+#define RPG_GAMECORE_DYNAMICVALUE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x196D0200)
+#define RPG_GAMECORE_DYNAMICVALUE_GET__DEBUGGERDISPLAY_OFFSET UNITYSDK_OFFSET(0x196D1870)
+#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x196CF830)
+#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x196CF860)
+#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_3_OFFSET UNITYSDK_OFFSET(0x196CF890)
+#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_4_OFFSET UNITYSDK_OFFSET(0x196CF8D0)
+#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_5_OFFSET UNITYSDK_OFFSET(0x196CF900)
+#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_6_OFFSET UNITYSDK_OFFSET(0x196CF930)
+#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_7_OFFSET UNITYSDK_OFFSET(0x196CF960)
+#define RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x196CF800)
+#define RPG_GAMECORE_DYNAMICVALUE_TOBINARY_OFFSET UNITYSDK_OFFSET(0x196D14A0)
+#define RPG_GAMECORE_DYNAMICVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x196CF990)
+#define RPG_GAMECORE_DYNAMICVALUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x196D1900)
+#define RPG_GAMECORE_DYNAMICVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x196CF780)
+#define RPG_GAMECORE_DYNAMICVALUE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x196CF790)
+#define RPG_GAMECORE_DYNAMICVALUE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x196CF7A0)
+#define RPG_GAMECORE_DYNAMICVALUE__CTOR_4_OFFSET UNITYSDK_OFFSET(0x196CF7B0)
+#define RPG_GAMECORE_DYNAMICVALUE__CTOR_5_OFFSET UNITYSDK_OFFSET(0x196CF7C0)
+#define RPG_GAMECORE_DYNAMICVALUE__CTOR_6_OFFSET UNITYSDK_OFFSET(0x196CF7D0)
+#define RPG_GAMECORE_DYNAMICVALUE__CTOR_7_OFFSET UNITYSDK_OFFSET(0x196CF7E0)
+#define RPG_GAMECORE_DYNAMICVALUE__CTOR_8_OFFSET UNITYSDK_OFFSET(0x196CF7F0)
+#define RPG_GAMECORE_DYNAMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x196CF770)
+#define RPG_GAMECORE_DYNAMICVALUE__ESCAPESTRING_OFFSET UNITYSDK_OFFSET(0x196D0210)
+#define RPG_GAMECORE_DYNAMICVALUE__LOGERROR_1_OFFSET UNITYSDK_OFFSET(0x196D0E60)
+#define RPG_GAMECORE_DYNAMICVALUE__LOGERROR_OFFSET UNITYSDK_OFFSET(0x196D0E10)
+#define RPG_GAMECORE_DYNAMICVALUE__LOGINVALIDVALUE_OFFSET UNITYSDK_OFFSET(0x196D1010)
+#define RPG_GAMECORE_DYNAMICVALUE__LOGTYPEMISMATCH_OFFSET UNITYSDK_OFFSET(0x196D0EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicValue_TypeDefinitionIndex = 23556;
+	inline static constexpr unsigned int DynamicValue_TypeDefinitionIndex = 10431;
 
 	class DynamicValue : public ::System::Object
 	{
 	public:
-		static ::System::Threading::ThreadLocal_1<::System::Text::StringBuilder*>** StaticGet_s_escapeStringBuilder()
-		{
-			return (::System::Threading::ThreadLocal_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicValue_TypeDefinitionIndex)->GetStaticField(0x1D830);
-		}
 		static ::RPG::GameCore::DynamicValue** StaticGet_EMPTY()
 		{
-			return (::RPG::GameCore::DynamicValue**)Il2CppClass::FromTypeDefinitionIndex(DynamicValue_TypeDefinitionIndex)->GetStaticField(0x1D838);
+			return (::RPG::GameCore::DynamicValue**)Il2CppClass::FromTypeDefinitionIndex(DynamicValue_TypeDefinitionIndex)->GetStaticField(0x13F60);
 		}
-		::Il2CppArray<::RPG::GameCore::DynamicValue*>* arrayValue; // 0x10
-		::System::String* stringValue; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>* mapValue; // 0x20
+		static ::System::Threading::ThreadLocal_1<::System::Text::StringBuilder*>** StaticGet_s_escapeStringBuilder()
+		{
+			return (::System::Threading::ThreadLocal_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicValue_TypeDefinitionIndex)->GetStaticField(0x13F68);
+		}
+		::System::String* stringValue; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>* mapValue; // 0x18
+		::Il2CppArray<::RPG::GameCore::DynamicValue*>* arrayValue; // 0x20
 		::RPG::GameCore::DynamicValue_UnionValue unionValue; // 0x28
 
 		::System::Void _ctor()
@@ -88,44 +88,44 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Boolean boolV)
+		::System::Void _ctor_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_1_OFFSET))(this, boolV);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Single floatV)
+		::System::Void _ctor_2(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_2_OFFSET))(this, floatV);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_2_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_3(::System::Double doubleV)
+		::System::Void _ctor_3(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_3_OFFSET))(this, doubleV);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_3_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_4(::System::String* stringV)
+		::System::Void _ctor_4(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_4_OFFSET))(this, stringV);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_4_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_5(::System::Int32 intV)
+		::System::Void _ctor_5(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_5_OFFSET))(this, intV);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_5_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_6(::System::Int64 longV)
+		::System::Void _ctor_6(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_6_OFFSET))(this, longV);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_6_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_7(::Il2CppArray<::RPG::GameCore::DynamicValue*>* arrayV)
+		::System::Void _ctor_7(::Il2CppArray<::RPG::GameCore::DynamicValue*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::DynamicValue*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_7_OFFSET))(this, arrayV);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::DynamicValue*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_7_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_8(::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>* mapV)
+		::System::Void _ctor_8(::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_8_OFFSET))(this, mapV);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CTOR_8_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -133,44 +133,44 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::GameCore::DynamicValue* op_Implicit(::System::String* s)
+		static ::RPG::GameCore::DynamicValue* op_Implicit(::System::String* a1)
 		{
-			return ((::RPG::GameCore::DynamicValue*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_OFFSET))(s);
+			return ((::RPG::GameCore::DynamicValue*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicValue* op_Implicit_1(::System::Int32 s)
+		static ::RPG::GameCore::DynamicValue* op_Implicit_1(::System::Int32 a1)
 		{
-			return ((::RPG::GameCore::DynamicValue*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_1_OFFSET))(s);
+			return ((::RPG::GameCore::DynamicValue*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_1_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicValue* op_Implicit_2(::System::Int64 s)
+		static ::RPG::GameCore::DynamicValue* op_Implicit_2(::System::Int64 a1)
 		{
-			return ((::RPG::GameCore::DynamicValue*(*)(::System::Int64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_2_OFFSET))(s);
+			return ((::RPG::GameCore::DynamicValue*(*)(::System::Int64))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_2_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicValue* op_Implicit_3(::System::Single s)
+		static ::RPG::GameCore::DynamicValue* op_Implicit_3(::System::Single a1)
 		{
-			return ((::RPG::GameCore::DynamicValue*(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_3_OFFSET))(s);
+			return ((::RPG::GameCore::DynamicValue*(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_3_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicValue* op_Implicit_4(::System::Double s)
+		static ::RPG::GameCore::DynamicValue* op_Implicit_4(::System::Double a1)
 		{
-			return ((::RPG::GameCore::DynamicValue*(*)(::System::Double))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_4_OFFSET))(s);
+			return ((::RPG::GameCore::DynamicValue*(*)(::System::Double))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_4_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicValue* op_Implicit_5(::System::Boolean s)
+		static ::RPG::GameCore::DynamicValue* op_Implicit_5(::System::Boolean a1)
 		{
-			return ((::RPG::GameCore::DynamicValue*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_5_OFFSET))(s);
+			return ((::RPG::GameCore::DynamicValue*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_5_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicValue* op_Implicit_6(::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>* s)
+		static ::RPG::GameCore::DynamicValue* op_Implicit_6(::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>* a1)
 		{
-			return ((::RPG::GameCore::DynamicValue*(*)(::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_6_OFFSET))(s);
+			return ((::RPG::GameCore::DynamicValue*(*)(::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_6_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicValue* op_Implicit_7(::Il2CppArray<::RPG::GameCore::DynamicValue*>* s)
+		static ::RPG::GameCore::DynamicValue* op_Implicit_7(::Il2CppArray<::RPG::GameCore::DynamicValue*>* a1)
 		{
-			return ((::RPG::GameCore::DynamicValue*(*)(::Il2CppArray<::RPG::GameCore::DynamicValue*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_7_OFFSET))(s);
+			return ((::RPG::GameCore::DynamicValue*(*)(::Il2CppArray<::RPG::GameCore::DynamicValue*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_OP_IMPLICIT_7_OFFSET))(a1);
 		}
 
 		::System::String* ToString()
@@ -178,9 +178,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -188,9 +188,9 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals_1(::RPG::GameCore::DynamicValue* other)
+		::System::Boolean Equals_1(::RPG::GameCore::DynamicValue* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Single get_FloatValue()
@@ -243,29 +243,29 @@ namespace RPG::GameCore
 			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_GET_MAPVALUE_OFFSET))(this);
 		}
 
-		::System::Void _LogError(::System::String* message)
+		::System::Void _LogError(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__LOGERROR_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__LOGERROR_OFFSET))(this, a1);
 		}
 
-		::System::Void _LogError_1(::System::String* format, ::Il2CppArray<::System::Object*>* args)
+		::System::Void _LogError_1(::System::String* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__LOGERROR_1_OFFSET))(this, format, args);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__LOGERROR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _LogTypeMismatch(::System::String* accessType)
+		::System::Void _LogTypeMismatch(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__LOGTYPEMISMATCH_OFFSET))(this, accessType);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__LOGTYPEMISMATCH_OFFSET))(this, a1);
 		}
 
-		::System::Void _LogInvalidValue(::System::String* accessType)
+		::System::Void _LogInvalidValue(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__LOGINVALIDVALUE_OFFSET))(this, accessType);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__LOGINVALIDVALUE_OFFSET))(this, a1);
 		}
 
-		static ::System::String* _EscapeString(::System::String* str)
+		static ::System::String* _EscapeString(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__ESCAPESTRING_OFFSET))(str);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE__ESCAPESTRING_OFFSET))(a1);
 		}
 
 		::RPG::GameCore::DynamicValue_DynamicValueType get_ValueType()
@@ -323,14 +323,14 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_GET_BOOLVALUE_1_OFFSET))(this);
 		}
 
-		static ::System::Void FromByteBinary(::Class_1_7A22A3DBEEDD1F80* pArray, ::RPG::GameCore::DynamicValue*& dv)
+		static ::System::Void FromByteBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_FROMBYTEBINARY_OFFSET))(pArray, dv);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_FROMBYTEBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ToBinary(::Class_1_7A22A3DBEEDD1F80* pArray, ::RPG::GameCore::DynamicValue* dv)
+		static ::System::Void ToBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_TOBINARY_OFFSET))(pArray, dv);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVALUE_TOBINARY_OFFSET))(a1, a2);
 		}
 
 		::System::String* get__DebuggerDisplay()

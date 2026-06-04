@@ -5,15 +5,15 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F13F50)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x8F13F70)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F13F60)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x8F13F80)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8F13F90)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA33C0F0)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0xA33C110)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA33C100)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0xA33C120)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA33C130)
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int LeaveRoomOptions_TypeDefinitionIndex = 41535;
+	inline static constexpr unsigned int LeaveRoomOptions_TypeDefinitionIndex = 42338;
 
 	class LeaveRoomOptions : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RoomName()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_GET_ROOMNAME_OFFSET))(this);
 		}
 
-		::System::Void set_RoomName(::System::String* value)
+		::System::Void set_RoomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_SET_ROOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMOPTIONS_SET_ROOMNAME_OFFSET))(this, a1);
 		}
 	};
 }

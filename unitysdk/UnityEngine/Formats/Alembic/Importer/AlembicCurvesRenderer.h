@@ -9,18 +9,18 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicCurves; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATELINEMESH_OFFSET UNITYSDK_OFFSET(0x1A1CC1C0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATEPLANEMESH_OFFSET UNITYSDK_OFFSET(0x1A1CCE80)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A1CC070)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A1CCE10)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A1CCE70)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A1CBE10)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_UPDATEMESH_OFFSET UNITYSDK_OFFSET(0x1A1CC160)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1CD6F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATELINEMESH_OFFSET UNITYSDK_OFFSET(0x1B030350)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATEPLANEMESH_OFFSET UNITYSDK_OFFSET(0x1B031010)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B0301F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1B030FA0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B031000)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B02FF90)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_UPDATEMESH_OFFSET UNITYSDK_OFFSET(0x1B0302F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B031890)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicCurvesRenderer_TypeDefinitionIndex = 40871;
+	inline static constexpr unsigned int AlembicCurvesRenderer_TypeDefinitionIndex = 41697;
 
 	class AlembicCurvesRenderer : public ::UnityEngine::MonoBehaviour
 	{
@@ -39,9 +39,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Void UpdateMesh(::UnityEngine::Formats::Alembic::Importer::AlembicCurves* curves)
+		::System::Void UpdateMesh(::UnityEngine::Formats::Alembic::Importer::AlembicCurves* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicCurves*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_UPDATEMESH_OFFSET))(this, curves);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicCurves*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_UPDATEMESH_OFFSET))(this, a1);
 		}
 
 		::System::Void LateUpdate()
@@ -54,14 +54,14 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void GeneratePlaneMesh(::UnityEngine::Mesh* theMesh, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>* positions, ::System::Collections::Generic::IReadOnlyList_1<::System::Int32>* curveCounts, ::System::Collections::Generic::IReadOnlyList_1<::System::Single>* widths)
+		::System::Void GeneratePlaneMesh(::UnityEngine::Mesh* a1, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>* a2, ::System::Collections::Generic::IReadOnlyList_1<::System::Int32>* a3, ::System::Collections::Generic::IReadOnlyList_1<::System::Single>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IReadOnlyList_1<::System::Int32>*, ::System::Collections::Generic::IReadOnlyList_1<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATEPLANEMESH_OFFSET))(this, theMesh, positions, curveCounts, widths);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IReadOnlyList_1<::System::Int32>*, ::System::Collections::Generic::IReadOnlyList_1<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATEPLANEMESH_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void GenerateLineMesh(::UnityEngine::Mesh* theMesh, ::Il2CppArray<::UnityEngine::Vector3>* positionsM, ::Il2CppArray<::System::Int32>* curveOffsetM)
+		::System::Void GenerateLineMesh(::UnityEngine::Mesh* a1, ::Il2CppArray<::UnityEngine::Vector3>* a2, ::Il2CppArray<::System::Int32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATELINEMESH_OFFSET))(this, theMesh, positionsM, curveOffsetM);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATELINEMESH_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::UnityEngine::Material* GetDefaultMaterial()

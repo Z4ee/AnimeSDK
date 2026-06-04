@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterHUDVisibleType_TypeDefinitionIndex = 21729;
+	inline static constexpr unsigned int MonsterHUDVisibleType_TypeDefinitionIndex = 23308;
 
 	enum class MonsterHUDVisibleType : ::System::Int32
 	{

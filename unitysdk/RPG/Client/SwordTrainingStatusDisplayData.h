@@ -6,13 +6,13 @@
 
 namespace RPG::GameCore { class SwordTrainingStatusRow; }
 
-#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xB262AB0)
-#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB24DA00)
-#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA___IFIXBASEPROXY_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xB262B10)
+#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xC9AF8E0)
+#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC99A470)
+#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA___IFIXBASEPROXY_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xC9AF950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingStatusDisplayData_TypeDefinitionIndex = 57127;
+	inline static constexpr unsigned int SwordTrainingStatusDisplayData_TypeDefinitionIndex = 57917;
 
 	class SwordTrainingStatusDisplayData : public ::RPG::Client::SwordTrainingConditionDisplayData
 	{
@@ -20,9 +20,9 @@ namespace RPG::Client
 		::RPG::GameCore::SwordTrainingStatusRow* StatusRow; // 0x18
 		::System::UInt32 StatusValue; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::SwordTrainingConditionType conditionType, ::System::UInt32 targetNum, ::RPG::GameCore::SwordTrainingStatusRow* statusRow, ::System::UInt32 statusValue)
+		::System::Void _ctor(::RPG::GameCore::SwordTrainingConditionType a1, ::System::UInt32 a2, ::RPG::GameCore::SwordTrainingStatusRow* a3, ::System::UInt32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SwordTrainingConditionType, ::System::UInt32, ::RPG::GameCore::SwordTrainingStatusRow*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA__CTOR_OFFSET))(this, conditionType, targetNum, statusRow, statusValue);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SwordTrainingConditionType, ::System::UInt32, ::RPG::GameCore::SwordTrainingStatusRow*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::RPG::Client::TextID GetDisplayName()

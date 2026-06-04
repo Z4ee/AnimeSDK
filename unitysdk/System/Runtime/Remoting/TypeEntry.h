@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY_GET_ASSEMBLYNAME_OFFSET UNITYSDK_OFFSET(0x179F46B0)
-#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x179F46D0)
-#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY_SET_ASSEMBLYNAME_OFFSET UNITYSDK_OFFSET(0x179F46C0)
-#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY_SET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x179F46E0)
-#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x179F46A0)
+#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY_GET_ASSEMBLYNAME_OFFSET UNITYSDK_OFFSET(0x187A4960)
+#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x187A4980)
+#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY_SET_ASSEMBLYNAME_OFFSET UNITYSDK_OFFSET(0x187A4970)
+#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY_SET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x187A4990)
+#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x187A4950)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int TypeEntry_TypeDefinitionIndex = 1219;
+	inline static constexpr unsigned int TypeEntry_TypeDefinitionIndex = 1218;
 
 	class TypeEntry : public ::System::Object
 	{
 	public:
-		::System::String* assembly_name; // 0x10
-		::System::String* type_name; // 0x18
+		::System::String* type_name; // 0x10
+		::System::String* assembly_name; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -30,9 +30,9 @@ namespace System::Runtime::Remoting
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_TYPEENTRY_GET_ASSEMBLYNAME_OFFSET))(this);
 		}
 
-		::System::Void set_AssemblyName(::System::String* value)
+		::System::Void set_AssemblyName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_TYPEENTRY_SET_ASSEMBLYNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_TYPEENTRY_SET_ASSEMBLYNAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_TypeName()
@@ -40,9 +40,9 @@ namespace System::Runtime::Remoting
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_TYPEENTRY_GET_TYPENAME_OFFSET))(this);
 		}
 
-		::System::Void set_TypeName(::System::String* value)
+		::System::Void set_TypeName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_TYPEENTRY_SET_TYPENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_TYPEENTRY_SET_TYPENAME_OFFSET))(this, a1);
 		}
 	};
 }

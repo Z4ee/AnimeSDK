@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightShowFullScreenCutInType_TypeDefinitionIndex = 22192;
+	inline static constexpr unsigned int GridFightShowFullScreenCutInType_TypeDefinitionIndex = 23364;
 
 	enum class GridFightShowFullScreenCutInType : ::System::Int32
 	{

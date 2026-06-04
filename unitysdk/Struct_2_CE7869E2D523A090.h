@@ -5,9 +5,9 @@
 
 namespace RPG::Client { class BAPartVariantRef; }
 
-#define STRUCT_2_CE7869E2D523A090_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x161DBB0)
+#define STRUCT_2_CE7869E2D523A090_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x82100)
 
-inline static constexpr unsigned int Struct_2_CE7869E2D523A090_TypeDefinitionIndex = 64066;
+inline static constexpr unsigned int Struct_2_CE7869E2D523A090_TypeDefinitionIndex = 64987;
 
 struct alignas(8) Struct_2_CE7869E2D523A090
 {

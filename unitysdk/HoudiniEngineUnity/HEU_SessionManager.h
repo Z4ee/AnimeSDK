@@ -4,6 +4,7 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_License.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_ObjectInfo.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_RSTOrder.h"
+#include "unitysdk/HoudiniEngineUnity/HAPI_ThriftSharedMemoryBufferType.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_Transform.h"
 #include "unitysdk/System/Object.h"
 
@@ -14,75 +15,78 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CHECKANDCLOSEEXISTINGSESSION_OFFSET UNITYSDK_OFFSET(0x8CB6970)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CHECKVERSIONMATCH_OFFSET UNITYSDK_OFFSET(0x8CB7CA0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CLEARCONNECTIONERROR_OFFSET UNITYSDK_OFFSET(0x8CB7D20)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CLOSEALLSESSIONS_OFFSET UNITYSDK_OFFSET(0x8CB75B0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CLOSEDEFAULTSESSION_OFFSET UNITYSDK_OFFSET(0x8CB7490)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTSESSIONSYNCUSINGTHRIFTPIPE_OFFSET UNITYSDK_OFFSET(0x8CB7290)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTSESSIONSYNCUSINGTHRIFTSOCKET_OFFSET UNITYSDK_OFFSET(0x8CB7140)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTTHRIFTPIPESESSION_OFFSET UNITYSDK_OFFSET(0x8CB6EB0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTTHRIFTSOCKETSESSION_OFFSET UNITYSDK_OFFSET(0x8CB6D40)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATECUSTOMSESSION_OFFSET UNITYSDK_OFFSET(0x8CB6C00)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATEINPROCESSSESSION_OFFSET UNITYSDK_OFFSET(0x8CB6830)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPE_OFFSET UNITYSDK_OFFSET(0x8CB55D0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONOBJECT_OFFSET UNITYSDK_OFFSET(0x8CB5520)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATETHRIFTPIPESESSION_OFFSET UNITYSDK_OFFSET(0x8CB6650)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATETHRIFTSOCKETSESSION_OFFSET UNITYSDK_OFFSET(0x8CB6A80)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDCHILDNODELIST_OFFSET UNITYSDK_OFFSET(0x8CB9010)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDOBJECTLISTMEMORYSAFE_OFFSET UNITYSDK_OFFSET(0x8CB90C0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDOBJECTTRANSFORMSMEMORYSAFE_OFFSET UNITYSDK_OFFSET(0x8CB91D0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCONNECTIONERROR_OFFSET UNITYSDK_OFFSET(0x8CB4230)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCURRENTLICENSE_OFFSET UNITYSDK_OFFSET(0x8CB84D0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETDEFAULTSESSION_OFFSET UNITYSDK_OFFSET(0x8CB5680)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETGROUPMEMBERSHIP_OFFSET UNITYSDK_OFFSET(0x8CB8BB0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETGROUPNAMES_OFFSET UNITYSDK_OFFSET(0x8CB87F0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETHOUDINIPATHONMACOS_OFFSET UNITYSDK_OFFSET(0x8CB7F50)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETLASTSESSIONERROR_OFFSET UNITYSDK_OFFSET(0x8CB67C0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETNODEINPUTNAME_OFFSET UNITYSDK_OFFSET(0x8CB8E60)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETNODENAME_OFFSET UNITYSDK_OFFSET(0x8CB8CD0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETORCREATEDEFAULTSESSION_OFFSET UNITYSDK_OFFSET(0x8CB62D0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x8CB7900)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSESSIONINFO_OFFSET UNITYSDK_OFFSET(0x8CB7970)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSESSIONWITHID_OFFSET UNITYSDK_OFFSET(0x8CB5A10)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSTRINGVALUESFROMSTRINGINDICES_OFFSET UNITYSDK_OFFSET(0x8CB8650)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x8CB8570)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETUNIQUEMATERIALSHOPNAME_OFFSET UNITYSDK_OFFSET(0x8CB9310)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_INITIALIZEDEFAULTSESSION_OFFSET UNITYSDK_OFFSET(0x8CB73D0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_INTERNALVALIDATESCENEASSETS_OFFSET UNITYSDK_OFFSET(0x8CB60B0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_ISHARSPROCESSRUNNING_OFFSET UNITYSDK_OFFSET(0x8CB7D30)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_LOADALLSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x8CB5B10)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_LOADSESSIONFROMHIP_OFFSET UNITYSDK_OFFSET(0x8CB7DD0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_LOADSTOREDDEFAULTSESSION_OFFSET UNITYSDK_OFFSET(0x8CB5740)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_OPENHOUDINI_OFFSET UNITYSDK_OFFSET(0x8CB7F60)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_OPENSESSIONINHOUDINI_OFFSET UNITYSDK_OFFSET(0x8CB80E0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_RECREATEDEFAULTSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x8CB7020)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_REGISTERSESSION_OFFSET UNITYSDK_OFFSET(0x8CB5800)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_RESTARTSESSION_OFFSET UNITYSDK_OFFSET(0x8CB79F0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_SAVEALLSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x8CB58D0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_SAVESESSIONTOHIP_OFFSET UNITYSDK_OFFSET(0x8CB7E90)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_UNREGISTERSESSION_OFFSET UNITYSDK_OFFSET(0x8CB5980)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_VALIDATEPLUGINSESSION_OFFSET UNITYSDK_OFFSET(0x8CB7C20)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x8CB9690)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CHECKANDCLOSEEXISTINGSESSION_OFFSET UNITYSDK_OFFSET(0x17F549B0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CHECKVERSIONMATCH_OFFSET UNITYSDK_OFFSET(0x17F56010)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CLEARCONNECTIONERROR_OFFSET UNITYSDK_OFFSET(0x17F56090)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CLOSEALLSESSIONS_OFFSET UNITYSDK_OFFSET(0x17F55920)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CLOSEDEFAULTSESSION_OFFSET UNITYSDK_OFFSET(0x17F55800)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTSESSIONSYNCUSINGTHRIFTPIPE_OFFSET UNITYSDK_OFFSET(0x17F55350)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTSESSIONSYNCUSINGTHRIFTSHAREDMEMORY_OFFSET UNITYSDK_OFFSET(0x17F55540)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTSESSIONSYNCUSINGTHRIFTSOCKET_OFFSET UNITYSDK_OFFSET(0x17F55150)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTTHRIFTPIPESESSION_OFFSET UNITYSDK_OFFSET(0x17F54E90)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTTHRIFTSHAREDMEMORYSESSION_OFFSET UNITYSDK_OFFSET(0x17F54F90)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTTHRIFTSOCKETSESSION_OFFSET UNITYSDK_OFFSET(0x17F54D90)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATECUSTOMSESSION_OFFSET UNITYSDK_OFFSET(0x17F54CE0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATEINPROCESSSESSION_OFFSET UNITYSDK_OFFSET(0x17F54900)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPE_OFFSET UNITYSDK_OFFSET(0x17F53B60)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONOBJECT_OFFSET UNITYSDK_OFFSET(0x17F53B20)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATETHRIFTPIPESESSION_OFFSET UNITYSDK_OFFSET(0x17F547A0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATETHRIFTSHAREDMEMORYSESSION_OFFSET UNITYSDK_OFFSET(0x17F54BD0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATETHRIFTSOCKETSESSION_OFFSET UNITYSDK_OFFSET(0x17F54AC0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDCHILDNODELIST_OFFSET UNITYSDK_OFFSET(0x17F57310)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDOBJECTLISTMEMORYSAFE_OFFSET UNITYSDK_OFFSET(0x17F573E0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDOBJECTTRANSFORMSMEMORYSAFE_OFFSET UNITYSDK_OFFSET(0x17F575E0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCONNECTIONERROR_OFFSET UNITYSDK_OFFSET(0x17F52730)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCURRENTLICENSE_OFFSET UNITYSDK_OFFSET(0x17F56800)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETDEFAULTSESSION_OFFSET UNITYSDK_OFFSET(0x17F53BA0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETGROUPMEMBERSHIP_OFFSET UNITYSDK_OFFSET(0x17F56EB0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETGROUPNAMES_OFFSET UNITYSDK_OFFSET(0x17F56B10)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETHOUDINIPATHONMACOS_OFFSET UNITYSDK_OFFSET(0x17F562C0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETLASTSESSIONERROR_OFFSET UNITYSDK_OFFSET(0x17F54890)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETNODEINPUTNAME_OFFSET UNITYSDK_OFFSET(0x17F57160)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETNODENAME_OFFSET UNITYSDK_OFFSET(0x17F56FD0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETORCREATEDEFAULTSESSION_OFFSET UNITYSDK_OFFSET(0x17F542C0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x17F55CE0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSESSIONINFO_OFFSET UNITYSDK_OFFSET(0x17F55D50)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSESSIONWITHID_OFFSET UNITYSDK_OFFSET(0x17F53FD0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSTRINGVALUESFROMSTRINGINDICES_OFFSET UNITYSDK_OFFSET(0x17F56980)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x17F568A0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETUNIQUEMATERIALSHOPNAME_OFFSET UNITYSDK_OFFSET(0x17F57800)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_INITIALIZEDEFAULTSESSION_OFFSET UNITYSDK_OFFSET(0x17F55740)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_INTERNALVALIDATESCENEASSETS_OFFSET UNITYSDK_OFFSET(0x17F540F0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_ISHARSPROCESSRUNNING_OFFSET UNITYSDK_OFFSET(0x17F560A0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_LOADALLSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x17F50A90)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_LOADSESSIONFROMHIP_OFFSET UNITYSDK_OFFSET(0x17F56140)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_LOADSTOREDDEFAULTSESSION_OFFSET UNITYSDK_OFFSET(0x17F53C60)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_OPENHOUDINI_OFFSET UNITYSDK_OFFSET(0x17F562D0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_OPENSESSIONINHOUDINI_OFFSET UNITYSDK_OFFSET(0x17F56420)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_RECREATEDEFAULTSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x17F550B0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_REGISTERSESSION_OFFSET UNITYSDK_OFFSET(0x17F53D20)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_RESTARTSESSION_OFFSET UNITYSDK_OFFSET(0x17F55DD0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_SAVEALLSESSIONDATA_OFFSET UNITYSDK_OFFSET(0x17F53DF0)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_SAVESESSIONTOHIP_OFFSET UNITYSDK_OFFSET(0x17F56200)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_UNREGISTERSESSION_OFFSET UNITYSDK_OFFSET(0x17F53F40)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_VALIDATEPLUGINSESSION_OFFSET UNITYSDK_OFFSET(0x17F55F90)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F57B80)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_SessionManager_TypeDefinitionIndex = 43648;
+	inline static constexpr unsigned int HEU_SessionManager_TypeDefinitionIndex = 37623;
 
 	class HEU_SessionManager : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::System::Int64, ::HoudiniEngineUnity::HEU_SessionBase*>** StaticGet__sessionMap()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int64, ::HoudiniEngineUnity::HEU_SessionBase*>**)Il2CppClass::FromTypeDefinitionIndex(HEU_SessionManager_TypeDefinitionIndex)->GetStaticField(0x103B0);
+		}
 		static ::HoudiniEngineUnity::HEU_SessionBase** StaticGet__defaultSession()
 		{
-			return (::HoudiniEngineUnity::HEU_SessionBase**)Il2CppClass::FromTypeDefinitionIndex(HEU_SessionManager_TypeDefinitionIndex)->GetStaticField(0x43570);
+			return (::HoudiniEngineUnity::HEU_SessionBase**)Il2CppClass::FromTypeDefinitionIndex(HEU_SessionManager_TypeDefinitionIndex)->GetStaticField(0x103B8);
 		}
 		static ::HoudiniEngineUnity::HEU_SessionManager_CreateSessionFromTypeDelegate** StaticGet__createSessionFromTypeDelegate()
 		{
-			return (::HoudiniEngineUnity::HEU_SessionManager_CreateSessionFromTypeDelegate**)Il2CppClass::FromTypeDefinitionIndex(HEU_SessionManager_TypeDefinitionIndex)->GetStaticField(0x43578);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int64, ::HoudiniEngineUnity::HEU_SessionBase*>** StaticGet__sessionMap()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int64, ::HoudiniEngineUnity::HEU_SessionBase*>**)Il2CppClass::FromTypeDefinitionIndex(HEU_SessionManager_TypeDefinitionIndex)->GetStaticField(0x43580);
+			return (::HoudiniEngineUnity::HEU_SessionManager_CreateSessionFromTypeDelegate**)Il2CppClass::FromTypeDefinitionIndex(HEU_SessionManager_TypeDefinitionIndex)->GetStaticField(0x103C0);
 		}
 
 		static ::System::Void _cctor()
@@ -95,9 +99,9 @@ namespace HoudiniEngineUnity
 			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONOBJECT_OFFSET))();
 		}
 
-		static ::HoudiniEngineUnity::HEU_SessionBase* CreateSessionFromType(::System::Type* type)
+		static ::HoudiniEngineUnity::HEU_SessionBase* CreateSessionFromType(::System::Type* a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::System::Type*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPE_OFFSET))(type);
+			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::System::Type*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPE_OFFSET))(a1);
 		}
 
 		static ::HoudiniEngineUnity::HEU_SessionBase* GetDefaultSession()
@@ -105,19 +109,19 @@ namespace HoudiniEngineUnity
 			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETDEFAULTSESSION_OFFSET))();
 		}
 
-		static ::System::Void RegisterSession(::System::Int64 sessionID, ::HoudiniEngineUnity::HEU_SessionBase* session)
+		static ::System::Void RegisterSession(::System::Int64 a1, ::HoudiniEngineUnity::HEU_SessionBase* a2)
 		{
-			return ((::System::Void(*)(::System::Int64, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_REGISTERSESSION_OFFSET))(sessionID, session);
+			return ((::System::Void(*)(::System::Int64, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_REGISTERSESSION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void UnregisterSession(::System::Int64 sessionID)
+		static ::System::Void UnregisterSession(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::System::Int64))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_UNREGISTERSESSION_OFFSET))(sessionID);
+			return ((::System::Void(*)(::System::Int64))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_UNREGISTERSESSION_OFFSET))(a1);
 		}
 
-		static ::HoudiniEngineUnity::HEU_SessionBase* GetSessionWithID(::System::Int64 sessionID)
+		static ::HoudiniEngineUnity::HEU_SessionBase* GetSessionWithID(::System::Int64 a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::System::Int64))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSESSIONWITHID_OFFSET))(sessionID);
+			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::System::Int64))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSESSIONWITHID_OFFSET))(a1);
 		}
 
 		static ::System::Void SaveAllSessionData()
@@ -135,9 +139,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_INTERNALVALIDATESCENEASSETS_OFFSET))();
 		}
 
-		static ::HoudiniEngineUnity::HEU_SessionBase* GetOrCreateDefaultSession(::System::Boolean bNotifyUserError)
+		static ::HoudiniEngineUnity::HEU_SessionBase* GetOrCreateDefaultSession(::System::Boolean a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETORCREATEDEFAULTSESSION_OFFSET))(bNotifyUserError);
+			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETORCREATEDEFAULTSESSION_OFFSET))(a1);
 		}
 
 		static ::System::Boolean CreateInProcessSession()
@@ -145,14 +149,19 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATEINPROCESSSESSION_OFFSET))();
 		}
 
-		static ::System::Boolean CreateThriftSocketSession(::System::String* hostName, ::System::Int32 serverPort, ::System::Boolean autoClose, ::System::Single timeout, ::System::Boolean logError)
+		static ::System::Boolean CreateThriftSocketSession(::System::String* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Single a4, ::System::Boolean a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATETHRIFTSOCKETSESSION_OFFSET))(hostName, serverPort, autoClose, timeout, logError);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATETHRIFTSOCKETSESSION_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean CreateThriftPipeSession(::System::String* pipeName, ::System::Boolean autoClose, ::System::Single timeout, ::System::Boolean logError)
+		static ::System::Boolean CreateThriftPipeSession(::System::String* a1, ::System::Boolean a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATETHRIFTPIPESESSION_OFFSET))(pipeName, autoClose, timeout, logError);
+			return ((::System::Boolean(*)(::System::String*, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATETHRIFTPIPESESSION_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean CreateThriftSharedMemorySession(::System::String* a1, ::HoudiniEngineUnity::HAPI_ThriftSharedMemoryBufferType a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Single a5, ::System::Boolean a6)
+		{
+			return ((::System::Boolean(*)(::System::String*, ::HoudiniEngineUnity::HAPI_ThriftSharedMemoryBufferType, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATETHRIFTSHAREDMEMORYSESSION_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Boolean CreateCustomSession()
@@ -160,14 +169,19 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATECUSTOMSESSION_OFFSET))();
 		}
 
-		static ::System::Boolean ConnectThriftSocketSession(::System::String* hostName, ::System::Int32 serverPort, ::System::Boolean autoClose, ::System::Single timeout)
+		static ::System::Boolean ConnectThriftSocketSession(::System::String* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Single a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTTHRIFTSOCKETSESSION_OFFSET))(hostName, serverPort, autoClose, timeout);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTTHRIFTSOCKETSESSION_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean ConnectThriftPipeSession(::System::String* pipeName, ::System::Boolean autoClose, ::System::Single timeout)
+		static ::System::Boolean ConnectThriftPipeSession(::System::String* a1, ::System::Boolean a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTTHRIFTPIPESESSION_OFFSET))(pipeName, autoClose, timeout);
+			return ((::System::Boolean(*)(::System::String*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTTHRIFTPIPESESSION_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean ConnectThriftSharedMemorySession(::System::String* a1, ::HoudiniEngineUnity::HAPI_ThriftSharedMemoryBufferType a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Single a5)
+		{
+			return ((::System::Boolean(*)(::System::String*, ::HoudiniEngineUnity::HAPI_ThriftSharedMemoryBufferType, ::System::Int32, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTTHRIFTSHAREDMEMORYSESSION_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void RecreateDefaultSessionData()
@@ -175,14 +189,19 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_RECREATEDEFAULTSESSIONDATA_OFFSET))();
 		}
 
-		static ::System::Boolean ConnectSessionSyncUsingThriftSocket(::System::String* hostName, ::System::Int32 serverPort, ::System::Boolean autoClose, ::System::Single timeout, ::System::Boolean logError)
+		static ::System::Boolean ConnectSessionSyncUsingThriftSocket(::System::String* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Single a4, ::System::Boolean a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTSESSIONSYNCUSINGTHRIFTSOCKET_OFFSET))(hostName, serverPort, autoClose, timeout, logError);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTSESSIONSYNCUSINGTHRIFTSOCKET_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean ConnectSessionSyncUsingThriftPipe(::System::String* pipeName, ::System::Boolean autoClose, ::System::Single timeout, ::System::Boolean logError)
+		static ::System::Boolean ConnectSessionSyncUsingThriftPipe(::System::String* a1, ::System::Boolean a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTSESSIONSYNCUSINGTHRIFTPIPE_OFFSET))(pipeName, autoClose, timeout, logError);
+			return ((::System::Boolean(*)(::System::String*, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTSESSIONSYNCUSINGTHRIFTPIPE_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean ConnectSessionSyncUsingThriftSharedMemory(::System::String* a1, ::HoudiniEngineUnity::HAPI_ThriftSharedMemoryBufferType a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Single a5, ::System::Boolean a6)
+		{
+			return ((::System::Boolean(*)(::System::String*, ::HoudiniEngineUnity::HAPI_ThriftSharedMemoryBufferType, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CONNECTSESSIONSYNCUSINGTHRIFTSHAREDMEMORY_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Boolean InitializeDefaultSession()
@@ -225,9 +244,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_RESTARTSESSION_OFFSET))();
 		}
 
-		static ::System::Boolean ValidatePluginSession(::HoudiniEngineUnity::HEU_SessionBase* session)
+		static ::System::Boolean ValidatePluginSession(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_VALIDATEPLUGINSESSION_OFFSET))(session);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_VALIDATEPLUGINSESSION_OFFSET))(a1);
 		}
 
 		static ::System::String* GetLastSessionError()
@@ -245,94 +264,94 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CLEARCONNECTIONERROR_OFFSET))();
 		}
 
-		static ::System::String* GetConnectionError(::System::Boolean clear)
+		static ::System::String* GetConnectionError(::System::Boolean a1)
 		{
-			return ((::System::String*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCONNECTIONERROR_OFFSET))(clear);
+			return ((::System::String*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCONNECTIONERROR_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsHARSProcessRunning(::System::Int32 processID)
+		static ::System::Boolean IsHARSProcessRunning(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_ISHARSPROCESSRUNNING_OFFSET))(processID);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_ISHARSPROCESSRUNNING_OFFSET))(a1);
 		}
 
-		static ::System::Boolean LoadSessionFromHIP(::System::Boolean bCookNodes, ::HoudiniEngineUnity::HEU_SessionBase* session)
+		static ::System::Boolean LoadSessionFromHIP(::System::Boolean a1, ::HoudiniEngineUnity::HEU_SessionBase* a2)
 		{
-			return ((::System::Boolean(*)(::System::Boolean, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_LOADSESSIONFROMHIP_OFFSET))(bCookNodes, session);
+			return ((::System::Boolean(*)(::System::Boolean, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_LOADSESSIONFROMHIP_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SaveSessionToHIP(::System::Boolean bLockNodes, ::HoudiniEngineUnity::HEU_SessionBase* session)
+		static ::System::Boolean SaveSessionToHIP(::System::Boolean a1, ::HoudiniEngineUnity::HEU_SessionBase* a2)
 		{
-			return ((::System::Boolean(*)(::System::Boolean, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_SAVESESSIONTOHIP_OFFSET))(bLockNodes, session);
+			return ((::System::Boolean(*)(::System::Boolean, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_SAVESESSIONTOHIP_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GetHoudiniPathOnMacOS(::System::String* houdiniPath)
+		static ::System::String* GetHoudiniPathOnMacOS(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETHOUDINIPATHONMACOS_OFFSET))(houdiniPath);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETHOUDINIPATHONMACOS_OFFSET))(a1);
 		}
 
-		static ::System::Boolean OpenHoudini(::System::String* args)
+		static ::System::Boolean OpenHoudini(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_OPENHOUDINI_OFFSET))(args);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_OPENHOUDINI_OFFSET))(a1);
 		}
 
-		static ::System::Boolean OpenSessionInHoudini(::HoudiniEngineUnity::HEU_SessionBase* session)
+		static ::System::Boolean OpenSessionInHoudini(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_OPENSESSIONINHOUDINI_OFFSET))(session);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_OPENSESSIONINHOUDINI_OFFSET))(a1);
 		}
 
-		static ::HoudiniEngineUnity::HAPI_License GetCurrentLicense(::System::Boolean bLogError)
+		static ::HoudiniEngineUnity::HAPI_License GetCurrentLicense(::System::Boolean a1)
 		{
-			return ((::HoudiniEngineUnity::HAPI_License(*)(::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCURRENTLICENSE_OFFSET))(bLogError);
+			return ((::HoudiniEngineUnity::HAPI_License(*)(::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCURRENTLICENSE_OFFSET))(a1);
 		}
 
-		static ::System::String* GetString(::System::Int32 stringHandle, ::HoudiniEngineUnity::HEU_SessionBase* session)
+		static ::System::String* GetString(::System::Int32 a1, ::HoudiniEngineUnity::HEU_SessionBase* a2)
 		{
-			return ((::System::String*(*)(::System::Int32, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSTRING_OFFSET))(stringHandle, session);
+			return ((::System::String*(*)(::System::Int32, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSTRING_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::String*>* GetStringValuesFromStringIndices(::Il2CppArray<::System::Int32>* strIndices)
+		static ::Il2CppArray<::System::String*>* GetStringValuesFromStringIndices(::Il2CppArray<::System::Int32>* a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSTRINGVALUESFROMSTRINGINDICES_OFFSET))(strIndices);
+			return ((::Il2CppArray<::System::String*>*(*)(::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETSTRINGVALUESFROMSTRINGINDICES_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::String*>* GetGroupNames(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::System::Int32 partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::System::Boolean isInstanced)
+		static ::Il2CppArray<::System::String*>* GetGroupNames(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::HoudiniEngineUnity::HAPI_GroupType a4, ::System::Boolean a5)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HAPI_GroupType, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETGROUPNAMES_OFFSET))(session, nodeID, partID, groupType, isInstanced);
+			return ((::Il2CppArray<::System::String*>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HAPI_GroupType, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETGROUPNAMES_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean GetGroupMembership(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::System::Int32 partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::System::String* groupName, ::Il2CppArray<::System::Int32>*& membership, ::System::Boolean isInstanced)
+		static ::System::Boolean GetGroupMembership(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::HoudiniEngineUnity::HAPI_GroupType a4, ::System::String* a5, ::Il2CppArray<::System::Int32>*& a6, ::System::Boolean a7)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HAPI_GroupType, ::System::String*, ::Il2CppArray<::System::Int32>*&, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETGROUPMEMBERSHIP_OFFSET))(session, nodeID, partID, groupType, groupName, membership, isInstanced);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HAPI_GroupType, ::System::String*, ::Il2CppArray<::System::Int32>*&, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETGROUPMEMBERSHIP_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::String* GetNodeName(::System::Int32 nodeID, ::HoudiniEngineUnity::HEU_SessionBase* session)
+		static ::System::String* GetNodeName(::System::Int32 a1, ::HoudiniEngineUnity::HEU_SessionBase* a2)
 		{
-			return ((::System::String*(*)(::System::Int32, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETNODENAME_OFFSET))(nodeID, session);
+			return ((::System::String*(*)(::System::Int32, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETNODENAME_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetNodeInputName(::System::Int32 nodeID, ::System::Int32 inputIndex, ::System::String*& inputName)
+		static ::System::Boolean GetNodeInputName(::System::Int32 a1, ::System::Int32 a2, ::System::String*& a3)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::System::String*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETNODEINPUTNAME_OFFSET))(nodeID, inputIndex, inputName);
+			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::System::String*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETNODEINPUTNAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetComposedChildNodeList(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 parentNodeID, ::System::Int32 nodeTypeFilter, ::System::Int32 nodeFlagFilter, ::System::Boolean bRecursive, ::Il2CppArray<::System::Int32>*& childNodeIDs)
+		static ::System::Boolean GetComposedChildNodeList(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5, ::Il2CppArray<::System::Int32>*& a6, ::System::Boolean a7)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::Il2CppArray<::System::Int32>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDCHILDNODELIST_OFFSET))(session, parentNodeID, nodeTypeFilter, nodeFlagFilter, bRecursive, childNodeIDs);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::Il2CppArray<::System::Int32>*&, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDCHILDNODELIST_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Boolean GetComposedObjectListMemorySafe(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ObjectInfo>* objectInfos, ::System::Int32 start, ::System::Int32 length)
+		static ::System::Boolean GetComposedObjectListMemorySafe(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ObjectInfo>* a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ObjectInfo>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDOBJECTLISTMEMORYSAFE_OFFSET))(session, nodeID, objectInfos, start, length);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ObjectInfo>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDOBJECTLISTMEMORYSAFE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean GetComposedObjectTransformsMemorySafe(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ::Il2CppArray<::HoudiniEngineUnity::HAPI_Transform>* transforms, ::System::Int32 start, ::System::Int32 length)
+		static ::System::Boolean GetComposedObjectTransformsMemorySafe(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::HoudiniEngineUnity::HAPI_RSTOrder a3, ::Il2CppArray<::HoudiniEngineUnity::HAPI_Transform>* a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HAPI_RSTOrder, ::Il2CppArray<::HoudiniEngineUnity::HAPI_Transform>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDOBJECTTRANSFORMSMEMORYSAFE_OFFSET))(session, nodeID, rstOrder, transforms, start, length);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HAPI_RSTOrder, ::Il2CppArray<::HoudiniEngineUnity::HAPI_Transform>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETCOMPOSEDOBJECTTRANSFORMSMEMORYSAFE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::String* GetUniqueMaterialShopName(::System::Int32 assetID, ::System::Int32 materialID)
+		static ::System::String* GetUniqueMaterialShopName(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETUNIQUEMATERIALSHOPNAME_OFFSET))(assetID, materialID);
+			return ((::System::String*(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_GETUNIQUEMATERIALSHOPNAME_OFFSET))(a1, a2);
 		}
 	};
 }

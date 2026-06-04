@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int OnlineSessionPermissionLevel_TypeDefinitionIndex = 41305;
+	inline static constexpr unsigned int OnlineSessionPermissionLevel_TypeDefinitionIndex = 42108;
 
 	enum class OnlineSessionPermissionLevel : ::System::Int32
 	{

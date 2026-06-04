@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightMemberEffect.h"
 
-class Class_1_43B508F64DA705FE;
+class Class_1_6CC143B9599F1FCA;
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::Client { class MonoUIColorSwitcher; }
 namespace System { class Action; }
@@ -12,18 +12,18 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_GET_FOLLOWPATH_OFFSET UNITYSDK_OFFSET(0xA5B0240)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xA5B0280)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA5B0720)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xA5B0780)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_SETUPTRAIT_OFFSET UNITYSDK_OFFSET(0xA5B0600)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xA5B0990)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT___IFIXBASEPROXY_ONCREATE_OFFSET UNITYSDK_OFFSET(0xA5B09A0)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA5B09B0)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_GET_FOLLOWPATH_OFFSET UNITYSDK_OFFSET(0xBC21C90)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xBC21CD0)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBC22160)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xBC221C0)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_SETUPTRAIT_OFFSET UNITYSDK_OFFSET(0xBC22040)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xBC223A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT___IFIXBASEPROXY_ONCREATE_OFFSET UNITYSDK_OFFSET(0xBC223B0)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBC223C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitActiveEffect_TypeDefinitionIndex = 59356;
+	inline static constexpr unsigned int GridFightTraitActiveEffect_TypeDefinitionIndex = 60291;
 
 	class GridFightTraitActiveEffect : public ::RPG::Client::GridFightMemberEffect
 	{
@@ -31,7 +31,7 @@ namespace RPG::Client
 		::System::Single Field_6_0; // 0x38
 		::RPG::Client::MonoUIColorSwitcher* Field_6_1; // 0x40
 		::UnityEngine::UI::Image* Field_6_2; // 0x48
-		::Class_1_43B508F64DA705FE* Field_6_3; // 0x50
+		::Class_1_6CC143B9599F1FCA* Field_6_3; // 0x50
 		::Il2CppArray<::UnityEngine::ParticleSystem*>* Field_6_4; // 0x58
 		::UnityEngine::Animation* Field_6_5; // 0x60
 
@@ -65,9 +65,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_PLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnCreate(::System::Object* P0)
+		::System::Void __iFixBaseProxy_OnCreate(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT___IFIXBASEPROXY_ONCREATE_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT___IFIXBASEPROXY_ONCREATE_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy_OnDestroy()

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ActivityLoginData; }
 
-#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9C1D280)
-#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__GETACTIVITYLOGINDATABYMODULEID_B__0_OFFSET UNITYSDK_OFFSET(0x9C2E850)
+#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1BB270)
+#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__GETACTIVITYLOGINDATABYMODULEID_B__0_OFFSET UNITYSDK_OFFSET(0xB1CD370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityModule___c__DisplayClass22_0_TypeDefinitionIndex = 56891;
+	inline static constexpr unsigned int ActivityModule___c__DisplayClass22_0_TypeDefinitionIndex = 57679;
 
 	class ActivityModule___c__DisplayClass22_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetActivityLoginDataByModuleID_b__0(::RPG::Client::ActivityLoginData* login)
+		::System::Boolean _GetActivityLoginDataByModuleID_b__0(::RPG::Client::ActivityLoginData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityLoginData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__GETACTIVITYLOGINDATABYMODULEID_B__0_OFFSET))(this, login);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityLoginData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__GETACTIVITYLOGINDATABYMODULEID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

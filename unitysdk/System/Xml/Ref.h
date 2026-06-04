@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_REF_EQUAL_OFFSET UNITYSDK_OFFSET(0x19FB1E00)
+#define SYSTEM_XML_REF_EQUAL_OFFSET UNITYSDK_OFFSET(0x1AE26DD0)
 
 namespace System::Xml
 {
@@ -13,9 +13,9 @@ namespace System::Xml
 	class Ref : public ::System::Object
 	{
 	public:
-		static ::System::Boolean Equal(::System::String* strA, ::System::String* strB)
+		static ::System::Boolean Equal(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_REF_EQUAL_OFFSET))(strA, strB);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_REF_EQUAL_OFFSET))(a1, a2);
 		}
 	};
 }

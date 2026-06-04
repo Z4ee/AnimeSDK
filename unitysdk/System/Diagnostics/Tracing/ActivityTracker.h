@@ -9,30 +9,30 @@ namespace System { class String; }
 namespace System::Diagnostics::Tracing { class ActivityTracker_ActivityInfo; }
 namespace System::Threading { template <typename T> class AsyncLocal_1; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ACTIVITYCHANGING_OFFSET UNITYSDK_OFFSET(0x178E33C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ENABLE_OFFSET UNITYSDK_OFFSET(0x178E2BE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_FINDACTIVEACTIVITY_OFFSET UNITYSDK_OFFSET(0x178E2E00)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x178E3390)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_NORMALIZEACTIVITYNAME_OFFSET UNITYSDK_OFFSET(0x178E2C60)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ONSTART_OFFSET UNITYSDK_OFFSET(0x178E2660)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ONSTOP_OFFSET UNITYSDK_OFFSET(0x178E2E80)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x178E37B0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x178E37A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ACTIVITYCHANGING_OFFSET UNITYSDK_OFFSET(0x1869B760)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ENABLE_OFFSET UNITYSDK_OFFSET(0x1869AF60)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_FINDACTIVEACTIVITY_OFFSET UNITYSDK_OFFSET(0x1869B1A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1869B730)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_NORMALIZEACTIVITYNAME_OFFSET UNITYSDK_OFFSET(0x1869B000)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ONSTART_OFFSET UNITYSDK_OFFSET(0x1869A9C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1869B220)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1869BB60)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1869BB50)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ActivityTracker_TypeDefinitionIndex = 1665;
+	inline static constexpr unsigned int ActivityTracker_TypeDefinitionIndex = 1663;
 
 	class ActivityTracker : public ::System::Object
 	{
 	public:
 		static ::System::Diagnostics::Tracing::ActivityTracker** StaticGet_s_activityTrackerInstance()
 		{
-			return (::System::Diagnostics::Tracing::ActivityTracker**)Il2CppClass::FromTypeDefinitionIndex(ActivityTracker_TypeDefinitionIndex)->GetStaticField(0x5CC0);
+			return (::System::Diagnostics::Tracing::ActivityTracker**)Il2CppClass::FromTypeDefinitionIndex(ActivityTracker_TypeDefinitionIndex)->GetStaticField(0x5450);
 		}
 		static ::System::Int64* StaticGet_m_nextId()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(ActivityTracker_TypeDefinitionIndex)->GetStaticField(0x2D50);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(ActivityTracker_TypeDefinitionIndex)->GetStaticField(0x2DB0);
 		}
 		::System::Threading::AsyncLocal_1<::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo*>* m_current; // 0x10
 		::System::Boolean m_checkedForEnable; // 0x18
@@ -47,14 +47,14 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER__CCTOR_OFFSET))();
 		}
 
-		::System::Void OnStart(::System::String* providerName, ::System::String* activityName, ::System::Int32 task, ::System::Guid& activityId, ::System::Guid& relatedActivityId, ::System::Diagnostics::Tracing::EventActivityOptions options)
+		::System::Void OnStart(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Guid& a4, ::System::Guid& a5, ::System::Diagnostics::Tracing::EventActivityOptions a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Guid&, ::System::Guid&, ::System::Diagnostics::Tracing::EventActivityOptions))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ONSTART_OFFSET))(this, providerName, activityName, task, activityId, relatedActivityId, options);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Guid&, ::System::Guid&, ::System::Diagnostics::Tracing::EventActivityOptions))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ONSTART_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void OnStop(::System::String* providerName, ::System::String* activityName, ::System::Int32 task, ::System::Guid& activityId)
+		::System::Void OnStop(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Guid& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Guid&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ONSTOP_OFFSET))(this, providerName, activityName, task, activityId);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Guid&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ONSTOP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Enable()
@@ -67,19 +67,19 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Diagnostics::Tracing::ActivityTracker*(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_GET_INSTANCE_OFFSET))();
 		}
 
-		::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo* FindActiveActivity(::System::String* name, ::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo* startLocation)
+		::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo* FindActiveActivity(::System::String* a1, ::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo* a2)
 		{
-			return ((::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo*(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_FINDACTIVEACTIVITY_OFFSET))(this, name, startLocation);
+			return ((::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo*(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_FINDACTIVEACTIVITY_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* NormalizeActivityName(::System::String* providerName, ::System::String* activityName, ::System::Int32 task)
+		::System::String* NormalizeActivityName(::System::String* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_NORMALIZEACTIVITYNAME_OFFSET))(this, providerName, activityName, task);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_NORMALIZEACTIVITYNAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ActivityChanging(::System::Threading::AsyncLocalValueChangedArgs_1<::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo*> args)
+		::System::Void ActivityChanging(::System::Threading::AsyncLocalValueChangedArgs_1<::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::AsyncLocalValueChangedArgs_1<::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo*>))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ACTIVITYCHANGING_OFFSET))(this, args);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::AsyncLocalValueChangedArgs_1<::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo*>))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYTRACKER_ACTIVITYCHANGING_OFFSET))(this, a1);
 		}
 	};
 }

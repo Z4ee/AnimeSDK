@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELENTITYREF_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A40F30)
-#define RPG_GAMECORE_LEVELENTITYREF__CTOR_OFFSET UNITYSDK_OFFSET(0x18A41020)
+#define RPG_GAMECORE_LEVELENTITYREF_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19872C00)
+#define RPG_GAMECORE_LEVELENTITYREF__CTOR_OFFSET UNITYSDK_OFFSET(0x19872CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityRef_TypeDefinitionIndex = 17942;
+	inline static constexpr unsigned int LevelEntityRef_TypeDefinitionIndex = 17969;
 
 	class LevelEntityRef : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYREF__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelEntityRef*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelEntityRef*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelEntityRef*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYREF_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelEntityRef*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYREF_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

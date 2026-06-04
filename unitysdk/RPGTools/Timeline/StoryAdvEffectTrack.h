@@ -7,17 +7,17 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB917720)
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB917500)
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xB9176B0)
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB917850)
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB917910)
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB917860)
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xB917900)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD057D40)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD057B50)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD057CD0)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD057EB0)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD057F70)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD057EC0)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD057F60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryAdvEffectTrack_TypeDefinitionIndex = 45052;
+	inline static constexpr unsigned int StoryAdvEffectTrack_TypeDefinitionIndex = 45600;
 
 	class StoryAdvEffectTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -42,19 +42,19 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* P0)
+		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::UnityEngine::Timeline::TimelineClip* P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

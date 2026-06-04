@@ -14,55 +14,55 @@ namespace UnityEngine::UI { class RawImage; }
 namespace UnityEngine::UI { class Text; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define TAPTAP_SDK_QRCODEWINDOW_AUTOCHECK_OFFSET UNITYSDK_OFFSET(0x1A1C0850)
-#define TAPTAP_SDK_QRCODEWINDOW_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A1BE200)
-#define TAPTAP_SDK_QRCODEWINDOW_CHECK_OFFSET UNITYSDK_OFFSET(0x1A1C0150)
-#define TAPTAP_SDK_QRCODEWINDOW_CLOSE_OFFSET UNITYSDK_OFFSET(0x1A1BF200)
-#define TAPTAP_SDK_QRCODEWINDOW_DELETEWHITE_OFFSET UNITYSDK_OFFSET(0x1A1C0550)
-#define TAPTAP_SDK_QRCODEWINDOW_ENCODEQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1A1C0160)
-#define TAPTAP_SDK_QRCODEWINDOW_GETAUTHORIZATIONHEADER_OFFSET UNITYSDK_OFFSET(0x1A1BF550)
-#define TAPTAP_SDK_QRCODEWINDOW_GETCODE_OFFSET UNITYSDK_OFFSET(0x1A1BEDF0)
-#define TAPTAP_SDK_QRCODEWINDOW_GETPROFILE_OFFSET UNITYSDK_OFFSET(0x1A1BF3C0)
-#define TAPTAP_SDK_QRCODEWINDOW_GET_EXTRA_OFFSET UNITYSDK_OFFSET(0x1A1BE120)
-#define TAPTAP_SDK_QRCODEWINDOW_GOTOTAPTAPPAGE_OFFSET UNITYSDK_OFFSET(0x1A1BF2D0)
-#define TAPTAP_SDK_QRCODEWINDOW_ONENTER_OFFSET UNITYSDK_OFFSET(0x1A1BECE0)
-#define TAPTAP_SDK_QRCODEWINDOW_ONEXIT_OFFSET UNITYSDK_OFFSET(0x1A1BF190)
-#define TAPTAP_SDK_QRCODEWINDOW_REFRESHCODE_OFFSET UNITYSDK_OFFSET(0x1A1BF320)
-#define TAPTAP_SDK_QRCODEWINDOW_SET_EXTRA_OFFSET UNITYSDK_OFFSET(0x1A1BE130)
-#define TAPTAP_SDK_QRCODEWINDOW_STARTCHECK_OFFSET UNITYSDK_OFFSET(0x1A1C07D0)
-#define TAPTAP_SDK_QRCODEWINDOW_STOPCHECK_OFFSET UNITYSDK_OFFSET(0x1A1C0810)
-#define TAPTAP_SDK_QRCODEWINDOW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A1BECD0)
-#define TAPTAP_SDK_QRCODEWINDOW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1C08D0)
-#define TAPTAP_SDK_QRCODEWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C08B0)
-#define TAPTAP_SDK_QRCODEWINDOW__GETCODE_B__32_0_OFFSET UNITYSDK_OFFSET(0x1A1C0950)
-#define TAPTAP_SDK_QRCODEWINDOW__GETCODE_B__32_1_OFFSET UNITYSDK_OFFSET(0x1A1C1140)
+#define TAPTAP_SDK_QRCODEWINDOW_AUTOCHECK_OFFSET UNITYSDK_OFFSET(0x1B024820)
+#define TAPTAP_SDK_QRCODEWINDOW_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B022250)
+#define TAPTAP_SDK_QRCODEWINDOW_CHECK_OFFSET UNITYSDK_OFFSET(0x1B024150)
+#define TAPTAP_SDK_QRCODEWINDOW_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B023290)
+#define TAPTAP_SDK_QRCODEWINDOW_DELETEWHITE_OFFSET UNITYSDK_OFFSET(0x1B024570)
+#define TAPTAP_SDK_QRCODEWINDOW_ENCODEQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1B024160)
+#define TAPTAP_SDK_QRCODEWINDOW_GETAUTHORIZATIONHEADER_OFFSET UNITYSDK_OFFSET(0x1B023600)
+#define TAPTAP_SDK_QRCODEWINDOW_GETCODE_OFFSET UNITYSDK_OFFSET(0x1B022E50)
+#define TAPTAP_SDK_QRCODEWINDOW_GETPROFILE_OFFSET UNITYSDK_OFFSET(0x1B023450)
+#define TAPTAP_SDK_QRCODEWINDOW_GET_EXTRA_OFFSET UNITYSDK_OFFSET(0x1B0220F0)
+#define TAPTAP_SDK_QRCODEWINDOW_GOTOTAPTAPPAGE_OFFSET UNITYSDK_OFFSET(0x1B023360)
+#define TAPTAP_SDK_QRCODEWINDOW_ONENTER_OFFSET UNITYSDK_OFFSET(0x1B022D50)
+#define TAPTAP_SDK_QRCODEWINDOW_ONEXIT_OFFSET UNITYSDK_OFFSET(0x1B023220)
+#define TAPTAP_SDK_QRCODEWINDOW_REFRESHCODE_OFFSET UNITYSDK_OFFSET(0x1B0233B0)
+#define TAPTAP_SDK_QRCODEWINDOW_SET_EXTRA_OFFSET UNITYSDK_OFFSET(0x1B022100)
+#define TAPTAP_SDK_QRCODEWINDOW_STARTCHECK_OFFSET UNITYSDK_OFFSET(0x1B0247A0)
+#define TAPTAP_SDK_QRCODEWINDOW_STOPCHECK_OFFSET UNITYSDK_OFFSET(0x1B0247E0)
+#define TAPTAP_SDK_QRCODEWINDOW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B022D40)
+#define TAPTAP_SDK_QRCODEWINDOW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0248A0)
+#define TAPTAP_SDK_QRCODEWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B024880)
+#define TAPTAP_SDK_QRCODEWINDOW__GETCODE_B__32_0_OFFSET UNITYSDK_OFFSET(0x1B024920)
+#define TAPTAP_SDK_QRCODEWINDOW__GETCODE_B__32_1_OFFSET UNITYSDK_OFFSET(0x1B025310)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int QRCodeWindow_TypeDefinitionIndex = 6439;
+	inline static constexpr unsigned int QRCodeWindow_TypeDefinitionIndex = 7055;
 
 	class QRCodeWindow : public ::TapTap::Sdk::UIElement
 	{
 	public:
-		static ::System::String** StaticGet_TEXT_PLEASE_RESCRAN()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(QRCodeWindow_TypeDefinitionIndex)->GetStaticField(0x510);
-		}
 		static ::System::String** StaticGet_TEXT_CONFIRM_ON_PHONE()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(QRCodeWindow_TypeDefinitionIndex)->GetStaticField(0x518);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(QRCodeWindow_TypeDefinitionIndex)->GetStaticField(0x580);
 		}
 		static ::System::String** StaticGet_TEXT_SCAN_SUCCESS()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(QRCodeWindow_TypeDefinitionIndex)->GetStaticField(0x520);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(QRCodeWindow_TypeDefinitionIndex)->GetStaticField(0x588);
 		}
-		static ::System::String** StaticGet_TEXT_CANCEL_LOGIN()
+		static ::System::String** StaticGet_TEXT_PLEASE_RESCRAN()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(QRCodeWindow_TypeDefinitionIndex)->GetStaticField(0x528);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(QRCodeWindow_TypeDefinitionIndex)->GetStaticField(0x590);
 		}
 		static ::System::String** StaticGet_TEXT_CLICK_TO_REFRESH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(QRCodeWindow_TypeDefinitionIndex)->GetStaticField(0x530);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(QRCodeWindow_TypeDefinitionIndex)->GetStaticField(0x598);
+		}
+		static ::System::String** StaticGet_TEXT_CANCEL_LOGIN()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(QRCodeWindow_TypeDefinitionIndex)->GetStaticField(0x5A0);
 		}
 		::UnityEngine::UI::RawImage* QRCodeRawImage; // 0x38
 		::UnityEngine::UI::Text* StatusText; // 0x40
@@ -95,9 +95,9 @@ namespace TapTap::Sdk
 			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_GET_EXTRA_OFFSET))(this);
 		}
 
-		::System::Void set_Extra(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* value)
+		::System::Void set_Extra(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_SET_EXTRA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_SET_EXTRA_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()
@@ -135,14 +135,14 @@ namespace TapTap::Sdk
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_REFRESHCODE_OFFSET))(this);
 		}
 
-		::System::Void GetProfile(::TapTap::Sdk::AccessToken* accessToken)
+		::System::Void GetProfile(::TapTap::Sdk::AccessToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::AccessToken*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_GETPROFILE_OFFSET))(this, accessToken);
+			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::AccessToken*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_GETPROFILE_OFFSET))(this, a1);
 		}
 
-		::System::String* GetAuthorizationHeader(::System::String* kid, ::System::String* macKey, ::System::String* macAlgorithm, ::System::String* method, ::System::String* uri, ::System::String* host, ::System::String* port)
+		::System::String* GetAuthorizationHeader(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::String* a7)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_GETAUTHORIZATIONHEADER_OFFSET))(this, kid, macKey, macAlgorithm, method, uri, host, port);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_GETAUTHORIZATIONHEADER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void GetCode()
@@ -155,14 +155,14 @@ namespace TapTap::Sdk
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_CHECK_OFFSET))(this);
 		}
 
-		::System::Void EncodeQRImage(::System::String* content, ::System::Int32 width, ::System::Int32 height)
+		::System::Void EncodeQRImage(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_ENCODEQRIMAGE_OFFSET))(this, content, width, height);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_ENCODEQRIMAGE_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::ZXing::Common::BitMatrix* DeleteWhite(::ZXing::Common::BitMatrix* matrix)
+		static ::ZXing::Common::BitMatrix* DeleteWhite(::ZXing::Common::BitMatrix* a1)
 		{
-			return ((::ZXing::Common::BitMatrix*(*)(::ZXing::Common::BitMatrix*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_DELETEWHITE_OFFSET))(matrix);
+			return ((::ZXing::Common::BitMatrix*(*)(::ZXing::Common::BitMatrix*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_DELETEWHITE_OFFSET))(a1);
 		}
 
 		::System::Void StartCheck()
@@ -180,14 +180,14 @@ namespace TapTap::Sdk
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW_AUTOCHECK_OFFSET))(this);
 		}
 
-		::System::Void _GetCode_b__32_0(::System::String* result)
+		::System::Void _GetCode_b__32_0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW__GETCODE_B__32_0_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW__GETCODE_B__32_0_OFFSET))(this, a1);
 		}
 
-		::System::Void _GetCode_b__32_1(::System::Int32 error, ::System::String* msg)
+		::System::Void _GetCode_b__32_1(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW__GETCODE_B__32_1_OFFSET))(this, error, msg);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_QRCODEWINDOW__GETCODE_B__32_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

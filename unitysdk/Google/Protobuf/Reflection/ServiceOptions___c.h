@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class ServiceOptions; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1711DC30)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1711DC70)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1711DC80)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E7DD40)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17E7DD80)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEOPTIONS___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x17E7DD90)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ServiceOptions___c_TypeDefinitionIndex = 6303;
+	inline static constexpr unsigned int ServiceOptions___c_TypeDefinitionIndex = 5505;
 
 	class ServiceOptions___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::ServiceOptions___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::ServiceOptions___c**)Il2CppClass::FromTypeDefinitionIndex(ServiceOptions___c_TypeDefinitionIndex)->GetStaticField(0x41F0);
+			return (::Google::Protobuf::Reflection::ServiceOptions___c**)Il2CppClass::FromTypeDefinitionIndex(ServiceOptions___c_TypeDefinitionIndex)->GetStaticField(0x42290);
 		}
 
 		static ::System::Void _cctor()

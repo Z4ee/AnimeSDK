@@ -7,35 +7,35 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_DETAILPROTOTYPE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A4F4C60)
-#define UNITYENGINE_DETAILPROTOTYPE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A4F4C00)
-#define UNITYENGINE_DETAILPROTOTYPE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A4F4E70)
-#define UNITYENGINE_DETAILPROTOTYPE_GET_BENDFACTOR_OFFSET UNITYSDK_OFFSET(0x1A4F4B20)
-#define UNITYENGINE_DETAILPROTOTYPE_GET_DRYCOLOR_OFFSET UNITYSDK_OFFSET(0x1A4F4B60)
-#define UNITYENGINE_DETAILPROTOTYPE_GET_HEALTHYCOLOR_OFFSET UNITYSDK_OFFSET(0x1A4F4B40)
-#define UNITYENGINE_DETAILPROTOTYPE_GET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x1A4F4AE0)
-#define UNITYENGINE_DETAILPROTOTYPE_GET_MAXWIDTH_OFFSET UNITYSDK_OFFSET(0x1A4F4AA0)
-#define UNITYENGINE_DETAILPROTOTYPE_GET_MINHEIGHT_OFFSET UNITYSDK_OFFSET(0x1A4F4AC0)
-#define UNITYENGINE_DETAILPROTOTYPE_GET_MINWIDTH_OFFSET UNITYSDK_OFFSET(0x1A4F4A80)
-#define UNITYENGINE_DETAILPROTOTYPE_GET_NOISESPREAD_OFFSET UNITYSDK_OFFSET(0x1A4F4B00)
-#define UNITYENGINE_DETAILPROTOTYPE_GET_RENDERMODE_OFFSET UNITYSDK_OFFSET(0x1A4F4B80)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_BENDFACTOR_OFFSET UNITYSDK_OFFSET(0x1A4F4B30)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_DRYCOLOR_OFFSET UNITYSDK_OFFSET(0x1A4F4B70)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_HEALTHYCOLOR_OFFSET UNITYSDK_OFFSET(0x1A4F4B50)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x1A4F4AF0)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_MAXWIDTH_OFFSET UNITYSDK_OFFSET(0x1A4F4AB0)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_MINHEIGHT_OFFSET UNITYSDK_OFFSET(0x1A4F4AD0)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_MINWIDTH_OFFSET UNITYSDK_OFFSET(0x1A4F4A90)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_NOISESPREAD_OFFSET UNITYSDK_OFFSET(0x1A4F4B10)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_PROTOTYPETEXTURE_OFFSET UNITYSDK_OFFSET(0x1A4F4A70)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_PROTOTYPE_OFFSET UNITYSDK_OFFSET(0x1A4F4A60)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_RENDERMODE_OFFSET UNITYSDK_OFFSET(0x1A4F4B90)
-#define UNITYENGINE_DETAILPROTOTYPE_SET_USEPROTOTYPEMESH_OFFSET UNITYSDK_OFFSET(0x1A4F4BA0)
-#define UNITYENGINE_DETAILPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F4BC0)
+#define UNITYENGINE_DETAILPROTOTYPE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B341BE0)
+#define UNITYENGINE_DETAILPROTOTYPE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B341B80)
+#define UNITYENGINE_DETAILPROTOTYPE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B341DF0)
+#define UNITYENGINE_DETAILPROTOTYPE_GET_BENDFACTOR_OFFSET UNITYSDK_OFFSET(0x1B341AA0)
+#define UNITYENGINE_DETAILPROTOTYPE_GET_DRYCOLOR_OFFSET UNITYSDK_OFFSET(0x1B341AE0)
+#define UNITYENGINE_DETAILPROTOTYPE_GET_HEALTHYCOLOR_OFFSET UNITYSDK_OFFSET(0x1B341AC0)
+#define UNITYENGINE_DETAILPROTOTYPE_GET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B341A60)
+#define UNITYENGINE_DETAILPROTOTYPE_GET_MAXWIDTH_OFFSET UNITYSDK_OFFSET(0x1B341A20)
+#define UNITYENGINE_DETAILPROTOTYPE_GET_MINHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B341A40)
+#define UNITYENGINE_DETAILPROTOTYPE_GET_MINWIDTH_OFFSET UNITYSDK_OFFSET(0x1B341A00)
+#define UNITYENGINE_DETAILPROTOTYPE_GET_NOISESPREAD_OFFSET UNITYSDK_OFFSET(0x1B341A80)
+#define UNITYENGINE_DETAILPROTOTYPE_GET_RENDERMODE_OFFSET UNITYSDK_OFFSET(0x1B341B00)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_BENDFACTOR_OFFSET UNITYSDK_OFFSET(0x1B341AB0)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_DRYCOLOR_OFFSET UNITYSDK_OFFSET(0x1B341AF0)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_HEALTHYCOLOR_OFFSET UNITYSDK_OFFSET(0x1B341AD0)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_MAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B341A70)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_MAXWIDTH_OFFSET UNITYSDK_OFFSET(0x1B341A30)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_MINHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B341A50)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_MINWIDTH_OFFSET UNITYSDK_OFFSET(0x1B341A10)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_NOISESPREAD_OFFSET UNITYSDK_OFFSET(0x1B341A90)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_PROTOTYPETEXTURE_OFFSET UNITYSDK_OFFSET(0x1B3419F0)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_PROTOTYPE_OFFSET UNITYSDK_OFFSET(0x1B3419E0)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_RENDERMODE_OFFSET UNITYSDK_OFFSET(0x1B341B10)
+#define UNITYENGINE_DETAILPROTOTYPE_SET_USEPROTOTYPEMESH_OFFSET UNITYSDK_OFFSET(0x1B341B20)
+#define UNITYENGINE_DETAILPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B341B40)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DetailPrototype_TypeDefinitionIndex = 5243;
+	inline static constexpr unsigned int DetailPrototype_TypeDefinitionIndex = 5319;
 
 	class DetailPrototype : public ::System::Object
 	{
@@ -58,14 +58,14 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_prototype(::UnityEngine::GameObject* value)
+		::System::Void set_prototype(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_PROTOTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_PROTOTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_prototypeTexture(::UnityEngine::Texture2D* value)
+		::System::Void set_prototypeTexture(::UnityEngine::Texture2D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_PROTOTYPETEXTURE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_PROTOTYPETEXTURE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_minWidth()
@@ -73,9 +73,9 @@ namespace UnityEngine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_GET_MINWIDTH_OFFSET))(this);
 		}
 
-		::System::Void set_minWidth(::System::Single value)
+		::System::Void set_minWidth(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_MINWIDTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_MINWIDTH_OFFSET))(this, a1);
 		}
 
 		::System::Single get_maxWidth()
@@ -83,9 +83,9 @@ namespace UnityEngine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_GET_MAXWIDTH_OFFSET))(this);
 		}
 
-		::System::Void set_maxWidth(::System::Single value)
+		::System::Void set_maxWidth(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_MAXWIDTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_MAXWIDTH_OFFSET))(this, a1);
 		}
 
 		::System::Single get_minHeight()
@@ -93,9 +93,9 @@ namespace UnityEngine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_GET_MINHEIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_minHeight(::System::Single value)
+		::System::Void set_minHeight(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_MINHEIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_MINHEIGHT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_maxHeight()
@@ -103,9 +103,9 @@ namespace UnityEngine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_GET_MAXHEIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_maxHeight(::System::Single value)
+		::System::Void set_maxHeight(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_MAXHEIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_MAXHEIGHT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_noiseSpread()
@@ -113,9 +113,9 @@ namespace UnityEngine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_GET_NOISESPREAD_OFFSET))(this);
 		}
 
-		::System::Void set_noiseSpread(::System::Single value)
+		::System::Void set_noiseSpread(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_NOISESPREAD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_NOISESPREAD_OFFSET))(this, a1);
 		}
 
 		::System::Single get_bendFactor()
@@ -123,9 +123,9 @@ namespace UnityEngine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_GET_BENDFACTOR_OFFSET))(this);
 		}
 
-		::System::Void set_bendFactor(::System::Single value)
+		::System::Void set_bendFactor(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_BENDFACTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_BENDFACTOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Color get_healthyColor()
@@ -133,9 +133,9 @@ namespace UnityEngine
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_GET_HEALTHYCOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_healthyColor(::UnityEngine::Color value)
+		::System::Void set_healthyColor(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_HEALTHYCOLOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_HEALTHYCOLOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Color get_dryColor()
@@ -143,9 +143,9 @@ namespace UnityEngine
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_GET_DRYCOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_dryColor(::UnityEngine::Color value)
+		::System::Void set_dryColor(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_DRYCOLOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_DRYCOLOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::DetailRenderMode get_renderMode()
@@ -153,19 +153,19 @@ namespace UnityEngine
 			return ((::UnityEngine::DetailRenderMode(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_GET_RENDERMODE_OFFSET))(this);
 		}
 
-		::System::Void set_renderMode(::UnityEngine::DetailRenderMode value)
+		::System::Void set_renderMode(::UnityEngine::DetailRenderMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::DetailRenderMode))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_RENDERMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::DetailRenderMode))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_RENDERMODE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_usePrototypeMesh(::System::Boolean value)
+		::System::Void set_usePrototypeMesh(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_USEPROTOTYPEMESH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_SET_USEPROTOTYPEMESH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -173,9 +173,9 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals_1(::UnityEngine::DetailPrototype* other)
+		::System::Boolean Equals_1(::UnityEngine::DetailPrototype* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::DetailPrototype*))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::DetailPrototype*))((::PBYTE)hIl2Cpp + UNITYENGINE_DETAILPROTOTYPE_EQUALS_1_OFFSET))(this, a1);
 		}
 	};
 }

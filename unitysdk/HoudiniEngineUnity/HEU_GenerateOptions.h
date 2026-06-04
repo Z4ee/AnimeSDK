@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GenerateOptions_TypeDefinitionIndex = 43656;
+	inline static constexpr unsigned int HEU_GenerateOptions_TypeDefinitionIndex = 37632;
 
 	struct alignas(1) HEU_GenerateOptions
 	{

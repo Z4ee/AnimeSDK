@@ -6,11 +6,11 @@ namespace RPG::GameCore { class EraRegion; }
 namespace RPG::GameCore { class InitEraFlipperRegion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F79ECF695379FE72_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x117B54C0)
-#define CLASS_3_F79ECF695379FE72__CTOR_OFFSET UNITYSDK_OFFSET(0x117B5490)
-#define CLASS_3_F79ECF695379FE72__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x117B5740)
+#define CLASS_3_F79ECF695379FE72_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA4418D0)
+#define CLASS_3_F79ECF695379FE72__CTOR_OFFSET UNITYSDK_OFFSET(0xA4418A0)
+#define CLASS_3_F79ECF695379FE72__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xA441B60)
 
-inline static constexpr unsigned int Class_3_F79ECF695379FE72_TypeDefinitionIndex = 48696;
+inline static constexpr unsigned int Class_3_F79ECF695379FE72_TypeDefinitionIndex = 49361;
 
 class Class_3_F79ECF695379FE72 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InitEraFlipperRegion*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_F79ECF695379FE72_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Boolean _OnTaskBegin_b__1_0(::RPG::GameCore::EraRegion* x)
+	::System::Boolean _OnTaskBegin_b__1_0(::RPG::GameCore::EraRegion* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::EraRegion*))((::PBYTE)hIl2Cpp + CLASS_3_F79ECF695379FE72__ONTASKBEGIN_B__1_0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::EraRegion*))((::PBYTE)hIl2Cpp + CLASS_3_F79ECF695379FE72__ONTASKBEGIN_B__1_0_OFFSET))(this, a1);
 	}
 };

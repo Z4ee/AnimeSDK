@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FadeOutLerpType_TypeDefinitionIndex = 64581;
+	inline static constexpr unsigned int FadeOutLerpType_TypeDefinitionIndex = 65502;
 
 	enum class FadeOutLerpType : ::System::Int32
 	{

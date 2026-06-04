@@ -1,0 +1,89 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+
+class Class_1_2FDE33CCAE591AA8;
+class Class_1_50AC12A2F890597C;
+namespace RPG::Client::ChenLingFes { class ChenLingFesBuffItemViewModel; }
+namespace Sofa::Core { template <typename T> class ObservableList_1; }
+
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xB5E3430)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_GET_BUFFITEMS_OFFSET UNITYSDK_OFFSET(0xB5E4390)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_GET_CLOSECOMMAND_OFFSET UNITYSDK_OFFSET(0xB5E4370)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xB5E43A0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_REFRESHBUFFDATA_OFFSET UNITYSDK_OFFSET(0xB5E3720)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_SET_CLOSECOMMAND_OFFSET UNITYSDK_OFFSET(0xB5E4380)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_SET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xB5E3C90)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL__CONVERTPARAMLIST_OFFSET UNITYSDK_OFFSET(0xB5E3FE0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB5E3590)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL__INIT_OFFSET UNITYSDK_OFFSET(0xB5E3650)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL__ONCLOSE_OFFSET UNITYSDK_OFFSET(0xB5E3C00)
+
+namespace RPG::Client::ChenLingFes
+{
+	inline static constexpr unsigned int ChenLingFesBuffDetailViewModel_TypeDefinitionIndex = 74024;
+
+	class ChenLingFesBuffDetailViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::Sofa::Core::ObservableList_1<::RPG::Client::ChenLingFes::ChenLingFesBuffItemViewModel*>* _BuffItems_k__BackingField; // 0x20
+		::Class_1_2FDE33CCAE591AA8* _CloseCommand_k__BackingField; // 0x28
+		::Class_1_50AC12A2F890597C* _GameplayBridge; // 0x30
+		::System::Boolean _IsShow; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ChenLingFes::ChenLingFesBuffDetailViewModel* Create(::Class_1_50AC12A2F890597C* a1)
+		{
+			return ((::RPG::Client::ChenLingFes::ChenLingFesBuffDetailViewModel*(*)(::Class_1_50AC12A2F890597C*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_CREATE_OFFSET))(a1);
+		}
+
+		::System::Void _Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL__INIT_OFFSET))(this);
+		}
+
+		::System::Void _OnClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL__ONCLOSE_OFFSET))(this);
+		}
+
+		::System::Void RefreshBuffData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_REFRESHBUFFDATA_OFFSET))(this);
+		}
+
+		static ::Il2CppArray<::System::Int32>* _ConvertParamList(::Il2CppArray<::System::UInt32>* a1)
+		{
+			return ((::Il2CppArray<::System::Int32>*(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL__CONVERTPARAMLIST_OFFSET))(a1);
+		}
+
+		::Class_1_2FDE33CCAE591AA8* get_CloseCommand()
+		{
+			return ((::Class_1_2FDE33CCAE591AA8*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_GET_CLOSECOMMAND_OFFSET))(this);
+		}
+
+		::System::Void set_CloseCommand(::Class_1_2FDE33CCAE591AA8* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_2FDE33CCAE591AA8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_SET_CLOSECOMMAND_OFFSET))(this, a1);
+		}
+
+		::Sofa::Core::ObservableList_1<::RPG::Client::ChenLingFes::ChenLingFesBuffItemViewModel*>* get_BuffItems()
+		{
+			return ((::Sofa::Core::ObservableList_1<::RPG::Client::ChenLingFes::ChenLingFesBuffItemViewModel*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_GET_BUFFITEMS_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsShow()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_GET_ISSHOW_OFFSET))(this);
+		}
+
+		::System::Void set_IsShow(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFDETAILVIEWMODEL_SET_ISSHOW_OFFSET))(this, a1);
+		}
+	};
+}

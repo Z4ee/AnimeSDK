@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingEffectType_TypeDefinitionIndex = 10555;
+	inline static constexpr unsigned int ChenLingEffectType_TypeDefinitionIndex = 10593;
 
 	enum class ChenLingEffectType : ::System::Int32
 	{

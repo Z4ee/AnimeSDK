@@ -4,20 +4,20 @@
 
 namespace Proto { class DialogSnapshot; }
 
-#define PROTO_DIALOGSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19332510)
-#define PROTO_DIALOGSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19332550)
-#define PROTO_DIALOGSNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x19332560)
+#define PROTO_DIALOGSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0E55C0)
+#define PROTO_DIALOGSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E5600)
+#define PROTO_DIALOGSNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A0E5610)
 
 namespace Proto
 {
-	inline static constexpr unsigned int DialogSnapshot___c_TypeDefinitionIndex = 24556;
+	inline static constexpr unsigned int DialogSnapshot___c_TypeDefinitionIndex = 24417;
 
 	class DialogSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::Proto::DialogSnapshot___c** StaticGet___9()
 		{
-			return (::Proto::DialogSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(DialogSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x63260);
+			return (::Proto::DialogSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(DialogSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x42BE0);
 		}
 
 		static ::System::Void _cctor()

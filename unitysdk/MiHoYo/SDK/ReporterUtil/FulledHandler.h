@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8DA96D0)
-#define MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8DA9700)
-#define MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x8DA9180)
-#define MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x8DA9160)
+#define MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA1F8E80)
+#define MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA1F8EB0)
+#define MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xA1F8E70)
+#define MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA1F8D80)
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int FulledHandler_TypeDefinitionIndex = 43207;
+	inline static constexpr unsigned int FulledHandler_TypeDefinitionIndex = 44010;
 
 	class FulledHandler : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::ReporterUtil::ReporterDataSequence* sender)
+		::System::Void Invoke(::MiHoYo::SDK::ReporterUtil::ReporterDataSequence* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterDataSequence*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_INVOKE_OFFSET))(this, sender);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterDataSequence*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::ReporterUtil::ReporterDataSequence* sender, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::ReporterUtil::ReporterDataSequence* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterDataSequence*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_BEGININVOKE_OFFSET))(this, sender, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterDataSequence*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_FULLEDHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_FIVEDIMTRAINENERGYGEAR_METHOD_2_E6126DFFB01380BA_OFFSET UNITYSDK_OFFSET(0x18922420)
-#define RPG_GAMECORE_FIVEDIMTRAINENERGYGEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x189225A0)
+#define RPG_GAMECORE_FIVEDIMTRAINENERGYGEAR_METHOD_2_E6126DFFB01380BA_OFFSET UNITYSDK_OFFSET(0x1975C030)
+#define RPG_GAMECORE_FIVEDIMTRAINENERGYGEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1975C1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTrainEnergyGear_TypeDefinitionIndex = 20358;
+	inline static constexpr unsigned int FiveDimTrainEnergyGear_TypeDefinitionIndex = 20278;
 
 	class FiveDimTrainEnergyGear : public ::RPG::GameCore::JsonConfig
 	{

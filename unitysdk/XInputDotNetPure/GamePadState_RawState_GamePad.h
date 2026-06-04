@@ -4,7 +4,7 @@
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadState_RawState_GamePad_TypeDefinitionIndex = 37092;
+	inline static constexpr unsigned int GamePadState_RawState_GamePad_TypeDefinitionIndex = 37824;
 
 	struct alignas(2) GamePadState_RawState_GamePad
 	{

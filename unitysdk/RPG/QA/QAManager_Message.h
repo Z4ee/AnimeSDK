@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define RPG_QA_QAMANAGER_MESSAGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE2EE0)
-#define RPG_QA_QAMANAGER_MESSAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xE2EC0)
-#define RPG_QA_QAMANAGER_MESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xE2EA0)
+#define RPG_QA_QAMANAGER_MESSAGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1486E0)
+#define RPG_QA_QAMANAGER_MESSAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1486C0)
+#define RPG_QA_QAMANAGER_MESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1486A0)
 
 namespace RPG::QA
 {
-	inline static constexpr unsigned int QAManager_Message_TypeDefinitionIndex = 47831;
+	inline static constexpr unsigned int QAManager_Message_TypeDefinitionIndex = 48446;
 
 	struct alignas(8) QAManager_Message
 	{
@@ -19,14 +19,14 @@ namespace RPG::QA
 		::System::String* Detail; // 0x20
 		::System::String* ScreenCapture; // 0x28
 
-		::System::Void _ctor(::System::String* type, ::System::String* title, ::System::String* detail)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_MESSAGE__CTOR_OFFSET))(this, type, title, detail);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_MESSAGE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ctor_1(::System::String* type, ::System::String* title, ::System::String* detail, ::System::String* screenCapture)
+		::System::Void _ctor_1(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_MESSAGE__CTOR_1_OFFSET))(this, type, title, detail, screenCapture);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_MESSAGE__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 GetHashCode()

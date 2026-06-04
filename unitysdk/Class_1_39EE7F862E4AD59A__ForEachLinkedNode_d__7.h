@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_A143022D1701BC76.h"
+#include "unitysdk/System/Collections/Generic/List_1_Enumerator.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_39EE7F862E4AD59A;
+class Class_1_6A275AF5305C7AE3;
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA97F1A0)
+#define CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPGTOOLS_OCTREE_GENERATION_OCTREENODEPTR__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xA97F500)
+#define CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPGTOOLS_OCTREE_GENERATION_OCTREENODEPTR__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA97F450)
+#define CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xA97F580)
+#define CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA97F4B0)
+#define CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xA97F460)
+#define CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA97F180)
+#define CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7__CTOR_OFFSET UNITYSDK_OFFSET(0xA97F080)
+#define CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xA97F190)
+
+inline static constexpr unsigned int Class_1_39EE7F862E4AD59A__ForEachLinkedNode_d__7_TypeDefinitionIndex = 46128;
+
+class Class_1_39EE7F862E4AD59A__ForEachLinkedNode_d__7 : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1_Enumerator<::Class_1_6A275AF5305C7AE3*> __7__wrap1; // 0x10
+	::Struct_2_A143022D1701BC76 __2__current; // 0x28
+	::Struct_2_A143022D1701BC76 node; // 0x38
+	::Class_1_39EE7F862E4AD59A* __4__this; // 0x48
+	::Struct_2_A143022D1701BC76 __3__node; // 0x50
+	::System::Int32 __l__initialThreadId; // 0x60
+	::System::Int32 __1__state; // 0x64
+
+	::System::Void _ctor(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Void __m__Finally1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7___M__FINALLY1_OFFSET))(this);
+	}
+
+	::Struct_2_A143022D1701BC76 System_Collections_Generic_IEnumerator_RPGTools_Octree_Generation_OctreeNodePtr__get_Current()
+	{
+		return ((::Struct_2_A143022D1701BC76(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPGTOOLS_OCTREE_GENERATION_OCTREENODEPTR__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerator_1<::Struct_2_A143022D1701BC76>* System_Collections_Generic_IEnumerable_RPGTools_Octree_Generation_OctreeNodePtr__GetEnumerator()
+	{
+		return ((::System::Collections::Generic::IEnumerator_1<::Struct_2_A143022D1701BC76>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPGTOOLS_OCTREE_GENERATION_OCTREENODEPTR__GETENUMERATOR_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+	{
+		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_39EE7F862E4AD59A__FOREACHLINKEDNODE_D__7_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+	}
+};

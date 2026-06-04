@@ -5,12 +5,12 @@
 namespace RPG::Client { class RogueWorkBenchFuncItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCCOLLECTION___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB127B70)
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCCOLLECTION___C__DISPLAYCLASS9_0___SORTITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xB127C80)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCCOLLECTION___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC87BCB0)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCCOLLECTION___C__DISPLAYCLASS9_0___SORTITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xC87BDC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueWorkBenchFuncCollection___c__DisplayClass9_0_TypeDefinitionIndex = 62044;
+	inline static constexpr unsigned int RogueWorkBenchFuncCollection___c__DisplayClass9_0_TypeDefinitionIndex = 62977;
 
 	class RogueWorkBenchFuncCollection___c__DisplayClass9_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCCOLLECTION___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __SortItems_b__0(::RPG::Client::RogueWorkBenchFuncItem* a, ::RPG::Client::RogueWorkBenchFuncItem* b)
+		::System::Int32 __SortItems_b__0(::RPG::Client::RogueWorkBenchFuncItem* a1, ::RPG::Client::RogueWorkBenchFuncItem* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RogueWorkBenchFuncItem*, ::RPG::Client::RogueWorkBenchFuncItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCCOLLECTION___C__DISPLAYCLASS9_0___SORTITEMS_B__0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RogueWorkBenchFuncItem*, ::RPG::Client::RogueWorkBenchFuncItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCCOLLECTION___C__DISPLAYCLASS9_0___SORTITEMS_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

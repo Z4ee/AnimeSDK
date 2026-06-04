@@ -9,12 +9,12 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace System { class String; }
 
-#define CLASS_3_17DA99868EAFF6C9_METHOD_3_40802934F9A451E7_OFFSET UNITYSDK_OFFSET(0x99937D0)
-#define CLASS_3_17DA99868EAFF6C9_METHOD_3_DD8FC179D396EB52_OFFSET UNITYSDK_OFFSET(0x99939A0)
-#define CLASS_3_17DA99868EAFF6C9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99935A0)
-#define CLASS_3_17DA99868EAFF6C9__CTOR_OFFSET UNITYSDK_OFFSET(0x9993570)
+#define CLASS_3_17DA99868EAFF6C9_METHOD_3_40802934F9A451E7_OFFSET UNITYSDK_OFFSET(0x139A9860)
+#define CLASS_3_17DA99868EAFF6C9_METHOD_3_4384D4E1D98F4564_OFFSET UNITYSDK_OFFSET(0x139A9A30)
+#define CLASS_3_17DA99868EAFF6C9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x139A9630)
+#define CLASS_3_17DA99868EAFF6C9__CTOR_OFFSET UNITYSDK_OFFSET(0x139A9600)
 
-inline static constexpr unsigned int Class_3_17DA99868EAFF6C9_TypeDefinitionIndex = 50583;
+inline static constexpr unsigned int Class_3_17DA99868EAFF6C9_TypeDefinitionIndex = 51250;
 
 class Class_3_17DA99868EAFF6C9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddStageAbilityByName*>
 {
@@ -34,8 +34,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*&, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_17DA99868EAFF6C9_METHOD_3_40802934F9A451E7_OFFSET))(this, a1, a2);
 	}
 
-	::RPG::PoolList_1<::RPG::GameCore::AbilityDynamicFloatInjection>* Method_3_DD8FC179D396EB52()
+	::RPG::PoolList_1<::RPG::GameCore::AbilityDynamicFloatInjection>* Method_3_4384D4E1D98F4564()
 	{
-		return ((::RPG::PoolList_1<::RPG::GameCore::AbilityDynamicFloatInjection>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_17DA99868EAFF6C9_METHOD_3_DD8FC179D396EB52_OFFSET))(this);
+		return ((::RPG::PoolList_1<::RPG::GameCore::AbilityDynamicFloatInjection>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_17DA99868EAFF6C9_METHOD_3_4384D4E1D98F4564_OFFSET))(this);
 	}
 };

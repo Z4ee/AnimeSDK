@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_METHOD_3_7E06EEB8DB902A18_OFFSET UNITYSDK_OFFSET(0x18E10A90)
-#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_METHOD_3_BB7ACDF726BB1552_OFFSET UNITYSDK_OFFSET(0x18E10B10)
-#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18E10AE0)
+#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_METHOD_3_27ECC5AEC07979B9_OFFSET UNITYSDK_OFFSET(0x19C2F890)
+#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_METHOD_3_3062B4CA3F173456_OFFSET UNITYSDK_OFFSET(0x19C2F910)
+#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2F8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharacterPartsVisibility_TypeDefinitionIndex = 21287;
+	inline static constexpr unsigned int SetCharacterPartsVisibility_TypeDefinitionIndex = 21180;
 
 	class SetCharacterPartsVisibility : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7E06EEB8DB902A18(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterPartsVisibility*& a2)
+		static ::System::Void Method_3_27ECC5AEC07979B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterPartsVisibility*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterPartsVisibility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_METHOD_3_7E06EEB8DB902A18_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterPartsVisibility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_METHOD_3_27ECC5AEC07979B9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BB7ACDF726BB1552(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterPartsVisibility* a2)
+		static ::System::Void Method_3_3062B4CA3F173456(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterPartsVisibility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterPartsVisibility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_METHOD_3_BB7ACDF726BB1552_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterPartsVisibility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_METHOD_3_3062B4CA3F173456_OFFSET))(a1, a2);
 		}
 	};
 }

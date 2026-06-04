@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define CLASS_2_3AE2D6E9BB9BD5BE_1_GET_ISDISKFULL_OFFSET UNITYSDK_OFFSET(0xD9DCB30)
-#define CLASS_2_3AE2D6E9BB9BD5BE_1_SET_ISDISKFULL_OFFSET UNITYSDK_OFFSET(0xD9DCB40)
-#define CLASS_2_3AE2D6E9BB9BD5BE_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD9DCAD0)
+#define CLASS_2_3AE2D6E9BB9BD5BE_1_GET_ISDISKFULL_OFFSET UNITYSDK_OFFSET(0xA40F9E0)
+#define CLASS_2_3AE2D6E9BB9BD5BE_1_SET_ISDISKFULL_OFFSET UNITYSDK_OFFSET(0xA40F9F0)
+#define CLASS_2_3AE2D6E9BB9BD5BE_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA40F980)
 
-inline static constexpr unsigned int Class_2_3AE2D6E9BB9BD5BE_1_TypeDefinitionIndex = 56501;
+inline static constexpr unsigned int Class_2_3AE2D6E9BB9BD5BE_1_TypeDefinitionIndex = 57278;
 
 class Class_2_3AE2D6E9BB9BD5BE_1 : public ::System::Exception
 {
@@ -23,8 +23,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3AE2D6E9BB9BD5BE_1_GET_ISDISKFULL_OFFSET))(this);
 	}
 
-	::System::Void set_IsDiskFull(::System::Boolean value)
+	::System::Void set_IsDiskFull(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_3AE2D6E9BB9BD5BE_1_SET_ISDISKFULL_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_3AE2D6E9BB9BD5BE_1_SET_ISDISKFULL_OFFSET))(this, a1);
 	}
 };

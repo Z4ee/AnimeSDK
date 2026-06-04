@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS130_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181751E0)
-#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS130_0__GETASSEMBLYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x181757A0)
+#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS130_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18F1AFB0)
+#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS130_0__GETASSEMBLYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x18F1B580)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPUtility___c__DisplayClass130_0_TypeDefinitionIndex = 35268;
+	inline static constexpr unsigned int RPUtility___c__DisplayClass130_0_TypeDefinitionIndex = 35568;
 
 	class RPUtility___c__DisplayClass130_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS130_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetAssemblyType_b__0(::System::Type* t)
+		::System::Boolean _GetAssemblyType_b__0(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS130_0__GETASSEMBLYTYPE_B__0_OFFSET))(this, t);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS130_0__GETASSEMBLYTYPE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

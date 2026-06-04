@@ -1,0 +1,151 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BaseModule.h"
+
+class Class_1_2046D7DFF8D8DDC7;
+class Class_1_9DDA2386E2739440;
+class Class_1_F3EB7D0860A6C71F;
+class Class_2_63854F3C5192B868;
+namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { class Promise; }
+namespace System { class Object; }
+
+#define CLASS_2_F5D4F9378AC076E0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1367A240)
+#define CLASS_2_F5D4F9378AC076E0_GET_ACTIVESEASON_OFFSET UNITYSDK_OFFSET(0x13679EE0)
+#define CLASS_2_F5D4F9378AC076E0_GET_CONFIGINFO_OFFSET UNITYSDK_OFFSET(0x12ACD9F0)
+#define CLASS_2_F5D4F9378AC076E0_GET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x13679F20)
+#define CLASS_2_F5D4F9378AC076E0_GET_NETWORKSERVICE_OFFSET UNITYSDK_OFFSET(0x13679F00)
+#define CLASS_2_F5D4F9378AC076E0_GET_PRIZEINFO_OFFSET UNITYSDK_OFFSET(0x12ACDA10)
+#define CLASS_2_F5D4F9378AC076E0_INIT_OFFSET UNITYSDK_OFFSET(0x13679F40)
+#define CLASS_2_F5D4F9378AC076E0_METHOD_2_582E9EA2229B8034_OFFSET UNITYSDK_OFFSET(0x1367A480)
+#define CLASS_2_F5D4F9378AC076E0_METHOD_2_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0x1367A300)
+#define CLASS_2_F5D4F9378AC076E0_METHOD_2_76F5A7E445BBF513_OFFSET UNITYSDK_OFFSET(0x1367A630)
+#define CLASS_2_F5D4F9378AC076E0_SET_ACTIVESEASON_OFFSET UNITYSDK_OFFSET(0x13679EF0)
+#define CLASS_2_F5D4F9378AC076E0_SET_CONFIGINFO_OFFSET UNITYSDK_OFFSET(0x12ACDA00)
+#define CLASS_2_F5D4F9378AC076E0_SET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x13679F30)
+#define CLASS_2_F5D4F9378AC076E0_SET_NETWORKSERVICE_OFFSET UNITYSDK_OFFSET(0x13679F10)
+#define CLASS_2_F5D4F9378AC076E0_SET_PRIZEINFO_OFFSET UNITYSDK_OFFSET(0x13679ED0)
+#define CLASS_2_F5D4F9378AC076E0__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x1367A170)
+#define CLASS_2_F5D4F9378AC076E0__CTOR_OFFSET UNITYSDK_OFFSET(0x1367A6E0)
+#define CLASS_2_F5D4F9378AC076E0__INIT_B__21_0_OFFSET UNITYSDK_OFFSET(0x1367A700)
+#define CLASS_2_F5D4F9378AC076E0___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1367A810)
+#define CLASS_2_F5D4F9378AC076E0___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x1367A730)
+#define CLASS_2_F5D4F9378AC076E0___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x1367A7B0)
+
+inline static constexpr unsigned int Class_2_F5D4F9378AC076E0_TypeDefinitionIndex = 57397;
+
+class Class_2_F5D4F9378AC076E0 : public ::RPG::Client::BaseModule
+{
+public:
+	::RPG::Client::Promises::Promise* Field_2_0; // 0x10
+	::Class_1_F3EB7D0860A6C71F* _PrizeInfo_k__BackingField; // 0x18
+	::Class_2_63854F3C5192B868* _NetworkService_k__BackingField; // 0x20
+	::Class_1_2046D7DFF8D8DDC7* _ActiveSeason_k__BackingField; // 0x28
+	::Class_1_9DDA2386E2739440* _ConfigInfo_k__BackingField; // 0x30
+	::System::Boolean _IsDataReady_k__BackingField; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0__CTOR_OFFSET))(this);
+	}
+
+	::Class_1_9DDA2386E2739440* get_ConfigInfo()
+	{
+		return ((::Class_1_9DDA2386E2739440*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_GET_CONFIGINFO_OFFSET))(this);
+	}
+
+	::System::Void set_ConfigInfo(::Class_1_9DDA2386E2739440* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_9DDA2386E2739440*))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_SET_CONFIGINFO_OFFSET))(this, a1);
+	}
+
+	::Class_1_F3EB7D0860A6C71F* get_PrizeInfo()
+	{
+		return ((::Class_1_F3EB7D0860A6C71F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_GET_PRIZEINFO_OFFSET))(this);
+	}
+
+	::System::Void set_PrizeInfo(::Class_1_F3EB7D0860A6C71F* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_F3EB7D0860A6C71F*))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_SET_PRIZEINFO_OFFSET))(this, a1);
+	}
+
+	::Class_1_2046D7DFF8D8DDC7* get_ActiveSeason()
+	{
+		return ((::Class_1_2046D7DFF8D8DDC7*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_GET_ACTIVESEASON_OFFSET))(this);
+	}
+
+	::System::Void set_ActiveSeason(::Class_1_2046D7DFF8D8DDC7* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_2046D7DFF8D8DDC7*))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_SET_ACTIVESEASON_OFFSET))(this, a1);
+	}
+
+	::Class_2_63854F3C5192B868* get_NetworkService()
+	{
+		return ((::Class_2_63854F3C5192B868*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_GET_NETWORKSERVICE_OFFSET))(this);
+	}
+
+	::System::Void set_NetworkService(::Class_2_63854F3C5192B868* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_63854F3C5192B868*))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_SET_NETWORKSERVICE_OFFSET))(this, a1);
+	}
+
+	::System::Boolean get_IsDataReady()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_GET_ISDATAREADY_OFFSET))(this);
+	}
+
+	::System::Void set_IsDataReady(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_SET_ISDATAREADY_OFFSET))(this, a1);
+	}
+
+	::System::Void Init()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_INIT_OFFSET))(this);
+	}
+
+	::System::Void _AddNotifyHandlers()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0__ADDNOTIFYHANDLERS_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_739DB9F245C7FAD0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_METHOD_2_739DB9F245C7FAD0_OFFSET))(this);
+	}
+
+	::System::Void Method_2_582E9EA2229B8034(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_METHOD_2_582E9EA2229B8034_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_2_76F5A7E445BBF513()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0_METHOD_2_76F5A7E445BBF513_OFFSET))(this);
+	}
+
+	::System::Void _Init_b__21_0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0__INIT_B__21_0_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_Init()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0___IFIXBASEPROXY_INIT_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__AddNotifyHandlers()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5D4F9378AC076E0___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+	}
+};

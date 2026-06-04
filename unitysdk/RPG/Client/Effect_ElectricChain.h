@@ -6,13 +6,13 @@ namespace RPG::Client { class Effect_ElectricChainBehavior; }
 namespace RPG::Client { class ElectricChain; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EFFECT_ELECTRICCHAIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xA1C9620)
-#define RPG_CLIENT_EFFECT_ELECTRICCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA1C9670)
-#define RPG_CLIENT_EFFECT_ELECTRICCHAIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xA1C96C0)
+#define RPG_CLIENT_EFFECT_ELECTRICCHAIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB84C4E0)
+#define RPG_CLIENT_EFFECT_ELECTRICCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB84C530)
+#define RPG_CLIENT_EFFECT_ELECTRICCHAIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB84C580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ElectricChain_TypeDefinitionIndex = 64952;
+	inline static constexpr unsigned int Effect_ElectricChain_TypeDefinitionIndex = 65878;
 
 	class Effect_ElectricChain : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_ElectricChainBehavior*>
 	{

@@ -8,17 +8,17 @@ namespace Epic::OnlineServices::Sessions { class SessionDetails; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x140B0)
-#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x14040)
-#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x13EC0)
-#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x14030)
-#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_PRESENCEENABLED_OFFSET UNITYSDK_OFFSET(0x13F80)
-#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_SESSIONHANDLE_OFFSET UNITYSDK_OFFSET(0x13E00)
-#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x13D50)
+#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x148A0)
+#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x14820)
+#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x146A0)
+#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x14810)
+#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_PRESENCEENABLED_OFFSET UNITYSDK_OFFSET(0x14760)
+#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_SESSIONHANDLE_OFFSET UNITYSDK_OFFSET(0x145E0)
+#define EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x14530)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int JoinSessionOptionsInternal_TypeDefinitionIndex = 41278;
+	inline static constexpr unsigned int JoinSessionOptionsInternal_TypeDefinitionIndex = 42081;
 
 	struct alignas(8) JoinSessionOptionsInternal
 	{
@@ -28,34 +28,34 @@ namespace Epic::OnlineServices::Sessions
 		::System::IntPtr m_LocalUserId; // 0x28
 		::System::Int32 m_PresenceEnabled; // 0x30
 
-		::System::Void set_SessionName(::System::String* value)
+		::System::Void set_SessionName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_SessionHandle(::Epic::OnlineServices::Sessions::SessionDetails* value)
+		::System::Void set_SessionHandle(::Epic::OnlineServices::Sessions::SessionDetails* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetails*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_SESSIONHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetails*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_SESSIONHANDLE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_PresenceEnabled(::System::Boolean value)
+		::System::Void set_PresenceEnabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_PRESENCEENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_PRESENCEENABLED_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::JoinSessionOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::JoinSessionOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::JoinSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::JoinSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_JOINSESSIONOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

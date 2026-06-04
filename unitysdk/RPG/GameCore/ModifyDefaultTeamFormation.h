@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class LocationExtraConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_METHOD_3_1E595BA546AC205E_OFFSET UNITYSDK_OFFSET(0x18B3D050)
-#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_METHOD_3_6DFBC248FB01A0F5_OFFSET UNITYSDK_OFFSET(0x18B3D1D0)
-#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3D120)
+#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_METHOD_3_290B0C8EAA125B1E_OFFSET UNITYSDK_OFFSET(0x19955200)
+#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_METHOD_3_9227538EE359B3B1_OFFSET UNITYSDK_OFFSET(0x19955080)
+#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19955150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyDefaultTeamFormation_TypeDefinitionIndex = 21372;
+	inline static constexpr unsigned int ModifyDefaultTeamFormation_TypeDefinitionIndex = 21262;
 
 	class ModifyDefaultTeamFormation : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,14 +32,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1E595BA546AC205E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyDefaultTeamFormation*& a2)
+		static ::System::Void Method_3_9227538EE359B3B1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyDefaultTeamFormation*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyDefaultTeamFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_METHOD_3_1E595BA546AC205E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyDefaultTeamFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_METHOD_3_9227538EE359B3B1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6DFBC248FB01A0F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyDefaultTeamFormation* a2)
+		static ::System::Void Method_3_290B0C8EAA125B1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyDefaultTeamFormation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyDefaultTeamFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_METHOD_3_6DFBC248FB01A0F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyDefaultTeamFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_METHOD_3_290B0C8EAA125B1E_OFFSET))(a1, a2);
 		}
 	};
 }

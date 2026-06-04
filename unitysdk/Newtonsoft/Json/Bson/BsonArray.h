@@ -7,15 +7,15 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NEWTONSOFT_JSON_BSON_BSONARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x17A54CA0)
-#define NEWTONSOFT_JSON_BSON_BSONARRAY_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17A54D20)
-#define NEWTONSOFT_JSON_BSON_BSONARRAY_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17A54D10)
-#define NEWTONSOFT_JSON_BSON_BSONARRAY_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17A54DC0)
-#define NEWTONSOFT_JSON_BSON_BSONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x17A54E60)
+#define NEWTONSOFT_JSON_BSON_BSONARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x18803A50)
+#define NEWTONSOFT_JSON_BSON_BSONARRAY_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18803B10)
+#define NEWTONSOFT_JSON_BSON_BSONARRAY_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x18803B00)
+#define NEWTONSOFT_JSON_BSON_BSONARRAY_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18803B80)
+#define NEWTONSOFT_JSON_BSON_BSONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x18803BF0)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonArray_TypeDefinitionIndex = 8601;
+	inline static constexpr unsigned int BsonArray_TypeDefinitionIndex = 9504;
 
 	class BsonArray : public ::Newtonsoft::Json::Bson::BsonToken
 	{
@@ -27,9 +27,9 @@ namespace Newtonsoft::Json::Bson
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONARRAY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Add(::Newtonsoft::Json::Bson::BsonToken* token)
+		::System::Void Add(::Newtonsoft::Json::Bson::BsonToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Bson::BsonToken*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONARRAY_ADD_OFFSET))(this, token);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Bson::BsonToken*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONARRAY_ADD_OFFSET))(this, a1);
 		}
 
 		::Newtonsoft::Json::Bson::BsonType get_Type()

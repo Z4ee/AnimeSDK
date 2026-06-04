@@ -6,7 +6,7 @@
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapper_RTCRayHit_TypeDefinitionIndex = 43834;
+	inline static constexpr unsigned int EmbreeWrapper_RTCRayHit_TypeDefinitionIndex = 44376;
 
 	struct alignas(4) EmbreeWrapper_RTCRayHit
 	{

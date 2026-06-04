@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTransposer_BindingMode_TypeDefinitionIndex = 36555;
+	inline static constexpr unsigned int CinemachineTransposer_BindingMode_TypeDefinitionIndex = 36855;
 
 	enum class CinemachineTransposer_BindingMode : ::System::Int32
 	{

@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Windows::OS { class BindManager; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174E3300)
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS39_0__UPDATEQRCODE_B__0_OFFSET UNITYSDK_OFFSET(0x174E70E0)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182E1240)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS39_0__UPDATEQRCODE_B__0_OFFSET UNITYSDK_OFFSET(0x182E4F80)
 
 namespace MiHoYo::SDK::Windows::OS
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass39_0_TypeDefinitionIndex = 7390;
+	inline static constexpr unsigned int BindManager___c__DisplayClass39_0_TypeDefinitionIndex = 8293;
 
 	class BindManager___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Windows::OS::BindManager* __4__this; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onCreateActionTicket; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onCreateActionTicket; // 0x10
+		::MiHoYo::SDK::Windows::OS::BindManager* __4__this; // 0x18
 		::System::Boolean forceTokenRefresh; // 0x20
 
 		::System::Void _ctor()
@@ -25,9 +25,9 @@ namespace MiHoYo::SDK::Windows::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _UpdateQRCode_b__0(::MiHoYo::SDK::NetworkResponseModelEx* response)
+		::System::Void _UpdateQRCode_b__0(::MiHoYo::SDK::NetworkResponseModelEx* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS39_0__UPDATEQRCODE_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS39_0__UPDATEQRCODE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

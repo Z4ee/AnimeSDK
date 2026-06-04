@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_AB4C02BAD9BA6684_OFFSET UNITYSDK_OFFSET(0x188FE320)
-#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_CDDF6BC89E3FBAD0_OFFSET UNITYSDK_OFFSET(0x188FE280)
-#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188FE2E0)
+#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_740575E7F4D0A6C3_OFFSET UNITYSDK_OFFSET(0x19739A10)
+#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_F89D1E9D77C8226F_OFFSET UNITYSDK_OFFSET(0x19739980)
+#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197399E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDragonDogMoveConfig_TypeDefinitionIndex = 15816;
+	inline static constexpr unsigned int FiveDimDragonDogMoveConfig_TypeDefinitionIndex = 15871;
 
 	class FiveDimDragonDogMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
@@ -22,10 +22,11 @@ namespace RPG::GameCore
 		::System::Single FallGravityMultiplier; // 0x50
 		::System::Single MaxFallSpeedMultiplier; // 0x54
 		::System::Single LandingDuration; // 0x58
-		::System::Single HitRecoverDuration; // 0x5C
-		::System::Single PlayerCatchUpDistance; // 0x60
-		::System::Single TargetCatchUpDistance; // 0x64
-		::System::Single ObstacleDetectDistance; // 0x68
+		::System::Single LandEventMinFallDistance; // 0x5C
+		::System::Single HitRecoverDuration; // 0x60
+		::System::Single PlayerCatchUpDistance; // 0x64
+		::System::Single TargetCatchUpDistance; // 0x68
+		::System::Single ObstacleDetectDistance; // 0x6C
 		::System::String* OnFallEvent; // 0x70
 		::System::String* OnLandEvent; // 0x78
 		::System::String* OnRecoverEvent; // 0x80
@@ -39,14 +40,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CDDF6BC89E3FBAD0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDragonDogMoveConfig*& a2)
+		static ::System::Void Method_3_F89D1E9D77C8226F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDragonDogMoveConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDragonDogMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_CDDF6BC89E3FBAD0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDragonDogMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_F89D1E9D77C8226F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AB4C02BAD9BA6684(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDragonDogMoveConfig* a2)
+		static ::System::Void Method_3_740575E7F4D0A6C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDragonDogMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDragonDogMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_AB4C02BAD9BA6684_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDragonDogMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_740575E7F4D0A6C3_OFFSET))(a1, a2);
 		}
 	};
 }

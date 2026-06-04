@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PauseTimeRewindTargetInRange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A13144CCB20A8EB8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x129A2310)
-#define CLASS_3_A13144CCB20A8EB8__CTOR_OFFSET UNITYSDK_OFFSET(0x129A22E0)
+#define CLASS_3_A13144CCB20A8EB8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA82F390)
+#define CLASS_3_A13144CCB20A8EB8__CTOR_OFFSET UNITYSDK_OFFSET(0xA82F360)
 
-inline static constexpr unsigned int Class_3_A13144CCB20A8EB8_TypeDefinitionIndex = 49210;
+inline static constexpr unsigned int Class_3_A13144CCB20A8EB8_TypeDefinitionIndex = 49877;
 
 class Class_3_A13144CCB20A8EB8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PauseTimeRewindTargetInRange*>
 {

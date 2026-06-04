@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPCameraInfo_TypeDefinitionIndex = 4612;
+	inline static constexpr unsigned int CRPCameraInfo_TypeDefinitionIndex = 4786;
 
 	struct alignas(4) CRPCameraInfo
 	{

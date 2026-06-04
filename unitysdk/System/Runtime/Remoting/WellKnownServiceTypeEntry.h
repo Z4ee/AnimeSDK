@@ -6,15 +6,15 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY_GET_MODE_OFFSET UNITYSDK_OFFSET(0x179F4BD0)
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY_GET_OBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x179F4BE0)
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY_GET_OBJECTURI_OFFSET UNITYSDK_OFFSET(0x179F4BF0)
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x179F4C00)
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x179F4AA0)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY_GET_MODE_OFFSET UNITYSDK_OFFSET(0x187A4E60)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY_GET_OBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x187A4E70)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY_GET_OBJECTURI_OFFSET UNITYSDK_OFFSET(0x187A4E80)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x187A4E90)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x187A4D30)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int WellKnownServiceTypeEntry_TypeDefinitionIndex = 1223;
+	inline static constexpr unsigned int WellKnownServiceTypeEntry_TypeDefinitionIndex = 1222;
 
 	class WellKnownServiceTypeEntry : public ::System::Runtime::Remoting::TypeEntry
 	{
@@ -23,9 +23,9 @@ namespace System::Runtime::Remoting
 		::System::String* obj_uri; // 0x28
 		::System::Runtime::Remoting::WellKnownObjectMode obj_mode; // 0x30
 
-		::System::Void _ctor(::System::String* typeName, ::System::String* assemblyName, ::System::String* objectUri, ::System::Runtime::Remoting::WellKnownObjectMode mode)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Runtime::Remoting::WellKnownObjectMode a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Runtime::Remoting::WellKnownObjectMode))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY__CTOR_OFFSET))(this, typeName, assemblyName, objectUri, mode);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Runtime::Remoting::WellKnownObjectMode))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_WELLKNOWNSERVICETYPEENTRY__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Runtime::Remoting::WellKnownObjectMode get_Mode()

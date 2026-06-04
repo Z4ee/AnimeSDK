@@ -7,14 +7,14 @@ namespace System { class Object; }
 namespace System { class String; }
 
 #define EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_GET_SOCKETNAME_OFFSET UNITYSDK_OFFSET(0x5A0F0)
-#define EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5A2D0)
-#define EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5A200)
-#define EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_SOCKETNAME_OFFSET UNITYSDK_OFFSET(0x5A150)
+#define EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_GET_SOCKETNAME_OFFSET UNITYSDK_OFFSET(0x5F430)
+#define EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5F610)
+#define EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5F540)
+#define EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_SOCKETNAME_OFFSET UNITYSDK_OFFSET(0x5F490)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int SocketIdInternal_TypeDefinitionIndex = 41760;
+	inline static constexpr unsigned int SocketIdInternal_TypeDefinitionIndex = 42563;
 
 	struct alignas(8) SocketIdInternal
 	{
@@ -26,19 +26,19 @@ namespace Epic::OnlineServices::P2P
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_GET_SOCKETNAME_OFFSET))(this);
 		}
 
-		::System::Void set_SocketName(::System::String* value)
+		::System::Void set_SocketName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_SOCKETNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_SOCKETNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::P2P::SocketId* other)
+		::System::Void Set(::Epic::OnlineServices::P2P::SocketId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::SocketId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::SocketId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SOCKETIDINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -5,34 +5,34 @@
 namespace RPG::Client { class ActivityPhotoExhibitionGroupData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9C3FB30)
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9C3FB70)
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__HASANYAVAILABLEGROUPUNSEEN_B__6_0_OFFSET UNITYSDK_OFFSET(0x9C3FBA0)
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__HASANYGROUPREWARDCANTAKE_B__7_0_OFFSET UNITYSDK_OFFSET(0x9C3FC20)
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__ISFINISHALLGROUP_B__5_0_OFFSET UNITYSDK_OFFSET(0x9C3FB80)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1DF4D0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB1DF510)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__HASANYAVAILABLEGROUPUNSEEN_B__6_0_OFFSET UNITYSDK_OFFSET(0xB1DF540)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__HASANYGROUPREWARDCANTAKE_B__7_0_OFFSET UNITYSDK_OFFSET(0xB1DF5C0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__ISFINISHALLGROUP_B__5_0_OFFSET UNITYSDK_OFFSET(0xB1DF520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPhotoExhibitionModule___c_TypeDefinitionIndex = 56931;
+	inline static constexpr unsigned int ActivityPhotoExhibitionModule___c_TypeDefinitionIndex = 57719;
 
 	class ActivityPhotoExhibitionModule___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::ActivityPhotoExhibitionGroupData*, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityPhotoExhibitionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionModule___c_TypeDefinitionIndex)->GetStaticField(0x59010);
+		}
 		static ::System::Func_2<::RPG::Client::ActivityPhotoExhibitionGroupData*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityPhotoExhibitionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionModule___c_TypeDefinitionIndex)->GetStaticField(0x3C7B0);
+			return (::System::Func_2<::RPG::Client::ActivityPhotoExhibitionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionModule___c_TypeDefinitionIndex)->GetStaticField(0x59018);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityPhotoExhibitionGroupData*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityPhotoExhibitionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionModule___c_TypeDefinitionIndex)->GetStaticField(0x3C7B8);
+			return (::System::Func_2<::RPG::Client::ActivityPhotoExhibitionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionModule___c_TypeDefinitionIndex)->GetStaticField(0x59020);
 		}
 		static ::RPG::Client::ActivityPhotoExhibitionModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityPhotoExhibitionModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionModule___c_TypeDefinitionIndex)->GetStaticField(0x3C7C0);
-		}
-		static ::System::Func_2<::RPG::Client::ActivityPhotoExhibitionGroupData*, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityPhotoExhibitionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionModule___c_TypeDefinitionIndex)->GetStaticField(0x3C7C8);
+			return (::RPG::Client::ActivityPhotoExhibitionModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityPhotoExhibitionModule___c_TypeDefinitionIndex)->GetStaticField(0x59028);
 		}
 
 		static ::System::Void _cctor()
@@ -45,19 +45,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _IsFinishAllGroup_b__5_0(::RPG::Client::ActivityPhotoExhibitionGroupData* x)
+		::System::Boolean _IsFinishAllGroup_b__5_0(::RPG::Client::ActivityPhotoExhibitionGroupData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityPhotoExhibitionGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__ISFINISHALLGROUP_B__5_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityPhotoExhibitionGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__ISFINISHALLGROUP_B__5_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _HasAnyAvailableGroupUnSeen_b__6_0(::RPG::Client::ActivityPhotoExhibitionGroupData* x)
+		::System::Boolean _HasAnyAvailableGroupUnSeen_b__6_0(::RPG::Client::ActivityPhotoExhibitionGroupData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityPhotoExhibitionGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__HASANYAVAILABLEGROUPUNSEEN_B__6_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityPhotoExhibitionGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__HASANYAVAILABLEGROUPUNSEEN_B__6_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _HasAnyGroupRewardCanTake_b__7_0(::RPG::Client::ActivityPhotoExhibitionGroupData* x)
+		::System::Boolean _HasAnyGroupRewardCanTake_b__7_0(::RPG::Client::ActivityPhotoExhibitionGroupData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityPhotoExhibitionGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__HASANYGROUPREWARDCANTAKE_B__7_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityPhotoExhibitionGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__HASANYGROUPREWARDCANTAKE_B__7_0_OFFSET))(this, a1);
 		}
 	};
 }

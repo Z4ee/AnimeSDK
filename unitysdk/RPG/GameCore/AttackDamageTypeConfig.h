@@ -6,13 +6,16 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ATTACKDAMAGETYPECONFIG_METHOD_2_70AD061FE2E32537_OFFSET UNITYSDK_OFFSET(0x186AE120)
-#define RPG_GAMECORE_ATTACKDAMAGETYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186AE8C0)
+#define RPG_GAMECORE_ATTACKDAMAGETYPECONFIG_METHOD_2_42A043373CD9509C_OFFSET UNITYSDK_OFFSET(0x194865F0)
+#define RPG_GAMECORE_ATTACKDAMAGETYPECONFIG_METHOD_2_70AD061FE2E32537_OFFSET UNITYSDK_OFFSET(0x19485ED0)
+#define RPG_GAMECORE_ATTACKDAMAGETYPECONFIG_METHOD_2_D72A8BA1AB8D977A_OFFSET UNITYSDK_OFFSET(0x19486860)
+#define RPG_GAMECORE_ATTACKDAMAGETYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194865E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttackDamageTypeConfig_TypeDefinitionIndex = 22000;
+	inline static constexpr unsigned int AttackDamageTypeConfig_TypeDefinitionIndex = 21817;
 
 	class AttackDamageTypeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,6 +32,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_2_70AD061FE2E32537(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttackDamageTypeConfig*& a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttackDamageTypeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACKDAMAGETYPECONFIG_METHOD_2_70AD061FE2E32537_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_42A043373CD9509C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AttackDamageTypeConfig*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AttackDamageTypeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACKDAMAGETYPECONFIG_METHOD_2_42A043373CD9509C_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_D72A8BA1AB8D977A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AttackDamageTypeConfig*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AttackDamageTypeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACKDAMAGETYPECONFIG_METHOD_2_D72A8BA1AB8D977A_OFFSET))(a1, a2);
 		}
 	};
 }

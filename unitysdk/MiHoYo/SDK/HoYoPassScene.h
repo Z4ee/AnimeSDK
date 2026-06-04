@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASSSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1755C850)
+#define MIHOYO_SDK_HOYOPASSSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x18344190)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoPassScene_TypeDefinitionIndex = 6942;
+	inline static constexpr unsigned int HoYoPassScene_TypeDefinitionIndex = 7845;
 
 	class HoYoPassScene : public ::System::Object
 	{

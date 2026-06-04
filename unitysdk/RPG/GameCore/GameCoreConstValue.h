@@ -12,7 +12,7 @@
 #include "unitysdk/RPG/GameCore/StageType.h"
 #include "unitysdk/RPG/GameCore/TurnBasedModifierEvent.h"
 
-class Class_1_2CAAA2FDF9170110;
+class Class_1_1C30CE192ABE4C54;
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarChangeTemplate; }
 namespace RPG::GameCore { class BattleComboConfig; }
@@ -38,25 +38,26 @@ namespace RPG::GameCore { class RogueMagicConstDynamicValueKeys; }
 namespace RPG::GameCore { class ShieldModifierConstKeys; }
 namespace RPG::GameCore { class SkillDamageTypePreshowConfig; }
 namespace RPG::GameCore { class SomatoWidthRangeConfig; }
+namespace RPG::GameCore { class TeamBlockModifierConstKeys; }
 namespace RPG::GameCore { class TeamMemberExpansionFightFormationConfig; }
 namespace RPG::GameCore { class TeammateAttackFormationConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_GAMECORECONSTVALUE_CHECKMODIFIEREVENTCANRECALL_OFFSET UNITYSDK_OFFSET(0x18952CB0)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTCONFIG_OFFSET UNITYSDK_OFFSET(0x18952210)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTGROUP_OFFSET UNITYSDK_OFFSET(0x189523A0)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18943AF0)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_GETPROPERTYADSORPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x18952E30)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEDMODIFIERSTATUSTYPEIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x189527A0)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEMODIFIERBEHAVIORFLAGIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x189523C0)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_ISINCHARACTERIDGROUP_OFFSET UNITYSDK_OFFSET(0x18953070)
-#define RPG_GAMECORE_GAMECORECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18951F10)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_CHECKMODIFIEREVENTCANRECALL_OFFSET UNITYSDK_OFFSET(0x197C8290)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTCONFIG_OFFSET UNITYSDK_OFFSET(0x197C7770)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTGROUP_OFFSET UNITYSDK_OFFSET(0x197C7900)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197B9120)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_GETPROPERTYADSORPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x197C83F0)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEDMODIFIERSTATUSTYPEIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x197C7E90)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEMODIFIERBEHAVIORFLAGIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x197C7A90)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_ISINCHARACTERIDGROUP_OFFSET UNITYSDK_OFFSET(0x197C8680)
+#define RPG_GAMECORE_GAMECORECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x197C7470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreConstValue_TypeDefinitionIndex = 16208;
+	inline static constexpr unsigned int GameCoreConstValue_TypeDefinitionIndex = 16249;
 
 	class GameCoreConstValue : public ::RPG::GameCore::JsonConfig
 	{
@@ -91,7 +92,7 @@ namespace RPG::GameCore
 		::System::String* SkillParameterColor; // 0xE0
 		::RPG::GameCore::LevelPerformConfig* DefaultLevelPerformConfig; // 0xE8
 		::System::Boolean BlockTeamBPInsert; // 0xF0
-		::Class_1_2CAAA2FDF9170110* AllCharacterDynamicValues; // 0xF8
+		::Class_1_1C30CE192ABE4C54* AllCharacterDynamicValues; // 0xF8
 		::System::Single ModifierPhaseEndingPerformAdded; // 0x100
 		::System::Single ModifierPhaseEndingPerformMax; // 0x104
 		::System::Single ModifierPhasePerformTimeMin; // 0x108
@@ -105,132 +106,133 @@ namespace RPG::GameCore
 		::RPG::GameCore::BattleStageConfigDataKeys* StageConfigDataKeys; // 0x138
 		::RPG::GameCore::ShieldModifierConstKeys* ShieldConstKeys; // 0x140
 		::RPG::GameCore::ElationModifierConstKeys* ElationConstKeys; // 0x148
-		::System::String* BattleDefaultSceneName; // 0x150
-		::Il2CppArray<::System::Single>* ResilienceHitAdditiveWeights; // 0x158
-		::System::Single AvatarHitAdditiveWeightBase; // 0x160
-		::System::Single MonsterHitAdditiveWeightBase; // 0x164
-		::RPG::GameCore::FixPoint StanceWeakRatio; // 0x168
-		::RPG::GameCore::FixPoint DefaultStanceResistance; // 0x170
-		::System::Single AdventureLookAtTargetLockTime; // 0x178
-		::RPG::GameCore::FixPoint SpeedToDelayDistance; // 0x180
-		::Il2CppArray<::RPG::GameCore::ModifierBehaviorVisual*>* ModifierBehaviorVisualList; // 0x188
-		::Il2CppArray<::RPG::GameCore::AbilityProperty>* SnapshotEntityInheritBlackList; // 0x190
-		::Il2CppArray<::RPG::GameCore::SkillEffect>* DamagingSkillEffect; // 0x198
-		::System::Single HitForce; // 0x1A0
-		::System::Single HitForce_H; // 0x1A4
-		::Il2CppArray<::RPG::GameCore::AttackType>* AttackTypeForbidCriticalList; // 0x1A8
-		::Il2CppArray<::RPG::GameCore::AttackType>* AttackTypeForbidLuckCriticalList; // 0x1B0
-		::System::Int32 MaxTurnCount; // 0x1B8
-		::Il2CppArray<::RPG::GameCore::HitTimeSlowConfig*>* HitTimeSlowConfigs; // 0x1C0
-		::Il2CppArray<::RPG::GameCore::ModifierCustomEventConfig*>* ModifierCustomEvents; // 0x1C8
-		::System::Single BattleEncounterHintDelayTime; // 0x1D0
-		::System::Single SkillReadyAnimDefaultTransitDuration; // 0x1D4
-		::System::Single DieAnimTransitDuration; // 0x1D8
-		::System::Single ViewModeSummonerToServantTransitTime; // 0x1DC
-		::System::Single MovementUpstairHeight; // 0x1E0
-		::System::Single MovementMaxSlope; // 0x1E4
-		::System::Single MovementDownMinSlope; // 0x1E8
-		::System::Single MovementDownstairDepth; // 0x1EC
-		::System::Single NPCDialogFaceToPlayerAngle; // 0x1F0
-		::System::Single AddBuffPerformTimeInterval; // 0x1F4
-		::System::Single AddBuffPerformTimeMax; // 0x1F8
-		::System::Single SkillTargetBeyondTargetIntensity; // 0x1FC
-		::System::Single SkillTargetBeyondTargetFadeTime; // 0x200
-		::System::Single BackRowExceptSkillTargetIntensity; // 0x204
-		::System::Single BackRowExceptSkillTargetFadeTime; // 0x208
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::RPG::GameCore::ModifierBehaviorFlagList*>* ModifierBehaviorFlagImmuneMap; // 0x210
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::RPG::GameCore::ModifierStatusTypeList*>* ModifierStatusTypeImmuneMap; // 0x218
-		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlagListPair*>* ModifierBehaviorFlagAntiDebuffResistList; // 0x220
-		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* ModifierBehaviorFlagKeepOnDeathrattle; // 0x228
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::RPG::GameCore::ModifierBehaviorFlagEventConfigList*>* ModifierBehaviorFlagEventMap; // 0x230
-		::System::Boolean UploadReplay; // 0x238
-		::System::Boolean SaveReplay; // 0x239
-		::System::String* StoryPlayerUniqueName; // 0x240
-		::System::String* StoryPlayerBoyID; // 0x248
-		::System::String* StoryPlayerGirlID; // 0x250
-		::System::Single StoryEndOpenUIDelayTime; // 0x258
-		::System::Single StoryStartCloseUIDelayTime; // 0x25C
-		::RPG::GameCore::BattleComboConfig* ComboConstConfig; // 0x260
-		::System::Single AdventureCommonBtnCD; // 0x268
-		::Il2CppArray<::RPG::GameCore::StageType>* StageTypesNeedQuitVerify; // 0x270
-		::System::Boolean PlayOccurAfterFrozen; // 0x278
-		::System::Single OccurAnimNormalizeStart; // 0x27C
-		::System::Single OccurAnimNormalizeTransition; // 0x280
-		::System::Single BreakExtendAnimDelay; // 0x284
-		::System::Single BreakExtendAnimDelayOnGround; // 0x288
-		::System::Single BreakExtendAnimDelayHitMotion; // 0x28C
-		::System::Int32 HitFrameMiniInterval; // 0x290
-		::System::String* StageWavePerformStartStringKey; // 0x298
-		::System::String* DefaultStageWavePerformStartString; // 0x2A0
-		::System::String* AutoBattleUseSkillPerformForLightTeamStartString; // 0x2A8
-		::System::String* AutoBattleUseSkillPerformForDarkTeamStartString; // 0x2B0
-		::System::String* CinemachineVirtualCameraTemplatePath; // 0x2B8
-		::Il2CppArray<::RPG::GameCore::TeammateAttackFormationConfig*>* TeammateAttackFormationConfigList; // 0x2C0
-		::System::String* TwoTeammateAttackFormationName; // 0x2C8
-		::System::Int32 OnLineReplayMaxCacheCount; // 0x2D0
-		::Il2CppArray<::System::String*>* FormationAsset; // 0x2D8
-		::Il2CppArray<::System::String*>* TimelineDataAsset; // 0x2E0
-		::Il2CppArray<::System::String*>* ProjectileCurveAsset; // 0x2E8
-		::System::UInt32 GameCoreDesignDataVersion; // 0x2F0
-		::System::Single LeastSkillNormalPerformTime; // 0x2F4
-		::System::Single LeastSkillBpPerformTime; // 0x2F8
-		::System::Single LeastSkillUltraPerformTime; // 0x2FC
-		::System::Single LeastSkillServantPerformTime; // 0x300
-		::System::Single LeastSkillElationPerformTime; // 0x304
-		::System::String* MainMonsterUniqueName; // 0x308
-		::RPG::GameCore::FixPoint StanceBreakActionDelayChangeRatio; // 0x310
-		::RPG::GameCore::FixPoint RedStanceBreakActionDelayChangeRatio; // 0x318
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::RPG::GameCore::SkillDamageTypePreshowConfig*>* SkillDamageTypePreshowConfigs; // 0x320
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::MonsterRank, ::RPG::GameCore::FixPoint>* MonsterRankScore; // 0x328
-		::Il2CppArray<::System::UInt32>* BossMultiInstWhiteList; // 0x330
-		::System::Boolean EnableModifyDotDamageData; // 0x338
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* CustomSwitchMap; // 0x340
-		::System::Single WaitFaceToTaskFinishLimitAngle; // 0x348
-		::System::Int32 ModifierRecallLimit; // 0x34C
-		::System::Int32 RangePropertyRecallLimit; // 0x350
-		::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* ForbidRecallModifierEventList; // 0x358
-		::Il2CppArray<::System::UInt32>* RewindMazeBuffList; // 0x360
-		::Il2CppArray<::RPG::GameCore::SomatoWidthRangeConfig*>* SomatoWidthRange; // 0x368
-		::Il2CppArray<::RPG::GameCore::AbilityProperty>* ServantSyncPropertyList; // 0x370
-		::Il2CppArray<::RPG::GameCore::AbilityProperty>* BackendSyncExceptPropertyList; // 0x378
-		::Il2CppArray<::RPG::GameCore::AbilityProperty>* BEServantSyncExceptPropertyList; // 0x380
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StageType, ::System::UInt32>* StagePuppetBeyondLimitMaxCount; // 0x388
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StageType, ::RPG::GameCore::BattleReportCustomValueList*>* BattleReportCustomValueByStage; // 0x390
-		::System::UInt32 StatisticSummonMonsterLimit; // 0x398
-		::RPG::GameCore::RogueMagicConstDynamicValueKeys* RogueMagicConstDynamicValueKeys; // 0x3A0
-		::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* ServantModifierEventWhiteList; // 0x3A8
-		::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* MuteModifierGlobalListenWhiteList; // 0x3B0
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::PropertyAdsorptionConfig*>* PropertyAdsorptions; // 0x3B8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DepartedConfig*>* DepartedConfigGroups; // 0x3C0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::AvatarChangeTemplate*>* AvatarChangeTemplateGroups; // 0x3C8
-		::System::Single AnimEventTimeSliceThreshold; // 0x3D0
-		::System::Single AbortMoveSkipRootMotionThreshTime; // 0x3D4
-		::System::String* EmptyAvatarPrefabPath; // 0x3D8
-		::Il2CppArray<::RPG::GameCore::CharacterIDGroupConfig*>* CharacterIDGroups; // 0x3E0
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reverseModifierBehaviorFlagImmuneMap; // 0x3E8
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reversedModifierStatusTypeImmuneMap; // 0x3F0
-		::Il2CppArray<::System::UInt32>* _ForbidRecallModifierEventMask; // 0x3F8
-		::Il2CppArray<::RPG::GameCore::PropertyAdsorptionConfig*>* _PropertyAdsorptionThreshArray; // 0x400
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::UInt32>*>* _CharacterIDGroupMap; // 0x408
+		::RPG::GameCore::TeamBlockModifierConstKeys* TeamBlockConstKeys; // 0x150
+		::System::String* BattleDefaultSceneName; // 0x158
+		::Il2CppArray<::System::Single>* ResilienceHitAdditiveWeights; // 0x160
+		::System::Single AvatarHitAdditiveWeightBase; // 0x168
+		::System::Single MonsterHitAdditiveWeightBase; // 0x16C
+		::RPG::GameCore::FixPoint StanceWeakRatio; // 0x170
+		::RPG::GameCore::FixPoint DefaultStanceResistance; // 0x178
+		::System::Single AdventureLookAtTargetLockTime; // 0x180
+		::RPG::GameCore::FixPoint SpeedToDelayDistance; // 0x188
+		::Il2CppArray<::RPG::GameCore::ModifierBehaviorVisual*>* ModifierBehaviorVisualList; // 0x190
+		::Il2CppArray<::RPG::GameCore::AbilityProperty>* SnapshotEntityInheritBlackList; // 0x198
+		::Il2CppArray<::RPG::GameCore::SkillEffect>* DamagingSkillEffect; // 0x1A0
+		::System::Single HitForce; // 0x1A8
+		::System::Single HitForce_H; // 0x1AC
+		::Il2CppArray<::RPG::GameCore::AttackType>* AttackTypeForbidCriticalList; // 0x1B0
+		::Il2CppArray<::RPG::GameCore::AttackType>* AttackTypeForbidLuckCriticalList; // 0x1B8
+		::System::Int32 MaxTurnCount; // 0x1C0
+		::Il2CppArray<::RPG::GameCore::HitTimeSlowConfig*>* HitTimeSlowConfigs; // 0x1C8
+		::Il2CppArray<::RPG::GameCore::ModifierCustomEventConfig*>* ModifierCustomEvents; // 0x1D0
+		::System::Single BattleEncounterHintDelayTime; // 0x1D8
+		::System::Single SkillReadyAnimDefaultTransitDuration; // 0x1DC
+		::System::Single DieAnimTransitDuration; // 0x1E0
+		::System::Single ViewModeSummonerToServantTransitTime; // 0x1E4
+		::System::Single MovementUpstairHeight; // 0x1E8
+		::System::Single MovementMaxSlope; // 0x1EC
+		::System::Single MovementDownMinSlope; // 0x1F0
+		::System::Single MovementDownstairDepth; // 0x1F4
+		::System::Single NPCDialogFaceToPlayerAngle; // 0x1F8
+		::System::Single AddBuffPerformTimeInterval; // 0x1FC
+		::System::Single AddBuffPerformTimeMax; // 0x200
+		::System::Single SkillTargetBeyondTargetIntensity; // 0x204
+		::System::Single SkillTargetBeyondTargetFadeTime; // 0x208
+		::System::Single BackRowExceptSkillTargetIntensity; // 0x20C
+		::System::Single BackRowExceptSkillTargetFadeTime; // 0x210
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::RPG::GameCore::ModifierBehaviorFlagList*>* ModifierBehaviorFlagImmuneMap; // 0x218
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::RPG::GameCore::ModifierStatusTypeList*>* ModifierStatusTypeImmuneMap; // 0x220
+		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlagListPair*>* ModifierBehaviorFlagAntiDebuffResistList; // 0x228
+		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* ModifierBehaviorFlagKeepOnDeathrattle; // 0x230
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::RPG::GameCore::ModifierBehaviorFlagEventConfigList*>* ModifierBehaviorFlagEventMap; // 0x238
+		::System::Boolean UploadReplay; // 0x240
+		::System::Boolean SaveReplay; // 0x241
+		::System::String* StoryPlayerUniqueName; // 0x248
+		::System::String* StoryPlayerBoyID; // 0x250
+		::System::String* StoryPlayerGirlID; // 0x258
+		::System::Single StoryEndOpenUIDelayTime; // 0x260
+		::System::Single StoryStartCloseUIDelayTime; // 0x264
+		::RPG::GameCore::BattleComboConfig* ComboConstConfig; // 0x268
+		::System::Single AdventureCommonBtnCD; // 0x270
+		::Il2CppArray<::RPG::GameCore::StageType>* StageTypesNeedQuitVerify; // 0x278
+		::System::Boolean PlayOccurAfterFrozen; // 0x280
+		::System::Single OccurAnimNormalizeStart; // 0x284
+		::System::Single OccurAnimNormalizeTransition; // 0x288
+		::System::Single BreakExtendAnimDelay; // 0x28C
+		::System::Single BreakExtendAnimDelayOnGround; // 0x290
+		::System::Single BreakExtendAnimDelayHitMotion; // 0x294
+		::System::Int32 HitFrameMiniInterval; // 0x298
+		::System::String* StageWavePerformStartStringKey; // 0x2A0
+		::System::String* DefaultStageWavePerformStartString; // 0x2A8
+		::System::String* AutoBattleUseSkillPerformForLightTeamStartString; // 0x2B0
+		::System::String* AutoBattleUseSkillPerformForDarkTeamStartString; // 0x2B8
+		::System::String* CinemachineVirtualCameraTemplatePath; // 0x2C0
+		::Il2CppArray<::RPG::GameCore::TeammateAttackFormationConfig*>* TeammateAttackFormationConfigList; // 0x2C8
+		::System::String* TwoTeammateAttackFormationName; // 0x2D0
+		::System::Int32 OnLineReplayMaxCacheCount; // 0x2D8
+		::Il2CppArray<::System::String*>* FormationAsset; // 0x2E0
+		::Il2CppArray<::System::String*>* TimelineDataAsset; // 0x2E8
+		::Il2CppArray<::System::String*>* ProjectileCurveAsset; // 0x2F0
+		::System::UInt32 GameCoreDesignDataVersion; // 0x2F8
+		::System::Single LeastSkillNormalPerformTime; // 0x2FC
+		::System::Single LeastSkillBpPerformTime; // 0x300
+		::System::Single LeastSkillUltraPerformTime; // 0x304
+		::System::Single LeastSkillServantPerformTime; // 0x308
+		::System::Single LeastSkillElationPerformTime; // 0x30C
+		::System::String* MainMonsterUniqueName; // 0x310
+		::RPG::GameCore::FixPoint StanceBreakActionDelayChangeRatio; // 0x318
+		::RPG::GameCore::FixPoint RedStanceBreakActionDelayChangeRatio; // 0x320
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::RPG::GameCore::SkillDamageTypePreshowConfig*>* SkillDamageTypePreshowConfigs; // 0x328
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::MonsterRank, ::RPG::GameCore::FixPoint>* MonsterRankScore; // 0x330
+		::Il2CppArray<::System::UInt32>* BossMultiInstWhiteList; // 0x338
+		::System::Boolean EnableModifyDotDamageData; // 0x340
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* CustomSwitchMap; // 0x348
+		::System::Single WaitFaceToTaskFinishLimitAngle; // 0x350
+		::System::Int32 ModifierRecallLimit; // 0x354
+		::System::Int32 RangePropertyRecallLimit; // 0x358
+		::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* ForbidRecallModifierEventList; // 0x360
+		::Il2CppArray<::System::UInt32>* RewindMazeBuffList; // 0x368
+		::Il2CppArray<::RPG::GameCore::SomatoWidthRangeConfig*>* SomatoWidthRange; // 0x370
+		::Il2CppArray<::RPG::GameCore::AbilityProperty>* ServantSyncPropertyList; // 0x378
+		::Il2CppArray<::RPG::GameCore::AbilityProperty>* BackendSyncExceptPropertyList; // 0x380
+		::Il2CppArray<::RPG::GameCore::AbilityProperty>* BEServantSyncExceptPropertyList; // 0x388
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StageType, ::System::UInt32>* StagePuppetBeyondLimitMaxCount; // 0x390
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StageType, ::RPG::GameCore::BattleReportCustomValueList*>* BattleReportCustomValueByStage; // 0x398
+		::System::UInt32 StatisticSummonMonsterLimit; // 0x3A0
+		::RPG::GameCore::RogueMagicConstDynamicValueKeys* RogueMagicConstDynamicValueKeys; // 0x3A8
+		::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* ServantModifierEventWhiteList; // 0x3B0
+		::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* MuteModifierGlobalListenWhiteList; // 0x3B8
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::PropertyAdsorptionConfig*>* PropertyAdsorptions; // 0x3C0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DepartedConfig*>* DepartedConfigGroups; // 0x3C8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::AvatarChangeTemplate*>* AvatarChangeTemplateGroups; // 0x3D0
+		::System::Single AnimEventTimeSliceThreshold; // 0x3D8
+		::System::Single AbortMoveSkipRootMotionThreshTime; // 0x3DC
+		::System::String* EmptyAvatarPrefabPath; // 0x3E0
+		::Il2CppArray<::RPG::GameCore::CharacterIDGroupConfig*>* CharacterIDGroups; // 0x3E8
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reverseModifierBehaviorFlagImmuneMap; // 0x3F0
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reversedModifierStatusTypeImmuneMap; // 0x3F8
+		::Il2CppArray<::System::UInt32>* _ForbidRecallModifierEventMask; // 0x400
+		::Il2CppArray<::RPG::GameCore::PropertyAdsorptionConfig*>* _PropertyAdsorptionThreshArray; // 0x408
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::UInt32>*>* _CharacterIDGroupMap; // 0x410
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GameCoreConstValue*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GameCoreConstValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameCoreConstValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameCoreConstValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		::RPG::GameCore::ModifierCustomEventConfig* FindModifierCustomEventConfig(::RPG::GameCore::JsonEnum* ty)
+		::RPG::GameCore::ModifierCustomEventConfig* FindModifierCustomEventConfig(::RPG::GameCore::JsonEnum* a1)
 		{
-			return ((::RPG::GameCore::ModifierCustomEventConfig*(*)(::PVOID, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTCONFIG_OFFSET))(this, ty);
+			return ((::RPG::GameCore::ModifierCustomEventConfig*(*)(::PVOID, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTCONFIG_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* FindModifierCustomEventGroup(::RPG::GameCore::JsonEnum* ty)
+		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* FindModifierCustomEventGroup(::RPG::GameCore::JsonEnum* a1)
 		{
-			return ((::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>*(*)(::PVOID, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTGROUP_OFFSET))(this, ty);
+			return ((::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>*(*)(::PVOID, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTGROUP_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* get_ReverseModifierBehaviorFlagImmuneMap()
@@ -243,19 +245,19 @@ namespace RPG::GameCore
 			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEDMODIFIERSTATUSTYPEIMMUNEMAP_OFFSET))(this);
 		}
 
-		::System::Boolean CheckModifierEventCanRecall(::RPG::GameCore::TurnBasedModifierEvent eEvent)
+		::System::Boolean CheckModifierEventCanRecall(::RPG::GameCore::TurnBasedModifierEvent a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierEvent))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_CHECKMODIFIEREVENTCANRECALL_OFFSET))(this, eEvent);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierEvent))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_CHECKMODIFIEREVENTCANRECALL_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::PropertyAdsorptionConfig* GetPropertyAdsorptionConfig(::RPG::GameCore::AbilityProperty eProperty)
+		::RPG::GameCore::PropertyAdsorptionConfig* GetPropertyAdsorptionConfig(::RPG::GameCore::AbilityProperty a1)
 		{
-			return ((::RPG::GameCore::PropertyAdsorptionConfig*(*)(::PVOID, ::RPG::GameCore::AbilityProperty))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_GETPROPERTYADSORPTIONCONFIG_OFFSET))(this, eProperty);
+			return ((::RPG::GameCore::PropertyAdsorptionConfig*(*)(::PVOID, ::RPG::GameCore::AbilityProperty))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_GETPROPERTYADSORPTIONCONFIG_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsInCharacterIDGroup(::System::String* sGroupName, ::System::UInt32 nCharacterID)
+		::System::Boolean IsInCharacterIDGroup(::System::String* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_ISINCHARACTERIDGROUP_OFFSET))(this, sGroupName, nCharacterID);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTVALUE_ISINCHARACTERIDGROUP_OFFSET))(this, a1, a2);
 		}
 	};
 }

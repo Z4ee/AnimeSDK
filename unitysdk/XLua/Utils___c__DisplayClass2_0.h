@@ -5,12 +5,12 @@
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x117485E0)
-#define XLUA_UTILS___C__DISPLAYCLASS2_0__GETALLTYPES_B__0_OFFSET UNITYSDK_OFFSET(0x11756280)
+#define XLUA_UTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1343FD30)
+#define XLUA_UTILS___C__DISPLAYCLASS2_0__GETALLTYPES_B__0_OFFSET UNITYSDK_OFFSET(0x1344E010)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass2_0_TypeDefinitionIndex = 46461;
+	inline static constexpr unsigned int Utils___c__DisplayClass2_0_TypeDefinitionIndex = 47051;
 
 	class Utils___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetAllTypes_b__0(::System::Type* type)
+		::System::Boolean _GetAllTypes_b__0(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS2_0__GETALLTYPES_B__0_OFFSET))(this, type);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS2_0__GETALLTYPES_B__0_OFFSET))(this, a1);
 		}
 	};
 }

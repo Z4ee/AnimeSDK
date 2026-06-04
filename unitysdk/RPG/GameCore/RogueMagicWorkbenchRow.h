@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMAGICWORKBENCHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D25560)
-#define RPG_GAMECORE_ROGUEMAGICWORKBENCHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D256B0)
+#define RPG_GAMECORE_ROGUEMAGICWORKBENCHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B49180)
+#define RPG_GAMECORE_ROGUEMAGICWORKBENCHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B492C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicWorkbenchRow_TypeDefinitionIndex = 14073;
+	inline static constexpr unsigned int RogueMagicWorkbenchRow_TypeDefinitionIndex = 14137;
 
 	class RogueMagicWorkbenchRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICWORKBENCHROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueMagicWorkbenchRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMagicWorkbenchRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicWorkbenchRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICWORKBENCHROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicWorkbenchRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICWORKBENCHROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

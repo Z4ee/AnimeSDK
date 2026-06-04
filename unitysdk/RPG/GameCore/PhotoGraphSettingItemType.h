@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphSettingItemType_TypeDefinitionIndex = 18074;
+	inline static constexpr unsigned int PhotoGraphSettingItemType_TypeDefinitionIndex = 18098;
 
 	enum class PhotoGraphSettingItemType : ::System::Int32
 	{

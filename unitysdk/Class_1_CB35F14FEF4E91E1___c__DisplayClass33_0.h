@@ -5,10 +5,10 @@
 namespace RPGTools { class TimelineData; }
 namespace System { class String; }
 
-#define CLASS_1_CB35F14FEF4E91E1___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBABC1C0)
-#define CLASS_1_CB35F14FEF4E91E1___C__DISPLAYCLASS33_0___GETTIMELINEPATH_B__0_OFFSET UNITYSDK_OFFSET(0xBABC1F0)
+#define CLASS_1_CB35F14FEF4E91E1___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA8BF7D0)
+#define CLASS_1_CB35F14FEF4E91E1___C__DISPLAYCLASS33_0___GETTIMELINEPATH_B__0_OFFSET UNITYSDK_OFFSET(0xA8BF800)
 
-inline static constexpr unsigned int Class_1_CB35F14FEF4E91E1___c__DisplayClass33_0_TypeDefinitionIndex = 45207;
+inline static constexpr unsigned int Class_1_CB35F14FEF4E91E1___c__DisplayClass33_0_TypeDefinitionIndex = 45764;
 
 class Class_1_CB35F14FEF4E91E1___c__DisplayClass33_0 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CB35F14FEF4E91E1___C__DISPLAYCLASS33_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __GetTimelinePath_b__0(::RPGTools::TimelineData* x)
+	::System::Boolean __GetTimelinePath_b__0(::RPGTools::TimelineData* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPGTools::TimelineData*))((::PBYTE)hIl2Cpp + CLASS_1_CB35F14FEF4E91E1___C__DISPLAYCLASS33_0___GETTIMELINEPATH_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPGTools::TimelineData*))((::PBYTE)hIl2Cpp + CLASS_1_CB35F14FEF4E91E1___C__DISPLAYCLASS33_0___GETTIMELINEPATH_B__0_OFFSET))(this, a1);
 	}
 };

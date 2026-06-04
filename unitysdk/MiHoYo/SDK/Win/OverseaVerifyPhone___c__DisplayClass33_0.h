@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class OverseaVerifyPhone; }
 
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174A1F80)
-#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE___C__DISPLAYCLASS33_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x174A2380)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182A15B0)
+#define MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE___C__DISPLAYCLASS33_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x182A19B0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaVerifyPhone___c__DisplayClass33_0_TypeDefinitionIndex = 8262;
+	inline static constexpr unsigned int OverseaVerifyPhone___c__DisplayClass33_0_TypeDefinitionIndex = 9165;
 
 	class OverseaVerifyPhone___c__DisplayClass33_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE___C__DISPLAYCLASS33_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::Win::OverseaVerifyPhone* dialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::Win::OverseaVerifyPhone* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::OverseaVerifyPhone*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE___C__DISPLAYCLASS33_0__SHOW_B__0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::OverseaVerifyPhone*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAVERIFYPHONE___C__DISPLAYCLASS33_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

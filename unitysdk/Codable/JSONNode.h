@@ -14,74 +14,74 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Text { class StringBuilder; }
 
-#define CODABLE_JSONNODE_ADD_1_OFFSET UNITYSDK_OFFSET(0x8B84640)
-#define CODABLE_JSONNODE_ADD_OFFSET UNITYSDK_OFFSET(0x8B85650)
-#define CODABLE_JSONNODE_EQUALS_OFFSET UNITYSDK_OFFSET(0x8B862D0)
-#define CODABLE_JSONNODE_ESCAPE_OFFSET UNITYSDK_OFFSET(0x8B86450)
-#define CODABLE_JSONNODE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8B862E0)
-#define CODABLE_JSONNODE_GET_ASARRAY_OFFSET UNITYSDK_OFFSET(0x8B85CA0)
-#define CODABLE_JSONNODE_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x8B85BE0)
-#define CODABLE_JSONNODE_GET_ASDOUBLE_OFFSET UNITYSDK_OFFSET(0x8B85AC0)
-#define CODABLE_JSONNODE_GET_ASFLOAT_OFFSET UNITYSDK_OFFSET(0x8B85BA0)
-#define CODABLE_JSONNODE_GET_ASINT_OFFSET UNITYSDK_OFFSET(0x8B85B60)
-#define CODABLE_JSONNODE_GET_ASOBJECT_OFFSET UNITYSDK_OFFSET(0x8B85D10)
-#define CODABLE_JSONNODE_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x8B85690)
-#define CODABLE_JSONNODE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x8B855C0)
-#define CODABLE_JSONNODE_GET_DEEPCHILDREN_OFFSET UNITYSDK_OFFSET(0x8B85700)
-#define CODABLE_JSONNODE_GET_ESCAPEBUILDER_OFFSET UNITYSDK_OFFSET(0x8B862F0)
-#define CODABLE_JSONNODE_GET_INLINE_OFFSET UNITYSDK_OFFSET(0x8B85630)
-#define CODABLE_JSONNODE_GET_ISARRAY_OFFSET UNITYSDK_OFFSET(0x8B85610)
-#define CODABLE_JSONNODE_GET_ISBOOLEAN_OFFSET UNITYSDK_OFFSET(0x8B855F0)
-#define CODABLE_JSONNODE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x8B85600)
-#define CODABLE_JSONNODE_GET_ISNUMBER_OFFSET UNITYSDK_OFFSET(0x8B855D0)
-#define CODABLE_JSONNODE_GET_ISOBJECT_OFFSET UNITYSDK_OFFSET(0x8B85620)
-#define CODABLE_JSONNODE_GET_ISSTRING_OFFSET UNITYSDK_OFFSET(0x8B855E0)
-#define CODABLE_JSONNODE_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x8B85580)
-#define CODABLE_JSONNODE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x8B85560)
-#define CODABLE_JSONNODE_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x8B85A20)
-#define CODABLE_JSONNODE_GET_LINQ_OFFSET UNITYSDK_OFFSET(0x8B858C0)
-#define CODABLE_JSONNODE_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x8B85A70)
-#define CODABLE_JSONNODE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x8B855A0)
-#define CODABLE_JSONNODE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x8B83470)
-#define CODABLE_JSONNODE_OP_IMPLICIT_10_OFFSET UNITYSDK_OFFSET(0x8B862B0)
-#define CODABLE_JSONNODE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x8B85DD0)
-#define CODABLE_JSONNODE_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x8B85E90)
-#define CODABLE_JSONNODE_OP_IMPLICIT_3_OFFSET UNITYSDK_OFFSET(0x8B85EE0)
-#define CODABLE_JSONNODE_OP_IMPLICIT_4_OFFSET UNITYSDK_OFFSET(0x8B85FA0)
-#define CODABLE_JSONNODE_OP_IMPLICIT_5_OFFSET UNITYSDK_OFFSET(0x8B85FF0)
-#define CODABLE_JSONNODE_OP_IMPLICIT_6_OFFSET UNITYSDK_OFFSET(0x8B860B0)
-#define CODABLE_JSONNODE_OP_IMPLICIT_7_OFFSET UNITYSDK_OFFSET(0x8B860F0)
-#define CODABLE_JSONNODE_OP_IMPLICIT_8_OFFSET UNITYSDK_OFFSET(0x8B861B0)
-#define CODABLE_JSONNODE_OP_IMPLICIT_9_OFFSET UNITYSDK_OFFSET(0x8B861F0)
-#define CODABLE_JSONNODE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x8B85D80)
-#define CODABLE_JSONNODE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x8B862C0)
-#define CODABLE_JSONNODE_PARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x8B86800)
-#define CODABLE_JSONNODE_PARSE_OFFSET UNITYSDK_OFFSET(0x8B86AC0)
-#define CODABLE_JSONNODE_REMOVE_1_OFFSET UNITYSDK_OFFSET(0x8B85670)
-#define CODABLE_JSONNODE_REMOVE_2_OFFSET UNITYSDK_OFFSET(0x8B85680)
-#define CODABLE_JSONNODE_REMOVE_OFFSET UNITYSDK_OFFSET(0x8B85660)
-#define CODABLE_JSONNODE_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x8B85C60)
-#define CODABLE_JSONNODE_SET_ASDOUBLE_OFFSET UNITYSDK_OFFSET(0x8B85B10)
-#define CODABLE_JSONNODE_SET_ASFLOAT_OFFSET UNITYSDK_OFFSET(0x8B85BC0)
-#define CODABLE_JSONNODE_SET_ASINT_OFFSET UNITYSDK_OFFSET(0x8B85B80)
-#define CODABLE_JSONNODE_SET_INLINE_OFFSET UNITYSDK_OFFSET(0x8B85640)
-#define CODABLE_JSONNODE_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x8B85590)
-#define CODABLE_JSONNODE_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x8B85570)
-#define CODABLE_JSONNODE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x8B855B0)
-#define CODABLE_JSONNODE_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x8B85820)
-#define CODABLE_JSONNODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8B85780)
-#define CODABLE_JSONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x8B83FB0)
+#define CODABLE_JSONNODE_ADD_1_OFFSET UNITYSDK_OFFSET(0xA0A09A0)
+#define CODABLE_JSONNODE_ADD_OFFSET UNITYSDK_OFFSET(0xA0A18E0)
+#define CODABLE_JSONNODE_EQUALS_OFFSET UNITYSDK_OFFSET(0xA0A2290)
+#define CODABLE_JSONNODE_ESCAPE_OFFSET UNITYSDK_OFFSET(0xA0A2400)
+#define CODABLE_JSONNODE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA0A22A0)
+#define CODABLE_JSONNODE_GET_ASARRAY_OFFSET UNITYSDK_OFFSET(0xA0A1EE0)
+#define CODABLE_JSONNODE_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0xA0A1E20)
+#define CODABLE_JSONNODE_GET_ASDOUBLE_OFFSET UNITYSDK_OFFSET(0xA0A1D00)
+#define CODABLE_JSONNODE_GET_ASFLOAT_OFFSET UNITYSDK_OFFSET(0xA0A1DE0)
+#define CODABLE_JSONNODE_GET_ASINT_OFFSET UNITYSDK_OFFSET(0xA0A1DA0)
+#define CODABLE_JSONNODE_GET_ASOBJECT_OFFSET UNITYSDK_OFFSET(0xA0A1F50)
+#define CODABLE_JSONNODE_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0xA0A1920)
+#define CODABLE_JSONNODE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xA0A1850)
+#define CODABLE_JSONNODE_GET_DEEPCHILDREN_OFFSET UNITYSDK_OFFSET(0xA0A1990)
+#define CODABLE_JSONNODE_GET_ESCAPEBUILDER_OFFSET UNITYSDK_OFFSET(0xA0A22B0)
+#define CODABLE_JSONNODE_GET_INLINE_OFFSET UNITYSDK_OFFSET(0xA0A18C0)
+#define CODABLE_JSONNODE_GET_ISARRAY_OFFSET UNITYSDK_OFFSET(0xA0A18A0)
+#define CODABLE_JSONNODE_GET_ISBOOLEAN_OFFSET UNITYSDK_OFFSET(0xA0A1880)
+#define CODABLE_JSONNODE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0xA0A1890)
+#define CODABLE_JSONNODE_GET_ISNUMBER_OFFSET UNITYSDK_OFFSET(0xA0A1860)
+#define CODABLE_JSONNODE_GET_ISOBJECT_OFFSET UNITYSDK_OFFSET(0xA0A18B0)
+#define CODABLE_JSONNODE_GET_ISSTRING_OFFSET UNITYSDK_OFFSET(0xA0A1870)
+#define CODABLE_JSONNODE_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0xA0A1810)
+#define CODABLE_JSONNODE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA0A17F0)
+#define CODABLE_JSONNODE_GET_KEYS_OFFSET UNITYSDK_OFFSET(0xA0A1C60)
+#define CODABLE_JSONNODE_GET_LINQ_OFFSET UNITYSDK_OFFSET(0xA0A1B50)
+#define CODABLE_JSONNODE_GET_VALUES_OFFSET UNITYSDK_OFFSET(0xA0A1CB0)
+#define CODABLE_JSONNODE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA0A1830)
+#define CODABLE_JSONNODE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xA09F410)
+#define CODABLE_JSONNODE_OP_IMPLICIT_10_OFFSET UNITYSDK_OFFSET(0xA0A2270)
+#define CODABLE_JSONNODE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0xA0A2010)
+#define CODABLE_JSONNODE_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0xA0A2050)
+#define CODABLE_JSONNODE_OP_IMPLICIT_3_OFFSET UNITYSDK_OFFSET(0xA0A20A0)
+#define CODABLE_JSONNODE_OP_IMPLICIT_4_OFFSET UNITYSDK_OFFSET(0xA0A20E0)
+#define CODABLE_JSONNODE_OP_IMPLICIT_5_OFFSET UNITYSDK_OFFSET(0xA0A2130)
+#define CODABLE_JSONNODE_OP_IMPLICIT_6_OFFSET UNITYSDK_OFFSET(0xA0A2170)
+#define CODABLE_JSONNODE_OP_IMPLICIT_7_OFFSET UNITYSDK_OFFSET(0xA0A21B0)
+#define CODABLE_JSONNODE_OP_IMPLICIT_8_OFFSET UNITYSDK_OFFSET(0xA0A21F0)
+#define CODABLE_JSONNODE_OP_IMPLICIT_9_OFFSET UNITYSDK_OFFSET(0xA0A2230)
+#define CODABLE_JSONNODE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0xA0A1FC0)
+#define CODABLE_JSONNODE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xA0A2280)
+#define CODABLE_JSONNODE_PARSEELEMENT_OFFSET UNITYSDK_OFFSET(0xA0A27E0)
+#define CODABLE_JSONNODE_PARSE_OFFSET UNITYSDK_OFFSET(0xA0A2AA0)
+#define CODABLE_JSONNODE_REMOVE_1_OFFSET UNITYSDK_OFFSET(0xA0A1900)
+#define CODABLE_JSONNODE_REMOVE_2_OFFSET UNITYSDK_OFFSET(0xA0A1910)
+#define CODABLE_JSONNODE_REMOVE_OFFSET UNITYSDK_OFFSET(0xA0A18F0)
+#define CODABLE_JSONNODE_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0xA0A1EA0)
+#define CODABLE_JSONNODE_SET_ASDOUBLE_OFFSET UNITYSDK_OFFSET(0xA0A1D50)
+#define CODABLE_JSONNODE_SET_ASFLOAT_OFFSET UNITYSDK_OFFSET(0xA0A1E00)
+#define CODABLE_JSONNODE_SET_ASINT_OFFSET UNITYSDK_OFFSET(0xA0A1DC0)
+#define CODABLE_JSONNODE_SET_INLINE_OFFSET UNITYSDK_OFFSET(0xA0A18D0)
+#define CODABLE_JSONNODE_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0xA0A1820)
+#define CODABLE_JSONNODE_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xA0A1800)
+#define CODABLE_JSONNODE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xA0A1840)
+#define CODABLE_JSONNODE_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0xA0A1AB0)
+#define CODABLE_JSONNODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA0A1A10)
+#define CODABLE_JSONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xA0A02E0)
 
 namespace Codable
 {
-	inline static constexpr unsigned int JSONNode_TypeDefinitionIndex = 42670;
+	inline static constexpr unsigned int JSONNode_TypeDefinitionIndex = 43473;
 
 	class JSONNode : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_forceASCII()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(JSONNode_TypeDefinitionIndex)->GetStaticField(0xF520);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(JSONNode_TypeDefinitionIndex)->GetStaticField(0x138E0);
 		}
 		static ::System::Text::StringBuilder** StaticGet_m_EscapeBuilder()
 		{
@@ -93,24 +93,24 @@ namespace Codable
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE__CTOR_OFFSET))(this);
 		}
 
-		::Codable::JSONNode* get_Item(::System::Int32 aIndex)
+		::Codable::JSONNode* get_Item(::System::Int32 a1)
 		{
-			return ((::Codable::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_ITEM_OFFSET))(this, aIndex);
+			return ((::Codable::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::Int32 aIndex, ::Codable::JSONNode* value)
+		::System::Void set_Item(::System::Int32 a1, ::Codable::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ITEM_OFFSET))(this, aIndex, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
-		::Codable::JSONNode* get_Item_1(::System::String* aKey)
+		::Codable::JSONNode* get_Item_1(::System::String* a1)
 		{
-			return ((::Codable::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_ITEM_1_OFFSET))(this, aKey);
+			return ((::Codable::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_ITEM_1_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item_1(::System::String* aKey, ::Codable::JSONNode* value)
+		::System::Void set_Item_1(::System::String* a1, ::Codable::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ITEM_1_OFFSET))(this, aKey, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ITEM_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Value()
@@ -118,9 +118,9 @@ namespace Codable
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::String* value)
+		::System::Void set_Value(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_VALUE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Count()
@@ -163,34 +163,34 @@ namespace Codable
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_INLINE_OFFSET))(this);
 		}
 
-		::System::Void set_Inline(::System::Boolean value)
+		::System::Void set_Inline(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_INLINE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_INLINE_OFFSET))(this, a1);
 		}
 
-		::System::Void Add(::System::String* aKey, ::Codable::JSONNode* aItem)
+		::System::Void Add(::System::String* a1, ::Codable::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ADD_OFFSET))(this, aKey, aItem);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ADD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Add_1(::Codable::JSONNode* aItem)
+		::System::Void Add_1(::Codable::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ADD_1_OFFSET))(this, aItem);
+			return ((::System::Void(*)(::PVOID, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ADD_1_OFFSET))(this, a1);
 		}
 
-		::Codable::JSONNode* Remove(::System::String* aKey)
+		::Codable::JSONNode* Remove(::System::String* a1)
 		{
-			return ((::Codable::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_REMOVE_OFFSET))(this, aKey);
+			return ((::Codable::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_REMOVE_OFFSET))(this, a1);
 		}
 
-		::Codable::JSONNode* Remove_1(::System::Int32 aIndex)
+		::Codable::JSONNode* Remove_1(::System::Int32 a1)
 		{
-			return ((::Codable::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_REMOVE_1_OFFSET))(this, aIndex);
+			return ((::Codable::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_REMOVE_1_OFFSET))(this, a1);
 		}
 
-		::Codable::JSONNode* Remove_2(::Codable::JSONNode* aNode)
+		::Codable::JSONNode* Remove_2(::Codable::JSONNode* a1)
 		{
-			return ((::Codable::JSONNode*(*)(::PVOID, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_REMOVE_2_OFFSET))(this, aNode);
+			return ((::Codable::JSONNode*(*)(::PVOID, ::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_REMOVE_2_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IEnumerable_1<::Codable::JSONNode*>* get_Children()
@@ -208,9 +208,9 @@ namespace Codable
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* ToString_1(::System::Int32 aIndent)
+		::System::String* ToString_1(::System::Int32 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_TOSTRING_1_OFFSET))(this, aIndent);
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_TOSTRING_1_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*>>* get_Linq()
@@ -233,9 +233,9 @@ namespace Codable
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_ASDOUBLE_OFFSET))(this);
 		}
 
-		::System::Void set_AsDouble(::System::Double value)
+		::System::Void set_AsDouble(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ASDOUBLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ASDOUBLE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_AsInt()
@@ -243,9 +243,9 @@ namespace Codable
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_ASINT_OFFSET))(this);
 		}
 
-		::System::Void set_AsInt(::System::Int32 value)
+		::System::Void set_AsInt(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ASINT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ASINT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_AsFloat()
@@ -253,9 +253,9 @@ namespace Codable
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_ASFLOAT_OFFSET))(this);
 		}
 
-		::System::Void set_AsFloat(::System::Single value)
+		::System::Void set_AsFloat(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ASFLOAT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ASFLOAT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_AsBool()
@@ -263,9 +263,9 @@ namespace Codable
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_ASBOOL_OFFSET))(this);
 		}
 
-		::System::Void set_AsBool(::System::Boolean value)
+		::System::Void set_AsBool(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ASBOOL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_SET_ASBOOL_OFFSET))(this, a1);
 		}
 
 		::Codable::JSONArray* get_AsArray()
@@ -278,74 +278,74 @@ namespace Codable
 			return ((::Codable::JSONObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_ASOBJECT_OFFSET))(this);
 		}
 
-		static ::Codable::JSONNode* op_Implicit(::System::String* s)
+		static ::Codable::JSONNode* op_Implicit(::System::String* a1)
 		{
-			return ((::Codable::JSONNode*(*)(::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_OFFSET))(s);
+			return ((::Codable::JSONNode*(*)(::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::System::String* op_Implicit_1(::Codable::JSONNode* d)
+		static ::System::String* op_Implicit_1(::Codable::JSONNode* a1)
 		{
-			return ((::System::String*(*)(::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_1_OFFSET))(d);
+			return ((::System::String*(*)(::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_1_OFFSET))(a1);
 		}
 
-		static ::Codable::JSONNode* op_Implicit_2(::System::Double n)
+		static ::Codable::JSONNode* op_Implicit_2(::System::Double a1)
 		{
-			return ((::Codable::JSONNode*(*)(::System::Double))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_2_OFFSET))(n);
+			return ((::Codable::JSONNode*(*)(::System::Double))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_2_OFFSET))(a1);
 		}
 
-		static ::System::Double op_Implicit_3(::Codable::JSONNode* d)
+		static ::System::Double op_Implicit_3(::Codable::JSONNode* a1)
 		{
-			return ((::System::Double(*)(::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_3_OFFSET))(d);
+			return ((::System::Double(*)(::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_3_OFFSET))(a1);
 		}
 
-		static ::Codable::JSONNode* op_Implicit_4(::System::Single n)
+		static ::Codable::JSONNode* op_Implicit_4(::System::Single a1)
 		{
-			return ((::Codable::JSONNode*(*)(::System::Single))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_4_OFFSET))(n);
+			return ((::Codable::JSONNode*(*)(::System::Single))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_4_OFFSET))(a1);
 		}
 
-		static ::System::Single op_Implicit_5(::Codable::JSONNode* d)
+		static ::System::Single op_Implicit_5(::Codable::JSONNode* a1)
 		{
-			return ((::System::Single(*)(::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_5_OFFSET))(d);
+			return ((::System::Single(*)(::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_5_OFFSET))(a1);
 		}
 
-		static ::Codable::JSONNode* op_Implicit_6(::System::Int32 n)
+		static ::Codable::JSONNode* op_Implicit_6(::System::Int32 a1)
 		{
-			return ((::Codable::JSONNode*(*)(::System::Int32))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_6_OFFSET))(n);
+			return ((::Codable::JSONNode*(*)(::System::Int32))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_6_OFFSET))(a1);
 		}
 
-		static ::System::Int32 op_Implicit_7(::Codable::JSONNode* d)
+		static ::System::Int32 op_Implicit_7(::Codable::JSONNode* a1)
 		{
-			return ((::System::Int32(*)(::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_7_OFFSET))(d);
+			return ((::System::Int32(*)(::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_7_OFFSET))(a1);
 		}
 
-		static ::Codable::JSONNode* op_Implicit_8(::System::Boolean b)
+		static ::Codable::JSONNode* op_Implicit_8(::System::Boolean a1)
 		{
-			return ((::Codable::JSONNode*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_8_OFFSET))(b);
+			return ((::Codable::JSONNode*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_8_OFFSET))(a1);
 		}
 
-		static ::System::Boolean op_Implicit_9(::Codable::JSONNode* d)
+		static ::System::Boolean op_Implicit_9(::Codable::JSONNode* a1)
 		{
-			return ((::System::Boolean(*)(::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_9_OFFSET))(d);
+			return ((::System::Boolean(*)(::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_9_OFFSET))(a1);
 		}
 
-		static ::Codable::JSONNode* op_Implicit_10(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*> aKeyValue)
+		static ::Codable::JSONNode* op_Implicit_10(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*> a1)
 		{
-			return ((::Codable::JSONNode*(*)(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*>))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_10_OFFSET))(aKeyValue);
+			return ((::Codable::JSONNode*(*)(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*>))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_10_OFFSET))(a1);
 		}
 
-		static ::System::Boolean op_Equality(::Codable::JSONNode* a, ::System::Object* b)
+		static ::System::Boolean op_Equality(::Codable::JSONNode* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::Codable::JSONNode*, ::System::Object*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_EQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::Codable::JSONNode*, ::System::Object*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::Codable::JSONNode* a, ::System::Object* b)
+		static ::System::Boolean op_Inequality(::Codable::JSONNode* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::Codable::JSONNode*, ::System::Object*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_INEQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::Codable::JSONNode*, ::System::Object*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -358,19 +358,19 @@ namespace Codable
 			return ((::System::Text::StringBuilder*(*)())((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_ESCAPEBUILDER_OFFSET))();
 		}
 
-		static ::System::String* Escape(::System::String* aText)
+		static ::System::String* Escape(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ESCAPE_OFFSET))(aText);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ESCAPE_OFFSET))(a1);
 		}
 
-		static ::System::Void ParseElement(::Codable::JSONNode* ctx, ::System::String* token, ::System::String* tokenName, ::System::Boolean quoted)
+		static ::System::Void ParseElement(::Codable::JSONNode* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::Codable::JSONNode*, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_PARSEELEMENT_OFFSET))(ctx, token, tokenName, quoted);
+			return ((::System::Void(*)(::Codable::JSONNode*, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_PARSEELEMENT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Codable::JSONNode* Parse(::System::String* aJSON)
+		static ::Codable::JSONNode* Parse(::System::String* a1)
 		{
-			return ((::Codable::JSONNode*(*)(::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_PARSE_OFFSET))(aJSON);
+			return ((::Codable::JSONNode*(*)(::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_PARSE_OFFSET))(a1);
 		}
 	};
 }

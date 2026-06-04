@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class AvatarUseMaterialDataRow; }
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS82_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA5F2080)
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS82_1__GETMATERIALGUIDEIDLISTBYAVATAR_B__1_OFFSET UNITYSDK_OFFSET(0xA5FC270)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS82_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBCF4C10)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS82_1__GETMATERIALGUIDEIDLISTBYAVATAR_B__1_OFFSET UNITYSDK_OFFSET(0xBCFF090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookModule___c__DisplayClass82_1_TypeDefinitionIndex = 60438;
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass82_1_TypeDefinitionIndex = 61373;
 
 	class HandbookModule___c__DisplayClass82_1 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS82_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetMaterialGuideIDListByAvatar_b__1(::RPG::GameCore::ItemConfig* item)
+		::System::Boolean _GetMaterialGuideIDListByAvatar_b__1(::RPG::GameCore::ItemConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS82_1__GETMATERIALGUIDEIDLISTBYAVATAR_B__1_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS82_1__GETMATERIALGUIDEIDLISTBYAVATAR_B__1_OFFSET))(this, a1);
 		}
 	};
 }

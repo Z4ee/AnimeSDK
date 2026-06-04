@@ -7,11 +7,11 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHARACTERSKILLITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9F78540)
+#define RPG_CLIENT_CHARACTERSKILLITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB5916A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterSkillItemData_TypeDefinitionIndex = 67023;
+	inline static constexpr unsigned int CharacterSkillItemData_TypeDefinitionIndex = 67965;
 
 	class CharacterSkillItemData : public ::System::Object
 	{

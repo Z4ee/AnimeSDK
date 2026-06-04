@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0xA131160)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0xB7AD120)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatProgress_TypeDefinitionIndex = 69842;
+	inline static constexpr unsigned int DiceCombatProgress_TypeDefinitionIndex = 70654;
 
 	class DiceCombatProgress : public ::System::Object
 	{
 	public:
-		::System::UInt32 CurProgress; // 0x10
-		::System::UInt32 TotalProgress; // 0x14
+		::System::UInt32 TotalProgress; // 0x10
+		::System::UInt32 CurProgress; // 0x14
 
 		::System::Void _ctor()
 		{

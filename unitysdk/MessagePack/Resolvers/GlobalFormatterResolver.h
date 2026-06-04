@@ -6,20 +6,20 @@ namespace MessagePack { class IFormatterResolver; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER_REGISTERRESOLVER_OFFSET UNITYSDK_OFFSET(0x17386C20)
-#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17386D00)
-#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x17386BE0)
+#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER_REGISTERRESOLVER_OFFSET UNITYSDK_OFFSET(0x18191600)
+#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x181917D0)
+#define MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x181915C0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int GlobalFormatterResolver_TypeDefinitionIndex = 9320;
+	inline static constexpr unsigned int GlobalFormatterResolver_TypeDefinitionIndex = 7223;
 
 	class GlobalFormatterResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::GlobalFormatterResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::GlobalFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(GlobalFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x43840);
+			return (::MessagePack::Resolvers::GlobalFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(GlobalFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x9A60);
 		}
 		::System::Collections::Generic::List_1<::MessagePack::IFormatterResolver*>* registeredResolvers; // 0x10
 
@@ -33,9 +33,9 @@ namespace MessagePack::Resolvers
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void RegisterResolver(::MessagePack::IFormatterResolver* resolver)
+		static ::System::Void RegisterResolver(::MessagePack::IFormatterResolver* a1)
 		{
-			return ((::System::Void(*)(::MessagePack::IFormatterResolver*))((::PBYTE)hIl2Cpp + MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER_REGISTERRESOLVER_OFFSET))(resolver);
+			return ((::System::Void(*)(::MessagePack::IFormatterResolver*))((::PBYTE)hIl2Cpp + MESSAGEPACK_RESOLVERS_GLOBALFORMATTERRESOLVER_REGISTERRESOLVER_OFFSET))(a1);
 		}
 	};
 }

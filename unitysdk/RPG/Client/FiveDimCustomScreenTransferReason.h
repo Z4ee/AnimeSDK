@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimCustomScreenTransferReason_TypeDefinitionIndex = 55829;
+	inline static constexpr unsigned int FiveDimCustomScreenTransferReason_TypeDefinitionIndex = 56584;
 
 	enum class FiveDimCustomScreenTransferReason : ::System::UInt32
 	{

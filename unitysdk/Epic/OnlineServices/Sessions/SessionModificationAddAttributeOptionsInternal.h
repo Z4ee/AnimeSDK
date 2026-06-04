@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::Sessions { class AttributeData; }
 namespace Epic::OnlineServices::Sessions { class SessionModificationAddAttributeOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16DA0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x16D90)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_ADVERTISEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x26F0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x16D10)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_SESSIONATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x16CA0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x173B0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x173A0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_ADVERTISEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x2A90)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x17320)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_SESSIONATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x172B0)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionModificationAddAttributeOptionsInternal_TypeDefinitionIndex = 41345;
+	inline static constexpr unsigned int SessionModificationAddAttributeOptionsInternal_TypeDefinitionIndex = 42148;
 
 	struct alignas(8) SessionModificationAddAttributeOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::Sessions
 		::System::IntPtr m_SessionAttribute; // 0x18
 		::Epic::OnlineServices::Sessions::SessionAttributeAdvertisementType m_AdvertisementType; // 0x20
 
-		::System::Void set_SessionAttribute(::Epic::OnlineServices::Sessions::AttributeData* value)
+		::System::Void set_SessionAttribute(::Epic::OnlineServices::Sessions::AttributeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::AttributeData*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_SESSIONATTRIBUTE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::AttributeData*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_SESSIONATTRIBUTE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_AdvertisementType(::Epic::OnlineServices::Sessions::SessionAttributeAdvertisementType value)
+		::System::Void set_AdvertisementType(::Epic::OnlineServices::Sessions::SessionAttributeAdvertisementType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionAttributeAdvertisementType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_ADVERTISEMENTTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionAttributeAdvertisementType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_ADVERTISEMENTTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::SessionModificationAddAttributeOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::SessionModificationAddAttributeOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionModificationAddAttributeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionModificationAddAttributeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONADDATTRIBUTEOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

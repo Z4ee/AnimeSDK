@@ -7,14 +7,14 @@ class StateTag;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define AUISTATEMANAGER_CHECKINDEX_OFFSET UNITYSDK_OFFSET(0x1210FF40)
-#define AUISTATEMANAGER_FRESHSTATE_OFFSET UNITYSDK_OFFSET(0x12110690)
-#define AUISTATEMANAGER_GETALLTAG_OFFSET UNITYSDK_OFFSET(0x1210FE20)
-#define AUISTATEMANAGER_METHOD_5_4820FAF758595035_OFFSET UNITYSDK_OFFSET(0x121101C0)
-#define AUISTATEMANAGER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1210FDD0)
-#define AUISTATEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x12110860)
+#define AUISTATEMANAGER_CHECKINDEX_OFFSET UNITYSDK_OFFSET(0x13976FA0)
+#define AUISTATEMANAGER_FRESHSTATE_OFFSET UNITYSDK_OFFSET(0x13977770)
+#define AUISTATEMANAGER_GETALLTAG_OFFSET UNITYSDK_OFFSET(0x13976E40)
+#define AUISTATEMANAGER_METHOD_5_134D4FD742CDB047_OFFSET UNITYSDK_OFFSET(0x13977220)
+#define AUISTATEMANAGER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x13976DF0)
+#define AUISTATEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x13977950)
 
-inline static constexpr unsigned int AUiStateManager_TypeDefinitionIndex = 44320;
+inline static constexpr unsigned int AUiStateManager_TypeDefinitionIndex = 44866;
 
 class AUiStateManager : public ::UnityEngine::MonoBehaviour
 {
@@ -40,9 +40,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AUISTATEMANAGER_GETALLTAG_OFFSET))(this);
 	}
 
-	::System::Void Method_5_4820FAF758595035(::UnityEngine::Transform* a1, ::System::Boolean a2)
+	::System::Void Method_5_134D4FD742CDB047(::UnityEngine::Transform* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + AUISTATEMANAGER_METHOD_5_4820FAF758595035_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + AUISTATEMANAGER_METHOD_5_134D4FD742CDB047_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void FreshState()

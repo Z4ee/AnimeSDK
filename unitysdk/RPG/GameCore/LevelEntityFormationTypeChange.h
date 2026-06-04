@@ -6,27 +6,27 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6D6A20)
-#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6D69D0)
-#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE_GET_FORMATIONTYPE_OFFSET UNITYSDK_OFFSET(0xB6D6A80)
-#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE_GET_ISTEAMCHARACTER_OFFSET UNITYSDK_OFFSET(0xB6D6A90)
-#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE_GET_SOURCEENTITY_OFFSET UNITYSDK_OFFSET(0xB6D6A70)
-#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D69C0)
+#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE449D0)
+#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE44980)
+#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE_GET_FORMATIONTYPE_OFFSET UNITYSDK_OFFSET(0xCE44A30)
+#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE_GET_ISTEAMCHARACTER_OFFSET UNITYSDK_OFFSET(0xCE44A40)
+#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE_GET_SOURCEENTITY_OFFSET UNITYSDK_OFFSET(0xCE44A20)
+#define RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xCE44970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityFormationTypeChange_TypeDefinitionIndex = 52344;
+	inline static constexpr unsigned int LevelEntityFormationTypeChange_TypeDefinitionIndex = 53041;
 
 	class LevelEntityFormationTypeChange : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* _Entity; // 0x10
-		::System::Boolean _IsTeamCharacter; // 0x18
-		::RPG::GameCore::CharacterFormationType _FormationType; // 0x1C
+		::RPG::GameCore::CharacterFormationType _FormationType; // 0x18
+		::System::Boolean _IsTeamCharacter; // 0x1C
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* pEntity, ::RPG::GameCore::CharacterFormationType formationType, ::System::Boolean isTeamCharacter)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::CharacterFormationType a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::CharacterFormationType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE__CTOR_OFFSET))(this, pEntity, formationType, isTeamCharacter);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::CharacterFormationType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYFORMATIONTYPECHANGE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

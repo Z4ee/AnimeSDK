@@ -3,7 +3,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int MonoIOError_TypeDefinitionIndex = 721;
+	inline static constexpr unsigned int MonoIOError_TypeDefinitionIndex = 720;
 
 	enum class MonoIOError : ::System::Int32
 	{

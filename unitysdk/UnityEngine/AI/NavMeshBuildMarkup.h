@@ -4,14 +4,14 @@
 
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_AREA_OFFSET UNITYSDK_OFFSET(0x1D50)
-#define UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_IGNOREFROMBUILD_OFFSET UNITYSDK_OFFSET(0x22DFA30)
-#define UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_OVERRIDEAREA_OFFSET UNITYSDK_OFFSET(0x22DFA20)
-#define UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_ROOT_OFFSET UNITYSDK_OFFSET(0x22DFA40)
+#define UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_AREA_OFFSET UNITYSDK_OFFSET(0x21F0)
+#define UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_IGNOREFROMBUILD_OFFSET UNITYSDK_OFFSET(0x387BD50)
+#define UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_OVERRIDEAREA_OFFSET UNITYSDK_OFFSET(0x387BD40)
+#define UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_ROOT_OFFSET UNITYSDK_OFFSET(0x387BD60)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshBuildMarkup_TypeDefinitionIndex = 5384;
+	inline static constexpr unsigned int NavMeshBuildMarkup_TypeDefinitionIndex = 5661;
 
 	struct alignas(4) NavMeshBuildMarkup
 	{
@@ -20,24 +20,24 @@ namespace UnityEngine::AI
 		::System::Int32 m_IgnoreFromBuild; // 0x18
 		::System::Int32 m_InstanceID; // 0x1C
 
-		::System::Void set_overrideArea(::System::Boolean value)
+		::System::Void set_overrideArea(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_OVERRIDEAREA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_OVERRIDEAREA_OFFSET))(this, a1);
 		}
 
-		::System::Void set_area(::System::Int32 value)
+		::System::Void set_area(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_AREA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_AREA_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ignoreFromBuild(::System::Boolean value)
+		::System::Void set_ignoreFromBuild(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_IGNOREFROMBUILD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_IGNOREFROMBUILD_OFFSET))(this, a1);
 		}
 
-		::System::Void set_root(::UnityEngine::Transform* value)
+		::System::Void set_root(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_ROOT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDMARKUP_SET_ROOT_OFFSET))(this, a1);
 		}
 	};
 }

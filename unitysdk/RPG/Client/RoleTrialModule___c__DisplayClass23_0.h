@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RoleTrialEntranceData; }
 
-#define RPG_CLIENT_ROLETRIALMODULE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB12D7A0)
-#define RPG_CLIENT_ROLETRIALMODULE___C__DISPLAYCLASS23_0__GETROLETRIALENTRANCEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB12E710)
+#define RPG_CLIENT_ROLETRIALMODULE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC881A80)
+#define RPG_CLIENT_ROLETRIALMODULE___C__DISPLAYCLASS23_0__GETROLETRIALENTRANCEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC882AA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoleTrialModule___c__DisplayClass23_0_TypeDefinitionIndex = 62577;
+	inline static constexpr unsigned int RoleTrialModule___c__DisplayClass23_0_TypeDefinitionIndex = 63510;
 
 	class RoleTrialModule___c__DisplayClass23_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALMODULE___C__DISPLAYCLASS23_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetRoleTrialEntranceData_b__0(::RPG::Client::RoleTrialEntranceData* data)
+		::System::Boolean _GetRoleTrialEntranceData_b__0(::RPG::Client::RoleTrialEntranceData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RoleTrialEntranceData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALMODULE___C__DISPLAYCLASS23_0__GETROLETRIALENTRANCEDATA_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RoleTrialEntranceData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALMODULE___C__DISPLAYCLASS23_0__GETROLETRIALENTRANCEDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

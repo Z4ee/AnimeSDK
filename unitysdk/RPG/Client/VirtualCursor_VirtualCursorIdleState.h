@@ -4,14 +4,14 @@
 
 namespace RPG::Client { class VirtualCursor; }
 
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE_ENTER_OFFSET UNITYSDK_OFFSET(0xB482330)
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE_EXIT_OFFSET UNITYSDK_OFFSET(0xB482400)
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE_TICK_OFFSET UNITYSDK_OFFSET(0xB482380)
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB481FD0)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE_ENTER_OFFSET UNITYSDK_OFFSET(0xCC24B40)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE_EXIT_OFFSET UNITYSDK_OFFSET(0xCC24C10)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE_TICK_OFFSET UNITYSDK_OFFSET(0xCC24B90)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC24790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCursor_VirtualCursorIdleState_TypeDefinitionIndex = 67434;
+	inline static constexpr unsigned int VirtualCursor_VirtualCursorIdleState_TypeDefinitionIndex = 68386;
 
 	class VirtualCursor_VirtualCursorIdleState : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Enter(::RPG::Client::VirtualCursor* owner)
+		::System::Void Enter(::RPG::Client::VirtualCursor* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::VirtualCursor*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE_ENTER_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::VirtualCursor*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE_ENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void Tick(::RPG::Client::VirtualCursor* owner)
+		::System::Void Tick(::RPG::Client::VirtualCursor* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::VirtualCursor*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE_TICK_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::VirtualCursor*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORIDLESTATE_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void Exit()

@@ -10,17 +10,17 @@ namespace System::Collections { class IList; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZEARRAY_OFFSET UNITYSDK_OFFSET(0x8C23A50)
-#define HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x8C236C0)
-#define HDG_RDTSERIALIZERCONTAINERARRAY_READ_OFFSET UNITYSDK_OFFSET(0x8C24180)
-#define HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZEIMP_OFFSET UNITYSDK_OFFSET(0x8C22A40)
-#define HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x8C229A0)
-#define HDG_RDTSERIALIZERCONTAINERARRAY_WRITE_OFFSET UNITYSDK_OFFSET(0x8C24100)
-#define HDG_RDTSERIALIZERCONTAINERARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x8C22A30)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZEARRAY_OFFSET UNITYSDK_OFFSET(0xA12B510)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xA12B170)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_READ_OFFSET UNITYSDK_OFFSET(0xA12BC20)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZEIMP_OFFSET UNITYSDK_OFFSET(0xA12A510)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xA12A470)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_WRITE_OFFSET UNITYSDK_OFFSET(0xA12BBA0)
+#define HDG_RDTSERIALIZERCONTAINERARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0xA12A500)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerContainerArray_TypeDefinitionIndex = 43769;
+	inline static constexpr unsigned int rdtSerializerContainerArray_TypeDefinitionIndex = 44311;
 
 	class rdtSerializerContainerArray : public ::System::Object
 	{
@@ -34,34 +34,34 @@ namespace Hdg
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Object* Serialize(::System::Object* objIn, ::Hdg::rdtSerializerRegistry* registry)
+		static ::System::Object* Serialize(::System::Object* a1, ::Hdg::rdtSerializerRegistry* a2)
 		{
-			return ((::System::Object*(*)(::System::Object*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZE_OFFSET))(objIn, registry);
+			return ((::System::Object*(*)(::System::Object*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZE_OFFSET))(a1, a2);
 		}
 
-		::System::Void SerializeImp(::System::Collections::IList* array, ::Hdg::rdtSerializerRegistry* registry)
+		::System::Void SerializeImp(::System::Collections::IList* a1, ::Hdg::rdtSerializerRegistry* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::IList*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZEIMP_OFFSET))(this, array, registry);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::IList*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZEIMP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* Deserialize(::Hdg::rdtSerializerRegistry* registry)
+		::System::Object* Deserialize(::Hdg::rdtSerializerRegistry* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZE_OFFSET))(this, registry);
+			return ((::System::Object*(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Object* DeserializeArray(::System::Type* elementType, ::Hdg::rdtSerializerRegistry* registry)
+		::System::Object* DeserializeArray(::System::Type* a1, ::Hdg::rdtSerializerRegistry* a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Type*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZEARRAY_OFFSET))(this, elementType, registry);
+			return ((::System::Object*(*)(::PVOID, ::System::Type*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZEARRAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Write(::System::IO::BinaryWriter* w)
+		::System::Void Write(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_WRITE_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_WRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void Read(::System::IO::BinaryReader* r)
+		::System::Void Read(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_READ_OFFSET))(this, r);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_READ_OFFSET))(this, a1);
 		}
 	};
 }

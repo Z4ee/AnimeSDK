@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_NUMBERCASECONTAINER_METHOD_3_748F142DC5C73C17_OFFSET UNITYSDK_OFFSET(0x18BC2940)
-#define RPG_GAMECORE_NUMBERCASECONTAINER_METHOD_3_AC84ADEF1784E364_OFFSET UNITYSDK_OFFSET(0x18BC2980)
-#define RPG_GAMECORE_NUMBERCASECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC2970)
+#define RPG_GAMECORE_NUMBERCASECONTAINER_METHOD_3_29BB0D7CF7379E86_OFFSET UNITYSDK_OFFSET(0x199D41C0)
+#define RPG_GAMECORE_NUMBERCASECONTAINER_METHOD_3_F0E5223BF31F96E1_OFFSET UNITYSDK_OFFSET(0x199D4180)
+#define RPG_GAMECORE_NUMBERCASECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x199D41B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NumberCaseContainer_TypeDefinitionIndex = 16643;
+	inline static constexpr unsigned int NumberCaseContainer_TypeDefinitionIndex = 16673;
 
 	class NumberCaseContainer : public ::RPG::GameCore::CaseContainerBase
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NUMBERCASECONTAINER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_748F142DC5C73C17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NumberCaseContainer*& a2)
+		static ::System::Void Method_3_F0E5223BF31F96E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NumberCaseContainer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NumberCaseContainer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NUMBERCASECONTAINER_METHOD_3_748F142DC5C73C17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NumberCaseContainer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NUMBERCASECONTAINER_METHOD_3_F0E5223BF31F96E1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AC84ADEF1784E364(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NumberCaseContainer* a2)
+		static ::System::Void Method_3_29BB0D7CF7379E86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NumberCaseContainer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NumberCaseContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NUMBERCASECONTAINER_METHOD_3_AC84ADEF1784E364_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NumberCaseContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NUMBERCASECONTAINER_METHOD_3_29BB0D7CF7379E86_OFFSET))(a1, a2);
 		}
 	};
 }

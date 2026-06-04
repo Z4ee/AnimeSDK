@@ -8,26 +8,26 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define TRANSFORMVERSIONTRACKEREXTENSION_CHECKRECENTLYCHANGED_OFFSET UNITYSDK_OFFSET(0x1A68A7E0)
-#define TRANSFORMVERSIONTRACKEREXTENSION_GETTRACKER_OFFSET UNITYSDK_OFFSET(0x1A68A0D0)
-#define TRANSFORMVERSIONTRACKEREXTENSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A68A910)
+#define TRANSFORMVERSIONTRACKEREXTENSION_CHECKRECENTLYCHANGED_OFFSET UNITYSDK_OFFSET(0x1B4D5D60)
+#define TRANSFORMVERSIONTRACKEREXTENSION_GETTRACKER_OFFSET UNITYSDK_OFFSET(0x1B4D5590)
+#define TRANSFORMVERSIONTRACKEREXTENSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4D5E90)
 
-inline static constexpr unsigned int TransformVersionTrackerExtension_TypeDefinitionIndex = 40529;
+inline static constexpr unsigned int TransformVersionTrackerExtension_TypeDefinitionIndex = 41356;
 
 class TransformVersionTrackerExtension : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference_1<::TransformVersionTracker*>*>** StaticGet__TrackerDict()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference_1<::TransformVersionTracker*>*>**)Il2CppClass::FromTypeDefinitionIndex(TransformVersionTrackerExtension_TypeDefinitionIndex)->GetStaticField(0x3FF70);
-	}
 	static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet__ToRemoveTrackerList()
 	{
-		return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TransformVersionTrackerExtension_TypeDefinitionIndex)->GetStaticField(0x3FF78);
+		return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TransformVersionTrackerExtension_TypeDefinitionIndex)->GetStaticField(0x61950);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference_1<::TransformVersionTracker*>*>** StaticGet__TrackerDict()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference_1<::TransformVersionTracker*>*>**)Il2CppClass::FromTypeDefinitionIndex(TransformVersionTrackerExtension_TypeDefinitionIndex)->GetStaticField(0x61958);
 	}
 	static ::System::Int32* StaticGet__AllocTrackerCounter()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransformVersionTrackerExtension_TypeDefinitionIndex)->GetStaticField(0xE5D0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransformVersionTrackerExtension_TypeDefinitionIndex)->GetStaticField(0x13140);
 	}
 	// static const ::System::Int32 RemoveInvalidTrackerInterval = 0x3E8; // 0x0
 
@@ -36,13 +36,13 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TRANSFORMVERSIONTRACKEREXTENSION__CCTOR_OFFSET))();
 	}
 
-	static ::TransformVersionTracker* GetTracker(::UnityEngine::Transform* trans)
+	static ::TransformVersionTracker* GetTracker(::UnityEngine::Transform* a1)
 	{
-		return ((::TransformVersionTracker*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + TRANSFORMVERSIONTRACKEREXTENSION_GETTRACKER_OFFSET))(trans);
+		return ((::TransformVersionTracker*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + TRANSFORMVERSIONTRACKEREXTENSION_GETTRACKER_OFFSET))(a1);
 	}
 
-	static ::System::Boolean CheckRecentlyChanged(::UnityEngine::Transform* trans)
+	static ::System::Boolean CheckRecentlyChanged(::UnityEngine::Transform* a1)
 	{
-		return ((::System::Boolean(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + TRANSFORMVERSIONTRACKEREXTENSION_CHECKRECENTLYCHANGED_OFFSET))(trans);
+		return ((::System::Boolean(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + TRANSFORMVERSIONTRACKEREXTENSION_CHECKRECENTLYCHANGED_OFFSET))(a1);
 	}
 };

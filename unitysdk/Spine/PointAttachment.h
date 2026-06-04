@@ -5,37 +5,37 @@
 namespace Spine { class Bone; }
 namespace System { class String; }
 
-#define SPINE_POINTATTACHMENT_COMPUTEWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x19DE1470)
-#define SPINE_POINTATTACHMENT_COMPUTEWORLDROTATION_OFFSET UNITYSDK_OFFSET(0x19DE14D0)
-#define SPINE_POINTATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x19DE15A0)
-#define SPINE_POINTATTACHMENT_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x19DE1420)
-#define SPINE_POINTATTACHMENT_GET_X_OFFSET UNITYSDK_OFFSET(0x19DE13E0)
-#define SPINE_POINTATTACHMENT_GET_Y_OFFSET UNITYSDK_OFFSET(0x19DE1400)
-#define SPINE_POINTATTACHMENT_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x19DE1430)
-#define SPINE_POINTATTACHMENT_SET_X_OFFSET UNITYSDK_OFFSET(0x19DE13F0)
-#define SPINE_POINTATTACHMENT_SET_Y_OFFSET UNITYSDK_OFFSET(0x19DE1410)
-#define SPINE_POINTATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19DE1440)
-#define SPINE_POINTATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DD3580)
+#define SPINE_POINTATTACHMENT_COMPUTEWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x1AC5D990)
+#define SPINE_POINTATTACHMENT_COMPUTEWORLDROTATION_OFFSET UNITYSDK_OFFSET(0x1AC5D9F0)
+#define SPINE_POINTATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x1AC5DAC0)
+#define SPINE_POINTATTACHMENT_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x1AC5D940)
+#define SPINE_POINTATTACHMENT_GET_X_OFFSET UNITYSDK_OFFSET(0x1AC5D900)
+#define SPINE_POINTATTACHMENT_GET_Y_OFFSET UNITYSDK_OFFSET(0x1AC5D920)
+#define SPINE_POINTATTACHMENT_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x1AC5D950)
+#define SPINE_POINTATTACHMENT_SET_X_OFFSET UNITYSDK_OFFSET(0x1AC5D910)
+#define SPINE_POINTATTACHMENT_SET_Y_OFFSET UNITYSDK_OFFSET(0x1AC5D930)
+#define SPINE_POINTATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AC5D960)
+#define SPINE_POINTATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC50CF0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int PointAttachment_TypeDefinitionIndex = 36420;
+	inline static constexpr unsigned int PointAttachment_TypeDefinitionIndex = 36720;
 
 	class PointAttachment : public ::Spine::Attachment
 	{
 	public:
-		::System::Single rotation; // 0x18
-		::System::Single y; // 0x1C
+		::System::Single y; // 0x18
+		::System::Single rotation; // 0x1C
 		::System::Single x; // 0x20
 
-		::System::Void _ctor(::System::String* name)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT__CTOR_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::Spine::PointAttachment* other)
+		::System::Void _ctor_1(::Spine::PointAttachment* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::PointAttachment*))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Spine::PointAttachment*))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Single get_X()
@@ -43,9 +43,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_GET_X_OFFSET))(this);
 		}
 
-		::System::Void set_X(::System::Single value)
+		::System::Void set_X(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_SET_X_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_SET_X_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Y()
@@ -53,9 +53,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_GET_Y_OFFSET))(this);
 		}
 
-		::System::Void set_Y(::System::Single value)
+		::System::Void set_Y(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_SET_Y_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_SET_Y_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Rotation()
@@ -63,19 +63,19 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_GET_ROTATION_OFFSET))(this);
 		}
 
-		::System::Void set_Rotation(::System::Single value)
+		::System::Void set_Rotation(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_SET_ROTATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_SET_ROTATION_OFFSET))(this, a1);
 		}
 
-		::System::Void ComputeWorldPosition(::Spine::Bone* bone, ::System::Single& ox, ::System::Single& oy)
+		::System::Void ComputeWorldPosition(::Spine::Bone* a1, ::System::Single& a2, ::System::Single& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Bone*, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_COMPUTEWORLDPOSITION_OFFSET))(this, bone, ox, oy);
+			return ((::System::Void(*)(::PVOID, ::Spine::Bone*, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_COMPUTEWORLDPOSITION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single ComputeWorldRotation(::Spine::Bone* bone)
+		::System::Single ComputeWorldRotation(::Spine::Bone* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_COMPUTEWORLDROTATION_OFFSET))(this, bone);
+			return ((::System::Single(*)(::PVOID, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_POINTATTACHMENT_COMPUTEWORLDROTATION_OFFSET))(this, a1);
 		}
 
 		::Spine::Attachment* Copy()

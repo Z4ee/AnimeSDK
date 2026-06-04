@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class VCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERCAMERACONFIG_METHOD_2_EAA469D64EB82AC0_OFFSET UNITYSDK_OFFSET(0x187CAAB0)
-#define RPG_GAMECORE_CHARACTERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187CABC0)
+#define RPG_GAMECORE_CHARACTERCAMERACONFIG_METHOD_2_EAA469D64EB82AC0_OFFSET UNITYSDK_OFFSET(0x19606BC0)
+#define RPG_GAMECORE_CHARACTERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19606CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterCameraConfig_TypeDefinitionIndex = 15621;
+	inline static constexpr unsigned int CharacterCameraConfig_TypeDefinitionIndex = 15680;
 
 	class CharacterCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

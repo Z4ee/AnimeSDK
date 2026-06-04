@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace RPG::GameCore { class ChenLingBattleAnimEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_PLAYBATCHANIMATION_METHOD_3_2AAE86450F02CCD2_OFFSET UNITYSDK_OFFSET(0x187DF520)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_PLAYBATCHANIMATION_METHOD_3_346B57EC7EBBC1CC_OFFSET UNITYSDK_OFFSET(0x187DF580)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_PLAYBATCHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x187DF570)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_PLAYBATCHANIMATION_METHOD_3_6409105B74D7D379_OFFSET UNITYSDK_OFFSET(0x1961D540)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_PLAYBATCHANIMATION_METHOD_3_E3EC7A04DDBE4063_OFFSET UNITYSDK_OFFSET(0x1961D5A0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_PLAYBATCHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1961D590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_PlayBatchAnimation_TypeDefinitionIndex = 14903;
+	inline static constexpr unsigned int ChenLingBattleAbility_PlayBatchAnimation_TypeDefinitionIndex = 14966;
 
 	class ChenLingBattleAbility_PlayBatchAnimation : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_PLAYBATCHANIMATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2AAE86450F02CCD2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_PlayBatchAnimation*& a2)
+		static ::System::Void Method_3_6409105B74D7D379(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_PlayBatchAnimation*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_PlayBatchAnimation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_PLAYBATCHANIMATION_METHOD_3_2AAE86450F02CCD2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_PlayBatchAnimation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_PLAYBATCHANIMATION_METHOD_3_6409105B74D7D379_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_346B57EC7EBBC1CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_PlayBatchAnimation* a2)
+		static ::System::Void Method_3_E3EC7A04DDBE4063(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_PlayBatchAnimation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_PlayBatchAnimation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_PLAYBATCHANIMATION_METHOD_3_346B57EC7EBBC1CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_PlayBatchAnimation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_PLAYBATCHANIMATION_METHOD_3_E3EC7A04DDBE4063_OFFSET))(a1, a2);
 		}
 	};
 }

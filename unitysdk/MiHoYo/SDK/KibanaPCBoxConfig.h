@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_KIBANAPCBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17566670)
+#define MIHOYO_SDK_KIBANAPCBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1834F240)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaPCBoxConfig_TypeDefinitionIndex = 6958;
+	inline static constexpr unsigned int KibanaPCBoxConfig_TypeDefinitionIndex = 7861;
 
 	class KibanaPCBoxConfig : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace MiHoYo::SDK
 		::System::Collections::Generic::List_1<::System::String*>* modules; // 0x18
 		::MiHoYo::SDK::KibanaLogLevel level; // 0x20
 
-		::System::Void _ctor(::System::String* dataString)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAPCBOXCONFIG__CTOR_OFFSET))(this, dataString);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAPCBOXCONFIG__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

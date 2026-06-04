@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GPUParticlesRenderer_AABBMode_TypeDefinitionIndex = 3997;
+	inline static constexpr unsigned int GPUParticlesRenderer_AABBMode_TypeDefinitionIndex = 4171;
 
 	enum class GPUParticlesRenderer_AABBMode : ::System::Int32
 	{

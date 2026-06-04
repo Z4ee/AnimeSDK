@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MultiPositionTypeLabel_TypeDefinitionIndex = 40462;
+inline static constexpr unsigned int MultiPositionTypeLabel_TypeDefinitionIndex = 41289;
 
 enum class MultiPositionTypeLabel : ::System::Int32
 {

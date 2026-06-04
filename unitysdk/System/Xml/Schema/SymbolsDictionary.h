@@ -9,16 +9,16 @@ namespace System::Collections { class ICollection; }
 namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class NamespaceList; }
 
-#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDNAMESPACELIST_OFFSET UNITYSDK_OFFSET(0x19FD0E60)
-#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDNAME_OFFSET UNITYSDK_OFFSET(0x19FD0D20)
-#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDWILDCARD_OFFSET UNITYSDK_OFFSET(0x19FD1250)
-#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_EXISTS_OFFSET UNITYSDK_OFFSET(0x19FD1C60)
-#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GETNAMESPACELISTSYMBOLS_OFFSET UNITYSDK_OFFSET(0x19FD13E0)
-#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GETPARTICLE_OFFSET UNITYSDK_OFFSET(0x19FD1C90)
-#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x19FD0CF0)
-#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GET_ISUPAENFORCED_OFFSET UNITYSDK_OFFSET(0x19FD0D00)
-#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_SET_ISUPAENFORCED_OFFSET UNITYSDK_OFFSET(0x19FD0D10)
-#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x19FD0C50)
+#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDNAMESPACELIST_OFFSET UNITYSDK_OFFSET(0x1AE44A60)
+#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDNAME_OFFSET UNITYSDK_OFFSET(0x1AE44920)
+#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDWILDCARD_OFFSET UNITYSDK_OFFSET(0x1AE44E70)
+#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_EXISTS_OFFSET UNITYSDK_OFFSET(0x1AE458D0)
+#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GETNAMESPACELISTSYMBOLS_OFFSET UNITYSDK_OFFSET(0x1AE45000)
+#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GETPARTICLE_OFFSET UNITYSDK_OFFSET(0x1AE45900)
+#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1AE448F0)
+#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GET_ISUPAENFORCED_OFFSET UNITYSDK_OFFSET(0x1AE44900)
+#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_SET_ISUPAENFORCED_OFFSET UNITYSDK_OFFSET(0x1AE44910)
+#define SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE44850)
 
 namespace System::Xml::Schema
 {
@@ -27,10 +27,10 @@ namespace System::Xml::Schema
 	class SymbolsDictionary : public ::System::Object
 	{
 	public:
-		::System::Collections::Hashtable* wildcards; // 0x10
+		::System::Object* particleLast; // 0x10
 		::System::Collections::Hashtable* names; // 0x18
-		::System::Object* particleLast; // 0x20
-		::System::Collections::ArrayList* particles; // 0x28
+		::System::Collections::ArrayList* particles; // 0x20
+		::System::Collections::Hashtable* wildcards; // 0x28
 		::System::Boolean isUpaEnforced; // 0x30
 		::System::Int32 last; // 0x34
 
@@ -49,39 +49,39 @@ namespace System::Xml::Schema
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GET_ISUPAENFORCED_OFFSET))(this);
 		}
 
-		::System::Void set_IsUpaEnforced(::System::Boolean value)
+		::System::Void set_IsUpaEnforced(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_SET_ISUPAENFORCED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_SET_ISUPAENFORCED_OFFSET))(this, a1);
 		}
 
-		::System::Int32 AddName(::System::Xml::XmlQualifiedName* name, ::System::Object* particle)
+		::System::Int32 AddName(::System::Xml::XmlQualifiedName* a1, ::System::Object* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Xml::XmlQualifiedName*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDNAME_OFFSET))(this, name, particle);
+			return ((::System::Int32(*)(::PVOID, ::System::Xml::XmlQualifiedName*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDNAME_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddNamespaceList(::System::Xml::Schema::NamespaceList* list, ::System::Object* particle, ::System::Boolean allowLocal)
+		::System::Void AddNamespaceList(::System::Xml::Schema::NamespaceList* a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::NamespaceList*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDNAMESPACELIST_OFFSET))(this, list, particle, allowLocal);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::NamespaceList*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDNAMESPACELIST_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AddWildcard(::System::String* wildcard, ::System::Object* particle)
+		::System::Void AddWildcard(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDWILDCARD_OFFSET))(this, wildcard, particle);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_ADDWILDCARD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::ICollection* GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList* list)
+		::System::Collections::ICollection* GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList* a1)
 		{
-			return ((::System::Collections::ICollection*(*)(::PVOID, ::System::Xml::Schema::NamespaceList*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GETNAMESPACELISTSYMBOLS_OFFSET))(this, list);
+			return ((::System::Collections::ICollection*(*)(::PVOID, ::System::Xml::Schema::NamespaceList*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GETNAMESPACELISTSYMBOLS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Exists(::System::Xml::XmlQualifiedName* name)
+		::System::Boolean Exists(::System::Xml::XmlQualifiedName* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Xml::XmlQualifiedName*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_EXISTS_OFFSET))(this, name);
+			return ((::System::Boolean(*)(::PVOID, ::System::Xml::XmlQualifiedName*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_EXISTS_OFFSET))(this, a1);
 		}
 
-		::System::Object* GetParticle(::System::Int32 symbol)
+		::System::Object* GetParticle(::System::Int32 a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GETPARTICLE_OFFSET))(this, symbol);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SYMBOLSDICTIONARY_GETPARTICLE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,29 +6,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICGAMBLEUNITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D212A0)
-#define RPG_GAMECORE_ROGUEMAGICGAMBLEUNITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D21460)
+#define RPG_GAMECORE_ROGUEMAGICGAMBLEUNITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B450B0)
+#define RPG_GAMECORE_ROGUEMAGICGAMBLEUNITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B45270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicGambleUnitRow_TypeDefinitionIndex = 14095;
+	inline static constexpr unsigned int RogueMagicGambleUnitRow_TypeDefinitionIndex = 14157;
 
 	class RogueMagicGambleUnitRow : public ::System::Object
 	{
 	public:
 		::System::String* GambleUnitIcon; // 0x10
-		::System::UInt32 GambleUnitParam; // 0x18
+		::RPG::GameCore::RogueGambleUnitType GambleUnitType; // 0x18
 		::System::UInt32 GambleUnitID; // 0x1C
-		::RPG::GameCore::RogueGambleUnitType GambleUnitType; // 0x20
+		::System::UInt32 GambleUnitParam; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICGAMBLEUNITROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueMagicGambleUnitRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMagicGambleUnitRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicGambleUnitRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICGAMBLEUNITROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicGambleUnitRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICGAMBLEUNITROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

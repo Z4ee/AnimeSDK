@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PASSTAGID_INITPASSTAG_1_OFFSET UNITYSDK_OFFSET(0x1A463BD0)
-#define UNITYENGINE_PASSTAGID_INITPASSTAG_OFFSET UNITYSDK_OFFSET(0x22E5810)
-#define UNITYENGINE_PASSTAGID__CTOR_OFFSET UNITYSDK_OFFSET(0x73450)
+#define UNITYENGINE_PASSTAGID_INITPASSTAG_1_OFFSET UNITYSDK_OFFSET(0x1B2B3EA0)
+#define UNITYENGINE_PASSTAGID_INITPASSTAG_OFFSET UNITYSDK_OFFSET(0x3882470)
+#define UNITYENGINE_PASSTAGID__CTOR_OFFSET UNITYSDK_OFFSET(0x2BCE2B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PassTagID_TypeDefinitionIndex = 4065;
+	inline static constexpr unsigned int PassTagID_TypeDefinitionIndex = 4239;
 
 	struct alignas(8) PassTagID
 	{
 		::System::String* name; // 0x10
 		::System::Int32 id; // 0x18
 
-		::System::Void _ctor(::System::String* n)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PASSTAGID__CTOR_OFFSET))(this, n);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PASSTAGID__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void InitPassTag()
@@ -27,9 +27,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PASSTAGID_INITPASSTAG_OFFSET))(this);
 		}
 
-		static ::System::Int32 InitPassTag_1(::System::String* name)
+		static ::System::Int32 InitPassTag_1(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PASSTAGID_INITPASSTAG_1_OFFSET))(name);
+			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PASSTAGID_INITPASSTAG_1_OFFSET))(a1);
 		}
 	};
 }

@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Texture; }
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xE1580)
-#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xE1570)
+#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1470A0)
+#define RPG_CUSTOMRP_PPFILTERSTACK_PPPATTERNPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x147090)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_PPPatternParameter_TypeDefinitionIndex = 47868;
+	inline static constexpr unsigned int PPFilterStack_PPPatternParameter_TypeDefinitionIndex = 48483;
 
 	struct alignas(8) PPFilterStack_PPPatternParameter
 	{

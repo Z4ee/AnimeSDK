@@ -7,7 +7,7 @@ namespace System::Reflection { class MethodInfo; }
 namespace System::Xml::Serialization { class XmlSerializationWriter; }
 namespace System::Xml::Serialization { class XmlSerializerImplementation; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_SERIALIZERDATA_CREATEWRITER_OFFSET UNITYSDK_OFFSET(0x1A02B1B0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_SERIALIZERDATA_CREATEWRITER_OFFSET UNITYSDK_OFFSET(0x1AE9D3B0)
 
 namespace System::Xml::Serialization
 {

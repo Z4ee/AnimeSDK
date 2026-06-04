@@ -6,13 +6,13 @@ namespace RPG::Client::NavMap { class SubNavMapData; }
 namespace RPG::GameCore { class RotatableRegion; }
 namespace System { class String; }
 
-#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE_GET_MAP3DPREFABPATH_OFFSET UNITYSDK_OFFSET(0xAB3E2A0)
-#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xAB3DD30)
-#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE__INITROW_OFFSET UNITYSDK_OFFSET(0xAB3DD50)
+#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE_GET_MAP3DPREFABPATH_OFFSET UNITYSDK_OFFSET(0xC24D8B0)
+#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xC24D350)
+#define RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE__INITROW_OFFSET UNITYSDK_OFFSET(0xC24D370)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int Cartography3DRotatable_TypeDefinitionIndex = 68746;
+	inline static constexpr unsigned int Cartography3DRotatable_TypeDefinitionIndex = 69558;
 
 	class Cartography3DRotatable : public ::RPG::Client::NavMap::Cartography3DBase
 	{
@@ -20,9 +20,9 @@ namespace RPG::Client::NavMap
 		::RPG::GameCore::RotatableRegion* _Row; // 0x78
 		::System::UInt32 _RegionIndex; // 0x80
 
-		::System::Void _ctor(::RPG::Client::NavMap::SubNavMapData* subNavMapData)
+		::System::Void _ctor(::RPG::Client::NavMap::SubNavMapData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::SubNavMapData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE__CTOR_OFFSET))(this, subNavMapData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::SubNavMapData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_CARTOGRAPHY3DROTATABLE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitRow()

@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETTARGETUSERIDOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8EBC5B0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETTARGETUSERIDOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8EBC5C0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETTARGETUSERIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8EBC5D0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETTARGETUSERIDOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA2F7670)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETTARGETUSERIDOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA2F7680)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETTARGETUSERIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F7690)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbySearchSetTargetUserIdOptions_TypeDefinitionIndex = 41940;
+	inline static constexpr unsigned int LobbySearchSetTargetUserIdOptions_TypeDefinitionIndex = 42743;
 
 	class LobbySearchSetTargetUserIdOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETTARGETUSERIDOPTIONS_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETTARGETUSERIDOPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETTARGETUSERIDOPTIONS_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 	};
 }

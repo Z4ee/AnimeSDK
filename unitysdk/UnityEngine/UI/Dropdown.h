@@ -21,76 +21,76 @@ namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 namespace UnityEngine::UI::CoroutineTween { template <typename T> class TweenRunner_1; }
 
-#define UNITYENGINE_UI_DROPDOWN_ADDITEM_OFFSET UNITYSDK_OFFSET(0x1A54A950)
-#define UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_1_OFFSET UNITYSDK_OFFSET(0x1A547F60)
-#define UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_2_OFFSET UNITYSDK_OFFSET(0x1A548020)
-#define UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_OFFSET UNITYSDK_OFFSET(0x1A547EE0)
-#define UNITYENGINE_UI_DROPDOWN_ALPHAFADELIST_1_OFFSET UNITYSDK_OFFSET(0x1A54A2D0)
-#define UNITYENGINE_UI_DROPDOWN_ALPHAFADELIST_OFFSET UNITYSDK_OFFSET(0x1A54AB50)
-#define UNITYENGINE_UI_DROPDOWN_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A547CB0)
-#define UNITYENGINE_UI_DROPDOWN_CLEAROPTIONS_OFFSET UNITYSDK_OFFSET(0x1A548110)
-#define UNITYENGINE_UI_DROPDOWN_CREATEBLOCKER_OFFSET UNITYSDK_OFFSET(0x1A54A420)
-#define UNITYENGINE_UI_DROPDOWN_CREATEDROPDOWNLIST_OFFSET UNITYSDK_OFFSET(0x1A54A8E0)
-#define UNITYENGINE_UI_DROPDOWN_CREATEITEM_OFFSET UNITYSDK_OFFSET(0x1A54A900)
-#define UNITYENGINE_UI_DROPDOWN_DELAYEDDESTROYDROPDOWNLIST_OFFSET UNITYSDK_OFFSET(0x1A54AD40)
-#define UNITYENGINE_UI_DROPDOWN_DESTROYBLOCKER_OFFSET UNITYSDK_OFFSET(0x1A54A8D0)
-#define UNITYENGINE_UI_DROPDOWN_DESTROYDROPDOWNLIST_OFFSET UNITYSDK_OFFSET(0x1A54A8F0)
-#define UNITYENGINE_UI_DROPDOWN_DESTROYITEM_OFFSET UNITYSDK_OFFSET(0x1A54A940)
-#define UNITYENGINE_UI_DROPDOWN_GET_ALPHAFADESPEED_OFFSET UNITYSDK_OFFSET(0x1A547920)
-#define UNITYENGINE_UI_DROPDOWN_GET_AUTOSCROLL_OFFSET UNITYSDK_OFFSET(0x1A547860)
-#define UNITYENGINE_UI_DROPDOWN_GET_CAPTIONIMAGE_OFFSET UNITYSDK_OFFSET(0x1A5476B0)
-#define UNITYENGINE_UI_DROPDOWN_GET_CAPTIONTEXT_OFFSET UNITYSDK_OFFSET(0x1A5476A0)
-#define UNITYENGINE_UI_DROPDOWN_GET_CURRENTITEM_OFFSET UNITYSDK_OFFSET(0x1A5477E0)
-#define UNITYENGINE_UI_DROPDOWN_GET_FIRSTITEM_OFFSET UNITYSDK_OFFSET(0x1A547750)
-#define UNITYENGINE_UI_DROPDOWN_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x1A547840)
-#define UNITYENGINE_UI_DROPDOWN_GET_ITEMIMAGE_OFFSET UNITYSDK_OFFSET(0x1A5476E0)
-#define UNITYENGINE_UI_DROPDOWN_GET_ITEMTEXT_OFFSET UNITYSDK_OFFSET(0x1A5476D0)
-#define UNITYENGINE_UI_DROPDOWN_GET_LASTITEM_OFFSET UNITYSDK_OFFSET(0x1A547790)
-#define UNITYENGINE_UI_DROPDOWN_GET_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1A547900)
-#define UNITYENGINE_UI_DROPDOWN_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1A546520)
-#define UNITYENGINE_UI_DROPDOWN_GET_PAUSEREFRESH_OFFSET UNITYSDK_OFFSET(0x1A547700)
-#define UNITYENGINE_UI_DROPDOWN_GET_TEMPLATE_OFFSET UNITYSDK_OFFSET(0x1A547690)
-#define UNITYENGINE_UI_DROPDOWN_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A547940)
-#define UNITYENGINE_UI_DROPDOWN_HIDE_OFFSET UNITYSDK_OFFSET(0x1A54A100)
-#define UNITYENGINE_UI_DROPDOWN_IMMEDIATEDESTROYDROPDOWNLIST_OFFSET UNITYSDK_OFFSET(0x1A547DF0)
-#define UNITYENGINE_UI_DROPDOWN_ONCANCEL_OFFSET UNITYSDK_OFFSET(0x1A54A0F0)
-#define UNITYENGINE_UI_DROPDOWN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A547EC0)
-#define UNITYENGINE_UI_DROPDOWN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A547DA0)
-#define UNITYENGINE_UI_DROPDOWN_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1A548850)
-#define UNITYENGINE_UI_DROPDOWN_ONSELECTITEM_OFFSET UNITYSDK_OFFSET(0x1A54ADB0)
-#define UNITYENGINE_UI_DROPDOWN_ONSUBMIT_OFFSET UNITYSDK_OFFSET(0x1A54A0E0)
-#define UNITYENGINE_UI_DROPDOWN_ONTOGGLEFOCUS_OFFSET UNITYSDK_OFFSET(0x1A54AE90)
-#define UNITYENGINE_UI_DROPDOWN_REFRESHSHOWNVALUE_OFFSET UNITYSDK_OFFSET(0x1A546550)
-#define UNITYENGINE_UI_DROPDOWN_SETALPHA_OFFSET UNITYSDK_OFFSET(0x1A54AC50)
-#define UNITYENGINE_UI_DROPDOWN_SETUPTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1A548170)
-#define UNITYENGINE_UI_DROPDOWN_SETVALUEWITHOUTNOTIFY_OFFSET UNITYSDK_OFFSET(0x1A547970)
-#define UNITYENGINE_UI_DROPDOWN_SET_ALPHAFADESPEED_OFFSET UNITYSDK_OFFSET(0x1A547930)
-#define UNITYENGINE_UI_DROPDOWN_SET_AUTOSCROLL_OFFSET UNITYSDK_OFFSET(0x1A5478F0)
-#define UNITYENGINE_UI_DROPDOWN_SET_CAPTIONIMAGE_OFFSET UNITYSDK_OFFSET(0x1A5476C0)
-#define UNITYENGINE_UI_DROPDOWN_SET_CAPTIONTEXT_OFFSET UNITYSDK_OFFSET(0x1A546500)
-#define UNITYENGINE_UI_DROPDOWN_SET_ITEMIMAGE_OFFSET UNITYSDK_OFFSET(0x1A5476F0)
-#define UNITYENGINE_UI_DROPDOWN_SET_ITEMTEXT_OFFSET UNITYSDK_OFFSET(0x1A546510)
-#define UNITYENGINE_UI_DROPDOWN_SET_OFFSET UNITYSDK_OFFSET(0x1A547990)
-#define UNITYENGINE_UI_DROPDOWN_SET_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1A547910)
-#define UNITYENGINE_UI_DROPDOWN_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1A547720)
-#define UNITYENGINE_UI_DROPDOWN_SET_PAUSEREFRESH_OFFSET UNITYSDK_OFFSET(0x1A547710)
-#define UNITYENGINE_UI_DROPDOWN_SET_TEMPLATE_OFFSET UNITYSDK_OFFSET(0x1A5464F0)
-#define UNITYENGINE_UI_DROPDOWN_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A547950)
-#define UNITYENGINE_UI_DROPDOWN_SHOW_OFFSET UNITYSDK_OFFSET(0x1A548860)
-#define UNITYENGINE_UI_DROPDOWN_START_OFFSET UNITYSDK_OFFSET(0x1A547D50)
-#define UNITYENGINE_UI_DROPDOWN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A54B030)
-#define UNITYENGINE_UI_DROPDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A547A70)
+#define UNITYENGINE_UI_DROPDOWN_ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B396430)
+#define UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_1_OFFSET UNITYSDK_OFFSET(0x1B393260)
+#define UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_2_OFFSET UNITYSDK_OFFSET(0x1B3933B0)
+#define UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_OFFSET UNITYSDK_OFFSET(0x1B3931E0)
+#define UNITYENGINE_UI_DROPDOWN_ALPHAFADELIST_1_OFFSET UNITYSDK_OFFSET(0x1B395D70)
+#define UNITYENGINE_UI_DROPDOWN_ALPHAFADELIST_OFFSET UNITYSDK_OFFSET(0x1B396680)
+#define UNITYENGINE_UI_DROPDOWN_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B392F90)
+#define UNITYENGINE_UI_DROPDOWN_CLEAROPTIONS_OFFSET UNITYSDK_OFFSET(0x1B393500)
+#define UNITYENGINE_UI_DROPDOWN_CREATEBLOCKER_OFFSET UNITYSDK_OFFSET(0x1B395EF0)
+#define UNITYENGINE_UI_DROPDOWN_CREATEDROPDOWNLIST_OFFSET UNITYSDK_OFFSET(0x1B3963C0)
+#define UNITYENGINE_UI_DROPDOWN_CREATEITEM_OFFSET UNITYSDK_OFFSET(0x1B3963E0)
+#define UNITYENGINE_UI_DROPDOWN_DELAYEDDESTROYDROPDOWNLIST_OFFSET UNITYSDK_OFFSET(0x1B396870)
+#define UNITYENGINE_UI_DROPDOWN_DESTROYBLOCKER_OFFSET UNITYSDK_OFFSET(0x1B3963B0)
+#define UNITYENGINE_UI_DROPDOWN_DESTROYDROPDOWNLIST_OFFSET UNITYSDK_OFFSET(0x1B3963D0)
+#define UNITYENGINE_UI_DROPDOWN_DESTROYITEM_OFFSET UNITYSDK_OFFSET(0x1B396420)
+#define UNITYENGINE_UI_DROPDOWN_GET_ALPHAFADESPEED_OFFSET UNITYSDK_OFFSET(0x1B392C40)
+#define UNITYENGINE_UI_DROPDOWN_GET_AUTOSCROLL_OFFSET UNITYSDK_OFFSET(0x1B392B90)
+#define UNITYENGINE_UI_DROPDOWN_GET_CAPTIONIMAGE_OFFSET UNITYSDK_OFFSET(0x1B3929A0)
+#define UNITYENGINE_UI_DROPDOWN_GET_CAPTIONTEXT_OFFSET UNITYSDK_OFFSET(0x1B392990)
+#define UNITYENGINE_UI_DROPDOWN_GET_CURRENTITEM_OFFSET UNITYSDK_OFFSET(0x1B392B00)
+#define UNITYENGINE_UI_DROPDOWN_GET_FIRSTITEM_OFFSET UNITYSDK_OFFSET(0x1B392A40)
+#define UNITYENGINE_UI_DROPDOWN_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x1B392B70)
+#define UNITYENGINE_UI_DROPDOWN_GET_ITEMIMAGE_OFFSET UNITYSDK_OFFSET(0x1B3929D0)
+#define UNITYENGINE_UI_DROPDOWN_GET_ITEMTEXT_OFFSET UNITYSDK_OFFSET(0x1B3929C0)
+#define UNITYENGINE_UI_DROPDOWN_GET_LASTITEM_OFFSET UNITYSDK_OFFSET(0x1B392AA0)
+#define UNITYENGINE_UI_DROPDOWN_GET_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1B392C20)
+#define UNITYENGINE_UI_DROPDOWN_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1B391910)
+#define UNITYENGINE_UI_DROPDOWN_GET_PAUSEREFRESH_OFFSET UNITYSDK_OFFSET(0x1B3929F0)
+#define UNITYENGINE_UI_DROPDOWN_GET_TEMPLATE_OFFSET UNITYSDK_OFFSET(0x1B392980)
+#define UNITYENGINE_UI_DROPDOWN_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B392C60)
+#define UNITYENGINE_UI_DROPDOWN_HIDE_OFFSET UNITYSDK_OFFSET(0x1B395BB0)
+#define UNITYENGINE_UI_DROPDOWN_IMMEDIATEDESTROYDROPDOWNLIST_OFFSET UNITYSDK_OFFSET(0x1B3930D0)
+#define UNITYENGINE_UI_DROPDOWN_ONCANCEL_OFFSET UNITYSDK_OFFSET(0x1B395BA0)
+#define UNITYENGINE_UI_DROPDOWN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B3931C0)
+#define UNITYENGINE_UI_DROPDOWN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B393080)
+#define UNITYENGINE_UI_DROPDOWN_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1B393C60)
+#define UNITYENGINE_UI_DROPDOWN_ONSELECTITEM_OFFSET UNITYSDK_OFFSET(0x1B3968E0)
+#define UNITYENGINE_UI_DROPDOWN_ONSUBMIT_OFFSET UNITYSDK_OFFSET(0x1B395B90)
+#define UNITYENGINE_UI_DROPDOWN_ONTOGGLEFOCUS_OFFSET UNITYSDK_OFFSET(0x1B3969C0)
+#define UNITYENGINE_UI_DROPDOWN_REFRESHSHOWNVALUE_OFFSET UNITYSDK_OFFSET(0x1B391940)
+#define UNITYENGINE_UI_DROPDOWN_SETALPHA_OFFSET UNITYSDK_OFFSET(0x1B396780)
+#define UNITYENGINE_UI_DROPDOWN_SETUPTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1B393590)
+#define UNITYENGINE_UI_DROPDOWN_SETVALUEWITHOUTNOTIFY_OFFSET UNITYSDK_OFFSET(0x1B392C90)
+#define UNITYENGINE_UI_DROPDOWN_SET_ALPHAFADESPEED_OFFSET UNITYSDK_OFFSET(0x1B392C50)
+#define UNITYENGINE_UI_DROPDOWN_SET_AUTOSCROLL_OFFSET UNITYSDK_OFFSET(0x1B392C10)
+#define UNITYENGINE_UI_DROPDOWN_SET_CAPTIONIMAGE_OFFSET UNITYSDK_OFFSET(0x1B3929B0)
+#define UNITYENGINE_UI_DROPDOWN_SET_CAPTIONTEXT_OFFSET UNITYSDK_OFFSET(0x1B3918F0)
+#define UNITYENGINE_UI_DROPDOWN_SET_ITEMIMAGE_OFFSET UNITYSDK_OFFSET(0x1B3929E0)
+#define UNITYENGINE_UI_DROPDOWN_SET_ITEMTEXT_OFFSET UNITYSDK_OFFSET(0x1B391900)
+#define UNITYENGINE_UI_DROPDOWN_SET_OFFSET UNITYSDK_OFFSET(0x1B392CB0)
+#define UNITYENGINE_UI_DROPDOWN_SET_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1B392C30)
+#define UNITYENGINE_UI_DROPDOWN_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1B392A10)
+#define UNITYENGINE_UI_DROPDOWN_SET_PAUSEREFRESH_OFFSET UNITYSDK_OFFSET(0x1B392A00)
+#define UNITYENGINE_UI_DROPDOWN_SET_TEMPLATE_OFFSET UNITYSDK_OFFSET(0x1B3918E0)
+#define UNITYENGINE_UI_DROPDOWN_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B392C70)
+#define UNITYENGINE_UI_DROPDOWN_SHOW_OFFSET UNITYSDK_OFFSET(0x1B393C70)
+#define UNITYENGINE_UI_DROPDOWN_START_OFFSET UNITYSDK_OFFSET(0x1B393030)
+#define UNITYENGINE_UI_DROPDOWN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B396B70)
+#define UNITYENGINE_UI_DROPDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B392D90)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Dropdown_TypeDefinitionIndex = 5586;
+	inline static constexpr unsigned int Dropdown_TypeDefinitionIndex = 5863;
 
 	class Dropdown : public ::UnityEngine::UI::Selectable
 	{
 	public:
 		static ::UnityEngine::UI::Dropdown_OptionData** StaticGet_s_NoOptionData()
 		{
-			return (::UnityEngine::UI::Dropdown_OptionData**)Il2CppClass::FromTypeDefinitionIndex(Dropdown_TypeDefinitionIndex)->GetStaticField(0x18860);
+			return (::UnityEngine::UI::Dropdown_OptionData**)Il2CppClass::FromTypeDefinitionIndex(Dropdown_TypeDefinitionIndex)->GetStaticField(0x45AF0);
 		}
 		::UnityEngine::RectTransform* m_Template; // 0x108
 		::UnityEngine::UI::Text* m_CaptionText; // 0x110
@@ -125,9 +125,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_GET_TEMPLATE_OFFSET))(this);
 		}
 
-		::System::Void set_template(::UnityEngine::RectTransform* value)
+		::System::Void set_template(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_TEMPLATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_TEMPLATE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::UI::Text* get_captionText()
@@ -135,9 +135,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::UI::Text*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_GET_CAPTIONTEXT_OFFSET))(this);
 		}
 
-		::System::Void set_captionText(::UnityEngine::UI::Text* value)
+		::System::Void set_captionText(::UnityEngine::UI::Text* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_CAPTIONTEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_CAPTIONTEXT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::UI::Image* get_captionImage()
@@ -145,9 +145,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::UI::Image*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_GET_CAPTIONIMAGE_OFFSET))(this);
 		}
 
-		::System::Void set_captionImage(::UnityEngine::UI::Image* value)
+		::System::Void set_captionImage(::UnityEngine::UI::Image* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_CAPTIONIMAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_CAPTIONIMAGE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::UI::Text* get_itemText()
@@ -155,9 +155,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::UI::Text*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_GET_ITEMTEXT_OFFSET))(this);
 		}
 
-		::System::Void set_itemText(::UnityEngine::UI::Text* value)
+		::System::Void set_itemText(::UnityEngine::UI::Text* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_ITEMTEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_ITEMTEXT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::UI::Image* get_itemImage()
@@ -165,9 +165,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::UI::Image*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_GET_ITEMIMAGE_OFFSET))(this);
 		}
 
-		::System::Void set_itemImage(::UnityEngine::UI::Image* value)
+		::System::Void set_itemImage(::UnityEngine::UI::Image* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_ITEMIMAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_ITEMIMAGE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_PauseRefresh()
@@ -175,9 +175,9 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_GET_PAUSEREFRESH_OFFSET))(this);
 		}
 
-		::System::Void set_PauseRefresh(::System::Boolean value)
+		::System::Void set_PauseRefresh(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_PAUSEREFRESH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_PAUSEREFRESH_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>* get_options()
@@ -185,9 +185,9 @@ namespace UnityEngine::UI
 			return ((::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_GET_OPTIONS_OFFSET))(this);
 		}
 
-		::System::Void set_options(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>* value)
+		::System::Void set_options(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_OPTIONS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_OPTIONS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::GameObject* get_firstItem()
@@ -215,9 +215,9 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_GET_AUTOSCROLL_OFFSET))(this);
 		}
 
-		::System::Void set_autoScroll(::System::Boolean value)
+		::System::Void set_autoScroll(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_AUTOSCROLL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_AUTOSCROLL_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::UI::Dropdown_DropdownEvent* get_onValueChanged()
@@ -225,9 +225,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::UI::Dropdown_DropdownEvent*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_GET_ONVALUECHANGED_OFFSET))(this);
 		}
 
-		::System::Void set_onValueChanged(::UnityEngine::UI::Dropdown_DropdownEvent* value)
+		::System::Void set_onValueChanged(::UnityEngine::UI::Dropdown_DropdownEvent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Dropdown_DropdownEvent*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_ONVALUECHANGED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Dropdown_DropdownEvent*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_ONVALUECHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Single get_alphaFadeSpeed()
@@ -235,9 +235,9 @@ namespace UnityEngine::UI
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_GET_ALPHAFADESPEED_OFFSET))(this);
 		}
 
-		::System::Void set_alphaFadeSpeed(::System::Single value)
+		::System::Void set_alphaFadeSpeed(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_ALPHAFADESPEED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_ALPHAFADESPEED_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_value()
@@ -245,19 +245,19 @@ namespace UnityEngine::UI
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_value(::System::Int32 value)
+		::System::Void set_value(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_VALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetValueWithoutNotify(::System::Int32 input)
+		::System::Void SetValueWithoutNotify(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SETVALUEWITHOUTNOTIFY_OFFSET))(this, input);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SETVALUEWITHOUTNOTIFY_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Int32 value, ::System::Boolean sendCallback)
+		::System::Void Set(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_OFFSET))(this, value, sendCallback);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SET_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Awake()
@@ -285,19 +285,19 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_REFRESHSHOWNVALUE_OFFSET))(this);
 		}
 
-		::System::Void AddOptions(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>* options)
+		::System::Void AddOptions(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_OFFSET))(this, options);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_OFFSET))(this, a1);
 		}
 
-		::System::Void AddOptions_1(::System::Collections::Generic::List_1<::System::String*>* options)
+		::System::Void AddOptions_1(::System::Collections::Generic::List_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_1_OFFSET))(this, options);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_1_OFFSET))(this, a1);
 		}
 
-		::System::Void AddOptions_2(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>* options)
+		::System::Void AddOptions_2(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_2_OFFSET))(this, options);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ADDOPTIONS_2_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearOptions()
@@ -310,19 +310,19 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SETUPTEMPLATE_OFFSET))(this);
 		}
 
-		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ONPOINTERCLICK_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ONPOINTERCLICK_OFFSET))(this, a1);
 		}
 
-		::System::Void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData)
+		::System::Void OnSubmit(::UnityEngine::EventSystems::BaseEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ONSUBMIT_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ONSUBMIT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData)
+		::System::Void OnCancel(::UnityEngine::EventSystems::BaseEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ONCANCEL_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ONCANCEL_OFFSET))(this, a1);
 		}
 
 		::System::Void Show()
@@ -330,54 +330,54 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SHOW_OFFSET))(this);
 		}
 
-		::UnityEngine::GameObject* CreateBlocker(::UnityEngine::Canvas* rootCanvas)
+		::UnityEngine::GameObject* CreateBlocker(::UnityEngine::Canvas* a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_CREATEBLOCKER_OFFSET))(this, rootCanvas);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_CREATEBLOCKER_OFFSET))(this, a1);
 		}
 
-		::System::Void DestroyBlocker(::UnityEngine::GameObject* blocker)
+		::System::Void DestroyBlocker(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_DESTROYBLOCKER_OFFSET))(this, blocker);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_DESTROYBLOCKER_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::GameObject* CreateDropdownList(::UnityEngine::GameObject* template_)
+		::UnityEngine::GameObject* CreateDropdownList(::UnityEngine::GameObject* a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_CREATEDROPDOWNLIST_OFFSET))(this, template_);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_CREATEDROPDOWNLIST_OFFSET))(this, a1);
 		}
 
-		::System::Void DestroyDropdownList(::UnityEngine::GameObject* dropdownList)
+		::System::Void DestroyDropdownList(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_DESTROYDROPDOWNLIST_OFFSET))(this, dropdownList);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_DESTROYDROPDOWNLIST_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::UI::Dropdown_DropdownItem* CreateItem(::UnityEngine::UI::Dropdown_DropdownItem* itemTemplate)
+		::UnityEngine::UI::Dropdown_DropdownItem* CreateItem(::UnityEngine::UI::Dropdown_DropdownItem* a1)
 		{
-			return ((::UnityEngine::UI::Dropdown_DropdownItem*(*)(::PVOID, ::UnityEngine::UI::Dropdown_DropdownItem*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_CREATEITEM_OFFSET))(this, itemTemplate);
+			return ((::UnityEngine::UI::Dropdown_DropdownItem*(*)(::PVOID, ::UnityEngine::UI::Dropdown_DropdownItem*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_CREATEITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void DestroyItem(::UnityEngine::UI::Dropdown_DropdownItem* item)
+		::System::Void DestroyItem(::UnityEngine::UI::Dropdown_DropdownItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Dropdown_DropdownItem*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_DESTROYITEM_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Dropdown_DropdownItem*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_DESTROYITEM_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::UI::Dropdown_DropdownItem* AddItem(::UnityEngine::UI::Dropdown_OptionData* data, ::System::Boolean selected, ::UnityEngine::UI::Dropdown_DropdownItem* itemTemplate, ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_DropdownItem*>* items)
+		::UnityEngine::UI::Dropdown_DropdownItem* AddItem(::UnityEngine::UI::Dropdown_OptionData* a1, ::System::Boolean a2, ::UnityEngine::UI::Dropdown_DropdownItem* a3, ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_DropdownItem*>* a4)
 		{
-			return ((::UnityEngine::UI::Dropdown_DropdownItem*(*)(::PVOID, ::UnityEngine::UI::Dropdown_OptionData*, ::System::Boolean, ::UnityEngine::UI::Dropdown_DropdownItem*, ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_DropdownItem*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ADDITEM_OFFSET))(this, data, selected, itemTemplate, items);
+			return ((::UnityEngine::UI::Dropdown_DropdownItem*(*)(::PVOID, ::UnityEngine::UI::Dropdown_OptionData*, ::System::Boolean, ::UnityEngine::UI::Dropdown_DropdownItem*, ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_DropdownItem*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ADDITEM_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void AlphaFadeList(::System::Single duration, ::System::Single alpha)
+		::System::Void AlphaFadeList(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ALPHAFADELIST_OFFSET))(this, duration, alpha);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ALPHAFADELIST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AlphaFadeList_1(::System::Single duration, ::System::Single start, ::System::Single end)
+		::System::Void AlphaFadeList_1(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ALPHAFADELIST_1_OFFSET))(this, duration, start, end);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ALPHAFADELIST_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetAlpha(::System::Single alpha)
+		::System::Void SetAlpha(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SETALPHA_OFFSET))(this, alpha);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_SETALPHA_OFFSET))(this, a1);
 		}
 
 		::System::Void Hide()
@@ -385,9 +385,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_HIDE_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* DelayedDestroyDropdownList(::System::Single delay)
+		::System::Collections::IEnumerator* DelayedDestroyDropdownList(::System::Single a1)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_DELAYEDDESTROYDROPDOWNLIST_OFFSET))(this, delay);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_DELAYEDDESTROYDROPDOWNLIST_OFFSET))(this, a1);
 		}
 
 		::System::Void ImmediateDestroyDropdownList()
@@ -395,14 +395,14 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_IMMEDIATEDESTROYDROPDOWNLIST_OFFSET))(this);
 		}
 
-		::System::Void OnSelectItem(::UnityEngine::UI::Toggle* toggle)
+		::System::Void OnSelectItem(::UnityEngine::UI::Toggle* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Toggle*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ONSELECTITEM_OFFSET))(this, toggle);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Toggle*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ONSELECTITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void OnToggleFocus(::UnityEngine::UI::Toggle* toggle, ::System::Boolean result)
+		::System::Void OnToggleFocus(::UnityEngine::UI::Toggle* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Toggle*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ONTOGGLEFOCUS_OFFSET))(this, toggle, result);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Toggle*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN_ONTOGGLEFOCUS_OFFSET))(this, a1, a2);
 		}
 	};
 }

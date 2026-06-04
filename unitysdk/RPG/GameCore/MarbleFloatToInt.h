@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleFloatToInt_TypeDefinitionIndex = 15928;
+	inline static constexpr unsigned int MarbleFloatToInt_TypeDefinitionIndex = 15981;
 
 	enum class MarbleFloatToInt : ::System::Int32
 	{

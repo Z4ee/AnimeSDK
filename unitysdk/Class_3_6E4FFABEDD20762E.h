@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/CakeRaceCoreBasePredicate_1.h"
 
-class Class_2_3ABA989E5AECB261;
+class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceFrontCatNumPredicateConfig; }
 
-#define CLASS_3_6E4FFABEDD20762E_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x17C3B440)
-#define CLASS_3_6E4FFABEDD20762E_METHOD_3_BF3065FEACF63D87_OFFSET UNITYSDK_OFFSET(0x17C3B390)
-#define CLASS_3_6E4FFABEDD20762E__CTOR_OFFSET UNITYSDK_OFFSET(0x17C3B420)
+#define CLASS_3_6E4FFABEDD20762E_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x18AFA900)
+#define CLASS_3_6E4FFABEDD20762E_METHOD_3_BF3065FEACF63D87_OFFSET UNITYSDK_OFFSET(0x18AFA850)
+#define CLASS_3_6E4FFABEDD20762E__CTOR_OFFSET UNITYSDK_OFFSET(0x18AFA8E0)
 
-inline static constexpr unsigned int Class_3_6E4FFABEDD20762E_TypeDefinitionIndex = 34806;
+inline static constexpr unsigned int Class_3_6E4FFABEDD20762E_TypeDefinitionIndex = 35089;
 
 class Class_3_6E4FFABEDD20762E : public ::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceCoreBasePredicate_1<::RPG::GameCore::CakeRaceFrontCatNumPredicateConfig*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::Class_3_6E4FFABEDD20762E*(*)(::RPG::GameCore::CakeRaceFrontCatNumPredicateConfig*, ::Class_2_F3C45F1FC7349B6E*))((::PBYTE)hIl2Cpp + CLASS_3_6E4FFABEDD20762E_METHOD_3_BF3065FEACF63D87_OFFSET))(a1, a2);
 	}
 
-	::System::Boolean IsMatchImpl(::Class_2_3ABA989E5AECB261* a1)
+	::System::Boolean IsMatchImpl(::Class_2_21AD365C113DC484* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_2_3ABA989E5AECB261*))((::PBYTE)hIl2Cpp + CLASS_3_6E4FFABEDD20762E_ISMATCHIMPL_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_21AD365C113DC484*))((::PBYTE)hIl2Cpp + CLASS_3_6E4FFABEDD20762E_ISMATCHIMPL_OFFSET))(this, a1);
 	}
 };

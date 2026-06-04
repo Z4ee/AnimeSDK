@@ -6,12 +6,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_RENDERERPACKAGE_METHOD_1_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0xA1D6600)
-#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_RENDERERPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA1D6670)
+#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_RENDERERPACKAGE_METHOD_1_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0xB859460)
+#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_RENDERERPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB8594D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceArrayBehavior_RendererPackage_TypeDefinitionIndex = 65102;
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_RendererPackage_TypeDefinitionIndex = 66028;
 
 	class Effect_InstanceArrayBehavior_RendererPackage : public ::System::Object
 	{

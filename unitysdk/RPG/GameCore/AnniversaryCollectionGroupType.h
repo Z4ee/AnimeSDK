@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnniversaryCollectionGroupType_TypeDefinitionIndex = 11963;
+	inline static constexpr unsigned int AnniversaryCollectionGroupType_TypeDefinitionIndex = 12056;
 
 	enum class AnniversaryCollectionGroupType : ::System::Int32
 	{

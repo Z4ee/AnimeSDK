@@ -4,20 +4,20 @@
 
 namespace Proto { class ItemList; }
 
-#define PROTO_ITEMLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19345690)
-#define PROTO_ITEMLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x193456C0)
-#define PROTO_ITEMLIST___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x193456D0)
+#define PROTO_ITEMLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0F8D10)
+#define PROTO_ITEMLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F8D40)
+#define PROTO_ITEMLIST___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1A0F8D50)
 
 namespace Proto
 {
-	inline static constexpr unsigned int ItemList___c_TypeDefinitionIndex = 26168;
+	inline static constexpr unsigned int ItemList___c_TypeDefinitionIndex = 26139;
 
 	class ItemList___c : public ::System::Object
 	{
 	public:
 		static ::Proto::ItemList___c** StaticGet___9()
 		{
-			return (::Proto::ItemList___c**)Il2CppClass::FromTypeDefinitionIndex(ItemList___c_TypeDefinitionIndex)->GetStaticField(0x64240);
+			return (::Proto::ItemList___c**)Il2CppClass::FromTypeDefinitionIndex(ItemList___c_TypeDefinitionIndex)->GetStaticField(0x43EA0);
 		}
 
 		static ::System::Void _cctor()

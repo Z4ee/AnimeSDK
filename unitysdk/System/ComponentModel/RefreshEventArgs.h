@@ -4,7 +4,7 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0CCF80)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF356B0)
 
 namespace System::ComponentModel
 {
@@ -15,9 +15,9 @@ namespace System::ComponentModel
 	public:
 		::System::Type* typeChanged; // 0x10
 
-		::System::Void _ctor(::System::Type* typeChanged)
+		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_OFFSET))(this, typeChanged);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

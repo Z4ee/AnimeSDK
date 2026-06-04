@@ -10,12 +10,12 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_4EB7065BFFCF025F_METHOD_3_35F1558C0CF0108B_OFFSET UNITYSDK_OFFSET(0x90A1120)
-#define CLASS_3_4EB7065BFFCF025F_METHOD_3_91FDD67960DAE507_OFFSET UNITYSDK_OFFSET(0x90A1230)
-#define CLASS_3_4EB7065BFFCF025F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x90A1860)
-#define CLASS_3_4EB7065BFFCF025F__CTOR_OFFSET UNITYSDK_OFFSET(0x90A10F0)
+#define CLASS_3_4EB7065BFFCF025F_METHOD_3_35F1558C0CF0108B_OFFSET UNITYSDK_OFFSET(0x135721C0)
+#define CLASS_3_4EB7065BFFCF025F_METHOD_3_44EED861CF526A13_OFFSET UNITYSDK_OFFSET(0x135722C0)
+#define CLASS_3_4EB7065BFFCF025F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x135729E0)
+#define CLASS_3_4EB7065BFFCF025F__CTOR_OFFSET UNITYSDK_OFFSET(0x13572190)
 
-inline static constexpr unsigned int Class_3_4EB7065BFFCF025F_TypeDefinitionIndex = 48480;
+inline static constexpr unsigned int Class_3_4EB7065BFFCF025F_TypeDefinitionIndex = 49106;
 
 class Class_3_4EB7065BFFCF025F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetupButtonListTrigger*>
 {
@@ -30,9 +30,9 @@ public:
 		return ((::RPG::GameCore::PropButtonConfig*(*)(::PVOID, ::System::String*, ::Il2CppArray<::RPG::GameCore::PropButtonConfig*>*))((::PBYTE)hIl2Cpp + CLASS_3_4EB7065BFFCF025F_METHOD_3_35F1558C0CF0108B_OFFSET))(this, a1, a2);
 	}
 
-	::System::Collections::Generic::List_1<::Class_1_3E7CB4EB71D78E39*>* Method_3_91FDD67960DAE507(::RPG::GameCore::GameEntity* a1)
+	::System::Collections::Generic::List_1<::Class_1_3E7CB4EB71D78E39*>* Method_3_44EED861CF526A13(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::System::Collections::Generic::List_1<::Class_1_3E7CB4EB71D78E39*>*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_4EB7065BFFCF025F_METHOD_3_91FDD67960DAE507_OFFSET))(this, a1);
+		return ((::System::Collections::Generic::List_1<::Class_1_3E7CB4EB71D78E39*>*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_4EB7065BFFCF025F_METHOD_3_44EED861CF526A13_OFFSET))(this, a1);
 	}
 
 	::System::Void OnTaskBegin()

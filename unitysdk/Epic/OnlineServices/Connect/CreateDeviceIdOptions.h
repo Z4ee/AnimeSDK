@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONS_GET_DEVICEMODEL_OFFSET UNITYSDK_OFFSET(0x8E434A0)
-#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONS_SET_DEVICEMODEL_OFFSET UNITYSDK_OFFSET(0x8E434B0)
-#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E434C0)
+#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONS_GET_DEVICEMODEL_OFFSET UNITYSDK_OFFSET(0xA29CFF0)
+#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONS_SET_DEVICEMODEL_OFFSET UNITYSDK_OFFSET(0xA29D000)
+#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA29D010)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int CreateDeviceIdOptions_TypeDefinitionIndex = 42274;
+	inline static constexpr unsigned int CreateDeviceIdOptions_TypeDefinitionIndex = 43077;
 
 	class CreateDeviceIdOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONS_GET_DEVICEMODEL_OFFSET))(this);
 		}
 
-		::System::Void set_DeviceModel(::System::String* value)
+		::System::Void set_DeviceModel(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONS_SET_DEVICEMODEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONS_SET_DEVICEMODEL_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeProxy_DebugMethod_TypeDefinitionIndex = 33577;
+	inline static constexpr unsigned int VolumeProxy_DebugMethod_TypeDefinitionIndex = 33859;
 
 	enum class VolumeProxy_DebugMethod : ::System::Int32
 	{

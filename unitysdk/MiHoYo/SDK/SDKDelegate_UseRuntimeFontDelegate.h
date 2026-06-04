@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1764C210)
-#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1764C240)
-#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17642350)
-#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1764C1F0)
+#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18421370)
+#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x184213A0)
+#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1841F290)
+#define MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18421300)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_UseRuntimeFontDelegate_TypeDefinitionIndex = 6831;
+	inline static constexpr unsigned int SDKDelegate_UseRuntimeFontDelegate_TypeDefinitionIndex = 7734;
 
 	class SDKDelegate_UseRuntimeFontDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke()
@@ -28,14 +28,14 @@ namespace MiHoYo::SDK
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_USERUNTIMEFONTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

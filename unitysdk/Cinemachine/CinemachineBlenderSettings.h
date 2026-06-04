@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define CINEMACHINE_CINEMACHINEBLENDERSETTINGS_GETBLENDFORVIRTUALCAMERAS_OFFSET UNITYSDK_OFFSET(0x12B67FA0)
-#define CINEMACHINE_CINEMACHINEBLENDERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x12B682F0)
+#define CINEMACHINE_CINEMACHINEBLENDERSETTINGS_GETBLENDFORVIRTUALCAMERAS_OFFSET UNITYSDK_OFFSET(0x14628170)
+#define CINEMACHINE_CINEMACHINEBLENDERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x146284A0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBlenderSettings_TypeDefinitionIndex = 36569;
+	inline static constexpr unsigned int CinemachineBlenderSettings_TypeDefinitionIndex = 36869;
 
 	class CinemachineBlenderSettings : public ::UnityEngine::ScriptableObject
 	{
@@ -24,9 +24,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBLENDERSETTINGS__CTOR_OFFSET))(this);
 		}
 
-		::Cinemachine::CinemachineBlendDefinition GetBlendForVirtualCameras(::System::String* fromCameraName, ::System::String* toCameraName, ::Cinemachine::CinemachineBlendDefinition defaultBlend)
+		::Cinemachine::CinemachineBlendDefinition GetBlendForVirtualCameras(::System::String* a1, ::System::String* a2, ::Cinemachine::CinemachineBlendDefinition a3)
 		{
-			return ((::Cinemachine::CinemachineBlendDefinition(*)(::PVOID, ::System::String*, ::System::String*, ::Cinemachine::CinemachineBlendDefinition))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBLENDERSETTINGS_GETBLENDFORVIRTUALCAMERAS_OFFSET))(this, fromCameraName, toCameraName, defaultBlend);
+			return ((::Cinemachine::CinemachineBlendDefinition(*)(::PVOID, ::System::String*, ::System::String*, ::Cinemachine::CinemachineBlendDefinition))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEBLENDERSETTINGS_GETBLENDFORVIRTUALCAMERAS_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

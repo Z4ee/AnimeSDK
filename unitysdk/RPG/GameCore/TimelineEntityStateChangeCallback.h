@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMELINEENTITYSTATECHANGECALLBACK_METHOD_2_3C8A5CF93A79E3D7_OFFSET UNITYSDK_OFFSET(0x1909D2D0)
-#define RPG_GAMECORE_TIMELINEENTITYSTATECHANGECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1909D440)
+#define RPG_GAMECORE_TIMELINEENTITYSTATECHANGECALLBACK_METHOD_2_F2A879870BA1DB7D_OFFSET UNITYSDK_OFFSET(0x19DE81F0)
+#define RPG_GAMECORE_TIMELINEENTITYSTATECHANGECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE8350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimelineEntityStateChangeCallback_TypeDefinitionIndex = 19604;
+	inline static constexpr unsigned int TimelineEntityStateChangeCallback_TypeDefinitionIndex = 19491;
 
 	class TimelineEntityStateChangeCallback : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMELINEENTITYSTATECHANGECALLBACK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3C8A5CF93A79E3D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimelineEntityStateChangeCallback*& a2)
+		static ::System::Void Method_2_F2A879870BA1DB7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimelineEntityStateChangeCallback*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimelineEntityStateChangeCallback*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMELINEENTITYSTATECHANGECALLBACK_METHOD_2_3C8A5CF93A79E3D7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimelineEntityStateChangeCallback*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMELINEENTITYSTATECHANGECALLBACK_METHOD_2_F2A879870BA1DB7D_OFFSET))(a1, a2);
 		}
 	};
 }

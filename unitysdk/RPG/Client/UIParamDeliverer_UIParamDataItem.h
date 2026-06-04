@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_UIPARAMDELIVERER_UIPARAMDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB4270A0)
+#define RPG_CLIENT_UIPARAMDELIVERER_UIPARAMDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCB872B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIParamDeliverer_UIParamDataItem_TypeDefinitionIndex = 63714;
+	inline static constexpr unsigned int UIParamDeliverer_UIParamDataItem_TypeDefinitionIndex = 64635;
 
 	class UIParamDeliverer_UIParamDataItem : public ::System::Object
 	{

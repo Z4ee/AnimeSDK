@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class RoguePickAvatarInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A6EFC2A5F317516B_METHOD_1_E2D57A3ADE797207_OFFSET UNITYSDK_OFFSET(0x11E434A0)
-#define CLASS_1_A6EFC2A5F317516B_METHOD_1_E2EB6FF297DA95BC_OFFSET UNITYSDK_OFFSET(0x11E43440)
-#define CLASS_1_A6EFC2A5F317516B__CTOR_OFFSET UNITYSDK_OFFSET(0x11E43490)
+#define CLASS_1_A6EFC2A5F317516B_METHOD_1_80D66DC67DDE041F_OFFSET UNITYSDK_OFFSET(0xAF1F7E0)
+#define CLASS_1_A6EFC2A5F317516B_METHOD_1_E2EB6FF297DA95BC_OFFSET UNITYSDK_OFFSET(0xAF1F780)
+#define CLASS_1_A6EFC2A5F317516B__CTOR_OFFSET UNITYSDK_OFFSET(0xAF1F7D0)
 
-inline static constexpr unsigned int Class_1_A6EFC2A5F317516B_TypeDefinitionIndex = 57722;
+inline static constexpr unsigned int Class_1_A6EFC2A5F317516B_TypeDefinitionIndex = 58523;
 
 class Class_1_A6EFC2A5F317516B : public ::System::Object
 {
@@ -27,8 +27,8 @@ public:
 		return ((::Class_1_A6EFC2A5F317516B*(*)(::RPG::Client::RoguePickAvatarInfo*))((::PBYTE)hIl2Cpp + CLASS_1_A6EFC2A5F317516B_METHOD_1_E2EB6FF297DA95BC_OFFSET))(a1);
 	}
 
-	::System::Void Method_1_E2D57A3ADE797207(::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* a1)
+	::System::Void Method_1_80D66DC67DDE041F(::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>*))((::PBYTE)hIl2Cpp + CLASS_1_A6EFC2A5F317516B_METHOD_1_E2D57A3ADE797207_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + CLASS_1_A6EFC2A5F317516B_METHOD_1_80D66DC67DDE041F_OFFSET))(this, a1);
 	}
 };

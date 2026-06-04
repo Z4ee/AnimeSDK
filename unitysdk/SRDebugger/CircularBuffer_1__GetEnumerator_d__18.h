@@ -7,7 +7,7 @@ namespace SRDebugger { template <typename T> class CircularBuffer_1; }
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int CircularBuffer_1__GetEnumerator_d__18_TypeDefinitionIndex = 35319;
+	inline static constexpr unsigned int CircularBuffer_1__GetEnumerator_d__18_TypeDefinitionIndex = 35619;
 
 	template <typename T>
 	class CircularBuffer_1__GetEnumerator_d__18 : public ::System::Object

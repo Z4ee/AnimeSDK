@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloorCustomValueSetSource_TypeDefinitionIndex = 19664;
+	inline static constexpr unsigned int FloorCustomValueSetSource_TypeDefinitionIndex = 23186;
 
 	enum class FloorCustomValueSetSource : ::System::Int32
 	{

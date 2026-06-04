@@ -9,11 +9,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class VCameraBlend; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CAMERANAMEDDYNAMICOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x9F1F450)
+#define RPG_CLIENT_CAMERANAMEDDYNAMICOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0xB4BC0E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraNamedDynamicOffset_TypeDefinitionIndex = 64261;
+	inline static constexpr unsigned int CameraNamedDynamicOffset_TypeDefinitionIndex = 65182;
 
 	class CameraNamedDynamicOffset : public ::System::Object
 	{

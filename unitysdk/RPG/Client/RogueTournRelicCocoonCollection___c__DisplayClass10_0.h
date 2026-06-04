@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueTournRelicCocoonData; }
 
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB103D40)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS10_0__GETCOCOONDATABYID_B__0_OFFSET UNITYSDK_OFFSET(0xB104A20)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC857230)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS10_0__GETCOCOONDATABYID_B__0_OFFSET UNITYSDK_OFFSET(0xC857F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournRelicCocoonCollection___c__DisplayClass10_0_TypeDefinitionIndex = 62461;
+	inline static constexpr unsigned int RogueTournRelicCocoonCollection___c__DisplayClass10_0_TypeDefinitionIndex = 63394;
 
 	class RogueTournRelicCocoonCollection___c__DisplayClass10_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS10_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetCocoonDataByID_b__0(::RPG::Client::RogueTournRelicCocoonData* item)
+		::System::Boolean _GetCocoonDataByID_b__0(::RPG::Client::RogueTournRelicCocoonData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTournRelicCocoonData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS10_0__GETCOCOONDATABYID_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTournRelicCocoonData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__DISPLAYCLASS10_0__GETCOCOONDATABYID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

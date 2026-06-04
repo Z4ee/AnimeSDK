@@ -4,22 +4,22 @@
 
 namespace System::Threading { class SendOrPostCallback; }
 
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT_INVOKE_OFFSET UNITYSDK_OFFSET(0x17864010)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17863FF0)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1861D890)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1861D870)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int OSSpecificSynchronizationContext_InvocationContext_TypeDefinitionIndex = 843;
+	inline static constexpr unsigned int OSSpecificSynchronizationContext_InvocationContext_TypeDefinitionIndex = 842;
 
 	class OSSpecificSynchronizationContext_InvocationContext : public ::System::Object
 	{
 	public:
-		::System::Object* m_State; // 0x10
-		::System::Threading::SendOrPostCallback* m_Delegate; // 0x18
+		::System::Threading::SendOrPostCallback* m_Delegate; // 0x10
+		::System::Object* m_State; // 0x18
 
-		::System::Void _ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state)
+		::System::Void _ctor(::System::Threading::SendOrPostCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::SendOrPostCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT__CTOR_OFFSET))(this, d, state);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::SendOrPostCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONCONTEXT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()

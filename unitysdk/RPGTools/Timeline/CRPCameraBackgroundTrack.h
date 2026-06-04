@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB89EEE0)
-#define RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB89F090)
-#define RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB89F170)
+#define RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFE2EB0)
+#define RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE3030)
+#define RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFE3110)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraBackgroundTrack_TypeDefinitionIndex = 44637;
+	inline static constexpr unsigned int CRPCameraBackgroundTrack_TypeDefinitionIndex = 45184;
 
 	class CRPCameraBackgroundTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -27,9 +27,9 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERABACKGROUNDTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

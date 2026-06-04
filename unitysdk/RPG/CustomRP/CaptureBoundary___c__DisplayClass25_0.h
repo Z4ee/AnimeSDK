@@ -7,21 +7,21 @@ namespace RPG::CustomRP { class CaptureBoundary; }
 namespace RPG::CustomRP { class CaptureBoundary_FetchTextureDelegate; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x1811E630)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x1811E660)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__2_OFFSET UNITYSDK_OFFSET(0x1811E690)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1811DB40)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x18EC11B0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x18EC11E0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__2_OFFSET UNITYSDK_OFFSET(0x18EC1210)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC0700)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureBoundary___c__DisplayClass25_0_TypeDefinitionIndex = 34985;
+	inline static constexpr unsigned int CaptureBoundary___c__DisplayClass25_0_TypeDefinitionIndex = 35270;
 
 	class CaptureBoundary___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::RPG::CustomRP::CaptureBoundary* __4__this; // 0x10
-		::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate* fd; // 0x18
-		::UnityEngine::Camera* camera; // 0x20
+		::RPG::CustomRP::CaptureBoundary_FetchTextureDelegate* fd; // 0x10
+		::UnityEngine::Camera* camera; // 0x18
+		::RPG::CustomRP::CaptureBoundary* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -38,9 +38,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__1_OFFSET))(this);
 		}
 
-		::System::Void _CaptureImpl_b__2(::Unity::Collections::NativeArray_1<::System::Byte>& data)
+		::System::Void _CaptureImpl_b__2(::Unity::Collections::NativeArray_1<::System::Byte>& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Byte>&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__2_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Byte>&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY___C__DISPLAYCLASS25_0__CAPTUREIMPL_B__2_OFFSET))(this, a1);
 		}
 	};
 }

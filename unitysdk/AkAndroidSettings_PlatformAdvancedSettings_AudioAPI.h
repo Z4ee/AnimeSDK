@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkAndroidSettings_PlatformAdvancedSettings_AudioAPI_TypeDefinitionIndex = 40364;
+inline static constexpr unsigned int AkAndroidSettings_PlatformAdvancedSettings_AudioAPI_TypeDefinitionIndex = 41191;
 
 enum class AkAndroidSettings_PlatformAdvancedSettings_AudioAPI : ::System::Int32
 {

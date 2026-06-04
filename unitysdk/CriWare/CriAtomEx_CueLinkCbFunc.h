@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12BCB870)
-#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12BCB8E0)
-#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x12BC6630)
-#define CRIWARE_CRIATOMEX_CUELINKCBFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC6C50)
+#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14688BA0)
+#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14688C10)
+#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x14683570)
+#define CRIWARE_CRIATOMEX_CUELINKCBFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x14688B30)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CueLinkCbFunc_TypeDefinitionIndex = 36726;
+	inline static constexpr unsigned int CriAtomEx_CueLinkCbFunc_TypeDefinitionIndex = 37026;
 
 	class CriAtomEx_CueLinkCbFunc : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUELINKCBFUNC__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUELINKCBFUNC__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::CriWare::CriAtomEx_CueLinkInfo& info)
+		::System::Void Invoke(::CriWare::CriAtomEx_CueLinkInfo& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomEx_CueLinkInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUELINKCBFUNC_INVOKE_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomEx_CueLinkInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUELINKCBFUNC_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::CriWare::CriAtomEx_CueLinkInfo& info, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::CriWare::CriAtomEx_CueLinkInfo& a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::CriWare::CriAtomEx_CueLinkInfo&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUELINKCBFUNC_BEGININVOKE_OFFSET))(this, info, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::CriWare::CriAtomEx_CueLinkInfo&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUELINKCBFUNC_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::CriWare::CriAtomEx_CueLinkInfo& info, ::System::IAsyncResult* result)
+		::System::Void EndInvoke(::CriWare::CriAtomEx_CueLinkInfo& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomEx_CueLinkInfo&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUELINKCBFUNC_ENDINVOKE_OFFSET))(this, info, result);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomEx_CueLinkInfo&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUELINKCBFUNC_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

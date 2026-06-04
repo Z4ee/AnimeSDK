@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamRecommendData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9B823E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_1__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__3_OFFSET UNITYSDK_OFFSET(0x9B82870)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB16BC10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_1__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__3_OFFSET UNITYSDK_OFFSET(0xB16C2D0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass4_1_TypeDefinitionIndex = 69149;
+	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass4_1_TypeDefinitionIndex = 69961;
 
 	class IdleLiveTeamRecommendInfo___c__DisplayClass4_1 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetRecommendDataListSortedByWeight_b__3(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* data)
+		::System::Boolean _GetRecommendDataListSortedByWeight_b__3(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_1__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__3_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_1__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__3_OFFSET))(this, a1);
 		}
 	};
 }

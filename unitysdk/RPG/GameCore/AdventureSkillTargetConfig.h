@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVENTURESKILLTARGETCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1867D1F0)
-#define RPG_GAMECORE_ADVENTURESKILLTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1867D350)
+#define RPG_GAMECORE_ADVENTURESKILLTARGETCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19453F70)
+#define RPG_GAMECORE_ADVENTURESKILLTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194540D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillTargetConfig_TypeDefinitionIndex = 16615;
+	inline static constexpr unsigned int AdventureSkillTargetConfig_TypeDefinitionIndex = 16646;
 
 	class AdventureSkillTargetConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESKILLTARGETCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AdventureSkillTargetConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureSkillTargetConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureSkillTargetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESKILLTARGETCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureSkillTargetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESKILLTARGETCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

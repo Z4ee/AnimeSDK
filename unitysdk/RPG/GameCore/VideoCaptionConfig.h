@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class VideoCaption; }
 
-#define RPG_GAMECORE_VIDEOCAPTIONCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190F3540)
-#define RPG_GAMECORE_VIDEOCAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190F3610)
+#define RPG_GAMECORE_VIDEOCAPTIONCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E4C220)
+#define RPG_GAMECORE_VIDEOCAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E4C2E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VideoCaptionConfig_TypeDefinitionIndex = 16100;
+	inline static constexpr unsigned int VideoCaptionConfig_TypeDefinitionIndex = 16150;
 
 	class VideoCaptionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VIDEOCAPTIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::VideoCaptionConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VideoCaptionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VideoCaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VIDEOCAPTIONCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VideoCaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VIDEOCAPTIONCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

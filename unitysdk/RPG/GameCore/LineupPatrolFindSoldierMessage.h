@@ -5,18 +5,18 @@
 class Class_2_2ECF3E74BC6E7972;
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LINEUPPATROLFINDSOLDIERMESSAGE_EMPTY_OFFSET UNITYSDK_OFFSET(0xB6EB300)
-#define RPG_GAMECORE_LINEUPPATROLFINDSOLDIERMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB6EB340)
+#define RPG_GAMECORE_LINEUPPATROLFINDSOLDIERMESSAGE_EMPTY_OFFSET UNITYSDK_OFFSET(0xCE599F0)
+#define RPG_GAMECORE_LINEUPPATROLFINDSOLDIERMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xCE59A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineupPatrolFindSoldierMessage_TypeDefinitionIndex = 48403;
+	inline static constexpr unsigned int LineupPatrolFindSoldierMessage_TypeDefinitionIndex = 49029;
 
 	class LineupPatrolFindSoldierMessage : public ::System::Object
 	{
 	public:
-		::Class_2_2ECF3E74BC6E7972* OfficerTask; // 0x10
-		::RPG::GameCore::GameEntity* Soldier; // 0x18
+		::RPG::GameCore::GameEntity* Soldier; // 0x10
+		::Class_2_2ECF3E74BC6E7972* OfficerTask; // 0x18
 
 		::System::Void _ctor()
 		{

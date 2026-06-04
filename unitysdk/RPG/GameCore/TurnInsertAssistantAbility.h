@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY_METHOD_3_8D641ADFB3F7A682_OFFSET UNITYSDK_OFFSET(0x190D45B0)
-#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY_METHOD_3_BBD86DD485F877EC_OFFSET UNITYSDK_OFFSET(0x190D44E0)
-#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x190D4560)
+#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY_METHOD_3_AADAC172CA47B4F0_OFFSET UNITYSDK_OFFSET(0x19E25AE0)
+#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY_METHOD_3_BBD86DD485F877EC_OFFSET UNITYSDK_OFFSET(0x19E25A10)
+#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19E25A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertAssistantAbility_TypeDefinitionIndex = 22550;
+	inline static constexpr unsigned int TurnInsertAssistantAbility_TypeDefinitionIndex = 22290;
 
 	class TurnInsertAssistantAbility : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertAssistantAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTASSISTANTABILITY_METHOD_3_BBD86DD485F877EC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8D641ADFB3F7A682(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertAssistantAbility* a2)
+		static ::System::Void Method_3_AADAC172CA47B4F0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertAssistantAbility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertAssistantAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTASSISTANTABILITY_METHOD_3_8D641ADFB3F7A682_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertAssistantAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTASSISTANTABILITY_METHOD_3_AADAC172CA47B4F0_OFFSET))(a1, a2);
 		}
 	};
 }

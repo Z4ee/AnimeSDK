@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define AKVERTEX_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A66EC30)
-#define AKVERTEX_CLONE_OFFSET UNITYSDK_OFFSET(0x1A66ECC0)
-#define AKVERTEX_GETSIZEOF_OFFSET UNITYSDK_OFFSET(0x1A66EC80)
-#define AKVERTEX_GET_X_OFFSET UNITYSDK_OFFSET(0x1A66E9E0)
-#define AKVERTEX_GET_Y_OFFSET UNITYSDK_OFFSET(0x1A66EA90)
-#define AKVERTEX_GET_Z_OFFSET UNITYSDK_OFFSET(0x1A66EB40)
-#define AKVERTEX_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A66EB90)
-#define AKVERTEX_SET_X_OFFSET UNITYSDK_OFFSET(0x1A66E980)
-#define AKVERTEX_SET_Y_OFFSET UNITYSDK_OFFSET(0x1A66EA30)
-#define AKVERTEX_SET_Z_OFFSET UNITYSDK_OFFSET(0x1A66EAE0)
-#define AKVERTEX_ZERO_OFFSET UNITYSDK_OFFSET(0x1A66E930)
-#define AKVERTEX__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A66EC20)
-#define AKVERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1A66EC00)
+#define AKVERTEX_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B4B9DB0)
+#define AKVERTEX_CLONE_OFFSET UNITYSDK_OFFSET(0x1B4B9E40)
+#define AKVERTEX_GETSIZEOF_OFFSET UNITYSDK_OFFSET(0x1B4B9E00)
+#define AKVERTEX_GET_X_OFFSET UNITYSDK_OFFSET(0x1B4B9B60)
+#define AKVERTEX_GET_Y_OFFSET UNITYSDK_OFFSET(0x1B4B9C10)
+#define AKVERTEX_GET_Z_OFFSET UNITYSDK_OFFSET(0x1B4B9CC0)
+#define AKVERTEX_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B4B9D10)
+#define AKVERTEX_SET_X_OFFSET UNITYSDK_OFFSET(0x1B4B9B00)
+#define AKVERTEX_SET_Y_OFFSET UNITYSDK_OFFSET(0x1B4B9BB0)
+#define AKVERTEX_SET_Z_OFFSET UNITYSDK_OFFSET(0x1B4B9C60)
+#define AKVERTEX_ZERO_OFFSET UNITYSDK_OFFSET(0x1B4B9AB0)
+#define AKVERTEX__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B4B9DA0)
+#define AKVERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B9D80)
 
-inline static constexpr unsigned int AkVertex_TypeDefinitionIndex = 40410;
+inline static constexpr unsigned int AkVertex_TypeDefinitionIndex = 41237;
 
 class AkVertex : public ::System::Object
 {
@@ -29,9 +29,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKVERTEX__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _ctor_1(::System::Single x, ::System::Single y, ::System::Single z)
+	::System::Void _ctor_1(::System::Single a1, ::System::Single a2, ::System::Single a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AKVERTEX__CTOR_1_OFFSET))(this, x, y, z);
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AKVERTEX__CTOR_1_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Zero()
@@ -39,9 +39,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKVERTEX_ZERO_OFFSET))(this);
 	}
 
-	::System::Void set_X(::System::Single value)
+	::System::Void set_X(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKVERTEX_SET_X_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKVERTEX_SET_X_OFFSET))(this, a1);
 	}
 
 	::System::Single get_X()
@@ -49,9 +49,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKVERTEX_GET_X_OFFSET))(this);
 	}
 
-	::System::Void set_Y(::System::Single value)
+	::System::Void set_Y(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKVERTEX_SET_Y_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKVERTEX_SET_Y_OFFSET))(this, a1);
 	}
 
 	::System::Single get_Y()
@@ -59,9 +59,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKVERTEX_GET_Y_OFFSET))(this);
 	}
 
-	::System::Void set_Z(::System::Single value)
+	::System::Void set_Z(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKVERTEX_SET_Z_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKVERTEX_SET_Z_OFFSET))(this, a1);
 	}
 
 	::System::Single get_Z()
@@ -69,9 +69,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKVERTEX_GET_Z_OFFSET))(this);
 	}
 
-	static ::UnityEngine::Vector3 op_Implicit(::AkVertex* vector)
+	static ::UnityEngine::Vector3 op_Implicit(::AkVertex* a1)
 	{
-		return ((::UnityEngine::Vector3(*)(::AkVertex*))((::PBYTE)hIl2Cpp + AKVERTEX_OP_IMPLICIT_OFFSET))(vector);
+		return ((::UnityEngine::Vector3(*)(::AkVertex*))((::PBYTE)hIl2Cpp + AKVERTEX_OP_IMPLICIT_OFFSET))(a1);
 	}
 
 	::System::Void Clear()
@@ -84,8 +84,8 @@ public:
 		return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + AKVERTEX_GETSIZEOF_OFFSET))();
 	}
 
-	::System::Void Clone(::AkVertex* other)
+	::System::Void Clone(::AkVertex* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkVertex*))((::PBYTE)hIl2Cpp + AKVERTEX_CLONE_OFFSET))(this, other);
+		return ((::System::Void(*)(::PVOID, ::AkVertex*))((::PBYTE)hIl2Cpp + AKVERTEX_CLONE_OFFSET))(this, a1);
 	}
 };

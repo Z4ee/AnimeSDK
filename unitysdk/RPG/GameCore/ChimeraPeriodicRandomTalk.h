@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraTalkContentWithWeight; }
 
-#define RPG_GAMECORE_CHIMERAPERIODICRANDOMTALK_METHOD_3_575AC62B04A05021_OFFSET UNITYSDK_OFFSET(0x188090C0)
-#define RPG_GAMECORE_CHIMERAPERIODICRANDOMTALK_METHOD_3_78783645F584EAC9_OFFSET UNITYSDK_OFFSET(0x18809130)
-#define RPG_GAMECORE_CHIMERAPERIODICRANDOMTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x18809120)
+#define RPG_GAMECORE_CHIMERAPERIODICRANDOMTALK_METHOD_3_2418E58DB6439DDE_OFFSET UNITYSDK_OFFSET(0x1964A880)
+#define RPG_GAMECORE_CHIMERAPERIODICRANDOMTALK_METHOD_3_42084D168C879C5A_OFFSET UNITYSDK_OFFSET(0x1964A810)
+#define RPG_GAMECORE_CHIMERAPERIODICRANDOMTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1964A870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraPeriodicRandomTalk_TypeDefinitionIndex = 15016;
+	inline static constexpr unsigned int ChimeraPeriodicRandomTalk_TypeDefinitionIndex = 15079;
 
 	class ChimeraPeriodicRandomTalk : public ::RPG::GameCore::ChimeraTalk
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAPERIODICRANDOMTALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_575AC62B04A05021(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraPeriodicRandomTalk*& a2)
+		static ::System::Void Method_3_42084D168C879C5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraPeriodicRandomTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraPeriodicRandomTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAPERIODICRANDOMTALK_METHOD_3_575AC62B04A05021_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraPeriodicRandomTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAPERIODICRANDOMTALK_METHOD_3_42084D168C879C5A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_78783645F584EAC9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraPeriodicRandomTalk* a2)
+		static ::System::Void Method_3_2418E58DB6439DDE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraPeriodicRandomTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraPeriodicRandomTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAPERIODICRANDOMTALK_METHOD_3_78783645F584EAC9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraPeriodicRandomTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAPERIODICRANDOMTALK_METHOD_3_2418E58DB6439DDE_OFFSET))(a1, a2);
 		}
 	};
 }

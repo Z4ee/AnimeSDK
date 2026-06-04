@@ -8,25 +8,25 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class MultipleDropUsedData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLEMULTIPLEDROP_OFFSET UNITYSDK_OFFSET(0xA327020)
-#define RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLERESULT_OFFSET UNITYSDK_OFFSET(0xA326EE0)
-#define RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLETIME_OFFSET UNITYSDK_OFFSET(0xA326FD0)
-#define RPG_CLIENT_FARMBATTLERESULTINFO_GET_DECOMPOSEINFO_OFFSET UNITYSDK_OFFSET(0xA327240)
-#define RPG_CLIENT_FARMBATTLERESULTINFO_GET_LASTBATTLEMULTIPLEDROPUSEDDATALIST_OFFSET UNITYSDK_OFFSET(0xA327270)
-#define RPG_CLIENT_FARMBATTLERESULTINFO_GET_LASTBATTLETIME_OFFSET UNITYSDK_OFFSET(0xA327250)
-#define RPG_CLIENT_FARMBATTLERESULTINFO_GET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xA327230)
-#define RPG_CLIENT_FARMBATTLERESULTINFO_SET_LASTBATTLETIME_OFFSET UNITYSDK_OFFSET(0xA327260)
-#define RPG_CLIENT_FARMBATTLERESULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA327280)
+#define RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLEMULTIPLEDROP_OFFSET UNITYSDK_OFFSET(0xB978500)
+#define RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLERESULT_OFFSET UNITYSDK_OFFSET(0xB9783C0)
+#define RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLETIME_OFFSET UNITYSDK_OFFSET(0xB9784B0)
+#define RPG_CLIENT_FARMBATTLERESULTINFO_GET_DECOMPOSEINFO_OFFSET UNITYSDK_OFFSET(0xB9787A0)
+#define RPG_CLIENT_FARMBATTLERESULTINFO_GET_LASTBATTLEMULTIPLEDROPUSEDDATALIST_OFFSET UNITYSDK_OFFSET(0xB9787D0)
+#define RPG_CLIENT_FARMBATTLERESULTINFO_GET_LASTBATTLETIME_OFFSET UNITYSDK_OFFSET(0xB9787B0)
+#define RPG_CLIENT_FARMBATTLERESULTINFO_GET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xB978790)
+#define RPG_CLIENT_FARMBATTLERESULTINFO_SET_LASTBATTLETIME_OFFSET UNITYSDK_OFFSET(0xB9787C0)
+#define RPG_CLIENT_FARMBATTLERESULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB9787E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FarmBattleResultInfo_TypeDefinitionIndex = 58847;
+	inline static constexpr unsigned int FarmBattleResultInfo_TypeDefinitionIndex = 59777;
 
 	class FarmBattleResultInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _RewardItems_k__BackingField; // 0x10
-		::RPG::Client::BattleResulAutoDecomposeInfo* _DecomposeInfo_k__BackingField; // 0x18
+		::RPG::Client::BattleResulAutoDecomposeInfo* _DecomposeInfo_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _RewardItems_k__BackingField; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::MultipleDropUsedData*>* _LastBattleMultipleDropUsedDataList_k__BackingField; // 0x20
 		::System::UInt32 _LastBattleTime_k__BackingField; // 0x28
 
@@ -35,19 +35,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddBattleResult(::RPG::Client::BattleResultInfo* battleResultInfo)
+		::System::Void AddBattleResult(::RPG::Client::BattleResultInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleResultInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLERESULT_OFFSET))(this, battleResultInfo);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleResultInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLERESULT_OFFSET))(this, a1);
 		}
 
-		::System::Void AddBattleTime(::System::UInt32 battleTime)
+		::System::Void AddBattleTime(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLETIME_OFFSET))(this, battleTime);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLETIME_OFFSET))(this, a1);
 		}
 
-		::System::Void AddBattleMultipleDrop(::System::Collections::Generic::List_1<::RPG::Client::MultipleDropUsedData*>* battleMultipleDropUsedDataList)
+		::System::Void AddBattleMultipleDrop(::System::Collections::Generic::List_1<::RPG::Client::MultipleDropUsedData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MultipleDropUsedData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLEMULTIPLEDROP_OFFSET))(this, battleMultipleDropUsedDataList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MultipleDropUsedData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO_ADDBATTLEMULTIPLEDROP_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* get_RewardItems()
@@ -65,9 +65,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO_GET_LASTBATTLETIME_OFFSET))(this);
 		}
 
-		::System::Void set_LastBattleTime(::System::UInt32 value)
+		::System::Void set_LastBattleTime(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO_SET_LASTBATTLETIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO_SET_LASTBATTLETIME_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MultipleDropUsedData*>* get_LastBattleMultipleDropUsedDataList()

@@ -5,36 +5,36 @@
 
 namespace System { class String; }
 
-#define UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_BEGINSAMPLEWITHMETADATA_OFFSET UNITYSDK_OFFSET(0x1A423F20)
-#define UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_CREATEMARKER_OFFSET UNITYSDK_OFFSET(0x1A423F00)
-#define UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0x1A423F30)
-#define UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_SETMARKERMETADATA_OFFSET UNITYSDK_OFFSET(0x1A423F10)
+#define UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_BEGINSAMPLEWITHMETADATA_OFFSET UNITYSDK_OFFSET(0x1B277170)
+#define UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_CREATEMARKER_OFFSET UNITYSDK_OFFSET(0x1B277150)
+#define UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0x1B277180)
+#define UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_SETMARKERMETADATA_OFFSET UNITYSDK_OFFSET(0x1B277160)
 
 namespace Unity::Profiling::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int ProfilerUnsafeUtility_TypeDefinitionIndex = 3766;
+	inline static constexpr unsigned int ProfilerUnsafeUtility_TypeDefinitionIndex = 3940;
 
 	class ProfilerUnsafeUtility : public ::System::Object
 	{
 	public:
-		static ::System::IntPtr CreateMarker(::System::String* name, ::System::UInt16 categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, ::System::Int32 metadataCount)
+		static ::System::IntPtr CreateMarker(::System::String* a1, ::System::UInt16 a2, ::Unity::Profiling::LowLevel::MarkerFlags a3, ::System::Int32 a4)
 		{
-			return ((::System::IntPtr(*)(::System::String*, ::System::UInt16, ::Unity::Profiling::LowLevel::MarkerFlags, ::System::Int32))((::PBYTE)hIl2Cpp + UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_CREATEMARKER_OFFSET))(name, categoryId, flags, metadataCount);
+			return ((::System::IntPtr(*)(::System::String*, ::System::UInt16, ::Unity::Profiling::LowLevel::MarkerFlags, ::System::Int32))((::PBYTE)hIl2Cpp + UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_CREATEMARKER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void SetMarkerMetadata(::System::IntPtr markerPtr, ::System::Int32 index, ::System::String* name, ::System::Byte type, ::System::Byte unit)
+		static ::System::Void SetMarkerMetadata(::System::IntPtr a1, ::System::Int32 a2, ::System::String* a3, ::System::Byte a4, ::System::Byte a5)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Int32, ::System::String*, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_SETMARKERMETADATA_OFFSET))(markerPtr, index, name, type, unit);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Int32, ::System::String*, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_SETMARKERMETADATA_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void BeginSampleWithMetadata(::System::IntPtr markerPtr, ::System::Int32 metadataCount, ::System::Void* metadata)
+		static ::System::Void BeginSampleWithMetadata(::System::IntPtr a1, ::System::Int32 a2, ::System::Void* a3)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Int32, ::System::Void*))((::PBYTE)hIl2Cpp + UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_BEGINSAMPLEWITHMETADATA_OFFSET))(markerPtr, metadataCount, metadata);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Int32, ::System::Void*))((::PBYTE)hIl2Cpp + UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_BEGINSAMPLEWITHMETADATA_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void EndSample(::System::IntPtr markerPtr)
+		static ::System::Void EndSample(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_ENDSAMPLE_OFFSET))(markerPtr);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITY_PROFILING_LOWLEVEL_UNSAFE_PROFILERUNSAFEUTILITY_ENDSAMPLE_OFFSET))(a1);
 		}
 	};
 }

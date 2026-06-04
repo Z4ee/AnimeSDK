@@ -9,11 +9,11 @@ class TransformAnimationData;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GROUPTRANSFORMANIMATIONDATA_GET_ISLOOPANIM_OFFSET UNITYSDK_OFFSET(0x11AE2E30)
-#define GROUPTRANSFORMANIMATIONDATA_METHOD_3_FBCAFA6E37BBD59A_OFFSET UNITYSDK_OFFSET(0x11AE2EA0)
-#define GROUPTRANSFORMANIMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11AE3040)
+#define GROUPTRANSFORMANIMATIONDATA_GET_ISLOOPANIM_OFFSET UNITYSDK_OFFSET(0x13A56A60)
+#define GROUPTRANSFORMANIMATIONDATA_METHOD_3_8FF66D2074F19F61_OFFSET UNITYSDK_OFFSET(0x13A56AD0)
+#define GROUPTRANSFORMANIMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13A56C80)
 
-inline static constexpr unsigned int GroupTransformAnimationData_TypeDefinitionIndex = 43929;
+inline static constexpr unsigned int GroupTransformAnimationData_TypeDefinitionIndex = 44475;
 
 class GroupTransformAnimationData : public ::UnityEngine::ScriptableObject
 {
@@ -38,8 +38,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GROUPTRANSFORMANIMATIONDATA_GET_ISLOOPANIM_OFFSET))(this);
 	}
 
-	::System::Void Method_3_FBCAFA6E37BBD59A(::MarbleTransformAnimationHandle* a1)
+	::System::Void Method_3_8FF66D2074F19F61(::MarbleTransformAnimationHandle* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::MarbleTransformAnimationHandle*))((::PBYTE)hIl2Cpp + GROUPTRANSFORMANIMATIONDATA_METHOD_3_FBCAFA6E37BBD59A_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::MarbleTransformAnimationHandle*))((::PBYTE)hIl2Cpp + GROUPTRANSFORMANIMATIONDATA_METHOD_3_8FF66D2074F19F61_OFFSET))(this, a1);
 	}
 };

@@ -9,7 +9,7 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Struct_2_CCB274A391D51737_TypeDefinitionIndex = 51646;
+inline static constexpr unsigned int Struct_2_CCB274A391D51737_TypeDefinitionIndex = 52319;
 
 struct alignas(8) Struct_2_CCB274A391D51737
 {

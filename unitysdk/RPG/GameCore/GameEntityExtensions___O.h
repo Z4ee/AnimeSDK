@@ -7,18 +7,18 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntityExtensions___O_TypeDefinitionIndex = 53291;
+	inline static constexpr unsigned int GameEntityExtensions___O_TypeDefinitionIndex = 54004;
 
 	class GameEntityExtensions___O : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::GameCore::GameEntity*>** StaticGet__1____CompareEntityViewSortPriority()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(GameEntityExtensions___O_TypeDefinitionIndex)->GetStaticField(0x6B770);
+			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(GameEntityExtensions___O_TypeDefinitionIndex)->GetStaticField(0x6AF50);
 		}
 		static ::System::Comparison_1<::RPG::GameCore::GameEntity*>** StaticGet__0____CompareEntityRuntimeID()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(GameEntityExtensions___O_TypeDefinitionIndex)->GetStaticField(0x6B778);
+			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(GameEntityExtensions___O_TypeDefinitionIndex)->GetStaticField(0x6AF58);
 		}
 	};
 }

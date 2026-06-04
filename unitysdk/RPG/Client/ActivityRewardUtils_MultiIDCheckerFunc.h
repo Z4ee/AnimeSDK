@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x9C596B0)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x9C596F0)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x9C58900)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x9C57D40)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB1F9F10)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB1F9F50)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0xB1F9BF0)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F9E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardUtils_MultiIDCheckerFunc_TypeDefinitionIndex = 56947;
+	inline static constexpr unsigned int ActivityRewardUtils_MultiIDCheckerFunc_TypeDefinitionIndex = 57735;
 
 	class ActivityRewardUtils_MultiIDCheckerFunc : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::Il2CppArray<::System::UInt32>* arr, ::System::Func_2<::System::UInt32, ::System::Boolean>* checker)
+		::System::Boolean Invoke(::Il2CppArray<::System::UInt32>* a1, ::System::Func_2<::System::UInt32, ::System::Boolean>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::Func_2<::System::UInt32, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_INVOKE_OFFSET))(this, arr, checker);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::Func_2<::System::UInt32, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Il2CppArray<::System::UInt32>* arr, ::System::Func_2<::System::UInt32, ::System::Boolean>* checker, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Il2CppArray<::System::UInt32>* a1, ::System::Func_2<::System::UInt32, ::System::Boolean>* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::Func_2<::System::UInt32, ::System::Boolean>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_BEGININVOKE_OFFSET))(this, arr, checker, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::Func_2<::System::UInt32, ::System::Boolean>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS_MULTIIDCHECKERFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

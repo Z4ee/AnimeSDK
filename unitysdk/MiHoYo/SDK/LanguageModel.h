@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1756C770)
-#define MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET UNITYSDK_OFFSET(0x17571C50)
-#define MIHOYO_SDK_LANGUAGEMODEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x17571DC0)
-#define MIHOYO_SDK_LANGUAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1756DEF0)
+#define MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x183552B0)
+#define MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET UNITYSDK_OFFSET(0x1835A5C0)
+#define MIHOYO_SDK_LANGUAGEMODEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1835A720)
+#define MIHOYO_SDK_LANGUAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18356860)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LanguageModel_TypeDefinitionIndex = 6929;
+	inline static constexpr unsigned int LanguageModel_TypeDefinitionIndex = 7832;
 
 	class LanguageModel : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::LanguageModel** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::LanguageModel**)Il2CppClass::FromTypeDefinitionIndex(LanguageModel_TypeDefinitionIndex)->GetStaticField(0x570);
+			return (::MiHoYo::SDK::LanguageModel**)Il2CppClass::FromTypeDefinitionIndex(LanguageModel_TypeDefinitionIndex)->GetStaticField(0x5E0);
 		}
 		::System::String* account_login; // 0x10
 		::System::String* agree; // 0x18
@@ -697,14 +697,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMODEL__CCTOR_OFFSET))();
 		}
 
-		static ::MiHoYo::SDK::LanguageModel* LoadFromJson(::System::String* json)
+		static ::MiHoYo::SDK::LanguageModel* LoadFromJson(::System::String* a1)
 		{
-			return ((::MiHoYo::SDK::LanguageModel*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET))(json);
+			return ((::MiHoYo::SDK::LanguageModel*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET))(a1);
 		}
 
-		static ::System::Void ReplaceChar(::System::Object* obj)
+		static ::System::Void ReplaceChar(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET))(obj);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET))(a1);
 		}
 	};
 }

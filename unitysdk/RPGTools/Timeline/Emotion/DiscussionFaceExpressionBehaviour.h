@@ -6,15 +6,15 @@
 
 namespace RPGTools::Timeline::Emotion { class DiscussionFaceExpressionClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8CCA90)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8CCAB0)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8CCAA0)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8CCDA0)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8CCDB0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD00F0F0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD00F110)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD00F100)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD00F3F0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD00F400)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int DiscussionFaceExpressionBehaviour_TypeDefinitionIndex = 45413;
+	inline static constexpr unsigned int DiscussionFaceExpressionBehaviour_TypeDefinitionIndex = 45996;
 
 	class DiscussionFaceExpressionBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline::Emotion
 			return ((::RPGTools::Timeline::Emotion::DiscussionFaceExpressionClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::Emotion::DiscussionFaceExpressionClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::Emotion::DiscussionFaceExpressionClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::Emotion::DiscussionFaceExpressionClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::Emotion::DiscussionFaceExpressionClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -41,9 +41,9 @@ namespace RPGTools::Timeline::Emotion
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONFACEEXPRESSIONBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

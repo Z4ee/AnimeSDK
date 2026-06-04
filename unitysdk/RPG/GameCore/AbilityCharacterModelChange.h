@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB50A2E0)
-#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB50A2A0)
-#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xB50A250)
-#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB50A330)
+#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCC711B0)
+#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCC71170)
+#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xCC71120)
+#define RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC71200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityCharacterModelChange_TypeDefinitionIndex = 52122;
+	inline static constexpr unsigned int AbilityCharacterModelChange_TypeDefinitionIndex = 52819;
 
-	class AbilityCharacterModelChange : public ::Class_1_9988289E7F8AA214
+	class AbilityCharacterModelChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::UInt32 _EntityRuntimeID; // 0x18
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AbilityCharacterModelChange* Init(::System::UInt32 EntityRuntimeID)
+		::RPG::GameCore::AbilityCharacterModelChange* Init(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::AbilityCharacterModelChange*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_INIT_OFFSET))(this, EntityRuntimeID);
+			return ((::RPG::GameCore::AbilityCharacterModelChange*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCHARACTERMODELCHANGE_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

@@ -4,21 +4,21 @@
 
 namespace RPG::Client { class ChimeraDuelInfoCollectionService; }
 
-#define RPG_CLIENT_CHIMERADUELSTATIC_DISPOSEINFOSERVICE_OFFSET UNITYSDK_OFFSET(0xA020C90)
-#define RPG_CLIENT_CHIMERADUELSTATIC_GET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0xA022AD0)
-#define RPG_CLIENT_CHIMERADUELSTATIC_INITINFOSERVICE_OFFSET UNITYSDK_OFFSET(0xA0202F0)
-#define RPG_CLIENT_CHIMERADUELSTATIC_SET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0xA022AE0)
+#define RPG_CLIENT_CHIMERADUELSTATIC_DISPOSEINFOSERVICE_OFFSET UNITYSDK_OFFSET(0xB69D230)
+#define RPG_CLIENT_CHIMERADUELSTATIC_GET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0xB69ED70)
+#define RPG_CLIENT_CHIMERADUELSTATIC_INITINFOSERVICE_OFFSET UNITYSDK_OFFSET(0xB69CAA0)
+#define RPG_CLIENT_CHIMERADUELSTATIC_SET_INFOSERVICE_OFFSET UNITYSDK_OFFSET(0xB69ED80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelStatic_TypeDefinitionIndex = 58316;
+	inline static constexpr unsigned int ChimeraDuelStatic_TypeDefinitionIndex = 59246;
 
 	class ChimeraDuelStatic : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChimeraDuelInfoCollectionService** StaticGet__InfoService_k__BackingField()
 		{
-			return (::RPG::Client::ChimeraDuelInfoCollectionService**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelStatic_TypeDefinitionIndex)->GetStaticField(0x82E0);
+			return (::RPG::Client::ChimeraDuelInfoCollectionService**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelStatic_TypeDefinitionIndex)->GetStaticField(0x3E40);
 		}
 
 		static ::RPG::Client::ChimeraDuelInfoCollectionService* get_InfoService()
@@ -26,9 +26,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraDuelInfoCollectionService*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELSTATIC_GET_INFOSERVICE_OFFSET))();
 		}
 
-		static ::System::Void set_InfoService(::RPG::Client::ChimeraDuelInfoCollectionService* value)
+		static ::System::Void set_InfoService(::RPG::Client::ChimeraDuelInfoCollectionService* a1)
 		{
-			return ((::System::Void(*)(::RPG::Client::ChimeraDuelInfoCollectionService*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELSTATIC_SET_INFOSERVICE_OFFSET))(value);
+			return ((::System::Void(*)(::RPG::Client::ChimeraDuelInfoCollectionService*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELSTATIC_SET_INFOSERVICE_OFFSET))(a1);
 		}
 
 		static ::System::Void InitInfoService()

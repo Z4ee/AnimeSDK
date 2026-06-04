@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::KWS { class UpdateParentEmailOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x433C0)
-#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x43350)
-#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x431D0)
-#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x43340)
-#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_PARENTEMAIL_OFFSET UNITYSDK_OFFSET(0x43290)
+#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x47B60)
+#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x47AE0)
+#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x47960)
+#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x47AD0)
+#define EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_PARENTEMAIL_OFFSET UNITYSDK_OFFSET(0x47A20)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int UpdateParentEmailOptionsInternal_TypeDefinitionIndex = 42095;
+	inline static constexpr unsigned int UpdateParentEmailOptionsInternal_TypeDefinitionIndex = 42898;
 
 	struct alignas(8) UpdateParentEmailOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::KWS
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::IntPtr m_ParentEmail; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ParentEmail(::System::String* value)
+		::System::Void set_ParentEmail(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_PARENTEMAIL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_PARENTEMAIL_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::KWS::UpdateParentEmailOptions* other)
+		::System::Void Set(::Epic::OnlineServices::KWS::UpdateParentEmailOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::KWS::UpdateParentEmailOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::KWS::UpdateParentEmailOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_UPDATEPARENTEMAILOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

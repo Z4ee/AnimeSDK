@@ -6,31 +6,31 @@
 namespace RPG::GameCore { class MonopolyDisplayCellRow; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_DESC_OFFSET UNITYSDK_OFFSET(0xB3B68A0)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_ISGROUND_OFFSET UNITYSDK_OFFSET(0xB3B68C0)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_ROOT_OFFSET UNITYSDK_OFFSET(0xB3B6860)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xB3B6880)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_DESC_OFFSET UNITYSDK_OFFSET(0xB3B68B0)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_ISGROUND_OFFSET UNITYSDK_OFFSET(0xB3B68D0)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_ROOT_OFFSET UNITYSDK_OFFSET(0xB3B6870)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_TITLE_OFFSET UNITYSDK_OFFSET(0xB3B6890)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB3B6810)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_DESC_OFFSET UNITYSDK_OFFSET(0xCB168E0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_ISGROUND_OFFSET UNITYSDK_OFFSET(0xCB16900)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_ROOT_OFFSET UNITYSDK_OFFSET(0xCB168A0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xCB168C0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_DESC_OFFSET UNITYSDK_OFFSET(0xCB168F0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_ISGROUND_OFFSET UNITYSDK_OFFSET(0xCB16910)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_ROOT_OFFSET UNITYSDK_OFFSET(0xCB168B0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_TITLE_OFFSET UNITYSDK_OFFSET(0xCB168D0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCB16850)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int MonopolyGroundBubblePanelParam_TypeDefinitionIndex = 69755;
+	inline static constexpr unsigned int MonopolyGroundBubblePanelParam_TypeDefinitionIndex = 70567;
 
 	class MonopolyGroundBubblePanelParam : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* _Root_k__BackingField; // 0x10
-		::System::Boolean _IsGround_k__BackingField; // 0x18
-		::RPG::Client::TextID _Title_k__BackingField; // 0x20
-		::RPG::Client::TextID _Desc_k__BackingField; // 0x30
+		::RPG::Client::TextID _Desc_k__BackingField; // 0x18
+		::System::Boolean _IsGround_k__BackingField; // 0x28
+		::RPG::Client::TextID _Title_k__BackingField; // 0x30
 
-		::System::Void _ctor(::UnityEngine::Transform* tf, ::RPG::GameCore::MonopolyDisplayCellRow* row, ::System::Boolean isGround)
+		::System::Void _ctor(::UnityEngine::Transform* a1, ::RPG::GameCore::MonopolyDisplayCellRow* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::GameCore::MonopolyDisplayCellRow*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM__CTOR_OFFSET))(this, tf, row, isGround);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::GameCore::MonopolyDisplayCellRow*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Transform* get_Root()
@@ -38,9 +38,9 @@ namespace RPG::Client::UI3DGame
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_ROOT_OFFSET))(this);
 		}
 
-		::System::Void set_Root(::UnityEngine::Transform* value)
+		::System::Void set_Root(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_ROOT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_ROOT_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Title()
@@ -48,9 +48,9 @@ namespace RPG::Client::UI3DGame
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_TITLE_OFFSET))(this);
 		}
 
-		::System::Void set_Title(::RPG::Client::TextID value)
+		::System::Void set_Title(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_TITLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_TITLE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Desc()
@@ -58,9 +58,9 @@ namespace RPG::Client::UI3DGame
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_DESC_OFFSET))(this);
 		}
 
-		::System::Void set_Desc(::RPG::Client::TextID value)
+		::System::Void set_Desc(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_DESC_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_DESC_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsGround()
@@ -68,9 +68,9 @@ namespace RPG::Client::UI3DGame
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_GET_ISGROUND_OFFSET))(this);
 		}
 
-		::System::Void set_IsGround(::System::Boolean value)
+		::System::Void set_IsGround(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_ISGROUND_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_MONOPOLYGROUNDBUBBLEPANELPARAM_SET_ISGROUND_OFFSET))(this, a1);
 		}
 	};
 }

@@ -13,42 +13,42 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define SOFA_SHORTCUTHINTCONTROL_METHOD_6_464F9487BF0D77F8_OFFSET UNITYSDK_OFFSET(0xB948910)
-#define SOFA_SHORTCUTHINTCONTROL_METHOD_6_6E6682ED9FD6F719_OFFSET UNITYSDK_OFFSET(0xB948290)
-#define SOFA_SHORTCUTHINTCONTROL_METHOD_6_8BD6897B2A515B73_OFFSET UNITYSDK_OFFSET(0xB9484C0)
-#define SOFA_SHORTCUTHINTCONTROL_METHOD_6_ACE888BF6F5BC5FD_OFFSET UNITYSDK_OFFSET(0xB947D90)
-#define SOFA_SHORTCUTHINTCONTROL_METHOD_6_AFC8215C57A0845A_OFFSET UNITYSDK_OFFSET(0xB948110)
-#define SOFA_SHORTCUTHINTCONTROL_METHOD_6_CCA302292204F69D_OFFSET UNITYSDK_OFFSET(0xB948630)
-#define SOFA_SHORTCUTHINTCONTROL_METHOD_6_CEE2550285AA5985_1_OFFSET UNITYSDK_OFFSET(0xB948BC0)
-#define SOFA_SHORTCUTHINTCONTROL_METHOD_6_CEE2550285AA5985_OFFSET UNITYSDK_OFFSET(0xB948AB0)
-#define SOFA_SHORTCUTHINTCONTROL_METHOD_6_D67C01E967FCF1F8_OFFSET UNITYSDK_OFFSET(0xB947FE0)
-#define SOFA_SHORTCUTHINTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xB948D60)
-#define SOFA_SHORTCUTHINTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB947D20)
-#define SOFA_SHORTCUTHINTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xB947A50)
-#define SOFA_SHORTCUTHINTCONTROL___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB948E40)
-#define SOFA_SHORTCUTHINTCONTROL___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xB948E00)
+#define SOFA_SHORTCUTHINTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD08D5B0)
+#define SOFA_SHORTCUTHINTCONTROL__GETSHORTCUTINFOITEM_OFFSET UNITYSDK_OFFSET(0xD08CDF0)
+#define SOFA_SHORTCUTHINTCONTROL__LOADHINTROOT_OFFSET UNITYSDK_OFFSET(0xD08C5D0)
+#define SOFA_SHORTCUTHINTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD08C560)
+#define SOFA_SHORTCUTHINTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD08C250)
+#define SOFA_SHORTCUTHINTCONTROL__ONINPUTDEVICECLASSSWITCHED_OFFSET UNITYSDK_OFFSET(0xD08D300)
+#define SOFA_SHORTCUTHINTCONTROL__ONINPUTFILEDSELECTEDCHANGED_OFFSET UNITYSDK_OFFSET(0xD08D160)
+#define SOFA_SHORTCUTHINTCONTROL__ONPREFABLOAD_OFFSET UNITYSDK_OFFSET(0xD08C830)
+#define SOFA_SHORTCUTHINTCONTROL__ONUIFOCUSCONTROLLERCHANGED_OFFSET UNITYSDK_OFFSET(0xD08D410)
+#define SOFA_SHORTCUTHINTCONTROL__REFRESHACTIVE_OFFSET UNITYSDK_OFFSET(0xD08CA10)
+#define SOFA_SHORTCUTHINTCONTROL__REFRESHBYNAVIGATIONZONE_OFFSET UNITYSDK_OFFSET(0xD08C960)
+#define SOFA_SHORTCUTHINTCONTROL__REFRESHSHORTCUTINFOITEMS_OFFSET UNITYSDK_OFFSET(0xD08CC40)
+#define SOFA_SHORTCUTHINTCONTROL___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD08D700)
+#define SOFA_SHORTCUTHINTCONTROL___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD08D6C0)
 
 namespace Sofa
 {
-	inline static constexpr unsigned int ShortCutHintControl_TypeDefinitionIndex = 44448;
+	inline static constexpr unsigned int ShortCutHintControl_TypeDefinitionIndex = 44994;
 
 	class ShortCutHintControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		// static const ::System::String* Field_6_11; // 0x0
-		// static const ::System::String* Field_6_12; // 0x0
-		// static const ::System::String* Field_6_13; // 0x0
-		::UnityEngine::Transform* NodeHintParent; // 0x30
-		::System::Boolean Field_6_1; // 0x38
-		::System::Collections::Generic::List_1<::System::String*>* Field_6_2; // 0x40
-		::RPG::UINavigation::UINavigationZoneManager* Field_6_3; // 0x48
-		::UnityEngine::Transform* Field_6_4; // 0x50
-		::UnityEngine::RectTransform* Field_6_5; // 0x58
-		::RPG::Client::PrefabLoadMeta* Field_6_6; // 0x60
-		::RPG::Client::UIPartialBlur* Field_6_7; // 0x68
-		::UnityEngine::Transform* Field_6_8; // 0x70
-		::System::Collections::Generic::List_1<::Class_2_19D8F09EED5DB442*>* Field_6_9; // 0x78
-		::System::Collections::Generic::List_1<::System::String*>* Field_6_10; // 0x80
+		// static const ::System::String* _DEFAULT_DIALOG_HINT_PATH; // 0x0
+		// static const ::System::String* _DEFAULT_FULLSCREEN_PREFAB_PATH; // 0x0
+		// static const ::System::String* _DEFAULT_PREFAB_PATH; // 0x0
+		::UnityEngine::Transform* NodeHintParent; // 0x38
+		::System::Boolean _IsFullScreen; // 0x40
+		::System::Collections::Generic::List_1<::System::String*>* _ActionNames; // 0x48
+		::RPG::UINavigation::UINavigationZoneManager* _ZoneManager; // 0x50
+		::UnityEngine::Transform* _NodeParent; // 0x58
+		::UnityEngine::RectTransform* _NodeTipRoot; // 0x60
+		::RPG::Client::PrefabLoadMeta* _ContentPrefabLoad; // 0x68
+		::RPG::Client::UIPartialBlur* _PartialBlur; // 0x70
+		::UnityEngine::Transform* _NodeBg; // 0x78
+		::System::Collections::Generic::List_1<::Class_2_19D8F09EED5DB442*>* _ShortCutInfoItems; // 0x80
+		::System::Collections::Generic::List_1<::System::String*>* _DefaultActionNames; // 0x88
 
 		::System::Void _ctor()
 		{
@@ -65,49 +65,49 @@ namespace Sofa
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__ONBINDVIEWMODEL_OFFSET))(this);
 		}
 
-		::System::Void Method_6_ACE888BF6F5BC5FD()
+		::System::Void _LoadHintRoot()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL_METHOD_6_ACE888BF6F5BC5FD_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__LOADHINTROOT_OFFSET))(this);
 		}
 
-		::System::Void Method_6_D67C01E967FCF1F8(::UnityEngine::GameObject* a1)
+		::System::Void _OnPrefabLoad(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL_METHOD_6_D67C01E967FCF1F8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__ONPREFABLOAD_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_AFC8215C57A0845A()
+		::System::Void _RefreshByNavigationZone()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL_METHOD_6_AFC8215C57A0845A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__REFRESHBYNAVIGATIONZONE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_6E6682ED9FD6F719()
+		::System::Void _RefreshActive()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL_METHOD_6_6E6682ED9FD6F719_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__REFRESHACTIVE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_8BD6897B2A515B73(::System::Collections::Generic::List_1<::System::String*>* a1)
+		::System::Void _RefreshShortCutInfoItems(::System::Collections::Generic::List_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL_METHOD_6_8BD6897B2A515B73_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__REFRESHSHORTCUTINFOITEMS_OFFSET))(this, a1);
 		}
 
-		::Class_2_19D8F09EED5DB442* Method_6_CCA302292204F69D(::System::Int32 a1)
+		::Class_2_19D8F09EED5DB442* _GetShortCutInfoItem(::System::Int32 a1)
 		{
-			return ((::Class_2_19D8F09EED5DB442*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL_METHOD_6_CCA302292204F69D_OFFSET))(this, a1);
+			return ((::Class_2_19D8F09EED5DB442*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__GETSHORTCUTINFOITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_464F9487BF0D77F8(::System::Object* a1)
+		::System::Void _OnInputFiledSelectedChanged(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL_METHOD_6_464F9487BF0D77F8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__ONINPUTFILEDSELECTEDCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_CEE2550285AA5985(::System::Object* a1)
+		::System::Void _OnInputDeviceClassSwitched(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL_METHOD_6_CEE2550285AA5985_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__ONINPUTDEVICECLASSSWITCHED_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_CEE2550285AA5985_1(::System::Object* a1)
+		::System::Void _OnUIFocusControllerChanged(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL_METHOD_6_CEE2550285AA5985_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SOFA_SHORTCUTHINTCONTROL__ONUIFOCUSCONTROLLERCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy__OnInitializeComponent()

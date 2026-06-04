@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/AvatarComparerBase.h"
 
-namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_PREFERNEWAVATARCOMPARER_SETOVERRIDENEWROLES_OFFSET UNITYSDK_OFFSET(0xAD74960)
-#define RPG_CLIENT_PREFERNEWAVATARCOMPARER__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0xAD74A30)
-#define RPG_CLIENT_PREFERNEWAVATARCOMPARER__COMPAREWITHNEWROLEOVERRIDE_OFFSET UNITYSDK_OFFSET(0xAD74AD0)
-#define RPG_CLIENT_PREFERNEWAVATARCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xAD74BF0)
+#define RPG_CLIENT_PREFERNEWAVATARCOMPARER_SETOVERRIDENEWROLES_OFFSET UNITYSDK_OFFSET(0xC4B6680)
+#define RPG_CLIENT_PREFERNEWAVATARCOMPARER__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0xC4B6750)
+#define RPG_CLIENT_PREFERNEWAVATARCOMPARER__COMPAREWITHNEWROLEOVERRIDE_OFFSET UNITYSDK_OFFSET(0xC4B67F0)
+#define RPG_CLIENT_PREFERNEWAVATARCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xC4B6910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PreferNewAvatarComparer_TypeDefinitionIndex = 57871;
+	inline static constexpr unsigned int PreferNewAvatarComparer_TypeDefinitionIndex = 58764;
 
 	class PreferNewAvatarComparer : public ::RPG::Client::AvatarComparerBase
 	{
@@ -25,19 +25,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREFERNEWAVATARCOMPARER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetOverrideNewRoles(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* roleIDs)
+		::System::Void SetOverrideNewRoles(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREFERNEWAVATARCOMPARER_SETOVERRIDENEWROLES_OFFSET))(this, roleIDs);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREFERNEWAVATARCOMPARER_SETOVERRIDENEWROLES_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _CompareImpl(::RPG::Client::IAvatarInfoProvider* left, ::RPG::Client::IAvatarInfoProvider* right)
+		::System::Int32 _CompareImpl(::RPG::AvatarSystem::IAvatar* a1, ::RPG::AvatarSystem::IAvatar* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREFERNEWAVATARCOMPARER__COMPAREIMPL_OFFSET))(this, left, right);
+			return ((::System::Int32(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREFERNEWAVATARCOMPARER__COMPAREIMPL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _CompareWithNewRoleOverride(::RPG::Client::IAvatarInfoProvider* left, ::RPG::Client::IAvatarInfoProvider* right)
+		::System::Int32 _CompareWithNewRoleOverride(::RPG::AvatarSystem::IAvatar* a1, ::RPG::AvatarSystem::IAvatar* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREFERNEWAVATARCOMPARER__COMPAREWITHNEWROLEOVERRIDE_OFFSET))(this, left, right);
+			return ((::System::Int32(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREFERNEWAVATARCOMPARER__COMPAREWITHNEWROLEOVERRIDE_OFFSET))(this, a1, a2);
 		}
 	};
 }

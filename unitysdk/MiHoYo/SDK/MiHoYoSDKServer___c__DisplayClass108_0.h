@@ -7,13 +7,13 @@ namespace MiHoYo::SDK { class MiHoYoSDKServer_NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D58610)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS108_0__GETREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x8D59B10)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS108_0__GETREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x8D59C50)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA1B4F50)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS108_0__GETREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0xA1B6350)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS108_0__GETREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0xA1B64A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass108_0_TypeDefinitionIndex = 42931;
+	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass108_0_TypeDefinitionIndex = 43734;
 
 	class MiHoYoSDKServer___c__DisplayClass108_0 : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS108_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GetRequest_b__0(::System::String* responseString)
+		::System::Void _GetRequest_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS108_0__GETREQUEST_B__0_OFFSET))(this, responseString);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS108_0__GETREQUEST_B__0_OFFSET))(this, a1);
 		}
 
 		::System::Void _GetRequest_b__1()

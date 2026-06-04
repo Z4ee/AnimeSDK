@@ -7,10 +7,10 @@ namespace AK::Wwise { class CallbackFlags; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define AKEVENT_CALLBACKDATA_CALLFUNCTION_OFFSET UNITYSDK_OFFSET(0x1A5E6640)
-#define AKEVENT_CALLBACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5E6A90)
+#define AKEVENT_CALLBACKDATA_CALLFUNCTION_OFFSET UNITYSDK_OFFSET(0x1B430470)
+#define AKEVENT_CALLBACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B430870)
 
-inline static constexpr unsigned int AkEvent_CallbackData_TypeDefinitionIndex = 40478;
+inline static constexpr unsigned int AkEvent_CallbackData_TypeDefinitionIndex = 41305;
 
 class AkEvent_CallbackData : public ::System::Object
 {
@@ -24,8 +24,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKEVENT_CALLBACKDATA__CTOR_OFFSET))(this);
 	}
 
-	::System::Void CallFunction(::AkEventCallbackMsg* eventCallbackMsg)
+	::System::Void CallFunction(::AkEventCallbackMsg* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkEventCallbackMsg*))((::PBYTE)hIl2Cpp + AKEVENT_CALLBACKDATA_CALLFUNCTION_OFFSET))(this, eventCallbackMsg);
+		return ((::System::Void(*)(::PVOID, ::AkEventCallbackMsg*))((::PBYTE)hIl2Cpp + AKEVENT_CALLBACKDATA_CALLFUNCTION_OFFSET))(this, a1);
 	}
 };

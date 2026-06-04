@@ -4,9 +4,9 @@
 
 namespace System::Xml::Serialization { class XmlAnyElementAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTES_ADD_OFFSET UNITYSDK_OFFSET(0x1A001180)
-#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTES_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1A001240)
-#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0015D0)
+#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTES_ADD_OFFSET UNITYSDK_OFFSET(0x1AE74D40)
+#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTES_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1AE74E00)
+#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE751C0)
 
 namespace System::Xml::Serialization
 {
@@ -20,9 +20,9 @@ namespace System::Xml::Serialization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTES__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 Add(::System::Xml::Serialization::XmlAnyElementAttribute* attribute)
+		::System::Int32 Add(::System::Xml::Serialization::XmlAnyElementAttribute* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Xml::Serialization::XmlAnyElementAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTES_ADD_OFFSET))(this, attribute);
+			return ((::System::Int32(*)(::PVOID, ::System::Xml::Serialization::XmlAnyElementAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTES_ADD_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Order()

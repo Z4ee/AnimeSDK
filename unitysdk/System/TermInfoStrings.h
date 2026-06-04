@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int TermInfoStrings_TypeDefinitionIndex = 431;
+	inline static constexpr unsigned int TermInfoStrings_TypeDefinitionIndex = 430;
 
 	enum class TermInfoStrings : ::System::Int32
 	{

@@ -9,132 +9,138 @@ namespace HoudiniEngineUnity { class HEU_SessionBase; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETCHOICE_OFFSET UNITYSDK_OFFSET(0x8C9FD60)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x8CA0510)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETFLOATS_OFFSET UNITYSDK_OFFSET(0x8C9F1D0)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x8C9EFD0)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETINPUTNODE_OFFSET UNITYSDK_OFFSET(0x8CA0320)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETINT_OFFSET UNITYSDK_OFFSET(0x8C9EBE0)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERCOLOR3VALUE_OFFSET UNITYSDK_OFFSET(0x8C928D0)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERFLOATVALUE_OFFSET UNITYSDK_OFFSET(0x8C927B0)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERINDEXFROMNAMEORTAG_OFFSET UNITYSDK_OFFSET(0x8C92180)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERINDEXFROMNAME_OFFSET UNITYSDK_OFFSET(0x8CA08A0)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETSTRING_OFFSET UNITYSDK_OFFSET(0x8C9F750)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETTOGGLE_OFFSET UNITYSDK_OFFSET(0x8C9E860)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETCHOICE_OFFSET UNITYSDK_OFFSET(0x8C9FB40)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x8CA06E0)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETFLOATS_OFFSET UNITYSDK_OFFSET(0x8C9F590)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETFLOAT_OFFSET UNITYSDK_OFFSET(0x8C9F3A0)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETINPUTNODE_OFFSET UNITYSDK_OFFSET(0x8C9FF60)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETINT_OFFSET UNITYSDK_OFFSET(0x8C9EDE0)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETSTRING_OFFSET UNITYSDK_OFFSET(0x8C9F950)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETTOGGLE_OFFSET UNITYSDK_OFFSET(0x8C9EA20)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_FINDTEXTUREPARAMBYNAMEORTAG_OFFSET UNITYSDK_OFFSET(0x17F1E870)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETCHOICE_OFFSET UNITYSDK_OFFSET(0x17F336B0)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x17F345F0)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETFLOATS_OFFSET UNITYSDK_OFFSET(0x17F30F40)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x17F30880)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETINPUTNODE_OFFSET UNITYSDK_OFFSET(0x17F341A0)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETINT_OFFSET UNITYSDK_OFFSET(0x17F2FB10)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERCOLOR3VALUE_OFFSET UNITYSDK_OFFSET(0x17F1F4E0)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERFLOATVALUE_OFFSET UNITYSDK_OFFSET(0x17F1F970)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERINDEXFROMNAMEORTAG_OFFSET UNITYSDK_OFFSET(0x17F1FAA0)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERINDEXFROMNAME_OFFSET UNITYSDK_OFFSET(0x17F34E70)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETSTRING_OFFSET UNITYSDK_OFFSET(0x17F32300)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETTOGGLE_OFFSET UNITYSDK_OFFSET(0x17F2F2C0)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETCHOICE_OFFSET UNITYSDK_OFFSET(0x17F33080)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x17F34A30)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETFLOATS_OFFSET UNITYSDK_OFFSET(0x17F31B10)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETFLOAT_OFFSET UNITYSDK_OFFSET(0x17F31450)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETINPUTNODE_OFFSET UNITYSDK_OFFSET(0x17F33CE0)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETINT_OFFSET UNITYSDK_OFFSET(0x17F301D0)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETSTRING_OFFSET UNITYSDK_OFFSET(0x17F329D0)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETTOGGLE_OFFSET UNITYSDK_OFFSET(0x17F2F6E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ParameterUtility_TypeDefinitionIndex = 43636;
+	inline static constexpr unsigned int HEU_ParameterUtility_TypeDefinitionIndex = 37587;
 
 	class HEU_ParameterUtility : public ::System::Object
 	{
 	public:
-		static ::System::Boolean GetToggle(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::System::Boolean& outValue)
+		static ::System::Boolean GetToggle(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::Boolean& a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Boolean&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETTOGGLE_OFFSET))(asset, paramName, outValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Boolean&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETTOGGLE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SetToggle(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::System::Boolean setValue)
+		static ::System::Boolean SetToggle(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETTOGGLE_OFFSET))(asset, paramName, setValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETTOGGLE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetInt(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::System::Int32& outValue)
+		static ::System::Boolean GetInt(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETINT_OFFSET))(asset, paramName, outValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETINT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SetInt(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::System::Int32 setValue)
+		static ::System::Boolean SetInt(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETINT_OFFSET))(asset, paramName, setValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETINT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetFloat(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::System::Single& outValue)
+		static ::System::Boolean GetFloat(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::Single& a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Single&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETFLOAT_OFFSET))(asset, paramName, outValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Single&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETFLOAT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetFloats(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::Il2CppArray<::System::Single>*& outValues)
+		static ::System::Boolean GetFloats(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::Il2CppArray<::System::Single>*& a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::Il2CppArray<::System::Single>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETFLOATS_OFFSET))(asset, paramName, outValues);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::Il2CppArray<::System::Single>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETFLOATS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SetFloat(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::System::Single setValue)
+		static ::System::Boolean SetFloat(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETFLOAT_OFFSET))(asset, paramName, setValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETFLOAT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SetFloats(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::Il2CppArray<::System::Single>* setValues)
+		static ::System::Boolean SetFloats(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::Il2CppArray<::System::Single>* a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETFLOATS_OFFSET))(asset, paramName, setValues);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETFLOATS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetString(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::System::String*& outValue)
+		static ::System::Boolean GetString(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::String*& a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::String*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETSTRING_OFFSET))(asset, paramName, outValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::String*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETSTRING_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SetString(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::System::String* setValue)
+		static ::System::Boolean SetString(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETSTRING_OFFSET))(asset, paramName, setValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETSTRING_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SetChoice(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::System::Int32 setValue)
+		static ::System::Boolean SetChoice(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETCHOICE_OFFSET))(asset, paramName, setValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETCHOICE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetChoice(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::System::Int32& outValue)
+		static ::System::Boolean GetChoice(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETCHOICE_OFFSET))(asset, paramName, outValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETCHOICE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SetInputNode(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::UnityEngine::GameObject* obj, ::System::Int32 index)
+		static ::System::Boolean SetInputNode(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::UnityEngine::GameObject* a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETINPUTNODE_OFFSET))(asset, paramName, obj, index);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETINPUTNODE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean GetInputNode(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::System::Int32 index, ::UnityEngine::GameObject*& obj)
+		static ::System::Boolean GetInputNode(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::Int32 a3, ::UnityEngine::GameObject*& a4)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Int32, ::UnityEngine::GameObject*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETINPUTNODE_OFFSET))(asset, paramName, index, obj);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::Int32, ::UnityEngine::GameObject*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETINPUTNODE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean GetColor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::UnityEngine::Color& getValue)
+		static ::System::Boolean GetColor(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::UnityEngine::Color& a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETCOLOR_OFFSET))(asset, paramName, getValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETCOLOR_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SetColor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::String* paramName, ::UnityEngine::Color setValue)
+		static ::System::Boolean SetColor(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::UnityEngine::Color a3)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETCOLOR_OFFSET))(asset, paramName, setValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_SETCOLOR_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 GetParameterIndexFromName(::HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>* parameters, ::System::String* parameterName)
+		static ::System::Int32 GetParameterIndexFromName(::HoudiniEngineUnity::HEU_SessionBase* a1, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>* a2, ::System::String* a3)
 		{
-			return ((::System::Int32(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERINDEXFROMNAME_OFFSET))(session, parameters, parameterName);
+			return ((::System::Int32(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERINDEXFROMNAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 GetParameterIndexFromNameOrTag(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>* parameters, ::System::String* parameterName)
+		static ::System::Int32 GetParameterIndexFromNameOrTag(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>* a3, ::System::String* a4)
 		{
-			return ((::System::Int32(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERINDEXFROMNAMEORTAG_OFFSET))(session, nodeID, parameters, parameterName);
+			return ((::System::Int32(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERINDEXFROMNAMEORTAG_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single GetParameterFloatValue(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>* parameters, ::System::String* parameterName, ::System::Single defaultValue)
+		static ::System::Int32 FindTextureParamByNameOrTag(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>* a3, ::System::String* a4, ::System::String* a5)
 		{
-			return ((::System::Single(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERFLOATVALUE_OFFSET))(session, nodeID, parameters, parameterName, defaultValue);
+			return ((::System::Int32(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_FINDTEXTUREPARAMBYNAMEORTAG_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::UnityEngine::Color GetParameterColor3Value(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>* parameters, ::System::String* parameterName, ::UnityEngine::Color defaultValue)
+		static ::System::Boolean GetParameterFloatValue(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>* a3, ::System::String* a4, ::System::Single a5, ::System::Single& a6)
 		{
-			return ((::UnityEngine::Color(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*, ::System::String*, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERCOLOR3VALUE_OFFSET))(session, nodeID, parameters, parameterName, defaultValue);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*, ::System::String*, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERFLOATVALUE_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		static ::System::Boolean GetParameterColor3Value(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>* a3, ::System::String* a4, ::UnityEngine::Color a5, ::UnityEngine::Color& a6)
+		{
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*, ::System::String*, ::UnityEngine::Color, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARAMETERUTILITY_GETPARAMETERCOLOR3VALUE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

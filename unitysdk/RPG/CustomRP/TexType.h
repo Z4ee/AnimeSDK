@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int TexType_TypeDefinitionIndex = 35260;
+	inline static constexpr unsigned int TexType_TypeDefinitionIndex = 35560;
 
 	enum class TexType : ::System::Int32
 	{

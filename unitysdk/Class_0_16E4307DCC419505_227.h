@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/PhantomPlayerAssetLoadState.h"
 
-namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerFrameAsset; }
+class Class_1_D3CC73B16B410533;
+namespace UnityEngine { class Collider; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_227_TypeDefinitionIndex = 39236;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_227_TypeDefinitionIndex = 40231;
 
 class Class_0_16E4307DCC419505_227
 {

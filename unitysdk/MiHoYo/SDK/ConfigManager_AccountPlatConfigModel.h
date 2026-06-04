@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class AccountPlatABTestInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONFIGMANAGER_ACCOUNTPLATCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x174071E0)
+#define MIHOYO_SDK_CONFIGMANAGER_ACCOUNTPLATCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1820A890)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigManager_AccountPlatConfigModel_TypeDefinitionIndex = 7242;
+	inline static constexpr unsigned int ConfigManager_AccountPlatConfigModel_TypeDefinitionIndex = 8145;
 
 	class ConfigManager_AccountPlatConfigModel : public ::System::Object
 	{

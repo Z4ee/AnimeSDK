@@ -1,9 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EntityType.h"
 
-namespace RPG::GameCore { class JsonEnum; }
+class Class_1_0E94DD4A47F0F315;
+namespace RPG::Client { class BaseMonoTriggerRegion; }
+namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_542_TypeDefinitionIndex = 53322;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_542_TypeDefinitionIndex = 53725;
 
 class Class_0_16E4307DCC419505_542
 {

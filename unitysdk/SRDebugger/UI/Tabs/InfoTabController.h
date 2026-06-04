@@ -10,19 +10,19 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_ACTIVATEREFRESHEVERYFRAME_OFFSET UNITYSDK_OFFSET(0x19E9A2F0)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_CREATEBLOCK_OFFSET UNITYSDK_OFFSET(0x19E9A360)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_FILLINFOBLOCK_OFFSET UNITYSDK_OFFSET(0x19E9A450)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_INTERNALREFRESH_OFFSET UNITYSDK_OFFSET(0x19E99C80)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19E99C10)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_REFRESH_OFFSET UNITYSDK_OFFSET(0x19E9A230)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19E9A2E0)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E9B140)
-#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER__GETLENGTH_OFFSET UNITYSDK_OFFSET(0x19E9AF90)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_ACTIVATEREFRESHEVERYFRAME_OFFSET UNITYSDK_OFFSET(0x1AD10010)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_CREATEBLOCK_OFFSET UNITYSDK_OFFSET(0x1AD10080)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_FILLINFOBLOCK_OFFSET UNITYSDK_OFFSET(0x1AD10170)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_INTERNALREFRESH_OFFSET UNITYSDK_OFFSET(0x1AD0F920)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AD0F8B0)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_REFRESH_OFFSET UNITYSDK_OFFSET(0x1AD0FF50)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AD10000)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD10F50)
+#define SRDEBUGGER_UI_TABS_INFOTABCONTROLLER__GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1AD10DA0)
 
 namespace SRDebugger::UI::Tabs
 {
-	inline static constexpr unsigned int InfoTabController_TypeDefinitionIndex = 35355;
+	inline static constexpr unsigned int InfoTabController_TypeDefinitionIndex = 35655;
 
 	class InfoTabController : public ::SRF::SRMonoBehaviourEx
 	{
@@ -66,19 +66,19 @@ namespace SRDebugger::UI::Tabs
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_INTERNALREFRESH_OFFSET))(this);
 		}
 
-		::System::Void FillInfoBlock(::SRDebugger::UI::Controls::InfoBlock* block, ::System::Collections::Generic::IList_1<::SRDebugger::InfoEntry*>* info)
+		::System::Void FillInfoBlock(::SRDebugger::UI::Controls::InfoBlock* a1, ::System::Collections::Generic::IList_1<::SRDebugger::InfoEntry*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::UI::Controls::InfoBlock*, ::System::Collections::Generic::IList_1<::SRDebugger::InfoEntry*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_FILLINFOBLOCK_OFFSET))(this, block, info);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::UI::Controls::InfoBlock*, ::System::Collections::Generic::IList_1<::SRDebugger::InfoEntry*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_FILLINFOBLOCK_OFFSET))(this, a1, a2);
 		}
 
-		::SRDebugger::UI::Controls::InfoBlock* CreateBlock(::System::String* title)
+		::SRDebugger::UI::Controls::InfoBlock* CreateBlock(::System::String* a1)
 		{
-			return ((::SRDebugger::UI::Controls::InfoBlock*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_CREATEBLOCK_OFFSET))(this, title);
+			return ((::SRDebugger::UI::Controls::InfoBlock*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_INFOTABCONTROLLER_CREATEBLOCK_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _GetLength(::System::String* text)
+		::System::Int32 _GetLength(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_INFOTABCONTROLLER__GETLENGTH_OFFSET))(this, text);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_TABS_INFOTABCONTROLLER__GETLENGTH_OFFSET))(this, a1);
 		}
 	};
 }

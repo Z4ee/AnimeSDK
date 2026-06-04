@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class MissionTalkStyle; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18C0DCD0)
-#define RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C0DC50)
-#define RPG_GAMECORE_PLAYMISSIONTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x18C0DCA0)
+#define RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19A24C80)
+#define RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A24C00)
+#define RPG_GAMECORE_PLAYMISSIONTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x19A24C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayMissionTalk_TypeDefinitionIndex = 22797;
+	inline static constexpr unsigned int PlayMissionTalk_TypeDefinitionIndex = 22503;
 
 	class PlayMissionTalk : public ::RPG::GameCore::SimpleTalkListConfig
 	{
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMISSIONTALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PlayMissionTalk*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayMissionTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayMissionTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayMissionTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PlayMissionTalk* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayMissionTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayMissionTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayMissionTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMISSIONTALK_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

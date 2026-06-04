@@ -6,16 +6,16 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::P2P { class ReceivePacketOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x594A0)
-#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x59430)
-#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x592B0)
-#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_MAXDATASIZEBYTES_OFFSET UNITYSDK_OFFSET(0x26F0)
-#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x59420)
-#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_REQUESTEDCHANNEL_OFFSET UNITYSDK_OFFSET(0x59370)
+#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5E7C0)
+#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5E740)
+#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x5E5C0)
+#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_MAXDATASIZEBYTES_OFFSET UNITYSDK_OFFSET(0x2A90)
+#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5E730)
+#define EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_REQUESTEDCHANNEL_OFFSET UNITYSDK_OFFSET(0x5E680)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int ReceivePacketOptionsInternal_TypeDefinitionIndex = 41749;
+	inline static constexpr unsigned int ReceivePacketOptionsInternal_TypeDefinitionIndex = 42552;
 
 	struct alignas(8) ReceivePacketOptionsInternal
 	{
@@ -24,31 +24,31 @@ namespace Epic::OnlineServices::P2P
 		::System::UInt32 m_MaxDataSizeBytes; // 0x20
 		::System::IntPtr m_RequestedChannel; // 0x28
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_MaxDataSizeBytes(::System::UInt32 value)
+		::System::Void set_MaxDataSizeBytes(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_MAXDATASIZEBYTES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_MAXDATASIZEBYTES_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::Void set_RequestedChannel(::System::Nullable_1<::System::Byte> value)
+		::System::Void set_RequestedChannel(::System::Nullable_1<::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Byte>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_REQUESTEDCHANNEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Byte>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_REQUESTEDCHANNEL_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Void Set(::Epic::OnlineServices::P2P::ReceivePacketOptions* other)
+		::System::Void Set(::Epic::OnlineServices::P2P::ReceivePacketOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::ReceivePacketOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::ReceivePacketOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_RECEIVEPACKETOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

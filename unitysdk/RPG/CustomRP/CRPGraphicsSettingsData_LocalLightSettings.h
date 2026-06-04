@@ -7,12 +7,12 @@ namespace RPG::CustomRP { class CRPGraphicsSettingsData_ClusterLightingSettings;
 namespace RPG::CustomRP { class CRPGraphicsSettingsData_LocalLightLOD; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTSETTINGS_GETLIGHTLEVEL_OFFSET UNITYSDK_OFFSET(0x181139F0)
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18113870)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTSETTINGS_GETLIGHTLEVEL_OFFSET UNITYSDK_OFFSET(0x18EB6E30)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB6CB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_LocalLightSettings_TypeDefinitionIndex = 35049;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_LocalLightSettings_TypeDefinitionIndex = 35335;
 
 	class CRPGraphicsSettingsData_LocalLightSettings : public ::System::Object
 	{
@@ -37,9 +37,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTSETTINGS__CTOR_OFFSET))(this);
 		}
 
-		::RPG::CustomRP::CustomLightQualityFilter GetLightLevel(::System::Int32 version)
+		::RPG::CustomRP::CustomLightQualityFilter GetLightLevel(::System::Int32 a1)
 		{
-			return ((::RPG::CustomRP::CustomLightQualityFilter(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTSETTINGS_GETLIGHTLEVEL_OFFSET))(this, version);
+			return ((::RPG::CustomRP::CustomLightQualityFilter(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_LOCALLIGHTSETTINGS_GETLIGHTLEVEL_OFFSET))(this, a1);
 		}
 	};
 }

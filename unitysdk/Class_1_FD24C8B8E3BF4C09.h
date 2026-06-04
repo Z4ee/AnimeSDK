@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class FourRotateVoxelChestHintConfig; }
 
-#define CLASS_1_FD24C8B8E3BF4C09__CTOR_OFFSET UNITYSDK_OFFSET(0x17E2CB60)
+#define CLASS_1_FD24C8B8E3BF4C09__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD1F10)
 
-inline static constexpr unsigned int Class_1_FD24C8B8E3BF4C09_TypeDefinitionIndex = 39071;
+inline static constexpr unsigned int Class_1_FD24C8B8E3BF4C09_TypeDefinitionIndex = 39839;
 
 class Class_1_FD24C8B8E3BF4C09 : public ::System::Object
 {

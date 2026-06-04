@@ -14,40 +14,40 @@ namespace UnityEngine::ProBuilder { class Bounds2D; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVANCHOR_OFFSET UNITYSDK_OFFSET(0x1A2ECBC0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A2EBA10)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_CALCULATEDELTA_OFFSET UNITYSDK_OFFSET(0x1A2EA870)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_COPYUVS_OFFSET UNITYSDK_OFFSET(0x1A2D2990)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETAUTOUNWRAPSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A2EB0D0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETINDEX_OFFSET UNITYSDK_OFFSET(0x1A2EB2F0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETROTATEDSIZE_OFFSET UNITYSDK_OFFSET(0x1A2EB3D0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETUVTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1A2EB1E0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_PROJECTTEXTUREGROUP_OFFSET UNITYSDK_OFFSET(0x1A2B2340)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SCALEUVS_OFFSET UNITYSDK_OFFSET(0x1A2EC900)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOANDALIGNUNWRAPPARAMSTOUVS_OFFSET UNITYSDK_OFFSET(0x1A2EA630)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOUV_OFFSET UNITYSDK_OFFSET(0x1A2EA4C0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_UNWRAP_OFFSET UNITYSDK_OFFSET(0x1A2B2200)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_UPGRADEAUTOUVSCALEOFFSET_OFFSET UNITYSDK_OFFSET(0x1A2AFF00)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2ED0E0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVANCHOR_OFFSET UNITYSDK_OFFSET(0x1B14C860)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVSETTINGS_OFFSET UNITYSDK_OFFSET(0x1B14B680)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_CALCULATEDELTA_OFFSET UNITYSDK_OFFSET(0x1B14A610)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_COPYUVS_OFFSET UNITYSDK_OFFSET(0x1B133A20)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETAUTOUNWRAPSETTINGS_OFFSET UNITYSDK_OFFSET(0x1B14ADE0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETINDEX_OFFSET UNITYSDK_OFFSET(0x1B14B000)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETROTATEDSIZE_OFFSET UNITYSDK_OFFSET(0x1B14B0B0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETUVTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B14AEF0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_PROJECTTEXTUREGROUP_OFFSET UNITYSDK_OFFSET(0x1B114F20)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SCALEUVS_OFFSET UNITYSDK_OFFSET(0x1B14C4F0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOANDALIGNUNWRAPPARAMSTOUVS_OFFSET UNITYSDK_OFFSET(0x1B14A3E0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOUV_OFFSET UNITYSDK_OFFSET(0x1B14A240)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_UNWRAP_OFFSET UNITYSDK_OFFSET(0x1B114DE0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_UPGRADEAUTOUVSCALEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B112BC0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B14CD80)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int UvUnwrapping_TypeDefinitionIndex = 40001;
+	inline static constexpr unsigned int UvUnwrapping_TypeDefinitionIndex = 40828;
 
 	class UvUnwrapping : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_s_IndexBuffer()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UvUnwrapping_TypeDefinitionIndex)->GetStaticField(0x2E6F0);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UvUnwrapping_TypeDefinitionIndex)->GetStaticField(0x56FE0);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector2>** StaticGet_s_UVTransformProjectionBuffer()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(UvUnwrapping_TypeDefinitionIndex)->GetStaticField(0x2E6F8);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(UvUnwrapping_TypeDefinitionIndex)->GetStaticField(0x56FE8);
 		}
 		static ::UnityEngine::Vector2* StaticGet_s_TempVector2()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UvUnwrapping_TypeDefinitionIndex)->GetStaticField(0xB870);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UvUnwrapping_TypeDefinitionIndex)->GetStaticField(0x113B0);
 		}
 
 		static ::System::Void _cctor()
@@ -55,74 +55,74 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void SetAutoUV(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* faces, ::System::Boolean auto_)
+		static ::System::Void SetAutoUV(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOUV_OFFSET))(mesh, faces, auto_);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOUV_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetAutoAndAlignUnwrapParamsToUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* facesToConvert)
+		static ::System::Void SetAutoAndAlignUnwrapParamsToUVs(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOANDALIGNUNWRAPPARAMSTOUVS_OFFSET))(mesh, facesToConvert);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOANDALIGNUNWRAPPARAMSTOUVS_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::AutoUnwrapSettings GetAutoUnwrapSettings(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face)
+		static ::UnityEngine::ProBuilder::AutoUnwrapSettings GetAutoUnwrapSettings(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Face* a2)
 		{
-			return ((::UnityEngine::ProBuilder::AutoUnwrapSettings(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETAUTOUNWRAPSETTINGS_OFFSET))(mesh, face);
+			return ((::UnityEngine::ProBuilder::AutoUnwrapSettings(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETAUTOUNWRAPSETTINGS_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform GetUVTransform(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face)
+		static ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform GetUVTransform(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Face* a2)
 		{
-			return ((::UnityEngine::ProBuilder::UvUnwrapping_UVTransform(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETUVTRANSFORM_OFFSET))(mesh, face);
+			return ((::UnityEngine::ProBuilder::UvUnwrapping_UVTransform(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETUVTRANSFORM_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 GetIndex(::System::Collections::Generic::IList_1<::System::Int32>* collection, ::System::Int32 index)
+		static ::System::Int32 GetIndex(::System::Collections::Generic::IList_1<::System::Int32>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Collections::Generic::IList_1<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETINDEX_OFFSET))(collection, index);
+			return ((::System::Int32(*)(::System::Collections::Generic::IList_1<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETINDEX_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform CalculateDelta(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* src, ::System::Collections::Generic::IList_1<::System::Int32>* srcIndices, ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* dst, ::System::Collections::Generic::IList_1<::System::Int32>* dstIndices)
+		static ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform CalculateDelta(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2, ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* a3, ::System::Collections::Generic::IList_1<::System::Int32>* a4)
 		{
-			return ((::UnityEngine::ProBuilder::UvUnwrapping_UVTransform(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_CALCULATEDELTA_OFFSET))(src, srcIndices, dst, dstIndices);
+			return ((::UnityEngine::ProBuilder::UvUnwrapping_UVTransform(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_CALCULATEDELTA_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Vector2 GetRotatedSize(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ::System::Collections::Generic::IList_1<::System::Int32>* indices, ::UnityEngine::Vector2 center, ::System::Single rotation)
+		static ::UnityEngine::Vector2 GetRotatedSize(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2, ::UnityEngine::Vector2 a3, ::System::Single a4)
 		{
-			return ((::UnityEngine::Vector2(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETROTATEDSIZE_OFFSET))(points, indices, center, rotation);
+			return ((::UnityEngine::Vector2(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETROTATEDSIZE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Unwrap(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 projection)
+		static ::System::Void Unwrap(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Face* a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_UNWRAP_OFFSET))(mesh, face, projection);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_UNWRAP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void CopyUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* source, ::UnityEngine::ProBuilder::Face* dest)
+		static ::System::Void CopyUVs(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Face* a2, ::UnityEngine::ProBuilder::Face* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_COPYUVS_OFFSET))(mesh, source, dest);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_COPYUVS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ProjectTextureGroup(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Int32 group, ::UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings)
+		static ::System::Void ProjectTextureGroup(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Int32 a2, ::UnityEngine::ProBuilder::AutoUnwrapSettings a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32, ::UnityEngine::ProBuilder::AutoUnwrapSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_PROJECTTEXTUREGROUP_OFFSET))(mesh, group, unwrapSettings);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32, ::UnityEngine::ProBuilder::AutoUnwrapSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_PROJECTTEXTUREGROUP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ApplyUVSettings(::Il2CppArray<::UnityEngine::Vector2>* uvs, ::System::Collections::Generic::IList_1<::System::Int32>* indexes, ::UnityEngine::ProBuilder::AutoUnwrapSettings uvSettings)
+		static ::System::Void ApplyUVSettings(::Il2CppArray<::UnityEngine::Vector2>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2, ::UnityEngine::ProBuilder::AutoUnwrapSettings a3)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::ProBuilder::AutoUnwrapSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVSETTINGS_OFFSET))(uvs, indexes, uvSettings);
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::ProBuilder::AutoUnwrapSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVSETTINGS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ScaleUVs(::Il2CppArray<::UnityEngine::Vector2>* uvs, ::System::Collections::Generic::IList_1<::System::Int32>* indexes, ::UnityEngine::Vector2 scale, ::UnityEngine::ProBuilder::Bounds2D* bounds)
+		static ::System::Void ScaleUVs(::Il2CppArray<::UnityEngine::Vector2>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2, ::UnityEngine::Vector2 a3, ::UnityEngine::ProBuilder::Bounds2D* a4)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Bounds2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_SCALEUVS_OFFSET))(uvs, indexes, scale, bounds);
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Bounds2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_SCALEUVS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void ApplyUVAnchor(::Il2CppArray<::UnityEngine::Vector2>* uvs, ::System::Collections::Generic::IList_1<::System::Int32>* indexes, ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor anchor)
+		static ::System::Void ApplyUVAnchor(::Il2CppArray<::UnityEngine::Vector2>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2, ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor a3)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVANCHOR_OFFSET))(uvs, indexes, anchor);
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVANCHOR_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void UpgradeAutoUVScaleOffset(::UnityEngine::ProBuilder::ProBuilderMesh* mesh)
+		static ::System::Void UpgradeAutoUVScaleOffset(::UnityEngine::ProBuilder::ProBuilderMesh* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_UPGRADEAUTOUVSCALEOFFSET_OFFSET))(mesh);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_UPGRADEAUTOUVSCALEOFFSET_OFFSET))(a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SpriteSortPoint_TypeDefinitionIndex = 4226;
+	inline static constexpr unsigned int SpriteSortPoint_TypeDefinitionIndex = 4400;
 
 	enum class SpriteSortPoint : ::System::Int32
 	{

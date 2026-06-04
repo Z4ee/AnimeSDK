@@ -8,12 +8,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONSTERCONFIG_METHOD_2_B8F2C23F109192E7_OFFSET UNITYSDK_OFFSET(0x18B56260)
-#define RPG_GAMECORE_MONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B566A0)
+#define RPG_GAMECORE_MONSTERCONFIG_METHOD_2_B8F2C23F109192E7_OFFSET UNITYSDK_OFFSET(0x199A5E20)
+#define RPG_GAMECORE_MONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199A6260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterConfig_TypeDefinitionIndex = 15634;
+	inline static constexpr unsigned int MonsterConfig_TypeDefinitionIndex = 15693;
 
 	class MonsterConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BubbleTalkInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18C0F1F0)
-#define RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C0F150)
-#define RPG_GAMECORE_PLAYNPCBUBBLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x18C0F1B0)
+#define RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19A26180)
+#define RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A260E0)
+#define RPG_GAMECORE_PLAYNPCBUBBLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x19A26140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayNPCBubbleTalk_TypeDefinitionIndex = 19359;
+	inline static constexpr unsigned int PlayNPCBubbleTalk_TypeDefinitionIndex = 19266;
 
 	class PlayNPCBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,14 +32,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYNPCBUBBLETALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PlayNPCBubbleTalk*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayNPCBubbleTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayNPCBubbleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayNPCBubbleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PlayNPCBubbleTalk* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayNPCBubbleTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayNPCBubbleTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayNPCBubbleTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

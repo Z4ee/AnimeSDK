@@ -3,13 +3,13 @@
 #include "unitysdk/Epic/OnlineServices/Presence/Status.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETSTATUSOPTIONS_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x8F0A570)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETSTATUSOPTIONS_SET_STATUS_OFFSET UNITYSDK_OFFSET(0x8F0A580)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETSTATUSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8F0A590)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETSTATUSOPTIONS_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xA3335C0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETSTATUSOPTIONS_SET_STATUS_OFFSET UNITYSDK_OFFSET(0xA3335D0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETSTATUSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA3335E0)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int PresenceModificationSetStatusOptions_TypeDefinitionIndex = 41614;
+	inline static constexpr unsigned int PresenceModificationSetStatusOptions_TypeDefinitionIndex = 42417;
 
 	class PresenceModificationSetStatusOptions : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::Presence::Status(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETSTATUSOPTIONS_GET_STATUS_OFFSET))(this);
 		}
 
-		::System::Void set_Status(::Epic::OnlineServices::Presence::Status value)
+		::System::Void set_Status(::Epic::OnlineServices::Presence::Status a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::Status))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETSTATUSOPTIONS_SET_STATUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::Status))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETSTATUSOPTIONS_SET_STATUS_OFFSET))(this, a1);
 		}
 	};
 }

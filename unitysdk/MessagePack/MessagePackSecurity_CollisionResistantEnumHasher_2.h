@@ -6,7 +6,7 @@ namespace MessagePack { template <typename T1, typename T2> class MessagePackSec
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_CollisionResistantEnumHasher_2_TypeDefinitionIndex = 9262;
+	inline static constexpr unsigned int MessagePackSecurity_CollisionResistantEnumHasher_2_TypeDefinitionIndex = 7165;
 
 	template <typename TEnum, typename TUnderlying>
 	class MessagePackSecurity_CollisionResistantEnumHasher_2 : public ::System::Object

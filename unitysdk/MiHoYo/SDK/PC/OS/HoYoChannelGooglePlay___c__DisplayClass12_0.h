@@ -7,13 +7,13 @@ namespace MiHoYo::SDK::PC::OS { class GooglePlayBillingPayInfo; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelGooglePlay; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175A9B60)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__VERIFYORDER_B__0_OFFSET UNITYSDK_OFFSET(0x175AC840)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__VERIFYORDER_B__1_OFFSET UNITYSDK_OFFSET(0x175AD0D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1838F0A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__VERIFYORDER_B__0_OFFSET UNITYSDK_OFFSET(0x18391C60)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__VERIFYORDER_B__1_OFFSET UNITYSDK_OFFSET(0x183924E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass12_0_TypeDefinitionIndex = 7535;
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass12_0_TypeDefinitionIndex = 8438;
 
 	class HoYoChannelGooglePlay___c__DisplayClass12_0 : public ::System::Object
 	{
@@ -28,9 +28,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _VerifyOrder_b__0(::MiHoYo::SDK::NetworkResponseModelEx* verifyResponse)
+		::System::Void _VerifyOrder_b__0(::MiHoYo::SDK::NetworkResponseModelEx* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__VERIFYORDER_B__0_OFFSET))(this, verifyResponse);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_0__VERIFYORDER_B__0_OFFSET))(this, a1);
 		}
 
 		::System::Void _VerifyOrder_b__1()

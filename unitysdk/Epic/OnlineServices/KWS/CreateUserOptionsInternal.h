@@ -7,16 +7,16 @@ namespace Epic::OnlineServices::KWS { class CreateUserOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x41540)
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x414D0)
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_DATEOFBIRTH_OFFSET UNITYSDK_OFFSET(0x41360)
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x412A0)
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x414C0)
-#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_PARENTEMAIL_OFFSET UNITYSDK_OFFSET(0x41410)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x45880)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x45800)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_DATEOFBIRTH_OFFSET UNITYSDK_OFFSET(0x45690)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x455D0)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x457F0)
+#define EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_PARENTEMAIL_OFFSET UNITYSDK_OFFSET(0x45740)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int CreateUserOptionsInternal_TypeDefinitionIndex = 42057;
+	inline static constexpr unsigned int CreateUserOptionsInternal_TypeDefinitionIndex = 42860;
 
 	struct alignas(8) CreateUserOptionsInternal
 	{
@@ -25,29 +25,29 @@ namespace Epic::OnlineServices::KWS
 		::System::IntPtr m_DateOfBirth; // 0x20
 		::System::IntPtr m_ParentEmail; // 0x28
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_DateOfBirth(::System::String* value)
+		::System::Void set_DateOfBirth(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_DATEOFBIRTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_DATEOFBIRTH_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ParentEmail(::System::String* value)
+		::System::Void set_ParentEmail(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_PARENTEMAIL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_PARENTEMAIL_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::KWS::CreateUserOptions* other)
+		::System::Void Set(::Epic::OnlineServices::KWS::CreateUserOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::KWS::CreateUserOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::KWS::CreateUserOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_CREATEUSEROPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

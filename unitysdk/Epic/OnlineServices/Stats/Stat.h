@@ -7,28 +7,28 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_STATS_STAT_GET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x8BE60D0)
-#define EPIC_ONLINESERVICES_STATS_STAT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x8BE6080)
-#define EPIC_ONLINESERVICES_STATS_STAT_GET_STARTTIME_OFFSET UNITYSDK_OFFSET(0x8BE60A0)
-#define EPIC_ONLINESERVICES_STATS_STAT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x8BE6100)
-#define EPIC_ONLINESERVICES_STATS_STAT_SET_1_OFFSET UNITYSDK_OFFSET(0x8BE6640)
-#define EPIC_ONLINESERVICES_STATS_STAT_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x8BE60F0)
-#define EPIC_ONLINESERVICES_STATS_STAT_SET_NAME_OFFSET UNITYSDK_OFFSET(0x8BE6090)
-#define EPIC_ONLINESERVICES_STATS_STAT_SET_OFFSET UNITYSDK_OFFSET(0x8BE6120)
-#define EPIC_ONLINESERVICES_STATS_STAT_SET_STARTTIME_OFFSET UNITYSDK_OFFSET(0x8BE60C0)
-#define EPIC_ONLINESERVICES_STATS_STAT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x8BE6110)
-#define EPIC_ONLINESERVICES_STATS_STAT__CTOR_OFFSET UNITYSDK_OFFSET(0x8BE6770)
+#define EPIC_ONLINESERVICES_STATS_STAT_GET_ENDTIME_OFFSET UNITYSDK_OFFSET(0xA0F7240)
+#define EPIC_ONLINESERVICES_STATS_STAT_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA0F71F0)
+#define EPIC_ONLINESERVICES_STATS_STAT_GET_STARTTIME_OFFSET UNITYSDK_OFFSET(0xA0F7210)
+#define EPIC_ONLINESERVICES_STATS_STAT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA0F7270)
+#define EPIC_ONLINESERVICES_STATS_STAT_SET_1_OFFSET UNITYSDK_OFFSET(0xA0F77B0)
+#define EPIC_ONLINESERVICES_STATS_STAT_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0xA0F7260)
+#define EPIC_ONLINESERVICES_STATS_STAT_SET_NAME_OFFSET UNITYSDK_OFFSET(0xA0F7200)
+#define EPIC_ONLINESERVICES_STATS_STAT_SET_OFFSET UNITYSDK_OFFSET(0xA0F7290)
+#define EPIC_ONLINESERVICES_STATS_STAT_SET_STARTTIME_OFFSET UNITYSDK_OFFSET(0xA0F7230)
+#define EPIC_ONLINESERVICES_STATS_STAT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xA0F7280)
+#define EPIC_ONLINESERVICES_STATS_STAT__CTOR_OFFSET UNITYSDK_OFFSET(0xA0F78E0)
 
 namespace Epic::OnlineServices::Stats
 {
-	inline static constexpr unsigned int Stat_TypeDefinitionIndex = 41223;
+	inline static constexpr unsigned int Stat_TypeDefinitionIndex = 42026;
 
 	class Stat : public ::System::Object
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
-		::System::Nullable_1<::System::DateTimeOffset> _EndTime_k__BackingField; // 0x18
-		::System::Nullable_1<::System::DateTimeOffset> _StartTime_k__BackingField; // 0x30
+		::System::Nullable_1<::System::DateTimeOffset> _StartTime_k__BackingField; // 0x18
+		::System::Nullable_1<::System::DateTimeOffset> _EndTime_k__BackingField; // 0x30
 		::System::Int32 _Value_k__BackingField; // 0x48
 
 		::System::Void _ctor()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Stats
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::System::DateTimeOffset> get_StartTime()
@@ -51,9 +51,9 @@ namespace Epic::OnlineServices::Stats
 			return ((::System::Nullable_1<::System::DateTimeOffset>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_GET_STARTTIME_OFFSET))(this);
 		}
 
-		::System::Void set_StartTime(::System::Nullable_1<::System::DateTimeOffset> value)
+		::System::Void set_StartTime(::System::Nullable_1<::System::DateTimeOffset> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_STARTTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_STARTTIME_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::System::DateTimeOffset> get_EndTime()
@@ -61,9 +61,9 @@ namespace Epic::OnlineServices::Stats
 			return ((::System::Nullable_1<::System::DateTimeOffset>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_GET_ENDTIME_OFFSET))(this);
 		}
 
-		::System::Void set_EndTime(::System::Nullable_1<::System::DateTimeOffset> value)
+		::System::Void set_EndTime(::System::Nullable_1<::System::DateTimeOffset> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_ENDTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_ENDTIME_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Value()
@@ -71,19 +71,19 @@ namespace Epic::OnlineServices::Stats
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::Int32 value)
+		::System::Void set_Value(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_VALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Stats::StatInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Stats::StatInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Stats::StatInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Stats::StatInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STAT_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

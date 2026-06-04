@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/StringHash.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_2CAAA2FDF9170110;
+class Class_1_1C30CE192ABE4C54;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class RtLifeBindingConfig; }
@@ -12,7 +12,7 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-inline static constexpr unsigned int Struct_2_73F802686FB6B1CE_TypeDefinitionIndex = 49890;
+inline static constexpr unsigned int Struct_2_73F802686FB6B1CE_TypeDefinitionIndex = 50557;
 
 struct alignas(8) Struct_2_73F802686FB6B1CE
 {
@@ -24,6 +24,6 @@ struct alignas(8) Struct_2_73F802686FB6B1CE
 	::RPG::GameCore::GameEntity* Field_2_5; // 0x38
 	::RPG::GameCore::GameEntity* Field_2_6; // 0x40
 	::RPG::GameCore::GameEntityList* Field_2_7; // 0x48
-	::Class_1_2CAAA2FDF9170110* Field_2_8; // 0x50
+	::Class_1_1C30CE192ABE4C54* Field_2_8; // 0x50
 	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* Field_2_9; // 0x58
 };

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace RPG::GameCore { class FloatCurve; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMCLEANERBOTMOVECONFIG_METHOD_3_B748B2E37617DB4C_OFFSET UNITYSDK_OFFSET(0x188FA020)
-#define RPG_GAMECORE_FIVEDIMCLEANERBOTMOVECONFIG_METHOD_3_E8EAC7A856CCC258_OFFSET UNITYSDK_OFFSET(0x188F9F90)
-#define RPG_GAMECORE_FIVEDIMCLEANERBOTMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188F9FF0)
+#define RPG_GAMECORE_FIVEDIMCLEANERBOTMOVECONFIG_METHOD_3_AD2BBCC8679D1007_OFFSET UNITYSDK_OFFSET(0x19735720)
+#define RPG_GAMECORE_FIVEDIMCLEANERBOTMOVECONFIG_METHOD_3_F1873F39647755EB_OFFSET UNITYSDK_OFFSET(0x197357B0)
+#define RPG_GAMECORE_FIVEDIMCLEANERBOTMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19735780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCleanerBotMoveConfig_TypeDefinitionIndex = 15809;
+	inline static constexpr unsigned int FiveDimCleanerBotMoveConfig_TypeDefinitionIndex = 15864;
 
 	class FiveDimCleanerBotMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
@@ -52,14 +52,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCLEANERBOTMOVECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E8EAC7A856CCC258(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCleanerBotMoveConfig*& a2)
+		static ::System::Void Method_3_AD2BBCC8679D1007(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCleanerBotMoveConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCleanerBotMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCLEANERBOTMOVECONFIG_METHOD_3_E8EAC7A856CCC258_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCleanerBotMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCLEANERBOTMOVECONFIG_METHOD_3_AD2BBCC8679D1007_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B748B2E37617DB4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCleanerBotMoveConfig* a2)
+		static ::System::Void Method_3_F1873F39647755EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCleanerBotMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCleanerBotMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCLEANERBOTMOVECONFIG_METHOD_3_B748B2E37617DB4C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCleanerBotMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCLEANERBOTMOVECONFIG_METHOD_3_F1873F39647755EB_OFFSET))(a1, a2);
 		}
 	};
 }

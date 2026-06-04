@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int DayOfWeek_TypeDefinitionIndex = 227;
+	inline static constexpr unsigned int DayOfWeek_TypeDefinitionIndex = 226;
 
 	enum class DayOfWeek : ::System::Int32
 	{

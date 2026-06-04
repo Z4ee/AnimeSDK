@@ -7,12 +7,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCUTSCENEHOLOGRAPHICMATERIALBLOCK_SETMATERIALPROPETIES_OFFSET UNITYSDK_OFFSET(0xA987680)
-#define RPG_CLIENT_MONOEFFECTPLUGINCUTSCENEHOLOGRAPHICMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA987B60)
+#define RPG_CLIENT_MONOEFFECTPLUGINCUTSCENEHOLOGRAPHICMATERIALBLOCK_SETMATERIALPROPETIES_OFFSET UNITYSDK_OFFSET(0xC0D3C10)
+#define RPG_CLIENT_MONOEFFECTPLUGINCUTSCENEHOLOGRAPHICMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xC0D40F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCutsceneHolographicMaterialBlock_TypeDefinitionIndex = 64461;
+	inline static constexpr unsigned int MonoEffectPluginCutsceneHolographicMaterialBlock_TypeDefinitionIndex = 65382;
 
 	class MonoEffectPluginCutsceneHolographicMaterialBlock : public ::RPG::Client::MonoEffectPluginCompoundMaterialBlock
 	{

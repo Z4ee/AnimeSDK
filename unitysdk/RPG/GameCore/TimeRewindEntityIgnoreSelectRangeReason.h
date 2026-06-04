@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindEntityIgnoreSelectRangeReason_TypeDefinitionIndex = 52975;
+	inline static constexpr unsigned int TimeRewindEntityIgnoreSelectRangeReason_TypeDefinitionIndex = 53685;
 
 	enum class TimeRewindEntityIgnoreSelectRangeReason : ::System::Int32
 	{

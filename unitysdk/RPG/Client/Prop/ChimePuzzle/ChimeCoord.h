@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Prop::ChimePuzzle
 {
-	inline static constexpr unsigned int ChimeCoord_TypeDefinitionIndex = 72479;
+	inline static constexpr unsigned int ChimeCoord_TypeDefinitionIndex = 73501;
 
 	struct alignas(4) ChimeCoord
 	{

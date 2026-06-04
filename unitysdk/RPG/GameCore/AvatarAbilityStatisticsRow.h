@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARABILITYSTATISTICSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186B6780)
-#define RPG_GAMECORE_AVATARABILITYSTATISTICSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186B68A0)
+#define RPG_GAMECORE_AVATARABILITYSTATISTICSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1948E4C0)
+#define RPG_GAMECORE_AVATARABILITYSTATISTICSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1948E5E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarAbilityStatisticsRow_TypeDefinitionIndex = 12144;
+	inline static constexpr unsigned int AvatarAbilityStatisticsRow_TypeDefinitionIndex = 12233;
 
 	class AvatarAbilityStatisticsRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARABILITYSTATISTICSROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AvatarAbilityStatisticsRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarAbilityStatisticsRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarAbilityStatisticsRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARABILITYSTATISTICSROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarAbilityStatisticsRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARABILITYSTATISTICSROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

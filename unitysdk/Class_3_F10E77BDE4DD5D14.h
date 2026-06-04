@@ -8,11 +8,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_F10E77BDE4DD5D14_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11BDAD50)
-#define CLASS_3_F10E77BDE4DD5D14_METHOD_3_D66A39B3BD20C3EB_OFFSET UNITYSDK_OFFSET(0x11BDAF80)
-#define CLASS_3_F10E77BDE4DD5D14__CTOR_OFFSET UNITYSDK_OFFSET(0x11BDACB0)
+#define CLASS_3_F10E77BDE4DD5D14_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9F5C30)
+#define CLASS_3_F10E77BDE4DD5D14_METHOD_3_D66A39B3BD20C3EB_OFFSET UNITYSDK_OFFSET(0xB9F5EB0)
+#define CLASS_3_F10E77BDE4DD5D14__CTOR_OFFSET UNITYSDK_OFFSET(0xB9F5BC0)
 
-inline static constexpr unsigned int Class_3_F10E77BDE4DD5D14_TypeDefinitionIndex = 54508;
+inline static constexpr unsigned int Class_3_F10E77BDE4DD5D14_TypeDefinitionIndex = 55235;
 
 class Class_3_F10E77BDE4DD5D14 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::AdvGroupFetchTargetByString*>
 {

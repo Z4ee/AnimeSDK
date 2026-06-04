@@ -8,14 +8,14 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CUSTOMRP_FRAMEPASSCAPTUREDATA_DIFF_OFFSET UNITYSDK_OFFSET(0x22B8FA0)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTUREDATA_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x22B8F80)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTUREDATA_LOADIMAGE_OFFSET UNITYSDK_OFFSET(0x22B8F30)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTUREDATA_OUTPUTASDIFF_OFFSET UNITYSDK_OFFSET(0x22B8FB0)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTUREDATA_DIFF_OFFSET UNITYSDK_OFFSET(0x3849CA0)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTUREDATA_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x3849C80)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTUREDATA_LOADIMAGE_OFFSET UNITYSDK_OFFSET(0x3849C30)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTUREDATA_OUTPUTASDIFF_OFFSET UNITYSDK_OFFSET(0x3849CB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FramePassCaptureData_TypeDefinitionIndex = 35006;
+	inline static constexpr unsigned int FramePassCaptureData_TypeDefinitionIndex = 35291;
 
 	struct alignas(8) FramePassCaptureData
 	{
@@ -33,9 +33,9 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEPASSCAPTUREDATA_GET_EMPTY_OFFSET))(this);
 		}
 
-		::System::Void Diff(::RPG::CustomRP::FramePassCaptureData& rhs, ::RPG::CustomRP::FramePassCaptureData& diff_this, ::RPG::CustomRP::FramePassCaptureData& diff_rhs)
+		::System::Void Diff(::RPG::CustomRP::FramePassCaptureData& a1, ::RPG::CustomRP::FramePassCaptureData& a2, ::RPG::CustomRP::FramePassCaptureData& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::FramePassCaptureData&, ::RPG::CustomRP::FramePassCaptureData&, ::RPG::CustomRP::FramePassCaptureData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEPASSCAPTUREDATA_DIFF_OFFSET))(this, rhs, diff_this, diff_rhs);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::FramePassCaptureData&, ::RPG::CustomRP::FramePassCaptureData&, ::RPG::CustomRP::FramePassCaptureData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEPASSCAPTUREDATA_DIFF_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Newtonsoft::Json::Linq::JToken* OutputAsDiff()

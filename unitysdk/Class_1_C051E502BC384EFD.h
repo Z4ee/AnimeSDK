@@ -8,19 +8,19 @@ namespace RPG::GameCore { class BattleQTEUIConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_1_C051E502BC384EFD_GET_DELAY_OFFSET UNITYSDK_OFFSET(0x12926850)
-#define CLASS_1_C051E502BC384EFD_GET_FOLLOWPOSITION_OFFSET UNITYSDK_OFFSET(0x12926870)
-#define CLASS_1_C051E502BC384EFD_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x12926830)
-#define CLASS_1_C051E502BC384EFD_GET_UIPATH_OFFSET UNITYSDK_OFFSET(0x12926810)
-#define CLASS_1_C051E502BC384EFD_METHOD_1_23A10C29876FCB09_OFFSET UNITYSDK_OFFSET(0x129264F0)
-#define CLASS_1_C051E502BC384EFD_METHOD_1_2E6D68999CA8BB56_OFFSET UNITYSDK_OFFSET(0x129263E0)
-#define CLASS_1_C051E502BC384EFD_SET_DELAY_OFFSET UNITYSDK_OFFSET(0x12926860)
-#define CLASS_1_C051E502BC384EFD_SET_FOLLOWPOSITION_OFFSET UNITYSDK_OFFSET(0x12926880)
-#define CLASS_1_C051E502BC384EFD_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x12926840)
-#define CLASS_1_C051E502BC384EFD_SET_UIPATH_OFFSET UNITYSDK_OFFSET(0x12926820)
-#define CLASS_1_C051E502BC384EFD__CTOR_OFFSET UNITYSDK_OFFSET(0x129264E0)
+#define CLASS_1_C051E502BC384EFD_GET_DELAY_OFFSET UNITYSDK_OFFSET(0x13567AD0)
+#define CLASS_1_C051E502BC384EFD_GET_FOLLOWPOSITION_OFFSET UNITYSDK_OFFSET(0x13567AF0)
+#define CLASS_1_C051E502BC384EFD_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x13567AB0)
+#define CLASS_1_C051E502BC384EFD_GET_UIPATH_OFFSET UNITYSDK_OFFSET(0x13567A90)
+#define CLASS_1_C051E502BC384EFD_METHOD_1_23A10C29876FCB09_OFFSET UNITYSDK_OFFSET(0x13567770)
+#define CLASS_1_C051E502BC384EFD_METHOD_1_2E6D68999CA8BB56_OFFSET UNITYSDK_OFFSET(0x13567650)
+#define CLASS_1_C051E502BC384EFD_SET_DELAY_OFFSET UNITYSDK_OFFSET(0x13567AE0)
+#define CLASS_1_C051E502BC384EFD_SET_FOLLOWPOSITION_OFFSET UNITYSDK_OFFSET(0x13567B00)
+#define CLASS_1_C051E502BC384EFD_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x13567AC0)
+#define CLASS_1_C051E502BC384EFD_SET_UIPATH_OFFSET UNITYSDK_OFFSET(0x13567AA0)
+#define CLASS_1_C051E502BC384EFD__CTOR_OFFSET UNITYSDK_OFFSET(0x13567760)
 
-inline static constexpr unsigned int Class_1_C051E502BC384EFD_TypeDefinitionIndex = 54030;
+inline static constexpr unsigned int Class_1_C051E502BC384EFD_TypeDefinitionIndex = 54756;
 
 class Class_1_C051E502BC384EFD : public ::System::Object
 {
@@ -50,9 +50,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_GET_UIPATH_OFFSET))(this);
 	}
 
-	::System::Void set_UIPath(::System::String* value)
+	::System::Void set_UIPath(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_SET_UIPATH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_SET_UIPATH_OFFSET))(this, a1);
 	}
 
 	::System::String* get_IconPath()
@@ -60,9 +60,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_GET_ICONPATH_OFFSET))(this);
 	}
 
-	::System::Void set_IconPath(::System::String* value)
+	::System::Void set_IconPath(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_SET_ICONPATH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_SET_ICONPATH_OFFSET))(this, a1);
 	}
 
 	::System::Single get_Delay()
@@ -70,9 +70,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_GET_DELAY_OFFSET))(this);
 	}
 
-	::System::Void set_Delay(::System::Single value)
+	::System::Void set_Delay(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_SET_DELAY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_SET_DELAY_OFFSET))(this, a1);
 	}
 
 	::System::Nullable_1<::UnityEngine::Vector3> get_FollowPosition()
@@ -80,8 +80,8 @@ public:
 		return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_GET_FOLLOWPOSITION_OFFSET))(this);
 	}
 
-	::System::Void set_FollowPosition(::System::Nullable_1<::UnityEngine::Vector3> value)
+	::System::Void set_FollowPosition(::System::Nullable_1<::UnityEngine::Vector3> a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_SET_FOLLOWPOSITION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + CLASS_1_C051E502BC384EFD_SET_FOLLOWPOSITION_OFFSET))(this, a1);
 	}
 };

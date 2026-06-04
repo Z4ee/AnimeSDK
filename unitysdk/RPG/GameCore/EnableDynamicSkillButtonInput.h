@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENABLEDYNAMICSKILLBUTTONINPUT_METHOD_3_5CB52ADF54DE67BB_OFFSET UNITYSDK_OFFSET(0x188A4F20)
-#define RPG_GAMECORE_ENABLEDYNAMICSKILLBUTTONINPUT_METHOD_3_E8835CCEB6CB032C_OFFSET UNITYSDK_OFFSET(0x188A4EA0)
-#define RPG_GAMECORE_ENABLEDYNAMICSKILLBUTTONINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x188A4EF0)
+#define RPG_GAMECORE_ENABLEDYNAMICSKILLBUTTONINPUT_METHOD_3_08EFC0E69DFF9063_OFFSET UNITYSDK_OFFSET(0x196E3480)
+#define RPG_GAMECORE_ENABLEDYNAMICSKILLBUTTONINPUT_METHOD_3_AEAC7B91C4D22932_OFFSET UNITYSDK_OFFSET(0x196E3500)
+#define RPG_GAMECORE_ENABLEDYNAMICSKILLBUTTONINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x196E34D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableDynamicSkillButtonInput_TypeDefinitionIndex = 21753;
+	inline static constexpr unsigned int EnableDynamicSkillButtonInput_TypeDefinitionIndex = 21597;
 
 	class EnableDynamicSkillButtonInput : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEDYNAMICSKILLBUTTONINPUT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E8835CCEB6CB032C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableDynamicSkillButtonInput*& a2)
+		static ::System::Void Method_3_08EFC0E69DFF9063(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableDynamicSkillButtonInput*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableDynamicSkillButtonInput*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEDYNAMICSKILLBUTTONINPUT_METHOD_3_E8835CCEB6CB032C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableDynamicSkillButtonInput*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEDYNAMICSKILLBUTTONINPUT_METHOD_3_08EFC0E69DFF9063_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5CB52ADF54DE67BB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableDynamicSkillButtonInput* a2)
+		static ::System::Void Method_3_AEAC7B91C4D22932(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableDynamicSkillButtonInput* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableDynamicSkillButtonInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEDYNAMICSKILLBUTTONINPUT_METHOD_3_5CB52ADF54DE67BB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableDynamicSkillButtonInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEDYNAMICSKILLBUTTONINPUT_METHOD_3_AEAC7B91C4D22932_OFFSET))(a1, a2);
 		}
 	};
 }

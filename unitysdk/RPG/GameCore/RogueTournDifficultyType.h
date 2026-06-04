@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournDifficultyType_TypeDefinitionIndex = 14145;
+	inline static constexpr unsigned int RogueTournDifficultyType_TypeDefinitionIndex = 14206;
 
 	enum class RogueTournDifficultyType : ::System::Int32
 	{

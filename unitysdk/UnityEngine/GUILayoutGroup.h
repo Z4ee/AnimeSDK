@@ -7,33 +7,33 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GUILayoutOption; }
 namespace UnityEngine { class GUIStyle; }
 
-#define UNITYENGINE_GUILAYOUTGROUP_ADD_OFFSET UNITYSDK_OFFSET(0x1A4AC010)
-#define UNITYENGINE_GUILAYOUTGROUP_APPLYOPTIONS_OFFSET UNITYSDK_OFFSET(0x1A4AF500)
-#define UNITYENGINE_GUILAYOUTGROUP_APPLYSTYLESETTINGS_OFFSET UNITYSDK_OFFSET(0x1A4B03D0)
-#define UNITYENGINE_GUILAYOUTGROUP_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1A4B19B0)
-#define UNITYENGINE_GUILAYOUTGROUP_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1A4B04E0)
-#define UNITYENGINE_GUILAYOUTGROUP_GETNEXT_OFFSET UNITYSDK_OFFSET(0x1A4AC070)
-#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINBOTTOM_OFFSET UNITYSDK_OFFSET(0x1A4B0280)
-#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINLEFT_OFFSET UNITYSDK_OFFSET(0x1A4B0250)
-#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINRIGHT_OFFSET UNITYSDK_OFFSET(0x1A4B0260)
-#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINTOP_OFFSET UNITYSDK_OFFSET(0x1A4B0270)
-#define UNITYENGINE_GUILAYOUTGROUP_RESETCURSOR_OFFSET UNITYSDK_OFFSET(0x1A4B04D0)
-#define UNITYENGINE_GUILAYOUTGROUP_SETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1A4B0CF0)
-#define UNITYENGINE_GUILAYOUTGROUP_SETVERTICAL_OFFSET UNITYSDK_OFFSET(0x1A4B20F0)
-#define UNITYENGINE_GUILAYOUTGROUP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A4B2DC0)
-#define UNITYENGINE_GUILAYOUTGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4B30F0)
-#define UNITYENGINE_GUILAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B0290)
+#define UNITYENGINE_GUILAYOUTGROUP_ADD_OFFSET UNITYSDK_OFFSET(0x1B2FA840)
+#define UNITYENGINE_GUILAYOUTGROUP_APPLYOPTIONS_OFFSET UNITYSDK_OFFSET(0x1B2FDE10)
+#define UNITYENGINE_GUILAYOUTGROUP_APPLYSTYLESETTINGS_OFFSET UNITYSDK_OFFSET(0x1B2FEB40)
+#define UNITYENGINE_GUILAYOUTGROUP_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B3001A0)
+#define UNITYENGINE_GUILAYOUTGROUP_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1B2FEC50)
+#define UNITYENGINE_GUILAYOUTGROUP_GETNEXT_OFFSET UNITYSDK_OFFSET(0x1B2FA8E0)
+#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINBOTTOM_OFFSET UNITYSDK_OFFSET(0x1B2FE9F0)
+#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINLEFT_OFFSET UNITYSDK_OFFSET(0x1B2FE9C0)
+#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINRIGHT_OFFSET UNITYSDK_OFFSET(0x1B2FE9D0)
+#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINTOP_OFFSET UNITYSDK_OFFSET(0x1B2FE9E0)
+#define UNITYENGINE_GUILAYOUTGROUP_RESETCURSOR_OFFSET UNITYSDK_OFFSET(0x1B2FEC40)
+#define UNITYENGINE_GUILAYOUTGROUP_SETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1B2FF4E0)
+#define UNITYENGINE_GUILAYOUTGROUP_SETVERTICAL_OFFSET UNITYSDK_OFFSET(0x1B300920)
+#define UNITYENGINE_GUILAYOUTGROUP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B3015C0)
+#define UNITYENGINE_GUILAYOUTGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B301880)
+#define UNITYENGINE_GUILAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2FEA00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUILayoutGroup_TypeDefinitionIndex = 5141;
+	inline static constexpr unsigned int GUILayoutGroup_TypeDefinitionIndex = 5235;
 
 	class GUILayoutGroup : public ::UnityEngine::GUILayoutEntry
 	{
 	public:
 		static ::UnityEngine::GUILayoutEntry** StaticGet_none()
 		{
-			return (::UnityEngine::GUILayoutEntry**)Il2CppClass::FromTypeDefinitionIndex(GUILayoutGroup_TypeDefinitionIndex)->GetStaticField(0x16030);
+			return (::UnityEngine::GUILayoutEntry**)Il2CppClass::FromTypeDefinitionIndex(GUILayoutGroup_TypeDefinitionIndex)->GetStaticField(0x37010);
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>* entries; // 0x48
 		::System::Boolean isVertical; // 0x50
@@ -86,14 +86,14 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_GET_MARGINBOTTOM_OFFSET))(this);
 		}
 
-		::System::Void ApplyOptions(::Il2CppArray<::UnityEngine::GUILayoutOption*>* options)
+		::System::Void ApplyOptions(::Il2CppArray<::UnityEngine::GUILayoutOption*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_APPLYOPTIONS_OFFSET))(this, options);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_APPLYOPTIONS_OFFSET))(this, a1);
 		}
 
-		::System::Void ApplyStyleSettings(::UnityEngine::GUIStyle* style)
+		::System::Void ApplyStyleSettings(::UnityEngine::GUIStyle* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_APPLYSTYLESETTINGS_OFFSET))(this, style);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_APPLYSTYLESETTINGS_OFFSET))(this, a1);
 		}
 
 		::System::Void ResetCursor()
@@ -106,9 +106,9 @@ namespace UnityEngine
 			return ((::UnityEngine::GUILayoutEntry*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_GETNEXT_OFFSET))(this);
 		}
 
-		::System::Void Add(::UnityEngine::GUILayoutEntry* e)
+		::System::Void Add(::UnityEngine::GUILayoutEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GUILayoutEntry*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_ADD_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GUILayoutEntry*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_ADD_OFFSET))(this, a1);
 		}
 
 		::System::Void CalcWidth()
@@ -116,9 +116,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_CALCWIDTH_OFFSET))(this);
 		}
 
-		::System::Void SetHorizontal(::System::Single x, ::System::Single width)
+		::System::Void SetHorizontal(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_SETHORIZONTAL_OFFSET))(this, x, width);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_SETHORIZONTAL_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void CalcHeight()
@@ -126,9 +126,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_CALCHEIGHT_OFFSET))(this);
 		}
 
-		::System::Void SetVertical(::System::Single y, ::System::Single height)
+		::System::Void SetVertical(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_SETVERTICAL_OFFSET))(this, y, height);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_SETVERTICAL_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* ToString()

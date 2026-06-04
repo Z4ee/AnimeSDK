@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1781BB10)
-#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1781BB20)
-#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17819F70)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x185D4D40)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x185D4D50)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x185D3110)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int SecurityElement_SecurityAttribute_TypeDefinitionIndex = 945;
+	inline static constexpr unsigned int SecurityElement_SecurityAttribute_TypeDefinitionIndex = 944;
 
 	class SecurityElement_SecurityAttribute : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace System::Security
 		::System::String* _name; // 0x10
 		::System::String* _value; // 0x18
 
-		::System::Void _ctor(::System::String* name, ::System::String* value)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE__CTOR_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Name()

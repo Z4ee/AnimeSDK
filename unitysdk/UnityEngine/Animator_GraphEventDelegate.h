@@ -8,36 +8,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A416A00)
-#define UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A416AB0)
-#define UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A415600)
-#define UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4169E0)
+#define UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B26A530)
+#define UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B26A5E0)
+#define UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B269FB0)
+#define UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B26A4C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Animator_GraphEventDelegate_TypeDefinitionIndex = 5044;
+	inline static constexpr unsigned int Animator_GraphEventDelegate_TypeDefinitionIndex = 5138;
 
 	class Animator_GraphEventDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Int32 eventID, ::UnityEngine::AnimatorStateInfo currentState, ::UnityEngine::AnimatorTransitionInfo transitionInfo)
+		::System::Void Invoke(::System::Int32 a1, ::UnityEngine::AnimatorStateInfo a2, ::UnityEngine::AnimatorTransitionInfo a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorTransitionInfo))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_INVOKE_OFFSET))(this, eventID, currentState, transitionInfo);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorTransitionInfo))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 eventID, ::UnityEngine::AnimatorStateInfo currentState, ::UnityEngine::AnimatorTransitionInfo transitionInfo, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::UnityEngine::AnimatorStateInfo a2, ::UnityEngine::AnimatorTransitionInfo a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorTransitionInfo, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_BEGININVOKE_OFFSET))(this, eventID, currentState, transitionInfo, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorTransitionInfo, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_GRAPHEVENTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

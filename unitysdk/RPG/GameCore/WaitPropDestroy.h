@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_WAITPROPDESTROY_METHOD_3_2C5DF8873AFE9173_OFFSET UNITYSDK_OFFSET(0x19105300)
-#define RPG_GAMECORE_WAITPROPDESTROY_METHOD_3_34294A95452621C4_OFFSET UNITYSDK_OFFSET(0x191051B0)
-#define RPG_GAMECORE_WAITPROPDESTROY__CTOR_OFFSET UNITYSDK_OFFSET(0x19105270)
+#define RPG_GAMECORE_WAITPROPDESTROY_METHOD_3_B25E39200D1B3DA9_OFFSET UNITYSDK_OFFSET(0x19E5DB70)
+#define RPG_GAMECORE_WAITPROPDESTROY_METHOD_3_CB2F4E0CDBEDD90A_OFFSET UNITYSDK_OFFSET(0x19E5DA20)
+#define RPG_GAMECORE_WAITPROPDESTROY__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5DAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPropDestroy_TypeDefinitionIndex = 20407;
+	inline static constexpr unsigned int WaitPropDestroy_TypeDefinitionIndex = 20352;
 
 	class WaitPropDestroy : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPDESTROY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_34294A95452621C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropDestroy*& a2)
+		static ::System::Void Method_3_CB2F4E0CDBEDD90A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropDestroy*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropDestroy*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPDESTROY_METHOD_3_34294A95452621C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropDestroy*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPDESTROY_METHOD_3_CB2F4E0CDBEDD90A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2C5DF8873AFE9173(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropDestroy* a2)
+		static ::System::Void Method_3_B25E39200D1B3DA9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropDestroy* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropDestroy*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPDESTROY_METHOD_3_2C5DF8873AFE9173_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropDestroy*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPDESTROY_METHOD_3_B25E39200D1B3DA9_OFFSET))(a1, a2);
 		}
 	};
 }

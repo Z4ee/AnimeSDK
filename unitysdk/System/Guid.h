@@ -8,70 +8,70 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
-#define SYSTEM_GUID_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x22A94B0)
-#define SYSTEM_GUID_COMPARETO_OFFSET UNITYSDK_OFFSET(0x22A94A0)
-#define SYSTEM_GUID_EATALLWHITESPACE_OFFSET UNITYSDK_OFFSET(0x17950B80)
-#define SYSTEM_GUID_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22A9420)
-#define SYSTEM_GUID_EQUALS_OFFSET UNITYSDK_OFFSET(0x22A93A0)
-#define SYSTEM_GUID_FASTNEWGUIDARRAY_OFFSET UNITYSDK_OFFSET(0x179524E0)
-#define SYSTEM_GUID_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22A9370)
-#define SYSTEM_GUID_GETRESULT_OFFSET UNITYSDK_OFFSET(0x22A9490)
-#define SYSTEM_GUID_HEXSTOCHARS_1_OFFSET UNITYSDK_OFFSET(0x179522B0)
-#define SYSTEM_GUID_HEXSTOCHARS_OFFSET UNITYSDK_OFFSET(0x17952230)
-#define SYSTEM_GUID_HEXTOCHAR_OFFSET UNITYSDK_OFFSET(0x17952220)
-#define SYSTEM_GUID_ISHEXPREFIX_OFFSET UNITYSDK_OFFSET(0x17950C90)
-#define SYSTEM_GUID_NEWGUID_OFFSET UNITYSDK_OFFSET(0x17952360)
-#define SYSTEM_GUID_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x17952120)
-#define SYSTEM_GUID_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x17952190)
-#define SYSTEM_GUID_PARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1794F490)
-#define SYSTEM_GUID_PARSE_OFFSET UNITYSDK_OFFSET(0x1794F380)
-#define SYSTEM_GUID_STRINGTOINT_1_OFFSET UNITYSDK_OFFSET(0x17950E70)
-#define SYSTEM_GUID_STRINGTOINT_2_OFFSET UNITYSDK_OFFSET(0x17950F00)
-#define SYSTEM_GUID_STRINGTOINT_OFFSET UNITYSDK_OFFSET(0x17950DE0)
-#define SYSTEM_GUID_STRINGTOLONG_1_OFFSET UNITYSDK_OFFSET(0x17950E60)
-#define SYSTEM_GUID_STRINGTOLONG_2_OFFSET UNITYSDK_OFFSET(0x179510D0)
-#define SYSTEM_GUID_STRINGTOLONG_OFFSET UNITYSDK_OFFSET(0x179510B0)
-#define SYSTEM_GUID_STRINGTOSHORT_1_OFFSET UNITYSDK_OFFSET(0x17950EC0)
-#define SYSTEM_GUID_STRINGTOSHORT_2_OFFSET UNITYSDK_OFFSET(0x17950E80)
-#define SYSTEM_GUID_STRINGTOSHORT_OFFSET UNITYSDK_OFFSET(0x17950E10)
-#define SYSTEM_GUID_TOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x22A9350)
-#define SYSTEM_GUID_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x22A9560)
-#define SYSTEM_GUID_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x22A9560)
-#define SYSTEM_GUID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22A9360)
-#define SYSTEM_GUID_TRYPARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1794F730)
-#define SYSTEM_GUID_TRYPARSEGUIDWITHDASHES_OFFSET UNITYSDK_OFFSET(0x1794F920)
-#define SYSTEM_GUID_TRYPARSEGUIDWITHHEXPREFIX_OFFSET UNITYSDK_OFFSET(0x1794FDD0)
-#define SYSTEM_GUID_TRYPARSEGUIDWITHNOSTYLE_OFFSET UNITYSDK_OFFSET(0x17950720)
-#define SYSTEM_GUID_TRYPARSEGUID_OFFSET UNITYSDK_OFFSET(0x1794EBD0)
-#define SYSTEM_GUID_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1794F430)
-#define SYSTEM_GUID__CCTOR_OFFSET UNITYSDK_OFFSET(0x17952650)
-#define SYSTEM_GUID__CTOR_1_OFFSET UNITYSDK_OFFSET(0x22A92C0)
-#define SYSTEM_GUID__CTOR_2_OFFSET UNITYSDK_OFFSET(0x22A9330)
-#define SYSTEM_GUID__CTOR_3_OFFSET UNITYSDK_OFFSET(0x22A92C0)
-#define SYSTEM_GUID__CTOR_4_OFFSET UNITYSDK_OFFSET(0x22A9340)
-#define SYSTEM_GUID__CTOR_OFFSET UNITYSDK_OFFSET(0x22A92B0)
+#define SYSTEM_GUID_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x38396A0)
+#define SYSTEM_GUID_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3839690)
+#define SYSTEM_GUID_EATALLWHITESPACE_OFFSET UNITYSDK_OFFSET(0x187036E0)
+#define SYSTEM_GUID_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3839610)
+#define SYSTEM_GUID_EQUALS_OFFSET UNITYSDK_OFFSET(0x3839590)
+#define SYSTEM_GUID_FASTNEWGUIDARRAY_OFFSET UNITYSDK_OFFSET(0x18704F20)
+#define SYSTEM_GUID_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3839560)
+#define SYSTEM_GUID_GETRESULT_OFFSET UNITYSDK_OFFSET(0x3839680)
+#define SYSTEM_GUID_HEXSTOCHARS_1_OFFSET UNITYSDK_OFFSET(0x18704CF0)
+#define SYSTEM_GUID_HEXSTOCHARS_OFFSET UNITYSDK_OFFSET(0x18704C70)
+#define SYSTEM_GUID_HEXTOCHAR_OFFSET UNITYSDK_OFFSET(0x18704C60)
+#define SYSTEM_GUID_ISHEXPREFIX_OFFSET UNITYSDK_OFFSET(0x187037E0)
+#define SYSTEM_GUID_NEWGUID_OFFSET UNITYSDK_OFFSET(0x18704DA0)
+#define SYSTEM_GUID_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x18704B60)
+#define SYSTEM_GUID_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x18704BD0)
+#define SYSTEM_GUID_PARSEEXACT_OFFSET UNITYSDK_OFFSET(0x18702290)
+#define SYSTEM_GUID_PARSE_OFFSET UNITYSDK_OFFSET(0x18702160)
+#define SYSTEM_GUID_STRINGTOINT_1_OFFSET UNITYSDK_OFFSET(0x187039C0)
+#define SYSTEM_GUID_STRINGTOINT_2_OFFSET UNITYSDK_OFFSET(0x18703A50)
+#define SYSTEM_GUID_STRINGTOINT_OFFSET UNITYSDK_OFFSET(0x18703930)
+#define SYSTEM_GUID_STRINGTOLONG_1_OFFSET UNITYSDK_OFFSET(0x187039B0)
+#define SYSTEM_GUID_STRINGTOLONG_2_OFFSET UNITYSDK_OFFSET(0x18703C20)
+#define SYSTEM_GUID_STRINGTOLONG_OFFSET UNITYSDK_OFFSET(0x18703C00)
+#define SYSTEM_GUID_STRINGTOSHORT_1_OFFSET UNITYSDK_OFFSET(0x18703A10)
+#define SYSTEM_GUID_STRINGTOSHORT_2_OFFSET UNITYSDK_OFFSET(0x187039D0)
+#define SYSTEM_GUID_STRINGTOSHORT_OFFSET UNITYSDK_OFFSET(0x18703960)
+#define SYSTEM_GUID_TOBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x3839540)
+#define SYSTEM_GUID_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3839750)
+#define SYSTEM_GUID_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x3839750)
+#define SYSTEM_GUID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3839550)
+#define SYSTEM_GUID_TRYPARSEEXACT_OFFSET UNITYSDK_OFFSET(0x18702530)
+#define SYSTEM_GUID_TRYPARSEGUIDWITHDASHES_OFFSET UNITYSDK_OFFSET(0x18702720)
+#define SYSTEM_GUID_TRYPARSEGUIDWITHHEXPREFIX_OFFSET UNITYSDK_OFFSET(0x18702BD0)
+#define SYSTEM_GUID_TRYPARSEGUIDWITHNOSTYLE_OFFSET UNITYSDK_OFFSET(0x18703280)
+#define SYSTEM_GUID_TRYPARSEGUID_OFFSET UNITYSDK_OFFSET(0x187019B0)
+#define SYSTEM_GUID_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x18702230)
+#define SYSTEM_GUID__CCTOR_OFFSET UNITYSDK_OFFSET(0x18705090)
+#define SYSTEM_GUID__CTOR_1_OFFSET UNITYSDK_OFFSET(0x38394B0)
+#define SYSTEM_GUID__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3839520)
+#define SYSTEM_GUID__CTOR_3_OFFSET UNITYSDK_OFFSET(0x38394B0)
+#define SYSTEM_GUID__CTOR_4_OFFSET UNITYSDK_OFFSET(0x3839530)
+#define SYSTEM_GUID__CTOR_OFFSET UNITYSDK_OFFSET(0x38394A0)
 
 namespace System
 {
-	inline static constexpr unsigned int Guid_TypeDefinitionIndex = 268;
+	inline static constexpr unsigned int Guid_TypeDefinitionIndex = 267;
 
 	struct alignas(4) Guid
 	{
 		static ::System::Security::Cryptography::RandomNumberGenerator** StaticGet__fastRng()
 		{
-			return (::System::Security::Cryptography::RandomNumberGenerator**)Il2CppClass::FromTypeDefinitionIndex(Guid_TypeDefinitionIndex)->GetStaticField(0x19D0);
+			return (::System::Security::Cryptography::RandomNumberGenerator**)Il2CppClass::FromTypeDefinitionIndex(Guid_TypeDefinitionIndex)->GetStaticField(0x1D20);
 		}
 		static ::System::Security::Cryptography::RandomNumberGenerator** StaticGet__rng()
 		{
-			return (::System::Security::Cryptography::RandomNumberGenerator**)Il2CppClass::FromTypeDefinitionIndex(Guid_TypeDefinitionIndex)->GetStaticField(0x19D8);
+			return (::System::Security::Cryptography::RandomNumberGenerator**)Il2CppClass::FromTypeDefinitionIndex(Guid_TypeDefinitionIndex)->GetStaticField(0x1D28);
 		}
 		static ::System::Object** StaticGet__rngAccess()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Guid_TypeDefinitionIndex)->GetStaticField(0x19E0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Guid_TypeDefinitionIndex)->GetStaticField(0x1D30);
 		}
 		static ::System::Guid* StaticGet_Empty()
 		{
-			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(Guid_TypeDefinitionIndex)->GetStaticField(0x1110);
+			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(Guid_TypeDefinitionIndex)->GetStaticField(0xB70);
 		}
 		::System::Int32 _a; // 0x10
 		::System::Int16 _b; // 0x14
@@ -85,29 +85,29 @@ namespace System
 		::System::Byte _j; // 0x1E
 		::System::Byte _k; // 0x1F
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* b)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_GUID__CTOR_OFFSET))(this, b);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_GUID__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::UInt32 a, ::System::UInt16 b, ::System::UInt16 c, ::System::Byte d, ::System::Byte e, ::System::Byte f, ::System::Byte g, ::System::Byte h, ::System::Byte i, ::System::Byte j, ::System::Byte k)
+		::System::Void _ctor_1(::System::UInt32 a1, ::System::UInt16 a2, ::System::UInt16 a3, ::System::Byte a4, ::System::Byte a5, ::System::Byte a6, ::System::Byte a7, ::System::Byte a8, ::System::Byte a9, ::System::Byte a10, ::System::Byte a11)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt16, ::System::UInt16, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_GUID__CTOR_1_OFFSET))(this, a, b, c, d, e, f, g, h, i, j, k);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt16, ::System::UInt16, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_GUID__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
-		::System::Void _ctor_2(::System::Int32 a, ::System::Int16 b, ::System::Int16 c, ::Il2CppArray<::System::Byte>* d)
+		::System::Void _ctor_2(::System::Int32 a1, ::System::Int16 a2, ::System::Int16 a3, ::Il2CppArray<::System::Byte>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int16, ::System::Int16, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_GUID__CTOR_2_OFFSET))(this, a, b, c, d);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int16, ::System::Int16, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_GUID__CTOR_2_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_3(::System::Int32 a, ::System::Int16 b, ::System::Int16 c, ::System::Byte d, ::System::Byte e, ::System::Byte f, ::System::Byte g, ::System::Byte h, ::System::Byte i, ::System::Byte j, ::System::Byte k)
+		::System::Void _ctor_3(::System::Int32 a1, ::System::Int16 a2, ::System::Int16 a3, ::System::Byte a4, ::System::Byte a5, ::System::Byte a6, ::System::Byte a7, ::System::Byte a8, ::System::Byte a9, ::System::Byte a10, ::System::Byte a11)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int16, ::System::Int16, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_GUID__CTOR_3_OFFSET))(this, a, b, c, d, e, f, g, h, i, j, k);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int16, ::System::Int16, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_GUID__CTOR_3_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
-		::System::Void _ctor_4(::System::String* g)
+		::System::Void _ctor_4(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID__CTOR_4_OFFSET))(this, g);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID__CTOR_4_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -115,125 +115,125 @@ namespace System
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GUID__CCTOR_OFFSET))();
 		}
 
-		static ::System::Guid Parse(::System::String* input)
+		static ::System::Guid Parse(::System::String* a1)
 		{
-			return ((::System::Guid(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_PARSE_OFFSET))(input);
+			return ((::System::Guid(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_PARSE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryParse(::System::String* input, ::System::Guid& result)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Guid& a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Guid&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSE_OFFSET))(input, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::Guid&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Guid ParseExact(::System::String* input, ::System::String* format)
+		static ::System::Guid ParseExact(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Guid(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_PARSEEXACT_OFFSET))(input, format);
+			return ((::System::Guid(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_PARSEEXACT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryParseExact(::System::String* input, ::System::String* format, ::System::Guid& result)
+		static ::System::Boolean TryParseExact(::System::String* a1, ::System::String* a2, ::System::Guid& a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Guid&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSEEXACT_OFFSET))(input, format, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Guid&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSEEXACT_OFFSET))(a1, a2, a3);
 		}
 
 		/*
-		static ::System::Boolean TryParseGuid(::System::String* g, ::System::Guid_GuidStyles flags, ::System::Guid_GuidResult& result)
+		static ::System::Boolean TryParseGuid(::System::String* a1, ::System::Guid_GuidStyles a2, ::System::Guid_GuidResult& a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Guid_GuidStyles, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSEGUID_OFFSET))(g, flags, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::Guid_GuidStyles, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSEGUID_OFFSET))(a1, a2, a3);
 		}
 		*/
 
 		/*
-		static ::System::Boolean TryParseGuidWithHexPrefix(::System::String* guidString, ::System::Guid_GuidResult& result)
+		static ::System::Boolean TryParseGuidWithHexPrefix(::System::String* a1, ::System::Guid_GuidResult& a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSEGUIDWITHHEXPREFIX_OFFSET))(guidString, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSEGUIDWITHHEXPREFIX_OFFSET))(a1, a2);
 		}
 		*/
 
 		/*
-		static ::System::Boolean TryParseGuidWithNoStyle(::System::String* guidString, ::System::Guid_GuidResult& result)
+		static ::System::Boolean TryParseGuidWithNoStyle(::System::String* a1, ::System::Guid_GuidResult& a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSEGUIDWITHNOSTYLE_OFFSET))(guidString, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSEGUIDWITHNOSTYLE_OFFSET))(a1, a2);
 		}
 		*/
 
 		/*
-		static ::System::Boolean TryParseGuidWithDashes(::System::String* guidString, ::System::Guid_GuidResult& result)
+		static ::System::Boolean TryParseGuidWithDashes(::System::String* a1, ::System::Guid_GuidResult& a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSEGUIDWITHDASHES_OFFSET))(guidString, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TRYPARSEGUIDWITHDASHES_OFFSET))(a1, a2);
 		}
 		*/
 
 		/*
-		static ::System::Boolean StringToShort(::System::String* str, ::System::Int32 requiredLength, ::System::Int32 flags, ::System::Int16& result, ::System::Guid_GuidResult& parseResult)
+		static ::System::Boolean StringToShort(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int16& a4, ::System::Guid_GuidResult& a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Int16&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOSHORT_OFFSET))(str, requiredLength, flags, result, parseResult);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Int16&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOSHORT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 		*/
 
 		/*
-		static ::System::Boolean StringToShort_1(::System::String* str, ::System::Int32& parsePos, ::System::Int32 requiredLength, ::System::Int32 flags, ::System::Int16& result, ::System::Guid_GuidResult& parseResult)
+		static ::System::Boolean StringToShort_1(::System::String* a1, ::System::Int32& a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int16& a5, ::System::Guid_GuidResult& a6)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Int16&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOSHORT_1_OFFSET))(str, parsePos, requiredLength, flags, result, parseResult);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Int16&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOSHORT_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 		*/
 
 		/*
-		static ::System::Boolean StringToShort_2(::System::String* str, ::System::Int32* parsePos, ::System::Int32 requiredLength, ::System::Int32 flags, ::System::Int16& result, ::System::Guid_GuidResult& parseResult)
+		static ::System::Boolean StringToShort_2(::System::String* a1, ::System::Int32* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int16& a5, ::System::Guid_GuidResult& a6)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32*, ::System::Int32, ::System::Int32, ::System::Int16&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOSHORT_2_OFFSET))(str, parsePos, requiredLength, flags, result, parseResult);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32*, ::System::Int32, ::System::Int32, ::System::Int16&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOSHORT_2_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 		*/
 
 		/*
-		static ::System::Boolean StringToInt(::System::String* str, ::System::Int32 requiredLength, ::System::Int32 flags, ::System::Int32& result, ::System::Guid_GuidResult& parseResult)
+		static ::System::Boolean StringToInt(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4, ::System::Guid_GuidResult& a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOINT_OFFSET))(str, requiredLength, flags, result, parseResult);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOINT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 		*/
 
 		/*
-		static ::System::Boolean StringToInt_1(::System::String* str, ::System::Int32& parsePos, ::System::Int32 requiredLength, ::System::Int32 flags, ::System::Int32& result, ::System::Guid_GuidResult& parseResult)
+		static ::System::Boolean StringToInt_1(::System::String* a1, ::System::Int32& a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32& a5, ::System::Guid_GuidResult& a6)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOINT_1_OFFSET))(str, parsePos, requiredLength, flags, result, parseResult);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOINT_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 		*/
 
 		/*
-		static ::System::Boolean StringToInt_2(::System::String* str, ::System::Int32* parsePos, ::System::Int32 requiredLength, ::System::Int32 flags, ::System::Int32& result, ::System::Guid_GuidResult& parseResult)
+		static ::System::Boolean StringToInt_2(::System::String* a1, ::System::Int32* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32& a5, ::System::Guid_GuidResult& a6)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32*, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOINT_2_OFFSET))(str, parsePos, requiredLength, flags, result, parseResult);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32*, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOINT_2_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 		*/
 
 		/*
-		static ::System::Boolean StringToLong(::System::String* str, ::System::Int32 flags, ::System::Int64& result, ::System::Guid_GuidResult& parseResult)
+		static ::System::Boolean StringToLong(::System::String* a1, ::System::Int32 a2, ::System::Int64& a3, ::System::Guid_GuidResult& a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Int64&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOLONG_OFFSET))(str, flags, result, parseResult);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Int64&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOLONG_OFFSET))(a1, a2, a3, a4);
 		}
 		*/
 
 		/*
-		static ::System::Boolean StringToLong_1(::System::String* str, ::System::Int32& parsePos, ::System::Int32 flags, ::System::Int64& result, ::System::Guid_GuidResult& parseResult)
+		static ::System::Boolean StringToLong_1(::System::String* a1, ::System::Int32& a2, ::System::Int32 a3, ::System::Int64& a4, ::System::Guid_GuidResult& a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32&, ::System::Int32, ::System::Int64&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOLONG_1_OFFSET))(str, parsePos, flags, result, parseResult);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32&, ::System::Int32, ::System::Int64&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOLONG_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 		*/
 
 		/*
-		static ::System::Boolean StringToLong_2(::System::String* str, ::System::Int32* parsePos, ::System::Int32 flags, ::System::Int64& result, ::System::Guid_GuidResult& parseResult)
+		static ::System::Boolean StringToLong_2(::System::String* a1, ::System::Int32* a2, ::System::Int32 a3, ::System::Int64& a4, ::System::Guid_GuidResult& a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32*, ::System::Int32, ::System::Int64&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOLONG_2_OFFSET))(str, parsePos, flags, result, parseResult);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32*, ::System::Int32, ::System::Int64&, ::System::Guid_GuidResult&))((::PBYTE)hIl2Cpp + SYSTEM_GUID_STRINGTOLONG_2_OFFSET))(a1, a2, a3, a4, a5);
 		}
 		*/
 
-		static ::System::String* EatAllWhitespace(::System::String* str)
+		static ::System::String* EatAllWhitespace(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_EATALLWHITESPACE_OFFSET))(str);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_EATALLWHITESPACE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsHexPrefix(::System::String* str, ::System::Int32 i)
+		static ::System::Boolean IsHexPrefix(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GUID_ISHEXPREFIX_OFFSET))(str, i);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GUID_ISHEXPREFIX_OFFSET))(a1, a2);
 		}
 
 		::Il2CppArray<::System::Byte>* ToByteArray()
@@ -251,64 +251,64 @@ namespace System
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* o)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_EQUALS_OFFSET))(this, o);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Guid g)
+		::System::Boolean Equals_1(::System::Guid a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_GUID_EQUALS_1_OFFSET))(this, g);
+			return ((::System::Boolean(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_GUID_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetResult(::System::UInt32 me, ::System::UInt32 them)
+		::System::Int32 GetResult(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GETRESULT_OFFSET))(this, me, them);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GETRESULT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 CompareTo(::System::Object* value)
+		::System::Int32 CompareTo(::System::Object* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_COMPARETO_OFFSET))(this, value);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_COMPARETO_OFFSET))(this, a1);
 		}
 
-		::System::Int32 CompareTo_1(::System::Guid value)
+		::System::Int32 CompareTo_1(::System::Guid a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_GUID_COMPARETO_1_OFFSET))(this, value);
+			return ((::System::Int32(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_GUID_COMPARETO_1_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Equality(::System::Guid a, ::System::Guid b)
+		static ::System::Boolean op_Equality(::System::Guid a1, ::System::Guid a2)
 		{
-			return ((::System::Boolean(*)(::System::Guid, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_GUID_OP_EQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::System::Guid, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_GUID_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::System::Guid a, ::System::Guid b)
+		static ::System::Boolean op_Inequality(::System::Guid a1, ::System::Guid a2)
 		{
-			return ((::System::Boolean(*)(::System::Guid, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_GUID_OP_INEQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::System::Guid, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_GUID_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::String* ToString_1(::System::String* format)
+		::System::String* ToString_1(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TOSTRING_1_OFFSET))(this, format);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TOSTRING_1_OFFSET))(this, a1);
 		}
 
-		static ::System::Char HexToChar(::System::Int32 a)
+		static ::System::Char HexToChar(::System::Int32 a1)
 		{
-			return ((::System::Char(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GUID_HEXTOCHAR_OFFSET))(a);
+			return ((::System::Char(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GUID_HEXTOCHAR_OFFSET))(a1);
 		}
 
-		static ::System::Int32 HexsToChars(::System::Char* guidChars, ::System::Int32 offset, ::System::Int32 a, ::System::Int32 b)
+		static ::System::Int32 HexsToChars(::System::Char* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GUID_HEXSTOCHARS_OFFSET))(guidChars, offset, a, b);
+			return ((::System::Int32(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GUID_HEXSTOCHARS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 HexsToChars_1(::System::Char* guidChars, ::System::Int32 offset, ::System::Int32 a, ::System::Int32 b, ::System::Boolean hex)
+		static ::System::Int32 HexsToChars_1(::System::Char* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::System::Int32(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GUID_HEXSTOCHARS_1_OFFSET))(guidChars, offset, a, b, hex);
+			return ((::System::Int32(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GUID_HEXSTOCHARS_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		::System::String* ToString_2(::System::String* format, ::System::IFormatProvider* provider)
+		::System::String* ToString_2(::System::String* a1, ::System::IFormatProvider* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TOSTRING_2_OFFSET))(this, format, provider);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_TOSTRING_2_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Guid NewGuid()

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int EventModifiers_TypeDefinitionIndex = 5111;
+	inline static constexpr unsigned int EventModifiers_TypeDefinitionIndex = 5205;
 
 	enum class EventModifiers : ::System::Int32
 	{

@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_3_793BE85014926622_METHOD_3_1F96CACAEB5EDB64_OFFSET UNITYSDK_OFFSET(0x183BF770)
-#define CLASS_3_793BE85014926622_METHOD_3_FAE3758F0912001F_OFFSET UNITYSDK_OFFSET(0x183BF7F0)
-#define CLASS_3_793BE85014926622__CTOR_OFFSET UNITYSDK_OFFSET(0x183BF7C0)
+#define CLASS_3_793BE85014926622_METHOD_3_1F96CACAEB5EDB64_OFFSET UNITYSDK_OFFSET(0x191B1710)
+#define CLASS_3_793BE85014926622_METHOD_3_FAE3758F0912001F_OFFSET UNITYSDK_OFFSET(0x191B1790)
+#define CLASS_3_793BE85014926622__CTOR_OFFSET UNITYSDK_OFFSET(0x191B1760)
 
-inline static constexpr unsigned int Class_3_793BE85014926622_TypeDefinitionIndex = 20273;
+inline static constexpr unsigned int Class_3_793BE85014926622_TypeDefinitionIndex = 20128;
 
 class Class_3_793BE85014926622 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::String* Field_3_1; // 0x18
-	::RPG::GameCore::DesignerUserPrefsDomain Field_3_0; // 0x20
-	::System::UInt32 Field_3_2; // 0x24
-	::System::Boolean Field_3_3; // 0x28
+	::System::String* Field_3_0; // 0x18
+	::System::Boolean Field_3_1; // 0x20
+	::RPG::GameCore::DesignerUserPrefsDomain Field_3_2; // 0x24
+	::System::UInt32 Field_3_3; // 0x28
 
 	::System::Void _ctor()
 	{

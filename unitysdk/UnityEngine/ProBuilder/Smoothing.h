@@ -10,17 +10,17 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_1_OFFSET UNITYSDK_OFFSET(0x1A2E4CA0)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_OFFSET UNITYSDK_OFFSET(0x1A2E4C90)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_FINDSOFTEDGESRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1A2E5F20)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_GETNEXTUNUSEDSMOOTHINGGROUP_OFFSET UNITYSDK_OFFSET(0x1A2E4C00)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_GETUNUSEDSMOOTHINGGROUP_OFFSET UNITYSDK_OFFSET(0x1A2E49F0)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_ISSMOOTH_OFFSET UNITYSDK_OFFSET(0x1A2E4C70)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_ISSOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1A2E6220)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_1_OFFSET UNITYSDK_OFFSET(0x1B144FE0)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_OFFSET UNITYSDK_OFFSET(0x1B144FD0)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_FINDSOFTEDGESRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1B146100)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_GETNEXTUNUSEDSMOOTHINGGROUP_OFFSET UNITYSDK_OFFSET(0x1B144F40)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_GETUNUSEDSMOOTHINGGROUP_OFFSET UNITYSDK_OFFSET(0x1B144D10)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_ISSMOOTH_OFFSET UNITYSDK_OFFSET(0x1B144FB0)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_ISSOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1B146400)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Smoothing_TypeDefinitionIndex = 39992;
+	inline static constexpr unsigned int Smoothing_TypeDefinitionIndex = 40819;
 
 	class Smoothing : public ::System::Object
 	{
@@ -31,39 +31,39 @@ namespace UnityEngine::ProBuilder
 		// static const ::System::Int32 hardRangeMin = 0x19; // 0x0
 		// static const ::System::Int32 hardRangeMax = 0x2A; // 0x0
 
-		static ::System::Int32 GetUnusedSmoothingGroup(::UnityEngine::ProBuilder::ProBuilderMesh* mesh)
+		static ::System::Int32 GetUnusedSmoothingGroup(::UnityEngine::ProBuilder::ProBuilderMesh* a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_GETUNUSEDSMOOTHINGGROUP_OFFSET))(mesh);
+			return ((::System::Int32(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_GETUNUSEDSMOOTHINGGROUP_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetNextUnusedSmoothingGroup(::System::Int32 start, ::System::Collections::Generic::HashSet_1<::System::Int32>* used)
+		static ::System::Int32 GetNextUnusedSmoothingGroup(::System::Int32 a1, ::System::Collections::Generic::HashSet_1<::System::Int32>* a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_GETNEXTUNUSEDSMOOTHINGGROUP_OFFSET))(start, used);
+			return ((::System::Int32(*)(::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_GETNEXTUNUSEDSMOOTHINGGROUP_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsSmooth(::System::Int32 index)
+		static ::System::Boolean IsSmooth(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_ISSMOOTH_OFFSET))(index);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_ISSMOOTH_OFFSET))(a1);
 		}
 
-		static ::System::Void ApplySmoothingGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Single angleThreshold)
+		static ::System::Void ApplySmoothingGroups(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_OFFSET))(mesh, faces, angleThreshold);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ApplySmoothingGroups_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Single angleThreshold, ::Il2CppArray<::UnityEngine::Vector3>* normals)
+		static ::System::Void ApplySmoothingGroups_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2, ::System::Single a3, ::Il2CppArray<::UnityEngine::Vector3>* a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Single, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_1_OFFSET))(mesh, faces, angleThreshold, normals);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Single, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean FindSoftEdgesRecursive(::Il2CppArray<::UnityEngine::Vector3>* normals, ::UnityEngine::ProBuilder::WingedEdge* wing, ::System::Single angleThreshold, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* processed)
+		static ::System::Boolean FindSoftEdgesRecursive(::Il2CppArray<::UnityEngine::Vector3>* a1, ::UnityEngine::ProBuilder::WingedEdge* a2, ::System::Single a3, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* a4)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::UnityEngine::ProBuilder::WingedEdge*, ::System::Single, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_FINDSOFTEDGESRECURSIVE_OFFSET))(normals, wing, angleThreshold, processed);
+			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::UnityEngine::ProBuilder::WingedEdge*, ::System::Single, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_FINDSOFTEDGESRECURSIVE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean IsSoftEdge(::Il2CppArray<::UnityEngine::Vector3>* normals, ::UnityEngine::ProBuilder::EdgeLookup left, ::UnityEngine::ProBuilder::EdgeLookup right, ::System::Single threshold)
+		static ::System::Boolean IsSoftEdge(::Il2CppArray<::UnityEngine::Vector3>* a1, ::UnityEngine::ProBuilder::EdgeLookup a2, ::UnityEngine::ProBuilder::EdgeLookup a3, ::System::Single a4)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::EdgeLookup, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_ISSOFTEDGE_OFFSET))(normals, left, right, threshold);
+			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::EdgeLookup, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_ISSOFTEDGE_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

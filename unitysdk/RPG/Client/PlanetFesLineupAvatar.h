@@ -4,32 +4,32 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PLANETFESLINEUPAVATAR_CREATE_OFFSET UNITYSDK_OFFSET(0xACC2810)
-#define RPG_CLIENT_PLANETFESLINEUPAVATAR_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xACC3640)
-#define RPG_CLIENT_PLANETFESLINEUPAVATAR_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xACC35C0)
-#define RPG_CLIENT_PLANETFESLINEUPAVATAR_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xACC3660)
-#define RPG_CLIENT_PLANETFESLINEUPAVATAR_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0xACC3650)
-#define RPG_CLIENT_PLANETFESLINEUPAVATAR_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xACC3670)
-#define RPG_CLIENT_PLANETFESLINEUPAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0xACC35B0)
+#define RPG_CLIENT_PLANETFESLINEUPAVATAR_CREATE_OFFSET UNITYSDK_OFFSET(0xC417280)
+#define RPG_CLIENT_PLANETFESLINEUPAVATAR_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xC418110)
+#define RPG_CLIENT_PLANETFESLINEUPAVATAR_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xC418090)
+#define RPG_CLIENT_PLANETFESLINEUPAVATAR_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC418130)
+#define RPG_CLIENT_PLANETFESLINEUPAVATAR_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0xC418120)
+#define RPG_CLIENT_PLANETFESLINEUPAVATAR_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC418140)
+#define RPG_CLIENT_PLANETFESLINEUPAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0xC418080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesLineupAvatar_TypeDefinitionIndex = 61287;
+	inline static constexpr unsigned int PlanetFesLineupAvatar_TypeDefinitionIndex = 62211;
 
 	class PlanetFesLineupAvatar : public ::System::Object
 	{
 	public:
-		::System::UInt32 _Level_k__BackingField; // 0x10
-		::System::UInt32 _AvatarID_k__BackingField; // 0x14
+		::System::UInt32 _AvatarID_k__BackingField; // 0x10
+		::System::UInt32 _Level_k__BackingField; // 0x14
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPAVATAR__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::PlanetFesLineupAvatar* Create(::System::UInt32 avatarID, ::System::UInt32 level)
+		static ::RPG::Client::PlanetFesLineupAvatar* Create(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::PlanetFesLineupAvatar*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPAVATAR_CREATE_OFFSET))(avatarID, level);
+			return ((::RPG::Client::PlanetFesLineupAvatar*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPAVATAR_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::String* get_IconPath()
@@ -42,9 +42,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPAVATAR_GET_AVATARID_OFFSET))(this);
 		}
 
-		::System::Void set_AvatarID(::System::UInt32 value)
+		::System::Void set_AvatarID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPAVATAR_SET_AVATARID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPAVATAR_SET_AVATARID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Level()
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPAVATAR_GET_LEVEL_OFFSET))(this);
 		}
 
-		::System::Void set_Level(::System::UInt32 value)
+		::System::Void set_Level(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPAVATAR_SET_LEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLINEUPAVATAR_SET_LEVEL_OFFSET))(this, a1);
 		}
 	};
 }

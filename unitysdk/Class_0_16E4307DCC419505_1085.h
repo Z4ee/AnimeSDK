@@ -1,9 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_D0FCEBDAF981FB27.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RPG::Client { class SwordTrainingStatusChangeInfo; }
+class Class_0_16E4307DCC419505_1086;
+class Class_1_D09F4FAB9C64FEFA;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1085_TypeDefinitionIndex = 69069;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1085_TypeDefinitionIndex = 69050;
 
 class Class_0_16E4307DCC419505_1085
 {

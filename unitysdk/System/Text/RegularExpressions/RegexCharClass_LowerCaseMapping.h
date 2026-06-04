@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_LOWERCASEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x22D6C20)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_LOWERCASEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x3872730)
 
 namespace System::Text::RegularExpressions
 {
@@ -15,9 +15,9 @@ namespace System::Text::RegularExpressions
 		::System::Int32 _lcOp; // 0x14
 		::System::Int32 _data; // 0x18
 
-		::System::Void _ctor(::System::Char chMin, ::System::Char chMax, ::System::Int32 lcOp, ::System::Int32 data)
+		::System::Void _ctor(::System::Char a1, ::System::Char a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::Char, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_LOWERCASEMAPPING__CTOR_OFFSET))(this, chMin, chMax, lcOp, data);
+			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::Char, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_LOWERCASEMAPPING__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

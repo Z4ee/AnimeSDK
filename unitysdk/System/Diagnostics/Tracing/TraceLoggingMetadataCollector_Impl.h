@@ -5,35 +5,35 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics::Tracing { class FieldMetadata; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ADDNONSCALAR_OFFSET UNITYSDK_OFFSET(0x1790AEA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ADDSCALAR_OFFSET UNITYSDK_OFFSET(0x1790ADE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_BEGINBUFFERED_OFFSET UNITYSDK_OFFSET(0x1790AFB0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ENCODE_OFFSET UNITYSDK_OFFSET(0x1790B0D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ENDBUFFERED_OFFSET UNITYSDK_OFFSET(0x1790B0C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1790AC60)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ADDNONSCALAR_OFFSET UNITYSDK_OFFSET(0x186C1B00)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ADDSCALAR_OFFSET UNITYSDK_OFFSET(0x186C1A80)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_BEGINBUFFERED_OFFSET UNITYSDK_OFFSET(0x186C1C60)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ENCODE_OFFSET UNITYSDK_OFFSET(0x186C1D60)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ENDBUFFERED_OFFSET UNITYSDK_OFFSET(0x186C1D50)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x186C1890)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int TraceLoggingMetadataCollector_Impl_TypeDefinitionIndex = 1661;
+	inline static constexpr unsigned int TraceLoggingMetadataCollector_Impl_TypeDefinitionIndex = 1659;
 
 	class TraceLoggingMetadataCollector_Impl : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::FieldMetadata*>* fields; // 0x10
-		::System::Int32 bufferNesting; // 0x18
-		::System::Int16 scratchSize; // 0x1C
-		::System::SByte dataCount; // 0x1E
-		::System::Boolean scalar; // 0x1F
-		::System::SByte pinCount; // 0x20
+		::System::Int16 scratchSize; // 0x18
+		::System::Boolean scalar; // 0x1A
+		::System::SByte dataCount; // 0x1B
+		::System::SByte pinCount; // 0x1C
+		::System::Int32 bufferNesting; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL__CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddScalar(::System::Int32 size)
+		::System::Void AddScalar(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ADDSCALAR_OFFSET))(this, size);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ADDSCALAR_OFFSET))(this, a1);
 		}
 
 		::System::Void AddNonscalar()
@@ -51,9 +51,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ENDBUFFERED_OFFSET))(this);
 		}
 
-		::System::Int32 Encode(::Il2CppArray<::System::Byte>* metadata)
+		::System::Int32 Encode(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ENCODE_OFFSET))(this, metadata);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGMETADATACOLLECTOR_IMPL_ENCODE_OFFSET))(this, a1);
 		}
 	};
 }

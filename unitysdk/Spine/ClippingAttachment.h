@@ -6,29 +6,29 @@ namespace Spine { class Attachment; }
 namespace Spine { class SlotData; }
 namespace System { class String; }
 
-#define SPINE_CLIPPINGATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x19DD5CA0)
-#define SPINE_CLIPPINGATTACHMENT_GET_ENDSLOT_OFFSET UNITYSDK_OFFSET(0x19DD5C30)
-#define SPINE_CLIPPINGATTACHMENT_SET_ENDSLOT_OFFSET UNITYSDK_OFFSET(0x19DD5C40)
-#define SPINE_CLIPPINGATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19DD5C50)
-#define SPINE_CLIPPINGATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DD3620)
+#define SPINE_CLIPPINGATTACHMENT_COPY_OFFSET UNITYSDK_OFFSET(0x1AC53380)
+#define SPINE_CLIPPINGATTACHMENT_GET_ENDSLOT_OFFSET UNITYSDK_OFFSET(0x1AC53310)
+#define SPINE_CLIPPINGATTACHMENT_SET_ENDSLOT_OFFSET UNITYSDK_OFFSET(0x1AC53320)
+#define SPINE_CLIPPINGATTACHMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AC53330)
+#define SPINE_CLIPPINGATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC50D90)
 
 namespace Spine
 {
-	inline static constexpr unsigned int ClippingAttachment_TypeDefinitionIndex = 36416;
+	inline static constexpr unsigned int ClippingAttachment_TypeDefinitionIndex = 36716;
 
 	class ClippingAttachment : public ::Spine::VertexAttachment
 	{
 	public:
 		::Spine::SlotData* endSlot; // 0x38
 
-		::System::Void _ctor(::System::String* name)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_CLIPPINGATTACHMENT__CTOR_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_CLIPPINGATTACHMENT__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::Spine::ClippingAttachment* other)
+		::System::Void _ctor_1(::Spine::ClippingAttachment* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ClippingAttachment*))((::PBYTE)hIl2Cpp + SPINE_CLIPPINGATTACHMENT__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Spine::ClippingAttachment*))((::PBYTE)hIl2Cpp + SPINE_CLIPPINGATTACHMENT__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::Spine::SlotData* get_EndSlot()
@@ -36,9 +36,9 @@ namespace Spine
 			return ((::Spine::SlotData*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_CLIPPINGATTACHMENT_GET_ENDSLOT_OFFSET))(this);
 		}
 
-		::System::Void set_EndSlot(::Spine::SlotData* value)
+		::System::Void set_EndSlot(::Spine::SlotData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::SlotData*))((::PBYTE)hIl2Cpp + SPINE_CLIPPINGATTACHMENT_SET_ENDSLOT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::SlotData*))((::PBYTE)hIl2Cpp + SPINE_CLIPPINGATTACHMENT_SET_ENDSLOT_OFFSET))(this, a1);
 		}
 
 		::Spine::Attachment* Copy()

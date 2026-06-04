@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WeaknessFilterType_TypeDefinitionIndex = 22056;
+	inline static constexpr unsigned int WeaknessFilterType_TypeDefinitionIndex = 23337;
 
 	enum class WeaknessFilterType : ::System::Int32
 	{

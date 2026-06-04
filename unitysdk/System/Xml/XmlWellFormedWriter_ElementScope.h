@@ -6,9 +6,9 @@
 namespace System { class String; }
 namespace System::Xml { class XmlRawWriter; }
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_SET_OFFSET UNITYSDK_OFFSET(0x22D3100)
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_WRITEENDELEMENT_OFFSET UNITYSDK_OFFSET(0x22D3130)
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_WRITEFULLENDELEMENT_OFFSET UNITYSDK_OFFSET(0x22D3170)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_SET_OFFSET UNITYSDK_OFFSET(0x386E010)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_WRITEENDELEMENT_OFFSET UNITYSDK_OFFSET(0x386E040)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_WRITEFULLENDELEMENT_OFFSET UNITYSDK_OFFSET(0x386E080)
 
 namespace System::Xml
 {
@@ -23,19 +23,19 @@ namespace System::Xml
 		::System::Xml::XmlSpace xmlSpace; // 0x30
 		::System::String* xmlLang; // 0x38
 
-		::System::Void Set(::System::String* prefix, ::System::String* localName, ::System::String* namespaceUri, ::System::Int32 prevNSTop)
+		::System::Void Set(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_SET_OFFSET))(this, prefix, localName, namespaceUri, prevNSTop);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_SET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void WriteEndElement(::System::Xml::XmlRawWriter* rawWriter)
+		::System::Void WriteEndElement(::System::Xml::XmlRawWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlRawWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_WRITEENDELEMENT_OFFSET))(this, rawWriter);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlRawWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_WRITEENDELEMENT_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteFullEndElement(::System::Xml::XmlRawWriter* rawWriter)
+		::System::Void WriteFullEndElement(::System::Xml::XmlRawWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlRawWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_WRITEFULLENDELEMENT_OFFSET))(this, rawWriter);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlRawWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ELEMENTSCOPE_WRITEFULLENDELEMENT_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,25 +6,25 @@ namespace System { class Object; }
 namespace System::Threading { class ParameterizedThreadStart; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_GET_REQUIRESATOMICSTARTTRANSITION_OFFSET UNITYSDK_OFFSET(0x17878700)
-#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_LONGRUNNINGTHREADWORK_OFFSET UNITYSDK_OFFSET(0x178781B0)
-#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_NOTIFYWORKITEMPROGRESS_OFFSET UNITYSDK_OFFSET(0x17878510)
-#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_QUEUETASK_OFFSET UNITYSDK_OFFSET(0x17877430)
-#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_TRYDEQUEUE_OFFSET UNITYSDK_OFFSET(0x17878600)
-#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_TRYEXECUTETASKINLINE_OFFSET UNITYSDK_OFFSET(0x17877260)
-#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17878710)
-#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER__CTOR_OFFSET UNITYSDK_OFFSET(0x178777D0)
+#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_GET_REQUIRESATOMICSTARTTRANSITION_OFFSET UNITYSDK_OFFSET(0x18631710)
+#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_LONGRUNNINGTHREADWORK_OFFSET UNITYSDK_OFFSET(0x186311B0)
+#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_NOTIFYWORKITEMPROGRESS_OFFSET UNITYSDK_OFFSET(0x18631520)
+#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_QUEUETASK_OFFSET UNITYSDK_OFFSET(0x186303E0)
+#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_TRYDEQUEUE_OFFSET UNITYSDK_OFFSET(0x18631610)
+#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_TRYEXECUTETASKINLINE_OFFSET UNITYSDK_OFFSET(0x18630210)
+#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18631720)
+#define SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER__CTOR_OFFSET UNITYSDK_OFFSET(0x18630780)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int ThreadPoolTaskScheduler_TypeDefinitionIndex = 932;
+	inline static constexpr unsigned int ThreadPoolTaskScheduler_TypeDefinitionIndex = 931;
 
 	class ThreadPoolTaskScheduler : public ::System::Threading::Tasks::TaskScheduler
 	{
 	public:
 		static ::System::Threading::ParameterizedThreadStart** StaticGet_s_longRunningThreadWork()
 		{
-			return (::System::Threading::ParameterizedThreadStart**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolTaskScheduler_TypeDefinitionIndex)->GetStaticField(0xC5D0);
+			return (::System::Threading::ParameterizedThreadStart**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x12790);
 		}
 
 		::System::Void _ctor()
@@ -37,24 +37,24 @@ namespace System::Threading::Tasks
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void LongRunningThreadWork(::System::Object* obj)
+		static ::System::Void LongRunningThreadWork(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_LONGRUNNINGTHREADWORK_OFFSET))(obj);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_LONGRUNNINGTHREADWORK_OFFSET))(a1);
 		}
 
-		::System::Void QueueTask(::System::Threading::Tasks::Task* task)
+		::System::Void QueueTask(::System::Threading::Tasks::Task* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_QUEUETASK_OFFSET))(this, task);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_QUEUETASK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryExecuteTaskInline(::System::Threading::Tasks::Task* task, ::System::Boolean taskWasPreviouslyQueued)
+		::System::Boolean TryExecuteTaskInline(::System::Threading::Tasks::Task* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Threading::Tasks::Task*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_TRYEXECUTETASKINLINE_OFFSET))(this, task, taskWasPreviouslyQueued);
+			return ((::System::Boolean(*)(::PVOID, ::System::Threading::Tasks::Task*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_TRYEXECUTETASKINLINE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryDequeue(::System::Threading::Tasks::Task* task)
+		::System::Boolean TryDequeue(::System::Threading::Tasks::Task* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_TRYDEQUEUE_OFFSET))(this, task);
+			return ((::System::Boolean(*)(::PVOID, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_THREADPOOLTASKSCHEDULER_TRYDEQUEUE_OFFSET))(this, a1);
 		}
 
 		::System::Void NotifyWorkItemProgress()

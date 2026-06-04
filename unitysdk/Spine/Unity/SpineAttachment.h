@@ -8,42 +8,42 @@ namespace Spine { class SkeletonData; }
 namespace Spine::Unity { class SkeletonDataAsset; }
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_1_OFFSET UNITYSDK_OFFSET(0x19E692F0)
-#define SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x19E69250)
-#define SPINE_UNITY_SPINEATTACHMENT_GETHIERARCHY_OFFSET UNITYSDK_OFFSET(0x19E69080)
-#define SPINE_UNITY_SPINEATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E69010)
+#define SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_1_OFFSET UNITYSDK_OFFSET(0x1ACDF7F0)
+#define SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1ACDF6E0)
+#define SPINE_UNITY_SPINEATTACHMENT_GETHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1ACDF530)
+#define SPINE_UNITY_SPINEATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACDF4C0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineAttachment_TypeDefinitionIndex = 40654;
+	inline static constexpr unsigned int SpineAttachment_TypeDefinitionIndex = 41481;
 
 	class SpineAttachment : public ::Spine::Unity::SpineAttributeBase
 	{
 	public:
-		::System::String* slotField; // 0x28
-		::System::String* skinField; // 0x30
-		::System::Boolean currentSkinOnly; // 0x38
-		::System::Boolean placeholdersOnly; // 0x39
-		::System::Boolean returnAttachmentPath; // 0x3A
+		::System::String* skinField; // 0x28
+		::System::String* slotField; // 0x30
+		::System::Boolean placeholdersOnly; // 0x38
+		::System::Boolean returnAttachmentPath; // 0x39
+		::System::Boolean currentSkinOnly; // 0x3A
 
-		::System::Void _ctor(::System::Boolean currentSkinOnly, ::System::Boolean returnAttachmentPath, ::System::Boolean placeholdersOnly, ::System::String* slotField, ::System::String* dataField, ::System::String* skinField, ::System::Boolean includeNone, ::System::Boolean fallbackToTextField)
+		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2, ::System::Boolean a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::Boolean a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::String*, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATTACHMENT__CTOR_OFFSET))(this, currentSkinOnly, returnAttachmentPath, placeholdersOnly, slotField, dataField, skinField, includeNone, fallbackToTextField);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::String*, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATTACHMENT__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::Spine::Unity::SpineAttachment_Hierarchy GetHierarchy(::System::String* fullPath)
+		static ::Spine::Unity::SpineAttachment_Hierarchy GetHierarchy(::System::String* a1)
 		{
-			return ((::Spine::Unity::SpineAttachment_Hierarchy(*)(::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATTACHMENT_GETHIERARCHY_OFFSET))(fullPath);
+			return ((::Spine::Unity::SpineAttachment_Hierarchy(*)(::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATTACHMENT_GETHIERARCHY_OFFSET))(a1);
 		}
 
-		static ::Spine::Attachment* GetAttachment(::System::String* attachmentPath, ::Spine::SkeletonData* skeletonData)
+		static ::Spine::Attachment* GetAttachment(::System::String* a1, ::Spine::SkeletonData* a2)
 		{
-			return ((::Spine::Attachment*(*)(::System::String*, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_OFFSET))(attachmentPath, skeletonData);
+			return ((::Spine::Attachment*(*)(::System::String*, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_OFFSET))(a1, a2);
 		}
 
-		static ::Spine::Attachment* GetAttachment_1(::System::String* attachmentPath, ::Spine::Unity::SkeletonDataAsset* skeletonDataAsset)
+		static ::Spine::Attachment* GetAttachment_1(::System::String* a1, ::Spine::Unity::SkeletonDataAsset* a2)
 		{
-			return ((::Spine::Attachment*(*)(::System::String*, ::Spine::Unity::SkeletonDataAsset*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_1_OFFSET))(attachmentPath, skeletonDataAsset);
+			return ((::Spine::Attachment*(*)(::System::String*, ::Spine::Unity::SkeletonDataAsset*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATTACHMENT_GETATTACHMENT_1_OFFSET))(a1, a2);
 		}
 	};
 }

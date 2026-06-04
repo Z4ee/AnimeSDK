@@ -3,14 +3,14 @@
 #include "unitysdk/System/Net/HttpStatusCode.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3F057903E9982810;
+class Class_1_8654F1DF226F6DE3_2;
 
-#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E856B0)
-#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS32_0__TRYDOWNLOADREPLAY_B__0_OFFSET UNITYSDK_OFFSET(0x9E88980)
+#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB420590)
+#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS32_0__TRYDOWNLOADREPLAY_B__0_OFFSET UNITYSDK_OFFSET(0xB424020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleUIUtils___c__DisplayClass32_0_TypeDefinitionIndex = 66405;
+	inline static constexpr unsigned int BattleUIUtils___c__DisplayClass32_0_TypeDefinitionIndex = 67342;
 
 	class BattleUIUtils___c__DisplayClass32_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS32_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _TryDownLoadReplay_b__0(::System::Net::HttpStatusCode code, ::System::Int32 i, ::Class_1_3F057903E9982810* replay)
+		::System::Void _TryDownLoadReplay_b__0(::System::Net::HttpStatusCode a1, ::System::Int32 a2, ::Class_1_8654F1DF226F6DE3_2* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::HttpStatusCode, ::System::Int32, ::Class_1_3F057903E9982810*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS32_0__TRYDOWNLOADREPLAY_B__0_OFFSET))(this, code, i, replay);
+			return ((::System::Void(*)(::PVOID, ::System::Net::HttpStatusCode, ::System::Int32, ::Class_1_8654F1DF226F6DE3_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS32_0__TRYDOWNLOADREPLAY_B__0_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define LOCALAMBIENTVOLUME_EXTRAEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x90BAFF0)
+#define LOCALAMBIENTVOLUME_EXTRAEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA65AE90)
 
-inline static constexpr unsigned int LocalAmbientVolume_ExtraExportData_TypeDefinitionIndex = 44214;
+inline static constexpr unsigned int LocalAmbientVolume_ExtraExportData_TypeDefinitionIndex = 44760;
 
 class LocalAmbientVolume_ExtraExportData : public ::System::Object
 {

@@ -7,13 +7,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_705E1562455FDF6A_OFFSET UNITYSDK_OFFSET(0x18A98460)
-#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_A999723FBB607A40_OFFSET UNITYSDK_OFFSET(0x18A98540)
-#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A984F0)
+#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_7377D7A3666B3500_OFFSET UNITYSDK_OFFSET(0x198CB6F0)
+#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_F3BFE4753C700857_OFFSET UNITYSDK_OFFSET(0x198CB610)
+#define RPG_GAMECORE_MARBLEBYCOMPAREVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x198CB6A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByCompareValue_TypeDefinitionIndex = 15975;
+	inline static constexpr unsigned int MarbleByCompareValue_TypeDefinitionIndex = 16025;
 
 	class MarbleByCompareValue : public ::RPG::GameCore::MarblePredicateConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPAREVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_705E1562455FDF6A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCompareValue*& a2)
+		static ::System::Void Method_4_F3BFE4753C700857(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCompareValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCompareValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_705E1562455FDF6A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCompareValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_F3BFE4753C700857_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A999723FBB607A40(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCompareValue* a2)
+		static ::System::Void Method_4_7377D7A3666B3500(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByCompareValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_A999723FBB607A40_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYCOMPAREVALUE_METHOD_4_7377D7A3666B3500_OFFSET))(a1, a2);
 		}
 	};
 }

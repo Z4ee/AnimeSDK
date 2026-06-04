@@ -6,21 +6,21 @@
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiXform.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiXformData.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1A1DC380)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1A1DC3A0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1A1DC360)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1A1DC370)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1DCB70)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1B040AA0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1B040AC0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1B040A80)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1B040A90)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B041280)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicXform_TypeDefinitionIndex = 40868;
+	inline static constexpr unsigned int AlembicXform_TypeDefinitionIndex = 41694;
 
 	class AlembicXform : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
 	public:
-		::UnityEngine::Formats::Alembic::Sdk::aiXformData m_abcData; // 0x28
-		::UnityEngine::Formats::Alembic::Sdk::aiXform m_abcSchema; // 0x58
+		::UnityEngine::Formats::Alembic::Sdk::aiXform m_abcSchema; // 0x28
+		::UnityEngine::Formats::Alembic::Sdk::aiXformData m_abcData; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -37,9 +37,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_GET_VISIBILITY_OFFSET))(this);
 		}
 
-		::System::Void AbcSetup(::UnityEngine::Formats::Alembic::Sdk::aiObject abcObj, ::UnityEngine::Formats::Alembic::Sdk::aiSchema abcSchema)
+		::System::Void AbcSetup(::UnityEngine::Formats::Alembic::Sdk::aiObject a1, ::UnityEngine::Formats::Alembic::Sdk::aiSchema a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiObject, ::UnityEngine::Formats::Alembic::Sdk::aiSchema))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_ABCSETUP_OFFSET))(this, abcObj, abcSchema);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiObject, ::UnityEngine::Formats::Alembic::Sdk::aiSchema))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_ABCSETUP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AbcSyncDataEnd()

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_1_2EAB25208BF9561B;
 class Class_1_668FE281FA72D3E8_26;
+class Class_1_6D7D407F4E59D5BB;
 class Class_1_C06752CD2A701BDD;
-class Class_1_D1E0AD3915BCCF29_121;
+class Class_1_D1E0AD3915BCCF29_125;
 namespace Proto { class SceneMapInfo; }
 namespace RPG::Client { class ChestAndRaidInfoCollector; }
 namespace RPG::Client { class FloorSavedData; }
@@ -30,7 +30,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IMapDataSource_TypeDefinitionIndex = 68856;
+	inline static constexpr unsigned int IMapDataSource_TypeDefinitionIndex = 69668;
 
 	class IMapDataSource
 	{

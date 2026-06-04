@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MANIKINPETCONFIG_METHOD_2_A355C17B5CAA7D1D_OFFSET UNITYSDK_OFFSET(0x18A870E0)
-#define RPG_GAMECORE_MANIKINPETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A873B0)
+#define RPG_GAMECORE_MANIKINPETCONFIG_METHOD_2_E9363F42FE7A03EE_OFFSET UNITYSDK_OFFSET(0x198BA830)
+#define RPG_GAMECORE_MANIKINPETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198BAB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinPetConfig_TypeDefinitionIndex = 16588;
+	inline static constexpr unsigned int ManikinPetConfig_TypeDefinitionIndex = 16618;
 
 	class ManikinPetConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINPETCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A355C17B5CAA7D1D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ManikinPetConfig*& a2)
+		static ::System::Void Method_2_E9363F42FE7A03EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ManikinPetConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ManikinPetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINPETCONFIG_METHOD_2_A355C17B5CAA7D1D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ManikinPetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINPETCONFIG_METHOD_2_E9363F42FE7A03EE_OFFSET))(a1, a2);
 		}
 	};
 }

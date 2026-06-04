@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int StringComparison_TypeDefinitionIndex = 423;
+	inline static constexpr unsigned int StringComparison_TypeDefinitionIndex = 422;
 
 	enum class StringComparison : ::System::Int32
 	{

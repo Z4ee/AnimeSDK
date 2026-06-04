@@ -8,26 +8,26 @@ namespace System::Net::Sockets { class TcpClient; }
 namespace System::Net::Sockets { class TcpListener; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_BEGINACCEPTTCPCLIENT_OFFSET UNITYSDK_OFFSET(0x17478140)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x17477CD0)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GETSTREAM_OFFSET UNITYSDK_OFFSET(0x17478820)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GET_CERTIFICATE_OFFSET UNITYSDK_OFFSET(0x17477B70)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0x1775BEA0)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GET_PORT_OFFSET UNITYSDK_OFFSET(0x17477B50)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x17478270)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_CERTIFICATE_OFFSET UNITYSDK_OFFSET(0x17477B80)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0x1775BEB0)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_PORT_OFFSET UNITYSDK_OFFSET(0x17477B60)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_STARTASYNC_OFFSET UNITYSDK_OFFSET(0x174780E0)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_START_OFFSET UNITYSDK_OFFSET(0x17477E00)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_STOP_OFFSET UNITYSDK_OFFSET(0x17477D90)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x17477B90)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__STARTASYNC_B__17_0_OFFSET UNITYSDK_OFFSET(0x17478B60)
-#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__START_B__16_0_OFFSET UNITYSDK_OFFSET(0x17478B50)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_BEGINACCEPTTCPCLIENT_OFFSET UNITYSDK_OFFSET(0x18278D40)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x18278880)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GETSTREAM_OFFSET UNITYSDK_OFFSET(0x182793B0)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GET_CERTIFICATE_OFFSET UNITYSDK_OFFSET(0x18278720)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0x185187C0)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GET_PORT_OFFSET UNITYSDK_OFFSET(0x18278700)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x18278E20)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_CERTIFICATE_OFFSET UNITYSDK_OFFSET(0x18278730)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0x185187D0)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_PORT_OFFSET UNITYSDK_OFFSET(0x18278710)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_STARTASYNC_OFFSET UNITYSDK_OFFSET(0x18278CC0)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_START_OFFSET UNITYSDK_OFFSET(0x182789B0)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_STOP_OFFSET UNITYSDK_OFFSET(0x18278940)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x18278740)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__STARTASYNC_B__17_0_OFFSET UNITYSDK_OFFSET(0x182796F0)
+#define MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__START_B__16_0_OFFSET UNITYSDK_OFFSET(0x182796E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int MiHoYoSDKHTTPServer_TypeDefinitionIndex = 8156;
+	inline static constexpr unsigned int MiHoYoSDKHTTPServer_TypeDefinitionIndex = 9059;
 
 	class MiHoYoSDKHTTPServer : public ::System::Object
 	{
@@ -35,12 +35,12 @@ namespace MiHoYo::SDK::Win
 		::System::Net::Sockets::TcpListener* tcpListener; // 0x10
 		::System::Security::Cryptography::X509Certificates::X509Certificate* _Certificate_k__BackingField; // 0x18
 		::System::String* ResourcePath; // 0x20
-		::System::Int32 _Port_k__BackingField; // 0x28
-		::System::Boolean _IsRunning_k__BackingField; // 0x2C
+		::System::Boolean _IsRunning_k__BackingField; // 0x28
+		::System::Int32 _Port_k__BackingField; // 0x2C
 
-		::System::Void _ctor(::System::String* resourcePath, ::System::Int32 port, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate)
+		::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::Security::Cryptography::X509Certificates::X509Certificate* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Security::Cryptography::X509Certificates::X509Certificate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__CTOR_OFFSET))(this, resourcePath, port, certificate);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Security::Cryptography::X509Certificates::X509Certificate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_IsRunning()
@@ -48,9 +48,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GET_ISRUNNING_OFFSET))(this);
 		}
 
-		::System::Void set_IsRunning(::System::Boolean value)
+		::System::Void set_IsRunning(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_ISRUNNING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_ISRUNNING_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Port()
@@ -58,9 +58,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GET_PORT_OFFSET))(this);
 		}
 
-		::System::Void set_Port(::System::Int32 value)
+		::System::Void set_Port(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_PORT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_PORT_OFFSET))(this, a1);
 		}
 
 		::System::Security::Cryptography::X509Certificates::X509Certificate* get_Certificate()
@@ -68,9 +68,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Security::Cryptography::X509Certificates::X509Certificate*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GET_CERTIFICATE_OFFSET))(this);
 		}
 
-		::System::Void set_Certificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value)
+		::System::Void set_Certificate(::System::Security::Cryptography::X509Certificates::X509Certificate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::X509Certificate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_CERTIFICATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::X509Certificate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_SET_CERTIFICATE_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()
@@ -98,24 +98,24 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_BEGINACCEPTTCPCLIENT_OFFSET))(this);
 		}
 
-		::System::Void HandleRequest(::System::Net::Sockets::TcpClient* client)
+		::System::Void HandleRequest(::System::Net::Sockets::TcpClient* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::TcpClient*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_HANDLEREQUEST_OFFSET))(this, client);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::TcpClient*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_HANDLEREQUEST_OFFSET))(this, a1);
 		}
 
-		::System::IO::Stream* GetStream(::System::Net::Sockets::TcpClient* client)
+		::System::IO::Stream* GetStream(::System::Net::Sockets::TcpClient* a1)
 		{
-			return ((::System::IO::Stream*(*)(::PVOID, ::System::Net::Sockets::TcpClient*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GETSTREAM_OFFSET))(this, client);
+			return ((::System::IO::Stream*(*)(::PVOID, ::System::Net::Sockets::TcpClient*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER_GETSTREAM_OFFSET))(this, a1);
 		}
 
-		::System::Void _Start_b__16_0(::System::Object* _)
+		::System::Void _Start_b__16_0(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__START_B__16_0_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__START_B__16_0_OFFSET))(this, a1);
 		}
 
-		::System::Void _StartAsync_b__17_0(::System::Object* _)
+		::System::Void _StartAsync_b__17_0(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__STARTASYNC_B__17_0_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKHTTPSERVER__STARTASYNC_B__17_0_OFFSET))(this, a1);
 		}
 	};
 }

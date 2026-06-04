@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/Struct_2_87C8F594A107C13B.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_443;
+class Class_0_16E4307DCC419505_444;
+
+#define CLASS_1_58BFCEB603E9C207_APPLYVALUERULE_OFFSET UNITYSDK_OFFSET(0xC9820B0)
+#define CLASS_1_58BFCEB603E9C207_CREATE_OFFSET UNITYSDK_OFFSET(0xC982020)
+#define CLASS_1_58BFCEB603E9C207_METHOD_1_8F54FE5AEFDE6311_OFFSET UNITYSDK_OFFSET(0xC982270)
+#define CLASS_1_58BFCEB603E9C207_METHOD_1_93E6D5B96F00C3DC_OFFSET UNITYSDK_OFFSET(0xC9822C0)
+#define CLASS_1_58BFCEB603E9C207__CTOR_OFFSET UNITYSDK_OFFSET(0xC982320)
+
+inline static constexpr unsigned int Class_1_58BFCEB603E9C207_TypeDefinitionIndex = 50646;
+
+class Class_1_58BFCEB603E9C207 : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_58BFCEB603E9C207__CTOR_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_444* Create(::Class_0_16E4307DCC419505_443* a1)
+	{
+		return ((::Class_0_16E4307DCC419505_444*(*)(::PVOID, ::Class_0_16E4307DCC419505_443*))((::PBYTE)hIl2Cpp + CLASS_1_58BFCEB603E9C207_CREATE_OFFSET))(this, a1);
+	}
+
+	::System::Void ApplyValueRule(::Class_0_16E4307DCC419505_443* a1, ::RPG::GameCore::FixPoint& a2, ::Struct_2_87C8F594A107C13B& a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_443*, ::RPG::GameCore::FixPoint&, ::Struct_2_87C8F594A107C13B&))((::PBYTE)hIl2Cpp + CLASS_1_58BFCEB603E9C207_APPLYVALUERULE_OFFSET))(this, a1, a2, a3);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_8F54FE5AEFDE6311(::Class_0_16E4307DCC419505_443* a1)
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::Class_0_16E4307DCC419505_443*))((::PBYTE)hIl2Cpp + CLASS_1_58BFCEB603E9C207_METHOD_1_8F54FE5AEFDE6311_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_93E6D5B96F00C3DC(::Class_0_16E4307DCC419505_443* a1)
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::Class_0_16E4307DCC419505_443*))((::PBYTE)hIl2Cpp + CLASS_1_58BFCEB603E9C207_METHOD_1_93E6D5B96F00C3DC_OFFSET))(this, a1);
+	}
+};

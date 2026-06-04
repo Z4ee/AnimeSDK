@@ -8,21 +8,21 @@ namespace RPG::Client { class AssistantTipsData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ASSISTANTMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9D3FF70)
-#define RPG_CLIENT_ASSISTANTMODULE_GETASSISTANTTIPSDATA_OFFSET UNITYSDK_OFFSET(0x9D40170)
-#define RPG_CLIENT_ASSISTANTMODULE_GETASSISTANTTIPSSHOWCASEDATA_OFFSET UNITYSDK_OFFSET(0x9D40090)
-#define RPG_CLIENT_ASSISTANTMODULE_GETSHOWCASEALLTIPS_OFFSET UNITYSDK_OFFSET(0x9D40250)
-#define RPG_CLIENT_ASSISTANTMODULE_GETSHOWTIPS_OFFSET UNITYSDK_OFFSET(0x9D40A40)
-#define RPG_CLIENT_ASSISTANTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x9D3FA30)
-#define RPG_CLIENT_ASSISTANTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x9D40DB0)
-#define RPG_CLIENT_ASSISTANTMODULE__INITTIPSDATADICT_OFFSET UNITYSDK_OFFSET(0x9D3FAD0)
-#define RPG_CLIENT_ASSISTANTMODULE__INITTIPSSHOWCASEDATADICT_OFFSET UNITYSDK_OFFSET(0x9D3FD20)
-#define RPG_CLIENT_ASSISTANTMODULE___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9D40E60)
-#define RPG_CLIENT_ASSISTANTMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x9D40DD0)
+#define RPG_CLIENT_ASSISTANTMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB32FEE0)
+#define RPG_CLIENT_ASSISTANTMODULE_GETASSISTANTTIPSDATA_OFFSET UNITYSDK_OFFSET(0xB330090)
+#define RPG_CLIENT_ASSISTANTMODULE_GETASSISTANTTIPSSHOWCASEDATA_OFFSET UNITYSDK_OFFSET(0xB32FFE0)
+#define RPG_CLIENT_ASSISTANTMODULE_GETSHOWCASEALLTIPS_OFFSET UNITYSDK_OFFSET(0xB330140)
+#define RPG_CLIENT_ASSISTANTMODULE_GETSHOWTIPS_OFFSET UNITYSDK_OFFSET(0xB330C80)
+#define RPG_CLIENT_ASSISTANTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0xB32F8E0)
+#define RPG_CLIENT_ASSISTANTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xB330F80)
+#define RPG_CLIENT_ASSISTANTMODULE__INITTIPSDATADICT_OFFSET UNITYSDK_OFFSET(0xB32F980)
+#define RPG_CLIENT_ASSISTANTMODULE__INITTIPSSHOWCASEDATADICT_OFFSET UNITYSDK_OFFSET(0xB32FC30)
+#define RPG_CLIENT_ASSISTANTMODULE___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB331020)
+#define RPG_CLIENT_ASSISTANTMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xB330FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssistantModule_TypeDefinitionIndex = 57607;
+	inline static constexpr unsigned int AssistantModule_TypeDefinitionIndex = 58419;
 
 	class AssistantModule : public ::RPG::Client::BaseModule
 	{
@@ -45,24 +45,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTANTMODULE_DISPOSE_OFFSET))(this);
 		}
 
-		::RPG::Client::AssistantTipShowCaseData* GetAssistantTipsShowCaseData(::System::UInt32 id)
+		::RPG::Client::AssistantTipShowCaseData* GetAssistantTipsShowCaseData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::AssistantTipShowCaseData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTANTMODULE_GETASSISTANTTIPSSHOWCASEDATA_OFFSET))(this, id);
+			return ((::RPG::Client::AssistantTipShowCaseData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTANTMODULE_GETASSISTANTTIPSSHOWCASEDATA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::AssistantTipsData* GetAssistantTipsData(::System::UInt32 id)
+		::RPG::Client::AssistantTipsData* GetAssistantTipsData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::AssistantTipsData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTANTMODULE_GETASSISTANTTIPSDATA_OFFSET))(this, id);
+			return ((::RPG::Client::AssistantTipsData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTANTMODULE_GETASSISTANTTIPSDATA_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>* GetShowCaseAllTips(::RPG::GameCore::AssistantShowCaseType type)
+		::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>* GetShowCaseAllTips(::RPG::GameCore::AssistantShowCaseType a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>*(*)(::PVOID, ::RPG::GameCore::AssistantShowCaseType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTANTMODULE_GETSHOWCASEALLTIPS_OFFSET))(this, type);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>*(*)(::PVOID, ::RPG::GameCore::AssistantShowCaseType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTANTMODULE_GETSHOWCASEALLTIPS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::AssistantTipsData* GetShowTips(::RPG::GameCore::AssistantShowCaseType type)
+		::RPG::Client::AssistantTipsData* GetShowTips(::RPG::GameCore::AssistantShowCaseType a1)
 		{
-			return ((::RPG::Client::AssistantTipsData*(*)(::PVOID, ::RPG::GameCore::AssistantShowCaseType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTANTMODULE_GETSHOWTIPS_OFFSET))(this, type);
+			return ((::RPG::Client::AssistantTipsData*(*)(::PVOID, ::RPG::GameCore::AssistantShowCaseType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTANTMODULE_GETSHOWTIPS_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitTipsDataDict()

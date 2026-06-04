@@ -4,7 +4,7 @@
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int Shared_1_TypeDefinitionIndex = 894;
+	inline static constexpr unsigned int Shared_1_TypeDefinitionIndex = 893;
 
 	template <typename T>
 	class Shared_1 : public ::System::Object

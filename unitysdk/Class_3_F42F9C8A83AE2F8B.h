@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerCommonActiveSkillAbility; }
 
-#define CLASS_3_F42F9C8A83AE2F8B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8FEDF70)
-#define CLASS_3_F42F9C8A83AE2F8B__CTOR_OFFSET UNITYSDK_OFFSET(0x8FEDF40)
+#define CLASS_3_F42F9C8A83AE2F8B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1351A800)
+#define CLASS_3_F42F9C8A83AE2F8B__CTOR_OFFSET UNITYSDK_OFFSET(0x1351A7D0)
 
-inline static constexpr unsigned int Class_3_F42F9C8A83AE2F8B_TypeDefinitionIndex = 51378;
+inline static constexpr unsigned int Class_3_F42F9C8A83AE2F8B_TypeDefinitionIndex = 52046;
 
 class Class_3_F42F9C8A83AE2F8B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerCommonActiveSkillAbility*>
 {

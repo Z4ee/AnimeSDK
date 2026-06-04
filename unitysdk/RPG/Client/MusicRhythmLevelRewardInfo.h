@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class ItemDisplayData; }
 
-#define RPG_CLIENT_MUSICRHYTHMLEVELREWARDINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xAB1A630)
-#define RPG_CLIENT_MUSICRHYTHMLEVELREWARDINFO_GET_TEXTID_OFFSET UNITYSDK_OFFSET(0xDAD20)
+#define RPG_CLIENT_MUSICRHYTHMLEVELREWARDINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xC2273D0)
+#define RPG_CLIENT_MUSICRHYTHMLEVELREWARDINFO_GET_TEXTID_OFFSET UNITYSDK_OFFSET(0x13FB40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmLevelRewardInfo_TypeDefinitionIndex = 57021;
+	inline static constexpr unsigned int MusicRhythmLevelRewardInfo_TypeDefinitionIndex = 57808;
 
 	struct alignas(8) MusicRhythmLevelRewardInfo
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 		::RPG::Client::TreasureChallengeTargetStatus Status; // 0x18
 		::RPG::Client::ItemDisplayData* RewardDisplayData; // 0x20
 
-		static ::RPG::Client::MusicRhythmLevelRewardInfo Create(::System::UInt32 rewardIdx, ::System::UInt32 nowStarNum, ::System::UInt32 rewardID, ::System::Boolean isMaxDifficulty)
+		static ::RPG::Client::MusicRhythmLevelRewardInfo Create(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::RPG::Client::MusicRhythmLevelRewardInfo(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICRHYTHMLEVELREWARDINFO_CREATE_OFFSET))(rewardIdx, nowStarNum, rewardID, isMaxDifficulty);
+			return ((::RPG::Client::MusicRhythmLevelRewardInfo(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICRHYTHMLEVELREWARDINFO_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 
 		/*

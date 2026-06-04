@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_CONTEXTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C50130)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_CONTEXTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x146FE800)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int ContextAttribute_TypeDefinitionIndex = 9895;
+	inline static constexpr unsigned int ContextAttribute_TypeDefinitionIndex = 9722;
 
 	class ContextAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* contextName; // 0x10
 
-		::System::Void _ctor(::System::String* contextName)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_CODEGENERATION_ATTRIBUTES_CONTEXTATTRIBUTE__CTOR_OFFSET))(this, contextName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_CODEGENERATION_ATTRIBUTES_CONTEXTATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

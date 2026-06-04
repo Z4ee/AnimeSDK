@@ -11,32 +11,32 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_ALERT_AWAKE_OFFSET UNITYSDK_OFFSET(0x173D6640)
-#define MIHOYO_SDK_ALERT_HIDEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x173D7470)
-#define MIHOYO_SDK_ALERT_HIDE_OFFSET UNITYSDK_OFFSET(0x173D7570)
-#define MIHOYO_SDK_ALERT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x173D78D0)
-#define MIHOYO_SDK_ALERT_ONTAPCLOSE_OFFSET UNITYSDK_OFFSET(0x173D77F0)
-#define MIHOYO_SDK_ALERT_ONTAPSUBMIT_OFFSET UNITYSDK_OFFSET(0x173D7860)
-#define MIHOYO_SDK_ALERT_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x173D6BA0)
-#define MIHOYO_SDK_ALERT_SHOW_OFFSET UNITYSDK_OFFSET(0x173D7060)
-#define MIHOYO_SDK_ALERT_START_OFFSET UNITYSDK_OFFSET(0x173D6B40)
-#define MIHOYO_SDK_ALERT__CCTOR_OFFSET UNITYSDK_OFFSET(0x173D7C30)
-#define MIHOYO_SDK_ALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x173D7BE0)
+#define MIHOYO_SDK_ALERT_AWAKE_OFFSET UNITYSDK_OFFSET(0x181DF5A0)
+#define MIHOYO_SDK_ALERT_HIDEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x181E0610)
+#define MIHOYO_SDK_ALERT_HIDE_OFFSET UNITYSDK_OFFSET(0x181E0710)
+#define MIHOYO_SDK_ALERT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x181E0A60)
+#define MIHOYO_SDK_ALERT_ONTAPCLOSE_OFFSET UNITYSDK_OFFSET(0x181E0980)
+#define MIHOYO_SDK_ALERT_ONTAPSUBMIT_OFFSET UNITYSDK_OFFSET(0x181E09F0)
+#define MIHOYO_SDK_ALERT_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x181DFB20)
+#define MIHOYO_SDK_ALERT_SHOW_OFFSET UNITYSDK_OFFSET(0x181E0170)
+#define MIHOYO_SDK_ALERT_START_OFFSET UNITYSDK_OFFSET(0x181DFAC0)
+#define MIHOYO_SDK_ALERT__CCTOR_OFFSET UNITYSDK_OFFSET(0x181E0AE0)
+#define MIHOYO_SDK_ALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x181E0A90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Alert_TypeDefinitionIndex = 7276;
+	inline static constexpr unsigned int Alert_TypeDefinitionIndex = 8179;
 
 	class Alert : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
-		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Alert_TypeDefinitionIndex)->GetStaticField(0x168C0);
-		}
 		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_AlertHideTaskList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Alert_TypeDefinitionIndex)->GetStaticField(0x168C8);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Alert_TypeDefinitionIndex)->GetStaticField(0xBE40);
+		}
+		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
+		{
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Alert_TypeDefinitionIndex)->GetStaticField(0xBE48);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* CloseButtonPath; // 0x0
@@ -73,14 +73,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERT_START_OFFSET))(this);
 		}
 
-		static ::System::Boolean ShowPluginUI(::System::String* content, ::System::String* buttonTitle, ::System::Boolean isShowClose, ::MiHoYo::SDK::Alert_OnAlertDelegate* callback)
+		static ::System::Boolean ShowPluginUI(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::MiHoYo::SDK::Alert_OnAlertDelegate* a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Boolean, ::MiHoYo::SDK::Alert_OnAlertDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERT_SHOWPLUGINUI_OFFSET))(content, buttonTitle, isShowClose, callback);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Boolean, ::MiHoYo::SDK::Alert_OnAlertDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERT_SHOWPLUGINUI_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Show(::System::String* content, ::System::String* button, ::MiHoYo::SDK::Alert_OnAlertDelegate* callback, ::System::Boolean isShowClose, ::System::Boolean pluginUIEnabled)
+		static ::System::Void Show(::System::String* a1, ::System::String* a2, ::MiHoYo::SDK::Alert_OnAlertDelegate* a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::MiHoYo::SDK::Alert_OnAlertDelegate*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERT_SHOW_OFFSET))(content, button, callback, isShowClose, pluginUIEnabled);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::MiHoYo::SDK::Alert_OnAlertDelegate*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERT_SHOW_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Boolean HidePluginUI()

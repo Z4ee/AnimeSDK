@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_6D4DDF404C3CCC18.h"
+#include "unitysdk/Enum_3_75A5C8C4100A8E33_1.h"
+
+class Class_1_8844A4E6AE686D5C_4;
+
+#define CLASS_2_3416C017F6537C5B_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xD17A9B0)
+#define CLASS_2_3416C017F6537C5B_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0xD17AA00)
+#define CLASS_2_3416C017F6537C5B__CTOR_OFFSET UNITYSDK_OFFSET(0xD17ABC0)
+#define CLASS_2_3416C017F6537C5B___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xD17ABD0)
+#define CLASS_2_3416C017F6537C5B___IFIXBASEPROXY_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0xD17AC30)
+
+inline static constexpr unsigned int Class_2_3416C017F6537C5B_TypeDefinitionIndex = 60744;
+
+class Class_2_3416C017F6537C5B : public ::Class_1_6D4DDF404C3CCC18
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3416C017F6537C5B__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + CLASS_2_3416C017F6537C5B_ISCONCERNEDWITH_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateAddItem(::Class_1_8844A4E6AE686D5C_4* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_8844A4E6AE686D5C_4*))((::PBYTE)hIl2Cpp + CLASS_2_3416C017F6537C5B_UPDATEADDITEM_OFFSET))(this, a1);
+	}
+
+	::System::Boolean __iFixBaseProxy_IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + CLASS_2_3416C017F6537C5B___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET))(this, a1);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateAddItem(::Class_1_8844A4E6AE686D5C_4* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_8844A4E6AE686D5C_4*))((::PBYTE)hIl2Cpp + CLASS_2_3416C017F6537C5B___IFIXBASEPROXY_UPDATEADDITEM_OFFSET))(this, a1);
+	}
+};

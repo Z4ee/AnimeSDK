@@ -9,43 +9,43 @@ namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_JSONENUM_EQUALS_OFFSET UNITYSDK_OFFSET(0x18A37220)
-#define RPG_GAMECORE_JSONENUM_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x18A366E0)
-#define RPG_GAMECORE_JSONENUM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18A37280)
-#define RPG_GAMECORE_JSONENUM_GETJSONENUMVALUE_OFFSET UNITYSDK_OFFSET(0x18A37010)
-#define RPG_GAMECORE_JSONENUM_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x18A37310)
-#define RPG_GAMECORE_JSONENUM_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x18A37430)
-#define RPG_GAMECORE_JSONENUM_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x18A37410)
-#define RPG_GAMECORE_JSONENUM_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x18A37380)
-#define RPG_GAMECORE_JSONENUM_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A368B0)
-#define RPG_GAMECORE_JSONENUM_PARSEFROMJSON_OFFSET UNITYSDK_OFFSET(0x18A36F10)
-#define RPG_GAMECORE_JSONENUM_TOBINARY_OFFSET UNITYSDK_OFFSET(0x18A36C10)
-#define RPG_GAMECORE_JSONENUM_TOJSON_JSONENUM_OFFSET UNITYSDK_OFFSET(0x18A36FD0)
-#define RPG_GAMECORE_JSONENUM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18A371E0)
-#define RPG_GAMECORE_JSONENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A37470)
-#define RPG_GAMECORE_JSONENUM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18A366D0)
-#define RPG_GAMECORE_JSONENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x18A366C0)
+#define RPG_GAMECORE_JSONENUM_EQUALS_OFFSET UNITYSDK_OFFSET(0x198686E0)
+#define RPG_GAMECORE_JSONENUM_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x19867B90)
+#define RPG_GAMECORE_JSONENUM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19868740)
+#define RPG_GAMECORE_JSONENUM_GETJSONENUMVALUE_OFFSET UNITYSDK_OFFSET(0x19868490)
+#define RPG_GAMECORE_JSONENUM_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x198687D0)
+#define RPG_GAMECORE_JSONENUM_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x19868900)
+#define RPG_GAMECORE_JSONENUM_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x198688E0)
+#define RPG_GAMECORE_JSONENUM_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x19868840)
+#define RPG_GAMECORE_JSONENUM_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19867D50)
+#define RPG_GAMECORE_JSONENUM_PARSEFROMJSON_OFFSET UNITYSDK_OFFSET(0x19868390)
+#define RPG_GAMECORE_JSONENUM_TOBINARY_OFFSET UNITYSDK_OFFSET(0x198680B0)
+#define RPG_GAMECORE_JSONENUM_TOJSON_JSONENUM_OFFSET UNITYSDK_OFFSET(0x19868450)
+#define RPG_GAMECORE_JSONENUM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x198686A0)
+#define RPG_GAMECORE_JSONENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x19868940)
+#define RPG_GAMECORE_JSONENUM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19867B80)
+#define RPG_GAMECORE_JSONENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x19867B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JsonEnum_TypeDefinitionIndex = 23586;
+	inline static constexpr unsigned int JsonEnum_TypeDefinitionIndex = 10464;
 
 	class JsonEnum : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::JsonEnum** StaticGet_Empty()
-		{
-			return (::RPG::GameCore::JsonEnum**)Il2CppClass::FromTypeDefinitionIndex(JsonEnum_TypeDefinitionIndex)->GetStaticField(0x3F980);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::JsonEnum*>** StaticGet_UniqueJsonEnumTable()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::JsonEnum*>**)Il2CppClass::FromTypeDefinitionIndex(JsonEnum_TypeDefinitionIndex)->GetStaticField(0x3F988);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::JsonEnum*>**)Il2CppClass::FromTypeDefinitionIndex(JsonEnum_TypeDefinitionIndex)->GetStaticField(0x26950);
+		}
+		static ::RPG::GameCore::JsonEnum** StaticGet_Empty()
+		{
+			return (::RPG::GameCore::JsonEnum**)Il2CppClass::FromTypeDefinitionIndex(JsonEnum_TypeDefinitionIndex)->GetStaticField(0x26958);
 		}
 		::System::String* JsonValueStr; // 0x10
 
-		::System::Void _ctor(::System::String* bindKey)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM__CTOR_OFFSET))(this, bindKey);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1()
@@ -58,24 +58,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::GameCore::JsonEnum* FromString(::System::String* str)
+		static ::RPG::GameCore::JsonEnum* FromString(::System::String* a1)
 		{
-			return ((::RPG::GameCore::JsonEnum*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_FROMSTRING_OFFSET))(str);
+			return ((::RPG::GameCore::JsonEnum*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_FROMSTRING_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::JsonEnum* ParseFromBinary(::Class_1_7A22A3DBEEDD1F80* array)
+		static ::RPG::GameCore::JsonEnum* ParseFromBinary(::Class_1_7A22A3DBEEDD1F80* a1)
 		{
-			return ((::RPG::GameCore::JsonEnum*(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_PARSEFROMBINARY_OFFSET))(array);
+			return ((::RPG::GameCore::JsonEnum*(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_PARSEFROMBINARY_OFFSET))(a1);
 		}
 
-		::System::Void ToBinary(::Class_1_7A22A3DBEEDD1F80* pArray)
+		::System::Void ToBinary(::Class_1_7A22A3DBEEDD1F80* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_TOBINARY_OFFSET))(this, pArray);
+			return ((::System::Void(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_TOBINARY_OFFSET))(this, a1);
 		}
 
-		static ::RPG::GameCore::JsonEnum* ParseFromJson(::SimpleJSON::JSONNode* node)
+		static ::RPG::GameCore::JsonEnum* ParseFromJson(::SimpleJSON::JSONNode* a1)
 		{
-			return ((::RPG::GameCore::JsonEnum*(*)(::SimpleJSON::JSONNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_PARSEFROMJSON_OFFSET))(node);
+			return ((::RPG::GameCore::JsonEnum*(*)(::SimpleJSON::JSONNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_PARSEFROMJSON_OFFSET))(a1);
 		}
 
 		::SimpleJSON::JSONNode* ToJson_JsonEnum()
@@ -83,9 +83,9 @@ namespace RPG::GameCore
 			return ((::SimpleJSON::JSONNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_TOJSON_JSONENUM_OFFSET))(this);
 		}
 
-		::System::Int32 GetJsonEnumValue(::RPG::GameCore::JsonEnumCategory category)
+		::System::Int32 GetJsonEnumValue(::RPG::GameCore::JsonEnumCategory a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::JsonEnumCategory))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_GETJSONENUMVALUE_OFFSET))(this, category);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::JsonEnumCategory))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_GETJSONENUMVALUE_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -93,9 +93,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -103,24 +103,24 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::RPG::GameCore::JsonEnum* left, ::RPG::GameCore::JsonEnum* right)
+		static ::System::Boolean op_Equality(::RPG::GameCore::JsonEnum* a1, ::RPG::GameCore::JsonEnum* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::JsonEnum*, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::GameCore::JsonEnum*, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::GameCore::JsonEnum* left, ::RPG::GameCore::JsonEnum* right)
+		static ::System::Boolean op_Inequality(::RPG::GameCore::JsonEnum* a1, ::RPG::GameCore::JsonEnum* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::JsonEnum*, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_OP_INEQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::GameCore::JsonEnum*, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* op_Implicit(::RPG::GameCore::JsonEnum* jsonEnum)
+		static ::System::String* op_Implicit(::RPG::GameCore::JsonEnum* a1)
 		{
-			return ((::System::String*(*)(::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_OP_IMPLICIT_OFFSET))(jsonEnum);
+			return ((::System::String*(*)(::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::AnyType op_Implicit_1(::RPG::GameCore::JsonEnum* jsonEnum)
+		static ::UnityEngine::AnyType op_Implicit_1(::RPG::GameCore::JsonEnum* a1)
 		{
-			return ((::UnityEngine::AnyType(*)(::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_OP_IMPLICIT_1_OFFSET))(jsonEnum);
+			return ((::UnityEngine::AnyType(*)(::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_OP_IMPLICIT_1_OFFSET))(a1);
 		}
 	};
 }

@@ -5,19 +5,19 @@
 
 namespace RPG::GameCore { class BillboardIconConfigRow; }
 
-#define CLASS_2_3335058239B77E6C_COMPARE_OFFSET UNITYSDK_OFFSET(0x9398A50)
-#define CLASS_2_3335058239B77E6C_METHOD_2_64B6514CFF8F8D76_OFFSET UNITYSDK_OFFSET(0x9398BC0)
-#define CLASS_2_3335058239B77E6C_METHOD_2_F4AF27B610EB9205_OFFSET UNITYSDK_OFFSET(0x9398B20)
-#define CLASS_2_3335058239B77E6C__CTOR_OFFSET UNITYSDK_OFFSET(0x9398C30)
+#define CLASS_2_3335058239B77E6C_COMPARE_OFFSET UNITYSDK_OFFSET(0x12372EC0)
+#define CLASS_2_3335058239B77E6C_METHOD_2_64B6514CFF8F8D76_OFFSET UNITYSDK_OFFSET(0x12373030)
+#define CLASS_2_3335058239B77E6C_METHOD_2_6E6A05200A9DB84E_OFFSET UNITYSDK_OFFSET(0x12372F90)
+#define CLASS_2_3335058239B77E6C__CTOR_OFFSET UNITYSDK_OFFSET(0x123730A0)
 
-inline static constexpr unsigned int Class_2_3335058239B77E6C_TypeDefinitionIndex = 52688;
+inline static constexpr unsigned int Class_2_3335058239B77E6C_TypeDefinitionIndex = 53388;
 
 class Class_2_3335058239B77E6C : public ::System::Collections::Generic::Comparer_1<::Struct_2_6A75E669C858F984>
 {
 public:
 	static ::Class_2_3335058239B77E6C** StaticGet_Field_2_0()
 	{
-		return (::Class_2_3335058239B77E6C**)Il2CppClass::FromTypeDefinitionIndex(Class_2_3335058239B77E6C_TypeDefinitionIndex)->GetStaticField(0x6B120);
+		return (::Class_2_3335058239B77E6C**)Il2CppClass::FromTypeDefinitionIndex(Class_2_3335058239B77E6C_TypeDefinitionIndex)->GetStaticField(0x1B3C0);
 	}
 
 	::System::Void _ctor()
@@ -35,8 +35,8 @@ public:
 		return ((::Class_2_3335058239B77E6C*(*)())((::PBYTE)hIl2Cpp + CLASS_2_3335058239B77E6C_METHOD_2_64B6514CFF8F8D76_OFFSET))();
 	}
 
-	::RPG::GameCore::BillboardIconConfigRow* Method_2_F4AF27B610EB9205(::System::UInt32 a1)
+	::RPG::GameCore::BillboardIconConfigRow* Method_2_6E6A05200A9DB84E(::System::UInt32 a1)
 	{
-		return ((::RPG::GameCore::BillboardIconConfigRow*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_3335058239B77E6C_METHOD_2_F4AF27B610EB9205_OFFSET))(this, a1);
+		return ((::RPG::GameCore::BillboardIconConfigRow*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_3335058239B77E6C_METHOD_2_6E6A05200A9DB84E_OFFSET))(this, a1);
 	}
 };

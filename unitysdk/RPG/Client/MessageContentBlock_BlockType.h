@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentBlock_BlockType_TypeDefinitionIndex = 58246;
+	inline static constexpr unsigned int MessageContentBlock_BlockType_TypeDefinitionIndex = 59176;
 
 	enum class MessageContentBlock_BlockType : ::System::Int32
 	{

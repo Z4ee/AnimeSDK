@@ -14,31 +14,31 @@ namespace System::Reflection { class Binder; }
 namespace System::Reflection { class CustomAttributeData; }
 namespace System::Reflection { class FieldInfo; }
 
-#define SYSTEM_REFLECTION_MONOFIELD_CHECKGENERIC_OFFSET UNITYSDK_OFFSET(0x179A6920)
-#define SYSTEM_REFLECTION_MONOFIELD_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x179A6C90)
-#define SYSTEM_REFLECTION_MONOFIELD_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x179A66D0)
-#define SYSTEM_REFLECTION_MONOFIELD_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x179A66C0)
-#define SYSTEM_REFLECTION_MONOFIELD_GETFIELDOFFSET_OFFSET UNITYSDK_OFFSET(0x179A66E0)
-#define SYSTEM_REFLECTION_MONOFIELD_GETPARENTTYPE_OFFSET UNITYSDK_OFFSET(0x179A6640)
-#define SYSTEM_REFLECTION_MONOFIELD_GETRAWCONSTANTVALUE_OFFSET UNITYSDK_OFFSET(0x179A6C80)
-#define SYSTEM_REFLECTION_MONOFIELD_GETVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x179A6710)
-#define SYSTEM_REFLECTION_MONOFIELD_GETVALUE_OFFSET UNITYSDK_OFFSET(0x179A6750)
-#define SYSTEM_REFLECTION_MONOFIELD_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x179A6600)
-#define SYSTEM_REFLECTION_MONOFIELD_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0x179A6680)
-#define SYSTEM_REFLECTION_MONOFIELD_GET_FIELDHANDLE_OFFSET UNITYSDK_OFFSET(0x179A6610)
-#define SYSTEM_REFLECTION_MONOFIELD_GET_FIELDTYPE_OFFSET UNITYSDK_OFFSET(0x179A6630)
-#define SYSTEM_REFLECTION_MONOFIELD_GET_NAME_OFFSET UNITYSDK_OFFSET(0x179A66A0)
-#define SYSTEM_REFLECTION_MONOFIELD_GET_REFLECTEDTYPE_OFFSET UNITYSDK_OFFSET(0x179A6670)
-#define SYSTEM_REFLECTION_MONOFIELD_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x179A66B0)
-#define SYSTEM_REFLECTION_MONOFIELD_RESOLVETYPE_OFFSET UNITYSDK_OFFSET(0x179A6620)
-#define SYSTEM_REFLECTION_MONOFIELD_SETVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x179A69E0)
-#define SYSTEM_REFLECTION_MONOFIELD_SETVALUE_OFFSET UNITYSDK_OFFSET(0x179A69F0)
-#define SYSTEM_REFLECTION_MONOFIELD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x179A6990)
-#define SYSTEM_REFLECTION_MONOFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x179A6D10)
+#define SYSTEM_REFLECTION_MONOFIELD_CHECKGENERIC_OFFSET UNITYSDK_OFFSET(0x187585C0)
+#define SYSTEM_REFLECTION_MONOFIELD_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x18758940)
+#define SYSTEM_REFLECTION_MONOFIELD_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x18758380)
+#define SYSTEM_REFLECTION_MONOFIELD_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18758370)
+#define SYSTEM_REFLECTION_MONOFIELD_GETFIELDOFFSET_OFFSET UNITYSDK_OFFSET(0x18758390)
+#define SYSTEM_REFLECTION_MONOFIELD_GETPARENTTYPE_OFFSET UNITYSDK_OFFSET(0x187582F0)
+#define SYSTEM_REFLECTION_MONOFIELD_GETRAWCONSTANTVALUE_OFFSET UNITYSDK_OFFSET(0x18758930)
+#define SYSTEM_REFLECTION_MONOFIELD_GETVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x187583C0)
+#define SYSTEM_REFLECTION_MONOFIELD_GETVALUE_OFFSET UNITYSDK_OFFSET(0x18758400)
+#define SYSTEM_REFLECTION_MONOFIELD_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x187582B0)
+#define SYSTEM_REFLECTION_MONOFIELD_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0x18758330)
+#define SYSTEM_REFLECTION_MONOFIELD_GET_FIELDHANDLE_OFFSET UNITYSDK_OFFSET(0x187582C0)
+#define SYSTEM_REFLECTION_MONOFIELD_GET_FIELDTYPE_OFFSET UNITYSDK_OFFSET(0x187582E0)
+#define SYSTEM_REFLECTION_MONOFIELD_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18758350)
+#define SYSTEM_REFLECTION_MONOFIELD_GET_REFLECTEDTYPE_OFFSET UNITYSDK_OFFSET(0x18758320)
+#define SYSTEM_REFLECTION_MONOFIELD_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x18758360)
+#define SYSTEM_REFLECTION_MONOFIELD_RESOLVETYPE_OFFSET UNITYSDK_OFFSET(0x187582D0)
+#define SYSTEM_REFLECTION_MONOFIELD_SETVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x18758680)
+#define SYSTEM_REFLECTION_MONOFIELD_SETVALUE_OFFSET UNITYSDK_OFFSET(0x18758690)
+#define SYSTEM_REFLECTION_MONOFIELD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18758630)
+#define SYSTEM_REFLECTION_MONOFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x187589C0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MonoField_TypeDefinitionIndex = 617;
+	inline static constexpr unsigned int MonoField_TypeDefinitionIndex = 616;
 
 	class MonoField : public ::System::Reflection::RtFieldInfo
 	{
@@ -74,9 +74,9 @@ namespace System::Reflection
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GET_FIELDTYPE_OFFSET))(this);
 		}
 
-		::System::Type* GetParentType(::System::Boolean declaring)
+		::System::Type* GetParentType(::System::Boolean a1)
 		{
-			return ((::System::Type*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GETPARENTTYPE_OFFSET))(this, declaring);
+			return ((::System::Type*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GETPARENTTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Type* get_ReflectedType()
@@ -94,19 +94,19 @@ namespace System::Reflection
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Boolean IsDefined(::System::Type* attributeType, ::System::Boolean inherit)
+		::System::Boolean IsDefined(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_ISDEFINED_OFFSET))(this, attributeType, inherit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_ISDEFINED_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GETCUSTOMATTRIBUTES_OFFSET))(this, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GETCUSTOMATTRIBUTES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* attributeType, ::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GETCUSTOMATTRIBUTES_1_OFFSET))(this, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GETCUSTOMATTRIBUTES_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetFieldOffset()
@@ -114,14 +114,14 @@ namespace System::Reflection
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GETFIELDOFFSET_OFFSET))(this);
 		}
 
-		::System::Object* GetValueInternal(::System::Object* obj)
+		::System::Object* GetValueInternal(::System::Object* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GETVALUEINTERNAL_OFFSET))(this, obj);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GETVALUEINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Object* GetValue(::System::Object* obj)
+		::System::Object* GetValue(::System::Object* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GETVALUE_OFFSET))(this, obj);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_GETVALUE_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -129,14 +129,14 @@ namespace System::Reflection
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Void SetValueInternal(::System::Reflection::FieldInfo* fi, ::System::Object* obj, ::System::Object* value)
+		static ::System::Void SetValueInternal(::System::Reflection::FieldInfo* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::System::Reflection::FieldInfo*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_SETVALUEINTERNAL_OFFSET))(fi, obj, value);
+			return ((::System::Void(*)(::System::Reflection::FieldInfo*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_SETVALUEINTERNAL_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void SetValue(::System::Object* obj, ::System::Object* val, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::System::Globalization::CultureInfo* culture)
+		::System::Void SetValue(::System::Object* a1, ::System::Object* a2, ::System::Reflection::BindingFlags a3, ::System::Reflection::Binder* a4, ::System::Globalization::CultureInfo* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_SETVALUE_OFFSET))(this, obj, val, invokeAttr, binder, culture);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOFIELD_SETVALUE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Object* GetRawConstantValue()

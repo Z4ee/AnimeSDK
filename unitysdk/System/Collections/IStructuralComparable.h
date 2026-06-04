@@ -6,7 +6,7 @@ namespace System::Collections { class IComparer; }
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int IStructuralComparable_TypeDefinitionIndex = 1478;
+	inline static constexpr unsigned int IStructuralComparable_TypeDefinitionIndex = 1477;
 
 	class IStructuralComparable
 	{

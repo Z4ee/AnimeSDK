@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define SR_FORMAT_OFFSET UNITYSDK_OFFSET(0x19F77AB0)
+#define SR_FORMAT_OFFSET UNITYSDK_OFFSET(0x1ADED7E0)
 
-inline static constexpr unsigned int SR_TypeDefinitionIndex = 4854;
+inline static constexpr unsigned int SR_TypeDefinitionIndex = 3821;
 
 class SR : public ::System::Object
 {
 public:
-	static ::System::String* Format(::System::String* resourceFormat, ::System::Object* p1)
+	static ::System::String* Format(::System::String* a1, ::System::Object* a2)
 	{
-		return ((::System::String*(*)(::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SR_FORMAT_OFFSET))(resourceFormat, p1);
+		return ((::System::String*(*)(::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SR_FORMAT_OFFSET))(a1, a2);
 	}
 };

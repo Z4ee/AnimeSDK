@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OperationTypeMask_TypeDefinitionIndex = 10332;
+	inline static constexpr unsigned int OperationTypeMask_TypeDefinitionIndex = 10163;
 
 	enum class OperationTypeMask : ::System::UInt16
 	{

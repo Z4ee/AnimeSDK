@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class EntityEraFlipperShowListener; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_2_C8A3CE6964E902C6_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9BCAF00)
-#define CLASS_2_C8A3CE6964E902C6_METHOD_2_FD07B0BB3D3DAD65_OFFSET UNITYSDK_OFFSET(0x9BCB050)
-#define CLASS_2_C8A3CE6964E902C6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9BCACC0)
-#define CLASS_2_C8A3CE6964E902C6_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x9BCADF0)
-#define CLASS_2_C8A3CE6964E902C6_TICK_OFFSET UNITYSDK_OFFSET(0x9BCB2E0)
-#define CLASS_2_C8A3CE6964E902C6__CTOR_OFFSET UNITYSDK_OFFSET(0x9BCABD0)
+#define CLASS_2_C8A3CE6964E902C6_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA3C9D50)
+#define CLASS_2_C8A3CE6964E902C6_METHOD_2_4A48A93CA7A0FA4A_OFFSET UNITYSDK_OFFSET(0xA3C9EA0)
+#define CLASS_2_C8A3CE6964E902C6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA3C9AE0)
+#define CLASS_2_C8A3CE6964E902C6_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA3C9C20)
+#define CLASS_2_C8A3CE6964E902C6_TICK_OFFSET UNITYSDK_OFFSET(0xA3CA140)
+#define CLASS_2_C8A3CE6964E902C6__CTOR_OFFSET UNITYSDK_OFFSET(0xA3C99F0)
 
-inline static constexpr unsigned int Class_2_C8A3CE6964E902C6_TypeDefinitionIndex = 48692;
+inline static constexpr unsigned int Class_2_C8A3CE6964E902C6_TypeDefinitionIndex = 49357;
 
 class Class_2_C8A3CE6964E902C6 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::EntityEraFlipperShowListener* Field_2_1; // 0x18
-	::Class_3_E21F6DE9B7FA4D05* Field_2_4; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x28
-	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x30
-	::System::Boolean Field_2_2; // 0x38
+	::Class_3_07C3C4D2990C49EE* Field_2_0; // 0x18
+	::Class_3_07C3C4D2990C49EE* Field_2_1; // 0x20
+	::RPG::GameCore::EntityEraFlipperShowListener* Field_2_2; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_3; // 0x30
+	::System::Boolean Field_2_4; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EntityEraFlipperShowListener* a2)
 	{
@@ -45,9 +45,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C8A3CE6964E902C6_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_2_FD07B0BB3D3DAD65(::System::Object* a1)
+	::System::Void Method_2_4A48A93CA7A0FA4A(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_C8A3CE6964E902C6_METHOD_2_FD07B0BB3D3DAD65_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_C8A3CE6964E902C6_METHOD_2_4A48A93CA7A0FA4A_OFFSET))(this, a1);
 	}
 
 	::System::Void Tick(::System::Single a1)

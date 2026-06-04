@@ -5,7 +5,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int ISignalSource6D_TypeDefinitionIndex = 36606;
+	inline static constexpr unsigned int ISignalSource6D_TypeDefinitionIndex = 36906;
 
 	class ISignalSource6D
 	{

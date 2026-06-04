@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Text::RegularExpressions { class RegexCharClass; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC_ADDFC_OFFSET UNITYSDK_OFFSET(0x1A189A60)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC_GETFIRSTCHARS_OFFSET UNITYSDK_OFFSET(0x1A189AF0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC_ISCASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1A189B30)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A1898A0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A189A30)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A189780)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC_ADDFC_OFFSET UNITYSDK_OFFSET(0x1AFEC710)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC_GETFIRSTCHARS_OFFSET UNITYSDK_OFFSET(0x1AFEC7A0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC_ISCASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1AFEC7E0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AFEC550)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1AFEC6E0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFEC430)
 
 namespace System::Text::RegularExpressions
 {
@@ -24,29 +24,29 @@ namespace System::Text::RegularExpressions
 		::System::Boolean _nullable; // 0x18
 		::System::Boolean _caseInsensitive; // 0x19
 
-		::System::Void _ctor(::System::Boolean nullable)
+		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_OFFSET))(this, nullable);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Char ch, ::System::Boolean not, ::System::Boolean nullable, ::System::Boolean caseInsensitive)
+		::System::Void _ctor_1(::System::Char a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_1_OFFSET))(this, ch, not, nullable, caseInsensitive);
+			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_2(::System::String* charClass, ::System::Boolean nullable, ::System::Boolean caseInsensitive)
+		::System::Void _ctor_2(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_2_OFFSET))(this, charClass, nullable, caseInsensitive);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC__CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean AddFC(::System::Text::RegularExpressions::RegexFC* fc, ::System::Boolean concatenate)
+		::System::Boolean AddFC(::System::Text::RegularExpressions::RegexFC* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Text::RegularExpressions::RegexFC*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC_ADDFC_OFFSET))(this, fc, concatenate);
+			return ((::System::Boolean(*)(::PVOID, ::System::Text::RegularExpressions::RegexFC*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC_ADDFC_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* GetFirstChars(::System::Globalization::CultureInfo* culture)
+		::System::String* GetFirstChars(::System::Globalization::CultureInfo* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC_GETFIRSTCHARS_OFFSET))(this, culture);
+			return ((::System::String*(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXFC_GETFIRSTCHARS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsCaseInsensitive()

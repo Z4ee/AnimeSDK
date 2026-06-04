@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherPassiveSkillType_TypeDefinitionIndex = 10456;
+	inline static constexpr unsigned int AetherPassiveSkillType_TypeDefinitionIndex = 10497;
 
 	enum class AetherPassiveSkillType : ::System::Int32
 	{

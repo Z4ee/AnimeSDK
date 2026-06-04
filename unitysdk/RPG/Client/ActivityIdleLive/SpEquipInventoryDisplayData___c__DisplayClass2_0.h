@@ -6,12 +6,12 @@
 namespace RPG::Client::ActivityIdleLive { class SpEquipInventoryDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9BDFA10)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__WEARSTRONGESTEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0x9BE03F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB17BAC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__WEARSTRONGESTEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0xB17C5A0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SpEquipInventoryDisplayData___c__DisplayClass2_0_TypeDefinitionIndex = 69497;
+	inline static constexpr unsigned int SpEquipInventoryDisplayData___c__DisplayClass2_0_TypeDefinitionIndex = 70309;
 
 	class SpEquipInventoryDisplayData___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _WearStrongestEquips_b__0(::System::UInt16 msgId, ::System::Object* rspObject)
+		::System::Void _WearStrongestEquips_b__0(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__WEARSTRONGESTEQUIPS_B__0_OFFSET))(this, msgId, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS2_0__WEARSTRONGESTEQUIPS_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

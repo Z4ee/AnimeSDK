@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int ITipsBar_TypeDefinitionIndex = 7492;
+	inline static constexpr unsigned int ITipsBar_TypeDefinitionIndex = 8395;
 
 	class ITipsBar
 	{

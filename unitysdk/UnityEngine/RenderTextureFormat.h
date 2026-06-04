@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RenderTextureFormat_TypeDefinitionIndex = 3984;
+	inline static constexpr unsigned int RenderTextureFormat_TypeDefinitionIndex = 4158;
 
 	enum class RenderTextureFormat : ::System::Int32
 	{

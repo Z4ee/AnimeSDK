@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_5C85280C68EBF115;
+
+#define CLASS_1_AF79CD6062632116_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0xAC4B670)
+#define CLASS_1_AF79CD6062632116_METHOD_1_19CCC07C980409E4_OFFSET UNITYSDK_OFFSET(0xAC4B600)
+#define CLASS_1_AF79CD6062632116_METHOD_1_250203490119AF47_OFFSET UNITYSDK_OFFSET(0xAC4B560)
+#define CLASS_1_AF79CD6062632116_METHOD_1_CD8EB704BDED69B6_OFFSET UNITYSDK_OFFSET(0xAC4B6F0)
+#define CLASS_1_AF79CD6062632116__CTOR_OFFSET UNITYSDK_OFFSET(0xAC4B5E0)
+#define CLASS_1_AF79CD6062632116___TRYFADEOUT_B__6_0_OFFSET UNITYSDK_OFFSET(0xAC4B880)
+
+inline static constexpr unsigned int Class_1_AF79CD6062632116_TypeDefinitionIndex = 56013;
+
+class Class_1_AF79CD6062632116 : public ::System::Object
+{
+public:
+	::Class_1_5C85280C68EBF115* Field_1_0; // 0x10
+	::System::Boolean Field_1_1; // 0x18
+
+	::System::Void _ctor(::Class_1_5C85280C68EBF115* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_5C85280C68EBF115*))((::PBYTE)hIl2Cpp + CLASS_1_AF79CD6062632116__CTOR_OFFSET))(this, a1);
+	}
+
+	static ::Class_1_AF79CD6062632116* Method_1_250203490119AF47(::Class_1_5C85280C68EBF115* a1)
+	{
+		return ((::Class_1_AF79CD6062632116*(*)(::Class_1_5C85280C68EBF115*))((::PBYTE)hIl2Cpp + CLASS_1_AF79CD6062632116_METHOD_1_250203490119AF47_OFFSET))(a1);
+	}
+
+	::System::Void Method_1_19CCC07C980409E4(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_AF79CD6062632116_METHOD_1_19CCC07C980409E4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_0CC4BC19C602BCD0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AF79CD6062632116_METHOD_1_0CC4BC19C602BCD0_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CD8EB704BDED69B6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AF79CD6062632116_METHOD_1_CD8EB704BDED69B6_OFFSET))(this);
+	}
+
+	::System::Void __TryFadeOut_b__6_0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AF79CD6062632116___TRYFADEOUT_B__6_0_OFFSET))(this);
+	}
+};

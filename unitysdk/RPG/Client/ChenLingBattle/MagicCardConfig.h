@@ -7,28 +7,28 @@ namespace RPG::GameCore { class ChenLingCardRow; }
 namespace RPG::GameCore { class ChenLingMagicRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG_GETDESC_OFFSET UNITYSDK_OFFSET(0x9FA7A70)
-#define RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9FA7BE0)
-#define RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x9FA7B30)
-#define RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA79F0)
+#define RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG_GETDESC_OFFSET UNITYSDK_OFFSET(0xB5C1340)
+#define RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB5C14B0)
+#define RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0xB5C1400)
+#define RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C12C0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int MagicCardConfig_TypeDefinitionIndex = 69982;
+	inline static constexpr unsigned int MagicCardConfig_TypeDefinitionIndex = 70794;
 
 	class MagicCardConfig : public ::RPG::Client::ChenLingBattle::CardConfig
 	{
 	public:
 		::RPG::GameCore::ChenLingMagicRow* _MagicRow; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::ChenLingCardRow* row, ::System::Int32 cardIndex)
+		::System::Void _ctor(::RPG::GameCore::ChenLingCardRow* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingCardRow*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG__CTOR_OFFSET))(this, row, cardIndex);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingCardRow*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* GetDesc(::System::UInt32 level)
+		::System::String* GetDesc(::System::UInt32 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG_GETDESC_OFFSET))(this, level);
+			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_MAGICCARDCONFIG_GETDESC_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_TypeName()

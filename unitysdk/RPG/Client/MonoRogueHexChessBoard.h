@@ -16,29 +16,29 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_CLEARCELLGAMEOBJECTPOOL_OFFSET UNITYSDK_OFFSET(0xA9F4020)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_GETMONOITEMLIST_OFFSET UNITYSDK_OFFSET(0xA9F4D90)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_INITCHESTBOARDITEM_OFFSET UNITYSDK_OFFSET(0xA9F41B0)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA9F3D90)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_PLAYFADEIN_OFFSET UNITYSDK_OFFSET(0xA9F4DD0)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_REFRESHPOSITION_OFFSET UNITYSDK_OFFSET(0xA9F4F90)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9F33D0)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__ADDSELECTABLEITEM_OFFSET UNITYSDK_OFFSET(0xA9F4090)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__CHANGEGAMEOBJECTLAYER_OFFSET UNITYSDK_OFFSET(0xA9F4B40)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__CLEARSELECTABLEITEM_OFFSET UNITYSDK_OFFSET(0xA9F3FB0)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xA9F5490)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__ENDGETCELLGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xA9F4C50)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xA9F49C0)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLPOSTION_1_OFFSET UNITYSDK_OFFSET(0xA9F5010)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLPOSTION_OFFSET UNITYSDK_OFFSET(0xA9F4A70)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETPREFABINDEX_OFFSET UNITYSDK_OFFSET(0xA9F4920)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__ONCLICKEMPTY_OFFSET UNITYSDK_OFFSET(0xA9F3D40)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__STARTGETCELLGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xA9F4650)
-#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__TICKFADEIN_OFFSET UNITYSDK_OFFSET(0xA9F3B80)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_CLEARCELLGAMEOBJECTPOOL_OFFSET UNITYSDK_OFFSET(0xC141CB0)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_GETMONOITEMLIST_OFFSET UNITYSDK_OFFSET(0xC142CB0)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_INITCHESTBOARDITEM_OFFSET UNITYSDK_OFFSET(0xC141F40)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC1419C0)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_PLAYFADEIN_OFFSET UNITYSDK_OFFSET(0xC142CF0)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_REFRESHPOSITION_OFFSET UNITYSDK_OFFSET(0xC142E90)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0xC141030)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__ADDSELECTABLEITEM_OFFSET UNITYSDK_OFFSET(0xC141D40)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__CHANGEGAMEOBJECTLAYER_OFFSET UNITYSDK_OFFSET(0xC142A80)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__CLEARSELECTABLEITEM_OFFSET UNITYSDK_OFFSET(0xC141C20)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xC1434D0)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__ENDGETCELLGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xC142B90)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xC142910)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLPOSTION_1_OFFSET UNITYSDK_OFFSET(0xC142FC0)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLPOSTION_OFFSET UNITYSDK_OFFSET(0xC1429B0)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETPREFABINDEX_OFFSET UNITYSDK_OFFSET(0xC142870)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__ONCLICKEMPTY_OFFSET UNITYSDK_OFFSET(0xC141970)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__STARTGETCELLGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xC142560)
+#define RPG_CLIENT_MONOROGUEHEXCHESSBOARD__TICKFADEIN_OFFSET UNITYSDK_OFFSET(0xC1417C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRogueHexChessBoard_TypeDefinitionIndex = 63555;
+	inline static constexpr unsigned int MonoRogueHexChessBoard_TypeDefinitionIndex = 64475;
 
 	class MonoRogueHexChessBoard : public ::UnityEngine::MonoBehaviour
 	{
@@ -74,9 +74,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__CLEARSELECTABLEITEM_OFFSET))(this);
 		}
 
-		::System::Void _AddSelectableItem(::RPG::Client::MonoRogueHexChessBoardItem* item)
+		::System::Void _AddSelectableItem(::RPG::Client::MonoRogueHexChessBoardItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoRogueHexChessBoardItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__ADDSELECTABLEITEM_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoRogueHexChessBoardItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__ADDSELECTABLEITEM_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnClickEmpty()
@@ -89,9 +89,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__TICKFADEIN_OFFSET))(this);
 		}
 
-		::System::Void InitChestBoardItem(::RPG::Client::ChessRogueBoardDataItem* boardDataItem, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::ChessRogueBoardCellDataItem*, ::RPG::Client::MonoRogueHexChessBoardItem*>* onItemSetupView, ::XLua::LuaTable* self)
+		::System::Void InitChestBoardItem(::RPG::Client::ChessRogueBoardDataItem* a1, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::ChessRogueBoardCellDataItem*, ::RPG::Client::MonoRogueHexChessBoardItem*>* a2, ::XLua::LuaTable* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChessRogueBoardDataItem*, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::ChessRogueBoardCellDataItem*, ::RPG::Client::MonoRogueHexChessBoardItem*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD_INITCHESTBOARDITEM_OFFSET))(this, boardDataItem, onItemSetupView, self);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChessRogueBoardDataItem*, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::ChessRogueBoardCellDataItem*, ::RPG::Client::MonoRogueHexChessBoardItem*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD_INITCHESTBOARDITEM_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MonoRogueHexChessBoardItem*>* GetMonoItemList()
@@ -99,29 +99,29 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::MonoRogueHexChessBoardItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD_GETMONOITEMLIST_OFFSET))(this);
 		}
 
-		::System::Void PlayFadeIn(::System::UInt32 startPosX, ::System::Single timeOffset)
+		::System::Void PlayFadeIn(::System::UInt32 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD_PLAYFADEIN_OFFSET))(this, startPosX, timeOffset);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD_PLAYFADEIN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RefreshPosition(::UnityEngine::RectTransform* transform, ::RPG::Client::ChessRogueBoardCellDataItem* boardCellDataItem)
+		::System::Void RefreshPosition(::UnityEngine::RectTransform* a1, ::RPG::Client::ChessRogueBoardCellDataItem* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::RPG::Client::ChessRogueBoardCellDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD_REFRESHPOSITION_OFFSET))(this, transform, boardCellDataItem);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::RPG::Client::ChessRogueBoardCellDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD_REFRESHPOSITION_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector2 _GetCellPostion(::RPG::Client::ChessRogueBoardCellDataItem* boardCellDataItem)
+		::UnityEngine::Vector2 _GetCellPostion(::RPG::Client::ChessRogueBoardCellDataItem* a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::RPG::Client::ChessRogueBoardCellDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLPOSTION_OFFSET))(this, boardCellDataItem);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::RPG::Client::ChessRogueBoardCellDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLPOSTION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 _GetCellPostion_1(::System::UInt32 x, ::System::UInt32 y)
+		::UnityEngine::Vector2 _GetCellPostion_1(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLPOSTION_1_OFFSET))(this, x, y);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLPOSTION_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _GetPrefabIndex(::RPG::Client::ChessRogueBoardCellDataItem* boardCellDataItem)
+		::System::Int32 _GetPrefabIndex(::RPG::Client::ChessRogueBoardCellDataItem* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChessRogueBoardCellDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETPREFABINDEX_OFFSET))(this, boardCellDataItem);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChessRogueBoardCellDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETPREFABINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Void _StartGetCellGameobject()
@@ -129,9 +129,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__STARTGETCELLGAMEOBJECT_OFFSET))(this);
 		}
 
-		::UnityEngine::GameObject* _GetCellGameObject(::System::Int32 prefabIndex, ::UnityEngine::Transform* parentTransform)
+		::UnityEngine::GameObject* _GetCellGameObject(::System::Int32 a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::Int32, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLGAMEOBJECT_OFFSET))(this, prefabIndex, parentTransform);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::Int32, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__GETCELLGAMEOBJECT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _EndGetCellGameObject()
@@ -144,9 +144,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD_CLEARCELLGAMEOBJECTPOOL_OFFSET))(this);
 		}
 
-		::System::Void _ChangeGameObjectLayer(::UnityEngine::Transform* cellTransform)
+		::System::Void _ChangeGameObjectLayer(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__CHANGEGAMEOBJECTLAYER_OFFSET))(this, cellTransform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__CHANGEGAMEOBJECTLAYER_OFFSET))(this, a1);
 		}
 	};
 }

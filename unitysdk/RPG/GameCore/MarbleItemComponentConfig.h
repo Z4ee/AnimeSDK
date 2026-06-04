@@ -8,13 +8,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEITEMCOMPONENTCONFIG_METHOD_3_2E4A7DB54D4A08EA_OFFSET UNITYSDK_OFFSET(0x18A9DEC0)
-#define RPG_GAMECORE_MARBLEITEMCOMPONENTCONFIG_METHOD_3_963BE80151BEF9A7_OFFSET UNITYSDK_OFFSET(0x18A9DF50)
-#define RPG_GAMECORE_MARBLEITEMCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A9DF30)
+#define RPG_GAMECORE_MARBLEITEMCOMPONENTCONFIG_METHOD_3_43C5CCE79910C9EC_OFFSET UNITYSDK_OFFSET(0x198D1110)
+#define RPG_GAMECORE_MARBLEITEMCOMPONENTCONFIG_METHOD_3_5F87A9FE559E1648_OFFSET UNITYSDK_OFFSET(0x198D11A0)
+#define RPG_GAMECORE_MARBLEITEMCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198D1180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleItemComponentConfig_TypeDefinitionIndex = 17958;
+	inline static constexpr unsigned int MarbleItemComponentConfig_TypeDefinitionIndex = 17985;
 
 	class MarbleItemComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -34,14 +34,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEITEMCOMPONENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2E4A7DB54D4A08EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleItemComponentConfig*& a2)
+		static ::System::Void Method_3_43C5CCE79910C9EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleItemComponentConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleItemComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEITEMCOMPONENTCONFIG_METHOD_3_2E4A7DB54D4A08EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleItemComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEITEMCOMPONENTCONFIG_METHOD_3_43C5CCE79910C9EC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_963BE80151BEF9A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleItemComponentConfig* a2)
+		static ::System::Void Method_3_5F87A9FE559E1648(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleItemComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleItemComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEITEMCOMPONENTCONFIG_METHOD_3_963BE80151BEF9A7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleItemComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEITEMCOMPONENTCONFIG_METHOD_3_5F87A9FE559E1648_OFFSET))(a1, a2);
 		}
 	};
 }

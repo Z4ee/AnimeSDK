@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_0_16E4307DCC419505_391;
+class Class_0_16E4307DCC419505_410;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetBattleUIPauseEnvironmentInfo; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_AE400BC40570CD59_METHOD_3_11B0E73545AAC1FD_OFFSET UNITYSDK_OFFSET(0xAA91DF0)
-#define CLASS_3_AE400BC40570CD59_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAA91D60)
-#define CLASS_3_AE400BC40570CD59__CTOR_OFFSET UNITYSDK_OFFSET(0xAA91D30)
-#define CLASS_3_AE400BC40570CD59___COLLECTINFOS_B__2_0_OFFSET UNITYSDK_OFFSET(0xAA92050)
+#define CLASS_3_AE400BC40570CD59_METHOD_3_B1A7521B14C5D044_OFFSET UNITYSDK_OFFSET(0x1400D160)
+#define CLASS_3_AE400BC40570CD59_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1400D0D0)
+#define CLASS_3_AE400BC40570CD59__CTOR_OFFSET UNITYSDK_OFFSET(0x1400D0A0)
+#define CLASS_3_AE400BC40570CD59___COLLECTINFOS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1400D440)
 
-inline static constexpr unsigned int Class_3_AE400BC40570CD59_TypeDefinitionIndex = 51040;
+inline static constexpr unsigned int Class_3_AE400BC40570CD59_TypeDefinitionIndex = 51710;
 
 class Class_3_AE400BC40570CD59 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBattleUIPauseEnvironmentInfo*>
 {
@@ -29,13 +29,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AE400BC40570CD59_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_391*>* Method_3_11B0E73545AAC1FD()
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_410*>* Method_3_B1A7521B14C5D044()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_391*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AE400BC40570CD59_METHOD_3_11B0E73545AAC1FD_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_410*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AE400BC40570CD59_METHOD_3_B1A7521B14C5D044_OFFSET))(this);
 	}
 
-	::RPG::GameCore::FixPoint __CollectInfos_b__2_0(::RPG::GameCore::DynamicFloat* x)
+	::RPG::GameCore::FixPoint __CollectInfos_b__2_0(::RPG::GameCore::DynamicFloat* a1)
 	{
-		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::DynamicFloat*))((::PBYTE)hIl2Cpp + CLASS_3_AE400BC40570CD59___COLLECTINFOS_B__2_0_OFFSET))(this, x);
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::DynamicFloat*))((::PBYTE)hIl2Cpp + CLASS_3_AE400BC40570CD59___COLLECTINFOS_B__2_0_OFFSET))(this, a1);
 	}
 };

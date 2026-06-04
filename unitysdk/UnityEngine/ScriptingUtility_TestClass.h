@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ScriptingUtility_TestClass_TypeDefinitionIndex = 4149;
+	inline static constexpr unsigned int ScriptingUtility_TestClass_TypeDefinitionIndex = 4323;
 
 	struct alignas(4) ScriptingUtility_TestClass
 	{

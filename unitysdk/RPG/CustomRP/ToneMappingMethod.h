@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ToneMappingMethod_TypeDefinitionIndex = 35220;
+	inline static constexpr unsigned int ToneMappingMethod_TypeDefinitionIndex = 35520;
 
 	enum class ToneMappingMethod : ::System::Int32
 	{

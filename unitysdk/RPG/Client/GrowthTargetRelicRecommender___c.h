@@ -5,24 +5,24 @@
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA5DA840)
-#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA5DA880)
-#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__PREPAREDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xA5DA890)
+#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBCDD070)
+#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBCDD0B0)
+#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__PREPAREDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xBCDD0C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GrowthTargetRelicRecommender___c_TypeDefinitionIndex = 60405;
+	inline static constexpr unsigned int GrowthTargetRelicRecommender___c_TypeDefinitionIndex = 61340;
 
 	class GrowthTargetRelicRecommender___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__7_0()
 		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetRelicRecommender___c_TypeDefinitionIndex)->GetStaticField(0x1CD50);
+			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetRelicRecommender___c_TypeDefinitionIndex)->GetStaticField(0x3EBB0);
 		}
 		static ::RPG::Client::GrowthTargetRelicRecommender___c** StaticGet___9()
 		{
-			return (::RPG::Client::GrowthTargetRelicRecommender___c**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetRelicRecommender___c_TypeDefinitionIndex)->GetStaticField(0x1CD58);
+			return (::RPG::Client::GrowthTargetRelicRecommender___c**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetRelicRecommender___c_TypeDefinitionIndex)->GetStaticField(0x3EBB8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PrepareData_b__7_0(::System::Exception* ex)
+		::System::Void _PrepareData_b__7_0(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__PREPAREDATA_B__7_0_OFFSET))(this, ex);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__PREPAREDATA_B__7_0_OFFSET))(this, a1);
 		}
 	};
 }

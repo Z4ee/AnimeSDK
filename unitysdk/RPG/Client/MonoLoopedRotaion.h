@@ -3,19 +3,19 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_9276F349915B6D21;
+class Class_2_642A8A503A232FEE;
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOLOOPEDROTAION_AWAKE_OFFSET UNITYSDK_OFFSET(0xA9DB650)
-#define RPG_CLIENT_MONOLOOPEDROTAION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA9DB770)
-#define RPG_CLIENT_MONOLOOPEDROTAION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA9DB6A0)
-#define RPG_CLIENT_MONOLOOPEDROTAION_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9DB700)
-#define RPG_CLIENT_MONOLOOPEDROTAION__CTOR_OFFSET UNITYSDK_OFFSET(0xA9DB800)
+#define RPG_CLIENT_MONOLOOPEDROTAION_AWAKE_OFFSET UNITYSDK_OFFSET(0xC129670)
+#define RPG_CLIENT_MONOLOOPEDROTAION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC129790)
+#define RPG_CLIENT_MONOLOOPEDROTAION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC1296C0)
+#define RPG_CLIENT_MONOLOOPEDROTAION_UPDATE_OFFSET UNITYSDK_OFFSET(0xC129720)
+#define RPG_CLIENT_MONOLOOPEDROTAION__CTOR_OFFSET UNITYSDK_OFFSET(0xC129820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLoopedRotaion_TypeDefinitionIndex = 65231;
+	inline static constexpr unsigned int MonoLoopedRotaion_TypeDefinitionIndex = 66158;
 
 	class MonoLoopedRotaion : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,7 +30,7 @@ namespace RPG::Client
 		::System::Boolean editorDebug; // 0x48
 		::System::Boolean usePattern; // 0x49
 		::UnityEngine::AnimationCurve* rotatePattern; // 0x50
-		::Class_2_9276F349915B6D21* _Behavior; // 0x58
+		::Class_2_642A8A503A232FEE* _Behavior; // 0x58
 
 		::System::Void _ctor()
 		{

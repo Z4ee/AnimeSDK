@@ -12,24 +12,24 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_APPLYSKIN_OFFSET UNITYSDK_OFFSET(0x9DE08C0)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_GETANIMATION_OFFSET UNITYSDK_OFFSET(0x9DDFD00)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_GET_ANIMATIONSTATEDATA_OFFSET UNITYSDK_OFFSET(0x9DDF8E0)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISANIMEXIST_OFFSET UNITYSDK_OFFSET(0x9DDFB70)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISINANIM_OFFSET UNITYSDK_OFFSET(0x9DDFDC0)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISINSKIN_OFFSET UNITYSDK_OFFSET(0x9DE0610)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ONSPINEEVENT_OFFSET UNITYSDK_OFFSET(0x9DE0DF0)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x9DDF980)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_REGISTERANIMFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0x9DE0140)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0x9DDFFF0)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_SETMIX_OFFSET UNITYSDK_OFFSET(0x9DDFBD0)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_SPINEUPDATE_OFFSET UNITYSDK_OFFSET(0x9DE0CA0)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x9DE0E40)
-#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER__ONANIMCOMPLETE_OFFSET UNITYSDK_OFFSET(0x9DE03C0)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_APPLYSKIN_OFFSET UNITYSDK_OFFSET(0xB3B78D0)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_GETANIMATION_OFFSET UNITYSDK_OFFSET(0xB3B6D00)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_GET_ANIMATIONSTATEDATA_OFFSET UNITYSDK_OFFSET(0xB3B68E0)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISANIMEXIST_OFFSET UNITYSDK_OFFSET(0xB3B6B70)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISINANIM_OFFSET UNITYSDK_OFFSET(0xB3B6DC0)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISINSKIN_OFFSET UNITYSDK_OFFSET(0xB3B7620)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ONSPINEEVENT_OFFSET UNITYSDK_OFFSET(0xB3B7E00)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0xB3B6980)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_REGISTERANIMFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xB3B7110)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0xB3B6FC0)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_SETMIX_OFFSET UNITYSDK_OFFSET(0xB3B6BD0)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_SPINEUPDATE_OFFSET UNITYSDK_OFFSET(0xB3B7CB0)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB3B7E50)
+#define RPG_CLIENT_BASESPINECOMPONENTCONTROLLER__ONANIMCOMPLETE_OFFSET UNITYSDK_OFFSET(0xB3B73C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseSpineComponentController_TypeDefinitionIndex = 63625;
+	inline static constexpr unsigned int BaseSpineComponentController_TypeDefinitionIndex = 64545;
 
 	class BaseSpineComponentController : public ::UnityEngine::MonoBehaviour
 	{
@@ -46,24 +46,24 @@ namespace RPG::Client
 			return ((::Spine::AnimationStateData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_GET_ANIMATIONSTATEDATA_OFFSET))(this);
 		}
 
-		::Spine::TrackEntry* PlayAnimation(::System::String* anim, ::System::Int32 trackIndex, ::System::Boolean isLoop, ::System::Single delay)
+		::Spine::TrackEntry* PlayAnimation(::System::String* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Single a4)
 		{
-			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_PLAYANIMATION_OFFSET))(this, anim, trackIndex, isLoop, delay);
+			return ((::Spine::TrackEntry*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_PLAYANIMATION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetMix(::System::String* fromAnim, ::System::String* toAnim, ::System::Single duration)
+		::System::Void SetMix(::System::String* a1, ::System::String* a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_SETMIX_OFFSET))(this, fromAnim, toAnim, duration);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_SETMIX_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean IsAnimExist(::System::String* anim)
+		::System::Boolean IsAnimExist(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISANIMEXIST_OFFSET))(this, anim);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISANIMEXIST_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsInAnim(::System::String* anim)
+		::System::Boolean IsInAnim(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISINANIM_OFFSET))(this, anim);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISINANIM_OFFSET))(this, a1);
 		}
 
 		::System::Void ResetToDefault()
@@ -71,39 +71,39 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_RESETTODEFAULT_OFFSET))(this);
 		}
 
-		::Spine::Animation* GetAnimation(::System::String* anim)
+		::Spine::Animation* GetAnimation(::System::String* a1)
 		{
-			return ((::Spine::Animation*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_GETANIMATION_OFFSET))(this, anim);
+			return ((::Spine::Animation*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_GETANIMATION_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterAnimFinishCallback(::System::String* anim, ::System::Action* callback)
+		::System::Void RegisterAnimFinishCallback(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_REGISTERANIMFINISHCALLBACK_OFFSET))(this, anim, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_REGISTERANIMFINISHCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _OnAnimComplete(::Spine::TrackEntry* trackEntry)
+		::System::Void _OnAnimComplete(::Spine::TrackEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER__ONANIMCOMPLETE_OFFSET))(this, trackEntry);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER__ONANIMCOMPLETE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsInSkin(::System::String* skin)
+		::System::Boolean IsInSkin(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISINSKIN_OFFSET))(this, skin);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ISINSKIN_OFFSET))(this, a1);
 		}
 
-		::System::Void ApplySkin(::System::String* skin)
+		::System::Void ApplySkin(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_APPLYSKIN_OFFSET))(this, skin);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_APPLYSKIN_OFFSET))(this, a1);
 		}
 
-		::System::Void SpineUpdate(::System::Single deltaTime)
+		::System::Void SpineUpdate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_SPINEUPDATE_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_SPINEUPDATE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnSpineEvent(::System::String* eventName)
+		::System::Void OnSpineEvent(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ONSPINEEVENT_OFFSET))(this, eventName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASESPINECOMPONENTCONTROLLER_ONSPINEEVENT_OFFSET))(this, a1);
 		}
 	};
 }

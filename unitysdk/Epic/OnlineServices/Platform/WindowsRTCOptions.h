@@ -6,15 +6,15 @@
 
 namespace Epic::OnlineServices::Platform { class WindowsRTCOptionsPlatformSpecificOptions; }
 
-#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_GET_PLATFORMSPECIFICOPTIONS_OFFSET UNITYSDK_OFFSET(0x8EEE720)
-#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_1_OFFSET UNITYSDK_OFFSET(0x8EEE8A0)
-#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_OFFSET UNITYSDK_OFFSET(0x8EEE740)
-#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_PLATFORMSPECIFICOPTIONS_OFFSET UNITYSDK_OFFSET(0x8EEE730)
-#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8EEEA60)
+#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_GET_PLATFORMSPECIFICOPTIONS_OFFSET UNITYSDK_OFFSET(0xA31D420)
+#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_1_OFFSET UNITYSDK_OFFSET(0xA31D5A0)
+#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_OFFSET UNITYSDK_OFFSET(0xA31D440)
+#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_PLATFORMSPECIFICOPTIONS_OFFSET UNITYSDK_OFFSET(0xA31D430)
+#define EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA31D750)
 
 namespace Epic::OnlineServices::Platform
 {
-	inline static constexpr unsigned int WindowsRTCOptions_TypeDefinitionIndex = 42578;
+	inline static constexpr unsigned int WindowsRTCOptions_TypeDefinitionIndex = 43381;
 
 	class WindowsRTCOptions : public ::System::Object
 	{
@@ -31,19 +31,19 @@ namespace Epic::OnlineServices::Platform
 			return ((::Epic::OnlineServices::Platform::WindowsRTCOptionsPlatformSpecificOptions*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_GET_PLATFORMSPECIFICOPTIONS_OFFSET))(this);
 		}
 
-		::System::Void set_PlatformSpecificOptions(::Epic::OnlineServices::Platform::WindowsRTCOptionsPlatformSpecificOptions* value)
+		::System::Void set_PlatformSpecificOptions(::Epic::OnlineServices::Platform::WindowsRTCOptionsPlatformSpecificOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::WindowsRTCOptionsPlatformSpecificOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_PLATFORMSPECIFICOPTIONS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::WindowsRTCOptionsPlatformSpecificOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_PLATFORMSPECIFICOPTIONS_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Platform::WindowsRTCOptionsInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Platform::WindowsRTCOptionsInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Platform::WindowsRTCOptionsInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Platform::WindowsRTCOptionsInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_WINDOWSRTCOPTIONS_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,7 +7,7 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int IEngineEnvSystem_TypeDefinitionIndex = 35031;
+	inline static constexpr unsigned int IEngineEnvSystem_TypeDefinitionIndex = 35316;
 
 	class IEngineEnvSystem
 	{

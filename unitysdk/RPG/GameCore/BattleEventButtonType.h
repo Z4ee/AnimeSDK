@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventButtonType_TypeDefinitionIndex = 10208;
+	inline static constexpr unsigned int BattleEventButtonType_TypeDefinitionIndex = 10039;
 
 	enum class BattleEventButtonType : ::System::Int32
 	{

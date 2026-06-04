@@ -6,27 +6,27 @@ namespace MiHoYo::SDK { class SecurityTunnel; }
 namespace MiHoYo::SDK { class SecurityTunnel_File; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DB8FC0)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS37_0__FILETRANSFERTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0x8DC5170)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA207840)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS37_0__FILETRANSFERTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xA2121B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass37_0_TypeDefinitionIndex = 43028;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass37_0_TypeDefinitionIndex = 43831;
 
 	class SecurityTunnel___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::SecurityTunnel* __4__this; // 0x10
-		::MiHoYo::SDK::SecurityTunnel_File* file; // 0x18
+		::MiHoYo::SDK::SecurityTunnel_File* file; // 0x10
+		::MiHoYo::SDK::SecurityTunnel* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS37_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _FileTransferThread_b__0(::System::Boolean isSuccess, ::Il2CppArray<::System::Byte>* buffer, ::System::String* errorMsg)
+		::System::Void _FileTransferThread_b__0(::System::Boolean a1, ::Il2CppArray<::System::Byte>* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS37_0__FILETRANSFERTHREAD_B__0_OFFSET))(this, isSuccess, buffer, errorMsg);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS37_0__FILETRANSFERTHREAD_B__0_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

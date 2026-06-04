@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournPersonaGameStyleGiftData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB100BC0)
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB100BF0)
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__GETGIFTSFORMENU_B__8_0_OFFSET UNITYSDK_OFFSET(0xB100C00)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC853DF0)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC853E20)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__GETGIFTSFORMENU_B__8_0_OFFSET UNITYSDK_OFFSET(0xC853E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaStyleInfo___c_TypeDefinitionIndex = 62452;
+	inline static constexpr unsigned int RogueTournPersonaStyleInfo___c_TypeDefinitionIndex = 63385;
 
 	class RogueTournPersonaStyleInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::RogueTournPersonaGameStyleGiftData*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournPersonaGameStyleGiftData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaStyleInfo___c_TypeDefinitionIndex)->GetStaticField(0x1BE50);
+			return (::System::Func_2<::RPG::Client::RogueTournPersonaGameStyleGiftData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaStyleInfo___c_TypeDefinitionIndex)->GetStaticField(0x42810);
 		}
 		static ::RPG::Client::RogueTournPersonaStyleInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournPersonaStyleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaStyleInfo___c_TypeDefinitionIndex)->GetStaticField(0x1BE58);
+			return (::RPG::Client::RogueTournPersonaStyleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaStyleInfo___c_TypeDefinitionIndex)->GetStaticField(0x42818);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetGiftsForMenu_b__8_0(::RPG::Client::RogueTournPersonaGameStyleGiftData* gift)
+		::System::Boolean _GetGiftsForMenu_b__8_0(::RPG::Client::RogueTournPersonaGameStyleGiftData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTournPersonaGameStyleGiftData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__GETGIFTSFORMENU_B__8_0_OFFSET))(this, gift);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTournPersonaGameStyleGiftData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__GETGIFTSFORMENU_B__8_0_OFFSET))(this, a1);
 		}
 	};
 }

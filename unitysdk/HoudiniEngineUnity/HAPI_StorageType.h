@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_StorageType_TypeDefinitionIndex = 43566;
+	inline static constexpr unsigned int HAPI_StorageType_TypeDefinitionIndex = 37505;
 
 	enum class HAPI_StorageType : ::System::Int32
 	{
@@ -16,6 +16,16 @@ namespace HoudiniEngineUnity
 		HAPI_STORAGETYPE_UINT8 = 5,
 		HAPI_STORAGETYPE_INT8 = 6,
 		HAPI_STORAGETYPE_INT16 = 7,
-		HAPI_STORAGETYPE_MAX = 8,
+		HAPI_STORAGETYPE_DICTIONARY = 8,
+		HAPI_STORAGETYPE_INT_ARRAY = 9,
+		HAPI_STORAGETYPE_INT64_ARRAY = 10,
+		HAPI_STORAGETYPE_FLOAT_ARRAY = 11,
+		HAPI_STORAGETYPE_FLOAT64_ARRAY = 12,
+		HAPI_STORAGETYPE_STRING_ARRAY = 13,
+		HAPI_STORAGETYPE_UINT8_ARRAY = 14,
+		HAPI_STORAGETYPE_INT8_ARRAY = 15,
+		HAPI_STORAGETYPE_INT16_ARRAY = 16,
+		HAPI_STORAGETYPE_DICTIONARY_ARRAY = 17,
+		HAPI_STORAGETYPE_MAX = 18,
 	};
 }

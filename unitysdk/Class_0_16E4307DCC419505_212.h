@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/Match3/OpponentRole.h"
 
-class Class_0_16E4307DCC419505_209;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_212_TypeDefinitionIndex = 38557;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_212_TypeDefinitionIndex = 39463;
 
 class Class_0_16E4307DCC419505_212
 {

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/ActionBarUpdateTiming.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_BATTLEONENTITYACTIONORDERUPDATEDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9E68BA0)
+#define RPG_CLIENT_BATTLEONENTITYACTIONORDERUPDATEDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB4027D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleOnEntityActionOrderUpdatedParam_TypeDefinitionIndex = 65717;
+	inline static constexpr unsigned int BattleOnEntityActionOrderUpdatedParam_TypeDefinitionIndex = 66651;
 
 	class BattleOnEntityActionOrderUpdatedParam : public ::System::Object
 	{

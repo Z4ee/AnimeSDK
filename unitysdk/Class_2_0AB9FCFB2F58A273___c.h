@@ -3,37 +3,37 @@
 #include "unitysdk/System/Object.h"
 
 class Class_2_0AB9FCFB2F58A273;
-class Class_2_9DD8A46984F1AFFD;
+class Class_2_B9E8C2EEAA5C96EC;
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_2_0AB9FCFB2F58A273___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD387550)
-#define CLASS_2_0AB9FCFB2F58A273___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD387580)
-#define CLASS_2_0AB9FCFB2F58A273___C__GET__TRIGGERFILTER_B__8_0_OFFSET UNITYSDK_OFFSET(0xD3875E0)
-#define CLASS_2_0AB9FCFB2F58A273___C___CREATETRIGGER_B__6_0_OFFSET UNITYSDK_OFFSET(0xD387590)
-#define CLASS_2_0AB9FCFB2F58A273___C___CREATETRIGGER_B__6_1_OFFSET UNITYSDK_OFFSET(0xD3875C0)
+#define CLASS_2_0AB9FCFB2F58A273___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA3F2BF0)
+#define CLASS_2_0AB9FCFB2F58A273___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA3F2C20)
+#define CLASS_2_0AB9FCFB2F58A273___C__GET__TRIGGERFILTER_B__8_0_OFFSET UNITYSDK_OFFSET(0xA3F2C80)
+#define CLASS_2_0AB9FCFB2F58A273___C___CREATETRIGGER_B__6_0_OFFSET UNITYSDK_OFFSET(0xA3F2C30)
+#define CLASS_2_0AB9FCFB2F58A273___C___CREATETRIGGER_B__6_1_OFFSET UNITYSDK_OFFSET(0xA3F2C60)
 
-inline static constexpr unsigned int Class_2_0AB9FCFB2F58A273___c_TypeDefinitionIndex = 70854;
+inline static constexpr unsigned int Class_2_0AB9FCFB2F58A273___c_TypeDefinitionIndex = 71673;
 
 class Class_2_0AB9FCFB2F58A273___c : public ::System::Object
 {
 public:
-	static ::System::Action_3<::Class_2_0AB9FCFB2F58A273*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__6_1()
-	{
-		return (::System::Action_3<::Class_2_0AB9FCFB2F58A273*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0AB9FCFB2F58A273___c_TypeDefinitionIndex)->GetStaticField(0x6B2D0);
-	}
 	static ::System::Func_3<::Class_2_0AB9FCFB2F58A273*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__8_0()
 	{
-		return (::System::Func_3<::Class_2_0AB9FCFB2F58A273*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0AB9FCFB2F58A273___c_TypeDefinitionIndex)->GetStaticField(0x6B2D8);
+		return (::System::Func_3<::Class_2_0AB9FCFB2F58A273*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0AB9FCFB2F58A273___c_TypeDefinitionIndex)->GetStaticField(0x44CB0);
+	}
+	static ::System::Action_3<::Class_2_0AB9FCFB2F58A273*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>** StaticGet___9__6_1()
+	{
+		return (::System::Action_3<::Class_2_0AB9FCFB2F58A273*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0AB9FCFB2F58A273___c_TypeDefinitionIndex)->GetStaticField(0x44CB8);
+	}
+	static ::System::Action_3<::Class_2_0AB9FCFB2F58A273*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>** StaticGet___9__6_0()
+	{
+		return (::System::Action_3<::Class_2_0AB9FCFB2F58A273*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0AB9FCFB2F58A273___c_TypeDefinitionIndex)->GetStaticField(0x44CC0);
 	}
 	static ::Class_2_0AB9FCFB2F58A273___c** StaticGet___9()
 	{
-		return (::Class_2_0AB9FCFB2F58A273___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0AB9FCFB2F58A273___c_TypeDefinitionIndex)->GetStaticField(0x6B2E0);
-	}
-	static ::System::Action_3<::Class_2_0AB9FCFB2F58A273*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__6_0()
-	{
-		return (::System::Action_3<::Class_2_0AB9FCFB2F58A273*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0AB9FCFB2F58A273___c_TypeDefinitionIndex)->GetStaticField(0x6B2E8);
+		return (::Class_2_0AB9FCFB2F58A273___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0AB9FCFB2F58A273___c_TypeDefinitionIndex)->GetStaticField(0x44CC8);
 	}
 
 	static ::System::Void _cctor()
@@ -46,18 +46,18 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0AB9FCFB2F58A273___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __CreateTrigger_b__6_0(::Class_2_0AB9FCFB2F58A273* self, ::Class_2_9DD8A46984F1AFFD* ent, ::UnityEngine::Collider* collider)
+	::System::Void __CreateTrigger_b__6_0(::Class_2_0AB9FCFB2F58A273* a1, ::Class_2_B9E8C2EEAA5C96EC* a2, ::UnityEngine::Collider* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_0AB9FCFB2F58A273*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_2_0AB9FCFB2F58A273___C___CREATETRIGGER_B__6_0_OFFSET))(this, self, ent, collider);
+		return ((::System::Void(*)(::PVOID, ::Class_2_0AB9FCFB2F58A273*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_2_0AB9FCFB2F58A273___C___CREATETRIGGER_B__6_0_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void __CreateTrigger_b__6_1(::Class_2_0AB9FCFB2F58A273* self, ::Class_2_9DD8A46984F1AFFD* ent, ::UnityEngine::Collider* _)
+	::System::Void __CreateTrigger_b__6_1(::Class_2_0AB9FCFB2F58A273* a1, ::Class_2_B9E8C2EEAA5C96EC* a2, ::UnityEngine::Collider* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_0AB9FCFB2F58A273*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_2_0AB9FCFB2F58A273___C___CREATETRIGGER_B__6_1_OFFSET))(this, self, ent, _);
+		return ((::System::Void(*)(::PVOID, ::Class_2_0AB9FCFB2F58A273*, ::Class_2_B9E8C2EEAA5C96EC*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_2_0AB9FCFB2F58A273___C___CREATETRIGGER_B__6_1_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Boolean _get__TriggerFilter_b__8_0(::Class_2_0AB9FCFB2F58A273* self, ::UnityEngine::Collider* collider)
+	::System::Boolean _get__TriggerFilter_b__8_0(::Class_2_0AB9FCFB2F58A273* a1, ::UnityEngine::Collider* a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_2_0AB9FCFB2F58A273*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_2_0AB9FCFB2F58A273___C__GET__TRIGGERFILTER_B__8_0_OFFSET))(this, self, collider);
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_0AB9FCFB2F58A273*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_2_0AB9FCFB2F58A273___C__GET__TRIGGERFILTER_B__8_0_OFFSET))(this, a1, a2);
 	}
 };

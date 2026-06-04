@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/PlacementConfig.h"
 
-#define RPG_CLIENT_LITTLEGAME_MOVIEPLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17EF8860)
+#define RPG_CLIENT_LITTLEGAME_MOVIEPLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CDC270)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MoviePlayerConfig_TypeDefinitionIndex = 38576;
+	inline static constexpr unsigned int MoviePlayerConfig_TypeDefinitionIndex = 39343;
 
 	class MoviePlayerConfig : public ::RPG::Client::LittleGame::PlacementConfig
 	{

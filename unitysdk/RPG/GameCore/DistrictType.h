@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DistrictType_TypeDefinitionIndex = 16303;
+	inline static constexpr unsigned int DistrictType_TypeDefinitionIndex = 16336;
 
 	enum class DistrictType : ::System::Int32
 	{

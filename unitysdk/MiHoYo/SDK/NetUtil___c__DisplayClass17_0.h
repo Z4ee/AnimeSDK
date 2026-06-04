@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17583BE0)
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS17_0__PERFORMHTTPREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x175846E0)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1836C5C0)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS17_0__PERFORMHTTPREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1836D110)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil___c__DisplayClass17_0_TypeDefinitionIndex = 7232;
+	inline static constexpr unsigned int NetUtil___c__DisplayClass17_0_TypeDefinitionIndex = 8135;
 
 	class NetUtil___c__DisplayClass17_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PerformHttpRequest_b__0(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* responseHeaders, ::System::String* response)
+		::System::Void _PerformHttpRequest_b__0(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS17_0__PERFORMHTTPREQUEST_B__0_OFFSET))(this, responseHeaders, response);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS17_0__PERFORMHTTPREQUEST_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISTARGETVALID_METHOD_4_B135880BC1B0E8B8_OFFSET UNITYSDK_OFFSET(0x18758DD0)
-#define RPG_GAMECORE_BYISTARGETVALID_METHOD_4_C004D1836D791710_OFFSET UNITYSDK_OFFSET(0x18758D00)
-#define RPG_GAMECORE_BYISTARGETVALID__CTOR_OFFSET UNITYSDK_OFFSET(0x18758D80)
+#define RPG_GAMECORE_BYISTARGETVALID_METHOD_4_58ED3A38DDCA2A91_OFFSET UNITYSDK_OFFSET(0x19570BD0)
+#define RPG_GAMECORE_BYISTARGETVALID_METHOD_4_B135880BC1B0E8B8_OFFSET UNITYSDK_OFFSET(0x19570910)
+#define RPG_GAMECORE_BYISTARGETVALID_METHOD_4_C004D1836D791710_OFFSET UNITYSDK_OFFSET(0x19570840)
+#define RPG_GAMECORE_BYISTARGETVALID_METHOD_4_FD5E0372C97C6222_OFFSET UNITYSDK_OFFSET(0x19570B50)
+#define RPG_GAMECORE_BYISTARGETVALID__CTOR_OFFSET UNITYSDK_OFFSET(0x195708C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsTargetValid_TypeDefinitionIndex = 22794;
+	inline static constexpr unsigned int ByIsTargetValid_TypeDefinitionIndex = 22501;
 
 	class ByIsTargetValid : public ::RPG::GameCore::PredicateConfig
 	{
@@ -33,6 +36,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_B135880BC1B0E8B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsTargetValid* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsTargetValid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTARGETVALID_METHOD_4_B135880BC1B0E8B8_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_FD5E0372C97C6222(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsTargetValid*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsTargetValid*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTARGETVALID_METHOD_4_FD5E0372C97C6222_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_58ED3A38DDCA2A91(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsTargetValid* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsTargetValid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTARGETVALID_METHOD_4_58ED3A38DDCA2A91_OFFSET))(a1, a2);
 		}
 	};
 }

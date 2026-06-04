@@ -5,18 +5,18 @@
 namespace RPG::Client::Prop { class JigsawPuzzleBoard; }
 namespace RPG::Client::Prop { class JigsawPuzzleItem; }
 
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAE383E0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS34_0__TRYAUTOABSORBITEM_B__0_OFFSET UNITYSDK_OFFSET(0xAE3C4E0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC57F450)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS34_0__TRYAUTOABSORBITEM_B__0_OFFSET UNITYSDK_OFFSET(0xC5835B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawPuzzleBoard___c__DisplayClass34_0_TypeDefinitionIndex = 72149;
+	inline static constexpr unsigned int JigsawPuzzleBoard___c__DisplayClass34_0_TypeDefinitionIndex = 73171;
 
 	class JigsawPuzzleBoard___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::JigsawPuzzleBoard* __4__this; // 0x10
-		::RPG::Client::Prop::JigsawPuzzleItem* item; // 0x18
+		::RPG::Client::Prop::JigsawPuzzleItem* item; // 0x10
+		::RPG::Client::Prop::JigsawPuzzleBoard* __4__this; // 0x18
 		::System::Boolean tryAbsorbPending; // 0x20
 
 		::System::Void _ctor()

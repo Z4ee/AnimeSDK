@@ -6,21 +6,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TEAMLIMITCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19091780)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19091E50)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19DDC0A0)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19DDCBD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamLimitConditionRow_TypeDefinitionIndex = 14475;
+	inline static constexpr unsigned int TeamLimitConditionRow_TypeDefinitionIndex = 14512;
 
 	class TeamLimitConditionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamIntList; // 0x10
-		::System::UInt32 ParamInt2; // 0x18
+		::RPG::GameCore::TeamLimitType LimitType; // 0x18
 		::System::UInt32 ID; // 0x1C
-		::RPG::GameCore::TeamLimitType LimitType; // 0x20
-		::System::UInt32 ParamInt1; // 0x24
+		::System::UInt32 ParamInt1; // 0x20
+		::System::UInt32 ParamInt2; // 0x24
 		::RPG::Client::TextID LimitDesc; // 0x28
 
 		::System::Void _ctor()
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMLIMITCONDITIONROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TeamLimitConditionRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamLimitConditionRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamLimitConditionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMLIMITCONDITIONROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamLimitConditionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMLIMITCONDITIONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

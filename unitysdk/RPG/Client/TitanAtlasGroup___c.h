@@ -5,24 +5,24 @@
 namespace RPG::Client { class TitanAtlasInfo; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_TITANATLASGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB31E8B0)
-#define RPG_CLIENT_TITANATLASGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB31E8F0)
-#define RPG_CLIENT_TITANATLASGROUP___C__GETALLBASEINFOS_B__2_0_OFFSET UNITYSDK_OFFSET(0xB31E900)
+#define RPG_CLIENT_TITANATLASGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCA77000)
+#define RPG_CLIENT_TITANATLASGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCA77040)
+#define RPG_CLIENT_TITANATLASGROUP___C__GETALLBASEINFOS_B__2_0_OFFSET UNITYSDK_OFFSET(0xCA77050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TitanAtlasGroup___c_TypeDefinitionIndex = 62824;
+	inline static constexpr unsigned int TitanAtlasGroup___c_TypeDefinitionIndex = 63758;
 
 	class TitanAtlasGroup___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::TitanAtlasGroup___c** StaticGet___9()
-		{
-			return (::RPG::Client::TitanAtlasGroup___c**)Il2CppClass::FromTypeDefinitionIndex(TitanAtlasGroup___c_TypeDefinitionIndex)->GetStaticField(0x3D430);
-		}
 		static ::System::Comparison_1<::RPG::Client::TitanAtlasInfo*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::TitanAtlasInfo*>**)Il2CppClass::FromTypeDefinitionIndex(TitanAtlasGroup___c_TypeDefinitionIndex)->GetStaticField(0x3D438);
+			return (::System::Comparison_1<::RPG::Client::TitanAtlasInfo*>**)Il2CppClass::FromTypeDefinitionIndex(TitanAtlasGroup___c_TypeDefinitionIndex)->GetStaticField(0x551A0);
+		}
+		static ::RPG::Client::TitanAtlasGroup___c** StaticGet___9()
+		{
+			return (::RPG::Client::TitanAtlasGroup___c**)Il2CppClass::FromTypeDefinitionIndex(TitanAtlasGroup___c_TypeDefinitionIndex)->GetStaticField(0x551A8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetAllBaseInfos_b__2_0(::RPG::Client::TitanAtlasInfo* a, ::RPG::Client::TitanAtlasInfo* b)
+		::System::Int32 _GetAllBaseInfos_b__2_0(::RPG::Client::TitanAtlasInfo* a1, ::RPG::Client::TitanAtlasInfo* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::TitanAtlasInfo*, ::RPG::Client::TitanAtlasInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP___C__GETALLBASEINFOS_B__2_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::TitanAtlasInfo*, ::RPG::Client::TitanAtlasInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TITANATLASGROUP___C__GETALLBASEINFOS_B__2_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

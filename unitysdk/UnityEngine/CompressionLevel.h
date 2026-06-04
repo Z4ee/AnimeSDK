@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CompressionLevel_TypeDefinitionIndex = 5420;
+	inline static constexpr unsigned int CompressionLevel_TypeDefinitionIndex = 5697;
 
 	enum class CompressionLevel : ::System::Int32
 	{

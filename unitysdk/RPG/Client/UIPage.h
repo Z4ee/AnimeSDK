@@ -5,18 +5,18 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_UIPAGE_GETISFINISH_OFFSET UNITYSDK_OFFSET(0xB41C390)
-#define RPG_CLIENT_UIPAGE_GETUIGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xB41C3D0)
-#define RPG_CLIENT_UIPAGE_GET_RETAINLIFETIME_OFFSET UNITYSDK_OFFSET(0xB41C4E0)
-#define RPG_CLIENT_UIPAGE_SETFINISH_OFFSET UNITYSDK_OFFSET(0xB41C350)
-#define RPG_CLIENT_UIPAGE_SET_RETAINLIFETIME_OFFSET UNITYSDK_OFFSET(0xB41C4F0)
-#define RPG_CLIENT_UIPAGE_START_OFFSET UNITYSDK_OFFSET(0xB41C2E0)
-#define RPG_CLIENT_UIPAGE_TICK_OFFSET UNITYSDK_OFFSET(0xB41C420)
-#define RPG_CLIENT_UIPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB41C2D0)
+#define RPG_CLIENT_UIPAGE_GETISFINISH_OFFSET UNITYSDK_OFFSET(0xCB7C370)
+#define RPG_CLIENT_UIPAGE_GETUIGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xCB7C3B0)
+#define RPG_CLIENT_UIPAGE_GET_RETAINLIFETIME_OFFSET UNITYSDK_OFFSET(0xCB7C4C0)
+#define RPG_CLIENT_UIPAGE_SETFINISH_OFFSET UNITYSDK_OFFSET(0xCB7C330)
+#define RPG_CLIENT_UIPAGE_SET_RETAINLIFETIME_OFFSET UNITYSDK_OFFSET(0xCB7C4D0)
+#define RPG_CLIENT_UIPAGE_START_OFFSET UNITYSDK_OFFSET(0xCB7C2C0)
+#define RPG_CLIENT_UIPAGE_TICK_OFFSET UNITYSDK_OFFSET(0xCB7C400)
+#define RPG_CLIENT_UIPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xCB7C2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPage_TypeDefinitionIndex = 63614;
+	inline static constexpr unsigned int UIPage_TypeDefinitionIndex = 64534;
 
 	class UIPage : public ::UnityEngine::MonoBehaviour
 	{
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPAGE_GETUIGAMEOBJECT_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPAGE_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPAGE_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_RetainLifeTime()
@@ -62,9 +62,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPAGE_GET_RETAINLIFETIME_OFFSET))(this);
 		}
 
-		::System::Void set_RetainLifeTime(::System::Boolean value)
+		::System::Void set_RetainLifeTime(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPAGE_SET_RETAINLIFETIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPAGE_SET_RETAINLIFETIME_OFFSET))(this, a1);
 		}
 	};
 }

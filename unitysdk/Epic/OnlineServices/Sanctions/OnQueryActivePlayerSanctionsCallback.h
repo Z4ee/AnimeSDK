@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8F34B10)
-#define EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8F34B40)
-#define EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8F345C0)
-#define EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8F345A0)
+#define EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA355650)
+#define EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA355680)
+#define EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA355640)
+#define EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA355550)
 
 namespace Epic::OnlineServices::Sanctions
 {
-	inline static constexpr unsigned int OnQueryActivePlayerSanctionsCallback_TypeDefinitionIndex = 41400;
+	inline static constexpr unsigned int OnQueryActivePlayerSanctionsCallback_TypeDefinitionIndex = 42203;
 
 	class OnQueryActivePlayerSanctionsCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_ONQUERYACTIVEPLAYERSANCTIONSCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

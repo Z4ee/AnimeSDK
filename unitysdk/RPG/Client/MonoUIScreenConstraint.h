@@ -8,19 +8,19 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_MONOUISCREENCONSTRAINT_CALCULATECONSTRAINTOFFSET_OFFSET UNITYSDK_OFFSET(0xAA11060)
-#define RPG_CLIENT_MONOUISCREENCONSTRAINT_CONSTRAINTOSCREEN_OFFSET UNITYSDK_OFFSET(0xAA108C0)
-#define RPG_CLIENT_MONOUISCREENCONSTRAINT_ENABLECONTINUOUSCONSTRAINT_OFFSET UNITYSDK_OFFSET(0xAA11230)
-#define RPG_CLIENT_MONOUISCREENCONSTRAINT_GETSCREENBOUNDS_OFFSET UNITYSDK_OFFSET(0xAA10C00)
-#define RPG_CLIENT_MONOUISCREENCONSTRAINT_GETUIELEMENTBOUNDS_OFFSET UNITYSDK_OFFSET(0xAA10ED0)
-#define RPG_CLIENT_MONOUISCREENCONSTRAINT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xAA10590)
-#define RPG_CLIENT_MONOUISCREENCONSTRAINT_SETCONSTRAINTSETTINGS_OFFSET UNITYSDK_OFFSET(0xAA111D0)
-#define RPG_CLIENT_MONOUISCREENCONSTRAINT_START_OFFSET UNITYSDK_OFFSET(0xAA10530)
-#define RPG_CLIENT_MONOUISCREENCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0xAA11280)
+#define RPG_CLIENT_MONOUISCREENCONSTRAINT_CALCULATECONSTRAINTOFFSET_OFFSET UNITYSDK_OFFSET(0xC15FA40)
+#define RPG_CLIENT_MONOUISCREENCONSTRAINT_CONSTRAINTOSCREEN_OFFSET UNITYSDK_OFFSET(0xC15F280)
+#define RPG_CLIENT_MONOUISCREENCONSTRAINT_ENABLECONTINUOUSCONSTRAINT_OFFSET UNITYSDK_OFFSET(0xC15FC10)
+#define RPG_CLIENT_MONOUISCREENCONSTRAINT_GETSCREENBOUNDS_OFFSET UNITYSDK_OFFSET(0xC15F5E0)
+#define RPG_CLIENT_MONOUISCREENCONSTRAINT_GETUIELEMENTBOUNDS_OFFSET UNITYSDK_OFFSET(0xC15F8B0)
+#define RPG_CLIENT_MONOUISCREENCONSTRAINT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xC15EF60)
+#define RPG_CLIENT_MONOUISCREENCONSTRAINT_SETCONSTRAINTSETTINGS_OFFSET UNITYSDK_OFFSET(0xC15FBB0)
+#define RPG_CLIENT_MONOUISCREENCONSTRAINT_START_OFFSET UNITYSDK_OFFSET(0xC15EF00)
+#define RPG_CLIENT_MONOUISCREENCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0xC15FC60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIScreenConstraint_TypeDefinitionIndex = 63588;
+	inline static constexpr unsigned int MonoUIScreenConstraint_TypeDefinitionIndex = 64508;
 
 	class MonoUIScreenConstraint : public ::UnityEngine::MonoBehaviour
 	{
@@ -65,19 +65,19 @@ namespace RPG::Client
 			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUISCREENCONSTRAINT_GETUIELEMENTBOUNDS_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2 CalculateConstraintOffset(::UnityEngine::Bounds screenBounds, ::UnityEngine::Bounds elementBounds)
+		::UnityEngine::Vector2 CalculateConstraintOffset(::UnityEngine::Bounds a1, ::UnityEngine::Bounds a2)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Bounds, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUISCREENCONSTRAINT_CALCULATECONSTRAINTOFFSET_OFFSET))(this, screenBounds, elementBounds);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Bounds, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUISCREENCONSTRAINT_CALCULATECONSTRAINTOFFSET_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetConstraintSettings(::System::Boolean constrainX, ::System::Boolean constrainY, ::UnityEngine::Vector2 padding)
+		::System::Void SetConstraintSettings(::System::Boolean a1, ::System::Boolean a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUISCREENCONSTRAINT_SETCONSTRAINTSETTINGS_OFFSET))(this, constrainX, constrainY, padding);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUISCREENCONSTRAINT_SETCONSTRAINTSETTINGS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EnableContinuousConstraint(::System::Boolean enable)
+		::System::Void EnableContinuousConstraint(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUISCREENCONSTRAINT_ENABLECONTINUOUSCONSTRAINT_OFFSET))(this, enable);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUISCREENCONSTRAINT_ENABLECONTINUOUSCONSTRAINT_OFFSET))(this, a1);
 		}
 	};
 }

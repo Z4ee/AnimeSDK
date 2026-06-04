@@ -6,15 +6,15 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::KWS { class CopyPermissionByIndexOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x41010)
-#define EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x41000)
-#define EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x26F0)
-#define EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x40E60)
-#define EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x40F20)
+#define EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x45340)
+#define EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x45330)
+#define EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x2A90)
+#define EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x45190)
+#define EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x45250)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int CopyPermissionByIndexOptionsInternal_TypeDefinitionIndex = 42053;
+	inline static constexpr unsigned int CopyPermissionByIndexOptionsInternal_TypeDefinitionIndex = 42856;
 
 	struct alignas(8) CopyPermissionByIndexOptionsInternal
 	{
@@ -22,24 +22,24 @@ namespace Epic::OnlineServices::KWS
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::UInt32 m_Index; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Index(::System::UInt32 value)
+		::System::Void set_Index(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_INDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::KWS::CopyPermissionByIndexOptions* other)
+		::System::Void Set(::Epic::OnlineServices::KWS::CopyPermissionByIndexOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::KWS::CopyPermissionByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::KWS::CopyPermissionByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_COPYPERMISSIONBYINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

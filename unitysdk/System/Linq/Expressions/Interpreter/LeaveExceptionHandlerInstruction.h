@@ -5,30 +5,30 @@
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x19F0C9B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x19F0E970)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x19F0E930)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x19F0E980)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x19F0E990)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F0E9F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F0E920)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1AD84000)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1AD860F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1AD860B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1AD86100)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1AD86110)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD86160)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD860A0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LeaveExceptionHandlerInstruction_TypeDefinitionIndex = 3323;
+	inline static constexpr unsigned int LeaveExceptionHandlerInstruction_TypeDefinitionIndex = 3324;
 
 	class LeaveExceptionHandlerInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction
 	{
 	public:
 		static ::Il2CppArray<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*>** StaticGet_s_cache()
 		{
-			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*>**)Il2CppClass::FromTypeDefinitionIndex(LeaveExceptionHandlerInstruction_TypeDefinitionIndex)->GetStaticField(0x12D70);
+			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*>**)Il2CppClass::FromTypeDefinitionIndex(LeaveExceptionHandlerInstruction_TypeDefinitionIndex)->GetStaticField(0x2AD60);
 		}
 		::System::Boolean _hasValue; // 0x18
 
-		::System::Void _ctor(::System::Int32 labelIndex, ::System::Boolean hasValue)
+		::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION__CTOR_OFFSET))(this, labelIndex, hasValue);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -51,14 +51,14 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_PRODUCEDSTACK_OFFSET))(this);
 		}
 
-		static ::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction* Create(::System::Int32 labelIndex, ::System::Boolean hasValue)
+		static ::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction* Create(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_CREATE_OFFSET))(labelIndex, hasValue);
+			return ((::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_CREATE_OFFSET))(a1, a2);
 		}
 
-		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame)
+		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_RUN_OFFSET))(this, frame);
+			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
 	};
 }

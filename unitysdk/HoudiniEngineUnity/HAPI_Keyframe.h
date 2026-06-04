@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define HOUDINIENGINEUNITY_HAPI_KEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x24C30)
+#define HOUDINIENGINEUNITY_HAPI_KEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x259B0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_Keyframe_TypeDefinitionIndex = 43604;
+	inline static constexpr unsigned int HAPI_Keyframe_TypeDefinitionIndex = 37546;
 
 	struct alignas(4) HAPI_Keyframe
 	{
@@ -15,9 +15,9 @@ namespace HoudiniEngineUnity
 		::System::Single inTangent; // 0x18
 		::System::Single outTangent; // 0x1C
 
-		::System::Void _ctor(::System::Single t, ::System::Single v, ::System::Single in_tangent, ::System::Single out_tangent)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HAPI_KEYFRAME__CTOR_OFFSET))(this, t, v, in_tangent, out_tangent);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HAPI_KEYFRAME__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

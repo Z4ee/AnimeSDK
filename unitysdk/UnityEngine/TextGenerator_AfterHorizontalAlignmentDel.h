@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A502B90)
-#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A502C00)
-#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A501DA0)
-#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FE880)
+#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B34DA50)
+#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B34DAC0)
+#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B34D5B0)
+#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34D9E0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextGenerator_AfterHorizontalAlignmentDel_TypeDefinitionIndex = 4943;
+	inline static constexpr unsigned int TextGenerator_AfterHorizontalAlignmentDel_TypeDefinitionIndex = 5021;
 
 	class TextGenerator_AfterHorizontalAlignmentDel : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::TextFormatState& formatState)
+		::System::Void Invoke(::UnityEngine::TextFormatState& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_INVOKE_OFFSET))(this, formatState);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::TextFormatState& formatState, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::TextFormatState& a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::TextFormatState&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_BEGININVOKE_OFFSET))(this, formatState, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::TextFormatState&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::UnityEngine::TextFormatState& formatState, ::System::IAsyncResult* result)
+		::System::Void EndInvoke(::UnityEngine::TextFormatState& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_ENDINVOKE_OFFSET))(this, formatState, result);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTDEL_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

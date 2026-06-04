@@ -5,13 +5,13 @@
 class Class_1_5878A2422EE7CDFB;
 namespace RPG::GameCore { class LevelMinimapVolume; }
 
-#define RPG_CLIENT_MINIMAPINSPECTOR_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0xA8AC470)
-#define RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0xA8AC480)
-#define RPG_CLIENT_MINIMAPINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA8AC490)
+#define RPG_CLIENT_MINIMAPINSPECTOR_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0xBFF7C40)
+#define RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0xBFF7C50)
+#define RPG_CLIENT_MINIMAPINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xBFF7C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MinimapInspector_TypeDefinitionIndex = 63171;
+	inline static constexpr unsigned int MinimapInspector_TypeDefinitionIndex = 64088;
 
 	class MinimapInspector : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::Class_1_5878A2422EE7CDFB*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPINSPECTOR_GET_HANDLE_OFFSET))(this);
 		}
 
-		::System::Void set_Handle(::Class_1_5878A2422EE7CDFB* value)
+		::System::Void set_Handle(::Class_1_5878A2422EE7CDFB* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5878A2422EE7CDFB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Class_1_5878A2422EE7CDFB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET))(this, a1);
 		}
 	};
 }

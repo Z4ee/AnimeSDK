@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_96489F62C0AE1C3F.h"
+#include "unitysdk/Class_2_D9346AE479F5CE87.h"
 
 class Class_1_2B8E0B4950FE44E7;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class NewFireProjectile; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3D859FF81BD5BAF5_METHOD_3_748E2125473CC277_OFFSET UNITYSDK_OFFSET(0xC71B290)
-#define CLASS_3_3D859FF81BD5BAF5_METHOD_3_B4B00C2D0B69C744_OFFSET UNITYSDK_OFFSET(0xC71B390)
-#define CLASS_3_3D859FF81BD5BAF5__CTOR_OFFSET UNITYSDK_OFFSET(0xC71B270)
+#define CLASS_3_3D859FF81BD5BAF5_METHOD_3_748E2125473CC277_OFFSET UNITYSDK_OFFSET(0xC964DE0)
+#define CLASS_3_3D859FF81BD5BAF5_METHOD_3_E654F389D9E1BBFC_OFFSET UNITYSDK_OFFSET(0xC964EF0)
+#define CLASS_3_3D859FF81BD5BAF5__CTOR_OFFSET UNITYSDK_OFFSET(0xC964DC0)
 
-inline static constexpr unsigned int Class_3_3D859FF81BD5BAF5_TypeDefinitionIndex = 50921;
+inline static constexpr unsigned int Class_3_3D859FF81BD5BAF5_TypeDefinitionIndex = 51591;
 
-class Class_3_3D859FF81BD5BAF5 : public ::Class_2_96489F62C0AE1C3F
+class Class_3_3D859FF81BD5BAF5 : public ::Class_2_D9346AE479F5CE87
 {
 public:
 	::RPG::GameCore::NewFireProjectile* Field_3_0; // 0x40
@@ -28,8 +28,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::Class_1_2B8E0B4950FE44E7*))((::PBYTE)hIl2Cpp + CLASS_3_3D859FF81BD5BAF5_METHOD_3_748E2125473CC277_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_3_B4B00C2D0B69C744(::RPG::GameCore::GameEntity* P0, ::RPG::GameCore::GameEntity* P1, ::Class_1_2B8E0B4950FE44E7* P2)
+	::System::Void Method_3_E654F389D9E1BBFC(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::Class_1_2B8E0B4950FE44E7* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::Class_1_2B8E0B4950FE44E7*))((::PBYTE)hIl2Cpp + CLASS_3_3D859FF81BD5BAF5_METHOD_3_B4B00C2D0B69C744_OFFSET))(this, P0, P1, P2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::Class_1_2B8E0B4950FE44E7*))((::PBYTE)hIl2Cpp + CLASS_3_3D859FF81BD5BAF5_METHOD_3_E654F389D9E1BBFC_OFFSET))(this, a1, a2, a3);
 	}
 };

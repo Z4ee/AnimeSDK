@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ConvertibleItemData; }
 
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA6452E0)
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS89_0__GETCONVERTIBLEITEMDATABYITEMID_B__0_OFFSET UNITYSDK_OFFSET(0xA64DFE0)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBD4B1A0)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS89_0__GETCONVERTIBLEITEMDATABYITEMID_B__0_OFFSET UNITYSDK_OFFSET(0xBD54A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InventoryModule___c__DisplayClass89_0_TypeDefinitionIndex = 60491;
+	inline static constexpr unsigned int InventoryModule___c__DisplayClass89_0_TypeDefinitionIndex = 61425;
 
 	class InventoryModule___c__DisplayClass89_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS89_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetConvertibleItemDataByItemID_b__0(::RPG::Client::ConvertibleItemData* item)
+		::System::Boolean _GetConvertibleItemDataByItemID_b__0(::RPG::Client::ConvertibleItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ConvertibleItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS89_0__GETCONVERTIBLEITEMDATABYITEMID_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ConvertibleItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS89_0__GETCONVERTIBLEITEMDATABYITEMID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

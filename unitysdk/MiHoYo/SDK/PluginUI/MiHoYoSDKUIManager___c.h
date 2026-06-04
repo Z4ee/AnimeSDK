@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__BRIDGE2NATIVE_B__16_1_OFFSET UNITYSDK_OFFSET(0x8DA7D10)
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DA7CC0)
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8DA7D00)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__BRIDGE2NATIVE_B__16_1_OFFSET UNITYSDK_OFFSET(0xA1F8300)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA1F82B0)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA1F82F0)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKUIManager___c_TypeDefinitionIndex = 43437;
+	inline static constexpr unsigned int MiHoYoSDKUIManager___c_TypeDefinitionIndex = 44240;
 
 	class MiHoYoSDKUIManager___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIManager___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::PluginUI::MiHoYoSDKUIManager___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUIManager___c_TypeDefinitionIndex)->GetStaticField(0x520E0);
+			return (::MiHoYo::SDK::PluginUI::MiHoYoSDKUIManager___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUIManager___c_TypeDefinitionIndex)->GetStaticField(0x12F00);
 		}
 		static ::System::Action_1<::System::String*>** StaticGet___9__16_1()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUIManager___c_TypeDefinitionIndex)->GetStaticField(0x520E8);
+			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUIManager___c_TypeDefinitionIndex)->GetStaticField(0x12F08);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MiHoYo::SDK::PluginUI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Bridge2Native_b__16_1(::System::String* strCallbackArgs)
+		::System::Void _Bridge2Native_b__16_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__BRIDGE2NATIVE_B__16_1_OFFSET))(this, strCallbackArgs);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__BRIDGE2NATIVE_B__16_1_OFFSET))(this, a1);
 		}
 	};
 }

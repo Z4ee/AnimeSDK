@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TimeRewindState.h"
 
-namespace RPG::Client { class IActivityQuestRewardTabGroupInfo; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_624_TypeDefinitionIndex = 56942;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_624_TypeDefinitionIndex = 56830;
 
 class Class_0_16E4307DCC419505_624
 {

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_OVERRIDEENTITYMODIFIERPHASECAMERA_METHOD_3_0505474B812367DA_OFFSET UNITYSDK_OFFSET(0x18BCBC30)
-#define RPG_GAMECORE_OVERRIDEENTITYMODIFIERPHASECAMERA_METHOD_3_A28636602C5A9B6D_OFFSET UNITYSDK_OFFSET(0x18BCBBB0)
-#define RPG_GAMECORE_OVERRIDEENTITYMODIFIERPHASECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x18BCBC00)
+#define RPG_GAMECORE_OVERRIDEENTITYMODIFIERPHASECAMERA_METHOD_3_74266A52876FB789_OFFSET UNITYSDK_OFFSET(0x199DD620)
+#define RPG_GAMECORE_OVERRIDEENTITYMODIFIERPHASECAMERA_METHOD_3_D96421979E8FAC68_OFFSET UNITYSDK_OFFSET(0x199DD5A0)
+#define RPG_GAMECORE_OVERRIDEENTITYMODIFIERPHASECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x199DD5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideEntityModifierPhaseCamera_TypeDefinitionIndex = 21666;
+	inline static constexpr unsigned int OverrideEntityModifierPhaseCamera_TypeDefinitionIndex = 21521;
 
 	class OverrideEntityModifierPhaseCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEENTITYMODIFIERPHASECAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A28636602C5A9B6D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideEntityModifierPhaseCamera*& a2)
+		static ::System::Void Method_3_D96421979E8FAC68(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideEntityModifierPhaseCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideEntityModifierPhaseCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEENTITYMODIFIERPHASECAMERA_METHOD_3_A28636602C5A9B6D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideEntityModifierPhaseCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEENTITYMODIFIERPHASECAMERA_METHOD_3_D96421979E8FAC68_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0505474B812367DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideEntityModifierPhaseCamera* a2)
+		static ::System::Void Method_3_74266A52876FB789(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideEntityModifierPhaseCamera* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideEntityModifierPhaseCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEENTITYMODIFIERPHASECAMERA_METHOD_3_0505474B812367DA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideEntityModifierPhaseCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEENTITYMODIFIERPHASECAMERA_METHOD_3_74266A52876FB789_OFFSET))(a1, a2);
 		}
 	};
 }

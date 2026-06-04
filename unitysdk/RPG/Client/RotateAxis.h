@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RotateAxis_TypeDefinitionIndex = 65056;
+	inline static constexpr unsigned int RotateAxis_TypeDefinitionIndex = 65982;
 
 	enum class RotateAxis : ::System::Int32
 	{

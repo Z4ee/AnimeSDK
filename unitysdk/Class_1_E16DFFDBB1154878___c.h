@@ -5,22 +5,22 @@
 class Class_3_CD04D3296DF4C842_2;
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_1_E16DFFDBB1154878___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D4D2E0)
-#define CLASS_1_E16DFFDBB1154878___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17D4D320)
-#define CLASS_1_E16DFFDBB1154878___C__UPDATEREMOVABLETASKS_B__5_0_OFFSET UNITYSDK_OFFSET(0x17D4D330)
+#define CLASS_1_E16DFFDBB1154878___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B72A30)
+#define CLASS_1_E16DFFDBB1154878___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18B72A70)
+#define CLASS_1_E16DFFDBB1154878___C__UPDATEREMOVABLETASKS_B__5_0_OFFSET UNITYSDK_OFFSET(0x18B72A80)
 
-inline static constexpr unsigned int Class_1_E16DFFDBB1154878___c_TypeDefinitionIndex = 34700;
+inline static constexpr unsigned int Class_1_E16DFFDBB1154878___c_TypeDefinitionIndex = 34983;
 
 class Class_1_E16DFFDBB1154878___c : public ::System::Object
 {
 public:
 	static ::System::Predicate_1<::Class_3_CD04D3296DF4C842_2*>** StaticGet___9__5_0()
 	{
-		return (::System::Predicate_1<::Class_3_CD04D3296DF4C842_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E16DFFDBB1154878___c_TypeDefinitionIndex)->GetStaticField(0x60470);
+		return (::System::Predicate_1<::Class_3_CD04D3296DF4C842_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E16DFFDBB1154878___c_TypeDefinitionIndex)->GetStaticField(0x5FBE0);
 	}
 	static ::Class_1_E16DFFDBB1154878___c** StaticGet___9()
 	{
-		return (::Class_1_E16DFFDBB1154878___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E16DFFDBB1154878___c_TypeDefinitionIndex)->GetStaticField(0x60478);
+		return (::Class_1_E16DFFDBB1154878___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E16DFFDBB1154878___c_TypeDefinitionIndex)->GetStaticField(0x5FBE8);
 	}
 
 	static ::System::Void _cctor()
@@ -33,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E16DFFDBB1154878___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _UpdateRemovableTasks_b__5_0(::Class_3_CD04D3296DF4C842_2* task)
+	::System::Boolean _UpdateRemovableTasks_b__5_0(::Class_3_CD04D3296DF4C842_2* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_3_CD04D3296DF4C842_2*))((::PBYTE)hIl2Cpp + CLASS_1_E16DFFDBB1154878___C__UPDATEREMOVABLETASKS_B__5_0_OFFSET))(this, task);
+		return ((::System::Boolean(*)(::PVOID, ::Class_3_CD04D3296DF4C842_2*))((::PBYTE)hIl2Cpp + CLASS_1_E16DFFDBB1154878___C__UPDATEREMOVABLETASKS_B__5_0_OFFSET))(this, a1);
 	}
 };

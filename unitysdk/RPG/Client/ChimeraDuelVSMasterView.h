@@ -6,15 +6,15 @@ namespace RPG::Client { class ChimeraDuelMasterData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA025160)
-#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_LOAD_OFFSET UNITYSDK_OFFSET(0xA024A70)
-#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_PLAYFREESTYLE_OFFSET UNITYSDK_OFFSET(0xA0250C0)
-#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW__CREATEENTITY_OFFSET UNITYSDK_OFFSET(0xA024E40)
-#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xA0252A0)
+#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6A1380)
+#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_LOAD_OFFSET UNITYSDK_OFFSET(0xB6A0C40)
+#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_PLAYFREESTYLE_OFFSET UNITYSDK_OFFSET(0xB6A12E0)
+#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW__CREATEENTITY_OFFSET UNITYSDK_OFFSET(0xB6A1060)
+#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xB6A14C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelVSMasterView_TypeDefinitionIndex = 63307;
+	inline static constexpr unsigned int ChimeraDuelVSMasterView_TypeDefinitionIndex = 64224;
 
 	class ChimeraDuelVSMasterView : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,19 +26,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELVSMASTERVIEW__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Load(::System::UInt32 masterID)
+		::System::Void Load(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELVSMASTERVIEW_LOAD_OFFSET))(this, masterID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELVSMASTERVIEW_LOAD_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::GameEntity* _CreateEntity(::RPG::Client::ChimeraDuelMasterData* master, ::UnityEngine::Transform* bodyAnchorRef)
+		::RPG::GameCore::GameEntity* _CreateEntity(::RPG::Client::ChimeraDuelMasterData* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::ChimeraDuelMasterData*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELVSMASTERVIEW__CREATEENTITY_OFFSET))(this, master, bodyAnchorRef);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::ChimeraDuelMasterData*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELVSMASTERVIEW__CREATEENTITY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PlayFreeStyle(::System::UInt32 motionID)
+		::System::Void PlayFreeStyle(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELVSMASTERVIEW_PLAYFREESTYLE_OFFSET))(this, motionID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELVSMASTERVIEW_PLAYFREESTYLE_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

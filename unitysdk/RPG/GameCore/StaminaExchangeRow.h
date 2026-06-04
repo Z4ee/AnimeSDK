@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAMINAEXCHANGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E95730)
-#define RPG_GAMECORE_STAMINAEXCHANGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E95CE0)
+#define RPG_GAMECORE_STAMINAEXCHANGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CB2C60)
+#define RPG_GAMECORE_STAMINAEXCHANGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB3230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StaminaExchangeRow_TypeDefinitionIndex = 13704;
+	inline static constexpr unsigned int StaminaExchangeRow_TypeDefinitionIndex = 13773;
 
 	class StaminaExchangeRow : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAMINAEXCHANGEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::StaminaExchangeRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StaminaExchangeRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StaminaExchangeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAMINAEXCHANGEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StaminaExchangeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAMINAEXCHANGEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

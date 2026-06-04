@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarPromotionBaseData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B2D810)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARDATA___C__DISPLAYCLASS2_0__GETPROMOTIONBYUNLOCKSTAR_B__0_OFFSET UNITYSDK_OFFSET(0x9B2DAC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB113370)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARDATA___C__DISPLAYCLASS2_0__GETPROMOTIONBYUNLOCKSTAR_B__0_OFFSET UNITYSDK_OFFSET(0xB113610)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveAvatarData___c__DisplayClass2_0_TypeDefinitionIndex = 69132;
+	inline static constexpr unsigned int IdleLiveAvatarData___c__DisplayClass2_0_TypeDefinitionIndex = 69944;
 
 	class IdleLiveAvatarData___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetPromotionByUnlockStar_b__0(::RPG::Client::ActivityIdleLive::IdleLiveAvatarPromotionBaseData* x)
+		::System::Boolean _GetPromotionByUnlockStar_b__0(::RPG::Client::ActivityIdleLive::IdleLiveAvatarPromotionBaseData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarPromotionBaseData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARDATA___C__DISPLAYCLASS2_0__GETPROMOTIONBYUNLOCKSTAR_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarPromotionBaseData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARDATA___C__DISPLAYCLASS2_0__GETPROMOTIONBYUNLOCKSTAR_B__0_OFFSET))(this, a1);
 		}
 	};
 }

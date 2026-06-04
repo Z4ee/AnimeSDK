@@ -8,24 +8,24 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class Lexer; }
 namespace System::Net::Http::Headers { template <typename T> class ElementTryParser_1; }
 
-#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSESTRINGELEMENT_OFFSET UNITYSDK_OFFSET(0x19F5D960)
-#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x19F5D8E0)
+#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSESTRINGELEMENT_OFFSET UNITYSDK_OFFSET(0x1ADD2A70)
+#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1ADD29D0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int CollectionParser_TypeDefinitionIndex = 4801;
+	inline static constexpr unsigned int CollectionParser_TypeDefinitionIndex = 3768;
 
 	class CollectionParser : public ::System::Object
 	{
 	public:
-		static ::System::Boolean TryParse(::System::String* input, ::System::Int32 minimalCount, ::System::Collections::Generic::List_1<::System::String*>*& result)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::System::String*>*& a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Collections::Generic::List_1<::System::String*>*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSE_OFFSET))(input, minimalCount, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Collections::Generic::List_1<::System::String*>*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryParseStringElement(::System::Net::Http::Headers::Lexer* lexer, ::System::String*& parsedValue, ::System::Net::Http::Headers::Token& t)
+		static ::System::Boolean TryParseStringElement(::System::Net::Http::Headers::Lexer* a1, ::System::String*& a2, ::System::Net::Http::Headers::Token& a3)
 		{
-			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::String*&, ::System::Net::Http::Headers::Token&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSESTRINGELEMENT_OFFSET))(lexer, parsedValue, t);
+			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::String*&, ::System::Net::Http::Headers::Token&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSESTRINGELEMENT_OFFSET))(a1, a2, a3);
 		}
 	};
 }

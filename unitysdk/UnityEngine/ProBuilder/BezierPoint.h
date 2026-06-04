@@ -8,18 +8,18 @@
 
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define UNITYENGINE_PROBUILDER_BEZIERPOINT_CUBICPOSITION_OFFSET UNITYSDK_OFFSET(0x1A1F5BE0)
-#define UNITYENGINE_PROBUILDER_BEZIERPOINT_ENFORCETANGENTMODE_OFFSET UNITYSDK_OFFSET(0x22DA040)
-#define UNITYENGINE_PROBUILDER_BEZIERPOINT_GETLOOKDIRECTION_OFFSET UNITYSDK_OFFSET(0x1A1F5CB0)
-#define UNITYENGINE_PROBUILDER_BEZIERPOINT_QUADRATICPOSITION_OFFSET UNITYSDK_OFFSET(0x1A1F5B60)
-#define UNITYENGINE_PROBUILDER_BEZIERPOINT_SETPOSITION_OFFSET UNITYSDK_OFFSET(0x22DA050)
-#define UNITYENGINE_PROBUILDER_BEZIERPOINT_SETTANGENTIN_OFFSET UNITYSDK_OFFSET(0x22DA0A0)
-#define UNITYENGINE_PROBUILDER_BEZIERPOINT_SETTANGENTOUT_OFFSET UNITYSDK_OFFSET(0x22DA0C0)
-#define UNITYENGINE_PROBUILDER_BEZIERPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x22D9FD0)
+#define UNITYENGINE_PROBUILDER_BEZIERPOINT_CUBICPOSITION_OFFSET UNITYSDK_OFFSET(0x1B05A5B0)
+#define UNITYENGINE_PROBUILDER_BEZIERPOINT_ENFORCETANGENTMODE_OFFSET UNITYSDK_OFFSET(0x3875AE0)
+#define UNITYENGINE_PROBUILDER_BEZIERPOINT_GETLOOKDIRECTION_OFFSET UNITYSDK_OFFSET(0x1B05A680)
+#define UNITYENGINE_PROBUILDER_BEZIERPOINT_QUADRATICPOSITION_OFFSET UNITYSDK_OFFSET(0x1B05A530)
+#define UNITYENGINE_PROBUILDER_BEZIERPOINT_SETPOSITION_OFFSET UNITYSDK_OFFSET(0x3875AF0)
+#define UNITYENGINE_PROBUILDER_BEZIERPOINT_SETTANGENTIN_OFFSET UNITYSDK_OFFSET(0x3875B40)
+#define UNITYENGINE_PROBUILDER_BEZIERPOINT_SETTANGENTOUT_OFFSET UNITYSDK_OFFSET(0x3875B60)
+#define UNITYENGINE_PROBUILDER_BEZIERPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x3875A70)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int BezierPoint_TypeDefinitionIndex = 39892;
+	inline static constexpr unsigned int BezierPoint_TypeDefinitionIndex = 40719;
 
 	struct alignas(4) BezierPoint
 	{
@@ -28,44 +28,44 @@ namespace UnityEngine::ProBuilder
 		::UnityEngine::Vector3 tangentOut; // 0x28
 		::UnityEngine::Quaternion rotation; // 0x34
 
-		::System::Void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 tangentIn, ::UnityEngine::Vector3 tangentOut, ::UnityEngine::Quaternion rotation)
+		::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT__CTOR_OFFSET))(this, position, tangentIn, tangentOut, rotation);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EnforceTangentMode(::UnityEngine::ProBuilder::BezierTangentDirection master, ::UnityEngine::ProBuilder::BezierTangentMode mode)
+		::System::Void EnforceTangentMode(::UnityEngine::ProBuilder::BezierTangentDirection a1, ::UnityEngine::ProBuilder::BezierTangentMode a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::BezierTangentDirection, ::UnityEngine::ProBuilder::BezierTangentMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_ENFORCETANGENTMODE_OFFSET))(this, master, mode);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::BezierTangentDirection, ::UnityEngine::ProBuilder::BezierTangentMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_ENFORCETANGENTMODE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetPosition(::UnityEngine::Vector3 position)
+		::System::Void SetPosition(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_SETPOSITION_OFFSET))(this, position);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_SETPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTangentIn(::UnityEngine::Vector3 tangent, ::UnityEngine::ProBuilder::BezierTangentMode mode)
+		::System::Void SetTangentIn(::UnityEngine::Vector3 a1, ::UnityEngine::ProBuilder::BezierTangentMode a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::ProBuilder::BezierTangentMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_SETTANGENTIN_OFFSET))(this, tangent, mode);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::ProBuilder::BezierTangentMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_SETTANGENTIN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetTangentOut(::UnityEngine::Vector3 tangent, ::UnityEngine::ProBuilder::BezierTangentMode mode)
+		::System::Void SetTangentOut(::UnityEngine::Vector3 a1, ::UnityEngine::ProBuilder::BezierTangentMode a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::ProBuilder::BezierTangentMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_SETTANGENTOUT_OFFSET))(this, tangent, mode);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::ProBuilder::BezierTangentMode))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_SETTANGENTOUT_OFFSET))(this, a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 QuadraticPosition(::UnityEngine::ProBuilder::BezierPoint a, ::UnityEngine::ProBuilder::BezierPoint b, ::System::Single t)
+		static ::UnityEngine::Vector3 QuadraticPosition(::UnityEngine::ProBuilder::BezierPoint a1, ::UnityEngine::ProBuilder::BezierPoint a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::BezierPoint, ::UnityEngine::ProBuilder::BezierPoint, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_QUADRATICPOSITION_OFFSET))(a, b, t);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::BezierPoint, ::UnityEngine::ProBuilder::BezierPoint, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_QUADRATICPOSITION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Vector3 CubicPosition(::UnityEngine::ProBuilder::BezierPoint a, ::UnityEngine::ProBuilder::BezierPoint b, ::System::Single t)
+		static ::UnityEngine::Vector3 CubicPosition(::UnityEngine::ProBuilder::BezierPoint a1, ::UnityEngine::ProBuilder::BezierPoint a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::BezierPoint, ::UnityEngine::ProBuilder::BezierPoint, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_CUBICPOSITION_OFFSET))(a, b, t);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::BezierPoint, ::UnityEngine::ProBuilder::BezierPoint, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_CUBICPOSITION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Vector3 GetLookDirection(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, ::System::Int32 index, ::System::Int32 previous, ::System::Int32 next)
+		static ::UnityEngine::Vector3 GetLookDirection(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::UnityEngine::Vector3(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_GETLOOKDIRECTION_OFFSET))(points, index, previous, next);
+			return ((::UnityEngine::Vector3(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERPOINT_GETLOOKDIRECTION_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

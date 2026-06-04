@@ -7,20 +7,20 @@
 
 namespace MiHoYo::SDK { class JSONObject; }
 
-#define MIHOYO_SDK_SDKGENERALREPORT_REPORT_OFFSET UNITYSDK_OFFSET(0x8DB0100)
-#define MIHOYO_SDK_SDKGENERALREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DB0380)
-#define MIHOYO_SDK_SDKGENERALREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x8DB0370)
+#define MIHOYO_SDK_SDKGENERALREPORT_REPORT_OFFSET UNITYSDK_OFFSET(0xA1FEF00)
+#define MIHOYO_SDK_SDKGENERALREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0xA1FF180)
+#define MIHOYO_SDK_SDKGENERALREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0xA1FF170)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SdkGeneralReport_TypeDefinitionIndex = 43096;
+	inline static constexpr unsigned int SdkGeneralReport_TypeDefinitionIndex = 43899;
 
 	class SdkGeneralReport : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::SdkGeneralReport** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::SdkGeneralReport**)Il2CppClass::FromTypeDefinitionIndex(SdkGeneralReport_TypeDefinitionIndex)->GetStaticField(0x52CF0);
+			return (::MiHoYo::SDK::SdkGeneralReport**)Il2CppClass::FromTypeDefinitionIndex(SdkGeneralReport_TypeDefinitionIndex)->GetStaticField(0x132F0);
 		}
 
 		::System::Void _ctor()
@@ -33,9 +33,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKGENERALREPORT__CCTOR_OFFSET))();
 		}
 
-		::System::Void Report(::MiHoYo::SDK::ReportEnumDefine_ActionIdType actionType, ::MiHoYo::SDK::ReportEnumDefine_ReportType type, ::MiHoYo::SDK::ReportEnumDefine_ReportStage stage, ::MiHoYo::SDK::JSONObject* cBody)
+		::System::Void Report(::MiHoYo::SDK::ReportEnumDefine_ActionIdType a1, ::MiHoYo::SDK::ReportEnumDefine_ReportType a2, ::MiHoYo::SDK::ReportEnumDefine_ReportStage a3, ::MiHoYo::SDK::JSONObject* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReportEnumDefine_ActionIdType, ::MiHoYo::SDK::ReportEnumDefine_ReportType, ::MiHoYo::SDK::ReportEnumDefine_ReportStage, ::MiHoYo::SDK::JSONObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKGENERALREPORT_REPORT_OFFSET))(this, actionType, type, stage, cBody);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReportEnumDefine_ActionIdType, ::MiHoYo::SDK::ReportEnumDefine_ReportType, ::MiHoYo::SDK::ReportEnumDefine_ReportStage, ::MiHoYo::SDK::JSONObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKGENERALREPORT_REPORT_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_MODIFYADDMODIFIERBINDVALUE_METHOD_3_06CD0F273186D37A_OFFSET UNITYSDK_OFFSET(0x18B36810)
-#define RPG_GAMECORE_MODIFYADDMODIFIERBINDVALUE_METHOD_3_5DBB022CEBFBEF6E_OFFSET UNITYSDK_OFFSET(0x18B36890)
-#define RPG_GAMECORE_MODIFYADDMODIFIERBINDVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B36860)
+#define RPG_GAMECORE_MODIFYADDMODIFIERBINDVALUE_METHOD_3_D7ED0653D64B3B10_OFFSET UNITYSDK_OFFSET(0x1994E8B0)
+#define RPG_GAMECORE_MODIFYADDMODIFIERBINDVALUE_METHOD_3_F839DFA5761249D4_OFFSET UNITYSDK_OFFSET(0x1994E930)
+#define RPG_GAMECORE_MODIFYADDMODIFIERBINDVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1994E900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyAddModifierBindValue_TypeDefinitionIndex = 22700;
+	inline static constexpr unsigned int ModifyAddModifierBindValue_TypeDefinitionIndex = 22413;
 
 	class ModifyAddModifierBindValue : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADDMODIFIERBINDVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_06CD0F273186D37A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAddModifierBindValue*& a2)
+		static ::System::Void Method_3_D7ED0653D64B3B10(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAddModifierBindValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAddModifierBindValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADDMODIFIERBINDVALUE_METHOD_3_06CD0F273186D37A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAddModifierBindValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADDMODIFIERBINDVALUE_METHOD_3_D7ED0653D64B3B10_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5DBB022CEBFBEF6E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAddModifierBindValue* a2)
+		static ::System::Void Method_3_F839DFA5761249D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAddModifierBindValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAddModifierBindValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADDMODIFIERBINDVALUE_METHOD_3_5DBB022CEBFBEF6E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAddModifierBindValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADDMODIFIERBINDVALUE_METHOD_3_F839DFA5761249D4_OFFSET))(a1, a2);
 		}
 	};
 }

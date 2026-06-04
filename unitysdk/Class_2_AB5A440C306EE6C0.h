@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class AdventureMonsterTriggerMoveToTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_AB5A440C306EE6C0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11E71B10)
-#define CLASS_2_AB5A440C306EE6C0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11E71B50)
-#define CLASS_2_AB5A440C306EE6C0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11E71E50)
-#define CLASS_2_AB5A440C306EE6C0_TICK_OFFSET UNITYSDK_OFFSET(0x11E71EE0)
-#define CLASS_2_AB5A440C306EE6C0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E71B00)
+#define CLASS_2_AB5A440C306EE6C0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13518B90)
+#define CLASS_2_AB5A440C306EE6C0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13518BD0)
+#define CLASS_2_AB5A440C306EE6C0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13518F00)
+#define CLASS_2_AB5A440C306EE6C0_TICK_OFFSET UNITYSDK_OFFSET(0x13518F90)
+#define CLASS_2_AB5A440C306EE6C0__CTOR_OFFSET UNITYSDK_OFFSET(0x13518B80)
 
-inline static constexpr unsigned int Class_2_AB5A440C306EE6C0_TypeDefinitionIndex = 53400;
+inline static constexpr unsigned int Class_2_AB5A440C306EE6C0_TypeDefinitionIndex = 54113;
 
 class Class_2_AB5A440C306EE6C0 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::AdventureMonsterTriggerMoveToTarget* Field_2_0; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::AdventureMonsterTriggerMoveToTarget* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdventureMonsterTriggerMoveToTarget* a2)
 	{

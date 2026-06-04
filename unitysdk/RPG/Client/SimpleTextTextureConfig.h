@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_SIMPLETEXTTEXTURECONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0xB186F80)
-#define RPG_CLIENT_SIMPLETEXTTEXTURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB186FF0)
+#define RPG_CLIENT_SIMPLETEXTTEXTURECONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0xC8DB4E0)
+#define RPG_CLIENT_SIMPLETEXTTEXTURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC8DB550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpleTextTextureConfig_TypeDefinitionIndex = 66943;
+	inline static constexpr unsigned int SimpleTextTextureConfig_TypeDefinitionIndex = 67885;
 
 	class SimpleTextTextureConfig : public ::UnityEngine::MonoBehaviour
 	{

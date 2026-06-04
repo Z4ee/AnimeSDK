@@ -12,30 +12,30 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHENLINGBATTLESTATIC_CLOSESOLDIERCOLLIDER_OFFSET UNITYSDK_OFFSET(0x9FC20A0)
-#define RPG_CLIENT_CHENLINGBATTLESTATIC_ENTERGAMEFLOW_OFFSET UNITYSDK_OFFSET(0x9FC2000)
-#define RPG_CLIENT_CHENLINGBATTLESTATIC_STARTCHENLINGGAME_OFFSET UNITYSDK_OFFSET(0x9FC1ED0)
+#define RPG_CLIENT_CHENLINGBATTLESTATIC_CLOSESOLDIERCOLLIDER_OFFSET UNITYSDK_OFFSET(0xB5DCCB0)
+#define RPG_CLIENT_CHENLINGBATTLESTATIC_ENTERGAMEFLOW_OFFSET UNITYSDK_OFFSET(0xB5DCC10)
+#define RPG_CLIENT_CHENLINGBATTLESTATIC_STARTCHENLINGGAME_OFFSET UNITYSDK_OFFSET(0xB5DCAE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleStatic_TypeDefinitionIndex = 56646;
+	inline static constexpr unsigned int ChenLingBattleStatic_TypeDefinitionIndex = 57423;
 
 	class ChenLingBattleStatic : public ::System::Object
 	{
 	public:
-		static ::System::Void StartChenLingGame(::UnityEngine::Transform* battleFieldTransform, ::RPG::Client::ChenLingBattle::ChenLingBattleGameSession* gameSession, ::RPG::Client::ChenLingBattle::ChenLingBattleGameFlow* ChenLingBattleGameFlow)
+		static ::System::Void StartChenLingGame(::UnityEngine::Transform* a1, ::RPG::Client::ChenLingBattle::ChenLingBattleGameSession* a2, ::RPG::Client::ChenLingBattle::ChenLingBattleGameFlow* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*, ::RPG::Client::ChenLingBattle::ChenLingBattleGameSession*, ::RPG::Client::ChenLingBattle::ChenLingBattleGameFlow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTATIC_STARTCHENLINGGAME_OFFSET))(battleFieldTransform, gameSession, ChenLingBattleGameFlow);
+			return ((::System::Void(*)(::UnityEngine::Transform*, ::RPG::Client::ChenLingBattle::ChenLingBattleGameSession*, ::RPG::Client::ChenLingBattle::ChenLingBattleGameFlow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTATIC_STARTCHENLINGGAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseGameFlow*>* EnterGameFlow(::RPG::GameCore::GameFlowType type, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* parameters, ::System::Boolean isForce)
+		static ::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseGameFlow*>* EnterGameFlow(::RPG::GameCore::GameFlowType a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseGameFlow*>*(*)(::RPG::GameCore::GameFlowType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTATIC_ENTERGAMEFLOW_OFFSET))(type, parameters, isForce);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseGameFlow*>*(*)(::RPG::GameCore::GameFlowType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTATIC_ENTERGAMEFLOW_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void CloseSoldierCollider(::UnityEngine::GameObject* gameObject)
+		static ::System::Void CloseSoldierCollider(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTATIC_CLOSESOLDIERCOLLIDER_OFFSET))(gameObject);
+			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTATIC_CLOSESOLDIERCOLLIDER_OFFSET))(a1);
 		}
 	};
 }

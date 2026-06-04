@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_MINIMALCRPVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A45FC80)
+#define UNITYENGINE_MINIMALCRPVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2AFF60)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MinimalCrpVersionAttribute_TypeDefinitionIndex = 4122;
+	inline static constexpr unsigned int MinimalCrpVersionAttribute_TypeDefinitionIndex = 4296;
 
 	class MinimalCrpVersionAttribute : public ::System::Attribute
 	{
@@ -16,9 +16,9 @@ namespace UnityEngine
 		::System::String* _Desc_k__BackingField; // 0x10
 		::System::Int32 _Version_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::Int32 crpversion, ::System::String* desc)
+		::System::Void _ctor(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MINIMALCRPVERSIONATTRIBUTE__CTOR_OFFSET))(this, crpversion, desc);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MINIMALCRPVERSIONATTRIBUTE__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

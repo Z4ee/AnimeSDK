@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrainPartyActionConfigBase; }
 
-#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG_METHOD_2_4968D65E0325ED76_OFFSET UNITYSDK_OFFSET(0x190A8640)
-#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190A8740)
+#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG_METHOD_2_EBAC6B1F104745EB_OFFSET UNITYSDK_OFFSET(0x19DF3210)
+#define RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19DF3300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCardEffectConfig_TypeDefinitionIndex = 17185;
+	inline static constexpr unsigned int TrainPartyCardEffectConfig_TypeDefinitionIndex = 17193;
 
 	class TrainPartyCardEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4968D65E0325ED76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCardEffectConfig*& a2)
+		static ::System::Void Method_2_EBAC6B1F104745EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCardEffectConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCardEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG_METHOD_2_4968D65E0325ED76_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCardEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCARDEFFECTCONFIG_METHOD_2_EBAC6B1F104745EB_OFFSET))(a1, a2);
 		}
 	};
 }

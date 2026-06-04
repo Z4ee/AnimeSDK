@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190B4E30)
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190B5080)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19DFFC60)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19DFFEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureDiaryGroupRow_TypeDefinitionIndex = 14581;
+	inline static constexpr unsigned int TravelBrochureDiaryGroupRow_TypeDefinitionIndex = 14607;
 
 	class TravelBrochureDiaryGroupRow : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TravelBrochureDiaryGroupRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelBrochureDiaryGroupRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelBrochureDiaryGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelBrochureDiaryGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

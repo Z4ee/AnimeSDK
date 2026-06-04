@@ -7,26 +7,26 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8BE8160)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8BE8120)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8BE8140)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8BE8100)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8BE8560)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8BE8130)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8BE8150)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8BE8180)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8BE8110)
-#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8BE8670)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA0F9350)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA0F9310)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA0F9330)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA0F92F0)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA0F9750)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA0F9320)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA0F9340)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA0F9370)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA0F9300)
+#define EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA0F9870)
 
 namespace Epic::OnlineServices::TitleStorage
 {
-	inline static constexpr unsigned int DeleteCacheCallbackInfo_TypeDefinitionIndex = 41164;
+	inline static constexpr unsigned int DeleteCacheCallbackInfo_TypeDefinitionIndex = 41967;
 
 	class DeleteCacheCallbackInfo : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
-		::System::Object* _ClientData_k__BackingField; // 0x18
+		::System::Object* _ClientData_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
 		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x20
 
 		::System::Void _ctor()
@@ -39,9 +39,9 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -49,9 +49,9 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -59,9 +59,9 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -69,14 +69,14 @@ namespace Epic::OnlineServices::TitleStorage
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::TitleStorage::DeleteCacheCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::TitleStorage::DeleteCacheCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::TitleStorage::DeleteCacheCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::TitleStorage::DeleteCacheCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_TITLESTORAGE_DELETECACHECALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

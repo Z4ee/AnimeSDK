@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IGraph_2_TypeDefinitionIndex = 68789;
+	inline static constexpr unsigned int IGraph_2_TypeDefinitionIndex = 69601;
 
 	template <typename TVertex, typename TEdge>
 	class IGraph_2

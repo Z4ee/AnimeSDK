@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelDimensionFilter; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELGROUPINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18A44AF0)
-#define RPG_GAMECORE_LEVELGROUPINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A44A80)
-#define RPG_GAMECORE_LEVELGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A44AD0)
+#define RPG_GAMECORE_LEVELGROUPINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19876CF0)
+#define RPG_GAMECORE_LEVELGROUPINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19876C80)
+#define RPG_GAMECORE_LEVELGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19876CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupInfo_TypeDefinitionIndex = 16458;
+	inline static constexpr unsigned int LevelGroupInfo_TypeDefinitionIndex = 16491;
 
 	class LevelGroupInfo : public ::RPG::GameCore::RtLevelGroupInfoBase
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelGroupInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelGroupInfo* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPINFO_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

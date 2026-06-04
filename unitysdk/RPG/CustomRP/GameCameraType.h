@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int GameCameraType_TypeDefinitionIndex = 34960;
+	inline static constexpr unsigned int GameCameraType_TypeDefinitionIndex = 35245;
 
 	enum class GameCameraType : ::System::Int32
 	{

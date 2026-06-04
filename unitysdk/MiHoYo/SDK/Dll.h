@@ -5,29 +5,29 @@
 namespace MiHoYo::SDK { class Dll_OnDestroyDelegate; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_DLL_ADD_DLLDESTROYHANDLER_OFFSET UNITYSDK_OFFSET(0x17521BE0)
-#define MIHOYO_SDK_DLL_ADD_ONESC_OFFSET UNITYSDK_OFFSET(0x17521B20)
-#define MIHOYO_SDK_DLL_ADD_ONRETURN_OFFSET UNITYSDK_OFFSET(0x17521A60)
-#define MIHOYO_SDK_DLL_ADD_ONTAB_OFFSET UNITYSDK_OFFSET(0x175219A0)
-#define MIHOYO_SDK_DLL_INSTANCE_OFFSET UNITYSDK_OFFSET(0x174F0F30)
-#define MIHOYO_SDK_DLL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17522100)
-#define MIHOYO_SDK_DLL_REMOVE_DLLDESTROYHANDLER_OFFSET UNITYSDK_OFFSET(0x17521C40)
-#define MIHOYO_SDK_DLL_REMOVE_ONESC_OFFSET UNITYSDK_OFFSET(0x17521B80)
-#define MIHOYO_SDK_DLL_REMOVE_ONRETURN_OFFSET UNITYSDK_OFFSET(0x17521AC0)
-#define MIHOYO_SDK_DLL_REMOVE_ONTAB_OFFSET UNITYSDK_OFFSET(0x17521A00)
-#define MIHOYO_SDK_DLL_UPDATE_OFFSET UNITYSDK_OFFSET(0x17521CA0)
-#define MIHOYO_SDK_DLL__CTOR_OFFSET UNITYSDK_OFFSET(0x17522110)
+#define MIHOYO_SDK_DLL_ADD_DLLDESTROYHANDLER_OFFSET UNITYSDK_OFFSET(0x1830CF90)
+#define MIHOYO_SDK_DLL_ADD_ONESC_OFFSET UNITYSDK_OFFSET(0x1830CED0)
+#define MIHOYO_SDK_DLL_ADD_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1830CE10)
+#define MIHOYO_SDK_DLL_ADD_ONTAB_OFFSET UNITYSDK_OFFSET(0x1830CD50)
+#define MIHOYO_SDK_DLL_INSTANCE_OFFSET UNITYSDK_OFFSET(0x182EE0F0)
+#define MIHOYO_SDK_DLL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1830D4D0)
+#define MIHOYO_SDK_DLL_REMOVE_DLLDESTROYHANDLER_OFFSET UNITYSDK_OFFSET(0x1830CFF0)
+#define MIHOYO_SDK_DLL_REMOVE_ONESC_OFFSET UNITYSDK_OFFSET(0x1830CF30)
+#define MIHOYO_SDK_DLL_REMOVE_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1830CE70)
+#define MIHOYO_SDK_DLL_REMOVE_ONTAB_OFFSET UNITYSDK_OFFSET(0x1830CDB0)
+#define MIHOYO_SDK_DLL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1830D050)
+#define MIHOYO_SDK_DLL__CTOR_OFFSET UNITYSDK_OFFSET(0x1830D4E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Dll_TypeDefinitionIndex = 6985;
+	inline static constexpr unsigned int Dll_TypeDefinitionIndex = 7888;
 
 	class Dll : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::MiHoYo::SDK::Dll** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::Dll**)Il2CppClass::FromTypeDefinitionIndex(Dll_TypeDefinitionIndex)->GetStaticField(0x17C70);
+			return (::MiHoYo::SDK::Dll**)Il2CppClass::FromTypeDefinitionIndex(Dll_TypeDefinitionIndex)->GetStaticField(0x132E0);
 		}
 		::System::Action* OnTab; // 0x18
 		::System::Action* OnReturn; // 0x20
@@ -40,34 +40,34 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL__CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_OnTab(::System::Action* value)
+		::System::Void add_OnTab(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_ADD_ONTAB_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_ADD_ONTAB_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnTab(::System::Action* value)
+		::System::Void remove_OnTab(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_REMOVE_ONTAB_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_REMOVE_ONTAB_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnReturn(::System::Action* value)
+		::System::Void add_OnReturn(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_ADD_ONRETURN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_ADD_ONRETURN_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnReturn(::System::Action* value)
+		::System::Void remove_OnReturn(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_REMOVE_ONRETURN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_REMOVE_ONRETURN_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnEsc(::System::Action* value)
+		::System::Void add_OnEsc(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_ADD_ONESC_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_ADD_ONESC_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnEsc(::System::Action* value)
+		::System::Void remove_OnEsc(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_REMOVE_ONESC_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_REMOVE_ONESC_OFFSET))(this, a1);
 		}
 
 		static ::MiHoYo::SDK::Dll* Instance()
@@ -75,14 +75,14 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::Dll*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_INSTANCE_OFFSET))();
 		}
 
-		::System::Void add_DLLDestroyHandler(::MiHoYo::SDK::Dll_OnDestroyDelegate* value)
+		::System::Void add_DLLDestroyHandler(::MiHoYo::SDK::Dll_OnDestroyDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Dll_OnDestroyDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_ADD_DLLDESTROYHANDLER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Dll_OnDestroyDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_ADD_DLLDESTROYHANDLER_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_DLLDestroyHandler(::MiHoYo::SDK::Dll_OnDestroyDelegate* value)
+		::System::Void remove_DLLDestroyHandler(::MiHoYo::SDK::Dll_OnDestroyDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Dll_OnDestroyDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_REMOVE_DLLDESTROYHANDLER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Dll_OnDestroyDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DLL_REMOVE_DLLDESTROYHANDLER_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()

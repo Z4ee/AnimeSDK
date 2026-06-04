@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvPauseMovementFloatingAndRotationReason_TypeDefinitionIndex = 52584;
+	inline static constexpr unsigned int AdvPauseMovementFloatingAndRotationReason_TypeDefinitionIndex = 53284;
 
 	enum class AdvPauseMovementFloatingAndRotationReason : ::System::Int32
 	{

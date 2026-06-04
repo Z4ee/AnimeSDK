@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FormationZOffsetList; }
 
-#define RPG_GAMECORE_LIGHTTEAMFIGHTFORMATIONPARAMS_METHOD_2_55837DDA0AC506F9_OFFSET UNITYSDK_OFFSET(0x18A5B470)
-#define RPG_GAMECORE_LIGHTTEAMFIGHTFORMATIONPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x18A5B8B0)
+#define RPG_GAMECORE_LIGHTTEAMFIGHTFORMATIONPARAMS_METHOD_2_CE7057E32D75805A_OFFSET UNITYSDK_OFFSET(0x1988C460)
+#define RPG_GAMECORE_LIGHTTEAMFIGHTFORMATIONPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1988C8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LightTeamFightFormationParams_TypeDefinitionIndex = 15694;
+	inline static constexpr unsigned int LightTeamFightFormationParams_TypeDefinitionIndex = 15751;
 
 	class LightTeamFightFormationParams : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LIGHTTEAMFIGHTFORMATIONPARAMS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_55837DDA0AC506F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LightTeamFightFormationParams*& a2)
+		static ::System::Void Method_2_CE7057E32D75805A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LightTeamFightFormationParams*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LightTeamFightFormationParams*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LIGHTTEAMFIGHTFORMATIONPARAMS_METHOD_2_55837DDA0AC506F9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LightTeamFightFormationParams*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LIGHTTEAMFIGHTFORMATIONPARAMS_METHOD_2_CE7057E32D75805A_OFFSET))(a1, a2);
 		}
 	};
 }

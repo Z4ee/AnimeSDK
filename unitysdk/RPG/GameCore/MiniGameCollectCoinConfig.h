@@ -8,12 +8,12 @@ namespace RPG::GameCore { class FiveDimMiniGameCollectCoinWave; }
 namespace RPG::GameCore { class MiniGameCollectCoin_CurveConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MINIGAMECOLLECTCOINCONFIG_METHOD_2_FC9F6A315246F304_OFFSET UNITYSDK_OFFSET(0x18B28560)
-#define RPG_GAMECORE_MINIGAMECOLLECTCOINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B28BF0)
+#define RPG_GAMECORE_MINIGAMECOLLECTCOINCONFIG_METHOD_2_0AB4E1863F0C51FB_OFFSET UNITYSDK_OFFSET(0x1993F600)
+#define RPG_GAMECORE_MINIGAMECOLLECTCOINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1993FC70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniGameCollectCoinConfig_TypeDefinitionIndex = 17860;
+	inline static constexpr unsigned int MiniGameCollectCoinConfig_TypeDefinitionIndex = 17889;
 
 	class MiniGameCollectCoinConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -44,9 +44,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMECOLLECTCOINCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FC9F6A315246F304(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiniGameCollectCoinConfig*& a2)
+		static ::System::Void Method_2_0AB4E1863F0C51FB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiniGameCollectCoinConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiniGameCollectCoinConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMECOLLECTCOINCONFIG_METHOD_2_FC9F6A315246F304_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiniGameCollectCoinConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMECOLLECTCOINCONFIG_METHOD_2_0AB4E1863F0C51FB_OFFSET))(a1, a2);
 		}
 	};
 }

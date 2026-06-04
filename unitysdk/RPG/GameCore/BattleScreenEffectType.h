@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleScreenEffectType_TypeDefinitionIndex = 22213;
+	inline static constexpr unsigned int BattleScreenEffectType_TypeDefinitionIndex = 23371;
 
 	enum class BattleScreenEffectType : ::System::Int32
 	{

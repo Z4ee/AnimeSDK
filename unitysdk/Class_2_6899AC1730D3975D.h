@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_B55037134F9E6688.h"
 
-class Class_2_843468DEB2C89684;
+class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_ModifyOwedRollCount; }
 
-#define CLASS_2_6899AC1730D3975D_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x17D49260)
-#define CLASS_2_6899AC1730D3975D__CTOR_OFFSET UNITYSDK_OFFSET(0x17D49250)
+#define CLASS_2_6899AC1730D3975D_METHOD_2_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x18B32190)
+#define CLASS_2_6899AC1730D3975D__CTOR_OFFSET UNITYSDK_OFFSET(0x18B32180)
 
-inline static constexpr unsigned int Class_2_6899AC1730D3975D_TypeDefinitionIndex = 34116;
+inline static constexpr unsigned int Class_2_6899AC1730D3975D_TypeDefinitionIndex = 34398;
 
 class Class_2_6899AC1730D3975D : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_843468DEB2C89684* Field_2_1; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_ModifyOwedRollCount* Field_2_0; // 0x20
+	::Class_2_48488E8DBD9F6BCE* Field_2_0; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_ModifyOwedRollCount* Field_2_1; // 0x20
 
-	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_ModifyOwedRollCount* a1, ::Class_2_843468DEB2C89684* a2)
+	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_ModifyOwedRollCount* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_ModifyOwedRollCount*, ::Class_2_843468DEB2C89684*))((::PBYTE)hIl2Cpp + CLASS_2_6899AC1730D3975D__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_ModifyOwedRollCount*, ::Class_2_48488E8DBD9F6BCE*))((::PBYTE)hIl2Cpp + CLASS_2_6899AC1730D3975D__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_D0BD1377F2594D33()
+	::System::Void Method_2_151E25A63D14DDB0()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6899AC1730D3975D_METHOD_2_D0BD1377F2594D33_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6899AC1730D3975D_METHOD_2_151E25A63D14DDB0_OFFSET))(this);
 	}
 };

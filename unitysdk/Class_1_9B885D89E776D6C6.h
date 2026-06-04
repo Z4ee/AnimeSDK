@@ -6,11 +6,11 @@ namespace RPG::GameCore { class CSVRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9B885D89E776D6C6_METHOD_1_470C8608A6F7A2BA_OFFSET UNITYSDK_OFFSET(0x1837AEA0)
-#define CLASS_1_9B885D89E776D6C6_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1837AF30)
-#define CLASS_1_9B885D89E776D6C6__CTOR_OFFSET UNITYSDK_OFFSET(0x1837AE40)
+#define CLASS_1_9B885D89E776D6C6_METHOD_1_FC513BFB4DDB9C61_OFFSET UNITYSDK_OFFSET(0x19349320)
+#define CLASS_1_9B885D89E776D6C6_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19349400)
+#define CLASS_1_9B885D89E776D6C6__CTOR_OFFSET UNITYSDK_OFFSET(0x193492C0)
 
-inline static constexpr unsigned int Class_1_9B885D89E776D6C6_TypeDefinitionIndex = 23540;
+inline static constexpr unsigned int Class_1_9B885D89E776D6C6_TypeDefinitionIndex = 10415;
 
 class Class_1_9B885D89E776D6C6 : public ::System::Object
 {
@@ -23,9 +23,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + CLASS_1_9B885D89E776D6C6__CTOR_OFFSET))(this, a1);
 	}
 
-	::RPG::GameCore::CSVRow* Method_1_470C8608A6F7A2BA()
+	::RPG::GameCore::CSVRow* Method_1_FC513BFB4DDB9C61()
 	{
-		return ((::RPG::GameCore::CSVRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9B885D89E776D6C6_METHOD_1_470C8608A6F7A2BA_OFFSET))(this);
+		return ((::RPG::GameCore::CSVRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9B885D89E776D6C6_METHOD_1_FC513BFB4DDB9C61_OFFSET))(this);
 	}
 
 	::System::String* ToString()

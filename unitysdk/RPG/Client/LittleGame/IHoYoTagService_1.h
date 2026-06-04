@@ -5,7 +5,7 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IHoYoTagService_1_TypeDefinitionIndex = 38665;
+	inline static constexpr unsigned int IHoYoTagService_1_TypeDefinitionIndex = 39433;
 
 	template <typename TEntity>
 	class IHoYoTagService_1

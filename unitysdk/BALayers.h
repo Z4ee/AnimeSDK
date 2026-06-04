@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BALayers_TypeDefinitionIndex = 34850;
+inline static constexpr unsigned int BALayers_TypeDefinitionIndex = 35133;
 
 enum class BALayers : ::System::Int32
 {

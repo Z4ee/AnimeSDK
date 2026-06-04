@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IGridFightTraitGetCoreRoleEffect_TypeDefinitionIndex = 60261;
+	inline static constexpr unsigned int IGridFightTraitGetCoreRoleEffect_TypeDefinitionIndex = 61196;
 
 	class IGridFightTraitGetCoreRoleEffect
 	{

@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTCOMBINATIONBONUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189A3DD0)
-#define RPG_GAMECORE_GRIDFIGHTCOMBINATIONBONUSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189A3F70)
+#define RPG_GAMECORE_GRIDFIGHTCOMBINATIONBONUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197DBB20)
+#define RPG_GAMECORE_GRIDFIGHTCOMBINATIONBONUSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x197DBCC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightCombinationBonusConfigRow_TypeDefinitionIndex = 12693;
+	inline static constexpr unsigned int GridFightCombinationBonusConfigRow_TypeDefinitionIndex = 12783;
 
 	class GridFightCombinationBonusConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* CombinationBonusList; // 0x10
-		::Il2CppArray<::System::UInt32>* BonusNumberList; // 0x18
+		::Il2CppArray<::System::UInt32>* BonusNumberList; // 0x10
+		::Il2CppArray<::System::UInt32>* CombinationBonusList; // 0x18
 		::System::UInt32 BonusID; // 0x20
 
 		::System::Void _ctor()
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCOMBINATIONBONUSCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightCombinationBonusConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightCombinationBonusConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightCombinationBonusConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCOMBINATIONBONUSCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightCombinationBonusConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCOMBINATIONBONUSCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

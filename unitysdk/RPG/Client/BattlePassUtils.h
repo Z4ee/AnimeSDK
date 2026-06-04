@@ -4,15 +4,15 @@
 
 namespace RPG::Client { class BattlePassRewardPointData; }
 
-#define RPG_CLIENT_BATTLEPASSUTILS_GETREWARDREDDOTKEY_OFFSET UNITYSDK_OFFSET(0x9E6A990)
-#define RPG_CLIENT_BATTLEPASSUTILS_HASNEWACTIVITYQUEST_OFFSET UNITYSDK_OFFSET(0x9E72090)
-#define RPG_CLIENT_BATTLEPASSUTILS_ISPURCHASESEEN_OFFSET UNITYSDK_OFFSET(0x9E72300)
-#define RPG_CLIENT_BATTLEPASSUTILS_RECORDPURCHASESEEN_OFFSET UNITYSDK_OFFSET(0x9E724B0)
-#define RPG_CLIENT_BATTLEPASSUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x9E725B0)
+#define RPG_CLIENT_BATTLEPASSUTILS_GETREWARDREDDOTKEY_OFFSET UNITYSDK_OFFSET(0xB40C7C0)
+#define RPG_CLIENT_BATTLEPASSUTILS_HASNEWACTIVITYQUEST_OFFSET UNITYSDK_OFFSET(0xB40C820)
+#define RPG_CLIENT_BATTLEPASSUTILS_ISPURCHASESEEN_OFFSET UNITYSDK_OFFSET(0xB40CAA0)
+#define RPG_CLIENT_BATTLEPASSUTILS_RECORDPURCHASESEEN_OFFSET UNITYSDK_OFFSET(0xB40CC50)
+#define RPG_CLIENT_BATTLEPASSUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xB40CD50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattlePassUtils_TypeDefinitionIndex = 57931;
+	inline static constexpr unsigned int BattlePassUtils_TypeDefinitionIndex = 58847;
 
 	class BattlePassUtils : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSUTILS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Int32 GetRewardRedDotKey(::RPG::Client::BattlePassRewardPointData* data)
+		static ::System::Int32 GetRewardRedDotKey(::RPG::Client::BattlePassRewardPointData* a1)
 		{
-			return ((::System::Int32(*)(::RPG::Client::BattlePassRewardPointData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSUTILS_GETREWARDREDDOTKEY_OFFSET))(data);
+			return ((::System::Int32(*)(::RPG::Client::BattlePassRewardPointData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEPASSUTILS_GETREWARDREDDOTKEY_OFFSET))(a1);
 		}
 
 		static ::System::Boolean HasNewActivityQuest()

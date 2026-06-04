@@ -5,16 +5,16 @@
 class Class_1_76EDC4204ABFABB7;
 namespace RPG::Client { class TriggerEffectParams; }
 
-#define CLASS_1_76EDC4204ABFABB7___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98D7F70)
-#define CLASS_1_76EDC4204ABFABB7___C__DISPLAYCLASS34_0___TRYAUTOREMOVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x98D88F0)
+#define CLASS_1_76EDC4204ABFABB7___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x137C2E40)
+#define CLASS_1_76EDC4204ABFABB7___C__DISPLAYCLASS34_0___TRYAUTOREMOVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x137C3770)
 
-inline static constexpr unsigned int Class_1_76EDC4204ABFABB7___c__DisplayClass34_0_TypeDefinitionIndex = 71530;
+inline static constexpr unsigned int Class_1_76EDC4204ABFABB7___c__DisplayClass34_0_TypeDefinitionIndex = 72552;
 
 class Class_1_76EDC4204ABFABB7___c__DisplayClass34_0 : public ::System::Object
 {
 public:
-	::Class_1_76EDC4204ABFABB7* __4__this; // 0x10
-	::RPG::Client::TriggerEffectParams* effectParams; // 0x18
+	::RPG::Client::TriggerEffectParams* effectParams; // 0x10
+	::Class_1_76EDC4204ABFABB7* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

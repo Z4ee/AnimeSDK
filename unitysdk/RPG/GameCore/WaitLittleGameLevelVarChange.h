@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_768EF5E9EBB3E0DB_OFFSET UNITYSDK_OFFSET(0x19100F00)
-#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_C59B48179BB839AD_OFFSET UNITYSDK_OFFSET(0x19100FE0)
-#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19100F80)
+#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_4E3A152F527EE13D_OFFSET UNITYSDK_OFFSET(0x19E598A0)
+#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_E3D262EAF63B58B3_OFFSET UNITYSDK_OFFSET(0x19E59980)
+#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E59920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitLittleGameLevelVarChange_TypeDefinitionIndex = 20316;
+	inline static constexpr unsigned int WaitLittleGameLevelVarChange_TypeDefinitionIndex = 20235;
 
 	class WaitLittleGameLevelVarChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_768EF5E9EBB3E0DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLittleGameLevelVarChange*& a2)
+		static ::System::Void Method_4_4E3A152F527EE13D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLittleGameLevelVarChange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitLittleGameLevelVarChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_768EF5E9EBB3E0DB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitLittleGameLevelVarChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_4E3A152F527EE13D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C59B48179BB839AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLittleGameLevelVarChange* a2)
+		static ::System::Void Method_4_E3D262EAF63B58B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLittleGameLevelVarChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitLittleGameLevelVarChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_C59B48179BB839AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitLittleGameLevelVarChange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_E3D262EAF63B58B3_OFFSET))(a1, a2);
 		}
 	};
 }

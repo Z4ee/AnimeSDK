@@ -4,30 +4,30 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
-#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_GET_PREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x12BAB900)
-#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12BAB370)
-#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_SET_PREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x12BAB910)
-#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x12BAB6F0)
+#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_GET_PREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x14668F20)
+#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x146689A0)
+#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS_SET_PREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x14668F30)
+#define CINEMACHINE_UPDATETRACKER_UPDATESTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x14668D10)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int UpdateTracker_UpdateStatus_TypeDefinitionIndex = 36617;
+	inline static constexpr unsigned int UpdateTracker_UpdateStatus_TypeDefinitionIndex = 36917;
 
 	class UpdateTracker_UpdateStatus : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 kWindowSize = 0x1E; // 0x0
 		::System::Int32 numWindowFixedUpdateMoves; // 0x10
-		::System::Int32 numWindowLateUpdateMoves; // 0x14
-		::Cinemachine::UpdateTracker_UpdateClock _PreferredUpdate_k__BackingField; // 0x18
-		::System::Int32 numWindows; // 0x1C
-		::UnityEngine::Matrix4x4 lastPos; // 0x20
-		::System::Int32 lastFrameUpdated; // 0x60
-		::System::Int32 windowStart; // 0x64
+		::System::Int32 windowStart; // 0x14
+		::System::Int32 numWindowLateUpdateMoves; // 0x18
+		::UnityEngine::Matrix4x4 lastPos; // 0x1C
+		::System::Int32 lastFrameUpdated; // 0x5C
+		::System::Int32 numWindows; // 0x60
+		::Cinemachine::UpdateTracker_UpdateClock _PreferredUpdate_k__BackingField; // 0x64
 
-		::System::Void _ctor(::System::Int32 currentFrame, ::UnityEngine::Matrix4x4 pos)
+		::System::Void _ctor(::System::Int32 a1, ::UnityEngine::Matrix4x4 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_UPDATESTATUS__CTOR_OFFSET))(this, currentFrame, pos);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_UPDATESTATUS__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Cinemachine::UpdateTracker_UpdateClock get_PreferredUpdate()
@@ -35,14 +35,14 @@ namespace Cinemachine
 			return ((::Cinemachine::UpdateTracker_UpdateClock(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_UPDATESTATUS_GET_PREFERREDUPDATE_OFFSET))(this);
 		}
 
-		::System::Void set_PreferredUpdate(::Cinemachine::UpdateTracker_UpdateClock value)
+		::System::Void set_PreferredUpdate(::Cinemachine::UpdateTracker_UpdateClock a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::UpdateTracker_UpdateClock))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_UPDATESTATUS_SET_PREFERREDUPDATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::UpdateTracker_UpdateClock))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_UPDATESTATUS_SET_PREFERREDUPDATE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnUpdate(::System::Int32 currentFrame, ::Cinemachine::UpdateTracker_UpdateClock currentClock, ::UnityEngine::Matrix4x4 pos)
+		::System::Void OnUpdate(::System::Int32 a1, ::Cinemachine::UpdateTracker_UpdateClock a2, ::UnityEngine::Matrix4x4 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Cinemachine::UpdateTracker_UpdateClock, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_UPDATESTATUS_ONUPDATE_OFFSET))(this, currentFrame, currentClock, pos);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Cinemachine::UpdateTracker_UpdateClock, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + CINEMACHINE_UPDATETRACKER_UPDATESTATUS_ONUPDATE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -6,28 +6,28 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_EXPIRESIN_OFFSET UNITYSDK_OFFSET(0x8E26CE0)
-#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_USERCODE_OFFSET UNITYSDK_OFFSET(0x8E26CA0)
-#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_VERIFICATIONURICOMPLETE_OFFSET UNITYSDK_OFFSET(0x8E26D00)
-#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_VERIFICATIONURI_OFFSET UNITYSDK_OFFSET(0x8E26CC0)
-#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8E27320)
-#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_EXPIRESIN_OFFSET UNITYSDK_OFFSET(0x8E26CF0)
-#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_OFFSET UNITYSDK_OFFSET(0x8E26D20)
-#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_USERCODE_OFFSET UNITYSDK_OFFSET(0x8E26CB0)
-#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_VERIFICATIONURICOMPLETE_OFFSET UNITYSDK_OFFSET(0x8E26D10)
-#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_VERIFICATIONURI_OFFSET UNITYSDK_OFFSET(0x8E26CD0)
-#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8E27450)
+#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_EXPIRESIN_OFFSET UNITYSDK_OFFSET(0xA2804D0)
+#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_USERCODE_OFFSET UNITYSDK_OFFSET(0xA280490)
+#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_VERIFICATIONURICOMPLETE_OFFSET UNITYSDK_OFFSET(0xA2804F0)
+#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_VERIFICATIONURI_OFFSET UNITYSDK_OFFSET(0xA2804B0)
+#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA280B10)
+#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_EXPIRESIN_OFFSET UNITYSDK_OFFSET(0xA2804E0)
+#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_OFFSET UNITYSDK_OFFSET(0xA280510)
+#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_USERCODE_OFFSET UNITYSDK_OFFSET(0xA2804A0)
+#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_VERIFICATIONURICOMPLETE_OFFSET UNITYSDK_OFFSET(0xA280500)
+#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_VERIFICATIONURI_OFFSET UNITYSDK_OFFSET(0xA2804C0)
+#define EPIC_ONLINESERVICES_AUTH_PINGRANTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA280C40)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int PinGrantInfo_TypeDefinitionIndex = 42403;
+	inline static constexpr unsigned int PinGrantInfo_TypeDefinitionIndex = 43206;
 
 	class PinGrantInfo : public ::System::Object
 	{
 	public:
 		::System::String* _VerificationURI_k__BackingField; // 0x10
-		::System::String* _UserCode_k__BackingField; // 0x18
-		::System::String* _VerificationURIComplete_k__BackingField; // 0x20
+		::System::String* _VerificationURIComplete_k__BackingField; // 0x18
+		::System::String* _UserCode_k__BackingField; // 0x20
 		::System::Int32 _ExpiresIn_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_USERCODE_OFFSET))(this);
 		}
 
-		::System::Void set_UserCode(::System::String* value)
+		::System::Void set_UserCode(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_USERCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_USERCODE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_VerificationURI()
@@ -50,9 +50,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_VERIFICATIONURI_OFFSET))(this);
 		}
 
-		::System::Void set_VerificationURI(::System::String* value)
+		::System::Void set_VerificationURI(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_VERIFICATIONURI_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_VERIFICATIONURI_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ExpiresIn()
@@ -60,9 +60,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_EXPIRESIN_OFFSET))(this);
 		}
 
-		::System::Void set_ExpiresIn(::System::Int32 value)
+		::System::Void set_ExpiresIn(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_EXPIRESIN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_EXPIRESIN_OFFSET))(this, a1);
 		}
 
 		::System::String* get_VerificationURIComplete()
@@ -70,19 +70,19 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_GET_VERIFICATIONURICOMPLETE_OFFSET))(this);
 		}
 
-		::System::Void set_VerificationURIComplete(::System::String* value)
+		::System::Void set_VerificationURIComplete(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_VERIFICATIONURICOMPLETE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_VERIFICATIONURICOMPLETE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Auth::PinGrantInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Auth::PinGrantInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Auth::PinGrantInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Auth::PinGrantInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_PINGRANTINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

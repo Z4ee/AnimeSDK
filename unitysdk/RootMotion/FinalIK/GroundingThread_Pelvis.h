@@ -5,11 +5,11 @@
 
 namespace RootMotion::FinalIK { class GroundingThread; }
 
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_PELVIS_PROCESS_OFFSET UNITYSDK_OFFSET(0x2B200)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_PELVIS_PROCESS_OFFSET UNITYSDK_OFFSET(0x2E430)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GroundingThread_Pelvis_TypeDefinitionIndex = 41017;
+	inline static constexpr unsigned int GroundingThread_Pelvis_TypeDefinitionIndex = 41820;
 
 	struct alignas(8) GroundingThread_Pelvis
 	{
@@ -20,9 +20,9 @@ namespace RootMotion::FinalIK
 		::System::Single damperF; // 0x34
 		::System::Single deltaTime; // 0x38
 
-		::System::Void Process(::System::Single dt, ::System::Single lowestOffset, ::System::Single highestOffset, ::System::Boolean isGrounded)
+		::System::Void Process(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_PELVIS_PROCESS_OFFSET))(this, dt, lowestOffset, highestOffset, isGrounded);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDINGTHREAD_PELVIS_PROCESS_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

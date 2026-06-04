@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightGridData; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__DISPLAYCLASS5_0__CANCASTER_B__1_OFFSET UNITYSDK_OFFSET(0xA4E8C60)
-#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4E8B40)
+#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__DISPLAYCLASS5_0__CANCASTER_B__1_OFFSET UNITYSDK_OFFSET(0xBB8F4A0)
+#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB8F380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridCyreneEffect___c__DisplayClass5_0_TypeDefinitionIndex = 59689;
+	inline static constexpr unsigned int GridFightGridCyreneEffect___c__DisplayClass5_0_TypeDefinitionIndex = 60624;
 
 	class GridFightGridCyreneEffect___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _CanCaster_b__1(::System::UInt32 x)
+		::System::Boolean _CanCaster_b__1(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__DISPLAYCLASS5_0__CANCASTER_B__1_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT___C__DISPLAYCLASS5_0__CANCASTER_B__1_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,21 +5,21 @@
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEDCONSTANTEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x19F435F0)
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEDCONSTANTEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F43580)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEDCONSTANTEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1ADBAB60)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEDCONSTANTEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADBAAF0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int TypedConstantExpression_TypeDefinitionIndex = 3199;
+	inline static constexpr unsigned int TypedConstantExpression_TypeDefinitionIndex = 3200;
 
 	class TypedConstantExpression : public ::System::Linq::Expressions::ConstantExpression
 	{
 	public:
 		::System::Type* _Type_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::Object* value, ::System::Type* type)
+		::System::Void _ctor(::System::Object* a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_TYPEDCONSTANTEXPRESSION__CTOR_OFFSET))(this, value, type);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_TYPEDCONSTANTEXPRESSION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Type* get_Type()

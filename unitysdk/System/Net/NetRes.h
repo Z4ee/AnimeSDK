@@ -5,8 +5,8 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_1_OFFSET UNITYSDK_OFFSET(0x1A10B060)
-#define SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x1A1095A0)
+#define SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_1_OFFSET UNITYSDK_OFFSET(0x1AF70CD0)
+#define SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x1AF6F1F0)
 
 namespace System::Net
 {
@@ -15,14 +15,14 @@ namespace System::Net
 	class NetRes : public ::System::Object
 	{
 	public:
-		static ::System::String* GetWebStatusString(::System::String* Res, ::System::Net::WebExceptionStatus Status)
+		static ::System::String* GetWebStatusString(::System::String* a1, ::System::Net::WebExceptionStatus a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Net::WebExceptionStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_OFFSET))(Res, Status);
+			return ((::System::String*(*)(::System::String*, ::System::Net::WebExceptionStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GetWebStatusString_1(::System::Net::WebExceptionStatus Status)
+		static ::System::String* GetWebStatusString_1(::System::Net::WebExceptionStatus a1)
 		{
-			return ((::System::String*(*)(::System::Net::WebExceptionStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_1_OFFSET))(Status);
+			return ((::System::String*(*)(::System::Net::WebExceptionStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_1_OFFSET))(a1);
 		}
 	};
 }

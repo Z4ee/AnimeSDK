@@ -7,48 +7,48 @@ namespace RPG::Client::SwordTraining { class SwordTrainingRandomEventEffectDispl
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDMOOD_OFFSET UNITYSDK_OFFSET(0xB24BF70)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSKILLPOINT_OFFSET UNITYSDK_OFFSET(0xB24BEE0)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSTATUS_OFFSET UNITYSDK_OFFSET(0xB24C090)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_FETCHDISPLAYDATAITEMS_OFFSET UNITYSDK_OFFSET(0xB24C180)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_SUBMOOD_OFFSET UNITYSDK_OFFSET(0xB24C000)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB24BDF0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDMOOD_OFFSET UNITYSDK_OFFSET(0xC998850)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSKILLPOINT_OFFSET UNITYSDK_OFFSET(0xC9987C0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSTATUS_OFFSET UNITYSDK_OFFSET(0xC998970)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_FETCHDISPLAYDATAITEMS_OFFSET UNITYSDK_OFFSET(0xC998AB0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_SUBMOOD_OFFSET UNITYSDK_OFFSET(0xC9988E0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC9986C0)
 
 namespace RPG::Client::SwordTraining
 {
-	inline static constexpr unsigned int SwordTrainingRandomEventOptionEffectDisplayData_TypeDefinitionIndex = 69102;
+	inline static constexpr unsigned int SwordTrainingRandomEventOptionEffectDisplayData_TypeDefinitionIndex = 69914;
 
 	class SwordTrainingRandomEventOptionEffectDisplayData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _StatusChangeValueDict; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::SwordTraining::SwordTrainingRandomEventEffectDisplayDataItem*>* _DisplayItems; // 0x18
-		::System::Int32 _SkillPointChangeValue; // 0x20
-		::System::Int32 _MoodChangeValue; // 0x24
+		::System::Collections::Generic::List_1<::RPG::Client::SwordTraining::SwordTrainingRandomEventEffectDisplayDataItem*>* _DisplayItems; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _StatusChangeValueDict; // 0x18
+		::System::Int32 _MoodChangeValue; // 0x20
+		::System::Int32 _SkillPointChangeValue; // 0x24
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddSkillPoint(::System::UInt32 val, ::RPG::Client::SwordTraining::SwordTrainingEffectSource source)
+		::System::Void AddSkillPoint(::System::UInt32 a1, ::RPG::Client::SwordTraining::SwordTrainingEffectSource a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::SwordTraining::SwordTrainingEffectSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSKILLPOINT_OFFSET))(this, val, source);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::SwordTraining::SwordTrainingEffectSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSKILLPOINT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddMood(::System::UInt32 val, ::RPG::Client::SwordTraining::SwordTrainingEffectSource source)
+		::System::Void AddMood(::System::UInt32 a1, ::RPG::Client::SwordTraining::SwordTrainingEffectSource a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::SwordTraining::SwordTrainingEffectSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDMOOD_OFFSET))(this, val, source);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::SwordTraining::SwordTrainingEffectSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDMOOD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SubMood(::System::UInt32 val, ::RPG::Client::SwordTraining::SwordTrainingEffectSource source)
+		::System::Void SubMood(::System::UInt32 a1, ::RPG::Client::SwordTraining::SwordTrainingEffectSource a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::SwordTraining::SwordTrainingEffectSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_SUBMOOD_OFFSET))(this, val, source);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::SwordTraining::SwordTrainingEffectSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_SUBMOOD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddStatus(::System::UInt32 typeInt, ::System::UInt32 val, ::RPG::Client::SwordTraining::SwordTrainingEffectSource source)
+		::System::Void AddStatus(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::Client::SwordTraining::SwordTrainingEffectSource a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::Client::SwordTraining::SwordTrainingEffectSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSTATUS_OFFSET))(this, typeInt, val, source);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::Client::SwordTraining::SwordTrainingEffectSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSTATUS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::SwordTraining::SwordTrainingRandomEventEffectDisplayDataItem*>* FetchDisplayDataItems()

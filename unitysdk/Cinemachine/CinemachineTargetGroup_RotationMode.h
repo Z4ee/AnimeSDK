@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTargetGroup_RotationMode_TypeDefinitionIndex = 36524;
+	inline static constexpr unsigned int CinemachineTargetGroup_RotationMode_TypeDefinitionIndex = 36824;
 
 	enum class CinemachineTargetGroup_RotationMode : ::System::Int32
 	{

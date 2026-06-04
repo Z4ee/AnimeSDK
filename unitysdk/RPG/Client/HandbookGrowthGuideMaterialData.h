@@ -5,14 +5,14 @@
 namespace RPG::Client { class AvatarFarmGuideData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA5E7B00)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_GET_MATERIALGUIDEDATALIST_OFFSET UNITYSDK_OFFSET(0xA5E7FE0)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_SET_MATERIALGUIDEDATALIST_OFFSET UNITYSDK_OFFSET(0xA5E7FF0)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E7C40)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xBCE6850)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_GET_MATERIALGUIDEDATALIST_OFFSET UNITYSDK_OFFSET(0xBCEAD40)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_SET_MATERIALGUIDEDATALIST_OFFSET UNITYSDK_OFFSET(0xBCEAD50)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBCEA980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookGrowthGuideMaterialData_TypeDefinitionIndex = 60416;
+	inline static constexpr unsigned int HandbookGrowthGuideMaterialData_TypeDefinitionIndex = 61351;
 
 	class HandbookGrowthGuideMaterialData : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::HandbookGrowthGuideMaterialData* Create(::System::UInt32 avatarID)
+		static ::RPG::Client::HandbookGrowthGuideMaterialData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::HandbookGrowthGuideMaterialData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_CREATE_OFFSET))(avatarID);
+			return ((::RPG::Client::HandbookGrowthGuideMaterialData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_CREATE_OFFSET))(a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::AvatarFarmGuideData*>* get_MaterialGuideDataList()
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::AvatarFarmGuideData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_GET_MATERIALGUIDEDATALIST_OFFSET))(this);
 		}
 
-		::System::Void set_MaterialGuideDataList(::System::Collections::Generic::List_1<::RPG::Client::AvatarFarmGuideData*>* value)
+		::System::Void set_MaterialGuideDataList(::System::Collections::Generic::List_1<::RPG::Client::AvatarFarmGuideData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::AvatarFarmGuideData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_SET_MATERIALGUIDEDATALIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::AvatarFarmGuideData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEMATERIALDATA_SET_MATERIALGUIDEDATALIST_OFFSET))(this, a1);
 		}
 	};
 }

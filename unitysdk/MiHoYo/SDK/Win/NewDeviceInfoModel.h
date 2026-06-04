@@ -6,11 +6,11 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_NEWDEVICEINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x17478BA0)
+#define MIHOYO_SDK_WIN_NEWDEVICEINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18279730)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int NewDeviceInfoModel_TypeDefinitionIndex = 8090;
+	inline static constexpr unsigned int NewDeviceInfoModel_TypeDefinitionIndex = 8993;
 
 	class NewDeviceInfoModel : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK::Win
 		::System::String* deviceId; // 0x28
 		::System::Int64 time; // 0x30
 
-		::System::Void _ctor(::MiHoYo::SDK::JSONNode* json)
+		::System::Void _ctor(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_NEWDEVICEINFOMODEL__CTOR_OFFSET))(this, json);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_NEWDEVICEINFOMODEL__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

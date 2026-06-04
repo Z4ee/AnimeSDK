@@ -6,15 +6,15 @@ namespace RPG::Client { class MonopolyShopGoodsDataItem; }
 namespace RPG::GameCore { class MonopolyShopConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYSHOPDATAITEM_GET_GOODSLIST_OFFSET UNITYSDK_OFFSET(0xAABD690)
-#define RPG_CLIENT_MONOPOLYSHOPDATAITEM_GET_ID_OFFSET UNITYSDK_OFFSET(0xAABD670)
-#define RPG_CLIENT_MONOPOLYSHOPDATAITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0xAABD610)
-#define RPG_CLIENT_MONOPOLYSHOPDATAITEM_SET_ID_OFFSET UNITYSDK_OFFSET(0xAABD680)
-#define RPG_CLIENT_MONOPOLYSHOPDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xAABD600)
+#define RPG_CLIENT_MONOPOLYSHOPDATAITEM_GET_GOODSLIST_OFFSET UNITYSDK_OFFSET(0xC18C040)
+#define RPG_CLIENT_MONOPOLYSHOPDATAITEM_GET_ID_OFFSET UNITYSDK_OFFSET(0xC18C020)
+#define RPG_CLIENT_MONOPOLYSHOPDATAITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0xC18BFC0)
+#define RPG_CLIENT_MONOPOLYSHOPDATAITEM_SET_ID_OFFSET UNITYSDK_OFFSET(0xC18C030)
+#define RPG_CLIENT_MONOPOLYSHOPDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC18BFB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyShopDataItem_TypeDefinitionIndex = 61048;
+	inline static constexpr unsigned int MonopolyShopDataItem_TypeDefinitionIndex = 61982;
 
 	class MonopolyShopDataItem : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::MonopolyShopGoodsDataItem*>* _GoodsList; // 0x10
 		::System::UInt32 _ID_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::UInt32 id)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYSHOPDATAITEM__CTOR_OFFSET))(this, id);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYSHOPDATAITEM__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::MonopolyShopConfigRow* get__Row()
@@ -37,9 +37,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYSHOPDATAITEM_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYSHOPDATAITEM_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYSHOPDATAITEM_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MonopolyShopGoodsDataItem*>* get_GoodsList()

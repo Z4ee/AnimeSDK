@@ -4,53 +4,53 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_833;
+class Class_0_16E4307DCC419505_884;
 namespace RPG::GameCore { class ItemConfig; }
 namespace RPG::GameCore { class RogueNousTalentRow; }
 namespace RPG::GameCore { class RogueTalentRow; }
 namespace RPG::GameCore { class RogueTournPermanentTalentRow; }
 namespace System { class String; }
 
-#define CLASS_1_4078C96AB014182F_GET_COST_OFFSET UNITYSDK_OFFSET(0x964A720)
-#define CLASS_1_4078C96AB014182F_GET_EFFECTDESCPARAMLIST_OFFSET UNITYSDK_OFFSET(0x964A7A0)
-#define CLASS_1_4078C96AB014182F_GET_EFFECTDESC_OFFSET UNITYSDK_OFFSET(0x964A780)
-#define CLASS_1_4078C96AB014182F_GET_EFFECTTAG_OFFSET UNITYSDK_OFFSET(0x964A740)
-#define CLASS_1_4078C96AB014182F_GET_EFFECTTITLE_OFFSET UNITYSDK_OFFSET(0x964A760)
-#define CLASS_1_4078C96AB014182F_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x964A6C0)
-#define CLASS_1_4078C96AB014182F_GET_NEXTTALENTIDLIST_OFFSET UNITYSDK_OFFSET(0x964A6E0)
-#define CLASS_1_4078C96AB014182F_GET_SENDPACKETCMD_OFFSET UNITYSDK_OFFSET(0x964A7C0)
-#define CLASS_1_4078C96AB014182F_GET_TALENTID_OFFSET UNITYSDK_OFFSET(0x964A6A0)
-#define CLASS_1_4078C96AB014182F_GET_UNLOCKIDLIST_OFFSET UNITYSDK_OFFSET(0x964A700)
-#define CLASS_1_4078C96AB014182F_METHOD_1_02D1C9F59EB61FCB_OFFSET UNITYSDK_OFFSET(0x964A410)
-#define CLASS_1_4078C96AB014182F_METHOD_1_D7A4AD29E1AA5C62_OFFSET UNITYSDK_OFFSET(0x964A5D0)
-#define CLASS_1_4078C96AB014182F_METHOD_1_F0FF75C5B1B78759_OFFSET UNITYSDK_OFFSET(0x964A510)
-#define CLASS_1_4078C96AB014182F_SET_COST_OFFSET UNITYSDK_OFFSET(0x964A730)
-#define CLASS_1_4078C96AB014182F_SET_EFFECTDESCPARAMLIST_OFFSET UNITYSDK_OFFSET(0x964A7B0)
-#define CLASS_1_4078C96AB014182F_SET_EFFECTDESC_OFFSET UNITYSDK_OFFSET(0x964A790)
-#define CLASS_1_4078C96AB014182F_SET_EFFECTTAG_OFFSET UNITYSDK_OFFSET(0x964A750)
-#define CLASS_1_4078C96AB014182F_SET_EFFECTTITLE_OFFSET UNITYSDK_OFFSET(0x964A770)
-#define CLASS_1_4078C96AB014182F_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x964A6D0)
-#define CLASS_1_4078C96AB014182F_SET_NEXTTALENTIDLIST_OFFSET UNITYSDK_OFFSET(0x964A6F0)
-#define CLASS_1_4078C96AB014182F_SET_SENDPACKETCMD_OFFSET UNITYSDK_OFFSET(0x964A7D0)
-#define CLASS_1_4078C96AB014182F_SET_TALENTID_OFFSET UNITYSDK_OFFSET(0x964A6B0)
-#define CLASS_1_4078C96AB014182F_SET_UNLOCKIDLIST_OFFSET UNITYSDK_OFFSET(0x964A710)
-#define CLASS_1_4078C96AB014182F__CTOR_OFFSET UNITYSDK_OFFSET(0x964A500)
+#define CLASS_1_4078C96AB014182F_GET_COST_OFFSET UNITYSDK_OFFSET(0x13759B90)
+#define CLASS_1_4078C96AB014182F_GET_EFFECTDESCPARAMLIST_OFFSET UNITYSDK_OFFSET(0x13759C10)
+#define CLASS_1_4078C96AB014182F_GET_EFFECTDESC_OFFSET UNITYSDK_OFFSET(0x13759BF0)
+#define CLASS_1_4078C96AB014182F_GET_EFFECTTAG_OFFSET UNITYSDK_OFFSET(0x13759BB0)
+#define CLASS_1_4078C96AB014182F_GET_EFFECTTITLE_OFFSET UNITYSDK_OFFSET(0x13759BD0)
+#define CLASS_1_4078C96AB014182F_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x13759B30)
+#define CLASS_1_4078C96AB014182F_GET_NEXTTALENTIDLIST_OFFSET UNITYSDK_OFFSET(0x13759B50)
+#define CLASS_1_4078C96AB014182F_GET_SENDPACKETCMD_OFFSET UNITYSDK_OFFSET(0x13759C30)
+#define CLASS_1_4078C96AB014182F_GET_TALENTID_OFFSET UNITYSDK_OFFSET(0x13759B10)
+#define CLASS_1_4078C96AB014182F_GET_UNLOCKIDLIST_OFFSET UNITYSDK_OFFSET(0x13759B70)
+#define CLASS_1_4078C96AB014182F_METHOD_1_02D1C9F59EB61FCB_OFFSET UNITYSDK_OFFSET(0x13759870)
+#define CLASS_1_4078C96AB014182F_METHOD_1_D7A4AD29E1AA5C62_OFFSET UNITYSDK_OFFSET(0x13759A40)
+#define CLASS_1_4078C96AB014182F_METHOD_1_F0FF75C5B1B78759_OFFSET UNITYSDK_OFFSET(0x13759970)
+#define CLASS_1_4078C96AB014182F_SET_COST_OFFSET UNITYSDK_OFFSET(0x13759BA0)
+#define CLASS_1_4078C96AB014182F_SET_EFFECTDESCPARAMLIST_OFFSET UNITYSDK_OFFSET(0x13759C20)
+#define CLASS_1_4078C96AB014182F_SET_EFFECTDESC_OFFSET UNITYSDK_OFFSET(0x13759C00)
+#define CLASS_1_4078C96AB014182F_SET_EFFECTTAG_OFFSET UNITYSDK_OFFSET(0x13759BC0)
+#define CLASS_1_4078C96AB014182F_SET_EFFECTTITLE_OFFSET UNITYSDK_OFFSET(0x13759BE0)
+#define CLASS_1_4078C96AB014182F_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x13759B40)
+#define CLASS_1_4078C96AB014182F_SET_NEXTTALENTIDLIST_OFFSET UNITYSDK_OFFSET(0x13759B60)
+#define CLASS_1_4078C96AB014182F_SET_SENDPACKETCMD_OFFSET UNITYSDK_OFFSET(0x13759C40)
+#define CLASS_1_4078C96AB014182F_SET_TALENTID_OFFSET UNITYSDK_OFFSET(0x13759B20)
+#define CLASS_1_4078C96AB014182F_SET_UNLOCKIDLIST_OFFSET UNITYSDK_OFFSET(0x13759B80)
+#define CLASS_1_4078C96AB014182F__CTOR_OFFSET UNITYSDK_OFFSET(0x13759960)
 
-inline static constexpr unsigned int Class_1_4078C96AB014182F_TypeDefinitionIndex = 62177;
+inline static constexpr unsigned int Class_1_4078C96AB014182F_TypeDefinitionIndex = 63110;
 
 class Class_1_4078C96AB014182F : public ::System::Object
 {
 public:
 	::Il2CppArray<::RPG::GameCore::ItemConfig*>* _Cost_k__BackingField; // 0x10
-	::Il2CppArray<::System::UInt32>* _UnlockIDList_k__BackingField; // 0x18
-	::Il2CppArray<::RPG::GameCore::FixPoint>* _EffectDescParamList_k__BackingField; // 0x20
-	::System::String* _IconPath_k__BackingField; // 0x28
-	::Class_0_16E4307DCC419505_833* _SendPacketCmd_k__BackingField; // 0x30
-	::Il2CppArray<::System::UInt32>* _NextTalentIDList_k__BackingField; // 0x38
-	::RPG::Client::TextID _EffectTag_k__BackingField; // 0x40
-	::System::UInt32 _TalentID_k__BackingField; // 0x50
-	::RPG::Client::TextID _EffectTitle_k__BackingField; // 0x58
-	::RPG::Client::TextID _EffectDesc_k__BackingField; // 0x68
+	::Il2CppArray<::RPG::GameCore::FixPoint>* _EffectDescParamList_k__BackingField; // 0x18
+	::Il2CppArray<::System::UInt32>* _UnlockIDList_k__BackingField; // 0x20
+	::Class_0_16E4307DCC419505_884* _SendPacketCmd_k__BackingField; // 0x28
+	::Il2CppArray<::System::UInt32>* _NextTalentIDList_k__BackingField; // 0x30
+	::System::String* _IconPath_k__BackingField; // 0x38
+	::RPG::Client::TextID _EffectDesc_k__BackingField; // 0x40
+	::RPG::Client::TextID _EffectTitle_k__BackingField; // 0x50
+	::System::UInt32 _TalentID_k__BackingField; // 0x60
+	::RPG::Client::TextID _EffectTag_k__BackingField; // 0x68
 
 	::System::Void _ctor()
 	{
@@ -77,9 +77,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_GET_TALENTID_OFFSET))(this);
 	}
 
-	::System::Void set_TalentID(::System::UInt32 value)
+	::System::Void set_TalentID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_TALENTID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_TALENTID_OFFSET))(this, a1);
 	}
 
 	::System::String* get_IconPath()
@@ -87,9 +87,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_GET_ICONPATH_OFFSET))(this);
 	}
 
-	::System::Void set_IconPath(::System::String* value)
+	::System::Void set_IconPath(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_ICONPATH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_ICONPATH_OFFSET))(this, a1);
 	}
 
 	::Il2CppArray<::System::UInt32>* get_NextTalentIDList()
@@ -97,9 +97,9 @@ public:
 		return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_GET_NEXTTALENTIDLIST_OFFSET))(this);
 	}
 
-	::System::Void set_NextTalentIDList(::Il2CppArray<::System::UInt32>* value)
+	::System::Void set_NextTalentIDList(::Il2CppArray<::System::UInt32>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_NEXTTALENTIDLIST_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_NEXTTALENTIDLIST_OFFSET))(this, a1);
 	}
 
 	::Il2CppArray<::System::UInt32>* get_UnlockIDList()
@@ -107,9 +107,9 @@ public:
 		return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_GET_UNLOCKIDLIST_OFFSET))(this);
 	}
 
-	::System::Void set_UnlockIDList(::Il2CppArray<::System::UInt32>* value)
+	::System::Void set_UnlockIDList(::Il2CppArray<::System::UInt32>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_UNLOCKIDLIST_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_UNLOCKIDLIST_OFFSET))(this, a1);
 	}
 
 	::Il2CppArray<::RPG::GameCore::ItemConfig*>* get_Cost()
@@ -117,9 +117,9 @@ public:
 		return ((::Il2CppArray<::RPG::GameCore::ItemConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_GET_COST_OFFSET))(this);
 	}
 
-	::System::Void set_Cost(::Il2CppArray<::RPG::GameCore::ItemConfig*>* value)
+	::System::Void set_Cost(::Il2CppArray<::RPG::GameCore::ItemConfig*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_COST_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_COST_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::TextID get_EffectTag()
@@ -127,9 +127,9 @@ public:
 		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_GET_EFFECTTAG_OFFSET))(this);
 	}
 
-	::System::Void set_EffectTag(::RPG::Client::TextID value)
+	::System::Void set_EffectTag(::RPG::Client::TextID a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_EFFECTTAG_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_EFFECTTAG_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::TextID get_EffectTitle()
@@ -137,9 +137,9 @@ public:
 		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_GET_EFFECTTITLE_OFFSET))(this);
 	}
 
-	::System::Void set_EffectTitle(::RPG::Client::TextID value)
+	::System::Void set_EffectTitle(::RPG::Client::TextID a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_EFFECTTITLE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_EFFECTTITLE_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::TextID get_EffectDesc()
@@ -147,9 +147,9 @@ public:
 		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_GET_EFFECTDESC_OFFSET))(this);
 	}
 
-	::System::Void set_EffectDesc(::RPG::Client::TextID value)
+	::System::Void set_EffectDesc(::RPG::Client::TextID a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_EFFECTDESC_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_EFFECTDESC_OFFSET))(this, a1);
 	}
 
 	::Il2CppArray<::RPG::GameCore::FixPoint>* get_EffectDescParamList()
@@ -157,18 +157,18 @@ public:
 		return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_GET_EFFECTDESCPARAMLIST_OFFSET))(this);
 	}
 
-	::System::Void set_EffectDescParamList(::Il2CppArray<::RPG::GameCore::FixPoint>* value)
+	::System::Void set_EffectDescParamList(::Il2CppArray<::RPG::GameCore::FixPoint>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_EFFECTDESCPARAMLIST_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_EFFECTDESCPARAMLIST_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_833* get_SendPacketCmd()
+	::Class_0_16E4307DCC419505_884* get_SendPacketCmd()
 	{
-		return ((::Class_0_16E4307DCC419505_833*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_GET_SENDPACKETCMD_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_884*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_GET_SENDPACKETCMD_OFFSET))(this);
 	}
 
-	::System::Void set_SendPacketCmd(::Class_0_16E4307DCC419505_833* value)
+	::System::Void set_SendPacketCmd(::Class_0_16E4307DCC419505_884* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_833*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_SENDPACKETCMD_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_884*))((::PBYTE)hIl2Cpp + CLASS_1_4078C96AB014182F_SET_SENDPACKETCMD_OFFSET))(this, a1);
 	}
 };

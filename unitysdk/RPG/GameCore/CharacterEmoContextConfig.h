@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CharacterEmoConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTEREMOCONTEXTCONFIG_METHOD_2_C05C7A5A72AE568F_OFFSET UNITYSDK_OFFSET(0x187CFA70)
-#define RPG_GAMECORE_CHARACTEREMOCONTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187D0810)
+#define RPG_GAMECORE_CHARACTEREMOCONTEXTCONFIG_METHOD_2_4206AAE86B474FA6_OFFSET UNITYSDK_OFFSET(0x1960BE40)
+#define RPG_GAMECORE_CHARACTEREMOCONTEXTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1960CD50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEmoContextConfig_TypeDefinitionIndex = 15632;
+	inline static constexpr unsigned int CharacterEmoContextConfig_TypeDefinitionIndex = 15691;
 
 	class CharacterEmoContextConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREMOCONTEXTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C05C7A5A72AE568F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterEmoContextConfig*& a2)
+		static ::System::Void Method_2_4206AAE86B474FA6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterEmoContextConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterEmoContextConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREMOCONTEXTCONFIG_METHOD_2_C05C7A5A72AE568F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterEmoContextConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREMOCONTEXTCONFIG_METHOD_2_4206AAE86B474FA6_OFFSET))(a1, a2);
 		}
 	};
 }

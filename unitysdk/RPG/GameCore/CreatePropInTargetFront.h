@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_2EAE2C5859E855DA_OFFSET UNITYSDK_OFFSET(0x18844AB0)
-#define RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_FBE9ECC21C1941A3_OFFSET UNITYSDK_OFFSET(0x18844BE0)
-#define RPG_GAMECORE_CREATEPROPINTARGETFRONT__CTOR_OFFSET UNITYSDK_OFFSET(0x18844AF0)
+#define RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_1ABA8A77DAB077AE_OFFSET UNITYSDK_OFFSET(0x19684070)
+#define RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_E87B6F2F5B08E054_OFFSET UNITYSDK_OFFSET(0x196841A0)
+#define RPG_GAMECORE_CREATEPROPINTARGETFRONT__CTOR_OFFSET UNITYSDK_OFFSET(0x196840B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreatePropInTargetFront_TypeDefinitionIndex = 19095;
+	inline static constexpr unsigned int CreatePropInTargetFront_TypeDefinitionIndex = 19030;
 
 	class CreatePropInTargetFront : public ::RPG::GameCore::TaskConfig
 	{
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPINTARGETFRONT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2EAE2C5859E855DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePropInTargetFront*& a2)
+		static ::System::Void Method_3_1ABA8A77DAB077AE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePropInTargetFront*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePropInTargetFront*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_2EAE2C5859E855DA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePropInTargetFront*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_1ABA8A77DAB077AE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FBE9ECC21C1941A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePropInTargetFront* a2)
+		static ::System::Void Method_3_E87B6F2F5B08E054(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePropInTargetFront* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePropInTargetFront*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_FBE9ECC21C1941A3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePropInTargetFront*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_E87B6F2F5B08E054_OFFSET))(a1, a2);
 		}
 	};
 }

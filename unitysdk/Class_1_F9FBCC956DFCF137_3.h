@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/Struct_2_B9E6DC87D4879FCD.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_BD800F5B29A08E1F;
+class Class_1_96F671E4E83A73C0;
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_F9FBCC956DFCF137_3_METHOD_1_CE1FB3C3C4E44EF4_OFFSET UNITYSDK_OFFSET(0xD3A6840)
-#define CLASS_1_F9FBCC956DFCF137_3__CTOR_OFFSET UNITYSDK_OFFSET(0xD3A6830)
+#define CLASS_1_F9FBCC956DFCF137_3_METHOD_1_4ECDFE53EE41D31A_OFFSET UNITYSDK_OFFSET(0x1AC2E270)
+#define CLASS_1_F9FBCC956DFCF137_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC2E260)
 
-inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_3_TypeDefinitionIndex = 50142;
+inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_3_TypeDefinitionIndex = 40668;
 
 class Class_1_F9FBCC956DFCF137_3 : public ::System::Object
 {
 public:
-	::Class_1_BD800F5B29A08E1F* Field_1_0; // 0x10
+	::Class_1_96F671E4E83A73C0* Field_1_0; // 0x10
 
-	::System::Void _ctor(::Class_1_BD800F5B29A08E1F* a1)
+	::System::Void _ctor(::Class_1_96F671E4E83A73C0* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_BD800F5B29A08E1F*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_3__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_96F671E4E83A73C0*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_3__CTOR_OFFSET))(this, a1);
 	}
 
-	::RPG::GameCore::FixPoint Method_1_CE1FB3C3C4E44EF4()
+	::System::Collections::Generic::IEnumerable_1<::Struct_2_B9E6DC87D4879FCD>* Method_1_4ECDFE53EE41D31A()
 	{
-		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_3_METHOD_1_CE1FB3C3C4E44EF4_OFFSET))(this);
+		return ((::System::Collections::Generic::IEnumerable_1<::Struct_2_B9E6DC87D4879FCD>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_3_METHOD_1_4ECDFE53EE41D31A_OFFSET))(this);
 	}
 };

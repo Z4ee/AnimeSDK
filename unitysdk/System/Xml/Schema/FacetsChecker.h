@@ -12,24 +12,24 @@ namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class RestrictionFacets; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKLEXICALFACETS_OFFSET UNITYSDK_OFFSET(0x19FC7E50)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKPATTERNFACETS_OFFSET UNITYSDK_OFFSET(0x19FC7F30)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_10_OFFSET UNITYSDK_OFFSET(0x19FC81C0)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_11_OFFSET UNITYSDK_OFFSET(0x19FC81D0)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x19FC8130)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_2_OFFSET UNITYSDK_OFFSET(0x19FC8140)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_3_OFFSET UNITYSDK_OFFSET(0x19FC8150)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_4_OFFSET UNITYSDK_OFFSET(0x19FC8160)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_5_OFFSET UNITYSDK_OFFSET(0x19FC8170)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_6_OFFSET UNITYSDK_OFFSET(0x19FC8180)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_7_OFFSET UNITYSDK_OFFSET(0x19FC8190)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_8_OFFSET UNITYSDK_OFFSET(0x19FC81A0)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_9_OFFSET UNITYSDK_OFFSET(0x19FC81B0)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x19FC8120)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKWHITESPACEFACETS_OFFSET UNITYSDK_OFFSET(0x19FC7E80)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x19FC81E0)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_POWER_OFFSET UNITYSDK_OFFSET(0x19FC81F0)
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB23A0)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKLEXICALFACETS_OFFSET UNITYSDK_OFFSET(0x1AE3B940)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKPATTERNFACETS_OFFSET UNITYSDK_OFFSET(0x1AE3BA20)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_10_OFFSET UNITYSDK_OFFSET(0x1AE3BCC0)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_11_OFFSET UNITYSDK_OFFSET(0x1AE3BCD0)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1AE3BC30)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_2_OFFSET UNITYSDK_OFFSET(0x1AE3BC40)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_3_OFFSET UNITYSDK_OFFSET(0x1AE3BC50)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_4_OFFSET UNITYSDK_OFFSET(0x1AE3BC60)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_5_OFFSET UNITYSDK_OFFSET(0x1AE3BC70)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_6_OFFSET UNITYSDK_OFFSET(0x1AE3BC80)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_7_OFFSET UNITYSDK_OFFSET(0x1AE3BC90)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_8_OFFSET UNITYSDK_OFFSET(0x1AE3BCA0)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_9_OFFSET UNITYSDK_OFFSET(0x1AE3BCB0)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1AE3BC20)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKWHITESPACEFACETS_OFFSET UNITYSDK_OFFSET(0x1AE3B970)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1AE3BCE0)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_POWER_OFFSET UNITYSDK_OFFSET(0x1AE3BCF0)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE272A0)
 
 namespace System::Xml::Schema
 {
@@ -43,89 +43,89 @@ namespace System::Xml::Schema
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER__CTOR_OFFSET))(this);
 		}
 
-		::System::Exception* CheckLexicalFacets(::System::String*& parseString, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckLexicalFacets(::System::String*& a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::String*&, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKLEXICALFACETS_OFFSET))(this, parseString, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::String*&, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKLEXICALFACETS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets(::System::Object* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_1(::System::Decimal value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_1(::System::Decimal a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Decimal, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_1_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Decimal, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_2(::System::Int64 value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_2(::System::Int64 a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Int64, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_2_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Int64, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_3(::System::Int32 value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_3(::System::Int32 a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Int32, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_3_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Int32, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_4(::System::Int16 value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_4(::System::Int16 a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Int16, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_4_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Int16, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_5(::System::DateTime value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_5(::System::DateTime a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::DateTime, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_5_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::DateTime, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_5_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_6(::System::Double value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_6(::System::Double a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Double, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_6_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Double, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_6_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_7(::System::Single value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_7(::System::Single a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Single, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_7_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Single, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_7_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_8(::System::String* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_8(::System::String* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_8_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_8_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_9(::Il2CppArray<::System::Byte>* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_9(::Il2CppArray<::System::Byte>* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_9_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_9_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_10(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_10(::System::TimeSpan a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::TimeSpan, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_10_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::TimeSpan, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_10_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_11(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_11(::System::Xml::XmlQualifiedName* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_11_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKVALUEFACETS_11_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CheckWhitespaceFacets(::System::String*& s, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Void CheckWhitespaceFacets(::System::String*& a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*&, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKWHITESPACEFACETS_OFFSET))(this, s, datatype);
+			return ((::System::Void(*)(::PVOID, ::System::String*&, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKWHITESPACEFACETS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckPatternFacets(::System::Xml::Schema::RestrictionFacets* restriction, ::System::String* value)
+		::System::Exception* CheckPatternFacets(::System::Xml::Schema::RestrictionFacets* a1, ::System::String* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Xml::Schema::RestrictionFacets*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKPATTERNFACETS_OFFSET))(this, restriction, value);
+			return ((::System::Exception*(*)(::PVOID, ::System::Xml::Schema::RestrictionFacets*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_CHECKPATTERNFACETS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Boolean MatchEnumeration(::System::Object* a1, ::System::Collections::ArrayList* a2, ::System::Xml::Schema::XmlSchemaDatatype* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_MATCHENUMERATION_OFFSET))(this, value, enumeration, datatype);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_MATCHENUMERATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Decimal Power(::System::Int32 x, ::System::Int32 y)
+		static ::System::Decimal Power(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Decimal(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_POWER_OFFSET))(x, y);
+			return ((::System::Decimal(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_FACETSCHECKER_POWER_OFFSET))(a1, a2);
 		}
 	};
 }

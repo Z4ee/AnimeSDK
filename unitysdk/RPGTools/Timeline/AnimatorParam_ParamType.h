@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorParam_ParamType_TypeDefinitionIndex = 44862;
+	inline static constexpr unsigned int AnimatorParam_ParamType_TypeDefinitionIndex = 45419;
 
 	enum class AnimatorParam_ParamType : ::System::Int32
 	{

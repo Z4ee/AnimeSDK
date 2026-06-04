@@ -7,33 +7,33 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SROPTIONSPROPERTYCHANGED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8E527B0)
-#define SROPTIONSPROPERTYCHANGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8E527F0)
-#define SROPTIONSPROPERTYCHANGED_INVOKE_OFFSET UNITYSDK_OFFSET(0x8E52000)
-#define SROPTIONSPROPERTYCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0x8E52790)
+#define SROPTIONSPROPERTYCHANGED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA27C0F0)
+#define SROPTIONSPROPERTYCHANGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA27C130)
+#define SROPTIONSPROPERTYCHANGED_INVOKE_OFFSET UNITYSDK_OFFSET(0xA27BD90)
+#define SROPTIONSPROPERTYCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0xA27C000)
 
-inline static constexpr unsigned int SROptionsPropertyChanged_TypeDefinitionIndex = 40927;
+inline static constexpr unsigned int SROptionsPropertyChanged_TypeDefinitionIndex = 41745;
 
 class SROptionsPropertyChanged : public ::System::MulticastDelegate
 {
 public:
-	::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+	::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SROPTIONSPROPERTYCHANGED__CTOR_OFFSET))(this, object, method);
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SROPTIONSPROPERTYCHANGED__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Invoke(::System::Object* sender, ::System::String* propertyName)
+	::System::Void Invoke(::System::Object* a1, ::System::String* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SROPTIONSPROPERTYCHANGED_INVOKE_OFFSET))(this, sender, propertyName);
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SROPTIONSPROPERTYCHANGED_INVOKE_OFFSET))(this, a1, a2);
 	}
 
-	::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::System::String* propertyName, ::System::AsyncCallback* callback, ::System::Object* object)
+	::System::IAsyncResult* BeginInvoke(::System::Object* a1, ::System::String* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 	{
-		return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SROPTIONSPROPERTYCHANGED_BEGININVOKE_OFFSET))(this, sender, propertyName, callback, object);
+		return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SROPTIONSPROPERTYCHANGED_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void EndInvoke(::System::IAsyncResult* result)
+	::System::Void EndInvoke(::System::IAsyncResult* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SROPTIONSPROPERTYCHANGED_ENDINVOKE_OFFSET))(this, result);
+		return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SROPTIONSPROPERTYCHANGED_ENDINVOKE_OFFSET))(this, a1);
 	}
 };

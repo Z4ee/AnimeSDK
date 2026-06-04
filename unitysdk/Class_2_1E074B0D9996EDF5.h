@@ -5,16 +5,16 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_2_1E074B0D9996EDF5_METHOD_2_E4EE4D98EE55C81B_OFFSET UNITYSDK_OFFSET(0x18978240)
-#define CLASS_2_1E074B0D9996EDF5__CTOR_OFFSET UNITYSDK_OFFSET(0x18978370)
+#define CLASS_2_1E074B0D9996EDF5_METHOD_2_E4EE4D98EE55C81B_OFFSET UNITYSDK_OFFSET(0x190E5400)
+#define CLASS_2_1E074B0D9996EDF5__CTOR_OFFSET UNITYSDK_OFFSET(0x190E5530)
 
-inline static constexpr unsigned int Class_2_1E074B0D9996EDF5_TypeDefinitionIndex = 20050;
+inline static constexpr unsigned int Class_2_1E074B0D9996EDF5_TypeDefinitionIndex = 19910;
 
 class Class_2_1E074B0D9996EDF5 : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::RPG::MVector3 Field_2_1; // 0x10
-	::RPG::MVector3 Field_2_0; // 0x1C
+	::RPG::MVector3 Field_2_0; // 0x10
+	::RPG::MVector3 Field_2_1; // 0x1C
 
 	::System::Void _ctor()
 	{

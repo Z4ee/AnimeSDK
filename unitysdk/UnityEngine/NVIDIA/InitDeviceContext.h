@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace UnityEngine::NVIDIA { class NativeStr; }
 namespace UnityEngine::NVIDIA { template <typename T> class NativeData_1; }
 
-#define UNITYENGINE_NVIDIA_INITDEVICECONTEXT_GETINITCMDPTR_OFFSET UNITYSDK_OFFSET(0x1A4C7B60)
-#define UNITYENGINE_NVIDIA_INITDEVICECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4C7710)
+#define UNITYENGINE_NVIDIA_INITDEVICECONTEXT_GETINITCMDPTR_OFFSET UNITYSDK_OFFSET(0x1B315B40)
+#define UNITYENGINE_NVIDIA_INITDEVICECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3156D0)
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int InitDeviceContext_TypeDefinitionIndex = 5182;
+	inline static constexpr unsigned int InitDeviceContext_TypeDefinitionIndex = 5007;
 
 	class InitDeviceContext : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace UnityEngine::NVIDIA
 		::UnityEngine::NVIDIA::NativeStr* m_AppDir; // 0x20
 		::UnityEngine::NVIDIA::NativeData_1<::UnityEngine::NVIDIA::InitDeviceCmdData>* m_InitData; // 0x28
 
-		::System::Void _ctor(::System::String* projectId, ::System::String* engineVersion, ::System::String* appDir)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_INITDEVICECONTEXT__CTOR_OFFSET))(this, projectId, engineVersion, appDir);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_INITDEVICECONTEXT__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::IntPtr GetInitCmdPtr()

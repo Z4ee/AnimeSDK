@@ -7,7 +7,7 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginFiveDimDestructiblePlat_Struct_2_EF2CDCADB84C17C5_TypeDefinitionIndex = 64553;
+	inline static constexpr unsigned int MonoEffectPluginFiveDimDestructiblePlat_Struct_2_EF2CDCADB84C17C5_TypeDefinitionIndex = 65474;
 
 	struct alignas(8) MonoEffectPluginFiveDimDestructiblePlat_Struct_2_EF2CDCADB84C17C5
 	{

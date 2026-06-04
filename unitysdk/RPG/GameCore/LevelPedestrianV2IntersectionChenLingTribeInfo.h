@@ -8,13 +8,13 @@ namespace RPG::GameCore { class LevelPedestrianV2IntersectionChenLingTribeDropPo
 namespace RPG::GameCore { class LevelPedestrianV2RoadEntryInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEINFO_METHOD_3_5D7BD912F72EDB72_OFFSET UNITYSDK_OFFSET(0x18A54930)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEINFO_METHOD_3_7C979B789FBFE2B6_OFFSET UNITYSDK_OFFSET(0x18A54A00)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A549B0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEINFO_METHOD_3_5E3D56960C2C3360_OFFSET UNITYSDK_OFFSET(0x198837B0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEINFO_METHOD_3_F549A56B2528648C_OFFSET UNITYSDK_OFFSET(0x198836E0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19883760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2IntersectionChenLingTribeInfo_TypeDefinitionIndex = 16425;
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionChenLingTribeInfo_TypeDefinitionIndex = 16459;
 
 	class LevelPedestrianV2IntersectionChenLingTribeInfo : public ::RPG::GameCore::LevelPedestrianV2IntersectionInfo
 	{
@@ -37,14 +37,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5D7BD912F72EDB72(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingTribeInfo*& a2)
+		static ::System::Void Method_3_F549A56B2528648C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingTribeInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingTribeInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEINFO_METHOD_3_5D7BD912F72EDB72_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingTribeInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEINFO_METHOD_3_F549A56B2528648C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7C979B789FBFE2B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingTribeInfo* a2)
+		static ::System::Void Method_3_5E3D56960C2C3360(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingTribeInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingTribeInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEINFO_METHOD_3_7C979B789FBFE2B6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingTribeInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEINFO_METHOD_3_5E3D56960C2C3360_OFFSET))(a1, a2);
 		}
 	};
 }

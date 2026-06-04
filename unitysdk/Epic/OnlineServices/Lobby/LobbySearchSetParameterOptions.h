@@ -5,15 +5,15 @@
 
 namespace Epic::OnlineServices::Lobby { class AttributeData; }
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_GET_COMPARISONOP_OFFSET UNITYSDK_OFFSET(0x8EBC300)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_GET_PARAMETER_OFFSET UNITYSDK_OFFSET(0x8EBC2E0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_SET_COMPARISONOP_OFFSET UNITYSDK_OFFSET(0x8EBC310)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_SET_PARAMETER_OFFSET UNITYSDK_OFFSET(0x8EBC2F0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8EBC320)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_GET_COMPARISONOP_OFFSET UNITYSDK_OFFSET(0xA2F73C0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_GET_PARAMETER_OFFSET UNITYSDK_OFFSET(0xA2F73A0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_SET_COMPARISONOP_OFFSET UNITYSDK_OFFSET(0xA2F73D0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_SET_PARAMETER_OFFSET UNITYSDK_OFFSET(0xA2F73B0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F73E0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbySearchSetParameterOptions_TypeDefinitionIndex = 41938;
+	inline static constexpr unsigned int LobbySearchSetParameterOptions_TypeDefinitionIndex = 42741;
 
 	class LobbySearchSetParameterOptions : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::Lobby::AttributeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_GET_PARAMETER_OFFSET))(this);
 		}
 
-		::System::Void set_Parameter(::Epic::OnlineServices::Lobby::AttributeData* value)
+		::System::Void set_Parameter(::Epic::OnlineServices::Lobby::AttributeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::AttributeData*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_SET_PARAMETER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::AttributeData*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_SET_PARAMETER_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ComparisonOp get_ComparisonOp()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::ComparisonOp(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_GET_COMPARISONOP_OFFSET))(this);
 		}
 
-		::System::Void set_ComparisonOp(::Epic::OnlineServices::ComparisonOp value)
+		::System::Void set_ComparisonOp(::Epic::OnlineServices::ComparisonOp a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ComparisonOp))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_SET_COMPARISONOP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ComparisonOp))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHSETPARAMETEROPTIONS_SET_COMPARISONOP_OFFSET))(this, a1);
 		}
 	};
 }

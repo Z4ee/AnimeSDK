@@ -5,7 +5,7 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 
 class BGCurveExtention;
-class Class_1_BC892FF2CA890F74_Section;
+class Class_1_F0BC55524B5D6A07_Section;
 namespace RPG::Editor { class BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -13,22 +13,22 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_GET_TARGETOBJECT_OFFSET UNITYSDK_OFFSET(0xB501740)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_0084CD2D33759A62_OFFSET UNITYSDK_OFFSET(0xB502B70)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_0844BF824CA685A7_OFFSET UNITYSDK_OFFSET(0xB502B10)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_0C62ABB6A3BA51A4_OFFSET UNITYSDK_OFFSET(0xB501B10)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_10D5AEF68500B8CE_OFFSET UNITYSDK_OFFSET(0xB502C10)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_299E2BC02156A6EF_OFFSET UNITYSDK_OFFSET(0xB502270)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_3C2CDA0970149A4D_OFFSET UNITYSDK_OFFSET(0xB501970)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_5B6B19AC3D4AEC71_OFFSET UNITYSDK_OFFSET(0xB501EA0)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_A2D0319E2F0BE8DB_OFFSET UNITYSDK_OFFSET(0xB501760)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB5016F0)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_SET_TARGETOBJECT_OFFSET UNITYSDK_OFFSET(0xB501750)
-#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xB502CD0)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_GET_TARGETOBJECT_OFFSET UNITYSDK_OFFSET(0xCC694D0)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_004679B1608D45B2_OFFSET UNITYSDK_OFFSET(0xCC64AC0)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_0844BF824CA685A7_OFFSET UNITYSDK_OFFSET(0xCC64200)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_0C62ABB6A3BA51A4_OFFSET UNITYSDK_OFFSET(0xCC645F0)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_21C955DD121BCDCD_OFFSET UNITYSDK_OFFSET(0xCC62680)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_310435ABA92438EF_OFFSET UNITYSDK_OFFSET(0xCC612D0)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_5FB236C32D199384_OFFSET UNITYSDK_OFFSET(0xCC64920)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_AFC21B0E8344D794_OFFSET UNITYSDK_OFFSET(0xCC61750)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_B314D3A101A1F0FD_OFFSET UNITYSDK_OFFSET(0xCC64B80)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xCC69480)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_SET_TARGETOBJECT_OFFSET UNITYSDK_OFFSET(0xCC694E0)
+#define RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC622C0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_MeshGeneratorBase_TypeDefinitionIndex = 48026;
+	inline static constexpr unsigned int BGCurvePCG_MeshGeneratorBase_TypeDefinitionIndex = 48644;
 
 	class BGCurvePCG_MeshGeneratorBase : public ::System::Object
 	{
@@ -54,29 +54,29 @@ namespace RPG::Editor
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_GET_TARGETOBJECT_OFFSET))(this);
 		}
 
-		::System::Void set_TargetObject(::UnityEngine::GameObject* value)
+		::System::Void set_TargetObject(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_SET_TARGETOBJECT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_SET_TARGETOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_A2D0319E2F0BE8DB(::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* a1, ::System::Single a2, ::RPG::Editor::BGCurvePCG_MeshGeneratorBase_UVMode a3)
+		::System::Void Method_1_5FB236C32D199384(::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* a1, ::System::Single a2, ::RPG::Editor::BGCurvePCG_MeshGeneratorBase_UVMode a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*, ::System::Single, ::RPG::Editor::BGCurvePCG_MeshGeneratorBase_UVMode))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_A2D0319E2F0BE8DB_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*, ::System::Single, ::RPG::Editor::BGCurvePCG_MeshGeneratorBase_UVMode))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_5FB236C32D199384_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* Method_1_3C2CDA0970149A4D(::BGCurveExtention* a1, ::UnityEngine::Vector2 a2, ::System::Single a3)
+		::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* Method_1_21C955DD121BCDCD(::BGCurveExtention* a1, ::UnityEngine::Vector2 a2, ::System::Single a3)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_3C2CDA0970149A4D_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_21C955DD121BCDCD_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* Method_1_5B6B19AC3D4AEC71(::BGCurveExtention* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Single a4)
+		::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* Method_1_310435ABA92438EF(::BGCurveExtention* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Single a4)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_5B6B19AC3D4AEC71_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_310435ABA92438EF_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* Method_1_299E2BC02156A6EF(::BGCurveExtention* a1, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* a2, ::UnityEngine::Vector2 a3, ::System::Single a4, ::System::Single a5)
+		::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* Method_1_AFC21B0E8344D794(::BGCurveExtention* a1, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* a2, ::UnityEngine::Vector2 a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*(*)(::PVOID, ::BGCurveExtention*, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*, ::UnityEngine::Vector2, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_299E2BC02156A6EF_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*(*)(::PVOID, ::BGCurveExtention*, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*, ::UnityEngine::Vector2, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_AFC21B0E8344D794_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94* Method_1_0C62ABB6A3BA51A4(::BGCurveExtention* a1, ::System::Single a2)
@@ -89,14 +89,14 @@ namespace RPG::Editor
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_0844BF824CA685A7_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Mesh* Method_1_0084CD2D33759A62(::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* a1, ::UnityEngine::Vector2 a2)
+		::UnityEngine::Mesh* Method_1_B314D3A101A1F0FD(::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* a1, ::UnityEngine::Vector2 a2)
 		{
-			return ((::UnityEngine::Mesh*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_0084CD2D33759A62_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Mesh*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_B314D3A101A1F0FD_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Mesh* Method_1_10D5AEF68500B8CE(::Class_1_BC892FF2CA890F74_Section* a1, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* a2, ::System::Boolean a3)
+		::UnityEngine::Mesh* Method_1_004679B1608D45B2(::Class_1_F0BC55524B5D6A07_Section* a1, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* a2, ::System::Boolean a3)
 		{
-			return ((::UnityEngine::Mesh*(*)(::PVOID, ::Class_1_BC892FF2CA890F74_Section*, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_10D5AEF68500B8CE_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Mesh*(*)(::PVOID, ::Class_1_F0BC55524B5D6A07_Section*, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MESHGENERATORBASE_METHOD_1_004679B1608D45B2_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_AUTH_LOGOUTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E22000)
-#define EPIC_ONLINESERVICES_AUTH_LOGOUTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E22010)
-#define EPIC_ONLINESERVICES_AUTH_LOGOUTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E22020)
+#define EPIC_ONLINESERVICES_AUTH_LOGOUTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA27EFF0)
+#define EPIC_ONLINESERVICES_AUTH_LOGOUTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA27F000)
+#define EPIC_ONLINESERVICES_AUTH_LOGOUTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA27F010)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int LogoutOptions_TypeDefinitionIndex = 42385;
+	inline static constexpr unsigned int LogoutOptions_TypeDefinitionIndex = 43188;
 
 	class LogoutOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LOGOUTOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LOGOUTOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_LOGOUTOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

@@ -13,12 +13,12 @@ namespace RPG::GameCore { class SavedValueDimensionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTLEVELDIMENSIONINFO_METHOD_2_CE78E93CE559DC8C_OFFSET UNITYSDK_OFFSET(0x18DD0FC0)
-#define RPG_GAMECORE_RTLEVELDIMENSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD1550)
+#define RPG_GAMECORE_RTLEVELDIMENSIONINFO_METHOD_2_7159EDB58142B4CA_OFFSET UNITYSDK_OFFSET(0x19BEAD10)
+#define RPG_GAMECORE_RTLEVELDIMENSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEB280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLevelDimensionInfo_TypeDefinitionIndex = 16455;
+	inline static constexpr unsigned int RtLevelDimensionInfo_TypeDefinitionIndex = 16489;
 
 	class RtLevelDimensionInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -45,9 +45,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELDIMENSIONINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CE78E93CE559DC8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtLevelDimensionInfo*& a2)
+		static ::System::Void Method_2_7159EDB58142B4CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtLevelDimensionInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtLevelDimensionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELDIMENSIONINFO_METHOD_2_CE78E93CE559DC8C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtLevelDimensionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELDIMENSIONINFO_METHOD_2_7159EDB58142B4CA_OFFSET))(a1, a2);
 		}
 	};
 }

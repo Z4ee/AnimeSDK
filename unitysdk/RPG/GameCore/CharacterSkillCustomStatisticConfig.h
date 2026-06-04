@@ -7,12 +7,12 @@ namespace RPG::GameCore { class SkillMaxHitConfigList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERSKILLCUSTOMSTATISTICCONFIG_METHOD_2_510EB625C51B9306_OFFSET UNITYSDK_OFFSET(0x187D7BF0)
-#define RPG_GAMECORE_CHARACTERSKILLCUSTOMSTATISTICCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187D7E00)
+#define RPG_GAMECORE_CHARACTERSKILLCUSTOMSTATISTICCONFIG_METHOD_2_D0C0635B3A495505_OFFSET UNITYSDK_OFFSET(0x196154C0)
+#define RPG_GAMECORE_CHARACTERSKILLCUSTOMSTATISTICCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196156C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterSkillCustomStatisticConfig_TypeDefinitionIndex = 15652;
+	inline static constexpr unsigned int CharacterSkillCustomStatisticConfig_TypeDefinitionIndex = 15709;
 
 	class CharacterSkillCustomStatisticConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSKILLCUSTOMSTATISTICCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_510EB625C51B9306(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterSkillCustomStatisticConfig*& a2)
+		static ::System::Void Method_2_D0C0635B3A495505(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterSkillCustomStatisticConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterSkillCustomStatisticConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSKILLCUSTOMSTATISTICCONFIG_METHOD_2_510EB625C51B9306_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterSkillCustomStatisticConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSKILLCUSTOMSTATISTICCONFIG_METHOD_2_D0C0635B3A495505_OFFSET))(a1, a2);
 		}
 	};
 }

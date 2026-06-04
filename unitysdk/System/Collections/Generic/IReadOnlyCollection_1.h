@@ -3,7 +3,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int IReadOnlyCollection_1_TypeDefinitionIndex = 1557;
+	inline static constexpr unsigned int IReadOnlyCollection_1_TypeDefinitionIndex = 1555;
 
 	template <typename T>
 	class IReadOnlyCollection_1

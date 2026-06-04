@@ -4,18 +4,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xAAB6180)
-#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_GET_EXTRAROLLRESULT_OFFSET UNITYSDK_OFFSET(0xAABD3E0)
-#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_GET_OPTIONID_OFFSET UNITYSDK_OFFSET(0xAABD3A0)
-#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_GET_ROLLRANDOMLIST_OFFSET UNITYSDK_OFFSET(0xAABD3C0)
-#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_EXTRAROLLRESULT_OFFSET UNITYSDK_OFFSET(0xAABD3F0)
-#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_OPTIONID_OFFSET UNITYSDK_OFFSET(0xAABD3B0)
-#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_ROLLRANDOMLIST_OFFSET UNITYSDK_OFFSET(0xAABD3D0)
-#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAABD390)
+#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC18B980)
+#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_GET_EXTRAROLLRESULT_OFFSET UNITYSDK_OFFSET(0xC18BA60)
+#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_GET_OPTIONID_OFFSET UNITYSDK_OFFSET(0xC18BA20)
+#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_GET_ROLLRANDOMLIST_OFFSET UNITYSDK_OFFSET(0xC18BA40)
+#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_EXTRAROLLRESULT_OFFSET UNITYSDK_OFFSET(0xC18BA70)
+#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_OPTIONID_OFFSET UNITYSDK_OFFSET(0xC18BA30)
+#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_ROLLRANDOMLIST_OFFSET UNITYSDK_OFFSET(0xC18BA50)
+#define RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC18BA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyRollRandomResultData_TypeDefinitionIndex = 61010;
+	inline static constexpr unsigned int MonopolyRollRandomResultData_TypeDefinitionIndex = 61944;
 
 	class MonopolyRollRandomResultData : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MonopolyRollRandomResultData* Create(::System::UInt32 optionID, ::System::Collections::Generic::List_1<::System::UInt32>* rollRandomList, ::System::UInt32 extraRollResult)
+		static ::RPG::Client::MonopolyRollRandomResultData* Create(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::MonopolyRollRandomResultData*(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_CREATE_OFFSET))(optionID, rollRandomList, extraRollResult);
+			return ((::RPG::Client::MonopolyRollRandomResultData*(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_CREATE_OFFSET))(a1, a2, a3);
 		}
 
 		::System::UInt32 get_OptionID()
@@ -39,9 +39,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_GET_OPTIONID_OFFSET))(this);
 		}
 
-		::System::Void set_OptionID(::System::UInt32 value)
+		::System::Void set_OptionID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_OPTIONID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_OPTIONID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_RollRandomList()
@@ -49,9 +49,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_GET_ROLLRANDOMLIST_OFFSET))(this);
 		}
 
-		::System::Void set_RollRandomList(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_RollRandomList(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_ROLLRANDOMLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_ROLLRANDOMLIST_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ExtraRollResult()
@@ -59,9 +59,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_GET_EXTRAROLLRESULT_OFFSET))(this);
 		}
 
-		::System::Void set_ExtraRollResult(::System::UInt32 value)
+		::System::Void set_ExtraRollResult(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_EXTRAROLLRESULT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYROLLRANDOMRESULTDATA_SET_EXTRAROLLRESULT_OFFSET))(this, a1);
 		}
 	};
 }

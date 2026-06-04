@@ -7,15 +7,15 @@
 #include "unitysdk/UnityEngine/UIElements/StyleKeyword.h"
 #include "unitysdk/UnityEngine/UIElements/StyleSheets/StylePropertyID.h"
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1A51BD80)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1A51BD20)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_3_OFFSET UNITYSDK_OFFSET(0x1A51BD50)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_4_OFFSET UNITYSDK_OFFSET(0x1A51BDA0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_OFFSET UNITYSDK_OFFSET(0x1A51BDC0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1B367450)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1B3673F0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_3_OFFSET UNITYSDK_OFFSET(0x1B367420)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_4_OFFSET UNITYSDK_OFFSET(0x1B367470)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_OFFSET UNITYSDK_OFFSET(0x1B367490)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int StyleValue_TypeDefinitionIndex = 5992;
+	inline static constexpr unsigned int StyleValue_TypeDefinitionIndex = 6269;
 
 	struct alignas(4) StyleValue
 	{
@@ -26,29 +26,29 @@ namespace UnityEngine::UIElements::StyleSheets
 		::UnityEngine::Color color; // 0x18
 		::System::Runtime::InteropServices::GCHandle resource; // 0x18
 
-		static ::UnityEngine::UIElements::StyleSheets::StyleValue Create(::UnityEngine::UIElements::StyleSheets::StylePropertyID id)
+		static ::UnityEngine::UIElements::StyleSheets::StyleValue Create(::UnityEngine::UIElements::StyleSheets::StylePropertyID a1)
 		{
-			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_OFFSET))(id);
+			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::UIElements::StyleSheets::StyleValue Create_1(::UnityEngine::UIElements::StyleSheets::StylePropertyID id, ::UnityEngine::UIElements::StyleKeyword keyword)
+		static ::UnityEngine::UIElements::StyleSheets::StyleValue Create_1(::UnityEngine::UIElements::StyleSheets::StylePropertyID a1, ::UnityEngine::UIElements::StyleKeyword a2)
 		{
-			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_1_OFFSET))(id, keyword);
+			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_1_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::UIElements::StyleSheets::StyleValue Create_2(::UnityEngine::UIElements::StyleSheets::StylePropertyID id, ::System::Single number)
+		static ::UnityEngine::UIElements::StyleSheets::StyleValue Create_2(::UnityEngine::UIElements::StyleSheets::StylePropertyID a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_2_OFFSET))(id, number);
+			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_2_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::UIElements::StyleSheets::StyleValue Create_3(::UnityEngine::UIElements::StyleSheets::StylePropertyID id, ::System::Int32 number)
+		static ::UnityEngine::UIElements::StyleSheets::StyleValue Create_3(::UnityEngine::UIElements::StyleSheets::StylePropertyID a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_3_OFFSET))(id, number);
+			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_3_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::UIElements::StyleSheets::StyleValue Create_4(::UnityEngine::UIElements::StyleSheets::StylePropertyID id, ::UnityEngine::Color color)
+		static ::UnityEngine::UIElements::StyleSheets::StyleValue Create_4(::UnityEngine::UIElements::StyleSheets::StylePropertyID a1, ::UnityEngine::Color a2)
 		{
-			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_4_OFFSET))(id, color);
+			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLEVALUE_CREATE_4_OFFSET))(a1, a2);
 		}
 	};
 }

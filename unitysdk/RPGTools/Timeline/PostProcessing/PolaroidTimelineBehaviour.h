@@ -8,13 +8,13 @@
 namespace RPG::CustomRP { class RPGPolaroid; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB9030E0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB903430)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB903460)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD044450)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD0447A0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD0447D0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PolaroidTimelineBehaviour_TypeDefinitionIndex = 45306;
+	inline static constexpr unsigned int PolaroidTimelineBehaviour_TypeDefinitionIndex = 45863;
 
 	class PolaroidTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGPolaroid*>
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline::PostProcessing
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

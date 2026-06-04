@@ -5,19 +5,19 @@
 
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define UNITYENGINE_UI_MULTIPLEDISPLAYUTILITIES_GETMOUSEPOSITIONRELATIVETOMAINDISPLAYRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1A57F470)
-#define UNITYENGINE_UI_MULTIPLEDISPLAYUTILITIES_GETRELATIVEMOUSEPOSITIONFORDRAG_OFFSET UNITYSDK_OFFSET(0x1A56B870)
+#define UNITYENGINE_UI_MULTIPLEDISPLAYUTILITIES_GETMOUSEPOSITIONRELATIVETOMAINDISPLAYRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1B3CD330)
+#define UNITYENGINE_UI_MULTIPLEDISPLAYUTILITIES_GETRELATIVEMOUSEPOSITIONFORDRAG_OFFSET UNITYSDK_OFFSET(0x1B3B7D20)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int MultipleDisplayUtilities_TypeDefinitionIndex = 5677;
+	inline static constexpr unsigned int MultipleDisplayUtilities_TypeDefinitionIndex = 5954;
 
 	class MultipleDisplayUtilities : public ::System::Object
 	{
 	public:
-		static ::System::Boolean GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ::UnityEngine::Vector2& position)
+		static ::System::Boolean GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* a1, ::UnityEngine::Vector2& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_MULTIPLEDISPLAYUTILITIES_GETRELATIVEMOUSEPOSITIONFORDRAG_OFFSET))(eventData, position);
+			return ((::System::Boolean(*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_MULTIPLEDISPLAYUTILITIES_GETRELATIVEMOUSEPOSITIONFORDRAG_OFFSET))(a1, a2);
 		}
 
 		static ::UnityEngine::Vector2 GetMousePositionRelativeToMainDisplayResolution()

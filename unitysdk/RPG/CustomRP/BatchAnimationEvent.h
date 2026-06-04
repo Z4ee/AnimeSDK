@@ -11,16 +11,16 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class BatchAnimEventObjCB_ExecuteEventFun; }
 namespace UnityEngine::Rendering { class BatchAnimation; }
 
-#define RPG_CUSTOMRP_BATCHANIMATIONEVENT_BUILDEVENTMAP_OFFSET UNITYSDK_OFFSET(0x181039B0)
-#define RPG_CUSTOMRP_BATCHANIMATIONEVENT_EXECUTEEVENT_OFFSET UNITYSDK_OFFSET(0x18103780)
-#define RPG_CUSTOMRP_BATCHANIMATIONEVENT_GETEVENTEXECUTORFUN_OFFSET UNITYSDK_OFFSET(0x18103910)
-#define RPG_CUSTOMRP_BATCHANIMATIONEVENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18103C90)
-#define RPG_CUSTOMRP_BATCHANIMATIONEVENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18103920)
-#define RPG_CUSTOMRP_BATCHANIMATIONEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x181033D0)
+#define RPG_CUSTOMRP_BATCHANIMATIONEVENT_BUILDEVENTMAP_OFFSET UNITYSDK_OFFSET(0x18EA6BA0)
+#define RPG_CUSTOMRP_BATCHANIMATIONEVENT_EXECUTEEVENT_OFFSET UNITYSDK_OFFSET(0x18EA69B0)
+#define RPG_CUSTOMRP_BATCHANIMATIONEVENT_GETEVENTEXECUTORFUN_OFFSET UNITYSDK_OFFSET(0x18EA6B00)
+#define RPG_CUSTOMRP_BATCHANIMATIONEVENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18EA6E30)
+#define RPG_CUSTOMRP_BATCHANIMATIONEVENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18EA6B10)
+#define RPG_CUSTOMRP_BATCHANIMATIONEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA6660)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int BatchAnimationEvent_TypeDefinitionIndex = 34981;
+	inline static constexpr unsigned int BatchAnimationEvent_TypeDefinitionIndex = 35266;
 
 	class BatchAnimationEvent : public ::UnityEngine::MonoBehaviour
 	{
@@ -34,14 +34,14 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BATCHANIMATIONEVENT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ExecuteEvent(::UnityEngine::Rendering::BatchAnimation* ba, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchAnimEventObjCB>& eventObjects, ::System::Int32 count)
+		::System::Void ExecuteEvent(::UnityEngine::Rendering::BatchAnimation* a1, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchAnimEventObjCB>& a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchAnimEventObjCB>&, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BATCHANIMATIONEVENT_EXECUTEEVENT_OFFSET))(this, ba, eventObjects, count);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchAnimEventObjCB>&, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BATCHANIMATIONEVENT_EXECUTEEVENT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Rendering::BatchAnimEventObjCB_ExecuteEventFun* GetEventExecutorFun(::System::String* funName)
+		::UnityEngine::Rendering::BatchAnimEventObjCB_ExecuteEventFun* GetEventExecutorFun(::System::String* a1)
 		{
-			return ((::UnityEngine::Rendering::BatchAnimEventObjCB_ExecuteEventFun*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BATCHANIMATIONEVENT_GETEVENTEXECUTORFUN_OFFSET))(this, funName);
+			return ((::UnityEngine::Rendering::BatchAnimEventObjCB_ExecuteEventFun*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BATCHANIMATIONEVENT_GETEVENTEXECUTORFUN_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()

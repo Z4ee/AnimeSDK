@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISENEMY_METHOD_4_2F44EDAB81B8D623_OFFSET UNITYSDK_OFFSET(0x18751EA0)
-#define RPG_GAMECORE_BYISENEMY_METHOD_4_31334FF7A03ED5C7_OFFSET UNITYSDK_OFFSET(0x18751DD0)
-#define RPG_GAMECORE_BYISENEMY__CTOR_OFFSET UNITYSDK_OFFSET(0x18751E50)
+#define RPG_GAMECORE_BYISENEMY_METHOD_4_09CB49C81F2D9350_OFFSET UNITYSDK_OFFSET(0x19561EB0)
+#define RPG_GAMECORE_BYISENEMY_METHOD_4_2F44EDAB81B8D623_OFFSET UNITYSDK_OFFSET(0x19561C70)
+#define RPG_GAMECORE_BYISENEMY_METHOD_4_31334FF7A03ED5C7_OFFSET UNITYSDK_OFFSET(0x19561BA0)
+#define RPG_GAMECORE_BYISENEMY_METHOD_4_49504C305D0B812B_OFFSET UNITYSDK_OFFSET(0x19561E30)
+#define RPG_GAMECORE_BYISENEMY__CTOR_OFFSET UNITYSDK_OFFSET(0x19561C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsEnemy_TypeDefinitionIndex = 22455;
+	inline static constexpr unsigned int ByIsEnemy_TypeDefinitionIndex = 22204;
 
 	class ByIsEnemy : public ::RPG::GameCore::PredicateConfig
 	{
@@ -32,6 +35,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_2F44EDAB81B8D623(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsEnemy* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsEnemy*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENEMY_METHOD_4_2F44EDAB81B8D623_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_49504C305D0B812B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsEnemy*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsEnemy*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENEMY_METHOD_4_49504C305D0B812B_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_09CB49C81F2D9350(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsEnemy* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsEnemy*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENEMY_METHOD_4_09CB49C81F2D9350_OFFSET))(a1, a2);
 		}
 	};
 }

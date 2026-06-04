@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_ADVENTUREAUDIOMANAGER_ALERTEDMONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9C85270)
+#define RPG_CLIENT_ADVENTUREAUDIOMANAGER_ALERTEDMONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB2273B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureAudioManager_AlertedMonsterInfo_TypeDefinitionIndex = 55773;
+	inline static constexpr unsigned int AdventureAudioManager_AlertedMonsterInfo_TypeDefinitionIndex = 56528;
 
 	class AdventureAudioManager_AlertedMonsterInfo : public ::System::Object
 	{
@@ -16,9 +16,9 @@ namespace RPG::Client
 		::RPG::GameCore::GameEntity* Entity; // 0x10
 		::System::Boolean IsMaxAlert; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* entity)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREAUDIOMANAGER_ALERTEDMONSTERINFO__CTOR_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREAUDIOMANAGER_ALERTEDMONSTERINFO__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

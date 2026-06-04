@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int StringPoolHash_TypeDefinitionIndex = 4156;
+	inline static constexpr unsigned int StringPoolHash_TypeDefinitionIndex = 4330;
 
 	struct alignas(4) StringPoolHash
 	{

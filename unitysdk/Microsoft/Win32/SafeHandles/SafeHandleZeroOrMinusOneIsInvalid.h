@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/InteropServices/SafeHandle.h"
 
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEHANDLEZEROORMINUSONEISINVALID_GET_ISINVALID_OFFSET UNITYSDK_OFFSET(0x1778D960)
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEHANDLEZEROORMINUSONEISINVALID__CTOR_OFFSET UNITYSDK_OFFSET(0x1778D7F0)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEHANDLEZEROORMINUSONEISINVALID_GET_ISINVALID_OFFSET UNITYSDK_OFFSET(0x18548840)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEHANDLEZEROORMINUSONEISINVALID__CTOR_OFFSET UNITYSDK_OFFSET(0x18548680)
 
 namespace Microsoft::Win32::SafeHandles
 {
@@ -12,9 +12,9 @@ namespace Microsoft::Win32::SafeHandles
 	class SafeHandleZeroOrMinusOneIsInvalid : public ::System::Runtime::InteropServices::SafeHandle
 	{
 	public:
-		::System::Void _ctor(::System::Boolean ownsHandle)
+		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_SAFEHANDLES_SAFEHANDLEZEROORMINUSONEISINVALID__CTOR_OFFSET))(this, ownsHandle);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_SAFEHANDLES_SAFEHANDLEZEROORMINUSONEISINVALID__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsInvalid()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtGamePhase_TypeDefinitionIndex = 16745;
+	inline static constexpr unsigned int RtGamePhase_TypeDefinitionIndex = 16766;
 
 	enum class RtGamePhase : ::System::Int32
 	{

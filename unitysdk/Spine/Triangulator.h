@@ -5,56 +5,56 @@
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace Spine { template <typename T> class Pool_1; }
 
-#define SPINE_TRIANGULATOR_DECOMPOSE_OFFSET UNITYSDK_OFFSET(0x19E238D0)
-#define SPINE_TRIANGULATOR_ISCONCAVE_OFFSET UNITYSDK_OFFSET(0x19E236E0)
-#define SPINE_TRIANGULATOR_POSITIVEAREA_OFFSET UNITYSDK_OFFSET(0x19E23890)
-#define SPINE_TRIANGULATOR_TRIANGULATE_OFFSET UNITYSDK_OFFSET(0x19E229A0)
-#define SPINE_TRIANGULATOR_WINDING_OFFSET UNITYSDK_OFFSET(0x19E24D80)
-#define SPINE_TRIANGULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19E24DC0)
+#define SPINE_TRIANGULATOR_DECOMPOSE_OFFSET UNITYSDK_OFFSET(0x1AC9EA10)
+#define SPINE_TRIANGULATOR_ISCONCAVE_OFFSET UNITYSDK_OFFSET(0x1AC9E8B0)
+#define SPINE_TRIANGULATOR_POSITIVEAREA_OFFSET UNITYSDK_OFFSET(0x1AC9E9D0)
+#define SPINE_TRIANGULATOR_TRIANGULATE_OFFSET UNITYSDK_OFFSET(0x1AC9DD60)
+#define SPINE_TRIANGULATOR_WINDING_OFFSET UNITYSDK_OFFSET(0x1AC9FBA0)
+#define SPINE_TRIANGULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC9FBE0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Triangulator_TypeDefinitionIndex = 36467;
+	inline static constexpr unsigned int Triangulator_TypeDefinitionIndex = 36767;
 
 	class Triangulator : public ::System::Object
 	{
 	public:
-		::Spine::Pool_1<::Spine::ExposedList_1<::System::Single>*>* polygonPool; // 0x10
-		::Spine::ExposedList_1<::System::Int32>* triangles; // 0x18
+		::Spine::ExposedList_1<::System::Int32>* indicesArray; // 0x10
+		::Spine::Pool_1<::Spine::ExposedList_1<::System::Int32>*>* polygonIndicesPool; // 0x18
 		::Spine::ExposedList_1<::System::Boolean>* isConcaveArray; // 0x20
-		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Single>*>* convexPolygons; // 0x28
-		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Int32>*>* convexPolygonsIndices; // 0x30
-		::Spine::Pool_1<::Spine::ExposedList_1<::System::Int32>*>* polygonIndicesPool; // 0x38
-		::Spine::ExposedList_1<::System::Int32>* indicesArray; // 0x40
+		::Spine::ExposedList_1<::System::Int32>* triangles; // 0x28
+		::Spine::Pool_1<::Spine::ExposedList_1<::System::Single>*>* polygonPool; // 0x30
+		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Single>*>* convexPolygons; // 0x38
+		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Int32>*>* convexPolygonsIndices; // 0x40
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRIANGULATOR__CTOR_OFFSET))(this);
 		}
 
-		::Spine::ExposedList_1<::System::Int32>* Triangulate(::Spine::ExposedList_1<::System::Single>* verticesArray)
+		::Spine::ExposedList_1<::System::Int32>* Triangulate(::Spine::ExposedList_1<::System::Single>* a1)
 		{
-			return ((::Spine::ExposedList_1<::System::Int32>*(*)(::PVOID, ::Spine::ExposedList_1<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_TRIANGULATOR_TRIANGULATE_OFFSET))(this, verticesArray);
+			return ((::Spine::ExposedList_1<::System::Int32>*(*)(::PVOID, ::Spine::ExposedList_1<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_TRIANGULATOR_TRIANGULATE_OFFSET))(this, a1);
 		}
 
-		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Single>*>* Decompose(::Spine::ExposedList_1<::System::Single>* verticesArray, ::Spine::ExposedList_1<::System::Int32>* triangles)
+		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Single>*>* Decompose(::Spine::ExposedList_1<::System::Single>* a1, ::Spine::ExposedList_1<::System::Int32>* a2)
 		{
-			return ((::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Single>*>*(*)(::PVOID, ::Spine::ExposedList_1<::System::Single>*, ::Spine::ExposedList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + SPINE_TRIANGULATOR_DECOMPOSE_OFFSET))(this, verticesArray, triangles);
+			return ((::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Single>*>*(*)(::PVOID, ::Spine::ExposedList_1<::System::Single>*, ::Spine::ExposedList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + SPINE_TRIANGULATOR_DECOMPOSE_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Boolean IsConcave(::System::Int32 index, ::System::Int32 vertexCount, ::Il2CppArray<::System::Single>* vertices, ::Il2CppArray<::System::Int32>* indices)
+		static ::System::Boolean IsConcave(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::Single>* a3, ::Il2CppArray<::System::Int32>* a4)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SPINE_TRIANGULATOR_ISCONCAVE_OFFSET))(index, vertexCount, vertices, indices);
+			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SPINE_TRIANGULATOR_ISCONCAVE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean PositiveArea(::System::Single p1x, ::System::Single p1y, ::System::Single p2x, ::System::Single p2y, ::System::Single p3x, ::System::Single p3y)
+		static ::System::Boolean PositiveArea(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
 		{
-			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRIANGULATOR_POSITIVEAREA_OFFSET))(p1x, p1y, p2x, p2y, p3x, p3y);
+			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRIANGULATOR_POSITIVEAREA_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 Winding(::System::Single p1x, ::System::Single p1y, ::System::Single p2x, ::System::Single p2y, ::System::Single p3x, ::System::Single p3y)
+		static ::System::Int32 Winding(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
 		{
-			return ((::System::Int32(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRIANGULATOR_WINDING_OFFSET))(p1x, p1y, p2x, p2y, p3x, p3y);
+			return ((::System::Int32(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRIANGULATOR_WINDING_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

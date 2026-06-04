@@ -10,60 +10,60 @@ namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 namespace System::Text { class StringBuilder; }
 
-#define INCONTROL_KEYCOMBO_ADDEXCLUDEINT_OFFSET UNITYSDK_OFFSET(0x2297500)
-#define INCONTROL_KEYCOMBO_ADDEXCLUDE_OFFSET UNITYSDK_OFFSET(0x2297500)
-#define INCONTROL_KEYCOMBO_ADDINCLUDEINT_OFFSET UNITYSDK_OFFSET(0x22974A0)
-#define INCONTROL_KEYCOMBO_ADDINCLUDE_OFFSET UNITYSDK_OFFSET(0x22974A0)
-#define INCONTROL_KEYCOMBO_ADD_OFFSET UNITYSDK_OFFSET(0x22974A0)
-#define INCONTROL_KEYCOMBO_ANDNOT_OFFSET UNITYSDK_OFFSET(0x2297560)
-#define INCONTROL_KEYCOMBO_CLEAR_OFFSET UNITYSDK_OFFSET(0x22975E0)
-#define INCONTROL_KEYCOMBO_DETECT_OFFSET UNITYSDK_OFFSET(0x17179FE0)
-#define INCONTROL_KEYCOMBO_EQUALS_OFFSET UNITYSDK_OFFSET(0x2297620)
-#define INCONTROL_KEYCOMBO_GETEXCLUDEINT_OFFSET UNITYSDK_OFFSET(0x2297530)
-#define INCONTROL_KEYCOMBO_GETEXCLUDE_OFFSET UNITYSDK_OFFSET(0x2297550)
-#define INCONTROL_KEYCOMBO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2297650)
-#define INCONTROL_KEYCOMBO_GETINCLUDEINT_OFFSET UNITYSDK_OFFSET(0x22974D0)
-#define INCONTROL_KEYCOMBO_GETINCLUDE_OFFSET UNITYSDK_OFFSET(0x22974F0)
-#define INCONTROL_KEYCOMBO_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define INCONTROL_KEYCOMBO_GET_EXCLUDECOUNT_OFFSET UNITYSDK_OFFSET(0x68F0)
-#define INCONTROL_KEYCOMBO_GET_INCLUDECOUNT_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define INCONTROL_KEYCOMBO_GET_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x2297600)
-#define INCONTROL_KEYCOMBO_GET_OFFSET UNITYSDK_OFFSET(0x22974F0)
-#define INCONTROL_KEYCOMBO_LOAD_OFFSET UNITYSDK_OFFSET(0x2297680)
-#define INCONTROL_KEYCOMBO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1717C610)
-#define INCONTROL_KEYCOMBO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1717CF20)
-#define INCONTROL_KEYCOMBO_SAVE_OFFSET UNITYSDK_OFFSET(0x2297690)
-#define INCONTROL_KEYCOMBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2297610)
-#define INCONTROL_KEYCOMBO_WITH_OFFSET UNITYSDK_OFFSET(0x1717CD70)
-#define INCONTROL_KEYCOMBO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1717CF70)
-#define INCONTROL_KEYCOMBO__CTOR_OFFSET UNITYSDK_OFFSET(0x2297390)
+#define INCONTROL_KEYCOMBO_ADDEXCLUDEINT_OFFSET UNITYSDK_OFFSET(0x38250D0)
+#define INCONTROL_KEYCOMBO_ADDEXCLUDE_OFFSET UNITYSDK_OFFSET(0x38250D0)
+#define INCONTROL_KEYCOMBO_ADDINCLUDEINT_OFFSET UNITYSDK_OFFSET(0x3825070)
+#define INCONTROL_KEYCOMBO_ADDINCLUDE_OFFSET UNITYSDK_OFFSET(0x3825070)
+#define INCONTROL_KEYCOMBO_ADD_OFFSET UNITYSDK_OFFSET(0x3825070)
+#define INCONTROL_KEYCOMBO_ANDNOT_OFFSET UNITYSDK_OFFSET(0x3825130)
+#define INCONTROL_KEYCOMBO_CLEAR_OFFSET UNITYSDK_OFFSET(0x38251B0)
+#define INCONTROL_KEYCOMBO_DETECT_OFFSET UNITYSDK_OFFSET(0x17FC14D0)
+#define INCONTROL_KEYCOMBO_EQUALS_OFFSET UNITYSDK_OFFSET(0x38251F0)
+#define INCONTROL_KEYCOMBO_GETEXCLUDEINT_OFFSET UNITYSDK_OFFSET(0x3825100)
+#define INCONTROL_KEYCOMBO_GETEXCLUDE_OFFSET UNITYSDK_OFFSET(0x3825120)
+#define INCONTROL_KEYCOMBO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3825220)
+#define INCONTROL_KEYCOMBO_GETINCLUDEINT_OFFSET UNITYSDK_OFFSET(0x38250A0)
+#define INCONTROL_KEYCOMBO_GETINCLUDE_OFFSET UNITYSDK_OFFSET(0x38250C0)
+#define INCONTROL_KEYCOMBO_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define INCONTROL_KEYCOMBO_GET_EXCLUDECOUNT_OFFSET UNITYSDK_OFFSET(0x6EE0)
+#define INCONTROL_KEYCOMBO_GET_INCLUDECOUNT_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define INCONTROL_KEYCOMBO_GET_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x38251D0)
+#define INCONTROL_KEYCOMBO_GET_OFFSET UNITYSDK_OFFSET(0x38250C0)
+#define INCONTROL_KEYCOMBO_LOAD_OFFSET UNITYSDK_OFFSET(0x3825250)
+#define INCONTROL_KEYCOMBO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x17FC3B30)
+#define INCONTROL_KEYCOMBO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x17FC4440)
+#define INCONTROL_KEYCOMBO_SAVE_OFFSET UNITYSDK_OFFSET(0x3825260)
+#define INCONTROL_KEYCOMBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x38251E0)
+#define INCONTROL_KEYCOMBO_WITH_OFFSET UNITYSDK_OFFSET(0x17FC4290)
+#define INCONTROL_KEYCOMBO__CCTOR_OFFSET UNITYSDK_OFFSET(0x17FC4490)
+#define INCONTROL_KEYCOMBO__CTOR_OFFSET UNITYSDK_OFFSET(0x3824F60)
 
 namespace InControl
 {
-	inline static constexpr unsigned int KeyCombo_TypeDefinitionIndex = 37106;
+	inline static constexpr unsigned int KeyCombo_TypeDefinitionIndex = 37838;
 
 	struct alignas(8) KeyCombo
 	{
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>** StaticGet_cachedStrings()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(KeyCombo_TypeDefinitionIndex)->GetStaticField(0xC5A0);
-		}
 		static ::System::Text::StringBuilder** StaticGet_cachedStringBuilder()
 		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(KeyCombo_TypeDefinitionIndex)->GetStaticField(0xC5A8);
+			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(KeyCombo_TypeDefinitionIndex)->GetStaticField(0x125C0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>** StaticGet_cachedStrings()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(KeyCombo_TypeDefinitionIndex)->GetStaticField(0x125C8);
 		}
 		static ::InControl::KeyCombo* StaticGet_Empty()
 		{
-			return (::InControl::KeyCombo*)Il2CppClass::FromTypeDefinitionIndex(KeyCombo_TypeDefinitionIndex)->GetStaticField(0x49D0);
+			return (::InControl::KeyCombo*)Il2CppClass::FromTypeDefinitionIndex(KeyCombo_TypeDefinitionIndex)->GetStaticField(0x5650);
 		}
 		::System::Int32 includeSize; // 0x10
 		::System::UInt64 includeData; // 0x18
 		::System::Int32 excludeSize; // 0x20
 		::System::UInt64 excludeData; // 0x28
 
-		::System::Void _ctor(::Il2CppArray<::InControl::Key>* keys)
+		::System::Void _ctor(::Il2CppArray<::InControl::Key>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO__CTOR_OFFSET))(this, keys);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -71,64 +71,64 @@ namespace InControl
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO__CCTOR_OFFSET))();
 		}
 
-		::System::Void AddIncludeInt(::System::Int32 key)
+		::System::Void AddIncludeInt(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ADDINCLUDEINT_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ADDINCLUDEINT_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetIncludeInt(::System::Int32 index)
+		::System::Int32 GetIncludeInt(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GETINCLUDEINT_OFFSET))(this, index);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GETINCLUDEINT_OFFSET))(this, a1);
 		}
 
-		::System::Void Add(::InControl::Key key)
+		::System::Void Add(::InControl::Key a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::Key))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ADD_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::InControl::Key))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ADD_OFFSET))(this, a1);
 		}
 
-		::InControl::Key Get(::System::Int32 index)
+		::InControl::Key Get(::System::Int32 a1)
 		{
-			return ((::InControl::Key(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GET_OFFSET))(this, index);
+			return ((::InControl::Key(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GET_OFFSET))(this, a1);
 		}
 
-		::System::Void AddInclude(::InControl::Key key)
+		::System::Void AddInclude(::InControl::Key a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::Key))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ADDINCLUDE_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::InControl::Key))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ADDINCLUDE_OFFSET))(this, a1);
 		}
 
-		::InControl::Key GetInclude(::System::Int32 index)
+		::InControl::Key GetInclude(::System::Int32 a1)
 		{
-			return ((::InControl::Key(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GETINCLUDE_OFFSET))(this, index);
+			return ((::InControl::Key(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GETINCLUDE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddExcludeInt(::System::Int32 key)
+		::System::Void AddExcludeInt(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ADDEXCLUDEINT_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ADDEXCLUDEINT_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetExcludeInt(::System::Int32 index)
+		::System::Int32 GetExcludeInt(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GETEXCLUDEINT_OFFSET))(this, index);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GETEXCLUDEINT_OFFSET))(this, a1);
 		}
 
-		::System::Void AddExclude(::InControl::Key key)
+		::System::Void AddExclude(::InControl::Key a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::Key))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ADDEXCLUDE_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::InControl::Key))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ADDEXCLUDE_OFFSET))(this, a1);
 		}
 
-		::InControl::Key GetExclude(::System::Int32 index)
+		::InControl::Key GetExclude(::System::Int32 a1)
 		{
-			return ((::InControl::Key(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GETEXCLUDE_OFFSET))(this, index);
+			return ((::InControl::Key(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GETEXCLUDE_OFFSET))(this, a1);
 		}
 
-		static ::InControl::KeyCombo With(::Il2CppArray<::InControl::Key>* keys)
+		static ::InControl::KeyCombo With(::Il2CppArray<::InControl::Key>* a1)
 		{
-			return ((::InControl::KeyCombo(*)(::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_WITH_OFFSET))(keys);
+			return ((::InControl::KeyCombo(*)(::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_WITH_OFFSET))(a1);
 		}
 
-		::InControl::KeyCombo AndNot(::Il2CppArray<::InControl::Key>* keys)
+		::InControl::KeyCombo AndNot(::Il2CppArray<::InControl::Key>* a1)
 		{
-			return ((::InControl::KeyCombo(*)(::PVOID, ::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ANDNOT_OFFSET))(this, keys);
+			return ((::InControl::KeyCombo(*)(::PVOID, ::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ANDNOT_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -156,9 +156,9 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GET_ISPRESSED_OFFSET))(this);
 		}
 
-		static ::InControl::KeyCombo Detect(::System::Boolean modifiersAsKeys)
+		static ::InControl::KeyCombo Detect(::System::Boolean a1)
 		{
-			return ((::InControl::KeyCombo(*)(::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_DETECT_OFFSET))(modifiersAsKeys);
+			return ((::InControl::KeyCombo(*)(::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_DETECT_OFFSET))(a1);
 		}
 
 		::System::String* ToString()
@@ -166,19 +166,19 @@ namespace InControl
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::InControl::KeyCombo a, ::InControl::KeyCombo b)
+		static ::System::Boolean op_Equality(::InControl::KeyCombo a1, ::InControl::KeyCombo a2)
 		{
-			return ((::System::Boolean(*)(::InControl::KeyCombo, ::InControl::KeyCombo))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_OP_EQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::InControl::KeyCombo, ::InControl::KeyCombo))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::InControl::KeyCombo a, ::InControl::KeyCombo b)
+		static ::System::Boolean op_Inequality(::InControl::KeyCombo a1, ::InControl::KeyCombo a2)
 		{
-			return ((::System::Boolean(*)(::InControl::KeyCombo, ::InControl::KeyCombo))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_OP_INEQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::InControl::KeyCombo, ::InControl::KeyCombo))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -186,14 +186,14 @@ namespace InControl
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Void Load(::System::IO::BinaryReader* reader, ::System::UInt16 dataFormatVersion)
+		::System::Void Load(::System::IO::BinaryReader* a1, ::System::UInt16 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*, ::System::UInt16))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_LOAD_OFFSET))(this, reader, dataFormatVersion);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*, ::System::UInt16))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_LOAD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Save(::System::IO::BinaryWriter* writer)
+		::System::Void Save(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_SAVE_OFFSET))(this, writer);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_SAVE_OFFSET))(this, a1);
 		}
 	};
 }

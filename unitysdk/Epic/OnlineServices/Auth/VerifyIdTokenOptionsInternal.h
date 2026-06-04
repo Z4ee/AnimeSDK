@@ -6,33 +6,33 @@ namespace Epic::OnlineServices::Auth { class IdToken; }
 namespace Epic::OnlineServices::Auth { class VerifyIdTokenOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2D870)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2D860)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_IDTOKEN_OFFSET UNITYSDK_OFFSET(0x2D770)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2D7E0)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x32260)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x32250)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_IDTOKEN_OFFSET UNITYSDK_OFFSET(0x32160)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x321D0)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int VerifyIdTokenOptionsInternal_TypeDefinitionIndex = 42414;
+	inline static constexpr unsigned int VerifyIdTokenOptionsInternal_TypeDefinitionIndex = 43217;
 
 	struct alignas(8) VerifyIdTokenOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_IdToken; // 0x18
 
-		::System::Void set_IdToken(::Epic::OnlineServices::Auth::IdToken* value)
+		::System::Void set_IdToken(::Epic::OnlineServices::Auth::IdToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IdToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_IDTOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IdToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_IDTOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Auth::VerifyIdTokenOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Auth::VerifyIdTokenOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::VerifyIdTokenOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::VerifyIdTokenOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

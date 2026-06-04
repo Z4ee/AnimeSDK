@@ -4,24 +4,24 @@
 
 namespace Spine { class TrackEntry; }
 
-#define SPINE_UNITY_WAITFORSPINEANIMATIONCOMPLETE_NOWWAITFOR_OFFSET UNITYSDK_OFFSET(0x19E6A9D0)
-#define SPINE_UNITY_WAITFORSPINEANIMATIONCOMPLETE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6A9A0)
+#define SPINE_UNITY_WAITFORSPINEANIMATIONCOMPLETE_NOWWAITFOR_OFFSET UNITYSDK_OFFSET(0x1ACE1010)
+#define SPINE_UNITY_WAITFORSPINEANIMATIONCOMPLETE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE0FE0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int WaitForSpineAnimationComplete_TypeDefinitionIndex = 40662;
+	inline static constexpr unsigned int WaitForSpineAnimationComplete_TypeDefinitionIndex = 41489;
 
 	class WaitForSpineAnimationComplete : public ::Spine::Unity::WaitForSpineAnimation
 	{
 	public:
-		::System::Void _ctor(::Spine::TrackEntry* trackEntry, ::System::Boolean includeEndEvent)
+		::System::Void _ctor(::Spine::TrackEntry* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATIONCOMPLETE__CTOR_OFFSET))(this, trackEntry, includeEndEvent);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATIONCOMPLETE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::Spine::Unity::WaitForSpineAnimationComplete* NowWaitFor(::Spine::TrackEntry* trackEntry, ::System::Boolean includeEndEvent)
+		::Spine::Unity::WaitForSpineAnimationComplete* NowWaitFor(::Spine::TrackEntry* a1, ::System::Boolean a2)
 		{
-			return ((::Spine::Unity::WaitForSpineAnimationComplete*(*)(::PVOID, ::Spine::TrackEntry*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATIONCOMPLETE_NOWWAITFOR_OFFSET))(this, trackEntry, includeEndEvent);
+			return ((::Spine::Unity::WaitForSpineAnimationComplete*(*)(::PVOID, ::Spine::TrackEntry*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATIONCOMPLETE_NOWWAITFOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

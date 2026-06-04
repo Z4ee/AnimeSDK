@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1A5BEF20)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A5BEE40)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1B40B330)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B40B250)
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int UnityWebRequestTexture_TypeDefinitionIndex = 5996;
+	inline static constexpr unsigned int UnityWebRequestTexture_TypeDefinitionIndex = 6273;
 
 	class UnityWebRequestTexture : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Networking::UnityWebRequest* GetTexture(::System::String* uri)
+		static ::UnityEngine::Networking::UnityWebRequest* GetTexture(::System::String* a1)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_OFFSET))(uri);
+			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Networking::UnityWebRequest* GetTexture_1(::System::String* uri, ::System::Boolean nonReadable)
+		static ::UnityEngine::Networking::UnityWebRequest* GetTexture_1(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_1_OFFSET))(uri, nonReadable);
+			return ((::UnityEngine::Networking::UnityWebRequest*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_1_OFFSET))(a1, a2);
 		}
 	};
 }

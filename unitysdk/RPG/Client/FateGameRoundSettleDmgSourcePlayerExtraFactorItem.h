@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEPLAYEREXTRAFACTORITEM_GET_DESC_OFFSET UNITYSDK_OFFSET(0xA34B5F0)
-#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEPLAYEREXTRAFACTORITEM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA34B460)
-#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEPLAYEREXTRAFACTORITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA34B450)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEPLAYEREXTRAFACTORITEM_GET_DESC_OFFSET UNITYSDK_OFFSET(0xB99BCD0)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEPLAYEREXTRAFACTORITEM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB99BB60)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEPLAYEREXTRAFACTORITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB99BB50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameRoundSettleDmgSourcePlayerExtraFactorItem_TypeDefinitionIndex = 58923;
+	inline static constexpr unsigned int FateGameRoundSettleDmgSourcePlayerExtraFactorItem_TypeDefinitionIndex = 59853;
 
 	class FateGameRoundSettleDmgSourcePlayerExtraFactorItem : public ::System::Object
 	{
 	public:
 		::System::Double _ExtraFactor; // 0x10
 
-		::System::Void _ctor(::System::Double extraFactor)
+		::System::Void _ctor(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEPLAYEREXTRAFACTORITEM__CTOR_OFFSET))(this, extraFactor);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCEPLAYEREXTRAFACTORITEM__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Value()

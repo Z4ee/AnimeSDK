@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MappingInfoType_TypeDefinitionIndex = 11851;
+	inline static constexpr unsigned int MappingInfoType_TypeDefinitionIndex = 11946;
 
 	enum class MappingInfoType : ::System::Int32
 	{

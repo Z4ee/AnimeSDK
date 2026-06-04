@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueMagicUnitDataItem; }
 
-#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB060770)
-#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__FINDHAVINGUNITBYUNITID_B__0_OFFSET UNITYSDK_OFFSET(0xB061650)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7AE780)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__FINDHAVINGUNITBYUNITID_B__0_OFFSET UNITYSDK_OFFSET(0xC7AF690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicScepterDataItem___c__DisplayClass15_0_TypeDefinitionIndex = 62126;
+	inline static constexpr unsigned int RogueMagicScepterDataItem___c__DisplayClass15_0_TypeDefinitionIndex = 63059;
 
 	class RogueMagicScepterDataItem___c__DisplayClass15_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _FindHavingUnitByUnitID_b__0(::RPG::Client::RogueMagicUnitDataItem* data)
+		::System::Boolean _FindHavingUnitByUnitID_b__0(::RPG::Client::RogueMagicUnitDataItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueMagicUnitDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__FINDHAVINGUNITBYUNITID_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueMagicUnitDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSCEPTERDATAITEM___C__DISPLAYCLASS15_0__FINDHAVINGUNITBYUNITID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

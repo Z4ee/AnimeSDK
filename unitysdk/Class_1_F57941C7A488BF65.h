@@ -6,11 +6,11 @@ namespace RPG::Client { class CommonActivityLightConeRewardData; }
 namespace RPG::Client { class CommonActivityLightConeRewardGroup; }
 namespace RPG::GameCore { class MusicRhythmOpticalRow; }
 
-#define CLASS_1_F57941C7A488BF65_METHOD_1_C7942A221DBB53F0_OFFSET UNITYSDK_OFFSET(0x11961010)
-#define CLASS_1_F57941C7A488BF65_METHOD_1_E4C12CCB9A396AC4_OFFSET UNITYSDK_OFFSET(0x11960C90)
-#define CLASS_1_F57941C7A488BF65__CTOR_OFFSET UNITYSDK_OFFSET(0x11961140)
+#define CLASS_1_F57941C7A488BF65_METHOD_1_B04082AC4095B7BB_OFFSET UNITYSDK_OFFSET(0xA422B20)
+#define CLASS_1_F57941C7A488BF65_METHOD_1_C7942A221DBB53F0_OFFSET UNITYSDK_OFFSET(0xA422F30)
+#define CLASS_1_F57941C7A488BF65__CTOR_OFFSET UNITYSDK_OFFSET(0xA423060)
 
-inline static constexpr unsigned int Class_1_F57941C7A488BF65_TypeDefinitionIndex = 57014;
+inline static constexpr unsigned int Class_1_F57941C7A488BF65_TypeDefinitionIndex = 57801;
 
 class Class_1_F57941C7A488BF65 : public ::System::Object
 {
@@ -20,9 +20,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F57941C7A488BF65__CTOR_OFFSET))(this);
 	}
 
-	static ::RPG::Client::CommonActivityLightConeRewardData* Method_1_E4C12CCB9A396AC4()
+	static ::RPG::Client::CommonActivityLightConeRewardData* Method_1_B04082AC4095B7BB()
 	{
-		return ((::RPG::Client::CommonActivityLightConeRewardData*(*)())((::PBYTE)hIl2Cpp + CLASS_1_F57941C7A488BF65_METHOD_1_E4C12CCB9A396AC4_OFFSET))();
+		return ((::RPG::Client::CommonActivityLightConeRewardData*(*)())((::PBYTE)hIl2Cpp + CLASS_1_F57941C7A488BF65_METHOD_1_B04082AC4095B7BB_OFFSET))();
 	}
 
 	static ::RPG::Client::CommonActivityLightConeRewardGroup* Method_1_C7942A221DBB53F0(::RPG::GameCore::MusicRhythmOpticalRow* a1, ::System::Boolean& a2)

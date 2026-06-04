@@ -9,17 +9,17 @@ namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitCallback; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_1_OFFSET UNITYSDK_OFFSET(0x1A120920)
-#define SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_2_OFFSET UNITYSDK_OFFSET(0x1A11F840)
-#define SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1A11F130)
-#define SYSTEM_NET_LISTENERASYNCRESULT_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0x1A1205D0)
-#define SYSTEM_NET_LISTENERASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1A1325B0)
-#define SYSTEM_NET_LISTENERASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1A1204D0)
-#define SYSTEM_NET_LISTENERASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1A1325D0)
-#define SYSTEM_NET_LISTENERASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1A120400)
-#define SYSTEM_NET_LISTENERASYNCRESULT_INVOKECALLBACK_OFFSET UNITYSDK_OFFSET(0x1A1324D0)
-#define SYSTEM_NET_LISTENERASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1325F0)
-#define SYSTEM_NET_LISTENERASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11F750)
+#define SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_1_OFFSET UNITYSDK_OFFSET(0x1AF84CF0)
+#define SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_2_OFFSET UNITYSDK_OFFSET(0x1AF83D80)
+#define SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1AF836C0)
+#define SYSTEM_NET_LISTENERASYNCRESULT_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0x1AF849C0)
+#define SYSTEM_NET_LISTENERASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1AF972B0)
+#define SYSTEM_NET_LISTENERASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1AF848C0)
+#define SYSTEM_NET_LISTENERASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1AF972D0)
+#define SYSTEM_NET_LISTENERASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1AF847F0)
+#define SYSTEM_NET_LISTENERASYNCRESULT_INVOKECALLBACK_OFFSET UNITYSDK_OFFSET(0x1AF971C0)
+#define SYSTEM_NET_LISTENERASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF972F0)
+#define SYSTEM_NET_LISTENERASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF83C90)
 
 namespace System::Net
 {
@@ -30,23 +30,23 @@ namespace System::Net
 	public:
 		static ::System::Threading::WaitCallback** StaticGet_InvokeCB()
 		{
-			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(ListenerAsyncResult_TypeDefinitionIndex)->GetStaticField(0x13ED0);
+			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(ListenerAsyncResult_TypeDefinitionIndex)->GetStaticField(0x25200);
 		}
-		::System::AsyncCallback* cb; // 0x10
-		::System::Net::HttpListenerContext* context; // 0x18
-		::System::Net::ListenerAsyncResult* forward; // 0x20
-		::System::Threading::ManualResetEvent* handle; // 0x28
-		::System::Object* locker; // 0x30
-		::System::Object* state; // 0x38
-		::System::Exception* exception; // 0x40
+		::System::Object* state; // 0x10
+		::System::Object* locker; // 0x18
+		::System::Net::HttpListenerContext* context; // 0x20
+		::System::AsyncCallback* cb; // 0x28
+		::System::Exception* exception; // 0x30
+		::System::Net::ListenerAsyncResult* forward; // 0x38
+		::System::Threading::ManualResetEvent* handle; // 0x40
 		::System::Boolean InGet; // 0x48
-		::System::Boolean completed; // 0x49
-		::System::Boolean synch; // 0x4A
-		::System::Boolean EndCalled; // 0x4B
+		::System::Boolean synch; // 0x49
+		::System::Boolean EndCalled; // 0x4A
+		::System::Boolean completed; // 0x4B
 
-		::System::Void _ctor(::System::AsyncCallback* cb, ::System::Object* state)
+		::System::Void _ctor(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_LISTENERASYNCRESULT__CTOR_OFFSET))(this, cb, state);
+			return ((::System::Void(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_LISTENERASYNCRESULT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -54,24 +54,24 @@ namespace System::Net
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_LISTENERASYNCRESULT__CCTOR_OFFSET))();
 		}
 
-		::System::Void Complete(::System::Exception* exc)
+		::System::Void Complete(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_OFFSET))(this, exc);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_OFFSET))(this, a1);
 		}
 
-		static ::System::Void InvokeCallback(::System::Object* o)
+		static ::System::Void InvokeCallback(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_LISTENERASYNCRESULT_INVOKECALLBACK_OFFSET))(o);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_LISTENERASYNCRESULT_INVOKECALLBACK_OFFSET))(a1);
 		}
 
-		::System::Void Complete_1(::System::Net::HttpListenerContext* context)
+		::System::Void Complete_1(::System::Net::HttpListenerContext* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::HttpListenerContext*))((::PBYTE)hIl2Cpp + SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_1_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::System::Net::HttpListenerContext*))((::PBYTE)hIl2Cpp + SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Complete_2(::System::Net::HttpListenerContext* context, ::System::Boolean synch)
+		::System::Void Complete_2(::System::Net::HttpListenerContext* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::HttpListenerContext*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_2_OFFSET))(this, context, synch);
+			return ((::System::Void(*)(::PVOID, ::System::Net::HttpListenerContext*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_LISTENERASYNCRESULT_COMPLETE_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::HttpListenerContext* GetContext()

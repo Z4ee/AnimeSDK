@@ -12,31 +12,31 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xAACD390)
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_D8F6D70D1D015823_OFFSET UNITYSDK_OFFSET(0xAACD490)
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_E2B51C21E92F614C_OFFSET UNITYSDK_OFFSET(0xAACC8B0)
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xAACC710)
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xAACD290)
-#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xAACDB50)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xC19D6D0)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_D8F6D70D1D015823_OFFSET UNITYSDK_OFFSET(0xC19D7D0)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_METHOD_7_E2B51C21E92F614C_OFFSET UNITYSDK_OFFSET(0xC19CBE0)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xC19CA50)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xC19D5E0)
+#define RPG_CLIENT_MOTIONS_MANUALCTRLTEXTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xC19DEA0)
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int ManualCtrlTextMotion_TypeDefinitionIndex = 67678;
+	inline static constexpr unsigned int ManualCtrlTextMotion_TypeDefinitionIndex = 68636;
 
 	class ManualCtrlTextMotion : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:
-		// static const ::System::String* Field_7_10; // 0x0
+		// static const ::System::String* Field_7_0; // 0x0
 		::System::Int32 visibleCharCount; // 0x20
 		::System::Boolean enable; // 0x24
 		::System::Boolean showOutline; // 0x25
 		::UnityEngine::Color effectColor; // 0x28
 		::UnityEngine::Vector2 effectDistance; // 0x38
 		::System::Boolean useGraphicAlpha; // 0x40
-		::UnityEngine::UI::Text* Field_7_6; // 0x48
-		::Class_1_B4D062A3AA74182F* Field_7_7; // 0x50
-		::System::Single Field_7_8; // 0x58
-		::System::Boolean Field_7_9; // 0x5C
+		::UnityEngine::UI::Text* Field_7_7; // 0x48
+		::Class_1_B4D062A3AA74182F* Field_7_8; // 0x50
+		::System::Single Field_7_9; // 0x58
+		::System::Boolean Field_7_10; // 0x5C
 
 		::System::Void _ctor()
 		{

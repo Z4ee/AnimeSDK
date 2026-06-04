@@ -5,12 +5,12 @@
 namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA13A330)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS18_0__SORTFOREDITTEAMAVATARLIST_B__0_OFFSET UNITYSDK_OFFSET(0xA143000)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7C2190)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS18_0__SORTFOREDITTEAMAVATARLIST_B__0_OFFSET UNITYSDK_OFFSET(0xB7C21A0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass18_0_TypeDefinitionIndex = 69863;
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass18_0_TypeDefinitionIndex = 70675;
 
 	class DiceCombatUtil___c__DisplayClass18_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS18_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _SortForEditTeamAvatarList_b__0(::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* b)
+		::System::Int32 _SortForEditTeamAvatarList_b__0(::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a1, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS18_0__SORTFOREDITTEAMAVATARLIST_B__0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS18_0__SORTFOREDITTEAMAVATARLIST_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

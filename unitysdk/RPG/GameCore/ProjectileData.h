@@ -11,12 +11,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ProjectileBezierControlPoint; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROJECTILEDATA_METHOD_2_3E9E5F092EB15BD9_OFFSET UNITYSDK_OFFSET(0x18C630A0)
-#define RPG_GAMECORE_PROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18C64280)
+#define RPG_GAMECORE_PROJECTILEDATA_METHOD_2_82619479C17B3462_OFFSET UNITYSDK_OFFSET(0x19A85340)
+#define RPG_GAMECORE_PROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19A86510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileData_TypeDefinitionIndex = 14820;
+	inline static constexpr unsigned int ProjectileData_TypeDefinitionIndex = 14884;
 
 	class ProjectileData : public ::RPG::GameCore::JsonConfig
 	{
@@ -78,9 +78,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROJECTILEDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3E9E5F092EB15BD9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ProjectileData*& a2)
+		static ::System::Void Method_2_82619479C17B3462(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ProjectileData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ProjectileData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROJECTILEDATA_METHOD_2_3E9E5F092EB15BD9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ProjectileData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROJECTILEDATA_METHOD_2_82619479C17B3462_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -11,14 +11,14 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_METHOD_3_26CD3EED7D0FB26D_OFFSET UNITYSDK_OFFSET(0x1884E4A0)
-#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_METHOD_3_8A32FD65A5CB3972_OFFSET UNITYSDK_OFFSET(0x1884E370)
-#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x1884EFE0)
-#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1884E420)
+#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_METHOD_3_0BC6F92E2702B196_OFFSET UNITYSDK_OFFSET(0x1968D5E0)
+#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_METHOD_3_A274B2D3440BBB56_OFFSET UNITYSDK_OFFSET(0x1968D720)
+#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x1968E260)
+#define RPG_GAMECORE_DAMAGEBYATTACKPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1968D690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageByAttackProperty_TypeDefinitionIndex = 21479;
+	inline static constexpr unsigned int DamageByAttackProperty_TypeDefinitionIndex = 21360;
 
 	class DamageByAttackProperty : public ::RPG::GameCore::TaskConfig
 	{
@@ -46,14 +46,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBYATTACKPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8A32FD65A5CB3972(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamageByAttackProperty*& a2)
+		static ::System::Void Method_3_0BC6F92E2702B196(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamageByAttackProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DamageByAttackProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_METHOD_3_8A32FD65A5CB3972_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DamageByAttackProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_METHOD_3_0BC6F92E2702B196_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_26CD3EED7D0FB26D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamageByAttackProperty* a2)
+		static ::System::Void Method_3_A274B2D3440BBB56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamageByAttackProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DamageByAttackProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_METHOD_3_26CD3EED7D0FB26D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DamageByAttackProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEBYATTACKPROPERTY_METHOD_3_A274B2D3440BBB56_OFFSET))(a1, a2);
 		}
 
 		::System::Object* ShareByCopy()

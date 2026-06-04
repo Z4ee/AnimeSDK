@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class FloatCurve; }
 
-#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_47CE543323C29D08_OFFSET UNITYSDK_OFFSET(0x18707330)
-#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_89FD99B9A3F420CD_OFFSET UNITYSDK_OFFSET(0x18703630)
-#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187035D0)
+#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_3DCD64F915F4DC39_OFFSET UNITYSDK_OFFSET(0x194D6990)
+#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_B2CA654D9CFE5A33_OFFSET UNITYSDK_OFFSET(0x194DA5B0)
+#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194D6930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleVersusClickQTEConfig_TypeDefinitionIndex = 22315;
+	inline static constexpr unsigned int BattleVersusClickQTEConfig_TypeDefinitionIndex = 22072;
 
 	class BattleVersusClickQTEConfig : public ::RPG::GameCore::BattleQTEBaseConfig
 	{
@@ -34,14 +34,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_47CE543323C29D08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleVersusClickQTEConfig*& a2)
+		static ::System::Void Method_3_B2CA654D9CFE5A33(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleVersusClickQTEConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleVersusClickQTEConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_47CE543323C29D08_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleVersusClickQTEConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_B2CA654D9CFE5A33_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_89FD99B9A3F420CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleVersusClickQTEConfig* a2)
+		static ::System::Void Method_3_3DCD64F915F4DC39(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleVersusClickQTEConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleVersusClickQTEConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_89FD99B9A3F420CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleVersusClickQTEConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_3DCD64F915F4DC39_OFFSET))(a1, a2);
 		}
 	};
 }

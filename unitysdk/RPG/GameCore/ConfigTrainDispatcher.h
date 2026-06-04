@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConfigCityTrain; }
 
-#define RPG_GAMECORE_CONFIGTRAINDISPATCHER_METHOD_2_672D06B6DA02B895_OFFSET UNITYSDK_OFFSET(0x188347D0)
-#define RPG_GAMECORE_CONFIGTRAINDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x18834A10)
+#define RPG_GAMECORE_CONFIGTRAINDISPATCHER_METHOD_2_52DD6AFFB19CBC58_OFFSET UNITYSDK_OFFSET(0x19674470)
+#define RPG_GAMECORE_CONFIGTRAINDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x196746A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigTrainDispatcher_TypeDefinitionIndex = 16008;
+	inline static constexpr unsigned int ConfigTrainDispatcher_TypeDefinitionIndex = 16058;
 
 	class ConfigTrainDispatcher : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGTRAINDISPATCHER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_672D06B6DA02B895(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConfigTrainDispatcher*& a2)
+		static ::System::Void Method_2_52DD6AFFB19CBC58(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConfigTrainDispatcher*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConfigTrainDispatcher*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGTRAINDISPATCHER_METHOD_2_672D06B6DA02B895_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConfigTrainDispatcher*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGTRAINDISPATCHER_METHOD_2_52DD6AFFB19CBC58_OFFSET))(a1, a2);
 		}
 	};
 }

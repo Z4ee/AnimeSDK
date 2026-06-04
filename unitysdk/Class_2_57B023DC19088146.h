@@ -6,21 +6,21 @@ namespace RPG::GameCore { class CollectionStopBubbleTalk; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_57B023DC19088146_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12B13370)
-#define CLASS_2_57B023DC19088146_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12B133B0)
-#define CLASS_2_57B023DC19088146_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12B13610)
-#define CLASS_2_57B023DC19088146_TICK_OFFSET UNITYSDK_OFFSET(0x12B13660)
-#define CLASS_2_57B023DC19088146__CTOR_OFFSET UNITYSDK_OFFSET(0x12B13360)
+#define CLASS_2_57B023DC19088146_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB787BD0)
+#define CLASS_2_57B023DC19088146_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB787C10)
+#define CLASS_2_57B023DC19088146_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB787E50)
+#define CLASS_2_57B023DC19088146_TICK_OFFSET UNITYSDK_OFFSET(0xB787EA0)
+#define CLASS_2_57B023DC19088146__CTOR_OFFSET UNITYSDK_OFFSET(0xB787BC0)
 
-inline static constexpr unsigned int Class_2_57B023DC19088146_TypeDefinitionIndex = 53518;
+inline static constexpr unsigned int Class_2_57B023DC19088146_TypeDefinitionIndex = 54231;
 
 class Class_2_57B023DC19088146 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	// static const ::System::String* Field_2_0; // 0x0
 	// static const ::System::String* Field_2_1; // 0x0
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x18
-	::RPG::GameCore::CollectionStopBubbleTalk* Field_2_2; // 0x20
+	::RPG::GameCore::CollectionStopBubbleTalk* Field_2_2; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_3; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CollectionStopBubbleTalk* a2)
 	{

@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class AudienceLayoutConfig; }
-namespace RPG::Client { class AudienceStanceConfig; }
+class Class_1_BD52D1CC7132DA5B;
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_897_TypeDefinitionIndex = 63734;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_897_TypeDefinitionIndex = 63183;
 
 class Class_0_16E4307DCC419505_897
 {

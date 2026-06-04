@@ -1,26 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_C994EBB81CDF74CE.h"
+#include "unitysdk/Class_2_6B72CB78996603D1.h"
 
 class Class_1_3B1EA953A4067E26;
-class Class_1_C4FD36003027AC99;
-class Class_2_49CAB3DE74280C58;
+class Class_1_A92BC063ED2379EB;
+class Class_2_B66C1067C0468FBB;
 class Class_3_D637C1E17FCBBFB0;
 namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_8C9377820DCF9EA7_METHOD_3_6B6AE2B3E1C3264F_OFFSET UNITYSDK_OFFSET(0x9A3CA20)
-#define CLASS_3_8C9377820DCF9EA7_METHOD_3_A1CE347D06E27CA9_OFFSET UNITYSDK_OFFSET(0x9A3CA70)
-#define CLASS_3_8C9377820DCF9EA7_METHOD_3_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x9A3C9D0)
-#define CLASS_3_8C9377820DCF9EA7__CTOR_OFFSET UNITYSDK_OFFSET(0x9A3D1E0)
+#define CLASS_3_8C9377820DCF9EA7_METHOD_3_6B6AE2B3E1C3264F_OFFSET UNITYSDK_OFFSET(0x1379D7C0)
+#define CLASS_3_8C9377820DCF9EA7_METHOD_3_7F29568EA964E563_OFFSET UNITYSDK_OFFSET(0x1379E1E0)
+#define CLASS_3_8C9377820DCF9EA7_METHOD_3_A1CE347D06E27CA9_OFFSET UNITYSDK_OFFSET(0x1379D810)
+#define CLASS_3_8C9377820DCF9EA7_METHOD_3_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x1379D770)
+#define CLASS_3_8C9377820DCF9EA7__CTOR_OFFSET UNITYSDK_OFFSET(0x1379E620)
 
-inline static constexpr unsigned int Class_3_8C9377820DCF9EA7_TypeDefinitionIndex = 71074;
+inline static constexpr unsigned int Class_3_8C9377820DCF9EA7_TypeDefinitionIndex = 72007;
 
-class Class_3_8C9377820DCF9EA7 : public ::Class_2_C994EBB81CDF74CE
+class Class_3_8C9377820DCF9EA7 : public ::Class_2_6B72CB78996603D1
 {
 public:
-	::Class_3_D637C1E17FCBBFB0* Field_3_1; // 0x10
-	::Class_1_3B1EA953A4067E26* Field_3_0; // 0x18
+	::Class_3_D637C1E17FCBBFB0* Field_3_0; // 0x10
+	::Class_1_3B1EA953A4067E26* Field_3_1; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -37,8 +38,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_3_D637C1E17FCBBFB0*))((::PBYTE)hIl2Cpp + CLASS_3_8C9377820DCF9EA7_METHOD_3_6B6AE2B3E1C3264F_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_3_A1CE347D06E27CA9(::Class_1_C4FD36003027AC99* a1, ::System::Collections::Generic::List_1<::Class_2_49CAB3DE74280C58*>* a2, ::RPG::GameCore::ChimeraDuelEffectConfig* a3)
+	::System::Boolean Method_3_A1CE347D06E27CA9(::Class_1_A92BC063ED2379EB* a1, ::System::Collections::Generic::List_1<::Class_2_B66C1067C0468FBB*>* a2, ::RPG::GameCore::ChimeraDuelEffectConfig* a3)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_C4FD36003027AC99*, ::System::Collections::Generic::List_1<::Class_2_49CAB3DE74280C58*>*, ::RPG::GameCore::ChimeraDuelEffectConfig*))((::PBYTE)hIl2Cpp + CLASS_3_8C9377820DCF9EA7_METHOD_3_A1CE347D06E27CA9_OFFSET))(this, a1, a2, a3);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_A92BC063ED2379EB*, ::System::Collections::Generic::List_1<::Class_2_B66C1067C0468FBB*>*, ::RPG::GameCore::ChimeraDuelEffectConfig*))((::PBYTE)hIl2Cpp + CLASS_3_8C9377820DCF9EA7_METHOD_3_A1CE347D06E27CA9_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_3_7F29568EA964E563()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8C9377820DCF9EA7_METHOD_3_7F29568EA964E563_OFFSET))(this);
 	}
 };

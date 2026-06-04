@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FourRotateVoxelFloorMapInfoConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELUICONFIG_METHOD_2_93CADE53B9442E9D_OFFSET UNITYSDK_OFFSET(0x1892EC00)
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1892F940)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELUICONFIG_METHOD_2_60AAE946E7233B6C_OFFSET UNITYSDK_OFFSET(0x19769E30)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1976AB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelLevelUIConfig_TypeDefinitionIndex = 15865;
+	inline static constexpr unsigned int FourRotateVoxelLevelUIConfig_TypeDefinitionIndex = 15918;
 
 	class FourRotateVoxelLevelUIConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELLEVELUICONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_93CADE53B9442E9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelLevelUIConfig*& a2)
+		static ::System::Void Method_2_60AAE946E7233B6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelLevelUIConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelLevelUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELLEVELUICONFIG_METHOD_2_93CADE53B9442E9D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelLevelUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELLEVELUICONFIG_METHOD_2_60AAE946E7233B6C_OFFSET))(a1, a2);
 		}
 	};
 }

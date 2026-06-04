@@ -6,22 +6,22 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define UNITYENGINE_CONSOLEVARIABLEINTPROPERTY_GET_INTVALUE_OFFSET UNITYSDK_OFFSET(0x22E36E0)
-#define UNITYENGINE_CONSOLEVARIABLEINTPROPERTY_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1A434AE0)
-#define UNITYENGINE_CONSOLEVARIABLEINTPROPERTY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A434AD0)
-#define UNITYENGINE_CONSOLEVARIABLEINTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x22E36A0)
+#define UNITYENGINE_CONSOLEVARIABLEINTPROPERTY_GET_INTVALUE_OFFSET UNITYSDK_OFFSET(0x3880430)
+#define UNITYENGINE_CONSOLEVARIABLEINTPROPERTY_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1B2867C0)
+#define UNITYENGINE_CONSOLEVARIABLEINTPROPERTY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B2867B0)
+#define UNITYENGINE_CONSOLEVARIABLEINTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x38803F0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ConsoleVariableIntProperty_TypeDefinitionIndex = 3869;
+	inline static constexpr unsigned int ConsoleVariableIntProperty_TypeDefinitionIndex = 4043;
 
 	struct alignas(8) ConsoleVariableIntProperty
 	{
 		::UnityEngine::ConsoleVariableProperty property; // 0x10
 
-		::System::Void _ctor(::System::String* name, ::System::String* description, ::System::Int32 defaultValue, ::System::Action* onValueChanged)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEINTPROPERTY__CTOR_OFFSET))(this, name, description, defaultValue, onValueChanged);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEINTPROPERTY__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_IntValue()
@@ -29,14 +29,14 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEINTPROPERTY_GET_INTVALUE_OFFSET))(this);
 		}
 
-		static ::System::Int32 op_Implicit(::UnityEngine::ConsoleVariableIntProperty property)
+		static ::System::Int32 op_Implicit(::UnityEngine::ConsoleVariableIntProperty a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::ConsoleVariableIntProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEINTPROPERTY_OP_IMPLICIT_OFFSET))(property);
+			return ((::System::Int32(*)(::UnityEngine::ConsoleVariableIntProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEINTPROPERTY_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::System::Single op_Implicit_1(::UnityEngine::ConsoleVariableIntProperty property)
+		static ::System::Single op_Implicit_1(::UnityEngine::ConsoleVariableIntProperty a1)
 		{
-			return ((::System::Single(*)(::UnityEngine::ConsoleVariableIntProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEINTPROPERTY_OP_IMPLICIT_1_OFFSET))(property);
+			return ((::System::Single(*)(::UnityEngine::ConsoleVariableIntProperty))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLEINTPROPERTY_OP_IMPLICIT_1_OFFSET))(a1);
 		}
 	};
 }

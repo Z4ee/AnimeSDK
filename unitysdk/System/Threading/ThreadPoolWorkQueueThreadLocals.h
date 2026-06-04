@@ -6,13 +6,13 @@ namespace System { class Random; }
 namespace System::Threading { class ThreadPoolWorkQueue; }
 namespace System::Threading { class ThreadPoolWorkQueue_WorkStealingQueue; }
 
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1787CDE0)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1787CEE0)
-#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS__CTOR_OFFSET UNITYSDK_OFFSET(0x1787B020)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x18635920)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x186359F0)
+#define SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS__CTOR_OFFSET UNITYSDK_OFFSET(0x18633DC0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadPoolWorkQueueThreadLocals_TypeDefinitionIndex = 859;
+	inline static constexpr unsigned int ThreadPoolWorkQueueThreadLocals_TypeDefinitionIndex = 858;
 
 	class ThreadPoolWorkQueueThreadLocals : public ::System::Object
 	{
@@ -21,13 +21,13 @@ namespace System::Threading
 		{
 			return (::System::Threading::ThreadPoolWorkQueueThreadLocals**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolWorkQueueThreadLocals_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* workStealingQueue; // 0x10
-		::System::Threading::ThreadPoolWorkQueue* workQueue; // 0x18
-		::System::Random* random; // 0x20
+		::System::Threading::ThreadPoolWorkQueue* workQueue; // 0x10
+		::System::Random* random; // 0x18
+		::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* workStealingQueue; // 0x20
 
-		::System::Void _ctor(::System::Threading::ThreadPoolWorkQueue* tpq)
+		::System::Void _ctor(::System::Threading::ThreadPoolWorkQueue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::ThreadPoolWorkQueue*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS__CTOR_OFFSET))(this, tpq);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::ThreadPoolWorkQueue*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADPOOLWORKQUEUETHREADLOCALS__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void CleanUp()

@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class DescriptorProto_Types_ReservedRange; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x170ECED0)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x170ECF10)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C___CCTOR_B__39_0_OFFSET UNITYSDK_OFFSET(0x170ECF20)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E4ED30)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17E4ED70)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_RESERVEDRANGE___C___CCTOR_B__39_0_OFFSET UNITYSDK_OFFSET(0x17E4ED80)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorProto_Types_ReservedRange___c_TypeDefinitionIndex = 6263;
+	inline static constexpr unsigned int DescriptorProto_Types_ReservedRange___c_TypeDefinitionIndex = 5465;
 
 	class DescriptorProto_Types_ReservedRange___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::DescriptorProto_Types_ReservedRange___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::DescriptorProto_Types_ReservedRange___c**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_Types_ReservedRange___c_TypeDefinitionIndex)->GetStaticField(0x4940);
+			return (::Google::Protobuf::Reflection::DescriptorProto_Types_ReservedRange___c**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_Types_ReservedRange___c_TypeDefinitionIndex)->GetStaticField(0x3D3A0);
 		}
 
 		static ::System::Void _cctor()

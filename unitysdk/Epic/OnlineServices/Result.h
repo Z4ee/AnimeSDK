@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int Result_TypeDefinitionIndex = 41091;
+	inline static constexpr unsigned int Result_TypeDefinitionIndex = 41894;
 
 	enum class Result : ::System::Int32
 	{

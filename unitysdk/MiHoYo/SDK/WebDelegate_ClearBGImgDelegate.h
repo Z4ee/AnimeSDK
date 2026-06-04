@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x176A4CE0)
-#define MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x176A4D10)
-#define MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1769F5F0)
-#define MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x176A4CC0)
+#define MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18463BE0)
+#define MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18463C10)
+#define MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18462650)
+#define MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18463AF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_ClearBGImgDelegate_TypeDefinitionIndex = 6892;
+	inline static constexpr unsigned int WebDelegate_ClearBGImgDelegate_TypeDefinitionIndex = 7795;
 
 	class WebDelegate_ClearBGImgDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Object* webView)
+		::System::Void Invoke(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_INVOKE_OFFSET))(this, webView);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Object* webView, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Object* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_BEGININVOKE_OFFSET))(this, webView, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_CLEARBGIMGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

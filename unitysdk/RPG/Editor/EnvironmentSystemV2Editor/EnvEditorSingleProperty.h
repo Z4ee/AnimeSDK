@@ -4,11 +4,11 @@
 
 namespace RPG::Editor::EnvironmentSystemV2Editor { class EnvEditorPropertyData; }
 
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORSINGLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xB506770)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORSINGLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xCC6D050)
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
-	inline static constexpr unsigned int EnvEditorSingleProperty_TypeDefinitionIndex = 48076;
+	inline static constexpr unsigned int EnvEditorSingleProperty_TypeDefinitionIndex = 48694;
 
 	class EnvEditorSingleProperty : public ::RPG::Editor::EnvironmentSystemV2Editor::EnvEditorBlock
 	{

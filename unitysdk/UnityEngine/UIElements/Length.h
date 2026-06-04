@@ -6,33 +6,33 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22FA940)
-#define UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_OFFSET UNITYSDK_OFFSET(0x22FA920)
-#define UNITYENGINE_UIELEMENTS_LENGTH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22FA9B0)
-#define UNITYENGINE_UIELEMENTS_LENGTH_GET_UNIT_OFFSET UNITYSDK_OFFSET(0x1DA80)
-#define UNITYENGINE_UIELEMENTS_LENGTH_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xCC50)
-#define UNITYENGINE_UIELEMENTS_LENGTH_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1A510B60)
-#define UNITYENGINE_UIELEMENTS_LENGTH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22FA9E0)
-#define UNITYENGINE_UIELEMENTS_LENGTH__CTOR_1_OFFSET UNITYSDK_OFFSET(0xD09B0)
-#define UNITYENGINE_UIELEMENTS_LENGTH__CTOR_OFFSET UNITYSDK_OFFSET(0x22FA910)
+#define UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x389A160)
+#define UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_OFFSET UNITYSDK_OFFSET(0x389A140)
+#define UNITYENGINE_UIELEMENTS_LENGTH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x389A1D0)
+#define UNITYENGINE_UIELEMENTS_LENGTH_GET_UNIT_OFFSET UNITYSDK_OFFSET(0x1E110)
+#define UNITYENGINE_UIELEMENTS_LENGTH_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xD4D0)
+#define UNITYENGINE_UIELEMENTS_LENGTH_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B35C340)
+#define UNITYENGINE_UIELEMENTS_LENGTH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x389A200)
+#define UNITYENGINE_UIELEMENTS_LENGTH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2BBD7E0)
+#define UNITYENGINE_UIELEMENTS_LENGTH__CTOR_OFFSET UNITYSDK_OFFSET(0x389A130)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int Length_TypeDefinitionIndex = 5975;
+	inline static constexpr unsigned int Length_TypeDefinitionIndex = 6252;
 
 	struct alignas(4) Length
 	{
 		::System::Single m_Value; // 0x10
 		::UnityEngine::UIElements::LengthUnit m_Unit; // 0x14
 
-		::System::Void _ctor(::System::Single value)
+		::System::Void _ctor(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH__CTOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Single value, ::UnityEngine::UIElements::LengthUnit unit)
+		::System::Void _ctor_1(::System::Single a1, ::UnityEngine::UIElements::LengthUnit a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::UIElements::LengthUnit))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH__CTOR_1_OFFSET))(this, value, unit);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::UIElements::LengthUnit))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single get_value()
@@ -45,19 +45,19 @@ namespace UnityEngine::UIElements
 			return ((::UnityEngine::UIElements::LengthUnit(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_GET_UNIT_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::UnityEngine::UIElements::Length lhs, ::UnityEngine::UIElements::Length rhs)
+		static ::System::Boolean op_Equality(::UnityEngine::UIElements::Length a1, ::UnityEngine::UIElements::Length a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::UnityEngine::UIElements::Length other)
+		::System::Boolean Equals(::UnityEngine::UIElements::Length a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::Length))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::Length))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_LENGTH_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

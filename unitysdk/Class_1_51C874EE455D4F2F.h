@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define CLASS_1_51C874EE455D4F2F_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD9C1250)
-#define CLASS_1_51C874EE455D4F2F__CTOR_OFFSET UNITYSDK_OFFSET(0xD9C12D0)
-#define CLASS_1_51C874EE455D4F2F___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD9C1310)
+#define CLASS_1_51C874EE455D4F2F_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB506490)
+#define CLASS_1_51C874EE455D4F2F__CTOR_OFFSET UNITYSDK_OFFSET(0xB506510)
+#define CLASS_1_51C874EE455D4F2F___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB506550)
 
-inline static constexpr unsigned int Class_1_51C874EE455D4F2F_TypeDefinitionIndex = 55009;
+inline static constexpr unsigned int Class_1_51C874EE455D4F2F_TypeDefinitionIndex = 55743;
 
 class Class_1_51C874EE455D4F2F : public ::System::Object
 {
 public:
-	::System::String* Field_1_1; // 0x10
-	::System::String* Field_1_0; // 0x18
+	::System::String* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

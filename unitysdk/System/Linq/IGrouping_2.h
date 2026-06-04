@@ -3,7 +3,7 @@
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int IGrouping_2_TypeDefinitionIndex = 3154;
+	inline static constexpr unsigned int IGrouping_2_TypeDefinitionIndex = 3155;
 
 	template <typename TKey, typename TElement>
 	class IGrouping_2

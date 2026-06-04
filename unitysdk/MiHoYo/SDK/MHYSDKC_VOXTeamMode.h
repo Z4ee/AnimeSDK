@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VOXTeamMode_TypeDefinitionIndex = 42845;
+	inline static constexpr unsigned int MHYSDKC_VOXTeamMode_TypeDefinitionIndex = 43648;
 
 	class MHYSDKC_VOXTeamMode : public ::System::Object
 	{

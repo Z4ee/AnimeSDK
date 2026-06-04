@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class EpicAccountId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x8E7C670)
-#define EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E7C650)
-#define EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x8E7C680)
-#define EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E7C660)
-#define EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E7C690)
+#define EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xA2BDE30)
+#define EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2BDE10)
+#define EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0xA2BDE40)
+#define EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2BDE20)
+#define EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2BDE50)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int GetItemReleaseCountOptions_TypeDefinitionIndex = 42180;
+	inline static constexpr unsigned int GetItemReleaseCountOptions_TypeDefinitionIndex = 42983;
 
 	class GetItemReleaseCountOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x10
-		::System::String* _ItemId_k__BackingField; // 0x18
+		::System::String* _ItemId_k__BackingField; // 0x10
+		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ItemId()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_GET_ITEMID_OFFSET))(this);
 		}
 
-		::System::Void set_ItemId(::System::String* value)
+		::System::Void set_ItemId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_SET_ITEMID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_GETITEMRELEASECOUNTOPTIONS_SET_ITEMID_OFFSET))(this, a1);
 		}
 	};
 }

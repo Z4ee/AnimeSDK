@@ -7,23 +7,23 @@ namespace RPG::Client::CakeRace { class CakeRacePerformanceDataItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x9EEEB80)
-#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO_GETOWLBERTANIMDATAITEM_OFFSET UNITYSDK_OFFSET(0x9EEF360)
-#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO_GETPERFORMANCEDATAITEM_OFFSET UNITYSDK_OFFSET(0x9EEF2A0)
-#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9EEED00)
-#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO__INITANIMCONFIG_OFFSET UNITYSDK_OFFSET(0x9EEF060)
-#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO__INITPERFORMANCEDATAITEMS_OFFSET UNITYSDK_OFFSET(0x9EEEE30)
-#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO__INIT_OFFSET UNITYSDK_OFFSET(0x9EEEDE0)
+#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xB48BE60)
+#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO_GETOWLBERTANIMDATAITEM_OFFSET UNITYSDK_OFFSET(0xB48C660)
+#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO_GETPERFORMANCEDATAITEM_OFFSET UNITYSDK_OFFSET(0xB48C5D0)
+#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB48BFE0)
+#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO__INITANIMCONFIG_OFFSET UNITYSDK_OFFSET(0xB48C390)
+#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO__INITPERFORMANCEDATAITEMS_OFFSET UNITYSDK_OFFSET(0xB48C110)
+#define RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO__INIT_OFFSET UNITYSDK_OFFSET(0xB48C0C0)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRacePerformanceInfo_TypeDefinitionIndex = 70232;
+	inline static constexpr unsigned int CakeRacePerformanceInfo_TypeDefinitionIndex = 71044;
 
 	class CakeRacePerformanceInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::CakeRace::CakeRacePerformanceDataItem*>* _PerformanceDataItems; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::CakeRace::CakeRaceOwlbertAnimDataItem*>* _OwlbertAnimDataItems; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::CakeRace::CakeRaceOwlbertAnimDataItem*>* _OwlbertAnimDataItems; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::CakeRace::CakeRacePerformanceDataItem*>* _PerformanceDataItems; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -50,14 +50,14 @@ namespace RPG::Client::CakeRace
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO__INITANIMCONFIG_OFFSET))(this);
 		}
 
-		::RPG::Client::CakeRace::CakeRacePerformanceDataItem* GetPerformanceDataItem(::System::UInt32 performanceID)
+		::RPG::Client::CakeRace::CakeRacePerformanceDataItem* GetPerformanceDataItem(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::CakeRace::CakeRacePerformanceDataItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO_GETPERFORMANCEDATAITEM_OFFSET))(this, performanceID);
+			return ((::RPG::Client::CakeRace::CakeRacePerformanceDataItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO_GETPERFORMANCEDATAITEM_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::CakeRace::CakeRaceOwlbertAnimDataItem* GetOwlbertAnimDataItem(::System::String* animName)
+		::RPG::Client::CakeRace::CakeRaceOwlbertAnimDataItem* GetOwlbertAnimDataItem(::System::String* a1)
 		{
-			return ((::RPG::Client::CakeRace::CakeRaceOwlbertAnimDataItem*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO_GETOWLBERTANIMDATAITEM_OFFSET))(this, animName);
+			return ((::RPG::Client::CakeRace::CakeRaceOwlbertAnimDataItem*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEPERFORMANCEINFO_GETOWLBERTANIMDATAITEM_OFFSET))(this, a1);
 		}
 	};
 }

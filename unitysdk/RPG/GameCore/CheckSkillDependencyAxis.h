@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AISkillDependencyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_METHOD_3_4D2BC474D012BC49_OFFSET UNITYSDK_OFFSET(0x187DB5F0)
-#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_METHOD_3_5280C96B4DD5AA08_OFFSET UNITYSDK_OFFSET(0x187DB630)
-#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x187DB620)
+#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_METHOD_3_0B226F08DEA992BF_OFFSET UNITYSDK_OFFSET(0x19619090)
+#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_METHOD_3_D13E192B2084BE1A_OFFSET UNITYSDK_OFFSET(0x19619050)
+#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x19619080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CheckSkillDependencyAxis_TypeDefinitionIndex = 14674;
+	inline static constexpr unsigned int CheckSkillDependencyAxis_TypeDefinitionIndex = 14740;
 
 	class CheckSkillDependencyAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4D2BC474D012BC49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckSkillDependencyAxis*& a2)
+		static ::System::Void Method_3_D13E192B2084BE1A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckSkillDependencyAxis*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckSkillDependencyAxis*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_METHOD_3_4D2BC474D012BC49_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckSkillDependencyAxis*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_METHOD_3_D13E192B2084BE1A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5280C96B4DD5AA08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckSkillDependencyAxis* a2)
+		static ::System::Void Method_3_0B226F08DEA992BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckSkillDependencyAxis* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckSkillDependencyAxis*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_METHOD_3_5280C96B4DD5AA08_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckSkillDependencyAxis*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_METHOD_3_0B226F08DEA992BF_OFFSET))(a1, a2);
 		}
 	};
 }

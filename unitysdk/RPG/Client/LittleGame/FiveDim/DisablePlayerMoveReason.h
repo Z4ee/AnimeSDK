@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int DisablePlayerMoveReason_TypeDefinitionIndex = 39259;
+	inline static constexpr unsigned int DisablePlayerMoveReason_TypeDefinitionIndex = 40028;
 
 	enum class DisablePlayerMoveReason : ::System::Int32
 	{

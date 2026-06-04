@@ -15,54 +15,54 @@ namespace System::Reflection { class PropertyInfo; }
 namespace XLua { class ObjectTranslator; }
 namespace XLua::LuaDLL { class lua_CSFunction; }
 
-#define XLUA_UTILS_ABS_IDX_OFFSET UNITYSDK_OFFSET(0x11751E40)
-#define XLUA_UTILS_BEGINCLASSREGISTER_OFFSET UNITYSDK_OFFSET(0x11753730)
-#define XLUA_UTILS_BEGINOBJECTREGISTER_1_OFFSET UNITYSDK_OFFSET(0x11751400)
-#define XLUA_UTILS_BEGINOBJECTREGISTER_OFFSET UNITYSDK_OFFSET(0x117509B0)
-#define XLUA_UTILS_ENDCLASSREGISTER_OFFSET UNITYSDK_OFFSET(0x11753E00)
-#define XLUA_UTILS_ENDOBJECTREGISTER_OFFSET UNITYSDK_OFFSET(0x11751E50)
-#define XLUA_UTILS_GENENUMCASTFROM_OFFSET UNITYSDK_OFFSET(0x11748CB0)
-#define XLUA_UTILS_GENFIELDGETTER_OFFSET UNITYSDK_OFFSET(0x117485F0)
-#define XLUA_UTILS_GENFIELDSETTER_OFFSET UNITYSDK_OFFSET(0x11748690)
-#define XLUA_UTILS_GENITEMGETTER_OFFSET UNITYSDK_OFFSET(0x11748730)
-#define XLUA_UTILS_GENITEMSETTER_OFFSET UNITYSDK_OFFSET(0x117489F0)
-#define XLUA_UTILS_GETALLTYPES_OFFSET UNITYSDK_OFFSET(0x117482F0)
-#define XLUA_UTILS_GETEXTENDEDTYPE_OFFSET UNITYSDK_OFFSET(0x11755150)
-#define XLUA_UTILS_GETEXTENSIONMETHODSOF_OFFSET UNITYSDK_OFFSET(0x11748D20)
-#define XLUA_UTILS_GETMAINSTATE_OFFSET UNITYSDK_OFFSET(0x117480D0)
-#define XLUA_UTILS_GETPATHOFTYPE_OFFSET UNITYSDK_OFFSET(0x117547C0)
-#define XLUA_UTILS_ISINBLACKLIST_OFFSET UNITYSDK_OFFSET(0x117554B0)
-#define XLUA_UTILS_ISPARAMSMATCH_OFFSET UNITYSDK_OFFSET(0x11754A40)
-#define XLUA_UTILS_ISPUBLIC_OFFSET UNITYSDK_OFFSET(0x11755360)
-#define XLUA_UTILS_ISSTATICPINVOKECSFUNCTION_OFFSET UNITYSDK_OFFSET(0x117552D0)
-#define XLUA_UTILS_ISSUPPORTEDMETHOD_OFFSET UNITYSDK_OFFSET(0x11754CD0)
-#define XLUA_UTILS_LAZYREFLECTIONCALL_OFFSET UNITYSDK_OFFSET(0x11746A70)
-#define XLUA_UTILS_LOADCSTABLE_OFFSET UNITYSDK_OFFSET(0x1174D430)
-#define XLUA_UTILS_LOADFIELD_OFFSET UNITYSDK_OFFSET(0x11747F50)
-#define XLUA_UTILS_LOADUPVALUE_OFFSET UNITYSDK_OFFSET(0x1174C020)
-#define XLUA_UTILS_MAKEGENERICMETHODWITHCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x11754F10)
-#define XLUA_UTILS_MAKEPRIVATEACCESSIBLE_OFFSET UNITYSDK_OFFSET(0x1174C9D0)
-#define XLUA_UTILS_MAKEREFLECTIONWRAP_OFFSET UNITYSDK_OFFSET(0x11749EB0)
-#define XLUA_UTILS_REFLECTIONWRAP_OFFSET UNITYSDK_OFFSET(0x1174D820)
-#define XLUA_UTILS_REGISTERENUMTYPE_OFFSET UNITYSDK_OFFSET(0x1174C4F0)
-#define XLUA_UTILS_REGISTERFUNC_OFFSET UNITYSDK_OFFSET(0x11752D40)
-#define XLUA_UTILS_REGISTERLAZYFUNC_OFFSET UNITYSDK_OFFSET(0x11753470)
-#define XLUA_UTILS_REGISTEROBJECT_OFFSET UNITYSDK_OFFSET(0x1174C870)
-#define XLUA_UTILS_REGISTERREFLECTIONFUNC_OFFSET UNITYSDK_OFFSET(0x11752E80)
-#define XLUA_UTILS_SETCSTABLE_OFFSET UNITYSDK_OFFSET(0x1174FFD0)
-#define XLUA_UTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x117559F0)
-#define XLUA_UTILS__M_REFLECTION_FUNC_OFFSET UNITYSDK_OFFSET(0x11753120)
+#define XLUA_UTILS_ABS_IDX_OFFSET UNITYSDK_OFFSET(0x13449BF0)
+#define XLUA_UTILS_BEGINCLASSREGISTER_OFFSET UNITYSDK_OFFSET(0x1344B640)
+#define XLUA_UTILS_BEGINOBJECTREGISTER_1_OFFSET UNITYSDK_OFFSET(0x134490D0)
+#define XLUA_UTILS_BEGINOBJECTREGISTER_OFFSET UNITYSDK_OFFSET(0x134485A0)
+#define XLUA_UTILS_ENDCLASSREGISTER_OFFSET UNITYSDK_OFFSET(0x1344BCF0)
+#define XLUA_UTILS_ENDOBJECTREGISTER_OFFSET UNITYSDK_OFFSET(0x13449C00)
+#define XLUA_UTILS_GENENUMCASTFROM_OFFSET UNITYSDK_OFFSET(0x13440440)
+#define XLUA_UTILS_GENFIELDGETTER_OFFSET UNITYSDK_OFFSET(0x1343FD40)
+#define XLUA_UTILS_GENFIELDSETTER_OFFSET UNITYSDK_OFFSET(0x1343FDF0)
+#define XLUA_UTILS_GENITEMGETTER_OFFSET UNITYSDK_OFFSET(0x1343FEA0)
+#define XLUA_UTILS_GENITEMSETTER_OFFSET UNITYSDK_OFFSET(0x13440170)
+#define XLUA_UTILS_GETALLTYPES_OFFSET UNITYSDK_OFFSET(0x1343FA50)
+#define XLUA_UTILS_GETEXTENDEDTYPE_OFFSET UNITYSDK_OFFSET(0x1344CF60)
+#define XLUA_UTILS_GETEXTENSIONMETHODSOF_OFFSET UNITYSDK_OFFSET(0x134404C0)
+#define XLUA_UTILS_GETMAINSTATE_OFFSET UNITYSDK_OFFSET(0x1343F830)
+#define XLUA_UTILS_GETPATHOFTYPE_OFFSET UNITYSDK_OFFSET(0x1344C6B0)
+#define XLUA_UTILS_ISINBLACKLIST_OFFSET UNITYSDK_OFFSET(0x1344D290)
+#define XLUA_UTILS_ISPARAMSMATCH_OFFSET UNITYSDK_OFFSET(0x1344C970)
+#define XLUA_UTILS_ISPUBLIC_OFFSET UNITYSDK_OFFSET(0x1344D150)
+#define XLUA_UTILS_ISSTATICPINVOKECSFUNCTION_OFFSET UNITYSDK_OFFSET(0x1344D0C0)
+#define XLUA_UTILS_ISSUPPORTEDMETHOD_OFFSET UNITYSDK_OFFSET(0x1344CBA0)
+#define XLUA_UTILS_LAZYREFLECTIONCALL_OFFSET UNITYSDK_OFFSET(0x1343E210)
+#define XLUA_UTILS_LOADCSTABLE_OFFSET UNITYSDK_OFFSET(0x13444E60)
+#define XLUA_UTILS_LOADFIELD_OFFSET UNITYSDK_OFFSET(0x1343F6B0)
+#define XLUA_UTILS_LOADUPVALUE_OFFSET UNITYSDK_OFFSET(0x13443A50)
+#define XLUA_UTILS_MAKEGENERICMETHODWITHCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1344CDC0)
+#define XLUA_UTILS_MAKEPRIVATEACCESSIBLE_OFFSET UNITYSDK_OFFSET(0x13444420)
+#define XLUA_UTILS_MAKEREFLECTIONWRAP_OFFSET UNITYSDK_OFFSET(0x13441860)
+#define XLUA_UTILS_REFLECTIONWRAP_OFFSET UNITYSDK_OFFSET(0x13445280)
+#define XLUA_UTILS_REGISTERENUMTYPE_OFFSET UNITYSDK_OFFSET(0x13443F20)
+#define XLUA_UTILS_REGISTERFUNC_OFFSET UNITYSDK_OFFSET(0x1344AA90)
+#define XLUA_UTILS_REGISTERLAZYFUNC_OFFSET UNITYSDK_OFFSET(0x1344B310)
+#define XLUA_UTILS_REGISTEROBJECT_OFFSET UNITYSDK_OFFSET(0x134442C0)
+#define XLUA_UTILS_REGISTERREFLECTIONFUNC_OFFSET UNITYSDK_OFFSET(0x1344AC40)
+#define XLUA_UTILS_SETCSTABLE_OFFSET UNITYSDK_OFFSET(0x13447B60)
+#define XLUA_UTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1344D7C0)
+#define XLUA_UTILS__M_REFLECTION_FUNC_OFFSET UNITYSDK_OFFSET(0x1344AFB0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 46454;
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 47044;
 
 	class Utils : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::XLua::LuaDLL::lua_CSFunction*>** StaticGet_funcs()
 		{
-			return (::System::Collections::Generic::List_1<::XLua::LuaDLL::lua_CSFunction*>**)Il2CppClass::FromTypeDefinitionIndex(Utils_TypeDefinitionIndex)->GetStaticField(0x218D0);
+			return (::System::Collections::Generic::List_1<::XLua::LuaDLL::lua_CSFunction*>**)Il2CppClass::FromTypeDefinitionIndex(Utils_TypeDefinitionIndex)->GetStaticField(0x584D0);
 		}
 		// static const ::System::Int32 OBJ_META_IDX = 0xFFFFFFFC; // 0x0
 		// static const ::System::Int32 METHOD_IDX = 0xFFFFFFFD; // 0x0
@@ -82,184 +82,184 @@ namespace XLua
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_UTILS__CCTOR_OFFSET))();
 		}
 
-		static ::System::Boolean LoadField(::System::IntPtr L, ::System::Int32 idx, ::System::String* field_name)
+		static ::System::Boolean LoadField(::System::IntPtr a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_UTILS_LOADFIELD_OFFSET))(L, idx, field_name);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_UTILS_LOADFIELD_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::IntPtr GetMainState(::System::IntPtr L)
+		static ::System::IntPtr GetMainState(::System::IntPtr a1)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_UTILS_GETMAINSTATE_OFFSET))(L);
+			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_UTILS_GETMAINSTATE_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Type*>* GetAllTypes(::System::Boolean exclude_generic_definition, ::System::Boolean withoutExeAssembly)
+		static ::System::Collections::Generic::List_1<::System::Type*>* GetAllTypes(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Type*>*(*)(::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + XLUA_UTILS_GETALLTYPES_OFFSET))(exclude_generic_definition, withoutExeAssembly);
+			return ((::System::Collections::Generic::List_1<::System::Type*>*(*)(::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + XLUA_UTILS_GETALLTYPES_OFFSET))(a1, a2);
 		}
 
-		static ::XLua::LuaDLL::lua_CSFunction* genFieldGetter(::System::Type* type, ::System::Reflection::FieldInfo* field)
+		static ::XLua::LuaDLL::lua_CSFunction* genFieldGetter(::System::Type* a1, ::System::Reflection::FieldInfo* a2)
 		{
-			return ((::XLua::LuaDLL::lua_CSFunction*(*)(::System::Type*, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GENFIELDGETTER_OFFSET))(type, field);
+			return ((::XLua::LuaDLL::lua_CSFunction*(*)(::System::Type*, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GENFIELDGETTER_OFFSET))(a1, a2);
 		}
 
-		static ::XLua::LuaDLL::lua_CSFunction* genFieldSetter(::System::Type* type, ::System::Reflection::FieldInfo* field)
+		static ::XLua::LuaDLL::lua_CSFunction* genFieldSetter(::System::Type* a1, ::System::Reflection::FieldInfo* a2)
 		{
-			return ((::XLua::LuaDLL::lua_CSFunction*(*)(::System::Type*, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GENFIELDSETTER_OFFSET))(type, field);
+			return ((::XLua::LuaDLL::lua_CSFunction*(*)(::System::Type*, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GENFIELDSETTER_OFFSET))(a1, a2);
 		}
 
-		static ::XLua::LuaDLL::lua_CSFunction* genItemGetter(::System::Type* type, ::Il2CppArray<::System::Reflection::PropertyInfo*>* props)
+		static ::XLua::LuaDLL::lua_CSFunction* genItemGetter(::System::Type* a1, ::Il2CppArray<::System::Reflection::PropertyInfo*>* a2)
 		{
-			return ((::XLua::LuaDLL::lua_CSFunction*(*)(::System::Type*, ::Il2CppArray<::System::Reflection::PropertyInfo*>*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GENITEMGETTER_OFFSET))(type, props);
+			return ((::XLua::LuaDLL::lua_CSFunction*(*)(::System::Type*, ::Il2CppArray<::System::Reflection::PropertyInfo*>*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GENITEMGETTER_OFFSET))(a1, a2);
 		}
 
-		static ::XLua::LuaDLL::lua_CSFunction* genItemSetter(::System::Type* type, ::Il2CppArray<::System::Reflection::PropertyInfo*>* props)
+		static ::XLua::LuaDLL::lua_CSFunction* genItemSetter(::System::Type* a1, ::Il2CppArray<::System::Reflection::PropertyInfo*>* a2)
 		{
-			return ((::XLua::LuaDLL::lua_CSFunction*(*)(::System::Type*, ::Il2CppArray<::System::Reflection::PropertyInfo*>*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GENITEMSETTER_OFFSET))(type, props);
+			return ((::XLua::LuaDLL::lua_CSFunction*(*)(::System::Type*, ::Il2CppArray<::System::Reflection::PropertyInfo*>*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GENITEMSETTER_OFFSET))(a1, a2);
 		}
 
-		static ::XLua::LuaDLL::lua_CSFunction* genEnumCastFrom(::System::Type* type)
+		static ::XLua::LuaDLL::lua_CSFunction* genEnumCastFrom(::System::Type* a1)
 		{
-			return ((::XLua::LuaDLL::lua_CSFunction*(*)(::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GENENUMCASTFROM_OFFSET))(type);
+			return ((::XLua::LuaDLL::lua_CSFunction*(*)(::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GENENUMCASTFROM_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>* GetExtensionMethodsOf(::System::Type* type_to_be_extend)
+		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>* GetExtensionMethodsOf(::System::Type* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GETEXTENSIONMETHODSOF_OFFSET))(type_to_be_extend);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GETEXTENSIONMETHODSOF_OFFSET))(a1);
 		}
 
-		static ::System::Void makeReflectionWrap(::System::IntPtr L, ::System::Type* type, ::System::Int32 cls_field, ::System::Int32 cls_getter, ::System::Int32 cls_setter, ::System::Int32 obj_field, ::System::Int32 obj_getter, ::System::Int32 obj_setter, ::System::Int32 obj_meta, ::XLua::LuaDLL::lua_CSFunction*& item_getter, ::XLua::LuaDLL::lua_CSFunction*& item_setter, ::System::Reflection::BindingFlags access)
+		static ::System::Void makeReflectionWrap(::System::IntPtr a1, ::System::Type* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::XLua::LuaDLL::lua_CSFunction*& a10, ::XLua::LuaDLL::lua_CSFunction*& a11, ::System::Reflection::BindingFlags a12)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Type*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::XLua::LuaDLL::lua_CSFunction*&, ::XLua::LuaDLL::lua_CSFunction*&, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + XLUA_UTILS_MAKEREFLECTIONWRAP_OFFSET))(L, type, cls_field, cls_getter, cls_setter, obj_field, obj_getter, obj_setter, obj_meta, item_getter, item_setter, access);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Type*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::XLua::LuaDLL::lua_CSFunction*&, ::XLua::LuaDLL::lua_CSFunction*&, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + XLUA_UTILS_MAKEREFLECTIONWRAP_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
-		static ::System::Void loadUpvalue(::System::IntPtr L, ::System::Type* type, ::System::String* metafunc, ::System::Int32 index)
+		static ::System::Void loadUpvalue(::System::IntPtr a1, ::System::Type* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Type*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_LOADUPVALUE_OFFSET))(L, type, metafunc, index);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Type*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_LOADUPVALUE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void RegisterEnumType(::System::IntPtr L, ::System::Type* type)
+		static ::System::Void RegisterEnumType(::System::IntPtr a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_REGISTERENUMTYPE_OFFSET))(L, type);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_REGISTERENUMTYPE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void MakePrivateAccessible(::System::IntPtr L, ::System::Type* type)
+		static ::System::Void MakePrivateAccessible(::System::IntPtr a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_MAKEPRIVATEACCESSIBLE_OFFSET))(L, type);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_MAKEPRIVATEACCESSIBLE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 LazyReflectionCall(::System::IntPtr L)
+		static ::System::Int32 LazyReflectionCall(::System::IntPtr a1)
 		{
-			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_UTILS_LAZYREFLECTIONCALL_OFFSET))(L);
+			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_UTILS_LAZYREFLECTIONCALL_OFFSET))(a1);
 		}
 
-		static ::System::Void ReflectionWrap(::System::IntPtr L, ::System::Type* type, ::System::Boolean privateAccessible)
+		static ::System::Void ReflectionWrap(::System::IntPtr a1, ::System::Type* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + XLUA_UTILS_REFLECTIONWRAP_OFFSET))(L, type, privateAccessible);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + XLUA_UTILS_REFLECTIONWRAP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void BeginObjectRegister(::System::Type* type, ::System::IntPtr L, ::XLua::ObjectTranslator* translator, ::System::Int32 meta_count, ::System::Int32 method_count, ::System::Int32 getter_count, ::System::Int32 setter_count, ::System::Int32 type_id)
+		static ::System::Void BeginObjectRegister(::System::Type* a1, ::System::IntPtr a2, ::XLua::ObjectTranslator* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8)
 		{
-			return ((::System::Void(*)(::System::Type*, ::System::IntPtr, ::XLua::ObjectTranslator*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_BEGINOBJECTREGISTER_OFFSET))(type, L, translator, meta_count, method_count, getter_count, setter_count, type_id);
+			return ((::System::Void(*)(::System::Type*, ::System::IntPtr, ::XLua::ObjectTranslator*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_BEGINOBJECTREGISTER_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Void BeginObjectRegister_1(::System::Type* type, ::System::String* fullName, ::System::IntPtr L, ::XLua::ObjectTranslator* translator, ::System::Int32 meta_count, ::System::Int32 method_count, ::System::Int32 getter_count, ::System::Int32 setter_count, ::System::Int32 type_id)
+		static ::System::Void BeginObjectRegister_1(::System::Type* a1, ::System::String* a2, ::System::IntPtr a3, ::XLua::ObjectTranslator* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9)
 		{
-			return ((::System::Void(*)(::System::Type*, ::System::String*, ::System::IntPtr, ::XLua::ObjectTranslator*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_BEGINOBJECTREGISTER_1_OFFSET))(type, fullName, L, translator, meta_count, method_count, getter_count, setter_count, type_id);
+			return ((::System::Void(*)(::System::Type*, ::System::String*, ::System::IntPtr, ::XLua::ObjectTranslator*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_BEGINOBJECTREGISTER_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::System::Int32 abs_idx(::System::Int32 top, ::System::Int32 idx)
+		static ::System::Int32 abs_idx(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_ABS_IDX_OFFSET))(top, idx);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_ABS_IDX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void EndObjectRegister(::System::Type* type, ::System::IntPtr L, ::XLua::ObjectTranslator* translator, ::XLua::LuaDLL::lua_CSFunction* csIndexer, ::XLua::LuaDLL::lua_CSFunction* csNewIndexer, ::System::Type* base_type, ::XLua::LuaDLL::lua_CSFunction* arrayIndexer, ::XLua::LuaDLL::lua_CSFunction* arrayNewIndexer)
+		static ::System::Void EndObjectRegister(::System::Type* a1, ::System::IntPtr a2, ::XLua::ObjectTranslator* a3, ::XLua::LuaDLL::lua_CSFunction* a4, ::XLua::LuaDLL::lua_CSFunction* a5, ::System::Type* a6, ::XLua::LuaDLL::lua_CSFunction* a7, ::XLua::LuaDLL::lua_CSFunction* a8)
 		{
-			return ((::System::Void(*)(::System::Type*, ::System::IntPtr, ::XLua::ObjectTranslator*, ::XLua::LuaDLL::lua_CSFunction*, ::XLua::LuaDLL::lua_CSFunction*, ::System::Type*, ::XLua::LuaDLL::lua_CSFunction*, ::XLua::LuaDLL::lua_CSFunction*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ENDOBJECTREGISTER_OFFSET))(type, L, translator, csIndexer, csNewIndexer, base_type, arrayIndexer, arrayNewIndexer);
+			return ((::System::Void(*)(::System::Type*, ::System::IntPtr, ::XLua::ObjectTranslator*, ::XLua::LuaDLL::lua_CSFunction*, ::XLua::LuaDLL::lua_CSFunction*, ::System::Type*, ::XLua::LuaDLL::lua_CSFunction*, ::XLua::LuaDLL::lua_CSFunction*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ENDOBJECTREGISTER_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Void RegisterFunc(::System::IntPtr L, ::System::Int32 idx, ::System::String* name, ::XLua::LuaDLL::lua_CSFunction* func)
+		static ::System::Void RegisterFunc(::System::IntPtr a1, ::System::Int32 a2, ::System::String* a3, ::XLua::LuaDLL::lua_CSFunction* a4)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Int32, ::System::String*, ::XLua::LuaDLL::lua_CSFunction*))((::PBYTE)hIl2Cpp + XLUA_UTILS_REGISTERFUNC_OFFSET))(L, idx, name, func);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Int32, ::System::String*, ::XLua::LuaDLL::lua_CSFunction*))((::PBYTE)hIl2Cpp + XLUA_UTILS_REGISTERFUNC_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void RegisterReflectionFunc(::System::IntPtr L, ::System::Int32 idx, ::System::String* name)
+		static ::System::Void RegisterReflectionFunc(::System::IntPtr a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_UTILS_REGISTERREFLECTIONFUNC_OFFSET))(L, idx, name);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_UTILS_REGISTERREFLECTIONFUNC_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 _m_reflection_func(::System::IntPtr L, ::System::String* funcName)
+		static ::System::Int32 _m_reflection_func(::System::IntPtr a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_UTILS__M_REFLECTION_FUNC_OFFSET))(L, funcName);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_UTILS__M_REFLECTION_FUNC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void RegisterLazyFunc(::System::IntPtr L, ::System::Int32 idx, ::System::String* name, ::System::Type* type, ::XLua::LazyMemberTypes memberType, ::System::Boolean isStatic)
+		static ::System::Void RegisterLazyFunc(::System::IntPtr a1, ::System::Int32 a2, ::System::String* a3, ::System::Type* a4, ::XLua::LazyMemberTypes a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Int32, ::System::String*, ::System::Type*, ::XLua::LazyMemberTypes, ::System::Boolean))((::PBYTE)hIl2Cpp + XLUA_UTILS_REGISTERLAZYFUNC_OFFSET))(L, idx, name, type, memberType, isStatic);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Int32, ::System::String*, ::System::Type*, ::XLua::LazyMemberTypes, ::System::Boolean))((::PBYTE)hIl2Cpp + XLUA_UTILS_REGISTERLAZYFUNC_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void RegisterObject(::System::IntPtr L, ::XLua::ObjectTranslator* translator, ::System::Int32 idx, ::System::String* name, ::System::Object* obj)
+		static ::System::Void RegisterObject(::System::IntPtr a1, ::XLua::ObjectTranslator* a2, ::System::Int32 a3, ::System::String* a4, ::System::Object* a5)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::XLua::ObjectTranslator*, ::System::Int32, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_UTILS_REGISTEROBJECT_OFFSET))(L, translator, idx, name, obj);
+			return ((::System::Void(*)(::System::IntPtr, ::XLua::ObjectTranslator*, ::System::Int32, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_UTILS_REGISTEROBJECT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void BeginClassRegister(::System::Type* type, ::System::IntPtr L, ::XLua::LuaDLL::lua_CSFunction* creator, ::System::Int32 class_field_count, ::System::Int32 static_getter_count, ::System::Int32 static_setter_count)
+		static ::System::Void BeginClassRegister(::System::Type* a1, ::System::IntPtr a2, ::XLua::LuaDLL::lua_CSFunction* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::System::Type*, ::System::IntPtr, ::XLua::LuaDLL::lua_CSFunction*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_BEGINCLASSREGISTER_OFFSET))(type, L, creator, class_field_count, static_getter_count, static_setter_count);
+			return ((::System::Void(*)(::System::Type*, ::System::IntPtr, ::XLua::LuaDLL::lua_CSFunction*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_BEGINCLASSREGISTER_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void EndClassRegister(::System::Type* type, ::System::IntPtr L, ::XLua::ObjectTranslator* translator)
+		static ::System::Void EndClassRegister(::System::Type* a1, ::System::IntPtr a2, ::XLua::ObjectTranslator* a3)
 		{
-			return ((::System::Void(*)(::System::Type*, ::System::IntPtr, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ENDCLASSREGISTER_OFFSET))(type, L, translator);
+			return ((::System::Void(*)(::System::Type*, ::System::IntPtr, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ENDCLASSREGISTER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::String*>* getPathOfType(::System::Type* type)
+		static ::System::Collections::Generic::List_1<::System::String*>* getPathOfType(::System::Type* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GETPATHOFTYPE_OFFSET))(type);
+			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GETPATHOFTYPE_OFFSET))(a1);
 		}
 
-		static ::System::Void LoadCSTable(::System::IntPtr L, ::System::Type* type)
+		static ::System::Void LoadCSTable(::System::IntPtr a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_LOADCSTABLE_OFFSET))(L, type);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_LOADCSTABLE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetCSTable(::System::IntPtr L, ::System::Type* type, ::System::Int32 cls_table)
+		static ::System::Void SetCSTable(::System::IntPtr a1, ::System::Type* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_SETCSTABLE_OFFSET))(L, type, cls_table);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_UTILS_SETCSTABLE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean IsParamsMatch(::System::Reflection::MethodInfo* delegateMethod, ::System::Reflection::MethodInfo* bridgeMethod)
+		static ::System::Boolean IsParamsMatch(::System::Reflection::MethodInfo* a1, ::System::Reflection::MethodInfo* a2)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISPARAMSMATCH_OFFSET))(delegateMethod, bridgeMethod);
+			return ((::System::Boolean(*)(::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISPARAMSMATCH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsSupportedMethod(::System::Reflection::MethodInfo* method)
+		static ::System::Boolean IsSupportedMethod(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISSUPPORTEDMETHOD_OFFSET))(method);
+			return ((::System::Boolean(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISSUPPORTEDMETHOD_OFFSET))(a1);
 		}
 
-		static ::System::Reflection::MethodInfo* MakeGenericMethodWithConstraints(::System::Reflection::MethodInfo* method)
+		static ::System::Reflection::MethodInfo* MakeGenericMethodWithConstraints(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_MAKEGENERICMETHODWITHCONSTRAINTS_OFFSET))(method);
+			return ((::System::Reflection::MethodInfo*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_MAKEGENERICMETHODWITHCONSTRAINTS_OFFSET))(a1);
 		}
 
-		static ::System::Type* getExtendedType(::System::Reflection::MethodInfo* method)
+		static ::System::Type* getExtendedType(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Type*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GETEXTENDEDTYPE_OFFSET))(method);
+			return ((::System::Type*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GETEXTENDEDTYPE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsStaticPInvokeCSFunction(::XLua::LuaDLL::lua_CSFunction* csFunction)
+		static ::System::Boolean IsStaticPInvokeCSFunction(::XLua::LuaDLL::lua_CSFunction* a1)
 		{
-			return ((::System::Boolean(*)(::XLua::LuaDLL::lua_CSFunction*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISSTATICPINVOKECSFUNCTION_OFFSET))(csFunction);
+			return ((::System::Boolean(*)(::XLua::LuaDLL::lua_CSFunction*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISSTATICPINVOKECSFUNCTION_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsPublic(::System::Type* type)
+		static ::System::Boolean IsPublic(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISPUBLIC_OFFSET))(type);
+			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISPUBLIC_OFFSET))(a1);
 		}
 
-		static ::System::Void IsInBlackList(::System::Reflection::MemberInfo* member, ::System::Boolean& isInBlackList, ::System::String*& reason)
+		static ::System::Void IsInBlackList(::System::Reflection::MemberInfo* a1, ::System::Boolean& a2, ::System::String*& a3)
 		{
-			return ((::System::Void(*)(::System::Reflection::MemberInfo*, ::System::Boolean&, ::System::String*&))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISINBLACKLIST_OFFSET))(member, isInBlackList, reason);
+			return ((::System::Void(*)(::System::Reflection::MemberInfo*, ::System::Boolean&, ::System::String*&))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISINBLACKLIST_OFFSET))(a1, a2, a3);
 		}
 	};
 }

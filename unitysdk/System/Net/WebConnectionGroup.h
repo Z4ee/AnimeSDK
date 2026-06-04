@@ -13,18 +13,18 @@ namespace System::Net { class ServicePoint; }
 namespace System::Net { class WebConnection; }
 namespace System::Net { class WebConnectionGroup_ConnectionState; }
 
-#define SYSTEM_NET_WEBCONNECTIONGROUP_ADD_CONNECTIONCLOSED_OFFSET UNITYSDK_OFFSET(0x1A13F710)
-#define SYSTEM_NET_WEBCONNECTIONGROUP_CLOSE_OFFSET UNITYSDK_OFFSET(0x1A141100)
-#define SYSTEM_NET_WEBCONNECTIONGROUP_CREATEORREUSECONNECTION_OFFSET UNITYSDK_OFFSET(0x1A15EE40)
-#define SYSTEM_NET_WEBCONNECTIONGROUP_FINDIDLECONNECTION_OFFSET UNITYSDK_OFFSET(0x1A15F240)
-#define SYSTEM_NET_WEBCONNECTIONGROUP_GETCONNECTION_OFFSET UNITYSDK_OFFSET(0x1A140CA0)
-#define SYSTEM_NET_WEBCONNECTIONGROUP_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A15F400)
-#define SYSTEM_NET_WEBCONNECTIONGROUP_GET_QUEUE_OFFSET UNITYSDK_OFFSET(0x1A15F410)
-#define SYSTEM_NET_WEBCONNECTIONGROUP_ONCONNECTIONCLOSED_OFFSET UNITYSDK_OFFSET(0x1A15EE20)
-#define SYSTEM_NET_WEBCONNECTIONGROUP_PREPARESHARINGNTLM_OFFSET UNITYSDK_OFFSET(0x1A15EFC0)
-#define SYSTEM_NET_WEBCONNECTIONGROUP_REMOVE_CONNECTIONCLOSED_OFFSET UNITYSDK_OFFSET(0x1A15EDC0)
-#define SYSTEM_NET_WEBCONNECTIONGROUP_TRYRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A13FE90)
-#define SYSTEM_NET_WEBCONNECTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A13F690)
+#define SYSTEM_NET_WEBCONNECTIONGROUP_ADD_CONNECTIONCLOSED_OFFSET UNITYSDK_OFFSET(0x1AFA3930)
+#define SYSTEM_NET_WEBCONNECTIONGROUP_CLOSE_OFFSET UNITYSDK_OFFSET(0x1AFA53C0)
+#define SYSTEM_NET_WEBCONNECTIONGROUP_CREATEORREUSECONNECTION_OFFSET UNITYSDK_OFFSET(0x1AFC1C70)
+#define SYSTEM_NET_WEBCONNECTIONGROUP_FINDIDLECONNECTION_OFFSET UNITYSDK_OFFSET(0x1AFC2080)
+#define SYSTEM_NET_WEBCONNECTIONGROUP_GETCONNECTION_OFFSET UNITYSDK_OFFSET(0x1AFA4F50)
+#define SYSTEM_NET_WEBCONNECTIONGROUP_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1AFC2220)
+#define SYSTEM_NET_WEBCONNECTIONGROUP_GET_QUEUE_OFFSET UNITYSDK_OFFSET(0x1AFC2230)
+#define SYSTEM_NET_WEBCONNECTIONGROUP_ONCONNECTIONCLOSED_OFFSET UNITYSDK_OFFSET(0x1AFC1C50)
+#define SYSTEM_NET_WEBCONNECTIONGROUP_PREPARESHARINGNTLM_OFFSET UNITYSDK_OFFSET(0x1AFC1DF0)
+#define SYSTEM_NET_WEBCONNECTIONGROUP_REMOVE_CONNECTIONCLOSED_OFFSET UNITYSDK_OFFSET(0x1AFC1BF0)
+#define SYSTEM_NET_WEBCONNECTIONGROUP_TRYRECYCLE_OFFSET UNITYSDK_OFFSET(0x1AFA41B0)
+#define SYSTEM_NET_WEBCONNECTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFA38C0)
 
 namespace System::Net
 {
@@ -33,26 +33,26 @@ namespace System::Net
 	class WebConnectionGroup : public ::System::Object
 	{
 	public:
-		::System::Net::ServicePoint* sPoint; // 0x10
-		::System::Collections::Queue* queue; // 0x18
-		::System::EventHandler* ConnectionClosed; // 0x20
-		::System::Collections::Generic::LinkedList_1<::System::Net::WebConnectionGroup_ConnectionState*>* connections; // 0x28
-		::System::String* name; // 0x30
+		::System::Collections::Generic::LinkedList_1<::System::Net::WebConnectionGroup_ConnectionState*>* connections; // 0x10
+		::System::String* name; // 0x18
+		::System::Net::ServicePoint* sPoint; // 0x20
+		::System::EventHandler* ConnectionClosed; // 0x28
+		::System::Collections::Queue* queue; // 0x30
 		::System::Boolean closing; // 0x38
 
-		::System::Void _ctor(::System::Net::ServicePoint* sPoint, ::System::String* name)
+		::System::Void _ctor(::System::Net::ServicePoint* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::ServicePoint*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP__CTOR_OFFSET))(this, sPoint, name);
+			return ((::System::Void(*)(::PVOID, ::System::Net::ServicePoint*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void add_ConnectionClosed(::System::EventHandler* value)
+		::System::Void add_ConnectionClosed(::System::EventHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_ADD_CONNECTIONCLOSED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_ADD_CONNECTIONCLOSED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ConnectionClosed(::System::EventHandler* value)
+		::System::Void remove_ConnectionClosed(::System::EventHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_REMOVE_CONNECTIONCLOSED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_REMOVE_CONNECTIONCLOSED_OFFSET))(this, a1);
 		}
 
 		::System::Void OnConnectionClosed()
@@ -65,14 +65,14 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_CLOSE_OFFSET))(this);
 		}
 
-		::System::Net::WebConnection* GetConnection(::System::Net::HttpWebRequest* request, ::System::Boolean& created)
+		::System::Net::WebConnection* GetConnection(::System::Net::HttpWebRequest* a1, ::System::Boolean& a2)
 		{
-			return ((::System::Net::WebConnection*(*)(::PVOID, ::System::Net::HttpWebRequest*, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_GETCONNECTION_OFFSET))(this, request, created);
+			return ((::System::Net::WebConnection*(*)(::PVOID, ::System::Net::HttpWebRequest*, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_GETCONNECTION_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void PrepareSharingNtlm(::System::Net::WebConnection* cnc, ::System::Net::HttpWebRequest* request)
+		static ::System::Void PrepareSharingNtlm(::System::Net::WebConnection* a1, ::System::Net::HttpWebRequest* a2)
 		{
-			return ((::System::Void(*)(::System::Net::WebConnection*, ::System::Net::HttpWebRequest*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_PREPARESHARINGNTLM_OFFSET))(cnc, request);
+			return ((::System::Void(*)(::System::Net::WebConnection*, ::System::Net::HttpWebRequest*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_PREPARESHARINGNTLM_OFFSET))(a1, a2);
 		}
 
 		::System::Net::WebConnectionGroup_ConnectionState* FindIdleConnection()
@@ -80,9 +80,9 @@ namespace System::Net
 			return ((::System::Net::WebConnectionGroup_ConnectionState*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_FINDIDLECONNECTION_OFFSET))(this);
 		}
 
-		::System::Net::WebConnection* CreateOrReuseConnection(::System::Net::HttpWebRequest* request, ::System::Boolean& created)
+		::System::Net::WebConnection* CreateOrReuseConnection(::System::Net::HttpWebRequest* a1, ::System::Boolean& a2)
 		{
-			return ((::System::Net::WebConnection*(*)(::PVOID, ::System::Net::HttpWebRequest*, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_CREATEORREUSECONNECTION_OFFSET))(this, request, created);
+			return ((::System::Net::WebConnection*(*)(::PVOID, ::System::Net::HttpWebRequest*, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_CREATEORREUSECONNECTION_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Name()
@@ -95,9 +95,9 @@ namespace System::Net
 			return ((::System::Collections::Queue*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_GET_QUEUE_OFFSET))(this);
 		}
 
-		::System::Boolean TryRecycle(::System::TimeSpan maxIdleTime, ::System::DateTime& idleSince)
+		::System::Boolean TryRecycle(::System::TimeSpan a1, ::System::DateTime& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::TimeSpan, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_TRYRECYCLE_OFFSET))(this, maxIdleTime, idleSince);
+			return ((::System::Boolean(*)(::PVOID, ::System::TimeSpan, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTIONGROUP_TRYRECYCLE_OFFSET))(this, a1, a2);
 		}
 	};
 }

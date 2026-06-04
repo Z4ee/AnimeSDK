@@ -3,24 +3,24 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_LEVELWAITSECOND_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6E8C30)
-#define RPG_GAMECORE_LEVELWAITSECOND_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6E8BE0)
-#define RPG_GAMECORE_LEVELWAITSECOND_GET_LOOPEXECUTEUSED_OFFSET UNITYSDK_OFFSET(0xB6E8D00)
-#define RPG_GAMECORE_LEVELWAITSECOND_RESET_OFFSET UNITYSDK_OFFSET(0xB6E8C80)
-#define RPG_GAMECORE_LEVELWAITSECOND_SETUSED_OFFSET UNITYSDK_OFFSET(0xB6E8CC0)
-#define RPG_GAMECORE_LEVELWAITSECOND_SET_LOOPEXECUTEUSED_OFFSET UNITYSDK_OFFSET(0xB6E8D10)
-#define RPG_GAMECORE_LEVELWAITSECOND__CTOR_OFFSET UNITYSDK_OFFSET(0xB6E8D20)
+#define RPG_GAMECORE_LEVELWAITSECOND_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE57330)
+#define RPG_GAMECORE_LEVELWAITSECOND_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE572E0)
+#define RPG_GAMECORE_LEVELWAITSECOND_GET_LOOPEXECUTEUSED_OFFSET UNITYSDK_OFFSET(0xCE57400)
+#define RPG_GAMECORE_LEVELWAITSECOND_RESET_OFFSET UNITYSDK_OFFSET(0xCE57380)
+#define RPG_GAMECORE_LEVELWAITSECOND_SETUSED_OFFSET UNITYSDK_OFFSET(0xCE573C0)
+#define RPG_GAMECORE_LEVELWAITSECOND_SET_LOOPEXECUTEUSED_OFFSET UNITYSDK_OFFSET(0xCE57410)
+#define RPG_GAMECORE_LEVELWAITSECOND__CTOR_OFFSET UNITYSDK_OFFSET(0xCE57420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelWaitSecond_TypeDefinitionIndex = 52363;
+	inline static constexpr unsigned int LevelWaitSecond_TypeDefinitionIndex = 53060;
 
 	class LevelWaitSecond : public ::System::Object
 	{
 	public:
-		::System::Boolean FirstTick; // 0x10
-		::System::Boolean _LoopExecuteUsed_k__BackingField; // 0x11
-		::System::Single RemainWaitSecond; // 0x14
+		::System::Single RemainWaitSecond; // 0x10
+		::System::Boolean FirstTick; // 0x14
+		::System::Boolean _LoopExecuteUsed_k__BackingField; // 0x15
 
 		::System::Void _ctor()
 		{
@@ -52,9 +52,9 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELWAITSECOND_GET_LOOPEXECUTEUSED_OFFSET))(this);
 		}
 
-		::System::Void set_LoopExecuteUsed(::System::Boolean value)
+		::System::Void set_LoopExecuteUsed(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELWAITSECOND_SET_LOOPEXECUTEUSED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELWAITSECOND_SET_LOOPEXECUTEUSED_OFFSET))(this, a1);
 		}
 	};
 }

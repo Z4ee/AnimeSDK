@@ -8,43 +8,43 @@
 namespace RPG::GameCore { class ClockParkCheckPointRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_CHECKPOINTDESC_OFFSET UNITYSDK_OFFSET(0xA09C600)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_CHECKPOINTID_OFFSET UNITYSDK_OFFSET(0xA09C5C0)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_CHECKPOINTTYPE_OFFSET UNITYSDK_OFFSET(0xA09C320)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xA09C5E0)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_HASCHECK_OFFSET UNITYSDK_OFFSET(0xA09C340)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_HASMULTICHECKSINGLEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xA09C3A0)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_REFRESHCHECKPOINTSTATUS_OFFSET UNITYSDK_OFFSET(0xA09BF40)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SET_CHECKPOINTID_OFFSET UNITYSDK_OFFSET(0xA09C5D0)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xA09C5F0)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xA09B930)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA09BCD0)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO__FILLCHECKPOINTPARAM_OFFSET UNITYSDK_OFFSET(0xA09BF80)
-#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO__ONCHECKPOINTIDCHANGED_OFFSET UNITYSDK_OFFSET(0xA09BED0)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_CHECKPOINTDESC_OFFSET UNITYSDK_OFFSET(0xB6DA760)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_CHECKPOINTID_OFFSET UNITYSDK_OFFSET(0xB6DA720)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_CHECKPOINTTYPE_OFFSET UNITYSDK_OFFSET(0xB6DA4A0)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xB6DA740)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_HASCHECK_OFFSET UNITYSDK_OFFSET(0xB6DA4C0)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_HASMULTICHECKSINGLEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xB6DA520)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_REFRESHCHECKPOINTSTATUS_OFFSET UNITYSDK_OFFSET(0xB6DA0C0)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SET_CHECKPOINTID_OFFSET UNITYSDK_OFFSET(0xB6DA730)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xB6DA750)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xB6D9AB0)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D9E50)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO__FILLCHECKPOINTPARAM_OFFSET UNITYSDK_OFFSET(0xB6DA100)
+#define RPG_CLIENT_CLOCKPARKCHECKPOINTINFO__ONCHECKPOINTIDCHANGED_OFFSET UNITYSDK_OFFSET(0xB6DA050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClockParkCheckPointInfo_TypeDefinitionIndex = 56705;
+	inline static constexpr unsigned int ClockParkCheckPointInfo_TypeDefinitionIndex = 57489;
 
 	class ClockParkCheckPointInfo : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ClockParkCheckPointRow* _Config_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::ClockParkAttributeType, ::System::UInt32>* CheckSingleAttributeDict; // 0x18
-		::System::UInt32 CheckTotalAttributeValue; // 0x20
-		::System::UInt32 _CheckPointID_k__BackingField; // 0x24
-		::System::UInt32 CheckSingleAttributeValue; // 0x28
-		::System::UInt32 CheckBuffID; // 0x2C
-		::RPG::Client::ClockParkAttributeType CheckSingleAttributeType; // 0x30
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::ClockParkAttributeType, ::System::UInt32>* CheckSingleAttributeDict; // 0x10
+		::RPG::GameCore::ClockParkCheckPointRow* _Config_k__BackingField; // 0x18
+		::System::UInt32 CheckSingleAttributeValue; // 0x20
+		::System::UInt32 CheckBuffID; // 0x24
+		::System::UInt32 _CheckPointID_k__BackingField; // 0x28
+		::RPG::Client::ClockParkAttributeType CheckSingleAttributeType; // 0x2C
+		::System::UInt32 CheckTotalAttributeValue; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Sync(::System::UInt32 checkPointID)
+		::System::Void Sync(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SYNC_OFFSET))(this, checkPointID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SYNC_OFFSET))(this, a1);
 		}
 
 		::System::Void RefreshCheckPointStatus()
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_REFRESHCHECKPOINTSTATUS_OFFSET))(this);
 		}
 
-		::System::Void _OnCheckPointIDChanged(::System::UInt32 checkPointID)
+		::System::Void _OnCheckPointIDChanged(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO__ONCHECKPOINTIDCHANGED_OFFSET))(this, checkPointID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO__ONCHECKPOINTIDCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void _FillCheckPointParam()
@@ -77,9 +77,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_CHECKPOINTID_OFFSET))(this);
 		}
 
-		::System::Void set_CheckPointID(::System::UInt32 value)
+		::System::Void set_CheckPointID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SET_CHECKPOINTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SET_CHECKPOINTID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ClockParkCheckPointRow* get_Config()
@@ -87,9 +87,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::ClockParkCheckPointRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_GET_CONFIG_OFFSET))(this);
 		}
 
-		::System::Void set_Config(::RPG::GameCore::ClockParkCheckPointRow* value)
+		::System::Void set_Config(::RPG::GameCore::ClockParkCheckPointRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ClockParkCheckPointRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SET_CONFIG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ClockParkCheckPointRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKCHECKPOINTINFO_SET_CONFIG_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ClockParkCheckPointType get_CheckPointType()

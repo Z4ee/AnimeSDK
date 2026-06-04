@@ -12,22 +12,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider2D; }
 namespace UnityEngine { class Collider; }
 
-#define CINEMACHINE_CINEMACHINECONFINER_CAMERAWASDISPLACED_OFFSET UNITYSDK_OFFSET(0x12B78F20)
-#define CINEMACHINE_CINEMACHINECONFINER_CONFINEPOINT_OFFSET UNITYSDK_OFFSET(0x12B79BD0)
-#define CINEMACHINE_CINEMACHINECONFINER_CONFINESCREENEDGES_OFFSET UNITYSDK_OFFSET(0x12B795F0)
-#define CINEMACHINE_CINEMACHINECONFINER_CONNECTTOVCAM_OFFSET UNITYSDK_OFFSET(0x12B78FF0)
-#define CINEMACHINE_CINEMACHINECONFINER_GETCAMERADISPLACEMENTDISTANCE_OFFSET UNITYSDK_OFFSET(0x12B78F80)
-#define CINEMACHINE_CINEMACHINECONFINER_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x12B79200)
-#define CINEMACHINE_CINEMACHINECONFINER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x12B791D0)
-#define CINEMACHINE_CINEMACHINECONFINER_INVALIDATEPATHCACHE_OFFSET UNITYSDK_OFFSET(0x12B7A040)
-#define CINEMACHINE_CINEMACHINECONFINER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x12B78FE0)
-#define CINEMACHINE_CINEMACHINECONFINER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x12B79210)
-#define CINEMACHINE_CINEMACHINECONFINER_VALIDATEPATHCACHE_OFFSET UNITYSDK_OFFSET(0x12B7A060)
-#define CINEMACHINE_CINEMACHINECONFINER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B7A860)
+#define CINEMACHINE_CINEMACHINECONFINER_CAMERAWASDISPLACED_OFFSET UNITYSDK_OFFSET(0x146387D0)
+#define CINEMACHINE_CINEMACHINECONFINER_CONFINEPOINT_OFFSET UNITYSDK_OFFSET(0x14639470)
+#define CINEMACHINE_CINEMACHINECONFINER_CONFINESCREENEDGES_OFFSET UNITYSDK_OFFSET(0x14638EA0)
+#define CINEMACHINE_CINEMACHINECONFINER_CONNECTTOVCAM_OFFSET UNITYSDK_OFFSET(0x146388A0)
+#define CINEMACHINE_CINEMACHINECONFINER_GETCAMERADISPLACEMENTDISTANCE_OFFSET UNITYSDK_OFFSET(0x14638830)
+#define CINEMACHINE_CINEMACHINECONFINER_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x14638AB0)
+#define CINEMACHINE_CINEMACHINECONFINER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x14638A80)
+#define CINEMACHINE_CINEMACHINECONFINER_INVALIDATEPATHCACHE_OFFSET UNITYSDK_OFFSET(0x14639940)
+#define CINEMACHINE_CINEMACHINECONFINER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x14638890)
+#define CINEMACHINE_CINEMACHINECONFINER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x14638AC0)
+#define CINEMACHINE_CINEMACHINECONFINER_VALIDATEPATHCACHE_OFFSET UNITYSDK_OFFSET(0x14639960)
+#define CINEMACHINE_CINEMACHINECONFINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1463A050)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineConfiner_TypeDefinitionIndex = 36492;
+	inline static constexpr unsigned int CinemachineConfiner_TypeDefinitionIndex = 36792;
 
 	class CinemachineConfiner : public ::Cinemachine::CinemachineExtension
 	{
@@ -46,14 +46,14 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean CameraWasDisplaced(::Cinemachine::CinemachineVirtualCameraBase* vcam)
+		::System::Boolean CameraWasDisplaced(::Cinemachine::CinemachineVirtualCameraBase* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_CAMERAWASDISPLACED_OFFSET))(this, vcam);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_CAMERAWASDISPLACED_OFFSET))(this, a1);
 		}
 
-		::System::Single GetCameraDisplacementDistance(::Cinemachine::CinemachineVirtualCameraBase* vcam)
+		::System::Single GetCameraDisplacementDistance(::Cinemachine::CinemachineVirtualCameraBase* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_GETCAMERADISPLACEMENTDISTANCE_OFFSET))(this, vcam);
+			return ((::System::Single(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_GETCAMERADISPLACEMENTDISTANCE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnValidate()
@@ -61,9 +61,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_ONVALIDATE_OFFSET))(this);
 		}
 
-		::System::Void ConnectToVcam(::System::Boolean connect)
+		::System::Void ConnectToVcam(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_CONNECTTOVCAM_OFFSET))(this, connect);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_CONNECTTOVCAM_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsValid()
@@ -76,9 +76,9 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_GETMAXDAMPTIME_OFFSET))(this);
 		}
 
-		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* vcam, ::Cinemachine::CinemachineCore_Stage stage, ::Cinemachine::CameraState& state, ::System::Single deltaTime)
+		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState& a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_POSTPIPELINESTAGECALLBACK_OFFSET))(this, vcam, stage, state, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void InvalidatePathCache()
@@ -91,14 +91,14 @@ namespace Cinemachine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_VALIDATEPATHCACHE_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 ConfinePoint(::UnityEngine::Vector3 camPos)
+		::UnityEngine::Vector3 ConfinePoint(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_CONFINEPOINT_OFFSET))(this, camPos);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_CONFINEPOINT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 ConfineScreenEdges(::Cinemachine::CinemachineVirtualCameraBase* vcam, ::Cinemachine::CameraState& state)
+		::UnityEngine::Vector3 ConfineScreenEdges(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CameraState& a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CameraState&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_CONFINESCREENEDGES_OFFSET))(this, vcam, state);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CameraState&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECONFINER_CONFINESCREENEDGES_OFFSET))(this, a1, a2);
 		}
 	};
 }

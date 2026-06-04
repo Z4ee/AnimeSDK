@@ -4,11 +4,11 @@
 
 namespace Cinemachine { class CinemachineVirtualCamera; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELPUZZLEVIRTUALCAMERACONFIG_ADAPTIVECAMERASET_ENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xADD6B30)
+#define RPG_CLIENT_PROP_CHIMERADUELPUZZLEVIRTUALCAMERACONFIG_ADAPTIVECAMERASET_ENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xC51ACC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelPuzzleVirtualCameraConfig_AdaptiveCameraSet_Entry_TypeDefinitionIndex = 71811;
+	inline static constexpr unsigned int ChimeraDuelPuzzleVirtualCameraConfig_AdaptiveCameraSet_Entry_TypeDefinitionIndex = 72833;
 
 	class ChimeraDuelPuzzleVirtualCameraConfig_AdaptiveCameraSet_Entry : public ::System::Object
 	{

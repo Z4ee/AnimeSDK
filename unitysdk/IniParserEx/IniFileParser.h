@@ -11,24 +11,24 @@ namespace IniParserEx { class IniFile_SectionItem; }
 namespace IniParserEx { class Token; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define INIPARSEREX_INIFILEPARSER_COMPILEDECLARATION_OFFSET UNITYSDK_OFFSET(0x1A4209E0)
-#define INIPARSEREX_INIFILEPARSER_COMPILEFILESCOPE_OFFSET UNITYSDK_OFFSET(0x1A420B40)
-#define INIPARSEREX_INIFILEPARSER_COMPILESECTIONITEMSCOPE_OFFSET UNITYSDK_OFFSET(0x1A4217B0)
-#define INIPARSEREX_INIFILEPARSER_COMPILESECTIONSCOPE_OFFSET UNITYSDK_OFFSET(0x1A421030)
-#define INIPARSEREX_INIFILEPARSER_GET_SCOPESTACK_OFFSET UNITYSDK_OFFSET(0x1A420890)
-#define INIPARSEREX_INIFILEPARSER_ISBEGINCOMMENT_OFFSET UNITYSDK_OFFSET(0x1A4232F0)
-#define INIPARSEREX_INIFILEPARSER_ISENDCOMMENT_OFFSET UNITYSDK_OFFSET(0x1A423300)
-#define INIPARSEREX_INIFILEPARSER_ISLINECOMMENT_OFFSET UNITYSDK_OFFSET(0x1A423310)
-#define INIPARSEREX_INIFILEPARSER_PARSELIST_OFFSET UNITYSDK_OFFSET(0x1A422990)
-#define INIPARSEREX_INIFILEPARSER_PARSEMAP_OFFSET UNITYSDK_OFFSET(0x1A4221D0)
-#define INIPARSEREX_INIFILEPARSER_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1A421B30)
-#define INIPARSEREX_INIFILEPARSER_POSTPARSERPROCESS_OFFSET UNITYSDK_OFFSET(0x1A420970)
-#define INIPARSEREX_INIFILEPARSER_PREPARSERPROCESS_OFFSET UNITYSDK_OFFSET(0x1A4208A0)
-#define INIPARSEREX_INIFILEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41E7F0)
+#define INIPARSEREX_INIFILEPARSER_COMPILEDECLARATION_OFFSET UNITYSDK_OFFSET(0x1B273D50)
+#define INIPARSEREX_INIFILEPARSER_COMPILEFILESCOPE_OFFSET UNITYSDK_OFFSET(0x1B273EC0)
+#define INIPARSEREX_INIFILEPARSER_COMPILESECTIONITEMSCOPE_OFFSET UNITYSDK_OFFSET(0x1B274AC0)
+#define INIPARSEREX_INIFILEPARSER_COMPILESECTIONSCOPE_OFFSET UNITYSDK_OFFSET(0x1B274380)
+#define INIPARSEREX_INIFILEPARSER_GET_SCOPESTACK_OFFSET UNITYSDK_OFFSET(0x1B273BF0)
+#define INIPARSEREX_INIFILEPARSER_ISBEGINCOMMENT_OFFSET UNITYSDK_OFFSET(0x1B276570)
+#define INIPARSEREX_INIFILEPARSER_ISENDCOMMENT_OFFSET UNITYSDK_OFFSET(0x1B276580)
+#define INIPARSEREX_INIFILEPARSER_ISLINECOMMENT_OFFSET UNITYSDK_OFFSET(0x1B276590)
+#define INIPARSEREX_INIFILEPARSER_PARSELIST_OFFSET UNITYSDK_OFFSET(0x1B275CD0)
+#define INIPARSEREX_INIFILEPARSER_PARSEMAP_OFFSET UNITYSDK_OFFSET(0x1B275540)
+#define INIPARSEREX_INIFILEPARSER_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1B274EA0)
+#define INIPARSEREX_INIFILEPARSER_POSTPARSERPROCESS_OFFSET UNITYSDK_OFFSET(0x1B273CE0)
+#define INIPARSEREX_INIFILEPARSER_PREPARSERPROCESS_OFFSET UNITYSDK_OFFSET(0x1B273C00)
+#define INIPARSEREX_INIFILEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B271BB0)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int IniFileParser_TypeDefinitionIndex = 3753;
+	inline static constexpr unsigned int IniFileParser_TypeDefinitionIndex = 3927;
 
 	class IniFileParser : public ::IniParserEx::BaseParserWithFile
 	{
@@ -45,64 +45,64 @@ namespace IniParserEx
 			return ((::System::Collections::Generic::Stack_1<::IniParserEx::IniFileParser_IIniScope*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_GET_SCOPESTACK_OFFSET))(this);
 		}
 
-		::System::Void PreParserProcess(::IniParserEx::ICodeFile* file)
+		::System::Void PreParserProcess(::IniParserEx::ICodeFile* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_PREPARSERPROCESS_OFFSET))(this, file);
+			return ((::System::Void(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_PREPARSERPROCESS_OFFSET))(this, a1);
 		}
 
-		::System::Void PostParserProcess(::IniParserEx::ICodeFile* file)
+		::System::Void PostParserProcess(::IniParserEx::ICodeFile* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_POSTPARSERPROCESS_OFFSET))(this, file);
+			return ((::System::Void(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_POSTPARSERPROCESS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CompileDeclaration(::IniParserEx::ICodeFile* file, ::IniParserEx::Token* token)
+		::System::Boolean CompileDeclaration(::IniParserEx::ICodeFile* a1, ::IniParserEx::Token* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_COMPILEDECLARATION_OFFSET))(this, file, token);
+			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_COMPILEDECLARATION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CompileFileScope(::IniParserEx::ICodeFile* file, ::IniParserEx::IniFileParser_FileScope* fileScope, ::IniParserEx::Token* token)
+		::System::Boolean CompileFileScope(::IniParserEx::ICodeFile* a1, ::IniParserEx::IniFileParser_FileScope* a2, ::IniParserEx::Token* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::IniFileParser_FileScope*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_COMPILEFILESCOPE_OFFSET))(this, file, fileScope, token);
+			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::IniFileParser_FileScope*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_COMPILEFILESCOPE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean CompileSectionScope(::IniParserEx::ICodeFile* file, ::IniParserEx::IniFileParser_SectionScope* sectionScope, ::IniParserEx::Token* token)
+		::System::Boolean CompileSectionScope(::IniParserEx::ICodeFile* a1, ::IniParserEx::IniFileParser_SectionScope* a2, ::IniParserEx::Token* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::IniFileParser_SectionScope*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_COMPILESECTIONSCOPE_OFFSET))(this, file, sectionScope, token);
+			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::IniFileParser_SectionScope*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_COMPILESECTIONSCOPE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean CompileSectionItemScope(::IniParserEx::ICodeFile* file, ::IniParserEx::IniFileParser_SectionItemScope* sectionItemScope, ::IniParserEx::Token* token)
+		::System::Boolean CompileSectionItemScope(::IniParserEx::ICodeFile* a1, ::IniParserEx::IniFileParser_SectionItemScope* a2, ::IniParserEx::Token* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::IniFileParser_SectionItemScope*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_COMPILESECTIONITEMSCOPE_OFFSET))(this, file, sectionItemScope, token);
+			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::IniFileParser_SectionItemScope*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_COMPILESECTIONITEMSCOPE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::IniParserEx::IniFile_SectionItem* ParseValue(::IniParserEx::ICodeFile* file, ::IniParserEx::Token* token)
+		::IniParserEx::IniFile_SectionItem* ParseValue(::IniParserEx::ICodeFile* a1, ::IniParserEx::Token* a2)
 		{
-			return ((::IniParserEx::IniFile_SectionItem*(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_PARSEVALUE_OFFSET))(this, file, token);
+			return ((::IniParserEx::IniFile_SectionItem*(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_PARSEVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean ParseMap(::IniParserEx::ICodeFile* file)
+		::System::Boolean ParseMap(::IniParserEx::ICodeFile* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_PARSEMAP_OFFSET))(this, file);
+			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_PARSEMAP_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ParseList(::IniParserEx::ICodeFile* file)
+		::System::Boolean ParseList(::IniParserEx::ICodeFile* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_PARSELIST_OFFSET))(this, file);
+			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_PARSELIST_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsBeginComment(::System::Char currentChar)
+		::System::Boolean IsBeginComment(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_ISBEGINCOMMENT_OFFSET))(this, currentChar);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_ISBEGINCOMMENT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsEndComment(::System::Char currentChar)
+		::System::Boolean IsEndComment(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_ISENDCOMMENT_OFFSET))(this, currentChar);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_ISENDCOMMENT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsLineComment(::System::Char currentChar)
+		::System::Boolean IsLineComment(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_ISLINECOMMENT_OFFSET))(this, currentChar);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_ISLINECOMMENT_OFFSET))(this, a1);
 		}
 	};
 }

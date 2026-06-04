@@ -11,7 +11,7 @@ namespace System { class Type; }
 
 namespace System
 {
-	inline static constexpr unsigned int IConvertible_TypeDefinitionIndex = 277;
+	inline static constexpr unsigned int IConvertible_TypeDefinitionIndex = 276;
 
 	class IConvertible
 	{

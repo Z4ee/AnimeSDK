@@ -4,27 +4,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PROGRESSBONUS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C62E60)
-#define RPG_GAMECORE_PROGRESSBONUS__CTOR_OFFSET UNITYSDK_OFFSET(0x18C62F50)
+#define RPG_GAMECORE_PROGRESSBONUS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A85100)
+#define RPG_GAMECORE_PROGRESSBONUS__CTOR_OFFSET UNITYSDK_OFFSET(0x19A851F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProgressBonus_TypeDefinitionIndex = 14542;
+	inline static constexpr unsigned int ProgressBonus_TypeDefinitionIndex = 14559;
 
 	class ProgressBonus : public ::System::Object
 	{
 	public:
-		::System::UInt32 Progress; // 0x10
-		::System::UInt32 AddStar; // 0x14
+		::System::UInt32 AddStar; // 0x10
+		::System::UInt32 Progress; // 0x14
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROGRESSBONUS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ProgressBonus*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ProgressBonus*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ProgressBonus*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROGRESSBONUS_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ProgressBonus*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROGRESSBONUS_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

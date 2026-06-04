@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoExUICamera_IInputProvider_TypeDefinitionIndex = 67222;
+	inline static constexpr unsigned int MonoExUICamera_IInputProvider_TypeDefinitionIndex = 68174;
 
 	class MonoExUICamera_IInputProvider
 	{

@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UIElements { class FocusController; }
 
-#define UNITYENGINE_UIELEMENTS_FOCUSABLE_GET_CANGRABFOCUS_OFFSET UNITYSDK_OFFSET(0x1A50D400)
-#define UNITYENGINE_UIELEMENTS_FOCUSABLE_GET_FOCUSABLE_OFFSET UNITYSDK_OFFSET(0x1A50D3F0)
+#define UNITYENGINE_UIELEMENTS_FOCUSABLE_GET_CANGRABFOCUS_OFFSET UNITYSDK_OFFSET(0x1B358A40)
+#define UNITYENGINE_UIELEMENTS_FOCUSABLE_GET_FOCUSABLE_OFFSET UNITYSDK_OFFSET(0x1B358A30)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int Focusable_TypeDefinitionIndex = 5852;
+	inline static constexpr unsigned int Focusable_TypeDefinitionIndex = 6129;
 
 	class Focusable : public ::UnityEngine::UIElements::CallbackEventHandler
 	{

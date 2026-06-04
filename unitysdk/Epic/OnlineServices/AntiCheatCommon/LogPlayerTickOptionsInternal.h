@@ -8,19 +8,19 @@ namespace Epic::OnlineServices::AntiCheatCommon { class Quat; }
 namespace Epic::OnlineServices::AntiCheatCommon { class Vec3f; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAA0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xBA30)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_ISPLAYERVIEWZOOMED_OFFSET UNITYSDK_OFFSET(0xB950)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0xBA20)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERHANDLE_OFFSET UNITYSDK_OFFSET(0x8D10)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERHEALTH_OFFSET UNITYSDK_OFFSET(0xBA00)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERMOVEMENTSTATE_OFFSET UNITYSDK_OFFSET(0xBA10)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERPOSITION_OFFSET UNITYSDK_OFFSET(0xB870)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERVIEWROTATION_OFFSET UNITYSDK_OFFSET(0xB8E0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC310)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xC290)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_ISPLAYERVIEWZOOMED_OFFSET UNITYSDK_OFFSET(0xC1B0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0xC280)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERHANDLE_OFFSET UNITYSDK_OFFSET(0x95B0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERHEALTH_OFFSET UNITYSDK_OFFSET(0xC260)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERMOVEMENTSTATE_OFFSET UNITYSDK_OFFSET(0xC270)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERPOSITION_OFFSET UNITYSDK_OFFSET(0xC0D0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERVIEWROTATION_OFFSET UNITYSDK_OFFSET(0xC140)
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int LogPlayerTickOptionsInternal_TypeDefinitionIndex = 42489;
+	inline static constexpr unsigned int LogPlayerTickOptionsInternal_TypeDefinitionIndex = 43292;
 
 	struct alignas(8) LogPlayerTickOptionsInternal
 	{
@@ -32,44 +32,44 @@ namespace Epic::OnlineServices::AntiCheatCommon
 		::System::Single m_PlayerHealth; // 0x34
 		::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonPlayerMovementState m_PlayerMovementState; // 0x38
 
-		::System::Void set_PlayerHandle(::System::IntPtr value)
+		::System::Void set_PlayerHandle(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERHANDLE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_PlayerPosition(::Epic::OnlineServices::AntiCheatCommon::Vec3f* value)
+		::System::Void set_PlayerPosition(::Epic::OnlineServices::AntiCheatCommon::Vec3f* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::Vec3f*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERPOSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::Vec3f*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void set_PlayerViewRotation(::Epic::OnlineServices::AntiCheatCommon::Quat* value)
+		::System::Void set_PlayerViewRotation(::Epic::OnlineServices::AntiCheatCommon::Quat* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::Quat*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERVIEWROTATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::Quat*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERVIEWROTATION_OFFSET))(this, a1);
 		}
 
-		::System::Void set_IsPlayerViewZoomed(::System::Boolean value)
+		::System::Void set_IsPlayerViewZoomed(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_ISPLAYERVIEWZOOMED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_ISPLAYERVIEWZOOMED_OFFSET))(this, a1);
 		}
 
-		::System::Void set_PlayerHealth(::System::Single value)
+		::System::Void set_PlayerHealth(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERHEALTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERHEALTH_OFFSET))(this, a1);
 		}
 
-		::System::Void set_PlayerMovementState(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonPlayerMovementState value)
+		::System::Void set_PlayerMovementState(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonPlayerMovementState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonPlayerMovementState))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERMOVEMENTSTATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonPlayerMovementState))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_PLAYERMOVEMENTSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::LogPlayerTickOptions* other)
+		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::LogPlayerTickOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::LogPlayerTickOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::LogPlayerTickOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_LOGPLAYERTICKOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -16,184 +16,184 @@ namespace System::IO { class StreamReader; }
 namespace System::IO { class StreamWriter; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_IO_FILE_APPENDALLLINES_OFFSET UNITYSDK_OFFSET(0x1795D4A0)
-#define SYSTEM_IO_FILE_APPENDALLTEXT_OFFSET UNITYSDK_OFFSET(0x1795B530)
-#define SYSTEM_IO_FILE_APPENDTEXT_OFFSET UNITYSDK_OFFSET(0x1795B660)
-#define SYSTEM_IO_FILE_COPY_1_OFFSET UNITYSDK_OFFSET(0x1795B6D0)
-#define SYSTEM_IO_FILE_COPY_OFFSET UNITYSDK_OFFSET(0x1795B6C0)
-#define SYSTEM_IO_FILE_CREATETEXT_OFFSET UNITYSDK_OFFSET(0x1795BED0)
-#define SYSTEM_IO_FILE_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1795BE50)
-#define SYSTEM_IO_FILE_CREATE_OFFSET UNITYSDK_OFFSET(0x1795BDD0)
-#define SYSTEM_IO_FILE_DELETE_OFFSET UNITYSDK_OFFSET(0x17958770)
-#define SYSTEM_IO_FILE_EXISTS_OFFSET UNITYSDK_OFFSET(0x17958020)
-#define SYSTEM_IO_FILE_FILLATTRIBUTEINFO_OFFSET UNITYSDK_OFFSET(0x1795DFD0)
-#define SYSTEM_IO_FILE_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1795BD70)
-#define SYSTEM_IO_FILE_GETLASTWRITETIME_OFFSET UNITYSDK_OFFSET(0x1795BF30)
-#define SYSTEM_IO_FILE_GET_DEFAULTLOCALFILETIME_OFFSET UNITYSDK_OFFSET(0x1795C080)
-#define SYSTEM_IO_FILE_MOVE_OFFSET UNITYSDK_OFFSET(0x1795C110)
-#define SYSTEM_IO_FILE_OPENREAD_OFFSET UNITYSDK_OFFSET(0x1795C680)
-#define SYSTEM_IO_FILE_OPENTEXT_OFFSET UNITYSDK_OFFSET(0x1795C700)
-#define SYSTEM_IO_FILE_OPENWRITE_OFFSET UNITYSDK_OFFSET(0x1795C7E0)
-#define SYSTEM_IO_FILE_OPEN_1_OFFSET UNITYSDK_OFFSET(0x1795C580)
-#define SYSTEM_IO_FILE_OPEN_2_OFFSET UNITYSDK_OFFSET(0x1795C600)
-#define SYSTEM_IO_FILE_OPEN_OFFSET UNITYSDK_OFFSET(0x1795C500)
-#define SYSTEM_IO_FILE_READALLBYTES_OFFSET UNITYSDK_OFFSET(0x1795C8E0)
-#define SYSTEM_IO_FILE_READALLLINES_1_OFFSET UNITYSDK_OFFSET(0x1795CC80)
-#define SYSTEM_IO_FILE_READALLLINES_OFFSET UNITYSDK_OFFSET(0x1795CAD0)
-#define SYSTEM_IO_FILE_READALLTEXT_1_OFFSET UNITYSDK_OFFSET(0x1795CF70)
-#define SYSTEM_IO_FILE_READALLTEXT_OFFSET UNITYSDK_OFFSET(0x1795CDA0)
-#define SYSTEM_IO_FILE_SETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1795C860)
-#define SYSTEM_IO_FILE_WRITEALLBYTES_OFFSET UNITYSDK_OFFSET(0x1795D0A0)
-#define SYSTEM_IO_FILE_WRITEALLLINES_1_OFFSET UNITYSDK_OFFSET(0x1795DC20)
-#define SYSTEM_IO_FILE_WRITEALLLINES_OFFSET UNITYSDK_OFFSET(0x1795D860)
-#define SYSTEM_IO_FILE_WRITEALLTEXT_1_OFFSET UNITYSDK_OFFSET(0x1795D390)
-#define SYSTEM_IO_FILE_WRITEALLTEXT_OFFSET UNITYSDK_OFFSET(0x1795D250)
+#define SYSTEM_IO_FILE_APPENDALLLINES_OFFSET UNITYSDK_OFFSET(0x1870F400)
+#define SYSTEM_IO_FILE_APPENDALLTEXT_OFFSET UNITYSDK_OFFSET(0x1870D630)
+#define SYSTEM_IO_FILE_APPENDTEXT_OFFSET UNITYSDK_OFFSET(0x1870D780)
+#define SYSTEM_IO_FILE_COPY_1_OFFSET UNITYSDK_OFFSET(0x1870D7F0)
+#define SYSTEM_IO_FILE_COPY_OFFSET UNITYSDK_OFFSET(0x1870D7E0)
+#define SYSTEM_IO_FILE_CREATETEXT_OFFSET UNITYSDK_OFFSET(0x1870DFF0)
+#define SYSTEM_IO_FILE_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1870DF70)
+#define SYSTEM_IO_FILE_CREATE_OFFSET UNITYSDK_OFFSET(0x1870DEF0)
+#define SYSTEM_IO_FILE_DELETE_OFFSET UNITYSDK_OFFSET(0x1870A890)
+#define SYSTEM_IO_FILE_EXISTS_OFFSET UNITYSDK_OFFSET(0x1870A170)
+#define SYSTEM_IO_FILE_FILLATTRIBUTEINFO_OFFSET UNITYSDK_OFFSET(0x1870FFD0)
+#define SYSTEM_IO_FILE_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1870DE90)
+#define SYSTEM_IO_FILE_GETLASTWRITETIME_OFFSET UNITYSDK_OFFSET(0x1870E050)
+#define SYSTEM_IO_FILE_GET_DEFAULTLOCALFILETIME_OFFSET UNITYSDK_OFFSET(0x1870E1A0)
+#define SYSTEM_IO_FILE_MOVE_OFFSET UNITYSDK_OFFSET(0x1870E230)
+#define SYSTEM_IO_FILE_OPENREAD_OFFSET UNITYSDK_OFFSET(0x1870E7A0)
+#define SYSTEM_IO_FILE_OPENTEXT_OFFSET UNITYSDK_OFFSET(0x1870E820)
+#define SYSTEM_IO_FILE_OPENWRITE_OFFSET UNITYSDK_OFFSET(0x1870E850)
+#define SYSTEM_IO_FILE_OPEN_1_OFFSET UNITYSDK_OFFSET(0x1870E6A0)
+#define SYSTEM_IO_FILE_OPEN_2_OFFSET UNITYSDK_OFFSET(0x1870E720)
+#define SYSTEM_IO_FILE_OPEN_OFFSET UNITYSDK_OFFSET(0x1870E620)
+#define SYSTEM_IO_FILE_READALLBYTES_OFFSET UNITYSDK_OFFSET(0x1870E950)
+#define SYSTEM_IO_FILE_READALLLINES_1_OFFSET UNITYSDK_OFFSET(0x1870EC40)
+#define SYSTEM_IO_FILE_READALLLINES_OFFSET UNITYSDK_OFFSET(0x1870EB40)
+#define SYSTEM_IO_FILE_READALLTEXT_1_OFFSET UNITYSDK_OFFSET(0x1870EE60)
+#define SYSTEM_IO_FILE_READALLTEXT_OFFSET UNITYSDK_OFFSET(0x1870ED40)
+#define SYSTEM_IO_FILE_SETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1870E8D0)
+#define SYSTEM_IO_FILE_WRITEALLBYTES_OFFSET UNITYSDK_OFFSET(0x1870EFC0)
+#define SYSTEM_IO_FILE_WRITEALLLINES_1_OFFSET UNITYSDK_OFFSET(0x1870FC00)
+#define SYSTEM_IO_FILE_WRITEALLLINES_OFFSET UNITYSDK_OFFSET(0x1870F800)
+#define SYSTEM_IO_FILE_WRITEALLTEXT_1_OFFSET UNITYSDK_OFFSET(0x1870F2C0)
+#define SYSTEM_IO_FILE_WRITEALLTEXT_OFFSET UNITYSDK_OFFSET(0x1870F160)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int File_TypeDefinitionIndex = 709;
+	inline static constexpr unsigned int File_TypeDefinitionIndex = 708;
 
 	class File : public ::System::Object
 	{
 	public:
 		static ::System::Nullable_1<::System::DateTime>* StaticGet_defaultLocalFileTime()
 		{
-			return (::System::Nullable_1<::System::DateTime>*)Il2CppClass::FromTypeDefinitionIndex(File_TypeDefinitionIndex)->GetStaticField(0x3770);
+			return (::System::Nullable_1<::System::DateTime>*)Il2CppClass::FromTypeDefinitionIndex(File_TypeDefinitionIndex)->GetStaticField(0x35E0);
 		}
 
-		static ::System::Void AppendAllText(::System::String* path, ::System::String* contents)
+		static ::System::Void AppendAllText(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_APPENDALLTEXT_OFFSET))(path, contents);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_APPENDALLTEXT_OFFSET))(a1, a2);
 		}
 
-		static ::System::IO::StreamWriter* AppendText(::System::String* path)
+		static ::System::IO::StreamWriter* AppendText(::System::String* a1)
 		{
-			return ((::System::IO::StreamWriter*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_APPENDTEXT_OFFSET))(path);
+			return ((::System::IO::StreamWriter*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_APPENDTEXT_OFFSET))(a1);
 		}
 
-		static ::System::Void Copy(::System::String* sourceFileName, ::System::String* destFileName)
+		static ::System::Void Copy(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_COPY_OFFSET))(sourceFileName, destFileName);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_COPY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Copy_1(::System::String* sourceFileName, ::System::String* destFileName, ::System::Boolean overwrite)
+		static ::System::Void Copy_1(::System::String* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_COPY_1_OFFSET))(sourceFileName, destFileName, overwrite);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_COPY_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::IO::FileStream* Create(::System::String* path)
+		static ::System::IO::FileStream* Create(::System::String* a1)
 		{
-			return ((::System::IO::FileStream*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_CREATE_OFFSET))(path);
+			return ((::System::IO::FileStream*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_CREATE_OFFSET))(a1);
 		}
 
-		static ::System::IO::FileStream* Create_1(::System::String* path, ::System::Int32 bufferSize)
+		static ::System::IO::FileStream* Create_1(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::IO::FileStream*(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_CREATE_1_OFFSET))(path, bufferSize);
+			return ((::System::IO::FileStream*(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_CREATE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::IO::StreamWriter* CreateText(::System::String* path)
+		static ::System::IO::StreamWriter* CreateText(::System::String* a1)
 		{
-			return ((::System::IO::StreamWriter*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_CREATETEXT_OFFSET))(path);
+			return ((::System::IO::StreamWriter*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_CREATETEXT_OFFSET))(a1);
 		}
 
-		static ::System::Void Delete(::System::String* path)
+		static ::System::Void Delete(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_DELETE_OFFSET))(path);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_DELETE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Exists(::System::String* path)
+		static ::System::Boolean Exists(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_EXISTS_OFFSET))(path);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_EXISTS_OFFSET))(a1);
 		}
 
-		static ::System::IO::FileAttributes GetAttributes(::System::String* path)
+		static ::System::IO::FileAttributes GetAttributes(::System::String* a1)
 		{
-			return ((::System::IO::FileAttributes(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_GETATTRIBUTES_OFFSET))(path);
+			return ((::System::IO::FileAttributes(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_GETATTRIBUTES_OFFSET))(a1);
 		}
 
-		static ::System::DateTime GetLastWriteTime(::System::String* path)
+		static ::System::DateTime GetLastWriteTime(::System::String* a1)
 		{
-			return ((::System::DateTime(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_GETLASTWRITETIME_OFFSET))(path);
+			return ((::System::DateTime(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_GETLASTWRITETIME_OFFSET))(a1);
 		}
 
-		static ::System::Void Move(::System::String* sourceFileName, ::System::String* destFileName)
+		static ::System::Void Move(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_MOVE_OFFSET))(sourceFileName, destFileName);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_MOVE_OFFSET))(a1, a2);
 		}
 
-		static ::System::IO::FileStream* Open(::System::String* path, ::System::IO::FileMode mode)
+		static ::System::IO::FileStream* Open(::System::String* a1, ::System::IO::FileMode a2)
 		{
-			return ((::System::IO::FileStream*(*)(::System::String*, ::System::IO::FileMode))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPEN_OFFSET))(path, mode);
+			return ((::System::IO::FileStream*(*)(::System::String*, ::System::IO::FileMode))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPEN_OFFSET))(a1, a2);
 		}
 
-		static ::System::IO::FileStream* Open_1(::System::String* path, ::System::IO::FileMode mode, ::System::IO::FileAccess access)
+		static ::System::IO::FileStream* Open_1(::System::String* a1, ::System::IO::FileMode a2, ::System::IO::FileAccess a3)
 		{
-			return ((::System::IO::FileStream*(*)(::System::String*, ::System::IO::FileMode, ::System::IO::FileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPEN_1_OFFSET))(path, mode, access);
+			return ((::System::IO::FileStream*(*)(::System::String*, ::System::IO::FileMode, ::System::IO::FileAccess))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPEN_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::IO::FileStream* Open_2(::System::String* path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share)
+		static ::System::IO::FileStream* Open_2(::System::String* a1, ::System::IO::FileMode a2, ::System::IO::FileAccess a3, ::System::IO::FileShare a4)
 		{
-			return ((::System::IO::FileStream*(*)(::System::String*, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPEN_2_OFFSET))(path, mode, access, share);
+			return ((::System::IO::FileStream*(*)(::System::String*, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPEN_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::IO::FileStream* OpenRead(::System::String* path)
+		static ::System::IO::FileStream* OpenRead(::System::String* a1)
 		{
-			return ((::System::IO::FileStream*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPENREAD_OFFSET))(path);
+			return ((::System::IO::FileStream*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPENREAD_OFFSET))(a1);
 		}
 
-		static ::System::IO::StreamReader* OpenText(::System::String* path)
+		static ::System::IO::StreamReader* OpenText(::System::String* a1)
 		{
-			return ((::System::IO::StreamReader*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPENTEXT_OFFSET))(path);
+			return ((::System::IO::StreamReader*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPENTEXT_OFFSET))(a1);
 		}
 
-		static ::System::IO::FileStream* OpenWrite(::System::String* path)
+		static ::System::IO::FileStream* OpenWrite(::System::String* a1)
 		{
-			return ((::System::IO::FileStream*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPENWRITE_OFFSET))(path);
+			return ((::System::IO::FileStream*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_OPENWRITE_OFFSET))(a1);
 		}
 
-		static ::System::Void SetAttributes(::System::String* path, ::System::IO::FileAttributes fileAttributes)
+		static ::System::Void SetAttributes(::System::String* a1, ::System::IO::FileAttributes a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::IO::FileAttributes))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_SETATTRIBUTES_OFFSET))(path, fileAttributes);
+			return ((::System::Void(*)(::System::String*, ::System::IO::FileAttributes))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_SETATTRIBUTES_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::Byte>* ReadAllBytes(::System::String* path)
+		static ::Il2CppArray<::System::Byte>* ReadAllBytes(::System::String* a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_READALLBYTES_OFFSET))(path);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_READALLBYTES_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::String*>* ReadAllLines(::System::String* path)
+		static ::Il2CppArray<::System::String*>* ReadAllLines(::System::String* a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_READALLLINES_OFFSET))(path);
+			return ((::Il2CppArray<::System::String*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_READALLLINES_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::String*>* ReadAllLines_1(::System::IO::StreamReader* reader)
+		static ::Il2CppArray<::System::String*>* ReadAllLines_1(::System::IO::StreamReader* a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::System::IO::StreamReader*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_READALLLINES_1_OFFSET))(reader);
+			return ((::Il2CppArray<::System::String*>*(*)(::System::IO::StreamReader*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_READALLLINES_1_OFFSET))(a1);
 		}
 
-		static ::System::String* ReadAllText(::System::String* path)
+		static ::System::String* ReadAllText(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_READALLTEXT_OFFSET))(path);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_READALLTEXT_OFFSET))(a1);
 		}
 
-		static ::System::String* ReadAllText_1(::System::String* path, ::System::Text::Encoding* encoding)
+		static ::System::String* ReadAllText_1(::System::String* a1, ::System::Text::Encoding* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_READALLTEXT_1_OFFSET))(path, encoding);
+			return ((::System::String*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_READALLTEXT_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void WriteAllBytes(::System::String* path, ::Il2CppArray<::System::Byte>* bytes)
+		static ::System::Void WriteAllBytes(::System::String* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_WRITEALLBYTES_OFFSET))(path, bytes);
+			return ((::System::Void(*)(::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_WRITEALLBYTES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void WriteAllText(::System::String* path, ::System::String* contents)
+		static ::System::Void WriteAllText(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_WRITEALLTEXT_OFFSET))(path, contents);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_WRITEALLTEXT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void WriteAllText_1(::System::String* path, ::System::String* contents, ::System::Text::Encoding* encoding)
+		static ::System::Void WriteAllText_1(::System::String* a1, ::System::String* a2, ::System::Text::Encoding* a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_WRITEALLTEXT_1_OFFSET))(path, contents, encoding);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_WRITEALLTEXT_1_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::DateTime get_DefaultLocalFileTime()
@@ -201,24 +201,24 @@ namespace System::IO
 			return ((::System::DateTime(*)())((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_GET_DEFAULTLOCALFILETIME_OFFSET))();
 		}
 
-		static ::System::Void AppendAllLines(::System::String* path, ::System::Collections::Generic::IEnumerable_1<::System::String*>* contents)
+		static ::System::Void AppendAllLines(::System::String* a1, ::System::Collections::Generic::IEnumerable_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_APPENDALLLINES_OFFSET))(path, contents);
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_APPENDALLLINES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void WriteAllLines(::System::String* path, ::System::Collections::Generic::IEnumerable_1<::System::String*>* contents)
+		static ::System::Void WriteAllLines(::System::String* a1, ::System::Collections::Generic::IEnumerable_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_WRITEALLLINES_OFFSET))(path, contents);
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_WRITEALLLINES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void WriteAllLines_1(::System::String* path, ::System::Collections::Generic::IEnumerable_1<::System::String*>* contents, ::System::Text::Encoding* encoding)
+		static ::System::Void WriteAllLines_1(::System::String* a1, ::System::Collections::Generic::IEnumerable_1<::System::String*>* a2, ::System::Text::Encoding* a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_WRITEALLLINES_1_OFFSET))(path, contents, encoding);
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_WRITEALLLINES_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 FillAttributeInfo(::System::String* path, ::System::IO::MonoIOStat& data, ::System::Boolean tryagain, ::System::Boolean returnErrorOnNotFound)
+		static ::System::Int32 FillAttributeInfo(::System::String* a1, ::System::IO::MonoIOStat& a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::IO::MonoIOStat&, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_FILLATTRIBUTEINFO_OFFSET))(path, data, tryagain, returnErrorOnNotFound);
+			return ((::System::Int32(*)(::System::String*, ::System::IO::MonoIOStat&, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILE_FILLATTRIBUTEINFO_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

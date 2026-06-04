@@ -7,17 +7,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace TMPro { class TMP_SpriteAsset; }
 namespace TMPro { class TMP_Text; }
 
-#define TMPRO_TMP_SPRITEANIMATOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A37A780)
-#define TMPRO_TMP_SPRITEANIMATOR_DOSPRITEANIMATIONINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A37A9A0)
-#define TMPRO_TMP_SPRITEANIMATOR_DOSPRITEANIMATION_OFFSET UNITYSDK_OFFSET(0x1A37A8A0)
-#define TMPRO_TMP_SPRITEANIMATOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A37A810)
-#define TMPRO_TMP_SPRITEANIMATOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A37A800)
-#define TMPRO_TMP_SPRITEANIMATOR_STOPALLANIMATIONS_OFFSET UNITYSDK_OFFSET(0x1A37A820)
-#define TMPRO_TMP_SPRITEANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A37AA40)
+#define TMPRO_TMP_SPRITEANIMATOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B1D3E30)
+#define TMPRO_TMP_SPRITEANIMATOR_DOSPRITEANIMATIONINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B1D4020)
+#define TMPRO_TMP_SPRITEANIMATOR_DOSPRITEANIMATION_OFFSET UNITYSDK_OFFSET(0x1B1D3F30)
+#define TMPRO_TMP_SPRITEANIMATOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B1D3EB0)
+#define TMPRO_TMP_SPRITEANIMATOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B1D3EA0)
+#define TMPRO_TMP_SPRITEANIMATOR_STOPALLANIMATIONS_OFFSET UNITYSDK_OFFSET(0x1B1D3EC0)
+#define TMPRO_TMP_SPRITEANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D40C0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SpriteAnimator_TypeDefinitionIndex = 40188;
+	inline static constexpr unsigned int TMP_SpriteAnimator_TypeDefinitionIndex = 41015;
 
 	class TMP_SpriteAnimator : public ::UnityEngine::MonoBehaviour
 	{
@@ -50,14 +50,14 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEANIMATOR_STOPALLANIMATIONS_OFFSET))(this);
 		}
 
-		::System::Void DoSpriteAnimation(::System::Int32 currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, ::System::Int32 start, ::System::Int32 end, ::System::Int32 framerate)
+		::System::Void DoSpriteAnimation(::System::Int32 a1, ::TMPro::TMP_SpriteAsset* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::TMPro::TMP_SpriteAsset*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEANIMATOR_DOSPRITEANIMATION_OFFSET))(this, currentCharacter, spriteAsset, start, end, framerate);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::TMPro::TMP_SpriteAsset*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEANIMATOR_DOSPRITEANIMATION_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Collections::IEnumerator* DoSpriteAnimationInternal(::System::Int32 currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, ::System::Int32 start, ::System::Int32 end, ::System::Int32 framerate)
+		::System::Collections::IEnumerator* DoSpriteAnimationInternal(::System::Int32 a1, ::TMPro::TMP_SpriteAsset* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32, ::TMPro::TMP_SpriteAsset*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEANIMATOR_DOSPRITEANIMATIONINTERNAL_OFFSET))(this, currentCharacter, spriteAsset, start, end, framerate);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32, ::TMPro::TMP_SpriteAsset*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_SPRITEANIMATOR_DOSPRITEANIMATIONINTERNAL_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

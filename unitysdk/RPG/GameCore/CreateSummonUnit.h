@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 
-class Class_1_2CAAA2FDF9170110;
+class Class_1_1C30CE192ABE4C54;
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_5CE00F9F7CC1F0AA_OFFSET UNITYSDK_OFFSET(0x18845E40)
-#define RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_DAF57A7BFF727249_OFFSET UNITYSDK_OFFSET(0x18846060)
-#define RPG_GAMECORE_CREATESUMMONUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x18845E80)
+#define RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_1ABCE0D9263E1497_OFFSET UNITYSDK_OFFSET(0x196853E0)
+#define RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_57A964080140D912_OFFSET UNITYSDK_OFFSET(0x19685600)
+#define RPG_GAMECORE_CREATESUMMONUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x19685420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateSummonUnit_TypeDefinitionIndex = 19307;
+	inline static constexpr unsigned int CreateSummonUnit_TypeDefinitionIndex = 19220;
 
 	class CreateSummonUnit : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,21 +34,21 @@ namespace RPG::GameCore
 		::RPG::GameCore::EntityPosAdaptionConfig* PosAdaption; // 0x70
 		::System::Boolean ForbidSkillMsg; // 0x78
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnCreate; // 0x80
-		::Class_1_2CAAA2FDF9170110* DynamicValues; // 0x88
+		::Class_1_1C30CE192ABE4C54* DynamicValues; // 0x88
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESUMMONUNIT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5CE00F9F7CC1F0AA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateSummonUnit*& a2)
+		static ::System::Void Method_3_1ABCE0D9263E1497(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateSummonUnit*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateSummonUnit*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_5CE00F9F7CC1F0AA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateSummonUnit*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_1ABCE0D9263E1497_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DAF57A7BFF727249(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateSummonUnit* a2)
+		static ::System::Void Method_3_57A964080140D912(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateSummonUnit* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateSummonUnit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_DAF57A7BFF727249_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateSummonUnit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_57A964080140D912_OFFSET))(a1, a2);
 		}
 	};
 }

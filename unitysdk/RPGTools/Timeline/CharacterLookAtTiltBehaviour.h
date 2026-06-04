@@ -7,13 +7,13 @@
 namespace RPG::Client { class CharacterMonoAvatar; }
 namespace RPGTools::Timeline { class CharacterLookAtTiltData; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8ACE80)
-#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AD1E0)
-#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8AD1F0)
+#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFF0140)
+#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF04A0)
+#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFF04B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterLookAtTiltBehaviour_TypeDefinitionIndex = 44733;
+	inline static constexpr unsigned int CharacterLookAtTiltBehaviour_TypeDefinitionIndex = 45280;
 
 	class CharacterLookAtTiltBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

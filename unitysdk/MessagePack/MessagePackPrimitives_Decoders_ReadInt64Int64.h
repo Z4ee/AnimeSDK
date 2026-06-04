@@ -4,20 +4,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
 
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INT64_READ_OFFSET UNITYSDK_OFFSET(0x1736A9B0)
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INT64__CCTOR_OFFSET UNITYSDK_OFFSET(0x1736AA20)
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INT64__CTOR_OFFSET UNITYSDK_OFFSET(0x1736A9A0)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INT64_READ_OFFSET UNITYSDK_OFFSET(0x181770E0)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INT64__CCTOR_OFFSET UNITYSDK_OFFSET(0x18177150)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INT64__CTOR_OFFSET UNITYSDK_OFFSET(0x181770D0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackPrimitives_Decoders_ReadInt64Int64_TypeDefinitionIndex = 9238;
+	inline static constexpr unsigned int MessagePackPrimitives_Decoders_ReadInt64Int64_TypeDefinitionIndex = 7141;
 
 	class MessagePackPrimitives_Decoders_ReadInt64Int64 : public ::System::Object
 	{
 	public:
 		static ::MessagePack::MessagePackPrimitives_Decoders_ReadInt64Int64** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackPrimitives_Decoders_ReadInt64Int64**)Il2CppClass::FromTypeDefinitionIndex(MessagePackPrimitives_Decoders_ReadInt64Int64_TypeDefinitionIndex)->GetStaticField(0x43E40);
+			return (::MessagePack::MessagePackPrimitives_Decoders_ReadInt64Int64**)Il2CppClass::FromTypeDefinitionIndex(MessagePackPrimitives_Decoders_ReadInt64Int64_TypeDefinitionIndex)->GetStaticField(0x9B50);
 		}
 
 		::System::Void _ctor()
@@ -30,9 +30,9 @@ namespace MessagePack
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INT64__CCTOR_OFFSET))();
 		}
 
-		::MessagePack::MessagePackPrimitives_DecodeResult Read(::System::ReadOnlySpan_1<::System::Byte> source, ::System::Int64& value, ::System::Int32& tokenSize)
+		::MessagePack::MessagePackPrimitives_DecodeResult Read(::System::ReadOnlySpan_1<::System::Byte> a1, ::System::Int64& a2, ::System::Int32& a3)
 		{
-			return ((::MessagePack::MessagePackPrimitives_DecodeResult(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>, ::System::Int64&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INT64_READ_OFFSET))(this, source, value, tokenSize);
+			return ((::MessagePack::MessagePackPrimitives_DecodeResult(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>, ::System::Int64&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INT64_READ_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

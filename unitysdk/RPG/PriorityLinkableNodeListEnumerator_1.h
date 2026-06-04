@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int PriorityLinkableNodeListEnumerator_1_TypeDefinitionIndex = 8908;
+	inline static constexpr unsigned int PriorityLinkableNodeListEnumerator_1_TypeDefinitionIndex = 6772;
 
 	template <typename T>
 	class PriorityLinkableNodeListEnumerator_1 : public ::System::Object

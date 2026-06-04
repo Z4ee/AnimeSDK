@@ -3,7 +3,7 @@
 
 namespace System::Security::Permissions
 {
-	inline static constexpr unsigned int SecurityAction_TypeDefinitionIndex = 959;
+	inline static constexpr unsigned int SecurityAction_TypeDefinitionIndex = 958;
 
 	enum class SecurityAction : ::System::Int32
 	{

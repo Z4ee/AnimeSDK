@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_BFC94D6B3CE54520;
-class Class_1_CBE705B7AA4359C1;
-namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
+class Class_1_0A70BCA158503830;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_160_TypeDefinitionIndex = 38167;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_160_TypeDefinitionIndex = 38911;
 
 class Class_0_16E4307DCC419505_160
 {

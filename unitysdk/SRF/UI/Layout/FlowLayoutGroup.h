@@ -5,23 +5,23 @@
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_CALCULATELAYOUTINPUTHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x19EAB270)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_CALCULATELAYOUTINPUTVERTICAL_OFFSET UNITYSDK_OFFSET(0x19EABD90)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_CALCULATEROWVERTICALOFFSET_OFFSET UNITYSDK_OFFSET(0x19EABE50)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_GETGREATESTMINIMUMCHILDWIDTH_OFFSET UNITYSDK_OFFSET(0x19EAB360)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_GET_ISCENTERALIGN_OFFSET UNITYSDK_OFFSET(0x19EAB210)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_GET_ISLOWERALIGN_OFFSET UNITYSDK_OFFSET(0x19EAB260)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_GET_ISMIDDLEALIGN_OFFSET UNITYSDK_OFFSET(0x19EAB250)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_GET_ISRIGHTALIGN_OFFSET UNITYSDK_OFFSET(0x19EAB230)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_LAYOUTROW_OFFSET UNITYSDK_OFFSET(0x19EABE90)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_SETLAYOUTHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x19EAB3F0)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_SETLAYOUTVERTICAL_OFFSET UNITYSDK_OFFSET(0x19EABCD0)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_SETLAYOUT_OFFSET UNITYSDK_OFFSET(0x19EAB4A0)
-#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19EAC560)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_CALCULATELAYOUTINPUTHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1AD218C0)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_CALCULATELAYOUTINPUTVERTICAL_OFFSET UNITYSDK_OFFSET(0x1AD22390)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_CALCULATEROWVERTICALOFFSET_OFFSET UNITYSDK_OFFSET(0x1AD22450)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_GETGREATESTMINIMUMCHILDWIDTH_OFFSET UNITYSDK_OFFSET(0x1AD21940)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_GET_ISCENTERALIGN_OFFSET UNITYSDK_OFFSET(0x1AD21860)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_GET_ISLOWERALIGN_OFFSET UNITYSDK_OFFSET(0x1AD218B0)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_GET_ISMIDDLEALIGN_OFFSET UNITYSDK_OFFSET(0x1AD218A0)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_GET_ISRIGHTALIGN_OFFSET UNITYSDK_OFFSET(0x1AD21880)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_LAYOUTROW_OFFSET UNITYSDK_OFFSET(0x1AD22490)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_SETLAYOUTHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1AD219E0)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_SETLAYOUTVERTICAL_OFFSET UNITYSDK_OFFSET(0x1AD222E0)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP_SETLAYOUT_OFFSET UNITYSDK_OFFSET(0x1AD21A90)
+#define SRF_UI_LAYOUT_FLOWLAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD22B60)
 
 namespace SRF::UI::Layout
 {
-	inline static constexpr unsigned int FlowLayoutGroup_TypeDefinitionIndex = 33313;
+	inline static constexpr unsigned int FlowLayoutGroup_TypeDefinitionIndex = 33595;
 
 	class FlowLayoutGroup : public ::UnityEngine::UI::LayoutGroup
 	{
@@ -77,19 +77,19 @@ namespace SRF::UI::Layout
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_LAYOUT_FLOWLAYOUTGROUP_CALCULATELAYOUTINPUTVERTICAL_OFFSET))(this);
 		}
 
-		::System::Single SetLayout(::System::Single width, ::System::Int32 axis, ::System::Boolean layoutInput)
+		::System::Single SetLayout(::System::Single a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SRF_UI_LAYOUT_FLOWLAYOUTGROUP_SETLAYOUT_OFFSET))(this, width, axis, layoutInput);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SRF_UI_LAYOUT_FLOWLAYOUTGROUP_SETLAYOUT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single CalculateRowVerticalOffset(::System::Single groupHeight, ::System::Single yOffset, ::System::Single currentRowHeight)
+		::System::Single CalculateRowVerticalOffset(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SRF_UI_LAYOUT_FLOWLAYOUTGROUP_CALCULATEROWVERTICALOFFSET_OFFSET))(this, groupHeight, yOffset, currentRowHeight);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SRF_UI_LAYOUT_FLOWLAYOUTGROUP_CALCULATEROWVERTICALOFFSET_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LayoutRow(::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>* contents, ::System::Single rowWidth, ::System::Single rowHeight, ::System::Single maxWidth, ::System::Single xOffset, ::System::Single yOffset, ::System::Int32 axis)
+		::System::Void LayoutRow(::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + SRF_UI_LAYOUT_FLOWLAYOUTGROUP_LAYOUTROW_OFFSET))(this, contents, rowWidth, rowHeight, maxWidth, xOffset, yOffset, axis);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + SRF_UI_LAYOUT_FLOWLAYOUTGROUP_LAYOUTROW_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Single GetGreatestMinimumChildWidth()

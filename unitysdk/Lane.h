@@ -10,12 +10,12 @@ class CarFlowIntersectionRule;
 class CarFlowRoad;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LANE_METHOD_1_245DAC87743A0F36_OFFSET UNITYSDK_OFFSET(0x90B7720)
-#define LANE_METHOD_1_92DEBBA487CC3465_OFFSET UNITYSDK_OFFSET(0x90B7980)
-#define LANE_METHOD_1_DB4566C5411DFC07_OFFSET UNITYSDK_OFFSET(0x90B7CC0)
-#define LANE__CTOR_OFFSET UNITYSDK_OFFSET(0x90B7FB0)
+#define LANE_METHOD_1_090347D9D98AA598_OFFSET UNITYSDK_OFFSET(0xA657A30)
+#define LANE_METHOD_1_245DAC87743A0F36_OFFSET UNITYSDK_OFFSET(0xA657490)
+#define LANE_METHOD_1_92DEBBA487CC3465_OFFSET UNITYSDK_OFFSET(0xA6576F0)
+#define LANE__CTOR_OFFSET UNITYSDK_OFFSET(0xA657D30)
 
-inline static constexpr unsigned int Lane_TypeDefinitionIndex = 43886;
+inline static constexpr unsigned int Lane_TypeDefinitionIndex = 44432;
 
 class Lane : public ::System::Object
 {
@@ -45,8 +45,8 @@ public:
 		return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_METHOD_1_92DEBBA487CC3465_OFFSET))(this, a1);
 	}
 
-	::System::Int32 Method_1_DB4566C5411DFC07()
+	::System::Int32 Method_1_090347D9D98AA598()
 	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + LANE_METHOD_1_DB4566C5411DFC07_OFFSET))(this);
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + LANE_METHOD_1_090347D9D98AA598_OFFSET))(this);
 	}
 };

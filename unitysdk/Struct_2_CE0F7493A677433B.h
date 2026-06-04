@@ -3,10 +3,10 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_CE0F7493A677433B_METHOD_2_823422828276EFD9_OFFSET UNITYSDK_OFFSET(0xCF290)
-#define STRUCT_2_CE0F7493A677433B_METHOD_2_E5340AA01F92592A_OFFSET UNITYSDK_OFFSET(0xCF1B0)
+#define STRUCT_2_CE0F7493A677433B_METHOD_2_823422828276EFD9_OFFSET UNITYSDK_OFFSET(0x1453D0)
+#define STRUCT_2_CE0F7493A677433B_METHOD_2_D7F0936662AC1A47_OFFSET UNITYSDK_OFFSET(0x1453B0)
 
-inline static constexpr unsigned int Struct_2_CE0F7493A677433B_TypeDefinitionIndex = 72387;
+inline static constexpr unsigned int Struct_2_CE0F7493A677433B_TypeDefinitionIndex = 73409;
 
 struct alignas(4) Struct_2_CE0F7493A677433B
 {
@@ -15,9 +15,9 @@ struct alignas(4) Struct_2_CE0F7493A677433B
 	::System::Single Field_2_2; // 0x28
 	::System::Single Field_2_3; // 0x2C
 
-	::UnityEngine::Vector3 Method_2_E5340AA01F92592A(::System::Single a1)
+	::UnityEngine::Vector3 Method_2_D7F0936662AC1A47(::System::Single a1)
 	{
-		return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_CE0F7493A677433B_METHOD_2_E5340AA01F92592A_OFFSET))(this, a1);
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_CE0F7493A677433B_METHOD_2_D7F0936662AC1A47_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_823422828276EFD9(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)

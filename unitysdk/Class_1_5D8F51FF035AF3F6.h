@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
 
-#define CLASS_1_5D8F51FF035AF3F6_METHOD_1_DE1372C6C6265269_OFFSET UNITYSDK_OFFSET(0x191F0BE0)
+#define CLASS_1_5D8F51FF035AF3F6_METHOD_1_DE1372C6C6265269_OFFSET UNITYSDK_OFFSET(0x19F21C10)
 
-inline static constexpr unsigned int Class_1_5D8F51FF035AF3F6_TypeDefinitionIndex = 9061;
+inline static constexpr unsigned int Class_1_5D8F51FF035AF3F6_TypeDefinitionIndex = 6925;
 
 class Class_1_5D8F51FF035AF3F6 : public ::System::Object
 {

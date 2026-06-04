@@ -4,18 +4,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9F33B70)
-#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_GET_AVATARLIST1_OFFSET UNITYSDK_OFFSET(0x9F34020)
-#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_GET_AVATARLIST2_OFFSET UNITYSDK_OFFSET(0x9F34080)
-#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_GET_BUFF1_OFFSET UNITYSDK_OFFSET(0x9F340E0)
-#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_GET_BUFF2_OFFSET UNITYSDK_OFFSET(0x9F34140)
-#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_SAVELINEUPDATA_OFFSET UNITYSDK_OFFSET(0x9F33C10)
-#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_TRYGETSAVEDATA_OFFSET UNITYSDK_OFFSET(0x9F338F0)
-#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9F33E80)
+#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB54BE80)
+#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_GET_AVATARLIST1_OFFSET UNITYSDK_OFFSET(0xB54BA20)
+#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_GET_AVATARLIST2_OFFSET UNITYSDK_OFFSET(0xB54BAA0)
+#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_GET_BUFF1_OFFSET UNITYSDK_OFFSET(0xB54BB20)
+#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_GET_BUFF2_OFFSET UNITYSDK_OFFSET(0xB54BB90)
+#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_SAVELINEUPDATA_OFFSET UNITYSDK_OFFSET(0xB54BF20)
+#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA_TRYGETSAVEDATA_OFFSET UNITYSDK_OFFSET(0xB54BC00)
+#define RPG_CLIENT_CHALLENGELINEUPSAVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB54C240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeLineupSaveData_TypeDefinitionIndex = 58117;
+	inline static constexpr unsigned int ChallengeLineupSaveData_TypeDefinitionIndex = 59039;
 
 	class ChallengeLineupSaveData : public ::System::Object
 	{
@@ -24,24 +24,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* BuffList; // 0x18
 		::System::UInt32 ChallengeID; // 0x20
 
-		::System::Void _ctor(::System::UInt32 challengeID, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::UInt32>*>* serializedData, ::System::Collections::Generic::List_1<::System::UInt32>* buffData)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::UInt32>*>* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::UInt32>*>*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUPSAVEDATA__CTOR_OFFSET))(this, challengeID, serializedData, buffData);
-		}
-
-		static ::RPG::Client::ChallengeLineupSaveData* TryGetSaveData(::System::UInt32 challengeID)
-		{
-			return ((::RPG::Client::ChallengeLineupSaveData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUPSAVEDATA_TRYGETSAVEDATA_OFFSET))(challengeID);
-		}
-
-		static ::System::Void SaveLineupData(::System::UInt32 challengeID, ::System::Collections::Generic::List_1<::System::UInt32>* avatarList1, ::System::Collections::Generic::List_1<::System::UInt32>* avatarList2, ::System::Collections::Generic::List_1<::System::UInt32>* buffList)
-		{
-			return ((::System::Void(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUPSAVEDATA_SAVELINEUPDATA_OFFSET))(challengeID, avatarList1, avatarList2, buffList);
-		}
-
-		static ::RPG::Client::ChallengeLineupSaveData* Create(::System::UInt32 challengeID, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::UInt32>*>* serializedData, ::System::Collections::Generic::List_1<::System::UInt32>* buffData)
-		{
-			return ((::RPG::Client::ChallengeLineupSaveData*(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::UInt32>*>*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUPSAVEDATA_CREATE_OFFSET))(challengeID, serializedData, buffData);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::UInt32>*>*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUPSAVEDATA__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_AvatarList1()
@@ -62,6 +47,21 @@ namespace RPG::Client
 		::System::UInt32 get_Buff2()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUPSAVEDATA_GET_BUFF2_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ChallengeLineupSaveData* TryGetSaveData(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::ChallengeLineupSaveData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUPSAVEDATA_TRYGETSAVEDATA_OFFSET))(a1);
+		}
+
+		static ::System::Void SaveLineupData(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3, ::System::Collections::Generic::List_1<::System::UInt32>* a4)
+		{
+			return ((::System::Void(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUPSAVEDATA_SAVELINEUPDATA_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::RPG::Client::ChallengeLineupSaveData* Create(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::UInt32>*>* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3)
+		{
+			return ((::RPG::Client::ChallengeLineupSaveData*(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::UInt32>*>*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUPSAVEDATA_CREATE_OFFSET))(a1, a2, a3);
 		}
 	};
 }

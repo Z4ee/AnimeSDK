@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYTIMELINE_METHOD_3_DB982F5CED19516C_OFFSET UNITYSDK_OFFSET(0x18C12DF0)
-#define RPG_GAMECORE_PLAYTIMELINE_METHOD_3_F81839EEA09F025E_OFFSET UNITYSDK_OFFSET(0x18C12D60)
-#define RPG_GAMECORE_PLAYTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C12DC0)
+#define RPG_GAMECORE_PLAYTIMELINE_METHOD_3_1A9150A900AAC9C3_OFFSET UNITYSDK_OFFSET(0x19A29D10)
+#define RPG_GAMECORE_PLAYTIMELINE_METHOD_3_4774A7D9B8B90303_OFFSET UNITYSDK_OFFSET(0x19A29C80)
+#define RPG_GAMECORE_PLAYTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A29CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayTimeline_TypeDefinitionIndex = 19593;
+	inline static constexpr unsigned int PlayTimeline_TypeDefinitionIndex = 19480;
 
 	class PlayTimeline : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTIMELINE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F81839EEA09F025E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayTimeline*& a2)
+		static ::System::Void Method_3_4774A7D9B8B90303(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayTimeline*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayTimeline*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTIMELINE_METHOD_3_F81839EEA09F025E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayTimeline*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTIMELINE_METHOD_3_4774A7D9B8B90303_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DB982F5CED19516C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayTimeline* a2)
+		static ::System::Void Method_3_1A9150A900AAC9C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayTimeline* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayTimeline*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTIMELINE_METHOD_3_DB982F5CED19516C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayTimeline*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYTIMELINE_METHOD_3_1A9150A900AAC9C3_OFFSET))(a1, a2);
 		}
 	};
 }

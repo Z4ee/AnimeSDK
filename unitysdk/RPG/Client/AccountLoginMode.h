@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AccountLoginMode_TypeDefinitionIndex = 56332;
+	inline static constexpr unsigned int AccountLoginMode_TypeDefinitionIndex = 57094;
 
 	enum class AccountLoginMode : ::System::Int32
 	{

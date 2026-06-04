@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ChoiceListType_TypeDefinitionIndex = 43558;
+	inline static constexpr unsigned int HAPI_ChoiceListType_TypeDefinitionIndex = 37494;
 
 	enum class HAPI_ChoiceListType : ::System::Int32
 	{

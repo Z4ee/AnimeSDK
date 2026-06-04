@@ -7,28 +7,28 @@ namespace RPG::GameCore { class ChenLingCardRow; }
 namespace RPG::GameCore { class ChenLingEnchantRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG_GETDESC_OFFSET UNITYSDK_OFFSET(0x9FA7050)
-#define RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9FA71C0)
-#define RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x9FA7110)
-#define RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA6FD0)
+#define RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG_GETDESC_OFFSET UNITYSDK_OFFSET(0xB5C0670)
+#define RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB5C07E0)
+#define RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0xB5C0730)
+#define RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C05F0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int EnchantCardConfig_TypeDefinitionIndex = 69983;
+	inline static constexpr unsigned int EnchantCardConfig_TypeDefinitionIndex = 70795;
 
 	class EnchantCardConfig : public ::RPG::Client::ChenLingBattle::CardConfig
 	{
 	public:
 		::RPG::GameCore::ChenLingEnchantRow* _EnchantRow; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::ChenLingCardRow* row, ::System::Int32 cardIndex)
+		::System::Void _ctor(::RPG::GameCore::ChenLingCardRow* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingCardRow*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG__CTOR_OFFSET))(this, row, cardIndex);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingCardRow*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* GetDesc(::System::UInt32 level)
+		::System::String* GetDesc(::System::UInt32 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG_GETDESC_OFFSET))(this, level);
+			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_ENCHANTCARDCONFIG_GETDESC_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_TypeName()

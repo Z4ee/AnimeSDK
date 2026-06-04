@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIListCombineType_TypeDefinitionIndex = 14754;
+	inline static constexpr unsigned int ComplexSkillAIListCombineType_TypeDefinitionIndex = 14819;
 
 	enum class ComplexSkillAIListCombineType : ::System::Int32
 	{

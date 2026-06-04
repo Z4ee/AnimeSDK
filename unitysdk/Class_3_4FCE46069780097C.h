@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class MoveStageOnTargetForward; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4FCE46069780097C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x90A4450)
-#define CLASS_3_4FCE46069780097C__CTOR_OFFSET UNITYSDK_OFFSET(0x90A4420)
+#define CLASS_3_4FCE46069780097C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1436BB90)
+#define CLASS_3_4FCE46069780097C__CTOR_OFFSET UNITYSDK_OFFSET(0x1436BB60)
 
-inline static constexpr unsigned int Class_3_4FCE46069780097C_TypeDefinitionIndex = 50914;
+inline static constexpr unsigned int Class_3_4FCE46069780097C_TypeDefinitionIndex = 51584;
 
 class Class_3_4FCE46069780097C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::MoveStageOnTargetForward*>
 {

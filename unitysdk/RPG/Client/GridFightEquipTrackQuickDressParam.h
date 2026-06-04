@@ -6,16 +6,16 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class GridFightEquipTrack; }
 namespace RPG::Client { class IGridFightEquipTrackQuickParam; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_EQUALS_OFFSET UNITYSDK_OFFSET(0xA4934D0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_GET_REFEQUIPITEMDATA_OFFSET UNITYSDK_OFFSET(0xA493850)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_GET_REFTRACK_OFFSET UNITYSDK_OFFSET(0xA493830)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_SET_REFEQUIPITEMDATA_OFFSET UNITYSDK_OFFSET(0xA493860)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_SET_REFTRACK_OFFSET UNITYSDK_OFFSET(0xA493840)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA48C980)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_EQUALS_OFFSET UNITYSDK_OFFSET(0xBB32DE0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_GET_REFEQUIPITEMDATA_OFFSET UNITYSDK_OFFSET(0xBB33160)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_GET_REFTRACK_OFFSET UNITYSDK_OFFSET(0xBB33140)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_SET_REFEQUIPITEMDATA_OFFSET UNITYSDK_OFFSET(0xBB33170)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_SET_REFTRACK_OFFSET UNITYSDK_OFFSET(0xBB33150)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xBB2FC40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackQuickDressParam_TypeDefinitionIndex = 60162;
+	inline static constexpr unsigned int GridFightEquipTrackQuickDressParam_TypeDefinitionIndex = 61097;
 
 	class GridFightEquipTrackQuickDressParam : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace RPG::Client
 		::RPG::Client::GridFightEquipItemData* _RefEquipItemData_k__BackingField; // 0x10
 		::RPG::Client::GridFightEquipTrack* _RefTrack_k__BackingField; // 0x18
 
-		::System::Void _ctor(::RPG::Client::GridFightEquipTrack* track, ::RPG::Client::GridFightEquipItemData* equipItemData)
+		::System::Void _ctor(::RPG::Client::GridFightEquipTrack* a1, ::RPG::Client::GridFightEquipItemData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipTrack*, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM__CTOR_OFFSET))(this, track, equipItemData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipTrack*, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Equals(::RPG::Client::IGridFightEquipTrackQuickParam* other)
+		::System::Boolean Equals(::RPG::Client::IGridFightEquipTrackQuickParam* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IGridFightEquipTrackQuickParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IGridFightEquipTrackQuickParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_EQUALS_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightEquipTrack* get_RefTrack()
@@ -38,9 +38,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightEquipTrack*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_GET_REFTRACK_OFFSET))(this);
 		}
 
-		::System::Void set_RefTrack(::RPG::Client::GridFightEquipTrack* value)
+		::System::Void set_RefTrack(::RPG::Client::GridFightEquipTrack* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipTrack*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_SET_REFTRACK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipTrack*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_SET_REFTRACK_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightEquipItemData* get_RefEquipItemData()
@@ -48,9 +48,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_GET_REFEQUIPITEMDATA_OFFSET))(this);
 		}
 
-		::System::Void set_RefEquipItemData(::RPG::Client::GridFightEquipItemData* value)
+		::System::Void set_RefEquipItemData(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_SET_REFEQUIPITEMDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKQUICKDRESSPARAM_SET_REFEQUIPITEMDATA_OFFSET))(this, a1);
 		}
 	};
 }

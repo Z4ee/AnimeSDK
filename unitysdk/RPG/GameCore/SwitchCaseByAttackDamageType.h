@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AttackDamageTypeConfig; }
 namespace RPG::GameCore { class SwitchCaseTaskListByAttackDamageType; }
 
-#define RPG_GAMECORE_SWITCHCASEBYATTACKDAMAGETYPE_METHOD_3_04D35085989E1FF2_OFFSET UNITYSDK_OFFSET(0x18EB89A0)
-#define RPG_GAMECORE_SWITCHCASEBYATTACKDAMAGETYPE_METHOD_3_6618BEA37F7D5825_OFFSET UNITYSDK_OFFSET(0x18EB8920)
-#define RPG_GAMECORE_SWITCHCASEBYATTACKDAMAGETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB8970)
+#define RPG_GAMECORE_SWITCHCASEBYATTACKDAMAGETYPE_METHOD_3_0CE1D305328A9FF8_OFFSET UNITYSDK_OFFSET(0x19CD87E0)
+#define RPG_GAMECORE_SWITCHCASEBYATTACKDAMAGETYPE_METHOD_3_C6B9D866A9F2CADF_OFFSET UNITYSDK_OFFSET(0x19CD8760)
+#define RPG_GAMECORE_SWITCHCASEBYATTACKDAMAGETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD87B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCaseByAttackDamageType_TypeDefinitionIndex = 22764;
+	inline static constexpr unsigned int SwitchCaseByAttackDamageType_TypeDefinitionIndex = 22471;
 
 	class SwitchCaseByAttackDamageType : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASEBYATTACKDAMAGETYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6618BEA37F7D5825(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCaseByAttackDamageType*& a2)
+		static ::System::Void Method_3_C6B9D866A9F2CADF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCaseByAttackDamageType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCaseByAttackDamageType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASEBYATTACKDAMAGETYPE_METHOD_3_6618BEA37F7D5825_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCaseByAttackDamageType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASEBYATTACKDAMAGETYPE_METHOD_3_C6B9D866A9F2CADF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_04D35085989E1FF2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCaseByAttackDamageType* a2)
+		static ::System::Void Method_3_0CE1D305328A9FF8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCaseByAttackDamageType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCaseByAttackDamageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASEBYATTACKDAMAGETYPE_METHOD_3_04D35085989E1FF2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCaseByAttackDamageType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASEBYATTACKDAMAGETYPE_METHOD_3_0CE1D305328A9FF8_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int SelectMany_3_TypeDefinitionIndex = 6551;
+	inline static constexpr unsigned int SelectMany_3_TypeDefinitionIndex = 6380;
 
 	template <typename TEnumerator, typename TSource, typename TResult>
 	struct SelectMany_3

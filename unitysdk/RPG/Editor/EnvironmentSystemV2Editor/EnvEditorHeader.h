@@ -6,14 +6,14 @@ namespace RPG::Editor::EnvironmentSystemV2Editor { class EnvEditorSingleProperty
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORHEADER_GET_FOLDERON_OFFSET UNITYSDK_OFFSET(0xB5066B0)
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORHEADER_GET_PREFKEY_OFFSET UNITYSDK_OFFSET(0xB5066D0)
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORHEADER_SET_FOLDERON_OFFSET UNITYSDK_OFFSET(0xB5066C0)
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0xB506740)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORHEADER_GET_FOLDERON_OFFSET UNITYSDK_OFFSET(0xCC6CF90)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORHEADER_GET_PREFKEY_OFFSET UNITYSDK_OFFSET(0xCC6CFB0)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORHEADER_SET_FOLDERON_OFFSET UNITYSDK_OFFSET(0xCC6CFA0)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0xCC6D020)
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
-	inline static constexpr unsigned int EnvEditorHeader_TypeDefinitionIndex = 48072;
+	inline static constexpr unsigned int EnvEditorHeader_TypeDefinitionIndex = 48690;
 
 	class EnvEditorHeader : public ::RPG::Editor::EnvironmentSystemV2Editor::EnvEditorBlock
 	{
@@ -32,9 +32,9 @@ namespace RPG::Editor::EnvironmentSystemV2Editor
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORHEADER_GET_FOLDERON_OFFSET))(this);
 		}
 
-		::System::Void set_FolderOn(::System::Boolean value)
+		::System::Void set_FolderOn(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORHEADER_SET_FOLDERON_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORHEADER_SET_FOLDERON_OFFSET))(this, a1);
 		}
 
 		::System::String* get_PrefKey()

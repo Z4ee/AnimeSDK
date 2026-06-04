@@ -11,17 +11,17 @@ namespace UnityEngine::Formats::Alembic::Importer { class AlembicStreamPlayer; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class IPropertyCollector; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1A1E24D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A1E2690)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1A1E2660)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1A1E24B0)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_SET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1A1E24C0)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1A1E24A0)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E27E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B046BD0)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B046D40)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1B046D10)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1B046BB0)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_SET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1B046BC0)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B046BA0)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B046F60)
 
 namespace UnityEngine::Formats::Alembic::Timeline
 {
-	inline static constexpr unsigned int AlembicShotAsset_TypeDefinitionIndex = 40745;
+	inline static constexpr unsigned int AlembicShotAsset_TypeDefinitionIndex = 41571;
 
 	class AlembicShotAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -44,14 +44,14 @@ namespace UnityEngine::Formats::Alembic::Timeline
 			return ((::UnityEngine::ExposedReference_1<::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer*>(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GET_STREAMPLAYER_OFFSET))(this);
 		}
 
-		::System::Void set_StreamPlayer(::UnityEngine::ExposedReference_1<::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer*> value)
+		::System::Void set_StreamPlayer(::UnityEngine::ExposedReference_1<::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ExposedReference_1<::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer*>))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_SET_STREAMPLAYER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ExposedReference_1<::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer*>))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_SET_STREAMPLAYER_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_CREATEPLAYABLE_OFFSET))(this, graph, owner);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Double get_duration()
@@ -59,9 +59,9 @@ namespace UnityEngine::Formats::Alembic::Timeline
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GET_DURATION_OFFSET))(this);
 		}
 
-		::System::Void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver)
+		::System::Void GatherProperties(::UnityEngine::Playables::PlayableDirector* a1, ::UnityEngine::Timeline::IPropertyCollector* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GATHERPROPERTIES_OFFSET))(this, director, driver);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GATHERPROPERTIES_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -4,11 +4,11 @@
 
 namespace AK::Wwise { class AuxBus; }
 
-#define AKEARLYREFLECTIONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A5E4F00)
-#define AKEARLYREFLECTIONS_SETEARLYREFLECTIONSVOLUME_OFFSET UNITYSDK_OFFSET(0x1A5E5010)
-#define AKEARLYREFLECTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5E50B0)
+#define AKEARLYREFLECTIONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B42ED60)
+#define AKEARLYREFLECTIONS_SETEARLYREFLECTIONSVOLUME_OFFSET UNITYSDK_OFFSET(0x1B42EE70)
+#define AKEARLYREFLECTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B42EF10)
 
-inline static constexpr unsigned int AkEarlyReflections_TypeDefinitionIndex = 40470;
+inline static constexpr unsigned int AkEarlyReflections_TypeDefinitionIndex = 41297;
 
 class AkEarlyReflections : public ::UnityEngine::MonoBehaviour
 {
@@ -26,8 +26,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKEARLYREFLECTIONS_ONENABLE_OFFSET))(this);
 	}
 
-	::System::Void SetEarlyReflectionsVolume(::System::Single volume)
+	::System::Void SetEarlyReflectionsVolume(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKEARLYREFLECTIONS_SETEARLYREFLECTIONSVOLUME_OFFSET))(this, volume);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKEARLYREFLECTIONS_SETEARLYREFLECTIONSVOLUME_OFFSET))(this, a1);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IKeyboardEvent_TypeDefinitionIndex = 5927;
+	inline static constexpr unsigned int IKeyboardEvent_TypeDefinitionIndex = 6204;
 
 	class IKeyboardEvent
 	{

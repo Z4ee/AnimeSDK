@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkiOSSettings_PlatformAdvancedSettings_Category_TypeDefinitionIndex = 40459;
+inline static constexpr unsigned int AkiOSSettings_PlatformAdvancedSettings_Category_TypeDefinitionIndex = 41286;
 
 enum class AkiOSSettings_PlatformAdvancedSettings_Category : ::System::Int32
 {

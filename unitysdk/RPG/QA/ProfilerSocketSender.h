@@ -5,29 +5,29 @@
 namespace System { class String; }
 namespace System::Net::Sockets { class Socket; }
 
-#define RPG_QA_PROFILERSOCKETSENDER_COMMONSOCKETCLOSE_OFFSET UNITYSDK_OFFSET(0xB86CEC0)
-#define RPG_QA_PROFILERSOCKETSENDER_COMMONSOCKETCONNECT_OFFSET UNITYSDK_OFFSET(0xB86CB50)
-#define RPG_QA_PROFILERSOCKETSENDER_COMMONSOCKETSENDSTR_OFFSET UNITYSDK_OFFSET(0xB86CD30)
-#define RPG_QA_PROFILERSOCKETSENDER_CONNECT_OFFSET UNITYSDK_OFFSET(0xB86C310)
-#define RPG_QA_PROFILERSOCKETSENDER_SENDAUTOSAVEPATH_OFFSET UNITYSDK_OFFSET(0xB86CAB0)
-#define RPG_QA_PROFILERSOCKETSENDER_SENDEND_OFFSET UNITYSDK_OFFSET(0xB86C9F0)
-#define RPG_QA_PROFILERSOCKETSENDER_SENDFILTEREDRECORD_OFFSET UNITYSDK_OFFSET(0xB86C980)
-#define RPG_QA_PROFILERSOCKETSENDER_SENDRECORDDIFF_OFFSET UNITYSDK_OFFSET(0xB86C8F0)
-#define RPG_QA_PROFILERSOCKETSENDER_SENDRECORD_OFFSET UNITYSDK_OFFSET(0xB86C580)
-#define RPG_QA_PROFILERSOCKETSENDER_SEND_OFFSET UNITYSDK_OFFSET(0xB86C7A0)
-#define RPG_QA_PROFILERSOCKETSENDER_SETCONFIGTITLE_OFFSET UNITYSDK_OFFSET(0xB86CB00)
-#define RPG_QA_PROFILERSOCKETSENDER__CTOR_OFFSET UNITYSDK_OFFSET(0xB86CF70)
+#define RPG_QA_PROFILERSOCKETSENDER_COMMONSOCKETCLOSE_OFFSET UNITYSDK_OFFSET(0xCFB6270)
+#define RPG_QA_PROFILERSOCKETSENDER_COMMONSOCKETCONNECT_OFFSET UNITYSDK_OFFSET(0xCFB5E80)
+#define RPG_QA_PROFILERSOCKETSENDER_COMMONSOCKETSENDSTR_OFFSET UNITYSDK_OFFSET(0xCFB60A0)
+#define RPG_QA_PROFILERSOCKETSENDER_CONNECT_OFFSET UNITYSDK_OFFSET(0xCFB55A0)
+#define RPG_QA_PROFILERSOCKETSENDER_SENDAUTOSAVEPATH_OFFSET UNITYSDK_OFFSET(0xCFB5DE0)
+#define RPG_QA_PROFILERSOCKETSENDER_SENDEND_OFFSET UNITYSDK_OFFSET(0xCFB5CF0)
+#define RPG_QA_PROFILERSOCKETSENDER_SENDFILTEREDRECORD_OFFSET UNITYSDK_OFFSET(0xCFB5C80)
+#define RPG_QA_PROFILERSOCKETSENDER_SENDRECORDDIFF_OFFSET UNITYSDK_OFFSET(0xCFB5BF0)
+#define RPG_QA_PROFILERSOCKETSENDER_SENDRECORD_OFFSET UNITYSDK_OFFSET(0xCFB5890)
+#define RPG_QA_PROFILERSOCKETSENDER_SEND_OFFSET UNITYSDK_OFFSET(0xCFB5A50)
+#define RPG_QA_PROFILERSOCKETSENDER_SETCONFIGTITLE_OFFSET UNITYSDK_OFFSET(0xCFB5E30)
+#define RPG_QA_PROFILERSOCKETSENDER__CTOR_OFFSET UNITYSDK_OFFSET(0xCFB6320)
 
 namespace RPG::QA
 {
-	inline static constexpr unsigned int ProfilerSocketSender_TypeDefinitionIndex = 47835;
+	inline static constexpr unsigned int ProfilerSocketSender_TypeDefinitionIndex = 48450;
 
 	class ProfilerSocketSender : public ::System::Object
 	{
 	public:
 		static ::System::Net::Sockets::Socket** StaticGet__commonSocketSender()
 		{
-			return (::System::Net::Sockets::Socket**)Il2CppClass::FromTypeDefinitionIndex(ProfilerSocketSender_TypeDefinitionIndex)->GetStaticField(0x664B0);
+			return (::System::Net::Sockets::Socket**)Il2CppClass::FromTypeDefinitionIndex(ProfilerSocketSender_TypeDefinitionIndex)->GetStaticField(0x56C0);
 		}
 		::System::Net::Sockets::Socket* _socketSender; // 0x10
 		::System::Int32 _port; // 0x18
@@ -37,54 +37,54 @@ namespace RPG::QA
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Connect(::System::String* host, ::System::String* deviceIp)
+		::System::Boolean Connect(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_CONNECT_OFFSET))(this, host, deviceIp);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_CONNECT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean SendRecord(::System::String* label)
+		::System::Boolean SendRecord(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SENDRECORD_OFFSET))(this, label);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SENDRECORD_OFFSET))(this, a1);
 		}
 
-		::System::Boolean SendRecordDiff(::System::String* startLabel, ::System::String* endLabel, ::System::String* newLabel)
+		::System::Boolean SendRecordDiff(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SENDRECORDDIFF_OFFSET))(this, startLabel, endLabel, newLabel);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SENDRECORDDIFF_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean SendFilteredRecord(::System::String* label, ::System::String* context)
+		::System::Boolean SendFilteredRecord(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SENDFILTEREDRECORD_OFFSET))(this, label, context);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SENDFILTEREDRECORD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean SendEnd(::System::String* path)
+		::System::Boolean SendEnd(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SENDEND_OFFSET))(this, path);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SENDEND_OFFSET))(this, a1);
 		}
 
-		::System::Boolean SendAutoSavePath(::System::String* path)
+		::System::Boolean SendAutoSavePath(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SENDAUTOSAVEPATH_OFFSET))(this, path);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SENDAUTOSAVEPATH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean SetConfigTitle(::System::String* configTitle)
+		::System::Boolean SetConfigTitle(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SETCONFIGTITLE_OFFSET))(this, configTitle);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SETCONFIGTITLE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Send(::System::String* str)
+		::System::Boolean Send(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SEND_OFFSET))(this, str);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_SEND_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean CommonSocketConnect(::System::String* host, ::System::Int32 port)
+		static ::System::Boolean CommonSocketConnect(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_COMMONSOCKETCONNECT_OFFSET))(host, port);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_COMMONSOCKETCONNECT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean CommonSocketSendStr(::System::String* str)
+		static ::System::Boolean CommonSocketSendStr(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_COMMONSOCKETSENDSTR_OFFSET))(str);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILERSOCKETSENDER_COMMONSOCKETSENDSTR_OFFSET))(a1);
 		}
 
 		static ::System::Void CommonSocketClose()

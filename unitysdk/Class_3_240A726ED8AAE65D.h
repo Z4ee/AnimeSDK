@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvEntityResetCameraRootTransform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_240A726ED8AAE65D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x118DD590)
-#define CLASS_3_240A726ED8AAE65D__CTOR_OFFSET UNITYSDK_OFFSET(0x118DD560)
+#define CLASS_3_240A726ED8AAE65D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD22D10)
+#define CLASS_3_240A726ED8AAE65D__CTOR_OFFSET UNITYSDK_OFFSET(0xAD22CE0)
 
-inline static constexpr unsigned int Class_3_240A726ED8AAE65D_TypeDefinitionIndex = 48342;
+inline static constexpr unsigned int Class_3_240A726ED8AAE65D_TypeDefinitionIndex = 48968;
 
 class Class_3_240A726ED8AAE65D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvEntityResetCameraRootTransform*>
 {

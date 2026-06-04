@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelGroupSavedValueCondition; }
 
-#define RPG_GAMECORE_LEVELGROUPSAVEDVALUECONDITIONSET_METHOD_2_D2121E4664E60118_OFFSET UNITYSDK_OFFSET(0x18A46C80)
-#define RPG_GAMECORE_LEVELGROUPSAVEDVALUECONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18A46DB0)
+#define RPG_GAMECORE_LEVELGROUPSAVEDVALUECONDITIONSET_METHOD_2_8D68B5BF7675D3CA_OFFSET UNITYSDK_OFFSET(0x19877BE0)
+#define RPG_GAMECORE_LEVELGROUPSAVEDVALUECONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x19878AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupSavedValueConditionSet_TypeDefinitionIndex = 16329;
+	inline static constexpr unsigned int LevelGroupSavedValueConditionSet_TypeDefinitionIndex = 16361;
 
 	class LevelGroupSavedValueConditionSet : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPSAVEDVALUECONDITIONSET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D2121E4664E60118(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupSavedValueConditionSet*& a2)
+		static ::System::Void Method_2_8D68B5BF7675D3CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupSavedValueConditionSet*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupSavedValueConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPSAVEDVALUECONDITIONSET_METHOD_2_D2121E4664E60118_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupSavedValueConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPSAVEDVALUECONDITIONSET_METHOD_2_8D68B5BF7675D3CA_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System
 {
-	inline static constexpr unsigned int IFormattable_TypeDefinitionIndex = 282;
+	inline static constexpr unsigned int IFormattable_TypeDefinitionIndex = 281;
 
 	class IFormattable
 	{

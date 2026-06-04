@@ -3,17 +3,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/RenderGraphModule/RenderGraphResourceType.h"
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DA80)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_ISVALID_OFFSET UNITYSDK_OFFSET(0xDFD90)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0x299E0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D50)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x73E20)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x22DBD50)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E110)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_ISVALID_OFFSET UNITYSDK_OFFSET(0x145B60)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0x2C4C0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x21F0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x7BBE0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x3877790)
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraphResource_TypeDefinitionIndex = 33372;
+	inline static constexpr unsigned int RenderGraphResource_TypeDefinitionIndex = 33654;
 
 	struct alignas(4) RenderGraphResource
 	{
@@ -21,15 +21,15 @@ namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 		::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResourceType _type_k__BackingField; // 0x14
 
 		/*
-		::System::Void _ctor(::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphMutableResource mutableResource)
+		::System::Void _ctor(::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphMutableResource a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphMutableResource))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE__CTOR_OFFSET))(this, mutableResource);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphMutableResource))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE__CTOR_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Void _ctor_1(::System::Int32 handle, ::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResourceType type)
+		::System::Void _ctor_1(::System::Int32 a1, ::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResourceType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResourceType))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE__CTOR_1_OFFSET))(this, handle, type);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResourceType))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_handle()
@@ -37,9 +37,9 @@ namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_GET_HANDLE_OFFSET))(this);
 		}
 
-		::System::Void set_handle(::System::Int32 value)
+		::System::Void set_handle(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_SET_HANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_SET_HANDLE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResourceType get_type()
@@ -47,9 +47,9 @@ namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 			return ((::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResourceType(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_type(::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResourceType value)
+		::System::Void set_type(::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResourceType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResourceType))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResourceType))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCE_SET_TYPE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsValid()

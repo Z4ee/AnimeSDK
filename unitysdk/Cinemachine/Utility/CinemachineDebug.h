@@ -11,30 +11,30 @@ namespace System::Text { class StringBuilder; }
 namespace UnityEngine { class GUIStyle; }
 namespace UnityEngine { class Object; }
 
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_GETSCREENPOS_OFFSET UNITYSDK_OFFSET(0x12BAB9B0)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RELEASESCREENPOS_OFFSET UNITYSDK_OFFSET(0x12BAB920)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x12BABE40)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_SBFROMPOOL_OFFSET UNITYSDK_OFFSET(0x12BABD30)
-#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x12BABEE0)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_GETSCREENPOS_OFFSET UNITYSDK_OFFSET(0x14668FD0)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RELEASESCREENPOS_OFFSET UNITYSDK_OFFSET(0x14668F40)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x14669460)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG_SBFROMPOOL_OFFSET UNITYSDK_OFFSET(0x14669350)
+#define CINEMACHINE_UTILITY_CINEMACHINEDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x14669550)
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int CinemachineDebug_TypeDefinitionIndex = 36648;
+	inline static constexpr unsigned int CinemachineDebug_TypeDefinitionIndex = 36948;
 
 	class CinemachineDebug : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>** StaticGet_mClients()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0x1020);
-		}
-		static ::System::Collections::Generic::List_1<::System::Text::StringBuilder*>** StaticGet_mAvailableStringBuilders()
-		{
-			return (::System::Collections::Generic::List_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0x1028);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0xF50);
 		}
 		static ::Cinemachine::Utility::CinemachineDebug_OnGUIDelegate** StaticGet_OnGUIHandlers()
 		{
-			return (::Cinemachine::Utility::CinemachineDebug_OnGUIDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0x1030);
+			return (::Cinemachine::Utility::CinemachineDebug_OnGUIDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0xF58);
+		}
+		static ::System::Collections::Generic::List_1<::System::Text::StringBuilder*>** StaticGet_mAvailableStringBuilders()
+		{
+			return (::System::Collections::Generic::List_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineDebug_TypeDefinitionIndex)->GetStaticField(0xF60);
 		}
 
 		::System::Void _ctor()
@@ -42,14 +42,14 @@ namespace Cinemachine::Utility
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_CINEMACHINEDEBUG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void ReleaseScreenPos(::UnityEngine::Object* client)
+		static ::System::Void ReleaseScreenPos(::UnityEngine::Object* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RELEASESCREENPOS_OFFSET))(client);
+			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RELEASESCREENPOS_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Rect GetScreenPos(::UnityEngine::Object* client, ::System::String* text, ::UnityEngine::GUIStyle* style)
+		static ::UnityEngine::Rect GetScreenPos(::UnityEngine::Object* a1, ::System::String* a2, ::UnityEngine::GUIStyle* a3)
 		{
-			return ((::UnityEngine::Rect(*)(::UnityEngine::Object*, ::System::String*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_CINEMACHINEDEBUG_GETSCREENPOS_OFFSET))(client, text, style);
+			return ((::UnityEngine::Rect(*)(::UnityEngine::Object*, ::System::String*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_CINEMACHINEDEBUG_GETSCREENPOS_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Text::StringBuilder* SBFromPool()
@@ -57,9 +57,9 @@ namespace Cinemachine::Utility
 			return ((::System::Text::StringBuilder*(*)())((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_CINEMACHINEDEBUG_SBFROMPOOL_OFFSET))();
 		}
 
-		static ::System::Void ReturnToPool(::System::Text::StringBuilder* sb)
+		static ::System::Void ReturnToPool(::System::Text::StringBuilder* a1)
 		{
-			return ((::System::Void(*)(::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RETURNTOPOOL_OFFSET))(sb);
+			return ((::System::Void(*)(::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_CINEMACHINEDEBUG_RETURNTOPOOL_OFFSET))(a1);
 		}
 	};
 }

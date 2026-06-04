@@ -4,7 +4,7 @@
 
 namespace System { class Type; }
 
-#define MONO_UTIL_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B10B0)
+#define MONO_UTIL_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF1AF00)
 
 namespace Mono::Util
 {
@@ -13,9 +13,9 @@ namespace Mono::Util
 	class MonoPInvokeCallbackAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Void _ctor(::System::Type* t)
+		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + MONO_UTIL_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET))(this, t);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + MONO_UTIL_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

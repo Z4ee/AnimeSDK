@@ -4,20 +4,20 @@
 
 namespace Proto { class PropInfoSnapshot; }
 
-#define PROTO_PROPINFOSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19354A00)
-#define PROTO_PROPINFOSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19354A40)
-#define PROTO_PROPINFOSNAPSHOT___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x19354A50)
+#define PROTO_PROPINFOSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A123160)
+#define PROTO_PROPINFOSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1231A0)
+#define PROTO_PROPINFOSNAPSHOT___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1A1231B0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int PropInfoSnapshot___c_TypeDefinitionIndex = 24527;
+	inline static constexpr unsigned int PropInfoSnapshot___c_TypeDefinitionIndex = 24388;
 
 	class PropInfoSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::Proto::PropInfoSnapshot___c** StaticGet___9()
 		{
-			return (::Proto::PropInfoSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(PropInfoSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x65870);
+			return (::Proto::PropInfoSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(PropInfoSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x45770);
 		}
 
 		static ::System::Void _cctor()

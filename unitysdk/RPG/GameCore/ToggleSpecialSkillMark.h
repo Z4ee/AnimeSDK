@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class UITextNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK_METHOD_3_17DFEE9F00AC66BE_OFFSET UNITYSDK_OFFSET(0x190A0250)
-#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK_METHOD_3_4ECAFB252043D17D_OFFSET UNITYSDK_OFFSET(0x190A01D0)
-#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x190A0220)
+#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK_METHOD_3_4ECAFB252043D17D_OFFSET UNITYSDK_OFFSET(0x19DEAFB0)
+#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK_METHOD_3_B2E2C43DC76881BC_OFFSET UNITYSDK_OFFSET(0x19DEB030)
+#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x19DEB000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToggleSpecialSkillMark_TypeDefinitionIndex = 22670;
+	inline static constexpr unsigned int ToggleSpecialSkillMark_TypeDefinitionIndex = 22390;
 
 	class ToggleSpecialSkillMark : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToggleSpecialSkillMark*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLESPECIALSKILLMARK_METHOD_3_4ECAFB252043D17D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_17DFEE9F00AC66BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToggleSpecialSkillMark* a2)
+		static ::System::Void Method_3_B2E2C43DC76881BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToggleSpecialSkillMark* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToggleSpecialSkillMark*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLESPECIALSKILLMARK_METHOD_3_17DFEE9F00AC66BE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToggleSpecialSkillMark*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLESPECIALSKILLMARK_METHOD_3_B2E2C43DC76881BC_OFFSET))(a1, a2);
 		}
 	};
 }

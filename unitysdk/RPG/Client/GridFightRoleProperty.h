@@ -8,36 +8,36 @@ namespace RPG::Client { class GridFightRolePropertyConfig; }
 namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xA575BE0)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_CREATE_1_OFFSET UNITYSDK_OFFSET(0xA5685D0)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_CREATE_OFFSET UNITYSDK_OFFSET(0xA5756E0)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_FORMAT_OFFSET UNITYSDK_OFFSET(0xA5758E0)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xA575830)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_FLOATVALUE_OFFSET UNITYSDK_OFFSET(0xA575B50)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_FORMATVALUE_OFFSET UNITYSDK_OFFSET(0xA575850)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_INTVALUE_OFFSET UNITYSDK_OFFSET(0xA575BA0)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0xA5757F0)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA575810)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xA575840)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0xA575800)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xA575820)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY__CCTOR_OFFSET UNITYSDK_OFFSET(0xA575C60)
-#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xA575780)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xBBE38C0)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_CREATE_1_OFFSET UNITYSDK_OFFSET(0xBBE3260)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_CREATE_OFFSET UNITYSDK_OFFSET(0xBBE31C0)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_FORMAT_OFFSET UNITYSDK_OFFSET(0xBBE34C0)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xBBE3410)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_FLOATVALUE_OFFSET UNITYSDK_OFFSET(0xBBE3780)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_FORMATVALUE_OFFSET UNITYSDK_OFFSET(0xBBE3430)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_INTVALUE_OFFSET UNITYSDK_OFFSET(0xBBE37E0)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0xBBE33D0)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xBBE33F0)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xBBE3420)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0xBBE33E0)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xBBE3400)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY__CCTOR_OFFSET UNITYSDK_OFFSET(0xBBE3940)
+#define RPG_CLIENT_GRIDFIGHTROLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xBBE3350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleProperty_TypeDefinitionIndex = 59971;
+	inline static constexpr unsigned int GridFightRoleProperty_TypeDefinitionIndex = 60906;
 
 	class GridFightRoleProperty : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::FixPoint* StaticGet_Precision()
 		{
-			return (::RPG::GameCore::FixPoint*)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleProperty_TypeDefinitionIndex)->GetStaticField(0x6870);
+			return (::RPG::GameCore::FixPoint*)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleProperty_TypeDefinitionIndex)->GetStaticField(0xAE90);
 		}
 		::RPG::Client::GridFightRolePropertyConfig* _Config_k__BackingField; // 0x10
-		::RPG::GameCore::FixPoint _Value_k__BackingField; // 0x18
-		::RPG::GameCore::AvatarPropertyType _PropertyType_k__BackingField; // 0x20
+		::RPG::GameCore::AvatarPropertyType _PropertyType_k__BackingField; // 0x18
+		::RPG::GameCore::FixPoint _Value_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -49,14 +49,14 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::Client::GridFightRoleProperty* Create(::RPG::GameCore::AvatarPropertyValue* propertyValue)
+		static ::RPG::Client::GridFightRoleProperty* Create(::RPG::GameCore::AvatarPropertyValue* a1)
 		{
-			return ((::RPG::Client::GridFightRoleProperty*(*)(::RPG::GameCore::AvatarPropertyValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_CREATE_OFFSET))(propertyValue);
+			return ((::RPG::Client::GridFightRoleProperty*(*)(::RPG::GameCore::AvatarPropertyValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::GridFightRoleProperty* Create_1(::RPG::GameCore::AvatarPropertyType type, ::RPG::GameCore::FixPoint value)
+		static ::RPG::Client::GridFightRoleProperty* Create_1(::RPG::GameCore::AvatarPropertyType a1, ::RPG::GameCore::FixPoint a2)
 		{
-			return ((::RPG::Client::GridFightRoleProperty*(*)(::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_CREATE_1_OFFSET))(type, value);
+			return ((::RPG::Client::GridFightRoleProperty*(*)(::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_CREATE_1_OFFSET))(a1, a2);
 		}
 
 		::RPG::GameCore::AvatarPropertyType get_PropertyType()
@@ -64,9 +64,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::AvatarPropertyType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_PROPERTYTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_PropertyType(::RPG::GameCore::AvatarPropertyType value)
+		::System::Void set_PropertyType(::RPG::GameCore::AvatarPropertyType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_PROPERTYTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_PROPERTYTYPE_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::FixPoint get_Value()
@@ -74,9 +74,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::RPG::GameCore::FixPoint value)
+		::System::Void set_Value(::RPG::GameCore::FixPoint a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_VALUE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightRolePropertyConfig* get_Config()
@@ -84,9 +84,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightRolePropertyConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_CONFIG_OFFSET))(this);
 		}
 
-		::System::Void set_Config(::RPG::Client::GridFightRolePropertyConfig* value)
+		::System::Void set_Config(::RPG::Client::GridFightRolePropertyConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRolePropertyConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_CONFIG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRolePropertyConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_SET_CONFIG_OFFSET))(this, a1);
 		}
 
 		::System::String* get_FormatValue()
@@ -104,14 +104,14 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_GET_INTVALUE_OFFSET))(this);
 		}
 
-		static ::System::String* Format(::RPG::GameCore::AvatarPropertyType type, ::RPG::GameCore::FixPoint value)
+		static ::System::String* Format(::RPG::GameCore::AvatarPropertyType a1, ::RPG::GameCore::FixPoint a2)
 		{
-			return ((::System::String*(*)(::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_FORMAT_OFFSET))(type, value);
+			return ((::System::String*(*)(::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_FORMAT_OFFSET))(a1, a2);
 		}
 
-		::System::Int32 CompareTo(::RPG::Client::GridFightRoleProperty* other)
+		::System::Int32 CompareTo(::RPG::Client::GridFightRoleProperty* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::GridFightRoleProperty*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::GridFightRoleProperty*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPROPERTY_COMPARETO_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,27 +7,27 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYO_SDK_IMAGECACHE_ASYNCDOWNLOADTEXTURE_OFFSET UNITYSDK_OFFSET(0x1755CF50)
-#define MIHOYO_SDK_IMAGECACHE_GETIMAGE_OFFSET UNITYSDK_OFFSET(0x1755D3F0)
-#define MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEKEY_OFFSET UNITYSDK_OFFSET(0x1755D630)
-#define MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEPATH_OFFSET UNITYSDK_OFFSET(0x1755D5C0)
-#define MIHOYO_SDK_IMAGECACHE_IMAGETEXTURECACHEDIR_OFFSET UNITYSDK_OFFSET(0x1755E0A0)
-#define MIHOYO_SDK_IMAGECACHE_ISLOCALCACHEEXISTS_OFFSET UNITYSDK_OFFSET(0x1755CE40)
-#define MIHOYO_SDK_IMAGECACHE_ONTEXTUREDOWNLOADCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1755D680)
-#define MIHOYO_SDK_IMAGECACHE_PUTIMAGE_OFFSET UNITYSDK_OFFSET(0x1755CDE0)
-#define MIHOYO_SDK_IMAGECACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1755E170)
-#define MIHOYO_SDK_IMAGECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1755CD60)
+#define MIHOYO_SDK_IMAGECACHE_ASYNCDOWNLOADTEXTURE_OFFSET UNITYSDK_OFFSET(0x183448D0)
+#define MIHOYO_SDK_IMAGECACHE_GETIMAGE_OFFSET UNITYSDK_OFFSET(0x18344DC0)
+#define MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEKEY_OFFSET UNITYSDK_OFFSET(0x18345000)
+#define MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEPATH_OFFSET UNITYSDK_OFFSET(0x18344F90)
+#define MIHOYO_SDK_IMAGECACHE_IMAGETEXTURECACHEDIR_OFFSET UNITYSDK_OFFSET(0x183455B0)
+#define MIHOYO_SDK_IMAGECACHE_ISLOCALCACHEEXISTS_OFFSET UNITYSDK_OFFSET(0x183447C0)
+#define MIHOYO_SDK_IMAGECACHE_ONTEXTUREDOWNLOADCOMPLETED_OFFSET UNITYSDK_OFFSET(0x18345030)
+#define MIHOYO_SDK_IMAGECACHE_PUTIMAGE_OFFSET UNITYSDK_OFFSET(0x18344760)
+#define MIHOYO_SDK_IMAGECACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18345680)
+#define MIHOYO_SDK_IMAGECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x183446E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ImageCache_TypeDefinitionIndex = 7021;
+	inline static constexpr unsigned int ImageCache_TypeDefinitionIndex = 7924;
 
 	class ImageCache : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::ImageCache** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::ImageCache**)Il2CppClass::FromTypeDefinitionIndex(ImageCache_TypeDefinitionIndex)->GetStaticField(0x17C60);
+			return (::MiHoYo::SDK::ImageCache**)Il2CppClass::FromTypeDefinitionIndex(ImageCache_TypeDefinitionIndex)->GetStaticField(0xD590);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::ImageCache_TextureAvailable*>* availableCallbackMap; // 0x10
 
@@ -41,24 +41,24 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE__CCTOR_OFFSET))();
 		}
 
-		::System::Void PutImage(::System::String* url)
+		::System::Void PutImage(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_PUTIMAGE_OFFSET))(this, url);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_PUTIMAGE_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Texture2D* GetImage(::System::String* url, ::MiHoYo::SDK::ImageCache_TextureAvailable* availableCallback)
+		::UnityEngine::Texture2D* GetImage(::System::String* a1, ::MiHoYo::SDK::ImageCache_TextureAvailable* a2)
 		{
-			return ((::UnityEngine::Texture2D*(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::ImageCache_TextureAvailable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_GETIMAGE_OFFSET))(this, url, availableCallback);
+			return ((::UnityEngine::Texture2D*(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::ImageCache_TextureAvailable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_GETIMAGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AsyncDownloadTexture(::System::String* url, ::MiHoYo::SDK::ImageCache_TextureAvailable* callback)
+		::System::Void AsyncDownloadTexture(::System::String* a1, ::MiHoYo::SDK::ImageCache_TextureAvailable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::ImageCache_TextureAvailable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_ASYNCDOWNLOADTEXTURE_OFFSET))(this, url, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::ImageCache_TextureAvailable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_ASYNCDOWNLOADTEXTURE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnTextureDownloadCompleted(::System::String* url, ::Il2CppArray<::System::Byte>* data)
+		::System::Void OnTextureDownloadCompleted(::System::String* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_ONTEXTUREDOWNLOADCOMPLETED_OFFSET))(this, url, data);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_ONTEXTUREDOWNLOADCOMPLETED_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::String* ImageTextureCacheDir()
@@ -66,19 +66,19 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_IMAGETEXTURECACHEDIR_OFFSET))();
 		}
 
-		static ::System::String* GetLocalCacheKey(::System::String* url)
+		static ::System::String* GetLocalCacheKey(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEKEY_OFFSET))(url);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEKEY_OFFSET))(a1);
 		}
 
-		static ::System::String* GetLocalCachePath(::System::String* url)
+		static ::System::String* GetLocalCachePath(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEPATH_OFFSET))(url);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEPATH_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsLocalCacheExists(::System::String* url)
+		static ::System::Boolean IsLocalCacheExists(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_ISLOCALCACHEEXISTS_OFFSET))(url);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_ISLOCALCACHEEXISTS_OFFSET))(a1);
 		}
 	};
 }

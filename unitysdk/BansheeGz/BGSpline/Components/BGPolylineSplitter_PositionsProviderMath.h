@@ -8,13 +8,13 @@
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_POSITIONSPROVIDERMATH_COMPLY_OFFSET UNITYSDK_OFFSET(0x17B9AC70)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_POSITIONSPROVIDERMATH_FILLINSPLITSECTION_OFFSET UNITYSDK_OFFSET(0x17B9AC80)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_POSITIONSPROVIDERMATH__CTOR_OFFSET UNITYSDK_OFFSET(0x17B99A40)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_POSITIONSPROVIDERMATH_COMPLY_OFFSET UNITYSDK_OFFSET(0x1894A020)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_POSITIONSPROVIDERMATH_FILLINSPLITSECTION_OFFSET UNITYSDK_OFFSET(0x1894A030)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_POSITIONSPROVIDERMATH__CTOR_OFFSET UNITYSDK_OFFSET(0x189488E0)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGPolylineSplitter_PositionsProviderMath_TypeDefinitionIndex = 33868;
+	inline static constexpr unsigned int BGPolylineSplitter_PositionsProviderMath_TypeDefinitionIndex = 34150;
 
 	class BGPolylineSplitter_PositionsProviderMath : public ::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProvider
 	{
@@ -24,14 +24,14 @@ namespace BansheeGz::BGSpline::Components
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_POSITIONSPROVIDERMATH__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Comply(::BansheeGz::BGSpline::Components::BGCcSplitterPolyline_SplitModeEnum splitMode)
+		::System::Boolean Comply(::BansheeGz::BGSpline::Components::BGCcSplitterPolyline_SplitModeEnum a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::BansheeGz::BGSpline::Components::BGCcSplitterPolyline_SplitModeEnum))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_POSITIONSPROVIDERMATH_COMPLY_OFFSET))(this, splitMode);
+			return ((::System::Boolean(*)(::PVOID, ::BansheeGz::BGSpline::Components::BGCcSplitterPolyline_SplitModeEnum))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_POSITIONSPROVIDERMATH_COMPLY_OFFSET))(this, a1);
 		}
 
-		::System::Void FillInSplitSection(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* section, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* result, ::System::Collections::Generic::List_1<::BansheeGz::BGSpline::Components::BGCcSplitterPolyline_PolylinePoint>* points)
+		::System::Void FillInSplitSection(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a2, ::System::Collections::Generic::List_1<::BansheeGz::BGSpline::Components::BGCcSplitterPolyline_PolylinePoint>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::BansheeGz::BGSpline::Components::BGCcSplitterPolyline_PolylinePoint>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_POSITIONSPROVIDERMATH_FILLINSPLITSECTION_OFFSET))(this, section, result, points);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::BansheeGz::BGSpline::Components::BGCcSplitterPolyline_PolylinePoint>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_POSITIONSPROVIDERMATH_FILLINSPLITSECTION_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

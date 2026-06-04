@@ -3,18 +3,18 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_2_BB20710A4A2719C3;
+class Class_2_90B76BC9152631D1;
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONORANDOMOFFSETSCALE_AWAKE_OFFSET UNITYSDK_OFFSET(0xA9ED680)
-#define RPG_CLIENT_MONORANDOMOFFSETSCALE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA9ED810)
-#define RPG_CLIENT_MONORANDOMOFFSETSCALE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA9ED6F0)
-#define RPG_CLIENT_MONORANDOMOFFSETSCALE_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9ED7C0)
-#define RPG_CLIENT_MONORANDOMOFFSETSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0xA9ED8A0)
+#define RPG_CLIENT_MONORANDOMOFFSETSCALE_AWAKE_OFFSET UNITYSDK_OFFSET(0xC13B340)
+#define RPG_CLIENT_MONORANDOMOFFSETSCALE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC13B4D0)
+#define RPG_CLIENT_MONORANDOMOFFSETSCALE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC13B3B0)
+#define RPG_CLIENT_MONORANDOMOFFSETSCALE_UPDATE_OFFSET UNITYSDK_OFFSET(0xC13B480)
+#define RPG_CLIENT_MONORANDOMOFFSETSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0xC13B560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRandomOffsetScale_TypeDefinitionIndex = 63280;
+	inline static constexpr unsigned int MonoRandomOffsetScale_TypeDefinitionIndex = 64197;
 
 	class MonoRandomOffsetScale : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,7 +23,7 @@ namespace RPG::Client
 		::UnityEngine::Vector2 offsetScaleRange; // 0x20
 		::Il2CppArray<::UnityEngine::GameObject*>* offsetRoot; // 0x28
 		::Il2CppArray<::System::Single>* Offset; // 0x30
-		::Class_2_BB20710A4A2719C3* _Behavior; // 0x38
+		::Class_2_90B76BC9152631D1* _Behavior; // 0x38
 
 		::System::Void _ctor()
 		{

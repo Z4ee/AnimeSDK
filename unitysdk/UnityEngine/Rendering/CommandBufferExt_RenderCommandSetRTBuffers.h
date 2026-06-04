@@ -4,15 +4,15 @@
 
 namespace UnityEngine::Rendering { class GrowableBuffer; }
 
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_INIT_OFFSET UNITYSDK_OFFSET(0x22DD8E0)
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_RESET_OFFSET UNITYSDK_OFFSET(0x22DD970)
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZESTORELOAD_OFFSET UNITYSDK_OFFSET(0x22DD9D0)
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x22DD980)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_INIT_OFFSET UNITYSDK_OFFSET(0x3879B50)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_RESET_OFFSET UNITYSDK_OFFSET(0x3879BE0)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZESTORELOAD_OFFSET UNITYSDK_OFFSET(0x3879C00)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x3879BF0)
 #define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SET_OFFSET UNITYSDK_OFFSET(0x1020)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CommandBufferExt_RenderCommandSetRTBuffers_TypeDefinitionIndex = 33472;
+	inline static constexpr unsigned int CommandBufferExt_RenderCommandSetRTBuffers_TypeDefinitionIndex = 33754;
 
 	struct alignas(8) CommandBufferExt_RenderCommandSetRTBuffers
 	{
@@ -33,20 +33,20 @@ namespace UnityEngine::Rendering
 		}
 
 		/*
-		::System::Void Set(::System::Int32 index, ::UnityEngine::Rendering::RenderTargetIdentifier& rt)
+		::System::Void Set(::System::Int32 a1, ::UnityEngine::Rendering::RenderTargetIdentifier& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::RenderTargetIdentifier&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SET_OFFSET))(this, index, rt);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::RenderTargetIdentifier&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SET_OFFSET))(this, a1, a2);
 		}
 		*/
 
-		::System::Void Serialize(::UnityEngine::Rendering::GrowableBuffer* buffer)
+		::System::Void Serialize(::UnityEngine::Rendering::GrowableBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::GrowableBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZE_OFFSET))(this, buffer);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::GrowableBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void SerializeStoreLoad(::UnityEngine::Rendering::GrowableBuffer* buffer)
+		::System::Void SerializeStoreLoad(::UnityEngine::Rendering::GrowableBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::GrowableBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZESTORELOAD_OFFSET))(this, buffer);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::GrowableBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERCOMMANDSETRTBUFFERS_SERIALIZESTORELOAD_OFFSET))(this, a1);
 		}
 	};
 }

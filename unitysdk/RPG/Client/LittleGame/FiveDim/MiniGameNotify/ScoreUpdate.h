@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MINIGAMENOTIFY_SCOREUPDATE__CCTOR_OFFSET UNITYSDK_OFFSET(0xA6C36B0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MINIGAMENOTIFY_SCOREUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA6C36A0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MINIGAMENOTIFY_SCOREUPDATE__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE145D0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MINIGAMENOTIFY_SCOREUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0xBE145C0)
 
 namespace RPG::Client::LittleGame::FiveDim::MiniGameNotify
 {
-	inline static constexpr unsigned int ScoreUpdate_TypeDefinitionIndex = 70947;
+	inline static constexpr unsigned int ScoreUpdate_TypeDefinitionIndex = 71769;
 
 	class ScoreUpdate : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::LittleGame::FiveDim::MiniGameNotify::ScoreUpdate** StaticGet_Zero()
 		{
-			return (::RPG::Client::LittleGame::FiveDim::MiniGameNotify::ScoreUpdate**)Il2CppClass::FromTypeDefinitionIndex(ScoreUpdate_TypeDefinitionIndex)->GetStaticField(0x2F710);
+			return (::RPG::Client::LittleGame::FiveDim::MiniGameNotify::ScoreUpdate**)Il2CppClass::FromTypeDefinitionIndex(ScoreUpdate_TypeDefinitionIndex)->GetStaticField(0x4CCC0);
 		}
-		::System::Single ScoreMultiplier; // 0x10
-		::System::Int32 CoinScore; // 0x14
+		::System::Int32 CoinScore; // 0x10
+		::System::Single ScoreMultiplier; // 0x14
 
 		::System::Void _ctor()
 		{

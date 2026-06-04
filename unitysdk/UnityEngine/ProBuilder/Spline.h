@@ -9,48 +9,48 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_1_OFFSET UNITYSDK_OFFSET(0x1A2E6710)
-#define UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_2_OFFSET UNITYSDK_OFFSET(0x1A2E7180)
-#define UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_OFFSET UNITYSDK_OFFSET(0x1A2E6640)
-#define UNITYENGINE_PROBUILDER_SPLINE_GETCONTROLPOINTS_OFFSET UNITYSDK_OFFSET(0x1A2E67D0)
-#define UNITYENGINE_PROBUILDER_SPLINE_GETRINGROTATION_OFFSET UNITYSDK_OFFSET(0x1A2E7D20)
-#define UNITYENGINE_PROBUILDER_SPLINE_VERTEXRING_OFFSET UNITYSDK_OFFSET(0x1A2E8620)
+#define UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_1_OFFSET UNITYSDK_OFFSET(0x1B1468C0)
+#define UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_2_OFFSET UNITYSDK_OFFSET(0x1B1470D0)
+#define UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_OFFSET UNITYSDK_OFFSET(0x1B1467F0)
+#define UNITYENGINE_PROBUILDER_SPLINE_GETCONTROLPOINTS_OFFSET UNITYSDK_OFFSET(0x1B146980)
+#define UNITYENGINE_PROBUILDER_SPLINE_GETRINGROTATION_OFFSET UNITYSDK_OFFSET(0x1B147C00)
+#define UNITYENGINE_PROBUILDER_SPLINE_VERTEXRING_OFFSET UNITYSDK_OFFSET(0x1B148510)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Spline_TypeDefinitionIndex = 39994;
+	inline static constexpr unsigned int Spline_TypeDefinitionIndex = 40821;
 
 	class Spline : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ProBuilder::ProBuilderMesh* Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, ::System::Single radius, ::System::Int32 columns, ::System::Int32 rows, ::System::Boolean closeLoop, ::System::Boolean smooth)
+		static ::UnityEngine::ProBuilder::ProBuilderMesh* Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* a1, ::System::Single a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5, ::System::Boolean a6)
 		{
-			return ((::UnityEngine::ProBuilder::ProBuilderMesh*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, ::System::Single, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_OFFSET))(points, radius, columns, rows, closeLoop, smooth);
+			return ((::UnityEngine::ProBuilder::ProBuilderMesh*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, ::System::Single, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void Extrude_1(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints, ::System::Single radius, ::System::Int32 columns, ::System::Int32 rows, ::System::Boolean closeLoop, ::System::Boolean smooth, ::UnityEngine::ProBuilder::ProBuilderMesh*& target)
+		static ::System::Void Extrude_1(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* a1, ::System::Single a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5, ::System::Boolean a6, ::UnityEngine::ProBuilder::ProBuilderMesh*& a7)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, ::System::Single, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::UnityEngine::ProBuilder::ProBuilderMesh*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_1_OFFSET))(bezierPoints, radius, columns, rows, closeLoop, smooth, target);
+			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, ::System::Single, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::UnityEngine::ProBuilder::ProBuilderMesh*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints, ::System::Int32 subdivisionsPerSegment, ::System::Boolean closeLoop, ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations)
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* a4)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector3>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, ::System::Int32, ::System::Boolean, ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_GETCONTROLPOINTS_OFFSET))(bezierPoints, subdivisionsPerSegment, closeLoop, rotations);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector3>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, ::System::Int32, ::System::Boolean, ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_GETCONTROLPOINTS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Extrude_2(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, ::System::Single radius, ::System::Int32 radiusRows, ::System::Boolean closeLoop, ::System::Boolean smooth, ::UnityEngine::ProBuilder::ProBuilderMesh*& target, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>* pointRotations)
+		static ::System::Void Extrude_2(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a1, ::System::Single a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5, ::UnityEngine::ProBuilder::ProBuilderMesh*& a6, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>* a7)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Single, ::System::Int32, ::System::Boolean, ::System::Boolean, ::UnityEngine::ProBuilder::ProBuilderMesh*&, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_2_OFFSET))(points, radius, radiusRows, closeLoop, smooth, target, pointRotations);
+			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Single, ::System::Int32, ::System::Boolean, ::System::Boolean, ::UnityEngine::ProBuilder::ProBuilderMesh*&, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_EXTRUDE_2_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::UnityEngine::Quaternion GetRingRotation(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, ::System::Int32 i, ::System::Boolean closeLoop, ::System::Single& secant)
+		static ::UnityEngine::Quaternion GetRingRotation(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Single& a4)
 		{
-			return ((::UnityEngine::Quaternion(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Int32, ::System::Boolean, ::System::Single&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_GETRINGROTATION_OFFSET))(points, i, closeLoop, secant);
+			return ((::UnityEngine::Quaternion(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Int32, ::System::Boolean, ::System::Single&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_GETRINGROTATION_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Il2CppArray<::UnityEngine::Vector3>* VertexRing(::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 offset, ::System::Single radius, ::System::Int32 segments)
+		static ::Il2CppArray<::UnityEngine::Vector3>* VertexRing(::UnityEngine::Quaternion a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Int32 a4)
 		{
-			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_VERTEXRING_OFFSET))(orientation, offset, radius, segments);
+			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SPLINE_VERTEXRING_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

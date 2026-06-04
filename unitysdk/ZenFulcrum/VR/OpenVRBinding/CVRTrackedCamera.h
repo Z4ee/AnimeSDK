@@ -11,92 +11,92 @@
 
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_ACQUIREVIDEOSTREAMINGSERVICE_OFFSET UNITYSDK_OFFSET(0x1A6E50F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAERRORNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x1A6E5010)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAFRAMESIZE_OFFSET UNITYSDK_OFFSET(0x1A6E5070)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAINTRINSICS_OFFSET UNITYSDK_OFFSET(0x1A6E50B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAPROJECTION_OFFSET UNITYSDK_OFFSET(0x1A6E50D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMFRAMEBUFFER_OFFSET UNITYSDK_OFFSET(0x1A6E5140)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTURED3D11_OFFSET UNITYSDK_OFFSET(0x1A6E51A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTUREGL_OFFSET UNITYSDK_OFFSET(0x1A6E51C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTURESIZE_OFFSET UNITYSDK_OFFSET(0x1A6E5160)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_HASCAMERA_OFFSET UNITYSDK_OFFSET(0x1A6E5050)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_RELEASEVIDEOSTREAMINGSERVICE_OFFSET UNITYSDK_OFFSET(0x1A6E5120)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_RELEASEVIDEOSTREAMTEXTUREGL_OFFSET UNITYSDK_OFFSET(0x1A6E51F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6E4F10)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_ACQUIREVIDEOSTREAMINGSERVICE_OFFSET UNITYSDK_OFFSET(0x1B513A30)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAERRORNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x1B5138D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAFRAMESIZE_OFFSET UNITYSDK_OFFSET(0x1B513950)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAINTRINSICS_OFFSET UNITYSDK_OFFSET(0x1B5139B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAPROJECTION_OFFSET UNITYSDK_OFFSET(0x1B5139F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMFRAMEBUFFER_OFFSET UNITYSDK_OFFSET(0x1B513A90)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTURED3D11_OFFSET UNITYSDK_OFFSET(0x1B513B40)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTUREGL_OFFSET UNITYSDK_OFFSET(0x1B513BA0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTURESIZE_OFFSET UNITYSDK_OFFSET(0x1B513AF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_HASCAMERA_OFFSET UNITYSDK_OFFSET(0x1B513920)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_RELEASEVIDEOSTREAMINGSERVICE_OFFSET UNITYSDK_OFFSET(0x1B513A60)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_RELEASEVIDEOSTREAMTEXTUREGL_OFFSET UNITYSDK_OFFSET(0x1B513BF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5137D0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVRTrackedCamera_TypeDefinitionIndex = 35959;
+	inline static constexpr unsigned int CVRTrackedCamera_TypeDefinitionIndex = 36259;
 
 	class CVRTrackedCamera : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::VR::OpenVRBinding::IVRTrackedCamera FnTable; // 0x10
 
-		::System::Void _ctor(::System::IntPtr pInterface)
+		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA__CTOR_OFFSET))(this, pInterface);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::String* GetCameraErrorNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError eCameraError)
+		::System::String* GetCameraErrorNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAERRORNAMEFROMENUM_OFFSET))(this, eCameraError);
+			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAERRORNAMEFROMENUM_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError HasCamera(::System::UInt32 nDeviceIndex, ::System::Boolean& pHasCamera)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError HasCamera(::System::UInt32 a1, ::System::Boolean& a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::System::Boolean&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_HASCAMERA_OFFSET))(this, nDeviceIndex, pHasCamera);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::System::Boolean&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_HASCAMERA_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetCameraFrameSize(::System::UInt32 nDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType eFrameType, ::System::UInt32& pnWidth, ::System::UInt32& pnHeight, ::System::UInt32& pnFrameBufferSize)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetCameraFrameSize(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType a2, ::System::UInt32& a3, ::System::UInt32& a4, ::System::UInt32& a5)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAFRAMESIZE_OFFSET))(this, nDeviceIndex, eFrameType, pnWidth, pnHeight, pnFrameBufferSize);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAFRAMESIZE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetCameraIntrinsics(::System::UInt32 nDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType eFrameType, ::ZenFulcrum::VR::OpenVRBinding::HmdVector2_t& pFocalLength, ::ZenFulcrum::VR::OpenVRBinding::HmdVector2_t& pCenter)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetCameraIntrinsics(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType a2, ::ZenFulcrum::VR::OpenVRBinding::HmdVector2_t& a3, ::ZenFulcrum::VR::OpenVRBinding::HmdVector2_t& a4)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::ZenFulcrum::VR::OpenVRBinding::HmdVector2_t&, ::ZenFulcrum::VR::OpenVRBinding::HmdVector2_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAINTRINSICS_OFFSET))(this, nDeviceIndex, eFrameType, pFocalLength, pCenter);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::ZenFulcrum::VR::OpenVRBinding::HmdVector2_t&, ::ZenFulcrum::VR::OpenVRBinding::HmdVector2_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAINTRINSICS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetCameraProjection(::System::UInt32 nDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType eFrameType, ::System::Single flZNear, ::System::Single flZFar, ::ZenFulcrum::VR::OpenVRBinding::HmdMatrix44_t& pProjection)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetCameraProjection(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType a2, ::System::Single a3, ::System::Single a4, ::ZenFulcrum::VR::OpenVRBinding::HmdMatrix44_t& a5)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::System::Single, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::HmdMatrix44_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAPROJECTION_OFFSET))(this, nDeviceIndex, eFrameType, flZNear, flZFar, pProjection);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::System::Single, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::HmdMatrix44_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETCAMERAPROJECTION_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError AcquireVideoStreamingService(::System::UInt32 nDeviceIndex, ::System::UInt64& pHandle)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError AcquireVideoStreamingService(::System::UInt32 a1, ::System::UInt64& a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::System::UInt64&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_ACQUIREVIDEOSTREAMINGSERVICE_OFFSET))(this, nDeviceIndex, pHandle);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::System::UInt64&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_ACQUIREVIDEOSTREAMINGSERVICE_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError ReleaseVideoStreamingService(::System::UInt64 hTrackedCamera)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError ReleaseVideoStreamingService(::System::UInt64 a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_RELEASEVIDEOSTREAMINGSERVICE_OFFSET))(this, hTrackedCamera);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_RELEASEVIDEOSTREAMINGSERVICE_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetVideoStreamFrameBuffer(::System::UInt64 hTrackedCamera, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType eFrameType, ::System::IntPtr pFrameBuffer, ::System::UInt32 nFrameBufferSize, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t& pFrameHeader, ::System::UInt32 nFrameHeaderSize)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetVideoStreamFrameBuffer(::System::UInt64 a1, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType a2, ::System::IntPtr a3, ::System::UInt32 a4, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t& a5, ::System::UInt32 a6)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::System::IntPtr, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMFRAMEBUFFER_OFFSET))(this, hTrackedCamera, eFrameType, pFrameBuffer, nFrameBufferSize, pFrameHeader, nFrameHeaderSize);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::System::IntPtr, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMFRAMEBUFFER_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetVideoStreamTextureSize(::System::UInt32 nDeviceIndex, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType eFrameType, ::ZenFulcrum::VR::OpenVRBinding::VRTextureBounds_t& pTextureBounds, ::System::UInt32& pnWidth, ::System::UInt32& pnHeight)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetVideoStreamTextureSize(::System::UInt32 a1, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType a2, ::ZenFulcrum::VR::OpenVRBinding::VRTextureBounds_t& a3, ::System::UInt32& a4, ::System::UInt32& a5)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::ZenFulcrum::VR::OpenVRBinding::VRTextureBounds_t&, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTURESIZE_OFFSET))(this, nDeviceIndex, eFrameType, pTextureBounds, pnWidth, pnHeight);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::ZenFulcrum::VR::OpenVRBinding::VRTextureBounds_t&, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTURESIZE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetVideoStreamTextureD3D11(::System::UInt64 hTrackedCamera, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType eFrameType, ::System::IntPtr pD3D11DeviceOrResource, ::System::IntPtr& ppD3D11ShaderResourceView, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t& pFrameHeader, ::System::UInt32 nFrameHeaderSize)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetVideoStreamTextureD3D11(::System::UInt64 a1, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType a2, ::System::IntPtr a3, ::System::IntPtr& a4, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t& a5, ::System::UInt32 a6)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::System::IntPtr, ::System::IntPtr&, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTURED3D11_OFFSET))(this, hTrackedCamera, eFrameType, pD3D11DeviceOrResource, ppD3D11ShaderResourceView, pFrameHeader, nFrameHeaderSize);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::System::IntPtr, ::System::IntPtr&, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTURED3D11_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetVideoStreamTextureGL(::System::UInt64 hTrackedCamera, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType eFrameType, ::System::UInt32& pglTextureId, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t& pFrameHeader, ::System::UInt32 nFrameHeaderSize)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError GetVideoStreamTextureGL(::System::UInt64 a1, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType a2, ::System::UInt32& a3, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t& a4, ::System::UInt32 a5)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::System::UInt32&, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTUREGL_OFFSET))(this, hTrackedCamera, eFrameType, pglTextureId, pFrameHeader, nFrameHeaderSize);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraFrameType, ::System::UInt32&, ::ZenFulcrum::VR::OpenVRBinding::CameraVideoStreamFrameHeader_t&, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_GETVIDEOSTREAMTEXTUREGL_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError ReleaseVideoStreamTextureGL(::System::UInt64 hTrackedCamera, ::System::UInt32 glTextureId)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError ReleaseVideoStreamTextureGL(::System::UInt64 a1, ::System::UInt32 a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_RELEASEVIDEOSTREAMTEXTUREGL_OFFSET))(this, hTrackedCamera, glTextureId);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRTRACKEDCAMERA_RELEASEVIDEOSTREAMTEXTUREGL_OFFSET))(this, a1, a2);
 		}
 	};
 }

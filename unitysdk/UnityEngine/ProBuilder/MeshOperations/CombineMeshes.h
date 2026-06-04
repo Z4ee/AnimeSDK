@@ -13,48 +13,48 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class SharedVertex; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_ACCUMULATEMESHESINFO_OFFSET UNITYSDK_OFFSET(0x1A26B4B0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINETONEWMESHES_OFFSET UNITYSDK_OFFSET(0x1A26A080)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_1_OFFSET UNITYSDK_OFFSET(0x1A26A570)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_OFFSET UNITYSDK_OFFSET(0x1A26A070)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_CREATEMESHFROMSPLIT_OFFSET UNITYSDK_OFFSET(0x1A26E9B0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_SPLITBYMAXVERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1A26CDD0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_ACCUMULATEMESHESINFO_OFFSET UNITYSDK_OFFSET(0x1B0CF770)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINETONEWMESHES_OFFSET UNITYSDK_OFFSET(0x1B0CE360)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_1_OFFSET UNITYSDK_OFFSET(0x1B0CE7D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_OFFSET UNITYSDK_OFFSET(0x1B0CE350)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_CREATEMESHFROMSPLIT_OFFSET UNITYSDK_OFFSET(0x1B0D2A20)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_SPLITBYMAXVERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1B0D0E10)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int CombineMeshes_TypeDefinitionIndex = 40037;
+	inline static constexpr unsigned int CombineMeshes_TypeDefinitionIndex = 40864;
 
 	class CombineMeshes : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* Combine(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* Combine(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_OFFSET))(meshes);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* Combine_1(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes, ::UnityEngine::ProBuilder::ProBuilderMesh* meshTarget)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* Combine_1(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a1, ::UnityEngine::ProBuilder::ProBuilderMesh* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_1_OFFSET))(meshes, meshTarget);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* CombineToNewMeshes(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* CombineToNewMeshes(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINETONEWMESHES_OFFSET))(meshes);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINETONEWMESHES_OFFSET))(a1);
 		}
 
-		static ::System::Void AccumulateMeshesInfo(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes, ::System::Int32 offset, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*& vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*& faces, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*& autoUvFaces, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*& sharedVertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*& sharedTextures, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*& materialMap, ::UnityEngine::Transform* targetTransform)
+		static ::System::Void AccumulateMeshesInfo(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*& a3, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*& a4, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*& a5, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*& a6, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*& a7, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*& a8, ::UnityEngine::Transform* a9)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*&, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*&, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_ACCUMULATEMESHESINFO_OFFSET))(meshes, offset, vertices, faces, autoUvFaces, sharedVertices, sharedTextures, materialMap, targetTransform);
+			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*&, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*&, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_ACCUMULATEMESHESINFO_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshFromSplit(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* sharedTextureLookup, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* remap, ::Il2CppArray<::UnityEngine::Material*>* materials)
+		static ::UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshFromSplit(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* a2, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a4, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a5, ::Il2CppArray<::UnityEngine::Material*>* a6)
 		{
-			return ((::UnityEngine::ProBuilder::ProBuilderMesh*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*, ::Il2CppArray<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_CREATEMESHFROMSPLIT_OFFSET))(vertices, faces, sharedVertexLookup, sharedTextureLookup, remap, materials);
+			return ((::UnityEngine::ProBuilder::ProBuilderMesh*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*, ::Il2CppArray<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_CREATEMESHFROMSPLIT_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* SplitByMaxVertexCount(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedTextures, ::System::UInt32 maxVertexCount)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* SplitByMaxVertexCount(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* a2, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* a3, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* a4, ::System::UInt32 a5)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_SPLITBYMAXVERTEXCOUNT_OFFSET))(vertices, faces, sharedVertices, sharedTextures, maxVertexCount);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_SPLITBYMAXVERTEXCOUNT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

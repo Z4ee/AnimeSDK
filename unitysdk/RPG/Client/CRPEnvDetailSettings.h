@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/CustomRP/ShaderQuality.h"
 #include "unitysdk/RPG/GameCore/GraphicQuality.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/DeformationQuality.h"
 
 namespace RPG::Client { class CRPNPCSettings; }
 namespace RPG::Client { class CRPVolumetricFogSettings; }
@@ -12,11 +13,11 @@ namespace RPG::Client { class StreamingFeature; }
 namespace RPG::CustomRP { class ScreenColorCopySettingsData; }
 namespace RPG::CustomRP { class WaterSettingsData; }
 
-#define RPG_CLIENT_CRPENVDETAILSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x9EB9C70)
+#define RPG_CLIENT_CRPENVDETAILSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xB456210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPEnvDetailSettings_TypeDefinitionIndex = 62620;
+	inline static constexpr unsigned int CRPEnvDetailSettings_TypeDefinitionIndex = 63553;
 
 	class CRPEnvDetailSettings : public ::System::Object
 	{
@@ -48,6 +49,7 @@ namespace RPG::Client
 		::RPG::Client::CRPVolumetricFogSettings* FogSettings; // 0x88
 		::System::Boolean EnableRenderPassSplitInMaliVulkanFollowQuality; // 0x90
 		::System::Boolean NeedSceneTransparentRefraction; // 0x91
+		::UnityEngine::DeformationQuality DeformQuality; // 0x94
 
 		::System::Void _ctor()
 		{

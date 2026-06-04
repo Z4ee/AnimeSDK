@@ -6,27 +6,27 @@
 namespace MiHoYo::SDK { class ProtocolManager; }
 namespace MiHoYo::SDK { class Web; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17627A90)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS50_0__OPENPROTOCOLWEBVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1762B9B0)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184066D0)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS50_0__OPENPROTOCOLWEBVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1840A240)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager___c__DisplayClass50_0_TypeDefinitionIndex = 7094;
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass50_0_TypeDefinitionIndex = 7997;
 
 	class ProtocolManager___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Web* webView; // 0x10
-		::MiHoYo::SDK::ProtocolManager* __4__this; // 0x18
+		::MiHoYo::SDK::ProtocolManager* __4__this; // 0x10
+		::MiHoYo::SDK::Web* webView; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS50_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OpenProtocolWebView_b__0(::MiHoYo::SDK::Web* web, ::MiHoYo::SDK::UniWebViewMessage message)
+		::System::Void _OpenProtocolWebView_b__0(::MiHoYo::SDK::Web* a1, ::MiHoYo::SDK::UniWebViewMessage a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Web*, ::MiHoYo::SDK::UniWebViewMessage))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS50_0__OPENPROTOCOLWEBVIEW_B__0_OFFSET))(this, web, message);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Web*, ::MiHoYo::SDK::UniWebViewMessage))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS50_0__OPENPROTOCOLWEBVIEW_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

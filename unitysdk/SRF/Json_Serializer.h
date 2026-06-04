@@ -7,17 +7,17 @@ namespace System::Collections { class IDictionary; }
 namespace System::Collections { class IList; }
 namespace System::Text { class StringBuilder; }
 
-#define SRF_JSON_SERIALIZER_SERIALIZEARRAY_OFFSET UNITYSDK_OFFSET(0x19EA4E60)
-#define SRF_JSON_SERIALIZER_SERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x19EA51A0)
-#define SRF_JSON_SERIALIZER_SERIALIZEOTHER_OFFSET UNITYSDK_OFFSET(0x19EA5660)
-#define SRF_JSON_SERIALIZER_SERIALIZESTRING_OFFSET UNITYSDK_OFFSET(0x19EA4B60)
-#define SRF_JSON_SERIALIZER_SERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x19EA4A50)
-#define SRF_JSON_SERIALIZER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x19EA3860)
-#define SRF_JSON_SERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA49D0)
+#define SRF_JSON_SERIALIZER_SERIALIZEARRAY_OFFSET UNITYSDK_OFFSET(0x1AD1AC10)
+#define SRF_JSON_SERIALIZER_SERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1AD1B1D0)
+#define SRF_JSON_SERIALIZER_SERIALIZEOTHER_OFFSET UNITYSDK_OFFSET(0x1AD1BA80)
+#define SRF_JSON_SERIALIZER_SERIALIZESTRING_OFFSET UNITYSDK_OFFSET(0x1AD1A7B0)
+#define SRF_JSON_SERIALIZER_SERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x1AD1A690)
+#define SRF_JSON_SERIALIZER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1AD19150)
+#define SRF_JSON_SERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1A610)
 
 namespace SRF
 {
-	inline static constexpr unsigned int Json_Serializer_TypeDefinitionIndex = 33269;
+	inline static constexpr unsigned int Json_Serializer_TypeDefinitionIndex = 33551;
 
 	class Json_Serializer : public ::System::Object
 	{
@@ -29,34 +29,34 @@ namespace SRF
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::String* Serialize(::System::Object* obj)
+		static ::System::String* Serialize(::System::Object* a1)
 		{
-			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZE_OFFSET))(obj);
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZE_OFFSET))(a1);
 		}
 
-		::System::Void SerializeValue(::System::Object* value)
+		::System::Void SerializeValue(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZEVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZEVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void SerializeObject(::System::Collections::IDictionary* obj)
+		::System::Void SerializeObject(::System::Collections::IDictionary* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::IDictionary*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZEOBJECT_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::IDictionary*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZEOBJECT_OFFSET))(this, a1);
 		}
 
-		::System::Void SerializeArray(::System::Collections::IList* anArray)
+		::System::Void SerializeArray(::System::Collections::IList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::IList*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZEARRAY_OFFSET))(this, anArray);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::IList*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZEARRAY_OFFSET))(this, a1);
 		}
 
-		::System::Void SerializeString(::System::String* str)
+		::System::Void SerializeString(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZESTRING_OFFSET))(this, str);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZESTRING_OFFSET))(this, a1);
 		}
 
-		::System::Void SerializeOther(::System::Object* value)
+		::System::Void SerializeOther(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZEOTHER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZER_SERIALIZEOTHER_OFFSET))(this, a1);
 		}
 	};
 }

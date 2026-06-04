@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CINEMACHINE_CINEMACHINESMOOTHPATH_WAYPOINT_FROMVECTOR4_OFFSET UNITYSDK_OFFSET(0x12B98490)
-#define CINEMACHINE_CINEMACHINESMOOTHPATH_WAYPOINT_GET_ASVECTOR4_OFFSET UNITYSDK_OFFSET(0x7AEA80)
+#define CINEMACHINE_CINEMACHINESMOOTHPATH_WAYPOINT_FROMVECTOR4_OFFSET UNITYSDK_OFFSET(0x146563E0)
+#define CINEMACHINE_CINEMACHINESMOOTHPATH_WAYPOINT_GET_ASVECTOR4_OFFSET UNITYSDK_OFFSET(0x2BC6740)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineSmoothPath_Waypoint_TypeDefinitionIndex = 36511;
+	inline static constexpr unsigned int CinemachineSmoothPath_Waypoint_TypeDefinitionIndex = 36811;
 
 	struct alignas(4) CinemachineSmoothPath_Waypoint
 	{
@@ -23,9 +23,9 @@ namespace Cinemachine
 		*/
 
 		/*
-		static ::Cinemachine::CinemachineSmoothPath_Waypoint FromVector4(::UnityEngine::Vector4 v)
+		static ::Cinemachine::CinemachineSmoothPath_Waypoint FromVector4(::UnityEngine::Vector4 a1)
 		{
-			return ((::Cinemachine::CinemachineSmoothPath_Waypoint(*)(::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESMOOTHPATH_WAYPOINT_FROMVECTOR4_OFFSET))(v);
+			return ((::Cinemachine::CinemachineSmoothPath_Waypoint(*)(::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESMOOTHPATH_WAYPOINT_FROMVECTOR4_OFFSET))(a1);
 		}
 		*/
 	};

@@ -9,40 +9,40 @@ namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BASEGACHAGROUPDATA_ADDGACHAPOOLDATA_OFFSET UNITYSDK_OFFSET(0x9DD1710)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_GACHAGROUPCOMPARISON_OFFSET UNITYSDK_OFFSET(0x9DD14D0)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_GETSORTEDGACHAPOOLDATA_OFFSET UNITYSDK_OFFSET(0x9DD1830)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x9DD1CA0)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_GET_GROUPTYPE_OFFSET UNITYSDK_OFFSET(0x9DD1CC0)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_GET_POOLLABELICONSELECTED_OFFSET UNITYSDK_OFFSET(0x9DD1D70)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_GET_POOLLABELICON_OFFSET UNITYSDK_OFFSET(0x9DD1D10)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_GET_SORTID_OFFSET UNITYSDK_OFFSET(0x9DD1690)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_HASGACHAPOOL_OFFSET UNITYSDK_OFFSET(0x9DD1BC0)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_ISFEATURECLOSED_OFFSET UNITYSDK_OFFSET(0x9DD1A90)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x9DD1960)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x9DD1CB0)
-#define RPG_CLIENT_BASEGACHAGROUPDATA_SORT_OFFSET UNITYSDK_OFFSET(0x9DD1580)
-#define RPG_CLIENT_BASEGACHAGROUPDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DD1DD0)
-#define RPG_CLIENT_BASEGACHAGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9DD1470)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_ADDGACHAPOOLDATA_OFFSET UNITYSDK_OFFSET(0xB3AA690)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_GACHAGROUPCOMPARISON_OFFSET UNITYSDK_OFFSET(0xB3AA460)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_GETSORTEDGACHAPOOLDATA_OFFSET UNITYSDK_OFFSET(0xB3AA840)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0xB3AACD0)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_GET_GROUPTYPE_OFFSET UNITYSDK_OFFSET(0xB3AACF0)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_GET_POOLLABELICONSELECTED_OFFSET UNITYSDK_OFFSET(0xB3AADA0)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_GET_POOLLABELICON_OFFSET UNITYSDK_OFFSET(0xB3AAD40)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_GET_SORTID_OFFSET UNITYSDK_OFFSET(0xB3AA600)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_HASGACHAPOOL_OFFSET UNITYSDK_OFFSET(0xB3AABE0)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_ISFEATURECLOSED_OFFSET UNITYSDK_OFFSET(0xB3AAA90)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0xB3AA940)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0xB3AACE0)
+#define RPG_CLIENT_BASEGACHAGROUPDATA_SORT_OFFSET UNITYSDK_OFFSET(0xB3AA510)
+#define RPG_CLIENT_BASEGACHAGROUPDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xB3AAE00)
+#define RPG_CLIENT_BASEGACHAGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB3AA400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseGachaGroupData_TypeDefinitionIndex = 59166;
+	inline static constexpr unsigned int BaseGachaGroupData_TypeDefinitionIndex = 60100;
 
 	class BaseGachaGroupData : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::BaseGachaPoolData*>** StaticGet_GachaPoolDataComparison()
 		{
-			return (::System::Comparison_1<::RPG::Client::BaseGachaPoolData*>**)Il2CppClass::FromTypeDefinitionIndex(BaseGachaGroupData_TypeDefinitionIndex)->GetStaticField(0x3C740);
+			return (::System::Comparison_1<::RPG::Client::BaseGachaPoolData*>**)Il2CppClass::FromTypeDefinitionIndex(BaseGachaGroupData_TypeDefinitionIndex)->GetStaticField(0x64490);
 		}
-		::System::Collections::Generic::List_1<::RPG::Client::BaseGachaPoolData*>* _GachaPoolDataList; // 0x10
-		::RPG::GameCore::GachaGroupDataRow* _GachaGroupDataRow; // 0x18
+		::RPG::GameCore::GachaGroupDataRow* _GachaGroupDataRow; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::BaseGachaPoolData*>* _GachaPoolDataList; // 0x18
 		::System::UInt32 _GroupID_k__BackingField; // 0x20
 
-		::System::Void _ctor(::System::UInt32 groupID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA__CTOR_OFFSET))(this, groupID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -50,14 +50,14 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA__CCTOR_OFFSET))();
 		}
 
-		static ::System::Int32 GachaGroupComparison(::RPG::Client::BaseGachaGroupData* lhs, ::RPG::Client::BaseGachaGroupData* rhs)
+		static ::System::Int32 GachaGroupComparison(::RPG::Client::BaseGachaGroupData* a1, ::RPG::Client::BaseGachaGroupData* a2)
 		{
-			return ((::System::Int32(*)(::RPG::Client::BaseGachaGroupData*, ::RPG::Client::BaseGachaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA_GACHAGROUPCOMPARISON_OFFSET))(lhs, rhs);
+			return ((::System::Int32(*)(::RPG::Client::BaseGachaGroupData*, ::RPG::Client::BaseGachaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA_GACHAGROUPCOMPARISON_OFFSET))(a1, a2);
 		}
 
-		::System::Void AddGachaPoolData(::RPG::Client::BaseGachaPoolData* baseGachaPoolData)
+		::System::Void AddGachaPoolData(::RPG::Client::BaseGachaPoolData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseGachaPoolData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA_ADDGACHAPOOLDATA_OFFSET))(this, baseGachaPoolData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseGachaPoolData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA_ADDGACHAPOOLDATA_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::BaseGachaPoolData*>* GetSortedGachaPoolData()
@@ -80,9 +80,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA_ISFEATURECLOSED_OFFSET))(this);
 		}
 
-		::System::Boolean HasGachaPool(::System::UInt32 gachaID)
+		::System::Boolean HasGachaPool(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA_HASGACHAPOOL_OFFSET))(this, gachaID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA_HASGACHAPOOL_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_SortID()
@@ -95,9 +95,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA_GET_GROUPID_OFFSET))(this);
 		}
 
-		::System::Void set_GroupID(::System::UInt32 value)
+		::System::Void set_GroupID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA_SET_GROUPID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEGACHAGROUPDATA_SET_GROUPID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GachaGroupType get_GroupType()

@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TALKBACKGROUNDCG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ECE5D0)
-#define RPG_GAMECORE_TALKBACKGROUNDCG__CTOR_OFFSET UNITYSDK_OFFSET(0x18ECE8D0)
+#define RPG_GAMECORE_TALKBACKGROUNDCG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CEDD30)
+#define RPG_GAMECORE_TALKBACKGROUNDCG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CEE030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkBackgroundCG_TypeDefinitionIndex = 23408;
+	inline static constexpr unsigned int TalkBackgroundCG_TypeDefinitionIndex = 23062;
 
 	class TalkBackgroundCG : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKBACKGROUNDCG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TalkBackgroundCG*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TalkBackgroundCG*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TalkBackgroundCG*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKBACKGROUNDCG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TalkBackgroundCG*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKBACKGROUNDCG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

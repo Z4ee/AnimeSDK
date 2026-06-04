@@ -9,31 +9,31 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D18B60)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_0__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x8D18CF0)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_0__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__1_OFFSET UNITYSDK_OFFSET(0x8D190D0)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA170F00)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_0__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xA171090)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_0__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__1_OFFSET UNITYSDK_OFFSET(0xA172110)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkInterface___c__DisplayClass12_0_TypeDefinitionIndex = 42715;
+	inline static constexpr unsigned int HoYoSDKNetworkInterface___c__DisplayClass12_0_TypeDefinitionIndex = 43518;
 
 	class HoYoSDKNetworkInterface___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::String* strUrl; // 0x10
-		::System::String* strExtraOptions; // 0x18
-		::System::Action* timeoutExternalCallback; // 0x20
-		::Il2CppArray<::System::Byte>* arraBody; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* dicHeaders; // 0x30
-		::System::String* strMethod; // 0x38
-		::MiHoYo::SDK::HoYoSDKNetworkInterface* __4__this; // 0x40
-		::System::Action* __9__1; // 0x48
-		::System::Action_1<::System::String*>* completeCallback; // 0x50
-		::MiHoYo::SDK::HoYoSDKNetworkInterface_CustomHttpRequestHandler* customHttpRequestHander; // 0x58
-		::System::Int32 nRecvTimeout; // 0x60
-		::System::Boolean bIsSkipBox; // 0x64
-		::System::Int32 nConnectTimeout; // 0x68
-		::System::Int32 nPort; // 0x6C
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* dicHeaders; // 0x10
+		::System::Action* timeoutExternalCallback; // 0x18
+		::System::String* strMethod; // 0x20
+		::MiHoYo::SDK::HoYoSDKNetworkInterface* __4__this; // 0x28
+		::System::String* strUrl; // 0x30
+		::System::String* strExtraOptions; // 0x38
+		::MiHoYo::SDK::HoYoSDKNetworkInterface_CustomHttpRequestHandler* customHttpRequestHander; // 0x40
+		::Il2CppArray<::System::Byte>* arraBody; // 0x48
+		::System::Action* __9__1; // 0x50
+		::System::Action_1<::System::String*>* completeCallback; // 0x58
+		::System::Boolean bIsSkipBox; // 0x60
+		::System::Int32 nRecvTimeout; // 0x64
+		::System::Int32 nPort; // 0x68
+		::System::Int32 nConnectTimeout; // 0x6C
 
 		::System::Void _ctor()
 		{

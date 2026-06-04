@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYPOSITION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA211140)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xA211230)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYPOSITION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB8951C0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xB8952B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyPosition_TypeDefinitionIndex = 65065;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyPosition_TypeDefinitionIndex = 65991;
 
 	class Effect_TransformToMaterialBehavior_TransformPropertyPosition : public ::RPG::Client::Effect_TransformToMaterialBehavior_TransformProperty
 	{

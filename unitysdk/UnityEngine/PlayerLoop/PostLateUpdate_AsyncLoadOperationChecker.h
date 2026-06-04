@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_AsyncLoadOperationChecker_TypeDefinitionIndex = 4479;
+	inline static constexpr unsigned int PostLateUpdate_AsyncLoadOperationChecker_TypeDefinitionIndex = 4653;
 
 	struct alignas(1) PostLateUpdate_AsyncLoadOperationChecker
 	{

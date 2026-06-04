@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DYNAMICTRAILMODULE_CLASS_1_7EE1B066A3FF5E80_METHOD_1_5F5CB296827BD99A_OFFSET UNITYSDK_OFFSET(0xA1AAAE0)
-#define RPG_CLIENT_DYNAMICTRAILMODULE_CLASS_1_7EE1B066A3FF5E80_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xA1AAC90)
-#define RPG_CLIENT_DYNAMICTRAILMODULE_CLASS_1_7EE1B066A3FF5E80__CTOR_OFFSET UNITYSDK_OFFSET(0xA1AACF0)
+#define RPG_CLIENT_DYNAMICTRAILMODULE_CLASS_1_7EE1B066A3FF5E80_METHOD_1_5F5CB296827BD99A_OFFSET UNITYSDK_OFFSET(0xB82C350)
+#define RPG_CLIENT_DYNAMICTRAILMODULE_CLASS_1_7EE1B066A3FF5E80_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB82C500)
+#define RPG_CLIENT_DYNAMICTRAILMODULE_CLASS_1_7EE1B066A3FF5E80__CTOR_OFFSET UNITYSDK_OFFSET(0xB82C340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DynamicTrailModule_Class_1_7EE1B066A3FF5E80_TypeDefinitionIndex = 64943;
+	inline static constexpr unsigned int DynamicTrailModule_Class_1_7EE1B066A3FF5E80_TypeDefinitionIndex = 65869;
 
 	class DynamicTrailModule_Class_1_7EE1B066A3FF5E80 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* Field_1_3; // 0x10
-		::Il2CppArray<::System::Single>* Field_1_8; // 0x18
-		::Il2CppArray<::System::Single>* Field_1_7; // 0x20
-		::Il2CppArray<::System::Single>* Field_1_5; // 0x28
-		::Il2CppArray<::System::Single>* Field_1_0; // 0x30
-		::Il2CppArray<::System::Single>* Field_1_4; // 0x38
+		::Il2CppArray<::System::Single>* Field_1_0; // 0x10
+		::Il2CppArray<::System::Single>* Field_1_1; // 0x18
+		::Il2CppArray<::System::Single>* Field_1_2; // 0x20
+		::Il2CppArray<::System::Single>* Field_1_3; // 0x28
+		::Il2CppArray<::System::Single>* Field_1_4; // 0x30
+		::Il2CppArray<::System::Single>* Field_1_5; // 0x38
 		::Il2CppArray<::System::Single>* Field_1_6; // 0x40
-		::Il2CppArray<::System::Single>* Field_1_9; // 0x48
-		::Il2CppArray<::System::Single>* Field_1_1; // 0x50
-		::Il2CppArray<::System::Single>* Field_1_2; // 0x58
+		::Il2CppArray<::System::Single>* Field_1_7; // 0x48
+		::Il2CppArray<::System::Single>* Field_1_8; // 0x50
+		::Il2CppArray<::System::Single>* Field_1_9; // 0x58
 
 		::System::Void _ctor()
 		{

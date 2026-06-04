@@ -3,7 +3,7 @@
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int AsyncCausalityStatus_TypeDefinitionIndex = 882;
+	inline static constexpr unsigned int AsyncCausalityStatus_TypeDefinitionIndex = 881;
 
 	enum class AsyncCausalityStatus : ::System::Int32
 	{

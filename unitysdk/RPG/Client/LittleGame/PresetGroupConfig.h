@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_PRESETGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17EF88C0)
+#define RPG_CLIENT_LITTLEGAME_PRESETGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CDCC00)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int PresetGroupConfig_TypeDefinitionIndex = 38586;
+	inline static constexpr unsigned int PresetGroupConfig_TypeDefinitionIndex = 39353;
 
 	class PresetGroupConfig : public ::System::Object
 	{

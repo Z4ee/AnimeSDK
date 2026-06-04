@@ -5,13 +5,13 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_LIMB_TRIGONOMETRICBONE_GETBENDNORMALFROMCURRENTROTATION_OFFSET UNITYSDK_OFFSET(0x2A950)
-#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_LIMB_TRIGONOMETRICBONE_GETROTATION_OFFSET UNITYSDK_OFFSET(0x2A850)
-#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_LIMB_TRIGONOMETRICBONE_INITIATE_OFFSET UNITYSDK_OFFSET(0x2A810)
+#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_LIMB_TRIGONOMETRICBONE_GETBENDNORMALFROMCURRENTROTATION_OFFSET UNITYSDK_OFFSET(0x2DAF0)
+#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_LIMB_TRIGONOMETRICBONE_GETROTATION_OFFSET UNITYSDK_OFFSET(0x2D9F0)
+#define ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_LIMB_TRIGONOMETRICBONE_INITIATE_OFFSET UNITYSDK_OFFSET(0x2D9B0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GrounderIKThreadSolver_Limb_TrigonometricBone_TypeDefinitionIndex = 41013;
+	inline static constexpr unsigned int GrounderIKThreadSolver_Limb_TrigonometricBone_TypeDefinitionIndex = 41816;
 
 	struct alignas(8) GrounderIKThreadSolver_Limb_TrigonometricBone
 	{
@@ -20,14 +20,14 @@ namespace RootMotion::FinalIK
 		::UnityEngine::Quaternion targetToLocalSpace; // 0x24
 		::UnityEngine::Vector3 defaultLocalBendNormal; // 0x34
 
-		::System::Void Initiate(::UnityEngine::Vector3 childPosition, ::UnityEngine::Vector3 bendNormal)
+		::System::Void Initiate(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_LIMB_TRIGONOMETRICBONE_INITIATE_OFFSET))(this, childPosition, bendNormal);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_LIMB_TRIGONOMETRICBONE_INITIATE_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Quaternion GetRotation(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 bendNormal)
+		::UnityEngine::Quaternion GetRotation(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_LIMB_TRIGONOMETRICBONE_GETROTATION_OFFSET))(this, direction, bendNormal);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_GROUNDERIKTHREADSOLVER_LIMB_TRIGONOMETRICBONE_GETROTATION_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector3 GetBendNormalFromCurrentRotation()

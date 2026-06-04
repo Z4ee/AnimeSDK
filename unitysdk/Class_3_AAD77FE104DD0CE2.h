@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureByIsLocateAtArea; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_AAD77FE104DD0CE2_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDFE2A30)
-#define CLASS_3_AAD77FE104DD0CE2__CTOR_OFFSET UNITYSDK_OFFSET(0xDFE2A00)
+#define CLASS_3_AAD77FE104DD0CE2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1384F0C0)
+#define CLASS_3_AAD77FE104DD0CE2__CTOR_OFFSET UNITYSDK_OFFSET(0x1384F090)
 
-inline static constexpr unsigned int Class_3_AAD77FE104DD0CE2_TypeDefinitionIndex = 50244;
+inline static constexpr unsigned int Class_3_AAD77FE104DD0CE2_TypeDefinitionIndex = 50910;
 
 class Class_3_AAD77FE104DD0CE2 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdventureByIsLocateAtArea*>
 {

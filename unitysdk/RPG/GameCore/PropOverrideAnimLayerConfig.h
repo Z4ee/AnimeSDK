@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPOVERRIDEANIMLAYERCONFIG_METHOD_2_A1F8D543E28D0146_OFFSET UNITYSDK_OFFSET(0x18C71400)
-#define RPG_GAMECORE_PROPOVERRIDEANIMLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C71510)
+#define RPG_GAMECORE_PROPOVERRIDEANIMLAYERCONFIG_METHOD_2_A1F8D543E28D0146_OFFSET UNITYSDK_OFFSET(0x19A930A0)
+#define RPG_GAMECORE_PROPOVERRIDEANIMLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A931B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropOverrideAnimLayerConfig_TypeDefinitionIndex = 16683;
+	inline static constexpr unsigned int PropOverrideAnimLayerConfig_TypeDefinitionIndex = 16709;
 
 	class PropOverrideAnimLayerConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,13 +3,13 @@
 #include "unitysdk/Epic/OnlineServices/UI/NotificationLocation.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_UI_SETDISPLAYPREFERENCEOPTIONS_GET_NOTIFICATIONLOCATION_OFFSET UNITYSDK_OFFSET(0x8BF5920)
-#define EPIC_ONLINESERVICES_UI_SETDISPLAYPREFERENCEOPTIONS_SET_NOTIFICATIONLOCATION_OFFSET UNITYSDK_OFFSET(0x8BF5930)
-#define EPIC_ONLINESERVICES_UI_SETDISPLAYPREFERENCEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BF5940)
+#define EPIC_ONLINESERVICES_UI_SETDISPLAYPREFERENCEOPTIONS_GET_NOTIFICATIONLOCATION_OFFSET UNITYSDK_OFFSET(0xA102D90)
+#define EPIC_ONLINESERVICES_UI_SETDISPLAYPREFERENCEOPTIONS_SET_NOTIFICATIONLOCATION_OFFSET UNITYSDK_OFFSET(0xA102DA0)
+#define EPIC_ONLINESERVICES_UI_SETDISPLAYPREFERENCEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA102DB0)
 
 namespace Epic::OnlineServices::UI
 {
-	inline static constexpr unsigned int SetDisplayPreferenceOptions_TypeDefinitionIndex = 41151;
+	inline static constexpr unsigned int SetDisplayPreferenceOptions_TypeDefinitionIndex = 41954;
 
 	class SetDisplayPreferenceOptions : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace Epic::OnlineServices::UI
 			return ((::Epic::OnlineServices::UI::NotificationLocation(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_SETDISPLAYPREFERENCEOPTIONS_GET_NOTIFICATIONLOCATION_OFFSET))(this);
 		}
 
-		::System::Void set_NotificationLocation(::Epic::OnlineServices::UI::NotificationLocation value)
+		::System::Void set_NotificationLocation(::Epic::OnlineServices::UI::NotificationLocation a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UI::NotificationLocation))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_SETDISPLAYPREFERENCEOPTIONS_SET_NOTIFICATIONLOCATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::UI::NotificationLocation))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_SETDISPLAYPREFERENCEOPTIONS_SET_NOTIFICATIONLOCATION_OFFSET))(this, a1);
 		}
 	};
 }

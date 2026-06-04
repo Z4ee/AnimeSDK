@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::Win { class ComboManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS46_0__BEFOREVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0x176F8970)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176F8960)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS46_0__BEFOREVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0x184B61D0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184B61C0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass46_0_TypeDefinitionIndex = 8182;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass46_0_TypeDefinitionIndex = 9085;
 
 	class ComboManager___c__DisplayClass46_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _BeforeVerify_b__0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _BeforeVerify_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS46_0__BEFOREVERIFY_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS46_0__BEFOREVERIFY_B__0_OFFSET))(this, a1);
 		}
 	};
 }

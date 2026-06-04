@@ -1,12 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_43BD383C98B4C0C5_163_POINTERPOSITION_OFFSET UNITYSDK_OFFSET(0x117A0030)
-#define CLASS_1_43BD383C98B4C0C5_163__CTOR_OFFSET UNITYSDK_OFFSET(0x117A00C0)
+#define CLASS_1_43BD383C98B4C0C5_163_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x134DEA90)
+#define CLASS_1_43BD383C98B4C0C5_163_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x134DEAD0)
+#define CLASS_1_43BD383C98B4C0C5_163_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x134DEA50)
+#define CLASS_1_43BD383C98B4C0C5_163__CTOR_OFFSET UNITYSDK_OFFSET(0x134DEB10)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_163_TypeDefinitionIndex = 67203;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_163_TypeDefinitionIndex = 66529;
 
 class Class_1_43BD383C98B4C0C5_163 : public ::System::Object
 {
@@ -16,8 +17,18 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_163__CTOR_OFFSET))(this);
 	}
 
-	::UnityEngine::Vector3 PointerPosition()
+	::System::Void Method_1_CA373AA1C7054598()
 	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_163_POINTERPOSITION_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_163_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_163_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_163_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
 	}
 };

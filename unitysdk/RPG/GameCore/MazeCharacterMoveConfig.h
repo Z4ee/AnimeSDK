@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_MAZECHARACTERMOVECONFIG_METHOD_2_090B4A0226475B9B_OFFSET UNITYSDK_OFFSET(0x18ACDBA0)
-#define RPG_GAMECORE_MAZECHARACTERMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18ACDCE0)
+#define RPG_GAMECORE_MAZECHARACTERMOVECONFIG_METHOD_2_EF65A3EAFDF27FD1_OFFSET UNITYSDK_OFFSET(0x198FDCB0)
+#define RPG_GAMECORE_MAZECHARACTERMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198FDDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeCharacterMoveConfig_TypeDefinitionIndex = 16735;
+	inline static constexpr unsigned int MazeCharacterMoveConfig_TypeDefinitionIndex = 16756;
 
 	class MazeCharacterMoveConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZECHARACTERMOVECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_090B4A0226475B9B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MazeCharacterMoveConfig*& a2)
+		static ::System::Void Method_2_EF65A3EAFDF27FD1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MazeCharacterMoveConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazeCharacterMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZECHARACTERMOVECONFIG_METHOD_2_090B4A0226475B9B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazeCharacterMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZECHARACTERMOVECONFIG_METHOD_2_EF65A3EAFDF27FD1_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,15 +4,15 @@
 
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F0AD80)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8F0ADA0)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F0AD90)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8F0ADB0)
-#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8F0ADC0)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA333DD0)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA333DF0)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA333DE0)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA333E00)
+#define EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA333E10)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int QueryPresenceOptions_TypeDefinitionIndex = 41618;
+	inline static constexpr unsigned int QueryPresenceOptions_TypeDefinitionIndex = 42421;
 
 	class QueryPresenceOptions : public ::System::Object
 	{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::EpicAccountId* get_TargetUserId()
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_QUERYPRESENCEOPTIONS_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 	};
 }

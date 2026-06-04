@@ -4,22 +4,22 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22A7300)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x22A7240)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22A72D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_CHANNEL_OFFSET UNITYSDK_OFFSET(0x22A7210)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_EVENTID_OFFSET UNITYSDK_OFFSET(0x164FB40)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_KEYWORDS_OFFSET UNITYSDK_OFFSET(0x5AF0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xE21D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_OPCODE_OFFSET UNITYSDK_OFFSET(0x22A7220)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_TASK_OFFSET UNITYSDK_OFFSET(0x22A7230)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x22A7200)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x22A71F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x22A71D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3837410)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x3837350)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x38373E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_CHANNEL_OFFSET UNITYSDK_OFFSET(0x3837320)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_EVENTID_OFFSET UNITYSDK_OFFSET(0x2C6FDA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_KEYWORDS_OFFSET UNITYSDK_OFFSET(0x60D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x147C60)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_OPCODE_OFFSET UNITYSDK_OFFSET(0x3837330)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_TASK_OFFSET UNITYSDK_OFFSET(0x3837340)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x3837310)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3837300)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x38372E0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventDescriptor_TypeDefinitionIndex = 1670;
+	inline static constexpr unsigned int EventDescriptor_TypeDefinitionIndex = 1668;
 
 	struct alignas(8) EventDescriptor
 	{
@@ -32,14 +32,14 @@ namespace System::Diagnostics::Tracing
 		::System::UInt16 m_task; // 0x16
 		::System::Int64 m_keywords; // 0x18
 
-		::System::Void _ctor(::System::Int32 traceloggingId, ::System::Byte level, ::System::Byte opcode, ::System::Int64 keywords)
+		::System::Void _ctor(::System::Int32 a1, ::System::Byte a2, ::System::Byte a3, ::System::Int64 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Byte, ::System::Byte, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR__CTOR_OFFSET))(this, traceloggingId, level, opcode, keywords);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Byte, ::System::Byte, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_1(::System::Int32 id, ::System::Byte version, ::System::Byte channel, ::System::Byte level, ::System::Byte opcode, ::System::Int32 task, ::System::Int64 keywords)
+		::System::Void _ctor_1(::System::Int32 a1, ::System::Byte a2, ::System::Byte a3, ::System::Byte a4, ::System::Byte a5, ::System::Int32 a6, ::System::Int64 a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR__CTOR_1_OFFSET))(this, id, version, channel, level, opcode, task, keywords);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Int32 get_EventId()
@@ -77,9 +77,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GET_KEYWORDS_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -87,9 +87,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals_1(::System::Diagnostics::Tracing::EventDescriptor other)
+		::System::Boolean Equals_1(::System::Diagnostics::Tracing::EventDescriptor a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Diagnostics::Tracing::EventDescriptor))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Diagnostics::Tracing::EventDescriptor))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTDESCRIPTOR_EQUALS_1_OFFSET))(this, a1);
 		}
 	};
 }

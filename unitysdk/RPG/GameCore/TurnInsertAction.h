@@ -15,13 +15,13 @@ namespace RPG::GameCore { class TurnInsertActionUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_CE08C9E45E05BD78_OFFSET UNITYSDK_OFFSET(0x190D3720)
-#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_DF10E169EE4E4A5C_OFFSET UNITYSDK_OFFSET(0x190D3820)
-#define RPG_GAMECORE_TURNINSERTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x190D3760)
+#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_8B92A1733C19D2D7_OFFSET UNITYSDK_OFFSET(0x19E24CB0)
+#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_9A8E346BF3212BB1_OFFSET UNITYSDK_OFFSET(0x19E24DB0)
+#define RPG_GAMECORE_TURNINSERTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E24CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertAction_TypeDefinitionIndex = 21548;
+	inline static constexpr unsigned int TurnInsertAction_TypeDefinitionIndex = 21422;
 
 	class TurnInsertAction : public ::RPG::GameCore::TaskConfig
 	{
@@ -64,14 +64,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CE08C9E45E05BD78(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertAction*& a2)
+		static ::System::Void Method_3_8B92A1733C19D2D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTACTION_METHOD_3_CE08C9E45E05BD78_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTACTION_METHOD_3_8B92A1733C19D2D7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DF10E169EE4E4A5C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertAction* a2)
+		static ::System::Void Method_3_9A8E346BF3212BB1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTACTION_METHOD_3_DF10E169EE4E4A5C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTACTION_METHOD_3_9A8E346BF3212BB1_OFFSET))(a1, a2);
 		}
 	};
 }

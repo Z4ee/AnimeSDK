@@ -5,24 +5,24 @@
 namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SRF_HELPERS_SRREFLECTION_GETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x19EA2FF0)
-#define SRF_HELPERS_SRREFLECTION_SETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x19EA3060)
+#define SRF_HELPERS_SRREFLECTION_GETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1AD18890)
+#define SRF_HELPERS_SRREFLECTION_SETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1AD18910)
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int SRReflection_TypeDefinitionIndex = 33342;
+	inline static constexpr unsigned int SRReflection_TypeDefinitionIndex = 33624;
 
 	class SRReflection : public ::System::Object
 	{
 	public:
-		static ::System::Void SetPropertyValue(::System::Object* obj, ::System::Reflection::PropertyInfo* p, ::System::Object* value)
+		static ::System::Void SetPropertyValue(::System::Object* a1, ::System::Reflection::PropertyInfo* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::System::Object*, ::System::Reflection::PropertyInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SRF_HELPERS_SRREFLECTION_SETPROPERTYVALUE_OFFSET))(obj, p, value);
+			return ((::System::Void(*)(::System::Object*, ::System::Reflection::PropertyInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SRF_HELPERS_SRREFLECTION_SETPROPERTYVALUE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Object* GetPropertyValue(::System::Object* obj, ::System::Reflection::PropertyInfo* p)
+		static ::System::Object* GetPropertyValue(::System::Object* a1, ::System::Reflection::PropertyInfo* a2)
 		{
-			return ((::System::Object*(*)(::System::Object*, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + SRF_HELPERS_SRREFLECTION_GETPROPERTYVALUE_OFFSET))(obj, p);
+			return ((::System::Object*(*)(::System::Object*, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + SRF_HELPERS_SRREFLECTION_GETPROPERTYVALUE_OFFSET))(a1, a2);
 		}
 	};
 }

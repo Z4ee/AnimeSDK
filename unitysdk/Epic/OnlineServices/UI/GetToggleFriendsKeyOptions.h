@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BF2930)
+#define EPIC_ONLINESERVICES_UI_GETTOGGLEFRIENDSKEYOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA101280)
 
 namespace Epic::OnlineServices::UI
 {
-	inline static constexpr unsigned int GetToggleFriendsKeyOptions_TypeDefinitionIndex = 41131;
+	inline static constexpr unsigned int GetToggleFriendsKeyOptions_TypeDefinitionIndex = 41934;
 
 	class GetToggleFriendsKeyOptions : public ::System::Object
 	{

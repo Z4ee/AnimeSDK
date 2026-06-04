@@ -5,12 +5,12 @@
 namespace RPG::Client { class ComposeItemMaterial; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_COMPOSEITEMCOST_CLEAR_OFFSET UNITYSDK_OFFSET(0xA0C3DD0)
-#define RPG_CLIENT_COMPOSEITEMCOST__CTOR_OFFSET UNITYSDK_OFFSET(0xA0C3E50)
+#define RPG_CLIENT_COMPOSEITEMCOST_CLEAR_OFFSET UNITYSDK_OFFSET(0xB702D50)
+#define RPG_CLIENT_COMPOSEITEMCOST__CTOR_OFFSET UNITYSDK_OFFSET(0xB702DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComposeItemCost_TypeDefinitionIndex = 60537;
+	inline static constexpr unsigned int ComposeItemCost_TypeDefinitionIndex = 61471;
 
 	class ComposeItemCost : public ::System::Object
 	{

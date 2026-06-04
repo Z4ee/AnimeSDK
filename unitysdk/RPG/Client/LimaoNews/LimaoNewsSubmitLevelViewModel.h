@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+
+namespace RPG::Client { class OfferingRewardData; }
+namespace RPG::Client::LimaoNews { class LimaoNewsOfferingService; }
+
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_GET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xBDAFBE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_GET_LEVELOFFERINGREWARDDATA_OFFSET UNITYSDK_OFFSET(0xBDAFB90)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_GET_PREITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xBDB0350)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_GET_PRELEVELOFFERINGREWARDDATA_OFFSET UNITYSDK_OFFSET(0xBDB0330)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_ISOFFERINGOVERFLOW_OFFSET UNITYSDK_OFFSET(0xBDB0540)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_ISPREOFFERINGLIMIT_OFFSET UNITYSDK_OFFSET(0xBDAFB20)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xBD8CCE0)
+
+namespace RPG::Client::LimaoNews
+{
+	inline static constexpr unsigned int LimaoNewsSubmitLevelViewModel_TypeDefinitionIndex = 73889;
+
+	class LimaoNewsSubmitLevelViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::RPG::Client::LimaoNews::LimaoNewsOfferingService* _OfferingService; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean IsOfferingOverFlow()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_ISOFFERINGOVERFLOW_OFFSET))(this);
+		}
+
+		::System::Boolean IsPreOfferingLimit()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_ISPREOFFERINGLIMIT_OFFSET))(this);
+		}
+
+		::RPG::Client::OfferingRewardData* get_PreLevelOfferingRewardData()
+		{
+			return ((::RPG::Client::OfferingRewardData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_GET_PRELEVELOFFERINGREWARDDATA_OFFSET))(this);
+		}
+
+		::RPG::Client::OfferingRewardData* get_LevelOfferingRewardData()
+		{
+			return ((::RPG::Client::OfferingRewardData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_GET_LEVELOFFERINGREWARDDATA_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ItemCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_GET_ITEMCOUNT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PreItemCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSUBMITLEVELVIEWMODEL_GET_PREITEMCOUNT_OFFSET))(this);
+		}
+	};
+}

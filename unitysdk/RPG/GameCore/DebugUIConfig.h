@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DEBUGUICONFIG_METHOD_2_3F9CA5EFCEA9DE8D_OFFSET UNITYSDK_OFFSET(0x18854B90)
-#define RPG_GAMECORE_DEBUGUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18854D90)
+#define RPG_GAMECORE_DEBUGUICONFIG_METHOD_2_A56C048941E5BE52_OFFSET UNITYSDK_OFFSET(0x19694090)
+#define RPG_GAMECORE_DEBUGUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19694270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DebugUIConfig_TypeDefinitionIndex = 15573;
+	inline static constexpr unsigned int DebugUIConfig_TypeDefinitionIndex = 15635;
 
 	class DebugUIConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBUGUICONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3F9CA5EFCEA9DE8D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DebugUIConfig*& a2)
+		static ::System::Void Method_2_A56C048941E5BE52(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DebugUIConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DebugUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBUGUICONFIG_METHOD_2_3F9CA5EFCEA9DE8D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DebugUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBUGUICONFIG_METHOD_2_A56C048941E5BE52_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChimeraWorkSettleData; }
 
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA085F80)
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA___C__DISPLAYCLASS2_0__GETCHIMERAWORKSETTLEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA0866E0)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C5620)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA___C__DISPLAYCLASS2_0__GETCHIMERAWORKSETTLEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB6C5E70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamWorkSettleData___c__DisplayClass2_0_TypeDefinitionIndex = 58463;
+	inline static constexpr unsigned int ChimeraTeamWorkSettleData___c__DisplayClass2_0_TypeDefinitionIndex = 59393;
 
 	class ChimeraTeamWorkSettleData___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetChimeraWorkSettleData_b__0(::RPG::Client::ChimeraWorkSettleData* data)
+		::System::Boolean _GetChimeraWorkSettleData_b__0(::RPG::Client::ChimeraWorkSettleData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraWorkSettleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA___C__DISPLAYCLASS2_0__GETCHIMERAWORKSETTLEDATA_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraWorkSettleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA___C__DISPLAYCLASS2_0__GETCHIMERAWORKSETTLEDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

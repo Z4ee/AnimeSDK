@@ -8,13 +8,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ScreenTransferFullDuration; }
 
-#define RPG_GAMECORE_PLAYSCREENTRANSFER_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18C11AA0)
-#define RPG_GAMECORE_PLAYSCREENTRANSFER_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C11A00)
-#define RPG_GAMECORE_PLAYSCREENTRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C11A60)
+#define RPG_GAMECORE_PLAYSCREENTRANSFER_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19A28A10)
+#define RPG_GAMECORE_PLAYSCREENTRANSFER_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A28970)
+#define RPG_GAMECORE_PLAYSCREENTRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A289D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayScreenTransfer_TypeDefinitionIndex = 22806;
+	inline static constexpr unsigned int PlayScreenTransfer_TypeDefinitionIndex = 22509;
 
 	class PlayScreenTransfer : public ::RPG::GameCore::TaskConfig
 	{
@@ -41,14 +41,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYSCREENTRANSFER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PlayScreenTransfer*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayScreenTransfer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayScreenTransfer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYSCREENTRANSFER_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayScreenTransfer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYSCREENTRANSFER_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PlayScreenTransfer* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayScreenTransfer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayScreenTransfer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYSCREENTRANSFER_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayScreenTransfer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYSCREENTRANSFER_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/RogueMagicEffectType.h"
+#include "unitysdk/RPG/GameCore/RogueMagicRangeType.h"
+#include "unitysdk/RPG/GameCore/RogueMagicStyleType.h"
 
-namespace Spine { class AnimationState; }
-namespace Spine { class Skeleton; }
-namespace Spine { class TrackEntry; }
-namespace Spine::Unity { class SkeletonDataAsset; }
-namespace System { class String; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_891_TypeDefinitionIndex = 63624;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_891_TypeDefinitionIndex = 63060;
 
 class Class_0_16E4307DCC419505_891
 {

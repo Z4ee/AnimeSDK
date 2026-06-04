@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6CD270)
-#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6CD310)
-#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6CD2C0)
-#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH_INIT_OFFSET UNITYSDK_OFFSET(0xB6CD210)
-#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0xB6CD360)
-#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6CD370)
+#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0xCE3B5B0)
+#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE3B650)
+#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE3B600)
+#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH_INIT_OFFSET UNITYSDK_OFFSET(0xCE3B550)
+#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0xCE3B6A0)
+#define RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xCE3B6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharmDamagePerformFinish_TypeDefinitionIndex = 52288;
+	inline static constexpr unsigned int LevelCharmDamagePerformFinish_TypeDefinitionIndex = 52985;
 
-	class LevelCharmDamagePerformFinish : public ::Class_1_9988289E7F8AA214
+	class LevelCharmDamagePerformFinish : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::GameEntity* CharmTarget; // 0x18
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelCharmDamagePerformFinish* Init(::RPG::GameCore::GameEntity* pAttacker, ::RPG::GameCore::GameEntity* pTarget)
+		::RPG::GameCore::LevelCharmDamagePerformFinish* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::RPG::GameCore::LevelCharmDamagePerformFinish*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH_INIT_OFFSET))(this, pAttacker, pTarget);
+			return ((::RPG::GameCore::LevelCharmDamagePerformFinish*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARMDAMAGEPERFORMFINISH_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()

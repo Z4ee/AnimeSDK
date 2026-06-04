@@ -7,15 +7,15 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Sprite; }
 
-#define RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA_GET_LOCALIZEDTEXTID_OFFSET UNITYSDK_OFFSET(0xB1ED660)
-#define RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA_SET_LOCALIZEDTEXTID_OFFSET UNITYSDK_OFFSET(0xB1ED670)
-#define RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB1ED680)
-#define RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_2_OFFSET UNITYSDK_OFFSET(0xB1ED6D0)
-#define RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB1EC820)
+#define RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA_GET_LOCALIZEDTEXTID_OFFSET UNITYSDK_OFFSET(0xC947470)
+#define RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA_SET_LOCALIZEDTEXTID_OFFSET UNITYSDK_OFFSET(0xC947480)
+#define RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xC947490)
+#define RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_2_OFFSET UNITYSDK_OFFSET(0xC9474E0)
+#define RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC946560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SuperDropDown_LocalizedOptionData_TypeDefinitionIndex = 66958;
+	inline static constexpr unsigned int SuperDropDown_LocalizedOptionData_TypeDefinitionIndex = 67900;
 
 	class SuperDropDown_LocalizedOptionData : public ::UnityEngine::UI::Dropdown_OptionData
 	{
@@ -23,19 +23,19 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::String*>* LocalizedParams; // 0x28
 		::RPG::Client::TextID _localizedTextID_k__BackingField; // 0x30
 
-		::System::Void _ctor(::RPG::Client::TextID id)
+		::System::Void _ctor(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_OFFSET))(this, id);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::RPG::Client::TextID id, ::UnityEngine::Sprite* image)
+		::System::Void _ctor_1(::RPG::Client::TextID a1, ::UnityEngine::Sprite* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_1_OFFSET))(this, id, image);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::RPG::Client::TextID id, ::Il2CppArray<::System::String*>* list)
+		::System::Void _ctor_2(::RPG::Client::TextID a1, ::Il2CppArray<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_2_OFFSET))(this, id, list);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::TextID get_localizedTextID()
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA_GET_LOCALIZEDTEXTID_OFFSET))(this);
 		}
 
-		::System::Void set_localizedTextID(::RPG::Client::TextID value)
+		::System::Void set_localizedTextID(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA_SET_LOCALIZEDTEXTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_LOCALIZEDOPTIONDATA_SET_LOCALIZEDTEXTID_OFFSET))(this, a1);
 		}
 	};
 }

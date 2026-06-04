@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightPresentEntity; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS32_0__ADDPRESENT_B__0_OFFSET UNITYSDK_OFFSET(0xA517CC0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5166F0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS32_0__ADDPRESENT_B__0_OFFSET UNITYSDK_OFFSET(0xBBBF070)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBBDBC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass32_0_TypeDefinitionIndex = 59317;
+	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass32_0_TypeDefinitionIndex = 60252;
 
 	class GridFightOrbManager___c__DisplayClass32_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _AddPresent_b__0(::UnityEngine::GameObject* item)
+		::System::Boolean _AddPresent_b__0(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS32_0__ADDPRESENT_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS32_0__ADDPRESENT_B__0_OFFSET))(this, a1);
 		}
 	};
 }

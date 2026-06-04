@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_WAITSKILLINPUT_METHOD_3_52DCE3613EC8B349_OFFSET UNITYSDK_OFFSET(0x19108CC0)
-#define RPG_GAMECORE_WAITSKILLINPUT_METHOD_3_A4FD65C3D56D8F77_OFFSET UNITYSDK_OFFSET(0x19108D40)
-#define RPG_GAMECORE_WAITSKILLINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x19108D10)
+#define RPG_GAMECORE_WAITSKILLINPUT_METHOD_3_81EC2D3F617514F3_OFFSET UNITYSDK_OFFSET(0x19E614E0)
+#define RPG_GAMECORE_WAITSKILLINPUT_METHOD_3_83E1A96F26F6ACF9_OFFSET UNITYSDK_OFFSET(0x19E61560)
+#define RPG_GAMECORE_WAITSKILLINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E61530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitSkillInput_TypeDefinitionIndex = 19132;
+	inline static constexpr unsigned int WaitSkillInput_TypeDefinitionIndex = 19063;
 
 	class WaitSkillInput : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSKILLINPUT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_52DCE3613EC8B349(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitSkillInput*& a2)
+		static ::System::Void Method_3_81EC2D3F617514F3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitSkillInput*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitSkillInput*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSKILLINPUT_METHOD_3_52DCE3613EC8B349_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitSkillInput*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSKILLINPUT_METHOD_3_81EC2D3F617514F3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A4FD65C3D56D8F77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitSkillInput* a2)
+		static ::System::Void Method_3_83E1A96F26F6ACF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitSkillInput* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitSkillInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSKILLINPUT_METHOD_3_A4FD65C3D56D8F77_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitSkillInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSKILLINPUT_METHOD_3_83E1A96F26F6ACF9_OFFSET))(a1, a2);
 		}
 	};
 }

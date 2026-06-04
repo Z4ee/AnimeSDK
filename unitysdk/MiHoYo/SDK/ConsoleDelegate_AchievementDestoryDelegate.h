@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1750AC90)
-#define MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1750ACC0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1750A9F0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1750A9D0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18306FA0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18306FD0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18306F90)
+#define MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18306F20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_AchievementDestoryDelegate_TypeDefinitionIndex = 6687;
+	inline static constexpr unsigned int ConsoleDelegate_AchievementDestoryDelegate_TypeDefinitionIndex = 7590;
 
 	class ConsoleDelegate_AchievementDestoryDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -28,14 +28,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_ACHIEVEMENTDESTORYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

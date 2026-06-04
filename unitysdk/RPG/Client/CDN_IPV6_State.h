@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CDN_IPV6_State_TypeDefinitionIndex = 54976;
+	inline static constexpr unsigned int CDN_IPV6_State_TypeDefinitionIndex = 55710;
 
 	enum class CDN_IPV6_State : ::System::Int32
 	{

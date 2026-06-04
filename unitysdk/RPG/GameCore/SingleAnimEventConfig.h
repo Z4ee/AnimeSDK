@@ -8,12 +8,12 @@ namespace RPG::GameCore { class SingleAnimEntry; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SINGLEANIMEVENTCONFIG_METHOD_2_57ADA397E9BD51E4_OFFSET UNITYSDK_OFFSET(0x18E6E090)
-#define RPG_GAMECORE_SINGLEANIMEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6E410)
+#define RPG_GAMECORE_SINGLEANIMEVENTCONFIG_METHOD_2_02D361E672E99F2A_OFFSET UNITYSDK_OFFSET(0x19C89D40)
+#define RPG_GAMECORE_SINGLEANIMEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8A0C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SingleAnimEventConfig_TypeDefinitionIndex = 15415;
+	inline static constexpr unsigned int SingleAnimEventConfig_TypeDefinitionIndex = 15478;
 
 	class SingleAnimEventConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLEANIMEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_57ADA397E9BD51E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SingleAnimEventConfig*& a2)
+		static ::System::Void Method_2_02D361E672E99F2A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SingleAnimEventConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SingleAnimEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLEANIMEVENTCONFIG_METHOD_2_57ADA397E9BD51E4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SingleAnimEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLEANIMEVENTCONFIG_METHOD_2_02D361E672E99F2A_OFFSET))(a1, a2);
 		}
 	};
 }

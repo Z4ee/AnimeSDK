@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavmapAreaConnectType_TypeDefinitionIndex = 16343;
+	inline static constexpr unsigned int LevelNavmapAreaConnectType_TypeDefinitionIndex = 16375;
 
 	enum class LevelNavmapAreaConnectType : ::System::Int32
 	{

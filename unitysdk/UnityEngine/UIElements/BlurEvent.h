@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UIElements { class IPanel; }
 
-#define UNITYENGINE_UIELEMENTS_BLUREVENT_PREDISPATCH_OFFSET UNITYSDK_OFFSET(0x1A5054F0)
-#define UNITYENGINE_UIELEMENTS_BLUREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5056B0)
+#define UNITYENGINE_UIELEMENTS_BLUREVENT_PREDISPATCH_OFFSET UNITYSDK_OFFSET(0x1B350470)
+#define UNITYENGINE_UIELEMENTS_BLUREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B350670)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int BlurEvent_TypeDefinitionIndex = 5919;
+	inline static constexpr unsigned int BlurEvent_TypeDefinitionIndex = 6196;
 
 	class BlurEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::BlurEvent*>
 	{
@@ -19,9 +19,9 @@ namespace UnityEngine::UIElements
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BLUREVENT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void PreDispatch(::UnityEngine::UIElements::IPanel* panel)
+		::System::Void PreDispatch(::UnityEngine::UIElements::IPanel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BLUREVENT_PREDISPATCH_OFFSET))(this, panel);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BLUREVENT_PREDISPATCH_OFFSET))(this, a1);
 		}
 	};
 }

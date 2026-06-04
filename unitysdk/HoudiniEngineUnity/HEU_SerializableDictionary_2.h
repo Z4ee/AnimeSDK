@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_SerializableDictionary_2_TypeDefinitionIndex = 43710;
+	inline static constexpr unsigned int HEU_SerializableDictionary_2_TypeDefinitionIndex = 37696;
 
 	template <typename TKey, typename TValue>
 	class HEU_SerializableDictionary_2 : public ::System::Object

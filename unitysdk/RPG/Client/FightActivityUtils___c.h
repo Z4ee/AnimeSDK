@@ -7,29 +7,29 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA371600)
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA371630)
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETINSCHEDULEFIGHTGROUPS_B__0_0_OFFSET UNITYSDK_OFFSET(0xA371640)
-#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETMONSTERIDSBYSTAGEID_B__2_0_OFFSET UNITYSDK_OFFSET(0xA371710)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9C5200)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB9C5230)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETINSCHEDULEFIGHTGROUPS_B__0_0_OFFSET UNITYSDK_OFFSET(0xB9C5240)
+#define RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETMONSTERIDSBYSTAGEID_B__2_0_OFFSET UNITYSDK_OFFSET(0xB9C5310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightActivityUtils___c_TypeDefinitionIndex = 59038;
+	inline static constexpr unsigned int FightActivityUtils___c_TypeDefinitionIndex = 59968;
 
 	class FightActivityUtils___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::FightActivityUtils___c** StaticGet___9()
 		{
-			return (::RPG::Client::FightActivityUtils___c**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0xCDD0);
-		}
-		static ::System::Comparison_1<::RPG::Client::FightActivityGroupInfo>** StaticGet___9__0_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::FightActivityGroupInfo>**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0xCDD8);
+			return (::RPG::Client::FightActivityUtils___c**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0x19760);
 		}
 		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::MonsterRank>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::MonsterRank>**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0xCDE0);
+			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::MonsterRank>**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0x19768);
+		}
+		static ::System::Comparison_1<::RPG::Client::FightActivityGroupInfo>** StaticGet___9__0_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::FightActivityGroupInfo>**)Il2CppClass::FromTypeDefinitionIndex(FightActivityUtils___c_TypeDefinitionIndex)->GetStaticField(0x19770);
 		}
 
 		static ::System::Void _cctor()
@@ -42,14 +42,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTACTIVITYUTILS___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetInScheduleFightGroups_b__0_0(::RPG::Client::FightActivityGroupInfo info1, ::RPG::Client::FightActivityGroupInfo info2)
+		::System::Int32 _GetInScheduleFightGroups_b__0_0(::RPG::Client::FightActivityGroupInfo a1, ::RPG::Client::FightActivityGroupInfo a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::FightActivityGroupInfo, ::RPG::Client::FightActivityGroupInfo))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETINSCHEDULEFIGHTGROUPS_B__0_0_OFFSET))(this, info1, info2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::FightActivityGroupInfo, ::RPG::Client::FightActivityGroupInfo))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETINSCHEDULEFIGHTGROUPS_B__0_0_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::MonsterRank _GetMonsterIDsByStageID_b__2_0(::System::UInt32 monsterID)
+		::RPG::GameCore::MonsterRank _GetMonsterIDsByStageID_b__2_0(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::MonsterRank(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETMONSTERIDSBYSTAGEID_B__2_0_OFFSET))(this, monsterID);
+			return ((::RPG::GameCore::MonsterRank(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTACTIVITYUTILS___C__GETMONSTERIDSBYSTAGEID_B__2_0_OFFSET))(this, a1);
 		}
 	};
 }

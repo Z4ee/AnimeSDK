@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvPlayerRide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3F4AF6C15ED3C9BB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12B0D130)
-#define CLASS_3_3F4AF6C15ED3C9BB__CTOR_OFFSET UNITYSDK_OFFSET(0x12B0D100)
+#define CLASS_3_3F4AF6C15ED3C9BB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xACC17F0)
+#define CLASS_3_3F4AF6C15ED3C9BB__CTOR_OFFSET UNITYSDK_OFFSET(0xACC17C0)
 
-inline static constexpr unsigned int Class_3_3F4AF6C15ED3C9BB_TypeDefinitionIndex = 48448;
+inline static constexpr unsigned int Class_3_3F4AF6C15ED3C9BB_TypeDefinitionIndex = 49074;
 
 class Class_3_3F4AF6C15ED3C9BB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvPlayerRide*>
 {

@@ -20,26 +20,26 @@ namespace Epic::OnlineServices::Presence { class SetPresenceOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ADDNOTIFYJOINGAMEACCEPTED_OFFSET UNITYSDK_OFFSET(0x8F070A0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ADDNOTIFYONPRESENCECHANGED_OFFSET UNITYSDK_OFFSET(0x8F07320)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_COPYPRESENCE_OFFSET UNITYSDK_OFFSET(0x8F075A0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_CREATEPRESENCEMODIFICATION_OFFSET UNITYSDK_OFFSET(0x8F077A0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_GETJOININFO_OFFSET UNITYSDK_OFFSET(0x8F07990)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_HASPRESENCE_OFFSET UNITYSDK_OFFSET(0x8F07C50)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONJOINGAMEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F06E40)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONPRESENCECHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F06ED0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONQUERYPRESENCECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F06F60)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_QUERYPRESENCE_OFFSET UNITYSDK_OFFSET(0x8F07E20)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_REMOVENOTIFYJOINGAMEACCEPTED_OFFSET UNITYSDK_OFFSET(0x8F07FE0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_REMOVENOTIFYONPRESENCECHANGED_OFFSET UNITYSDK_OFFSET(0x8F080C0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_SETPRESENCECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F06FF0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_SETPRESENCE_OFFSET UNITYSDK_OFFSET(0x8F081A0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8F07090)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8F07080)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ADDNOTIFYJOINGAMEACCEPTED_OFFSET UNITYSDK_OFFSET(0xA330430)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ADDNOTIFYONPRESENCECHANGED_OFFSET UNITYSDK_OFFSET(0xA3306E0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_COPYPRESENCE_OFFSET UNITYSDK_OFFSET(0xA330990)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_CREATEPRESENCEMODIFICATION_OFFSET UNITYSDK_OFFSET(0xA330B90)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_GETJOININFO_OFFSET UNITYSDK_OFFSET(0xA330D80)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_HASPRESENCE_OFFSET UNITYSDK_OFFSET(0xA331030)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONJOINGAMEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA330190)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONPRESENCECHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA330230)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONQUERYPRESENCECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA3302D0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_QUERYPRESENCE_OFFSET UNITYSDK_OFFSET(0xA331200)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_REMOVENOTIFYJOINGAMEACCEPTED_OFFSET UNITYSDK_OFFSET(0xA3313E0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_REMOVENOTIFYONPRESENCECHANGED_OFFSET UNITYSDK_OFFSET(0xA3314C0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_SETPRESENCECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA330370)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_SETPRESENCE_OFFSET UNITYSDK_OFFSET(0xA3315A0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA330420)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA330410)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int PresenceInterface_TypeDefinitionIndex = 41602;
+	inline static constexpr unsigned int PresenceInterface_TypeDefinitionIndex = 42405;
 
 	class PresenceInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -68,79 +68,79 @@ namespace Epic::OnlineServices::Presence
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyJoinGameAccepted(::Epic::OnlineServices::Presence::AddNotifyJoinGameAcceptedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Presence::OnJoinGameAcceptedCallback* notificationFn)
+		::System::UInt64 AddNotifyJoinGameAccepted(::Epic::OnlineServices::Presence::AddNotifyJoinGameAcceptedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Presence::OnJoinGameAcceptedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Presence::AddNotifyJoinGameAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::Presence::OnJoinGameAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ADDNOTIFYJOINGAMEACCEPTED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Presence::AddNotifyJoinGameAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::Presence::OnJoinGameAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ADDNOTIFYJOINGAMEACCEPTED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyOnPresenceChanged(::Epic::OnlineServices::Presence::AddNotifyOnPresenceChangedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Presence::OnPresenceChangedCallback* notificationHandler)
+		::System::UInt64 AddNotifyOnPresenceChanged(::Epic::OnlineServices::Presence::AddNotifyOnPresenceChangedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Presence::OnPresenceChangedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Presence::AddNotifyOnPresenceChangedOptions*, ::System::Object*, ::Epic::OnlineServices::Presence::OnPresenceChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ADDNOTIFYONPRESENCECHANGED_OFFSET))(this, options, clientData, notificationHandler);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Presence::AddNotifyOnPresenceChangedOptions*, ::System::Object*, ::Epic::OnlineServices::Presence::OnPresenceChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ADDNOTIFYONPRESENCECHANGED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result CopyPresence(::Epic::OnlineServices::Presence::CopyPresenceOptions* options, ::Epic::OnlineServices::Presence::Info*& outPresence)
+		::Epic::OnlineServices::Result CopyPresence(::Epic::OnlineServices::Presence::CopyPresenceOptions* a1, ::Epic::OnlineServices::Presence::Info*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::CopyPresenceOptions*, ::Epic::OnlineServices::Presence::Info*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_COPYPRESENCE_OFFSET))(this, options, outPresence);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::CopyPresenceOptions*, ::Epic::OnlineServices::Presence::Info*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_COPYPRESENCE_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CreatePresenceModification(::Epic::OnlineServices::Presence::CreatePresenceModificationOptions* options, ::Epic::OnlineServices::Presence::PresenceModification*& outPresenceModificationHandle)
+		::Epic::OnlineServices::Result CreatePresenceModification(::Epic::OnlineServices::Presence::CreatePresenceModificationOptions* a1, ::Epic::OnlineServices::Presence::PresenceModification*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::CreatePresenceModificationOptions*, ::Epic::OnlineServices::Presence::PresenceModification*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_CREATEPRESENCEMODIFICATION_OFFSET))(this, options, outPresenceModificationHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::CreatePresenceModificationOptions*, ::Epic::OnlineServices::Presence::PresenceModification*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_CREATEPRESENCEMODIFICATION_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result GetJoinInfo(::Epic::OnlineServices::Presence::GetJoinInfoOptions* options, ::System::String*& outBuffer)
+		::Epic::OnlineServices::Result GetJoinInfo(::Epic::OnlineServices::Presence::GetJoinInfoOptions* a1, ::System::String*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::GetJoinInfoOptions*, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_GETJOININFO_OFFSET))(this, options, outBuffer);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Presence::GetJoinInfoOptions*, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_GETJOININFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean HasPresence(::Epic::OnlineServices::Presence::HasPresenceOptions* options)
+		::System::Boolean HasPresence(::Epic::OnlineServices::Presence::HasPresenceOptions* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Epic::OnlineServices::Presence::HasPresenceOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_HASPRESENCE_OFFSET))(this, options);
+			return ((::System::Boolean(*)(::PVOID, ::Epic::OnlineServices::Presence::HasPresenceOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_HASPRESENCE_OFFSET))(this, a1);
 		}
 
-		::System::Void QueryPresence(::Epic::OnlineServices::Presence::QueryPresenceOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Presence::OnQueryPresenceCompleteCallback* completionDelegate)
+		::System::Void QueryPresence(::Epic::OnlineServices::Presence::QueryPresenceOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Presence::OnQueryPresenceCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::QueryPresenceOptions*, ::System::Object*, ::Epic::OnlineServices::Presence::OnQueryPresenceCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_QUERYPRESENCE_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::QueryPresenceOptions*, ::System::Object*, ::Epic::OnlineServices::Presence::OnQueryPresenceCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_QUERYPRESENCE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RemoveNotifyJoinGameAccepted(::System::UInt64 inId)
+		::System::Void RemoveNotifyJoinGameAccepted(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_REMOVENOTIFYJOINGAMEACCEPTED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_REMOVENOTIFYJOINGAMEACCEPTED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyOnPresenceChanged(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyOnPresenceChanged(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_REMOVENOTIFYONPRESENCECHANGED_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_REMOVENOTIFYONPRESENCECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPresence(::Epic::OnlineServices::Presence::SetPresenceOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Presence::SetPresenceCompleteCallback* completionDelegate)
+		::System::Void SetPresence(::Epic::OnlineServices::Presence::SetPresenceOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Presence::SetPresenceCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::SetPresenceOptions*, ::System::Object*, ::Epic::OnlineServices::Presence::SetPresenceCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_SETPRESENCE_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::SetPresenceOptions*, ::System::Object*, ::Epic::OnlineServices::Presence::SetPresenceCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_SETPRESENCE_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnJoinGameAcceptedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnJoinGameAcceptedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONJOINGAMEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONJOINGAMEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnPresenceChangedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnPresenceChangedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONPRESENCECHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONPRESENCECHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryPresenceCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryPresenceCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONQUERYPRESENCECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_ONQUERYPRESENCECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void SetPresenceCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void SetPresenceCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_SETPRESENCECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEINTERFACE_SETPRESENCECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

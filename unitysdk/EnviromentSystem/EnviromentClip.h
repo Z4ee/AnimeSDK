@@ -10,23 +10,23 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_1290EA767C459179_1_OFFSET UNITYSDK_OFFSET(0xF90B600)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_1290EA767C459179_2_OFFSET UNITYSDK_OFFSET(0xF90B6C0)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_1290EA767C459179_3_OFFSET UNITYSDK_OFFSET(0xF90BCE0)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xF90B420)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_331A86D19AA808A3_OFFSET UNITYSDK_OFFSET(0xF90BA70)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_452BD962C7D11256_OFFSET UNITYSDK_OFFSET(0xF90B4E0)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_56CE4AFC5339F746_OFFSET UNITYSDK_OFFSET(0xF90B780)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_76CD9B9D1269FA90_1_OFFSET UNITYSDK_OFFSET(0xF90BC10)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_76CD9B9D1269FA90_OFFSET UNITYSDK_OFFSET(0xF90B9A0)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_842B9A57B1A61B49_OFFSET UNITYSDK_OFFSET(0xF90B8A0)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_D0F087C16CE1CEB8_OFFSET UNITYSDK_OFFSET(0xF9012B0)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_DB6C221B68CFBBA1_OFFSET UNITYSDK_OFFSET(0xF90BB30)
-#define ENVIROMENTSYSTEM_ENVIROMENTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xF902DA0)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_2C95AFAD0256302F_OFFSET UNITYSDK_OFFSET(0x135C1C50)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_3383F5B5B7F87651_OFFSET UNITYSDK_OFFSET(0x135B4B30)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_36DF3CE1C98B6945_OFFSET UNITYSDK_OFFSET(0x135C2000)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_3DB33FA65FD6B364_OFFSET UNITYSDK_OFFSET(0x135C1D60)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_4307B2A4B4A12C1A_1_OFFSET UNITYSDK_OFFSET(0x135C1AF0)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_4307B2A4B4A12C1A_2_OFFSET UNITYSDK_OFFSET(0x135C1BA0)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_4307B2A4B4A12C1A_3_OFFSET UNITYSDK_OFFSET(0x135C21A0)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x135C1930)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_6BB3BCA076D98E60_OFFSET UNITYSDK_OFFSET(0x135C1F40)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_F1EEC8B056C8FB3F_OFFSET UNITYSDK_OFFSET(0x135C19E0)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_FD7514C64FB1B043_1_OFFSET UNITYSDK_OFFSET(0x135C20D0)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_FD7514C64FB1B043_OFFSET UNITYSDK_OFFSET(0x135C1E70)
+#define ENVIROMENTSYSTEM_ENVIROMENTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x135B68D0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviromentClip_TypeDefinitionIndex = 46179;
+	inline static constexpr unsigned int EnviromentClip_TypeDefinitionIndex = 46762;
 
 	class EnviromentClip : public ::System::Object
 	{
@@ -42,64 +42,64 @@ namespace EnviromentSystem
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_D0F087C16CE1CEB8(::EnviromentSystem::EnviromentProfile* a1, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* a2)
+		::System::Void Method_1_3383F5B5B7F87651(::EnviromentSystem::EnviromentProfile* a1, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviromentProfile*, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_D0F087C16CE1CEB8_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviromentProfile*, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_3383F5B5B7F87651_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_1290EA767C459179()
+		::System::Void Method_1_4307B2A4B4A12C1A()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_1290EA767C459179_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_4307B2A4B4A12C1A_OFFSET))(this);
 		}
 
-		::System::Void Method_1_452BD962C7D11256(::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* a1)
+		::System::Void Method_1_F1EEC8B056C8FB3F(::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_452BD962C7D11256_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_F1EEC8B056C8FB3F_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_1290EA767C459179_1()
+		::System::Void Method_1_4307B2A4B4A12C1A_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_1290EA767C459179_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_4307B2A4B4A12C1A_1_OFFSET))(this);
 		}
 
-		::System::Void Method_1_1290EA767C459179_2()
+		::System::Void Method_1_4307B2A4B4A12C1A_2()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_1290EA767C459179_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_4307B2A4B4A12C1A_2_OFFSET))(this);
 		}
 
-		::System::Void Method_1_56CE4AFC5339F746()
+		::System::Void Method_1_2C95AFAD0256302F()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_56CE4AFC5339F746_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_2C95AFAD0256302F_OFFSET))(this);
 		}
 
-		::System::Void Method_1_842B9A57B1A61B49(::EnviromentSystem::EnviromentClip* a1)
+		::System::Void Method_1_3DB33FA65FD6B364(::EnviromentSystem::EnviromentClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviromentClip*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_842B9A57B1A61B49_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviromentClip*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_3DB33FA65FD6B364_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_76CD9B9D1269FA90(::System::Single a1)
+		::System::Void Method_1_FD7514C64FB1B043(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_76CD9B9D1269FA90_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_FD7514C64FB1B043_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_331A86D19AA808A3(::UnityEngine::Rendering::CommandBuffer* a1)
+		::System::Void Method_1_6BB3BCA076D98E60(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_331A86D19AA808A3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_6BB3BCA076D98E60_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_DB6C221B68CFBBA1(::System::Collections::Generic::List_1<::System::String*>*& a1, ::System::Collections::Generic::List_1<::System::Type*>*& a2)
+		::System::Void Method_1_36DF3CE1C98B6945(::System::Collections::Generic::List_1<::System::String*>*& a1, ::System::Collections::Generic::List_1<::System::Type*>*& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*&, ::System::Collections::Generic::List_1<::System::Type*>*&))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_DB6C221B68CFBBA1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*&, ::System::Collections::Generic::List_1<::System::Type*>*&))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_36DF3CE1C98B6945_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_76CD9B9D1269FA90_1(::System::Single a1)
+		::System::Void Method_1_FD7514C64FB1B043_1(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_76CD9B9D1269FA90_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_FD7514C64FB1B043_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_1290EA767C459179_3()
+		::System::Void Method_1_4307B2A4B4A12C1A_3()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_1290EA767C459179_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROMENTCLIP_METHOD_1_4307B2A4B4A12C1A_3_OFFSET))(this);
 		}
 	};
 }

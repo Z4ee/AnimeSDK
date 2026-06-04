@@ -5,36 +5,36 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define SPINE_UNITY_MATHUTILITIES_INVERSELERP_1_OFFSET UNITYSDK_OFFSET(0x19E3B780)
-#define SPINE_UNITY_MATHUTILITIES_INVERSELERP_2_OFFSET UNITYSDK_OFFSET(0x19E3B7D0)
-#define SPINE_UNITY_MATHUTILITIES_INVERSELERP_3_OFFSET UNITYSDK_OFFSET(0x19E3B810)
-#define SPINE_UNITY_MATHUTILITIES_INVERSELERP_OFFSET UNITYSDK_OFFSET(0x19E3B770)
+#define SPINE_UNITY_MATHUTILITIES_INVERSELERP_1_OFFSET UNITYSDK_OFFSET(0x1ACB5250)
+#define SPINE_UNITY_MATHUTILITIES_INVERSELERP_2_OFFSET UNITYSDK_OFFSET(0x1ACB52A0)
+#define SPINE_UNITY_MATHUTILITIES_INVERSELERP_3_OFFSET UNITYSDK_OFFSET(0x1ACB52E0)
+#define SPINE_UNITY_MATHUTILITIES_INVERSELERP_OFFSET UNITYSDK_OFFSET(0x1ACB5240)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MathUtilities_TypeDefinitionIndex = 40657;
+	inline static constexpr unsigned int MathUtilities_TypeDefinitionIndex = 41484;
 
 	class MathUtilities : public ::System::Object
 	{
 	public:
-		static ::System::Single InverseLerp(::System::Single a, ::System::Single b, ::System::Single value)
+		static ::System::Single InverseLerp(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_MATHUTILITIES_INVERSELERP_OFFSET))(a, b, value);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_MATHUTILITIES_INVERSELERP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Vector2 InverseLerp_1(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, ::UnityEngine::Vector2 value)
+		static ::UnityEngine::Vector2 InverseLerp_1(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::UnityEngine::Vector2(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + SPINE_UNITY_MATHUTILITIES_INVERSELERP_1_OFFSET))(a, b, value);
+			return ((::UnityEngine::Vector2(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + SPINE_UNITY_MATHUTILITIES_INVERSELERP_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Vector3 InverseLerp_2(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 value)
+		static ::UnityEngine::Vector3 InverseLerp_2(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + SPINE_UNITY_MATHUTILITIES_INVERSELERP_2_OFFSET))(a, b, value);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + SPINE_UNITY_MATHUTILITIES_INVERSELERP_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Vector4 InverseLerp_3(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b, ::UnityEngine::Vector4 value)
+		static ::UnityEngine::Vector4 InverseLerp_3(::UnityEngine::Vector4 a1, ::UnityEngine::Vector4 a2, ::UnityEngine::Vector4 a3)
 		{
-			return ((::UnityEngine::Vector4(*)(::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + SPINE_UNITY_MATHUTILITIES_INVERSELERP_3_OFFSET))(a, b, value);
+			return ((::UnityEngine::Vector4(*)(::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + SPINE_UNITY_MATHUTILITIES_INVERSELERP_3_OFFSET))(a1, a2, a3);
 		}
 	};
 }

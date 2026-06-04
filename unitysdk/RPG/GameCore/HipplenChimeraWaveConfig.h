@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENCHIMERAWAVECONFIG_METHOD_2_F77608982DA1A875_OFFSET UNITYSDK_OFFSET(0x18A00E10)
-#define RPG_GAMECORE_HIPPLENCHIMERAWAVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A00F10)
+#define RPG_GAMECORE_HIPPLENCHIMERAWAVECONFIG_METHOD_2_49AE45C14CF0DFA0_OFFSET UNITYSDK_OFFSET(0x19833370)
+#define RPG_GAMECORE_HIPPLENCHIMERAWAVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19833460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenChimeraWaveConfig_TypeDefinitionIndex = 15899;
+	inline static constexpr unsigned int HipplenChimeraWaveConfig_TypeDefinitionIndex = 15952;
 
 	class HipplenChimeraWaveConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENCHIMERAWAVECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F77608982DA1A875(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenChimeraWaveConfig*& a2)
+		static ::System::Void Method_2_49AE45C14CF0DFA0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenChimeraWaveConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenChimeraWaveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENCHIMERAWAVECONFIG_METHOD_2_F77608982DA1A875_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenChimeraWaveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENCHIMERAWAVECONFIG_METHOD_2_49AE45C14CF0DFA0_OFFSET))(a1, a2);
 		}
 	};
 }

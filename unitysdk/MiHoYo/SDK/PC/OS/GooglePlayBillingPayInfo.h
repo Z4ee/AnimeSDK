@@ -7,11 +7,11 @@ namespace MiHoYo::SDK::PC::OS { class ProductData; }
 namespace MiHoYo::SDK::PC::OS { class PurchaseData; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_GOOGLEPLAYBILLINGPAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x175A3180)
+#define MIHOYO_SDK_PC_OS_GOOGLEPLAYBILLINGPAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1838B4D0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int GooglePlayBillingPayInfo_TypeDefinitionIndex = 7515;
+	inline static constexpr unsigned int GooglePlayBillingPayInfo_TypeDefinitionIndex = 8418;
 
 	class GooglePlayBillingPayInfo : public ::System::Object
 	{

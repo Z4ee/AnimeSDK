@@ -5,9 +5,9 @@
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_AF57533F17F060F7__CTOR_OFFSET UNITYSDK_OFFSET(0x97BA960)
+#define CLASS_1_AF57533F17F060F7__CTOR_OFFSET UNITYSDK_OFFSET(0x13AF7EC0)
 
-inline static constexpr unsigned int Class_1_AF57533F17F060F7_TypeDefinitionIndex = 68661;
+inline static constexpr unsigned int Class_1_AF57533F17F060F7_TypeDefinitionIndex = 69473;
 
 class Class_1_AF57533F17F060F7 : public ::System::Object
 {

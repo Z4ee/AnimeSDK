@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackPhotoCanType_TypeDefinitionIndex = 11807;
+	inline static constexpr unsigned int TrackPhotoCanType_TypeDefinitionIndex = 11903;
 
 	enum class TrackPhotoCanType : ::System::Int32
 	{

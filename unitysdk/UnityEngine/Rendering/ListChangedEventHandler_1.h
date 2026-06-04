@@ -10,7 +10,7 @@ namespace UnityEngine::Rendering { template <typename T> class ObservableList_1;
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ListChangedEventHandler_1_TypeDefinitionIndex = 33420;
+	inline static constexpr unsigned int ListChangedEventHandler_1_TypeDefinitionIndex = 33702;
 
 	template <typename T>
 	class ListChangedEventHandler_1 : public ::System::MulticastDelegate

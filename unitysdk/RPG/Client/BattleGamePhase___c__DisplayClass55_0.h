@@ -5,18 +5,18 @@
 namespace RPG::Client { class BattleGamePhase; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E5DC60)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS55_0__PRECESSRESTARTWITHEDITTEAM_B__0_OFFSET UNITYSDK_OFFSET(0x9E5DC70)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB3E4C70)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__DISPLAYCLASS55_0__PRECESSRESTARTWITHEDITTEAM_B__0_OFFSET UNITYSDK_OFFSET(0xB3F8800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass55_0_TypeDefinitionIndex = 56228;
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass55_0_TypeDefinitionIndex = 56990;
 
 	class BattleGamePhase___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::RPG::Client::BattleGamePhase* __4__this; // 0x18
+		::RPG::Client::BattleGamePhase* __4__this; // 0x10
+		::System::Action* callback; // 0x18
 
 		::System::Void _ctor()
 		{

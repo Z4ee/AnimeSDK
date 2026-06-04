@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Rigidbody2D; }
 
-#define UNITYENGINE_JOINT2D_GET_CONNECTEDBODY_OFFSET UNITYSDK_OFFSET(0x1A4D4E10)
+#define UNITYENGINE_JOINT2D_GET_CONNECTEDBODY_OFFSET UNITYSDK_OFFSET(0x1B322960)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Joint2D_TypeDefinitionIndex = 5207;
+	inline static constexpr unsigned int Joint2D_TypeDefinitionIndex = 5283;
 
 	class Joint2D : public ::UnityEngine::Behaviour
 	{

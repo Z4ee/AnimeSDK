@@ -4,15 +4,15 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1A3359B0)
-#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_1_OFFSET UNITYSDK_OFFSET(0x1A3359C0)
-#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_OFFSET UNITYSDK_OFFSET(0x1A3359A0)
-#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_START_OFFSET UNITYSDK_OFFSET(0x1A3358C0)
-#define UNITYENGINE_RENDERING_UI_UIFOLDOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A335B30)
+#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1B1902D0)
+#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_1_OFFSET UNITYSDK_OFFSET(0x1B1902E0)
+#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_OFFSET UNITYSDK_OFFSET(0x1B1902C0)
+#define UNITYENGINE_RENDERING_UI_UIFOLDOUT_START_OFFSET UNITYSDK_OFFSET(0x1B1901D0)
+#define UNITYENGINE_RENDERING_UI_UIFOLDOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B190450)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int UIFoldout_TypeDefinitionIndex = 33615;
+	inline static constexpr unsigned int UIFoldout_TypeDefinitionIndex = 33897;
 
 	class UIFoldout : public ::UnityEngine::UI::Toggle
 	{
@@ -36,14 +36,14 @@ namespace UnityEngine::Rendering::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_UIFOLDOUT_ONVALIDATE_OFFSET))(this);
 		}
 
-		::System::Void SetState(::System::Boolean state)
+		::System::Void SetState(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_OFFSET))(this, state);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetState_1(::System::Boolean state, ::System::Boolean rebuildLayout)
+		::System::Void SetState_1(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_1_OFFSET))(this, state, rebuildLayout);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_UIFOLDOUT_SETSTATE_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

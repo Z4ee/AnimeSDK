@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class DynamicStringList; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PLAYCOLLECTIONMORSE_METHOD_3_8BD8A254E2477C09_OFFSET UNITYSDK_OFFSET(0x18C0CDA0)
-#define RPG_GAMECORE_PLAYCOLLECTIONMORSE_METHOD_3_FD1F2175F3ECB887_OFFSET UNITYSDK_OFFSET(0x18C0CE20)
-#define RPG_GAMECORE_PLAYCOLLECTIONMORSE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C0CDF0)
+#define RPG_GAMECORE_PLAYCOLLECTIONMORSE_METHOD_3_5E3FD75EA286338F_OFFSET UNITYSDK_OFFSET(0x19A23DF0)
+#define RPG_GAMECORE_PLAYCOLLECTIONMORSE_METHOD_3_AADA4C5462C9AAE8_OFFSET UNITYSDK_OFFSET(0x19A23D70)
+#define RPG_GAMECORE_PLAYCOLLECTIONMORSE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A23DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayCollectionMorse_TypeDefinitionIndex = 19365;
+	inline static constexpr unsigned int PlayCollectionMorse_TypeDefinitionIndex = 19273;
 
 	class PlayCollectionMorse : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,14 +35,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYCOLLECTIONMORSE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8BD8A254E2477C09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayCollectionMorse*& a2)
+		static ::System::Void Method_3_AADA4C5462C9AAE8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayCollectionMorse*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayCollectionMorse*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYCOLLECTIONMORSE_METHOD_3_8BD8A254E2477C09_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayCollectionMorse*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYCOLLECTIONMORSE_METHOD_3_AADA4C5462C9AAE8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FD1F2175F3ECB887(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayCollectionMorse* a2)
+		static ::System::Void Method_3_5E3FD75EA286338F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayCollectionMorse* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayCollectionMorse*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYCOLLECTIONMORSE_METHOD_3_FD1F2175F3ECB887_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayCollectionMorse*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYCOLLECTIONMORSE_METHOD_3_5E3FD75EA286338F_OFFSET))(a1, a2);
 		}
 	};
 }

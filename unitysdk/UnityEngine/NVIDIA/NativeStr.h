@@ -4,16 +4,16 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_NVIDIA_NATIVESTR_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1A4C9310)
-#define UNITYENGINE_NVIDIA_NATIVESTR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A4C92C0)
-#define UNITYENGINE_NVIDIA_NATIVESTR_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A4C9340)
-#define UNITYENGINE_NVIDIA_NATIVESTR_GET_PTR_OFFSET UNITYSDK_OFFSET(0x1A4C9290)
-#define UNITYENGINE_NVIDIA_NATIVESTR_SET_STR_OFFSET UNITYSDK_OFFSET(0x1A4C91F0)
-#define UNITYENGINE_NVIDIA_NATIVESTR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4C91E0)
+#define UNITYENGINE_NVIDIA_NATIVESTR_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1B317090)
+#define UNITYENGINE_NVIDIA_NATIVESTR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B317010)
+#define UNITYENGINE_NVIDIA_NATIVESTR_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B3170C0)
+#define UNITYENGINE_NVIDIA_NATIVESTR_GET_PTR_OFFSET UNITYSDK_OFFSET(0x1B316FE0)
+#define UNITYENGINE_NVIDIA_NATIVESTR_SET_STR_OFFSET UNITYSDK_OFFSET(0x1B316F00)
+#define UNITYENGINE_NVIDIA_NATIVESTR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B316EF0)
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int NativeStr_TypeDefinitionIndex = 5181;
+	inline static constexpr unsigned int NativeStr_TypeDefinitionIndex = 5006;
 
 	class NativeStr : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace UnityEngine::NVIDIA
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_NATIVESTR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_Str(::System::String* value)
+		::System::Void set_Str(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_NATIVESTR_SET_STR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_NATIVESTR_SET_STR_OFFSET))(this, a1);
 		}
 
 		::System::IntPtr get_Ptr()
@@ -41,9 +41,9 @@ namespace UnityEngine::NVIDIA
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_NATIVESTR_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposing)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_NATIVESTR_DISPOSE_1_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_NATIVESTR_DISPOSE_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()

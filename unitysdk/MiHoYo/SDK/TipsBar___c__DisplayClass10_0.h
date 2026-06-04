@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class TipsBar; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_TIPSBAR___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1765EF70)
-#define MIHOYO_SDK_TIPSBAR___C__DISPLAYCLASS10_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1765F210)
+#define MIHOYO_SDK_TIPSBAR___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184300A0)
+#define MIHOYO_SDK_TIPSBAR___C__DISPLAYCLASS10_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18430350)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TipsBar___c__DisplayClass10_0_TypeDefinitionIndex = 7269;
+	inline static constexpr unsigned int TipsBar___c__DisplayClass10_0_TypeDefinitionIndex = 8172;
 
 	class TipsBar___c__DisplayClass10_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TIPSBAR___C__DISPLAYCLASS10_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::TipsBar* tipsBar)
+		::System::Void _Show_b__0(::MiHoYo::SDK::TipsBar* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::TipsBar*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TIPSBAR___C__DISPLAYCLASS10_0__SHOW_B__0_OFFSET))(this, tipsBar);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::TipsBar*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TIPSBAR___C__DISPLAYCLASS10_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

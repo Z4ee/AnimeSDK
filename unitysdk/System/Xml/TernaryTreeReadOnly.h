@@ -4,8 +4,8 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_TERNARYTREEREADONLY_FINDCASEINSENSITIVESTRING_OFFSET UNITYSDK_OFFSET(0x1A02C9F0)
-#define SYSTEM_XML_TERNARYTREEREADONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02C9E0)
+#define SYSTEM_XML_TERNARYTREEREADONLY_FINDCASEINSENSITIVESTRING_OFFSET UNITYSDK_OFFSET(0x1AE9EC10)
+#define SYSTEM_XML_TERNARYTREEREADONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE9EC00)
 
 namespace System::Xml
 {
@@ -16,14 +16,14 @@ namespace System::Xml
 	public:
 		::Il2CppArray<::System::Byte>* nodeBuffer; // 0x10
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* nodeBuffer)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_TERNARYTREEREADONLY__CTOR_OFFSET))(this, nodeBuffer);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_TERNARYTREEREADONLY__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Byte FindCaseInsensitiveString(::System::String* stringToFind)
+		::System::Byte FindCaseInsensitiveString(::System::String* a1)
 		{
-			return ((::System::Byte(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_TERNARYTREEREADONLY_FINDCASEINSENSITIVESTRING_OFFSET))(this, stringToFind);
+			return ((::System::Byte(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_TERNARYTREEREADONLY_FINDCASEINSENSITIVESTRING_OFFSET))(this, a1);
 		}
 	};
 }

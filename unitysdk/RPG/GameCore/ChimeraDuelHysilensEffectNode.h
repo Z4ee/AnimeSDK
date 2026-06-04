@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
 
-#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_METHOD_3_7B9F6BCB7C5F741D_OFFSET UNITYSDK_OFFSET(0x187FD310)
-#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_METHOD_3_859B6E3751A3B82D_OFFSET UNITYSDK_OFFSET(0x187FD3F0)
-#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x187FD3A0)
+#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_METHOD_3_9B498F29FAE6DE23_OFFSET UNITYSDK_OFFSET(0x1963F420)
+#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_METHOD_3_C4188FD5B6DD2E27_OFFSET UNITYSDK_OFFSET(0x1963F500)
+#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1963F4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelHysilensEffectNode_TypeDefinitionIndex = 15145;
+	inline static constexpr unsigned int ChimeraDuelHysilensEffectNode_TypeDefinitionIndex = 15207;
 
 	class ChimeraDuelHysilensEffectNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7B9F6BCB7C5F741D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelHysilensEffectNode*& a2)
+		static ::System::Void Method_3_9B498F29FAE6DE23(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelHysilensEffectNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelHysilensEffectNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_METHOD_3_7B9F6BCB7C5F741D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelHysilensEffectNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_METHOD_3_9B498F29FAE6DE23_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_859B6E3751A3B82D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelHysilensEffectNode* a2)
+		static ::System::Void Method_3_C4188FD5B6DD2E27(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelHysilensEffectNode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelHysilensEffectNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_METHOD_3_859B6E3751A3B82D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelHysilensEffectNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_METHOD_3_C4188FD5B6DD2E27_OFFSET))(a1, a2);
 		}
 	};
 }

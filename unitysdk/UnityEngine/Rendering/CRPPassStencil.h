@@ -7,11 +7,11 @@
 #include "unitysdk/UnityEngine/Rendering/RenderStateMask.h"
 #include "unitysdk/UnityEngine/Rendering/StencilState.h"
 
-#define UNITYENGINE_RENDERING_CRPPASSSTENCIL_SETPASSSTENCIL_OFFSET UNITYSDK_OFFSET(0x1A476E70)
+#define UNITYENGINE_RENDERING_CRPPASSSTENCIL_SETPASSSTENCIL_OFFSET UNITYSDK_OFFSET(0x1B2C5020)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPPassStencil_TypeDefinitionIndex = 4672;
+	inline static constexpr unsigned int CRPPassStencil_TypeDefinitionIndex = 4846;
 
 	struct alignas(4) CRPPassStencil
 	{
@@ -24,9 +24,9 @@ namespace UnityEngine::Rendering
 		::System::Int32 stencilRef; // 0x7C
 		::UnityEngine::Rendering::RenderStateMask mask; // 0x80
 
-		static ::System::Void SetPassStencil(::UnityEngine::Rendering::CRPPassStencil& stencilState, ::System::Int32 passIndex)
+		static ::System::Void SetPassStencil(::UnityEngine::Rendering::CRPPassStencil& a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CRPPassStencil&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPPASSSTENCIL_SETPASSSTENCIL_OFFSET))(stencilState, passIndex);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CRPPassStencil&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPPASSSTENCIL_SETPASSSTENCIL_OFFSET))(a1, a2);
 		}
 	};
 }

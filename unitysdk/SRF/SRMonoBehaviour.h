@@ -11,22 +11,22 @@ namespace UnityEngine { class Rigidbody2D; }
 namespace UnityEngine { class Rigidbody; }
 namespace UnityEngine { class Transform; }
 
-#define SRF_SRMONOBEHAVIOUR_ASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x19EA6800)
-#define SRF_SRMONOBEHAVIOUR_ASSERT_OFFSET UNITYSDK_OFFSET(0x19EA6820)
-#define SRF_SRMONOBEHAVIOUR_EDITORASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x19EA6830)
-#define SRF_SRMONOBEHAVIOUR_EDITORASSERT_OFFSET UNITYSDK_OFFSET(0x19EA6850)
-#define SRF_SRMONOBEHAVIOUR_GET_CACHEDCOLLIDER2D_OFFSET UNITYSDK_OFFSET(0x19EA6590)
-#define SRF_SRMONOBEHAVIOUR_GET_CACHEDCOLLIDER_OFFSET UNITYSDK_OFFSET(0x19EA6500)
-#define SRF_SRMONOBEHAVIOUR_GET_CACHEDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x19EA6780)
-#define SRF_SRMONOBEHAVIOUR_GET_CACHEDRIGIDBODY2D_OFFSET UNITYSDK_OFFSET(0x19EA66D0)
-#define SRF_SRMONOBEHAVIOUR_GET_CACHEDRIGIDBODY_OFFSET UNITYSDK_OFFSET(0x19EA6640)
-#define SRF_SRMONOBEHAVIOUR_GET_CACHEDTRANSFORM_OFFSET UNITYSDK_OFFSET(0x19EA64C0)
-#define SRF_SRMONOBEHAVIOUR_GET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x19EA67C0)
-#define SRF_SRMONOBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA6860)
+#define SRF_SRMONOBEHAVIOUR_ASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1AD1CC50)
+#define SRF_SRMONOBEHAVIOUR_ASSERT_OFFSET UNITYSDK_OFFSET(0x1AD1CC70)
+#define SRF_SRMONOBEHAVIOUR_EDITORASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1AD1CC80)
+#define SRF_SRMONOBEHAVIOUR_EDITORASSERT_OFFSET UNITYSDK_OFFSET(0x1AD1CCA0)
+#define SRF_SRMONOBEHAVIOUR_GET_CACHEDCOLLIDER2D_OFFSET UNITYSDK_OFFSET(0x1AD1C9F0)
+#define SRF_SRMONOBEHAVIOUR_GET_CACHEDCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1AD1C970)
+#define SRF_SRMONOBEHAVIOUR_GET_CACHEDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1AD1CBD0)
+#define SRF_SRMONOBEHAVIOUR_GET_CACHEDRIGIDBODY2D_OFFSET UNITYSDK_OFFSET(0x1AD1CB20)
+#define SRF_SRMONOBEHAVIOUR_GET_CACHEDRIGIDBODY_OFFSET UNITYSDK_OFFSET(0x1AD1CAA0)
+#define SRF_SRMONOBEHAVIOUR_GET_CACHEDTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1AD1C930)
+#define SRF_SRMONOBEHAVIOUR_GET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1AD1CC10)
+#define SRF_SRMONOBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1CCB0)
 
 namespace SRF
 {
-	inline static constexpr unsigned int SRMonoBehaviour_TypeDefinitionIndex = 33272;
+	inline static constexpr unsigned int SRMonoBehaviour_TypeDefinitionIndex = 33554;
 
 	class SRMonoBehaviour : public ::UnityEngine::MonoBehaviour
 	{
@@ -78,24 +78,24 @@ namespace SRF
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_SRMONOBEHAVIOUR_GET_TRANSFORM_OFFSET))(this);
 		}
 
-		::System::Void AssertNotNull(::System::Object* value, ::System::String* fieldName)
+		::System::Void AssertNotNull(::System::Object* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SRF_SRMONOBEHAVIOUR_ASSERTNOTNULL_OFFSET))(this, value, fieldName);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SRF_SRMONOBEHAVIOUR_ASSERTNOTNULL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Assert(::System::Boolean condition, ::System::String* message)
+		::System::Void Assert(::System::Boolean a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SRF_SRMONOBEHAVIOUR_ASSERT_OFFSET))(this, condition, message);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SRF_SRMONOBEHAVIOUR_ASSERT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EditorAssertNotNull(::System::Object* value, ::System::String* fieldName)
+		::System::Void EditorAssertNotNull(::System::Object* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SRF_SRMONOBEHAVIOUR_EDITORASSERTNOTNULL_OFFSET))(this, value, fieldName);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SRF_SRMONOBEHAVIOUR_EDITORASSERTNOTNULL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EditorAssert(::System::Boolean condition, ::System::String* message)
+		::System::Void EditorAssert(::System::Boolean a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SRF_SRMONOBEHAVIOUR_EDITORASSERT_OFFSET))(this, condition, message);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SRF_SRMONOBEHAVIOUR_EDITORASSERT_OFFSET))(this, a1, a2);
 		}
 	};
 }

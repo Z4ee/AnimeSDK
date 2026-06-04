@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNavigationState_TypeDefinitionIndex = 52645;
+	inline static constexpr unsigned int AdvNavigationState_TypeDefinitionIndex = 53345;
 
 	enum class AdvNavigationState : ::System::Int32
 	{

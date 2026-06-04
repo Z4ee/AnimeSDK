@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18A4E030)
-#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A4DEF0)
-#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4DEE0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1987ECC0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1987EB70)
+#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1987EB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavNodeInnerConnectInfo_TypeDefinitionIndex = 16273;
+	inline static constexpr unsigned int LevelNavNodeInnerConnectInfo_TypeDefinitionIndex = 16307;
 
 	class LevelNavNodeInnerConnectInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERCONNECTINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelNavNodeInnerConnectInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNavNodeInnerConnectInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNavNodeInnerConnectInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERCONNECTINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNavNodeInnerConnectInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERCONNECTINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelNavNodeInnerConnectInfo* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNavNodeInnerConnectInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNavNodeInnerConnectInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERCONNECTINFO_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNavNodeInnerConnectInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERCONNECTINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

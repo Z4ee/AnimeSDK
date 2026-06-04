@@ -1,0 +1,148 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_97E659ED8D5D259C_20;
+namespace RPG::Client { class ChallengeData; }
+namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResultBase; }
+namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTargetsViewModel; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GETSTAGERESULT_OFFSET UNITYSDK_OFFSET(0xB4C5A70)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_CHALLENGEDATAREF_OFFSET UNITYSDK_OFFSET(0xB4C5890)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET UNITYSDK_OFFSET(0xB4C5910)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_CURRENTSTAGEINDEX_OFFSET UNITYSDK_OFFSET(0xB4C58F0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_GROUPCONFIG_OFFSET UNITYSDK_OFFSET(0xB4C5870)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_ISPASSED_OFFSET UNITYSDK_OFFSET(0xB4C58D0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_STAGECOUNT_OFFSET UNITYSDK_OFFSET(0xB4C5950)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_STAGES_OFFSET UNITYSDK_OFFSET(0xB4C5930)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_TARGETS_OFFSET UNITYSDK_OFFSET(0xB4C58B0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_CHALLENGEDATAREF_OFFSET UNITYSDK_OFFSET(0xB4C58A0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_CURRENTSTAGEBUFFID_OFFSET UNITYSDK_OFFSET(0xB4C5920)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_CURRENTSTAGEINDEX_OFFSET UNITYSDK_OFFSET(0xB4C5900)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_GROUPCONFIG_OFFSET UNITYSDK_OFFSET(0xB4C5880)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_ISPASSED_OFFSET UNITYSDK_OFFSET(0xB4C58E0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_STAGES_OFFSET UNITYSDK_OFFSET(0xB4C5940)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_TARGETS_OFFSET UNITYSDK_OFFSET(0xB4C58C0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_TRYGETMEMORYCONFIGTOTALROUNDCOUNT_OFFSET UNITYSDK_OFFSET(0xB4C5B80)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_TRYGETSTORYCONFIGCLEARSCORE_OFFSET UNITYSDK_OFFSET(0xB4C5C40)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_TRYGETSTORYCONFIGFEVERBUFFIDS_OFFSET UNITYSDK_OFFSET(0xB4C5D00)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB4C5A60)
+
+namespace RPG::Client::Challenge::Tierce
+{
+	inline static constexpr unsigned int ChallengeTierceBattlePauseViewModel_TypeDefinitionIndex = 74216;
+
+	class ChallengeTierceBattlePauseViewModel : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>* _Stages_k__BackingField; // 0x10
+		::Class_1_97E659ED8D5D259C_20* _GroupConfig_k__BackingField; // 0x18
+		::RPG::Client::ChallengeData* _ChallengeDataRef_k__BackingField; // 0x20
+		::RPG::Client::Challenge::Tierce::ChallengeTierceTargetsViewModel* _Targets_k__BackingField; // 0x28
+		::System::Boolean _IsPassed_k__BackingField; // 0x30
+		::System::Nullable_1<::System::UInt32> _CurrentStageBuffID_k__BackingField; // 0x34
+		::System::Int32 _CurrentStageIndex_k__BackingField; // 0x3C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		::Class_1_97E659ED8D5D259C_20* get_GroupConfig()
+		{
+			return ((::Class_1_97E659ED8D5D259C_20*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_GROUPCONFIG_OFFSET))(this);
+		}
+
+		::System::Void set_GroupConfig(::Class_1_97E659ED8D5D259C_20* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_97E659ED8D5D259C_20*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_GROUPCONFIG_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::ChallengeData* get_ChallengeDataRef()
+		{
+			return ((::RPG::Client::ChallengeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_CHALLENGEDATAREF_OFFSET))(this);
+		}
+
+		::System::Void set_ChallengeDataRef(::RPG::Client::ChallengeData* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_CHALLENGEDATAREF_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::Challenge::Tierce::ChallengeTierceTargetsViewModel* get_Targets()
+		{
+			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceTargetsViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_TARGETS_OFFSET))(this);
+		}
+
+		::System::Void set_Targets(::RPG::Client::Challenge::Tierce::ChallengeTierceTargetsViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Challenge::Tierce::ChallengeTierceTargetsViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_TARGETS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsPassed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_ISPASSED_OFFSET))(this);
+		}
+
+		::System::Void set_IsPassed(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_ISPASSED_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_CurrentStageIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_CURRENTSTAGEINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentStageIndex(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_CURRENTSTAGEINDEX_OFFSET))(this, a1);
+		}
+
+		::System::Nullable_1<::System::UInt32> get_CurrentStageBuffID()
+		{
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentStageBuffID(::System::Nullable_1<::System::UInt32> a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_CURRENTSTAGEBUFFID_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>* get_Stages()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_STAGES_OFFSET))(this);
+		}
+
+		::System::Void set_Stages(::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_STAGES_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_StageCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_STAGECOUNT_OFFSET))(this);
+		}
+
+		::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase* GetStageResult(::System::Int32 a1)
+		{
+			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GETSTAGERESULT_OFFSET))(this, a1);
+		}
+
+		::System::Nullable_1<::System::Int32> TryGetMemoryConfigTotalRoundCount()
+		{
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_TRYGETMEMORYCONFIGTOTALROUNDCOUNT_OFFSET))(this);
+		}
+
+		::System::Nullable_1<::System::Int32> TryGetStoryConfigClearScore()
+		{
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_TRYGETSTORYCONFIGCLEARSCORE_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* TryGetStoryConfigFeverBuffIDs()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_TRYGETSTORYCONFIGFEVERBUFFIDS_OFFSET))(this);
+		}
+	};
+}

@@ -15,12 +15,12 @@ namespace RPG::GameCore { class PhotographToastTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_METHOD_2_93401F16BD6B798A_OFFSET UNITYSDK_OFFSET(0x18BF7780)
-#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF7B50)
+#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_METHOD_2_C569E7E7784921FF_OFFSET UNITYSDK_OFFSET(0x19A09510)
+#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A09870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphSettingConfig_TypeDefinitionIndex = 18085;
+	inline static constexpr unsigned int PhotoGraphSettingConfig_TypeDefinitionIndex = 18109;
 
 	class PhotoGraphSettingConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -42,9 +42,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_93401F16BD6B798A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphSettingConfig*& a2)
+		static ::System::Void Method_2_C569E7E7784921FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphSettingConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphSettingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_METHOD_2_93401F16BD6B798A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphSettingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_METHOD_2_C569E7E7784921FF_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,26 +5,26 @@
 
 namespace System { class String; }
 
-#define SYSTEM_THREADING_EVENTWAITHANDLE_RESET_OFFSET UNITYSDK_OFFSET(0x1785F820)
-#define SYSTEM_THREADING_EVENTWAITHANDLE_SET_OFFSET UNITYSDK_OFFSET(0x1785DC10)
-#define SYSTEM_THREADING_EVENTWAITHANDLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1785F590)
-#define SYSTEM_THREADING_EVENTWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1785BB00)
+#define SYSTEM_THREADING_EVENTWAITHANDLE_RESET_OFFSET UNITYSDK_OFFSET(0x18619110)
+#define SYSTEM_THREADING_EVENTWAITHANDLE_SET_OFFSET UNITYSDK_OFFSET(0x18617860)
+#define SYSTEM_THREADING_EVENTWAITHANDLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18618E50)
+#define SYSTEM_THREADING_EVENTWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18615700)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int EventWaitHandle_TypeDefinitionIndex = 825;
+	inline static constexpr unsigned int EventWaitHandle_TypeDefinitionIndex = 824;
 
 	class EventWaitHandle : public ::System::Threading::WaitHandle
 	{
 	public:
-		::System::Void _ctor(::System::Boolean initialState, ::System::Threading::EventResetMode mode)
+		::System::Void _ctor(::System::Boolean a1, ::System::Threading::EventResetMode a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Threading::EventResetMode))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EVENTWAITHANDLE__CTOR_OFFSET))(this, initialState, mode);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Threading::EventResetMode))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EVENTWAITHANDLE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::Boolean initialState, ::System::Threading::EventResetMode mode, ::System::String* name)
+		::System::Void _ctor_1(::System::Boolean a1, ::System::Threading::EventResetMode a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Threading::EventResetMode, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EVENTWAITHANDLE__CTOR_1_OFFSET))(this, initialState, mode, name);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Threading::EventResetMode, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_EVENTWAITHANDLE__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean Reset()

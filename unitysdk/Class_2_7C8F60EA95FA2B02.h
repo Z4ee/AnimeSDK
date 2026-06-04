@@ -1,0 +1,496 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/SkillCharacterComponent_UseSkillErrorInfo.h"
+#include "unitysdk/RPG/GameCore/SkillSPProgressType.h"
+
+class Class_1_152140BAFD2DB102;
+class Class_1_274386B6ECA5E606;
+class Class_1_611F5177B2A953F1;
+class Class_2_0F189A079D24DCEA;
+namespace RPG::Client { class HPBar; }
+namespace RPG::GameCore { class AbilityBeingLimbo; }
+namespace RPG::GameCore { class AbilityCurrentSPChange; }
+namespace RPG::GameCore { class AbilityMaxSPChange; }
+namespace RPG::GameCore { class BattleInstance; }
+namespace RPG::GameCore { class CharacterDataComponent; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelBattleEventCreate; }
+namespace RPG::GameCore { class LevelTurnAvatarChangeFinish; }
+namespace RPG::GameCore { class LevelTurnUltraSkillCancel; }
+namespace RPG::GameCore { class LevelTurnUltraSkillExecutingBegin; }
+namespace RPG::GameCore { class LevelTurnUltraSkillPrepare; }
+namespace RPG::GameCore { class LevelUIComponent; }
+namespace RPG::GameCore { class SkillCharacterComponent; }
+namespace RPG::GameCore { class SkillData; }
+namespace RPG::GameCore { class TurnBasedAbilityComponent; }
+namespace RPG::GameCore { class TurnBasedModifierInstance; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System { template <typename T> class Func_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Transform; }
+
+#define CLASS_2_7C8F60EA95FA2B02_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xAAF6C40)
+#define CLASS_2_7C8F60EA95FA2B02_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xAAF7160)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_0AB718BEE9EA06D7_OFFSET UNITYSDK_OFFSET(0xAAF5060)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_114F4D812601239B_OFFSET UNITYSDK_OFFSET(0xAAF32E0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_1ABF1CBED7A4AF0A_OFFSET UNITYSDK_OFFSET(0xAAF2B90)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_235D058510899FEE_OFFSET UNITYSDK_OFFSET(0xAAF30D0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_2386C7BBF94ECF92_OFFSET UNITYSDK_OFFSET(0xAAF4FB0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0xAAF2B80)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_24B05D2E15A5C3C8_OFFSET UNITYSDK_OFFSET(0xAAF37C0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_2CD6D17D088D5DB9_OFFSET UNITYSDK_OFFSET(0xAAF4CA0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_2E07D057E72DE76A_OFFSET UNITYSDK_OFFSET(0xAAF4840)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_361C380E2F55376A_OFFSET UNITYSDK_OFFSET(0xAAF5AB0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_3CAB3F134E5CEF52_OFFSET UNITYSDK_OFFSET(0xAAF2E20)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_3CDD0248353333ED_OFFSET UNITYSDK_OFFSET(0xAAF3290)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0xAAF3080)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_51BD4D81CB915AD3_OFFSET UNITYSDK_OFFSET(0xAAF3860)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0xAAF7780)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0xAAF7840)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xAAF7720)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_5800B8C2CE59928F_OFFSET UNITYSDK_OFFSET(0xAAF4B90)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_5D6CD31BA2372F92_OFFSET UNITYSDK_OFFSET(0xAAF4CF0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_72B7EB6E336DCA09_OFFSET UNITYSDK_OFFSET(0xAAF3D00)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_76E2B58C2AA79A8F_OFFSET UNITYSDK_OFFSET(0xAAF5250)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_7F4EBEC55EBE2D81_OFFSET UNITYSDK_OFFSET(0xAAF5470)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_7F7E40EC5698C6EF_OFFSET UNITYSDK_OFFSET(0xAAF3C40)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_7FBAA229ED524F8E_1_OFFSET UNITYSDK_OFFSET(0xAAF5E70)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_7FBAA229ED524F8E_OFFSET UNITYSDK_OFFSET(0xAAF4680)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_8542E37E74FDE1B5_OFFSET UNITYSDK_OFFSET(0xAAF2DD0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_87A99E4BDD8FF37B_OFFSET UNITYSDK_OFFSET(0xAAF4F00)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_89BDA051DC0B625D_OFFSET UNITYSDK_OFFSET(0xAAF33B0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_936C368CBFC1FD6C_OFFSET UNITYSDK_OFFSET(0xAAF3D60)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0xAAF3BE0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_96A0F0F8F3E30F20_OFFSET UNITYSDK_OFFSET(0xAAF4E00)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_1_OFFSET UNITYSDK_OFFSET(0xAAF64F0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_2_OFFSET UNITYSDK_OFFSET(0xAAF6590)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_3_OFFSET UNITYSDK_OFFSET(0xAAF6630)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_4_OFFSET UNITYSDK_OFFSET(0xAAF66D0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_5_OFFSET UNITYSDK_OFFSET(0xAAF6760)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_6_OFFSET UNITYSDK_OFFSET(0xAAF68C0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_7_OFFSET UNITYSDK_OFFSET(0xAAF6A40)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_8_OFFSET UNITYSDK_OFFSET(0xAAF6AE0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_OFFSET UNITYSDK_OFFSET(0xAAF6360)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0xAAF43F0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_A671DB75B24BDC06_OFFSET UNITYSDK_OFFSET(0xAAF53C0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_AC1BFDB3D2FC0C79_OFFSET UNITYSDK_OFFSET(0xAAF5EF0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_AEA58ADE0ABA06C8_OFFSET UNITYSDK_OFFSET(0xAAF4A60)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_B190F8BB00264010_OFFSET UNITYSDK_OFFSET(0xAAF3590)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_B7879BA86A6429FD_OFFSET UNITYSDK_OFFSET(0xAAF34C0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_BF51A7F7DC348455_OFFSET UNITYSDK_OFFSET(0xAAF3770)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_C1C0CB2C8B6124DE_OFFSET UNITYSDK_OFFSET(0xAAF6420)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0xAAF6340)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_C91E5170F9E36EED_OFFSET UNITYSDK_OFFSET(0xAAF78A0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xAAF2D30)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_CEE2550285AA5985_OFFSET UNITYSDK_OFFSET(0xAAF6960)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_D2A677C6728D2D07_OFFSET UNITYSDK_OFFSET(0xAAF50E0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_D3E970D78BB8886D_OFFSET UNITYSDK_OFFSET(0xAAF4460)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_D4D8C807217820FC_OFFSET UNITYSDK_OFFSET(0xAAF4220)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_E55E4AD995D596D8_OFFSET UNITYSDK_OFFSET(0xAAF6150)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_E5D1955A389D1F9C_OFFSET UNITYSDK_OFFSET(0xAAF6030)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xAAF6350)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_F25D2DE7181D2805_1_OFFSET UNITYSDK_OFFSET(0xAAF62C0)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_F25D2DE7181D2805_OFFSET UNITYSDK_OFFSET(0xAAF5A30)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_F37CDBD6D46274D2_1_OFFSET UNITYSDK_OFFSET(0xAAF6B80)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_F37CDBD6D46274D2_OFFSET UNITYSDK_OFFSET(0xAAF6800)
+#define CLASS_2_7C8F60EA95FA2B02_METHOD_2_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0xAAF3140)
+#define CLASS_2_7C8F60EA95FA2B02__CTOR_OFFSET UNITYSDK_OFFSET(0xAAF7640)
+#define CLASS_2_7C8F60EA95FA2B02__ONBIND_OFFSET UNITYSDK_OFFSET(0xAAF2AD0)
+#define CLASS_2_7C8F60EA95FA2B02__ONTICK_OFFSET UNITYSDK_OFFSET(0xAAF2D70)
+#define CLASS_2_7C8F60EA95FA2B02___IFIXBASEPROXY_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xAAF7900)
+#define CLASS_2_7C8F60EA95FA2B02___IFIXBASEPROXY_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xAAF7960)
+#define CLASS_2_7C8F60EA95FA2B02___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xAAF76C0)
+#define CLASS_2_7C8F60EA95FA2B02___IFIXBASEPROXY__ONTICK_OFFSET UNITYSDK_OFFSET(0xAAF77E0)
+
+inline static constexpr unsigned int Class_2_7C8F60EA95FA2B02_TypeDefinitionIndex = 66886;
+
+class Class_2_7C8F60EA95FA2B02 : public ::Class_1_CA217ABF4E3B4F3F
+{
+public:
+	// static const ::System::String* Field_2_0; // 0x0
+	// static const ::System::Int32 Field_2_1 = 0x2; // 0x0
+	::Class_1_611F5177B2A953F1* Field_2_2; // 0x60
+	::RPG::GameCore::CharacterDataComponent* Field_2_3; // 0x68
+	::RPG::GameCore::SkillData* Field_2_4; // 0x70
+	::UnityEngine::Transform* Field_2_5; // 0x78
+	::RPG::GameCore::GameEntity* Field_2_6; // 0x80
+	::System::Collections::Generic::List_1<::Class_2_0F189A079D24DCEA*>* Field_2_7; // 0x88
+	::RPG::GameCore::BattleInstance* Field_2_8; // 0x90
+	::System::Func_1<::System::Boolean>* Field_2_9; // 0x98
+	::RPG::GameCore::SkillCharacterComponent* Field_2_10; // 0xA0
+	::Class_1_274386B6ECA5E606* Field_2_11; // 0xA8
+	::RPG::GameCore::LevelUIComponent* Field_2_12; // 0xB0
+	::RPG::Client::HPBar* Field_2_13; // 0xB8
+	::RPG::GameCore::TurnBasedAbilityComponent* Field_2_14; // 0xC0
+	::RPG::GameCore::FixPoint Field_2_15; // 0xC8
+	::System::UInt32 Field_2_16; // 0xD0
+	::System::Int32 Field_2_17; // 0xD4
+	::System::Boolean Field_2_18; // 0xD8
+	::System::Boolean Field_2_19; // 0xD9
+	::System::Boolean Field_2_20; // 0xDA
+	::System::UInt32 Field_2_21; // 0xDC
+	::RPG::GameCore::SkillSPProgressType Field_2_22; // 0xE0
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02__ONBIND_OFFSET))(this);
+	}
+
+	::Class_1_CA217ABF4E3B4F3F* Method_2_24748FC20F375725()
+	{
+		return ((::Class_1_CA217ABF4E3B4F3F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_24748FC20F375725_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1ABF1CBED7A4AF0A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_1ABF1CBED7A4AF0A_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void _OnTick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02__ONTICK_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_8542E37E74FDE1B5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_8542E37E74FDE1B5_OFFSET))(this);
+	}
+
+	::System::Void Method_2_3E7178C5ECF017DB(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_3E7178C5ECF017DB_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_235D058510899FEE(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_235D058510899FEE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_3CDD0248353333ED(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_3CDD0248353333ED_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_89BDA051DC0B625D(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_89BDA051DC0B625D_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_B7879BA86A6429FD(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_B7879BA86A6429FD_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_BF51A7F7DC348455(::System::Func_1<::System::Boolean>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Func_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_BF51A7F7DC348455_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_24B05D2E15A5C3C8()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_24B05D2E15A5C3C8_OFFSET))(this);
+	}
+
+	::System::Void Method_2_51BD4D81CB915AD3(::System::Int32 a1, ::System::Boolean a2, ::RPG::GameCore::GameEntity* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_51BD4D81CB915AD3_OFFSET))(this, a1, a2, a3);
+	}
+
+	::RPG::GameCore::SkillCharacterComponent_UseSkillErrorInfo Method_2_7F7E40EC5698C6EF()
+	{
+		return ((::RPG::GameCore::SkillCharacterComponent_UseSkillErrorInfo(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_7F7E40EC5698C6EF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_72B7EB6E336DCA09(::RPG::GameCore::LevelBattleEventCreate* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelBattleEventCreate*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_72B7EB6E336DCA09_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_D4D8C807217820FC(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_D4D8C807217820FC_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_D3E970D78BB8886D(::RPG::GameCore::AbilityCurrentSPChange* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityCurrentSPChange*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_D3E970D78BB8886D_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_2E07D057E72DE76A(::RPG::GameCore::AbilityMaxSPChange* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityMaxSPChange*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_2E07D057E72DE76A_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_AEA58ADE0ABA06C8(::RPG::GameCore::AbilityBeingLimbo* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityBeingLimbo*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_AEA58ADE0ABA06C8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_2CD6D17D088D5DB9()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_2CD6D17D088D5DB9_OFFSET))(this);
+	}
+
+	::System::Void Method_2_96A0F0F8F3E30F20(::RPG::GameCore::LevelTurnUltraSkillPrepare* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelTurnUltraSkillPrepare*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_96A0F0F8F3E30F20_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_87A99E4BDD8FF37B(::RPG::GameCore::LevelTurnUltraSkillCancel* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelTurnUltraSkillCancel*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_87A99E4BDD8FF37B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_2386C7BBF94ECF92(::RPG::GameCore::LevelTurnUltraSkillExecutingBegin* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelTurnUltraSkillExecutingBegin*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_2386C7BBF94ECF92_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_0AB718BEE9EA06D7(::Class_1_152140BAFD2DB102* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_152140BAFD2DB102*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_0AB718BEE9EA06D7_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_D2A677C6728D2D07(::RPG::GameCore::TurnBasedModifierInstance* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_D2A677C6728D2D07_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_76E2B58C2AA79A8F(::RPG::GameCore::TurnBasedModifierInstance* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_76E2B58C2AA79A8F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A671DB75B24BDC06(::RPG::GameCore::LevelTurnAvatarChangeFinish* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelTurnAvatarChangeFinish*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_A671DB75B24BDC06_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_3CAB3F134E5CEF52()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_3CAB3F134E5CEF52_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_936C368CBFC1FD6C(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_936C368CBFC1FD6C_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_7FBAA229ED524F8E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_7FBAA229ED524F8E_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7F4EBEC55EBE2D81()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_7F4EBEC55EBE2D81_OFFSET))(this);
+	}
+
+	::System::Void Method_2_AC1BFDB3D2FC0C79(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_AC1BFDB3D2FC0C79_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 Method_2_E5D1955A389D1F9C(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::FixPoint a2)
+	{
+		return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_E5D1955A389D1F9C_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_361C380E2F55376A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_361C380E2F55376A_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7FBAA229ED524F8E_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_7FBAA229ED524F8E_1_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_2_F25D2DE7181D2805()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_F25D2DE7181D2805_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_2_F25D2DE7181D2805_1()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_F25D2DE7181D2805_1_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_2_E55E4AD995D596D8()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_E55E4AD995D596D8_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F5447CD65612575D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_F5447CD65612575D_OFFSET))(this);
+	}
+
+	::System::Void Method_2_114F4D812601239B(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_114F4D812601239B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_B190F8BB00264010(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_B190F8BB00264010_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_5D6CD31BA2372F92()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_5D6CD31BA2372F92_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5800B8C2CE59928F(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_5800B8C2CE59928F_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_2_C74CF020AA42ED85()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_C74CF020AA42ED85_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_A3FAE12D7B6ACD62()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_A3FAE12D7B6ACD62_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_95780ED94B90ED36()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_95780ED94B90ED36_OFFSET))(this);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_C1C0CB2C8B6124DE(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_C1C0CB2C8B6124DE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB_1(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB_2(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_2_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB_3(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_3_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB_4(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB_5(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_5_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_F37CDBD6D46274D2(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_F37CDBD6D46274D2_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB_6(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_6_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_CEE2550285AA5985(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_CEE2550285AA5985_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB_7(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_7_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A27D06F9481FAFDB_8(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_A27D06F9481FAFDB_8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_F37CDBD6D46274D2_1(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_F37CDBD6D46274D2_1_OFFSET))(this, a1);
+	}
+
+	::System::Void AutoBindCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_AUTOBINDCALLBACK_OFFSET))(this);
+	}
+
+	::System::Void AutoRemoveCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_AUTOREMOVECALLBACK_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02___IFIXBASEPROXY__ONBIND_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_5790A55946AA509D_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5790A55946AA509D_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_5790A55946AA509D_1_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__OnTick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02___IFIXBASEPROXY__ONTICK_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_5790A55946AA509D_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_5790A55946AA509D_2_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C91E5170F9E36EED(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02_METHOD_2_C91E5170F9E36EED_OFFSET))(this, a1);
+	}
+
+	::System::Void __iFixBaseProxy_AutoBindCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02___IFIXBASEPROXY_AUTOBINDCALLBACK_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_AutoRemoveCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7C8F60EA95FA2B02___IFIXBASEPROXY_AUTOREMOVECALLBACK_OFFSET))(this);
+	}
+};

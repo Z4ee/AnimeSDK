@@ -4,18 +4,18 @@
 
 namespace UnityEngine::ProBuilder::Poly2Tri { class AdvancingFrontNode; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPBASIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F2150)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPBASIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B056BF0)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int DTSweepBasin_TypeDefinitionIndex = 35503;
+	inline static constexpr unsigned int DTSweepBasin_TypeDefinitionIndex = 35803;
 
 	class DTSweepBasin : public ::System::Object
 	{
 	public:
-		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* bottomNode; // 0x10
-		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* leftNode; // 0x18
-		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* rightNode; // 0x20
+		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* rightNode; // 0x10
+		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* bottomNode; // 0x18
+		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* leftNode; // 0x20
 		::System::Boolean leftHighest; // 0x28
 		::System::Double width; // 0x30
 

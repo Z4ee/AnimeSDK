@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define LOCALE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1775BF80)
+#define LOCALE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x185188A0)
 
 inline static constexpr unsigned int Locale_TypeDefinitionIndex = 2245;
 
 class Locale : public ::System::Object
 {
 public:
-	static ::System::String* GetText(::System::String* msg)
+	static ::System::String* GetText(::System::String* a1)
 	{
-		return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + LOCALE_GETTEXT_OFFSET))(msg);
+		return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + LOCALE_GETTEXT_OFFSET))(a1);
 	}
 };

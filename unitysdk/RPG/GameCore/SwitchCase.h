@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateTaskListWithFail; }
 
-#define RPG_GAMECORE_SWITCHCASE_METHOD_3_295E26A54619163F_OFFSET UNITYSDK_OFFSET(0x18EB86B0)
-#define RPG_GAMECORE_SWITCHCASE_METHOD_3_DD06B7E62F2BF0A4_OFFSET UNITYSDK_OFFSET(0x18EB8730)
-#define RPG_GAMECORE_SWITCHCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB8700)
+#define RPG_GAMECORE_SWITCHCASE_METHOD_3_D53807AF0057DC05_OFFSET UNITYSDK_OFFSET(0x19CD84F0)
+#define RPG_GAMECORE_SWITCHCASE_METHOD_3_D863706CAC774AD6_OFFSET UNITYSDK_OFFSET(0x19CD8570)
+#define RPG_GAMECORE_SWITCHCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD8540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCase_TypeDefinitionIndex = 22756;
+	inline static constexpr unsigned int SwitchCase_TypeDefinitionIndex = 22463;
 
 	class SwitchCase : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_295E26A54619163F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCase*& a2)
+		static ::System::Void Method_3_D53807AF0057DC05(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASE_METHOD_3_295E26A54619163F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASE_METHOD_3_D53807AF0057DC05_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DD06B7E62F2BF0A4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCase* a2)
+		static ::System::Void Method_3_D863706CAC774AD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASE_METHOD_3_DD06B7E62F2BF0A4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASE_METHOD_3_D863706CAC774AD6_OFFSET))(a1, a2);
 		}
 	};
 }

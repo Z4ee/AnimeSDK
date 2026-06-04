@@ -6,7 +6,7 @@
 #include "unitysdk/Struct_2_16F410D309DC331F.h"
 #include "unitysdk/Struct_2_21F06CB8E00E232D.h"
 
-class Class_1_FF977B9ED3EAAF49;
+class Class_1_BEC7DE0942A57F8C;
 namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class LittleGameFireEffectParams; }
 namespace RPG::GameCore { class LittleGameKillEffectParams; }
@@ -16,7 +16,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IEffectService_1_TypeDefinitionIndex = 38662;
+	inline static constexpr unsigned int IEffectService_1_TypeDefinitionIndex = 39430;
 
 	template <typename TEntity>
 	class IEffectService_1

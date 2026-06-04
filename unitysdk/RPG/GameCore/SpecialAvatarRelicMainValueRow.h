@@ -6,15 +6,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_1_A4D134A7DAD941E3;
 
-#define RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x18E80390)
-#define RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E80490)
-#define RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x18E80320)
-#define RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_RESET_OFFSET UNITYSDK_OFFSET(0x18E80380)
-#define RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E805B0)
+#define RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x19C9BA10)
+#define RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C9BB10)
+#define RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x19C9BC40)
+#define RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_RESET_OFFSET UNITYSDK_OFFSET(0x19C9BCA0)
+#define RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C9BC30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialAvatarRelicMainValueRow_TypeDefinitionIndex = 14339;
+	inline static constexpr unsigned int SpecialAvatarRelicMainValueRow_TypeDefinitionIndex = 14382;
 
 	class SpecialAvatarRelicMainValueRow : public ::System::Object
 	{
@@ -27,24 +27,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW__CTOR_OFFSET))(this);
 		}
 
-		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> offsetData)
+		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SpecialAvatarRelicMainValueRow* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMTABLEOFFSET_OFFSET))(this, offsetData);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SpecialAvatarRelicMainValueRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SpecialAvatarRelicMainValueRow*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SpecialAvatarRelicMainValueRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMBINARY_OFFSET))(a1, a2);
+		}
+
+		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMTABLEOFFSET_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_RESET_OFFSET))(this);
-		}
-
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::SpecialAvatarRelicMainValueRow* val)
-		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SpecialAvatarRelicMainValueRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMBINARYWITHOUTNEW_OFFSET))(array, val);
-		}
-
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::SpecialAvatarRelicMainValueRow*& val)
-		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SpecialAvatarRelicMainValueRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALAVATARRELICMAINVALUEROW_FROMBINARY_OFFSET))(array, val);
 		}
 	};
 }

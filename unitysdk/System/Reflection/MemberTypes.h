@@ -3,7 +3,7 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MemberTypes_TypeDefinitionIndex = 573;
+	inline static constexpr unsigned int MemberTypes_TypeDefinitionIndex = 572;
 
 	enum class MemberTypes : ::System::Int32
 	{

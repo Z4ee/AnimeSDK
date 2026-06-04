@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightGameModifier.h"
 
-class Class_1_EBD9A77671154634;
+class Class_1_B8E6D5AD8534D123;
 
-#define RPG_CLIENT_GRIDFIGHTUPGRADEROLEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xA5CACE0)
+#define RPG_CLIENT_GRIDFIGHTUPGRADEROLEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xBCCC290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightUpgradeRoleModifier_TypeDefinitionIndex = 59858;
+	inline static constexpr unsigned int GridFightUpgradeRoleModifier_TypeDefinitionIndex = 60793;
 
 	class GridFightUpgradeRoleModifier : public ::RPG::Client::GridFightGameModifier
 	{
 	public:
-		::System::Void _ctor(::Class_1_EBD9A77671154634* info)
+		::System::Void _ctor(::Class_1_B8E6D5AD8534D123* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_EBD9A77671154634*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUPGRADEROLEMODIFIER__CTOR_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_B8E6D5AD8534D123*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUPGRADEROLEMODIFIER__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

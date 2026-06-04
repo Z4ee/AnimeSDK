@@ -6,7 +6,7 @@ namespace UnityEngine::Buffers { template <typename T> class DefaultArrayPool_1_
 
 namespace UnityEngine::Buffers
 {
-	inline static constexpr unsigned int DefaultArrayPool_1_TypeDefinitionIndex = 4753;
+	inline static constexpr unsigned int DefaultArrayPool_1_TypeDefinitionIndex = 4927;
 
 	template <typename T>
 	class DefaultArrayPool_1 : public ::UnityEngine::Buffers::ArrayPool_1<T>

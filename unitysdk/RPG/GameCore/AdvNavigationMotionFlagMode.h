@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNavigationMotionFlagMode_TypeDefinitionIndex = 10246;
+	inline static constexpr unsigned int AdvNavigationMotionFlagMode_TypeDefinitionIndex = 10077;
 
 	enum class AdvNavigationMotionFlagMode : ::System::Int32
 	{

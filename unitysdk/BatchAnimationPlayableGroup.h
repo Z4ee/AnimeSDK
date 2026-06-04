@@ -7,10 +7,10 @@ class BatchAnimationClipGroup;
 class BatchAnimationPlayable;
 namespace UnityEngine::Rendering { class BatchAnimation; }
 
-#define BATCHANIMATIONPLAYABLEGROUP_SETUPANIMGROUP_OFFSET UNITYSDK_OFFSET(0x180F9F90)
-#define BATCHANIMATIONPLAYABLEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x180FA020)
+#define BATCHANIMATIONPLAYABLEGROUP_SETUPANIMGROUP_OFFSET UNITYSDK_OFFSET(0x18E9CCA0)
+#define BATCHANIMATIONPLAYABLEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18E9CD50)
 
-inline static constexpr unsigned int BatchAnimationPlayableGroup_TypeDefinitionIndex = 34857;
+inline static constexpr unsigned int BatchAnimationPlayableGroup_TypeDefinitionIndex = 35140;
 
 class BatchAnimationPlayableGroup : public ::System::Object
 {
@@ -24,8 +24,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BATCHANIMATIONPLAYABLEGROUP__CTOR_OFFSET))(this);
 	}
 
-	static ::System::Void SetupAnimGroup(::UnityEngine::Rendering::BatchAnimation* batchAnimation, ::BatchAnimationClipGroup* bakeData, ::BatchAnimationPlayable* playable, ::System::Int32 index)
+	static ::System::Void SetupAnimGroup(::UnityEngine::Rendering::BatchAnimation* a1, ::BatchAnimationClipGroup* a2, ::BatchAnimationPlayable* a3, ::System::Int32 a4)
 	{
-		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::BatchAnimationClipGroup*, ::BatchAnimationPlayable*, ::System::Int32))((::PBYTE)hIl2Cpp + BATCHANIMATIONPLAYABLEGROUP_SETUPANIMGROUP_OFFSET))(batchAnimation, bakeData, playable, index);
+		return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::BatchAnimationClipGroup*, ::BatchAnimationPlayable*, ::System::Int32))((::PBYTE)hIl2Cpp + BATCHANIMATIONPLAYABLEGROUP_SETUPANIMGROUP_OFFSET))(a1, a2, a3, a4);
 	}
 };

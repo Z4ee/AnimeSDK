@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_ISATTACKER_METHOD_4_32015C2B300523BE_OFFSET UNITYSDK_OFFSET(0x18870320)
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_ISATTACKER_METHOD_4_AC0DBC0E841D84B0_OFFSET UNITYSDK_OFFSET(0x1886E4B0)
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_ISATTACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1886E460)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_ISATTACKER_METHOD_4_B519913715840E90_OFFSET UNITYSDK_OFFSET(0x196AF100)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_ISATTACKER_METHOD_4_F617AECF70825622_OFFSET UNITYSDK_OFFSET(0x196AD290)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_ISATTACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x196AD240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatPredicateConfig_IsAttacker_TypeDefinitionIndex = 15273;
+	inline static constexpr unsigned int DiceCombatPredicateConfig_IsAttacker_TypeDefinitionIndex = 15332;
 
 	class DiceCombatPredicateConfig_IsAttacker : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_ISATTACKER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_32015C2B300523BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_IsAttacker*& a2)
+		static ::System::Void Method_4_B519913715840E90(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_IsAttacker*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_IsAttacker*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_ISATTACKER_METHOD_4_32015C2B300523BE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_IsAttacker*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_ISATTACKER_METHOD_4_B519913715840E90_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AC0DBC0E841D84B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_IsAttacker* a2)
+		static ::System::Void Method_4_F617AECF70825622(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_IsAttacker* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_IsAttacker*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_ISATTACKER_METHOD_4_AC0DBC0E841D84B0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_IsAttacker*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_ISATTACKER_METHOD_4_F617AECF70825622_OFFSET))(a1, a2);
 		}
 	};
 }

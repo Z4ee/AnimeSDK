@@ -5,11 +5,11 @@
 class Class_1_C0BFEE1D316B82F5;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_GRIDFIGHTMANAGER_WAVEKILLRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB6BC0B0)
+#define RPG_GAMECORE_GRIDFIGHTMANAGER_WAVEKILLRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCE29220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightManager_WaveKillRecordData_TypeDefinitionIndex = 51768;
+	inline static constexpr unsigned int GridFightManager_WaveKillRecordData_TypeDefinitionIndex = 52441;
 
 	class GridFightManager_WaveKillRecordData : public ::System::Object
 	{

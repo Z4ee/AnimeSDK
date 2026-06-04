@@ -5,32 +5,32 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A322560)
-#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3224C0)
+#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B17CE80)
+#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17CE00)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PackingAttribute_TypeDefinitionIndex = 33488;
+	inline static constexpr unsigned int PackingAttribute_TypeDefinitionIndex = 33770;
 
 	class PackingAttribute : public ::System::Attribute
 	{
 	public:
-		::Il2CppArray<::System::Single>* range; // 0x10
-		::Il2CppArray<::System::String*>* displayNames; // 0x18
-		::System::Int32 offsetInSource; // 0x20
-		::UnityEngine::Rendering::FieldPacking packingScheme; // 0x24
-		::System::Int32 sizeInBits; // 0x28
+		::Il2CppArray<::System::String*>* displayNames; // 0x10
+		::Il2CppArray<::System::Single>* range; // 0x18
+		::UnityEngine::Rendering::FieldPacking packingScheme; // 0x20
+		::System::Int32 sizeInBits; // 0x24
+		::System::Int32 offsetInSource; // 0x28
 		::System::Boolean sRGBDisplay; // 0x2C
 		::System::Boolean isDirection; // 0x2D
 
-		::System::Void _ctor(::Il2CppArray<::System::String*>* displayNames, ::UnityEngine::Rendering::FieldPacking packingScheme, ::System::Int32 bitSize, ::System::Int32 offsetInSource, ::System::Single minValue, ::System::Single maxValue, ::System::Boolean isDirection, ::System::Boolean sRGBDisplay)
+		::System::Void _ctor(::Il2CppArray<::System::String*>* a1, ::UnityEngine::Rendering::FieldPacking a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Single a5, ::System::Single a6, ::System::Boolean a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::FieldPacking, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PACKINGATTRIBUTE__CTOR_OFFSET))(this, displayNames, packingScheme, bitSize, offsetInSource, minValue, maxValue, isDirection, sRGBDisplay);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::FieldPacking, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PACKINGATTRIBUTE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Void _ctor_1(::System::String* displayName, ::UnityEngine::Rendering::FieldPacking packingScheme, ::System::Int32 bitSize, ::System::Int32 offsetInSource, ::System::Single minValue, ::System::Single maxValue, ::System::Boolean isDirection, ::System::Boolean sRGBDisplay)
+		::System::Void _ctor_1(::System::String* a1, ::UnityEngine::Rendering::FieldPacking a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Single a5, ::System::Single a6, ::System::Boolean a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Rendering::FieldPacking, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PACKINGATTRIBUTE__CTOR_1_OFFSET))(this, displayName, packingScheme, bitSize, offsetInSource, minValue, maxValue, isDirection, sRGBDisplay);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Rendering::FieldPacking, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PACKINGATTRIBUTE__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 	};
 }

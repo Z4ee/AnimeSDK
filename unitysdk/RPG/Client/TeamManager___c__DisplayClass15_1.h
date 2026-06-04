@@ -5,12 +5,12 @@
 namespace RPG::Client { class TeamManager___c__DisplayClass15_0; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB2AAA70)
-#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_1__LOADBACKGROUNDPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xB2B4AD0)
+#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC9F9670)
+#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_1__LOADBACKGROUNDPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xCA04090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamManager___c__DisplayClass15_1_TypeDefinitionIndex = 56044;
+	inline static constexpr unsigned int TeamManager___c__DisplayClass15_1_TypeDefinitionIndex = 56806;
 
 	class TeamManager___c__DisplayClass15_1 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _LoadBackGroundPlayer_b__0(::RPG::GameCore::GameEntity* entity)
+		::System::Void _LoadBackGroundPlayer_b__0(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_1__LOADBACKGROUNDPLAYER_B__0_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS15_1__LOADBACKGROUNDPLAYER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

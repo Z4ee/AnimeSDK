@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Index.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ZLinq/Linq/ArraySelectWhere_2.h"
 #include "unitysdk/ZLinq/Linq/ArraySelect_2.h"
@@ -41,7 +40,7 @@ namespace ZLinq::Internal { template <typename T> class HashSetSlim_1; }
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ValueEnumerableExtensions_TypeDefinitionIndex = 6503;
+	inline static constexpr unsigned int ValueEnumerableExtensions_TypeDefinitionIndex = 6332;
 
 	class ValueEnumerableExtensions : public ::System::Object
 	{

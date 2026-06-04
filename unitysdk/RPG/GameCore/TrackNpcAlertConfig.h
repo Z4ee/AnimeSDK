@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrackNpcAlertValueConfig; }
 
-#define RPG_GAMECORE_TRACKNPCALERTCONFIG_METHOD_2_4128180D10E9FBA4_OFFSET UNITYSDK_OFFSET(0x190A23F0)
-#define RPG_GAMECORE_TRACKNPCALERTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190A24D0)
+#define RPG_GAMECORE_TRACKNPCALERTCONFIG_METHOD_2_4128180D10E9FBA4_OFFSET UNITYSDK_OFFSET(0x19DED1A0)
+#define RPG_GAMECORE_TRACKNPCALERTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19DED280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackNpcAlertConfig_TypeDefinitionIndex = 21047;
+	inline static constexpr unsigned int TrackNpcAlertConfig_TypeDefinitionIndex = 20956;
 
 	class TrackNpcAlertConfig : public ::RPG::GameCore::JsonConfig
 	{

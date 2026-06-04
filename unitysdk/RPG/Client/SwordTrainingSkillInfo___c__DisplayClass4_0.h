@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class SwordTrainingSkillTypeData; }
 
-#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB25BB20)
-#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__DISPLAYCLASS4_0__GETSKILLTYPEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB25DA90)
+#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9A89A0)
+#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__DISPLAYCLASS4_0__GETSKILLTYPEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC9AA870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingSkillInfo___c__DisplayClass4_0_TypeDefinitionIndex = 57168;
+	inline static constexpr unsigned int SwordTrainingSkillInfo___c__DisplayClass4_0_TypeDefinitionIndex = 57958;
 
 	class SwordTrainingSkillInfo___c__DisplayClass4_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSKILLINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetSkillTypeData_b__0(::RPG::Client::SwordTrainingSkillTypeData* data)
+		::System::Boolean _GetSkillTypeData_b__0(::RPG::Client::SwordTrainingSkillTypeData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::SwordTrainingSkillTypeData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSKILLINFO___C__DISPLAYCLASS4_0__GETSKILLTYPEDATA_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::SwordTrainingSkillTypeData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSKILLINFO___C__DISPLAYCLASS4_0__GETSKILLTYPEDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

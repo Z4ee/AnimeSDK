@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIRSTPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188E9370)
-#define RPG_GAMECORE_FIRSTPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188E9430)
+#define RPG_GAMECORE_FIRSTPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19725A90)
+#define RPG_GAMECORE_FIRSTPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19725B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FirstPerformanceRow_TypeDefinitionIndex = 12418;
+	inline static constexpr unsigned int FirstPerformanceRow_TypeDefinitionIndex = 12506;
 
 	class FirstPerformanceRow : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIRSTPERFORMANCEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::FirstPerformanceRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FirstPerformanceRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FirstPerformanceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIRSTPERFORMANCEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FirstPerformanceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIRSTPERFORMANCEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

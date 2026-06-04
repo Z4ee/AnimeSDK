@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int Version_ParseFailureKind_TypeDefinitionIndex = 363;
+	inline static constexpr unsigned int Version_ParseFailureKind_TypeDefinitionIndex = 362;
 
 	enum class Version_ParseFailureKind : ::System::Int32
 	{

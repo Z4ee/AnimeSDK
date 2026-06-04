@@ -7,25 +7,25 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1742E0E0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x174300F0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x174300D0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1742E010)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17430090)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1742E080)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1742DF00)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x17430110)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x18230A40)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x18232A30)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x18232A00)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x182309A0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x182329E0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x18230A10)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x18230880)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x18232A60)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleAccountInfoDialog_TypeDefinitionIndex = 7755;
+	inline static constexpr unsigned int ConsoleAccountInfoDialog_TypeDefinitionIndex = 8658;
 
 	class ConsoleAccountInfoDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
 		static ::MiHoYo::SDK::Console::ConsoleAccountInfoDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Console::ConsoleAccountInfoDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleAccountInfoDialog_TypeDefinitionIndex)->GetStaticField(0x194C0);
+			return (::MiHoYo::SDK::Console::ConsoleAccountInfoDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleAccountInfoDialog_TypeDefinitionIndex)->GetStaticField(0xF6D0);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
@@ -59,9 +59,9 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Show(::System::String* consoleAccountName, ::System::String* hoyoAccountName, ::System::String* currentZone, ::System::Collections::Generic::List_1<::MiHoYo::SDK::Console::UserGameServerInfo*>* userGameInfoList)
+		static ::System::Void Show(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Collections::Generic::List_1<::MiHoYo::SDK::Console::UserGameServerInfo*>* a4)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::Collections::Generic::List_1<::MiHoYo::SDK::Console::UserGameServerInfo*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SHOW_OFFSET))(consoleAccountName, hoyoAccountName, currentZone, userGameInfoList);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::Collections::Generic::List_1<::MiHoYo::SDK::Console::UserGameServerInfo*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SHOW_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void Hide()
@@ -69,9 +69,9 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_HIDE_OFFSET))();
 		}
 
-		static ::System::Void SetInteractable(::System::Boolean interactable)
+		static ::System::Void SetInteractable(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET))(interactable);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET))(a1);
 		}
 
 		::System::Void Awake()

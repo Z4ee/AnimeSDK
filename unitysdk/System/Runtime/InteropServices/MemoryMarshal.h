@@ -8,18 +8,18 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_MEMORYMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x19F57630)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_MEMORYMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x1ADCC630)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int MemoryMarshal_TypeDefinitionIndex = 4991;
+	inline static constexpr unsigned int MemoryMarshal_TypeDefinitionIndex = 4965;
 
 	class MemoryMarshal : public ::System::Object
 	{
 	public:
-		static ::System::Boolean TryGetString(::System::ReadOnlyMemory_1<::System::Char> memory, ::System::String*& text, ::System::Int32& start, ::System::Int32& length)
+		static ::System::Boolean TryGetString(::System::ReadOnlyMemory_1<::System::Char> a1, ::System::String*& a2, ::System::Int32& a3, ::System::Int32& a4)
 		{
-			return ((::System::Boolean(*)(::System::ReadOnlyMemory_1<::System::Char>, ::System::String*&, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_MEMORYMARSHAL_TRYGETSTRING_OFFSET))(memory, text, start, length);
+			return ((::System::Boolean(*)(::System::ReadOnlyMemory_1<::System::Char>, ::System::String*&, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_MEMORYMARSHAL_TRYGETSTRING_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

@@ -6,16 +6,16 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_MINMAXAABB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22E52C0)
-#define UNITYENGINE_MINMAXAABB_EQUALS_OFFSET UNITYSDK_OFFSET(0x22E52B0)
-#define UNITYENGINE_MINMAXAABB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22E51D0)
-#define UNITYENGINE_MINMAXAABB_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x22B8310)
-#define UNITYENGINE_MINMAXAABB_GET_EXTENTS_OFFSET UNITYSDK_OFFSET(0x22B9C10)
-#define UNITYENGINE_MINMAXAABB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22E5470)
+#define UNITYENGINE_MINMAXAABB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3881F20)
+#define UNITYENGINE_MINMAXAABB_EQUALS_OFFSET UNITYSDK_OFFSET(0x3881F10)
+#define UNITYENGINE_MINMAXAABB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3881E30)
+#define UNITYENGINE_MINMAXAABB_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x3848FE0)
+#define UNITYENGINE_MINMAXAABB_GET_EXTENTS_OFFSET UNITYSDK_OFFSET(0x384AEA0)
+#define UNITYENGINE_MINMAXAABB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x38820D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MinMaxAABB_TypeDefinitionIndex = 4067;
+	inline static constexpr unsigned int MinMaxAABB_TypeDefinitionIndex = 4241;
 
 	struct alignas(4) MinMaxAABB
 	{
@@ -27,14 +27,14 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::UnityEngine::MinMaxAABB other)
+		::System::Boolean Equals_1(::UnityEngine::MinMaxAABB a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::MinMaxAABB))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::MinMaxAABB))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_center()

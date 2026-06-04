@@ -11,30 +11,30 @@ namespace System { class Action; }
 namespace UnityEngine { class GameObject; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_UIBUBBLEITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0xB3D1BA0)
-#define RPG_CLIENT_UIBUBBLEITEM_DESTROYBUBBLE_OFFSET UNITYSDK_OFFSET(0xB3D2180)
-#define RPG_CLIENT_UIBUBBLEITEM_GET_BUBBLEMANAGER_OFFSET UNITYSDK_OFFSET(0xB3D2390)
-#define RPG_CLIENT_UIBUBBLEITEM_GET_OFFSET UNITYSDK_OFFSET(0xB3D1A90)
-#define RPG_CLIENT_UIBUBBLEITEM_GET_POOL_OFFSET UNITYSDK_OFFSET(0xB3D23B0)
-#define RPG_CLIENT_UIBUBBLEITEM_HIDE_OFFSET UNITYSDK_OFFSET(0xB3D1E10)
-#define RPG_CLIENT_UIBUBBLEITEM_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0xB3D1DA0)
-#define RPG_CLIENT_UIBUBBLEITEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB3D1C20)
-#define RPG_CLIENT_UIBUBBLEITEM_SETFOLLOWENTITY_OFFSET UNITYSDK_OFFSET(0xB3D1F30)
-#define RPG_CLIENT_UIBUBBLEITEM_SETFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xB3D1E70)
-#define RPG_CLIENT_UIBUBBLEITEM_SETLIFETIME_OFFSET UNITYSDK_OFFSET(0xB3D2030)
-#define RPG_CLIENT_UIBUBBLEITEM_SETSHOWFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xB3D1FE0)
-#define RPG_CLIENT_UIBUBBLEITEM_SET_BUBBLEMANAGER_OFFSET UNITYSDK_OFFSET(0xB3D23A0)
-#define RPG_CLIENT_UIBUBBLEITEM_SET_POOL_OFFSET UNITYSDK_OFFSET(0xB3D23C0)
-#define RPG_CLIENT_UIBUBBLEITEM_SHOW_1_OFFSET UNITYSDK_OFFSET(0xB3D20E0)
-#define RPG_CLIENT_UIBUBBLEITEM_SHOW_OFFSET UNITYSDK_OFFSET(0xB3D2090)
-#define RPG_CLIENT_UIBUBBLEITEM_START_OFFSET UNITYSDK_OFFSET(0xB3D1BE0)
-#define RPG_CLIENT_UIBUBBLEITEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xB3D1C80)
-#define RPG_CLIENT_UIBUBBLEITEM__COUNTDOWNBUBBLELIFETIME_OFFSET UNITYSDK_OFFSET(0xB3D1CE0)
-#define RPG_CLIENT_UIBUBBLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB3D23D0)
+#define RPG_CLIENT_UIBUBBLEITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0xCB32930)
+#define RPG_CLIENT_UIBUBBLEITEM_DESTROYBUBBLE_OFFSET UNITYSDK_OFFSET(0xCB331D0)
+#define RPG_CLIENT_UIBUBBLEITEM_GET_BUBBLEMANAGER_OFFSET UNITYSDK_OFFSET(0xCB333E0)
+#define RPG_CLIENT_UIBUBBLEITEM_GET_OFFSET UNITYSDK_OFFSET(0xCB32820)
+#define RPG_CLIENT_UIBUBBLEITEM_GET_POOL_OFFSET UNITYSDK_OFFSET(0xCB33400)
+#define RPG_CLIENT_UIBUBBLEITEM_HIDE_OFFSET UNITYSDK_OFFSET(0xCB32BB0)
+#define RPG_CLIENT_UIBUBBLEITEM_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0xCB32B40)
+#define RPG_CLIENT_UIBUBBLEITEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCB329B0)
+#define RPG_CLIENT_UIBUBBLEITEM_SETFOLLOWENTITY_OFFSET UNITYSDK_OFFSET(0xCB32F80)
+#define RPG_CLIENT_UIBUBBLEITEM_SETFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xCB32C10)
+#define RPG_CLIENT_UIBUBBLEITEM_SETLIFETIME_OFFSET UNITYSDK_OFFSET(0xCB33080)
+#define RPG_CLIENT_UIBUBBLEITEM_SETSHOWFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xCB33030)
+#define RPG_CLIENT_UIBUBBLEITEM_SET_BUBBLEMANAGER_OFFSET UNITYSDK_OFFSET(0xCB333F0)
+#define RPG_CLIENT_UIBUBBLEITEM_SET_POOL_OFFSET UNITYSDK_OFFSET(0xCB33410)
+#define RPG_CLIENT_UIBUBBLEITEM_SHOW_1_OFFSET UNITYSDK_OFFSET(0xCB33130)
+#define RPG_CLIENT_UIBUBBLEITEM_SHOW_OFFSET UNITYSDK_OFFSET(0xCB330E0)
+#define RPG_CLIENT_UIBUBBLEITEM_START_OFFSET UNITYSDK_OFFSET(0xCB32970)
+#define RPG_CLIENT_UIBUBBLEITEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xCB32A10)
+#define RPG_CLIENT_UIBUBBLEITEM__COUNTDOWNBUBBLELIFETIME_OFFSET UNITYSDK_OFFSET(0xCB32A70)
+#define RPG_CLIENT_UIBUBBLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCB33420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIBubbleItem_TypeDefinitionIndex = 63548;
+	inline static constexpr unsigned int UIBubbleItem_TypeDefinitionIndex = 64468;
 
 	class UIBubbleItem : public ::UnityEngine::MonoBehaviour
 	{
@@ -54,9 +54,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::UIBubbleItem* Get(::UnityEngine::GameObject* go)
+		static ::RPG::Client::UIBubbleItem* Get(::UnityEngine::GameObject* a1)
 		{
-			return ((::RPG::Client::UIBubbleItem*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_GET_OFFSET))(go);
+			return ((::RPG::Client::UIBubbleItem*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_GET_OFFSET))(a1);
 		}
 
 		::System::Void Awake()
@@ -79,34 +79,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void ManualUpdate(::System::Single deltaTime)
+		::System::Void ManualUpdate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_MANUALUPDATE_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_MANUALUPDATE_OFFSET))(this, a1);
 		}
 
-		::System::Void _CountDownBubbleLifeTime(::System::Single deltaTime)
+		::System::Void _CountDownBubbleLifeTime(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM__COUNTDOWNBUBBLELIFETIME_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM__COUNTDOWNBUBBLELIFETIME_OFFSET))(this, a1);
 		}
 
-		::System::Void SetFollowTarget(::UnityEngine::GameObject* target)
+		::System::Void SetFollowTarget(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SETFOLLOWTARGET_OFFSET))(this, target);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SETFOLLOWTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetFollowEntity(::RPG::GameCore::GameEntity* entity)
+		::System::Void SetFollowEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SETFOLLOWENTITY_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SETFOLLOWENTITY_OFFSET))(this, a1);
 		}
 
-		::System::Void SetShowFinishCallback(::System::Action* showFinishCallback)
+		::System::Void SetShowFinishCallback(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SETSHOWFINISHCALLBACK_OFFSET))(this, showFinishCallback);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SETSHOWFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void SetLifeTime(::System::Single lifeTime)
+		::System::Void SetLifeTime(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SETLIFETIME_OFFSET))(this, lifeTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SETLIFETIME_OFFSET))(this, a1);
 		}
 
 		::System::Void Show()
@@ -114,9 +114,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SHOW_OFFSET))(this);
 		}
 
-		::System::Void Show_1(::System::Single lifeTime)
+		::System::Void Show_1(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SHOW_1_OFFSET))(this, lifeTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SHOW_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Hide()
@@ -134,9 +134,9 @@ namespace RPG::Client
 			return ((::RPG::Client::UIBubbleManager*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_GET_BUBBLEMANAGER_OFFSET))(this);
 		}
 
-		::System::Void set_BubbleManager(::RPG::Client::UIBubbleManager* value)
+		::System::Void set_BubbleManager(::RPG::Client::UIBubbleManager* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIBubbleManager*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SET_BUBBLEMANAGER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIBubbleManager*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SET_BUBBLEMANAGER_OFFSET))(this, a1);
 		}
 
 		::Class_1_BADE65034284623D* get_Pool()
@@ -144,9 +144,9 @@ namespace RPG::Client
 			return ((::Class_1_BADE65034284623D*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_GET_POOL_OFFSET))(this);
 		}
 
-		::System::Void set_Pool(::Class_1_BADE65034284623D* value)
+		::System::Void set_Pool(::Class_1_BADE65034284623D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_BADE65034284623D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SET_POOL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Class_1_BADE65034284623D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBUBBLEITEM_SET_POOL_OFFSET))(this, a1);
 		}
 	};
 }

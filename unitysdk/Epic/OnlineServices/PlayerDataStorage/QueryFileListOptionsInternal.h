@@ -6,33 +6,33 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::PlayerDataStorage { class QueryFileListOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5FAD0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5F9A0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x5F810)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5F8D0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x651B0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x651A0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x65010)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x650D0)
 
 namespace Epic::OnlineServices::PlayerDataStorage
 {
-	inline static constexpr unsigned int QueryFileListOptionsInternal_TypeDefinitionIndex = 41676;
+	inline static constexpr unsigned int QueryFileListOptionsInternal_TypeDefinitionIndex = 42479;
 
 	struct alignas(8) QueryFileListOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_LocalUserId; // 0x18
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::PlayerDataStorage::QueryFileListOptions* other)
+		::System::Void Set(::Epic::OnlineServices::PlayerDataStorage::QueryFileListOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::QueryFileListOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::QueryFileListOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILELISTOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

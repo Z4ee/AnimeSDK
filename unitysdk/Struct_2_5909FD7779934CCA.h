@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ActionDelayChangeReason.h"
-#include "unitysdk/RPG/GameCore/BigFixPoint.h"
 #include "unitysdk/Struct_2_3A335394524C9E44.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_0_16E4307DCC419505_343;
+class Class_0_16E4307DCC419505_356;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define STRUCT_2_5909FD7779934CCA__CCTOR_OFFSET UNITYSDK_OFFSET(0x9B8AE90)
+#define STRUCT_2_5909FD7779934CCA__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9E3DF0)
 
-inline static constexpr unsigned int Struct_2_5909FD7779934CCA_TypeDefinitionIndex = 53238;
+inline static constexpr unsigned int Struct_2_5909FD7779934CCA_TypeDefinitionIndex = 53950;
 
 struct alignas(8) Struct_2_5909FD7779934CCA
 {
 	static ::Struct_2_5909FD7779934CCA* StaticGet_Field_2_0()
 	{
-		return (::Struct_2_5909FD7779934CCA*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_5909FD7779934CCA_TypeDefinitionIndex)->GetStaticField(0x27720);
+		return (::Struct_2_5909FD7779934CCA*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_5909FD7779934CCA_TypeDefinitionIndex)->GetStaticField(0x1840);
 	}
 	::System::Boolean Field_2_1; // 0x10
 	::System::Boolean Field_2_2; // 0x11
@@ -40,15 +39,12 @@ struct alignas(8) Struct_2_5909FD7779934CCA
 	::System::Boolean Field_2_18; // 0x2D
 	::System::String* Field_2_19; // 0x30
 	::RPG::GameCore::GameEntity* Field_2_20; // 0x38
-	::Class_0_16E4307DCC419505_343* Field_2_21; // 0x40
+	::Class_0_16E4307DCC419505_356* Field_2_21; // 0x40
 	::RPG::GameCore::GameEntity* Field_2_22; // 0x48
 	::RPG::GameCore::JsonEnum* Field_2_23; // 0x50
 	::System::Boolean Field_2_24; // 0x58
-	::RPG::GameCore::BigFixPoint Field_2_25; // 0x60
-	::RPG::GameCore::BigFixPoint Field_2_26; // 0x70
-	::System::Boolean Field_2_27; // 0x80
-	::System::Boolean Field_2_28; // 0x81
-	::Struct_2_3A335394524C9E44 Field_2_29; // 0x88
+	::System::Boolean Field_2_25; // 0x59
+	::Struct_2_3A335394524C9E44 Field_2_26; // 0x60
 
 	static ::System::Void _cctor()
 	{

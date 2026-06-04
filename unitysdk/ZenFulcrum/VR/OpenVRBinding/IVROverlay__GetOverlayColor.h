@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6F84C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6F8570)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6F80D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F80B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B51BBE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B51BC90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B51BBB0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B51BB40)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__GetOverlayColor_TypeDefinitionIndex = 35836;
+	inline static constexpr unsigned int IVROverlay__GetOverlayColor_TypeDefinitionIndex = 36136;
 
 	class IVROverlay__GetOverlayColor : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::System::UInt64 ulOverlayHandle, ::System::Single& pfRed, ::System::Single& pfGreen, ::System::Single& pfBlue)
+		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::System::UInt64 a1, ::System::Single& a2, ::System::Single& a3, ::System::Single& a4)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::UInt64, ::System::Single&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_INVOKE_OFFSET))(this, ulOverlayHandle, pfRed, pfGreen, pfBlue);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::UInt64, ::System::Single&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt64 ulOverlayHandle, ::System::Single& pfRed, ::System::Single& pfGreen, ::System::Single& pfBlue, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt64 a1, ::System::Single& a2, ::System::Single& a3, ::System::Single& a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::Single&, ::System::Single&, ::System::Single&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_BEGININVOKE_OFFSET))(this, ulOverlayHandle, pfRed, pfGreen, pfBlue, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::Single&, ::System::Single&, ::System::Single&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError EndInvoke(::System::Single& pfRed, ::System::Single& pfGreen, ::System::Single& pfBlue, ::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError EndInvoke(::System::Single& a1, ::System::Single& a2, ::System::Single& a3, ::System::IAsyncResult* a4)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::Single&, ::System::Single&, ::System::Single&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_ENDINVOKE_OFFSET))(this, pfRed, pfGreen, pfBlue, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::Single&, ::System::Single&, ::System::Single&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYCOLOR_ENDINVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

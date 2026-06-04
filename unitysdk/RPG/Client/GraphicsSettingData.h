@@ -6,22 +6,22 @@ namespace RPG::GameCore { class GraphicsSettingRequirements; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GRAPHICSSETTINGDATA_DEVICEMATCHREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0xA43E660)
-#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETDEVICEMODEL_OFFSET UNITYSDK_OFFSET(0xA439BE0)
-#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETGRAPHICSDEVICENAME_OFFSET UNITYSDK_OFFSET(0xA43E570)
-#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETTARGETPLATFORM_OFFSET UNITYSDK_OFFSET(0xA439B80)
-#define RPG_CLIENT_GRAPHICSSETTINGDATA_PARSEIOSDEVICEMODEL_OFFSET UNITYSDK_OFFSET(0xA439C20)
+#define RPG_CLIENT_GRAPHICSSETTINGDATA_DEVICEMATCHREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0xBADA930)
+#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETDEVICEMODEL_OFFSET UNITYSDK_OFFSET(0xBAD5EC0)
+#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETGRAPHICSDEVICENAME_OFFSET UNITYSDK_OFFSET(0xBADA840)
+#define RPG_CLIENT_GRAPHICSSETTINGDATA_GETTARGETPLATFORM_OFFSET UNITYSDK_OFFSET(0xBAD5E60)
+#define RPG_CLIENT_GRAPHICSSETTINGDATA_PARSEIOSDEVICEMODEL_OFFSET UNITYSDK_OFFSET(0xBAD5F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GraphicsSettingData_TypeDefinitionIndex = 64340;
+	inline static constexpr unsigned int GraphicsSettingData_TypeDefinitionIndex = 65261;
 
 	class GraphicsSettingData : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet__iOSDeviceTable()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicsSettingData_TypeDefinitionIndex)->GetStaticField(0x177F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicsSettingData_TypeDefinitionIndex)->GetStaticField(0x28610);
 		}
 
 		static ::System::String* GetTargetPlatform()
@@ -44,9 +44,9 @@ namespace RPG::Client
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GRAPHICSSETTINGDATA_GETGRAPHICSDEVICENAME_OFFSET))();
 		}
 
-		static ::System::Boolean DeviceMatchRequirements(::Il2CppArray<::RPG::GameCore::GraphicsSettingRequirements*>* requirements)
+		static ::System::Boolean DeviceMatchRequirements(::Il2CppArray<::RPG::GameCore::GraphicsSettingRequirements*>* a1)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::RPG::GameCore::GraphicsSettingRequirements*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRAPHICSSETTINGDATA_DEVICEMATCHREQUIREMENTS_OFFSET))(requirements);
+			return ((::System::Boolean(*)(::Il2CppArray<::RPG::GameCore::GraphicsSettingRequirements*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRAPHICSSETTINGDATA_DEVICEMATCHREQUIREMENTS_OFFSET))(a1);
 		}
 	};
 }

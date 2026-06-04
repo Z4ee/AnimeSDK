@@ -5,22 +5,22 @@
 namespace RPG::Client { class RspHandler; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LOGINMODULE_ONEKEYPACKETREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0xA7039A0)
+#define RPG_CLIENT_LOGINMODULE_ONEKEYPACKETREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0xBE63F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoginModule_OneKeyPacketRequest_TypeDefinitionIndex = 60565;
+	inline static constexpr unsigned int LoginModule_OneKeyPacketRequest_TypeDefinitionIndex = 61499;
 
 	class LoginModule_OneKeyPacketRequest : public ::System::Object
 	{
 	public:
-		::RPG::Client::RspHandler* RspHandler; // 0x10
-		::System::Action* RequestCall; // 0x18
+		::System::Action* RequestCall; // 0x10
+		::RPG::Client::RspHandler* RspHandler; // 0x18
 		::System::UInt16 CmdID; // 0x20
 
-		::System::Void _ctor(::System::UInt16 cmdID, ::System::Action* requestCall, ::RPG::Client::RspHandler* rspHandler)
+		::System::Void _ctor(::System::UInt16 a1, ::System::Action* a2, ::RPG::Client::RspHandler* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Action*, ::RPG::Client::RspHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOGINMODULE_ONEKEYPACKETREQUEST__CTOR_OFFSET))(this, cmdID, requestCall, rspHandler);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Action*, ::RPG::Client::RspHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOGINMODULE_ONEKEYPACKETREQUEST__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

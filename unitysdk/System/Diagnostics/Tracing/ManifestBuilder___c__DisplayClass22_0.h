@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17907FC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186BED30)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ManifestBuilder___c__DisplayClass22_0_TypeDefinitionIndex = 1698;
+	inline static constexpr unsigned int ManifestBuilder___c__DisplayClass22_0_TypeDefinitionIndex = 1696;
 
 	class ManifestBuilder___c__DisplayClass22_0 : public ::System::Object
 	{

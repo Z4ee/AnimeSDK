@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8BE2280)
-#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8BE2290)
-#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BE22A0)
+#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA0F41C0)
+#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA0F41D0)
+#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA0F41E0)
 
 namespace Epic::OnlineServices::Stats
 {
-	inline static constexpr unsigned int GetStatCountOptions_TypeDefinitionIndex = 41207;
+	inline static constexpr unsigned int GetStatCountOptions_TypeDefinitionIndex = 42010;
 
 	class GetStatCountOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Stats
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONS_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONS_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 	};
 }

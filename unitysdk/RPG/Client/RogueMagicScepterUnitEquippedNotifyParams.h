@@ -6,13 +6,13 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_ISSLOTUNITEQUIPPED_OFFSET UNITYSDK_OFFSET(0xB0656D0)
-#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_MERGE_OFFSET UNITYSDK_OFFSET(0xB065770)
-#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xB065800)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_ISSLOTUNITEQUIPPED_OFFSET UNITYSDK_OFFSET(0xC7B3BB0)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_MERGE_OFFSET UNITYSDK_OFFSET(0xC7B3C50)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xC7B3CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicScepterUnitEquippedNotifyParams_TypeDefinitionIndex = 62123;
+	inline static constexpr unsigned int RogueMagicScepterUnitEquippedNotifyParams_TypeDefinitionIndex = 63056;
 
 	class RogueMagicScepterUnitEquippedNotifyParams : public ::System::Object
 	{
@@ -26,14 +26,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean IsSlotUnitEquipped(::RPG::GameCore::RogueMagicMountType mountType, ::System::UInt32 slotID)
+		::System::Boolean IsSlotUnitEquipped(::RPG::GameCore::RogueMagicMountType a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RogueMagicMountType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_ISSLOTUNITEQUIPPED_OFFSET))(this, mountType, slotID);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RogueMagicMountType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_ISSLOTUNITEQUIPPED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Merge(::RPG::Client::RogueMagicScepterUnitEquippedNotifyParams* another)
+		::System::Void Merge(::RPG::Client::RogueMagicScepterUnitEquippedNotifyParams* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueMagicScepterUnitEquippedNotifyParams*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_MERGE_OFFSET))(this, another);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueMagicScepterUnitEquippedNotifyParams*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_MERGE_OFFSET))(this, a1);
 		}
 	};
 }

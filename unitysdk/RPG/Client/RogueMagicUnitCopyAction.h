@@ -7,32 +7,32 @@ namespace RPG::Client { class RogueMagicUnitDataItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GETROGUEACTIONID_OFFSET UNITYSDK_OFFSET(0xB068FC0)
-#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GETUIPATH_OFFSET UNITYSDK_OFFSET(0xB069050)
-#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GET_HINTID_OFFSET UNITYSDK_OFFSET(0xB068C10)
-#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GET_ROGUEACTIONID_OFFSET UNITYSDK_OFFSET(0xB068BD0)
-#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GET_SELECTUNITS_OFFSET UNITYSDK_OFFSET(0xB068BF0)
-#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_HINTID_OFFSET UNITYSDK_OFFSET(0xB068C20)
-#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_ROGUEACTIONID_OFFSET UNITYSDK_OFFSET(0xB068BE0)
-#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_SELECTUNITS_OFFSET UNITYSDK_OFFSET(0xB068C00)
-#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB069000)
-#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION__CONSTRUCT_OFFSET UNITYSDK_OFFSET(0xB068C40)
-#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB068C30)
+#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GETROGUEACTIONID_OFFSET UNITYSDK_OFFSET(0xC7B76D0)
+#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GETUIPATH_OFFSET UNITYSDK_OFFSET(0xC7B7760)
+#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GET_HINTID_OFFSET UNITYSDK_OFFSET(0xC7B72D0)
+#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GET_ROGUEACTIONID_OFFSET UNITYSDK_OFFSET(0xC7B7290)
+#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GET_SELECTUNITS_OFFSET UNITYSDK_OFFSET(0xC7B72B0)
+#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_HINTID_OFFSET UNITYSDK_OFFSET(0xC7B72E0)
+#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_ROGUEACTIONID_OFFSET UNITYSDK_OFFSET(0xC7B72A0)
+#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_SELECTUNITS_OFFSET UNITYSDK_OFFSET(0xC7B72C0)
+#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC7B7710)
+#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION__CONSTRUCT_OFFSET UNITYSDK_OFFSET(0xC7B7300)
+#define RPG_CLIENT_ROGUEMAGICUNITCOPYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xC7B72F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicUnitCopyAction_TypeDefinitionIndex = 61716;
+	inline static constexpr unsigned int RogueMagicUnitCopyAction_TypeDefinitionIndex = 62649;
 
 	class RogueMagicUnitCopyAction : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* _SelectUnits_k__BackingField; // 0x10
-		::System::UInt32 _RogueActionID_k__BackingField; // 0x18
-		::System::UInt32 _HintID_k__BackingField; // 0x1C
+		::System::UInt32 _HintID_k__BackingField; // 0x18
+		::System::UInt32 _RogueActionID_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 actionID, ::Class_1_455008579EB95638_90* proto)
+		::System::Void _ctor(::System::UInt32 a1, ::Class_1_455008579EB95638_90* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_455008579EB95638_90*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION__CTOR_OFFSET))(this, actionID, proto);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_455008579EB95638_90*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_RogueActionID()
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GET_ROGUEACTIONID_OFFSET))(this);
 		}
 
-		::System::Void set_RogueActionID(::System::UInt32 value)
+		::System::Void set_RogueActionID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_ROGUEACTIONID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_ROGUEACTIONID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* get_SelectUnits()
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GET_SELECTUNITS_OFFSET))(this);
 		}
 
-		::System::Void set_SelectUnits(::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* value)
+		::System::Void set_SelectUnits(::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_SELECTUNITS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_SELECTUNITS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_HintID()
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GET_HINTID_OFFSET))(this);
 		}
 
-		::System::Void set_HintID(::System::UInt32 value)
+		::System::Void set_HintID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_HINTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_SET_HINTID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetRogueActionID()
@@ -80,9 +80,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION_GETUIPATH_OFFSET))(this);
 		}
 
-		::System::Void _Construct(::Class_1_455008579EB95638_90* proto)
+		::System::Void _Construct(::Class_1_455008579EB95638_90* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_455008579EB95638_90*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION__CONSTRUCT_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_455008579EB95638_90*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUNITCOPYACTION__CONSTRUCT_OFFSET))(this, a1);
 		}
 	};
 }

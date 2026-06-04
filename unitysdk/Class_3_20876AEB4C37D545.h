@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ReinitProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_20876AEB4C37D545_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11C137E0)
-#define CLASS_3_20876AEB4C37D545__CTOR_OFFSET UNITYSDK_OFFSET(0x11C137B0)
+#define CLASS_3_20876AEB4C37D545_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13D1C0E0)
+#define CLASS_3_20876AEB4C37D545__CTOR_OFFSET UNITYSDK_OFFSET(0x13D1C0B0)
 
-inline static constexpr unsigned int Class_3_20876AEB4C37D545_TypeDefinitionIndex = 50980;
+inline static constexpr unsigned int Class_3_20876AEB4C37D545_TypeDefinitionIndex = 51650;
 
 class Class_3_20876AEB4C37D545 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ReinitProperty*>
 {

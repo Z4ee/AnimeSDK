@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelInitialEffectConfig_ConditionType_TypeDefinitionIndex = 71819;
+	inline static constexpr unsigned int ChimeraDuelInitialEffectConfig_ConditionType_TypeDefinitionIndex = 72841;
 
 	enum class ChimeraDuelInitialEffectConfig_ConditionType : ::System::Int32
 	{

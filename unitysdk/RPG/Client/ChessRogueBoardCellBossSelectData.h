@@ -1,39 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_143.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_156.h"
 
-class Class_1_E30585F0EAEFDF1E;
+class Class_1_7BFB07C3AB2D97E4;
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x9FD50D0)
-#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_GET_SELECTEDMONSTERID_OFFSET UNITYSDK_OFFSET(0x9FD50F0)
-#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_GET_TOSELECTLIST_OFFSET UNITYSDK_OFFSET(0x9FD5110)
-#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x9FD50E0)
-#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_SELECTEDMONSTERID_OFFSET UNITYSDK_OFFSET(0x9FD5100)
-#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_TOSELECTLIST_OFFSET UNITYSDK_OFFSET(0x9FD5120)
-#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9FD4D00)
-#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA__SYNCEXTRAINFO_OFFSET UNITYSDK_OFFSET(0x9FD4D10)
+#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xB64ABA0)
+#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_GET_SELECTEDMONSTERID_OFFSET UNITYSDK_OFFSET(0xB64ABC0)
+#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_GET_TOSELECTLIST_OFFSET UNITYSDK_OFFSET(0xB64ABE0)
+#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xB64ABB0)
+#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_SELECTEDMONSTERID_OFFSET UNITYSDK_OFFSET(0xB64ABD0)
+#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_TOSELECTLIST_OFFSET UNITYSDK_OFFSET(0xB64ABF0)
+#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB64A770)
+#define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA__SYNCEXTRAINFO_OFFSET UNITYSDK_OFFSET(0xB64A780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueBoardCellBossSelectData_TypeDefinitionIndex = 61627;
+	inline static constexpr unsigned int ChessRogueBoardCellBossSelectData_TypeDefinitionIndex = 62560;
 
-	class ChessRogueBoardCellBossSelectData : public ::Class_1_43BD383C98B4C0C5_143
+	class ChessRogueBoardCellBossSelectData : public ::Class_1_43BD383C98B4C0C5_156
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* _ToSelectList_k__BackingField; // 0x10
 		::System::UInt32 _SelectedMonsterID_k__BackingField; // 0x18
 		::System::Boolean _IsSelected_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::Class_1_E30585F0EAEFDF1E* info)
+		::System::Void _ctor(::Class_1_7BFB07C3AB2D97E4* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E30585F0EAEFDF1E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA__CTOR_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_7BFB07C3AB2D97E4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _SyncExtraInfo(::Class_1_E30585F0EAEFDF1E* info)
+		::System::Void _SyncExtraInfo(::Class_1_7BFB07C3AB2D97E4* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E30585F0EAEFDF1E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA__SYNCEXTRAINFO_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_7BFB07C3AB2D97E4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA__SYNCEXTRAINFO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsSelected()
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_GET_ISSELECTED_OFFSET))(this);
 		}
 
-		::System::Void set_IsSelected(::System::Boolean value)
+		::System::Void set_IsSelected(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_ISSELECTED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_ISSELECTED_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_SelectedMonsterID()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_GET_SELECTEDMONSTERID_OFFSET))(this);
 		}
 
-		::System::Void set_SelectedMonsterID(::System::UInt32 value)
+		::System::Void set_SelectedMonsterID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_SELECTEDMONSTERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_SELECTEDMONSTERID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* get_ToSelectList()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_GET_TOSELECTLIST_OFFSET))(this);
 		}
 
-		::System::Void set_ToSelectList(::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* value)
+		::System::Void set_ToSelectList(::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_TOSELECTLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_TOSELECTLIST_OFFSET))(this, a1);
 		}
 	};
 }

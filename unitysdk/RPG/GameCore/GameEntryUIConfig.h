@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GameEntryMenu; }
 namespace RPG::GameCore { class GameEntryStage; }
 
-#define RPG_GAMECORE_GAMEENTRYUICONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1893FC60)
-#define RPG_GAMECORE_GAMEENTRYUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x189533B0)
+#define RPG_GAMECORE_GAMEENTRYUICONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197B4DE0)
+#define RPG_GAMECORE_GAMEENTRYUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197C89F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntryUIConfig_TypeDefinitionIndex = 15576;
+	inline static constexpr unsigned int GameEntryUIConfig_TypeDefinitionIndex = 15638;
 
 	class GameEntryUIConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTRYUICONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GameEntryUIConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GameEntryUIConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameEntryUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTRYUICONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameEntryUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTRYUICONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

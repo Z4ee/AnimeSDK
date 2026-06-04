@@ -23,27 +23,27 @@ namespace Epic::OnlineServices::Leaderboards { class QueryLeaderboardRanksOption
 namespace Epic::OnlineServices::Leaderboards { class QueryLeaderboardUserScoresOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDDEFINITIONBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E9CA60)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDDEFINITIONBYLEADERBOARDID_OFFSET UNITYSDK_OFFSET(0x8E9CC60)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDRECORDBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E9CEF0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDRECORDBYUSERID_OFFSET UNITYSDK_OFFSET(0x8E9D0F0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDUSERSCOREBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E9D360)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDUSERSCOREBYUSERID_OFFSET UNITYSDK_OFFSET(0x8E9D5F0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDDEFINITIONCOUNT_OFFSET UNITYSDK_OFFSET(0x8E9D7F0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDRECORDCOUNT_OFFSET UNITYSDK_OFFSET(0x8E9DA10)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDUSERSCORECOUNT_OFFSET UNITYSDK_OFFSET(0x8E9DC30)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDDEFINITIONSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E9C890)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDRANKSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E9C920)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDUSERSCORESCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E9C9B0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDDEFINITIONS_OFFSET UNITYSDK_OFFSET(0x8E9DE30)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDRANKS_OFFSET UNITYSDK_OFFSET(0x8E9E010)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDUSERSCORES_OFFSET UNITYSDK_OFFSET(0x8E9E1F0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8E9CA50)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8E9CA40)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDDEFINITIONBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2D90D0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDDEFINITIONBYLEADERBOARDID_OFFSET UNITYSDK_OFFSET(0xA2D92D0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDRECORDBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2D9560)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDRECORDBYUSERID_OFFSET UNITYSDK_OFFSET(0xA2D9760)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDUSERSCOREBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2D99D0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDUSERSCOREBYUSERID_OFFSET UNITYSDK_OFFSET(0xA2D9C60)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDDEFINITIONCOUNT_OFFSET UNITYSDK_OFFSET(0xA2D9E60)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDRECORDCOUNT_OFFSET UNITYSDK_OFFSET(0xA2DA0A0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDUSERSCORECOUNT_OFFSET UNITYSDK_OFFSET(0xA2DA2E0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDDEFINITIONSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2D8ED0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDRANKSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2D8F70)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDUSERSCORESCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2D9010)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDDEFINITIONS_OFFSET UNITYSDK_OFFSET(0xA2DA4E0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDRANKS_OFFSET UNITYSDK_OFFSET(0xA2DA6C0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDUSERSCORES_OFFSET UNITYSDK_OFFSET(0xA2DA8A0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA2D90C0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA2D90B0)
 
 namespace Epic::OnlineServices::Leaderboards
 {
-	inline static constexpr unsigned int LeaderboardsInterface_TypeDefinitionIndex = 42029;
+	inline static constexpr unsigned int LeaderboardsInterface_TypeDefinitionIndex = 42832;
 
 	class LeaderboardsInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -71,84 +71,84 @@ namespace Epic::OnlineServices::Leaderboards
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopyLeaderboardDefinitionByIndex(::Epic::OnlineServices::Leaderboards::CopyLeaderboardDefinitionByIndexOptions* options, ::Epic::OnlineServices::Leaderboards::Definition*& outLeaderboardDefinition)
+		::Epic::OnlineServices::Result CopyLeaderboardDefinitionByIndex(::Epic::OnlineServices::Leaderboards::CopyLeaderboardDefinitionByIndexOptions* a1, ::Epic::OnlineServices::Leaderboards::Definition*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardDefinitionByIndexOptions*, ::Epic::OnlineServices::Leaderboards::Definition*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDDEFINITIONBYINDEX_OFFSET))(this, options, outLeaderboardDefinition);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardDefinitionByIndexOptions*, ::Epic::OnlineServices::Leaderboards::Definition*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDDEFINITIONBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyLeaderboardDefinitionByLeaderboardId(::Epic::OnlineServices::Leaderboards::CopyLeaderboardDefinitionByLeaderboardIdOptions* options, ::Epic::OnlineServices::Leaderboards::Definition*& outLeaderboardDefinition)
+		::Epic::OnlineServices::Result CopyLeaderboardDefinitionByLeaderboardId(::Epic::OnlineServices::Leaderboards::CopyLeaderboardDefinitionByLeaderboardIdOptions* a1, ::Epic::OnlineServices::Leaderboards::Definition*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardDefinitionByLeaderboardIdOptions*, ::Epic::OnlineServices::Leaderboards::Definition*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDDEFINITIONBYLEADERBOARDID_OFFSET))(this, options, outLeaderboardDefinition);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardDefinitionByLeaderboardIdOptions*, ::Epic::OnlineServices::Leaderboards::Definition*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDDEFINITIONBYLEADERBOARDID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyLeaderboardRecordByIndex(::Epic::OnlineServices::Leaderboards::CopyLeaderboardRecordByIndexOptions* options, ::Epic::OnlineServices::Leaderboards::LeaderboardRecord*& outLeaderboardRecord)
+		::Epic::OnlineServices::Result CopyLeaderboardRecordByIndex(::Epic::OnlineServices::Leaderboards::CopyLeaderboardRecordByIndexOptions* a1, ::Epic::OnlineServices::Leaderboards::LeaderboardRecord*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardRecordByIndexOptions*, ::Epic::OnlineServices::Leaderboards::LeaderboardRecord*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDRECORDBYINDEX_OFFSET))(this, options, outLeaderboardRecord);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardRecordByIndexOptions*, ::Epic::OnlineServices::Leaderboards::LeaderboardRecord*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDRECORDBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyLeaderboardRecordByUserId(::Epic::OnlineServices::Leaderboards::CopyLeaderboardRecordByUserIdOptions* options, ::Epic::OnlineServices::Leaderboards::LeaderboardRecord*& outLeaderboardRecord)
+		::Epic::OnlineServices::Result CopyLeaderboardRecordByUserId(::Epic::OnlineServices::Leaderboards::CopyLeaderboardRecordByUserIdOptions* a1, ::Epic::OnlineServices::Leaderboards::LeaderboardRecord*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardRecordByUserIdOptions*, ::Epic::OnlineServices::Leaderboards::LeaderboardRecord*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDRECORDBYUSERID_OFFSET))(this, options, outLeaderboardRecord);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardRecordByUserIdOptions*, ::Epic::OnlineServices::Leaderboards::LeaderboardRecord*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDRECORDBYUSERID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyLeaderboardUserScoreByIndex(::Epic::OnlineServices::Leaderboards::CopyLeaderboardUserScoreByIndexOptions* options, ::Epic::OnlineServices::Leaderboards::LeaderboardUserScore*& outLeaderboardUserScore)
+		::Epic::OnlineServices::Result CopyLeaderboardUserScoreByIndex(::Epic::OnlineServices::Leaderboards::CopyLeaderboardUserScoreByIndexOptions* a1, ::Epic::OnlineServices::Leaderboards::LeaderboardUserScore*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardUserScoreByIndexOptions*, ::Epic::OnlineServices::Leaderboards::LeaderboardUserScore*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDUSERSCOREBYINDEX_OFFSET))(this, options, outLeaderboardUserScore);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardUserScoreByIndexOptions*, ::Epic::OnlineServices::Leaderboards::LeaderboardUserScore*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDUSERSCOREBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyLeaderboardUserScoreByUserId(::Epic::OnlineServices::Leaderboards::CopyLeaderboardUserScoreByUserIdOptions* options, ::Epic::OnlineServices::Leaderboards::LeaderboardUserScore*& outLeaderboardUserScore)
+		::Epic::OnlineServices::Result CopyLeaderboardUserScoreByUserId(::Epic::OnlineServices::Leaderboards::CopyLeaderboardUserScoreByUserIdOptions* a1, ::Epic::OnlineServices::Leaderboards::LeaderboardUserScore*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardUserScoreByUserIdOptions*, ::Epic::OnlineServices::Leaderboards::LeaderboardUserScore*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDUSERSCOREBYUSERID_OFFSET))(this, options, outLeaderboardUserScore);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::CopyLeaderboardUserScoreByUserIdOptions*, ::Epic::OnlineServices::Leaderboards::LeaderboardUserScore*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_COPYLEADERBOARDUSERSCOREBYUSERID_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetLeaderboardDefinitionCount(::Epic::OnlineServices::Leaderboards::GetLeaderboardDefinitionCountOptions* options)
+		::System::UInt32 GetLeaderboardDefinitionCount(::Epic::OnlineServices::Leaderboards::GetLeaderboardDefinitionCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::GetLeaderboardDefinitionCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDDEFINITIONCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::GetLeaderboardDefinitionCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDDEFINITIONCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetLeaderboardRecordCount(::Epic::OnlineServices::Leaderboards::GetLeaderboardRecordCountOptions* options)
+		::System::UInt32 GetLeaderboardRecordCount(::Epic::OnlineServices::Leaderboards::GetLeaderboardRecordCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::GetLeaderboardRecordCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDRECORDCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::GetLeaderboardRecordCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDRECORDCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetLeaderboardUserScoreCount(::Epic::OnlineServices::Leaderboards::GetLeaderboardUserScoreCountOptions* options)
+		::System::UInt32 GetLeaderboardUserScoreCount(::Epic::OnlineServices::Leaderboards::GetLeaderboardUserScoreCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::GetLeaderboardUserScoreCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDUSERSCORECOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::GetLeaderboardUserScoreCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_GETLEADERBOARDUSERSCORECOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Void QueryLeaderboardDefinitions(::Epic::OnlineServices::Leaderboards::QueryLeaderboardDefinitionsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardDefinitionsCompleteCallback* completionDelegate)
+		::System::Void QueryLeaderboardDefinitions(::Epic::OnlineServices::Leaderboards::QueryLeaderboardDefinitionsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardDefinitionsCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::QueryLeaderboardDefinitionsOptions*, ::System::Object*, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardDefinitionsCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDDEFINITIONS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::QueryLeaderboardDefinitionsOptions*, ::System::Object*, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardDefinitionsCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDDEFINITIONS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryLeaderboardRanks(::Epic::OnlineServices::Leaderboards::QueryLeaderboardRanksOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardRanksCompleteCallback* completionDelegate)
+		::System::Void QueryLeaderboardRanks(::Epic::OnlineServices::Leaderboards::QueryLeaderboardRanksOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardRanksCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::QueryLeaderboardRanksOptions*, ::System::Object*, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardRanksCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDRANKS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::QueryLeaderboardRanksOptions*, ::System::Object*, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardRanksCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDRANKS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryLeaderboardUserScores(::Epic::OnlineServices::Leaderboards::QueryLeaderboardUserScoresOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardUserScoresCompleteCallback* completionDelegate)
+		::System::Void QueryLeaderboardUserScores(::Epic::OnlineServices::Leaderboards::QueryLeaderboardUserScoresOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardUserScoresCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::QueryLeaderboardUserScoresOptions*, ::System::Object*, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardUserScoresCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDUSERSCORES_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Leaderboards::QueryLeaderboardUserScoresOptions*, ::System::Object*, ::Epic::OnlineServices::Leaderboards::OnQueryLeaderboardUserScoresCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_QUERYLEADERBOARDUSERSCORES_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnQueryLeaderboardDefinitionsCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryLeaderboardDefinitionsCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDDEFINITIONSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDDEFINITIONSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryLeaderboardRanksCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryLeaderboardRanksCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDRANKSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDRANKSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryLeaderboardUserScoresCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryLeaderboardUserScoresCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDUSERSCORESCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDSINTERFACE_ONQUERYLEADERBOARDUSERSCORESCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

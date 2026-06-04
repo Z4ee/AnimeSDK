@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace ZXing::Common { class BitArray; }
 
-#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_APPENDTO_OFFSET UNITYSDK_OFFSET(0x1A73C1F0)
-#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A73C220)
-#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A73C180)
+#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_APPENDTO_OFFSET UNITYSDK_OFFSET(0x1B53C3D0)
+#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B53C400)
+#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53C360)
 
 namespace ZXing::Aztec::Internal
 {
-	inline static constexpr unsigned int SimpleToken_TypeDefinitionIndex = 6094;
+	inline static constexpr unsigned int SimpleToken_TypeDefinitionIndex = 6467;
 
 	class SimpleToken : public ::ZXing::Aztec::Internal::Token
 	{
@@ -19,14 +19,14 @@ namespace ZXing::Aztec::Internal
 		::System::Int16 value; // 0x18
 		::System::Int16 bitCount; // 0x1A
 
-		::System::Void _ctor(::ZXing::Aztec::Internal::Token* previous, ::System::Int32 value, ::System::Int32 bitCount)
+		::System::Void _ctor(::ZXing::Aztec::Internal::Token* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZXing::Aztec::Internal::Token*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_SIMPLETOKEN__CTOR_OFFSET))(this, previous, value, bitCount);
+			return ((::System::Void(*)(::PVOID, ::ZXing::Aztec::Internal::Token*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_SIMPLETOKEN__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void appendTo(::ZXing::Common::BitArray* bitArray, ::Il2CppArray<::System::Byte>* text)
+		::System::Void appendTo(::ZXing::Common::BitArray* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZXing::Common::BitArray*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_SIMPLETOKEN_APPENDTO_OFFSET))(this, bitArray, text);
+			return ((::System::Void(*)(::PVOID, ::ZXing::Common::BitArray*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_SIMPLETOKEN_APPENDTO_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* ToString()

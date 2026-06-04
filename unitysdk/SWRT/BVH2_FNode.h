@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define SWRT_BVH2_FNODE_GET_ISLEAF_OFFSET UNITYSDK_OFFSET(0x22B9E60)
+#define SWRT_BVH2_FNODE_GET_ISLEAF_OFFSET UNITYSDK_OFFSET(0x384B0F0)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH2_FNode_TypeDefinitionIndex = 34882;
+	inline static constexpr unsigned int BVH2_FNode_TypeDefinitionIndex = 35165;
 
 	struct alignas(4) BVH2_FNode
 	{

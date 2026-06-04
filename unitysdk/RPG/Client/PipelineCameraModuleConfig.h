@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-class Class_2_2D85C3C5517A2A08_TransitionShotData;
+class Class_2_9571B284696356E4_TransitionShotData;
 namespace RPG::Client { class BattleToMazeShotConfig; }
 namespace RPG::Client { class BlendCurveRange; }
 namespace RPG::Client { class CameraDynamicOffset; }
@@ -11,11 +11,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PIPELINECAMERAMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAC9A370)
+#define RPG_CLIENT_PIPELINECAMERAMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC3ACDE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PipelineCameraModuleConfig_TypeDefinitionIndex = 64266;
+	inline static constexpr unsigned int PipelineCameraModuleConfig_TypeDefinitionIndex = 65187;
 
 	class PipelineCameraModuleConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -61,8 +61,8 @@ namespace RPG::Client
 		::System::Single InitAxisY; // 0xC8
 		::System::Single InitAxisYMaze; // 0xCC
 		::System::Boolean ForbidBattleTransitionMode; // 0xD0
-		::Class_2_2D85C3C5517A2A08_TransitionShotData* LongShot; // 0xD8
-		::Class_2_2D85C3C5517A2A08_TransitionShotData* CloseShot; // 0xE0
+		::Class_2_9571B284696356E4_TransitionShotData* LongShot; // 0xD8
+		::Class_2_9571B284696356E4_TransitionShotData* CloseShot; // 0xE0
 		::System::Single FrameBlendDelay; // 0xE8
 		::System::Single FrameBlendWeightStart; // 0xEC
 		::System::Single FrameBlendDuration; // 0xF0

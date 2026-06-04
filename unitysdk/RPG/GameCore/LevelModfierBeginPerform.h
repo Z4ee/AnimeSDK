@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6DDCB0)
-#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6DDD50)
-#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6DDD00)
-#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_INIT_OFFSET UNITYSDK_OFFSET(0xB6DDC60)
-#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DDDA0)
-#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6DDDB0)
+#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_CLEAR_OFFSET UNITYSDK_OFFSET(0xCE4BE50)
+#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE4BEF0)
+#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE4BEA0)
+#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_INIT_OFFSET UNITYSDK_OFFSET(0xCE4BE00)
+#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4BF40)
+#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xCE4BF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelModfierBeginPerform_TypeDefinitionIndex = 52328;
+	inline static constexpr unsigned int LevelModfierBeginPerform_TypeDefinitionIndex = 53025;
 
-	class LevelModfierBeginPerform : public ::Class_1_9988289E7F8AA214
+	class LevelModfierBeginPerform : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::TurnBasedModifierInstance* ModifierInstance; // 0x18
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMODFIERBEGINPERFORM__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelModfierBeginPerform* Init(::RPG::GameCore::TurnBasedModifierInstance* mdf)
+		::RPG::GameCore::LevelModfierBeginPerform* Init(::RPG::GameCore::TurnBasedModifierInstance* a1)
 		{
-			return ((::RPG::GameCore::LevelModfierBeginPerform*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_INIT_OFFSET))(this, mdf);
+			return ((::RPG::GameCore::LevelModfierBeginPerform*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()

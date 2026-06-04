@@ -4,9 +4,9 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/AI/ObstacleAvoidanceType.h"
 
-#define STRUCT_2_6B303821F3B24153_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x15A8C80)
+#define STRUCT_2_6B303821F3B24153_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x2BC0FE0)
 
-inline static constexpr unsigned int Struct_2_6B303821F3B24153_TypeDefinitionIndex = 52648;
+inline static constexpr unsigned int Struct_2_6B303821F3B24153_TypeDefinitionIndex = 53348;
 
 struct alignas(4) Struct_2_6B303821F3B24153
 {

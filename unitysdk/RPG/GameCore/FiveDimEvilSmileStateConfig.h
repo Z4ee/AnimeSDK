@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimEvilSmileStateEventConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 
-#define RPG_GAMECORE_FIVEDIMEVILSMILESTATECONFIG_METHOD_2_E358B126D7896BF2_OFFSET UNITYSDK_OFFSET(0x18900CA0)
-#define RPG_GAMECORE_FIVEDIMEVILSMILESTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18900E40)
+#define RPG_GAMECORE_FIVEDIMEVILSMILESTATECONFIG_METHOD_2_E27E35F7182B477B_OFFSET UNITYSDK_OFFSET(0x1973C730)
+#define RPG_GAMECORE_FIVEDIMEVILSMILESTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1973C8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEvilSmileStateConfig_TypeDefinitionIndex = 15819;
+	inline static constexpr unsigned int FiveDimEvilSmileStateConfig_TypeDefinitionIndex = 15874;
 
 	class FiveDimEvilSmileStateConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILESTATECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E358B126D7896BF2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEvilSmileStateConfig*& a2)
+		static ::System::Void Method_2_E27E35F7182B477B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEvilSmileStateConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEvilSmileStateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILESTATECONFIG_METHOD_2_E358B126D7896BF2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEvilSmileStateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILESTATECONFIG_METHOD_2_E27E35F7182B477B_OFFSET))(a1, a2);
 		}
 	};
 }

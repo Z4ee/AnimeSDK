@@ -5,13 +5,13 @@
 namespace Spine { class SkeletonData; }
 namespace UnityEngine { class Material; }
 
-#define SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLYMATERIALS_OFFSET UNITYSDK_OFFSET(0x19E34130)
-#define SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLY_OFFSET UNITYSDK_OFFSET(0x19E34100)
-#define SPINE_UNITY_BLENDMODEMATERIALSASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x19E34FA0)
+#define SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLYMATERIALS_OFFSET UNITYSDK_OFFSET(0x1ACAE430)
+#define SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLY_OFFSET UNITYSDK_OFFSET(0x1ACAE400)
+#define SPINE_UNITY_BLENDMODEMATERIALSASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACAEE20)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int BlendModeMaterialsAsset_TypeDefinitionIndex = 40643;
+	inline static constexpr unsigned int BlendModeMaterialsAsset_TypeDefinitionIndex = 41470;
 
 	class BlendModeMaterialsAsset : public ::Spine::Unity::SkeletonDataModifierAsset
 	{
@@ -26,14 +26,14 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALSASSET__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Apply(::Spine::SkeletonData* skeletonData)
+		::System::Void Apply(::Spine::SkeletonData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLY_OFFSET))(this, skeletonData);
+			return ((::System::Void(*)(::PVOID, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLY_OFFSET))(this, a1);
 		}
 
-		static ::System::Void ApplyMaterials(::Spine::SkeletonData* skeletonData, ::UnityEngine::Material* multiplyTemplate, ::UnityEngine::Material* screenTemplate, ::UnityEngine::Material* additiveTemplate, ::System::Boolean includeAdditiveSlots)
+		static ::System::Void ApplyMaterials(::Spine::SkeletonData* a1, ::UnityEngine::Material* a2, ::UnityEngine::Material* a3, ::UnityEngine::Material* a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::Spine::SkeletonData*, ::UnityEngine::Material*, ::UnityEngine::Material*, ::UnityEngine::Material*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLYMATERIALS_OFFSET))(skeletonData, multiplyTemplate, screenTemplate, additiveTemplate, includeAdditiveSlots);
+			return ((::System::Void(*)(::Spine::SkeletonData*, ::UnityEngine::Material*, ::UnityEngine::Material*, ::UnityEngine::Material*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALSASSET_APPLYMATERIALS_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

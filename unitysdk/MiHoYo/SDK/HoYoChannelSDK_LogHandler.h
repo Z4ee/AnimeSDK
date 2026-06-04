@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8D13030)
-#define MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8D130B0)
-#define MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x8D12CE0)
-#define MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x8D0A510)
+#define MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA16ABC0)
+#define MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA16AC40)
+#define MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xA16ABB0)
+#define MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA16AB40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSDK_LogHandler_TypeDefinitionIndex = 43134;
+	inline static constexpr unsigned int HoYoChannelSDK_LogHandler_TypeDefinitionIndex = 43937;
 
 	class HoYoChannelSDK_LogHandler : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::HoYoChannelSDK_LogLevel logLevel, ::System::String* message)
+		::System::Void Invoke(::MiHoYo::SDK::HoYoChannelSDK_LogLevel a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoChannelSDK_LogLevel, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_INVOKE_OFFSET))(this, logLevel, message);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoChannelSDK_LogLevel, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::HoYoChannelSDK_LogLevel logLevel, ::System::String* message, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::HoYoChannelSDK_LogLevel a1, ::System::String* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::HoYoChannelSDK_LogLevel, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_BEGININVOKE_OFFSET))(this, logLevel, message, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::HoYoChannelSDK_LogLevel, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELSDK_LOGHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

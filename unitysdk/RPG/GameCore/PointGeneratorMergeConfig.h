@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_POINTGENERATORMERGECONFIG_METHOD_3_47ECD3F993326AFC_OFFSET UNITYSDK_OFFSET(0x18C375B0)
-#define RPG_GAMECORE_POINTGENERATORMERGECONFIG_METHOD_3_9D73104F48B8F1A7_OFFSET UNITYSDK_OFFSET(0x18C37850)
-#define RPG_GAMECORE_POINTGENERATORMERGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C375A0)
+#define RPG_GAMECORE_POINTGENERATORMERGECONFIG_METHOD_3_45A51BE34CE0AFF9_OFFSET UNITYSDK_OFFSET(0x19A44580)
+#define RPG_GAMECORE_POINTGENERATORMERGECONFIG_METHOD_3_90EDCBD9A517F1F2_OFFSET UNITYSDK_OFFSET(0x19A44810)
+#define RPG_GAMECORE_POINTGENERATORMERGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A44570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PointGeneratorMergeConfig_TypeDefinitionIndex = 14793;
+	inline static constexpr unsigned int PointGeneratorMergeConfig_TypeDefinitionIndex = 14857;
 
 	class PointGeneratorMergeConfig : public ::RPG::GameCore::PointGeneratorConfig
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_POINTGENERATORMERGECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9D73104F48B8F1A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PointGeneratorMergeConfig*& a2)
+		static ::System::Void Method_3_90EDCBD9A517F1F2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PointGeneratorMergeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PointGeneratorMergeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_POINTGENERATORMERGECONFIG_METHOD_3_9D73104F48B8F1A7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PointGeneratorMergeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_POINTGENERATORMERGECONFIG_METHOD_3_90EDCBD9A517F1F2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_47ECD3F993326AFC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PointGeneratorMergeConfig* a2)
+		static ::System::Void Method_3_45A51BE34CE0AFF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PointGeneratorMergeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PointGeneratorMergeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_POINTGENERATORMERGECONFIG_METHOD_3_47ECD3F993326AFC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PointGeneratorMergeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_POINTGENERATORMERGECONFIG_METHOD_3_45A51BE34CE0AFF9_OFFSET))(a1, a2);
 		}
 	};
 }

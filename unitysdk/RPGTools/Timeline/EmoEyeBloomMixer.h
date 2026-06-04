@@ -9,16 +9,16 @@ namespace RPGTools::Timeline { class EyeBloomData; }
 namespace System { class Object; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER_METHOD_2_49B17BDAFA3D54D9_OFFSET UNITYSDK_OFFSET(0xB8C19C0)
-#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER_METHOD_2_7C95720B8B9EAE7D_OFFSET UNITYSDK_OFFSET(0xB8C1B20)
-#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER_METHOD_2_823FA1EEB61BCA73_OFFSET UNITYSDK_OFFSET(0xB8C1E10)
-#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB8C12D0)
-#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C1FA0)
-#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB8C1FB0)
+#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER_METHOD_2_49B17BDAFA3D54D9_OFFSET UNITYSDK_OFFSET(0xD0054A0)
+#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER_METHOD_2_7C95720B8B9EAE7D_OFFSET UNITYSDK_OFFSET(0xD0055F0)
+#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER_METHOD_2_823FA1EEB61BCA73_OFFSET UNITYSDK_OFFSET(0xD0058E0)
+#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD004EC0)
+#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xD005A70)
+#define RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD005A80)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoEyeBloomMixer_TypeDefinitionIndex = 44852;
+	inline static constexpr unsigned int EmoEyeBloomMixer_TypeDefinitionIndex = 45409;
 
 	class EmoEyeBloomMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -53,9 +53,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::RendererMaterialCache*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER_METHOD_2_823FA1EEB61BCA73_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOEYEBLOOMMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

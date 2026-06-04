@@ -3,13 +3,13 @@
 #include "unitysdk/System/IO/UnmanagedMemoryStream.h"
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
 
-#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1796D1A0)
-#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1796D0E0)
-#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1796CDD0)
+#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1871E660)
+#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1871E5A0)
+#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1871E290)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int PinnedBufferMemoryStream_TypeDefinitionIndex = 681;
+	inline static constexpr unsigned int PinnedBufferMemoryStream_TypeDefinitionIndex = 680;
 
 	class PinnedBufferMemoryStream : public ::System::IO::UnmanagedMemoryStream
 	{
@@ -17,9 +17,9 @@ namespace System::IO
 		::Il2CppArray<::System::Byte>* _array; // 0x68
 		::System::Runtime::InteropServices::GCHandle _pinningHandle; // 0x70
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* array)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM__CTOR_OFFSET))(this, array);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()
@@ -27,9 +27,9 @@ namespace System::IO
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM_FINALIZE_OFFSET))(this);
 		}
 
-		::System::Void Dispose(::System::Boolean disposing)
+		::System::Void Dispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM_DISPOSE_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM_DISPOSE_OFFSET))(this, a1);
 		}
 	};
 }

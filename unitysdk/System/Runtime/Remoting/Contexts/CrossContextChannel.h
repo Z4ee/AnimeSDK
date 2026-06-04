@@ -6,13 +6,13 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x179CFFB0)
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x179C8F00)
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL__CTOR_OFFSET UNITYSDK_OFFSET(0x179C9590)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x18781010)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x18779CE0)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1877A360)
 
 namespace System::Runtime::Remoting::Contexts
 {
-	inline static constexpr unsigned int CrossContextChannel_TypeDefinitionIndex = 1242;
+	inline static constexpr unsigned int CrossContextChannel_TypeDefinitionIndex = 1241;
 
 	class CrossContextChannel : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace System::Runtime::Remoting::Contexts
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL__CTOR_OFFSET))(this);
 		}
 
-		::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg)
+		::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* a1)
 		{
-			return ((::System::Runtime::Remoting::Messaging::IMessage*(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_SYNCPROCESSMESSAGE_OFFSET))(this, msg);
+			return ((::System::Runtime::Remoting::Messaging::IMessage*(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_SYNCPROCESSMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink)
+		::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* a1, ::System::Runtime::Remoting::Messaging::IMessageSink* a2)
 		{
-			return ((::System::Runtime::Remoting::Messaging::IMessageCtrl*(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_ASYNCPROCESSMESSAGE_OFFSET))(this, msg, replySink);
+			return ((::System::Runtime::Remoting::Messaging::IMessageCtrl*(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_ASYNCPROCESSMESSAGE_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -3,24 +3,24 @@
 #include "unitysdk/RPG/Client/Effect_InstanceDataGPUParticlesBehavior_InstanceDataRefreshMode.h"
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
-class Class_1_3FBBE3A5D4F5B883;
+class Class_1_648258D77F597F54;
 namespace RPG::Client { class Effect_InstanceDataGPUParticlesBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class GPUParticlesRenderer; }
 
-#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xA1D7060)
-#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xA1D70B0)
-#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xA1D70C0)
+#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB859F10)
+#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xB859F60)
+#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB859F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceDataGPUParticles_TypeDefinitionIndex = 65128;
+	inline static constexpr unsigned int Effect_InstanceDataGPUParticles_TypeDefinitionIndex = 66055;
 
 	class Effect_InstanceDataGPUParticles : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_InstanceDataGPUParticlesBehavior*>
 	{
 	public:
 		::UnityEngine::GPUParticlesRenderer* ParticlesRenderer; // 0x30
-		::Class_1_3FBBE3A5D4F5B883* Controller; // 0x38
+		::Class_1_648258D77F597F54* Controller; // 0x38
 		::RPG::Client::Effect_InstanceDataGPUParticlesBehavior_InstanceDataRefreshMode RefreshMode; // 0x40
 		::System::Single RefreshInterval; // 0x44
 

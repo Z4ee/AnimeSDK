@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsTriggeredBlockDamage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9C79B26DC26073D6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8FD7420)
-#define CLASS_3_9C79B26DC26073D6__CTOR_OFFSET UNITYSDK_OFFSET(0x8FD73F0)
+#define CLASS_3_9C79B26DC26073D6_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA7C4BB0)
+#define CLASS_3_9C79B26DC26073D6__CTOR_OFFSET UNITYSDK_OFFSET(0xA7C4B80)
 
-inline static constexpr unsigned int Class_3_9C79B26DC26073D6_TypeDefinitionIndex = 50467;
+inline static constexpr unsigned int Class_3_9C79B26DC26073D6_TypeDefinitionIndex = 51132;
 
 class Class_3_9C79B26DC26073D6 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsTriggeredBlockDamage*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvWindTriggerMonoPlugin_WindApplyType_TypeDefinitionIndex = 65499;
+	inline static constexpr unsigned int EnvWindTriggerMonoPlugin_WindApplyType_TypeDefinitionIndex = 66429;
 
 	enum class EnvWindTriggerMonoPlugin_WindApplyType : ::System::Int32
 	{

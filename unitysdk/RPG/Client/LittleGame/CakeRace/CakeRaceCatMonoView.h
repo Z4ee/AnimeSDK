@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LittleGame/CakeRace/CakeRaceMonoView.h"
 #include "unitysdk/RPG/Client/LittleGame/CakeRace/EffectConfig.h"
 
-class Class_1_DE6628CA879CC9BE;
+class Class_1_ADBCDF8C69BBDC56;
 namespace Cinemachine { class CinemachineBrain; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG { class OutlinePostFXMonoPlugin; }
@@ -13,23 +13,23 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_GET_CATID_OFFSET UNITYSDK_OFFSET(0xA677360)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_GET_CINEMACHINEBRAIN_OFFSET UNITYSDK_OFFSET(0xA677380)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_PLAYEFFECT_OFFSET UNITYSDK_OFFSET(0xA677890)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_PLAYROULETTEEFFECT_OFFSET UNITYSDK_OFFSET(0xA6774C0)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SETCATID_OFFSET UNITYSDK_OFFSET(0xA677470)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SETCHAMPIONCAMERAACTIVE_OFFSET UNITYSDK_OFFSET(0xA677AC0)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SET_CATID_OFFSET UNITYSDK_OFFSET(0xA677370)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_STOPEFFECT_OFFSET UNITYSDK_OFFSET(0xA677980)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_TRYADDHOVEREFFECT_OFFSET UNITYSDK_OFFSET(0xA677A00)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_TRYPLAYEFFECT_OFFSET UNITYSDK_OFFSET(0xA6775E0)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_TRYREMOVEHOVEREFFECT_OFFSET UNITYSDK_OFFSET(0xA677A60)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xA677D50)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW__GETEFFECTCONFIG_OFFSET UNITYSDK_OFFSET(0xA677650)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_GET_CATID_OFFSET UNITYSDK_OFFSET(0xBDC1BF0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_GET_CINEMACHINEBRAIN_OFFSET UNITYSDK_OFFSET(0xBDC1C10)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_PLAYEFFECT_OFFSET UNITYSDK_OFFSET(0xBDC2130)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_PLAYROULETTEEFFECT_OFFSET UNITYSDK_OFFSET(0xBDC1D50)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SETCATID_OFFSET UNITYSDK_OFFSET(0xBDC1D00)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SETCHAMPIONCAMERAACTIVE_OFFSET UNITYSDK_OFFSET(0xBDC2360)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SET_CATID_OFFSET UNITYSDK_OFFSET(0xBDC1C00)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_STOPEFFECT_OFFSET UNITYSDK_OFFSET(0xBDC2220)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_TRYADDHOVEREFFECT_OFFSET UNITYSDK_OFFSET(0xBDC22A0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_TRYPLAYEFFECT_OFFSET UNITYSDK_OFFSET(0xBDC1E70)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_TRYREMOVEHOVEREFFECT_OFFSET UNITYSDK_OFFSET(0xBDC2300)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC2410)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW__GETEFFECTCONFIG_OFFSET UNITYSDK_OFFSET(0xBDC1EE0)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCatMonoView_TypeDefinitionIndex = 71644;
+	inline static constexpr unsigned int CakeRaceCatMonoView_TypeDefinitionIndex = 72666;
 
 	class CakeRaceCatMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceMonoView
 	{
@@ -41,7 +41,7 @@ namespace RPG::Client::LittleGame::CakeRace
 		::RPG::OutlinePostFXMonoPlugin* _OutlineComp; // 0x60
 		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::CakeRace::EffectConfig>* EffectConfigs; // 0x68
 		::Cinemachine::CinemachineVirtualCamera* _ChampionCamera; // 0x70
-		::Class_1_DE6628CA879CC9BE* _PlayAventurineMazeSkillEffect; // 0x78
+		::Class_1_ADBCDF8C69BBDC56* _PlayAventurineMazeSkillEffect; // 0x78
 
 		::System::Void _ctor()
 		{
@@ -53,9 +53,9 @@ namespace RPG::Client::LittleGame::CakeRace
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_GET_CATID_OFFSET))(this);
 		}
 
-		::System::Void set_CatID(::System::UInt32 value)
+		::System::Void set_CatID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SET_CATID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SET_CATID_OFFSET))(this, a1);
 		}
 
 		::Cinemachine::CinemachineBrain* get_CinemachineBrain()
@@ -63,34 +63,34 @@ namespace RPG::Client::LittleGame::CakeRace
 			return ((::Cinemachine::CinemachineBrain*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_GET_CINEMACHINEBRAIN_OFFSET))(this);
 		}
 
-		::System::Void SetCatID(::System::UInt32 catID)
+		::System::Void SetCatID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SETCATID_OFFSET))(this, catID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SETCATID_OFFSET))(this, a1);
 		}
 
-		::System::Void PlayRouletteEffect(::System::Int32 sameCount)
+		::System::Void PlayRouletteEffect(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_PLAYROULETTEEFFECT_OFFSET))(this, sameCount);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_PLAYROULETTEEFFECT_OFFSET))(this, a1);
 		}
 
-		::System::Void TryPlayEffect(::System::String* effectName)
+		::System::Void TryPlayEffect(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_TRYPLAYEFFECT_OFFSET))(this, effectName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_TRYPLAYEFFECT_OFFSET))(this, a1);
 		}
 
-		::System::Void PlayEffect(::System::String* effectName)
+		::System::Void PlayEffect(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_PLAYEFFECT_OFFSET))(this, effectName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_PLAYEFFECT_OFFSET))(this, a1);
 		}
 
-		::System::Void StopEffect(::System::String* effectName)
+		::System::Void StopEffect(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_STOPEFFECT_OFFSET))(this, effectName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_STOPEFFECT_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::LittleGame::CakeRace::EffectConfig _GetEffectConfig(::System::String* effectName)
+		::RPG::Client::LittleGame::CakeRace::EffectConfig _GetEffectConfig(::System::String* a1)
 		{
-			return ((::RPG::Client::LittleGame::CakeRace::EffectConfig(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW__GETEFFECTCONFIG_OFFSET))(this, effectName);
+			return ((::RPG::Client::LittleGame::CakeRace::EffectConfig(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW__GETEFFECTCONFIG_OFFSET))(this, a1);
 		}
 
 		::System::Void TryAddHoverEffect()
@@ -103,9 +103,9 @@ namespace RPG::Client::LittleGame::CakeRace
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_TRYREMOVEHOVEREFFECT_OFFSET))(this);
 		}
 
-		::System::Void SetChampionCameraActive(::System::Boolean isActive)
+		::System::Void SetChampionCameraActive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SETCHAMPIONCAMERAACTIVE_OFFSET))(this, isActive);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW_SETCHAMPIONCAMERAACTIVE_OFFSET))(this, a1);
 		}
 	};
 }

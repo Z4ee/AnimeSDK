@@ -4,30 +4,30 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::Client { class UIController; }
 namespace RPG::GameCore { class ShowEnvBuffDialog; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_E8F7E4B8272B89B0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD9E5710)
-#define CLASS_2_E8F7E4B8272B89B0_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xD9E5AC0)
-#define CLASS_2_E8F7E4B8272B89B0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD9E4DF0)
-#define CLASS_2_E8F7E4B8272B89B0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD9E56C0)
-#define CLASS_2_E8F7E4B8272B89B0_TICK_OFFSET UNITYSDK_OFFSET(0xD9E5780)
-#define CLASS_2_E8F7E4B8272B89B0__CTOR_OFFSET UNITYSDK_OFFSET(0xD9E4D60)
+#define CLASS_2_E8F7E4B8272B89B0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA3CAC50)
+#define CLASS_2_E8F7E4B8272B89B0_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xA3CAFD0)
+#define CLASS_2_E8F7E4B8272B89B0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA3CA3C0)
+#define CLASS_2_E8F7E4B8272B89B0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA3CAC00)
+#define CLASS_2_E8F7E4B8272B89B0_TICK_OFFSET UNITYSDK_OFFSET(0xA3CACC0)
+#define CLASS_2_E8F7E4B8272B89B0__CTOR_OFFSET UNITYSDK_OFFSET(0xA3CA330)
 
-inline static constexpr unsigned int Class_2_E8F7E4B8272B89B0_TypeDefinitionIndex = 54059;
+inline static constexpr unsigned int Class_2_E8F7E4B8272B89B0_TypeDefinitionIndex = 54785;
 
 class Class_2_E8F7E4B8272B89B0 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	::RPG::GameCore::ShowEnvBuffDialog* Field_2_0; // 0x18
-	::Class_3_E21F6DE9B7FA4D05* Field_2_5; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x28
-	::RPG::Client::UIController* Field_2_6; // 0x30
-	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_2_4; // 0x38
-	::System::Boolean Field_2_2; // 0x40
-	::RPG::Client::TextID Field_2_3; // 0x48
+	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_2_1; // 0x20
+	::RPG::Client::UIController* Field_2_2; // 0x28
+	::Class_3_07C3C4D2990C49EE* Field_2_3; // 0x30
+	::RPG::GameCore::TaskContext* Field_2_4; // 0x38
+	::System::Boolean Field_2_5; // 0x40
+	::RPG::Client::TextID Field_2_6; // 0x48
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowEnvBuffDialog* a2)
 	{

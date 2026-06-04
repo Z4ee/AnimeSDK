@@ -6,12 +6,12 @@ namespace RPG::Client { class CameraNormalConfigTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAMERANORMALCONFIGTEMPLATELIST_METHOD_3_1FB7ADE0488AC757_OFFSET UNITYSDK_OFFSET(0x9F186B0)
-#define RPG_CLIENT_CAMERANORMALCONFIGTEMPLATELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x9F1F5D0)
+#define RPG_CLIENT_CAMERANORMALCONFIGTEMPLATELIST_METHOD_3_8560D34C440F7DEB_OFFSET UNITYSDK_OFFSET(0xB4B4FB0)
+#define RPG_CLIENT_CAMERANORMALCONFIGTEMPLATELIST__CTOR_OFFSET UNITYSDK_OFFSET(0xB4BC260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraNormalConfigTemplateList_TypeDefinitionIndex = 64232;
+	inline static constexpr unsigned int CameraNormalConfigTemplateList_TypeDefinitionIndex = 65153;
 
 	class CameraNormalConfigTemplateList : public ::UnityEngine::ScriptableObject
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGTEMPLATELIST__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::CameraNormalConfigTemplate* Method_3_1FB7ADE0488AC757(::System::String* a1)
+		::RPG::Client::CameraNormalConfigTemplate* Method_3_8560D34C440F7DEB(::System::String* a1)
 		{
-			return ((::RPG::Client::CameraNormalConfigTemplate*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGTEMPLATELIST_METHOD_3_1FB7ADE0488AC757_OFFSET))(this, a1);
+			return ((::RPG::Client::CameraNormalConfigTemplate*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANORMALCONFIGTEMPLATELIST_METHOD_3_8560D34C440F7DEB_OFFSET))(this, a1);
 		}
 	};
 }

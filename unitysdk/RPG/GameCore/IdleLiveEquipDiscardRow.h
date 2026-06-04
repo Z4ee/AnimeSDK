@@ -5,28 +5,28 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A0FF00)
-#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A100F0)
+#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198421C0)
+#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198423B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEquipDiscardRow_TypeDefinitionIndex = 11191;
+	inline static constexpr unsigned int IdleLiveEquipDiscardRow_TypeDefinitionIndex = 11238;
 
 	class IdleLiveEquipDiscardRow : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::FixPoint EquipLevelAddPower; // 0x10
-		::RPG::GameCore::FixPoint SpEquipLevelAddPower; // 0x18
-		::System::UInt32 EquipLevel; // 0x20
+		::System::UInt32 EquipLevel; // 0x18
+		::RPG::GameCore::FixPoint SpEquipLevelAddPower; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::IdleLiveEquipDiscardRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveEquipDiscardRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveEquipDiscardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveEquipDiscardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

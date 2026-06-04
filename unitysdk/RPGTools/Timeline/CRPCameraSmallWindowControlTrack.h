@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8A1EB0)
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A2090)
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8A2170)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFE5CF0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE5E70)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFE5F50)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSmallWindowControlTrack_TypeDefinitionIndex = 44656;
+	inline static constexpr unsigned int CRPCameraSmallWindowControlTrack_TypeDefinitionIndex = 45203;
 
 	class CRPCameraSmallWindowControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -27,9 +27,9 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

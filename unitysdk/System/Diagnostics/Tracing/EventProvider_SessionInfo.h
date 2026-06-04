@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SESSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x73E20)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SESSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x7BBE0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventProvider_SessionInfo_TypeDefinitionIndex = 1674;
+	inline static constexpr unsigned int EventProvider_SessionInfo_TypeDefinitionIndex = 1672;
 
 	struct alignas(4) EventProvider_SessionInfo
 	{
 		::System::Int32 sessionIdBit; // 0x10
 		::System::Int32 etwSessionId; // 0x14
 
-		::System::Void _ctor(::System::Int32 sessionIdBit_, ::System::Int32 etwSessionId_)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SESSIONINFO__CTOR_OFFSET))(this, sessionIdBit_, etwSessionId_);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_SESSIONINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

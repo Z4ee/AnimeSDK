@@ -11,36 +11,36 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_CONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x17407E90)
-#define MIHOYO_SDK_CONFIRM_CLOSE_OFFSET UNITYSDK_OFFSET(0x17408C30)
-#define MIHOYO_SDK_CONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x174089B0)
-#define MIHOYO_SDK_CONFIRM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17408DD0)
-#define MIHOYO_SDK_CONFIRM_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x17408CF0)
-#define MIHOYO_SDK_CONFIRM_ONTAPOK_OFFSET UNITYSDK_OFFSET(0x17408D60)
-#define MIHOYO_SDK_CONFIRM_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x174084E0)
-#define MIHOYO_SDK_CONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x173CCD00)
-#define MIHOYO_SDK_CONFIRM_START_OFFSET UNITYSDK_OFFSET(0x17408460)
-#define MIHOYO_SDK_CONFIRM__CCTOR_OFFSET UNITYSDK_OFFSET(0x17409170)
-#define MIHOYO_SDK_CONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x17409130)
+#define MIHOYO_SDK_CONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1820B490)
+#define MIHOYO_SDK_CONFIRM_CLOSE_OFFSET UNITYSDK_OFFSET(0x1820C3C0)
+#define MIHOYO_SDK_CONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1820C150)
+#define MIHOYO_SDK_CONFIRM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1820C560)
+#define MIHOYO_SDK_CONFIRM_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x1820C480)
+#define MIHOYO_SDK_CONFIRM_ONTAPOK_OFFSET UNITYSDK_OFFSET(0x1820C4F0)
+#define MIHOYO_SDK_CONFIRM_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1820BAF0)
+#define MIHOYO_SDK_CONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x181D6B90)
+#define MIHOYO_SDK_CONFIRM_START_OFFSET UNITYSDK_OFFSET(0x1820BA70)
+#define MIHOYO_SDK_CONFIRM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1820C630)
+#define MIHOYO_SDK_CONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1820C5F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Confirm_TypeDefinitionIndex = 7270;
+	inline static constexpr unsigned int Confirm_TypeDefinitionIndex = 8173;
 
 	class Confirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_sm_hideTask()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0x17FC0);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0xD8E0);
 		}
 		static ::MiHoYo::SDK::Confirm** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Confirm**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0x17FC8);
+			return (::MiHoYo::SDK::Confirm**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0xD8E8);
 		}
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0x17FD0);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Confirm_TypeDefinitionIndex)->GetStaticField(0xD8F0);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* ContentTextPath; // 0x0
@@ -79,14 +79,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRM_START_OFFSET))(this);
 		}
 
-		static ::System::Boolean ShowPluginUI(::System::String* content, ::System::String* okTitle, ::System::String* cancelTitle, ::MiHoYo::SDK::Confirm_OnConfirmDelegate* callback)
+		static ::System::Boolean ShowPluginUI(::System::String* a1, ::System::String* a2, ::System::String* a3, ::MiHoYo::SDK::Confirm_OnConfirmDelegate* a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::String*, ::MiHoYo::SDK::Confirm_OnConfirmDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRM_SHOWPLUGINUI_OFFSET))(content, okTitle, cancelTitle, callback);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::String*, ::MiHoYo::SDK::Confirm_OnConfirmDelegate*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRM_SHOWPLUGINUI_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Show(::System::String* content, ::System::String* okButton, ::System::String* cancelButton, ::MiHoYo::SDK::Confirm_OnConfirmDelegate* callback, ::System::Int32 priority, ::System::Boolean bIsDisablePluginUI)
+		static ::System::Void Show(::System::String* a1, ::System::String* a2, ::System::String* a3, ::MiHoYo::SDK::Confirm_OnConfirmDelegate* a4, ::System::Int32 a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::MiHoYo::SDK::Confirm_OnConfirmDelegate*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRM_SHOW_OFFSET))(content, okButton, cancelButton, callback, priority, bIsDisablePluginUI);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::MiHoYo::SDK::Confirm_OnConfirmDelegate*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRM_SHOW_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Void Hide()

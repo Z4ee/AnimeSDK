@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatV2SingleDialogPerformanceTriggerCondition; }
 
-#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCE_METHOD_2_50FF41985AB75997_OFFSET UNITYSDK_OFFSET(0x1887DDF0)
-#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1887E0E0)
+#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCE_METHOD_2_BD57389CB7097FB4_OFFSET UNITYSDK_OFFSET(0x196BAC40)
+#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x196BAF30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatV2SingleDialogPerformance_TypeDefinitionIndex = 15355;
+	inline static constexpr unsigned int DiceCombatV2SingleDialogPerformance_TypeDefinitionIndex = 15413;
 
 	class DiceCombatV2SingleDialogPerformance : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_50FF41985AB75997(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatV2SingleDialogPerformance*& a2)
+		static ::System::Void Method_2_BD57389CB7097FB4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatV2SingleDialogPerformance*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatV2SingleDialogPerformance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCE_METHOD_2_50FF41985AB75997_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatV2SingleDialogPerformance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCE_METHOD_2_BD57389CB7097FB4_OFFSET))(a1, a2);
 		}
 	};
 }

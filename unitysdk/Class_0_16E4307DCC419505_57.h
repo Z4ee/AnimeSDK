@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGameShare/AuthorityType.h"
-#include "unitysdk/RPG/Client/LittleGameShare/ReplicationDormancy.h"
-#include "unitysdk/RPG/Client/LittleGameShare/ReplicationNetMode.h"
+#include "unitysdk/RPG/MVector3.h"
 
-class Class_1_26D9FE3FB25C3851;
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+class Class_1_AEDED6B377F2000F;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_57_TypeDefinitionIndex = 34520;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_57_TypeDefinitionIndex = 34804;
 
 class Class_0_16E4307DCC419505_57
 {

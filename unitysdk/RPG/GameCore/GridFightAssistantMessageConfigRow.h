@@ -6,23 +6,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTASSISTANTMESSAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189A1510)
-#define RPG_GAMECORE_GRIDFIGHTASSISTANTMESSAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189A18A0)
+#define RPG_GAMECORE_GRIDFIGHTASSISTANTMESSAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197D9780)
+#define RPG_GAMECORE_GRIDFIGHTASSISTANTMESSAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x197D9B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightAssistantMessageConfigRow_TypeDefinitionIndex = 12710;
+	inline static constexpr unsigned int GridFightAssistantMessageConfigRow_TypeDefinitionIndex = 12800;
 
 	class GridFightAssistantMessageConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Int32>* TypePara; // 0x10
-		::RPG::Client::TextID Description; // 0x18
-		::System::Int32 Interval; // 0x28
-		::System::Int32 Priority; // 0x2C
-		::System::UInt32 EndDivisionID; // 0x30
-		::System::UInt32 ID; // 0x34
-		::System::Int32 ExclusiveID; // 0x38
+		::System::UInt32 EndDivisionID; // 0x18
+		::System::Int32 Interval; // 0x1C
+		::RPG::Client::TextID Description; // 0x20
+		::System::Int32 Priority; // 0x30
+		::System::Int32 ExclusiveID; // 0x34
+		::System::UInt32 ID; // 0x38
 		::RPG::GameCore::GridFightAssistantType AssistantMessageType; // 0x3C
 
 		::System::Void _ctor()
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTASSISTANTMESSAGECONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightAssistantMessageConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightAssistantMessageConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightAssistantMessageConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTASSISTANTMESSAGECONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightAssistantMessageConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTASSISTANTMESSAGECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_0AE62590626D9F39_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1287DB80)
-#define CLASS_1_0AE62590626D9F39_GET_PRIVILEGEPOINTS_OFFSET UNITYSDK_OFFSET(0x1287DBA0)
-#define CLASS_1_0AE62590626D9F39_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1287DB90)
-#define CLASS_1_0AE62590626D9F39_SET_PRIVILEGEPOINTS_OFFSET UNITYSDK_OFFSET(0x1287DBB0)
-#define CLASS_1_0AE62590626D9F39__CTOR_OFFSET UNITYSDK_OFFSET(0x1287DB30)
+#define CLASS_1_0AE62590626D9F39_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x13CB1250)
+#define CLASS_1_0AE62590626D9F39_GET_PRIVILEGEPOINTS_OFFSET UNITYSDK_OFFSET(0x13CB1270)
+#define CLASS_1_0AE62590626D9F39_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x13CB1260)
+#define CLASS_1_0AE62590626D9F39_SET_PRIVILEGEPOINTS_OFFSET UNITYSDK_OFFSET(0x13CB1280)
+#define CLASS_1_0AE62590626D9F39__CTOR_OFFSET UNITYSDK_OFFSET(0x13CB1200)
 
-inline static constexpr unsigned int Class_1_0AE62590626D9F39_TypeDefinitionIndex = 69676;
+inline static constexpr unsigned int Class_1_0AE62590626D9F39_TypeDefinitionIndex = 70488;
 
 class Class_1_0AE62590626D9F39 : public ::System::Object
 {
@@ -26,9 +26,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0AE62590626D9F39_GET_LEVEL_OFFSET))(this);
 	}
 
-	::System::Void set_Level(::System::UInt32 value)
+	::System::Void set_Level(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_0AE62590626D9F39_SET_LEVEL_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_0AE62590626D9F39_SET_LEVEL_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_PrivilegePoints()
@@ -36,8 +36,8 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0AE62590626D9F39_GET_PRIVILEGEPOINTS_OFFSET))(this);
 	}
 
-	::System::Void set_PrivilegePoints(::System::UInt32 value)
+	::System::Void set_PrivilegePoints(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_0AE62590626D9F39_SET_PRIVILEGEPOINTS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_0AE62590626D9F39_SET_PRIVILEGEPOINTS_OFFSET))(this, a1);
 	}
 };

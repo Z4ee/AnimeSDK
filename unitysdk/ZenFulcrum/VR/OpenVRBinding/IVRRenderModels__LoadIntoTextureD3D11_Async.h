@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A70FC00)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A70FC70)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A70F8B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A70F890)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B522330)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B5223A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B522320)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5222B0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRRenderModels__LoadIntoTextureD3D11_Async_TypeDefinitionIndex = 35908;
+	inline static constexpr unsigned int IVRRenderModels__LoadIntoTextureD3D11_Async_TypeDefinitionIndex = 36208;
 
 	class IVRRenderModels__LoadIntoTextureD3D11_Async : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError Invoke(::System::Int32 textureId, ::System::IntPtr pDstTexture)
+		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError Invoke(::System::Int32 a1, ::System::IntPtr a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_INVOKE_OFFSET))(this, textureId, pDstTexture);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 textureId, ::System::IntPtr pDstTexture, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::System::IntPtr a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_BEGININVOKE_OFFSET))(this, textureId, pDstTexture, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError EndInvoke(::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_ENDINVOKE_OFFSET))(this, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__LOADINTOTEXTURED3D11_ASYNC_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

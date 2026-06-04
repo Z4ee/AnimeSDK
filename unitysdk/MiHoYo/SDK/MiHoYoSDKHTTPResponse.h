@@ -8,21 +8,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::IO { class Stream; }
 
-#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_BADREQUEST_OFFSET UNITYSDK_OFFSET(0x8D47E00)
-#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_CONTENTFILEPATH_OFFSET UNITYSDK_OFFSET(0x8D473F0)
-#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_FORBIDDEN_OFFSET UNITYSDK_OFFSET(0x8D47FA0)
-#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x8D473D0)
-#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_METHODNOTALLOWED_OFFSET UNITYSDK_OFFSET(0x8D47ED0)
-#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0x8D473B0)
-#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SENDTO_OFFSET UNITYSDK_OFFSET(0x8D474B0)
-#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_CONTENTFILEPATH_OFFSET UNITYSDK_OFFSET(0x8D47400)
-#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_HEADERS_OFFSET UNITYSDK_OFFSET(0x8D473E0)
-#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0x8D473C0)
-#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x8D47410)
+#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_BADREQUEST_OFFSET UNITYSDK_OFFSET(0xA19B230)
+#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_CONTENTFILEPATH_OFFSET UNITYSDK_OFFSET(0xA19A820)
+#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_FORBIDDEN_OFFSET UNITYSDK_OFFSET(0xA19B3D0)
+#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0xA19A800)
+#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_METHODNOTALLOWED_OFFSET UNITYSDK_OFFSET(0xA19B300)
+#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0xA19A7E0)
+#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SENDTO_OFFSET UNITYSDK_OFFSET(0xA19A8E0)
+#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_CONTENTFILEPATH_OFFSET UNITYSDK_OFFSET(0xA19A830)
+#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_HEADERS_OFFSET UNITYSDK_OFFSET(0xA19A810)
+#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0xA19A7F0)
+#define MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0xA19A840)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKHTTPResponse_TypeDefinitionIndex = 42899;
+	inline static constexpr unsigned int MiHoYoSDKHTTPResponse_TypeDefinitionIndex = 43702;
 
 	class MiHoYoSDKHTTPResponse : public ::System::Object
 	{
@@ -41,9 +41,9 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::HTTPStatusCode(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_STATUSCODE_OFFSET))(this);
 		}
 
-		::System::Void set_StatusCode(::MiHoYo::SDK::HTTPStatusCode value)
+		::System::Void set_StatusCode(::MiHoYo::SDK::HTTPStatusCode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HTTPStatusCode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_STATUSCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HTTPStatusCode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_STATUSCODE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::HTTPHeaderField, ::System::String*>* get_Headers()
@@ -51,9 +51,9 @@ namespace MiHoYo::SDK
 			return ((::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::HTTPHeaderField, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_HEADERS_OFFSET))(this);
 		}
 
-		::System::Void set_Headers(::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::HTTPHeaderField, ::System::String*>* value)
+		::System::Void set_Headers(::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::HTTPHeaderField, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::HTTPHeaderField, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_HEADERS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::HTTPHeaderField, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_HEADERS_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ContentFilePath()
@@ -61,14 +61,14 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_GET_CONTENTFILEPATH_OFFSET))(this);
 		}
 
-		::System::Void set_ContentFilePath(::System::String* value)
+		::System::Void set_ContentFilePath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_CONTENTFILEPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SET_CONTENTFILEPATH_OFFSET))(this, a1);
 		}
 
-		::System::Void SendTo(::System::IO::Stream* stream)
+		::System::Void SendTo(::System::IO::Stream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SENDTO_OFFSET))(this, stream);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKHTTPRESPONSE_SENDTO_OFFSET))(this, a1);
 		}
 
 		static ::MiHoYo::SDK::MiHoYoSDKHTTPResponse* get_BadRequest()

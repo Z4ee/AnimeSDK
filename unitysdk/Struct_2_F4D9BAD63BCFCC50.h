@@ -10,10 +10,10 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TeamFormationComponent; }
 
-#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_2E42AE0F9A33183C_OFFSET UNITYSDK_OFFSET(0xA068600)
-#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_A79F1DD3BB8D696D_OFFSET UNITYSDK_OFFSET(0xD58C0)
+#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_2E42AE0F9A33183C_OFFSET UNITYSDK_OFFSET(0x139C9A90)
+#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_CA73D577EAB50ADB_OFFSET UNITYSDK_OFFSET(0x2BC3AB0)
 
-inline static constexpr unsigned int Struct_2_F4D9BAD63BCFCC50_TypeDefinitionIndex = 53212;
+inline static constexpr unsigned int Struct_2_F4D9BAD63BCFCC50_TypeDefinitionIndex = 53925;
 
 struct alignas(8) Struct_2_F4D9BAD63BCFCC50
 {
@@ -30,8 +30,8 @@ struct alignas(8) Struct_2_F4D9BAD63BCFCC50
 		return ((::Struct_2_F4D9BAD63BCFCC50(*)(::RPG::GameCore::TeamFormationComponent*, ::RPG::GameCore::CustomTeamFormationRefreshReason))((::PBYTE)hIl2Cpp + STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_2E42AE0F9A33183C_OFFSET))(a1, a2);
 	}
 
-	::System::Void Method_2_A79F1DD3BB8D696D(::RPG::GameCore::TeamFormationComponent* a1, ::RPG::GameCore::CustomTeamFormationRefreshReason a2)
+	::System::Void Method_2_CA73D577EAB50ADB(::RPG::GameCore::TeamFormationComponent* a1, ::RPG::GameCore::CustomTeamFormationRefreshReason a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamFormationComponent*, ::RPG::GameCore::CustomTeamFormationRefreshReason))((::PBYTE)hIl2Cpp + STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_A79F1DD3BB8D696D_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamFormationComponent*, ::RPG::GameCore::CustomTeamFormationRefreshReason))((::PBYTE)hIl2Cpp + STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_CA73D577EAB50ADB_OFFSET))(this, a1, a2);
 	}
 };

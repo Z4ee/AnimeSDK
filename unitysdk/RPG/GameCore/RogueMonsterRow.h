@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D48210)
-#define RPG_GAMECORE_ROGUEMONSTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D49690)
+#define RPG_GAMECORE_ROGUEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B9E140)
+#define RPG_GAMECORE_ROGUEMONSTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B9F560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMonsterRow_TypeDefinitionIndex = 13885;
+	inline static constexpr unsigned int RogueMonsterRow_TypeDefinitionIndex = 13952;
 
 	class RogueMonsterRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 NpcMonsterID; // 0x10
-		::System::UInt32 EventID; // 0x14
-		::System::UInt32 RogueMonsterID; // 0x18
+		::System::UInt32 EventID; // 0x10
+		::System::UInt32 RogueMonsterID; // 0x14
+		::System::UInt32 NpcMonsterID; // 0x18
 		::RPG::GameCore::RogueMonsterDropType MonsterDropType; // 0x1C
 
 		::System::Void _ctor()
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMONSTERROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueMonsterRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMonsterRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMonsterRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMONSTERROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMonsterRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMONSTERROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

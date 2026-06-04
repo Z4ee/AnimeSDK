@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define CLASS_2_BE37E8E5B7815649_METHOD_2_9AF9F778CB2EF62A_OFFSET UNITYSDK_OFFSET(0x95A5C40)
-#define CLASS_2_BE37E8E5B7815649__CTOR_OFFSET UNITYSDK_OFFSET(0x95A5CE0)
-#define CLASS_2_BE37E8E5B7815649__ONBIND_OFFSET UNITYSDK_OFFSET(0x95A5BE0)
-#define CLASS_2_BE37E8E5B7815649___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x95A5D10)
+#define CLASS_2_BE37E8E5B7815649_METHOD_2_9AF9F778CB2EF62A_OFFSET UNITYSDK_OFFSET(0x136585A0)
+#define CLASS_2_BE37E8E5B7815649__CTOR_OFFSET UNITYSDK_OFFSET(0x13658640)
+#define CLASS_2_BE37E8E5B7815649__ONBIND_OFFSET UNITYSDK_OFFSET(0x13658540)
+#define CLASS_2_BE37E8E5B7815649___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x13658670)
 
-inline static constexpr unsigned int Class_2_BE37E8E5B7815649_TypeDefinitionIndex = 66254;
+inline static constexpr unsigned int Class_2_BE37E8E5B7815649_TypeDefinitionIndex = 67193;
 
 class Class_2_BE37E8E5B7815649 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
+	// static const ::System::String* Field_2_0; // 0x0
 	// static const ::System::String* Field_2_1; // 0x0
-	// static const ::System::String* Field_2_2; // 0x0
-	::UnityEngine::Animation* Field_2_0; // 0x60
+	::UnityEngine::Animation* Field_2_2; // 0x60
 
 	::System::Void _ctor()
 	{

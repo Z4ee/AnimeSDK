@@ -8,22 +8,22 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F13810)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8F137B0)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F137D0)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F13790)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x8F137F0)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8F13DF0)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8F137C0)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F137E0)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8F13830)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F137A0)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x8F13800)
-#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8F13F20)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA33B9B0)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA33B950)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA33B970)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA33B930)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0xA33B990)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA33BF90)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA33B960)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA33B980)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA33B9D0)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA33B940)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0xA33B9A0)
+#define EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA33C0C0)
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int LeaveRoomCallbackInfo_TypeDefinitionIndex = 41533;
+	inline static constexpr unsigned int LeaveRoomCallbackInfo_TypeDefinitionIndex = 42336;
 
 	class LeaveRoomCallbackInfo : public ::System::Object
 	{
@@ -43,9 +43,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -53,9 +53,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -63,9 +63,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RoomName()
@@ -73,9 +73,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GET_ROOMNAME_OFFSET))(this);
 		}
 
-		::System::Void set_RoomName(::System::String* value)
+		::System::Void set_RoomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_ROOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_ROOMNAME_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -83,14 +83,14 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::RTC::LeaveRoomCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::RTC::LeaveRoomCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::RTC::LeaveRoomCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::RTC::LeaveRoomCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_LEAVEROOMCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

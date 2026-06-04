@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class ScriptableObject; }
 
-#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F5860)
-#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES___C__DISPLAYCLASS0_1__GENERATEUNIQUEACTORNAME_B__1_OFFSET UNITYSDK_OFFSET(0x1A3F58C0)
+#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B24A8F0)
+#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES___C__DISPLAYCLASS0_1__GENERATEUNIQUEACTORNAME_B__1_OFFSET UNITYSDK_OFFSET(0x1B24A950)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineCreateUtilities___c__DisplayClass0_1_TypeDefinitionIndex = 35644;
+	inline static constexpr unsigned int TimelineCreateUtilities___c__DisplayClass0_1_TypeDefinitionIndex = 35944;
 
 	class TimelineCreateUtilities___c__DisplayClass0_1 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace UnityEngine::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES___C__DISPLAYCLASS0_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GenerateUniqueActorName_b__1(::UnityEngine::ScriptableObject* x)
+		::System::Boolean _GenerateUniqueActorName_b__1(::UnityEngine::ScriptableObject* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ScriptableObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES___C__DISPLAYCLASS0_1__GENERATEUNIQUEACTORNAME_B__1_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ScriptableObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES___C__DISPLAYCLASS0_1__GENERATEUNIQUEACTORNAME_B__1_OFFSET))(this, a1);
 		}
 	};
 }

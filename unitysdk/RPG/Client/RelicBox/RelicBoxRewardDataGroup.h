@@ -7,29 +7,29 @@ namespace RPG::Client::RelicBox { class RelicBoxRewardData; }
 namespace RPG::GameCore { class ActivityRelicBoxQuestTabRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_ADDREWARDDATA_OFFSET UNITYSDK_OFFSET(0xAF8FA90)
-#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xAF8F9D0)
-#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_GETALLREWARDCOUNT_OFFSET UNITYSDK_OFFSET(0xAF900F0)
-#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_GETCANTAKEREWARADQUESTS_OFFSET UNITYSDK_OFFSET(0xAF8FB00)
-#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_GETTAKENREWARDCOUNT_OFFSET UNITYSDK_OFFSET(0xAF901B0)
-#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_GET_TABID_OFFSET UNITYSDK_OFFSET(0xAF8F980)
-#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_GET_TABNAME_OFFSET UNITYSDK_OFFSET(0xAF8F9A0)
-#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_HASANYREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0xAF90270)
-#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xAF8FA50)
+#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_ADDREWARDDATA_OFFSET UNITYSDK_OFFSET(0xC6D6B90)
+#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xC6D6AD0)
+#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_GETALLREWARDCOUNT_OFFSET UNITYSDK_OFFSET(0xC6D6ED0)
+#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_GETCANTAKEREWARADQUESTS_OFFSET UNITYSDK_OFFSET(0xC6D6C40)
+#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_GETTAKENREWARDCOUNT_OFFSET UNITYSDK_OFFSET(0xC6D6F80)
+#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_GET_TABID_OFFSET UNITYSDK_OFFSET(0xC6D6A80)
+#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_GET_TABNAME_OFFSET UNITYSDK_OFFSET(0xC6D6AA0)
+#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_HASANYREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0xC6D7030)
+#define RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xC6D6B50)
 
 namespace RPG::Client::RelicBox
 {
-	inline static constexpr unsigned int RelicBoxRewardDataGroup_TypeDefinitionIndex = 68718;
+	inline static constexpr unsigned int RelicBoxRewardDataGroup_TypeDefinitionIndex = 69530;
 
 	class RelicBoxRewardDataGroup : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::RelicBox::RelicBoxRewardData*>* RelicBoxRewardList; // 0x10
-		::RPG::GameCore::ActivityRelicBoxQuestTabRow* _Row; // 0x18
+		::RPG::GameCore::ActivityRelicBoxQuestTabRow* _Row; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::RelicBox::RelicBoxRewardData*>* RelicBoxRewardList; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::ActivityRelicBoxQuestTabRow* row)
+		::System::Void _ctor(::RPG::GameCore::ActivityRelicBoxQuestTabRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityRelicBoxQuestTabRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP__CTOR_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityRelicBoxQuestTabRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TabID()
@@ -42,14 +42,14 @@ namespace RPG::Client::RelicBox
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_GET_TABNAME_OFFSET))(this);
 		}
 
-		static ::RPG::Client::RelicBox::RelicBoxRewardDataGroup* Create(::RPG::GameCore::ActivityRelicBoxQuestTabRow* row)
+		static ::RPG::Client::RelicBox::RelicBoxRewardDataGroup* Create(::RPG::GameCore::ActivityRelicBoxQuestTabRow* a1)
 		{
-			return ((::RPG::Client::RelicBox::RelicBoxRewardDataGroup*(*)(::RPG::GameCore::ActivityRelicBoxQuestTabRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_CREATE_OFFSET))(row);
+			return ((::RPG::Client::RelicBox::RelicBoxRewardDataGroup*(*)(::RPG::GameCore::ActivityRelicBoxQuestTabRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void AddRewardData(::RPG::Client::RelicBox::RelicBoxRewardData* data)
+		::System::Void AddRewardData(::RPG::Client::RelicBox::RelicBoxRewardData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicBox::RelicBoxRewardData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_ADDREWARDDATA_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicBox::RelicBoxRewardData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICBOX_RELICBOXREWARDDATAGROUP_ADDREWARDDATA_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* GetCanTakeRewaradQuests()

@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ParameterizedStrings_FormatParam.h"
 
-#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x179902E0)
-#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_POP_OFFSET UNITYSDK_OFFSET(0x17991170)
-#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x17991710)
-#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x179902A0)
+#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x18742130)
+#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_POP_OFFSET UNITYSDK_OFFSET(0x187431D0)
+#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x18743770)
+#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x187420F0)
 
 namespace System
 {
-	inline static constexpr unsigned int ParameterizedStrings_LowLevelStack_TypeDefinitionIndex = 427;
+	inline static constexpr unsigned int ParameterizedStrings_LowLevelStack_TypeDefinitionIndex = 426;
 
 	class ParameterizedStrings_LowLevelStack : public ::System::Object
 	{
@@ -28,9 +28,9 @@ namespace System
 			return ((::System::ParameterizedStrings_FormatParam(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_POP_OFFSET))(this);
 		}
 
-		::System::Void Push(::System::ParameterizedStrings_FormatParam item)
+		::System::Void Push(::System::ParameterizedStrings_FormatParam a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ParameterizedStrings_FormatParam))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_PUSH_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::System::ParameterizedStrings_FormatParam))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_PUSH_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()

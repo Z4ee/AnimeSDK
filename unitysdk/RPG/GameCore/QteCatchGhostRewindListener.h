@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_QTECATCHGHOSTREWINDLISTENER_METHOD_3_2ACFA36BBEE28794_OFFSET UNITYSDK_OFFSET(0x18C7FFC0)
-#define RPG_GAMECORE_QTECATCHGHOSTREWINDLISTENER_METHOD_3_A2BB98A2E2FC709C_OFFSET UNITYSDK_OFFSET(0x18C80040)
-#define RPG_GAMECORE_QTECATCHGHOSTREWINDLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C80010)
+#define RPG_GAMECORE_QTECATCHGHOSTREWINDLISTENER_METHOD_3_300D57C3CA754DFF_OFFSET UNITYSDK_OFFSET(0x19AA2960)
+#define RPG_GAMECORE_QTECATCHGHOSTREWINDLISTENER_METHOD_3_614139B851BF75F9_OFFSET UNITYSDK_OFFSET(0x19AA28E0)
+#define RPG_GAMECORE_QTECATCHGHOSTREWINDLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA2930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QteCatchGhostRewindListener_TypeDefinitionIndex = 20907;
+	inline static constexpr unsigned int QteCatchGhostRewindListener_TypeDefinitionIndex = 20824;
 
 	class QteCatchGhostRewindListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWINDLISTENER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2ACFA36BBEE28794(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QteCatchGhostRewindListener*& a2)
+		static ::System::Void Method_3_614139B851BF75F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QteCatchGhostRewindListener*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QteCatchGhostRewindListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWINDLISTENER_METHOD_3_2ACFA36BBEE28794_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QteCatchGhostRewindListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWINDLISTENER_METHOD_3_614139B851BF75F9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A2BB98A2E2FC709C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QteCatchGhostRewindListener* a2)
+		static ::System::Void Method_3_300D57C3CA754DFF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QteCatchGhostRewindListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QteCatchGhostRewindListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWINDLISTENER_METHOD_3_A2BB98A2E2FC709C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QteCatchGhostRewindListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWINDLISTENER_METHOD_3_300D57C3CA754DFF_OFFSET))(a1, a2);
 		}
 	};
 }

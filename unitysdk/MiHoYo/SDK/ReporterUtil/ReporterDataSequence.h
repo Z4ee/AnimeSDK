@@ -11,42 +11,42 @@ namespace MiHoYo::SDK::ReporterUtil { template <typename T> class AnalyzerResult
 namespace MiHoYo::SDK::ReporterUtil { template <typename T> class Analyzer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ADDITEM_OFFSET UNITYSDK_OFFSET(0x8DAC380)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ADD_FULLED_OFFSET UNITYSDK_OFFSET(0x8DAC210)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ANALYZE_OFFSET UNITYSDK_OFFSET(0x8DAC440)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_BEGIN_OFFSET UNITYSDK_OFFSET(0x8DAC570)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_CALCULATEAVERAGEVALUE_OFFSET UNITYSDK_OFFSET(0x8DAC700)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_CLEARDATAS_OFFSET UNITYSDK_OFFSET(0x8DAC490)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_END_OFFSET UNITYSDK_OFFSET(0x8DAAC50)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_ANALYZER_OFFSET UNITYSDK_OFFSET(0x8DABEB0)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_ASCENDINGANALYZE_OFFSET UNITYSDK_OFFSET(0x8DABEA0)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x8DAB010)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_CURRENTITEM_OFFSET UNITYSDK_OFFSET(0x8DAAE20)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_ITEMDURATIONS_OFFSET UNITYSDK_OFFSET(0x8DABEC0)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_TOTALMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x8DAB0A0)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ITEM_OFFSET UNITYSDK_OFFSET(0x8DAADC0)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_REMOVE_FULLED_OFFSET UNITYSDK_OFFSET(0x8DAC270)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_RESETDATA_OFFSET UNITYSDK_OFFSET(0x8DAC2E0)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_SORTITEMS_OFFSET UNITYSDK_OFFSET(0x8DAC9C0)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x8DAC2D0)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ADDITEM_OFFSET UNITYSDK_OFFSET(0xA1FBA30)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ADD_FULLED_OFFSET UNITYSDK_OFFSET(0xA1FB870)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ANALYZE_OFFSET UNITYSDK_OFFSET(0xA1FBB40)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_BEGIN_OFFSET UNITYSDK_OFFSET(0xA1FBCB0)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_CALCULATEAVERAGEVALUE_OFFSET UNITYSDK_OFFSET(0xA1FBE60)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_CLEARDATAS_OFFSET UNITYSDK_OFFSET(0xA1FBB90)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_END_OFFSET UNITYSDK_OFFSET(0xA1FA190)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_ANALYZER_OFFSET UNITYSDK_OFFSET(0xA1FB4F0)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_ASCENDINGANALYZE_OFFSET UNITYSDK_OFFSET(0xA1FB4E0)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xA1FA560)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_CURRENTITEM_OFFSET UNITYSDK_OFFSET(0xA1FA330)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_ITEMDURATIONS_OFFSET UNITYSDK_OFFSET(0xA1FB500)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_TOTALMILLISECONDS_OFFSET UNITYSDK_OFFSET(0xA1FA5F0)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ITEM_OFFSET UNITYSDK_OFFSET(0xA1FA2E0)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_REMOVE_FULLED_OFFSET UNITYSDK_OFFSET(0xA1FB8D0)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_RESETDATA_OFFSET UNITYSDK_OFFSET(0xA1FB940)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_SORTITEMS_OFFSET UNITYSDK_OFFSET(0xA1FC100)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xA1FB930)
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int ReporterDataSequence_TypeDefinitionIndex = 43208;
+	inline static constexpr unsigned int ReporterDataSequence_TypeDefinitionIndex = 44011;
 
 	class ReporterDataSequence : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 DefaultMaxItemsCount = 0x7530; // 0x0
 		::MiHoYo::SDK::ReporterUtil::Analyzer_1<::System::Int64>* analyzer; // 0x10
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::ReporterUtil::ReporterDataItem*>* items; // 0x18
-		::MiHoYo::SDK::ReporterUtil::FulledHandler* onFulled; // 0x20
-		::System::Int32 maxItemsCount; // 0x28
-		::System::Boolean ascendingAnalyze; // 0x2C
+		::MiHoYo::SDK::ReporterUtil::FulledHandler* onFulled; // 0x18
+		::System::Collections::Generic::List_1<::MiHoYo::SDK::ReporterUtil::ReporterDataItem*>* items; // 0x20
+		::System::Boolean ascendingAnalyze; // 0x28
+		::System::Int32 maxItemsCount; // 0x2C
 
-		::System::Void _ctor(::System::Boolean ascendingAnalyze, ::System::Int32 maxCount)
+		::System::Void _ctor(::System::Boolean a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE__CTOR_OFFSET))(this, ascendingAnalyze, maxCount);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_AscendingAnalyze()
@@ -79,19 +79,19 @@ namespace MiHoYo::SDK::ReporterUtil
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_GET_COUNT_OFFSET))(this);
 		}
 
-		::System::Void add_Fulled(::MiHoYo::SDK::ReporterUtil::FulledHandler* value)
+		::System::Void add_Fulled(::MiHoYo::SDK::ReporterUtil::FulledHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::FulledHandler*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ADD_FULLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::FulledHandler*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ADD_FULLED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Fulled(::MiHoYo::SDK::ReporterUtil::FulledHandler* value)
+		::System::Void remove_Fulled(::MiHoYo::SDK::ReporterUtil::FulledHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::FulledHandler*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_REMOVE_FULLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::FulledHandler*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_REMOVE_FULLED_OFFSET))(this, a1);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Item(::System::Int32 index)
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Item(::System::Int32 a1)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ITEM_OFFSET))(this, index);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ITEM_OFFSET))(this, a1);
 		}
 
 		::System::Void ResetData()
@@ -99,39 +99,39 @@ namespace MiHoYo::SDK::ReporterUtil
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_RESETDATA_OFFSET))(this);
 		}
 
-		::System::Void AddItem(::MiHoYo::SDK::ReporterUtil::ReporterDataItem* item)
+		::System::Void AddItem(::MiHoYo::SDK::ReporterUtil::ReporterDataItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ADDITEM_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ADDITEM_OFFSET))(this, a1);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Begin(::System::Boolean isContinuous, ::System::Boolean autoEndPreviousItem, ::System::Nullable_1<::System::DateTime> utcTime)
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Begin(::System::Boolean a1, ::System::Boolean a2, ::System::Nullable_1<::System::DateTime> a3)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_BEGIN_OFFSET))(this, isContinuous, autoEndPreviousItem, utcTime);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_BEGIN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* End(::System::Nullable_1<::System::DateTime> utcTime)
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* End(::System::Nullable_1<::System::DateTime> a1)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_END_OFFSET))(this, utcTime);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_END_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 CalculateAverageValue(::Il2CppArray<::MiHoYo::SDK::ReporterUtil::ReporterDataItem*>* items, ::System::Int32 from, ::System::Int32 to)
+		static ::System::Int32 CalculateAverageValue(::Il2CppArray<::MiHoYo::SDK::ReporterUtil::ReporterDataItem*>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::MiHoYo::SDK::ReporterUtil::ReporterDataItem*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_CALCULATEAVERAGEVALUE_OFFSET))(items, from, to);
+			return ((::System::Int32(*)(::Il2CppArray<::MiHoYo::SDK::ReporterUtil::ReporterDataItem*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_CALCULATEAVERAGEVALUE_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void SortItems(::System::Boolean acsent, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem_ItemField itemField)
+		::System::Void SortItems(::System::Boolean a1, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem_ItemField a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem_ItemField))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_SORTITEMS_OFFSET))(this, acsent, itemField);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem_ItemField))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_SORTITEMS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ClearDatas(::System::Boolean remainLastUnEndedItem)
+		::System::Void ClearDatas(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_CLEARDATAS_OFFSET))(this, remainLastUnEndedItem);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_CLEARDATAS_OFFSET))(this, a1);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* Analyze(::System::Boolean asResultCache)
+		::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* Analyze(::System::Boolean a1)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ANALYZE_OFFSET))(this, asResultCache);
+			return ((::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ANALYZE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FrameTimeBudgetType_TypeDefinitionIndex = 65536;
+	inline static constexpr unsigned int FrameTimeBudgetType_TypeDefinitionIndex = 66466;
 
 	enum class FrameTimeBudgetType : ::System::Int32
 	{
@@ -16,6 +16,7 @@ namespace RPG::Client
 		AdvAsyncProcessor = 6,
 		GroupUnload = 7,
 		BattlePreloadPoolRearrange = 8,
-		Count = 9,
+		ConfigDataPoolTick = 9,
+		Count = 10,
 	};
 }

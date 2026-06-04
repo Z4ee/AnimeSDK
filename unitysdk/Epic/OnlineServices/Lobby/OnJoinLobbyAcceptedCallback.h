@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8EBF310)
-#define EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8EBF340)
-#define EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8EBEDC0)
-#define EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8EBEDA0)
+#define EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA2F9190)
+#define EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA2F91C0)
+#define EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA2F9180)
+#define EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F9090)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int OnJoinLobbyAcceptedCallback_TypeDefinitionIndex = 41950;
+	inline static constexpr unsigned int OnJoinLobbyAcceptedCallback_TypeDefinitionIndex = 42753;
 
 	class OnJoinLobbyAcceptedCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::Lobby::JoinLobbyAcceptedCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::Lobby::JoinLobbyAcceptedCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::JoinLobbyAcceptedCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::JoinLobbyAcceptedCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Lobby::JoinLobbyAcceptedCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Lobby::JoinLobbyAcceptedCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Lobby::JoinLobbyAcceptedCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Lobby::JoinLobbyAcceptedCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONJOINLOBBYACCEPTEDCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MainMissionData; }
 
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS324_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA8D4EB0)
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS324_0__GETSHOWMAINMISSIONCOUNTBYCHAPTERID_B__0_OFFSET UNITYSDK_OFFSET(0xA8E5BA0)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS324_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC024170)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS324_0__GETSHOWMAINMISSIONCOUNTBYCHAPTERID_B__0_OFFSET UNITYSDK_OFFSET(0xC034630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule___c__DisplayClass324_0_TypeDefinitionIndex = 60919;
+	inline static constexpr unsigned int MissionModule___c__DisplayClass324_0_TypeDefinitionIndex = 61853;
 
 	class MissionModule___c__DisplayClass324_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS324_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetShowMainMissionCountByChapterID_b__0(::RPG::Client::MainMissionData* item)
+		::System::Boolean _GetShowMainMissionCountByChapterID_b__0(::RPG::Client::MainMissionData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MainMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS324_0__GETSHOWMAINMISSIONCOUNTBYCHAPTERID_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MainMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS324_0__GETSHOWMAINMISSIONCOUNTBYCHAPTERID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

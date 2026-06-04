@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTHANDBOOKREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189AF3A0)
-#define RPG_GAMECORE_GRIDFIGHTHANDBOOKREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189AF500)
+#define RPG_GAMECORE_GRIDFIGHTHANDBOOKREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197E6F40)
+#define RPG_GAMECORE_GRIDFIGHTHANDBOOKREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x197E7090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightHandBookRewardRow_TypeDefinitionIndex = 12844;
+	inline static constexpr unsigned int GridFightHandBookRewardRow_TypeDefinitionIndex = 12929;
 
 	class GridFightHandBookRewardRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTHANDBOOKREWARDROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightHandBookRewardRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightHandBookRewardRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightHandBookRewardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTHANDBOOKREWARDROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightHandBookRewardRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTHANDBOOKREWARDROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

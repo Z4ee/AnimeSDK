@@ -19,126 +19,126 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class RaycastHit; }
 
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCASTBOTHCULLMODES_OFFSET UNITYSDK_OFFSET(0x1A23F600)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_1_OFFSET UNITYSDK_OFFSET(0x1A23E900)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_2_OFFSET UNITYSDK_OFFSET(0x1A23FE80)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_OFFSET UNITYSDK_OFFSET(0x1A23E8C0)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_1_OFFSET UNITYSDK_OFFSET(0x1A244A20)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_2_OFFSET UNITYSDK_OFFSET(0x1A244B40)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_OFFSET UNITYSDK_OFFSET(0x1A243FC0)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETEDGEROTATION_1_OFFSET UNITYSDK_OFFSET(0x1A243DE0)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETEDGEROTATION_OFFSET UNITYSDK_OFFSET(0x1A243D20)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETFACEROTATION_1_OFFSET UNITYSDK_OFFSET(0x1A243500)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETFACEROTATION_OFFSET UNITYSDK_OFFSET(0x1A243430)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETROTATION_OFFSET UNITYSDK_OFFSET(0x1A2415B0)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETVERTEXROTATION_1_OFFSET UNITYSDK_OFFSET(0x1A243EF0)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETVERTEXROTATION_OFFSET UNITYSDK_OFFSET(0x1A243E40)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_INVERSETRANSFORMRAY_OFFSET UNITYSDK_OFFSET(0x1A2408A0)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_MESHRAYCAST_1_OFFSET UNITYSDK_OFFSET(0x1A240CD0)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_MESHRAYCAST_OFFSET UNITYSDK_OFFSET(0x1A240B00)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_POINTISOCCLUDED_OFFSET UNITYSDK_OFFSET(0x1A241330)
-#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_SCREENTOGUIPOINT_OFFSET UNITYSDK_OFFSET(0x1A23E850)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCASTBOTHCULLMODES_OFFSET UNITYSDK_OFFSET(0x1B0A3C20)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_1_OFFSET UNITYSDK_OFFSET(0x1B0A2FA0)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_2_OFFSET UNITYSDK_OFFSET(0x1B0A4420)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_OFFSET UNITYSDK_OFFSET(0x1B0A2F60)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_1_OFFSET UNITYSDK_OFFSET(0x1B0A8AA0)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_2_OFFSET UNITYSDK_OFFSET(0x1B0A8BA0)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_OFFSET UNITYSDK_OFFSET(0x1B0A80B0)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETEDGEROTATION_1_OFFSET UNITYSDK_OFFSET(0x1B0A7EE0)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETEDGEROTATION_OFFSET UNITYSDK_OFFSET(0x1B0A7E20)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETFACEROTATION_1_OFFSET UNITYSDK_OFFSET(0x1B0A76A0)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETFACEROTATION_OFFSET UNITYSDK_OFFSET(0x1B0A75D0)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETROTATION_OFFSET UNITYSDK_OFFSET(0x1B0A5A10)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETVERTEXROTATION_1_OFFSET UNITYSDK_OFFSET(0x1B0A7FF0)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETVERTEXROTATION_OFFSET UNITYSDK_OFFSET(0x1B0A7F40)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_INVERSETRANSFORMRAY_OFFSET UNITYSDK_OFFSET(0x1B0A4D60)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_MESHRAYCAST_1_OFFSET UNITYSDK_OFFSET(0x1B0A5180)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_MESHRAYCAST_OFFSET UNITYSDK_OFFSET(0x1B0A4FB0)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_POINTISOCCLUDED_OFFSET UNITYSDK_OFFSET(0x1B0A5790)
+#define UNITYENGINE_PROBUILDER_HANDLEUTILITY_SCREENTOGUIPOINT_OFFSET UNITYSDK_OFFSET(0x1B0A2EF0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int HandleUtility_TypeDefinitionIndex = 39917;
+	inline static constexpr unsigned int HandleUtility_TypeDefinitionIndex = 40744;
 
 	class HandleUtility : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Vector3 ScreenToGuiPoint(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 point, ::System::Single pixelsPerPoint)
+		static ::UnityEngine::Vector3 ScreenToGuiPoint(::UnityEngine::Camera* a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Camera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_SCREENTOGUIPOINT_OFFSET))(camera, point, pixelsPerPoint);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Camera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_SCREENTOGUIPOINT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean FaceRaycast(::UnityEngine::Ray worldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::RaycastHit*& hit, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore)
+		static ::System::Boolean FaceRaycast(::UnityEngine::Ray a1, ::UnityEngine::ProBuilder::ProBuilderMesh* a2, ::UnityEngine::ProBuilder::RaycastHit*& a3, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Ray, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::RaycastHit*&, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_OFFSET))(worldRay, mesh, hit, ignore);
+			return ((::System::Boolean(*)(::UnityEngine::Ray, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::RaycastHit*&, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean FaceRaycast_1(::UnityEngine::Ray worldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::RaycastHit*& hit, ::System::Single distance, ::UnityEngine::ProBuilder::CullingMode cullingMode, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore)
+		static ::System::Boolean FaceRaycast_1(::UnityEngine::Ray a1, ::UnityEngine::ProBuilder::ProBuilderMesh* a2, ::UnityEngine::ProBuilder::RaycastHit*& a3, ::System::Single a4, ::UnityEngine::ProBuilder::CullingMode a5, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* a6)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Ray, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::RaycastHit*&, ::System::Single, ::UnityEngine::ProBuilder::CullingMode, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_1_OFFSET))(worldRay, mesh, hit, distance, cullingMode, ignore);
+			return ((::System::Boolean(*)(::UnityEngine::Ray, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::RaycastHit*&, ::System::Single, ::UnityEngine::ProBuilder::CullingMode, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean FaceRaycastBothCullModes(::UnityEngine::Ray worldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3>& back, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3>& front)
+		static ::System::Boolean FaceRaycastBothCullModes(::UnityEngine::Ray a1, ::UnityEngine::ProBuilder::ProBuilderMesh* a2, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3>& a3, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3>& a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Ray, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3>&, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3>&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCASTBOTHCULLMODES_OFFSET))(worldRay, mesh, back, front);
+			return ((::System::Boolean(*)(::UnityEngine::Ray, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3>&, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3>&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCASTBOTHCULLMODES_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean FaceRaycast_2(::UnityEngine::Ray InWorldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::RaycastHit*>*& hits, ::UnityEngine::ProBuilder::CullingMode cullingMode, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore)
+		static ::System::Boolean FaceRaycast_2(::UnityEngine::Ray a1, ::UnityEngine::ProBuilder::ProBuilderMesh* a2, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::RaycastHit*>*& a3, ::UnityEngine::ProBuilder::CullingMode a4, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* a5)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Ray, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::RaycastHit*>*&, ::UnityEngine::ProBuilder::CullingMode, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_2_OFFSET))(InWorldRay, mesh, hits, cullingMode, ignore);
+			return ((::System::Boolean(*)(::UnityEngine::Ray, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::RaycastHit*>*&, ::UnityEngine::ProBuilder::CullingMode, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_FACERAYCAST_2_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::UnityEngine::Ray InverseTransformRay(::UnityEngine::Transform* transform, ::UnityEngine::Ray InWorldRay)
+		static ::UnityEngine::Ray InverseTransformRay(::UnityEngine::Transform* a1, ::UnityEngine::Ray a2)
 		{
-			return ((::UnityEngine::Ray(*)(::UnityEngine::Transform*, ::UnityEngine::Ray))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_INVERSETRANSFORMRAY_OFFSET))(transform, InWorldRay);
+			return ((::UnityEngine::Ray(*)(::UnityEngine::Transform*, ::UnityEngine::Ray))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_INVERSETRANSFORMRAY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean MeshRaycast(::UnityEngine::Ray InWorldRay, ::UnityEngine::GameObject* gameObject, ::UnityEngine::ProBuilder::RaycastHit*& hit, ::System::Single distance)
+		static ::System::Boolean MeshRaycast(::UnityEngine::Ray a1, ::UnityEngine::GameObject* a2, ::UnityEngine::ProBuilder::RaycastHit*& a3, ::System::Single a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Ray, ::UnityEngine::GameObject*, ::UnityEngine::ProBuilder::RaycastHit*&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_MESHRAYCAST_OFFSET))(InWorldRay, gameObject, hit, distance);
+			return ((::System::Boolean(*)(::UnityEngine::Ray, ::UnityEngine::GameObject*, ::UnityEngine::ProBuilder::RaycastHit*&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_MESHRAYCAST_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean MeshRaycast_1(::UnityEngine::Ray InRay, ::Il2CppArray<::UnityEngine::Vector3>* mesh, ::Il2CppArray<::System::Int32>* triangles, ::UnityEngine::ProBuilder::RaycastHit*& hit, ::System::Single distance)
+		static ::System::Boolean MeshRaycast_1(::UnityEngine::Ray a1, ::Il2CppArray<::UnityEngine::Vector3>* a2, ::Il2CppArray<::System::Int32>* a3, ::UnityEngine::ProBuilder::RaycastHit*& a4, ::System::Single a5)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Ray, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::System::Int32>*, ::UnityEngine::ProBuilder::RaycastHit*&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_MESHRAYCAST_1_OFFSET))(InRay, mesh, triangles, hit, distance);
+			return ((::System::Boolean(*)(::UnityEngine::Ray, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::System::Int32>*, ::UnityEngine::ProBuilder::RaycastHit*&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_MESHRAYCAST_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean PointIsOccluded(::UnityEngine::Camera* cam, ::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::UnityEngine::Vector3 worldPoint)
+		static ::System::Boolean PointIsOccluded(::UnityEngine::Camera* a1, ::UnityEngine::ProBuilder::ProBuilderMesh* a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Camera*, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_POINTISOCCLUDED_OFFSET))(cam, pb, worldPoint);
+			return ((::System::Boolean(*)(::UnityEngine::Camera*, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_POINTISOCCLUDED_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Quaternion GetRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* indices)
+		static ::UnityEngine::Quaternion GetRotation(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a2)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETROTATION_OFFSET))(mesh, indices);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETROTATION_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Quaternion GetFaceRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::HandleOrientation orientation, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces)
+		static ::UnityEngine::Quaternion GetFaceRotation(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::HandleOrientation a2, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a3)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::HandleOrientation, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETFACEROTATION_OFFSET))(mesh, orientation, faces);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::HandleOrientation, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETFACEROTATION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Quaternion GetFaceRotation_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face)
+		static ::UnityEngine::Quaternion GetFaceRotation_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Face* a2)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETFACEROTATION_1_OFFSET))(mesh, face);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETFACEROTATION_1_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Quaternion GetEdgeRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::HandleOrientation orientation, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges)
+		static ::UnityEngine::Quaternion GetEdgeRotation(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::HandleOrientation a2, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* a3)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::HandleOrientation, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETEDGEROTATION_OFFSET))(mesh, orientation, edges);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::HandleOrientation, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETEDGEROTATION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Quaternion GetEdgeRotation_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge)
+		static ::UnityEngine::Quaternion GetEdgeRotation_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETEDGEROTATION_1_OFFSET))(mesh, edge);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETEDGEROTATION_1_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Quaternion GetVertexRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::HandleOrientation orientation, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* vertices)
+		static ::UnityEngine::Quaternion GetVertexRotation(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::HandleOrientation a2, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a3)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::HandleOrientation, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETVERTEXROTATION_OFFSET))(mesh, orientation, vertices);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::HandleOrientation, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETVERTEXROTATION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Quaternion GetVertexRotation_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Int32 vertex)
+		static ::UnityEngine::Quaternion GetVertexRotation_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETVERTEXROTATION_1_OFFSET))(mesh, vertex);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETVERTEXROTATION_1_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 GetActiveElementPosition(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces)
+		static ::UnityEngine::Vector3 GetActiveElementPosition(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_OFFSET))(mesh, faces);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 GetActiveElementPosition_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges)
+		static ::UnityEngine::Vector3 GetActiveElementPosition_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_1_OFFSET))(mesh, edges);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_1_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 GetActiveElementPosition_2(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* vertices)
+		static ::UnityEngine::Vector3 GetActiveElementPosition_2(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_2_OFFSET))(mesh, vertices);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLEUTILITY_GETACTIVEELEMENTPOSITION_2_OFFSET))(a1, a2);
 		}
 	};
 }

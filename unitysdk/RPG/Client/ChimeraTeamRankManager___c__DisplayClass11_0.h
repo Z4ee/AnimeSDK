@@ -6,12 +6,12 @@ namespace RPG::Client { class ChimeraTeamData; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA084E10)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS11_0___SORTTEAMDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA0856D0)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C4480)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS11_0___SORTTEAMDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB6C4D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass11_0_TypeDefinitionIndex = 58448;
+	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass11_0_TypeDefinitionIndex = 59378;
 
 	class ChimeraTeamRankManager___c__DisplayClass11_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __SortTeamData_b__0(::RPG::Client::ChimeraTeamData* teamData)
+		::System::Boolean __SortTeamData_b__0(::RPG::Client::ChimeraTeamData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraTeamData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS11_0___SORTTEAMDATA_B__0_OFFSET))(this, teamData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraTeamData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS11_0___SORTTEAMDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

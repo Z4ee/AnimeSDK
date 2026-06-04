@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SilverWolf999UltraPropState_TypeDefinitionIndex = 22117;
+	inline static constexpr unsigned int SilverWolf999UltraPropState_TypeDefinitionIndex = 23349;
 
 	enum class SilverWolf999UltraPropState : ::System::Int32
 	{

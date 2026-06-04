@@ -11,19 +11,19 @@ namespace RPGTools::Timeline { class StoryPropMoveClip; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xB91C500)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB91C910)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB91C520)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB91CBC0)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xB91C510)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB91D0A0)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB91D110)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB91D100)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB91D120)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD05C870)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xD05CCA0)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD05C890)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD05CF40)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD05C880)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD05D420)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xD05D490)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD05D480)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD05D4A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropMoveBehaviour_TypeDefinitionIndex = 45084;
+	inline static constexpr unsigned int StoryPropMoveBehaviour_TypeDefinitionIndex = 45632;
 
 	class StoryPropMoveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -53,9 +53,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::StoryPropMoveClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::StoryPropMoveClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::StoryPropMoveClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::StoryPropMoveClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::StoryPropMoveClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -73,19 +73,19 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

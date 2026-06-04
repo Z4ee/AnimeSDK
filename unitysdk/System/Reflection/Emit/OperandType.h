@@ -3,7 +3,7 @@
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int OperandType_TypeDefinitionIndex = 653;
+	inline static constexpr unsigned int OperandType_TypeDefinitionIndex = 652;
 
 	enum class OperandType : ::System::Int32
 	{

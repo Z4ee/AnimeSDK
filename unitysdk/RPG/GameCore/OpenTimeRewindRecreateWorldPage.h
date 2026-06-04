@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TimeRewindRecreateWorldTaskTrigger; }
 
-#define RPG_GAMECORE_OPENTIMEREWINDRECREATEWORLDPAGE_METHOD_3_1D04BADB742635B7_OFFSET UNITYSDK_OFFSET(0x18BC64D0)
-#define RPG_GAMECORE_OPENTIMEREWINDRECREATEWORLDPAGE_METHOD_3_F49DE27B1C0E5E3F_OFFSET UNITYSDK_OFFSET(0x18BC6410)
-#define RPG_GAMECORE_OPENTIMEREWINDRECREATEWORLDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC6480)
+#define RPG_GAMECORE_OPENTIMEREWINDRECREATEWORLDPAGE_METHOD_3_4A9FE83658CEFC1D_OFFSET UNITYSDK_OFFSET(0x199D7F40)
+#define RPG_GAMECORE_OPENTIMEREWINDRECREATEWORLDPAGE_METHOD_3_7088B9E29EEF8881_OFFSET UNITYSDK_OFFSET(0x199D8000)
+#define RPG_GAMECORE_OPENTIMEREWINDRECREATEWORLDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x199D7FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenTimeRewindRecreateWorldPage_TypeDefinitionIndex = 19637;
+	inline static constexpr unsigned int OpenTimeRewindRecreateWorldPage_TypeDefinitionIndex = 19521;
 
 	class OpenTimeRewindRecreateWorldPage : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,14 +35,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDRECREATEWORLDPAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F49DE27B1C0E5E3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTimeRewindRecreateWorldPage*& a2)
+		static ::System::Void Method_3_4A9FE83658CEFC1D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTimeRewindRecreateWorldPage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTimeRewindRecreateWorldPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDRECREATEWORLDPAGE_METHOD_3_F49DE27B1C0E5E3F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTimeRewindRecreateWorldPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDRECREATEWORLDPAGE_METHOD_3_4A9FE83658CEFC1D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1D04BADB742635B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTimeRewindRecreateWorldPage* a2)
+		static ::System::Void Method_3_7088B9E29EEF8881(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTimeRewindRecreateWorldPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTimeRewindRecreateWorldPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDRECREATEWORLDPAGE_METHOD_3_1D04BADB742635B7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTimeRewindRecreateWorldPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDRECREATEWORLDPAGE_METHOD_3_7088B9E29EEF8881_OFFSET))(a1, a2);
 		}
 	};
 }

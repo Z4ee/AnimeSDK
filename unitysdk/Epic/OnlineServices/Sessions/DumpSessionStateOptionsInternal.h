@@ -6,33 +6,33 @@ namespace Epic::OnlineServices::Sessions { class DumpSessionStateOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CB0)
-#define EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x12B90)
-#define EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x12AC0)
-#define EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x12A10)
+#define EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x136B0)
+#define EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x136A0)
+#define EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x135D0)
+#define EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x13520)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int DumpSessionStateOptionsInternal_TypeDefinitionIndex = 41262;
+	inline static constexpr unsigned int DumpSessionStateOptionsInternal_TypeDefinitionIndex = 42065;
 
 	struct alignas(8) DumpSessionStateOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_SessionName; // 0x18
 
-		::System::Void set_SessionName(::System::String* value)
+		::System::Void set_SessionName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::DumpSessionStateOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::DumpSessionStateOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::DumpSessionStateOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::DumpSessionStateOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DUMPSESSIONSTATEOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

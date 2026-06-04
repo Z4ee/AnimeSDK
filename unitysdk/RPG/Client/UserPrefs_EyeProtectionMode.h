@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UserPrefs_EyeProtectionMode_TypeDefinitionIndex = 54761;
+	inline static constexpr unsigned int UserPrefs_EyeProtectionMode_TypeDefinitionIndex = 55488;
 
 	enum class UserPrefs_EyeProtectionMode : ::System::Int32
 	{

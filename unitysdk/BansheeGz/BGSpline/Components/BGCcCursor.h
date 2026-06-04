@@ -9,38 +9,38 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_CALCULATEPOSITION_OFFSET UNITYSDK_OFFSET(0x17B85430)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_CALCULATESECTIONINDEX_OFFSET UNITYSDK_OFFSET(0x17B85540)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_CALCULATETANGENT_OFFSET UNITYSDK_OFFSET(0x17B85290)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_1_OFFSET UNITYSDK_OFFSET(0x17B86C00)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_2_OFFSET UNITYSDK_OFFSET(0x17B86EC0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_3_OFFSET UNITYSDK_OFFSET(0x17B87180)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_4_OFFSET UNITYSDK_OFFSET(0x17B86690)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_5_OFFSET UNITYSDK_OFFSET(0x17B859B0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_6_OFFSET UNITYSDK_OFFSET(0x17B85E50)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_OFFSET UNITYSDK_OFFSET(0x17B86260)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTPOINTINDEXES_OFFSET UNITYSDK_OFFSET(0x17B87480)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETTFORLERP_OFFSET UNITYSDK_OFFSET(0x17B86960)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_DISTANCERATIO_OFFSET UNITYSDK_OFFSET(0x17B84FB0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x17B84D00)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_HANDLESCOLOR_OFFSET UNITYSDK_OFFSET(0x17B85270)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_HANDLESSCALE_OFFSET UNITYSDK_OFFSET(0x17B85250)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_SUPPORTHANDLESSETTINGS_OFFSET UNITYSDK_OFFSET(0x17B85240)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_SUPPORTHANDLES_OFFSET UNITYSDK_OFFSET(0x17B85230)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPCOLOR_OFFSET UNITYSDK_OFFSET(0x17B86520)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPFLOAT_OFFSET UNITYSDK_OFFSET(0x17B86130)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPQUATERNION_OFFSET UNITYSDK_OFFSET(0x17B856B0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPVECTOR_OFFSET UNITYSDK_OFFSET(0x17B85C80)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_DISTANCERATIO_OFFSET UNITYSDK_OFFSET(0x17B85100)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x17B84D10)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_HANDLESCOLOR_OFFSET UNITYSDK_OFFSET(0x17B85280)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_HANDLESSCALE_OFFSET UNITYSDK_OFFSET(0x17B85260)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_START_OFFSET UNITYSDK_OFFSET(0x17B875B0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17B875C0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_CALCULATEPOSITION_OFFSET UNITYSDK_OFFSET(0x189334C0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_CALCULATESECTIONINDEX_OFFSET UNITYSDK_OFFSET(0x189335D0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_CALCULATETANGENT_OFFSET UNITYSDK_OFFSET(0x18933320)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_1_OFFSET UNITYSDK_OFFSET(0x18934BF0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_2_OFFSET UNITYSDK_OFFSET(0x18934EB0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_3_OFFSET UNITYSDK_OFFSET(0x18935170)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_4_OFFSET UNITYSDK_OFFSET(0x18934710)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_5_OFFSET UNITYSDK_OFFSET(0x18933A30)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_6_OFFSET UNITYSDK_OFFSET(0x18933ED0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_OFFSET UNITYSDK_OFFSET(0x189342E0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTPOINTINDEXES_OFFSET UNITYSDK_OFFSET(0x18935470)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETTFORLERP_OFFSET UNITYSDK_OFFSET(0x189349E0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_DISTANCERATIO_OFFSET UNITYSDK_OFFSET(0x18933040)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x18932D90)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_HANDLESCOLOR_OFFSET UNITYSDK_OFFSET(0x18933300)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_HANDLESSCALE_OFFSET UNITYSDK_OFFSET(0x189332E0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_SUPPORTHANDLESSETTINGS_OFFSET UNITYSDK_OFFSET(0x189332D0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_SUPPORTHANDLES_OFFSET UNITYSDK_OFFSET(0x189332C0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPCOLOR_OFFSET UNITYSDK_OFFSET(0x189345A0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPFLOAT_OFFSET UNITYSDK_OFFSET(0x189341B0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPQUATERNION_OFFSET UNITYSDK_OFFSET(0x18933740)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPVECTOR_OFFSET UNITYSDK_OFFSET(0x18933D00)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_DISTANCERATIO_OFFSET UNITYSDK_OFFSET(0x18933190)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x18932DA0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_HANDLESCOLOR_OFFSET UNITYSDK_OFFSET(0x18933310)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_HANDLESSCALE_OFFSET UNITYSDK_OFFSET(0x189332F0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_START_OFFSET UNITYSDK_OFFSET(0x189355B0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x189355C0)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcCursor_TypeDefinitionIndex = 33831;
+	inline static constexpr unsigned int BGCcCursor_TypeDefinitionIndex = 34113;
 
 	class BGCcCursor : public ::BansheeGz::BGSpline::Components::BGCcWithMath
 	{
@@ -59,9 +59,9 @@ namespace BansheeGz::BGSpline::Components
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_DISTANCE_OFFSET))(this);
 		}
 
-		::System::Void set_Distance(::System::Single value)
+		::System::Void set_Distance(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_DISTANCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_DISTANCE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_DistanceRatio()
@@ -69,9 +69,9 @@ namespace BansheeGz::BGSpline::Components
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_DISTANCERATIO_OFFSET))(this);
 		}
 
-		::System::Void set_DistanceRatio(::System::Single value)
+		::System::Void set_DistanceRatio(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_DISTANCERATIO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_DISTANCERATIO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_SupportHandles()
@@ -89,9 +89,9 @@ namespace BansheeGz::BGSpline::Components
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_HANDLESSCALE_OFFSET))(this);
 		}
 
-		::System::Void set_HandlesScale(::System::Single value)
+		::System::Void set_HandlesScale(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_HANDLESSCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_HANDLESSCALE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Color get_HandlesColor()
@@ -99,9 +99,9 @@ namespace BansheeGz::BGSpline::Components
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GET_HANDLESCOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_HandlesColor(::UnityEngine::Color value)
+		::System::Void set_HandlesColor(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_HANDLESCOLOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_SET_HANDLESCOLOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 CalculateTangent()
@@ -119,69 +119,69 @@ namespace BansheeGz::BGSpline::Components
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_CALCULATESECTIONINDEX_OFFSET))(this);
 		}
 
-		::UnityEngine::Quaternion LerpQuaternion(::System::String* fieldName, ::System::Func_4<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Single, ::UnityEngine::Quaternion>* customLerp)
+		::UnityEngine::Quaternion LerpQuaternion(::System::String* a1, ::System::Func_4<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Single, ::UnityEngine::Quaternion>* a2)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::String*, ::System::Func_4<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Single, ::UnityEngine::Quaternion>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPQUATERNION_OFFSET))(this, fieldName, customLerp);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::String*, ::System::Func_4<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Single, ::UnityEngine::Quaternion>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPQUATERNION_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 LerpVector(::System::String* fieldName, ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3>* customLerp)
+		::UnityEngine::Vector3 LerpVector(::System::String* a1, ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3>* a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::String*, ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPVECTOR_OFFSET))(this, fieldName, customLerp);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::String*, ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPVECTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single LerpFloat(::System::String* fieldName, ::System::Func_4<::System::Single, ::System::Single, ::System::Single, ::System::Single>* customLerp)
+		::System::Single LerpFloat(::System::String* a1, ::System::Func_4<::System::Single, ::System::Single, ::System::Single, ::System::Single>* a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::Func_4<::System::Single, ::System::Single, ::System::Single, ::System::Single>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPFLOAT_OFFSET))(this, fieldName, customLerp);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::Func_4<::System::Single, ::System::Single, ::System::Single, ::System::Single>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPFLOAT_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Color LerpColor(::System::String* fieldName, ::System::Func_4<::UnityEngine::Color, ::UnityEngine::Color, ::System::Single, ::UnityEngine::Color>* customLerp)
+		::UnityEngine::Color LerpColor(::System::String* a1, ::System::Func_4<::UnityEngine::Color, ::UnityEngine::Color, ::System::Single, ::UnityEngine::Color>* a2)
 		{
-			return ((::UnityEngine::Color(*)(::PVOID, ::System::String*, ::System::Func_4<::UnityEngine::Color, ::UnityEngine::Color, ::System::Single, ::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPCOLOR_OFFSET))(this, fieldName, customLerp);
+			return ((::UnityEngine::Color(*)(::PVOID, ::System::String*, ::System::Func_4<::UnityEngine::Color, ::UnityEngine::Color, ::System::Single, ::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_LERPCOLOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single GetAdjacentFieldValues(::System::String* fieldName, ::System::Single& fromValue, ::System::Single& toValue)
+		::System::Single GetAdjacentFieldValues(::System::String* a1, ::System::Single& a2, ::System::Single& a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_OFFSET))(this, fieldName, fromValue, toValue);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetAdjacentFieldValues_1(::System::String* fieldName, ::System::Int32& fromValue, ::System::Int32& toValue)
+		::System::Single GetAdjacentFieldValues_1(::System::String* a1, ::System::Int32& a2, ::System::Int32& a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_1_OFFSET))(this, fieldName, fromValue, toValue);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetAdjacentFieldValues_2(::System::String* fieldName, ::System::Boolean& fromValue, ::System::Boolean& toValue)
+		::System::Single GetAdjacentFieldValues_2(::System::String* a1, ::System::Boolean& a2, ::System::Boolean& a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_2_OFFSET))(this, fieldName, fromValue, toValue);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetAdjacentFieldValues_3(::System::String* fieldName, ::UnityEngine::Bounds& fromValue, ::UnityEngine::Bounds& toValue)
+		::System::Single GetAdjacentFieldValues_3(::System::String* a1, ::UnityEngine::Bounds& a2, ::UnityEngine::Bounds& a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::Bounds&, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_3_OFFSET))(this, fieldName, fromValue, toValue);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::Bounds&, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_3_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetAdjacentFieldValues_4(::System::String* fieldName, ::UnityEngine::Color& fromValue, ::UnityEngine::Color& toValue)
+		::System::Single GetAdjacentFieldValues_4(::System::String* a1, ::UnityEngine::Color& a2, ::UnityEngine::Color& a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::Color&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_4_OFFSET))(this, fieldName, fromValue, toValue);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::Color&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_4_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetAdjacentFieldValues_5(::System::String* fieldName, ::UnityEngine::Quaternion& fromValue, ::UnityEngine::Quaternion& toValue)
+		::System::Single GetAdjacentFieldValues_5(::System::String* a1, ::UnityEngine::Quaternion& a2, ::UnityEngine::Quaternion& a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::Quaternion&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_5_OFFSET))(this, fieldName, fromValue, toValue);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::Quaternion&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_5_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetAdjacentFieldValues_6(::System::String* fieldName, ::UnityEngine::Vector3& fromValue, ::UnityEngine::Vector3& toValue)
+		::System::Single GetAdjacentFieldValues_6(::System::String* a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_6_OFFSET))(this, fieldName, fromValue, toValue);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTFIELDVALUES_6_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetTForLerp(::System::Int32& indexFrom, ::System::Int32& indexTo)
+		::System::Single GetTForLerp(::System::Int32& a1, ::System::Int32& a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETTFORLERP_OFFSET))(this, indexFrom, indexTo);
+			return ((::System::Single(*)(::PVOID, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETTFORLERP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetAdjacentPointIndexes(::System::Int32& indexFrom, ::System::Int32& indexTo)
+		::System::Void GetAdjacentPointIndexes(::System::Int32& a1, ::System::Int32& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTPOINTINDEXES_OFFSET))(this, indexFrom, indexTo);
+			return ((::System::Void(*)(::PVOID, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSOR_GETADJACENTPOINTINDEXES_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Start()

@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12C43A40)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12C43A70)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x12C33B30)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x12C43A20)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x146F0F60)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x146F0F90)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x146EAC20)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x146F0E70)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_TouchDownHandler_TypeDefinitionIndex = 37028;
+	inline static constexpr unsigned int EasyTouch_TouchDownHandler_TypeDefinitionIndex = 37328;
 
 	class EasyTouch_TouchDownHandler : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_INVOKE_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::HedgehogTeam::EasyTouch::Gesture* gesture, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::HedgehogTeam::EasyTouch::Gesture* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_BEGININVOKE_OFFSET))(this, gesture, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_TOUCHDOWNHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

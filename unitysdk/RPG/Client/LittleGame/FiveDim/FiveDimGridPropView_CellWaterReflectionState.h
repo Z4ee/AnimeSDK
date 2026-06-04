@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimGridPropView_CellWaterReflectionState_TypeDefinitionIndex = 70886;
+	inline static constexpr unsigned int FiveDimGridPropView_CellWaterReflectionState_TypeDefinitionIndex = 71708;
 
 	enum class FiveDimGridPropView_CellWaterReflectionState : ::System::Int32
 	{

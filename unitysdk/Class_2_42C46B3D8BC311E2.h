@@ -6,16 +6,16 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class OrbitMoveRange; }
 namespace System { class String; }
 
-#define CLASS_2_42C46B3D8BC311E2_METHOD_2_E4EE4D98EE55C81B_OFFSET UNITYSDK_OFFSET(0x1848EFD0)
-#define CLASS_2_42C46B3D8BC311E2__CTOR_OFFSET UNITYSDK_OFFSET(0x1848F120)
+#define CLASS_2_42C46B3D8BC311E2_METHOD_2_E4EE4D98EE55C81B_OFFSET UNITYSDK_OFFSET(0x190DD8D0)
+#define CLASS_2_42C46B3D8BC311E2__CTOR_OFFSET UNITYSDK_OFFSET(0x190DDA20)
 
-inline static constexpr unsigned int Class_2_42C46B3D8BC311E2_TypeDefinitionIndex = 21786;
+inline static constexpr unsigned int Class_2_42C46B3D8BC311E2_TypeDefinitionIndex = 21624;
 
 class Class_2_42C46B3D8BC311E2 : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::System::String* Field_2_0; // 0x10
-	::Il2CppArray<::RPG::GameCore::OrbitMoveRange*>* Field_2_1; // 0x18
+	::Il2CppArray<::RPG::GameCore::OrbitMoveRange*>* Field_2_0; // 0x10
+	::System::String* Field_2_1; // 0x18
 
 	::System::Void _ctor()
 	{

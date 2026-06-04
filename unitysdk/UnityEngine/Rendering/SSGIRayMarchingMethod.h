@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SSGIRayMarchingMethod_TypeDefinitionIndex = 4651;
+	inline static constexpr unsigned int SSGIRayMarchingMethod_TypeDefinitionIndex = 4825;
 
 	enum class SSGIRayMarchingMethod : ::System::Int32
 	{

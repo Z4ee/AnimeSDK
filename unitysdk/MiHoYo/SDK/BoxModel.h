@@ -20,12 +20,12 @@ namespace MiHoYo::SDK { class WebViewRenderMethodBoxConfig; }
 namespace MiHoYo::SDK { class WebViewReportBoxConfig; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET UNITYSDK_OFFSET(0x173EC930)
-#define MIHOYO_SDK_BOXMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x173E8880)
+#define MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET UNITYSDK_OFFSET(0x181F1910)
+#define MIHOYO_SDK_BOXMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x181EE6B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BoxModel_TypeDefinitionIndex = 6973;
+	inline static constexpr unsigned int BoxModel_TypeDefinitionIndex = 7876;
 
 	class BoxModel : public ::System::Object
 	{
@@ -76,14 +76,14 @@ namespace MiHoYo::SDK
 		::System::Boolean enable_separate_render_method; // 0x108
 		::System::String* vox_asr_config; // 0x110
 
-		::System::Void _ctor(::MiHoYo::SDK::JSONNode* json)
+		::System::Void _ctor(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BOXMODEL__CTOR_OFFSET))(this, json);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BOXMODEL__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean CheckDivisorEnable(::System::Int32 divisor)
+		static ::System::Boolean CheckDivisorEnable(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET))(divisor);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET))(a1);
 		}
 	};
 }

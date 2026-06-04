@@ -6,22 +6,22 @@ namespace Newtonsoft::Json::Serialization { template <typename T> class ObjectCo
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONISERIALIZABLECONTRACT_GET_ISERIALIZABLECREATOR_OFFSET UNITYSDK_OFFSET(0x17AA8BA0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONISERIALIZABLECONTRACT_SET_ISERIALIZABLECREATOR_OFFSET UNITYSDK_OFFSET(0x17AA8BB0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONISERIALIZABLECONTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x17AA04E0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONISERIALIZABLECONTRACT_GET_ISERIALIZABLECREATOR_OFFSET UNITYSDK_OFFSET(0x18856D70)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONISERIALIZABLECONTRACT_SET_ISERIALIZABLECREATOR_OFFSET UNITYSDK_OFFSET(0x18856D80)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONISERIALIZABLECONTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x188500C0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonISerializableContract_TypeDefinitionIndex = 8445;
+	inline static constexpr unsigned int JsonISerializableContract_TypeDefinitionIndex = 9348;
 
 	class JsonISerializableContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract
 	{
 	public:
 		::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _ISerializableCreator_k__BackingField; // 0xB0
 
-		::System::Void _ctor(::System::Type* underlyingType)
+		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONISERIALIZABLECONTRACT__CTOR_OFFSET))(this, underlyingType);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONISERIALIZABLECONTRACT__CTOR_OFFSET))(this, a1);
 		}
 
 		::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ISerializableCreator()
@@ -29,9 +29,9 @@ namespace Newtonsoft::Json::Serialization
 			return ((::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONISERIALIZABLECONTRACT_GET_ISERIALIZABLECREATOR_OFFSET))(this);
 		}
 
-		::System::Void set_ISerializableCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value)
+		::System::Void set_ISerializableCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONISERIALIZABLECONTRACT_SET_ISERIALIZABLECREATOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONISERIALIZABLECONTRACT_SET_ISERIALIZABLECREATOR_OFFSET))(this, a1);
 		}
 	};
 }

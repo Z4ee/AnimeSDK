@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelNavNodeConditionInfos; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELREGIONCONNECTIVITY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A59240)
-#define RPG_GAMECORE_LEVELREGIONCONNECTIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18A594A0)
+#define RPG_GAMECORE_LEVELREGIONCONNECTIVITY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19889C20)
+#define RPG_GAMECORE_LEVELREGIONCONNECTIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19889E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRegionConnectivity_TypeDefinitionIndex = 16487;
+	inline static constexpr unsigned int LevelRegionConnectivity_TypeDefinitionIndex = 16519;
 
 	class LevelRegionConnectivity : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONCONNECTIVITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelRegionConnectivity*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelRegionConnectivity*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionConnectivity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONCONNECTIVITY_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionConnectivity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONCONNECTIVITY_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x9EF3AC0)
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x9EF3B50)
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x9EF29B0)
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x9EF3AA0)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB490690)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB490720)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB48F800)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB490620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceBattleItemUIHandler_DragDelegate_TypeDefinitionIndex = 58037;
+	inline static constexpr unsigned int CakeRaceBattleItemUIHandler_DragDelegate_TypeDefinitionIndex = 58953;
 
 	class CakeRaceBattleItemUIHandler_DragDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::UInt32 itemID, ::UnityEngine::Vector2 mousePos, ::System::Boolean isValidArea)
+		::System::Boolean Invoke(::System::UInt32 a1, ::UnityEngine::Vector2 a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_INVOKE_OFFSET))(this, itemID, mousePos, isValidArea);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt32 itemID, ::UnityEngine::Vector2 mousePos, ::System::Boolean isValidArea, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt32 a1, ::UnityEngine::Vector2 a2, ::System::Boolean a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector2, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_BEGININVOKE_OFFSET))(this, itemID, mousePos, isValidArea, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector2, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

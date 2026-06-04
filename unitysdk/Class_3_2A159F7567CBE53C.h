@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ForceRefreshCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2A159F7567CBE53C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1180E8F0)
-#define CLASS_3_2A159F7567CBE53C__CTOR_OFFSET UNITYSDK_OFFSET(0x1180E8C0)
+#define CLASS_3_2A159F7567CBE53C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAB0FAF0)
+#define CLASS_3_2A159F7567CBE53C__CTOR_OFFSET UNITYSDK_OFFSET(0xAB0FAC0)
 
-inline static constexpr unsigned int Class_3_2A159F7567CBE53C_TypeDefinitionIndex = 48791;
+inline static constexpr unsigned int Class_3_2A159F7567CBE53C_TypeDefinitionIndex = 49457;
 
 class Class_3_2A159F7567CBE53C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ForceRefreshCamera*>
 {

@@ -6,12 +6,12 @@ namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamRecommendData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B823A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS2_0__GETCANSHOWRECOMMENDDATALISTCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x9B82580)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB16BBD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS2_0__GETCANSHOWRECOMMENDDATALISTCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xB16BEA0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass2_0_TypeDefinitionIndex = 69145;
+	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass2_0_TypeDefinitionIndex = 69957;
 
 	class IdleLiveTeamRecommendInfo___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetCanShowRecommendDataListCount_b__0(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* data)
+		::System::Boolean _GetCanShowRecommendDataListCount_b__0(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS2_0__GETCANSHOWRECOMMENDDATALISTCOUNT_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS2_0__GETCANSHOWRECOMMENDDATALISTCOUNT_B__0_OFFSET))(this, a1);
 		}
 	};
 }

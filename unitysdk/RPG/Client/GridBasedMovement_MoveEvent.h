@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class GridBasedEventData; }
 
-#define RPG_CLIENT_GRIDBASEDMOVEMENT_MOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA4409B0)
+#define RPG_CLIENT_GRIDBASEDMOVEMENT_MOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xBADCBB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridBasedMovement_MoveEvent_TypeDefinitionIndex = 66836;
+	inline static constexpr unsigned int GridBasedMovement_MoveEvent_TypeDefinitionIndex = 67776;
 
 	class GridBasedMovement_MoveEvent : public ::UnityEngine::Events::UnityEvent_1<::RPG::Client::GridBasedEventData*>
 	{

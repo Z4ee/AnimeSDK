@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SFXPlayType_TypeDefinitionIndex = 14331;
+	inline static constexpr unsigned int SFXPlayType_TypeDefinitionIndex = 14666;
 
 	enum class SFXPlayType : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MatchThreeV2RankData; }
 
-#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA864A90)
-#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__DISPLAYCLASS5_0__GETRANKDATABYID_B__0_OFFSET UNITYSDK_OFFSET(0xA864BD0)
+#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFAF700)
+#define RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__DISPLAYCLASS5_0__GETRANKDATABYID_B__0_OFFSET UNITYSDK_OFFSET(0xBFAF840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2RankInfos___c__DisplayClass5_0_TypeDefinitionIndex = 60789;
+	inline static constexpr unsigned int MatchThreeV2RankInfos___c__DisplayClass5_0_TypeDefinitionIndex = 61723;
 
 	class MatchThreeV2RankInfos___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetRankDataByID_b__0(::RPG::Client::MatchThreeV2RankData* data)
+		::System::Boolean _GetRankDataByID_b__0(::RPG::Client::MatchThreeV2RankData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeV2RankData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__DISPLAYCLASS5_0__GETRANKDATABYID_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeV2RankData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2RANKINFOS___C__DISPLAYCLASS5_0__GETRANKDATABYID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

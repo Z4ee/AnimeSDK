@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1750FBD0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1750FC40)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1750F840)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1750F820)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18307E70)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18307EE0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x18307E50)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18307DE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_GetCXTokenCallback_TypeDefinitionIndex = 6721;
+	inline static constexpr unsigned int ConsoleDelegate_GetCXTokenCallback_TypeDefinitionIndex = 7624;
 
 	class ConsoleDelegate_GetCXTokenCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Int32 retcode, ::System::String* token, ::System::String* signature)
+		::System::Void Invoke(::System::Int32 a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_INVOKE_OFFSET))(this, retcode, token, signature);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 retcode, ::System::String* token, ::System::String* signature, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::System::String* a2, ::System::String* a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_BEGININVOKE_OFFSET))(this, retcode, token, signature, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETCXTOKENCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

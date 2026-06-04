@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_1_OFFSET UNITYSDK_OFFSET(0x174D4DF0)
-#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_OFFSET UNITYSDK_OFFSET(0x174D4DE0)
-#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x174D4E10)
-#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x174D4E00)
+#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_1_OFFSET UNITYSDK_OFFSET(0x182D3650)
+#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_OFFSET UNITYSDK_OFFSET(0x182D3640)
+#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x182D3670)
+#define MIHOYO_SDK_WIN_USERAGREEMENTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x182D3660)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int UserAgreementManager_TypeDefinitionIndex = 8127;
+	inline static constexpr unsigned int UserAgreementManager_TypeDefinitionIndex = 9030;
 
 	class UserAgreementManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Win::UserAgreementManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::UserAgreementManager**)Il2CppClass::FromTypeDefinitionIndex(UserAgreementManager_TypeDefinitionIndex)->GetStaticField(0x580);
+			return (::MiHoYo::SDK::Win::UserAgreementManager**)Il2CppClass::FromTypeDefinitionIndex(UserAgreementManager_TypeDefinitionIndex)->GetStaticField(0x5F0);
 		}
 
 		::System::Void _ctor()
@@ -32,14 +32,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_USERAGREEMENTMANAGER__CCTOR_OFFSET))();
 		}
 
-		::System::Void ShowUserAgreement(::System::Action_1<::System::String*>* callback)
+		::System::Void ShowUserAgreement(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_OFFSET))(this, a1);
 		}
 
-		::System::Void ShowUserAgreement_1(::System::String* jsonString, ::System::Action_1<::System::String*>* callback)
+		::System::Void ShowUserAgreement_1(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_1_OFFSET))(this, jsonString, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_USERAGREEMENTMANAGER_SHOWUSERAGREEMENT_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

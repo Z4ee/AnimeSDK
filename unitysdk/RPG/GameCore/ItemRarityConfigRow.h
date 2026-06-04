@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMRARITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A31940)
-#define RPG_GAMECORE_ITEMRARITYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A32090)
+#define RPG_GAMECORE_ITEMRARITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19863080)
+#define RPG_GAMECORE_ITEMRARITYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198637F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemRarityConfigRow_TypeDefinitionIndex = 13131;
+	inline static constexpr unsigned int ItemRarityConfigRow_TypeDefinitionIndex = 13211;
 
 	class ItemRarityConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ItemRarityStarImgPath; // 0x10
-		::System::String* FrameItemRarityPath; // 0x18
-		::System::String* ItemShowBgPath; // 0x20
-		::System::String* AvatarShowBgPath; // 0x28
+		::System::String* FrameItemRarityColor; // 0x10
+		::System::String* ItemRarityStarImgPath; // 0x18
+		::System::String* FrameItemRarityPath; // 0x20
+		::System::String* ItemShowBgPath; // 0x28
 		::System::String* LineItemRarityColor; // 0x30
-		::System::String* FrameItemRarityBgPath; // 0x38
-		::System::String* FrameIconRarityPath; // 0x40
-		::System::String* FrameItemRarityColor; // 0x48
+		::System::String* FrameIconRarityPath; // 0x38
+		::System::String* FrameItemRarityBgPath; // 0x40
+		::System::String* AvatarShowBgPath; // 0x48
 		::RPG::GameCore::ItemRarity Rarity; // 0x50
 
 		::System::Void _ctor()
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMRARITYCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ItemRarityConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ItemRarityConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ItemRarityConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMRARITYCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ItemRarityConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMRARITYCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

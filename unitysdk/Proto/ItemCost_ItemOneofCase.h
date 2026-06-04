@@ -3,13 +3,13 @@
 
 namespace Proto
 {
-	inline static constexpr unsigned int ItemCost_ItemOneofCase_TypeDefinitionIndex = 26172;
+	inline static constexpr unsigned int ItemCost_ItemOneofCase_TypeDefinitionIndex = 26143;
 
 	enum class ItemCost_ItemOneofCase : ::System::Int32
 	{
 		None = 0,
-		PileItem = 11,
-		EquipmentUniqueId = 8,
-		RelicUniqueId = 13,
+		PileItem = 4,
+		EquipmentUniqueId = 5,
+		RelicUniqueId = 7,
 	};
 }

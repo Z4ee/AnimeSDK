@@ -7,16 +7,16 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_DEBATETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB8BBAD0)
-#define RPGTOOLS_TIMELINE_DEBATETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8BBB80)
-#define RPGTOOLS_TIMELINE_DEBATETRACK_METHOD_5_8869F3D8889ADABB_OFFSET UNITYSDK_OFFSET(0xB8BBDE0)
-#define RPGTOOLS_TIMELINE_DEBATETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB8BC200)
-#define RPGTOOLS_TIMELINE_DEBATETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB8BC2E0)
-#define RPGTOOLS_TIMELINE_DEBATETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8BC320)
+#define RPGTOOLS_TIMELINE_DEBATETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFFED10)
+#define RPGTOOLS_TIMELINE_DEBATETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFFEDC0)
+#define RPGTOOLS_TIMELINE_DEBATETRACK_METHOD_5_E193852057CEFCD8_OFFSET UNITYSDK_OFFSET(0xCFFF020)
+#define RPGTOOLS_TIMELINE_DEBATETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCFFF490)
+#define RPGTOOLS_TIMELINE_DEBATETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFFF570)
+#define RPGTOOLS_TIMELINE_DEBATETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFFF5B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int DebateTrack_TypeDefinitionIndex = 44818;
+	inline static constexpr unsigned int DebateTrack_TypeDefinitionIndex = 45365;
 
 	class DebateTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -36,19 +36,19 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Il2CppArray<::UnityEngine::Timeline::TimelineClip*>* Method_5_8869F3D8889ADABB()
+		::Il2CppArray<::UnityEngine::Timeline::TimelineClip*>* Method_5_E193852057CEFCD8()
 		{
-			return ((::Il2CppArray<::UnityEngine::Timeline::TimelineClip*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATETRACK_METHOD_5_8869F3D8889ADABB_OFFSET))(this);
+			return ((::Il2CppArray<::UnityEngine::Timeline::TimelineClip*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATETRACK_METHOD_5_E193852057CEFCD8_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::UnityEngine::Timeline::TimelineClip* P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DEBATETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX_WAVEFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1622440)
+#define CRIWARE_CRIATOMEX_WAVEFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD2690)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_WaveformInfo_TypeDefinitionIndex = 36720;
+	inline static constexpr unsigned int CriAtomEx_WaveformInfo_TypeDefinitionIndex = 37020;
 
 	struct alignas(8) CriAtomEx_WaveformInfo
 	{
@@ -18,9 +18,9 @@ namespace CriWare
 		::System::Boolean streamingFlag; // 0x28
 		::Il2CppArray<::System::UInt32>* reserved; // 0x30
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* data, ::System::Int32 startIndex)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_WAVEFORMINFO__CTOR_OFFSET))(this, data, startIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_WAVEFORMINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

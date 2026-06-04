@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11699140)
-#define XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x116991C0)
-#define XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x11698DB0)
-#define XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x11698D90)
+#define XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1331D240)
+#define XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1331D2C0)
+#define XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1331D220)
+#define XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1331D1B0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectTranslator_UpdateCSObject_TypeDefinitionIndex = 46307;
+	inline static constexpr unsigned int ObjectTranslator_UpdateCSObject_TypeDefinitionIndex = 46897;
 
 	class ObjectTranslator_UpdateCSObject : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::IntPtr L, ::System::Int32 idx, ::System::Object* obj)
+		::System::Void Invoke(::System::IntPtr a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_INVOKE_OFFSET))(this, L, idx, obj);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::IntPtr L, ::System::Int32 idx, ::System::Object* obj, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::IntPtr a1, ::System::Int32 a2, ::System::Object* a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_BEGININVOKE_OFFSET))(this, L, idx, obj, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_UPDATECSOBJECT_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

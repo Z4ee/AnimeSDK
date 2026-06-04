@@ -3,7 +3,7 @@
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerContainerArray_ListType_TypeDefinitionIndex = 43770;
+	inline static constexpr unsigned int rdtSerializerContainerArray_ListType_TypeDefinitionIndex = 44312;
 
 	enum class rdtSerializerContainerArray_ListType : ::System::Int32
 	{

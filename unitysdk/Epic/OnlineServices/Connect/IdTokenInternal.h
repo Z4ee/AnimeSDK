@@ -7,17 +7,17 @@ namespace Epic::OnlineServices::Connect { class IdToken; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x332E0)
-#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_GET_JSONWEBTOKEN_OFFSET UNITYSDK_OFFSET(0x33100)
-#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_GET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x32FD0)
-#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x33270)
-#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_JSONWEBTOKEN_OFFSET UNITYSDK_OFFSET(0x331B0)
-#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x33260)
-#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x33040)
+#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x36AB0)
+#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_GET_JSONWEBTOKEN_OFFSET UNITYSDK_OFFSET(0x368C0)
+#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_GET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x36790)
+#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x36A30)
+#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_JSONWEBTOKEN_OFFSET UNITYSDK_OFFSET(0x36970)
+#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x36A20)
+#define EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_PRODUCTUSERID_OFFSET UNITYSDK_OFFSET(0x36800)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int IdTokenInternal_TypeDefinitionIndex = 42295;
+	inline static constexpr unsigned int IdTokenInternal_TypeDefinitionIndex = 43098;
 
 	struct alignas(8) IdTokenInternal
 	{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_GET_PRODUCTUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_ProductUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_ProductUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_PRODUCTUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_PRODUCTUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_JsonWebToken()
@@ -40,19 +40,19 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_GET_JSONWEBTOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_JsonWebToken(::System::String* value)
+		::System::Void set_JsonWebToken(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_JSONWEBTOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_JSONWEBTOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Connect::IdToken* other)
+		::System::Void Set(::Epic::OnlineServices::Connect::IdToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::IdToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::IdToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_IDTOKENINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

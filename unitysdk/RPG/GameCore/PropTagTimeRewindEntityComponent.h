@@ -16,13 +16,13 @@ namespace RPG::GameCore { class TimeRewindEntityAnimOverride; }
 namespace RPG::GameCore { class TimeRewindMaterialOverlayConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPTAGTIMEREWINDENTITYCOMPONENT_METHOD_3_5EE60B662B35405C_OFFSET UNITYSDK_OFFSET(0x18C7B3F0)
-#define RPG_GAMECORE_PROPTAGTIMEREWINDENTITYCOMPONENT_METHOD_3_B2A1B9FC0808C4E9_OFFSET UNITYSDK_OFFSET(0x18C7BF60)
-#define RPG_GAMECORE_PROPTAGTIMEREWINDENTITYCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7B3D0)
+#define RPG_GAMECORE_PROPTAGTIMEREWINDENTITYCOMPONENT_METHOD_3_5C92603549AF3E1E_OFFSET UNITYSDK_OFFSET(0x19A9E870)
+#define RPG_GAMECORE_PROPTAGTIMEREWINDENTITYCOMPONENT_METHOD_3_99012EB67144EAD7_OFFSET UNITYSDK_OFFSET(0x19A9DC10)
+#define RPG_GAMECORE_PROPTAGTIMEREWINDENTITYCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9DBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropTagTimeRewindEntityComponent_TypeDefinitionIndex = 16662;
+	inline static constexpr unsigned int PropTagTimeRewindEntityComponent_TypeDefinitionIndex = 16691;
 
 	class PropTagTimeRewindEntityComponent : public ::RPG::GameCore::PropTagComponent
 	{
@@ -69,14 +69,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTAGTIMEREWINDENTITYCOMPONENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B2A1B9FC0808C4E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropTagTimeRewindEntityComponent*& a2)
+		static ::System::Void Method_3_5C92603549AF3E1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropTagTimeRewindEntityComponent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropTagTimeRewindEntityComponent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTAGTIMEREWINDENTITYCOMPONENT_METHOD_3_B2A1B9FC0808C4E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropTagTimeRewindEntityComponent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTAGTIMEREWINDENTITYCOMPONENT_METHOD_3_5C92603549AF3E1E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5EE60B662B35405C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropTagTimeRewindEntityComponent* a2)
+		static ::System::Void Method_3_99012EB67144EAD7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropTagTimeRewindEntityComponent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropTagTimeRewindEntityComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTAGTIMEREWINDENTITYCOMPONENT_METHOD_3_5EE60B662B35405C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropTagTimeRewindEntityComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTAGTIMEREWINDENTITYCOMPONENT_METHOD_3_99012EB67144EAD7_OFFSET))(a1, a2);
 		}
 	};
 }

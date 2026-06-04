@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int StyleGenerateType_TypeDefinitionIndex = 23727;
+	inline static constexpr unsigned int StyleGenerateType_TypeDefinitionIndex = 23563;
 
 	enum class StyleGenerateType : ::System::Int32
 	{

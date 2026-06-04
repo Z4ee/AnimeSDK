@@ -3,7 +3,7 @@
 
 namespace UnityEngine::SceneManagement
 {
-	inline static constexpr unsigned int LocalPhysicsMode_TypeDefinitionIndex = 4319;
+	inline static constexpr unsigned int LocalPhysicsMode_TypeDefinitionIndex = 4493;
 
 	enum class LocalPhysicsMode : ::System::Int32
 	{

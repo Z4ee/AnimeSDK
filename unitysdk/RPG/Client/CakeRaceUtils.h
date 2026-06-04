@@ -4,56 +4,56 @@
 #include "unitysdk/RPG/GameCore/CakeRaceProperty.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_15E317187C4E8254;
+class Class_2_46FD925988407D1E;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_CAKERACEUTILS_CANTRANSFERTOENTRANCE_OFFSET UNITYSDK_OFFSET(0x9F13530)
-#define RPG_CLIENT_CAKERACEUTILS_CHECKISCANACCEPTINVITE_OFFSET UNITYSDK_OFFSET(0x9F0C310)
-#define RPG_CLIENT_CAKERACEUTILS_CURRENTGRAVITY_OFFSET UNITYSDK_OFFSET(0x9F12CA0)
-#define RPG_CLIENT_CAKERACEUTILS_CURRENTPARABOLEGRAVITY_OFFSET UNITYSDK_OFFSET(0x9F12E70)
-#define RPG_CLIENT_CAKERACEUTILS_GETFIELDCOST_OFFSET UNITYSDK_OFFSET(0x9F13400)
-#define RPG_CLIENT_CAKERACEUTILS_GETPROPERTYORDEFAULT_OFFSET UNITYSDK_OFFSET(0x9F12A10)
-#define RPG_CLIENT_CAKERACEUTILS_ISDEBUFFCELLTYPE_OFFSET UNITYSDK_OFFSET(0x9F13080)
-#define RPG_CLIENT_CAKERACEUTILS_ISINENTRANCEFLOOR_OFFSET UNITYSDK_OFFSET(0x9F0C420)
-#define RPG_CLIENT_CAKERACEUTILS_ISRETURN3CSUBMISSIONINPROGRESS_OFFSET UNITYSDK_OFFSET(0x9F130D0)
-#define RPG_CLIENT_CAKERACEUTILS_RESETCATALLANIMATORTRIGGER_OFFSET UNITYSDK_OFFSET(0x9F132E0)
-#define RPG_CLIENT_CAKERACEUTILS_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x9F12BB0)
-#define RPG_CLIENT_CAKERACEUTILS_TRANSFERTOENTRANCE_OFFSET UNITYSDK_OFFSET(0x9F0C5D0)
-#define RPG_CLIENT_CAKERACEUTILS__GETCUREARLYACCESSCONTENTID_OFFSET UNITYSDK_OFFSET(0x9F136A0)
-#define RPG_CLIENT_CAKERACEUTILS__GETENTRANCETRANSFERPARAM_OFFSET UNITYSDK_OFFSET(0x9F135E0)
+#define RPG_CLIENT_CAKERACEUTILS_CANTRANSFERTOENTRANCE_OFFSET UNITYSDK_OFFSET(0xB4AFD80)
+#define RPG_CLIENT_CAKERACEUTILS_CHECKISCANACCEPTINVITE_OFFSET UNITYSDK_OFFSET(0xB4A85E0)
+#define RPG_CLIENT_CAKERACEUTILS_CURRENTGRAVITY_OFFSET UNITYSDK_OFFSET(0xB4AF500)
+#define RPG_CLIENT_CAKERACEUTILS_CURRENTPARABOLEGRAVITY_OFFSET UNITYSDK_OFFSET(0xB4AF6D0)
+#define RPG_CLIENT_CAKERACEUTILS_GETFIELDCOST_OFFSET UNITYSDK_OFFSET(0xB4AFC50)
+#define RPG_CLIENT_CAKERACEUTILS_GETPROPERTYORDEFAULT_OFFSET UNITYSDK_OFFSET(0xB4AF2A0)
+#define RPG_CLIENT_CAKERACEUTILS_ISDEBUFFCELLTYPE_OFFSET UNITYSDK_OFFSET(0xB4AF8E0)
+#define RPG_CLIENT_CAKERACEUTILS_ISINENTRANCEFLOOR_OFFSET UNITYSDK_OFFSET(0xB4A8720)
+#define RPG_CLIENT_CAKERACEUTILS_ISRETURN3CSUBMISSIONINPROGRESS_OFFSET UNITYSDK_OFFSET(0xB4AF930)
+#define RPG_CLIENT_CAKERACEUTILS_RESETCATALLANIMATORTRIGGER_OFFSET UNITYSDK_OFFSET(0xB4AFB30)
+#define RPG_CLIENT_CAKERACEUTILS_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0xB4AF410)
+#define RPG_CLIENT_CAKERACEUTILS_TRANSFERTOENTRANCE_OFFSET UNITYSDK_OFFSET(0xB4A8980)
+#define RPG_CLIENT_CAKERACEUTILS__GETCUREARLYACCESSCONTENTID_OFFSET UNITYSDK_OFFSET(0xB4AFF90)
+#define RPG_CLIENT_CAKERACEUTILS__GETENTRANCETRANSFERPARAM_OFFSET UNITYSDK_OFFSET(0xB4AFED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceUtils_TypeDefinitionIndex = 55614;
+	inline static constexpr unsigned int CakeRaceUtils_TypeDefinitionIndex = 56365;
 
 	class CakeRaceUtils : public ::System::Object
 	{
 	public:
-		static ::System::Int32 GetPropertyOrDefault(::Class_2_15E317187C4E8254* entity, ::RPG::GameCore::CakeRaceProperty property, ::System::Int32 defaultValue)
+		static ::System::Int32 GetPropertyOrDefault(::Class_2_46FD925988407D1E* a1, ::RPG::GameCore::CakeRaceProperty a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::Class_2_15E317187C4E8254*, ::RPG::GameCore::CakeRaceProperty, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_GETPROPERTYORDEFAULT_OFFSET))(entity, property, defaultValue);
+			return ((::System::Int32(*)(::Class_2_46FD925988407D1E*, ::RPG::GameCore::CakeRaceProperty, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_GETPROPERTYORDEFAULT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetProperty(::Class_2_15E317187C4E8254* entity, ::RPG::GameCore::CakeRaceProperty property, ::System::Int32 value)
+		static ::System::Void SetProperty(::Class_2_46FD925988407D1E* a1, ::RPG::GameCore::CakeRaceProperty a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::Class_2_15E317187C4E8254*, ::RPG::GameCore::CakeRaceProperty, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_SETPROPERTY_OFFSET))(entity, property, value);
+			return ((::System::Void(*)(::Class_2_46FD925988407D1E*, ::RPG::GameCore::CakeRaceProperty, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_SETPROPERTY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single CurrentGravity(::Class_2_15E317187C4E8254* entity)
+		static ::System::Single CurrentGravity(::Class_2_46FD925988407D1E* a1)
 		{
-			return ((::System::Single(*)(::Class_2_15E317187C4E8254*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_CURRENTGRAVITY_OFFSET))(entity);
+			return ((::System::Single(*)(::Class_2_46FD925988407D1E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_CURRENTGRAVITY_OFFSET))(a1);
 		}
 
-		static ::System::Single CurrentParaboleGravity(::Class_2_15E317187C4E8254* catEntity)
+		static ::System::Single CurrentParaboleGravity(::Class_2_46FD925988407D1E* a1)
 		{
-			return ((::System::Single(*)(::Class_2_15E317187C4E8254*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_CURRENTPARABOLEGRAVITY_OFFSET))(catEntity);
+			return ((::System::Single(*)(::Class_2_46FD925988407D1E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_CURRENTPARABOLEGRAVITY_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsDebuffCellType(::RPG::GameCore::CakeRaceCellType cellType)
+		static ::System::Boolean IsDebuffCellType(::RPG::GameCore::CakeRaceCellType a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::CakeRaceCellType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_ISDEBUFFCELLTYPE_OFFSET))(cellType);
+			return ((::System::Boolean(*)(::RPG::GameCore::CakeRaceCellType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_ISDEBUFFCELLTYPE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean IsReturn3CSubMissionInProgress()
@@ -61,24 +61,24 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_ISRETURN3CSUBMISSIONINPROGRESS_OFFSET))();
 		}
 
-		static ::System::Void ResetCatAllAnimatorTrigger(::UnityEngine::Animator* animator)
+		static ::System::Void ResetCatAllAnimatorTrigger(::UnityEngine::Animator* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_RESETCATALLANIMATORTRIGGER_OFFSET))(animator);
+			return ((::System::Void(*)(::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_RESETCATALLANIMATORTRIGGER_OFFSET))(a1);
 		}
 
-		static ::System::Boolean CheckIsCanAcceptInvite(::System::Collections::Generic::List_1<::System::UInt32>* gameParamList)
+		static ::System::Boolean CheckIsCanAcceptInvite(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_CHECKISCANACCEPTINVITE_OFFSET))(gameParamList);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_CHECKISCANACCEPTINVITE_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetFieldCost(::System::UInt32 fieldID)
+		static ::System::UInt32 GetFieldCost(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_GETFIELDCOST_OFFSET))(fieldID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_GETFIELDCOST_OFFSET))(a1);
 		}
 
-		static ::System::Void TransferToEntrance(::System::Action* preTeleportCallback, ::System::Action* afterTeleportCallback)
+		static ::System::Void TransferToEntrance(::System::Action* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_TRANSFERTOENTRANCE_OFFSET))(preTeleportCallback, afterTeleportCallback);
+			return ((::System::Void(*)(::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_TRANSFERTOENTRANCE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean CanTransferToEntrance()
@@ -91,9 +91,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS_ISINENTRANCEFLOOR_OFFSET))();
 		}
 
-		static ::System::Void _GetEntranceTransferParam(::System::UInt32& entranceID, ::System::UInt32& mappingInfoID)
+		static ::System::Void _GetEntranceTransferParam(::System::UInt32& a1, ::System::UInt32& a2)
 		{
-			return ((::System::Void(*)(::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS__GETENTRANCETRANSFERPARAM_OFFSET))(entranceID, mappingInfoID);
+			return ((::System::Void(*)(::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEUTILS__GETENTRANCETRANSFERPARAM_OFFSET))(a1, a2);
 		}
 
 		static ::System::UInt32 _GetCurEarlyAccessContentID()

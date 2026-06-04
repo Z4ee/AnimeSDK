@@ -5,20 +5,20 @@
 namespace RPG::GameCore { class SetBossPluralityHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_66E3C7A1F4FF63E5_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11B84A40)
-#define CLASS_2_66E3C7A1F4FF63E5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11B84A80)
-#define CLASS_2_66E3C7A1F4FF63E5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11B84C00)
-#define CLASS_2_66E3C7A1F4FF63E5_TICK_OFFSET UNITYSDK_OFFSET(0x11B84C50)
-#define CLASS_2_66E3C7A1F4FF63E5__CTOR_OFFSET UNITYSDK_OFFSET(0x11B84A30)
+#define CLASS_2_66E3C7A1F4FF63E5_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA995780)
+#define CLASS_2_66E3C7A1F4FF63E5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA9957C0)
+#define CLASS_2_66E3C7A1F4FF63E5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA9958A0)
+#define CLASS_2_66E3C7A1F4FF63E5_TICK_OFFSET UNITYSDK_OFFSET(0xA9958F0)
+#define CLASS_2_66E3C7A1F4FF63E5__CTOR_OFFSET UNITYSDK_OFFSET(0xA995770)
 
-inline static constexpr unsigned int Class_2_66E3C7A1F4FF63E5_TypeDefinitionIndex = 51979;
+inline static constexpr unsigned int Class_2_66E3C7A1F4FF63E5_TypeDefinitionIndex = 52653;
 
 class Class_2_66E3C7A1F4FF63E5 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	// static const ::System::Int32 Field_2_2 = 0x1; // 0x0
-	::RPG::GameCore::SetBossPluralityHP* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	// static const ::System::Int32 Field_2_0 = 0x1; // 0x0
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
+	::RPG::GameCore::SetBossPluralityHP* Field_2_2; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetBossPluralityHP* a2)
 	{

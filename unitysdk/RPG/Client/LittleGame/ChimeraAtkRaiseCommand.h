@@ -5,12 +5,12 @@
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERAATKRAISECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xA689B80)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAATKRAISECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xA689BE0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAATKRAISECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBDDA480)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAATKRAISECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xBDDA4E0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraAtkRaiseCommand_TypeDefinitionIndex = 70389;
+	inline static constexpr unsigned int ChimeraAtkRaiseCommand_TypeDefinitionIndex = 71205;
 
 	class ChimeraAtkRaiseCommand : public ::System::Object
 	{
@@ -19,14 +19,14 @@ namespace RPG::Client::LittleGame
 		::System::Single ChangeVal; // 0x14
 		::System::Single CurVal; // 0x18
 
-		::System::Void _ctor(::System::UInt32 id, ::System::Single changeVal, ::System::Single curVal)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERAATKRAISECOMMAND__CTOR_OFFSET))(this, id, changeVal, curVal);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERAATKRAISECOMMAND__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Execute(::RPG::Client::Prop::ChimeraBattlePuzzleBoard* puzzle, ::System::Action* finishCallback)
+		::System::Void Execute(::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERAATKRAISECOMMAND_EXECUTE_OFFSET))(this, puzzle, finishCallback);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERAATKRAISECOMMAND_EXECUTE_OFFSET))(this, a1, a2);
 		}
 	};
 }

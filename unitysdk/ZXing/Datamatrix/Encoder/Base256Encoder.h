@@ -4,14 +4,14 @@
 
 namespace ZXing::Datamatrix::Encoder { class EncoderContext; }
 
-#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1A746770)
-#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x1A746760)
-#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_RANDOMIZE255STATE_OFFSET UNITYSDK_OFFSET(0x1A746CA0)
-#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A746CF0)
+#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1B5462C0)
+#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x1B5462B0)
+#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_RANDOMIZE255STATE_OFFSET UNITYSDK_OFFSET(0x1B546B40)
+#define ZXING_DATAMATRIX_ENCODER_BASE256ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B546B90)
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int Base256Encoder_TypeDefinitionIndex = 6121;
+	inline static constexpr unsigned int Base256Encoder_TypeDefinitionIndex = 6494;
 
 	class Base256Encoder : public ::System::Object
 	{
@@ -26,14 +26,14 @@ namespace ZXing::Datamatrix::Encoder
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_GET_ENCODINGMODE_OFFSET))(this);
 		}
 
-		::System::Void encode(::ZXing::Datamatrix::Encoder::EncoderContext* context)
+		::System::Void encode(::ZXing::Datamatrix::Encoder::EncoderContext* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_ENCODE_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_ENCODE_OFFSET))(this, a1);
 		}
 
-		static ::System::Char randomize255State(::System::Char ch, ::System::Int32 codewordPosition)
+		static ::System::Char randomize255State(::System::Char a1, ::System::Int32 a2)
 		{
-			return ((::System::Char(*)(::System::Char, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_RANDOMIZE255STATE_OFFSET))(ch, codewordPosition);
+			return ((::System::Char(*)(::System::Char, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_BASE256ENCODER_RANDOMIZE255STATE_OFFSET))(a1, a2);
 		}
 	};
 }

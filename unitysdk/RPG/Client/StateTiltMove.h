@@ -5,21 +5,21 @@
 
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATETILTMOVE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xB1D0270)
-#define RPG_CLIENT_STATETILTMOVE_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xB1D0380)
-#define RPG_CLIENT_STATETILTMOVE_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0xB1D0570)
-#define RPG_CLIENT_STATETILTMOVE_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0xB1D0500)
-#define RPG_CLIENT_STATETILTMOVE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB1D0490)
-#define RPG_CLIENT_STATETILTMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0xB1D05E0)
-#define RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xB1D05F0)
-#define RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xB1D0600)
-#define RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0xB1D0630)
-#define RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0xB1D0620)
-#define RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB1D0610)
+#define RPG_CLIENT_STATETILTMOVE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC929D30)
+#define RPG_CLIENT_STATETILTMOVE_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xC929E40)
+#define RPG_CLIENT_STATETILTMOVE_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0xC92A030)
+#define RPG_CLIENT_STATETILTMOVE_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0xC929FC0)
+#define RPG_CLIENT_STATETILTMOVE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC929F50)
+#define RPG_CLIENT_STATETILTMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0xC92A0A0)
+#define RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC92A0B0)
+#define RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xC92A0C0)
+#define RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0xC92A0F0)
+#define RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0xC92A0E0)
+#define RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC92A0D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateTiltMove_TypeDefinitionIndex = 63485;
+	inline static constexpr unsigned int StateTiltMove_TypeDefinitionIndex = 64403;
 
 	class StateTiltMove : public ::UnityEngine::StateMachineBehaviour
 	{
@@ -56,29 +56,29 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETILTMOVE_ONSTATEIK_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateExit(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateExit(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEEXIT_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEEXIT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateMove(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateMove(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEMOVE_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEMOVE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateIK(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateIK(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEIK_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETILTMOVE___IFIXBASEPROXY_ONSTATEIK_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

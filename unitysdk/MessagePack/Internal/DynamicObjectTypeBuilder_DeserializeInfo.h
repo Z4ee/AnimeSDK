@@ -6,26 +6,26 @@
 namespace MessagePack::Internal { class ObjectSerializationInfo_EmittableMember; }
 namespace System::Reflection::Emit { class LocalBuilder; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_ISINITIALIZEDLOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x173590D0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_LOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x173590B0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_MEMBERINFO_OFFSET UNITYSDK_OFFSET(0x17359090)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_SWITCHLABEL_OFFSET UNITYSDK_OFFSET(0x173590F0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_ISINITIALIZEDLOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x173590E0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_LOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x173590C0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_MEMBERINFO_OFFSET UNITYSDK_OFFSET(0x173590A0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_SWITCHLABEL_OFFSET UNITYSDK_OFFSET(0x17359100)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17354430)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_ISINITIALIZEDLOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x18166B20)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_LOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x18166B00)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_MEMBERINFO_OFFSET UNITYSDK_OFFSET(0x18166AE0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_SWITCHLABEL_OFFSET UNITYSDK_OFFSET(0x18166B40)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_ISINITIALIZEDLOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x18166B30)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_LOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x18166B10)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_MEMBERINFO_OFFSET UNITYSDK_OFFSET(0x18166AF0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_SWITCHLABEL_OFFSET UNITYSDK_OFFSET(0x18166B50)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x181620F0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_DeserializeInfo_TypeDefinitionIndex = 9369;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_DeserializeInfo_TypeDefinitionIndex = 7272;
 
 	class DynamicObjectTypeBuilder_DeserializeInfo : public ::System::Object
 	{
 	public:
 		::System::Reflection::Emit::LocalBuilder* _LocalVariable_k__BackingField; // 0x10
-		::MessagePack::Internal::ObjectSerializationInfo_EmittableMember* _MemberInfo_k__BackingField; // 0x18
-		::System::Reflection::Emit::LocalBuilder* _IsInitializedLocalVariable_k__BackingField; // 0x20
+		::System::Reflection::Emit::LocalBuilder* _IsInitializedLocalVariable_k__BackingField; // 0x18
+		::MessagePack::Internal::ObjectSerializationInfo_EmittableMember* _MemberInfo_k__BackingField; // 0x20
 		::System::Reflection::Emit::Label _SwitchLabel_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -38,9 +38,9 @@ namespace MessagePack::Internal
 			return ((::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_MEMBERINFO_OFFSET))(this);
 		}
 
-		::System::Void set_MemberInfo(::MessagePack::Internal::ObjectSerializationInfo_EmittableMember* value)
+		::System::Void set_MemberInfo(::MessagePack::Internal::ObjectSerializationInfo_EmittableMember* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_MEMBERINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_MEMBERINFO_OFFSET))(this, a1);
 		}
 
 		::System::Reflection::Emit::LocalBuilder* get_LocalVariable()
@@ -48,9 +48,9 @@ namespace MessagePack::Internal
 			return ((::System::Reflection::Emit::LocalBuilder*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_LOCALVARIABLE_OFFSET))(this);
 		}
 
-		::System::Void set_LocalVariable(::System::Reflection::Emit::LocalBuilder* value)
+		::System::Void set_LocalVariable(::System::Reflection::Emit::LocalBuilder* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::LocalBuilder*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_LOCALVARIABLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::LocalBuilder*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_LOCALVARIABLE_OFFSET))(this, a1);
 		}
 
 		::System::Reflection::Emit::LocalBuilder* get_IsInitializedLocalVariable()
@@ -58,9 +58,9 @@ namespace MessagePack::Internal
 			return ((::System::Reflection::Emit::LocalBuilder*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_ISINITIALIZEDLOCALVARIABLE_OFFSET))(this);
 		}
 
-		::System::Void set_IsInitializedLocalVariable(::System::Reflection::Emit::LocalBuilder* value)
+		::System::Void set_IsInitializedLocalVariable(::System::Reflection::Emit::LocalBuilder* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::LocalBuilder*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_ISINITIALIZEDLOCALVARIABLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::LocalBuilder*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_ISINITIALIZEDLOCALVARIABLE_OFFSET))(this, a1);
 		}
 
 		::System::Reflection::Emit::Label get_SwitchLabel()
@@ -68,9 +68,9 @@ namespace MessagePack::Internal
 			return ((::System::Reflection::Emit::Label(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_GET_SWITCHLABEL_OFFSET))(this);
 		}
 
-		::System::Void set_SwitchLabel(::System::Reflection::Emit::Label value)
+		::System::Void set_SwitchLabel(::System::Reflection::Emit::Label a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::Label))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_SWITCHLABEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::Label))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_DESERIALIZEINFO_SET_SWITCHLABEL_OFFSET))(this, a1);
 		}
 	};
 }

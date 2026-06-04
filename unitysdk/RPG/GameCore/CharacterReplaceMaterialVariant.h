@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALVARIANT_METHOD_2_986770D6425CB453_OFFSET UNITYSDK_OFFSET(0x187D7660)
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x187D7840)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALVARIANT_METHOD_2_BE9C9AAFA15DC131_OFFSET UNITYSDK_OFFSET(0x19614F10)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x196150F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterReplaceMaterialVariant_TypeDefinitionIndex = 16553;
+	inline static constexpr unsigned int CharacterReplaceMaterialVariant_TypeDefinitionIndex = 16583;
 
 	class CharacterReplaceMaterialVariant : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREPLACEMATERIALVARIANT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_986770D6425CB453(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterReplaceMaterialVariant*& a2)
+		static ::System::Void Method_2_BE9C9AAFA15DC131(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterReplaceMaterialVariant*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterReplaceMaterialVariant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREPLACEMATERIALVARIANT_METHOD_2_986770D6425CB453_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterReplaceMaterialVariant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREPLACEMATERIALVARIANT_METHOD_2_BE9C9AAFA15DC131_OFFSET))(a1, a2);
 		}
 	};
 }

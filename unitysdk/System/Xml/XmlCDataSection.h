@@ -8,15 +8,15 @@ namespace System::Xml { class XmlDocument; }
 namespace System::Xml { class XmlNode; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_XMLCDATASECTION_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1A037E50)
-#define SYSTEM_XML_XMLCDATASECTION_GET_ISTEXT_OFFSET UNITYSDK_OFFSET(0x1A037F10)
-#define SYSTEM_XML_XMLCDATASECTION_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1A037D90)
-#define SYSTEM_XML_XMLCDATASECTION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A037D70)
-#define SYSTEM_XML_XMLCDATASECTION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1A037DB0)
-#define SYSTEM_XML_XMLCDATASECTION_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x1A037DC0)
-#define SYSTEM_XML_XMLCDATASECTION_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1A037F00)
-#define SYSTEM_XML_XMLCDATASECTION_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A037EC0)
-#define SYSTEM_XML_XMLCDATASECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A037C70)
+#define SYSTEM_XML_XMLCDATASECTION_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1AEA9A90)
+#define SYSTEM_XML_XMLCDATASECTION_GET_ISTEXT_OFFSET UNITYSDK_OFFSET(0x1AEA9B50)
+#define SYSTEM_XML_XMLCDATASECTION_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1AEA99D0)
+#define SYSTEM_XML_XMLCDATASECTION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1AEA99B0)
+#define SYSTEM_XML_XMLCDATASECTION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1AEA99F0)
+#define SYSTEM_XML_XMLCDATASECTION_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x1AEA9A00)
+#define SYSTEM_XML_XMLCDATASECTION_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1AEA9B40)
+#define SYSTEM_XML_XMLCDATASECTION_WRITETO_OFFSET UNITYSDK_OFFSET(0x1AEA9B00)
+#define SYSTEM_XML_XMLCDATASECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEA98B0)
 
 namespace System::Xml
 {
@@ -25,9 +25,9 @@ namespace System::Xml
 	class XmlCDataSection : public ::System::Xml::XmlCharacterData
 	{
 	public:
-		::System::Void _ctor(::System::String* data, ::System::Xml::XmlDocument* doc)
+		::System::Void _ctor(::System::String* a1, ::System::Xml::XmlDocument* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCDATASECTION__CTOR_OFFSET))(this, data, doc);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCDATASECTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Name()
@@ -50,19 +50,19 @@ namespace System::Xml
 			return ((::System::Xml::XmlNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCDATASECTION_GET_PARENTNODE_OFFSET))(this);
 		}
 
-		::System::Xml::XmlNode* CloneNode(::System::Boolean deep)
+		::System::Xml::XmlNode* CloneNode(::System::Boolean a1)
 		{
-			return ((::System::Xml::XmlNode*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCDATASECTION_CLONENODE_OFFSET))(this, deep);
+			return ((::System::Xml::XmlNode*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCDATASECTION_CLONENODE_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteTo(::System::Xml::XmlWriter* w)
+		::System::Void WriteTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCDATASECTION_WRITETO_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCDATASECTION_WRITETO_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteContentTo(::System::Xml::XmlWriter* w)
+		::System::Void WriteContentTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCDATASECTION_WRITECONTENTTO_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCDATASECTION_WRITECONTENTTO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsText()

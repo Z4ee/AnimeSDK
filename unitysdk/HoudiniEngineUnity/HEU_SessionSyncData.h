@@ -7,13 +7,13 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_SESSIONSYNCDATA_GET_SYNCSTATUS_OFFSET UNITYSDK_OFFSET(0x8CB9CF0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONSYNCDATA_SET_SYNCSTATUS_OFFSET UNITYSDK_OFFSET(0x8CB9D00)
-#define HOUDINIENGINEUNITY_HEU_SESSIONSYNCDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8CB5140)
+#define HOUDINIENGINEUNITY_HEU_SESSIONSYNCDATA_GET_SYNCSTATUS_OFFSET UNITYSDK_OFFSET(0x17F57D60)
+#define HOUDINIENGINEUNITY_HEU_SESSIONSYNCDATA_SET_SYNCSTATUS_OFFSET UNITYSDK_OFFSET(0x17F57D70)
+#define HOUDINIENGINEUNITY_HEU_SESSIONSYNCDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17F53780)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_SessionSyncData_TypeDefinitionIndex = 43651;
+	inline static constexpr unsigned int HEU_SessionSyncData_TypeDefinitionIndex = 37626;
 
 	class HEU_SessionSyncData : public ::System::Object
 	{
@@ -39,9 +39,9 @@ namespace HoudiniEngineUnity
 			return ((::HoudiniEngineUnity::HEU_SessionSyncData_Status(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONSYNCDATA_GET_SYNCSTATUS_OFFSET))(this);
 		}
 
-		::System::Void set_SyncStatus(::HoudiniEngineUnity::HEU_SessionSyncData_Status value)
+		::System::Void set_SyncStatus(::HoudiniEngineUnity::HEU_SessionSyncData_Status a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionSyncData_Status))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONSYNCDATA_SET_SYNCSTATUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionSyncData_Status))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONSYNCDATA_SET_SYNCSTATUS_OFFSET))(this, a1);
 		}
 	};
 }

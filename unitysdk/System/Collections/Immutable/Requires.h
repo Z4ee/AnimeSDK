@@ -4,36 +4,36 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_ARGUMENT_OFFSET UNITYSDK_OFFSET(0x19EB5810)
-#define SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_FAILARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x19EB5700)
-#define SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_FAILRANGE_OFFSET UNITYSDK_OFFSET(0x19EB5770)
-#define SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_RANGE_OFFSET UNITYSDK_OFFSET(0x19EB5750)
+#define SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_ARGUMENT_OFFSET UNITYSDK_OFFSET(0x1AD2C600)
+#define SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_FAILARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1AD2C4F0)
+#define SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_FAILRANGE_OFFSET UNITYSDK_OFFSET(0x1AD2C560)
+#define SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_RANGE_OFFSET UNITYSDK_OFFSET(0x1AD2C540)
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int Requires_TypeDefinitionIndex = 9179;
+	inline static constexpr unsigned int Requires_TypeDefinitionIndex = 7043;
 
 	class Requires : public ::System::Object
 	{
 	public:
-		static ::System::Void FailArgumentNullException(::System::String* parameterName)
+		static ::System::Void FailArgumentNullException(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_FAILARGUMENTNULLEXCEPTION_OFFSET))(parameterName);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_FAILARGUMENTNULLEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void Range(::System::Boolean condition, ::System::String* parameterName, ::System::String* message)
+		static ::System::Void Range(::System::Boolean a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_RANGE_OFFSET))(condition, parameterName, message);
+			return ((::System::Void(*)(::System::Boolean, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_RANGE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void FailRange(::System::String* parameterName, ::System::String* message)
+		static ::System::Void FailRange(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_FAILRANGE_OFFSET))(parameterName, message);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_FAILRANGE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Argument(::System::Boolean condition)
+		static ::System::Void Argument(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_ARGUMENT_OFFSET))(condition);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_IMMUTABLE_REQUIRES_ARGUMENT_OFFSET))(a1);
 		}
 	};
 }

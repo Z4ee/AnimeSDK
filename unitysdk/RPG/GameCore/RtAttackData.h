@@ -17,12 +17,12 @@ namespace RPG::GameCore { class RtDamageExtraDataBase; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTATTACKDATA_METHOD_2_63E4CB4F4C574133_OFFSET UNITYSDK_OFFSET(0x18DC0FF0)
-#define RPG_GAMECORE_RTATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC21F0)
+#define RPG_GAMECORE_RTATTACKDATA_METHOD_2_F934D1834A4F8AC1_OFFSET UNITYSDK_OFFSET(0x19BD7A60)
+#define RPG_GAMECORE_RTATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD8C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAttackData_TypeDefinitionIndex = 23158;
+	inline static constexpr unsigned int RtAttackData_TypeDefinitionIndex = 22838;
 
 	class RtAttackData : public ::RPG::GameCore::JsonConfig
 	{
@@ -83,9 +83,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTATTACKDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_63E4CB4F4C574133(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAttackData*& a2)
+		static ::System::Void Method_2_F934D1834A4F8AC1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAttackData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAttackData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTATTACKDATA_METHOD_2_63E4CB4F4C574133_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAttackData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTATTACKDATA_METHOD_2_F934D1834A4F8AC1_OFFSET))(a1, a2);
 		}
 	};
 }

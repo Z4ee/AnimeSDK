@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178EA1D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER___C__DISPLAYCLASS44_0__GETSESSIONS_B__0_OFFSET UNITYSDK_OFFSET(0x178EC880)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186A2A40)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER___C__DISPLAYCLASS44_0__GETSESSIONS_B__0_OFFSET UNITYSDK_OFFSET(0x186A5510)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventProvider___c__DisplayClass44_0_TypeDefinitionIndex = 1677;
+	inline static constexpr unsigned int EventProvider___c__DisplayClass44_0_TypeDefinitionIndex = 1675;
 
 	class EventProvider___c__DisplayClass44_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER___C__DISPLAYCLASS44_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GetSessions_b__0(::System::Int32 etwSessionId, ::System::Int64 matchAllKeywords)
+		::System::Void _GetSessions_b__0(::System::Int32 a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER___C__DISPLAYCLASS44_0__GETSESSIONS_B__0_OFFSET))(this, etwSessionId, matchAllKeywords);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER___C__DISPLAYCLASS44_0__GETSESSIONS_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

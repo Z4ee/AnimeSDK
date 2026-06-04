@@ -5,13 +5,13 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN_ISINVALIDNUMBER_OFFSET UNITYSDK_OFFSET(0x22A9160)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN__CTOR_1_OFFSET UNITYSDK_OFFSET(0x22A9140)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x22A9120)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN_ISINVALIDNUMBER_OFFSET UNITYSDK_OFFSET(0x3839350)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3839330)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x3839310)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int TimeSpanParse_TimeSpanToken_TypeDefinitionIndex = 774;
+	inline static constexpr unsigned int TimeSpanParse_TimeSpanToken_TypeDefinitionIndex = 773;
 
 	struct alignas(8) TimeSpanParse_TimeSpanToken
 	{
@@ -20,19 +20,19 @@ namespace System::Globalization
 		::System::Int32 zeroes; // 0x18
 		::System::String* sep; // 0x20
 
-		::System::Void _ctor(::System::Int32 number)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN__CTOR_OFFSET))(this, number);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Int32 leadingZeroes, ::System::Int32 number)
+		::System::Void _ctor_1(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN__CTOR_1_OFFSET))(this, leadingZeroes, number);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsInvalidNumber(::System::Int32 maxValue, ::System::Int32 maxPrecision)
+		::System::Boolean IsInvalidNumber(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN_ISINVALIDNUMBER_OFFSET))(this, maxValue, maxPrecision);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANTOKEN_ISINVALIDNUMBER_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B0000)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B0030)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6AFD50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6AFD30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4EEFF0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4EF020)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4EEFE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EEF70)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getVersion_TypeDefinitionIndex = 36168;
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getVersion_TypeDefinitionIndex = 36468;
 
 	class BrowserNative_Calltype_zfb_getVersion : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IntPtr Invoke()
@@ -28,14 +28,14 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IntPtr EndInvoke(::System::IAsyncResult* result)
+		::System::IntPtr EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_GETVERSION_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

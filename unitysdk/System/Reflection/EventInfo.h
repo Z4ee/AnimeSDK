@@ -10,19 +10,19 @@ namespace System { class Type; }
 namespace System::Reflection { class EventInfo_AddEventAdapter; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_REFLECTION_EVENTINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x179A03D0)
-#define SYSTEM_REFLECTION_EVENTINFO_GETEVENTFROMHANDLE_OFFSET UNITYSDK_OFFSET(0x179A04D0)
-#define SYSTEM_REFLECTION_EVENTINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x179A03E0)
-#define SYSTEM_REFLECTION_EVENTINFO_GET_EVENTHANDLERTYPE_OFFSET UNITYSDK_OFFSET(0x179A0290)
-#define SYSTEM_REFLECTION_EVENTINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x179A03A0)
-#define SYSTEM_REFLECTION_EVENTINFO_INTERNAL_FROM_HANDLE_TYPE_OFFSET UNITYSDK_OFFSET(0x179A0460)
-#define SYSTEM_REFLECTION_EVENTINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x179A0400)
-#define SYSTEM_REFLECTION_EVENTINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x179A0430)
-#define SYSTEM_REFLECTION_EVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x179A03B0)
+#define SYSTEM_REFLECTION_EVENTINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x18753250)
+#define SYSTEM_REFLECTION_EVENTINFO_GETEVENTFROMHANDLE_OFFSET UNITYSDK_OFFSET(0x18753350)
+#define SYSTEM_REFLECTION_EVENTINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18753260)
+#define SYSTEM_REFLECTION_EVENTINFO_GET_EVENTHANDLERTYPE_OFFSET UNITYSDK_OFFSET(0x18753130)
+#define SYSTEM_REFLECTION_EVENTINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x18753220)
+#define SYSTEM_REFLECTION_EVENTINFO_INTERNAL_FROM_HANDLE_TYPE_OFFSET UNITYSDK_OFFSET(0x187532E0)
+#define SYSTEM_REFLECTION_EVENTINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x18753280)
+#define SYSTEM_REFLECTION_EVENTINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x187532B0)
+#define SYSTEM_REFLECTION_EVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18753230)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int EventInfo_TypeDefinitionIndex = 602;
+	inline static constexpr unsigned int EventInfo_TypeDefinitionIndex = 601;
 
 	class EventInfo : public ::System::Reflection::MemberInfo
 	{
@@ -44,9 +44,9 @@ namespace System::Reflection
 			return ((::System::Reflection::MemberTypes(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_GET_MEMBERTYPE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -54,24 +54,24 @@ namespace System::Reflection
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo* right)
+		static ::System::Boolean op_Equality(::System::Reflection::EventInfo* a1, ::System::Reflection::EventInfo* a2)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::EventInfo*, ::System::Reflection::EventInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Reflection::EventInfo*, ::System::Reflection::EventInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo* right)
+		static ::System::Boolean op_Inequality(::System::Reflection::EventInfo* a1, ::System::Reflection::EventInfo* a2)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::EventInfo*, ::System::Reflection::EventInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_OP_INEQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Reflection::EventInfo*, ::System::Reflection::EventInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Reflection::EventInfo* internal_from_handle_type(::System::IntPtr event_handle, ::System::IntPtr type_handle)
+		static ::System::Reflection::EventInfo* internal_from_handle_type(::System::IntPtr a1, ::System::IntPtr a2)
 		{
-			return ((::System::Reflection::EventInfo*(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_INTERNAL_FROM_HANDLE_TYPE_OFFSET))(event_handle, type_handle);
+			return ((::System::Reflection::EventInfo*(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_INTERNAL_FROM_HANDLE_TYPE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Reflection::EventInfo* GetEventFromHandle(::Mono::RuntimeEventHandle handle, ::System::RuntimeTypeHandle reflectedType)
+		static ::System::Reflection::EventInfo* GetEventFromHandle(::Mono::RuntimeEventHandle a1, ::System::RuntimeTypeHandle a2)
 		{
-			return ((::System::Reflection::EventInfo*(*)(::Mono::RuntimeEventHandle, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_GETEVENTFROMHANDLE_OFFSET))(handle, reflectedType);
+			return ((::System::Reflection::EventInfo*(*)(::Mono::RuntimeEventHandle, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_GETEVENTFROMHANDLE_OFFSET))(a1, a2);
 		}
 	};
 }

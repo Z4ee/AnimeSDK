@@ -8,12 +8,12 @@
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS134_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC90950)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS134_0__GENERATESCREENCAPTURECOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0xAC90960)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS134_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3A35A0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS134_0__GENERATESCREENCAPTURECOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0xC3A35B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass134_0_TypeDefinitionIndex = 64017;
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass134_0_TypeDefinitionIndex = 64938;
 
 	class PhotoGraphUtils___c__DisplayClass134_0 : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS134_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GenerateScreenCaptureCoroutine_b__0(::UnityEngine::Rendering::AsyncGPUReadbackRequest request)
+		::System::Void _GenerateScreenCaptureCoroutine_b__0(::UnityEngine::Rendering::AsyncGPUReadbackRequest a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::AsyncGPUReadbackRequest))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS134_0__GENERATESCREENCAPTURECOROUTINE_B__0_OFFSET))(this, request);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::AsyncGPUReadbackRequest))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS134_0__GENERATESCREENCAPTURECOROUTINE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

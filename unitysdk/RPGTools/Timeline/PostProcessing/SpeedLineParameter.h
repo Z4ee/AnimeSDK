@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xE4E50)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x14A5D0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int SpeedLineParameter_TypeDefinitionIndex = 45327;
+	inline static constexpr unsigned int SpeedLineParameter_TypeDefinitionIndex = 45884;
 
 	struct alignas(8) SpeedLineParameter
 	{

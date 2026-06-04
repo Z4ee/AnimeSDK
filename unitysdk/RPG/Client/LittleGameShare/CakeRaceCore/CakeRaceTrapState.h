@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::CakeRaceCore
 {
-	inline static constexpr unsigned int CakeRaceTrapState_TypeDefinitionIndex = 34620;
+	inline static constexpr unsigned int CakeRaceTrapState_TypeDefinitionIndex = 34903;
 
 	enum class CakeRaceTrapState : ::System::Int32
 	{

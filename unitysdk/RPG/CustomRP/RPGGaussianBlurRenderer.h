@@ -8,37 +8,37 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x18161480)
-#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x18161540)
-#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x181613B0)
+#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x18F072C0)
+#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x18F07380)
+#define RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F071F0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGGaussianBlurRenderer_TypeDefinitionIndex = 35189;
+	inline static constexpr unsigned int RPGGaussianBlurRenderer_TypeDefinitionIndex = 35489;
 
 	class RPGGaussianBlurRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:
-		::RPG::CustomRP::GaussianFilterKernel* _GaussianFilterKernel; // 0x28
+		::UnityEngine::MaterialPropertyBlock* _UberProperty; // 0x28
 		::UnityEngine::Material* _Uber; // 0x30
-		::UnityEngine::MaterialPropertyBlock* _UberProperty; // 0x38
-		::System::Int32 _GlobalGaussianBlurTex0; // 0x40
+		::RPG::CustomRP::GaussianFilterKernel* _GaussianFilterKernel; // 0x38
+		::System::Int32 _GlobalGaussianBlurTex1; // 0x40
 		::System::Int32 _LightenTex; // 0x44
-		::System::Int32 _GlobalGaussianBlurTex1; // 0x48
+		::System::Int32 _GlobalGaussianBlurTex0; // 0x48
 
-		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* matLib, ::UnityEngine::MaterialPropertyBlock* uberSheet)
+		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1, ::UnityEngine::MaterialPropertyBlock* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER__CTOR_OFFSET))(this, matLib, uberSheet);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* cmd)
+		::System::Void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_FRAMECLEANUP_OFFSET))(this, cmd);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_FRAMECLEANUP_OFFSET))(this, a1);
 		}
 
-		::System::Void InnerExecute(::UnityEngine::Rendering::CommandBuffer* cmd)
+		::System::Void InnerExecute(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_INNEREXECUTE_OFFSET))(this, cmd);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGGAUSSIANBLURRENDERER_INNEREXECUTE_OFFSET))(this, a1);
 		}
 	};
 }

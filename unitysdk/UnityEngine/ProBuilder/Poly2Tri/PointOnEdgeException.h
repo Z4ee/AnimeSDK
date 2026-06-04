@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTONEDGEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EFD70)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POINTONEDGEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0544C0)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int PointOnEdgeException_TypeDefinitionIndex = 35509;
+	inline static constexpr unsigned int PointOnEdgeException_TypeDefinitionIndex = 35809;
 
 	class PointOnEdgeException : public ::System::NotImplementedException
 	{
 	public:
-		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* C; // 0x88
-		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* A; // 0x90
+		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* A; // 0x88
+		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* C; // 0x90
 		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* B; // 0x98
 
-		::System::Void _ctor(::System::String* message, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c)
+		::System::Void _ctor(::System::String* a1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a2, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a3, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POINTONEDGEEXCEPTION__CTOR_OFFSET))(this, message, a, b, c);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_POLY2TRI_POINTONEDGEEXCEPTION__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

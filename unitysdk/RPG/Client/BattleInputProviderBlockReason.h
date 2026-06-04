@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleInputProviderBlockReason_TypeDefinitionIndex = 56537;
+	inline static constexpr unsigned int BattleInputProviderBlockReason_TypeDefinitionIndex = 57314;
 
 	enum class BattleInputProviderBlockReason : ::System::Int32
 	{

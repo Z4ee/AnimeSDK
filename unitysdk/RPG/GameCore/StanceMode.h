@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StanceMode_TypeDefinitionIndex = 53248;
+	inline static constexpr unsigned int StanceMode_TypeDefinitionIndex = 53960;
 
 	enum class StanceMode : ::System::Int32
 	{

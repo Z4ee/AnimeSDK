@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define CINEMACHINE_CINEMACHINECLEARSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B6FBA0)
-#define CINEMACHINE_CINEMACHINECLEARSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12B6FBE0)
-#define CINEMACHINE_CINEMACHINECLEARSHOT___C__RANDOMIZE_B__47_0_OFFSET UNITYSDK_OFFSET(0x12B6FBF0)
+#define CINEMACHINE_CINEMACHINECLEARSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1462F460)
+#define CINEMACHINE_CINEMACHINECLEARSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1462F4A0)
+#define CINEMACHINE_CINEMACHINECLEARSHOT___C__RANDOMIZE_B__47_0_OFFSET UNITYSDK_OFFSET(0x1462F4B0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineClearShot___c_TypeDefinitionIndex = 36488;
+	inline static constexpr unsigned int CinemachineClearShot___c_TypeDefinitionIndex = 36788;
 
 	class CinemachineClearShot___c : public ::System::Object
 	{
 	public:
-		static ::Cinemachine::CinemachineClearShot___c** StaticGet___9()
-		{
-			return (::Cinemachine::CinemachineClearShot___c**)Il2CppClass::FromTypeDefinitionIndex(CinemachineClearShot___c_TypeDefinitionIndex)->GetStaticField(0x6390);
-		}
 		static ::System::Comparison_1<::Cinemachine::CinemachineClearShot_Pair>** StaticGet___9__47_0()
 		{
-			return (::System::Comparison_1<::Cinemachine::CinemachineClearShot_Pair>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineClearShot___c_TypeDefinitionIndex)->GetStaticField(0x6398);
+			return (::System::Comparison_1<::Cinemachine::CinemachineClearShot_Pair>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineClearShot___c_TypeDefinitionIndex)->GetStaticField(0x4B00);
+		}
+		static ::Cinemachine::CinemachineClearShot___c** StaticGet___9()
+		{
+			return (::Cinemachine::CinemachineClearShot___c**)Il2CppClass::FromTypeDefinitionIndex(CinemachineClearShot___c_TypeDefinitionIndex)->GetStaticField(0x4B08);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECLEARSHOT___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _Randomize_b__47_0(::Cinemachine::CinemachineClearShot_Pair p1, ::Cinemachine::CinemachineClearShot_Pair p2)
+		::System::Int32 _Randomize_b__47_0(::Cinemachine::CinemachineClearShot_Pair a1, ::Cinemachine::CinemachineClearShot_Pair a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Cinemachine::CinemachineClearShot_Pair, ::Cinemachine::CinemachineClearShot_Pair))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECLEARSHOT___C__RANDOMIZE_B__47_0_OFFSET))(this, p1, p2);
+			return ((::System::Int32(*)(::PVOID, ::Cinemachine::CinemachineClearShot_Pair, ::Cinemachine::CinemachineClearShot_Pair))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECLEARSHOT___C__RANDOMIZE_B__47_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

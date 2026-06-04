@@ -8,36 +8,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1737E3E0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1737E470)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_INVOKE_OFFSET UNITYSDK_OFFSET(0x17375AA0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x173782E0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18189380)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18189410)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_INVOKE_OFFSET UNITYSDK_OFFSET(0x181825E0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x18189310)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer_LZ4Transform_TypeDefinitionIndex = 9265;
+	inline static constexpr unsigned int MessagePackSerializer_LZ4Transform_TypeDefinitionIndex = 7168;
 
 	class MessagePackSerializer_LZ4Transform : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Invoke(::System::ReadOnlySpan_1<::System::Byte> input, ::System::Span_1<::System::Byte> output)
+		::System::Int32 Invoke(::System::ReadOnlySpan_1<::System::Byte> a1, ::System::Span_1<::System::Byte> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>, ::System::Span_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_INVOKE_OFFSET))(this, input, output);
+			return ((::System::Int32(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>, ::System::Span_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::ReadOnlySpan_1<::System::Byte> input, ::System::Span_1<::System::Byte> output, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::ReadOnlySpan_1<::System::Byte> a1, ::System::Span_1<::System::Byte> a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>, ::System::Span_1<::System::Byte>, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_BEGININVOKE_OFFSET))(this, input, output, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>, ::System::Span_1<::System::Byte>, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 EndInvoke(::System::IAsyncResult* result)
+		::System::Int32 EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4TRANSFORM_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

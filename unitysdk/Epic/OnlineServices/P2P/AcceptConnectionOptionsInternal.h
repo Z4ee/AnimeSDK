@@ -7,16 +7,16 @@ namespace Epic::OnlineServices::P2P { class AcceptConnectionOptions; }
 namespace Epic::OnlineServices::P2P { class SocketId; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x56550)
-#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x564E0)
-#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x56260)
-#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x564D0)
-#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_REMOTEUSERID_OFFSET UNITYSDK_OFFSET(0x56320)
-#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_SOCKETID_OFFSET UNITYSDK_OFFSET(0x563E0)
+#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5B380)
+#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5B300)
+#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x5B080)
+#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5B2F0)
+#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_REMOTEUSERID_OFFSET UNITYSDK_OFFSET(0x5B140)
+#define EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_SOCKETID_OFFSET UNITYSDK_OFFSET(0x5B200)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int AcceptConnectionOptionsInternal_TypeDefinitionIndex = 41694;
+	inline static constexpr unsigned int AcceptConnectionOptionsInternal_TypeDefinitionIndex = 42497;
 
 	struct alignas(8) AcceptConnectionOptionsInternal
 	{
@@ -25,29 +25,29 @@ namespace Epic::OnlineServices::P2P
 		::System::IntPtr m_RemoteUserId; // 0x20
 		::System::IntPtr m_SocketId; // 0x28
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_RemoteUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_RemoteUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_REMOTEUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_REMOTEUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_SocketId(::Epic::OnlineServices::P2P::SocketId* value)
+		::System::Void set_SocketId(::Epic::OnlineServices::P2P::SocketId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::SocketId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_SOCKETID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::SocketId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_SOCKETID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::P2P::AcceptConnectionOptions* other)
+		::System::Void Set(::Epic::OnlineServices::P2P::AcceptConnectionOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::AcceptConnectionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::AcceptConnectionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ACCEPTCONNECTIONOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

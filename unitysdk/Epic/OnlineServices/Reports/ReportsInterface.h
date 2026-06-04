@@ -6,14 +6,14 @@ namespace Epic::OnlineServices::Reports { class OnSendPlayerBehaviorReportComple
 namespace Epic::OnlineServices::Reports { class SendPlayerBehaviorReportOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE_ONSENDPLAYERBEHAVIORREPORTCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F32DE0)
-#define EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE_SENDPLAYERBEHAVIORREPORT_OFFSET UNITYSDK_OFFSET(0x8F32E90)
-#define EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8F32E80)
-#define EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8F32E70)
+#define EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE_ONSENDPLAYERBEHAVIORREPORTCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA353D40)
+#define EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE_SENDPLAYERBEHAVIORREPORT_OFFSET UNITYSDK_OFFSET(0xA353E00)
+#define EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA353DF0)
+#define EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA353DE0)
 
 namespace Epic::OnlineServices::Reports
 {
-	inline static constexpr unsigned int ReportsInterface_TypeDefinitionIndex = 41412;
+	inline static constexpr unsigned int ReportsInterface_TypeDefinitionIndex = 42215;
 
 	class ReportsInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -27,19 +27,19 @@ namespace Epic::OnlineServices::Reports
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void SendPlayerBehaviorReport(::Epic::OnlineServices::Reports::SendPlayerBehaviorReportOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Reports::OnSendPlayerBehaviorReportCompleteCallback* completionDelegate)
+		::System::Void SendPlayerBehaviorReport(::Epic::OnlineServices::Reports::SendPlayerBehaviorReportOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Reports::OnSendPlayerBehaviorReportCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Reports::SendPlayerBehaviorReportOptions*, ::System::Object*, ::Epic::OnlineServices::Reports::OnSendPlayerBehaviorReportCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE_SENDPLAYERBEHAVIORREPORT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Reports::SendPlayerBehaviorReportOptions*, ::System::Object*, ::Epic::OnlineServices::Reports::OnSendPlayerBehaviorReportCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE_SENDPLAYERBEHAVIORREPORT_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnSendPlayerBehaviorReportCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnSendPlayerBehaviorReportCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE_ONSENDPLAYERBEHAVIORREPORTCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_REPORTS_REPORTSINTERFACE_ONSENDPLAYERBEHAVIORREPORTCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

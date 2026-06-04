@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class QAAdventurePlayerRow; }
 
-#define RPG_GAMECORE_QATESTDATACONFIG_METHOD_2_90252C39559F4D0D_OFFSET UNITYSDK_OFFSET(0x18C7F7D0)
-#define RPG_GAMECORE_QATESTDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7F8D0)
+#define RPG_GAMECORE_QATESTDATACONFIG_METHOD_2_577CD6D05F5A8AD8_OFFSET UNITYSDK_OFFSET(0x19AA2100)
+#define RPG_GAMECORE_QATESTDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA21F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QATestDataConfig_TypeDefinitionIndex = 18090;
+	inline static constexpr unsigned int QATestDataConfig_TypeDefinitionIndex = 18113;
 
 	class QATestDataConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QATESTDATACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_90252C39559F4D0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QATestDataConfig*& a2)
+		static ::System::Void Method_2_577CD6D05F5A8AD8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QATestDataConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QATestDataConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QATESTDATACONFIG_METHOD_2_90252C39559F4D0D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QATestDataConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QATESTDATACONFIG_METHOD_2_577CD6D05F5A8AD8_OFFSET))(a1, a2);
 		}
 	};
 }

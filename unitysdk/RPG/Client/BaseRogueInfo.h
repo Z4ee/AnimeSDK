@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_810;
-namespace RPG::Client { class IAvatarInfoProvider; }
+class Class_0_16E4307DCC419505_861;
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class IRogueMiracleInfo; }
 namespace RPG::Client { class RogueBuffInfo; }
 namespace RPG::Client { class RogueMiracleInfo; }
@@ -11,35 +11,35 @@ namespace RPG::Client { class RoguePickAvatarInfo; }
 namespace RPG::Client { class RogueReviveAvatarInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BASEROGUEINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9DDD650)
-#define RPG_CLIENT_BASEROGUEINFO_GETROGUEBUFFINFO_OFFSET UNITYSDK_OFFSET(0x9DDD8A0)
-#define RPG_CLIENT_BASEROGUEINFO_GETROGUEMIRACLEINFO_OFFSET UNITYSDK_OFFSET(0x9DDD8E0)
-#define RPG_CLIENT_BASEROGUEINFO_GETROGUEPICKAVATARINFO_OFFSET UNITYSDK_OFFSET(0x9DDD860)
-#define RPG_CLIENT_BASEROGUEINFO_GETROGUEREVIVEAVATARINFO_OFFSET UNITYSDK_OFFSET(0x9DDD820)
-#define RPG_CLIENT_BASEROGUEINFO_GET_BUFFINFO_OFFSET UNITYSDK_OFFSET(0x9DDD460)
-#define RPG_CLIENT_BASEROGUEINFO_GET_MIRACLEINFO_OFFSET UNITYSDK_OFFSET(0x9DDD480)
-#define RPG_CLIENT_BASEROGUEINFO_GET_PICKAVATARINFO_OFFSET UNITYSDK_OFFSET(0x9DDD440)
-#define RPG_CLIENT_BASEROGUEINFO_GET_REVIVEAVATARINFO_OFFSET UNITYSDK_OFFSET(0x9DDD420)
-#define RPG_CLIENT_BASEROGUEINFO_SET_BUFFINFO_OFFSET UNITYSDK_OFFSET(0x9DDD470)
-#define RPG_CLIENT_BASEROGUEINFO_SET_MIRACLEINFO_OFFSET UNITYSDK_OFFSET(0x9DDD490)
-#define RPG_CLIENT_BASEROGUEINFO_SET_PICKAVATARINFO_OFFSET UNITYSDK_OFFSET(0x9DDD450)
-#define RPG_CLIENT_BASEROGUEINFO_SET_REVIVEAVATARINFO_OFFSET UNITYSDK_OFFSET(0x9DDD430)
-#define RPG_CLIENT_BASEROGUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9DDD920)
-#define RPG_CLIENT_BASEROGUEINFO__INITCHESSROGUESENDPACKETCMD_OFFSET UNITYSDK_OFFSET(0x9DDD5F0)
-#define RPG_CLIENT_BASEROGUEINFO__INITSIMULATEDROGUESENDPACKETCMD_OFFSET UNITYSDK_OFFSET(0x9DDD4A0)
-#define RPG_CLIENT_BASEROGUEINFO__SETSENDPACKETCMD_OFFSET UNITYSDK_OFFSET(0x9DDD500)
+#define RPG_CLIENT_BASEROGUEINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3B45A0)
+#define RPG_CLIENT_BASEROGUEINFO_GETROGUEBUFFINFO_OFFSET UNITYSDK_OFFSET(0xB3B4850)
+#define RPG_CLIENT_BASEROGUEINFO_GETROGUEMIRACLEINFO_OFFSET UNITYSDK_OFFSET(0xB3B4890)
+#define RPG_CLIENT_BASEROGUEINFO_GETROGUEPICKAVATARINFO_OFFSET UNITYSDK_OFFSET(0xB3B4810)
+#define RPG_CLIENT_BASEROGUEINFO_GETROGUEREVIVEAVATARINFO_OFFSET UNITYSDK_OFFSET(0xB3B47D0)
+#define RPG_CLIENT_BASEROGUEINFO_GET_BUFFINFO_OFFSET UNITYSDK_OFFSET(0xB3B43B0)
+#define RPG_CLIENT_BASEROGUEINFO_GET_MIRACLEINFO_OFFSET UNITYSDK_OFFSET(0xB3B43D0)
+#define RPG_CLIENT_BASEROGUEINFO_GET_PICKAVATARINFO_OFFSET UNITYSDK_OFFSET(0xB3B4390)
+#define RPG_CLIENT_BASEROGUEINFO_GET_REVIVEAVATARINFO_OFFSET UNITYSDK_OFFSET(0xB3B4370)
+#define RPG_CLIENT_BASEROGUEINFO_SET_BUFFINFO_OFFSET UNITYSDK_OFFSET(0xB3B43C0)
+#define RPG_CLIENT_BASEROGUEINFO_SET_MIRACLEINFO_OFFSET UNITYSDK_OFFSET(0xB3B43E0)
+#define RPG_CLIENT_BASEROGUEINFO_SET_PICKAVATARINFO_OFFSET UNITYSDK_OFFSET(0xB3B43A0)
+#define RPG_CLIENT_BASEROGUEINFO_SET_REVIVEAVATARINFO_OFFSET UNITYSDK_OFFSET(0xB3B4380)
+#define RPG_CLIENT_BASEROGUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB3B48D0)
+#define RPG_CLIENT_BASEROGUEINFO__INITCHESSROGUESENDPACKETCMD_OFFSET UNITYSDK_OFFSET(0xB3B4540)
+#define RPG_CLIENT_BASEROGUEINFO__INITSIMULATEDROGUESENDPACKETCMD_OFFSET UNITYSDK_OFFSET(0xB3B43F0)
+#define RPG_CLIENT_BASEROGUEINFO__SETSENDPACKETCMD_OFFSET UNITYSDK_OFFSET(0xB3B4450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseRogueInfo_TypeDefinitionIndex = 61868;
+	inline static constexpr unsigned int BaseRogueInfo_TypeDefinitionIndex = 62801;
 
 	class BaseRogueInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::RoguePickAvatarInfo* _PickAvatarInfo_k__BackingField; // 0x10
-		::RPG::Client::RogueMiracleInfo* _MiracleInfo_k__BackingField; // 0x18
-		::RPG::Client::RogueReviveAvatarInfo* _ReviveAvatarInfo_k__BackingField; // 0x20
-		::RPG::Client::RogueBuffInfo* _BuffInfo_k__BackingField; // 0x28
+		::RPG::Client::RogueReviveAvatarInfo* _ReviveAvatarInfo_k__BackingField; // 0x10
+		::RPG::Client::RogueBuffInfo* _BuffInfo_k__BackingField; // 0x18
+		::RPG::Client::RoguePickAvatarInfo* _PickAvatarInfo_k__BackingField; // 0x20
+		::RPG::Client::RogueMiracleInfo* _MiracleInfo_k__BackingField; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueReviveAvatarInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_GET_REVIVEAVATARINFO_OFFSET))(this);
 		}
 
-		::System::Void set_ReviveAvatarInfo(::RPG::Client::RogueReviveAvatarInfo* value)
+		::System::Void set_ReviveAvatarInfo(::RPG::Client::RogueReviveAvatarInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueReviveAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_SET_REVIVEAVATARINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueReviveAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_SET_REVIVEAVATARINFO_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RoguePickAvatarInfo* get_PickAvatarInfo()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RoguePickAvatarInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_GET_PICKAVATARINFO_OFFSET))(this);
 		}
 
-		::System::Void set_PickAvatarInfo(::RPG::Client::RoguePickAvatarInfo* value)
+		::System::Void set_PickAvatarInfo(::RPG::Client::RoguePickAvatarInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RoguePickAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_SET_PICKAVATARINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RoguePickAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_SET_PICKAVATARINFO_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RogueBuffInfo* get_BuffInfo()
@@ -71,9 +71,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueBuffInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_GET_BUFFINFO_OFFSET))(this);
 		}
 
-		::System::Void set_BuffInfo(::RPG::Client::RogueBuffInfo* value)
+		::System::Void set_BuffInfo(::RPG::Client::RogueBuffInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueBuffInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_SET_BUFFINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueBuffInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_SET_BUFFINFO_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RogueMiracleInfo* get_MiracleInfo()
@@ -81,9 +81,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueMiracleInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_GET_MIRACLEINFO_OFFSET))(this);
 		}
 
-		::System::Void set_MiracleInfo(::RPG::Client::RogueMiracleInfo* value)
+		::System::Void set_MiracleInfo(::RPG::Client::RogueMiracleInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueMiracleInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_SET_MIRACLEINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueMiracleInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO_SET_MIRACLEINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitSimulatedRogueSendPacketCmd()
@@ -96,9 +96,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO__INITCHESSROGUESENDPACKETCMD_OFFSET))(this);
 		}
 
-		::System::Void _SetSendPacketCmd(::Class_0_16E4307DCC419505_810* cmd)
+		::System::Void _SetSendPacketCmd(::Class_0_16E4307DCC419505_861* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_810*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO__SETSENDPACKETCMD_OFFSET))(this, cmd);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_861*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEROGUEINFO__SETSENDPACKETCMD_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

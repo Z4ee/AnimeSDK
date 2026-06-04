@@ -6,13 +6,13 @@ namespace EnviromentSystem { class EnviroProperty; }
 namespace EnviromentSystem { class EnviromentProfile; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROFOGCLIP_METHOD_2_1B0916E27D8401AA_OFFSET UNITYSDK_OFFSET(0xF300E20)
-#define ENVIROMENTSYSTEM_ENVIROFOGCLIP_METHOD_2_6AA875EA08DEE2B3_OFFSET UNITYSDK_OFFSET(0xF300ED0)
-#define ENVIROMENTSYSTEM_ENVIROFOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xF300EC0)
+#define ENVIROMENTSYSTEM_ENVIROFOGCLIP_METHOD_2_1B0916E27D8401AA_OFFSET UNITYSDK_OFFSET(0x135887B0)
+#define ENVIROMENTSYSTEM_ENVIROFOGCLIP_METHOD_2_81F4E10A4C342CAA_OFFSET UNITYSDK_OFFSET(0x13588860)
+#define ENVIROMENTSYSTEM_ENVIROFOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x13588850)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroFogClip_TypeDefinitionIndex = 46171;
+	inline static constexpr unsigned int EnviroFogClip_TypeDefinitionIndex = 46754;
 
 	class EnviroFogClip : public ::EnviromentSystem::EnviromentClip
 	{
@@ -27,9 +27,9 @@ namespace EnviromentSystem
 			return ((::EnviromentSystem::EnviroFogClip*(*)(::EnviromentSystem::EnviromentProfile*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROFOGCLIP_METHOD_2_1B0916E27D8401AA_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* Method_2_6AA875EA08DEE2B3(::EnviromentSystem::EnviromentProfile* a1)
+		static ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* Method_2_81F4E10A4C342CAA(::EnviromentSystem::EnviromentProfile* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*(*)(::EnviromentSystem::EnviromentProfile*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROFOGCLIP_METHOD_2_6AA875EA08DEE2B3_OFFSET))(a1);
+			return ((::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*(*)(::EnviromentSystem::EnviromentProfile*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROFOGCLIP_METHOD_2_81F4E10A4C342CAA_OFFSET))(a1);
 		}
 	};
 }

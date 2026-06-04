@@ -9,16 +9,16 @@ namespace System::Collections { class ArrayList; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKTOTALANDFRACTIONDIGITS_OFFSET UNITYSDK_OFFSET(0x19FC3060)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x19FC99B0)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_2_OFFSET UNITYSDK_OFFSET(0x19FCA400)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_3_OFFSET UNITYSDK_OFFSET(0x19FCA470)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_4_OFFSET UNITYSDK_OFFSET(0x19FCA4E0)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x19FC9930)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x19FCA2B0)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x19FCA550)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FCA600)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FC0E10)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKTOTALANDFRACTIONDIGITS_OFFSET UNITYSDK_OFFSET(0x1AE36C20)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1AE3D4D0)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_2_OFFSET UNITYSDK_OFFSET(0x1AE3DEE0)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_3_OFFSET UNITYSDK_OFFSET(0x1AE3DF50)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_4_OFFSET UNITYSDK_OFFSET(0x1AE3DFC0)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1AE3D450)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x1AE3DD90)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1AE3E030)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE3E0E0)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE34AB0)
 
 namespace System::Xml::Schema
 {
@@ -29,14 +29,14 @@ namespace System::Xml::Schema
 	public:
 		static ::Il2CppArray<::System::Char>** StaticGet_signs()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Numeric10FacetsChecker_TypeDefinitionIndex)->GetStaticField(0xD4D0);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Numeric10FacetsChecker_TypeDefinitionIndex)->GetStaticField(0x14F30);
 		}
 		::System::Decimal minValue; // 0x10
 		::System::Decimal maxValue; // 0x20
 
-		::System::Void _ctor(::System::Decimal minVal, ::System::Decimal maxVal)
+		::System::Void _ctor(::System::Decimal a1, ::System::Decimal a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Decimal, ::System::Decimal))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER__CTOR_OFFSET))(this, minVal, maxVal);
+			return ((::System::Void(*)(::PVOID, ::System::Decimal, ::System::Decimal))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -44,44 +44,44 @@ namespace System::Xml::Schema
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER__CCTOR_OFFSET))();
 		}
 
-		::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets(::System::Object* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_1(::System::Decimal value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_1(::System::Decimal a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Decimal, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_1_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Decimal, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_2(::System::Int64 value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_2(::System::Int64 a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Int64, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_2_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Int64, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_3(::System::Int32 value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_3(::System::Int32 a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Int32, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_3_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Int32, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_4(::System::Int16 value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_4(::System::Int16 a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Int16, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_4_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Int16, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Boolean MatchEnumeration(::System::Object* a1, ::System::Collections::ArrayList* a2, ::System::Xml::Schema::XmlSchemaDatatype* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_OFFSET))(this, value, enumeration, datatype);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean MatchEnumeration_1(::System::Decimal value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlValueConverter* valueConverter)
+		::System::Boolean MatchEnumeration_1(::System::Decimal a1, ::System::Collections::ArrayList* a2, ::System::Xml::Schema::XmlValueConverter* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Decimal, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlValueConverter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_1_OFFSET))(this, value, enumeration, valueConverter);
+			return ((::System::Boolean(*)(::PVOID, ::System::Decimal, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlValueConverter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Exception* CheckTotalAndFractionDigits(::System::Decimal value, ::System::Int32 totalDigits, ::System::Int32 fractionDigits, ::System::Boolean checkTotal, ::System::Boolean checkFraction)
+		::System::Exception* CheckTotalAndFractionDigits(::System::Decimal a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Decimal, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKTOTALANDFRACTIONDIGITS_OFFSET))(this, value, totalDigits, fractionDigits, checkTotal, checkFraction);
+			return ((::System::Exception*(*)(::PVOID, ::System::Decimal, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKTOTALANDFRACTIONDIGITS_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

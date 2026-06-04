@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExeCode_TypeDefinitionIndex = 54923;
+	inline static constexpr unsigned int ExeCode_TypeDefinitionIndex = 55657;
 
 	enum class ExeCode : ::System::Int32
 	{

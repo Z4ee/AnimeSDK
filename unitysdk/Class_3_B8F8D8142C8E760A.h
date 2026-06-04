@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CancelActionDelayLink; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B8F8D8142C8E760A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12B3A2A0)
-#define CLASS_3_B8F8D8142C8E760A__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3A270)
+#define CLASS_3_B8F8D8142C8E760A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13D06A30)
+#define CLASS_3_B8F8D8142C8E760A__CTOR_OFFSET UNITYSDK_OFFSET(0x13D06A00)
 
-inline static constexpr unsigned int Class_3_B8F8D8142C8E760A_TypeDefinitionIndex = 50648;
+inline static constexpr unsigned int Class_3_B8F8D8142C8E760A_TypeDefinitionIndex = 51315;
 
 class Class_3_B8F8D8142C8E760A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CancelActionDelayLink*>
 {

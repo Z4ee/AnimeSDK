@@ -4,9 +4,9 @@
 
 namespace Mono::Globalization::Unicode { class CodePointIndexer; }
 
-#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_MAPIDX_OFFSET UNITYSDK_OFFSET(0x17793A20)
-#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_PROPIDX_OFFSET UNITYSDK_OFFSET(0x17793940)
-#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x17793440)
+#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_MAPIDX_OFFSET UNITYSDK_OFFSET(0x1854E5C0)
+#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_PROPIDX_OFFSET UNITYSDK_OFFSET(0x1854E4E0)
+#define MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1854DFE0)
 
 namespace Mono::Globalization::Unicode
 {
@@ -15,25 +15,25 @@ namespace Mono::Globalization::Unicode
 	class NormalizationTableUtil : public ::System::Object
 	{
 	public:
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Composite()
-		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(NormalizationTableUtil_TypeDefinitionIndex)->GetStaticField(0x41C0);
-		}
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Helper()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(NormalizationTableUtil_TypeDefinitionIndex)->GetStaticField(0x41C8);
-		}
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Map()
-		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(NormalizationTableUtil_TypeDefinitionIndex)->GetStaticField(0x41D0);
-		}
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Prop()
-		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(NormalizationTableUtil_TypeDefinitionIndex)->GetStaticField(0x41D8);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(NormalizationTableUtil_TypeDefinitionIndex)->GetStaticField(0x1E40);
 		}
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Combining()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(NormalizationTableUtil_TypeDefinitionIndex)->GetStaticField(0x41E0);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(NormalizationTableUtil_TypeDefinitionIndex)->GetStaticField(0x1E48);
+		}
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Prop()
+		{
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(NormalizationTableUtil_TypeDefinitionIndex)->GetStaticField(0x1E50);
+		}
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Map()
+		{
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(NormalizationTableUtil_TypeDefinitionIndex)->GetStaticField(0x1E58);
+		}
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Composite()
+		{
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(NormalizationTableUtil_TypeDefinitionIndex)->GetStaticField(0x1E60);
 		}
 
 		static ::System::Void _cctor()
@@ -41,14 +41,14 @@ namespace Mono::Globalization::Unicode
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL__CCTOR_OFFSET))();
 		}
 
-		static ::System::Int32 PropIdx(::System::Int32 cp)
+		static ::System::Int32 PropIdx(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_PROPIDX_OFFSET))(cp);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_PROPIDX_OFFSET))(a1);
 		}
 
-		static ::System::Int32 MapIdx(::System::Int32 cp)
+		static ::System::Int32 MapIdx(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_MAPIDX_OFFSET))(cp);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_NORMALIZATIONTABLEUTIL_MAPIDX_OFFSET))(a1);
 		}
 	};
 }

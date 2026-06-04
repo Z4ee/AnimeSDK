@@ -4,21 +4,21 @@
 #include "unitysdk/RPG/Client/ReasonBool_1.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_0D41EB025879CCDD_GET_STREAMINGNOTPAUSE_OFFSET UNITYSDK_OFFSET(0x12957C70)
-#define CLASS_1_0D41EB025879CCDD_METHOD_1_E6165DFAF98E9739_OFFSET UNITYSDK_OFFSET(0x12957C90)
-#define CLASS_1_0D41EB025879CCDD_METHOD_1_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x12957D00)
-#define CLASS_1_0D41EB025879CCDD_SET_STREAMINGNOTPAUSE_OFFSET UNITYSDK_OFFSET(0x12957C80)
-#define CLASS_1_0D41EB025879CCDD__CCTOR_OFFSET UNITYSDK_OFFSET(0x12957D50)
-#define CLASS_1_0D41EB025879CCDD__CTOR_OFFSET UNITYSDK_OFFSET(0x12957D40)
+#define CLASS_1_0D41EB025879CCDD_GET_STREAMINGNOTPAUSE_OFFSET UNITYSDK_OFFSET(0x1396BF50)
+#define CLASS_1_0D41EB025879CCDD_METHOD_1_E6165DFAF98E9739_OFFSET UNITYSDK_OFFSET(0x1396BF70)
+#define CLASS_1_0D41EB025879CCDD_METHOD_1_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x1396BFE0)
+#define CLASS_1_0D41EB025879CCDD_SET_STREAMINGNOTPAUSE_OFFSET UNITYSDK_OFFSET(0x1396BF60)
+#define CLASS_1_0D41EB025879CCDD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1396C030)
+#define CLASS_1_0D41EB025879CCDD__CTOR_OFFSET UNITYSDK_OFFSET(0x1396C020)
 
-inline static constexpr unsigned int Class_1_0D41EB025879CCDD_TypeDefinitionIndex = 67993;
+inline static constexpr unsigned int Class_1_0D41EB025879CCDD_TypeDefinitionIndex = 68951;
 
 class Class_1_0D41EB025879CCDD : public ::System::Object
 {
 public:
 	static ::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::StreamingPauseReason>* StaticGet__StreamingNotPause_k__BackingField()
 	{
-		return (::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::StreamingPauseReason>*)Il2CppClass::FromTypeDefinitionIndex(Class_1_0D41EB025879CCDD_TypeDefinitionIndex)->GetStaticField(0xBAB0);
+		return (::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::StreamingPauseReason>*)Il2CppClass::FromTypeDefinitionIndex(Class_1_0D41EB025879CCDD_TypeDefinitionIndex)->GetStaticField(0xA330);
 	}
 
 	::System::Void _ctor()
@@ -36,9 +36,9 @@ public:
 		return ((::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::StreamingPauseReason>(*)())((::PBYTE)hIl2Cpp + CLASS_1_0D41EB025879CCDD_GET_STREAMINGNOTPAUSE_OFFSET))();
 	}
 
-	static ::System::Void set_StreamingNotPause(::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::StreamingPauseReason> value)
+	static ::System::Void set_StreamingNotPause(::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::StreamingPauseReason> a1)
 	{
-		return ((::System::Void(*)(::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::StreamingPauseReason>))((::PBYTE)hIl2Cpp + CLASS_1_0D41EB025879CCDD_SET_STREAMINGNOTPAUSE_OFFSET))(value);
+		return ((::System::Void(*)(::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::StreamingPauseReason>))((::PBYTE)hIl2Cpp + CLASS_1_0D41EB025879CCDD_SET_STREAMINGNOTPAUSE_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_E6165DFAF98E9739(::System::Boolean a1, ::RPG::Client::OpenWorld::StreamingPauseReason a2)

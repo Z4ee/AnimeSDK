@@ -4,32 +4,32 @@
 
 namespace System::Text { class UTF7Encoding_DecoderUTF7Fallback; }
 
-#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x17852C10)
-#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x17852C60)
-#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x17852C80)
-#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_INTERNALFALLBACK_OFFSET UNITYSDK_OFFSET(0x17852CA0)
-#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x17852C90)
-#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x17852B90)
+#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x1860CBC0)
+#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_GETNEXTCHAR_OFFSET UNITYSDK_OFFSET(0x1860CC00)
+#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_GET_REMAINING_OFFSET UNITYSDK_OFFSET(0x1860CC20)
+#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_INTERNALFALLBACK_OFFSET UNITYSDK_OFFSET(0x1860CC40)
+#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x1860CC30)
+#define SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1860CB40)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int UTF7Encoding_DecoderUTF7FallbackBuffer_TypeDefinitionIndex = 506;
+	inline static constexpr unsigned int UTF7Encoding_DecoderUTF7FallbackBuffer_TypeDefinitionIndex = 505;
 
 	class UTF7Encoding_DecoderUTF7FallbackBuffer : public ::System::Text::DecoderFallbackBuffer
 	{
 	public:
-		::System::Int32 iSize; // 0x20
-		::System::Char cFallback; // 0x24
+		::System::Char cFallback; // 0x20
+		::System::Int32 iSize; // 0x24
 		::System::Int32 iCount; // 0x28
 
-		::System::Void _ctor(::System::Text::UTF7Encoding_DecoderUTF7Fallback* fallback)
+		::System::Void _ctor(::System::Text::UTF7Encoding_DecoderUTF7Fallback* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::UTF7Encoding_DecoderUTF7Fallback*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER__CTOR_OFFSET))(this, fallback);
+			return ((::System::Void(*)(::PVOID, ::System::Text::UTF7Encoding_DecoderUTF7Fallback*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Fallback(::Il2CppArray<::System::Byte>* bytesUnknown, ::System::Int32 index)
+		::System::Boolean Fallback(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_FALLBACK_OFFSET))(this, bytesUnknown, index);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_FALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Char GetNextChar()
@@ -47,9 +47,9 @@ namespace System::Text
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_RESET_OFFSET))(this);
 		}
 
-		::System::Int32 InternalFallback(::Il2CppArray<::System::Byte>* bytes, ::System::Byte* pBytes)
+		::System::Int32 InternalFallback(::Il2CppArray<::System::Byte>* a1, ::System::Byte* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Byte*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_INTERNALFALLBACK_OFFSET))(this, bytes, pBytes);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Byte*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF7ENCODING_DECODERUTF7FALLBACKBUFFER_INTERNALFALLBACK_OFFSET))(this, a1, a2);
 		}
 	};
 }

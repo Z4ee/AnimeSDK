@@ -6,25 +6,25 @@ namespace Epic::OnlineServices::Connect { class AddNotifyAuthExpirationOptions; 
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2DBE0)
-#define EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
+#define EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x325D0)
+#define EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1EB0)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int AddNotifyAuthExpirationOptionsInternal_TypeDefinitionIndex = 42256;
+	inline static constexpr unsigned int AddNotifyAuthExpirationOptionsInternal_TypeDefinitionIndex = 43059;
 
 	struct alignas(4) AddNotifyAuthExpirationOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 
-		::System::Void Set(::Epic::OnlineServices::Connect::AddNotifyAuthExpirationOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Connect::AddNotifyAuthExpirationOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::AddNotifyAuthExpirationOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::AddNotifyAuthExpirationOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_ADDNOTIFYAUTHEXPIRATIONOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

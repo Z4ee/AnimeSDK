@@ -3,14 +3,16 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DYNAMICSTRINGLIST_METHOD_2_9B5D4B5FA3E608F5_OFFSET UNITYSDK_OFFSET(0x18892980)
-#define RPG_GAMECORE_DYNAMICSTRINGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18892B10)
+#define RPG_GAMECORE_DYNAMICSTRINGLIST_METHOD_2_9B5D4B5FA3E608F5_OFFSET UNITYSDK_OFFSET(0x196CF220)
+#define RPG_GAMECORE_DYNAMICSTRINGLIST_METHOD_2_C698CD91779AB72C_OFFSET UNITYSDK_OFFSET(0x196CF3C0)
+#define RPG_GAMECORE_DYNAMICSTRINGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x196CF3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicStringList_TypeDefinitionIndex = 15597;
+	inline static constexpr unsigned int DynamicStringList_TypeDefinitionIndex = 15659;
 
 	class DynamicStringList : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,6 +29,11 @@ namespace RPG::GameCore
 		static ::System::Void Method_2_9B5D4B5FA3E608F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicStringList*& a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicStringList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICSTRINGLIST_METHOD_2_9B5D4B5FA3E608F5_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_C698CD91779AB72C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::DynamicStringList*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::DynamicStringList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICSTRINGLIST_METHOD_2_C698CD91779AB72C_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,24 +5,24 @@
 namespace RPG::Client { class PCResolution; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_RPGQUALITYSETTINGS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAF50450)
-#define RPG_CLIENT_RPGQUALITYSETTINGS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAF50480)
-#define RPG_CLIENT_RPGQUALITYSETTINGS___C__GETALLDEVICERESOLUTIONS_B__76_0_OFFSET UNITYSDK_OFFSET(0xAF50490)
+#define RPG_CLIENT_RPGQUALITYSETTINGS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC6959A0)
+#define RPG_CLIENT_RPGQUALITYSETTINGS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC6959D0)
+#define RPG_CLIENT_RPGQUALITYSETTINGS___C__GETALLDEVICERESOLUTIONS_B__76_0_OFFSET UNITYSDK_OFFSET(0xC6959E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettings___c_TypeDefinitionIndex = 62612;
+	inline static constexpr unsigned int RPGQualitySettings___c_TypeDefinitionIndex = 63545;
 
 	class RPGQualitySettings___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::PCResolution*>** StaticGet___9__76_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::PCResolution*>**)Il2CppClass::FromTypeDefinitionIndex(RPGQualitySettings___c_TypeDefinitionIndex)->GetStaticField(0x11600);
-		}
 		static ::RPG::Client::RPGQualitySettings___c** StaticGet___9()
 		{
-			return (::RPG::Client::RPGQualitySettings___c**)Il2CppClass::FromTypeDefinitionIndex(RPGQualitySettings___c_TypeDefinitionIndex)->GetStaticField(0x11608);
+			return (::RPG::Client::RPGQualitySettings___c**)Il2CppClass::FromTypeDefinitionIndex(RPGQualitySettings___c_TypeDefinitionIndex)->GetStaticField(0x27550);
+		}
+		static ::System::Comparison_1<::RPG::Client::PCResolution*>** StaticGet___9__76_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::PCResolution*>**)Il2CppClass::FromTypeDefinitionIndex(RPGQualitySettings___c_TypeDefinitionIndex)->GetStaticField(0x27558);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGS___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetAllDeviceResolutions_b__76_0(::RPG::Client::PCResolution* a, ::RPG::Client::PCResolution* b)
+		::System::Int32 _GetAllDeviceResolutions_b__76_0(::RPG::Client::PCResolution* a1, ::RPG::Client::PCResolution* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::PCResolution*, ::RPG::Client::PCResolution*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGS___C__GETALLDEVICERESOLUTIONS_B__76_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::PCResolution*, ::RPG::Client::PCResolution*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGS___C__GETALLDEVICERESOLUTIONS_B__76_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

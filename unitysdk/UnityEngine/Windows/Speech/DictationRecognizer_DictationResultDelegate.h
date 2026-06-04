@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A49A420)
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A49A4A0)
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A4994A0)
-#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A49A400)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B2E9BA0)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B2E9C20)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B2E9820)
+#define UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2E9B20)
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int DictationRecognizer_DictationResultDelegate_TypeDefinitionIndex = 4246;
+	inline static constexpr unsigned int DictationRecognizer_DictationResultDelegate_TypeDefinitionIndex = 4420;
 
 	class DictationRecognizer_DictationResultDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::String* text, ::UnityEngine::Windows::Speech::ConfidenceLevel confidence)
+		::System::Void Invoke(::System::String* a1, ::UnityEngine::Windows::Speech::ConfidenceLevel a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Windows::Speech::ConfidenceLevel))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_INVOKE_OFFSET))(this, text, confidence);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Windows::Speech::ConfidenceLevel))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* text, ::UnityEngine::Windows::Speech::ConfidenceLevel confidence, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::UnityEngine::Windows::Speech::ConfidenceLevel a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::UnityEngine::Windows::Speech::ConfidenceLevel, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_BEGININVOKE_OFFSET))(this, text, confidence, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::UnityEngine::Windows::Speech::ConfidenceLevel, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_DICTATIONRECOGNIZER_DICTATIONRESULTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class DebugInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETEDFRAMEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22CE2B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETEDFRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x743C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETEDFRAMEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3868860)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETEDFRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x80F20)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int InterpretedFrameInfo_TypeDefinitionIndex = 3470;
+	inline static constexpr unsigned int InterpretedFrameInfo_TypeDefinitionIndex = 3471;
 
 	struct alignas(8) InterpretedFrameInfo
 	{
 		::System::String* _methodName; // 0x10
 		::System::Linq::Expressions::Interpreter::DebugInfo* _debugInfo; // 0x18
 
-		::System::Void _ctor(::System::String* methodName, ::System::Linq::Expressions::Interpreter::DebugInfo* info)
+		::System::Void _ctor(::System::String* a1, ::System::Linq::Expressions::Interpreter::DebugInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Linq::Expressions::Interpreter::DebugInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETEDFRAMEINFO__CTOR_OFFSET))(this, methodName, info);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Linq::Expressions::Interpreter::DebugInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INTERPRETEDFRAMEINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* ToString()

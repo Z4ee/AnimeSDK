@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidRecoverType_TypeDefinitionIndex = 13790;
+	inline static constexpr unsigned int RaidRecoverType_TypeDefinitionIndex = 13857;
 
 	enum class RaidRecoverType : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournCollectionExhibitionDisplayableTextData_TypeDefinitionIndex = 62270;
+	inline static constexpr unsigned int IRogueTournCollectionExhibitionDisplayableTextData_TypeDefinitionIndex = 63203;
 
 	class IRogueTournCollectionExhibitionDisplayableTextData
 	{

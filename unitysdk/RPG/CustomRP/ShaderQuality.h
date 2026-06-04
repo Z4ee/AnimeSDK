@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ShaderQuality_TypeDefinitionIndex = 34925;
+	inline static constexpr unsigned int ShaderQuality_TypeDefinitionIndex = 35208;
 
 	enum class ShaderQuality : ::System::Int32
 	{

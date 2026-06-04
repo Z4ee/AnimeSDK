@@ -3,53 +3,53 @@
 #include "unitysdk/RPG/GameCore/SwordTrainingActionType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_929;
+class Class_1_D17272E82AE804C2_965;
 namespace RPG::GameCore { class SwordTrainingActionRow; }
 
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0xB2468A0)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_ACTIONTYPE_OFFSET UNITYSDK_OFFSET(0xB246880)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xB2468E0)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xB2468C0)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xB246900)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SETISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xB246830)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SETLEVEL_OFFSET UNITYSDK_OFFSET(0xB2467E0)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ACTIONID_OFFSET UNITYSDK_OFFSET(0xB2468B0)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ACTIONTYPE_OFFSET UNITYSDK_OFFSET(0xB246890)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xB2468F0)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xB2468D0)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xB246780)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB246770)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0xC992E60)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_ACTIONTYPE_OFFSET UNITYSDK_OFFSET(0xC992E40)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xC992EA0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC992E80)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xC992EC0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SETISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xC992DF0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SETLEVEL_OFFSET UNITYSDK_OFFSET(0xC992DA0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ACTIONID_OFFSET UNITYSDK_OFFSET(0xC992E70)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ACTIONTYPE_OFFSET UNITYSDK_OFFSET(0xC992E50)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xC992EB0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC992E90)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xC992D40)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC992D30)
 
 namespace RPG::Client::SwordTraining
 {
-	inline static constexpr unsigned int SwordTrainingActionData_TypeDefinitionIndex = 69117;
+	inline static constexpr unsigned int SwordTrainingActionData_TypeDefinitionIndex = 69929;
 
 	class SwordTrainingActionData : public ::System::Object
 	{
 	public:
-		::System::UInt32 _Level_k__BackingField; // 0x10
-		::RPG::GameCore::SwordTrainingActionType _ActionType_k__BackingField; // 0x14
-		::System::Boolean _IsHighlight_k__BackingField; // 0x18
-		::System::UInt32 _ActionID_k__BackingField; // 0x1C
+		::System::Boolean _IsHighlight_k__BackingField; // 0x10
+		::System::UInt32 _Level_k__BackingField; // 0x14
+		::System::UInt32 _ActionID_k__BackingField; // 0x18
+		::RPG::GameCore::SwordTrainingActionType _ActionType_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 actionID, ::RPG::GameCore::SwordTrainingActionType type)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::SwordTrainingActionType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::SwordTrainingActionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA__CTOR_OFFSET))(this, actionID, type);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::SwordTrainingActionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Sync(::Class_1_D17272E82AE804C2_929* actionInfo)
+		::System::Void Sync(::Class_1_D17272E82AE804C2_965* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_929*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SYNC_OFFSET))(this, actionInfo);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_965*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SYNC_OFFSET))(this, a1);
 		}
 
-		::System::Void SetLevel(::System::UInt32 level)
+		::System::Void SetLevel(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SETLEVEL_OFFSET))(this, level);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SETLEVEL_OFFSET))(this, a1);
 		}
 
-		::System::Void SetIsHighlight(::System::Boolean bIsHighlight)
+		::System::Void SetIsHighlight(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SETISHIGHLIGHT_OFFSET))(this, bIsHighlight);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SETISHIGHLIGHT_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::SwordTrainingActionType get_ActionType()
@@ -57,9 +57,9 @@ namespace RPG::Client::SwordTraining
 			return ((::RPG::GameCore::SwordTrainingActionType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_ACTIONTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ActionType(::RPG::GameCore::SwordTrainingActionType value)
+		::System::Void set_ActionType(::RPG::GameCore::SwordTrainingActionType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SwordTrainingActionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ACTIONTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SwordTrainingActionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ACTIONTYPE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ActionID()
@@ -67,9 +67,9 @@ namespace RPG::Client::SwordTraining
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_ACTIONID_OFFSET))(this);
 		}
 
-		::System::Void set_ActionID(::System::UInt32 value)
+		::System::Void set_ActionID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ACTIONID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ACTIONID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Level()
@@ -77,9 +77,9 @@ namespace RPG::Client::SwordTraining
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_LEVEL_OFFSET))(this);
 		}
 
-		::System::Void set_Level(::System::UInt32 value)
+		::System::Void set_Level(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_LEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_LEVEL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsHighlight()
@@ -87,9 +87,9 @@ namespace RPG::Client::SwordTraining
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_GET_ISHIGHLIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_IsHighlight(::System::Boolean value)
+		::System::Void set_IsHighlight(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ISHIGHLIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGACTIONDATA_SET_ISHIGHLIGHT_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::SwordTrainingActionRow* get_Row()

@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class AdventureAbortAttack; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D8FFF6CE164A3F06_METHOD_3_88AC3355284444AB_OFFSET UNITYSDK_OFFSET(0xBAB24B0)
-#define CLASS_3_D8FFF6CE164A3F06_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAB2460)
-#define CLASS_3_D8FFF6CE164A3F06__CTOR_OFFSET UNITYSDK_OFFSET(0xBAB2430)
+#define CLASS_3_D8FFF6CE164A3F06_METHOD_3_CB3B5D934AB3038E_OFFSET UNITYSDK_OFFSET(0x13AE4010)
+#define CLASS_3_D8FFF6CE164A3F06_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13AE3FC0)
+#define CLASS_3_D8FFF6CE164A3F06__CTOR_OFFSET UNITYSDK_OFFSET(0x13AE3F90)
 
-inline static constexpr unsigned int Class_3_D8FFF6CE164A3F06_TypeDefinitionIndex = 53395;
+inline static constexpr unsigned int Class_3_D8FFF6CE164A3F06_TypeDefinitionIndex = 54108;
 
 class Class_3_D8FFF6CE164A3F06 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureAbortAttack*>
 {
@@ -24,8 +24,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D8FFF6CE164A3F06_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	static ::System::Void Method_3_88AC3355284444AB(::RPG::GameCore::TaskContext* a1)
+	static ::System::Void Method_3_CB3B5D934AB3038E(::RPG::GameCore::TaskContext* a1)
 	{
-		return ((::System::Void(*)(::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_3_D8FFF6CE164A3F06_METHOD_3_88AC3355284444AB_OFFSET))(a1);
+		return ((::System::Void(*)(::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_3_D8FFF6CE164A3F06_METHOD_3_CB3B5D934AB3038E_OFFSET))(a1);
 	}
 };

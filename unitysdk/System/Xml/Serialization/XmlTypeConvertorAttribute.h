@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_GET_METHOD_OFFSET UNITYSDK_OFFSET(0x1A02BBB0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_SET_METHOD_OFFSET UNITYSDK_OFFSET(0x1A02BBC0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02BBD0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_GET_METHOD_OFFSET UNITYSDK_OFFSET(0x1AE9DDD0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_SET_METHOD_OFFSET UNITYSDK_OFFSET(0x1AE9DDE0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE9DDF0)
 
 namespace System::Xml::Serialization
 {
@@ -17,9 +17,9 @@ namespace System::Xml::Serialization
 	public:
 		::System::String* _Method_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::String* method)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE__CTOR_OFFSET))(this, method);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Method()
@@ -27,9 +27,9 @@ namespace System::Xml::Serialization
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_GET_METHOD_OFFSET))(this);
 		}
 
-		::System::Void set_Method(::System::String* value)
+		::System::Void set_Method(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_SET_METHOD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPECONVERTORATTRIBUTE_SET_METHOD_OFFSET))(this, a1);
 		}
 	};
 }

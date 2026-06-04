@@ -9,16 +9,16 @@ namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8BA6A0)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0xB8BAE10)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_METHOD_5_A0358A0F0CEEA8AA_OFFSET UNITYSDK_OFFSET(0xB8BACE0)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_METHOD_5_F821272A6F60651E_OFFSET UNITYSDK_OFFSET(0xB8BABF0)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB8BAE20)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8BAF10)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFFD930)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0xCFFE0B0)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_METHOD_5_C6DC054D33B475B3_OFFSET UNITYSDK_OFFSET(0xCFFDF80)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_METHOD_5_F821272A6F60651E_OFFSET UNITYSDK_OFFSET(0xCFFDEA0)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCFFE0C0)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFFE1B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CutsceneCameraTrack_TypeDefinitionIndex = 44814;
+	inline static constexpr unsigned int CutsceneCameraTrack_TypeDefinitionIndex = 45361;
 
 	class CutsceneCameraTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -43,9 +43,9 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Timeline::TimelineClip*(*)(::PVOID, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_METHOD_5_F821272A6F60651E_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_A0358A0F0CEEA8AA(::UnityEngine::Timeline::TimelineClip* a1, ::UnityEngine::AnimationClip* a2)
+		::System::Void Method_5_C6DC054D33B475B3(::UnityEngine::Timeline::TimelineClip* a1, ::UnityEngine::AnimationClip* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_METHOD_5_A0358A0F0CEEA8AA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_METHOD_5_C6DC054D33B475B3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_UseUniqueCharacterName()
@@ -53,9 +53,9 @@ namespace RPGTools::Timeline
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK_GET_USEUNIQUECHARACTERNAME_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUTSCENECAMERATRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

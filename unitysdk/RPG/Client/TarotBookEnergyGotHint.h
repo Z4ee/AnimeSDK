@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_961;
+class Class_1_D17272E82AE804C2_997;
 namespace RPG::GameCore { class TarotBookEnergyRow; }
 
-#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_CREATE_OFFSET UNITYSDK_OFFSET(0xB28BD80)
-#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_GET_ENERGYCOUNT_OFFSET UNITYSDK_OFFSET(0xB28BCF0)
-#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_GET_HINT_OFFSET UNITYSDK_OFFSET(0xB28BD50)
-#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_GET_ISSHOWMOVEEFFECT_OFFSET UNITYSDK_OFFSET(0xB28BD30)
-#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_GET_ISSILENCE_OFFSET UNITYSDK_OFFSET(0xB28BD10)
-#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_SET_ENERGYCOUNT_OFFSET UNITYSDK_OFFSET(0xB28BD00)
-#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT__CTOR_OFFSET UNITYSDK_OFFSET(0xB28BE40)
+#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_CREATE_OFFSET UNITYSDK_OFFSET(0xC9D9D30)
+#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_GET_ENERGYCOUNT_OFFSET UNITYSDK_OFFSET(0xC9D9CA0)
+#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_GET_HINT_OFFSET UNITYSDK_OFFSET(0xC9D9D00)
+#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_GET_ISSHOWMOVEEFFECT_OFFSET UNITYSDK_OFFSET(0xC9D9CE0)
+#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_GET_ISSILENCE_OFFSET UNITYSDK_OFFSET(0xC9D9CC0)
+#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT_SET_ENERGYCOUNT_OFFSET UNITYSDK_OFFSET(0xC9D9CB0)
+#define RPG_CLIENT_TAROTBOOKENERGYGOTHINT__CTOR_OFFSET UNITYSDK_OFFSET(0xC9D9DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookEnergyGotHint_TypeDefinitionIndex = 62744;
+	inline static constexpr unsigned int TarotBookEnergyGotHint_TypeDefinitionIndex = 63677;
 
 	class TarotBookEnergyGotHint : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 		::RPG::GameCore::TarotBookEnergyRow* _Meta; // 0x10
 		::System::UInt32 _EnergyCount_k__BackingField; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::TarotBookEnergyRow* meta, ::System::UInt32 energyCount)
+		::System::Void _ctor(::RPG::GameCore::TarotBookEnergyRow* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TarotBookEnergyRow*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKENERGYGOTHINT__CTOR_OFFSET))(this, meta, energyCount);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TarotBookEnergyRow*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKENERGYGOTHINT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_EnergyCount()
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKENERGYGOTHINT_GET_ENERGYCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_EnergyCount(::System::UInt32 value)
+		::System::Void set_EnergyCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKENERGYGOTHINT_SET_ENERGYCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKENERGYGOTHINT_SET_ENERGYCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsSilence()
@@ -54,9 +54,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKENERGYGOTHINT_GET_HINT_OFFSET))(this);
 		}
 
-		static ::RPG::Client::TarotBookEnergyGotHint* Create(::Class_1_D17272E82AE804C2_961* notify)
+		static ::RPG::Client::TarotBookEnergyGotHint* Create(::Class_1_D17272E82AE804C2_997* a1)
 		{
-			return ((::RPG::Client::TarotBookEnergyGotHint*(*)(::Class_1_D17272E82AE804C2_961*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKENERGYGOTHINT_CREATE_OFFSET))(notify);
+			return ((::RPG::Client::TarotBookEnergyGotHint*(*)(::Class_1_D17272E82AE804C2_997*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKENERGYGOTHINT_CREATE_OFFSET))(a1);
 		}
 	};
 }

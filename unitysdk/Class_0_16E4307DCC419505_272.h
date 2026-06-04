@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/GameFramework/FileSystem/FileSystemAccess.h"
 
-namespace System { class Object; }
-namespace System { class Type; }
+class Class_1_6C719BA8F85845D8;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_272_TypeDefinitionIndex = 39790;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_272_TypeDefinitionIndex = 40446;
 
 class Class_0_16E4307DCC419505_272
 {

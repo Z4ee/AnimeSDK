@@ -6,34 +6,34 @@ namespace RPG::Client { class BattleViewModeDarkInitData; }
 namespace RPG::Client { class BattleViewModeLightInitData; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATEDARKTEAM_OFFSET UNITYSDK_OFFSET(0x9E89250)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATELIGHTTEAM_OFFSET UNITYSDK_OFFSET(0x9E891F0)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9E82200)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_BLOCKID_OFFSET UNITYSDK_OFFSET(0x9E89810)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_DARKINITDATA_OFFSET UNITYSDK_OFFSET(0x9E89850)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x9E897F0)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_LIGHTINITDATA_OFFSET UNITYSDK_OFFSET(0x9E89830)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_SETBLOCKID_OFFSET UNITYSDK_OFFSET(0x9E82AA0)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_BLOCKID_OFFSET UNITYSDK_OFFSET(0x9E89820)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_DARKINITDATA_OFFSET UNITYSDK_OFFSET(0x9E89860)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0x9E89800)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_LIGHTINITDATA_OFFSET UNITYSDK_OFFSET(0x9E89840)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA__CREATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x9E88F20)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9E894C0)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETCASTER_OFFSET UNITYSDK_OFFSET(0x9E89560)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETFIRSTSHOWNENTITY_OFFSET UNITYSDK_OFFSET(0x9E892B0)
-#define RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETNEARESTVISIBLEENTITY_OFFSET UNITYSDK_OFFSET(0x9E89660)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATEDARKTEAM_OFFSET UNITYSDK_OFFSET(0xB424800)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATELIGHTTEAM_OFFSET UNITYSDK_OFFSET(0xB4247A0)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB41CAD0)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_BLOCKID_OFFSET UNITYSDK_OFFSET(0xB424E20)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_DARKINITDATA_OFFSET UNITYSDK_OFFSET(0xB424E60)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0xB424E00)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_LIGHTINITDATA_OFFSET UNITYSDK_OFFSET(0xB424E40)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_SETBLOCKID_OFFSET UNITYSDK_OFFSET(0xB41D380)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_BLOCKID_OFFSET UNITYSDK_OFFSET(0xB424E30)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_DARKINITDATA_OFFSET UNITYSDK_OFFSET(0xB424E70)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0xB424E10)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_LIGHTINITDATA_OFFSET UNITYSDK_OFFSET(0xB424E50)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA__CREATEINTERNAL_OFFSET UNITYSDK_OFFSET(0xB4245F0)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB424A80)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETCASTER_OFFSET UNITYSDK_OFFSET(0xB424B20)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETFIRSTSHOWNENTITY_OFFSET UNITYSDK_OFFSET(0xB424860)
+#define RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETNEARESTVISIBLEENTITY_OFFSET UNITYSDK_OFFSET(0xB424C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleViewModeInitData_TypeDefinitionIndex = 66411;
+	inline static constexpr unsigned int BattleViewModeInitData_TypeDefinitionIndex = 67348;
 
 	class BattleViewModeInitData : public ::System::Object
 	{
 	public:
-		::RPG::Client::BattleViewModeDarkInitData* _DarkInitData_k__BackingField; // 0x10
-		::RPG::Client::BattleViewModeLightInitData* _LightInitData_k__BackingField; // 0x18
-		::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x20
+		::RPG::Client::BattleViewModeLightInitData* _LightInitData_k__BackingField; // 0x10
+		::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x18
+		::RPG::Client::BattleViewModeDarkInitData* _DarkInitData_k__BackingField; // 0x20
 		::System::UInt32 _BlockID_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -41,44 +41,44 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::BattleViewModeInitData* Create(::RPG::GameCore::GameEntity* entity)
+		static ::RPG::Client::BattleViewModeInitData* Create(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::Client::BattleViewModeInitData*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATE_OFFSET))(entity);
+			return ((::RPG::Client::BattleViewModeInitData*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::BattleViewModeInitData* CreateLightTeam(::RPG::GameCore::GameEntity* character, ::RPG::Client::BattleViewModeLightInitData* lightInitData)
+		static ::RPG::Client::BattleViewModeInitData* CreateLightTeam(::RPG::GameCore::GameEntity* a1, ::RPG::Client::BattleViewModeLightInitData* a2)
 		{
-			return ((::RPG::Client::BattleViewModeInitData*(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::BattleViewModeLightInitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATELIGHTTEAM_OFFSET))(character, lightInitData);
+			return ((::RPG::Client::BattleViewModeInitData*(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::BattleViewModeLightInitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATELIGHTTEAM_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::BattleViewModeInitData* CreateDarkTeam(::RPG::GameCore::GameEntity* monster, ::RPG::Client::BattleViewModeDarkInitData* monsterInitData)
+		static ::RPG::Client::BattleViewModeInitData* CreateDarkTeam(::RPG::GameCore::GameEntity* a1, ::RPG::Client::BattleViewModeDarkInitData* a2)
 		{
-			return ((::RPG::Client::BattleViewModeInitData*(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::BattleViewModeDarkInitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATEDARKTEAM_OFFSET))(monster, monsterInitData);
+			return ((::RPG::Client::BattleViewModeInitData*(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::BattleViewModeDarkInitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_CREATEDARKTEAM_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::BattleViewModeInitData* _CreateInternal(::RPG::GameCore::GameEntity* entity, ::RPG::Client::BattleViewModeLightInitData* lightInitData, ::RPG::Client::BattleViewModeDarkInitData* darkInitData)
+		static ::RPG::Client::BattleViewModeInitData* _CreateInternal(::RPG::GameCore::GameEntity* a1, ::RPG::Client::BattleViewModeLightInitData* a2, ::RPG::Client::BattleViewModeDarkInitData* a3)
 		{
-			return ((::RPG::Client::BattleViewModeInitData*(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::BattleViewModeLightInitData*, ::RPG::Client::BattleViewModeDarkInitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA__CREATEINTERNAL_OFFSET))(entity, lightInitData, darkInitData);
+			return ((::RPG::Client::BattleViewModeInitData*(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::BattleViewModeLightInitData*, ::RPG::Client::BattleViewModeDarkInitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA__CREATEINTERNAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::GameCore::GameEntity* _GetFirstShownEntity(::RPG::GameCore::GameEntity* entity)
+		static ::RPG::GameCore::GameEntity* _GetFirstShownEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETFIRSTSHOWNENTITY_OFFSET))(entity);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETFIRSTSHOWNENTITY_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::GameEntity* _GetCaster(::RPG::GameCore::GameEntity* battleEventEntity)
+		static ::RPG::GameCore::GameEntity* _GetCaster(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETCASTER_OFFSET))(battleEventEntity);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETCASTER_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::GameEntity* _GetNearestVisibleEntity(::RPG::GameCore::GameEntity* entity)
+		static ::RPG::GameCore::GameEntity* _GetNearestVisibleEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETNEARESTVISIBLEENTITY_OFFSET))(entity);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA__GETNEARESTVISIBLEENTITY_OFFSET))(a1);
 		}
 
-		::System::Void SetBlockID(::System::UInt32 blockID)
+		::System::Void SetBlockID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_SETBLOCKID_OFFSET))(this, blockID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_SETBLOCKID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_Entity()
@@ -86,9 +86,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_ENTITY_OFFSET))(this);
 		}
 
-		::System::Void set_Entity(::RPG::GameCore::GameEntity* value)
+		::System::Void set_Entity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_ENTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_ENTITY_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_BlockID()
@@ -96,9 +96,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_BLOCKID_OFFSET))(this);
 		}
 
-		::System::Void set_BlockID(::System::UInt32 value)
+		::System::Void set_BlockID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_BLOCKID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_BLOCKID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::BattleViewModeLightInitData* get_LightInitData()
@@ -106,9 +106,9 @@ namespace RPG::Client
 			return ((::RPG::Client::BattleViewModeLightInitData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_LIGHTINITDATA_OFFSET))(this);
 		}
 
-		::System::Void set_LightInitData(::RPG::Client::BattleViewModeLightInitData* value)
+		::System::Void set_LightInitData(::RPG::Client::BattleViewModeLightInitData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleViewModeLightInitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_LIGHTINITDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleViewModeLightInitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_LIGHTINITDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::BattleViewModeDarkInitData* get_DarkInitData()
@@ -116,9 +116,9 @@ namespace RPG::Client
 			return ((::RPG::Client::BattleViewModeDarkInitData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_GET_DARKINITDATA_OFFSET))(this);
 		}
 
-		::System::Void set_DarkInitData(::RPG::Client::BattleViewModeDarkInitData* value)
+		::System::Void set_DarkInitData(::RPG::Client::BattleViewModeDarkInitData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleViewModeDarkInitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_DARKINITDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleViewModeDarkInitData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODEINITDATA_SET_DARKINITDATA_OFFSET))(this, a1);
 		}
 	};
 }

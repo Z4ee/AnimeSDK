@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16221B0)
-#define CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD4E60)
+#define CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2BD23E0)
+#define CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x137290)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_NativeVector_TypeDefinitionIndex = 36724;
+	inline static constexpr unsigned int CriAtomEx_NativeVector_TypeDefinitionIndex = 37024;
 
 	struct alignas(4) CriAtomEx_NativeVector
 	{
@@ -15,15 +15,15 @@ namespace CriWare
 		::System::Single y; // 0x14
 		::System::Single z; // 0x18
 
-		::System::Void _ctor(::System::Single x, ::System::Single y, ::System::Single z)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_OFFSET))(this, x, y, z);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		/*
-		::System::Void _ctor_1(::UnityEngine::Vector3 vector)
+		::System::Void _ctor_1(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_1_OFFSET))(this, vector);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_1_OFFSET))(this, a1);
 		}
 		*/
 	};

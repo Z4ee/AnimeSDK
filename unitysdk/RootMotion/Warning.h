@@ -6,29 +6,29 @@ namespace RootMotion { class Warning_Logger; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_WARNING_LOG_1_OFFSET UNITYSDK_OFFSET(0x8E4A430)
-#define ROOTMOTION_WARNING_LOG_OFFSET UNITYSDK_OFFSET(0x8E517C0)
+#define ROOTMOTION_WARNING_LOG_1_OFFSET UNITYSDK_OFFSET(0xA257E90)
+#define ROOTMOTION_WARNING_LOG_OFFSET UNITYSDK_OFFSET(0xA27BA50)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Warning_TypeDefinitionIndex = 40996;
+	inline static constexpr unsigned int Warning_TypeDefinitionIndex = 41799;
 
 	class Warning : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_logged()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Warning_TypeDefinitionIndex)->GetStaticField(0x1070);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Warning_TypeDefinitionIndex)->GetStaticField(0x8160);
 		}
 
-		static ::System::Void Log(::System::String* message, ::RootMotion::Warning_Logger* logger, ::System::Boolean logInEditMode)
+		static ::System::Void Log(::System::String* a1, ::RootMotion::Warning_Logger* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::RootMotion::Warning_Logger*, ::System::Boolean))((::PBYTE)hIl2Cpp + ROOTMOTION_WARNING_LOG_OFFSET))(message, logger, logInEditMode);
+			return ((::System::Void(*)(::System::String*, ::RootMotion::Warning_Logger*, ::System::Boolean))((::PBYTE)hIl2Cpp + ROOTMOTION_WARNING_LOG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Log_1(::System::String* message, ::UnityEngine::Transform* context, ::System::Boolean logInEditMode)
+		static ::System::Void Log_1(::System::String* a1, ::UnityEngine::Transform* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + ROOTMOTION_WARNING_LOG_1_OFFSET))(message, context, logInEditMode);
+			return ((::System::Void(*)(::System::String*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + ROOTMOTION_WARNING_LOG_1_OFFSET))(a1, a2, a3);
 		}
 	};
 }

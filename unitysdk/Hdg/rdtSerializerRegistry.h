@@ -14,95 +14,95 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class MemberInfo; }
 namespace UnityEngine { class RangeAttribute; }
 
-#define HDG_RDTSERIALIZERREGISTRY_ADDDONTREADPROPERTIES_OFFSET UNITYSDK_OFFSET(0x8C299B0)
-#define HDG_RDTSERIALIZERREGISTRY_ADDFIELD_OFFSET UNITYSDK_OFFSET(0x8C24BA0)
-#define HDG_RDTSERIALIZERREGISTRY_ADDINCLUDEFORTYPE_OFFSET UNITYSDK_OFFSET(0x8C29A30)
-#define HDG_RDTSERIALIZERREGISTRY_ADDSKIPFORTYPE_OFFSET UNITYSDK_OFFSET(0x8C297E0)
-#define HDG_RDTSERIALIZERREGISTRY_ADDUNKNOWNPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x8C181F0)
-#define HDG_RDTSERIALIZERREGISTRY_CANADDMEMBER_OFFSET UNITYSDK_OFFSET(0x8C287F0)
-#define HDG_RDTSERIALIZERREGISTRY_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x8C23860)
-#define HDG_RDTSERIALIZERREGISTRY_HASINCLUDEPERTYPE_OFFSET UNITYSDK_OFFSET(0x8C288E0)
-#define HDG_RDTSERIALIZERREGISTRY_INCLUDEMEMBER_OFFSET UNITYSDK_OFFSET(0x8C28960)
-#define HDG_RDTSERIALIZERREGISTRY_INITSKIPPROPERTIES_OFFSET UNITYSDK_OFFSET(0x8C25950)
-#define HDG_RDTSERIALIZERREGISTRY_MAKENEWLIST_OFFSET UNITYSDK_OFFSET(0x8C28BA0)
-#define HDG_RDTSERIALIZERREGISTRY_NOTHANDLEDCONVERSION_OFFSET UNITYSDK_OFFSET(0x8C25920)
-#define HDG_RDTSERIALIZERREGISTRY_READALLFIELDS_OFFSET UNITYSDK_OFFSET(0x8C209B0)
-#define HDG_RDTSERIALIZERREGISTRY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x8C232B0)
-#define HDG_RDTSERIALIZERREGISTRY_SETARRAYSIZE_OFFSET UNITYSDK_OFFSET(0x8C1FBA0)
-#define HDG_RDTSERIALIZERREGISTRY_SKIPMEMBER_OFFSET UNITYSDK_OFFSET(0x8C28A10)
-#define HDG_RDTSERIALIZERREGISTRY_WRITEALLFIELDS_OFFSET UNITYSDK_OFFSET(0x8C1E820)
-#define HDG_RDTSERIALIZERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x8C11BA0)
+#define HDG_RDTSERIALIZERREGISTRY_ADDDONTREADPROPERTIES_OFFSET UNITYSDK_OFFSET(0xA1303E0)
+#define HDG_RDTSERIALIZERREGISTRY_ADDFIELD_OFFSET UNITYSDK_OFFSET(0xA12C670)
+#define HDG_RDTSERIALIZERREGISTRY_ADDINCLUDEFORTYPE_OFFSET UNITYSDK_OFFSET(0xA130430)
+#define HDG_RDTSERIALIZERREGISTRY_ADDSKIPFORTYPE_OFFSET UNITYSDK_OFFSET(0xA130220)
+#define HDG_RDTSERIALIZERREGISTRY_ADDUNKNOWNPRIMITIVE_OFFSET UNITYSDK_OFFSET(0xA11F600)
+#define HDG_RDTSERIALIZERREGISTRY_CANADDMEMBER_OFFSET UNITYSDK_OFFSET(0xA12F250)
+#define HDG_RDTSERIALIZERREGISTRY_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xA12B300)
+#define HDG_RDTSERIALIZERREGISTRY_HASINCLUDEPERTYPE_OFFSET UNITYSDK_OFFSET(0xA12F330)
+#define HDG_RDTSERIALIZERREGISTRY_INCLUDEMEMBER_OFFSET UNITYSDK_OFFSET(0xA12F3B0)
+#define HDG_RDTSERIALIZERREGISTRY_INITSKIPPROPERTIES_OFFSET UNITYSDK_OFFSET(0xA12D390)
+#define HDG_RDTSERIALIZERREGISTRY_MAKENEWLIST_OFFSET UNITYSDK_OFFSET(0xA12F5D0)
+#define HDG_RDTSERIALIZERREGISTRY_NOTHANDLEDCONVERSION_OFFSET UNITYSDK_OFFSET(0xA12D380)
+#define HDG_RDTSERIALIZERREGISTRY_READALLFIELDS_OFFSET UNITYSDK_OFFSET(0xA128390)
+#define HDG_RDTSERIALIZERREGISTRY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xA12AD70)
+#define HDG_RDTSERIALIZERREGISTRY_SETARRAYSIZE_OFFSET UNITYSDK_OFFSET(0xA1274A0)
+#define HDG_RDTSERIALIZERREGISTRY_SKIPMEMBER_OFFSET UNITYSDK_OFFSET(0xA12F450)
+#define HDG_RDTSERIALIZERREGISTRY_WRITEALLFIELDS_OFFSET UNITYSDK_OFFSET(0xA126170)
+#define HDG_RDTSERIALIZERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xA11C2D0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerRegistry_TypeDefinitionIndex = 43778;
+	inline static constexpr unsigned int rdtSerializerRegistry_TypeDefinitionIndex = 44320;
 
 	class rdtSerializerRegistry : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::String*>* m_skipProperties; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate*>* m_converters; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* m_includePropertiesPerType; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* m_skipPropertiesPerType; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::String*>* m_skipTypes; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate*>* m_converters; // 0x20
 		::System::Collections::Generic::HashSet_1<::System::Type*>* m_unknownPrimitives; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* m_skipPropertiesPerType; // 0x30
-		::System::Collections::Generic::HashSet_1<::System::String*>* m_skipTypes; // 0x38
-		::System::Collections::Generic::HashSet_1<::System::String*>* m_dontReadProperties; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* m_includePropertiesPerType; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::String*>* m_skipProperties; // 0x38
+		::System::Collections::Generic::HashSet_1<::System::Type*>* m_referenceFailures; // 0x40
 		::System::Collections::Generic::HashSet_1<::System::Type*>* m_failures; // 0x48
-		::System::Collections::Generic::HashSet_1<::System::Type*>* m_referenceFailures; // 0x50
+		::System::Collections::Generic::HashSet_1<::System::String*>* m_dontReadProperties; // 0x50
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY__CTOR_OFFSET))(this);
 		}
 
-		::System::Object* NotHandledConversion(::System::Object* objIn, ::Hdg::rdtSerializerRegistry* r)
+		::System::Object* NotHandledConversion(::System::Object* a1, ::Hdg::rdtSerializerRegistry* a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_NOTHANDLEDCONVERSION_OFFSET))(this, objIn, r);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_NOTHANDLEDCONVERSION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddUnknownPrimitive(::System::Type* type)
+		::System::Void AddUnknownPrimitive(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_ADDUNKNOWNPRIMITIVE_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_ADDUNKNOWNPRIMITIVE_OFFSET))(this, a1);
 		}
 
-		::System::Object* Serialize(::System::Object* obj)
+		::System::Object* Serialize(::System::Object* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_SERIALIZE_OFFSET))(this, obj);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_SERIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Object* Deserialize(::System::Object* obj)
+		::System::Object* Deserialize(::System::Object* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_DESERIALIZE_OFFSET))(this, obj);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_DESERIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddField(::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* allFields, ::System::String* name, ::System::Object* value, ::Hdg::rdtTcpMessageComponents_Property_Type type, ::UnityEngine::RangeAttribute* rangeAttribute, ::System::Boolean isArrayOrList)
+		::System::Void AddField(::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* a1, ::System::String* a2, ::System::Object* a3, ::Hdg::rdtTcpMessageComponents_Property_Type a4, ::UnityEngine::RangeAttribute* a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*, ::System::String*, ::System::Object*, ::Hdg::rdtTcpMessageComponents_Property_Type, ::UnityEngine::RangeAttribute*, ::System::Boolean))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_ADDFIELD_OFFSET))(this, allFields, name, value, type, rangeAttribute, isArrayOrList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*, ::System::String*, ::System::Object*, ::Hdg::rdtTcpMessageComponents_Property_Type, ::UnityEngine::RangeAttribute*, ::System::Boolean))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_ADDFIELD_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean CanAddMember(::System::Object* owner, ::System::Reflection::MemberInfo* memberInfo, ::System::Type* memberType)
+		::System::Boolean CanAddMember(::System::Object* a1, ::System::Reflection::MemberInfo* a2, ::System::Type* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Reflection::MemberInfo*, ::System::Type*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_CANADDMEMBER_OFFSET))(this, owner, memberInfo, memberType);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Reflection::MemberInfo*, ::System::Type*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_CANADDMEMBER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* ReadAllFields(::System::Object* owner)
+		::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* ReadAllFields(::System::Object* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_READALLFIELDS_OFFSET))(this, owner);
+			return ((::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_READALLFIELDS_OFFSET))(this, a1);
 		}
 
-		::System::Object* MakeNewList(::System::Collections::IList* oldValue, ::System::Type* listType, ::System::Int32 arraySize)
+		::System::Object* MakeNewList(::System::Collections::IList* a1, ::System::Type* a2, ::System::Int32 a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Collections::IList*, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_MAKENEWLIST_OFFSET))(this, oldValue, listType, arraySize);
+			return ((::System::Object*(*)(::PVOID, ::System::Collections::IList*, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_MAKENEWLIST_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetArraySize(::System::Object* owner, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* allFields, ::System::Int32 arraySize)
+		::System::Void SetArraySize(::System::Object* a1, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_SETARRAYSIZE_OFFSET))(this, owner, allFields, arraySize);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_SETARRAYSIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteAllFields(::System::Object* realOwner, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* allFields, ::System::Int32 arrayIndex)
+		::System::Void WriteAllFields(::System::Object* a1, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_WRITEALLFIELDS_OFFSET))(this, realOwner, allFields, arrayIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_WRITEALLFIELDS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void InitSkipProperties()
@@ -110,34 +110,34 @@ namespace Hdg
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_INITSKIPPROPERTIES_OFFSET))(this);
 		}
 
-		::System::Void AddDontReadProperties(::System::String* typeName)
+		::System::Void AddDontReadProperties(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_ADDDONTREADPROPERTIES_OFFSET))(this, typeName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_ADDDONTREADPROPERTIES_OFFSET))(this, a1);
 		}
 
-		::System::Void AddSkipForType(::System::String* typeName, ::Il2CppArray<::System::String*>* properties)
+		::System::Void AddSkipForType(::System::String* a1, ::Il2CppArray<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_ADDSKIPFORTYPE_OFFSET))(this, typeName, properties);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_ADDSKIPFORTYPE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddIncludeForType(::System::String* typeName, ::Il2CppArray<::System::String*>* properties)
+		::System::Void AddIncludeForType(::System::String* a1, ::Il2CppArray<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_ADDINCLUDEFORTYPE_OFFSET))(this, typeName, properties);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_ADDINCLUDEFORTYPE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean HasIncludePerType(::System::String* ownerTypeName)
+		::System::Boolean HasIncludePerType(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_HASINCLUDEPERTYPE_OFFSET))(this, ownerTypeName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_HASINCLUDEPERTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IncludeMember(::System::String* ownerTypeName, ::System::String* memberInfoName)
+		::System::Boolean IncludeMember(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_INCLUDEMEMBER_OFFSET))(this, ownerTypeName, memberInfoName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_INCLUDEMEMBER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean SkipMember(::System::String* ownerTypeName, ::System::String* memberInfoName)
+		::System::Boolean SkipMember(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_SKIPMEMBER_OFFSET))(this, ownerTypeName, memberInfoName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERREGISTRY_SKIPMEMBER_OFFSET))(this, a1, a2);
 		}
 	};
 }

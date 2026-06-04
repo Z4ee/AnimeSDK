@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetBillboardInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F542EA02DA049DB0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE636AB0)
-#define CLASS_3_F542EA02DA049DB0__CTOR_OFFSET UNITYSDK_OFFSET(0xE636A80)
+#define CLASS_3_F542EA02DA049DB0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC30C50)
+#define CLASS_3_F542EA02DA049DB0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC30C20)
 
-inline static constexpr unsigned int Class_3_F542EA02DA049DB0_TypeDefinitionIndex = 53956;
+inline static constexpr unsigned int Class_3_F542EA02DA049DB0_TypeDefinitionIndex = 54681;
 
 class Class_3_F542EA02DA049DB0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBillboardInfo*>
 {

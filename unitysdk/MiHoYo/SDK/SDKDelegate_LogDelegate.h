@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17648890)
-#define MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x176488C0)
-#define MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17648340)
-#define MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17648320)
+#define MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x184207B0)
+#define MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x184207E0)
+#define MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x184207A0)
+#define MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18420730)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_LogDelegate_TypeDefinitionIndex = 6823;
+	inline static constexpr unsigned int SDKDelegate_LogDelegate_TypeDefinitionIndex = 7726;
 
 	class SDKDelegate_LogDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::String* message)
+		::System::Void Invoke(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_INVOKE_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* message, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_BEGININVOKE_OFFSET))(this, message, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_LOGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

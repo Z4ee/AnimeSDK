@@ -6,20 +6,20 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Side_ElfChangeAnimState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B1BEC09B22D6BB2B_METHOD_3_F7300E87EC49A206_OFFSET UNITYSDK_OFFSET(0x11D5B2C0)
-#define CLASS_3_B1BEC09B22D6BB2B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11D5B180)
-#define CLASS_3_B1BEC09B22D6BB2B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11D5B480)
-#define CLASS_3_B1BEC09B22D6BB2B_TICK_OFFSET UNITYSDK_OFFSET(0x11D5B220)
-#define CLASS_3_B1BEC09B22D6BB2B__CTOR_OFFSET UNITYSDK_OFFSET(0x11D5B150)
-#define CLASS_3_B1BEC09B22D6BB2B___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x11D5B4D0)
+#define CLASS_3_B1BEC09B22D6BB2B_METHOD_3_F7300E87EC49A206_OFFSET UNITYSDK_OFFSET(0x138E1970)
+#define CLASS_3_B1BEC09B22D6BB2B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x138E1830)
+#define CLASS_3_B1BEC09B22D6BB2B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x138E1B30)
+#define CLASS_3_B1BEC09B22D6BB2B_TICK_OFFSET UNITYSDK_OFFSET(0x138E18D0)
+#define CLASS_3_B1BEC09B22D6BB2B__CTOR_OFFSET UNITYSDK_OFFSET(0x138E1800)
+#define CLASS_3_B1BEC09B22D6BB2B___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x138E1B80)
 
-inline static constexpr unsigned int Class_3_B1BEC09B22D6BB2B_TypeDefinitionIndex = 48166;
+inline static constexpr unsigned int Class_3_B1BEC09B22D6BB2B_TypeDefinitionIndex = 48790;
 
 class Class_3_B1BEC09B22D6BB2B : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Side_ElfChangeAnimState*>
 {
 public:
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_1; // 0x28
-	::System::Single Field_3_0; // 0x30
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_0; // 0x28
+	::System::Single Field_3_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Side_ElfChangeAnimState* a2)
 	{
@@ -46,8 +46,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_B1BEC09B22D6BB2B_METHOD_3_F7300E87EC49A206_OFFSET))(this);
 	}
 
-	::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_B1BEC09B22D6BB2B___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_B1BEC09B22D6BB2B___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 	}
 };

@@ -5,12 +5,12 @@
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D3A440)
-#define MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0__REQUESTWATERMARKDATA_B__0_OFFSET UNITYSDK_OFFSET(0x8D3A690)
+#define MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA18DDF0)
+#define MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0__REQUESTWATERMARKDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA18E040)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDK___c__DisplayClass25_0_TypeDefinitionIndex = 42869;
+	inline static constexpr unsigned int MiHoYoSDK___c__DisplayClass25_0_TypeDefinitionIndex = 43672;
 
 	class MiHoYoSDK___c__DisplayClass25_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RequestWatermarkData_b__0(::System::Int32 code, ::UnityEngine::Texture2D* texture)
+		::System::Void _RequestWatermarkData_b__0(::System::Int32 a1, ::UnityEngine::Texture2D* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0__REQUESTWATERMARKDATA_B__0_OFFSET))(this, code, texture);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0__REQUESTWATERMARKDATA_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

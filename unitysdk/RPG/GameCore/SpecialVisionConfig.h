@@ -7,12 +7,12 @@ namespace RPG::GameCore { class PuppySearchPropData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SPECIALVISIONCONFIG_METHOD_2_623ECE89A0E2435B_OFFSET UNITYSDK_OFFSET(0x18E84530)
-#define RPG_GAMECORE_SPECIALVISIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E848A0)
+#define RPG_GAMECORE_SPECIALVISIONCONFIG_METHOD_2_CA78A002337EB670_OFFSET UNITYSDK_OFFSET(0x19C9F8E0)
+#define RPG_GAMECORE_SPECIALVISIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C9FC50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialVisionConfig_TypeDefinitionIndex = 16688;
+	inline static constexpr unsigned int SpecialVisionConfig_TypeDefinitionIndex = 16714;
 
 	class SpecialVisionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALVISIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_623ECE89A0E2435B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SpecialVisionConfig*& a2)
+		static ::System::Void Method_2_CA78A002337EB670(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SpecialVisionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SpecialVisionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALVISIONCONFIG_METHOD_2_623ECE89A0E2435B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SpecialVisionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALVISIONCONFIG_METHOD_2_CA78A002337EB670_OFFSET))(a1, a2);
 		}
 	};
 }

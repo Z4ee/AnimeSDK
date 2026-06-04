@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_BINDINGS_NATIVETHROWSATTRIBUTE_SET_THROWSEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1A4F3760)
-#define UNITYENGINE_BINDINGS_NATIVETHROWSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F3770)
+#define UNITYENGINE_BINDINGS_NATIVETHROWSATTRIBUTE_SET_THROWSEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1B3405E0)
+#define UNITYENGINE_BINDINGS_NATIVETHROWSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3405F0)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int NativeThrowsAttribute_TypeDefinitionIndex = 3716;
+	inline static constexpr unsigned int NativeThrowsAttribute_TypeDefinitionIndex = 3723;
 
 	class NativeThrowsAttribute : public ::System::Attribute
 	{
@@ -19,9 +19,9 @@ namespace UnityEngine::Bindings
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETHROWSATTRIBUTE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_ThrowsException(::System::Boolean value)
+		::System::Void set_ThrowsException(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETHROWSATTRIBUTE_SET_THROWSEXCEPTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETHROWSATTRIBUTE_SET_THROWSEXCEPTION_OFFSET))(this, a1);
 		}
 	};
 }

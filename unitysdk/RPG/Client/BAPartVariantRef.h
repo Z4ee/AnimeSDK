@@ -8,11 +8,11 @@ namespace RPG::Client { class IAssetOperation; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_BAPARTVARIANTREF__CTOR_OFFSET UNITYSDK_OFFSET(0x9DC27D0)
+#define RPG_CLIENT_BAPARTVARIANTREF__CTOR_OFFSET UNITYSDK_OFFSET(0xB39B0D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BAPartVariantRef_TypeDefinitionIndex = 64063;
+	inline static constexpr unsigned int BAPartVariantRef_TypeDefinitionIndex = 64984;
 
 	class BAPartVariantRef : public ::System::Object
 	{

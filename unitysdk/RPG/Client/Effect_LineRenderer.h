@@ -3,25 +3,25 @@
 #include "unitysdk/RPG/Client/Effect_LineRenderer_PointAttr.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_0B9D3A1C4F84514C;
+class Class_2_83A4037BA4BD389C;
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_EFFECT_LINERENDERER_LATETICK_OFFSET UNITYSDK_OFFSET(0xA1DC440)
-#define RPG_CLIENT_EFFECT_LINERENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA1DC4B0)
-#define RPG_CLIENT_EFFECT_LINERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xA1DC3B0)
-#define RPG_CLIENT_EFFECT_LINERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA1DC2E0)
-#define RPG_CLIENT_EFFECT_LINERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xA1DC500)
+#define RPG_CLIENT_EFFECT_LINERENDERER_LATETICK_OFFSET UNITYSDK_OFFSET(0xB85ED00)
+#define RPG_CLIENT_EFFECT_LINERENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB85ED70)
+#define RPG_CLIENT_EFFECT_LINERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB85EC70)
+#define RPG_CLIENT_EFFECT_LINERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB85EBA0)
+#define RPG_CLIENT_EFFECT_LINERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xB85EDC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_LineRenderer_TypeDefinitionIndex = 64988;
+	inline static constexpr unsigned int Effect_LineRenderer_TypeDefinitionIndex = 65914;
 
 	class Effect_LineRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Il2CppArray<::RPG::Client::Effect_LineRenderer_PointAttr>* PointAttrs; // 0x18
 		::UnityEngine::LineRenderer* LineRenderer; // 0x20
-		::Class_2_0B9D3A1C4F84514C* Field_5_2; // 0x28
+		::Class_2_83A4037BA4BD389C* Field_5_2; // 0x28
 
 		::System::Void _ctor()
 		{

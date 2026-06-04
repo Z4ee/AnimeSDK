@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6D8520)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6D84D0)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_GET_NEWSTEP_OFFSET UNITYSDK_OFFSET(0xB6D8590)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_GET_OLDSTEP_OFFSET UNITYSDK_OFFSET(0xB6D8570)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_INIT_OFFSET UNITYSDK_OFFSET(0xB6D8470)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_SET_NEWSTEP_OFFSET UNITYSDK_OFFSET(0xB6D85A0)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_SET_OLDSTEP_OFFSET UNITYSDK_OFFSET(0xB6D8580)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D85B0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE46450)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE46400)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_GET_NEWSTEP_OFFSET UNITYSDK_OFFSET(0xCE464C0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_GET_OLDSTEP_OFFSET UNITYSDK_OFFSET(0xCE464A0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_INIT_OFFSET UNITYSDK_OFFSET(0xCE463A0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_SET_NEWSTEP_OFFSET UNITYSDK_OFFSET(0xCE464D0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_SET_OLDSTEP_OFFSET UNITYSDK_OFFSET(0xCE464B0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP__CTOR_OFFSET UNITYSDK_OFFSET(0xCE464E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEvolveBuildExpStepUp_TypeDefinitionIndex = 52375;
+	inline static constexpr unsigned int LevelEvolveBuildExpStepUp_TypeDefinitionIndex = 53072;
 
-	class LevelEvolveBuildExpStepUp : public ::Class_1_9988289E7F8AA214
+	class LevelEvolveBuildExpStepUp : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::System::UInt32 _OldStep_k__BackingField; // 0x18
-		::System::UInt32 _NewStep_k__BackingField; // 0x1C
+		::System::UInt32 _NewStep_k__BackingField; // 0x18
+		::System::UInt32 _OldStep_k__BackingField; // 0x1C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelEvolveBuildExpStepUp* Init(::System::UInt32 oldStep, ::System::UInt32 newStep)
+		::RPG::GameCore::LevelEvolveBuildExpStepUp* Init(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::GameCore::LevelEvolveBuildExpStepUp*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_INIT_OFFSET))(this, oldStep, newStep);
+			return ((::RPG::GameCore::LevelEvolveBuildExpStepUp*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -47,9 +47,9 @@ namespace RPG::GameCore
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_GET_OLDSTEP_OFFSET))(this);
 		}
 
-		::System::Void set_OldStep(::System::UInt32 value)
+		::System::Void set_OldStep(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_SET_OLDSTEP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_SET_OLDSTEP_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_NewStep()
@@ -57,9 +57,9 @@ namespace RPG::GameCore
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_GET_NEWSTEP_OFFSET))(this);
 		}
 
-		::System::Void set_NewStep(::System::UInt32 value)
+		::System::Void set_NewStep(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_SET_NEWSTEP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDEXPSTEPUP_SET_NEWSTEP_OFFSET))(this, a1);
 		}
 	};
 }

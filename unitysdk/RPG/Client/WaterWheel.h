@@ -3,23 +3,23 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_C912BC3E32A3F64B;
+class Class_2_911FE722F91DCE30;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_WATERWHEEL_DEBUGINIT_OFFSET UNITYSDK_OFFSET(0xB4C6980)
-#define RPG_CLIENT_WATERWHEEL_DEBUG_STARTBUTTONTO_OFFSET UNITYSDK_OFFSET(0xB4C6A70)
-#define RPG_CLIENT_WATERWHEEL_DEBUG_STARTBUTTON_OFFSET UNITYSDK_OFFSET(0xB4C6A00)
-#define RPG_CLIENT_WATERWHEEL_DEBUG_STOPBUTTON_OFFSET UNITYSDK_OFFSET(0xB4C6AE0)
-#define RPG_CLIENT_WATERWHEEL_ONARTLOAD_OFFSET UNITYSDK_OFFSET(0xB4C6B40)
-#define RPG_CLIENT_WATERWHEEL_ONARTUNLOAD_OFFSET UNITYSDK_OFFSET(0xB4C6B90)
-#define RPG_CLIENT_WATERWHEEL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB4C6BE0)
-#define RPG_CLIENT_WATERWHEEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB4C6C30)
+#define RPG_CLIENT_WATERWHEEL_DEBUGINIT_OFFSET UNITYSDK_OFFSET(0xCC2CD00)
+#define RPG_CLIENT_WATERWHEEL_DEBUG_STARTBUTTONTO_OFFSET UNITYSDK_OFFSET(0xCC2CDF0)
+#define RPG_CLIENT_WATERWHEEL_DEBUG_STARTBUTTON_OFFSET UNITYSDK_OFFSET(0xCC2CD80)
+#define RPG_CLIENT_WATERWHEEL_DEBUG_STOPBUTTON_OFFSET UNITYSDK_OFFSET(0xCC2CE60)
+#define RPG_CLIENT_WATERWHEEL_ONARTLOAD_OFFSET UNITYSDK_OFFSET(0xCC2CEC0)
+#define RPG_CLIENT_WATERWHEEL_ONARTUNLOAD_OFFSET UNITYSDK_OFFSET(0xCC2CF10)
+#define RPG_CLIENT_WATERWHEEL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCC2CF60)
+#define RPG_CLIENT_WATERWHEEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCC2CFB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WaterWheel_TypeDefinitionIndex = 63450;
+	inline static constexpr unsigned int WaterWheel_TypeDefinitionIndex = 64367;
 
 	class WaterWheel : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,7 +33,7 @@ namespace RPG::Client
 		::UnityEngine::AnimationCurve* StartRotateAcc; // 0x48
 		::UnityEngine::AnimationCurve* StopRotateAcc; // 0x50
 		::UnityEngine::Vector3 RotateDirection; // 0x58
-		::Class_2_C912BC3E32A3F64B* Field_5_9; // 0x68
+		::Class_2_911FE722F91DCE30* Field_5_9; // 0x68
 
 		::System::Void _ctor()
 		{
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WATERWHEEL_DEBUG_STOPBUTTON_OFFSET))(this);
 		}
 
-		::System::Void OnArtLoad(::Class_2_C912BC3E32A3F64B* a1)
+		::System::Void OnArtLoad(::Class_2_911FE722F91DCE30* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_C912BC3E32A3F64B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WATERWHEEL_ONARTLOAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_2_911FE722F91DCE30*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WATERWHEEL_ONARTLOAD_OFFSET))(this, a1);
 		}
 
 		::System::Void OnArtUnload()

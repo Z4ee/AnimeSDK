@@ -7,12 +7,12 @@ namespace RPG::GameCore { class MiniEmoEffectOverride; }
 namespace RPGTools::Timeline::VFX { class MiniEmotionClip_MiniEmoEffectNode; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_MINIEMOTIONOVERRIDE_METHOD_1_662DC3C7EAAAA05A_OFFSET UNITYSDK_OFFSET(0xB92A270)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_MINIEMOTIONOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0xB92A590)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_MINIEMOTIONOVERRIDE_METHOD_1_EAB5A57E7A0CDC36_OFFSET UNITYSDK_OFFSET(0xD069A60)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_MINIEMOTIONOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0xD069D30)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int MiniEmotionClip_MiniEmotionOverride_TypeDefinitionIndex = 45371;
+	inline static constexpr unsigned int MiniEmotionClip_MiniEmotionOverride_TypeDefinitionIndex = 45928;
 
 	class MiniEmotionClip_MiniEmotionOverride : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace RPGTools::Timeline::VFX
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_MINIEMOTIONOVERRIDE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::MiniEmoEffectOverride* Method_1_662DC3C7EAAAA05A()
+		::RPG::GameCore::MiniEmoEffectOverride* Method_1_EAB5A57E7A0CDC36()
 		{
-			return ((::RPG::GameCore::MiniEmoEffectOverride*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_MINIEMOTIONOVERRIDE_METHOD_1_662DC3C7EAAAA05A_OFFSET))(this);
+			return ((::RPG::GameCore::MiniEmoEffectOverride*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_MINIEMOTIONOVERRIDE_METHOD_1_EAB5A57E7A0CDC36_OFFSET))(this);
 		}
 	};
 }

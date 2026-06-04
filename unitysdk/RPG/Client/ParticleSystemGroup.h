@@ -6,21 +6,21 @@ namespace RPG::Client { class ParticleSystemChildGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_ADDCHILDGROUP_OFFSET UNITYSDK_OFFSET(0xAC3F0F0)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_GET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0xAC3F260)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAC3FC60)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_REMOVECHILDGROUP_OFFSET UNITYSDK_OFFSET(0xAC3F060)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARENTALPHA_OFFSET UNITYSDK_OFFSET(0xAC3E990)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARTICLECOLORALPHA_OFFSET UNITYSDK_OFFSET(0xAC3E900)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_START_OFFSET UNITYSDK_OFFSET(0xAC3F2B0)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP_UPDATE_OFFSET UNITYSDK_OFFSET(0xAC3FB50)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xAC3FD00)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP__INIT_OFFSET UNITYSDK_OFFSET(0xAC3F300)
-#define RPG_CLIENT_PARTICLESYSTEMGROUP__ONALPHACHANGE_OFFSET UNITYSDK_OFFSET(0xAC3F7A0)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_ADDCHILDGROUP_OFFSET UNITYSDK_OFFSET(0xC34EDA0)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_GET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0xC34EF60)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC34FA00)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_REMOVECHILDGROUP_OFFSET UNITYSDK_OFFSET(0xC34ED10)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARENTALPHA_OFFSET UNITYSDK_OFFSET(0xC34E5A0)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARTICLECOLORALPHA_OFFSET UNITYSDK_OFFSET(0xC34E510)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_START_OFFSET UNITYSDK_OFFSET(0xC34EFB0)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP_UPDATE_OFFSET UNITYSDK_OFFSET(0xC34F8F0)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xC34FAB0)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP__INIT_OFFSET UNITYSDK_OFFSET(0xC34F000)
+#define RPG_CLIENT_PARTICLESYSTEMGROUP__ONALPHACHANGE_OFFSET UNITYSDK_OFFSET(0xC34F540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParticleSystemGroup_TypeDefinitionIndex = 63616;
+	inline static constexpr unsigned int ParticleSystemGroup_TypeDefinitionIndex = 64536;
 
 	class ParticleSystemGroup : public ::UnityEngine::MonoBehaviour
 	{
@@ -39,24 +39,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetParentAlpha(::System::Single parentAlpha)
+		::System::Void SetParentAlpha(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARENTALPHA_OFFSET))(this, parentAlpha);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARENTALPHA_OFFSET))(this, a1);
 		}
 
-		::System::Void AddChildGroup(::RPG::Client::ParticleSystemChildGroup* childGroup)
+		::System::Void AddChildGroup(::RPG::Client::ParticleSystemChildGroup* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParticleSystemChildGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP_ADDCHILDGROUP_OFFSET))(this, childGroup);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParticleSystemChildGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP_ADDCHILDGROUP_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveChildGroup(::RPG::Client::ParticleSystemChildGroup* childGroup)
+		::System::Void RemoveChildGroup(::RPG::Client::ParticleSystemChildGroup* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParticleSystemChildGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP_REMOVECHILDGROUP_OFFSET))(this, childGroup);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParticleSystemChildGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP_REMOVECHILDGROUP_OFFSET))(this, a1);
 		}
 
-		static ::System::Void SetParticleColorAlpha(::UnityEngine::ParticleSystemRenderer* render, ::System::Single alpha)
+		static ::System::Void SetParticleColorAlpha(::UnityEngine::ParticleSystemRenderer* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::ParticleSystemRenderer*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARTICLECOLORALPHA_OFFSET))(render, alpha);
+			return ((::System::Void(*)(::UnityEngine::ParticleSystemRenderer*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTICLESYSTEMGROUP_SETPARTICLECOLORALPHA_OFFSET))(a1, a2);
 		}
 
 		::System::Void Start()

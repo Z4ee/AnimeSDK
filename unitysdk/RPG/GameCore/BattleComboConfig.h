@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLECOMBOCONFIG_METHOD_2_35D47B2A06BFB9EC_OFFSET UNITYSDK_OFFSET(0x186F1B00)
-#define RPG_GAMECORE_BATTLECOMBOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186F2000)
+#define RPG_GAMECORE_BATTLECOMBOCONFIG_METHOD_2_1D062C20384514FA_OFFSET UNITYSDK_OFFSET(0x194C5300)
+#define RPG_GAMECORE_BATTLECOMBOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194C57C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleComboConfig_TypeDefinitionIndex = 16202;
+	inline static constexpr unsigned int BattleComboConfig_TypeDefinitionIndex = 16243;
 
 	class BattleComboConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOMBOCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_35D47B2A06BFB9EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleComboConfig*& a2)
+		static ::System::Void Method_2_1D062C20384514FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleComboConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleComboConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOMBOCONFIG_METHOD_2_35D47B2A06BFB9EC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleComboConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOMBOCONFIG_METHOD_2_1D062C20384514FA_OFFSET))(a1, a2);
 		}
 	};
 }

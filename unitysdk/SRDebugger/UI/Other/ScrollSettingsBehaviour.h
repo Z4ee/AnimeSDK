@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define SRDEBUGGER_UI_OTHER_SCROLLSETTINGSBEHAVIOUR_AWAKE_OFFSET UNITYSDK_OFFSET(0x19E97600)
-#define SRDEBUGGER_UI_OTHER_SCROLLSETTINGSBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19E976C0)
+#define SRDEBUGGER_UI_OTHER_SCROLLSETTINGSBEHAVIOUR_AWAKE_OFFSET UNITYSDK_OFFSET(0x1AD0D300)
+#define SRDEBUGGER_UI_OTHER_SCROLLSETTINGSBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0D3C0)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int ScrollSettingsBehaviour_TypeDefinitionIndex = 35382;
+	inline static constexpr unsigned int ScrollSettingsBehaviour_TypeDefinitionIndex = 35682;
 
 	class ScrollSettingsBehaviour : public ::UnityEngine::MonoBehaviour
 	{

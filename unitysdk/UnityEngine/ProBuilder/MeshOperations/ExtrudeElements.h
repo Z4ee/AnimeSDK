@@ -13,60 +13,60 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_DETACHFACES_1_OFFSET UNITYSDK_OFFSET(0x1A288B70)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_DETACHFACES_OFFSET UNITYSDK_OFFSET(0x1A288B60)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDEASGROUPS_OFFSET UNITYSDK_OFFSET(0x1A2819B0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDEPERFACE_OFFSET UNITYSDK_OFFSET(0x1A27FCA0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDE_1_OFFSET UNITYSDK_OFFSET(0x1A287570)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDE_OFFSET UNITYSDK_OFFSET(0x1A25A6A0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_GETFACEGROUPS_OFFSET UNITYSDK_OFFSET(0x1A289840)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_GETPERIMETEREDGES_OFFSET UNITYSDK_OFFSET(0x1A289D60)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_DETACHFACES_1_OFFSET UNITYSDK_OFFSET(0x1B0EC0A0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_DETACHFACES_OFFSET UNITYSDK_OFFSET(0x1B0EC090)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDEASGROUPS_OFFSET UNITYSDK_OFFSET(0x1B0E65C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDEPERFACE_OFFSET UNITYSDK_OFFSET(0x1B0E4E10)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDE_1_OFFSET UNITYSDK_OFFSET(0x1B0EAA90)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDE_OFFSET UNITYSDK_OFFSET(0x1B0BE310)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_GETFACEGROUPS_OFFSET UNITYSDK_OFFSET(0x1B0ECB50)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_GETPERIMETEREDGES_OFFSET UNITYSDK_OFFSET(0x1B0ED0B0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int ExtrudeElements_TypeDefinitionIndex = 40052;
+	inline static constexpr unsigned int ExtrudeElements_TypeDefinitionIndex = 40879;
 
 	class ExtrudeElements : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* Extrude(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::UnityEngine::ProBuilder::ExtrudeMethod method, ::System::Single distance)
+		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* Extrude(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2, ::UnityEngine::ProBuilder::ExtrudeMethod a3, ::System::Single a4)
 		{
-			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::UnityEngine::ProBuilder::ExtrudeMethod, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDE_OFFSET))(mesh, faces, method, distance);
+			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::UnityEngine::ProBuilder::ExtrudeMethod, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Il2CppArray<::UnityEngine::ProBuilder::Edge>* Extrude_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::System::Single distance, ::System::Boolean extrudeAsGroup, ::System::Boolean enableManifoldExtrude)
+		static ::Il2CppArray<::UnityEngine::ProBuilder::Edge>* Extrude_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* a2, ::System::Single a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::Il2CppArray<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDE_1_OFFSET))(mesh, edges, distance, extrudeAsGroup, enableManifoldExtrude);
+			return ((::Il2CppArray<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDE_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* DetachFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* DetachFaces(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_DETACHFACES_OFFSET))(mesh, faces);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_DETACHFACES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* DetachFaces_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Boolean deleteSourceFaces)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* DetachFaces_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_DETACHFACES_1_OFFSET))(mesh, faces, deleteSourceFaces);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_DETACHFACES_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* ExtrudePerFace(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Single distance)
+		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* ExtrudePerFace(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2, ::System::Single a3)
 		{
-			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDEPERFACE_OFFSET))(pb, faces, distance);
+			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDEPERFACE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* ExtrudeAsGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Boolean compensateAngleVertexDistance, ::System::Single distance)
+		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* ExtrudeAsGroups(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2, ::System::Boolean a3, ::System::Single a4)
 		{
-			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDEASGROUPS_OFFSET))(mesh, faces, compensateAngleVertexDistance, distance);
+			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_EXTRUDEASGROUPS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>* GetFaceGroups(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings)
+		static ::System::Collections::Generic::List_1<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>* GetFaceGroups(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_GETFACEGROUPS_OFFSET))(wings);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_GETFACEGROUPS_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Face*>* GetPerimeterEdges(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* lookup)
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Face*>* GetPerimeterEdges(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* a1, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a2)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Face*>*(*)(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_GETPERIMETEREDGES_OFFSET))(faces, lookup);
+			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Face*>*(*)(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS_GETPERIMETEREDGES_OFFSET))(a1, a2);
 		}
 	};
 }

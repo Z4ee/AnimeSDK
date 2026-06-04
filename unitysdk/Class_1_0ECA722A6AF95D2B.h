@@ -6,19 +6,19 @@
 namespace RPGTools::Timeline { class LifeCycleEventArgument; }
 namespace System { class String; }
 
-#define CLASS_1_0ECA722A6AF95D2B_METHOD_1_C9823790D19BABA2_OFFSET UNITYSDK_OFFSET(0x1189FEA0)
-#define CLASS_1_0ECA722A6AF95D2B_METHOD_1_E9FCF388D6AA24B1_OFFSET UNITYSDK_OFFSET(0x1189FD80)
-#define CLASS_1_0ECA722A6AF95D2B__CTOR_OFFSET UNITYSDK_OFFSET(0x118A00D0)
+#define CLASS_1_0ECA722A6AF95D2B_METHOD_1_C9823790D19BABA2_OFFSET UNITYSDK_OFFSET(0xAC1E2E0)
+#define CLASS_1_0ECA722A6AF95D2B_METHOD_1_E9FCF388D6AA24B1_OFFSET UNITYSDK_OFFSET(0xAC1E1C0)
+#define CLASS_1_0ECA722A6AF95D2B__CTOR_OFFSET UNITYSDK_OFFSET(0xAC1E460)
 
-inline static constexpr unsigned int Class_1_0ECA722A6AF95D2B_TypeDefinitionIndex = 44897;
+inline static constexpr unsigned int Class_1_0ECA722A6AF95D2B_TypeDefinitionIndex = 45445;
 
 class Class_1_0ECA722A6AF95D2B : public ::System::Object
 {
 public:
-	::System::String* Field_1_1; // 0x10
-	::UnityEngine::Color Field_1_0; // 0x18
-	::UnityEngine::Color Field_1_3; // 0x28
-	::System::Single Field_1_2; // 0x38
+	::System::String* Field_1_0; // 0x10
+	::UnityEngine::Color Field_1_1; // 0x18
+	::UnityEngine::Color Field_1_2; // 0x28
+	::System::Single Field_1_3; // 0x38
 
 	::System::Void _ctor()
 	{

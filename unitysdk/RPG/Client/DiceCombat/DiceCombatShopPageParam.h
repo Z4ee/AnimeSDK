@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xA128830)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_GET_SHOPITEMID_OFFSET UNITYSDK_OFFSET(0xA137D90)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_SET_SHOPITEMID_OFFSET UNITYSDK_OFFSET(0xA137DA0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA137D80)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xB7A60B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_GET_SHOPITEMID_OFFSET UNITYSDK_OFFSET(0xB7B3800)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_SET_SHOPITEMID_OFFSET UNITYSDK_OFFSET(0xB7B3810)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB7B37F0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatShopPageParam_TypeDefinitionIndex = 69890;
+	inline static constexpr unsigned int DiceCombatShopPageParam_TypeDefinitionIndex = 70702;
 
 	class DiceCombatShopPageParam : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatShopPageParam* Create(::System::UInt32 shopItemID)
+		static ::RPG::Client::DiceCombat::DiceCombatShopPageParam* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatShopPageParam*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_CREATE_OFFSET))(shopItemID);
+			return ((::RPG::Client::DiceCombat::DiceCombatShopPageParam*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_CREATE_OFFSET))(a1);
 		}
 
 		::System::UInt32 get_ShopItemID()
@@ -31,9 +31,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_GET_SHOPITEMID_OFFSET))(this);
 		}
 
-		::System::Void set_ShopItemID(::System::UInt32 value)
+		::System::Void set_ShopItemID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_SET_SHOPITEMID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSHOPPAGEPARAM_SET_SHOPITEMID_OFFSET))(this, a1);
 		}
 	};
 }

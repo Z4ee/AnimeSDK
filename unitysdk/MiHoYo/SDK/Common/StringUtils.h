@@ -4,44 +4,44 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_COMMON_STRINGUTILS_GENERATEHIGHTTEXT_OFFSET UNITYSDK_OFFSET(0x173FACB0)
-#define MIHOYO_SDK_COMMON_STRINGUTILS_GETCOLOREDTEXT_OFFSET UNITYSDK_OFFSET(0x173FABF0)
-#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATNOTCSHARPSTANDARDSTRING_OFFSET UNITYSDK_OFFSET(0x173D3990)
-#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATSTRING_OFFSET UNITYSDK_OFFSET(0x173FAA00)
-#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMAT_OFFSET UNITYSDK_OFFSET(0x173FAB00)
+#define MIHOYO_SDK_COMMON_STRINGUTILS_GENERATEHIGHTTEXT_OFFSET UNITYSDK_OFFSET(0x181FEEC0)
+#define MIHOYO_SDK_COMMON_STRINGUTILS_GETCOLOREDTEXT_OFFSET UNITYSDK_OFFSET(0x181FEE10)
+#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATNOTCSHARPSTANDARDSTRING_OFFSET UNITYSDK_OFFSET(0x181DD5D0)
+#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATSTRING_OFFSET UNITYSDK_OFFSET(0x181FED60)
+#define MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMAT_OFFSET UNITYSDK_OFFSET(0x181FEDC0)
 
 namespace MiHoYo::SDK::Common
 {
-	inline static constexpr unsigned int StringUtils_TypeDefinitionIndex = 7584;
+	inline static constexpr unsigned int StringUtils_TypeDefinitionIndex = 8487;
 
 	class StringUtils : public ::System::Object
 	{
 	public:
 		// static const ::System::String* LOG_EVENT_STRING_FORMAT_FAILED; // 0x0
 
-		static ::System::String* SafeFormatString(::System::String* format, ::Il2CppArray<::System::Object*>* args)
+		static ::System::String* SafeFormatString(::System::String* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATSTRING_OFFSET))(format, args);
+			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATSTRING_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* SafeFormatNotCSharpStandardString(::System::String* format, ::Il2CppArray<::System::Object*>* args)
+		static ::System::String* SafeFormatNotCSharpStandardString(::System::String* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATNOTCSHARPSTANDARDSTRING_OFFSET))(format, args);
+			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMATNOTCSHARPSTANDARDSTRING_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* SafeFormat(::System::String* this_, ::Il2CppArray<::System::Object*>* args)
+		static ::System::String* SafeFormat(::System::String* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMAT_OFFSET))(this_, args);
+			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_SAFEFORMAT_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GetColoredText(::System::String* content, ::System::String* highlightColor, ::System::String* highlightText)
+		static ::System::String* GetColoredText(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_GETCOLOREDTEXT_OFFSET))(content, highlightColor, highlightText);
+			return ((::System::String*(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_GETCOLOREDTEXT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* GenerateHightText(::System::String* color, ::System::String* text)
+		static ::System::String* GenerateHightText(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_GENERATEHIGHTTEXT_OFFSET))(color, text);
+			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS_GENERATEHIGHTTEXT_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_GLOBALAISACINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1624630)
+#define CRIWARE_CRIATOMEXACF_GLOBALAISACINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD4800)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_GlobalAisacInfo_TypeDefinitionIndex = 36776;
+	inline static constexpr unsigned int CriAtomExAcf_GlobalAisacInfo_TypeDefinitionIndex = 37076;
 
 	struct alignas(8) CriAtomExAcf_GlobalAisacInfo
 	{
@@ -21,9 +21,9 @@ namespace CriWare
 		::System::UInt16 controlId; // 0x24
 		::System::UInt16 dummy; // 0x26
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* data, ::System::Int32 startIndex)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_GLOBALAISACINFO__CTOR_OFFSET))(this, data, startIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_GLOBALAISACINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D76E60)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D77530)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BCA960)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BCAFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournHexAvatarBaseTypeRow_TypeDefinitionIndex = 14238;
+	inline static constexpr unsigned int RogueTournHexAvatarBaseTypeRow_TypeDefinitionIndex = 14296;
 
 	class RogueTournHexAvatarBaseTypeRow : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueTournHexAvatarBaseTypeRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournHexAvatarBaseTypeRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournHexAvatarBaseTypeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournHexAvatarBaseTypeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

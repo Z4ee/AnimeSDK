@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION_METHOD_2_895E795674DFAC71_OFFSET UNITYSDK_OFFSET(0x18DC7CF0)
-#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC7E80)
+#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION_METHOD_2_91D730AF9E23B194_OFFSET UNITYSDK_OFFSET(0x19BDE6F0)
+#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19BDE870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBehaviorFlagStateAction_TypeDefinitionIndex = 16746;
+	inline static constexpr unsigned int RtBehaviorFlagStateAction_TypeDefinitionIndex = 16767;
 
 	class RtBehaviorFlagStateAction : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_895E795674DFAC71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBehaviorFlagStateAction*& a2)
+		static ::System::Void Method_2_91D730AF9E23B194(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBehaviorFlagStateAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBehaviorFlagStateAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION_METHOD_2_895E795674DFAC71_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBehaviorFlagStateAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION_METHOD_2_91D730AF9E23B194_OFFSET))(a1, a2);
 		}
 	};
 }

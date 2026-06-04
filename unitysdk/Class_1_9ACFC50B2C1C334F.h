@@ -12,18 +12,18 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_028843B9DDF54DC7_OFFSET UNITYSDK_OFFSET(0x12141D80)
-#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_4F61A262C5DBC828_OFFSET UNITYSDK_OFFSET(0x12142150)
-#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_586D378373F7EE25_OFFSET UNITYSDK_OFFSET(0x12141ED0)
-#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_6BCC7E9D5F311CA2_OFFSET UNITYSDK_OFFSET(0x12142AC0)
-#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_72EDD5F310C65A1E_OFFSET UNITYSDK_OFFSET(0x121428C0)
-#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_93CF1811C2D2AE00_OFFSET UNITYSDK_OFFSET(0x12142730)
-#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_B5F5C5391C31A07F_OFFSET UNITYSDK_OFFSET(0x12141FC0)
-#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_F05B04BEE8B7213B_OFFSET UNITYSDK_OFFSET(0x12142300)
-#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_FCF7450AAD82784A_OFFSET UNITYSDK_OFFSET(0x12142DC0)
-#define CLASS_1_9ACFC50B2C1C334F__CTOR_OFFSET UNITYSDK_OFFSET(0x121430C0)
+#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_028843B9DDF54DC7_OFFSET UNITYSDK_OFFSET(0x13805EA0)
+#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_4F61A262C5DBC828_OFFSET UNITYSDK_OFFSET(0x13806270)
+#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_586D378373F7EE25_OFFSET UNITYSDK_OFFSET(0x13805FF0)
+#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_69362829D077FB2D_OFFSET UNITYSDK_OFFSET(0x13806820)
+#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_72EDD5F310C65A1E_OFFSET UNITYSDK_OFFSET(0x13806A00)
+#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_B5F5C5391C31A07F_OFFSET UNITYSDK_OFFSET(0x138060E0)
+#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_E52E76E9281C1359_OFFSET UNITYSDK_OFFSET(0x13806C00)
+#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_F05B04BEE8B7213B_OFFSET UNITYSDK_OFFSET(0x13806410)
+#define CLASS_1_9ACFC50B2C1C334F_METHOD_1_FCF7450AAD82784A_OFFSET UNITYSDK_OFFSET(0x13806F20)
+#define CLASS_1_9ACFC50B2C1C334F__CTOR_OFFSET UNITYSDK_OFFSET(0x13807240)
 
-inline static constexpr unsigned int Class_1_9ACFC50B2C1C334F_TypeDefinitionIndex = 54439;
+inline static constexpr unsigned int Class_1_9ACFC50B2C1C334F_TypeDefinitionIndex = 55166;
 
 class Class_1_9ACFC50B2C1C334F : public ::System::Object
 {
@@ -58,9 +58,9 @@ public:
 		return ((::System::Single(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_9ACFC50B2C1C334F_METHOD_1_586D378373F7EE25_OFFSET))(a1);
 	}
 
-	static ::System::Single Method_1_6BCC7E9D5F311CA2(::System::Collections::Generic::IDictionary_2<::RPG::GameCore::CombatPowerSource, ::System::Single>* a1)
+	static ::System::Single Method_1_E52E76E9281C1359(::System::Collections::Generic::IDictionary_2<::RPG::GameCore::CombatPowerSource, ::System::Single>* a1)
 	{
-		return ((::System::Single(*)(::System::Collections::Generic::IDictionary_2<::RPG::GameCore::CombatPowerSource, ::System::Single>*))((::PBYTE)hIl2Cpp + CLASS_1_9ACFC50B2C1C334F_METHOD_1_6BCC7E9D5F311CA2_OFFSET))(a1);
+		return ((::System::Single(*)(::System::Collections::Generic::IDictionary_2<::RPG::GameCore::CombatPowerSource, ::System::Single>*))((::PBYTE)hIl2Cpp + CLASS_1_9ACFC50B2C1C334F_METHOD_1_E52E76E9281C1359_OFFSET))(a1);
 	}
 
 	static ::System::UInt32 Method_1_FCF7450AAD82784A(::System::Collections::Generic::IDictionary_2<::RPG::GameCore::CombatPowerSource, ::System::Single>* a1)
@@ -68,9 +68,9 @@ public:
 		return ((::System::UInt32(*)(::System::Collections::Generic::IDictionary_2<::RPG::GameCore::CombatPowerSource, ::System::Single>*))((::PBYTE)hIl2Cpp + CLASS_1_9ACFC50B2C1C334F_METHOD_1_FCF7450AAD82784A_OFFSET))(a1);
 	}
 
-	static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Method_1_93CF1811C2D2AE00(::System::Collections::Generic::List_1<::Class_1_9ACFC50B2C1C334F_Struct_2_E81A211B6662113C_2>* a1)
+	static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Method_1_69362829D077FB2D(::System::Collections::Generic::List_1<::Class_1_9ACFC50B2C1C334F_Struct_2_E81A211B6662113C_2>* a1)
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*(*)(::System::Collections::Generic::List_1<::Class_1_9ACFC50B2C1C334F_Struct_2_E81A211B6662113C_2>*))((::PBYTE)hIl2Cpp + CLASS_1_9ACFC50B2C1C334F_METHOD_1_93CF1811C2D2AE00_OFFSET))(a1);
+		return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*(*)(::System::Collections::Generic::List_1<::Class_1_9ACFC50B2C1C334F_Struct_2_E81A211B6662113C_2>*))((::PBYTE)hIl2Cpp + CLASS_1_9ACFC50B2C1C334F_METHOD_1_69362829D077FB2D_OFFSET))(a1);
 	}
 
 	static ::System::Boolean Method_1_4F61A262C5DBC828(::System::UInt32 a1, ::System::UInt32 a2)

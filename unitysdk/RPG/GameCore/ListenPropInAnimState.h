@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LISTENPROPINANIMSTATE_METHOD_3_6E6BE4B756A8F8FC_OFFSET UNITYSDK_OFFSET(0x18A61030)
-#define RPG_GAMECORE_LISTENPROPINANIMSTATE_METHOD_3_D5D0D62B5C353A41_OFFSET UNITYSDK_OFFSET(0x18A60FB0)
-#define RPG_GAMECORE_LISTENPROPINANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A61000)
+#define RPG_GAMECORE_LISTENPROPINANIMSTATE_METHOD_3_345E849CFE028104_OFFSET UNITYSDK_OFFSET(0x19891E60)
+#define RPG_GAMECORE_LISTENPROPINANIMSTATE_METHOD_3_9193073A0A091483_OFFSET UNITYSDK_OFFSET(0x19891EE0)
+#define RPG_GAMECORE_LISTENPROPINANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19891EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ListenPropInAnimState_TypeDefinitionIndex = 19660;
+	inline static constexpr unsigned int ListenPropInAnimState_TypeDefinitionIndex = 19542;
 
 	class ListenPropInAnimState : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENPROPINANIMSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D5D0D62B5C353A41(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ListenPropInAnimState*& a2)
+		static ::System::Void Method_3_345E849CFE028104(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ListenPropInAnimState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ListenPropInAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENPROPINANIMSTATE_METHOD_3_D5D0D62B5C353A41_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ListenPropInAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENPROPINANIMSTATE_METHOD_3_345E849CFE028104_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6E6BE4B756A8F8FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ListenPropInAnimState* a2)
+		static ::System::Void Method_3_9193073A0A091483(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ListenPropInAnimState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ListenPropInAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENPROPINANIMSTATE_METHOD_3_6E6BE4B756A8F8FC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ListenPropInAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENPROPINANIMSTATE_METHOD_3_9193073A0A091483_OFFSET))(a1, a2);
 		}
 	};
 }

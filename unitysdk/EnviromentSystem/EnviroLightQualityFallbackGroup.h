@@ -10,23 +10,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_26CAE11E3FF3D896_OFFSET UNITYSDK_OFFSET(0xF317F70)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_4B0274957BFBA3A3_OFFSET UNITYSDK_OFFSET(0xF317630)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_793FFA9A76FE6840_OFFSET UNITYSDK_OFFSET(0xF317FE0)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_E83461C42980F950_OFFSET UNITYSDK_OFFSET(0xF316E20)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0xF317C40)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xF316B90)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_3C927B51D2142A24_OFFSET UNITYSDK_OFFSET(0x135A6F50)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_95EAF395E6F95EA4_OFFSET UNITYSDK_OFFSET(0x135A6570)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_BE94804ECFD1BEAC_OFFSET UNITYSDK_OFFSET(0x135A5BA0)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_BF7AAC9B9F3F321A_OFFSET UNITYSDK_OFFSET(0x135A6EF0)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x135A6BC0)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x135A5910)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroLightQualityFallbackGroup_TypeDefinitionIndex = 46219;
+	inline static constexpr unsigned int EnviroLightQualityFallbackGroup_TypeDefinitionIndex = 46802;
 
 	class EnviroLightQualityFallbackGroup : public ::EnviromentSystem::EnviroBoolProperty
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>** StaticGet_PropertyGroupNameDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroLightQualityFallbackGroup_TypeDefinitionIndex)->GetStaticField(0x13140);
+			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroLightQualityFallbackGroup_TypeDefinitionIndex)->GetStaticField(0x45280);
 		}
 		::EnviromentSystem::EnviromentPropertiesID highProperty; // 0x60
 		::EnviromentSystem::EnviromentPropertiesID middleProperty; // 0x64
@@ -44,24 +44,24 @@ namespace EnviromentSystem
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_3_E83461C42980F950(::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* a1)
+		::System::Void Method_3_BE94804ECFD1BEAC(::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_E83461C42980F950_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_BE94804ECFD1BEAC_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_4B0274957BFBA3A3(::System::Single a1)
+		::System::Void Method_3_95EAF395E6F95EA4(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_4B0274957BFBA3A3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_95EAF395E6F95EA4_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_26CAE11E3FF3D896(::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* P0)
+		::System::Void Method_3_BF7AAC9B9F3F321A(::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_26CAE11E3FF3D896_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::EnviromentSystem::EnviroProperty*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_BF7AAC9B9F3F321A_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_793FFA9A76FE6840(::System::Single P0)
+		::System::Void Method_3_3C927B51D2142A24(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_793FFA9A76FE6840_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_3C927B51D2142A24_OFFSET))(this, a1);
 		}
 	};
 }

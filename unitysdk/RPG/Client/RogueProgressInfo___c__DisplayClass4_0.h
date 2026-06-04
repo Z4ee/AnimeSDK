@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class RogueAreaData; }
 
-#define RPG_CLIENT_ROGUEPROGRESSINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB091D70)
-#define RPG_CLIENT_ROGUEPROGRESSINFO___C__DISPLAYCLASS4_0__GETAREADATABYID_B__0_OFFSET UNITYSDK_OFFSET(0xB092380)
-#define RPG_CLIENT_ROGUEPROGRESSINFO___C__DISPLAYCLASS4_0__GETAREADATABYID_B__1_OFFSET UNITYSDK_OFFSET(0xB0923A0)
+#define RPG_CLIENT_ROGUEPROGRESSINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7E2370)
+#define RPG_CLIENT_ROGUEPROGRESSINFO___C__DISPLAYCLASS4_0__GETAREADATABYID_B__0_OFFSET UNITYSDK_OFFSET(0xC7E2A80)
+#define RPG_CLIENT_ROGUEPROGRESSINFO___C__DISPLAYCLASS4_0__GETAREADATABYID_B__1_OFFSET UNITYSDK_OFFSET(0xC7E2AA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueProgressInfo___c__DisplayClass4_0_TypeDefinitionIndex = 62167;
+	inline static constexpr unsigned int RogueProgressInfo___c__DisplayClass4_0_TypeDefinitionIndex = 63100;
 
 	class RogueProgressInfo___c__DisplayClass4_0 : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEPROGRESSINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetAreaDataByID_b__0(::RPG::Client::RogueAreaData* x)
+		::System::Boolean _GetAreaDataByID_b__0(::RPG::Client::RogueAreaData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueAreaData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEPROGRESSINFO___C__DISPLAYCLASS4_0__GETAREADATABYID_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueAreaData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEPROGRESSINFO___C__DISPLAYCLASS4_0__GETAREADATABYID_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetAreaDataByID_b__1(::RPG::Client::RogueAreaData* x)
+		::System::Boolean _GetAreaDataByID_b__1(::RPG::Client::RogueAreaData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueAreaData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEPROGRESSINFO___C__DISPLAYCLASS4_0__GETAREADATABYID_B__1_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueAreaData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEPROGRESSINFO___C__DISPLAYCLASS4_0__GETAREADATABYID_B__1_OFFSET))(this, a1);
 		}
 	};
 }

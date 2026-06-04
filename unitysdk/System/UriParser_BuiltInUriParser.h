@@ -5,7 +5,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_URIPARSER_BUILTINURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B3B20)
+#define SYSTEM_URIPARSER_BUILTINURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B016940)
 
 namespace System
 {
@@ -14,9 +14,9 @@ namespace System
 	class UriParser_BuiltInUriParser : public ::System::UriParser
 	{
 	public:
-		::System::Void _ctor(::System::String* lwrCaseScheme, ::System::Int32 defaultPort, ::System::UriSyntaxFlags syntaxFlags)
+		::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::UriSyntaxFlags a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::UriSyntaxFlags))((::PBYTE)hIl2Cpp + SYSTEM_URIPARSER_BUILTINURIPARSER__CTOR_OFFSET))(this, lwrCaseScheme, defaultPort, syntaxFlags);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::UriSyntaxFlags))((::PBYTE)hIl2Cpp + SYSTEM_URIPARSER_BUILTINURIPARSER__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

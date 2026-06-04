@@ -8,12 +8,12 @@ namespace RPG::GameCore { class TrackNameList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GACHATIMELINECONFIG_METHOD_2_22BB9FD81BDE8B98_OFFSET UNITYSDK_OFFSET(0x189394D0)
-#define RPG_GAMECORE_GACHATIMELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1893BF70)
+#define RPG_GAMECORE_GACHATIMELINECONFIG_METHOD_2_D7F81F5E30576A82_OFFSET UNITYSDK_OFFSET(0x197AE1E0)
+#define RPG_GAMECORE_GACHATIMELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197B0B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaTimelineConfig_TypeDefinitionIndex = 16184;
+	inline static constexpr unsigned int GachaTimelineConfig_TypeDefinitionIndex = 16229;
 
 	class GachaTimelineConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHATIMELINECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_22BB9FD81BDE8B98(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GachaTimelineConfig*& a2)
+		static ::System::Void Method_2_D7F81F5E30576A82(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GachaTimelineConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GachaTimelineConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHATIMELINECONFIG_METHOD_2_22BB9FD81BDE8B98_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GachaTimelineConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHATIMELINECONFIG_METHOD_2_D7F81F5E30576A82_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GravityBallControlMode_TypeDefinitionIndex = 19326;
+	inline static constexpr unsigned int GravityBallControlMode_TypeDefinitionIndex = 23156;
 
 	enum class GravityBallControlMode : ::System::Int32
 	{

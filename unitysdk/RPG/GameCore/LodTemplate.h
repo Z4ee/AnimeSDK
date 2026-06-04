@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LodDetail; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LODTEMPLATE_METHOD_2_99F845AFBFA921C5_OFFSET UNITYSDK_OFFSET(0x18A7B580)
-#define RPG_GAMECORE_LODTEMPLATE_METHOD_2_B6371B90F9686635_OFFSET UNITYSDK_OFFSET(0x18A7B340)
-#define RPG_GAMECORE_LODTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A7B570)
+#define RPG_GAMECORE_LODTEMPLATE_METHOD_2_B6371B90F9686635_OFFSET UNITYSDK_OFFSET(0x198AE760)
+#define RPG_GAMECORE_LODTEMPLATE_METHOD_2_DAD1C3A7A1AA0A49_OFFSET UNITYSDK_OFFSET(0x198AE9C0)
+#define RPG_GAMECORE_LODTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x198AE9B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LodTemplate_TypeDefinitionIndex = 18238;
+	inline static constexpr unsigned int LodTemplate_TypeDefinitionIndex = 18213;
 
 	class LodTemplate : public ::RPG::GameCore::JsonConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LodTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LODTEMPLATE_METHOD_2_B6371B90F9686635_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_99F845AFBFA921C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LodTemplate* a2)
+		static ::System::Void Method_2_DAD1C3A7A1AA0A49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LodTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LodTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LODTEMPLATE_METHOD_2_99F845AFBFA921C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LodTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LODTEMPLATE_METHOD_2_DAD1C3A7A1AA0A49_OFFSET))(a1, a2);
 		}
 	};
 }

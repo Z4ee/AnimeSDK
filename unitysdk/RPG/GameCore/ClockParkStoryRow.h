@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188204F0)
-#define RPG_GAMECORE_CLOCKPARKSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18820C30)
+#define RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19661430)
+#define RPG_GAMECORE_CLOCKPARKSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19661B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkStoryRow_TypeDefinitionIndex = 10681;
+	inline static constexpr unsigned int ClockParkStoryRow_TypeDefinitionIndex = 10737;
 
 	class ClockParkStoryRow : public ::System::Object
 	{
@@ -19,17 +19,17 @@ namespace RPG::GameCore
 		::System::String* ImgPath; // 0x10
 		::System::String* StoryJsonPath; // 0x18
 		::RPG::Client::TextID StoryTitle; // 0x20
-		::RPG::Client::TextID StoryDesc; // 0x30
-		::System::UInt32 StoryID; // 0x40
+		::System::UInt32 StoryID; // 0x30
+		::RPG::Client::TextID StoryDesc; // 0x38
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ClockParkStoryRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkStoryRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkStoryRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkStoryRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

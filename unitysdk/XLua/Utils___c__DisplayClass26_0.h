@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11753110)
-#define XLUA_UTILS___C__DISPLAYCLASS26_0__REGISTERREFLECTIONFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x11756240)
+#define XLUA_UTILS___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1344AFA0)
+#define XLUA_UTILS___C__DISPLAYCLASS26_0__REGISTERREFLECTIONFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x1344DFD0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass26_0_TypeDefinitionIndex = 46460;
+	inline static constexpr unsigned int Utils___c__DisplayClass26_0_TypeDefinitionIndex = 47050;
 
 	class Utils___c__DisplayClass26_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS26_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _RegisterReflectionFunc_b__0(::System::IntPtr L1)
+		::System::Int32 _RegisterReflectionFunc_b__0(::System::IntPtr a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS26_0__REGISTERREFLECTIONFUNC_B__0_OFFSET))(this, L1);
+			return ((::System::Int32(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS26_0__REGISTERREFLECTIONFUNC_B__0_OFFSET))(this, a1);
 		}
 	};
 }

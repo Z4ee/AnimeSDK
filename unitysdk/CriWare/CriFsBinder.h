@@ -6,43 +6,43 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIFSBINDER_BINDCPK_OFFSET UNITYSDK_OFFSET(0x12C03350)
-#define CRIWARE_CRIFSBINDER_BINDDIRECTORY_OFFSET UNITYSDK_OFFSET(0x12C03440)
-#define CRIWARE_CRIFSBINDER_BINDFILESECTION_OFFSET UNITYSDK_OFFSET(0x12C03FF0)
-#define CRIWARE_CRIFSBINDER_BINDFILE_OFFSET UNITYSDK_OFFSET(0x12C03530)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDCPK_OFFSET UNITYSDK_OFFSET(0x12C03D80)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDDIRECTORY_OFFSET UNITYSDK_OFFSET(0x12C03E50)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDFILESECTION_OFFSET UNITYSDK_OFFSET(0x12C04140)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDFILE_OFFSET UNITYSDK_OFFSET(0x12C03F20)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_CREATE_OFFSET UNITYSDK_OFFSET(0x12C03AD0)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_DESTROY_OFFSET UNITYSDK_OFFSET(0x12C03D00)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFOBYID_OFFSET UNITYSDK_OFFSET(0x12C04E10)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFOBYINDEX_OFFSET UNITYSDK_OFFSET(0x12C05220)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFO_OFFSET UNITYSDK_OFFSET(0x12C049C0)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETFILESIZEBYID_OFFSET UNITYSDK_OFFSET(0x12C046C0)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETFILESIZE_OFFSET UNITYSDK_OFFSET(0x12C04560)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x12C04400)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_SETPRIORITY_OFFSET UNITYSDK_OFFSET(0x12C054F0)
-#define CRIWARE_CRIFSBINDER_CRIFSBINDER_UNBIND_OFFSET UNITYSDK_OFFSET(0x12C04380)
-#define CRIWARE_CRIFSBINDER_CRIWAREF02BA103_OFFSET UNITYSDK_OFFSET(0x12C05340)
-#define CRIWARE_CRIFSBINDER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x12C03C40)
-#define CRIWARE_CRIFSBINDER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12C03B50)
-#define CRIWARE_CRIFSBINDER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x12C05580)
-#define CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFOBYINDEX_OFFSET UNITYSDK_OFFSET(0x12C04EA0)
-#define CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFO_1_OFFSET UNITYSDK_OFFSET(0x12C04BB0)
-#define CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFO_OFFSET UNITYSDK_OFFSET(0x12C04750)
-#define CRIWARE_CRIFSBINDER_GETFILESIZE_1_OFFSET UNITYSDK_OFFSET(0x12C04610)
-#define CRIWARE_CRIFSBINDER_GETFILESIZE_OFFSET UNITYSDK_OFFSET(0x12C04490)
-#define CRIWARE_CRIFSBINDER_GETNUMCONTENTSFILES_OFFSET UNITYSDK_OFFSET(0x12C052C0)
-#define CRIWARE_CRIFSBINDER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x12C036A0)
-#define CRIWARE_CRIFSBINDER_GET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x12C05570)
-#define CRIWARE_CRIFSBINDER_SETPRIORITY_OFFSET UNITYSDK_OFFSET(0x12C053C0)
-#define CRIWARE_CRIFSBINDER_UNBIND_OFFSET UNITYSDK_OFFSET(0x12C04260)
-#define CRIWARE_CRIFSBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x12C03840)
+#define CRIWARE_CRIFSBINDER_BINDCPK_OFFSET UNITYSDK_OFFSET(0x146BDE10)
+#define CRIWARE_CRIFSBINDER_BINDDIRECTORY_OFFSET UNITYSDK_OFFSET(0x146BDF00)
+#define CRIWARE_CRIFSBINDER_BINDFILESECTION_OFFSET UNITYSDK_OFFSET(0x146BEAE0)
+#define CRIWARE_CRIFSBINDER_BINDFILE_OFFSET UNITYSDK_OFFSET(0x146BDFF0)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDCPK_OFFSET UNITYSDK_OFFSET(0x146BE870)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDDIRECTORY_OFFSET UNITYSDK_OFFSET(0x146BE940)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDFILESECTION_OFFSET UNITYSDK_OFFSET(0x146BEC30)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDFILE_OFFSET UNITYSDK_OFFSET(0x146BEA10)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_CREATE_OFFSET UNITYSDK_OFFSET(0x146BE5A0)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_DESTROY_OFFSET UNITYSDK_OFFSET(0x146BE7F0)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFOBYID_OFFSET UNITYSDK_OFFSET(0x146BF8F0)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFOBYINDEX_OFFSET UNITYSDK_OFFSET(0x146BFCC0)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFO_OFFSET UNITYSDK_OFFSET(0x146BF4B0)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETFILESIZEBYID_OFFSET UNITYSDK_OFFSET(0x146BF1B0)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETFILESIZE_OFFSET UNITYSDK_OFFSET(0x146BF050)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x146BEEF0)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_SETPRIORITY_OFFSET UNITYSDK_OFFSET(0x146BFF90)
+#define CRIWARE_CRIFSBINDER_CRIFSBINDER_UNBIND_OFFSET UNITYSDK_OFFSET(0x146BEE70)
+#define CRIWARE_CRIFSBINDER_CRIWAREF02BA103_OFFSET UNITYSDK_OFFSET(0x146BFDE0)
+#define CRIWARE_CRIFSBINDER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x146BE730)
+#define CRIWARE_CRIFSBINDER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x146BE620)
+#define CRIWARE_CRIFSBINDER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x146C0020)
+#define CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFOBYINDEX_OFFSET UNITYSDK_OFFSET(0x146BF980)
+#define CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFO_1_OFFSET UNITYSDK_OFFSET(0x146BF6A0)
+#define CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFO_OFFSET UNITYSDK_OFFSET(0x146BF240)
+#define CRIWARE_CRIFSBINDER_GETFILESIZE_1_OFFSET UNITYSDK_OFFSET(0x146BF100)
+#define CRIWARE_CRIFSBINDER_GETFILESIZE_OFFSET UNITYSDK_OFFSET(0x146BEF80)
+#define CRIWARE_CRIFSBINDER_GETNUMCONTENTSFILES_OFFSET UNITYSDK_OFFSET(0x146BFD60)
+#define CRIWARE_CRIFSBINDER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x146BE170)
+#define CRIWARE_CRIFSBINDER_GET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x146C0010)
+#define CRIWARE_CRIFSBINDER_SETPRIORITY_OFFSET UNITYSDK_OFFSET(0x146BFE60)
+#define CRIWARE_CRIFSBINDER_UNBIND_OFFSET UNITYSDK_OFFSET(0x146BED50)
+#define CRIWARE_CRIFSBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x146BE310)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsBinder_TypeDefinitionIndex = 36844;
+	inline static constexpr unsigned int CriFsBinder_TypeDefinitionIndex = 37144;
 
 	class CriFsBinder : public ::CriWare::CriDisposable
 	{
@@ -59,74 +59,74 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposing)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_DISPOSE_1_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_DISPOSE_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 BindCpk(::CriWare::CriFsBinder* srcBinder, ::System::String* path)
+		::System::UInt32 BindCpk(::CriWare::CriFsBinder* a1, ::System::String* a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_BINDCPK_OFFSET))(this, srcBinder, path);
+			return ((::System::UInt32(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_BINDCPK_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 BindDirectory(::CriWare::CriFsBinder* srcBinder, ::System::String* path)
+		::System::UInt32 BindDirectory(::CriWare::CriFsBinder* a1, ::System::String* a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_BINDDIRECTORY_OFFSET))(this, srcBinder, path);
+			return ((::System::UInt32(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_BINDDIRECTORY_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 BindFile(::CriWare::CriFsBinder* srcBinder, ::System::String* path)
+		::System::UInt32 BindFile(::CriWare::CriFsBinder* a1, ::System::String* a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_BINDFILE_OFFSET))(this, srcBinder, path);
+			return ((::System::UInt32(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_BINDFILE_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 BindFileSection(::CriWare::CriFsBinder* srcBinder, ::System::String* path, ::System::UInt64 offset, ::System::Int32 size, ::System::String* sectionName)
+		::System::UInt32 BindFileSection(::CriWare::CriFsBinder* a1, ::System::String* a2, ::System::UInt64 a3, ::System::Int32 a4, ::System::String* a5)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*, ::System::UInt64, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_BINDFILESECTION_OFFSET))(this, srcBinder, path, offset, size, sectionName);
+			return ((::System::UInt32(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*, ::System::UInt64, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_BINDFILESECTION_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void Unbind(::System::UInt32 bindId)
+		static ::System::Void Unbind(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_UNBIND_OFFSET))(bindId);
+			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_UNBIND_OFFSET))(a1);
 		}
 
-		static ::CriWare::CriFsBinder_Status GetStatus(::System::UInt32 bindId)
+		static ::CriWare::CriFsBinder_Status GetStatus(::System::UInt32 a1)
 		{
-			return ((::CriWare::CriFsBinder_Status(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETSTATUS_OFFSET))(bindId);
+			return ((::CriWare::CriFsBinder_Status(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETSTATUS_OFFSET))(a1);
 		}
 
-		::System::Int64 GetFileSize(::System::String* path)
+		::System::Int64 GetFileSize(::System::String* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETFILESIZE_OFFSET))(this, path);
+			return ((::System::Int64(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETFILESIZE_OFFSET))(this, a1);
 		}
 
-		::System::Int64 GetFileSize_1(::System::Int32 id)
+		::System::Int64 GetFileSize_1(::System::Int32 a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETFILESIZE_1_OFFSET))(this, id);
+			return ((::System::Int64(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETFILESIZE_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetContentsFileInfo(::System::String* path, ::CriWare::CriFsBinder_ContentsFileInfo& info)
+		::System::Boolean GetContentsFileInfo(::System::String* a1, ::CriWare::CriFsBinder_ContentsFileInfo& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::CriWare::CriFsBinder_ContentsFileInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFO_OFFSET))(this, path, info);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::CriWare::CriFsBinder_ContentsFileInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean GetContentsFileInfo_1(::System::Int32 id, ::CriWare::CriFsBinder_ContentsFileInfo& info)
+		::System::Boolean GetContentsFileInfo_1(::System::Int32 a1, ::CriWare::CriFsBinder_ContentsFileInfo& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::CriWare::CriFsBinder_ContentsFileInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFO_1_OFFSET))(this, id, info);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::CriWare::CriFsBinder_ContentsFileInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFO_1_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Boolean GetContentsFileInfoByIndex(::System::UInt32 bindId, ::System::Int32 index, ::System::Int32 numFiles, ::Il2CppArray<::CriWare::CriFsBinder_ContentsFileInfo>*& info)
+		static ::System::Boolean GetContentsFileInfoByIndex(::System::UInt32 a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::CriWare::CriFsBinder_ContentsFileInfo>*& a4)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::Int32, ::System::Int32, ::Il2CppArray<::CriWare::CriFsBinder_ContentsFileInfo>*&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFOBYINDEX_OFFSET))(bindId, index, numFiles, info);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::Int32, ::System::Int32, ::Il2CppArray<::CriWare::CriFsBinder_ContentsFileInfo>*&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETCONTENTSFILEINFOBYINDEX_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 GetNumContentsFiles(::System::UInt32 bindId)
+		static ::System::Int32 GetNumContentsFiles(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETNUMCONTENTSFILES_OFFSET))(bindId);
+			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_GETNUMCONTENTSFILES_OFFSET))(a1);
 		}
 
-		static ::System::Void SetPriority(::System::UInt32 bindId, ::System::Int32 priority)
+		static ::System::Void SetPriority(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_SETPRIORITY_OFFSET))(bindId, priority);
+			return ((::System::Void(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_SETPRIORITY_OFFSET))(a1, a2);
 		}
 
 		::System::IntPtr get_nativeHandle()
@@ -139,79 +139,79 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_FINALIZE_OFFSET))(this);
 		}
 
-		static ::System::UInt32 criFsBinder_Create(::System::IntPtr& binder)
+		static ::System::UInt32 criFsBinder_Create(::System::IntPtr& a1)
 		{
-			return ((::System::UInt32(*)(::System::IntPtr&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_CREATE_OFFSET))(binder);
+			return ((::System::UInt32(*)(::System::IntPtr&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_CREATE_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 criFsBinder_Destroy(::System::IntPtr binder)
+		static ::System::UInt32 criFsBinder_Destroy(::System::IntPtr a1)
 		{
-			return ((::System::UInt32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_DESTROY_OFFSET))(binder);
+			return ((::System::UInt32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_DESTROY_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 criFsBinder_BindCpk(::System::IntPtr binder, ::System::IntPtr srcBinder, ::System::String* path, ::System::IntPtr work, ::System::Int32 worksize, ::System::UInt32& bindId)
+		static ::System::UInt32 criFsBinder_BindCpk(::System::IntPtr a1, ::System::IntPtr a2, ::System::String* a3, ::System::IntPtr a4, ::System::Int32 a5, ::System::UInt32& a6)
 		{
-			return ((::System::UInt32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::IntPtr, ::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDCPK_OFFSET))(binder, srcBinder, path, work, worksize, bindId);
+			return ((::System::UInt32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::IntPtr, ::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDCPK_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::UInt32 criFsBinder_BindDirectory(::System::IntPtr binder, ::System::IntPtr srcBinder, ::System::String* path, ::System::IntPtr work, ::System::Int32 worksize, ::System::UInt32& bindId)
+		static ::System::UInt32 criFsBinder_BindDirectory(::System::IntPtr a1, ::System::IntPtr a2, ::System::String* a3, ::System::IntPtr a4, ::System::Int32 a5, ::System::UInt32& a6)
 		{
-			return ((::System::UInt32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::IntPtr, ::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDDIRECTORY_OFFSET))(binder, srcBinder, path, work, worksize, bindId);
+			return ((::System::UInt32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::IntPtr, ::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDDIRECTORY_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::UInt32 criFsBinder_BindFile(::System::IntPtr binder, ::System::IntPtr srcBinder, ::System::String* path, ::System::IntPtr work, ::System::Int32 worksize, ::System::UInt32& bindId)
+		static ::System::UInt32 criFsBinder_BindFile(::System::IntPtr a1, ::System::IntPtr a2, ::System::String* a3, ::System::IntPtr a4, ::System::Int32 a5, ::System::UInt32& a6)
 		{
-			return ((::System::UInt32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::IntPtr, ::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDFILE_OFFSET))(binder, srcBinder, path, work, worksize, bindId);
+			return ((::System::UInt32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::IntPtr, ::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDFILE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::UInt32 criFsBinder_BindFileSection(::System::IntPtr binder, ::System::IntPtr srcBinder, ::System::String* path, ::System::UInt64 offset, ::System::Int32 size, ::System::String* sectionName, ::System::IntPtr work, ::System::Int32 worksize, ::System::UInt32& bindId)
+		static ::System::UInt32 criFsBinder_BindFileSection(::System::IntPtr a1, ::System::IntPtr a2, ::System::String* a3, ::System::UInt64 a4, ::System::Int32 a5, ::System::String* a6, ::System::IntPtr a7, ::System::Int32 a8, ::System::UInt32& a9)
 		{
-			return ((::System::UInt32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::UInt64, ::System::Int32, ::System::String*, ::System::IntPtr, ::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDFILESECTION_OFFSET))(binder, srcBinder, path, offset, size, sectionName, work, worksize, bindId);
+			return ((::System::UInt32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::UInt64, ::System::Int32, ::System::String*, ::System::IntPtr, ::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_BINDFILESECTION_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::System::Int32 criFsBinder_Unbind(::System::UInt32 bindId)
+		static ::System::Int32 criFsBinder_Unbind(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_UNBIND_OFFSET))(bindId);
+			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_UNBIND_OFFSET))(a1);
 		}
 
-		static ::System::Int32 criFsBinder_GetStatus(::System::UInt32 bindId, ::CriWare::CriFsBinder_Status& status)
+		static ::System::Int32 criFsBinder_GetStatus(::System::UInt32 a1, ::CriWare::CriFsBinder_Status& a2)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::CriWare::CriFsBinder_Status&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETSTATUS_OFFSET))(bindId, status);
+			return ((::System::Int32(*)(::System::UInt32, ::CriWare::CriFsBinder_Status&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETSTATUS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 criFsBinder_GetFileSize(::System::IntPtr binder, ::System::String* path, ::System::Int64& size)
+		static ::System::Int32 criFsBinder_GetFileSize(::System::IntPtr a1, ::System::String* a2, ::System::Int64& a3)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::Int64&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETFILESIZE_OFFSET))(binder, path, size);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::Int64&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETFILESIZE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 criFsBinder_GetFileSizeById(::System::IntPtr binder, ::System::Int32 id, ::System::Int64& size)
+		static ::System::Int32 criFsBinder_GetFileSizeById(::System::IntPtr a1, ::System::Int32 a2, ::System::Int64& a3)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::Int32, ::System::Int64&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETFILESIZEBYID_OFFSET))(binder, id, size);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::Int32, ::System::Int64&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETFILESIZEBYID_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 criFsBinder_SetPriority(::System::UInt32 bindId, ::System::Int32 priority)
+		static ::System::Int32 criFsBinder_SetPriority(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_SETPRIORITY_OFFSET))(bindId, priority);
+			return ((::System::Int32(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_SETPRIORITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 criFsBinder_GetContentsFileInfo(::System::IntPtr binder, ::System::String* path, ::System::IntPtr info)
+		static ::System::Int32 criFsBinder_GetContentsFileInfo(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFO_OFFSET))(binder, path, info);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::String*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFO_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 criFsBinder_GetContentsFileInfoById(::System::IntPtr binder, ::System::Int32 id, ::System::IntPtr info)
+		static ::System::Int32 criFsBinder_GetContentsFileInfoById(::System::IntPtr a1, ::System::Int32 a2, ::System::IntPtr a3)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFOBYID_OFFSET))(binder, id, info);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFOBYID_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 criFsBinder_GetContentsFileInfoByIndex(::System::UInt32 id, ::System::Int32 index, ::System::IntPtr info, ::System::Int32 num)
+		static ::System::Int32 criFsBinder_GetContentsFileInfoByIndex(::System::UInt32 a1, ::System::Int32 a2, ::System::IntPtr a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFOBYINDEX_OFFSET))(id, index, info, num);
+			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIFSBINDER_GETCONTENTSFILEINFOBYINDEX_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 CRIWAREF02BA103(::System::UInt32 id)
+		static ::System::Int32 CRIWAREF02BA103(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIWAREF02BA103_OFFSET))(id);
+			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDER_CRIWAREF02BA103_OFFSET))(a1);
 		}
 	};
 }

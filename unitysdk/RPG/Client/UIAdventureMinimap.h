@@ -9,9 +9,9 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_598;
+class Class_0_16E4307DCC419505_621;
 class Class_1_017642E048A94394;
-class Class_1_43B508F64DA705FE;
+class Class_1_6CC143B9599F1FCA;
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class MapDef; }
 namespace RPG::Client { class MiniMapLayer; }
@@ -36,82 +36,82 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIADVENTUREMINIMAP_ADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0xB3C4F10)
-#define RPG_CLIENT_UIADVENTUREMINIMAP_AWAKE_OFFSET UNITYSDK_OFFSET(0xB3BCE40)
-#define RPG_CLIENT_UIADVENTUREMINIMAP_GETSUBNAVMAPDATA_OFFSET UNITYSDK_OFFSET(0xB3CBCF0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP_GET__ISPLAYERINHIDEAREA_OFFSET UNITYSDK_OFFSET(0xB3C5440)
-#define RPG_CLIENT_UIADVENTUREMINIMAP_ISUSEFIVEDIMCOMPLETEICON_OFFSET UNITYSDK_OFFSET(0xB3CBC30)
-#define RPG_CLIENT_UIADVENTUREMINIMAP_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB3BE860)
-#define RPG_CLIENT_UIADVENTUREMINIMAP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB3BE400)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ACTIVEICON_OFFSET UNITYSDK_OFFSET(0xB3C8EE0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ACTIVETRACKINGEFFECT_OFFSET UNITYSDK_OFFSET(0xB3C9680)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0xB3BD1D0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CALC2DROTATION_1_OFFSET UNITYSDK_OFFSET(0xB3C6D10)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CALC2DROTATION_OFFSET UNITYSDK_OFFSET(0xB3BF2E0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CALCPLAYERPOS_OFFSET UNITYSDK_OFFSET(0xB3BF5C0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CCTOR_OFFSET UNITYSDK_OFFSET(0xB3CC010)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWCHESTICONICONBYSUBMAP_OFFSET UNITYSDK_OFFSET(0xB3CB5A0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWPLAYERICONBYSUBMAP_OFFSET UNITYSDK_OFFSET(0xB3CBBE0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRACEMAPPINGINFOICONBYSUBMAP_OFFSET UNITYSDK_OFFSET(0xB3CB3C0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRACEMISSIONICONBYSUBMAP_OFFSET UNITYSDK_OFFSET(0xB3CAE90)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRANSPORTICONBYSUBMAP_OFFSET UNITYSDK_OFFSET(0xB3C9960)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKMINIMAPSECTIONVISIBLE_OFFSET UNITYSDK_OFFSET(0xB3C6800)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKNEEDCHANGE2DMAP_OFFSET UNITYSDK_OFFSET(0xB3C59D0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CLEARSECTIONS_OFFSET UNITYSDK_OFFSET(0xB3C64C0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CLIPICON_OFFSET UNITYSDK_OFFSET(0xB3C73D0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CREATECIRCLE_OFFSET UNITYSDK_OFFSET(0xB3C86D0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CREATESECTIONINSTANCE_OFFSET UNITYSDK_OFFSET(0xB3C68E0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xB3CBDB0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__DEACTIVEICON_OFFSET UNITYSDK_OFFSET(0xB3C9570)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__DESTROYINSTANCEDLAYER_OFFSET UNITYSDK_OFFSET(0xB3C5AC0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__DESTROYLAYER_OFFSET UNITYSDK_OFFSET(0xB3C5C30)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__FILLSECTIONANIMIMAGEIDX_OFFSET UNITYSDK_OFFSET(0xB3C6DB0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__FINDZONEINSTANCE_OFFSET UNITYSDK_OFFSET(0xB3C6630)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__GETNAVIICONPATH_OFFSET UNITYSDK_OFFSET(0xB3C9C50)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__INIT_OFFSET UNITYSDK_OFFSET(0xB3BD6C0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__INSTANTIATEZONE_OFFSET UNITYSDK_OFFSET(0xB3C5DD0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ISINVIEWABLESECTIONS_OFFSET UNITYSDK_OFFSET(0xB3C6EB0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ISSECTIONVISIBLEINROGUE_OFFSET UNITYSDK_OFFSET(0xB3C6770)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ISSHOWMAINMAP_OFFSET UNITYSDK_OFFSET(0xB3C6460)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ISTRACKINGCIRCLESHOWBYAREA_OFFSET UNITYSDK_OFFSET(0xB3C7170)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ISUSETILETYPEICON_OFFSET UNITYSDK_OFFSET(0xB3CA940)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__LOADICONIMAGE_OFFSET UNITYSDK_OFFSET(0xB3C8F60)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__NEXTICON_OFFSET UNITYSDK_OFFSET(0xB3C8990)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ONADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0xB3C5130)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ONASYNCLOADSPRITE_OFFSET UNITYSDK_OFFSET(0xB3CA9B0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ONENTERNEXTROGUEROOM_OFFSET UNITYSDK_OFFSET(0xB3C5960)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ONMAPENTER3DAREA_OFFSET UNITYSDK_OFFSET(0xB3C4E70)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ONMAPEXIT3DAREA_OFFSET UNITYSDK_OFFSET(0xB3C4EC0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ONMAZEMAPINFOUPDATED_OFFSET UNITYSDK_OFFSET(0xB3C5180)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ONMINIMAPSECTIONFSVCHANGE_OFFSET UNITYSDK_OFFSET(0xB3C50E0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ONREFRESHALLSBUMAPICONNAVIICONS_OFFSET UNITYSDK_OFFSET(0xB3CAD10)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ONSECTIONUNLOCK_OFFSET UNITYSDK_OFFSET(0xB3C4F60)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ONTEAMLEADERENTITYCHANGED_OFFSET UNITYSDK_OFFSET(0xB3CAC70)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__ONUISWITCHHANDGAMEGESTURECHANGED_OFFSET UNITYSDK_OFFSET(0xB3CABD0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHALLSBUMAPICONNAVIICONS_OFFSET UNITYSDK_OFFSET(0xB3C51D0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHICONS_OFFSET UNITYSDK_OFFSET(0xB3C1450)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHLAYER_OFFSET UNITYSDK_OFFSET(0xB3BF860)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHLIMITAREA_OFFSET UNITYSDK_OFFSET(0xB3C49F0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHNAVIICONS_OFFSET UNITYSDK_OFFSET(0xB3C9D50)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHPLAYERPANEL_OFFSET UNITYSDK_OFFSET(0xB3C58F0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHSECTIONS_OFFSET UNITYSDK_OFFSET(0xB3BFED0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__RESETSECTIONBOUNDS_OFFSET UNITYSDK_OFFSET(0xB3C5080)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__SETMAPROTATION_OFFSET UNITYSDK_OFFSET(0xB3BF470)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__SETUPMAPVIEW_OFFSET UNITYSDK_OFFSET(0xB3C54A0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__TICKSECTIONANIM_OFFSET UNITYSDK_OFFSET(0xB3C4BD0)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__TRYGETMAZEINFO_OFFSET UNITYSDK_OFFSET(0xB3C5300)
-#define RPG_CLIENT_UIADVENTUREMINIMAP__TRYGETSUBMAPICON_OFFSET UNITYSDK_OFFSET(0xB3C75F0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_ADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0xCB25650)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_AWAKE_OFFSET UNITYSDK_OFFSET(0xCB1D130)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_GETSUBNAVMAPDATA_OFFSET UNITYSDK_OFFSET(0xCB2C680)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_GET__ISPLAYERINHIDEAREA_OFFSET UNITYSDK_OFFSET(0xCB25C50)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_ISUSEFIVEDIMCOMPLETEICON_OFFSET UNITYSDK_OFFSET(0xCB2C5B0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCB1EC80)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCB1E770)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ACTIVEICON_OFFSET UNITYSDK_OFFSET(0xCB297C0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ACTIVETRACKINGEFFECT_OFFSET UNITYSDK_OFFSET(0xCB29F80)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0xCB1D570)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CALC2DROTATION_1_OFFSET UNITYSDK_OFFSET(0xCB276A0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CALC2DROTATION_OFFSET UNITYSDK_OFFSET(0xCB1F750)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CALCPLAYERPOS_OFFSET UNITYSDK_OFFSET(0xCB1FA30)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB2C990)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWCHESTICONICONBYSUBMAP_OFFSET UNITYSDK_OFFSET(0xCB2BF20)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWPLAYERICONBYSUBMAP_OFFSET UNITYSDK_OFFSET(0xCB2C560)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRACEMAPPINGINFOICONBYSUBMAP_OFFSET UNITYSDK_OFFSET(0xCB2BD40)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRACEMISSIONICONBYSUBMAP_OFFSET UNITYSDK_OFFSET(0xCB2B800)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRANSPORTICONBYSUBMAP_OFFSET UNITYSDK_OFFSET(0xCB2A260)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKMINIMAPSECTIONVISIBLE_OFFSET UNITYSDK_OFFSET(0xCB27180)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CHECKNEEDCHANGE2DMAP_OFFSET UNITYSDK_OFFSET(0xCB261E0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CLEARSECTIONS_OFFSET UNITYSDK_OFFSET(0xCB26D70)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CLIPICON_OFFSET UNITYSDK_OFFSET(0xCB27CB0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CREATECIRCLE_OFFSET UNITYSDK_OFFSET(0xCB29000)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CREATESECTIONINSTANCE_OFFSET UNITYSDK_OFFSET(0xCB27260)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xCB2C740)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__DEACTIVEICON_OFFSET UNITYSDK_OFFSET(0xCB29E70)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__DESTROYINSTANCEDLAYER_OFFSET UNITYSDK_OFFSET(0xCB262D0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__DESTROYLAYER_OFFSET UNITYSDK_OFFSET(0xCB26440)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__FILLSECTIONANIMIMAGEIDX_OFFSET UNITYSDK_OFFSET(0xCB27740)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__FINDZONEINSTANCE_OFFSET UNITYSDK_OFFSET(0xCB26F20)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__GETNAVIICONPATH_OFFSET UNITYSDK_OFFSET(0xCB2A560)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__INIT_OFFSET UNITYSDK_OFFSET(0xCB1DAA0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__INSTANTIATEZONE_OFFSET UNITYSDK_OFFSET(0xCB26620)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ISINVIEWABLESECTIONS_OFFSET UNITYSDK_OFFSET(0xCB27840)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ISSECTIONVISIBLEINROGUE_OFFSET UNITYSDK_OFFSET(0xCB270F0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ISSHOWMAINMAP_OFFSET UNITYSDK_OFFSET(0xCB26D10)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ISTRACKINGCIRCLESHOWBYAREA_OFFSET UNITYSDK_OFFSET(0xCB27A30)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ISUSETILETYPEICON_OFFSET UNITYSDK_OFFSET(0xCB2B2A0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__LOADICONIMAGE_OFFSET UNITYSDK_OFFSET(0xCB29840)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__NEXTICON_OFFSET UNITYSDK_OFFSET(0xCB292C0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ONADVENTUREPHASEENTERED_OFFSET UNITYSDK_OFFSET(0xCB258C0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ONASYNCLOADSPRITE_OFFSET UNITYSDK_OFFSET(0xCB2B310)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ONENTERNEXTROGUEROOM_OFFSET UNITYSDK_OFFSET(0xCB26170)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ONMAPENTER3DAREA_OFFSET UNITYSDK_OFFSET(0xCB255B0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ONMAPEXIT3DAREA_OFFSET UNITYSDK_OFFSET(0xCB25600)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ONMAZEMAPINFOUPDATED_OFFSET UNITYSDK_OFFSET(0xCB25910)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ONMINIMAPSECTIONFSVCHANGE_OFFSET UNITYSDK_OFFSET(0xCB25870)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ONREFRESHALLSBUMAPICONNAVIICONS_OFFSET UNITYSDK_OFFSET(0xCB2B670)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ONSECTIONUNLOCK_OFFSET UNITYSDK_OFFSET(0xCB256A0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ONTEAMLEADERENTITYCHANGED_OFFSET UNITYSDK_OFFSET(0xCB2B5D0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__ONUISWITCHHANDGAMEGESTURECHANGED_OFFSET UNITYSDK_OFFSET(0xCB2B530)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHALLSBUMAPICONNAVIICONS_OFFSET UNITYSDK_OFFSET(0xCB25960)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHICONS_OFFSET UNITYSDK_OFFSET(0xCB21930)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHLAYER_OFFSET UNITYSDK_OFFSET(0xCB1FCA0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHLIMITAREA_OFFSET UNITYSDK_OFFSET(0xCB25070)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHNAVIICONS_OFFSET UNITYSDK_OFFSET(0xCB2A660)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHPLAYERPANEL_OFFSET UNITYSDK_OFFSET(0xCB26100)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHSECTIONS_OFFSET UNITYSDK_OFFSET(0xCB20390)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__RESETSECTIONBOUNDS_OFFSET UNITYSDK_OFFSET(0xCB25810)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__SETMAPROTATION_OFFSET UNITYSDK_OFFSET(0xCB1F8E0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__SETUPMAPVIEW_OFFSET UNITYSDK_OFFSET(0xCB25CB0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__TICKSECTIONANIM_OFFSET UNITYSDK_OFFSET(0xCB25260)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__TRYGETMAZEINFO_OFFSET UNITYSDK_OFFSET(0xCB25B10)
+#define RPG_CLIENT_UIADVENTUREMINIMAP__TRYGETSUBMAPICON_OFFSET UNITYSDK_OFFSET(0xCB27EF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdventureMinimap_TypeDefinitionIndex = 63663;
+	inline static constexpr unsigned int UIAdventureMinimap_TypeDefinitionIndex = 64584;
 
 	class UIAdventureMinimap : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_LateUpdateUIAdventureMinimapMarker()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(UIAdventureMinimap_TypeDefinitionIndex)->GetStaticField(0x29230);
+			return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(UIAdventureMinimap_TypeDefinitionIndex)->GetStaticField(0x5C150);
 		}
 		::System::Boolean _IsIn3DMap; // 0x18
 		::System::Boolean _IsMapViewActive; // 0x19
@@ -140,7 +140,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::UIAdventureMinimap_SubMapIcon*>* _SubMapIcons; // 0xB0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt32>* _SubMapIconIDs; // 0xB8
 		::System::Collections::Generic::List_1<::System::Single>* _IconRadiusLUT; // 0xC0
-		::Class_1_43B508F64DA705FE* _AssetLoader; // 0xC8
+		::Class_1_6CC143B9599F1FCA* _AssetLoader; // 0xC8
 		::RPG::Client::UIAdventureMinimap_InstancedLayer* _CurrentLayer; // 0xD0
 		::System::Collections::Generic::List_1<::RPG::Client::UIAdventureMinimap_InstancedLayer*>* _InstancedLayers; // 0xD8
 		::UnityEngine::RectTransform* _PlayerFootprintNode; // 0xE0
@@ -207,29 +207,29 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_ADVENTUREPHASEENTERED_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 _CalcPlayerPos(::UnityEngine::Transform* playerTransform)
+		::UnityEngine::Vector3 _CalcPlayerPos(::UnityEngine::Transform* a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CALCPLAYERPOS_OFFSET))(this, playerTransform);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CALCPLAYERPOS_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnSectionUnlock(::System::Object* userParam)
+		::System::Void _OnSectionUnlock(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONSECTIONUNLOCK_OFFSET))(this, userParam);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONSECTIONUNLOCK_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnMiniMapSectionFsvChange(::System::Object* userParam)
+		::System::Void _OnMiniMapSectionFsvChange(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONMINIMAPSECTIONFSVCHANGE_OFFSET))(this, userParam);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONMINIMAPSECTIONFSVCHANGE_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnAdventurePhaseEntered(::System::Object* arg)
+		::System::Void _OnAdventurePhaseEntered(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONADVENTUREPHASEENTERED_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONADVENTUREPHASEENTERED_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnMazeMapInfoUpdated(::System::Object* arg)
+		::System::Void _OnMazeMapInfoUpdated(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONMAZEMAPINFOUPDATED_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONMAZEMAPINFOUPDATED_OFFSET))(this, a1);
 		}
 
 		::System::Void _AdventurePhaseEntered()
@@ -237,9 +237,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ADVENTUREPHASEENTERED_OFFSET))(this);
 		}
 
-		::System::Void _OnEnterNextRogueRoom(::System::Object* arg)
+		::System::Void _OnEnterNextRogueRoom(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONENTERNEXTROGUEROOM_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONENTERNEXTROGUEROOM_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnMapEnter3DArea()
@@ -252,39 +252,39 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONMAPEXIT3DAREA_OFFSET))(this);
 		}
 
-		::System::Void _RefreshLayer(::RPG::Client::MiniMapLayer* pLayer)
+		::System::Void _RefreshLayer(::RPG::Client::MiniMapLayer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MiniMapLayer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHLAYER_OFFSET))(this, pLayer);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MiniMapLayer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHLAYER_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _CheckNeedChange2DMap(::RPG::Client::NavMap::SubNavMapData* oldSubMap, ::RPG::Client::NavMap::SubNavMapData* newSubMap)
+		::System::Boolean _CheckNeedChange2DMap(::RPG::Client::NavMap::SubNavMapData* a1, ::RPG::Client::NavMap::SubNavMapData* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::SubNavMapData*, ::RPG::Client::NavMap::SubNavMapData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKNEEDCHANGE2DMAP_OFFSET))(this, oldSubMap, newSubMap);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::SubNavMapData*, ::RPG::Client::NavMap::SubNavMapData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKNEEDCHANGE2DMAP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _IsShowMainMap(::RPG::Client::NavMap::SubNavMapData* playerLocatedSubMap)
+		::System::Boolean _IsShowMainMap(::RPG::Client::NavMap::SubNavMapData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::SubNavMapData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ISSHOWMAINMAP_OFFSET))(this, playerLocatedSubMap);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::SubNavMapData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ISSHOWMAINMAP_OFFSET))(this, a1);
 		}
 
-		::System::Void _DestroyLayer(::System::Int32 iLayerIdx)
+		::System::Void _DestroyLayer(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__DESTROYLAYER_OFFSET))(this, iLayerIdx);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__DESTROYLAYER_OFFSET))(this, a1);
 		}
 
-		::System::Void _RefreshSections(::System::Single fScale, ::UnityEngine::Vector3 vMapCenter, ::RPG::Client::MiniMapLayer* pLayer)
+		::System::Void _RefreshSections(::System::Single a1, ::UnityEngine::Vector3 a2, ::RPG::Client::MiniMapLayer* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::RPG::Client::MiniMapLayer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHSECTIONS_OFFSET))(this, fScale, vMapCenter, pLayer);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::RPG::Client::MiniMapLayer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHSECTIONS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::UIAdventureMinimap_SectionInstance* _CreateSectionInstance(::System::Int32 zoneid, ::System::Int32 idx, ::System::Boolean clipSection)
+		::RPG::Client::UIAdventureMinimap_SectionInstance* _CreateSectionInstance(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::UIAdventureMinimap_SectionInstance*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CREATESECTIONINSTANCE_OFFSET))(this, zoneid, idx, clipSection);
+			return ((::RPG::Client::UIAdventureMinimap_SectionInstance*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CREATESECTIONINSTANCE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _InstantiateZone(::RPG::Client::MiniMapZone* zone, ::RPG::Client::UIAdventureMinimap_InstancedLayer* parentLayer)
+		::System::Void _InstantiateZone(::RPG::Client::MiniMapZone* a1, ::RPG::Client::UIAdventureMinimap_InstancedLayer* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MiniMapZone*, ::RPG::Client::UIAdventureMinimap_InstancedLayer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__INSTANTIATEZONE_OFFSET))(this, zone, parentLayer);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MiniMapZone*, ::RPG::Client::UIAdventureMinimap_InstancedLayer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__INSTANTIATEZONE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ClearSections()
@@ -297,79 +297,79 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__RESETSECTIONBOUNDS_OFFSET))(this);
 		}
 
-		::UnityEngine::RectTransform* _FindZoneInstance(::System::Int32 id)
+		::UnityEngine::RectTransform* _FindZoneInstance(::System::Int32 a1)
 		{
-			return ((::UnityEngine::RectTransform*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__FINDZONEINSTANCE_OFFSET))(this, id);
+			return ((::UnityEngine::RectTransform*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__FINDZONEINSTANCE_OFFSET))(this, a1);
 		}
 
-		::System::Void _FillSectionAnimImageIdx(::System::Int32 zoneID, ::System::Int32 sectionIdx, ::System::Int32 imageIdx)
+		::System::Void _FillSectionAnimImageIdx(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__FILLSECTIONANIMIMAGEIDX_OFFSET))(this, zoneID, sectionIdx, imageIdx);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__FILLSECTIONANIMIMAGEIDX_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _TickSectionAnim(::System::Single deltaTime)
+		::System::Void _TickSectionAnim(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__TICKSECTIONANIM_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__TICKSECTIONANIM_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsInViewableSections(::UnityEngine::Vector3 position, ::System::Int32 iconHash, ::System::Boolean iconStatic, ::System::Int32 iconLayer)
+		::System::Boolean _IsInViewableSections(::UnityEngine::Vector3 a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ISINVIEWABLESECTIONS_OFFSET))(this, position, iconHash, iconStatic, iconLayer);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ISINVIEWABLESECTIONS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean _IsSectionVisibleInRogue(::System::UInt32 sectionId)
+		::System::Boolean _IsSectionVisibleInRogue(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ISSECTIONVISIBLEINROGUE_OFFSET))(this, sectionId);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ISSECTIONVISIBLEINROGUE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsTrackingCircleShowByArea(::Class_0_16E4307DCC419505_598* iconObject)
+		::System::Boolean _IsTrackingCircleShowByArea(::Class_0_16E4307DCC419505_621* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_598*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ISTRACKINGCIRCLESHOWBYAREA_OFFSET))(this, iconObject);
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_621*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ISTRACKINGCIRCLESHOWBYAREA_OFFSET))(this, a1);
 		}
 
-		::System::Void _RefreshIcons(::System::Single fScale, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_598*>* iconObjects, ::UnityEngine::Transform* pPlayerTransform, ::UnityEngine::Vector3 vCentral, ::UnityEngine::Vector3 vPlayerPosInMap)
+		::System::Void _RefreshIcons(::System::Single a1, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_621*>* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_598*>*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHICONS_OFFSET))(this, fScale, iconObjects, pPlayerTransform, vCentral, vPlayerPosInMap);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_621*>*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHICONS_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::RPG::Client::UIAdventureMinimap_Icon* _NextIcon(::System::Boolean bMasked, ::System::Int32 start, ::System::Int32 max, ::System::Int32& usedNum)
+		::RPG::Client::UIAdventureMinimap_Icon* _NextIcon(::System::Boolean a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4)
 		{
-			return ((::RPG::Client::UIAdventureMinimap_Icon*(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__NEXTICON_OFFSET))(this, bMasked, start, max, usedNum);
+			return ((::RPG::Client::UIAdventureMinimap_Icon*(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__NEXTICON_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ActiveIcon(::RPG::Client::UIAdventureMinimap_Icon* icon, ::RPG::Client::UIAdventureMinimap_TrackEffectType trackEffectType)
+		::System::Void _ActiveIcon(::RPG::Client::UIAdventureMinimap_Icon* a1, ::RPG::Client::UIAdventureMinimap_TrackEffectType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIAdventureMinimap_Icon*, ::RPG::Client::UIAdventureMinimap_TrackEffectType))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ACTIVEICON_OFFSET))(this, icon, trackEffectType);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIAdventureMinimap_Icon*, ::RPG::Client::UIAdventureMinimap_TrackEffectType))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ACTIVEICON_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _DeactiveIcon(::RPG::Client::UIAdventureMinimap_Icon* icon)
+		::System::Void _DeactiveIcon(::RPG::Client::UIAdventureMinimap_Icon* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIAdventureMinimap_Icon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__DEACTIVEICON_OFFSET))(this, icon);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIAdventureMinimap_Icon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__DEACTIVEICON_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::UIAdventureMinimap_SubMapIcon* _TryGetSubMapIcon(::Class_0_16E4307DCC419505_598* iconObject)
+		::RPG::Client::UIAdventureMinimap_SubMapIcon* _TryGetSubMapIcon(::Class_0_16E4307DCC419505_621* a1)
 		{
-			return ((::RPG::Client::UIAdventureMinimap_SubMapIcon*(*)(::PVOID, ::Class_0_16E4307DCC419505_598*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__TRYGETSUBMAPICON_OFFSET))(this, iconObject);
+			return ((::RPG::Client::UIAdventureMinimap_SubMapIcon*(*)(::PVOID, ::Class_0_16E4307DCC419505_621*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__TRYGETSUBMAPICON_OFFSET))(this, a1);
 		}
 
-		::System::Void _LoadIconImage(::RPG::Client::UIAdventureMinimap_Icon* icon, ::System::UInt32 iconID, ::Class_0_16E4307DCC419505_598* iconObject)
+		::System::Void _LoadIconImage(::RPG::Client::UIAdventureMinimap_Icon* a1, ::System::UInt32 a2, ::Class_0_16E4307DCC419505_621* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIAdventureMinimap_Icon*, ::System::UInt32, ::Class_0_16E4307DCC419505_598*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__LOADICONIMAGE_OFFSET))(this, icon, iconID, iconObject);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIAdventureMinimap_Icon*, ::System::UInt32, ::Class_0_16E4307DCC419505_621*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__LOADICONIMAGE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean _IsUseTileTypeIcon(::System::UInt32 iconID)
+		::System::Boolean _IsUseTileTypeIcon(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ISUSETILETYPEICON_OFFSET))(this, iconID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ISUSETILETYPEICON_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _ClipIcon(::Class_0_16E4307DCC419505_598* icon, ::UnityEngine::Vector3 deltaPos, ::System::Single fClippingHalfSize)
+		::System::Boolean _ClipIcon(::Class_0_16E4307DCC419505_621* a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_598*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CLIPICON_OFFSET))(this, icon, deltaPos, fClippingHalfSize);
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_621*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CLIPICON_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ActiveTrackingEffect(::RPG::Client::UIAdventureMinimap_Icon* icon, ::RPG::Client::UIAdventureMinimap_TrackEffectType trackEffectType)
+		::System::Void _ActiveTrackingEffect(::RPG::Client::UIAdventureMinimap_Icon* a1, ::RPG::Client::UIAdventureMinimap_TrackEffectType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIAdventureMinimap_Icon*, ::RPG::Client::UIAdventureMinimap_TrackEffectType))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ACTIVETRACKINGEFFECT_OFFSET))(this, icon, trackEffectType);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIAdventureMinimap_Icon*, ::RPG::Client::UIAdventureMinimap_TrackEffectType))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ACTIVETRACKINGEFFECT_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::UIAdventureMinimap_IconCircle* _CreateCircle()
@@ -377,34 +377,34 @@ namespace RPG::Client
 			return ((::RPG::Client::UIAdventureMinimap_IconCircle*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CREATECIRCLE_OFFSET))(this);
 		}
 
-		::System::Void _SetMapRotation(::System::Single rotation)
+		::System::Void _SetMapRotation(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__SETMAPROTATION_OFFSET))(this, rotation);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__SETMAPROTATION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Quaternion _Calc2DRotation(::UnityEngine::Transform* pTarget, ::System::Single fOffset)
+		::UnityEngine::Quaternion _Calc2DRotation(::UnityEngine::Transform* a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CALC2DROTATION_OFFSET))(this, pTarget, fOffset);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CALC2DROTATION_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Quaternion _Calc2DRotation_1(::System::Single fEularY3D)
+		::UnityEngine::Quaternion _Calc2DRotation_1(::System::Single a1)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CALC2DROTATION_1_OFFSET))(this, fEularY3D);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CALC2DROTATION_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _OnAsyncLoadSprite(::RPG::Client::IAssetOperation* assetOpt)
+		::System::Boolean _OnAsyncLoadSprite(::RPG::Client::IAssetOperation* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONASYNCLOADSPRITE_OFFSET))(this, assetOpt);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONASYNCLOADSPRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void _RefreshLimitArea(::UnityEngine::Transform* current)
+		::System::Void _RefreshLimitArea(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHLIMITAREA_OFFSET))(this, current);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHLIMITAREA_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetupMapView(::System::Boolean isActive)
+		::System::Void _SetupMapView(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__SETUPMAPVIEW_OFFSET))(this, isActive);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__SETUPMAPVIEW_OFFSET))(this, a1);
 		}
 
 		::System::Void _TryGetMazeInfo()
@@ -412,14 +412,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__TRYGETMAZEINFO_OFFSET))(this);
 		}
 
-		::System::Void _OnUISwitchHandGameGestureChanged(::System::Object* arg)
+		::System::Void _OnUISwitchHandGameGestureChanged(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONUISWITCHHANDGAMEGESTURECHANGED_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONUISWITCHHANDGAMEGESTURECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnTeamLeaderEntityChanged(::System::Object* arg)
+		::System::Void _OnTeamLeaderEntityChanged(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONTEAMLEADERENTITYCHANGED_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONTEAMLEADERENTITYCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void _RefreshPlayerPanel()
@@ -427,9 +427,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHPLAYERPANEL_OFFSET))(this);
 		}
 
-		::System::Void _OnRefreshAllSbuMapIconNaviIcons(::System::Object* arg)
+		::System::Void _OnRefreshAllSbuMapIconNaviIcons(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONREFRESHALLSBUMAPICONNAVIICONS_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__ONREFRESHALLSBUMAPICONNAVIICONS_OFFSET))(this, a1);
 		}
 
 		::System::Void _RefreshAllSbuMapIconNaviIcons()
@@ -437,54 +437,54 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHALLSBUMAPICONNAVIICONS_OFFSET))(this);
 		}
 
-		::System::Void _RefreshNaviIcons(::System::Int32 subMapID)
+		::System::Void _RefreshNaviIcons(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHNAVIICONS_OFFSET))(this, subMapID);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__REFRESHNAVIICONS_OFFSET))(this, a1);
 		}
 
-		::System::String* _GetNaviIconPath(::System::Int32 subMapID, ::System::Boolean isShowTransportIcon, ::System::UInt32 iconID)
+		::System::String* _GetNaviIconPath(::System::Int32 a1, ::System::Boolean a2, ::System::UInt32 a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__GETNAVIICONPATH_OFFSET))(this, subMapID, isShowTransportIcon, iconID);
+			return ((::System::String*(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__GETNAVIICONPATH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean IsUseFiveDimCompleteIcon(::System::Int32 subMapID)
+		::System::Boolean IsUseFiveDimCompleteIcon(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_ISUSEFIVEDIMCOMPLETEICON_OFFSET))(this, subMapID);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_ISUSEFIVEDIMCOMPLETEICON_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _CheckIsShowPlayerIconBySubMap(::System::Int32 subMapID)
+		::System::Boolean _CheckIsShowPlayerIconBySubMap(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWPLAYERICONBYSUBMAP_OFFSET))(this, subMapID);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWPLAYERICONBYSUBMAP_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _CheckIsShowTransportIconBySubMap(::System::Int32 subMapID)
+		::System::Boolean _CheckIsShowTransportIconBySubMap(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRANSPORTICONBYSUBMAP_OFFSET))(this, subMapID);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRANSPORTICONBYSUBMAP_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::NavMap::ISubNavMap* GetSubNavMapData(::System::UInt32 subMapID)
+		::RPG::Client::NavMap::ISubNavMap* GetSubNavMapData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::NavMap::ISubNavMap*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_GETSUBNAVMAPDATA_OFFSET))(this, subMapID);
+			return ((::RPG::Client::NavMap::ISubNavMap*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_GETSUBNAVMAPDATA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _CheckIsShowTraceMissionIconBySubMap(::System::Int32 subMapID)
+		::System::Boolean _CheckIsShowTraceMissionIconBySubMap(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRACEMISSIONICONBYSUBMAP_OFFSET))(this, subMapID);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRACEMISSIONICONBYSUBMAP_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _CheckIsShowTraceMappingInfoIconBySubMap(::System::Int32 subMapID)
+		::System::Boolean _CheckIsShowTraceMappingInfoIconBySubMap(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRACEMAPPINGINFOICONBYSUBMAP_OFFSET))(this, subMapID);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWTRACEMAPPINGINFOICONBYSUBMAP_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _CheckIsShowChestIconIconBySubMap(::System::Int32 subMapID, ::System::String*& chestIconPath)
+		::System::Boolean _CheckIsShowChestIconIconBySubMap(::System::Int32 a1, ::System::String*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWCHESTICONICONBYSUBMAP_OFFSET))(this, subMapID, chestIconPath);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKISSHOWCHESTICONICONBYSUBMAP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _CheckMinimapSectionVisible(::RPG::Client::MiniMapZone* zone, ::RPG::GameCore::LevelMinimapSection* section)
+		::System::Boolean _CheckMinimapSectionVisible(::RPG::Client::MiniMapZone* a1, ::RPG::GameCore::LevelMinimapSection* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MiniMapZone*, ::RPG::GameCore::LevelMinimapSection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKMINIMAPSECTIONVISIBLE_OFFSET))(this, zone, section);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MiniMapZone*, ::RPG::GameCore::LevelMinimapSection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP__CHECKMINIMAPSECTIONVISIBLE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _DestroyInstancedLayer()

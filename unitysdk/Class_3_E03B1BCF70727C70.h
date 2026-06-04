@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowDamageText; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E03B1BCF70727C70_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x117D5650)
-#define CLASS_3_E03B1BCF70727C70__CTOR_OFFSET UNITYSDK_OFFSET(0x117D5620)
+#define CLASS_3_E03B1BCF70727C70_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA867DB0)
+#define CLASS_3_E03B1BCF70727C70__CTOR_OFFSET UNITYSDK_OFFSET(0xA867D80)
 
-inline static constexpr unsigned int Class_3_E03B1BCF70727C70_TypeDefinitionIndex = 51270;
+inline static constexpr unsigned int Class_3_E03B1BCF70727C70_TypeDefinitionIndex = 51942;
 
 class Class_3_E03B1BCF70727C70 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowDamageText*>
 {

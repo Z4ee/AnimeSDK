@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6639441D78E72F56_1_GET_CLOSEFULLSCREEN_OFFSET UNITYSDK_OFFSET(0xE65DAA0)
-#define CLASS_1_6639441D78E72F56_1_GET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xE65DA80)
-#define CLASS_1_6639441D78E72F56_1_SET_CLOSEFULLSCREEN_OFFSET UNITYSDK_OFFSET(0xE65DAB0)
-#define CLASS_1_6639441D78E72F56_1_SET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xE65DA90)
-#define CLASS_1_6639441D78E72F56_1__CTOR_OFFSET UNITYSDK_OFFSET(0xE634620)
+#define CLASS_1_6639441D78E72F56_1_GET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xAC8F120)
+#define CLASS_1_6639441D78E72F56_1_GET_SWITCHTAB_OFFSET UNITYSDK_OFFSET(0xAC8F140)
+#define CLASS_1_6639441D78E72F56_1_SET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xAC8F130)
+#define CLASS_1_6639441D78E72F56_1_SET_SWITCHTAB_OFFSET UNITYSDK_OFFSET(0xAC8F150)
+#define CLASS_1_6639441D78E72F56_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAC8F110)
 
-inline static constexpr unsigned int Class_1_6639441D78E72F56_1_TypeDefinitionIndex = 68541;
+inline static constexpr unsigned int Class_1_6639441D78E72F56_1_TypeDefinitionIndex = 73757;
 
 class Class_1_6639441D78E72F56_1 : public ::System::Object
 {
 public:
 	::System::Boolean _CloseWindow_k__BackingField; // 0x10
-	::System::Boolean _CloseFullScreen_k__BackingField; // 0x11
+	::System::Boolean _SwitchTab_k__BackingField; // 0x11
 
 	::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2)
 	{
@@ -26,18 +26,18 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6639441D78E72F56_1_GET_CLOSEWINDOW_OFFSET))(this);
 	}
 
-	::System::Void set_CloseWindow(::System::Boolean value)
+	::System::Void set_CloseWindow(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6639441D78E72F56_1_SET_CLOSEWINDOW_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6639441D78E72F56_1_SET_CLOSEWINDOW_OFFSET))(this, a1);
 	}
 
-	::System::Boolean get_CloseFullScreen()
+	::System::Boolean get_SwitchTab()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6639441D78E72F56_1_GET_CLOSEFULLSCREEN_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6639441D78E72F56_1_GET_SWITCHTAB_OFFSET))(this);
 	}
 
-	::System::Void set_CloseFullScreen(::System::Boolean value)
+	::System::Void set_SwitchTab(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6639441D78E72F56_1_SET_CLOSEFULLSCREEN_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6639441D78E72F56_1_SET_SWITCHTAB_OFFSET))(this, a1);
 	}
 };

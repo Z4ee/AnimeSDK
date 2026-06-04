@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VortexParticlesBehavior_ParticleAttributes_TypeDefinitionIndex = 64887;
+	inline static constexpr unsigned int VortexParticlesBehavior_ParticleAttributes_TypeDefinitionIndex = 65813;
 
 	struct alignas(4) VortexParticlesBehavior_ParticleAttributes
 	{

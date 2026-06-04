@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::Win { class CNPayPlatDialog; }
 
-#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176C8F80)
-#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG___C__DISPLAYCLASS100_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x176D0BB0)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184877F0)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG___C__DISPLAYCLASS100_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1848F400)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int CNPayPlatDialog___c__DisplayClass100_0_TypeDefinitionIndex = 8301;
+	inline static constexpr unsigned int CNPayPlatDialog___c__DisplayClass100_0_TypeDefinitionIndex = 9204;
 
 	class CNPayPlatDialog___c__DisplayClass100_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG___C__DISPLAYCLASS100_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::Win::CNPayPlatDialog* dialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::Win::CNPayPlatDialog* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::CNPayPlatDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG___C__DISPLAYCLASS100_0__SHOW_B__0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::CNPayPlatDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG___C__DISPLAYCLASS100_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

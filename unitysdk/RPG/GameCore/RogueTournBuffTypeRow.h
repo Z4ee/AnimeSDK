@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D6D0E0)
-#define RPG_GAMECORE_ROGUETOURNBUFFTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D6D8C0)
+#define RPG_GAMECORE_ROGUETOURNBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BC10F0)
+#define RPG_GAMECORE_ROGUETOURNBUFFTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC18F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournBuffTypeRow_TypeDefinitionIndex = 14225;
+	inline static constexpr unsigned int RogueTournBuffTypeRow_TypeDefinitionIndex = 14284;
 
 	class RogueTournBuffTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* RogueBuffTypeSmallIcon; // 0x10
-		::System::String* RogueBuffTypeIcon; // 0x18
-		::System::String* RogueBuffTypeLargeIcon; // 0x20
-		::System::String* RogueBuffTypeDecoName; // 0x28
-		::RPG::Client::TextID RogueBuffTypeSubTitle; // 0x30
+		::System::String* RogueBuffTypeDecoName; // 0x10
+		::System::String* RogueBuffTypeLargeIcon; // 0x18
+		::System::String* RogueBuffTypeIcon; // 0x20
+		::System::String* RogueBuffTypeSmallIcon; // 0x28
+		::RPG::Client::TextID RogueBuffTypeTitle; // 0x30
 		::System::UInt32 RogueBuffType; // 0x40
-		::RPG::Client::TextID RogueBuffTypeTitle; // 0x48
+		::RPG::Client::TextID RogueBuffTypeSubTitle; // 0x48
 		::RPG::Client::TextID RogueBuffTypeName; // 0x58
 
 		::System::Void _ctor()
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNBUFFTYPEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueTournBuffTypeRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournBuffTypeRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournBuffTypeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNBUFFTYPEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournBuffTypeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNBUFFTYPEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

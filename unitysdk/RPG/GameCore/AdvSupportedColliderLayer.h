@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSupportedColliderLayer_TypeDefinitionIndex = 19495;
+	inline static constexpr unsigned int AdvSupportedColliderLayer_TypeDefinitionIndex = 23170;
 
 	enum class AdvSupportedColliderLayer : ::System::Int32
 	{

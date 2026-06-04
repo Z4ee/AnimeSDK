@@ -8,15 +8,15 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class BaseRaycaster; }
 
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0x22FB3F0)
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x5580)
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x22FB3C0)
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xBDC0)
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22FB440)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0x389B660)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x5B60)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x389B630)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xC630)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x389B6B0)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int RaycastResult_TypeDefinitionIndex = 5827;
+	inline static constexpr unsigned int RaycastResult_TypeDefinitionIndex = 6104;
 
 	struct alignas(8) RaycastResult
 	{
@@ -37,9 +37,9 @@ namespace UnityEngine::EventSystems
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_GET_GAMEOBJECT_OFFSET))(this);
 		}
 
-		::System::Void set_gameObject(::UnityEngine::GameObject* value)
+		::System::Void set_gameObject(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_SET_GAMEOBJECT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_SET_GAMEOBJECT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_isValid()

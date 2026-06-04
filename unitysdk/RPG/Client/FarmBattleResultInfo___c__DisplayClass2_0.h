@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MultipleDropUsedData; }
 
-#define RPG_CLIENT_FARMBATTLERESULTINFO___C__DISPLAYCLASS2_0__ADDBATTLEMULTIPLEDROP_B__0_OFFSET UNITYSDK_OFFSET(0xA327360)
-#define RPG_CLIENT_FARMBATTLERESULTINFO___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA327220)
+#define RPG_CLIENT_FARMBATTLERESULTINFO___C__DISPLAYCLASS2_0__ADDBATTLEMULTIPLEDROP_B__0_OFFSET UNITYSDK_OFFSET(0xB9788C0)
+#define RPG_CLIENT_FARMBATTLERESULTINFO___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB978780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FarmBattleResultInfo___c__DisplayClass2_0_TypeDefinitionIndex = 58848;
+	inline static constexpr unsigned int FarmBattleResultInfo___c__DisplayClass2_0_TypeDefinitionIndex = 59778;
 
 	class FarmBattleResultInfo___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _AddBattleMultipleDrop_b__0(::RPG::Client::MultipleDropUsedData* x)
+		::System::Boolean _AddBattleMultipleDrop_b__0(::RPG::Client::MultipleDropUsedData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MultipleDropUsedData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO___C__DISPLAYCLASS2_0__ADDBATTLEMULTIPLEDROP_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MultipleDropUsedData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FARMBATTLERESULTINFO___C__DISPLAYCLASS2_0__ADDBATTLEMULTIPLEDROP_B__0_OFFSET))(this, a1);
 		}
 	};
 }

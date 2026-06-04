@@ -6,7 +6,7 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_1_7D23BEDBBC457977_TypeDefinitionIndex = 44450;
+inline static constexpr unsigned int Class_1_7D23BEDBBC457977_TypeDefinitionIndex = 44996;
 
 template <typename T>
 class Class_1_7D23BEDBBC457977 : public ::System::Object

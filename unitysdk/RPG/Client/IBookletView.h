@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_987;
-class Class_0_16E4307DCC419505_989;
-class Class_0_16E4307DCC419505_990;
-class Class_0_16E4307DCC419505_992;
+class Class_0_16E4307DCC419505_1037;
+class Class_0_16E4307DCC419505_1039;
+class Class_0_16E4307DCC419505_1040;
+class Class_0_16E4307DCC419505_1042;
 namespace RPG::Client { class Booklet; }
 namespace RPG::Client { class BookletLuaPanelParam; }
 namespace RPG::Client { class UIController; }
@@ -14,7 +14,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IBookletView_TypeDefinitionIndex = 66756;
+	inline static constexpr unsigned int IBookletView_TypeDefinitionIndex = 67696;
 
 	class IBookletView
 	{

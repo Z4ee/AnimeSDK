@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int IDebug_TypeDefinitionIndex = 4266;
+	inline static constexpr unsigned int IDebug_TypeDefinitionIndex = 4440;
 
 	class IDebug
 	{

@@ -5,18 +5,18 @@
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define SIMPLEJSON_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x19DA3B70)
+#define SIMPLEJSON_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x1AC207F0)
 
 namespace SimpleJSON
 {
-	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 9789;
+	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 9616;
 
 	class JSON : public ::System::Object
 	{
 	public:
-		static ::SimpleJSON::JSONNode* Parse(::System::String* aJSON)
+		static ::SimpleJSON::JSONNode* Parse(::System::String* a1)
 		{
-			return ((::SimpleJSON::JSONNode*(*)(::System::String*))((::PBYTE)hIl2Cpp + SIMPLEJSON_JSON_PARSE_OFFSET))(aJSON);
+			return ((::SimpleJSON::JSONNode*(*)(::System::String*))((::PBYTE)hIl2Cpp + SIMPLEJSON_JSON_PARSE_OFFSET))(a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int InternalParseTypeE_TypeDefinitionIndex = 1162;
+	inline static constexpr unsigned int InternalParseTypeE_TypeDefinitionIndex = 1161;
 
 	enum class InternalParseTypeE : ::System::Int32
 	{

@@ -8,11 +8,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_OBJECTINSTANCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8C95A90)
+#define HOUDINIENGINEUNITY_HEU_OBJECTINSTANCEINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x17F236F0)
+#define HOUDINIENGINEUNITY_HEU_OBJECTINSTANCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17F238D0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ObjectInstanceInfo_TypeDefinitionIndex = 43515;
+	inline static constexpr unsigned int HEU_ObjectInstanceInfo_TypeDefinitionIndex = 37449;
 
 	class HEU_ObjectInstanceInfo : public ::UnityEngine::ScriptableObject
 	{
@@ -26,6 +27,11 @@ namespace HoudiniEngineUnity
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_OBJECTINSTANCEINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::HEU_ObjectInstanceInfo* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_ObjectInstanceInfo*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_OBJECTINSTANCEINFO_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
 	};
 }

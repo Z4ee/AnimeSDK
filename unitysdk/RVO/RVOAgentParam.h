@@ -5,7 +5,7 @@
 
 namespace RVO
 {
-	inline static constexpr unsigned int RVOAgentParam_TypeDefinitionIndex = 41050;
+	inline static constexpr unsigned int RVOAgentParam_TypeDefinitionIndex = 41853;
 
 	struct alignas(4) RVOAgentParam
 	{

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BOOKLET_FADEINELEMENTCONFIG_METHOD_3_847194E34086FEEA_OFFSET UNITYSDK_OFFSET(0x18710C80)
-#define RPG_GAMECORE_BOOKLET_FADEINELEMENTCONFIG_METHOD_3_FA70FED62A51102D_OFFSET UNITYSDK_OFFSET(0x18710A80)
-#define RPG_GAMECORE_BOOKLET_FADEINELEMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1870F100)
+#define RPG_GAMECORE_BOOKLET_FADEINELEMENTCONFIG_METHOD_3_847194E34086FEEA_OFFSET UNITYSDK_OFFSET(0x194E37D0)
+#define RPG_GAMECORE_BOOKLET_FADEINELEMENTCONFIG_METHOD_3_E0EFCBD9B0E24525_OFFSET UNITYSDK_OFFSET(0x194E35E0)
+#define RPG_GAMECORE_BOOKLET_FADEINELEMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194E1CA0)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int FadeInElementConfig_TypeDefinitionIndex = 23770;
+	inline static constexpr unsigned int FadeInElementConfig_TypeDefinitionIndex = 23603;
 
 	class FadeInElementConfig : public ::RPG::GameCore::Booklet::ElementConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore::Booklet
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_FADEINELEMENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FA70FED62A51102D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::FadeInElementConfig*& a2)
+		static ::System::Void Method_3_E0EFCBD9B0E24525(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::FadeInElementConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::FadeInElementConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_FADEINELEMENTCONFIG_METHOD_3_FA70FED62A51102D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::FadeInElementConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_FADEINELEMENTCONFIG_METHOD_3_E0EFCBD9B0E24525_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_847194E34086FEEA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::FadeInElementConfig* a2)

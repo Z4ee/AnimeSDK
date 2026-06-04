@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimSurfacePoint; }
 
-#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO_METHOD_2_7F4A8C00A4DFBE23_OFFSET UNITYSDK_OFFSET(0x18920DC0)
-#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x189211B0)
+#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO_METHOD_2_05B7F0AE8D82505D_OFFSET UNITYSDK_OFFSET(0x1975A7B0)
+#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1975AB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSurfaceBakedInfo_TypeDefinitionIndex = 15843;
+	inline static constexpr unsigned int FiveDimSurfaceBakedInfo_TypeDefinitionIndex = 15897;
 
 	class FiveDimSurfaceBakedInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7F4A8C00A4DFBE23(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSurfaceBakedInfo*& a2)
+		static ::System::Void Method_2_05B7F0AE8D82505D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSurfaceBakedInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSurfaceBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO_METHOD_2_7F4A8C00A4DFBE23_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSurfaceBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO_METHOD_2_05B7F0AE8D82505D_OFFSET))(a1, a2);
 		}
 	};
 }

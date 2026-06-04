@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MazeBuff; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_METHOD_3_40CD5B3E2A165DCD_OFFSET UNITYSDK_OFFSET(0x190C7F70)
-#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_METHOD_3_4BDC7F65FE396F74_OFFSET UNITYSDK_OFFSET(0x190C7EF0)
-#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x190C7F40)
+#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_METHOD_3_49EA2327E73CF47E_OFFSET UNITYSDK_OFFSET(0x19E173A0)
+#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_METHOD_3_ECCA57F55DB8866F_OFFSET UNITYSDK_OFFSET(0x19E17420)
+#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E173F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerMazeBuffSelect_TypeDefinitionIndex = 19370;
+	inline static constexpr unsigned int TriggerMazeBuffSelect_TypeDefinitionIndex = 19278;
 
 	class TriggerMazeBuffSelect : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZEBUFFSELECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4BDC7F65FE396F74(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerMazeBuffSelect*& a2)
+		static ::System::Void Method_3_49EA2327E73CF47E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerMazeBuffSelect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerMazeBuffSelect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_METHOD_3_4BDC7F65FE396F74_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerMazeBuffSelect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_METHOD_3_49EA2327E73CF47E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_40CD5B3E2A165DCD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerMazeBuffSelect* a2)
+		static ::System::Void Method_3_ECCA57F55DB8866F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerMazeBuffSelect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerMazeBuffSelect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_METHOD_3_40CD5B3E2A165DCD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerMazeBuffSelect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_METHOD_3_ECCA57F55DB8866F_OFFSET))(a1, a2);
 		}
 	};
 }

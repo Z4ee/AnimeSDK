@@ -7,13 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB903500)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB9035B0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB903690)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD044870)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD044920)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD044A00)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PolaroidTimelineTrack_TypeDefinitionIndex = 45308;
+	inline static constexpr unsigned int PolaroidTimelineTrack_TypeDefinitionIndex = 45865;
 
 	class PolaroidTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -28,9 +28,9 @@ namespace RPGTools::Timeline::PostProcessing
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::UnityEngine::Timeline::TimelineClip* P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

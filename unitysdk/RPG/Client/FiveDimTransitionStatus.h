@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimTransitionStatus_TypeDefinitionIndex = 59084;
+	inline static constexpr unsigned int FiveDimTransitionStatus_TypeDefinitionIndex = 60014;
 
 	enum class FiveDimTransitionStatus : ::System::Int32
 	{

@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDECHALLENGERANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18682650)
-#define RPG_GAMECORE_AETHERDIVIDECHALLENGERANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18682DE0)
+#define RPG_GAMECORE_AETHERDIVIDECHALLENGERANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19459940)
+#define RPG_GAMECORE_AETHERDIVIDECHALLENGERANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1945A0B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideChallengeRankRow_TypeDefinitionIndex = 10471;
+	inline static constexpr unsigned int AetherDivideChallengeRankRow_TypeDefinitionIndex = 10511;
 
 	class AetherDivideChallengeRankRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::System::UInt32 ActivityModuleID; // 0x18
-		::System::Boolean IsHard; // 0x1C
+		::System::UInt32 PreRank; // 0x1C
 		::System::UInt32 ChallengeRank; // 0x20
-		::System::UInt32 PreRank; // 0x24
+		::System::Boolean IsHard; // 0x24
 		::System::UInt32 TrainerLevel; // 0x28
 		::System::UInt32 FunctionUnlockID; // 0x2C
 		::RPG::Client::TextID UnlockText; // 0x30
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDECHALLENGERANKROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AetherDivideChallengeRankRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AetherDivideChallengeRankRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AetherDivideChallengeRankRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDECHALLENGERANKROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AetherDivideChallengeRankRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDECHALLENGERANKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

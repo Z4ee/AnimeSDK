@@ -6,31 +6,31 @@ namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class Instruction; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE_BOXIFINDEXMATCHES_OFFSET UNITYSDK_OFFSET(0x19F075D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x19F076A0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE_RUN_OFFSET UNITYSDK_OFFSET(0x19F07580)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F07570)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE_BOXIFINDEXMATCHES_OFFSET UNITYSDK_OFFSET(0x1AD7ED50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1AD7EE20)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE_RUN_OFFSET UNITYSDK_OFFSET(0x1AD7ED10)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD7ED00)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int InitializeLocalInstruction_Reference_TypeDefinitionIndex = 3496;
+	inline static constexpr unsigned int InitializeLocalInstruction_Reference_TypeDefinitionIndex = 3497;
 
 	class InitializeLocalInstruction_Reference : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction
 	{
 	public:
-		::System::Void _ctor(::System::Int32 index)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE__CTOR_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame)
+		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE_RUN_OFFSET))(this, frame);
+			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE_RUN_OFFSET))(this, a1);
 		}
 
-		::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(::System::Int32 index)
+		::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(::System::Int32 a1)
 		{
-			return ((::System::Linq::Expressions::Interpreter::Instruction*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE_BOXIFINDEXMATCHES_OFFSET))(this, index);
+			return ((::System::Linq::Expressions::Interpreter::Instruction*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_REFERENCE_BOXIFINDEXMATCHES_OFFSET))(this, a1);
 		}
 
 		::System::String* get_InstructionName()

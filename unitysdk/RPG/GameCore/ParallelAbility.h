@@ -10,12 +10,12 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PARALLELABILITY_METHOD_2_F66BDF046C282114_OFFSET UNITYSDK_OFFSET(0x18BD1EC0)
-#define RPG_GAMECORE_PARALLELABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD2210)
+#define RPG_GAMECORE_PARALLELABILITY_METHOD_2_EB4C0F572024977D_OFFSET UNITYSDK_OFFSET(0x199E3AD0)
+#define RPG_GAMECORE_PARALLELABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x199E3E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParallelAbility_TypeDefinitionIndex = 21585;
+	inline static constexpr unsigned int ParallelAbility_TypeDefinitionIndex = 21450;
 
 	class ParallelAbility : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARALLELABILITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F66BDF046C282114(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParallelAbility*& a2)
+		static ::System::Void Method_2_EB4C0F572024977D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParallelAbility*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParallelAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARALLELABILITY_METHOD_2_F66BDF046C282114_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParallelAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARALLELABILITY_METHOD_2_EB4C0F572024977D_OFFSET))(a1, a2);
 		}
 	};
 }

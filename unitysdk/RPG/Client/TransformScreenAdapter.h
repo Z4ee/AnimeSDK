@@ -9,12 +9,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_TRANSFORMSCREENADAPTER_METHOD_1_03634C321C72FBE4_OFFSET UNITYSDK_OFFSET(0xB374550)
-#define RPG_CLIENT_TRANSFORMSCREENADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB3761E0)
+#define RPG_CLIENT_TRANSFORMSCREENADAPTER_METHOD_1_05334CD74237686D_OFFSET UNITYSDK_OFFSET(0xCAD0340)
+#define RPG_CLIENT_TRANSFORMSCREENADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCAD2240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransformScreenAdapter_TypeDefinitionIndex = 64844;
+	inline static constexpr unsigned int TransformScreenAdapter_TypeDefinitionIndex = 65770;
 
 	class TransformScreenAdapter : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFORMSCREENADAPTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_03634C321C72FBE4(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Camera* a4)
+		::System::Void Method_1_05334CD74237686D(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Camera* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFORMSCREENADAPTER_METHOD_1_03634C321C72FBE4_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFORMSCREENADAPTER_METHOD_1_05334CD74237686D_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

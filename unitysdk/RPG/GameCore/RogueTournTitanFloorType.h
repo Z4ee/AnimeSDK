@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournTitanFloorType_TypeDefinitionIndex = 10413;
+	inline static constexpr unsigned int RogueTournTitanFloorType_TypeDefinitionIndex = 10246;
 
 	enum class RogueTournTitanFloorType : ::System::Int32
 	{

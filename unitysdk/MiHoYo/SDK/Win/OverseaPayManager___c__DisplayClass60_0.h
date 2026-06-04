@@ -6,13 +6,13 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Win { class OverseaPayManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1749D110)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_0__REQUESTADYENCREATEORDER_B__0_OFFSET UNITYSDK_OFFSET(0x1749EE10)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_0__REQUESTADYENCREATEORDER_G__CANCELCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x174A0B60)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1829C800)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_0__REQUESTADYENCREATEORDER_B__0_OFFSET UNITYSDK_OFFSET(0x1829E5E0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_0__REQUESTADYENCREATEORDER_G__CANCELCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x182A01F0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass60_0_TypeDefinitionIndex = 8100;
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass60_0_TypeDefinitionIndex = 9003;
 
 	class OverseaPayManager___c__DisplayClass60_0 : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RequestAdyenCreateOrder_b__0(::MiHoYo::SDK::NetworkResponseModelEx* response)
+		::System::Void _RequestAdyenCreateOrder_b__0(::MiHoYo::SDK::NetworkResponseModelEx* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_0__REQUESTADYENCREATEORDER_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_0__REQUESTADYENCREATEORDER_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _RequestAdyenCreateOrder_g__cancelCallback_1(::System::String* message)
+		::System::Void _RequestAdyenCreateOrder_g__cancelCallback_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_0__REQUESTADYENCREATEORDER_G__CANCELCALLBACK_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS60_0__REQUESTADYENCREATEORDER_G__CANCELCALLBACK_1_OFFSET))(this, a1);
 		}
 	};
 }

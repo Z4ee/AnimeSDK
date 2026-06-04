@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
-class Class_3_A8BD69BBCFA191B1;
+class Class_3_5708A63D2DD68530;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_DYNAMICFLOATINGMANAGERMONO__CTOR_OFFSET UNITYSDK_OFFSET(0xA19F910)
+#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_DYNAMICFLOATINGMANAGERMONO__CTOR_OFFSET UNITYSDK_OFFSET(0xB821210)
 
 namespace RPG::Client::DynamicFloatingObject
 {
-	inline static constexpr unsigned int DynamicFloatingManagerMono_TypeDefinitionIndex = 67708;
+	inline static constexpr unsigned int DynamicFloatingManagerMono_TypeDefinitionIndex = 68666;
 
-	class DynamicFloatingManagerMono : public ::RPG::Client::TAMonoPlugin_1<::Class_3_A8BD69BBCFA191B1*>
+	class DynamicFloatingManagerMono : public ::RPG::Client::TAMonoPlugin_1<::Class_3_5708A63D2DD68530*>
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* obj; // 0x30

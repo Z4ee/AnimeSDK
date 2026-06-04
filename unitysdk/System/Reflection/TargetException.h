@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_TARGETEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x179ABA20)
-#define SYSTEM_REFLECTION_TARGETEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x179AD770)
-#define SYSTEM_REFLECTION_TARGETEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x179AD6D0)
+#define SYSTEM_REFLECTION_TARGETEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1875D0C0)
+#define SYSTEM_REFLECTION_TARGETEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1875EE10)
+#define SYSTEM_REFLECTION_TARGETEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1875ED70)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int TargetException_TypeDefinitionIndex = 585;
+	inline static constexpr unsigned int TargetException_TypeDefinitionIndex = 584;
 
 	class TargetException : public ::System::ApplicationException
 	{
@@ -22,14 +22,14 @@ namespace System::Reflection
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETEXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETEXCEPTION__CTOR_2_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TARGETEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 	};
 }

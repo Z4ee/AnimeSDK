@@ -11,54 +11,54 @@ namespace System::Runtime::Serialization::Formatters::Binary { class ObjectReade
 namespace System::Runtime::Serialization::Formatters::Binary { class ReadObjectInfo; }
 namespace System::Runtime::Serialization::Formatters::Binary { class SizedArray; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATEOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x17A00F80)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_1_OFFSET UNITYSDK_OFFSET(0x17A01120)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_OFFSET UNITYSDK_OFFSET(0x17A01090)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A00920)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x179FFDF0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATEOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x187B00C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_1_OFFSET UNITYSDK_OFFSET(0x187B0260)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_OFFSET UNITYSDK_OFFSET(0x187B01D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x187AFAA0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x187AF0C0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ObjectMap_TypeDefinitionIndex = 1155;
+	inline static constexpr unsigned int ObjectMap_TypeDefinitionIndex = 1154;
 
 	class ObjectMap : public ::System::Object
 	{
 	public:
-		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x10
-		::Il2CppArray<::System::String*>* memberNames; // 0x18
-		::System::String* objectName; // 0x20
-		::Il2CppArray<::System::Object*>* typeInformationA; // 0x28
-		::Il2CppArray<::System::Type*>* memberTypes; // 0x30
-		::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader; // 0x38
-		::System::Type* objectType; // 0x40
-		::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA; // 0x48
-		::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo; // 0x50
-		::System::Int32 objectId; // 0x58
-		::System::Boolean isInitObjectInfo; // 0x5C
+		::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA; // 0x10
+		::System::String* objectName; // 0x18
+		::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo; // 0x20
+		::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader; // 0x28
+		::Il2CppArray<::System::String*>* memberNames; // 0x30
+		::System::Type* objectType; // 0x38
+		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x40
+		::Il2CppArray<::System::Object*>* typeInformationA; // 0x48
+		::Il2CppArray<::System::Type*>* memberTypes; // 0x50
+		::System::Boolean isInitObjectInfo; // 0x58
+		::System::Int32 objectId; // 0x5C
 
-		::System::Void _ctor(::System::String* objectName, ::System::Type* objectType, ::Il2CppArray<::System::String*>* memberNames, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, ::System::Int32 objectId, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo)
+		::System::Void _ctor(::System::String* a1, ::System::Type* a2, ::Il2CppArray<::System::String*>* a3, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* a4, ::System::Int32 a5, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*, ::Il2CppArray<::System::String*>*, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*, ::System::Int32, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_OFFSET))(this, objectName, objectType, memberNames, objectReader, objectId, assemblyInfo);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*, ::Il2CppArray<::System::String*>*, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*, ::System::Int32, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void _ctor_1(::System::String* objectName, ::Il2CppArray<::System::String*>* memberNames, ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA, ::Il2CppArray<::System::Object*>* typeInformationA, ::Il2CppArray<::System::Int32>* memberAssemIds, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, ::System::Int32 objectId, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable)
+		::System::Void _ctor_1(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* a3, ::Il2CppArray<::System::Object*>* a4, ::Il2CppArray<::System::Int32>* a5, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* a6, ::System::Int32 a7, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* a8, ::System::Runtime::Serialization::Formatters::Binary::SizedArray* a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Int32>*, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*, ::System::Int32, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, ::System::Runtime::Serialization::Formatters::Binary::SizedArray*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_1_OFFSET))(this, objectName, memberNames, binaryTypeEnumA, typeInformationA, memberAssemIds, objectReader, objectId, assemblyInfo, assemIdToAssemblyTable);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Int32>*, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*, ::System::Int32, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, ::System::Runtime::Serialization::Formatters::Binary::SizedArray*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateObjectInfo(::System::Runtime::Serialization::SerializationInfo*& si, ::Il2CppArray<::System::Object*>*& memberData)
+		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateObjectInfo(::System::Runtime::Serialization::SerializationInfo*& a1, ::Il2CppArray<::System::Object*>*& a2)
 		{
-			return ((::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*&, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATEOBJECTINFO_OFFSET))(this, si, memberData);
+			return ((::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*&, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATEOBJECTINFO_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create(::System::String* name, ::System::Type* objectType, ::Il2CppArray<::System::String*>* memberNames, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, ::System::Int32 objectId, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo)
+		static ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create(::System::String* a1, ::System::Type* a2, ::Il2CppArray<::System::String*>* a3, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* a4, ::System::Int32 a5, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* a6)
 		{
-			return ((::System::Runtime::Serialization::Formatters::Binary::ObjectMap*(*)(::System::String*, ::System::Type*, ::Il2CppArray<::System::String*>*, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*, ::System::Int32, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_OFFSET))(name, objectType, memberNames, objectReader, objectId, assemblyInfo);
+			return ((::System::Runtime::Serialization::Formatters::Binary::ObjectMap*(*)(::System::String*, ::System::Type*, ::Il2CppArray<::System::String*>*, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*, ::System::Int32, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create_1(::System::String* name, ::Il2CppArray<::System::String*>* memberNames, ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA, ::Il2CppArray<::System::Object*>* typeInformationA, ::Il2CppArray<::System::Int32>* memberAssemIds, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, ::System::Int32 objectId, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable)
+		static ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create_1(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* a3, ::Il2CppArray<::System::Object*>* a4, ::Il2CppArray<::System::Int32>* a5, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* a6, ::System::Int32 a7, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* a8, ::System::Runtime::Serialization::Formatters::Binary::SizedArray* a9)
 		{
-			return ((::System::Runtime::Serialization::Formatters::Binary::ObjectMap*(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Int32>*, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*, ::System::Int32, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, ::System::Runtime::Serialization::Formatters::Binary::SizedArray*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_1_OFFSET))(name, memberNames, binaryTypeEnumA, typeInformationA, memberAssemIds, objectReader, objectId, assemblyInfo, assemIdToAssemblyTable);
+			return ((::System::Runtime::Serialization::Formatters::Binary::ObjectMap*(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Int32>*, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*, ::System::Int32, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, ::System::Runtime::Serialization::Formatters::Binary::SizedArray*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAP_CREATE_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 	};
 }

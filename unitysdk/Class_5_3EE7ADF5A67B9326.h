@@ -3,22 +3,22 @@
 #include "unitysdk/Class_4_BDA5D81D1FA3765D.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define CLASS_5_3EE7ADF5A67B9326_METHOD_5_03688BC166BEA0A4_OFFSET UNITYSDK_OFFSET(0x9297350)
-#define CLASS_5_3EE7ADF5A67B9326_METHOD_5_781652AB1DC33016_OFFSET UNITYSDK_OFFSET(0x9297470)
-#define CLASS_5_3EE7ADF5A67B9326_METHOD_5_7E992C32908BE978_OFFSET UNITYSDK_OFFSET(0x9297580)
-#define CLASS_5_3EE7ADF5A67B9326_METHOD_5_E7804A0288D2A012_OFFSET UNITYSDK_OFFSET(0x9297180)
-#define CLASS_5_3EE7ADF5A67B9326__CTOR_OFFSET UNITYSDK_OFFSET(0x9297320)
+#define CLASS_5_3EE7ADF5A67B9326_METHOD_5_03688BC166BEA0A4_OFFSET UNITYSDK_OFFSET(0x13B124F0)
+#define CLASS_5_3EE7ADF5A67B9326_METHOD_5_49D32B83708F3190_OFFSET UNITYSDK_OFFSET(0x13B12720)
+#define CLASS_5_3EE7ADF5A67B9326_METHOD_5_781652AB1DC33016_OFFSET UNITYSDK_OFFSET(0x13B12610)
+#define CLASS_5_3EE7ADF5A67B9326_METHOD_5_E7804A0288D2A012_OFFSET UNITYSDK_OFFSET(0x13B12320)
+#define CLASS_5_3EE7ADF5A67B9326__CTOR_OFFSET UNITYSDK_OFFSET(0x13B124C0)
 
-inline static constexpr unsigned int Class_5_3EE7ADF5A67B9326_TypeDefinitionIndex = 67647;
+inline static constexpr unsigned int Class_5_3EE7ADF5A67B9326_TypeDefinitionIndex = 68605;
 
 class Class_5_3EE7ADF5A67B9326 : public ::Class_4_BDA5D81D1FA3765D
 {
 public:
 	// static const ::System::Single Field_5_0; // 0x0
-	::System::Single Field_5_2; // 0x90
-	::System::Single Field_5_4; // 0x94
-	::System::Single Field_5_1; // 0x98
-	::System::Single Field_5_3; // 0x9C
+	::System::Single Field_5_1; // 0x90
+	::System::Single Field_5_2; // 0x94
+	::System::Single Field_5_3; // 0x98
+	::System::Single Field_5_4; // 0x9C
 
 	::System::Void _ctor()
 	{
@@ -40,8 +40,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CLASS_5_3EE7ADF5A67B9326_METHOD_5_781652AB1DC33016_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_5_7E992C32908BE978(::UnityEngine::Color P0)
+	::System::Void Method_5_49D32B83708F3190(::UnityEngine::Color a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CLASS_5_3EE7ADF5A67B9326_METHOD_5_7E992C32908BE978_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CLASS_5_3EE7ADF5A67B9326_METHOD_5_49D32B83708F3190_OFFSET))(this, a1);
 	}
 };

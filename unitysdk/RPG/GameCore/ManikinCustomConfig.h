@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MANIKINCUSTOMCONFIG_METHOD_2_6E957413B4CB540B_OFFSET UNITYSDK_OFFSET(0x18A86970)
-#define RPG_GAMECORE_MANIKINCUSTOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A86B20)
+#define RPG_GAMECORE_MANIKINCUSTOMCONFIG_METHOD_2_86FB05DBD7BDCC5D_OFFSET UNITYSDK_OFFSET(0x198BA0D0)
+#define RPG_GAMECORE_MANIKINCUSTOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198BA280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinCustomConfig_TypeDefinitionIndex = 16585;
+	inline static constexpr unsigned int ManikinCustomConfig_TypeDefinitionIndex = 16615;
 
 	class ManikinCustomConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINCUSTOMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6E957413B4CB540B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ManikinCustomConfig*& a2)
+		static ::System::Void Method_2_86FB05DBD7BDCC5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ManikinCustomConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ManikinCustomConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINCUSTOMCONFIG_METHOD_2_6E957413B4CB540B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ManikinCustomConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINCUSTOMCONFIG_METHOD_2_86FB05DBD7BDCC5D_OFFSET))(a1, a2);
 		}
 	};
 }

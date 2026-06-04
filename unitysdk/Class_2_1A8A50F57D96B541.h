@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_1_A0A2B4808490646F;
+class Class_1_FE960BFE71661018;
 namespace RPG::GameCore { class ModifyTeamBoostPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_1A8A50F57D96B541_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE653440)
-#define CLASS_2_1A8A50F57D96B541_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE6534E0)
-#define CLASS_2_1A8A50F57D96B541_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE6538C0)
-#define CLASS_2_1A8A50F57D96B541_TICK_OFFSET UNITYSDK_OFFSET(0xE653910)
-#define CLASS_2_1A8A50F57D96B541__CTOR_OFFSET UNITYSDK_OFFSET(0xE653380)
+#define CLASS_2_1A8A50F57D96B541_DISPOSE_OFFSET UNITYSDK_OFFSET(0x141F0DA0)
+#define CLASS_2_1A8A50F57D96B541_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x141F0E40)
+#define CLASS_2_1A8A50F57D96B541_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x141F11A0)
+#define CLASS_2_1A8A50F57D96B541_TICK_OFFSET UNITYSDK_OFFSET(0x141F11F0)
+#define CLASS_2_1A8A50F57D96B541__CTOR_OFFSET UNITYSDK_OFFSET(0x141F0CE0)
 
-inline static constexpr unsigned int Class_2_1A8A50F57D96B541_TypeDefinitionIndex = 50911;
+inline static constexpr unsigned int Class_2_1A8A50F57D96B541_TypeDefinitionIndex = 51581;
 
 class Class_2_1A8A50F57D96B541 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::Class_1_A0A2B4808490646F* Field_2_2; // 0x20
-	::RPG::GameCore::ModifyTeamBoostPoint* Field_2_0; // 0x28
+	::Class_1_FE960BFE71661018* Field_2_0; // 0x18
+	::RPG::GameCore::ModifyTeamBoostPoint* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifyTeamBoostPoint* a2)
 	{

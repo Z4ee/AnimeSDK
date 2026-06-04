@@ -6,22 +6,22 @@ namespace RPG::Client { class MonoEffectCharacterMoonHaloControl; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define CLASS_2_33E112708C5C288F_METHOD_2_050D955490C4C3D0_OFFSET UNITYSDK_OFFSET(0x125085A0)
-#define CLASS_2_33E112708C5C288F_METHOD_2_85DCCD8CA964D96A_OFFSET UNITYSDK_OFFSET(0x12508420)
-#define CLASS_2_33E112708C5C288F_METHOD_2_8A4C6820E5F5715F_OFFSET UNITYSDK_OFFSET(0x12508550)
-#define CLASS_2_33E112708C5C288F_METHOD_2_90D019D81149A8BA_OFFSET UNITYSDK_OFFSET(0x125088E0)
-#define CLASS_2_33E112708C5C288F_METHOD_2_9DB2C80C0CD4760B_OFFSET UNITYSDK_OFFSET(0x125084F0)
-#define CLASS_2_33E112708C5C288F_METHOD_2_DAA5E5E8B8991340_OFFSET UNITYSDK_OFFSET(0x12508860)
-#define CLASS_2_33E112708C5C288F__CTOR_OFFSET UNITYSDK_OFFSET(0x125088D0)
+#define CLASS_2_33E112708C5C288F_METHOD_2_02D0A01C19608509_OFFSET UNITYSDK_OFFSET(0x142DE780)
+#define CLASS_2_33E112708C5C288F_METHOD_2_585E2EA201FDE7ED_OFFSET UNITYSDK_OFFSET(0x142DE430)
+#define CLASS_2_33E112708C5C288F_METHOD_2_84895CD37C104CC6_OFFSET UNITYSDK_OFFSET(0x142DE480)
+#define CLASS_2_33E112708C5C288F_METHOD_2_85DCCD8CA964D96A_OFFSET UNITYSDK_OFFSET(0x142DE300)
+#define CLASS_2_33E112708C5C288F_METHOD_2_9DB2C80C0CD4760B_OFFSET UNITYSDK_OFFSET(0x142DE3D0)
+#define CLASS_2_33E112708C5C288F_METHOD_2_DEDB6D705D6319DA_OFFSET UNITYSDK_OFFSET(0x142DE800)
+#define CLASS_2_33E112708C5C288F__CTOR_OFFSET UNITYSDK_OFFSET(0x142DE7F0)
 
-inline static constexpr unsigned int Class_2_33E112708C5C288F_TypeDefinitionIndex = 64872;
+inline static constexpr unsigned int Class_2_33E112708C5C288F_TypeDefinitionIndex = 65798;
 
 class Class_2_33E112708C5C288F : public ::RPG::Client::BehaviorBase
 {
 public:
-	::UnityEngine::MaterialPropertyBlock* Field_2_2; // 0x18
-	::System::Single Field_2_0; // 0x20
-	::System::Single Field_2_1; // 0x24
+	::UnityEngine::MaterialPropertyBlock* Field_2_0; // 0x18
+	::System::Single Field_2_1; // 0x20
+	::System::Single Field_2_2; // 0x24
 
 	::System::Void _ctor()
 	{
@@ -33,9 +33,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + CLASS_2_33E112708C5C288F_METHOD_2_85DCCD8CA964D96A_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_8A4C6820E5F5715F()
+	::System::Void Method_2_585E2EA201FDE7ED()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_33E112708C5C288F_METHOD_2_8A4C6820E5F5715F_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_33E112708C5C288F_METHOD_2_585E2EA201FDE7ED_OFFSET))(this);
 	}
 
 	::System::Void Method_2_9DB2C80C0CD4760B()
@@ -43,18 +43,18 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_33E112708C5C288F_METHOD_2_9DB2C80C0CD4760B_OFFSET))(this);
 	}
 
-	::System::Void Method_2_050D955490C4C3D0()
+	::System::Void Method_2_84895CD37C104CC6()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_33E112708C5C288F_METHOD_2_050D955490C4C3D0_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_33E112708C5C288F_METHOD_2_84895CD37C104CC6_OFFSET))(this);
 	}
 
-	::RPG::Client::MonoEffectCharacterMoonHaloControl* Method_2_DAA5E5E8B8991340()
+	::RPG::Client::MonoEffectCharacterMoonHaloControl* Method_2_02D0A01C19608509()
 	{
-		return ((::RPG::Client::MonoEffectCharacterMoonHaloControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_33E112708C5C288F_METHOD_2_DAA5E5E8B8991340_OFFSET))(this);
+		return ((::RPG::Client::MonoEffectCharacterMoonHaloControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_33E112708C5C288F_METHOD_2_02D0A01C19608509_OFFSET))(this);
 	}
 
-	::System::Void Method_2_90D019D81149A8BA(::UnityEngine::MonoBehaviour* P0)
+	::System::Void Method_2_DEDB6D705D6319DA(::UnityEngine::MonoBehaviour* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + CLASS_2_33E112708C5C288F_METHOD_2_90D019D81149A8BA_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + CLASS_2_33E112708C5C288F_METHOD_2_DEDB6D705D6319DA_OFFSET))(this, a1);
 	}
 };

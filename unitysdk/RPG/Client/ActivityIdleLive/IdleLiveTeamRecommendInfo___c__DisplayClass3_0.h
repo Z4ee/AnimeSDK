@@ -6,12 +6,12 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarTagConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B823B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS3_0___HASMATCHEDTAGONCAPTAIN_B__0_OFFSET UNITYSDK_OFFSET(0x9B825B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB16BBE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS3_0___HASMATCHEDTAGONCAPTAIN_B__0_OFFSET UNITYSDK_OFFSET(0xB16BED0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass3_0_TypeDefinitionIndex = 69146;
+	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass3_0_TypeDefinitionIndex = 69958;
 
 	class IdleLiveTeamRecommendInfo___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __HasMatchedTagOnCaptain_b__0(::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig* tagConfig)
+		::System::Boolean __HasMatchedTagOnCaptain_b__0(::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS3_0___HASMATCHEDTAGONCAPTAIN_B__0_OFFSET))(this, tagConfig);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS3_0___HASMATCHEDTAGONCAPTAIN_B__0_OFFSET))(this, a1);
 		}
 	};
 }

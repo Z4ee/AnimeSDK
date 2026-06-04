@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NounArchiveType_TypeDefinitionIndex = 57602;
+	inline static constexpr unsigned int NounArchiveType_TypeDefinitionIndex = 58414;
 
 	enum class NounArchiveType : ::System::Int32
 	{

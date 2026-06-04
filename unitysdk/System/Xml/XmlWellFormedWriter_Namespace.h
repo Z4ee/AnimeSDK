@@ -7,8 +7,8 @@ namespace System { class String; }
 namespace System::Xml { class XmlRawWriter; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_SET_OFFSET UNITYSDK_OFFSET(0x22D31B0)
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_WRITEDECL_OFFSET UNITYSDK_OFFSET(0x22D31D0)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_SET_OFFSET UNITYSDK_OFFSET(0x386E0C0)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_WRITEDECL_OFFSET UNITYSDK_OFFSET(0x386E0E0)
 
 namespace System::Xml
 {
@@ -21,14 +21,14 @@ namespace System::Xml
 		::System::Xml::XmlWellFormedWriter_NamespaceKind kind; // 0x20
 		::System::Int32 prevNsIndex; // 0x24
 
-		::System::Void Set(::System::String* prefix, ::System::String* namespaceUri, ::System::Xml::XmlWellFormedWriter_NamespaceKind kind)
+		::System::Void Set(::System::String* a1, ::System::String* a2, ::System::Xml::XmlWellFormedWriter_NamespaceKind a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Xml::XmlWellFormedWriter_NamespaceKind))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_SET_OFFSET))(this, prefix, namespaceUri, kind);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Xml::XmlWellFormedWriter_NamespaceKind))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_SET_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteDecl(::System::Xml::XmlWriter* writer, ::System::Xml::XmlRawWriter* rawWriter)
+		::System::Void WriteDecl(::System::Xml::XmlWriter* a1, ::System::Xml::XmlRawWriter* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*, ::System::Xml::XmlRawWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_WRITEDECL_OFFSET))(this, writer, rawWriter);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*, ::System::Xml::XmlRawWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_WRITEDECL_OFFSET))(this, a1, a2);
 		}
 	};
 }

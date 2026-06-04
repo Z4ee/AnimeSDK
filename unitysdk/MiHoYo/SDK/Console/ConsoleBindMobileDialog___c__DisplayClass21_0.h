@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Console { class ConsoleBindMobileDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17430440)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x17431BA0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18232DD0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18234470)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleBindMobileDialog___c__DisplayClass21_0_TypeDefinitionIndex = 7722;
+	inline static constexpr unsigned int ConsoleBindMobileDialog___c__DisplayClass21_0_TypeDefinitionIndex = 8625;
 
 	class ConsoleBindMobileDialog___c__DisplayClass21_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG___C__DISPLAYCLASS21_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::Console::ConsoleBindMobileDialog* dialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::Console::ConsoleBindMobileDialog* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Console::ConsoleBindMobileDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Console::ConsoleBindMobileDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBINDMOBILEDIALOG___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

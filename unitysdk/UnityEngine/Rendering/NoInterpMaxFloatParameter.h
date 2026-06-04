@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define UNITYENGINE_RENDERING_NOINTERPMAXFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A321FD0)
-#define UNITYENGINE_RENDERING_NOINTERPMAXFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A321FE0)
-#define UNITYENGINE_RENDERING_NOINTERPMAXFLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A321FF0)
+#define UNITYENGINE_RENDERING_NOINTERPMAXFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B17C8F0)
+#define UNITYENGINE_RENDERING_NOINTERPMAXFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B17C900)
+#define UNITYENGINE_RENDERING_NOINTERPMAXFLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17C910)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpMaxFloatParameter_TypeDefinitionIndex = 33549;
+	inline static constexpr unsigned int NoInterpMaxFloatParameter_TypeDefinitionIndex = 33831;
 
 	class NoInterpMaxFloatParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::System::Single>
 	{
 	public:
 		::System::Single max; // 0x20
 
-		::System::Void _ctor(::System::Single value, ::System::Single max, ::System::Boolean overrideState)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPMAXFLOATPARAMETER__CTOR_OFFSET))(this, value, max, overrideState);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPMAXFLOATPARAMETER__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Single get_value()
@@ -25,9 +25,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPMAXFLOATPARAMETER_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_value(::System::Single value)
+		::System::Void set_value(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPMAXFLOATPARAMETER_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPMAXFLOATPARAMETER_SET_VALUE_OFFSET))(this, a1);
 		}
 	};
 }

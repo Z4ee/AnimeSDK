@@ -6,7 +6,7 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IExposedPropertyTable_TypeDefinitionIndex = 3886;
+	inline static constexpr unsigned int IExposedPropertyTable_TypeDefinitionIndex = 4060;
 
 	class IExposedPropertyTable
 	{

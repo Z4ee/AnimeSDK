@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int TypeNames_TypeDefinitionIndex = 438;
+	inline static constexpr unsigned int TypeNames_TypeDefinitionIndex = 437;
 
 	class TypeNames : public ::System::Object
 	{

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class CharacterEyeCtrlConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTEREYECTRLMAPPINGCONFIG_METHOD_2_560EFF3130BB177D_OFFSET UNITYSDK_OFFSET(0x187D1120)
-#define RPG_GAMECORE_CHARACTEREYECTRLMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187D11F0)
+#define RPG_GAMECORE_CHARACTEREYECTRLMAPPINGCONFIG_METHOD_2_72E3807973F21397_OFFSET UNITYSDK_OFFSET(0x1960D670)
+#define RPG_GAMECORE_CHARACTEREYECTRLMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1960D750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEyeCtrlMappingConfig_TypeDefinitionIndex = 16559;
+	inline static constexpr unsigned int CharacterEyeCtrlMappingConfig_TypeDefinitionIndex = 16589;
 
 	class CharacterEyeCtrlMappingConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREYECTRLMAPPINGCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_560EFF3130BB177D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterEyeCtrlMappingConfig*& a2)
+		static ::System::Void Method_2_72E3807973F21397(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterEyeCtrlMappingConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterEyeCtrlMappingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREYECTRLMAPPINGCONFIG_METHOD_2_560EFF3130BB177D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterEyeCtrlMappingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEREYECTRLMAPPINGCONFIG_METHOD_2_72E3807973F21397_OFFSET))(a1, a2);
 		}
 	};
 }

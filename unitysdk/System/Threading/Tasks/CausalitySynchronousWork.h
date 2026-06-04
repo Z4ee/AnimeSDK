@@ -3,7 +3,7 @@
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int CausalitySynchronousWork_TypeDefinitionIndex = 884;
+	inline static constexpr unsigned int CausalitySynchronousWork_TypeDefinitionIndex = 883;
 
 	enum class CausalitySynchronousWork : ::System::Int32
 	{

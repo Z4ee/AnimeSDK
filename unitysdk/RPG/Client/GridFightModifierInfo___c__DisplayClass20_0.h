@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightGameModifier; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4F4FA0)
-#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS20_0__GETMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0xA4F5EB0)
+#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB9B4A0)
+#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS20_0__GETMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0xBB9C290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass20_0_TypeDefinitionIndex = 59886;
+	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass20_0_TypeDefinitionIndex = 60821;
 
 	class GridFightModifierInfo___c__DisplayClass20_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetModifier_b__0(::RPG::Client::GridFightGameModifier* modifier)
+		::System::Boolean _GetModifier_b__0(::RPG::Client::GridFightGameModifier* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGameModifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS20_0__GETMODIFIER_B__0_OFFSET))(this, modifier);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGameModifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS20_0__GETMODIFIER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

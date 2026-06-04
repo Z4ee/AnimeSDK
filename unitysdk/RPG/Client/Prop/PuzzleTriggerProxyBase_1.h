@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_705B862E649BF345;
+class Class_2_CB25D7A6FABF07EF;
 namespace RPG::Client::Prop { class PuzzleBoardBase; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class OptionTriggerInfo; }
@@ -17,7 +17,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PuzzleTriggerProxyBase_1_TypeDefinitionIndex = 72381;
+	inline static constexpr unsigned int PuzzleTriggerProxyBase_1_TypeDefinitionIndex = 73403;
 
 	template <typename T>
 	class PuzzleTriggerProxyBase_1 : public ::System::Object
@@ -33,7 +33,7 @@ namespace RPG::Client::Prop
 		::RPG::GameCore::GameEntity* _Player; // 0x0
 		::UnityEngine::Transform* _SelfTransform; // 0x0
 		::RPG::GameCore::TransformComponent* _PlayerTransformComponent; // 0x0
-		::Class_2_705B862E649BF345* _CharacterAnimEvent; // 0x0
+		::Class_2_CB25D7A6FABF07EF* _CharacterAnimEvent; // 0x0
 		::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>* _OptionInfos; // 0x0
 		::System::Single _EnableOptionAngle; // 0x0
 		::System::Boolean _EnableOption; // 0x0

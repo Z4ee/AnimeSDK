@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK::Win { class RealName; }
 
-#define MIHOYO_SDK_WIN_REALNAME___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174B5010)
-#define MIHOYO_SDK_WIN_REALNAME___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x174B5820)
+#define MIHOYO_SDK_WIN_REALNAME___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182B4030)
+#define MIHOYO_SDK_WIN_REALNAME___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x182B4870)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealName___c__DisplayClass25_0_TypeDefinitionIndex = 8297;
+	inline static constexpr unsigned int RealName___c__DisplayClass25_0_TypeDefinitionIndex = 9200;
 
 	class RealName___c__DisplayClass25_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::Win::RealName* dialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::Win::RealName* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::RealName*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::RealName*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

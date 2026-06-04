@@ -13,29 +13,29 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class PinnedList_1; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorderSettings; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_1_OFFSET UNITYSDK_OFFSET(0x1A1E6780)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_2_OFFSET UNITYSDK_OFFSET(0x1A1E6830)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1A1E4860)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A1E6040)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A1E6B70)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_SETUPSUBMESHES_OFFSET UNITYSDK_OFFSET(0x1A1E65E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_WRITESAMPLE_OFFSET UNITYSDK_OFFSET(0x1A1E68D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E6EE0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_1_OFFSET UNITYSDK_OFFSET(0x1B04B380)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_2_OFFSET UNITYSDK_OFFSET(0x1B04B430)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1B049260)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B04ABF0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B04B770)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_SETUPSUBMESHES_OFFSET UNITYSDK_OFFSET(0x1B04B1E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_WRITESAMPLE_OFFSET UNITYSDK_OFFSET(0x1B04B4D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B04BC30)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_MeshBuffer_TypeDefinitionIndex = 40755;
+	inline static constexpr unsigned int AlembicRecorder_MeshBuffer_TypeDefinitionIndex = 41581;
 
 	class AlembicRecorder_MeshBuffer : public ::System::Object
 	{
 	public:
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Formats::Alembic::Sdk::aeSubmeshData>* submeshData; // 0x10
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* normals; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*>* submeshIndices; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*>* submeshIndices; // 0x10
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Formats::Alembic::Sdk::aeSubmeshData>* submeshData; // 0x18
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector2>* uv1; // 0x20
 		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Color>* colors; // 0x28
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector2>* uv1; // 0x30
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector2>* uv0; // 0x38
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* points; // 0x40
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* points; // 0x30
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* normals; // 0x38
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector2>* uv0; // 0x40
 		::System::Boolean visibility; // 0x48
 
 		::System::Void _ctor()
@@ -48,29 +48,29 @@ namespace UnityEngine::Formats::Alembic::Util
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void SetupSubmeshes(::UnityEngine::Formats::Alembic::Sdk::aeObject abc, ::UnityEngine::Mesh* mesh)
+		::System::Void SetupSubmeshes(::UnityEngine::Formats::Alembic::Sdk::aeObject a1, ::UnityEngine::Mesh* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aeObject, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_SETUPSUBMESHES_OFFSET))(this, abc, mesh);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aeObject, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_SETUPSUBMESHES_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Capture(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 world2local, ::System::Boolean captureNormals, ::System::Boolean captureUV0, ::System::Boolean captureUV1, ::System::Boolean captureColors)
+		::System::Void Capture(::UnityEngine::Mesh* a1, ::UnityEngine::Matrix4x4 a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_OFFSET))(this, mesh, world2local, captureNormals, captureUV0, captureUV1, captureColors);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void Capture_1(::UnityEngine::Mesh* mesh, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings* settings)
+		::System::Void Capture_1(::UnityEngine::Mesh* a1, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_1_OFFSET))(this, mesh, settings);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Capture_2(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 world2local, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings* settings)
+		::System::Void Capture_2(::UnityEngine::Mesh* a1, ::UnityEngine::Matrix4x4 a2, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_2_OFFSET))(this, mesh, world2local, settings);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_CAPTURE_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteSample(::UnityEngine::Formats::Alembic::Sdk::aeObject abc)
+		::System::Void WriteSample(::UnityEngine::Formats::Alembic::Sdk::aeObject a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aeObject))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_WRITESAMPLE_OFFSET))(this, abc);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aeObject))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER_WRITESAMPLE_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -3,7 +3,7 @@
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroClipType_TypeDefinitionIndex = 46178;
+	inline static constexpr unsigned int EnviroClipType_TypeDefinitionIndex = 46761;
 
 	enum class EnviroClipType : ::System::Int32
 	{

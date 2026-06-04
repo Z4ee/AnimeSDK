@@ -4,14 +4,16 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FINISHACTIONCONFIG_METHOD_2_22670B67281000AB_OFFSET UNITYSDK_OFFSET(0x188E4B70)
-#define RPG_GAMECORE_FINISHACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188E4D00)
+#define RPG_GAMECORE_FINISHACTIONCONFIG_METHOD_2_BA4AB032F01B3ABE_OFFSET UNITYSDK_OFFSET(0x19721160)
+#define RPG_GAMECORE_FINISHACTIONCONFIG_METHOD_2_CD7DBDD509ADD030_OFFSET UNITYSDK_OFFSET(0x197212F0)
+#define RPG_GAMECORE_FINISHACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197212E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishActionConfig_TypeDefinitionIndex = 18036;
+	inline static constexpr unsigned int FinishActionConfig_TypeDefinitionIndex = 18062;
 
 	class FinishActionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHACTIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_22670B67281000AB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishActionConfig*& a2)
+		static ::System::Void Method_2_BA4AB032F01B3ABE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishActionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishActionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHACTIONCONFIG_METHOD_2_22670B67281000AB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishActionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHACTIONCONFIG_METHOD_2_BA4AB032F01B3ABE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_CD7DBDD509ADD030(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::FinishActionConfig*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::FinishActionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHACTIONCONFIG_METHOD_2_CD7DBDD509ADD030_OFFSET))(a1, a2);
 		}
 	};
 }

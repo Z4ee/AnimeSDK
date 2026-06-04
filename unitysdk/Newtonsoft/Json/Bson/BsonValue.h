@@ -5,12 +5,12 @@
 
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_BSON_BSONVALUE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17A57AF0)
-#define NEWTONSOFT_JSON_BSON_BSONVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A57AD0)
+#define NEWTONSOFT_JSON_BSON_BSONVALUE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x18806960)
+#define NEWTONSOFT_JSON_BSON_BSONVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18806940)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonValue_TypeDefinitionIndex = 8602;
+	inline static constexpr unsigned int BsonValue_TypeDefinitionIndex = 9505;
 
 	class BsonValue : public ::Newtonsoft::Json::Bson::BsonToken
 	{
@@ -18,9 +18,9 @@ namespace Newtonsoft::Json::Bson
 		::System::Object* _value; // 0x18
 		::Newtonsoft::Json::Bson::BsonType _type; // 0x20
 
-		::System::Void _ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type)
+		::System::Void _ctor(::System::Object* a1, ::Newtonsoft::Json::Bson::BsonType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Newtonsoft::Json::Bson::BsonType))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONVALUE__CTOR_OFFSET))(this, value, type);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Newtonsoft::Json::Bson::BsonType))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONVALUE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Newtonsoft::Json::Bson::BsonType get_Type()

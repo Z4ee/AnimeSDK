@@ -12,62 +12,62 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Sprite; }
 
-#define RPG_CLIENT_LIGHTCONE3D_ADD_UPDATEGYROEVENT_OFFSET UNITYSDK_OFFSET(0xA669120)
-#define RPG_CLIENT_LIGHTCONE3D_AWAKE_OFFSET UNITYSDK_OFFSET(0xA6691E0)
-#define RPG_CLIENT_LIGHTCONE3D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA668B10)
-#define RPG_CLIENT_LIGHTCONE3D_REMOVE_UPDATEGYROEVENT_OFFSET UNITYSDK_OFFSET(0xA669180)
-#define RPG_CLIENT_LIGHTCONE3D_SETACRYLICSTARTEXTURE_OFFSET UNITYSDK_OFFSET(0xA6686A0)
-#define RPG_CLIENT_LIGHTCONE3D_SETACRYLICTEXTURE_OFFSET UNITYSDK_OFFSET(0xA668400)
-#define RPG_CLIENT_LIGHTCONE3D_SETBACKFACETEXTURE_OFFSET UNITYSDK_OFFSET(0xA668F40)
-#define RPG_CLIENT_LIGHTCONE3D_SETBACKIMAGE_OFFSET UNITYSDK_OFFSET(0xA668DA0)
-#define RPG_CLIENT_LIGHTCONE3D_SETCOLORTYPE_OFFSET UNITYSDK_OFFSET(0xA668930)
-#define RPG_CLIENT_LIGHTCONE3D_SETGYROEVENT_OFFSET UNITYSDK_OFFSET(0xA668D50)
-#define RPG_CLIENT_LIGHTCONE3D_SETLIGHTCONE_OFFSET UNITYSDK_OFFSET(0xA668040)
-#define RPG_CLIENT_LIGHTCONE3D_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0xA6681F0)
-#define RPG_CLIENT_LIGHTCONE3D_SETUSEDIFFERENTBACKFACE_OFFSET UNITYSDK_OFFSET(0xA668E00)
-#define RPG_CLIENT_LIGHTCONE3D_START_OFFSET UNITYSDK_OFFSET(0xA669590)
-#define RPG_CLIENT_LIGHTCONE3D_UPDATE_OFFSET UNITYSDK_OFFSET(0xA669800)
-#define RPG_CLIENT_LIGHTCONE3D__CCTOR_OFFSET UNITYSDK_OFFSET(0xA669B70)
-#define RPG_CLIENT_LIGHTCONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0xA669B60)
+#define RPG_CLIENT_LIGHTCONE3D_ADD_UPDATEGYROEVENT_OFFSET UNITYSDK_OFFSET(0xBD70720)
+#define RPG_CLIENT_LIGHTCONE3D_AWAKE_OFFSET UNITYSDK_OFFSET(0xBD707E0)
+#define RPG_CLIENT_LIGHTCONE3D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD70120)
+#define RPG_CLIENT_LIGHTCONE3D_REMOVE_UPDATEGYROEVENT_OFFSET UNITYSDK_OFFSET(0xBD70780)
+#define RPG_CLIENT_LIGHTCONE3D_SETACRYLICSTARTEXTURE_OFFSET UNITYSDK_OFFSET(0xBD6FCC0)
+#define RPG_CLIENT_LIGHTCONE3D_SETACRYLICTEXTURE_OFFSET UNITYSDK_OFFSET(0xBD6FA40)
+#define RPG_CLIENT_LIGHTCONE3D_SETBACKFACETEXTURE_OFFSET UNITYSDK_OFFSET(0xBD70550)
+#define RPG_CLIENT_LIGHTCONE3D_SETBACKIMAGE_OFFSET UNITYSDK_OFFSET(0xBD703B0)
+#define RPG_CLIENT_LIGHTCONE3D_SETCOLORTYPE_OFFSET UNITYSDK_OFFSET(0xBD6FF40)
+#define RPG_CLIENT_LIGHTCONE3D_SETGYROEVENT_OFFSET UNITYSDK_OFFSET(0xBD70360)
+#define RPG_CLIENT_LIGHTCONE3D_SETLIGHTCONE_OFFSET UNITYSDK_OFFSET(0xBD6F680)
+#define RPG_CLIENT_LIGHTCONE3D_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0xBD6F840)
+#define RPG_CLIENT_LIGHTCONE3D_SETUSEDIFFERENTBACKFACE_OFFSET UNITYSDK_OFFSET(0xBD70410)
+#define RPG_CLIENT_LIGHTCONE3D_START_OFFSET UNITYSDK_OFFSET(0xBD70B80)
+#define RPG_CLIENT_LIGHTCONE3D_UPDATE_OFFSET UNITYSDK_OFFSET(0xBD70DF0)
+#define RPG_CLIENT_LIGHTCONE3D__CCTOR_OFFSET UNITYSDK_OFFSET(0xBD70ED0)
+#define RPG_CLIENT_LIGHTCONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0xBD70EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightCone3D_TypeDefinitionIndex = 67215;
+	inline static constexpr unsigned int LightCone3D_TypeDefinitionIndex = 68159;
 
 	class LightCone3D : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Single* StaticGet_GyroMaxRotX()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2700);
-		}
 		static ::System::Int32* StaticGet__MainTexPropertyID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2704);
-		}
-		static ::System::Boolean* StaticGet_IsShowGyroInfo()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2708);
-		}
-		static ::System::Int32* StaticGet__StarTexPropertyID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x270C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0xBED0);
 		}
 		static ::System::Int32* StaticGet__BackfaceTexPropertyID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2710);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0xBED4);
 		}
 		static ::System::Int32* StaticGet__UseDifferentBackfacePropertyID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2714);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0xBED8);
 		}
 		static ::System::Single* StaticGet_SmoothTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x2718);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0xBEDC);
 		}
 		static ::System::UInt32* StaticGet_FrameCounter()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0x271C);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0xBEE0);
+		}
+		static ::System::Single* StaticGet_GyroMaxRotX()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0xBEE4);
+		}
+		static ::System::Boolean* StaticGet_IsShowGyroInfo()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0xBEE8);
+		}
+		static ::System::Int32* StaticGet__StarTexPropertyID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LightCone3D_TypeDefinitionIndex)->GetStaticField(0xBEEC);
 		}
 		::RPG::Client::LightCone3D_UpdateFunc* UpdateGyroEvent; // 0x18
 		::UnityEngine::MeshRenderer* _ContentMeshRenderer; // 0x20
@@ -96,29 +96,29 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D__CCTOR_OFFSET))();
 		}
 
-		::System::Void SetLightCone(::RPG::Client::EquipmentItemData* equipData, ::System::Boolean isAntiAlias, ::System::String* emptyTexturePath)
+		::System::Void SetLightCone(::RPG::Client::EquipmentItemData* a1, ::System::Boolean a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::EquipmentItemData*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETLIGHTCONE_OFFSET))(this, equipData, isAntiAlias, emptyTexturePath);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::EquipmentItemData*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETLIGHTCONE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetTexture(::System::String* path)
+		::System::Void SetTexture(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETTEXTURE_OFFSET))(this, path);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETTEXTURE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetAcrylicTexture(::System::String* path)
+		::System::Void SetAcrylicTexture(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETACRYLICTEXTURE_OFFSET))(this, path);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETACRYLICTEXTURE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetAcrylicStarTexture(::System::String* path)
+		::System::Void SetAcrylicStarTexture(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETACRYLICSTARTEXTURE_OFFSET))(this, path);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETACRYLICSTARTEXTURE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetColorType(::RPG::GameCore::LightCone3DColorType colorType)
+		::System::Void SetColorType(::RPG::GameCore::LightCone3DColorType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LightCone3DColorType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETCOLORTYPE_OFFSET))(this, colorType);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LightCone3DColorType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETCOLORTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -126,34 +126,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void SetGyroEvent(::RPG::Client::LightCone3D_UpdateFunc* func)
+		::System::Void SetGyroEvent(::RPG::Client::LightCone3D_UpdateFunc* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LightCone3D_UpdateFunc*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETGYROEVENT_OFFSET))(this, func);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LightCone3D_UpdateFunc*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETGYROEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetBackImage(::System::String* imagePath)
+		::System::Void SetBackImage(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETBACKIMAGE_OFFSET))(this, imagePath);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETBACKIMAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetUseDifferentBackface(::System::Boolean isUse)
+		::System::Void SetUseDifferentBackface(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETUSEDIFFERENTBACKFACE_OFFSET))(this, isUse);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETUSEDIFFERENTBACKFACE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetBackfaceTexture(::System::String* imagePath)
+		::System::Void SetBackfaceTexture(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETBACKFACETEXTURE_OFFSET))(this, imagePath);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_SETBACKFACETEXTURE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_UpdateGyroEvent(::RPG::Client::LightCone3D_UpdateFunc* value)
+		::System::Void add_UpdateGyroEvent(::RPG::Client::LightCone3D_UpdateFunc* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LightCone3D_UpdateFunc*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_ADD_UPDATEGYROEVENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LightCone3D_UpdateFunc*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_ADD_UPDATEGYROEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_UpdateGyroEvent(::RPG::Client::LightCone3D_UpdateFunc* value)
+		::System::Void remove_UpdateGyroEvent(::RPG::Client::LightCone3D_UpdateFunc* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LightCone3D_UpdateFunc*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_REMOVE_UPDATEGYROEVENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LightCone3D_UpdateFunc*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONE3D_REMOVE_UPDATEGYROEVENT_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()

@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int AttributeType_TypeDefinitionIndex = 41077;
+	inline static constexpr unsigned int AttributeType_TypeDefinitionIndex = 41880;
 
 	enum class AttributeType : ::System::Int32
 	{

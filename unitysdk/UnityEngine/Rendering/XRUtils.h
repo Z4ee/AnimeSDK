@@ -5,18 +5,18 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_XRUTILS_DRAWOCCLUSIONMESH_OFFSET UNITYSDK_OFFSET(0x1A33CBB0)
+#define UNITYENGINE_RENDERING_XRUTILS_DRAWOCCLUSIONMESH_OFFSET UNITYSDK_OFFSET(0x1B197480)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int XRUtils_TypeDefinitionIndex = 33524;
+	inline static constexpr unsigned int XRUtils_TypeDefinitionIndex = 33806;
 
 	class XRUtils : public ::System::Object
 	{
 	public:
-		static ::System::Void DrawOcclusionMesh(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Camera* camera, ::System::Boolean stereoEnabled)
+		static ::System::Void DrawOcclusionMesh(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Camera* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_XRUTILS_DRAWOCCLUSIONMESH_OFFSET))(cmd, camera, stereoEnabled);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_XRUTILS_DRAWOCCLUSIONMESH_OFFSET))(a1, a2, a3);
 		}
 	};
 }

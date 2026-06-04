@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ASSEMBLYNPCATTACHPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9D3C860)
+#define RPG_CLIENT_ASSEMBLYNPCATTACHPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB32C890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssemblyNPCAttachPointInfo_TypeDefinitionIndex = 55400;
+	inline static constexpr unsigned int AssemblyNPCAttachPointInfo_TypeDefinitionIndex = 56145;
 
 	class AssemblyNPCAttachPointInfo : public ::System::Object
 	{

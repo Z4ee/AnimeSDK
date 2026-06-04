@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_NPCTRIGGERSOUND_METHOD_2_DF1322A10BB432E6_OFFSET UNITYSDK_OFFSET(0x18B7A760)
-#define RPG_GAMECORE_NPCTRIGGERSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x18B7A9D0)
+#define RPG_GAMECORE_NPCTRIGGERSOUND_METHOD_2_DF1322A10BB432E6_OFFSET UNITYSDK_OFFSET(0x199C9450)
+#define RPG_GAMECORE_NPCTRIGGERSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x199C96C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCTriggerSound_TypeDefinitionIndex = 16579;
+	inline static constexpr unsigned int NPCTriggerSound_TypeDefinitionIndex = 16609;
 
 	class NPCTriggerSound : public ::RPG::GameCore::JsonConfig
 	{

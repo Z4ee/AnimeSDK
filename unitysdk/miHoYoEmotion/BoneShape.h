@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MIHOYOEMOTION_BONESHAPE_SETNEUTRAL_OFFSET UNITYSDK_OFFSET(0x8E52AF0)
-#define MIHOYOEMOTION_BONESHAPE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8E52CF0)
-#define MIHOYOEMOTION_BONESHAPE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x8E52D90)
-#define MIHOYOEMOTION_BONESHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x8E52C90)
+#define MIHOYOEMOTION_BONESHAPE_SETNEUTRAL_OFFSET UNITYSDK_OFFSET(0xA27C430)
+#define MIHOYOEMOTION_BONESHAPE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA27C630)
+#define MIHOYOEMOTION_BONESHAPE__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA27C6D0)
+#define MIHOYOEMOTION_BONESHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0xA27C5D0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int BoneShape_TypeDefinitionIndex = 40959;
+	inline static constexpr unsigned int BoneShape_TypeDefinitionIndex = 41777;
 
 	class BoneShape : public ::System::Object
 	{
@@ -27,14 +27,14 @@ namespace miHoYoEmotion
 		::UnityEngine::Vector3 neutralRotation; // 0x4C
 		::UnityEngine::Vector3 neutralScale; // 0x58
 
-		::System::Void _ctor(::UnityEngine::Transform* bone, ::UnityEngine::Vector3 endPosition, ::UnityEngine::Vector3 endRotation, ::UnityEngine::Vector3 endScale)
+		::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_BONESHAPE__CTOR_OFFSET))(this, bone, endPosition, endRotation, endScale);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_BONESHAPE__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::Transform* bone, ::UnityEngine::Vector3 endPosition, ::UnityEngine::Vector3 endRotation)
+		::System::Void _ctor_1(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_BONESHAPE__CTOR_1_OFFSET))(this, bone, endPosition, endRotation);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_BONESHAPE__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_2()

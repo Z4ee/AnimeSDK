@@ -8,14 +8,14 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakGameFlow___O_TypeDefinitionIndex = 58188;
+	inline static constexpr unsigned int ChallengePeakGameFlow___O_TypeDefinitionIndex = 59118;
 
 	class ChallengePeakGameFlow___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>** StaticGet__0___Create()
 		{
-			return (::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakGameFlow___O_TypeDefinitionIndex)->GetStaticField(0x49560);
+			return (::System::Func_2<::RPG::Client::BaseGameFlow*, ::RPG::Client::BaseGameFlowContext*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakGameFlow___O_TypeDefinitionIndex)->GetStaticField(0x5C1C0);
 		}
 	};
 }

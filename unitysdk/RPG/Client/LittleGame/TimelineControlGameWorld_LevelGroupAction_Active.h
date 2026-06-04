@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelGroupAction.h"
 
-#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION_ACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17EF89D0)
+#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION_ACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x18CDCD10)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_Active_TypeDefinitionIndex = 38779;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_Active_TypeDefinitionIndex = 39547;
 
 	class TimelineControlGameWorld_LevelGroupAction_Active : public ::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroupAction
 	{

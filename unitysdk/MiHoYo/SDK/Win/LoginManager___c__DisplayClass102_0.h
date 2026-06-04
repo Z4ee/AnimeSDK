@@ -8,35 +8,35 @@ namespace MiHoYo::SDK { class Web; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1773A2F0)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__0_OFFSET UNITYSDK_OFFSET(0x1773F6B0)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__1_OFFSET UNITYSDK_OFFSET(0x1773FB50)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__2_OFFSET UNITYSDK_OFFSET(0x1773FF50)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__3_OFFSET UNITYSDK_OFFSET(0x1773FFD0)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184F7C40)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__0_OFFSET UNITYSDK_OFFSET(0x184FCC30)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__1_OFFSET UNITYSDK_OFFSET(0x184FD100)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__2_OFFSET UNITYSDK_OFFSET(0x184FD4F0)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__3_OFFSET UNITYSDK_OFFSET(0x184FD570)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass102_0_TypeDefinitionIndex = 8209;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass102_0_TypeDefinitionIndex = 9112;
 
 	class LoginManager___c__DisplayClass102_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* customCallback; // 0x10
-		::MiHoYo::SDK::Web* web; // 0x18
+		::MiHoYo::SDK::Web* web; // 0x10
+		::System::Action_1<::System::String*>* customCallback; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ForgetPassword_b__0(::MiHoYo::SDK::JSONNode* node)
+		::System::Void _ForgetPassword_b__0(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__0_OFFSET))(this, node);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _ForgetPassword_b__1(::MiHoYo::SDK::JSONNode* node)
+		::System::Void _ForgetPassword_b__1(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__1_OFFSET))(this, node);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean _ForgetPassword_b__2()
@@ -44,9 +44,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__2_OFFSET))(this);
 		}
 
-		::System::Void _ForgetPassword_b__3(::MiHoYo::SDK::Web* webView, ::MiHoYo::SDK::UniWebViewMessage message)
+		::System::Void _ForgetPassword_b__3(::MiHoYo::SDK::Web* a1, ::MiHoYo::SDK::UniWebViewMessage a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Web*, ::MiHoYo::SDK::UniWebViewMessage))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__3_OFFSET))(this, webView, message);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Web*, ::MiHoYo::SDK::UniWebViewMessage))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__3_OFFSET))(this, a1, a2);
 		}
 	};
 }

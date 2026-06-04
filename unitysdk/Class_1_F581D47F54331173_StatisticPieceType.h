@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_F581D47F54331173_StatisticPieceType_TypeDefinitionIndex = 70350;
+inline static constexpr unsigned int Class_1_F581D47F54331173_StatisticPieceType_TypeDefinitionIndex = 71166;
 
 enum class Class_1_F581D47F54331173_StatisticPieceType : ::System::Int32
 {

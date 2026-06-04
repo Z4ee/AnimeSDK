@@ -8,11 +8,11 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Linq::Expressions::Interpreter { class Instruction; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INSTRUCTIONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x22CE270)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INSTRUCTIONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x3868820)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int InstructionArray_TypeDefinitionIndex = 3421;
+	inline static constexpr unsigned int InstructionArray_TypeDefinitionIndex = 3422;
 
 	struct alignas(8) InstructionArray
 	{
@@ -23,9 +23,9 @@ namespace System::Linq::Expressions::Interpreter
 		::Il2CppArray<::System::Linq::Expressions::Interpreter::RuntimeLabel>* Labels; // 0x28
 		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>>* DebugCookies; // 0x30
 
-		::System::Void _ctor(::System::Int32 maxStackDepth, ::System::Int32 maxContinuationDepth, ::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>* instructions, ::Il2CppArray<::System::Object*>* objects, ::Il2CppArray<::System::Linq::Expressions::Interpreter::RuntimeLabel>* labels, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>>* debugCookies)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>* a3, ::Il2CppArray<::System::Object*>* a4, ::Il2CppArray<::System::Linq::Expressions::Interpreter::RuntimeLabel>* a5, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Linq::Expressions::Interpreter::RuntimeLabel>*, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INSTRUCTIONARRAY__CTOR_OFFSET))(this, maxStackDepth, maxContinuationDepth, instructions, objects, labels, debugCookies);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Linq::Expressions::Interpreter::RuntimeLabel>*, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INSTRUCTIONARRAY__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

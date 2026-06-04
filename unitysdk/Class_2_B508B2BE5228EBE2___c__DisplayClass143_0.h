@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_318;
-class Class_0_16E4307DCC419505_323;
+class Class_0_16E4307DCC419505_331;
+class Class_0_16E4307DCC419505_336;
 class Class_2_B508B2BE5228EBE2;
 namespace System { class Action; }
 
-#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__ACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x99CD480)
-#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__ACTIVEPROFILEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x99CD4C0)
-#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__CTOR_OFFSET UNITYSDK_OFFSET(0x99CAEA0)
+#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__ACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x13B01550)
+#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__ACTIVEPROFILEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x13B01590)
+#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13AFE290)
 
-inline static constexpr unsigned int Class_2_B508B2BE5228EBE2___c__DisplayClass143_0_TypeDefinitionIndex = 45879;
+inline static constexpr unsigned int Class_2_B508B2BE5228EBE2___c__DisplayClass143_0_TypeDefinitionIndex = 46462;
 
 class Class_2_B508B2BE5228EBE2___c__DisplayClass143_0 : public ::System::Object
 {
 public:
-	::System::Action* onChangeFinish; // 0x10
-	::Class_0_16E4307DCC419505_318* profileChangeAsyncHandle; // 0x18
-	::Class_0_16E4307DCC419505_323* source; // 0x20
-	::Class_2_B508B2BE5228EBE2* __4__this; // 0x28
+	::Class_2_B508B2BE5228EBE2* __4__this; // 0x10
+	::Class_0_16E4307DCC419505_336* source; // 0x18
+	::Class_0_16E4307DCC419505_331* profileChangeAsyncHandle; // 0x20
+	::System::Action* onChangeFinish; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -31,8 +31,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__ACTIVEPROFILEASYNC_B__0_OFFSET))(this);
 	}
 
-	::System::Void _ActiveProfileAsync_b__1(::System::Boolean v)
+	::System::Void _ActiveProfileAsync_b__1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__ACTIVEPROFILEASYNC_B__1_OFFSET))(this, v);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__ACTIVEPROFILEASYNC_B__1_OFFSET))(this, a1);
 	}
 };

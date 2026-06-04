@@ -5,14 +5,14 @@
 namespace RPG::Client { class WolfBroGunPlayPuzzleBoard; }
 namespace RPG::GameCore { class PlayerLockTargetWeightOverrideConfig; }
 
-#define RPG_CLIENT_MONOWOLFBROCUSTOMDATA_GET_GUNPLAYPUZZLEBOARD_OFFSET UNITYSDK_OFFSET(0xAA127B0)
-#define RPG_CLIENT_MONOWOLFBROCUSTOMDATA_GET_ISBULLETCNTVALID_OFFSET UNITYSDK_OFFSET(0xAA12750)
-#define RPG_CLIENT_MONOWOLFBROCUSTOMDATA_SET_GUNPLAYPUZZLEBOARD_OFFSET UNITYSDK_OFFSET(0xAA127C0)
-#define RPG_CLIENT_MONOWOLFBROCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAA127D0)
+#define RPG_CLIENT_MONOWOLFBROCUSTOMDATA_GET_GUNPLAYPUZZLEBOARD_OFFSET UNITYSDK_OFFSET(0xC161270)
+#define RPG_CLIENT_MONOWOLFBROCUSTOMDATA_GET_ISBULLETCNTVALID_OFFSET UNITYSDK_OFFSET(0xC161210)
+#define RPG_CLIENT_MONOWOLFBROCUSTOMDATA_SET_GUNPLAYPUZZLEBOARD_OFFSET UNITYSDK_OFFSET(0xC161280)
+#define RPG_CLIENT_MONOWOLFBROCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC161290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoWolfBroCustomData_TypeDefinitionIndex = 63294;
+	inline static constexpr unsigned int MonoWolfBroCustomData_TypeDefinitionIndex = 64211;
 
 	class MonoWolfBroCustomData : public ::UnityEngine::MonoBehaviour
 	{
@@ -42,9 +42,9 @@ namespace RPG::Client
 			return ((::RPG::Client::WolfBroGunPlayPuzzleBoard*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWOLFBROCUSTOMDATA_GET_GUNPLAYPUZZLEBOARD_OFFSET))(this);
 		}
 
-		::System::Void set_GunPlayPuzzleBoard(::RPG::Client::WolfBroGunPlayPuzzleBoard* value)
+		::System::Void set_GunPlayPuzzleBoard(::RPG::Client::WolfBroGunPlayPuzzleBoard* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayPuzzleBoard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWOLFBROCUSTOMDATA_SET_GUNPLAYPUZZLEBOARD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayPuzzleBoard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWOLFBROCUSTOMDATA_SET_GUNPLAYPUZZLEBOARD_OFFSET))(this, a1);
 		}
 	};
 }

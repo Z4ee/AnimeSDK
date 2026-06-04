@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateBuffSlotType_TypeDefinitionIndex = 10976;
+	inline static constexpr unsigned int FateBuffSlotType_TypeDefinitionIndex = 11026;
 
 	enum class FateBuffSlotType : ::System::Int32
 	{

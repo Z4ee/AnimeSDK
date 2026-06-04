@@ -3,20 +3,20 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Runtime/InteropServices/ComInterfaceType.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_INTERFACETYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179C0780)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_INTERFACETYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x187713A0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int InterfaceTypeAttribute_TypeDefinitionIndex = 1396;
+	inline static constexpr unsigned int InterfaceTypeAttribute_TypeDefinitionIndex = 1395;
 
 	class InterfaceTypeAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Runtime::InteropServices::ComInterfaceType _val; // 0x10
 
-		::System::Void _ctor(::System::Runtime::InteropServices::ComInterfaceType interfaceType)
+		::System::Void _ctor(::System::Runtime::InteropServices::ComInterfaceType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::InteropServices::ComInterfaceType))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_INTERFACETYPEATTRIBUTE__CTOR_OFFSET))(this, interfaceType);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::InteropServices::ComInterfaceType))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_INTERFACETYPEATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine::Yoga { class YogaNode; }
 
-#define UNITYENGINE_YOGA_BASELINEFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A520B20)
-#define UNITYENGINE_YOGA_BASELINEFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A520BA0)
-#define UNITYENGINE_YOGA_BASELINEFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A5204E0)
-#define UNITYENGINE_YOGA_BASELINEFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5204C0)
+#define UNITYENGINE_YOGA_BASELINEFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B36CCB0)
+#define UNITYENGINE_YOGA_BASELINEFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B36CD30)
+#define UNITYENGINE_YOGA_BASELINEFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B36CC90)
+#define UNITYENGINE_YOGA_BASELINEFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36CBA0)
 
 namespace UnityEngine::Yoga
 {
-	inline static constexpr unsigned int BaselineFunction_TypeDefinitionIndex = 5841;
+	inline static constexpr unsigned int BaselineFunction_TypeDefinitionIndex = 6118;
 
 	class BaselineFunction : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_BASELINEFUNCTION__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_BASELINEFUNCTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single Invoke(::UnityEngine::Yoga::YogaNode* node, ::System::Single width, ::System::Single height)
+		::System::Single Invoke(::UnityEngine::Yoga::YogaNode* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Yoga::YogaNode*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_BASELINEFUNCTION_INVOKE_OFFSET))(this, node, width, height);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Yoga::YogaNode*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_BASELINEFUNCTION_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Yoga::YogaNode* node, ::System::Single width, ::System::Single height, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::Yoga::YogaNode* a1, ::System::Single a2, ::System::Single a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Yoga::YogaNode*, ::System::Single, ::System::Single, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_BASELINEFUNCTION_BEGININVOKE_OFFSET))(this, node, width, height, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Yoga::YogaNode*, ::System::Single, ::System::Single, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_BASELINEFUNCTION_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Single EndInvoke(::System::IAsyncResult* result)
+		::System::Single EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_BASELINEFUNCTION_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Single(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_BASELINEFUNCTION_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

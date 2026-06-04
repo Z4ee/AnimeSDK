@@ -5,19 +5,19 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITWITHPRIMITIVERESOLVERGETFORMATTERHELPER_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x1731E7E0)
-#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITWITHPRIMITIVERESOLVERGETFORMATTERHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1731E8F0)
+#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITWITHPRIMITIVERESOLVERGETFORMATTERHELPER_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x1812D140)
+#define MESSAGEPACK_UNITY_EXTENSION_UNITYBLITWITHPRIMITIVERESOLVERGETFORMATTERHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1812D240)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int UnityBlitWithPrimitiveResolverGetFormatterHelper_TypeDefinitionIndex = 10018;
+	inline static constexpr unsigned int UnityBlitWithPrimitiveResolverGetFormatterHelper_TypeDefinitionIndex = 9845;
 
 	class UnityBlitWithPrimitiveResolverGetFormatterHelper : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>** StaticGet_FormatterMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnityBlitWithPrimitiveResolverGetFormatterHelper_TypeDefinitionIndex)->GetStaticField(0xCA0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnityBlitWithPrimitiveResolverGetFormatterHelper_TypeDefinitionIndex)->GetStaticField(0xBD0);
 		}
 
 		static ::System::Void _cctor()
@@ -25,9 +25,9 @@ namespace MessagePack::Unity::Extension
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_EXTENSION_UNITYBLITWITHPRIMITIVERESOLVERGETFORMATTERHELPER__CCTOR_OFFSET))();
 		}
 
-		static ::System::Object* GetFormatter(::System::Type* t)
+		static ::System::Object* GetFormatter(::System::Type* a1)
 		{
-			return ((::System::Object*(*)(::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_EXTENSION_UNITYBLITWITHPRIMITIVERESOLVERGETFORMATTERHELPER_GETFORMATTER_OFFSET))(t);
+			return ((::System::Object*(*)(::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_EXTENSION_UNITYBLITWITHPRIMITIVERESOLVERGETFORMATTERHELPER_GETFORMATTER_OFFSET))(a1);
 		}
 	};
 }

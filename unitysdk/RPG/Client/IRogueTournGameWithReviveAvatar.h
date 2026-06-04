@@ -5,7 +5,7 @@ namespace RPG::Client { class RogueReviveAvatarInfo; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournGameWithReviveAvatar_TypeDefinitionIndex = 62307;
+	inline static constexpr unsigned int IRogueTournGameWithReviveAvatar_TypeDefinitionIndex = 63240;
 
 	class IRogueTournGameWithReviveAvatar
 	{

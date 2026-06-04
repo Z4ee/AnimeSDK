@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_533361552E679453_OFFSET UNITYSDK_OFFSET(0x190CDE90)
-#define RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_E2B4F3DC28433C69_OFFSET UNITYSDK_OFFSET(0x190CDF20)
-#define RPG_GAMECORE_TRIGGERTUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x190CDEF0)
+#define RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_4E94DFFDF6163AAE_OFFSET UNITYSDK_OFFSET(0x19E1F3B0)
+#define RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_FBE2B30AD3C9E1F6_OFFSET UNITYSDK_OFFSET(0x19E1F440)
+#define RPG_GAMECORE_TRIGGERTUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1F410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerTutorial_TypeDefinitionIndex = 23387;
+	inline static constexpr unsigned int TriggerTutorial_TypeDefinitionIndex = 23045;
 
 	class TriggerTutorial : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERTUTORIAL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_533361552E679453(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerTutorial*& a2)
+		static ::System::Void Method_3_4E94DFFDF6163AAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerTutorial*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerTutorial*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_533361552E679453_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerTutorial*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_4E94DFFDF6163AAE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E2B4F3DC28433C69(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerTutorial* a2)
+		static ::System::Void Method_3_FBE2B30AD3C9E1F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerTutorial* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerTutorial*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_E2B4F3DC28433C69_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerTutorial*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_FBE2B30AD3C9E1F6_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,10 +4,10 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS17_0__AICONFIRMDICE_B__0_OFFSET UNITYSDK_OFFSET(0x17BEFCD0)
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BEB5D0)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS17_0__AICONFIRMDICE_B__0_OFFSET UNITYSDK_OFFSET(0x18A2C970)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A27C70)
 
-inline static constexpr unsigned int Class_1_C16931E567A100F1___c__DisplayClass17_0_TypeDefinitionIndex = 34198;
+inline static constexpr unsigned int Class_1_C16931E567A100F1___c__DisplayClass17_0_TypeDefinitionIndex = 34480;
 
 class Class_1_C16931E567A100F1___c__DisplayClass17_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Int32 _AIConfirmDice_b__0(::System::Int32 i)
+	::System::Int32 _AIConfirmDice_b__0(::System::Int32 a1)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS17_0__AICONFIRMDICE_B__0_OFFSET))(this, i);
+		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_C16931E567A100F1___C__DISPLAYCLASS17_0__AICONFIRMDICE_B__0_OFFSET))(this, a1);
 	}
 };

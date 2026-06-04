@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalDataType_TypeDefinitionIndex = 15241;
+	inline static constexpr unsigned int GlobalDataType_TypeDefinitionIndex = 15300;
 
 	enum class GlobalDataType : ::System::Int32
 	{

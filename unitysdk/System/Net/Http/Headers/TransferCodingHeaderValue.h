@@ -9,30 +9,30 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class Lexer; }
 namespace System::Net::Http::Headers { class NameValueHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x19F6AFF0)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19F6B080)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x19F6AF40)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x19F6AF90)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x19F6AFA0)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19F6B1E0)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x19F6B290)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x19F6B210)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19F6AF80)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F6AD20)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1ADE0D80)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1ADE0EA0)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x1ADE0CD0)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1ADE0D20)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1ADE0D30)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1ADE1000)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1ADE10D0)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1ADE1030)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ADE0D10)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADE0A90)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int TransferCodingHeaderValue_TypeDefinitionIndex = 4847;
+	inline static constexpr unsigned int TransferCodingHeaderValue_TypeDefinitionIndex = 3814;
 
 	class TransferCodingHeaderValue : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters; // 0x10
-		::System::String* value; // 0x18
+		::System::String* value; // 0x10
+		::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters; // 0x18
 
-		::System::Void _ctor(::System::Net::Http::Headers::TransferCodingHeaderValue* source)
+		::System::Void _ctor(::System::Net::Http::Headers::TransferCodingHeaderValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::TransferCodingHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE__CTOR_OFFSET))(this, source);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::TransferCodingHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1()
@@ -55,9 +55,9 @@ namespace System::Net::Http::Headers
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -70,14 +70,14 @@ namespace System::Net::Http::Headers
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryParse(::System::String* input, ::System::Int32 minimalCount, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>*& result)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>*& a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSE_OFFSET))(input, minimalCount, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::System::Net::Http::Headers::TransferCodingHeaderValue*& parsedValue, ::System::Net::Http::Headers::Token& t)
+		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* a1, ::System::Net::Http::Headers::TransferCodingHeaderValue*& a2, ::System::Net::Http::Headers::Token& a3)
 		{
-			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::TransferCodingHeaderValue*&, ::System::Net::Http::Headers::Token&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSEELEMENT_OFFSET))(lexer, parsedValue, t);
+			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::TransferCodingHeaderValue*&, ::System::Net::Http::Headers::Token&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGHEADERVALUE_TRYPARSEELEMENT_OFFSET))(a1, a2, a3);
 		}
 	};
 }

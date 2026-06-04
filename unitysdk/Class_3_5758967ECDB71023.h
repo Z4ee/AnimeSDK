@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsInfiniteBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5758967ECDB71023_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11AB5080)
-#define CLASS_3_5758967ECDB71023__CTOR_OFFSET UNITYSDK_OFFSET(0x11AB5050)
+#define CLASS_3_5758967ECDB71023_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF2F280)
+#define CLASS_3_5758967ECDB71023__CTOR_OFFSET UNITYSDK_OFFSET(0xBF2F250)
 
-inline static constexpr unsigned int Class_3_5758967ECDB71023_TypeDefinitionIndex = 50811;
+inline static constexpr unsigned int Class_3_5758967ECDB71023_TypeDefinitionIndex = 51479;
 
 class Class_3_5758967ECDB71023 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsInfiniteBattle*>
 {

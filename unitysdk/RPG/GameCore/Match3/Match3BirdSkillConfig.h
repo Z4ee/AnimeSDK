@@ -9,12 +9,12 @@ namespace RPG::GameCore::Match3 { class BirdSkillChargingConfig; }
 namespace RPG::GameCore::Match3 { class BirdStyleWeightConfig; }
 namespace RPG::GameCore::Match3 { class Match3ActionBase; }
 
-#define RPG_GAMECORE_MATCH3_MATCH3BIRDSKILLCONFIG_METHOD_2_FE8DEE28676B84E1_OFFSET UNITYSDK_OFFSET(0x18AB53A0)
-#define RPG_GAMECORE_MATCH3_MATCH3BIRDSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB55C0)
+#define RPG_GAMECORE_MATCH3_MATCH3BIRDSKILLCONFIG_METHOD_2_FA1845B0398541A7_OFFSET UNITYSDK_OFFSET(0x198E5F90)
+#define RPG_GAMECORE_MATCH3_MATCH3BIRDSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198E61A0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int Match3BirdSkillConfig_TypeDefinitionIndex = 23741;
+	inline static constexpr unsigned int Match3BirdSkillConfig_TypeDefinitionIndex = 23577;
 
 	class Match3BirdSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore::Match3
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_MATCH3BIRDSKILLCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FE8DEE28676B84E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::Match3BirdSkillConfig*& a2)
+		static ::System::Void Method_2_FA1845B0398541A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::Match3BirdSkillConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::Match3BirdSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_MATCH3BIRDSKILLCONFIG_METHOD_2_FE8DEE28676B84E1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::Match3BirdSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_MATCH3BIRDSKILLCONFIG_METHOD_2_FA1845B0398541A7_OFFSET))(a1, a2);
 		}
 	};
 }

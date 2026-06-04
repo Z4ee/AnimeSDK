@@ -1,64 +1,109 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/HoudiniEngineUnity/HAPI_CurveType.h"
+#include "unitysdk/HoudiniEngineUnity/HEU_CurveDataType.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_Curve_CurveEditState.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_Curve_Interaction.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+namespace HoudiniEngineUnity { class CurveNodeData; }
 namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
+namespace HoudiniEngineUnity { class HEU_InputCurveInfo; }
 namespace HoudiniEngineUnity { class HEU_Parameters; }
 namespace HoudiniEngineUnity { class HEU_SessionBase; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_CURVE_CREATESETUPCURVE_OFFSET UNITYSDK_OFFSET(0x8C408E0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_DESTROYALLDATA_OFFSET UNITYSDK_OFFSET(0x8C409F0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_DOWNLOADASDEFAULTPRESETDATA_OFFSET UNITYSDK_OFFSET(0x8C42E70)
-#define HOUDINIENGINEUNITY_HEU_CURVE_DOWNLOADPRESETDATA_OFFSET UNITYSDK_OFFSET(0x8C41C10)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GENERATEMESH_OFFSET UNITYSDK_OFFSET(0x8C41010)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GETALLPOINTS_OFFSET UNITYSDK_OFFSET(0x8C42AB0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GETCURVEPOINT_OFFSET UNITYSDK_OFFSET(0x8C42A50)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GETINVERTEDTRANSFORMEDDIRECTION_OFFSET UNITYSDK_OFFSET(0x8C42CE0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GETINVERTEDTRANSFORMEDPOSITION_OFFSET UNITYSDK_OFFSET(0x8C42C60)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GETNUMPOINTS_OFFSET UNITYSDK_OFFSET(0x8C42AC0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GETPOINTSSTRING_OFFSET UNITYSDK_OFFSET(0x8C42720)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GETTRANSFORMEDPOINT_OFFSET UNITYSDK_OFFSET(0x8C42AE0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GETTRANSFORMEDPOSITION_OFFSET UNITYSDK_OFFSET(0x8C42BE0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x8C42D60)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GET_CURVENAME_OFFSET UNITYSDK_OFFSET(0x8C408B0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GET_EDITSTATE_OFFSET UNITYSDK_OFFSET(0x8C408D0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GET_GEOID_OFFSET UNITYSDK_OFFSET(0x8C40870)
-#define HOUDINIENGINEUNITY_HEU_CURVE_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x8C40890)
-#define HOUDINIENGINEUNITY_HEU_CURVE_ISEDITABLE_OFFSET UNITYSDK_OFFSET(0x8C40880)
-#define HOUDINIENGINEUNITY_HEU_CURVE_ISGEOCURVE_OFFSET UNITYSDK_OFFSET(0x8C408C0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_PROJECTTOCOLLIDERS_OFFSET UNITYSDK_OFFSET(0x8C41C70)
-#define HOUDINIENGINEUNITY_HEU_CURVE_RESETCURVEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x8C40CB0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEGEOMETRYVISIBILITY_OFFSET UNITYSDK_OFFSET(0x8C42D70)
-#define HOUDINIENGINEUNITY_HEU_CURVE_SETCURVENAME_OFFSET UNITYSDK_OFFSET(0x8C40BA0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEPARAMETERPRESET_OFFSET UNITYSDK_OFFSET(0x8C40D40)
-#define HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEPOINT_OFFSET UNITYSDK_OFFSET(0x8C429E0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_SETEDITSTATE_OFFSET UNITYSDK_OFFSET(0x8C429D0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_SETUPLOADPARAMETERPRESET_OFFSET UNITYSDK_OFFSET(0x8C408A0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_SYNCFROMPARAMETERS_OFFSET UNITYSDK_OFFSET(0x8C41570)
-#define HOUDINIENGINEUNITY_HEU_CURVE_UPDATECURVE_OFFSET UNITYSDK_OFFSET(0x8C40DC0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_UPLOADPARAMETERPRESET_OFFSET UNITYSDK_OFFSET(0x8C40BC0)
-#define HOUDINIENGINEUNITY_HEU_CURVE_UPLOADPRESETDATA_OFFSET UNITYSDK_OFFSET(0x8C42E10)
-#define HOUDINIENGINEUNITY_HEU_CURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x8C42ED0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_ADDCURVEPOINTTOEND_1_OFFSET UNITYSDK_OFFSET(0x17EB62A0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_ADDCURVEPOINTTOEND_OFFSET UNITYSDK_OFFSET(0x17EB6190)
+#define HOUDINIENGINEUNITY_HEU_CURVE_CLEARCURVENODEDATA_OFFSET UNITYSDK_OFFSET(0x17EB63E0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_CREATESETUPCURVE_OFFSET UNITYSDK_OFFSET(0x17EB7540)
+#define HOUDINIENGINEUNITY_HEU_CURVE_DESTROYALLDATA_OFFSET UNITYSDK_OFFSET(0x17EB8410)
+#define HOUDINIENGINEUNITY_HEU_CURVE_DOWNLOADASDEFAULTPRESETDATA_OFFSET UNITYSDK_OFFSET(0x17EBDCC0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_DOWNLOADPRESETDATA_OFFSET UNITYSDK_OFFSET(0x17EBD780)
+#define HOUDINIENGINEUNITY_HEU_CURVE_DUPLICATECURVENODEDATA_OFFSET UNITYSDK_OFFSET(0x17EB72F0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GENERATEMESHFORSINGLEOBJECT_OFFSET UNITYSDK_OFFSET(0x17EB98C0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GENERATEMESH_OFFSET UNITYSDK_OFFSET(0x17EB8E80)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETALLPOINTS_OFFSET UNITYSDK_OFFSET(0x17EB5EE0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETALLPOINTTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x17EB5ED0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETCURVECOUNTINDEXFROMPOSITIONINDEX_OFFSET UNITYSDK_OFFSET(0x17EBD810)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETCURVECOUNTS_OFFSET UNITYSDK_OFFSET(0x17EB8C20)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETCURVEDATATYPE_OFFSET UNITYSDK_OFFSET(0x17EB7CE0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETCURVEPOINT_OFFSET UNITYSDK_OFFSET(0x17EB5E50)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETINVERTEDTRANSFORMEDDIRECTION_OFFSET UNITYSDK_OFFSET(0x17EBDBD0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETINVERTEDTRANSFORMEDPOSITION_OFFSET UNITYSDK_OFFSET(0x17EBDB50)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETNUMPOINTS_OFFSET UNITYSDK_OFFSET(0x17EB6040)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETORDERFORCURVETYPE_OFFSET UNITYSDK_OFFSET(0x17EA3590)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETPOINTSSTRING_1_OFFSET UNITYSDK_OFFSET(0x17EBC310)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETPOINTSSTRING_OFFSET UNITYSDK_OFFSET(0x17EBD8B0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETSESSION_OFFSET UNITYSDK_OFFSET(0x17EB5BF0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETTRANSFORMEDPOINTS_OFFSET UNITYSDK_OFFSET(0x17EB7120)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETTRANSFORMEDPOINT_OFFSET UNITYSDK_OFFSET(0x17EB6F70)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETTRANSFORMEDPOSITION_OFFSET UNITYSDK_OFFSET(0x17EB70A0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x17EBDC50)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_CURVEDATATYPE_OFFSET UNITYSDK_OFFSET(0x17EB5BE0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_CURVENAME_OFFSET UNITYSDK_OFFSET(0x17EB5B70)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_CURVENODEDATA_OFFSET UNITYSDK_OFFSET(0x17EB5B50)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_EDITSTATE_OFFSET UNITYSDK_OFFSET(0x17EB5BC0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_GEOID_OFFSET UNITYSDK_OFFSET(0x17EB5B30)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_INPUTCURVEINFO_OFFSET UNITYSDK_OFFSET(0x17EB5BA0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_ISINPUTCURVE_OFFSET UNITYSDK_OFFSET(0x17EB5B80)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_ISPARTCURVE_OFFSET UNITYSDK_OFFSET(0x17EB5B90)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x17EB5B60)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_PARENTASSET_OFFSET UNITYSDK_OFFSET(0x17EB5BD0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_PARTID_OFFSET UNITYSDK_OFFSET(0x17EB5B40)
+#define HOUDINIENGINEUNITY_HEU_CURVE_GET_TARGETGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x17EB5B10)
+#define HOUDINIENGINEUNITY_HEU_CURVE_INSERTCURVEPOINT_1_OFFSET UNITYSDK_OFFSET(0x17EB6130)
+#define HOUDINIENGINEUNITY_HEU_CURVE_INSERTCURVEPOINT_OFFSET UNITYSDK_OFFSET(0x17EB6060)
+#define HOUDINIENGINEUNITY_HEU_CURVE_ISEDITABLE_OFFSET UNITYSDK_OFFSET(0x17EB5C80)
+#define HOUDINIENGINEUNITY_HEU_CURVE_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x17EBDD20)
+#define HOUDINIENGINEUNITY_HEU_CURVE_ISGEOCURVE_OFFSET UNITYSDK_OFFSET(0x17EB5C90)
+#define HOUDINIENGINEUNITY_HEU_CURVE_ISMESHCURVE_OFFSET UNITYSDK_OFFSET(0x17EB8E30)
+#define HOUDINIENGINEUNITY_HEU_CURVE_ONPRESYNCPARAMETERS_OFFSET UNITYSDK_OFFSET(0x17EB8770)
+#define HOUDINIENGINEUNITY_HEU_CURVE_PROJECTTOCOLLIDERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x17EB64A0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_PROJECTTOCOLLIDERS_OFFSET UNITYSDK_OFFSET(0x17EB6450)
+#define HOUDINIENGINEUNITY_HEU_CURVE_REBUILD_OFFSET UNITYSDK_OFFSET(0x17EB5C70)
+#define HOUDINIENGINEUNITY_HEU_CURVE_RECOOK_OFFSET UNITYSDK_OFFSET(0x17EB5C60)
+#define HOUDINIENGINEUNITY_HEU_CURVE_REMOVECURVEPOINT_OFFSET UNITYSDK_OFFSET(0x17EB6340)
+#define HOUDINIENGINEUNITY_HEU_CURVE_RESETCURVEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x17EB87A0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEGEOMETRYVISIBILITYINTERNAL_OFFSET UNITYSDK_OFFSET(0x17EB6ED0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEGEOMETRYVISIBILITY_OFFSET UNITYSDK_OFFSET(0x17EB6E20)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SETCURVENAME_OFFSET UNITYSDK_OFFSET(0x17EB5CA0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SETCURVENODEDATA_OFFSET UNITYSDK_OFFSET(0x17EB5E40)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEPARAMETERPRESET_OFFSET UNITYSDK_OFFSET(0x17EB8830)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEPOINT_1_OFFSET UNITYSDK_OFFSET(0x17EB5D20)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEPOINT_OFFSET UNITYSDK_OFFSET(0x17EB5CC0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SETEDITSTATE_OFFSET UNITYSDK_OFFSET(0x17EBDB40)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SETUPLOADPARAMETERPRESET_OFFSET UNITYSDK_OFFSET(0x17EB5BB0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SET_TARGETGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x17EB5B20)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SHOULDKEEPNODE_OFFSET UNITYSDK_OFFSET(0x17EB83D0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_SYNCFROMPARAMETERS_OFFSET UNITYSDK_OFFSET(0x17EBC650)
+#define HOUDINIENGINEUNITY_HEU_CURVE_UPDATECACHEDCURVEINFO_OFFSET UNITYSDK_OFFSET(0x17EB7DE0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_UPDATECURVEINPUTFORCURVEPARTS_OFFSET UNITYSDK_OFFSET(0x17EBB780)
+#define HOUDINIENGINEUNITY_HEU_CURVE_UPDATECURVEINPUTFORCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x17EB9E40)
+#define HOUDINIENGINEUNITY_HEU_CURVE_UPDATECURVE_OFFSET UNITYSDK_OFFSET(0x17EB88B0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_UPDATEPOINTS_OFFSET UNITYSDK_OFFSET(0x17EBC9C0)
+#define HOUDINIENGINEUNITY_HEU_CURVE_UPLOADPARAMETERPRESET_OFFSET UNITYSDK_OFFSET(0x17EB8630)
+#define HOUDINIENGINEUNITY_HEU_CURVE_UPLOADPRESETDATA_OFFSET UNITYSDK_OFFSET(0x17EBDC60)
+#define HOUDINIENGINEUNITY_HEU_CURVE_USEPREVIOUSCURVEDATA_OFFSET UNITYSDK_OFFSET(0x17EB80A0)
+#define HOUDINIENGINEUNITY_HEU_CURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17EBE020)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Curve_TypeDefinitionIndex = 43490;
+	inline static constexpr unsigned int HEU_Curve_TypeDefinitionIndex = 37416;
 
 	class HEU_Curve : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::HoudiniEngineUnity::HEU_Curve_Interaction* StaticGet_PreferredNextInteractionMode()
 		{
-			return (::HoudiniEngineUnity::HEU_Curve_Interaction*)Il2CppClass::FromTypeDefinitionIndex(HEU_Curve_TypeDefinitionIndex)->GetStaticField(0x13EA0);
+			return (::HoudiniEngineUnity::HEU_Curve_Interaction*)Il2CppClass::FromTypeDefinitionIndex(HEU_Curve_TypeDefinitionIndex)->GetStaticField(0x14370);
 		}
 		::System::Int32 _geoID; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _points; // 0x20
+		::System::Int32 _partID; // 0x1C
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* _curveNodeData; // 0x20
 		::Il2CppArray<::UnityEngine::Vector3>* _vertices; // 0x28
 		::System::Boolean _isEditable; // 0x30
 		::HoudiniEngineUnity::HEU_Parameters* _parameters; // 0x38
@@ -67,10 +112,28 @@ namespace HoudiniEngineUnity
 		::UnityEngine::GameObject* _targetGameObject; // 0x50
 		::System::Boolean _isGeoCurve; // 0x58
 		::HoudiniEngineUnity::HEU_Curve_CurveEditState _editState; // 0x5C
+		::HoudiniEngineUnity::HEU_HoudiniAsset* _parentAsset; // 0x60
+		::System::Boolean _bIsInputCurve; // 0x68
+		::System::Boolean _bIsPartCurve; // 0x69
+		::System::Boolean _cachedCurveInfoValid; // 0x6A
+		::Il2CppArray<::System::Int32>* _cachedCurveCounts; // 0x70
+		::Il2CppArray<::System::Int32>* _cachedCurveCountSums; // 0x78
+		::HoudiniEngineUnity::HEU_CurveDataType _curveDataType; // 0x80
+		::HoudiniEngineUnity::HEU_InputCurveInfo* _inputCurveInfo; // 0x88
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::GameObject* get_TargetGameObject()
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_TARGETGAMEOBJECT_OFFSET))(this);
+		}
+
+		::System::Void set_TargetGameObject(::UnityEngine::GameObject* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SET_TARGETGAMEOBJECT_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_GeoID()
@@ -78,9 +141,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_GEOID_OFFSET))(this);
 		}
 
-		::System::Boolean IsEditable()
+		::System::Int32 get_PartID()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_ISEDITABLE_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_PARTID_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* get_CurveNodeData()
+		{
+			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_CURVENODEDATA_OFFSET))(this);
 		}
 
 		::HoudiniEngineUnity::HEU_Parameters* get_Parameters()
@@ -88,19 +156,29 @@ namespace HoudiniEngineUnity
 			return ((::HoudiniEngineUnity::HEU_Parameters*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_PARAMETERS_OFFSET))(this);
 		}
 
-		::System::Void SetUploadParameterPreset(::System::Boolean bValue)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETUPLOADPARAMETERPRESET_OFFSET))(this, bValue);
-		}
-
 		::System::String* get_CurveName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_CURVENAME_OFFSET))(this);
 		}
 
-		::System::Boolean IsGeoCurve()
+		::System::Boolean get_IsInputCurve()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_ISGEOCURVE_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_ISINPUTCURVE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsPartCurve()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_ISPARTCURVE_OFFSET))(this);
+		}
+
+		::HoudiniEngineUnity::HEU_InputCurveInfo* get_InputCurveInfo()
+		{
+			return ((::HoudiniEngineUnity::HEU_InputCurveInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_INPUTCURVEINFO_OFFSET))(this);
+		}
+
+		::System::Void SetUploadParameterPreset(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETUPLOADPARAMETERPRESET_OFFSET))(this, a1);
 		}
 
 		::HoudiniEngineUnity::HEU_Curve_CurveEditState get_EditState()
@@ -108,74 +186,69 @@ namespace HoudiniEngineUnity
 			return ((::HoudiniEngineUnity::HEU_Curve_CurveEditState(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_EDITSTATE_OFFSET))(this);
 		}
 
-		static ::HoudiniEngineUnity::HEU_Curve* CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::System::Boolean isEditable, ::System::String* curveName, ::System::Int32 geoID, ::System::Boolean bGeoCurve)
+		::HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset()
 		{
-			return ((::HoudiniEngineUnity::HEU_Curve*(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::Boolean, ::System::String*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_CREATESETUPCURVE_OFFSET))(parentAsset, isEditable, curveName, geoID, bGeoCurve);
+			return ((::HoudiniEngineUnity::HEU_HoudiniAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_PARENTASSET_OFFSET))(this);
 		}
 
-		::System::Void DestroyAllData()
+		::HoudiniEngineUnity::HEU_CurveDataType get_CurveDataType()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_DESTROYALLDATA_OFFSET))(this);
+			return ((::HoudiniEngineUnity::HEU_CurveDataType(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GET_CURVEDATATYPE_OFFSET))(this);
 		}
 
-		::System::Void SetCurveName(::System::String* name)
+		::HoudiniEngineUnity::HEU_SessionBase* GetSession()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETCURVENAME_OFFSET))(this, name);
+			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETSESSION_OFFSET))(this);
 		}
 
-		::System::Void UploadParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset)
+		::System::Void Recook()
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_UPLOADPARAMETERPRESET_OFFSET))(this, session, geoID, parentAsset);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_RECOOK_OFFSET))(this);
 		}
 
-		::System::Void ResetCurveParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset)
+		::System::Void Rebuild()
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_RESETCURVEPARAMETERS_OFFSET))(this, session, parentAsset);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_REBUILD_OFFSET))(this);
 		}
 
-		::System::Void SetCurveParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::Il2CppArray<::System::Byte>* parameterPreset)
+		::System::Boolean IsEditable()
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEPARAMETERPRESET_OFFSET))(this, session, parentAsset, parameterPreset);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_ISEDITABLE_OFFSET))(this);
 		}
 
-		::System::Void UpdateCurve(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 partID)
+		::System::Boolean IsGeoCurve()
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_UPDATECURVE_OFFSET))(this, session, partID);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_ISGEOCURVE_OFFSET))(this);
 		}
 
-		::System::Void GenerateMesh(::UnityEngine::GameObject* inGameObject)
+		::System::Void SetCurveName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GENERATEMESH_OFFSET))(this, inGameObject);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETCURVENAME_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncFromParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset)
+		::System::Void SetCurvePoint(::System::Int32 a1, ::UnityEngine::Vector3 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SYNCFROMPARAMETERS_OFFSET))(this, session, parentAsset);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEPOINT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ProjectToColliders(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::UnityEngine::Vector3 rayDirection, ::System::Single rayDistance)
+		::System::Void SetCurvePoint_1(::System::Int32 a1, ::HoudiniEngineUnity::CurveNodeData* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_PROJECTTOCOLLIDERS_OFFSET))(this, parentAsset, rayDirection, rayDistance);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::HoudiniEngineUnity::CurveNodeData*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEPOINT_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::String* GetPointsString(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points)
+		::System::Void SetCurveNodeData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::String*(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETPOINTSSTRING_OFFSET))(points);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETCURVENODEDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetEditState(::HoudiniEngineUnity::HEU_Curve_CurveEditState editState)
+		::UnityEngine::Vector3 GetCurvePoint(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_Curve_CurveEditState))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETEDITSTATE_OFFSET))(this, editState);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETCURVEPOINT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCurvePoint(::System::Int32 pointIndex, ::UnityEngine::Vector3 newPosition)
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* GetAllPointTransforms()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEPOINT_OFFSET))(this, pointIndex, newPosition);
-		}
-
-		::UnityEngine::Vector3 GetCurvePoint(::System::Int32 pointIndex)
-		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETCURVEPOINT_OFFSET))(this, pointIndex);
+			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETALLPOINTTRANSFORMS_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetAllPoints()
@@ -188,24 +261,184 @@ namespace HoudiniEngineUnity
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETNUMPOINTS_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 GetTransformedPoint(::System::Int32 pointIndex)
+		::System::Void InsertCurvePoint(::System::Int32 a1, ::UnityEngine::Vector3 a2, ::System::Boolean a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETTRANSFORMEDPOINT_OFFSET))(this, pointIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_INSERTCURVEPOINT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Vector3 GetTransformedPosition(::UnityEngine::Vector3 inPosition)
+		::System::Void InsertCurvePoint_1(::System::Int32 a1, ::HoudiniEngineUnity::CurveNodeData* a2, ::System::Boolean a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETTRANSFORMEDPOSITION_OFFSET))(this, inPosition);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::HoudiniEngineUnity::CurveNodeData*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_INSERTCURVEPOINT_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Vector3 GetInvertedTransformedPosition(::UnityEngine::Vector3 inPosition)
+		::System::Void AddCurvePointToEnd(::UnityEngine::Vector3 a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETINVERTEDTRANSFORMEDPOSITION_OFFSET))(this, inPosition);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_ADDCURVEPOINTTOEND_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 GetInvertedTransformedDirection(::UnityEngine::Vector3 inPosition)
+		::System::Void AddCurvePointToEnd_1(::HoudiniEngineUnity::CurveNodeData* a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETINVERTEDTRANSFORMEDDIRECTION_OFFSET))(this, inPosition);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::CurveNodeData*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_ADDCURVEPOINTTOEND_1_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void RemoveCurvePoint(::System::Int32 a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_REMOVECURVEPOINT_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void ClearCurveNodeData(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_CLEARCURVENODEDATA_OFFSET))(this, a1);
+		}
+
+		::System::Void ProjectToColliders(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_PROJECTTOCOLLIDERS_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void SetCurveGeometryVisibility(::System::Boolean a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEGEOMETRYVISIBILITY_OFFSET))(this, a1, a2);
+		}
+
+		::UnityEngine::Vector3 GetTransformedPoint(::System::Int32 a1)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETTRANSFORMEDPOINT_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetTransformedPoints()
+		{
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETTRANSFORMEDPOINTS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* DuplicateCurveNodeData()
+		{
+			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_DUPLICATECURVENODEDATA_OFFSET))(this);
+		}
+
+		static ::HoudiniEngineUnity::HEU_Curve* CreateSetupCurve(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_HoudiniAsset* a2, ::System::Boolean a3, ::System::String* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Boolean a7)
+		{
+			return ((::HoudiniEngineUnity::HEU_Curve*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::Boolean, ::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_CREATESETUPCURVE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+		}
+
+		::System::Void UsePreviousCurveData(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_USEPREVIOUSCURVEDATA_OFFSET))(this, a1);
+		}
+
+		::HoudiniEngineUnity::HEU_CurveDataType GetCurveDataType(::HoudiniEngineUnity::HEU_SessionBase* a1)
+		{
+			return ((::HoudiniEngineUnity::HEU_CurveDataType(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETCURVEDATATYPE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean ShouldKeepNode(::HoudiniEngineUnity::HEU_SessionBase* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SHOULDKEEPNODE_OFFSET))(this, a1);
+		}
+
+		::System::Void DestroyAllData(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_DESTROYALLDATA_OFFSET))(this, a1);
+		}
+
+		::System::Void UploadParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::HoudiniEngineUnity::HEU_HoudiniAsset* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_UPLOADPARAMETERPRESET_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void ResetCurveParameters(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_HoudiniAsset* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_RESETCURVEPARAMETERS_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void SetCurveParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_HoudiniAsset* a2, ::Il2CppArray<::System::Byte>* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEPARAMETERPRESET_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void UpdateCurve(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_UPDATECURVE_OFFSET))(this, a1, a2);
+		}
+
+		static ::Il2CppArray<::System::Int32>* GetCurveCounts(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3)
+		{
+			return ((::Il2CppArray<::System::Int32>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETCURVECOUNTS_OFFSET))(a1, a2, a3);
+		}
+
+		::System::Void GenerateMesh(::UnityEngine::GameObject* a1, ::HoudiniEngineUnity::HEU_SessionBase* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GENERATEMESH_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void GenerateMeshForSingleObject(::UnityEngine::GameObject* a1, ::Il2CppArray<::UnityEngine::Vector3>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GENERATEMESHFORSINGLEOBJECT_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnPresyncParameters(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_HoudiniAsset* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_ONPRESYNCPARAMETERS_OFFSET))(this, a1, a2);
+		}
+
+		static ::System::Int32 GetOrderForCurveType(::System::Int32 a1, ::HoudiniEngineUnity::HAPI_CurveType a2)
+		{
+			return ((::System::Int32(*)(::System::Int32, ::HoudiniEngineUnity::HAPI_CurveType))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETORDERFORCURVETYPE_OFFSET))(a1, a2);
+		}
+
+		::System::Boolean UpdateCurveInputForCurveParts(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_HoudiniAsset* a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_UPDATECURVEINPUTFORCURVEPARTS_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean UpdateCurveInputForCustomAttributes(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_HoudiniAsset* a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_UPDATECURVEINPUTFORCUSTOMATTRIBUTES_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void SyncFromParameters(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_HoudiniAsset* a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SYNCFROMPARAMETERS_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void UpdatePoints(::HoudiniEngineUnity::HEU_SessionBase* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_UPDATEPOINTS_OFFSET))(this, a1);
+		}
+
+		::System::Void ProjectToCollidersInternal(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_PROJECTTOCOLLIDERSINTERNAL_OFFSET))(this, a1, a2, a3);
+		}
+
+		static ::System::String* GetPointsString(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* a1)
+		{
+			return ((::System::String*(*)(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETPOINTSSTRING_OFFSET))(a1);
+		}
+
+		static ::System::String* GetPointsString_1(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1)
+		{
+			return ((::System::String*(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETPOINTSSTRING_1_OFFSET))(a1);
+		}
+
+		::System::Void SetEditState(::HoudiniEngineUnity::HEU_Curve_CurveEditState a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_Curve_CurveEditState))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETEDITSTATE_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Vector3 GetTransformedPosition(::UnityEngine::Vector3 a1)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETTRANSFORMEDPOSITION_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Vector3 GetInvertedTransformedPosition(::UnityEngine::Vector3 a1)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETINVERTEDTRANSFORMEDPOSITION_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Vector3 GetInvertedTransformedDirection(::UnityEngine::Vector3 a1)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETINVERTEDTRANSFORMEDDIRECTION_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::UnityEngine::Vector3>* GetVertices()
@@ -213,24 +446,44 @@ namespace HoudiniEngineUnity
 			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETVERTICES_OFFSET))(this);
 		}
 
-		::System::Void SetCurveGeometryVisibility(::System::Boolean bVisible)
+		::System::Void SetCurveGeometryVisibilityInternal(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEGEOMETRYVISIBILITY_OFFSET))(this, bVisible);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_SETCURVEGEOMETRYVISIBILITYINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Void DownloadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session)
+		::System::Void DownloadPresetData(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_DOWNLOADPRESETDATA_OFFSET))(this, session);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_DOWNLOADPRESETDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void UploadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session)
+		::System::Void UploadPresetData(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_UPLOADPRESETDATA_OFFSET))(this, session);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_UPLOADPRESETDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void DownloadAsDefaultPresetData(::HoudiniEngineUnity::HEU_SessionBase* session)
+		::System::Void DownloadAsDefaultPresetData(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_DOWNLOADASDEFAULTPRESETDATA_OFFSET))(this, session);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_DOWNLOADASDEFAULTPRESETDATA_OFFSET))(this, a1);
+		}
+
+		::System::Void UpdateCachedCurveInfo(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_UPDATECACHEDCURVEINFO_OFFSET))(this, a1, a2);
+		}
+
+		::System::Int32 GetCurveCountIndexFromPositionIndex(::System::Int32 a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_GETCURVECOUNTINDEXFROMPOSITIONINDEX_OFFSET))(this, a1);
+		}
+
+		static ::System::Boolean IsMeshCurve(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3)
+		{
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_ISMESHCURVE_OFFSET))(a1, a2, a3);
+		}
+
+		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::HEU_Curve* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_Curve*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
 	};
 }

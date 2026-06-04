@@ -4,13 +4,13 @@
 
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CUSTOMRP_FOGVOLUME_START_OFFSET UNITYSDK_OFFSET(0x1813D550)
-#define RPG_CUSTOMRP_FOGVOLUME_UPDATEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1813D290)
-#define RPG_CUSTOMRP_FOGVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1813D590)
+#define RPG_CUSTOMRP_FOGVOLUME_START_OFFSET UNITYSDK_OFFSET(0x18EE3A90)
+#define RPG_CUSTOMRP_FOGVOLUME_UPDATEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18EE37E0)
+#define RPG_CUSTOMRP_FOGVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x18EE3AD0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FogVolume_TypeDefinitionIndex = 35120;
+	inline static constexpr unsigned int FogVolume_TypeDefinitionIndex = 35406;
 
 	class FogVolume : public ::UnityEngine::MonoBehaviour
 	{

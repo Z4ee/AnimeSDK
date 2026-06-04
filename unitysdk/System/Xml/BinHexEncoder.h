@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_BINHEXENCODER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x19F9D730)
-#define SYSTEM_XML_BINHEXENCODER_ENCODE_2_OFFSET UNITYSDK_OFFSET(0x19F9D5D0)
-#define SYSTEM_XML_BINHEXENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x19F9D400)
+#define SYSTEM_XML_BINHEXENCODER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1AE13C80)
+#define SYSTEM_XML_BINHEXENCODER_ENCODE_2_OFFSET UNITYSDK_OFFSET(0x1AE13B40)
+#define SYSTEM_XML_BINHEXENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1AE13970)
 
 namespace System::Xml
 {
@@ -16,19 +16,19 @@ namespace System::Xml
 	class BinHexEncoder : public ::System::Object
 	{
 	public:
-		static ::System::Void Encode(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 index, ::System::Int32 count, ::System::Xml::XmlWriter* writer)
+		static ::System::Void Encode(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Xml::XmlWriter* a4)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINHEXENCODER_ENCODE_OFFSET))(buffer, index, count, writer);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINHEXENCODER_ENCODE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::String* Encode_1(::Il2CppArray<::System::Byte>* inArray, ::System::Int32 offsetIn, ::System::Int32 count)
+		static ::System::String* Encode_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINHEXENCODER_ENCODE_1_OFFSET))(inArray, offsetIn, count);
+			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINHEXENCODER_ENCODE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 Encode_2(::Il2CppArray<::System::Byte>* inArray, ::System::Int32 offsetIn, ::System::Int32 count, ::Il2CppArray<::System::Char>* outArray)
+		static ::System::Int32 Encode_2(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Char>* a4)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINHEXENCODER_ENCODE_2_OFFSET))(inArray, offsetIn, count, outArray);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINHEXENCODER_ENCODE_2_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

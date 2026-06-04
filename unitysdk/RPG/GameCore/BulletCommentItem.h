@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_BULLETCOMMENTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D84B0)
+#define RPG_GAMECORE_BULLETCOMMENTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCD3E4C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BulletCommentItem_TypeDefinitionIndex = 51266;
+	inline static constexpr unsigned int BulletCommentItem_TypeDefinitionIndex = 51938;
 
 	class BulletCommentItem : public ::System::Object
 	{

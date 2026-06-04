@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x173CBB50)
-#define CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x173CBBC0)
-#define CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x173CB800)
-#define CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x173C9810)
+#define CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x181D5E90)
+#define CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x181D5F00)
+#define CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x181D5E80)
+#define CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x181D5E10)
 
 namespace CloudGame::MailBox
 {
-	inline static constexpr unsigned int Mailbox_ReceiveCallbackHandler_TypeDefinitionIndex = 6595;
+	inline static constexpr unsigned int Mailbox_ReceiveCallbackHandler_TypeDefinitionIndex = 7498;
 
 	class Mailbox_ReceiveCallbackHandler : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::IntPtr pData, ::System::Int32 size)
+		::System::Void Invoke(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_INVOKE_OFFSET))(this, pData, size);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::IntPtr pData, ::System::Int32 size, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::IntPtr a1, ::System::Int32 a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_BEGININVOKE_OFFSET))(this, pData, size, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_RECEIVECALLBACKHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

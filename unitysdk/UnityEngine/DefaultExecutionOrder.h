@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_DEFAULTEXECUTIONORDER_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1A43FFC0)
-#define UNITYENGINE_DEFAULTEXECUTIONORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A43FFB0)
+#define UNITYENGINE_DEFAULTEXECUTIONORDER_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1B291370)
+#define UNITYENGINE_DEFAULTEXECUTIONORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B291360)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DefaultExecutionOrder_TypeDefinitionIndex = 4119;
+	inline static constexpr unsigned int DefaultExecutionOrder_TypeDefinitionIndex = 4293;
 
 	class DefaultExecutionOrder : public ::System::Attribute
 	{
 	public:
 		::System::Int32 m_Order; // 0x10
 
-		::System::Void _ctor(::System::Int32 order)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_DEFAULTEXECUTIONORDER__CTOR_OFFSET))(this, order);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_DEFAULTEXECUTIONORDER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_order()

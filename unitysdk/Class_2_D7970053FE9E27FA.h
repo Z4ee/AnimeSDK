@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/FiveDim/BaseContactEventSystem_1.h"
+
+class Class_1_2CDF619C23140440;
+class Class_2_B8E38BF47138A2E5;
+class Class_3_D6E9A038FA23103A;
+
+#define CLASS_2_D7970053FE9E27FA_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x13D14D40)
+#define CLASS_2_D7970053FE9E27FA__CTOR_OFFSET UNITYSDK_OFFSET(0x13D14C30)
+#define CLASS_2_D7970053FE9E27FA__UPDATENEWCONTACTPLAYERENTITIES_OFFSET UNITYSDK_OFFSET(0x13D14D80)
+#define CLASS_2_D7970053FE9E27FA__UPDATEPREVCONTACTPLAYERENTITY_OFFSET UNITYSDK_OFFSET(0x13D150C0)
+#define CLASS_2_D7970053FE9E27FA___IFIXBASEPROXY__UPDATENEWCONTACTPLAYERENTITIES_OFFSET UNITYSDK_OFFSET(0x13D153B0)
+#define CLASS_2_D7970053FE9E27FA___IFIXBASEPROXY__UPDATEPREVCONTACTPLAYERENTITY_OFFSET UNITYSDK_OFFSET(0x13D153C0)
+
+inline static constexpr unsigned int Class_2_D7970053FE9E27FA_TypeDefinitionIndex = 71287;
+
+class Class_2_D7970053FE9E27FA : public ::RPG::Client::LittleGame::FiveDim::BaseContactEventSystem_1<::Class_2_B8E38BF47138A2E5*>
+{
+public:
+	::Class_1_2CDF619C23140440* Field_2_0; // 0x20
+	::Class_3_D6E9A038FA23103A* Field_2_1; // 0x28
+
+	::System::Void _ctor(::Class_1_2CDF619C23140440* a1, ::Class_3_D6E9A038FA23103A* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_2CDF619C23140440*, ::Class_3_D6E9A038FA23103A*))((::PBYTE)hIl2Cpp + CLASS_2_D7970053FE9E27FA__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_2_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D7970053FE9E27FA_METHOD_2_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::System::Void _UpdateNewContactPlayerEntities()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D7970053FE9E27FA__UPDATENEWCONTACTPLAYERENTITIES_OFFSET))(this);
+	}
+
+	::System::Void _UpdatePrevContactPlayerEntity(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_D7970053FE9E27FA__UPDATEPREVCONTACTPLAYERENTITY_OFFSET))(this, a1);
+	}
+
+	::System::Void __iFixBaseProxy__UpdateNewContactPlayerEntities()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D7970053FE9E27FA___IFIXBASEPROXY__UPDATENEWCONTACTPLAYERENTITIES_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__UpdatePrevContactPlayerEntity(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_D7970053FE9E27FA___IFIXBASEPROXY__UPDATEPREVCONTACTPLAYERENTITY_OFFSET))(this, a1);
+	}
+};

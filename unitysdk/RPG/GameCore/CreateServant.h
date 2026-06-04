@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CREATESERVANT_METHOD_3_04581EF9C04F4BB6_OFFSET UNITYSDK_OFFSET(0x18845360)
-#define RPG_GAMECORE_CREATESERVANT_METHOD_3_11BB7A6D8E737672_OFFSET UNITYSDK_OFFSET(0x188453E0)
-#define RPG_GAMECORE_CREATESERVANT__CTOR_OFFSET UNITYSDK_OFFSET(0x188453B0)
+#define RPG_GAMECORE_CREATESERVANT_METHOD_3_72F755C00FC88400_OFFSET UNITYSDK_OFFSET(0x19684990)
+#define RPG_GAMECORE_CREATESERVANT_METHOD_3_9D62F6B41E64E92C_OFFSET UNITYSDK_OFFSET(0x19684910)
+#define RPG_GAMECORE_CREATESERVANT__CTOR_OFFSET UNITYSDK_OFFSET(0x19684960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateServant_TypeDefinitionIndex = 21904;
+	inline static constexpr unsigned int CreateServant_TypeDefinitionIndex = 21728;
 
 	class CreateServant : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,14 +32,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESERVANT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_04581EF9C04F4BB6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateServant*& a2)
+		static ::System::Void Method_3_9D62F6B41E64E92C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateServant*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateServant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESERVANT_METHOD_3_04581EF9C04F4BB6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateServant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESERVANT_METHOD_3_9D62F6B41E64E92C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_11BB7A6D8E737672(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateServant* a2)
+		static ::System::Void Method_3_72F755C00FC88400(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateServant* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateServant*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESERVANT_METHOD_3_11BB7A6D8E737672_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateServant*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESERVANT_METHOD_3_72F755C00FC88400_OFFSET))(a1, a2);
 		}
 	};
 }

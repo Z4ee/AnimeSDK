@@ -4,15 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class JsonEnum; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_15E78BC6453444CF_OFFSET UNITYSDK_OFFSET(0x18DD9E10)
-#define RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_410F089613F24C62_OFFSET UNITYSDK_OFFSET(0x18DD9EF0)
-#define RPG_GAMECORE_RTTARGETFETCHTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD9EA0)
+#define RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_24B6C4172B23077A_OFFSET UNITYSDK_OFFSET(0x19BF5310)
+#define RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_7D29D3CE0EEA79E1_OFFSET UNITYSDK_OFFSET(0x19BF5280)
+#define RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_839948727DC06B92_OFFSET UNITYSDK_OFFSET(0x19BF4FE0)
+#define RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_C619AE74D3D7FB71_OFFSET UNITYSDK_OFFSET(0x19BF50C0)
+#define RPG_GAMECORE_RTTARGETFETCHTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF5070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtTargetFetchTrigger_TypeDefinitionIndex = 23251;
+	inline static constexpr unsigned int RtTargetFetchTrigger_TypeDefinitionIndex = 22919;
 
 	class RtTargetFetchTrigger : public ::RPG::GameCore::TargetEvaluator
 	{
@@ -27,14 +30,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_15E78BC6453444CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetFetchTrigger*& a2)
+		static ::System::Void Method_4_839948727DC06B92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetFetchTrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetFetchTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_15E78BC6453444CF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetFetchTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_839948727DC06B92_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_410F089613F24C62(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetFetchTrigger* a2)
+		static ::System::Void Method_4_C619AE74D3D7FB71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetFetchTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetFetchTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_410F089613F24C62_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetFetchTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_C619AE74D3D7FB71_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_7D29D3CE0EEA79E1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetFetchTrigger*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetFetchTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_7D29D3CE0EEA79E1_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_24B6C4172B23077A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetFetchTrigger* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetFetchTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTRIGGER_METHOD_4_24B6C4172B23077A_OFFSET))(a1, a2);
 		}
 	};
 }

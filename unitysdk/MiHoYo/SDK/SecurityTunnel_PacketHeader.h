@@ -7,18 +7,18 @@
 namespace System { class String; }
 namespace System::IO { class MemoryStream; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER_GETBYTES_OFFSET UNITYSDK_OFFSET(0x29BF0)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER_GET_FIXEDLENGTH_OFFSET UNITYSDK_OFFSET(0x8DCA3A0)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x29AB0)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER_GET_WANTSGENERATEDID_OFFSET UNITYSDK_OFFSET(0x29AD0)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x29C00)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x29B50)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x29B70)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x29B40)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER_GETBYTES_OFFSET UNITYSDK_OFFSET(0x2C850)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER_GET_FIXEDLENGTH_OFFSET UNITYSDK_OFFSET(0xA215F80)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x2C710)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER_GET_WANTSGENERATEDID_OFFSET UNITYSDK_OFFSET(0x2C730)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2C860)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2C7B0)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x2C7D0)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x2C7A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_PacketHeader_TypeDefinitionIndex = 42993;
+	inline static constexpr unsigned int SecurityTunnel_PacketHeader_TypeDefinitionIndex = 43796;
 
 	struct alignas(8) SecurityTunnel_PacketHeader
 	{
@@ -27,19 +27,19 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::SecurityTunnel_PacketCommand Command; // 0x1C
 		::Il2CppArray<::System::Byte>* Extra; // 0x20
 
-		::System::Void _ctor(::System::IO::MemoryStream* stream)
+		::System::Void _ctor(::System::IO::MemoryStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::MemoryStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_OFFSET))(this, stream);
+			return ((::System::Void(*)(::PVOID, ::System::IO::MemoryStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::UInt64 id, ::MiHoYo::SDK::SecurityTunnel_PacketFlag flag, ::MiHoYo::SDK::SecurityTunnel_PacketCommand command, ::Il2CppArray<::System::Byte>* extra)
+		::System::Void _ctor_1(::System::UInt64 a1, ::MiHoYo::SDK::SecurityTunnel_PacketFlag a2, ::MiHoYo::SDK::SecurityTunnel_PacketCommand a3, ::Il2CppArray<::System::Byte>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::MiHoYo::SDK::SecurityTunnel_PacketFlag, ::MiHoYo::SDK::SecurityTunnel_PacketCommand, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_1_OFFSET))(this, id, flag, command, extra);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::MiHoYo::SDK::SecurityTunnel_PacketFlag, ::MiHoYo::SDK::SecurityTunnel_PacketCommand, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_2(::MiHoYo::SDK::SecurityTunnel_PacketFlag flag, ::MiHoYo::SDK::SecurityTunnel_PacketCommand command, ::Il2CppArray<::System::Byte>* extra)
+		::System::Void _ctor_2(::MiHoYo::SDK::SecurityTunnel_PacketFlag a1, ::MiHoYo::SDK::SecurityTunnel_PacketCommand a2, ::Il2CppArray<::System::Byte>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_PacketFlag, ::MiHoYo::SDK::SecurityTunnel_PacketCommand, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_2_OFFSET))(this, flag, command, extra);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_PacketFlag, ::MiHoYo::SDK::SecurityTunnel_PacketCommand, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKETHEADER__CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::UInt32 get_FixedLength()

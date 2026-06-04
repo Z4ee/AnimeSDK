@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E820E0)
-#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS0_0__ISENTITYHAVESHIELDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x9E88900)
+#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB41C9B0)
+#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS0_0__ISENTITYHAVESHIELDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xB423FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleUIUtils___c__DisplayClass0_0_TypeDefinitionIndex = 66404;
+	inline static constexpr unsigned int BattleUIUtils___c__DisplayClass0_0_TypeDefinitionIndex = 67341;
 
 	class BattleUIUtils___c__DisplayClass0_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _IsEntityHaveShieldBuff_b__0(::RPG::GameCore::TurnBasedModifierInstance* x)
+		::System::Void _IsEntityHaveShieldBuff_b__0(::RPG::GameCore::TurnBasedModifierInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS0_0__ISENTITYHAVESHIELDBUFF_B__0_OFFSET))(this, x);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS0_0__ISENTITYHAVESHIELDBUFF_B__0_OFFSET))(this, a1);
 		}
 	};
 }

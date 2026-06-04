@@ -10,10 +10,10 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A0A7FA0)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A0A8080)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A0A7980)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A7960)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AF16680)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AF16760)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AF16630)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF165C0)
 
 namespace Mono::Unity
 {
@@ -22,24 +22,24 @@ namespace Mono::Unity
 	class UnityTls_unitytls_interface_struct_unitytls_tlsctx_create_server_t : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::Mono::Unity::UnityTls_unitytls_tlsctx* Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange supportedProtocols, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks callbacks, ::System::UInt64 certChain, ::System::UInt64 leafCertificateKey, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		::Mono::Unity::UnityTls_unitytls_tlsctx* Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange a1, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks a2, ::System::UInt64 a3, ::System::UInt64 a4, ::Mono::Unity::UnityTls_unitytls_errorstate* a5)
 		{
-			return ((::Mono::Unity::UnityTls_unitytls_tlsctx*(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks, ::System::UInt64, ::System::UInt64, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_INVOKE_OFFSET))(this, supportedProtocols, callbacks, certChain, leafCertificateKey, errorState);
+			return ((::Mono::Unity::UnityTls_unitytls_tlsctx*(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks, ::System::UInt64, ::System::UInt64, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_INVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange supportedProtocols, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks callbacks, ::System::UInt64 certChain, ::System::UInt64 leafCertificateKey, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange a1, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks a2, ::System::UInt64 a3, ::System::UInt64 a4, ::Mono::Unity::UnityTls_unitytls_errorstate* a5, ::System::AsyncCallback* a6, ::System::Object* a7)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks, ::System::UInt64, ::System::UInt64, ::Mono::Unity::UnityTls_unitytls_errorstate*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_BEGININVOKE_OFFSET))(this, supportedProtocols, callbacks, certChain, leafCertificateKey, errorState, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks, ::System::UInt64, ::System::UInt64, ::Mono::Unity::UnityTls_unitytls_errorstate*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::Mono::Unity::UnityTls_unitytls_tlsctx* EndInvoke(::System::IAsyncResult* result)
+		::Mono::Unity::UnityTls_unitytls_tlsctx* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::Mono::Unity::UnityTls_unitytls_tlsctx*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_ENDINVOKE_OFFSET))(this, result);
+			return ((::Mono::Unity::UnityTls_unitytls_tlsctx*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_TLSCTX_CREATE_SERVER_T_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

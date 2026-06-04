@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/EntityTag.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_065C3F7CC6C5F3AA;
+class Class_1_6C30C65EACF8D014;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
 namespace RPG::GameCore { class VisionConfig; }
@@ -11,57 +11,57 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_6F8DD29344D23142_GET_ALERTSPEEDLEFTVALUE_OFFSET UNITYSDK_OFFSET(0x11939420)
-#define CLASS_1_6F8DD29344D23142_GET_ALERTSPEEDRIGHTVALUE_OFFSET UNITYSDK_OFFSET(0x11939440)
-#define CLASS_1_6F8DD29344D23142_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x11939320)
-#define CLASS_1_6F8DD29344D23142_GET_EXCLUDEENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x11939460)
-#define CLASS_1_6F8DD29344D23142_GET_NAME_OFFSET UNITYSDK_OFFSET(0x11939280)
-#define CLASS_1_6F8DD29344D23142_GET_PITCHLIMITMAX_OFFSET UNITYSDK_OFFSET(0x119393C0)
-#define CLASS_1_6F8DD29344D23142_GET_PITCHLIMITMIN_OFFSET UNITYSDK_OFFSET(0x119393A0)
-#define CLASS_1_6F8DD29344D23142_GET_RAYSOURCEPOINTNAME_OFFSET UNITYSDK_OFFSET(0x119393E0)
-#define CLASS_1_6F8DD29344D23142_GET_RAYTARGETPOINTNAME_OFFSET UNITYSDK_OFFSET(0x11939400)
-#define CLASS_1_6F8DD29344D23142_GET_YAWANGLE_OFFSET UNITYSDK_OFFSET(0x119392A0)
-#define CLASS_1_6F8DD29344D23142_METHOD_1_4D851AEC7175AA9E_OFFSET UNITYSDK_OFFSET(0x11939DD0)
-#define CLASS_1_6F8DD29344D23142_METHOD_1_883D7E346EAED533_OFFSET UNITYSDK_OFFSET(0x119399E0)
-#define CLASS_1_6F8DD29344D23142_METHOD_1_A36150C5DCC8409E_1_OFFSET UNITYSDK_OFFSET(0x11939340)
-#define CLASS_1_6F8DD29344D23142_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x119392C0)
-#define CLASS_1_6F8DD29344D23142_METHOD_1_AF99A26E836BCC88_OFFSET UNITYSDK_OFFSET(0x11939F80)
-#define CLASS_1_6F8DD29344D23142_METHOD_1_CAB09625B03CCCA7_OFFSET UNITYSDK_OFFSET(0x11939BB0)
-#define CLASS_1_6F8DD29344D23142_METHOD_1_CEAE256FB1DEC448_OFFSET UNITYSDK_OFFSET(0x11939790)
-#define CLASS_1_6F8DD29344D23142_METHOD_1_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x1193A690)
-#define CLASS_1_6F8DD29344D23142_METHOD_1_DE45EA3A177BC33B_OFFSET UNITYSDK_OFFSET(0x11939B40)
-#define CLASS_1_6F8DD29344D23142_METHOD_1_EB3C6D73F5EE470A_OFFSET UNITYSDK_OFFSET(0x1193A2B0)
-#define CLASS_1_6F8DD29344D23142_SET_ALERTSPEEDLEFTVALUE_OFFSET UNITYSDK_OFFSET(0x11939430)
-#define CLASS_1_6F8DD29344D23142_SET_ALERTSPEEDRIGHTVALUE_OFFSET UNITYSDK_OFFSET(0x11939450)
-#define CLASS_1_6F8DD29344D23142_SET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x11939330)
-#define CLASS_1_6F8DD29344D23142_SET_EXCLUDEENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x11939470)
-#define CLASS_1_6F8DD29344D23142_SET_NAME_OFFSET UNITYSDK_OFFSET(0x11939290)
-#define CLASS_1_6F8DD29344D23142_SET_PITCHLIMITMAX_OFFSET UNITYSDK_OFFSET(0x119393D0)
-#define CLASS_1_6F8DD29344D23142_SET_PITCHLIMITMIN_OFFSET UNITYSDK_OFFSET(0x119393B0)
-#define CLASS_1_6F8DD29344D23142_SET_RAYSOURCEPOINTNAME_OFFSET UNITYSDK_OFFSET(0x119393F0)
-#define CLASS_1_6F8DD29344D23142_SET_RAYTARGETPOINTNAME_OFFSET UNITYSDK_OFFSET(0x11939410)
-#define CLASS_1_6F8DD29344D23142_SET_YAWANGLE_OFFSET UNITYSDK_OFFSET(0x119392B0)
-#define CLASS_1_6F8DD29344D23142__CTOR_1_OFFSET UNITYSDK_OFFSET(0x119396E0)
-#define CLASS_1_6F8DD29344D23142__CTOR_OFFSET UNITYSDK_OFFSET(0x11939480)
+#define CLASS_1_6F8DD29344D23142_GET_ALERTSPEEDLEFTVALUE_OFFSET UNITYSDK_OFFSET(0x14414E60)
+#define CLASS_1_6F8DD29344D23142_GET_ALERTSPEEDRIGHTVALUE_OFFSET UNITYSDK_OFFSET(0x14414E80)
+#define CLASS_1_6F8DD29344D23142_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x14414D60)
+#define CLASS_1_6F8DD29344D23142_GET_EXCLUDEENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x14414EA0)
+#define CLASS_1_6F8DD29344D23142_GET_NAME_OFFSET UNITYSDK_OFFSET(0x14414CC0)
+#define CLASS_1_6F8DD29344D23142_GET_PITCHLIMITMAX_OFFSET UNITYSDK_OFFSET(0x14414E00)
+#define CLASS_1_6F8DD29344D23142_GET_PITCHLIMITMIN_OFFSET UNITYSDK_OFFSET(0x14414DE0)
+#define CLASS_1_6F8DD29344D23142_GET_RAYSOURCEPOINTNAME_OFFSET UNITYSDK_OFFSET(0x14414E20)
+#define CLASS_1_6F8DD29344D23142_GET_RAYTARGETPOINTNAME_OFFSET UNITYSDK_OFFSET(0x14414E40)
+#define CLASS_1_6F8DD29344D23142_GET_YAWANGLE_OFFSET UNITYSDK_OFFSET(0x14414CE0)
+#define CLASS_1_6F8DD29344D23142_METHOD_1_4D851AEC7175AA9E_OFFSET UNITYSDK_OFFSET(0x14415810)
+#define CLASS_1_6F8DD29344D23142_METHOD_1_883D7E346EAED533_OFFSET UNITYSDK_OFFSET(0x14415420)
+#define CLASS_1_6F8DD29344D23142_METHOD_1_A36150C5DCC8409E_1_OFFSET UNITYSDK_OFFSET(0x14414D80)
+#define CLASS_1_6F8DD29344D23142_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x14414D00)
+#define CLASS_1_6F8DD29344D23142_METHOD_1_AF99A26E836BCC88_OFFSET UNITYSDK_OFFSET(0x144159C0)
+#define CLASS_1_6F8DD29344D23142_METHOD_1_CAB09625B03CCCA7_OFFSET UNITYSDK_OFFSET(0x144155F0)
+#define CLASS_1_6F8DD29344D23142_METHOD_1_CEAE256FB1DEC448_OFFSET UNITYSDK_OFFSET(0x144151D0)
+#define CLASS_1_6F8DD29344D23142_METHOD_1_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x144160A0)
+#define CLASS_1_6F8DD29344D23142_METHOD_1_DE45EA3A177BC33B_OFFSET UNITYSDK_OFFSET(0x14415580)
+#define CLASS_1_6F8DD29344D23142_METHOD_1_EB3C6D73F5EE470A_OFFSET UNITYSDK_OFFSET(0x14415CC0)
+#define CLASS_1_6F8DD29344D23142_SET_ALERTSPEEDLEFTVALUE_OFFSET UNITYSDK_OFFSET(0x14414E70)
+#define CLASS_1_6F8DD29344D23142_SET_ALERTSPEEDRIGHTVALUE_OFFSET UNITYSDK_OFFSET(0x14414E90)
+#define CLASS_1_6F8DD29344D23142_SET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x14414D70)
+#define CLASS_1_6F8DD29344D23142_SET_EXCLUDEENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x14414EB0)
+#define CLASS_1_6F8DD29344D23142_SET_NAME_OFFSET UNITYSDK_OFFSET(0x14414CD0)
+#define CLASS_1_6F8DD29344D23142_SET_PITCHLIMITMAX_OFFSET UNITYSDK_OFFSET(0x14414E10)
+#define CLASS_1_6F8DD29344D23142_SET_PITCHLIMITMIN_OFFSET UNITYSDK_OFFSET(0x14414DF0)
+#define CLASS_1_6F8DD29344D23142_SET_RAYSOURCEPOINTNAME_OFFSET UNITYSDK_OFFSET(0x14414E30)
+#define CLASS_1_6F8DD29344D23142_SET_RAYTARGETPOINTNAME_OFFSET UNITYSDK_OFFSET(0x14414E50)
+#define CLASS_1_6F8DD29344D23142_SET_YAWANGLE_OFFSET UNITYSDK_OFFSET(0x14414CF0)
+#define CLASS_1_6F8DD29344D23142__CTOR_1_OFFSET UNITYSDK_OFFSET(0x14415120)
+#define CLASS_1_6F8DD29344D23142__CTOR_OFFSET UNITYSDK_OFFSET(0x14414EC0)
 
-inline static constexpr unsigned int Class_1_6F8DD29344D23142_TypeDefinitionIndex = 52506;
+inline static constexpr unsigned int Class_1_6F8DD29344D23142_TypeDefinitionIndex = 53206;
 
 class Class_1_6F8DD29344D23142 : public ::System::Object
 {
 public:
-	::System::String* _RaySourcePointName_k__BackingField; // 0x10
-	::System::String* _RayTargetPointName_k__BackingField; // 0x18
-	::UnityEngine::Transform* Field_1_12; // 0x20
-	::System::String* _Name_k__BackingField; // 0x28
-	::RPG::GameCore::TransformComponent* Field_1_11; // 0x30
-	::RPG::GameCore::GameEntity* Field_1_10; // 0x38
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
+	::RPG::GameCore::TransformComponent* Field_1_1; // 0x18
+	::System::String* _RaySourcePointName_k__BackingField; // 0x20
+	::System::String* _RayTargetPointName_k__BackingField; // 0x28
+	::UnityEngine::Transform* Field_1_4; // 0x30
+	::System::String* _Name_k__BackingField; // 0x38
 	::System::Single _PitchLimitMax_k__BackingField; // 0x40
-	::System::Single _YawAngle_k__BackingField; // 0x44
-	::System::Single _AlertSpeedRightValue_k__BackingField; // 0x48
-	::System::Int32 _ExcludeEntityTags_k__BackingField; // 0x4C
-	::System::Single _Distance_k__BackingField; // 0x50
-	::System::Single _PitchLimitMin_k__BackingField; // 0x54
-	::System::Single _AlertSpeedLeftValue_k__BackingField; // 0x58
+	::System::Single _Distance_k__BackingField; // 0x44
+	::System::Single _AlertSpeedLeftValue_k__BackingField; // 0x48
+	::System::Single _YawAngle_k__BackingField; // 0x4C
+	::System::Single _AlertSpeedRightValue_k__BackingField; // 0x50
+	::System::Int32 _ExcludeEntityTags_k__BackingField; // 0x54
+	::System::Single _PitchLimitMin_k__BackingField; // 0x58
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TransformComponent* a2, ::RPG::GameCore::VisionConfig* a3)
 	{
@@ -78,9 +78,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_GET_NAME_OFFSET))(this);
 	}
 
-	::System::Void set_Name(::System::String* value)
+	::System::Void set_Name(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_NAME_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_NAME_OFFSET))(this, a1);
 	}
 
 	::System::Single get_YawAngle()
@@ -88,9 +88,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_GET_YAWANGLE_OFFSET))(this);
 	}
 
-	::System::Void set_YawAngle(::System::Single value)
+	::System::Void set_YawAngle(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_YAWANGLE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_YAWANGLE_OFFSET))(this, a1);
 	}
 
 	::System::Single Method_1_A36150C5DCC8409E()
@@ -103,9 +103,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_GET_DISTANCE_OFFSET))(this);
 	}
 
-	::System::Void set_Distance(::System::Single value)
+	::System::Void set_Distance(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_DISTANCE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_DISTANCE_OFFSET))(this, a1);
 	}
 
 	::System::Single Method_1_A36150C5DCC8409E_1()
@@ -118,9 +118,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_GET_PITCHLIMITMIN_OFFSET))(this);
 	}
 
-	::System::Void set_PitchLimitMin(::System::Single value)
+	::System::Void set_PitchLimitMin(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_PITCHLIMITMIN_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_PITCHLIMITMIN_OFFSET))(this, a1);
 	}
 
 	::System::Single get_PitchLimitMax()
@@ -128,9 +128,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_GET_PITCHLIMITMAX_OFFSET))(this);
 	}
 
-	::System::Void set_PitchLimitMax(::System::Single value)
+	::System::Void set_PitchLimitMax(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_PITCHLIMITMAX_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_PITCHLIMITMAX_OFFSET))(this, a1);
 	}
 
 	::System::String* get_RaySourcePointName()
@@ -138,9 +138,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_GET_RAYSOURCEPOINTNAME_OFFSET))(this);
 	}
 
-	::System::Void set_RaySourcePointName(::System::String* value)
+	::System::Void set_RaySourcePointName(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_RAYSOURCEPOINTNAME_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_RAYSOURCEPOINTNAME_OFFSET))(this, a1);
 	}
 
 	::System::String* get_RayTargetPointName()
@@ -148,9 +148,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_GET_RAYTARGETPOINTNAME_OFFSET))(this);
 	}
 
-	::System::Void set_RayTargetPointName(::System::String* value)
+	::System::Void set_RayTargetPointName(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_RAYTARGETPOINTNAME_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_RAYTARGETPOINTNAME_OFFSET))(this, a1);
 	}
 
 	::System::Single get_AlertSpeedLeftValue()
@@ -158,9 +158,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_GET_ALERTSPEEDLEFTVALUE_OFFSET))(this);
 	}
 
-	::System::Void set_AlertSpeedLeftValue(::System::Single value)
+	::System::Void set_AlertSpeedLeftValue(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_ALERTSPEEDLEFTVALUE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_ALERTSPEEDLEFTVALUE_OFFSET))(this, a1);
 	}
 
 	::System::Single get_AlertSpeedRightValue()
@@ -168,9 +168,9 @@ public:
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_GET_ALERTSPEEDRIGHTVALUE_OFFSET))(this);
 	}
 
-	::System::Void set_AlertSpeedRightValue(::System::Single value)
+	::System::Void set_AlertSpeedRightValue(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_ALERTSPEEDRIGHTVALUE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_ALERTSPEEDRIGHTVALUE_OFFSET))(this, a1);
 	}
 
 	::System::Int32 get_ExcludeEntityTags()
@@ -178,39 +178,39 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_GET_EXCLUDEENTITYTAGS_OFFSET))(this);
 	}
 
-	::System::Void set_ExcludeEntityTags(::System::Int32 value)
+	::System::Void set_ExcludeEntityTags(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_EXCLUDEENTITYTAGS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_SET_EXCLUDEENTITYTAGS_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_CEAE256FB1DEC448(::RPG::GameCore::GameEntity* a1, ::Class_1_065C3F7CC6C5F3AA* a2)
+	::System::Void Method_1_CEAE256FB1DEC448(::RPG::GameCore::GameEntity* a1, ::Class_1_6C30C65EACF8D014* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_1_065C3F7CC6C5F3AA*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_CEAE256FB1DEC448_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_1_6C30C65EACF8D014*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_CEAE256FB1DEC448_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_1_883D7E346EAED533(::RPG::GameCore::GameEntity* a1, ::Class_1_065C3F7CC6C5F3AA* a2, ::System::Boolean a3)
+	::System::Boolean Method_1_883D7E346EAED533(::RPG::GameCore::GameEntity* a1, ::Class_1_6C30C65EACF8D014* a2, ::System::Boolean a3)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_1_065C3F7CC6C5F3AA*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_883D7E346EAED533_OFFSET))(this, a1, a2, a3);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_1_6C30C65EACF8D014*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_883D7E346EAED533_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Boolean Method_1_4D851AEC7175AA9E(::Class_1_065C3F7CC6C5F3AA* a1)
+	::System::Boolean Method_1_4D851AEC7175AA9E(::Class_1_6C30C65EACF8D014* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_065C3F7CC6C5F3AA*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_4D851AEC7175AA9E_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_6C30C65EACF8D014*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_4D851AEC7175AA9E_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_AF99A26E836BCC88(::Class_1_065C3F7CC6C5F3AA* a1)
+	::System::Boolean Method_1_AF99A26E836BCC88(::Class_1_6C30C65EACF8D014* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_065C3F7CC6C5F3AA*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_AF99A26E836BCC88_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_6C30C65EACF8D014*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_AF99A26E836BCC88_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_CAB09625B03CCCA7(::Class_1_065C3F7CC6C5F3AA* a1)
+	::System::Boolean Method_1_CAB09625B03CCCA7(::Class_1_6C30C65EACF8D014* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_065C3F7CC6C5F3AA*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_CAB09625B03CCCA7_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_6C30C65EACF8D014*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_CAB09625B03CCCA7_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_DE45EA3A177BC33B(::Class_1_065C3F7CC6C5F3AA* a1)
+	::System::Boolean Method_1_DE45EA3A177BC33B(::Class_1_6C30C65EACF8D014* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_065C3F7CC6C5F3AA*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_DE45EA3A177BC33B_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_6C30C65EACF8D014*))((::PBYTE)hIl2Cpp + CLASS_1_6F8DD29344D23142_METHOD_1_DE45EA3A177BC33B_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_EB3C6D73F5EE470A(::System::Boolean a1, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::EntityTag>* a2)

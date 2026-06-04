@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace System::Collections::ObjectModel
 {
-	inline static constexpr unsigned int Collection_1_TypeDefinitionIndex = 1495;
+	inline static constexpr unsigned int Collection_1_TypeDefinitionIndex = 1494;
 
 	template <typename T>
 	class Collection_1 : public ::System::Object

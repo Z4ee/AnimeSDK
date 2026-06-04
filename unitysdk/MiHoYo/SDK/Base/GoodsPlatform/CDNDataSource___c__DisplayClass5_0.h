@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK { class JSONNode; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173DE8F0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS5_0__FILTERGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x173DED40)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181E7440)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS5_0__FILTERGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x181E7890)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int CDNDataSource___c__DisplayClass5_0_TypeDefinitionIndex = 7597;
+	inline static constexpr unsigned int CDNDataSource___c__DisplayClass5_0_TypeDefinitionIndex = 8500;
 
 	class CDNDataSource___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -18,18 +18,18 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 		::MiHoYo::SDK::JSONArray* requiredTypeList; // 0x10
 		::MiHoYo::SDK::JSONArray* result; // 0x18
 		::MiHoYo::SDK::JSONArray* requiredIdList; // 0x20
-		::System::Int64 currentRoleLevel; // 0x28
-		::System::Boolean filterById; // 0x30
-		::System::Boolean filterByType; // 0x31
+		::System::Boolean filterByType; // 0x28
+		::System::Boolean filterById; // 0x29
+		::System::Int64 currentRoleLevel; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _FilterGoodsList_b__0(::MiHoYo::SDK::JSONNode* x)
+		::System::Void _FilterGoodsList_b__0(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS5_0__FILTERGOODSLIST_B__0_OFFSET))(this, x);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS5_0__FILTERGOODSLIST_B__0_OFFSET))(this, a1);
 		}
 	};
 }

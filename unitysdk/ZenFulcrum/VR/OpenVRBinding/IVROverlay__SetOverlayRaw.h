@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A705DD0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A705EA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A7059F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7059D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B51FBE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B51FCB0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B51FBA0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B51FB30)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__SetOverlayRaw_TypeDefinitionIndex = 35880;
+	inline static constexpr unsigned int IVROverlay__SetOverlayRaw_TypeDefinitionIndex = 36180;
 
 	class IVROverlay__SetOverlayRaw : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::System::UInt64 ulOverlayHandle, ::System::IntPtr pvBuffer, ::System::UInt32 unWidth, ::System::UInt32 unHeight, ::System::UInt32 unDepth)
+		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::System::UInt64 a1, ::System::IntPtr a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::UInt64, ::System::IntPtr, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_INVOKE_OFFSET))(this, ulOverlayHandle, pvBuffer, unWidth, unHeight, unDepth);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::UInt64, ::System::IntPtr, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_INVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt64 ulOverlayHandle, ::System::IntPtr pvBuffer, ::System::UInt32 unWidth, ::System::UInt32 unHeight, ::System::UInt32 unDepth, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt64 a1, ::System::IntPtr a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::AsyncCallback* a6, ::System::Object* a7)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::IntPtr, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_BEGININVOKE_OFFSET))(this, ulOverlayHandle, pvBuffer, unWidth, unHeight, unDepth, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::IntPtr, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError EndInvoke(::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_ENDINVOKE_OFFSET))(this, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYRAW_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,8 +5,8 @@
 namespace System { class String; }
 namespace System::Security { class SecureString; }
 
-#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESECURESTRING_OFFSET UNITYSDK_OFFSET(0x1A156EC0)
-#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESTRING_OFFSET UNITYSDK_OFFSET(0x1A156C80)
+#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESECURESTRING_OFFSET UNITYSDK_OFFSET(0x1AFB9A10)
+#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESTRING_OFFSET UNITYSDK_OFFSET(0x1AFB97D0)
 
 namespace System::Net
 {
@@ -15,14 +15,14 @@ namespace System::Net
 	class UnsafeNclNativeMethods_SecureStringHelper : public ::System::Object
 	{
 	public:
-		static ::System::String* CreateString(::System::Security::SecureString* secureString)
+		static ::System::String* CreateString(::System::Security::SecureString* a1)
 		{
-			return ((::System::String*(*)(::System::Security::SecureString*))((::PBYTE)hIl2Cpp + SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESTRING_OFFSET))(secureString);
+			return ((::System::String*(*)(::System::Security::SecureString*))((::PBYTE)hIl2Cpp + SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESTRING_OFFSET))(a1);
 		}
 
-		static ::System::Security::SecureString* CreateSecureString(::System::String* plainString)
+		static ::System::Security::SecureString* CreateSecureString(::System::String* a1)
 		{
-			return ((::System::Security::SecureString*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESECURESTRING_OFFSET))(plainString);
+			return ((::System::Security::SecureString*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_UNSAFENCLNATIVEMETHODS_SECURESTRINGHELPER_CREATESECURESTRING_OFFSET))(a1);
 		}
 	};
 }

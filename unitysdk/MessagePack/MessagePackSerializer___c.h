@@ -5,20 +5,20 @@
 namespace MessagePack { class MessagePackSerializer_CompiledMethods; }
 namespace System { class Type; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17378300)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17378330)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C___CCTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0x17378340)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18184710)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18184740)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER___C___CCTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0x18184750)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer___c_TypeDefinitionIndex = 9280;
+	inline static constexpr unsigned int MessagePackSerializer___c_TypeDefinitionIndex = 7183;
 
 	class MessagePackSerializer___c : public ::System::Object
 	{
 	public:
 		static ::MessagePack::MessagePackSerializer___c** StaticGet___9()
 		{
-			return (::MessagePack::MessagePackSerializer___c**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer___c_TypeDefinitionIndex)->GetStaticField(0x44BA0);
+			return (::MessagePack::MessagePackSerializer___c**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer___c_TypeDefinitionIndex)->GetStaticField(0xA200);
 		}
 
 		static ::System::Void _cctor()
@@ -31,9 +31,9 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER___C__CTOR_OFFSET))(this);
 		}
 
-		::MessagePack::MessagePackSerializer_CompiledMethods* __cctor_b__42_0(::System::Type* t)
+		::MessagePack::MessagePackSerializer_CompiledMethods* __cctor_b__42_0(::System::Type* a1)
 		{
-			return ((::MessagePack::MessagePackSerializer_CompiledMethods*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER___C___CCTOR_B__42_0_OFFSET))(this, t);
+			return ((::MessagePack::MessagePackSerializer_CompiledMethods*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER___C___CCTOR_B__42_0_OFFSET))(this, a1);
 		}
 	};
 }

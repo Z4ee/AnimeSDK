@@ -5,12 +5,12 @@
 namespace RPG::Client { class ChimeraDuelAchievementDataGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAMANAGER_GETCHIMERADUELACHIEVEMENTDATAGROUPS_OFFSET UNITYSDK_OFFSET(0x9FFCBA0)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x9FFCCB0)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAMANAGER_GETCHIMERADUELACHIEVEMENTDATAGROUPS_OFFSET UNITYSDK_OFFSET(0xB6773F0)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xB677560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelAchievementDataManager_TypeDefinitionIndex = 58301;
+	inline static constexpr unsigned int ChimeraDuelAchievementDataManager_TypeDefinitionIndex = 59231;
 
 	class ChimeraDuelAchievementDataManager : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAMANAGER__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelAchievementDataGroup*>* GetChimeraDuelAchievementDataGroups(::System::Boolean isInBattle, ::System::UInt32 masterID)
+		::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelAchievementDataGroup*>* GetChimeraDuelAchievementDataGroups(::System::Boolean a1, ::System::UInt32 a2)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelAchievementDataGroup*>*(*)(::PVOID, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAMANAGER_GETCHIMERADUELACHIEVEMENTDATAGROUPS_OFFSET))(this, isInBattle, masterID);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelAchievementDataGroup*>*(*)(::PVOID, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAMANAGER_GETCHIMERADUELACHIEVEMENTDATAGROUPS_OFFSET))(this, a1, a2);
 		}
 	};
 }

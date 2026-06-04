@@ -1,0 +1,83 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/ChenLingFes/GameDayState.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_A3520E3BCB4F735C;
+
+#define CLASS_1_5513808F8D65DEE5_GET_GAMEDAYCOUNT_OFFSET UNITYSDK_OFFSET(0xAFEBF50)
+#define CLASS_1_5513808F8D65DEE5_METHOD_1_51027338346C5561_OFFSET UNITYSDK_OFFSET(0xAFEBF40)
+#define CLASS_1_5513808F8D65DEE5_METHOD_1_91E562BD444C1E3E_OFFSET UNITYSDK_OFFSET(0xAFEBF30)
+#define CLASS_1_5513808F8D65DEE5_METHOD_1_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0xAFEBC00)
+#define CLASS_1_5513808F8D65DEE5_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xAFEBD90)
+#define CLASS_1_5513808F8D65DEE5_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0xAFEBEE0)
+#define CLASS_1_5513808F8D65DEE5_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xAFEBC50)
+#define CLASS_1_5513808F8D65DEE5_METHOD_1_E693A0026D178D8E_1_OFFSET UNITYSDK_OFFSET(0xAFEBDE0)
+#define CLASS_1_5513808F8D65DEE5_METHOD_1_E693A0026D178D8E_OFFSET UNITYSDK_OFFSET(0xAFEBC90)
+#define CLASS_1_5513808F8D65DEE5_SET_GAMEDAYCOUNT_OFFSET UNITYSDK_OFFSET(0xAFEBF60)
+#define CLASS_1_5513808F8D65DEE5__CTOR_OFFSET UNITYSDK_OFFSET(0xAFEBBF0)
+
+inline static constexpr unsigned int Class_1_5513808F8D65DEE5_TypeDefinitionIndex = 72257;
+
+class Class_1_5513808F8D65DEE5 : public ::System::Object
+{
+public:
+	::Class_1_A3520E3BCB4F735C* Field_1_0; // 0x10
+	::System::Int32 _GameDayCount_k__BackingField; // 0x18
+	::RPG::Client::LittleGame::ChenLingFes::GameDayState Field_1_2; // 0x1C
+
+	::System::Void _ctor(::Class_1_A3520E3BCB4F735C* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_A3520E3BCB4F735C*))((::PBYTE)hIl2Cpp + CLASS_1_5513808F8D65DEE5__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_ADF4AD3331B4D7AD(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_5513808F8D65DEE5_METHOD_1_ADF4AD3331B4D7AD_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5513808F8D65DEE5_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E693A0026D178D8E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5513808F8D65DEE5_METHOD_1_E693A0026D178D8E_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5513808F8D65DEE5_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E693A0026D178D8E_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5513808F8D65DEE5_METHOD_1_E693A0026D178D8E_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5513808F8D65DEE5_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::RPG::Client::LittleGame::ChenLingFes::GameDayState Method_1_91E562BD444C1E3E()
+	{
+		return ((::RPG::Client::LittleGame::ChenLingFes::GameDayState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5513808F8D65DEE5_METHOD_1_91E562BD444C1E3E_OFFSET))(this);
+	}
+
+	::System::Void Method_1_51027338346C5561(::RPG::Client::LittleGame::ChenLingFes::GameDayState a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChenLingFes::GameDayState))((::PBYTE)hIl2Cpp + CLASS_1_5513808F8D65DEE5_METHOD_1_51027338346C5561_OFFSET))(this, a1);
+	}
+
+	::System::Int32 get_GameDayCount()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5513808F8D65DEE5_GET_GAMEDAYCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_GameDayCount(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_5513808F8D65DEE5_SET_GAMEDAYCOUNT_OFFSET))(this, a1);
+	}
+};

@@ -5,12 +5,12 @@
 
 namespace RPG::GameCore { class PassiveUnitEffectTypeMatchFactorConfig; }
 
-#define RPG_CLIENT_ROGUEMAGICUTILS___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB06C880)
-#define RPG_CLIENT_ROGUEMAGICUTILS___C__DISPLAYCLASS26_0___GETPASSIVEUNITEFFECTTYPECONFIGFACTOR_B__0_OFFSET UNITYSDK_OFFSET(0xB06D400)
+#define RPG_CLIENT_ROGUEMAGICUTILS___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7BCAD0)
+#define RPG_CLIENT_ROGUEMAGICUTILS___C__DISPLAYCLASS26_0___GETPASSIVEUNITEFFECTTYPECONFIGFACTOR_B__0_OFFSET UNITYSDK_OFFSET(0xC7BD6D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicUtils___c__DisplayClass26_0_TypeDefinitionIndex = 62115;
+	inline static constexpr unsigned int RogueMagicUtils___c__DisplayClass26_0_TypeDefinitionIndex = 63048;
 
 	class RogueMagicUtils___c__DisplayClass26_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS___C__DISPLAYCLASS26_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __GetPassiveUnitEffectTypeConfigFactor_b__0(::RPG::GameCore::PassiveUnitEffectTypeMatchFactorConfig* x)
+		::System::Boolean __GetPassiveUnitEffectTypeConfigFactor_b__0(::RPG::GameCore::PassiveUnitEffectTypeMatchFactorConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::PassiveUnitEffectTypeMatchFactorConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS___C__DISPLAYCLASS26_0___GETPASSIVEUNITEFFECTTYPECONFIGFACTOR_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::PassiveUnitEffectTypeMatchFactorConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS___C__DISPLAYCLASS26_0___GETPASSIVEUNITEFFECTTYPECONFIGFACTOR_B__0_OFFSET))(this, a1);
 		}
 	};
 }

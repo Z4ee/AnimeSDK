@@ -6,12 +6,12 @@
 namespace RPG::Client { class GridFightTraitBonusConfig; }
 namespace RPG::Client { class GridFightTraitSpaceEffect; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5C35E0)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__DISPLAYCLASS19_0__GETCURRENTBONUSCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xA5C43B0)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBCC5890)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__DISPLAYCLASS19_0__GETCURRENTBONUSCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xBCC58A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitSpaceEffect___c__DisplayClass19_0_TypeDefinitionIndex = 59274;
+	inline static constexpr unsigned int GridFightTraitSpaceEffect___c__DisplayClass19_0_TypeDefinitionIndex = 60209;
 
 	class GridFightTraitSpaceEffect___c__DisplayClass19_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__DISPLAYCLASS19_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetCurrentBonusConfig_b__0(::RPG::Client::GridFightTraitBonusConfig* config)
+		::System::Boolean _GetCurrentBonusConfig_b__0(::RPG::Client::GridFightTraitBonusConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitBonusConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__DISPLAYCLASS19_0__GETCURRENTBONUSCONFIG_B__0_OFFSET))(this, config);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitBonusConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__DISPLAYCLASS19_0__GETCURRENTBONUSCONFIG_B__0_OFFSET))(this, a1);
 		}
 	};
 }

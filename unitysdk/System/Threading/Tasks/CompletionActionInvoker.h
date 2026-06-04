@@ -6,23 +6,23 @@ namespace System::Threading { class ThreadAbortException; }
 namespace System::Threading::Tasks { class ITaskCompletionAction; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1786A000)
-#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1786A0B0)
-#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x17869FF0)
+#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x18622AE0)
+#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x18622B90)
+#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x18622AD0)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int CompletionActionInvoker_TypeDefinitionIndex = 903;
+	inline static constexpr unsigned int CompletionActionInvoker_TypeDefinitionIndex = 902;
 
 	class CompletionActionInvoker : public ::System::Object
 	{
 	public:
-		::System::Threading::Tasks::Task* m_completingTask; // 0x10
-		::System::Threading::Tasks::ITaskCompletionAction* m_action; // 0x18
+		::System::Threading::Tasks::ITaskCompletionAction* m_action; // 0x10
+		::System::Threading::Tasks::Task* m_completingTask; // 0x18
 
-		::System::Void _ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask)
+		::System::Void _ctor(::System::Threading::Tasks::ITaskCompletionAction* a1, ::System::Threading::Tasks::Task* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::ITaskCompletionAction*, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER__CTOR_OFFSET))(this, action, completingTask);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::ITaskCompletionAction*, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ExecuteWorkItem()
@@ -30,9 +30,9 @@ namespace System::Threading::Tasks
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_EXECUTEWORKITEM_OFFSET))(this);
 		}
 
-		::System::Void MarkAborted(::System::Threading::ThreadAbortException* tae)
+		::System::Void MarkAborted(::System::Threading::ThreadAbortException* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::ThreadAbortException*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_MARKABORTED_OFFSET))(this, tae);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::ThreadAbortException*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_MARKABORTED_OFFSET))(this, a1);
 		}
 	};
 }

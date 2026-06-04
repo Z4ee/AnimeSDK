@@ -31,76 +31,76 @@ namespace UnityEngine { class TextGenerator_IIconAtlas; }
 namespace UnityEngine { class TextGenerator_ProcessFormatDel; }
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
-#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTWRAP_OFFSET UNITYSDK_OFFSET(0x1A501CA0)
-#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENT_OFFSET UNITYSDK_OFFSET(0x1A5020F0)
-#define UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAPWRAP_OFFSET UNITYSDK_OFFSET(0x1A502680)
-#define UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAP_OFFSET UNITYSDK_OFFSET(0x1A502AE0)
-#define UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAPWRAP_OFFSET UNITYSDK_OFFSET(0x1A5021A0)
-#define UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAP_OFFSET UNITYSDK_OFFSET(0x1A502600)
-#define UNITYENGINE_TEXTGENERATOR_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A4FE8E0)
-#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FF450)
-#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERSLENGTH_OFFSET UNITYSDK_OFFSET(0x1A4FF440)
-#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1A4FF2D0)
-#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICESARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x1A4FF8F0)
-#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FF900)
-#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICES_OFFSET UNITYSDK_OFFSET(0x1A4FF780)
-#define UNITYENGINE_TEXTGENERATOR_GETICONIDSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FFC20)
-#define UNITYENGINE_TEXTGENERATOR_GETICONIDSLENGTH_OFFSET UNITYSDK_OFFSET(0x1A4FFC10)
-#define UNITYENGINE_TEXTGENERATOR_GETICONIDS_OFFSET UNITYSDK_OFFSET(0x1A4FFAA0)
-#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FFA90)
-#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICESLENGTH_OFFSET UNITYSDK_OFFSET(0x1A4FFA80)
-#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICES_OFFSET UNITYSDK_OFFSET(0x1A4FF910)
-#define UNITYENGINE_TEXTGENERATOR_GETLINESARRAY_OFFSET UNITYSDK_OFFSET(0x1A502B30)
-#define UNITYENGINE_TEXTGENERATOR_GETLINESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FF5E0)
-#define UNITYENGINE_TEXTGENERATOR_GETLINESLENGTH_OFFSET UNITYSDK_OFFSET(0x1A4FF5D0)
-#define UNITYENGINE_TEXTGENERATOR_GETLINES_OFFSET UNITYSDK_OFFSET(0x1A4FF460)
-#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1A4FFF30)
-#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_1_OFFSET UNITYSDK_OFFSET(0x1A502B40)
-#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_OFFSET UNITYSDK_OFFSET(0x1A4FFDC0)
-#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FFDB0)
-#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSLENGTH_OFFSET UNITYSDK_OFFSET(0x1A4FFDA0)
-#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGS_OFFSET UNITYSDK_OFFSET(0x1A4FFC30)
-#define UNITYENGINE_TEXTGENERATOR_GETVERTICESARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x1A4FF760)
-#define UNITYENGINE_TEXTGENERATOR_GETVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4FF770)
-#define UNITYENGINE_TEXTGENERATOR_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x1A4FF5F0)
-#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNTVISIBLE_OFFSET UNITYSDK_OFFSET(0x1A4FEA00)
-#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNT_OFFSET UNITYSDK_OFFSET(0x1A4FEA20)
-#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERS_OFFSET UNITYSDK_OFFSET(0x1A501180)
-#define UNITYENGINE_TEXTGENERATOR_GET_FONTSIZEUSEDFORBESTFIT_OFFSET UNITYSDK_OFFSET(0x1A501520)
-#define UNITYENGINE_TEXTGENERATOR_GET_FORMATVERTS_OFFSET UNITYSDK_OFFSET(0x1A500FD0)
-#define UNITYENGINE_TEXTGENERATOR_GET_LINECOUNT_OFFSET UNITYSDK_OFFSET(0x1A501500)
-#define UNITYENGINE_TEXTGENERATOR_GET_LINES_OFFSET UNITYSDK_OFFSET(0x1A501330)
-#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A5014E0)
-#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_OFFSET UNITYSDK_OFFSET(0x1A4FFEF0)
-#define UNITYENGINE_TEXTGENERATOR_GET_VERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1A5014F0)
-#define UNITYENGINE_TEXTGENERATOR_GET_VERTS_OFFSET UNITYSDK_OFFSET(0x1A500E20)
-#define UNITYENGINE_TEXTGENERATOR_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1A4FE850)
-#define UNITYENGINE_TEXTGENERATOR_INTERNAL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1A4FE9F0)
-#define UNITYENGINE_TEXTGENERATOR_INVALIDATECACHES_OFFSET UNITYSDK_OFFSET(0x1A4FED20)
-#define UNITYENGINE_TEXTGENERATOR_INVALIDATE_OFFSET UNITYSDK_OFFSET(0x1A4FED10)
-#define UNITYENGINE_TEXTGENERATOR_PARSETEXTFORMATFLAGS_OFFSET UNITYSDK_OFFSET(0x1A502B00)
-#define UNITYENGINE_TEXTGENERATOR_POPULATEALWAYS_OFFSET UNITYSDK_OFFSET(0x1A500450)
-#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERRORS_OFFSET UNITYSDK_OFFSET(0x1A4FFFF0)
-#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERROR_OFFSET UNITYSDK_OFFSET(0x1A500220)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1A500540)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A502B20)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1A502B10)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_OFFSET UNITYSDK_OFFSET(0x1A4FFE80)
-#define UNITYENGINE_TEXTGENERATOR_PROCESSFORMATWRAP_OFFSET UNITYSDK_OFFSET(0x1A501530)
-#define UNITYENGINE_TEXTGENERATOR_PROCESSFORMAT_OFFSET UNITYSDK_OFFSET(0x1A501A30)
-#define UNITYENGINE_TEXTGENERATOR_SETELLIPSISCHARACTER_OFFSET UNITYSDK_OFFSET(0x1A500DF0)
-#define UNITYENGINE_TEXTGENERATOR_SETICONATLAS_OFFSET UNITYSDK_OFFSET(0x1A500E10)
-#define UNITYENGINE_TEXTGENERATOR_SETNOLEADINGCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1A500DE0)
-#define UNITYENGINE_TEXTGENERATOR_SETWRAPJUSTIFY_OFFSET UNITYSDK_OFFSET(0x1A500E00)
-#define UNITYENGINE_TEXTGENERATOR_SET_DISABLETRIMVERTICES_OFFSET UNITYSDK_OFFSET(0x1A501510)
-#define UNITYENGINE_TEXTGENERATOR_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A4FE9C0)
-#define UNITYENGINE_TEXTGENERATOR_VALIDATEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A4FEA30)
-#define UNITYENGINE_TEXTGENERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A4FE5C0)
-#define UNITYENGINE_TEXTGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FE590)
+#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTWRAP_OFFSET UNITYSDK_OFFSET(0x1B34D4A0)
+#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENT_OFFSET UNITYSDK_OFFSET(0x1B34D5C0)
+#define UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAPWRAP_OFFSET UNITYSDK_OFFSET(0x1B34D810)
+#define UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAP_OFFSET UNITYSDK_OFFSET(0x1B34D930)
+#define UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAPWRAP_OFFSET UNITYSDK_OFFSET(0x1B34D670)
+#define UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAP_OFFSET UNITYSDK_OFFSET(0x1B34D790)
+#define UNITYENGINE_TEXTGENERATOR_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B34A3E0)
+#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B34AF20)
+#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERSLENGTH_OFFSET UNITYSDK_OFFSET(0x1B34AF10)
+#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1B34AD80)
+#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICESARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x1B34B420)
+#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B34B430)
+#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICES_OFFSET UNITYSDK_OFFSET(0x1B34B290)
+#define UNITYENGINE_TEXTGENERATOR_GETICONIDSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B34B790)
+#define UNITYENGINE_TEXTGENERATOR_GETICONIDSLENGTH_OFFSET UNITYSDK_OFFSET(0x1B34B780)
+#define UNITYENGINE_TEXTGENERATOR_GETICONIDS_OFFSET UNITYSDK_OFFSET(0x1B34B5F0)
+#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B34B5E0)
+#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICESLENGTH_OFFSET UNITYSDK_OFFSET(0x1B34B5D0)
+#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICES_OFFSET UNITYSDK_OFFSET(0x1B34B440)
+#define UNITYENGINE_TEXTGENERATOR_GETLINESARRAY_OFFSET UNITYSDK_OFFSET(0x1B34D980)
+#define UNITYENGINE_TEXTGENERATOR_GETLINESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B34B0D0)
+#define UNITYENGINE_TEXTGENERATOR_GETLINESLENGTH_OFFSET UNITYSDK_OFFSET(0x1B34B0C0)
+#define UNITYENGINE_TEXTGENERATOR_GETLINES_OFFSET UNITYSDK_OFFSET(0x1B34AF30)
+#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B34BAC0)
+#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_1_OFFSET UNITYSDK_OFFSET(0x1B34D990)
+#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_OFFSET UNITYSDK_OFFSET(0x1B34B950)
+#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B34B940)
+#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSLENGTH_OFFSET UNITYSDK_OFFSET(0x1B34B930)
+#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGS_OFFSET UNITYSDK_OFFSET(0x1B34B7A0)
+#define UNITYENGINE_TEXTGENERATOR_GETVERTICESARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x1B34B270)
+#define UNITYENGINE_TEXTGENERATOR_GETVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B34B280)
+#define UNITYENGINE_TEXTGENERATOR_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x1B34B0E0)
+#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNTVISIBLE_OFFSET UNITYSDK_OFFSET(0x1B34A500)
+#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNT_OFFSET UNITYSDK_OFFSET(0x1B34A520)
+#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERS_OFFSET UNITYSDK_OFFSET(0x1B34CD20)
+#define UNITYENGINE_TEXTGENERATOR_GET_FONTSIZEUSEDFORBESTFIT_OFFSET UNITYSDK_OFFSET(0x1B34D0C0)
+#define UNITYENGINE_TEXTGENERATOR_GET_FORMATVERTS_OFFSET UNITYSDK_OFFSET(0x1B34CB70)
+#define UNITYENGINE_TEXTGENERATOR_GET_LINECOUNT_OFFSET UNITYSDK_OFFSET(0x1B34D0A0)
+#define UNITYENGINE_TEXTGENERATOR_GET_LINES_OFFSET UNITYSDK_OFFSET(0x1B34CED0)
+#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B34D080)
+#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_OFFSET UNITYSDK_OFFSET(0x1B34BA80)
+#define UNITYENGINE_TEXTGENERATOR_GET_VERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1B34D090)
+#define UNITYENGINE_TEXTGENERATOR_GET_VERTS_OFFSET UNITYSDK_OFFSET(0x1B34C9C0)
+#define UNITYENGINE_TEXTGENERATOR_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1B34A3D0)
+#define UNITYENGINE_TEXTGENERATOR_INTERNAL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1B34A4F0)
+#define UNITYENGINE_TEXTGENERATOR_INVALIDATECACHES_OFFSET UNITYSDK_OFFSET(0x1B34A7E0)
+#define UNITYENGINE_TEXTGENERATOR_INVALIDATE_OFFSET UNITYSDK_OFFSET(0x1B34A7D0)
+#define UNITYENGINE_TEXTGENERATOR_PARSETEXTFORMATFLAGS_OFFSET UNITYSDK_OFFSET(0x1B34D950)
+#define UNITYENGINE_TEXTGENERATOR_POPULATEALWAYS_OFFSET UNITYSDK_OFFSET(0x1B34BF90)
+#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERRORS_OFFSET UNITYSDK_OFFSET(0x1B34BB80)
+#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERROR_OFFSET UNITYSDK_OFFSET(0x1B34BD60)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1B34C080)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B34D970)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B34D960)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_OFFSET UNITYSDK_OFFSET(0x1B34BA10)
+#define UNITYENGINE_TEXTGENERATOR_PROCESSFORMATWRAP_OFFSET UNITYSDK_OFFSET(0x1B34D0D0)
+#define UNITYENGINE_TEXTGENERATOR_PROCESSFORMAT_OFFSET UNITYSDK_OFFSET(0x1B34D230)
+#define UNITYENGINE_TEXTGENERATOR_SETELLIPSISCHARACTER_OFFSET UNITYSDK_OFFSET(0x1B34C990)
+#define UNITYENGINE_TEXTGENERATOR_SETICONATLAS_OFFSET UNITYSDK_OFFSET(0x1B34C9B0)
+#define UNITYENGINE_TEXTGENERATOR_SETNOLEADINGCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1B34C980)
+#define UNITYENGINE_TEXTGENERATOR_SETWRAPJUSTIFY_OFFSET UNITYSDK_OFFSET(0x1B34C9A0)
+#define UNITYENGINE_TEXTGENERATOR_SET_DISABLETRIMVERTICES_OFFSET UNITYSDK_OFFSET(0x1B34D0B0)
+#define UNITYENGINE_TEXTGENERATOR_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B34A4C0)
+#define UNITYENGINE_TEXTGENERATOR_VALIDATEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1B34A530)
+#define UNITYENGINE_TEXTGENERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B34A0B0)
+#define UNITYENGINE_TEXTGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34A080)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextGenerator_TypeDefinitionIndex = 4940;
+	inline static constexpr unsigned int TextGenerator_TypeDefinitionIndex = 5018;
 
 	class TextGenerator : public ::System::Object
 	{
@@ -139,9 +139,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Int32 initialCapacity, ::Il2CppArray<::System::Int32>* noLeadingChars, ::System::Int32 noWrapChar, ::System::Int32 ellipsisChar, ::System::Boolean wrapJustify)
+		::System::Void _ctor_1(::System::Int32 a1, ::Il2CppArray<::System::Int32>* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR__CTOR_1_OFFSET))(this, initialCapacity, noLeadingChars, noWrapChar, ellipsisChar, wrapJustify);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Finalize()
@@ -159,9 +159,9 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNTVISIBLE_OFFSET))(this);
 		}
 
-		::UnityEngine::TextGenerationSettings ValidatedSettings(::UnityEngine::TextGenerationSettings settings)
+		::UnityEngine::TextGenerationSettings ValidatedSettings(::UnityEngine::TextGenerationSettings a1)
 		{
-			return ((::UnityEngine::TextGenerationSettings(*)(::PVOID, ::UnityEngine::TextGenerationSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_VALIDATEDSETTINGS_OFFSET))(this, settings);
+			return ((::UnityEngine::TextGenerationSettings(*)(::PVOID, ::UnityEngine::TextGenerationSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_VALIDATEDSETTINGS_OFFSET))(this, a1);
 		}
 
 		::System::Void Invalidate()
@@ -174,89 +174,89 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_INVALIDATECACHES_OFFSET))(this);
 		}
 
-		::System::Void GetCharacters(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UICharInfo>* characters)
+		::System::Void GetCharacters(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UICharInfo>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UICharInfo>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETCHARACTERS_OFFSET))(this, characters);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UICharInfo>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETCHARACTERS_OFFSET))(this, a1);
 		}
 
-		::System::Void GetLines(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UILineInfo>* lines)
+		::System::Void GetLines(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UILineInfo>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UILineInfo>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETLINES_OFFSET))(this, lines);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UILineInfo>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETLINES_OFFSET))(this, a1);
 		}
 
-		::System::Void GetVertices(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* vertices)
+		::System::Void GetVertices(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETVERTICES_OFFSET))(this, vertices);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETVERTICES_OFFSET))(this, a1);
 		}
 
-		::System::Void GetFormatVertices(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* formatVertices)
+		::System::Void GetFormatVertices(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICES_OFFSET))(this, formatVertices);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICES_OFFSET))(this, a1);
 		}
 
-		::System::Void GetIconVertices(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* vertices)
+		::System::Void GetIconVertices(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETICONVERTICES_OFFSET))(this, vertices);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETICONVERTICES_OFFSET))(this, a1);
 		}
 
-		::System::Void GetIconIds(::UnityEngine::Pooled::PooledList_1<::System::Int32>* ids)
+		::System::Void GetIconIds(::UnityEngine::Pooled::PooledList_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETICONIDS_OFFSET))(this, ids);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETICONIDS_OFFSET))(this, a1);
 		}
 
-		::System::Void GetTextFormatFlags(::UnityEngine::Pooled::PooledList_1<::UnityEngine::TextFormatFlag>* flags)
+		::System::Void GetTextFormatFlags(::UnityEngine::Pooled::PooledList_1<::UnityEngine::TextFormatFlag>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::TextFormatFlag>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGS_OFFSET))(this, flags);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::TextFormatFlag>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGS_OFFSET))(this, a1);
 		}
 
-		::System::Single GetPreferredWidth(::System::String* str, ::UnityEngine::TextGenerationSettings settings, ::System::Boolean forceUpdate)
+		::System::Single GetPreferredWidth(::System::String* a1, ::UnityEngine::TextGenerationSettings a2, ::System::Boolean a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_OFFSET))(this, str, settings, forceUpdate);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetPreferredHeight(::System::String* str, ::UnityEngine::TextGenerationSettings settings, ::System::Boolean forceUpdate)
+		::System::Single GetPreferredHeight(::System::String* a1, ::UnityEngine::TextGenerationSettings a2, ::System::Boolean a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETPREFERREDHEIGHT_OFFSET))(this, str, settings, forceUpdate);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETPREFERREDHEIGHT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean PopulateWithErrors(::System::String* str, ::UnityEngine::TextGenerationSettings settings, ::UnityEngine::GameObject* context, ::System::Boolean forceUpdate)
+		::System::Boolean PopulateWithErrors(::System::String* a1, ::UnityEngine::TextGenerationSettings a2, ::UnityEngine::GameObject* a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATEWITHERRORS_OFFSET))(this, str, settings, context, forceUpdate);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATEWITHERRORS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean Populate(::System::String* str, ::UnityEngine::TextGenerationSettings settings, ::System::Boolean forceUpdate)
+		::System::Boolean Populate(::System::String* a1, ::UnityEngine::TextGenerationSettings a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_OFFSET))(this, str, settings, forceUpdate);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::TextGenerationError PopulateWithError(::System::String* str, ::UnityEngine::TextGenerationSettings settings, ::System::Boolean forceUpdate)
+		::UnityEngine::TextGenerationError PopulateWithError(::System::String* a1, ::UnityEngine::TextGenerationSettings a2, ::System::Boolean a3)
 		{
-			return ((::UnityEngine::TextGenerationError(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATEWITHERROR_OFFSET))(this, str, settings, forceUpdate);
+			return ((::UnityEngine::TextGenerationError(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATEWITHERROR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::TextGenerationError PopulateAlways(::System::String* str, ::UnityEngine::TextGenerationSettings settings)
+		::UnityEngine::TextGenerationError PopulateAlways(::System::String* a1, ::UnityEngine::TextGenerationSettings a2)
 		{
-			return ((::UnityEngine::TextGenerationError(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATEALWAYS_OFFSET))(this, str, settings);
+			return ((::UnityEngine::TextGenerationError(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATEALWAYS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetNoLeadingCharacters(::Il2CppArray<::System::Int32>* noLeadingCharacters)
+		::System::Void SetNoLeadingCharacters(::Il2CppArray<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_SETNOLEADINGCHARACTERS_OFFSET))(this, noLeadingCharacters);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_SETNOLEADINGCHARACTERS_OFFSET))(this, a1);
 		}
 
-		::System::Void SetEllipsisCharacter(::System::Int32 ellipsisChar, ::System::Int32 lineNum)
+		::System::Void SetEllipsisCharacter(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_SETELLIPSISCHARACTER_OFFSET))(this, ellipsisChar, lineNum);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_SETELLIPSISCHARACTER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetWrapJustify(::System::Boolean wrapJustify)
+		::System::Void SetWrapJustify(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_SETWRAPJUSTIFY_OFFSET))(this, wrapJustify);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_SETWRAPJUSTIFY_OFFSET))(this, a1);
 		}
 
-		::System::Void SetIconAtlas(::UnityEngine::TextGenerator_IIconAtlas* iconAtlas)
+		::System::Void SetIconAtlas(::UnityEngine::TextGenerator_IIconAtlas* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextGenerator_IIconAtlas*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_SETICONATLAS_OFFSET))(this, iconAtlas);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextGenerator_IIconAtlas*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_SETICONATLAS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* get_verts()
@@ -299,9 +299,9 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GET_LINECOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_disableTrimVertices(::System::Boolean value)
+		::System::Void set_disableTrimVertices(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_SET_DISABLETRIMVERTICES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_SET_DISABLETRIMVERTICES_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_fontSizeUsedForBestFit()
@@ -314,64 +314,64 @@ namespace UnityEngine
 			return ((::System::IntPtr(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_INTERNAL_CREATE_OFFSET))();
 		}
 
-		static ::System::Void Internal_Destroy(::System::IntPtr ptr)
+		static ::System::Void Internal_Destroy(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_INTERNAL_DESTROY_OFFSET))(ptr);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_INTERNAL_DESTROY_OFFSET))(a1);
 		}
 
-		::System::Void ProcessFormatWrap(::System::IntPtr stateHandlePtr, ::UnityEngine::TextFormatChange formatChange, ::UnityEngine::TextFormat currFormat, ::System::Single unitX)
+		::System::Void ProcessFormatWrap(::System::IntPtr a1, ::UnityEngine::TextFormatChange a2, ::UnityEngine::TextFormat a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_PROCESSFORMATWRAP_OFFSET))(this, stateHandlePtr, formatChange, currFormat, unitX);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_PROCESSFORMATWRAP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void ProcessFormat(::UnityEngine::TextFormatState& formatState, ::UnityEngine::TextFormatChange& formatChange, ::UnityEngine::TextFormat& currFormat, ::System::Single unitX)
+		::System::Void ProcessFormat(::UnityEngine::TextFormatState& a1, ::UnityEngine::TextFormatChange& a2, ::UnityEngine::TextFormat& a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&, ::UnityEngine::TextFormatChange&, ::UnityEngine::TextFormat&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_PROCESSFORMAT_OFFSET))(this, formatState, formatChange, currFormat, unitX);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&, ::UnityEngine::TextFormatChange&, ::UnityEngine::TextFormat&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_PROCESSFORMAT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void AfterHorizontalAlignmentWrap(::System::IntPtr stateHandlePtr)
+		::System::Void AfterHorizontalAlignmentWrap(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTWRAP_OFFSET))(this, stateHandlePtr);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTWRAP_OFFSET))(this, a1);
 		}
 
-		::System::Void AfterHorizontalAlignment(::UnityEngine::TextFormatState& formatState)
+		::System::Void AfterHorizontalAlignment(::UnityEngine::TextFormatState& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENT_OFFSET))(this, formatState);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENT_OFFSET))(this, a1);
 		}
 
-		::System::Void BeforeWordWrapWrap(::System::IntPtr stateHandlePtr, ::System::Int32 lastUnderlinePos)
+		::System::Void BeforeWordWrapWrap(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAPWRAP_OFFSET))(this, stateHandlePtr, lastUnderlinePos);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAPWRAP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void BeforeWordWrap(::UnityEngine::TextFormatState& formatState, ::System::Int32 lastUnderlinePos)
+		::System::Void BeforeWordWrap(::UnityEngine::TextFormatState& a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAP_OFFSET))(this, formatState, lastUnderlinePos);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AfterWordWrapWrap(::System::IntPtr stateHandlePtr, ::System::Int32 lastUnderlinePos)
+		::System::Void AfterWordWrapWrap(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAPWRAP_OFFSET))(this, stateHandlePtr, lastUnderlinePos);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAPWRAP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AfterWordWrap(::UnityEngine::TextFormatState& formatState, ::System::Int32 lastUnderlinePos)
+		::System::Void AfterWordWrap(::UnityEngine::TextFormatState& a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAP_OFFSET))(this, formatState, lastUnderlinePos);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAP_OFFSET))(this, a1, a2);
 		}
 
-		static ::Il2CppArray<::UnityEngine::TextFormatFlag>* ParseTextFormatFlags(::System::String* str, ::System::UInt32 invalidTag)
+		static ::Il2CppArray<::UnityEngine::TextFormatFlag>* ParseTextFormatFlags(::System::String* a1, ::System::UInt32 a2)
 		{
-			return ((::Il2CppArray<::UnityEngine::TextFormatFlag>*(*)(::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_PARSETEXTFORMATFLAGS_OFFSET))(str, invalidTag);
+			return ((::Il2CppArray<::UnityEngine::TextFormatFlag>*(*)(::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_PARSETEXTFORMATFLAGS_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Populate_Internal(::System::String* str, ::UnityEngine::Font* font, ::UnityEngine::Color color, ::System::Int32 fontSize, ::System::Single scaleFactor, ::System::Single lineSpacing, ::UnityEngine::FontStyle style, ::System::Single textureScale, ::System::Boolean richText, ::System::UInt32 invalidTag, ::System::Boolean resizeTextForBestFit, ::System::Boolean fitVertically, ::System::Int32 resizeTextMinSize, ::System::Int32 resizeTextMaxSize, ::System::Int32 verticalOverFlow, ::System::Int32 horizontalOverflow, ::System::Boolean updateBounds, ::UnityEngine::TextAnchor anchor, ::System::Single extentsX, ::System::Single extentsY, ::System::Single pivotX, ::System::Single pivotY, ::System::Boolean generateOutOfBounds, ::System::Boolean alignByGeometry, ::Il2CppArray<::System::Int32>* noLeadingChars, ::System::Int32 noWrapChar, ::System::Int32 ellipsisChar, ::System::Int32 ellipsisLineNum, ::System::Boolean wrapJustify, ::System::Boolean skipUpdateFontTexture, ::System::Boolean requireTextFormatFlags, ::Il2CppArray<::System::Single>* iconAspects, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>* processFormat, ::System::Action_1<::System::IntPtr>* afterHorizontalAlignment, ::System::Action_2<::System::IntPtr, ::System::Int32>* beforeWordWrap, ::System::Action_2<::System::IntPtr, ::System::Int32>* afterWordWrap, ::System::UInt32& error)
+		::System::Boolean Populate_Internal(::System::String* a1, ::UnityEngine::Font* a2, ::UnityEngine::Color a3, ::System::Int32 a4, ::System::Single a5, ::System::Single a6, ::UnityEngine::FontStyle a7, ::System::Single a8, ::System::Boolean a9, ::System::UInt32 a10, ::System::Boolean a11, ::System::Boolean a12, ::System::Int32 a13, ::System::Int32 a14, ::System::Int32 a15, ::System::Int32 a16, ::System::Boolean a17, ::UnityEngine::TextAnchor a18, ::System::Single a19, ::System::Single a20, ::System::Single a21, ::System::Single a22, ::System::Boolean a23, ::System::Boolean a24, ::Il2CppArray<::System::Int32>* a25, ::System::Int32 a26, ::System::Int32 a27, ::System::Int32 a28, ::System::Boolean a29, ::System::Boolean a30, ::System::Boolean a31, ::Il2CppArray<::System::Single>* a32, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>* a33, ::System::Action_1<::System::IntPtr>* a34, ::System::Action_2<::System::IntPtr, ::System::Int32>* a35, ::System::Action_2<::System::IntPtr, ::System::Int32>* a36, ::System::UInt32& a37)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::Font*, ::UnityEngine::Color, ::System::Int32, ::System::Single, ::System::Single, ::UnityEngine::FontStyle, ::System::Single, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::UnityEngine::TextAnchor, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Single>*, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>*, ::System::Action_1<::System::IntPtr>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_OFFSET))(this, str, font, color, fontSize, scaleFactor, lineSpacing, style, textureScale, richText, invalidTag, resizeTextForBestFit, fitVertically, resizeTextMinSize, resizeTextMaxSize, verticalOverFlow, horizontalOverflow, updateBounds, anchor, extentsX, extentsY, pivotX, pivotY, generateOutOfBounds, alignByGeometry, noLeadingChars, noWrapChar, ellipsisChar, ellipsisLineNum, wrapJustify, skipUpdateFontTexture, requireTextFormatFlags, iconAspects, processFormat, afterHorizontalAlignment, beforeWordWrap, afterWordWrap, error);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::Font*, ::UnityEngine::Color, ::System::Int32, ::System::Single, ::System::Single, ::UnityEngine::FontStyle, ::System::Single, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::UnityEngine::TextAnchor, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Single>*, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>*, ::System::Action_1<::System::IntPtr>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, a33, a34, a35, a36, a37);
 		}
 
-		::System::Boolean Populate_Internal_1(::System::String* str, ::UnityEngine::TextGenerationSettings settings, ::UnityEngine::TextGenerationError& error)
+		::System::Boolean Populate_Internal_1(::System::String* a1, ::UnityEngine::TextGenerationSettings a2, ::UnityEngine::TextGenerationError& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::UnityEngine::TextGenerationError&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_1_OFFSET))(this, str, settings, error);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::UnityEngine::TextGenerationError&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Il2CppArray<::UnityEngine::UILineInfo>* GetLinesArray()
@@ -414,49 +414,49 @@ namespace UnityEngine
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSLENGTH_OFFSET))(this);
 		}
 
-		::System::Void GetVerticesInternal(::System::Array* vertices)
+		::System::Void GetVerticesInternal(::System::Array* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETVERTICESINTERNAL_OFFSET))(this, vertices);
+			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETVERTICESINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Void GetFormatVerticesInternal(::System::Array* vertices)
+		::System::Void GetFormatVerticesInternal(::System::Array* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICESINTERNAL_OFFSET))(this, vertices);
+			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICESINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Void GetCharactersInternal(::System::Array* vertices)
+		::System::Void GetCharactersInternal(::System::Array* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETCHARACTERSINTERNAL_OFFSET))(this, vertices);
+			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETCHARACTERSINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Void GetLinesInternal(::System::Array* vertices)
+		::System::Void GetLinesInternal(::System::Array* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETLINESINTERNAL_OFFSET))(this, vertices);
+			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETLINESINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Void GetIconVerticesInternal(::System::Array* vertices)
+		::System::Void GetIconVerticesInternal(::System::Array* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETICONVERTICESINTERNAL_OFFSET))(this, vertices);
+			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETICONVERTICESINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Void GetIconIdsInternal(::System::Array* vertices)
+		::System::Void GetIconIdsInternal(::System::Array* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETICONIDSINTERNAL_OFFSET))(this, vertices);
+			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETICONIDSINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Void GetTextFormatFlagsInternal(::System::Array* flags)
+		::System::Void GetTextFormatFlagsInternal(::System::Array* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSINTERNAL_OFFSET))(this, flags);
+			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Void get_rectExtents_Injected(::UnityEngine::Rect& ret)
+		::System::Void get_rectExtents_Injected(::UnityEngine::Rect& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_INJECTED_OFFSET))(this, ret);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_INJECTED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Populate_Internal_Injected(::System::String* str, ::UnityEngine::Font* font, ::UnityEngine::Color& color, ::System::Int32 fontSize, ::System::Single scaleFactor, ::System::Single lineSpacing, ::UnityEngine::FontStyle style, ::System::Single textureScale, ::System::Boolean richText, ::System::UInt32 invalidTag, ::System::Boolean resizeTextForBestFit, ::System::Boolean fitVertically, ::System::Int32 resizeTextMinSize, ::System::Int32 resizeTextMaxSize, ::System::Int32 verticalOverFlow, ::System::Int32 horizontalOverflow, ::System::Boolean updateBounds, ::UnityEngine::TextAnchor anchor, ::System::Single extentsX, ::System::Single extentsY, ::System::Single pivotX, ::System::Single pivotY, ::System::Boolean generateOutOfBounds, ::System::Boolean alignByGeometry, ::Il2CppArray<::System::Int32>* noLeadingChars, ::System::Int32 noWrapChar, ::System::Int32 ellipsisChar, ::System::Int32 ellipsisLineNum, ::System::Boolean wrapJustify, ::System::Boolean skipUpdateFontTexture, ::System::Boolean requireTextFormatFlags, ::Il2CppArray<::System::Single>* iconAspects, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>* processFormat, ::System::Action_1<::System::IntPtr>* afterHorizontalAlignment, ::System::Action_2<::System::IntPtr, ::System::Int32>* beforeWordWrap, ::System::Action_2<::System::IntPtr, ::System::Int32>* afterWordWrap, ::System::UInt32& error)
+		::System::Boolean Populate_Internal_Injected(::System::String* a1, ::UnityEngine::Font* a2, ::UnityEngine::Color& a3, ::System::Int32 a4, ::System::Single a5, ::System::Single a6, ::UnityEngine::FontStyle a7, ::System::Single a8, ::System::Boolean a9, ::System::UInt32 a10, ::System::Boolean a11, ::System::Boolean a12, ::System::Int32 a13, ::System::Int32 a14, ::System::Int32 a15, ::System::Int32 a16, ::System::Boolean a17, ::UnityEngine::TextAnchor a18, ::System::Single a19, ::System::Single a20, ::System::Single a21, ::System::Single a22, ::System::Boolean a23, ::System::Boolean a24, ::Il2CppArray<::System::Int32>* a25, ::System::Int32 a26, ::System::Int32 a27, ::System::Int32 a28, ::System::Boolean a29, ::System::Boolean a30, ::System::Boolean a31, ::Il2CppArray<::System::Single>* a32, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>* a33, ::System::Action_1<::System::IntPtr>* a34, ::System::Action_2<::System::IntPtr, ::System::Int32>* a35, ::System::Action_2<::System::IntPtr, ::System::Int32>* a36, ::System::UInt32& a37)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::Font*, ::UnityEngine::Color&, ::System::Int32, ::System::Single, ::System::Single, ::UnityEngine::FontStyle, ::System::Single, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::UnityEngine::TextAnchor, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Single>*, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>*, ::System::Action_1<::System::IntPtr>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_INJECTED_OFFSET))(this, str, font, color, fontSize, scaleFactor, lineSpacing, style, textureScale, richText, invalidTag, resizeTextForBestFit, fitVertically, resizeTextMinSize, resizeTextMaxSize, verticalOverFlow, horizontalOverflow, updateBounds, anchor, extentsX, extentsY, pivotX, pivotY, generateOutOfBounds, alignByGeometry, noLeadingChars, noWrapChar, ellipsisChar, ellipsisLineNum, wrapJustify, skipUpdateFontTexture, requireTextFormatFlags, iconAspects, processFormat, afterHorizontalAlignment, beforeWordWrap, afterWordWrap, error);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::Font*, ::UnityEngine::Color&, ::System::Int32, ::System::Single, ::System::Single, ::UnityEngine::FontStyle, ::System::Single, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::UnityEngine::TextAnchor, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Single>*, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>*, ::System::Action_1<::System::IntPtr>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_INJECTED_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, a33, a34, a35, a36, a37);
 		}
 
 		::System::Single GetPreferredWidth_1(::System::String* a1, ::UnityEngine::TextGenerationSettings a2)

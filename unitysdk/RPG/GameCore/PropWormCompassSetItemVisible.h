@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class WormCompassItemXY; }
 
-#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_9041D684094AC502_OFFSET UNITYSDK_OFFSET(0x18C7D380)
-#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_B7DE62B233F1AEFF_OFFSET UNITYSDK_OFFSET(0x18C7D4D0)
-#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7D440)
+#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_18970DD28E312035_OFFSET UNITYSDK_OFFSET(0x19A9FCB0)
+#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_8F724AB677A885B8_OFFSET UNITYSDK_OFFSET(0x19A9FE00)
+#define RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9FD70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropWormCompassSetItemVisible_TypeDefinitionIndex = 21034;
+	inline static constexpr unsigned int PropWormCompassSetItemVisible_TypeDefinitionIndex = 20943;
 
 	class PropWormCompassSetItemVisible : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9041D684094AC502(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropWormCompassSetItemVisible*& a2)
+		static ::System::Void Method_3_18970DD28E312035(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropWormCompassSetItemVisible*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropWormCompassSetItemVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_9041D684094AC502_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropWormCompassSetItemVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_18970DD28E312035_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B7DE62B233F1AEFF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropWormCompassSetItemVisible* a2)
+		static ::System::Void Method_3_8F724AB677A885B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropWormCompassSetItemVisible* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropWormCompassSetItemVisible*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_B7DE62B233F1AEFF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropWormCompassSetItemVisible*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPWORMCOMPASSSETITEMVISIBLE_METHOD_3_8F724AB677A885B8_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,7 +7,7 @@ namespace InControl { class InputDevice; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int BindingSourceListener_TypeDefinitionIndex = 37098;
+	inline static constexpr unsigned int BindingSourceListener_TypeDefinitionIndex = 37830;
 
 	class BindingSourceListener
 	{

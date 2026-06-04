@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookMissionChronicleState_TypeDefinitionIndex = 60422;
+	inline static constexpr unsigned int HandbookMissionChronicleState_TypeDefinitionIndex = 61357;
 
 	enum class HandbookMissionChronicleState : ::System::Int32
 	{

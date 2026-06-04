@@ -7,7 +7,7 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int InterfaceMapping_TypeDefinitionIndex = 562;
+	inline static constexpr unsigned int InterfaceMapping_TypeDefinitionIndex = 561;
 
 	struct alignas(8) InterfaceMapping
 	{

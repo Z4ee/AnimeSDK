@@ -6,24 +6,24 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT_EQUALS_OFFSET UNITYSDK_OFFSET(0x22AB4A0)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22AB530)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x5AF0)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22AB490)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x22AB480)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT_EQUALS_OFFSET UNITYSDK_OFFSET(0x383B2B0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x383B340)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x60D0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x383B2A0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x383B290)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int CustomAttributeTypedArgument_TypeDefinitionIndex = 601;
+	inline static constexpr unsigned int CustomAttributeTypedArgument_TypeDefinitionIndex = 600;
 
 	struct alignas(8) CustomAttributeTypedArgument
 	{
 		::System::Type* argumentType; // 0x10
 		::System::Object* value; // 0x18
 
-		::System::Void _ctor(::System::Type* argumentType, ::System::Object* value)
+		::System::Void _ctor(::System::Type* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT__CTOR_OFFSET))(this, argumentType, value);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* get_Value()
@@ -36,9 +36,9 @@ namespace System::Reflection
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTETYPEDARGUMENT_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PERFORMANCERESULTCASE_METHOD_2_6CD01D029884DD86_OFFSET UNITYSDK_OFFSET(0x18BE8220)
-#define RPG_GAMECORE_PERFORMANCERESULTCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE83B0)
+#define RPG_GAMECORE_PERFORMANCERESULTCASE_METHOD_2_1A327C4B68710952_OFFSET UNITYSDK_OFFSET(0x199FA3D0)
+#define RPG_GAMECORE_PERFORMANCERESULTCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x199FA580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceResultCase_TypeDefinitionIndex = 20217;
+	inline static constexpr unsigned int PerformanceResultCase_TypeDefinitionIndex = 20073;
 
 	class PerformanceResultCase : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCERESULTCASE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6CD01D029884DD86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceResultCase*& a2)
+		static ::System::Void Method_2_1A327C4B68710952(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceResultCase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceResultCase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCERESULTCASE_METHOD_2_6CD01D029884DD86_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceResultCase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCERESULTCASE_METHOD_2_1A327C4B68710952_OFFSET))(a1, a2);
 		}
 	};
 }

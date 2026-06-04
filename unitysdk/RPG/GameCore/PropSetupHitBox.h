@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSETUPHITBOX_METHOD_3_038E2E800516BD94_OFFSET UNITYSDK_OFFSET(0x18C75A20)
-#define RPG_GAMECORE_PROPSETUPHITBOX_METHOD_3_2BE445F52EE76510_OFFSET UNITYSDK_OFFSET(0x18C75B80)
-#define RPG_GAMECORE_PROPSETUPHITBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x18C75AE0)
+#define RPG_GAMECORE_PROPSETUPHITBOX_METHOD_3_A9A5DBF96D919E87_OFFSET UNITYSDK_OFFSET(0x19A97E70)
+#define RPG_GAMECORE_PROPSETUPHITBOX_METHOD_3_C5E2CC8282FFAAD3_OFFSET UNITYSDK_OFFSET(0x19A97D10)
+#define RPG_GAMECORE_PROPSETUPHITBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x19A97DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetupHitBox_TypeDefinitionIndex = 19343;
+	inline static constexpr unsigned int PropSetupHitBox_TypeDefinitionIndex = 19253;
 
 	class PropSetupHitBox : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPHITBOX__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_038E2E800516BD94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupHitBox*& a2)
+		static ::System::Void Method_3_C5E2CC8282FFAAD3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupHitBox*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupHitBox*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPHITBOX_METHOD_3_038E2E800516BD94_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupHitBox*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPHITBOX_METHOD_3_C5E2CC8282FFAAD3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2BE445F52EE76510(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupHitBox* a2)
+		static ::System::Void Method_3_A9A5DBF96D919E87(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupHitBox* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupHitBox*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPHITBOX_METHOD_3_2BE445F52EE76510_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupHitBox*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPHITBOX_METHOD_3_A9A5DBF96D919E87_OFFSET))(a1, a2);
 		}
 	};
 }

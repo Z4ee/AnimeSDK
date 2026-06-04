@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class FuncUnlockHint; }
 
-#define CLASS_1_870112F37A57C86F_METHOD_1_01138A73F0423BD4_OFFSET UNITYSDK_OFFSET(0x9A34660)
+#define CLASS_1_870112F37A57C86F_METHOD_1_01138A73F0423BD4_OFFSET UNITYSDK_OFFSET(0xE484810)
 
-inline static constexpr unsigned int Class_1_870112F37A57C86F_TypeDefinitionIndex = 62705;
+inline static constexpr unsigned int Class_1_870112F37A57C86F_TypeDefinitionIndex = 63638;
 
 class Class_1_870112F37A57C86F : public ::System::Object
 {

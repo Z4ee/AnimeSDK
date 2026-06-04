@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestPhaseType_TypeDefinitionIndex = 12542;
+	inline static constexpr unsigned int FightFestPhaseType_TypeDefinitionIndex = 12635;
 
 	enum class FightFestPhaseType : ::System::Int32
 	{

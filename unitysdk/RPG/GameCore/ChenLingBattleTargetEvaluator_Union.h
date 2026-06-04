@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGBATTLETARGETEVALUATOR_UNION_METHOD_3_40BFE355DF77346A_OFFSET UNITYSDK_OFFSET(0x187E7670)
-#define RPG_GAMECORE_CHENLINGBATTLETARGETEVALUATOR_UNION_METHOD_3_BAA987952F58FFC2_OFFSET UNITYSDK_OFFSET(0x187E76D0)
-#define RPG_GAMECORE_CHENLINGBATTLETARGETEVALUATOR_UNION__CTOR_OFFSET UNITYSDK_OFFSET(0x187E76C0)
+#define RPG_GAMECORE_CHENLINGBATTLETARGETEVALUATOR_UNION_METHOD_3_0F80AF059D071ED7_OFFSET UNITYSDK_OFFSET(0x19624A30)
+#define RPG_GAMECORE_CHENLINGBATTLETARGETEVALUATOR_UNION_METHOD_3_24CD864C83FD8F17_OFFSET UNITYSDK_OFFSET(0x19624A90)
+#define RPG_GAMECORE_CHENLINGBATTLETARGETEVALUATOR_UNION__CTOR_OFFSET UNITYSDK_OFFSET(0x19624A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_Union_TypeDefinitionIndex = 14937;
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_Union_TypeDefinitionIndex = 15000;
 
 	class ChenLingBattleTargetEvaluator_Union : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
@@ -22,14 +22,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLETARGETEVALUATOR_UNION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_40BFE355DF77346A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleTargetEvaluator_Union*& a2)
+		static ::System::Void Method_3_0F80AF059D071ED7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleTargetEvaluator_Union*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleTargetEvaluator_Union*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLETARGETEVALUATOR_UNION_METHOD_3_40BFE355DF77346A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleTargetEvaluator_Union*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLETARGETEVALUATOR_UNION_METHOD_3_0F80AF059D071ED7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BAA987952F58FFC2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleTargetEvaluator_Union* a2)
+		static ::System::Void Method_3_24CD864C83FD8F17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleTargetEvaluator_Union* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleTargetEvaluator_Union*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLETARGETEVALUATOR_UNION_METHOD_3_BAA987952F58FFC2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleTargetEvaluator_Union*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLETARGETEVALUATOR_UNION_METHOD_3_24CD864C83FD8F17_OFFSET))(a1, a2);
 		}
 	};
 }

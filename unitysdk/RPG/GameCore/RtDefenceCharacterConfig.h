@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RTDEFENCECHARACTERCONFIG_METHOD_3_0360724B2D00DDF0_OFFSET UNITYSDK_OFFSET(0x18DCAFD0)
-#define RPG_GAMECORE_RTDEFENCECHARACTERCONFIG_METHOD_3_ABE869DD89F0159D_OFFSET UNITYSDK_OFFSET(0x18DCDC90)
-#define RPG_GAMECORE_RTDEFENCECHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18DCAF40)
+#define RPG_GAMECORE_RTDEFENCECHARACTERCONFIG_METHOD_3_BA54F12459647E2A_OFFSET UNITYSDK_OFFSET(0x19BE44B0)
+#define RPG_GAMECORE_RTDEFENCECHARACTERCONFIG_METHOD_3_ED848673FF77E4A1_OFFSET UNITYSDK_OFFSET(0x19BE75D0)
+#define RPG_GAMECORE_RTDEFENCECHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE4430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceCharacterConfig_TypeDefinitionIndex = 17156;
+	inline static constexpr unsigned int RtDefenceCharacterConfig_TypeDefinitionIndex = 17166;
 
 	class RtDefenceCharacterConfig : public ::RPG::GameCore::RtCharacterConfig
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECHARACTERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ABE869DD89F0159D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtDefenceCharacterConfig*& a2)
+		static ::System::Void Method_3_ED848673FF77E4A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtDefenceCharacterConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtDefenceCharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECHARACTERCONFIG_METHOD_3_ABE869DD89F0159D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtDefenceCharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECHARACTERCONFIG_METHOD_3_ED848673FF77E4A1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0360724B2D00DDF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtDefenceCharacterConfig* a2)
+		static ::System::Void Method_3_BA54F12459647E2A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtDefenceCharacterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtDefenceCharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECHARACTERCONFIG_METHOD_3_0360724B2D00DDF0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtDefenceCharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCECHARACTERCONFIG_METHOD_3_BA54F12459647E2A_OFFSET))(a1, a2);
 		}
 	};
 }

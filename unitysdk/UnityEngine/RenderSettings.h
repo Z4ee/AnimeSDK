@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RenderSettings_TypeDefinitionIndex = 3948;
+	inline static constexpr unsigned int RenderSettings_TypeDefinitionIndex = 4122;
 
 	class RenderSettings : public ::UnityEngine::Object
 	{

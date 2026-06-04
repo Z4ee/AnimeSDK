@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class EpicAccountId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_GET_ENTITLEMENTIDS_OFFSET UNITYSDK_OFFSET(0x8E83AA0)
-#define EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E83A80)
-#define EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_SET_ENTITLEMENTIDS_OFFSET UNITYSDK_OFFSET(0x8E83AB0)
-#define EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E83A90)
-#define EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E83AC0)
+#define EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_GET_ENTITLEMENTIDS_OFFSET UNITYSDK_OFFSET(0xA2C4970)
+#define EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2C4950)
+#define EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_SET_ENTITLEMENTIDS_OFFSET UNITYSDK_OFFSET(0xA2C4980)
+#define EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2C4960)
+#define EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2C4990)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int RedeemEntitlementsOptions_TypeDefinitionIndex = 42225;
+	inline static constexpr unsigned int RedeemEntitlementsOptions_TypeDefinitionIndex = 43028;
 
 	class RedeemEntitlementsOptions : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* _EntitlementIds_k__BackingField; // 0x10
-		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::EpicAccountId* _LocalUserId_k__BackingField; // 0x10
+		::Il2CppArray<::System::String*>* _EntitlementIds_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::String*>* get_EntitlementIds()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Ecom
 			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_GET_ENTITLEMENTIDS_OFFSET))(this);
 		}
 
-		::System::Void set_EntitlementIds(::Il2CppArray<::System::String*>* value)
+		::System::Void set_EntitlementIds(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_SET_ENTITLEMENTIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_REDEEMENTITLEMENTSOPTIONS_SET_ENTITLEMENTIDS_OFFSET))(this, a1);
 		}
 	};
 }

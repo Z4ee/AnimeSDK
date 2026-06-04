@@ -8,14 +8,14 @@ namespace MiHoYo::SDK::Win { class RealNameManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174B6E40)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x174BB2F0)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x174BB320)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__2_OFFSET UNITYSDK_OFFSET(0x174BB3E0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182B5EC0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x182BA650)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x182BA680)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__2_OFFSET UNITYSDK_OFFSET(0x182BA750)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealNameManager___c__DisplayClass20_0_TypeDefinitionIndex = 8106;
+	inline static constexpr unsigned int RealNameManager___c__DisplayClass20_0_TypeDefinitionIndex = 9009;
 
 	class RealNameManager___c__DisplayClass20_0 : public ::System::Object
 	{
@@ -29,19 +29,19 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ShowSecondRealNamePluginUI_b__0(::System::String* strArgs, ::System::Action_1<::System::String*>* callback)
+		::System::Void _ShowSecondRealNamePluginUI_b__0(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__0_OFFSET))(this, strArgs, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowSecondRealNamePluginUI_b__1(::System::String* strArgs, ::System::Action_1<::System::String*>* callback)
+		::System::Void _ShowSecondRealNamePluginUI_b__1(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__1_OFFSET))(this, strArgs, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowSecondRealNamePluginUI_b__2(::System::String* strArgs, ::System::Action_1<::System::String*>* callback)
+		::System::Void _ShowSecondRealNamePluginUI_b__2(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__2_OFFSET))(this, strArgs, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS20_0__SHOWSECONDREALNAMEPLUGINUI_B__2_OFFSET))(this, a1, a2);
 		}
 	};
 }

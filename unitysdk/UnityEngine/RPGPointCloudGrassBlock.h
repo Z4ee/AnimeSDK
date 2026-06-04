@@ -7,31 +7,31 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RPGPointCloudGrassBlockData; }
 
-#define UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_CHANGETRANSFORM_OFFSET UNITYSDK_OFFSET(0x1A46B070)
-#define UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_GRASSVOLUMEHASINIT_OFFSET UNITYSDK_OFFSET(0x1A46B060)
-#define UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_REMOVEGRASSVOLUMEUSEVOLUMEKEY_OFFSET UNITYSDK_OFFSET(0x1A46B050)
-#define UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_SETGRASSBLOCKDATA_OFFSET UNITYSDK_OFFSET(0x1A46B040)
+#define UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_CHANGETRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B2BAC80)
+#define UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_GRASSVOLUMEHASINIT_OFFSET UNITYSDK_OFFSET(0x1B2BAC70)
+#define UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_REMOVEGRASSVOLUMEUSEVOLUMEKEY_OFFSET UNITYSDK_OFFSET(0x1B2BAC60)
+#define UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_SETGRASSBLOCKDATA_OFFSET UNITYSDK_OFFSET(0x1B2BAC50)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RPGPointCloudGrassBlock_TypeDefinitionIndex = 4093;
+	inline static constexpr unsigned int RPGPointCloudGrassBlock_TypeDefinitionIndex = 4267;
 
 	class RPGPointCloudGrassBlock : public ::UnityEngine::Behaviour
 	{
 	public:
-		::System::Void SetGrassBlockData(::UnityEngine::RPGPointCloudGrassBlockData* grassBlockData, ::System::Collections::Generic::List_1<::System::String*>* lod0PrefabPaths, ::System::Collections::Generic::List_1<::System::UInt32>* lodArrayStarts, ::System::Collections::Generic::List_1<::System::UInt32>* lodArrayEnds, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* lodArrayPrefabs, ::System::Collections::Generic::List_1<::System::Single>* lodArrayDistances, ::System::Collections::Generic::List_1<::System::Byte>* lodIndices, ::System::Byte qualityLevel, ::System::Collections::Generic::List_1<::System::UInt64>* volumeKeys)
+		::System::Void SetGrassBlockData(::UnityEngine::RPGPointCloudGrassBlockData* a1, ::System::Collections::Generic::List_1<::System::String*>* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3, ::System::Collections::Generic::List_1<::System::UInt32>* a4, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* a5, ::System::Collections::Generic::List_1<::System::Single>* a6, ::System::Collections::Generic::List_1<::System::Byte>* a7, ::System::Byte a8, ::System::Collections::Generic::List_1<::System::UInt64>* a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RPGPointCloudGrassBlockData*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*, ::System::Collections::Generic::List_1<::System::Single>*, ::System::Collections::Generic::List_1<::System::Byte>*, ::System::Byte, ::System::Collections::Generic::List_1<::System::UInt64>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_SETGRASSBLOCKDATA_OFFSET))(this, grassBlockData, lod0PrefabPaths, lodArrayStarts, lodArrayEnds, lodArrayPrefabs, lodArrayDistances, lodIndices, qualityLevel, volumeKeys);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RPGPointCloudGrassBlockData*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*, ::System::Collections::Generic::List_1<::System::Single>*, ::System::Collections::Generic::List_1<::System::Byte>*, ::System::Byte, ::System::Collections::Generic::List_1<::System::UInt64>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_SETGRASSBLOCKDATA_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Boolean RemoveGrassVolumeUseVolumeKey(::System::UInt64 volumeKey)
+		::System::Boolean RemoveGrassVolumeUseVolumeKey(::System::UInt64 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_REMOVEGRASSVOLUMEUSEVOLUMEKEY_OFFSET))(this, volumeKey);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_REMOVEGRASSVOLUMEUSEVOLUMEKEY_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GrassVolumeHasInit(::System::UInt64 volumeKey)
+		::System::Boolean GrassVolumeHasInit(::System::UInt64 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_GRASSVOLUMEHASINIT_OFFSET))(this, volumeKey);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + UNITYENGINE_RPGPOINTCLOUDGRASSBLOCK_GRASSVOLUMEHASINIT_OFFSET))(this, a1);
 		}
 
 		::System::Void ChangeTransform()

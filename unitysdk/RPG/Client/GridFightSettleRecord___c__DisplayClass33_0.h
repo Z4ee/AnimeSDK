@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightGridMember; }
 
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5882B0)
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS33_0__GETMEMBERBYPOS_B__0_OFFSET UNITYSDK_OFFSET(0xA58E240)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBFB680)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS33_0__GETMEMBERBYPOS_B__0_OFFSET UNITYSDK_OFFSET(0xBBFD840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass33_0_TypeDefinitionIndex = 60039;
+	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass33_0_TypeDefinitionIndex = 60974;
 
 	class GridFightSettleRecord___c__DisplayClass33_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS33_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetMemberByPos_b__0(::RPG::Client::GridFightGridMember* x)
+		::System::Boolean _GetMemberByPos_b__0(::RPG::Client::GridFightGridMember* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGridMember*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS33_0__GETMEMBERBYPOS_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGridMember*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS33_0__GETMEMBERBYPOS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

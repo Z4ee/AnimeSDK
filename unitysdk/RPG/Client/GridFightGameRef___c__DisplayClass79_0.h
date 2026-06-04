@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4C4B20)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS79_0__SAVEFORMATIONTOSERVER_B__0_OFFSET UNITYSDK_OFFSET(0xA4C4B30)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB65FA0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS79_0__SAVEFORMATIONTOSERVER_B__0_OFFSET UNITYSDK_OFFSET(0xBB6A5E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass79_0_TypeDefinitionIndex = 59564;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass79_0_TypeDefinitionIndex = 60499;
 
 	class GridFightGameRef___c__DisplayClass79_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS79_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SaveFormationToServer_b__0(::System::Boolean success)
+		::System::Void _SaveFormationToServer_b__0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS79_0__SAVEFORMATIONTOSERVER_B__0_OFFSET))(this, success);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS79_0__SAVEFORMATIONTOSERVER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,30 +5,30 @@
 
 namespace Spine { class VertexAttachment; }
 
-#define SPINE_SPINESKELETONEXTENSIONS_INHERITSROTATION_OFFSET UNITYSDK_OFFSET(0x19E2B7C0)
-#define SPINE_SPINESKELETONEXTENSIONS_INHERITSSCALE_OFFSET UNITYSDK_OFFSET(0x19E2B7D0)
-#define SPINE_SPINESKELETONEXTENSIONS_ISWEIGHTED_OFFSET UNITYSDK_OFFSET(0x19E2B790)
+#define SPINE_SPINESKELETONEXTENSIONS_INHERITSROTATION_OFFSET UNITYSDK_OFFSET(0x1ACA5D20)
+#define SPINE_SPINESKELETONEXTENSIONS_INHERITSSCALE_OFFSET UNITYSDK_OFFSET(0x1ACA5D30)
+#define SPINE_SPINESKELETONEXTENSIONS_ISWEIGHTED_OFFSET UNITYSDK_OFFSET(0x1ACA5CF0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SpineSkeletonExtensions_TypeDefinitionIndex = 40550;
+	inline static constexpr unsigned int SpineSkeletonExtensions_TypeDefinitionIndex = 41377;
 
 	class SpineSkeletonExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Boolean IsWeighted(::Spine::VertexAttachment* va)
+		static ::System::Boolean IsWeighted(::Spine::VertexAttachment* a1)
 		{
-			return ((::System::Boolean(*)(::Spine::VertexAttachment*))((::PBYTE)hIl2Cpp + SPINE_SPINESKELETONEXTENSIONS_ISWEIGHTED_OFFSET))(va);
+			return ((::System::Boolean(*)(::Spine::VertexAttachment*))((::PBYTE)hIl2Cpp + SPINE_SPINESKELETONEXTENSIONS_ISWEIGHTED_OFFSET))(a1);
 		}
 
-		static ::System::Boolean InheritsRotation(::Spine::TransformMode mode)
+		static ::System::Boolean InheritsRotation(::Spine::TransformMode a1)
 		{
-			return ((::System::Boolean(*)(::Spine::TransformMode))((::PBYTE)hIl2Cpp + SPINE_SPINESKELETONEXTENSIONS_INHERITSROTATION_OFFSET))(mode);
+			return ((::System::Boolean(*)(::Spine::TransformMode))((::PBYTE)hIl2Cpp + SPINE_SPINESKELETONEXTENSIONS_INHERITSROTATION_OFFSET))(a1);
 		}
 
-		static ::System::Boolean InheritsScale(::Spine::TransformMode mode)
+		static ::System::Boolean InheritsScale(::Spine::TransformMode a1)
 		{
-			return ((::System::Boolean(*)(::Spine::TransformMode))((::PBYTE)hIl2Cpp + SPINE_SPINESKELETONEXTENSIONS_INHERITSSCALE_OFFSET))(mode);
+			return ((::System::Boolean(*)(::Spine::TransformMode))((::PBYTE)hIl2Cpp + SPINE_SPINESKELETONEXTENSIONS_INHERITSSCALE_OFFSET))(a1);
 		}
 	};
 }

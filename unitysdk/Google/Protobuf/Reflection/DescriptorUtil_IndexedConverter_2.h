@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorUtil_IndexedConverter_2_TypeDefinitionIndex = 6327;
+	inline static constexpr unsigned int DescriptorUtil_IndexedConverter_2_TypeDefinitionIndex = 5529;
 
 	template <typename TInput, typename TOutput>
 	class DescriptorUtil_IndexedConverter_2 : public ::System::MulticastDelegate

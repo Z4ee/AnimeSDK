@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class IFateGameMasterInfoRealItem; }
 
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA341A70)
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__DISPLAYCLASS11_0__GETMASTERBYAVATARID_B__0_OFFSET UNITYSDK_OFFSET(0xA342160)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB992280)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__DISPLAYCLASS11_0__GETMASTERBYAVATARID_B__0_OFFSET UNITYSDK_OFFSET(0xB992A10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterBattleInfo___c__DisplayClass11_0_TypeDefinitionIndex = 58955;
+	inline static constexpr unsigned int FateGameMasterBattleInfo___c__DisplayClass11_0_TypeDefinitionIndex = 59885;
 
 	class FateGameMasterBattleInfo___c__DisplayClass11_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetMasterByAvatarID_b__0(::RPG::Client::IFateGameMasterInfoRealItem* m)
+		::System::Boolean _GetMasterByAvatarID_b__0(::RPG::Client::IFateGameMasterInfoRealItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IFateGameMasterInfoRealItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__DISPLAYCLASS11_0__GETMASTERBYAVATARID_B__0_OFFSET))(this, m);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IFateGameMasterInfoRealItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__DISPLAYCLASS11_0__GETMASTERBYAVATARID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

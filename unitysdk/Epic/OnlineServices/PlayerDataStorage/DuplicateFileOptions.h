@@ -5,24 +5,24 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_GET_DESTINATIONFILENAME_OFFSET UNITYSDK_OFFSET(0x8EF18F0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8EF18B0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_GET_SOURCEFILENAME_OFFSET UNITYSDK_OFFSET(0x8EF18D0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_DESTINATIONFILENAME_OFFSET UNITYSDK_OFFSET(0x8EF1900)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8EF18C0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_SOURCEFILENAME_OFFSET UNITYSDK_OFFSET(0x8EF18E0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8EF1910)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_GET_DESTINATIONFILENAME_OFFSET UNITYSDK_OFFSET(0xA320650)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA320610)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_GET_SOURCEFILENAME_OFFSET UNITYSDK_OFFSET(0xA320630)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_DESTINATIONFILENAME_OFFSET UNITYSDK_OFFSET(0xA320660)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA320620)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_SOURCEFILENAME_OFFSET UNITYSDK_OFFSET(0xA320640)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA320670)
 
 namespace Epic::OnlineServices::PlayerDataStorage
 {
-	inline static constexpr unsigned int DuplicateFileOptions_TypeDefinitionIndex = 41641;
+	inline static constexpr unsigned int DuplicateFileOptions_TypeDefinitionIndex = 42444;
 
 	class DuplicateFileOptions : public ::System::Object
 	{
 	public:
-		::System::String* _DestinationFilename_k__BackingField; // 0x10
-		::System::String* _SourceFilename_k__BackingField; // 0x18
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x20
+		::System::String* _SourceFilename_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
+		::System::String* _DestinationFilename_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_SourceFilename()
@@ -44,9 +44,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_GET_SOURCEFILENAME_OFFSET))(this);
 		}
 
-		::System::Void set_SourceFilename(::System::String* value)
+		::System::Void set_SourceFilename(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_SOURCEFILENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_SOURCEFILENAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_DestinationFilename()
@@ -54,9 +54,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_GET_DESTINATIONFILENAME_OFFSET))(this);
 		}
 
-		::System::Void set_DestinationFilename(::System::String* value)
+		::System::Void set_DestinationFilename(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_DESTINATIONFILENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_DUPLICATEFILEOPTIONS_SET_DESTINATIONFILENAME_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace Hdg
 {
-	inline static constexpr unsigned int WriteMessageThread_State_TypeDefinitionIndex = 43760;
+	inline static constexpr unsigned int WriteMessageThread_State_TypeDefinitionIndex = 44302;
 
 	enum class WriteMessageThread_State : ::System::Int32
 	{

@@ -8,10 +8,10 @@
 namespace RPG::GameCore { class LevelSpatialIntVec2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_72CC10A34CA99622_METHOD_1_B7D2DB9A0CF29AE4_OFFSET UNITYSDK_OFFSET(0x11D781E0)
-#define CLASS_1_72CC10A34CA99622__CTOR_OFFSET UNITYSDK_OFFSET(0x11D77F00)
+#define CLASS_1_72CC10A34CA99622_METHOD_1_B7D2DB9A0CF29AE4_OFFSET UNITYSDK_OFFSET(0xA46D250)
+#define CLASS_1_72CC10A34CA99622__CTOR_OFFSET UNITYSDK_OFFSET(0xA46CF80)
 
-inline static constexpr unsigned int Class_1_72CC10A34CA99622_TypeDefinitionIndex = 57243;
+inline static constexpr unsigned int Class_1_72CC10A34CA99622_TypeDefinitionIndex = 58033;
 
 class Class_1_72CC10A34CA99622 : public ::System::Object
 {

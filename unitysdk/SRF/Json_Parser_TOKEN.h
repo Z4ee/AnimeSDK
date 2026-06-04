@@ -3,7 +3,7 @@
 
 namespace SRF
 {
-	inline static constexpr unsigned int Json_Parser_TOKEN_TypeDefinitionIndex = 33268;
+	inline static constexpr unsigned int Json_Parser_TOKEN_TypeDefinitionIndex = 33550;
 
 	enum class Json_Parser_TOKEN : ::System::Int32
 	{

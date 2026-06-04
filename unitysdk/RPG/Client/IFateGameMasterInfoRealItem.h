@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_30.h"
 
-class Class_1_F3CA30716D4FAF92_10;
+class Class_1_F3CA30716D4FAF92_8;
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFateGameMasterInfoRealItem_TypeDefinitionIndex = 58965;
+	inline static constexpr unsigned int IFateGameMasterInfoRealItem_TypeDefinitionIndex = 59895;
 
 	class IFateGameMasterInfoRealItem
 	{

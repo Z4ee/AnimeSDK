@@ -5,28 +5,28 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class SecondRealnameGrantPhone; }
 
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174C9610)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x174C9910)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182C8900)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x182C8C00)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SecondRealnameGrantPhone___c__DisplayClass38_0_TypeDefinitionIndex = 8273;
+	inline static constexpr unsigned int SecondRealnameGrantPhone___c__DisplayClass38_0_TypeDefinitionIndex = 9176;
 
 	class SecondRealnameGrantPhone___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::AccountModel* model; // 0x10
-		::System::Boolean isShowOtherVerify; // 0x18
-		::System::Boolean isShowRedirect; // 0x19
+		::System::Boolean isShowRedirect; // 0x18
+		::System::Boolean isShowOtherVerify; // 0x19
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::Win::SecondRealnameGrantPhone* dialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::Win::SecondRealnameGrantPhone* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::SecondRealnameGrantPhone*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::SecondRealnameGrantPhone*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SECONDREALNAMEGRANTPHONE___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

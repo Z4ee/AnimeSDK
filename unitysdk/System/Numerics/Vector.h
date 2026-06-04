@@ -3,11 +3,11 @@
 #include "unitysdk/System/Numerics/Vector_1.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NUMERICS_VECTOR_GET_ISHARDWAREACCELERATED_OFFSET UNITYSDK_OFFSET(0x19F767A0)
+#define SYSTEM_NUMERICS_VECTOR_GET_ISHARDWAREACCELERATED_OFFSET UNITYSDK_OFFSET(0x1ADEBF90)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Vector_TypeDefinitionIndex = 4883;
+	inline static constexpr unsigned int Vector_TypeDefinitionIndex = 3850;
 
 	class Vector : public ::System::Object
 	{

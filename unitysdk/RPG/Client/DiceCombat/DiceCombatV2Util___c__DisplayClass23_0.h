@@ -5,13 +5,13 @@
 class Class_1_4BC858D7C27E10ED_5;
 namespace RPG::Client::DiceCombat { class DiceCombatV2PvPTitleData; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA15DBA0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__DISPLAYCLASS23_0__GETTITLEFROMNOTIFYBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xA15DE70)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__DISPLAYCLASS23_0__GETTITLEFROMNOTIFYBYUID_B__2_OFFSET UNITYSDK_OFFSET(0xA15DE90)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7DD1B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__DISPLAYCLASS23_0__GETTITLEFROMNOTIFYBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xB7DD480)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__DISPLAYCLASS23_0__GETTITLEFROMNOTIFYBYUID_B__2_OFFSET UNITYSDK_OFFSET(0xB7DD4A0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2Util___c__DisplayClass23_0_TypeDefinitionIndex = 69941;
+	inline static constexpr unsigned int DiceCombatV2Util___c__DisplayClass23_0_TypeDefinitionIndex = 70753;
 
 	class DiceCombatV2Util___c__DisplayClass23_0 : public ::System::Object
 	{
@@ -24,14 +24,14 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__DISPLAYCLASS23_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetTitleFromNotifyByUid_b__0(::Class_1_4BC858D7C27E10ED_5* data)
+		::System::Boolean _GetTitleFromNotifyByUid_b__0(::Class_1_4BC858D7C27E10ED_5* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_4BC858D7C27E10ED_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__DISPLAYCLASS23_0__GETTITLEFROMNOTIFYBYUID_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_4BC858D7C27E10ED_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__DISPLAYCLASS23_0__GETTITLEFROMNOTIFYBYUID_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetTitleFromNotifyByUid_b__2(::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData* t)
+		::System::Boolean _GetTitleFromNotifyByUid_b__2(::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__DISPLAYCLASS23_0__GETTITLEFROMNOTIFYBYUID_B__2_OFFSET))(this, t);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__DISPLAYCLASS23_0__GETTITLEFROMNOTIFYBYUID_B__2_OFFSET))(this, a1);
 		}
 	};
 }

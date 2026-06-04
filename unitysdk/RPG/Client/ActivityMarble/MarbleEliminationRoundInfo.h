@@ -5,17 +5,17 @@
 namespace RPG::Client::ActivityMarble { class MarbleEliminationPlayerInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_COMPARETO_OFFSET UNITYSDK_OFFSET(0x9C02840)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_GETPLAYERINDEX_OFFSET UNITYSDK_OFFSET(0x9C022C0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_GETPLAYERINFOLIST_OFFSET UNITYSDK_OFFSET(0x9C02800)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_INITPLAYERFROM_OFFSET UNITYSDK_OFFSET(0x9C01B10)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_INIT_OFFSET UNITYSDK_OFFSET(0x9C01920)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO__CHECKISWIN_OFFSET UNITYSDK_OFFSET(0x9C02670)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9C01910)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_COMPARETO_OFFSET UNITYSDK_OFFSET(0xB19F7D0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_GETPLAYERINDEX_OFFSET UNITYSDK_OFFSET(0xB19F260)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_GETPLAYERINFOLIST_OFFSET UNITYSDK_OFFSET(0xB19F790)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_INITPLAYERFROM_OFFSET UNITYSDK_OFFSET(0xB19EB60)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_INIT_OFFSET UNITYSDK_OFFSET(0xB19E8C0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO__CHECKISWIN_OFFSET UNITYSDK_OFFSET(0xB19F610)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB19E8B0)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarbleEliminationRoundInfo_TypeDefinitionIndex = 68940;
+	inline static constexpr unsigned int MarbleEliminationRoundInfo_TypeDefinitionIndex = 69752;
 
 	class MarbleEliminationRoundInfo : public ::System::Object
 	{
@@ -23,19 +23,19 @@ namespace RPG::Client::ActivityMarble
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityMarble::MarbleEliminationPlayerInfo*>* PlayerInfoList; // 0x10
 		::System::UInt32 Round; // 0x18
 
-		::System::Void _ctor(::System::UInt32 round)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO__CTOR_OFFSET))(this, round);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void Init(::Il2CppArray<::System::UInt32>* npcList, ::Il2CppArray<::System::UInt32>* winnerList)
+		::System::Void Init(::Il2CppArray<::System::UInt32>* a1, ::Il2CppArray<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_INIT_OFFSET))(this, npcList, winnerList);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_INIT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InitPlayerFrom(::RPG::Client::ActivityMarble::MarbleEliminationRoundInfo* lastRoundInfo)
+		::System::Void InitPlayerFrom(::RPG::Client::ActivityMarble::MarbleEliminationRoundInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityMarble::MarbleEliminationRoundInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_INITPLAYERFROM_OFFSET))(this, lastRoundInfo);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityMarble::MarbleEliminationRoundInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_INITPLAYERFROM_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityMarble::MarbleEliminationPlayerInfo*>* GetPlayerInfoList()
@@ -43,19 +43,19 @@ namespace RPG::Client::ActivityMarble
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityMarble::MarbleEliminationPlayerInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_GETPLAYERINFOLIST_OFFSET))(this);
 		}
 
-		::System::Int32 CompareTo(::RPG::Client::ActivityMarble::MarbleEliminationRoundInfo* other)
+		::System::Int32 CompareTo(::RPG::Client::ActivityMarble::MarbleEliminationRoundInfo* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ActivityMarble::MarbleEliminationRoundInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ActivityMarble::MarbleEliminationRoundInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_COMPARETO_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetPlayerIndex(::System::UInt32 playerID)
+		::System::Int32 GetPlayerIndex(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_GETPLAYERINDEX_OFFSET))(this, playerID);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO_GETPLAYERINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _CheckIsWin(::System::UInt32 playerID, ::Il2CppArray<::System::UInt32>* winnerList)
+		::System::Boolean _CheckIsWin(::System::UInt32 a1, ::Il2CppArray<::System::UInt32>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO__CHECKISWIN_OFFSET))(this, playerID, winnerList);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEELIMINATIONROUNDINFO__CHECKISWIN_OFFSET))(this, a1, a2);
 		}
 	};
 }

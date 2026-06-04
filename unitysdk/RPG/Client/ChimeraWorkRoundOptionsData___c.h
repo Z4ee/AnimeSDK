@@ -5,24 +5,24 @@
 namespace RPG::Client { class ChimeraWorkRoundOptionData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA08B330)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA08B370)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__GET_BANNEDARRANGEMENTS_B__9_0_OFFSET UNITYSDK_OFFSET(0xA08B380)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB6C98C0)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C9900)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__GET_BANNEDARRANGEMENTS_B__9_0_OFFSET UNITYSDK_OFFSET(0xB6C9910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex = 58524;
+	inline static constexpr unsigned int ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex = 59454;
 
 	class ChimeraWorkRoundOptionsData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChimeraWorkRoundOptionsData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChimeraWorkRoundOptionsData___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex)->GetStaticField(0x5C190);
+			return (::RPG::Client::ChimeraWorkRoundOptionsData___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex)->GetStaticField(0x652E0);
 		}
 		static ::System::Func_2<::RPG::Client::ChimeraWorkRoundOptionData*, ::Il2CppArray<::System::UInt32>*>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChimeraWorkRoundOptionData*, ::Il2CppArray<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex)->GetStaticField(0x5C198);
+			return (::System::Func_2<::RPG::Client::ChimeraWorkRoundOptionData*, ::Il2CppArray<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex)->GetStaticField(0x652E8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::UInt32>* _get_BannedArrangements_b__9_0(::RPG::Client::ChimeraWorkRoundOptionData* each)
+		::Il2CppArray<::System::UInt32>* _get_BannedArrangements_b__9_0(::RPG::Client::ChimeraWorkRoundOptionData* a1)
 		{
-			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID, ::RPG::Client::ChimeraWorkRoundOptionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__GET_BANNEDARRANGEMENTS_B__9_0_OFFSET))(this, each);
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID, ::RPG::Client::ChimeraWorkRoundOptionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__GET_BANNEDARRANGEMENTS_B__9_0_OFFSET))(this, a1);
 		}
 	};
 }

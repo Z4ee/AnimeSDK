@@ -13,42 +13,42 @@ namespace System::Runtime::Serialization::Formatters::Binary { class WriteObject
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryParser; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_GETBINARYTYPEINFO_OFFSET UNITYSDK_OFFSET(0x179F9100)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_GETPARSERBINARYTYPEINFO_OFFSET UNITYSDK_OFFSET(0x179F9990)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_READTYPEINFO_OFFSET UNITYSDK_OFFSET(0x179F8BE0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_TYPEFROMINFO_OFFSET UNITYSDK_OFFSET(0x179F9E10)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_WRITETYPEINFO_OFFSET UNITYSDK_OFFSET(0x179F8480)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_GETBINARYTYPEINFO_OFFSET UNITYSDK_OFFSET(0x187A8E80)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_GETPARSERBINARYTYPEINFO_OFFSET UNITYSDK_OFFSET(0x187A9710)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_READTYPEINFO_OFFSET UNITYSDK_OFFSET(0x187A8960)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_TYPEFROMINFO_OFFSET UNITYSDK_OFFSET(0x187A9BA0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_WRITETYPEINFO_OFFSET UNITYSDK_OFFSET(0x187A8240)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryConverter_TypeDefinitionIndex = 1135;
+	inline static constexpr unsigned int BinaryConverter_TypeDefinitionIndex = 1134;
 
 	class BinaryConverter : public ::System::Object
 	{
 	public:
-		static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetBinaryTypeInfo(::System::Type* type, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::System::String* typeName, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, ::System::Object*& typeInformation, ::System::Int32& assemId)
+		static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetBinaryTypeInfo(::System::Type* a1, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* a2, ::System::String* a3, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* a4, ::System::Object*& a5, ::System::Int32& a6)
 		{
-			return ((::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum(*)(::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, ::System::String*, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter*, ::System::Object*&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_GETBINARYTYPEINFO_OFFSET))(type, objectInfo, typeName, objectWriter, typeInformation, assemId);
+			return ((::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum(*)(::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, ::System::String*, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter*, ::System::Object*&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_GETBINARYTYPEINFO_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetParserBinaryTypeInfo(::System::Type* type, ::System::Object*& typeInformation)
+		static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetParserBinaryTypeInfo(::System::Type* a1, ::System::Object*& a2)
 		{
-			return ((::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum(*)(::System::Type*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_GETPARSERBINARYTYPEINFO_OFFSET))(type, typeInformation);
+			return ((::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum(*)(::System::Type*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_GETPARSERBINARYTYPEINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void WriteTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Object* typeInformation, ::System::Int32 assemId, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout)
+		static ::System::Void WriteTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum a1, ::System::Object* a2, ::System::Int32 a3, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* a4)
 		{
-			return ((::System::Void(*)(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::System::Object*, ::System::Int32, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_WRITETYPEINFO_OFFSET))(binaryTypeEnum, typeInformation, assemId, sout);
+			return ((::System::Void(*)(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::System::Object*, ::System::Int32, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_WRITETYPEINFO_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Object* ReadTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, ::System::Int32& assemId)
+		static ::System::Object* ReadTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum a1, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* a2, ::System::Int32& a3)
 		{
-			return ((::System::Object*(*)(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_READTYPEINFO_OFFSET))(binaryTypeEnum, input, assemId);
+			return ((::System::Object*(*)(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_READTYPEINFO_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void TypeFromInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Object* typeInformation, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& primitiveTypeEnum, ::System::String*& typeString, ::System::Type*& type, ::System::Boolean& isVariant)
+		static ::System::Void TypeFromInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum a1, ::System::Object* a2, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* a3, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* a4, ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& a5, ::System::String*& a6, ::System::Type*& a7, ::System::Boolean& a8)
 		{
-			return ((::System::Void(*)(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::System::Object*, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE&, ::System::String*&, ::System::Type*&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_TYPEFROMINFO_OFFSET))(binaryTypeEnum, typeInformation, objectReader, assemblyInfo, primitiveTypeEnum, typeString, type, isVariant);
+			return ((::System::Void(*)(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::System::Object*, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE&, ::System::String*&, ::System::Type*&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCONVERTER_TYPEFROMINFO_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 	};
 }

@@ -4,25 +4,25 @@
 #include "unitysdk/VLB/VolumetricDustParticles_Direction.h"
 #include "unitysdk/VLB/VolumetricDustParticles_ParticleType.h"
 
-class Class_3_1A5B091AD56E7FD6;
+class Class_3_3A397C8F3B8E8660;
 namespace UnityEngine { class ParticleSystem; }
 
-#define VLB_VOLUMETRICDUSTPARTICLES_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xB9AE7C0)
-#define VLB_VOLUMETRICDUSTPARTICLES_INSTANTIATEPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0xB9AE7E0)
-#define VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xB9AE7D0)
-#define VLB_VOLUMETRICDUSTPARTICLES__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9AE870)
-#define VLB_VOLUMETRICDUSTPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xB9AE830)
+#define VLB_VOLUMETRICDUSTPARTICLES_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xD0F63A0)
+#define VLB_VOLUMETRICDUSTPARTICLES_INSTANTIATEPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0xD0F63C0)
+#define VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xD0F63B0)
+#define VLB_VOLUMETRICDUSTPARTICLES__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0F6450)
+#define VLB_VOLUMETRICDUSTPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F6410)
 
 namespace VLB
 {
-	inline static constexpr unsigned int VolumetricDustParticles_TypeDefinitionIndex = 45624;
+	inline static constexpr unsigned int VolumetricDustParticles_TypeDefinitionIndex = 46207;
 
-	class VolumetricDustParticles : public ::RPG::Client::TAMonoPlugin_1<::Class_3_1A5B091AD56E7FD6*>
+	class VolumetricDustParticles : public ::RPG::Client::TAMonoPlugin_1<::Class_3_3A397C8F3B8E8660*>
 	{
 	public:
 		static ::System::Boolean* StaticGet_isFeatureSupported()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(VolumetricDustParticles_TypeDefinitionIndex)->GetStaticField(0x3290);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(VolumetricDustParticles_TypeDefinitionIndex)->GetStaticField(0x7B20);
 		}
 		::VLB::VolumetricDustParticles_ParticleType particleType; // 0x30
 		::UnityEngine::ParticleSystem* particlePrefab; // 0x38
@@ -51,9 +51,9 @@ namespace VLB
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + VLB_VOLUMETRICDUSTPARTICLES_GET_ISCULLED_OFFSET))(this);
 		}
 
-		::System::Void set_isCulled(::System::Boolean value)
+		::System::Void set_isCulled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET))(this, a1);
 		}
 
 		::System::Void InstantiateParticleSystem()

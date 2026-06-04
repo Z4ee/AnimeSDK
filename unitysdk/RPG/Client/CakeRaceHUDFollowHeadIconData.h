@@ -5,18 +5,18 @@
 namespace RPG::Client { class CakeRaceParticipantData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9F04BB0)
-#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_GET_FOLLOWGO_OFFSET UNITYSDK_OFFSET(0x9F04D00)
-#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_GET_NEEDDESTROY_OFFSET UNITYSDK_OFFSET(0x9F04D20)
-#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_GET_OWNERDATA_OFFSET UNITYSDK_OFFSET(0x9F04CE0)
-#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_FOLLOWGO_OFFSET UNITYSDK_OFFSET(0x9F04D10)
-#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_NEEDDESTROY_OFFSET UNITYSDK_OFFSET(0x9F04D30)
-#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_OWNERDATA_OFFSET UNITYSDK_OFFSET(0x9F04CF0)
-#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9F04C50)
+#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB4A0600)
+#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_GET_FOLLOWGO_OFFSET UNITYSDK_OFFSET(0xB4A06F0)
+#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_GET_NEEDDESTROY_OFFSET UNITYSDK_OFFSET(0xB4A0710)
+#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_GET_OWNERDATA_OFFSET UNITYSDK_OFFSET(0xB4A06D0)
+#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_FOLLOWGO_OFFSET UNITYSDK_OFFSET(0xB4A0700)
+#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_NEEDDESTROY_OFFSET UNITYSDK_OFFSET(0xB4A0720)
+#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_OWNERDATA_OFFSET UNITYSDK_OFFSET(0xB4A06E0)
+#define RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB4A06A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceHUDFollowHeadIconData_TypeDefinitionIndex = 58062;
+	inline static constexpr unsigned int CakeRaceHUDFollowHeadIconData_TypeDefinitionIndex = 58978;
 
 	class CakeRaceHUDFollowHeadIconData : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace RPG::Client
 		::UnityEngine::GameObject* _FollowGO_k__BackingField; // 0x18
 		::System::Boolean _NeedDestroy_k__BackingField; // 0x20
 
-		::System::Void _ctor(::System::UInt32 ownerID, ::UnityEngine::GameObject* followGO, ::System::Boolean needDestroy)
+		::System::Void _ctor(::System::UInt32 a1, ::UnityEngine::GameObject* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA__CTOR_OFFSET))(this, ownerID, followGO, needDestroy);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::RPG::Client::CakeRaceHUDFollowHeadIconData* Create(::System::UInt32 ownerID, ::UnityEngine::GameObject* followGO, ::System::Boolean needDestroy)
+		static ::RPG::Client::CakeRaceHUDFollowHeadIconData* Create(::System::UInt32 a1, ::UnityEngine::GameObject* a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::CakeRaceHUDFollowHeadIconData*(*)(::System::UInt32, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_CREATE_OFFSET))(ownerID, followGO, needDestroy);
+			return ((::RPG::Client::CakeRaceHUDFollowHeadIconData*(*)(::System::UInt32, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_CREATE_OFFSET))(a1, a2, a3);
 		}
 
 		::RPG::Client::CakeRaceParticipantData* get_OwnerData()
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::RPG::Client::CakeRaceParticipantData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_GET_OWNERDATA_OFFSET))(this);
 		}
 
-		::System::Void set_OwnerData(::RPG::Client::CakeRaceParticipantData* value)
+		::System::Void set_OwnerData(::RPG::Client::CakeRaceParticipantData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_OWNERDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_OWNERDATA_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::GameObject* get_FollowGO()
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_GET_FOLLOWGO_OFFSET))(this);
 		}
 
-		::System::Void set_FollowGO(::UnityEngine::GameObject* value)
+		::System::Void set_FollowGO(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_FOLLOWGO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_FOLLOWGO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_NeedDestroy()
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_GET_NEEDDESTROY_OFFSET))(this);
 		}
 
-		::System::Void set_NeedDestroy(::System::Boolean value)
+		::System::Void set_NeedDestroy(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_NEEDDESTROY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEHUDFOLLOWHEADICONDATA_SET_NEEDDESTROY_OFFSET))(this, a1);
 		}
 	};
 }

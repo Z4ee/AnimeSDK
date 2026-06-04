@@ -5,13 +5,13 @@
 namespace RPG::Client { class ElfGame; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA236F40)
-#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS4_0__PREPAREEXITELFUI_B__0_OFFSET UNITYSDK_OFFSET(0xA23CAD0)
-#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS4_0__PREPAREEXITELFUI_B__1_OFFSET UNITYSDK_OFFSET(0xA23CAF0)
+#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB8BBA10)
+#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS4_0__PREPAREEXITELFUI_B__0_OFFSET UNITYSDK_OFFSET(0xB8C1BE0)
+#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS4_0__PREPAREEXITELFUI_B__1_OFFSET UNITYSDK_OFFSET(0xB8C1C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfGame___c__DisplayClass4_0_TypeDefinitionIndex = 58690;
+	inline static constexpr unsigned int ElfGame___c__DisplayClass4_0_TypeDefinitionIndex = 59620;
 
 	class ElfGame___c__DisplayClass4_0 : public ::System::Object
 	{

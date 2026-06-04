@@ -5,12 +5,12 @@
 namespace RPG::Client { class PlanetFesActiveBuff; }
 namespace RPG::Client { class PlanetFesAvatarData; }
 
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS153_0__CALCINCOMEAFTERSWITCHAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0xACE2F00)
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS153_0__CTOR_OFFSET UNITYSDK_OFFSET(0xACD23A0)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS153_0__CALCINCOMEAFTERSWITCHAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0xC4394C0)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS153_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC427F60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass153_0_TypeDefinitionIndex = 61405;
+	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass153_0_TypeDefinitionIndex = 62329;
 
 	class PlanetFesModule___c__DisplayClass153_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS153_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _CalcIncomeAfterSwitchAvatar_b__0(::RPG::Client::PlanetFesActiveBuff* x)
+		::System::Boolean _CalcIncomeAfterSwitchAvatar_b__0(::RPG::Client::PlanetFesActiveBuff* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesActiveBuff*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS153_0__CALCINCOMEAFTERSWITCHAVATAR_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesActiveBuff*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS153_0__CALCINCOMEAFTERSWITCHAVATAR_B__0_OFFSET))(this, a1);
 		}
 	};
 }

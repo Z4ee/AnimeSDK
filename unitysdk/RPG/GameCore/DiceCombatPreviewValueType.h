@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatPreviewValueType_TypeDefinitionIndex = 15302;
+	inline static constexpr unsigned int DiceCombatPreviewValueType_TypeDefinitionIndex = 15361;
 
 	enum class DiceCombatPreviewValueType : ::System::Int32
 	{

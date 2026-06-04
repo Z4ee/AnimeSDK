@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelPedestrianLineUpSourceInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANLINEUPPOINTINFO_METHOD_2_04110F5A0BAD8AEE_OFFSET UNITYSDK_OFFSET(0x18A52E40)
-#define RPG_GAMECORE_LEVELPEDESTRIANLINEUPPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A53130)
+#define RPG_GAMECORE_LEVELPEDESTRIANLINEUPPOINTINFO_METHOD_2_05BCE191F0D070DA_OFFSET UNITYSDK_OFFSET(0x19881B80)
+#define RPG_GAMECORE_LEVELPEDESTRIANLINEUPPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19881E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianLineUpPointInfo_TypeDefinitionIndex = 16402;
+	inline static constexpr unsigned int LevelPedestrianLineUpPointInfo_TypeDefinitionIndex = 16436;
 
 	class LevelPedestrianLineUpPointInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANLINEUPPOINTINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_04110F5A0BAD8AEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianLineUpPointInfo*& a2)
+		static ::System::Void Method_2_05BCE191F0D070DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianLineUpPointInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianLineUpPointInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANLINEUPPOINTINFO_METHOD_2_04110F5A0BAD8AEE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianLineUpPointInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANLINEUPPOINTINFO_METHOD_2_05BCE191F0D070DA_OFFSET))(a1, a2);
 		}
 	};
 }

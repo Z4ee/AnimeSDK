@@ -4,21 +4,21 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E69640)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_GET_TARGETUSERIDS_OFFSET UNITYSDK_OFFSET(0x8E69660)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E69650)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_SET_TARGETUSERIDS_OFFSET UNITYSDK_OFFSET(0x8E69670)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E69680)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2ACBE0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_GET_TARGETUSERIDS_OFFSET UNITYSDK_OFFSET(0xA2ACC00)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2ACBF0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_SET_TARGETUSERIDS_OFFSET UNITYSDK_OFFSET(0xA2ACC10)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2ACC20)
 
 namespace Epic::OnlineServices::CustomInvites
 {
-	inline static constexpr unsigned int SendCustomInviteOptions_TypeDefinitionIndex = 42251;
+	inline static constexpr unsigned int SendCustomInviteOptions_TypeDefinitionIndex = 43054;
 
 	class SendCustomInviteOptions : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Epic::OnlineServices::ProductUserId*>* _TargetUserIds_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
+		::Il2CppArray<::Epic::OnlineServices::ProductUserId*>* _TargetUserIds_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::CustomInvites
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::Epic::OnlineServices::ProductUserId*>* get_TargetUserIds()
@@ -40,9 +40,9 @@ namespace Epic::OnlineServices::CustomInvites
 			return ((::Il2CppArray<::Epic::OnlineServices::ProductUserId*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_GET_TARGETUSERIDS_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserIds(::Il2CppArray<::Epic::OnlineServices::ProductUserId*>* value)
+		::System::Void set_TargetUserIds(::Il2CppArray<::Epic::OnlineServices::ProductUserId*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::ProductUserId*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_SET_TARGETUSERIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::ProductUserId*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_SENDCUSTOMINVITEOPTIONS_SET_TARGETUSERIDS_OFFSET))(this, a1);
 		}
 	};
 }

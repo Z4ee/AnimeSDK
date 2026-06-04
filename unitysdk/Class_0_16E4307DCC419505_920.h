@@ -1,7 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Rect.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_920_TypeDefinitionIndex = 64759;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_920_TypeDefinitionIndex = 63919;
 
 class Class_0_16E4307DCC419505_920
 {

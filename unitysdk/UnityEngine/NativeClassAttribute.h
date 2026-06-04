@@ -4,39 +4,39 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_NATIVECLASSATTRIBUTE_SET_DECLARATION_OFFSET UNITYSDK_OFFSET(0x1A4F3970)
-#define UNITYENGINE_NATIVECLASSATTRIBUTE_SET_QUALIFIEDNATIVENAME_OFFSET UNITYSDK_OFFSET(0x1A4F3960)
-#define UNITYENGINE_NATIVECLASSATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A4F39B0)
-#define UNITYENGINE_NATIVECLASSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F3980)
+#define UNITYENGINE_NATIVECLASSATTRIBUTE_SET_DECLARATION_OFFSET UNITYSDK_OFFSET(0x1B3407F0)
+#define UNITYENGINE_NATIVECLASSATTRIBUTE_SET_QUALIFIEDNATIVENAME_OFFSET UNITYSDK_OFFSET(0x1B3407E0)
+#define UNITYENGINE_NATIVECLASSATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B340830)
+#define UNITYENGINE_NATIVECLASSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B340800)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NativeClassAttribute_TypeDefinitionIndex = 3697;
+	inline static constexpr unsigned int NativeClassAttribute_TypeDefinitionIndex = 3704;
 
 	class NativeClassAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* _QualifiedNativeName_k__BackingField; // 0x10
-		::System::String* _Declaration_k__BackingField; // 0x18
+		::System::String* _Declaration_k__BackingField; // 0x10
+		::System::String* _QualifiedNativeName_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::String* qualifiedCppName)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVECLASSATTRIBUTE__CTOR_OFFSET))(this, qualifiedCppName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVECLASSATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::String* qualifiedCppName, ::System::String* declaration)
+		::System::Void _ctor_1(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVECLASSATTRIBUTE__CTOR_1_OFFSET))(this, qualifiedCppName, declaration);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVECLASSATTRIBUTE__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void set_QualifiedNativeName(::System::String* value)
+		::System::Void set_QualifiedNativeName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVECLASSATTRIBUTE_SET_QUALIFIEDNATIVENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVECLASSATTRIBUTE_SET_QUALIFIEDNATIVENAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Declaration(::System::String* value)
+		::System::Void set_Declaration(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVECLASSATTRIBUTE_SET_DECLARATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NATIVECLASSATTRIBUTE_SET_DECLARATION_OFFSET))(this, a1);
 		}
 	};
 }

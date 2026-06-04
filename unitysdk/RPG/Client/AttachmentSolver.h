@@ -7,15 +7,15 @@ namespace RPG::Client { class AttachPointMapping; }
 namespace RPG::Client { class AttachmentBone; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_10E3199645FD9D0C_OFFSET UNITYSDK_OFFSET(0x9D48FB0)
-#define RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_2566AD459572DFC3_OFFSET UNITYSDK_OFFSET(0x9D49210)
-#define RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_3F8DC0E62FBF27F8_OFFSET UNITYSDK_OFFSET(0x9D495A0)
-#define RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9D49AC0)
-#define RPG_CLIENT_ATTACHMENTSOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x9D49B00)
+#define RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_2CBE0B79DD36047E_OFFSET UNITYSDK_OFFSET(0xB3393C0)
+#define RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_609FA3D38FA252B6_OFFSET UNITYSDK_OFFSET(0xB3397F0)
+#define RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB339C80)
+#define RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_CAFFF01C1C13C35B_OFFSET UNITYSDK_OFFSET(0xB339140)
+#define RPG_CLIENT_ATTACHMENTSOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0xB339CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AttachmentSolver_TypeDefinitionIndex = 63106;
+	inline static constexpr unsigned int AttachmentSolver_TypeDefinitionIndex = 64023;
 
 	class AttachmentSolver : public ::System::Object
 	{
@@ -28,19 +28,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHMENTSOLVER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_10E3199645FD9D0C(::RPG::Client::AttachPointMapping* a1)
+		::System::Void Method_1_CAFFF01C1C13C35B(::RPG::Client::AttachPointMapping* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AttachPointMapping*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_10E3199645FD9D0C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AttachPointMapping*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_CAFFF01C1C13C35B_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_2566AD459572DFC3()
+		::System::Void Method_1_2CBE0B79DD36047E()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_2566AD459572DFC3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_2CBE0B79DD36047E_OFFSET))(this);
 		}
 
-		::System::Void Method_1_3F8DC0E62FBF27F8(::System::Boolean a1)
+		::System::Void Method_1_609FA3D38FA252B6(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_3F8DC0E62FBF27F8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHMENTSOLVER_METHOD_1_609FA3D38FA252B6_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_1_CA373AA1C7054598()

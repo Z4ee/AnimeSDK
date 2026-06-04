@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_ECOM_TRANSACTIONGETENTITLEMENTSCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E84730)
+#define EPIC_ONLINESERVICES_ECOM_TRANSACTIONGETENTITLEMENTSCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2C5630)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int TransactionGetEntitlementsCountOptions_TypeDefinitionIndex = 42230;
+	inline static constexpr unsigned int TransactionGetEntitlementsCountOptions_TypeDefinitionIndex = 43033;
 
 	class TransactionGetEntitlementsCountOptions : public ::System::Object
 	{

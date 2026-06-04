@@ -9,30 +9,30 @@ namespace RootMotion::FinalIK { class IKSolver_TipPoint; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_FIXTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x8E473C0)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETBENDDIRECTION_OFFSET UNITYSDK_OFFSET(0x8E495B0)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETDIRECTIONTOBENDPOINT_OFFSET UNITYSDK_OFFSET(0x8E48170)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETPOINTS_OFFSET UNITYSDK_OFFSET(0x8E46F60)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETPOINT_OFFSET UNITYSDK_OFFSET(0x8E47100)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETTIPPOINT_OFFSET UNITYSDK_OFFSET(0x8E46F50)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_INITIATEBONES_OFFSET UNITYSDK_OFFSET(0x8E485B0)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ISDIRECTHIERARCHY_OFFSET UNITYSDK_OFFSET(0x8E48720)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ISVALID_OFFSET UNITYSDK_OFFSET(0x8E47410)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ONINITIATEVIRTUAL_OFFSET UNITYSDK_OFFSET(0x8E49A70)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ONINITIATE_OFFSET UNITYSDK_OFFSET(0x8E48470)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ONPOSTSOLVEVIRTUAL_OFFSET UNITYSDK_OFFSET(0x8E49A90)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ONUPDATEVIRTUAL_OFFSET UNITYSDK_OFFSET(0x8E49A80)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x8E48800)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SETBENDGOALPOSITION_OFFSET UNITYSDK_OFFSET(0x8E46B10)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SETBENDPLANETOCURRENT_OFFSET UNITYSDK_OFFSET(0x8E46D20)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SETCHAIN_OFFSET UNITYSDK_OFFSET(0x8E479E0)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SOLVE_OFFSET UNITYSDK_OFFSET(0x8E47AB0)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_STOREDEFAULTLOCALSTATE_OFFSET UNITYSDK_OFFSET(0x8E47200)
-#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC__CTOR_OFFSET UNITYSDK_OFFSET(0x8E461F0)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_FIXTRANSFORMS_OFFSET UNITYSDK_OFFSET(0xA26CFC0)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETBENDDIRECTION_OFFSET UNITYSDK_OFFSET(0xA274980)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETDIRECTIONTOBENDPOINT_OFFSET UNITYSDK_OFFSET(0xA274430)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETPOINTS_OFFSET UNITYSDK_OFFSET(0xA25C700)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETPOINT_OFFSET UNITYSDK_OFFSET(0xA273AD0)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETTIPPOINT_OFFSET UNITYSDK_OFFSET(0xA273AC0)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_INITIATEBONES_OFFSET UNITYSDK_OFFSET(0xA274730)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ISDIRECTHIERARCHY_OFFSET UNITYSDK_OFFSET(0xA2748A0)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ISVALID_OFFSET UNITYSDK_OFFSET(0xA26D080)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ONINITIATEVIRTUAL_OFFSET UNITYSDK_OFFSET(0xA274E40)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ONINITIATE_OFFSET UNITYSDK_OFFSET(0xA26D550)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ONPOSTSOLVEVIRTUAL_OFFSET UNITYSDK_OFFSET(0xA274E60)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ONUPDATEVIRTUAL_OFFSET UNITYSDK_OFFSET(0xA274E50)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xA26D850)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SETBENDGOALPOSITION_OFFSET UNITYSDK_OFFSET(0xA273680)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SETBENDPLANETOCURRENT_OFFSET UNITYSDK_OFFSET(0xA273890)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SETCHAIN_OFFSET UNITYSDK_OFFSET(0xA273C80)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SOLVE_OFFSET UNITYSDK_OFFSET(0xA273D70)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_STOREDEFAULTLOCALSTATE_OFFSET UNITYSDK_OFFSET(0xA26D690)
+#define ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC__CTOR_OFFSET UNITYSDK_OFFSET(0xA2732B0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolverTrigonometric_TypeDefinitionIndex = 41038;
+	inline static constexpr unsigned int IKSolverTrigonometric_TypeDefinitionIndex = 41841;
 
 	class IKSolverTrigonometric : public ::RootMotion::FinalIK::IKSolver
 	{
@@ -51,9 +51,9 @@ namespace RootMotion::FinalIK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetBendGoalPosition(::UnityEngine::Vector3 goalPosition, ::System::Single weight)
+		::System::Void SetBendGoalPosition(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SETBENDGOALPOSITION_OFFSET))(this, goalPosition, weight);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SETBENDGOALPOSITION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetBendPlaneToCurrent()
@@ -71,9 +71,9 @@ namespace RootMotion::FinalIK
 			return ((::Il2CppArray<::RootMotion::FinalIK::IKSolver_Point*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETPOINTS_OFFSET))(this);
 		}
 
-		::RootMotion::FinalIK::IKSolver_Point* GetPoint(::UnityEngine::Transform* transform)
+		::RootMotion::FinalIK::IKSolver_Point* GetPoint(::UnityEngine::Transform* a1)
 		{
-			return ((::RootMotion::FinalIK::IKSolver_Point*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETPOINT_OFFSET))(this, transform);
+			return ((::RootMotion::FinalIK::IKSolver_Point*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETPOINT_OFFSET))(this, a1);
 		}
 
 		::System::Void StoreDefaultLocalState()
@@ -86,24 +86,24 @@ namespace RootMotion::FinalIK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_FIXTRANSFORMS_OFFSET))(this);
 		}
 
-		::System::Boolean IsValid(::System::String*& message)
+		::System::Boolean IsValid(::System::String*& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ISVALID_OFFSET))(this, message);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ISVALID_OFFSET))(this, a1);
 		}
 
-		::System::Boolean SetChain(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* root)
+		::System::Boolean SetChain(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SETCHAIN_OFFSET))(this, bone1, bone2, bone3, root);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SETCHAIN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Void Solve(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Vector3 bendNormal, ::System::Single weight)
+		static ::System::Void Solve(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::System::Single a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SOLVE_OFFSET))(bone1, bone2, bone3, targetPosition, bendNormal, weight);
+			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_SOLVE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::UnityEngine::Vector3 GetDirectionToBendPoint(::UnityEngine::Vector3 direction, ::System::Single directionMag, ::UnityEngine::Vector3 bendDirection, ::System::Single sqrMag1, ::System::Single sqrMag2)
+		static ::UnityEngine::Vector3 GetDirectionToBendPoint(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETDIRECTIONTOBENDPOINT_OFFSET))(direction, directionMag, bendDirection, sqrMag1, sqrMag2);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETDIRECTIONTOBENDPOINT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::Void OnInitiate()
@@ -141,9 +141,9 @@ namespace RootMotion::FinalIK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_ONPOSTSOLVEVIRTUAL_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 GetBendDirection(::UnityEngine::Vector3 IKPosition, ::UnityEngine::Vector3 bendNormal)
+		::UnityEngine::Vector3 GetBendDirection(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETBENDDIRECTION_OFFSET))(this, IKPosition, bendNormal);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERTRIGONOMETRIC_GETBENDDIRECTION_OFFSET))(this, a1, a2);
 		}
 	};
 }

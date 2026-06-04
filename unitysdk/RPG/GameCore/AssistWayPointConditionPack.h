@@ -5,13 +5,15 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AssistWayPointCondition; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ASSISTWAYPOINTCONDITIONPACK_METHOD_2_45EFD0503A2B61F2_OFFSET UNITYSDK_OFFSET(0x186AC160)
-#define RPG_GAMECORE_ASSISTWAYPOINTCONDITIONPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x186AC290)
+#define RPG_GAMECORE_ASSISTWAYPOINTCONDITIONPACK_METHOD_2_4BEA3B7480E4DB01_OFFSET UNITYSDK_OFFSET(0x19481EA0)
+#define RPG_GAMECORE_ASSISTWAYPOINTCONDITIONPACK_METHOD_2_84E23AF723D42FE0_OFFSET UNITYSDK_OFFSET(0x19481D60)
+#define RPG_GAMECORE_ASSISTWAYPOINTCONDITIONPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19481E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPointConditionPack_TypeDefinitionIndex = 18024;
+	inline static constexpr unsigned int AssistWayPointConditionPack_TypeDefinitionIndex = 18051;
 
 	class AssistWayPointConditionPack : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTCONDITIONPACK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_45EFD0503A2B61F2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AssistWayPointConditionPack*& a2)
+		static ::System::Void Method_2_84E23AF723D42FE0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AssistWayPointConditionPack*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AssistWayPointConditionPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTCONDITIONPACK_METHOD_2_45EFD0503A2B61F2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AssistWayPointConditionPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTCONDITIONPACK_METHOD_2_84E23AF723D42FE0_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_4BEA3B7480E4DB01(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointConditionPack*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointConditionPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTCONDITIONPACK_METHOD_2_4BEA3B7480E4DB01_OFFSET))(a1, a2);
 		}
 	};
 }

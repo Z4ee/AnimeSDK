@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8BDAC70)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8BDACA0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8BD9DC0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8BDAC50)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA0ECB20)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA0ECB50)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA0EC0D0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA0ECA30)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionSearchOnFindCallback_TypeDefinitionIndex = 41369;
+	inline static constexpr unsigned int SessionSearchOnFindCallback_TypeDefinitionIndex = 42172;
 
 	class SessionSearchOnFindCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::Sessions::SessionSearchFindCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::Sessions::SessionSearchFindCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionSearchFindCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionSearchFindCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Sessions::SessionSearchFindCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Sessions::SessionSearchFindCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionSearchFindCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionSearchFindCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHONFINDCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

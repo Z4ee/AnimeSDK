@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class OneofDescriptorProto; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17119320)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17119360)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C___CCTOR_B__37_0_OFFSET UNITYSDK_OFFSET(0x17119370)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E79220)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17E79260)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C___CCTOR_B__37_0_OFFSET UNITYSDK_OFFSET(0x17E79270)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int OneofDescriptorProto___c_TypeDefinitionIndex = 6273;
+	inline static constexpr unsigned int OneofDescriptorProto___c_TypeDefinitionIndex = 5475;
 
 	class OneofDescriptorProto___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::OneofDescriptorProto___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::OneofDescriptorProto___c**)Il2CppClass::FromTypeDefinitionIndex(OneofDescriptorProto___c_TypeDefinitionIndex)->GetStaticField(0x18D0);
+			return (::Google::Protobuf::Reflection::OneofDescriptorProto___c**)Il2CppClass::FromTypeDefinitionIndex(OneofDescriptorProto___c_TypeDefinitionIndex)->GetStaticField(0x42070);
 		}
 
 		static ::System::Void _cctor()

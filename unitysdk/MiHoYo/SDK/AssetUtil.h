@@ -8,31 +8,31 @@ namespace UnityEngine { class AssetBundle; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define MIHOYO_SDK_ASSETUTIL_ASBUNLOAD_OFFSET UNITYSDK_OFFSET(0x8CE2F70)
-#define MIHOYO_SDK_ASSETUTIL_CALLMETHODWITHPARAMETERS_OFFSET UNITYSDK_OFFSET(0x8CE3350)
-#define MIHOYO_SDK_ASSETUTIL_CREATEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x8CE2B60)
-#define MIHOYO_SDK_ASSETUTIL_DESTROYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x8CE2CC0)
-#define MIHOYO_SDK_ASSETUTIL_GETASSETASBFULLPATH_OFFSET UNITYSDK_OFFSET(0x8CE2F30)
-#define MIHOYO_SDK_ASSETUTIL_HASMETHODWITHPARAMETERS_OFFSET UNITYSDK_OFFSET(0x8CE3070)
-#define MIHOYO_SDK_ASSETUTIL_LOADFROMASB_OFFSET UNITYSDK_OFFSET(0x8CE2CE0)
-#define MIHOYO_SDK_ASSETUTIL_LOADJSONFILE_OFFSET UNITYSDK_OFFSET(0x8CE2FD0)
-#define MIHOYO_SDK_ASSETUTIL_LOADRESOURCE_OFFSET UNITYSDK_OFFSET(0x8CE2C20)
-#define MIHOYO_SDK_ASSETUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x8CE3650)
+#define MIHOYO_SDK_ASSETUTIL_ASBUNLOAD_OFFSET UNITYSDK_OFFSET(0xA13DA60)
+#define MIHOYO_SDK_ASSETUTIL_CALLMETHODWITHPARAMETERS_OFFSET UNITYSDK_OFFSET(0xA13DDE0)
+#define MIHOYO_SDK_ASSETUTIL_CREATEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xA13D660)
+#define MIHOYO_SDK_ASSETUTIL_DESTROYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xA13D7B0)
+#define MIHOYO_SDK_ASSETUTIL_GETASSETASBFULLPATH_OFFSET UNITYSDK_OFFSET(0xA13DA20)
+#define MIHOYO_SDK_ASSETUTIL_HASMETHODWITHPARAMETERS_OFFSET UNITYSDK_OFFSET(0xA13DB60)
+#define MIHOYO_SDK_ASSETUTIL_LOADFROMASB_OFFSET UNITYSDK_OFFSET(0xA13D7D0)
+#define MIHOYO_SDK_ASSETUTIL_LOADJSONFILE_OFFSET UNITYSDK_OFFSET(0xA13DAC0)
+#define MIHOYO_SDK_ASSETUTIL_LOADRESOURCE_OFFSET UNITYSDK_OFFSET(0xA13D710)
+#define MIHOYO_SDK_ASSETUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0xA13E070)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AssetUtil_TypeDefinitionIndex = 43077;
+	inline static constexpr unsigned int AssetUtil_TypeDefinitionIndex = 43880;
 
 	class AssetUtil : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_MiHoYoSDKAsbPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetUtil_TypeDefinitionIndex)->GetStaticField(0x46200);
-		}
 		static ::UnityEngine::AssetBundle** StaticGet__assetBundle()
 		{
-			return (::UnityEngine::AssetBundle**)Il2CppClass::FromTypeDefinitionIndex(AssetUtil_TypeDefinitionIndex)->GetStaticField(0x46208);
+			return (::UnityEngine::AssetBundle**)Il2CppClass::FromTypeDefinitionIndex(AssetUtil_TypeDefinitionIndex)->GetStaticField(0xA890);
+		}
+		static ::System::String** StaticGet_MiHoYoSDKAsbPath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AssetUtil_TypeDefinitionIndex)->GetStaticField(0xA898);
 		}
 		// static const ::System::String* ASB_ROOT_PATH; // 0x0
 
@@ -41,29 +41,29 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL__CCTOR_OFFSET))();
 		}
 
-		static ::UnityEngine::GameObject* CreateGameObject(::System::String* path, ::System::String* name)
+		static ::UnityEngine::GameObject* CreateGameObject(::System::String* a1, ::System::String* a2)
 		{
-			return ((::UnityEngine::GameObject*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_CREATEGAMEOBJECT_OFFSET))(path, name);
+			return ((::UnityEngine::GameObject*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_CREATEGAMEOBJECT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void DestroyGameObject(::UnityEngine::GameObject* go)
+		static ::System::Void DestroyGameObject(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_DESTROYGAMEOBJECT_OFFSET))(go);
+			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_DESTROYGAMEOBJECT_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Object* LoadResource(::System::String* path, ::System::Type* type)
+		static ::UnityEngine::Object* LoadResource(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_LOADRESOURCE_OFFSET))(path, type);
+			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_LOADRESOURCE_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GetAssetAsbFullPath(::System::String* path, ::System::Type* type)
+		static ::System::String* GetAssetAsbFullPath(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_GETASSETASBFULLPATH_OFFSET))(path, type);
+			return ((::System::String*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_GETASSETASBFULLPATH_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Object* LoadFromAsb(::System::String* path, ::System::Type* type)
+		static ::UnityEngine::Object* LoadFromAsb(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_LOADFROMASB_OFFSET))(path, type);
+			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_LOADFROMASB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void AsbUnload()
@@ -71,19 +71,19 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_ASBUNLOAD_OFFSET))();
 		}
 
-		static ::System::String* LoadJsonFile(::System::String* fileName)
+		static ::System::String* LoadJsonFile(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_LOADJSONFILE_OFFSET))(fileName);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_LOADJSONFILE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean HasMethodWithParameters(::System::Type* type, ::System::String* methodName, ::System::Int32 parameterCount)
+		static ::System::Boolean HasMethodWithParameters(::System::Type* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::System::Type*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_HASMETHODWITHPARAMETERS_OFFSET))(type, methodName, parameterCount);
+			return ((::System::Boolean(*)(::System::Type*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_HASMETHODWITHPARAMETERS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Object* CallMethodWithParameters(::System::Type* type, ::System::String* methodName, ::Il2CppArray<::System::Object*>* parameters)
+		static ::System::Object* CallMethodWithParameters(::System::Type* a1, ::System::String* a2, ::Il2CppArray<::System::Object*>* a3)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_CALLMETHODWITHPARAMETERS_OFFSET))(type, methodName, parameters);
+			return ((::System::Object*(*)(::System::Type*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ASSETUTIL_CALLMETHODWITHPARAMETERS_OFFSET))(a1, a2, a3);
 		}
 	};
 }

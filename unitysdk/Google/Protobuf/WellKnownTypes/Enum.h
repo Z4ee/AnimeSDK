@@ -15,52 +15,52 @@ namespace Google::Protobuf::WellKnownTypes { class Option; }
 namespace Google::Protobuf::WellKnownTypes { class SourceContext; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1712A830)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_CLONE_OFFSET UNITYSDK_OFFSET(0x17129FC0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1712A160)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_OFFSET UNITYSDK_OFFSET(0x1712A100)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1712A2C0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x17129AE0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1712A010)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x17129A80)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_SOURCECONTEXT_OFFSET UNITYSDK_OFFSET(0x1712A0C0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_SYNTAX_OFFSET UNITYSDK_OFFSET(0x1712A0E0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1712AEC0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1712AB00)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x17129C60)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1712A020)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SOURCECONTEXT_OFFSET UNITYSDK_OFFSET(0x1712A0D0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SYNTAX_OFFSET UNITYSDK_OFFSET(0x1712A0F0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1712A650)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1712A6B0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1712B0F0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17129D40)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x17129CC0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x17E8A430)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_CLONE_OFFSET UNITYSDK_OFFSET(0x17E89C20)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x17E89D70)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_OFFSET UNITYSDK_OFFSET(0x17E89D10)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17E89ED0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x17E89740)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17E89C70)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x17E896E0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_SOURCECONTEXT_OFFSET UNITYSDK_OFFSET(0x17E89CD0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_SYNTAX_OFFSET UNITYSDK_OFFSET(0x17E89CF0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x17E8AA20)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x17E8A700)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x17E898C0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_NAME_OFFSET UNITYSDK_OFFSET(0x17E89C80)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SOURCECONTEXT_OFFSET UNITYSDK_OFFSET(0x17E89CE0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SYNTAX_OFFSET UNITYSDK_OFFSET(0x17E89D00)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17E8A250)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_WRITETO_OFFSET UNITYSDK_OFFSET(0x17E8A2B0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E8ABE0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17E899A0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x17E89920)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Enum_TypeDefinitionIndex = 6247;
+	inline static constexpr unsigned int Enum_TypeDefinitionIndex = 5449;
 
 	class Enum : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Enum*>** StaticGet__parser()
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::EnumValue*>** StaticGet__repeated_enumvalue_codec()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Enum*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x4C50);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::EnumValue*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x42A40);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>** StaticGet__repeated_options_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x4C58);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x42A48);
 		}
-		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::EnumValue*>** StaticGet__repeated_enumvalue_codec()
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Enum*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::EnumValue*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x4C60);
+			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Enum*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x42A50);
 		}
-		::System::String* name_; // 0x10
-		::Google::Protobuf::WellKnownTypes::SourceContext* sourceContext_; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::WellKnownTypes::EnumValue*>* enumvalue_; // 0x20
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x28
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::WellKnownTypes::Option*>* options_; // 0x30
+		::Google::Protobuf::WellKnownTypes::SourceContext* sourceContext_; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::WellKnownTypes::Option*>* options_; // 0x18
+		::System::String* name_; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::WellKnownTypes::EnumValue*>* enumvalue_; // 0x28
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x30
 		::Google::Protobuf::WellKnownTypes::Syntax syntax_; // 0x38
 
 		::System::Void _ctor()
@@ -68,9 +68,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Google::Protobuf::WellKnownTypes::Enum* other)
+		::System::Void _ctor_1(::Google::Protobuf::WellKnownTypes::Enum* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Enum*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Enum*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -103,9 +103,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::Google::Protobuf::WellKnownTypes::SourceContext* get_SourceContext()
@@ -113,9 +113,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::Google::Protobuf::WellKnownTypes::SourceContext*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_SOURCECONTEXT_OFFSET))(this);
 		}
 
-		::System::Void set_SourceContext(::Google::Protobuf::WellKnownTypes::SourceContext* value)
+		::System::Void set_SourceContext(::Google::Protobuf::WellKnownTypes::SourceContext* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::SourceContext*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SOURCECONTEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::SourceContext*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SOURCECONTEXT_OFFSET))(this, a1);
 		}
 
 		::Google::Protobuf::WellKnownTypes::Syntax get_Syntax()
@@ -123,19 +123,19 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::Google::Protobuf::WellKnownTypes::Syntax(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_SYNTAX_OFFSET))(this);
 		}
 
-		::System::Void set_Syntax(::Google::Protobuf::WellKnownTypes::Syntax value)
+		::System::Void set_Syntax(::Google::Protobuf::WellKnownTypes::Syntax a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Syntax))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SYNTAX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Syntax))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SYNTAX_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::Google::Protobuf::WellKnownTypes::Enum* other)
+		::System::Boolean Equals_1(::Google::Protobuf::WellKnownTypes::Enum* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Enum*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Enum*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -148,9 +148,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* output)
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_WRITETO_OFFSET))(this, output);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_WRITETO_OFFSET))(this, a1);
 		}
 
 		::System::Int32 CalculateSize()
@@ -158,14 +158,14 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_CALCULATESIZE_OFFSET))(this);
 		}
 
-		::System::Void MergeFrom(::Google::Protobuf::WellKnownTypes::Enum* other)
+		::System::Void MergeFrom(::Google::Protobuf::WellKnownTypes::Enum* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Enum*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Enum*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_OFFSET))(this, a1);
 		}
 
-		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* input)
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_1_OFFSET))(this, input);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_1_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,24 +4,24 @@
 #include "unitysdk/UnityEngine/ProBuilder/Clipping_OutCode.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define UNITYENGINE_PROBUILDER_CLIPPING_COMPUTEOUTCODE_OFFSET UNITYSDK_OFFSET(0x1A1FB920)
-#define UNITYENGINE_PROBUILDER_CLIPPING_RECTCONTAINSLINESEGMENT_OFFSET UNITYSDK_OFFSET(0x1A1FB960)
+#define UNITYENGINE_PROBUILDER_CLIPPING_COMPUTEOUTCODE_OFFSET UNITYSDK_OFFSET(0x1B0602F0)
+#define UNITYENGINE_PROBUILDER_CLIPPING_RECTCONTAINSLINESEGMENT_OFFSET UNITYSDK_OFFSET(0x1B060330)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Clipping_TypeDefinitionIndex = 39898;
+	inline static constexpr unsigned int Clipping_TypeDefinitionIndex = 40725;
 
 	class Clipping : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ProBuilder::Clipping_OutCode ComputeOutCode(::UnityEngine::Rect rect, ::System::Single x, ::System::Single y)
+		static ::UnityEngine::ProBuilder::Clipping_OutCode ComputeOutCode(::UnityEngine::Rect a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::ProBuilder::Clipping_OutCode(*)(::UnityEngine::Rect, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_CLIPPING_COMPUTEOUTCODE_OFFSET))(rect, x, y);
+			return ((::UnityEngine::ProBuilder::Clipping_OutCode(*)(::UnityEngine::Rect, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_CLIPPING_COMPUTEOUTCODE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean RectContainsLineSegment(::UnityEngine::Rect rect, ::System::Single x0, ::System::Single y0, ::System::Single x1, ::System::Single y1)
+		static ::System::Boolean RectContainsLineSegment(::UnityEngine::Rect a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rect, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_CLIPPING_RECTCONTAINSLINESEGMENT_OFFSET))(rect, x0, y0, x1, y1);
+			return ((::System::Boolean(*)(::UnityEngine::Rect, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_CLIPPING_RECTCONTAINSLINESEGMENT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

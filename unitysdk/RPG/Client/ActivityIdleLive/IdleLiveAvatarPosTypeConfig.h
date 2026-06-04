@@ -6,34 +6,34 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0x9B2D050)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x9B2EC60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9B2EC20)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_GET_POSTYPE_OFFSET UNITYSDK_OFFSET(0x9B2EC40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x9B2EC70)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_NAME_OFFSET UNITYSDK_OFFSET(0x9B2EC30)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_POSTYPE_OFFSET UNITYSDK_OFFSET(0x9B2EC50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9B2EC10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0xB112BF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xB114900)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB1148C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_GET_POSTYPE_OFFSET UNITYSDK_OFFSET(0xB1148E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xB114910)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB1148D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_POSTYPE_OFFSET UNITYSDK_OFFSET(0xB1148F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB1148B0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveAvatarPosTypeConfig_TypeDefinitionIndex = 69137;
+	inline static constexpr unsigned int IdleLiveAvatarPosTypeConfig_TypeDefinitionIndex = 69949;
 
 	class IdleLiveAvatarPosTypeConfig : public ::System::Object
 	{
 	public:
 		::System::String* _IconPath_k__BackingField; // 0x10
-		::RPG::Client::TextID _Name_k__BackingField; // 0x18
-		::RPG::GameCore::ILBattleCharacterLocation _PosType_k__BackingField; // 0x28
+		::RPG::GameCore::ILBattleCharacterLocation _PosType_k__BackingField; // 0x18
+		::RPG::Client::TextID _Name_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ActivityIdleLive::IdleLiveAvatarPosTypeConfig* Create(::RPG::GameCore::ILBattleCharacterLocation posTypeId)
+		static ::RPG::Client::ActivityIdleLive::IdleLiveAvatarPosTypeConfig* Create(::RPG::GameCore::ILBattleCharacterLocation a1)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveAvatarPosTypeConfig*(*)(::RPG::GameCore::ILBattleCharacterLocation))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_CREATE_OFFSET))(posTypeId);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveAvatarPosTypeConfig*(*)(::RPG::GameCore::ILBattleCharacterLocation))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_CREATE_OFFSET))(a1);
 		}
 
 		::RPG::Client::TextID get_Name()
@@ -41,9 +41,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::RPG::Client::TextID value)
+		::System::Void set_Name(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ILBattleCharacterLocation get_PosType()
@@ -51,9 +51,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::RPG::GameCore::ILBattleCharacterLocation(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_GET_POSTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_PosType(::RPG::GameCore::ILBattleCharacterLocation value)
+		::System::Void set_PosType(::RPG::GameCore::ILBattleCharacterLocation a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ILBattleCharacterLocation))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_POSTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ILBattleCharacterLocation))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_POSTYPE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_IconPath()
@@ -61,9 +61,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_GET_ICONPATH_OFFSET))(this);
 		}
 
-		::System::Void set_IconPath(::System::String* value)
+		::System::Void set_IconPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_ICONPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARPOSTYPECONFIG_SET_ICONPATH_OFFSET))(this, a1);
 		}
 	};
 }

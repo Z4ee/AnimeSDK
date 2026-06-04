@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A703570)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A703610)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A703210)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7031F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B51EFA0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B51F040)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B51EF80)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B51EF10)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters_TypeDefinitionIndex = 35845;
+	inline static constexpr unsigned int IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters_TypeDefinitionIndex = 36145;
 
 	class IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::System::UInt64 ulOverlayHandle, ::System::Single fMinDistanceInMeters, ::System::Single fMaxDistanceInMeters)
+		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::System::UInt64 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::UInt64, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_INVOKE_OFFSET))(this, ulOverlayHandle, fMinDistanceInMeters, fMaxDistanceInMeters);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::UInt64, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt64 ulOverlayHandle, ::System::Single fMinDistanceInMeters, ::System::Single fMaxDistanceInMeters, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt64 a1, ::System::Single a2, ::System::Single a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::Single, ::System::Single, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_BEGININVOKE_OFFSET))(this, ulOverlayHandle, fMinDistanceInMeters, fMaxDistanceInMeters, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::Single, ::System::Single, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError EndInvoke(::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_ENDINVOKE_OFFSET))(this, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SETOVERLAYAUTOCURVEDISTANCERANGEINMETERS_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

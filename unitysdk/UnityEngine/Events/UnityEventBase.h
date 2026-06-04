@@ -14,29 +14,29 @@ namespace UnityEngine::Events { class InvokableCallList; }
 namespace UnityEngine::Events { class PersistentCall; }
 namespace UnityEngine::Events { class PersistentCallGroup; }
 
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_ADDCALL_OFFSET UNITYSDK_OFFSET(0x1A442850)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_ADDLISTENER_OFFSET UNITYSDK_OFFSET(0x1A443530)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_DIRTYPERSISTENTCALLS_OFFSET UNITYSDK_OFFSET(0x1A442E80)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_FINDMETHOD_1_OFFSET UNITYSDK_OFFSET(0x1A442EE0)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_FINDMETHOD_OFFSET UNITYSDK_OFFSET(0x1A441980)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_GETPERSISTENTEVENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1A443300)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_GETPERSISTENTMETHODNAME_OFFSET UNITYSDK_OFFSET(0x1A4433B0)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_GETPERSISTENTTARGET_OFFSET UNITYSDK_OFFSET(0x1A443330)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_GETVALIDMETHODINFO_OFFSET UNITYSDK_OFFSET(0x1A442930)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A4435E0)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_PREPAREINVOKE_OFFSET UNITYSDK_OFFSET(0x1A442DC0)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_REBUILDPERSISTENTCALLSIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1A443430)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_REMOVEALLLISTENERS_OFFSET UNITYSDK_OFFSET(0x1A443590)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_REMOVELISTENER_OFFSET UNITYSDK_OFFSET(0x1A4428E0)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_SETPERSISTENTLISTENERSTATE_OFFSET UNITYSDK_OFFSET(0x1A443470)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A443690)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A442E20)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A442E10)
-#define UNITYENGINE_EVENTS_UNITYEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A442660)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_ADDCALL_OFFSET UNITYSDK_OFFSET(0x1B293980)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_ADDLISTENER_OFFSET UNITYSDK_OFFSET(0x1B2944C0)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_DIRTYPERSISTENTCALLS_OFFSET UNITYSDK_OFFSET(0x1B294010)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_FINDMETHOD_1_OFFSET UNITYSDK_OFFSET(0x1B294070)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_FINDMETHOD_OFFSET UNITYSDK_OFFSET(0x1B292AF0)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_GETPERSISTENTEVENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1B2942D0)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_GETPERSISTENTMETHODNAME_OFFSET UNITYSDK_OFFSET(0x1B294360)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_GETPERSISTENTTARGET_OFFSET UNITYSDK_OFFSET(0x1B294300)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_GETVALIDMETHODINFO_OFFSET UNITYSDK_OFFSET(0x1B293AB0)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B2945C0)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_PREPAREINVOKE_OFFSET UNITYSDK_OFFSET(0x1B293F50)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_REBUILDPERSISTENTCALLSIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1B2943D0)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_REMOVEALLLISTENERS_OFFSET UNITYSDK_OFFSET(0x1B294570)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_REMOVELISTENER_OFFSET UNITYSDK_OFFSET(0x1B293A60)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_SETPERSISTENTLISTENERSTATE_OFFSET UNITYSDK_OFFSET(0x1B294410)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B294690)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B293FB0)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B293FA0)
+#define UNITYENGINE_EVENTS_UNITYEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B293750)
 
 namespace UnityEngine::Events
 {
-	inline static constexpr unsigned int UnityEventBase_TypeDefinitionIndex = 4297;
+	inline static constexpr unsigned int UnityEventBase_TypeDefinitionIndex = 4471;
 
 	class UnityEventBase : public ::System::Object
 	{
@@ -60,14 +60,14 @@ namespace UnityEngine::Events
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONAFTERDESERIALIZE_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodInfo* FindMethod(::UnityEngine::Events::PersistentCall* call)
+		::System::Reflection::MethodInfo* FindMethod(::UnityEngine::Events::PersistentCall* a1)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::UnityEngine::Events::PersistentCall*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_FINDMETHOD_OFFSET))(this, call);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::UnityEngine::Events::PersistentCall*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_FINDMETHOD_OFFSET))(this, a1);
 		}
 
-		::System::Reflection::MethodInfo* FindMethod_1(::System::String* name, ::System::Object* listener, ::UnityEngine::Events::PersistentListenerMode mode, ::System::Type* argumentType)
+		::System::Reflection::MethodInfo* FindMethod_1(::System::String* a1, ::System::Object* a2, ::UnityEngine::Events::PersistentListenerMode a3, ::System::Type* a4)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::String*, ::System::Object*, ::UnityEngine::Events::PersistentListenerMode, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_FINDMETHOD_1_OFFSET))(this, name, listener, mode, argumentType);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::String*, ::System::Object*, ::UnityEngine::Events::PersistentListenerMode, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_FINDMETHOD_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 GetPersistentEventCount()
@@ -75,14 +75,14 @@ namespace UnityEngine::Events
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_GETPERSISTENTEVENTCOUNT_OFFSET))(this);
 		}
 
-		::UnityEngine::Object* GetPersistentTarget(::System::Int32 index)
+		::UnityEngine::Object* GetPersistentTarget(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_GETPERSISTENTTARGET_OFFSET))(this, index);
+			return ((::UnityEngine::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_GETPERSISTENTTARGET_OFFSET))(this, a1);
 		}
 
-		::System::String* GetPersistentMethodName(::System::Int32 index)
+		::System::String* GetPersistentMethodName(::System::Int32 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_GETPERSISTENTMETHODNAME_OFFSET))(this, index);
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_GETPERSISTENTMETHODNAME_OFFSET))(this, a1);
 		}
 
 		::System::Void DirtyPersistentCalls()
@@ -95,24 +95,24 @@ namespace UnityEngine::Events
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_REBUILDPERSISTENTCALLSIFNEEDED_OFFSET))(this);
 		}
 
-		::System::Void SetPersistentListenerState(::System::Int32 index, ::UnityEngine::Events::UnityEventCallState state)
+		::System::Void SetPersistentListenerState(::System::Int32 a1, ::UnityEngine::Events::UnityEventCallState a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Events::UnityEventCallState))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_SETPERSISTENTLISTENERSTATE_OFFSET))(this, index, state);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Events::UnityEventCallState))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_SETPERSISTENTLISTENERSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddListener(::System::Object* targetObj, ::System::Reflection::MethodInfo* method)
+		::System::Void AddListener(::System::Object* a1, ::System::Reflection::MethodInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_ADDLISTENER_OFFSET))(this, targetObj, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_ADDLISTENER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddCall(::UnityEngine::Events::BaseInvokableCall* call)
+		::System::Void AddCall(::UnityEngine::Events::BaseInvokableCall* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::BaseInvokableCall*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_ADDCALL_OFFSET))(this, call);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::BaseInvokableCall*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_ADDCALL_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveListener(::System::Object* targetObj, ::System::Reflection::MethodInfo* method)
+		::System::Void RemoveListener(::System::Object* a1, ::System::Reflection::MethodInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_REMOVELISTENER_OFFSET))(this, targetObj, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_REMOVELISTENER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RemoveAllListeners()
@@ -125,9 +125,9 @@ namespace UnityEngine::Events
 			return ((::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_PREPAREINVOKE_OFFSET))(this);
 		}
 
-		::System::Void Invoke(::Il2CppArray<::System::Object*>* parameters)
+		::System::Void Invoke(::Il2CppArray<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_INVOKE_OFFSET))(this, parameters);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_INVOKE_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -135,9 +135,9 @@ namespace UnityEngine::Events
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Reflection::MethodInfo* GetValidMethodInfo(::System::Object* obj, ::System::String* functionName, ::Il2CppArray<::System::Type*>* argumentTypes)
+		static ::System::Reflection::MethodInfo* GetValidMethodInfo(::System::Object* a1, ::System::String* a2, ::Il2CppArray<::System::Type*>* a3)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::System::Object*, ::System::String*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_GETVALIDMETHODINFO_OFFSET))(obj, functionName, argumentTypes);
+			return ((::System::Reflection::MethodInfo*(*)(::System::Object*, ::System::String*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENTBASE_GETVALIDMETHODINFO_OFFSET))(a1, a2, a3);
 		}
 	};
 }

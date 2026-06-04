@@ -8,42 +8,42 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_MONOBEHAVIOUR_CANCELINVOKE_1_OFFSET UNITYSDK_OFFSET(0x1A45FF30)
-#define UNITYENGINE_MONOBEHAVIOUR_CANCELINVOKE_2_OFFSET UNITYSDK_OFFSET(0x1A45FF40)
-#define UNITYENGINE_MONOBEHAVIOUR_CANCELINVOKE_OFFSET UNITYSDK_OFFSET(0x1A45FE90)
-#define UNITYENGINE_MONOBEHAVIOUR_GETSCRIPTCLASSNAME_OFFSET UNITYSDK_OFFSET(0x1A460350)
-#define UNITYENGINE_MONOBEHAVIOUR_GET_LIGHTWEIGHTDEACTIVATEINTREE_OFFSET UNITYSDK_OFFSET(0x1A460360)
-#define UNITYENGINE_MONOBEHAVIOUR_GET_USEGUILAYOUT_OFFSET UNITYSDK_OFFSET(0x1A4602B0)
-#define UNITYENGINE_MONOBEHAVIOUR_GET_USINGMONOBEHAVIOURLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0x1A460370)
-#define UNITYENGINE_MONOBEHAVIOUR_INTERNAL_CANCELINVOKEALL_OFFSET UNITYSDK_OFFSET(0x1A45FEA0)
-#define UNITYENGINE_MONOBEHAVIOUR_INTERNAL_ISINVOKINGALL_OFFSET UNITYSDK_OFFSET(0x1A45FE80)
-#define UNITYENGINE_MONOBEHAVIOUR_INVOKEDELAYED_OFFSET UNITYSDK_OFFSET(0x1A45FEC0)
-#define UNITYENGINE_MONOBEHAVIOUR_INVOKEREPEATING_OFFSET UNITYSDK_OFFSET(0x1A45FED0)
-#define UNITYENGINE_MONOBEHAVIOUR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A45FEB0)
-#define UNITYENGINE_MONOBEHAVIOUR_ISINVOKING_1_OFFSET UNITYSDK_OFFSET(0x1A45FF50)
-#define UNITYENGINE_MONOBEHAVIOUR_ISINVOKING_2_OFFSET UNITYSDK_OFFSET(0x1A45FF60)
-#define UNITYENGINE_MONOBEHAVIOUR_ISINVOKING_OFFSET UNITYSDK_OFFSET(0x1A45FE70)
-#define UNITYENGINE_MONOBEHAVIOUR_ISOBJECTMONOBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0x1A460040)
-#define UNITYENGINE_MONOBEHAVIOUR_PRINT_OFFSET UNITYSDK_OFFSET(0x1A4602D0)
-#define UNITYENGINE_MONOBEHAVIOUR_SET_USEGUILAYOUT_OFFSET UNITYSDK_OFFSET(0x1A4602C0)
-#define UNITYENGINE_MONOBEHAVIOUR_SET_USINGMONOBEHAVIOURLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0x1A460380)
-#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINEMANAGED2_OFFSET UNITYSDK_OFFSET(0x1A4600F0)
-#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINEMANAGED_OFFSET UNITYSDK_OFFSET(0x1A460050)
-#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_1_OFFSET UNITYSDK_OFFSET(0x1A45FF80)
-#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_2_OFFSET UNITYSDK_OFFSET(0x1A460060)
-#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_AUTO_OFFSET UNITYSDK_OFFSET(0x1A460100)
-#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1A45FF70)
-#define UNITYENGINE_MONOBEHAVIOUR_STOPALLCOROUTINES_OFFSET UNITYSDK_OFFSET(0x1A4602A0)
-#define UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINEFROMENUMERATORMANAGED_OFFSET UNITYSDK_OFFSET(0x1A4601C0)
-#define UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINEMANAGED_OFFSET UNITYSDK_OFFSET(0x1A460280)
-#define UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_1_OFFSET UNITYSDK_OFFSET(0x1A4601D0)
-#define UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_2_OFFSET UNITYSDK_OFFSET(0x1A460290)
-#define UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1A460110)
-#define UNITYENGINE_MONOBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A460390)
+#define UNITYENGINE_MONOBEHAVIOUR_CANCELINVOKE_1_OFFSET UNITYSDK_OFFSET(0x1B2B0260)
+#define UNITYENGINE_MONOBEHAVIOUR_CANCELINVOKE_2_OFFSET UNITYSDK_OFFSET(0x1B2B0270)
+#define UNITYENGINE_MONOBEHAVIOUR_CANCELINVOKE_OFFSET UNITYSDK_OFFSET(0x1B2B0170)
+#define UNITYENGINE_MONOBEHAVIOUR_GETSCRIPTCLASSNAME_OFFSET UNITYSDK_OFFSET(0x1B2B0680)
+#define UNITYENGINE_MONOBEHAVIOUR_GET_LIGHTWEIGHTDEACTIVATEINTREE_OFFSET UNITYSDK_OFFSET(0x1B2B0690)
+#define UNITYENGINE_MONOBEHAVIOUR_GET_USEGUILAYOUT_OFFSET UNITYSDK_OFFSET(0x1B2B05E0)
+#define UNITYENGINE_MONOBEHAVIOUR_GET_USINGMONOBEHAVIOURLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0x1B2B06A0)
+#define UNITYENGINE_MONOBEHAVIOUR_INTERNAL_CANCELINVOKEALL_OFFSET UNITYSDK_OFFSET(0x1B2B0180)
+#define UNITYENGINE_MONOBEHAVIOUR_INTERNAL_ISINVOKINGALL_OFFSET UNITYSDK_OFFSET(0x1B2B0160)
+#define UNITYENGINE_MONOBEHAVIOUR_INVOKEDELAYED_OFFSET UNITYSDK_OFFSET(0x1B2B01A0)
+#define UNITYENGINE_MONOBEHAVIOUR_INVOKEREPEATING_OFFSET UNITYSDK_OFFSET(0x1B2B01B0)
+#define UNITYENGINE_MONOBEHAVIOUR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B2B0190)
+#define UNITYENGINE_MONOBEHAVIOUR_ISINVOKING_1_OFFSET UNITYSDK_OFFSET(0x1B2B0280)
+#define UNITYENGINE_MONOBEHAVIOUR_ISINVOKING_2_OFFSET UNITYSDK_OFFSET(0x1B2B0290)
+#define UNITYENGINE_MONOBEHAVIOUR_ISINVOKING_OFFSET UNITYSDK_OFFSET(0x1B2B0150)
+#define UNITYENGINE_MONOBEHAVIOUR_ISOBJECTMONOBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0x1B2B0370)
+#define UNITYENGINE_MONOBEHAVIOUR_PRINT_OFFSET UNITYSDK_OFFSET(0x1B2B0600)
+#define UNITYENGINE_MONOBEHAVIOUR_SET_USEGUILAYOUT_OFFSET UNITYSDK_OFFSET(0x1B2B05F0)
+#define UNITYENGINE_MONOBEHAVIOUR_SET_USINGMONOBEHAVIOURLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0x1B2B06B0)
+#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINEMANAGED2_OFFSET UNITYSDK_OFFSET(0x1B2B0420)
+#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINEMANAGED_OFFSET UNITYSDK_OFFSET(0x1B2B0380)
+#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_1_OFFSET UNITYSDK_OFFSET(0x1B2B02B0)
+#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_2_OFFSET UNITYSDK_OFFSET(0x1B2B0390)
+#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_AUTO_OFFSET UNITYSDK_OFFSET(0x1B2B0430)
+#define UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B2B02A0)
+#define UNITYENGINE_MONOBEHAVIOUR_STOPALLCOROUTINES_OFFSET UNITYSDK_OFFSET(0x1B2B05D0)
+#define UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINEFROMENUMERATORMANAGED_OFFSET UNITYSDK_OFFSET(0x1B2B04F0)
+#define UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINEMANAGED_OFFSET UNITYSDK_OFFSET(0x1B2B05B0)
+#define UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_1_OFFSET UNITYSDK_OFFSET(0x1B2B0500)
+#define UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_2_OFFSET UNITYSDK_OFFSET(0x1B2B05C0)
+#define UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B2B0440)
+#define UNITYENGINE_MONOBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2B06C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MonoBehaviour_TypeDefinitionIndex = 4140;
+	inline static constexpr unsigned int MonoBehaviour_TypeDefinitionIndex = 4314;
 
 	class MonoBehaviour : public ::UnityEngine::Behaviour
 	{
@@ -63,59 +63,59 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_CANCELINVOKE_OFFSET))(this);
 		}
 
-		::System::Void Invoke(::System::String* methodName, ::System::Single time)
+		::System::Void Invoke(::System::String* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_INVOKE_OFFSET))(this, methodName, time);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InvokeRepeating(::System::String* methodName, ::System::Single time, ::System::Single repeatRate)
+		::System::Void InvokeRepeating(::System::String* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_INVOKEREPEATING_OFFSET))(this, methodName, time, repeatRate);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_INVOKEREPEATING_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void CancelInvoke_1(::System::String* methodName)
+		::System::Void CancelInvoke_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_CANCELINVOKE_1_OFFSET))(this, methodName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_CANCELINVOKE_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsInvoking_1(::System::String* methodName)
+		::System::Boolean IsInvoking_1(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_ISINVOKING_1_OFFSET))(this, methodName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_ISINVOKING_1_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Coroutine* StartCoroutine(::System::String* methodName)
+		::UnityEngine::Coroutine* StartCoroutine(::System::String* a1)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_OFFSET))(this, methodName);
+			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Coroutine* StartCoroutine_1(::System::String* methodName, ::System::Object* value)
+		::UnityEngine::Coroutine* StartCoroutine_1(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_1_OFFSET))(this, methodName, value);
+			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_1_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Coroutine* StartCoroutine_2(::System::Collections::IEnumerator* routine)
+		::UnityEngine::Coroutine* StartCoroutine_2(::System::Collections::IEnumerator* a1)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_2_OFFSET))(this, routine);
+			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_2_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Coroutine* StartCoroutine_Auto(::System::Collections::IEnumerator* routine)
+		::UnityEngine::Coroutine* StartCoroutine_Auto(::System::Collections::IEnumerator* a1)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_AUTO_OFFSET))(this, routine);
+			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINE_AUTO_OFFSET))(this, a1);
 		}
 
-		::System::Void StopCoroutine(::System::Collections::IEnumerator* routine)
+		::System::Void StopCoroutine(::System::Collections::IEnumerator* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_OFFSET))(this, routine);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_OFFSET))(this, a1);
 		}
 
-		::System::Void StopCoroutine_1(::UnityEngine::Coroutine* routine)
+		::System::Void StopCoroutine_1(::UnityEngine::Coroutine* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Coroutine*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_1_OFFSET))(this, routine);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Coroutine*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_1_OFFSET))(this, a1);
 		}
 
-		::System::Void StopCoroutine_2(::System::String* methodName)
+		::System::Void StopCoroutine_2(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_2_OFFSET))(this, methodName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINE_2_OFFSET))(this, a1);
 		}
 
 		::System::Void StopAllCoroutines()
@@ -128,64 +128,64 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_GET_USEGUILAYOUT_OFFSET))(this);
 		}
 
-		::System::Void set_useGUILayout(::System::Boolean value)
+		::System::Void set_useGUILayout(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_SET_USEGUILAYOUT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_SET_USEGUILAYOUT_OFFSET))(this, a1);
 		}
 
-		static ::System::Void print(::System::Object* message)
+		static ::System::Void print(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_PRINT_OFFSET))(message);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_PRINT_OFFSET))(a1);
 		}
 
-		static ::System::Void Internal_CancelInvokeAll(::UnityEngine::MonoBehaviour* self)
+		static ::System::Void Internal_CancelInvokeAll(::UnityEngine::MonoBehaviour* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_INTERNAL_CANCELINVOKEALL_OFFSET))(self);
+			return ((::System::Void(*)(::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_INTERNAL_CANCELINVOKEALL_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Internal_IsInvokingAll(::UnityEngine::MonoBehaviour* self)
+		static ::System::Boolean Internal_IsInvokingAll(::UnityEngine::MonoBehaviour* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_INTERNAL_ISINVOKINGALL_OFFSET))(self);
+			return ((::System::Boolean(*)(::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_INTERNAL_ISINVOKINGALL_OFFSET))(a1);
 		}
 
-		static ::System::Void InvokeDelayed(::UnityEngine::MonoBehaviour* self, ::System::String* methodName, ::System::Single time, ::System::Single repeatRate)
+		static ::System::Void InvokeDelayed(::UnityEngine::MonoBehaviour* a1, ::System::String* a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::MonoBehaviour*, ::System::String*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_INVOKEDELAYED_OFFSET))(self, methodName, time, repeatRate);
+			return ((::System::Void(*)(::UnityEngine::MonoBehaviour*, ::System::String*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_INVOKEDELAYED_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void CancelInvoke_2(::UnityEngine::MonoBehaviour* self, ::System::String* methodName)
+		static ::System::Void CancelInvoke_2(::UnityEngine::MonoBehaviour* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::MonoBehaviour*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_CANCELINVOKE_2_OFFSET))(self, methodName);
+			return ((::System::Void(*)(::UnityEngine::MonoBehaviour*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_CANCELINVOKE_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsInvoking_2(::UnityEngine::MonoBehaviour* self, ::System::String* methodName)
+		static ::System::Boolean IsInvoking_2(::UnityEngine::MonoBehaviour* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::MonoBehaviour*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_ISINVOKING_2_OFFSET))(self, methodName);
+			return ((::System::Boolean(*)(::UnityEngine::MonoBehaviour*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_ISINVOKING_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsObjectMonoBehaviour(::UnityEngine::Object* obj)
+		static ::System::Boolean IsObjectMonoBehaviour(::UnityEngine::Object* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_ISOBJECTMONOBEHAVIOUR_OFFSET))(obj);
+			return ((::System::Boolean(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_ISOBJECTMONOBEHAVIOUR_OFFSET))(a1);
 		}
 
-		::UnityEngine::Coroutine* StartCoroutineManaged(::System::String* methodName, ::System::Object* value)
+		::UnityEngine::Coroutine* StartCoroutineManaged(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINEMANAGED_OFFSET))(this, methodName, value);
+			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINEMANAGED_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Coroutine* StartCoroutineManaged2(::System::Collections::IEnumerator* enumerator)
+		::UnityEngine::Coroutine* StartCoroutineManaged2(::System::Collections::IEnumerator* a1)
 		{
-			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINEMANAGED2_OFFSET))(this, enumerator);
+			return ((::UnityEngine::Coroutine*(*)(::PVOID, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STARTCOROUTINEMANAGED2_OFFSET))(this, a1);
 		}
 
-		::System::Void StopCoroutineManaged(::UnityEngine::Coroutine* routine)
+		::System::Void StopCoroutineManaged(::UnityEngine::Coroutine* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Coroutine*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINEMANAGED_OFFSET))(this, routine);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Coroutine*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINEMANAGED_OFFSET))(this, a1);
 		}
 
-		::System::Void StopCoroutineFromEnumeratorManaged(::System::Collections::IEnumerator* routine)
+		::System::Void StopCoroutineFromEnumeratorManaged(::System::Collections::IEnumerator* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINEFROMENUMERATORMANAGED_OFFSET))(this, routine);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::IEnumerator*))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_STOPCOROUTINEFROMENUMERATORMANAGED_OFFSET))(this, a1);
 		}
 
 		::System::String* GetScriptClassName()
@@ -203,9 +203,9 @@ namespace UnityEngine
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_GET_USINGMONOBEHAVIOURLIGHTWEIGHTDEACTIVATE_OFFSET))();
 		}
 
-		static ::System::Void set_usingMonoBehaviourLightweightDeactivate(::System::Boolean value)
+		static ::System::Void set_usingMonoBehaviourLightweightDeactivate(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_SET_USINGMONOBEHAVIOURLIGHTWEIGHTDEACTIVATE_OFFSET))(value);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_MONOBEHAVIOUR_SET_USINGMONOBEHAVIOURLIGHTWEIGHTDEACTIVATE_OFFSET))(a1);
 		}
 	};
 }

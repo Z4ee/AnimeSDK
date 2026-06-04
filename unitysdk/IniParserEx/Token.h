@@ -7,29 +7,29 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define INIPARSEREX_TOKEN_GETCONSTANTVALUE_OFFSET UNITYSDK_OFFSET(0x1A422E70)
-#define INIPARSEREX_TOKEN_GETTOKENNAME_OFFSET UNITYSDK_OFFSET(0x1A421AF0)
-#define INIPARSEREX_TOKEN_GET_CONSTTYPE_OFFSET UNITYSDK_OFFSET(0x1A423360)
-#define INIPARSEREX_TOKEN_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1A4233E0)
-#define INIPARSEREX_TOKEN_GET_STARTLINE_OFFSET UNITYSDK_OFFSET(0x1A4233C0)
-#define INIPARSEREX_TOKEN_GET_STARTPOS_OFFSET UNITYSDK_OFFSET(0x1A4233A0)
-#define INIPARSEREX_TOKEN_GET_TOKENTYPE_OFFSET UNITYSDK_OFFSET(0x1A423380)
-#define INIPARSEREX_TOKEN_MATCHES_1_OFFSET UNITYSDK_OFFSET(0x1A41DD80)
-#define INIPARSEREX_TOKEN_MATCHES_OFFSET UNITYSDK_OFFSET(0x1A421A90)
-#define INIPARSEREX_TOKEN_SETCONSTBOOL_OFFSET UNITYSDK_OFFSET(0x1A41DDE0)
-#define INIPARSEREX_TOKEN_SETCONSTCHAR_OFFSET UNITYSDK_OFFSET(0x1A41DEA0)
-#define INIPARSEREX_TOKEN_SETCONSTFLOAT_OFFSET UNITYSDK_OFFSET(0x1A41DE20)
-#define INIPARSEREX_TOKEN_SETCONSTSTRING_OFFSET UNITYSDK_OFFSET(0x1A41DEE0)
-#define INIPARSEREX_TOKEN_SETINT64_OFFSET UNITYSDK_OFFSET(0x1A41DE60)
-#define INIPARSEREX_TOKEN_SET_CONSTTYPE_OFFSET UNITYSDK_OFFSET(0x1A423370)
-#define INIPARSEREX_TOKEN_SET_STARTLINE_OFFSET UNITYSDK_OFFSET(0x1A4233D0)
-#define INIPARSEREX_TOKEN_SET_STARTPOS_OFFSET UNITYSDK_OFFSET(0x1A4233B0)
-#define INIPARSEREX_TOKEN_SET_TOKENTYPE_OFFSET UNITYSDK_OFFSET(0x1A423390)
-#define INIPARSEREX_TOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41DCF0)
+#define INIPARSEREX_TOKEN_GETCONSTANTVALUE_OFFSET UNITYSDK_OFFSET(0x1B2760F0)
+#define INIPARSEREX_TOKEN_GETTOKENNAME_OFFSET UNITYSDK_OFFSET(0x1B274E60)
+#define INIPARSEREX_TOKEN_GET_CONSTTYPE_OFFSET UNITYSDK_OFFSET(0x1B2765E0)
+#define INIPARSEREX_TOKEN_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1B276660)
+#define INIPARSEREX_TOKEN_GET_STARTLINE_OFFSET UNITYSDK_OFFSET(0x1B276640)
+#define INIPARSEREX_TOKEN_GET_STARTPOS_OFFSET UNITYSDK_OFFSET(0x1B276620)
+#define INIPARSEREX_TOKEN_GET_TOKENTYPE_OFFSET UNITYSDK_OFFSET(0x1B276600)
+#define INIPARSEREX_TOKEN_MATCHES_1_OFFSET UNITYSDK_OFFSET(0x1B271130)
+#define INIPARSEREX_TOKEN_MATCHES_OFFSET UNITYSDK_OFFSET(0x1B274E00)
+#define INIPARSEREX_TOKEN_SETCONSTBOOL_OFFSET UNITYSDK_OFFSET(0x1B271190)
+#define INIPARSEREX_TOKEN_SETCONSTCHAR_OFFSET UNITYSDK_OFFSET(0x1B271250)
+#define INIPARSEREX_TOKEN_SETCONSTFLOAT_OFFSET UNITYSDK_OFFSET(0x1B2711D0)
+#define INIPARSEREX_TOKEN_SETCONSTSTRING_OFFSET UNITYSDK_OFFSET(0x1B271290)
+#define INIPARSEREX_TOKEN_SETINT64_OFFSET UNITYSDK_OFFSET(0x1B271210)
+#define INIPARSEREX_TOKEN_SET_CONSTTYPE_OFFSET UNITYSDK_OFFSET(0x1B2765F0)
+#define INIPARSEREX_TOKEN_SET_STARTLINE_OFFSET UNITYSDK_OFFSET(0x1B276650)
+#define INIPARSEREX_TOKEN_SET_STARTPOS_OFFSET UNITYSDK_OFFSET(0x1B276630)
+#define INIPARSEREX_TOKEN_SET_TOKENTYPE_OFFSET UNITYSDK_OFFSET(0x1B276610)
+#define INIPARSEREX_TOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2710A0)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int Token_TypeDefinitionIndex = 3737;
+	inline static constexpr unsigned int Token_TypeDefinitionIndex = 3911;
 
 	class Token : public ::System::Object
 	{
@@ -41,9 +41,9 @@ namespace IniParserEx
 		::System::Int32 _StartLine_k__BackingField; // 0x24
 		::System::Text::StringBuilder* _Identifier_k__BackingField; // 0x28
 
-		::System::Void _ctor(::System::Int32 startPos, ::System::Int32 startLine)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN__CTOR_OFFSET))(this, startPos, startLine);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::IniParserEx::TokenConstType get_ConstType()
@@ -51,9 +51,9 @@ namespace IniParserEx
 			return ((::IniParserEx::TokenConstType(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_GET_CONSTTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ConstType(::IniParserEx::TokenConstType value)
+		::System::Void set_ConstType(::IniParserEx::TokenConstType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IniParserEx::TokenConstType))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SET_CONSTTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::IniParserEx::TokenConstType))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SET_CONSTTYPE_OFFSET))(this, a1);
 		}
 
 		::IniParserEx::TokenType get_TokenType()
@@ -61,9 +61,9 @@ namespace IniParserEx
 			return ((::IniParserEx::TokenType(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_GET_TOKENTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_TokenType(::IniParserEx::TokenType value)
+		::System::Void set_TokenType(::IniParserEx::TokenType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IniParserEx::TokenType))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SET_TOKENTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::IniParserEx::TokenType))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SET_TOKENTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_StartPos()
@@ -71,9 +71,9 @@ namespace IniParserEx
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_GET_STARTPOS_OFFSET))(this);
 		}
 
-		::System::Void set_StartPos(::System::Int32 value)
+		::System::Void set_StartPos(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SET_STARTPOS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SET_STARTPOS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_StartLine()
@@ -81,9 +81,9 @@ namespace IniParserEx
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_GET_STARTLINE_OFFSET))(this);
 		}
 
-		::System::Void set_StartLine(::System::Int32 value)
+		::System::Void set_StartLine(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SET_STARTLINE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SET_STARTLINE_OFFSET))(this, a1);
 		}
 
 		::System::Text::StringBuilder* get_Identifier()
@@ -101,39 +101,39 @@ namespace IniParserEx
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_GETCONSTANTVALUE_OFFSET))(this);
 		}
 
-		::System::Boolean Matches(::System::Char c)
+		::System::Boolean Matches(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_MATCHES_OFFSET))(this, c);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_MATCHES_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Matches_1(::System::String* s)
+		::System::Boolean Matches_1(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_MATCHES_1_OFFSET))(this, s);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_MATCHES_1_OFFSET))(this, a1);
 		}
 
-		::System::Void SetInt64(::System::Int64 i64)
+		::System::Void SetInt64(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SETINT64_OFFSET))(this, i64);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SETINT64_OFFSET))(this, a1);
 		}
 
-		::System::Void SetConstBool(::System::Boolean b)
+		::System::Void SetConstBool(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SETCONSTBOOL_OFFSET))(this, b);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SETCONSTBOOL_OFFSET))(this, a1);
 		}
 
-		::System::Void SetConstFloat(::System::Single f)
+		::System::Void SetConstFloat(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SETCONSTFLOAT_OFFSET))(this, f);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SETCONSTFLOAT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetConstString(::System::String* s)
+		::System::Void SetConstString(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SETCONSTSTRING_OFFSET))(this, s);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SETCONSTSTRING_OFFSET))(this, a1);
 		}
 
-		::System::Void SetConstChar(::System::Char c)
+		::System::Void SetConstChar(::System::Char a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SETCONSTCHAR_OFFSET))(this, c);
+			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_TOKEN_SETCONSTCHAR_OFFSET))(this, a1);
 		}
 	};
 }

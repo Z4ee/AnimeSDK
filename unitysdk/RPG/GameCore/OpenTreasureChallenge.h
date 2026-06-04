@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_OPENTREASURECHALLENGE_METHOD_3_48D31592A1E45A8C_OFFSET UNITYSDK_OFFSET(0x18BC6F10)
-#define RPG_GAMECORE_OPENTREASURECHALLENGE_METHOD_3_E8D9A96185334CFD_OFFSET UNITYSDK_OFFSET(0x18BC6F90)
-#define RPG_GAMECORE_OPENTREASURECHALLENGE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC6F60)
+#define RPG_GAMECORE_OPENTREASURECHALLENGE_METHOD_3_44D77C5C1CEA9CDF_OFFSET UNITYSDK_OFFSET(0x199D8AC0)
+#define RPG_GAMECORE_OPENTREASURECHALLENGE_METHOD_3_8E14CDF06BC1DFE6_OFFSET UNITYSDK_OFFSET(0x199D8A40)
+#define RPG_GAMECORE_OPENTREASURECHALLENGE__CTOR_OFFSET UNITYSDK_OFFSET(0x199D8A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenTreasureChallenge_TypeDefinitionIndex = 19426;
+	inline static constexpr unsigned int OpenTreasureChallenge_TypeDefinitionIndex = 19331;
 
 	class OpenTreasureChallenge : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTREASURECHALLENGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_48D31592A1E45A8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTreasureChallenge*& a2)
+		static ::System::Void Method_3_8E14CDF06BC1DFE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTreasureChallenge*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTreasureChallenge*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTREASURECHALLENGE_METHOD_3_48D31592A1E45A8C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTreasureChallenge*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTREASURECHALLENGE_METHOD_3_8E14CDF06BC1DFE6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E8D9A96185334CFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTreasureChallenge* a2)
+		static ::System::Void Method_3_44D77C5C1CEA9CDF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTreasureChallenge* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTreasureChallenge*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTREASURECHALLENGE_METHOD_3_E8D9A96185334CFD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTreasureChallenge*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTREASURECHALLENGE_METHOD_3_44D77C5C1CEA9CDF_OFFSET))(a1, a2);
 		}
 	};
 }

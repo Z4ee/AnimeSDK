@@ -6,31 +6,31 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTCONSUMABLESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189A5C60)
-#define RPG_GAMECORE_GRIDFIGHTCONSUMABLESCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189A5F40)
+#define RPG_GAMECORE_GRIDFIGHTCONSUMABLESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197DDD00)
+#define RPG_GAMECORE_GRIDFIGHTCONSUMABLESCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x197DDFE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightConsumablesConfigRow_TypeDefinitionIndex = 12721;
+	inline static constexpr unsigned int GridFightConsumablesConfigRow_TypeDefinitionIndex = 12811;
 
 	class GridFightConsumablesConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ConsumableParamList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::RPG::GameCore::GridFightConsumeType ConsumableRule; // 0x1C
-		::System::Boolean IfStack; // 0x20
-		::System::Boolean IfConsume; // 0x21
-		::RPG::Client::TextID ConsumableDesc; // 0x28
+		::RPG::Client::TextID ConsumableDesc; // 0x18
+		::RPG::GameCore::GridFightConsumeType ConsumableRule; // 0x28
+		::System::Boolean IfStack; // 0x2C
+		::System::Boolean IfConsume; // 0x2D
+		::System::UInt32 ID; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONSUMABLESCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightConsumablesConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightConsumablesConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightConsumablesConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONSUMABLESCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightConsumablesConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONSUMABLESCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

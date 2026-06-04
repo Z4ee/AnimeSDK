@@ -7,27 +7,27 @@ namespace RPG::GameCore { class MatchThreeV2SpecialRuleRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_CREATEBYCONSTVALUE_OFFSET UNITYSDK_OFFSET(0xA8674A0)
-#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA8673B0)
-#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0xA867330)
-#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA8672C0)
-#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xA867250)
-#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_GET_RULEID_OFFSET UNITYSDK_OFFSET(0xA8672B0)
-#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_INIT_OFFSET UNITYSDK_OFFSET(0xA867460)
-#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA867450)
+#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_CREATEBYCONSTVALUE_OFFSET UNITYSDK_OFFSET(0xBFB2050)
+#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xBF9E220)
+#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0xBFB1F80)
+#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xBFB1F10)
+#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xBFB1EA0)
+#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_GET_RULEID_OFFSET UNITYSDK_OFFSET(0xBFB1F00)
+#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_INIT_OFFSET UNITYSDK_OFFSET(0xBFB2010)
+#define RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBFB2000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2SpecialRuleData_TypeDefinitionIndex = 60769;
+	inline static constexpr unsigned int MatchThreeV2SpecialRuleData_TypeDefinitionIndex = 61703;
 
 	class MatchThreeV2SpecialRuleData : public ::System::Object
 	{
 	public:
 		::System::UInt32 _RuleID_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::UInt32 ruleID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA__CTOR_OFFSET))(this, ruleID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::MatchThreeV2SpecialRuleRow* get_Row()
@@ -50,14 +50,14 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_GET_DESC_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MatchThreeV2SpecialRuleData* Create(::System::UInt32 ruleID)
+		static ::RPG::Client::MatchThreeV2SpecialRuleData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MatchThreeV2SpecialRuleData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_CREATE_OFFSET))(ruleID);
+			return ((::RPG::Client::MatchThreeV2SpecialRuleData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_CREATE_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::MatchThreeV2SpecialRuleData*>* CreateByConstValue(::System::String* constValue)
+		static ::System::Collections::Generic::List_1<::RPG::Client::MatchThreeV2SpecialRuleData*>* CreateByConstValue(::System::String* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::MatchThreeV2SpecialRuleData*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_CREATEBYCONSTVALUE_OFFSET))(constValue);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::MatchThreeV2SpecialRuleData*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2SPECIALRULEDATA_CREATEBYCONSTVALUE_OFFSET))(a1);
 		}
 
 		::System::Void Init()

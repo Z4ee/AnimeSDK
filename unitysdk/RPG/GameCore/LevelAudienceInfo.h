@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelAudienceMemberInfo; }
 
-#define RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18A3BDE0)
-#define RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A3BD80)
-#define RPG_GAMECORE_LEVELAUDIENCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3BDD0)
+#define RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1986D4B0)
+#define RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1986D450)
+#define RPG_GAMECORE_LEVELAUDIENCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1986D4A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudienceInfo_TypeDefinitionIndex = 16435;
+	inline static constexpr unsigned int LevelAudienceInfo_TypeDefinitionIndex = 16469;
 
 	class LevelAudienceInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIENCEINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelAudienceInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelAudienceInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelAudienceInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelAudienceInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelAudienceInfo* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelAudienceInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelAudienceInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelAudienceInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIENCEINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

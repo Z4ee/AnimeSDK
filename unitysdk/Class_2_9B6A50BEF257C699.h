@@ -1,0 +1,87 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BehaviorBase.h"
+
+namespace RPG::Client { class MonoEffectPluginRotate; }
+namespace UnityEngine { class MonoBehaviour; }
+
+#define CLASS_2_9B6A50BEF257C699_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1370A940)
+#define CLASS_2_9B6A50BEF257C699_METHOD_2_1AD3CAF2B0982C3F_OFFSET UNITYSDK_OFFSET(0x1370AA00)
+#define CLASS_2_9B6A50BEF257C699_METHOD_2_414C8F92528E4746_OFFSET UNITYSDK_OFFSET(0x1370AEF0)
+#define CLASS_2_9B6A50BEF257C699_METHOD_2_46D79C223C10A615_OFFSET UNITYSDK_OFFSET(0x1370ACA0)
+#define CLASS_2_9B6A50BEF257C699_METHOD_2_59ED6F6030483D7E_OFFSET UNITYSDK_OFFSET(0x1370AC50)
+#define CLASS_2_9B6A50BEF257C699_METHOD_2_AD23FDCC7576BB32_OFFSET UNITYSDK_OFFSET(0x1370AB90)
+#define CLASS_2_9B6A50BEF257C699_METHOD_2_B1EB734337965E73_OFFSET UNITYSDK_OFFSET(0x1370A8D0)
+#define CLASS_2_9B6A50BEF257C699_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1370AB50)
+#define CLASS_2_9B6A50BEF257C699_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1370A9B0)
+#define CLASS_2_9B6A50BEF257C699_METHOD_2_DEDB6D705D6319DA_OFFSET UNITYSDK_OFFSET(0x1370B110)
+#define CLASS_2_9B6A50BEF257C699__CTOR_OFFSET UNITYSDK_OFFSET(0x1370B100)
+#define CLASS_2_9B6A50BEF257C699___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1370B170)
+
+inline static constexpr unsigned int Class_2_9B6A50BEF257C699_TypeDefinitionIndex = 65351;
+
+class Class_2_9B6A50BEF257C699 : public ::RPG::Client::BehaviorBase
+{
+public:
+	::System::Single Field_2_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B1EB734337965E73(::UnityEngine::MonoBehaviour* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699_METHOD_2_B1EB734337965E73_OFFSET))(this, a1);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_AD23FDCC7576BB32(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699_METHOD_2_AD23FDCC7576BB32_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_414C8F92528E4746()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699_METHOD_2_414C8F92528E4746_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1AD3CAF2B0982C3F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699_METHOD_2_1AD3CAF2B0982C3F_OFFSET))(this);
+	}
+
+	::System::Void Method_2_46D79C223C10A615(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699_METHOD_2_46D79C223C10A615_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::MonoEffectPluginRotate* Method_2_59ED6F6030483D7E()
+	{
+		return ((::RPG::Client::MonoEffectPluginRotate*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699_METHOD_2_59ED6F6030483D7E_OFFSET))(this);
+	}
+
+	::System::Void Method_2_DEDB6D705D6319DA(::UnityEngine::MonoBehaviour* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699_METHOD_2_DEDB6D705D6319DA_OFFSET))(this, a1);
+	}
+
+	::System::Void __iFixBaseProxy_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9B6A50BEF257C699___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+	}
+};

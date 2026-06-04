@@ -7,15 +7,18 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class StreamingForceHLODVolumeData; }
 namespace RPG::GameCore { class StreamingLightVolumeData; }
 namespace RPG::GameCore { class StreamingRatioVolumeData; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTDATA_METHOD_3_2335E1EF4EA471D4_OFFSET UNITYSDK_OFFSET(0x18EA78A0)
-#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTDATA_METHOD_3_2EA65B95C0E827BD_OFFSET UNITYSDK_OFFSET(0x18EA78E0)
-#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA78D0)
+#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTDATA_METHOD_3_20F58A9A13C5C04D_OFFSET UNITYSDK_OFFSET(0x19CC4620)
+#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTDATA_METHOD_3_2335E1EF4EA471D4_OFFSET UNITYSDK_OFFSET(0x19CC45F0)
+#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTDATA_METHOD_3_2EA65B95C0E827BD_OFFSET UNITYSDK_OFFSET(0x19CB0710)
+#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTDATA_METHOD_3_5B4A21808B3EC035_OFFSET UNITYSDK_OFFSET(0x19CB0CF0)
+#define RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC4A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StreamingBlockVolumeComponentData_TypeDefinitionIndex = 18142;
+	inline static constexpr unsigned int StreamingBlockVolumeComponentData_TypeDefinitionIndex = 18138;
 
 	class StreamingBlockVolumeComponentData : public ::RPG::GameCore::StageVolumeComponentData
 	{
@@ -40,6 +43,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_2EA65B95C0E827BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StreamingBlockVolumeComponentData* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StreamingBlockVolumeComponentData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTDATA_METHOD_3_2EA65B95C0E827BD_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_5B4A21808B3EC035(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StreamingBlockVolumeComponentData*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StreamingBlockVolumeComponentData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTDATA_METHOD_3_5B4A21808B3EC035_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_20F58A9A13C5C04D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StreamingBlockVolumeComponentData* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StreamingBlockVolumeComponentData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGBLOCKVOLUMECOMPONENTDATA_METHOD_3_20F58A9A13C5C04D_OFFSET))(a1, a2);
 		}
 	};
 }

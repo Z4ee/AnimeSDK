@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int IExtendableMessage_1_TypeDefinitionIndex = 6195;
+	inline static constexpr unsigned int IExtendableMessage_1_TypeDefinitionIndex = 5397;
 
 	template <typename T>
 	class IExtendableMessage_1

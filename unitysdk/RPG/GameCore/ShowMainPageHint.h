@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOWMAINPAGEHINT_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18E632E0)
-#define RPG_GAMECORE_SHOWMAINPAGEHINT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E63260)
-#define RPG_GAMECORE_SHOWMAINPAGEHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E632B0)
+#define RPG_GAMECORE_SHOWMAINPAGEHINT_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19C7F400)
+#define RPG_GAMECORE_SHOWMAINPAGEHINT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C7F380)
+#define RPG_GAMECORE_SHOWMAINPAGEHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7F3D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowMainPageHint_TypeDefinitionIndex = 20111;
+	inline static constexpr unsigned int ShowMainPageHint_TypeDefinitionIndex = 19969;
 
 	class ShowMainPageHint : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMAINPAGEHINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ShowMainPageHint*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowMainPageHint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowMainPageHint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMAINPAGEHINT_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowMainPageHint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMAINPAGEHINT_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ShowMainPageHint* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowMainPageHint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowMainPageHint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMAINPAGEHINT_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowMainPageHint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMAINPAGEHINT_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

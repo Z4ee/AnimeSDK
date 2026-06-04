@@ -5,20 +5,20 @@
 namespace RPG::Client { class SwordTrainingSkillData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SWORDTRAININGSAMERANKSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0xDEB60)
+#define RPG_CLIENT_SWORDTRAININGSAMERANKSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x143D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingSameRankSkill_TypeDefinitionIndex = 57169;
+	inline static constexpr unsigned int SwordTrainingSameRankSkill_TypeDefinitionIndex = 57959;
 
 	struct alignas(8) SwordTrainingSameRankSkill
 	{
 		::System::UInt32 SkillRank; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::SwordTrainingSkillData*>* SkillDataList; // 0x18
 
-		::System::Void _ctor(::System::UInt32 skillRank, ::RPG::Client::SwordTrainingSkillData* skillData)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::SwordTrainingSkillData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::SwordTrainingSkillData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSAMERANKSKILL__CTOR_OFFSET))(this, skillRank, skillData);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::SwordTrainingSkillData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSAMERANKSKILL__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

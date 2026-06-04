@@ -7,10 +7,10 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GETXMLNAMESPACENODE_OFFSET UNITYSDK_OFFSET(0x1A030930)
-#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GET_HASLINEINFO_OFFSET UNITYSDK_OFFSET(0x1A030920)
-#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x1A030910)
-#define SYSTEM_XML_XPATH_XPATHDOCUMENT_LOOKUPNAMESPACES_OFFSET UNITYSDK_OFFSET(0x1A030940)
+#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GETXMLNAMESPACENODE_OFFSET UNITYSDK_OFFSET(0x1AEA25A0)
+#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GET_HASLINEINFO_OFFSET UNITYSDK_OFFSET(0x1AEA2590)
+#define SYSTEM_XML_XPATH_XPATHDOCUMENT_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x1AEA2580)
+#define SYSTEM_XML_XPATH_XPATHDOCUMENT_LOOKUPNAMESPACES_OFFSET UNITYSDK_OFFSET(0x1AEA25B0)
 
 namespace System::Xml::XPath
 {
@@ -22,8 +22,8 @@ namespace System::Xml::XPath
 		::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* mapNmsp; // 0x10
 		::System::Xml::XmlNameTable* nameTable; // 0x18
 		::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* pageXmlNmsp; // 0x20
-		::System::Int32 idxXmlNmsp; // 0x28
-		::System::Boolean hasLineInfo; // 0x2C
+		::System::Boolean hasLineInfo; // 0x28
+		::System::Int32 idxXmlNmsp; // 0x2C
 
 		::System::Xml::XmlNameTable* get_NameTable()
 		{
@@ -35,14 +35,14 @@ namespace System::Xml::XPath
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XPATH_XPATHDOCUMENT_GET_HASLINEINFO_OFFSET))(this);
 		}
 
-		::System::Int32 GetXmlNamespaceNode(::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*& pageXmlNmsp)
+		::System::Int32 GetXmlNamespaceNode(::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*& a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_XPATH_XPATHDOCUMENT_GETXMLNAMESPACENODE_OFFSET))(this, pageXmlNmsp);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_XPATH_XPATHDOCUMENT_GETXMLNAMESPACENODE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 LookupNamespaces(::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* pageElem, ::System::Int32 idxElem, ::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*& pageNmsp)
+		::System::Int32 LookupNamespaces(::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* a1, ::System::Int32 a2, ::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*& a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*, ::System::Int32, ::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_XPATH_XPATHDOCUMENT_LOOKUPNAMESPACES_OFFSET))(this, pageElem, idxElem, pageNmsp);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*, ::System::Int32, ::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_XPATH_XPATHDOCUMENT_LOOKUPNAMESPACES_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

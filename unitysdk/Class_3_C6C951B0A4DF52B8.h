@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetMinimapAlertVisionState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C6C951B0A4DF52B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x988E280)
-#define CLASS_3_C6C951B0A4DF52B8__CTOR_OFFSET UNITYSDK_OFFSET(0x988E250)
+#define CLASS_3_C6C951B0A4DF52B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13569BD0)
+#define CLASS_3_C6C951B0A4DF52B8__CTOR_OFFSET UNITYSDK_OFFSET(0x13569BA0)
 
-inline static constexpr unsigned int Class_3_C6C951B0A4DF52B8_TypeDefinitionIndex = 48472;
+inline static constexpr unsigned int Class_3_C6C951B0A4DF52B8_TypeDefinitionIndex = 49098;
 
 class Class_3_C6C951B0A4DF52B8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetMinimapAlertVisionState*>
 {

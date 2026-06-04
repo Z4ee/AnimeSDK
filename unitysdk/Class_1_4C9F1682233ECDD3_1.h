@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_125;
+class Class_1_43BD383C98B4C0C5_137;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_4C9F1682233ECDD3_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA045E20)
+#define CLASS_1_4C9F1682233ECDD3_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAB1FF50)
 
-inline static constexpr unsigned int Class_1_4C9F1682233ECDD3_1_TypeDefinitionIndex = 57229;
+inline static constexpr unsigned int Class_1_4C9F1682233ECDD3_1_TypeDefinitionIndex = 58019;
 
 class Class_1_4C9F1682233ECDD3_1 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_43BD383C98B4C0C5_125*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_43BD383C98B4C0C5_137*>* Field_1_0; // 0x10
 
 	::System::Void _ctor()
 	{

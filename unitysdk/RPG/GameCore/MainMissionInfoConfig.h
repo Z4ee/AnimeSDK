@@ -8,14 +8,16 @@ namespace RPG::GameCore { class MissionCustomValue; }
 namespace RPG::GameCore { class MissionCustomValueGroupConfigPack; }
 namespace RPG::GameCore { class SubMissionInfoConfig; }
 namespace RPG::GameCore { class SubMissionRelationConfig; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_METHOD_2_EE04D9ABD7FEE7E2_OFFSET UNITYSDK_OFFSET(0x18A82500)
-#define RPG_GAMECORE_MAINMISSIONINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A82A50)
+#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_METHOD_2_1374A289A4254508_OFFSET UNITYSDK_OFFSET(0x198B5430)
+#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_METHOD_2_B5A88B7849CACA7D_OFFSET UNITYSDK_OFFSET(0x198B5960)
+#define RPG_GAMECORE_MAINMISSIONINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198B5950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionInfoConfig_TypeDefinitionIndex = 18045;
+	inline static constexpr unsigned int MainMissionInfoConfig_TypeDefinitionIndex = 18069;
 
 	class MainMissionInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -40,9 +42,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONINFOCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_EE04D9ABD7FEE7E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MainMissionInfoConfig*& a2)
+		static ::System::Void Method_2_1374A289A4254508(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MainMissionInfoConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MainMissionInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONINFOCONFIG_METHOD_2_EE04D9ABD7FEE7E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MainMissionInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONINFOCONFIG_METHOD_2_1374A289A4254508_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_B5A88B7849CACA7D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MainMissionInfoConfig*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MainMissionInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINMISSIONINFOCONFIG_METHOD_2_B5A88B7849CACA7D_OFFSET))(a1, a2);
 		}
 	};
 }

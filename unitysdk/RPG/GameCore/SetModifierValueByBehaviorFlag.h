@@ -9,13 +9,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_METHOD_3_81B0391FEC875005_OFFSET UNITYSDK_OFFSET(0x18E39F40)
-#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_METHOD_3_909069C9F4498428_OFFSET UNITYSDK_OFFSET(0x18E3A060)
-#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E39FE0)
+#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_METHOD_3_498BA8D2E3ACD680_OFFSET UNITYSDK_OFFSET(0x19C56D20)
+#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_METHOD_3_909069C9F4498428_OFFSET UNITYSDK_OFFSET(0x19C56E40)
+#define RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C56DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetModifierValueByBehaviorFlag_TypeDefinitionIndex = 22013;
+	inline static constexpr unsigned int SetModifierValueByBehaviorFlag_TypeDefinitionIndex = 21826;
 
 	class SetModifierValueByBehaviorFlag : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_81B0391FEC875005(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetModifierValueByBehaviorFlag*& a2)
+		static ::System::Void Method_3_498BA8D2E3ACD680(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetModifierValueByBehaviorFlag*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetModifierValueByBehaviorFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_METHOD_3_81B0391FEC875005_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetModifierValueByBehaviorFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIERVALUEBYBEHAVIORFLAG_METHOD_3_498BA8D2E3ACD680_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_909069C9F4498428(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetModifierValueByBehaviorFlag* a2)

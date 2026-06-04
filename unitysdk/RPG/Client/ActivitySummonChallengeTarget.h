@@ -5,18 +5,18 @@
 
 namespace RPG::GameCore { class BattleTargetConfigRow; }
 
-#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_CREATE_OFFSET UNITYSDK_OFFSET(0x9C60930)
-#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_GET_HASCOMPLETED_OFFSET UNITYSDK_OFFSET(0x9C60910)
-#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_GET_ID_OFFSET UNITYSDK_OFFSET(0x9C60870)
-#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9C60890)
-#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_GET_SIMPLENAME_OFFSET UNITYSDK_OFFSET(0x9C608C0)
-#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_GET_TARGETPARAM_OFFSET UNITYSDK_OFFSET(0x9C608F0)
-#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_SET_HASCOMPLETED_OFFSET UNITYSDK_OFFSET(0x9C60920)
-#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x9C609E0)
+#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_CREATE_OFFSET UNITYSDK_OFFSET(0xB2016D0)
+#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_GET_HASCOMPLETED_OFFSET UNITYSDK_OFFSET(0xB2016B0)
+#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_GET_ID_OFFSET UNITYSDK_OFFSET(0xB201610)
+#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB201630)
+#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_GET_SIMPLENAME_OFFSET UNITYSDK_OFFSET(0xB201660)
+#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_GET_TARGETPARAM_OFFSET UNITYSDK_OFFSET(0xB201690)
+#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_SET_HASCOMPLETED_OFFSET UNITYSDK_OFFSET(0xB2016C0)
+#define RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xB201780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySummonChallengeTarget_TypeDefinitionIndex = 57113;
+	inline static constexpr unsigned int ActivitySummonChallengeTarget_TypeDefinitionIndex = 57903;
 
 	class ActivitySummonChallengeTarget : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 		::RPG::GameCore::BattleTargetConfigRow* _Meta; // 0x10
 		::System::Boolean _HasCompleted_k__BackingField; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::BattleTargetConfigRow* meta)
+		::System::Void _ctor(::RPG::GameCore::BattleTargetConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleTargetConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET__CTOR_OFFSET))(this, meta);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleTargetConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -54,14 +54,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_GET_HASCOMPLETED_OFFSET))(this);
 		}
 
-		::System::Void set_HasCompleted(::System::Boolean value)
+		::System::Void set_HasCompleted(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_SET_HASCOMPLETED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_SET_HASCOMPLETED_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ActivitySummonChallengeTarget* Create(::System::UInt32 id, ::System::Boolean hasCompleted)
+		static ::RPG::Client::ActivitySummonChallengeTarget* Create(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::RPG::Client::ActivitySummonChallengeTarget*(*)(::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_CREATE_OFFSET))(id, hasCompleted);
+			return ((::RPG::Client::ActivitySummonChallengeTarget*(*)(::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONCHALLENGETARGET_CREATE_OFFSET))(a1, a2);
 		}
 	};
 }

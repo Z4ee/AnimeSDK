@@ -27,7 +27,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseCameraSystem_1_TypeDefinitionIndex = 70615;
+	inline static constexpr unsigned int BaseCameraSystem_1_TypeDefinitionIndex = 71433;
 
 	template <typename T>
 	class BaseCameraSystem_1 : public ::System::Object

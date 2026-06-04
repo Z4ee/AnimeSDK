@@ -6,22 +6,22 @@
 namespace TMPro { class TMP_Asset; }
 namespace UnityEngine::TextCore { class Glyph; }
 
-#define TMPRO_TMP_TEXTELEMENT_GET_ELEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x1A39ED90)
-#define TMPRO_TMP_TEXTELEMENT_GET_GLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x1A39EE00)
-#define TMPRO_TMP_TEXTELEMENT_GET_GLYPH_OFFSET UNITYSDK_OFFSET(0x1A39EDE0)
-#define TMPRO_TMP_TEXTELEMENT_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x1A39EE20)
-#define TMPRO_TMP_TEXTELEMENT_GET_TEXTASSET_OFFSET UNITYSDK_OFFSET(0x1A39EDC0)
-#define TMPRO_TMP_TEXTELEMENT_GET_UNICODE_OFFSET UNITYSDK_OFFSET(0x1A39EDA0)
-#define TMPRO_TMP_TEXTELEMENT_SET_GLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x1A39EE10)
-#define TMPRO_TMP_TEXTELEMENT_SET_GLYPH_OFFSET UNITYSDK_OFFSET(0x1A39EDF0)
-#define TMPRO_TMP_TEXTELEMENT_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x1A39EE30)
-#define TMPRO_TMP_TEXTELEMENT_SET_TEXTASSET_OFFSET UNITYSDK_OFFSET(0x1A39EDD0)
-#define TMPRO_TMP_TEXTELEMENT_SET_UNICODE_OFFSET UNITYSDK_OFFSET(0x1A39EDB0)
-#define TMPRO_TMP_TEXTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A39EE40)
+#define TMPRO_TMP_TEXTELEMENT_GET_ELEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x1B1F5830)
+#define TMPRO_TMP_TEXTELEMENT_GET_GLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x1B1F58A0)
+#define TMPRO_TMP_TEXTELEMENT_GET_GLYPH_OFFSET UNITYSDK_OFFSET(0x1B1F5880)
+#define TMPRO_TMP_TEXTELEMENT_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x1B1F58C0)
+#define TMPRO_TMP_TEXTELEMENT_GET_TEXTASSET_OFFSET UNITYSDK_OFFSET(0x1B1F5860)
+#define TMPRO_TMP_TEXTELEMENT_GET_UNICODE_OFFSET UNITYSDK_OFFSET(0x1B1F5840)
+#define TMPRO_TMP_TEXTELEMENT_SET_GLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x1B1F58B0)
+#define TMPRO_TMP_TEXTELEMENT_SET_GLYPH_OFFSET UNITYSDK_OFFSET(0x1B1F5890)
+#define TMPRO_TMP_TEXTELEMENT_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x1B1F58D0)
+#define TMPRO_TMP_TEXTELEMENT_SET_TEXTASSET_OFFSET UNITYSDK_OFFSET(0x1B1F5870)
+#define TMPRO_TMP_TEXTELEMENT_SET_UNICODE_OFFSET UNITYSDK_OFFSET(0x1B1F5850)
+#define TMPRO_TMP_TEXTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F58E0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_TextElement_TypeDefinitionIndex = 40218;
+	inline static constexpr unsigned int TMP_TextElement_TypeDefinitionIndex = 41045;
 
 	class TMP_TextElement : public ::System::Object
 	{
@@ -48,9 +48,9 @@ namespace TMPro
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_GET_UNICODE_OFFSET))(this);
 		}
 
-		::System::Void set_unicode(::System::UInt32 value)
+		::System::Void set_unicode(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_SET_UNICODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_SET_UNICODE_OFFSET))(this, a1);
 		}
 
 		::TMPro::TMP_Asset* get_textAsset()
@@ -58,9 +58,9 @@ namespace TMPro
 			return ((::TMPro::TMP_Asset*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_GET_TEXTASSET_OFFSET))(this);
 		}
 
-		::System::Void set_textAsset(::TMPro::TMP_Asset* value)
+		::System::Void set_textAsset(::TMPro::TMP_Asset* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_Asset*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_SET_TEXTASSET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_Asset*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_SET_TEXTASSET_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::TextCore::Glyph* get_glyph()
@@ -68,9 +68,9 @@ namespace TMPro
 			return ((::UnityEngine::TextCore::Glyph*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_GET_GLYPH_OFFSET))(this);
 		}
 
-		::System::Void set_glyph(::UnityEngine::TextCore::Glyph* value)
+		::System::Void set_glyph(::UnityEngine::TextCore::Glyph* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_SET_GLYPH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_SET_GLYPH_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_glyphIndex()
@@ -78,9 +78,9 @@ namespace TMPro
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_GET_GLYPHINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_glyphIndex(::System::UInt32 value)
+		::System::Void set_glyphIndex(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_SET_GLYPHINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_SET_GLYPHINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Single get_scale()
@@ -88,9 +88,9 @@ namespace TMPro
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_GET_SCALE_OFFSET))(this);
 		}
 
-		::System::Void set_scale(::System::Single value)
+		::System::Void set_scale(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_SET_SCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXTELEMENT_SET_SCALE_OFFSET))(this, a1);
 		}
 	};
 }

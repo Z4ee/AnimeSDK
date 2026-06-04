@@ -7,27 +7,27 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class FiveDimDanmuTrack; }
 namespace System { class String; }
 
-#define CLASS_1_3039E593DEE50CCF_CLEAR_OFFSET UNITYSDK_OFFSET(0x17F1B2B0)
-#define CLASS_1_3039E593DEE50CCF__CTOR_OFFSET UNITYSDK_OFFSET(0x17F1B330)
+#define CLASS_1_3039E593DEE50CCF_CLEAR_OFFSET UNITYSDK_OFFSET(0x18C0DAC0)
+#define CLASS_1_3039E593DEE50CCF__CTOR_OFFSET UNITYSDK_OFFSET(0x18C0DB40)
 
-inline static constexpr unsigned int Class_1_3039E593DEE50CCF_TypeDefinitionIndex = 39226;
+inline static constexpr unsigned int Class_1_3039E593DEE50CCF_TypeDefinitionIndex = 39995;
 
 class Class_1_3039E593DEE50CCF : public ::System::Object
 {
 public:
-	::System::String* Field_1_1; // 0x10
-	::RPG::PoolList_1<::RPG::GameCore::FiveDimDanmuTrack*>* Field_1_0; // 0x18
-	::System::Boolean Field_1_4; // 0x20
-	::System::Boolean Field_1_5; // 0x21
-	::System::Int32 Field_1_11; // 0x24
-	::System::Single Field_1_2; // 0x28
-	::System::Int32 Field_1_3; // 0x2C
-	::System::Single Field_1_7; // 0x30
-	::System::Single Field_1_9; // 0x34
-	::System::Single Field_1_10; // 0x38
-	::System::UInt32 Field_1_12; // 0x3C
-	::RPG::GameCore::FiveDimDanmuTrackAlignment Field_1_6; // 0x40
-	::System::Single Field_1_8; // 0x44
+	::System::String* Field_1_0; // 0x10
+	::RPG::PoolList_1<::RPG::GameCore::FiveDimDanmuTrack*>* Field_1_1; // 0x18
+	::System::Single Field_1_2; // 0x20
+	::System::Single Field_1_3; // 0x24
+	::System::Single Field_1_4; // 0x28
+	::System::Int32 Field_1_5; // 0x2C
+	::System::Single Field_1_6; // 0x30
+	::RPG::GameCore::FiveDimDanmuTrackAlignment Field_1_7; // 0x34
+	::System::Single Field_1_8; // 0x38
+	::System::Boolean Field_1_9; // 0x3C
+	::System::Boolean Field_1_10; // 0x3D
+	::System::UInt32 Field_1_11; // 0x40
+	::System::Int32 Field_1_12; // 0x44
 
 	::System::Void _ctor()
 	{

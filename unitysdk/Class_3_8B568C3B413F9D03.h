@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TeamLookAt; }
 
-#define CLASS_3_8B568C3B413F9D03_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x124F8740)
-#define CLASS_3_8B568C3B413F9D03__CTOR_OFFSET UNITYSDK_OFFSET(0x124F8710)
+#define CLASS_3_8B568C3B413F9D03_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1430ABE0)
+#define CLASS_3_8B568C3B413F9D03__CTOR_OFFSET UNITYSDK_OFFSET(0x1430ABB0)
 
-inline static constexpr unsigned int Class_3_8B568C3B413F9D03_TypeDefinitionIndex = 51359;
+inline static constexpr unsigned int Class_3_8B568C3B413F9D03_TypeDefinitionIndex = 52027;
 
 class Class_3_8B568C3B413F9D03 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TeamLookAt*>
 {

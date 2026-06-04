@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLEENTITYSKILLLEVELWHITEBOXDATA_METHOD_2_6C0245E14DA926CB_OFFSET UNITYSDK_OFFSET(0x186F3CE0)
-#define RPG_GAMECORE_BATTLEENTITYSKILLLEVELWHITEBOXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x186F3E40)
+#define RPG_GAMECORE_BATTLEENTITYSKILLLEVELWHITEBOXDATA_METHOD_2_6625D0844F1997B9_OFFSET UNITYSDK_OFFSET(0x194C7410)
+#define RPG_GAMECORE_BATTLEENTITYSKILLLEVELWHITEBOXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x194C7570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEntitySkillLevelWhiteBoxData_TypeDefinitionIndex = 21654;
+	inline static constexpr unsigned int BattleEntitySkillLevelWhiteBoxData_TypeDefinitionIndex = 21510;
 
 	class BattleEntitySkillLevelWhiteBoxData : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEENTITYSKILLLEVELWHITEBOXDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6C0245E14DA926CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEntitySkillLevelWhiteBoxData*& a2)
+		static ::System::Void Method_2_6625D0844F1997B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEntitySkillLevelWhiteBoxData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEntitySkillLevelWhiteBoxData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEENTITYSKILLLEVELWHITEBOXDATA_METHOD_2_6C0245E14DA926CB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEntitySkillLevelWhiteBoxData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEENTITYSKILLLEVELWHITEBOXDATA_METHOD_2_6625D0844F1997B9_OFFSET))(a1, a2);
 		}
 	};
 }

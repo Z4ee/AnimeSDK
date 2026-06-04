@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_REFLECTION_EXCEPTIONHANDLINGCLAUSE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x179A0BA0)
-#define SYSTEM_REFLECTION_EXCEPTIONHANDLINGCLAUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x179A0B90)
+#define SYSTEM_REFLECTION_EXCEPTIONHANDLINGCLAUSE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18753580)
+#define SYSTEM_REFLECTION_EXCEPTIONHANDLINGCLAUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x18753570)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ExceptionHandlingClause_TypeDefinitionIndex = 604;
+	inline static constexpr unsigned int ExceptionHandlingClause_TypeDefinitionIndex = 603;
 
 	class ExceptionHandlingClause : public ::System::Object
 	{

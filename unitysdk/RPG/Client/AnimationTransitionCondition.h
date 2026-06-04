@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ANIMATIONTRANSITIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x9D20A00)
+#define RPG_CLIENT_ANIMATIONTRANSITIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xB3103F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimationTransitionCondition_TypeDefinitionIndex = 63470;
+	inline static constexpr unsigned int AnimationTransitionCondition_TypeDefinitionIndex = 64387;
 
 	class AnimationTransitionCondition : public ::System::Object
 	{

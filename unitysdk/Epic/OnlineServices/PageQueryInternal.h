@@ -6,16 +6,16 @@ namespace Epic::OnlineServices { class PageQuery; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_GET_MAXCOUNT_OFFSET UNITYSDK_OFFSET(0xD240)
-#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_GET_STARTINDEX_OFFSET UNITYSDK_OFFSET(0x1DA80)
-#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5A420)
-#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_MAXCOUNT_OFFSET UNITYSDK_OFFSET(0xD250)
-#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5A400)
-#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_STARTINDEX_OFFSET UNITYSDK_OFFSET(0x1D50)
+#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_GET_MAXCOUNT_OFFSET UNITYSDK_OFFSET(0xDAD0)
+#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_GET_STARTINDEX_OFFSET UNITYSDK_OFFSET(0x1E110)
+#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5F640)
+#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_MAXCOUNT_OFFSET UNITYSDK_OFFSET(0xDAE0)
+#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5F620)
+#define EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_STARTINDEX_OFFSET UNITYSDK_OFFSET(0x21F0)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int PageQueryInternal_TypeDefinitionIndex = 41087;
+	inline static constexpr unsigned int PageQueryInternal_TypeDefinitionIndex = 41890;
 
 	struct alignas(4) PageQueryInternal
 	{
@@ -28,9 +28,9 @@ namespace Epic::OnlineServices
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_GET_STARTINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_StartIndex(::System::Int32 value)
+		::System::Void set_StartIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_STARTINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_STARTINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_MaxCount()
@@ -38,19 +38,19 @@ namespace Epic::OnlineServices
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_GET_MAXCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_MaxCount(::System::Int32 value)
+		::System::Void set_MaxCount(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_MAXCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_MAXCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::PageQuery* other)
+		::System::Void Set(::Epic::OnlineServices::PageQuery* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PageQuery*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PageQuery*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PAGEQUERYINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

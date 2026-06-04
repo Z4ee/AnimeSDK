@@ -4,11 +4,11 @@
 
 namespace UnityEngine::UI { class Toggle; }
 
-#define UNITYENGINE_UI_TOGGLE_TOGGLESELECTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5B2810)
+#define UNITYENGINE_UI_TOGGLE_TOGGLESELECTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3FE500)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Toggle_ToggleSelectEvent_TypeDefinitionIndex = 5747;
+	inline static constexpr unsigned int Toggle_ToggleSelectEvent_TypeDefinitionIndex = 6024;
 
 	class Toggle_ToggleSelectEvent : public ::UnityEngine::Events::UnityEvent_2<::UnityEngine::UI::Toggle*, ::System::Boolean>
 	{

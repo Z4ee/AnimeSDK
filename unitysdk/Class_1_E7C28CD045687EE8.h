@@ -1,0 +1,153 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_3455AF24EE8529C6_Enum_3_FCBB2C507E9B21A3_7.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_3455AF24EE8529C6;
+class Class_1_4CCB582C238C282E;
+class Class_1_54D5CCE1D19D93EF;
+class Class_1_5623C129675A2671;
+namespace RPG::Client { class ChenLingFesStageData; }
+
+#define CLASS_1_E7C28CD045687EE8_GET_BUSINESSDAYLEVELDATA_OFFSET UNITYSDK_OFFSET(0xD7ED050)
+#define CLASS_1_E7C28CD045687EE8_GET_BUSINESSDAYPHASEDATA_OFFSET UNITYSDK_OFFSET(0xD7ED070)
+#define CLASS_1_E7C28CD045687EE8_GET_BUSINESSDAY_OFFSET UNITYSDK_OFFSET(0xD7ED010)
+#define CLASS_1_E7C28CD045687EE8_GET_ISNEWHIGHEST_OFFSET UNITYSDK_OFFSET(0xD7ECFF0)
+#define CLASS_1_E7C28CD045687EE8_GET_LEVELDATA_OFFSET UNITYSDK_OFFSET(0xD7ECFB0)
+#define CLASS_1_E7C28CD045687EE8_GET_LEVELID_OFFSET UNITYSDK_OFFSET(0xD7ECF70)
+#define CLASS_1_E7C28CD045687EE8_GET_SETTLEDATACASE_OFFSET UNITYSDK_OFFSET(0xD7ED030)
+#define CLASS_1_E7C28CD045687EE8_GET_STAGEDATAREF_OFFSET UNITYSDK_OFFSET(0xD7ECF90)
+#define CLASS_1_E7C28CD045687EE8_GET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0xD7ECFD0)
+#define CLASS_1_E7C28CD045687EE8_METHOD_1_774F7E78C0A3222A_OFFSET UNITYSDK_OFFSET(0xD7ECD90)
+#define CLASS_1_E7C28CD045687EE8_METHOD_1_B7E3C3DAFBD8F4B2_OFFSET UNITYSDK_OFFSET(0xD7ECE70)
+#define CLASS_1_E7C28CD045687EE8_SET_BUSINESSDAYLEVELDATA_OFFSET UNITYSDK_OFFSET(0xD7ED060)
+#define CLASS_1_E7C28CD045687EE8_SET_BUSINESSDAYPHASEDATA_OFFSET UNITYSDK_OFFSET(0xD7ED080)
+#define CLASS_1_E7C28CD045687EE8_SET_BUSINESSDAY_OFFSET UNITYSDK_OFFSET(0xD7ED020)
+#define CLASS_1_E7C28CD045687EE8_SET_ISNEWHIGHEST_OFFSET UNITYSDK_OFFSET(0xD7ED000)
+#define CLASS_1_E7C28CD045687EE8_SET_LEVELDATA_OFFSET UNITYSDK_OFFSET(0xD7ECFC0)
+#define CLASS_1_E7C28CD045687EE8_SET_LEVELID_OFFSET UNITYSDK_OFFSET(0xD7ECF80)
+#define CLASS_1_E7C28CD045687EE8_SET_SETTLEDATACASE_OFFSET UNITYSDK_OFFSET(0xD7ED040)
+#define CLASS_1_E7C28CD045687EE8_SET_STAGEDATAREF_OFFSET UNITYSDK_OFFSET(0xD7ECFA0)
+#define CLASS_1_E7C28CD045687EE8_SET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0xD7ECFE0)
+#define CLASS_1_E7C28CD045687EE8__CTOR_OFFSET UNITYSDK_OFFSET(0xD7ECE60)
+
+inline static constexpr unsigned int Class_1_E7C28CD045687EE8_TypeDefinitionIndex = 57468;
+
+class Class_1_E7C28CD045687EE8 : public ::System::Object
+{
+public:
+	::Class_1_4CCB582C238C282E* _LevelData_k__BackingField; // 0x10
+	::Class_1_54D5CCE1D19D93EF* _BusinessDayPhaseData_k__BackingField; // 0x18
+	::RPG::Client::ChenLingFesStageData* _StageDataRef_k__BackingField; // 0x20
+	::Class_1_4CCB582C238C282E* _BusinessDayLevelData_k__BackingField; // 0x28
+	::System::UInt32 _BusinessDay_k__BackingField; // 0x30
+	::System::UInt32 _LevelID_k__BackingField; // 0x34
+	::System::Boolean _IsNewHighest_k__BackingField; // 0x38
+	::Class_1_3455AF24EE8529C6_Enum_3_FCBB2C507E9B21A3_7 _SettleDataCase_k__BackingField; // 0x3C
+	::System::UInt32 _TotalScore_k__BackingField; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_E7C28CD045687EE8* Method_1_774F7E78C0A3222A(::System::UInt32 a1, ::Class_1_5623C129675A2671* a2, ::RPG::Client::ChenLingFesStageData* a3)
+	{
+		return ((::Class_1_E7C28CD045687EE8*(*)(::System::UInt32, ::Class_1_5623C129675A2671*, ::RPG::Client::ChenLingFesStageData*))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_METHOD_1_774F7E78C0A3222A_OFFSET))(a1, a2, a3);
+	}
+
+	::System::Void Method_1_B7E3C3DAFBD8F4B2(::Class_1_3455AF24EE8529C6* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_3455AF24EE8529C6*))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_METHOD_1_B7E3C3DAFBD8F4B2_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_LevelID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_GET_LEVELID_OFFSET))(this);
+	}
+
+	::System::Void set_LevelID(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_SET_LEVELID_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::ChenLingFesStageData* get_StageDataRef()
+	{
+		return ((::RPG::Client::ChenLingFesStageData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_GET_STAGEDATAREF_OFFSET))(this);
+	}
+
+	::System::Void set_StageDataRef(::RPG::Client::ChenLingFesStageData* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingFesStageData*))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_SET_STAGEDATAREF_OFFSET))(this, a1);
+	}
+
+	::Class_1_4CCB582C238C282E* get_LevelData()
+	{
+		return ((::Class_1_4CCB582C238C282E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_GET_LEVELDATA_OFFSET))(this);
+	}
+
+	::System::Void set_LevelData(::Class_1_4CCB582C238C282E* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_4CCB582C238C282E*))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_SET_LEVELDATA_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_TotalScore()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_GET_TOTALSCORE_OFFSET))(this);
+	}
+
+	::System::Void set_TotalScore(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_SET_TOTALSCORE_OFFSET))(this, a1);
+	}
+
+	::System::Boolean get_IsNewHighest()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_GET_ISNEWHIGHEST_OFFSET))(this);
+	}
+
+	::System::Void set_IsNewHighest(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_SET_ISNEWHIGHEST_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_BusinessDay()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_GET_BUSINESSDAY_OFFSET))(this);
+	}
+
+	::System::Void set_BusinessDay(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_SET_BUSINESSDAY_OFFSET))(this, a1);
+	}
+
+	::Class_1_3455AF24EE8529C6_Enum_3_FCBB2C507E9B21A3_7 get_SettleDataCase()
+	{
+		return ((::Class_1_3455AF24EE8529C6_Enum_3_FCBB2C507E9B21A3_7(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_GET_SETTLEDATACASE_OFFSET))(this);
+	}
+
+	::System::Void set_SettleDataCase(::Class_1_3455AF24EE8529C6_Enum_3_FCBB2C507E9B21A3_7 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_3455AF24EE8529C6_Enum_3_FCBB2C507E9B21A3_7))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_SET_SETTLEDATACASE_OFFSET))(this, a1);
+	}
+
+	::Class_1_4CCB582C238C282E* get_BusinessDayLevelData()
+	{
+		return ((::Class_1_4CCB582C238C282E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_GET_BUSINESSDAYLEVELDATA_OFFSET))(this);
+	}
+
+	::System::Void set_BusinessDayLevelData(::Class_1_4CCB582C238C282E* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_4CCB582C238C282E*))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_SET_BUSINESSDAYLEVELDATA_OFFSET))(this, a1);
+	}
+
+	::Class_1_54D5CCE1D19D93EF* get_BusinessDayPhaseData()
+	{
+		return ((::Class_1_54D5CCE1D19D93EF*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_GET_BUSINESSDAYPHASEDATA_OFFSET))(this);
+	}
+
+	::System::Void set_BusinessDayPhaseData(::Class_1_54D5CCE1D19D93EF* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_54D5CCE1D19D93EF*))((::PBYTE)hIl2Cpp + CLASS_1_E7C28CD045687EE8_SET_BUSINESSDAYPHASEDATA_OFFSET))(this, a1);
+	}
+};

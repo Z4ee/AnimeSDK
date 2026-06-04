@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FAKESKILLCONFIG_METHOD_2_3DB4ED63E50BBF66_OFFSET UNITYSDK_OFFSET(0x188C9AE0)
-#define RPG_GAMECORE_FAKESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188C9C40)
+#define RPG_GAMECORE_FAKESKILLCONFIG_METHOD_2_3DB4ED63E50BBF66_OFFSET UNITYSDK_OFFSET(0x19706DA0)
+#define RPG_GAMECORE_FAKESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19706F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FakeSkillConfig_TypeDefinitionIndex = 17284;
+	inline static constexpr unsigned int FakeSkillConfig_TypeDefinitionIndex = 17289;
 
 	class FakeSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

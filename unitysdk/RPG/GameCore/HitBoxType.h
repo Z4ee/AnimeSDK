@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HitBoxType_TypeDefinitionIndex = 52396;
+	inline static constexpr unsigned int HitBoxType_TypeDefinitionIndex = 53096;
 
 	enum class HitBoxType : ::System::Byte
 	{

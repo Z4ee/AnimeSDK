@@ -8,29 +8,29 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F121C0)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8F12160)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F12180)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F12140)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x8F121A0)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8F127A0)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8F12170)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F12190)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8F121E0)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F12150)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x8F121B0)
-#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8F128D0)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA33A350)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA33A2F0)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA33A310)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA33A2D0)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0xA33A330)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA33A930)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA33A300)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA33A320)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA33A370)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA33A2E0)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0xA33A340)
+#define EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA33AA60)
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int JoinRoomCallbackInfo_TypeDefinitionIndex = 41528;
+	inline static constexpr unsigned int JoinRoomCallbackInfo_TypeDefinitionIndex = 42331;
 
 	class JoinRoomCallbackInfo : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
-		::System::String* _RoomName_k__BackingField; // 0x18
-		::System::Object* _ClientData_k__BackingField; // 0x20
+		::System::String* _RoomName_k__BackingField; // 0x10
+		::System::Object* _ClientData_k__BackingField; // 0x18
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x20
 		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -43,9 +43,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -53,9 +53,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -63,9 +63,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RoomName()
@@ -73,9 +73,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GET_ROOMNAME_OFFSET))(this);
 		}
 
-		::System::Void set_RoomName(::System::String* value)
+		::System::Void set_RoomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_ROOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_ROOMNAME_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -83,14 +83,14 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::RTC::JoinRoomCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::RTC::JoinRoomCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::RTC::JoinRoomCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::RTC::JoinRoomCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_JOINROOMCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

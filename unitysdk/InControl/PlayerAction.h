@@ -24,97 +24,97 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define INCONTROL_PLAYERACTION_ADDBINDING_OFFSET UNITYSDK_OFFSET(0x17201DF0)
-#define INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_1_OFFSET UNITYSDK_OFFSET(0x17201BD0)
-#define INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_2_OFFSET UNITYSDK_OFFSET(0x17201D00)
-#define INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_3_OFFSET UNITYSDK_OFFSET(0x17201D50)
-#define INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_4_OFFSET UNITYSDK_OFFSET(0x17201D80)
-#define INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_OFFSET UNITYSDK_OFFSET(0x17201A60)
-#define INCONTROL_PLAYERACTION_ADDDEVICEBINDING_OFFSET UNITYSDK_OFFSET(0x17204540)
-#define INCONTROL_PLAYERACTION_ADD_ONBINDINGSCHANGED_OFFSET UNITYSDK_OFFSET(0x172014A0)
-#define INCONTROL_PLAYERACTION_ADD_ONLASTINPUTTYPECHANGED_OFFSET UNITYSDK_OFFSET(0x172013C0)
-#define INCONTROL_PLAYERACTION_CLEARBINDINGS_OFFSET UNITYSDK_OFFSET(0x17202A00)
-#define INCONTROL_PLAYERACTION_COUNTBINDINGSOFTYPE_OFFSET UNITYSDK_OFFSET(0x172027B0)
-#define INCONTROL_PLAYERACTION_DETECTBINDINGS_OFFSET UNITYSDK_OFFSET(0x17203AF0)
-#define INCONTROL_PLAYERACTION_FINDBINDING_OFFSET UNITYSDK_OFFSET(0x172023C0)
-#define INCONTROL_PLAYERACTION_GETDEVICEBINDINGSOURCE_OFFSET UNITYSDK_OFFSET(0x172045A0)
-#define INCONTROL_PLAYERACTION_GET_ACTIVEDEVICE_OFFSET UNITYSDK_OFFSET(0x172041A0)
-#define INCONTROL_PLAYERACTION_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x17202E00)
-#define INCONTROL_PLAYERACTION_GET_DEVICE_OFFSET UNITYSDK_OFFSET(0x17204150)
-#define INCONTROL_PLAYERACTION_GET_ISCOMBOCONTROL_OFFSET UNITYSDK_OFFSET(0x17204650)
-#define INCONTROL_PLAYERACTION_GET_ISINLEAVINGCOMBO_OFFSET UNITYSDK_OFFSET(0x17204670)
-#define INCONTROL_PLAYERACTION_GET_ISLISTENINGFORBINDING_OFFSET UNITYSDK_OFFSET(0x17202DD0)
-#define INCONTROL_PLAYERACTION_GET_LASTINPUTTYPEISDEVICE_OFFSET UNITYSDK_OFFSET(0x17204090)
-#define INCONTROL_PLAYERACTION_GET_LOWERDEADZONE_OFFSET UNITYSDK_OFFSET(0x172041E0)
-#define INCONTROL_PLAYERACTION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17201380)
-#define INCONTROL_PLAYERACTION_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x172013A0)
-#define INCONTROL_PLAYERACTION_GET_UNFILTEREDBINDINGS_OFFSET UNITYSDK_OFFSET(0x17202E10)
-#define INCONTROL_PLAYERACTION_GET_UPPERDEADZONE_OFFSET UNITYSDK_OFFSET(0x17204200)
-#define INCONTROL_PLAYERACTION_GET_USERDATA_OFFSET UNITYSDK_OFFSET(0x17201560)
-#define INCONTROL_PLAYERACTION_HARDREMOVEBINDING_OFFSET UNITYSDK_OFFSET(0x17202490)
-#define INCONTROL_PLAYERACTION_HASBINDING_OFFSET UNITYSDK_OFFSET(0x17202390)
-#define INCONTROL_PLAYERACTION_INDEXOFFIRSTINVALIDBINDING_OFFSET UNITYSDK_OFFSET(0x17202970)
-#define INCONTROL_PLAYERACTION_INSERTBINDINGAT_OFFSET UNITYSDK_OFFSET(0x17201EE0)
-#define INCONTROL_PLAYERACTION_LISTENFORBINDINGREPLACING_OFFSET UNITYSDK_OFFSET(0x17202C10)
-#define INCONTROL_PLAYERACTION_LISTENFORBINDING_OFFSET UNITYSDK_OFFSET(0x17202C00)
-#define INCONTROL_PLAYERACTION_LOAD_OFFSET UNITYSDK_OFFSET(0x17204220)
-#define INCONTROL_PLAYERACTION_REMOVEBINDINGAT_OFFSET UNITYSDK_OFFSET(0x17202710)
-#define INCONTROL_PLAYERACTION_REMOVEBINDING_OFFSET UNITYSDK_OFFSET(0x172026D0)
-#define INCONTROL_PLAYERACTION_REMOVEFIRSTBINDINGOFTYPE_OFFSET UNITYSDK_OFFSET(0x17202850)
-#define INCONTROL_PLAYERACTION_REMOVEORPHANEDBINDINGS_OFFSET UNITYSDK_OFFSET(0x17202E20)
-#define INCONTROL_PLAYERACTION_REMOVE_ONBINDINGSCHANGED_OFFSET UNITYSDK_OFFSET(0x17201500)
-#define INCONTROL_PLAYERACTION_REMOVE_ONLASTINPUTTYPECHANGED_OFFSET UNITYSDK_OFFSET(0x17201430)
-#define INCONTROL_PLAYERACTION_REPLACEBINDING_OFFSET UNITYSDK_OFFSET(0x17202120)
-#define INCONTROL_PLAYERACTION_RESETBINDINGS_OFFSET UNITYSDK_OFFSET(0x17202AC0)
-#define INCONTROL_PLAYERACTION_SAVE_OFFSET UNITYSDK_OFFSET(0x17204440)
-#define INCONTROL_PLAYERACTION_SET_DEVICE_OFFSET UNITYSDK_OFFSET(0x17203000)
-#define INCONTROL_PLAYERACTION_SET_ISCOMBOCONTROL_OFFSET UNITYSDK_OFFSET(0x17204660)
-#define INCONTROL_PLAYERACTION_SET_LOWERDEADZONE_OFFSET UNITYSDK_OFFSET(0x172041F0)
-#define INCONTROL_PLAYERACTION_SET_NAME_OFFSET UNITYSDK_OFFSET(0x17201390)
-#define INCONTROL_PLAYERACTION_SET_OWNER_OFFSET UNITYSDK_OFFSET(0x172013B0)
-#define INCONTROL_PLAYERACTION_SET_UPPERDEADZONE_OFFSET UNITYSDK_OFFSET(0x17204210)
-#define INCONTROL_PLAYERACTION_SET_USERDATA_OFFSET UNITYSDK_OFFSET(0x17201570)
-#define INCONTROL_PLAYERACTION_STOPLISTENINGFORBINDING_OFFSET UNITYSDK_OFFSET(0x17202D90)
-#define INCONTROL_PLAYERACTION_UPDATEBINDINGS_OFFSET UNITYSDK_OFFSET(0x17203020)
-#define INCONTROL_PLAYERACTION_UPDATEVISIBLEBINDINGS_OFFSET UNITYSDK_OFFSET(0x172025F0)
-#define INCONTROL_PLAYERACTION_UPDATE_OFFSET UNITYSDK_OFFSET(0x17202F00)
-#define INCONTROL_PLAYERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17201580)
-#define INCONTROL_PLAYERACTION__UPDATECOMBO_OFFSET UNITYSDK_OFFSET(0x172038C0)
+#define INCONTROL_PLAYERACTION_ADDBINDING_OFFSET UNITYSDK_OFFSET(0x18036F90)
+#define INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_1_OFFSET UNITYSDK_OFFSET(0x18036D80)
+#define INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_2_OFFSET UNITYSDK_OFFSET(0x18036EB0)
+#define INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_3_OFFSET UNITYSDK_OFFSET(0x18036F00)
+#define INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_4_OFFSET UNITYSDK_OFFSET(0x18036F30)
+#define INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_OFFSET UNITYSDK_OFFSET(0x18036A20)
+#define INCONTROL_PLAYERACTION_ADDDEVICEBINDING_OFFSET UNITYSDK_OFFSET(0x180399B0)
+#define INCONTROL_PLAYERACTION_ADD_ONBINDINGSCHANGED_OFFSET UNITYSDK_OFFSET(0x180364B0)
+#define INCONTROL_PLAYERACTION_ADD_ONLASTINPUTTYPECHANGED_OFFSET UNITYSDK_OFFSET(0x180363D0)
+#define INCONTROL_PLAYERACTION_CLEARBINDINGS_OFFSET UNITYSDK_OFFSET(0x18037EB0)
+#define INCONTROL_PLAYERACTION_COUNTBINDINGSOFTYPE_OFFSET UNITYSDK_OFFSET(0x18037C00)
+#define INCONTROL_PLAYERACTION_DETECTBINDINGS_OFFSET UNITYSDK_OFFSET(0x18039020)
+#define INCONTROL_PLAYERACTION_FINDBINDING_OFFSET UNITYSDK_OFFSET(0x18037730)
+#define INCONTROL_PLAYERACTION_GETDEVICEBINDINGSOURCE_OFFSET UNITYSDK_OFFSET(0x18039A10)
+#define INCONTROL_PLAYERACTION_GET_ACTIVEDEVICE_OFFSET UNITYSDK_OFFSET(0x18039600)
+#define INCONTROL_PLAYERACTION_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x18038370)
+#define INCONTROL_PLAYERACTION_GET_DEVICE_OFFSET UNITYSDK_OFFSET(0x180395B0)
+#define INCONTROL_PLAYERACTION_GET_ISCOMBOCONTROL_OFFSET UNITYSDK_OFFSET(0x18039B00)
+#define INCONTROL_PLAYERACTION_GET_ISINLEAVINGCOMBO_OFFSET UNITYSDK_OFFSET(0x18039B20)
+#define INCONTROL_PLAYERACTION_GET_ISLISTENINGFORBINDING_OFFSET UNITYSDK_OFFSET(0x18038340)
+#define INCONTROL_PLAYERACTION_GET_LASTINPUTTYPEISDEVICE_OFFSET UNITYSDK_OFFSET(0x180394E0)
+#define INCONTROL_PLAYERACTION_GET_LOWERDEADZONE_OFFSET UNITYSDK_OFFSET(0x18039640)
+#define INCONTROL_PLAYERACTION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18036390)
+#define INCONTROL_PLAYERACTION_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x180363B0)
+#define INCONTROL_PLAYERACTION_GET_UNFILTEREDBINDINGS_OFFSET UNITYSDK_OFFSET(0x18038380)
+#define INCONTROL_PLAYERACTION_GET_UPPERDEADZONE_OFFSET UNITYSDK_OFFSET(0x18039660)
+#define INCONTROL_PLAYERACTION_GET_USERDATA_OFFSET UNITYSDK_OFFSET(0x18036570)
+#define INCONTROL_PLAYERACTION_HARDREMOVEBINDING_OFFSET UNITYSDK_OFFSET(0x18037820)
+#define INCONTROL_PLAYERACTION_HASBINDING_OFFSET UNITYSDK_OFFSET(0x18037700)
+#define INCONTROL_PLAYERACTION_INDEXOFFIRSTINVALIDBINDING_OFFSET UNITYSDK_OFFSET(0x18037E00)
+#define INCONTROL_PLAYERACTION_INSERTBINDINGAT_OFFSET UNITYSDK_OFFSET(0x180371B0)
+#define INCONTROL_PLAYERACTION_LISTENFORBINDINGREPLACING_OFFSET UNITYSDK_OFFSET(0x18038180)
+#define INCONTROL_PLAYERACTION_LISTENFORBINDING_OFFSET UNITYSDK_OFFSET(0x18038170)
+#define INCONTROL_PLAYERACTION_LOAD_OFFSET UNITYSDK_OFFSET(0x18039680)
+#define INCONTROL_PLAYERACTION_REMOVEBINDINGAT_OFFSET UNITYSDK_OFFSET(0x18037B40)
+#define INCONTROL_PLAYERACTION_REMOVEBINDING_OFFSET UNITYSDK_OFFSET(0x18037B00)
+#define INCONTROL_PLAYERACTION_REMOVEFIRSTBINDINGOFTYPE_OFFSET UNITYSDK_OFFSET(0x18037CC0)
+#define INCONTROL_PLAYERACTION_REMOVEORPHANEDBINDINGS_OFFSET UNITYSDK_OFFSET(0x18038390)
+#define INCONTROL_PLAYERACTION_REMOVE_ONBINDINGSCHANGED_OFFSET UNITYSDK_OFFSET(0x18036510)
+#define INCONTROL_PLAYERACTION_REMOVE_ONLASTINPUTTYPECHANGED_OFFSET UNITYSDK_OFFSET(0x18036440)
+#define INCONTROL_PLAYERACTION_REPLACEBINDING_OFFSET UNITYSDK_OFFSET(0x18037490)
+#define INCONTROL_PLAYERACTION_RESETBINDINGS_OFFSET UNITYSDK_OFFSET(0x18037FA0)
+#define INCONTROL_PLAYERACTION_SAVE_OFFSET UNITYSDK_OFFSET(0x180398A0)
+#define INCONTROL_PLAYERACTION_SET_DEVICE_OFFSET UNITYSDK_OFFSET(0x18038580)
+#define INCONTROL_PLAYERACTION_SET_ISCOMBOCONTROL_OFFSET UNITYSDK_OFFSET(0x18039B10)
+#define INCONTROL_PLAYERACTION_SET_LOWERDEADZONE_OFFSET UNITYSDK_OFFSET(0x18039650)
+#define INCONTROL_PLAYERACTION_SET_NAME_OFFSET UNITYSDK_OFFSET(0x180363A0)
+#define INCONTROL_PLAYERACTION_SET_OWNER_OFFSET UNITYSDK_OFFSET(0x180363C0)
+#define INCONTROL_PLAYERACTION_SET_UPPERDEADZONE_OFFSET UNITYSDK_OFFSET(0x18039670)
+#define INCONTROL_PLAYERACTION_SET_USERDATA_OFFSET UNITYSDK_OFFSET(0x18036580)
+#define INCONTROL_PLAYERACTION_STOPLISTENINGFORBINDING_OFFSET UNITYSDK_OFFSET(0x18038300)
+#define INCONTROL_PLAYERACTION_UPDATEBINDINGS_OFFSET UNITYSDK_OFFSET(0x180385A0)
+#define INCONTROL_PLAYERACTION_UPDATEVISIBLEBINDINGS_OFFSET UNITYSDK_OFFSET(0x18037990)
+#define INCONTROL_PLAYERACTION_UPDATE_OFFSET UNITYSDK_OFFSET(0x18038480)
+#define INCONTROL_PLAYERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18036590)
+#define INCONTROL_PLAYERACTION__UPDATECOMBO_OFFSET UNITYSDK_OFFSET(0x18038E90)
 
 namespace InControl
 {
-	inline static constexpr unsigned int PlayerAction_TypeDefinitionIndex = 37110;
+	inline static constexpr unsigned int PlayerAction_TypeDefinitionIndex = 37842;
 
 	class PlayerAction : public ::InControl::OneAxisInputControl
 	{
 	public:
 		::System::Action* OnBindingsChanged; // 0x68
-		::System::Collections::Generic::List_1<::InControl::BindingSource*>* defaultBindings; // 0x70
-		::System::Collections::Generic::List_1<::InControl::BindingSource*>* regularBindings; // 0x78
-		::System::Collections::Generic::List_1<::InControl::BindingSource*>* visibleBindings; // 0x80
-		::System::Object* _UserData_k__BackingField; // 0x88
-		::Il2CppArray<::InControl::BindingSourceListener*>* bindingSourceListeners; // 0x90
-		::InControl::InputDevice* device; // 0x98
-		::InControl::InputDevice* activeDevice; // 0xA0
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::BindingSource*>* bindings; // 0xA8
-		::System::Action_1<::InControl::BindingSourceType>* OnLastInputTypeChanged; // 0xB0
-		::System::String* _Name_k__BackingField; // 0xB8
-		::InControl::PlayerActionSet* _Owner_k__BackingField; // 0xC0
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::BindingSource*>* unfilteredBindings; // 0xC8
-		::InControl::BindingListenOptions* ListenOptions; // 0xD0
+		::Il2CppArray<::InControl::BindingSourceListener*>* bindingSourceListeners; // 0x70
+		::System::Collections::Generic::List_1<::InControl::BindingSource*>* defaultBindings; // 0x78
+		::System::Action_1<::InControl::BindingSourceType>* OnLastInputTypeChanged; // 0x80
+		::System::String* _Name_k__BackingField; // 0x88
+		::System::Collections::Generic::List_1<::InControl::BindingSource*>* regularBindings; // 0x90
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::BindingSource*>* unfilteredBindings; // 0x98
+		::InControl::PlayerActionSet* _Owner_k__BackingField; // 0xA0
+		::InControl::InputDevice* activeDevice; // 0xA8
+		::InControl::BindingListenOptions* ListenOptions; // 0xB0
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::BindingSource*>* bindings; // 0xB8
+		::InControl::InputDevice* device; // 0xC0
+		::System::Object* _UserData_k__BackingField; // 0xC8
+		::System::Collections::Generic::List_1<::InControl::BindingSource*>* visibleBindings; // 0xD0
 		::System::Boolean triggerBindingChanged; // 0xD8
-		::System::Boolean _IsComboDuringReleased; // 0xD9
-		::System::Boolean triggerBindingEnded; // 0xDA
+		::System::Boolean triggerBindingEnded; // 0xD9
+		::System::Boolean _IsComboDuringReleased; // 0xDA
 		::System::Boolean _IsComboControl_k__BackingField; // 0xDB
-		::InControl::BindingSourceType LastInputType; // 0xDC
-		::System::UInt64 _ComboReleasedEndFrame; // 0xE0
-		::InControl::InputDeviceStyle LastDeviceStyle; // 0xE8
-		::InControl::InputDeviceClass LastDeviceClass; // 0xEC
-		::System::UInt64 LastInputTypeChangedTick; // 0xF0
+		::InControl::InputDeviceStyle LastDeviceStyle; // 0xDC
+		::System::UInt64 LastInputTypeChangedTick; // 0xE0
+		::System::UInt64 _ComboReleasedEndFrame; // 0xE8
+		::InControl::BindingSourceType LastInputType; // 0xF0
+		::InControl::InputDeviceClass LastDeviceClass; // 0xF4
 
-		::System::Void _ctor(::System::String* name, ::InControl::PlayerActionSet* owner)
+		::System::Void _ctor(::System::String* a1, ::InControl::PlayerActionSet* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::InControl::PlayerActionSet*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION__CTOR_OFFSET))(this, name, owner);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::InControl::PlayerActionSet*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Name()
@@ -122,9 +122,9 @@ namespace InControl
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::InControl::PlayerActionSet* get_Owner()
@@ -132,29 +132,29 @@ namespace InControl
 			return ((::InControl::PlayerActionSet*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_GET_OWNER_OFFSET))(this);
 		}
 
-		::System::Void set_Owner(::InControl::PlayerActionSet* value)
+		::System::Void set_Owner(::InControl::PlayerActionSet* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::PlayerActionSet*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_OWNER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::PlayerActionSet*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_OWNER_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnLastInputTypeChanged(::System::Action_1<::InControl::BindingSourceType>* value)
+		::System::Void add_OnLastInputTypeChanged(::System::Action_1<::InControl::BindingSourceType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::InControl::BindingSourceType>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADD_ONLASTINPUTTYPECHANGED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::InControl::BindingSourceType>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADD_ONLASTINPUTTYPECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnLastInputTypeChanged(::System::Action_1<::InControl::BindingSourceType>* value)
+		::System::Void remove_OnLastInputTypeChanged(::System::Action_1<::InControl::BindingSourceType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::InControl::BindingSourceType>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVE_ONLASTINPUTTYPECHANGED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::InControl::BindingSourceType>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVE_ONLASTINPUTTYPECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnBindingsChanged(::System::Action* value)
+		::System::Void add_OnBindingsChanged(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADD_ONBINDINGSCHANGED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADD_ONBINDINGSCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnBindingsChanged(::System::Action* value)
+		::System::Void remove_OnBindingsChanged(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVE_ONBINDINGSCHANGED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVE_ONBINDINGSCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_UserData()
@@ -162,84 +162,84 @@ namespace InControl
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_GET_USERDATA_OFFSET))(this);
 		}
 
-		::System::Void set_UserData(::System::Object* value)
+		::System::Void set_UserData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_USERDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_USERDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void AddDefaultBinding(::InControl::BindingSource* binding)
+		::System::Void AddDefaultBinding(::InControl::BindingSource* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_OFFSET))(this, binding);
+			return ((::System::Void(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_OFFSET))(this, a1);
 		}
 
-		::System::Void AddDefaultBinding_1(::Il2CppArray<::InControl::Key>* keys)
+		::System::Void AddDefaultBinding_1(::Il2CppArray<::InControl::Key>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_1_OFFSET))(this, keys);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_1_OFFSET))(this, a1);
 		}
 
-		::System::Void AddDefaultBinding_2(::InControl::KeyCombo keyCombo)
+		::System::Void AddDefaultBinding_2(::InControl::KeyCombo a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::KeyCombo))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_2_OFFSET))(this, keyCombo);
+			return ((::System::Void(*)(::PVOID, ::InControl::KeyCombo))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_2_OFFSET))(this, a1);
 		}
 
-		::System::Void AddDefaultBinding_3(::InControl::Mouse control)
+		::System::Void AddDefaultBinding_3(::InControl::Mouse a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::Mouse))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_3_OFFSET))(this, control);
+			return ((::System::Void(*)(::PVOID, ::InControl::Mouse))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_3_OFFSET))(this, a1);
 		}
 
-		::System::Void AddDefaultBinding_4(::InControl::InputControlType control)
+		::System::Void AddDefaultBinding_4(::InControl::InputControlType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_4_OFFSET))(this, control);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEFAULTBINDING_4_OFFSET))(this, a1);
 		}
 
-		::System::Boolean AddBinding(::InControl::BindingSource* binding)
+		::System::Boolean AddBinding(::InControl::BindingSource* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDBINDING_OFFSET))(this, binding);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDBINDING_OFFSET))(this, a1);
 		}
 
-		::System::Boolean InsertBindingAt(::System::Int32 index, ::InControl::BindingSource* binding)
+		::System::Boolean InsertBindingAt(::System::Int32 a1, ::InControl::BindingSource* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_INSERTBINDINGAT_OFFSET))(this, index, binding);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_INSERTBINDINGAT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean ReplaceBinding(::InControl::BindingSource* findBinding, ::InControl::BindingSource* withBinding)
+		::System::Boolean ReplaceBinding(::InControl::BindingSource* a1, ::InControl::BindingSource* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::BindingSource*, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REPLACEBINDING_OFFSET))(this, findBinding, withBinding);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::BindingSource*, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REPLACEBINDING_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean HasBinding(::InControl::BindingSource* binding)
+		::System::Boolean HasBinding(::InControl::BindingSource* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_HASBINDING_OFFSET))(this, binding);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_HASBINDING_OFFSET))(this, a1);
 		}
 
-		::InControl::BindingSource* FindBinding(::InControl::BindingSource* binding)
+		::InControl::BindingSource* FindBinding(::InControl::BindingSource* a1)
 		{
-			return ((::InControl::BindingSource*(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_FINDBINDING_OFFSET))(this, binding);
+			return ((::InControl::BindingSource*(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_FINDBINDING_OFFSET))(this, a1);
 		}
 
-		::System::Void HardRemoveBinding(::InControl::BindingSource* binding)
+		::System::Void HardRemoveBinding(::InControl::BindingSource* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_HARDREMOVEBINDING_OFFSET))(this, binding);
+			return ((::System::Void(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_HARDREMOVEBINDING_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveBinding(::InControl::BindingSource* binding)
+		::System::Void RemoveBinding(::InControl::BindingSource* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVEBINDING_OFFSET))(this, binding);
+			return ((::System::Void(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVEBINDING_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveBindingAt(::System::Int32 index)
+		::System::Void RemoveBindingAt(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVEBINDINGAT_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVEBINDINGAT_OFFSET))(this, a1);
 		}
 
-		::System::Int32 CountBindingsOfType(::InControl::BindingSourceType bindingSourceType)
+		::System::Int32 CountBindingsOfType(::InControl::BindingSourceType a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::InControl::BindingSourceType))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_COUNTBINDINGSOFTYPE_OFFSET))(this, bindingSourceType);
+			return ((::System::Int32(*)(::PVOID, ::InControl::BindingSourceType))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_COUNTBINDINGSOFTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveFirstBindingOfType(::InControl::BindingSourceType bindingSourceType)
+		::System::Void RemoveFirstBindingOfType(::InControl::BindingSourceType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::BindingSourceType))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVEFIRSTBINDINGOFTYPE_OFFSET))(this, bindingSourceType);
+			return ((::System::Void(*)(::PVOID, ::InControl::BindingSourceType))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVEFIRSTBINDINGOFTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 IndexOfFirstInvalidBinding()
@@ -262,9 +262,9 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_LISTENFORBINDING_OFFSET))(this);
 		}
 
-		::System::Void ListenForBindingReplacing(::InControl::BindingSource* binding)
+		::System::Void ListenForBindingReplacing(::InControl::BindingSource* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_LISTENFORBINDINGREPLACING_OFFSET))(this, binding);
+			return ((::System::Void(*)(::PVOID, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_LISTENFORBINDINGREPLACING_OFFSET))(this, a1);
 		}
 
 		::System::Void StopListeningForBinding()
@@ -292,14 +292,14 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVEORPHANEDBINDINGS_OFFSET))(this);
 		}
 
-		::System::Void Update(::System::UInt64 updateTick, ::System::Single deltaTime, ::InControl::InputDevice* device)
+		::System::Void Update(::System::UInt64 a1, ::System::Single a2, ::InControl::InputDevice* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_UPDATE_OFFSET))(this, updateTick, deltaTime, device);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_UPDATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UpdateBindings(::System::UInt64 updateTick, ::System::Single deltaTime)
+		::System::Void UpdateBindings(::System::UInt64 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_UPDATEBINDINGS_OFFSET))(this, updateTick, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_UPDATEBINDINGS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void DetectBindings()
@@ -317,9 +317,9 @@ namespace InControl
 			return ((::InControl::InputDevice*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_GET_DEVICE_OFFSET))(this);
 		}
 
-		::System::Void set_Device(::InControl::InputDevice* value)
+		::System::Void set_Device(::InControl::InputDevice* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_DEVICE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_DEVICE_OFFSET))(this, a1);
 		}
 
 		::InControl::InputDevice* get_ActiveDevice()
@@ -337,9 +337,9 @@ namespace InControl
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_GET_LOWERDEADZONE_OFFSET))(this);
 		}
 
-		::System::Void set_LowerDeadZone(::System::Single value)
+		::System::Void set_LowerDeadZone(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_LOWERDEADZONE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_LOWERDEADZONE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_UpperDeadZone()
@@ -347,24 +347,24 @@ namespace InControl
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_GET_UPPERDEADZONE_OFFSET))(this);
 		}
 
-		::System::Void set_UpperDeadZone(::System::Single value)
+		::System::Void set_UpperDeadZone(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_UPPERDEADZONE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_UPPERDEADZONE_OFFSET))(this, a1);
 		}
 
-		::System::Void Load(::System::IO::BinaryReader* reader, ::System::UInt16 dataFormatVersion)
+		::System::Void Load(::System::IO::BinaryReader* a1, ::System::UInt16 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*, ::System::UInt16))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_LOAD_OFFSET))(this, reader, dataFormatVersion);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*, ::System::UInt16))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_LOAD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Save(::System::IO::BinaryWriter* writer)
+		::System::Void Save(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SAVE_OFFSET))(this, writer);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SAVE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddDeviceBinding(::Il2CppArray<::InControl::InputControlType>* controls)
+		::System::Void AddDeviceBinding(::Il2CppArray<::InControl::InputControlType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::InputControlType>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEVICEBINDING_OFFSET))(this, controls);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::InputControlType>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADDDEVICEBINDING_OFFSET))(this, a1);
 		}
 
 		::InControl::DeviceBindingSource* GetDeviceBindingSource()
@@ -372,9 +372,9 @@ namespace InControl
 			return ((::InControl::DeviceBindingSource*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_GETDEVICEBINDINGSOURCE_OFFSET))(this);
 		}
 
-		::System::Void _UpdateCombo(::System::UInt64 updateTick, ::InControl::InputDevice* device)
+		::System::Void _UpdateCombo(::System::UInt64 a1, ::InControl::InputDevice* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION__UPDATECOMBO_OFFSET))(this, updateTick, device);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION__UPDATECOMBO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsComboControl()
@@ -382,9 +382,9 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_GET_ISCOMBOCONTROL_OFFSET))(this);
 		}
 
-		::System::Void set_IsComboControl(::System::Boolean value)
+		::System::Void set_IsComboControl(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_ISCOMBOCONTROL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_ISCOMBOCONTROL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsInLeavingCombo()

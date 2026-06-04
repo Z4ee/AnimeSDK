@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_TurbulenceType_TypeDefinitionIndex = 39718;
+inline static constexpr unsigned int RefGPUParticleSystem_TurbulenceType_TypeDefinitionIndex = 40541;
 
 enum class RefGPUParticleSystem_TurbulenceType : ::System::Int32
 {

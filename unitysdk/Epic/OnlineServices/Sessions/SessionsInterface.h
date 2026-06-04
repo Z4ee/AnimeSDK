@@ -47,52 +47,52 @@ namespace Epic::OnlineServices::Sessions { class UpdateSessionOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYJOINSESSIONACCEPTED_OFFSET UNITYSDK_OFFSET(0x8BDC600)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYSESSIONINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0x8BDC880)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYSESSIONINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0x8BDCB00)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYACTIVESESSIONHANDLE_OFFSET UNITYSDK_OFFSET(0x8BDCD80)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEBYINVITEID_OFFSET UNITYSDK_OFFSET(0x8BDCF90)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEBYUIEVENTID_OFFSET UNITYSDK_OFFSET(0x8BDD1A0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEFORPRESENCE_OFFSET UNITYSDK_OFFSET(0x8BDD330)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_CREATESESSIONMODIFICATION_OFFSET UNITYSDK_OFFSET(0x8BDD520)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_CREATESESSIONSEARCH_OFFSET UNITYSDK_OFFSET(0x8BDD6B0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_DESTROYSESSION_OFFSET UNITYSDK_OFFSET(0x8BDD840)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_DUMPSESSIONSTATE_OFFSET UNITYSDK_OFFSET(0x8BDDA90)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ENDSESSION_OFFSET UNITYSDK_OFFSET(0x8BDDC90)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_GETINVITECOUNT_OFFSET UNITYSDK_OFFSET(0x8BDDEE0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_GETINVITEIDBYINDEX_OFFSET UNITYSDK_OFFSET(0x8BDE0D0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ISUSERINSESSION_OFFSET UNITYSDK_OFFSET(0x8BDE420)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_JOINSESSION_OFFSET UNITYSDK_OFFSET(0x8BDE580)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONDESTROYSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDBE90)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONENDSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDBF20)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONJOINSESSIONACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDBFB0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONJOINSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDC040)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONQUERYINVITESCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDC0D0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONREGISTERPLAYERSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDC160)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONREJECTINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDC1F0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSENDINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDC280)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSESSIONINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDC310)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSESSIONINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDC3A0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSTARTSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDC430)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONUNREGISTERPLAYERSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDC4C0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONUPDATESESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BDC550)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_QUERYINVITES_OFFSET UNITYSDK_OFFSET(0x8BDE740)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REGISTERPLAYERS_OFFSET UNITYSDK_OFFSET(0x8BDE980)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REJECTINVITE_OFFSET UNITYSDK_OFFSET(0x8BDEB40)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYJOINSESSIONACCEPTED_OFFSET UNITYSDK_OFFSET(0x8BDED00)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYSESSIONINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0x8BDEDE0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYSESSIONINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0x8BDEEC0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_SENDINVITE_OFFSET UNITYSDK_OFFSET(0x8BDEFA0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_STARTSESSION_OFFSET UNITYSDK_OFFSET(0x8BDF160)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UNREGISTERPLAYERS_OFFSET UNITYSDK_OFFSET(0x8BDF3B0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UPDATESESSIONMODIFICATION_OFFSET UNITYSDK_OFFSET(0x8BDF7B0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UPDATESESSION_OFFSET UNITYSDK_OFFSET(0x8BDF570)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8BDC5F0)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8BDC5E0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYJOINSESSIONACCEPTED_OFFSET UNITYSDK_OFFSET(0xA0EE320)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYSESSIONINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0xA0EE5D0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYSESSIONINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0xA0EE880)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYACTIVESESSIONHANDLE_OFFSET UNITYSDK_OFFSET(0xA0EEB30)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEBYINVITEID_OFFSET UNITYSDK_OFFSET(0xA0EED40)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEBYUIEVENTID_OFFSET UNITYSDK_OFFSET(0xA0EEF50)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEFORPRESENCE_OFFSET UNITYSDK_OFFSET(0xA0EF0E0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_CREATESESSIONMODIFICATION_OFFSET UNITYSDK_OFFSET(0xA0EF2D0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_CREATESESSIONSEARCH_OFFSET UNITYSDK_OFFSET(0xA0EF460)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_DESTROYSESSION_OFFSET UNITYSDK_OFFSET(0xA0EF5F0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_DUMPSESSIONSTATE_OFFSET UNITYSDK_OFFSET(0xA0EF860)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ENDSESSION_OFFSET UNITYSDK_OFFSET(0xA0EFA60)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_GETINVITECOUNT_OFFSET UNITYSDK_OFFSET(0xA0EFCD0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_GETINVITEIDBYINDEX_OFFSET UNITYSDK_OFFSET(0xA0EFEC0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ISUSERINSESSION_OFFSET UNITYSDK_OFFSET(0xA0F0200)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_JOINSESSION_OFFSET UNITYSDK_OFFSET(0xA0F0360)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONDESTROYSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EDAE0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONENDSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EDB80)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONJOINSESSIONACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EDC20)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONJOINSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EDCC0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONQUERYINVITESCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EDD60)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONREGISTERPLAYERSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EDE00)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONREJECTINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EDEA0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSENDINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EDF40)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSESSIONINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EDFE0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSESSIONINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EE080)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSTARTSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EE120)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONUNREGISTERPLAYERSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EE1C0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONUPDATESESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0EE260)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_QUERYINVITES_OFFSET UNITYSDK_OFFSET(0xA0F0540)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REGISTERPLAYERS_OFFSET UNITYSDK_OFFSET(0xA0F07A0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REJECTINVITE_OFFSET UNITYSDK_OFFSET(0xA0F0980)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYJOINSESSIONACCEPTED_OFFSET UNITYSDK_OFFSET(0xA0F0B60)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYSESSIONINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0xA0F0C40)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYSESSIONINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0xA0F0D20)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_SENDINVITE_OFFSET UNITYSDK_OFFSET(0xA0F0E00)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_STARTSESSION_OFFSET UNITYSDK_OFFSET(0xA0F0FE0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UNREGISTERPLAYERS_OFFSET UNITYSDK_OFFSET(0xA0F1250)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UPDATESESSIONMODIFICATION_OFFSET UNITYSDK_OFFSET(0xA0F1690)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UPDATESESSION_OFFSET UNITYSDK_OFFSET(0xA0F1430)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA0EE310)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA0EE300)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionsInterface_TypeDefinitionIndex = 41381;
+	inline static constexpr unsigned int SessionsInterface_TypeDefinitionIndex = 42184;
 
 	class SessionsInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -137,209 +137,209 @@ namespace Epic::OnlineServices::Sessions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyJoinSessionAccepted(::Epic::OnlineServices::Sessions::AddNotifyJoinSessionAcceptedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnJoinSessionAcceptedCallback* notificationFn)
+		::System::UInt64 AddNotifyJoinSessionAccepted(::Epic::OnlineServices::Sessions::AddNotifyJoinSessionAcceptedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnJoinSessionAcceptedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Sessions::AddNotifyJoinSessionAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnJoinSessionAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYJOINSESSIONACCEPTED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Sessions::AddNotifyJoinSessionAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnJoinSessionAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYJOINSESSIONACCEPTED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifySessionInviteAccepted(::Epic::OnlineServices::Sessions::AddNotifySessionInviteAcceptedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnSessionInviteAcceptedCallback* notificationFn)
+		::System::UInt64 AddNotifySessionInviteAccepted(::Epic::OnlineServices::Sessions::AddNotifySessionInviteAcceptedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnSessionInviteAcceptedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Sessions::AddNotifySessionInviteAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnSessionInviteAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYSESSIONINVITEACCEPTED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Sessions::AddNotifySessionInviteAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnSessionInviteAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYSESSIONINVITEACCEPTED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifySessionInviteReceived(::Epic::OnlineServices::Sessions::AddNotifySessionInviteReceivedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnSessionInviteReceivedCallback* notificationFn)
+		::System::UInt64 AddNotifySessionInviteReceived(::Epic::OnlineServices::Sessions::AddNotifySessionInviteReceivedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnSessionInviteReceivedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Sessions::AddNotifySessionInviteReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnSessionInviteReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYSESSIONINVITERECEIVED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Sessions::AddNotifySessionInviteReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnSessionInviteReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ADDNOTIFYSESSIONINVITERECEIVED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result CopyActiveSessionHandle(::Epic::OnlineServices::Sessions::CopyActiveSessionHandleOptions* options, ::Epic::OnlineServices::Sessions::ActiveSession*& outSessionHandle)
+		::Epic::OnlineServices::Result CopyActiveSessionHandle(::Epic::OnlineServices::Sessions::CopyActiveSessionHandleOptions* a1, ::Epic::OnlineServices::Sessions::ActiveSession*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopyActiveSessionHandleOptions*, ::Epic::OnlineServices::Sessions::ActiveSession*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYACTIVESESSIONHANDLE_OFFSET))(this, options, outSessionHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopyActiveSessionHandleOptions*, ::Epic::OnlineServices::Sessions::ActiveSession*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYACTIVESESSIONHANDLE_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopySessionHandleByInviteId(::Epic::OnlineServices::Sessions::CopySessionHandleByInviteIdOptions* options, ::Epic::OnlineServices::Sessions::SessionDetails*& outSessionHandle)
+		::Epic::OnlineServices::Result CopySessionHandleByInviteId(::Epic::OnlineServices::Sessions::CopySessionHandleByInviteIdOptions* a1, ::Epic::OnlineServices::Sessions::SessionDetails*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopySessionHandleByInviteIdOptions*, ::Epic::OnlineServices::Sessions::SessionDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEBYINVITEID_OFFSET))(this, options, outSessionHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopySessionHandleByInviteIdOptions*, ::Epic::OnlineServices::Sessions::SessionDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEBYINVITEID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopySessionHandleByUiEventId(::Epic::OnlineServices::Sessions::CopySessionHandleByUiEventIdOptions* options, ::Epic::OnlineServices::Sessions::SessionDetails*& outSessionHandle)
+		::Epic::OnlineServices::Result CopySessionHandleByUiEventId(::Epic::OnlineServices::Sessions::CopySessionHandleByUiEventIdOptions* a1, ::Epic::OnlineServices::Sessions::SessionDetails*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopySessionHandleByUiEventIdOptions*, ::Epic::OnlineServices::Sessions::SessionDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEBYUIEVENTID_OFFSET))(this, options, outSessionHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopySessionHandleByUiEventIdOptions*, ::Epic::OnlineServices::Sessions::SessionDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEBYUIEVENTID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopySessionHandleForPresence(::Epic::OnlineServices::Sessions::CopySessionHandleForPresenceOptions* options, ::Epic::OnlineServices::Sessions::SessionDetails*& outSessionHandle)
+		::Epic::OnlineServices::Result CopySessionHandleForPresence(::Epic::OnlineServices::Sessions::CopySessionHandleForPresenceOptions* a1, ::Epic::OnlineServices::Sessions::SessionDetails*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopySessionHandleForPresenceOptions*, ::Epic::OnlineServices::Sessions::SessionDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEFORPRESENCE_OFFSET))(this, options, outSessionHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopySessionHandleForPresenceOptions*, ::Epic::OnlineServices::Sessions::SessionDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_COPYSESSIONHANDLEFORPRESENCE_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CreateSessionModification(::Epic::OnlineServices::Sessions::CreateSessionModificationOptions* options, ::Epic::OnlineServices::Sessions::SessionModification*& outSessionModificationHandle)
+		::Epic::OnlineServices::Result CreateSessionModification(::Epic::OnlineServices::Sessions::CreateSessionModificationOptions* a1, ::Epic::OnlineServices::Sessions::SessionModification*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CreateSessionModificationOptions*, ::Epic::OnlineServices::Sessions::SessionModification*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_CREATESESSIONMODIFICATION_OFFSET))(this, options, outSessionModificationHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CreateSessionModificationOptions*, ::Epic::OnlineServices::Sessions::SessionModification*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_CREATESESSIONMODIFICATION_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CreateSessionSearch(::Epic::OnlineServices::Sessions::CreateSessionSearchOptions* options, ::Epic::OnlineServices::Sessions::SessionSearch*& outSessionSearchHandle)
+		::Epic::OnlineServices::Result CreateSessionSearch(::Epic::OnlineServices::Sessions::CreateSessionSearchOptions* a1, ::Epic::OnlineServices::Sessions::SessionSearch*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CreateSessionSearchOptions*, ::Epic::OnlineServices::Sessions::SessionSearch*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_CREATESESSIONSEARCH_OFFSET))(this, options, outSessionSearchHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::CreateSessionSearchOptions*, ::Epic::OnlineServices::Sessions::SessionSearch*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_CREATESESSIONSEARCH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DestroySession(::Epic::OnlineServices::Sessions::DestroySessionOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnDestroySessionCallback* completionDelegate)
+		::System::Void DestroySession(::Epic::OnlineServices::Sessions::DestroySessionOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnDestroySessionCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::DestroySessionOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnDestroySessionCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_DESTROYSESSION_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::DestroySessionOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnDestroySessionCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_DESTROYSESSION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result DumpSessionState(::Epic::OnlineServices::Sessions::DumpSessionStateOptions* options)
+		::Epic::OnlineServices::Result DumpSessionState(::Epic::OnlineServices::Sessions::DumpSessionStateOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::DumpSessionStateOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_DUMPSESSIONSTATE_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::DumpSessionStateOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_DUMPSESSIONSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void EndSession(::Epic::OnlineServices::Sessions::EndSessionOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnEndSessionCallback* completionDelegate)
+		::System::Void EndSession(::Epic::OnlineServices::Sessions::EndSessionOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnEndSessionCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::EndSessionOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnEndSessionCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ENDSESSION_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::EndSessionOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnEndSessionCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ENDSESSION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt32 GetInviteCount(::Epic::OnlineServices::Sessions::GetInviteCountOptions* options)
+		::System::UInt32 GetInviteCount(::Epic::OnlineServices::Sessions::GetInviteCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Sessions::GetInviteCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_GETINVITECOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Sessions::GetInviteCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_GETINVITECOUNT_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result GetInviteIdByIndex(::Epic::OnlineServices::Sessions::GetInviteIdByIndexOptions* options, ::System::String*& outBuffer)
+		::Epic::OnlineServices::Result GetInviteIdByIndex(::Epic::OnlineServices::Sessions::GetInviteIdByIndexOptions* a1, ::System::String*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::GetInviteIdByIndexOptions*, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_GETINVITEIDBYINDEX_OFFSET))(this, options, outBuffer);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::GetInviteIdByIndexOptions*, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_GETINVITEIDBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result IsUserInSession(::Epic::OnlineServices::Sessions::IsUserInSessionOptions* options)
+		::Epic::OnlineServices::Result IsUserInSession(::Epic::OnlineServices::Sessions::IsUserInSessionOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::IsUserInSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ISUSERINSESSION_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::IsUserInSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ISUSERINSESSION_OFFSET))(this, a1);
 		}
 
-		::System::Void JoinSession(::Epic::OnlineServices::Sessions::JoinSessionOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnJoinSessionCallback* completionDelegate)
+		::System::Void JoinSession(::Epic::OnlineServices::Sessions::JoinSessionOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnJoinSessionCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::JoinSessionOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnJoinSessionCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_JOINSESSION_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::JoinSessionOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnJoinSessionCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_JOINSESSION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryInvites(::Epic::OnlineServices::Sessions::QueryInvitesOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnQueryInvitesCallback* completionDelegate)
+		::System::Void QueryInvites(::Epic::OnlineServices::Sessions::QueryInvitesOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnQueryInvitesCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::QueryInvitesOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnQueryInvitesCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_QUERYINVITES_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::QueryInvitesOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnQueryInvitesCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_QUERYINVITES_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RegisterPlayers(::Epic::OnlineServices::Sessions::RegisterPlayersOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnRegisterPlayersCallback* completionDelegate)
+		::System::Void RegisterPlayers(::Epic::OnlineServices::Sessions::RegisterPlayersOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnRegisterPlayersCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::RegisterPlayersOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnRegisterPlayersCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REGISTERPLAYERS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::RegisterPlayersOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnRegisterPlayersCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REGISTERPLAYERS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RejectInvite(::Epic::OnlineServices::Sessions::RejectInviteOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnRejectInviteCallback* completionDelegate)
+		::System::Void RejectInvite(::Epic::OnlineServices::Sessions::RejectInviteOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnRejectInviteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::RejectInviteOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnRejectInviteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REJECTINVITE_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::RejectInviteOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnRejectInviteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REJECTINVITE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RemoveNotifyJoinSessionAccepted(::System::UInt64 inId)
+		::System::Void RemoveNotifyJoinSessionAccepted(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYJOINSESSIONACCEPTED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYJOINSESSIONACCEPTED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifySessionInviteAccepted(::System::UInt64 inId)
+		::System::Void RemoveNotifySessionInviteAccepted(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYSESSIONINVITEACCEPTED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYSESSIONINVITEACCEPTED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifySessionInviteReceived(::System::UInt64 inId)
+		::System::Void RemoveNotifySessionInviteReceived(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYSESSIONINVITERECEIVED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_REMOVENOTIFYSESSIONINVITERECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void SendInvite(::Epic::OnlineServices::Sessions::SendInviteOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnSendInviteCallback* completionDelegate)
+		::System::Void SendInvite(::Epic::OnlineServices::Sessions::SendInviteOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnSendInviteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SendInviteOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnSendInviteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_SENDINVITE_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SendInviteOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnSendInviteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_SENDINVITE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void StartSession(::Epic::OnlineServices::Sessions::StartSessionOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnStartSessionCallback* completionDelegate)
+		::System::Void StartSession(::Epic::OnlineServices::Sessions::StartSessionOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnStartSessionCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::StartSessionOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnStartSessionCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_STARTSESSION_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::StartSessionOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnStartSessionCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_STARTSESSION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UnregisterPlayers(::Epic::OnlineServices::Sessions::UnregisterPlayersOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnUnregisterPlayersCallback* completionDelegate)
+		::System::Void UnregisterPlayers(::Epic::OnlineServices::Sessions::UnregisterPlayersOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnUnregisterPlayersCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::UnregisterPlayersOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnUnregisterPlayersCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UNREGISTERPLAYERS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::UnregisterPlayersOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnUnregisterPlayersCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UNREGISTERPLAYERS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UpdateSession(::Epic::OnlineServices::Sessions::UpdateSessionOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sessions::OnUpdateSessionCallback* completionDelegate)
+		::System::Void UpdateSession(::Epic::OnlineServices::Sessions::UpdateSessionOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sessions::OnUpdateSessionCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::UpdateSessionOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnUpdateSessionCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UPDATESESSION_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::UpdateSessionOptions*, ::System::Object*, ::Epic::OnlineServices::Sessions::OnUpdateSessionCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UPDATESESSION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result UpdateSessionModification(::Epic::OnlineServices::Sessions::UpdateSessionModificationOptions* options, ::Epic::OnlineServices::Sessions::SessionModification*& outSessionModificationHandle)
+		::Epic::OnlineServices::Result UpdateSessionModification(::Epic::OnlineServices::Sessions::UpdateSessionModificationOptions* a1, ::Epic::OnlineServices::Sessions::SessionModification*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::UpdateSessionModificationOptions*, ::Epic::OnlineServices::Sessions::SessionModification*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UPDATESESSIONMODIFICATION_OFFSET))(this, options, outSessionModificationHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::UpdateSessionModificationOptions*, ::Epic::OnlineServices::Sessions::SessionModification*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_UPDATESESSIONMODIFICATION_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void OnDestroySessionCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnDestroySessionCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONDESTROYSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONDESTROYSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnEndSessionCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnEndSessionCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONENDSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONENDSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnJoinSessionAcceptedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnJoinSessionAcceptedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONJOINSESSIONACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONJOINSESSIONACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnJoinSessionCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnJoinSessionCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONJOINSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONJOINSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryInvitesCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryInvitesCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONQUERYINVITESCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONQUERYINVITESCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnRegisterPlayersCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnRegisterPlayersCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONREGISTERPLAYERSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONREGISTERPLAYERSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnRejectInviteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnRejectInviteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONREJECTINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONREJECTINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnSendInviteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnSendInviteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSENDINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSENDINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnSessionInviteAcceptedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnSessionInviteAcceptedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSESSIONINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSESSIONINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnSessionInviteReceivedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnSessionInviteReceivedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSESSIONINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSESSIONINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnStartSessionCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnStartSessionCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSTARTSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONSTARTSESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnUnregisterPlayersCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnUnregisterPlayersCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONUNREGISTERPLAYERSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONUNREGISTERPLAYERSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnUpdateSessionCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnUpdateSessionCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONUPDATESESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSINTERFACE_ONUPDATESESSIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

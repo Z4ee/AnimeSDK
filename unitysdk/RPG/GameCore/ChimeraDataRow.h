@@ -11,38 +11,38 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187F3E20)
-#define RPG_GAMECORE_CHIMERADATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187F4240)
+#define RPG_GAMECORE_CHIMERADATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19635D20)
+#define RPG_GAMECORE_CHIMERADATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19636140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDataRow_TypeDefinitionIndex = 12299;
+	inline static constexpr unsigned int ChimeraDataRow_TypeDefinitionIndex = 12387;
 
 	class ChimeraDataRow : public ::System::Object
 	{
 	public:
-		::System::String* ChimeraIcon; // 0x10
-		::System::String* DataJson; // 0x18
-		::System::String* VoiceType; // 0x20
-		::RPG::GameCore::ChimeraMemberType Type; // 0x28
-		::RPG::GameCore::ChimeraTailPartType Tail; // 0x2C
-		::RPG::GameCore::ChimeraWingsPartType Wing; // 0x30
-		::System::UInt32 RaritySetting; // 0x34
-		::RPG::GameCore::ChimeraEyeDetailType Eye; // 0x38
-		::System::UInt32 ChimeraID; // 0x3C
-		::System::Single Sort; // 0x40
-		::RPG::GameCore::ChimeraMaterialType Body; // 0x44
-		::System::UInt32 DisplayID; // 0x48
-		::RPG::GameCore::ChimeraHornsPartType Horn; // 0x4C
+		::System::String* DataJson; // 0x10
+		::System::String* VoiceType; // 0x18
+		::System::String* ChimeraIcon; // 0x20
+		::System::Single Sort; // 0x28
+		::System::UInt32 DisplayID; // 0x2C
+		::System::UInt32 ChimeraID; // 0x30
+		::RPG::GameCore::ChimeraTailPartType Tail; // 0x34
+		::RPG::GameCore::ChimeraMaterialType Body; // 0x38
+		::RPG::GameCore::ChimeraEyeDetailType Eye; // 0x3C
+		::System::UInt32 RaritySetting; // 0x40
+		::RPG::GameCore::ChimeraHornsPartType Horn; // 0x44
+		::RPG::GameCore::ChimeraWingsPartType Wing; // 0x48
+		::RPG::GameCore::ChimeraMemberType Type; // 0x4C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADATAROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ChimeraDataRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDataRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADATAROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADATAROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYFILEVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17995420)
+#define SYSTEM_REFLECTION_ASSEMBLYFILEVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18749110)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyFileVersionAttribute_TypeDefinitionIndex = 547;
+	inline static constexpr unsigned int AssemblyFileVersionAttribute_TypeDefinitionIndex = 546;
 
 	class AssemblyFileVersionAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* _version; // 0x10
 
-		::System::Void _ctor(::System::String* version)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYFILEVERSIONATTRIBUTE__CTOR_OFFSET))(this, version);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYFILEVERSIONATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

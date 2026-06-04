@@ -6,13 +6,13 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_SERVERCONTEXTTERMINATORSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x179E4B70)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_SERVERCONTEXTTERMINATORSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x179E4A70)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_SERVERCONTEXTTERMINATORSINK__CTOR_OFFSET UNITYSDK_OFFSET(0x179E4C30)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_SERVERCONTEXTTERMINATORSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x18795140)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_SERVERCONTEXTTERMINATORSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x18795040)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_SERVERCONTEXTTERMINATORSINK__CTOR_OFFSET UNITYSDK_OFFSET(0x18795200)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int ServerContextTerminatorSink_TypeDefinitionIndex = 1326;
+	inline static constexpr unsigned int ServerContextTerminatorSink_TypeDefinitionIndex = 1325;
 
 	class ServerContextTerminatorSink : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace System::Runtime::Remoting::Messaging
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_SERVERCONTEXTTERMINATORSINK__CTOR_OFFSET))(this);
 		}
 
-		::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg)
+		::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* a1)
 		{
-			return ((::System::Runtime::Remoting::Messaging::IMessage*(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_SERVERCONTEXTTERMINATORSINK_SYNCPROCESSMESSAGE_OFFSET))(this, msg);
+			return ((::System::Runtime::Remoting::Messaging::IMessage*(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_SERVERCONTEXTTERMINATORSINK_SYNCPROCESSMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink)
+		::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* a1, ::System::Runtime::Remoting::Messaging::IMessageSink* a2)
 		{
-			return ((::System::Runtime::Remoting::Messaging::IMessageCtrl*(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_SERVERCONTEXTTERMINATORSINK_ASYNCPROCESSMESSAGE_OFFSET))(this, msg, replySink);
+			return ((::System::Runtime::Remoting::Messaging::IMessageCtrl*(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_SERVERCONTEXTTERMINATORSINK_ASYNCPROCESSMESSAGE_OFFSET))(this, a1, a2);
 		}
 	};
 }

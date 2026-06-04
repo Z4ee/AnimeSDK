@@ -10,42 +10,42 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_WIN_EOSMANAGER_CHANGESUBCHANNELTOOFFICAL_OFFSET UNITYSDK_OFFSET(0x176FEFA0)
-#define MIHOYO_SDK_WIN_EOSMANAGER_CHECKCHANNEL_OFFSET UNITYSDK_OFFSET(0x176FF1A0)
-#define MIHOYO_SDK_WIN_EOSMANAGER_CHECKDLL_OFFSET UNITYSDK_OFFSET(0x176FECA0)
-#define MIHOYO_SDK_WIN_EOSMANAGER_CHECKENTITLEMENTS_OFFSET UNITYSDK_OFFSET(0x17700D30)
-#define MIHOYO_SDK_WIN_EOSMANAGER_CHECKLOCALPARAMS_OFFSET UNITYSDK_OFFSET(0x176FF080)
-#define MIHOYO_SDK_WIN_EOSMANAGER_DETECTPAY_OFFSET UNITYSDK_OFFSET(0x17700EF0)
-#define MIHOYO_SDK_WIN_EOSMANAGER_GETCMDLINEMAP_OFFSET UNITYSDK_OFFSET(0x176FF200)
-#define MIHOYO_SDK_WIN_EOSMANAGER_GETLAUNCHPARAMS_OFFSET UNITYSDK_OFFSET(0x176FF140)
-#define MIHOYO_SDK_WIN_EOSMANAGER_GETPRODUCTLIST_OFFSET UNITYSDK_OFFSET(0x176FF670)
-#define MIHOYO_SDK_WIN_EOSMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x176FE5D0)
-#define MIHOYO_SDK_WIN_EOSMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x177005F0)
-#define MIHOYO_SDK_WIN_EOSMANAGER_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x17701710)
-#define MIHOYO_SDK_WIN_EOSMANAGER_ONGETPRODUCTLISTCALLBACK_OFFSET UNITYSDK_OFFSET(0x17700320)
-#define MIHOYO_SDK_WIN_EOSMANAGER_ONGETPRODUCTLISTERRORCALLBACK_OFFSET UNITYSDK_OFFSET(0x17700020)
-#define MIHOYO_SDK_WIN_EOSMANAGER_ONPAYCANCEL_OFFSET UNITYSDK_OFFSET(0x17701910)
-#define MIHOYO_SDK_WIN_EOSMANAGER_ONPAYFAIL_OFFSET UNITYSDK_OFFSET(0x17700790)
-#define MIHOYO_SDK_WIN_EOSMANAGER_ONPAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x17701AA0)
-#define MIHOYO_SDK_WIN_EOSMANAGER_PAY_1_OFFSET UNITYSDK_OFFSET(0x17700960)
-#define MIHOYO_SDK_WIN_EOSMANAGER_PAY_OFFSET UNITYSDK_OFFSET(0x17700620)
-#define MIHOYO_SDK_WIN_EOSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17701C90)
-#define MIHOYO_SDK_WIN_EOSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17701C20)
+#define MIHOYO_SDK_WIN_EOSMANAGER_CHANGESUBCHANNELTOOFFICAL_OFFSET UNITYSDK_OFFSET(0x184BC5B0)
+#define MIHOYO_SDK_WIN_EOSMANAGER_CHECKCHANNEL_OFFSET UNITYSDK_OFFSET(0x184BC7B0)
+#define MIHOYO_SDK_WIN_EOSMANAGER_CHECKDLL_OFFSET UNITYSDK_OFFSET(0x184BC2B0)
+#define MIHOYO_SDK_WIN_EOSMANAGER_CHECKENTITLEMENTS_OFFSET UNITYSDK_OFFSET(0x184BE340)
+#define MIHOYO_SDK_WIN_EOSMANAGER_CHECKLOCALPARAMS_OFFSET UNITYSDK_OFFSET(0x184BC690)
+#define MIHOYO_SDK_WIN_EOSMANAGER_DETECTPAY_OFFSET UNITYSDK_OFFSET(0x184BE540)
+#define MIHOYO_SDK_WIN_EOSMANAGER_GETCMDLINEMAP_OFFSET UNITYSDK_OFFSET(0x184BC810)
+#define MIHOYO_SDK_WIN_EOSMANAGER_GETLAUNCHPARAMS_OFFSET UNITYSDK_OFFSET(0x184BC750)
+#define MIHOYO_SDK_WIN_EOSMANAGER_GETPRODUCTLIST_OFFSET UNITYSDK_OFFSET(0x184BCC50)
+#define MIHOYO_SDK_WIN_EOSMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x184BBB90)
+#define MIHOYO_SDK_WIN_EOSMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x184BDCE0)
+#define MIHOYO_SDK_WIN_EOSMANAGER_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x184BED60)
+#define MIHOYO_SDK_WIN_EOSMANAGER_ONGETPRODUCTLISTCALLBACK_OFFSET UNITYSDK_OFFSET(0x184BDA00)
+#define MIHOYO_SDK_WIN_EOSMANAGER_ONGETPRODUCTLISTERRORCALLBACK_OFFSET UNITYSDK_OFFSET(0x184BD6F0)
+#define MIHOYO_SDK_WIN_EOSMANAGER_ONPAYCANCEL_OFFSET UNITYSDK_OFFSET(0x184BEF00)
+#define MIHOYO_SDK_WIN_EOSMANAGER_ONPAYFAIL_OFFSET UNITYSDK_OFFSET(0x184BDE00)
+#define MIHOYO_SDK_WIN_EOSMANAGER_ONPAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x184BF0A0)
+#define MIHOYO_SDK_WIN_EOSMANAGER_PAY_1_OFFSET UNITYSDK_OFFSET(0x184BDFE0)
+#define MIHOYO_SDK_WIN_EOSMANAGER_PAY_OFFSET UNITYSDK_OFFSET(0x184BDD10)
+#define MIHOYO_SDK_WIN_EOSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x184BF2A0)
+#define MIHOYO_SDK_WIN_EOSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x184BF230)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int EOSManager_TypeDefinitionIndex = 8070;
+	inline static constexpr unsigned int EOSManager_TypeDefinitionIndex = 8973;
 
 	class EOSManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Win::EOSManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::EOSManager**)Il2CppClass::FromTypeDefinitionIndex(EOSManager_TypeDefinitionIndex)->GetStaticField(0x28F30);
+			return (::MiHoYo::SDK::Win::EOSManager**)Il2CppClass::FromTypeDefinitionIndex(EOSManager_TypeDefinitionIndex)->GetStaticField(0x27140);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_cmdLineMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EOSManager_TypeDefinitionIndex)->GetStaticField(0x28F38);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EOSManager_TypeDefinitionIndex)->GetStaticField(0x27148);
 		}
 		::MiHoYo::SDK::JSONArray* productList; // 0x10
 		::System::Boolean hasInit; // 0x18
@@ -85,64 +85,64 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_GETLAUNCHPARAMS_OFFSET))(this);
 		}
 
-		::System::Void GetProductList(::System::String* jsonString, ::System::Action_1<::System::String*>* callback)
+		::System::Void GetProductList(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_GETPRODUCTLIST_OFFSET))(this, jsonString, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_GETPRODUCTLIST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Login(::System::Action_2<::System::Int32, ::System::String*>* callback)
+		::System::Void Login(::System::Action_2<::System::Int32, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_LOGIN_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_LOGIN_OFFSET))(this, a1);
 		}
 
-		::System::Void Pay(::System::String* jsonString, ::System::Action_1<::System::String*>* callback)
+		::System::Void Pay(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_PAY_OFFSET))(this, jsonString, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_PAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Pay_1(::MiHoYo::SDK::JSONNode* payInfo, ::System::String* payTrace, ::System::Action_1<::System::String*>* callback)
+		::System::Void Pay_1(::MiHoYo::SDK::JSONNode* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_PAY_1_OFFSET))(this, payInfo, payTrace, callback);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_PAY_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void CheckEntitlements(::System::String* traceId)
+		::System::Void CheckEntitlements(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_CHECKENTITLEMENTS_OFFSET))(this, traceId);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_CHECKENTITLEMENTS_OFFSET))(this, a1);
 		}
 
-		static ::System::Void DetectPay(::System::String* aid, ::System::String* token, ::System::String* game, ::System::String* region, ::System::String* uid, ::System::String* device, ::System::String* delivery_url, ::System::String* identityId, ::System::String* authToken, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		static ::System::Void DetectPay(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::String* a7, ::System::String* a8, ::System::String* a9, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a10)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_DETECTPAY_OFFSET))(aid, token, game, region, uid, device, delivery_url, identityId, authToken, callback);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_DETECTPAY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::System::Void OnPayFail(::System::Action_1<::System::String*>* callback, ::System::String* msg, ::System::String* payTrace)
+		::System::Void OnPayFail(::System::Action_1<::System::String*>* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONPAYFAIL_OFFSET))(this, callback, msg, payTrace);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONPAYFAIL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void OnPayCancel(::System::Action_1<::System::String*>* callback, ::System::String* payTrace)
+		::System::Void OnPayCancel(::System::Action_1<::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONPAYCANCEL_OFFSET))(this, callback, payTrace);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONPAYCANCEL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnPaySuccess(::System::Action_1<::System::String*>* callback, ::System::String* payTrace)
+		::System::Void OnPaySuccess(::System::Action_1<::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONPAYSUCCESS_OFFSET))(this, callback, payTrace);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONPAYSUCCESS_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void OnCallback(::System::Int32 ret, ::System::String* msg, ::System::Action_1<::System::String*>* callback, ::MiHoYo::SDK::JSONNode* data)
+		static ::System::Void OnCallback(::System::Int32 a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3, ::MiHoYo::SDK::JSONNode* a4)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::String*, ::System::Action_1<::System::String*>*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONCALLBACK_OFFSET))(ret, msg, callback, data);
+			return ((::System::Void(*)(::System::Int32, ::System::String*, ::System::Action_1<::System::String*>*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONCALLBACK_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::Void OnGetProductListCallback(::System::Action_1<::System::String*>* callback, ::System::String* productTrace)
+		::System::Void OnGetProductListCallback(::System::Action_1<::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONGETPRODUCTLISTCALLBACK_OFFSET))(this, callback, productTrace);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONGETPRODUCTLISTCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnGetProductListErrorCallback(::System::Action_1<::System::String*>* callback, ::System::String* msg, ::System::String* productTrace)
+		::System::Void OnGetProductListErrorCallback(::System::Action_1<::System::String*>* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONGETPRODUCTLISTERRORCALLBACK_OFFSET))(this, callback, msg, productTrace);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_EOSMANAGER_ONGETPRODUCTLISTERRORCALLBACK_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void GetCmdLineMap()

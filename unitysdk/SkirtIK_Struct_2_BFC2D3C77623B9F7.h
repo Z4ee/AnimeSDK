@@ -4,7 +4,7 @@
 
 class SkirtIK_HairIKClass;
 
-inline static constexpr unsigned int SkirtIK_Struct_2_BFC2D3C77623B9F7_TypeDefinitionIndex = 44046;
+inline static constexpr unsigned int SkirtIK_Struct_2_BFC2D3C77623B9F7_TypeDefinitionIndex = 44592;
 
 struct alignas(8) SkirtIK_Struct_2_BFC2D3C77623B9F7
 {

@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLTEXTWRITER_NAMESPACE_SET_OFFSET UNITYSDK_OFFSET(0x22D2BB0)
+#define SYSTEM_XML_XMLTEXTWRITER_NAMESPACE_SET_OFFSET UNITYSDK_OFFSET(0x386DAC0)
 
 namespace System::Xml
 {
@@ -17,9 +17,9 @@ namespace System::Xml
 		::System::Boolean declared; // 0x20
 		::System::Int32 prevNsIndex; // 0x24
 
-		::System::Void Set(::System::String* prefix, ::System::String* ns, ::System::Boolean declared)
+		::System::Void Set(::System::String* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLTEXTWRITER_NAMESPACE_SET_OFFSET))(this, prefix, ns, declared);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLTEXTWRITER_NAMESPACE_SET_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

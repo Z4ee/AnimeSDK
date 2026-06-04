@@ -5,15 +5,15 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8BA7860)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_GET_MODE_OFFSET UNITYSDK_OFFSET(0x8BA7880)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8BA7870)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_SET_MODE_OFFSET UNITYSDK_OFFSET(0x8BA7890)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BA78A0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA0C2110)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_GET_MODE_OFFSET UNITYSDK_OFFSET(0xA0C2130)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA0C2120)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_SET_MODE_OFFSET UNITYSDK_OFFSET(0xA0C2140)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA0C2150)
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int BeginSessionOptions_TypeDefinitionIndex = 42527;
+	inline static constexpr unsigned int BeginSessionOptions_TypeDefinitionIndex = 43330;
 
 	class BeginSessionOptions : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::AntiCheatClient
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::AntiCheatClient::AntiCheatClientMode get_Mode()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::AntiCheatClient
 			return ((::Epic::OnlineServices::AntiCheatClient::AntiCheatClientMode(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_GET_MODE_OFFSET))(this);
 		}
 
-		::System::Void set_Mode(::Epic::OnlineServices::AntiCheatClient::AntiCheatClientMode value)
+		::System::Void set_Mode(::Epic::OnlineServices::AntiCheatClient::AntiCheatClientMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AntiCheatClientMode))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_SET_MODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::AntiCheatClientMode))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_BEGINSESSIONOPTIONS_SET_MODE_OFFSET))(this, a1);
 		}
 	};
 }

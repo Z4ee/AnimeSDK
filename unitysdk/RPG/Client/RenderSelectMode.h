@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderSelectMode_TypeDefinitionIndex = 55558;
+	inline static constexpr unsigned int RenderSelectMode_TypeDefinitionIndex = 56309;
 
 	enum class RenderSelectMode : ::System::Int32
 	{

@@ -4,7 +4,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int AsyncLocalValueChangedArgs_1_TypeDefinitionIndex = 822;
+	inline static constexpr unsigned int AsyncLocalValueChangedArgs_1_TypeDefinitionIndex = 821;
 
 	template <typename T>
 	struct AsyncLocalValueChangedArgs_1

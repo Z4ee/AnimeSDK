@@ -7,8 +7,8 @@
 
 namespace System { class String; }
 
-#define MONO_UNITY_DEBUG_CHECKANDTHROW_1_OFFSET UNITYSDK_OFFSET(0x1A0A4FE0)
-#define MONO_UNITY_DEBUG_CHECKANDTHROW_OFFSET UNITYSDK_OFFSET(0x1A0A4F60)
+#define MONO_UNITY_DEBUG_CHECKANDTHROW_1_OFFSET UNITYSDK_OFFSET(0x1AF156F0)
+#define MONO_UNITY_DEBUG_CHECKANDTHROW_OFFSET UNITYSDK_OFFSET(0x1AF15670)
 
 namespace Mono::Unity
 {
@@ -17,14 +17,14 @@ namespace Mono::Unity
 	class Debug : public ::System::Object
 	{
 	public:
-		static ::System::Void CheckAndThrow(::Mono::Unity::UnityTls_unitytls_errorstate errorState, ::System::String* context, ::Mono::Security::Interface::AlertDescription defaultAlert)
+		static ::System::Void CheckAndThrow(::Mono::Unity::UnityTls_unitytls_errorstate a1, ::System::String* a2, ::Mono::Security::Interface::AlertDescription a3)
 		{
-			return ((::System::Void(*)(::Mono::Unity::UnityTls_unitytls_errorstate, ::System::String*, ::Mono::Security::Interface::AlertDescription))((::PBYTE)hIl2Cpp + MONO_UNITY_DEBUG_CHECKANDTHROW_OFFSET))(errorState, context, defaultAlert);
+			return ((::System::Void(*)(::Mono::Unity::UnityTls_unitytls_errorstate, ::System::String*, ::Mono::Security::Interface::AlertDescription))((::PBYTE)hIl2Cpp + MONO_UNITY_DEBUG_CHECKANDTHROW_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void CheckAndThrow_1(::Mono::Unity::UnityTls_unitytls_errorstate errorState, ::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult, ::System::String* context, ::Mono::Security::Interface::AlertDescription defaultAlert)
+		static ::System::Void CheckAndThrow_1(::Mono::Unity::UnityTls_unitytls_errorstate a1, ::Mono::Unity::UnityTls_unitytls_x509verify_result a2, ::System::String* a3, ::Mono::Security::Interface::AlertDescription a4)
 		{
-			return ((::System::Void(*)(::Mono::Unity::UnityTls_unitytls_errorstate, ::Mono::Unity::UnityTls_unitytls_x509verify_result, ::System::String*, ::Mono::Security::Interface::AlertDescription))((::PBYTE)hIl2Cpp + MONO_UNITY_DEBUG_CHECKANDTHROW_1_OFFSET))(errorState, verifyResult, context, defaultAlert);
+			return ((::System::Void(*)(::Mono::Unity::UnityTls_unitytls_errorstate, ::Mono::Unity::UnityTls_unitytls_x509verify_result, ::System::String*, ::Mono::Security::Interface::AlertDescription))((::PBYTE)hIl2Cpp + MONO_UNITY_DEBUG_CHECKANDTHROW_1_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

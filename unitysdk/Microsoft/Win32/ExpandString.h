@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define MICROSOFT_WIN32_EXPANDSTRING_EXPAND_OFFSET UNITYSDK_OFFSET(0x17786DC0)
-#define MICROSOFT_WIN32_EXPANDSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17786DB0)
-#define MICROSOFT_WIN32_EXPANDSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x17786DA0)
+#define MICROSOFT_WIN32_EXPANDSTRING_EXPAND_OFFSET UNITYSDK_OFFSET(0x18541A80)
+#define MICROSOFT_WIN32_EXPANDSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18541A70)
+#define MICROSOFT_WIN32_EXPANDSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x18541A60)
 
 namespace Microsoft::Win32
 {
@@ -17,9 +17,9 @@ namespace Microsoft::Win32
 	public:
 		::System::String* value; // 0x10
 
-		::System::Void _ctor(::System::String* s)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_EXPANDSTRING__CTOR_OFFSET))(this, s);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_EXPANDSTRING__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

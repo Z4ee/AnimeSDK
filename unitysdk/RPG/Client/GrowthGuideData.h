@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class AvatarGrowthGuide; }
-namespace RPG::Client { class IAvatarInfoProvider; }
 namespace RPG::Client { class LightConeGrowthGuide; }
 namespace RPG::Client { class RelicGrowthGuide; }
 namespace RPG::Client { class SkillTreeGrowthGuide; }
 
-#define RPG_CLIENT_GROWTHGUIDEDATA_GET_AVATARGUIDE_OFFSET UNITYSDK_OFFSET(0xA5D4210)
-#define RPG_CLIENT_GROWTHGUIDEDATA_GET_LIGHTCONEGUIDE_OFFSET UNITYSDK_OFFSET(0xA5D4220)
-#define RPG_CLIENT_GROWTHGUIDEDATA_GET_RELICGUIDE_OFFSET UNITYSDK_OFFSET(0xA5D4240)
-#define RPG_CLIENT_GROWTHGUIDEDATA_GET_SKILLTREEGUIDE_OFFSET UNITYSDK_OFFSET(0xA5D4230)
-#define RPG_CLIENT_GROWTHGUIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA5D41C0)
+#define RPG_CLIENT_GROWTHGUIDEDATA_GET_AVATARGUIDE_OFFSET UNITYSDK_OFFSET(0xBCD5F40)
+#define RPG_CLIENT_GROWTHGUIDEDATA_GET_LIGHTCONEGUIDE_OFFSET UNITYSDK_OFFSET(0xBCD5F50)
+#define RPG_CLIENT_GROWTHGUIDEDATA_GET_RELICGUIDE_OFFSET UNITYSDK_OFFSET(0xBCD5F70)
+#define RPG_CLIENT_GROWTHGUIDEDATA_GET_SKILLTREEGUIDE_OFFSET UNITYSDK_OFFSET(0xBCD5F60)
+#define RPG_CLIENT_GROWTHGUIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBCD5EF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GrowthGuideData_TypeDefinitionIndex = 60345;
+	inline static constexpr unsigned int GrowthGuideData_TypeDefinitionIndex = 61280;
 
 	class GrowthGuideData : public ::System::Object
 	{
 	public:
-		::RPG::Client::SkillTreeGrowthGuide* _SkillTreeGuide_k__BackingField; // 0x10
+		::RPG::Client::AvatarGrowthGuide* _AvatarGuide_k__BackingField; // 0x10
 		::RPG::Client::RelicGrowthGuide* _RelicGuide_k__BackingField; // 0x18
-		::RPG::Client::LightConeGrowthGuide* _LightConeGuide_k__BackingField; // 0x20
-		::RPG::Client::AvatarGrowthGuide* _AvatarGuide_k__BackingField; // 0x28
+		::RPG::Client::SkillTreeGrowthGuide* _SkillTreeGuide_k__BackingField; // 0x20
+		::RPG::Client::LightConeGrowthGuide* _LightConeGuide_k__BackingField; // 0x28
 
-		::System::Void _ctor(::RPG::Client::IAvatarInfoProvider* avatar)
+		::System::Void _ctor(::RPG::AvatarSystem::IAvatar* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GROWTHGUIDEDATA__CTOR_OFFSET))(this, avatar);
+			return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GROWTHGUIDEDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::AvatarGrowthGuide* get_AvatarGuide()

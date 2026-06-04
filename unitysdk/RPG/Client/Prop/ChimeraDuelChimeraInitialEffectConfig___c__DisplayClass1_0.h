@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Prop { class ChimeraDuelInitialEffectConfig; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADC0140)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG___C__DISPLAYCLASS1_0__QUERYINITIALEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xADC0160)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5043A0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG___C__DISPLAYCLASS1_0__QUERYINITIALEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC5043C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraInitialEffectConfig___c__DisplayClass1_0_TypeDefinitionIndex = 71817;
+	inline static constexpr unsigned int ChimeraDuelChimeraInitialEffectConfig___c__DisplayClass1_0_TypeDefinitionIndex = 72839;
 
 	class ChimeraDuelChimeraInitialEffectConfig___c__DisplayClass1_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _QueryInitialEffect_b__0(::RPG::Client::Prop::ChimeraDuelInitialEffectConfig* x)
+		::System::Boolean _QueryInitialEffect_b__0(::RPG::Client::Prop::ChimeraDuelInitialEffectConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelInitialEffectConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG___C__DISPLAYCLASS1_0__QUERYINITIALEFFECT_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelInitialEffectConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG___C__DISPLAYCLASS1_0__QUERYINITIALEFFECT_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 
 namespace UnityEngine::Rendering { class RTHandle; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_TEXTURERESOURCE_RESET_OFFSET UNITYSDK_OFFSET(0x22DBF00)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_TEXTURERESOURCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x22DBE50)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_TEXTURERESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x22DBDE0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_TEXTURERESOURCE_RESET_OFFSET UNITYSDK_OFFSET(0x3877940)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_TEXTURERESOURCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3877890)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_TEXTURERESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x3877820)
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraphResourceRegistry_TextureResource_TypeDefinitionIndex = 33377;
+	inline static constexpr unsigned int RenderGraphResourceRegistry_TextureResource_TypeDefinitionIndex = 33659;
 
 	struct alignas(8) RenderGraphResourceRegistry_TextureResource
 	{
@@ -24,14 +24,14 @@ namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 		::System::Int32 shaderProperty; // 0x9C
 		::System::Boolean wasReleased; // 0xA0
 
-		::System::Void _ctor(::UnityEngine::Rendering::RTHandle* rt, ::System::Int32 shaderProperty)
+		::System::Void _ctor(::UnityEngine::Rendering::RTHandle* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::RTHandle*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_TEXTURERESOURCE__CTOR_OFFSET))(this, rt, shaderProperty);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::RTHandle*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_TEXTURERESOURCE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::Experimental::Rendering::RenderGraphModule::TextureDesc& desc, ::System::Int32 shaderProperty)
+		::System::Void _ctor_1(::UnityEngine::Experimental::Rendering::RenderGraphModule::TextureDesc& a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::Rendering::RenderGraphModule::TextureDesc&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_TEXTURERESOURCE__CTOR_1_OFFSET))(this, desc, shaderProperty);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::Rendering::RenderGraphModule::TextureDesc&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_TEXTURERESOURCE__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Reset()

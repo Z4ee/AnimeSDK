@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleTargetIconType_TypeDefinitionIndex = 12141;
+	inline static constexpr unsigned int BattleTargetIconType_TypeDefinitionIndex = 12230;
 
 	enum class BattleTargetIconType : ::System::Int32
 	{
@@ -11,5 +11,6 @@ namespace RPG::GameCore
 		Round = 1,
 		PeakBossStar = 2,
 		PeakDifficultyBossStar = 3,
+		TierceSpecialStar = 4,
 	};
 }

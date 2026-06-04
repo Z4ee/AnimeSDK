@@ -12,68 +12,68 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define MIHOYO_SDK_WIN_PAYMANAGER_CHECKORDER_OFFSET UNITYSDK_OFFSET(0x174AADA0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_CHECKQRCODE_OFFSET UNITYSDK_OFFSET(0x174ABC30)
-#define MIHOYO_SDK_WIN_PAYMANAGER_CLOSEPAYSUCCESSDIALOG_OFFSET UNITYSDK_OFFSET(0x174A7EC0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_CREATEFAILPAYCALLBACK_OFFSET UNITYSDK_OFFSET(0x174AC1C0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_CREATEORDER_OFFSET UNITYSDK_OFFSET(0x174A8250)
-#define MIHOYO_SDK_WIN_PAYMANAGER_GETPAYPLAT_OFFSET UNITYSDK_OFFSET(0x174A7E10)
-#define MIHOYO_SDK_WIN_PAYMANAGER_GETPRICETIER_OFFSET UNITYSDK_OFFSET(0x174A5CA0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_GETPRODUCTLIST_OFFSET UNITYSDK_OFFSET(0x174A5F10)
-#define MIHOYO_SDK_WIN_PAYMANAGER_HIDEPAYDIALOG_OFFSET UNITYSDK_OFFSET(0x174AAC60)
-#define MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKALIORDER_OFFSET UNITYSDK_OFFSET(0x174ABC20)
-#define MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKORDER_OFFSET UNITYSDK_OFFSET(0x174AB2F0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKWEIXINORDER_OFFSET UNITYSDK_OFFSET(0x174AB2E0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEALIORDER_OFFSET UNITYSDK_OFFSET(0x174AA8D0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEORDER_OFFSET UNITYSDK_OFFSET(0x174A9BE0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEWEIXINORDER_OFFSET UNITYSDK_OFFSET(0x174A9910)
-#define MIHOYO_SDK_WIN_PAYMANAGER_ONGETPRODUCTLISTERROR_OFFSET UNITYSDK_OFFSET(0x174A6480)
-#define MIHOYO_SDK_WIN_PAYMANAGER_ONPAYCALLBACKCANCEL_OFFSET UNITYSDK_OFFSET(0x174ABD40)
-#define MIHOYO_SDK_WIN_PAYMANAGER_ONPAYCALLBACKFAIL_OFFSET UNITYSDK_OFFSET(0x174A77F0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_ONPAYCALLBACKSUCCESS_OFFSET UNITYSDK_OFFSET(0x174A7EE0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_PAY_OFFSET UNITYSDK_OFFSET(0x174A6AA0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTCREATEORDER_OFFSET UNITYSDK_OFFSET(0x174A80B0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTDEFAULTPRICETIERV2_OFFSET UNITYSDK_OFFSET(0x174A67B0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTPRICETIERV2_OFFSET UNITYSDK_OFFSET(0x174A66C0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTPRICETIER_OFFSET UNITYSDK_OFFSET(0x174A5E00)
-#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTQUERYALIORDERSTATUS_OFFSET UNITYSDK_OFFSET(0x174AAD30)
-#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTQUERYWEIXINORDERSTATUS_OFFSET UNITYSDK_OFFSET(0x174AACC0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_SAVEPAYPLAT_OFFSET UNITYSDK_OFFSET(0x174AC130)
-#define MIHOYO_SDK_WIN_PAYMANAGER_SHOWPAYDIALOG_OFFSET UNITYSDK_OFFSET(0x174A7D00)
-#define MIHOYO_SDK_WIN_PAYMANAGER_TOASTIFNEEDSHOW_OFFSET UNITYSDK_OFFSET(0x174A7B10)
-#define MIHOYO_SDK_WIN_PAYMANAGER_UPDATEALIQRCODE_OFFSET UNITYSDK_OFFSET(0x174AABA0)
-#define MIHOYO_SDK_WIN_PAYMANAGER_UPDATEWEIXINQRCODE_OFFSET UNITYSDK_OFFSET(0x174AA810)
-#define MIHOYO_SDK_WIN_PAYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x174AC520)
-#define MIHOYO_SDK_WIN_PAYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x174AC4F0)
-#define MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_0_OFFSET UNITYSDK_OFFSET(0x174AC7B0)
-#define MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_1_OFFSET UNITYSDK_OFFSET(0x174AC810)
-#define MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_2_OFFSET UNITYSDK_OFFSET(0x174AC650)
-#define MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_3_OFFSET UNITYSDK_OFFSET(0x174AC710)
-#define MIHOYO_SDK_WIN_PAYMANAGER__SHOWPAYDIALOG_B__24_0_OFFSET UNITYSDK_OFFSET(0x174AC580)
-#define MIHOYO_SDK_WIN_PAYMANAGER__SHOWPAYDIALOG_B__24_1_OFFSET UNITYSDK_OFFSET(0x174AC5A0)
+#define MIHOYO_SDK_WIN_PAYMANAGER_CHECKORDER_OFFSET UNITYSDK_OFFSET(0x182AA2D0)
+#define MIHOYO_SDK_WIN_PAYMANAGER_CHECKQRCODE_OFFSET UNITYSDK_OFFSET(0x182AB090)
+#define MIHOYO_SDK_WIN_PAYMANAGER_CLOSEPAYSUCCESSDIALOG_OFFSET UNITYSDK_OFFSET(0x182A7380)
+#define MIHOYO_SDK_WIN_PAYMANAGER_CREATEFAILPAYCALLBACK_OFFSET UNITYSDK_OFFSET(0x182AB610)
+#define MIHOYO_SDK_WIN_PAYMANAGER_CREATEORDER_OFFSET UNITYSDK_OFFSET(0x182A7740)
+#define MIHOYO_SDK_WIN_PAYMANAGER_GETPAYPLAT_OFFSET UNITYSDK_OFFSET(0x182A72D0)
+#define MIHOYO_SDK_WIN_PAYMANAGER_GETPRICETIER_OFFSET UNITYSDK_OFFSET(0x182A52F0)
+#define MIHOYO_SDK_WIN_PAYMANAGER_GETPRODUCTLIST_OFFSET UNITYSDK_OFFSET(0x182A5570)
+#define MIHOYO_SDK_WIN_PAYMANAGER_HIDEPAYDIALOG_OFFSET UNITYSDK_OFFSET(0x182AA170)
+#define MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKALIORDER_OFFSET UNITYSDK_OFFSET(0x182AB080)
+#define MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKORDER_OFFSET UNITYSDK_OFFSET(0x182AA7A0)
+#define MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKWEIXINORDER_OFFSET UNITYSDK_OFFSET(0x182AA790)
+#define MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEALIORDER_OFFSET UNITYSDK_OFFSET(0x182A9DF0)
+#define MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEORDER_OFFSET UNITYSDK_OFFSET(0x182A9120)
+#define MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEWEIXINORDER_OFFSET UNITYSDK_OFFSET(0x182A8E50)
+#define MIHOYO_SDK_WIN_PAYMANAGER_ONGETPRODUCTLISTERROR_OFFSET UNITYSDK_OFFSET(0x182A59C0)
+#define MIHOYO_SDK_WIN_PAYMANAGER_ONPAYCALLBACKCANCEL_OFFSET UNITYSDK_OFFSET(0x182AB190)
+#define MIHOYO_SDK_WIN_PAYMANAGER_ONPAYCALLBACKFAIL_OFFSET UNITYSDK_OFFSET(0x182A6C60)
+#define MIHOYO_SDK_WIN_PAYMANAGER_ONPAYCALLBACKSUCCESS_OFFSET UNITYSDK_OFFSET(0x182A73A0)
+#define MIHOYO_SDK_WIN_PAYMANAGER_PAY_OFFSET UNITYSDK_OFFSET(0x182A6000)
+#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTCREATEORDER_OFFSET UNITYSDK_OFFSET(0x182A7570)
+#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTDEFAULTPRICETIERV2_OFFSET UNITYSDK_OFFSET(0x182A5D00)
+#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTPRICETIERV2_OFFSET UNITYSDK_OFFSET(0x182A5C00)
+#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTPRICETIER_OFFSET UNITYSDK_OFFSET(0x182A5460)
+#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTQUERYALIORDERSTATUS_OFFSET UNITYSDK_OFFSET(0x182AA240)
+#define MIHOYO_SDK_WIN_PAYMANAGER_REQUESTQUERYWEIXINORDERSTATUS_OFFSET UNITYSDK_OFFSET(0x182AA1B0)
+#define MIHOYO_SDK_WIN_PAYMANAGER_SAVEPAYPLAT_OFFSET UNITYSDK_OFFSET(0x182AB580)
+#define MIHOYO_SDK_WIN_PAYMANAGER_SHOWPAYDIALOG_OFFSET UNITYSDK_OFFSET(0x182A7190)
+#define MIHOYO_SDK_WIN_PAYMANAGER_TOASTIFNEEDSHOW_OFFSET UNITYSDK_OFFSET(0x182A6F80)
+#define MIHOYO_SDK_WIN_PAYMANAGER_UPDATEALIQRCODE_OFFSET UNITYSDK_OFFSET(0x182AA0C0)
+#define MIHOYO_SDK_WIN_PAYMANAGER_UPDATEWEIXINQRCODE_OFFSET UNITYSDK_OFFSET(0x182A9D40)
+#define MIHOYO_SDK_WIN_PAYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x182AB970)
+#define MIHOYO_SDK_WIN_PAYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x182AB940)
+#define MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_0_OFFSET UNITYSDK_OFFSET(0x182ABBF0)
+#define MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_1_OFFSET UNITYSDK_OFFSET(0x182ABC30)
+#define MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_2_OFFSET UNITYSDK_OFFSET(0x182ABAA0)
+#define MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_3_OFFSET UNITYSDK_OFFSET(0x182ABB50)
+#define MIHOYO_SDK_WIN_PAYMANAGER__SHOWPAYDIALOG_B__24_0_OFFSET UNITYSDK_OFFSET(0x182AB9D0)
+#define MIHOYO_SDK_WIN_PAYMANAGER__SHOWPAYDIALOG_B__24_1_OFFSET UNITYSDK_OFFSET(0x182AB9F0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayManager_TypeDefinitionIndex = 8214;
+	inline static constexpr unsigned int PayManager_TypeDefinitionIndex = 9117;
 
 	class PayManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Win::PayManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::PayManager**)Il2CppClass::FromTypeDefinitionIndex(PayManager_TypeDefinitionIndex)->GetStaticField(0x29490);
+			return (::MiHoYo::SDK::Win::PayManager**)Il2CppClass::FromTypeDefinitionIndex(PayManager_TypeDefinitionIndex)->GetStaticField(0x27700);
 		}
 		// static const ::System::String* PayPlatInfo; // 0x0
 		// static const ::System::Int32 OverdueTime = 0x1E; // 0x0
 		// static const ::System::String* amount_display_key; // 0x0
-		::System::String* suggestCurrency; // 0x10
+		::MiHoYo::SDK::JSONNode* gamePayInfo; // 0x10
 		::System::String* orderNumber; // 0x18
-		::MiHoYo::SDK::JSONNode* gamePayInfo; // 0x20
+		::System::Action_1<::System::String*>* payCallback; // 0x20
 		::System::String* weixinUrl; // 0x28
-		::UnityEngine::Coroutine* checkOrderCoroutine; // 0x30
+		::System::String* suggestCountry; // 0x30
 		::System::String* aliUrl; // 0x38
-		::System::Action_1<::System::String*>* payCallback; // 0x40
-		::System::String* suggestCountry; // 0x48
+		::System::String* suggestCurrency; // 0x40
+		::UnityEngine::Coroutine* checkOrderCoroutine; // 0x48
 		::System::DateTime weixinUrlDateTime; // 0x50
 		::System::Boolean isCreateOrderLoading; // 0x58
 		::MiHoYo::SDK::PayPlat currentPayPlat; // 0x5C
@@ -90,39 +90,39 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER__CCTOR_OFFSET))();
 		}
 
-		::System::Void GetPriceTier(::System::String* currency, ::System::Action_1<::System::String*>* callback)
+		::System::Void GetPriceTier(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_GETPRICETIER_OFFSET))(this, currency, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_GETPRICETIER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetProductList(::System::String* jsonString, ::System::Action_1<::System::String*>* callback)
+		::System::Void GetProductList(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_GETPRODUCTLIST_OFFSET))(this, jsonString, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_GETPRODUCTLIST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RequestPriceTier(::System::String* currency, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		::System::Void RequestPriceTier(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_REQUESTPRICETIER_OFFSET))(this, currency, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_REQUESTPRICETIER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RequestPriceTierV2(::System::String* currency, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		::System::Void RequestPriceTierV2(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_REQUESTPRICETIERV2_OFFSET))(this, currency, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_REQUESTPRICETIERV2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RequestDefaultPriceTierV2(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		::System::Void RequestDefaultPriceTierV2(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_REQUESTDEFAULTPRICETIERV2_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_REQUESTDEFAULTPRICETIERV2_OFFSET))(this, a1);
 		}
 
-		::System::Void OnGetProductListError(::System::Action_1<::System::String*>* callback, ::System::Int32 ret, ::System::String* msg)
+		::System::Void OnGetProductListError(::System::Action_1<::System::String*>* a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONGETPRODUCTLISTERROR_OFFSET))(this, callback, ret, msg);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONGETPRODUCTLISTERROR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Pay(::System::String* jsonString, ::System::Action_1<::System::String*>* callback)
+		::System::Void Pay(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_PAY_OFFSET))(this, jsonString, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_PAY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ShowPayDialog()
@@ -135,24 +135,24 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_CLOSEPAYSUCCESSDIALOG_OFFSET))(this);
 		}
 
-		::System::Void RequestCreateOrder(::MiHoYo::SDK::PayPlat type, ::MiHoYo::SDK::JSONNode* payInfo)
+		::System::Void RequestCreateOrder(::MiHoYo::SDK::PayPlat a1, ::MiHoYo::SDK::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PayPlat, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_REQUESTCREATEORDER_OFFSET))(this, type, payInfo);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PayPlat, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_REQUESTCREATEORDER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnCreateWeixinOrder(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void OnCreateWeixinOrder(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEWEIXINORDER_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEWEIXINORDER_OFFSET))(this, a1);
 		}
 
-		::System::Void OnCreateAliOrder(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void OnCreateAliOrder(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEALIORDER_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEALIORDER_OFFSET))(this, a1);
 		}
 
-		::System::String* OnCreateOrder(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::String* OnCreateOrder(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEORDER_OFFSET))(this, response);
+			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCREATEORDER_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateWeixinQRCode()
@@ -175,24 +175,24 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_REQUESTQUERYALIORDERSTATUS_OFFSET))(this);
 		}
 
-		::System::Void OnCheckWeixinOrder(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void OnCheckWeixinOrder(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKWEIXINORDER_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKWEIXINORDER_OFFSET))(this, a1);
 		}
 
-		::System::Void OnCheckAliOrder(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void OnCheckAliOrder(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKALIORDER_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKALIORDER_OFFSET))(this, a1);
 		}
 
-		::System::Void OnCheckOrder(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void OnCheckOrder(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKORDER_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONCHECKORDER_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CheckQRCode(::System::DateTime createTime)
+		::System::Boolean CheckQRCode(::System::DateTime a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_CHECKQRCODE_OFFSET))(this, createTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_CHECKQRCODE_OFFSET))(this, a1);
 		}
 
 		::System::Void HidePayDialog()
@@ -200,9 +200,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_HIDEPAYDIALOG_OFFSET))(this);
 		}
 
-		::System::Void SavePayPlat(::MiHoYo::SDK::PayPlat plat)
+		::System::Void SavePayPlat(::MiHoYo::SDK::PayPlat a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PayPlat))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_SAVEPAYPLAT_OFFSET))(this, plat);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PayPlat))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_SAVEPAYPLAT_OFFSET))(this, a1);
 		}
 
 		::MiHoYo::SDK::PayPlat GetPayPlat()
@@ -210,14 +210,14 @@ namespace MiHoYo::SDK::Win
 			return ((::MiHoYo::SDK::PayPlat(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_GETPAYPLAT_OFFSET))(this);
 		}
 
-		::System::String* CreateFailPayCallback(::System::String* msg, ::System::Int32 code, ::System::String* errMsg)
+		::System::String* CreateFailPayCallback(::System::String* a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_CREATEFAILPAYCALLBACK_OFFSET))(this, msg, code, errMsg);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_CREATEFAILPAYCALLBACK_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void OnPayCallbackFail(::System::String* msg, ::System::Int32 code, ::System::String* errMsg)
+		::System::Void OnPayCallbackFail(::System::String* a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONPAYCALLBACKFAIL_OFFSET))(this, msg, code, errMsg);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONPAYCALLBACKFAIL_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnPayCallbackCancel()
@@ -230,19 +230,19 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_ONPAYCALLBACKSUCCESS_OFFSET))(this);
 		}
 
-		::System::Void CreateOrder(::MiHoYo::SDK::PayPlat type, ::MiHoYo::SDK::JSONNode* payInfo, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		::System::Void CreateOrder(::MiHoYo::SDK::PayPlat a1, ::MiHoYo::SDK::JSONNode* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PayPlat, ::MiHoYo::SDK::JSONNode*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_CREATEORDER_OFFSET))(this, type, payInfo, callback);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PayPlat, ::MiHoYo::SDK::JSONNode*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_CREATEORDER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void CheckOrder(::System::String* order_no, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		::System::Void CheckOrder(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_CHECKORDER_OFFSET))(this, order_no, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_CHECKORDER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ToastIfNeedShow(::System::String* msg)
+		::System::Void ToastIfNeedShow(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_TOASTIFNEEDSHOW_OFFSET))(this, msg);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER_TOASTIFNEEDSHOW_OFFSET))(this, a1);
 		}
 
 		::System::Void _ShowPayDialog_b__24_0()
@@ -250,9 +250,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER__SHOWPAYDIALOG_B__24_0_OFFSET))(this);
 		}
 
-		::System::Void _ShowPayDialog_b__24_1(::MiHoYo::SDK::PayPlat payPlat)
+		::System::Void _ShowPayDialog_b__24_1(::MiHoYo::SDK::PayPlat a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PayPlat))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER__SHOWPAYDIALOG_B__24_1_OFFSET))(this, payPlat);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PayPlat))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER__SHOWPAYDIALOG_B__24_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnCreateOrder_b__29_2()
@@ -265,14 +265,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_3_OFFSET))(this);
 		}
 
-		::System::Void _OnCreateOrder_b__29_0(::MiHoYo::SDK::AlertCompliance_AlertResult result)
+		::System::Void _OnCreateOrder_b__29_0(::MiHoYo::SDK::AlertCompliance_AlertResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AlertCompliance_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_0_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AlertCompliance_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_0_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnCreateOrder_b__29_1(::MiHoYo::SDK::Alert_AlertResult result)
+		::System::Void _OnCreateOrder_b__29_1(::MiHoYo::SDK::Alert_AlertResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_1_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER__ONCREATEORDER_B__29_1_OFFSET))(this, a1);
 		}
 	};
 }

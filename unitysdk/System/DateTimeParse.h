@@ -19,102 +19,102 @@ namespace System::Globalization { class Calendar; }
 namespace System::Globalization { class DateTimeFormatInfo; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_DATETIMEPARSE_ADJUSTHOUR_OFFSET UNITYSDK_OFFSET(0x178C9CE0)
-#define SYSTEM_DATETIMEPARSE_ADJUSTTIMEMARK_OFFSET UNITYSDK_OFFSET(0x178C9C90)
-#define SYSTEM_DATETIMEPARSE_ADJUSTTIMEZONETOLOCAL_OFFSET UNITYSDK_OFFSET(0x178CC2D0)
-#define SYSTEM_DATETIMEPARSE_ADJUSTTIMEZONETOUNIVERSAL_OFFSET UNITYSDK_OFFSET(0x178CC260)
-#define SYSTEM_DATETIMEPARSE_CHECKDEFAULTDATETIME_OFFSET UNITYSDK_OFFSET(0x178CBC20)
-#define SYSTEM_DATETIMEPARSE_CHECKNEWVALUE_OFFSET UNITYSDK_OFFSET(0x178CE750)
-#define SYSTEM_DATETIMEPARSE_DATETIMEOFFSETTIMEZONEPOSTPROCESSING_OFFSET UNITYSDK_OFFSET(0x178CC100)
-#define SYSTEM_DATETIMEPARSE_DETERMINETIMEZONEADJUSTMENTS_OFFSET UNITYSDK_OFFSET(0x178CBE60)
-#define SYSTEM_DATETIMEPARSE_DOSTRICTPARSE_OFFSET UNITYSDK_OFFSET(0x178C4770)
-#define SYSTEM_DATETIMEPARSE_EXPANDPREDEFINEDFORMAT_OFFSET UNITYSDK_OFFSET(0x178CE7B0)
-#define SYSTEM_DATETIMEPARSE_GETDATEOFDSN_OFFSET UNITYSDK_OFFSET(0x178C9DF0)
-#define SYSTEM_DATETIMEPARSE_GETDATEOFNDS_OFFSET UNITYSDK_OFFSET(0x178C9E30)
-#define SYSTEM_DATETIMEPARSE_GETDATEOFNNDS_OFFSET UNITYSDK_OFFSET(0x178C9F60)
-#define SYSTEM_DATETIMEPARSE_GETDATETIMENOW_OFFSET UNITYSDK_OFFSET(0x178C7A90)
-#define SYSTEM_DATETIMEPARSE_GETDATETIMEPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x178C4470)
-#define SYSTEM_DATETIMEPARSE_GETDAYOFMNN_OFFSET UNITYSDK_OFFSET(0x178C8F30)
-#define SYSTEM_DATETIMEPARSE_GETDAYOFMN_OFFSET UNITYSDK_OFFSET(0x178C8540)
-#define SYSTEM_DATETIMEPARSE_GETDAYOFNM_OFFSET UNITYSDK_OFFSET(0x178C8B20)
-#define SYSTEM_DATETIMEPARSE_GETDAYOFNNN_OFFSET UNITYSDK_OFFSET(0x178C7ED0)
-#define SYSTEM_DATETIMEPARSE_GETDAYOFNNY_OFFSET UNITYSDK_OFFSET(0x178C98A0)
-#define SYSTEM_DATETIMEPARSE_GETDAYOFNN_OFFSET UNITYSDK_OFFSET(0x178C7BD0)
-#define SYSTEM_DATETIMEPARSE_GETDAYOFYMN_OFFSET UNITYSDK_OFFSET(0x178C9A80)
-#define SYSTEM_DATETIMEPARSE_GETDAYOFYM_OFFSET UNITYSDK_OFFSET(0x178C9BE0)
-#define SYSTEM_DATETIMEPARSE_GETDAYOFYNN_OFFSET UNITYSDK_OFFSET(0x178C9720)
-#define SYSTEM_DATETIMEPARSE_GETDAYOFYN_OFFSET UNITYSDK_OFFSET(0x178C9B30)
-#define SYSTEM_DATETIMEPARSE_GETDEFAULTYEAR_OFFSET UNITYSDK_OFFSET(0x178C7A30)
-#define SYSTEM_DATETIMEPARSE_GETHEBREWDAYOFNM_OFFSET UNITYSDK_OFFSET(0x178C8950)
-#define SYSTEM_DATETIMEPARSE_GETMONTHDAYORDER_OFFSET UNITYSDK_OFFSET(0x178C7560)
-#define SYSTEM_DATETIMEPARSE_GETTIMEOFNNN_OFFSET UNITYSDK_OFFSET(0x178C9DA0)
-#define SYSTEM_DATETIMEPARSE_GETTIMEOFNN_OFFSET UNITYSDK_OFFSET(0x178C9D50)
-#define SYSTEM_DATETIMEPARSE_GETTIMEOFN_OFFSET UNITYSDK_OFFSET(0x178C9D10)
-#define SYSTEM_DATETIMEPARSE_GETTIMEZONENAME_OFFSET UNITYSDK_OFFSET(0x178C5390)
-#define SYSTEM_DATETIMEPARSE_GETYEARMONTHDAYORDER_OFFSET UNITYSDK_OFFSET(0x178C7120)
-#define SYSTEM_DATETIMEPARSE_GETYEARMONTHORDER_OFFSET UNITYSDK_OFFSET(0x178C73C0)
-#define SYSTEM_DATETIMEPARSE_HANDLETIMEZONE_OFFSET UNITYSDK_OFFSET(0x178C5930)
-#define SYSTEM_DATETIMEPARSE_ISDIGIT_OFFSET UNITYSDK_OFFSET(0x178C5400)
-#define SYSTEM_DATETIMEPARSE_LEX_OFFSET UNITYSDK_OFFSET(0x178C5AC0)
-#define SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDDAYNAME_OFFSET UNITYSDK_OFFSET(0x178CD6A0)
-#define SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDMONTHNAME_OFFSET UNITYSDK_OFFSET(0x178CD170)
-#define SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDTIMEMARK_OFFSET UNITYSDK_OFFSET(0x178CE640)
-#define SYSTEM_DATETIMEPARSE_MATCHDAYNAME_OFFSET UNITYSDK_OFFSET(0x178CDC40)
-#define SYSTEM_DATETIMEPARSE_MATCHERANAME_OFFSET UNITYSDK_OFFSET(0x178CE1E0)
-#define SYSTEM_DATETIMEPARSE_MATCHHEBREWDIGITS_OFFSET UNITYSDK_OFFSET(0x178CC7B0)
-#define SYSTEM_DATETIMEPARSE_MATCHMONTHNAME_OFFSET UNITYSDK_OFFSET(0x178CD3F0)
-#define SYSTEM_DATETIMEPARSE_MATCHTIMEMARK_OFFSET UNITYSDK_OFFSET(0x178CE460)
-#define SYSTEM_DATETIMEPARSE_MATCHWORD_OFFSET UNITYSDK_OFFSET(0x178C5260)
-#define SYSTEM_DATETIMEPARSE_PARSEBYFORMAT_OFFSET UNITYSDK_OFFSET(0x178CEF70)
-#define SYSTEM_DATETIMEPARSE_PARSEDIGITS_1_OFFSET UNITYSDK_OFFSET(0x178CC8A0)
-#define SYSTEM_DATETIMEPARSE_PARSEDIGITS_OFFSET UNITYSDK_OFFSET(0x178CC5B0)
-#define SYSTEM_DATETIMEPARSE_PARSEEXACTMULTIPLE_1_OFFSET UNITYSDK_OFFSET(0x178C2980)
-#define SYSTEM_DATETIMEPARSE_PARSEEXACTMULTIPLE_OFFSET UNITYSDK_OFFSET(0x178BB270)
-#define SYSTEM_DATETIMEPARSE_PARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x178C26B0)
-#define SYSTEM_DATETIMEPARSE_PARSEEXACT_OFFSET UNITYSDK_OFFSET(0x178BB000)
-#define SYSTEM_DATETIMEPARSE_PARSEFRACTIONEXACT_OFFSET UNITYSDK_OFFSET(0x178CC970)
-#define SYSTEM_DATETIMEPARSE_PARSEFRACTION_OFFSET UNITYSDK_OFFSET(0x178C5410)
-#define SYSTEM_DATETIMEPARSE_PARSEISO8601_OFFSET UNITYSDK_OFFSET(0x178CB430)
-#define SYSTEM_DATETIMEPARSE_PARSESIGN_OFFSET UNITYSDK_OFFSET(0x178CCAD0)
-#define SYSTEM_DATETIMEPARSE_PARSETIMEZONEOFFSET_OFFSET UNITYSDK_OFFSET(0x178CCB50)
-#define SYSTEM_DATETIMEPARSE_PARSETIMEZONE_OFFSET UNITYSDK_OFFSET(0x178C5520)
-#define SYSTEM_DATETIMEPARSE_PARSE_1_OFFSET UNITYSDK_OFFSET(0x178C21F0)
-#define SYSTEM_DATETIMEPARSE_PARSE_OFFSET UNITYSDK_OFFSET(0x178BAE00)
-#define SYSTEM_DATETIMEPARSE_PROCESSDATETIMESUFFIX_OFFSET UNITYSDK_OFFSET(0x178CA3C0)
-#define SYSTEM_DATETIMEPARSE_PROCESSHEBREWTERMINALSTATE_OFFSET UNITYSDK_OFFSET(0x178CA4B0)
-#define SYSTEM_DATETIMEPARSE_PROCESSTERMINALTSTATE_OFFSET UNITYSDK_OFFSET(0x178C6940)
-#define SYSTEM_DATETIMEPARSE_SETDATEDMY_OFFSET UNITYSDK_OFFSET(0x178C7930)
-#define SYSTEM_DATETIMEPARSE_SETDATEMDY_OFFSET UNITYSDK_OFFSET(0x178C78B0)
-#define SYSTEM_DATETIMEPARSE_SETDATEYDM_OFFSET UNITYSDK_OFFSET(0x178C79B0)
-#define SYSTEM_DATETIMEPARSE_SETDATEYMD_OFFSET UNITYSDK_OFFSET(0x178C7840)
-#define SYSTEM_DATETIMEPARSE_TRYADJUSTYEAR_OFFSET UNITYSDK_OFFSET(0x178C7780)
-#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_1_OFFSET UNITYSDK_OFFSET(0x178BC3A0)
-#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_2_OFFSET UNITYSDK_OFFSET(0x178C4F90)
-#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_OFFSET UNITYSDK_OFFSET(0x178C3AF0)
-#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x178C3800)
-#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_2_OFFSET UNITYSDK_OFFSET(0x178C43B0)
-#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_OFFSET UNITYSDK_OFFSET(0x178BC170)
-#define SYSTEM_DATETIMEPARSE_TRYPARSEQUOTESTRING_OFFSET UNITYSDK_OFFSET(0x178D08A0)
-#define SYSTEM_DATETIMEPARSE_TRYPARSE_1_OFFSET UNITYSDK_OFFSET(0x178C3350)
-#define SYSTEM_DATETIMEPARSE_TRYPARSE_2_OFFSET UNITYSDK_OFFSET(0x178CA930)
-#define SYSTEM_DATETIMEPARSE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x178BBE10)
-#define SYSTEM_DATETIMEPARSE_VERIFYVALIDPUNCTUATION_OFFSET UNITYSDK_OFFSET(0x178C6F10)
-#define SYSTEM_DATETIMEPARSE__CCTOR_OFFSET UNITYSDK_OFFSET(0x178D0A10)
+#define SYSTEM_DATETIMEPARSE_ADJUSTHOUR_OFFSET UNITYSDK_OFFSET(0x186835C0)
+#define SYSTEM_DATETIMEPARSE_ADJUSTTIMEMARK_OFFSET UNITYSDK_OFFSET(0x18683570)
+#define SYSTEM_DATETIMEPARSE_ADJUSTTIMEZONETOLOCAL_OFFSET UNITYSDK_OFFSET(0x18685AE0)
+#define SYSTEM_DATETIMEPARSE_ADJUSTTIMEZONETOUNIVERSAL_OFFSET UNITYSDK_OFFSET(0x18685A70)
+#define SYSTEM_DATETIMEPARSE_CHECKDEFAULTDATETIME_OFFSET UNITYSDK_OFFSET(0x18685430)
+#define SYSTEM_DATETIMEPARSE_CHECKNEWVALUE_OFFSET UNITYSDK_OFFSET(0x18688060)
+#define SYSTEM_DATETIMEPARSE_DATETIMEOFFSETTIMEZONEPOSTPROCESSING_OFFSET UNITYSDK_OFFSET(0x18685910)
+#define SYSTEM_DATETIMEPARSE_DETERMINETIMEZONEADJUSTMENTS_OFFSET UNITYSDK_OFFSET(0x18685670)
+#define SYSTEM_DATETIMEPARSE_DOSTRICTPARSE_OFFSET UNITYSDK_OFFSET(0x1867E0E0)
+#define SYSTEM_DATETIMEPARSE_EXPANDPREDEFINEDFORMAT_OFFSET UNITYSDK_OFFSET(0x186880C0)
+#define SYSTEM_DATETIMEPARSE_GETDATEOFDSN_OFFSET UNITYSDK_OFFSET(0x186836D0)
+#define SYSTEM_DATETIMEPARSE_GETDATEOFNDS_OFFSET UNITYSDK_OFFSET(0x18683710)
+#define SYSTEM_DATETIMEPARSE_GETDATEOFNNDS_OFFSET UNITYSDK_OFFSET(0x18683840)
+#define SYSTEM_DATETIMEPARSE_GETDATETIMENOW_OFFSET UNITYSDK_OFFSET(0x18681350)
+#define SYSTEM_DATETIMEPARSE_GETDATETIMEPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1867DE30)
+#define SYSTEM_DATETIMEPARSE_GETDAYOFMNN_OFFSET UNITYSDK_OFFSET(0x18682810)
+#define SYSTEM_DATETIMEPARSE_GETDAYOFMN_OFFSET UNITYSDK_OFFSET(0x18681E00)
+#define SYSTEM_DATETIMEPARSE_GETDAYOFNM_OFFSET UNITYSDK_OFFSET(0x186823F0)
+#define SYSTEM_DATETIMEPARSE_GETDAYOFNNN_OFFSET UNITYSDK_OFFSET(0x18681790)
+#define SYSTEM_DATETIMEPARSE_GETDAYOFNNY_OFFSET UNITYSDK_OFFSET(0x18683180)
+#define SYSTEM_DATETIMEPARSE_GETDAYOFNN_OFFSET UNITYSDK_OFFSET(0x18681490)
+#define SYSTEM_DATETIMEPARSE_GETDAYOFYMN_OFFSET UNITYSDK_OFFSET(0x18683360)
+#define SYSTEM_DATETIMEPARSE_GETDAYOFYM_OFFSET UNITYSDK_OFFSET(0x186834C0)
+#define SYSTEM_DATETIMEPARSE_GETDAYOFYNN_OFFSET UNITYSDK_OFFSET(0x18683000)
+#define SYSTEM_DATETIMEPARSE_GETDAYOFYN_OFFSET UNITYSDK_OFFSET(0x18683410)
+#define SYSTEM_DATETIMEPARSE_GETDEFAULTYEAR_OFFSET UNITYSDK_OFFSET(0x186812F0)
+#define SYSTEM_DATETIMEPARSE_GETHEBREWDAYOFNM_OFFSET UNITYSDK_OFFSET(0x18682220)
+#define SYSTEM_DATETIMEPARSE_GETMONTHDAYORDER_OFFSET UNITYSDK_OFFSET(0x18680E10)
+#define SYSTEM_DATETIMEPARSE_GETTIMEOFNNN_OFFSET UNITYSDK_OFFSET(0x18683680)
+#define SYSTEM_DATETIMEPARSE_GETTIMEOFNN_OFFSET UNITYSDK_OFFSET(0x18683630)
+#define SYSTEM_DATETIMEPARSE_GETTIMEOFN_OFFSET UNITYSDK_OFFSET(0x186835F0)
+#define SYSTEM_DATETIMEPARSE_GETTIMEZONENAME_OFFSET UNITYSDK_OFFSET(0x1867EC40)
+#define SYSTEM_DATETIMEPARSE_GETYEARMONTHDAYORDER_OFFSET UNITYSDK_OFFSET(0x186809D0)
+#define SYSTEM_DATETIMEPARSE_GETYEARMONTHORDER_OFFSET UNITYSDK_OFFSET(0x18680C70)
+#define SYSTEM_DATETIMEPARSE_HANDLETIMEZONE_OFFSET UNITYSDK_OFFSET(0x1867F1E0)
+#define SYSTEM_DATETIMEPARSE_ISDIGIT_OFFSET UNITYSDK_OFFSET(0x1867ECB0)
+#define SYSTEM_DATETIMEPARSE_LEX_OFFSET UNITYSDK_OFFSET(0x1867F370)
+#define SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDDAYNAME_OFFSET UNITYSDK_OFFSET(0x18687000)
+#define SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDMONTHNAME_OFFSET UNITYSDK_OFFSET(0x18686980)
+#define SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDTIMEMARK_OFFSET UNITYSDK_OFFSET(0x18687F50)
+#define SYSTEM_DATETIMEPARSE_MATCHDAYNAME_OFFSET UNITYSDK_OFFSET(0x186875A0)
+#define SYSTEM_DATETIMEPARSE_MATCHERANAME_OFFSET UNITYSDK_OFFSET(0x18687B40)
+#define SYSTEM_DATETIMEPARSE_MATCHHEBREWDIGITS_OFFSET UNITYSDK_OFFSET(0x18685FC0)
+#define SYSTEM_DATETIMEPARSE_MATCHMONTHNAME_OFFSET UNITYSDK_OFFSET(0x18686C70)
+#define SYSTEM_DATETIMEPARSE_MATCHTIMEMARK_OFFSET UNITYSDK_OFFSET(0x18687D70)
+#define SYSTEM_DATETIMEPARSE_MATCHWORD_OFFSET UNITYSDK_OFFSET(0x1867EB10)
+#define SYSTEM_DATETIMEPARSE_PARSEBYFORMAT_OFFSET UNITYSDK_OFFSET(0x18688970)
+#define SYSTEM_DATETIMEPARSE_PARSEDIGITS_1_OFFSET UNITYSDK_OFFSET(0x186860B0)
+#define SYSTEM_DATETIMEPARSE_PARSEDIGITS_OFFSET UNITYSDK_OFFSET(0x18685DC0)
+#define SYSTEM_DATETIMEPARSE_PARSEEXACTMULTIPLE_1_OFFSET UNITYSDK_OFFSET(0x1867C410)
+#define SYSTEM_DATETIMEPARSE_PARSEEXACTMULTIPLE_OFFSET UNITYSDK_OFFSET(0x18674780)
+#define SYSTEM_DATETIMEPARSE_PARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x1867C140)
+#define SYSTEM_DATETIMEPARSE_PARSEEXACT_OFFSET UNITYSDK_OFFSET(0x18674510)
+#define SYSTEM_DATETIMEPARSE_PARSEFRACTIONEXACT_OFFSET UNITYSDK_OFFSET(0x18686180)
+#define SYSTEM_DATETIMEPARSE_PARSEFRACTION_OFFSET UNITYSDK_OFFSET(0x1867ECC0)
+#define SYSTEM_DATETIMEPARSE_PARSEISO8601_OFFSET UNITYSDK_OFFSET(0x18684C40)
+#define SYSTEM_DATETIMEPARSE_PARSESIGN_OFFSET UNITYSDK_OFFSET(0x186862E0)
+#define SYSTEM_DATETIMEPARSE_PARSETIMEZONEOFFSET_OFFSET UNITYSDK_OFFSET(0x18686360)
+#define SYSTEM_DATETIMEPARSE_PARSETIMEZONE_OFFSET UNITYSDK_OFFSET(0x1867EDD0)
+#define SYSTEM_DATETIMEPARSE_PARSE_1_OFFSET UNITYSDK_OFFSET(0x1867BC80)
+#define SYSTEM_DATETIMEPARSE_PARSE_OFFSET UNITYSDK_OFFSET(0x18674310)
+#define SYSTEM_DATETIMEPARSE_PROCESSDATETIMESUFFIX_OFFSET UNITYSDK_OFFSET(0x18683CD0)
+#define SYSTEM_DATETIMEPARSE_PROCESSHEBREWTERMINALSTATE_OFFSET UNITYSDK_OFFSET(0x18683DC0)
+#define SYSTEM_DATETIMEPARSE_PROCESSTERMINALTSTATE_OFFSET UNITYSDK_OFFSET(0x186801F0)
+#define SYSTEM_DATETIMEPARSE_SETDATEDMY_OFFSET UNITYSDK_OFFSET(0x186811F0)
+#define SYSTEM_DATETIMEPARSE_SETDATEMDY_OFFSET UNITYSDK_OFFSET(0x18681170)
+#define SYSTEM_DATETIMEPARSE_SETDATEYDM_OFFSET UNITYSDK_OFFSET(0x18681270)
+#define SYSTEM_DATETIMEPARSE_SETDATEYMD_OFFSET UNITYSDK_OFFSET(0x18681100)
+#define SYSTEM_DATETIMEPARSE_TRYADJUSTYEAR_OFFSET UNITYSDK_OFFSET(0x18681030)
+#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_1_OFFSET UNITYSDK_OFFSET(0x186758B0)
+#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_2_OFFSET UNITYSDK_OFFSET(0x1867E850)
+#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_OFFSET UNITYSDK_OFFSET(0x1867D580)
+#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x1867D290)
+#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_2_OFFSET UNITYSDK_OFFSET(0x1867DD70)
+#define SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_OFFSET UNITYSDK_OFFSET(0x18675680)
+#define SYSTEM_DATETIMEPARSE_TRYPARSEQUOTESTRING_OFFSET UNITYSDK_OFFSET(0x18689F40)
+#define SYSTEM_DATETIMEPARSE_TRYPARSE_1_OFFSET UNITYSDK_OFFSET(0x1867CDE0)
+#define SYSTEM_DATETIMEPARSE_TRYPARSE_2_OFFSET UNITYSDK_OFFSET(0x18684240)
+#define SYSTEM_DATETIMEPARSE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x18675320)
+#define SYSTEM_DATETIMEPARSE_VERIFYVALIDPUNCTUATION_OFFSET UNITYSDK_OFFSET(0x186807C0)
+#define SYSTEM_DATETIMEPARSE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1868A260)
 
 namespace System
 {
-	inline static constexpr unsigned int DateTimeParse_TypeDefinitionIndex = 253;
+	inline static constexpr unsigned int DateTimeParse_TypeDefinitionIndex = 252;
 
 	class DateTimeParse : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::Il2CppArray<::System::DateTimeParse_DS>*>** StaticGet_dateParsingStates()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::DateTimeParse_DS>*>**)Il2CppClass::FromTypeDefinitionIndex(DateTimeParse_TypeDefinitionIndex)->GetStaticField(0x4D20);
+			return (::Il2CppArray<::Il2CppArray<::System::DateTimeParse_DS>*>**)Il2CppClass::FromTypeDefinitionIndex(DateTimeParse_TypeDefinitionIndex)->GetStaticField(0x48D0);
 		}
 		static ::System::DateTimeParse_MatchNumberDelegate** StaticGet_m_hebrewNumberParser()
 		{
-			return (::System::DateTimeParse_MatchNumberDelegate**)Il2CppClass::FromTypeDefinitionIndex(DateTimeParse_TypeDefinitionIndex)->GetStaticField(0x4D28);
+			return (::System::DateTimeParse_MatchNumberDelegate**)Il2CppClass::FromTypeDefinitionIndex(DateTimeParse_TypeDefinitionIndex)->GetStaticField(0x48D8);
 		}
 
 		static ::System::Void _cctor()
@@ -122,404 +122,404 @@ namespace System
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE__CCTOR_OFFSET))();
 		}
 
-		static ::System::DateTime ParseExact(::System::String* s, ::System::String* format, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles style)
+		static ::System::DateTime ParseExact(::System::String* a1, ::System::String* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::Globalization::DateTimeStyles a4)
 		{
-			return ((::System::DateTime(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEEXACT_OFFSET))(s, format, dtfi, style);
+			return ((::System::DateTime(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEEXACT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::DateTime ParseExact_1(::System::String* s, ::System::String* format, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles style, ::System::TimeSpan& offset)
+		static ::System::DateTime ParseExact_1(::System::String* a1, ::System::String* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::Globalization::DateTimeStyles a4, ::System::TimeSpan& a5)
 		{
-			return ((::System::DateTime(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEEXACT_1_OFFSET))(s, format, dtfi, style, offset);
+			return ((::System::DateTime(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEEXACT_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean TryParseExact(::System::String* s, ::System::String* format, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles style, ::System::DateTime& result)
+		static ::System::Boolean TryParseExact(::System::String* a1, ::System::String* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::Globalization::DateTimeStyles a4, ::System::DateTime& a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_OFFSET))(s, format, dtfi, style, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean TryParseExact_1(::System::String* s, ::System::String* format, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles style, ::System::DateTime& result, ::System::TimeSpan& offset)
+		static ::System::Boolean TryParseExact_1(::System::String* a1, ::System::String* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::Globalization::DateTimeStyles a4, ::System::DateTime& a5, ::System::TimeSpan& a6)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_1_OFFSET))(s, format, dtfi, style, result, offset);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean TryParseExact_2(::System::String* s, ::System::String* format, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles style, ::System::DateTimeResult& result)
+		static ::System::Boolean TryParseExact_2(::System::String* a1, ::System::String* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::Globalization::DateTimeStyles a4, ::System::DateTimeResult& a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_2_OFFSET))(s, format, dtfi, style, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACT_2_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::DateTime ParseExactMultiple(::System::String* s, ::Il2CppArray<::System::String*>* formats, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles style)
+		static ::System::DateTime ParseExactMultiple(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::Globalization::DateTimeStyles a4)
 		{
-			return ((::System::DateTime(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEEXACTMULTIPLE_OFFSET))(s, formats, dtfi, style);
+			return ((::System::DateTime(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEEXACTMULTIPLE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::DateTime ParseExactMultiple_1(::System::String* s, ::Il2CppArray<::System::String*>* formats, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles style, ::System::TimeSpan& offset)
+		static ::System::DateTime ParseExactMultiple_1(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::Globalization::DateTimeStyles a4, ::System::TimeSpan& a5)
 		{
-			return ((::System::DateTime(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEEXACTMULTIPLE_1_OFFSET))(s, formats, dtfi, style, offset);
+			return ((::System::DateTime(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEEXACTMULTIPLE_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean TryParseExactMultiple(::System::String* s, ::Il2CppArray<::System::String*>* formats, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles style, ::System::DateTime& result, ::System::TimeSpan& offset)
+		static ::System::Boolean TryParseExactMultiple(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::Globalization::DateTimeStyles a4, ::System::DateTime& a5, ::System::TimeSpan& a6)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_OFFSET))(s, formats, dtfi, style, result, offset);
+			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean TryParseExactMultiple_1(::System::String* s, ::Il2CppArray<::System::String*>* formats, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles style, ::System::DateTime& result)
+		static ::System::Boolean TryParseExactMultiple_1(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::Globalization::DateTimeStyles a4, ::System::DateTime& a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_1_OFFSET))(s, formats, dtfi, style, result);
+			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean TryParseExactMultiple_2(::System::String* s, ::Il2CppArray<::System::String*>* formats, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles style, ::System::DateTimeResult& result)
+		static ::System::Boolean TryParseExactMultiple_2(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::Globalization::DateTimeStyles a4, ::System::DateTimeResult& a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_2_OFFSET))(s, formats, dtfi, style, result);
+			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEEXACTMULTIPLE_2_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean MatchWord(::System::__DTString& str, ::System::String* target)
+		static ::System::Boolean MatchWord(::System::__DTString& a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHWORD_OFFSET))(str, target);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHWORD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetTimeZoneName(::System::__DTString& str)
+		static ::System::Boolean GetTimeZoneName(::System::__DTString& a1)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETTIMEZONENAME_OFFSET))(str);
+			return ((::System::Boolean(*)(::System::__DTString&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETTIMEZONENAME_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsDigit(::System::Char ch)
+		static ::System::Boolean IsDigit(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_ISDIGIT_OFFSET))(ch);
+			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_ISDIGIT_OFFSET))(a1);
 		}
 
-		static ::System::Boolean ParseFraction(::System::__DTString& str, ::System::Double& result)
+		static ::System::Boolean ParseFraction(::System::__DTString& a1, ::System::Double& a2)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Double&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEFRACTION_OFFSET))(str, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Double&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEFRACTION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ParseTimeZone(::System::__DTString& str, ::System::TimeSpan& result)
+		static ::System::Boolean ParseTimeZone(::System::__DTString& a1, ::System::TimeSpan& a2)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSETIMEZONE_OFFSET))(str, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSETIMEZONE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean HandleTimeZone(::System::__DTString& str, ::System::DateTimeResult& result)
+		static ::System::Boolean HandleTimeZone(::System::__DTString& a1, ::System::DateTimeResult& a2)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_HANDLETIMEZONE_OFFSET))(str, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_HANDLETIMEZONE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean Lex(::System::DateTimeParse_DS dps, ::System::__DTString& str, ::System::DateTimeToken& dtok, ::System::DateTimeRawInfo& raw, ::System::DateTimeResult& result, ::System::Globalization::DateTimeFormatInfo*& dtfi, ::System::Globalization::DateTimeStyles styles)
+		static ::System::Boolean Lex(::System::DateTimeParse_DS a1, ::System::__DTString& a2, ::System::DateTimeToken& a3, ::System::DateTimeRawInfo& a4, ::System::DateTimeResult& a5, ::System::Globalization::DateTimeFormatInfo*& a6, ::System::Globalization::DateTimeStyles a7)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeParse_DS, ::System::__DTString&, ::System::DateTimeToken&, ::System::DateTimeRawInfo&, ::System::DateTimeResult&, ::System::Globalization::DateTimeFormatInfo*&, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_LEX_OFFSET))(dps, str, dtok, raw, result, dtfi, styles);
+			return ((::System::Boolean(*)(::System::DateTimeParse_DS, ::System::__DTString&, ::System::DateTimeToken&, ::System::DateTimeRawInfo&, ::System::DateTimeResult&, ::System::Globalization::DateTimeFormatInfo*&, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_LEX_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Boolean VerifyValidPunctuation(::System::__DTString& str)
+		static ::System::Boolean VerifyValidPunctuation(::System::__DTString& a1)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_VERIFYVALIDPUNCTUATION_OFFSET))(str);
+			return ((::System::Boolean(*)(::System::__DTString&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_VERIFYVALIDPUNCTUATION_OFFSET))(a1);
 		}
 
-		static ::System::Boolean GetYearMonthDayOrder(::System::String* datePattern, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Int32& order)
+		static ::System::Boolean GetYearMonthDayOrder(::System::String* a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETYEARMONTHDAYORDER_OFFSET))(datePattern, dtfi, order);
+			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETYEARMONTHDAYORDER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetYearMonthOrder(::System::String* pattern, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Int32& order)
+		static ::System::Boolean GetYearMonthOrder(::System::String* a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETYEARMONTHORDER_OFFSET))(pattern, dtfi, order);
+			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETYEARMONTHORDER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetMonthDayOrder(::System::String* pattern, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Int32& order)
+		static ::System::Boolean GetMonthDayOrder(::System::String* a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETMONTHDAYORDER_OFFSET))(pattern, dtfi, order);
+			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETMONTHDAYORDER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryAdjustYear(::System::DateTimeResult& result, ::System::Int32 year, ::System::Int32& adjustedYear)
+		static ::System::Boolean TryAdjustYear(::System::DateTimeResult& a1, ::System::Int32 a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYADJUSTYEAR_OFFSET))(result, year, adjustedYear);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYADJUSTYEAR_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean SetDateYMD(::System::DateTimeResult& result, ::System::Int32 year, ::System::Int32 month, ::System::Int32 day)
+		static ::System::Boolean SetDateYMD(::System::DateTimeResult& a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_SETDATEYMD_OFFSET))(result, year, month, day);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_SETDATEYMD_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean SetDateMDY(::System::DateTimeResult& result, ::System::Int32 month, ::System::Int32 day, ::System::Int32 year)
+		static ::System::Boolean SetDateMDY(::System::DateTimeResult& a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_SETDATEMDY_OFFSET))(result, month, day, year);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_SETDATEMDY_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean SetDateDMY(::System::DateTimeResult& result, ::System::Int32 day, ::System::Int32 month, ::System::Int32 year)
+		static ::System::Boolean SetDateDMY(::System::DateTimeResult& a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_SETDATEDMY_OFFSET))(result, day, month, year);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_SETDATEDMY_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean SetDateYDM(::System::DateTimeResult& result, ::System::Int32 year, ::System::Int32 day, ::System::Int32 month)
+		static ::System::Boolean SetDateYDM(::System::DateTimeResult& a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_SETDATEYDM_OFFSET))(result, year, day, month);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_SETDATEYDM_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void GetDefaultYear(::System::DateTimeResult& result, ::System::Globalization::DateTimeStyles& styles)
+		static ::System::Void GetDefaultYear(::System::DateTimeResult& a1, ::System::Globalization::DateTimeStyles& a2)
 		{
-			return ((::System::Void(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDEFAULTYEAR_OFFSET))(result, styles);
+			return ((::System::Void(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDEFAULTYEAR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetDayOfNN(::System::DateTimeResult& result, ::System::Globalization::DateTimeStyles& styles, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetDayOfNN(::System::DateTimeResult& a1, ::System::Globalization::DateTimeStyles& a2, ::System::DateTimeRawInfo& a3, ::System::Globalization::DateTimeFormatInfo* a4)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFNN_OFFSET))(result, styles, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFNN_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean GetDayOfNNN(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetDayOfNNN(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFNNN_OFFSET))(result, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFNNN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetDayOfMN(::System::DateTimeResult& result, ::System::Globalization::DateTimeStyles& styles, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetDayOfMN(::System::DateTimeResult& a1, ::System::Globalization::DateTimeStyles& a2, ::System::DateTimeRawInfo& a3, ::System::Globalization::DateTimeFormatInfo* a4)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFMN_OFFSET))(result, styles, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFMN_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean GetHebrewDayOfNM(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetHebrewDayOfNM(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETHEBREWDAYOFNM_OFFSET))(result, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETHEBREWDAYOFNM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetDayOfNM(::System::DateTimeResult& result, ::System::Globalization::DateTimeStyles& styles, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetDayOfNM(::System::DateTimeResult& a1, ::System::Globalization::DateTimeStyles& a2, ::System::DateTimeRawInfo& a3, ::System::Globalization::DateTimeFormatInfo* a4)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFNM_OFFSET))(result, styles, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFNM_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean GetDayOfMNN(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetDayOfMNN(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFMNN_OFFSET))(result, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFMNN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetDayOfYNN(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetDayOfYNN(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFYNN_OFFSET))(result, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFYNN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetDayOfNNY(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetDayOfNNY(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFNNY_OFFSET))(result, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFNNY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetDayOfYMN(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetDayOfYMN(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFYMN_OFFSET))(result, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFYMN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetDayOfYN(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetDayOfYN(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFYN_OFFSET))(result, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFYN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetDayOfYM(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetDayOfYM(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFYM_OFFSET))(result, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDAYOFYM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void AdjustTimeMark(::System::Globalization::DateTimeFormatInfo* dtfi, ::System::DateTimeRawInfo& raw)
+		static ::System::Void AdjustTimeMark(::System::Globalization::DateTimeFormatInfo* a1, ::System::DateTimeRawInfo& a2)
 		{
-			return ((::System::Void(*)(::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_ADJUSTTIMEMARK_OFFSET))(dtfi, raw);
+			return ((::System::Void(*)(::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_ADJUSTTIMEMARK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean AdjustHour(::System::Int32& hour, ::System::DateTimeParse_TM timeMark)
+		static ::System::Boolean AdjustHour(::System::Int32& a1, ::System::DateTimeParse_TM a2)
 		{
-			return ((::System::Boolean(*)(::System::Int32&, ::System::DateTimeParse_TM))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_ADJUSTHOUR_OFFSET))(hour, timeMark);
+			return ((::System::Boolean(*)(::System::Int32&, ::System::DateTimeParse_TM))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_ADJUSTHOUR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetTimeOfN(::System::Globalization::DateTimeFormatInfo* dtfi, ::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw)
+		static ::System::Boolean GetTimeOfN(::System::Globalization::DateTimeFormatInfo* a1, ::System::DateTimeResult& a2, ::System::DateTimeRawInfo& a3)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeResult&, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETTIMEOFN_OFFSET))(dtfi, result, raw);
+			return ((::System::Boolean(*)(::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeResult&, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETTIMEOFN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetTimeOfNN(::System::Globalization::DateTimeFormatInfo* dtfi, ::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw)
+		static ::System::Boolean GetTimeOfNN(::System::Globalization::DateTimeFormatInfo* a1, ::System::DateTimeResult& a2, ::System::DateTimeRawInfo& a3)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeResult&, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETTIMEOFNN_OFFSET))(dtfi, result, raw);
+			return ((::System::Boolean(*)(::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeResult&, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETTIMEOFNN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetTimeOfNNN(::System::Globalization::DateTimeFormatInfo* dtfi, ::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw)
+		static ::System::Boolean GetTimeOfNNN(::System::Globalization::DateTimeFormatInfo* a1, ::System::DateTimeResult& a2, ::System::DateTimeRawInfo& a3)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeResult&, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETTIMEOFNNN_OFFSET))(dtfi, result, raw);
+			return ((::System::Boolean(*)(::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeResult&, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETTIMEOFNNN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetDateOfDSN(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw)
+		static ::System::Boolean GetDateOfDSN(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDATEOFDSN_OFFSET))(result, raw);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDATEOFDSN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetDateOfNDS(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw)
+		static ::System::Boolean GetDateOfNDS(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDATEOFNDS_OFFSET))(result, raw);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDATEOFNDS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetDateOfNNDS(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean GetDateOfNNDS(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDATEOFNNDS_OFFSET))(result, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDATEOFNNDS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean ProcessDateTimeSuffix(::System::DateTimeResult& result, ::System::DateTimeRawInfo& raw, ::System::DateTimeToken& dtok)
+		static ::System::Boolean ProcessDateTimeSuffix(::System::DateTimeResult& a1, ::System::DateTimeRawInfo& a2, ::System::DateTimeToken& a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::DateTimeToken&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PROCESSDATETIMESUFFIX_OFFSET))(result, raw, dtok);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::DateTimeRawInfo&, ::System::DateTimeToken&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PROCESSDATETIMESUFFIX_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean ProcessHebrewTerminalState(::System::DateTimeParse_DS dps, ::System::DateTimeResult& result, ::System::Globalization::DateTimeStyles& styles, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean ProcessHebrewTerminalState(::System::DateTimeParse_DS a1, ::System::DateTimeResult& a2, ::System::Globalization::DateTimeStyles& a3, ::System::DateTimeRawInfo& a4, ::System::Globalization::DateTimeFormatInfo* a5)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeParse_DS, ::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PROCESSHEBREWTERMINALSTATE_OFFSET))(dps, result, styles, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeParse_DS, ::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PROCESSHEBREWTERMINALSTATE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean ProcessTerminaltState(::System::DateTimeParse_DS dps, ::System::DateTimeResult& result, ::System::Globalization::DateTimeStyles& styles, ::System::DateTimeRawInfo& raw, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::Boolean ProcessTerminaltState(::System::DateTimeParse_DS a1, ::System::DateTimeResult& a2, ::System::Globalization::DateTimeStyles& a3, ::System::DateTimeRawInfo& a4, ::System::Globalization::DateTimeFormatInfo* a5)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeParse_DS, ::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PROCESSTERMINALTSTATE_OFFSET))(dps, result, styles, raw, dtfi);
+			return ((::System::Boolean(*)(::System::DateTimeParse_DS, ::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&, ::System::DateTimeRawInfo&, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PROCESSTERMINALTSTATE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::DateTime Parse(::System::String* s, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles styles)
+		static ::System::DateTime Parse(::System::String* a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Globalization::DateTimeStyles a3)
 		{
-			return ((::System::DateTime(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSE_OFFSET))(s, dtfi, styles);
+			return ((::System::DateTime(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::DateTime Parse_1(::System::String* s, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles styles, ::System::TimeSpan& offset)
+		static ::System::DateTime Parse_1(::System::String* a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Globalization::DateTimeStyles a3, ::System::TimeSpan& a4)
 		{
-			return ((::System::DateTime(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSE_1_OFFSET))(s, dtfi, styles, offset);
+			return ((::System::DateTime(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSE_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean TryParse(::System::String* s, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles styles, ::System::DateTime& result)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Globalization::DateTimeStyles a3, ::System::DateTime& a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSE_OFFSET))(s, dtfi, styles, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean TryParse_1(::System::String* s, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles styles, ::System::DateTime& result, ::System::TimeSpan& offset)
+		static ::System::Boolean TryParse_1(::System::String* a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Globalization::DateTimeStyles a3, ::System::DateTime& a4, ::System::TimeSpan& a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSE_1_OFFSET))(s, dtfi, styles, result, offset);
+			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTime&, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSE_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean TryParse_2(::System::String* s, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles styles, ::System::DateTimeResult& result)
+		static ::System::Boolean TryParse_2(::System::String* a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Globalization::DateTimeStyles a3, ::System::DateTimeResult& a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSE_2_OFFSET))(s, dtfi, styles, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::Globalization::DateTimeStyles, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSE_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean DetermineTimeZoneAdjustments(::System::DateTimeResult& result, ::System::Globalization::DateTimeStyles styles, ::System::Boolean bTimeOnly)
+		static ::System::Boolean DetermineTimeZoneAdjustments(::System::DateTimeResult& a1, ::System::Globalization::DateTimeStyles a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_DETERMINETIMEZONEADJUSTMENTS_OFFSET))(result, styles, bTimeOnly);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_DETERMINETIMEZONEADJUSTMENTS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean DateTimeOffsetTimeZonePostProcessing(::System::DateTimeResult& result, ::System::Globalization::DateTimeStyles styles)
+		static ::System::Boolean DateTimeOffsetTimeZonePostProcessing(::System::DateTimeResult& a1, ::System::Globalization::DateTimeStyles a2)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_DATETIMEOFFSETTIMEZONEPOSTPROCESSING_OFFSET))(result, styles);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_DATETIMEOFFSETTIMEZONEPOSTPROCESSING_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean AdjustTimeZoneToUniversal(::System::DateTimeResult& result)
+		static ::System::Boolean AdjustTimeZoneToUniversal(::System::DateTimeResult& a1)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_ADJUSTTIMEZONETOUNIVERSAL_OFFSET))(result);
+			return ((::System::Boolean(*)(::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_ADJUSTTIMEZONETOUNIVERSAL_OFFSET))(a1);
 		}
 
-		static ::System::Boolean AdjustTimeZoneToLocal(::System::DateTimeResult& result, ::System::Boolean bTimeOnly)
+		static ::System::Boolean AdjustTimeZoneToLocal(::System::DateTimeResult& a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_ADJUSTTIMEZONETOLOCAL_OFFSET))(result, bTimeOnly);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_ADJUSTTIMEZONETOLOCAL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ParseISO8601(::System::DateTimeRawInfo& raw, ::System::__DTString& str, ::System::Globalization::DateTimeStyles styles, ::System::DateTimeResult& result)
+		static ::System::Boolean ParseISO8601(::System::DateTimeRawInfo& a1, ::System::__DTString& a2, ::System::Globalization::DateTimeStyles a3, ::System::DateTimeResult& a4)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeRawInfo&, ::System::__DTString&, ::System::Globalization::DateTimeStyles, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEISO8601_OFFSET))(raw, str, styles, result);
+			return ((::System::Boolean(*)(::System::DateTimeRawInfo&, ::System::__DTString&, ::System::Globalization::DateTimeStyles, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEISO8601_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean MatchHebrewDigits(::System::__DTString& str, ::System::Int32 digitLen, ::System::Int32& number)
+		static ::System::Boolean MatchHebrewDigits(::System::__DTString& a1, ::System::Int32 a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHHEBREWDIGITS_OFFSET))(str, digitLen, number);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHHEBREWDIGITS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean ParseDigits(::System::__DTString& str, ::System::Int32 digitLen, ::System::Int32& result)
+		static ::System::Boolean ParseDigits(::System::__DTString& a1, ::System::Int32 a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEDIGITS_OFFSET))(str, digitLen, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEDIGITS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean ParseDigits_1(::System::__DTString& str, ::System::Int32 minDigitLen, ::System::Int32 maxDigitLen, ::System::Int32& result)
+		static ::System::Boolean ParseDigits_1(::System::__DTString& a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEDIGITS_1_OFFSET))(str, minDigitLen, maxDigitLen, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEDIGITS_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean ParseFractionExact(::System::__DTString& str, ::System::Int32 maxDigitLen, ::System::Double& result)
+		static ::System::Boolean ParseFractionExact(::System::__DTString& a1, ::System::Int32 a2, ::System::Double& a3)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Int32, ::System::Double&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEFRACTIONEXACT_OFFSET))(str, maxDigitLen, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Int32, ::System::Double&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEFRACTIONEXACT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean ParseSign(::System::__DTString& str, ::System::Boolean& result)
+		static ::System::Boolean ParseSign(::System::__DTString& a1, ::System::Boolean& a2)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSESIGN_OFFSET))(str, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSESIGN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ParseTimeZoneOffset(::System::__DTString& str, ::System::Int32 len, ::System::TimeSpan& result)
+		static ::System::Boolean ParseTimeZoneOffset(::System::__DTString& a1, ::System::Int32 a2, ::System::TimeSpan& a3)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Int32, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSETIMEZONEOFFSET_OFFSET))(str, len, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Int32, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSETIMEZONEOFFSET_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean MatchAbbreviatedMonthName(::System::__DTString& str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Int32& result)
+		static ::System::Boolean MatchAbbreviatedMonthName(::System::__DTString& a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDMONTHNAME_OFFSET))(str, dtfi, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDMONTHNAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean MatchMonthName(::System::__DTString& str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Int32& result)
+		static ::System::Boolean MatchMonthName(::System::__DTString& a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHMONTHNAME_OFFSET))(str, dtfi, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHMONTHNAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean MatchAbbreviatedDayName(::System::__DTString& str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Int32& result)
+		static ::System::Boolean MatchAbbreviatedDayName(::System::__DTString& a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDDAYNAME_OFFSET))(str, dtfi, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDDAYNAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean MatchDayName(::System::__DTString& str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Int32& result)
+		static ::System::Boolean MatchDayName(::System::__DTString& a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHDAYNAME_OFFSET))(str, dtfi, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHDAYNAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean MatchEraName(::System::__DTString& str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Int32& result)
+		static ::System::Boolean MatchEraName(::System::__DTString& a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::Int32& a3)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHERANAME_OFFSET))(str, dtfi, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHERANAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean MatchTimeMark(::System::__DTString& str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::DateTimeParse_TM& result)
+		static ::System::Boolean MatchTimeMark(::System::__DTString& a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::DateTimeParse_TM& a3)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeParse_TM&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHTIMEMARK_OFFSET))(str, dtfi, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeParse_TM&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHTIMEMARK_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean MatchAbbreviatedTimeMark(::System::__DTString& str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::DateTimeParse_TM& result)
+		static ::System::Boolean MatchAbbreviatedTimeMark(::System::__DTString& a1, ::System::Globalization::DateTimeFormatInfo* a2, ::System::DateTimeParse_TM& a3)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeParse_TM&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDTIMEMARK_OFFSET))(str, dtfi, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeParse_TM&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_MATCHABBREVIATEDTIMEMARK_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean CheckNewValue(::System::Int32& currentValue, ::System::Int32 newValue, ::System::Char patternChar, ::System::DateTimeResult& result)
+		static ::System::Boolean CheckNewValue(::System::Int32& a1, ::System::Int32 a2, ::System::Char a3, ::System::DateTimeResult& a4)
 		{
-			return ((::System::Boolean(*)(::System::Int32&, ::System::Int32, ::System::Char, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_CHECKNEWVALUE_OFFSET))(currentValue, newValue, patternChar, result);
+			return ((::System::Boolean(*)(::System::Int32&, ::System::Int32, ::System::Char, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_CHECKNEWVALUE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::DateTime GetDateTimeNow(::System::DateTimeResult& result, ::System::Globalization::DateTimeStyles& styles)
+		static ::System::DateTime GetDateTimeNow(::System::DateTimeResult& a1, ::System::Globalization::DateTimeStyles& a2)
 		{
-			return ((::System::DateTime(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDATETIMENOW_OFFSET))(result, styles);
+			return ((::System::DateTime(*)(::System::DateTimeResult&, ::System::Globalization::DateTimeStyles&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDATETIMENOW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean CheckDefaultDateTime(::System::DateTimeResult& result, ::System::Globalization::Calendar*& cal, ::System::Globalization::DateTimeStyles styles)
+		static ::System::Boolean CheckDefaultDateTime(::System::DateTimeResult& a1, ::System::Globalization::Calendar*& a2, ::System::Globalization::DateTimeStyles a3)
 		{
-			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::Calendar*&, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_CHECKDEFAULTDATETIME_OFFSET))(result, cal, styles);
+			return ((::System::Boolean(*)(::System::DateTimeResult&, ::System::Globalization::Calendar*&, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_CHECKDEFAULTDATETIME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* ExpandPredefinedFormat(::System::String* format, ::System::Globalization::DateTimeFormatInfo*& dtfi, ::System::ParsingInfo& parseInfo, ::System::DateTimeResult& result)
+		static ::System::String* ExpandPredefinedFormat(::System::String* a1, ::System::Globalization::DateTimeFormatInfo*& a2, ::System::ParsingInfo& a3, ::System::DateTimeResult& a4)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*&, ::System::ParsingInfo&, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_EXPANDPREDEFINEDFORMAT_OFFSET))(format, dtfi, parseInfo, result);
+			return ((::System::String*(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*&, ::System::ParsingInfo&, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_EXPANDPREDEFINEDFORMAT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean ParseByFormat(::System::__DTString& str, ::System::__DTString& format, ::System::ParsingInfo& parseInfo, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::DateTimeResult& result)
+		static ::System::Boolean ParseByFormat(::System::__DTString& a1, ::System::__DTString& a2, ::System::ParsingInfo& a3, ::System::Globalization::DateTimeFormatInfo* a4, ::System::DateTimeResult& a5)
 		{
-			return ((::System::Boolean(*)(::System::__DTString&, ::System::__DTString&, ::System::ParsingInfo&, ::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEBYFORMAT_OFFSET))(str, format, parseInfo, dtfi, result);
+			return ((::System::Boolean(*)(::System::__DTString&, ::System::__DTString&, ::System::ParsingInfo&, ::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_PARSEBYFORMAT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean TryParseQuoteString(::System::String* format, ::System::Int32 pos, ::System::Text::StringBuilder* result, ::System::Int32& returnValue)
+		static ::System::Boolean TryParseQuoteString(::System::String* a1, ::System::Int32 a2, ::System::Text::StringBuilder* a3, ::System::Int32& a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Text::StringBuilder*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEQUOTESTRING_OFFSET))(format, pos, result, returnValue);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Text::StringBuilder*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_TRYPARSEQUOTESTRING_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean DoStrictParse(::System::String* s, ::System::String* formatParam, ::System::Globalization::DateTimeStyles styles, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::DateTimeResult& result)
+		static ::System::Boolean DoStrictParse(::System::String* a1, ::System::String* a2, ::System::Globalization::DateTimeStyles a3, ::System::Globalization::DateTimeFormatInfo* a4, ::System::DateTimeResult& a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeStyles, ::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_DOSTRICTPARSE_OFFSET))(s, formatParam, styles, dtfi, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Globalization::DateTimeStyles, ::System::Globalization::DateTimeFormatInfo*, ::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_DOSTRICTPARSE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Exception* GetDateTimeParseException(::System::DateTimeResult& result)
+		static ::System::Exception* GetDateTimeParseException(::System::DateTimeResult& a1)
 		{
-			return ((::System::Exception*(*)(::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDATETIMEPARSEEXCEPTION_OFFSET))(result);
+			return ((::System::Exception*(*)(::System::DateTimeResult&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEPARSE_GETDATETIMEPARSEEXCEPTION_OFFSET))(a1);
 		}
 	};
 }

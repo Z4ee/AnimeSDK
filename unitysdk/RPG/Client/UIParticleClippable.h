@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
-class Class_3_DAB36A51E2EA1CD6;
+class Class_3_3E954775CE333A0E;
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_UIPARTICLECLIPPABLE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB427910)
-#define RPG_CLIENT_UIPARTICLECLIPPABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xB427960)
-#define RPG_CLIENT_UIPARTICLECLIPPABLE___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB427970)
+#define RPG_CLIENT_UIPARTICLECLIPPABLE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCB87CB0)
+#define RPG_CLIENT_UIPARTICLECLIPPABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xCB87D00)
+#define RPG_CLIENT_UIPARTICLECLIPPABLE___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCB87D10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIParticleClippable_TypeDefinitionIndex = 65490;
+	inline static constexpr unsigned int UIParticleClippable_TypeDefinitionIndex = 66420;
 
-	class UIParticleClippable : public ::RPG::Client::TAMonoPlugin_1<::Class_3_DAB36A51E2EA1CD6*>
+	class UIParticleClippable : public ::RPG::Client::TAMonoPlugin_1<::Class_3_3E954775CE333A0E*>
 	{
 	public:
 		::UnityEngine::RectTransform* Rect; // 0x30

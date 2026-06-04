@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SRDEBUGGER_INCREMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6C0F0)
+#define SRDEBUGGER_INCREMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE25F0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int IncrementAttribute_TypeDefinitionIndex = 35326;
+	inline static constexpr unsigned int IncrementAttribute_TypeDefinitionIndex = 35626;
 
 	class IncrementAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Double Increment; // 0x10
 
-		::System::Void _ctor(::System::Double increment)
+		::System::Void _ctor(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + SRDEBUGGER_INCREMENTATTRIBUTE__CTOR_OFFSET))(this, increment);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + SRDEBUGGER_INCREMENTATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

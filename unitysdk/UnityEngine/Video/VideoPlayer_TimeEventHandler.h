@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine::Video { class VideoPlayer; }
 
-#define UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A5C22F0)
-#define UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A5C2350)
-#define UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A5C1BB0)
-#define UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C22D0)
+#define UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B40D370)
+#define UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B40D3D0)
+#define UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B40D060)
+#define UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40D2F0)
 
 namespace UnityEngine::Video
 {
-	inline static constexpr unsigned int VideoPlayer_TimeEventHandler_TypeDefinitionIndex = 6025;
+	inline static constexpr unsigned int VideoPlayer_TimeEventHandler_TypeDefinitionIndex = 6302;
 
 	class VideoPlayer_TimeEventHandler : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::Video::VideoPlayer* source, ::System::Double seconds)
+		::System::Void Invoke(::UnityEngine::Video::VideoPlayer* a1, ::System::Double a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Video::VideoPlayer*, ::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_INVOKE_OFFSET))(this, source, seconds);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Video::VideoPlayer*, ::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Video::VideoPlayer* source, ::System::Double seconds, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::Video::VideoPlayer* a1, ::System::Double a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Video::VideoPlayer*, ::System::Double, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_BEGININVOKE_OFFSET))(this, source, seconds, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Video::VideoPlayer*, ::System::Double, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_VIDEO_VIDEOPLAYER_TIMEEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

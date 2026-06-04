@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 
-#define RPG_GAMECORE_FUNCUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18935DC0)
-#define RPG_GAMECORE_FUNCUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189369E0)
+#define RPG_GAMECORE_FUNCUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197AA750)
+#define RPG_GAMECORE_FUNCUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x197AB3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FuncUnlockConfigRow_TypeDefinitionIndex = 12592;
+	inline static constexpr unsigned int FuncUnlockConfigRow_TypeDefinitionIndex = 12683;
 
 	class FuncUnlockConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::EntranceShowType>* ShowCondition; // 0x10
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* Conditions; // 0x18
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* Conditions; // 0x10
+		::Il2CppArray<::RPG::GameCore::EntranceShowType>* ShowCondition; // 0x18
 		::System::UInt32 UnlockID; // 0x20
 
 		::System::Void _ctor()
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FUNCUNLOCKCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::FuncUnlockConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FuncUnlockConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FuncUnlockConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FUNCUNLOCKCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FuncUnlockConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FUNCUNLOCKCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

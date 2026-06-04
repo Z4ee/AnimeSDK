@@ -7,21 +7,21 @@ namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 namespace RPG::GameCore { class FiveDimCameraDOFConfig; }
 namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
 
-#define RPG_CLIENT_FIVEDIMMANAGER_CAMERACONTEXT_CLEAR_OFFSET UNITYSDK_OFFSET(0xA3ABFA0)
-#define RPG_CLIENT_FIVEDIMMANAGER_CAMERACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA3ABFF0)
+#define RPG_CLIENT_FIVEDIMMANAGER_CAMERACONTEXT_CLEAR_OFFSET UNITYSDK_OFFSET(0xBA46F90)
+#define RPG_CLIENT_FIVEDIMMANAGER_CAMERACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xBA46FE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimManager_CameraContext_TypeDefinitionIndex = 55825;
+	inline static constexpr unsigned int FiveDimManager_CameraContext_TypeDefinitionIndex = 56580;
 
 	class FiveDimManager_CameraContext : public ::System::Object
 	{
 	public:
-		::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera* Camera; // 0x10
-		::RPG::GameCore::FiveDimCameraDOFConfig* DOFConfig; // 0x18
-		::RPG::GameCore::FiveDimVCameraBlendConfig* OutBlend; // 0x20
-		::RPG::GameCore::FiveDimVCameraBlendConfig* InBlend; // 0x28
-		::RPG::Client::FiveDimGameInstance* Instance; // 0x30
+		::RPG::GameCore::FiveDimCameraDOFConfig* DOFConfig; // 0x10
+		::RPG::GameCore::FiveDimVCameraBlendConfig* OutBlend; // 0x18
+		::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera* Camera; // 0x20
+		::RPG::Client::FiveDimGameInstance* Instance; // 0x28
+		::RPG::GameCore::FiveDimVCameraBlendConfig* InBlend; // 0x30
 
 		::System::Void _ctor()
 		{

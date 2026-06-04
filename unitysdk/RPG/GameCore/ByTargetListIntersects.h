@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYTARGETLISTINTERSECTS_METHOD_4_5D555C30D15ED682_OFFSET UNITYSDK_OFFSET(0x18761D40)
-#define RPG_GAMECORE_BYTARGETLISTINTERSECTS_METHOD_4_D977D4831AB3605C_OFFSET UNITYSDK_OFFSET(0x18761C60)
-#define RPG_GAMECORE_BYTARGETLISTINTERSECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x18761CE0)
+#define RPG_GAMECORE_BYTARGETLISTINTERSECTS_METHOD_4_5D555C30D15ED682_OFFSET UNITYSDK_OFFSET(0x195DC280)
+#define RPG_GAMECORE_BYTARGETLISTINTERSECTS_METHOD_4_9F4838DF741142C5_OFFSET UNITYSDK_OFFSET(0x195DC580)
+#define RPG_GAMECORE_BYTARGETLISTINTERSECTS_METHOD_4_B8C733C2678A89D6_OFFSET UNITYSDK_OFFSET(0x195DC500)
+#define RPG_GAMECORE_BYTARGETLISTINTERSECTS_METHOD_4_D977D4831AB3605C_OFFSET UNITYSDK_OFFSET(0x195DC1A0)
+#define RPG_GAMECORE_BYTARGETLISTINTERSECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x195DC220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByTargetListIntersects_TypeDefinitionIndex = 22792;
+	inline static constexpr unsigned int ByTargetListIntersects_TypeDefinitionIndex = 22499;
 
 	class ByTargetListIntersects : public ::RPG::GameCore::PredicateConfig
 	{
@@ -34,6 +37,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_5D555C30D15ED682(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTargetListIntersects* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTargetListIntersects*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTINTERSECTS_METHOD_4_5D555C30D15ED682_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_B8C733C2678A89D6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetListIntersects*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetListIntersects*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTINTERSECTS_METHOD_4_B8C733C2678A89D6_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_9F4838DF741142C5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetListIntersects* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetListIntersects*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTINTERSECTS_METHOD_4_9F4838DF741142C5_OFFSET))(a1, a2);
 		}
 	};
 }

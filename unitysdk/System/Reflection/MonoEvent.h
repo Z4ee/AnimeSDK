@@ -9,22 +9,22 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Reflection { class CustomAttributeData; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_REFLECTION_MONOEVENT_GETADDMETHOD_OFFSET UNITYSDK_OFFSET(0x179A0330)
-#define SYSTEM_REFLECTION_MONOEVENT_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x179A6560)
-#define SYSTEM_REFLECTION_MONOEVENT_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x179A6550)
-#define SYSTEM_REFLECTION_MONOEVENT_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x179A6540)
-#define SYSTEM_REFLECTION_MONOEVENT_GETRAISEMETHOD_OFFSET UNITYSDK_OFFSET(0x179A6370)
-#define SYSTEM_REFLECTION_MONOEVENT_GETREMOVEMETHOD_OFFSET UNITYSDK_OFFSET(0x179A63E0)
-#define SYSTEM_REFLECTION_MONOEVENT_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0x179A6450)
-#define SYSTEM_REFLECTION_MONOEVENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x179A64B0)
-#define SYSTEM_REFLECTION_MONOEVENT_GET_REFLECTEDTYPE_OFFSET UNITYSDK_OFFSET(0x179A6480)
-#define SYSTEM_REFLECTION_MONOEVENT_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x179A6530)
-#define SYSTEM_REFLECTION_MONOEVENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x179A64E0)
-#define SYSTEM_REFLECTION_MONOEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x179A65E0)
+#define SYSTEM_REFLECTION_MONOEVENT_GETADDMETHOD_OFFSET UNITYSDK_OFFSET(0x187531C0)
+#define SYSTEM_REFLECTION_MONOEVENT_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x18758210)
+#define SYSTEM_REFLECTION_MONOEVENT_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x18758200)
+#define SYSTEM_REFLECTION_MONOEVENT_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x187581F0)
+#define SYSTEM_REFLECTION_MONOEVENT_GETRAISEMETHOD_OFFSET UNITYSDK_OFFSET(0x18758040)
+#define SYSTEM_REFLECTION_MONOEVENT_GETREMOVEMETHOD_OFFSET UNITYSDK_OFFSET(0x187580A0)
+#define SYSTEM_REFLECTION_MONOEVENT_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0x18758100)
+#define SYSTEM_REFLECTION_MONOEVENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18758160)
+#define SYSTEM_REFLECTION_MONOEVENT_GET_REFLECTEDTYPE_OFFSET UNITYSDK_OFFSET(0x18758130)
+#define SYSTEM_REFLECTION_MONOEVENT_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x187581E0)
+#define SYSTEM_REFLECTION_MONOEVENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18758190)
+#define SYSTEM_REFLECTION_MONOEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18758290)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MonoEvent_TypeDefinitionIndex = 614;
+	inline static constexpr unsigned int MonoEvent_TypeDefinitionIndex = 613;
 
 	class MonoEvent : public ::System::Reflection::RuntimeEventInfo
 	{
@@ -37,19 +37,19 @@ namespace System::Reflection
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT__CTOR_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodInfo* GetAddMethod(::System::Boolean nonPublic)
+		::System::Reflection::MethodInfo* GetAddMethod(::System::Boolean a1)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_GETADDMETHOD_OFFSET))(this, nonPublic);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_GETADDMETHOD_OFFSET))(this, a1);
 		}
 
-		::System::Reflection::MethodInfo* GetRaiseMethod(::System::Boolean nonPublic)
+		::System::Reflection::MethodInfo* GetRaiseMethod(::System::Boolean a1)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_GETRAISEMETHOD_OFFSET))(this, nonPublic);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_GETRAISEMETHOD_OFFSET))(this, a1);
 		}
 
-		::System::Reflection::MethodInfo* GetRemoveMethod(::System::Boolean nonPublic)
+		::System::Reflection::MethodInfo* GetRemoveMethod(::System::Boolean a1)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_GETREMOVEMETHOD_OFFSET))(this, nonPublic);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_GETREMOVEMETHOD_OFFSET))(this, a1);
 		}
 
 		::System::Type* get_DeclaringType()
@@ -72,19 +72,19 @@ namespace System::Reflection
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean IsDefined(::System::Type* attributeType, ::System::Boolean inherit)
+		::System::Boolean IsDefined(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_ISDEFINED_OFFSET))(this, attributeType, inherit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_ISDEFINED_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_GETCUSTOMATTRIBUTES_OFFSET))(this, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_GETCUSTOMATTRIBUTES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* attributeType, ::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_GETCUSTOMATTRIBUTES_1_OFFSET))(this, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENT_GETCUSTOMATTRIBUTES_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData()

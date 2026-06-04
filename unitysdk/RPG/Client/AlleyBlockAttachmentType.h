@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyBlockAttachmentType_TypeDefinitionIndex = 57467;
+	inline static constexpr unsigned int AlleyBlockAttachmentType_TypeDefinitionIndex = 58279;
 
 	enum class AlleyBlockAttachmentType : ::System::Int32
 	{

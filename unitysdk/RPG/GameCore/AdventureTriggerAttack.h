@@ -10,13 +10,13 @@ namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_287821EE07D86265_OFFSET UNITYSDK_OFFSET(0x1867DFE0)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_7C794FCF43CF3E2B_OFFSET UNITYSDK_OFFSET(0x1867E280)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1867E210)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_BEC7A67BA5D23890_OFFSET UNITYSDK_OFFSET(0x19455010)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_CB228066AF4616E5_OFFSET UNITYSDK_OFFSET(0x19454D60)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19454FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 19143;
+	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 19072;
 
 	class AdventureTriggerAttack : public ::RPG::GameCore::TaskConfig
 	{
@@ -46,14 +46,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERATTACK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_287821EE07D86265(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerAttack*& a2)
+		static ::System::Void Method_3_CB228066AF4616E5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerAttack*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerAttack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_287821EE07D86265_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerAttack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_CB228066AF4616E5_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7C794FCF43CF3E2B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerAttack* a2)
+		static ::System::Void Method_3_BEC7A67BA5D23890(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerAttack* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerAttack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_7C794FCF43CF3E2B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerAttack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_BEC7A67BA5D23890_OFFSET))(a1, a2);
 		}
 	};
 }

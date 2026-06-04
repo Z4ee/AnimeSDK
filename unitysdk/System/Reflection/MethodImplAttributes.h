@@ -3,7 +3,7 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MethodImplAttributes_TypeDefinitionIndex = 577;
+	inline static constexpr unsigned int MethodImplAttributes_TypeDefinitionIndex = 576;
 
 	enum class MethodImplAttributes : ::System::Int32
 	{

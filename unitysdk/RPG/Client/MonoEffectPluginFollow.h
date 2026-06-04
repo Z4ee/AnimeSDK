@@ -11,23 +11,30 @@
 class Class_2_E4151F8C70CE8C1E;
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0xA9935B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0xA993750)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xA9934A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xA993820)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xA993960)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0xA9933A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xA993900)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xA9933E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0xA993970)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW___IFIXBASEPROXY_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0xA993A50)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW___IFIXBASEPROXY_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0xA993AB0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW___IFIXBASEPROXY_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xA993B10)
-#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW___IFIXBASEPROXY_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0xA9939E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0xC0E0880)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0xC0E0A20)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xC0E0770)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xC0E0AF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xC0E0EE0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0xC0E0670)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_0DF420E95D6252BE_1_OFFSET UNITYSDK_OFFSET(0xC0E0E80)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_0DF420E95D6252BE_OFFSET UNITYSDK_OFFSET(0xC0E0DC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0xC0E0C20)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_2_OFFSET UNITYSDK_OFFSET(0xC0E0C80)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_3_OFFSET UNITYSDK_OFFSET(0xC0E0CE0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_4_OFFSET UNITYSDK_OFFSET(0xC0E0E20)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xC0E0BD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0xC0E0D40)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xC0E06B0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0xC0E0EF0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW___IFIXBASEPROXY_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0xC0E0FC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW___IFIXBASEPROXY_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0xC0E1000)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW___IFIXBASEPROXY_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xC0E1040)
+#define RPG_CLIENT_MONOEFFECTPLUGINFOLLOW___IFIXBASEPROXY_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0xC0E0F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginFollow_TypeDefinitionIndex = 64590;
+	inline static constexpr unsigned int MonoEffectPluginFollow_TypeDefinitionIndex = 65511;
 
 	class MonoEffectPluginFollow : public ::RPG::Client::MonoEffectPluginBase
 	{
@@ -36,7 +43,8 @@ namespace RPG::Client
 		::RPG::Client::RotationFollowOption RotationOption; // 0x2C
 		::RPG::Client::ScaleFollowOption ScaleOption; // 0x30
 		::RPG::Client::ModelFlipOption ModelFlipOption; // 0x34
-		::System::Boolean UseRandomOffsetFollow; // 0x38
+		::System::Boolean FollowBeforeCameraShake; // 0x38
+		::System::Boolean UseRandomOffsetFollow; // 0x39
 		::System::Single RandomFollowOffsetRadius; // 0x3C
 		::RPG::Client::SmoothFollowType RandomFollowType; // 0x40
 		::System::Single RandomFollowRatio; // 0x44
@@ -47,23 +55,33 @@ namespace RPG::Client
 		::System::Single SmoothFollowSpeed; // 0x58
 		::System::Single SmoothDampFollowTime; // 0x5C
 		::System::Single SmoothDampFollowMaxSpeed; // 0x60
-		::System::Single SmoothFollowMaxRange; // 0x64
-		::System::Single SpeedChangeMaxRange; // 0x68
-		::System::Boolean OnlyFirstFrame; // 0x6C
-		::System::Boolean ManuallFollowOnFormationChange; // 0x6D
-		::System::Boolean StopFollow; // 0x6E
-		::Il2CppArray<::UnityEngine::Transform*>* FollowPoints; // 0x70
-		::System::Boolean IsRotationUseFollowPoints; // 0x78
-		::System::Boolean RotateAroundX; // 0x79
-		::System::Boolean RotateAroundY; // 0x7A
-		::System::Boolean RotateAroundZ; // 0x7B
-		::UnityEngine::Vector3 BaseFollowScale; // 0x7C
-		::UnityEngine::Vector3 MaxFollowScale; // 0x88
-		::System::Boolean LockPositionToGround; // 0x94
-		::System::Single CameraDistK; // 0x98
-		::System::Single CameraDistA; // 0x9C
-		::System::Single CameraDistB; // 0xA0
-		::Class_2_E4151F8C70CE8C1E* _Behavior; // 0xA8
+		::System::Single SmoothDampExpFollowTimeX; // 0x64
+		::System::Single SmoothDampExpFollowTimeY; // 0x68
+		::System::Single SmoothDampExpFollowTimeZ; // 0x6C
+		::System::Single SmoothDampExpDistanceThreshold; // 0x70
+		::System::Single SmoothFollowMaxRange; // 0x74
+		::System::Boolean DampRotationFollow; // 0x78
+		::RPG::Client::SmoothFollowType RotationSmoothFollowType; // 0x7C
+		::UnityEngine::Vector3 AngleDampTime; // 0x80
+		::System::Single RotationSmoothFollowRatio; // 0x8C
+		::System::Single RotationSmoothFollowSpeed; // 0x90
+		::System::Single RotationDampSnapDegrees; // 0x94
+		::System::Single SpeedChangeMaxRange; // 0x98
+		::System::Boolean OnlyFirstFrame; // 0x9C
+		::System::Boolean ManuallFollowOnFormationChange; // 0x9D
+		::System::Boolean StopFollow; // 0x9E
+		::Il2CppArray<::UnityEngine::Transform*>* FollowPoints; // 0xA0
+		::System::Boolean IsRotationUseFollowPoints; // 0xA8
+		::System::Boolean RotateAroundX; // 0xA9
+		::System::Boolean RotateAroundY; // 0xAA
+		::System::Boolean RotateAroundZ; // 0xAB
+		::UnityEngine::Vector3 BaseFollowScale; // 0xAC
+		::UnityEngine::Vector3 MaxFollowScale; // 0xB8
+		::System::Boolean LockPositionToGround; // 0xC4
+		::System::Single CameraDistK; // 0xC8
+		::System::Single CameraDistA; // 0xCC
+		::System::Single CameraDistB; // 0xD0
+		::Class_2_E4151F8C70CE8C1E* _Behavior; // 0xD8
 
 		::System::Void _ctor()
 		{
@@ -105,6 +123,41 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_OFFSET))(this);
 		}
 
+		::System::Boolean Method_6_1D4018D4200358D0_1()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_1_OFFSET))(this);
+		}
+
+		::System::Boolean Method_6_1D4018D4200358D0_2()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_2_OFFSET))(this);
+		}
+
+		::System::Boolean Method_6_1D4018D4200358D0_3()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_3_OFFSET))(this);
+		}
+
+		::System::Boolean Method_6_A3FAE12D7B6ACD62()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_A3FAE12D7B6ACD62_OFFSET))(this);
+		}
+
+		::System::Boolean Method_6_0DF420E95D6252BE()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_0DF420E95D6252BE_OFFSET))(this);
+		}
+
+		::System::Boolean Method_6_1D4018D4200358D0_4()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_1D4018D4200358D0_4_OFFSET))(this);
+		}
+
+		::System::Boolean Method_6_0DF420E95D6252BE_1()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_METHOD_6_0DF420E95D6252BE_1_OFFSET))(this);
+		}
+
 		::Class_2_E4151F8C70CE8C1E* get_Behavior()
 		{
 			return ((::Class_2_E4151F8C70CE8C1E*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW_GET_BEHAVIOR_OFFSET))(this);
@@ -125,9 +178,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW___IFIXBASEPROXY_DESTROYPLUGIN_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_EndOfLateTick(::System::Single P0)
+		::System::Void __iFixBaseProxy_EndOfLateTick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW___IFIXBASEPROXY_ENDOFLATETICK_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFOLLOW___IFIXBASEPROXY_ENDOFLATETICK_OFFSET))(this, a1);
 		}
 	};
 }

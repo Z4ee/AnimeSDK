@@ -4,14 +4,14 @@
 
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xB33C3D0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xB33C810)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER__GETID_OFFSET UNITYSDK_OFFSET(0xB33C760)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER__GETRARITY_OFFSET UNITYSDK_OFFSET(0xB33C6B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xCA97080)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xCA974E0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER__GETID_OFFSET UNITYSDK_OFFSET(0xCA97430)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER__GETRARITY_OFFSET UNITYSDK_OFFSET(0xCA97380)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_AvatarPhotoComparer_TypeDefinitionIndex = 68564;
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_AvatarPhotoComparer_TypeDefinitionIndex = 69376;
 
 	class TrainPartyBuildDisplayWallContext_AvatarPhotoComparer : public ::System::Object
 	{
@@ -21,19 +21,19 @@ namespace RPG::Client::TrainParty
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 Compare(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* itemA, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem* itemB)
+		::System::Int32 Compare(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* a1, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER_COMPARE_OFFSET))(this, itemA, itemB);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER_COMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 _GetRarity(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* item)
+		::System::UInt32 _GetRarity(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER__GETRARITY_OFFSET))(this, item);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER__GETRARITY_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _GetID(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* item)
+		::System::UInt32 _GetID(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER__GETID_OFFSET))(this, item);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_AVATARPHOTOCOMPARER__GETID_OFFSET))(this, a1);
 		}
 	};
 }

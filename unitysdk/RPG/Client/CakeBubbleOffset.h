@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_CAKEBUBBLEOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0xD4E60)
+#define RPG_CLIENT_CAKEBUBBLEOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x137290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeBubbleOffset_TypeDefinitionIndex = 57994;
+	inline static constexpr unsigned int CakeBubbleOffset_TypeDefinitionIndex = 58910;
 
 	struct alignas(4) CakeBubbleOffset
 	{
@@ -14,9 +14,9 @@ namespace RPG::Client
 		::System::Single Y; // 0x14
 		::System::Single Z; // 0x18
 
-		::System::Void _ctor(::System::Single x, ::System::Single y, ::System::Single z)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKEBUBBLEOFFSET__CTOR_OFFSET))(this, x, y, z);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKEBUBBLEOFFSET__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

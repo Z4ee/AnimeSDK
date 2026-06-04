@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageBlockType_TypeDefinitionIndex = 23641;
+	inline static constexpr unsigned int DamageBlockType_TypeDefinitionIndex = 23484;
 
 	enum class DamageBlockType : ::System::Int32
 	{

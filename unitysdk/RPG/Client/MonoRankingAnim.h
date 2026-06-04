@@ -6,19 +6,19 @@
 namespace SuperScrollView { class LoopListView2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONORANKINGANIM_AWAKE_OFFSET UNITYSDK_OFFSET(0xA9ED8B0)
-#define RPG_CLIENT_MONORANKINGANIM_CHANGERANK_OFFSET UNITYSDK_OFFSET(0xA9EDAD0)
-#define RPG_CLIENT_MONORANKINGANIM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xA9ED970)
-#define RPG_CLIENT_MONORANKINGANIM__CALCULATEDELAY_OFFSET UNITYSDK_OFFSET(0xA9EE5D0)
-#define RPG_CLIENT_MONORANKINGANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xA9EEA00)
-#define RPG_CLIENT_MONORANKINGANIM__MOVECURRENTITEM_OFFSET UNITYSDK_OFFSET(0xA9EE050)
-#define RPG_CLIENT_MONORANKINGANIM__MOVEOTHERITEM_OFFSET UNITYSDK_OFFSET(0xA9EE660)
-#define RPG_CLIENT_MONORANKINGANIM__PLAYSOUND_OFFSET UNITYSDK_OFFSET(0xA9EE8D0)
-#define RPG_CLIENT_MONORANKINGANIM__RECORDPOSITIONS_OFFSET UNITYSDK_OFFSET(0xA9EDE80)
+#define RPG_CLIENT_MONORANKINGANIM_AWAKE_OFFSET UNITYSDK_OFFSET(0xC13B570)
+#define RPG_CLIENT_MONORANKINGANIM_CHANGERANK_OFFSET UNITYSDK_OFFSET(0xC13B780)
+#define RPG_CLIENT_MONORANKINGANIM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC13B630)
+#define RPG_CLIENT_MONORANKINGANIM__CALCULATEDELAY_OFFSET UNITYSDK_OFFSET(0xC13C1E0)
+#define RPG_CLIENT_MONORANKINGANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xC13C5A0)
+#define RPG_CLIENT_MONORANKINGANIM__MOVECURRENTITEM_OFFSET UNITYSDK_OFFSET(0xC13BD30)
+#define RPG_CLIENT_MONORANKINGANIM__MOVEOTHERITEM_OFFSET UNITYSDK_OFFSET(0xC13C270)
+#define RPG_CLIENT_MONORANKINGANIM__PLAYSOUND_OFFSET UNITYSDK_OFFSET(0xC13C470)
+#define RPG_CLIENT_MONORANKINGANIM__RECORDPOSITIONS_OFFSET UNITYSDK_OFFSET(0xC13BB30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRankingAnim_TypeDefinitionIndex = 66887;
+	inline static constexpr unsigned int MonoRankingAnim_TypeDefinitionIndex = 67827;
 
 	class MonoRankingAnim : public ::UnityEngine::MonoBehaviour
 	{
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANKINGANIM_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void ChangeRank(::System::Int32 from, ::System::Int32 to)
+		::System::Void ChangeRank(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANKINGANIM_CHANGERANK_OFFSET))(this, from, to);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANKINGANIM_CHANGERANK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _RecordPositions()
@@ -55,19 +55,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANKINGANIM__RECORDPOSITIONS_OFFSET))(this);
 		}
 
-		::System::Void _MoveCurrentItem(::System::Int32 from, ::System::Int32 to, ::System::Single moveDuration, ::System::Single zoomDuration)
+		::System::Void _MoveCurrentItem(::System::Int32 a1, ::System::Int32 a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANKINGANIM__MOVECURRENTITEM_OFFSET))(this, from, to, moveDuration, zoomDuration);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANKINGANIM__MOVECURRENTITEM_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _MoveOtherItem(::System::Int32 from, ::System::Int32 to, ::System::Single duration, ::System::Single delay)
+		::System::Void _MoveOtherItem(::System::Int32 a1, ::System::Int32 a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANKINGANIM__MOVEOTHERITEM_OFFSET))(this, from, to, duration, delay);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANKINGANIM__MOVEOTHERITEM_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Single _CalculateDelay(::System::Int32 index, ::System::Int32 total, ::System::Single duration)
+		::System::Single _CalculateDelay(::System::Int32 a1, ::System::Int32 a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANKINGANIM__CALCULATEDELAY_OFFSET))(this, index, total, duration);
+			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANKINGANIM__CALCULATEDELAY_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _PlaySound()

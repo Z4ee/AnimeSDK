@@ -4,12 +4,12 @@
 
 namespace RPG::Client::TrainParty { class TrainPartyBuildSubArea; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB33F670)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS3_0__GETSUBAREALIST_B__0_OFFSET UNITYSDK_OFFSET(0xB348460)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCA9A2C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS3_0__GETSUBAREALIST_B__0_OFFSET UNITYSDK_OFFSET(0xCAA3A90)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildManager___c__DisplayClass3_0_TypeDefinitionIndex = 68571;
+	inline static constexpr unsigned int TrainPartyBuildManager___c__DisplayClass3_0_TypeDefinitionIndex = 69383;
 
 	class TrainPartyBuildManager___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetSubAreaList_b__0(::RPG::Client::TrainParty::TrainPartyBuildSubArea* a)
+		::System::Boolean _GetSubAreaList_b__0(::RPG::Client::TrainParty::TrainPartyBuildSubArea* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildSubArea*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS3_0__GETSUBAREALIST_B__0_OFFSET))(this, a);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildSubArea*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS3_0__GETSUBAREALIST_B__0_OFFSET))(this, a1);
 		}
 	};
 }

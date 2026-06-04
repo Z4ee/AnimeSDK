@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_BATTLEAIUSEULTRASKILLUIEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9DE26F0)
+#define RPG_CLIENT_BATTLEAIUSEULTRASKILLUIEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB3B9660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAIUseUltraSkillUIEvent_TypeDefinitionIndex = 67030;
+	inline static constexpr unsigned int BattleAIUseUltraSkillUIEvent_TypeDefinitionIndex = 67972;
 
 	class BattleAIUseUltraSkillUIEvent : public ::System::Object
 	{

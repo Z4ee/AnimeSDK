@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x173E6EB0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x173E6F60)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x173E67E0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x173E67C0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x181EE0D0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x181EE180)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x181EE090)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x181EE010)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_SDKInitDelegate_TypeDefinitionIndex = 6655;
+	inline static constexpr unsigned int BiliBiliDelegate_SDKInitDelegate_TypeDefinitionIndex = 7558;
 
 	class BiliBiliDelegate_SDKInitDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Invoke(::System::String* szGameInfo, ::System::IntPtr hwndParent, ::System::Boolean bExclusiveMode, ::System::Boolean bEnableMultiOpen, ::MiHoYo::SDK::BiliBiliDelegate_InitCallback* callBack)
+		::System::Int32 Invoke(::System::String* a1, ::System::IntPtr a2, ::System::Boolean a3, ::System::Boolean a4, ::MiHoYo::SDK::BiliBiliDelegate_InitCallback* a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::IntPtr, ::System::Boolean, ::System::Boolean, ::MiHoYo::SDK::BiliBiliDelegate_InitCallback*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_INVOKE_OFFSET))(this, szGameInfo, hwndParent, bExclusiveMode, bEnableMultiOpen, callBack);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::IntPtr, ::System::Boolean, ::System::Boolean, ::MiHoYo::SDK::BiliBiliDelegate_InitCallback*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* szGameInfo, ::System::IntPtr hwndParent, ::System::Boolean bExclusiveMode, ::System::Boolean bEnableMultiOpen, ::MiHoYo::SDK::BiliBiliDelegate_InitCallback* callBack, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::IntPtr a2, ::System::Boolean a3, ::System::Boolean a4, ::MiHoYo::SDK::BiliBiliDelegate_InitCallback* a5, ::System::AsyncCallback* a6, ::System::Object* a7)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::IntPtr, ::System::Boolean, ::System::Boolean, ::MiHoYo::SDK::BiliBiliDelegate_InitCallback*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_BEGININVOKE_OFFSET))(this, szGameInfo, hwndParent, bExclusiveMode, bEnableMultiOpen, callBack, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::IntPtr, ::System::Boolean, ::System::Boolean, ::MiHoYo::SDK::BiliBiliDelegate_InitCallback*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Int32 EndInvoke(::System::IAsyncResult* result)
+		::System::Int32 EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

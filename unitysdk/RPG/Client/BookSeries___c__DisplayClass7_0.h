@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class Book; }
 
-#define RPG_CLIENT_BOOKSERIES___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E9E610)
-#define RPG_CLIENT_BOOKSERIES___C__DISPLAYCLASS7_0__GETBOOKBYINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x9E9ECD0)
+#define RPG_CLIENT_BOOKSERIES___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB43A810)
+#define RPG_CLIENT_BOOKSERIES___C__DISPLAYCLASS7_0__GETBOOKBYINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xB43AEF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookSeries___c__DisplayClass7_0_TypeDefinitionIndex = 61146;
+	inline static constexpr unsigned int BookSeries___c__DisplayClass7_0_TypeDefinitionIndex = 62070;
 
 	class BookSeries___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKSERIES___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetBookByIndex_b__0(::RPG::Client::Book* book)
+		::System::Boolean _GetBookByIndex_b__0(::RPG::Client::Book* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Book*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKSERIES___C__DISPLAYCLASS7_0__GETBOOKBYINDEX_B__0_OFFSET))(this, book);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Book*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKSERIES___C__DISPLAYCLASS7_0__GETBOOKBYINDEX_B__0_OFFSET))(this, a1);
 		}
 	};
 }

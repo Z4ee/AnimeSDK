@@ -7,12 +7,12 @@ namespace RPG::GameCore { class SerialBellsNoteConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SERIALBELLSCONFIG_METHOD_2_682129637B3B9ABA_OFFSET UNITYSDK_OFFSET(0x18E02120)
-#define RPG_GAMECORE_SERIALBELLSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E022E0)
+#define RPG_GAMECORE_SERIALBELLSCONFIG_METHOD_2_2761D8737C514F54_OFFSET UNITYSDK_OFFSET(0x19C21140)
+#define RPG_GAMECORE_SERIALBELLSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C21310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SerialBellsConfig_TypeDefinitionIndex = 15500;
+	inline static constexpr unsigned int SerialBellsConfig_TypeDefinitionIndex = 15561;
 
 	class SerialBellsConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERIALBELLSCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_682129637B3B9ABA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SerialBellsConfig*& a2)
+		static ::System::Void Method_2_2761D8737C514F54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SerialBellsConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SerialBellsConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERIALBELLSCONFIG_METHOD_2_682129637B3B9ABA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SerialBellsConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERIALBELLSCONFIG_METHOD_2_2761D8737C514F54_OFFSET))(a1, a2);
 		}
 	};
 }

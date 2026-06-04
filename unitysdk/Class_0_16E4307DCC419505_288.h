@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class Object; }
-template <typename T1, typename T2> class Class_3_B60F6C2F126D2E26;
+class Class_0_16E4307DCC419505_282;
+class Class_0_16E4307DCC419505_283;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_288_TypeDefinitionIndex = 39817;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_288_TypeDefinitionIndex = 40592;
 
 class Class_0_16E4307DCC419505_288
 {

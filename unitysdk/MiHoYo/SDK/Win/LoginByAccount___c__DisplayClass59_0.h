@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class LoginByAccount; }
 
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1771A990)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT___C__DISPLAYCLASS59_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1771B100)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184D7E50)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT___C__DISPLAYCLASS59_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x184D8590)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginByAccount___c__DisplayClass59_0_TypeDefinitionIndex = 8286;
+	inline static constexpr unsigned int LoginByAccount___c__DisplayClass59_0_TypeDefinitionIndex = 9189;
 
 	class LoginByAccount___c__DisplayClass59_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYACCOUNT___C__DISPLAYCLASS59_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::Win::LoginByAccount* loginDialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::Win::LoginByAccount* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::LoginByAccount*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYACCOUNT___C__DISPLAYCLASS59_0__SHOW_B__0_OFFSET))(this, loginDialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::LoginByAccount*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYACCOUNT___C__DISPLAYCLASS59_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

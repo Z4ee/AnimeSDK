@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournCollectionExhibitionPropFloor_TypeDefinitionIndex = 14200;
+	inline static constexpr unsigned int RogueTournCollectionExhibitionPropFloor_TypeDefinitionIndex = 14259;
 
 	enum class RogueTournCollectionExhibitionPropFloor : ::System::Int32
 	{

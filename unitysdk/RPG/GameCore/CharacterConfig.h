@@ -12,7 +12,7 @@
 #include "unitysdk/RPG/GameCore/WeaponTypeEnum.h"
 #include "unitysdk/RPG/MVector3.h"
 
-class Class_1_2CAAA2FDF9170110;
+class Class_1_1C30CE192ABE4C54;
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AttachPointEffectAdaptionConfig; }
 namespace RPG::GameCore { class CharacterCameraConfig; }
@@ -32,18 +32,20 @@ namespace RPG::GameCore { class SkillTransitAnimConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x187CC600)
-#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187CC240)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETATTACHPOINTEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x187D0070)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x187CFF00)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTATTACHPOINTREDIRECT_OFFSET UNITYSDK_OFFSET(0x187D01C0)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETSKILLINDEXBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x187CFE00)
-#define RPG_GAMECORE_CHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187CC500)
+#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19608A90)
+#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196082B0)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETATTACHPOINTEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1960C440)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1960C300)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTATTACHPOINTREDIRECT_OFFSET UNITYSDK_OFFSET(0x1960C580)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETSKILLINDEXBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x1960C200)
+#define RPG_GAMECORE_CHARACTERCONFIG_TRYAPPLYPATH_OFFSET UNITYSDK_OFFSET(0x1960C670)
+#define RPG_GAMECORE_CHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196089A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 15635;
+	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 15694;
 
 	class CharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -75,7 +77,7 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::SkillConfig*>* SkillList; // 0x98
 		::Il2CppArray<::System::String*>* AbilityList; // 0xA0
 		::Il2CppArray<::RPG::GameCore::SkillAbilityConfig*>* SkillAbilityList; // 0xA8
-		::Class_1_2CAAA2FDF9170110* DynamicValues; // 0xB0
+		::Class_1_1C30CE192ABE4C54* DynamicValues; // 0xB0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* DynamicStrings; // 0xB8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* CustomValues; // 0xC0
 		::RPG::GameCore::WeaponTypeEnum WeaponType; // 0xC8
@@ -113,7 +115,7 @@ namespace RPG::GameCore
 		::System::String* EmotionCharacterID; // 0x1B0
 		::System::String* GraphEmotionAsset; // 0x1B8
 		::System::String* CharacterReplaceMaterialConfigPath; // 0x1C0
-		::Class_1_2CAAA2FDF9170110* AITagList; // 0x1C8
+		::Class_1_1C30CE192ABE4C54* AITagList; // 0x1C8
 		::RPG::GameCore::CharacterEmoContextConfig* ReplaceEmoConfig; // 0x1D0
 		::System::Boolean WillUnstage; // 0x1D8
 		::System::UInt32 ViewModeSortPriority; // 0x1DC
@@ -124,40 +126,46 @@ namespace RPG::GameCore
 		::System::Boolean IsPuppetCharacter; // 0x1F5
 		::Il2CppArray<::RPG::GameCore::CustomTeamFormationConfig*>* CustomTeamFormationConfigs; // 0x1F8
 		::RPG::GameCore::CharacterUIConfig* UIConfig; // 0x200
+		::System::Collections::Generic::List_1<::System::String*>* ApplyDLCPaths; // 0x208
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::CharacterConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::CharacterConfig* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 
-		::System::Int32 GetSkillIndexByTriggerKey(::System::String* sTriggerKey)
+		::System::Int32 GetSkillIndexByTriggerKey(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_GETSKILLINDEXBYTRIGGERKEY_OFFSET))(this, sTriggerKey);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_GETSKILLINDEXBYTRIGGERKEY_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::EffectAdaptionConfig* GetEffectAdaptionConfig(::System::String* effectPath)
+		::RPG::GameCore::EffectAdaptionConfig* GetEffectAdaptionConfig(::System::String* a1)
 		{
-			return ((::RPG::GameCore::EffectAdaptionConfig*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTADAPTIONCONFIG_OFFSET))(this, effectPath);
+			return ((::RPG::GameCore::EffectAdaptionConfig*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTADAPTIONCONFIG_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::AttachPointEffectAdaptionConfig* GetAttachPointEffectAdaptionConfig(::System::String* effectPath, ::System::String* attachPointName)
+		::RPG::GameCore::AttachPointEffectAdaptionConfig* GetAttachPointEffectAdaptionConfig(::System::String* a1, ::System::String* a2)
 		{
-			return ((::RPG::GameCore::AttachPointEffectAdaptionConfig*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_GETATTACHPOINTEFFECTADAPTIONCONFIG_OFFSET))(this, effectPath, attachPointName);
+			return ((::RPG::GameCore::AttachPointEffectAdaptionConfig*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_GETATTACHPOINTEFFECTADAPTIONCONFIG_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* GetEffectAttachPointRedirect(::System::String* attachPointName)
+		::System::String* GetEffectAttachPointRedirect(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTATTACHPOINTREDIRECT_OFFSET))(this, attachPointName);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTATTACHPOINTREDIRECT_OFFSET))(this, a1);
+		}
+
+		::System::Boolean TryApplyPath(::System::String* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCONFIG_TRYAPPLYPATH_OFFSET))(this, a1);
 		}
 	};
 }

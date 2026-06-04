@@ -6,62 +6,62 @@ namespace System { class String; }
 namespace System::Globalization { class CalendarData; }
 namespace System::Globalization { class NumberFormatInfo; }
 
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVERANAMES_OFFSET UNITYSDK_OFFSET(0x1791EEF0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDDAYNAMES_OFFSET UNITYSDK_OFFSET(0x1791EFB0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDENGLISHERANAMES_OFFSET UNITYSDK_OFFSET(0x1791EF10)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDGENITIVEMONTHNAMES_OFFSET UNITYSDK_OFFSET(0x1791F030)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDMONTHNAMES_OFFSET UNITYSDK_OFFSET(0x1791F010)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_DATESEPARATOR_OFFSET UNITYSDK_OFFSET(0x1791F090)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_DAYNAMES_OFFSET UNITYSDK_OFFSET(0x1791EF90)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_ERANAMES_OFFSET UNITYSDK_OFFSET(0x1791EED0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_FILL_CULTURE_DATA_OFFSET UNITYSDK_OFFSET(0x1791EB70)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_FILL_NUMBER_DATA_OFFSET UNITYSDK_OFFSET(0x1791F4E0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GENITIVEMONTHNAMES_OFFSET UNITYSDK_OFFSET(0x1791EFF0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETCALENDAR_OFFSET UNITYSDK_OFFSET(0x1791AAD0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_1_OFFSET UNITYSDK_OFFSET(0x1791E9A0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_2_OFFSET UNITYSDK_OFFSET(0x1791EC50)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_OFFSET UNITYSDK_OFFSET(0x1791E900)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETDATESEPARATOR_OFFSET UNITYSDK_OFFSET(0x1791F0E0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETNFIVALUES_OFFSET UNITYSDK_OFFSET(0x1791F480)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETSEPARATOR_OFFSET UNITYSDK_OFFSET(0x1791F0F0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_CALENDARIDS_OFFSET UNITYSDK_OFFSET(0x1791ECE0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_CULTURENAME_OFFSET UNITYSDK_OFFSET(0x1791EE80)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_IFIRSTDAYOFWEEK_OFFSET UNITYSDK_OFFSET(0x1791EC90)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_IFIRSTWEEKOFYEAR_OFFSET UNITYSDK_OFFSET(0x1791ECA0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_ILANGUAGE_OFFSET UNITYSDK_OFFSET(0x1791EEB0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_INVARIANT_OFFSET UNITYSDK_OFFSET(0x1791E650)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_ISINVARIANTCULTURE_OFFSET UNITYSDK_OFFSET(0x1791EE60)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_LONGTIMES_OFFSET UNITYSDK_OFFSET(0x1791EC60)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_SAM1159_OFFSET UNITYSDK_OFFSET(0x1791ECB0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_SCOMPAREINFO_OFFSET UNITYSDK_OFFSET(0x1791EE90)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_SHORTTIMES_OFFSET UNITYSDK_OFFSET(0x1791EC70)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_SISO639LANGNAME_OFFSET UNITYSDK_OFFSET(0x1791EC80)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_SPM2359_OFFSET UNITYSDK_OFFSET(0x1791ECC0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_STEXTINFO_OFFSET UNITYSDK_OFFSET(0x1791EEA0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_TIMESEPARATOR_OFFSET UNITYSDK_OFFSET(0x1791ECD0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_USEUSEROVERRIDE_OFFSET UNITYSDK_OFFSET(0x1791EEC0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_INDEXOFTIMEPART_OFFSET UNITYSDK_OFFSET(0x1791F1B0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_LEAPYEARMONTHNAMES_OFFSET UNITYSDK_OFFSET(0x1791F050)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_LONGDATES_OFFSET UNITYSDK_OFFSET(0x1791EF50)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_MONTHDAY_OFFSET UNITYSDK_OFFSET(0x1791F070)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_MONTHNAMES_OFFSET UNITYSDK_OFFSET(0x1791EFD0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_REESCAPEWIN32STRINGS_OFFSET UNITYSDK_OFFSET(0x17919C50)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_REESCAPEWIN32STRING_OFFSET UNITYSDK_OFFSET(0x17919C60)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_SHORTDATES_OFFSET UNITYSDK_OFFSET(0x1791EF30)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_UNESCAPENLSSTRING_OFFSET UNITYSDK_OFFSET(0x1791F2F0)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA_YEARMONTHS_OFFSET UNITYSDK_OFFSET(0x1791EF70)
-#define SYSTEM_GLOBALIZATION_CULTUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1791E640)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVERANAMES_OFFSET UNITYSDK_OFFSET(0x186D4470)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDDAYNAMES_OFFSET UNITYSDK_OFFSET(0x186D4530)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDENGLISHERANAMES_OFFSET UNITYSDK_OFFSET(0x186D4490)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDGENITIVEMONTHNAMES_OFFSET UNITYSDK_OFFSET(0x186D45B0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDMONTHNAMES_OFFSET UNITYSDK_OFFSET(0x186D4590)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_DATESEPARATOR_OFFSET UNITYSDK_OFFSET(0x186D4610)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_DAYNAMES_OFFSET UNITYSDK_OFFSET(0x186D4510)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_ERANAMES_OFFSET UNITYSDK_OFFSET(0x186D4450)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_FILL_CULTURE_DATA_OFFSET UNITYSDK_OFFSET(0x186D4130)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_FILL_NUMBER_DATA_OFFSET UNITYSDK_OFFSET(0x186D4D20)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GENITIVEMONTHNAMES_OFFSET UNITYSDK_OFFSET(0x186D4570)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETCALENDAR_OFFSET UNITYSDK_OFFSET(0x186D0240)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_1_OFFSET UNITYSDK_OFFSET(0x186D3F60)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_2_OFFSET UNITYSDK_OFFSET(0x186D4210)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_OFFSET UNITYSDK_OFFSET(0x186D3EC0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETDATESEPARATOR_OFFSET UNITYSDK_OFFSET(0x186D4660)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETNFIVALUES_OFFSET UNITYSDK_OFFSET(0x186D4CC0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GETSEPARATOR_OFFSET UNITYSDK_OFFSET(0x186D4670)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_CALENDARIDS_OFFSET UNITYSDK_OFFSET(0x186D42A0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_CULTURENAME_OFFSET UNITYSDK_OFFSET(0x186D4400)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_IFIRSTDAYOFWEEK_OFFSET UNITYSDK_OFFSET(0x186D4250)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_IFIRSTWEEKOFYEAR_OFFSET UNITYSDK_OFFSET(0x186D4260)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_ILANGUAGE_OFFSET UNITYSDK_OFFSET(0x186D4430)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_INVARIANT_OFFSET UNITYSDK_OFFSET(0x186D3C80)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_ISINVARIANTCULTURE_OFFSET UNITYSDK_OFFSET(0x186D43E0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_LONGTIMES_OFFSET UNITYSDK_OFFSET(0x186D4220)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_SAM1159_OFFSET UNITYSDK_OFFSET(0x186D4270)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_SCOMPAREINFO_OFFSET UNITYSDK_OFFSET(0x186D4410)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_SHORTTIMES_OFFSET UNITYSDK_OFFSET(0x186D4230)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_SISO639LANGNAME_OFFSET UNITYSDK_OFFSET(0x186D4240)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_SPM2359_OFFSET UNITYSDK_OFFSET(0x186D4280)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_STEXTINFO_OFFSET UNITYSDK_OFFSET(0x186D4420)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_TIMESEPARATOR_OFFSET UNITYSDK_OFFSET(0x186D4290)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_GET_USEUSEROVERRIDE_OFFSET UNITYSDK_OFFSET(0x186D4440)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_INDEXOFTIMEPART_OFFSET UNITYSDK_OFFSET(0x186D4730)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_LEAPYEARMONTHNAMES_OFFSET UNITYSDK_OFFSET(0x186D45D0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_LONGDATES_OFFSET UNITYSDK_OFFSET(0x186D44D0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_MONTHDAY_OFFSET UNITYSDK_OFFSET(0x186D45F0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_MONTHNAMES_OFFSET UNITYSDK_OFFSET(0x186D4550)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_REESCAPEWIN32STRINGS_OFFSET UNITYSDK_OFFSET(0x186CF5A0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_REESCAPEWIN32STRING_OFFSET UNITYSDK_OFFSET(0x186CF5B0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_SHORTDATES_OFFSET UNITYSDK_OFFSET(0x186D44B0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_UNESCAPENLSSTRING_OFFSET UNITYSDK_OFFSET(0x186D4870)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA_YEARMONTHS_OFFSET UNITYSDK_OFFSET(0x186D44F0)
+#define SYSTEM_GLOBALIZATION_CULTUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x186D3C70)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CultureData_TypeDefinitionIndex = 781;
+	inline static constexpr unsigned int CultureData_TypeDefinitionIndex = 780;
 
 	class CultureData : public ::System::Object
 	{
 	public:
 		static ::System::Globalization::CultureData** StaticGet_s_Invariant()
 		{
-			return (::System::Globalization::CultureData**)Il2CppClass::FromTypeDefinitionIndex(CultureData_TypeDefinitionIndex)->GetStaticField(0x70D0);
+			return (::System::Globalization::CultureData**)Il2CppClass::FromTypeDefinitionIndex(CultureData_TypeDefinitionIndex)->GetStaticField(0x67C0);
 		}
 		::System::String* sAM1159; // 0x10
 		::System::String* sPM2359; // 0x18
@@ -84,9 +84,9 @@ namespace System::Globalization
 		::System::Boolean isRightToLeft; // 0x7C
 		::System::String* sListSeparator; // 0x80
 
-		::System::Void _ctor(::System::String* name)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA__CTOR_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Globalization::CultureData* get_Invariant()
@@ -94,29 +94,29 @@ namespace System::Globalization
 			return ((::System::Globalization::CultureData*(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GET_INVARIANT_OFFSET))();
 		}
 
-		static ::System::Globalization::CultureData* GetCultureData(::System::String* cultureName, ::System::Boolean useUserOverride)
+		static ::System::Globalization::CultureData* GetCultureData(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Globalization::CultureData*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_OFFSET))(cultureName, useUserOverride);
+			return ((::System::Globalization::CultureData*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Globalization::CultureData* GetCultureData_1(::System::String* cultureName, ::System::Boolean useUserOverride, ::System::Int32 datetimeIndex, ::System::Int32 calendarId, ::System::Int32 numberIndex, ::System::String* iso2lang, ::System::Int32 ansiCodePage, ::System::Int32 oemCodePage, ::System::Int32 macCodePage, ::System::Int32 ebcdicCodePage, ::System::Boolean rightToLeft, ::System::String* listSeparator)
+		static ::System::Globalization::CultureData* GetCultureData_1(::System::String* a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::String* a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::System::Int32 a10, ::System::Boolean a11, ::System::String* a12)
 		{
-			return ((::System::Globalization::CultureData*(*)(::System::String*, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_1_OFFSET))(cultureName, useUserOverride, datetimeIndex, calendarId, numberIndex, iso2lang, ansiCodePage, oemCodePage, macCodePage, ebcdicCodePage, rightToLeft, listSeparator);
+			return ((::System::Globalization::CultureData*(*)(::System::String*, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
-		static ::System::Globalization::CultureData* GetCultureData_2(::System::Int32 culture, ::System::Boolean bUseUserOverride)
+		static ::System::Globalization::CultureData* GetCultureData_2(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Globalization::CultureData*(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_2_OFFSET))(culture, bUseUserOverride);
+			return ((::System::Globalization::CultureData*(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETCULTUREDATA_2_OFFSET))(a1, a2);
 		}
 
-		::System::Void fill_culture_data(::System::Int32 datetimeIndex)
+		::System::Void fill_culture_data(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_FILL_CULTURE_DATA_OFFSET))(this, datetimeIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_FILL_CULTURE_DATA_OFFSET))(this, a1);
 		}
 
-		::System::Globalization::CalendarData* GetCalendar(::System::Int32 calendarId)
+		::System::Globalization::CalendarData* GetCalendar(::System::Int32 a1)
 		{
-			return ((::System::Globalization::CalendarData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETCALENDAR_OFFSET))(this, calendarId);
+			return ((::System::Globalization::CalendarData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETCALENDAR_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::String*>* get_LongTimes()
@@ -194,119 +194,119 @@ namespace System::Globalization
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GET_USEUSEROVERRIDE_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::String*>* EraNames(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* EraNames(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ERANAMES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ERANAMES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* AbbrevEraNames(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* AbbrevEraNames(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVERANAMES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVERANAMES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* AbbreviatedEnglishEraNames(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* AbbreviatedEnglishEraNames(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDENGLISHERANAMES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDENGLISHERANAMES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* ShortDates(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* ShortDates(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_SHORTDATES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_SHORTDATES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* LongDates(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* LongDates(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_LONGDATES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_LONGDATES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* YearMonths(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* YearMonths(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_YEARMONTHS_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_YEARMONTHS_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* DayNames(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* DayNames(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_DAYNAMES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_DAYNAMES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* AbbreviatedDayNames(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* AbbreviatedDayNames(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDDAYNAMES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDDAYNAMES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* MonthNames(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* MonthNames(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_MONTHNAMES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_MONTHNAMES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* GenitiveMonthNames(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* GenitiveMonthNames(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GENITIVEMONTHNAMES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GENITIVEMONTHNAMES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* AbbreviatedMonthNames(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* AbbreviatedMonthNames(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDMONTHNAMES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDMONTHNAMES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* AbbreviatedGenitiveMonthNames(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* AbbreviatedGenitiveMonthNames(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDGENITIVEMONTHNAMES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_ABBREVIATEDGENITIVEMONTHNAMES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::String*>* LeapYearMonthNames(::System::Int32 calendarId)
+		::Il2CppArray<::System::String*>* LeapYearMonthNames(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_LEAPYEARMONTHNAMES_OFFSET))(this, calendarId);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_LEAPYEARMONTHNAMES_OFFSET))(this, a1);
 		}
 
-		::System::String* MonthDay(::System::Int32 calendarId)
+		::System::String* MonthDay(::System::Int32 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_MONTHDAY_OFFSET))(this, calendarId);
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_MONTHDAY_OFFSET))(this, a1);
 		}
 
-		::System::String* DateSeparator(::System::Int32 calendarId)
+		::System::String* DateSeparator(::System::Int32 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_DATESEPARATOR_OFFSET))(this, calendarId);
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_DATESEPARATOR_OFFSET))(this, a1);
 		}
 
-		static ::System::String* GetDateSeparator(::System::String* format)
+		static ::System::String* GetDateSeparator(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETDATESEPARATOR_OFFSET))(format);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETDATESEPARATOR_OFFSET))(a1);
 		}
 
-		static ::System::String* GetSeparator(::System::String* format, ::System::String* timeParts)
+		static ::System::String* GetSeparator(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETSEPARATOR_OFFSET))(format, timeParts);
+			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETSEPARATOR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 IndexOfTimePart(::System::String* format, ::System::Int32 startIndex, ::System::String* timeParts)
+		static ::System::Int32 IndexOfTimePart(::System::String* a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_INDEXOFTIMEPART_OFFSET))(format, startIndex, timeParts);
+			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_INDEXOFTIMEPART_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* UnescapeNlsString(::System::String* str, ::System::Int32 start, ::System::Int32 end)
+		static ::System::String* UnescapeNlsString(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_UNESCAPENLSSTRING_OFFSET))(str, start, end);
+			return ((::System::String*(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_UNESCAPENLSSTRING_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::System::String*>* ReescapeWin32Strings(::Il2CppArray<::System::String*>* array)
+		static ::Il2CppArray<::System::String*>* ReescapeWin32Strings(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_REESCAPEWIN32STRINGS_OFFSET))(array);
+			return ((::Il2CppArray<::System::String*>*(*)(::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_REESCAPEWIN32STRINGS_OFFSET))(a1);
 		}
 
-		static ::System::String* ReescapeWin32String(::System::String* str)
+		static ::System::String* ReescapeWin32String(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_REESCAPEWIN32STRING_OFFSET))(str);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_REESCAPEWIN32STRING_OFFSET))(a1);
 		}
 
-		::System::Void GetNFIValues(::System::Globalization::NumberFormatInfo* nfi)
+		::System::Void GetNFIValues(::System::Globalization::NumberFormatInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETNFIVALUES_OFFSET))(this, nfi);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_GETNFIVALUES_OFFSET))(this, a1);
 		}
 
-		static ::System::Void fill_number_data(::System::Globalization::NumberFormatInfo* nfi, ::System::Int32 numberIndex)
+		static ::System::Void fill_number_data(::System::Globalization::NumberFormatInfo* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::Globalization::NumberFormatInfo*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_FILL_NUMBER_DATA_OFFSET))(nfi, numberIndex);
+			return ((::System::Void(*)(::System::Globalization::NumberFormatInfo*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTUREDATA_FILL_NUMBER_DATA_OFFSET))(a1, a2);
 		}
 	};
 }

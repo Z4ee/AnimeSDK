@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AlchemyChangeHeightRetCode_TypeDefinitionIndex = 71698;
+	inline static constexpr unsigned int AlchemyChangeHeightRetCode_TypeDefinitionIndex = 72720;
 
 	enum class AlchemyChangeHeightRetCode : ::System::Int32
 	{

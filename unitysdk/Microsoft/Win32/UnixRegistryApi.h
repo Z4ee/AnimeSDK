@@ -6,18 +6,18 @@
 namespace Microsoft::Win32 { class RegistryKey; }
 namespace System { class String; }
 
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI_CLOSE_OFFSET UNITYSDK_OFFSET(0x1778DDE0)
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI_CREATESUBKEY_1_OFFSET UNITYSDK_OFFSET(0x1778E060)
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI_CREATESUBKEY_OFFSET UNITYSDK_OFFSET(0x1778DD50)
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI_FLUSH_OFFSET UNITYSDK_OFFSET(0x1778DD70)
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x1778E1E0)
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI_GETSUBKEYNAMES_OFFSET UNITYSDK_OFFSET(0x1778DFD0)
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1778DE40)
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI_ISWELLKNOWNKEY_OFFSET UNITYSDK_OFFSET(0x1778DA70)
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI_OPENSUBKEY_OFFSET UNITYSDK_OFFSET(0x1778DC30)
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1778E040)
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI_TOUNIX_OFFSET UNITYSDK_OFFSET(0x1778DA10)
-#define MICROSOFT_WIN32_UNIXREGISTRYAPI__CTOR_OFFSET UNITYSDK_OFFSET(0x1778C8A0)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI_CLOSE_OFFSET UNITYSDK_OFFSET(0x18548CE0)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI_CREATESUBKEY_1_OFFSET UNITYSDK_OFFSET(0x18548F60)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI_CREATESUBKEY_OFFSET UNITYSDK_OFFSET(0x18548C50)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI_FLUSH_OFFSET UNITYSDK_OFFSET(0x18548C70)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x185490E0)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI_GETSUBKEYNAMES_OFFSET UNITYSDK_OFFSET(0x18548ED0)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI_GETVALUE_OFFSET UNITYSDK_OFFSET(0x18548D40)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI_ISWELLKNOWNKEY_OFFSET UNITYSDK_OFFSET(0x18548970)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI_OPENSUBKEY_OFFSET UNITYSDK_OFFSET(0x18548B30)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18548F40)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI_TOUNIX_OFFSET UNITYSDK_OFFSET(0x18548910)
+#define MICROSOFT_WIN32_UNIXREGISTRYAPI__CTOR_OFFSET UNITYSDK_OFFSET(0x185476C0)
 
 namespace Microsoft::Win32
 {
@@ -31,59 +31,59 @@ namespace Microsoft::Win32
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::String* ToUnix(::System::String* keyname)
+		static ::System::String* ToUnix(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_TOUNIX_OFFSET))(keyname);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_TOUNIX_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsWellKnownKey(::System::String* parentKeyName, ::System::String* keyname)
+		static ::System::Boolean IsWellKnownKey(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_ISWELLKNOWNKEY_OFFSET))(parentKeyName, keyname);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_ISWELLKNOWNKEY_OFFSET))(a1, a2);
 		}
 
-		::Microsoft::Win32::RegistryKey* OpenSubKey(::Microsoft::Win32::RegistryKey* rkey, ::System::String* keyname, ::System::Boolean writable)
+		::Microsoft::Win32::RegistryKey* OpenSubKey(::Microsoft::Win32::RegistryKey* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::Microsoft::Win32::RegistryKey*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_OPENSUBKEY_OFFSET))(this, rkey, keyname, writable);
+			return ((::Microsoft::Win32::RegistryKey*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_OPENSUBKEY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Flush(::Microsoft::Win32::RegistryKey* rkey)
+		::System::Void Flush(::Microsoft::Win32::RegistryKey* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_FLUSH_OFFSET))(this, rkey);
+			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_FLUSH_OFFSET))(this, a1);
 		}
 
-		::System::Void Close(::Microsoft::Win32::RegistryKey* rkey)
+		::System::Void Close(::Microsoft::Win32::RegistryKey* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_CLOSE_OFFSET))(this, rkey);
+			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_CLOSE_OFFSET))(this, a1);
 		}
 
-		::System::Object* GetValue(::Microsoft::Win32::RegistryKey* rkey, ::System::String* name, ::System::Object* default_value, ::Microsoft::Win32::RegistryValueOptions options)
+		::System::Object* GetValue(::Microsoft::Win32::RegistryKey* a1, ::System::String* a2, ::System::Object* a3, ::Microsoft::Win32::RegistryValueOptions a4)
 		{
-			return ((::System::Object*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::System::Object*, ::Microsoft::Win32::RegistryValueOptions))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_GETVALUE_OFFSET))(this, rkey, name, default_value, options);
+			return ((::System::Object*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::System::Object*, ::Microsoft::Win32::RegistryValueOptions))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_GETVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::Il2CppArray<::System::String*>* GetSubKeyNames(::Microsoft::Win32::RegistryKey* rkey)
+		::Il2CppArray<::System::String*>* GetSubKeyNames(::Microsoft::Win32::RegistryKey* a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_GETSUBKEYNAMES_OFFSET))(this, rkey);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_GETSUBKEYNAMES_OFFSET))(this, a1);
 		}
 
-		::System::String* ToString(::Microsoft::Win32::RegistryKey* rkey)
+		::System::String* ToString(::Microsoft::Win32::RegistryKey* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_TOSTRING_OFFSET))(this, rkey);
+			return ((::System::String*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_TOSTRING_OFFSET))(this, a1);
 		}
 
-		::Microsoft::Win32::RegistryKey* CreateSubKey(::Microsoft::Win32::RegistryKey* rkey, ::System::String* keyname, ::System::Boolean writable)
+		::Microsoft::Win32::RegistryKey* CreateSubKey(::Microsoft::Win32::RegistryKey* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::Microsoft::Win32::RegistryKey*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_CREATESUBKEY_OFFSET))(this, rkey, keyname, writable);
+			return ((::Microsoft::Win32::RegistryKey*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_CREATESUBKEY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Microsoft::Win32::RegistryKey* CreateSubKey_1(::Microsoft::Win32::RegistryKey* rkey, ::System::String* keyname, ::System::Boolean writable, ::System::Boolean is_volatile)
+		::Microsoft::Win32::RegistryKey* CreateSubKey_1(::Microsoft::Win32::RegistryKey* a1, ::System::String* a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::Microsoft::Win32::RegistryKey*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_CREATESUBKEY_1_OFFSET))(this, rkey, keyname, writable, is_volatile);
+			return ((::Microsoft::Win32::RegistryKey*(*)(::PVOID, ::Microsoft::Win32::RegistryKey*, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_CREATESUBKEY_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IntPtr GetHandle(::Microsoft::Win32::RegistryKey* key)
+		::System::IntPtr GetHandle(::Microsoft::Win32::RegistryKey* a1)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_GETHANDLE_OFFSET))(this, key);
+			return ((::System::IntPtr(*)(::PVOID, ::Microsoft::Win32::RegistryKey*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNIXREGISTRYAPI_GETHANDLE_OFFSET))(this, a1);
 		}
 	};
 }

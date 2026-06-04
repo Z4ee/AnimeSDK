@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChessRogueAreaDataItem; }
 
-#define RPG_CLIENT_CHESSROGUEAREAINFO___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FD3720)
-#define RPG_CLIENT_CHESSROGUEAREAINFO___C__DISPLAYCLASS17_0__GETACCESSIBLEAREADATALIST_B__0_OFFSET UNITYSDK_OFFSET(0x9FD48D0)
+#define RPG_CLIENT_CHESSROGUEAREAINFO___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB64A200)
+#define RPG_CLIENT_CHESSROGUEAREAINFO___C__DISPLAYCLASS17_0__GETACCESSIBLEAREADATALIST_B__0_OFFSET UNITYSDK_OFFSET(0xB64A210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueAreaInfo___c__DisplayClass17_0_TypeDefinitionIndex = 61617;
+	inline static constexpr unsigned int ChessRogueAreaInfo___c__DisplayClass17_0_TypeDefinitionIndex = 62550;
 
 	class ChessRogueAreaInfo___c__DisplayClass17_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEAREAINFO___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetAccessibleAreaDataList_b__0(::RPG::Client::ChessRogueAreaDataItem* a)
+		::System::Boolean _GetAccessibleAreaDataList_b__0(::RPG::Client::ChessRogueAreaDataItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChessRogueAreaDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEAREAINFO___C__DISPLAYCLASS17_0__GETACCESSIBLEAREADATALIST_B__0_OFFSET))(this, a);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChessRogueAreaDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEAREAINFO___C__DISPLAYCLASS17_0__GETACCESSIBLEAREADATALIST_B__0_OFFSET))(this, a1);
 		}
 	};
 }

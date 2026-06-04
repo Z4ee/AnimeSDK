@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/EventType.h"
 
-class Class_0_16E4307DCC419505_1007;
-namespace System { class Object; }
-namespace System::Reflection { class MethodInfo; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class SkillData; }
+namespace System { class String; }
+namespace UnityEngine { class RectTransform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1017_TypeDefinitionIndex = 67360;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1017_TypeDefinitionIndex = 67171;
 
 class Class_0_16E4307DCC419505_1017
 {

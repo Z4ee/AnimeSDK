@@ -7,13 +7,13 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::Rendering { class DebugUI_Value; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerValue; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A331890)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1A331430)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A331A10)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B18BFB0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1B18BAE0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B18C130)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerPersistentCanvas_TypeDefinitionIndex = 33603;
+	inline static constexpr unsigned int DebugUIHandlerPersistentCanvas_TypeDefinitionIndex = 33885;
 
 	class DebugUIHandlerPersistentCanvas : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,9 +27,9 @@ namespace UnityEngine::Rendering::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Toggle(::UnityEngine::Rendering::DebugUI_Value* widget)
+		::System::Void Toggle(::UnityEngine::Rendering::DebugUI_Value* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Value*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_TOGGLE_OFFSET))(this, widget);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Value*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERPERSISTENTCANVAS_TOGGLE_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()

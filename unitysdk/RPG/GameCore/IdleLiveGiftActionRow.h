@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A11D80)
-#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A11F60)
+#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19844030)
+#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19844210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGiftActionRow_TypeDefinitionIndex = 11245;
+	inline static constexpr unsigned int IdleLiveGiftActionRow_TypeDefinitionIndex = 11292;
 
 	class IdleLiveGiftActionRow : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEGIFTACTIONROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::IdleLiveGiftActionRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveGiftActionRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveGiftActionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEGIFTACTIONROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveGiftActionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEGIFTACTIONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

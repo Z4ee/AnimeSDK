@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int ConsoleModifiers_TypeDefinitionIndex = 218;
+	inline static constexpr unsigned int ConsoleModifiers_TypeDefinitionIndex = 217;
 
 	enum class ConsoleModifiers : ::System::Int32
 	{

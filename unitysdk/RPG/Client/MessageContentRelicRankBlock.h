@@ -6,19 +6,19 @@
 namespace RPG::Client { class RelicGrowthGuide; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xA88C9C0)
-#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xA88CB10)
-#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_GET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0xA88CB20)
-#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_GET_RELICGUIDE_OFFSET UNITYSDK_OFFSET(0xA88CB30)
-#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA88C820)
-#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_REQUESTRELICRANKDATA_OFFSET UNITYSDK_OFFSET(0xA88C8B0)
-#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_SET_RELICGUIDE_OFFSET UNITYSDK_OFFSET(0xA88CB40)
-#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA88C830)
-#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK__ISDATAREADY_OFFSET UNITYSDK_OFFSET(0xA88CA60)
+#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xBFD8820)
+#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xBFD8980)
+#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_GET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0xBFD8990)
+#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_GET_RELICGUIDE_OFFSET UNITYSDK_OFFSET(0xBFD89A0)
+#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBFD86B0)
+#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_REQUESTRELICRANKDATA_OFFSET UNITYSDK_OFFSET(0xBFD86F0)
+#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_SET_RELICGUIDE_OFFSET UNITYSDK_OFFSET(0xBFD89B0)
+#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xBFD86C0)
+#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK__ISDATAREADY_OFFSET UNITYSDK_OFFSET(0xBFD88D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentRelicRankBlock_TypeDefinitionIndex = 58268;
+	inline static constexpr unsigned int MessageContentRelicRankBlock_TypeDefinitionIndex = 59198;
 
 	class MessageContentRelicRankBlock : public ::RPG::Client::MessageContentBlock
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 		::RPG::Client::RelicGrowthGuide* _RelicGuide_k__BackingField; // 0x18
 		::System::UInt32 _AvatarID_k__BackingField; // 0x20
 
-		::System::Void _ctor(::System::UInt32 avatarID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK__CTOR_OFFSET))(this, avatarID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -36,14 +36,14 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void RequestRelicRankData(::System::Action_1<::System::UInt32>* callback)
+		::System::Void RequestRelicRankData(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_REQUESTRELICRANKDATA_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_REQUESTRELICRANKDATA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::RPG::Client::MessageContentBlock* other)
+		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean _IsDataReady()
@@ -66,9 +66,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RelicGrowthGuide*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_GET_RELICGUIDE_OFFSET))(this);
 		}
 
-		::System::Void set_RelicGuide(::RPG::Client::RelicGrowthGuide* value)
+		::System::Void set_RelicGuide(::RPG::Client::RelicGrowthGuide* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicGrowthGuide*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_SET_RELICGUIDE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicGrowthGuide*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_SET_RELICGUIDE_OFFSET))(this, a1);
 		}
 	};
 }

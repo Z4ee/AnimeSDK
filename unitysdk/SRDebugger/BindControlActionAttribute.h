@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SRDEBUGGER_BINDCONTROLACTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6BDC0)
+#define SRDEBUGGER_BINDCONTROLACTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE21F0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int BindControlActionAttribute_TypeDefinitionIndex = 35328;
+	inline static constexpr unsigned int BindControlActionAttribute_TypeDefinitionIndex = 35628;
 
 	class BindControlActionAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* ActionName; // 0x10
 
-		::System::Void _ctor(::System::String* actionName)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_BINDCONTROLACTIONATTRIBUTE__CTOR_OFFSET))(this, actionName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_BINDCONTROLACTIONATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

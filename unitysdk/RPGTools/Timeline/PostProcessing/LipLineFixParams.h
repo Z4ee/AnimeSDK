@@ -4,7 +4,7 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int LipLineFixParams_TypeDefinitionIndex = 45292;
+	inline static constexpr unsigned int LipLineFixParams_TypeDefinitionIndex = 45849;
 
 	struct alignas(4) LipLineFixParams
 	{

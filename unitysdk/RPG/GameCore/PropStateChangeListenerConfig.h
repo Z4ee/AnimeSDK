@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPSTATECHANGELISTENERCONFIG_METHOD_3_47AEF3101111810B_OFFSET UNITYSDK_OFFSET(0x18C795E0)
-#define RPG_GAMECORE_PROPSTATECHANGELISTENERCONFIG_METHOD_3_D41613BCE9AC3605_OFFSET UNITYSDK_OFFSET(0x18C79490)
-#define RPG_GAMECORE_PROPSTATECHANGELISTENERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C79550)
+#define RPG_GAMECORE_PROPSTATECHANGELISTENERCONFIG_METHOD_3_E29A4F312529AB12_OFFSET UNITYSDK_OFFSET(0x19A9B9C0)
+#define RPG_GAMECORE_PROPSTATECHANGELISTENERCONFIG_METHOD_3_EB67D204EC0DF9F4_OFFSET UNITYSDK_OFFSET(0x19A9BB10)
+#define RPG_GAMECORE_PROPSTATECHANGELISTENERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9BA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropStateChangeListenerConfig_TypeDefinitionIndex = 19352;
+	inline static constexpr unsigned int PropStateChangeListenerConfig_TypeDefinitionIndex = 19260;
 
 	class PropStateChangeListenerConfig : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECHANGELISTENERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D41613BCE9AC3605(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropStateChangeListenerConfig*& a2)
+		static ::System::Void Method_3_E29A4F312529AB12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropStateChangeListenerConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropStateChangeListenerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECHANGELISTENERCONFIG_METHOD_3_D41613BCE9AC3605_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropStateChangeListenerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECHANGELISTENERCONFIG_METHOD_3_E29A4F312529AB12_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_47AEF3101111810B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropStateChangeListenerConfig* a2)
+		static ::System::Void Method_3_EB67D204EC0DF9F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropStateChangeListenerConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropStateChangeListenerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECHANGELISTENERCONFIG_METHOD_3_47AEF3101111810B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropStateChangeListenerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECHANGELISTENERCONFIG_METHOD_3_EB67D204EC0DF9F4_OFFSET))(a1, a2);
 		}
 	};
 }

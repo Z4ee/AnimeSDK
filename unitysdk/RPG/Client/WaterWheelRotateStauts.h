@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WaterWheelRotateStauts_TypeDefinitionIndex = 63449;
+	inline static constexpr unsigned int WaterWheelRotateStauts_TypeDefinitionIndex = 64366;
 
 	enum class WaterWheelRotateStauts : ::System::Int32
 	{

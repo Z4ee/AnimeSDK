@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CPUGPUINFO_METHOD_2_73FE579718DA84B8_OFFSET UNITYSDK_OFFSET(0x187644F0)
-#define RPG_GAMECORE_CPUGPUINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x187646C0)
+#define RPG_GAMECORE_CPUGPUINFO_METHOD_2_73FE579718DA84B8_OFFSET UNITYSDK_OFFSET(0x195E13D0)
+#define RPG_GAMECORE_CPUGPUINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x195E15A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CPUGPUInfo_TypeDefinitionIndex = 17361;
+	inline static constexpr unsigned int CPUGPUInfo_TypeDefinitionIndex = 17365;
 
 	class CPUGPUInfo : public ::RPG::GameCore::JsonConfig
 	{

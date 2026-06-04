@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DamageDisplayData; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETHP_METHOD_3_A4394C96F9B7887D_OFFSET UNITYSDK_OFFSET(0x18E34250)
-#define RPG_GAMECORE_SETHP_METHOD_3_C688260196DD479C_OFFSET UNITYSDK_OFFSET(0x18E34100)
-#define RPG_GAMECORE_SETHP__CTOR_OFFSET UNITYSDK_OFFSET(0x18E341C0)
+#define RPG_GAMECORE_SETHP_METHOD_3_A4394C96F9B7887D_OFFSET UNITYSDK_OFFSET(0x19C51040)
+#define RPG_GAMECORE_SETHP_METHOD_3_C688260196DD479C_OFFSET UNITYSDK_OFFSET(0x19C50EF0)
+#define RPG_GAMECORE_SETHP__CTOR_OFFSET UNITYSDK_OFFSET(0x19C50FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetHP_TypeDefinitionIndex = 21514;
+	inline static constexpr unsigned int SetHP_TypeDefinitionIndex = 21391;
 
 	class SetHP : public ::RPG::GameCore::TaskConfig
 	{

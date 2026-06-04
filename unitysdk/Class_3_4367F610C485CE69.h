@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropUnloadHitBoxGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4367F610C485CE69_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x123DCF90)
-#define CLASS_3_4367F610C485CE69__CTOR_OFFSET UNITYSDK_OFFSET(0x123DCF60)
+#define CLASS_3_4367F610C485CE69_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x138E4A30)
+#define CLASS_3_4367F610C485CE69__CTOR_OFFSET UNITYSDK_OFFSET(0x138E4A00)
 
-inline static constexpr unsigned int Class_3_4367F610C485CE69_TypeDefinitionIndex = 53833;
+inline static constexpr unsigned int Class_3_4367F610C485CE69_TypeDefinitionIndex = 54558;
 
 class Class_3_4367F610C485CE69 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropUnloadHitBoxGroup*>
 {

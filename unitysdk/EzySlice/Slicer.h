@@ -13,18 +13,18 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define EZYSLICE_SLICER_CREATEFROM_1_OFFSET UNITYSDK_OFFSET(0x8C08830)
-#define EZYSLICE_SLICER_CREATEFROM_OFFSET UNITYSDK_OFFSET(0x8C08880)
-#define EZYSLICE_SLICER_CREATEHULL_OFFSET UNITYSDK_OFFSET(0x8C089B0)
-#define EZYSLICE_SLICER_CREATELOWERHULL_OFFSET UNITYSDK_OFFSET(0x8C08990)
-#define EZYSLICE_SLICER_CREATEUPPERHULL_OFFSET UNITYSDK_OFFSET(0x8C08970)
-#define EZYSLICE_SLICER_SLICE_1_OFFSET UNITYSDK_OFFSET(0x8C07510)
-#define EZYSLICE_SLICER_SLICE_OFFSET UNITYSDK_OFFSET(0x8C07110)
-#define EZYSLICE_SLICER__CTOR_OFFSET UNITYSDK_OFFSET(0x8C0A940)
+#define EZYSLICE_SLICER_CREATEFROM_1_OFFSET UNITYSDK_OFFSET(0xA114B50)
+#define EZYSLICE_SLICER_CREATEFROM_OFFSET UNITYSDK_OFFSET(0xA114BA0)
+#define EZYSLICE_SLICER_CREATEHULL_OFFSET UNITYSDK_OFFSET(0xA114CD0)
+#define EZYSLICE_SLICER_CREATELOWERHULL_OFFSET UNITYSDK_OFFSET(0xA114CB0)
+#define EZYSLICE_SLICER_CREATEUPPERHULL_OFFSET UNITYSDK_OFFSET(0xA114C90)
+#define EZYSLICE_SLICER_SLICE_1_OFFSET UNITYSDK_OFFSET(0xA113660)
+#define EZYSLICE_SLICER_SLICE_OFFSET UNITYSDK_OFFSET(0xA113270)
+#define EZYSLICE_SLICER__CTOR_OFFSET UNITYSDK_OFFSET(0xA116B00)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Slicer_TypeDefinitionIndex = 43818;
+	inline static constexpr unsigned int Slicer_TypeDefinitionIndex = 44360;
 
 	class Slicer : public ::System::Object
 	{
@@ -34,39 +34,39 @@ namespace EzySlice
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER__CTOR_OFFSET))(this);
 		}
 
-		static ::EzySlice::SlicedHull* Slice(::UnityEngine::GameObject* obj, ::EzySlice::Plane pl, ::EzySlice::TextureRegion crossRegion, ::UnityEngine::Material* crossMaterial)
+		static ::EzySlice::SlicedHull* Slice(::UnityEngine::GameObject* a1, ::EzySlice::Plane a2, ::EzySlice::TextureRegion a3, ::UnityEngine::Material* a4)
 		{
-			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::GameObject*, ::EzySlice::Plane, ::EzySlice::TextureRegion, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_SLICE_OFFSET))(obj, pl, crossRegion, crossMaterial);
+			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::GameObject*, ::EzySlice::Plane, ::EzySlice::TextureRegion, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_SLICE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::EzySlice::SlicedHull* Slice_1(::UnityEngine::Mesh* sharedMesh, ::EzySlice::Plane pl, ::EzySlice::TextureRegion region, ::System::Int32 crossIndex)
+		static ::EzySlice::SlicedHull* Slice_1(::UnityEngine::Mesh* a1, ::EzySlice::Plane a2, ::EzySlice::TextureRegion a3, ::System::Int32 a4)
 		{
-			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::Mesh*, ::EzySlice::Plane, ::EzySlice::TextureRegion, ::System::Int32))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_SLICE_1_OFFSET))(sharedMesh, pl, region, crossIndex);
+			return ((::EzySlice::SlicedHull*(*)(::UnityEngine::Mesh*, ::EzySlice::Plane, ::EzySlice::TextureRegion, ::System::Int32))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_SLICE_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::EzySlice::SlicedHull* CreateFrom(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>* meshes, ::System::Collections::Generic::List_1<::EzySlice::Triangle>* cross, ::System::Int32 crossSectionIndex)
+		static ::EzySlice::SlicedHull* CreateFrom(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>* a1, ::System::Collections::Generic::List_1<::EzySlice::Triangle>* a2, ::System::Int32 a3)
 		{
-			return ((::EzySlice::SlicedHull*(*)(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>*, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*, ::System::Int32))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_CREATEFROM_OFFSET))(meshes, cross, crossSectionIndex);
+			return ((::EzySlice::SlicedHull*(*)(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>*, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*, ::System::Int32))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_CREATEFROM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Mesh* CreateUpperHull(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>* mesh, ::System::Int32 total, ::System::Collections::Generic::List_1<::EzySlice::Triangle>* crossSection, ::System::Int32 crossSectionIndex)
+		static ::UnityEngine::Mesh* CreateUpperHull(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::EzySlice::Triangle>* a3, ::System::Int32 a4)
 		{
-			return ((::UnityEngine::Mesh*(*)(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>*, ::System::Int32, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*, ::System::Int32))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_CREATEUPPERHULL_OFFSET))(mesh, total, crossSection, crossSectionIndex);
+			return ((::UnityEngine::Mesh*(*)(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>*, ::System::Int32, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*, ::System::Int32))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_CREATEUPPERHULL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Mesh* CreateLowerHull(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>* mesh, ::System::Int32 total, ::System::Collections::Generic::List_1<::EzySlice::Triangle>* crossSection, ::System::Int32 crossSectionIndex)
+		static ::UnityEngine::Mesh* CreateLowerHull(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::EzySlice::Triangle>* a3, ::System::Int32 a4)
 		{
-			return ((::UnityEngine::Mesh*(*)(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>*, ::System::Int32, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*, ::System::Int32))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_CREATELOWERHULL_OFFSET))(mesh, total, crossSection, crossSectionIndex);
+			return ((::UnityEngine::Mesh*(*)(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>*, ::System::Int32, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*, ::System::Int32))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_CREATELOWERHULL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Mesh* CreateHull(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>* meshes, ::System::Int32 total, ::System::Collections::Generic::List_1<::EzySlice::Triangle>* crossSection, ::System::Int32 crossIndex, ::System::Boolean isUpper)
+		static ::UnityEngine::Mesh* CreateHull(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::EzySlice::Triangle>* a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::UnityEngine::Mesh*(*)(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>*, ::System::Int32, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_CREATEHULL_OFFSET))(meshes, total, crossSection, crossIndex, isUpper);
+			return ((::UnityEngine::Mesh*(*)(::Il2CppArray<::EzySlice::Slicer_SlicedSubmesh*>*, ::System::Int32, ::System::Collections::Generic::List_1<::EzySlice::Triangle>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_CREATEHULL_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Collections::Generic::List_1<::EzySlice::Triangle>* CreateFrom_1(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* intPoints, ::UnityEngine::Vector3 planeNormal, ::EzySlice::TextureRegion region)
+		static ::System::Collections::Generic::List_1<::EzySlice::Triangle>* CreateFrom_1(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1, ::UnityEngine::Vector3 a2, ::EzySlice::TextureRegion a3)
 		{
-			return ((::System::Collections::Generic::List_1<::EzySlice::Triangle>*(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::UnityEngine::Vector3, ::EzySlice::TextureRegion))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_CREATEFROM_1_OFFSET))(intPoints, planeNormal, region);
+			return ((::System::Collections::Generic::List_1<::EzySlice::Triangle>*(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::UnityEngine::Vector3, ::EzySlice::TextureRegion))((::PBYTE)hIl2Cpp + EZYSLICE_SLICER_CREATEFROM_1_OFFSET))(a1, a2, a3);
 		}
 	};
 }

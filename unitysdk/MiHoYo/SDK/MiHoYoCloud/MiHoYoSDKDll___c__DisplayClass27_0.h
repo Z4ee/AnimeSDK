@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1757A1E0)
-#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS27_0__INVOKERETURN_B__0_OFFSET UNITYSDK_OFFSET(0x1757C730)
+#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18362B30)
+#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS27_0__INVOKERETURN_B__0_OFFSET UNITYSDK_OFFSET(0x18364DE0)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass27_0_TypeDefinitionIndex = 7883;
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass27_0_TypeDefinitionIndex = 8786;
 
 	class MiHoYoSDKDll___c__DisplayClass27_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::MiHoYoCloud
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS27_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _InvokeReturn_b__0(::System::String* message)
+		::System::Void _InvokeReturn_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS27_0__INVOKERETURN_B__0_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS27_0__INVOKERETURN_B__0_OFFSET))(this, a1);
 		}
 	};
 }

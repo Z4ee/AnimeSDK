@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8CE0D50)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__DISPLAYCLASS36_0__HOYOSDKINTERNALNOTIFICATION_B__0_OFFSET UNITYSDK_OFFSET(0x8CE1590)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA13C4F0)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__DISPLAYCLASS36_0__HOYOSDKINTERNALNOTIFICATION_B__0_OFFSET UNITYSDK_OFFSET(0xA13CD00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatNative___c__DisplayClass36_0_TypeDefinitionIndex = 42698;
+	inline static constexpr unsigned int AccountPlatNative___c__DisplayClass36_0_TypeDefinitionIndex = 43501;
 
 	class AccountPlatNative___c__DisplayClass36_0 : public ::System::Object
 	{

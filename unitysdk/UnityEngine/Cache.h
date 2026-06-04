@@ -5,16 +5,16 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_CACHE_CACHE_GETPATH_OFFSET UNITYSDK_OFFSET(0x1A42D1D0)
-#define UNITYENGINE_CACHE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x299F0)
-#define UNITYENGINE_CACHE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22E2FC0)
-#define UNITYENGINE_CACHE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define UNITYENGINE_CACHE_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define UNITYENGINE_CACHE_GET_PATH_OFFSET UNITYSDK_OFFSET(0x22E3020)
+#define UNITYENGINE_CACHE_CACHE_GETPATH_OFFSET UNITYSDK_OFFSET(0x1B27F570)
+#define UNITYENGINE_CACHE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2C4D0)
+#define UNITYENGINE_CACHE_EQUALS_OFFSET UNITYSDK_OFFSET(0x387F990)
+#define UNITYENGINE_CACHE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define UNITYENGINE_CACHE_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define UNITYENGINE_CACHE_GET_PATH_OFFSET UNITYSDK_OFFSET(0x387F9F0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Cache_TypeDefinitionIndex = 3849;
+	inline static constexpr unsigned int Cache_TypeDefinitionIndex = 4023;
 
 	struct alignas(4) Cache
 	{
@@ -30,14 +30,14 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CACHE_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_CACHE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_CACHE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::UnityEngine::Cache other)
+		::System::Boolean Equals_1(::UnityEngine::Cache a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Cache))((::PBYTE)hIl2Cpp + UNITYENGINE_CACHE_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Cache))((::PBYTE)hIl2Cpp + UNITYENGINE_CACHE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::String* get_path()
@@ -45,9 +45,9 @@ namespace UnityEngine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CACHE_GET_PATH_OFFSET))(this);
 		}
 
-		static ::System::String* Cache_GetPath(::System::Int32 handle)
+		static ::System::String* Cache_GetPath(::System::Int32 a1)
 		{
-			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_CACHE_CACHE_GETPATH_OFFSET))(handle);
+			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_CACHE_CACHE_GETPATH_OFFSET))(a1);
 		}
 	};
 }

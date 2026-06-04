@@ -4,29 +4,29 @@
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-class Class_2_536CC4186B095618;
+class Class_2_4706D3AD6019CD01;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-inline static constexpr unsigned int Class_1_033A6964BBABD997___O_TypeDefinitionIndex = 70333;
+inline static constexpr unsigned int Class_1_033A6964BBABD997___O_TypeDefinitionIndex = 71149;
 
 class Class_1_033A6964BBABD997___O : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::Class_2_536CC4186B095618*>** StaticGet__2____BirdSkillGainPropComparison()
+	static ::System::Comparison_1<::Class_2_4706D3AD6019CD01*>** StaticGet__1____BirdSkillCreateItemPackComparison()
 	{
-		return (::System::Comparison_1<::Class_2_536CC4186B095618*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_033A6964BBABD997___O_TypeDefinitionIndex)->GetStaticField(0x13DD0);
-	}
-	static ::System::Comparison_1<::Class_2_536CC4186B095618*>** StaticGet__1____BirdSkillCreateItemPackComparison()
-	{
-		return (::System::Comparison_1<::Class_2_536CC4186B095618*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_033A6964BBABD997___O_TypeDefinitionIndex)->GetStaticField(0x13DD8);
+		return (::System::Comparison_1<::Class_2_4706D3AD6019CD01*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_033A6964BBABD997___O_TypeDefinitionIndex)->GetStaticField(0x27510);
 	}
 	static ::System::Func_2<::UnityEngine::Vector2Int, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet__3___FromVector2Int()
 	{
-		return (::System::Func_2<::UnityEngine::Vector2Int, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_033A6964BBABD997___O_TypeDefinitionIndex)->GetStaticField(0x13DE0);
+		return (::System::Func_2<::UnityEngine::Vector2Int, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_033A6964BBABD997___O_TypeDefinitionIndex)->GetStaticField(0x27518);
 	}
-	static ::System::Comparison_1<::Class_2_536CC4186B095618*>** StaticGet__0____BirdSkillCreatePieceComparison()
+	static ::System::Comparison_1<::Class_2_4706D3AD6019CD01*>** StaticGet__0____BirdSkillCreatePieceComparison()
 	{
-		return (::System::Comparison_1<::Class_2_536CC4186B095618*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_033A6964BBABD997___O_TypeDefinitionIndex)->GetStaticField(0x13DE8);
+		return (::System::Comparison_1<::Class_2_4706D3AD6019CD01*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_033A6964BBABD997___O_TypeDefinitionIndex)->GetStaticField(0x27520);
+	}
+	static ::System::Comparison_1<::Class_2_4706D3AD6019CD01*>** StaticGet__2____BirdSkillGainPropComparison()
+	{
+		return (::System::Comparison_1<::Class_2_4706D3AD6019CD01*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_033A6964BBABD997___O_TypeDefinitionIndex)->GetStaticField(0x27528);
 	}
 };

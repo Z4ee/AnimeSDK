@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SIMULATEAVATARLINEUPCONFIG_METHOD_2_DF234648A42B5CC9_OFFSET UNITYSDK_OFFSET(0x18E6D880)
-#define RPG_GAMECORE_SIMULATEAVATARLINEUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6DD20)
+#define RPG_GAMECORE_SIMULATEAVATARLINEUPCONFIG_METHOD_2_56A038D000092C9B_OFFSET UNITYSDK_OFFSET(0x19C89550)
+#define RPG_GAMECORE_SIMULATEAVATARLINEUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C899E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimulateAvatarLineupConfig_TypeDefinitionIndex = 17242;
+	inline static constexpr unsigned int SimulateAvatarLineupConfig_TypeDefinitionIndex = 17250;
 
 	class SimulateAvatarLineupConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SIMULATEAVATARLINEUPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DF234648A42B5CC9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SimulateAvatarLineupConfig*& a2)
+		static ::System::Void Method_2_56A038D000092C9B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SimulateAvatarLineupConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SimulateAvatarLineupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SIMULATEAVATARLINEUPCONFIG_METHOD_2_DF234648A42B5CC9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SimulateAvatarLineupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SIMULATEAVATARLINEUPCONFIG_METHOD_2_56A038D000092C9B_OFFSET))(a1, a2);
 		}
 	};
 }

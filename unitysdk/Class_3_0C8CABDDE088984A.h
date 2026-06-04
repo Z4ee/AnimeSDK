@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsInDistrict; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0C8CABDDE088984A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x117FE2F0)
-#define CLASS_3_0C8CABDDE088984A__CTOR_OFFSET UNITYSDK_OFFSET(0x117FE2C0)
+#define CLASS_3_0C8CABDDE088984A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13834690)
+#define CLASS_3_0C8CABDDE088984A__CTOR_OFFSET UNITYSDK_OFFSET(0x13834660)
 
-inline static constexpr unsigned int Class_3_0C8CABDDE088984A_TypeDefinitionIndex = 49003;
+inline static constexpr unsigned int Class_3_0C8CABDDE088984A_TypeDefinitionIndex = 49669;
 
 class Class_3_0C8CABDDE088984A : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsInDistrict*>
 {

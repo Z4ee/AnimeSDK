@@ -7,32 +7,32 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8DDACD0)
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x8DDAD80)
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x8DDADE0)
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x8DDAD90)
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8DDACC0)
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50__CTOR_OFFSET UNITYSDK_OFFSET(0x8DD8380)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA226760)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA226810)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA226870)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xA226820)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA226750)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50__CTOR_OFFSET UNITYSDK_OFFSET(0xA223E00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface__Get_d__50_TypeDefinitionIndex = 43055;
+	inline static constexpr unsigned int UGCInterface__Get_d__50_TypeDefinitionIndex = 43858;
 
 	class UGCInterface__Get_d__50 : public ::System::Object
 	{
 	public:
-		::System::Action* timeoutCallback; // 0x10
-		::System::Object* __2__current; // 0x18
-		::System::String* strUrl; // 0x20
+		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* completeCallback; // 0x10
+		::System::Action* timeoutCallback; // 0x18
+		::System::Object* __2__current; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x28
-		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* completeCallback; // 0x30
+		::System::String* strUrl; // 0x30
 		::System::Int32 __1__state; // 0x38
 		::System::Int32 nRetryCount; // 0x3C
 		::System::Single nTimeoutSeconds; // 0x40
 
-		::System::Void _ctor(::System::Int32 __1__state)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE__GET_D__50__CTOR_OFFSET))(this, __1__state);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE__GET_D__50__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()

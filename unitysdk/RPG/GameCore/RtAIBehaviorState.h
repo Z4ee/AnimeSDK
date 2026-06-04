@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAIBehaviorState_TypeDefinitionIndex = 49870;
+	inline static constexpr unsigned int RtAIBehaviorState_TypeDefinitionIndex = 50537;
 
 	enum class RtAIBehaviorState : ::System::Int32
 	{

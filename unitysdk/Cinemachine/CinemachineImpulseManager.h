@@ -7,26 +7,26 @@
 namespace Cinemachine { class CinemachineImpulseManager_ImpulseEvent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_ADDIMPULSEEVENT_OFFSET UNITYSDK_OFFSET(0x12B8B260)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_CLEAR_OFFSET UNITYSDK_OFFSET(0x12B8C8B0)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GETIMPULSEAT_OFFSET UNITYSDK_OFFSET(0x12B8BA90)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x12B8C810)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x12B8C7F0)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x12B8B0F0)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_NEWIMPULSEEVENT_OFFSET UNITYSDK_OFFSET(0x12B8B160)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_SET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x12B8C800)
-#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B8BED0)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_ADDIMPULSEEVENT_OFFSET UNITYSDK_OFFSET(0x14649D10)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1464B410)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GETIMPULSEAT_OFFSET UNITYSDK_OFFSET(0x1464A580)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x1464B370)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x1464B350)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x14649BA0)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_NEWIMPULSEEVENT_OFFSET UNITYSDK_OFFSET(0x14649C10)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER_SET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x1464B360)
+#define CINEMACHINE_CINEMACHINEIMPULSEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1464AA30)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseManager_TypeDefinitionIndex = 36634;
+	inline static constexpr unsigned int CinemachineImpulseManager_TypeDefinitionIndex = 36934;
 
 	class CinemachineImpulseManager : public ::System::Object
 	{
 	public:
 		static ::Cinemachine::CinemachineImpulseManager** StaticGet_sInstance()
 		{
-			return (::Cinemachine::CinemachineImpulseManager**)Il2CppClass::FromTypeDefinitionIndex(CinemachineImpulseManager_TypeDefinitionIndex)->GetStaticField(0x7720);
+			return (::Cinemachine::CinemachineImpulseManager**)Il2CppClass::FromTypeDefinitionIndex(CinemachineImpulseManager_TypeDefinitionIndex)->GetStaticField(0x5290);
 		}
 		// static const ::System::Single Epsilon; // 0x0
 		::System::Collections::Generic::List_1<::Cinemachine::CinemachineImpulseManager_ImpulseEvent*>* m_ActiveEvents; // 0x10
@@ -43,9 +43,9 @@ namespace Cinemachine
 			return ((::Cinemachine::CinemachineImpulseManager*(*)())((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_INSTANCE_OFFSET))();
 		}
 
-		::System::Boolean GetImpulseAt(::UnityEngine::Vector3 listenerLocation, ::System::Boolean distance2D, ::System::Int32 channelMask, ::UnityEngine::Vector3& pos, ::UnityEngine::Quaternion& rot)
+		::System::Boolean GetImpulseAt(::UnityEngine::Vector3 a1, ::System::Boolean a2, ::System::Int32 a3, ::UnityEngine::Vector3& a4, ::UnityEngine::Quaternion& a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean, ::System::Int32, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GETIMPULSEAT_OFFSET))(this, listenerLocation, distance2D, channelMask, pos, rot);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean, ::System::Int32, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GETIMPULSEAT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean get_IgnoreTimeScale()
@@ -53,9 +53,9 @@ namespace Cinemachine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_GET_IGNORETIMESCALE_OFFSET))(this);
 		}
 
-		::System::Void set_IgnoreTimeScale(::System::Boolean value)
+		::System::Void set_IgnoreTimeScale(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_SET_IGNORETIMESCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_SET_IGNORETIMESCALE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_CurrentTime()
@@ -68,9 +68,9 @@ namespace Cinemachine
 			return ((::Cinemachine::CinemachineImpulseManager_ImpulseEvent*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_NEWIMPULSEEVENT_OFFSET))(this);
 		}
 
-		::System::Void AddImpulseEvent(::Cinemachine::CinemachineImpulseManager_ImpulseEvent* e)
+		::System::Void AddImpulseEvent(::Cinemachine::CinemachineImpulseManager_ImpulseEvent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineImpulseManager_ImpulseEvent*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_ADDIMPULSEEVENT_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineImpulseManager_ImpulseEvent*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEIMPULSEMANAGER_ADDIMPULSEEVENT_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()

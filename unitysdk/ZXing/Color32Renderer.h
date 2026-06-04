@@ -8,16 +8,16 @@ namespace System { class String; }
 namespace ZXing::Common { class BitMatrix; }
 namespace ZXing::Common { class EncodingOptions; }
 
-#define ZXING_COLOR32RENDERER_GET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x1A73C8D0)
-#define ZXING_COLOR32RENDERER_GET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x1A73C8B0)
-#define ZXING_COLOR32RENDERER_RENDER_OFFSET UNITYSDK_OFFSET(0x1A73C8F0)
-#define ZXING_COLOR32RENDERER_SET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x1A73C8E0)
-#define ZXING_COLOR32RENDERER_SET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x1A73C8C0)
-#define ZXING_COLOR32RENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A73C870)
+#define ZXING_COLOR32RENDERER_GET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x1B53CB90)
+#define ZXING_COLOR32RENDERER_GET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x1B53CB70)
+#define ZXING_COLOR32RENDERER_RENDER_OFFSET UNITYSDK_OFFSET(0x1B53CBB0)
+#define ZXING_COLOR32RENDERER_SET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x1B53CBA0)
+#define ZXING_COLOR32RENDERER_SET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x1B53CB80)
+#define ZXING_COLOR32RENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53CB30)
 
 namespace ZXing
 {
-	inline static constexpr unsigned int Color32Renderer_TypeDefinitionIndex = 6078;
+	inline static constexpr unsigned int Color32Renderer_TypeDefinitionIndex = 6451;
 
 	class Color32Renderer : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace ZXing
 			return ((::UnityEngine::Color32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COLOR32RENDERER_GET_FOREGROUND_OFFSET))(this);
 		}
 
-		::System::Void set_Foreground(::UnityEngine::Color32 value)
+		::System::Void set_Foreground(::UnityEngine::Color32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color32))((::PBYTE)hIl2Cpp + ZXING_COLOR32RENDERER_SET_FOREGROUND_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color32))((::PBYTE)hIl2Cpp + ZXING_COLOR32RENDERER_SET_FOREGROUND_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Color32 get_Background()
@@ -45,14 +45,14 @@ namespace ZXing
 			return ((::UnityEngine::Color32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COLOR32RENDERER_GET_BACKGROUND_OFFSET))(this);
 		}
 
-		::System::Void set_Background(::UnityEngine::Color32 value)
+		::System::Void set_Background(::UnityEngine::Color32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color32))((::PBYTE)hIl2Cpp + ZXING_COLOR32RENDERER_SET_BACKGROUND_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color32))((::PBYTE)hIl2Cpp + ZXING_COLOR32RENDERER_SET_BACKGROUND_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::UnityEngine::Color32>* Render(::ZXing::Common::BitMatrix* matrix, ::ZXing::BarcodeFormat format, ::System::String* content, ::ZXing::Common::EncodingOptions* options)
+		::Il2CppArray<::UnityEngine::Color32>* Render(::ZXing::Common::BitMatrix* a1, ::ZXing::BarcodeFormat a2, ::System::String* a3, ::ZXing::Common::EncodingOptions* a4)
 		{
-			return ((::Il2CppArray<::UnityEngine::Color32>*(*)(::PVOID, ::ZXing::Common::BitMatrix*, ::ZXing::BarcodeFormat, ::System::String*, ::ZXing::Common::EncodingOptions*))((::PBYTE)hIl2Cpp + ZXING_COLOR32RENDERER_RENDER_OFFSET))(this, matrix, format, content, options);
+			return ((::Il2CppArray<::UnityEngine::Color32>*(*)(::PVOID, ::ZXing::Common::BitMatrix*, ::ZXing::BarcodeFormat, ::System::String*, ::ZXing::Common::EncodingOptions*))((::PBYTE)hIl2Cpp + ZXING_COLOR32RENDERER_RENDER_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

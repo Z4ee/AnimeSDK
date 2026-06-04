@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MissionModule_MissionResState; }
 
-#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA286E40)
-#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0___CHECKMISSIONRES_B__0_OFFSET UNITYSDK_OFFSET(0xA288E60)
+#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB90D8C0)
+#define RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0___CHECKMISSIONRES_B__0_OFFSET UNITYSDK_OFFSET(0xB90F990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnterGamePhase___c__DisplayClass16_0_TypeDefinitionIndex = 56392;
+	inline static constexpr unsigned int EnterGamePhase___c__DisplayClass16_0_TypeDefinitionIndex = 57154;
 
 	class EnterGamePhase___c__DisplayClass16_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __CheckMissionRes_b__0(::System::Boolean isOK)
+		::System::Void __CheckMissionRes_b__0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0___CHECKMISSIONRES_B__0_OFFSET))(this, isOK);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTERGAMEPHASE___C__DISPLAYCLASS16_0___CHECKMISSIONRES_B__0_OFFSET))(this, a1);
 		}
 	};
 }

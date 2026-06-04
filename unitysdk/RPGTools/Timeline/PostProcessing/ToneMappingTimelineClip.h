@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline::PostProcessing { class ToneMappingTimelineBehaviour; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB9068B0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xD047B20)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ToneMappingTimelineClip_TypeDefinitionIndex = 45334;
+	inline static constexpr unsigned int ToneMappingTimelineClip_TypeDefinitionIndex = 45891;
 
 	class ToneMappingTimelineClip : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip_1<::RPGTools::Timeline::PostProcessing::ToneMappingTimelineBehaviour*>
 	{

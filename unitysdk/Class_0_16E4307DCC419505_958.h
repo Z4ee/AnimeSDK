@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/CelestialBodyType.h"
 
-class Class_1_70697F531F566942_2;
-namespace RPG::GameCore { class GameEntity; }
-namespace System { class Object; }
+class CelestialBodyData;
+class Class_1_535E4088B549C341;
+class OrbitData;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_958_TypeDefinitionIndex = 66126;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_958_TypeDefinitionIndex = 65246;
 
 class Class_0_16E4307DCC419505_958
 {

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class RtModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTGLOBALMODIFIERCONFIG_METHOD_2_1047453C7BAC61B0_OFFSET UNITYSDK_OFFSET(0x18DD0290)
-#define RPG_GAMECORE_RTGLOBALMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD0360)
+#define RPG_GAMECORE_RTGLOBALMODIFIERCONFIG_METHOD_2_F34DB2E40E7D3CFA_OFFSET UNITYSDK_OFFSET(0x19BE9FE0)
+#define RPG_GAMECORE_RTGLOBALMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEA0C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtGlobalModifierConfig_TypeDefinitionIndex = 16772;
+	inline static constexpr unsigned int RtGlobalModifierConfig_TypeDefinitionIndex = 16788;
 
 	class RtGlobalModifierConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTGLOBALMODIFIERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1047453C7BAC61B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtGlobalModifierConfig*& a2)
+		static ::System::Void Method_2_F34DB2E40E7D3CFA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtGlobalModifierConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtGlobalModifierConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTGLOBALMODIFIERCONFIG_METHOD_2_1047453C7BAC61B0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtGlobalModifierConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTGLOBALMODIFIERCONFIG_METHOD_2_F34DB2E40E7D3CFA_OFFSET))(a1, a2);
 		}
 	};
 }

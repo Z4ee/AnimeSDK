@@ -7,7 +7,7 @@ namespace ZLinq::Linq { template <typename T1, typename T2> class OrderByCompara
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int OrderBySkipTake_3_TypeDefinitionIndex = 6534;
+	inline static constexpr unsigned int OrderBySkipTake_3_TypeDefinitionIndex = 6363;
 
 	template <typename TEnumerator, typename TSource, typename TKey>
 	struct OrderBySkipTake_3

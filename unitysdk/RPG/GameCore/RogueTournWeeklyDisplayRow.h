@@ -6,12 +6,12 @@
 class Class_1_73507DF29F8561CD;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D7DE30)
-#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D7DFF0)
+#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BD14C0)
+#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD1680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournWeeklyDisplayRow_TypeDefinitionIndex = 14188;
+	inline static constexpr unsigned int RogueTournWeeklyDisplayRow_TypeDefinitionIndex = 14248;
 
 	class RogueTournWeeklyDisplayRow : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueTournWeeklyDisplayRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournWeeklyDisplayRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournWeeklyDisplayRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournWeeklyDisplayRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

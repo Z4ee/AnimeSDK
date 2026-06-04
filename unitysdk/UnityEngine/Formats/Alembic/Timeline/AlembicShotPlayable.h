@@ -7,14 +7,14 @@
 namespace System { class Object; }
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicStreamPlayer; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_GET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1A1E27F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1A1E2810)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_SET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1A1E2800)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E2940)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_GET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1B046F70)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1B046F90)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_SET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1B046F80)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0470C0)
 
 namespace UnityEngine::Formats::Alembic::Timeline
 {
-	inline static constexpr unsigned int AlembicShotPlayable_TypeDefinitionIndex = 40746;
+	inline static constexpr unsigned int AlembicShotPlayable_TypeDefinitionIndex = 41572;
 
 	class AlembicShotPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -31,14 +31,14 @@ namespace UnityEngine::Formats::Alembic::Timeline
 			return ((::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_GET_STREAMPLAYER_OFFSET))(this);
 		}
 
-		::System::Void set_streamPlayer(::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer* value)
+		::System::Void set_streamPlayer(::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_SET_STREAMPLAYER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_SET_STREAMPLAYER_OFFSET))(this, a1);
 		}
 
-		::System::Void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData)
+		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_PROCESSFRAME_OFFSET))(this, playable, info, playerData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

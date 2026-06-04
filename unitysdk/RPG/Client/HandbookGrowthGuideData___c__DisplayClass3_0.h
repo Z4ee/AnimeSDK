@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class HandbookGrowthGuideEquipmentDataItem; }
 
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E61F0)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__DISPLAYCLASS3_0__GETRECOMMENDPERCENTAGEBYGUIDEID_B__0_OFFSET UNITYSDK_OFFSET(0xA5E6200)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__DISPLAYCLASS3_0__GETRECOMMENDPERCENTAGEBYGUIDEID_B__1_OFFSET UNITYSDK_OFFSET(0xA5E6220)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBCE7240)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__DISPLAYCLASS3_0__GETRECOMMENDPERCENTAGEBYGUIDEID_B__0_OFFSET UNITYSDK_OFFSET(0xBCE95D0)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__DISPLAYCLASS3_0__GETRECOMMENDPERCENTAGEBYGUIDEID_B__1_OFFSET UNITYSDK_OFFSET(0xBCE95F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookGrowthGuideData___c__DisplayClass3_0_TypeDefinitionIndex = 60415;
+	inline static constexpr unsigned int HandbookGrowthGuideData___c__DisplayClass3_0_TypeDefinitionIndex = 61350;
 
 	class HandbookGrowthGuideData___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetRecommendPercentageByGuideID_b__0(::RPG::Client::HandbookGrowthGuideEquipmentDataItem* item)
+		::System::Boolean _GetRecommendPercentageByGuideID_b__0(::RPG::Client::HandbookGrowthGuideEquipmentDataItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::HandbookGrowthGuideEquipmentDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__DISPLAYCLASS3_0__GETRECOMMENDPERCENTAGEBYGUIDEID_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::HandbookGrowthGuideEquipmentDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__DISPLAYCLASS3_0__GETRECOMMENDPERCENTAGEBYGUIDEID_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetRecommendPercentageByGuideID_b__1(::RPG::Client::HandbookGrowthGuideEquipmentDataItem* item)
+		::System::Boolean _GetRecommendPercentageByGuideID_b__1(::RPG::Client::HandbookGrowthGuideEquipmentDataItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::HandbookGrowthGuideEquipmentDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__DISPLAYCLASS3_0__GETRECOMMENDPERCENTAGEBYGUIDEID_B__1_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::HandbookGrowthGuideEquipmentDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__DISPLAYCLASS3_0__GETRECOMMENDPERCENTAGEBYGUIDEID_B__1_OFFSET))(this, a1);
 		}
 	};
 }

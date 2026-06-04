@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define NERDBANK_STREAMS_VERIFY_OPERATION_OFFSET UNITYSDK_OFFSET(0x17389850)
+#define NERDBANK_STREAMS_VERIFY_OPERATION_OFFSET UNITYSDK_OFFSET(0x18194280)
 
 namespace Nerdbank::Streams
 {
-	inline static constexpr unsigned int Verify_TypeDefinitionIndex = 9209;
+	inline static constexpr unsigned int Verify_TypeDefinitionIndex = 7112;
 
 	class Verify : public ::System::Object
 	{
 	public:
-		static ::System::Void Operation(::System::Boolean condition, ::System::String* message)
+		static ::System::Void Operation(::System::Boolean a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + NERDBANK_STREAMS_VERIFY_OPERATION_OFFSET))(condition, message);
+			return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + NERDBANK_STREAMS_VERIFY_OPERATION_OFFSET))(a1, a2);
 		}
 	};
 }

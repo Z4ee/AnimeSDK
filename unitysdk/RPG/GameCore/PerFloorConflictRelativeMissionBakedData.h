@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PERFLOORCONFLICTRELATIVEMISSIONBAKEDDATA_METHOD_2_017942FFCECC9BC6_OFFSET UNITYSDK_OFFSET(0x18BDABA0)
-#define RPG_GAMECORE_PERFLOORCONFLICTRELATIVEMISSIONBAKEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDACE0)
+#define RPG_GAMECORE_PERFLOORCONFLICTRELATIVEMISSIONBAKEDDATA_METHOD_2_1829A6E5018D80CC_OFFSET UNITYSDK_OFFSET(0x199ECE50)
+#define RPG_GAMECORE_PERFLOORCONFLICTRELATIVEMISSIONBAKEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x199ECF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerFloorConflictRelativeMissionBakedData_TypeDefinitionIndex = 16260;
+	inline static constexpr unsigned int PerFloorConflictRelativeMissionBakedData_TypeDefinitionIndex = 16294;
 
 	class PerFloorConflictRelativeMissionBakedData : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFLOORCONFLICTRELATIVEMISSIONBAKEDDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_017942FFCECC9BC6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerFloorConflictRelativeMissionBakedData*& a2)
+		static ::System::Void Method_2_1829A6E5018D80CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerFloorConflictRelativeMissionBakedData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerFloorConflictRelativeMissionBakedData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFLOORCONFLICTRELATIVEMISSIONBAKEDDATA_METHOD_2_017942FFCECC9BC6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerFloorConflictRelativeMissionBakedData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFLOORCONFLICTRELATIVEMISSIONBAKEDDATA_METHOD_2_1829A6E5018D80CC_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,23 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_24F009C622EAE626_6;
-class Class_1_455CA3FD2409BEB7_22;
-class Class_1_455CA3FD2409BEB7_23;
+class Class_1_455CA3FD2409BEB7_11;
+class Class_1_7BF8FDF00F218876_33;
 namespace RPG::Client { class RogueTalentDataItem; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETALENTDATA_GETTALENTDATAITEMLIST_OFFSET UNITYSDK_OFFSET(0xB0999A0)
-#define RPG_CLIENT_ROGUETALENTDATA_UPDATETALENTBYACTIVATEDRSP_OFFSET UNITYSDK_OFFSET(0xB099930)
-#define RPG_CLIENT_ROGUETALENTDATA_UPDATETALENTSRVDATA_OFFSET UNITYSDK_OFFSET(0xB0993F0)
-#define RPG_CLIENT_ROGUETALENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB099D60)
-#define RPG_CLIENT_ROGUETALENTDATA__GETTALENTDATAITEM_OFFSET UNITYSDK_OFFSET(0xB099A80)
-#define RPG_CLIENT_ROGUETALENTDATA__INITROGUETALENTDATAITEMS_OFFSET UNITYSDK_OFFSET(0xB099470)
-#define RPG_CLIENT_ROGUETALENTDATA__UPDATEDATAITEMS_OFFSET UNITYSDK_OFFSET(0xB0995E0)
+#define RPG_CLIENT_ROGUETALENTDATA_GETTALENTDATAITEMLIST_OFFSET UNITYSDK_OFFSET(0xC7EA700)
+#define RPG_CLIENT_ROGUETALENTDATA_UPDATETALENTBYACTIVATEDRSP_OFFSET UNITYSDK_OFFSET(0xC7EA690)
+#define RPG_CLIENT_ROGUETALENTDATA_UPDATETALENTSRVDATA_OFFSET UNITYSDK_OFFSET(0xC7EA0A0)
+#define RPG_CLIENT_ROGUETALENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC7EAB70)
+#define RPG_CLIENT_ROGUETALENTDATA__GETTALENTDATAITEM_OFFSET UNITYSDK_OFFSET(0xC7EA7E0)
+#define RPG_CLIENT_ROGUETALENTDATA__INITROGUETALENTDATAITEMS_OFFSET UNITYSDK_OFFSET(0xC7EA120)
+#define RPG_CLIENT_ROGUETALENTDATA__UPDATEDATAITEMS_OFFSET UNITYSDK_OFFSET(0xC7EA330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTalentData_TypeDefinitionIndex = 62173;
+	inline static constexpr unsigned int RogueTalentData_TypeDefinitionIndex = 63106;
 
 	class RogueTalentData : public ::System::Object
 	{
@@ -32,14 +32,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void UpdateTalentSrvData(::Class_1_455CA3FD2409BEB7_22* rsp)
+		::System::Void UpdateTalentSrvData(::Class_1_455CA3FD2409BEB7_11* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_455CA3FD2409BEB7_22*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATA_UPDATETALENTSRVDATA_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::Class_1_455CA3FD2409BEB7_11*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATA_UPDATETALENTSRVDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateTalentByActivatedRsp(::Class_1_455CA3FD2409BEB7_23* rsp)
+		::System::Void UpdateTalentByActivatedRsp(::Class_1_7BF8FDF00F218876_33* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_455CA3FD2409BEB7_23*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATA_UPDATETALENTBYACTIVATEDRSP_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::Class_1_7BF8FDF00F218876_33*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATA_UPDATETALENTBYACTIVATEDRSP_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::RogueTalentDataItem*>* GetTalentDataItemList()
@@ -52,14 +52,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATA__INITROGUETALENTDATAITEMS_OFFSET))(this);
 		}
 
-		::System::Void _UpdateDataItems(::System::Collections::Generic::IEnumerable_1<::Class_1_24F009C622EAE626_6*>* srvTalentList)
+		::System::Void _UpdateDataItems(::System::Collections::Generic::IEnumerable_1<::Class_1_24F009C622EAE626_6*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_24F009C622EAE626_6*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATA__UPDATEDATAITEMS_OFFSET))(this, srvTalentList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_24F009C622EAE626_6*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATA__UPDATEDATAITEMS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RogueTalentDataItem* _GetTalentDataItem(::System::UInt32 talentID)
+		::RPG::Client::RogueTalentDataItem* _GetTalentDataItem(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::RogueTalentDataItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATA__GETTALENTDATAITEM_OFFSET))(this, talentID);
+			return ((::RPG::Client::RogueTalentDataItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETALENTDATA__GETTALENTDATAITEM_OFFSET))(this, a1);
 		}
 	};
 }

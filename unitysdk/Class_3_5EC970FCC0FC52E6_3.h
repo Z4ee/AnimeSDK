@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/CakeRaceCoreBaseSelector_1.h"
 
-class Class_2_3ABA989E5AECB261;
+class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceBaseTargetSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_3_5EC970FCC0FC52E6_3_METHOD_3_4DB5E71CDBC1B075_OFFSET UNITYSDK_OFFSET(0x17C3EEF0)
-#define CLASS_3_5EC970FCC0FC52E6_3_METHOD_3_F3D754F118808121_OFFSET UNITYSDK_OFFSET(0x17C3EFC0)
-#define CLASS_3_5EC970FCC0FC52E6_3__CTOR_OFFSET UNITYSDK_OFFSET(0x17C3EF90)
+#define CLASS_3_5EC970FCC0FC52E6_3_METHOD_3_4DB5E71CDBC1B075_OFFSET UNITYSDK_OFFSET(0x18A36CE0)
+#define CLASS_3_5EC970FCC0FC52E6_3_METHOD_3_A10BDEA19BBBA8CC_OFFSET UNITYSDK_OFFSET(0x18A36DB0)
+#define CLASS_3_5EC970FCC0FC52E6_3__CTOR_OFFSET UNITYSDK_OFFSET(0x18A36D80)
 
-inline static constexpr unsigned int Class_3_5EC970FCC0FC52E6_3_TypeDefinitionIndex = 34822;
+inline static constexpr unsigned int Class_3_5EC970FCC0FC52E6_3_TypeDefinitionIndex = 35105;
 
 class Class_3_5EC970FCC0FC52E6_3 : public ::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceCoreBaseSelector_1<::RPG::GameCore::CakeRaceBaseTargetSelectorConfig*>
 {
@@ -26,8 +26,8 @@ public:
 		return ((::Class_3_5EC970FCC0FC52E6_3*(*)(::System::Int32, ::RPG::GameCore::CakeRaceBaseTargetSelectorConfig*, ::Class_2_F3C45F1FC7349B6E*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_5EC970FCC0FC52E6_3_METHOD_3_4DB5E71CDBC1B075_OFFSET))(a1, a2, a3, a4);
 	}
 
-	::System::Collections::Generic::IReadOnlyList_1<::Class_2_3ABA989E5AECB261*>* Method_3_F3D754F118808121()
+	::System::Collections::Generic::IReadOnlyList_1<::Class_2_21AD365C113DC484*>* Method_3_A10BDEA19BBBA8CC()
 	{
-		return ((::System::Collections::Generic::IReadOnlyList_1<::Class_2_3ABA989E5AECB261*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_5EC970FCC0FC52E6_3_METHOD_3_F3D754F118808121_OFFSET))(this);
+		return ((::System::Collections::Generic::IReadOnlyList_1<::Class_2_21AD365C113DC484*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_5EC970FCC0FC52E6_3_METHOD_3_A10BDEA19BBBA8CC_OFFSET))(this);
 	}
 };

@@ -5,18 +5,18 @@
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 
-#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x12C51880)
+#define ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x146FF510)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextStillHasRetainedEntitiesException_TypeDefinitionIndex = 9815;
+	inline static constexpr unsigned int ContextStillHasRetainedEntitiesException_TypeDefinitionIndex = 9642;
 
 	class ContextStillHasRetainedEntitiesException : public ::Entitas::EntitasException
 	{
 	public:
-		::System::Void _ctor(::Entitas::IContext* context, ::Il2CppArray<::Entitas::IEntity*>* entities)
+		::System::Void _ctor(::Entitas::IContext* a1, ::Il2CppArray<::Entitas::IEntity*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Il2CppArray<::Entitas::IEntity*>*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION__CTOR_OFFSET))(this, context, entities);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Il2CppArray<::Entitas::IEntity*>*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTSTILLHASRETAINEDENTITIESEXCEPTION__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0x11BDBA70)
-#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_A0433AB55CC45192_OFFSET UNITYSDK_OFFSET(0x11BDC080)
-#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_E99336970DAC7BF0_OFFSET UNITYSDK_OFFSET(0x11BDC100)
-#define CLASS_2_95C4D8408AEA5CE5__CTOR_OFFSET UNITYSDK_OFFSET(0x11BDB330)
+#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_0F30679B05E70FC1_OFFSET UNITYSDK_OFFSET(0xBF6F560)
+#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0xBF6EF90)
+#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_E5563473F4AA5B3F_OFFSET UNITYSDK_OFFSET(0xBF6F5E0)
+#define CLASS_2_95C4D8408AEA5CE5__CTOR_OFFSET UNITYSDK_OFFSET(0xBF6E880)
 
-inline static constexpr unsigned int Class_2_95C4D8408AEA5CE5_TypeDefinitionIndex = 72655;
+inline static constexpr unsigned int Class_2_95C4D8408AEA5CE5_TypeDefinitionIndex = 74478;
 
 class Class_2_95C4D8408AEA5CE5 : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
-	::System::String* Field_2_1; // 0x20
-	::System::String* Field_2_0; // 0x28
+	::System::String* Field_2_0; // 0x20
+	::System::String* Field_2_1; // 0x28
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)
 	{
@@ -28,13 +28,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_95C4D8408AEA5CE5_METHOD_2_35942D7A8A374AB0_OFFSET))(this);
 	}
 
-	::System::Boolean Method_2_A0433AB55CC45192()
+	::System::Boolean Method_2_0F30679B05E70FC1()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_95C4D8408AEA5CE5_METHOD_2_A0433AB55CC45192_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_95C4D8408AEA5CE5_METHOD_2_0F30679B05E70FC1_OFFSET))(this);
 	}
 
-	::System::Int32 Method_2_E99336970DAC7BF0()
+	::System::Int32 Method_2_E5563473F4AA5B3F()
 	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_95C4D8408AEA5CE5_METHOD_2_E99336970DAC7BF0_OFFSET))(this);
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_95C4D8408AEA5CE5_METHOD_2_E5563473F4AA5B3F_OFFSET))(this);
 	}
 };

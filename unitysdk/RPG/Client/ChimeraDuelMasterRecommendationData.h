@@ -7,25 +7,25 @@ namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; 
 namespace RPG::GameCore { class ChimeraDuelRecommendationRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_CONTAINS_OFFSET UNITYSDK_OFFSET(0xA01A5D0)
-#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_EXPORTDISPLAYDATA_OFFSET UNITYSDK_OFFSET(0xA01A6A0)
-#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_GET_SLOTCOUNT_OFFSET UNITYSDK_OFFSET(0xA01A4E0)
-#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xA01A480)
-#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_SYSTEM_ICOMPARABLE_RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA__COMPARETO_OFFSET UNITYSDK_OFFSET(0xA01A5A0)
-#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA01A590)
+#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_CONTAINS_OFFSET UNITYSDK_OFFSET(0xB6975F0)
+#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_EXPORTDISPLAYDATA_OFFSET UNITYSDK_OFFSET(0xB6976C0)
+#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_GET_SLOTCOUNT_OFFSET UNITYSDK_OFFSET(0xB697500)
+#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xB6974A0)
+#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_SYSTEM_ICOMPARABLE_RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA__COMPARETO_OFFSET UNITYSDK_OFFSET(0xB6975C0)
+#define RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB6975B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelMasterRecommendationData_TypeDefinitionIndex = 58383;
+	inline static constexpr unsigned int ChimeraDuelMasterRecommendationData_TypeDefinitionIndex = 59313;
 
 	class ChimeraDuelMasterRecommendationData : public ::System::Object
 	{
 	public:
 		::System::UInt32 ID; // 0x10
 
-		::System::Void _ctor(::System::UInt32 id)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA__CTOR_OFFSET))(this, id);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ChimeraDuelRecommendationRow* get__Row()
@@ -38,14 +38,14 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_GET_SLOTCOUNT_OFFSET))(this);
 		}
 
-		::System::Int32 System_IComparable_RPG_Client_ChimeraDuelMasterRecommendationData__CompareTo(::RPG::Client::ChimeraDuelMasterRecommendationData* other)
+		::System::Int32 System_IComparable_RPG_Client_ChimeraDuelMasterRecommendationData__CompareTo(::RPG::Client::ChimeraDuelMasterRecommendationData* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChimeraDuelMasterRecommendationData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_SYSTEM_ICOMPARABLE_RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA__COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChimeraDuelMasterRecommendationData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_SYSTEM_ICOMPARABLE_RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA__COMPARETO_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Contains(::RPG::Client::ChimeraDuelChimeraData* chimera)
+		::System::Boolean Contains(::RPG::Client::ChimeraDuelChimeraData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraDuelChimeraData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_CONTAINS_OFFSET))(this, chimera);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraDuelChimeraData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMASTERRECOMMENDATIONDATA_CONTAINS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* ExportDisplayData()

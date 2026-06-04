@@ -4,18 +4,18 @@
 
 namespace MessagePack { class IFormatterResolver; }
 
-#define MESSAGEPACK_INTERNAL_STANDARDRESOLVERHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1735E640)
+#define MESSAGEPACK_INTERNAL_STANDARDRESOLVERHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1816B940)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int StandardResolverHelper_TypeDefinitionIndex = 9395;
+	inline static constexpr unsigned int StandardResolverHelper_TypeDefinitionIndex = 7298;
 
 	class StandardResolverHelper : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::MessagePack::IFormatterResolver*>** StaticGet_DefaultResolvers()
 		{
-			return (::Il2CppArray<::MessagePack::IFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(StandardResolverHelper_TypeDefinitionIndex)->GetStaticField(0x43850);
+			return (::Il2CppArray<::MessagePack::IFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(StandardResolverHelper_TypeDefinitionIndex)->GetStaticField(0x9A70);
 		}
 
 		static ::System::Void _cctor()

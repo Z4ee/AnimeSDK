@@ -7,13 +7,13 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17327620)
-#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x17327610)
-#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x173262C0)
+#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x18135F60)
+#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x18135F50)
+#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18134BE0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int WrapModeFormatter_TypeDefinitionIndex = 9991;
+	inline static constexpr unsigned int WrapModeFormatter_TypeDefinitionIndex = 9818;
 
 	class WrapModeFormatter : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace MessagePack::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_WRAPMODEFORMATTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Serialize(::MessagePack::MessagePackWriter& writer, ::UnityEngine::WrapMode value, ::MessagePack::MessagePackSerializerOptions* options)
+		::System::Void Serialize(::MessagePack::MessagePackWriter& a1, ::UnityEngine::WrapMode a2, ::MessagePack::MessagePackSerializerOptions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::WrapMode, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_WRAPMODEFORMATTER_SERIALIZE_OFFSET))(this, writer, value, options);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::WrapMode, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_WRAPMODEFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::WrapMode Deserialize(::MessagePack::MessagePackReader& reader, ::MessagePack::MessagePackSerializerOptions* options)
+		::UnityEngine::WrapMode Deserialize(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackSerializerOptions* a2)
 		{
-			return ((::UnityEngine::WrapMode(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_WRAPMODEFORMATTER_DESERIALIZE_OFFSET))(this, reader, options);
+			return ((::UnityEngine::WrapMode(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_WRAPMODEFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
 	};
 }

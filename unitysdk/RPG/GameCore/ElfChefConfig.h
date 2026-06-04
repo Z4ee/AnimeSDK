@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ElfFoodEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFCHEFCONFIG_METHOD_2_B61EE8BEEFC32242_OFFSET UNITYSDK_OFFSET(0x1889A710)
-#define RPG_GAMECORE_ELFCHEFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1889A8E0)
+#define RPG_GAMECORE_ELFCHEFCONFIG_METHOD_2_07E04B02BEE1994D_OFFSET UNITYSDK_OFFSET(0x196D8EE0)
+#define RPG_GAMECORE_ELFCHEFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196D90B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfChefConfig_TypeDefinitionIndex = 17539;
+	inline static constexpr unsigned int ElfChefConfig_TypeDefinitionIndex = 17565;
 
 	class ElfChefConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFCHEFCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B61EE8BEEFC32242(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfChefConfig*& a2)
+		static ::System::Void Method_2_07E04B02BEE1994D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfChefConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfChefConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFCHEFCONFIG_METHOD_2_B61EE8BEEFC32242_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfChefConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFCHEFCONFIG_METHOD_2_07E04B02BEE1994D_OFFSET))(a1, a2);
 		}
 	};
 }

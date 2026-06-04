@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAF62730)
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS66_0__SHOWEXITUI_B__0_OFFSET UNITYSDK_OFFSET(0xAF62740)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6A7D70)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS66_0__SHOWEXITUI_B__0_OFFSET UNITYSDK_OFFSET(0xC6A7D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass66_0_TypeDefinitionIndex = 56339;
+	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass66_0_TypeDefinitionIndex = 57101;
 
 	class RPGSDKAccountManager___c__DisplayClass66_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS66_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ShowExitUI_b__0(::System::String* rsp)
+		::System::Void _ShowExitUI_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS66_0__SHOWEXITUI_B__0_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS66_0__SHOWEXITUI_B__0_OFFSET))(this, a1);
 		}
 	};
 }

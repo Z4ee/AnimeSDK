@@ -6,14 +6,14 @@
 namespace RPG::Client { class FateGameMasterTalkInfoItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_GETRANDOMITEM_OFFSET UNITYSDK_OFFSET(0xA346390)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_GET_MAXTALKCOUNTINOVERVIEWPAGE_OFFSET UNITYSDK_OFFSET(0xA346B00)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_INIT_OFFSET UNITYSDK_OFFSET(0xA33BD20)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA33BAB0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_GETRANDOMITEM_OFFSET UNITYSDK_OFFSET(0xB996C80)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_GET_MAXTALKCOUNTINOVERVIEWPAGE_OFFSET UNITYSDK_OFFSET(0xB9974D0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFO_INIT_OFFSET UNITYSDK_OFFSET(0xB98D220)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB98D0F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterTalkInfo_TypeDefinitionIndex = 58970;
+	inline static constexpr unsigned int FateGameMasterTalkInfo_TypeDefinitionIndex = 59900;
 
 	class FateGameMasterTalkInfo : public ::System::Object
 	{
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERTALKINFO_INIT_OFFSET))(this);
 		}
 
-		::RPG::Client::FateGameMasterTalkInfoItem* GetRandomItem(::RPG::Client::FateGameMasterTalkRandomContext ctx)
+		::RPG::Client::FateGameMasterTalkInfoItem* GetRandomItem(::RPG::Client::FateGameMasterTalkRandomContext a1)
 		{
-			return ((::RPG::Client::FateGameMasterTalkInfoItem*(*)(::PVOID, ::RPG::Client::FateGameMasterTalkRandomContext))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERTALKINFO_GETRANDOMITEM_OFFSET))(this, ctx);
+			return ((::RPG::Client::FateGameMasterTalkInfoItem*(*)(::PVOID, ::RPG::Client::FateGameMasterTalkRandomContext))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERTALKINFO_GETRANDOMITEM_OFFSET))(this, a1);
 		}
 
 		static ::System::UInt32 get_MaxTalkCountInOverviewPage()

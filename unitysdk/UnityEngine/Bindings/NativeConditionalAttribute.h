@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_CONDITION_OFFSET UNITYSDK_OFFSET(0x1A4F3410)
-#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1A4F3420)
-#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F3430)
+#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_CONDITION_OFFSET UNITYSDK_OFFSET(0x1B340290)
+#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1B3402A0)
+#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3402B0)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int NativeConditionalAttribute_TypeDefinitionIndex = 3700;
+	inline static constexpr unsigned int NativeConditionalAttribute_TypeDefinitionIndex = 3707;
 
 	class NativeConditionalAttribute : public ::System::Attribute
 	{
@@ -18,19 +18,19 @@ namespace UnityEngine::Bindings
 		::System::String* _Condition_k__BackingField; // 0x10
 		::System::Boolean _Enabled_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::String* condition)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE__CTOR_OFFSET))(this, condition);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Condition(::System::String* value)
+		::System::Void set_Condition(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_CONDITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_CONDITION_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Enabled(::System::Boolean value)
+		::System::Void set_Enabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_ENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_ENABLED_OFFSET))(this, a1);
 		}
 	};
 }

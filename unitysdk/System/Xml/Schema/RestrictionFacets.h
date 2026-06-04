@@ -14,17 +14,17 @@ namespace System::Xml::Schema
 	{
 	public:
 		::System::Collections::ArrayList* Patterns; // 0x10
-		::System::Object* MinInclusive; // 0x18
-		::System::Object* MinExclusive; // 0x20
+		::System::Object* MaxExclusive; // 0x18
+		::System::Collections::ArrayList* Enumeration; // 0x20
 		::System::Object* MaxInclusive; // 0x28
-		::System::Object* MaxExclusive; // 0x30
-		::System::Collections::ArrayList* Enumeration; // 0x38
-		::System::Xml::Schema::XmlSchemaWhiteSpace WhiteSpace; // 0x40
-		::System::Int32 Length; // 0x44
-		::System::Int32 MinLength; // 0x48
-		::System::Xml::Schema::RestrictionFlags Flags; // 0x4C
-		::System::Int32 MaxLength; // 0x50
-		::System::Int32 FractionDigits; // 0x54
-		::System::Int32 TotalDigits; // 0x58
+		::System::Object* MinInclusive; // 0x30
+		::System::Object* MinExclusive; // 0x38
+		::System::Int32 MinLength; // 0x40
+		::System::Int32 MaxLength; // 0x44
+		::System::Xml::Schema::RestrictionFlags Flags; // 0x48
+		::System::Int32 TotalDigits; // 0x4C
+		::System::Int32 FractionDigits; // 0x50
+		::System::Int32 Length; // 0x54
+		::System::Xml::Schema::XmlSchemaWhiteSpace WhiteSpace; // 0x58
 	};
 }

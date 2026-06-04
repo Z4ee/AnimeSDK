@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EraRegion; }
 
-#define RPG_GAMECORE_ERAFLIPPERCONFIG_METHOD_2_911409AB89942B73_OFFSET UNITYSDK_OFFSET(0x188B7720)
-#define RPG_GAMECORE_ERAFLIPPERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188B78E0)
+#define RPG_GAMECORE_ERAFLIPPERCONFIG_METHOD_2_8ACF04680296B79E_OFFSET UNITYSDK_OFFSET(0x196F5110)
+#define RPG_GAMECORE_ERAFLIPPERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196F52D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EraFlipperConfig_TypeDefinitionIndex = 15738;
+	inline static constexpr unsigned int EraFlipperConfig_TypeDefinitionIndex = 15793;
 
 	class EraFlipperConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ERAFLIPPERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_911409AB89942B73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EraFlipperConfig*& a2)
+		static ::System::Void Method_2_8ACF04680296B79E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EraFlipperConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EraFlipperConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ERAFLIPPERCONFIG_METHOD_2_911409AB89942B73_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EraFlipperConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ERAFLIPPERCONFIG_METHOD_2_8ACF04680296B79E_OFFSET))(a1, a2);
 		}
 	};
 }

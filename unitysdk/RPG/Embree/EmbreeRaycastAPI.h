@@ -11,20 +11,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_EMBREE_EMBREERAYCASTAPI_ADDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x8DEBFF0)
-#define RPG_EMBREE_EMBREERAYCASTAPI_ADDMESH_OFFSET UNITYSDK_OFFSET(0x8DEBEF0)
-#define RPG_EMBREE_EMBREERAYCASTAPI_CALCULATEFRONTFACE_OFFSET UNITYSDK_OFFSET(0x8DECF70)
-#define RPG_EMBREE_EMBREERAYCASTAPI_COMMITSCENE_OFFSET UNITYSDK_OFFSET(0x8DEC2C0)
-#define RPG_EMBREE_EMBREERAYCASTAPI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8DED890)
-#define RPG_EMBREE_EMBREERAYCASTAPI_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x8DEBBF0)
-#define RPG_EMBREE_EMBREERAYCASTAPI_RAYCASTBATCHALL_OFFSET UNITYSDK_OFFSET(0x8DECFA0)
-#define RPG_EMBREE_EMBREERAYCASTAPI_RAYCASTBATCH_OFFSET UNITYSDK_OFFSET(0x8DEC520)
-#define RPG_EMBREE_EMBREERAYCASTAPI_RAYCAST_OFFSET UNITYSDK_OFFSET(0x8DEC410)
-#define RPG_EMBREE_EMBREERAYCASTAPI__CTOR_OFFSET UNITYSDK_OFFSET(0x8DED8C0)
+#define RPG_EMBREE_EMBREERAYCASTAPI_ADDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xA238C30)
+#define RPG_EMBREE_EMBREERAYCASTAPI_ADDMESH_OFFSET UNITYSDK_OFFSET(0xA238B30)
+#define RPG_EMBREE_EMBREERAYCASTAPI_CALCULATEFRONTFACE_OFFSET UNITYSDK_OFFSET(0xA239C10)
+#define RPG_EMBREE_EMBREERAYCASTAPI_COMMITSCENE_OFFSET UNITYSDK_OFFSET(0xA238EF0)
+#define RPG_EMBREE_EMBREERAYCASTAPI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA23A410)
+#define RPG_EMBREE_EMBREERAYCASTAPI_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xA238840)
+#define RPG_EMBREE_EMBREERAYCASTAPI_RAYCASTBATCHALL_OFFSET UNITYSDK_OFFSET(0xA239C40)
+#define RPG_EMBREE_EMBREERAYCASTAPI_RAYCASTBATCH_OFFSET UNITYSDK_OFFSET(0xA239160)
+#define RPG_EMBREE_EMBREERAYCASTAPI_RAYCAST_OFFSET UNITYSDK_OFFSET(0xA239040)
+#define RPG_EMBREE_EMBREERAYCASTAPI__CTOR_OFFSET UNITYSDK_OFFSET(0xA23A440)
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeRaycastAPI_TypeDefinitionIndex = 43824;
+	inline static constexpr unsigned int EmbreeRaycastAPI_TypeDefinitionIndex = 44366;
 
 	class EmbreeRaycastAPI : public ::System::Object
 	{
@@ -42,14 +42,14 @@ namespace RPG::Embree
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_INITIALIZE_OFFSET))(this);
 		}
 
-		::System::UInt32 AddMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 transform)
+		::System::UInt32 AddMesh(::UnityEngine::Mesh* a1, ::UnityEngine::Matrix4x4 a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_ADDMESH_OFFSET))(this, mesh, transform);
+			return ((::System::UInt32(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_ADDMESH_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 AddGameObject(::UnityEngine::GameObject* obj)
+		::System::UInt32 AddGameObject(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_ADDGAMEOBJECT_OFFSET))(this, obj);
+			return ((::System::UInt32(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_ADDGAMEOBJECT_OFFSET))(this, a1);
 		}
 
 		::System::Void CommitScene()
@@ -57,24 +57,24 @@ namespace RPG::Embree
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_COMMITSCENE_OFFSET))(this);
 		}
 
-		::RPG::Embree::EmbreeRaycastAPI_RayHitResult Raycast(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, ::System::Single maxDistance)
+		::RPG::Embree::EmbreeRaycastAPI_RayHitResult Raycast(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::RPG::Embree::EmbreeRaycastAPI_RayHitResult(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_RAYCAST_OFFSET))(this, origin, direction, maxDistance);
+			return ((::RPG::Embree::EmbreeRaycastAPI_RayHitResult(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_RAYCAST_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Embree::EmbreeRaycastAPI_RayHitResult>* RaycastBatch(::Il2CppArray<::RPG::Embree::EmbreeRaycastAPI_Ray>* rays)
+		::System::Collections::Generic::List_1<::RPG::Embree::EmbreeRaycastAPI_RayHitResult>* RaycastBatch(::Il2CppArray<::RPG::Embree::EmbreeRaycastAPI_Ray>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Embree::EmbreeRaycastAPI_RayHitResult>*(*)(::PVOID, ::Il2CppArray<::RPG::Embree::EmbreeRaycastAPI_Ray>*))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_RAYCASTBATCH_OFFSET))(this, rays);
+			return ((::System::Collections::Generic::List_1<::RPG::Embree::EmbreeRaycastAPI_RayHitResult>*(*)(::PVOID, ::Il2CppArray<::RPG::Embree::EmbreeRaycastAPI_Ray>*))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_RAYCASTBATCH_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Embree::EmbreeRaycastAPI_RayHitResult>*>* RaycastBatchAll(::Il2CppArray<::RPG::Embree::EmbreeRaycastAPI_Ray>* rays, ::System::Int32 maxHitsPerRay)
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Embree::EmbreeRaycastAPI_RayHitResult>*>* RaycastBatchAll(::Il2CppArray<::RPG::Embree::EmbreeRaycastAPI_Ray>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Embree::EmbreeRaycastAPI_RayHitResult>*>*(*)(::PVOID, ::Il2CppArray<::RPG::Embree::EmbreeRaycastAPI_Ray>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_RAYCASTBATCHALL_OFFSET))(this, rays, maxHitsPerRay);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Embree::EmbreeRaycastAPI_RayHitResult>*>*(*)(::PVOID, ::Il2CppArray<::RPG::Embree::EmbreeRaycastAPI_Ray>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_RAYCASTBATCHALL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CalculateFrontFace(::UnityEngine::Vector3 rayDirection, ::UnityEngine::Vector3 normal)
+		::System::Boolean CalculateFrontFace(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_CALCULATEFRONTFACE_OFFSET))(this, rayDirection, normal);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_EMBREE_EMBREERAYCASTAPI_CALCULATEFRONTFACE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()

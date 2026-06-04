@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillReadyType_TypeDefinitionIndex = 66334;
+	inline static constexpr unsigned int SkillReadyType_TypeDefinitionIndex = 67273;
 
 	enum class SkillReadyType : ::System::Int32
 	{

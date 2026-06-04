@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class RectTransform; }
 
-#define SRDEBUGGER_PINNEDUICANVASCREATED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E70980)
-#define SRDEBUGGER_PINNEDUICANVASCREATED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E709B0)
-#define SRDEBUGGER_PINNEDUICANVASCREATED_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E70430)
-#define SRDEBUGGER_PINNEDUICANVASCREATED__CTOR_OFFSET UNITYSDK_OFFSET(0x19E70410)
+#define SRDEBUGGER_PINNEDUICANVASCREATED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ACE6E80)
+#define SRDEBUGGER_PINNEDUICANVASCREATED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ACE6EB0)
+#define SRDEBUGGER_PINNEDUICANVASCREATED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ACE6E70)
+#define SRDEBUGGER_PINNEDUICANVASCREATED__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE6E00)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int PinnedUiCanvasCreated_TypeDefinitionIndex = 35333;
+	inline static constexpr unsigned int PinnedUiCanvasCreated_TypeDefinitionIndex = 35633;
 
 	class PinnedUiCanvasCreated : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_PINNEDUICANVASCREATED__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_PINNEDUICANVASCREATED__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::RectTransform* canvasTransform)
+		::System::Void Invoke(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + SRDEBUGGER_PINNEDUICANVASCREATED_INVOKE_OFFSET))(this, canvasTransform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + SRDEBUGGER_PINNEDUICANVASCREATED_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::RectTransform* canvasTransform, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::RectTransform* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::RectTransform*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_PINNEDUICANVASCREATED_BEGININVOKE_OFFSET))(this, canvasTransform, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::RectTransform*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_PINNEDUICANVASCREATED_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_PINNEDUICANVASCREATED_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_PINNEDUICANVASCREATED_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::Lobby { class CopyLobbyDetailsHandleOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x480B0)
-#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x48040)
-#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x47EC0)
-#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x47F70)
-#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x48030)
+#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x4C750)
+#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4C6D0)
+#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x4C550)
+#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x4C600)
+#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x4C6C0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int CopyLobbyDetailsHandleOptionsInternal_TypeDefinitionIndex = 41836;
+	inline static constexpr unsigned int CopyLobbyDetailsHandleOptionsInternal_TypeDefinitionIndex = 42639;
 
 	struct alignas(8) CopyLobbyDetailsHandleOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::Lobby
 		::System::IntPtr m_LobbyId; // 0x18
 		::System::IntPtr m_LocalUserId; // 0x20
 
-		::System::Void set_LobbyId(::System::String* value)
+		::System::Void set_LobbyId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

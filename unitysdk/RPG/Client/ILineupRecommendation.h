@@ -7,7 +7,7 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ILineupRecommendation_TypeDefinitionIndex = 62794;
+	inline static constexpr unsigned int ILineupRecommendation_TypeDefinitionIndex = 63728;
 
 	class ILineupRecommendation
 	{

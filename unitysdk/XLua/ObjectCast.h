@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_OBJECTCAST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1123C750)
-#define XLUA_OBJECTCAST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1123C7D0)
-#define XLUA_OBJECTCAST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1123C3C0)
-#define XLUA_OBJECTCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1123C3A0)
+#define XLUA_OBJECTCAST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E9D570)
+#define XLUA_OBJECTCAST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E9D5F0)
+#define XLUA_OBJECTCAST_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E9D550)
+#define XLUA_OBJECTCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x12E9D4E0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCast_TypeDefinitionIndex = 46423;
+	inline static constexpr unsigned int ObjectCast_TypeDefinitionIndex = 47013;
 
 	class ObjectCast : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OBJECTCAST__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OBJECTCAST__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* Invoke(::System::IntPtr L, ::System::Int32 idx, ::System::Object* target)
+		::System::Object* Invoke(::System::IntPtr a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCAST_INVOKE_OFFSET))(this, L, idx, target);
+			return ((::System::Object*(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCAST_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::IntPtr L, ::System::Int32 idx, ::System::Object* target, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::IntPtr a1, ::System::Int32 a2, ::System::Object* a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCAST_BEGININVOKE_OFFSET))(this, L, idx, target, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCAST_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Object* EndInvoke(::System::IAsyncResult* result)
+		::System::Object* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCAST_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Object*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCAST_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

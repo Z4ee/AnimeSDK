@@ -5,23 +5,23 @@
 namespace RPG::Client { class CakeCatchFreeAreaPosition; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x9ECC060)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_FRAMESLOTS_OFFSET UNITYSDK_OFFSET(0x9ECBEE0)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_FREEAREACOUNT_OFFSET UNITYSDK_OFFSET(0x9ECC0B0)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_FREEAREAPOSITIONS_OFFSET UNITYSDK_OFFSET(0x9ECBF00)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_REMAININGCOUNT_OFFSET UNITYSDK_OFFSET(0x9ECC100)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x9ECBEC0)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_USEDCOUNT_OFFSET UNITYSDK_OFFSET(0x9ECBDD0)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_ISPLACEDINFRAME_OFFSET UNITYSDK_OFFSET(0x9ECBF20)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_ISPLACEDINFREEAREA_OFFSET UNITYSDK_OFFSET(0x9ECBF80)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_FRAMESLOTS_OFFSET UNITYSDK_OFFSET(0x9ECBEF0)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_FREEAREAPOSITIONS_OFFSET UNITYSDK_OFFSET(0x9ECBF10)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x9ECBED0)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x9ECB500)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0xB467270)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_FRAMESLOTS_OFFSET UNITYSDK_OFFSET(0xB467070)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_FREEAREACOUNT_OFFSET UNITYSDK_OFFSET(0xB4672C0)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_FREEAREAPOSITIONS_OFFSET UNITYSDK_OFFSET(0xB467090)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_REMAININGCOUNT_OFFSET UNITYSDK_OFFSET(0xB467310)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0xB467050)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_USEDCOUNT_OFFSET UNITYSDK_OFFSET(0xB466F60)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_ISPLACEDINFRAME_OFFSET UNITYSDK_OFFSET(0xB4670B0)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_ISPLACEDINFREEAREA_OFFSET UNITYSDK_OFFSET(0xB467170)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_FRAMESLOTS_OFFSET UNITYSDK_OFFSET(0xB467080)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_FREEAREAPOSITIONS_OFFSET UNITYSDK_OFFSET(0xB4670A0)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0xB467060)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0xB466940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchArrangeStatus_TypeDefinitionIndex = 58010;
+	inline static constexpr unsigned int CakeCatchArrangeStatus_TypeDefinitionIndex = 58926;
 
 	class CakeCatchArrangeStatus : public ::System::Object
 	{
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_TOTALCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_TotalCount(::System::UInt32 value)
+		::System::Void set_TotalCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_TOTALCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_TOTALCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_FrameSlots()
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_FRAMESLOTS_OFFSET))(this);
 		}
 
-		::System::Void set_FrameSlots(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_FrameSlots(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_FRAMESLOTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_FRAMESLOTS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::CakeCatchFreeAreaPosition*>* get_FreeAreaPositions()
@@ -60,19 +60,19 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::CakeCatchFreeAreaPosition*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_GET_FREEAREAPOSITIONS_OFFSET))(this);
 		}
 
-		::System::Void set_FreeAreaPositions(::System::Collections::Generic::List_1<::RPG::Client::CakeCatchFreeAreaPosition*>* value)
+		::System::Void set_FreeAreaPositions(::System::Collections::Generic::List_1<::RPG::Client::CakeCatchFreeAreaPosition*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::CakeCatchFreeAreaPosition*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_FREEAREAPOSITIONS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::CakeCatchFreeAreaPosition*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_SET_FREEAREAPOSITIONS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsPlacedInFrame(::System::UInt32 slotId)
+		::System::Boolean IsPlacedInFrame(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_ISPLACEDINFRAME_OFFSET))(this, slotId);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_ISPLACEDINFRAME_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsPlacedInFreeArea(::System::UInt32 slotId, ::System::Int32 index)
+		::System::Boolean IsPlacedInFreeArea(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_ISPLACEDINFREEAREA_OFFSET))(this, slotId, index);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGESTATUS_ISPLACEDINFREEAREA_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_FrameCount()

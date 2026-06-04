@@ -5,10 +5,10 @@
 class Class_2_36A4EB0E077FE274;
 namespace UnityEngine { class Material; }
 
-#define CLASS_2_36A4EB0E077FE274___C__DISPLAYCLASS68_0__ASYNCLOADMATERIAL_B__0_OFFSET UNITYSDK_OFFSET(0x9E4D040)
-#define CLASS_2_36A4EB0E077FE274___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E4B4C0)
+#define CLASS_2_36A4EB0E077FE274___C__DISPLAYCLASS68_0__ASYNCLOADMATERIAL_B__0_OFFSET UNITYSDK_OFFSET(0x14195F60)
+#define CLASS_2_36A4EB0E077FE274___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14194340)
 
-inline static constexpr unsigned int Class_2_36A4EB0E077FE274___c__DisplayClass68_0_TypeDefinitionIndex = 52676;
+inline static constexpr unsigned int Class_2_36A4EB0E077FE274___c__DisplayClass68_0_TypeDefinitionIndex = 53376;
 
 class Class_2_36A4EB0E077FE274___c__DisplayClass68_0 : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_36A4EB0E077FE274___C__DISPLAYCLASS68_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _AsyncLoadMaterial_b__0(::UnityEngine::Material* mat)
+	::System::Void _AsyncLoadMaterial_b__0(::UnityEngine::Material* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + CLASS_2_36A4EB0E077FE274___C__DISPLAYCLASS68_0__ASYNCLOADMATERIAL_B__0_OFFSET))(this, mat);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + CLASS_2_36A4EB0E077FE274___C__DISPLAYCLASS68_0__ASYNCLOADMATERIAL_B__0_OFFSET))(this, a1);
 	}
 };

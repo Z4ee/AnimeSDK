@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelModelShadowView_EventType_TypeDefinitionIndex = 71829;
+	inline static constexpr unsigned int ChimeraDuelModelShadowView_EventType_TypeDefinitionIndex = 72851;
 
 	enum class ChimeraDuelModelShadowView_EventType : ::System::Int32
 	{

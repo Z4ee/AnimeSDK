@@ -1,16 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_102.h"
+#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-#define CLASS_2_A48F3719AA1CF200_5__CTOR_OFFSET UNITYSDK_OFFSET(0x129CF050)
+namespace RPG::GameCore { class TaskContext; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int Class_2_A48F3719AA1CF200_5_TypeDefinitionIndex = 46248;
+#define CLASS_2_A48F3719AA1CF200_5_METHOD_2_EBE2AAB1D76E90D3_OFFSET UNITYSDK_OFFSET(0xAC7C840)
+#define CLASS_2_A48F3719AA1CF200_5__CTOR_OFFSET UNITYSDK_OFFSET(0xAC7C850)
 
-class Class_2_A48F3719AA1CF200_5 : public ::Class_1_43BD383C98B4C0C5_102
+inline static constexpr unsigned int Class_2_A48F3719AA1CF200_5_TypeDefinitionIndex = 51200;
+
+class Class_2_A48F3719AA1CF200_5 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_5__CTOR_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IList_1<::Class_1_5F51D4049EA87B7B*>* Method_2_EBE2AAB1D76E90D3()
+	{
+		return ((::System::Collections::Generic::IList_1<::Class_1_5F51D4049EA87B7B*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A48F3719AA1CF200_5_METHOD_2_EBE2AAB1D76E90D3_OFFSET))(this);
 	}
 };

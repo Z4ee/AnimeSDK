@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournModifierForbidOpenDoorReason_TypeDefinitionIndex = 20973;
+	inline static constexpr unsigned int RogueTournModifierForbidOpenDoorReason_TypeDefinitionIndex = 23252;
 
 	enum class RogueTournModifierForbidOpenDoorReason : ::System::Int32
 	{

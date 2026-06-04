@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x18CEF550)
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18CEF3A0)
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x18CEF070)
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x18CEF340)
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18CEF720)
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18CEF0F0)
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18CEF760)
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18CEF940)
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18CEFCC0)
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18CF0020)
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18CEF8A0)
-#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18CEF800)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19B14B70)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19B14A00)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19B146F0)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19B149A0)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19B14D00)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19B14770)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19B14D40)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B14F10)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19B15290)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B15600)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19B14E70)
+#define RPG_GAMECORE_ROGUEBONUSEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19B14DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueBonusExcelTable_TypeDefinitionIndex = 13888;
+	inline static constexpr unsigned int RogueBonusExcelTable_TypeDefinitionIndex = 13955;
 
 	class RogueBonusExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueBonusExcelTable_TypeDefinitionIndex)->GetStaticField(0x423A0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueBonusExcelTable_TypeDefinitionIndex)->GetStaticField(0x44440);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueBonusRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueBonusRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueBonusExcelTable_TypeDefinitionIndex)->GetStaticField(0x423A8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueBonusRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueBonusExcelTable_TypeDefinitionIndex)->GetStaticField(0x44448);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueBonusExcelTable_TypeDefinitionIndex)->GetStaticField(0x423B0);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueBonusExcelTable_TypeDefinitionIndex)->GetStaticField(0xED80);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueBonusExcelTable_TypeDefinitionIndex)->GetStaticField(0x44450);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueBonusExcelTable_TypeDefinitionIndex)->GetStaticField(0xED81);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueBonusExcelTable_TypeDefinitionIndex)->GetStaticField(0xC2B0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueBonusExcelTable_TypeDefinitionIndex)->GetStaticField(0xC2B1);
 		}
 
 		static ::System::Void _cctor()
@@ -72,9 +72,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueBonusRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE_GETENUMERATOR_OFFSET))();
 		}
 
-		static ::RPG::GameCore::RogueBonusRow* GetData(::System::UInt32 BonusID)
+		static ::RPG::GameCore::RogueBonusRow* GetData(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::RogueBonusRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE_GETDATA_OFFSET))(BonusID);
+			return ((::RPG::GameCore::RogueBonusRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE_GETDATA_OFFSET))(a1);
 		}
 
 		static ::System::Boolean IsDataLoaded()
@@ -92,24 +92,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE_UNLOADDATA_OFFSET))();
 		}
 
-		static ::System::Void _LoadData(::System::String* sPath)
+		static ::System::Void _LoadData(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE__LOADDATA_OFFSET))(sPath);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE__LOADDATA_OFFSET))(a1);
 		}
 
-		static ::System::Void _LoadDataIncremential(::System::String* sPath, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* CacheMap, ::System::Boolean& NeedBake)
+		static ::System::Void _LoadDataIncremential(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean& a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(sPath, CacheMap, NeedBake);
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _AddItemFromBinary(::Class_1_7A22A3DBEEDD1F80* mByteBuf)
+		static ::System::Void _AddItemFromBinary(::Class_1_7A22A3DBEEDD1F80* a1)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(mByteBuf);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(a1);
 		}
 
-		static ::System::Void _AddItem(::RPG::GameCore::RogueBonusRow* pItem)
+		static ::System::Void _AddItem(::RPG::GameCore::RogueBonusRow* a1)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::RogueBonusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE__ADDITEM_OFFSET))(pItem);
+			return ((::System::Void(*)(::RPG::GameCore::RogueBonusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSEXCELTABLE__ADDITEM_OFFSET))(a1);
 		}
 	};
 }

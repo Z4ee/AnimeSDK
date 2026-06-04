@@ -4,32 +4,32 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_SIMPLEANIMATION_PAUSE_OFFSET UNITYSDK_OFFSET(0x1A417CA0)
-#define UNITYENGINE_SIMPLEANIMATION_PLAYCLIPBYNAME_OFFSET UNITYSDK_OFFSET(0x1A417C70)
-#define UNITYENGINE_SIMPLEANIMATION_PLAY_1_OFFSET UNITYSDK_OFFSET(0x1A417C90)
-#define UNITYENGINE_SIMPLEANIMATION_PLAY_OFFSET UNITYSDK_OFFSET(0x1A417C80)
-#define UNITYENGINE_SIMPLEANIMATION_SET_TIME_OFFSET UNITYSDK_OFFSET(0x1A417C60)
+#define UNITYENGINE_SIMPLEANIMATION_PAUSE_OFFSET UNITYSDK_OFFSET(0x1B26B6D0)
+#define UNITYENGINE_SIMPLEANIMATION_PLAYCLIPBYNAME_OFFSET UNITYSDK_OFFSET(0x1B26B6A0)
+#define UNITYENGINE_SIMPLEANIMATION_PLAY_1_OFFSET UNITYSDK_OFFSET(0x1B26B6C0)
+#define UNITYENGINE_SIMPLEANIMATION_PLAY_OFFSET UNITYSDK_OFFSET(0x1B26B6B0)
+#define UNITYENGINE_SIMPLEANIMATION_SET_TIME_OFFSET UNITYSDK_OFFSET(0x1B26B690)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SimpleAnimation_TypeDefinitionIndex = 5060;
+	inline static constexpr unsigned int SimpleAnimation_TypeDefinitionIndex = 5154;
 
 	class SimpleAnimation : public ::UnityEngine::Component
 	{
 	public:
-		::System::Void set_time(::System::Single value)
+		::System::Void set_time(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SIMPLEANIMATION_SET_TIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SIMPLEANIMATION_SET_TIME_OFFSET))(this, a1);
 		}
 
-		::System::Boolean PlayClipByName(::System::String* clipName, ::System::Single targetTime)
+		::System::Boolean PlayClipByName(::System::String* a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SIMPLEANIMATION_PLAYCLIPBYNAME_OFFSET))(this, clipName, targetTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SIMPLEANIMATION_PLAYCLIPBYNAME_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Play(::System::String* clipName, ::System::Single targetTime)
+		::System::Boolean Play(::System::String* a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SIMPLEANIMATION_PLAY_OFFSET))(this, clipName, targetTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SIMPLEANIMATION_PLAY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Play_1()

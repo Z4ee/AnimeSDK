@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournGameDivisionSettleResult_TypeDefinitionIndex = 62525;
+	inline static constexpr unsigned int IRogueTournGameDivisionSettleResult_TypeDefinitionIndex = 63458;
 
 	class IRogueTournGameDivisionSettleResult
 	{

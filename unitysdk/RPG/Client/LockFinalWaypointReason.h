@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LockFinalWaypointReason_TypeDefinitionIndex = 59102;
+	inline static constexpr unsigned int LockFinalWaypointReason_TypeDefinitionIndex = 60032;
 
 	enum class LockFinalWaypointReason : ::System::Int32
 	{

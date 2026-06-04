@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int BirdSkillChargeType_TypeDefinitionIndex = 23732;
+	inline static constexpr unsigned int BirdSkillChargeType_TypeDefinitionIndex = 23568;
 
 	enum class BirdSkillChargeType : ::System::Int32
 	{

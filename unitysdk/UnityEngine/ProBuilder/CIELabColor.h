@@ -6,14 +6,14 @@
 namespace System { class String; }
 namespace UnityEngine::ProBuilder { class XYZColor; }
 
-#define UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x1A1FB170)
-#define UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMXYZ_OFFSET UNITYSDK_OFFSET(0x1A1FAF80)
-#define UNITYENGINE_PROBUILDER_CIELABCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A1FB230)
-#define UNITYENGINE_PROBUILDER_CIELABCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1FAF70)
+#define UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x1B05FAB0)
+#define UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMXYZ_OFFSET UNITYSDK_OFFSET(0x1B05F8C0)
+#define UNITYENGINE_PROBUILDER_CIELABCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B05FB70)
+#define UNITYENGINE_PROBUILDER_CIELABCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B05F8B0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int CIELabColor_TypeDefinitionIndex = 39904;
+	inline static constexpr unsigned int CIELabColor_TypeDefinitionIndex = 40731;
 
 	class CIELabColor : public ::System::Object
 	{
@@ -22,19 +22,19 @@ namespace UnityEngine::ProBuilder
 		::System::Single a; // 0x14
 		::System::Single L; // 0x18
 
-		::System::Void _ctor(::System::Single L, ::System::Single a, ::System::Single b)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_CIELABCOLOR__CTOR_OFFSET))(this, L, a, b);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_CIELABCOLOR__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::CIELabColor* FromXYZ(::UnityEngine::ProBuilder::XYZColor* xyz)
+		static ::UnityEngine::ProBuilder::CIELabColor* FromXYZ(::UnityEngine::ProBuilder::XYZColor* a1)
 		{
-			return ((::UnityEngine::ProBuilder::CIELabColor*(*)(::UnityEngine::ProBuilder::XYZColor*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMXYZ_OFFSET))(xyz);
+			return ((::UnityEngine::ProBuilder::CIELabColor*(*)(::UnityEngine::ProBuilder::XYZColor*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMXYZ_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ProBuilder::CIELabColor* FromRGB(::UnityEngine::Color col)
+		static ::UnityEngine::ProBuilder::CIELabColor* FromRGB(::UnityEngine::Color a1)
 		{
-			return ((::UnityEngine::ProBuilder::CIELabColor*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMRGB_OFFSET))(col);
+			return ((::UnityEngine::ProBuilder::CIELabColor*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_CIELABCOLOR_FROMRGB_OFFSET))(a1);
 		}
 
 		::System::String* ToString()

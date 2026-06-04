@@ -6,14 +6,14 @@ namespace Spine { class EventData; }
 namespace Spine::Unity { class SkeletonDataAsset; }
 namespace System { class String; }
 
-#define SPINE_UNITY_EVENTDATAREFERENCEASSET_GET_EVENTDATA_OFFSET UNITYSDK_OFFSET(0x19E39FF0)
-#define SPINE_UNITY_EVENTDATAREFERENCEASSET_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x19E3A020)
-#define SPINE_UNITY_EVENTDATAREFERENCEASSET_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x19E3A1F0)
-#define SPINE_UNITY_EVENTDATAREFERENCEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3A230)
+#define SPINE_UNITY_EVENTDATAREFERENCEASSET_GET_EVENTDATA_OFFSET UNITYSDK_OFFSET(0x1ACB3F90)
+#define SPINE_UNITY_EVENTDATAREFERENCEASSET_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ACB3FC0)
+#define SPINE_UNITY_EVENTDATAREFERENCEASSET_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1ACB4150)
+#define SPINE_UNITY_EVENTDATAREFERENCEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACB4190)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int EventDataReferenceAsset_TypeDefinitionIndex = 40555;
+	inline static constexpr unsigned int EventDataReferenceAsset_TypeDefinitionIndex = 41382;
 
 	class EventDataReferenceAsset : public ::UnityEngine::ScriptableObject
 	{
@@ -38,9 +38,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_EVENTDATAREFERENCEASSET_INITIALIZE_OFFSET))(this);
 		}
 
-		static ::Spine::EventData* op_Implicit(::Spine::Unity::EventDataReferenceAsset* asset)
+		static ::Spine::EventData* op_Implicit(::Spine::Unity::EventDataReferenceAsset* a1)
 		{
-			return ((::Spine::EventData*(*)(::Spine::Unity::EventDataReferenceAsset*))((::PBYTE)hIl2Cpp + SPINE_UNITY_EVENTDATAREFERENCEASSET_OP_IMPLICIT_OFFSET))(asset);
+			return ((::Spine::EventData*(*)(::Spine::Unity::EventDataReferenceAsset*))((::PBYTE)hIl2Cpp + SPINE_UNITY_EVENTDATAREFERENCEASSET_OP_IMPLICIT_OFFSET))(a1);
 		}
 	};
 }

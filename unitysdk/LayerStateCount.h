@@ -6,15 +6,15 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define LAYERSTATECOUNT_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x90B8010)
-#define LAYERSTATECOUNT_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0x90B8250)
-#define LAYERSTATECOUNT_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x90B8100)
-#define LAYERSTATECOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x90B8310)
-#define LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x90B8320)
-#define LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0x90B8340)
-#define LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x90B8330)
+#define LAYERSTATECOUNT_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xA657D90)
+#define LAYERSTATECOUNT_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xA657FD0)
+#define LAYERSTATECOUNT_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA657E80)
+#define LAYERSTATECOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0xA658090)
+#define LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xA6580A0)
+#define LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xA6580C0)
+#define LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA6580B0)
 
-inline static constexpr unsigned int LayerStateCount_TypeDefinitionIndex = 44065;
+inline static constexpr unsigned int LayerStateCount_TypeDefinitionIndex = 44611;
 
 class LayerStateCount : public ::UnityEngine::StateMachineBehaviour
 {
@@ -45,18 +45,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + LAYERSTATECOUNT_ONSTATEEXIT_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+	::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, P0, P1, P2);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+	::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, P0, P1, P2);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void __iFixBaseProxy_OnStateExit(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+	::System::Void __iFixBaseProxy_OnStateExit(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEEXIT_OFFSET))(this, P0, P1, P2);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + LAYERSTATECOUNT___IFIXBASEPROXY_ONSTATEEXIT_OFFSET))(this, a1, a2, a3);
 	}
 };

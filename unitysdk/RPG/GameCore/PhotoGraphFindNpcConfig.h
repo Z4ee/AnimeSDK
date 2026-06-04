@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PhotoGraphFindNpc; }
 
-#define RPG_GAMECORE_PHOTOGRAPHFINDNPCCONFIG_METHOD_2_D4C62EA6FC391019_OFFSET UNITYSDK_OFFSET(0x18BF5C70)
-#define RPG_GAMECORE_PHOTOGRAPHFINDNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF5D70)
+#define RPG_GAMECORE_PHOTOGRAPHFINDNPCCONFIG_METHOD_2_8AD5B652E60BE004_OFFSET UNITYSDK_OFFSET(0x19A07A50)
+#define RPG_GAMECORE_PHOTOGRAPHFINDNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A07B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphFindNpcConfig_TypeDefinitionIndex = 20469;
+	inline static constexpr unsigned int PhotoGraphFindNpcConfig_TypeDefinitionIndex = 20408;
 
 	class PhotoGraphFindNpcConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHFINDNPCCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D4C62EA6FC391019(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphFindNpcConfig*& a2)
+		static ::System::Void Method_2_8AD5B652E60BE004(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphFindNpcConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphFindNpcConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHFINDNPCCONFIG_METHOD_2_D4C62EA6FC391019_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphFindNpcConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHFINDNPCCONFIG_METHOD_2_8AD5B652E60BE004_OFFSET))(a1, a2);
 		}
 	};
 }

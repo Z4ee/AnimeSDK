@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6DF360)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6DF310)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_INIT_OFFSET UNITYSDK_OFFSET(0xB6DF2C0)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DF3B0)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE4D450)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE4D400)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_INIT_OFFSET UNITYSDK_OFFSET(0xCE4D3B0)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4D4A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSelectEvolveBuildGearConfirm_TypeDefinitionIndex = 52369;
+	inline static constexpr unsigned int LevelSelectEvolveBuildGearConfirm_TypeDefinitionIndex = 53066;
 
-	class LevelSelectEvolveBuildGearConfirm : public ::Class_1_9988289E7F8AA214
+	class LevelSelectEvolveBuildGearConfirm : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::UInt32 SelectIndex; // 0x18
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelSelectEvolveBuildGearConfirm* Init(::System::UInt32 nIndex)
+		::RPG::GameCore::LevelSelectEvolveBuildGearConfirm* Init(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::LevelSelectEvolveBuildGearConfirm*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_INIT_OFFSET))(this, nIndex);
+			return ((::RPG::GameCore::LevelSelectEvolveBuildGearConfirm*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDGEARCONFIRM_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

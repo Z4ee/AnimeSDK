@@ -5,16 +5,15 @@
 #include "unitysdk/RPG/MVector3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace RPG::GameCore { class AdventureCharacterFloatingConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_1E17D01D4D44B2AE_OFFSET UNITYSDK_OFFSET(0x188427D0)
-#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_C6EEC9B3A11899CC_OFFSET UNITYSDK_OFFSET(0x18842730)
-#define RPG_GAMECORE_CREATECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18842790)
+#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_257A5D364EFC27C5_OFFSET UNITYSDK_OFFSET(0x19681CA0)
+#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_C76A0B7408ED1B01_OFFSET UNITYSDK_OFFSET(0x19681D40)
+#define RPG_GAMECORE_CREATECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19681D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateCharacter_TypeDefinitionIndex = 19798;
+	inline static constexpr unsigned int CreateCharacter_TypeDefinitionIndex = 19674;
 
 	class CreateCharacter : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,21 +34,22 @@ namespace RPG::GameCore
 		::RPG::GameCore::PropState InitPropState; // 0x70
 		::System::Boolean DisableEmoGraph; // 0x74
 		::System::Int32 ArtReplaceIndex; // 0x78
-		::RPG::GameCore::AdventureCharacterFloatingConfig* FloatingConfig; // 0x80
+		::System::String* FloatingTemplateName; // 0x80
+		::System::Boolean EnableStandByBreak; // 0x88
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECHARACTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C6EEC9B3A11899CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCharacter*& a2)
+		static ::System::Void Method_3_257A5D364EFC27C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCharacter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECHARACTER_METHOD_3_C6EEC9B3A11899CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECHARACTER_METHOD_3_257A5D364EFC27C5_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1E17D01D4D44B2AE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCharacter* a2)
+		static ::System::Void Method_3_C76A0B7408ED1B01(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCharacter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECHARACTER_METHOD_3_1E17D01D4D44B2AE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECHARACTER_METHOD_3_C76A0B7408ED1B01_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace System::Runtime::Remoting::Activation
 {
-	inline static constexpr unsigned int RemoteActivator_TypeDefinitionIndex = 1276;
+	inline static constexpr unsigned int RemoteActivator_TypeDefinitionIndex = 1275;
 
 	class RemoteActivator : public ::System::MarshalByRefObject
 	{

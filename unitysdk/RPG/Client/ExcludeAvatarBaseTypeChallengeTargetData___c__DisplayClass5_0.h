@@ -6,12 +6,12 @@
 namespace RPG::Client { class MemberData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EXCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA30C440)
-#define RPG_CLIENT_EXCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0___CHECKEXCLUDEBASICTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xA30C5D0)
+#define RPG_CLIENT_EXCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB95CB20)
+#define RPG_CLIENT_EXCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0___CHECKEXCLUDEBASICTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xB95CC80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExcludeAvatarBaseTypeChallengeTargetData___c__DisplayClass5_0_TypeDefinitionIndex = 58135;
+	inline static constexpr unsigned int ExcludeAvatarBaseTypeChallengeTargetData___c__DisplayClass5_0_TypeDefinitionIndex = 59058;
 
 	class ExcludeAvatarBaseTypeChallengeTargetData___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __CheckExcludeBasicType_b__0(::RPG::Client::MemberData* x)
+		::System::Boolean __CheckExcludeBasicType_b__0(::RPG::Client::MemberData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0___CHECKEXCLUDEBASICTYPE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0___CHECKEXCLUDEBASICTYPE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

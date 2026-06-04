@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStoryLineType_TypeDefinitionIndex = 11748;
+	inline static constexpr unsigned int SwordTrainingStoryLineType_TypeDefinitionIndex = 11845;
 
 	enum class SwordTrainingStoryLineType : ::System::Int32
 	{

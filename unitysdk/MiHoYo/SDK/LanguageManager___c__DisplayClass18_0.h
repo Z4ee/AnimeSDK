@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class LanguageManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1756D720)
-#define MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0__ONGETVERSION_B__0_OFFSET UNITYSDK_OFFSET(0x1756DB70)
+#define MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183560E0)
+#define MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0__ONGETVERSION_B__0_OFFSET UNITYSDK_OFFSET(0x183564E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LanguageManager___c__DisplayClass18_0_TypeDefinitionIndex = 7113;
+	inline static constexpr unsigned int LanguageManager___c__DisplayClass18_0_TypeDefinitionIndex = 8016;
 
 	class LanguageManager___c__DisplayClass18_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnGetVersion_b__0(::System::String* langResponse)
+		::System::Void _OnGetVersion_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0__ONGETVERSION_B__0_OFFSET))(this, langResponse);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0__ONGETVERSION_B__0_OFFSET))(this, a1);
 		}
 	};
 }

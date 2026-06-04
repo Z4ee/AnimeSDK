@@ -4,102 +4,102 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_BYTEHELPER_TOHEX_1_OFFSET UNITYSDK_OFFSET(0x8CEEAC0)
-#define MIHOYO_SDK_BYTEHELPER_TOHEX_2_OFFSET UNITYSDK_OFFSET(0x8CEEBD0)
-#define MIHOYO_SDK_BYTEHELPER_TOHEX_3_OFFSET UNITYSDK_OFFSET(0x8CEECC0)
-#define MIHOYO_SDK_BYTEHELPER_TOHEX_OFFSET UNITYSDK_OFFSET(0x8CEEA90)
-#define MIHOYO_SDK_BYTEHELPER_TOSTR_1_OFFSET UNITYSDK_OFFSET(0x8CEEE70)
-#define MIHOYO_SDK_BYTEHELPER_TOSTR_OFFSET UNITYSDK_OFFSET(0x8CEEDD0)
-#define MIHOYO_SDK_BYTEHELPER_UTF8TOSTR_1_OFFSET UNITYSDK_OFFSET(0x8CEEFC0)
-#define MIHOYO_SDK_BYTEHELPER_UTF8TOSTR_OFFSET UNITYSDK_OFFSET(0x8CEEF20)
-#define MIHOYO_SDK_BYTEHELPER_WRITETO_1_OFFSET UNITYSDK_OFFSET(0x8CEF110)
-#define MIHOYO_SDK_BYTEHELPER_WRITETO_2_OFFSET UNITYSDK_OFFSET(0x8CEF1B0)
-#define MIHOYO_SDK_BYTEHELPER_WRITETO_3_OFFSET UNITYSDK_OFFSET(0x8CEF1E0)
-#define MIHOYO_SDK_BYTEHELPER_WRITETO_4_OFFSET UNITYSDK_OFFSET(0x8CEF230)
-#define MIHOYO_SDK_BYTEHELPER_WRITETO_5_OFFSET UNITYSDK_OFFSET(0x8CEF280)
-#define MIHOYO_SDK_BYTEHELPER_WRITETO_6_OFFSET UNITYSDK_OFFSET(0x8CEF310)
-#define MIHOYO_SDK_BYTEHELPER_WRITETO_OFFSET UNITYSDK_OFFSET(0x8CEF070)
+#define MIHOYO_SDK_BYTEHELPER_TOHEX_1_OFFSET UNITYSDK_OFFSET(0xA145340)
+#define MIHOYO_SDK_BYTEHELPER_TOHEX_2_OFFSET UNITYSDK_OFFSET(0xA145440)
+#define MIHOYO_SDK_BYTEHELPER_TOHEX_3_OFFSET UNITYSDK_OFFSET(0xA145520)
+#define MIHOYO_SDK_BYTEHELPER_TOHEX_OFFSET UNITYSDK_OFFSET(0xA145310)
+#define MIHOYO_SDK_BYTEHELPER_TOSTR_1_OFFSET UNITYSDK_OFFSET(0xA1456C0)
+#define MIHOYO_SDK_BYTEHELPER_TOSTR_OFFSET UNITYSDK_OFFSET(0xA145620)
+#define MIHOYO_SDK_BYTEHELPER_UTF8TOSTR_1_OFFSET UNITYSDK_OFFSET(0xA145840)
+#define MIHOYO_SDK_BYTEHELPER_UTF8TOSTR_OFFSET UNITYSDK_OFFSET(0xA145770)
+#define MIHOYO_SDK_BYTEHELPER_WRITETO_1_OFFSET UNITYSDK_OFFSET(0xA145980)
+#define MIHOYO_SDK_BYTEHELPER_WRITETO_2_OFFSET UNITYSDK_OFFSET(0xA1459E0)
+#define MIHOYO_SDK_BYTEHELPER_WRITETO_3_OFFSET UNITYSDK_OFFSET(0xA145A10)
+#define MIHOYO_SDK_BYTEHELPER_WRITETO_4_OFFSET UNITYSDK_OFFSET(0xA145A50)
+#define MIHOYO_SDK_BYTEHELPER_WRITETO_5_OFFSET UNITYSDK_OFFSET(0xA145A90)
+#define MIHOYO_SDK_BYTEHELPER_WRITETO_6_OFFSET UNITYSDK_OFFSET(0xA145B00)
+#define MIHOYO_SDK_BYTEHELPER_WRITETO_OFFSET UNITYSDK_OFFSET(0xA145920)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ByteHelper_TypeDefinitionIndex = 42727;
+	inline static constexpr unsigned int ByteHelper_TypeDefinitionIndex = 43530;
 
 	class ByteHelper : public ::System::Object
 	{
 	public:
-		static ::System::String* ToHex(::System::Byte b)
+		static ::System::String* ToHex(::System::Byte a1)
 		{
-			return ((::System::String*(*)(::System::Byte))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOHEX_OFFSET))(b);
+			return ((::System::String*(*)(::System::Byte))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOHEX_OFFSET))(a1);
 		}
 
-		static ::System::String* ToHex_1(::Il2CppArray<::System::Byte>* bytes)
+		static ::System::String* ToHex_1(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOHEX_1_OFFSET))(bytes);
+			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOHEX_1_OFFSET))(a1);
 		}
 
-		static ::System::String* ToHex_2(::Il2CppArray<::System::Byte>* bytes, ::System::String* format)
+		static ::System::String* ToHex_2(::Il2CppArray<::System::Byte>* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOHEX_2_OFFSET))(bytes, format);
+			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOHEX_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* ToHex_3(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 offset, ::System::Int32 count)
+		static ::System::String* ToHex_3(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOHEX_3_OFFSET))(bytes, offset, count);
+			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOHEX_3_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* ToStr(::Il2CppArray<::System::Byte>* bytes)
+		static ::System::String* ToStr(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOSTR_OFFSET))(bytes);
+			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOSTR_OFFSET))(a1);
 		}
 
-		static ::System::String* ToStr_1(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 index, ::System::Int32 count)
+		static ::System::String* ToStr_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOSTR_1_OFFSET))(bytes, index, count);
+			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_TOSTR_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* Utf8ToStr(::Il2CppArray<::System::Byte>* bytes)
+		static ::System::String* Utf8ToStr(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_UTF8TOSTR_OFFSET))(bytes);
+			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_UTF8TOSTR_OFFSET))(a1);
 		}
 
-		static ::System::String* Utf8ToStr_1(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 index, ::System::Int32 count)
+		static ::System::String* Utf8ToStr_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_UTF8TOSTR_1_OFFSET))(bytes, index, count);
+			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_UTF8TOSTR_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void WriteTo(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 offset, ::System::UInt32 num)
+		static ::System::Void WriteTo(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_OFFSET))(bytes, offset, num);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void WriteTo_1(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 offset, ::System::Int32 num)
+		static ::System::Void WriteTo_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_1_OFFSET))(bytes, offset, num);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void WriteTo_2(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 offset, ::System::Byte num)
+		static ::System::Void WriteTo_2(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Byte a3)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_2_OFFSET))(bytes, offset, num);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void WriteTo_3(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 offset, ::System::Int16 num)
+		static ::System::Void WriteTo_3(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int16 a3)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int16))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_3_OFFSET))(bytes, offset, num);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int16))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_3_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void WriteTo_4(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 offset, ::System::UInt16 num)
+		static ::System::Void WriteTo_4(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::UInt16 a3)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::UInt16))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_4_OFFSET))(bytes, offset, num);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::UInt16))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_4_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void WriteTo_5(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 offset, ::Il2CppArray<::System::Byte>* buffer)
+		static ::System::Void WriteTo_5(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::Il2CppArray<::System::Byte>* a3)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_5_OFFSET))(bytes, offset, buffer);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_5_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void WriteTo_6(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 offset, ::System::String* strBuffer)
+		static ::System::Void WriteTo_6(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_6_OFFSET))(bytes, offset, strBuffer);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BYTEHELPER_WRITETO_6_OFFSET))(a1, a2, a3);
 		}
 	};
 }

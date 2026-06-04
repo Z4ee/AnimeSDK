@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTriggerTargetType_TypeDefinitionIndex = 17704;
+	inline static constexpr unsigned int FiveDimTriggerTargetType_TypeDefinitionIndex = 17732;
 
 	enum class FiveDimTriggerTargetType : ::System::UInt32
 	{

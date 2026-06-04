@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ResidentActivityPanelDataSource_TypeDefinitionIndex = 56975;
+	inline static constexpr unsigned int ResidentActivityPanelDataSource_TypeDefinitionIndex = 57763;
 
 	enum class ResidentActivityPanelDataSource : ::System::Int32
 	{

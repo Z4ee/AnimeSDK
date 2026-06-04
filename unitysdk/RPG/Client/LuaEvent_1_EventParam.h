@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LuaEvent_1_EventParam_TypeDefinitionIndex = 54812;
+	inline static constexpr unsigned int LuaEvent_1_EventParam_TypeDefinitionIndex = 55539;
 
 	template <typename T>
 	class LuaEvent_1_EventParam : public ::System::Object

@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_TOASTPAGE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1909F230)
-#define RPG_GAMECORE_TOASTPAGE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1909F1B0)
-#define RPG_GAMECORE_TOASTPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1909F200)
+#define RPG_GAMECORE_TOASTPAGE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19DEA080)
+#define RPG_GAMECORE_TOASTPAGE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19DEA000)
+#define RPG_GAMECORE_TOASTPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DEA050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToastPage_TypeDefinitionIndex = 19247;
+	inline static constexpr unsigned int ToastPage_TypeDefinitionIndex = 19166;
 
 	class ToastPage : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTPAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ToastPage*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToastPage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToastPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTPAGE_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToastPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTPAGE_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ToastPage* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToastPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToastPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTPAGE_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToastPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTPAGE_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

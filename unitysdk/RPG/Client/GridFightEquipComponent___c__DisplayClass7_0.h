@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class GridFightEquipItemData; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCOMPONENT___C__DISPLAYCLASS7_0__CONTAINSEQUIPCATEGORY_B__0_OFFSET UNITYSDK_OFFSET(0xA47D2A0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCOMPONENT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA47C5E0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCOMPONENT___C__DISPLAYCLASS7_0__CONTAINSEQUIPCATEGORY_B__0_OFFSET UNITYSDK_OFFSET(0xBB1AC00)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCOMPONENT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB19AB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipComponent___c__DisplayClass7_0_TypeDefinitionIndex = 59797;
+	inline static constexpr unsigned int GridFightEquipComponent___c__DisplayClass7_0_TypeDefinitionIndex = 60732;
 
 	class GridFightEquipComponent___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCOMPONENT___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _ContainsEquipCategory_b__0(::RPG::Client::GridFightEquipItemData* x)
+		::System::Boolean _ContainsEquipCategory_b__0(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCOMPONENT___C__DISPLAYCLASS7_0__CONTAINSEQUIPCATEGORY_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCOMPONENT___C__DISPLAYCLASS7_0__CONTAINSEQUIPCATEGORY_B__0_OFFSET))(this, a1);
 		}
 	};
 }

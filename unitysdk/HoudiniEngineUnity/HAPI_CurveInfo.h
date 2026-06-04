@@ -5,7 +5,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_CurveInfo_TypeDefinitionIndex = 43607;
+	inline static constexpr unsigned int HAPI_CurveInfo_TypeDefinitionIndex = 37550;
 
 	struct alignas(4) HAPI_CurveInfo
 	{
@@ -17,5 +17,6 @@ namespace HoudiniEngineUnity
 		::System::Boolean isRational; // 0x21
 		::System::Int32 order; // 0x24
 		::System::Boolean hasKnots; // 0x28
+		::System::Boolean isClosed; // 0x29
 	};
 }

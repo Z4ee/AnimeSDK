@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class DynamicValue; }
 
-#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5CF250)
-#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS50_0__ISEQUIPCANTUSEDBYELATIONEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xA5CFBD0)
+#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBCD0D20)
+#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS50_0__ISEQUIPCANTUSEDBYELATIONEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xBCD16D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightUtils___c__DisplayClass50_0_TypeDefinitionIndex = 59738;
+	inline static constexpr unsigned int GridFightUtils___c__DisplayClass50_0_TypeDefinitionIndex = 60673;
 
 	class GridFightUtils___c__DisplayClass50_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS50_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _IsEquipCantUsedByElationEffect_b__0(::RPG::GameCore::DynamicValue* x)
+		::System::Boolean _IsEquipCantUsedByElationEffect_b__0(::RPG::GameCore::DynamicValue* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS50_0__ISEQUIPCANTUSEDBYELATIONEFFECT_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS50_0__ISEQUIPCANTUSEDBYELATIONEFFECT_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int RuntimeHelpers_TypeDefinitionIndex = 6492;
+	inline static constexpr unsigned int RuntimeHelpers_TypeDefinitionIndex = 6321;
 
 	class RuntimeHelpers : public ::System::Object
 	{

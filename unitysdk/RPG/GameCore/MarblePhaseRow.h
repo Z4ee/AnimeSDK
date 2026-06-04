@@ -6,27 +6,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AA27E0)
-#define RPG_GAMECORE_MARBLEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AA2E00)
+#define RPG_GAMECORE_MARBLEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198D5720)
+#define RPG_GAMECORE_MARBLEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198D5D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarblePhaseRow_TypeDefinitionIndex = 11308;
+	inline static constexpr unsigned int MarblePhaseRow_TypeDefinitionIndex = 11355;
 
 	class MarblePhaseRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::MarblePhaseType ID; // 0x10
-		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID Name; // 0x10
+		::RPG::GameCore::MarblePhaseType ID; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEPHASEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MarblePhaseRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarblePhaseRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarblePhaseRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEPHASEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarblePhaseRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEPHASEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYOEMOTION_RDPHONEMEMARKER_CREATECOPY_OFFSET UNITYSDK_OFFSET(0x8E53190)
-#define MIHOYOEMOTION_RDPHONEMEMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x8E53170)
+#define MIHOYOEMOTION_RDPHONEMEMARKER_CREATECOPY_OFFSET UNITYSDK_OFFSET(0xA27CAD0)
+#define MIHOYOEMOTION_RDPHONEMEMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0xA27CAB0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int RDPhonemeMarker_TypeDefinitionIndex = 40969;
+	inline static constexpr unsigned int RDPhonemeMarker_TypeDefinitionIndex = 41787;
 
 	class RDPhonemeMarker : public ::System::Object
 	{
@@ -17,9 +17,9 @@ namespace miHoYoEmotion
 		::System::Single time; // 0x18
 		::System::Single value; // 0x1C
 
-		::System::Void _ctor(::System::Int32 phonemeNumber, ::System::Single time, ::System::Single value, ::System::Int32 emotionIndex)
+		::System::Void _ctor(::System::Int32 a1, ::System::Single a2, ::System::Single a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_RDPHONEMEMARKER__CTOR_OFFSET))(this, phonemeNumber, time, value, emotionIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_RDPHONEMEMARKER__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::miHoYoEmotion::RDPhonemeMarker* CreateCopy()

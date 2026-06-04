@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int IReadOnlyDictionary_2_TypeDefinitionIndex = 1558;
+	inline static constexpr unsigned int IReadOnlyDictionary_2_TypeDefinitionIndex = 1556;
 
 	template <typename TKey, typename TValue>
 	class IReadOnlyDictionary_2

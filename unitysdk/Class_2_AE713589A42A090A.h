@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class CharacterReplaceAnimatorController; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_AE713589A42A090A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x124DD460)
-#define CLASS_2_AE713589A42A090A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x124DD4A0)
-#define CLASS_2_AE713589A42A090A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x124DD640)
-#define CLASS_2_AE713589A42A090A_TICK_OFFSET UNITYSDK_OFFSET(0x124DD690)
-#define CLASS_2_AE713589A42A090A__CTOR_OFFSET UNITYSDK_OFFSET(0x124DD450)
+#define CLASS_2_AE713589A42A090A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD4E150)
+#define CLASS_2_AE713589A42A090A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD4E190)
+#define CLASS_2_AE713589A42A090A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAD4E340)
+#define CLASS_2_AE713589A42A090A_TICK_OFFSET UNITYSDK_OFFSET(0xAD4E390)
+#define CLASS_2_AE713589A42A090A__CTOR_OFFSET UNITYSDK_OFFSET(0xAD4E140)
 
-inline static constexpr unsigned int Class_2_AE713589A42A090A_TypeDefinitionIndex = 50679;
+inline static constexpr unsigned int Class_2_AE713589A42A090A_TypeDefinitionIndex = 51347;
 
 class Class_2_AE713589A42A090A : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::CharacterReplaceAnimatorController* Field_2_0; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::CharacterReplaceAnimatorController* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CharacterReplaceAnimatorController* a2)
 	{

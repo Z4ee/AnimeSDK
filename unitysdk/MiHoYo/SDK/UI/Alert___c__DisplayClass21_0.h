@@ -6,12 +6,12 @@ namespace MiHoYo::SDK::UI { class Alert; }
 namespace MiHoYo::SDK::UI { class Alert_OnAlertDelegate; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176695A0)
-#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1766A9F0)
+#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1843A960)
+#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1843BA40)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int Alert___c__DisplayClass21_0_TypeDefinitionIndex = 7421;
+	inline static constexpr unsigned int Alert___c__DisplayClass21_0_TypeDefinitionIndex = 8324;
 
 	class Alert___c__DisplayClass21_0 : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace MiHoYo::SDK::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS21_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::UI::Alert* alert)
+		::System::Void _Show_b__0(::MiHoYo::SDK::UI::Alert* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::Alert*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET))(this, alert);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::Alert*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS21_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

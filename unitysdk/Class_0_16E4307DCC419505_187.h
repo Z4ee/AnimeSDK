@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/Match3/MatchThreeOpponentLiveState.h"
 
-class Class_2_536CC4186B095618;
+class Class_0_16E4307DCC419505_188;
+class Class_1_47EE63CB5C4DC8FC_13;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_187_TypeDefinitionIndex = 38289;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_187_TypeDefinitionIndex = 38942;
 
 class Class_0_16E4307DCC419505_187
 {

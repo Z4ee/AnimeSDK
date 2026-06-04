@@ -4,12 +4,12 @@
 
 class Class_1_E7E7FCFD10613C60;
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAB49420)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__DISPLAYCLASS68_0__GETSURFACE_B__0_OFFSET UNITYSDK_OFFSET(0xAB49900)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC257DA0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__DISPLAYCLASS68_0__GETSURFACE_B__0_OFFSET UNITYSDK_OFFSET(0xC258290)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int Face___c__DisplayClass68_0_TypeDefinitionIndex = 68893;
+	inline static constexpr unsigned int Face___c__DisplayClass68_0_TypeDefinitionIndex = 69705;
 
 	class Face___c__DisplayClass68_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::NavMap::FiveDim
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__DISPLAYCLASS68_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetSurface_b__0(::Class_1_E7E7FCFD10613C60* x)
+		::System::Boolean _GetSurface_b__0(::Class_1_E7E7FCFD10613C60* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_E7E7FCFD10613C60*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__DISPLAYCLASS68_0__GETSURFACE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_E7E7FCFD10613C60*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__DISPLAYCLASS68_0__GETSURFACE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

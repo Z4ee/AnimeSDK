@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class SecurityTunnel; }
 namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 namespace System::Timers { class ElapsedEventArgs; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DBE1D0)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_0__SAFEENQUEUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x8DC5370)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA20C4D0)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_0__SAFEENQUEUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xA2123C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass55_0_TypeDefinitionIndex = 43030;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass55_0_TypeDefinitionIndex = 43833;
 
 	class SecurityTunnel___c__DisplayClass55_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SafeEnqueueCallback_b__0(::System::Object* _p1, ::System::Timers::ElapsedEventArgs* _p2)
+		::System::Void _SafeEnqueueCallback_b__0(::System::Object* a1, ::System::Timers::ElapsedEventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Timers::ElapsedEventArgs*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_0__SAFEENQUEUECALLBACK_B__0_OFFSET))(this, _p1, _p2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Timers::ElapsedEventArgs*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS55_0__SAFEENQUEUECALLBACK_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

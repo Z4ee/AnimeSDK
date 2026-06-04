@@ -6,8 +6,8 @@
 namespace Mono::Security::Interface { class Alert; }
 namespace System { class String; }
 
-#define MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1776F440)
-#define MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1776F3D0)
+#define MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1852A010)
+#define MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18529FA0)
 
 namespace Mono::Security::Interface
 {
@@ -18,14 +18,14 @@ namespace Mono::Security::Interface
 	public:
 		::Mono::Security::Interface::Alert* alert; // 0x88
 
-		::System::Void _ctor(::Mono::Security::Interface::Alert* alert, ::System::String* message)
+		::System::Void _ctor(::Mono::Security::Interface::Alert* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::Alert*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_OFFSET))(this, alert, message);
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::Alert*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::Mono::Security::Interface::AlertDescription description, ::System::String* message)
+		::System::Void _ctor_1(::Mono::Security::Interface::AlertDescription a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::AlertDescription, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_1_OFFSET))(this, description, message);
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::AlertDescription, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

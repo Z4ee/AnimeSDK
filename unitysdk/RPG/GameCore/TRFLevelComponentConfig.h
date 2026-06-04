@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TRFStageConfig; }
 
-#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_7DD02624E46F5658_OFFSET UNITYSDK_OFFSET(0x18ECD380)
-#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_9BB024A06E55263D_OFFSET UNITYSDK_OFFSET(0x18ECD430)
-#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18ECD400)
+#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_A297EE24E55958D9_OFFSET UNITYSDK_OFFSET(0x19CECB50)
+#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_B803C0ED58918F68_OFFSET UNITYSDK_OFFSET(0x19CECC00)
+#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CECBD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TRFLevelComponentConfig_TypeDefinitionIndex = 17949;
+	inline static constexpr unsigned int TRFLevelComponentConfig_TypeDefinitionIndex = 17976;
 
 	class TRFLevelComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7DD02624E46F5658(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TRFLevelComponentConfig*& a2)
+		static ::System::Void Method_3_A297EE24E55958D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TRFLevelComponentConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TRFLevelComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_7DD02624E46F5658_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TRFLevelComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_A297EE24E55958D9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9BB024A06E55263D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TRFLevelComponentConfig* a2)
+		static ::System::Void Method_3_B803C0ED58918F68(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TRFLevelComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TRFLevelComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_9BB024A06E55263D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TRFLevelComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_B803C0ED58918F68_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace XLua { class ObjectCast; }
 
-#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1123FBB0)
-#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS25_0__GENNULLABLECASTER_B__0_OFFSET UNITYSDK_OFFSET(0x11242090)
+#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12EA0C00)
+#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS25_0__GENNULLABLECASTER_B__0_OFFSET UNITYSDK_OFFSET(0x12EA3290)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCasters___c__DisplayClass25_0_TypeDefinitionIndex = 46433;
+	inline static constexpr unsigned int ObjectCasters___c__DisplayClass25_0_TypeDefinitionIndex = 47023;
 
 	class ObjectCasters___c__DisplayClass25_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OBJECTCASTERS___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Object* _genNullableCaster_b__0(::System::IntPtr L, ::System::Int32 idx, ::System::Object* target)
+		::System::Object* _genNullableCaster_b__0(::System::IntPtr a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCASTERS___C__DISPLAYCLASS25_0__GENNULLABLECASTER_B__0_OFFSET))(this, L, idx, target);
+			return ((::System::Object*(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCASTERS___C__DISPLAYCLASS25_0__GENNULLABLECASTER_B__0_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

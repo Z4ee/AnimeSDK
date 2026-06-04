@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHandbookDataCollection_2_TypeDefinitionIndex = 62364;
+	inline static constexpr unsigned int RogueTournHandbookDataCollection_2_TypeDefinitionIndex = 63297;
 
 	template <typename TId, typename TDataItem>
 	class RogueTournHandbookDataCollection_2 : public ::System::Object

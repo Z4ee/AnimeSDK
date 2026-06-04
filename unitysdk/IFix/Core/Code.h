@@ -3,7 +3,7 @@
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int Code_TypeDefinitionIndex = 9923;
+	inline static constexpr unsigned int Code_TypeDefinitionIndex = 9750;
 
 	enum class Code : ::System::Int32
 	{

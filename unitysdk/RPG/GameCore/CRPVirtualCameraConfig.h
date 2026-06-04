@@ -7,12 +7,12 @@ namespace RPG::GameCore { class VCameraBlend; }
 namespace RPG::GameCore { class VCameraNoiseChange; }
 namespace RPG::GameCore { class VCameraNormalConfig; }
 
-#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIG_METHOD_2_ECF42FB557893D3F_OFFSET UNITYSDK_OFFSET(0x187646D0)
-#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18764840)
+#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIG_METHOD_2_ECF42FB557893D3F_OFFSET UNITYSDK_OFFSET(0x195E15B0)
+#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x195E1720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CRPVirtualCameraConfig_TypeDefinitionIndex = 15545;
+	inline static constexpr unsigned int CRPVirtualCameraConfig_TypeDefinitionIndex = 15607;
 
 	class CRPVirtualCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -14,50 +14,50 @@ namespace System::Diagnostics::Tracing { template <typename T> class TraceLoggin
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_CHECKNAME_OFFSET UNITYSDK_OFFSET(0x17901FC0)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_COMBINE_1_OFFSET UNITYSDK_OFFSET(0x17908F30)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_COMBINE_OFFSET UNITYSDK_OFFSET(0x17908F20)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x17909490)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x17908FA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_ENCODETAGS_OFFSET UNITYSDK_OFFSET(0x179023A0)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FINDENUMERABLEELEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x179091B0)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT16_OFFSET UNITYSDK_OFFSET(0x178E4A70)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT32_OFFSET UNITYSDK_OFFSET(0x17902D00)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT64_OFFSET UNITYSDK_OFFSET(0x178E61A0)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT8_OFFSET UNITYSDK_OFFSET(0x178E3C60)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMATPTR_OFFSET UNITYSDK_OFFSET(0x179035C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETDECLAREDSTATICMETHOD_OFFSET UNITYSDK_OFFSET(0x17909090)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETGENERICARGUMENTS_OFFSET UNITYSDK_OFFSET(0x17909180)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETGETMETHOD_OFFSET UNITYSDK_OFFSET(0x17909060)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETPROPERTIES_OFFSET UNITYSDK_OFFSET(0x17909030)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETTYPEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x179094B0)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_HASCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17909140)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISENUM_OFFSET UNITYSDK_OFFSET(0x17909000)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISGENERICMATCH_OFFSET UNITYSDK_OFFSET(0x17909410)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISVALUETYPE_OFFSET UNITYSDK_OFFSET(0x17908FD0)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_MAKEDATATYPE_OFFSET UNITYSDK_OFFSET(0x178E4480)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_METADATAFORSTRING_OFFSET UNITYSDK_OFFSET(0x178EE930)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_SHOULDOVERRIDEFIELDNAME_OFFSET UNITYSDK_OFFSET(0x17908F40)
-#define SYSTEM_DIAGNOSTICS_TRACING_STATICS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17909910)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_CHECKNAME_OFFSET UNITYSDK_OFFSET(0x186B8B80)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_COMBINE_1_OFFSET UNITYSDK_OFFSET(0x186BFC20)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_COMBINE_OFFSET UNITYSDK_OFFSET(0x186BFC10)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x186C0160)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x186BFC90)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_ENCODETAGS_OFFSET UNITYSDK_OFFSET(0x186B8F40)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FINDENUMERABLEELEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x186BFEA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT16_OFFSET UNITYSDK_OFFSET(0x1869CEE0)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT32_OFFSET UNITYSDK_OFFSET(0x186B9890)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT64_OFFSET UNITYSDK_OFFSET(0x1869E560)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT8_OFFSET UNITYSDK_OFFSET(0x1869BFD0)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMATPTR_OFFSET UNITYSDK_OFFSET(0x186BA150)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETDECLAREDSTATICMETHOD_OFFSET UNITYSDK_OFFSET(0x186BFD80)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETGENERICARGUMENTS_OFFSET UNITYSDK_OFFSET(0x186BFE70)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETGETMETHOD_OFFSET UNITYSDK_OFFSET(0x186BFD50)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETPROPERTIES_OFFSET UNITYSDK_OFFSET(0x186BFD20)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETTYPEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x186C0180)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_HASCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x186BFE30)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISENUM_OFFSET UNITYSDK_OFFSET(0x186BFCF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISGENERICMATCH_OFFSET UNITYSDK_OFFSET(0x186C00E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISVALUETYPE_OFFSET UNITYSDK_OFFSET(0x186BFCC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_MAKEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1869C8B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_METADATAFORSTRING_OFFSET UNITYSDK_OFFSET(0x186A7610)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS_SHOULDOVERRIDEFIELDNAME_OFFSET UNITYSDK_OFFSET(0x186BFC30)
+#define SYSTEM_DIAGNOSTICS_TRACING_STATICS__CCTOR_OFFSET UNITYSDK_OFFSET(0x186C05A0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int Statics_TypeDefinitionIndex = 1650;
+	inline static constexpr unsigned int Statics_TypeDefinitionIndex = 1648;
 
 	class Statics : public ::System::Object
 	{
 	public:
-		static ::System::Diagnostics::Tracing::TraceLoggingDataType* StaticGet_IntPtrType()
+		static ::System::Diagnostics::Tracing::TraceLoggingDataType* StaticGet_HexIntPtrType()
 		{
-			return (::System::Diagnostics::Tracing::TraceLoggingDataType*)Il2CppClass::FromTypeDefinitionIndex(Statics_TypeDefinitionIndex)->GetStaticField(0x2F10);
+			return (::System::Diagnostics::Tracing::TraceLoggingDataType*)Il2CppClass::FromTypeDefinitionIndex(Statics_TypeDefinitionIndex)->GetStaticField(0x2F50);
 		}
 		static ::System::Diagnostics::Tracing::TraceLoggingDataType* StaticGet_UIntPtrType()
 		{
-			return (::System::Diagnostics::Tracing::TraceLoggingDataType*)Il2CppClass::FromTypeDefinitionIndex(Statics_TypeDefinitionIndex)->GetStaticField(0x2F14);
+			return (::System::Diagnostics::Tracing::TraceLoggingDataType*)Il2CppClass::FromTypeDefinitionIndex(Statics_TypeDefinitionIndex)->GetStaticField(0x2F54);
 		}
-		static ::System::Diagnostics::Tracing::TraceLoggingDataType* StaticGet_HexIntPtrType()
+		static ::System::Diagnostics::Tracing::TraceLoggingDataType* StaticGet_IntPtrType()
 		{
-			return (::System::Diagnostics::Tracing::TraceLoggingDataType*)Il2CppClass::FromTypeDefinitionIndex(Statics_TypeDefinitionIndex)->GetStaticField(0x2F18);
+			return (::System::Diagnostics::Tracing::TraceLoggingDataType*)Il2CppClass::FromTypeDefinitionIndex(Statics_TypeDefinitionIndex)->GetStaticField(0x2F58);
 		}
 
 		static ::System::Void _cctor()
@@ -65,124 +65,124 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS__CCTOR_OFFSET))();
 		}
 
-		static ::Il2CppArray<::System::Byte>* MetadataForString(::System::String* name, ::System::Int32 prefixSize, ::System::Int32 suffixSize, ::System::Int32 additionalSize)
+		static ::Il2CppArray<::System::Byte>* MetadataForString(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_METADATAFORSTRING_OFFSET))(name, prefixSize, suffixSize, additionalSize);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_METADATAFORSTRING_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void EncodeTags(::System::Int32 tags, ::System::Int32& pos, ::Il2CppArray<::System::Byte>* metadata)
+		static ::System::Void EncodeTags(::System::Int32 a1, ::System::Int32& a2, ::Il2CppArray<::System::Byte>* a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32&, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_ENCODETAGS_OFFSET))(tags, pos, metadata);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32&, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_ENCODETAGS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Byte Combine(::System::Int32 settingValue, ::System::Byte defaultValue)
+		static ::System::Byte Combine(::System::Int32 a1, ::System::Byte a2)
 		{
-			return ((::System::Byte(*)(::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_COMBINE_OFFSET))(settingValue, defaultValue);
+			return ((::System::Byte(*)(::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_COMBINE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 Combine_1(::System::Int32 settingValue1, ::System::Int32 settingValue2)
+		static ::System::Int32 Combine_1(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_COMBINE_1_OFFSET))(settingValue1, settingValue2);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_COMBINE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void CheckName(::System::String* name)
+		static ::System::Void CheckName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_CHECKNAME_OFFSET))(name);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_CHECKNAME_OFFSET))(a1);
 		}
 
-		static ::System::Boolean ShouldOverrideFieldName(::System::String* fieldName)
+		static ::System::Boolean ShouldOverrideFieldName(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_SHOULDOVERRIDEFIELDNAME_OFFSET))(fieldName);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_SHOULDOVERRIDEFIELDNAME_OFFSET))(a1);
 		}
 
-		static ::System::Diagnostics::Tracing::TraceLoggingDataType MakeDataType(::System::Diagnostics::Tracing::TraceLoggingDataType baseType, ::System::Diagnostics::Tracing::EventFieldFormat format)
+		static ::System::Diagnostics::Tracing::TraceLoggingDataType MakeDataType(::System::Diagnostics::Tracing::TraceLoggingDataType a1, ::System::Diagnostics::Tracing::EventFieldFormat a2)
 		{
-			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::TraceLoggingDataType, ::System::Diagnostics::Tracing::EventFieldFormat))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_MAKEDATATYPE_OFFSET))(baseType, format);
+			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::TraceLoggingDataType, ::System::Diagnostics::Tracing::EventFieldFormat))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_MAKEDATATYPE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Diagnostics::Tracing::TraceLoggingDataType Format8(::System::Diagnostics::Tracing::EventFieldFormat format, ::System::Diagnostics::Tracing::TraceLoggingDataType native)
+		static ::System::Diagnostics::Tracing::TraceLoggingDataType Format8(::System::Diagnostics::Tracing::EventFieldFormat a1, ::System::Diagnostics::Tracing::TraceLoggingDataType a2)
 		{
-			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::EventFieldFormat, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT8_OFFSET))(format, native);
+			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::EventFieldFormat, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Diagnostics::Tracing::TraceLoggingDataType Format16(::System::Diagnostics::Tracing::EventFieldFormat format, ::System::Diagnostics::Tracing::TraceLoggingDataType native)
+		static ::System::Diagnostics::Tracing::TraceLoggingDataType Format16(::System::Diagnostics::Tracing::EventFieldFormat a1, ::System::Diagnostics::Tracing::TraceLoggingDataType a2)
 		{
-			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::EventFieldFormat, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT16_OFFSET))(format, native);
+			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::EventFieldFormat, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT16_OFFSET))(a1, a2);
 		}
 
-		static ::System::Diagnostics::Tracing::TraceLoggingDataType Format32(::System::Diagnostics::Tracing::EventFieldFormat format, ::System::Diagnostics::Tracing::TraceLoggingDataType native)
+		static ::System::Diagnostics::Tracing::TraceLoggingDataType Format32(::System::Diagnostics::Tracing::EventFieldFormat a1, ::System::Diagnostics::Tracing::TraceLoggingDataType a2)
 		{
-			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::EventFieldFormat, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT32_OFFSET))(format, native);
+			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::EventFieldFormat, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT32_OFFSET))(a1, a2);
 		}
 
-		static ::System::Diagnostics::Tracing::TraceLoggingDataType Format64(::System::Diagnostics::Tracing::EventFieldFormat format, ::System::Diagnostics::Tracing::TraceLoggingDataType native)
+		static ::System::Diagnostics::Tracing::TraceLoggingDataType Format64(::System::Diagnostics::Tracing::EventFieldFormat a1, ::System::Diagnostics::Tracing::TraceLoggingDataType a2)
 		{
-			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::EventFieldFormat, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT64_OFFSET))(format, native);
+			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::EventFieldFormat, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMAT64_OFFSET))(a1, a2);
 		}
 
-		static ::System::Diagnostics::Tracing::TraceLoggingDataType FormatPtr(::System::Diagnostics::Tracing::EventFieldFormat format, ::System::Diagnostics::Tracing::TraceLoggingDataType native)
+		static ::System::Diagnostics::Tracing::TraceLoggingDataType FormatPtr(::System::Diagnostics::Tracing::EventFieldFormat a1, ::System::Diagnostics::Tracing::TraceLoggingDataType a2)
 		{
-			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::EventFieldFormat, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMATPTR_OFFSET))(format, native);
+			return ((::System::Diagnostics::Tracing::TraceLoggingDataType(*)(::System::Diagnostics::Tracing::EventFieldFormat, ::System::Diagnostics::Tracing::TraceLoggingDataType))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FORMATPTR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* CreateInstance(::System::Type* type, ::Il2CppArray<::System::Object*>* parameters)
+		static ::System::Object* CreateInstance(::System::Type* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_CREATEINSTANCE_OFFSET))(type, parameters);
+			return ((::System::Object*(*)(::System::Type*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_CREATEINSTANCE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsValueType(::System::Type* type)
+		static ::System::Boolean IsValueType(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISVALUETYPE_OFFSET))(type);
+			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISVALUETYPE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsEnum(::System::Type* type)
+		static ::System::Boolean IsEnum(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISENUM_OFFSET))(type);
+			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISENUM_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>* GetProperties(::System::Type* type)
+		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>* GetProperties(::System::Type* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETPROPERTIES_OFFSET))(type);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETPROPERTIES_OFFSET))(a1);
 		}
 
-		static ::System::Reflection::MethodInfo* GetGetMethod(::System::Reflection::PropertyInfo* propInfo)
+		static ::System::Reflection::MethodInfo* GetGetMethod(::System::Reflection::PropertyInfo* a1)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETGETMETHOD_OFFSET))(propInfo);
+			return ((::System::Reflection::MethodInfo*(*)(::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETGETMETHOD_OFFSET))(a1);
 		}
 
-		static ::System::Reflection::MethodInfo* GetDeclaredStaticMethod(::System::Type* declaringType, ::System::String* name)
+		static ::System::Reflection::MethodInfo* GetDeclaredStaticMethod(::System::Type* a1, ::System::String* a2)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETDECLAREDSTATICMETHOD_OFFSET))(declaringType, name);
+			return ((::System::Reflection::MethodInfo*(*)(::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETDECLAREDSTATICMETHOD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean HasCustomAttribute(::System::Reflection::PropertyInfo* propInfo, ::System::Type* attributeType)
+		static ::System::Boolean HasCustomAttribute(::System::Reflection::PropertyInfo* a1, ::System::Type* a2)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::PropertyInfo*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_HASCUSTOMATTRIBUTE_OFFSET))(propInfo, attributeType);
+			return ((::System::Boolean(*)(::System::Reflection::PropertyInfo*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_HASCUSTOMATTRIBUTE_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::Type*>* GetGenericArguments(::System::Type* type)
+		static ::Il2CppArray<::System::Type*>* GetGenericArguments(::System::Type* a1)
 		{
-			return ((::Il2CppArray<::System::Type*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETGENERICARGUMENTS_OFFSET))(type);
+			return ((::Il2CppArray<::System::Type*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETGENERICARGUMENTS_OFFSET))(a1);
 		}
 
-		static ::System::Type* FindEnumerableElementType(::System::Type* type)
+		static ::System::Type* FindEnumerableElementType(::System::Type* a1)
 		{
-			return ((::System::Type*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FINDENUMERABLEELEMENTTYPE_OFFSET))(type);
+			return ((::System::Type*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_FINDENUMERABLEELEMENTTYPE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsGenericMatch(::System::Type* type, ::System::Object* openType)
+		static ::System::Boolean IsGenericMatch(::System::Type* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISGENERICMATCH_OFFSET))(type, openType);
+			return ((::System::Boolean(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_ISGENERICMATCH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Delegate* CreateDelegate(::System::Type* delegateType, ::System::Reflection::MethodInfo* methodInfo)
+		static ::System::Delegate* CreateDelegate(::System::Type* a1, ::System::Reflection::MethodInfo* a2)
 		{
-			return ((::System::Delegate*(*)(::System::Type*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_CREATEDELEGATE_OFFSET))(delegateType, methodInfo);
+			return ((::System::Delegate*(*)(::System::Type*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_CREATEDELEGATE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Diagnostics::Tracing::TraceLoggingTypeInfo* GetTypeInfoInstance(::System::Type* dataType, ::System::Collections::Generic::List_1<::System::Type*>* recursionCheck)
+		static ::System::Diagnostics::Tracing::TraceLoggingTypeInfo* GetTypeInfoInstance(::System::Type* a1, ::System::Collections::Generic::List_1<::System::Type*>* a2)
 		{
-			return ((::System::Diagnostics::Tracing::TraceLoggingTypeInfo*(*)(::System::Type*, ::System::Collections::Generic::List_1<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETTYPEINFOINSTANCE_OFFSET))(dataType, recursionCheck);
+			return ((::System::Diagnostics::Tracing::TraceLoggingTypeInfo*(*)(::System::Type*, ::System::Collections::Generic::List_1<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_STATICS_GETTYPEINFOINSTANCE_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CharacterReplaceMaterialPartShow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALRENDER_METHOD_2_97B66EE1753DDD2A_OFFSET UNITYSDK_OFFSET(0x187D7170)
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALRENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x187D7320)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALRENDER_METHOD_2_8D1907BFE8AD15C4_OFFSET UNITYSDK_OFFSET(0x19614A20)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALRENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19614BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterReplaceMaterialRender_TypeDefinitionIndex = 16549;
+	inline static constexpr unsigned int CharacterReplaceMaterialRender_TypeDefinitionIndex = 16579;
 
 	class CharacterReplaceMaterialRender : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREPLACEMATERIALRENDER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_97B66EE1753DDD2A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterReplaceMaterialRender*& a2)
+		static ::System::Void Method_2_8D1907BFE8AD15C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterReplaceMaterialRender*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterReplaceMaterialRender*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREPLACEMATERIALRENDER_METHOD_2_97B66EE1753DDD2A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterReplaceMaterialRender*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREPLACEMATERIALRENDER_METHOD_2_8D1907BFE8AD15C4_OFFSET))(a1, a2);
 		}
 	};
 }

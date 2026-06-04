@@ -6,15 +6,15 @@ namespace Epic::OnlineServices { class EpicAccountId; }
 namespace Epic::OnlineServices::Friends { class AcceptInviteOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3F7A0)
-#define EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3F730)
-#define EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x3F5A0)
-#define EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3F720)
-#define EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x3F660)
+#define EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x43640)
+#define EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x435C0)
+#define EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x43430)
+#define EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x435B0)
+#define EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x434F0)
 
 namespace Epic::OnlineServices::Friends
 {
-	inline static constexpr unsigned int AcceptInviteOptionsInternal_TypeDefinitionIndex = 42099;
+	inline static constexpr unsigned int AcceptInviteOptionsInternal_TypeDefinitionIndex = 42902;
 
 	struct alignas(8) AcceptInviteOptionsInternal
 	{
@@ -22,24 +22,24 @@ namespace Epic::OnlineServices::Friends
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::IntPtr m_TargetUserId; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Friends::AcceptInviteOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Friends::AcceptInviteOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Friends::AcceptInviteOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Friends::AcceptInviteOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ACCEPTINVITEOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

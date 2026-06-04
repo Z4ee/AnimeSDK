@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BUBBLENOTIFYCONFIG_METHOD_2_98F26E0D22E2C9BE_OFFSET UNITYSDK_OFFSET(0x1871C640)
-#define RPG_GAMECORE_BUBBLENOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1871C800)
+#define RPG_GAMECORE_BUBBLENOTIFYCONFIG_METHOD_2_98F26E0D22E2C9BE_OFFSET UNITYSDK_OFFSET(0x194EEEE0)
+#define RPG_GAMECORE_BUBBLENOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194EF0A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BubbleNotifyConfig_TypeDefinitionIndex = 16046;
+	inline static constexpr unsigned int BubbleNotifyConfig_TypeDefinitionIndex = 16096;
 
 	class BubbleNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

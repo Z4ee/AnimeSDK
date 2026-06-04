@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Rendering/BatchVisibility.h"
 #include "unitysdk/UnityEngine/Rendering/LODParameters.h"
 
-#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x22E8610)
+#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x38851D0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchCullingContext_TypeDefinitionIndex = 4542;
+	inline static constexpr unsigned int BatchCullingContext_TypeDefinitionIndex = 4716;
 
 	struct alignas(8) BatchCullingContext
 	{
@@ -19,9 +19,9 @@ namespace UnityEngine::Rendering
 		::Unity::Collections::NativeArray_1<::System::Int32> visibleIndices; // 0x30
 		::UnityEngine::Rendering::LODParameters lodParameters; // 0x40
 
-		::System::Void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> inCullingPlanes, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility> inOutBatchVisibility, ::Unity::Collections::NativeArray_1<::System::Int32> outVisibleIndices, ::UnityEngine::Rendering::LODParameters inLodParameters)
+		::System::Void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> a1, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility> a2, ::Unity::Collections::NativeArray_1<::System::Int32> a3, ::UnityEngine::Rendering::LODParameters a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility>, ::Unity::Collections::NativeArray_1<::System::Int32>, ::UnityEngine::Rendering::LODParameters))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET))(this, inCullingPlanes, inOutBatchVisibility, outVisibleIndices, inLodParameters);
+			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility>, ::Unity::Collections::NativeArray_1<::System::Int32>, ::UnityEngine::Rendering::LODParameters))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

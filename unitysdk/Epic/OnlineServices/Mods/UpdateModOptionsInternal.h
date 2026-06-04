@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::Mods { class ModIdentifier; }
 namespace Epic::OnlineServices::Mods { class UpdateModOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x56130)
-#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x560C0)
-#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x55F80)
-#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_MOD_OFFSET UNITYSDK_OFFSET(0x56040)
-#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x560B0)
+#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5AF50)
+#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5AED0)
+#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x5AD90)
+#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_MOD_OFFSET UNITYSDK_OFFSET(0x5AE50)
+#define EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5AEC0)
 
 namespace Epic::OnlineServices::Mods
 {
-	inline static constexpr unsigned int UpdateModOptionsInternal_TypeDefinitionIndex = 41792;
+	inline static constexpr unsigned int UpdateModOptionsInternal_TypeDefinitionIndex = 42595;
 
 	struct alignas(8) UpdateModOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::Mods
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::IntPtr m_Mod; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Mod(::Epic::OnlineServices::Mods::ModIdentifier* value)
+		::System::Void set_Mod(::Epic::OnlineServices::Mods::ModIdentifier* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModIdentifier*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_MOD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModIdentifier*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_MOD_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Mods::UpdateModOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Mods::UpdateModOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::UpdateModOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::UpdateModOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_UPDATEMODOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

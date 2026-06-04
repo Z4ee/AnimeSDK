@@ -8,12 +8,12 @@ namespace RPG::GameCore { class ElationUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ELATIONCONFIG_METHOD_2_8F5C5571DBEA233E_OFFSET UNITYSDK_OFFSET(0x18898230)
-#define RPG_GAMECORE_ELATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18898520)
+#define RPG_GAMECORE_ELATIONCONFIG_METHOD_2_C843BFB2FC9891A4_OFFSET UNITYSDK_OFFSET(0x196D6AA0)
+#define RPG_GAMECORE_ELATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196D6D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationConfig_TypeDefinitionIndex = 15662;
+	inline static constexpr unsigned int ElationConfig_TypeDefinitionIndex = 15719;
 
 	class ElationConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8F5C5571DBEA233E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElationConfig*& a2)
+		static ::System::Void Method_2_C843BFB2FC9891A4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElationConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElationConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONCONFIG_METHOD_2_8F5C5571DBEA233E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElationConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONCONFIG_METHOD_2_C843BFB2FC9891A4_OFFSET))(a1, a2);
 		}
 	};
 }

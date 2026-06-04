@@ -11,11 +11,11 @@
 
 namespace UnityEngine::Rendering { class GrowableBuffer; }
 
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERTEXTUREDESC_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x22DDA10)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERTEXTUREDESC_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x3879C10)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CommandBufferExt_RenderTextureDesc_TypeDefinitionIndex = 33471;
+	inline static constexpr unsigned int CommandBufferExt_RenderTextureDesc_TypeDefinitionIndex = 33753;
 
 	struct alignas(4) CommandBufferExt_RenderTextureDesc
 	{
@@ -33,9 +33,9 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Rendering::RenderTextureFlags flags; // 0x3C
 		::UnityEngine::RenderTextureMemoryless memoryless; // 0x40
 
-		::System::Void Serialize(::UnityEngine::Rendering::GrowableBuffer* buffer)
+		::System::Void Serialize(::UnityEngine::Rendering::GrowableBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::GrowableBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERTEXTUREDESC_SERIALIZE_OFFSET))(this, buffer);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::GrowableBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERTEXTUREDESC_SERIALIZE_OFFSET))(this, a1);
 		}
 	};
 }

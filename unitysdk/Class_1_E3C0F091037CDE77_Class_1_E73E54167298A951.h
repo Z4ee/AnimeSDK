@@ -5,15 +5,15 @@
 namespace Cinemachine { class CinemachineCRPVirtualCamera; }
 namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
-#define CLASS_1_E3C0F091037CDE77_CLASS_1_E73E54167298A951__CTOR_OFFSET UNITYSDK_OFFSET(0x11914D50)
+#define CLASS_1_E3C0F091037CDE77_CLASS_1_E73E54167298A951__CTOR_OFFSET UNITYSDK_OFFSET(0xA736B80)
 
-inline static constexpr unsigned int Class_1_E3C0F091037CDE77_Class_1_E73E54167298A951_TypeDefinitionIndex = 55944;
+inline static constexpr unsigned int Class_1_E3C0F091037CDE77_Class_1_E73E54167298A951_TypeDefinitionIndex = 56700;
 
 class Class_1_E3C0F091037CDE77_Class_1_E73E54167298A951 : public ::System::Object
 {
 public:
-	::Cinemachine::CinemachineCRPVirtualCamera* Field_1_1; // 0x10
-	::UnityEngine::Rendering::CRPVirtualCamera* Field_1_0; // 0x18
+	::Cinemachine::CinemachineCRPVirtualCamera* Field_1_0; // 0x10
+	::UnityEngine::Rendering::CRPVirtualCamera* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

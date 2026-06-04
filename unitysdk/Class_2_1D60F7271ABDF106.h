@@ -1,0 +1,170 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_9E296C95827C90A8.h"
+#include "unitysdk/RPG/GameCore/ActivitySubModeType.h"
+#include "unitysdk/RPG/GameCore/TeamType.h"
+
+class Class_1_4751118EE0EF24B1;
+class Class_1_60477073911AC4F6_1;
+class Class_1_D17272E82AE804C2_30;
+class Class_2_1D60F7271ABDF106_Class_1_98952B4A4DD0BE99;
+class Class_2_716EF029D605CBA8;
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelBattleEventCreate; }
+namespace RPG::GameCore { class LevelCharacterCreate; }
+namespace RPG::GameCore { class LevelEntitySPChange; }
+namespace RPG::GameCore { class LevelEntityUseSkill; }
+namespace RPG::GameCore { class PVEGameStatistics; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_1D60F7271ABDF106_GENSTATISTICS_OFFSET UNITYSDK_OFFSET(0x145F5AC0)
+#define CLASS_2_1D60F7271ABDF106_GET_ACTIVITYSUBMODETYPE_OFFSET UNITYSDK_OFFSET(0x145F56B0)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_077562104BB0E728_OFFSET UNITYSDK_OFFSET(0x145F6EC0)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_08FAB6DC6E7179C7_OFFSET UNITYSDK_OFFSET(0x145F6B00)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_2372762F4122DEB8_OFFSET UNITYSDK_OFFSET(0x145F6420)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_241415826C6DEE63_OFFSET UNITYSDK_OFFSET(0x145F6860)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_259B533085E399D3_OFFSET UNITYSDK_OFFSET(0x145F6390)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_2C95AFAD0256302F_OFFSET UNITYSDK_OFFSET(0x145F5910)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_3B5C6D652C514B37_OFFSET UNITYSDK_OFFSET(0x145F5CF0)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x145F5760)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_43CCCEF234AD9E79_OFFSET UNITYSDK_OFFSET(0x145F6980)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x145F7070)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_60E1F7F58CCF739F_OFFSET UNITYSDK_OFFSET(0x145F57D0)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_6CCD1AEA28EA7E8D_OFFSET UNITYSDK_OFFSET(0x145F6DE0)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_7C412E4C48006725_OFFSET UNITYSDK_OFFSET(0x145F6A90)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_7D6AF4DB83824425_OFFSET UNITYSDK_OFFSET(0x145F6010)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_85C746F74910D9C1_OFFSET UNITYSDK_OFFSET(0x145F6310)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_B395CA350967BA3C_OFFSET UNITYSDK_OFFSET(0x145F5D80)
+#define CLASS_2_1D60F7271ABDF106_METHOD_2_C84D8ED3128C97E8_OFFSET UNITYSDK_OFFSET(0x145F6490)
+#define CLASS_2_1D60F7271ABDF106_ONBATTLEINSTANCECREATED_OFFSET UNITYSDK_OFFSET(0x145F56C0)
+#define CLASS_2_1D60F7271ABDF106__CTOR_OFFSET UNITYSDK_OFFSET(0x145F6F70)
+#define CLASS_2_1D60F7271ABDF106___IFIXBASEPROXY_GENSTATISTICS_OFFSET UNITYSDK_OFFSET(0x145F70D0)
+#define CLASS_2_1D60F7271ABDF106___IFIXBASEPROXY_ONBATTLEINSTANCECREATED_OFFSET UNITYSDK_OFFSET(0x145F7010)
+
+inline static constexpr unsigned int Class_2_1D60F7271ABDF106_TypeDefinitionIndex = 52284;
+
+class Class_2_1D60F7271ABDF106 : public ::Class_1_9E296C95827C90A8
+{
+public:
+	::System::Collections::Generic::List_1<::Class_1_60477073911AC4F6_1*>* Field_2_0; // 0x30
+	::RPG::GameCore::GameEntity* Field_2_1; // 0x38
+	::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_30*>* Field_2_2; // 0x40
+	::System::Collections::Generic::List_1<::Class_2_1D60F7271ABDF106_Class_1_98952B4A4DD0BE99*>* Field_2_3; // 0x48
+	::RPG::GameCore::GameEntity* Field_2_4; // 0x50
+	::System::UInt32 Field_2_5; // 0x58
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106__CTOR_OFFSET))(this);
+	}
+
+	::RPG::GameCore::ActivitySubModeType get_ActivitySubModeType()
+	{
+		return ((::RPG::GameCore::ActivitySubModeType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_GET_ACTIVITYSUBMODETYPE_OFFSET))(this);
+	}
+
+	::System::Void OnBattleInstanceCreated()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_ONBATTLEINSTANCECREATED_OFFSET))(this);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void GenStatistics(::RPG::GameCore::PVEGameStatistics* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PVEGameStatistics*))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_GENSTATISTICS_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_3B5C6D652C514B37(::Class_1_4751118EE0EF24B1* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_4751118EE0EF24B1*))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_3B5C6D652C514B37_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_7D6AF4DB83824425(::RPG::GameCore::LevelEntityUseSkill* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelEntityUseSkill*))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_7D6AF4DB83824425_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_C84D8ED3128C97E8(::RPG::GameCore::LevelEntitySPChange* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelEntitySPChange*))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_C84D8ED3128C97E8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_241415826C6DEE63(::RPG::GameCore::LevelCharacterCreate* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelCharacterCreate*))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_241415826C6DEE63_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_43CCCEF234AD9E79(::RPG::GameCore::LevelBattleEventCreate* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelBattleEventCreate*))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_43CCCEF234AD9E79_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_7C412E4C48006725(::Class_2_716EF029D605CBA8* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_716EF029D605CBA8*))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_7C412E4C48006725_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_08FAB6DC6E7179C7(::RPG::GameCore::TeamType a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamType))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_08FAB6DC6E7179C7_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_2C95AFAD0256302F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_2C95AFAD0256302F_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B395CA350967BA3C(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_B395CA350967BA3C_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_60E1F7F58CCF739F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_60E1F7F58CCF739F_OFFSET))(this);
+	}
+
+	::System::Double Method_2_6CCD1AEA28EA7E8D(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Double(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_6CCD1AEA28EA7E8D_OFFSET))(this, a1);
+	}
+
+	::System::Double Method_2_85C746F74910D9C1()
+	{
+		return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_85C746F74910D9C1_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_2_259B533085E399D3()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_259B533085E399D3_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_2_2372762F4122DEB8()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_2372762F4122DEB8_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_2_077562104BB0E728()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_077562104BB0E728_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_OnBattleInstanceCreated()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106___IFIXBASEPROXY_ONBATTLEINSTANCECREATED_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106_METHOD_2_5790A55946AA509D_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_GenStatistics(::RPG::GameCore::PVEGameStatistics* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PVEGameStatistics*))((::PBYTE)hIl2Cpp + CLASS_2_1D60F7271ABDF106___IFIXBASEPROXY_GENSTATISTICS_OFFSET))(this, a1);
+	}
+};

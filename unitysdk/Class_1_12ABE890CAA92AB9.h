@@ -7,23 +7,23 @@ namespace Google::Protobuf::Collections { template <typename T1, typename T2> cl
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_16A5F3C78DDA767F_OFFSET UNITYSDK_OFFSET(0x1212B8C0)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_2CD49A0EAC7162BE_OFFSET UNITYSDK_OFFSET(0x1212B880)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_30486951A69C066B_OFFSET UNITYSDK_OFFSET(0x1212BDB0)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_3ACD76C7F548B61E_OFFSET UNITYSDK_OFFSET(0x1212BE80)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x1212BCA0)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_580B926F5C52ECD8_OFFSET UNITYSDK_OFFSET(0x1212C5A0)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_82CE54112EE2CFCC_OFFSET UNITYSDK_OFFSET(0x1212C1F0)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_DDAF84B8B9CBACC7_OFFSET UNITYSDK_OFFSET(0x1212BF40)
-#define CLASS_1_12ABE890CAA92AB9__CTOR_OFFSET UNITYSDK_OFFSET(0x1212C6B0)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_2CD49A0EAC7162BE_OFFSET UNITYSDK_OFFSET(0x1431C100)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_30486951A69C066B_OFFSET UNITYSDK_OFFSET(0x1431C5B0)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_3ACD76C7F548B61E_OFFSET UNITYSDK_OFFSET(0x1431C670)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_580B926F5C52ECD8_OFFSET UNITYSDK_OFFSET(0x1431CD70)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_82CE54112EE2CFCC_OFFSET UNITYSDK_OFFSET(0x1431C9E0)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_8A5D97B1DC91D305_OFFSET UNITYSDK_OFFSET(0x1431C140)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x1431C4C0)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_F3EED4A2062C5ADB_OFFSET UNITYSDK_OFFSET(0x1431C730)
+#define CLASS_1_12ABE890CAA92AB9__CTOR_OFFSET UNITYSDK_OFFSET(0x1431CE90)
 
-inline static constexpr unsigned int Class_1_12ABE890CAA92AB9_TypeDefinitionIndex = 51883;
+inline static constexpr unsigned int Class_1_12ABE890CAA92AB9_TypeDefinitionIndex = 52557;
 
 class Class_1_12ABE890CAA92AB9 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* Field_1_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -35,14 +35,14 @@ public:
 		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_12ABE890CAA92AB9_METHOD_1_2CD49A0EAC7162BE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_16A5F3C78DDA767F(::Class_1_12ABE890CAA92AB9* a1)
+	::System::Void Method_1_8A5D97B1DC91D305(::Class_1_12ABE890CAA92AB9* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_12ABE890CAA92AB9*))((::PBYTE)hIl2Cpp + CLASS_1_12ABE890CAA92AB9_METHOD_1_16A5F3C78DDA767F_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_12ABE890CAA92AB9*))((::PBYTE)hIl2Cpp + CLASS_1_12ABE890CAA92AB9_METHOD_1_8A5D97B1DC91D305_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_41A074549EF25F63()
+	::System::Void Method_1_E7EF6BC52B28648C()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_12ABE890CAA92AB9_METHOD_1_41A074549EF25F63_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_12ABE890CAA92AB9_METHOD_1_E7EF6BC52B28648C_OFFSET))(this);
 	}
 
 	::RPG::GameCore::FixPoint Method_1_30486951A69C066B(::System::String* a1)
@@ -55,9 +55,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_12ABE890CAA92AB9_METHOD_1_3ACD76C7F548B61E_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_DDAF84B8B9CBACC7(::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>* a1, ::System::Boolean a2)
+	::System::Void Method_1_F3EED4A2062C5ADB(::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_12ABE890CAA92AB9_METHOD_1_DDAF84B8B9CBACC7_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_12ABE890CAA92AB9_METHOD_1_F3EED4A2062C5ADB_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_82CE54112EE2CFCC(::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>* a1)

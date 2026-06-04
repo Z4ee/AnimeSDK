@@ -7,19 +7,19 @@ namespace InControl { class BindingListenOptions; }
 namespace InControl { class BindingSource; }
 namespace InControl { class InputDevice; }
 
-#define INCONTROL_KEYBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x1717C9C0)
-#define INCONTROL_KEYBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x1717C970)
-#define INCONTROL_KEYBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1717CAE0)
+#define INCONTROL_KEYBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x17FC3EE0)
+#define INCONTROL_KEYBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x17FC3E90)
+#define INCONTROL_KEYBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x17FC4000)
 
 namespace InControl
 {
-	inline static constexpr unsigned int KeyBindingSourceListener_TypeDefinitionIndex = 37105;
+	inline static constexpr unsigned int KeyBindingSourceListener_TypeDefinitionIndex = 37837;
 
 	class KeyBindingSourceListener : public ::System::Object
 	{
 	public:
-		::System::Int32 detectPhase; // 0x10
-		::InControl::KeyCombo detectFound; // 0x18
+		::InControl::KeyCombo detectFound; // 0x10
+		::System::Int32 detectPhase; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_KEYBINDINGSOURCELISTENER_RESET_OFFSET))(this);
 		}
 
-		::InControl::BindingSource* Listen(::InControl::BindingListenOptions* listenOptions, ::InControl::InputDevice* device)
+		::InControl::BindingSource* Listen(::InControl::BindingListenOptions* a1, ::InControl::InputDevice* a2)
 		{
-			return ((::InControl::BindingSource*(*)(::PVOID, ::InControl::BindingListenOptions*, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_KEYBINDINGSOURCELISTENER_LISTEN_OFFSET))(this, listenOptions, device);
+			return ((::InControl::BindingSource*(*)(::PVOID, ::InControl::BindingListenOptions*, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_KEYBINDINGSOURCELISTENER_LISTEN_OFFSET))(this, a1, a2);
 		}
 	};
 }

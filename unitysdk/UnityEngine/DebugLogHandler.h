@@ -8,16 +8,16 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1A438320)
-#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOG_OFFSET UNITYSDK_OFFSET(0x1A438310)
-#define UNITYENGINE_DEBUGLOGHANDLER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1A4383F0)
-#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1A436C10)
-#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1A438330)
-#define UNITYENGINE_DEBUGLOGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A438300)
+#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1B289D00)
+#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOG_OFFSET UNITYSDK_OFFSET(0x1B289CF0)
+#define UNITYENGINE_DEBUGLOGHANDLER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1B289D50)
+#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1B288620)
+#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1B289D10)
+#define UNITYENGINE_DEBUGLOGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B289CE0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DebugLogHandler_TypeDefinitionIndex = 3881;
+	inline static constexpr unsigned int DebugLogHandler_TypeDefinitionIndex = 4055;
 
 	class DebugLogHandler : public ::System::Object
 	{
@@ -27,29 +27,29 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Internal_Log(::UnityEngine::LogType level, ::UnityEngine::LogOption options, ::System::String* msg, ::UnityEngine::Object* obj)
+		static ::System::Void Internal_Log(::UnityEngine::LogType a1, ::UnityEngine::LogOption a2, ::System::String* a3, ::UnityEngine::Object* a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::LogType, ::UnityEngine::LogOption, ::System::String*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOG_OFFSET))(level, options, msg, obj);
+			return ((::System::Void(*)(::UnityEngine::LogType, ::UnityEngine::LogOption, ::System::String*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOG_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Internal_LogException(::System::Exception* exception, ::UnityEngine::Object* obj)
+		static ::System::Void Internal_LogException(::System::Exception* a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::System::Exception*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOGEXCEPTION_OFFSET))(exception, obj);
+			return ((::System::Void(*)(::System::Exception*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOGEXCEPTION_OFFSET))(a1, a2);
 		}
 
-		::System::Void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::System::String* format, ::Il2CppArray<::System::Object*>* args)
+		::System::Void LogFormat(::UnityEngine::LogType a1, ::UnityEngine::Object* a2, ::System::String* a3, ::Il2CppArray<::System::Object*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::UnityEngine::Object*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_OFFSET))(this, logType, context, format, args);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::UnityEngine::Object*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void LogFormat_1(::UnityEngine::LogType logType, ::UnityEngine::LogOption logOptions, ::UnityEngine::Object* context, ::System::String* format, ::Il2CppArray<::System::Object*>* args)
+		::System::Void LogFormat_1(::UnityEngine::LogType a1, ::UnityEngine::LogOption a2, ::UnityEngine::Object* a3, ::System::String* a4, ::Il2CppArray<::System::Object*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::UnityEngine::LogOption, ::UnityEngine::Object*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_1_OFFSET))(this, logType, logOptions, context, format, args);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LogType, ::UnityEngine::LogOption, ::UnityEngine::Object*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void LogException(::System::Exception* exception, ::UnityEngine::Object* context)
+		::System::Void LogException(::System::Exception* a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_LOGEXCEPTION_OFFSET))(this, exception, context);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_LOGEXCEPTION_OFFSET))(this, a1, a2);
 		}
 	};
 }

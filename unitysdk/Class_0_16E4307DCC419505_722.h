@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_AAD4F4215611A944.h"
 
-class Class_0_16E4307DCC419505_718;
-class Class_0_16E4307DCC419505_719;
-class Class_0_16E4307DCC419505_720;
+namespace RPG::AvatarSystem { class IAvatar; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_722_TypeDefinitionIndex = 59383;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_722_TypeDefinitionIndex = 58778;
 
 class Class_0_16E4307DCC419505_722
 {

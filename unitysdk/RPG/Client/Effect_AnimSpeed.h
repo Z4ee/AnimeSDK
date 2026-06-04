@@ -6,12 +6,12 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_EFFECT_ANIMSPEED_UPDATE_OFFSET UNITYSDK_OFFSET(0xA1BF750)
-#define RPG_CLIENT_EFFECT_ANIMSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0xA1BF920)
+#define RPG_CLIENT_EFFECT_ANIMSPEED_UPDATE_OFFSET UNITYSDK_OFFSET(0xB8423F0)
+#define RPG_CLIENT_EFFECT_ANIMSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0xB8425C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_AnimSpeed_TypeDefinitionIndex = 64929;
+	inline static constexpr unsigned int Effect_AnimSpeed_TypeDefinitionIndex = 65855;
 
 	class Effect_AnimSpeed : public ::UnityEngine::MonoBehaviour
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONOPERFORMANCECRPCAMERASMALLWINDOWUIMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0xA9E9EF0)
+#define RPG_CLIENT_MONOPERFORMANCECRPCAMERASMALLWINDOWUIMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0xC138250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPerformanceCRPCameraSmallWindowUIMarker_TypeDefinitionIndex = 55941;
+	inline static constexpr unsigned int MonoPerformanceCRPCameraSmallWindowUIMarker_TypeDefinitionIndex = 56697;
 
 	class MonoPerformanceCRPCameraSmallWindowUIMarker : public ::UnityEngine::MonoBehaviour
 	{

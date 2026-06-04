@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBALLVIEW_EXAMPLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB2C22E0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBALLVIEW_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xB2C2420)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBALLVIEW_EXAMPLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCA11BB0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSBALLVIEW_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xCA11CF0)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersBallView_Example_TypeDefinitionIndex = 69759;
+	inline static constexpr unsigned int TeamTowersBallView_Example_TypeDefinitionIndex = 70571;
 
 	class TeamTowersBallView_Example : public ::UnityEngine::MonoBehaviour
 	{

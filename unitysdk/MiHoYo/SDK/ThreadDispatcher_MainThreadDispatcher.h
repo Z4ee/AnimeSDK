@@ -6,14 +6,14 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_DISPATCHTOMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1765DE50)
-#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1765E220)
-#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1765DFE0)
-#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1765DF80)
+#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_DISPATCHTOMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1842EF10)
+#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1842F300)
+#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1842F0E0)
+#define MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1842F090)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThreadDispatcher_MainThreadDispatcher_TypeDefinitionIndex = 7071;
+	inline static constexpr unsigned int ThreadDispatcher_MainThreadDispatcher_TypeDefinitionIndex = 7974;
 
 	class ThreadDispatcher_MainThreadDispatcher : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,9 +26,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void DispatchToMainThread(::System::Action* action)
+		::System::Void DispatchToMainThread(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_DISPATCHTOMAINTHREAD_OFFSET))(this, action);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER_MAINTHREADDISPATCHER_DISPATCHTOMAINTHREAD_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()

@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_6D4DDF404C3CCC18.h"
+#include "unitysdk/Enum_3_75A5C8C4100A8E33_1.h"
+
+class Class_1_355A2207C3B7A99D_35;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_99A68403C515663E_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x13B3A940)
+#define CLASS_2_99A68403C515663E_METHOD_2_70437D85C11C5222_OFFSET UNITYSDK_OFFSET(0x13B3A9F0)
+#define CLASS_2_99A68403C515663E_METHOD_2_8CD1A6D1096A6CB7_OFFSET UNITYSDK_OFFSET(0x13B3AC20)
+#define CLASS_2_99A68403C515663E_UPDATEDONE_OFFSET UNITYSDK_OFFSET(0x13B3AA90)
+#define CLASS_2_99A68403C515663E_UPDATESTART_OFFSET UNITYSDK_OFFSET(0x13B3A990)
+#define CLASS_2_99A68403C515663E__CTOR_OFFSET UNITYSDK_OFFSET(0x13B3AB00)
+#define CLASS_2_99A68403C515663E___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x13B3AB60)
+#define CLASS_2_99A68403C515663E___IFIXBASEPROXY_UPDATEDONE_OFFSET UNITYSDK_OFFSET(0x13B3AC80)
+#define CLASS_2_99A68403C515663E___IFIXBASEPROXY_UPDATESTART_OFFSET UNITYSDK_OFFSET(0x13B3ABC0)
+
+inline static constexpr unsigned int Class_2_99A68403C515663E_TypeDefinitionIndex = 60167;
+
+class Class_2_99A68403C515663E : public ::Class_1_6D4DDF404C3CCC18
+{
+public:
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_99A68403C515663E__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + CLASS_2_99A68403C515663E_ISCONCERNEDWITH_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateStart()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_99A68403C515663E_UPDATESTART_OFFSET))(this);
+	}
+
+	::System::Void Method_2_70437D85C11C5222(::Class_1_355A2207C3B7A99D_35* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_355A2207C3B7A99D_35*))((::PBYTE)hIl2Cpp + CLASS_2_99A68403C515663E_METHOD_2_70437D85C11C5222_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateDone()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_99A68403C515663E_UPDATEDONE_OFFSET))(this);
+	}
+
+	::System::Boolean __iFixBaseProxy_IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + CLASS_2_99A68403C515663E___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET))(this, a1);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateStart()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_99A68403C515663E___IFIXBASEPROXY_UPDATESTART_OFFSET))(this);
+	}
+
+	::System::Void Method_2_8CD1A6D1096A6CB7(::Class_1_355A2207C3B7A99D_35* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_355A2207C3B7A99D_35*))((::PBYTE)hIl2Cpp + CLASS_2_99A68403C515663E_METHOD_2_8CD1A6D1096A6CB7_OFFSET))(this, a1);
+	}
+
+	::System::Void __iFixBaseProxy_UpdateDone()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_99A68403C515663E___IFIXBASEPROXY_UPDATEDONE_OFFSET))(this);
+	}
+};

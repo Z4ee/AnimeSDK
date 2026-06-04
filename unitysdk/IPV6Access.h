@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IPV6ACCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x8CDA3D0)
+#define IPV6ACCESS__CTOR_OFFSET UNITYSDK_OFFSET(0xA132FC0)
 
-inline static constexpr unsigned int IPV6Access_TypeDefinitionIndex = 40928;
+inline static constexpr unsigned int IPV6Access_TypeDefinitionIndex = 41746;
 
 class IPV6Access : public ::System::Object
 {

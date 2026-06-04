@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int TriangulationMode_TypeDefinitionIndex = 35516;
+	inline static constexpr unsigned int TriangulationMode_TypeDefinitionIndex = 35816;
 
 	enum class TriangulationMode : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_APPDOMAINUNLOADEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x177D6E40)
-#define SYSTEM_APPDOMAINUNLOADEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x177D6DA0)
+#define SYSTEM_APPDOMAINUNLOADEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18591500)
+#define SYSTEM_APPDOMAINUNLOADEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18591460)
 
 namespace System
 {
-	inline static constexpr unsigned int AppDomainUnloadedException_TypeDefinitionIndex = 191;
+	inline static constexpr unsigned int AppDomainUnloadedException_TypeDefinitionIndex = 190;
 
 	class AppDomainUnloadedException : public ::System::SystemException
 	{
@@ -20,9 +20,9 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAINUNLOADEDEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAINUNLOADEDEXCEPTION__CTOR_1_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAINUNLOADEDEXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -1,0 +1,143 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AkCallbackType.h"
+#include "unitysdk/RPG/GameCore/RhythmType.h"
+#include "unitysdk/System/Object.h"
+
+class AkCallbackInfo;
+class Class_1_264CBC9990CBF1CF;
+namespace RPG::Client { class MusicAlbumItemData; }
+namespace RPG::Client { class PlayingMusicItemsInfo; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
+
+#define CLASS_1_A4735193F3DD293E_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x145F4B30)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_259B533085E399D3_OFFSET UNITYSDK_OFFSET(0x145F51F0)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_4DC99A0E8033A1A2_OFFSET UNITYSDK_OFFSET(0x145F3C60)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_507A5122CD01412B_OFFSET UNITYSDK_OFFSET(0x145F49F0)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_53D01BC7BE0C0CAC_OFFSET UNITYSDK_OFFSET(0x145F4DA0)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_5FADAD33E5DFB869_OFFSET UNITYSDK_OFFSET(0x145F5080)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_66DA1341D0E89F4E_OFFSET UNITYSDK_OFFSET(0x145F4350)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_68805403250CC013_OFFSET UNITYSDK_OFFSET(0x145F3B90)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_773D5150160402D6_OFFSET UNITYSDK_OFFSET(0x145F4C00)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_7952C32242C5A7A5_OFFSET UNITYSDK_OFFSET(0x145F5020)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_7F2F55863B6AB3D6_OFFSET UNITYSDK_OFFSET(0x145F4EF0)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_88B6069F4E88CA16_OFFSET UNITYSDK_OFFSET(0x145F5300)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_8B1D6514BFAE88DD_OFFSET UNITYSDK_OFFSET(0x145F41B0)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_8DA2C45C7019FA48_OFFSET UNITYSDK_OFFSET(0x145F50E0)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_99D60EF23C904C6D_OFFSET UNITYSDK_OFFSET(0x145F3E70)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_A56385E6706FA723_OFFSET UNITYSDK_OFFSET(0x145F4030)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_B8746CF4034D9E80_OFFSET UNITYSDK_OFFSET(0x145F42B0)
+#define CLASS_1_A4735193F3DD293E_METHOD_1_D709F71E4AD1462C_OFFSET UNITYSDK_OFFSET(0x145F5250)
+#define CLASS_1_A4735193F3DD293E__CTOR_OFFSET UNITYSDK_OFFSET(0x145F5450)
+
+inline static constexpr unsigned int Class_1_A4735193F3DD293E_TypeDefinitionIndex = 55863;
+
+class Class_1_A4735193F3DD293E : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1<::Class_1_264CBC9990CBF1CF*>* Field_1_0; // 0x10
+	::RPG::Client::MusicAlbumItemData* Field_1_1; // 0x18
+	::UnityEngine::GameObject* Field_1_2; // 0x20
+	::System::Single Field_1_3; // 0x28
+	::System::Single Field_1_4; // 0x2C
+	::System::UInt32 Field_1_5; // 0x30
+	::System::Boolean Field_1_6; // 0x34
+	::System::UInt32 Field_1_7; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_68805403250CC013()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_68805403250CC013_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4DC99A0E8033A1A2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_4DC99A0E8033A1A2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_99D60EF23C904C6D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_99D60EF23C904C6D_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B8746CF4034D9E80(::UnityEngine::GameObject* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_B8746CF4034D9E80_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_A56385E6706FA723()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_A56385E6706FA723_OFFSET))(this);
+	}
+
+	::System::Void Method_1_66DA1341D0E89F4E(::RPG::Client::PlayingMusicItemsInfo* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayingMusicItemsInfo*))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_66DA1341D0E89F4E_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_1_7F2F55863B6AB3D6(::System::Single a1, ::System::Single a2)
+	{
+		return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_7F2F55863B6AB3D6_OFFSET))(this, a1, a2);
+	}
+
+	::System::UInt32 Method_1_7952C32242C5A7A5()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_7952C32242C5A7A5_OFFSET))(this);
+	}
+
+	::RPG::GameCore::RhythmType Method_1_5FADAD33E5DFB869()
+	{
+		return ((::RPG::GameCore::RhythmType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_5FADAD33E5DFB869_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_8DA2C45C7019FA48()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_8DA2C45C7019FA48_OFFSET))(this);
+	}
+
+	::System::Void Method_1_D709F71E4AD1462C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_D709F71E4AD1462C_OFFSET))(this);
+	}
+
+	::System::Void Method_1_88B6069F4E88CA16(::System::UInt32 a1, ::AkCallbackType a2, ::AkCallbackInfo* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_88B6069F4E88CA16_OFFSET))(this, a1, a2, a3);
+	}
+
+	::Class_1_264CBC9990CBF1CF* Method_1_773D5150160402D6(::System::String* a1)
+	{
+		return ((::Class_1_264CBC9990CBF1CF*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_773D5150160402D6_OFFSET))(this, a1);
+	}
+
+	::Class_1_264CBC9990CBF1CF* Method_1_53D01BC7BE0C0CAC()
+	{
+		return ((::Class_1_264CBC9990CBF1CF*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_53D01BC7BE0C0CAC_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_507A5122CD01412B()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_507A5122CD01412B_OFFSET))(this);
+	}
+
+	::System::Void Method_1_8B1D6514BFAE88DD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_8B1D6514BFAE88DD_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_259B533085E399D3()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4735193F3DD293E_METHOD_1_259B533085E399D3_OFFSET))(this);
+	}
+};

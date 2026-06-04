@@ -5,23 +5,23 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMETRAIT_TRAITLAYERSUMMARIZER_UPDATEDONE_OFFSET UNITYSDK_OFFSET(0xA4E6800)
-#define RPG_CLIENT_GRIDFIGHTGAMETRAIT_TRAITLAYERSUMMARIZER_UPDATESTART_OFFSET UNITYSDK_OFFSET(0xA4E6080)
-#define RPG_CLIENT_GRIDFIGHTGAMETRAIT_TRAITLAYERSUMMARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0xA4E70F0)
-#define RPG_CLIENT_GRIDFIGHTGAMETRAIT_TRAITLAYERSUMMARIZER___IFIXBASEPROXY_UPDATEDONE_OFFSET UNITYSDK_OFFSET(0xA4E72F0)
-#define RPG_CLIENT_GRIDFIGHTGAMETRAIT_TRAITLAYERSUMMARIZER___IFIXBASEPROXY_UPDATESTART_OFFSET UNITYSDK_OFFSET(0xA4E7290)
+#define RPG_CLIENT_GRIDFIGHTGAMETRAIT_TRAITLAYERSUMMARIZER_UPDATEDONE_OFFSET UNITYSDK_OFFSET(0xBB8D070)
+#define RPG_CLIENT_GRIDFIGHTGAMETRAIT_TRAITLAYERSUMMARIZER_UPDATESTART_OFFSET UNITYSDK_OFFSET(0xBB8C9E0)
+#define RPG_CLIENT_GRIDFIGHTGAMETRAIT_TRAITLAYERSUMMARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0xBB8D7A0)
+#define RPG_CLIENT_GRIDFIGHTGAMETRAIT_TRAITLAYERSUMMARIZER___IFIXBASEPROXY_UPDATEDONE_OFFSET UNITYSDK_OFFSET(0xBB8D9B0)
+#define RPG_CLIENT_GRIDFIGHTGAMETRAIT_TRAITLAYERSUMMARIZER___IFIXBASEPROXY_UPDATESTART_OFFSET UNITYSDK_OFFSET(0xBB8D950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameTrait_TraitLayerSummarizer_TypeDefinitionIndex = 60215;
+	inline static constexpr unsigned int GridFightGameTrait_TraitLayerSummarizer_TypeDefinitionIndex = 61150;
 
 	class GridFightGameTrait_TraitLayerSummarizer : public ::Class_1_6D4DDF404C3CCC18
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _ActivedTraitEffectIDs; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Boolean>* _LegacyTraitEffectActive; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _LegacyTraitLayer; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _ActivedTraitEffectIDs; // 0x18
 		::System::Collections::Generic::List_1<::System::UInt32>* _UpgradedTraitIDs; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _LegacyTraitLayer; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Boolean>* _LegacyTraitEffectActive; // 0x28
 
 		::System::Void _ctor()
 		{

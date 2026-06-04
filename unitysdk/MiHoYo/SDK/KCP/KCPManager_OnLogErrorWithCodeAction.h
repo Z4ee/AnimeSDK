@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8D26E00)
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8D26E80)
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x8D258A0)
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x8D26DE0)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA17E530)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA17E5B0)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xA17D200)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA17E4C0)
 
 namespace MiHoYo::SDK::KCP
 {
-	inline static constexpr unsigned int KCPManager_OnLogErrorWithCodeAction_TypeDefinitionIndex = 43253;
+	inline static constexpr unsigned int KCPManager_OnLogErrorWithCodeAction_TypeDefinitionIndex = 44056;
 
 	class KCPManager_OnLogErrorWithCodeAction : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::KCPErrorCode code, ::System::String* errorMessage)
+		::System::Void Invoke(::MiHoYo::SDK::KCPErrorCode a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::KCPErrorCode, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_INVOKE_OFFSET))(this, code, errorMessage);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::KCPErrorCode, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::KCPErrorCode code, ::System::String* errorMessage, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::KCPErrorCode a1, ::System::String* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::KCPErrorCode, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_BEGININVOKE_OFFSET))(this, code, errorMessage, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::KCPErrorCode, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGERRORWITHCODEACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

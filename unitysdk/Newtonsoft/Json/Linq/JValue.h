@@ -14,52 +14,52 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_LINQ_JVALUE_CLONETOKEN_OFFSET UNITYSDK_OFFSET(0x17A96F80)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_COMPAREFLOAT_OFFSET UNITYSDK_OFFSET(0x17A96DB0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_COMPARE_OFFSET UNITYSDK_OFFSET(0x17A96690)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_CREATECOMMENT_OFFSET UNITYSDK_OFFSET(0x17A93140)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_CREATENULL_OFFSET UNITYSDK_OFFSET(0x17A93190)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_CREATEUNDEFINED_OFFSET UNITYSDK_OFFSET(0x17A931E0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_DEEPEQUALS_OFFSET UNITYSDK_OFFSET(0x17A965B0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x17A97860)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x17A97810)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_GETDEEPHASHCODE_OFFSET UNITYSDK_OFFSET(0x17A977D0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17A978E0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_GETSTRINGVALUETYPE_OFFSET UNITYSDK_OFFSET(0x17A96FE0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_GETVALUETYPE_OFFSET UNITYSDK_OFFSET(0x17A96360)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_GET_HASVALUES_OFFSET UNITYSDK_OFFSET(0x17A96680)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17A97010)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x17A97020)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICOMPARABLE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x17A97A50)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x17A97AB0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x17A97B80)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOBYTE_OFFSET UNITYSDK_OFFSET(0x17A97C10)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOCHAR_OFFSET UNITYSDK_OFFSET(0x17A97BB0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODATETIME_OFFSET UNITYSDK_OFFSET(0x17A97E10)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x17A97DC0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x17A97D90)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT16_OFFSET UNITYSDK_OFFSET(0x17A97C40)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT32_OFFSET UNITYSDK_OFFSET(0x17A97CA0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT64_OFFSET UNITYSDK_OFFSET(0x17A97D00)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOSBYTE_OFFSET UNITYSDK_OFFSET(0x17A97BE0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x17A97D60)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOTYPE_OFFSET UNITYSDK_OFFSET(0x17A97E40)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT16_OFFSET UNITYSDK_OFFSET(0x17A97C70)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT32_OFFSET UNITYSDK_OFFSET(0x17A97CD0)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT64_OFFSET UNITYSDK_OFFSET(0x17A97D30)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x17A97940)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x17A97950)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17A97910)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_VALUESEQUALS_OFFSET UNITYSDK_OFFSET(0x17A96630)
-#define NEWTONSOFT_JSON_LINQ_JVALUE_WRITETO_OFFSET UNITYSDK_OFFSET(0x17A97030)
-#define NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A8B990)
-#define NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17A91650)
-#define NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x17A92F10)
-#define NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A8BA20)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_CLONETOKEN_OFFSET UNITYSDK_OFFSET(0x188470F0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_COMPAREFLOAT_OFFSET UNITYSDK_OFFSET(0x18846F20)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_COMPARE_OFFSET UNITYSDK_OFFSET(0x188467D0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_CREATECOMMENT_OFFSET UNITYSDK_OFFSET(0x188433D0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_CREATENULL_OFFSET UNITYSDK_OFFSET(0x18843420)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_CREATEUNDEFINED_OFFSET UNITYSDK_OFFSET(0x18843470)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_DEEPEQUALS_OFFSET UNITYSDK_OFFSET(0x188466F0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x188479E0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x18847990)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_GETDEEPHASHCODE_OFFSET UNITYSDK_OFFSET(0x18847950)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18847A70)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_GETSTRINGVALUETYPE_OFFSET UNITYSDK_OFFSET(0x18847150)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_GETVALUETYPE_OFFSET UNITYSDK_OFFSET(0x18846460)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_GET_HASVALUES_OFFSET UNITYSDK_OFFSET(0x188467C0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x18847180)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x18847190)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICOMPARABLE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x18847C00)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x18847C60)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x18847D30)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOBYTE_OFFSET UNITYSDK_OFFSET(0x18847DC0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOCHAR_OFFSET UNITYSDK_OFFSET(0x18847D60)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODATETIME_OFFSET UNITYSDK_OFFSET(0x18847FC0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x18847F70)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x18847F40)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT16_OFFSET UNITYSDK_OFFSET(0x18847DF0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT32_OFFSET UNITYSDK_OFFSET(0x18847E50)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT64_OFFSET UNITYSDK_OFFSET(0x18847EB0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOSBYTE_OFFSET UNITYSDK_OFFSET(0x18847D90)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x18847F10)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOTYPE_OFFSET UNITYSDK_OFFSET(0x18847FF0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT16_OFFSET UNITYSDK_OFFSET(0x18847E20)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT32_OFFSET UNITYSDK_OFFSET(0x18847E80)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT64_OFFSET UNITYSDK_OFFSET(0x18847EE0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x18847AD0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x18847AE0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18847AA0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_VALUESEQUALS_OFFSET UNITYSDK_OFFSET(0x18846770)
+#define NEWTONSOFT_JSON_LINQ_JVALUE_WRITETO_OFFSET UNITYSDK_OFFSET(0x188471A0)
+#define NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1883AB10)
+#define NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18841880)
+#define NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x18843190)
+#define NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1883ABA0)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JValue_TypeDefinitionIndex = 8539;
+	inline static constexpr unsigned int JValue_TypeDefinitionIndex = 9442;
 
 	class JValue : public ::Newtonsoft::Json::Linq::JToken
 	{
@@ -67,29 +67,29 @@ namespace Newtonsoft::Json::Linq
 		::System::Object* _value; // 0x30
 		::Newtonsoft::Json::Linq::JTokenType _valueType; // 0x38
 
-		::System::Void _ctor(::System::Object* value, ::Newtonsoft::Json::Linq::JTokenType type)
+		::System::Void _ctor(::System::Object* a1, ::Newtonsoft::Json::Linq::JTokenType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Newtonsoft::Json::Linq::JTokenType))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_OFFSET))(this, value, type);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Newtonsoft::Json::Linq::JTokenType))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::Newtonsoft::Json::Linq::JValue* other)
+		::System::Void _ctor_1(::Newtonsoft::Json::Linq::JValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Linq::JValue*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Linq::JValue*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* value)
+		::System::Void _ctor_2(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_2_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_2_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_3(::System::Object* value)
+		::System::Void _ctor_3(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_3_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE__CTOR_3_OFFSET))(this, a1);
 		}
 
-		::System::Boolean DeepEquals(::Newtonsoft::Json::Linq::JToken* node)
+		::System::Boolean DeepEquals(::Newtonsoft::Json::Linq::JToken* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::Linq::JToken*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_DEEPEQUALS_OFFSET))(this, node);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::Linq::JToken*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_DEEPEQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasValues()
@@ -97,14 +97,14 @@ namespace Newtonsoft::Json::Linq
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_GET_HASVALUES_OFFSET))(this);
 		}
 
-		static ::System::Int32 Compare(::Newtonsoft::Json::Linq::JTokenType valueType, ::System::Object* objA, ::System::Object* objB)
+		static ::System::Int32 Compare(::Newtonsoft::Json::Linq::JTokenType a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::Int32(*)(::Newtonsoft::Json::Linq::JTokenType, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_COMPARE_OFFSET))(valueType, objA, objB);
+			return ((::System::Int32(*)(::Newtonsoft::Json::Linq::JTokenType, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_COMPARE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 CompareFloat(::System::Object* objA, ::System::Object* objB)
+		static ::System::Int32 CompareFloat(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Int32(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_COMPAREFLOAT_OFFSET))(objA, objB);
+			return ((::System::Int32(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_COMPAREFLOAT_OFFSET))(a1, a2);
 		}
 
 		::Newtonsoft::Json::Linq::JToken* CloneToken()
@@ -112,9 +112,9 @@ namespace Newtonsoft::Json::Linq
 			return ((::Newtonsoft::Json::Linq::JToken*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_CLONETOKEN_OFFSET))(this);
 		}
 
-		static ::Newtonsoft::Json::Linq::JValue* CreateComment(::System::String* value)
+		static ::Newtonsoft::Json::Linq::JValue* CreateComment(::System::String* a1)
 		{
-			return ((::Newtonsoft::Json::Linq::JValue*(*)(::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_CREATECOMMENT_OFFSET))(value);
+			return ((::Newtonsoft::Json::Linq::JValue*(*)(::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_CREATECOMMENT_OFFSET))(a1);
 		}
 
 		static ::Newtonsoft::Json::Linq::JValue* CreateNull()
@@ -127,14 +127,14 @@ namespace Newtonsoft::Json::Linq
 			return ((::Newtonsoft::Json::Linq::JValue*(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_CREATEUNDEFINED_OFFSET))();
 		}
 
-		static ::Newtonsoft::Json::Linq::JTokenType GetValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> current, ::System::Object* value)
+		static ::Newtonsoft::Json::Linq::JTokenType GetValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> a1, ::System::Object* a2)
 		{
-			return ((::Newtonsoft::Json::Linq::JTokenType(*)(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType>, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_GETVALUETYPE_OFFSET))(current, value);
+			return ((::Newtonsoft::Json::Linq::JTokenType(*)(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType>, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_GETVALUETYPE_OFFSET))(a1, a2);
 		}
 
-		static ::Newtonsoft::Json::Linq::JTokenType GetStringValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> current)
+		static ::Newtonsoft::Json::Linq::JTokenType GetStringValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> a1)
 		{
-			return ((::Newtonsoft::Json::Linq::JTokenType(*)(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_GETSTRINGVALUETYPE_OFFSET))(current);
+			return ((::Newtonsoft::Json::Linq::JTokenType(*)(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_GETSTRINGVALUETYPE_OFFSET))(a1);
 		}
 
 		::Newtonsoft::Json::Linq::JTokenType get_Type()
@@ -147,9 +147,9 @@ namespace Newtonsoft::Json::Linq
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppArray<::Newtonsoft::Json::JsonConverter*>* converters)
+		::System::Void WriteTo(::Newtonsoft::Json::JsonWriter* a1, ::Il2CppArray<::Newtonsoft::Json::JsonConverter*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Il2CppArray<::Newtonsoft::Json::JsonConverter*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_WRITETO_OFFSET))(this, writer, converters);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::Il2CppArray<::Newtonsoft::Json::JsonConverter*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_WRITETO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetDeepHashCode()
@@ -157,19 +157,19 @@ namespace Newtonsoft::Json::Linq
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_GETDEEPHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean ValuesEquals(::Newtonsoft::Json::Linq::JValue* v1, ::Newtonsoft::Json::Linq::JValue* v2)
+		static ::System::Boolean ValuesEquals(::Newtonsoft::Json::Linq::JValue* a1, ::Newtonsoft::Json::Linq::JValue* a2)
 		{
-			return ((::System::Boolean(*)(::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::Linq::JValue*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_VALUESEQUALS_OFFSET))(v1, v2);
+			return ((::System::Boolean(*)(::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::Linq::JValue*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_VALUESEQUALS_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::Newtonsoft::Json::Linq::JValue* other)
+		::System::Boolean Equals(::Newtonsoft::Json::Linq::JValue* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::Linq::JValue*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::Linq::JValue*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -182,19 +182,19 @@ namespace Newtonsoft::Json::Linq
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* ToString_1(::System::IFormatProvider* formatProvider)
+		::System::String* ToString_1(::System::IFormatProvider* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_TOSTRING_1_OFFSET))(this, formatProvider);
+			return ((::System::String*(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_TOSTRING_1_OFFSET))(this, a1);
 		}
 
-		::System::String* ToString_2(::System::String* format, ::System::IFormatProvider* formatProvider)
+		::System::String* ToString_2(::System::String* a1, ::System::IFormatProvider* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_TOSTRING_2_OFFSET))(this, format, formatProvider);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_TOSTRING_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 System_IComparable_CompareTo(::System::Object* obj)
+		::System::Int32 System_IComparable_CompareTo(::System::Object* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICOMPARABLE_COMPARETO_OFFSET))(this, obj);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICOMPARABLE_COMPARETO_OFFSET))(this, a1);
 		}
 
 		::System::TypeCode System_IConvertible_GetTypeCode()
@@ -202,79 +202,79 @@ namespace Newtonsoft::Json::Linq
 			return ((::System::TypeCode(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_GETTYPECODE_OFFSET))(this);
 		}
 
-		::System::Boolean System_IConvertible_ToBoolean(::System::IFormatProvider* provider)
+		::System::Boolean System_IConvertible_ToBoolean(::System::IFormatProvider* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOBOOLEAN_OFFSET))(this, provider);
+			return ((::System::Boolean(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOBOOLEAN_OFFSET))(this, a1);
 		}
 
-		::System::Char System_IConvertible_ToChar(::System::IFormatProvider* provider)
+		::System::Char System_IConvertible_ToChar(::System::IFormatProvider* a1)
 		{
-			return ((::System::Char(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOCHAR_OFFSET))(this, provider);
+			return ((::System::Char(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOCHAR_OFFSET))(this, a1);
 		}
 
-		::System::SByte System_IConvertible_ToSByte(::System::IFormatProvider* provider)
+		::System::SByte System_IConvertible_ToSByte(::System::IFormatProvider* a1)
 		{
-			return ((::System::SByte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOSBYTE_OFFSET))(this, provider);
+			return ((::System::SByte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOSBYTE_OFFSET))(this, a1);
 		}
 
-		::System::Byte System_IConvertible_ToByte(::System::IFormatProvider* provider)
+		::System::Byte System_IConvertible_ToByte(::System::IFormatProvider* a1)
 		{
-			return ((::System::Byte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOBYTE_OFFSET))(this, provider);
+			return ((::System::Byte(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOBYTE_OFFSET))(this, a1);
 		}
 
-		::System::Int16 System_IConvertible_ToInt16(::System::IFormatProvider* provider)
+		::System::Int16 System_IConvertible_ToInt16(::System::IFormatProvider* a1)
 		{
-			return ((::System::Int16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT16_OFFSET))(this, provider);
+			return ((::System::Int16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT16_OFFSET))(this, a1);
 		}
 
-		::System::UInt16 System_IConvertible_ToUInt16(::System::IFormatProvider* provider)
+		::System::UInt16 System_IConvertible_ToUInt16(::System::IFormatProvider* a1)
 		{
-			return ((::System::UInt16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT16_OFFSET))(this, provider);
+			return ((::System::UInt16(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT16_OFFSET))(this, a1);
 		}
 
-		::System::Int32 System_IConvertible_ToInt32(::System::IFormatProvider* provider)
+		::System::Int32 System_IConvertible_ToInt32(::System::IFormatProvider* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT32_OFFSET))(this, provider);
+			return ((::System::Int32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT32_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 System_IConvertible_ToUInt32(::System::IFormatProvider* provider)
+		::System::UInt32 System_IConvertible_ToUInt32(::System::IFormatProvider* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT32_OFFSET))(this, provider);
+			return ((::System::UInt32(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT32_OFFSET))(this, a1);
 		}
 
-		::System::Int64 System_IConvertible_ToInt64(::System::IFormatProvider* provider)
+		::System::Int64 System_IConvertible_ToInt64(::System::IFormatProvider* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT64_OFFSET))(this, provider);
+			return ((::System::Int64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOINT64_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 System_IConvertible_ToUInt64(::System::IFormatProvider* provider)
+		::System::UInt64 System_IConvertible_ToUInt64(::System::IFormatProvider* a1)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT64_OFFSET))(this, provider);
+			return ((::System::UInt64(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOUINT64_OFFSET))(this, a1);
 		}
 
-		::System::Single System_IConvertible_ToSingle(::System::IFormatProvider* provider)
+		::System::Single System_IConvertible_ToSingle(::System::IFormatProvider* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOSINGLE_OFFSET))(this, provider);
+			return ((::System::Single(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOSINGLE_OFFSET))(this, a1);
 		}
 
-		::System::Double System_IConvertible_ToDouble(::System::IFormatProvider* provider)
+		::System::Double System_IConvertible_ToDouble(::System::IFormatProvider* a1)
 		{
-			return ((::System::Double(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODOUBLE_OFFSET))(this, provider);
+			return ((::System::Double(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODOUBLE_OFFSET))(this, a1);
 		}
 
-		::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider)
+		::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* a1)
 		{
-			return ((::System::Decimal(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODECIMAL_OFFSET))(this, provider);
+			return ((::System::Decimal(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODECIMAL_OFFSET))(this, a1);
 		}
 
-		::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider)
+		::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* a1)
 		{
-			return ((::System::DateTime(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODATETIME_OFFSET))(this, provider);
+			return ((::System::DateTime(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TODATETIME_OFFSET))(this, a1);
 		}
 
-		::System::Object* System_IConvertible_ToType(::System::Type* conversionType, ::System::IFormatProvider* provider)
+		::System::Object* System_IConvertible_ToType(::System::Type* a1, ::System::IFormatProvider* a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Type*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOTYPE_OFFSET))(this, conversionType, provider);
+			return ((::System::Object*(*)(::PVOID, ::System::Type*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_SYSTEM_ICONVERTIBLE_TOTYPE_OFFSET))(this, a1, a2);
 		}
 	};
 }

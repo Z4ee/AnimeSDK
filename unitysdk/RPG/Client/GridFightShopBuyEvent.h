@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_BUYINDEX_OFFSET UNITYSDK_OFFSET(0xA58F840)
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xA58F830)
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA58F820)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_BUYINDEX_OFFSET UNITYSDK_OFFSET(0xBBFE9F0)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xBBFE9E0)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xBBFE9D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightShopBuyEvent_TypeDefinitionIndex = 60060;
+	inline static constexpr unsigned int GridFightShopBuyEvent_TypeDefinitionIndex = 60995;
 
 	class GridFightShopBuyEvent : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace RPG::Client
 		::RPG::Client::GridFightRole* _Role_k__BackingField; // 0x10
 		::System::Int32 _BuyIndex_k__BackingField; // 0x18
 
-		::System::Void _ctor(::RPG::Client::GridFightRole* role, ::System::Int32 buyIndex)
+		::System::Void _ctor(::RPG::Client::GridFightRole* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_OFFSET))(this, role, buyIndex);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::GridFightRole* get_Role()

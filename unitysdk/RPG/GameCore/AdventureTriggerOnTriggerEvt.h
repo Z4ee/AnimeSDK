@@ -5,24 +5,24 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB5AEEB0)
-#define RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB5AEF00)
-#define RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT_GET_TRIGGERKEY_OFFSET UNITYSDK_OFFSET(0xB5AEF50)
-#define RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT_SET_TRIGGERKEY_OFFSET UNITYSDK_OFFSET(0xB5AEF60)
-#define RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT__CTOR_OFFSET UNITYSDK_OFFSET(0xB5AEEA0)
+#define RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCD0FAB0)
+#define RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCD0FB00)
+#define RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT_GET_TRIGGERKEY_OFFSET UNITYSDK_OFFSET(0xCD0FB50)
+#define RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT_SET_TRIGGERKEY_OFFSET UNITYSDK_OFFSET(0xCD0FB60)
+#define RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT__CTOR_OFFSET UNITYSDK_OFFSET(0xCD0FAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerOnTriggerEvt_TypeDefinitionIndex = 52152;
+	inline static constexpr unsigned int AdventureTriggerOnTriggerEvt_TypeDefinitionIndex = 52849;
 
 	class AdventureTriggerOnTriggerEvt : public ::System::Object
 	{
 	public:
 		::System::String* _TriggerKey_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::String* triggerKey)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT__CTOR_OFFSET))(this, triggerKey);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::EventType GetEventType()
@@ -40,9 +40,9 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT_GET_TRIGGERKEY_OFFSET))(this);
 		}
 
-		::System::Void set_TriggerKey(::System::String* value)
+		::System::Void set_TriggerKey(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT_SET_TRIGGERKEY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERONTRIGGEREVT_SET_TRIGGERKEY_OFFSET))(this, a1);
 		}
 	};
 }

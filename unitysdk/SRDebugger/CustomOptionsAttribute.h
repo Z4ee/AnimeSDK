@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SRDEBUGGER_CUSTOMOPTIONSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6BDD0)
+#define SRDEBUGGER_CUSTOMOPTIONSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE2200)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int CustomOptionsAttribute_TypeDefinitionIndex = 35330;
+	inline static constexpr unsigned int CustomOptionsAttribute_TypeDefinitionIndex = 35630;
 
 	class CustomOptionsAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* TargetOptionTab; // 0x10
 
-		::System::Void _ctor(::System::String* tabName)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_CUSTOMOPTIONSATTRIBUTE__CTOR_OFFSET))(this, tabName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_CUSTOMOPTIONSATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

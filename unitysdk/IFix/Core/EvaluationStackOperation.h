@@ -10,48 +10,48 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define IFIX_CORE_EVALUATIONSTACKOPERATION_MGET_OFFSET UNITYSDK_OFFSET(0x1713E410)
-#define IFIX_CORE_EVALUATIONSTACKOPERATION_MSET_OFFSET UNITYSDK_OFFSET(0x1713E8A0)
-#define IFIX_CORE_EVALUATIONSTACKOPERATION_PUSHOBJECT_OFFSET UNITYSDK_OFFSET(0x1713BF40)
-#define IFIX_CORE_EVALUATIONSTACKOPERATION_TOOBJECT_OFFSET UNITYSDK_OFFSET(0x1713B480)
-#define IFIX_CORE_EVALUATIONSTACKOPERATION_UNBOXPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x1713DE00)
-#define IFIX_CORE_EVALUATIONSTACKOPERATION_UPDATEREFERENCE_OFFSET UNITYSDK_OFFSET(0x1713D430)
+#define IFIX_CORE_EVALUATIONSTACKOPERATION_MGET_OFFSET UNITYSDK_OFFSET(0x17F898F0)
+#define IFIX_CORE_EVALUATIONSTACKOPERATION_MSET_OFFSET UNITYSDK_OFFSET(0x17F89DA0)
+#define IFIX_CORE_EVALUATIONSTACKOPERATION_PUSHOBJECT_OFFSET UNITYSDK_OFFSET(0x17F874F0)
+#define IFIX_CORE_EVALUATIONSTACKOPERATION_TOOBJECT_OFFSET UNITYSDK_OFFSET(0x17F86A30)
+#define IFIX_CORE_EVALUATIONSTACKOPERATION_UNBOXPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x17F892E0)
+#define IFIX_CORE_EVALUATIONSTACKOPERATION_UPDATEREFERENCE_OFFSET UNITYSDK_OFFSET(0x17F88920)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int EvaluationStackOperation_TypeDefinitionIndex = 9945;
+	inline static constexpr unsigned int EvaluationStackOperation_TypeDefinitionIndex = 9772;
 
 	class EvaluationStackOperation : public ::System::Object
 	{
 	public:
-		static ::System::Void UnboxPrimitive(::IFix::Core::Value* evaluationStackPointer, ::System::Object* obj, ::System::Type* type)
+		static ::System::Void UnboxPrimitive(::IFix::Core::Value* a1, ::System::Object* a2, ::System::Type* a3)
 		{
-			return ((::System::Void(*)(::IFix::Core::Value*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_UNBOXPRIMITIVE_OFFSET))(evaluationStackPointer, obj, type);
+			return ((::System::Void(*)(::IFix::Core::Value*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_UNBOXPRIMITIVE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Object* mGet(::System::Boolean isArray, ::System::Object* root, ::System::Int32 layer, ::Il2CppArray<::System::Int32>* fieldIdList, ::Il2CppArray<::System::Reflection::FieldInfo*>* fieldInfos, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::IFix::Core::NewFieldInfo*>* newFieldInfos)
+		static ::System::Object* mGet(::System::Boolean a1, ::System::Object* a2, ::System::Int32 a3, ::Il2CppArray<::System::Int32>* a4, ::Il2CppArray<::System::Reflection::FieldInfo*>* a5, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::IFix::Core::NewFieldInfo*>* a6)
 		{
-			return ((::System::Object*(*)(::System::Boolean, ::System::Object*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Reflection::FieldInfo*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::IFix::Core::NewFieldInfo*>*))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_MGET_OFFSET))(isArray, root, layer, fieldIdList, fieldInfos, newFieldInfos);
+			return ((::System::Object*(*)(::System::Boolean, ::System::Object*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Reflection::FieldInfo*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::IFix::Core::NewFieldInfo*>*))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_MGET_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void mSet(::System::Boolean isArray, ::System::Object* root, ::System::Object* val, ::System::Int32 layer, ::Il2CppArray<::System::Int32>* fieldIdList, ::Il2CppArray<::System::Reflection::FieldInfo*>* fieldInfos, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::IFix::Core::NewFieldInfo*>* newFieldInfos)
+		static ::System::Void mSet(::System::Boolean a1, ::System::Object* a2, ::System::Object* a3, ::System::Int32 a4, ::Il2CppArray<::System::Int32>* a5, ::Il2CppArray<::System::Reflection::FieldInfo*>* a6, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::IFix::Core::NewFieldInfo*>* a7)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::Object*, ::System::Object*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Reflection::FieldInfo*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::IFix::Core::NewFieldInfo*>*))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_MSET_OFFSET))(isArray, root, val, layer, fieldIdList, fieldInfos, newFieldInfos);
+			return ((::System::Void(*)(::System::Boolean, ::System::Object*, ::System::Object*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Reflection::FieldInfo*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::IFix::Core::NewFieldInfo*>*))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_MSET_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Object* ToObject(::IFix::Core::Value* evaluationStackBase, ::IFix::Core::Value* evaluationStackPointer, ::Il2CppArray<::System::Object*>* managedStack, ::System::Type* type, ::IFix::Core::VirtualMachine* virtualMachine, ::System::Boolean valueTypeClone)
+		static ::System::Object* ToObject(::IFix::Core::Value* a1, ::IFix::Core::Value* a2, ::Il2CppArray<::System::Object*>* a3, ::System::Type* a4, ::IFix::Core::VirtualMachine* a5, ::System::Boolean a6)
 		{
-			return ((::System::Object*(*)(::IFix::Core::Value*, ::IFix::Core::Value*, ::Il2CppArray<::System::Object*>*, ::System::Type*, ::IFix::Core::VirtualMachine*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_TOOBJECT_OFFSET))(evaluationStackBase, evaluationStackPointer, managedStack, type, virtualMachine, valueTypeClone);
+			return ((::System::Object*(*)(::IFix::Core::Value*, ::IFix::Core::Value*, ::Il2CppArray<::System::Object*>*, ::System::Type*, ::IFix::Core::VirtualMachine*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_TOOBJECT_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void PushObject(::IFix::Core::Value* evaluationStackBase, ::IFix::Core::Value* evaluationStackPointer, ::Il2CppArray<::System::Object*>* managedStack, ::System::Object* obj, ::System::Type* type, ::IFix::Core::TypeInfo* info)
+		static ::System::Void PushObject(::IFix::Core::Value* a1, ::IFix::Core::Value* a2, ::Il2CppArray<::System::Object*>* a3, ::System::Object* a4, ::System::Type* a5, ::IFix::Core::TypeInfo* a6)
 		{
-			return ((::System::Void(*)(::IFix::Core::Value*, ::IFix::Core::Value*, ::Il2CppArray<::System::Object*>*, ::System::Object*, ::System::Type*, ::IFix::Core::TypeInfo*))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_PUSHOBJECT_OFFSET))(evaluationStackBase, evaluationStackPointer, managedStack, obj, type, info);
+			return ((::System::Void(*)(::IFix::Core::Value*, ::IFix::Core::Value*, ::Il2CppArray<::System::Object*>*, ::System::Object*, ::System::Type*, ::IFix::Core::TypeInfo*))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_PUSHOBJECT_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void UpdateReference(::IFix::Core::Value* evaluationStackBase, ::IFix::Core::Value* evaluationStackPointer, ::Il2CppArray<::System::Object*>* managedStack, ::System::Object* obj, ::IFix::Core::VirtualMachine* virtualMachine, ::System::Type* type)
+		static ::System::Void UpdateReference(::IFix::Core::Value* a1, ::IFix::Core::Value* a2, ::Il2CppArray<::System::Object*>* a3, ::System::Object* a4, ::IFix::Core::VirtualMachine* a5, ::System::Type* a6)
 		{
-			return ((::System::Void(*)(::IFix::Core::Value*, ::IFix::Core::Value*, ::Il2CppArray<::System::Object*>*, ::System::Object*, ::IFix::Core::VirtualMachine*, ::System::Type*))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_UPDATEREFERENCE_OFFSET))(evaluationStackBase, evaluationStackPointer, managedStack, obj, virtualMachine, type);
+			return ((::System::Void(*)(::IFix::Core::Value*, ::IFix::Core::Value*, ::Il2CppArray<::System::Object*>*, ::System::Object*, ::IFix::Core::VirtualMachine*, ::System::Type*))((::PBYTE)hIl2Cpp + IFIX_CORE_EVALUATIONSTACKOPERATION_UPDATEREFERENCE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

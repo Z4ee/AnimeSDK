@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class GridFightEquipItemData; }
 
-#define CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9772320)
-#define CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS7_0__GETEQUIPITEMDATABYID_B__0_OFFSET UNITYSDK_OFFSET(0x97725D0)
+#define CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1387B1B0)
+#define CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS7_0__GETEQUIPITEMDATABYID_B__0_OFFSET UNITYSDK_OFFSET(0x1387B470)
 
-inline static constexpr unsigned int Class_1_0812913C2F0E10CD___c__DisplayClass7_0_TypeDefinitionIndex = 60141;
+inline static constexpr unsigned int Class_1_0812913C2F0E10CD___c__DisplayClass7_0_TypeDefinitionIndex = 61076;
 
 class Class_1_0812913C2F0E10CD___c__DisplayClass7_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _GetEquipItemDataByID_b__0(::RPG::Client::GridFightEquipItemData* x)
+	::System::Boolean _GetEquipItemDataByID_b__0(::RPG::Client::GridFightEquipItemData* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS7_0__GETEQUIPITEMDATABYID_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + CLASS_1_0812913C2F0E10CD___C__DISPLAYCLASS7_0__GETEQUIPITEMDATABYID_B__0_OFFSET))(this, a1);
 	}
 };

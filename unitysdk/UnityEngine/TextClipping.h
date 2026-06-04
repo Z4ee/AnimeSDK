@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextClipping_TypeDefinitionIndex = 5134;
+	inline static constexpr unsigned int TextClipping_TypeDefinitionIndex = 5228;
 
 	enum class TextClipping : ::System::Int32
 	{

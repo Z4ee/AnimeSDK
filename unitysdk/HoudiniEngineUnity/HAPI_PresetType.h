@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_PresetType_TypeDefinitionIndex = 43559;
+	inline static constexpr unsigned int HAPI_PresetType_TypeDefinitionIndex = 37495;
 
 	enum class HAPI_PresetType : ::System::Int32
 	{

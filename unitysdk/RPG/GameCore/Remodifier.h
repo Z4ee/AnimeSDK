@@ -10,13 +10,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REMODIFIER_METHOD_3_4365CF768E4736F1_OFFSET UNITYSDK_OFFSET(0x18CA1E10)
-#define RPG_GAMECORE_REMODIFIER_METHOD_3_CEA4B5D16D4C97F1_OFFSET UNITYSDK_OFFSET(0x18CA1F30)
-#define RPG_GAMECORE_REMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x18CA1EB0)
+#define RPG_GAMECORE_REMODIFIER_METHOD_3_4365CF768E4736F1_OFFSET UNITYSDK_OFFSET(0x19AC6A30)
+#define RPG_GAMECORE_REMODIFIER_METHOD_3_9D73D38676E15B6F_OFFSET UNITYSDK_OFFSET(0x19AC6B50)
+#define RPG_GAMECORE_REMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC6AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Remodifier_TypeDefinitionIndex = 22609;
+	inline static constexpr unsigned int Remodifier_TypeDefinitionIndex = 22338;
 
 	class Remodifier : public ::RPG::GameCore::TaskConfig
 	{
@@ -43,9 +43,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Remodifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMODIFIER_METHOD_3_4365CF768E4736F1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CEA4B5D16D4C97F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Remodifier* a2)
+		static ::System::Void Method_3_9D73D38676E15B6F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Remodifier* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Remodifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMODIFIER_METHOD_3_CEA4B5D16D4C97F1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Remodifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMODIFIER_METHOD_3_9D73D38676E15B6F_OFFSET))(a1, a2);
 		}
 	};
 }

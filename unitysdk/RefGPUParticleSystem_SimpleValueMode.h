@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_SimpleValueMode_TypeDefinitionIndex = 39722;
+inline static constexpr unsigned int RefGPUParticleSystem_SimpleValueMode_TypeDefinitionIndex = 40545;
 
 enum class RefGPUParticleSystem_SimpleValueMode : ::System::Int32
 {

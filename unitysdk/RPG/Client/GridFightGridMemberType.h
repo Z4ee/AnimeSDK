@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridMemberType_TypeDefinitionIndex = 59693;
+	inline static constexpr unsigned int GridFightGridMemberType_TypeDefinitionIndex = 60628;
 
 	enum class GridFightGridMemberType : ::System::Int32
 	{

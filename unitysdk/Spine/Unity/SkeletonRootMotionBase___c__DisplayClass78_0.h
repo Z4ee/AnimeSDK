@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E62520)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE___C__DISPLAYCLASS78_0__GETCONSTRAINTLASTPOSINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x19E63630)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD88C0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE___C__DISPLAYCLASS78_0__GETCONSTRAINTLASTPOSINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1ACD9960)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRootMotionBase___c__DisplayClass78_0_TypeDefinitionIndex = 40580;
+	inline static constexpr unsigned int SkeletonRootMotionBase___c__DisplayClass78_0_TypeDefinitionIndex = 41407;
 
 	class SkeletonRootMotionBase___c__DisplayClass78_0 : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE___C__DISPLAYCLASS78_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetConstraintLastPosIndex_b__0(::System::Int32 addedIndex)
+		::System::Boolean _GetConstraintLastPosIndex_b__0(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE___C__DISPLAYCLASS78_0__GETCONSTRAINTLASTPOSINDEX_B__0_OFFSET))(this, addedIndex);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE___C__DISPLAYCLASS78_0__GETCONSTRAINTLASTPOSINDEX_B__0_OFFSET))(this, a1);
 		}
 	};
 }

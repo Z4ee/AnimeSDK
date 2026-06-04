@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::Connect { class LoginOptions; }
 namespace Epic::OnlineServices::Connect { class UserLoginInfo; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x33D30)
-#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x33CC0)
-#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x33AB0)
-#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x33CB0)
-#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_USERLOGININFO_OFFSET UNITYSDK_OFFSET(0x33BC0)
+#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x37520)
+#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x374A0)
+#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_CREDENTIALS_OFFSET UNITYSDK_OFFSET(0x37290)
+#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x37490)
+#define EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_USERLOGININFO_OFFSET UNITYSDK_OFFSET(0x373A0)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int LoginOptionsInternal_TypeDefinitionIndex = 42303;
+	inline static constexpr unsigned int LoginOptionsInternal_TypeDefinitionIndex = 43106;
 
 	struct alignas(8) LoginOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::Connect
 		::System::IntPtr m_Credentials; // 0x18
 		::System::IntPtr m_UserLoginInfo; // 0x20
 
-		::System::Void set_Credentials(::Epic::OnlineServices::Connect::Credentials* value)
+		::System::Void set_Credentials(::Epic::OnlineServices::Connect::Credentials* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::Credentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_CREDENTIALS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::Credentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_CREDENTIALS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_UserLoginInfo(::Epic::OnlineServices::Connect::UserLoginInfo* value)
+		::System::Void set_UserLoginInfo(::Epic::OnlineServices::Connect::UserLoginInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::UserLoginInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_USERLOGININFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::UserLoginInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_USERLOGININFO_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Connect::LoginOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Connect::LoginOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::LoginOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::LoginOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LOGINOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

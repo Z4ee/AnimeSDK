@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueBySkillMaxHitSplitCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BA24143C5F5100A8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9923860)
-#define CLASS_3_BA24143C5F5100A8__CTOR_OFFSET UNITYSDK_OFFSET(0x9923780)
+#define CLASS_3_BA24143C5F5100A8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF6D920)
+#define CLASS_3_BA24143C5F5100A8__CTOR_OFFSET UNITYSDK_OFFSET(0xBF6D840)
 
-inline static constexpr unsigned int Class_3_BA24143C5F5100A8_TypeDefinitionIndex = 51137;
+inline static constexpr unsigned int Class_3_BA24143C5F5100A8_TypeDefinitionIndex = 51806;
 
 class Class_3_BA24143C5F5100A8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueBySkillMaxHitSplitCount*>
 {

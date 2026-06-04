@@ -8,47 +8,47 @@ namespace System { class String; }
 namespace System::Globalization { class DateTimeFormatInfo; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_DATETIMEFORMAT_EXPANDPREDEFINEDFORMAT_OFFSET UNITYSDK_OFFSET(0x178BF730)
-#define SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZEDROUNDRIPTIMEZONE_OFFSET UNITYSDK_OFFSET(0x178BEFD0)
-#define SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZEDTIMEZONE_OFFSET UNITYSDK_OFFSET(0x178BEC30)
-#define SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZED_OFFSET UNITYSDK_OFFSET(0x178BD9E0)
-#define SYSTEM_DATETIMEFORMAT_FORMATDAYOFWEEK_OFFSET UNITYSDK_OFFSET(0x178BD480)
-#define SYSTEM_DATETIMEFORMAT_FORMATDIGITS_1_OFFSET UNITYSDK_OFFSET(0x178BD220)
-#define SYSTEM_DATETIMEFORMAT_FORMATDIGITS_OFFSET UNITYSDK_OFFSET(0x178BD210)
-#define SYSTEM_DATETIMEFORMAT_FORMATHEBREWMONTHNAME_OFFSET UNITYSDK_OFFSET(0x178BD500)
-#define SYSTEM_DATETIMEFORMAT_FORMATMONTH_OFFSET UNITYSDK_OFFSET(0x178BD4C0)
-#define SYSTEM_DATETIMEFORMAT_FORMAT_1_OFFSET UNITYSDK_OFFSET(0x178BFC50)
-#define SYSTEM_DATETIMEFORMAT_FORMAT_OFFSET UNITYSDK_OFFSET(0x178BBB80)
-#define SYSTEM_DATETIMEFORMAT_GETALLDATETIMES_1_OFFSET UNITYSDK_OFFSET(0x178BC750)
-#define SYSTEM_DATETIMEFORMAT_GETALLDATETIMES_OFFSET UNITYSDK_OFFSET(0x178BCB10)
-#define SYSTEM_DATETIMEFORMAT_GETREALFORMAT_OFFSET UNITYSDK_OFFSET(0x178BF260)
-#define SYSTEM_DATETIMEFORMAT_HEBREWFORMATDIGITS_OFFSET UNITYSDK_OFFSET(0x178BD390)
-#define SYSTEM_DATETIMEFORMAT_INVALIDFORMATFORLOCAL_OFFSET UNITYSDK_OFFSET(0x178BFC40)
-#define SYSTEM_DATETIMEFORMAT_INVALIDFORMATFORUTC_OFFSET UNITYSDK_OFFSET(0x178BF250)
-#define SYSTEM_DATETIMEFORMAT_ISUSEGENITIVEFORM_OFFSET UNITYSDK_OFFSET(0x178BD810)
-#define SYSTEM_DATETIMEFORMAT_PARSENEXTCHAR_OFFSET UNITYSDK_OFFSET(0x178BD7B0)
-#define SYSTEM_DATETIMEFORMAT_PARSEQUOTESTRING_OFFSET UNITYSDK_OFFSET(0x178BD5B0)
-#define SYSTEM_DATETIMEFORMAT_PARSEREPEATPATTERN_OFFSET UNITYSDK_OFFSET(0x178BD410)
-#define SYSTEM_DATETIMEFORMAT__CCTOR_OFFSET UNITYSDK_OFFSET(0x178BFDB0)
+#define SYSTEM_DATETIMEFORMAT_EXPANDPREDEFINEDFORMAT_OFFSET UNITYSDK_OFFSET(0x18679110)
+#define SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZEDROUNDRIPTIMEZONE_OFFSET UNITYSDK_OFFSET(0x186788F0)
+#define SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZEDTIMEZONE_OFFSET UNITYSDK_OFFSET(0x18678460)
+#define SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZED_OFFSET UNITYSDK_OFFSET(0x18676F90)
+#define SYSTEM_DATETIMEFORMAT_FORMATDAYOFWEEK_OFFSET UNITYSDK_OFFSET(0x18676890)
+#define SYSTEM_DATETIMEFORMAT_FORMATDIGITS_1_OFFSET UNITYSDK_OFFSET(0x18676630)
+#define SYSTEM_DATETIMEFORMAT_FORMATDIGITS_OFFSET UNITYSDK_OFFSET(0x18676620)
+#define SYSTEM_DATETIMEFORMAT_FORMATHEBREWMONTHNAME_OFFSET UNITYSDK_OFFSET(0x18676910)
+#define SYSTEM_DATETIMEFORMAT_FORMATMONTH_OFFSET UNITYSDK_OFFSET(0x186768D0)
+#define SYSTEM_DATETIMEFORMAT_FORMAT_1_OFFSET UNITYSDK_OFFSET(0x18679640)
+#define SYSTEM_DATETIMEFORMAT_FORMAT_OFFSET UNITYSDK_OFFSET(0x18675090)
+#define SYSTEM_DATETIMEFORMAT_GETALLDATETIMES_1_OFFSET UNITYSDK_OFFSET(0x18675C60)
+#define SYSTEM_DATETIMEFORMAT_GETALLDATETIMES_OFFSET UNITYSDK_OFFSET(0x18675F60)
+#define SYSTEM_DATETIMEFORMAT_GETREALFORMAT_OFFSET UNITYSDK_OFFSET(0x18678C60)
+#define SYSTEM_DATETIMEFORMAT_HEBREWFORMATDIGITS_OFFSET UNITYSDK_OFFSET(0x186767A0)
+#define SYSTEM_DATETIMEFORMAT_INVALIDFORMATFORLOCAL_OFFSET UNITYSDK_OFFSET(0x18679630)
+#define SYSTEM_DATETIMEFORMAT_INVALIDFORMATFORUTC_OFFSET UNITYSDK_OFFSET(0x18678C50)
+#define SYSTEM_DATETIMEFORMAT_ISUSEGENITIVEFORM_OFFSET UNITYSDK_OFFSET(0x18676DC0)
+#define SYSTEM_DATETIMEFORMAT_PARSENEXTCHAR_OFFSET UNITYSDK_OFFSET(0x18676D60)
+#define SYSTEM_DATETIMEFORMAT_PARSEQUOTESTRING_OFFSET UNITYSDK_OFFSET(0x186769C0)
+#define SYSTEM_DATETIMEFORMAT_PARSEREPEATPATTERN_OFFSET UNITYSDK_OFFSET(0x18676820)
+#define SYSTEM_DATETIMEFORMAT__CCTOR_OFFSET UNITYSDK_OFFSET(0x186797A0)
 
 namespace System
 {
-	inline static constexpr unsigned int DateTimeFormat_TypeDefinitionIndex = 252;
+	inline static constexpr unsigned int DateTimeFormat_TypeDefinitionIndex = 251;
 
 	class DateTimeFormat : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_fixedNumberFormats()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DateTimeFormat_TypeDefinitionIndex)->GetStaticField(0x46B0);
-		}
 		static ::Il2CppArray<::System::Char>** StaticGet_allStandardFormats()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(DateTimeFormat_TypeDefinitionIndex)->GetStaticField(0x46B8);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(DateTimeFormat_TypeDefinitionIndex)->GetStaticField(0x47C0);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_fixedNumberFormats()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DateTimeFormat_TypeDefinitionIndex)->GetStaticField(0x47C8);
 		}
 		static ::System::TimeSpan* StaticGet_NullOffset()
 		{
-			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(DateTimeFormat_TypeDefinitionIndex)->GetStaticField(0x2690);
+			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(DateTimeFormat_TypeDefinitionIndex)->GetStaticField(0x29D0);
 		}
 
 		static ::System::Void _cctor()
@@ -56,109 +56,109 @@ namespace System
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void FormatDigits(::System::Text::StringBuilder* outputBuffer, ::System::Int32 value, ::System::Int32 len)
+		static ::System::Void FormatDigits(::System::Text::StringBuilder* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATDIGITS_OFFSET))(outputBuffer, value, len);
+			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATDIGITS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void FormatDigits_1(::System::Text::StringBuilder* outputBuffer, ::System::Int32 value, ::System::Int32 len, ::System::Boolean overrideLengthLimit)
+		static ::System::Void FormatDigits_1(::System::Text::StringBuilder* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATDIGITS_1_OFFSET))(outputBuffer, value, len, overrideLengthLimit);
+			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATDIGITS_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void HebrewFormatDigits(::System::Text::StringBuilder* outputBuffer, ::System::Int32 digits)
+		static ::System::Void HebrewFormatDigits(::System::Text::StringBuilder* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_HEBREWFORMATDIGITS_OFFSET))(outputBuffer, digits);
+			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_HEBREWFORMATDIGITS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 ParseRepeatPattern(::System::String* format, ::System::Int32 pos, ::System::Char patternChar)
+		static ::System::Int32 ParseRepeatPattern(::System::String* a1, ::System::Int32 a2, ::System::Char a3)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_PARSEREPEATPATTERN_OFFSET))(format, pos, patternChar);
+			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_PARSEREPEATPATTERN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* FormatDayOfWeek(::System::Int32 dayOfWeek, ::System::Int32 repeat, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::String* FormatDayOfWeek(::System::Int32 a1, ::System::Int32 a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATDAYOFWEEK_OFFSET))(dayOfWeek, repeat, dtfi);
+			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATDAYOFWEEK_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* FormatMonth(::System::Int32 month, ::System::Int32 repeatCount, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::String* FormatMonth(::System::Int32 a1, ::System::Int32 a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATMONTH_OFFSET))(month, repeatCount, dtfi);
+			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATMONTH_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* FormatHebrewMonthName(::System::DateTime time, ::System::Int32 month, ::System::Int32 repeatCount, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::String* FormatHebrewMonthName(::System::DateTime a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Globalization::DateTimeFormatInfo* a4)
 		{
-			return ((::System::String*(*)(::System::DateTime, ::System::Int32, ::System::Int32, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATHEBREWMONTHNAME_OFFSET))(time, month, repeatCount, dtfi);
+			return ((::System::String*(*)(::System::DateTime, ::System::Int32, ::System::Int32, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATHEBREWMONTHNAME_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 ParseQuoteString(::System::String* format, ::System::Int32 pos, ::System::Text::StringBuilder* result)
+		static ::System::Int32 ParseQuoteString(::System::String* a1, ::System::Int32 a2, ::System::Text::StringBuilder* a3)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_PARSEQUOTESTRING_OFFSET))(format, pos, result);
+			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_PARSEQUOTESTRING_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 ParseNextChar(::System::String* format, ::System::Int32 pos)
+		static ::System::Int32 ParseNextChar(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_PARSENEXTCHAR_OFFSET))(format, pos);
+			return ((::System::Int32(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_PARSENEXTCHAR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsUseGenitiveForm(::System::String* format, ::System::Int32 index, ::System::Int32 tokenLen, ::System::Char patternToMatch)
+		static ::System::Boolean IsUseGenitiveForm(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Char a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_ISUSEGENITIVEFORM_OFFSET))(format, index, tokenLen, patternToMatch);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_ISUSEGENITIVEFORM_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::String* FormatCustomized(::System::DateTime dateTime, ::System::String* format, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::TimeSpan offset)
+		static ::System::String* FormatCustomized(::System::DateTime a1, ::System::String* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::TimeSpan a4)
 		{
-			return ((::System::String*(*)(::System::DateTime, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZED_OFFSET))(dateTime, format, dtfi, offset);
+			return ((::System::String*(*)(::System::DateTime, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZED_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void FormatCustomizedTimeZone(::System::DateTime dateTime, ::System::TimeSpan offset, ::System::String* format, ::System::Int32 tokenLen, ::System::Boolean timeOnly, ::System::Text::StringBuilder* result)
+		static ::System::Void FormatCustomizedTimeZone(::System::DateTime a1, ::System::TimeSpan a2, ::System::String* a3, ::System::Int32 a4, ::System::Boolean a5, ::System::Text::StringBuilder* a6)
 		{
-			return ((::System::Void(*)(::System::DateTime, ::System::TimeSpan, ::System::String*, ::System::Int32, ::System::Boolean, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZEDTIMEZONE_OFFSET))(dateTime, offset, format, tokenLen, timeOnly, result);
+			return ((::System::Void(*)(::System::DateTime, ::System::TimeSpan, ::System::String*, ::System::Int32, ::System::Boolean, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZEDTIMEZONE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void FormatCustomizedRoundripTimeZone(::System::DateTime dateTime, ::System::TimeSpan offset, ::System::Text::StringBuilder* result)
+		static ::System::Void FormatCustomizedRoundripTimeZone(::System::DateTime a1, ::System::TimeSpan a2, ::System::Text::StringBuilder* a3)
 		{
-			return ((::System::Void(*)(::System::DateTime, ::System::TimeSpan, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZEDROUNDRIPTIMEZONE_OFFSET))(dateTime, offset, result);
+			return ((::System::Void(*)(::System::DateTime, ::System::TimeSpan, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMATCUSTOMIZEDROUNDRIPTIMEZONE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* GetRealFormat(::System::String* format, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::String* GetRealFormat(::System::String* a1, ::System::Globalization::DateTimeFormatInfo* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_GETREALFORMAT_OFFSET))(format, dtfi);
+			return ((::System::String*(*)(::System::String*, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_GETREALFORMAT_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* ExpandPredefinedFormat(::System::String* format, ::System::DateTime& dateTime, ::System::Globalization::DateTimeFormatInfo*& dtfi, ::System::TimeSpan& offset)
+		static ::System::String* ExpandPredefinedFormat(::System::String* a1, ::System::DateTime& a2, ::System::Globalization::DateTimeFormatInfo*& a3, ::System::TimeSpan& a4)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::DateTime&, ::System::Globalization::DateTimeFormatInfo*&, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_EXPANDPREDEFINEDFORMAT_OFFSET))(format, dateTime, dtfi, offset);
+			return ((::System::String*(*)(::System::String*, ::System::DateTime&, ::System::Globalization::DateTimeFormatInfo*&, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_EXPANDPREDEFINEDFORMAT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::String* Format(::System::DateTime dateTime, ::System::String* format, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::System::String* Format(::System::DateTime a1, ::System::String* a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::System::String*(*)(::System::DateTime, ::System::String*, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMAT_OFFSET))(dateTime, format, dtfi);
+			return ((::System::String*(*)(::System::DateTime, ::System::String*, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMAT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* Format_1(::System::DateTime dateTime, ::System::String* format, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::TimeSpan offset)
+		static ::System::String* Format_1(::System::DateTime a1, ::System::String* a2, ::System::Globalization::DateTimeFormatInfo* a3, ::System::TimeSpan a4)
 		{
-			return ((::System::String*(*)(::System::DateTime, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMAT_1_OFFSET))(dateTime, format, dtfi, offset);
+			return ((::System::String*(*)(::System::DateTime, ::System::String*, ::System::Globalization::DateTimeFormatInfo*, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_FORMAT_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Il2CppArray<::System::String*>* GetAllDateTimes(::System::DateTime dateTime, ::System::Char format, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::Il2CppArray<::System::String*>* GetAllDateTimes(::System::DateTime a1, ::System::Char a2, ::System::Globalization::DateTimeFormatInfo* a3)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::System::DateTime, ::System::Char, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_GETALLDATETIMES_OFFSET))(dateTime, format, dtfi);
+			return ((::Il2CppArray<::System::String*>*(*)(::System::DateTime, ::System::Char, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_GETALLDATETIMES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::System::String*>* GetAllDateTimes_1(::System::DateTime dateTime, ::System::Globalization::DateTimeFormatInfo* dtfi)
+		static ::Il2CppArray<::System::String*>* GetAllDateTimes_1(::System::DateTime a1, ::System::Globalization::DateTimeFormatInfo* a2)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::System::DateTime, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_GETALLDATETIMES_1_OFFSET))(dateTime, dtfi);
+			return ((::Il2CppArray<::System::String*>*(*)(::System::DateTime, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_GETALLDATETIMES_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void InvalidFormatForLocal(::System::String* format, ::System::DateTime dateTime)
+		static ::System::Void InvalidFormatForLocal(::System::String* a1, ::System::DateTime a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_INVALIDFORMATFORLOCAL_OFFSET))(format, dateTime);
+			return ((::System::Void(*)(::System::String*, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_INVALIDFORMATFORLOCAL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void InvalidFormatForUtc(::System::String* format, ::System::DateTime dateTime)
+		static ::System::Void InvalidFormatForUtc(::System::String* a1, ::System::DateTime a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_INVALIDFORMATFORUTC_OFFSET))(format, dateTime);
+			return ((::System::Void(*)(::System::String*, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMEFORMAT_INVALIDFORMATFORUTC_OFFSET))(a1, a2);
 		}
 	};
 }

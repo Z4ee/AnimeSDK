@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelFloorBakedSubmapSummaryInfo; }
 
-#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPSUMMARYCOLLECTIONINFO_METHOD_2_D2CB8EB3BA734909_OFFSET UNITYSDK_OFFSET(0x18A41D50)
-#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPSUMMARYCOLLECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A41E20)
+#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPSUMMARYCOLLECTIONINFO_METHOD_2_B413D07E47D0E3CC_OFFSET UNITYSDK_OFFSET(0x19873D90)
+#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPSUMMARYCOLLECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19873E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelFloorBakedSubmapSummaryCollectionInfo_TypeDefinitionIndex = 16284;
+	inline static constexpr unsigned int LevelFloorBakedSubmapSummaryCollectionInfo_TypeDefinitionIndex = 16317;
 
 	class LevelFloorBakedSubmapSummaryCollectionInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPSUMMARYCOLLECTIONINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D2CB8EB3BA734909(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelFloorBakedSubmapSummaryCollectionInfo*& a2)
+		static ::System::Void Method_2_B413D07E47D0E3CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelFloorBakedSubmapSummaryCollectionInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelFloorBakedSubmapSummaryCollectionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPSUMMARYCOLLECTIONINFO_METHOD_2_D2CB8EB3BA734909_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelFloorBakedSubmapSummaryCollectionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPSUMMARYCOLLECTIONINFO_METHOD_2_B413D07E47D0E3CC_OFFSET))(a1, a2);
 		}
 	};
 }

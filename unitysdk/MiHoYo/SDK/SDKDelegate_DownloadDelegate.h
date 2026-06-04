@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17643770)
-#define MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x176437A0)
-#define MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17643220)
-#define MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17643200)
+#define MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1841F590)
+#define MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1841F5C0)
+#define MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1841F580)
+#define MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1841F510)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_DownloadDelegate_TypeDefinitionIndex = 6820;
+	inline static constexpr unsigned int SDKDelegate_DownloadDelegate_TypeDefinitionIndex = 7723;
 
 	class SDKDelegate_DownloadDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::String* message)
+		::System::Void Invoke(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_INVOKE_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* message, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_BEGININVOKE_OFFSET))(this, message, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_DOWNLOADDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

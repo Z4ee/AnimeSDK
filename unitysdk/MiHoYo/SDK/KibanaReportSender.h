@@ -10,28 +10,28 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOCACHE_OFFSET UNITYSDK_OFFSET(0x8D2C890)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOTEMPCACHE_OFFSET UNITYSDK_OFFSET(0x8D2CAE0)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_ENCODEREPORTANDSEND_OFFSET UNITYSDK_OFFSET(0x8D2CF00)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_HTTPREQUESTTIMER_OFFSET UNITYSDK_OFFSET(0x8D2C490)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_INSTANCE_OFFSET UNITYSDK_OFFSET(0x8D2C4E0)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_LOOP_OFFSET UNITYSDK_OFFSET(0x8D2CD40)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_PERFORMPOSTTASK_OFFSET UNITYSDK_OFFSET(0x8D2D6F0)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_POSTREQUEST_OFFSET UNITYSDK_OFFSET(0x8D2D4D0)
-#define MIHOYO_SDK_KIBANAREPORTSENDER_SENDTOKIBANA_OFFSET UNITYSDK_OFFSET(0x8D2C560)
-#define MIHOYO_SDK_KIBANAREPORTSENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x8D2C270)
-#define MIHOYO_SDK_KIBANAREPORTSENDER__ENCODEREPORTANDSEND_B__17_0_OFFSET UNITYSDK_OFFSET(0x8D2D790)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOCACHE_OFFSET UNITYSDK_OFFSET(0xA1827A0)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOTEMPCACHE_OFFSET UNITYSDK_OFFSET(0xA182B90)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_ENCODEREPORTANDSEND_OFFSET UNITYSDK_OFFSET(0xA183150)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_HTTPREQUESTTIMER_OFFSET UNITYSDK_OFFSET(0xA1823F0)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_INSTANCE_OFFSET UNITYSDK_OFFSET(0xA182440)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_LOOP_OFFSET UNITYSDK_OFFSET(0xA182F90)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_PERFORMPOSTTASK_OFFSET UNITYSDK_OFFSET(0xA1838C0)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_POSTREQUEST_OFFSET UNITYSDK_OFFSET(0xA183680)
+#define MIHOYO_SDK_KIBANAREPORTSENDER_SENDTOKIBANA_OFFSET UNITYSDK_OFFSET(0xA1824C0)
+#define MIHOYO_SDK_KIBANAREPORTSENDER__CTOR_OFFSET UNITYSDK_OFFSET(0xA1821D0)
+#define MIHOYO_SDK_KIBANAREPORTSENDER__ENCODEREPORTANDSEND_B__17_0_OFFSET UNITYSDK_OFFSET(0xA183960)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaReportSender_TypeDefinitionIndex = 43138;
+	inline static constexpr unsigned int KibanaReportSender_TypeDefinitionIndex = 43941;
 
 	class KibanaReportSender : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::KibanaReportSender** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::KibanaReportSender**)Il2CppClass::FromTypeDefinitionIndex(KibanaReportSender_TypeDefinitionIndex)->GetStaticField(0x4B300);
+			return (::MiHoYo::SDK::KibanaReportSender**)Il2CppClass::FromTypeDefinitionIndex(KibanaReportSender_TypeDefinitionIndex)->GetStaticField(0xE050);
 		}
 		// static const ::System::Int32 DEFAULT_MAX_COUNT = 0xA; // 0x0
 		// static const ::System::String* TELEMETRY_VERSION; // 0x0
@@ -39,8 +39,8 @@ namespace MiHoYo::SDK
 		// static const ::System::String* AREA; // 0x0
 		// static const ::System::String* LIFECYCLE_ID; // 0x0
 		// static const ::System::Int32 TIME_INTERVAL = 0x6; // 0x0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* _reportCacheTemp; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* _reportCache; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* _reportCache; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* _reportCacheTemp; // 0x18
 		::System::Boolean _isSending; // 0x20
 
 		::System::Void _ctor()
@@ -53,9 +53,9 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::KibanaReportSender*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_INSTANCE_OFFSET))();
 		}
 
-		::System::Void SendToKibana(::System::String* url, ::System::String* custom_content)
+		::System::Void SendToKibana(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_SENDTOKIBANA_OFFSET))(this, url, custom_content);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_SENDTOKIBANA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::IEnumerator* HTTPRequestTimer()
@@ -68,34 +68,34 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_LOOP_OFFSET))(this);
 		}
 
-		::System::Void AddToCache(::System::String* url, ::System::String* content)
+		::System::Void AddToCache(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOCACHE_OFFSET))(this, url, content);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOCACHE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddToTempCache(::System::String* url, ::System::String* content)
+		::System::Void AddToTempCache(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOTEMPCACHE_OFFSET))(this, url, content);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_ADDTOTEMPCACHE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EncodeReportAndSend(::System::String* kibanaUrl, ::System::Collections::Generic::List_1<::System::String*>* reports)
+		::System::Void EncodeReportAndSend(::System::String* a1, ::System::Collections::Generic::List_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_ENCODEREPORTANDSEND_OFFSET))(this, kibanaUrl, reports);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_ENCODEREPORTANDSEND_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PostRequest(::System::String* requestUrl, ::System::String* bodyString, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		::System::Void PostRequest(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_POSTREQUEST_OFFSET))(this, requestUrl, bodyString, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_POSTREQUEST_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::IEnumerator* PerformPostTask(::System::String* requestUrl, ::System::String* bodyString, ::System::Action_1<::System::String*>* callback, ::System::Action* timeoutCallback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* extHeaders, ::System::Single timeoutSecond)
+		::System::Collections::IEnumerator* PerformPostTask(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3, ::System::Action* a4, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a5, ::System::Single a6)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_PERFORMPOSTTASK_OFFSET))(this, requestUrl, bodyString, callback, timeoutCallback, extHeaders, timeoutSecond);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_PERFORMPOSTTASK_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void _EncodeReportAndSend_b__17_0(::MiHoYo::SDK::NetworkResponseModel* m)
+		::System::Void _EncodeReportAndSend_b__17_0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER__ENCODEREPORTANDSEND_B__17_0_OFFSET))(this, m);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER__ENCODEREPORTANDSEND_B__17_0_OFFSET))(this, a1);
 		}
 	};
 }

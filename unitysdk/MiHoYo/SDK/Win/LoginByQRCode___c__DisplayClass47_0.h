@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK::Win { class LoginByQRCode; }
 
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17727840)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x17727E80)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184E4FB0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x184E5590)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginByQRCode___c__DisplayClass47_0_TypeDefinitionIndex = 8284;
+	inline static constexpr unsigned int LoginByQRCode___c__DisplayClass47_0_TypeDefinitionIndex = 9187;
 
 	class LoginByQRCode___c__DisplayClass47_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE___C__DISPLAYCLASS47_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::Win::LoginByQRCode* loginDialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::Win::LoginByQRCode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::LoginByQRCode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET))(this, loginDialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::LoginByQRCode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

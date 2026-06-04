@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FormationZOffsetParams; }
 
-#define RPG_GAMECORE_FORMATIONZOFFSETLIST_METHOD_2_6621590A3DBA0595_OFFSET UNITYSDK_OFFSET(0x1892BEB0)
-#define RPG_GAMECORE_FORMATIONZOFFSETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1892BFB0)
+#define RPG_GAMECORE_FORMATIONZOFFSETLIST_METHOD_2_B1DC6CB3FAFB1A40_OFFSET UNITYSDK_OFFSET(0x19767230)
+#define RPG_GAMECORE_FORMATIONZOFFSETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19767320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationZOffsetList_TypeDefinitionIndex = 15693;
+	inline static constexpr unsigned int FormationZOffsetList_TypeDefinitionIndex = 15750;
 
 	class FormationZOffsetList : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONZOFFSETLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6621590A3DBA0595(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationZOffsetList*& a2)
+		static ::System::Void Method_2_B1DC6CB3FAFB1A40(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationZOffsetList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationZOffsetList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONZOFFSETLIST_METHOD_2_6621590A3DBA0595_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationZOffsetList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONZOFFSETLIST_METHOD_2_B1DC6CB3FAFB1A40_OFFSET))(a1, a2);
 		}
 	};
 }

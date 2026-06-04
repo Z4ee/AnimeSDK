@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B3220)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B32C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B2E90)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A691110)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4F1590)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4F1630)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4F1570)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F1500)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_ChangeFunc_TypeDefinitionIndex = 36140;
+	inline static constexpr unsigned int BrowserNative_ChangeFunc_TypeDefinitionIndex = 36440;
 
 	class BrowserNative_ChangeFunc : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Int32 browserId, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeType changeType, ::System::String* arg1)
+		::System::Void Invoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeType a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeType, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_INVOKE_OFFSET))(this, browserId, changeType, arg1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeType, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 browserId, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeType changeType, ::System::String* arg1, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeType a2, ::System::String* a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeType, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_BEGININVOKE_OFFSET))(this, browserId, changeType, arg1, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeType, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

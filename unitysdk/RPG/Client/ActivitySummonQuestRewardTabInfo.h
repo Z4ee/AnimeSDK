@@ -7,13 +7,13 @@ namespace RPG::Client { class ActivitySummonStage; }
 namespace RPG::GameCore { class ActivityQuestRewardDataRow; }
 namespace RPG::GameCore { class ActivitySummonRewardTabRow; }
 
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x9C64280)
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9C641F0)
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO___IFIXBASEPROXY_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x9C643B0)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xB2051C0)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB205130)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO___IFIXBASEPROXY_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xB2052F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfo_TypeDefinitionIndex = 57117;
+	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfo_TypeDefinitionIndex = 57907;
 
 	class ActivitySummonQuestRewardTabInfo : public ::RPG::Client::CommonActivityQuestRewardTabInfo
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 		::RPG::Client::TextID _TitleAfterRevealed; // 0x50
 		::RPG::Client::TextID _TitleBeforeRevealed; // 0x60
 
-		::System::Void _ctor(::RPG::GameCore::ActivityQuestRewardDataRow* row, ::RPG::GameCore::ActivitySummonRewardTabRow* activityTabRow)
+		::System::Void _ctor(::RPG::GameCore::ActivityQuestRewardDataRow* a1, ::RPG::GameCore::ActivitySummonRewardTabRow* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityQuestRewardDataRow*, ::RPG::GameCore::ActivitySummonRewardTabRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET))(this, row, activityTabRow);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityQuestRewardDataRow*, ::RPG::GameCore::ActivitySummonRewardTabRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::TextID get_Title()

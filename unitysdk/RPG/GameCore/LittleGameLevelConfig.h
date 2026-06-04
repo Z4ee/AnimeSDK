@@ -11,12 +11,12 @@ namespace RPG::GameCore { class LittleGameLevelSettings; }
 namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMELEVELCONFIG_METHOD_2_83E9C7CFCB64A6FF_OFFSET UNITYSDK_OFFSET(0x18A6BE90)
-#define RPG_GAMECORE_LITTLEGAMELEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A6C170)
+#define RPG_GAMECORE_LITTLEGAMELEVELCONFIG_METHOD_2_E6CDF1EC05183A6B_OFFSET UNITYSDK_OFFSET(0x1989F5E0)
+#define RPG_GAMECORE_LITTLEGAMELEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1989F870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameLevelConfig_TypeDefinitionIndex = 17900;
+	inline static constexpr unsigned int LittleGameLevelConfig_TypeDefinitionIndex = 17928;
 
 	class LittleGameLevelConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_83E9C7CFCB64A6FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameLevelConfig*& a2)
+		static ::System::Void Method_2_E6CDF1EC05183A6B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameLevelConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELCONFIG_METHOD_2_83E9C7CFCB64A6FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELCONFIG_METHOD_2_E6CDF1EC05183A6B_OFFSET))(a1, a2);
 		}
 	};
 }

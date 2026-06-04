@@ -13,35 +13,35 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADDTAB_OFFSET UNITYSDK_OFFSET(0x19E72250)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADD_ACTIVETABCHANGED_OFFSET UNITYSDK_OFFSET(0x19E92BE0)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_GET_ACTIVETAB_OFFSET UNITYSDK_OFFSET(0x19E96B00)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_GET_TABS_OFFSET UNITYSDK_OFFSET(0x19E72A40)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ISTABSHOW_OFFSET UNITYSDK_OFFSET(0x19E72B30)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_MAKEACTIVE_OFFSET UNITYSDK_OFFSET(0x19E96B10)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x19E736E0)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_REMOVE_ACTIVETABCHANGED_OFFSET UNITYSDK_OFFSET(0x19E92E60)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SELECT_OFFSET UNITYSDK_OFFSET(0x19E72AA0)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SET_ACTIVETAB_OFFSET UNITYSDK_OFFSET(0x19E72A90)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SORTTABS_OFFSET UNITYSDK_OFFSET(0x19E96E00)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__ADJUSTTABPOSITION_OFFSET UNITYSDK_OFFSET(0x19E96650)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E97040)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E96FE0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADDTAB_OFFSET UNITYSDK_OFFSET(0x1ACE8880)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADD_ACTIVETABCHANGED_OFFSET UNITYSDK_OFFSET(0x1AD08840)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_GET_ACTIVETAB_OFFSET UNITYSDK_OFFSET(0x1AD0C7F0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_GET_TABS_OFFSET UNITYSDK_OFFSET(0x1ACE91B0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ISTABSHOW_OFFSET UNITYSDK_OFFSET(0x1ACE9320)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_MAKEACTIVE_OFFSET UNITYSDK_OFFSET(0x1AD0C800)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x1ACEA1A0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_REMOVE_ACTIVETABCHANGED_OFFSET UNITYSDK_OFFSET(0x1AD08AD0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SELECT_OFFSET UNITYSDK_OFFSET(0x1ACE9290)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SET_ACTIVETAB_OFFSET UNITYSDK_OFFSET(0x1ACE9280)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SORTTABS_OFFSET UNITYSDK_OFFSET(0x1AD0CAF0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__ADJUSTTABPOSITION_OFFSET UNITYSDK_OFFSET(0x1AD0C3A0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD0CD60)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0CD00)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int SRTabController_TypeDefinitionIndex = 35378;
+	inline static constexpr unsigned int SRTabController_TypeDefinitionIndex = 35678;
 
 	class SRTabController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet__WorldConers()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(SRTabController_TypeDefinitionIndex)->GetStaticField(0x694F0);
-		}
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet__LocalConers()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(SRTabController_TypeDefinitionIndex)->GetStaticField(0x694F8);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(SRTabController_TypeDefinitionIndex)->GetStaticField(0x64040);
+		}
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet__WorldConers()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(SRTabController_TypeDefinitionIndex)->GetStaticField(0x64048);
 		}
 		::SRF::SRList_1<::SRDebugger::UI::Other::SRTab*>* _tabs; // 0x48
 		::SRDebugger::UI::Other::SRTab* _activeTab; // 0x50
@@ -68,9 +68,9 @@ namespace SRDebugger::UI::Other
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SELECT_OFFSET))(this);
 		}
 
-		::System::Void OptionControl(::SRDebugger::Services::MihoyoOptionControlType type)
+		::System::Void OptionControl(::SRDebugger::Services::MihoyoOptionControlType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::Services::MihoyoOptionControlType))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_OPTIONCONTROL_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::Services::MihoyoOptionControlType))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_OPTIONCONTROL_OFFSET))(this, a1);
 		}
 
 		::SRDebugger::UI::Other::SRTab* get_ActiveTab()
@@ -78,9 +78,9 @@ namespace SRDebugger::UI::Other
 			return ((::SRDebugger::UI::Other::SRTab*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_GET_ACTIVETAB_OFFSET))(this);
 		}
 
-		::System::Void set_ActiveTab(::SRDebugger::UI::Other::SRTab* value)
+		::System::Void set_ActiveTab(::SRDebugger::UI::Other::SRTab* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::UI::Other::SRTab*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SET_ACTIVETAB_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::UI::Other::SRTab*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_SET_ACTIVETAB_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IList_1<::SRDebugger::UI::Other::SRTab*>* get_Tabs()
@@ -88,29 +88,29 @@ namespace SRDebugger::UI::Other
 			return ((::System::Collections::Generic::IList_1<::SRDebugger::UI::Other::SRTab*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_GET_TABS_OFFSET))(this);
 		}
 
-		::System::Void add_ActiveTabChanged(::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>* value)
+		::System::Void add_ActiveTabChanged(::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADD_ACTIVETABCHANGED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADD_ACTIVETABCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ActiveTabChanged(::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>* value)
+		::System::Void remove_ActiveTabChanged(::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_REMOVE_ACTIVETABCHANGED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_REMOVE_ACTIVETABCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void AddTab(::SRDebugger::UI::Other::SRTab* tab, ::System::Boolean visibleInSidebar)
+		::System::Void AddTab(::SRDebugger::UI::Other::SRTab* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::UI::Other::SRTab*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADDTAB_OFFSET))(this, tab, visibleInSidebar);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::UI::Other::SRTab*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADDTAB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsTabShow(::System::String* tabName)
+		::System::Boolean IsTabShow(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ISTABSHOW_OFFSET))(this, tabName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ISTABSHOW_OFFSET))(this, a1);
 		}
 
-		::System::Void MakeActive(::SRDebugger::UI::Other::SRTab* tab)
+		::System::Void MakeActive(::SRDebugger::UI::Other::SRTab* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::UI::Other::SRTab*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_MAKEACTIVE_OFFSET))(this, tab);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::UI::Other::SRTab*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_MAKEACTIVE_OFFSET))(this, a1);
 		}
 
 		::System::Void SortTabs()

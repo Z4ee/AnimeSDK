@@ -7,14 +7,14 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_ARITHMETICEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x177D80F0)
-#define SYSTEM_ARITHMETICEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x177D8160)
-#define SYSTEM_ARITHMETICEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x177D81D0)
-#define SYSTEM_ARITHMETICEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x177D8050)
+#define SYSTEM_ARITHMETICEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x185927A0)
+#define SYSTEM_ARITHMETICEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18592810)
+#define SYSTEM_ARITHMETICEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x18592880)
+#define SYSTEM_ARITHMETICEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18592700)
 
 namespace System
 {
-	inline static constexpr unsigned int ArithmeticException_TypeDefinitionIndex = 196;
+	inline static constexpr unsigned int ArithmeticException_TypeDefinitionIndex = 195;
 
 	class ArithmeticException : public ::System::SystemException
 	{
@@ -24,19 +24,19 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ARITHMETICEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARITHMETICEXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARITHMETICEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* message, ::System::Exception* innerException)
+		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_ARITHMETICEXCEPTION__CTOR_2_OFFSET))(this, message, innerException);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_ARITHMETICEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_ARITHMETICEXCEPTION__CTOR_3_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_ARITHMETICEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -9,19 +9,19 @@ class Class_1_0B4A9CBAA4CAEC69;
 namespace RPG::Client { class MapNpcDef; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_5C34FDAF2CB731CC_METHOD_1_4D74222C745CC12F_OFFSET UNITYSDK_OFFSET(0x902EA70)
-#define CLASS_1_5C34FDAF2CB731CC_METHOD_1_F3F21020EB2FF614_OFFSET UNITYSDK_OFFSET(0x902EBB0)
-#define CLASS_1_5C34FDAF2CB731CC__CTOR_OFFSET UNITYSDK_OFFSET(0x902EA40)
+#define CLASS_1_5C34FDAF2CB731CC_METHOD_1_4D74222C745CC12F_OFFSET UNITYSDK_OFFSET(0xA661BC0)
+#define CLASS_1_5C34FDAF2CB731CC_METHOD_1_F3F21020EB2FF614_OFFSET UNITYSDK_OFFSET(0xA661D00)
+#define CLASS_1_5C34FDAF2CB731CC__CTOR_OFFSET UNITYSDK_OFFSET(0xA661B90)
 
-inline static constexpr unsigned int Class_1_5C34FDAF2CB731CC_TypeDefinitionIndex = 56150;
+inline static constexpr unsigned int Class_1_5C34FDAF2CB731CC_TypeDefinitionIndex = 56912;
 
 class Class_1_5C34FDAF2CB731CC : public ::System::Object
 {
 public:
-	::Class_1_0B4A9CBAA4CAEC69* Field_1_3; // 0x10
-	::Struct_2_127EAB4936C75FCC Field_1_2; // 0x18
-	::UnityEngine::Vector3 Field_1_0; // 0x28
-	::UnityEngine::Quaternion Field_1_1; // 0x34
+	::Struct_2_127EAB4936C75FCC Field_1_0; // 0x10
+	::Class_1_0B4A9CBAA4CAEC69* Field_1_1; // 0x20
+	::UnityEngine::Vector3 Field_1_2; // 0x28
+	::UnityEngine::Quaternion Field_1_3; // 0x34
 
 	::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::Struct_2_127EAB4936C75FCC a3, ::Class_1_0B4A9CBAA4CAEC69* a4)
 	{

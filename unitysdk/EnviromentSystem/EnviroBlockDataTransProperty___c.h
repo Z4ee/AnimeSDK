@@ -5,29 +5,29 @@
 class SceneLightVolume;
 namespace System { template <typename T> class Comparison_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF2FE6C0)
-#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF2FE700)
-#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_0_OFFSET UNITYSDK_OFFSET(0xF2FE710)
-#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_1_OFFSET UNITYSDK_OFFSET(0xF2FE750)
+#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13586050)
+#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13586090)
+#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_0_OFFSET UNITYSDK_OFFSET(0x135860A0)
+#define ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_1_OFFSET UNITYSDK_OFFSET(0x135860E0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroBlockDataTransProperty___c_TypeDefinitionIndex = 46190;
+	inline static constexpr unsigned int EnviroBlockDataTransProperty___c_TypeDefinitionIndex = 46773;
 
 	class EnviroBlockDataTransProperty___c : public ::System::Object
 	{
 	public:
-		static ::EnviromentSystem::EnviroBlockDataTransProperty___c** StaticGet___9()
+		static ::System::Comparison_1<::SceneLightVolume*>** StaticGet___9__28_1()
 		{
-			return (::EnviromentSystem::EnviroBlockDataTransProperty___c**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0x12680);
+			return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0x44AE0);
 		}
 		static ::System::Comparison_1<::SceneLightVolume*>** StaticGet___9__28_0()
 		{
-			return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0x12688);
+			return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0x44AE8);
 		}
-		static ::System::Comparison_1<::SceneLightVolume*>** StaticGet___9__28_1()
+		static ::EnviromentSystem::EnviroBlockDataTransProperty___c** StaticGet___9()
 		{
-			return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0x12690);
+			return (::EnviromentSystem::EnviroBlockDataTransProperty___c**)Il2CppClass::FromTypeDefinitionIndex(EnviroBlockDataTransProperty___c_TypeDefinitionIndex)->GetStaticField(0x44AF0);
 		}
 
 		static ::System::Void _cctor()
@@ -40,14 +40,14 @@ namespace EnviromentSystem
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetActiveSceneLightVolume_b__28_0(::SceneLightVolume* a, ::SceneLightVolume* b)
+		::System::Int32 _GetActiveSceneLightVolume_b__28_0(::SceneLightVolume* a1, ::SceneLightVolume* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::SceneLightVolume*, ::SceneLightVolume*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::SceneLightVolume*, ::SceneLightVolume*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _GetActiveSceneLightVolume_b__28_1(::SceneLightVolume* a, ::SceneLightVolume* b)
+		::System::Int32 _GetActiveSceneLightVolume_b__28_1(::SceneLightVolume* a1, ::SceneLightVolume* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::SceneLightVolume*, ::SceneLightVolume*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_1_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::SceneLightVolume*, ::SceneLightVolume*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROBLOCKDATATRANSPROPERTY___C__GETACTIVESCENELIGHTVOLUME_B__28_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

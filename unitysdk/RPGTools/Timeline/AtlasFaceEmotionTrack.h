@@ -7,13 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB894B60)
-#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB894C60)
-#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB894C70)
+#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFD93A0)
+#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCFD94E0)
+#define RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFD94F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AtlasFaceEmotionTrack_TypeDefinitionIndex = 44785;
+	inline static constexpr unsigned int AtlasFaceEmotionTrack_TypeDefinitionIndex = 45332;
 
 	class AtlasFaceEmotionTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -28,9 +28,9 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::UnityEngine::Timeline::TimelineClip* P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ATLASFACEEMOTIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

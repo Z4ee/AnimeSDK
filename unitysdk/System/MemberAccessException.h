@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_MEMBERACCESSEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1797EB90)
-#define SYSTEM_MEMBERACCESSEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1797EC00)
-#define SYSTEM_MEMBERACCESSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1797EAF0)
+#define SYSTEM_MEMBERACCESSEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18730250)
+#define SYSTEM_MEMBERACCESSEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x187302C0)
+#define SYSTEM_MEMBERACCESSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x187301B0)
 
 namespace System
 {
-	inline static constexpr unsigned int MemberAccessException_TypeDefinitionIndex = 294;
+	inline static constexpr unsigned int MemberAccessException_TypeDefinitionIndex = 293;
 
 	class MemberAccessException : public ::System::SystemException
 	{
@@ -22,14 +22,14 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MEMBERACCESSEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_MEMBERACCESSEXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_MEMBERACCESSEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_MEMBERACCESSEXCEPTION__CTOR_2_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_MEMBERACCESSEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 	};
 }

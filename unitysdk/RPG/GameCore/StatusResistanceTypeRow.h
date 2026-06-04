@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STATUSRESISTANCETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EA18F0)
-#define RPG_GAMECORE_STATUSRESISTANCETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA1E50)
+#define RPG_GAMECORE_STATUSRESISTANCETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CBE770)
+#define RPG_GAMECORE_STATUSRESISTANCETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19CBECF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StatusResistanceTypeRow_TypeDefinitionIndex = 13448;
+	inline static constexpr unsigned int StatusResistanceTypeRow_TypeDefinitionIndex = 13519;
 
 	class StatusResistanceTypeRow : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSRESISTANCETYPEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::StatusResistanceTypeRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StatusResistanceTypeRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StatusResistanceTypeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSRESISTANCETYPEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StatusResistanceTypeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSRESISTANCETYPEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

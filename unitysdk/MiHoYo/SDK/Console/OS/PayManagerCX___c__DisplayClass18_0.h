@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK::Console::OS { class PayManagerCX; }
 
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1746CE70)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__TRYGETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1746E580)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1826DA90)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__TRYGETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1826F240)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int PayManagerCX___c__DisplayClass18_0_TypeDefinitionIndex = 7857;
+	inline static constexpr unsigned int PayManagerCX___c__DisplayClass18_0_TypeDefinitionIndex = 8760;
 
 	class PayManagerCX___c__DisplayClass18_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MiHoYo::SDK::Console::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _TryGetProducts_b__0(::System::Int32 retcode, ::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>* products)
+		::System::Void _TryGetProducts_b__0(::System::Int32 a1, ::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__TRYGETPRODUCTS_B__0_OFFSET))(this, retcode, products);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__TRYGETPRODUCTS_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

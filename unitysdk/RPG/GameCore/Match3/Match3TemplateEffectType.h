@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int Match3TemplateEffectType_TypeDefinitionIndex = 23729;
+	inline static constexpr unsigned int Match3TemplateEffectType_TypeDefinitionIndex = 23565;
 
 	enum class Match3TemplateEffectType : ::System::Int32
 	{

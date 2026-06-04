@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadLocal_1_IdManager_TypeDefinitionIndex = 817;
+	inline static constexpr unsigned int ThreadLocal_1_IdManager_TypeDefinitionIndex = 816;
 
 	template <typename T>
 	class ThreadLocal_1_IdManager : public ::System::Object

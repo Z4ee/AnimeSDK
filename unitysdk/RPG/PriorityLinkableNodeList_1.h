@@ -9,7 +9,7 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int PriorityLinkableNodeList_1_TypeDefinitionIndex = 8907;
+	inline static constexpr unsigned int PriorityLinkableNodeList_1_TypeDefinitionIndex = 6771;
 
 	template <typename T>
 	class PriorityLinkableNodeList_1 : public ::System::Object

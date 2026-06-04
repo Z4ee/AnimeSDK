@@ -8,15 +8,15 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVEPANELTOITEMINDEX_OFFSET UNITYSDK_OFFSET(0xA9DB280)
-#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVETOBOTTOM_OFFSET UNITYSDK_OFFSET(0xA9DB540)
-#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9DB030)
-#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xA9DB610)
-#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER__ENDPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xA9DB210)
+#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVEPANELTOITEMINDEX_OFFSET UNITYSDK_OFFSET(0xC129320)
+#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVETOBOTTOM_OFFSET UNITYSDK_OFFSET(0xC129560)
+#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC1290D0)
+#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xC129630)
+#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER__ENDPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xC1292B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLoopListViewMoveHelper_TypeDefinitionIndex = 66877;
+	inline static constexpr unsigned int MonoLoopListViewMoveHelper_TypeDefinitionIndex = 67817;
 
 	class MonoLoopListViewMoveHelper : public ::UnityEngine::MonoBehaviour
 	{
@@ -46,14 +46,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER__ENDPERFORMANCE_OFFSET))(this);
 		}
 
-		::System::Void MovePanelToItemIndex(::System::Int32 index)
+		::System::Void MovePanelToItemIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVEPANELTOITEMINDEX_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVEPANELTOITEMINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void MoveToBottom(::System::Action_1<::XLua::LuaTable*>* cbk, ::XLua::LuaTable* listener)
+		::System::Void MoveToBottom(::System::Action_1<::XLua::LuaTable*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVETOBOTTOM_OFFSET))(this, cbk, listener);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVETOBOTTOM_OFFSET))(this, a1, a2);
 		}
 	};
 }

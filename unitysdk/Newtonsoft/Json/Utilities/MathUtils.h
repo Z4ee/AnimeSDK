@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_UTILITIES_MATHUTILS_APPROXEQUALS_OFFSET UNITYSDK_OFFSET(0x17A96F20)
-#define NEWTONSOFT_JSON_UTILITIES_MATHUTILS_INTLENGTH_OFFSET UNITYSDK_OFFSET(0x17ACC760)
-#define NEWTONSOFT_JSON_UTILITIES_MATHUTILS_INTTOHEX_OFFSET UNITYSDK_OFFSET(0x17ACC8D0)
+#define NEWTONSOFT_JSON_UTILITIES_MATHUTILS_APPROXEQUALS_OFFSET UNITYSDK_OFFSET(0x18847090)
+#define NEWTONSOFT_JSON_UTILITIES_MATHUTILS_INTLENGTH_OFFSET UNITYSDK_OFFSET(0x1887B250)
+#define NEWTONSOFT_JSON_UTILITIES_MATHUTILS_INTTOHEX_OFFSET UNITYSDK_OFFSET(0x1887B3C0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int MathUtils_TypeDefinitionIndex = 8424;
+	inline static constexpr unsigned int MathUtils_TypeDefinitionIndex = 9327;
 
 	class MathUtils : public ::System::Object
 	{
 	public:
-		static ::System::Int32 IntLength(::System::UInt64 i)
+		static ::System::Int32 IntLength(::System::UInt64 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_MATHUTILS_INTLENGTH_OFFSET))(i);
+			return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_MATHUTILS_INTLENGTH_OFFSET))(a1);
 		}
 
-		static ::System::Char IntToHex(::System::Int32 n)
+		static ::System::Char IntToHex(::System::Int32 a1)
 		{
-			return ((::System::Char(*)(::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_MATHUTILS_INTTOHEX_OFFSET))(n);
+			return ((::System::Char(*)(::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_MATHUTILS_INTTOHEX_OFFSET))(a1);
 		}
 
-		static ::System::Boolean ApproxEquals(::System::Double d1, ::System::Double d2)
+		static ::System::Boolean ApproxEquals(::System::Double a1, ::System::Double a2)
 		{
-			return ((::System::Boolean(*)(::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_MATHUTILS_APPROXEQUALS_OFFSET))(d1, d2);
+			return ((::System::Boolean(*)(::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_MATHUTILS_APPROXEQUALS_OFFSET))(a1, a2);
 		}
 	};
 }

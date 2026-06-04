@@ -5,35 +5,35 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_1_OFFSET UNITYSDK_OFFSET(0x1A2F5D40)
-#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x1A2F5CE0)
-#define UNITYENGINE_PROBUILDER_XYZCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A2F5F60)
-#define UNITYENGINE_PROBUILDER_XYZCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F5CD0)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_1_OFFSET UNITYSDK_OFFSET(0x1B155760)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x1B155700)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B155960)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1556F0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int XYZColor_TypeDefinitionIndex = 39903;
+	inline static constexpr unsigned int XYZColor_TypeDefinitionIndex = 40730;
 
 	class XYZColor : public ::System::Object
 	{
 	public:
-		::System::Single x; // 0x10
-		::System::Single z; // 0x14
-		::System::Single y; // 0x18
+		::System::Single z; // 0x10
+		::System::Single y; // 0x14
+		::System::Single x; // 0x18
 
-		::System::Void _ctor(::System::Single x, ::System::Single y, ::System::Single z)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_XYZCOLOR__CTOR_OFFSET))(this, x, y, z);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_XYZCOLOR__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::XYZColor* FromRGB(::UnityEngine::Color col)
+		static ::UnityEngine::ProBuilder::XYZColor* FromRGB(::UnityEngine::Color a1)
 		{
-			return ((::UnityEngine::ProBuilder::XYZColor*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_OFFSET))(col);
+			return ((::UnityEngine::ProBuilder::XYZColor*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ProBuilder::XYZColor* FromRGB_1(::System::Single R, ::System::Single G, ::System::Single B)
+		static ::UnityEngine::ProBuilder::XYZColor* FromRGB_1(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::ProBuilder::XYZColor*(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_1_OFFSET))(R, G, B);
+			return ((::UnityEngine::ProBuilder::XYZColor*(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_1_OFFSET))(a1, a2, a3);
 		}
 
 		::System::String* ToString()

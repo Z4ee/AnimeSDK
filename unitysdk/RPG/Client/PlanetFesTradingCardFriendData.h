@@ -6,17 +6,17 @@ namespace RPG::Client { class PlanetFesTradingCardFriendData_IServerAgent; }
 namespace RPG::Client { class PlanetFesTradingCardFriendsItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_CHECKCANFRIENDEXCHANGECARD_OFFSET UNITYSDK_OFFSET(0xAD48620)
-#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xAD48550)
-#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_GETDEMANDFRIENDDATAWITHPERMISSION_OFFSET UNITYSDK_OFFSET(0xAD48690)
-#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_GETFRIENDDATA_OFFSET UNITYSDK_OFFSET(0xAD485C0)
-#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_GETPRESENTFRIENDDATAWITHPERMISSION_OFFSET UNITYSDK_OFFSET(0xAD48950)
-#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_GET_FRIENDSDATALIST_OFFSET UNITYSDK_OFFSET(0xAD48900)
-#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAD485B0)
+#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_CHECKCANFRIENDEXCHANGECARD_OFFSET UNITYSDK_OFFSET(0xC4864B0)
+#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC4863E0)
+#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_GETDEMANDFRIENDDATAWITHPERMISSION_OFFSET UNITYSDK_OFFSET(0xC486520)
+#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_GETFRIENDDATA_OFFSET UNITYSDK_OFFSET(0xC486450)
+#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_GETPRESENTFRIENDDATAWITHPERMISSION_OFFSET UNITYSDK_OFFSET(0xC486870)
+#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_GET_FRIENDSDATALIST_OFFSET UNITYSDK_OFFSET(0xC486820)
+#define RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC486440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesTradingCardFriendData_TypeDefinitionIndex = 61340;
+	inline static constexpr unsigned int PlanetFesTradingCardFriendData_TypeDefinitionIndex = 62264;
 
 	class PlanetFesTradingCardFriendData : public ::System::Object
 	{
@@ -28,19 +28,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::PlanetFesTradingCardFriendData* Create(::RPG::Client::PlanetFesTradingCardFriendData_IServerAgent* agent)
+		static ::RPG::Client::PlanetFesTradingCardFriendData* Create(::RPG::Client::PlanetFesTradingCardFriendData_IServerAgent* a1)
 		{
-			return ((::RPG::Client::PlanetFesTradingCardFriendData*(*)(::RPG::Client::PlanetFesTradingCardFriendData_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_CREATE_OFFSET))(agent);
+			return ((::RPG::Client::PlanetFesTradingCardFriendData*(*)(::RPG::Client::PlanetFesTradingCardFriendData_IServerAgent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_CREATE_OFFSET))(a1);
 		}
 
-		::RPG::Client::PlanetFesTradingCardFriendsItem* GetFriendData(::System::UInt32 friendID)
+		::RPG::Client::PlanetFesTradingCardFriendsItem* GetFriendData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::PlanetFesTradingCardFriendsItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_GETFRIENDDATA_OFFSET))(this, friendID);
+			return ((::RPG::Client::PlanetFesTradingCardFriendsItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_GETFRIENDDATA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CheckCanFriendExchangeCard(::System::UInt32 friendID)
+		::System::Boolean CheckCanFriendExchangeCard(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_CHECKCANFRIENDEXCHANGECARD_OFFSET))(this, friendID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDFRIENDDATA_CHECKCANFRIENDEXCHANGECARD_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesTradingCardFriendsItem*>* GetDemandFriendDataWithPermission()

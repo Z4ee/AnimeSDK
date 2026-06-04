@@ -9,25 +9,25 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x19E8BF90)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ISENUMERATORTYPE_OFFSET UNITYSDK_OFFSET(0x19E8BFF0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x19E8B870)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEINDEXCHANGED_OFFSET UNITYSDK_OFFSET(0x19E8B360)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x19E8BBB0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_START_OFFSET UNITYSDK_OFFSET(0x19E8B280)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E8C0F0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E8C0E0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1AD024D0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ISENUMERATORTYPE_OFFSET UNITYSDK_OFFSET(0x1AD02530)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1AD01D80)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEINDEXCHANGED_OFFSET UNITYSDK_OFFSET(0x1AD01870)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1AD020B0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1AD01780)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD02630)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD02620)
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int StringArrayControl_TypeDefinitionIndex = 35413;
+	inline static constexpr unsigned int StringArrayControl_TypeDefinitionIndex = 35713;
 
 	class StringArrayControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
 	public:
 		static ::Il2CppArray<::System::Type*>** StaticGet_EnumeratorTypes()
 		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(StringArrayControl_TypeDefinitionIndex)->GetStaticField(0x68EC0);
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(StringArrayControl_TypeDefinitionIndex)->GetStaticField(0x63DC0);
 		}
 		::Il2CppArray<::System::String*>* _selectValues; // 0x98
 		::System::Int32 _lastIndex; // 0xA0
@@ -50,29 +50,29 @@ namespace SRDebugger::UI::Controls::Data
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_START_OFFSET))(this);
 		}
 
-		::System::Void OnValueIndexChanged(::System::Int32 newValue)
+		::System::Void OnValueIndexChanged(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEINDEXCHANGED_OFFSET))(this, newValue);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEINDEXCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void OnBind(::System::String* propertyName, ::System::Type* t)
+		::System::Void OnBind(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONBIND_OFFSET))(this, propertyName, t);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONBIND_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnValueUpdated(::System::Object* newValue)
+		::System::Void OnValueUpdated(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEUPDATED_OFFSET))(this, newValue);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ONVALUEUPDATED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CanBind(::System::Type* type, ::System::Boolean isReadOnly)
+		::System::Boolean CanBind(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_CANBIND_OFFSET))(this, type, isReadOnly);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_CANBIND_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Boolean IsEnumeratorType(::System::Type* t)
+		static ::System::Boolean IsEnumeratorType(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ISENUMERATORTYPE_OFFSET))(t);
+			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGARRAYCONTROL_ISENUMERATORTYPE_OFFSET))(a1);
 		}
 	};
 }

@@ -6,7 +6,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int EmptyReadOnlyCollection_1_TypeDefinitionIndex = 3673;
+	inline static constexpr unsigned int EmptyReadOnlyCollection_1_TypeDefinitionIndex = 3674;
 
 	template <typename T>
 	class EmptyReadOnlyCollection_1 : public ::System::Object

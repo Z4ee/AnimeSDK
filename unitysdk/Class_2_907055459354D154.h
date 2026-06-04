@@ -7,26 +7,26 @@ namespace RPG::GameCore { class PlayMusicRhythmTimeline; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_907055459354D154_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1294B8A0)
-#define CLASS_2_907055459354D154_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1294BA70)
-#define CLASS_2_907055459354D154_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1294B8E0)
-#define CLASS_2_907055459354D154_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1294BB00)
-#define CLASS_2_907055459354D154_TICK_OFFSET UNITYSDK_OFFSET(0x1294BB50)
-#define CLASS_2_907055459354D154__CCTOR_OFFSET UNITYSDK_OFFSET(0x1294BCD0)
-#define CLASS_2_907055459354D154__CTOR_OFFSET UNITYSDK_OFFSET(0x1294B890)
+#define CLASS_2_907055459354D154_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD7C2FF0)
+#define CLASS_2_907055459354D154_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD7C31D0)
+#define CLASS_2_907055459354D154_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD7C3030)
+#define CLASS_2_907055459354D154_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD7C3260)
+#define CLASS_2_907055459354D154_TICK_OFFSET UNITYSDK_OFFSET(0xD7C32B0)
+#define CLASS_2_907055459354D154__CCTOR_OFFSET UNITYSDK_OFFSET(0xD7C3430)
+#define CLASS_2_907055459354D154__CTOR_OFFSET UNITYSDK_OFFSET(0xD7C2FE0)
 
-inline static constexpr unsigned int Class_2_907055459354D154_TypeDefinitionIndex = 48956;
+inline static constexpr unsigned int Class_2_907055459354D154_TypeDefinitionIndex = 49622;
 
 class Class_2_907055459354D154 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	static ::System::String** StaticGet_Field_2_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_2_907055459354D154_TypeDefinitionIndex)->GetStaticField(0x2EAB0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_2_907055459354D154_TypeDefinitionIndex)->GetStaticField(0x68DB0);
 	}
 	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::Client::MusicRhythmBoard* Field_2_3; // 0x20
-	::RPG::GameCore::PlayMusicRhythmTimeline* Field_2_2; // 0x28
+	::RPG::Client::MusicRhythmBoard* Field_2_2; // 0x20
+	::RPG::GameCore::PlayMusicRhythmTimeline* Field_2_3; // 0x28
 	::System::Boolean Field_2_4; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PlayMusicRhythmTimeline* a2)

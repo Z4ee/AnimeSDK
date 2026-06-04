@@ -9,36 +9,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8CCC3D0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8CCC460)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8CC64A0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8CCC3B0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17F6CEA0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17F6CF30)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x17F67010)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17F6CDB0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_HEU_LoadCallback_TypeDefinitionIndex = 43679;
+	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_HEU_LoadCallback_TypeDefinitionIndex = 37655;
 
 	class HEU_ThreadedTaskLoadGeo_HEU_LoadCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData* loadData, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallbackType callbackType)
+		::System::Void Invoke(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData* a2, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallbackType a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData*, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallbackType))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_INVOKE_OFFSET))(this, session, loadData, callbackType);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData*, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallbackType))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData* loadData, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallbackType callbackType, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData* a2, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallbackType a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData*, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallbackType, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_BEGININVOKE_OFFSET))(this, session, loadData, callbackType, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData*, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallbackType, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,18 +6,18 @@
 namespace UnityEngine::UIElements { class IPointerEvent; }
 namespace UnityEngine::UIElements { class VisualElement; }
 
-#define UNITYENGINE_UIELEMENTS_POINTEREVENTSHELPER_SENDOVEROUT_OFFSET UNITYSDK_OFFSET(0x1A5089F0)
+#define UNITYENGINE_UIELEMENTS_POINTEREVENTSHELPER_SENDOVEROUT_OFFSET UNITYSDK_OFFSET(0x1B353D10)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerEventsHelper_TypeDefinitionIndex = 5949;
+	inline static constexpr unsigned int PointerEventsHelper_TypeDefinitionIndex = 6226;
 
 	class PointerEventsHelper : public ::System::Object
 	{
 	public:
-		static ::System::Void SendOverOut(::UnityEngine::UIElements::VisualElement* previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderPointer, ::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, ::System::Int32 pointerId)
+		static ::System::Void SendOverOut(::UnityEngine::UIElements::VisualElement* a1, ::UnityEngine::UIElements::VisualElement* a2, ::UnityEngine::UIElements::IPointerEvent* a3, ::UnityEngine::Vector2 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IPointerEvent*, ::UnityEngine::Vector2, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_POINTEREVENTSHELPER_SENDOVEROUT_OFFSET))(previousTopElementUnderPointer, currentTopElementUnderPointer, triggerEvent, position, pointerId);
+			return ((::System::Void(*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IPointerEvent*, ::UnityEngine::Vector2, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_POINTEREVENTSHELPER_SENDOVEROUT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

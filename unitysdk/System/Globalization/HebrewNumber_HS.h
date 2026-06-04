@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int HebrewNumber_HS_TypeDefinitionIndex = 756;
+	inline static constexpr unsigned int HebrewNumber_HS_TypeDefinitionIndex = 755;
 
 	enum class HebrewNumber_HS : ::System::Int32
 	{

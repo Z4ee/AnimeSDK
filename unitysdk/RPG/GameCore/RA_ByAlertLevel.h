@@ -4,14 +4,17 @@
 #include "unitysdk/RPG/GameCore/ST_AlertLevel.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_RA_BYALERTLEVEL_METHOD_4_2324D9EC737CACBB_OFFSET UNITYSDK_OFFSET(0x18C82DA0)
-#define RPG_GAMECORE_RA_BYALERTLEVEL_METHOD_4_75447B606F521C5D_OFFSET UNITYSDK_OFFSET(0x18C5C120)
-#define RPG_GAMECORE_RA_BYALERTLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5C0D0)
+#define RPG_GAMECORE_RA_BYALERTLEVEL_METHOD_4_2324D9EC737CACBB_OFFSET UNITYSDK_OFFSET(0x19AA6210)
+#define RPG_GAMECORE_RA_BYALERTLEVEL_METHOD_4_2A6A05E562D233B2_OFFSET UNITYSDK_OFFSET(0x19AA6460)
+#define RPG_GAMECORE_RA_BYALERTLEVEL_METHOD_4_5B960A86F0A8F053_OFFSET UNITYSDK_OFFSET(0x19AA64E0)
+#define RPG_GAMECORE_RA_BYALERTLEVEL_METHOD_4_75447B606F521C5D_OFFSET UNITYSDK_OFFSET(0x19AA62E0)
+#define RPG_GAMECORE_RA_BYALERTLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA6290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RA_ByAlertLevel_TypeDefinitionIndex = 18968;
+	inline static constexpr unsigned int RA_ByAlertLevel_TypeDefinitionIndex = 18922;
 
 	class RA_ByAlertLevel : public ::RPG::GameCore::PredicateConfig
 	{
@@ -31,6 +34,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_75447B606F521C5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RA_ByAlertLevel* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RA_ByAlertLevel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RA_BYALERTLEVEL_METHOD_4_75447B606F521C5D_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_2A6A05E562D233B2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RA_ByAlertLevel*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RA_ByAlertLevel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RA_BYALERTLEVEL_METHOD_4_2A6A05E562D233B2_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_5B960A86F0A8F053(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RA_ByAlertLevel* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RA_ByAlertLevel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RA_BYALERTLEVEL_METHOD_4_5B960A86F0A8F053_OFFSET))(a1, a2);
 		}
 	};
 }

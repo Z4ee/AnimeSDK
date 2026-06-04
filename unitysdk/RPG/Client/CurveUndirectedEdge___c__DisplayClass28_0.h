@@ -6,13 +6,13 @@
 namespace RPG::Client { class CurveUndirectedEdge; }
 namespace RPG::Client { class CurveUndirectedEdgeConnection; }
 
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0E9F30)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__0_OFFSET UNITYSDK_OFFSET(0xA0EA3A0)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__1_OFFSET UNITYSDK_OFFSET(0xA0EA3C0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB729850)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__0_OFFSET UNITYSDK_OFFSET(0xB729CD0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__1_OFFSET UNITYSDK_OFFSET(0xB729CF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveUndirectedEdge___c__DisplayClass28_0_TypeDefinitionIndex = 63235;
+	inline static constexpr unsigned int CurveUndirectedEdge___c__DisplayClass28_0_TypeDefinitionIndex = 64152;
 
 	class CurveUndirectedEdge___c__DisplayClass28_0 : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _TryConnectToOtherEdge_b__0(::RPG::Client::CurveUndirectedEdgeConnection* item)
+		::System::Boolean _TryConnectToOtherEdge_b__0(::RPG::Client::CurveUndirectedEdgeConnection* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CurveUndirectedEdgeConnection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CurveUndirectedEdgeConnection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _TryConnectToOtherEdge_b__1(::RPG::Client::CurveUndirectedEdgeConnection* item)
+		::System::Boolean _TryConnectToOtherEdge_b__1(::RPG::Client::CurveUndirectedEdgeConnection* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CurveUndirectedEdgeConnection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__1_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CurveUndirectedEdgeConnection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS28_0__TRYCONNECTTOOTHEREDGE_B__1_OFFSET))(this, a1);
 		}
 	};
 }

@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int CollectionIterator_1_TypeDefinitionIndex = 6511;
+	inline static constexpr unsigned int CollectionIterator_1_TypeDefinitionIndex = 6340;
 
 	template <typename T>
 	class CollectionIterator_1 : public ::System::Object

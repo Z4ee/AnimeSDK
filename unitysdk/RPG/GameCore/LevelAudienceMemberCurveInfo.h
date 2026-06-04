@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELAUDIENCEMEMBERCURVEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A3C3D0)
-#define RPG_GAMECORE_LEVELAUDIENCEMEMBERCURVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3C550)
+#define RPG_GAMECORE_LEVELAUDIENCEMEMBERCURVEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1986DA90)
+#define RPG_GAMECORE_LEVELAUDIENCEMEMBERCURVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1986DC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudienceMemberCurveInfo_TypeDefinitionIndex = 16432;
+	inline static constexpr unsigned int LevelAudienceMemberCurveInfo_TypeDefinitionIndex = 16466;
 
 	class LevelAudienceMemberCurveInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIENCEMEMBERCURVEINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelAudienceMemberCurveInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelAudienceMemberCurveInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelAudienceMemberCurveInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIENCEMEMBERCURVEINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelAudienceMemberCurveInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIENCEMEMBERCURVEINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

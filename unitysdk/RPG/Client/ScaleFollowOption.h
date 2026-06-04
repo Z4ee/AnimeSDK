@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScaleFollowOption_TypeDefinitionIndex = 64587;
+	inline static constexpr unsigned int ScaleFollowOption_TypeDefinitionIndex = 65508;
 
 	enum class ScaleFollowOption : ::System::Int32
 	{

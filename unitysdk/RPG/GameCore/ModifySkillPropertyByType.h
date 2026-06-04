@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SkillDataPropertyModifyItem; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_METHOD_3_930D3BA084BC89C4_OFFSET UNITYSDK_OFFSET(0x18B41000)
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_METHOD_3_ADDBB4E0B3A1679A_OFFSET UNITYSDK_OFFSET(0x18B40F30)
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B40FB0)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_METHOD_3_8C081278B6BE0DAC_OFFSET UNITYSDK_OFFSET(0x19958F50)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_METHOD_3_CDCBC2338512BE1E_OFFSET UNITYSDK_OFFSET(0x19959020)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19958FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifySkillPropertyByType_TypeDefinitionIndex = 22531;
+	inline static constexpr unsigned int ModifySkillPropertyByType_TypeDefinitionIndex = 22274;
 
 	class ModifySkillPropertyByType : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ADDBB4E0B3A1679A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySkillPropertyByType*& a2)
+		static ::System::Void Method_3_8C081278B6BE0DAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySkillPropertyByType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifySkillPropertyByType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_METHOD_3_ADDBB4E0B3A1679A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifySkillPropertyByType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_METHOD_3_8C081278B6BE0DAC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_930D3BA084BC89C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySkillPropertyByType* a2)
+		static ::System::Void Method_3_CDCBC2338512BE1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySkillPropertyByType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifySkillPropertyByType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_METHOD_3_930D3BA084BC89C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifySkillPropertyByType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSKILLPROPERTYBYTYPE_METHOD_3_CDCBC2338512BE1E_OFFSET))(a1, a2);
 		}
 	};
 }

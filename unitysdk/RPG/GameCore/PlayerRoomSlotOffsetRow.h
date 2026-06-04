@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERROOMSLOTOFFSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C35860)
-#define RPG_GAMECORE_PLAYERROOMSLOTOFFSETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C359B0)
+#define RPG_GAMECORE_PLAYERROOMSLOTOFFSETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A42840)
+#define RPG_GAMECORE_PLAYERROOMSLOTOFFSETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A42950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerRoomSlotOffsetRow_TypeDefinitionIndex = 13753;
+	inline static constexpr unsigned int PlayerRoomSlotOffsetRow_TypeDefinitionIndex = 13820;
 
 	class PlayerRoomSlotOffsetRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERROOMSLOTOFFSETROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PlayerRoomSlotOffsetRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerRoomSlotOffsetRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerRoomSlotOffsetRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERROOMSLOTOFFSETROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerRoomSlotOffsetRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERROOMSLOTOFFSETROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

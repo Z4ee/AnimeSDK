@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 
-#define CLASS_1_0217CFE33F2E2D0F_METHOD_1_315FD10AFF22939B_OFFSET UNITYSDK_OFFSET(0x19D6E070)
-#define CLASS_1_0217CFE33F2E2D0F_METHOD_1_8995A5D7CFDFC227_OFFSET UNITYSDK_OFFSET(0x19D6DD10)
-#define CLASS_1_0217CFE33F2E2D0F__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6E320)
+#define CLASS_1_0217CFE33F2E2D0F_METHOD_1_3696C80FA5132A92_OFFSET UNITYSDK_OFFSET(0x1ABF3B20)
+#define CLASS_1_0217CFE33F2E2D0F_METHOD_1_8995A5D7CFDFC227_OFFSET UNITYSDK_OFFSET(0x1ABF3760)
+#define CLASS_1_0217CFE33F2E2D0F__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABF3E70)
 
-inline static constexpr unsigned int Class_1_0217CFE33F2E2D0F_TypeDefinitionIndex = 9605;
+inline static constexpr unsigned int Class_1_0217CFE33F2E2D0F_TypeDefinitionIndex = 33374;
 
 class Class_1_0217CFE33F2E2D0F : public ::System::Object
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Boolean, ::System::Type*, ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*))((::PBYTE)hIl2Cpp + CLASS_1_0217CFE33F2E2D0F_METHOD_1_8995A5D7CFDFC227_OFFSET))(a1, a2, a3, a4, a5);
 	}
 
-	static ::System::Void Method_1_315FD10AFF22939B(::System::String* a1, ::System::Type* a2, ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* a3)
+	static ::System::Void Method_1_3696C80FA5132A92(::System::String* a1, ::System::Type* a2, ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* a3)
 	{
-		return ((::System::Void(*)(::System::String*, ::System::Type*, ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*))((::PBYTE)hIl2Cpp + CLASS_1_0217CFE33F2E2D0F_METHOD_1_315FD10AFF22939B_OFFSET))(a1, a2, a3);
+		return ((::System::Void(*)(::System::String*, ::System::Type*, ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*))((::PBYTE)hIl2Cpp + CLASS_1_0217CFE33F2E2D0F_METHOD_1_3696C80FA5132A92_OFFSET))(a1, a2, a3);
 	}
 };

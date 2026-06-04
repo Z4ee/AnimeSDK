@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8F270A0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8F270D0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8F26B50)
-#define EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8F26B30)
+#define EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA34B8A0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA34B8D0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA34B890)
+#define EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA34B7A0)
 
 namespace Epic::OnlineServices::RTCAudio
 {
-	inline static constexpr unsigned int OnAudioBeforeRenderCallback_TypeDefinitionIndex = 41453;
+	inline static constexpr unsigned int OnAudioBeforeRenderCallback_TypeDefinitionIndex = 42256;
 
 	class OnAudioBeforeRenderCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::RTCAudio::AudioBeforeRenderCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::RTCAudio::AudioBeforeRenderCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AudioBeforeRenderCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AudioBeforeRenderCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::RTCAudio::AudioBeforeRenderCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::RTCAudio::AudioBeforeRenderCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AudioBeforeRenderCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AudioBeforeRenderCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_ONAUDIOBEFORERENDERCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

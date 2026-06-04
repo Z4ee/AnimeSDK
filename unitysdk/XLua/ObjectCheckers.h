@@ -7,25 +7,25 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace XLua { class ObjectCheck; }
 namespace XLua { class ObjectTranslator; }
 
-#define XLUA_OBJECTCHECKERS_BOOLCHECK_OFFSET UNITYSDK_OFFSET(0x112439F0)
-#define XLUA_OBJECTCHECKERS_BYTESCHECK_OFFSET UNITYSDK_OFFSET(0x112437B0)
-#define XLUA_OBJECTCHECKERS_DECIMALCHECK_OFFSET UNITYSDK_OFFSET(0x11243580)
-#define XLUA_OBJECTCHECKERS_GENCHECKER_OFFSET UNITYSDK_OFFSET(0x11243F60)
-#define XLUA_OBJECTCHECKERS_GENNULLABLECHECKER_OFFSET UNITYSDK_OFFSET(0x11244210)
-#define XLUA_OBJECTCHECKERS_GETCHECKER_OFFSET UNITYSDK_OFFSET(0x112442A0)
-#define XLUA_OBJECTCHECKERS_INT64CHECK_OFFSET UNITYSDK_OFFSET(0x11243A80)
-#define XLUA_OBJECTCHECKERS_INTPTRCHECK_OFFSET UNITYSDK_OFFSET(0x11243ED0)
-#define XLUA_OBJECTCHECKERS_LUAFUNCTIONCHECK_OFFSET UNITYSDK_OFFSET(0x11243C80)
-#define XLUA_OBJECTCHECKERS_LUATABLECHECK_OFFSET UNITYSDK_OFFSET(0x112432A0)
-#define XLUA_OBJECTCHECKERS_NUMBERCHECK_OFFSET UNITYSDK_OFFSET(0x112434F0)
-#define XLUA_OBJECTCHECKERS_OBJECTCHECK_OFFSET UNITYSDK_OFFSET(0x11243290)
-#define XLUA_OBJECTCHECKERS_STRCHECK_OFFSET UNITYSDK_OFFSET(0x112436B0)
-#define XLUA_OBJECTCHECKERS_UINT64CHECK_OFFSET UNITYSDK_OFFSET(0x11243B80)
-#define XLUA_OBJECTCHECKERS__CTOR_OFFSET UNITYSDK_OFFSET(0x11242580)
+#define XLUA_OBJECTCHECKERS_BOOLCHECK_OFFSET UNITYSDK_OFFSET(0x12EA4980)
+#define XLUA_OBJECTCHECKERS_BYTESCHECK_OFFSET UNITYSDK_OFFSET(0x12EA4740)
+#define XLUA_OBJECTCHECKERS_DECIMALCHECK_OFFSET UNITYSDK_OFFSET(0x12EA4510)
+#define XLUA_OBJECTCHECKERS_GENCHECKER_OFFSET UNITYSDK_OFFSET(0x12EA4F00)
+#define XLUA_OBJECTCHECKERS_GENNULLABLECHECKER_OFFSET UNITYSDK_OFFSET(0x12EA51E0)
+#define XLUA_OBJECTCHECKERS_GETCHECKER_OFFSET UNITYSDK_OFFSET(0x12EA5280)
+#define XLUA_OBJECTCHECKERS_INT64CHECK_OFFSET UNITYSDK_OFFSET(0x12EA4A10)
+#define XLUA_OBJECTCHECKERS_INTPTRCHECK_OFFSET UNITYSDK_OFFSET(0x12EA4E70)
+#define XLUA_OBJECTCHECKERS_LUAFUNCTIONCHECK_OFFSET UNITYSDK_OFFSET(0x12EA4C10)
+#define XLUA_OBJECTCHECKERS_LUATABLECHECK_OFFSET UNITYSDK_OFFSET(0x12EA4220)
+#define XLUA_OBJECTCHECKERS_NUMBERCHECK_OFFSET UNITYSDK_OFFSET(0x12EA4480)
+#define XLUA_OBJECTCHECKERS_OBJECTCHECK_OFFSET UNITYSDK_OFFSET(0x12EA4210)
+#define XLUA_OBJECTCHECKERS_STRCHECK_OFFSET UNITYSDK_OFFSET(0x12EA4640)
+#define XLUA_OBJECTCHECKERS_UINT64CHECK_OFFSET UNITYSDK_OFFSET(0x12EA4B10)
+#define XLUA_OBJECTCHECKERS__CTOR_OFFSET UNITYSDK_OFFSET(0x12EA3470)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCheckers_TypeDefinitionIndex = 46424;
+	inline static constexpr unsigned int ObjectCheckers_TypeDefinitionIndex = 47014;
 
 	class ObjectCheckers : public ::System::Object
 	{
@@ -33,79 +33,79 @@ namespace XLua
 		::XLua::ObjectTranslator* translator; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::Type*, ::XLua::ObjectCheck*>* checkersMap; // 0x18
 
-		::System::Void _ctor(::XLua::ObjectTranslator* translator)
+		::System::Void _ctor(::XLua::ObjectTranslator* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS__CTOR_OFFSET))(this, translator);
+			return ((::System::Void(*)(::PVOID, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean objectCheck(::System::IntPtr L, ::System::Int32 idx)
+		static ::System::Boolean objectCheck(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_OBJECTCHECK_OFFSET))(L, idx);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_OBJECTCHECK_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean luaTableCheck(::System::IntPtr L, ::System::Int32 idx)
+		::System::Boolean luaTableCheck(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_LUATABLECHECK_OFFSET))(this, L, idx);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_LUATABLECHECK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean numberCheck(::System::IntPtr L, ::System::Int32 idx)
+		::System::Boolean numberCheck(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_NUMBERCHECK_OFFSET))(this, L, idx);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_NUMBERCHECK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean decimalCheck(::System::IntPtr L, ::System::Int32 idx)
+		::System::Boolean decimalCheck(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_DECIMALCHECK_OFFSET))(this, L, idx);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_DECIMALCHECK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean strCheck(::System::IntPtr L, ::System::Int32 idx)
+		::System::Boolean strCheck(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_STRCHECK_OFFSET))(this, L, idx);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_STRCHECK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean bytesCheck(::System::IntPtr L, ::System::Int32 idx)
+		::System::Boolean bytesCheck(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_BYTESCHECK_OFFSET))(this, L, idx);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_BYTESCHECK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean boolCheck(::System::IntPtr L, ::System::Int32 idx)
+		::System::Boolean boolCheck(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_BOOLCHECK_OFFSET))(this, L, idx);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_BOOLCHECK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean int64Check(::System::IntPtr L, ::System::Int32 idx)
+		::System::Boolean int64Check(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_INT64CHECK_OFFSET))(this, L, idx);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_INT64CHECK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean uint64Check(::System::IntPtr L, ::System::Int32 idx)
+		::System::Boolean uint64Check(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_UINT64CHECK_OFFSET))(this, L, idx);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_UINT64CHECK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean luaFunctionCheck(::System::IntPtr L, ::System::Int32 idx)
+		::System::Boolean luaFunctionCheck(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_LUAFUNCTIONCHECK_OFFSET))(this, L, idx);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_LUAFUNCTIONCHECK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean intptrCheck(::System::IntPtr L, ::System::Int32 idx)
+		::System::Boolean intptrCheck(::System::IntPtr a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_INTPTRCHECK_OFFSET))(this, L, idx);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_INTPTRCHECK_OFFSET))(this, a1, a2);
 		}
 
-		::XLua::ObjectCheck* genChecker(::System::Type* type)
+		::XLua::ObjectCheck* genChecker(::System::Type* a1)
 		{
-			return ((::XLua::ObjectCheck*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_GENCHECKER_OFFSET))(this, type);
+			return ((::XLua::ObjectCheck*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_GENCHECKER_OFFSET))(this, a1);
 		}
 
-		::XLua::ObjectCheck* genNullableChecker(::XLua::ObjectCheck* oc)
+		::XLua::ObjectCheck* genNullableChecker(::XLua::ObjectCheck* a1)
 		{
-			return ((::XLua::ObjectCheck*(*)(::PVOID, ::XLua::ObjectCheck*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_GENNULLABLECHECKER_OFFSET))(this, oc);
+			return ((::XLua::ObjectCheck*(*)(::PVOID, ::XLua::ObjectCheck*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_GENNULLABLECHECKER_OFFSET))(this, a1);
 		}
 
-		::XLua::ObjectCheck* GetChecker(::System::Type* type)
+		::XLua::ObjectCheck* GetChecker(::System::Type* a1)
 		{
-			return ((::XLua::ObjectCheck*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_GETCHECKER_OFFSET))(this, type);
+			return ((::XLua::ObjectCheck*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_OBJECTCHECKERS_GETCHECKER_OFFSET))(this, a1);
 		}
 	};
 }

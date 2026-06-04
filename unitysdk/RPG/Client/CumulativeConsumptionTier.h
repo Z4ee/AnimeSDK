@@ -9,29 +9,29 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::GameCore { class RechargeBenefitDataRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CREATE_OFFSET UNITYSDK_OFFSET(0xA0E1560)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GETITEMDISPLAYDATABYINDEX_OFFSET UNITYSDK_OFFSET(0xA0E23B0)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_ID_OFFSET UNITYSDK_OFFSET(0xA0E22B0)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA0E22D0)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_STATE_OFFSET UNITYSDK_OFFSET(0xA0E2300)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_TARGETQUANTITY_OFFSET UNITYSDK_OFFSET(0xA0E0BB0)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_TAKEREWARD_OFFSET UNITYSDK_OFFSET(0xA0E2430)
-#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER__CTOR_OFFSET UNITYSDK_OFFSET(0xA0E2360)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CREATE_OFFSET UNITYSDK_OFFSET(0xB720DC0)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GETITEMDISPLAYDATABYINDEX_OFFSET UNITYSDK_OFFSET(0xB721D40)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_ID_OFFSET UNITYSDK_OFFSET(0xB721C40)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB721C60)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_STATE_OFFSET UNITYSDK_OFFSET(0xB721C90)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_TARGETQUANTITY_OFFSET UNITYSDK_OFFSET(0xB7203C0)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_TAKEREWARD_OFFSET UNITYSDK_OFFSET(0xB721DD0)
+#define RPG_CLIENT_CUMULATIVECONSUMPTIONTIER__CTOR_OFFSET UNITYSDK_OFFSET(0xB721CF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CumulativeConsumptionTier_TypeDefinitionIndex = 58536;
+	inline static constexpr unsigned int CumulativeConsumptionTier_TypeDefinitionIndex = 59466;
 
 	class CumulativeConsumptionTier : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::RechargeBenefitDataRow* _Meta; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _RewardItems; // 0x18
-		::RPG::Client::CumulativeConsumptionActivity* _Owner; // 0x20
+		::RPG::Client::CumulativeConsumptionActivity* _Owner; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _RewardItems; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::RechargeBenefitDataRow* meta, ::RPG::Client::CumulativeConsumptionActivity* owner)
+		::System::Void _ctor(::RPG::GameCore::RechargeBenefitDataRow* a1, ::RPG::Client::CumulativeConsumptionActivity* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RechargeBenefitDataRow*, ::RPG::Client::CumulativeConsumptionActivity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER__CTOR_OFFSET))(this, meta, owner);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RechargeBenefitDataRow*, ::RPG::Client::CumulativeConsumptionActivity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_ID()
@@ -54,14 +54,14 @@ namespace RPG::Client
 			return ((::RPG::Client::CumulativeConsumptionTierState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GET_STATE_OFFSET))(this);
 		}
 
-		static ::RPG::Client::CumulativeConsumptionTier* Create(::System::UInt32 id, ::RPG::Client::CumulativeConsumptionActivity* owner)
+		static ::RPG::Client::CumulativeConsumptionTier* Create(::System::UInt32 a1, ::RPG::Client::CumulativeConsumptionActivity* a2)
 		{
-			return ((::RPG::Client::CumulativeConsumptionTier*(*)(::System::UInt32, ::RPG::Client::CumulativeConsumptionActivity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CREATE_OFFSET))(id, owner);
+			return ((::RPG::Client::CumulativeConsumptionTier*(*)(::System::UInt32, ::RPG::Client::CumulativeConsumptionActivity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_CREATE_OFFSET))(a1, a2);
 		}
 
-		::RPG::Client::ItemDisplayData* GetItemDisplayDataByIndex(::System::Int32 index)
+		::RPG::Client::ItemDisplayData* GetItemDisplayDataByIndex(::System::Int32 a1)
 		{
-			return ((::RPG::Client::ItemDisplayData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GETITEMDISPLAYDATABYINDEX_OFFSET))(this, index);
+			return ((::RPG::Client::ItemDisplayData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUMULATIVECONSUMPTIONTIER_GETITEMDISPLAYDATABYINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Void TakeReward()

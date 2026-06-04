@@ -3,13 +3,15 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_METHOD_2_EA1AC2098441EF1B_OFFSET UNITYSDK_OFFSET(0x186AC2D0)
-#define RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE__CTOR_OFFSET UNITYSDK_OFFSET(0x186AC4C0)
+#define RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_METHOD_2_57D369DAE607D6E7_OFFSET UNITYSDK_OFFSET(0x19482790)
+#define RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_METHOD_2_EA1AC2098441EF1B_OFFSET UNITYSDK_OFFSET(0x19482590)
+#define RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE__CTOR_OFFSET UNITYSDK_OFFSET(0x19482780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPointFastComplete_TypeDefinitionIndex = 18026;
+	inline static constexpr unsigned int AssistWayPointFastComplete_TypeDefinitionIndex = 18052;
 
 	class AssistWayPointFastComplete : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,6 +30,11 @@ namespace RPG::GameCore
 		static ::System::Void Method_2_EA1AC2098441EF1B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AssistWayPointFastComplete*& a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AssistWayPointFastComplete*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_METHOD_2_EA1AC2098441EF1B_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_57D369DAE607D6E7(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointFastComplete*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointFastComplete*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTFASTCOMPLETE_METHOD_2_57D369DAE607D6E7_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -9,18 +9,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_AWAKE_OFFSET UNITYSDK_OFFSET(0x19E7C010)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_GET_ISSHOWINGKEYPAD_OFFSET UNITYSDK_OFFSET(0x19E7B1F0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_LOAD_OFFSET UNITYSDK_OFFSET(0x19E7B7F0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_PINCONTROLONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x19E7C1C0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_SHOWPINENTRY_1_OFFSET UNITYSDK_OFFSET(0x19E7BFF0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_SHOWPINENTRY_OFFSET UNITYSDK_OFFSET(0x19E7B200)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_VERIFYPIN_OFFSET UNITYSDK_OFFSET(0x19E7B4C0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7C330)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ACF2370)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_GET_ISSHOWINGKEYPAD_OFFSET UNITYSDK_OFFSET(0x1ACF1840)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_LOAD_OFFSET UNITYSDK_OFFSET(0x1ACF1DF0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_PINCONTROLONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1ACF2500)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_SHOWPINENTRY_1_OFFSET UNITYSDK_OFFSET(0x1ACF2350)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_SHOWPINENTRY_OFFSET UNITYSDK_OFFSET(0x1ACF1850)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_VERIFYPIN_OFFSET UNITYSDK_OFFSET(0x1ACF1AC0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF2670)
 
 namespace SRDebugger::Services::Implementation
 {
-	inline static constexpr unsigned int PinEntryServiceImpl_TypeDefinitionIndex = 35450;
+	inline static constexpr unsigned int PinEntryServiceImpl_TypeDefinitionIndex = 35750;
 
 	class PinEntryServiceImpl : public ::SRF::Service::SRServiceBase_1<::SRDebugger::Services::IPinEntryService*>
 	{
@@ -40,14 +40,14 @@ namespace SRDebugger::Services::Implementation
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_GET_ISSHOWINGKEYPAD_OFFSET))(this);
 		}
 
-		::System::Void ShowPinEntry(::System::Collections::Generic::IList_1<::System::Int32>* requiredPin, ::System::String* message, ::SRDebugger::Services::PinEntryCompleteCallback* callback, ::System::Boolean allowCancel)
+		::System::Void ShowPinEntry(::System::Collections::Generic::IList_1<::System::Int32>* a1, ::System::String* a2, ::SRDebugger::Services::PinEntryCompleteCallback* a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::String*, ::SRDebugger::Services::PinEntryCompleteCallback*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_SHOWPINENTRY_OFFSET))(this, requiredPin, message, callback, allowCancel);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::String*, ::SRDebugger::Services::PinEntryCompleteCallback*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_SHOWPINENTRY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void ShowPinEntry_1(::System::Collections::Generic::IList_1<::System::Int32>* requiredPin, ::System::String* message, ::SRDebugger::Services::PinEntryCompleteCallback* callback, ::System::Boolean blockInput, ::System::Boolean allowCancel)
+		::System::Void ShowPinEntry_1(::System::Collections::Generic::IList_1<::System::Int32>* a1, ::System::String* a2, ::SRDebugger::Services::PinEntryCompleteCallback* a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::String*, ::SRDebugger::Services::PinEntryCompleteCallback*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_SHOWPINENTRY_1_OFFSET))(this, requiredPin, message, callback, blockInput, allowCancel);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::String*, ::SRDebugger::Services::PinEntryCompleteCallback*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_SHOWPINENTRY_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Awake()
@@ -60,14 +60,14 @@ namespace SRDebugger::Services::Implementation
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_LOAD_OFFSET))(this);
 		}
 
-		::System::Void PinControlOnComplete(::System::Collections::Generic::IList_1<::System::Int32>* result, ::System::Boolean didCancel)
+		::System::Void PinControlOnComplete(::System::Collections::Generic::IList_1<::System::Int32>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_PINCONTROLONCOMPLETE_OFFSET))(this, result, didCancel);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_PINCONTROLONCOMPLETE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void VerifyPin(::System::Collections::Generic::IList_1<::System::Int32>* pin)
+		::System::Void VerifyPin(::System::Collections::Generic::IList_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_VERIFYPIN_OFFSET))(this, pin);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINENTRYSERVICEIMPL_VERIFYPIN_OFFSET))(this, a1);
 		}
 	};
 }

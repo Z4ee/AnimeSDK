@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOSEPAGE_METHOD_3_DD1D042269A19E90_OFFSET UNITYSDK_OFFSET(0x188230A0)
-#define RPG_GAMECORE_CLOSEPAGE_METHOD_3_FB05D32EA198D4E9_OFFSET UNITYSDK_OFFSET(0x18823020)
-#define RPG_GAMECORE_CLOSEPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x18823070)
+#define RPG_GAMECORE_CLOSEPAGE_METHOD_3_5F28551A5C50ED57_OFFSET UNITYSDK_OFFSET(0x19663EB0)
+#define RPG_GAMECORE_CLOSEPAGE_METHOD_3_ED2CEFD14F0AA056_OFFSET UNITYSDK_OFFSET(0x19663F30)
+#define RPG_GAMECORE_CLOSEPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19663F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClosePage_TypeDefinitionIndex = 19589;
+	inline static constexpr unsigned int ClosePage_TypeDefinitionIndex = 19478;
 
 	class ClosePage : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSEPAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FB05D32EA198D4E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClosePage*& a2)
+		static ::System::Void Method_3_5F28551A5C50ED57(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClosePage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClosePage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSEPAGE_METHOD_3_FB05D32EA198D4E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClosePage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSEPAGE_METHOD_3_5F28551A5C50ED57_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DD1D042269A19E90(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClosePage* a2)
+		static ::System::Void Method_3_ED2CEFD14F0AA056(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClosePage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClosePage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSEPAGE_METHOD_3_DD1D042269A19E90_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClosePage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSEPAGE_METHOD_3_ED2CEFD14F0AA056_OFFSET))(a1, a2);
 		}
 	};
 }

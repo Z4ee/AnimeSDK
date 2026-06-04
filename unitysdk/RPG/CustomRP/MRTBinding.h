@@ -7,17 +7,17 @@
 
 namespace RPG::CustomRP { class PassRTRes; }
 
-#define RPG_CUSTOMRP_MRTBINDING_INIT_OFFSET UNITYSDK_OFFSET(0x22B91D0)
-#define RPG_CUSTOMRP_MRTBINDING_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x22B9310)
-#define RPG_CUSTOMRP_MRTBINDING_SETLOADACTION_OFFSET UNITYSDK_OFFSET(0x22B9280)
-#define RPG_CUSTOMRP_MRTBINDING_SETRT_1_OFFSET UNITYSDK_OFFSET(0x22B91F0)
-#define RPG_CUSTOMRP_MRTBINDING_SETRT_OFFSET UNITYSDK_OFFSET(0x22B91E0)
-#define RPG_CUSTOMRP_MRTBINDING_SETSTOREACTION_OFFSET UNITYSDK_OFFSET(0x22B92C0)
-#define RPG_CUSTOMRP_MRTBINDING_SETTMPRT_OFFSET UNITYSDK_OFFSET(0x22B9200)
+#define RPG_CUSTOMRP_MRTBINDING_INIT_OFFSET UNITYSDK_OFFSET(0x384A2B0)
+#define RPG_CUSTOMRP_MRTBINDING_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x384A3D0)
+#define RPG_CUSTOMRP_MRTBINDING_SETLOADACTION_OFFSET UNITYSDK_OFFSET(0x384A350)
+#define RPG_CUSTOMRP_MRTBINDING_SETRT_1_OFFSET UNITYSDK_OFFSET(0x384A2D0)
+#define RPG_CUSTOMRP_MRTBINDING_SETRT_OFFSET UNITYSDK_OFFSET(0x384A2C0)
+#define RPG_CUSTOMRP_MRTBINDING_SETSTOREACTION_OFFSET UNITYSDK_OFFSET(0x384A390)
+#define RPG_CUSTOMRP_MRTBINDING_SETTMPRT_OFFSET UNITYSDK_OFFSET(0x384A2E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MRTBinding_TypeDefinitionIndex = 35255;
+	inline static constexpr unsigned int MRTBinding_TypeDefinitionIndex = 35555;
 
 	struct alignas(8) MRTBinding
 	{
@@ -25,41 +25,41 @@ namespace RPG::CustomRP
 		::Il2CppArray<::System::Int32>* colors; // 0x58
 		::System::Int32 depth; // 0x60
 
-		::System::Void Init(::System::Int32 count, ::System::Int32 depthID)
+		::System::Void Init(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_INIT_OFFSET))(this, count, depthID);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_INIT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetRT(::System::Int32 index, ::System::Int32 rtID, ::System::Boolean force)
+		::System::Void SetRT(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETRT_OFFSET))(this, index, rtID, force);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETRT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetRT_1(::System::Int32 index, ::RPG::CustomRP::PassRTRes* rt)
+		::System::Void SetRT_1(::System::Int32 a1, ::RPG::CustomRP::PassRTRes* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::CustomRP::PassRTRes*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETRT_1_OFFSET))(this, index, rt);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::CustomRP::PassRTRes*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETRT_1_OFFSET))(this, a1, a2);
 		}
 
 		/*
-		::System::Void SetTmpRT(::System::Int32 index, ::RPG::CustomRP::RTIDHandle& rtid)
+		::System::Void SetTmpRT(::System::Int32 a1, ::RPG::CustomRP::RTIDHandle& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::CustomRP::RTIDHandle&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETTMPRT_OFFSET))(this, index, rtid);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::CustomRP::RTIDHandle&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETTMPRT_OFFSET))(this, a1, a2);
 		}
 		*/
 
-		::System::Void SetLoadAction(::System::Int32 index, ::UnityEngine::Rendering::RenderBufferLoadAction action)
+		::System::Void SetLoadAction(::System::Int32 a1, ::UnityEngine::Rendering::RenderBufferLoadAction a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::RenderBufferLoadAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETLOADACTION_OFFSET))(this, index, action);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::RenderBufferLoadAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETLOADACTION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetStoreAction(::System::Int32 index, ::UnityEngine::Rendering::RenderBufferStoreAction action)
+		::System::Void SetStoreAction(::System::Int32 a1, ::UnityEngine::Rendering::RenderBufferStoreAction a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETSTOREACTION_OFFSET))(this, index, action);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::RenderBufferStoreAction))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETSTOREACTION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsChanged(::System::Int32 count)
+		::System::Boolean IsChanged(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_ISCHANGED_OFFSET))(this, count);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_ISCHANGED_OFFSET))(this, a1);
 		}
 	};
 }

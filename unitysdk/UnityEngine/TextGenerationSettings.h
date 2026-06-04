@@ -10,13 +10,13 @@
 
 namespace UnityEngine { class Font; }
 
-#define UNITYENGINE_TEXTGENERATIONSETTINGS_COMPARECOLORS_OFFSET UNITYSDK_OFFSET(0x22FA100)
-#define UNITYENGINE_TEXTGENERATIONSETTINGS_COMPAREVECTOR2_OFFSET UNITYSDK_OFFSET(0x22FA1E0)
-#define UNITYENGINE_TEXTGENERATIONSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0x22FA270)
+#define UNITYENGINE_TEXTGENERATIONSETTINGS_COMPARECOLORS_OFFSET UNITYSDK_OFFSET(0x3899860)
+#define UNITYENGINE_TEXTGENERATIONSETTINGS_COMPAREVECTOR2_OFFSET UNITYSDK_OFFSET(0x3899940)
+#define UNITYENGINE_TEXTGENERATIONSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0x38999D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextGenerationSettings_TypeDefinitionIndex = 4939;
+	inline static constexpr unsigned int TextGenerationSettings_TypeDefinitionIndex = 5017;
 
 	struct alignas(8) TextGenerationSettings
 	{
@@ -45,19 +45,19 @@ namespace UnityEngine
 		::System::Boolean overrideProcessFormat; // 0x72
 		::System::Boolean requireTextFormatFlags; // 0x73
 
-		::System::Boolean CompareColors(::UnityEngine::Color left, ::UnityEngine::Color right)
+		::System::Boolean CompareColors(::UnityEngine::Color a1, ::UnityEngine::Color a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATIONSETTINGS_COMPARECOLORS_OFFSET))(this, left, right);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATIONSETTINGS_COMPARECOLORS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CompareVector2(::UnityEngine::Vector2 left, ::UnityEngine::Vector2 right)
+		::System::Boolean CompareVector2(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATIONSETTINGS_COMPAREVECTOR2_OFFSET))(this, left, right);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATIONSETTINGS_COMPAREVECTOR2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Equals(::UnityEngine::TextGenerationSettings other)
+		::System::Boolean Equals(::UnityEngine::TextGenerationSettings a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::TextGenerationSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATIONSETTINGS_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::TextGenerationSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATIONSETTINGS_EQUALS_OFFSET))(this, a1);
 		}
 	};
 }

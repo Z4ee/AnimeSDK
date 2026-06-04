@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_2CAAA2FDF9170110;
+class Class_1_1C30CE192ABE4C54;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_DF9778AC478FFF27_TypeDefinitionIndex = 52501;
+inline static constexpr unsigned int Struct_2_DF9778AC478FFF27_TypeDefinitionIndex = 53201;
 
 struct alignas(8) Struct_2_DF9778AC478FFF27
 {
@@ -20,5 +20,5 @@ struct alignas(8) Struct_2_DF9778AC478FFF27
 	::System::Int32 Field_2_7; // 0x38
 	::System::Int32 Field_2_8; // 0x3C
 	::System::Int32 Field_2_9; // 0x40
-	::Class_1_2CAAA2FDF9170110* Field_2_10; // 0x48
+	::Class_1_1C30CE192ABE4C54* Field_2_10; // 0x48
 };

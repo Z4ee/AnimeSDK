@@ -6,18 +6,18 @@ namespace RPG::Client { class ConditionChecker; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0C82C0)
-#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS19_0__DOCHECKWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xA0C8350)
+#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7075F0)
+#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS19_0__DOCHECKWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xB707680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConditionChecker___c__DisplayClass19_0_TypeDefinitionIndex = 55265;
+	inline static constexpr unsigned int ConditionChecker___c__DisplayClass19_0_TypeDefinitionIndex = 55999;
 
 	class ConditionChecker___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::System::Boolean>*>* checkResultPromise; // 0x10
-		::RPG::Client::ConditionChecker* __4__this; // 0x18
+		::RPG::Client::ConditionChecker* __4__this; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::System::Boolean>*>* checkResultPromise; // 0x18
 
 		::System::Void _ctor()
 		{

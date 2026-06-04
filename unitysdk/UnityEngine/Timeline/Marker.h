@@ -4,19 +4,19 @@
 
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define UNITYENGINE_TIMELINE_MARKER_GET_PARENT_OFFSET UNITYSDK_OFFSET(0x1A3E6730)
-#define UNITYENGINE_TIMELINE_MARKER_GET_TIME_OFFSET UNITYSDK_OFFSET(0x1A3E6750)
-#define UNITYENGINE_TIMELINE_MARKER_ONDRAGGING_OFFSET UNITYSDK_OFFSET(0x1A3E6890)
-#define UNITYENGINE_TIMELINE_MARKER_ONINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A3E6870)
-#define UNITYENGINE_TIMELINE_MARKER_ONSTOPDRAG_OFFSET UNITYSDK_OFFSET(0x1A3E6880)
-#define UNITYENGINE_TIMELINE_MARKER_SET_PARENT_OFFSET UNITYSDK_OFFSET(0x1A3E6740)
-#define UNITYENGINE_TIMELINE_MARKER_SET_TIME_OFFSET UNITYSDK_OFFSET(0x1A3E6760)
-#define UNITYENGINE_TIMELINE_MARKER_UNITYENGINE_TIMELINE_IMARKER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A3E67B0)
-#define UNITYENGINE_TIMELINE_MARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3E68A0)
+#define UNITYENGINE_TIMELINE_MARKER_GET_PARENT_OFFSET UNITYSDK_OFFSET(0x1B23ADA0)
+#define UNITYENGINE_TIMELINE_MARKER_GET_TIME_OFFSET UNITYSDK_OFFSET(0x1B23ADC0)
+#define UNITYENGINE_TIMELINE_MARKER_ONDRAGGING_OFFSET UNITYSDK_OFFSET(0x1B23AF00)
+#define UNITYENGINE_TIMELINE_MARKER_ONINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B23AEE0)
+#define UNITYENGINE_TIMELINE_MARKER_ONSTOPDRAG_OFFSET UNITYSDK_OFFSET(0x1B23AEF0)
+#define UNITYENGINE_TIMELINE_MARKER_SET_PARENT_OFFSET UNITYSDK_OFFSET(0x1B23ADB0)
+#define UNITYENGINE_TIMELINE_MARKER_SET_TIME_OFFSET UNITYSDK_OFFSET(0x1B23ADD0)
+#define UNITYENGINE_TIMELINE_MARKER_UNITYENGINE_TIMELINE_IMARKER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B23AE20)
+#define UNITYENGINE_TIMELINE_MARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B23AF10)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int Marker_TypeDefinitionIndex = 35590;
+	inline static constexpr unsigned int Marker_TypeDefinitionIndex = 35890;
 
 	class Marker : public ::UnityEngine::ScriptableObject
 	{
@@ -34,9 +34,9 @@ namespace UnityEngine::Timeline
 			return ((::UnityEngine::Timeline::TrackAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MARKER_GET_PARENT_OFFSET))(this);
 		}
 
-		::System::Void set_parent(::UnityEngine::Timeline::TrackAsset* value)
+		::System::Void set_parent(::UnityEngine::Timeline::TrackAsset* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MARKER_SET_PARENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MARKER_SET_PARENT_OFFSET))(this, a1);
 		}
 
 		::System::Double get_time()
@@ -44,19 +44,19 @@ namespace UnityEngine::Timeline
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MARKER_GET_TIME_OFFSET))(this);
 		}
 
-		::System::Void set_time(::System::Double value)
+		::System::Void set_time(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MARKER_SET_TIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MARKER_SET_TIME_OFFSET))(this, a1);
 		}
 
-		::System::Void UnityEngine_Timeline_IMarker_Initialize(::UnityEngine::Timeline::TrackAsset* parentTrack)
+		::System::Void UnityEngine_Timeline_IMarker_Initialize(::UnityEngine::Timeline::TrackAsset* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MARKER_UNITYENGINE_TIMELINE_IMARKER_INITIALIZE_OFFSET))(this, parentTrack);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MARKER_UNITYENGINE_TIMELINE_IMARKER_INITIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnInitialize(::UnityEngine::Timeline::TrackAsset* aPent)
+		::System::Void OnInitialize(::UnityEngine::Timeline::TrackAsset* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MARKER_ONINITIALIZE_OFFSET))(this, aPent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MARKER_ONINITIALIZE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnStopDrag()

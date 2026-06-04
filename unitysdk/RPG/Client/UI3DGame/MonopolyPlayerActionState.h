@@ -3,7 +3,7 @@
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int MonopolyPlayerActionState_TypeDefinitionIndex = 69736;
+	inline static constexpr unsigned int MonopolyPlayerActionState_TypeDefinitionIndex = 70548;
 
 	enum class MonopolyPlayerActionState : ::System::Int32
 	{

@@ -10,40 +10,40 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class Tutorial; }
 namespace System { class String; }
 
-#define PROTO_UNLOCKTUTORIALSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x19362860)
-#define PROTO_UNLOCKTUTORIALSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x19362510)
-#define PROTO_UNLOCKTUTORIALSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x19362680)
-#define PROTO_UNLOCKTUTORIALSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x193625D0)
-#define PROTO_UNLOCKTUTORIALSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19362730)
-#define PROTO_UNLOCKTUTORIALSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x19362450)
-#define PROTO_UNLOCKTUTORIALSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x19362590)
-#define PROTO_UNLOCKTUTORIALSCRSP_GET_TUTORIAL_OFFSET UNITYSDK_OFFSET(0x193625B0)
-#define PROTO_UNLOCKTUTORIALSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x193629D0)
-#define PROTO_UNLOCKTUTORIALSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x19362930)
-#define PROTO_UNLOCKTUTORIALSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x19362480)
-#define PROTO_UNLOCKTUTORIALSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x193625A0)
-#define PROTO_UNLOCKTUTORIALSCRSP_SET_TUTORIAL_OFFSET UNITYSDK_OFFSET(0x193625C0)
-#define PROTO_UNLOCKTUTORIALSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19362780)
-#define PROTO_UNLOCKTUTORIALSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x193627E0)
-#define PROTO_UNLOCKTUTORIALSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x19362A60)
-#define PROTO_UNLOCKTUTORIALSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x193624A0)
-#define PROTO_UNLOCKTUTORIALSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x19362490)
+#define PROTO_UNLOCKTUTORIALSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A1315E0)
+#define PROTO_UNLOCKTUTORIALSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1A131270)
+#define PROTO_UNLOCKTUTORIALSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A1313F0)
+#define PROTO_UNLOCKTUTORIALSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A131340)
+#define PROTO_UNLOCKTUTORIALSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A1314A0)
+#define PROTO_UNLOCKTUTORIALSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A1311A0)
+#define PROTO_UNLOCKTUTORIALSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1A131320)
+#define PROTO_UNLOCKTUTORIALSCRSP_GET_TUTORIAL_OFFSET UNITYSDK_OFFSET(0x1A131300)
+#define PROTO_UNLOCKTUTORIALSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A131750)
+#define PROTO_UNLOCKTUTORIALSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A1316B0)
+#define PROTO_UNLOCKTUTORIALSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A1311D0)
+#define PROTO_UNLOCKTUTORIALSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1A131330)
+#define PROTO_UNLOCKTUTORIALSCRSP_SET_TUTORIAL_OFFSET UNITYSDK_OFFSET(0x1A131310)
+#define PROTO_UNLOCKTUTORIALSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A131500)
+#define PROTO_UNLOCKTUTORIALSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A131560)
+#define PROTO_UNLOCKTUTORIALSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1318E0)
+#define PROTO_UNLOCKTUTORIALSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A1311F0)
+#define PROTO_UNLOCKTUTORIALSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1311E0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int UnlockTutorialScRsp_TypeDefinitionIndex = 33144;
+	inline static constexpr unsigned int UnlockTutorialScRsp_TypeDefinitionIndex = 33253;
 
 	class UnlockTutorialScRsp : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::UnlockTutorialScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::UnlockTutorialScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(UnlockTutorialScRsp_TypeDefinitionIndex)->GetStaticField(0x5BA90);
+			return (::Google::Protobuf::MessageParser_1<::Proto::UnlockTutorialScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(UnlockTutorialScRsp_TypeDefinitionIndex)->GetStaticField(0x467B0);
 		}
-		// static const ::System::Int32 RetcodeFieldNumber = 0x1; // 0x0
 		// static const ::System::Int32 TutorialFieldNumber = 0xE; // 0x0
-		::Proto::Tutorial* tutorial_; // 0x10
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		// static const ::System::Int32 RetcodeFieldNumber = 0x7; // 0x0
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
+		::Proto::Tutorial* tutorial_; // 0x18
 		::System::UInt32 retcode_; // 0x20
 
 		::System::Void _ctor()
@@ -51,9 +51,9 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Proto::UnlockTutorialScRsp* other)
+		::System::Void _ctor_1(::Proto::UnlockTutorialScRsp* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::UnlockTutorialScRsp*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Proto::UnlockTutorialScRsp*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -76,34 +76,34 @@ namespace Proto
 			return ((::Proto::UnlockTutorialScRsp*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 get_Retcode()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_GET_RETCODE_OFFSET))(this);
-		}
-
-		::System::Void set_Retcode(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_SET_RETCODE_OFFSET))(this, value);
-		}
-
 		::Proto::Tutorial* get_Tutorial()
 		{
 			return ((::Proto::Tutorial*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_GET_TUTORIAL_OFFSET))(this);
 		}
 
-		::System::Void set_Tutorial(::Proto::Tutorial* value)
+		::System::Void set_Tutorial(::Proto::Tutorial* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::Tutorial*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_SET_TUTORIAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Proto::Tutorial*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_SET_TUTORIAL_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::UInt32 get_Retcode()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_EQUALS_OFFSET))(this, other);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_GET_RETCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals_1(::Proto::UnlockTutorialScRsp* other)
+		::System::Void set_Retcode(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Proto::UnlockTutorialScRsp*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_SET_RETCODE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals_1(::Proto::UnlockTutorialScRsp* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Proto::UnlockTutorialScRsp*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -116,9 +116,9 @@ namespace Proto
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* output)
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_WRITETO_OFFSET))(this, output);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_WRITETO_OFFSET))(this, a1);
 		}
 
 		::System::Int32 CalculateSize()
@@ -126,14 +126,14 @@ namespace Proto
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_CALCULATESIZE_OFFSET))(this);
 		}
 
-		::System::Void MergeFrom(::Proto::UnlockTutorialScRsp* other)
+		::System::Void MergeFrom(::Proto::UnlockTutorialScRsp* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::UnlockTutorialScRsp*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_MERGEFROM_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Proto::UnlockTutorialScRsp*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_MERGEFROM_OFFSET))(this, a1);
 		}
 
-		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* input)
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_MERGEFROM_1_OFFSET))(this, input);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_MERGEFROM_1_OFFSET))(this, a1);
 		}
 	};
 }

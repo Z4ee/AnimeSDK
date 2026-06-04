@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_NPCMONSTERDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B79670)
-#define RPG_GAMECORE_NPCMONSTERDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B79E50)
+#define RPG_GAMECORE_NPCMONSTERDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199C8300)
+#define RPG_GAMECORE_NPCMONSTERDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199C8B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCMonsterDataRow_TypeDefinitionIndex = 13541;
+	inline static constexpr unsigned int NPCMonsterDataRow_TypeDefinitionIndex = 13612;
 
 	class NPCMonsterDataRow : public ::System::Object
 	{
 	public:
-		::System::String* JsonPath; // 0x10
-		::System::String* ConfigEntityPath; // 0x18
-		::System::String* DefaultAIPath; // 0x20
-		::System::UInt32 MiniMapIconType; // 0x28
-		::System::UInt32 ID; // 0x2C
-		::RPG::GameCore::MonsterRank Rank; // 0x30
-		::System::UInt32 PrototypeID; // 0x34
-		::RPG::Client::TextID NPCName; // 0x38
+		::System::String* DefaultAIPath; // 0x10
+		::System::String* JsonPath; // 0x18
+		::System::String* ConfigEntityPath; // 0x20
+		::System::UInt32 PrototypeID; // 0x28
+		::System::UInt32 MiniMapIconType; // 0x2C
+		::RPG::Client::TextID NPCName; // 0x30
+		::RPG::GameCore::MonsterRank Rank; // 0x40
+		::System::UInt32 ID; // 0x44
 		::System::UInt32 MappingInfoID; // 0x48
 		::System::Boolean IsMazeLink; // 0x4C
 
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCMONSTERDATAROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::NPCMonsterDataRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NPCMonsterDataRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NPCMonsterDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCMONSTERDATAROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NPCMonsterDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCMONSTERDATAROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

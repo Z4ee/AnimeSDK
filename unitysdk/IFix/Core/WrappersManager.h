@@ -9,7 +9,7 @@ namespace System { class Type; }
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int WrappersManager_TypeDefinitionIndex = 9955;
+	inline static constexpr unsigned int WrappersManager_TypeDefinitionIndex = 9782;
 
 	class WrappersManager
 	{

@@ -10,38 +10,38 @@ namespace System { class Object; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_IO_STREAM_NULLSTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1796F610)
-#define SYSTEM_IO_STREAM_NULLSTREAM_BEGINWRITE_OFFSET UNITYSDK_OFFSET(0x1796F6A0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1796F5F0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1796F620)
-#define SYSTEM_IO_STREAM_NULLSTREAM_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x1796F6B0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x1796F600)
-#define SYSTEM_IO_STREAM_NULLSTREAM_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1796F590)
-#define SYSTEM_IO_STREAM_NULLSTREAM_GET_CANSEEK_OFFSET UNITYSDK_OFFSET(0x1796F5B0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1796F5A0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1796F5C0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1796F5D0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_READASYNC_OFFSET UNITYSDK_OFFSET(0x1796F740)
-#define SYSTEM_IO_STREAM_NULLSTREAM_READBYTE_OFFSET UNITYSDK_OFFSET(0x1796F7E0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1796F730)
-#define SYSTEM_IO_STREAM_NULLSTREAM_SEEK_OFFSET UNITYSDK_OFFSET(0x1796F8E0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x1796F8F0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1796F5E0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_WRITEASYNC_OFFSET UNITYSDK_OFFSET(0x1796F800)
-#define SYSTEM_IO_STREAM_NULLSTREAM_WRITEBYTE_OFFSET UNITYSDK_OFFSET(0x1796F8D0)
-#define SYSTEM_IO_STREAM_NULLSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1796F7F0)
-#define SYSTEM_IO_STREAM_NULLSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1796EE00)
+#define SYSTEM_IO_STREAM_NULLSTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x18720C10)
+#define SYSTEM_IO_STREAM_NULLSTREAM_BEGINWRITE_OFFSET UNITYSDK_OFFSET(0x18720CA0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18720BF0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x18720C20)
+#define SYSTEM_IO_STREAM_NULLSTREAM_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x18720CB0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x18720C00)
+#define SYSTEM_IO_STREAM_NULLSTREAM_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x18720B90)
+#define SYSTEM_IO_STREAM_NULLSTREAM_GET_CANSEEK_OFFSET UNITYSDK_OFFSET(0x18720BB0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x18720BA0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x18720BC0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x18720BD0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_READASYNC_OFFSET UNITYSDK_OFFSET(0x18720D40)
+#define SYSTEM_IO_STREAM_NULLSTREAM_READBYTE_OFFSET UNITYSDK_OFFSET(0x18720DE0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x18720D30)
+#define SYSTEM_IO_STREAM_NULLSTREAM_SEEK_OFFSET UNITYSDK_OFFSET(0x18720EE0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x18720EF0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x18720BE0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_WRITEASYNC_OFFSET UNITYSDK_OFFSET(0x18720E00)
+#define SYSTEM_IO_STREAM_NULLSTREAM_WRITEBYTE_OFFSET UNITYSDK_OFFSET(0x18720ED0)
+#define SYSTEM_IO_STREAM_NULLSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x18720DF0)
+#define SYSTEM_IO_STREAM_NULLSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x187203D0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int Stream_NullStream_TypeDefinitionIndex = 685;
+	inline static constexpr unsigned int Stream_NullStream_TypeDefinitionIndex = 684;
 
 	class Stream_NullStream : public ::System::IO::Stream
 	{
 	public:
 		static ::System::Threading::Tasks::Task_1<::System::Int32>** StaticGet_s_nullReadTask()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Stream_NullStream_TypeDefinitionIndex)->GetStaticField(0x8540);
+			return (::System::Threading::Tasks::Task_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Stream_NullStream_TypeDefinitionIndex)->GetStaticField(0x7D60);
 		}
 
 		::System::Void _ctor()
@@ -74,14 +74,14 @@ namespace System::IO
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_GET_POSITION_OFFSET))(this);
 		}
 
-		::System::Void set_Position(::System::Int64 value)
+		::System::Void set_Position(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_SET_POSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_SET_POSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void Dispose(::System::Boolean disposing)
+		::System::Void Dispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_DISPOSE_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_DISPOSE_OFFSET))(this, a1);
 		}
 
 		::System::Void Flush()
@@ -89,34 +89,34 @@ namespace System::IO
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_FLUSH_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginRead(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* callback, ::System::Object* state)
+		::System::IAsyncResult* BeginRead(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_BEGINREAD_OFFSET))(this, buffer, offset, count, callback, state);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_BEGINREAD_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 EndRead(::System::IAsyncResult* asyncResult)
+		::System::Int32 EndRead(::System::IAsyncResult* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_ENDREAD_OFFSET))(this, asyncResult);
+			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_ENDREAD_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginWrite(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* callback, ::System::Object* state)
+		::System::IAsyncResult* BeginWrite(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_BEGINWRITE_OFFSET))(this, buffer, offset, count, callback, state);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_BEGINWRITE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndWrite(::System::IAsyncResult* asyncResult)
+		::System::Void EndWrite(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_ENDWRITE_OFFSET))(this, asyncResult);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_ENDWRITE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Read(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count)
+		::System::Int32 Read(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_READ_OFFSET))(this, buffer, offset, count);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_READ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Threading::Tasks::Task_1<::System::Int32>* ReadAsync(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::Threading::CancellationToken cancellationToken)
+		::System::Threading::Tasks::Task_1<::System::Int32>* ReadAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Int32>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_READASYNC_OFFSET))(this, buffer, offset, count, cancellationToken);
+			return ((::System::Threading::Tasks::Task_1<::System::Int32>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_READASYNC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 ReadByte()
@@ -124,29 +124,29 @@ namespace System::IO
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_READBYTE_OFFSET))(this);
 		}
 
-		::System::Void Write(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count)
+		::System::Void Write(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_WRITE_OFFSET))(this, buffer, offset, count);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_WRITE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Threading::Tasks::Task* WriteAsync(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::Threading::CancellationToken cancellationToken)
+		::System::Threading::Tasks::Task* WriteAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_WRITEASYNC_OFFSET))(this, buffer, offset, count, cancellationToken);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_WRITEASYNC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void WriteByte(::System::Byte value)
+		::System::Void WriteByte(::System::Byte a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_WRITEBYTE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_WRITEBYTE_OFFSET))(this, a1);
 		}
 
-		::System::Int64 Seek(::System::Int64 offset, ::System::IO::SeekOrigin origin)
+		::System::Int64 Seek(::System::Int64 a1, ::System::IO::SeekOrigin a2)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Int64, ::System::IO::SeekOrigin))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_SEEK_OFFSET))(this, offset, origin);
+			return ((::System::Int64(*)(::PVOID, ::System::Int64, ::System::IO::SeekOrigin))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_SEEK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetLength(::System::Int64 length)
+		::System::Void SetLength(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_SETLENGTH_OFFSET))(this, length);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_SETLENGTH_OFFSET))(this, a1);
 		}
 	};
 }

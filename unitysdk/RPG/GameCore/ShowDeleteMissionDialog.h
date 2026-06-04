@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOWDELETEMISSIONDIALOG_METHOD_3_9CD7BD7A03A88CF2_OFFSET UNITYSDK_OFFSET(0x18E5BDB0)
-#define RPG_GAMECORE_SHOWDELETEMISSIONDIALOG_METHOD_3_D1ACDE9F4DA5C3CD_OFFSET UNITYSDK_OFFSET(0x18E5BD30)
-#define RPG_GAMECORE_SHOWDELETEMISSIONDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E5BD80)
+#define RPG_GAMECORE_SHOWDELETEMISSIONDIALOG_METHOD_3_6B062086F6EEB7B7_OFFSET UNITYSDK_OFFSET(0x19C77F00)
+#define RPG_GAMECORE_SHOWDELETEMISSIONDIALOG_METHOD_3_847C122F50986458_OFFSET UNITYSDK_OFFSET(0x19C77F80)
+#define RPG_GAMECORE_SHOWDELETEMISSIONDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C77F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowDeleteMissionDialog_TypeDefinitionIndex = 20534;
+	inline static constexpr unsigned int ShowDeleteMissionDialog_TypeDefinitionIndex = 20470;
 
 	class ShowDeleteMissionDialog : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWDELETEMISSIONDIALOG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D1ACDE9F4DA5C3CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowDeleteMissionDialog*& a2)
+		static ::System::Void Method_3_6B062086F6EEB7B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowDeleteMissionDialog*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowDeleteMissionDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWDELETEMISSIONDIALOG_METHOD_3_D1ACDE9F4DA5C3CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowDeleteMissionDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWDELETEMISSIONDIALOG_METHOD_3_6B062086F6EEB7B7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9CD7BD7A03A88CF2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowDeleteMissionDialog* a2)
+		static ::System::Void Method_3_847C122F50986458(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowDeleteMissionDialog* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowDeleteMissionDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWDELETEMISSIONDIALOG_METHOD_3_9CD7BD7A03A88CF2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowDeleteMissionDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWDELETEMISSIONDIALOG_METHOD_3_847C122F50986458_OFFSET))(a1, a2);
 		}
 	};
 }

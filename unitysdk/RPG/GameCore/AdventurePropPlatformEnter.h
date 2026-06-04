@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER_CLEAR_OFFSET UNITYSDK_OFFSET(0xB5907D0)
-#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB5908A0)
-#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB590850)
-#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER_INIT_OFFSET UNITYSDK_OFFSET(0xB590770)
-#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB5908F0)
-#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB590900)
+#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER_CLEAR_OFFSET UNITYSDK_OFFSET(0xCCEFDA0)
+#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCCEFEF0)
+#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCCEFE20)
+#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER_INIT_OFFSET UNITYSDK_OFFSET(0xCCEFD40)
+#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCCEFF40)
+#define RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xCCEFF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePropPlatformEnter_TypeDefinitionIndex = 52197;
+	inline static constexpr unsigned int AdventurePropPlatformEnter_TypeDefinitionIndex = 52894;
 
-	class AdventurePropPlatformEnter : public ::Class_1_9988289E7F8AA214
+	class AdventurePropPlatformEnter : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::GameEntity* StepOnSourceEntity; // 0x18
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AdventurePropPlatformEnter* Init(::RPG::GameCore::GameEntity* colliderEntity, ::RPG::GameCore::GameEntity* stepOnSource)
+		::RPG::GameCore::AdventurePropPlatformEnter* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::RPG::GameCore::AdventurePropPlatformEnter*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER_INIT_OFFSET))(this, colliderEntity, stepOnSource);
+			return ((::RPG::GameCore::AdventurePropPlatformEnter*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPROPPLATFORMENTER_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()

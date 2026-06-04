@@ -6,26 +6,26 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::Lobby { class LobbyDetails; }
 namespace Epic::OnlineServices::Lobby { class LocalRTCOptions; }
 
-#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_LOBBYDETAILSHANDLE_OFFSET UNITYSDK_OFFSET(0x8EAA550)
-#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_LOCALRTCOPTIONS_OFFSET UNITYSDK_OFFSET(0x8EAA5B0)
-#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8EAA570)
-#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_PRESENCEENABLED_OFFSET UNITYSDK_OFFSET(0x8EAA590)
-#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOBBYDETAILSHANDLE_OFFSET UNITYSDK_OFFSET(0x8EAA560)
-#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOCALRTCOPTIONS_OFFSET UNITYSDK_OFFSET(0x8EAA5C0)
-#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8EAA580)
-#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_PRESENCEENABLED_OFFSET UNITYSDK_OFFSET(0x8EAA5A0)
-#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8EAA5D0)
+#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_LOBBYDETAILSHANDLE_OFFSET UNITYSDK_OFFSET(0xA2E5820)
+#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_LOCALRTCOPTIONS_OFFSET UNITYSDK_OFFSET(0xA2E5880)
+#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2E5840)
+#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_PRESENCEENABLED_OFFSET UNITYSDK_OFFSET(0xA2E5860)
+#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOBBYDETAILSHANDLE_OFFSET UNITYSDK_OFFSET(0xA2E5830)
+#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOCALRTCOPTIONS_OFFSET UNITYSDK_OFFSET(0xA2E5890)
+#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2E5850)
+#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_PRESENCEENABLED_OFFSET UNITYSDK_OFFSET(0xA2E5870)
+#define EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2E58A0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int JoinLobbyOptions_TypeDefinitionIndex = 41859;
+	inline static constexpr unsigned int JoinLobbyOptions_TypeDefinitionIndex = 42662;
 
 	class JoinLobbyOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::Lobby::LocalRTCOptions* _LocalRTCOptions_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
-		::Epic::OnlineServices::Lobby::LobbyDetails* _LobbyDetailsHandle_k__BackingField; // 0x20
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
+		::Epic::OnlineServices::Lobby::LobbyDetails* _LobbyDetailsHandle_k__BackingField; // 0x18
+		::Epic::OnlineServices::Lobby::LocalRTCOptions* _LocalRTCOptions_k__BackingField; // 0x20
 		::System::Boolean _PresenceEnabled_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -38,9 +38,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::Lobby::LobbyDetails*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_LOBBYDETAILSHANDLE_OFFSET))(this);
 		}
 
-		::System::Void set_LobbyDetailsHandle(::Epic::OnlineServices::Lobby::LobbyDetails* value)
+		::System::Void set_LobbyDetailsHandle(::Epic::OnlineServices::Lobby::LobbyDetails* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetails*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOBBYDETAILSHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyDetails*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOBBYDETAILSHANDLE_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -48,9 +48,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_PresenceEnabled()
@@ -58,9 +58,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_PRESENCEENABLED_OFFSET))(this);
 		}
 
-		::System::Void set_PresenceEnabled(::System::Boolean value)
+		::System::Void set_PresenceEnabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_PRESENCEENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_PRESENCEENABLED_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Lobby::LocalRTCOptions* get_LocalRTCOptions()
@@ -68,9 +68,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::Lobby::LocalRTCOptions*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_GET_LOCALRTCOPTIONS_OFFSET))(this);
 		}
 
-		::System::Void set_LocalRTCOptions(::Epic::OnlineServices::Lobby::LocalRTCOptions* value)
+		::System::Void set_LocalRTCOptions(::Epic::OnlineServices::Lobby::LocalRTCOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LocalRTCOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOCALRTCOPTIONS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LocalRTCOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_JOINLOBBYOPTIONS_SET_LOCALRTCOPTIONS_OFFSET))(this, a1);
 		}
 	};
 }

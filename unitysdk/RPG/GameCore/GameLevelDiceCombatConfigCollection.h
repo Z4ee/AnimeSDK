@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GameLevelDiceCombatNPCConfig; }
 
-#define RPG_GAMECORE_GAMELEVELDICECOMBATCONFIGCOLLECTION_METHOD_2_3E4D3FA2267EE669_OFFSET UNITYSDK_OFFSET(0x1894AEE0)
-#define RPG_GAMECORE_GAMELEVELDICECOMBATCONFIGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x189533C0)
+#define RPG_GAMECORE_GAMELEVELDICECOMBATCONFIGCOLLECTION_METHOD_2_C29DF159886207AC_OFFSET UNITYSDK_OFFSET(0x197BFC20)
+#define RPG_GAMECORE_GAMELEVELDICECOMBATCONFIGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x197C8A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameLevelDiceCombatConfigCollection_TypeDefinitionIndex = 16503;
+	inline static constexpr unsigned int GameLevelDiceCombatConfigCollection_TypeDefinitionIndex = 16534;
 
 	class GameLevelDiceCombatConfigCollection : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELDICECOMBATCONFIGCOLLECTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3E4D3FA2267EE669(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GameLevelDiceCombatConfigCollection*& a2)
+		static ::System::Void Method_2_C29DF159886207AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GameLevelDiceCombatConfigCollection*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameLevelDiceCombatConfigCollection*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELDICECOMBATCONFIGCOLLECTION_METHOD_2_3E4D3FA2267EE669_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameLevelDiceCombatConfigCollection*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELDICECOMBATCONFIGCOLLECTION_METHOD_2_C29DF159886207AC_OFFSET))(a1, a2);
 		}
 	};
 }

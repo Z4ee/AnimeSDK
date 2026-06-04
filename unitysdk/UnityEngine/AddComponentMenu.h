@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_ADDCOMPONENTMENU__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A424660)
-#define UNITYENGINE_ADDCOMPONENTMENU__CTOR_OFFSET UNITYSDK_OFFSET(0x1A424650)
+#define UNITYENGINE_ADDCOMPONENTMENU__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B2778B0)
+#define UNITYENGINE_ADDCOMPONENTMENU__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2778A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AddComponentMenu_TypeDefinitionIndex = 4112;
+	inline static constexpr unsigned int AddComponentMenu_TypeDefinitionIndex = 4286;
 
 	class AddComponentMenu : public ::System::Attribute
 	{
@@ -17,14 +17,14 @@ namespace UnityEngine
 		::System::String* m_AddComponentMenu; // 0x10
 		::System::Int32 m_Ordering; // 0x18
 
-		::System::Void _ctor(::System::String* menuName)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_ADDCOMPONENTMENU__CTOR_OFFSET))(this, menuName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_ADDCOMPONENTMENU__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::String* menuName, ::System::Int32 order)
+		::System::Void _ctor_1(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_ADDCOMPONENTMENU__CTOR_1_OFFSET))(this, menuName, order);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_ADDCOMPONENTMENU__CTOR_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

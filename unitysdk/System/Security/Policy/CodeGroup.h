@@ -9,15 +9,15 @@ namespace System::Security::Policy { class PolicyStatement; }
 
 namespace System::Security::Policy
 {
-	inline static constexpr unsigned int CodeGroup_TypeDefinitionIndex = 950;
+	inline static constexpr unsigned int CodeGroup_TypeDefinitionIndex = 949;
 
 	class CodeGroup : public ::System::Object
 	{
 	public:
-		::System::Security::Policy::PolicyStatement* m_policy; // 0x10
-		::System::Collections::ArrayList* m_children; // 0x18
-		::System::String* m_name; // 0x20
-		::System::Security::Policy::IMembershipCondition* m_membershipCondition; // 0x28
-		::System::String* m_description; // 0x30
+		::System::Security::Policy::IMembershipCondition* m_membershipCondition; // 0x10
+		::System::String* m_name; // 0x18
+		::System::Security::Policy::PolicyStatement* m_policy; // 0x20
+		::System::String* m_description; // 0x28
+		::System::Collections::ArrayList* m_children; // 0x30
 	};
 }

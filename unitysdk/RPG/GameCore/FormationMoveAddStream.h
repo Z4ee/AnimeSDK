@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FORMATIONMOVEADDSTREAM_METHOD_3_6792CBD1545D7C5F_OFFSET UNITYSDK_OFFSET(0x1892A9F0)
-#define RPG_GAMECORE_FORMATIONMOVEADDSTREAM_METHOD_3_994E6155083FCEE3_OFFSET UNITYSDK_OFFSET(0x1892A960)
-#define RPG_GAMECORE_FORMATIONMOVEADDSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1892A9C0)
+#define RPG_GAMECORE_FORMATIONMOVEADDSTREAM_METHOD_3_68CB49E5DE7D91E1_OFFSET UNITYSDK_OFFSET(0x19765D00)
+#define RPG_GAMECORE_FORMATIONMOVEADDSTREAM_METHOD_3_DA3B33BB29F61544_OFFSET UNITYSDK_OFFSET(0x19765D90)
+#define RPG_GAMECORE_FORMATIONMOVEADDSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19765D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationMoveAddStream_TypeDefinitionIndex = 20227;
+	inline static constexpr unsigned int FormationMoveAddStream_TypeDefinitionIndex = 20084;
 
 	class FormationMoveAddStream : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVEADDSTREAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_994E6155083FCEE3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveAddStream*& a2)
+		static ::System::Void Method_3_68CB49E5DE7D91E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveAddStream*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveAddStream*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVEADDSTREAM_METHOD_3_994E6155083FCEE3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveAddStream*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVEADDSTREAM_METHOD_3_68CB49E5DE7D91E1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6792CBD1545D7C5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveAddStream* a2)
+		static ::System::Void Method_3_DA3B33BB29F61544(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveAddStream* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveAddStream*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVEADDSTREAM_METHOD_3_6792CBD1545D7C5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveAddStream*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVEADDSTREAM_METHOD_3_DA3B33BB29F61544_OFFSET))(a1, a2);
 		}
 	};
 }

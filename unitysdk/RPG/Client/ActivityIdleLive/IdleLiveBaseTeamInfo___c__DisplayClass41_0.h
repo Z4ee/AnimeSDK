@@ -7,12 +7,12 @@ namespace RPG::AvatarSystem::Property { template <typename T> class PropertyModi
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamAvatarData; }
 namespace RPG::Client::ActivityIdleLive { template <typename T> class IdleLiveModifierBuilder_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B38AA0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS41_0___BUILDMODIFIERBUILDERS_B__0_OFFSET UNITYSDK_OFFSET(0x9B39800)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB11F100)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS41_0___BUILDMODIFIERBUILDERS_B__0_OFFSET UNITYSDK_OFFSET(0xB11FFC0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass41_0_TypeDefinitionIndex = 69158;
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass41_0_TypeDefinitionIndex = 69970;
 
 	class IdleLiveBaseTeamInfo___c__DisplayClass41_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS41_0__CTOR_OFFSET))(this);
 		}
 
-		::RPG::AvatarSystem::Property::PropertyModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* __BuildModifierBuilders_b__0(::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* builder)
+		::RPG::AvatarSystem::Property::PropertyModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* __BuildModifierBuilders_b__0(::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* a1)
 		{
-			return ((::RPG::AvatarSystem::Property::PropertyModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS41_0___BUILDMODIFIERBUILDERS_B__0_OFFSET))(this, builder);
+			return ((::RPG::AvatarSystem::Property::PropertyModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS41_0___BUILDMODIFIERBUILDERS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

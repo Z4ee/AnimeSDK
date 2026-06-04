@@ -7,19 +7,19 @@ namespace CriWare { class CriAtomExAcb; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 
-#define CRIWARE_CRIATOMSOURCE_GETACB_OFFSET UNITYSDK_OFFSET(0x12BFB2F0)
-#define CRIWARE_CRIATOMSOURCE_GET_CUENAME_OFFSET UNITYSDK_OFFSET(0x12BFB180)
-#define CRIWARE_CRIATOMSOURCE_GET_CUESHEET_OFFSET UNITYSDK_OFFSET(0x12BFB1A0)
-#define CRIWARE_CRIATOMSOURCE_PLAYASYNC_OFFSET UNITYSDK_OFFSET(0x12BFB390)
-#define CRIWARE_CRIATOMSOURCE_PLAYONSTART_OFFSET UNITYSDK_OFFSET(0x12BFB310)
-#define CRIWARE_CRIATOMSOURCE_PLAY_OFFSET UNITYSDK_OFFSET(0x12BFB1C0)
-#define CRIWARE_CRIATOMSOURCE_SET_CUENAME_OFFSET UNITYSDK_OFFSET(0x12BFB190)
-#define CRIWARE_CRIATOMSOURCE_SET_CUESHEET_OFFSET UNITYSDK_OFFSET(0x12BFB1B0)
-#define CRIWARE_CRIATOMSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x12BFB3F0)
+#define CRIWARE_CRIATOMSOURCE_GETACB_OFFSET UNITYSDK_OFFSET(0x146B7760)
+#define CRIWARE_CRIATOMSOURCE_GET_CUENAME_OFFSET UNITYSDK_OFFSET(0x146B75F0)
+#define CRIWARE_CRIATOMSOURCE_GET_CUESHEET_OFFSET UNITYSDK_OFFSET(0x146B7610)
+#define CRIWARE_CRIATOMSOURCE_PLAYASYNC_OFFSET UNITYSDK_OFFSET(0x146B7800)
+#define CRIWARE_CRIATOMSOURCE_PLAYONSTART_OFFSET UNITYSDK_OFFSET(0x146B7780)
+#define CRIWARE_CRIATOMSOURCE_PLAY_OFFSET UNITYSDK_OFFSET(0x146B7630)
+#define CRIWARE_CRIATOMSOURCE_SET_CUENAME_OFFSET UNITYSDK_OFFSET(0x146B7600)
+#define CRIWARE_CRIATOMSOURCE_SET_CUESHEET_OFFSET UNITYSDK_OFFSET(0x146B7620)
+#define CRIWARE_CRIATOMSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x146B7860)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomSource_TypeDefinitionIndex = 36690;
+	inline static constexpr unsigned int CriAtomSource_TypeDefinitionIndex = 36990;
 
 	class CriAtomSource : public ::CriWare::CriAtomSourceBase
 	{
@@ -37,9 +37,9 @@ namespace CriWare
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE_GET_CUENAME_OFFSET))(this);
 		}
 
-		::System::Void set_cueName(::System::String* value)
+		::System::Void set_cueName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE_SET_CUENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE_SET_CUENAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_cueSheet()
@@ -47,9 +47,9 @@ namespace CriWare
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE_GET_CUESHEET_OFFSET))(this);
 		}
 
-		::System::Void set_cueSheet(::System::String* value)
+		::System::Void set_cueSheet(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE_SET_CUESHEET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE_SET_CUESHEET_OFFSET))(this, a1);
 		}
 
 		::CriWare::CriAtomExPlayback Play()
@@ -67,9 +67,9 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE_PLAYONSTART_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* PlayAsync(::System::String* cueName)
+		::System::Collections::IEnumerator* PlayAsync(::System::String* a1)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE_PLAYASYNC_OFFSET))(this, cueName);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMSOURCE_PLAYASYNC_OFFSET))(this, a1);
 		}
 	};
 }

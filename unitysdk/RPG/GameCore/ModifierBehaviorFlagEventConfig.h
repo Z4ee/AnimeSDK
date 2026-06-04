@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIG_METHOD_2_5A1C4E27B918630F_OFFSET UNITYSDK_OFFSET(0x18B32BA0)
-#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B32CD0)
+#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIG_METHOD_2_E416FDA235ABDE4D_OFFSET UNITYSDK_OFFSET(0x1994ADB0)
+#define RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1994AEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierBehaviorFlagEventConfig_TypeDefinitionIndex = 16201;
+	inline static constexpr unsigned int ModifierBehaviorFlagEventConfig_TypeDefinitionIndex = 16242;
 
 	class ModifierBehaviorFlagEventConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5A1C4E27B918630F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierBehaviorFlagEventConfig*& a2)
+		static ::System::Void Method_2_E416FDA235ABDE4D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierBehaviorFlagEventConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierBehaviorFlagEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIG_METHOD_2_5A1C4E27B918630F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierBehaviorFlagEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERBEHAVIORFLAGEVENTCONFIG_METHOD_2_E416FDA235ABDE4D_OFFSET))(a1, a2);
 		}
 	};
 }

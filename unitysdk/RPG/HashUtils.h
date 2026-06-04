@@ -5,162 +5,162 @@
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define RPG_HASHUTILS_BUILDFILEMD5WITHEXTRAINFO_1_OFFSET UNITYSDK_OFFSET(0x19226020)
-#define RPG_HASHUTILS_BUILDFILEMD5WITHEXTRAINFO_OFFSET UNITYSDK_OFFSET(0x19225F40)
-#define RPG_HASHUTILS_BUILDFILEMD5_OFFSET UNITYSDK_OFFSET(0x19224B10)
-#define RPG_HASHUTILS_BUILDLOWERSTRINGHASHCODE_OFFSET UNITYSDK_OFFSET(0x19226180)
-#define RPG_HASHUTILS_BUILDSTREAMMD5_OFFSET UNITYSDK_OFFSET(0x192259A0)
-#define RPG_HASHUTILS_BUILDSTRINGHASHCODE_OFFSET UNITYSDK_OFFSET(0x19226280)
-#define RPG_HASHUTILS_BUILDSTRINGMD5WITHEXTRAINFO_OFFSET UNITYSDK_OFFSET(0x19225E70)
-#define RPG_HASHUTILS_BUILDSTRINGMD5_OFFSET UNITYSDK_OFFSET(0x19224590)
-#define RPG_HASHUTILS_BUILDSTRINGMURMURHASH3_OFFSET UNITYSDK_OFFSET(0x192260F0)
-#define RPG_HASHUTILS_GETHASH_1_OFFSET UNITYSDK_OFFSET(0x19226320)
-#define RPG_HASHUTILS_GETHASH_2_OFFSET UNITYSDK_OFFSET(0x19226330)
-#define RPG_HASHUTILS_GETHASH_3_OFFSET UNITYSDK_OFFSET(0x19226340)
-#define RPG_HASHUTILS_GETHASH_4_OFFSET UNITYSDK_OFFSET(0x19226350)
-#define RPG_HASHUTILS_GETHASH_5_OFFSET UNITYSDK_OFFSET(0x19226360)
-#define RPG_HASHUTILS_GETHASH_6_OFFSET UNITYSDK_OFFSET(0x19226370)
-#define RPG_HASHUTILS_GETHASH_7_OFFSET UNITYSDK_OFFSET(0x19226380)
-#define RPG_HASHUTILS_GETHASH_OFFSET UNITYSDK_OFFSET(0x19226310)
-#define RPG_HASHUTILS_HASHCOMBINE_OFFSET UNITYSDK_OFFSET(0x19226390)
-#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_1_OFFSET UNITYSDK_OFFSET(0x19226570)
-#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_2_OFFSET UNITYSDK_OFFSET(0x19226600)
-#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_3_OFFSET UNITYSDK_OFFSET(0x19226700)
-#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_4_OFFSET UNITYSDK_OFFSET(0x19226860)
-#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_5_OFFSET UNITYSDK_OFFSET(0x19226A20)
-#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_OFFSET UNITYSDK_OFFSET(0x19226560)
-#define RPG_HASHUTILS_HASHCONTINUECOMBINE_OFFSET UNITYSDK_OFFSET(0x19226420)
+#define RPG_HASHUTILS_BUILDFILEMD5WITHEXTRAINFO_1_OFFSET UNITYSDK_OFFSET(0x19F6F330)
+#define RPG_HASHUTILS_BUILDFILEMD5WITHEXTRAINFO_OFFSET UNITYSDK_OFFSET(0x19F6F250)
+#define RPG_HASHUTILS_BUILDFILEMD5_OFFSET UNITYSDK_OFFSET(0x19F6DEF0)
+#define RPG_HASHUTILS_BUILDLOWERSTRINGHASHCODE_OFFSET UNITYSDK_OFFSET(0x19F6F490)
+#define RPG_HASHUTILS_BUILDSTREAMMD5_OFFSET UNITYSDK_OFFSET(0x19F6ED00)
+#define RPG_HASHUTILS_BUILDSTRINGHASHCODE_OFFSET UNITYSDK_OFFSET(0x19F6F590)
+#define RPG_HASHUTILS_BUILDSTRINGMD5WITHEXTRAINFO_OFFSET UNITYSDK_OFFSET(0x19F6F180)
+#define RPG_HASHUTILS_BUILDSTRINGMD5_OFFSET UNITYSDK_OFFSET(0x19F6D9C0)
+#define RPG_HASHUTILS_BUILDSTRINGMURMURHASH3_OFFSET UNITYSDK_OFFSET(0x19F6F400)
+#define RPG_HASHUTILS_GETHASH_1_OFFSET UNITYSDK_OFFSET(0x19F6F630)
+#define RPG_HASHUTILS_GETHASH_2_OFFSET UNITYSDK_OFFSET(0x19F6F640)
+#define RPG_HASHUTILS_GETHASH_3_OFFSET UNITYSDK_OFFSET(0x19F6F650)
+#define RPG_HASHUTILS_GETHASH_4_OFFSET UNITYSDK_OFFSET(0x19F6F660)
+#define RPG_HASHUTILS_GETHASH_5_OFFSET UNITYSDK_OFFSET(0x19F6F670)
+#define RPG_HASHUTILS_GETHASH_6_OFFSET UNITYSDK_OFFSET(0x19F6F680)
+#define RPG_HASHUTILS_GETHASH_7_OFFSET UNITYSDK_OFFSET(0x19F6F690)
+#define RPG_HASHUTILS_GETHASH_OFFSET UNITYSDK_OFFSET(0x19F6F620)
+#define RPG_HASHUTILS_HASHCOMBINE_OFFSET UNITYSDK_OFFSET(0x19F6F6A0)
+#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_1_OFFSET UNITYSDK_OFFSET(0x19F6F870)
+#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_2_OFFSET UNITYSDK_OFFSET(0x19F6F900)
+#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_3_OFFSET UNITYSDK_OFFSET(0x19F6FA00)
+#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_4_OFFSET UNITYSDK_OFFSET(0x19F6FB60)
+#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_5_OFFSET UNITYSDK_OFFSET(0x19F6FD20)
+#define RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_OFFSET UNITYSDK_OFFSET(0x19F6F860)
+#define RPG_HASHUTILS_HASHCONTINUECOMBINE_OFFSET UNITYSDK_OFFSET(0x19F6F730)
 
 namespace RPG
 {
-	inline static constexpr unsigned int HashUtils_TypeDefinitionIndex = 8882;
+	inline static constexpr unsigned int HashUtils_TypeDefinitionIndex = 6746;
 
 	class HashUtils : public ::System::Object
 	{
 	public:
-		static ::System::String* BuildStringMd5(::System::String* strContent)
+		static ::System::String* BuildStringMd5(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDSTRINGMD5_OFFSET))(strContent);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDSTRINGMD5_OFFSET))(a1);
 		}
 
-		static ::System::String* BuildFileMd5(::System::String* filePath, ::System::Int32 sleepFreq, ::System::Int32 sleepMS)
+		static ::System::String* BuildFileMd5(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDFILEMD5_OFFSET))(filePath, sleepFreq, sleepMS);
+			return ((::System::String*(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDFILEMD5_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* BuildStreamMd5(::System::IO::Stream* inputStream)
+		static ::System::String* BuildStreamMd5(::System::IO::Stream* a1)
 		{
-			return ((::System::String*(*)(::System::IO::Stream*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDSTREAMMD5_OFFSET))(inputStream);
+			return ((::System::String*(*)(::System::IO::Stream*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDSTREAMMD5_OFFSET))(a1);
 		}
 
-		static ::System::String* BuildStringMd5WithExtraInfo(::System::String* strContent, ::System::String* extraInfo)
+		static ::System::String* BuildStringMd5WithExtraInfo(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDSTRINGMD5WITHEXTRAINFO_OFFSET))(strContent, extraInfo);
+			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDSTRINGMD5WITHEXTRAINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* BuildFileMd5WithExtraInfo(::System::String* filePath, ::System::String* extraInfo)
+		static ::System::String* BuildFileMd5WithExtraInfo(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDFILEMD5WITHEXTRAINFO_OFFSET))(filePath, extraInfo);
+			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDFILEMD5WITHEXTRAINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* BuildFileMd5WithExtraInfo_1(::System::IO::Stream* fileStream, ::System::String* extraInfo)
+		static ::System::String* BuildFileMd5WithExtraInfo_1(::System::IO::Stream* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::System::IO::Stream*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDFILEMD5WITHEXTRAINFO_1_OFFSET))(fileStream, extraInfo);
+			return ((::System::String*(*)(::System::IO::Stream*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDFILEMD5WITHEXTRAINFO_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::UInt32 BuildStringMurmurHash3(::System::String*& srcStr)
+		static ::System::UInt32 BuildStringMurmurHash3(::System::String*& a1)
 		{
-			return ((::System::UInt32(*)(::System::String*&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDSTRINGMURMURHASH3_OFFSET))(srcStr);
+			return ((::System::UInt32(*)(::System::String*&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDSTRINGMURMURHASH3_OFFSET))(a1);
 		}
 
-		static ::System::Int32 BuildLowerStringHashCode(::System::String*& srcStr)
+		static ::System::Int32 BuildLowerStringHashCode(::System::String*& a1)
 		{
-			return ((::System::Int32(*)(::System::String*&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDLOWERSTRINGHASHCODE_OFFSET))(srcStr);
+			return ((::System::Int32(*)(::System::String*&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDLOWERSTRINGHASHCODE_OFFSET))(a1);
 		}
 
-		static ::System::Int32 BuildStringHashCode(::System::String*& srcStr)
+		static ::System::Int32 BuildStringHashCode(::System::String*& a1)
 		{
-			return ((::System::Int32(*)(::System::String*&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDSTRINGHASHCODE_OFFSET))(srcStr);
+			return ((::System::Int32(*)(::System::String*&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_BUILDSTRINGHASHCODE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean GetHash(::System::Boolean a, ::System::UInt32& hashValue)
+		static ::System::Boolean GetHash(::System::Boolean a1, ::System::UInt32& a2)
 		{
-			return ((::System::Boolean(*)(::System::Boolean, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_OFFSET))(a, hashValue);
+			return ((::System::Boolean(*)(::System::Boolean, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetHash_1(::System::Byte a, ::System::UInt32& hashValue)
+		static ::System::Boolean GetHash_1(::System::Byte a1, ::System::UInt32& a2)
 		{
-			return ((::System::Boolean(*)(::System::Byte, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_1_OFFSET))(a, hashValue);
+			return ((::System::Boolean(*)(::System::Byte, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetHash_2(::System::SByte a, ::System::UInt32& hashValue)
+		static ::System::Boolean GetHash_2(::System::SByte a1, ::System::UInt32& a2)
 		{
-			return ((::System::Boolean(*)(::System::SByte, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_2_OFFSET))(a, hashValue);
+			return ((::System::Boolean(*)(::System::SByte, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetHash_3(::System::Char a, ::System::UInt32& hashValue)
+		static ::System::Boolean GetHash_3(::System::Char a1, ::System::UInt32& a2)
 		{
-			return ((::System::Boolean(*)(::System::Char, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_3_OFFSET))(a, hashValue);
+			return ((::System::Boolean(*)(::System::Char, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetHash_4(::System::Int16 a, ::System::UInt32& hashValue)
+		static ::System::Boolean GetHash_4(::System::Int16 a1, ::System::UInt32& a2)
 		{
-			return ((::System::Boolean(*)(::System::Int16, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_4_OFFSET))(a, hashValue);
+			return ((::System::Boolean(*)(::System::Int16, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_4_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetHash_5(::System::UInt16 a, ::System::UInt32& hashValue)
+		static ::System::Boolean GetHash_5(::System::UInt16 a1, ::System::UInt32& a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt16, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_5_OFFSET))(a, hashValue);
+			return ((::System::Boolean(*)(::System::UInt16, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_5_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetHash_6(::System::Int32 a, ::System::UInt32& hashValue)
+		static ::System::Boolean GetHash_6(::System::Int32 a1, ::System::UInt32& a2)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_6_OFFSET))(a, hashValue);
+			return ((::System::Boolean(*)(::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetHash_7(::System::UInt32 a, ::System::UInt32& hashValue)
+		static ::System::Boolean GetHash_7(::System::UInt32 a1, ::System::UInt32& a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_7_OFFSET))(a, hashValue);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_GETHASH_7_OFFSET))(a1, a2);
 		}
 
-		static ::System::UInt32 HashCombine(::System::UInt32 A, ::System::UInt32 C, ::System::UInt32 CustomSeed)
+		static ::System::UInt32 HashCombine(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCOMBINE_OFFSET))(A, C, CustomSeed);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCOMBINE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 HashContinueCombine(::System::UInt32 CustomSeed, ::Il2CppArray<::System::UInt32>* uints)
+		static ::System::UInt32 HashContinueCombine(::System::UInt32 a1, ::Il2CppArray<::System::UInt32>* a2)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINE_OFFSET))(CustomSeed, uints);
+			return ((::System::UInt32(*)(::System::UInt32, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 HashContinueCombineWithInt(::System::UInt32 CustomSeed, ::System::Int32 cell)
+		static ::System::Int32 HashContinueCombineWithInt(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_OFFSET))(CustomSeed, cell);
+			return ((::System::Int32(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 HashContinueCombineWithInt_1(::System::UInt32 CustomSeed, ::System::Int32 cell1, ::System::Int32 cell2)
+		static ::System::Int32 HashContinueCombineWithInt_1(::System::UInt32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_1_OFFSET))(CustomSeed, cell1, cell2);
+			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 HashContinueCombineWithInt_2(::System::UInt32 CustomSeed, ::System::Int32 cell1, ::System::Int32 cell2, ::System::Int32 cell3)
+		static ::System::Int32 HashContinueCombineWithInt_2(::System::UInt32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_2_OFFSET))(CustomSeed, cell1, cell2, cell3);
+			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 HashContinueCombineWithInt_3(::System::UInt32 CustomSeed, ::System::Int32 cell1, ::System::Int32 cell2, ::System::Int32 cell3, ::System::Int32 cell4)
+		static ::System::Int32 HashContinueCombineWithInt_3(::System::UInt32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_3_OFFSET))(CustomSeed, cell1, cell2, cell3, cell4);
+			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_3_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Int32 HashContinueCombineWithInt_4(::System::UInt32 CustomSeed, ::System::Int32 cell1, ::System::Int32 cell2, ::System::Int32 cell3, ::System::Int32 cell4, ::System::Int32 cell5)
+		static ::System::Int32 HashContinueCombineWithInt_4(::System::UInt32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_4_OFFSET))(CustomSeed, cell1, cell2, cell3, cell4, cell5);
+			return ((::System::Int32(*)(::System::UInt32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_4_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 HashContinueCombineWithInt_5(::System::UInt32 CustomSeed, ::Il2CppArray<::System::Int32>* uints)
+		static ::System::Int32 HashContinueCombineWithInt_5(::System::UInt32 a1, ::Il2CppArray<::System::Int32>* a2)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_5_OFFSET))(CustomSeed, uints);
+			return ((::System::Int32(*)(::System::UInt32, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_HASHUTILS_HASHCONTINUECOMBINEWITHINT_5_OFFSET))(a1, a2);
 		}
 	};
 }

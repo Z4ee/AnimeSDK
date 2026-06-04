@@ -6,29 +6,29 @@
 namespace RPG::GameCore { class PamChatFeedbackConfigRow; }
 namespace RPG::GameCore { class ReportTypeConfigRow; }
 
-#define RPG_CLIENT_CHATREPORTREASON_GET_ID_OFFSET UNITYSDK_OFFSET(0x9F87EE0)
-#define RPG_CLIENT_CHATREPORTREASON_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9F87EF0)
-#define RPG_CLIENT_CHATREPORTREASON__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9F87EB0)
-#define RPG_CLIENT_CHATREPORTREASON__CTOR_OFFSET UNITYSDK_OFFSET(0x9F83590)
+#define RPG_CLIENT_CHATREPORTREASON_GET_ID_OFFSET UNITYSDK_OFFSET(0xB5A1D00)
+#define RPG_CLIENT_CHATREPORTREASON_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB5A1D10)
+#define RPG_CLIENT_CHATREPORTREASON__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB5A1CD0)
+#define RPG_CLIENT_CHATREPORTREASON__CTOR_OFFSET UNITYSDK_OFFSET(0xB59CA60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatReportReason_TypeDefinitionIndex = 58237;
+	inline static constexpr unsigned int ChatReportReason_TypeDefinitionIndex = 59167;
 
 	class ChatReportReason : public ::System::Object
 	{
 	public:
-		::System::UInt32 _ID_k__BackingField; // 0x10
-		::RPG::Client::TextID _Name_k__BackingField; // 0x18
+		::RPG::Client::TextID _Name_k__BackingField; // 0x10
+		::System::UInt32 _ID_k__BackingField; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::ReportTypeConfigRow* row)
+		::System::Void _ctor(::RPG::GameCore::ReportTypeConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ReportTypeConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATREPORTREASON__CTOR_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ReportTypeConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATREPORTREASON__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::RPG::GameCore::PamChatFeedbackConfigRow* row)
+		::System::Void _ctor_1(::RPG::GameCore::PamChatFeedbackConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PamChatFeedbackConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATREPORTREASON__CTOR_1_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PamChatFeedbackConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATREPORTREASON__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()

@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNEXHIBITIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D72E30)
-#define RPG_GAMECORE_ROGUETOURNEXHIBITIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D72F90)
+#define RPG_GAMECORE_ROGUETOURNEXHIBITIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BC6B80)
+#define RPG_GAMECORE_ROGUETOURNEXHIBITIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC6CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournExhibitionConfigRow_TypeDefinitionIndex = 14203;
+	inline static constexpr unsigned int RogueTournExhibitionConfigRow_TypeDefinitionIndex = 14262;
 
 	class RogueTournExhibitionConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 PaintingID; // 0x10
-		::RPG::GameCore::RogueExhibitionType Type; // 0x14
+		::RPG::GameCore::RogueExhibitionType Type; // 0x10
+		::System::UInt32 PaintingID; // 0x14
 		::RPG::GameCore::RogueTournCollectionExhibitionPropFloor Floor; // 0x18
 
 		::System::Void _ctor()
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXHIBITIONCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueTournExhibitionConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournExhibitionConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournExhibitionConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXHIBITIONCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournExhibitionConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXHIBITIONCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -1,0 +1,95 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+
+namespace RPG::Client::ChenLingFes { class ChenLingFesBuffIconViewModel; }
+namespace System { class String; }
+
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_DESCTEXTID_OFFSET UNITYSDK_OFFSET(0xB5E4EF0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_DESCTEXT_OFFSET UNITYSDK_OFFSET(0xB5E4D30)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_ICONVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB5E4ED0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0xB5E4EE0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_NAMETEXT_OFFSET UNITYSDK_OFFSET(0xB5E4CB0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0xB5E4F00)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_SHOWSPLITLINE_OFFSET UNITYSDK_OFFSET(0xB5E4F10)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_SET_DESCTEXTID_OFFSET UNITYSDK_OFFSET(0xB5E3EB0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_SET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0xB5E3D80)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_SET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0xB5E4110)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_SET_SHOWSPLITLINE_OFFSET UNITYSDK_OFFSET(0xB5E4250)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB5E3D00)
+
+namespace RPG::Client::ChenLingFes
+{
+	inline static constexpr unsigned int ChenLingFesBuffItemViewModel_TypeDefinitionIndex = 74026;
+
+	class ChenLingFesBuffItemViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::RPG::Client::ChenLingFes::ChenLingFesBuffIconViewModel* _IconViewModel_k__BackingField; // 0x20
+		::Il2CppArray<::System::Int32>* _ParamList; // 0x28
+		::RPG::Client::TextID _DescTextID; // 0x30
+		::RPG::Client::TextID _NameTextID; // 0x40
+		::System::Boolean _ShowSplitLine; // 0x50
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::ChenLingFes::ChenLingFesBuffIconViewModel* get_IconViewModel()
+		{
+			return ((::RPG::Client::ChenLingFes::ChenLingFesBuffIconViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_ICONVIEWMODEL_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_NameTextID()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_NAMETEXTID_OFFSET))(this);
+		}
+
+		::System::Void set_NameTextID(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_SET_NAMETEXTID_OFFSET))(this, a1);
+		}
+
+		::System::String* get_NameText()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_NAMETEXT_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_DescTextID()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_DESCTEXTID_OFFSET))(this);
+		}
+
+		::System::Void set_DescTextID(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_SET_DESCTEXTID_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::System::Int32>* get_ParamList()
+		{
+			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_PARAMLIST_OFFSET))(this);
+		}
+
+		::System::Void set_ParamList(::Il2CppArray<::System::Int32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_SET_PARAMLIST_OFFSET))(this, a1);
+		}
+
+		::System::String* get_DescText()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_DESCTEXT_OFFSET))(this);
+		}
+
+		::System::Boolean get_ShowSplitLine()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_GET_SHOWSPLITLINE_OFFSET))(this);
+		}
+
+		::System::Void set_ShowSplitLine(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESBUFFITEMVIEWMODEL_SET_SHOWSPLITLINE_OFFSET))(this, a1);
+		}
+	};
+}

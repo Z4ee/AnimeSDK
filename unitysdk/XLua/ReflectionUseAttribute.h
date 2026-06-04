@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define XLUA_REFLECTIONUSEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B84CB0)
+#define XLUA_REFLECTIONUSEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18932D40)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ReflectionUseAttribute_TypeDefinitionIndex = 6406;
+	inline static constexpr unsigned int ReflectionUseAttribute_TypeDefinitionIndex = 5608;
 
 	class ReflectionUseAttribute : public ::System::Attribute
 	{

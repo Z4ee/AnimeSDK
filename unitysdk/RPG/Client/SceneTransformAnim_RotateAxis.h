@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SceneTransformAnim_RotateAxis_TypeDefinitionIndex = 65396;
+	inline static constexpr unsigned int SceneTransformAnim_RotateAxis_TypeDefinitionIndex = 66323;
 
 	enum class SceneTransformAnim_RotateAxis : ::System::Int32
 	{

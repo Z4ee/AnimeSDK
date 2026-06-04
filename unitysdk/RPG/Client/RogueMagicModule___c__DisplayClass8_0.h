@@ -5,12 +5,12 @@
 namespace RPG::Client { class UIController; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB059DD0)
-#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS8_0__SHOWENTRANCEPAGEPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0xB05EBF0)
+#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7A7840)
+#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS8_0__SHOWENTRANCEPAGEPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0xC7ACCD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicModule___c__DisplayClass8_0_TypeDefinitionIndex = 62111;
+	inline static constexpr unsigned int RogueMagicModule___c__DisplayClass8_0_TypeDefinitionIndex = 63044;
 
 	class RogueMagicModule___c__DisplayClass8_0 : public ::System::Object
 	{

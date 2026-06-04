@@ -4,21 +4,21 @@
 
 namespace IniParserEx { class IniFile_SectionItem; }
 
-#define INIPARSEREX_INIFILEPARSER_SECTIONITEMSCOPE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A423340)
-#define INIPARSEREX_INIFILEPARSER_SECTIONITEMSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A421B20)
+#define INIPARSEREX_INIFILEPARSER_SECTIONITEMSCOPE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B2765C0)
+#define INIPARSEREX_INIFILEPARSER_SECTIONITEMSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B274E90)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int IniFileParser_SectionItemScope_TypeDefinitionIndex = 3757;
+	inline static constexpr unsigned int IniFileParser_SectionItemScope_TypeDefinitionIndex = 3931;
 
 	class IniFileParser_SectionItemScope : public ::System::Object
 	{
 	public:
 		::IniParserEx::IniFile_SectionItem* _Item_k__BackingField; // 0x10
 
-		::System::Void _ctor(::IniParserEx::IniFile_SectionItem* item)
+		::System::Void _ctor(::IniParserEx::IniFile_SectionItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IniParserEx::IniFile_SectionItem*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_SECTIONITEMSCOPE__CTOR_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::IniParserEx::IniFile_SectionItem*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILEPARSER_SECTIONITEMSCOPE__CTOR_OFFSET))(this, a1);
 		}
 
 		::IniParserEx::IniFile_SectionItem* get_Item()

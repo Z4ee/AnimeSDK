@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_BLACKBOARDMGR_CREATECPP_OFFSET UNITYSDK_OFFSET(0x18103CF0)
-#define RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEDIRBLUR_OFFSET UNITYSDK_OFFSET(0x18103DD0)
-#define RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEDOF_OFFSET UNITYSDK_OFFSET(0x18103DB0)
-#define RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEGAUSSBLUR_OFFSET UNITYSDK_OFFSET(0x18103DF0)
-#define RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEMOTIONBLUR_OFFSET UNITYSDK_OFFSET(0x18103E10)
-#define RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLERADIALBLUR_OFFSET UNITYSDK_OFFSET(0x18103E30)
-#define RPG_CUSTOMRP_BLACKBOARDMGR_RELEASE_OFFSET UNITYSDK_OFFSET(0x18103DA0)
-#define RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEDIRBLUR_OFFSET UNITYSDK_OFFSET(0x18103DE0)
-#define RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEDOF_OFFSET UNITYSDK_OFFSET(0x18103DC0)
-#define RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEGAUSSBLUR_OFFSET UNITYSDK_OFFSET(0x18103E00)
-#define RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEMOTIONBLUR_OFFSET UNITYSDK_OFFSET(0x18103E20)
-#define RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLERADIALBLUR_OFFSET UNITYSDK_OFFSET(0x18103E40)
-#define RPG_CUSTOMRP_BLACKBOARDMGR__CTOR_OFFSET UNITYSDK_OFFSET(0x18103D80)
-#define RPG_CUSTOMRP_BLACKBOARDMGR__INITCPP_OFFSET UNITYSDK_OFFSET(0x18103D90)
-#define RPG_CUSTOMRP_BLACKBOARDMGR__INITPROFILE_OFFSET UNITYSDK_OFFSET(0x18103E50)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_CREATECPP_OFFSET UNITYSDK_OFFSET(0x18EA6E90)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEDIRBLUR_OFFSET UNITYSDK_OFFSET(0x18EA6F70)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEDOF_OFFSET UNITYSDK_OFFSET(0x18EA6F50)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEGAUSSBLUR_OFFSET UNITYSDK_OFFSET(0x18EA6F90)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEMOTIONBLUR_OFFSET UNITYSDK_OFFSET(0x18EA6FB0)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLERADIALBLUR_OFFSET UNITYSDK_OFFSET(0x18EA6FD0)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_RELEASE_OFFSET UNITYSDK_OFFSET(0x18EA6F40)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEDIRBLUR_OFFSET UNITYSDK_OFFSET(0x18EA6F80)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEDOF_OFFSET UNITYSDK_OFFSET(0x18EA6F60)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEGAUSSBLUR_OFFSET UNITYSDK_OFFSET(0x18EA6FA0)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEMOTIONBLUR_OFFSET UNITYSDK_OFFSET(0x18EA6FC0)
+#define RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLERADIALBLUR_OFFSET UNITYSDK_OFFSET(0x18EA6FE0)
+#define RPG_CUSTOMRP_BLACKBOARDMGR__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA6F20)
+#define RPG_CUSTOMRP_BLACKBOARDMGR__INITCPP_OFFSET UNITYSDK_OFFSET(0x18EA6F30)
+#define RPG_CUSTOMRP_BLACKBOARDMGR__INITPROFILE_OFFSET UNITYSDK_OFFSET(0x18EA6FF0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int BlackboardMgr_TypeDefinitionIndex = 34918;
+	inline static constexpr unsigned int BlackboardMgr_TypeDefinitionIndex = 35201;
 
 	class BlackboardMgr : public ::System::Object
 	{
 	public:
-		::System::Boolean _GlobalEnableGaussBlur_k__BackingField; // 0x10
+		::System::Boolean _GlobalEnableRadialBlur_k__BackingField; // 0x10
 		::System::Boolean _GlobalEnableMotionBlur_k__BackingField; // 0x11
-		::System::Boolean _GlobalEnableRadialBlur_k__BackingField; // 0x12
-		::System::Boolean _GlobalEnableDirBlur_k__BackingField; // 0x13
-		::System::Boolean _GlobalEnableDOF_k__BackingField; // 0x14
+		::System::Boolean _GlobalEnableGaussBlur_k__BackingField; // 0x12
+		::System::Boolean _GlobalEnableDOF_k__BackingField; // 0x13
+		::System::Boolean _GlobalEnableDirBlur_k__BackingField; // 0x14
 
 		::System::Void _ctor()
 		{
@@ -51,9 +51,9 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEDOF_OFFSET))(this);
 		}
 
-		::System::Void set_GlobalEnableDOF(::System::Boolean value)
+		::System::Void set_GlobalEnableDOF(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEDOF_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEDOF_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_GlobalEnableDirBlur()
@@ -61,9 +61,9 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEDIRBLUR_OFFSET))(this);
 		}
 
-		::System::Void set_GlobalEnableDirBlur(::System::Boolean value)
+		::System::Void set_GlobalEnableDirBlur(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEDIRBLUR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEDIRBLUR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_GlobalEnableGaussBlur()
@@ -71,9 +71,9 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEGAUSSBLUR_OFFSET))(this);
 		}
 
-		::System::Void set_GlobalEnableGaussBlur(::System::Boolean value)
+		::System::Void set_GlobalEnableGaussBlur(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEGAUSSBLUR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEGAUSSBLUR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_GlobalEnableMotionBlur()
@@ -81,9 +81,9 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLEMOTIONBLUR_OFFSET))(this);
 		}
 
-		::System::Void set_GlobalEnableMotionBlur(::System::Boolean value)
+		::System::Void set_GlobalEnableMotionBlur(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEMOTIONBLUR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLEMOTIONBLUR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_GlobalEnableRadialBlur()
@@ -91,9 +91,9 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_GET_GLOBALENABLERADIALBLUR_OFFSET))(this);
 		}
 
-		::System::Void set_GlobalEnableRadialBlur(::System::Boolean value)
+		::System::Void set_GlobalEnableRadialBlur(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLERADIALBLUR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_BLACKBOARDMGR_SET_GLOBALENABLERADIALBLUR_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitProfile()

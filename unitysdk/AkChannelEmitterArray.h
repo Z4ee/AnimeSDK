@@ -3,27 +3,27 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define AKCHANNELEMITTERARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x1A5DAA60)
-#define AKCHANNELEMITTERARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5DA900)
-#define AKCHANNELEMITTERARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A5DA960)
-#define AKCHANNELEMITTERARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1A5DA8E0)
-#define AKCHANNELEMITTERARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x1A5DAA10)
-#define AKCHANNELEMITTERARRAY_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x1A5DA8F0)
-#define AKCHANNELEMITTERARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5DA8A0)
+#define AKCHANNELEMITTERARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x1B424860)
+#define AKCHANNELEMITTERARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B424700)
+#define AKCHANNELEMITTERARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B424760)
+#define AKCHANNELEMITTERARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1B4246E0)
+#define AKCHANNELEMITTERARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x1B424810)
+#define AKCHANNELEMITTERARRAY_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x1B4246F0)
+#define AKCHANNELEMITTERARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4246A0)
 
-inline static constexpr unsigned int AkChannelEmitterArray_TypeDefinitionIndex = 40418;
+inline static constexpr unsigned int AkChannelEmitterArray_TypeDefinitionIndex = 41245;
 
 class AkChannelEmitterArray : public ::System::Object
 {
 public:
-	::System::IntPtr m_Buffer; // 0x10
+	::System::IntPtr m_Current; // 0x10
 	::System::UInt32 _Count_k__BackingField; // 0x18
 	::System::UInt32 m_MaxCount; // 0x1C
-	::System::IntPtr m_Current; // 0x20
+	::System::IntPtr m_Buffer; // 0x20
 
-	::System::Void _ctor(::System::UInt32 in_Count)
+	::System::Void _ctor(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELEMITTERARRAY__CTOR_OFFSET))(this, in_Count);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELEMITTERARRAY__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_Count()
@@ -31,9 +31,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCHANNELEMITTERARRAY_GET_COUNT_OFFSET))(this);
 	}
 
-	::System::Void set_Count(::System::UInt32 value)
+	::System::Void set_Count(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELEMITTERARRAY_SET_COUNT_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELEMITTERARRAY_SET_COUNT_OFFSET))(this, a1);
 	}
 
 	::System::Void Dispose()
@@ -51,8 +51,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCHANNELEMITTERARRAY_RESET_OFFSET))(this);
 	}
 
-	::System::Void Add(::UnityEngine::Vector3 in_Pos, ::UnityEngine::Vector3 in_Forward, ::UnityEngine::Vector3 in_Top, ::System::UInt32 in_ChannelMask)
+	::System::Void Add(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::UInt32 a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELEMITTERARRAY_ADD_OFFSET))(this, in_Pos, in_Forward, in_Top, in_ChannelMask);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELEMITTERARRAY_ADD_OFFSET))(this, a1, a2, a3, a4);
 	}
 };

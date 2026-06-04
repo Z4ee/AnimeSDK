@@ -42,49 +42,49 @@ namespace Epic::OnlineServices::Connect { class VerifyIdTokenOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ADDNOTIFYAUTHEXPIRATION_OFFSET UNITYSDK_OFFSET(0x8E3EC90)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ADDNOTIFYLOGINSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x8E3EF10)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYIDTOKEN_OFFSET UNITYSDK_OFFSET(0x8E3F190)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYACCOUNTID_OFFSET UNITYSDK_OFFSET(0x8E3F400)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYACCOUNTTYPE_OFFSET UNITYSDK_OFFSET(0x8E3F600)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E3F890)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSERINFO_OFFSET UNITYSDK_OFFSET(0x8E3FB20)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_CREATEDEVICEID_OFFSET UNITYSDK_OFFSET(0x8E3FD90)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_CREATEUSER_OFFSET UNITYSDK_OFFSET(0x8E3FFE0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_DELETEDEVICEID_OFFSET UNITYSDK_OFFSET(0x8E40230)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETEXTERNALACCOUNTMAPPING_OFFSET UNITYSDK_OFFSET(0x8E404A0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETLOGGEDINUSERBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E40600)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETLOGGEDINUSERSCOUNT_OFFSET UNITYSDK_OFFSET(0x8E406F0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETLOGINSTATUS_OFFSET UNITYSDK_OFFSET(0x8E40770)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETPRODUCTUSEREXTERNALACCOUNTCOUNT_OFFSET UNITYSDK_OFFSET(0x8E408D0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETPRODUCTUSERIDMAPPING_OFFSET UNITYSDK_OFFSET(0x8E40AD0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_LINKACCOUNT_OFFSET UNITYSDK_OFFSET(0x8E40D90)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_LOGIN_OFFSET UNITYSDK_OFFSET(0x8E40F50)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONAUTHEXPIRATIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3E5B0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONCREATEDEVICEIDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3E640)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONCREATEUSERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3E6D0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONDELETEDEVICEIDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3E760)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3E7F0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLOGINCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3E880)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLOGINSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3E910)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONQUERYEXTERNALACCOUNTMAPPINGSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3E9A0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONQUERYPRODUCTUSERIDMAPPINGSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3EA30)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONTRANSFERDEVICEIDACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3EAC0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONUNLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3EB50)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONVERIFYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E3EBE0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_QUERYEXTERNALACCOUNTMAPPINGS_OFFSET UNITYSDK_OFFSET(0x8E41110)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_QUERYPRODUCTUSERIDMAPPINGS_OFFSET UNITYSDK_OFFSET(0x8E412D0)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_REMOVENOTIFYAUTHEXPIRATION_OFFSET UNITYSDK_OFFSET(0x8E41490)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_REMOVENOTIFYLOGINSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x8E41570)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_TRANSFERDEVICEIDACCOUNT_OFFSET UNITYSDK_OFFSET(0x8E41650)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_UNLINKACCOUNT_OFFSET UNITYSDK_OFFSET(0x8E41810)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_VERIFYIDTOKEN_OFFSET UNITYSDK_OFFSET(0x8E41A60)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8E3EC80)
-#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8E3EC70)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ADDNOTIFYAUTHEXPIRATION_OFFSET UNITYSDK_OFFSET(0xA298590)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ADDNOTIFYLOGINSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0xA298840)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYIDTOKEN_OFFSET UNITYSDK_OFFSET(0xA298AF0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYACCOUNTID_OFFSET UNITYSDK_OFFSET(0xA298D60)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYACCOUNTTYPE_OFFSET UNITYSDK_OFFSET(0xA298F60)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2991F0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSERINFO_OFFSET UNITYSDK_OFFSET(0xA299480)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_CREATEDEVICEID_OFFSET UNITYSDK_OFFSET(0xA2996F0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_CREATEUSER_OFFSET UNITYSDK_OFFSET(0xA299960)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_DELETEDEVICEID_OFFSET UNITYSDK_OFFSET(0xA299BD0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETEXTERNALACCOUNTMAPPING_OFFSET UNITYSDK_OFFSET(0xA299E70)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETLOGGEDINUSERBYINDEX_OFFSET UNITYSDK_OFFSET(0xA299FD0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETLOGGEDINUSERSCOUNT_OFFSET UNITYSDK_OFFSET(0xA29A0C0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETLOGINSTATUS_OFFSET UNITYSDK_OFFSET(0xA29A140)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETPRODUCTUSEREXTERNALACCOUNTCOUNT_OFFSET UNITYSDK_OFFSET(0xA29A2A0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETPRODUCTUSERIDMAPPING_OFFSET UNITYSDK_OFFSET(0xA29A4A0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_LINKACCOUNT_OFFSET UNITYSDK_OFFSET(0xA29A750)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_LOGIN_OFFSET UNITYSDK_OFFSET(0xA29A930)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONAUTHEXPIRATIONCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA297DF0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONCREATEDEVICEIDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA297E90)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONCREATEUSERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA297F30)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONDELETEDEVICEIDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA297FD0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA298070)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLOGINCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA298110)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLOGINSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2981B0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONQUERYEXTERNALACCOUNTMAPPINGSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA298250)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONQUERYPRODUCTUSERIDMAPPINGSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2982F0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONTRANSFERDEVICEIDACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA298390)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONUNLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA298430)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONVERIFYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2984D0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_QUERYEXTERNALACCOUNTMAPPINGS_OFFSET UNITYSDK_OFFSET(0xA29AB10)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_QUERYPRODUCTUSERIDMAPPINGS_OFFSET UNITYSDK_OFFSET(0xA29ACF0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_REMOVENOTIFYAUTHEXPIRATION_OFFSET UNITYSDK_OFFSET(0xA29AED0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_REMOVENOTIFYLOGINSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0xA29AFB0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_TRANSFERDEVICEIDACCOUNT_OFFSET UNITYSDK_OFFSET(0xA29B090)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_UNLINKACCOUNT_OFFSET UNITYSDK_OFFSET(0xA29B270)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_VERIFYIDTOKEN_OFFSET UNITYSDK_OFFSET(0xA29B4E0)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA298580)
+#define EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA298570)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int ConnectInterface_TypeDefinitionIndex = 42261;
+	inline static constexpr unsigned int ConnectInterface_TypeDefinitionIndex = 43064;
 
 	class ConnectInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -126,69 +126,69 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyAuthExpiration(::Epic::OnlineServices::Connect::AddNotifyAuthExpirationOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnAuthExpirationCallback* notification)
+		::System::UInt64 AddNotifyAuthExpiration(::Epic::OnlineServices::Connect::AddNotifyAuthExpirationOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnAuthExpirationCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Connect::AddNotifyAuthExpirationOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnAuthExpirationCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ADDNOTIFYAUTHEXPIRATION_OFFSET))(this, options, clientData, notification);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Connect::AddNotifyAuthExpirationOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnAuthExpirationCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ADDNOTIFYAUTHEXPIRATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyLoginStatusChanged(::Epic::OnlineServices::Connect::AddNotifyLoginStatusChangedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnLoginStatusChangedCallback* notification)
+		::System::UInt64 AddNotifyLoginStatusChanged(::Epic::OnlineServices::Connect::AddNotifyLoginStatusChangedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnLoginStatusChangedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Connect::AddNotifyLoginStatusChangedOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnLoginStatusChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ADDNOTIFYLOGINSTATUSCHANGED_OFFSET))(this, options, clientData, notification);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Connect::AddNotifyLoginStatusChangedOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnLoginStatusChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ADDNOTIFYLOGINSTATUSCHANGED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result CopyIdToken(::Epic::OnlineServices::Connect::CopyIdTokenOptions* options, ::Epic::OnlineServices::Connect::IdToken*& outIdToken)
+		::Epic::OnlineServices::Result CopyIdToken(::Epic::OnlineServices::Connect::CopyIdTokenOptions* a1, ::Epic::OnlineServices::Connect::IdToken*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::CopyIdTokenOptions*, ::Epic::OnlineServices::Connect::IdToken*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYIDTOKEN_OFFSET))(this, options, outIdToken);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::CopyIdTokenOptions*, ::Epic::OnlineServices::Connect::IdToken*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYIDTOKEN_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyProductUserExternalAccountByAccountId(::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByAccountIdOptions* options, ::Epic::OnlineServices::Connect::ExternalAccountInfo*& outExternalAccountInfo)
+		::Epic::OnlineServices::Result CopyProductUserExternalAccountByAccountId(::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByAccountIdOptions* a1, ::Epic::OnlineServices::Connect::ExternalAccountInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByAccountIdOptions*, ::Epic::OnlineServices::Connect::ExternalAccountInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYACCOUNTID_OFFSET))(this, options, outExternalAccountInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByAccountIdOptions*, ::Epic::OnlineServices::Connect::ExternalAccountInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYACCOUNTID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyProductUserExternalAccountByAccountType(::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByAccountTypeOptions* options, ::Epic::OnlineServices::Connect::ExternalAccountInfo*& outExternalAccountInfo)
+		::Epic::OnlineServices::Result CopyProductUserExternalAccountByAccountType(::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByAccountTypeOptions* a1, ::Epic::OnlineServices::Connect::ExternalAccountInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByAccountTypeOptions*, ::Epic::OnlineServices::Connect::ExternalAccountInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYACCOUNTTYPE_OFFSET))(this, options, outExternalAccountInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByAccountTypeOptions*, ::Epic::OnlineServices::Connect::ExternalAccountInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYACCOUNTTYPE_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyProductUserExternalAccountByIndex(::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByIndexOptions* options, ::Epic::OnlineServices::Connect::ExternalAccountInfo*& outExternalAccountInfo)
+		::Epic::OnlineServices::Result CopyProductUserExternalAccountByIndex(::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByIndexOptions* a1, ::Epic::OnlineServices::Connect::ExternalAccountInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByIndexOptions*, ::Epic::OnlineServices::Connect::ExternalAccountInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEX_OFFSET))(this, options, outExternalAccountInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::CopyProductUserExternalAccountByIndexOptions*, ::Epic::OnlineServices::Connect::ExternalAccountInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSEREXTERNALACCOUNTBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyProductUserInfo(::Epic::OnlineServices::Connect::CopyProductUserInfoOptions* options, ::Epic::OnlineServices::Connect::ExternalAccountInfo*& outExternalAccountInfo)
+		::Epic::OnlineServices::Result CopyProductUserInfo(::Epic::OnlineServices::Connect::CopyProductUserInfoOptions* a1, ::Epic::OnlineServices::Connect::ExternalAccountInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::CopyProductUserInfoOptions*, ::Epic::OnlineServices::Connect::ExternalAccountInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSERINFO_OFFSET))(this, options, outExternalAccountInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::CopyProductUserInfoOptions*, ::Epic::OnlineServices::Connect::ExternalAccountInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_COPYPRODUCTUSERINFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CreateDeviceId(::Epic::OnlineServices::Connect::CreateDeviceIdOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnCreateDeviceIdCallback* completionDelegate)
+		::System::Void CreateDeviceId(::Epic::OnlineServices::Connect::CreateDeviceIdOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnCreateDeviceIdCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::CreateDeviceIdOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnCreateDeviceIdCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_CREATEDEVICEID_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::CreateDeviceIdOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnCreateDeviceIdCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_CREATEDEVICEID_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void CreateUser(::Epic::OnlineServices::Connect::CreateUserOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnCreateUserCallback* completionDelegate)
+		::System::Void CreateUser(::Epic::OnlineServices::Connect::CreateUserOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnCreateUserCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::CreateUserOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnCreateUserCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_CREATEUSER_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::CreateUserOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnCreateUserCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_CREATEUSER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DeleteDeviceId(::Epic::OnlineServices::Connect::DeleteDeviceIdOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnDeleteDeviceIdCallback* completionDelegate)
+		::System::Void DeleteDeviceId(::Epic::OnlineServices::Connect::DeleteDeviceIdOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnDeleteDeviceIdCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::DeleteDeviceIdOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnDeleteDeviceIdCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_DELETEDEVICEID_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::DeleteDeviceIdOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnDeleteDeviceIdCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_DELETEDEVICEID_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::ProductUserId* GetExternalAccountMapping(::Epic::OnlineServices::Connect::GetExternalAccountMappingsOptions* options)
+		::Epic::OnlineServices::ProductUserId* GetExternalAccountMapping(::Epic::OnlineServices::Connect::GetExternalAccountMappingsOptions* a1)
 		{
-			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID, ::Epic::OnlineServices::Connect::GetExternalAccountMappingsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETEXTERNALACCOUNTMAPPING_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID, ::Epic::OnlineServices::Connect::GetExternalAccountMappingsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETEXTERNALACCOUNTMAPPING_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::ProductUserId* GetLoggedInUserByIndex(::System::Int32 index)
+		::Epic::OnlineServices::ProductUserId* GetLoggedInUserByIndex(::System::Int32 a1)
 		{
-			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETLOGGEDINUSERBYINDEX_OFFSET))(this, index);
+			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETLOGGEDINUSERBYINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetLoggedInUsersCount()
@@ -196,124 +196,124 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETLOGGEDINUSERSCOUNT_OFFSET))(this);
 		}
 
-		::Epic::OnlineServices::LoginStatus GetLoginStatus(::Epic::OnlineServices::ProductUserId* localUserId)
+		::Epic::OnlineServices::LoginStatus GetLoginStatus(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::Epic::OnlineServices::LoginStatus(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETLOGINSTATUS_OFFSET))(this, localUserId);
+			return ((::Epic::OnlineServices::LoginStatus(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETLOGINSTATUS_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetProductUserExternalAccountCount(::Epic::OnlineServices::Connect::GetProductUserExternalAccountCountOptions* options)
+		::System::UInt32 GetProductUserExternalAccountCount(::Epic::OnlineServices::Connect::GetProductUserExternalAccountCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Connect::GetProductUserExternalAccountCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETPRODUCTUSEREXTERNALACCOUNTCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Connect::GetProductUserExternalAccountCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETPRODUCTUSEREXTERNALACCOUNTCOUNT_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result GetProductUserIdMapping(::Epic::OnlineServices::Connect::GetProductUserIdMappingOptions* options, ::System::String*& outBuffer)
+		::Epic::OnlineServices::Result GetProductUserIdMapping(::Epic::OnlineServices::Connect::GetProductUserIdMappingOptions* a1, ::System::String*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::GetProductUserIdMappingOptions*, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETPRODUCTUSERIDMAPPING_OFFSET))(this, options, outBuffer);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Connect::GetProductUserIdMappingOptions*, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_GETPRODUCTUSERIDMAPPING_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LinkAccount(::Epic::OnlineServices::Connect::LinkAccountOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnLinkAccountCallback* completionDelegate)
+		::System::Void LinkAccount(::Epic::OnlineServices::Connect::LinkAccountOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnLinkAccountCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::LinkAccountOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnLinkAccountCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_LINKACCOUNT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::LinkAccountOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnLinkAccountCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_LINKACCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Login(::Epic::OnlineServices::Connect::LoginOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnLoginCallback* completionDelegate)
+		::System::Void Login(::Epic::OnlineServices::Connect::LoginOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnLoginCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::LoginOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnLoginCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_LOGIN_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::LoginOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnLoginCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_LOGIN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryExternalAccountMappings(::Epic::OnlineServices::Connect::QueryExternalAccountMappingsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnQueryExternalAccountMappingsCallback* completionDelegate)
+		::System::Void QueryExternalAccountMappings(::Epic::OnlineServices::Connect::QueryExternalAccountMappingsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnQueryExternalAccountMappingsCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::QueryExternalAccountMappingsOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnQueryExternalAccountMappingsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_QUERYEXTERNALACCOUNTMAPPINGS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::QueryExternalAccountMappingsOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnQueryExternalAccountMappingsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_QUERYEXTERNALACCOUNTMAPPINGS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryProductUserIdMappings(::Epic::OnlineServices::Connect::QueryProductUserIdMappingsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnQueryProductUserIdMappingsCallback* completionDelegate)
+		::System::Void QueryProductUserIdMappings(::Epic::OnlineServices::Connect::QueryProductUserIdMappingsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnQueryProductUserIdMappingsCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::QueryProductUserIdMappingsOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnQueryProductUserIdMappingsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_QUERYPRODUCTUSERIDMAPPINGS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::QueryProductUserIdMappingsOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnQueryProductUserIdMappingsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_QUERYPRODUCTUSERIDMAPPINGS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RemoveNotifyAuthExpiration(::System::UInt64 inId)
+		::System::Void RemoveNotifyAuthExpiration(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_REMOVENOTIFYAUTHEXPIRATION_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_REMOVENOTIFYAUTHEXPIRATION_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyLoginStatusChanged(::System::UInt64 inId)
+		::System::Void RemoveNotifyLoginStatusChanged(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_REMOVENOTIFYLOGINSTATUSCHANGED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_REMOVENOTIFYLOGINSTATUSCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void TransferDeviceIdAccount(::Epic::OnlineServices::Connect::TransferDeviceIdAccountOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnTransferDeviceIdAccountCallback* completionDelegate)
+		::System::Void TransferDeviceIdAccount(::Epic::OnlineServices::Connect::TransferDeviceIdAccountOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnTransferDeviceIdAccountCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::TransferDeviceIdAccountOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnTransferDeviceIdAccountCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_TRANSFERDEVICEIDACCOUNT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::TransferDeviceIdAccountOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnTransferDeviceIdAccountCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_TRANSFERDEVICEIDACCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UnlinkAccount(::Epic::OnlineServices::Connect::UnlinkAccountOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnUnlinkAccountCallback* completionDelegate)
+		::System::Void UnlinkAccount(::Epic::OnlineServices::Connect::UnlinkAccountOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnUnlinkAccountCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::UnlinkAccountOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnUnlinkAccountCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_UNLINKACCOUNT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::UnlinkAccountOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnUnlinkAccountCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_UNLINKACCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void VerifyIdToken(::Epic::OnlineServices::Connect::VerifyIdTokenOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Connect::OnVerifyIdTokenCallback* completionDelegate)
+		::System::Void VerifyIdToken(::Epic::OnlineServices::Connect::VerifyIdTokenOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Connect::OnVerifyIdTokenCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::VerifyIdTokenOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnVerifyIdTokenCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_VERIFYIDTOKEN_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::VerifyIdTokenOptions*, ::System::Object*, ::Epic::OnlineServices::Connect::OnVerifyIdTokenCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_VERIFYIDTOKEN_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnAuthExpirationCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnAuthExpirationCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONAUTHEXPIRATIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONAUTHEXPIRATIONCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnCreateDeviceIdCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnCreateDeviceIdCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONCREATEDEVICEIDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONCREATEDEVICEIDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnCreateUserCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnCreateUserCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONCREATEUSERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONCREATEUSERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnDeleteDeviceIdCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnDeleteDeviceIdCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONDELETEDEVICEIDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONDELETEDEVICEIDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLinkAccountCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLinkAccountCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLoginCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLoginCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLOGINCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLOGINCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLoginStatusChangedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLoginStatusChangedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLOGINSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONLOGINSTATUSCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryExternalAccountMappingsCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryExternalAccountMappingsCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONQUERYEXTERNALACCOUNTMAPPINGSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONQUERYEXTERNALACCOUNTMAPPINGSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryProductUserIdMappingsCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryProductUserIdMappingsCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONQUERYPRODUCTUSERIDMAPPINGSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONQUERYPRODUCTUSERIDMAPPINGSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnTransferDeviceIdAccountCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnTransferDeviceIdAccountCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONTRANSFERDEVICEIDACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONTRANSFERDEVICEIDACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnUnlinkAccountCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnUnlinkAccountCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONUNLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONUNLINKACCOUNTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnVerifyIdTokenCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnVerifyIdTokenCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONVERIFYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CONNECTINTERFACE_ONVERIFYIDTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

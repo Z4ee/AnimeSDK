@@ -5,12 +5,12 @@
 namespace SRDebugger { class ActionCompleteCallback; }
 namespace System { class String; }
 
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_SRDEBUGSERVICE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E80640)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_SRDEBUGSERVICE___C__DISPLAYCLASS45_0__SHOWBUGREPORTSHEET_B__0_OFFSET UNITYSDK_OFFSET(0x19E80B90)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_SRDEBUGSERVICE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF6E60)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_SRDEBUGSERVICE___C__DISPLAYCLASS45_0__SHOWBUGREPORTSHEET_B__0_OFFSET UNITYSDK_OFFSET(0x1ACF73A0)
 
 namespace SRDebugger::Services::Implementation
 {
-	inline static constexpr unsigned int SRDebugService___c__DisplayClass45_0_TypeDefinitionIndex = 35453;
+	inline static constexpr unsigned int SRDebugService___c__DisplayClass45_0_TypeDefinitionIndex = 35753;
 
 	class SRDebugService___c__DisplayClass45_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace SRDebugger::Services::Implementation
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_SRDEBUGSERVICE___C__DISPLAYCLASS45_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ShowBugReportSheet_b__0(::System::Boolean succeed, ::System::String* message)
+		::System::Void _ShowBugReportSheet_b__0(::System::Boolean a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_SRDEBUGSERVICE___C__DISPLAYCLASS45_0__SHOWBUGREPORTSHEET_B__0_OFFSET))(this, succeed, message);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_SRDEBUGSERVICE___C__DISPLAYCLASS45_0__SHOWBUGREPORTSHEET_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

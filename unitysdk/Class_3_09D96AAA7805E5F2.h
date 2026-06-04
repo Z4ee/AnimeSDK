@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetIronTombInfinityHPUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_09D96AAA7805E5F2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x123EF420)
-#define CLASS_3_09D96AAA7805E5F2__CTOR_OFFSET UNITYSDK_OFFSET(0x123EF3F0)
+#define CLASS_3_09D96AAA7805E5F2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA4A3430)
+#define CLASS_3_09D96AAA7805E5F2__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A3400)
 
-inline static constexpr unsigned int Class_3_09D96AAA7805E5F2_TypeDefinitionIndex = 51187;
+inline static constexpr unsigned int Class_3_09D96AAA7805E5F2_TypeDefinitionIndex = 51857;
 
 class Class_3_09D96AAA7805E5F2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetIronTombInfinityHPUI*>
 {

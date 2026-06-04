@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ListChangedEventArgs_1_TypeDefinitionIndex = 33419;
+	inline static constexpr unsigned int ListChangedEventArgs_1_TypeDefinitionIndex = 33701;
 
 	template <typename T>
 	class ListChangedEventArgs_1 : public ::System::EventArgs

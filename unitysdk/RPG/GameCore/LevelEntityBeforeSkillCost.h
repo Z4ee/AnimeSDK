@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class SkillConfig; }
 
-#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6D5E40)
-#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6D5DF0)
-#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GET_BPCOST_OFFSET UNITYSDK_OFFSET(0xB6D5ED0)
-#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GET_OWNERID_OFFSET UNITYSDK_OFFSET(0xB6D5E90)
-#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GET_SKILLCONFIG_OFFSET UNITYSDK_OFFSET(0xB6D5EB0)
-#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_INIT_OFFSET UNITYSDK_OFFSET(0xB6D5D90)
-#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_BPCOST_OFFSET UNITYSDK_OFFSET(0xB6D5EE0)
-#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_OWNERID_OFFSET UNITYSDK_OFFSET(0xB6D5EA0)
-#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_SKILLCONFIG_OFFSET UNITYSDK_OFFSET(0xB6D5EC0)
-#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D5EF0)
+#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE43E30)
+#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE43DE0)
+#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GET_BPCOST_OFFSET UNITYSDK_OFFSET(0xCE43EC0)
+#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GET_OWNERID_OFFSET UNITYSDK_OFFSET(0xCE43E80)
+#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GET_SKILLCONFIG_OFFSET UNITYSDK_OFFSET(0xCE43EA0)
+#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_INIT_OFFSET UNITYSDK_OFFSET(0xCE43D80)
+#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_BPCOST_OFFSET UNITYSDK_OFFSET(0xCE43ED0)
+#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_OWNERID_OFFSET UNITYSDK_OFFSET(0xCE43E90)
+#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_SKILLCONFIG_OFFSET UNITYSDK_OFFSET(0xCE43EB0)
+#define RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST__CTOR_OFFSET UNITYSDK_OFFSET(0xCE43EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityBeforeSkillCost_TypeDefinitionIndex = 52297;
+	inline static constexpr unsigned int LevelEntityBeforeSkillCost_TypeDefinitionIndex = 52994;
 
-	class LevelEntityBeforeSkillCost : public ::Class_1_9988289E7F8AA214
+	class LevelEntityBeforeSkillCost : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::SkillConfig* _SkillConfig_k__BackingField; // 0x18
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelEntityBeforeSkillCost* Init(::System::UInt32 nOwnerID, ::RPG::GameCore::SkillConfig* skillConfig, ::System::Int32 bpCost)
+		::RPG::GameCore::LevelEntityBeforeSkillCost* Init(::System::UInt32 a1, ::RPG::GameCore::SkillConfig* a2, ::System::Int32 a3)
 		{
-			return ((::RPG::GameCore::LevelEntityBeforeSkillCost*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::SkillConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_INIT_OFFSET))(this, nOwnerID, skillConfig, bpCost);
+			return ((::RPG::GameCore::LevelEntityBeforeSkillCost*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::SkillConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -52,9 +52,9 @@ namespace RPG::GameCore
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GET_OWNERID_OFFSET))(this);
 		}
 
-		::System::Void set_OwnerID(::System::UInt32 value)
+		::System::Void set_OwnerID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_OWNERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_OWNERID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::SkillConfig* get_SkillConfig()
@@ -62,9 +62,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::SkillConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GET_SKILLCONFIG_OFFSET))(this);
 		}
 
-		::System::Void set_SkillConfig(::RPG::GameCore::SkillConfig* value)
+		::System::Void set_SkillConfig(::RPG::GameCore::SkillConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_SKILLCONFIG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_SKILLCONFIG_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_BPCost()
@@ -72,9 +72,9 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_GET_BPCOST_OFFSET))(this);
 		}
 
-		::System::Void set_BPCost(::System::Int32 value)
+		::System::Void set_BPCost(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_BPCOST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYBEFORESKILLCOST_SET_BPCOST_OFFSET))(this, a1);
 		}
 	};
 }

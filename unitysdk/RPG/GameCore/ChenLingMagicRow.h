@@ -5,29 +5,29 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGMAGICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187ECC80)
-#define RPG_GAMECORE_CHENLINGMAGICROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187ECEB0)
+#define RPG_GAMECORE_CHENLINGMAGICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1962EAF0)
+#define RPG_GAMECORE_CHENLINGMAGICROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1962ED20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingMagicRow_TypeDefinitionIndex = 10590;
+	inline static constexpr unsigned int ChenLingMagicRow_TypeDefinitionIndex = 10628;
 
 	class ChenLingMagicRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Desc; // 0x10
-		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 EffectID; // 0x30
-		::System::UInt32 ID; // 0x34
+		::RPG::Client::TextID Name; // 0x10
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 EffectID; // 0x24
+		::RPG::Client::TextID Desc; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGMAGICROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ChenLingMagicRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingMagicRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingMagicRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGMAGICROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingMagicRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGMAGICROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

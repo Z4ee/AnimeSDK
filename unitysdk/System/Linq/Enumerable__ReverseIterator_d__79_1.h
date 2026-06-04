@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable__ReverseIterator_d__79_1_TypeDefinitionIndex = 3144;
+	inline static constexpr unsigned int Enumerable__ReverseIterator_d__79_1_TypeDefinitionIndex = 3145;
 
 	template <typename TSource>
 	class Enumerable__ReverseIterator_d__79_1 : public ::System::Object

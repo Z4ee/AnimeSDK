@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AISwitchCaseDecision; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AISWITCHDECISIONGROUPCONFIG_METHOD_4_A1490A35DCAFE8EA_OFFSET UNITYSDK_OFFSET(0x185F28D0)
-#define RPG_GAMECORE_AISWITCHDECISIONGROUPCONFIG_METHOD_4_D1F5B122C5EE6849_OFFSET UNITYSDK_OFFSET(0x185F02C0)
-#define RPG_GAMECORE_AISWITCHDECISIONGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x185F02B0)
+#define RPG_GAMECORE_AISWITCHDECISIONGROUPCONFIG_METHOD_4_972CD1EBB7240B15_OFFSET UNITYSDK_OFFSET(0x193C3650)
+#define RPG_GAMECORE_AISWITCHDECISIONGROUPCONFIG_METHOD_4_E61275E35C853292_OFFSET UNITYSDK_OFFSET(0x193C1010)
+#define RPG_GAMECORE_AISWITCHDECISIONGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x193C1000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AISwitchDecisionGroupConfig_TypeDefinitionIndex = 14652;
+	inline static constexpr unsigned int AISwitchDecisionGroupConfig_TypeDefinitionIndex = 14718;
 
 	class AISwitchDecisionGroupConfig : public ::RPG::GameCore::AIDecisionBaseConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISWITCHDECISIONGROUPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A1490A35DCAFE8EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AISwitchDecisionGroupConfig*& a2)
+		static ::System::Void Method_4_972CD1EBB7240B15(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AISwitchDecisionGroupConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AISwitchDecisionGroupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISWITCHDECISIONGROUPCONFIG_METHOD_4_A1490A35DCAFE8EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AISwitchDecisionGroupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISWITCHDECISIONGROUPCONFIG_METHOD_4_972CD1EBB7240B15_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D1F5B122C5EE6849(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AISwitchDecisionGroupConfig* a2)
+		static ::System::Void Method_4_E61275E35C853292(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AISwitchDecisionGroupConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AISwitchDecisionGroupConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISWITCHDECISIONGROUPCONFIG_METHOD_4_D1F5B122C5EE6849_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AISwitchDecisionGroupConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISWITCHDECISIONGROUPCONFIG_METHOD_4_E61275E35C853292_OFFSET))(a1, a2);
 		}
 	};
 }

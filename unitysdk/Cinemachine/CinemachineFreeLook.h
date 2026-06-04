@@ -23,58 +23,58 @@ namespace Cinemachine { class ICinemachineCamera; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_CINEMACHINEFREELOOK_CALCULATENEWSTATE_OFFSET UNITYSDK_OFFSET(0x12B85340)
-#define CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGS_OFFSET UNITYSDK_OFFSET(0x12B86830)
-#define CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGS_OFFSET UNITYSDK_OFFSET(0x12B82330)
-#define CINEMACHINE_CINEMACHINEFREELOOK_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x12B83930)
-#define CINEMACHINE_CINEMACHINEFREELOOK_FORCEPUSHSETTINGSTORIGS_OFFSET UNITYSDK_OFFSET(0x12B81600)
-#define CINEMACHINE_CINEMACHINEFREELOOK_GETLOCALPOSITIONFORCAMERAFROMINPUT_OFFSET UNITYSDK_OFFSET(0x12B860C0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_GETRIG_OFFSET UNITYSDK_OFFSET(0x12B813D0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_GETYAXISCLOSESTVALUE_OFFSET UNITYSDK_OFFSET(0x12B83CE0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_GETYAXISVALUE_OFFSET UNITYSDK_OFFSET(0x12B82C60)
-#define CINEMACHINE_CINEMACHINEFREELOOK_GET_CACHEDXAXISHEADING_OFFSET UNITYSDK_OFFSET(0x12B87DF0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_GET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x12B82AE0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_GET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x12B82AC0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_GET_PREVIOUSSTATEISVALID_OFFSET UNITYSDK_OFFSET(0x12B829E0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_GET_RIGNAMES_OFFSET UNITYSDK_OFFSET(0x12B81ED0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_GET_STATE_OFFSET UNITYSDK_OFFSET(0x12B82A90)
-#define CINEMACHINE_CINEMACHINEFREELOOK_INTERNALUPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x12B84DE0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_INVALIDATERIGCACHE_OFFSET UNITYSDK_OFFSET(0x12B813C0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_ISLIVECHILD_OFFSET UNITYSDK_OFFSET(0x12B82B00)
-#define CINEMACHINE_CINEMACHINEFREELOOK_LOCATEEXISTINGRIGS_OFFSET UNITYSDK_OFFSET(0x12B873B0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12B821D0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12B81F60)
-#define CINEMACHINE_CINEMACHINEFREELOOK_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x12B82C90)
-#define CINEMACHINE_CINEMACHINEFREELOOK_ONTRANSFORMCHILDRENCHANGED_OFFSET UNITYSDK_OFFSET(0x12B82310)
-#define CINEMACHINE_CINEMACHINEFREELOOK_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x12B854B0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x12B81190)
-#define CINEMACHINE_CINEMACHINEFREELOOK_ONWORLDWARPED_OFFSET UNITYSDK_OFFSET(0x12B83000)
-#define CINEMACHINE_CINEMACHINEFREELOOK_PUSHSETTINGSTORIGS_OFFSET UNITYSDK_OFFSET(0x12B81670)
-#define CINEMACHINE_CINEMACHINEFREELOOK_RESET_OFFSET UNITYSDK_OFFSET(0x12B82320)
-#define CINEMACHINE_CINEMACHINEFREELOOK_SET_CACHEDXAXISHEADING_OFFSET UNITYSDK_OFFSET(0x12B87E00)
-#define CINEMACHINE_CINEMACHINEFREELOOK_SET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x12B82AF0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_SET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x12B82AD0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_SET_PREVIOUSSTATEISVALID_OFFSET UNITYSDK_OFFSET(0x12B829F0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_UPDATECACHEDSPLINE_OFFSET UNITYSDK_OFFSET(0x12B88010)
-#define CINEMACHINE_CINEMACHINEFREELOOK_UPDATEINPUTAXISPROVIDER_OFFSET UNITYSDK_OFFSET(0x12B81F90)
-#define CINEMACHINE_CINEMACHINEFREELOOK_UPDATERIGCACHE_OFFSET UNITYSDK_OFFSET(0x12B81420)
-#define CINEMACHINE_CINEMACHINEFREELOOK_UPDATEXAXISHEADING_OFFSET UNITYSDK_OFFSET(0x12B81CD0)
-#define CINEMACHINE_CINEMACHINEFREELOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x12B884F0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_CALCULATENEWSTATE_OFFSET UNITYSDK_OFFSET(0x146449B0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGS_OFFSET UNITYSDK_OFFSET(0x146458D0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGS_OFFSET UNITYSDK_OFFSET(0x14641DC0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x14643150)
+#define CINEMACHINE_CINEMACHINEFREELOOK_FORCEPUSHSETTINGSTORIGS_OFFSET UNITYSDK_OFFSET(0x14641110)
+#define CINEMACHINE_CINEMACHINEFREELOOK_GETLOCALPOSITIONFORCAMERAFROMINPUT_OFFSET UNITYSDK_OFFSET(0x146456D0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_GETRIG_OFFSET UNITYSDK_OFFSET(0x14640D60)
+#define CINEMACHINE_CINEMACHINEFREELOOK_GETYAXISCLOSESTVALUE_OFFSET UNITYSDK_OFFSET(0x14643450)
+#define CINEMACHINE_CINEMACHINEFREELOOK_GETYAXISVALUE_OFFSET UNITYSDK_OFFSET(0x14642650)
+#define CINEMACHINE_CINEMACHINEFREELOOK_GET_CACHEDXAXISHEADING_OFFSET UNITYSDK_OFFSET(0x146466E0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_GET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x14642520)
+#define CINEMACHINE_CINEMACHINEFREELOOK_GET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x14642500)
+#define CINEMACHINE_CINEMACHINEFREELOOK_GET_PREVIOUSSTATEISVALID_OFFSET UNITYSDK_OFFSET(0x14642440)
+#define CINEMACHINE_CINEMACHINEFREELOOK_GET_RIGNAMES_OFFSET UNITYSDK_OFFSET(0x14641850)
+#define CINEMACHINE_CINEMACHINEFREELOOK_GET_STATE_OFFSET UNITYSDK_OFFSET(0x146424D0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_INTERNALUPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x146444D0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_INVALIDATERIGCACHE_OFFSET UNITYSDK_OFFSET(0x14640D50)
+#define CINEMACHINE_CINEMACHINEFREELOOK_ISLIVECHILD_OFFSET UNITYSDK_OFFSET(0x14642540)
+#define CINEMACHINE_CINEMACHINEFREELOOK_LOCATEEXISTINGRIGS_OFFSET UNITYSDK_OFFSET(0x14645EB0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14641C70)
+#define CINEMACHINE_CINEMACHINEFREELOOK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x146418B0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x14642680)
+#define CINEMACHINE_CINEMACHINEFREELOOK_ONTRANSFORMCHILDRENCHANGED_OFFSET UNITYSDK_OFFSET(0x14641DA0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x14644B20)
+#define CINEMACHINE_CINEMACHINEFREELOOK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x14640B20)
+#define CINEMACHINE_CINEMACHINEFREELOOK_ONWORLDWARPED_OFFSET UNITYSDK_OFFSET(0x14642900)
+#define CINEMACHINE_CINEMACHINEFREELOOK_PUSHSETTINGSTORIGS_OFFSET UNITYSDK_OFFSET(0x14641180)
+#define CINEMACHINE_CINEMACHINEFREELOOK_RESET_OFFSET UNITYSDK_OFFSET(0x14641DB0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_SET_CACHEDXAXISHEADING_OFFSET UNITYSDK_OFFSET(0x146466F0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_SET_FOLLOW_OFFSET UNITYSDK_OFFSET(0x14642530)
+#define CINEMACHINE_CINEMACHINEFREELOOK_SET_LOOKAT_OFFSET UNITYSDK_OFFSET(0x14642510)
+#define CINEMACHINE_CINEMACHINEFREELOOK_SET_PREVIOUSSTATEISVALID_OFFSET UNITYSDK_OFFSET(0x14642450)
+#define CINEMACHINE_CINEMACHINEFREELOOK_UPDATECACHEDSPLINE_OFFSET UNITYSDK_OFFSET(0x14646900)
+#define CINEMACHINE_CINEMACHINEFREELOOK_UPDATEINPUTAXISPROVIDER_OFFSET UNITYSDK_OFFSET(0x14641A20)
+#define CINEMACHINE_CINEMACHINEFREELOOK_UPDATERIGCACHE_OFFSET UNITYSDK_OFFSET(0x14640DB0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_UPDATEXAXISHEADING_OFFSET UNITYSDK_OFFSET(0x146416D0)
+#define CINEMACHINE_CINEMACHINEFREELOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x14646D20)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineFreeLook_TypeDefinitionIndex = 36500;
+	inline static constexpr unsigned int CinemachineFreeLook_TypeDefinitionIndex = 36800;
 
 	class CinemachineFreeLook : public ::Cinemachine::CinemachineVirtualCameraBase
 	{
 	public:
-		static ::Cinemachine::CinemachineFreeLook_CreateRigDelegate** StaticGet_CreateRigOverride()
-		{
-			return (::Cinemachine::CinemachineFreeLook_CreateRigDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineFreeLook_TypeDefinitionIndex)->GetStaticField(0x73C0);
-		}
 		static ::Cinemachine::CinemachineFreeLook_DestroyRigDelegate** StaticGet_DestroyRigOverride()
 		{
-			return (::Cinemachine::CinemachineFreeLook_DestroyRigDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineFreeLook_TypeDefinitionIndex)->GetStaticField(0x73C8);
+			return (::Cinemachine::CinemachineFreeLook_DestroyRigDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineFreeLook_TypeDefinitionIndex)->GetStaticField(0x5110);
+		}
+		static ::Cinemachine::CinemachineFreeLook_CreateRigDelegate** StaticGet_CreateRigOverride()
+		{
+			return (::Cinemachine::CinemachineFreeLook_CreateRigDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineFreeLook_TypeDefinitionIndex)->GetStaticField(0x5118);
 		}
 		::UnityEngine::Transform* m_LookAt; // 0x68
 		::UnityEngine::Transform* m_Follow; // 0x70
@@ -115,9 +115,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_ONVALIDATE_OFFSET))(this);
 		}
 
-		::Cinemachine::CinemachineVirtualCamera* GetRig(::System::Int32 i)
+		::Cinemachine::CinemachineVirtualCamera* GetRig(::System::Int32 a1)
 		{
-			return ((::Cinemachine::CinemachineVirtualCamera*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_GETRIG_OFFSET))(this, i);
+			return ((::Cinemachine::CinemachineVirtualCamera*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_GETRIG_OFFSET))(this, a1);
 		}
 
 		::System::Void ForcePushSettingsToRigs()
@@ -160,9 +160,9 @@ namespace Cinemachine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_GET_PREVIOUSSTATEISVALID_OFFSET))(this);
 		}
 
-		::System::Void set_PreviousStateIsValid(::System::Boolean value)
+		::System::Void set_PreviousStateIsValid(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_SET_PREVIOUSSTATEISVALID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_SET_PREVIOUSSTATEISVALID_OFFSET))(this, a1);
 		}
 
 		::Cinemachine::CameraState get_State()
@@ -175,9 +175,9 @@ namespace Cinemachine
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_GET_LOOKAT_OFFSET))(this);
 		}
 
-		::System::Void set_LookAt(::UnityEngine::Transform* value)
+		::System::Void set_LookAt(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_SET_LOOKAT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_SET_LOOKAT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Transform* get_Follow()
@@ -185,44 +185,44 @@ namespace Cinemachine
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_GET_FOLLOW_OFFSET))(this);
 		}
 
-		::System::Void set_Follow(::UnityEngine::Transform* value)
+		::System::Void set_Follow(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_SET_FOLLOW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_SET_FOLLOW_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsLiveChild(::Cinemachine::ICinemachineCamera* vcam, ::System::Boolean dominantChildOnly)
+		::System::Boolean IsLiveChild(::Cinemachine::ICinemachineCamera* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_ISLIVECHILD_OFFSET))(this, vcam, dominantChildOnly);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_ISLIVECHILD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* target, ::UnityEngine::Vector3 positionDelta)
+		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_ONTARGETOBJECTWARPED_OFFSET))(this, target, positionDelta);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_ONTARGETOBJECTWARPED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnWorldWarped(::UnityEngine::Vector3 positionDelta, ::System::Single yawDelta)
+		::System::Void OnWorldWarped(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_ONWORLDWARPED_OFFSET))(this, positionDelta, yawDelta);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_ONWORLDWARPED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ForceCameraPosition(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot)
+		::System::Void ForceCameraPosition(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_FORCECAMERAPOSITION_OFFSET))(this, pos, rot);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_FORCECAMERAPOSITION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InternalUpdateCameraState(::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::System::Void InternalUpdateCameraState(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_INTERNALUPDATECAMERASTATE_OFFSET))(this, worldUp, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_INTERNALUPDATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* fromCam, ::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::System::Void OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_ONTRANSITIONFROMCAMERA_OFFSET))(this, fromCam, worldUp, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_ONTRANSITIONFROMCAMERA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single GetYAxisClosestValue(::UnityEngine::Vector3 cameraPos, ::UnityEngine::Vector3 up)
+		::System::Single GetYAxisClosestValue(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_GETYAXISCLOSESTVALUE_OFFSET))(this, cameraPos, up);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_GETYAXISCLOSESTVALUE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void InvalidateRigCache()
@@ -235,9 +235,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGS_OFFSET))(this);
 		}
 
-		::Il2CppArray<::Cinemachine::CinemachineVirtualCamera*>* CreateRigs(::Il2CppArray<::Cinemachine::CinemachineVirtualCamera*>* copyFrom)
+		::Il2CppArray<::Cinemachine::CinemachineVirtualCamera*>* CreateRigs(::Il2CppArray<::Cinemachine::CinemachineVirtualCamera*>* a1)
 		{
-			return ((::Il2CppArray<::Cinemachine::CinemachineVirtualCamera*>*(*)(::PVOID, ::Il2CppArray<::Cinemachine::CinemachineVirtualCamera*>*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGS_OFFSET))(this, copyFrom);
+			return ((::Il2CppArray<::Cinemachine::CinemachineVirtualCamera*>*(*)(::PVOID, ::Il2CppArray<::Cinemachine::CinemachineVirtualCamera*>*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGS_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateRigCache()
@@ -245,9 +245,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_UPDATERIGCACHE_OFFSET))(this);
 		}
 
-		::System::Int32 LocateExistingRigs(::Il2CppArray<::System::String*>* rigNames, ::System::Boolean forceOrbital)
+		::System::Int32 LocateExistingRigs(::Il2CppArray<::System::String*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_LOCATEEXISTINGRIGS_OFFSET))(this, rigNames, forceOrbital);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_LOCATEEXISTINGRIGS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single get_CachedXAxisHeading()
@@ -255,14 +255,14 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_GET_CACHEDXAXISHEADING_OFFSET))(this);
 		}
 
-		::System::Void set_CachedXAxisHeading(::System::Single value)
+		::System::Void set_CachedXAxisHeading(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_SET_CACHEDXAXISHEADING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_SET_CACHEDXAXISHEADING_OFFSET))(this, a1);
 		}
 
-		::System::Single UpdateXAxisHeading(::Cinemachine::CinemachineOrbitalTransposer* orbital, ::System::Single deltaTime, ::UnityEngine::Vector3 up)
+		::System::Single UpdateXAxisHeading(::Cinemachine::CinemachineOrbitalTransposer* a1, ::System::Single a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::Cinemachine::CinemachineOrbitalTransposer*, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_UPDATEXAXISHEADING_OFFSET))(this, orbital, deltaTime, up);
+			return ((::System::Single(*)(::PVOID, ::Cinemachine::CinemachineOrbitalTransposer*, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_UPDATEXAXISHEADING_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void PushSettingsToRigs()
@@ -275,14 +275,14 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_GETYAXISVALUE_OFFSET))(this);
 		}
 
-		::Cinemachine::CameraState CalculateNewState(::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::Cinemachine::CameraState CalculateNewState(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::Cinemachine::CameraState(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_CALCULATENEWSTATE_OFFSET))(this, worldUp, deltaTime);
+			return ((::Cinemachine::CameraState(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_CALCULATENEWSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 GetLocalPositionForCameraFromInput(::System::Single t)
+		::UnityEngine::Vector3 GetLocalPositionForCameraFromInput(::System::Single a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_GETLOCALPOSITIONFORCAMERAFROMINPUT_OFFSET))(this, t);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_GETLOCALPOSITIONFORCAMERAFROMINPUT_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateCachedSpline()

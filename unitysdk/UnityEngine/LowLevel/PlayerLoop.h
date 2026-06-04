@@ -6,16 +6,16 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_GETCURRENTPLAYERLOOPINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A44E2D0)
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_GETCURRENTPLAYERLOOP_OFFSET UNITYSDK_OFFSET(0x1A44E280)
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_INTERNALTOPLAYERLOOPSYSTEM_OFFSET UNITYSDK_OFFSET(0x1A44E2E0)
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_PLAYERLOOPSYSTEMTOINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A44E550)
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_SETPLAYERLOOPINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A44E6F0)
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_SETPLAYERLOOP_OFFSET UNITYSDK_OFFSET(0x1A44E490)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_GETCURRENTPLAYERLOOPINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B29F040)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_GETCURRENTPLAYERLOOP_OFFSET UNITYSDK_OFFSET(0x1B29EFF0)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_INTERNALTOPLAYERLOOPSYSTEM_OFFSET UNITYSDK_OFFSET(0x1B29F050)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_PLAYERLOOPSYSTEMTOINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B29F370)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_SETPLAYERLOOPINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B29F560)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOP_SETPLAYERLOOP_OFFSET UNITYSDK_OFFSET(0x1B29F280)
 
 namespace UnityEngine::LowLevel
 {
-	inline static constexpr unsigned int PlayerLoop_TypeDefinitionIndex = 4349;
+	inline static constexpr unsigned int PlayerLoop_TypeDefinitionIndex = 4523;
 
 	class PlayerLoop : public ::System::Object
 	{
@@ -25,19 +25,19 @@ namespace UnityEngine::LowLevel
 			return ((::UnityEngine::LowLevel::PlayerLoopSystem(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOP_GETCURRENTPLAYERLOOP_OFFSET))();
 		}
 
-		static ::System::Void SetPlayerLoop(::UnityEngine::LowLevel::PlayerLoopSystem loop)
+		static ::System::Void SetPlayerLoop(::UnityEngine::LowLevel::PlayerLoopSystem a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::LowLevel::PlayerLoopSystem))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOP_SETPLAYERLOOP_OFFSET))(loop);
+			return ((::System::Void(*)(::UnityEngine::LowLevel::PlayerLoopSystem))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOP_SETPLAYERLOOP_OFFSET))(a1);
 		}
 
-		static ::System::Int32 PlayerLoopSystemToInternal(::UnityEngine::LowLevel::PlayerLoopSystem sys, ::System::Collections::Generic::List_1<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*& internalSys)
+		static ::System::Int32 PlayerLoopSystemToInternal(::UnityEngine::LowLevel::PlayerLoopSystem a1, ::System::Collections::Generic::List_1<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*& a2)
 		{
-			return ((::System::Int32(*)(::UnityEngine::LowLevel::PlayerLoopSystem, ::System::Collections::Generic::List_1<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOP_PLAYERLOOPSYSTEMTOINTERNAL_OFFSET))(sys, internalSys);
+			return ((::System::Int32(*)(::UnityEngine::LowLevel::PlayerLoopSystem, ::System::Collections::Generic::List_1<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOP_PLAYERLOOPSYSTEMTOINTERNAL_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::LowLevel::PlayerLoopSystem InternalToPlayerLoopSystem(::Il2CppArray<::UnityEngine::LowLevel::PlayerLoopSystemInternal>* internalSys, ::System::Int32& offset)
+		static ::UnityEngine::LowLevel::PlayerLoopSystem InternalToPlayerLoopSystem(::Il2CppArray<::UnityEngine::LowLevel::PlayerLoopSystemInternal>* a1, ::System::Int32& a2)
 		{
-			return ((::UnityEngine::LowLevel::PlayerLoopSystem(*)(::Il2CppArray<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOP_INTERNALTOPLAYERLOOPSYSTEM_OFFSET))(internalSys, offset);
+			return ((::UnityEngine::LowLevel::PlayerLoopSystem(*)(::Il2CppArray<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOP_INTERNALTOPLAYERLOOPSYSTEM_OFFSET))(a1, a2);
 		}
 
 		static ::Il2CppArray<::UnityEngine::LowLevel::PlayerLoopSystemInternal>* GetCurrentPlayerLoopInternal()
@@ -45,9 +45,9 @@ namespace UnityEngine::LowLevel
 			return ((::Il2CppArray<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOP_GETCURRENTPLAYERLOOPINTERNAL_OFFSET))();
 		}
 
-		static ::System::Void SetPlayerLoopInternal(::Il2CppArray<::UnityEngine::LowLevel::PlayerLoopSystemInternal>* loop)
+		static ::System::Void SetPlayerLoopInternal(::Il2CppArray<::UnityEngine::LowLevel::PlayerLoopSystemInternal>* a1)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOP_SETPLAYERLOOPINTERNAL_OFFSET))(loop);
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOP_SETPLAYERLOOPINTERNAL_OFFSET))(a1);
 		}
 	};
 }

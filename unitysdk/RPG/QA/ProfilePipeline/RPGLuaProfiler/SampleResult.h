@@ -6,19 +6,19 @@ namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class Sample; }
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0xB86C090)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xB86B780)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFB5330)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xCFB49E0)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int SampleResult_TypeDefinitionIndex = 47840;
+	inline static constexpr unsigned int SampleResult_TypeDefinitionIndex = 48455;
 
 	class SampleResult : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_EMPTY()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SampleResult_TypeDefinitionIndex)->GetStaticField(0x664A0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SampleResult_TypeDefinitionIndex)->GetStaticField(0x5680);
 		}
 		::System::Int32 Name; // 0x10
 		::System::Int32 Source; // 0x14
@@ -30,9 +30,9 @@ namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 		::System::Int32 Count; // 0x40
 		::Il2CppArray<::RPG::QA::ProfilePipeline::RPGLuaProfiler::SampleResult*>* Children; // 0x48
 
-		::System::Void _ctor(::RPG::QA::ProfilePipeline::RPGLuaProfiler::Sample* origin, ::System::Collections::Hashtable* hash)
+		::System::Void _ctor(::RPG::QA::ProfilePipeline::RPGLuaProfiler::Sample* a1, ::System::Collections::Hashtable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::QA::ProfilePipeline::RPGLuaProfiler::Sample*, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CTOR_OFFSET))(this, origin, hash);
+			return ((::System::Void(*)(::PVOID, ::RPG::QA::ProfilePipeline::RPGLuaProfiler::Sample*, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLERESULT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int RTCParticipantStatus_TypeDefinitionIndex = 41552;
+	inline static constexpr unsigned int RTCParticipantStatus_TypeDefinitionIndex = 42355;
 
 	enum class RTCParticipantStatus : ::System::Int32
 	{

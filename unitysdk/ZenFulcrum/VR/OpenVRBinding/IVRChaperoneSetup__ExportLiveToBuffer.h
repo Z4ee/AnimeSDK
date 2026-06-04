@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E6C70)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E6CD0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6DF8D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6E6C50)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B516450)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B5164B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B50F160)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5163D0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRChaperoneSetup__ExportLiveToBuffer_TypeDefinitionIndex = 35774;
+	inline static constexpr unsigned int IVRChaperoneSetup__ExportLiveToBuffer_TypeDefinitionIndex = 36074;
 
 	class IVRChaperoneSetup__ExportLiveToBuffer : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::Text::StringBuilder* pBuffer, ::System::UInt32& pnBufferLength)
+		::System::Boolean Invoke(::System::Text::StringBuilder* a1, ::System::UInt32& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Text::StringBuilder*, ::System::UInt32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_INVOKE_OFFSET))(this, pBuffer, pnBufferLength);
+			return ((::System::Boolean(*)(::PVOID, ::System::Text::StringBuilder*, ::System::UInt32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder* pBuffer, ::System::UInt32& pnBufferLength, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder* a1, ::System::UInt32& a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Text::StringBuilder*, ::System::UInt32&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_BEGININVOKE_OFFSET))(this, pBuffer, pnBufferLength, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Text::StringBuilder*, ::System::UInt32&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean EndInvoke(::System::UInt32& pnBufferLength, ::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::UInt32& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_ENDINVOKE_OFFSET))(this, pnBufferLength, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__EXPORTLIVETOBUFFER_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

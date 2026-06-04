@@ -5,9 +5,9 @@
 namespace RPG::GameCore::Match3 { class Match3EnvActionConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E427DE5C71B8D3AB__CTOR_OFFSET UNITYSDK_OFFSET(0x17E3EBF0)
+#define CLASS_1_E427DE5C71B8D3AB__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC5C50)
 
-inline static constexpr unsigned int Class_1_E427DE5C71B8D3AB_TypeDefinitionIndex = 38497;
+inline static constexpr unsigned int Class_1_E427DE5C71B8D3AB_TypeDefinitionIndex = 39264;
 
 class Class_1_E427DE5C71B8D3AB : public ::System::Object
 {

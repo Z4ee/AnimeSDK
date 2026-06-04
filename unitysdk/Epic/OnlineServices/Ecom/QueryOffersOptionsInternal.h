@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::Ecom { class QueryOffersOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3EA00)
-#define EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3E990)
-#define EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x3E810)
-#define EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3E980)
-#define EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_OVERRIDECATALOGNAMESPACE_OFFSET UNITYSDK_OFFSET(0x3E8D0)
+#define EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x42860)
+#define EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x427E0)
+#define EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x42660)
+#define EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x427D0)
+#define EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_OVERRIDECATALOGNAMESPACE_OFFSET UNITYSDK_OFFSET(0x42720)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int QueryOffersOptionsInternal_TypeDefinitionIndex = 42214;
+	inline static constexpr unsigned int QueryOffersOptionsInternal_TypeDefinitionIndex = 43017;
 
 	struct alignas(8) QueryOffersOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::Ecom
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::IntPtr m_OverrideCatalogNamespace; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_OverrideCatalogNamespace(::System::String* value)
+		::System::Void set_OverrideCatalogNamespace(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_OVERRIDECATALOGNAMESPACE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_OVERRIDECATALOGNAMESPACE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Ecom::QueryOffersOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Ecom::QueryOffersOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryOffersOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryOffersOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_QUERYOFFERSOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

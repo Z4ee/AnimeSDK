@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TravelShipCameraMode_TypeDefinitionIndex = 63429;
+	inline static constexpr unsigned int TravelShipCameraMode_TypeDefinitionIndex = 64346;
 
 	enum class TravelShipCameraMode : ::System::Int32
 	{

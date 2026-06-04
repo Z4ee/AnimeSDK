@@ -9,13 +9,13 @@ namespace RPG::GameCore { class CurveShakeConfig; }
 namespace RPG::GameCore { class ShakeDistanceAttenuation; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERASHAKEV2_METHOD_2_0980E9137C00FA4C_OFFSET UNITYSDK_OFFSET(0x190E9FB0)
-#define RPG_GAMECORE_VCAMERASHAKEV2_METHOD_2_5C01A218F6999A48_OFFSET UNITYSDK_OFFSET(0x190ECAD0)
-#define RPG_GAMECORE_VCAMERASHAKEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x190ECA70)
+#define RPG_GAMECORE_VCAMERASHAKEV2_METHOD_2_3064389B04516537_OFFSET UNITYSDK_OFFSET(0x19E3C550)
+#define RPG_GAMECORE_VCAMERASHAKEV2_METHOD_2_5C01A218F6999A48_OFFSET UNITYSDK_OFFSET(0x19E3F080)
+#define RPG_GAMECORE_VCAMERASHAKEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3F020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraShakeV2_TypeDefinitionIndex = 15534;
+	inline static constexpr unsigned int VCameraShakeV2_TypeDefinitionIndex = 15596;
 
 	class VCameraShakeV2 : public ::RPG::GameCore::JsonConfig
 	{
@@ -61,9 +61,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERASHAKEV2__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0980E9137C00FA4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraShakeV2*& a2)
+		static ::System::Void Method_2_3064389B04516537(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraShakeV2*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraShakeV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERASHAKEV2_METHOD_2_0980E9137C00FA4C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraShakeV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERASHAKEV2_METHOD_2_3064389B04516537_OFFSET))(a1, a2);
 		}
 
 		::RPG::GameCore::VCameraShakeV2* Method_2_5C01A218F6999A48()

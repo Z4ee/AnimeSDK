@@ -8,19 +8,19 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CUSTOMRP_PARAMTABLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x22B9590)
-#define RPG_CUSTOMRP_PARAMTABLE_DIFF_OFFSET UNITYSDK_OFFSET(0x22B9670)
-#define RPG_CUSTOMRP_PARAMTABLE_DUMP_OFFSET UNITYSDK_OFFSET(0x22B9600)
-#define RPG_CUSTOMRP_PARAMTABLE_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x22B9560)
-#define RPG_CUSTOMRP_PARAMTABLE_NEW_OFFSET UNITYSDK_OFFSET(0x18144EF0)
-#define RPG_CUSTOMRP_PARAMTABLE_OUTPUTASDIFF_OFFSET UNITYSDK_OFFSET(0x22B9610)
-#define RPG_CUSTOMRP_PARAMTABLE_SETPARAM_OFFSET UNITYSDK_OFFSET(0x22B94E0)
-#define RPG_CUSTOMRP_PARAMTABLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22B9620)
-#define RPG_CUSTOMRP_PARAMTABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x22B9550)
+#define RPG_CUSTOMRP_PARAMTABLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x384A640)
+#define RPG_CUSTOMRP_PARAMTABLE_DIFF_OFFSET UNITYSDK_OFFSET(0x384A710)
+#define RPG_CUSTOMRP_PARAMTABLE_DUMP_OFFSET UNITYSDK_OFFSET(0x384A6A0)
+#define RPG_CUSTOMRP_PARAMTABLE_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x384A610)
+#define RPG_CUSTOMRP_PARAMTABLE_NEW_OFFSET UNITYSDK_OFFSET(0x18EEAF90)
+#define RPG_CUSTOMRP_PARAMTABLE_OUTPUTASDIFF_OFFSET UNITYSDK_OFFSET(0x384A6B0)
+#define RPG_CUSTOMRP_PARAMTABLE_SETPARAM_OFFSET UNITYSDK_OFFSET(0x384A590)
+#define RPG_CUSTOMRP_PARAMTABLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x384A6C0)
+#define RPG_CUSTOMRP_PARAMTABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x384A600)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ParamTable_TypeDefinitionIndex = 35294;
+	inline static constexpr unsigned int ParamTable_TypeDefinitionIndex = 35594;
 
 	struct alignas(8) ParamTable
 	{
@@ -31,14 +31,14 @@ namespace RPG::CustomRP
 			return ((::RPG::CustomRP::ParamTable(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_NEW_OFFSET))();
 		}
 
-		::System::Void SetParam(::System::String* name, ::System::Object* value)
+		::System::Void SetParam(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_SETPARAM_OFFSET))(this, name, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_SETPARAM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Update(::RPG::CustomRP::ParamTable param)
+		::System::Void Update(::RPG::CustomRP::ParamTable a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::ParamTable))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_UPDATE_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::ParamTable))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_UPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Empty()
@@ -66,9 +66,9 @@ namespace RPG::CustomRP
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void Diff(::RPG::CustomRP::ParamTable& rhs, ::RPG::CustomRP::ParamTable& diff_this, ::RPG::CustomRP::ParamTable& diff_rhs)
+		::System::Void Diff(::RPG::CustomRP::ParamTable& a1, ::RPG::CustomRP::ParamTable& a2, ::RPG::CustomRP::ParamTable& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::ParamTable&, ::RPG::CustomRP::ParamTable&, ::RPG::CustomRP::ParamTable&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_DIFF_OFFSET))(this, rhs, diff_this, diff_rhs);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::ParamTable&, ::RPG::CustomRP::ParamTable&, ::RPG::CustomRP::ParamTable&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_DIFF_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

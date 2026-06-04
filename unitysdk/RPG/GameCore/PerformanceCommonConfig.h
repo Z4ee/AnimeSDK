@@ -8,12 +8,12 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class PerformanceIDPair; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG_METHOD_2_3415CFE83DD684A1_OFFSET UNITYSDK_OFFSET(0x18BDE240)
-#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDE950)
+#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG_METHOD_2_D66C438B4C0E021E_OFFSET UNITYSDK_OFFSET(0x199F0380)
+#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199F0A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceCommonConfig_TypeDefinitionIndex = 18062;
+	inline static constexpr unsigned int PerformanceCommonConfig_TypeDefinitionIndex = 18086;
 
 	class PerformanceCommonConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -41,9 +41,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCECOMMONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3415CFE83DD684A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceCommonConfig*& a2)
+		static ::System::Void Method_2_D66C438B4C0E021E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceCommonConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceCommonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCECOMMONCONFIG_METHOD_2_3415CFE83DD684A1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceCommonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCECOMMONCONFIG_METHOD_2_D66C438B4C0E021E_OFFSET))(a1, a2);
 		}
 	};
 }

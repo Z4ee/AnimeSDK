@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class SomatoCommonCameraConfig; }
 
-#define CLASS_1_80CE1F3AD61937D0__CTOR_OFFSET UNITYSDK_OFFSET(0x1248D400)
+#define CLASS_1_80CE1F3AD61937D0__CTOR_OFFSET UNITYSDK_OFFSET(0xAEDBAA0)
 
-inline static constexpr unsigned int Class_1_80CE1F3AD61937D0_TypeDefinitionIndex = 52069;
+inline static constexpr unsigned int Class_1_80CE1F3AD61937D0_TypeDefinitionIndex = 52743;
 
 class Class_1_80CE1F3AD61937D0 : public ::System::Object
 {

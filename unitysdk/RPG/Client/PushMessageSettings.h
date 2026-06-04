@@ -4,24 +4,24 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PUSHMESSAGESETTINGS_GET_ENABLEPUSHEXPEDITIONFINISH_OFFSET UNITYSDK_OFFSET(0xAF2C960)
-#define RPG_CLIENT_PUSHMESSAGESETTINGS_GET_ENABLEPUSHSTAMINAFULL_OFFSET UNITYSDK_OFFSET(0xAF2C820)
-#define RPG_CLIENT_PUSHMESSAGESETTINGS_SET_ENABLEPUSHEXPEDITIONFINISH_OFFSET UNITYSDK_OFFSET(0xAF2CA00)
-#define RPG_CLIENT_PUSHMESSAGESETTINGS_SET_ENABLEPUSHSTAMINAFULL_OFFSET UNITYSDK_OFFSET(0xAF2C8C0)
-#define RPG_CLIENT_PUSHMESSAGESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xAF2C760)
+#define RPG_CLIENT_PUSHMESSAGESETTINGS_GET_ENABLEPUSHEXPEDITIONFINISH_OFFSET UNITYSDK_OFFSET(0xC672300)
+#define RPG_CLIENT_PUSHMESSAGESETTINGS_GET_ENABLEPUSHSTAMINAFULL_OFFSET UNITYSDK_OFFSET(0xC6721C0)
+#define RPG_CLIENT_PUSHMESSAGESETTINGS_SET_ENABLEPUSHEXPEDITIONFINISH_OFFSET UNITYSDK_OFFSET(0xC6723A0)
+#define RPG_CLIENT_PUSHMESSAGESETTINGS_SET_ENABLEPUSHSTAMINAFULL_OFFSET UNITYSDK_OFFSET(0xC672260)
+#define RPG_CLIENT_PUSHMESSAGESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xC672100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PushMessageSettings_TypeDefinitionIndex = 54759;
+	inline static constexpr unsigned int PushMessageSettings_TypeDefinitionIndex = 55486;
 
 	class PushMessageSettings : public ::RPG::Client::PrefGroup
 	{
 	public:
 		::System::Boolean _DefalutSwitch; // 0x20
 
-		::System::Void _ctor(::System::String* name)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUSHMESSAGESETTINGS__CTOR_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUSHMESSAGESETTINGS__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_EnablePushStaminaFull()
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUSHMESSAGESETTINGS_GET_ENABLEPUSHSTAMINAFULL_OFFSET))(this);
 		}
 
-		::System::Void set_EnablePushStaminaFull(::System::Boolean value)
+		::System::Void set_EnablePushStaminaFull(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUSHMESSAGESETTINGS_SET_ENABLEPUSHSTAMINAFULL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUSHMESSAGESETTINGS_SET_ENABLEPUSHSTAMINAFULL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_EnablePushExpeditionFinish()
@@ -39,9 +39,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUSHMESSAGESETTINGS_GET_ENABLEPUSHEXPEDITIONFINISH_OFFSET))(this);
 		}
 
-		::System::Void set_EnablePushExpeditionFinish(::System::Boolean value)
+		::System::Void set_EnablePushExpeditionFinish(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUSHMESSAGESETTINGS_SET_ENABLEPUSHEXPEDITIONFINISH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUSHMESSAGESETTINGS_SET_ENABLEPUSHEXPEDITIONFINISH_OFFSET))(this, a1);
 		}
 	};
 }

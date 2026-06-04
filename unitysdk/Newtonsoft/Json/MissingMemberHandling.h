@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int MissingMemberHandling_TypeDefinitionIndex = 8369;
+	inline static constexpr unsigned int MissingMemberHandling_TypeDefinitionIndex = 9272;
 
 	enum class MissingMemberHandling : ::System::Int32
 	{

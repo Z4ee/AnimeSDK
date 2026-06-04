@@ -6,11 +6,11 @@ namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 namespace System { class Exception; }
 
-#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x9741430)
-#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0x9741450)
-#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9740C60)
+#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x136A4530)
+#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0x136A4550)
+#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x136A3CF0)
 
-inline static constexpr unsigned int Class_1_4F9AC8D6A424FAE5___c__DisplayClass1_0_TypeDefinitionIndex = 71892;
+inline static constexpr unsigned int Class_1_4F9AC8D6A424FAE5___c__DisplayClass1_0_TypeDefinitionIndex = 72914;
 
 class Class_1_4F9AC8D6A424FAE5___c__DisplayClass1_0 : public ::System::Object
 {
@@ -28,8 +28,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CREATE_B__0_OFFSET))(this);
 	}
 
-	::System::Void _Create_b__1(::System::Exception* exception)
+	::System::Void _Create_b__1(::System::Exception* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CREATE_B__1_OFFSET))(this, exception);
+		return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CREATE_B__1_OFFSET))(this, a1);
 	}
 };

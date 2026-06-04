@@ -7,15 +7,15 @@
 namespace System { class Object; }
 namespace UnityEngine { class Animator; }
 
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB892ED0)
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB892C30)
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xB892F70)
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB892FD0)
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB892F80)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xCFD76D0)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xCFD7430)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xCFD7770)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xCFD77D0)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xCFD7780)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorEnableControlMixer_TypeDefinitionIndex = 44942;
+	inline static constexpr unsigned int AnimatorEnableControlMixer_TypeDefinitionIndex = 45490;
 
 	class AnimatorEnableControlMixer : public ::RPGTools::Timeline::OverrideTransformMixer
 	{
@@ -37,14 +37,14 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLMIXER___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 	};
 }

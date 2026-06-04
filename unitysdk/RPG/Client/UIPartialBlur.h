@@ -8,26 +8,27 @@ namespace RPG::Client { class UIMeta; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_UIPARTIALBLUR_GET_RECTTRANS_OFFSET UNITYSDK_OFFSET(0xB4275B0)
-#define RPG_CLIENT_UIPARTIALBLUR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB427760)
-#define RPG_CLIENT_UIPARTIALBLUR_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB427630)
-#define RPG_CLIENT_UIPARTIALBLUR_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0xB427820)
-#define RPG_CLIENT_UIPARTIALBLUR_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0xB427870)
-#define RPG_CLIENT_UIPARTIALBLUR_PROCREGISTEREDUIPARTIALBLUR_OFFSET UNITYSDK_OFFSET(0xB4270B0)
-#define RPG_CLIENT_UIPARTIALBLUR_TRYGETUIMETA_OFFSET UNITYSDK_OFFSET(0xB4272A0)
-#define RPG_CLIENT_UIPARTIALBLUR__CCTOR_OFFSET UNITYSDK_OFFSET(0xB4278D0)
-#define RPG_CLIENT_UIPARTIALBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB4278C0)
+#define RPG_CLIENT_UIPARTIALBLUR_GET_RECTTRANS_OFFSET UNITYSDK_OFFSET(0xCB6E240)
+#define RPG_CLIENT_UIPARTIALBLUR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCB87960)
+#define RPG_CLIENT_UIPARTIALBLUR_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCB877D0)
+#define RPG_CLIENT_UIPARTIALBLUR_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0xCB87A20)
+#define RPG_CLIENT_UIPARTIALBLUR_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0xCB87A70)
+#define RPG_CLIENT_UIPARTIALBLUR_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0xCB87AC0)
+#define RPG_CLIENT_UIPARTIALBLUR_PROCREGISTEREDUIPARTIALBLUR_OFFSET UNITYSDK_OFFSET(0xCB872C0)
+#define RPG_CLIENT_UIPARTIALBLUR_TRYGETUIMETA_OFFSET UNITYSDK_OFFSET(0xCB874B0)
+#define RPG_CLIENT_UIPARTIALBLUR__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB87C70)
+#define RPG_CLIENT_UIPARTIALBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCB87C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPartialBlur_TypeDefinitionIndex = 67295;
+	inline static constexpr unsigned int UIPartialBlur_TypeDefinitionIndex = 68247;
 
 	class UIPartialBlur : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::Client::UIPartialBlur*>** StaticGet_RegisterUIPartialBlur()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::UIPartialBlur*>**)Il2CppClass::FromTypeDefinitionIndex(UIPartialBlur_TypeDefinitionIndex)->GetStaticField(0x31320);
+			return (::System::Collections::Generic::List_1<::RPG::Client::UIPartialBlur*>**)Il2CppClass::FromTypeDefinitionIndex(UIPartialBlur_TypeDefinitionIndex)->GetStaticField(0x60550);
 		}
 		::RPG::Client::UIPartialBlur_ShapeType Shape; // 0x18
 		::RPG::Client::UIPartialBlur_UnitType RectRoundType; // 0x1C
@@ -78,9 +79,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARTIALBLUR_ONLIGHTWEIGHTDEACTIVATE_OFFSET))(this);
 		}
 
-		::System::Boolean TryGetUIMeta(::RPG::Client::UIMeta*& uiMeta)
+		::System::Void OnTransformParentChanged()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::UIMeta*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARTIALBLUR_TRYGETUIMETA_OFFSET))(this, uiMeta);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARTIALBLUR_ONTRANSFORMPARENTCHANGED_OFFSET))(this);
+		}
+
+		::System::Boolean TryGetUIMeta(::RPG::Client::UIMeta*& a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::UIMeta*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARTIALBLUR_TRYGETUIMETA_OFFSET))(this, a1);
 		}
 	};
 }

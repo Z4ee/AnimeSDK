@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_INIT_OFFSET UNITYSDK_OFFSET(0xE2220)
-#define RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_SETSCORE_OFFSET UNITYSDK_OFFSET(0xE22E0)
-#define RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_UNIONSTATE_OFFSET UNITYSDK_OFFSET(0xE2340)
+#define RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_INIT_OFFSET UNITYSDK_OFFSET(0x147CB0)
+#define RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_SETSCORE_OFFSET UNITYSDK_OFFSET(0x147D70)
+#define RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_UNIONSTATE_OFFSET UNITYSDK_OFFSET(0x147DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerLockTargetComponent_EntityLockInfo_TypeDefinitionIndex = 53155;
+	inline static constexpr unsigned int PlayerLockTargetComponent_EntityLockInfo_TypeDefinitionIndex = 53865;
 
 	struct alignas(8) PlayerLockTargetComponent_EntityLockInfo
 	{
@@ -22,19 +22,19 @@ namespace RPG::GameCore
 		::RPG::GameCore::EMazeLockTargetState lockState; // 0x20
 		::UnityEngine::Transform* SelectTransform; // 0x28
 
-		::System::Void Init(::System::UInt32 runtimeID, ::System::Single distance, ::System::Single angle, ::System::Single score, ::UnityEngine::Transform* selectTransform)
+		::System::Void Init(::System::UInt32 a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::Transform* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_INIT_OFFSET))(this, runtimeID, distance, angle, score, selectTransform);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_INIT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void SetScore(::System::Single score)
+		::System::Void SetScore(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_SETSCORE_OFFSET))(this, score);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_SETSCORE_OFFSET))(this, a1);
 		}
 
-		::System::Void UnionState(::RPG::GameCore::EMazeLockTargetState newState)
+		::System::Void UnionState(::RPG::GameCore::EMazeLockTargetState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EMazeLockTargetState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_UNIONSTATE_OFFSET))(this, newState);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EMazeLockTargetState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERLOCKTARGETCOMPONENT_ENTITYLOCKINFO_UNIONSTATE_OFFSET))(this, a1);
 		}
 	};
 }

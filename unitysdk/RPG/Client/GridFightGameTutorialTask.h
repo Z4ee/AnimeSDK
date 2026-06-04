@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_360;
+class Class_1_D17272E82AE804C2_373;
 namespace RPG::Client { class GridFightTaskConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0xA4E8140)
-#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_GET_TASKCONFIG_OFFSET UNITYSDK_OFFSET(0xA4E8130)
-#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_GET_TASKID_OFFSET UNITYSDK_OFFSET(0xA4E8120)
-#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0xA4E8150)
-#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_SYNC_OFFSET UNITYSDK_OFFSET(0xA4E80C0)
-#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xA4E8040)
+#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0xBB8E8F0)
+#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_GET_TASKCONFIG_OFFSET UNITYSDK_OFFSET(0xBB8E8E0)
+#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_GET_TASKID_OFFSET UNITYSDK_OFFSET(0xBB8E8D0)
+#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0xBB8E900)
+#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_SYNC_OFFSET UNITYSDK_OFFSET(0xBB8E870)
+#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xBB8E7F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameTutorialTask_TypeDefinitionIndex = 60305;
+	inline static constexpr unsigned int GridFightGameTutorialTask_TypeDefinitionIndex = 61240;
 
 	class GridFightGameTutorialTask : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace RPG::Client
 		::System::UInt32 _Progress_k__BackingField; // 0x18
 		::System::UInt32 _TaskID_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 taskID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK__CTOR_OFFSET))(this, taskID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void Sync(::Class_1_D17272E82AE804C2_360* serverData)
+		::System::Void Sync(::Class_1_D17272E82AE804C2_373* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_360*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_SYNC_OFFSET))(this, serverData);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_373*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_SYNC_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TaskID()
@@ -48,9 +48,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_GET_PROGRESS_OFFSET))(this);
 		}
 
-		::System::Void set_Progress(::System::UInt32 value)
+		::System::Void set_Progress(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_SET_PROGRESS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETUTORIALTASK_SET_PROGRESS_OFFSET))(this, a1);
 		}
 	};
 }

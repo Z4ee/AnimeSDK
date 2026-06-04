@@ -5,17 +5,17 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_51D2F3AA516BB153_CLEAR_OFFSET UNITYSDK_OFFSET(0xAA43140)
-#define CLASS_1_51D2F3AA516BB153_METHOD_1_D15377D43DB8B379_OFFSET UNITYSDK_OFFSET(0xAA430D0)
-#define CLASS_1_51D2F3AA516BB153__CTOR_OFFSET UNITYSDK_OFFSET(0xAA43190)
+#define CLASS_1_51D2F3AA516BB153_CLEAR_OFFSET UNITYSDK_OFFSET(0xAB6D9C0)
+#define CLASS_1_51D2F3AA516BB153_METHOD_1_D15377D43DB8B379_OFFSET UNITYSDK_OFFSET(0xAB6D950)
+#define CLASS_1_51D2F3AA516BB153__CTOR_OFFSET UNITYSDK_OFFSET(0xAB6DA10)
 
-inline static constexpr unsigned int Class_1_51D2F3AA516BB153_TypeDefinitionIndex = 49642;
+inline static constexpr unsigned int Class_1_51D2F3AA516BB153_TypeDefinitionIndex = 50309;
 
 class Class_1_51D2F3AA516BB153 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_1; // 0x10
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x18
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
+	::RPG::GameCore::GameEntity* Field_1_1; // 0x18
 	::RPG::GameCore::FixPoint Field_1_2; // 0x20
 
 	::System::Void _ctor()

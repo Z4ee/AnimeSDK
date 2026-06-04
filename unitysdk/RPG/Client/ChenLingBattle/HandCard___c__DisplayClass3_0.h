@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class ChenLingGridOffset; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA77B0)
-#define RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0__ISINEFFECTGRID_B__0_OFFSET UNITYSDK_OFFSET(0x9FA79C0)
+#define RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C1050)
+#define RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0__ISINEFFECTGRID_B__0_OFFSET UNITYSDK_OFFSET(0xB5C1290)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int HandCard___c__DisplayClass3_0_TypeDefinitionIndex = 70127;
+	inline static constexpr unsigned int HandCard___c__DisplayClass3_0_TypeDefinitionIndex = 70939;
 
 	class HandCard___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _IsInEffectGrid_b__0(::RPG::GameCore::ChenLingGridOffset* x)
+		::System::Boolean _IsInEffectGrid_b__0(::RPG::GameCore::ChenLingGridOffset* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChenLingGridOffset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0__ISINEFFECTGRID_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChenLingGridOffset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0__ISINEFFECTGRID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

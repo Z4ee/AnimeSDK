@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OverrideFloorDefaultEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9D04533D43D6C1AF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAC4DB0)
-#define CLASS_3_9D04533D43D6C1AF__CTOR_OFFSET UNITYSDK_OFFSET(0xBAC4D80)
+#define CLASS_3_9D04533D43D6C1AF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1398C780)
+#define CLASS_3_9D04533D43D6C1AF__CTOR_OFFSET UNITYSDK_OFFSET(0x1398C750)
 
-inline static constexpr unsigned int Class_3_9D04533D43D6C1AF_TypeDefinitionIndex = 53717;
+inline static constexpr unsigned int Class_3_9D04533D43D6C1AF_TypeDefinitionIndex = 54440;
 
 class Class_3_9D04533D43D6C1AF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OverrideFloorDefaultEmotion*>
 {

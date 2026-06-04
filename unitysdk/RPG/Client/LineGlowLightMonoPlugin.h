@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_4_7A7C347073596B39_LineGlowBlendingMode.h"
+#include "unitysdk/Class_4_E87F0EF9CD288BB9_LineGlowBlendingMode.h"
 #include "unitysdk/RPG/Client/LineGlowLightMonoPlugin_MaskChannle.h"
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/ScenenLightManager/SceneManagedLightTAMonoPluginBase_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-class Class_4_7A7C347073596B39;
+class Class_4_E87F0EF9CD288BB9;
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN_SETTSC_OFFSET UNITYSDK_OFFSET(0xA6719A0)
-#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA671A20)
+#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN_SETTSC_OFFSET UNITYSDK_OFFSET(0xBDBC2A0)
+#define RPG_CLIENT_LINEGLOWLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xBDBC320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LineGlowLightMonoPlugin_TypeDefinitionIndex = 65278;
+	inline static constexpr unsigned int LineGlowLightMonoPlugin_TypeDefinitionIndex = 66205;
 
-	class LineGlowLightMonoPlugin : public ::ScenenLightManager::SceneManagedLightTAMonoPluginBase_1<::Class_4_7A7C347073596B39*>
+	class LineGlowLightMonoPlugin : public ::ScenenLightManager::SceneManagedLightTAMonoPluginBase_1<::Class_4_E87F0EF9CD288BB9*>
 	{
 	public:
 		::UnityEngine::Color Color; // 0x30
@@ -29,7 +29,7 @@ namespace RPG::Client
 		::System::Single Deform; // 0x54
 		::System::Single FarDistanceFade; // 0x58
 		::RPG::Client::LineGlowLightMonoPlugin_MaskChannle Channle; // 0x5C
-		::Class_4_7A7C347073596B39_LineGlowBlendingMode BlendingMode; // 0x60
+		::Class_4_E87F0EF9CD288BB9_LineGlowBlendingMode BlendingMode; // 0x60
 		::RPG::CustomRP::CustomLightQualityFilter LightQualityFilter; // 0x64
 		::System::Int32 LightQualityVersion; // 0x68
 		::System::String* CustomMatPath; // 0x70

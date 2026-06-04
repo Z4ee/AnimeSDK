@@ -8,53 +8,53 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_DESTROY_OFFSET UNITYSDK_OFFSET(0x1A48EF40)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A48EFA0)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_GETSELECTION_OFFSET UNITYSDK_OFFSET(0x1A48F4D0)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1A48F440)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_CANGETSELECTION_OFFSET UNITYSDK_OFFSET(0x1A48F480)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_CANSETSELECTION_OFFSET UNITYSDK_OFFSET(0x1A48F490)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_DISABLEINPLACEEDITING_OFFSET UNITYSDK_OFFSET(0x1A48F190)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_ISINPLACEEDITINGALLOWED_OFFSET UNITYSDK_OFFSET(0x1A48F1D0)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_ISREQUIREDTOFORCEOPEN_OFFSET UNITYSDK_OFFSET(0x1A48F200)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_ISSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1A48F130)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_SELECTION_OFFSET UNITYSDK_OFFSET(0x1A48F4A0)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x1A48F460)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1A48F410)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_INTERNAL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1A48EF30)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_ISREQUIREDTOFORCEOPEN_OFFSET UNITYSDK_OFFSET(0x1A48F210)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_OPEN_1_OFFSET UNITYSDK_OFFSET(0x1A48F320)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_OPEN_OFFSET UNITYSDK_OFFSET(0x1A48F220)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_SETSELECTION_OFFSET UNITYSDK_OFFSET(0x1A48F580)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_SET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1A48F450)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_SET_CHARACTERLIMIT_OFFSET UNITYSDK_OFFSET(0x1A48F470)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_SET_HIDEINPUT_OFFSET UNITYSDK_OFFSET(0x1A48F430)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_SET_SELECTION_OFFSET UNITYSDK_OFFSET(0x1A48F4E0)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1A48F420)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD_TOUCHSCREENKEYBOARD_INTERNALCONSTRUCTORHELPER_OFFSET UNITYSDK_OFFSET(0x1A48F120)
-#define UNITYENGINE_TOUCHSCREENKEYBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A48F050)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_DESTROY_OFFSET UNITYSDK_OFFSET(0x1B2DFA30)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B2DFAC0)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_GETSELECTION_OFFSET UNITYSDK_OFFSET(0x1B2DFFD0)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1B2DFF40)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_CANGETSELECTION_OFFSET UNITYSDK_OFFSET(0x1B2DFF80)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_CANSETSELECTION_OFFSET UNITYSDK_OFFSET(0x1B2DFF90)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_DISABLEINPLACEEDITING_OFFSET UNITYSDK_OFFSET(0x1B2DFCE0)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_ISINPLACEEDITINGALLOWED_OFFSET UNITYSDK_OFFSET(0x1B2DFCF0)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_ISREQUIREDTOFORCEOPEN_OFFSET UNITYSDK_OFFSET(0x1B2DFD00)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_ISSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1B2DFC80)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_SELECTION_OFFSET UNITYSDK_OFFSET(0x1B2DFFA0)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x1B2DFF60)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1B2DFF10)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_INTERNAL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1B2DFA20)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_ISREQUIREDTOFORCEOPEN_OFFSET UNITYSDK_OFFSET(0x1B2DFD10)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_OPEN_1_OFFSET UNITYSDK_OFFSET(0x1B2DFE20)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_OPEN_OFFSET UNITYSDK_OFFSET(0x1B2DFD20)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_SETSELECTION_OFFSET UNITYSDK_OFFSET(0x1B2E0090)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_SET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1B2DFF50)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_SET_CHARACTERLIMIT_OFFSET UNITYSDK_OFFSET(0x1B2DFF70)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_SET_HIDEINPUT_OFFSET UNITYSDK_OFFSET(0x1B2DFF30)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_SET_SELECTION_OFFSET UNITYSDK_OFFSET(0x1B2DFFE0)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1B2DFF20)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD_TOUCHSCREENKEYBOARD_INTERNALCONSTRUCTORHELPER_OFFSET UNITYSDK_OFFSET(0x1B2DFC70)
+#define UNITYENGINE_TOUCHSCREENKEYBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2DFBA0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TouchScreenKeyboard_TypeDefinitionIndex = 4205;
+	inline static constexpr unsigned int TouchScreenKeyboard_TypeDefinitionIndex = 4379;
 
 	class TouchScreenKeyboard : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet__disableInPlaceEditing_k__BackingField()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TouchScreenKeyboard_TypeDefinitionIndex)->GetStaticField(0x6090);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TouchScreenKeyboard_TypeDefinitionIndex)->GetStaticField(0xA9E0);
 		}
 		::System::IntPtr m_Ptr; // 0x10
 
-		::System::Void _ctor(::System::String* text, ::UnityEngine::TouchScreenKeyboardType keyboardType, ::System::Boolean autocorrection, ::System::Boolean multiline, ::System::Boolean secure, ::System::Boolean alert, ::System::String* textPlaceholder, ::System::Int32 characterLimit)
+		::System::Void _ctor(::System::String* a1, ::UnityEngine::TouchScreenKeyboardType a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::String* a7, ::System::Int32 a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::TouchScreenKeyboardType, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD__CTOR_OFFSET))(this, text, keyboardType, autocorrection, multiline, secure, alert, textPlaceholder, characterLimit);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::TouchScreenKeyboardType, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Void Internal_Destroy(::System::IntPtr ptr)
+		static ::System::Void Internal_Destroy(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_INTERNAL_DESTROY_OFFSET))(ptr);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_INTERNAL_DESTROY_OFFSET))(a1);
 		}
 
 		::System::Void Destroy()
@@ -67,9 +67,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_FINALIZE_OFFSET))(this);
 		}
 
-		static ::System::IntPtr TouchScreenKeyboard_InternalConstructorHelper(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments& arguments, ::System::String* text, ::System::String* textPlaceholder)
+		static ::System::IntPtr TouchScreenKeyboard_InternalConstructorHelper(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments& a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::IntPtr(*)(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments&, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_TOUCHSCREENKEYBOARD_INTERNALCONSTRUCTORHELPER_OFFSET))(arguments, text, textPlaceholder);
+			return ((::System::IntPtr(*)(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments&, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_TOUCHSCREENKEYBOARD_INTERNALCONSTRUCTORHELPER_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Boolean get_isSupported()
@@ -97,14 +97,14 @@ namespace UnityEngine
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_ISREQUIREDTOFORCEOPEN_OFFSET))();
 		}
 
-		static ::UnityEngine::TouchScreenKeyboard* Open(::System::String* text, ::UnityEngine::TouchScreenKeyboardType keyboardType, ::System::Boolean autocorrection, ::System::Boolean multiline, ::System::Boolean secure, ::System::Boolean alert, ::System::String* textPlaceholder, ::System::Int32 characterLimit)
+		static ::UnityEngine::TouchScreenKeyboard* Open(::System::String* a1, ::UnityEngine::TouchScreenKeyboardType a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::String* a7, ::System::Int32 a8)
 		{
-			return ((::UnityEngine::TouchScreenKeyboard*(*)(::System::String*, ::UnityEngine::TouchScreenKeyboardType, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_OPEN_OFFSET))(text, keyboardType, autocorrection, multiline, secure, alert, textPlaceholder, characterLimit);
+			return ((::UnityEngine::TouchScreenKeyboard*(*)(::System::String*, ::UnityEngine::TouchScreenKeyboardType, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_OPEN_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::UnityEngine::TouchScreenKeyboard* Open_1(::System::String* text, ::UnityEngine::TouchScreenKeyboardType keyboardType, ::System::Boolean autocorrection, ::System::Boolean multiline, ::System::Boolean secure)
+		static ::UnityEngine::TouchScreenKeyboard* Open_1(::System::String* a1, ::UnityEngine::TouchScreenKeyboardType a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::UnityEngine::TouchScreenKeyboard*(*)(::System::String*, ::UnityEngine::TouchScreenKeyboardType, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_OPEN_1_OFFSET))(text, keyboardType, autocorrection, multiline, secure);
+			return ((::UnityEngine::TouchScreenKeyboard*(*)(::System::String*, ::UnityEngine::TouchScreenKeyboardType, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_OPEN_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::String* get_text()
@@ -112,14 +112,14 @@ namespace UnityEngine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_GET_TEXT_OFFSET))(this);
 		}
 
-		::System::Void set_text(::System::String* value)
+		::System::Void set_text(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SET_TEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SET_TEXT_OFFSET))(this, a1);
 		}
 
-		static ::System::Void set_hideInput(::System::Boolean value)
+		static ::System::Void set_hideInput(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SET_HIDEINPUT_OFFSET))(value);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SET_HIDEINPUT_OFFSET))(a1);
 		}
 
 		::System::Boolean get_active()
@@ -127,9 +127,9 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_GET_ACTIVE_OFFSET))(this);
 		}
 
-		::System::Void set_active(::System::Boolean value)
+		::System::Void set_active(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SET_ACTIVE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SET_ACTIVE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::TouchScreenKeyboard_Status get_status()
@@ -137,9 +137,9 @@ namespace UnityEngine
 			return ((::UnityEngine::TouchScreenKeyboard_Status(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_GET_STATUS_OFFSET))(this);
 		}
 
-		::System::Void set_characterLimit(::System::Int32 value)
+		::System::Void set_characterLimit(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SET_CHARACTERLIMIT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SET_CHARACTERLIMIT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_canGetSelection()
@@ -157,19 +157,19 @@ namespace UnityEngine
 			return ((::UnityEngine::RangeInt(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_GET_SELECTION_OFFSET))(this);
 		}
 
-		::System::Void set_selection(::UnityEngine::RangeInt value)
+		::System::Void set_selection(::UnityEngine::RangeInt a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RangeInt))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SET_SELECTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RangeInt))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SET_SELECTION_OFFSET))(this, a1);
 		}
 
-		static ::System::Void GetSelection(::System::Int32& start, ::System::Int32& length)
+		static ::System::Void GetSelection(::System::Int32& a1, ::System::Int32& a2)
 		{
-			return ((::System::Void(*)(::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_GETSELECTION_OFFSET))(start, length);
+			return ((::System::Void(*)(::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_GETSELECTION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetSelection(::System::Int32 start, ::System::Int32 length)
+		static ::System::Void SetSelection(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SETSELECTION_OFFSET))(start, length);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TOUCHSCREENKEYBOARD_SETSELECTION_OFFSET))(a1, a2);
 		}
 	};
 }

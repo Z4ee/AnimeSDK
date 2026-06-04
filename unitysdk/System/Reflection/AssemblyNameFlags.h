@@ -3,7 +3,7 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyNameFlags_TypeDefinitionIndex = 551;
+	inline static constexpr unsigned int AssemblyNameFlags_TypeDefinitionIndex = 550;
 
 	enum class AssemblyNameFlags : ::System::Int32
 	{

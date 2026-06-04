@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LodDetail; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NORMDISTANCELODTEMPLATE_METHOD_2_4226E95EB4FA39D1_OFFSET UNITYSDK_OFFSET(0x18B80180)
-#define RPG_GAMECORE_NORMDISTANCELODTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B804D0)
+#define RPG_GAMECORE_NORMDISTANCELODTEMPLATE_METHOD_2_33CDAC60D40CD452_OFFSET UNITYSDK_OFFSET(0x199CEE00)
+#define RPG_GAMECORE_NORMDISTANCELODTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x199CF150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NormDistanceLodTemplate_TypeDefinitionIndex = 18246;
+	inline static constexpr unsigned int NormDistanceLodTemplate_TypeDefinitionIndex = 18221;
 
 	class NormDistanceLodTemplate : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NORMDISTANCELODTEMPLATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4226E95EB4FA39D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NormDistanceLodTemplate*& a2)
+		static ::System::Void Method_2_33CDAC60D40CD452(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NormDistanceLodTemplate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NormDistanceLodTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NORMDISTANCELODTEMPLATE_METHOD_2_4226E95EB4FA39D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NormDistanceLodTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NORMDISTANCELODTEMPLATE_METHOD_2_33CDAC60D40CD452_OFFSET))(a1, a2);
 		}
 	};
 }

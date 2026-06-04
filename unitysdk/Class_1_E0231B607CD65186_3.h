@@ -5,10 +5,10 @@
 class Class_1_C2DA6D48CD9206BB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E0231B607CD65186_3_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x17F2E490)
-#define CLASS_1_E0231B607CD65186_3__CTOR_OFFSET UNITYSDK_OFFSET(0x17F2E510)
+#define CLASS_1_E0231B607CD65186_3_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x18CE5B30)
+#define CLASS_1_E0231B607CD65186_3__CTOR_OFFSET UNITYSDK_OFFSET(0x18CE5BD0)
 
-inline static constexpr unsigned int Class_1_E0231B607CD65186_3_TypeDefinitionIndex = 38073;
+inline static constexpr unsigned int Class_1_E0231B607CD65186_3_TypeDefinitionIndex = 38814;
 
 class Class_1_E0231B607CD65186_3 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E0231B607CD65186_3__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_A239DF324AF4215D()
+	::System::Void Method_1_B1936CE4DA97AA45()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E0231B607CD65186_3_METHOD_1_A239DF324AF4215D_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E0231B607CD65186_3_METHOD_1_B1936CE4DA97AA45_OFFSET))(this);
 	}
 };

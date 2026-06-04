@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int SurfaceBorderType_TypeDefinitionIndex = 39190;
+	inline static constexpr unsigned int SurfaceBorderType_TypeDefinitionIndex = 39959;
 
 	enum class SurfaceBorderType : ::System::Int32
 	{

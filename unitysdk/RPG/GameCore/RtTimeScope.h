@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtTimeScope_TypeDefinitionIndex = 16744;
+	inline static constexpr unsigned int RtTimeScope_TypeDefinitionIndex = 16765;
 
 	enum class RtTimeScope : ::System::Int32
 	{

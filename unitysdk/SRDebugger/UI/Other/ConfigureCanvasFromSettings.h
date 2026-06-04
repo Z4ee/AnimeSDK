@@ -8,14 +8,14 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine::UI { class CanvasScaler; }
 
-#define SRDEBUGGER_UI_OTHER_CONFIGURECANVASFROMSETTINGS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19E94660)
-#define SRDEBUGGER_UI_OTHER_CONFIGURECANVASFROMSETTINGS_SETTINGSONPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x19E94720)
-#define SRDEBUGGER_UI_OTHER_CONFIGURECANVASFROMSETTINGS_START_OFFSET UNITYSDK_OFFSET(0x19E943C0)
-#define SRDEBUGGER_UI_OTHER_CONFIGURECANVASFROMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19E94780)
+#define SRDEBUGGER_UI_OTHER_CONFIGURECANVASFROMSETTINGS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1AD0A2F0)
+#define SRDEBUGGER_UI_OTHER_CONFIGURECANVASFROMSETTINGS_SETTINGSONPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1AD0A3E0)
+#define SRDEBUGGER_UI_OTHER_CONFIGURECANVASFROMSETTINGS_START_OFFSET UNITYSDK_OFFSET(0x1AD0A030)
+#define SRDEBUGGER_UI_OTHER_CONFIGURECANVASFROMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0A440)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int ConfigureCanvasFromSettings_TypeDefinitionIndex = 35366;
+	inline static constexpr unsigned int ConfigureCanvasFromSettings_TypeDefinitionIndex = 35666;
 
 	class ConfigureCanvasFromSettings : public ::SRF::SRMonoBehaviour
 	{
@@ -41,9 +41,9 @@ namespace SRDebugger::UI::Other
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_CONFIGURECANVASFROMSETTINGS_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void SettingsOnPropertyChanged(::System::Object* sender, ::System::ComponentModel::PropertyChangedEventArgs* propertyChangedEventArgs)
+		::System::Void SettingsOnPropertyChanged(::System::Object* a1, ::System::ComponentModel::PropertyChangedEventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_CONFIGURECANVASFROMSETTINGS_SETTINGSONPROPERTYCHANGED_OFFSET))(this, sender, propertyChangedEventArgs);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_CONFIGURECANVASFROMSETTINGS_SETTINGSONPROPERTYCHANGED_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -5,26 +5,26 @@
 namespace System { class String; }
 namespace TapTap::Sdk { class LoginManager_OnLoginResult; }
 
-#define TAPTAP_SDK_LOGINMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A1BAD30)
-#define TAPTAP_SDK_LOGINMANAGER_LOGINWITHREADPERMISSIONS_OFFSET UNITYSDK_OFFSET(0x1A1BAF20)
-#define TAPTAP_SDK_LOGINMANAGER_LOGOUT_OFFSET UNITYSDK_OFFSET(0x1A1BB280)
-#define TAPTAP_SDK_LOGINMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1BB4F0)
-#define TAPTAP_SDK_LOGINMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1BAF10)
+#define TAPTAP_SDK_LOGINMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B01E460)
+#define TAPTAP_SDK_LOGINMANAGER_LOGINWITHREADPERMISSIONS_OFFSET UNITYSDK_OFFSET(0x1B01E650)
+#define TAPTAP_SDK_LOGINMANAGER_LOGOUT_OFFSET UNITYSDK_OFFSET(0x1B01E9C0)
+#define TAPTAP_SDK_LOGINMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B01EC30)
+#define TAPTAP_SDK_LOGINMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B01E640)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int LoginManager_TypeDefinitionIndex = 6461;
+	inline static constexpr unsigned int LoginManager_TypeDefinitionIndex = 7077;
 
 	class LoginManager : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_objlock()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LoginManager_TypeDefinitionIndex)->GetStaticField(0x4C0);
-		}
 		static ::TapTap::Sdk::LoginManager** StaticGet__instance()
 		{
-			return (::TapTap::Sdk::LoginManager**)Il2CppClass::FromTypeDefinitionIndex(LoginManager_TypeDefinitionIndex)->GetStaticField(0x4C8);
+			return (::TapTap::Sdk::LoginManager**)Il2CppClass::FromTypeDefinitionIndex(LoginManager_TypeDefinitionIndex)->GetStaticField(0x530);
+		}
+		static ::System::Object** StaticGet_objlock()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LoginManager_TypeDefinitionIndex)->GetStaticField(0x538);
 		}
 
 		::System::Void _ctor()
@@ -42,9 +42,9 @@ namespace TapTap::Sdk
 			return ((::TapTap::Sdk::LoginManager*(*)())((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINMANAGER_GET_INSTANCE_OFFSET))();
 		}
 
-		::System::Void LogInWithReadPermissions(::Il2CppArray<::System::String*>* permissions, ::TapTap::Sdk::LoginManager_OnLoginResult* onLoginResult)
+		::System::Void LogInWithReadPermissions(::Il2CppArray<::System::String*>* a1, ::TapTap::Sdk::LoginManager_OnLoginResult* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::TapTap::Sdk::LoginManager_OnLoginResult*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINMANAGER_LOGINWITHREADPERMISSIONS_OFFSET))(this, permissions, onLoginResult);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::TapTap::Sdk::LoginManager_OnLoginResult*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_LOGINMANAGER_LOGINWITHREADPERMISSIONS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Logout()

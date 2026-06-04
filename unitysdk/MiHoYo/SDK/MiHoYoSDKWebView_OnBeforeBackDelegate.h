@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8D69700)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8D69730)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x8D68450)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x8D696E0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA1C3ED0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA1C3F00)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA1C3B80)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA1C3DE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebView_OnBeforeBackDelegate_TypeDefinitionIndex = 43161;
+	inline static constexpr unsigned int MiHoYoSDKWebView_OnBeforeBackDelegate_TypeDefinitionIndex = 43964;
 
 	class MiHoYoSDKWebView_OnBeforeBackDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::MiHoYoSDKWebView* webView)
+		::System::Void Invoke(::MiHoYo::SDK::MiHoYoSDKWebView* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebView*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_INVOKE_OFFSET))(this, webView);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebView*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::MiHoYoSDKWebView* webView, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::MiHoYoSDKWebView* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebView*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_BEGININVOKE_OFFSET))(this, webView, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebView*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONBEFOREBACKDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

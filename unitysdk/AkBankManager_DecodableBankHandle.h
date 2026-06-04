@@ -5,24 +5,24 @@
 
 namespace System { class String; }
 
-#define AKBANKMANAGER_DECODABLEBANKHANDLE_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1A5D2A40)
-#define AKBANKMANAGER_DECODABLEBANKHANDLE_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1A5D2F40)
-#define AKBANKMANAGER_DECODABLEBANKHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5D1430)
-#define AKBANKMANAGER_DECODABLEBANKHANDLE___IFIXBASEPROXY_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1A5D3070)
-#define AKBANKMANAGER_DECODABLEBANKHANDLE___IFIXBASEPROXY_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1A5D31A0)
+#define AKBANKMANAGER_DECODABLEBANKHANDLE_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1B41D0D0)
+#define AKBANKMANAGER_DECODABLEBANKHANDLE_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1B41D5D0)
+#define AKBANKMANAGER_DECODABLEBANKHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B41BE00)
+#define AKBANKMANAGER_DECODABLEBANKHANDLE___IFIXBASEPROXY_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1B41D700)
+#define AKBANKMANAGER_DECODABLEBANKHANDLE___IFIXBASEPROXY_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1B41D830)
 
-inline static constexpr unsigned int AkBankManager_DecodableBankHandle_TypeDefinitionIndex = 40375;
+inline static constexpr unsigned int AkBankManager_DecodableBankHandle_TypeDefinitionIndex = 41202;
 
 class AkBankManager_DecodableBankHandle : public ::AkBankManager_BankHandle
 {
 public:
 	::System::String* decodedBankPath; // 0x20
-	::System::Boolean saveDecodedBank; // 0x28
-	::System::Boolean decodeBank; // 0x29
+	::System::Boolean decodeBank; // 0x28
+	::System::Boolean saveDecodedBank; // 0x29
 
-	::System::Void _ctor(::System::String* name, ::System::Boolean save)
+	::System::Void _ctor(::System::String* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + AKBANKMANAGER_DECODABLEBANKHANDLE__CTOR_OFFSET))(this, name, save);
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + AKBANKMANAGER_DECODABLEBANKHANDLE__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::AKRESULT DoLoadBank()

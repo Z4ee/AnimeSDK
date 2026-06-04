@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MatchThreeOpponentData; }
 
-#define RPG_CLIENT_MATCHTHREELOBBY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA839710)
-#define RPG_CLIENT_MATCHTHREELOBBY___C__DISPLAYCLASS3_0__GETOPPONENTDATABYUID_B__0_OFFSET UNITYSDK_OFFSET(0xA83A590)
+#define RPG_CLIENT_MATCHTHREELOBBY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF836F0)
+#define RPG_CLIENT_MATCHTHREELOBBY___C__DISPLAYCLASS3_0__GETOPPONENTDATABYUID_B__0_OFFSET UNITYSDK_OFFSET(0xBF843F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeLobby___c__DisplayClass3_0_TypeDefinitionIndex = 60559;
+	inline static constexpr unsigned int MatchThreeLobby___c__DisplayClass3_0_TypeDefinitionIndex = 61493;
 
 	class MatchThreeLobby___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetOpponentDataByUID_b__0(::RPG::Client::MatchThreeOpponentData* x)
+		::System::Boolean _GetOpponentDataByUID_b__0(::RPG::Client::MatchThreeOpponentData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeOpponentData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY___C__DISPLAYCLASS3_0__GETOPPONENTDATABYUID_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeOpponentData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY___C__DISPLAYCLASS3_0__GETOPPONENTDATABYUID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

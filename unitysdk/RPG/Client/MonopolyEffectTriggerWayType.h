@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyEffectTriggerWayType_TypeDefinitionIndex = 60978;
+	inline static constexpr unsigned int MonopolyEffectTriggerWayType_TypeDefinitionIndex = 61912;
 
 	enum class MonopolyEffectTriggerWayType : ::System::Int32
 	{

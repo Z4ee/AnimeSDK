@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWGUIDETALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18E612C0)
-#define RPG_GAMECORE_SHOWGUIDETALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E61240)
-#define RPG_GAMECORE_SHOWGUIDETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x18E61290)
+#define RPG_GAMECORE_SHOWGUIDETALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19C7D3F0)
+#define RPG_GAMECORE_SHOWGUIDETALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C7D370)
+#define RPG_GAMECORE_SHOWGUIDETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7D3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideTalk_TypeDefinitionIndex = 23352;
+	inline static constexpr unsigned int ShowGuideTalk_TypeDefinitionIndex = 23010;
 
 	class ShowGuideTalk : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ShowGuideTalk*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETALK_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETALK_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ShowGuideTalk* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETALK_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETALK_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

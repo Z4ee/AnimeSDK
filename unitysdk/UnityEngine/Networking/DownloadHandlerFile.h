@@ -4,32 +4,32 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CREATE_OFFSET UNITYSDK_OFFSET(0x1A5B8960)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1A5B8AD0)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1A5B8B20)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_INTERNALCREATEVFS_OFFSET UNITYSDK_OFFSET(0x1A5B8970)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5B8A20)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CREATE_OFFSET UNITYSDK_OFFSET(0x1B404940)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B404AB0)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1B404B00)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_INTERNALCREATEVFS_OFFSET UNITYSDK_OFFSET(0x1B404950)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B404A00)
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int DownloadHandlerFile_TypeDefinitionIndex = 5285;
+	inline static constexpr unsigned int DownloadHandlerFile_TypeDefinitionIndex = 5361;
 
 	class DownloadHandlerFile : public ::UnityEngine::Networking::DownloadHandler
 	{
 	public:
-		::System::Void _ctor(::System::String* path)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE__CTOR_OFFSET))(this, path);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerFile* obj, ::System::String* path, ::System::Boolean append)
+		static ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerFile* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::IntPtr(*)(::UnityEngine::Networking::DownloadHandlerFile*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CREATE_OFFSET))(obj, path, append);
+			return ((::System::IntPtr(*)(::UnityEngine::Networking::DownloadHandlerFile*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CREATE_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void InternalCreateVFS(::System::String* path, ::System::Boolean append)
+		::System::Void InternalCreateVFS(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_INTERNALCREATEVFS_OFFSET))(this, path, append);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_INTERNALCREATEVFS_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::System::Byte>* GetData()

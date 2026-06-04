@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleBuffConditionType_TypeDefinitionIndex = 11327;
+	inline static constexpr unsigned int MarbleBuffConditionType_TypeDefinitionIndex = 11374;
 
 	enum class MarbleBuffConditionType : ::System::Int32
 	{

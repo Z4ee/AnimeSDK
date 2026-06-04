@@ -6,11 +6,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class HideWaypoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_724645007CABB597_METHOD_3_0B3D879226EACE4C_OFFSET UNITYSDK_OFFSET(0x99B0970)
-#define CLASS_3_724645007CABB597_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99B0880)
-#define CLASS_3_724645007CABB597__CTOR_OFFSET UNITYSDK_OFFSET(0x99B0850)
+#define CLASS_3_724645007CABB597_METHOD_3_C6E59C759625C00E_OFFSET UNITYSDK_OFFSET(0xA7C68B0)
+#define CLASS_3_724645007CABB597_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA7C67C0)
+#define CLASS_3_724645007CABB597__CTOR_OFFSET UNITYSDK_OFFSET(0xA7C6790)
 
-inline static constexpr unsigned int Class_3_724645007CABB597_TypeDefinitionIndex = 53640;
+inline static constexpr unsigned int Class_3_724645007CABB597_TypeDefinitionIndex = 54353;
 
 class Class_3_724645007CABB597 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HideWaypoint*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_724645007CABB597_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	static ::System::Void Method_3_0B3D879226EACE4C(::RPG::GameCore::GameEntity* a1)
+	static ::System::Void Method_3_C6E59C759625C00E(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::System::Void(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_724645007CABB597_METHOD_3_0B3D879226EACE4C_OFFSET))(a1);
+		return ((::System::Void(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_724645007CABB597_METHOD_3_C6E59C759625C00E_OFFSET))(a1);
 	}
 };

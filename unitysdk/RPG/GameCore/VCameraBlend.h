@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FloatCurve; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERABLEND_METHOD_2_8D33CA9A5010063B_OFFSET UNITYSDK_OFFSET(0x190E7430)
-#define RPG_GAMECORE_VCAMERABLEND__CTOR_OFFSET UNITYSDK_OFFSET(0x190E78D0)
+#define RPG_GAMECORE_VCAMERABLEND_METHOD_2_8D33CA9A5010063B_OFFSET UNITYSDK_OFFSET(0x19E399D0)
+#define RPG_GAMECORE_VCAMERABLEND__CTOR_OFFSET UNITYSDK_OFFSET(0x19E39E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraBlend_TypeDefinitionIndex = 15536;
+	inline static constexpr unsigned int VCameraBlend_TypeDefinitionIndex = 15598;
 
 	class VCameraBlend : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int AutoUnwrapSettings_Fill_TypeDefinitionIndex = 39889;
+	inline static constexpr unsigned int AutoUnwrapSettings_Fill_TypeDefinitionIndex = 40716;
 
 	enum class AutoUnwrapSettings_Fill : ::System::Int32
 	{

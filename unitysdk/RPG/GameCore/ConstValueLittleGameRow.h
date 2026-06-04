@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONSTVALUELITTLEGAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18838FC0)
-#define RPG_GAMECORE_CONSTVALUELITTLEGAMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18839130)
+#define RPG_GAMECORE_CONSTVALUELITTLEGAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19678470)
+#define RPG_GAMECORE_CONSTVALUELITTLEGAMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196785E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConstValueLittleGameRow_TypeDefinitionIndex = 12369;
+	inline static constexpr unsigned int ConstValueLittleGameRow_TypeDefinitionIndex = 12457;
 
 	class ConstValueLittleGameRow : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSTVALUELITTLEGAMEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ConstValueLittleGameRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConstValueLittleGameRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConstValueLittleGameRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSTVALUELITTLEGAMEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConstValueLittleGameRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSTVALUELITTLEGAMEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

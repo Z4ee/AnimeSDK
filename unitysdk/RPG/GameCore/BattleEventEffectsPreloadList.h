@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEEVENTEFFECTSPRELOADLIST_METHOD_3_1280AF0908DD47FD_OFFSET UNITYSDK_OFFSET(0x186F77C0)
-#define RPG_GAMECORE_BATTLEEVENTEFFECTSPRELOADLIST_METHOD_3_AA859EE251C98AC8_OFFSET UNITYSDK_OFFSET(0x186F7780)
-#define RPG_GAMECORE_BATTLEEVENTEFFECTSPRELOADLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x186F77B0)
+#define RPG_GAMECORE_BATTLEEVENTEFFECTSPRELOADLIST_METHOD_3_22C41D6A0B2E6D9B_OFFSET UNITYSDK_OFFSET(0x194CAF50)
+#define RPG_GAMECORE_BATTLEEVENTEFFECTSPRELOADLIST_METHOD_3_68BF231AB3A1102A_OFFSET UNITYSDK_OFFSET(0x194CAF90)
+#define RPG_GAMECORE_BATTLEEVENTEFFECTSPRELOADLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x194CAF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventEffectsPreloadList_TypeDefinitionIndex = 15483;
+	inline static constexpr unsigned int BattleEventEffectsPreloadList_TypeDefinitionIndex = 15546;
 
 	class BattleEventEffectsPreloadList : public ::RPG::GameCore::CharacterPreloadConfigBase
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTEFFECTSPRELOADLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AA859EE251C98AC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEventEffectsPreloadList*& a2)
+		static ::System::Void Method_3_22C41D6A0B2E6D9B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEventEffectsPreloadList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEventEffectsPreloadList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTEFFECTSPRELOADLIST_METHOD_3_AA859EE251C98AC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEventEffectsPreloadList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTEFFECTSPRELOADLIST_METHOD_3_22C41D6A0B2E6D9B_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1280AF0908DD47FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEventEffectsPreloadList* a2)
+		static ::System::Void Method_3_68BF231AB3A1102A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEventEffectsPreloadList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEventEffectsPreloadList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTEFFECTSPRELOADLIST_METHOD_3_1280AF0908DD47FD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEventEffectsPreloadList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTEFFECTSPRELOADLIST_METHOD_3_68BF231AB3A1102A_OFFSET))(a1, a2);
 		}
 	};
 }

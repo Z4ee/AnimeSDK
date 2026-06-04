@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_URI_MOREINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A2760)
+#define SYSTEM_URI_MOREINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B005080)
 
 namespace System
 {
@@ -13,11 +13,11 @@ namespace System
 	class Uri_MoreInfo : public ::System::Object
 	{
 	public:
-		::System::String* Fragment; // 0x10
+		::System::String* Query; // 0x10
 		::System::String* RemoteUrl; // 0x18
 		::System::String* AbsoluteUri; // 0x20
-		::System::String* Path; // 0x28
-		::System::String* Query; // 0x30
+		::System::String* Fragment; // 0x28
+		::System::String* Path; // 0x30
 		::System::Int32 Hash; // 0x38
 
 		::System::Void _ctor()

@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_HEADERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A44B6A0)
+#define UNITYENGINE_HEADERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B29C9E0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HeaderAttribute_TypeDefinitionIndex = 4050;
+	inline static constexpr unsigned int HeaderAttribute_TypeDefinitionIndex = 4224;
 
 	class HeaderAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:
 		::System::String* header; // 0x10
 
-		::System::Void _ctor(::System::String* header)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_HEADERATTRIBUTE__CTOR_OFFSET))(this, header);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_HEADERATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_LINEARWITHDETECTPROJECTILEDATA_METHOD_3_C866378BA3E9BE12_OFFSET UNITYSDK_OFFSET(0x18A5F720)
-#define RPG_GAMECORE_LINEARWITHDETECTPROJECTILEDATA_METHOD_3_CE2BEFC0E19FA98D_OFFSET UNITYSDK_OFFSET(0x18A5F840)
-#define RPG_GAMECORE_LINEARWITHDETECTPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18A5F7C0)
+#define RPG_GAMECORE_LINEARWITHDETECTPROJECTILEDATA_METHOD_3_C866378BA3E9BE12_OFFSET UNITYSDK_OFFSET(0x198905C0)
+#define RPG_GAMECORE_LINEARWITHDETECTPROJECTILEDATA_METHOD_3_CE2BEFC0E19FA98D_OFFSET UNITYSDK_OFFSET(0x198906E0)
+#define RPG_GAMECORE_LINEARWITHDETECTPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19890660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LinearWithDetectProjectileData_TypeDefinitionIndex = 14828;
+	inline static constexpr unsigned int LinearWithDetectProjectileData_TypeDefinitionIndex = 14892;
 
 	class LinearWithDetectProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* LinearPitchAngle; // 0xB0
-		::System::Single CollisionEnableDelay; // 0xB8
-		::System::Single MaxLifeTime; // 0xBC
-		::System::Single Gravity; // 0xC0
-		::System::Boolean UseCameraForwardMode; // 0xC4
-		::RPG::MVector3 CameraAnchorOffset; // 0xC8
+		::RPG::GameCore::DynamicFloat* LinearPitchAngle; // 0xB8
+		::System::Single CollisionEnableDelay; // 0xC0
+		::System::Single MaxLifeTime; // 0xC4
+		::System::Single Gravity; // 0xC8
+		::System::Boolean UseCameraForwardMode; // 0xCC
+		::RPG::MVector3 CameraAnchorOffset; // 0xD0
 
 		::System::Void _ctor()
 		{

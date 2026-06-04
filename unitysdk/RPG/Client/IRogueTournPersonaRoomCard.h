@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaRoomCard_TypeDefinitionIndex = 62420;
+	inline static constexpr unsigned int IRogueTournPersonaRoomCard_TypeDefinitionIndex = 63353;
 
 	class IRogueTournPersonaRoomCard
 	{

@@ -10,23 +10,23 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class TerrainData; }
 namespace UnityEngine { class TerrainLayer; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_CREATEHEIGHTFIELDINPUTNODE_OFFSET UNITYSDK_OFFSET(0x8C8B330)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_CREATEINPUTNODEWITHDATAUPLOAD_OFFSET UNITYSDK_OFFSET(0x8C8AA30)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_GENERATETERRAINDATAFROMGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x8C8ACE0)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_ISTHISINPUTOBJECTSUPPORTED_OFFSET UNITYSDK_OFFSET(0x8C8CC90)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETHEIGHTFIELDDATA_OFFSET UNITYSDK_OFFSET(0x8C8C990)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETMASKLAYER_OFFSET UNITYSDK_OFFSET(0x8C8C820)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTERRAINDATAATTRIBUTESTOHEIGHTFIELD_OFFSET UNITYSDK_OFFSET(0x8C8CD00)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTERRAINLAYERATTRIBUTESTOHEIGHTFIELD_OFFSET UNITYSDK_OFFSET(0x8C8D300)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTREEINSTANCES_OFFSET UNITYSDK_OFFSET(0x8C8D500)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTREEPROTOTYPES_OFFSET UNITYSDK_OFFSET(0x8C8CF00)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_UPLOADALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x8C8BCF0)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_UPLOADHEIGHTVALUESWITHTRANSFORM_OFFSET UNITYSDK_OFFSET(0x8C8B4D0)
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x8C8AA20)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_CREATEHEIGHTFIELDINPUTNODE_OFFSET UNITYSDK_OFFSET(0x17F115C0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_CREATEINPUTNODEWITHDATAUPLOAD_OFFSET UNITYSDK_OFFSET(0x17F10C40)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_GENERATETERRAINDATAFROMGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x17F10F80)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_ISTHISINPUTOBJECTSUPPORTED_OFFSET UNITYSDK_OFFSET(0x17F13F40)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETHEIGHTFIELDDATA_OFFSET UNITYSDK_OFFSET(0x17F13B80)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETMASKLAYER_OFFSET UNITYSDK_OFFSET(0x17F13970)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTERRAINDATAATTRIBUTESTOHEIGHTFIELD_OFFSET UNITYSDK_OFFSET(0x17F13FB0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTERRAINLAYERATTRIBUTESTOHEIGHTFIELD_OFFSET UNITYSDK_OFFSET(0x17F14150)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTREEINSTANCES_OFFSET UNITYSDK_OFFSET(0x17F141B0)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTREEPROTOTYPES_OFFSET UNITYSDK_OFFSET(0x17F14010)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_UPLOADALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x17F12810)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_UPLOADHEIGHTVALUESWITHTRANSFORM_OFFSET UNITYSDK_OFFSET(0x17F11920)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17F10C30)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputInterfaceTerrain_TypeDefinitionIndex = 43704;
+	inline static constexpr unsigned int HEU_InputInterfaceTerrain_TypeDefinitionIndex = 37687;
 
 	class HEU_InputInterfaceTerrain : public ::HoudiniEngineUnity::HEU_InputInterface
 	{
@@ -36,64 +36,64 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 connectNodeID, ::UnityEngine::GameObject* inputObject, ::System::Int32& inputNodeID)
+		::System::Boolean CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::UnityEngine::GameObject* a3, ::System::Int32& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::UnityEngine::GameObject*, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_CREATEINPUTNODEWITHDATAUPLOAD_OFFSET))(this, session, connectNodeID, inputObject, inputNodeID);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::UnityEngine::GameObject*, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_CREATEINPUTNODEWITHDATAUPLOAD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean SetMaskLayer(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* idt, ::HoudiniEngineUnity::HAPI_VolumeInfo& baseVolumeInfo)
+		::System::Boolean SetMaskLayer(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* a2, ::HoudiniEngineUnity::HAPI_VolumeInfo& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*, ::HoudiniEngineUnity::HAPI_VolumeInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETMASKLAYER_OFFSET))(this, session, idt, baseVolumeInfo);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*, ::HoudiniEngineUnity::HAPI_VolumeInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETMASKLAYER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject)
+		::System::Boolean IsThisInputObjectSupported(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_ISTHISINPUTOBJECTSUPPORTED_OFFSET))(this, inputObject);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_ISTHISINPUTOBJECTSUPPORTED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CreateHeightFieldInputNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* idt)
+		::System::Boolean CreateHeightFieldInputNode(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_CREATEHEIGHTFIELDINPUTNODE_OFFSET))(this, session, idt);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_CREATEHEIGHTFIELDINPUTNODE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean UploadHeightValuesWithTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* idt, ::HoudiniEngineUnity::HAPI_VolumeInfo& volumeInfo)
+		::System::Boolean UploadHeightValuesWithTransform(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* a2, ::HoudiniEngineUnity::HAPI_VolumeInfo& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*, ::HoudiniEngineUnity::HAPI_VolumeInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_UPLOADHEIGHTVALUESWITHTRANSFORM_OFFSET))(this, session, idt, volumeInfo);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*, ::HoudiniEngineUnity::HAPI_VolumeInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_UPLOADHEIGHTVALUESWITHTRANSFORM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean UploadAlphaMaps(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* idt, ::HoudiniEngineUnity::HAPI_VolumeInfo& baseVolumeInfo, ::System::Boolean& bMaskSet)
+		::System::Boolean UploadAlphaMaps(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* a2, ::HoudiniEngineUnity::HAPI_VolumeInfo& a3, ::System::Boolean& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*, ::HoudiniEngineUnity::HAPI_VolumeInfo&, ::System::Boolean&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_UPLOADALPHAMAPS_OFFSET))(this, session, idt, baseVolumeInfo, bMaskSet);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*, ::HoudiniEngineUnity::HAPI_VolumeInfo&, ::System::Boolean&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_UPLOADALPHAMAPS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean SetHeightFieldData(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 volumeNodeID, ::System::Int32 partID, ::Il2CppArray<::System::Single>* heightValues, ::System::String* heightFieldName, ::HoudiniEngineUnity::HAPI_VolumeInfo& baseVolumeInfo)
+		::System::Boolean SetHeightFieldData(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Single>* a4, ::System::String* a5, ::HoudiniEngineUnity::HAPI_VolumeInfo& a6)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*, ::System::String*, ::HoudiniEngineUnity::HAPI_VolumeInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETHEIGHTFIELDDATA_OFFSET))(this, session, volumeNodeID, partID, heightValues, heightFieldName, baseVolumeInfo);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*, ::System::String*, ::HoudiniEngineUnity::HAPI_VolumeInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETHEIGHTFIELDDATA_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean SetTerrainDataAttributesToHeightField(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoNodeID, ::System::Int32 partID, ::UnityEngine::TerrainData* terrainData)
+		::System::Boolean SetTerrainDataAttributesToHeightField(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::TerrainData* a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::TerrainData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTERRAINDATAATTRIBUTESTOHEIGHTFIELD_OFFSET))(this, session, geoNodeID, partID, terrainData);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::TerrainData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTERRAINDATAATTRIBUTESTOHEIGHTFIELD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean SetTerrainLayerAttributesToHeightField(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoNodeID, ::System::Int32 partID, ::UnityEngine::TerrainLayer* terrainLayer)
+		::System::Boolean SetTerrainLayerAttributesToHeightField(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::TerrainLayer* a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::TerrainLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTERRAINLAYERATTRIBUTESTOHEIGHTFIELD_OFFSET))(this, session, geoNodeID, partID, terrainLayer);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::TerrainLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTERRAINLAYERATTRIBUTESTOHEIGHTFIELD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetTreePrototypes(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoNodeID, ::System::Int32 partID, ::UnityEngine::TerrainData* terrainData)
+		::System::Void SetTreePrototypes(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::TerrainData* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::TerrainData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTREEPROTOTYPES_OFFSET))(this, session, geoNodeID, partID, terrainData);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::TerrainData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTREEPROTOTYPES_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetTreeInstances(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoNodeID, ::System::Int32 partID, ::UnityEngine::TerrainData* terrainData)
+		::System::Void SetTreeInstances(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::TerrainData* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::TerrainData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTREEINSTANCES_OFFSET))(this, session, geoNodeID, partID, terrainData);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::TerrainData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_SETTREEINSTANCES_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* GenerateTerrainDataFromGameObject(::UnityEngine::GameObject* inputObject)
+		::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain* GenerateTerrainDataFromGameObject(::UnityEngine::GameObject* a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_GENERATETERRAINDATAFROMGAMEOBJECT_OFFSET))(this, inputObject);
+			return ((::HoudiniEngineUnity::HEU_InputInterfaceTerrain_HEU_InputDataTerrain*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTINTERFACETERRAIN_GENERATETERRAINDATAFROMGAMEOBJECT_OFFSET))(this, a1);
 		}
 	};
 }

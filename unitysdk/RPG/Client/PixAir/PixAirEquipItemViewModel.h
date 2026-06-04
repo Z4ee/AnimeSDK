@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+
+class Class_0_16E4307DCC419505_1207;
+class Class_1_9E825E3D3A62B6E0;
+class Class_1_CC76D1702CC17C09_8;
+class Class_1_D031E8F06825AB4F;
+namespace RPG::Client::PixAir::Legacy { class PixAirEquipDisplayData; }
+
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_BAGSLOTINDEX_OFFSET UNITYSDK_OFFSET(0xC3B20F0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_BATTLESLOTINDEX_OFFSET UNITYSDK_OFFSET(0xC3B50B0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_BURNPOWER_OFFSET UNITYSDK_OFFSET(0xC3C4D60)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_CDPROGRESS_OFFSET UNITYSDK_OFFSET(0xC3C4DB0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_DAMAGEPOWER_OFFSET UNITYSDK_OFFSET(0xC3C4CC0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_ISLARGESLOT_OFFSET UNITYSDK_OFFSET(0xC3C4CB0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC3C4920)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_POS_OFFSET UNITYSDK_OFFSET(0xC3C4C90)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_SHIELDPOWER_OFFSET UNITYSDK_OFFSET(0xC3C4D10)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC3B1E20)
+
+namespace RPG::Client::PixAir
+{
+	inline static constexpr unsigned int PixAirEquipItemViewModel_TypeDefinitionIndex = 73577;
+
+	class PixAirEquipItemViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		// static const ::System::UInt32 PreSlotSize = 0xB; // 0x0
+		::Class_0_16E4307DCC419505_1207* _EquipPropertyGetter; // 0x20
+		::RPG::Client::PixAir::Legacy::PixAirEquipDisplayData* EquipDisplayData; // 0x28
+		::Class_1_9E825E3D3A62B6E0* _EquipItem; // 0x30
+		::Class_1_CC76D1702CC17C09_8* _EquipProperty; // 0x38
+		::System::Boolean ShowPrice; // 0x40
+
+		::System::Void _ctor(::Class_1_9E825E3D3A62B6E0* a1, ::Class_0_16E4307DCC419505_1207* a2, ::Class_1_D031E8F06825AB4F* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_9E825E3D3A62B6E0*, ::Class_0_16E4307DCC419505_1207*, ::Class_1_D031E8F06825AB4F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::UInt32 get_Pos()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_POS_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::UInt32 get_BagSlotIndex()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_BAGSLOTINDEX_OFFSET))(this);
+		}
+
+		::System::UInt32 get_BattleSlotIndex()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_BATTLESLOTINDEX_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsLargeSlot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_ISLARGESLOT_OFFSET))(this);
+		}
+
+		::System::Int32 get_DamagePower()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_DAMAGEPOWER_OFFSET))(this);
+		}
+
+		::System::Int32 get_ShieldPower()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_SHIELDPOWER_OFFSET))(this);
+		}
+
+		::System::Int32 get_BurnPower()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_BURNPOWER_OFFSET))(this);
+		}
+
+		::System::Single get_CDProgress()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPITEMVIEWMODEL_GET_CDPROGRESS_OFFSET))(this);
+		}
+	};
+}

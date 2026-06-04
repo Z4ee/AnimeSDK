@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTMODULEBANPORTALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189C0B00)
-#define RPG_GAMECORE_GRIDFIGHTMODULEBANPORTALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189C0C20)
+#define RPG_GAMECORE_GRIDFIGHTMODULEBANPORTALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197F4FA0)
+#define RPG_GAMECORE_GRIDFIGHTMODULEBANPORTALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x197F50C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModuleBanPortalConfigRow_TypeDefinitionIndex = 12755;
+	inline static constexpr unsigned int GridFightModuleBanPortalConfigRow_TypeDefinitionIndex = 12845;
 
 	class GridFightModuleBanPortalConfigRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODULEBANPORTALCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightModuleBanPortalConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModuleBanPortalConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModuleBanPortalConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODULEBANPORTALCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModuleBanPortalConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODULEBANPORTALCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

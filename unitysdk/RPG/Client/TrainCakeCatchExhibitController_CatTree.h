@@ -9,18 +9,18 @@ namespace RPG::Client { class TrainCakeCatchExhibitController_Cat; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3272F0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_GETATTACHPOINTPOS_OFFSET UNITYSDK_OFFSET(0xB326830)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_GET__CATTREEENTITY_OFFSET UNITYSDK_OFFSET(0xB32B950)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_SETCATTREETYPE_OFFSET UNITYSDK_OFFSET(0xB325F60)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_SETCAT_OFFSET UNITYSDK_OFFSET(0xB3261D0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE__CTOR_OFFSET UNITYSDK_OFFSET(0xB326FD0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE__REFRESHLOCATIONONCATTREETYPECHANGED_OFFSET UNITYSDK_OFFSET(0xB32B9E0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE__SETPREFIX_OFFSET UNITYSDK_OFFSET(0xB32B7A0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCA83B50)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_GETATTACHPOINTPOS_OFFSET UNITYSDK_OFFSET(0xCA840F0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_GET__CATTREEENTITY_OFFSET UNITYSDK_OFFSET(0xCA83DF0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_SETCATTREETYPE_OFFSET UNITYSDK_OFFSET(0xCA83BF0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_SETCAT_OFFSET UNITYSDK_OFFSET(0xCA84010)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE__CTOR_OFFSET UNITYSDK_OFFSET(0xCA83870)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE__REFRESHLOCATIONONCATTREETYPECHANGED_OFFSET UNITYSDK_OFFSET(0xCA83E80)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE__SETPREFIX_OFFSET UNITYSDK_OFFSET(0xCA83A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainCakeCatchExhibitController_CatTree_TypeDefinitionIndex = 55526;
+	inline static constexpr unsigned int TrainCakeCatchExhibitController_CatTree_TypeDefinitionIndex = 56277;
 
 	class TrainCakeCatchExhibitController_CatTree : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client
 		::RPG::Client::TrainCakeCatchExhibitController* _Owner; // 0x18
 		::RPG::Client::TrainCakeCatchExhibitController_CatTreeType _CatTreeType; // 0x20
 
-		::System::Void _ctor(::RPG::Client::TrainCakeCatchExhibitController* owner)
+		::System::Void _ctor(::RPG::Client::TrainCakeCatchExhibitController* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE__CTOR_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -39,24 +39,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void SetCatTreeType(::RPG::Client::TrainCakeCatchExhibitController_CatTreeType type)
+		::System::Void SetCatTreeType(::RPG::Client::TrainCakeCatchExhibitController_CatTreeType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController_CatTreeType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_SETCATTREETYPE_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController_CatTreeType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_SETCATTREETYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void _RefreshLocationOnCatTreeTypeChanged(::RPG::GameCore::GameEntity* entity)
+		::System::Void _RefreshLocationOnCatTreeTypeChanged(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE__REFRESHLOCATIONONCATTREETYPECHANGED_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE__REFRESHLOCATIONONCATTREETYPECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCat(::System::Collections::Generic::List_1<::System::UInt32>* npcIDs)
+		::System::Void SetCat(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_SETCAT_OFFSET))(this, npcIDs);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_SETCAT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 GetAttachPointPos(::System::Int32 index)
+		::UnityEngine::Vector3 GetAttachPointPos(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_GETATTACHPOINTPOS_OFFSET))(this, index);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATTREE_GETATTACHPOINTPOS_OFFSET))(this, a1);
 		}
 
 		::System::Void _SetPrefix()

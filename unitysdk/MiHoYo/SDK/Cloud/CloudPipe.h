@@ -5,27 +5,27 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_GETSTRING_OFFSET UNITYSDK_OFFSET(0x173EFD90)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x173ECF70)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_INIT_OFFSET UNITYSDK_OFFSET(0x173EF230)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_INVOKECALLBACK_OFFSET UNITYSDK_OFFSET(0x173EDAA0)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETPIPEDATA_OFFSET UNITYSDK_OFFSET(0x173EF500)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETRESPONSE_OFFSET UNITYSDK_OFFSET(0x173EF680)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONSENSOR_OFFSET UNITYSDK_OFFSET(0x173EF240)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDDATA_OFFSET UNITYSDK_OFFSET(0x173EF460)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDPARAMDATA_OFFSET UNITYSDK_OFFSET(0x173ED290)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x173EF220)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_GETSTRING_OFFSET UNITYSDK_OFFSET(0x181F4AD0)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x181F1E50)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_INIT_OFFSET UNITYSDK_OFFSET(0x181F3EF0)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_INVOKECALLBACK_OFFSET UNITYSDK_OFFSET(0x181F2800)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETPIPEDATA_OFFSET UNITYSDK_OFFSET(0x181F4230)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETRESPONSE_OFFSET UNITYSDK_OFFSET(0x181F43E0)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONSENSOR_OFFSET UNITYSDK_OFFSET(0x181F3F00)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDDATA_OFFSET UNITYSDK_OFFSET(0x181F4190)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDPARAMDATA_OFFSET UNITYSDK_OFFSET(0x181F1FD0)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x181F3EE0)
 
 namespace MiHoYo::SDK::Cloud
 {
-	inline static constexpr unsigned int CloudPipe_TypeDefinitionIndex = 7640;
+	inline static constexpr unsigned int CloudPipe_TypeDefinitionIndex = 8543;
 
 	class CloudPipe : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Cloud::CloudPipe** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::Cloud::CloudPipe**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe_TypeDefinitionIndex)->GetStaticField(0x171E0);
+			return (::MiHoYo::SDK::Cloud::CloudPipe**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe_TypeDefinitionIndex)->GetStaticField(0xCBE0);
 		}
 		// static const ::System::String* InvokeFunc; // 0x0
 		// static const ::System::String* InvokeReturnFunc; // 0x0
@@ -47,39 +47,39 @@ namespace MiHoYo::SDK::Cloud
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_INIT_OFFSET))(this);
 		}
 
-		static ::System::Void OnSensor(::WeLing::SDK::GyroType gyroType, ::Il2CppArray<::System::Single>* data)
+		static ::System::Void OnSensor(::WeLing::SDK::GyroType a1, ::Il2CppArray<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_ONSENSOR_OFFSET))(gyroType, data);
+			return ((::System::Void(*)(::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_ONSENSOR_OFFSET))(a1, a2);
 		}
 
-		::System::Void SendData(::System::String* typeName, ::System::String* functionName, ::System::String* parameters, ::System::Int32 callbackIndex)
+		::System::Void SendData(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDDATA_OFFSET))(this, typeName, functionName, parameters, callbackIndex);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDDATA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SendParamData(::System::String* functionName, ::System::String* parameters, ::System::Int32 callbackIndex)
+		::System::Void SendParamData(::System::String* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDPARAMDATA_OFFSET))(this, functionName, parameters, callbackIndex);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDPARAMDATA_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnGetPipeData(::System::String* dataString)
+		static ::System::Void OnGetPipeData(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETPIPEDATA_OFFSET))(dataString);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETPIPEDATA_OFFSET))(a1);
 		}
 
-		static ::System::Void OnGetResponse(::System::Object* data)
+		static ::System::Void OnGetResponse(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETRESPONSE_OFFSET))(data);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETRESPONSE_OFFSET))(a1);
 		}
 
-		static ::System::Void InvokeCallback(::System::Int32 ret, ::System::String* msg, ::System::String* data, ::System::Int32 index)
+		static ::System::Void InvokeCallback(::System::Int32 a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_INVOKECALLBACK_OFFSET))(ret, msg, data, index);
+			return ((::System::Void(*)(::System::Int32, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_INVOKECALLBACK_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::String* GetString(::System::String* dataString)
+		static ::System::String* GetString(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_GETSTRING_OFFSET))(dataString);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_GETSTRING_OFFSET))(a1);
 		}
 	};
 }

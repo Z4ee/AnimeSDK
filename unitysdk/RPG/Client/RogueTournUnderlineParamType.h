@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournUnderlineParamType_TypeDefinitionIndex = 62559;
+	inline static constexpr unsigned int RogueTournUnderlineParamType_TypeDefinitionIndex = 63492;
 
 	enum class RogueTournUnderlineParamType : ::System::Int32
 	{

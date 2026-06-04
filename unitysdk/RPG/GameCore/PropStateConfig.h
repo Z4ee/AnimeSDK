@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSTATECONFIG_METHOD_2_BD39DAD81E3B2045_OFFSET UNITYSDK_OFFSET(0x18C798C0)
-#define RPG_GAMECORE_PROPSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C79CE0)
+#define RPG_GAMECORE_PROPSTATECONFIG_METHOD_2_000C5DC086D547B8_OFFSET UNITYSDK_OFFSET(0x19A9BDF0)
+#define RPG_GAMECORE_PROPSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9C210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropStateConfig_TypeDefinitionIndex = 16652;
+	inline static constexpr unsigned int PropStateConfig_TypeDefinitionIndex = 16681;
 
 	class PropStateConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BD39DAD81E3B2045(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropStateConfig*& a2)
+		static ::System::Void Method_2_000C5DC086D547B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropStateConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropStateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECONFIG_METHOD_2_BD39DAD81E3B2045_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropStateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSTATECONFIG_METHOD_2_000C5DC086D547B8_OFFSET))(a1, a2);
 		}
 	};
 }

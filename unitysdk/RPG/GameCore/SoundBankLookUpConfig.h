@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EventLookUpConfig; }
 
-#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_METHOD_2_DBA7D4A6D49C74E4_OFFSET UNITYSDK_OFFSET(0x18E74B70)
-#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E74C70)
+#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_METHOD_2_FE47A9DAE5F72BF9_OFFSET UNITYSDK_OFFSET(0x19C90810)
+#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C90900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SoundBankLookUpConfig_TypeDefinitionIndex = 15508;
+	inline static constexpr unsigned int SoundBankLookUpConfig_TypeDefinitionIndex = 15569;
 
 	class SoundBankLookUpConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DBA7D4A6D49C74E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SoundBankLookUpConfig*& a2)
+		static ::System::Void Method_2_FE47A9DAE5F72BF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SoundBankLookUpConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SoundBankLookUpConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_METHOD_2_DBA7D4A6D49C74E4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SoundBankLookUpConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_METHOD_2_FE47A9DAE5F72BF9_OFFSET))(a1, a2);
 		}
 	};
 }

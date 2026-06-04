@@ -5,8 +5,8 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1A0BF5B0)
-#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BF5A0)
+#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1AF28AE0)
+#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF28AD0)
 
 namespace System::ComponentModel::Design::Serialization
 {
@@ -16,12 +16,12 @@ namespace System::ComponentModel::Design::Serialization
 	{
 	public:
 		::System::String* typeId; // 0x10
-		::System::String* serializerBaseTypeName; // 0x18
-		::System::String* serializerTypeName; // 0x20
+		::System::String* serializerTypeName; // 0x18
+		::System::String* serializerBaseTypeName; // 0x20
 
-		::System::Void _ctor(::System::String* serializerTypeName, ::System::String* baseSerializerTypeName)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE__CTOR_OFFSET))(this, serializerTypeName, baseSerializerTypeName);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* get_TypeId()

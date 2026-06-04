@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDECKINFO___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0FB400)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDECKINFO___C__DISPLAYCLASS13_0___GETCARDSBYPILE_B__0_OFFSET UNITYSDK_OFFSET(0xB0FB4D0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDECKINFO___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC84DEB0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDECKINFO___C__DISPLAYCLASS13_0___GETCARDSBYPILE_B__0_OFFSET UNITYSDK_OFFSET(0xC84E000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardDeckInfo___c__DisplayClass13_0_TypeDefinitionIndex = 62435;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardDeckInfo___c__DisplayClass13_0_TypeDefinitionIndex = 63368;
 
 	class RogueTournPersonaRoomCardDeckInfo___c__DisplayClass13_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDECKINFO___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __GetCardsByPile_b__0(::RPG::Client::IRogueTournPersonaRoomCardInGame* card)
+		::System::Boolean __GetCardsByPile_b__0(::RPG::Client::IRogueTournPersonaRoomCardInGame* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IRogueTournPersonaRoomCardInGame*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDECKINFO___C__DISPLAYCLASS13_0___GETCARDSBYPILE_B__0_OFFSET))(this, card);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IRogueTournPersonaRoomCardInGame*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDECKINFO___C__DISPLAYCLASS13_0___GETCARDSBYPILE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

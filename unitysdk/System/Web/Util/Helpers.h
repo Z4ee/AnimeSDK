@@ -4,7 +4,7 @@
 
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_WEB_UTIL_HELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1B57F0)
+#define SYSTEM_WEB_UTIL_HELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B018740)
 
 namespace System::Web::Util
 {
@@ -15,7 +15,7 @@ namespace System::Web::Util
 	public:
 		static ::System::Globalization::CultureInfo** StaticGet_InvariantCulture()
 		{
-			return (::System::Globalization::CultureInfo**)Il2CppClass::FromTypeDefinitionIndex(Helpers_TypeDefinitionIndex)->GetStaticField(0x11480);
+			return (::System::Globalization::CultureInfo**)Il2CppClass::FromTypeDefinitionIndex(Helpers_TypeDefinitionIndex)->GetStaticField(0x288C0);
 		}
 
 		static ::System::Void _cctor()

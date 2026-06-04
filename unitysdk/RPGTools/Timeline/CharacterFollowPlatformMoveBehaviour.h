@@ -6,15 +6,15 @@
 
 namespace RPGTools::Timeline { class CharacterFollowPlatformMoveClip; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8AA920)
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8AA940)
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8AA930)
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8AAA00)
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8AAA10)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFEDEB0)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFEDED0)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFEDEC0)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFEDFA0)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFEDFB0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterFollowPlatformMoveBehaviour_TypeDefinitionIndex = 44711;
+	inline static constexpr unsigned int CharacterFollowPlatformMoveBehaviour_TypeDefinitionIndex = 45258;
 
 	class CharacterFollowPlatformMoveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::CharacterFollowPlatformMoveClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::CharacterFollowPlatformMoveClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::CharacterFollowPlatformMoveClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::CharacterFollowPlatformMoveClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::CharacterFollowPlatformMoveClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -41,9 +41,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

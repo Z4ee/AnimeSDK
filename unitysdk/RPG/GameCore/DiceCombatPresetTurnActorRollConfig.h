@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORROLLCONFIG_METHOD_2_A61DD8FAB3BDFE86_OFFSET UNITYSDK_OFFSET(0x18870C90)
-#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORROLLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18870D90)
+#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORROLLCONFIG_METHOD_2_09A1C656CB4B0B13_OFFSET UNITYSDK_OFFSET(0x196AFA50)
+#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORROLLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196AFB40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatPresetTurnActorRollConfig_TypeDefinitionIndex = 15297;
+	inline static constexpr unsigned int DiceCombatPresetTurnActorRollConfig_TypeDefinitionIndex = 15356;
 
 	class DiceCombatPresetTurnActorRollConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPRESETTURNACTORROLLCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A61DD8FAB3BDFE86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPresetTurnActorRollConfig*& a2)
+		static ::System::Void Method_2_09A1C656CB4B0B13(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPresetTurnActorRollConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPresetTurnActorRollConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPRESETTURNACTORROLLCONFIG_METHOD_2_A61DD8FAB3BDFE86_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPresetTurnActorRollConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPRESETTURNACTORROLLCONFIG_METHOD_2_09A1C656CB4B0B13_OFFSET))(a1, a2);
 		}
 	};
 }

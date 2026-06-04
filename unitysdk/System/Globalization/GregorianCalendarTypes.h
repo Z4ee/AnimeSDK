@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int GregorianCalendarTypes_TypeDefinitionIndex = 750;
+	inline static constexpr unsigned int GregorianCalendarTypes_TypeDefinitionIndex = 749;
 
 	enum class GregorianCalendarTypes : ::System::Int32
 	{

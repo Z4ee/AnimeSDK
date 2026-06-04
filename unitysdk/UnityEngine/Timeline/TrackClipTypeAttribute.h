@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FEC50)
+#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B253F60)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackClipTypeAttribute_TypeDefinitionIndex = 35619;
+	inline static constexpr unsigned int TrackClipTypeAttribute_TypeDefinitionIndex = 35919;
 
 	class TrackClipTypeAttribute : public ::System::Attribute
 	{
@@ -21,9 +21,9 @@ namespace UnityEngine::Timeline
 		::System::Boolean isHideSubClass; // 0x24
 		::System::Boolean allowAutoCreate; // 0x25
 
-		::System::Void _ctor(::System::Type* clipClass, ::System::Boolean autoCreate, ::UnityEngine::Timeline::CreateClipFlags createFlags, ::System::String* showIf, ::System::Boolean hideSubClass)
+		::System::Void _ctor(::System::Type* a1, ::System::Boolean a2, ::UnityEngine::Timeline::CreateClipFlags a3, ::System::String* a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Boolean, ::UnityEngine::Timeline::CreateClipFlags, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_OFFSET))(this, clipClass, autoCreate, createFlags, showIf, hideSubClass);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Boolean, ::UnityEngine::Timeline::CreateClipFlags, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

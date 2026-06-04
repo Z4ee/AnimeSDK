@@ -1,0 +1,208 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPGTools/Timeline/VFX/VFXOverlayCharacterBackgroundPositionInfo.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Playables/FrameData.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
+
+class Class_1_E0409A3F2889A09E;
+namespace RPGTools::Timeline::VFX { class VFXOverlayCharacterBackgroundBehaviour_Class_2_6F98CEE1DD1925DF; }
+namespace RPGTools::Timeline::VFX { class VFXOverlayCharacterBackgroundClip; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace UnityEngine { class Texture2D; }
+
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD06A550)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0xD06B140)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xD06AFC0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xD06A850)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_39FD7185C859CEAD_OFFSET UNITYSDK_OFFSET(0xD06A890)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0xD06ADE0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_44677E27371E92C1_OFFSET UNITYSDK_OFFSET(0xD06C5C0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_8930DBB7C9C09D21_OFFSET UNITYSDK_OFFSET(0xD06BD00)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_8AA75E63368A81E0_OFFSET UNITYSDK_OFFSET(0xD06C700)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_8C704EC832EDEFC8_OFFSET UNITYSDK_OFFSET(0xD06AF40)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_9C5C8835FB910B02_OFFSET UNITYSDK_OFFSET(0xD06AC10)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_BB566FDB7154E256_OFFSET UNITYSDK_OFFSET(0xD06B840)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_BCF43D4317A97D4C_OFFSET UNITYSDK_OFFSET(0xD06BBC0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD06B470)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_E1A187209AC0BBF5_OFFSET UNITYSDK_OFFSET(0xD06BEE0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_E761E00034B7CBF6_OFFSET UNITYSDK_OFFSET(0xD06B6E0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_FCB175EE4400634C_OFFSET UNITYSDK_OFFSET(0xD06B2F0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_FE5DBBE7360E28A7_OFFSET UNITYSDK_OFFSET(0xD06BE70)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xD06B050)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD06A570)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xD06B280)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD06B4C0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD06A560)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD06CAC0)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xD06CC40)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD06CC30)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xD06CC50)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD06CC60)
+
+namespace RPGTools::Timeline::VFX
+{
+	inline static constexpr unsigned int VFXOverlayCharacterBackgroundBehaviour_TypeDefinitionIndex = 45936;
+
+	class VFXOverlayCharacterBackgroundBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
+	{
+	public:
+		::RPGTools::Timeline::VFX::VFXOverlayCharacterBackgroundPositionInfo PositionInfo; // 0x10
+		::RPGTools::Timeline::VFX::VFXOverlayCharacterBackgroundClip* _Clip_k__BackingField; // 0x20
+		::RPGTools::Timeline::VFX::VFXOverlayCharacterBackgroundBehaviour_Class_2_6F98CEE1DD1925DF* _EffectController; // 0x28
+		::System::Single _BackgroundBlend; // 0x30
+		::System::Boolean _HasPreviousBackground; // 0x34
+		::UnityEngine::Color _FrontBackgroundColor; // 0x38
+		::UnityEngine::Color _BackBackgroundColor; // 0x48
+		::System::String* _FrontTexturePath; // 0x58
+		::System::String* _BackTexturePath; // 0x60
+		::UnityEngine::Texture2D* _FrontTexture; // 0x68
+		::UnityEngine::Texture2D* _BackTexture; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Texture2D*>* _TextureCache; // 0x78
+		::Class_1_E0409A3F2889A09E* _BackLayer; // 0x80
+		::Class_1_E0409A3F2889A09E* _FrontLayer; // 0x88
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR__CTOR_OFFSET))(this);
+		}
+
+		::RPGTools::Timeline::VFX::VFXOverlayCharacterBackgroundClip* get_Clip()
+		{
+			return ((::RPGTools::Timeline::VFX::VFXOverlayCharacterBackgroundClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_GET_CLIP_OFFSET))(this);
+		}
+
+		::System::Void set_Clip(::RPGTools::Timeline::VFX::VFXOverlayCharacterBackgroundClip* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::VFX::VFXOverlayCharacterBackgroundClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
+		}
+
+		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnGraphStop(::UnityEngine::Playables::Playable a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_ONGRAPHSTOP_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_151E25A63D14DDB0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_151E25A63D14DDB0_OFFSET))(this);
+		}
+
+		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void Method_2_39FD7185C859CEAD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_39FD7185C859CEAD_OFFSET))(this);
+		}
+
+		::System::Single Method_2_E761E00034B7CBF6(::System::Double a1, ::System::Double a2)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_E761E00034B7CBF6_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_2_BB566FDB7154E256(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_BB566FDB7154E256_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_8930DBB7C9C09D21(::Class_1_E0409A3F2889A09E* a1, ::UnityEngine::Color a2, ::System::Single a3, ::System::Single a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_E0409A3F2889A09E*, ::UnityEngine::Color, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_8930DBB7C9C09D21_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void Method_2_FE5DBBE7360E28A7(::Class_1_E0409A3F2889A09E* a1, ::UnityEngine::Texture2D* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_E0409A3F2889A09E*, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_FE5DBBE7360E28A7_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_2_BCF43D4317A97D4C(::Class_1_E0409A3F2889A09E* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_E0409A3F2889A09E*, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_BCF43D4317A97D4C_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_2_8C704EC832EDEFC8()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_8C704EC832EDEFC8_OFFSET))(this);
+		}
+
+		::System::Void Method_2_E1A187209AC0BBF5(::Class_1_E0409A3F2889A09E* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_E0409A3F2889A09E*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_E1A187209AC0BBF5_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_41A074549EF25F63()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_41A074549EF25F63_OFFSET))(this);
+		}
+
+		::UnityEngine::Texture2D* Method_2_44677E27371E92C1(::System::String* a1)
+		{
+			return ((::UnityEngine::Texture2D*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_44677E27371E92C1_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_2_FCB175EE4400634C()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_FCB175EE4400634C_OFFSET))(this);
+		}
+
+		::System::Void Method_2_9C5C8835FB910B02(::System::Double a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_9C5C8835FB910B02_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_2_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+		}
+
+		::System::Void Method_2_8AA75E63368A81E0(::System::Double a1, ::UnityEngine::Color& a2, ::System::String*& a3, ::UnityEngine::Color& a4, ::System::String*& a5, ::System::Single& a6, ::System::Boolean& a7)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Double, ::UnityEngine::Color&, ::System::String*&, ::UnityEngine::Color&, ::System::String*&, ::System::Single&, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_8AA75E63368A81E0_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+		}
+
+		::System::Boolean Method_2_391A84BCD9F51317()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_391A84BCD9F51317_OFFSET))(this);
+		}
+
+		::System::Void Method_2_30D1209326FA87FC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR_METHOD_2_30D1209326FA87FC_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, a1);
+		}
+
+		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXOVERLAYCHARACTERBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
+		}
+	};
+}

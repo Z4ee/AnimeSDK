@@ -9,17 +9,17 @@ namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 namespace UnityEngine { class Material; }
 
-#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x8C24860)
-#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_READ_OFFSET UNITYSDK_OFFSET(0x8C24900)
-#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_WRITE_OFFSET UNITYSDK_OFFSET(0x8C248B0)
-#define HDG_RDTSERIALIZERMATERIAL_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x8C242A0)
-#define HDG_RDTSERIALIZERMATERIAL_UPDATESHADERPARAMETERS_OFFSET UNITYSDK_OFFSET(0x8C24950)
-#define HDG_RDTSERIALIZERMATERIAL__ADDSHADERPARAMETERS_OFFSET UNITYSDK_OFFSET(0x8C24310)
-#define HDG_RDTSERIALIZERMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x8C24DC0)
+#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xA12C360)
+#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_READ_OFFSET UNITYSDK_OFFSET(0xA12C400)
+#define HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_WRITE_OFFSET UNITYSDK_OFFSET(0xA12C3B0)
+#define HDG_RDTSERIALIZERMATERIAL_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xA12BD40)
+#define HDG_RDTSERIALIZERMATERIAL_UPDATESHADERPARAMETERS_OFFSET UNITYSDK_OFFSET(0xA12C450)
+#define HDG_RDTSERIALIZERMATERIAL__ADDSHADERPARAMETERS_OFFSET UNITYSDK_OFFSET(0xA12BDD0)
+#define HDG_RDTSERIALIZERMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0xA12C910)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerMaterial_TypeDefinitionIndex = 43773;
+	inline static constexpr unsigned int rdtSerializerMaterial_TypeDefinitionIndex = 44315;
 
 	class rdtSerializerMaterial : public ::System::Object
 	{
@@ -29,34 +29,34 @@ namespace Hdg
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Object* Serialize(::System::Object* objIn, ::Hdg::rdtSerializerRegistry* registry)
+		static ::System::Object* Serialize(::System::Object* a1, ::Hdg::rdtSerializerRegistry* a2)
 		{
-			return ((::System::Object*(*)(::System::Object*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_SERIALIZE_OFFSET))(objIn, registry);
+			return ((::System::Object*(*)(::System::Object*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_SERIALIZE_OFFSET))(a1, a2);
 		}
 
-		::System::Object* Hdg_rdtSerializerInterface_Deserialize(::Hdg::rdtSerializerRegistry* registry)
+		::System::Object* Hdg_rdtSerializerInterface_Deserialize(::Hdg::rdtSerializerRegistry* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_DESERIALIZE_OFFSET))(this, registry);
+			return ((::System::Object*(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_DESERIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void Hdg_rdtSerializerInterface_Write(::System::IO::BinaryWriter* w)
+		::System::Void Hdg_rdtSerializerInterface_Write(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_WRITE_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_WRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void Hdg_rdtSerializerInterface_Read(::System::IO::BinaryReader* r)
+		::System::Void Hdg_rdtSerializerInterface_Read(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_READ_OFFSET))(this, r);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_HDG_RDTSERIALIZERINTERFACE_READ_OFFSET))(this, a1);
 		}
 
-		static ::System::Void UpdateShaderParameters(::UnityEngine::Material* mat, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* props)
+		static ::System::Void UpdateShaderParameters(::UnityEngine::Material* a1, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_UPDATESHADERPARAMETERS_OFFSET))(mat, props);
+			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL_UPDATESHADERPARAMETERS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void _AddShaderParameters(::UnityEngine::Material* mat, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* result, ::Hdg::rdtSerializerRegistry* registry)
+		static ::System::Void _AddShaderParameters(::UnityEngine::Material* a1, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* a2, ::Hdg::rdtSerializerRegistry* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL__ADDSHADERPARAMETERS_OFFSET))(mat, result, registry);
+			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>*, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATERIAL__ADDSHADERPARAMETERS_OFFSET))(a1, a2, a3);
 		}
 	};
 }

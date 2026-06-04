@@ -7,14 +7,14 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17916FF0)
-#define SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x179149F0)
-#define SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x17917060)
-#define SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17916F50)
+#define SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x186CCB10)
+#define SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x186CAC70)
+#define SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x186CCB80)
+#define SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x186CCA70)
 
 namespace System
 {
-	inline static constexpr unsigned int ExecutionEngineException_TypeDefinitionIndex = 247;
+	inline static constexpr unsigned int ExecutionEngineException_TypeDefinitionIndex = 246;
 
 	class ExecutionEngineException : public ::System::SystemException
 	{
@@ -24,19 +24,19 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* message, ::System::Exception* innerException)
+		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_2_OFFSET))(this, message, innerException);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_3_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_EXECUTIONENGINEEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 	};
 }

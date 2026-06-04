@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Camera_ProjectionMatrixMode_TypeDefinitionIndex = 3852;
+	inline static constexpr unsigned int Camera_ProjectionMatrixMode_TypeDefinitionIndex = 4026;
 
 	enum class Camera_ProjectionMatrixMode : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_UIIMAGENODE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190DE980)
-#define RPG_GAMECORE_UIIMAGENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x190DEA90)
+#define RPG_GAMECORE_UIIMAGENODE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E2F7D0)
+#define RPG_GAMECORE_UIIMAGENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2F900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIImageNode_TypeDefinitionIndex = 22831;
+	inline static constexpr unsigned int UIImageNode_TypeDefinitionIndex = 22532;
 
 	class UIImageNode : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIIMAGENODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::UIImageNode*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UIImageNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UIImageNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIIMAGENODE_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UIImageNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIIMAGENODE_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

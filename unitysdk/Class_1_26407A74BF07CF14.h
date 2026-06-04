@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CakeRaceTargetLockStatus.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7F2F768DC85F0AF5;
+class Class_1_92A2DA32F1B2DABE;
+class Class_2_21AD365C113DC484;
+class Class_2_F3C45F1FC7349B6E;
+namespace RPG::GameCore { class CakeRaceActionEnableNaughtyTargetLockCat; }
+namespace RPG::GameCore { class CakeRaceActionEnableTargetLockCat; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
+
+#define CLASS_1_26407A74BF07CF14_GET_ACTIVELOCKER_OFFSET UNITYSDK_OFFSET(0x18A5AC40)
+#define CLASS_1_26407A74BF07CF14_METHOD_1_2E4F699C5B08D9AF_OFFSET UNITYSDK_OFFSET(0x18A5A0C0)
+#define CLASS_1_26407A74BF07CF14_METHOD_1_446DF518725DFEEA_OFFSET UNITYSDK_OFFSET(0x18A5A710)
+#define CLASS_1_26407A74BF07CF14_METHOD_1_5135223AB8721624_OFFSET UNITYSDK_OFFSET(0x18A59C60)
+#define CLASS_1_26407A74BF07CF14_METHOD_1_87284EAED785A52F_OFFSET UNITYSDK_OFFSET(0x18A5A450)
+#define CLASS_1_26407A74BF07CF14_METHOD_1_F7B797B066E3AB47_OFFSET UNITYSDK_OFFSET(0x18A59EC0)
+#define CLASS_1_26407A74BF07CF14_SET_ACTIVELOCKER_OFFSET UNITYSDK_OFFSET(0x18A5AC50)
+#define CLASS_1_26407A74BF07CF14__CTOR_OFFSET UNITYSDK_OFFSET(0x18A59B20)
+
+inline static constexpr unsigned int Class_1_26407A74BF07CF14_TypeDefinitionIndex = 34912;
+
+class Class_1_26407A74BF07CF14 : public ::System::Object
+{
+public:
+	::System::Collections::Generic::SortedDictionary_2<::System::UInt32, ::Class_1_92A2DA32F1B2DABE*>* Field_1_0; // 0x10
+	::Class_1_92A2DA32F1B2DABE* _ActiveLocker_k__BackingField; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26407A74BF07CF14__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_5135223AB8721624(::System::UInt64 a1, ::RPG::GameCore::CakeRaceActionEnableTargetLockCat* a2, ::System::Int32 a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt64, ::RPG::GameCore::CakeRaceActionEnableTargetLockCat*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_26407A74BF07CF14_METHOD_1_5135223AB8721624_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_F7B797B066E3AB47(::RPG::GameCore::CakeRaceActionEnableNaughtyTargetLockCat* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CakeRaceActionEnableNaughtyTargetLockCat*))((::PBYTE)hIl2Cpp + CLASS_1_26407A74BF07CF14_METHOD_1_F7B797B066E3AB47_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_2E4F699C5B08D9AF(::Class_2_21AD365C113DC484* a1, ::Class_2_F3C45F1FC7349B6E* a2, ::System::Boolean a3, ::RPG::GameCore::CakeRaceTargetLockStatus a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_21AD365C113DC484*, ::Class_2_F3C45F1FC7349B6E*, ::System::Boolean, ::RPG::GameCore::CakeRaceTargetLockStatus))((::PBYTE)hIl2Cpp + CLASS_1_26407A74BF07CF14_METHOD_1_2E4F699C5B08D9AF_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::System::Void Method_1_87284EAED785A52F(::Class_2_21AD365C113DC484* a1, ::Class_2_F3C45F1FC7349B6E* a2, ::Class_1_7F2F768DC85F0AF5* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_21AD365C113DC484*, ::Class_2_F3C45F1FC7349B6E*, ::Class_1_7F2F768DC85F0AF5*))((::PBYTE)hIl2Cpp + CLASS_1_26407A74BF07CF14_METHOD_1_87284EAED785A52F_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_1_446DF518725DFEEA(::Class_2_21AD365C113DC484* a1, ::Class_2_F3C45F1FC7349B6E* a2, ::System::UInt32 a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_21AD365C113DC484*, ::Class_2_F3C45F1FC7349B6E*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_26407A74BF07CF14_METHOD_1_446DF518725DFEEA_OFFSET))(this, a1, a2, a3);
+	}
+
+	::Class_1_92A2DA32F1B2DABE* get_ActiveLocker()
+	{
+		return ((::Class_1_92A2DA32F1B2DABE*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_26407A74BF07CF14_GET_ACTIVELOCKER_OFFSET))(this);
+	}
+
+	::System::Void set_ActiveLocker(::Class_1_92A2DA32F1B2DABE* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_92A2DA32F1B2DABE*))((::PBYTE)hIl2Cpp + CLASS_1_26407A74BF07CF14_SET_ACTIVELOCKER_OFFSET))(this, a1);
+	}
+};

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InfiniteWaveDataType_TypeDefinitionIndex = 22230;
+	inline static constexpr unsigned int InfiniteWaveDataType_TypeDefinitionIndex = 23375;
 
 	enum class InfiniteWaveDataType : ::System::Int32
 	{

@@ -7,13 +7,13 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x173201D0)
-#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x17320180)
-#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x173203C0)
+#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1812EB30)
+#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1812EAE0)
+#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1812ED20)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int LayerMaskFormatter_TypeDefinitionIndex = 10001;
+	inline static constexpr unsigned int LayerMaskFormatter_TypeDefinitionIndex = 9828;
 
 	class LayerMaskFormatter : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace MessagePack::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_LAYERMASKFORMATTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Serialize(::MessagePack::MessagePackWriter& writer, ::UnityEngine::LayerMask value, ::MessagePack::MessagePackSerializerOptions* options)
+		::System::Void Serialize(::MessagePack::MessagePackWriter& a1, ::UnityEngine::LayerMask a2, ::MessagePack::MessagePackSerializerOptions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::LayerMask, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_LAYERMASKFORMATTER_SERIALIZE_OFFSET))(this, writer, value, options);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::LayerMask, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_LAYERMASKFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::LayerMask Deserialize(::MessagePack::MessagePackReader& reader, ::MessagePack::MessagePackSerializerOptions* options)
+		::UnityEngine::LayerMask Deserialize(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackSerializerOptions* a2)
 		{
-			return ((::UnityEngine::LayerMask(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_LAYERMASKFORMATTER_DESERIALIZE_OFFSET))(this, reader, options);
+			return ((::UnityEngine::LayerMask(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_LAYERMASKFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
 	};
 }

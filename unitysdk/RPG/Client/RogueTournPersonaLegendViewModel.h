@@ -8,31 +8,31 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xB0F4BF0)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GETCURLEGENDROWS_OFFSET UNITYSDK_OFFSET(0xB0F52C0)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GETLEGENDROW_OFFSET UNITYSDK_OFFSET(0xB0F5370)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GETLISTVIEWITEMPREFABINDEX_OFFSET UNITYSDK_OFFSET(0xB0F5490)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GET_CURRENTTABINDEX_OFFSET UNITYSDK_OFFSET(0xB0F4AC0)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_SELECTTAB_OFFSET UNITYSDK_OFFSET(0xB0F5210)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_SET_CURRENTTABINDEX_OFFSET UNITYSDK_OFFSET(0xB0F4AD0)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_SHOWDIALOG_OFFSET UNITYSDK_OFFSET(0xB0F4AE0)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB0F5CB0)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITATTRIBUTELISTROWS_OFFSET UNITYSDK_OFFSET(0xB0F5810)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITATTRIBUTELIST_OFFSET UNITYSDK_OFFSET(0xB0F4E80)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITROOMCOMPTYPELISTROWS_OFFSET UNITYSDK_OFFSET(0xB0F55A0)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITROOMCOMPTYPELIST_OFFSET UNITYSDK_OFFSET(0xB0F4D80)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INIT_OFFSET UNITYSDK_OFFSET(0xB0F4D30)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xC8471A0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GETCURLEGENDROWS_OFFSET UNITYSDK_OFFSET(0xC8479B0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GETLEGENDROW_OFFSET UNITYSDK_OFFSET(0xC847A60)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GETLISTVIEWITEMPREFABINDEX_OFFSET UNITYSDK_OFFSET(0xC847B70)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GET_CURRENTTABINDEX_OFFSET UNITYSDK_OFFSET(0xC847090)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_SELECTTAB_OFFSET UNITYSDK_OFFSET(0xC847900)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_SET_CURRENTTABINDEX_OFFSET UNITYSDK_OFFSET(0xC8470A0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_SHOWDIALOG_OFFSET UNITYSDK_OFFSET(0xC8470B0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC8472E0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITATTRIBUTELISTROWS_OFFSET UNITYSDK_OFFSET(0xC8481F0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITATTRIBUTELIST_OFFSET UNITYSDK_OFFSET(0xC8474C0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITROOMCOMPTYPELISTROWS_OFFSET UNITYSDK_OFFSET(0xC847C80)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITROOMCOMPTYPELIST_OFFSET UNITYSDK_OFFSET(0xC8473C0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INIT_OFFSET UNITYSDK_OFFSET(0xC847370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaLegendViewModel_TypeDefinitionIndex = 67154;
+	inline static constexpr unsigned int RogueTournPersonaLegendViewModel_TypeDefinitionIndex = 68097;
 
 	class RogueTournPersonaLegendViewModel : public ::RPG::Client::RogueTournPersonaBaseViewModel
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaLegendRow*>* _AttributeList; // 0x20
-		::System::String* FIXED_COMP_LIST; // 0x28
-		::System::String* RANDOM_COMP_LIST; // 0x30
+		::System::String* RANDOM_COMP_LIST; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaLegendRow*>* _AttributeList; // 0x28
+		::System::String* FIXED_COMP_LIST; // 0x30
 		::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaLegendRow*>* _RoomCompTypeList; // 0x38
 		::System::Int32 _CurrentTabIndex_k__BackingField; // 0x40
 
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GET_CURRENTTABINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentTabIndex(::System::Int32 value)
+		::System::Void set_CurrentTabIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_SET_CURRENTTABINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_SET_CURRENTTABINDEX_OFFSET))(this, a1);
 		}
 
 		static ::System::Void ShowDialog()
@@ -66,9 +66,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INIT_OFFSET))(this);
 		}
 
-		::System::Void SelectTab(::System::Int32 index)
+		::System::Void SelectTab(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_SELECTTAB_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_SELECTTAB_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::IRogueTournPersonaLegendRow*>* GetCurLegendRows()
@@ -76,14 +76,14 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::IRogueTournPersonaLegendRow*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GETCURLEGENDROWS_OFFSET))(this);
 		}
 
-		::RPG::Client::IRogueTournPersonaLegendRow* GetLegendRow(::System::Int32 index)
+		::RPG::Client::IRogueTournPersonaLegendRow* GetLegendRow(::System::Int32 a1)
 		{
-			return ((::RPG::Client::IRogueTournPersonaLegendRow*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GETLEGENDROW_OFFSET))(this, index);
+			return ((::RPG::Client::IRogueTournPersonaLegendRow*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GETLEGENDROW_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetListViewItemPrefabIndex(::System::Int32 index)
+		::System::Int32 GetListViewItemPrefabIndex(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GETLISTVIEWITEMPREFABINDEX_OFFSET))(this, index);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL_GETLISTVIEWITEMPREFABINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitRoomCompTypeList()
@@ -91,9 +91,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITROOMCOMPTYPELIST_OFFSET))(this);
 		}
 
-		::System::Void _InitRoomCompTypeListRows(::RPG::Client::TextID title, ::System::String* compListName)
+		::System::Void _InitRoomCompTypeListRows(::RPG::Client::TextID a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITROOMCOMPTYPELISTROWS_OFFSET))(this, title, compListName);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITROOMCOMPTYPELISTROWS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _InitAttributeList()
@@ -101,9 +101,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITATTRIBUTELIST_OFFSET))(this);
 		}
 
-		::System::Void _InitAttributeListRows(::RPG::Client::TextID title, ::System::String* colorState, ::System::Collections::Generic::List_1<::System::UInt32>* attributeIDList)
+		::System::Void _InitAttributeListRows(::RPG::Client::TextID a1, ::System::String* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::System::String*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITATTRIBUTELISTROWS_OFFSET))(this, title, colorState, attributeIDList);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::System::String*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDVIEWMODEL__INITATTRIBUTELISTROWS_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -6,7 +6,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int LazyInitializer_TypeDefinitionIndex = 805;
+	inline static constexpr unsigned int LazyInitializer_TypeDefinitionIndex = 804;
 
 	class LazyInitializer : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int FileMode_TypeDefinitionIndex = 712;
+	inline static constexpr unsigned int FileMode_TypeDefinitionIndex = 711;
 
 	enum class FileMode : ::System::Int32
 	{

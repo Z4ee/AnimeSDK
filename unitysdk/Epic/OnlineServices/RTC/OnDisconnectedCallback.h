@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8F15300)
-#define EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8F15330)
-#define EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8F14DB0)
-#define EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8F14D90)
+#define EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA33C940)
+#define EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA33C970)
+#define EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA33C930)
+#define EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA33C840)
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int OnDisconnectedCallback_TypeDefinitionIndex = 41539;
+	inline static constexpr unsigned int OnDisconnectedCallback_TypeDefinitionIndex = 42342;
 
 	class OnDisconnectedCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::RTC::DisconnectedCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::RTC::DisconnectedCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::DisconnectedCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTC::DisconnectedCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::RTC::DisconnectedCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::RTC::DisconnectedCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::RTC::DisconnectedCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::RTC::DisconnectedCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ONDISCONNECTEDCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

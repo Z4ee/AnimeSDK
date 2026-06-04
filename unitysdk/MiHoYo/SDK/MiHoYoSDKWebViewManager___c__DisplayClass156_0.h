@@ -6,20 +6,20 @@ namespace MiHoYo::SDK { class MiHoYoSDKWebViewManager; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS156_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D75840)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS156_0__PLAYWEBLOADFINISHEDANIMATIONFORISRCORE_B__0_OFFSET UNITYSDK_OFFSET(0x8D8D7E0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS156_0__PLAYWEBLOADFINISHEDANIMATIONFORISRCORE_B__1_OFFSET UNITYSDK_OFFSET(0x8D8D9F0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS156_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA1C9AE0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS156_0__PLAYWEBLOADFINISHEDANIMATIONFORISRCORE_B__0_OFFSET UNITYSDK_OFFSET(0xA1DD7C0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS156_0__PLAYWEBLOADFINISHEDANIMATIONFORISRCORE_B__1_OFFSET UNITYSDK_OFFSET(0xA1DDA00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass156_0_TypeDefinitionIndex = 43185;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass156_0_TypeDefinitionIndex = 43988;
 
 	class MiHoYoSDKWebViewManager___c__DisplayClass156_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::MiHoYoSDKWebViewManager* __4__this; // 0x10
-		::System::String* animationStage2; // 0x18
-		::System::Action* __9__1; // 0x20
+		::System::Action* __9__1; // 0x18
+		::System::String* animationStage2; // 0x20
 		::System::Boolean hasStage2; // 0x28
 		::System::Boolean showWebWhenFinished; // 0x29
 

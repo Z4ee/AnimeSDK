@@ -6,24 +6,24 @@ namespace RPG::Client { class StoryLineData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_STORYLINEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1E0F00)
-#define RPG_CLIENT_STORYLINEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB1E0F30)
-#define RPG_CLIENT_STORYLINEMODULE___C__SENDSTORYLINEDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xB1E0F40)
+#define RPG_CLIENT_STORYLINEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC93AB00)
+#define RPG_CLIENT_STORYLINEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC93AB30)
+#define RPG_CLIENT_STORYLINEMODULE___C__SENDSTORYLINEDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xC93AB40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryLineModule___c_TypeDefinitionIndex = 62681;
+	inline static constexpr unsigned int StoryLineModule___c_TypeDefinitionIndex = 63614;
 
 	class StoryLineModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::StoryLineData*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::StoryLineData*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x28C30);
+			return (::System::Func_2<::RPG::Client::StoryLineData*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x4B3E0);
 		}
 		static ::RPG::Client::StoryLineModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::StoryLineModule___c**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x28C38);
+			return (::RPG::Client::StoryLineModule___c**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x4B3E8);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STORYLINEMODULE___C__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _SendStoryLineData_b__7_0(::RPG::Client::StoryLineData* line)
+		::RPG::Client::Promises::IPromise* _SendStoryLineData_b__7_0(::RPG::Client::StoryLineData* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::StoryLineData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STORYLINEMODULE___C__SENDSTORYLINEDATA_B__7_0_OFFSET))(this, line);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::StoryLineData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STORYLINEMODULE___C__SENDSTORYLINEDATA_B__7_0_OFFSET))(this, a1);
 		}
 	};
 }

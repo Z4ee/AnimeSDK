@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ContinuanceToken; }
 
-#define EPIC_ONLINESERVICES_CONNECT_CREATEUSEROPTIONS_GET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0x8E53C70)
-#define EPIC_ONLINESERVICES_CONNECT_CREATEUSEROPTIONS_SET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0x8E53C80)
-#define EPIC_ONLINESERVICES_CONNECT_CREATEUSEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E53C90)
+#define EPIC_ONLINESERVICES_CONNECT_CREATEUSEROPTIONS_GET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0xA29D930)
+#define EPIC_ONLINESERVICES_CONNECT_CREATEUSEROPTIONS_SET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0xA29D940)
+#define EPIC_ONLINESERVICES_CONNECT_CREATEUSEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA29D950)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int CreateUserOptions_TypeDefinitionIndex = 42278;
+	inline static constexpr unsigned int CreateUserOptions_TypeDefinitionIndex = 43081;
 
 	class CreateUserOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ContinuanceToken*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEUSEROPTIONS_GET_CONTINUANCETOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_ContinuanceToken(::Epic::OnlineServices::ContinuanceToken* value)
+		::System::Void set_ContinuanceToken(::Epic::OnlineServices::ContinuanceToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ContinuanceToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEUSEROPTIONS_SET_CONTINUANCETOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ContinuanceToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEUSEROPTIONS_SET_CONTINUANCETOKEN_OFFSET))(this, a1);
 		}
 	};
 }

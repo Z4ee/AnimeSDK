@@ -9,21 +9,21 @@ namespace Epic::OnlineServices::Sessions { class SessionDetailsInfo; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x72080)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x71DF0)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_SESSIONDETAILS_OFFSET UNITYSDK_OFFSET(0x71F20)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x71C90)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_STATE_OFFSET UNITYSDK_OFFSET(0x5E00)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x72010)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x71E60)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x72000)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_SESSIONDETAILS_OFFSET UNITYSDK_OFFSET(0x71F90)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x71D40)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_STATE_OFFSET UNITYSDK_OFFSET(0xBC50)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x78510)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x78270)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_SESSIONDETAILS_OFFSET UNITYSDK_OFFSET(0x783A0)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x78110)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_STATE_OFFSET UNITYSDK_OFFSET(0x63E0)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x78490)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x782E0)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x78480)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_SESSIONDETAILS_OFFSET UNITYSDK_OFFSET(0x78410)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x781C0)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_STATE_OFFSET UNITYSDK_OFFSET(0xC4C0)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int ActiveSessionInfoInternal_TypeDefinitionIndex = 41234;
+	inline static constexpr unsigned int ActiveSessionInfoInternal_TypeDefinitionIndex = 42037;
 
 	struct alignas(8) ActiveSessionInfoInternal
 	{
@@ -38,9 +38,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_SESSIONNAME_OFFSET))(this);
 		}
 
-		::System::Void set_SessionName(::System::String* value)
+		::System::Void set_SessionName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_SESSIONNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_SESSIONNAME_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -48,9 +48,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Sessions::OnlineSessionState get_State()
@@ -58,9 +58,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::Epic::OnlineServices::Sessions::OnlineSessionState(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_STATE_OFFSET))(this);
 		}
 
-		::System::Void set_State(::Epic::OnlineServices::Sessions::OnlineSessionState value)
+		::System::Void set_State(::Epic::OnlineServices::Sessions::OnlineSessionState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::OnlineSessionState))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_STATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::OnlineSessionState))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_STATE_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Sessions::SessionDetailsInfo* get_SessionDetails()
@@ -68,19 +68,19 @@ namespace Epic::OnlineServices::Sessions
 			return ((::Epic::OnlineServices::Sessions::SessionDetailsInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_GET_SESSIONDETAILS_OFFSET))(this);
 		}
 
-		::System::Void set_SessionDetails(::Epic::OnlineServices::Sessions::SessionDetailsInfo* value)
+		::System::Void set_SessionDetails(::Epic::OnlineServices::Sessions::SessionDetailsInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetailsInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_SESSIONDETAILS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionDetailsInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_SESSIONDETAILS_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::ActiveSessionInfo* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::ActiveSessionInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::ActiveSessionInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::ActiveSessionInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONINFOINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

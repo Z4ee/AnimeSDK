@@ -3,15 +3,18 @@
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_BYCOMPAREVARIABLEBOOL_METHOD_4_2BD23335713D87CB_OFFSET UNITYSDK_OFFSET(0x18DEB860)
-#define RPG_GAMECORE_ST_BYCOMPAREVARIABLEBOOL_METHOD_4_FED3BD086D35B823_OFFSET UNITYSDK_OFFSET(0x18DEB790)
-#define RPG_GAMECORE_ST_BYCOMPAREVARIABLEBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x18DEB810)
+#define RPG_GAMECORE_ST_BYCOMPAREVARIABLEBOOL_METHOD_4_2BD23335713D87CB_OFFSET UNITYSDK_OFFSET(0x19C0FAE0)
+#define RPG_GAMECORE_ST_BYCOMPAREVARIABLEBOOL_METHOD_4_9132426B0F79F995_OFFSET UNITYSDK_OFFSET(0x19C0FD00)
+#define RPG_GAMECORE_ST_BYCOMPAREVARIABLEBOOL_METHOD_4_C239597831289D38_OFFSET UNITYSDK_OFFSET(0x19C0FD80)
+#define RPG_GAMECORE_ST_BYCOMPAREVARIABLEBOOL_METHOD_4_FED3BD086D35B823_OFFSET UNITYSDK_OFFSET(0x19C0FA10)
+#define RPG_GAMECORE_ST_BYCOMPAREVARIABLEBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x19C0FA90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_ByCompareVariableBool_TypeDefinitionIndex = 18995;
+	inline static constexpr unsigned int ST_ByCompareVariableBool_TypeDefinitionIndex = 18947;
 
 	class ST_ByCompareVariableBool : public ::RPG::GameCore::PredicateConfig
 	{
@@ -33,6 +36,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_2BD23335713D87CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_ByCompareVariableBool* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_ByCompareVariableBool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYCOMPAREVARIABLEBOOL_METHOD_4_2BD23335713D87CB_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_9132426B0F79F995(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ST_ByCompareVariableBool*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ST_ByCompareVariableBool*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYCOMPAREVARIABLEBOOL_METHOD_4_9132426B0F79F995_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_C239597831289D38(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ST_ByCompareVariableBool* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ST_ByCompareVariableBool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYCOMPAREVARIABLEBOOL_METHOD_4_C239597831289D38_OFFSET))(a1, a2);
 		}
 	};
 }

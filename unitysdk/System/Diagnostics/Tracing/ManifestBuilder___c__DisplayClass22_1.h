@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Diagnostics::Tracing { class ManifestBuilder___c__DisplayClass22_0; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER___C__DISPLAYCLASS22_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17907FD0)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER___C__DISPLAYCLASS22_1__TRANSLATETOMANIFESTCONVENTION_B__0_OFFSET UNITYSDK_OFFSET(0x17908190)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER___C__DISPLAYCLASS22_1__CTOR_OFFSET UNITYSDK_OFFSET(0x186BED40)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER___C__DISPLAYCLASS22_1__TRANSLATETOMANIFESTCONVENTION_B__0_OFFSET UNITYSDK_OFFSET(0x186BEEB0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ManifestBuilder___c__DisplayClass22_1_TypeDefinitionIndex = 1699;
+	inline static constexpr unsigned int ManifestBuilder___c__DisplayClass22_1_TypeDefinitionIndex = 1697;
 
 	class ManifestBuilder___c__DisplayClass22_1 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER___C__DISPLAYCLASS22_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _TranslateToManifestConvention_b__0(::System::Char ch, ::System::String* escape)
+		::System::Void _TranslateToManifestConvention_b__0(::System::Char a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER___C__DISPLAYCLASS22_1__TRANSLATETOMANIFESTCONVENTION_B__0_OFFSET))(this, ch, escape);
+			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER___C__DISPLAYCLASS22_1__TRANSLATETOMANIFESTCONVENTION_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::Win { class LoginManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1772B3F0)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS25_0__LOGOUTWITHOUTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x17742150)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184E8DD0)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS25_0__LOGOUTWITHOUTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x184FF780)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass25_0_TypeDefinitionIndex = 8191;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass25_0_TypeDefinitionIndex = 9094;
 
 	class LoginManager___c__DisplayClass25_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _LogoutWithoutConfirm_b__0(::System::String* response)
+		::System::Void _LogoutWithoutConfirm_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS25_0__LOGOUTWITHOUTCONFIRM_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS25_0__LOGOUTWITHOUTCONFIRM_B__0_OFFSET))(this, a1);
 		}
 	};
 }

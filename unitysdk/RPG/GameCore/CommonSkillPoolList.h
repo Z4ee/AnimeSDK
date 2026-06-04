@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CommonSkillPool; }
 
-#define RPG_GAMECORE_COMMONSKILLPOOLLIST_METHOD_2_8F2ED179B135E274_OFFSET UNITYSDK_OFFSET(0x18827E00)
-#define RPG_GAMECORE_COMMONSKILLPOOLLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18827ED0)
+#define RPG_GAMECORE_COMMONSKILLPOOLLIST_METHOD_2_0E950BA3893B58B1_OFFSET UNITYSDK_OFFSET(0x19668AF0)
+#define RPG_GAMECORE_COMMONSKILLPOOLLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19668BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CommonSkillPoolList_TypeDefinitionIndex = 17250;
+	inline static constexpr unsigned int CommonSkillPoolList_TypeDefinitionIndex = 17258;
 
 	class CommonSkillPoolList : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMMONSKILLPOOLLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8F2ED179B135E274(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CommonSkillPoolList*& a2)
+		static ::System::Void Method_2_0E950BA3893B58B1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CommonSkillPoolList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CommonSkillPoolList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMMONSKILLPOOLLIST_METHOD_2_8F2ED179B135E274_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CommonSkillPoolList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMMONSKILLPOOLLIST_METHOD_2_0E950BA3893B58B1_OFFSET))(a1, a2);
 		}
 	};
 }

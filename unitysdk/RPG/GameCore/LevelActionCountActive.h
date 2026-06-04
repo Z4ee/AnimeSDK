@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6C4620)
-#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6C45D0)
-#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_INIT_OFFSET UNITYSDK_OFFSET(0xB6C4580)
-#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C4670)
+#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE32050)
+#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE32000)
+#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_INIT_OFFSET UNITYSDK_OFFSET(0xCE31FB0)
+#define RPG_GAMECORE_LEVELACTIONCOUNTACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xCE320A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelActionCountActive_TypeDefinitionIndex = 52365;
+	inline static constexpr unsigned int LevelActionCountActive_TypeDefinitionIndex = 53062;
 
-	class LevelActionCountActive : public ::Class_1_9988289E7F8AA214
+	class LevelActionCountActive : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::GameEntity* ActiveEntity; // 0x18
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELACTIONCOUNTACTIVE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelActionCountActive* Init(::RPG::GameCore::GameEntity* active)
+		::RPG::GameCore::LevelActionCountActive* Init(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::GameCore::LevelActionCountActive*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_INIT_OFFSET))(this, active);
+			return ((::RPG::GameCore::LevelActionCountActive*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELACTIONCOUNTACTIVE_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

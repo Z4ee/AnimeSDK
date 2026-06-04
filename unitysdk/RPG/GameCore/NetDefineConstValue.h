@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_NETDEFINECONSTVALUE_METHOD_2_2FDB7821F634F886_OFFSET UNITYSDK_OFFSET(0x18B7D550)
-#define RPG_GAMECORE_NETDEFINECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B7DC40)
+#define RPG_GAMECORE_NETDEFINECONSTVALUE_METHOD_2_601BF670998A0249_OFFSET UNITYSDK_OFFSET(0x199CC140)
+#define RPG_GAMECORE_NETDEFINECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x199CC810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NetDefineConstValue_TypeDefinitionIndex = 18060;
+	inline static constexpr unsigned int NetDefineConstValue_TypeDefinitionIndex = 18084;
 
 	class NetDefineConstValue : public ::RPG::GameCore::JsonConfig
 	{
@@ -39,9 +39,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NETDEFINECONSTVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2FDB7821F634F886(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NetDefineConstValue*& a2)
+		static ::System::Void Method_2_601BF670998A0249(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NetDefineConstValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NetDefineConstValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NETDEFINECONSTVALUE_METHOD_2_2FDB7821F634F886_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NetDefineConstValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NETDEFINECONSTVALUE_METHOD_2_601BF670998A0249_OFFSET))(a1, a2);
 		}
 	};
 }

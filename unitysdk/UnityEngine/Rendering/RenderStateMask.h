@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderStateMask_TypeDefinitionIndex = 4573;
+	inline static constexpr unsigned int RenderStateMask_TypeDefinitionIndex = 4747;
 
 	enum class RenderStateMask : ::System::Int32
 	{

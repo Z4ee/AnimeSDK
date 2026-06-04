@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int UserCenterManager_UserCenterType_TypeDefinitionIndex = 8228;
+	inline static constexpr unsigned int UserCenterManager_UserCenterType_TypeDefinitionIndex = 9131;
 
 	enum class UserCenterManager_UserCenterType : ::System::Int32
 	{

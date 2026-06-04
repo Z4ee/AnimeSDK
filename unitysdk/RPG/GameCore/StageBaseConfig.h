@@ -10,22 +10,25 @@ namespace RPG::GameCore { class StageGrassOverrideConfig; }
 namespace RPG::GameCore { class StageIslandConfig; }
 namespace RPG::GameCore { class StageVersionData; }
 namespace RPG::GameCore { class SubStageData; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_STAGEBASECONFIG_GET_ACTIVEBLOCKNODECONFIGLIST_OFFSET UNITYSDK_OFFSET(0x18E8A120)
-#define RPG_GAMECORE_STAGEBASECONFIG_GET_ENABLENORMDISTANCELODTEMPLATE_OFFSET UNITYSDK_OFFSET(0x18E8A150)
-#define RPG_GAMECORE_STAGEBASECONFIG_GET_PVSENABLEREGIONFILTER_OFFSET UNITYSDK_OFFSET(0x18E8A190)
-#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_0B3142A33AF5ED4C_OFFSET UNITYSDK_OFFSET(0x18E89FA0)
-#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_3A7480C8F521D402_OFFSET UNITYSDK_OFFSET(0x18E8A090)
-#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_67F0C80DCDDCCF30_OFFSET UNITYSDK_OFFSET(0x18E88F20)
-#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_703DDFE3F88F0872_OFFSET UNITYSDK_OFFSET(0x18E88DF0)
-#define RPG_GAMECORE_STAGEBASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E88F10)
+#define RPG_GAMECORE_STAGEBASECONFIG_GET_ACTIVEBLOCKNODECONFIGLIST_OFFSET UNITYSDK_OFFSET(0x19CA63D0)
+#define RPG_GAMECORE_STAGEBASECONFIG_GET_ENABLENORMDISTANCELODTEMPLATE_OFFSET UNITYSDK_OFFSET(0x19CA6400)
+#define RPG_GAMECORE_STAGEBASECONFIG_GET_PVSENABLEREGIONFILTER_OFFSET UNITYSDK_OFFSET(0x19CA6440)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_0827827755B133E1_OFFSET UNITYSDK_OFFSET(0x19CA50F0)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_083097FD55C01C7C_OFFSET UNITYSDK_OFFSET(0x19CA41A0)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_6515B8E85F9252EF_OFFSET UNITYSDK_OFFSET(0x19CA63A0)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_656AD50600B8086B_OFFSET UNITYSDK_OFFSET(0x19CA6260)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_773DAEFE53523DEF_OFFSET UNITYSDK_OFFSET(0x19CA52A0)
+#define RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_F68FDA814249780B_OFFSET UNITYSDK_OFFSET(0x19CA4060)
+#define RPG_GAMECORE_STAGEBASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CA4190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageBaseConfig_TypeDefinitionIndex = 18157;
+	inline static constexpr unsigned int StageBaseConfig_TypeDefinitionIndex = 18153;
 
 	class StageBaseConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -57,24 +60,34 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_703DDFE3F88F0872(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageBaseConfig*& a2)
+		static ::System::Void Method_2_F68FDA814249780B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageBaseConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageBaseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_703DDFE3F88F0872_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageBaseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_F68FDA814249780B_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_67F0C80DCDDCCF30(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageBaseConfig* a2)
+		static ::System::Void Method_2_083097FD55C01C7C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageBaseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageBaseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_67F0C80DCDDCCF30_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageBaseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_083097FD55C01C7C_OFFSET))(a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::GameCore::BlockNodeConfig*>* Method_2_0B3142A33AF5ED4C()
+		static ::System::Void Method_2_0827827755B133E1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StageBaseConfig*& a2)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::GameCore::BlockNodeConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_0B3142A33AF5ED4C_OFFSET))(this);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StageBaseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_0827827755B133E1_OFFSET))(a1, a2);
 		}
 
-		::Il2CppArray<::RPG::GameCore::BlockNodeConfig*>* Method_2_3A7480C8F521D402()
+		static ::System::Void Method_2_773DAEFE53523DEF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StageBaseConfig* a2)
 		{
-			return ((::Il2CppArray<::RPG::GameCore::BlockNodeConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_3A7480C8F521D402_OFFSET))(this);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StageBaseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_773DAEFE53523DEF_OFFSET))(a1, a2);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::GameCore::BlockNodeConfig*>* Method_2_656AD50600B8086B()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::BlockNodeConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_656AD50600B8086B_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::BlockNodeConfig*>* Method_2_6515B8E85F9252EF()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::BlockNodeConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEBASECONFIG_METHOD_2_6515B8E85F9252EF_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::GameCore::BlockNodeConfig*>* get_ActiveBlockNodeConfigList()

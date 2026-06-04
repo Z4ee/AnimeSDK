@@ -4,7 +4,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int JitHelpers_TypeDefinitionIndex = 1387;
+	inline static constexpr unsigned int JitHelpers_TypeDefinitionIndex = 1386;
 
 	class JitHelpers : public ::System::Object
 	{

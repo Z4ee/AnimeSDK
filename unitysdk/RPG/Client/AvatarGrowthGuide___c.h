@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_747;
+class Class_0_16E4307DCC419505_798;
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_AVATARGROWTHGUIDE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DA1530)
-#define RPG_CLIENT_AVATARGROWTHGUIDE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9DA1570)
-#define RPG_CLIENT_AVATARGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0x9DA1580)
+#define RPG_CLIENT_AVATARGROWTHGUIDE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB383DE0)
+#define RPG_CLIENT_AVATARGROWTHGUIDE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB383E20)
+#define RPG_CLIENT_AVATARGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xB383E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarGrowthGuide___c_TypeDefinitionIndex = 60343;
+	inline static constexpr unsigned int AvatarGrowthGuide___c_TypeDefinitionIndex = 61278;
 
 	class AvatarGrowthGuide___c : public ::System::Object
 	{
 	public:
+		static ::System::Predicate_1<::Class_0_16E4307DCC419505_798*>** StaticGet___9__2_0()
+		{
+			return (::System::Predicate_1<::Class_0_16E4307DCC419505_798*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarGrowthGuide___c_TypeDefinitionIndex)->GetStaticField(0x63350);
+		}
 		static ::RPG::Client::AvatarGrowthGuide___c** StaticGet___9()
 		{
-			return (::RPG::Client::AvatarGrowthGuide___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarGrowthGuide___c_TypeDefinitionIndex)->GetStaticField(0x34370);
-		}
-		static ::System::Predicate_1<::Class_0_16E4307DCC419505_747*>** StaticGet___9__2_0()
-		{
-			return (::System::Predicate_1<::Class_0_16E4307DCC419505_747*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarGrowthGuide___c_TypeDefinitionIndex)->GetStaticField(0x34378);
+			return (::RPG::Client::AvatarGrowthGuide___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarGrowthGuide___c_TypeDefinitionIndex)->GetStaticField(0x63358);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARGROWTHGUIDE___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _get_IsGrowable_b__2_0(::Class_0_16E4307DCC419505_747* x)
+		::System::Boolean _get_IsGrowable_b__2_0(::Class_0_16E4307DCC419505_798* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_747*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_798*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET))(this, a1);
 		}
 	};
 }

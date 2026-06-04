@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightGameRefTrait; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS175_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4CCA10)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS175_0___ADDEXPIREDTRAITLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xA4CFED0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS175_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB71680)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS175_0___ADDEXPIREDTRAITLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xBB744B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass175_0_TypeDefinitionIndex = 59586;
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass175_0_TypeDefinitionIndex = 60521;
 
 	class GridFightGameRefData___c__DisplayClass175_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS175_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __AddExpiredTraitLayer_b__0(::RPG::Client::GridFightGameRefTrait* x)
+		::System::Boolean __AddExpiredTraitLayer_b__0(::RPG::Client::GridFightGameRefTrait* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGameRefTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS175_0___ADDEXPIREDTRAITLAYER_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGameRefTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS175_0___ADDEXPIREDTRAITLAYER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

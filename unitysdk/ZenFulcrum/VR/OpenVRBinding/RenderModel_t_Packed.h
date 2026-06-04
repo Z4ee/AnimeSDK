@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x23036A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x2303680)
+#define ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x38A67C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x38A67A0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int RenderModel_t_Packed_TypeDefinitionIndex = 36085;
+	inline static constexpr unsigned int RenderModel_t_Packed_TypeDefinitionIndex = 36385;
 
 	struct alignas(4) RenderModel_t_Packed
 	{
@@ -18,16 +18,16 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		::System::Int32 diffuseTextureId; // 0x28
 
 		/*
-		::System::Void _ctor(::ZenFulcrum::VR::OpenVRBinding::RenderModel_t unpacked)
+		::System::Void _ctor(::ZenFulcrum::VR::OpenVRBinding::RenderModel_t a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED__CTOR_OFFSET))(this, unpacked);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED__CTOR_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::System::Void Unpack(::ZenFulcrum::VR::OpenVRBinding::RenderModel_t& unpacked)
+		::System::Void Unpack(::ZenFulcrum::VR::OpenVRBinding::RenderModel_t& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED_UNPACK_OFFSET))(this, unpacked);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED_UNPACK_OFFSET))(this, a1);
 		}
 		*/
 	};

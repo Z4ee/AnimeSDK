@@ -4,17 +4,17 @@
 
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_CUSTOMSLIDER_ONDRAGMOVED_OFFSET UNITYSDK_OFFSET(0xA0EF9A0)
-#define RPG_CLIENT_CUSTOMSLIDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA0EF890)
-#define RPG_CLIENT_CUSTOMSLIDER_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xA0EFBA0)
-#define RPG_CLIENT_CUSTOMSLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xA0EFBF0)
-#define RPG_CLIENT_CUSTOMSLIDER___IFIXBASEPROXY_ONDRAGMOVED_OFFSET UNITYSDK_OFFSET(0xA0EFC40)
-#define RPG_CLIENT_CUSTOMSLIDER___IFIXBASEPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA0EFC00)
-#define RPG_CLIENT_CUSTOMSLIDER___IFIXBASEPROXY_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xA0EFC50)
+#define RPG_CLIENT_CUSTOMSLIDER_ONDRAGMOVED_OFFSET UNITYSDK_OFFSET(0xB72F030)
+#define RPG_CLIENT_CUSTOMSLIDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB72EF20)
+#define RPG_CLIENT_CUSTOMSLIDER_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xB72F230)
+#define RPG_CLIENT_CUSTOMSLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xB72F280)
+#define RPG_CLIENT_CUSTOMSLIDER___IFIXBASEPROXY_ONDRAGMOVED_OFFSET UNITYSDK_OFFSET(0xB72F2D0)
+#define RPG_CLIENT_CUSTOMSLIDER___IFIXBASEPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB72F290)
+#define RPG_CLIENT_CUSTOMSLIDER___IFIXBASEPROXY_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xB72F2E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomSlider_TypeDefinitionIndex = 66823;
+	inline static constexpr unsigned int CustomSlider_TypeDefinitionIndex = 67763;
 
 	class CustomSlider : public ::UnityEngine::UI::Slider
 	{
@@ -32,14 +32,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Void OnDragMoved(::System::Single oldValue, ::System::Single newValue)
+		::System::Void OnDragMoved(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER_ONDRAGMOVED_OFFSET))(this, oldValue, newValue);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER_ONDRAGMOVED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER_ONPOINTERDOWN_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER_ONPOINTERDOWN_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy_OnEnable()
@@ -47,14 +47,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER___IFIXBASEPROXY_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_OnDragMoved(::System::Single P0, ::System::Single P1)
+		::System::Void __iFixBaseProxy_OnDragMoved(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER___IFIXBASEPROXY_ONDRAGMOVED_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER___IFIXBASEPROXY_ONDRAGMOVED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnPointerDown(::UnityEngine::EventSystems::PointerEventData* P0)
+		::System::Void __iFixBaseProxy_OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER___IFIXBASEPROXY_ONPOINTERDOWN_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER___IFIXBASEPROXY_ONPOINTERDOWN_OFFSET))(this, a1);
 		}
 	};
 }

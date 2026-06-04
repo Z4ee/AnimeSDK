@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FormationPatternConfig; }
 
-#define RPG_GAMECORE_FORMATIONMOVECONFIG_METHOD_2_A133458F4B0E3BF9_OFFSET UNITYSDK_OFFSET(0x1892ACB0)
-#define RPG_GAMECORE_FORMATIONMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1892ADB0)
+#define RPG_GAMECORE_FORMATIONMOVECONFIG_METHOD_2_7E93705B39B384E4_OFFSET UNITYSDK_OFFSET(0x19766050)
+#define RPG_GAMECORE_FORMATIONMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19766140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationMoveConfig_TypeDefinitionIndex = 14786;
+	inline static constexpr unsigned int FormationMoveConfig_TypeDefinitionIndex = 14850;
 
 	class FormationMoveConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A133458F4B0E3BF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveConfig*& a2)
+		static ::System::Void Method_2_7E93705B39B384E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVECONFIG_METHOD_2_A133458F4B0E3BF9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVECONFIG_METHOD_2_7E93705B39B384E4_OFFSET))(a1, a2);
 		}
 	};
 }

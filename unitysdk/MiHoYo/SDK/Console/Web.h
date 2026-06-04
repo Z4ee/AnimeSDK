@@ -6,14 +6,14 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONSOLE_WEB_OPENURLPS_OFFSET UNITYSDK_OFFSET(0x175097B0)
-#define MIHOYO_SDK_CONSOLE_WEB_OPENURLXBOX_OFFSET UNITYSDK_OFFSET(0x17509740)
-#define MIHOYO_SDK_CONSOLE_WEB_OPENURL_OFFSET UNITYSDK_OFFSET(0x174FAB40)
-#define MIHOYO_SDK_CONSOLE_WEB__CTOR_OFFSET UNITYSDK_OFFSET(0x1750A9B0)
+#define MIHOYO_SDK_CONSOLE_WEB_OPENURLPS_OFFSET UNITYSDK_OFFSET(0x183068D0)
+#define MIHOYO_SDK_CONSOLE_WEB_OPENURLXBOX_OFFSET UNITYSDK_OFFSET(0x183068A0)
+#define MIHOYO_SDK_CONSOLE_WEB_OPENURL_OFFSET UNITYSDK_OFFSET(0x182F79C0)
+#define MIHOYO_SDK_CONSOLE_WEB__CTOR_OFFSET UNITYSDK_OFFSET(0x18306F00)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int Web_TypeDefinitionIndex = 7723;
+	inline static constexpr unsigned int Web_TypeDefinitionIndex = 8626;
 
 	class Web : public ::System::Object
 	{
@@ -27,19 +27,19 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_WEB__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void OpenURL(::System::String* url, ::System::Action* closeCallback, ::System::Collections::Generic::List_1<::System::String*>* cookies)
+		static ::System::Void OpenURL(::System::String* a1, ::System::Action* a2, ::System::Collections::Generic::List_1<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Action*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_WEB_OPENURL_OFFSET))(url, closeCallback, cookies);
+			return ((::System::Void(*)(::System::String*, ::System::Action*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_WEB_OPENURL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void OpenUrlXbox(::System::String* url, ::System::Action* closeCallback, ::System::Collections::Generic::List_1<::System::String*>* cookises)
+		static ::System::Void OpenUrlXbox(::System::String* a1, ::System::Action* a2, ::System::Collections::Generic::List_1<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Action*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_WEB_OPENURLXBOX_OFFSET))(url, closeCallback, cookises);
+			return ((::System::Void(*)(::System::String*, ::System::Action*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_WEB_OPENURLXBOX_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void OpenUrlPS(::System::String* url, ::System::Action* closeCallback, ::System::Collections::Generic::List_1<::System::String*>* cookies)
+		static ::System::Void OpenUrlPS(::System::String* a1, ::System::Action* a2, ::System::Collections::Generic::List_1<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Action*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_WEB_OPENURLPS_OFFSET))(url, closeCallback, cookies);
+			return ((::System::Void(*)(::System::String*, ::System::Action*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_WEB_OPENURLPS_OFFSET))(a1, a2, a3);
 		}
 	};
 }

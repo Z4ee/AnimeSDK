@@ -10,33 +10,33 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define RPG_CLIENT_PILETOAST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAC91C20)
-#define RPG_CLIENT_PILETOAST_PILE_OFFSET UNITYSDK_OFFSET(0xAC914D0)
-#define RPG_CLIENT_PILETOAST_START_OFFSET UNITYSDK_OFFSET(0xAC91700)
-#define RPG_CLIENT_PILETOAST_UPDATE_OFFSET UNITYSDK_OFFSET(0xAC91EB0)
-#define RPG_CLIENT_PILETOAST__ADDTOPILE_OFFSET UNITYSDK_OFFSET(0xAC91630)
-#define RPG_CLIENT_PILETOAST__APPLYLATENCYLAG_OFFSET UNITYSDK_OFFSET(0xAC93740)
-#define RPG_CLIENT_PILETOAST__CTOR_OFFSET UNITYSDK_OFFSET(0xAC937A0)
-#define RPG_CLIENT_PILETOAST__ENDMOVING_OFFSET UNITYSDK_OFFSET(0xAC926B0)
-#define RPG_CLIENT_PILETOAST__ENTERMOVING_OFFSET UNITYSDK_OFFSET(0xAC93180)
-#define RPG_CLIENT_PILETOAST__FADEIN_OFFSET UNITYSDK_OFFSET(0xAC922A0)
-#define RPG_CLIENT_PILETOAST__FADEOUT_OFFSET UNITYSDK_OFFSET(0xAC924E0)
-#define RPG_CLIENT_PILETOAST__GETNEXTINDEX_OFFSET UNITYSDK_OFFSET(0xAC936E0)
-#define RPG_CLIENT_PILETOAST__IGNOREPILETOAST_OFFSET UNITYSDK_OFFSET(0xAC92C50)
-#define RPG_CLIENT_PILETOAST__ONASYNCLOAD_OFFSET UNITYSDK_OFFSET(0xAC93250)
-#define RPG_CLIENT_PILETOAST__ONHINTITEMLOADFINISH_OFFSET UNITYSDK_OFFSET(0xAC93670)
-#define RPG_CLIENT_PILETOAST__PILESTRING_OFFSET UNITYSDK_OFFSET(0xAC92AA0)
-#define RPG_CLIENT_PILETOAST__PILESTRUCT_OFFSET UNITYSDK_OFFSET(0xAC92950)
-#define RPG_CLIENT_PILETOAST__PILETEXTID_OFFSET UNITYSDK_OFFSET(0xAC92B80)
-#define RPG_CLIENT_PILETOAST__SHOWCENTERTOAST_OFFSET UNITYSDK_OFFSET(0xAC92E70)
-#define RPG_CLIENT_PILETOAST__SHOWING_OFFSET UNITYSDK_OFFSET(0xAC92420)
-#define RPG_CLIENT_PILETOAST__TOASTCENTERSTRING_OFFSET UNITYSDK_OFFSET(0xAC92F60)
-#define RPG_CLIENT_PILETOAST__TOASTCENTERSTRUCT_OFFSET UNITYSDK_OFFSET(0xAC92D10)
-#define RPG_CLIENT_PILETOAST__TOASTCENTERTEXTID_OFFSET UNITYSDK_OFFSET(0xAC92FD0)
+#define RPG_CLIENT_PILETOAST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC3A4840)
+#define RPG_CLIENT_PILETOAST_PILE_OFFSET UNITYSDK_OFFSET(0xC3A40B0)
+#define RPG_CLIENT_PILETOAST_START_OFFSET UNITYSDK_OFFSET(0xC3A42D0)
+#define RPG_CLIENT_PILETOAST_UPDATE_OFFSET UNITYSDK_OFFSET(0xC3A4B20)
+#define RPG_CLIENT_PILETOAST__ADDTOPILE_OFFSET UNITYSDK_OFFSET(0xC3A4210)
+#define RPG_CLIENT_PILETOAST__APPLYLATENCYLAG_OFFSET UNITYSDK_OFFSET(0xC3A62C0)
+#define RPG_CLIENT_PILETOAST__CTOR_OFFSET UNITYSDK_OFFSET(0xC3A6320)
+#define RPG_CLIENT_PILETOAST__ENDMOVING_OFFSET UNITYSDK_OFFSET(0xC3A52A0)
+#define RPG_CLIENT_PILETOAST__ENTERMOVING_OFFSET UNITYSDK_OFFSET(0xC3A5D20)
+#define RPG_CLIENT_PILETOAST__FADEIN_OFFSET UNITYSDK_OFFSET(0xC3A4EF0)
+#define RPG_CLIENT_PILETOAST__FADEOUT_OFFSET UNITYSDK_OFFSET(0xC3A50F0)
+#define RPG_CLIENT_PILETOAST__GETNEXTINDEX_OFFSET UNITYSDK_OFFSET(0xC3A6260)
+#define RPG_CLIENT_PILETOAST__IGNOREPILETOAST_OFFSET UNITYSDK_OFFSET(0xC3A5820)
+#define RPG_CLIENT_PILETOAST__ONASYNCLOAD_OFFSET UNITYSDK_OFFSET(0xC3A5DE0)
+#define RPG_CLIENT_PILETOAST__ONHINTITEMLOADFINISH_OFFSET UNITYSDK_OFFSET(0xC3A61F0)
+#define RPG_CLIENT_PILETOAST__PILESTRING_OFFSET UNITYSDK_OFFSET(0xC3A5660)
+#define RPG_CLIENT_PILETOAST__PILESTRUCT_OFFSET UNITYSDK_OFFSET(0xC3A5520)
+#define RPG_CLIENT_PILETOAST__PILETEXTID_OFFSET UNITYSDK_OFFSET(0xC3A5750)
+#define RPG_CLIENT_PILETOAST__SHOWCENTERTOAST_OFFSET UNITYSDK_OFFSET(0xC3A5A20)
+#define RPG_CLIENT_PILETOAST__SHOWING_OFFSET UNITYSDK_OFFSET(0xC3A5040)
+#define RPG_CLIENT_PILETOAST__TOASTCENTERSTRING_OFFSET UNITYSDK_OFFSET(0xC3A5B00)
+#define RPG_CLIENT_PILETOAST__TOASTCENTERSTRUCT_OFFSET UNITYSDK_OFFSET(0xC3A58E0)
+#define RPG_CLIENT_PILETOAST__TOASTCENTERTEXTID_OFFSET UNITYSDK_OFFSET(0xC3A5B70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PileToast_TypeDefinitionIndex = 67199;
+	inline static constexpr unsigned int PileToast_TypeDefinitionIndex = 68143;
 
 	class PileToast : public ::UnityEngine::MonoBehaviour
 	{
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Pile(::System::String* icon1Path, ::System::String* str, ::RPG::Client::TextID textID, ::Il2CppArray<::System::Object*>* textIDArgs)
+		::System::Void Pile(::System::String* a1, ::System::String* a2, ::RPG::Client::TextID a3, ::Il2CppArray<::System::Object*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST_PILE_OFFSET))(this, icon1Path, str, textID, textIDArgs);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST_PILE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Start()
@@ -81,44 +81,44 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void _PileStruct(::System::Object* param)
+		::System::Void _PileStruct(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__PILESTRUCT_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__PILESTRUCT_OFFSET))(this, a1);
 		}
 
-		::System::Void _PileString(::System::Object* param)
+		::System::Void _PileString(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__PILESTRING_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__PILESTRING_OFFSET))(this, a1);
 		}
 
-		::System::Void _PileTextID(::System::Object* param)
+		::System::Void _PileTextID(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__PILETEXTID_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__PILETEXTID_OFFSET))(this, a1);
 		}
 
-		::System::Void _IgnorePileToast(::System::Object* param)
+		::System::Void _IgnorePileToast(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__IGNOREPILETOAST_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__IGNOREPILETOAST_OFFSET))(this, a1);
 		}
 
-		::System::Void _ToastCenterStruct(::System::Object* param)
+		::System::Void _ToastCenterStruct(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__TOASTCENTERSTRUCT_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__TOASTCENTERSTRUCT_OFFSET))(this, a1);
 		}
 
-		::System::Void _ToastCenterString(::System::Object* param)
+		::System::Void _ToastCenterString(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__TOASTCENTERSTRING_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__TOASTCENTERSTRING_OFFSET))(this, a1);
 		}
 
-		::System::Void _ToastCenterTextID(::System::Object* param)
+		::System::Void _ToastCenterTextID(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__TOASTCENTERTEXTID_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__TOASTCENTERTEXTID_OFFSET))(this, a1);
 		}
 
-		::System::Void _ShowCenterToast(::System::String* content)
+		::System::Void _ShowCenterToast(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__SHOWCENTERTOAST_OFFSET))(this, content);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__SHOWCENTERTOAST_OFFSET))(this, a1);
 		}
 
 		::System::Void _AddToPile()
@@ -126,9 +126,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__ADDTOPILE_OFFSET))(this);
 		}
 
-		::System::Boolean _OnAsyncLoad(::RPG::Client::IAssetOperation* operation)
+		::System::Boolean _OnAsyncLoad(::RPG::Client::IAssetOperation* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__ONASYNCLOAD_OFFSET))(this, operation);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__ONASYNCLOAD_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnHintItemLoadFinish()
@@ -136,19 +136,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__ONHINTITEMLOADFINISH_OFFSET))(this);
 		}
 
-		::System::Void _FadeIn(::System::UInt32 index)
+		::System::Void _FadeIn(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__FADEIN_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__FADEIN_OFFSET))(this, a1);
 		}
 
-		::System::Void _Showing(::System::UInt32 index, ::System::Single deltaTime)
+		::System::Void _Showing(::System::UInt32 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__SHOWING_OFFSET))(this, index, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__SHOWING_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _FadeOut(::System::UInt32 index)
+		::System::Void _FadeOut(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__FADEOUT_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__FADEOUT_OFFSET))(this, a1);
 		}
 
 		::System::Void _EnterMoving()
@@ -161,9 +161,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__ENDMOVING_OFFSET))(this);
 		}
 
-		::System::UInt32 _GetNextIndex(::System::UInt32 index)
+		::System::UInt32 _GetNextIndex(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__GETNEXTINDEX_OFFSET))(this, index);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PILETOAST__GETNEXTINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Void _ApplyLatencyLag()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupPropertySide_TypeDefinitionIndex = 17377;
+	inline static constexpr unsigned int GroupPropertySide_TypeDefinitionIndex = 17382;
 
 	enum class GroupPropertySide : ::System::Int32
 	{

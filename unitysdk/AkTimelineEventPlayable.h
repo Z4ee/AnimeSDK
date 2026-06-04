@@ -10,11 +10,11 @@ namespace AK::Wwise { class Event; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define AKTIMELINEEVENTPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1A664290)
-#define AKTIMELINEEVENTPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1A664280)
-#define AKTIMELINEEVENTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A664940)
+#define AKTIMELINEEVENTPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B4AF7A0)
+#define AKTIMELINEEVENTPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B4AF790)
+#define AKTIMELINEEVENTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AFD40)
 
-inline static constexpr unsigned int AkTimelineEventPlayable_TypeDefinitionIndex = 40431;
+inline static constexpr unsigned int AkTimelineEventPlayable_TypeDefinitionIndex = 41258;
 
 class AkTimelineEventPlayable : public ::UnityEngine::Playables::PlayableAsset
 {
@@ -40,8 +40,8 @@ public:
 		return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTIMELINEEVENTPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET))(this);
 	}
 
-	::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner)
+	::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
 	{
-		return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKTIMELINEEVENTPLAYABLE_CREATEPLAYABLE_OFFSET))(this, graph, owner);
+		return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKTIMELINEEVENTPLAYABLE_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 	}
 };

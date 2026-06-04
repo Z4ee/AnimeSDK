@@ -7,17 +7,17 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE2DIG_OFFSET UNITYSDK_OFFSET(0x22D1940)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE4DIG_OFFSET UNITYSDK_OFFSET(0x22D1930)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSECHAR_OFFSET UNITYSDK_OFFSET(0x22D1A00)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSEDATE_OFFSET UNITYSDK_OFFSET(0x22D1880)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIMEANDWHITESPACE_OFFSET UNITYSDK_OFFSET(0x22D18D0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIMEANDZONEANDWHITESPACE_OFFSET UNITYSDK_OFFSET(0x22D1890)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIME_OFFSET UNITYSDK_OFFSET(0x22D1910)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSEZONEANDWHITESPACE_OFFSET UNITYSDK_OFFSET(0x22D1920)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x22D1870)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_TEST_OFFSET UNITYSDK_OFFSET(0x19FF2C00)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FF3970)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE2DIG_OFFSET UNITYSDK_OFFSET(0x386CA30)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE4DIG_OFFSET UNITYSDK_OFFSET(0x386CA20)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSECHAR_OFFSET UNITYSDK_OFFSET(0x386CAF0)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSEDATE_OFFSET UNITYSDK_OFFSET(0x386C970)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIMEANDWHITESPACE_OFFSET UNITYSDK_OFFSET(0x386C9C0)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIMEANDZONEANDWHITESPACE_OFFSET UNITYSDK_OFFSET(0x386C980)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIME_OFFSET UNITYSDK_OFFSET(0x386CA00)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSEZONEANDWHITESPACE_OFFSET UNITYSDK_OFFSET(0x386CA10)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x386C960)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_TEST_OFFSET UNITYSDK_OFFSET(0x1AE67410)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE68190)
 
 namespace System::Xml::Schema
 {
@@ -27,7 +27,7 @@ namespace System::Xml::Schema
 	{
 		static ::Il2CppArray<::System::Int32>** StaticGet_Power10()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(XsdDateTime_Parser_TypeDefinitionIndex)->GetStaticField(0xDA20);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(XsdDateTime_Parser_TypeDefinitionIndex)->GetStaticField(0x16200);
 		}
 		::System::Xml::Schema::XsdDateTime_DateTimeTypeCode typeCode; // 0x10
 		::System::Int32 year; // 0x14
@@ -48,54 +48,54 @@ namespace System::Xml::Schema
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER__CCTOR_OFFSET))();
 		}
 
-		::System::Boolean Parse(::System::String* text, ::System::Xml::Schema::XsdDateTimeFlags kinds)
+		::System::Boolean Parse(::System::String* a1, ::System::Xml::Schema::XsdDateTimeFlags a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Xml::Schema::XsdDateTimeFlags))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE_OFFSET))(this, text, kinds);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Xml::Schema::XsdDateTimeFlags))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean ParseDate(::System::Int32 start)
+		::System::Boolean ParseDate(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSEDATE_OFFSET))(this, start);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSEDATE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ParseTimeAndZoneAndWhitespace(::System::Int32 start)
+		::System::Boolean ParseTimeAndZoneAndWhitespace(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIMEANDZONEANDWHITESPACE_OFFSET))(this, start);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIMEANDZONEANDWHITESPACE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ParseTimeAndWhitespace(::System::Int32 start)
+		::System::Boolean ParseTimeAndWhitespace(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIMEANDWHITESPACE_OFFSET))(this, start);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIMEANDWHITESPACE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ParseTime(::System::Int32& start)
+		::System::Boolean ParseTime(::System::Int32& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIME_OFFSET))(this, start);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSETIME_OFFSET))(this, a1);
 		}
 
-		::System::Boolean ParseZoneAndWhitespace(::System::Int32 start)
+		::System::Boolean ParseZoneAndWhitespace(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSEZONEANDWHITESPACE_OFFSET))(this, start);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSEZONEANDWHITESPACE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Parse4Dig(::System::Int32 start, ::System::Int32& num)
+		::System::Boolean Parse4Dig(::System::Int32 a1, ::System::Int32& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE4DIG_OFFSET))(this, start, num);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE4DIG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Parse2Dig(::System::Int32 start, ::System::Int32& num)
+		::System::Boolean Parse2Dig(::System::Int32 a1, ::System::Int32& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE2DIG_OFFSET))(this, start, num);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSE2DIG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean ParseChar(::System::Int32 start, ::System::Char ch)
+		::System::Boolean ParseChar(::System::Int32 a1, ::System::Char a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSECHAR_OFFSET))(this, start, ch);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_PARSECHAR_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Boolean Test(::System::Xml::Schema::XsdDateTimeFlags left, ::System::Xml::Schema::XsdDateTimeFlags right)
+		static ::System::Boolean Test(::System::Xml::Schema::XsdDateTimeFlags a1, ::System::Xml::Schema::XsdDateTimeFlags a2)
 		{
-			return ((::System::Boolean(*)(::System::Xml::Schema::XsdDateTimeFlags, ::System::Xml::Schema::XsdDateTimeFlags))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_TEST_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Xml::Schema::XsdDateTimeFlags, ::System::Xml::Schema::XsdDateTimeFlags))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDATETIME_PARSER_TEST_OFFSET))(a1, a2);
 		}
 	};
 }

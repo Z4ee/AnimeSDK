@@ -6,16 +6,16 @@ namespace IniParserEx { class ICodeFile; }
 namespace IniParserEx { class Token; }
 namespace System { class String; }
 
-#define INIPARSEREX_BASEPARSERWITHFILE_COMPILEDECLARATION_OFFSET UNITYSDK_OFFSET(0x1A41E390)
-#define INIPARSEREX_BASEPARSERWITHFILE_GETFILELOCATION_OFFSET UNITYSDK_OFFSET(0x1A41E280)
-#define INIPARSEREX_BASEPARSERWITHFILE_PARSE_OFFSET UNITYSDK_OFFSET(0x1A41E0A0)
-#define INIPARSEREX_BASEPARSERWITHFILE_POSTPARSERPROCESS_OFFSET UNITYSDK_OFFSET(0x1A41E270)
-#define INIPARSEREX_BASEPARSERWITHFILE_PREPARSERPROCESS_OFFSET UNITYSDK_OFFSET(0x1A41E260)
-#define INIPARSEREX_BASEPARSERWITHFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41E3A0)
+#define INIPARSEREX_BASEPARSERWITHFILE_COMPILEDECLARATION_OFFSET UNITYSDK_OFFSET(0x1B271750)
+#define INIPARSEREX_BASEPARSERWITHFILE_GETFILELOCATION_OFFSET UNITYSDK_OFFSET(0x1B271640)
+#define INIPARSEREX_BASEPARSERWITHFILE_PARSE_OFFSET UNITYSDK_OFFSET(0x1B271450)
+#define INIPARSEREX_BASEPARSERWITHFILE_POSTPARSERPROCESS_OFFSET UNITYSDK_OFFSET(0x1B271630)
+#define INIPARSEREX_BASEPARSERWITHFILE_PREPARSERPROCESS_OFFSET UNITYSDK_OFFSET(0x1B271620)
+#define INIPARSEREX_BASEPARSERWITHFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B271760)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int BaseParserWithFile_TypeDefinitionIndex = 3743;
+	inline static constexpr unsigned int BaseParserWithFile_TypeDefinitionIndex = 3917;
 
 	class BaseParserWithFile : public ::IniParserEx::BaseParser
 	{
@@ -25,29 +25,29 @@ namespace IniParserEx
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSERWITHFILE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Parse(::IniParserEx::ICodeFile* file)
+		::System::Void Parse(::IniParserEx::ICodeFile* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSERWITHFILE_PARSE_OFFSET))(this, file);
+			return ((::System::Void(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSERWITHFILE_PARSE_OFFSET))(this, a1);
 		}
 
-		::System::Void PreParserProcess(::IniParserEx::ICodeFile* file)
+		::System::Void PreParserProcess(::IniParserEx::ICodeFile* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSERWITHFILE_PREPARSERPROCESS_OFFSET))(this, file);
+			return ((::System::Void(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSERWITHFILE_PREPARSERPROCESS_OFFSET))(this, a1);
 		}
 
-		::System::Void PostParserProcess(::IniParserEx::ICodeFile* file)
+		::System::Void PostParserProcess(::IniParserEx::ICodeFile* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSERWITHFILE_POSTPARSERPROCESS_OFFSET))(this, file);
+			return ((::System::Void(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSERWITHFILE_POSTPARSERPROCESS_OFFSET))(this, a1);
 		}
 
-		::System::String* GetFileLocation(::IniParserEx::ICodeFile* file)
+		::System::String* GetFileLocation(::IniParserEx::ICodeFile* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSERWITHFILE_GETFILELOCATION_OFFSET))(this, file);
+			return ((::System::String*(*)(::PVOID, ::IniParserEx::ICodeFile*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSERWITHFILE_GETFILELOCATION_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CompileDeclaration(::IniParserEx::ICodeFile* file, ::IniParserEx::Token* token)
+		::System::Boolean CompileDeclaration(::IniParserEx::ICodeFile* a1, ::IniParserEx::Token* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSERWITHFILE_COMPILEDECLARATION_OFFSET))(this, file, token);
+			return ((::System::Boolean(*)(::PVOID, ::IniParserEx::ICodeFile*, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSERWITHFILE_COMPILEDECLARATION_OFFSET))(this, a1, a2);
 		}
 	};
 }

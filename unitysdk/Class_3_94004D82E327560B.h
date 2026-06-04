@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetUpTrainVisitorDialogue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_94004D82E327560B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1175A540)
-#define CLASS_3_94004D82E327560B__CTOR_OFFSET UNITYSDK_OFFSET(0x1175A510)
+#define CLASS_3_94004D82E327560B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x137CD0D0)
+#define CLASS_3_94004D82E327560B__CTOR_OFFSET UNITYSDK_OFFSET(0x137CD0A0)
 
-inline static constexpr unsigned int Class_3_94004D82E327560B_TypeDefinitionIndex = 49113;
+inline static constexpr unsigned int Class_3_94004D82E327560B_TypeDefinitionIndex = 49780;
 
 class Class_3_94004D82E327560B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetUpTrainVisitorDialogue*>
 {

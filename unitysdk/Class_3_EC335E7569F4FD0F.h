@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+class Class_2_231AB9D7CB560FEC;
+
+#define CLASS_3_EC335E7569F4FD0F_METHOD_3_14B90E8D92C1073E_OFFSET UNITYSDK_OFFSET(0x19987810)
+#define CLASS_3_EC335E7569F4FD0F_METHOD_3_2689645F20617A7A_OFFSET UNITYSDK_OFFSET(0x19987790)
+#define CLASS_3_EC335E7569F4FD0F__CTOR_OFFSET UNITYSDK_OFFSET(0x199877E0)
+
+inline static constexpr unsigned int Class_3_EC335E7569F4FD0F_TypeDefinitionIndex = 22802;
+
+class Class_3_EC335E7569F4FD0F : public ::RPG::GameCore::TaskConfig
+{
+public:
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_0; // 0x18
+	::Il2CppArray<::Class_2_231AB9D7CB560FEC*>* Field_3_1; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EC335E7569F4FD0F__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void Method_3_2689645F20617A7A(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_3_EC335E7569F4FD0F*& a2)
+	{
+		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_3_EC335E7569F4FD0F*&))((::PBYTE)hIl2Cpp + CLASS_3_EC335E7569F4FD0F_METHOD_3_2689645F20617A7A_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_3_14B90E8D92C1073E(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_3_EC335E7569F4FD0F* a2)
+	{
+		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_3_EC335E7569F4FD0F*))((::PBYTE)hIl2Cpp + CLASS_3_EC335E7569F4FD0F_METHOD_3_14B90E8D92C1073E_OFFSET))(a1, a2);
+	}
+};

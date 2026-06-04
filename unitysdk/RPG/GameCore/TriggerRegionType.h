@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerRegionType_TypeDefinitionIndex = 10316;
+	inline static constexpr unsigned int TriggerRegionType_TypeDefinitionIndex = 10147;
 
 	enum class TriggerRegionType : ::System::Int32
 	{

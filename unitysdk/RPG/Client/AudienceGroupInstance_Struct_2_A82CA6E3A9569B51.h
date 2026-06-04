@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceGroupInstance_Struct_2_A82CA6E3A9569B51_TypeDefinitionIndex = 63749;
+	inline static constexpr unsigned int AudienceGroupInstance_Struct_2_A82CA6E3A9569B51_TypeDefinitionIndex = 64670;
 
 	struct alignas(8) AudienceGroupInstance_Struct_2_A82CA6E3A9569B51
 	{

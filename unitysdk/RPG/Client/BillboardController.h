@@ -6,16 +6,16 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_3_3CD00A1D2AD9A3A8;
+class Class_3_F9239572AE67D4C2;
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_BILLBOARDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x9E9B650)
+#define RPG_CLIENT_BILLBOARDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB4373E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BillboardController_TypeDefinitionIndex = 65268;
+	inline static constexpr unsigned int BillboardController_TypeDefinitionIndex = 66195;
 
-	class BillboardController : public ::ScenenLightManager::SceneManagedLightTAMonoPluginBase_1<::Class_3_3CD00A1D2AD9A3A8*>
+	class BillboardController : public ::ScenenLightManager::SceneManagedLightTAMonoPluginBase_1<::Class_3_F9239572AE67D4C2*>
 	{
 	public:
 		::System::Boolean BillboardOff; // 0x30

@@ -7,30 +7,30 @@
 
 namespace Epic::OnlineServices::Logging { class LogMessageFunc; }
 
-#define EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_LOGMESSAGEFUNCINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8ECCDF0)
-#define EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_SETCALLBACK_OFFSET UNITYSDK_OFFSET(0x8ECCEB0)
-#define EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_SETLOGLEVEL_OFFSET UNITYSDK_OFFSET(0x8ECCFB0)
+#define EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_LOGMESSAGEFUNCINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA300180)
+#define EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_SETCALLBACK_OFFSET UNITYSDK_OFFSET(0xA300250)
+#define EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_SETLOGLEVEL_OFFSET UNITYSDK_OFFSET(0xA300370)
 
 namespace Epic::OnlineServices::Logging
 {
-	inline static constexpr unsigned int LoggingInterface_TypeDefinitionIndex = 41810;
+	inline static constexpr unsigned int LoggingInterface_TypeDefinitionIndex = 42613;
 
 	class LoggingInterface : public ::System::Object
 	{
 	public:
-		static ::Epic::OnlineServices::Result SetCallback(::Epic::OnlineServices::Logging::LogMessageFunc* callback)
+		static ::Epic::OnlineServices::Result SetCallback(::Epic::OnlineServices::Logging::LogMessageFunc* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::Epic::OnlineServices::Logging::LogMessageFunc*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_SETCALLBACK_OFFSET))(callback);
+			return ((::Epic::OnlineServices::Result(*)(::Epic::OnlineServices::Logging::LogMessageFunc*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_SETCALLBACK_OFFSET))(a1);
 		}
 
-		static ::Epic::OnlineServices::Result SetLogLevel(::Epic::OnlineServices::Logging::LogCategory logCategory, ::Epic::OnlineServices::Logging::LogLevel logLevel)
+		static ::Epic::OnlineServices::Result SetLogLevel(::Epic::OnlineServices::Logging::LogCategory a1, ::Epic::OnlineServices::Logging::LogLevel a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::Epic::OnlineServices::Logging::LogCategory, ::Epic::OnlineServices::Logging::LogLevel))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_SETLOGLEVEL_OFFSET))(logCategory, logLevel);
+			return ((::Epic::OnlineServices::Result(*)(::Epic::OnlineServices::Logging::LogCategory, ::Epic::OnlineServices::Logging::LogLevel))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_SETLOGLEVEL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void LogMessageFuncInternalImplementation(::System::IntPtr message)
+		static ::System::Void LogMessageFuncInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_LOGMESSAGEFUNCINTERNALIMPLEMENTATION_OFFSET))(message);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOGGING_LOGGINGINTERFACE_LOGMESSAGEFUNCINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

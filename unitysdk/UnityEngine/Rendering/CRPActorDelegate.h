@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Behaviour.h"
 
-#define UNITYENGINE_RENDERING_CRPACTORDELEGATE_SETSAFEDELETE_OFFSET UNITYSDK_OFFSET(0x1A476E60)
+#define UNITYENGINE_RENDERING_CRPACTORDELEGATE_SETSAFEDELETE_OFFSET UNITYSDK_OFFSET(0x1B2C5010)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPActorDelegate_TypeDefinitionIndex = 4675;
+	inline static constexpr unsigned int CRPActorDelegate_TypeDefinitionIndex = 4849;
 
 	class CRPActorDelegate : public ::UnityEngine::Behaviour
 	{
 	public:
-		static ::System::Void SetSafeDelete(::System::Boolean enable)
+		static ::System::Void SetSafeDelete(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTORDELEGATE_SETSAFEDELETE_OFFSET))(enable);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTORDELEGATE_SETSAFEDELETE_OFFSET))(a1);
 		}
 	};
 }

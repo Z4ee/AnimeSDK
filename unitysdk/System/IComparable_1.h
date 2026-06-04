@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int IComparable_1_TypeDefinitionIndex = 276;
+	inline static constexpr unsigned int IComparable_1_TypeDefinitionIndex = 275;
 
 	template <typename T>
 	class IComparable_1

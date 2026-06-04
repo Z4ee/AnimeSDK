@@ -18,39 +18,39 @@ namespace RPG { template <typename T> class PoolablePooledSet_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_REFERENCEPOOL_ACQUIRESTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x17AD95B0)
-#define RPG_REFERENCEPOOL_ACQUIRE_OFFSET UNITYSDK_OFFSET(0x17AD90E0)
-#define RPG_REFERENCEPOOL_ADD_OFFSET UNITYSDK_OFFSET(0x17AD9670)
-#define RPG_REFERENCEPOOL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x17AD8F20)
-#define RPG_REFERENCEPOOL_GETREFERENCECOLLECTION_OFFSET UNITYSDK_OFFSET(0x17AD92C0)
-#define RPG_REFERENCEPOOL_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x17AD8EF0)
-#define RPG_REFERENCEPOOL_GET_ENABLESTRICTCHECK_OFFSET UNITYSDK_OFFSET(0x17AD8ED0)
-#define RPG_REFERENCEPOOL_INTERNALCHECKREFERENCETYPE_OFFSET UNITYSDK_OFFSET(0x17AD9110)
-#define RPG_REFERENCEPOOL_RELEASEALLAUTORELEASEREFERENCE_OFFSET UNITYSDK_OFFSET(0x17AD8970)
-#define RPG_REFERENCEPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x17AD9600)
-#define RPG_REFERENCEPOOL_REMOVEALL_OFFSET UNITYSDK_OFFSET(0x17AD9920)
-#define RPG_REFERENCEPOOL_REMOVE_OFFSET UNITYSDK_OFFSET(0x17AD9820)
-#define RPG_REFERENCEPOOL_SET_ENABLESTRICTCHECK_OFFSET UNITYSDK_OFFSET(0x17AD8EE0)
-#define RPG_REFERENCEPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x17AD9A60)
+#define RPG_REFERENCEPOOL_ACQUIRESTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x18887270)
+#define RPG_REFERENCEPOOL_ACQUIRE_OFFSET UNITYSDK_OFFSET(0x18886D90)
+#define RPG_REFERENCEPOOL_ADD_OFFSET UNITYSDK_OFFSET(0x18887330)
+#define RPG_REFERENCEPOOL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x18886C10)
+#define RPG_REFERENCEPOOL_GETREFERENCECOLLECTION_OFFSET UNITYSDK_OFFSET(0x18886F60)
+#define RPG_REFERENCEPOOL_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x18886BE0)
+#define RPG_REFERENCEPOOL_GET_ENABLESTRICTCHECK_OFFSET UNITYSDK_OFFSET(0x18886BC0)
+#define RPG_REFERENCEPOOL_INTERNALCHECKREFERENCETYPE_OFFSET UNITYSDK_OFFSET(0x18886DC0)
+#define RPG_REFERENCEPOOL_RELEASEALLAUTORELEASEREFERENCE_OFFSET UNITYSDK_OFFSET(0x188866C0)
+#define RPG_REFERENCEPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x188872C0)
+#define RPG_REFERENCEPOOL_REMOVEALL_OFFSET UNITYSDK_OFFSET(0x188875C0)
+#define RPG_REFERENCEPOOL_REMOVE_OFFSET UNITYSDK_OFFSET(0x188874D0)
+#define RPG_REFERENCEPOOL_SET_ENABLESTRICTCHECK_OFFSET UNITYSDK_OFFSET(0x18886BD0)
+#define RPG_REFERENCEPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x188876E0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ReferencePool_TypeDefinitionIndex = 6418;
+	inline static constexpr unsigned int ReferencePool_TypeDefinitionIndex = 5620;
 
 	class ReferencePool : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::ReferencePool_AutoReleaseReferenceObjectDatas>** StaticGet__AutoReleaseRefrenceDataList()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::ReferencePool_AutoReleaseReferenceObjectDatas>**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x490);
+			return (::System::Collections::Generic::List_1<::RPG::ReferencePool_AutoReleaseReferenceObjectDatas>**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x3D0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::RPG::ReferencePool_ReferenceCollection*>** StaticGet_s_ReferenceCollections()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::RPG::ReferencePool_ReferenceCollection*>**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x498);
+			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::RPG::ReferencePool_ReferenceCollection*>**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x3D8);
 		}
 		static ::System::Boolean* StaticGet_m_EnableStrictCheck()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x400);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x350);
 		}
 
 		static ::System::Void _cctor()
@@ -68,9 +68,9 @@ namespace RPG
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_GET_ENABLESTRICTCHECK_OFFSET))();
 		}
 
-		static ::System::Void set_EnableStrictCheck(::System::Boolean value)
+		static ::System::Void set_EnableStrictCheck(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_SET_ENABLESTRICTCHECK_OFFSET))(value);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_SET_ENABLESTRICTCHECK_OFFSET))(a1);
 		}
 
 		static ::System::Int32 get_Count()
@@ -83,9 +83,9 @@ namespace RPG
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_CLEARALL_OFFSET))();
 		}
 
-		static ::RPG::IReference* Acquire(::System::RuntimeTypeHandle typeHandle)
+		static ::RPG::IReference* Acquire(::System::RuntimeTypeHandle a1)
 		{
-			return ((::RPG::IReference*(*)(::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_ACQUIRE_OFFSET))(typeHandle);
+			return ((::RPG::IReference*(*)(::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_ACQUIRE_OFFSET))(a1);
 		}
 
 		static ::Class_1_85D8814B23485BB2* AcquireStringBuilder()
@@ -93,34 +93,34 @@ namespace RPG
 			return ((::Class_1_85D8814B23485BB2*(*)())((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_ACQUIRESTRINGBUILDER_OFFSET))();
 		}
 
-		static ::System::Void Release(::RPG::IReference* reference)
+		static ::System::Void Release(::RPG::IReference* a1)
 		{
-			return ((::System::Void(*)(::RPG::IReference*))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_RELEASE_OFFSET))(reference);
+			return ((::System::Void(*)(::RPG::IReference*))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_RELEASE_OFFSET))(a1);
 		}
 
-		static ::System::Void Add(::System::RuntimeTypeHandle typeHandle, ::System::Int32 count)
+		static ::System::Void Add(::System::RuntimeTypeHandle a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::RuntimeTypeHandle, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_ADD_OFFSET))(typeHandle, count);
+			return ((::System::Void(*)(::System::RuntimeTypeHandle, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_ADD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Remove(::System::RuntimeTypeHandle typeHandle, ::System::Int32 count)
+		static ::System::Void Remove(::System::RuntimeTypeHandle a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::RuntimeTypeHandle, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REMOVE_OFFSET))(typeHandle, count);
+			return ((::System::Void(*)(::System::RuntimeTypeHandle, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REMOVE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void RemoveAll(::System::RuntimeTypeHandle typeHandle)
+		static ::System::Void RemoveAll(::System::RuntimeTypeHandle a1)
 		{
-			return ((::System::Void(*)(::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REMOVEALL_OFFSET))(typeHandle);
+			return ((::System::Void(*)(::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_REMOVEALL_OFFSET))(a1);
 		}
 
-		static ::System::Void InternalCheckReferenceType(::System::RuntimeTypeHandle typeHandle)
+		static ::System::Void InternalCheckReferenceType(::System::RuntimeTypeHandle a1)
 		{
-			return ((::System::Void(*)(::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_INTERNALCHECKREFERENCETYPE_OFFSET))(typeHandle);
+			return ((::System::Void(*)(::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_INTERNALCHECKREFERENCETYPE_OFFSET))(a1);
 		}
 
-		static ::RPG::ReferencePool_ReferenceCollection* GetReferenceCollection(::System::RuntimeTypeHandle typeHandle)
+		static ::RPG::ReferencePool_ReferenceCollection* GetReferenceCollection(::System::RuntimeTypeHandle a1)
 		{
-			return ((::RPG::ReferencePool_ReferenceCollection*(*)(::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_GETREFERENCECOLLECTION_OFFSET))(typeHandle);
+			return ((::RPG::ReferencePool_ReferenceCollection*(*)(::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_GETREFERENCECOLLECTION_OFFSET))(a1);
 		}
 	};
 }

@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F10070)
-#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x8F10090)
-#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F10080)
-#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x8F100A0)
-#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8F100B0)
+#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA3381E0)
+#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0xA338200)
+#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA3381F0)
+#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0xA338210)
+#define EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA338220)
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int AddNotifyParticipantStatusChangedOptions_TypeDefinitionIndex = 41520;
+	inline static constexpr unsigned int AddNotifyParticipantStatusChangedOptions_TypeDefinitionIndex = 42323;
 
 	class AddNotifyParticipantStatusChangedOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
-		::System::String* _RoomName_k__BackingField; // 0x18
+		::System::String* _RoomName_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RoomName()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_GET_ROOMNAME_OFFSET))(this);
 		}
 
-		::System::Void set_RoomName(::System::String* value)
+		::System::Void set_RoomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_SET_ROOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_ADDNOTIFYPARTICIPANTSTATUSCHANGEDOPTIONS_SET_ROOMNAME_OFFSET))(this, a1);
 		}
 	};
 }

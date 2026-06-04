@@ -6,12 +6,12 @@ namespace RPG::Client { class FABRIK; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FABRIK_WEAPONCONTROL_OTHERHAND_METHOD_1_CD5C08A2521794A0_OFFSET UNITYSDK_OFFSET(0xA3144A0)
-#define RPG_CLIENT_FABRIK_WEAPONCONTROL_OTHERHAND__CTOR_OFFSET UNITYSDK_OFFSET(0xA3145A0)
+#define RPG_CLIENT_FABRIK_WEAPONCONTROL_OTHERHAND_METHOD_1_CD5C08A2521794A0_OFFSET UNITYSDK_OFFSET(0xB9653A0)
+#define RPG_CLIENT_FABRIK_WEAPONCONTROL_OTHERHAND__CTOR_OFFSET UNITYSDK_OFFSET(0xB9654A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FABRIK_WeaponControl_OtherHand_TypeDefinitionIndex = 63089;
+	inline static constexpr unsigned int FABRIK_WeaponControl_OtherHand_TypeDefinitionIndex = 64006;
 
 	class FABRIK_WeaponControl_OtherHand : public ::System::Object
 	{

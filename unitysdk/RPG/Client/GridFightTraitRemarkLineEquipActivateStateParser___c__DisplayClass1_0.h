@@ -6,12 +6,12 @@ namespace RPG::Client { class GridFightNPC; }
 namespace RPG::Client { class GridFightRole; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5BE040)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0___GETISACTIVE_B__2_OFFSET UNITYSDK_OFFSET(0xA5BE100)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC30240)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0___GETISACTIVE_B__2_OFFSET UNITYSDK_OFFSET(0xBC30300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_0_TypeDefinitionIndex = 60286;
+	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_0_TypeDefinitionIndex = 61221;
 
 	class GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __GetIsActive_b__2(::System::UInt32 equipID)
+		::System::Boolean __GetIsActive_b__2(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0___GETISACTIVE_B__2_OFFSET))(this, equipID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0___GETISACTIVE_B__2_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class FightFestRaceData; }
 
-#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS94_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA37A4A0)
-#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS94_0__GETRACEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA380550)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS94_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBA1BCE0)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS94_0__GETRACEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xBA1BCF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestModule___c__DisplayClass94_0_TypeDefinitionIndex = 59057;
+	inline static constexpr unsigned int FightFestModule___c__DisplayClass94_0_TypeDefinitionIndex = 59987;
 
 	class FightFestModule___c__DisplayClass94_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS94_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetRaceData_b__0(::RPG::Client::FightFestRaceData* race)
+		::System::Boolean _GetRaceData_b__0(::RPG::Client::FightFestRaceData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FightFestRaceData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS94_0__GETRACEDATA_B__0_OFFSET))(this, race);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FightFestRaceData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS94_0__GETRACEDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,20 +5,20 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define UNITYENGINE_PROBUILDER_TRIANGLE_CONTAINSEDGE_OFFSET UNITYSDK_OFFSET(0x22DB870)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22DB790)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22CCCB0)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22DB7F0)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_A_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_B_OFFSET UNITYSDK_OFFSET(0x1DA80)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_C_OFFSET UNITYSDK_OFFSET(0xD240)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_INDICES_OFFSET UNITYSDK_OFFSET(0x22DB780)
-#define UNITYENGINE_PROBUILDER_TRIANGLE_ISADJACENT_OFFSET UNITYSDK_OFFSET(0x22DB810)
-#define UNITYENGINE_PROBUILDER_TRIANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0xD3340)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_CONTAINSEDGE_OFFSET UNITYSDK_OFFSET(0x38772E0)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3877200)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3866630)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3877260)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_A_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_B_OFFSET UNITYSDK_OFFSET(0x1E110)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_C_OFFSET UNITYSDK_OFFSET(0xDAD0)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_GET_INDICES_OFFSET UNITYSDK_OFFSET(0x38771A0)
+#define UNITYENGINE_PROBUILDER_TRIANGLE_ISADJACENT_OFFSET UNITYSDK_OFFSET(0x3877280)
+#define UNITYENGINE_PROBUILDER_TRIANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x82420)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Triangle_TypeDefinitionIndex = 39998;
+	inline static constexpr unsigned int Triangle_TypeDefinitionIndex = 40825;
 
 	struct alignas(4) Triangle
 	{
@@ -26,9 +26,9 @@ namespace UnityEngine::ProBuilder
 		::System::Int32 m_B; // 0x14
 		::System::Int32 m_C; // 0x18
 
-		::System::Void _ctor(::System::Int32 a, ::System::Int32 b, ::System::Int32 c)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE__CTOR_OFFSET))(this, a, b, c);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_a()
@@ -51,14 +51,14 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Collections::Generic::IEnumerable_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_GET_INDICES_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::UnityEngine::ProBuilder::Triangle other)
+		::System::Boolean Equals(::UnityEngine::ProBuilder::Triangle a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Triangle))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Triangle))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -66,15 +66,15 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean IsAdjacent(::UnityEngine::ProBuilder::Triangle other)
+		::System::Boolean IsAdjacent(::UnityEngine::ProBuilder::Triangle a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Triangle))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_ISADJACENT_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Triangle))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_ISADJACENT_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::Boolean ContainsEdge(::UnityEngine::ProBuilder::Edge edge)
+		::System::Boolean ContainsEdge(::UnityEngine::ProBuilder::Edge a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_CONTAINSEDGE_OFFSET))(this, edge);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_TRIANGLE_CONTAINSEDGE_OFFSET))(this, a1);
 		}
 		*/
 	};

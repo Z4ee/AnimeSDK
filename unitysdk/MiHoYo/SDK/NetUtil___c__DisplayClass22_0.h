@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetUtil_ResponseCallback; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17584390)
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS22_0__TRYHTTPREQUESTBYHTTPDNS_B__0_OFFSET UNITYSDK_OFFSET(0x17584730)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1836CDC0)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS22_0__TRYHTTPREQUESTBYHTTPDNS_B__0_OFFSET UNITYSDK_OFFSET(0x1836D160)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil___c__DisplayClass22_0_TypeDefinitionIndex = 7236;
+	inline static constexpr unsigned int NetUtil___c__DisplayClass22_0_TypeDefinitionIndex = 8139;
 
 	class NetUtil___c__DisplayClass22_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS22_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _TryHttpRequestByHttpDns_b__0(::System::String* strResponse)
+		::System::Void _TryHttpRequestByHttpDns_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS22_0__TRYHTTPREQUESTBYHTTPDNS_B__0_OFFSET))(this, strResponse);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS22_0__TRYHTTPREQUESTBYHTTPDNS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

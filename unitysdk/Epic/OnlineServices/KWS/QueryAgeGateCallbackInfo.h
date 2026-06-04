@@ -7,30 +7,30 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E964C0)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_AGEOFCONSENT_OFFSET UNITYSDK_OFFSET(0x8E964A0)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8E96460)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_COUNTRYCODE_OFFSET UNITYSDK_OFFSET(0x8E96480)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E96440)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8E968F0)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_AGEOFCONSENT_OFFSET UNITYSDK_OFFSET(0x8E964B0)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8E96470)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_COUNTRYCODE_OFFSET UNITYSDK_OFFSET(0x8E96490)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8E964E0)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E96450)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8E96A20)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2D2A60)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_AGEOFCONSENT_OFFSET UNITYSDK_OFFSET(0xA2D2A40)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2D2A00)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_COUNTRYCODE_OFFSET UNITYSDK_OFFSET(0xA2D2A20)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2D29E0)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA2D2E90)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_AGEOFCONSENT_OFFSET UNITYSDK_OFFSET(0xA2D2A50)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2D2A10)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_COUNTRYCODE_OFFSET UNITYSDK_OFFSET(0xA2D2A30)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA2D2A80)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2D29F0)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA2D2FC0)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int QueryAgeGateCallbackInfo_TypeDefinitionIndex = 42080;
+	inline static constexpr unsigned int QueryAgeGateCallbackInfo_TypeDefinitionIndex = 42883;
 
 	class QueryAgeGateCallbackInfo : public ::System::Object
 	{
 	public:
 		::System::String* _CountryCode_k__BackingField; // 0x10
 		::System::Object* _ClientData_k__BackingField; // 0x18
-		::System::UInt32 _AgeOfConsent_k__BackingField; // 0x20
-		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x24
+		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x20
+		::System::UInt32 _AgeOfConsent_k__BackingField; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -42,9 +42,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -52,9 +52,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::System::String* get_CountryCode()
@@ -62,9 +62,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_COUNTRYCODE_OFFSET))(this);
 		}
 
-		::System::Void set_CountryCode(::System::String* value)
+		::System::Void set_CountryCode(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_COUNTRYCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_COUNTRYCODE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_AgeOfConsent()
@@ -72,9 +72,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GET_AGEOFCONSENT_OFFSET))(this);
 		}
 
-		::System::Void set_AgeOfConsent(::System::UInt32 value)
+		::System::Void set_AgeOfConsent(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_AGEOFCONSENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_AGEOFCONSENT_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -82,14 +82,14 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::KWS::QueryAgeGateCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::KWS::QueryAgeGateCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::KWS::QueryAgeGateCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::KWS::QueryAgeGateCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_QUERYAGEGATECALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

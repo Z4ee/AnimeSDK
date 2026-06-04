@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_602;
+class Class_0_16E4307DCC419505_625;
 namespace RPG::Client { class PhotoGraphAimContainer_PhotoGraphAim; }
 namespace RPG::Client { class PhotoGraphSystem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__DISPLAYCLASS107_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC7C800)
-#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__DISPLAYCLASS107_0___NOTIFYSHOTNONPOSTPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0xAC81080)
+#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__DISPLAYCLASS107_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC38FC40)
+#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__DISPLAYCLASS107_0___NOTIFYSHOTNONPOSTPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0xC394450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphSystem___c__DisplayClass107_0_TypeDefinitionIndex = 56180;
+	inline static constexpr unsigned int PhotoGraphSystem___c__DisplayClass107_0_TypeDefinitionIndex = 56942;
 
 	class PhotoGraphSystem___c__DisplayClass107_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::PhotoGraphSystem* __4__this; // 0x10
+		::Class_0_16E4307DCC419505_625* pEnvSystem; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim*>* targetAimList; // 0x18
-		::Class_0_16E4307DCC419505_602* pEnvSystem; // 0x20
+		::RPG::Client::PhotoGraphSystem* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

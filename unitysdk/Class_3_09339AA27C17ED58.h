@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class GridFightShowTraitEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_09339AA27C17ED58_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1187CE00)
-#define CLASS_3_09339AA27C17ED58__CTOR_OFFSET UNITYSDK_OFFSET(0x1187CDD0)
+#define CLASS_3_09339AA27C17ED58_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA5319A0)
+#define CLASS_3_09339AA27C17ED58__CTOR_OFFSET UNITYSDK_OFFSET(0xA531970)
 
-inline static constexpr unsigned int Class_3_09339AA27C17ED58_TypeDefinitionIndex = 53633;
+inline static constexpr unsigned int Class_3_09339AA27C17ED58_TypeDefinitionIndex = 54346;
 
 class Class_3_09339AA27C17ED58 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GridFightShowTraitEffect*>
 {

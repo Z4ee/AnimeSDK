@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRRenderModelError_TypeDefinitionIndex = 36019;
+	inline static constexpr unsigned int EVRRenderModelError_TypeDefinitionIndex = 36319;
 
 	enum class EVRRenderModelError : ::System::Int32
 	{

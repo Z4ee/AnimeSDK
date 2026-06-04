@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_9BA19A360810BFDC_OFFSET UNITYSDK_OFFSET(0x18643660)
-#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_A98AC0A0959AAA7D_OFFSET UNITYSDK_OFFSET(0x186435E0)
-#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x18643630)
+#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_96CF51151A4ADA1E_OFFSET UNITYSDK_OFFSET(0x194125D0)
+#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_A4151B6BBD8048F5_OFFSET UNITYSDK_OFFSET(0x19412650)
+#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x19412620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddStageAbilityByName_TypeDefinitionIndex = 21894;
+	inline static constexpr unsigned int AddStageAbilityByName_TypeDefinitionIndex = 21718;
 
 	class AddStageAbilityByName : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDSTAGEABILITYBYNAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A98AC0A0959AAA7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddStageAbilityByName*& a2)
+		static ::System::Void Method_3_96CF51151A4ADA1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddStageAbilityByName*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddStageAbilityByName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_A98AC0A0959AAA7D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddStageAbilityByName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_96CF51151A4ADA1E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9BA19A360810BFDC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddStageAbilityByName* a2)
+		static ::System::Void Method_3_A4151B6BBD8048F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddStageAbilityByName* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddStageAbilityByName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_9BA19A360810BFDC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddStageAbilityByName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_A4151B6BBD8048F5_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_D10B9F60C69ABAA3_METHOD_1_B4588F7318AA605B_OFFSET UNITYSDK_OFFSET(0x11AEF460)
-#define CLASS_1_D10B9F60C69ABAA3_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x11AEF510)
-#define CLASS_1_D10B9F60C69ABAA3_METHOD_1_DDC85F62B5DDA47A_OFFSET UNITYSDK_OFFSET(0x11AEF550)
-#define CLASS_1_D10B9F60C69ABAA3__CTOR_OFFSET UNITYSDK_OFFSET(0x11AEF770)
+#define CLASS_1_D10B9F60C69ABAA3_METHOD_1_B4588F7318AA605B_OFFSET UNITYSDK_OFFSET(0xA910DF0)
+#define CLASS_1_D10B9F60C69ABAA3_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xA910EA0)
+#define CLASS_1_D10B9F60C69ABAA3_METHOD_1_DB91129DD5DFDB1B_OFFSET UNITYSDK_OFFSET(0xA910EE0)
+#define CLASS_1_D10B9F60C69ABAA3__CTOR_OFFSET UNITYSDK_OFFSET(0xA911100)
 
-inline static constexpr unsigned int Class_1_D10B9F60C69ABAA3_TypeDefinitionIndex = 63915;
+inline static constexpr unsigned int Class_1_D10B9F60C69ABAA3_TypeDefinitionIndex = 64836;
 
 class Class_1_D10B9F60C69ABAA3 : public ::System::Object
 {
@@ -35,8 +35,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D10B9F60C69ABAA3_METHOD_1_CA373AA1C7054598_OFFSET))(this);
 	}
 
-	::System::Void Method_1_DDC85F62B5DDA47A(::RPG::Client::GlobalDispatchData* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* a2)
+	::System::Void Method_1_DB91129DD5DFDB1B(::RPG::Client::GlobalDispatchData* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::GlobalDispatchData*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>*))((::PBYTE)hIl2Cpp + CLASS_1_D10B9F60C69ABAA3_METHOD_1_DDC85F62B5DDA47A_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::GlobalDispatchData*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>*))((::PBYTE)hIl2Cpp + CLASS_1_D10B9F60C69ABAA3_METHOD_1_DB91129DD5DFDB1B_OFFSET))(this, a1, a2);
 	}
 };

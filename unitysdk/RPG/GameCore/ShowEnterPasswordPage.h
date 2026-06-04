@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_4BF7F001F01CC6C4_OFFSET UNITYSDK_OFFSET(0x18E5C600)
-#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_8FEE103B7CAE3861_OFFSET UNITYSDK_OFFSET(0x18E5C580)
-#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x18E5C5D0)
+#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_56608EA3240EF69A_OFFSET UNITYSDK_OFFSET(0x19C78780)
+#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_EECD9ECA405762B9_OFFSET UNITYSDK_OFFSET(0x19C78800)
+#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C787D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowEnterPasswordPage_TypeDefinitionIndex = 20807;
+	inline static constexpr unsigned int ShowEnterPasswordPage_TypeDefinitionIndex = 20731;
 
 	class ShowEnterPasswordPage : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,14 +32,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWENTERPASSWORDPAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8FEE103B7CAE3861(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEnterPasswordPage*& a2)
+		static ::System::Void Method_3_56608EA3240EF69A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEnterPasswordPage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEnterPasswordPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_8FEE103B7CAE3861_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEnterPasswordPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_56608EA3240EF69A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4BF7F001F01CC6C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEnterPasswordPage* a2)
+		static ::System::Void Method_3_EECD9ECA405762B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEnterPasswordPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEnterPasswordPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_4BF7F001F01CC6C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEnterPasswordPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_EECD9ECA405762B9_OFFSET))(a1, a2);
 		}
 	};
 }

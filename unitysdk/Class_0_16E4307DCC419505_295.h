@@ -1,12 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Car;
-namespace BansheeGz::BGSpline::Components { class BGCcMath; }
-namespace BansheeGz::BGSpline::Curve { class BGCurve; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_295_TypeDefinitionIndex = 43884;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_295_TypeDefinitionIndex = 40632;
 
 class Class_0_16E4307DCC419505_295
 {

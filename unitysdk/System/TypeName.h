@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace System
 {
-	inline static constexpr unsigned int TypeName_TypeDefinitionIndex = 436;
+	inline static constexpr unsigned int TypeName_TypeDefinitionIndex = 435;
 
 	class TypeName
 	{

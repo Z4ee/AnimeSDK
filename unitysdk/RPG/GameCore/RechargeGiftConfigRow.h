@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C90880)
-#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C90F30)
+#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AB4F50)
+#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB55C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RechargeGiftConfigRow_TypeDefinitionIndex = 13823;
+	inline static constexpr unsigned int RechargeGiftConfigRow_TypeDefinitionIndex = 13889;
 
 	class RechargeGiftConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* DiscountForFiat; // 0x10
-		::Il2CppArray<::System::UInt32>* GiftIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* GiftIDList; // 0x10
+		::Il2CppArray<::System::String*>* DiscountForFiat; // 0x18
 		::System::Single Discount; // 0x20
 		::System::UInt32 GiftType; // 0x24
 
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECHARGEGIFTCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RechargeGiftConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RechargeGiftConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RechargeGiftConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECHARGEGIFTCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RechargeGiftConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECHARGEGIFTCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

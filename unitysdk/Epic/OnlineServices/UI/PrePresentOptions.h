@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_UI_PREPRESENTOPTIONS_GET_PLATFORMSPECIFICDATA_OFFSET UNITYSDK_OFFSET(0x8BF5620)
-#define EPIC_ONLINESERVICES_UI_PREPRESENTOPTIONS_SET_PLATFORMSPECIFICDATA_OFFSET UNITYSDK_OFFSET(0x8BF5630)
-#define EPIC_ONLINESERVICES_UI_PREPRESENTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BF5640)
+#define EPIC_ONLINESERVICES_UI_PREPRESENTOPTIONS_GET_PLATFORMSPECIFICDATA_OFFSET UNITYSDK_OFFSET(0xA102A90)
+#define EPIC_ONLINESERVICES_UI_PREPRESENTOPTIONS_SET_PLATFORMSPECIFICDATA_OFFSET UNITYSDK_OFFSET(0xA102AA0)
+#define EPIC_ONLINESERVICES_UI_PREPRESENTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA102AB0)
 
 namespace Epic::OnlineServices::UI
 {
-	inline static constexpr unsigned int PrePresentOptions_TypeDefinitionIndex = 41147;
+	inline static constexpr unsigned int PrePresentOptions_TypeDefinitionIndex = 41950;
 
 	class PrePresentOptions : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace Epic::OnlineServices::UI
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_PREPRESENTOPTIONS_GET_PLATFORMSPECIFICDATA_OFFSET))(this);
 		}
 
-		::System::Void set_PlatformSpecificData(::System::IntPtr value)
+		::System::Void set_PlatformSpecificData(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_PREPRESENTOPTIONS_SET_PLATFORMSPECIFICDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_PREPRESENTOPTIONS_SET_PLATFORMSPECIFICDATA_OFFSET))(this, a1);
 		}
 	};
 }

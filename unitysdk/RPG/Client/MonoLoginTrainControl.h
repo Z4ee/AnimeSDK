@@ -8,29 +8,29 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA9DAD00)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0xA9DA770)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_70CD9A040B4290BE_OFFSET UNITYSDK_OFFSET(0xA9DA3C0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_732EDB3121B072B2_OFFSET UNITYSDK_OFFSET(0xA9DA5C0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xA9DAF60)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA9D9F60)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0xA9DAFE0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xA9DAFB0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC128DC0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_70CD9A040B4290BE_OFFSET UNITYSDK_OFFSET(0xC1283D0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_7FBAA229ED524F8E_OFFSET UNITYSDK_OFFSET(0xC1287E0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_9B1F2653496E5C47_OFFSET UNITYSDK_OFFSET(0xC128600)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC129020)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC127E00)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0xC1290A0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC129070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLoginTrainControl_TypeDefinitionIndex = 64676;
+	inline static constexpr unsigned int MonoLoginTrainControl_TypeDefinitionIndex = 65597;
 
 	class MonoLoginTrainControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_9()
+		static ::System::Int32* StaticGet_Field_5_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoLoginTrainControl_TypeDefinitionIndex)->GetStaticField(0xE490);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoLoginTrainControl_TypeDefinitionIndex)->GetStaticField(0x138F0);
 		}
-		static ::System::Int32* StaticGet_Field_5_10()
+		static ::System::Int32* StaticGet_Field_5_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoLoginTrainControl_TypeDefinitionIndex)->GetStaticField(0xE494);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoLoginTrainControl_TypeDefinitionIndex)->GetStaticField(0x138F4);
 		}
 		::UnityEngine::GameObject* train; // 0x18
 		::UnityEngine::GameObject* train02; // 0x20
@@ -38,9 +38,9 @@ namespace RPG::Client
 		::System::Single dissolveProgress; // 0x30
 		::UnityEngine::Vector3 quadStartLocalPos; // 0x34
 		::UnityEngine::Vector3 quadEndLocalPos; // 0x40
-		::System::Boolean Field_5_6; // 0x4C
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_5_7; // 0x50
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_5_8; // 0x58
+		::System::Boolean Field_5_8; // 0x4C
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_5_9; // 0x50
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_5_10; // 0x58
 
 		::System::Void _ctor()
 		{
@@ -62,14 +62,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_70CD9A040B4290BE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_732EDB3121B072B2()
+		::System::Void Method_5_9B1F2653496E5C47()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_732EDB3121B072B2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_9B1F2653496E5C47_OFFSET))(this);
 		}
 
-		::System::Void Method_5_0CC4BC19C602BCD0()
+		::System::Void Method_5_7FBAA229ED524F8E()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_0CC4BC19C602BCD0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_7FBAA229ED524F8E_OFFSET))(this);
 		}
 
 		::System::Void LateUpdate()

@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER_TOSTRING_OFFSET UNITYSDK_OFFSET(0xDD8D0)
-#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x299E0)
-#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xDD930)
+#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x143390)
+#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x2C4C0)
+#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1433F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMiracleIdentifier_TypeDefinitionIndex = 61984;
+	inline static constexpr unsigned int RogueMiracleIdentifier_TypeDefinitionIndex = 62917;
 
 	struct alignas(4) RogueMiracleIdentifier
 	{
 		::System::UInt32 MiracleID; // 0x10
 
-		::System::Void _ctor(::System::UInt32 miracleID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEIDENTIFIER__CTOR_OFFSET))(this, miracleID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEIDENTIFIER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

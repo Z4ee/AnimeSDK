@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_3A502B9172941445_OFFSET UNITYSDK_OFFSET(0x18BDFAD0)
-#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_DD3755E9707EF983_OFFSET UNITYSDK_OFFSET(0x18BDFB50)
-#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDFB20)
+#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_1DA40A081DF1D53F_OFFSET UNITYSDK_OFFSET(0x199F1B60)
+#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_D04B452CD2B9FDF9_OFFSET UNITYSDK_OFFSET(0x199F1BE0)
+#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x199F1BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceDynamicLoadCharacter_TypeDefinitionIndex = 20708;
+	inline static constexpr unsigned int PerformanceDynamicLoadCharacter_TypeDefinitionIndex = 20637;
 
 	class PerformanceDynamicLoadCharacter : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3A502B9172941445(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceDynamicLoadCharacter*& a2)
+		static ::System::Void Method_3_1DA40A081DF1D53F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceDynamicLoadCharacter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceDynamicLoadCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_3A502B9172941445_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceDynamicLoadCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_1DA40A081DF1D53F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DD3755E9707EF983(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceDynamicLoadCharacter* a2)
+		static ::System::Void Method_3_D04B452CD2B9FDF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceDynamicLoadCharacter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceDynamicLoadCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_DD3755E9707EF983_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceDynamicLoadCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_D04B452CD2B9FDF9_OFFSET))(a1, a2);
 		}
 	};
 }

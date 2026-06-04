@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int ITraceWriter_TypeDefinitionIndex = 8438;
+	inline static constexpr unsigned int ITraceWriter_TypeDefinitionIndex = 9341;
 
 	class ITraceWriter
 	{

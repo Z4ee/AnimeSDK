@@ -14,33 +14,33 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_AWAKE_OFFSET UNITYSDK_OFFSET(0xAC256B0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0xAC25C10)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xAC25B70)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONDRAG_OFFSET UNITYSDK_OFFSET(0xAC25F30)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xAC25D70)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xAC25EE0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_REGISTEREVENTS_OFFSET UNITYSDK_OFFSET(0xAC25630)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_SPAWNED_OFFSET UNITYSDK_OFFSET(0xAC25BC0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0xAC25CF0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0xAC26170)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xAC260B0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__ENABLEDRAGHINT_OFFSET UNITYSDK_OFFSET(0xAC25FA0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__INIT_OFFSET UNITYSDK_OFFSET(0xAC25700)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__ONPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xAC25C70)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__SETUPSTATE_OFFSET UNITYSDK_OFFSET(0xAC25DE0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__UPDATEPRESSDRAGHINTVIEW_OFFSET UNITYSDK_OFFSET(0xAC26000)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC335530)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0xC335A80)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC3359E0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONDRAG_OFFSET UNITYSDK_OFFSET(0xC335DA0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xC335BE0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xC335D50)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_REGISTEREVENTS_OFFSET UNITYSDK_OFFSET(0xC3354B0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_SPAWNED_OFFSET UNITYSDK_OFFSET(0xC335A30)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC335B60)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC335FE0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xC335F20)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__ENABLEDRAGHINT_OFFSET UNITYSDK_OFFSET(0xC335E10)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__INIT_OFFSET UNITYSDK_OFFSET(0xC335580)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__ONPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xC335AE0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__SETUPSTATE_OFFSET UNITYSDK_OFFSET(0xC335C50)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__UPDATEPRESSDRAGHINTVIEW_OFFSET UNITYSDK_OFFSET(0xC335E70)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourJoyStickProvider_TypeDefinitionIndex = 68253;
+	inline static constexpr unsigned int MonoParkourJoyStickProvider_TypeDefinitionIndex = 69227;
 
 	class MonoParkourJoyStickProvider : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Single* StaticGet_GMIgnorePressDistance()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MonoParkourJoyStickProvider_TypeDefinitionIndex)->GetStaticField(0x10360);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MonoParkourJoyStickProvider_TypeDefinitionIndex)->GetStaticField(0xB10);
 		}
 		::System::Single IgnorePressDistance; // 0x18
 		::System::Single MaxPressDistance; // 0x1C
@@ -69,9 +69,9 @@ namespace RPG::Client::ParkourGame
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__CCTOR_OFFSET))();
 		}
 
-		::System::Void RegisterEvents(::UnityEngine::Events::UnityAction* leftTriggerAction, ::UnityEngine::Events::UnityAction* leftReleaseAction, ::UnityEngine::Events::UnityAction* rightTriggerAction, ::UnityEngine::Events::UnityAction* rightReleaseAction)
+		::System::Void RegisterEvents(::UnityEngine::Events::UnityAction* a1, ::UnityEngine::Events::UnityAction* a2, ::UnityEngine::Events::UnityAction* a3, ::UnityEngine::Events::UnityAction* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*, ::UnityEngine::Events::UnityAction*, ::UnityEngine::Events::UnityAction*, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_REGISTEREVENTS_OFFSET))(this, leftTriggerAction, leftReleaseAction, rightTriggerAction, rightReleaseAction);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*, ::UnityEngine::Events::UnityAction*, ::UnityEngine::Events::UnityAction*, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_REGISTEREVENTS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Awake()
@@ -89,9 +89,9 @@ namespace RPG::Client::ParkourGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_SPAWNED_OFFSET))(this);
 		}
 
-		::System::Void OnApplicationPause(::System::Boolean pause)
+		::System::Void OnApplicationPause(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONAPPLICATIONPAUSE_OFFSET))(this, pause);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONAPPLICATIONPAUSE_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()
@@ -99,24 +99,24 @@ namespace RPG::Client::ParkourGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONPOINTERDOWN_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONPOINTERDOWN_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONPOINTERUP_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONPOINTERUP_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONDRAG_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER_ONDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetupState(::UnityEngine::Vector2 position)
+		::System::Void _SetupState(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__SETUPSTATE_OFFSET))(this, position);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__SETUPSTATE_OFFSET))(this, a1);
 		}
 
 		::System::Void _Init()
@@ -129,14 +129,14 @@ namespace RPG::Client::ParkourGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__ONPOINTERUPCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void _UpdatePressDragHintView(::System::Single uiAngle)
+		::System::Void _UpdatePressDragHintView(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__UPDATEPRESSDRAGHINTVIEW_OFFSET))(this, uiAngle);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__UPDATEPRESSDRAGHINTVIEW_OFFSET))(this, a1);
 		}
 
-		::System::Void _EnableDragHint(::System::Boolean enable)
+		::System::Void _EnableDragHint(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__ENABLEDRAGHINT_OFFSET))(this, enable);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURJOYSTICKPROVIDER__ENABLEDRAGHINT_OFFSET))(this, a1);
 		}
 	};
 }

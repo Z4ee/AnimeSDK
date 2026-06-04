@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_FD611945730E269E.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_186.h"
 
-class Class_2_BE316F2570FA4FE3;
+class Class_2_B66C1067C0468FBB;
 
-#define CLASS_2_AD95DD998F7AF291_2_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x905D740)
-#define CLASS_2_AD95DD998F7AF291_2_METHOD_2_7D7DE6E1DDD77BDA_OFFSET UNITYSDK_OFFSET(0x905D5D0)
-#define CLASS_2_AD95DD998F7AF291_2__CTOR_OFFSET UNITYSDK_OFFSET(0x905D5C0)
+#define CLASS_2_AD95DD998F7AF291_2_GET_CASTER_OFFSET UNITYSDK_OFFSET(0xE459DD0)
+#define CLASS_2_AD95DD998F7AF291_2_SET_CASTER_OFFSET UNITYSDK_OFFSET(0xE459DE0)
+#define CLASS_2_AD95DD998F7AF291_2__CTOR_OFFSET UNITYSDK_OFFSET(0xE459DF0)
 
-inline static constexpr unsigned int Class_2_AD95DD998F7AF291_2_TypeDefinitionIndex = 71757;
+inline static constexpr unsigned int Class_2_AD95DD998F7AF291_2_TypeDefinitionIndex = 72102;
 
-class Class_2_AD95DD998F7AF291_2 : public ::Class_1_FD611945730E269E
+class Class_2_AD95DD998F7AF291_2 : public ::Class_1_43BD383C98B4C0C5_186
 {
 public:
-	::Class_2_BE316F2570FA4FE3* Field_2_0; // 0x18
+	::Class_2_B66C1067C0468FBB* _Caster_k__BackingField; // 0x10
 
-	::System::Void _ctor(::Class_2_BE316F2570FA4FE3* a1)
+	::System::Void _ctor()
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_BE316F2570FA4FE3*))((::PBYTE)hIl2Cpp + CLASS_2_AD95DD998F7AF291_2__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AD95DD998F7AF291_2__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_2_7D7DE6E1DDD77BDA()
+	::Class_2_B66C1067C0468FBB* get_Caster()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AD95DD998F7AF291_2_METHOD_2_7D7DE6E1DDD77BDA_OFFSET))(this);
+		return ((::Class_2_B66C1067C0468FBB*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AD95DD998F7AF291_2_GET_CASTER_OFFSET))(this);
 	}
 
-	::System::Void Method_2_5790A55946AA509D()
+	::System::Void set_Caster(::Class_2_B66C1067C0468FBB* a1)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AD95DD998F7AF291_2_METHOD_2_5790A55946AA509D_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::Class_2_B66C1067C0468FBB*))((::PBYTE)hIl2Cpp + CLASS_2_AD95DD998F7AF291_2_SET_CASTER_OFFSET))(this, a1);
 	}
 };

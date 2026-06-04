@@ -5,18 +5,18 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define ZXING_COMMON_ENCODINGOPTIONS_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1A73F190)
-#define ZXING_COMMON_ENCODINGOPTIONS_GET_HINTS_OFFSET UNITYSDK_OFFSET(0x1A73F170)
-#define ZXING_COMMON_ENCODINGOPTIONS_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1A73F470)
-#define ZXING_COMMON_ENCODINGOPTIONS_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1A73F380)
-#define ZXING_COMMON_ENCODINGOPTIONS_SET_HINTS_OFFSET UNITYSDK_OFFSET(0x1A73F180)
-#define ZXING_COMMON_ENCODINGOPTIONS_SET_MARGIN_OFFSET UNITYSDK_OFFSET(0x1A73F750)
-#define ZXING_COMMON_ENCODINGOPTIONS_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1A73F660)
-#define ZXING_COMMON_ENCODINGOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A73F840)
+#define ZXING_COMMON_ENCODINGOPTIONS_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1B53F270)
+#define ZXING_COMMON_ENCODINGOPTIONS_GET_HINTS_OFFSET UNITYSDK_OFFSET(0x1B53F250)
+#define ZXING_COMMON_ENCODINGOPTIONS_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1B53F570)
+#define ZXING_COMMON_ENCODINGOPTIONS_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1B53F470)
+#define ZXING_COMMON_ENCODINGOPTIONS_SET_HINTS_OFFSET UNITYSDK_OFFSET(0x1B53F260)
+#define ZXING_COMMON_ENCODINGOPTIONS_SET_MARGIN_OFFSET UNITYSDK_OFFSET(0x1B53F860)
+#define ZXING_COMMON_ENCODINGOPTIONS_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1B53F760)
+#define ZXING_COMMON_ENCODINGOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53F960)
 
 namespace ZXing::Common
 {
-	inline static constexpr unsigned int EncodingOptions_TypeDefinitionIndex = 6056;
+	inline static constexpr unsigned int EncodingOptions_TypeDefinitionIndex = 6429;
 
 	class EncodingOptions : public ::System::Object
 	{
@@ -33,9 +33,9 @@ namespace ZXing::Common
 			return ((::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_GET_HINTS_OFFSET))(this);
 		}
 
-		::System::Void set_Hints(::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* value)
+		::System::Void set_Hints(::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>*))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_HINTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>*))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_HINTS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Height()
@@ -43,9 +43,9 @@ namespace ZXing::Common
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_GET_HEIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_Height(::System::Int32 value)
+		::System::Void set_Height(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_HEIGHT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_HEIGHT_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Width()
@@ -53,14 +53,14 @@ namespace ZXing::Common
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_GET_WIDTH_OFFSET))(this);
 		}
 
-		::System::Void set_Width(::System::Int32 value)
+		::System::Void set_Width(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_WIDTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_WIDTH_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Margin(::System::Int32 value)
+		::System::Void set_Margin(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_MARGIN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_MARGIN_OFFSET))(this, a1);
 		}
 	};
 }

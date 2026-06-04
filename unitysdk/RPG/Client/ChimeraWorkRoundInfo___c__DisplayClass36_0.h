@@ -5,12 +5,12 @@
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA089B00)
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS36_0__ISCURRENTROUNDMISSIONOPTIONFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xA08A720)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C8560)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS36_0__ISCURRENTROUNDMISSIONOPTIONFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xB6C8E70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass36_0_TypeDefinitionIndex = 58519;
+	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass36_0_TypeDefinitionIndex = 59449;
 
 	class ChimeraWorkRoundInfo___c__DisplayClass36_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS36_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _IsCurrentRoundMissionOptionFinish_b__0(::System::Collections::Generic::IEnumerable_1<::System::Boolean>* conditionSatisfyList)
+		::System::Void _IsCurrentRoundMissionOptionFinish_b__0(::System::Collections::Generic::IEnumerable_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS36_0__ISCURRENTROUNDMISSIONOPTIONFINISH_B__0_OFFSET))(this, conditionSatisfyList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS36_0__ISCURRENTROUNDMISSIONOPTIONFINISH_B__0_OFFSET))(this, a1);
 		}
 	};
 }

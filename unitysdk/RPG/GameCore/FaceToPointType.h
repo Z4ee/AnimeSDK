@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FaceToPointType_TypeDefinitionIndex = 19509;
+	inline static constexpr unsigned int FaceToPointType_TypeDefinitionIndex = 23173;
 
 	enum class FaceToPointType : ::System::Int32
 	{

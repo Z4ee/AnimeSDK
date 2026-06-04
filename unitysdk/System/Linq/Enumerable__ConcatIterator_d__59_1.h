@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable__ConcatIterator_d__59_1_TypeDefinitionIndex = 3137;
+	inline static constexpr unsigned int Enumerable__ConcatIterator_d__59_1_TypeDefinitionIndex = 3138;
 
 	template <typename TSource>
 	class Enumerable__ConcatIterator_d__59_1 : public ::System::Object

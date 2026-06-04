@@ -8,34 +8,34 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Xml::Linq { class XObject; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_APPENDCHILD_OFFSET UNITYSDK_OFFSET(0x17A60700)
-#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x17A606D0)
-#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_CHILDNODES_OFFSET UNITYSDK_OFFSET(0x17A60670)
-#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x17A60660)
-#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_NAMESPACEURI_OFFSET UNITYSDK_OFFSET(0x17A60750)
-#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x17A60630)
-#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x17A606E0)
-#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x17A606F0)
-#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_WRAPPEDNODE_OFFSET UNITYSDK_OFFSET(0x17A60620)
-#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A60760)
-#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A5D140)
+#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_APPENDCHILD_OFFSET UNITYSDK_OFFSET(0x1880F530)
+#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1880F500)
+#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_CHILDNODES_OFFSET UNITYSDK_OFFSET(0x1880F4A0)
+#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1880F490)
+#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_NAMESPACEURI_OFFSET UNITYSDK_OFFSET(0x1880F580)
+#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1880F460)
+#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x1880F510)
+#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1880F520)
+#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_WRAPPEDNODE_OFFSET UNITYSDK_OFFSET(0x1880F450)
+#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1880F590)
+#define NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1880BE80)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int XObjectWrapper_TypeDefinitionIndex = 8590;
+	inline static constexpr unsigned int XObjectWrapper_TypeDefinitionIndex = 9493;
 
 	class XObjectWrapper : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>** StaticGet_EmptyChildNodes()
 		{
-			return (::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>**)Il2CppClass::FromTypeDefinitionIndex(XObjectWrapper_TypeDefinitionIndex)->GetStaticField(0x33B10);
+			return (::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>**)Il2CppClass::FromTypeDefinitionIndex(XObjectWrapper_TypeDefinitionIndex)->GetStaticField(0x2D8D0);
 		}
 		::System::Xml::Linq::XObject* _xmlObject; // 0x10
 
-		::System::Void _ctor(::System::Xml::Linq::XObject* xmlObject)
+		::System::Void _ctor(::System::Xml::Linq::XObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XObject*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER__CTOR_OFFSET))(this, xmlObject);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XObject*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -78,9 +78,9 @@ namespace Newtonsoft::Json::Converters
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_GET_VALUE_OFFSET))(this);
 		}
 
-		::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild)
+		::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* a1)
 		{
-			return ((::Newtonsoft::Json::Converters::IXmlNode*(*)(::PVOID, ::Newtonsoft::Json::Converters::IXmlNode*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_APPENDCHILD_OFFSET))(this, newChild);
+			return ((::Newtonsoft::Json::Converters::IXmlNode*(*)(::PVOID, ::Newtonsoft::Json::Converters::IXmlNode*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XOBJECTWRAPPER_APPENDCHILD_OFFSET))(this, a1);
 		}
 
 		::System::String* get_NamespaceUri()

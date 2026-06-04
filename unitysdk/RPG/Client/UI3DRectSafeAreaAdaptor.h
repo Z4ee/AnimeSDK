@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_UI3DRECTSAFEAREAADAPTOR_DOSAFEAREAADAPT_OFFSET UNITYSDK_OFFSET(0xB3ABBA0)
-#define RPG_CLIENT_UI3DRECTSAFEAREAADAPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xB3B9BC0)
+#define RPG_CLIENT_UI3DRECTSAFEAREAADAPTOR_DOSAFEAREAADAPT_OFFSET UNITYSDK_OFFSET(0xCB0B930)
+#define RPG_CLIENT_UI3DRECTSAFEAREAADAPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCB19B20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DRectSafeAreaAdaptor_TypeDefinitionIndex = 63654;
+	inline static constexpr unsigned int UI3DRectSafeAreaAdaptor_TypeDefinitionIndex = 64575;
 
 	class UI3DRectSafeAreaAdaptor : public ::UnityEngine::MonoBehaviour
 	{

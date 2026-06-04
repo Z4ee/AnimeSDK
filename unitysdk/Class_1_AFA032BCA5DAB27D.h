@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_AFA032BCA5DAB27D__CTOR_OFFSET UNITYSDK_OFFSET(0x938C850)
+#define CLASS_1_AFA032BCA5DAB27D__CTOR_OFFSET UNITYSDK_OFFSET(0x14442720)
 
-inline static constexpr unsigned int Class_1_AFA032BCA5DAB27D_TypeDefinitionIndex = 57367;
+inline static constexpr unsigned int Class_1_AFA032BCA5DAB27D_TypeDefinitionIndex = 58179;
 
 class Class_1_AFA032BCA5DAB27D : public ::System::Object
 {
 public:
-	::System::Object* Field_1_1; // 0x10
-	::RPG::Client::NotifyType Field_1_0; // 0x18
+	::System::Object* Field_1_0; // 0x10
+	::RPG::Client::NotifyType Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -5,19 +5,19 @@
 namespace SRF::UI { class SRSpinner_SpinEvent; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define SRF_UI_SRSPINNER_GET_ONSPINDECREMENT_OFFSET UNITYSDK_OFFSET(0x19EB0030)
-#define SRF_UI_SRSPINNER_GET_ONSPININCREMENT_OFFSET UNITYSDK_OFFSET(0x19EB0010)
-#define SRF_UI_SRSPINNER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x19EB0050)
-#define SRF_UI_SRSPINNER_ONDECREMENT_OFFSET UNITYSDK_OFFSET(0x19EB01B0)
-#define SRF_UI_SRSPINNER_ONDRAG_OFFSET UNITYSDK_OFFSET(0x19EB0060)
-#define SRF_UI_SRSPINNER_ONINCREMENT_OFFSET UNITYSDK_OFFSET(0x19EB0170)
-#define SRF_UI_SRSPINNER_SET_ONSPINDECREMENT_OFFSET UNITYSDK_OFFSET(0x19EB0040)
-#define SRF_UI_SRSPINNER_SET_ONSPININCREMENT_OFFSET UNITYSDK_OFFSET(0x19EB0020)
-#define SRF_UI_SRSPINNER__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB01F0)
+#define SRF_UI_SRSPINNER_GET_ONSPINDECREMENT_OFFSET UNITYSDK_OFFSET(0x1AD26CD0)
+#define SRF_UI_SRSPINNER_GET_ONSPININCREMENT_OFFSET UNITYSDK_OFFSET(0x1AD26CB0)
+#define SRF_UI_SRSPINNER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x1AD26CF0)
+#define SRF_UI_SRSPINNER_ONDECREMENT_OFFSET UNITYSDK_OFFSET(0x1AD26E50)
+#define SRF_UI_SRSPINNER_ONDRAG_OFFSET UNITYSDK_OFFSET(0x1AD26D00)
+#define SRF_UI_SRSPINNER_ONINCREMENT_OFFSET UNITYSDK_OFFSET(0x1AD26E10)
+#define SRF_UI_SRSPINNER_SET_ONSPINDECREMENT_OFFSET UNITYSDK_OFFSET(0x1AD26CE0)
+#define SRF_UI_SRSPINNER_SET_ONSPININCREMENT_OFFSET UNITYSDK_OFFSET(0x1AD26CC0)
+#define SRF_UI_SRSPINNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD26E90)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int SRSpinner_TypeDefinitionIndex = 33304;
+	inline static constexpr unsigned int SRSpinner_TypeDefinitionIndex = 33586;
 
 	class SRSpinner : public ::UnityEngine::UI::Selectable
 	{
@@ -37,9 +37,9 @@ namespace SRF::UI
 			return ((::SRF::UI::SRSpinner_SpinEvent*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_GET_ONSPININCREMENT_OFFSET))(this);
 		}
 
-		::System::Void set_OnSpinIncrement(::SRF::UI::SRSpinner_SpinEvent* value)
+		::System::Void set_OnSpinIncrement(::SRF::UI::SRSpinner_SpinEvent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRF::UI::SRSpinner_SpinEvent*))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_SET_ONSPININCREMENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::SRF::UI::SRSpinner_SpinEvent*))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_SET_ONSPININCREMENT_OFFSET))(this, a1);
 		}
 
 		::SRF::UI::SRSpinner_SpinEvent* get_OnSpinDecrement()
@@ -47,29 +47,29 @@ namespace SRF::UI
 			return ((::SRF::UI::SRSpinner_SpinEvent*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_GET_ONSPINDECREMENT_OFFSET))(this);
 		}
 
-		::System::Void set_OnSpinDecrement(::SRF::UI::SRSpinner_SpinEvent* value)
+		::System::Void set_OnSpinDecrement(::SRF::UI::SRSpinner_SpinEvent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRF::UI::SRSpinner_SpinEvent*))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_SET_ONSPINDECREMENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::SRF::UI::SRSpinner_SpinEvent*))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_SET_ONSPINDECREMENT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_ONBEGINDRAG_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_ONBEGINDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_ONDRAG_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_ONDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void OnIncrement(::System::Int32 amount)
+		::System::Void OnIncrement(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_ONINCREMENT_OFFSET))(this, amount);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_ONINCREMENT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDecrement(::System::Int32 amount)
+		::System::Void OnDecrement(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_ONDECREMENT_OFFSET))(this, amount);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRF_UI_SRSPINNER_ONDECREMENT_OFFSET))(this, a1);
 		}
 	};
 }

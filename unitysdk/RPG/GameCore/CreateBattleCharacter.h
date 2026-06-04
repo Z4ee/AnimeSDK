@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATEBATTLECHARACTER_METHOD_3_40182E6C28174453_OFFSET UNITYSDK_OFFSET(0x188405A0)
-#define RPG_GAMECORE_CREATEBATTLECHARACTER_METHOD_3_5465755261F61A67_OFFSET UNITYSDK_OFFSET(0x188404D0)
-#define RPG_GAMECORE_CREATEBATTLECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18840550)
+#define RPG_GAMECORE_CREATEBATTLECHARACTER_METHOD_3_C646574CB357AF53_OFFSET UNITYSDK_OFFSET(0x1967FA80)
+#define RPG_GAMECORE_CREATEBATTLECHARACTER_METHOD_3_F4A92C1EB78C4FD0_OFFSET UNITYSDK_OFFSET(0x1967FB50)
+#define RPG_GAMECORE_CREATEBATTLECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1967FB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateBattleCharacter_TypeDefinitionIndex = 21658;
+	inline static constexpr unsigned int CreateBattleCharacter_TypeDefinitionIndex = 21514;
 
 	class CreateBattleCharacter : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLECHARACTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5465755261F61A67(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateBattleCharacter*& a2)
+		static ::System::Void Method_3_C646574CB357AF53(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateBattleCharacter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateBattleCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLECHARACTER_METHOD_3_5465755261F61A67_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateBattleCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLECHARACTER_METHOD_3_C646574CB357AF53_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_40182E6C28174453(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateBattleCharacter* a2)
+		static ::System::Void Method_3_F4A92C1EB78C4FD0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateBattleCharacter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateBattleCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLECHARACTER_METHOD_3_40182E6C28174453_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateBattleCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLECHARACTER_METHOD_3_F4A92C1EB78C4FD0_OFFSET))(a1, a2);
 		}
 	};
 }

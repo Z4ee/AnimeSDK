@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTINSTANCECONFIG_METHOD_2_33186800B2D67A8E_OFFSET UNITYSDK_OFFSET(0x18896440)
-#define RPG_GAMECORE_EFFECTINSTANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188966A0)
+#define RPG_GAMECORE_EFFECTINSTANCECONFIG_METHOD_2_AB9CADB2D2A4B2A0_OFFSET UNITYSDK_OFFSET(0x196D4B40)
+#define RPG_GAMECORE_EFFECTINSTANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196D4D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectInstanceConfig_TypeDefinitionIndex = 15467;
+	inline static constexpr unsigned int EffectInstanceConfig_TypeDefinitionIndex = 15530;
 
 	class EffectInstanceConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTINSTANCECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_33186800B2D67A8E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectInstanceConfig*& a2)
+		static ::System::Void Method_2_AB9CADB2D2A4B2A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectInstanceConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectInstanceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTINSTANCECONFIG_METHOD_2_33186800B2D67A8E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectInstanceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTINSTANCECONFIG_METHOD_2_AB9CADB2D2A4B2A0_OFFSET))(a1, a2);
 		}
 	};
 }

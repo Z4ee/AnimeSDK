@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALTRIGGERPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190DDFE0)
-#define RPG_GAMECORE_TUTORIALTRIGGERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x190DE0F0)
+#define RPG_GAMECORE_TUTORIALTRIGGERPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E2EE40)
+#define RPG_GAMECORE_TUTORIALTRIGGERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2EF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialTriggerParam_TypeDefinitionIndex = 14589;
+	inline static constexpr unsigned int TutorialTriggerParam_TypeDefinitionIndex = 14614;
 
 	class TutorialTriggerParam : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALTRIGGERPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TutorialTriggerParam*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialTriggerParam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialTriggerParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALTRIGGERPARAM_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialTriggerParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALTRIGGERPARAM_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

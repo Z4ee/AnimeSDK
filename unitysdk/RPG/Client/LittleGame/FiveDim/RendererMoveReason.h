@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int RendererMoveReason_TypeDefinitionIndex = 39112;
+	inline static constexpr unsigned int RendererMoveReason_TypeDefinitionIndex = 39881;
 
 	enum class RendererMoveReason : ::System::Int32
 	{

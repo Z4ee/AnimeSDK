@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GAMETOOLGOTOCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xA88AA10)
-#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GAMETOOLGOTOCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xA88A560)
-#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GAMETOOLGOTOCOMMAND__ISAVATARRELEASED_OFFSET UNITYSDK_OFFSET(0xA88ACE0)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GAMETOOLGOTOCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBFD66E0)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GAMETOOLGOTOCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xBFD6240)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GAMETOOLGOTOCOMMAND__ISAVATARRELEASED_OFFSET UNITYSDK_OFFSET(0xBFD69B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentGotoBlock_GameToolGotoCommand_TypeDefinitionIndex = 58254;
+	inline static constexpr unsigned int MessageContentGotoBlock_GameToolGotoCommand_TypeDefinitionIndex = 59184;
 
 	class MessageContentGotoBlock_GameToolGotoCommand : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace RPG::Client
 		// static const ::System::String* _GAME_TOOL_URL_KEY; // 0x0
 		::System::UInt32 _AvatarID; // 0x10
 
-		::System::Void _ctor(::System::UInt32 avatarID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GAMETOOLGOTOCOMMAND__CTOR_OFFSET))(this, avatarID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GAMETOOLGOTOCOMMAND__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Execute()
@@ -28,9 +28,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GAMETOOLGOTOCOMMAND_EXECUTE_OFFSET))(this);
 		}
 
-		::System::Boolean _IsAvatarReleased(::System::UInt32 avatarID)
+		::System::Boolean _IsAvatarReleased(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GAMETOOLGOTOCOMMAND__ISAVATARRELEASED_OFFSET))(this, avatarID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GAMETOOLGOTOCOMMAND__ISAVATARRELEASED_OFFSET))(this, a1);
 		}
 	};
 }

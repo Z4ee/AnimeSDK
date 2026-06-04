@@ -9,28 +9,28 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MMTMANAGER_CREATEMMT_OFFSET UNITYSDK_OFFSET(0x1757F770)
-#define MIHOYO_SDK_MMTMANAGER_GETMMTHEADER_OFFSET UNITYSDK_OFFSET(0x1757F090)
-#define MIHOYO_SDK_MMTMANAGER_GETMMTRESULT_OFFSET UNITYSDK_OFFSET(0x1757EB70)
-#define MIHOYO_SDK_MMTMANAGER_ONGETUNIWEBVIEWMESSAGE_OFFSET UNITYSDK_OFFSET(0x1757EBF0)
-#define MIHOYO_SDK_MMTMANAGER_ONMMTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1757FD20)
-#define MIHOYO_SDK_MMTMANAGER_ONPAGECLOSE_OFFSET UNITYSDK_OFFSET(0x1757EDA0)
-#define MIHOYO_SDK_MMTMANAGER_ONPAGEERROR_OFFSET UNITYSDK_OFFSET(0x1757EE20)
-#define MIHOYO_SDK_MMTMANAGER_REQUESTCHECK_OFFSET UNITYSDK_OFFSET(0x1757F870)
-#define MIHOYO_SDK_MMTMANAGER_SHOWMMTWEB_OFFSET UNITYSDK_OFFSET(0x1757E860)
-#define MIHOYO_SDK_MMTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1757FEE0)
-#define MIHOYO_SDK_MMTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1757FED0)
+#define MIHOYO_SDK_MMTMANAGER_CREATEMMT_OFFSET UNITYSDK_OFFSET(0x18367F50)
+#define MIHOYO_SDK_MMTMANAGER_GETMMTHEADER_OFFSET UNITYSDK_OFFSET(0x18367850)
+#define MIHOYO_SDK_MMTMANAGER_GETMMTRESULT_OFFSET UNITYSDK_OFFSET(0x183672A0)
+#define MIHOYO_SDK_MMTMANAGER_ONGETUNIWEBVIEWMESSAGE_OFFSET UNITYSDK_OFFSET(0x18367330)
+#define MIHOYO_SDK_MMTMANAGER_ONMMTCALLBACK_OFFSET UNITYSDK_OFFSET(0x183684F0)
+#define MIHOYO_SDK_MMTMANAGER_ONPAGECLOSE_OFFSET UNITYSDK_OFFSET(0x18367570)
+#define MIHOYO_SDK_MMTMANAGER_ONPAGEERROR_OFFSET UNITYSDK_OFFSET(0x18367600)
+#define MIHOYO_SDK_MMTMANAGER_REQUESTCHECK_OFFSET UNITYSDK_OFFSET(0x18368060)
+#define MIHOYO_SDK_MMTMANAGER_SHOWMMTWEB_OFFSET UNITYSDK_OFFSET(0x18366F10)
+#define MIHOYO_SDK_MMTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18368700)
+#define MIHOYO_SDK_MMTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x183686F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MmtManager_TypeDefinitionIndex = 7074;
+	inline static constexpr unsigned int MmtManager_TypeDefinitionIndex = 7977;
 
 	class MmtManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::MmtManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::MmtManager**)Il2CppClass::FromTypeDefinitionIndex(MmtManager_TypeDefinitionIndex)->GetStaticField(0x19270);
+			return (::MiHoYo::SDK::MmtManager**)Il2CppClass::FromTypeDefinitionIndex(MmtManager_TypeDefinitionIndex)->GetStaticField(0x14480);
 		}
 		// static const ::System::String* MMT_ID; // 0x0
 		// static const ::System::String* GEETEST_C; // 0x0
@@ -49,19 +49,19 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER__CCTOR_OFFSET))();
 		}
 
-		::System::Void ShowMmtWeb(::MiHoYo::SDK::MmtManager_GeetestModel* parameters)
+		::System::Void ShowMmtWeb(::MiHoYo::SDK::MmtManager_GeetestModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MmtManager_GeetestModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_SHOWMMTWEB_OFFSET))(this, parameters);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MmtManager_GeetestModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_SHOWMMTWEB_OFFSET))(this, a1);
 		}
 
-		::System::Void GetMmtResult(::System::Int32 ret, ::System::String* mmt)
+		::System::Void GetMmtResult(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_GETMMTRESULT_OFFSET))(this, ret, mmt);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_GETMMTRESULT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnGetUniWebViewMessage(::MiHoYo::SDK::UniWebViewMessage message)
+		::System::Void OnGetUniWebViewMessage(::MiHoYo::SDK::UniWebViewMessage a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UniWebViewMessage))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_ONGETUNIWEBVIEWMESSAGE_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UniWebViewMessage))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_ONGETUNIWEBVIEWMESSAGE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnPageClose()
@@ -69,29 +69,29 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_ONPAGECLOSE_OFFSET))(this);
 		}
 
-		::System::Void OnPageError(::System::String* result)
+		::System::Void OnPageError(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_ONPAGEERROR_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_ONPAGEERROR_OFFSET))(this, a1);
 		}
 
-		::System::String* GetMmtHeader(::System::String* mmt)
+		::System::String* GetMmtHeader(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_GETMMTHEADER_OFFSET))(this, mmt);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_GETMMTHEADER_OFFSET))(this, a1);
 		}
 
-		::System::Void CreateMmt(::System::String* actionType, ::System::String* url, ::System::String* email, ::System::String* mobile, ::System::String* username, ::System::Action_2<::System::Int32, ::System::String*>* callback)
+		::System::Void CreateMmt(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::Action_2<::System::Int32, ::System::String*>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_2<::System::Int32, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_CREATEMMT_OFFSET))(this, actionType, url, email, mobile, username, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_2<::System::Int32, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_CREATEMMT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void OnMmtCallback(::System::Action_2<::System::Int32, ::System::String*>* callback, ::System::Int32 code, ::System::String* mmt)
+		::System::Void OnMmtCallback(::System::Action_2<::System::Int32, ::System::String*>* a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::String*>*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_ONMMTCALLBACK_OFFSET))(this, callback, code, mmt);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::String*>*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_ONMMTCALLBACK_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RequestCheck(::System::String* actionType, ::System::String* url, ::System::String* email, ::System::String* mobile, ::System::String* username, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		::System::Void RequestCheck(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_REQUESTCHECK_OFFSET))(this, actionType, url, email, mobile, username, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER_REQUESTCHECK_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

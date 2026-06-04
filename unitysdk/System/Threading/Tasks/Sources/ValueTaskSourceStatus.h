@@ -3,7 +3,7 @@
 
 namespace System::Threading::Tasks::Sources
 {
-	inline static constexpr unsigned int ValueTaskSourceStatus_TypeDefinitionIndex = 9186;
+	inline static constexpr unsigned int ValueTaskSourceStatus_TypeDefinitionIndex = 7050;
 
 	enum class ValueTaskSourceStatus : ::System::Int32
 	{

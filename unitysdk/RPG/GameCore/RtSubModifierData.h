@@ -9,12 +9,12 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTSUBMODIFIERDATA_METHOD_2_7A3B629FF5E5C700_OFFSET UNITYSDK_OFFSET(0x18DD8F60)
-#define RPG_GAMECORE_RTSUBMODIFIERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD9180)
+#define RPG_GAMECORE_RTSUBMODIFIERDATA_METHOD_2_341A2ECD571EE002_OFFSET UNITYSDK_OFFSET(0x19BF2FB0)
+#define RPG_GAMECORE_RTSUBMODIFIERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF31E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSubModifierData_TypeDefinitionIndex = 23189;
+	inline static constexpr unsigned int RtSubModifierData_TypeDefinitionIndex = 22866;
 
 	class RtSubModifierData : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSUBMODIFIERDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7A3B629FF5E5C700(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtSubModifierData*& a2)
+		static ::System::Void Method_2_341A2ECD571EE002(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtSubModifierData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtSubModifierData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSUBMODIFIERDATA_METHOD_2_7A3B629FF5E5C700_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtSubModifierData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSUBMODIFIERDATA_METHOD_2_341A2ECD571EE002_OFFSET))(a1, a2);
 		}
 	};
 }

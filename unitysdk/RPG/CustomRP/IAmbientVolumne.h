@@ -8,7 +8,7 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int IAmbientVolumne_TypeDefinitionIndex = 34965;
+	inline static constexpr unsigned int IAmbientVolumne_TypeDefinitionIndex = 35250;
 
 	class IAmbientVolumne
 	{

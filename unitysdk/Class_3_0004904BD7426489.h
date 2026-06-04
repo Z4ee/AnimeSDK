@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowBattleAvatarPanel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0004904BD7426489_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x981D730)
-#define CLASS_3_0004904BD7426489__CTOR_OFFSET UNITYSDK_OFFSET(0x981D700)
+#define CLASS_3_0004904BD7426489_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAF475F0)
+#define CLASS_3_0004904BD7426489__CTOR_OFFSET UNITYSDK_OFFSET(0xAF475C0)
 
-inline static constexpr unsigned int Class_3_0004904BD7426489_TypeDefinitionIndex = 54028;
+inline static constexpr unsigned int Class_3_0004904BD7426489_TypeDefinitionIndex = 54753;
 
 class Class_3_0004904BD7426489 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowBattleAvatarPanel*>
 {

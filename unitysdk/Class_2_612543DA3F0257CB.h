@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_103.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_114.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_2_612543DA3F0257CB__CCTOR_OFFSET UNITYSDK_OFFSET(0x9081230)
-#define CLASS_2_612543DA3F0257CB__CTOR_OFFSET UNITYSDK_OFFSET(0x9081220)
+#define CLASS_2_612543DA3F0257CB__CCTOR_OFFSET UNITYSDK_OFFSET(0x141582B0)
+#define CLASS_2_612543DA3F0257CB__CTOR_OFFSET UNITYSDK_OFFSET(0x141582A0)
 
-inline static constexpr unsigned int Class_2_612543DA3F0257CB_TypeDefinitionIndex = 51828;
+inline static constexpr unsigned int Class_2_612543DA3F0257CB_TypeDefinitionIndex = 52502;
 
-class Class_2_612543DA3F0257CB : public ::Class_1_43BD383C98B4C0C5_103
+class Class_2_612543DA3F0257CB : public ::Class_1_43BD383C98B4C0C5_114
 {
 public:
-	static ::Class_2_612543DA3F0257CB** StaticGet_Field_2_5()
+	static ::Class_2_612543DA3F0257CB** StaticGet_Field_2_0()
 	{
-		return (::Class_2_612543DA3F0257CB**)Il2CppClass::FromTypeDefinitionIndex(Class_2_612543DA3F0257CB_TypeDefinitionIndex)->GetStaticField(0x5B470);
+		return (::Class_2_612543DA3F0257CB**)Il2CppClass::FromTypeDefinitionIndex(Class_2_612543DA3F0257CB_TypeDefinitionIndex)->GetStaticField(0xF310);
 	}
-	::System::String* Field_2_4; // 0x10
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x18
-	::RPG::GameCore::FixPoint Field_2_1; // 0x20
-	::RPG::GameCore::FixPoint Field_2_2; // 0x28
-	::RPG::GameCore::FixPoint Field_2_3; // 0x30
+	::System::String* Field_2_1; // 0x10
+	::RPG::GameCore::GameEntity* Field_2_2; // 0x18
+	::RPG::GameCore::FixPoint Field_2_3; // 0x20
+	::RPG::GameCore::FixPoint Field_2_4; // 0x28
+	::RPG::GameCore::FixPoint Field_2_5; // 0x30
 
 	::System::Void _ctor()
 	{

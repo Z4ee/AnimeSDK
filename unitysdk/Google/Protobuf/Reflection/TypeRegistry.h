@@ -6,27 +6,27 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_FIND_OFFSET UNITYSDK_OFFSET(0x17121010)
-#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x17120FA0)
-#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x171210C0)
-#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17121000)
+#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_FIND_OFFSET UNITYSDK_OFFSET(0x17E810F0)
+#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x17E81080)
+#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E811A0)
+#define GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17E810E0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int TypeRegistry_TypeDefinitionIndex = 6374;
+	inline static constexpr unsigned int TypeRegistry_TypeDefinitionIndex = 5576;
 
 	class TypeRegistry : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::TypeRegistry** StaticGet__Empty_k__BackingField()
 		{
-			return (::Google::Protobuf::Reflection::TypeRegistry**)Il2CppClass::FromTypeDefinitionIndex(TypeRegistry_TypeDefinitionIndex)->GetStaticField(0x4530);
+			return (::Google::Protobuf::Reflection::TypeRegistry**)Il2CppClass::FromTypeDefinitionIndex(TypeRegistry_TypeDefinitionIndex)->GetStaticField(0x3E890);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::Google::Protobuf::Reflection::MessageDescriptor*>* fullNameToMessageMap; // 0x10
 
-		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::Google::Protobuf::Reflection::MessageDescriptor*>* fullNameToMessageMap)
+		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::Google::Protobuf::Reflection::MessageDescriptor*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Google::Protobuf::Reflection::MessageDescriptor*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY__CTOR_OFFSET))(this, fullNameToMessageMap);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Google::Protobuf::Reflection::MessageDescriptor*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -39,9 +39,9 @@ namespace Google::Protobuf::Reflection
 			return ((::Google::Protobuf::Reflection::TypeRegistry*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_GET_EMPTY_OFFSET))();
 		}
 
-		::Google::Protobuf::Reflection::MessageDescriptor* Find(::System::String* fullName)
+		::Google::Protobuf::Reflection::MessageDescriptor* Find(::System::String* a1)
 		{
-			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_FIND_OFFSET))(this, fullName);
+			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_TYPEREGISTRY_FIND_OFFSET))(this, a1);
 		}
 	};
 }

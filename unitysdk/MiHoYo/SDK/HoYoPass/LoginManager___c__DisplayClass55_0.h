@@ -6,28 +6,28 @@
 namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17546F90)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x1754FB50)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__1_OFFSET UNITYSDK_OFFSET(0x1754FD30)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1832E5C0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x18337170)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__1_OFFSET UNITYSDK_OFFSET(0x18337330)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass55_0_TypeDefinitionIndex = 7361;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass55_0_TypeDefinitionIndex = 8264;
 
 	class LoginManager___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Boolean>* callback; // 0x10
-		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x18
+		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x10
+		::System::Action_1<::System::Boolean>* callback; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ShowAccountListLogoutConfirm_b__0(::MiHoYo::SDK::UI::OS::AccountListLogoutOption option)
+		::System::Void _ShowAccountListLogoutConfirm_b__0(::MiHoYo::SDK::UI::OS::AccountListLogoutOption a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::OS::AccountListLogoutOption))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__0_OFFSET))(this, option);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::OS::AccountListLogoutOption))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS55_0__SHOWACCOUNTLISTLOGOUTCONFIRM_B__0_OFFSET))(this, a1);
 		}
 
 		::System::Void _ShowAccountListLogoutConfirm_b__1()

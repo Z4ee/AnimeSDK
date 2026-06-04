@@ -8,12 +8,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net { class IPAddress; }
 namespace System::Net::NetworkInformation { class PhysicalAddress; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_ADDADDRESS_OFFSET UNITYSDK_OFFSET(0x1A1377E0)
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GETPHYSICALADDRESS_OFFSET UNITYSDK_OFFSET(0x1A1396A0)
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1A1396F0)
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GET_NETWORKINTERFACETYPE_OFFSET UNITYSDK_OFFSET(0x1A139700)
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_SETLINKLAYERINFO_OFFSET UNITYSDK_OFFSET(0x1A137840)
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1358F0)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_ADDADDRESS_OFFSET UNITYSDK_OFFSET(0x1AF9C3E0)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GETPHYSICALADDRESS_OFFSET UNITYSDK_OFFSET(0x1AF9E600)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1AF9E650)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GET_NETWORKINTERFACETYPE_OFFSET UNITYSDK_OFFSET(0x1AF9E660)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_SETLINKLAYERINFO_OFFSET UNITYSDK_OFFSET(0x1AF9C480)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF9A600)
 
 namespace System::Net::NetworkInformation
 {
@@ -22,24 +22,24 @@ namespace System::Net::NetworkInformation
 	class UnixNetworkInterface : public ::System::Net::NetworkInformation::NetworkInterface
 	{
 	public:
-		::Il2CppArray<::System::Byte>* macAddress; // 0x10
-		::System::String* name; // 0x18
+		::System::String* name; // 0x10
+		::Il2CppArray<::System::Byte>* macAddress; // 0x18
 		::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses; // 0x20
 		::System::Net::NetworkInformation::NetworkInterfaceType type; // 0x28
 
-		::System::Void _ctor(::System::String* name)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE__CTOR_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void AddAddress(::System::Net::IPAddress* address)
+		::System::Void AddAddress(::System::Net::IPAddress* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::IPAddress*))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_ADDADDRESS_OFFSET))(this, address);
+			return ((::System::Void(*)(::PVOID, ::System::Net::IPAddress*))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_ADDADDRESS_OFFSET))(this, a1);
 		}
 
-		::System::Void SetLinkLayerInfo(::System::Int32 index, ::Il2CppArray<::System::Byte>* macAddress, ::System::Net::NetworkInformation::NetworkInterfaceType type)
+		::System::Void SetLinkLayerInfo(::System::Int32 a1, ::Il2CppArray<::System::Byte>* a2, ::System::Net::NetworkInformation::NetworkInterfaceType a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Net::NetworkInformation::NetworkInterfaceType))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_SETLINKLAYERINFO_OFFSET))(this, index, macAddress, type);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Net::NetworkInformation::NetworkInterfaceType))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_SETLINKLAYERINFO_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Net::NetworkInformation::PhysicalAddress* GetPhysicalAddress()

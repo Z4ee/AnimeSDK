@@ -5,8 +5,8 @@
 namespace System { class Uri; }
 namespace System::Net { class WebRequest; }
 
-#define SYSTEM_NET_HTTPREQUESTCREATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1A125E20)
-#define SYSTEM_NET_HTTPREQUESTCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A125E10)
+#define SYSTEM_NET_HTTPREQUESTCREATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1AF8A320)
+#define SYSTEM_NET_HTTPREQUESTCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF8A310)
 
 namespace System::Net
 {
@@ -20,9 +20,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPREQUESTCREATOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Net::WebRequest* Create(::System::Uri* uri)
+		::System::Net::WebRequest* Create(::System::Uri* a1)
 		{
-			return ((::System::Net::WebRequest*(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPREQUESTCREATOR_CREATE_OFFSET))(this, uri);
+			return ((::System::Net::WebRequest*(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPREQUESTCREATOR_CREATE_OFFSET))(this, a1);
 		}
 	};
 }

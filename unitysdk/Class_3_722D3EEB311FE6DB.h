@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/TargetEvaluatorImpl_1.h"
 
 namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class TargetFetchFarmElementEntity; }
+namespace RPG::GameCore { class TargetFetchBloodLinkTargets; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_722D3EEB311FE6DB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x123B1B80)
-#define CLASS_3_722D3EEB311FE6DB__CTOR_OFFSET UNITYSDK_OFFSET(0x123B1AE0)
+#define CLASS_3_722D3EEB311FE6DB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13B3CF70)
+#define CLASS_3_722D3EEB311FE6DB__CTOR_OFFSET UNITYSDK_OFFSET(0x13B3CF20)
 
-inline static constexpr unsigned int Class_3_722D3EEB311FE6DB_TypeDefinitionIndex = 54653;
+inline static constexpr unsigned int Class_3_722D3EEB311FE6DB_TypeDefinitionIndex = 55268;
 
-class Class_3_722D3EEB311FE6DB : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchFarmElementEntity*>
+class Class_3_722D3EEB311FE6DB : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchBloodLinkTargets*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TargetFetchFarmElementEntity* a1)
+	::System::Void _ctor(::RPG::GameCore::TargetFetchBloodLinkTargets* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchFarmElementEntity*))((::PBYTE)hIl2Cpp + CLASS_3_722D3EEB311FE6DB__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchBloodLinkTargets*))((::PBYTE)hIl2Cpp + CLASS_3_722D3EEB311FE6DB__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Evaluate(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)

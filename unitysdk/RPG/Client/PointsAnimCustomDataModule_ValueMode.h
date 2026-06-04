@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PointsAnimCustomDataModule_ValueMode_TypeDefinitionIndex = 65114;
+	inline static constexpr unsigned int PointsAnimCustomDataModule_ValueMode_TypeDefinitionIndex = 66041;
 
 	enum class PointsAnimCustomDataModule_ValueMode : ::System::Int32
 	{

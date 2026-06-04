@@ -8,12 +8,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTTCPMESSAGEUPDATECOMPONENTPROPERTIES_READ_OFFSET UNITYSDK_OFFSET(0x26040)
-#define HDG_RDTTCPMESSAGEUPDATECOMPONENTPROPERTIES_WRITE_OFFSET UNITYSDK_OFFSET(0x26030)
+#define HDG_RDTTCPMESSAGEUPDATECOMPONENTPROPERTIES_READ_OFFSET UNITYSDK_OFFSET(0x27110)
+#define HDG_RDTTCPMESSAGEUPDATECOMPONENTPROPERTIES_WRITE_OFFSET UNITYSDK_OFFSET(0x27080)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageUpdateComponentProperties_TypeDefinitionIndex = 43800;
+	inline static constexpr unsigned int rdtTcpMessageUpdateComponentProperties_TypeDefinitionIndex = 44342;
 
 	struct alignas(8) rdtTcpMessageUpdateComponentProperties
 	{
@@ -24,14 +24,14 @@ namespace Hdg
 		::System::Int32 m_arrayIndex; // 0x24
 		::System::Collections::Generic::List_1<::Hdg::rdtTcpMessageComponents_Property>* m_properties; // 0x28
 
-		::System::Void Write(::System::IO::BinaryWriter* w)
+		::System::Void Write(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATECOMPONENTPROPERTIES_WRITE_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATECOMPONENTPROPERTIES_WRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void Read(::System::IO::BinaryReader* r)
+		::System::Void Read(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATECOMPONENTPROPERTIES_READ_OFFSET))(this, r);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATECOMPONENTPROPERTIES_READ_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,19 +3,19 @@
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_B9F5BC78FB41D3C3;
+class Class_1_78A7ED2C7E071DF9;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E07782907E11788E__CTOR_OFFSET UNITYSDK_OFFSET(0x17DBEDA0)
+#define CLASS_1_E07782907E11788E__CTOR_OFFSET UNITYSDK_OFFSET(0x189D9CB0)
 
-inline static constexpr unsigned int Class_1_E07782907E11788E_TypeDefinitionIndex = 34435;
+inline static constexpr unsigned int Class_1_E07782907E11788E_TypeDefinitionIndex = 34717;
 
 class Class_1_E07782907E11788E : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_B9F5BC78FB41D3C3*>* Field_1_2; // 0x10
-	::System::DateTime Field_1_0; // 0x18
-	::System::Int32 Field_1_1; // 0x20
+	::System::Collections::Generic::List_1<::Class_1_78A7ED2C7E071DF9*>* Field_1_0; // 0x10
+	::System::Int32 Field_1_1; // 0x18
+	::System::DateTime Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

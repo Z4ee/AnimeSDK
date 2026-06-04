@@ -6,18 +6,18 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_EMIT_OPCODE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22AB6E0)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22AB650)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x22AB740)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_GET_OPERANDTYPE_OFFSET UNITYSDK_OFFSET(0x22AB750)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_GET_SIZE_OFFSET UNITYSDK_OFFSET(0xE21D0)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1799C370)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22AB740)
-#define SYSTEM_REFLECTION_EMIT_OPCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x22AB620)
+#define SYSTEM_REFLECTION_EMIT_OPCODE_EQUALS_OFFSET UNITYSDK_OFFSET(0x383B4F0)
+#define SYSTEM_REFLECTION_EMIT_OPCODE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x383B460)
+#define SYSTEM_REFLECTION_EMIT_OPCODE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x383B550)
+#define SYSTEM_REFLECTION_EMIT_OPCODE_GET_OPERANDTYPE_OFFSET UNITYSDK_OFFSET(0x383B560)
+#define SYSTEM_REFLECTION_EMIT_OPCODE_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x147C60)
+#define SYSTEM_REFLECTION_EMIT_OPCODE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x18750020)
+#define SYSTEM_REFLECTION_EMIT_OPCODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x383B550)
+#define SYSTEM_REFLECTION_EMIT_OPCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x383B430)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int OpCode_TypeDefinitionIndex = 650;
+	inline static constexpr unsigned int OpCode_TypeDefinitionIndex = 649;
 
 	struct alignas(1) OpCode
 	{
@@ -30,9 +30,9 @@ namespace System::Reflection::Emit
 		::System::Byte args; // 0x16
 		::System::Byte flow; // 0x17
 
-		::System::Void _ctor(::System::Int32 p, ::System::Int32 q)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE__CTOR_OFFSET))(this, p, q);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -40,9 +40,9 @@ namespace System::Reflection::Emit
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -65,9 +65,9 @@ namespace System::Reflection::Emit
 			return ((::System::Reflection::Emit::OperandType(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE_GET_OPERANDTYPE_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::System::Reflection::Emit::OpCode a, ::System::Reflection::Emit::OpCode b)
+		static ::System::Boolean op_Equality(::System::Reflection::Emit::OpCode a1, ::System::Reflection::Emit::OpCode a2)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::Emit::OpCode, ::System::Reflection::Emit::OpCode))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE_OP_EQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::System::Reflection::Emit::OpCode, ::System::Reflection::Emit::OpCode))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_43B508F64DA705FE;
+class Class_1_6CC143B9599F1FCA;
 namespace RPG::Client { class QuadricBezier; }
 namespace System { class Action; }
 namespace System { class Object; }
@@ -11,17 +11,17 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xACBCBE0)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xACBCC20)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xACBCB50)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_PLAY_OFFSET UNITYSDK_OFFSET(0xACBBB00)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_SETICON_OFFSET UNITYSDK_OFFSET(0xACBBA50)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xACBCBA0)
-#define RPG_CLIENT_PLANETFESFLOATINGEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xACBCD90)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xC411450)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xC411490)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC4113C0)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_PLAY_OFFSET UNITYSDK_OFFSET(0xC4103A0)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_SETICON_OFFSET UNITYSDK_OFFSET(0xC4102F0)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xC411410)
+#define RPG_CLIENT_PLANETFESFLOATINGEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC411600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesFloatingEvent_TypeDefinitionIndex = 61253;
+	inline static constexpr unsigned int PlanetFesFloatingEvent_TypeDefinitionIndex = 62177;
 
 	class PlanetFesFloatingEvent : public ::UnityEngine::MonoBehaviour
 	{
@@ -29,7 +29,7 @@ namespace RPG::Client
 		::UnityEngine::UI::Image* Field_5_0; // 0x18
 		::UnityEngine::Transform* Field_5_1; // 0x20
 		::UnityEngine::Transform* Field_5_2; // 0x28
-		::Class_1_43B508F64DA705FE* Field_5_3; // 0x30
+		::Class_1_6CC143B9599F1FCA* Field_5_3; // 0x30
 		::RPG::Client::QuadricBezier* Field_5_4; // 0x38
 		::System::Single Field_5_5; // 0x40
 

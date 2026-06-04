@@ -7,9 +7,9 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF2E5DB0)
+#define CLASS_1_756B5584F1951889___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x142E9250)
 
-inline static constexpr unsigned int Class_1_756B5584F1951889___c__DisplayClass28_0_TypeDefinitionIndex = 70450;
+inline static constexpr unsigned int Class_1_756B5584F1951889___c__DisplayClass28_0_TypeDefinitionIndex = 71266;
 
 class Class_1_756B5584F1951889___c__DisplayClass28_0 : public ::System::Object
 {

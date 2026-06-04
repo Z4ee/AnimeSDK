@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomLineType_TypeDefinitionIndex = 64898;
+	inline static constexpr unsigned int CustomLineType_TypeDefinitionIndex = 65824;
 
 	enum class CustomLineType : ::System::Int32
 	{

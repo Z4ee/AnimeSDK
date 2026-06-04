@@ -13,66 +13,66 @@ namespace RPG::GameCore { class MissionItemConfigList; }
 namespace RPG::GameCore { class SelectMissionItemConfig; }
 namespace RPG::GameCore { class SetLoadingStratageType; }
 
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_CONSUMEITEM_OFFSET UNITYSDK_OFFSET(0xA8E6360)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_FINISHPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xA8E6310)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_PLAYMESSAGE_OFFSET UNITYSDK_OFFSET(0xA8E6380)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_RESULTVALUE_OFFSET UNITYSDK_OFFSET(0xA8E63A0)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_SELECTITEM_OFFSET UNITYSDK_OFFSET(0xA8E6340)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETCONSUMEITEM_OFFSET UNITYSDK_OFFSET(0xA8E6240)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETFINISHPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xA8E6130)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETMESSAGE_OFFSET UNITYSDK_OFFSET(0xA8E61A0)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETRESULTVALUE_OFFSET UNITYSDK_OFFSET(0xA8E61F0)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETSELECTCONSUMEITEM_OFFSET UNITYSDK_OFFSET(0xA8E62B0)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_CONSUMEITEM_OFFSET UNITYSDK_OFFSET(0xA8E6370)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_FINISHPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xA8E6330)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_PLAYMESSAGE_OFFSET UNITYSDK_OFFSET(0xA8E6390)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_RESULTVALUE_OFFSET UNITYSDK_OFFSET(0xA8E63B0)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_SELECTITEM_OFFSET UNITYSDK_OFFSET(0xA8E6350)
-#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA8E6120)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_CONSUMEITEM_OFFSET UNITYSDK_OFFSET(0xC034D70)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_FINISHPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xC034D20)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_PLAYMESSAGE_OFFSET UNITYSDK_OFFSET(0xC034D90)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_RESULTVALUE_OFFSET UNITYSDK_OFFSET(0xC034DB0)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_SELECTITEM_OFFSET UNITYSDK_OFFSET(0xC034D50)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETCONSUMEITEM_OFFSET UNITYSDK_OFFSET(0xC009EE0)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETFINISHPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xC009990)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETMESSAGE_OFFSET UNITYSDK_OFFSET(0xC009D10)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETRESULTVALUE_OFFSET UNITYSDK_OFFSET(0xC009B60)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETSELECTCONSUMEITEM_OFFSET UNITYSDK_OFFSET(0xC00A0B0)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_CONSUMEITEM_OFFSET UNITYSDK_OFFSET(0xC034D80)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_FINISHPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xC034D40)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_PLAYMESSAGE_OFFSET UNITYSDK_OFFSET(0xC034DA0)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_RESULTVALUE_OFFSET UNITYSDK_OFFSET(0xC034DC0)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_SELECTITEM_OFFSET UNITYSDK_OFFSET(0xC034D60)
+#define RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC009980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_ClientFinishMissionInfo_TypeDefinitionIndex = 60907;
+	inline static constexpr unsigned int MissionModule_ClientFinishMissionInfo_TypeDefinitionIndex = 61841;
 
 	class MissionModule_ClientFinishMissionInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::MissionModule_SelectItem _SelectItem_k__BackingField; // 0x10
-		::RPG::Client::MissionModule_ConsumeItem _ConsumeItem_k__BackingField; // 0x20
+		::RPG::Client::MissionModule_ConsumeItem _ConsumeItem_k__BackingField; // 0x10
+		::RPG::Client::MissionModule_SelectItem _SelectItem_k__BackingField; // 0x20
 		::RPG::Client::MissionModule_ClientFinishMissionType FinishMissionType; // 0x30
-		::RPG::Client::MissionModule_ResultValue _ResultValue_k__BackingField; // 0x34
-		::RPG::Client::MissionModule_FinishPerformance _FinishPerformance_k__BackingField; // 0x38
-		::RPG::Client::MissionModule_PlayMessage _PlayMessage_k__BackingField; // 0x44
-		::System::UInt32 SubMissionID; // 0x48
+		::RPG::Client::MissionModule_PlayMessage _PlayMessage_k__BackingField; // 0x34
+		::RPG::Client::MissionModule_ResultValue _ResultValue_k__BackingField; // 0x38
+		::System::UInt32 SubMissionID; // 0x3C
+		::RPG::Client::MissionModule_FinishPerformance _FinishPerformance_k__BackingField; // 0x40
 
-		::System::Void _ctor(::System::UInt32 subMissionID, ::RPG::Client::MissionModule_ClientFinishMissionType type)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::MissionModule_ClientFinishMissionType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::MissionModule_ClientFinishMissionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO__CTOR_OFFSET))(this, subMissionID, type);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::MissionModule_ClientFinishMissionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetFinishPerformance(::RPG::GameCore::SetLoadingStratageType* finishPerformance)
+		::System::Void SetFinishPerformance(::RPG::GameCore::SetLoadingStratageType* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SetLoadingStratageType*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETFINISHPERFORMANCE_OFFSET))(this, finishPerformance);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SetLoadingStratageType*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETFINISHPERFORMANCE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetMessage(::System::UInt32 sectionID)
+		::System::Void SetMessage(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETMESSAGE_OFFSET))(this, sectionID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetResultValue(::System::UInt32 resultValue)
+		::System::Void SetResultValue(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETRESULTVALUE_OFFSET))(this, resultValue);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETRESULTVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetConsumeItem(::System::Boolean isShowConsumeFinishTips, ::Il2CppArray<::RPG::GameCore::MissionItemConfig*>* itemList)
+		::System::Void SetConsumeItem(::System::Boolean a1, ::Il2CppArray<::RPG::GameCore::MissionItemConfig*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::RPG::GameCore::MissionItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETCONSUMEITEM_OFFSET))(this, isShowConsumeFinishTips, itemList);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::RPG::GameCore::MissionItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETCONSUMEITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetSelectConsumeItem(::Il2CppArray<::RPG::GameCore::SelectMissionItemConfig*>* itemSelectConfig, ::RPG::GameCore::MissionItemConfigList* playerSelectList)
+		::System::Void SetSelectConsumeItem(::Il2CppArray<::RPG::GameCore::SelectMissionItemConfig*>* a1, ::RPG::GameCore::MissionItemConfigList* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::SelectMissionItemConfig*>*, ::RPG::GameCore::MissionItemConfigList*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETSELECTCONSUMEITEM_OFFSET))(this, itemSelectConfig, playerSelectList);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::SelectMissionItemConfig*>*, ::RPG::GameCore::MissionItemConfigList*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SETSELECTCONSUMEITEM_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::MissionModule_FinishPerformance get_FinishPerformance()
@@ -80,9 +80,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MissionModule_FinishPerformance(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_FINISHPERFORMANCE_OFFSET))(this);
 		}
 
-		::System::Void set_FinishPerformance(::RPG::Client::MissionModule_FinishPerformance value)
+		::System::Void set_FinishPerformance(::RPG::Client::MissionModule_FinishPerformance a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionModule_FinishPerformance))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_FINISHPERFORMANCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionModule_FinishPerformance))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_FINISHPERFORMANCE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MissionModule_SelectItem get_SelectItem()
@@ -90,9 +90,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MissionModule_SelectItem(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_SELECTITEM_OFFSET))(this);
 		}
 
-		::System::Void set_SelectItem(::RPG::Client::MissionModule_SelectItem value)
+		::System::Void set_SelectItem(::RPG::Client::MissionModule_SelectItem a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionModule_SelectItem))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_SELECTITEM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionModule_SelectItem))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_SELECTITEM_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MissionModule_ConsumeItem get_ConsumeItem()
@@ -100,9 +100,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MissionModule_ConsumeItem(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_CONSUMEITEM_OFFSET))(this);
 		}
 
-		::System::Void set_ConsumeItem(::RPG::Client::MissionModule_ConsumeItem value)
+		::System::Void set_ConsumeItem(::RPG::Client::MissionModule_ConsumeItem a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionModule_ConsumeItem))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_CONSUMEITEM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionModule_ConsumeItem))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_CONSUMEITEM_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MissionModule_PlayMessage get_PlayMessage()
@@ -110,9 +110,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MissionModule_PlayMessage(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_PLAYMESSAGE_OFFSET))(this);
 		}
 
-		::System::Void set_PlayMessage(::RPG::Client::MissionModule_PlayMessage value)
+		::System::Void set_PlayMessage(::RPG::Client::MissionModule_PlayMessage a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionModule_PlayMessage))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_PLAYMESSAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionModule_PlayMessage))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_PLAYMESSAGE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MissionModule_ResultValue get_ResultValue()
@@ -120,9 +120,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MissionModule_ResultValue(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_GET_RESULTVALUE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultValue(::RPG::Client::MissionModule_ResultValue value)
+		::System::Void set_ResultValue(::RPG::Client::MissionModule_ResultValue a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionModule_ResultValue))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_RESULTVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MissionModule_ResultValue))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CLIENTFINISHMISSIONINFO_SET_RESULTVALUE_OFFSET))(this, a1);
 		}
 	};
 }

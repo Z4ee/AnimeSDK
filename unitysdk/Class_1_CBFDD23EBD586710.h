@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_21B9871D4D474809;
-class Class_1_963E317C37FB5E9A_13;
-class Class_1_D17272E82AE804C2_102;
+class Class_1_963E317C37FB5E9A_33;
+class Class_1_C0138A0A8FBF98AC;
+class Class_1_D17272E82AE804C2_103;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Proto { class ItemList; }
 namespace RPG::Client::ActivityIdleLive { class GetEquipResult; }
@@ -15,51 +15,51 @@ namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_CBFDD23EBD586710_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12479430)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_0868EF727040C390_OFFSET UNITYSDK_OFFSET(0x1247A310)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_0E9E49CEE20FBB76_OFFSET UNITYSDK_OFFSET(0x1247AA40)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_1495CA9CAB3D95A3_OFFSET UNITYSDK_OFFSET(0x1247AD90)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x12479AC0)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_332BE580DCDE199D_OFFSET UNITYSDK_OFFSET(0x1247AC80)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_409D65EAA2D88B71_OFFSET UNITYSDK_OFFSET(0x12479D80)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_40BBA4BE52F11D71_OFFSET UNITYSDK_OFFSET(0x1247B1F0)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_464F9487BF0D77F8_OFFSET UNITYSDK_OFFSET(0x124798D0)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_500A334C300A5F83_OFFSET UNITYSDK_OFFSET(0x1247A560)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_5E04ED9F1561C7B1_OFFSET UNITYSDK_OFFSET(0x12479140)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_669E9783F8DAE175_OFFSET UNITYSDK_OFFSET(0x1247A7B0)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_684315F1D2E79E40_OFFSET UNITYSDK_OFFSET(0x12479B20)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_7C3F22F24EF9CAE7_OFFSET UNITYSDK_OFFSET(0x1247A030)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_A4D10FB87FE9EDD5_OFFSET UNITYSDK_OFFSET(0x124799F0)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_ACE888BF6F5BC5FD_OFFSET UNITYSDK_OFFSET(0x12479570)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_BD7B79150E4212DD_OFFSET UNITYSDK_OFFSET(0x12479190)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_DE18C695F9CF259F_OFFSET UNITYSDK_OFFSET(0x1247A6C0)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_ECA33935490AF2E4_OFFSET UNITYSDK_OFFSET(0x1247A460)
-#define CLASS_1_CBFDD23EBD586710_METHOD_1_F088F946AD14C0AD_OFFSET UNITYSDK_OFFSET(0x12479300)
-#define CLASS_1_CBFDD23EBD586710__CTOR_OFFSET UNITYSDK_OFFSET(0x12478FD0)
-#define CLASS_1_CBFDD23EBD586710___ASYNCREQUESTOPENCHEST_B__24_0_OFFSET UNITYSDK_OFFSET(0x1247B420)
+#define CLASS_1_CBFDD23EBD586710_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA43A670)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_0E9E49CEE20FBB76_OFFSET UNITYSDK_OFFSET(0xA43BCF0)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xA43AD00)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_253BD5F643298838_OFFSET UNITYSDK_OFFSET(0xA43A320)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_332BE580DCDE199D_OFFSET UNITYSDK_OFFSET(0xA43BF30)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_3602D4682C89F5AC_OFFSET UNITYSDK_OFFSET(0xA43C030)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_40BBA4BE52F11D71_OFFSET UNITYSDK_OFFSET(0xA43C370)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_464F9487BF0D77F8_OFFSET UNITYSDK_OFFSET(0xA43AB10)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_500A334C300A5F83_OFFSET UNITYSDK_OFFSET(0xA43B7E0)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_684315F1D2E79E40_OFFSET UNITYSDK_OFFSET(0xA43AD60)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_8826783C09FB739A_OFFSET UNITYSDK_OFFSET(0xA43BA30)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_A4D10FB87FE9EDD5_OFFSET UNITYSDK_OFFSET(0xA43AC30)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_B768DA94E3FD91D9_OFFSET UNITYSDK_OFFSET(0xA43B580)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_BD7B79150E4212DD_OFFSET UNITYSDK_OFFSET(0xA43A370)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_DA37DFE3A5BDA9F4_OFFSET UNITYSDK_OFFSET(0xA43A800)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_DE18C695F9CF259F_OFFSET UNITYSDK_OFFSET(0xA43B940)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_E8F71BC8471C5469_OFFSET UNITYSDK_OFFSET(0xA43A4E0)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_ECA33935490AF2E4_OFFSET UNITYSDK_OFFSET(0xA43B6E0)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_EDD1600D27DBC048_OFFSET UNITYSDK_OFFSET(0xA43AFD0)
+#define CLASS_1_CBFDD23EBD586710_METHOD_1_EEAE52D32CF8CE5C_OFFSET UNITYSDK_OFFSET(0xA43B2B0)
+#define CLASS_1_CBFDD23EBD586710__CTOR_OFFSET UNITYSDK_OFFSET(0xA43A1A0)
+#define CLASS_1_CBFDD23EBD586710___ASYNCREQUESTOPENCHEST_B__24_0_OFFSET UNITYSDK_OFFSET(0xA43C5A0)
 
-inline static constexpr unsigned int Class_1_CBFDD23EBD586710_TypeDefinitionIndex = 69360;
+inline static constexpr unsigned int Class_1_CBFDD23EBD586710_TypeDefinitionIndex = 70172;
 
 class Class_1_CBFDD23EBD586710 : public ::System::Object
 {
 public:
-	::RPG::Client::Promises::Promise_1<::Class_1_963E317C37FB5E9A_13*>* Field_1_2; // 0x10
-	::Class_1_21B9871D4D474809* Field_1_7; // 0x18
-	::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::System::UInt32>*>* Field_1_1; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* Field_1_4; // 0x28
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Promises::Promise*>* Field_1_3; // 0x30
-	::RPG::Client::Promises::Promise_1<::RPG::Client::ActivityIdleLive::GetEquipResult*>* Field_1_0; // 0x38
-	::System::UInt32 Field_1_5; // 0x40
-	::System::UInt32 Field_1_6; // 0x44
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* Field_1_0; // 0x10
+	::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::System::UInt32>*>* Field_1_1; // 0x18
+	::Class_1_C0138A0A8FBF98AC* Field_1_2; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Promises::Promise*>* Field_1_3; // 0x28
+	::RPG::Client::Promises::Promise_1<::RPG::Client::ActivityIdleLive::GetEquipResult*>* Field_1_4; // 0x30
+	::RPG::Client::Promises::Promise_1<::Class_1_963E317C37FB5E9A_33*>* Field_1_5; // 0x38
+	::System::UInt32 Field_1_6; // 0x40
+	::System::UInt32 Field_1_7; // 0x44
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_5E04ED9F1561C7B1()
+	::System::Void Method_1_253BD5F643298838()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_5E04ED9F1561C7B1_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_253BD5F643298838_OFFSET))(this);
 	}
 
 	::System::Void Method_1_BD7B79150E4212DD()
@@ -67,9 +67,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_BD7B79150E4212DD_OFFSET))(this);
 	}
 
-	::System::Void Method_1_F088F946AD14C0AD()
+	::System::Void Method_1_E8F71BC8471C5469()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_F088F946AD14C0AD_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_E8F71BC8471C5469_OFFSET))(this);
 	}
 
 	::System::Void Dispose()
@@ -77,9 +77,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_ACE888BF6F5BC5FD()
+	::System::Void Method_1_DA37DFE3A5BDA9F4()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_ACE888BF6F5BC5FD_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_DA37DFE3A5BDA9F4_OFFSET))(this);
 	}
 
 	::System::Void Method_1_464F9487BF0D77F8(::System::Object* a1)
@@ -102,19 +102,19 @@ public:
 		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_684315F1D2E79E40_OFFSET))(this, a1, a2);
 	}
 
-	::RPG::Client::Promises::IPromise* Method_1_7C3F22F24EF9CAE7(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
+	::RPG::Client::Promises::IPromise* Method_1_EEAE52D32CF8CE5C(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
 	{
-		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_7C3F22F24EF9CAE7_OFFSET))(this, a1, a2);
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_EEAE52D32CF8CE5C_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_0868EF727040C390()
+	::System::Void Method_1_B768DA94E3FD91D9()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_0868EF727040C390_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_B768DA94E3FD91D9_OFFSET))(this);
 	}
 
-	::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::System::UInt32>*>* Method_1_409D65EAA2D88B71(::System::UInt32 a1)
+	::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::System::UInt32>*>* Method_1_EDD1600D27DBC048(::System::UInt32 a1)
 	{
-		return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::System::UInt32>*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_409D65EAA2D88B71_OFFSET))(this, a1);
+		return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::System::UInt32>*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_EDD1600D27DBC048_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_ECA33935490AF2E4()
@@ -132,9 +132,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_DE18C695F9CF259F_OFFSET))(this);
 	}
 
-	::RPG::Client::Promises::IPromise_1<::RPG::Client::ActivityIdleLive::GetEquipResult*>* Method_1_669E9783F8DAE175(::System::UInt32 a1)
+	::RPG::Client::Promises::IPromise_1<::RPG::Client::ActivityIdleLive::GetEquipResult*>* Method_1_8826783C09FB739A(::System::UInt32 a1)
 	{
-		return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ActivityIdleLive::GetEquipResult*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_669E9783F8DAE175_OFFSET))(this, a1);
+		return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ActivityIdleLive::GetEquipResult*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_8826783C09FB739A_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_0E9E49CEE20FBB76(::System::UInt16 a1, ::System::Object* a2)
@@ -152,9 +152,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_40BBA4BE52F11D71_OFFSET))(this, a1, a2);
 	}
 
-	::System::Collections::Generic::List_1<::System::UInt32>* Method_1_1495CA9CAB3D95A3(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_102*>* a1)
+	::System::Collections::Generic::List_1<::System::UInt32>* Method_1_3602D4682C89F5AC(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_103*>* a1)
 	{
-		return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_102*>*))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_1495CA9CAB3D95A3_OFFSET))(this, a1);
+		return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_103*>*))((::PBYTE)hIl2Cpp + CLASS_1_CBFDD23EBD586710_METHOD_1_3602D4682C89F5AC_OFFSET))(this, a1);
 	}
 
 	::System::Void __AsyncRequestOpenChest_b__24_0()

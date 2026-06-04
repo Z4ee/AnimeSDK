@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_8F7D3BAFD8C03B69.h"
-#include "unitysdk/Enum_3_63BCB6C405BA8A1D_1.h"
+#include "unitysdk/Class_1_CD6736B46496BBF4.h"
+#include "unitysdk/Enum_3_63BCB6C405BA8A1D_2.h"
 
 namespace RPG::Client { class RogueFormulaInfo; }
 
-#define CLASS_2_FA614B17D2075A99__CTOR_OFFSET UNITYSDK_OFFSET(0x12AD91D0)
+#define CLASS_2_FA614B17D2075A99__CTOR_OFFSET UNITYSDK_OFFSET(0x1458AE30)
 
-inline static constexpr unsigned int Class_2_FA614B17D2075A99_TypeDefinitionIndex = 61781;
+inline static constexpr unsigned int Class_2_FA614B17D2075A99_TypeDefinitionIndex = 62714;
 
-class Class_2_FA614B17D2075A99 : public ::Class_1_8F7D3BAFD8C03B69
+class Class_2_FA614B17D2075A99 : public ::Class_1_CD6736B46496BBF4
 {
 public:
 	::RPG::Client::RogueFormulaInfo* Field_2_0; // 0x20
 
-	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_1 a1, ::RPG::Client::RogueFormulaInfo* a2)
+	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_2 a1, ::RPG::Client::RogueFormulaInfo* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Enum_3_63BCB6C405BA8A1D_1, ::RPG::Client::RogueFormulaInfo*))((::PBYTE)hIl2Cpp + CLASS_2_FA614B17D2075A99__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Enum_3_63BCB6C405BA8A1D_2, ::RPG::Client::RogueFormulaInfo*))((::PBYTE)hIl2Cpp + CLASS_2_FA614B17D2075A99__CTOR_OFFSET))(this, a1, a2);
 	}
 };

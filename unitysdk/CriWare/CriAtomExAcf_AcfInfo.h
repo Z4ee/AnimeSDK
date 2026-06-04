@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_ACFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16244D0)
+#define CRIWARE_CRIATOMEXACF_ACFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD46A0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AcfInfo_TypeDefinitionIndex = 36780;
+	inline static constexpr unsigned int CriAtomExAcf_AcfInfo_TypeDefinitionIndex = 37080;
 
 	struct alignas(8) CriAtomExAcf_AcfInfo
 	{
@@ -29,9 +29,9 @@ namespace CriWare
 		::System::Int32 numVoiceLimitGroups; // 0x48
 		::System::Int32 numOutputPorts; // 0x4C
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* data, ::System::Int32 startIndex)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_ACFINFO__CTOR_OFFSET))(this, data, startIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_ACFINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

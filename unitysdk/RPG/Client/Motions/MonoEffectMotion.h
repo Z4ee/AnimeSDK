@@ -7,17 +7,17 @@ namespace RPG::Client::Motions { class MonoEffectMotion_VoidDelegate; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_GET_OFFSET UNITYSDK_OFFSET(0xAACDBA0)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_INITEFFECTMOTION_OFFSET UNITYSDK_OFFSET(0xAACDCB0)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAACE030)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xAACDFB0)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION__CREATEEFFECTMOTION_OFFSET UNITYSDK_OFFSET(0xAACDDA0)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xAACE640)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION__ENDCALLBACK_OFFSET UNITYSDK_OFFSET(0xAACE080)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_GET_OFFSET UNITYSDK_OFFSET(0xC19DEF0)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_INITEFFECTMOTION_OFFSET UNITYSDK_OFFSET(0xC19E000)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC19E3A0)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xC19E320)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION__CREATEEFFECTMOTION_OFFSET UNITYSDK_OFFSET(0xC19E0F0)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xC19E480)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION__ENDCALLBACK_OFFSET UNITYSDK_OFFSET(0xC19E3F0)
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MonoEffectMotion_TypeDefinitionIndex = 67634;
+	inline static constexpr unsigned int MonoEffectMotion_TypeDefinitionIndex = 68592;
 
 	class MonoEffectMotion : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,14 +31,14 @@ namespace RPG::Client::Motions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::Motions::MonoEffectMotion* Get(::UnityEngine::GameObject* go)
+		static ::RPG::Client::Motions::MonoEffectMotion* Get(::UnityEngine::GameObject* a1)
 		{
-			return ((::RPG::Client::Motions::MonoEffectMotion*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_GET_OFFSET))(go);
+			return ((::RPG::Client::Motions::MonoEffectMotion*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_GET_OFFSET))(a1);
 		}
 
-		::System::Void InitEffectMotion(::UnityEngine::Transform* startPos, ::System::Single durationTime, ::System::Single x, ::System::Single y, ::System::Single z)
+		::System::Void InitEffectMotion(::UnityEngine::Transform* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_INITEFFECTMOTION_OFFSET))(this, startPos, durationTime, x, y, z);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_INITEFFECTMOTION_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Update()
@@ -51,9 +51,9 @@ namespace RPG::Client::Motions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_ONDESTROY_OFFSET))(this);
 		}
 
-		::Class_2_9C4E0E0141829F67* _CreateEffectMotion(::System::Single durationTime, ::System::Single x, ::System::Single y, ::System::Single z)
+		::Class_2_9C4E0E0141829F67* _CreateEffectMotion(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION__CREATEEFFECTMOTION_OFFSET))(this, durationTime, x, y, z);
+			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION__CREATEEFFECTMOTION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _EndCallback()

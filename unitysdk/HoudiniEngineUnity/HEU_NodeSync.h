@@ -5,24 +5,24 @@
 namespace HoudiniEngineUnity { class HEU_SessionBase; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_NODESYNC_CREATENODESYNC_OFFSET UNITYSDK_OFFSET(0x8C95550)
-#define HOUDINIENGINEUNITY_HEU_NODESYNC_INITIALIZEFROMHOUDINI_OFFSET UNITYSDK_OFFSET(0x8C95230)
-#define HOUDINIENGINEUNITY_HEU_NODESYNC_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x8C95190)
-#define HOUDINIENGINEUNITY_HEU_NODESYNC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x8C95180)
-#define HOUDINIENGINEUNITY_HEU_NODESYNC_RESYNC_OFFSET UNITYSDK_OFFSET(0x8C958C0)
-#define HOUDINIENGINEUNITY_HEU_NODESYNC_SAVENODETOFILE_OFFSET UNITYSDK_OFFSET(0x8C95390)
-#define HOUDINIENGINEUNITY_HEU_NODESYNC_SETUPLOADTASK_OFFSET UNITYSDK_OFFSET(0x8C952E0)
-#define HOUDINIENGINEUNITY_HEU_NODESYNC_SYNCUPDATE_OFFSET UNITYSDK_OFFSET(0x8C958F0)
-#define HOUDINIENGINEUNITY_HEU_NODESYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x8C95A80)
+#define HOUDINIENGINEUNITY_HEU_NODESYNC_CREATENODESYNC_OFFSET UNITYSDK_OFFSET(0x17F23030)
+#define HOUDINIENGINEUNITY_HEU_NODESYNC_INITIALIZEFROMHOUDINI_OFFSET UNITYSDK_OFFSET(0x17F22D00)
+#define HOUDINIENGINEUNITY_HEU_NODESYNC_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17F22C60)
+#define HOUDINIENGINEUNITY_HEU_NODESYNC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17F22C50)
+#define HOUDINIENGINEUNITY_HEU_NODESYNC_RESYNC_OFFSET UNITYSDK_OFFSET(0x17F234A0)
+#define HOUDINIENGINEUNITY_HEU_NODESYNC_SAVENODETOFILE_OFFSET UNITYSDK_OFFSET(0x17F22E70)
+#define HOUDINIENGINEUNITY_HEU_NODESYNC_SETUPLOADTASK_OFFSET UNITYSDK_OFFSET(0x17F22DB0)
+#define HOUDINIENGINEUNITY_HEU_NODESYNC_SYNCUPDATE_OFFSET UNITYSDK_OFFSET(0x17F234D0)
+#define HOUDINIENGINEUNITY_HEU_NODESYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x17F236E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_NodeSync_TypeDefinitionIndex = 43658;
+	inline static constexpr unsigned int HEU_NodeSync_TypeDefinitionIndex = 37634;
 
 	class HEU_NodeSync : public ::HoudiniEngineUnity::HEU_BaseSync
 	{
 	public:
-		::System::String* _nodeSaveFilePath; // 0x80
+		::System::String* _nodeSaveFilePath; // 0x88
 
 		::System::Void _ctor()
 		{
@@ -39,24 +39,24 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_NODESYNC_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void InitializeFromHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::System::String* nodeName, ::System::String* filePath)
+		::System::Void InitializeFromHoudini(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_NODESYNC_INITIALIZEFROMHOUDINI_OFFSET))(this, session, nodeID, nodeName, filePath);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_NODESYNC_INITIALIZEFROMHOUDINI_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session)
+		::System::Void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_NODESYNC_SETUPLOADTASK_OFFSET))(this, session);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_NODESYNC_SETUPLOADTASK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean SaveNodeToFile(::System::String* filePath)
+		::System::Boolean SaveNodeToFile(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_NODESYNC_SAVENODETOFILE_OFFSET))(this, filePath);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_NODESYNC_SAVENODETOFILE_OFFSET))(this, a1);
 		}
 
-		static ::System::Void CreateNodeSync(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::String* opName, ::System::String* nodeNabel)
+		static ::System::Void CreateNodeSync(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_NODESYNC_CREATENODESYNC_OFFSET))(session, opName, nodeNabel);
+			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_NODESYNC_CREATENODESYNC_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Void Resync()

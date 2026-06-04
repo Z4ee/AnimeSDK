@@ -12,13 +12,13 @@ namespace RPG::GameCore { class RtCollision2DShapeConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTATTACHTRIGGER_METHOD_3_EF1ABE5D74FCD6D1_OFFSET UNITYSDK_OFFSET(0x18DC05D0)
-#define RPG_GAMECORE_RTATTACHTRIGGER_METHOD_3_F0572618B73423DB_OFFSET UNITYSDK_OFFSET(0x18DC04B0)
-#define RPG_GAMECORE_RTATTACHTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC04F0)
+#define RPG_GAMECORE_RTATTACHTRIGGER_METHOD_3_6BFFC3498DFFAA0F_OFFSET UNITYSDK_OFFSET(0x19BD6F20)
+#define RPG_GAMECORE_RTATTACHTRIGGER_METHOD_3_D608554727096ABA_OFFSET UNITYSDK_OFFSET(0x19BD7040)
+#define RPG_GAMECORE_RTATTACHTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD6F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAttachTrigger_TypeDefinitionIndex = 23127;
+	inline static constexpr unsigned int RtAttachTrigger_TypeDefinitionIndex = 22808;
 
 	class RtAttachTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -43,14 +43,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTATTACHTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F0572618B73423DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAttachTrigger*& a2)
+		static ::System::Void Method_3_6BFFC3498DFFAA0F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAttachTrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAttachTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTATTACHTRIGGER_METHOD_3_F0572618B73423DB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAttachTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTATTACHTRIGGER_METHOD_3_6BFFC3498DFFAA0F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EF1ABE5D74FCD6D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAttachTrigger* a2)
+		static ::System::Void Method_3_D608554727096ABA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAttachTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAttachTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTATTACHTRIGGER_METHOD_3_EF1ABE5D74FCD6D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAttachTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTATTACHTRIGGER_METHOD_3_D608554727096ABA_OFFSET))(a1, a2);
 		}
 	};
 }

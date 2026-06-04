@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SUMMONUNITBEATTACKCONFIG_METHOD_2_31EE9863F423A94F_OFFSET UNITYSDK_OFFSET(0x18EB3650)
-#define RPG_GAMECORE_SUMMONUNITBEATTACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB3750)
+#define RPG_GAMECORE_SUMMONUNITBEATTACKCONFIG_METHOD_2_6D7098D6318C991A_OFFSET UNITYSDK_OFFSET(0x19CD3370)
+#define RPG_GAMECORE_SUMMONUNITBEATTACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD3460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitBeAttackConfig_TypeDefinitionIndex = 16697;
+	inline static constexpr unsigned int SummonUnitBeAttackConfig_TypeDefinitionIndex = 16723;
 
 	class SummonUnitBeAttackConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITBEATTACKCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_31EE9863F423A94F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitBeAttackConfig*& a2)
+		static ::System::Void Method_2_6D7098D6318C991A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitBeAttackConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitBeAttackConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITBEATTACKCONFIG_METHOD_2_31EE9863F423A94F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitBeAttackConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITBEATTACKCONFIG_METHOD_2_6D7098D6318C991A_OFFSET))(a1, a2);
 		}
 	};
 }

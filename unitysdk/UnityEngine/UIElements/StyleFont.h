@@ -7,17 +7,17 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Font; }
 
-#define UNITYENGINE_UIELEMENTS_STYLEFONT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22FAE80)
-#define UNITYENGINE_UIELEMENTS_STYLEFONT_EQUALS_OFFSET UNITYSDK_OFFSET(0x22FAE20)
-#define UNITYENGINE_UIELEMENTS_STYLEFONT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22FAF10)
-#define UNITYENGINE_UIELEMENTS_STYLEFONT_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define UNITYENGINE_UIELEMENTS_STYLEFONT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x22FAE10)
-#define UNITYENGINE_UIELEMENTS_STYLEFONT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1A5181B0)
-#define UNITYENGINE_UIELEMENTS_STYLEFONT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22FAF90)
+#define UNITYENGINE_UIELEMENTS_STYLEFONT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x389A6A0)
+#define UNITYENGINE_UIELEMENTS_STYLEFONT_EQUALS_OFFSET UNITYSDK_OFFSET(0x389A640)
+#define UNITYENGINE_UIELEMENTS_STYLEFONT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x389A730)
+#define UNITYENGINE_UIELEMENTS_STYLEFONT_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define UNITYENGINE_UIELEMENTS_STYLEFONT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x389A630)
+#define UNITYENGINE_UIELEMENTS_STYLEFONT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B363AB0)
+#define UNITYENGINE_UIELEMENTS_STYLEFONT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x389A7B0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleFont_TypeDefinitionIndex = 5979;
+	inline static constexpr unsigned int StyleFont_TypeDefinitionIndex = 6256;
 
 	struct alignas(8) StyleFont
 	{
@@ -35,19 +35,19 @@ namespace UnityEngine::UIElements
 			return ((::UnityEngine::UIElements::StyleKeyword(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFONT_GET_KEYWORD_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleFont lhs, ::UnityEngine::UIElements::StyleFont rhs)
+		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleFont a1, ::UnityEngine::UIElements::StyleFont a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleFont, ::UnityEngine::UIElements::StyleFont))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFONT_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleFont, ::UnityEngine::UIElements::StyleFont))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFONT_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::UnityEngine::UIElements::StyleFont other)
+		::System::Boolean Equals(::UnityEngine::UIElements::StyleFont a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleFont))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFONT_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleFont))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFONT_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFONT_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEFONT_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

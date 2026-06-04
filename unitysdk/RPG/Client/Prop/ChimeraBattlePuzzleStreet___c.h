@@ -5,24 +5,24 @@
 namespace RPG::Client { class ChimeraBattlePuzzleArea; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xADBAAC0)
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C__CTOR_OFFSET UNITYSDK_OFFSET(0xADBAB00)
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C__INIT_B__0_0_OFFSET UNITYSDK_OFFSET(0xADBAB10)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4FED70)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4FEDB0)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C__INIT_B__0_0_OFFSET UNITYSDK_OFFSET(0xC4FEDC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBattlePuzzleStreet___c_TypeDefinitionIndex = 71926;
+	inline static constexpr unsigned int ChimeraBattlePuzzleStreet___c_TypeDefinitionIndex = 72948;
 
 	class ChimeraBattlePuzzleStreet___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::Prop::ChimeraBattlePuzzleStreet___c** StaticGet___9()
-		{
-			return (::RPG::Client::Prop::ChimeraBattlePuzzleStreet___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleStreet___c_TypeDefinitionIndex)->GetStaticField(0x6B00);
-		}
 		static ::System::Comparison_1<::RPG::Client::ChimeraBattlePuzzleArea*>** StaticGet___9__0_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChimeraBattlePuzzleArea*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleStreet___c_TypeDefinitionIndex)->GetStaticField(0x6B08);
+			return (::System::Comparison_1<::RPG::Client::ChimeraBattlePuzzleArea*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleStreet___c_TypeDefinitionIndex)->GetStaticField(0x127C0);
+		}
+		static ::RPG::Client::Prop::ChimeraBattlePuzzleStreet___c** StaticGet___9()
+		{
+			return (::RPG::Client::Prop::ChimeraBattlePuzzleStreet___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattlePuzzleStreet___c_TypeDefinitionIndex)->GetStaticField(0x127C8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _Init_b__0_0(::RPG::Client::ChimeraBattlePuzzleArea* a, ::RPG::Client::ChimeraBattlePuzzleArea* b)
+		::System::Int32 _Init_b__0_0(::RPG::Client::ChimeraBattlePuzzleArea* a1, ::RPG::Client::ChimeraBattlePuzzleArea* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChimeraBattlePuzzleArea*, ::RPG::Client::ChimeraBattlePuzzleArea*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C__INIT_B__0_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChimeraBattlePuzzleArea*, ::RPG::Client::ChimeraBattlePuzzleArea*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C__INIT_B__0_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

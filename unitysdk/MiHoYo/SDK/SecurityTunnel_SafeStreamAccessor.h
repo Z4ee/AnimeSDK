@@ -4,13 +4,13 @@
 
 namespace System::IO { class Stream; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_SAFESTREAMACCESSOR_TRYREADSTREAM_OFFSET UNITYSDK_OFFSET(0x8DBC7D0)
-#define MIHOYO_SDK_SECURITYTUNNEL_SAFESTREAMACCESSOR_TRYWRITESTREAM_OFFSET UNITYSDK_OFFSET(0x8DC0D30)
-#define MIHOYO_SDK_SECURITYTUNNEL_SAFESTREAMACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x8DCA5C0)
+#define MIHOYO_SDK_SECURITYTUNNEL_SAFESTREAMACCESSOR_TRYREADSTREAM_OFFSET UNITYSDK_OFFSET(0xA20AB20)
+#define MIHOYO_SDK_SECURITYTUNNEL_SAFESTREAMACCESSOR_TRYWRITESTREAM_OFFSET UNITYSDK_OFFSET(0xA20DDF0)
+#define MIHOYO_SDK_SECURITYTUNNEL_SAFESTREAMACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA2161E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_SafeStreamAccessor_TypeDefinitionIndex = 43019;
+	inline static constexpr unsigned int SecurityTunnel_SafeStreamAccessor_TypeDefinitionIndex = 43822;
 
 	class SecurityTunnel_SafeStreamAccessor : public ::System::Object
 	{
@@ -20,14 +20,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_SAFESTREAMACCESSOR__CTOR_OFFSET))(this);
 		}
 
-		static ::Il2CppArray<::System::Byte>* TryReadStream(::System::IO::Stream* stream, ::System::UInt32 length, ::System::Boolean convertEndian)
+		static ::Il2CppArray<::System::Byte>* TryReadStream(::System::IO::Stream* a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::IO::Stream*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_SAFESTREAMACCESSOR_TRYREADSTREAM_OFFSET))(stream, length, convertEndian);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::IO::Stream*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_SAFESTREAMACCESSOR_TRYREADSTREAM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void TryWriteStream(::System::IO::Stream* stream, ::Il2CppArray<::System::Byte>* bytes)
+		static ::System::Void TryWriteStream(::System::IO::Stream* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::System::IO::Stream*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_SAFESTREAMACCESSOR_TRYWRITESTREAM_OFFSET))(stream, bytes);
+			return ((::System::Void(*)(::System::IO::Stream*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_SAFESTREAMACCESSOR_TRYWRITESTREAM_OFFSET))(a1, a2);
 		}
 	};
 }

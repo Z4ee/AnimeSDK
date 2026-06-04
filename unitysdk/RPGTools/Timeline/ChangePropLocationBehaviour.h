@@ -7,15 +7,15 @@
 
 class Class_2_7CE32ADB98EEB758;
 
-#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR_GET_TRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8A5E20)
-#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8A5E40)
-#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR_SET_TRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8A5E30)
-#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A5F70)
-#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8A5F80)
+#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR_GET_TRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFE9B90)
+#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFE9BB0)
+#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR_SET_TRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFE9BA0)
+#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE9CE0)
+#define RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFE9CF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ChangePropLocationBehaviour_TypeDefinitionIndex = 44672;
+	inline static constexpr unsigned int ChangePropLocationBehaviour_TypeDefinitionIndex = 45219;
 
 	class ChangePropLocationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -35,9 +35,9 @@ namespace RPGTools::Timeline
 			return ((::Class_2_7CE32ADB98EEB758*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR_GET_TRACKMIXER_OFFSET))(this);
 		}
 
-		::System::Void set_TrackMixer(::Class_2_7CE32ADB98EEB758* value)
+		::System::Void set_TrackMixer(::Class_2_7CE32ADB98EEB758* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_7CE32ADB98EEB758*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR_SET_TRACKMIXER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Class_2_7CE32ADB98EEB758*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR_SET_TRACKMIXER_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -45,9 +45,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGEPROPLOCATIONBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

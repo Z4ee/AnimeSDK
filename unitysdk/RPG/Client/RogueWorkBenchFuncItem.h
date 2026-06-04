@@ -5,33 +5,33 @@
 #include "unitysdk/RPG/GameCore/RogueWorkbenchFuncType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_21C7581DFE99F091_98;
+class Class_1_21C7581DFE99F091_102;
 namespace RPG::GameCore { class RogueTournWorkbenchFuncRow; }
 
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_FUNCDESC_OFFSET UNITYSDK_OFFSET(0xB127E70)
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_FUNCID_OFFSET UNITYSDK_OFFSET(0xB127D60)
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_FUNCNAME_OFFSET UNITYSDK_OFFSET(0xB127DF0)
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_FUNCTYPE_OFFSET UNITYSDK_OFFSET(0xB127DA0)
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xB127D80)
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_SET_FUNCID_OFFSET UNITYSDK_OFFSET(0xB127D70)
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0xB127D90)
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB127810)
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM__GETROW_OFFSET UNITYSDK_OFFSET(0xB127EF0)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_FUNCDESC_OFFSET UNITYSDK_OFFSET(0xC87BFA0)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_FUNCID_OFFSET UNITYSDK_OFFSET(0xC87BE90)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_FUNCNAME_OFFSET UNITYSDK_OFFSET(0xC87BF20)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_FUNCTYPE_OFFSET UNITYSDK_OFFSET(0xC87BED0)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xC87BEB0)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_SET_FUNCID_OFFSET UNITYSDK_OFFSET(0xC87BEA0)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0xC87BEC0)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC87B950)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCITEM__GETROW_OFFSET UNITYSDK_OFFSET(0xC87C020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueWorkBenchFuncItem_TypeDefinitionIndex = 62045;
+	inline static constexpr unsigned int RogueWorkBenchFuncItem_TypeDefinitionIndex = 62978;
 
 	class RogueWorkBenchFuncItem : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::RogueTournWorkbenchFuncRow* _Row; // 0x10
-		::System::Boolean _IsValid_k__BackingField; // 0x18
-		::System::UInt32 _FuncID_k__BackingField; // 0x1C
+		::System::UInt32 _FuncID_k__BackingField; // 0x18
+		::System::Boolean _IsValid_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::Class_1_21C7581DFE99F091_98* proto)
+		::System::Void _ctor(::Class_1_21C7581DFE99F091_102* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_21C7581DFE99F091_98*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCITEM__CTOR_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_21C7581DFE99F091_102*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCITEM__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_FuncID()
@@ -39,9 +39,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_FUNCID_OFFSET))(this);
 		}
 
-		::System::Void set_FuncID(::System::UInt32 value)
+		::System::Void set_FuncID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_SET_FUNCID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_SET_FUNCID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsValid()
@@ -49,9 +49,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_ISVALID_OFFSET))(this);
 		}
 
-		::System::Void set_IsValid(::System::Boolean value)
+		::System::Void set_IsValid(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_SET_ISVALID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_SET_ISVALID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::RogueWorkbenchFuncType get_FuncType()
@@ -69,9 +69,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCITEM_GET_FUNCDESC_OFFSET))(this);
 		}
 
-		::RPG::GameCore::RogueTournWorkbenchFuncRow* _GetRow(::System::UInt32 funcID, ::RPG::GameCore::RogueSubMode mode)
+		::RPG::GameCore::RogueTournWorkbenchFuncRow* _GetRow(::System::UInt32 a1, ::RPG::GameCore::RogueSubMode a2)
 		{
-			return ((::RPG::GameCore::RogueTournWorkbenchFuncRow*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::RogueSubMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCITEM__GETROW_OFFSET))(this, funcID, mode);
+			return ((::RPG::GameCore::RogueTournWorkbenchFuncRow*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::RogueSubMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHFUNCITEM__GETROW_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LOADINGFUNCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A735F0)
-#define RPG_GAMECORE_LOADINGFUNCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A73860)
+#define RPG_GAMECORE_LOADINGFUNCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198A6D50)
+#define RPG_GAMECORE_LOADINGFUNCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198A6F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingFuncConfigRow_TypeDefinitionIndex = 13239;
+	inline static constexpr unsigned int LoadingFuncConfigRow_TypeDefinitionIndex = 13316;
 
 	class LoadingFuncConfigRow : public ::System::Object
 	{
@@ -20,17 +20,17 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* LoadingFuncTypeParam; // 0x10
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LoadingDescGroup, ::System::UInt32>* LoadingRandomParam; // 0x18
 		::System::UInt32 LoadingFuncID; // 0x20
-		::RPG::GameCore::LoadingFuncType LoadingFuncType; // 0x24
-		::System::UInt32 RandomNumber; // 0x28
+		::System::UInt32 RandomNumber; // 0x24
+		::RPG::GameCore::LoadingFuncType LoadingFuncType; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGFUNCCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LoadingFuncConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoadingFuncConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoadingFuncConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGFUNCCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoadingFuncConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGFUNCCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

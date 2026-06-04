@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SilverWolfState_TypeDefinitionIndex = 62654;
+	inline static constexpr unsigned int SilverWolfState_TypeDefinitionIndex = 63587;
 
 	enum class SilverWolfState : ::System::Int32
 	{

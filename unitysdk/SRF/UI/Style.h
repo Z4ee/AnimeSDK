@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Sprite; }
 
-#define SRF_UI_STYLE_COPYFROM_OFFSET UNITYSDK_OFFSET(0x19EB08C0)
-#define SRF_UI_STYLE_COPY_OFFSET UNITYSDK_OFFSET(0x19EB0800)
-#define SRF_UI_STYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB08A0)
+#define SRF_UI_STYLE_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1AD27580)
+#define SRF_UI_STYLE_COPY_OFFSET UNITYSDK_OFFSET(0x1AD274C0)
+#define SRF_UI_STYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD27560)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int Style_TypeDefinitionIndex = 33310;
+	inline static constexpr unsigned int Style_TypeDefinitionIndex = 33592;
 
 	class Style : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace SRF::UI
 			return ((::SRF::UI::Style*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_STYLE_COPY_OFFSET))(this);
 		}
 
-		::System::Void CopyFrom(::SRF::UI::Style* style)
+		::System::Void CopyFrom(::SRF::UI::Style* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRF::UI::Style*))((::PBYTE)hIl2Cpp + SRF_UI_STYLE_COPYFROM_OFFSET))(this, style);
+			return ((::System::Void(*)(::PVOID, ::SRF::UI::Style*))((::PBYTE)hIl2Cpp + SRF_UI_STYLE_COPYFROM_OFFSET))(this, a1);
 		}
 	};
 }

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_1D47ADF2D6E6A54D_OFFSET UNITYSDK_OFFSET(0x18A1BBE0)
-#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_D6D9D89729B6928A_OFFSET UNITYSDK_OFFSET(0x18A1BC60)
-#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A1BC30)
+#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_38DF3E75FA715668_OFFSET UNITYSDK_OFFSET(0x1984DC40)
+#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_C9D716E7207E374B_OFFSET UNITYSDK_OFFSET(0x1984DBC0)
+#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1984DC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IncludeGlobalTaskListTemplate_TypeDefinitionIndex = 22826;
+	inline static constexpr unsigned int IncludeGlobalTaskListTemplate_TypeDefinitionIndex = 22527;
 
 	class IncludeGlobalTaskListTemplate : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1D47ADF2D6E6A54D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IncludeGlobalTaskListTemplate*& a2)
+		static ::System::Void Method_3_C9D716E7207E374B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IncludeGlobalTaskListTemplate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IncludeGlobalTaskListTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_1D47ADF2D6E6A54D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IncludeGlobalTaskListTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_C9D716E7207E374B_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D6D9D89729B6928A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IncludeGlobalTaskListTemplate* a2)
+		static ::System::Void Method_3_38DF3E75FA715668(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IncludeGlobalTaskListTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IncludeGlobalTaskListTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_D6D9D89729B6928A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IncludeGlobalTaskListTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_38DF3E75FA715668_OFFSET))(a1, a2);
 		}
 	};
 }

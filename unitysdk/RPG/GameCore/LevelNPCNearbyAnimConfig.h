@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELNPCNEARBYANIMCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18A4CCD0)
-#define RPG_GAMECORE_LEVELNPCNEARBYANIMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A4C400)
-#define RPG_GAMECORE_LEVELNPCNEARBYANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4CCC0)
+#define RPG_GAMECORE_LEVELNPCNEARBYANIMCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1987D900)
+#define RPG_GAMECORE_LEVELNPCNEARBYANIMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1987D030)
+#define RPG_GAMECORE_LEVELNPCNEARBYANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1987D8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCNearbyAnimConfig_TypeDefinitionIndex = 16391;
+	inline static constexpr unsigned int LevelNPCNearbyAnimConfig_TypeDefinitionIndex = 16424;
 
 	class LevelNPCNearbyAnimConfig : public ::RPG::GameCore::LevelNPCNearbyConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCNEARBYANIMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelNPCNearbyAnimConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCNearbyAnimConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCNearbyAnimConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCNEARBYANIMCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCNearbyAnimConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCNEARBYANIMCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelNPCNearbyAnimConfig* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCNearbyAnimConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCNearbyAnimConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCNEARBYANIMCONFIG_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCNearbyAnimConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCNEARBYANIMCONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

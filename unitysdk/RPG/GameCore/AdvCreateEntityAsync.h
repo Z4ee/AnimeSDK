@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GroupEntityCreateConfig; }
 
-#define RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_3E7AC06319369B81_OFFSET UNITYSDK_OFFSET(0x1864BE60)
-#define RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_D669BF51E37E67FF_OFFSET UNITYSDK_OFFSET(0x1864BEE0)
-#define RPG_GAMECORE_ADVCREATEENTITYASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1864BEB0)
+#define RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_DA114CF636ECF23D_OFFSET UNITYSDK_OFFSET(0x1941F6D0)
+#define RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_DDC353F5B3E829B3_OFFSET UNITYSDK_OFFSET(0x1941F650)
+#define RPG_GAMECORE_ADVCREATEENTITYASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1941F6A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvCreateEntityAsync_TypeDefinitionIndex = 20200;
+	inline static constexpr unsigned int AdvCreateEntityAsync_TypeDefinitionIndex = 20056;
 
 	class AdvCreateEntityAsync : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCREATEENTITYASYNC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3E7AC06319369B81(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCreateEntityAsync*& a2)
+		static ::System::Void Method_3_DDC353F5B3E829B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCreateEntityAsync*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvCreateEntityAsync*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_3E7AC06319369B81_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvCreateEntityAsync*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_DDC353F5B3E829B3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D669BF51E37E67FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCreateEntityAsync* a2)
+		static ::System::Void Method_3_DA114CF636ECF23D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCreateEntityAsync* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvCreateEntityAsync*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_D669BF51E37E67FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvCreateEntityAsync*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_DA114CF636ECF23D_OFFSET))(a1, a2);
 		}
 	};
 }

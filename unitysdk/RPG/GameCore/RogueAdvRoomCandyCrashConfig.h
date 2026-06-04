@@ -7,12 +7,12 @@ namespace RPG::GameCore { class RogueAdvRoomCandyCrashGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHCONFIG_METHOD_2_C319CE300B7DEB39_OFFSET UNITYSDK_OFFSET(0x18CE6310)
-#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CE6420)
+#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHCONFIG_METHOD_2_641186A55198F303_OFFSET UNITYSDK_OFFSET(0x19B0BCF0)
+#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B0BDF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdvRoomCandyCrashConfig_TypeDefinitionIndex = 16985;
+	inline static constexpr unsigned int RogueAdvRoomCandyCrashConfig_TypeDefinitionIndex = 17000;
 
 	class RogueAdvRoomCandyCrashConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C319CE300B7DEB39(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdvRoomCandyCrashConfig*& a2)
+		static ::System::Void Method_2_641186A55198F303(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdvRoomCandyCrashConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdvRoomCandyCrashConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHCONFIG_METHOD_2_C319CE300B7DEB39_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdvRoomCandyCrashConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHCONFIG_METHOD_2_641186A55198F303_OFFSET))(a1, a2);
 		}
 	};
 }

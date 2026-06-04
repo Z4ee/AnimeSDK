@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenPickingGoodsDisplayType_TypeDefinitionIndex = 15901;
+	inline static constexpr unsigned int HipplenPickingGoodsDisplayType_TypeDefinitionIndex = 15954;
 
 	enum class HipplenPickingGoodsDisplayType : ::System::Int32
 	{

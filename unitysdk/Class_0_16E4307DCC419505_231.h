@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_1_43BD383C98B4C0C5_24;
-class Class_2_9DD8A46984F1AFFD;
-namespace RPG::GameCore { class FiveDimWindowControllerComponentConfig; }
+class Class_1_38CD02622A43811A;
+class Class_1_9DB6F6BB628BF86A;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_231_TypeDefinitionIndex = 39434;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_231_TypeDefinitionIndex = 39683;
 
 class Class_0_16E4307DCC419505_231
 {

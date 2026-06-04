@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FloatCurveWithMultiplier; }
 namespace RPG::GameCore { class FloatCurveWithYMultiplier; }
 
-#define RPG_GAMECORE_FIVEDIMSCROLLCONFIG_METHOD_2_167BD1C33B74A907_OFFSET UNITYSDK_OFFSET(0x189193C0)
-#define RPG_GAMECORE_FIVEDIMSCROLLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18919510)
+#define RPG_GAMECORE_FIVEDIMSCROLLCONFIG_METHOD_2_167BD1C33B74A907_OFFSET UNITYSDK_OFFSET(0x19752AE0)
+#define RPG_GAMECORE_FIVEDIMSCROLLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19752C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimScrollConfig_TypeDefinitionIndex = 15789;
+	inline static constexpr unsigned int FiveDimScrollConfig_TypeDefinitionIndex = 15844;
 
 	class FiveDimScrollConfig : public ::RPG::GameCore::JsonConfig
 	{

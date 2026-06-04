@@ -4,24 +4,24 @@
 
 namespace System { class String; }
 
-#define ZLINQ_ARGUMENTNULLEXCEPTION_THROWIFNULL_OFFSET UNITYSDK_OFFSET(0x1A72AD90)
-#define ZLINQ_ARGUMENTNULLEXCEPTION_THROW_OFFSET UNITYSDK_OFFSET(0x1A72ADF0)
+#define ZLINQ_ARGUMENTNULLEXCEPTION_THROWIFNULL_OFFSET UNITYSDK_OFFSET(0x1B52C240)
+#define ZLINQ_ARGUMENTNULLEXCEPTION_THROW_OFFSET UNITYSDK_OFFSET(0x1B52C2A0)
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ArgumentNullException_TypeDefinitionIndex = 6501;
+	inline static constexpr unsigned int ArgumentNullException_TypeDefinitionIndex = 6330;
 
 	class ArgumentNullException : public ::System::Object
 	{
 	public:
-		static ::System::Void ThrowIfNull(::System::Object* argument, ::System::String* paramName)
+		static ::System::Void ThrowIfNull(::System::Object* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + ZLINQ_ARGUMENTNULLEXCEPTION_THROWIFNULL_OFFSET))(argument, paramName);
+			return ((::System::Void(*)(::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + ZLINQ_ARGUMENTNULLEXCEPTION_THROWIFNULL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Throw(::System::String* paramName)
+		static ::System::Void Throw(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + ZLINQ_ARGUMENTNULLEXCEPTION_THROW_OFFSET))(paramName);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + ZLINQ_ARGUMENTNULLEXCEPTION_THROW_OFFSET))(a1);
 		}
 	};
 }

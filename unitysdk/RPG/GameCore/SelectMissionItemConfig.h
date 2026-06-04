@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SELECTMISSIONITEMCONFIG_METHOD_2_B5932F766CCA8734_OFFSET UNITYSDK_OFFSET(0x18E018C0)
-#define RPG_GAMECORE_SELECTMISSIONITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E01A70)
+#define RPG_GAMECORE_SELECTMISSIONITEMCONFIG_METHOD_2_B5932F766CCA8734_OFFSET UNITYSDK_OFFSET(0x19C20900)
+#define RPG_GAMECORE_SELECTMISSIONITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C20AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectMissionItemConfig_TypeDefinitionIndex = 19401;
+	inline static constexpr unsigned int SelectMissionItemConfig_TypeDefinitionIndex = 19306;
 
 	class SelectMissionItemConfig : public ::RPG::GameCore::JsonConfig
 	{

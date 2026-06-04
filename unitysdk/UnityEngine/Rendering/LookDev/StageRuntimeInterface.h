@@ -8,31 +8,31 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Light; }
 
-#define UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE_ADDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1A3219A0)
-#define UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE_GET_CAMERA_OFFSET UNITYSDK_OFFSET(0x1A3219C0)
-#define UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE_GET_SUNLIGHT_OFFSET UNITYSDK_OFFSET(0x1A3219E0)
-#define UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A321990)
+#define UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE_ADDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B17C2C0)
+#define UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE_GET_CAMERA_OFFSET UNITYSDK_OFFSET(0x1B17C2E0)
+#define UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE_GET_SUNLIGHT_OFFSET UNITYSDK_OFFSET(0x1B17C300)
+#define UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17C2B0)
 
 namespace UnityEngine::Rendering::LookDev
 {
-	inline static constexpr unsigned int StageRuntimeInterface_TypeDefinitionIndex = 33582;
+	inline static constexpr unsigned int StageRuntimeInterface_TypeDefinitionIndex = 33864;
 
 	class StageRuntimeInterface : public ::System::Object
 	{
 	public:
-		::System::Object* SRPData; // 0x10
-		::System::Func_2<::System::Boolean, ::UnityEngine::GameObject*>* m_AddGameObject; // 0x18
-		::System::Func_1<::UnityEngine::Light*>* m_GetSunLight; // 0x20
-		::System::Func_1<::UnityEngine::Camera*>* m_GetCamera; // 0x28
+		::System::Func_1<::UnityEngine::Light*>* m_GetSunLight; // 0x10
+		::System::Func_1<::UnityEngine::Camera*>* m_GetCamera; // 0x18
+		::System::Func_2<::System::Boolean, ::UnityEngine::GameObject*>* m_AddGameObject; // 0x20
+		::System::Object* SRPData; // 0x28
 
-		::System::Void _ctor(::System::Func_2<::System::Boolean, ::UnityEngine::GameObject*>* AddGameObject, ::System::Func_1<::UnityEngine::Camera*>* GetCamera, ::System::Func_1<::UnityEngine::Light*>* GetSunLight)
+		::System::Void _ctor(::System::Func_2<::System::Boolean, ::UnityEngine::GameObject*>* a1, ::System::Func_1<::UnityEngine::Camera*>* a2, ::System::Func_1<::UnityEngine::Light*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_2<::System::Boolean, ::UnityEngine::GameObject*>*, ::System::Func_1<::UnityEngine::Camera*>*, ::System::Func_1<::UnityEngine::Light*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE__CTOR_OFFSET))(this, AddGameObject, GetCamera, GetSunLight);
+			return ((::System::Void(*)(::PVOID, ::System::Func_2<::System::Boolean, ::UnityEngine::GameObject*>*, ::System::Func_1<::UnityEngine::Camera*>*, ::System::Func_1<::UnityEngine::Light*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::GameObject* AddGameObject(::System::Boolean persistent)
+		::UnityEngine::GameObject* AddGameObject(::System::Boolean a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE_ADDGAMEOBJECT_OFFSET))(this, persistent);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_LOOKDEV_STAGERUNTIMEINTERFACE_ADDGAMEOBJECT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Camera* get_camera()

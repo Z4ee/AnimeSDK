@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int TimeSpanFormat_Pattern_TypeDefinitionIndex = 766;
+	inline static constexpr unsigned int TimeSpanFormat_Pattern_TypeDefinitionIndex = 765;
 
 	enum class TimeSpanFormat_Pattern : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemSubEmitterType_TypeDefinitionIndex = 5505;
+	inline static constexpr unsigned int ParticleSystemSubEmitterType_TypeDefinitionIndex = 5782;
 
 	enum class ParticleSystemSubEmitterType : ::System::Int32
 	{

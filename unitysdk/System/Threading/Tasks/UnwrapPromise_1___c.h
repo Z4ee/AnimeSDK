@@ -7,7 +7,7 @@ namespace System::Threading::Tasks { template <typename T> class UnwrapPromise_1
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int UnwrapPromise_1___c_TypeDefinitionIndex = 911;
+	inline static constexpr unsigned int UnwrapPromise_1___c_TypeDefinitionIndex = 910;
 
 	template <typename TResult>
 	class UnwrapPromise_1___c : public ::System::Object

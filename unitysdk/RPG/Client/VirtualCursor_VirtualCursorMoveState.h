@@ -5,15 +5,15 @@
 
 namespace RPG::Client { class VirtualCursor; }
 
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE_ENTER_OFFSET UNITYSDK_OFFSET(0xB4BEC70)
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE_EXIT_OFFSET UNITYSDK_OFFSET(0xB4BEF60)
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE_TICK_OFFSET UNITYSDK_OFFSET(0xB4BECC0)
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE__CALCULATESPEED_OFFSET UNITYSDK_OFFSET(0xB4BEDC0)
-#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB4BEFA0)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE_ENTER_OFFSET UNITYSDK_OFFSET(0xCC24C50)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE_EXIT_OFFSET UNITYSDK_OFFSET(0xCC24F60)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE_TICK_OFFSET UNITYSDK_OFFSET(0xCC24CA0)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE__CALCULATESPEED_OFFSET UNITYSDK_OFFSET(0xCC24DB0)
+#define RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC247A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCursor_VirtualCursorMoveState_TypeDefinitionIndex = 67435;
+	inline static constexpr unsigned int VirtualCursor_VirtualCursorMoveState_TypeDefinitionIndex = 68387;
 
 	class VirtualCursor_VirtualCursorMoveState : public ::System::Object
 	{
@@ -26,14 +26,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Enter(::RPG::Client::VirtualCursor* owner)
+		::System::Void Enter(::RPG::Client::VirtualCursor* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::VirtualCursor*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE_ENTER_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::VirtualCursor*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE_ENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void Tick(::RPG::Client::VirtualCursor* owner)
+		::System::Void Tick(::RPG::Client::VirtualCursor* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::VirtualCursor*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE_TICK_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::VirtualCursor*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void Exit()
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE_EXIT_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2 _CalculateSpeed(::UnityEngine::Vector2 inputValue)
+		::UnityEngine::Vector2 _CalculateSpeed(::UnityEngine::Vector2 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE__CALCULATESPEED_OFFSET))(this, inputValue);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_VIRTUALCURSORMOVESTATE__CALCULATESPEED_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChronicleLogicConnectionNodeConfig; }
 namespace RPG::GameCore { class ChronicleNodeConfig; }
 
-#define RPG_GAMECORE_MISSIONCHRONICLECONFIG_METHOD_2_9A5FF200A7967A03_OFFSET UNITYSDK_OFFSET(0x18B2C650)
-#define RPG_GAMECORE_MISSIONCHRONICLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2C820)
+#define RPG_GAMECORE_MISSIONCHRONICLECONFIG_METHOD_2_2636A5C6923DDDA0_OFFSET UNITYSDK_OFFSET(0x19943690)
+#define RPG_GAMECORE_MISSIONCHRONICLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19943850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionChronicleConfig_TypeDefinitionIndex = 18000;
+	inline static constexpr unsigned int MissionChronicleConfig_TypeDefinitionIndex = 18027;
 
 	class MissionChronicleConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCHRONICLECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9A5FF200A7967A03(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MissionChronicleConfig*& a2)
+		static ::System::Void Method_2_2636A5C6923DDDA0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MissionChronicleConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionChronicleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCHRONICLECONFIG_METHOD_2_9A5FF200A7967A03_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionChronicleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCHRONICLECONFIG_METHOD_2_2636A5C6923DDDA0_OFFSET))(a1, a2);
 		}
 	};
 }

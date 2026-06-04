@@ -6,14 +6,14 @@ namespace System { class String; }
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int Header_TypeDefinitionIndex = 1304;
+	inline static constexpr unsigned int Header_TypeDefinitionIndex = 1303;
 
 	class Header : public ::System::Object
 	{
 	public:
-		::System::Object* Value; // 0x10
-		::System::String* Name; // 0x18
-		::System::String* HeaderNamespace; // 0x20
+		::System::String* Name; // 0x10
+		::System::String* HeaderNamespace; // 0x18
+		::System::Object* Value; // 0x20
 		::System::Boolean MustUnderstand; // 0x28
 	};
 }

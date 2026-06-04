@@ -7,7 +7,7 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationListenerBase_1_TypeDefinitionIndex = 48867;
+	inline static constexpr unsigned int MapRotationListenerBase_1_TypeDefinitionIndex = 49533;
 
 	template <typename TConfig>
 	class MapRotationListenerBase_1 : public ::Class_1_5F51D4049EA87B7B

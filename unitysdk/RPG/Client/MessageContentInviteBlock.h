@@ -7,17 +7,17 @@ class Class_1_1DFB17424E35B05C;
 namespace RPG::Client { class ChatMessageInviteData; }
 namespace RPG::Client { class FriendBriefData; }
 
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xA88B680)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_FRIENDDATA_OFFSET UNITYSDK_OFFSET(0xA88B840)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_INVITEDATA_OFFSET UNITYSDK_OFFSET(0xA88B820)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA88B5B0)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_FRIENDDATA_OFFSET UNITYSDK_OFFSET(0xA88B850)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_INVITEDATA_OFFSET UNITYSDK_OFFSET(0xA88B830)
-#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA88B5C0)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xBFD7350)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_FRIENDDATA_OFFSET UNITYSDK_OFFSET(0xBFD7510)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_INVITEDATA_OFFSET UNITYSDK_OFFSET(0xBFD74F0)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBFD7280)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_FRIENDDATA_OFFSET UNITYSDK_OFFSET(0xBFD7520)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_INVITEDATA_OFFSET UNITYSDK_OFFSET(0xBFD7500)
+#define RPG_CLIENT_MESSAGECONTENTINVITEBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xBFD7290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentInviteBlock_TypeDefinitionIndex = 58261;
+	inline static constexpr unsigned int MessageContentInviteBlock_TypeDefinitionIndex = 59191;
 
 	class MessageContentInviteBlock : public ::RPG::Client::MessageContentBlock
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 		::RPG::Client::FriendBriefData* _FriendData_k__BackingField; // 0x18
 		::RPG::Client::ChatMessageInviteData* _InviteData_k__BackingField; // 0x20
 
-		::System::Void _ctor(::Class_1_1DFB17424E35B05C* inviteMsg, ::System::UInt32 timeStamp, ::System::UInt32 senderUID)
+		::System::Void _ctor(::Class_1_1DFB17424E35B05C* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_1DFB17424E35B05C*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK__CTOR_OFFSET))(this, inviteMsg, timeStamp, senderUID);
+			return ((::System::Void(*)(::PVOID, ::Class_1_1DFB17424E35B05C*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::Client::MessageContentBlock* other)
+		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_EQUALS_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ChatMessageInviteData* get_InviteData()
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChatMessageInviteData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_INVITEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_InviteData(::RPG::Client::ChatMessageInviteData* value)
+		::System::Void set_InviteData(::RPG::Client::ChatMessageInviteData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChatMessageInviteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_INVITEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChatMessageInviteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_INVITEDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::FriendBriefData* get_FriendData()
@@ -55,9 +55,9 @@ namespace RPG::Client
 			return ((::RPG::Client::FriendBriefData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_GET_FRIENDDATA_OFFSET))(this);
 		}
 
-		::System::Void set_FriendData(::RPG::Client::FriendBriefData* value)
+		::System::Void set_FriendData(::RPG::Client::FriendBriefData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FriendBriefData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_FRIENDDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FriendBriefData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTINVITEBLOCK_SET_FRIENDDATA_OFFSET))(this, a1);
 		}
 	};
 }

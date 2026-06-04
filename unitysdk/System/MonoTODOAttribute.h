@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_MONOTODOATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F45BB0)
+#define SYSTEM_MONOTODOATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADBCD10)
 
 namespace System
 {
@@ -15,9 +15,9 @@ namespace System
 	public:
 		::System::String* comment; // 0x10
 
-		::System::Void _ctor(::System::String* comment)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_MONOTODOATTRIBUTE__CTOR_OFFSET))(this, comment);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_MONOTODOATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

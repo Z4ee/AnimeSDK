@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_2C4471BA5FE34A73___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12A6CE60)
-#define CLASS_1_2C4471BA5FE34A73___C__DISPLAYCLASS10_1___FILLBOSSHP_B__1_OFFSET UNITYSDK_OFFSET(0x12A6CF40)
+#define CLASS_1_2C4471BA5FE34A73___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD7CF520)
+#define CLASS_1_2C4471BA5FE34A73___C__DISPLAYCLASS10_1___FILLBOSSHP_B__1_OFFSET UNITYSDK_OFFSET(0xD7CF5F0)
 
-inline static constexpr unsigned int Class_1_2C4471BA5FE34A73___c__DisplayClass10_1_TypeDefinitionIndex = 53109;
+inline static constexpr unsigned int Class_1_2C4471BA5FE34A73___c__DisplayClass10_1_TypeDefinitionIndex = 53819;
 
 class Class_1_2C4471BA5FE34A73___c__DisplayClass10_1 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2C4471BA5FE34A73___C__DISPLAYCLASS10_1__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __FillBossHp_b__1(::RPG::GameCore::GameEntity* pMonsterEntity)
+	::System::Boolean __FillBossHp_b__1(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_2C4471BA5FE34A73___C__DISPLAYCLASS10_1___FILLBOSSHP_B__1_OFFSET))(this, pMonsterEntity);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_2C4471BA5FE34A73___C__DISPLAYCLASS10_1___FILLBOSSHP_B__1_OFFSET))(this, a1);
 	}
 };

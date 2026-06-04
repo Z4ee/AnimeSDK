@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetMonsterNameBoardMaxBuffCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A5315D181DDA2B71_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x95C30B0)
-#define CLASS_3_A5315D181DDA2B71__CTOR_OFFSET UNITYSDK_OFFSET(0x95C3080)
+#define CLASS_3_A5315D181DDA2B71_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x112D8DC0)
+#define CLASS_3_A5315D181DDA2B71__CTOR_OFFSET UNITYSDK_OFFSET(0x112D8D90)
 
-inline static constexpr unsigned int Class_3_A5315D181DDA2B71_TypeDefinitionIndex = 51211;
+inline static constexpr unsigned int Class_3_A5315D181DDA2B71_TypeDefinitionIndex = 51882;
 
 class Class_3_A5315D181DDA2B71 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetMonsterNameBoardMaxBuffCount*>
 {

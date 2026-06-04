@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ConvinceByCompareHp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_612A3DBB57FB392D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x959E820)
-#define CLASS_3_612A3DBB57FB392D__CTOR_OFFSET UNITYSDK_OFFSET(0x959E7F0)
+#define CLASS_3_612A3DBB57FB392D_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA367950)
+#define CLASS_3_612A3DBB57FB392D__CTOR_OFFSET UNITYSDK_OFFSET(0xA367920)
 
-inline static constexpr unsigned int Class_3_612A3DBB57FB392D_TypeDefinitionIndex = 48634;
+inline static constexpr unsigned int Class_3_612A3DBB57FB392D_TypeDefinitionIndex = 49299;
 
 class Class_3_612A3DBB57FB392D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ConvinceByCompareHp*>
 {

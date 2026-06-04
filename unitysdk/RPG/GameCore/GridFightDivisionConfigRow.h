@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTDIVISIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189A6890)
-#define RPG_GAMECORE_GRIDFIGHTDIVISIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189A6BF0)
+#define RPG_GAMECORE_GRIDFIGHTDIVISIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197DE8D0)
+#define RPG_GAMECORE_GRIDFIGHTDIVISIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x197DEC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightDivisionConfigRow_TypeDefinitionIndex = 12874;
+	inline static constexpr unsigned int GridFightDivisionConfigRow_TypeDefinitionIndex = 12959;
 
 	class GridFightDivisionConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* DivisionShowPic; // 0x10
+		::System::String* DivisionIcon; // 0x10
 		::Il2CppArray<::System::UInt32>* DivisionRewardQuest; // 0x18
-		::System::String* DivisionIcon; // 0x20
-		::System::UInt32 Progress; // 0x28
-		::System::UInt32 SeasonID; // 0x2C
-		::RPG::Client::TextID DivisionName; // 0x30
-		::System::UInt32 DivisionLevel; // 0x40
+		::System::String* DivisionShowPic; // 0x20
+		::RPG::Client::TextID DivisionName; // 0x28
+		::System::UInt32 DivisionLevel; // 0x38
+		::System::UInt32 Progress; // 0x3C
+		::System::UInt32 SeasonID; // 0x40
 		::System::UInt32 ID; // 0x44
 		::System::Boolean IsPromotion; // 0x48
 
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTDIVISIONCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightDivisionConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightDivisionConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightDivisionConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTDIVISIONCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightDivisionConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTDIVISIONCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

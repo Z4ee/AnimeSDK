@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_9.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_16.h"
 
-class Class_3_7E62691AFFAF8E9F;
+class Class_3_F65294BF89CA0784;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceSelectCount; }
 
-#define CLASS_2_D50AC6F41C10E107_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x17D3E870)
-#define CLASS_2_D50AC6F41C10E107__CTOR_OFFSET UNITYSDK_OFFSET(0x17D3E860)
+#define CLASS_2_D50AC6F41C10E107_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x18AF5080)
+#define CLASS_2_D50AC6F41C10E107__CTOR_OFFSET UNITYSDK_OFFSET(0x18AEF370)
 
-inline static constexpr unsigned int Class_2_D50AC6F41C10E107_TypeDefinitionIndex = 34008;
+inline static constexpr unsigned int Class_2_D50AC6F41C10E107_TypeDefinitionIndex = 34290;
 
-class Class_2_D50AC6F41C10E107 : public ::Class_1_43BD383C98B4C0C5_9
+class Class_2_D50AC6F41C10E107 : public ::Class_1_43BD383C98B4C0C5_16
 {
 public:
 	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceSelectCount* Field_2_0; // 0x10
-	::Class_3_7E62691AFFAF8E9F* Field_2_1; // 0x18
+	::Class_3_F65294BF89CA0784* Field_2_1; // 0x18
 
-	::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceSelectCount* a1, ::Class_3_7E62691AFFAF8E9F* a2)
+	::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceSelectCount* a1, ::Class_3_F65294BF89CA0784* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceSelectCount*, ::Class_3_7E62691AFFAF8E9F*))((::PBYTE)hIl2Cpp + CLASS_2_D50AC6F41C10E107__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceSelectCount*, ::Class_3_F65294BF89CA0784*))((::PBYTE)hIl2Cpp + CLASS_2_D50AC6F41C10E107__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Single Method_2_861970C5F2C21AB2()

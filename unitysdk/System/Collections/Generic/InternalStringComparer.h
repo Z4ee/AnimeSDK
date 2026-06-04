@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x177F3B00)
-#define SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x177F3A70)
-#define SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_INDEXOF_OFFSET UNITYSDK_OFFSET(0x177F3B30)
-#define SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x177F3BC0)
+#define SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x185AE4E0)
+#define SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x185AE450)
+#define SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_INDEXOF_OFFSET UNITYSDK_OFFSET(0x185AE510)
+#define SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x185AE010)
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int InternalStringComparer_TypeDefinitionIndex = 1549;
+	inline static constexpr unsigned int InternalStringComparer_TypeDefinitionIndex = 1547;
 
 	class InternalStringComparer : public ::System::Collections::Generic::EqualityComparer_1<::System::String*>
 	{
@@ -21,19 +21,19 @@ namespace System::Collections::Generic
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 GetHashCode(::System::String* obj)
+		::System::Int32 GetHashCode(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_GETHASHCODE_OFFSET))(this, obj);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_GETHASHCODE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::String* x, ::System::String* y)
+		::System::Boolean Equals(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_EQUALS_OFFSET))(this, x, y);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_EQUALS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 IndexOf(::Il2CppArray<::System::String*>* array, ::System::String* value, ::System::Int32 startIndex, ::System::Int32 count)
+		::System::Int32 IndexOf(::Il2CppArray<::System::String*>* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_INDEXOF_OFFSET))(this, array, value, startIndex, count);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_INTERNALSTRINGCOMPARER_INDEXOF_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

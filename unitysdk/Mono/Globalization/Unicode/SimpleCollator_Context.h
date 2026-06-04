@@ -3,7 +3,7 @@
 #include "unitysdk/System/Globalization/CompareOptions.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x229D460)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x382CB50)
 
 namespace Mono::Globalization::Unicode
 {
@@ -19,9 +19,9 @@ namespace Mono::Globalization::Unicode
 		::System::Int32 PrevCode; // 0x38
 		::System::Byte* PrevSortKey; // 0x40
 
-		::System::Void _ctor(::System::Globalization::CompareOptions opt, ::System::Byte* alwaysMatchFlags, ::System::Byte* neverMatchFlags, ::System::Byte* buffer1, ::System::Byte* buffer2, ::System::Byte* prev1)
+		::System::Void _ctor(::System::Globalization::CompareOptions a1, ::System::Byte* a2, ::System::Byte* a3, ::System::Byte* a4, ::System::Byte* a5, ::System::Byte* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::CompareOptions, ::System::Byte*, ::System::Byte*, ::System::Byte*, ::System::Byte*, ::System::Byte*))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CONTEXT__CTOR_OFFSET))(this, opt, alwaysMatchFlags, neverMatchFlags, buffer1, buffer2, prev1);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::CompareOptions, ::System::Byte*, ::System::Byte*, ::System::Byte*, ::System::Byte*, ::System::Byte*))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CONTEXT__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

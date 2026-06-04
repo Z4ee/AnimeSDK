@@ -5,7 +5,7 @@
 
 template <typename T> class Struct_2_3906C24C646CC83F_Writer_1___c;
 
-inline static constexpr unsigned int Struct_2_3906C24C646CC83F_Writer_1___c_TypeDefinitionIndex = 9056;
+inline static constexpr unsigned int Struct_2_3906C24C646CC83F_Writer_1___c_TypeDefinitionIndex = 6920;
 
 template <typename T>
 class Struct_2_3906C24C646CC83F_Writer_1___c : public ::System::Object

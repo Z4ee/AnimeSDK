@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueMiracleLegacyDisplayRow_TypeDefinitionIndex = 61988;
+	inline static constexpr unsigned int IRogueMiracleLegacyDisplayRow_TypeDefinitionIndex = 62921;
 
 	class IRogueMiracleLegacyDisplayRow
 	{

@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_8B48740F46FC53FC.h"
+#include "unitysdk/Struct_2_CC45B4503679E14E.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
@@ -8,11 +8,11 @@
 class IRI_BuildingRendererList_RendererMatrix;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IRI_BUILDINGRENDERERLIST_METHOD_3_69FEAEDB0A47A437_OFFSET UNITYSDK_OFFSET(0x12418350)
-#define IRI_BUILDINGRENDERERLIST_METHOD_3_895E6BF2EDCD95D0_OFFSET UNITYSDK_OFFSET(0x12418430)
-#define IRI_BUILDINGRENDERERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x12418490)
+#define IRI_BUILDINGRENDERERLIST_METHOD_3_6A507C996C1CD4F9_OFFSET UNITYSDK_OFFSET(0x1423C340)
+#define IRI_BUILDINGRENDERERLIST_METHOD_3_895E6BF2EDCD95D0_OFFSET UNITYSDK_OFFSET(0x1423C490)
+#define IRI_BUILDINGRENDERERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1423C4F0)
 
-inline static constexpr unsigned int IRI_BuildingRendererList_TypeDefinitionIndex = 43961;
+inline static constexpr unsigned int IRI_BuildingRendererList_TypeDefinitionIndex = 44507;
 
 class IRI_BuildingRendererList : public ::UnityEngine::ScriptableObject
 {
@@ -26,13 +26,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_BUILDINGRENDERERLIST__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_3_69FEAEDB0A47A437(::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* a1)
+	::System::Void Method_3_6A507C996C1CD4F9(::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*))((::PBYTE)hIl2Cpp + IRI_BUILDINGRENDERERLIST_METHOD_3_69FEAEDB0A47A437_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*))((::PBYTE)hIl2Cpp + IRI_BUILDINGRENDERERLIST_METHOD_3_6A507C996C1CD4F9_OFFSET))(this, a1);
 	}
 
-	::Struct_2_8B48740F46FC53FC Method_3_895E6BF2EDCD95D0()
+	::Struct_2_CC45B4503679E14E Method_3_895E6BF2EDCD95D0()
 	{
-		return ((::Struct_2_8B48740F46FC53FC(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_BUILDINGRENDERERLIST_METHOD_3_895E6BF2EDCD95D0_OFFSET))(this);
+		return ((::Struct_2_CC45B4503679E14E(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_BUILDINGRENDERERLIST_METHOD_3_895E6BF2EDCD95D0_OFFSET))(this);
 	}
 };

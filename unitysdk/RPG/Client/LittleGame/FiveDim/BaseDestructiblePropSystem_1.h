@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseDestructiblePropSystem_1_TypeDefinitionIndex = 70788;
+	inline static constexpr unsigned int BaseDestructiblePropSystem_1_TypeDefinitionIndex = 71607;
 
 	template <typename T>
 	class BaseDestructiblePropSystem_1 : public ::System::Object

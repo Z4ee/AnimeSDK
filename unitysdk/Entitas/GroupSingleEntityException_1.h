@@ -6,7 +6,7 @@ namespace Entitas { template <typename T> class IGroup_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int GroupSingleEntityException_1_TypeDefinitionIndex = 9852;
+	inline static constexpr unsigned int GroupSingleEntityException_1_TypeDefinitionIndex = 9679;
 
 	template <typename TEntity>
 	class GroupSingleEntityException_1 : public ::Entitas::EntitasException

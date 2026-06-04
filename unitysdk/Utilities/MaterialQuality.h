@@ -3,7 +3,7 @@
 
 namespace Utilities
 {
-	inline static constexpr unsigned int MaterialQuality_TypeDefinitionIndex = 33353;
+	inline static constexpr unsigned int MaterialQuality_TypeDefinitionIndex = 33635;
 
 	enum class MaterialQuality : ::System::Int32
 	{

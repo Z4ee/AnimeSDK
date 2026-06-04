@@ -9,42 +9,42 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Runtime::Serialization::Formatters::Binary { class ParseRecord; }
 namespace System::Runtime::Serialization::Formatters::Binary { class ReadObjectInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP_FIXUP_OFFSET UNITYSDK_OFFSET(0x17A04EB0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A06720)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x17A05E30)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP_FIXUP_OFFSET UNITYSDK_OFFSET(0x187B3E60)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x187B54E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x187B4D80)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ValueFixup_TypeDefinitionIndex = 1189;
+	inline static constexpr unsigned int ValueFixup_TypeDefinitionIndex = 1188;
 
 	class ValueFixup : public ::System::Object
 	{
 	public:
 		static ::System::Reflection::MemberInfo** StaticGet_valueInfo()
 		{
-			return (::System::Reflection::MemberInfo**)Il2CppClass::FromTypeDefinitionIndex(ValueFixup_TypeDefinitionIndex)->GetStaticField(0xC720);
+			return (::System::Reflection::MemberInfo**)Il2CppClass::FromTypeDefinitionIndex(ValueFixup_TypeDefinitionIndex)->GetStaticField(0xCF10);
 		}
-		::System::Array* arrayObj; // 0x10
-		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x18
+		::System::Object* header; // 0x10
+		::System::Object* memberObject; // 0x18
 		::System::String* memberName; // 0x20
-		::Il2CppArray<::System::Int32>* indexMap; // 0x28
-		::System::Object* header; // 0x30
-		::System::Object* memberObject; // 0x38
+		::System::Array* arrayObj; // 0x28
+		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x30
+		::Il2CppArray<::System::Int32>* indexMap; // 0x38
 		::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum valueFixupEnum; // 0x40
 
-		::System::Void _ctor(::System::Array* arrayObj, ::Il2CppArray<::System::Int32>* indexMap)
+		::System::Void _ctor(::System::Array* a1, ::Il2CppArray<::System::Int32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_OFFSET))(this, arrayObj, indexMap);
+			return ((::System::Void(*)(::PVOID, ::System::Array*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::Object* memberObject, ::System::String* memberName, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo)
+		::System::Void _ctor_1(::System::Object* a1, ::System::String* a2, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_1_OFFSET))(this, memberObject, memberName, objectInfo);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Fixup(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent)
+		::System::Void Fixup(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* a1, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord*, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP_FIXUP_OFFSET))(this, record, parent);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord*, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP_FIXUP_OFFSET))(this, a1, a2);
 		}
 	};
 }

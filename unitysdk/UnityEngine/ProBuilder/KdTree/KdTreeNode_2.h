@@ -8,7 +8,7 @@ namespace UnityEngine::ProBuilder::KdTree { template <typename T1, typename T2> 
 
 namespace UnityEngine::ProBuilder::KdTree
 {
-	inline static constexpr unsigned int KdTreeNode_2_TypeDefinitionIndex = 35487;
+	inline static constexpr unsigned int KdTreeNode_2_TypeDefinitionIndex = 35787;
 
 	template <typename TKey, typename TValue>
 	class KdTreeNode_2 : public ::System::Object

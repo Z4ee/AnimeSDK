@@ -7,29 +7,29 @@ namespace Epic::OnlineServices::PlayerDataStorage { class OnFileTransferProgress
 namespace Epic::OnlineServices::PlayerDataStorage { class OnReadFileDataCallback; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x8EFE750)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_FILETRANSFERPROGRESSCALLBACK_OFFSET UNITYSDK_OFFSET(0x8EFE7B0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8EFE730)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_READCHUNKLENGTHBYTES_OFFSET UNITYSDK_OFFSET(0x8EFE770)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_READFILEDATACALLBACK_OFFSET UNITYSDK_OFFSET(0x8EFE790)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x8EFE760)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_FILETRANSFERPROGRESSCALLBACK_OFFSET UNITYSDK_OFFSET(0x8EFE7C0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8EFE740)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_READCHUNKLENGTHBYTES_OFFSET UNITYSDK_OFFSET(0x8EFE780)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_READFILEDATACALLBACK_OFFSET UNITYSDK_OFFSET(0x8EFE7A0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8EFE7D0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0xA328E70)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_FILETRANSFERPROGRESSCALLBACK_OFFSET UNITYSDK_OFFSET(0xA328ED0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA328E50)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_READCHUNKLENGTHBYTES_OFFSET UNITYSDK_OFFSET(0xA328E90)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_READFILEDATACALLBACK_OFFSET UNITYSDK_OFFSET(0xA328EB0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0xA328E80)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_FILETRANSFERPROGRESSCALLBACK_OFFSET UNITYSDK_OFFSET(0xA328EE0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA328E60)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_READCHUNKLENGTHBYTES_OFFSET UNITYSDK_OFFSET(0xA328EA0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_READFILEDATACALLBACK_OFFSET UNITYSDK_OFFSET(0xA328EC0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA328EF0)
 
 namespace Epic::OnlineServices::PlayerDataStorage
 {
-	inline static constexpr unsigned int ReadFileOptions_TypeDefinitionIndex = 41683;
+	inline static constexpr unsigned int ReadFileOptions_TypeDefinitionIndex = 42486;
 
 	class ReadFileOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::PlayerDataStorage::OnReadFileDataCallback* _ReadFileDataCallback_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
-		::Epic::OnlineServices::PlayerDataStorage::OnFileTransferProgressCallback* _FileTransferProgressCallback_k__BackingField; // 0x20
-		::System::String* _Filename_k__BackingField; // 0x28
+		::System::String* _Filename_k__BackingField; // 0x10
+		::Epic::OnlineServices::PlayerDataStorage::OnReadFileDataCallback* _ReadFileDataCallback_k__BackingField; // 0x18
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x20
+		::Epic::OnlineServices::PlayerDataStorage::OnFileTransferProgressCallback* _FileTransferProgressCallback_k__BackingField; // 0x28
 		::System::UInt32 _ReadChunkLengthBytes_k__BackingField; // 0x30
 
 		::System::Void _ctor()
@@ -42,9 +42,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Filename()
@@ -52,9 +52,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_FILENAME_OFFSET))(this);
 		}
 
-		::System::Void set_Filename(::System::String* value)
+		::System::Void set_Filename(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_FILENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_FILENAME_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ReadChunkLengthBytes()
@@ -62,9 +62,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_READCHUNKLENGTHBYTES_OFFSET))(this);
 		}
 
-		::System::Void set_ReadChunkLengthBytes(::System::UInt32 value)
+		::System::Void set_ReadChunkLengthBytes(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_READCHUNKLENGTHBYTES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_READCHUNKLENGTHBYTES_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::PlayerDataStorage::OnReadFileDataCallback* get_ReadFileDataCallback()
@@ -72,9 +72,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::Epic::OnlineServices::PlayerDataStorage::OnReadFileDataCallback*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_READFILEDATACALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_ReadFileDataCallback(::Epic::OnlineServices::PlayerDataStorage::OnReadFileDataCallback* value)
+		::System::Void set_ReadFileDataCallback(::Epic::OnlineServices::PlayerDataStorage::OnReadFileDataCallback* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::OnReadFileDataCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_READFILEDATACALLBACK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::OnReadFileDataCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_READFILEDATACALLBACK_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::PlayerDataStorage::OnFileTransferProgressCallback* get_FileTransferProgressCallback()
@@ -82,9 +82,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::Epic::OnlineServices::PlayerDataStorage::OnFileTransferProgressCallback*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_GET_FILETRANSFERPROGRESSCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_FileTransferProgressCallback(::Epic::OnlineServices::PlayerDataStorage::OnFileTransferProgressCallback* value)
+		::System::Void set_FileTransferProgressCallback(::Epic::OnlineServices::PlayerDataStorage::OnFileTransferProgressCallback* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::OnFileTransferProgressCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_FILETRANSFERPROGRESSCALLBACK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::OnFileTransferProgressCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_READFILEOPTIONS_SET_FILETRANSFERPROGRESSCALLBACK_OFFSET))(this, a1);
 		}
 	};
 }

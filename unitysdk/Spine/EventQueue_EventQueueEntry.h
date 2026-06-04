@@ -6,11 +6,11 @@
 namespace Spine { class Event; }
 namespace Spine { class TrackEntry; }
 
-#define SPINE_EVENTQUEUE_EVENTQUEUEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x22B0950)
+#define SPINE_EVENTQUEUE_EVENTQUEUEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x3842BD0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int EventQueue_EventQueueEntry_TypeDefinitionIndex = 36395;
+	inline static constexpr unsigned int EventQueue_EventQueueEntry_TypeDefinitionIndex = 36695;
 
 	struct alignas(8) EventQueue_EventQueueEntry
 	{
@@ -18,9 +18,9 @@ namespace Spine
 		::Spine::TrackEntry* entry; // 0x18
 		::Spine::Event* e; // 0x20
 
-		::System::Void _ctor(::Spine::EventQueue_EventType eventType, ::Spine::TrackEntry* trackEntry, ::Spine::Event* e)
+		::System::Void _ctor(::Spine::EventQueue_EventType a1, ::Spine::TrackEntry* a2, ::Spine::Event* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::EventQueue_EventType, ::Spine::TrackEntry*, ::Spine::Event*))((::PBYTE)hIl2Cpp + SPINE_EVENTQUEUE_EVENTQUEUEENTRY__CTOR_OFFSET))(this, eventType, trackEntry, e);
+			return ((::System::Void(*)(::PVOID, ::Spine::EventQueue_EventType, ::Spine::TrackEntry*, ::Spine::Event*))((::PBYTE)hIl2Cpp + SPINE_EVENTQUEUE_EVENTQUEUEENTRY__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define RPG_CLIENT_THRONGNPCVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0xB2DA810)
+#define RPG_CLIENT_THRONGNPCVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0xCA30CA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ThrongNpcVariant_TypeDefinitionIndex = 55413;
+	inline static constexpr unsigned int ThrongNpcVariant_TypeDefinitionIndex = 56158;
 
 	class ThrongNpcVariant : public ::UnityEngine::ScriptableObject
 	{

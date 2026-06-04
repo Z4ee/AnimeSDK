@@ -1,7 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/LayerMask.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_322_TypeDefinitionIndex = 45869;
+class Class_1_4D2DA7CD2E59DEF1;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_322_TypeDefinitionIndex = 46152;
 
 class Class_0_16E4307DCC419505_322
 {

@@ -4,7 +4,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int LevelVariable_1_TypeDefinitionIndex = 38050;
+	inline static constexpr unsigned int LevelVariable_1_TypeDefinitionIndex = 38791;
 
 	template <typename TValue>
 	class LevelVariable_1 : public ::Class_1_DBB509B210C17187

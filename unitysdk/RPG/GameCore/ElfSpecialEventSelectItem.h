@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ElfSpecialEventSelectResultItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFSPECIALEVENTSELECTITEM_METHOD_2_132400D83DF12267_OFFSET UNITYSDK_OFFSET(0x1889F500)
-#define RPG_GAMECORE_ELFSPECIALEVENTSELECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1889F790)
+#define RPG_GAMECORE_ELFSPECIALEVENTSELECTITEM_METHOD_2_30700088C3699C44_OFFSET UNITYSDK_OFFSET(0x196DDC30)
+#define RPG_GAMECORE_ELFSPECIALEVENTSELECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x196DDEB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfSpecialEventSelectItem_TypeDefinitionIndex = 17561;
+	inline static constexpr unsigned int ElfSpecialEventSelectItem_TypeDefinitionIndex = 17587;
 
 	class ElfSpecialEventSelectItem : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFSPECIALEVENTSELECTITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_132400D83DF12267(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfSpecialEventSelectItem*& a2)
+		static ::System::Void Method_2_30700088C3699C44(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfSpecialEventSelectItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfSpecialEventSelectItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFSPECIALEVENTSELECTITEM_METHOD_2_132400D83DF12267_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfSpecialEventSelectItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFSPECIALEVENTSELECTITEM_METHOD_2_30700088C3699C44_OFFSET))(a1, a2);
 		}
 	};
 }

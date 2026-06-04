@@ -5,22 +5,22 @@
 
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRDRIVERMANAGER_GETDRIVERCOUNT_OFFSET UNITYSDK_OFFSET(0x1A6E0BE0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRDRIVERMANAGER_GETDRIVERNAME_OFFSET UNITYSDK_OFFSET(0x1A6E0C00)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRDRIVERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6E0B00)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRDRIVERMANAGER_GETDRIVERCOUNT_OFFSET UNITYSDK_OFFSET(0x1B50FC10)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRDRIVERMANAGER_GETDRIVERNAME_OFFSET UNITYSDK_OFFSET(0x1B50FC40)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRDRIVERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B50FB40)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVRDriverManager_TypeDefinitionIndex = 35974;
+	inline static constexpr unsigned int CVRDriverManager_TypeDefinitionIndex = 36274;
 
 	class CVRDriverManager : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::VR::OpenVRBinding::IVRDriverManager FnTable; // 0x10
 
-		::System::Void _ctor(::System::IntPtr pInterface)
+		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRDRIVERMANAGER__CTOR_OFFSET))(this, pInterface);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRDRIVERMANAGER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetDriverCount()
@@ -28,9 +28,9 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRDRIVERMANAGER_GETDRIVERCOUNT_OFFSET))(this);
 		}
 
-		::System::UInt32 GetDriverName(::System::UInt32 nDriver, ::System::Text::StringBuilder* pchValue, ::System::UInt32 unBufferSize)
+		::System::UInt32 GetDriverName(::System::UInt32 a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRDRIVERMANAGER_GETDRIVERNAME_OFFSET))(this, nDriver, pchValue, unBufferSize);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRDRIVERMANAGER_GETDRIVERNAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

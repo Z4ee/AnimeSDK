@@ -3,67 +3,56 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::GameCore { class PlayerReturnAssistConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xAD68A90)
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETAVATARINFOPROVIDERBYSPECIALID_OFFSET UNITYSDK_OFFSET(0xAD68C50)
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETAVATARINFOPROVIDER_OFFSET UNITYSDK_OFFSET(0xAD68EB0)
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETSPECIALAVATARIDFORROLEID_OFFSET UNITYSDK_OFFSET(0xAD68FC0)
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETTRIALAVATARLIST_OFFSET UNITYSDK_OFFSET(0xAD68CF0)
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GET_GROUPDESC_OFFSET UNITYSDK_OFFSET(0xAD690E0)
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_INITCONFIG_OFFSET UNITYSDK_OFFSET(0xAD68B20)
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_ISAVAILABLETRIALAVATAR_OFFSET UNITYSDK_OFFSET(0xAD68F50)
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xAD68A80)
+#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xC4A9CB0)
+#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETTRIALAVATARLIST_OFFSET UNITYSDK_OFFSET(0xC4A9EC0)
+#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETTRIALAVATAR_OFFSET UNITYSDK_OFFSET(0xC4AA030)
+#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GET_GROUPDESC_OFFSET UNITYSDK_OFFSET(0xC4AA200)
+#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_INITCONFIG_OFFSET UNITYSDK_OFFSET(0xC4A9D80)
+#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_ISAVAILABLETRIALAVATARCONFIGID_OFFSET UNITYSDK_OFFSET(0xC4AA140)
+#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xC4A9C50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerReturnTrialAvatarGroup_TypeDefinitionIndex = 57086;
+	inline static constexpr unsigned int PlayerReturnTrialAvatarGroup_TypeDefinitionIndex = 57873;
 
 	class PlayerReturnTrialAvatarGroup : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::PlayerReturnAssistConfigRow* _Meta; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _TrialAvatarConfigIDList; // 0x10
+		::RPG::GameCore::PlayerReturnAssistConfigRow* _Meta; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::PlayerReturnTrialAvatarGroup* Create(::System::UInt32 groupID)
+		static ::RPG::Client::PlayerReturnTrialAvatarGroup* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::PlayerReturnTrialAvatarGroup*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_CREATE_OFFSET))(groupID);
+			return ((::RPG::Client::PlayerReturnTrialAvatarGroup*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_CREATE_OFFSET))(a1);
 		}
 
-		::RPG::Client::IAvatarInfoProvider* GetAvatarInfoProviderBySpecialID(::System::UInt32 specialID)
+		::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* GetTrialAvatarList()
 		{
-			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETAVATARINFOPROVIDERBYSPECIALID_OFFSET))(this, specialID);
+			return ((::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETTRIALAVATARLIST_OFFSET))(this);
 		}
 
-		::RPG::Client::IAvatarInfoProvider* GetAvatarInfoProvider(::System::UInt32 avatarID)
+		::RPG::AvatarSystem::IAvatar* GetTrialAvatar(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETAVATARINFOPROVIDER_OFFSET))(this, avatarID);
+			return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETTRIALAVATAR_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* GetTrialAvatarList()
+		::System::Boolean IsAvailableTrialAvatarConfigID(::System::UInt32 a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETTRIALAVATARLIST_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_ISAVAILABLETRIALAVATARCONFIGID_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsAvailableTrialAvatar(::System::UInt32 specialAvatarID)
+		::System::Void InitConfig(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_ISAVAILABLETRIALAVATAR_OFFSET))(this, specialAvatarID);
-		}
-
-		::System::UInt32 GetSpecialAvatarIDForRoleID(::System::UInt32 avatarID)
-		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_GETSPECIALAVATARIDFORROLEID_OFFSET))(this, avatarID);
-		}
-
-		::System::Void InitConfig(::System::UInt32 groupID)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_INITCONFIG_OFFSET))(this, groupID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP_INITCONFIG_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_GroupDesc()

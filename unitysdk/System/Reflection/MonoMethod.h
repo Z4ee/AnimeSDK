@@ -22,48 +22,48 @@ namespace System::Reflection { class MethodBody; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_REFLECTION_MONOMETHOD_CONVERTVALUES_OFFSET UNITYSDK_OFFSET(0x179A5970)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETBASEDEFINITION_OFFSET UNITYSDK_OFFSET(0x179A6D40)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETBASEMETHOD_OFFSET UNITYSDK_OFFSET(0x179A6D50)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x179A7BA0)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x179A7570)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x179A7560)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETGENERICARGUMENTS_OFFSET UNITYSDK_OFFSET(0x179A7A60)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETGENERICMETHODDEFINITION_IMPL_OFFSET UNITYSDK_OFFSET(0x179A7A80)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETGENERICMETHODDEFINITION_OFFSET UNITYSDK_OFFSET(0x179A7AC0)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETMETHODBODY_OFFSET UNITYSDK_OFFSET(0x179A7B90)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETMETHODIMPLEMENTATIONFLAGS_OFFSET UNITYSDK_OFFSET(0x179A6F00)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETPARAMETERSCOUNT_OFFSET UNITYSDK_OFFSET(0x179A7030)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETPARAMETERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x179A6FF0)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETPARAMETERS_OFFSET UNITYSDK_OFFSET(0x179A6F60)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETPINVOKE_OFFSET UNITYSDK_OFFSET(0x179A7580)
-#define SYSTEM_REFLECTION_MONOMETHOD_GETPSEUDOCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x179A75A0)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x179A7410)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_BASE_METHOD_OFFSET UNITYSDK_OFFSET(0x179A6D30)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_CALLINGCONVENTION_OFFSET UNITYSDK_OFFSET(0x179A7420)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_CONTAINSGENERICPARAMETERS_OFFSET UNITYSDK_OFFSET(0x179A72E0)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_CORE_CLR_SECURITY_LEVEL_OFFSET UNITYSDK_OFFSET(0x179A7C20)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0x179A7490)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_ISGENERICMETHODDEFINITION_OFFSET UNITYSDK_OFFSET(0x179A7A50)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_ISGENERICMETHOD_OFFSET UNITYSDK_OFFSET(0x179A7B60)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_ISSECURITYCRITICAL_OFFSET UNITYSDK_OFFSET(0x179A7C30)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_METHODHANDLE_OFFSET UNITYSDK_OFFSET(0x179A7400)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_NAME_1_OFFSET UNITYSDK_OFFSET(0x179A74F0)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_NAME_OFFSET UNITYSDK_OFFSET(0x179A5F20)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_REFLECTEDTYPE_OFFSET UNITYSDK_OFFSET(0x179A7480)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_RETURNPARAMETER_OFFSET UNITYSDK_OFFSET(0x179A6D60)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_RETURNTYPECUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x179A6E60)
-#define SYSTEM_REFLECTION_MONOMETHOD_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x179A6E00)
-#define SYSTEM_REFLECTION_MONOMETHOD_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x179A7080)
-#define SYSTEM_REFLECTION_MONOMETHOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x179A7090)
-#define SYSTEM_REFLECTION_MONOMETHOD_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x179A7550)
-#define SYSTEM_REFLECTION_MONOMETHOD_MAKEGENERICMETHOD_IMPL_OFFSET UNITYSDK_OFFSET(0x179A7A70)
-#define SYSTEM_REFLECTION_MONOMETHOD_MAKEGENERICMETHOD_OFFSET UNITYSDK_OFFSET(0x179A7790)
-#define SYSTEM_REFLECTION_MONOMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x179A6D20)
+#define SYSTEM_REFLECTION_MONOMETHOD_CONVERTVALUES_OFFSET UNITYSDK_OFFSET(0x187576F0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETBASEDEFINITION_OFFSET UNITYSDK_OFFSET(0x187589F0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETBASEMETHOD_OFFSET UNITYSDK_OFFSET(0x18758A00)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x18759830)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x18759200)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x187591F0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETGENERICARGUMENTS_OFFSET UNITYSDK_OFFSET(0x187596F0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETGENERICMETHODDEFINITION_IMPL_OFFSET UNITYSDK_OFFSET(0x18759710)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETGENERICMETHODDEFINITION_OFFSET UNITYSDK_OFFSET(0x18759750)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETMETHODBODY_OFFSET UNITYSDK_OFFSET(0x18759820)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETMETHODIMPLEMENTATIONFLAGS_OFFSET UNITYSDK_OFFSET(0x18758BB0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETPARAMETERSCOUNT_OFFSET UNITYSDK_OFFSET(0x18758D00)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETPARAMETERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x18758CC0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18758C10)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETPINVOKE_OFFSET UNITYSDK_OFFSET(0x18759210)
+#define SYSTEM_REFLECTION_MONOMETHOD_GETPSEUDOCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18759230)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x187590A0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_BASE_METHOD_OFFSET UNITYSDK_OFFSET(0x187589E0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_CALLINGCONVENTION_OFFSET UNITYSDK_OFFSET(0x187590B0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_CONTAINSGENERICPARAMETERS_OFFSET UNITYSDK_OFFSET(0x18758F80)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_CORE_CLR_SECURITY_LEVEL_OFFSET UNITYSDK_OFFSET(0x187598B0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0x18759120)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_ISGENERICMETHODDEFINITION_OFFSET UNITYSDK_OFFSET(0x187596E0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_ISGENERICMETHOD_OFFSET UNITYSDK_OFFSET(0x187597F0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_ISSECURITYCRITICAL_OFFSET UNITYSDK_OFFSET(0x187598C0)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_METHODHANDLE_OFFSET UNITYSDK_OFFSET(0x18759090)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_NAME_1_OFFSET UNITYSDK_OFFSET(0x18759180)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18757C00)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_REFLECTEDTYPE_OFFSET UNITYSDK_OFFSET(0x18759110)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_RETURNPARAMETER_OFFSET UNITYSDK_OFFSET(0x18758A10)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_RETURNTYPECUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18758B10)
+#define SYSTEM_REFLECTION_MONOMETHOD_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x18758AB0)
+#define SYSTEM_REFLECTION_MONOMETHOD_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x18758D50)
+#define SYSTEM_REFLECTION_MONOMETHOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x18758D60)
+#define SYSTEM_REFLECTION_MONOMETHOD_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x187591E0)
+#define SYSTEM_REFLECTION_MONOMETHOD_MAKEGENERICMETHOD_IMPL_OFFSET UNITYSDK_OFFSET(0x18759700)
+#define SYSTEM_REFLECTION_MONOMETHOD_MAKEGENERICMETHOD_OFFSET UNITYSDK_OFFSET(0x187593F0)
+#define SYSTEM_REFLECTION_MONOMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x187589D0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MonoMethod_TypeDefinitionIndex = 620;
+	inline static constexpr unsigned int MonoMethod_TypeDefinitionIndex = 619;
 
 	class MonoMethod : public ::System::Reflection::RuntimeMethodInfo
 	{
@@ -77,14 +77,14 @@ namespace System::Reflection
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::String* get_name(::System::Reflection::MethodBase* method)
+		static ::System::String* get_name(::System::Reflection::MethodBase* a1)
 		{
-			return ((::System::String*(*)(::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GET_NAME_OFFSET))(method);
+			return ((::System::String*(*)(::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GET_NAME_OFFSET))(a1);
 		}
 
-		static ::System::Reflection::MonoMethod* get_base_method(::System::Reflection::MonoMethod* method, ::System::Boolean definition)
+		static ::System::Reflection::MonoMethod* get_base_method(::System::Reflection::MonoMethod* a1, ::System::Boolean a2)
 		{
-			return ((::System::Reflection::MonoMethod*(*)(::System::Reflection::MonoMethod*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GET_BASE_METHOD_OFFSET))(method, definition);
+			return ((::System::Reflection::MonoMethod*(*)(::System::Reflection::MonoMethod*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GET_BASE_METHOD_OFFSET))(a1, a2);
 		}
 
 		::System::Reflection::MethodInfo* GetBaseDefinition()
@@ -132,19 +132,19 @@ namespace System::Reflection
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GETPARAMETERSCOUNT_OFFSET))(this);
 		}
 
-		::System::Object* InternalInvoke(::System::Object* obj, ::Il2CppArray<::System::Object*>* parameters, ::System::Exception*& exc)
+		::System::Object* InternalInvoke(::System::Object* a1, ::Il2CppArray<::System::Object*>* a2, ::System::Exception*& a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::Il2CppArray<::System::Object*>*, ::System::Exception*&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_INTERNALINVOKE_OFFSET))(this, obj, parameters, exc);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::Il2CppArray<::System::Object*>*, ::System::Exception*&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_INTERNALINVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* Invoke(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::Il2CppArray<::System::Object*>* parameters, ::System::Globalization::CultureInfo* culture)
+		::System::Object* Invoke(::System::Object* a1, ::System::Reflection::BindingFlags a2, ::System::Reflection::Binder* a3, ::Il2CppArray<::System::Object*>* a4, ::System::Globalization::CultureInfo* a5)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_INVOKE_OFFSET))(this, obj, invokeAttr, binder, parameters, culture);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_INVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void ConvertValues(::System::Reflection::Binder* binder, ::Il2CppArray<::System::Object*>* args, ::Il2CppArray<::System::Reflection::ParameterInfo*>* pinfo, ::System::Globalization::CultureInfo* culture, ::System::Reflection::BindingFlags invokeAttr)
+		static ::System::Void ConvertValues(::System::Reflection::Binder* a1, ::Il2CppArray<::System::Object*>* a2, ::Il2CppArray<::System::Reflection::ParameterInfo*>* a3, ::System::Globalization::CultureInfo* a4, ::System::Reflection::BindingFlags a5)
 		{
-			return ((::System::Void(*)(::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*, ::System::Globalization::CultureInfo*, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_CONVERTVALUES_OFFSET))(binder, args, pinfo, culture, invokeAttr);
+			return ((::System::Void(*)(::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*, ::System::Globalization::CultureInfo*, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_CONVERTVALUES_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::RuntimeMethodHandle get_MethodHandle()
@@ -177,24 +177,24 @@ namespace System::Reflection
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GET_NAME_1_OFFSET))(this);
 		}
 
-		::System::Boolean IsDefined(::System::Type* attributeType, ::System::Boolean inherit)
+		::System::Boolean IsDefined(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_ISDEFINED_OFFSET))(this, attributeType, inherit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_ISDEFINED_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GETCUSTOMATTRIBUTES_OFFSET))(this, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GETCUSTOMATTRIBUTES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* attributeType, ::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GETCUSTOMATTRIBUTES_1_OFFSET))(this, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GETCUSTOMATTRIBUTES_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetPInvoke(::System::Reflection::PInvokeAttributes& flags, ::System::String*& entryPoint, ::System::String*& dllName)
+		::System::Void GetPInvoke(::System::Reflection::PInvokeAttributes& a1, ::System::String*& a2, ::System::String*& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::PInvokeAttributes&, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GETPINVOKE_OFFSET))(this, flags, entryPoint, dllName);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::PInvokeAttributes&, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GETPINVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Il2CppArray<::System::Object*>* GetPseudoCustomAttributes()
@@ -202,14 +202,14 @@ namespace System::Reflection
 			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_GETPSEUDOCUSTOMATTRIBUTES_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodInfo* MakeGenericMethod(::Il2CppArray<::System::Type*>* methodInstantiation)
+		::System::Reflection::MethodInfo* MakeGenericMethod(::Il2CppArray<::System::Type*>* a1)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_MAKEGENERICMETHOD_OFFSET))(this, methodInstantiation);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_MAKEGENERICMETHOD_OFFSET))(this, a1);
 		}
 
-		::System::Reflection::MethodInfo* MakeGenericMethod_impl(::Il2CppArray<::System::Type*>* types)
+		::System::Reflection::MethodInfo* MakeGenericMethod_impl(::Il2CppArray<::System::Type*>* a1)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_MAKEGENERICMETHOD_IMPL_OFFSET))(this, types);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_MAKEGENERICMETHOD_IMPL_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Type*>* GetGenericArguments()

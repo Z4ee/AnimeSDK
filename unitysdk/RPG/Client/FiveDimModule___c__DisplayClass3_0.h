@@ -5,13 +5,13 @@
 namespace RPG::Client::ChenLingGameBoy { class ChenLingGameBoyPlayerRankingListInfo; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA3AD680)
-#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0xA3B61D0)
-#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__1_OFFSET UNITYSDK_OFFSET(0xA3B6240)
+#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBA486D0)
+#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0xBA517A0)
+#define RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__1_OFFSET UNITYSDK_OFFSET(0xBA51810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimModule___c__DisplayClass3_0_TypeDefinitionIndex = 59078;
+	inline static constexpr unsigned int FiveDimModule___c__DisplayClass3_0_TypeDefinitionIndex = 60008;
 
 	class FiveDimModule___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__0_OFFSET))(this);
 		}
 
-		::System::Void _FetchPlayersRankingInfo_b__1(::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo* rankingListInfo)
+		::System::Void _FetchPlayersRankingInfo_b__1(::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__1_OFFSET))(this, rankingListInfo);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE___C__DISPLAYCLASS3_0__FETCHPLAYERSRANKINGINFO_B__1_OFFSET))(this, a1);
 		}
 	};
 }

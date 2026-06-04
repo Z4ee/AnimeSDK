@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_3_6FCED0DC6A3564B4_METHOD_3_CC5389287A803194_OFFSET UNITYSDK_OFFSET(0x18BB3BC0)
-#define CLASS_3_6FCED0DC6A3564B4_METHOD_3_F32CA7BD1D486055_OFFSET UNITYSDK_OFFSET(0x18BB3B40)
-#define CLASS_3_6FCED0DC6A3564B4__CTOR_OFFSET UNITYSDK_OFFSET(0x18BB3B90)
+#define CLASS_3_6FCED0DC6A3564B4_METHOD_3_CC5389287A803194_OFFSET UNITYSDK_OFFSET(0x19968040)
+#define CLASS_3_6FCED0DC6A3564B4_METHOD_3_F32CA7BD1D486055_OFFSET UNITYSDK_OFFSET(0x19967FC0)
+#define CLASS_3_6FCED0DC6A3564B4__CTOR_OFFSET UNITYSDK_OFFSET(0x19968010)
 
-inline static constexpr unsigned int Class_3_6FCED0DC6A3564B4_TypeDefinitionIndex = 10110;
+inline static constexpr unsigned int Class_3_6FCED0DC6A3564B4_TypeDefinitionIndex = 9913;
 
 class Class_3_6FCED0DC6A3564B4 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::Boolean Field_3_0; // 0x18
-	::System::UInt32 Field_3_2; // 0x1C
-	::System::UInt32 Field_3_3; // 0x20
-	::System::UInt32 Field_3_1; // 0x24
+	::System::UInt32 Field_3_0; // 0x18
+	::System::Boolean Field_3_1; // 0x1C
+	::System::UInt32 Field_3_2; // 0x20
+	::System::UInt32 Field_3_3; // 0x24
 
 	::System::Void _ctor()
 	{

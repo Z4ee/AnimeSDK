@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Reflection { class MonoCMethod; }
 
-#define SYSTEM_MONOTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17981DB0)
+#define SYSTEM_MONOTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x187334F0)
 
 namespace System
 {
-	inline static constexpr unsigned int MonoTypeInfo_TypeDefinitionIndex = 374;
+	inline static constexpr unsigned int MonoTypeInfo_TypeDefinitionIndex = 373;
 
 	class MonoTypeInfo : public ::System::Object
 	{

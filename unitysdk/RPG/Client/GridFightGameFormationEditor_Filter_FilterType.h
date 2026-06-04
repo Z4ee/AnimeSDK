@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_Filter_FilterType_TypeDefinitionIndex = 59500;
+	inline static constexpr unsigned int GridFightGameFormationEditor_Filter_FilterType_TypeDefinitionIndex = 60435;
 
 	enum class GridFightGameFormationEditor_Filter_FilterType : ::System::Int32
 	{

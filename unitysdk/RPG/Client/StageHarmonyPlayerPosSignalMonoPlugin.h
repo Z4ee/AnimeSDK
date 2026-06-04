@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/Client/StageHarmonyPlayerPosSignalMonoPlugin_RegisterMode.h"
 #include "unitysdk/RPG/Client/StageHarmonyPlayerPosSignalMonoPlugin_SignalType.h"
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
+#include "unitysdk/Struct_2_CC45B4503679E14E_10.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client { class StageHarmonyPlayerPosSignalBehavior; }
-namespace RPG::GameCore { class StageSceneItemSerializationData; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_DUMP_OFFSET UNITYSDK_OFFSET(0xB1B23B0)
-#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_LOAD_OFFSET UNITYSDK_OFFSET(0xB1B2330)
-#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB1B2540)
+#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_DUMP_OFFSET UNITYSDK_OFFSET(0xC9084C0)
+#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_LOAD_OFFSET UNITYSDK_OFFSET(0xC9082B0)
+#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC9089F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyPlayerPosSignalMonoPlugin_TypeDefinitionIndex = 65416;
+	inline static constexpr unsigned int StageHarmonyPlayerPosSignalMonoPlugin_TypeDefinitionIndex = 66343;
 
 	class StageHarmonyPlayerPosSignalMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageHarmonyPlayerPosSignalBehavior*>
 	{
@@ -37,14 +37,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Load(::RPG::GameCore::StageSceneItemSerializationData* a1)
+		::System::Void Load(::Struct_2_CC45B4503679E14E_10 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StageSceneItemSerializationData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_LOAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_10))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_LOAD_OFFSET))(this, a1);
 		}
 
-		::System::Void Dump(::RPG::GameCore::StageSceneItemSerializationData* a1)
+		::System::Void Dump(::Struct_2_CC45B4503679E14E_10 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StageSceneItemSerializationData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_DUMP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_10))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_DUMP_OFFSET))(this, a1);
 		}
 	};
 }

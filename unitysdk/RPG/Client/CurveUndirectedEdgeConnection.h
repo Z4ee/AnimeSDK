@@ -5,11 +5,11 @@
 
 namespace RPG::Client { class CurveUndirectedEdge; }
 
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGECONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA0E9F40)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGECONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB729860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveUndirectedEdgeConnection_TypeDefinitionIndex = 63230;
+	inline static constexpr unsigned int CurveUndirectedEdgeConnection_TypeDefinitionIndex = 64147;
 
 	class CurveUndirectedEdgeConnection : public ::System::Object
 	{

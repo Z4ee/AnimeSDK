@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierStateFilter_TypeDefinitionIndex = 50216;
+	inline static constexpr unsigned int ModifierStateFilter_TypeDefinitionIndex = 50882;
 
 	enum class ModifierStateFilter : ::System::Int32
 	{

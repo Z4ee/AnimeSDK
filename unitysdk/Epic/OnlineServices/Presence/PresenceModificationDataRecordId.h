@@ -6,15 +6,15 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_GET_KEY_OFFSET UNITYSDK_OFFSET(0x8F09190)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_1_OFFSET UNITYSDK_OFFSET(0x8F093A0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_KEY_OFFSET UNITYSDK_OFFSET(0x8F091A0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_OFFSET UNITYSDK_OFFSET(0x8F091B0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID__CTOR_OFFSET UNITYSDK_OFFSET(0x8F095B0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_GET_KEY_OFFSET UNITYSDK_OFFSET(0xA332190)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_1_OFFSET UNITYSDK_OFFSET(0xA3323A0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_KEY_OFFSET UNITYSDK_OFFSET(0xA3321A0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_OFFSET UNITYSDK_OFFSET(0xA3321B0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID__CTOR_OFFSET UNITYSDK_OFFSET(0xA3325B0)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int PresenceModificationDataRecordId_TypeDefinitionIndex = 41604;
+	inline static constexpr unsigned int PresenceModificationDataRecordId_TypeDefinitionIndex = 42407;
 
 	class PresenceModificationDataRecordId : public ::System::Object
 	{
@@ -31,19 +31,19 @@ namespace Epic::OnlineServices::Presence
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void set_Key(::System::String* value)
+		::System::Void set_Key(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_KEY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_KEY_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Presence::PresenceModificationDataRecordIdInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Presence::PresenceModificationDataRecordIdInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Presence::PresenceModificationDataRecordIdInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Presence::PresenceModificationDataRecordIdInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDATARECORDID_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

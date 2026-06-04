@@ -12,44 +12,44 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SRF_HELPERS_PROPERTYREFERENCE_ADD_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x19EA21F0)
-#define SRF_HELPERS_PROPERTYREFERENCE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x19EA2DA0)
-#define SRF_HELPERS_PROPERTYREFERENCE_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x19EA2710)
-#define SRF_HELPERS_PROPERTYREFERENCE_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x19EA2720)
-#define SRF_HELPERS_PROPERTYREFERENCE_GET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x19EA21B0)
-#define SRF_HELPERS_PROPERTYREFERENCE_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x19EA26F0)
-#define SRF_HELPERS_PROPERTYREFERENCE_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x19EA21A0)
-#define SRF_HELPERS_PROPERTYREFERENCE_NOTIFYVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x19EA2730)
-#define SRF_HELPERS_PROPERTYREFERENCE_ONTARGETPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x19EA2E10)
-#define SRF_HELPERS_PROPERTYREFERENCE_REMOVE_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x19EA23C0)
-#define SRF_HELPERS_PROPERTYREFERENCE_SETVALUE_OFFSET UNITYSDK_OFFSET(0x19EA2DC0)
-#define SRF_HELPERS_PROPERTYREFERENCE_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x19EA2700)
-#define SRF_HELPERS_PROPERTYREFERENCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19EA26A0)
-#define SRF_HELPERS_PROPERTYREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA2570)
+#define SRF_HELPERS_PROPERTYREFERENCE_ADD_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1AD17EF0)
+#define SRF_HELPERS_PROPERTYREFERENCE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1AD18640)
+#define SRF_HELPERS_PROPERTYREFERENCE_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1AD18510)
+#define SRF_HELPERS_PROPERTYREFERENCE_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1AD18520)
+#define SRF_HELPERS_PROPERTYREFERENCE_GET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1AD17EB0)
+#define SRF_HELPERS_PROPERTYREFERENCE_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1AD184F0)
+#define SRF_HELPERS_PROPERTYREFERENCE_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1AD17EA0)
+#define SRF_HELPERS_PROPERTYREFERENCE_NOTIFYVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1AD18530)
+#define SRF_HELPERS_PROPERTYREFERENCE_ONTARGETPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1AD186B0)
+#define SRF_HELPERS_PROPERTYREFERENCE_REMOVE_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1AD18160)
+#define SRF_HELPERS_PROPERTYREFERENCE_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1AD18660)
+#define SRF_HELPERS_PROPERTYREFERENCE_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1AD18500)
+#define SRF_HELPERS_PROPERTYREFERENCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AD184A0)
+#define SRF_HELPERS_PROPERTYREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD18340)
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int PropertyReference_TypeDefinitionIndex = 33338;
+	inline static constexpr unsigned int PropertyReference_TypeDefinitionIndex = 33620;
 
 	class PropertyReference : public ::System::Object
 	{
 	public:
-		::System::Object* _target; // 0x10
-		::System::Func_1<::System::Object*>* _getter; // 0x18
-		::System::Action_1<::System::Object*>* _setter; // 0x20
-		::System::Reflection::PropertyInfo* _property; // 0x28
+		::Il2CppArray<::System::Attribute*>* _attributes; // 0x10
+		::System::Collections::Generic::List_1<::SRF::Helpers::PropertyValueChangedHandler*>* _valueChangedListeners; // 0x18
+		::System::Reflection::PropertyInfo* _property; // 0x20
+		::System::Action_1<::System::Object*>* _setter; // 0x28
 		::System::Type* _PropertyType_k__BackingField; // 0x30
-		::System::Collections::Generic::List_1<::SRF::Helpers::PropertyValueChangedHandler*>* _valueChangedListeners; // 0x38
-		::Il2CppArray<::System::Attribute*>* _attributes; // 0x40
+		::System::Func_1<::System::Object*>* _getter; // 0x38
+		::System::Object* _target; // 0x40
 
-		::System::Void _ctor(::System::Object* target, ::System::Reflection::PropertyInfo* property)
+		::System::Void _ctor(::System::Object* a1, ::System::Reflection::PropertyInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE__CTOR_OFFSET))(this, target, property);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::Type* type, ::System::Func_1<::System::Object*>* getter, ::System::Action_1<::System::Object*>* setter, ::Il2CppArray<::System::Attribute*>* attributes)
+		::System::Void _ctor_1(::System::Type* a1, ::System::Func_1<::System::Object*>* a2, ::System::Action_1<::System::Object*>* a3, ::Il2CppArray<::System::Attribute*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Func_1<::System::Object*>*, ::System::Action_1<::System::Object*>*, ::Il2CppArray<::System::Attribute*>*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE__CTOR_1_OFFSET))(this, type, getter, setter, attributes);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Func_1<::System::Object*>*, ::System::Action_1<::System::Object*>*, ::Il2CppArray<::System::Attribute*>*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Object* get_Target()
@@ -62,14 +62,14 @@ namespace SRF::Helpers
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_GET_PROPERTYNAME_OFFSET))(this);
 		}
 
-		::System::Void add_ValueChanged(::SRF::Helpers::PropertyValueChangedHandler* value)
+		::System::Void add_ValueChanged(::SRF::Helpers::PropertyValueChangedHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRF::Helpers::PropertyValueChangedHandler*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_ADD_VALUECHANGED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::SRF::Helpers::PropertyValueChangedHandler*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_ADD_VALUECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ValueChanged(::SRF::Helpers::PropertyValueChangedHandler* value)
+		::System::Void remove_ValueChanged(::SRF::Helpers::PropertyValueChangedHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRF::Helpers::PropertyValueChangedHandler*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_REMOVE_VALUECHANGED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::SRF::Helpers::PropertyValueChangedHandler*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_REMOVE_VALUECHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Type* get_PropertyType()
@@ -77,9 +77,9 @@ namespace SRF::Helpers
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_GET_PROPERTYTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_PropertyType(::System::Type* value)
+		::System::Void set_PropertyType(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_SET_PROPERTYTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_SET_PROPERTYTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_CanRead()
@@ -102,14 +102,14 @@ namespace SRF::Helpers
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_GETVALUE_OFFSET))(this);
 		}
 
-		::System::Void SetValue(::System::Object* value)
+		::System::Void SetValue(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_SETVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_SETVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnTargetPropertyChanged(::System::Object* sender, ::System::ComponentModel::PropertyChangedEventArgs* e)
+		::System::Void OnTargetPropertyChanged(::System::Object* a1, ::System::ComponentModel::PropertyChangedEventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_ONTARGETPROPERTYCHANGED_OFFSET))(this, sender, e);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_ONTARGETPROPERTYCHANGED_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsInEraFlipperSpotArea; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2474A04FC591B4BD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x92F4640)
-#define CLASS_3_2474A04FC591B4BD__CTOR_OFFSET UNITYSDK_OFFSET(0x92F4610)
+#define CLASS_3_2474A04FC591B4BD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA792550)
+#define CLASS_3_2474A04FC591B4BD__CTOR_OFFSET UNITYSDK_OFFSET(0xA792520)
 
-inline static constexpr unsigned int Class_3_2474A04FC591B4BD_TypeDefinitionIndex = 48688;
+inline static constexpr unsigned int Class_3_2474A04FC591B4BD_TypeDefinitionIndex = 49353;
 
 class Class_3_2474A04FC591B4BD : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsInEraFlipperSpotArea*>
 {

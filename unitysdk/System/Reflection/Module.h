@@ -12,40 +12,40 @@ namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class TypeFilter; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_MODULE_CREATENIE_OFFSET UNITYSDK_OFFSET(0x179A4680)
-#define SYSTEM_REFLECTION_MODULE_EQUALS_OFFSET UNITYSDK_OFFSET(0x179A45F0)
-#define SYSTEM_REFLECTION_MODULE_FILTER_BY_TYPE_NAME_IGNORE_CASE_OFFSET UNITYSDK_OFFSET(0x179A4530)
-#define SYSTEM_REFLECTION_MODULE_FILTER_BY_TYPE_NAME_OFFSET UNITYSDK_OFFSET(0x179A4410)
-#define SYSTEM_REFLECTION_MODULE_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x179A4820)
-#define SYSTEM_REFLECTION_MODULE_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x179A47E0)
-#define SYSTEM_REFLECTION_MODULE_GETGUIDINTERNAL_OFFSET UNITYSDK_OFFSET(0x179A43F0)
-#define SYSTEM_REFLECTION_MODULE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x179A4600)
-#define SYSTEM_REFLECTION_MODULE_GETMODULEVERSIONID_OFFSET UNITYSDK_OFFSET(0x179A43B0)
-#define SYSTEM_REFLECTION_MODULE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x179A4350)
-#define SYSTEM_REFLECTION_MODULE_GET_ASSEMBLY_OFFSET UNITYSDK_OFFSET(0x179A4640)
-#define SYSTEM_REFLECTION_MODULE_GET_MODULEVERSIONID_OFFSET UNITYSDK_OFFSET(0x179A4760)
-#define SYSTEM_REFLECTION_MODULE_GET_SCOPENAME_OFFSET UNITYSDK_OFFSET(0x179A4720)
-#define SYSTEM_REFLECTION_MODULE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x179A4860)
-#define SYSTEM_REFLECTION_MODULE_ISRESOURCE_OFFSET UNITYSDK_OFFSET(0x179A47A0)
-#define SYSTEM_REFLECTION_MODULE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x179A4610)
-#define SYSTEM_REFLECTION_MODULE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x179A43A0)
-#define SYSTEM_REFLECTION_MODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0x179A48A0)
-#define SYSTEM_REFLECTION_MODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x179A4340)
+#define SYSTEM_REFLECTION_MODULE_CREATENIE_OFFSET UNITYSDK_OFFSET(0x187568F0)
+#define SYSTEM_REFLECTION_MODULE_EQUALS_OFFSET UNITYSDK_OFFSET(0x18756860)
+#define SYSTEM_REFLECTION_MODULE_FILTER_BY_TYPE_NAME_IGNORE_CASE_OFFSET UNITYSDK_OFFSET(0x187567A0)
+#define SYSTEM_REFLECTION_MODULE_FILTER_BY_TYPE_NAME_OFFSET UNITYSDK_OFFSET(0x18756680)
+#define SYSTEM_REFLECTION_MODULE_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x18756A90)
+#define SYSTEM_REFLECTION_MODULE_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18756A50)
+#define SYSTEM_REFLECTION_MODULE_GETGUIDINTERNAL_OFFSET UNITYSDK_OFFSET(0x18756660)
+#define SYSTEM_REFLECTION_MODULE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18756870)
+#define SYSTEM_REFLECTION_MODULE_GETMODULEVERSIONID_OFFSET UNITYSDK_OFFSET(0x18756620)
+#define SYSTEM_REFLECTION_MODULE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x187565C0)
+#define SYSTEM_REFLECTION_MODULE_GET_ASSEMBLY_OFFSET UNITYSDK_OFFSET(0x187568B0)
+#define SYSTEM_REFLECTION_MODULE_GET_MODULEVERSIONID_OFFSET UNITYSDK_OFFSET(0x187569D0)
+#define SYSTEM_REFLECTION_MODULE_GET_SCOPENAME_OFFSET UNITYSDK_OFFSET(0x18756990)
+#define SYSTEM_REFLECTION_MODULE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x18756AD0)
+#define SYSTEM_REFLECTION_MODULE_ISRESOURCE_OFFSET UNITYSDK_OFFSET(0x18756A10)
+#define SYSTEM_REFLECTION_MODULE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x18756880)
+#define SYSTEM_REFLECTION_MODULE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18756610)
+#define SYSTEM_REFLECTION_MODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18756B10)
+#define SYSTEM_REFLECTION_MODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x187565B0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int Module_TypeDefinitionIndex = 608;
+	inline static constexpr unsigned int Module_TypeDefinitionIndex = 607;
 
 	class Module : public ::System::Object
 	{
 	public:
 		static ::System::Reflection::TypeFilter** StaticGet_FilterTypeNameIgnoreCase()
 		{
-			return (::System::Reflection::TypeFilter**)Il2CppClass::FromTypeDefinitionIndex(Module_TypeDefinitionIndex)->GetStaticField(0xB520);
+			return (::System::Reflection::TypeFilter**)Il2CppClass::FromTypeDefinitionIndex(Module_TypeDefinitionIndex)->GetStaticField(0x9AB0);
 		}
 		static ::System::Reflection::TypeFilter** StaticGet_FilterTypeName()
 		{
-			return (::System::Reflection::TypeFilter**)Il2CppClass::FromTypeDefinitionIndex(Module_TypeDefinitionIndex)->GetStaticField(0xB528);
+			return (::System::Reflection::TypeFilter**)Il2CppClass::FromTypeDefinitionIndex(Module_TypeDefinitionIndex)->GetStaticField(0x9AB8);
 		}
 		// static const ::System::Reflection::BindingFlags defaultBindingFlags; // 0x0
 		::System::IntPtr _impl; // 0x10
@@ -66,9 +66,9 @@ namespace System::Reflection
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE__CCTOR_OFFSET))();
 		}
 
-		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_GETOBJECTDATA_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* ToString()
@@ -81,14 +81,14 @@ namespace System::Reflection
 			return ((::System::Guid(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_GETMODULEVERSIONID_OFFSET))(this);
 		}
 
-		static ::System::Boolean filter_by_type_name(::System::Type* m, ::System::Object* filterCriteria)
+		static ::System::Boolean filter_by_type_name(::System::Type* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_FILTER_BY_TYPE_NAME_OFFSET))(m, filterCriteria);
+			return ((::System::Boolean(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_FILTER_BY_TYPE_NAME_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean filter_by_type_name_ignore_case(::System::Type* m, ::System::Object* filterCriteria)
+		static ::System::Boolean filter_by_type_name_ignore_case(::System::Type* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_FILTER_BY_TYPE_NAME_IGNORE_CASE_OFFSET))(m, filterCriteria);
+			return ((::System::Boolean(*)(::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_FILTER_BY_TYPE_NAME_IGNORE_CASE_OFFSET))(a1, a2);
 		}
 
 		::System::String* GetGuidInternal()
@@ -96,9 +96,9 @@ namespace System::Reflection
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_GETGUIDINTERNAL_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* o)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_EQUALS_OFFSET))(this, o);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -106,9 +106,9 @@ namespace System::Reflection
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::System::Reflection::Module* left, ::System::Reflection::Module* right)
+		static ::System::Boolean op_Equality(::System::Reflection::Module* a1, ::System::Reflection::Module* a2)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::Module*, ::System::Reflection::Module*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Reflection::Module*, ::System::Reflection::Module*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
 		::System::Reflection::Assembly* get_Assembly()
@@ -136,19 +136,19 @@ namespace System::Reflection
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_ISRESOURCE_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_GETCUSTOMATTRIBUTES_OFFSET))(this, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_GETCUSTOMATTRIBUTES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* attributeType, ::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_GETCUSTOMATTRIBUTES_1_OFFSET))(this, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_GETCUSTOMATTRIBUTES_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsDefined(::System::Type* attributeType, ::System::Boolean inherit)
+		::System::Boolean IsDefined(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_ISDEFINED_OFFSET))(this, attributeType, inherit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULE_ISDEFINED_OFFSET))(this, a1, a2);
 		}
 	};
 }

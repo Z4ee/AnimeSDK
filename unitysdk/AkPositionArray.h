@@ -3,15 +3,15 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define AKPOSITIONARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x1A6071B0)
-#define AKPOSITIONARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A607050)
-#define AKPOSITIONARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A6070B0)
-#define AKPOSITIONARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1A607030)
-#define AKPOSITIONARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x1A607160)
-#define AKPOSITIONARRAY_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x1A607040)
-#define AKPOSITIONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A606FF0)
+#define AKPOSITIONARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x1B451C30)
+#define AKPOSITIONARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B451AD0)
+#define AKPOSITIONARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B451B30)
+#define AKPOSITIONARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1B451AB0)
+#define AKPOSITIONARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x1B451BE0)
+#define AKPOSITIONARRAY_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x1B451AC0)
+#define AKPOSITIONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B451A70)
 
-inline static constexpr unsigned int AkPositionArray_TypeDefinitionIndex = 40425;
+inline static constexpr unsigned int AkPositionArray_TypeDefinitionIndex = 41252;
 
 class AkPositionArray : public ::System::Object
 {
@@ -21,9 +21,9 @@ public:
 	::System::UInt32 m_MaxCount; // 0x1C
 	::System::IntPtr m_Buffer; // 0x20
 
-	::System::Void _ctor(::System::UInt32 in_Count)
+	::System::Void _ctor(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPOSITIONARRAY__CTOR_OFFSET))(this, in_Count);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPOSITIONARRAY__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_Count()
@@ -31,9 +31,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPOSITIONARRAY_GET_COUNT_OFFSET))(this);
 	}
 
-	::System::Void set_Count(::System::UInt32 value)
+	::System::Void set_Count(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPOSITIONARRAY_SET_COUNT_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPOSITIONARRAY_SET_COUNT_OFFSET))(this, a1);
 	}
 
 	::System::Void Dispose()
@@ -51,8 +51,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPOSITIONARRAY_RESET_OFFSET))(this);
 	}
 
-	::System::Void Add(::UnityEngine::Vector3 in_Pos, ::UnityEngine::Vector3 in_Forward, ::UnityEngine::Vector3 in_Top)
+	::System::Void Add(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKPOSITIONARRAY_ADD_OFFSET))(this, in_Pos, in_Forward, in_Top);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + AKPOSITIONARRAY_ADD_OFFSET))(this, a1, a2, a3);
 	}
 };

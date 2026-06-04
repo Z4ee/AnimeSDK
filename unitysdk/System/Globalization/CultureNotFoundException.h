@@ -7,20 +7,20 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x17925180)
-#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_DEFAULTMESSAGE_OFFSET UNITYSDK_OFFSET(0x17924EA0)
-#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_FORMATEDINVALIDCULTUREID_OFFSET UNITYSDK_OFFSET(0x17925340)
-#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_INVALIDCULTUREID_OFFSET UNITYSDK_OFFSET(0x17925320)
-#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_INVALIDCULTURENAME_OFFSET UNITYSDK_OFFSET(0x17925330)
-#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x17925450)
-#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17921F70)
-#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17924EE0)
-#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x17924F60)
-#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17924E00)
+#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x186DA910)
+#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_DEFAULTMESSAGE_OFFSET UNITYSDK_OFFSET(0x186DA640)
+#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_FORMATEDINVALIDCULTUREID_OFFSET UNITYSDK_OFFSET(0x186DAAC0)
+#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_INVALIDCULTUREID_OFFSET UNITYSDK_OFFSET(0x186DAAA0)
+#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_INVALIDCULTURENAME_OFFSET UNITYSDK_OFFSET(0x186DAAB0)
+#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x186DAC00)
+#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x186D76B0)
+#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x186DA680)
+#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x186DA700)
+#define SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x186DA5A0)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CultureNotFoundException_TypeDefinitionIndex = 736;
+	inline static constexpr unsigned int CultureNotFoundException_TypeDefinitionIndex = 735;
 
 	class CultureNotFoundException : public ::System::ArgumentException
 	{
@@ -33,24 +33,24 @@ namespace System::Globalization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* paramName, ::System::String* message)
+		::System::Void _ctor_1(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_1_OFFSET))(this, paramName, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::System::String* paramName, ::System::String* invalidCultureName, ::System::String* message)
+		::System::Void _ctor_2(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_2_OFFSET))(this, paramName, invalidCultureName, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_3_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GETOBJECTDATA_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Nullable_1<::System::Int32> get_InvalidCultureId()

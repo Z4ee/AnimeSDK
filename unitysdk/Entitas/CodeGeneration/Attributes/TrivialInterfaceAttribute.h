@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_TRIVIALINTERFACEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C501F0)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_TRIVIALINTERFACEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x146FE8C0)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int TrivialInterfaceAttribute_TypeDefinitionIndex = 9910;
+	inline static constexpr unsigned int TrivialInterfaceAttribute_TypeDefinitionIndex = 9737;
 
 	class TrivialInterfaceAttribute : public ::System::Attribute
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PropSoundConfigOverrideConfig; }
 
-#define RPG_GAMECORE_PROPSOUNDOVERRIDECONFIG_METHOD_2_FC81B044156B8D6A_OFFSET UNITYSDK_OFFSET(0x18C78B60)
-#define RPG_GAMECORE_PROPSOUNDOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C78C30)
+#define RPG_GAMECORE_PROPSOUNDOVERRIDECONFIG_METHOD_2_1838ECD114C9E507_OFFSET UNITYSDK_OFFSET(0x19A9B0B0)
+#define RPG_GAMECORE_PROPSOUNDOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9B170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSoundOverrideConfig_TypeDefinitionIndex = 16656;
+	inline static constexpr unsigned int PropSoundOverrideConfig_TypeDefinitionIndex = 16685;
 
 	class PropSoundOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSOUNDOVERRIDECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FC81B044156B8D6A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSoundOverrideConfig*& a2)
+		static ::System::Void Method_2_1838ECD114C9E507(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSoundOverrideConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSoundOverrideConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSOUNDOVERRIDECONFIG_METHOD_2_FC81B044156B8D6A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSoundOverrideConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSOUNDOVERRIDECONFIG_METHOD_2_1838ECD114C9E507_OFFSET))(a1, a2);
 		}
 	};
 }

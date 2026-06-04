@@ -6,14 +6,14 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_APPLICATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x177D6F30)
-#define SYSTEM_APPLICATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x177D6FA0)
-#define SYSTEM_APPLICATIONEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x177D7010)
-#define SYSTEM_APPLICATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x177D6E90)
+#define SYSTEM_APPLICATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x185915F0)
+#define SYSTEM_APPLICATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18591660)
+#define SYSTEM_APPLICATIONEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x185916D0)
+#define SYSTEM_APPLICATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18591550)
 
 namespace System
 {
-	inline static constexpr unsigned int ApplicationException_TypeDefinitionIndex = 192;
+	inline static constexpr unsigned int ApplicationException_TypeDefinitionIndex = 191;
 
 	class ApplicationException : public ::System::Exception
 	{
@@ -23,19 +23,19 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_APPLICATIONEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_APPLICATIONEXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_APPLICATIONEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* message, ::System::Exception* innerException)
+		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_APPLICATIONEXCEPTION__CTOR_2_OFFSET))(this, message, innerException);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_APPLICATIONEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_APPLICATIONEXCEPTION__CTOR_3_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_APPLICATIONEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 	};
 }

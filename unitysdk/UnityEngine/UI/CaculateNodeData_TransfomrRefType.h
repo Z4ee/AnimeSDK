@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int CaculateNodeData_TransfomrRefType_TypeDefinitionIndex = 5633;
+	inline static constexpr unsigned int CaculateNodeData_TransfomrRefType_TypeDefinitionIndex = 5910;
 
 	enum class CaculateNodeData_TransfomrRefType : ::System::Int32
 	{

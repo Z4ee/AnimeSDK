@@ -7,7 +7,7 @@
 namespace RPG::Client { class Effect_InstanceArrayBehavior; }
 namespace RPG::Client { class Effect_InstanceArrayBehavior_AnimationPropertyFloat; }
 namespace RPG::Client { class Effect_InstanceArrayBehavior_AnimationPropertyVector; }
-namespace RPG::Client { class Effect_InstanceArrayBehavior_Class_0_16E7307DCC43CB2C_19; }
+namespace RPG::Client { class Effect_InstanceArrayBehavior_Class_0_16E7307DCC43CB2C_22; }
 namespace RPG::Client { class Effect_InstanceArrayBehavior_PossiblePropertyFloat; }
 namespace RPG::Client { class Effect_InstanceArrayBehavior_PossiblePropertyVector; }
 namespace RPG::Client { class Effect_InstanceArrayBehavior_RendererPackage; }
@@ -16,18 +16,18 @@ namespace RPG::Client::TAUtils { class Vector3AnimationCurve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_INSTANCEARRAYMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA1D6D90)
+#define RPG_CLIENT_EFFECT_INSTANCEARRAYMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB859BF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceArrayMonoPlugin_TypeDefinitionIndex = 65108;
+	inline static constexpr unsigned int Effect_InstanceArrayMonoPlugin_TypeDefinitionIndex = 66034;
 
 	class Effect_InstanceArrayMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_InstanceArrayBehavior*>
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::Effect_InstanceArrayBehavior_RendererPackage*>* RendererPackages; // 0x30
 		::RPG::Client::TAUtils::SimpleTransform RelativeTransform; // 0x38
-		::System::Collections::Generic::List_1<::RPG::Client::Effect_InstanceArrayBehavior_Class_0_16E7307DCC43CB2C_19*>* AdditionalTransformers; // 0x60
+		::System::Collections::Generic::List_1<::RPG::Client::Effect_InstanceArrayBehavior_Class_0_16E7307DCC43CB2C_22*>* AdditionalTransformers; // 0x60
 		::System::Collections::Generic::List_1<::RPG::Client::Effect_InstanceArrayBehavior_PossiblePropertyFloat*>* PossiblePropertiesFloat; // 0x68
 		::System::Collections::Generic::List_1<::RPG::Client::Effect_InstanceArrayBehavior_PossiblePropertyVector*>* PossiblePropertiesVector; // 0x70
 		::System::Boolean EnableAnimation; // 0x78

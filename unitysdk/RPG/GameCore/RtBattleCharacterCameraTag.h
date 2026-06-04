@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleCharacterCameraTag_TypeDefinitionIndex = 17135;
+	inline static constexpr unsigned int RtBattleCharacterCameraTag_TypeDefinitionIndex = 17147;
 
 	enum class RtBattleCharacterCameraTag : ::System::Int32
 	{

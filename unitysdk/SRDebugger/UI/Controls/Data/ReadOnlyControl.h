@@ -8,15 +8,15 @@ namespace System { class Type; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x19E8B220)
-#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x19E8AFF0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x19E8B1E0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_START_OFFSET UNITYSDK_OFFSET(0x19E8AFD0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E8B270)
+#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1AD01730)
+#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1AD01510)
+#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1AD016F0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1AD014F0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD01770)
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int ReadOnlyControl_TypeDefinitionIndex = 35412;
+	inline static constexpr unsigned int ReadOnlyControl_TypeDefinitionIndex = 35712;
 
 	class ReadOnlyControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
@@ -35,19 +35,19 @@ namespace SRDebugger::UI::Controls::Data
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_START_OFFSET))(this);
 		}
 
-		::System::Void OnBind(::System::String* propertyName, ::System::Type* t)
+		::System::Void OnBind(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONBIND_OFFSET))(this, propertyName, t);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONBIND_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnValueUpdated(::System::Object* newValue)
+		::System::Void OnValueUpdated(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONVALUEUPDATED_OFFSET))(this, newValue);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONVALUEUPDATED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CanBind(::System::Type* type, ::System::Boolean isReadOnly)
+		::System::Boolean CanBind(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_CANBIND_OFFSET))(this, type, isReadOnly);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_CANBIND_OFFSET))(this, a1, a2);
 		}
 	};
 }

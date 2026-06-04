@@ -8,61 +8,61 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFTBYADDITEM_OFFSET UNITYSDK_OFFSET(0xA47EBE0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFTTOROLE_OFFSET UNITYSDK_OFFSET(0xA47F270)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFT_OFFSET UNITYSDK_OFFSET(0xA47E930)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_COSTITEMIDS_OFFSET UNITYSDK_OFFSET(0xA47F5C0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_COSTITEMSDICT_OFFSET UNITYSDK_OFFSET(0xA47F5A0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_CRAFTID_OFFSET UNITYSDK_OFFSET(0xA47F560)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_TARGETEQUIPITEMID_OFFSET UNITYSDK_OFFSET(0xA47F580)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_NEEDCOSTITEM_OFFSET UNITYSDK_OFFSET(0xA47E890)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_COSTITEMIDS_OFFSET UNITYSDK_OFFSET(0xA47F5D0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_COSTITEMSDICT_OFFSET UNITYSDK_OFFSET(0xA47F5B0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_CRAFTID_OFFSET UNITYSDK_OFFSET(0xA47F570)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_TARGETEQUIPITEMID_OFFSET UNITYSDK_OFFSET(0xA47F590)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE__CTOR_OFFSET UNITYSDK_OFFSET(0xA47E300)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE__GETRELATEDROLEUIDS_OFFSET UNITYSDK_OFFSET(0xA47F090)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFTBYADDITEM_OFFSET UNITYSDK_OFFSET(0xBB1C6E0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFTTOROLE_OFFSET UNITYSDK_OFFSET(0xBB1CCB0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFT_OFFSET UNITYSDK_OFFSET(0xBB1C430)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_COSTITEMIDS_OFFSET UNITYSDK_OFFSET(0xBB1CFE0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_COSTITEMSDICT_OFFSET UNITYSDK_OFFSET(0xBB1CFC0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_CRAFTID_OFFSET UNITYSDK_OFFSET(0xBB1CF80)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_TARGETEQUIPITEMID_OFFSET UNITYSDK_OFFSET(0xBB1CFA0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_NEEDCOSTITEM_OFFSET UNITYSDK_OFFSET(0xBB1C390)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_COSTITEMIDS_OFFSET UNITYSDK_OFFSET(0xBB1CFF0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_COSTITEMSDICT_OFFSET UNITYSDK_OFFSET(0xBB1CFD0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_CRAFTID_OFFSET UNITYSDK_OFFSET(0xBB1CF90)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_TARGETEQUIPITEMID_OFFSET UNITYSDK_OFFSET(0xBB1CFB0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE__CTOR_OFFSET UNITYSDK_OFFSET(0xBB1BD60)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE__GETRELATEDROLEUIDS_OFFSET UNITYSDK_OFFSET(0xBB1CB10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftRecipe_TypeDefinitionIndex = 59364;
+	inline static constexpr unsigned int GridFightEquipCraftRecipe_TypeDefinitionIndex = 60299;
 
 	class GridFightEquipCraftRecipe : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _CostItemsDict_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* _CostItemIDs_k__BackingField; // 0x18
-		::System::UInt32 _CraftID_k__BackingField; // 0x20
-		::System::UInt32 _TargetEquipItemID_k__BackingField; // 0x24
+		::System::Collections::Generic::List_1<::System::UInt32>* _CostItemIDs_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _CostItemsDict_k__BackingField; // 0x18
+		::System::UInt32 _TargetEquipItemID_k__BackingField; // 0x20
+		::System::UInt32 _CraftID_k__BackingField; // 0x24
 
-		::System::Void _ctor(::RPG::GameCore::GridFightCraftConfigRow* configRow)
+		::System::Void _ctor(::RPG::GameCore::GridFightCraftConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightCraftConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE__CTOR_OFFSET))(this, configRow);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightCraftConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Boolean NeedCostItem(::System::UInt32 itemID)
+		::System::Boolean NeedCostItem(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_NEEDCOSTITEM_OFFSET))(this, itemID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_NEEDCOSTITEM_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CanCraft(::RPG::Client::GridFightEquipInfo* equipInfo, ::System::Boolean addItem, ::System::UInt32 addItemID)
+		::System::Boolean CanCraft(::RPG::Client::GridFightEquipInfo* a1, ::System::Boolean a2, ::System::UInt32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipInfo*, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFT_OFFSET))(this, equipInfo, addItem, addItemID);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipInfo*, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean CanCraftByAddItem(::RPG::Client::GridFightEquipInfo* equipInfo, ::System::UInt32 itemID)
+		::System::Boolean CanCraftByAddItem(::RPG::Client::GridFightEquipInfo* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipInfo*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFTBYADDITEM_OFFSET))(this, equipInfo, itemID);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipInfo*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFTBYADDITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CanCraftToRole(::RPG::Client::GridFightEquipInfo* equipInfo, ::System::UInt32 roleUID, ::System::Boolean addItem, ::System::UInt32 addItemID)
+		::System::Boolean CanCraftToRole(::RPG::Client::GridFightEquipInfo* a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::UInt32 a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipInfo*, ::System::UInt32, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFTTOROLE_OFFSET))(this, equipInfo, roleUID, addItem, addItemID);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipInfo*, ::System::UInt32, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_CANCRAFTTOROLE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _GetRelatedRoleUIDs(::System::UInt32 itemID, ::RPG::Client::GridFightEquipInfo* equipInfo, ::System::Collections::Generic::HashSet_1<::System::UInt32>*& roleUIDs)
+		::System::Void _GetRelatedRoleUIDs(::System::UInt32 a1, ::RPG::Client::GridFightEquipInfo* a2, ::System::Collections::Generic::HashSet_1<::System::UInt32>*& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightEquipInfo*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE__GETRELATEDROLEUIDS_OFFSET))(this, itemID, equipInfo, roleUIDs);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightEquipInfo*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE__GETRELATEDROLEUIDS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 get_CraftID()
@@ -70,9 +70,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_CRAFTID_OFFSET))(this);
 		}
 
-		::System::Void set_CraftID(::System::UInt32 value)
+		::System::Void set_CraftID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_CRAFTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_CRAFTID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TargetEquipItemID()
@@ -80,9 +80,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_TARGETEQUIPITEMID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetEquipItemID(::System::UInt32 value)
+		::System::Void set_TargetEquipItemID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_TARGETEQUIPITEMID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_TARGETEQUIPITEMID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* get_CostItemsDict()
@@ -90,9 +90,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_COSTITEMSDICT_OFFSET))(this);
 		}
 
-		::System::Void set_CostItemsDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* value)
+		::System::Void set_CostItemsDict(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_COSTITEMSDICT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_COSTITEMSDICT_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* get_CostItemIDs()
@@ -100,9 +100,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_GET_COSTITEMIDS_OFFSET))(this);
 		}
 
-		::System::Void set_CostItemIDs(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		::System::Void set_CostItemIDs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_COSTITEMIDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE_SET_COSTITEMIDS_OFFSET))(this, a1);
 		}
 	};
 }

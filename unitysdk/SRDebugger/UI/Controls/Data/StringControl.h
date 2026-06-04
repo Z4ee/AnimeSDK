@@ -8,16 +8,16 @@ namespace System { class Type; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x19E8C570)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x19E8C2E0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x19E8C2D0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x19E8C510)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_START_OFFSET UNITYSDK_OFFSET(0x19E8C1E0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E8C5C0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1AD02A60)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1AD027D0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1AD027C0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1AD02A00)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1AD026E0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD02AA0)
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int StringControl_TypeDefinitionIndex = 35414;
+	inline static constexpr unsigned int StringControl_TypeDefinitionIndex = 35714;
 
 	class StringControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
@@ -35,24 +35,24 @@ namespace SRDebugger::UI::Controls::Data
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_START_OFFSET))(this);
 		}
 
-		::System::Void OnValueChanged(::System::String* newValue)
+		::System::Void OnValueChanged(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONVALUECHANGED_OFFSET))(this, newValue);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONVALUECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void OnBind(::System::String* propertyName, ::System::Type* t)
+		::System::Void OnBind(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONBIND_OFFSET))(this, propertyName, t);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONBIND_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnValueUpdated(::System::Object* newValue)
+		::System::Void OnValueUpdated(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONVALUEUPDATED_OFFSET))(this, newValue);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_ONVALUEUPDATED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CanBind(::System::Type* type, ::System::Boolean isReadOnly)
+		::System::Boolean CanBind(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_CANBIND_OFFSET))(this, type, isReadOnly);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_STRINGCONTROL_CANBIND_OFFSET))(this, a1, a2);
 		}
 	};
 }

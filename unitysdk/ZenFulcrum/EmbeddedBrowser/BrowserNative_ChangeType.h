@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_ChangeType_TypeDefinitionIndex = 36149;
+	inline static constexpr unsigned int BrowserNative_ChangeType_TypeDefinitionIndex = 36449;
 
 	enum class BrowserNative_ChangeType : ::System::Int32
 	{

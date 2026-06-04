@@ -7,13 +7,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHIMERARANKCOOKIEADDCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xA036600)
-#define RPG_CLIENT_CHIMERARANKCOOKIEADDCONTROLLER_ONPARTICLETRIGGER_OFFSET UNITYSDK_OFFSET(0xA0366D0)
-#define RPG_CLIENT_CHIMERARANKCOOKIEADDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA036880)
+#define RPG_CLIENT_CHIMERARANKCOOKIEADDCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xB6B44F0)
+#define RPG_CLIENT_CHIMERARANKCOOKIEADDCONTROLLER_ONPARTICLETRIGGER_OFFSET UNITYSDK_OFFSET(0xB6B45C0)
+#define RPG_CLIENT_CHIMERARANKCOOKIEADDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB6B4780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraRankCookieAddController_TypeDefinitionIndex = 66777;
+	inline static constexpr unsigned int ChimeraRankCookieAddController_TypeDefinitionIndex = 67717;
 
 	class ChimeraRankCookieAddController : public ::UnityEngine::MonoBehaviour
 	{

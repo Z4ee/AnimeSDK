@@ -8,14 +8,14 @@ namespace Newtonsoft::Json { class JsonWriter; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x18103ED0)
-#define RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x18103F10)
-#define RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x18103F80)
-#define RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x181042E0)
+#define RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x18EA7070)
+#define RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x18EA70B0)
+#define RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x18EA7120)
+#define RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA7480)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CPPCaptureData_RecordTreeConverter_TypeDefinitionIndex = 35009;
+	inline static constexpr unsigned int CPPCaptureData_RecordTreeConverter_TypeDefinitionIndex = 35294;
 
 	class CPPCaptureData_RecordTreeConverter : public ::Newtonsoft::Json::JsonConverter
 	{
@@ -25,19 +25,19 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean CanConvert(::System::Type* objectType)
+		::System::Boolean CanConvert(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_CANCONVERT_OFFSET))(this, objectType);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_CANCONVERT_OFFSET))(this, a1);
 		}
 
-		::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer)
+		::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* a1, ::System::Type* a2, ::System::Object* a3, ::Newtonsoft::Json::JsonSerializer* a4)
 		{
-			return ((::System::Object*(*)(::PVOID, ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_READJSON_OFFSET))(this, reader, objectType, existingValue, serializer);
+			return ((::System::Object*(*)(::PVOID, ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_READJSON_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer)
+		::System::Void WriteJson(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::JsonSerializer* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_WRITEJSON_OFFSET))(this, writer, value, serializer);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CPPCAPTUREDATA_RECORDTREECONVERTER_WRITEJSON_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

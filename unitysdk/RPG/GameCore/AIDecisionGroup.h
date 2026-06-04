@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AIDecisionUnitConfig; }
 
-#define RPG_GAMECORE_AIDECISIONGROUP_METHOD_2_FC628F7843CF3E62_OFFSET UNITYSDK_OFFSET(0x185F0810)
-#define RPG_GAMECORE_AIDECISIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x185F0910)
+#define RPG_GAMECORE_AIDECISIONGROUP_METHOD_2_B4E327FD5508B337_OFFSET UNITYSDK_OFFSET(0x193C15C0)
+#define RPG_GAMECORE_AIDECISIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x193C16B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIDecisionGroup_TypeDefinitionIndex = 14655;
+	inline static constexpr unsigned int AIDecisionGroup_TypeDefinitionIndex = 14721;
 
 	class AIDecisionGroup : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIDECISIONGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FC628F7843CF3E62(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIDecisionGroup*& a2)
+		static ::System::Void Method_2_B4E327FD5508B337(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIDecisionGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIDecisionGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIDECISIONGROUP_METHOD_2_FC628F7843CF3E62_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIDecisionGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIDECISIONGROUP_METHOD_2_B4E327FD5508B337_OFFSET))(a1, a2);
 		}
 	};
 }

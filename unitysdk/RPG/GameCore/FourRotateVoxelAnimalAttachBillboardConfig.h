@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELANIMALATTACHBILLBOARDCONFIG_METHOD_3_44E258685273316C_OFFSET UNITYSDK_OFFSET(0x1892C8E0)
-#define RPG_GAMECORE_FOURROTATEVOXELANIMALATTACHBILLBOARDCONFIG_METHOD_3_795170A1E9531471_OFFSET UNITYSDK_OFFSET(0x1892C870)
-#define RPG_GAMECORE_FOURROTATEVOXELANIMALATTACHBILLBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1892C8C0)
+#define RPG_GAMECORE_FOURROTATEVOXELANIMALATTACHBILLBOARDCONFIG_METHOD_3_CAFF46CC40F30D74_OFFSET UNITYSDK_OFFSET(0x19767C00)
+#define RPG_GAMECORE_FOURROTATEVOXELANIMALATTACHBILLBOARDCONFIG_METHOD_3_F838ABA09515F3F3_OFFSET UNITYSDK_OFFSET(0x19767C70)
+#define RPG_GAMECORE_FOURROTATEVOXELANIMALATTACHBILLBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19767C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelAnimalAttachBillboardConfig_TypeDefinitionIndex = 15885;
+	inline static constexpr unsigned int FourRotateVoxelAnimalAttachBillboardConfig_TypeDefinitionIndex = 15938;
 
 	class FourRotateVoxelAnimalAttachBillboardConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELANIMALATTACHBILLBOARDCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_795170A1E9531471(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelAnimalAttachBillboardConfig*& a2)
+		static ::System::Void Method_3_CAFF46CC40F30D74(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelAnimalAttachBillboardConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelAnimalAttachBillboardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELANIMALATTACHBILLBOARDCONFIG_METHOD_3_795170A1E9531471_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelAnimalAttachBillboardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELANIMALATTACHBILLBOARDCONFIG_METHOD_3_CAFF46CC40F30D74_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_44E258685273316C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelAnimalAttachBillboardConfig* a2)
+		static ::System::Void Method_3_F838ABA09515F3F3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelAnimalAttachBillboardConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelAnimalAttachBillboardConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELANIMALATTACHBILLBOARDCONFIG_METHOD_3_44E258685273316C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelAnimalAttachBillboardConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELANIMALATTACHBILLBOARDCONFIG_METHOD_3_F838ABA09515F3F3_OFFSET))(a1, a2);
 		}
 	};
 }

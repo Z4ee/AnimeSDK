@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IPoolableComponentEx_TypeDefinitionIndex = 34917;
+	inline static constexpr unsigned int IPoolableComponentEx_TypeDefinitionIndex = 35200;
 
 	class IPoolableComponentEx
 	{

@@ -7,15 +7,15 @@ class WwiseObjectReference;
 class WwiseTriggerReference;
 namespace UnityEngine { class GameObject; }
 
-#define AK_WWISE_TRIGGER_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1A5C4740)
-#define AK_WWISE_TRIGGER_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1A5C47C0)
-#define AK_WWISE_TRIGGER_POST_OFFSET UNITYSDK_OFFSET(0x1A5C47D0)
-#define AK_WWISE_TRIGGER_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1A5C4750)
-#define AK_WWISE_TRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C4860)
+#define AK_WWISE_TRIGGER_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1B40F760)
+#define AK_WWISE_TRIGGER_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1B40F7E0)
+#define AK_WWISE_TRIGGER_POST_OFFSET UNITYSDK_OFFSET(0x1B40F7F0)
+#define AK_WWISE_TRIGGER_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1B40F770)
+#define AK_WWISE_TRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40F880)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int Trigger_TypeDefinitionIndex = 40540;
+	inline static constexpr unsigned int Trigger_TypeDefinitionIndex = 41367;
 
 	class Trigger : public ::AK::Wwise::BaseType
 	{
@@ -32,9 +32,9 @@ namespace AK::Wwise
 			return ((::WwiseObjectReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_TRIGGER_GET_OBJECTREFERENCE_OFFSET))(this);
 		}
 
-		::System::Void set_ObjectReference(::WwiseObjectReference* value)
+		::System::Void set_ObjectReference(::WwiseObjectReference* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_TRIGGER_SET_OBJECTREFERENCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_TRIGGER_SET_OBJECTREFERENCE_OFFSET))(this, a1);
 		}
 
 		::WwiseObjectType get_WwiseObjectType()
@@ -42,9 +42,9 @@ namespace AK::Wwise
 			return ((::WwiseObjectType(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_TRIGGER_GET_WWISEOBJECTTYPE_OFFSET))(this);
 		}
 
-		::System::Void Post(::UnityEngine::GameObject* gameObject)
+		::System::Void Post(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AK_WWISE_TRIGGER_POST_OFFSET))(this, gameObject);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AK_WWISE_TRIGGER_POST_OFFSET))(this, a1);
 		}
 	};
 }

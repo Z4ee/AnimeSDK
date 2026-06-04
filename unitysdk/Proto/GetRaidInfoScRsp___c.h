@@ -4,20 +4,20 @@
 
 namespace Proto { class GetRaidInfoScRsp; }
 
-#define PROTO_GETRAIDINFOSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1933E450)
-#define PROTO_GETRAIDINFOSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1933E480)
-#define PROTO_GETRAIDINFOSCRSP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1933E490)
+#define PROTO_GETRAIDINFOSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0F13E0)
+#define PROTO_GETRAIDINFOSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F1410)
+#define PROTO_GETRAIDINFOSCRSP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1A0F1420)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetRaidInfoScRsp___c_TypeDefinitionIndex = 30363;
+	inline static constexpr unsigned int GetRaidInfoScRsp___c_TypeDefinitionIndex = 30470;
 
 	class GetRaidInfoScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::GetRaidInfoScRsp___c** StaticGet___9()
 		{
-			return (::Proto::GetRaidInfoScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(GetRaidInfoScRsp___c_TypeDefinitionIndex)->GetStaticField(0x63CD0);
+			return (::Proto::GetRaidInfoScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(GetRaidInfoScRsp___c_TypeDefinitionIndex)->GetStaticField(0x43720);
 		}
 
 		static ::System::Void _cctor()

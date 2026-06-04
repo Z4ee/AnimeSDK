@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEVIEWUTILS_BINDPLAYABLEDIRECTOR_OFFSET UNITYSDK_OFFSET(0x9FA26C0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEVIEWUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA2B10)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEVIEWUTILS_BINDPLAYABLEDIRECTOR_OFFSET UNITYSDK_OFFSET(0xB5BB550)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEVIEWUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xB5BB9D0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleViewUtils_TypeDefinitionIndex = 70160;
+	inline static constexpr unsigned int ChenLingBattleViewUtils_TypeDefinitionIndex = 70972;
 
 	class ChenLingBattleViewUtils : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEVIEWUTILS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void BindPlayableDirector(::UnityEngine::Playables::PlayableDirector* playableDirector, ::System::Collections::Generic::List_1<::UnityEngine::Animator*>* animators)
+		static ::System::Void BindPlayableDirector(::UnityEngine::Playables::PlayableDirector* a1, ::System::Collections::Generic::List_1<::UnityEngine::Animator*>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableDirector*, ::System::Collections::Generic::List_1<::UnityEngine::Animator*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEVIEWUTILS_BINDPLAYABLEDIRECTOR_OFFSET))(playableDirector, animators);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableDirector*, ::System::Collections::Generic::List_1<::UnityEngine::Animator*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEVIEWUTILS_BINDPLAYABLEDIRECTOR_OFFSET))(a1, a2);
 		}
 	};
 }

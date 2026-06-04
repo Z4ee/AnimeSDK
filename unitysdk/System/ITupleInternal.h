@@ -7,7 +7,7 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
-	inline static constexpr unsigned int ITupleInternal_TypeDefinitionIndex = 142;
+	inline static constexpr unsigned int ITupleInternal_TypeDefinitionIndex = 141;
 
 	class ITupleInternal
 	{

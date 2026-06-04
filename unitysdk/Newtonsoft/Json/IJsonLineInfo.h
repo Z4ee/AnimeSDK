@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int IJsonLineInfo_TypeDefinitionIndex = 8345;
+	inline static constexpr unsigned int IJsonLineInfo_TypeDefinitionIndex = 9248;
 
 	class IJsonLineInfo
 	{

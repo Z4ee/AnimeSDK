@@ -7,16 +7,16 @@ namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Xml::Serialization { class ObjectMap; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x1A0051D0)
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x1A005240)
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1A0051E0)
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_OBJECTMAP_OFFSET UNITYSDK_OFFSET(0x1A005200)
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_RELATEDMAPS_OFFSET UNITYSDK_OFFSET(0x1A005220)
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_SETKEY_OFFSET UNITYSDK_OFFSET(0x1A0051F0)
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_FORMAT_OFFSET UNITYSDK_OFFSET(0x1A005250)
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_OBJECTMAP_OFFSET UNITYSDK_OFFSET(0x1A005210)
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_RELATEDMAPS_OFFSET UNITYSDK_OFFSET(0x1A005230)
-#define SYSTEM_XML_SERIALIZATION_XMLMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0051C0)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x1AE78410)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x1AE78480)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1AE78420)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_OBJECTMAP_OFFSET UNITYSDK_OFFSET(0x1AE78440)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_RELATEDMAPS_OFFSET UNITYSDK_OFFSET(0x1AE78460)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_SETKEY_OFFSET UNITYSDK_OFFSET(0x1AE78430)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_FORMAT_OFFSET UNITYSDK_OFFSET(0x1AE78490)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_OBJECTMAP_OFFSET UNITYSDK_OFFSET(0x1AE78450)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_RELATEDMAPS_OFFSET UNITYSDK_OFFSET(0x1AE78470)
+#define SYSTEM_XML_SERIALIZATION_XMLMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE78400)
 
 namespace System::Xml::Serialization
 {
@@ -25,16 +25,16 @@ namespace System::Xml::Serialization
 	class XmlMapping : public ::System::Object
 	{
 	public:
-		::System::String* _elementName; // 0x10
-		::System::Collections::ArrayList* relatedMaps; // 0x18
+		::System::String* _namespace; // 0x10
+		::System::String* _elementName; // 0x18
 		::System::Xml::Serialization::ObjectMap* map; // 0x20
 		::System::String* key; // 0x28
-		::System::String* _namespace; // 0x30
+		::System::Collections::ArrayList* relatedMaps; // 0x30
 		::System::Xml::Serialization::SerializationFormat format; // 0x38
 
-		::System::Void _ctor(::System::String* elementName, ::System::String* ns)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING__CTOR_OFFSET))(this, elementName, ns);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_ElementName()
@@ -47,9 +47,9 @@ namespace System::Xml::Serialization
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_NAMESPACE_OFFSET))(this);
 		}
 
-		::System::Void SetKey(::System::String* key)
+		::System::Void SetKey(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_SETKEY_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_SETKEY_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Serialization::ObjectMap* get_ObjectMap()
@@ -57,9 +57,9 @@ namespace System::Xml::Serialization
 			return ((::System::Xml::Serialization::ObjectMap*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_OBJECTMAP_OFFSET))(this);
 		}
 
-		::System::Void set_ObjectMap(::System::Xml::Serialization::ObjectMap* value)
+		::System::Void set_ObjectMap(::System::Xml::Serialization::ObjectMap* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::ObjectMap*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_OBJECTMAP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::ObjectMap*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_OBJECTMAP_OFFSET))(this, a1);
 		}
 
 		::System::Collections::ArrayList* get_RelatedMaps()
@@ -67,9 +67,9 @@ namespace System::Xml::Serialization
 			return ((::System::Collections::ArrayList*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_RELATEDMAPS_OFFSET))(this);
 		}
 
-		::System::Void set_RelatedMaps(::System::Collections::ArrayList* value)
+		::System::Void set_RelatedMaps(::System::Collections::ArrayList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_RELATEDMAPS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_RELATEDMAPS_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Serialization::SerializationFormat get_Format()
@@ -77,9 +77,9 @@ namespace System::Xml::Serialization
 			return ((::System::Xml::Serialization::SerializationFormat(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_GET_FORMAT_OFFSET))(this);
 		}
 
-		::System::Void set_Format(::System::Xml::Serialization::SerializationFormat value)
+		::System::Void set_Format(::System::Xml::Serialization::SerializationFormat a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::SerializationFormat))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_FORMAT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::SerializationFormat))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLMAPPING_SET_FORMAT_OFFSET))(this, a1);
 		}
 	};
 }

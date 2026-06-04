@@ -8,36 +8,36 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x175193A0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x175193D0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17518E50)
-#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17518E30)
+#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18309A10)
+#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18309A40)
+#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18309A00)
+#define MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18309990)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_RegisterReceiveInviteDelegate_TypeDefinitionIndex = 6685;
+	inline static constexpr unsigned int ConsoleDelegate_RegisterReceiveInviteDelegate_TypeDefinitionIndex = 7588;
 
 	class ConsoleDelegate_RegisterReceiveInviteDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Action_1<::System::String*>* callback)
+		::System::Void Invoke(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_INVOKE_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Action_1<::System::String*>* callback, ::System::AsyncCallback* __callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Action_1<::System::String*>* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_BEGININVOKE_OFFSET))(this, callback, __callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_REGISTERRECEIVEINVITEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ValueFromVariateType_TypeDefinitionIndex = 17312;
+	inline static constexpr unsigned int ValueFromVariateType_TypeDefinitionIndex = 17317;
 
 	enum class ValueFromVariateType : ::System::Int32
 	{

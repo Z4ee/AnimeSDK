@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class PinnedList_1; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1E7000)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E7040)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPOSE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1A1E7050)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B04BD50)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B04BD90)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPOSE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1B04BDA0)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex = 40756;
+	inline static constexpr unsigned int AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex = 41582;
 
 	class AlembicRecorder_MeshBuffer___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer___c** StaticGet___9()
 		{
-			return (::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer___c**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex)->GetStaticField(0x44C70);
+			return (::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer___c**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex)->GetStaticField(0x62EF0);
 		}
 		static ::System::Action_1<::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*>** StaticGet___9__14_0()
 		{
-			return (::System::Action_1<::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex)->GetStaticField(0x44C78);
+			return (::System::Action_1<::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex)->GetStaticField(0x62EF8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace UnityEngine::Formats::Alembic::Util
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Dispose_b__14_0(::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>* i)
+		::System::Void _Dispose_b__14_0(::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPOSE_B__14_0_OFFSET))(this, i);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPOSE_B__14_0_OFFSET))(this, a1);
 		}
 	};
 }

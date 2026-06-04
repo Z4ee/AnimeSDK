@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYCOMPANYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179953B0)
+#define SYSTEM_REFLECTION_ASSEMBLYCOMPANYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x187490A0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyCompanyAttribute_TypeDefinitionIndex = 541;
+	inline static constexpr unsigned int AssemblyCompanyAttribute_TypeDefinitionIndex = 540;
 
 	class AssemblyCompanyAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* m_company; // 0x10
 
-		::System::Void _ctor(::System::String* company)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYCOMPANYATTRIBUTE__CTOR_OFFSET))(this, company);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYCOMPANYATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

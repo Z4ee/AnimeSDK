@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillReadyDisplayOption_TypeDefinitionIndex = 17282;
+	inline static constexpr unsigned int SkillReadyDisplayOption_TypeDefinitionIndex = 17287;
 
 	enum class SkillReadyDisplayOption : ::System::UInt16
 	{

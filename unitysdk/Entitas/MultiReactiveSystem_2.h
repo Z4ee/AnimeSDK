@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int MultiReactiveSystem_2_TypeDefinitionIndex = 9875;
+	inline static constexpr unsigned int MultiReactiveSystem_2_TypeDefinitionIndex = 9702;
 
 	template <typename TEntity, typename TContexts>
 	class MultiReactiveSystem_2 : public ::System::Object

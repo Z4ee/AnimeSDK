@@ -7,19 +7,19 @@ namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveBaseTeamInfo; }
 namespace RPG::Client::ActivityIdleLive { class SpEquipSlotInfo; }
 
-#define CLASS_2_7A8F7ACF0C7369F4_METHOD_2_FBF2CB29FD3B55E6_OFFSET UNITYSDK_OFFSET(0xAA869C0)
-#define CLASS_2_7A8F7ACF0C7369F4__CHECKNEEDREBUILD_OFFSET UNITYSDK_OFFSET(0xAA86A10)
-#define CLASS_2_7A8F7ACF0C7369F4__CTOR_OFFSET UNITYSDK_OFFSET(0xAA86260)
-#define CLASS_2_7A8F7ACF0C7369F4__REBUILD_OFFSET UNITYSDK_OFFSET(0xAA86300)
+#define CLASS_2_7A8F7ACF0C7369F4_METHOD_2_FBF2CB29FD3B55E6_OFFSET UNITYSDK_OFFSET(0x1414A570)
+#define CLASS_2_7A8F7ACF0C7369F4__CHECKNEEDREBUILD_OFFSET UNITYSDK_OFFSET(0x1414A5C0)
+#define CLASS_2_7A8F7ACF0C7369F4__CTOR_OFFSET UNITYSDK_OFFSET(0x14149E00)
+#define CLASS_2_7A8F7ACF0C7369F4__REBUILD_OFFSET UNITYSDK_OFFSET(0x14149EA0)
 
-inline static constexpr unsigned int Class_2_7A8F7ACF0C7369F4_TypeDefinitionIndex = 69188;
+inline static constexpr unsigned int Class_2_7A8F7ACF0C7369F4_TypeDefinitionIndex = 70000;
 
 class Class_2_7A8F7ACF0C7369F4 : public ::RPG::AvatarSystem::Property::PropertyModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>
 {
 public:
-	::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* Field_2_1; // 0x20
-	::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* Field_2_2; // 0x28
-	::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData* Field_2_0; // 0x30
+	::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData* Field_2_0; // 0x20
+	::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* Field_2_1; // 0x28
+	::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* Field_2_2; // 0x30
 	::System::UInt32 Field_2_3; // 0x38
 
 	::System::Void _ctor(::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData* a1, ::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* a2, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* a3)

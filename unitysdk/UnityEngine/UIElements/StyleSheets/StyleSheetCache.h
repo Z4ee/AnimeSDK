@@ -9,39 +9,39 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::UIElements::StyleSheets { class StyleSheetCache_SheetHandleKeyComparer; }
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_GETINITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1A518770)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A518D10)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_GETINITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1B364150)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3647D0)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int StyleSheetCache_TypeDefinitionIndex = 5989;
+	inline static constexpr unsigned int StyleSheetCache_TypeDefinitionIndex = 6266;
 
 	class StyleSheetCache : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StyleValue>** StaticGet_s_InitialStyleValues()
-		{
-			return (::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StyleValue>**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x1D760);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey, ::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StylePropertyID>*>** StaticGet_s_RulePropertyIDsCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey, ::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StylePropertyID>*>**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x1D768);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_s_DeprecatedNames()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x1D770);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::UIElements::StyleSheets::StylePropertyID>** StaticGet_s_NameToIDCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::UIElements::StyleSheets::StylePropertyID>**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x1D778);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey, ::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StylePropertyID>*>**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x27A0);
 		}
 		static ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer** StaticGet_s_Comparer()
 		{
-			return (::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x1D780);
+			return (::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x27A8);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::UIElements::StyleSheets::StylePropertyID>** StaticGet_s_NameToIDCache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::UIElements::StyleSheets::StylePropertyID>**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x27B0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_s_DeprecatedNames()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x27B8);
+		}
+		static ::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StyleValue>** StaticGet_s_InitialStyleValues()
+		{
+			return (::Il2CppArray<::UnityEngine::UIElements::StyleSheets::StyleValue>**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x27C0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey, ::System::Int32>** StaticGet_s_EnumToIntCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x1D788);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(StyleSheetCache_TypeDefinitionIndex)->GetStaticField(0x27C8);
 		}
 
 		static ::System::Void _cctor()
@@ -49,9 +49,9 @@ namespace UnityEngine::UIElements::StyleSheets
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE__CCTOR_OFFSET))();
 		}
 
-		static ::UnityEngine::UIElements::StyleSheets::StyleValue GetInitialValue(::UnityEngine::UIElements::StyleSheets::StylePropertyID propertyId)
+		static ::UnityEngine::UIElements::StyleSheets::StyleValue GetInitialValue(::UnityEngine::UIElements::StyleSheets::StylePropertyID a1)
 		{
-			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_GETINITIALVALUE_OFFSET))(propertyId);
+			return ((::UnityEngine::UIElements::StyleSheets::StyleValue(*)(::UnityEngine::UIElements::StyleSheets::StylePropertyID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETCACHE_GETINITIALVALUE_OFFSET))(a1);
 		}
 	};
 }

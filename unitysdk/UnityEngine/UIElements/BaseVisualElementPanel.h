@@ -17,22 +17,22 @@ namespace UnityEngine::UIElements { class IMGUIContainer; }
 namespace UnityEngine::UIElements { class RepaintData; }
 namespace UnityEngine::UIElements { class VisualElement; }
 
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_CLEARCACHEDELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1A503C70)
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_COMMITELEMENTUNDERPOINTERS_OFFSET UNITYSDK_OFFSET(0x1A503CB0)
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1A5035E0)
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A503590)
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GETTOPELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1A503BB0)
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GET_DISPOSED_OFFSET UNITYSDK_OFFSET(0x1A503B90)
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GET_DURINGLAYOUTPHASE_OFFSET UNITYSDK_OFFSET(0x1A503870)
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GET_REPAINTDATA_OFFSET UNITYSDK_OFFSET(0x1A503880)
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SENDEVENT_OFFSET UNITYSDK_OFFSET(0x1A503890)
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SETELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1A503C40)
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SET_DISPOSED_OFFSET UNITYSDK_OFFSET(0x1A503BA0)
-#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SET_PIXELSPERPOINT_OFFSET UNITYSDK_OFFSET(0x1A503790)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_CLEARCACHEDELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1B34ED20)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_COMMITELEMENTUNDERPOINTERS_OFFSET UNITYSDK_OFFSET(0x1B34ED60)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1B34E6B0)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B34E630)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GETTOPELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1B34EC80)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GET_DISPOSED_OFFSET UNITYSDK_OFFSET(0x1B34EC60)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GET_DURINGLAYOUTPHASE_OFFSET UNITYSDK_OFFSET(0x1B34E940)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GET_REPAINTDATA_OFFSET UNITYSDK_OFFSET(0x1B34E950)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SENDEVENT_OFFSET UNITYSDK_OFFSET(0x1B34E960)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SETELEMENTUNDERPOINTER_OFFSET UNITYSDK_OFFSET(0x1B34ECF0)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SET_DISPOSED_OFFSET UNITYSDK_OFFSET(0x1B34EC70)
+#define UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SET_PIXELSPERPOINT_OFFSET UNITYSDK_OFFSET(0x1B34E860)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int BaseVisualElementPanel_TypeDefinitionIndex = 5866;
+	inline static constexpr unsigned int BaseVisualElementPanel_TypeDefinitionIndex = 6143;
 
 	class BaseVisualElementPanel : public ::System::Object
 	{
@@ -48,14 +48,14 @@ namespace UnityEngine::UIElements
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposing)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_DISPOSE_1_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_DISPOSE_1_OFFSET))(this, a1);
 		}
 
-		::System::Void set_pixelsPerPoint(::System::Single value)
+		::System::Void set_pixelsPerPoint(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SET_PIXELSPERPOINT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SET_PIXELSPERPOINT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_duringLayoutPhase()
@@ -68,9 +68,9 @@ namespace UnityEngine::UIElements
 			return ((::UnityEngine::UIElements::RepaintData*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GET_REPAINTDATA_OFFSET))(this);
 		}
 
-		::System::Void SendEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::UIElements::DispatchMode dispatchMode)
+		::System::Void SendEvent(::UnityEngine::UIElements::EventBase* a1, ::UnityEngine::UIElements::DispatchMode a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::DispatchMode))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SENDEVENT_OFFSET))(this, e, dispatchMode);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::DispatchMode))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SENDEVENT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_disposed()
@@ -78,24 +78,24 @@ namespace UnityEngine::UIElements
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GET_DISPOSED_OFFSET))(this);
 		}
 
-		::System::Void set_disposed(::System::Boolean value)
+		::System::Void set_disposed(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SET_DISPOSED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SET_DISPOSED_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::UIElements::VisualElement* GetTopElementUnderPointer(::System::Int32 pointerId)
+		::UnityEngine::UIElements::VisualElement* GetTopElementUnderPointer(::System::Int32 a1)
 		{
-			return ((::UnityEngine::UIElements::VisualElement*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GETTOPELEMENTUNDERPOINTER_OFFSET))(this, pointerId);
+			return ((::UnityEngine::UIElements::VisualElement*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_GETTOPELEMENTUNDERPOINTER_OFFSET))(this, a1);
 		}
 
-		::System::Void SetElementUnderPointer(::UnityEngine::UIElements::VisualElement* newElementUnderPointer, ::UnityEngine::UIElements::EventBase* triggerEvent)
+		::System::Void SetElementUnderPointer(::UnityEngine::UIElements::VisualElement* a1, ::UnityEngine::UIElements::EventBase* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SETELEMENTUNDERPOINTER_OFFSET))(this, newElementUnderPointer, triggerEvent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_SETELEMENTUNDERPOINTER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ClearCachedElementUnderPointer(::UnityEngine::UIElements::EventBase* triggerEvent)
+		::System::Void ClearCachedElementUnderPointer(::UnityEngine::UIElements::EventBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_CLEARCACHEDELEMENTUNDERPOINTER_OFFSET))(this, triggerEvent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_BASEVISUALELEMENTPANEL_CLEARCACHEDELEMENTUNDERPOINTER_OFFSET))(this, a1);
 		}
 
 		::System::Void CommitElementUnderPointers()

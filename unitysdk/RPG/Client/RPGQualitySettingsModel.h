@@ -5,12 +5,12 @@
 #include "unitysdk/RPG/CustomRP/Quality.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_RPGQUALITYSETTINGSMODEL_CLONE_OFFSET UNITYSDK_OFFSET(0xAF48AD0)
-#define RPG_CLIENT_RPGQUALITYSETTINGSMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xAF4B160)
+#define RPG_CLIENT_RPGQUALITYSETTINGSMODEL_CLONE_OFFSET UNITYSDK_OFFSET(0xC68E240)
+#define RPG_CLIENT_RPGQUALITYSETTINGSMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC6908B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettingsModel_TypeDefinitionIndex = 62615;
+	inline static constexpr unsigned int RPGQualitySettingsModel_TypeDefinitionIndex = 63548;
 
 	class RPGQualitySettingsModel : public ::System::Object
 	{

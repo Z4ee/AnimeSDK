@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class GridFightRoleProperty; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_744_TypeDefinitionIndex = 60320;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_744_TypeDefinitionIndex = 59218;
 
 class Class_0_16E4307DCC419505_744
 {

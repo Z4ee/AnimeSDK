@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETMAINLIGHTOFFSET_METHOD_3_B1EC9FD9A7B2E713_OFFSET UNITYSDK_OFFSET(0x18E37D70)
-#define RPG_GAMECORE_SETMAINLIGHTOFFSET_METHOD_3_BCD805938C37A604_OFFSET UNITYSDK_OFFSET(0x18E37DF0)
-#define RPG_GAMECORE_SETMAINLIGHTOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18E37DC0)
+#define RPG_GAMECORE_SETMAINLIGHTOFFSET_METHOD_3_90055394473C4A1A_OFFSET UNITYSDK_OFFSET(0x19C54B50)
+#define RPG_GAMECORE_SETMAINLIGHTOFFSET_METHOD_3_D1C40FF49782BF5B_OFFSET UNITYSDK_OFFSET(0x19C54BD0)
+#define RPG_GAMECORE_SETMAINLIGHTOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C54BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMainLightOffset_TypeDefinitionIndex = 22356;
+	inline static constexpr unsigned int SetMainLightOffset_TypeDefinitionIndex = 22113;
 
 	class SetMainLightOffset : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMAINLIGHTOFFSET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B1EC9FD9A7B2E713(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMainLightOffset*& a2)
+		static ::System::Void Method_3_90055394473C4A1A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMainLightOffset*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMainLightOffset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMAINLIGHTOFFSET_METHOD_3_B1EC9FD9A7B2E713_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMainLightOffset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMAINLIGHTOFFSET_METHOD_3_90055394473C4A1A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BCD805938C37A604(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMainLightOffset* a2)
+		static ::System::Void Method_3_D1C40FF49782BF5B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMainLightOffset* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMainLightOffset*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMAINLIGHTOFFSET_METHOD_3_BCD805938C37A604_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMainLightOffset*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMAINLIGHTOFFSET_METHOD_3_D1C40FF49782BF5B_OFFSET))(a1, a2);
 		}
 	};
 }

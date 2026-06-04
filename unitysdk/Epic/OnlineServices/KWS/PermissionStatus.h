@@ -7,17 +7,17 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_GET_NAME_OFFSET UNITYSDK_OFFSET(0x8E95970)
-#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x8E95990)
-#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_1_OFFSET UNITYSDK_OFFSET(0x8E95C10)
-#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_NAME_OFFSET UNITYSDK_OFFSET(0x8E95980)
-#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_OFFSET UNITYSDK_OFFSET(0x8E959B0)
-#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_STATUS_OFFSET UNITYSDK_OFFSET(0x8E959A0)
-#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E95D20)
+#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA2D1EE0)
+#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xA2D1F00)
+#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_1_OFFSET UNITYSDK_OFFSET(0xA2D2180)
+#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_NAME_OFFSET UNITYSDK_OFFSET(0xA2D1EF0)
+#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_OFFSET UNITYSDK_OFFSET(0xA2D1F20)
+#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_STATUS_OFFSET UNITYSDK_OFFSET(0xA2D1F10)
+#define EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2D22A0)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int PermissionStatus_TypeDefinitionIndex = 42076;
+	inline static constexpr unsigned int PermissionStatus_TypeDefinitionIndex = 42879;
 
 	class PermissionStatus : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::KWS::KWSPermissionStatus get_Status()
@@ -45,19 +45,19 @@ namespace Epic::OnlineServices::KWS
 			return ((::Epic::OnlineServices::KWS::KWSPermissionStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_GET_STATUS_OFFSET))(this);
 		}
 
-		::System::Void set_Status(::Epic::OnlineServices::KWS::KWSPermissionStatus value)
+		::System::Void set_Status(::Epic::OnlineServices::KWS::KWSPermissionStatus a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::KWS::KWSPermissionStatus))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_STATUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::KWS::KWSPermissionStatus))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_STATUS_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::KWS::PermissionStatusInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::KWS::PermissionStatusInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::KWS::PermissionStatusInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::KWS::PermissionStatusInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_PERMISSIONSTATUS_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

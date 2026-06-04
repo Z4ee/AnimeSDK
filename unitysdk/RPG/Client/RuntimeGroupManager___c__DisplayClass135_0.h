@@ -5,14 +5,14 @@
 namespace RPG::Client { class MapNpcDef; }
 namespace RPG::Client { class MapPropDef; }
 
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB143930)
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xB144740)
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__1_OFFSET UNITYSDK_OFFSET(0xB144770)
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__2_OFFSET UNITYSDK_OFFSET(0xB1447A0)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC897360)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xC898170)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__1_OFFSET UNITYSDK_OFFSET(0xC8981A0)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__2_OFFSET UNITYSDK_OFFSET(0xC8981D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass135_0_TypeDefinitionIndex = 57265;
+	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass135_0_TypeDefinitionIndex = 58055;
 
 	class RuntimeGroupManager___c__DisplayClass135_0 : public ::System::Object
 	{
@@ -25,19 +25,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _DestroyLocalEntity_b__0(::RPG::Client::MapNpcDef* def)
+		::System::Boolean _DestroyLocalEntity_b__0(::RPG::Client::MapNpcDef* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapNpcDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__0_OFFSET))(this, def);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapNpcDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _DestroyLocalEntity_b__1(::RPG::Client::MapNpcDef* def)
+		::System::Boolean _DestroyLocalEntity_b__1(::RPG::Client::MapNpcDef* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapNpcDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__1_OFFSET))(this, def);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapNpcDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _DestroyLocalEntity_b__2(::RPG::Client::MapPropDef* def)
+		::System::Boolean _DestroyLocalEntity_b__2(::RPG::Client::MapPropDef* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapPropDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__2_OFFSET))(this, def);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapPropDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS135_0__DESTROYLOCALENTITY_B__2_OFFSET))(this, a1);
 		}
 	};
 }

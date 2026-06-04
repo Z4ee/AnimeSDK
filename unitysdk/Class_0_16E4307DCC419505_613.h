@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class IAdventureSettingConflictShowInfo; }
-namespace System { class String; }
+class Class_1_9C8BB23B0435A836;
+namespace RPG::Client::DiceCombat { class DiceCombatBattleDiceDisplayInfo; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_613_TypeDefinitionIndex = 56532;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_613_TypeDefinitionIndex = 70612;
 
 class Class_0_16E4307DCC419505_613
 {

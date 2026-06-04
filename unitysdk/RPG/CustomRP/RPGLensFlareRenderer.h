@@ -12,36 +12,36 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x181629D0)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_GETDUMMYLENSFLARETEXTURE_OFFSET UNITYSDK_OFFSET(0x18164420)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x18164430)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x181629C0)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18164C20)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x181629A0)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLAREPROB_OFFSET UNITYSDK_OFFSET(0x18162A30)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLARE_OFFSET UNITYSDK_OFFSET(0x18163760)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x18F08970)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_GETDUMMYLENSFLARETEXTURE_OFFSET UNITYSDK_OFFSET(0x18F0A600)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x18F0A610)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x18F08960)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F0AE20)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F08940)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLAREPROB_OFFSET UNITYSDK_OFFSET(0x18F089D0)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLARE_OFFSET UNITYSDK_OFFSET(0x18F09890)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGLensFlareRenderer_TypeDefinitionIndex = 35196;
+	inline static constexpr unsigned int RPGLensFlareRenderer_TypeDefinitionIndex = 35496;
 
 	class RPGLensFlareRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>** StaticGet_s_LensFlareTargets()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>**)Il2CppClass::FromTypeDefinitionIndex(RPGLensFlareRenderer_TypeDefinitionIndex)->GetStaticField(0x43B20);
-		}
 		static ::System::String** StaticGet__LF_FSD_KEY()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPGLensFlareRenderer_TypeDefinitionIndex)->GetStaticField(0x43B28);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPGLensFlareRenderer_TypeDefinitionIndex)->GetStaticField(0x5AC10);
+		}
+		static ::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>** StaticGet_s_LensFlareTargets()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>**)Il2CppClass::FromTypeDefinitionIndex(RPGLensFlareRenderer_TypeDefinitionIndex)->GetStaticField(0x5AC18);
 		}
 		::UnityEngine::Material* _LensFlareMat; // 0x28
 		::System::Boolean _RTCreated; // 0x30
 
-		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* matLib)
+		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER__CTOR_OFFSET))(this, matLib);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -54,19 +54,19 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* cmd)
+		::System::Void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_FRAMECLEANUP_OFFSET))(this, cmd);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_FRAMECLEANUP_OFFSET))(this, a1);
 		}
 
-		::System::Void _RenderLensFlareProb(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 posNDC, ::RPG::CustomRP::LensFlareTarget* targetLensFlare, ::UnityEngine::Camera* targetCamera)
+		::System::Void _RenderLensFlareProb(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::RPG::CustomRP::LensFlareTarget* a4, ::UnityEngine::Camera* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::CustomRP::LensFlareTarget*, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLAREPROB_OFFSET))(this, cmd, pos, posNDC, targetLensFlare, targetCamera);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::CustomRP::LensFlareTarget*, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLAREPROB_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void _RenderLensFlare(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 posNDC, ::RPG::CustomRP::LensFlareTarget* targetLensFlare)
+		::System::Void _RenderLensFlare(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::RPG::CustomRP::LensFlareTarget* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::CustomRP::LensFlareTarget*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLARE_OFFSET))(this, cmd, pos, posNDC, targetLensFlare);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::RPG::CustomRP::LensFlareTarget*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLARE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::UnityEngine::Texture2D* GetDummyLensFlareTexture()
@@ -74,9 +74,9 @@ namespace RPG::CustomRP
 			return ((::UnityEngine::Texture2D*(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_GETDUMMYLENSFLARETEXTURE_OFFSET))();
 		}
 
-		::System::Void InnerExecute(::UnityEngine::Rendering::CommandBuffer* cmd)
+		::System::Void InnerExecute(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET))(this, cmd);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET))(this, a1);
 		}
 	};
 }

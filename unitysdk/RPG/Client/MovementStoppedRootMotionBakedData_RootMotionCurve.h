@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_MOVEMENTSTOPPEDROOTMOTIONBAKEDDATA_ROOTMOTIONCURVE_GET_PROTECTDISTANCE_OFFSET UNITYSDK_OFFSET(0xDAB70)
-#define RPG_CLIENT_MOVEMENTSTOPPEDROOTMOTIONBAKEDDATA_ROOTMOTIONCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xDABD0)
+#define RPG_CLIENT_MOVEMENTSTOPPEDROOTMOTIONBAKEDDATA_ROOTMOTIONCURVE_GET_PROTECTDISTANCE_OFFSET UNITYSDK_OFFSET(0x13F5C0)
+#define RPG_CLIENT_MOVEMENTSTOPPEDROOTMOTIONBAKEDDATA_ROOTMOTIONCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x13F620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MovementStoppedRootMotionBakedData_RootMotionCurve_TypeDefinitionIndex = 63455;
+	inline static constexpr unsigned int MovementStoppedRootMotionBakedData_RootMotionCurve_TypeDefinitionIndex = 64372;
 
 	struct alignas(8) MovementStoppedRootMotionBakedData_RootMotionCurve
 	{

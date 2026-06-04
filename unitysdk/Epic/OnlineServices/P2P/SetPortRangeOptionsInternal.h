@@ -6,14 +6,14 @@ namespace Epic::OnlineServices::P2P { class SetPortRangeOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x59CD0)
-#define EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_MAXADDITIONALPORTSTOTRY_OFFSET UNITYSDK_OFFSET(0x59CA0)
-#define EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x59CB0)
-#define EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_PORT_OFFSET UNITYSDK_OFFSET(0x59C90)
+#define EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5F010)
+#define EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_MAXADDITIONALPORTSTOTRY_OFFSET UNITYSDK_OFFSET(0x5EFE0)
+#define EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5EFF0)
+#define EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_PORT_OFFSET UNITYSDK_OFFSET(0x5EFD0)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int SetPortRangeOptionsInternal_TypeDefinitionIndex = 41756;
+	inline static constexpr unsigned int SetPortRangeOptionsInternal_TypeDefinitionIndex = 42559;
 
 	struct alignas(4) SetPortRangeOptionsInternal
 	{
@@ -21,24 +21,24 @@ namespace Epic::OnlineServices::P2P
 		::System::UInt16 m_Port; // 0x14
 		::System::UInt16 m_MaxAdditionalPortsToTry; // 0x16
 
-		::System::Void set_Port(::System::UInt16 value)
+		::System::Void set_Port(::System::UInt16 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_PORT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_PORT_OFFSET))(this, a1);
 		}
 
-		::System::Void set_MaxAdditionalPortsToTry(::System::UInt16 value)
+		::System::Void set_MaxAdditionalPortsToTry(::System::UInt16 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_MAXADDITIONALPORTSTOTRY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_MAXADDITIONALPORTSTOTRY_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::P2P::SetPortRangeOptions* other)
+		::System::Void Set(::Epic::OnlineServices::P2P::SetPortRangeOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::SetPortRangeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::SetPortRangeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_SETPORTRANGEOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

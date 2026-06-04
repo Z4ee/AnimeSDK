@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ScreenOrientation_TypeDefinitionIndex = 3978;
+	inline static constexpr unsigned int ScreenOrientation_TypeDefinitionIndex = 4152;
 
 	enum class ScreenOrientation : ::System::Int32
 	{

@@ -6,12 +6,12 @@ namespace RPG::Client { class MuseumModule; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAB0C470)
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0___REFRESHSTAFFAVAILABLE_B__0_OFFSET UNITYSDK_OFFSET(0xAB0C480)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2173E0)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0___REFRESHSTAFFAVAILABLE_B__0_OFFSET UNITYSDK_OFFSET(0xC219340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumModule___c__DisplayClass171_0_TypeDefinitionIndex = 61101;
+	inline static constexpr unsigned int MuseumModule___c__DisplayClass171_0_TypeDefinitionIndex = 62025;
 
 	class MuseumModule___c__DisplayClass171_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __RefreshStaffAvailable_b__0(::System::Collections::Generic::IEnumerable_1<::System::Boolean>* v)
+		::System::Void __RefreshStaffAvailable_b__0(::System::Collections::Generic::IEnumerable_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0___REFRESHSTAFFAVAILABLE_B__0_OFFSET))(this, v);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0___REFRESHSTAFFAVAILABLE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

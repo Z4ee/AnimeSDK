@@ -5,8 +5,8 @@
 namespace System { class String; }
 namespace System::Security::Cryptography { class HashAlgorithm; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x17769DA0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1776A1F0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x185258C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1__CCTOR_OFFSET UNITYSDK_OFFSET(0x18525D10)
 
 namespace Mono::Security::Cryptography
 {
@@ -17,19 +17,19 @@ namespace Mono::Security::Cryptography
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA384()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x110E0);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA1()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x110E8);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA256()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x110F0);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x1ABD0);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA512()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x110F8);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x1ABD8);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA1()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x1ABE0);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA256()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x1ABE8);
 		}
 
 		static ::System::Void _cctor()
@@ -37,9 +37,9 @@ namespace Mono::Security::Cryptography
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_PKCS1__CCTOR_OFFSET))();
 		}
 
-		static ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::System::String* name)
+		static ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::System::String* a1)
 		{
-			return ((::System::Security::Cryptography::HashAlgorithm*(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMNAME_OFFSET))(name);
+			return ((::System::Security::Cryptography::HashAlgorithm*(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMNAME_OFFSET))(a1);
 		}
 	};
 }

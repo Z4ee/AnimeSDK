@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_92.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_102.h"
 #include "unitysdk/GameFramework/FileSystem/FileSystemAccess.h"
 
 class Class_1_6C719BA8F85845D8;
 namespace System { class String; }
 
-#define CLASS_2_F8F4B28FE09F713E_METHOD_2_A99AFF57B633C3FB_OFFSET UNITYSDK_OFFSET(0x18192140)
-#define CLASS_2_F8F4B28FE09F713E__CTOR_OFFSET UNITYSDK_OFFSET(0x18192EE0)
+#define CLASS_2_F8F4B28FE09F713E_METHOD_2_A99AFF57B633C3FB_OFFSET UNITYSDK_OFFSET(0x18F32880)
+#define CLASS_2_F8F4B28FE09F713E__CTOR_OFFSET UNITYSDK_OFFSET(0x18F38F20)
 
-inline static constexpr unsigned int Class_2_F8F4B28FE09F713E_TypeDefinitionIndex = 39599;
+inline static constexpr unsigned int Class_2_F8F4B28FE09F713E_TypeDefinitionIndex = 40422;
 
-class Class_2_F8F4B28FE09F713E : public ::Class_1_43BD383C98B4C0C5_92
+class Class_2_F8F4B28FE09F713E : public ::Class_1_43BD383C98B4C0C5_102
 {
 public:
 	// static const ::System::String* Field_2_0; // 0x0

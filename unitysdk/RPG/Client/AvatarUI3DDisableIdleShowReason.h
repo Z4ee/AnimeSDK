@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarUI3DDisableIdleShowReason_TypeDefinitionIndex = 57661;
+	inline static constexpr unsigned int AvatarUI3DDisableIdleShowReason_TypeDefinitionIndex = 58453;
 
 	enum class AvatarUI3DDisableIdleShowReason : ::System::Int32
 	{

@@ -12,33 +12,33 @@ namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_BINDDRAGEVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0xADC57C0)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETDRAGFOLLOWER_OFFSET UNITYSDK_OFFSET(0xADC5700)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETDRAGREGION_OFFSET UNITYSDK_OFFSET(0xADC56B0)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETHIGHLIGHTED_OFFSET UNITYSDK_OFFSET(0xADC48F0)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETPAUSELISTENINGDRAGEVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0xADC5980)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETSOURCE_OFFSET UNITYSDK_OFFSET(0xADC49D0)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETTARGET_OFFSET UNITYSDK_OFFSET(0xADC4C80)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_UNBINDDRAGEVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0xADC58A0)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__CCTOR_OFFSET UNITYSDK_OFFSET(0xADC5A70)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xADC5A50)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__ONDRAGEVENT_OFFSET UNITYSDK_OFFSET(0xADC59D0)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__REFRESHSTATEVIEWOFCOLOR_OFFSET UNITYSDK_OFFSET(0xADC4780)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__REFRESHSTATEVIEWOFFOLLOWER_OFFSET UNITYSDK_OFFSET(0xADC4870)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__REFRESHSTATEVIEW_OFFSET UNITYSDK_OFFSET(0xADC46E0)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__SETTARGETFORCURVE_OFFSET UNITYSDK_OFFSET(0xADC4F60)
-#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__SETTARGETFORFOLLOWER_OFFSET UNITYSDK_OFFSET(0xADC55D0)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_BINDDRAGEVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0xC509790)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETDRAGFOLLOWER_OFFSET UNITYSDK_OFFSET(0xC5096D0)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETDRAGREGION_OFFSET UNITYSDK_OFFSET(0xC509680)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETHIGHLIGHTED_OFFSET UNITYSDK_OFFSET(0xC5088F0)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETPAUSELISTENINGDRAGEVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0xC509980)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETSOURCE_OFFSET UNITYSDK_OFFSET(0xC5089D0)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETTARGET_OFFSET UNITYSDK_OFFSET(0xC508C80)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_UNBINDDRAGEVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0xC509890)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__CCTOR_OFFSET UNITYSDK_OFFSET(0xC509A70)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xC509A50)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__ONDRAGEVENT_OFFSET UNITYSDK_OFFSET(0xC5099D0)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__REFRESHSTATEVIEWOFCOLOR_OFFSET UNITYSDK_OFFSET(0xC508780)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__REFRESHSTATEVIEWOFFOLLOWER_OFFSET UNITYSDK_OFFSET(0xC508870)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__REFRESHSTATEVIEW_OFFSET UNITYSDK_OFFSET(0xC5086E0)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__SETTARGETFORCURVE_OFFSET UNITYSDK_OFFSET(0xC508F60)
+#define RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__SETTARGETFORFOLLOWER_OFFSET UNITYSDK_OFFSET(0xC5095A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelDragTrajectory_TypeDefinitionIndex = 71834;
+	inline static constexpr unsigned int ChimeraDuelDragTrajectory_TypeDefinitionIndex = 72856;
 
 	class ChimeraDuelDragTrajectory : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet__MainColorID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelDragTrajectory_TypeDefinitionIndex)->GetStaticField(0x3460);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelDragTrajectory_TypeDefinitionIndex)->GetStaticField(0x7850);
 		}
 		::BansheeGz::BGSpline::Curve::BGCurve* _Curve; // 0x18
 		::UnityEngine::LineRenderer* _LineRenderer; // 0x20
@@ -77,44 +77,44 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__REFRESHSTATEVIEWOFFOLLOWER_OFFSET))(this);
 		}
 
-		::System::Void SetHighlighted(::System::Boolean highlighted)
+		::System::Void SetHighlighted(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETHIGHLIGHTED_OFFSET))(this, highlighted);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETHIGHLIGHTED_OFFSET))(this, a1);
 		}
 
-		::System::Void SetSource(::UnityEngine::Vector2 screenPoint)
+		::System::Void SetSource(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETSOURCE_OFFSET))(this, screenPoint);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETSOURCE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTarget(::UnityEngine::Vector2 screenPoint)
+		::System::Void SetTarget(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETTARGET_OFFSET))(this, screenPoint);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetTargetForCurve(::UnityEngine::Vector3 worldPosition)
+		::System::Void _SetTargetForCurve(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__SETTARGETFORCURVE_OFFSET))(this, worldPosition);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__SETTARGETFORCURVE_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetTargetForFollower(::UnityEngine::Vector3 worldPosition)
+		::System::Void _SetTargetForFollower(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__SETTARGETFORFOLLOWER_OFFSET))(this, worldPosition);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__SETTARGETFORFOLLOWER_OFFSET))(this, a1);
 		}
 
-		::System::Void SetDragRegion(::UnityEngine::RectTransform* region)
+		::System::Void SetDragRegion(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETDRAGREGION_OFFSET))(this, region);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETDRAGREGION_OFFSET))(this, a1);
 		}
 
-		::System::Void SetDragFollower(::UnityEngine::RectTransform* follower)
+		::System::Void SetDragFollower(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETDRAGFOLLOWER_OFFSET))(this, follower);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETDRAGFOLLOWER_OFFSET))(this, a1);
 		}
 
-		::System::Void BindDragEventTrigger(::RPG::Client::EventTriggerListener* eventTrigger)
+		::System::Void BindDragEventTrigger(::RPG::Client::EventTriggerListener* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::EventTriggerListener*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_BINDDRAGEVENTTRIGGER_OFFSET))(this, eventTrigger);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::EventTriggerListener*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_BINDDRAGEVENTTRIGGER_OFFSET))(this, a1);
 		}
 
 		::System::Void UnbindDragEventTrigger()
@@ -122,14 +122,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_UNBINDDRAGEVENTTRIGGER_OFFSET))(this);
 		}
 
-		::System::Void SetPauseListeningDragEventTrigger(::System::Boolean paused)
+		::System::Void SetPauseListeningDragEventTrigger(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETPAUSELISTENINGDRAGEVENTTRIGGER_OFFSET))(this, paused);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY_SETPAUSELISTENINGDRAGEVENTTRIGGER_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnDragEvent(::UnityEngine::GameObject* go, ::UnityEngine::EventSystems::PointerEventData* data)
+		::System::Void _OnDragEvent(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::PointerEventData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__ONDRAGEVENT_OFFSET))(this, go, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELDRAGTRAJECTORY__ONDRAGEVENT_OFFSET))(this, a1, a2);
 		}
 	};
 }

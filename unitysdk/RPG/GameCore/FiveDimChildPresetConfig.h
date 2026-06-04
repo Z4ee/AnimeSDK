@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimChildPresetItemConfig; }
 
-#define RPG_GAMECORE_FIVEDIMCHILDPRESETCONFIG_METHOD_2_C25A99E45C6868C1_OFFSET UNITYSDK_OFFSET(0x188F9A20)
-#define RPG_GAMECORE_FIVEDIMCHILDPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188F9AF0)
+#define RPG_GAMECORE_FIVEDIMCHILDPRESETCONFIG_METHOD_2_E146ABBCB5A04144_OFFSET UNITYSDK_OFFSET(0x197351C0)
+#define RPG_GAMECORE_FIVEDIMCHILDPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19735280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimChildPresetConfig_TypeDefinitionIndex = 15838;
+	inline static constexpr unsigned int FiveDimChildPresetConfig_TypeDefinitionIndex = 15893;
 
 	class FiveDimChildPresetConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCHILDPRESETCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C25A99E45C6868C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimChildPresetConfig*& a2)
+		static ::System::Void Method_2_E146ABBCB5A04144(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimChildPresetConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimChildPresetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCHILDPRESETCONFIG_METHOD_2_C25A99E45C6868C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimChildPresetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCHILDPRESETCONFIG_METHOD_2_E146ABBCB5A04144_OFFSET))(a1, a2);
 		}
 	};
 }

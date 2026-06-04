@@ -4,9 +4,9 @@
 
 namespace UnityEngine::UI { class Text; }
 
-#define SHOWFRAMERATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D66B10)
+#define SHOWFRAMERATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABE42D0)
 
-inline static constexpr unsigned int ShowFrameRate_TypeDefinitionIndex = 39700;
+inline static constexpr unsigned int ShowFrameRate_TypeDefinitionIndex = 40523;
 
 class ShowFrameRate : public ::UnityEngine::MonoBehaviour
 {

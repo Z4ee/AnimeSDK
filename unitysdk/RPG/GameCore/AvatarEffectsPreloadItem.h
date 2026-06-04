@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PreloadItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATAREFFECTSPRELOADITEM_METHOD_2_0E960A2EE066170F_OFFSET UNITYSDK_OFFSET(0x186BF100)
-#define RPG_GAMECORE_AVATAREFFECTSPRELOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x186BF240)
+#define RPG_GAMECORE_AVATAREFFECTSPRELOADITEM_METHOD_2_9890B9A95CF9924D_OFFSET UNITYSDK_OFFSET(0x19495990)
+#define RPG_GAMECORE_AVATAREFFECTSPRELOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19495AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarEffectsPreloadItem_TypeDefinitionIndex = 15480;
+	inline static constexpr unsigned int AvatarEffectsPreloadItem_TypeDefinitionIndex = 15543;
 
 	class AvatarEffectsPreloadItem : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATAREFFECTSPRELOADITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0E960A2EE066170F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarEffectsPreloadItem*& a2)
+		static ::System::Void Method_2_9890B9A95CF9924D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarEffectsPreloadItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarEffectsPreloadItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATAREFFECTSPRELOADITEM_METHOD_2_0E960A2EE066170F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarEffectsPreloadItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATAREFFECTSPRELOADITEM_METHOD_2_9890B9A95CF9924D_OFFSET))(a1, a2);
 		}
 	};
 }

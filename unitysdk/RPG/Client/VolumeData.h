@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define RPG_CLIENT_VOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB4C0AB0)
+#define RPG_CLIENT_VOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCC269E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VolumeData_TypeDefinitionIndex = 65320;
+	inline static constexpr unsigned int VolumeData_TypeDefinitionIndex = 66247;
 
 	class VolumeData : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_InputField_CharacterValidation_TypeDefinitionIndex = 40151;
+	inline static constexpr unsigned int TMP_InputField_CharacterValidation_TypeDefinitionIndex = 40978;
 
 	enum class TMP_InputField_CharacterValidation : ::System::Int32
 	{

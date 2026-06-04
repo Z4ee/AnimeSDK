@@ -3,7 +3,7 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ReadOnlySequence_1_SequenceType_TypeDefinitionIndex = 5002;
+	inline static constexpr unsigned int ReadOnlySequence_1_SequenceType_TypeDefinitionIndex = 4976;
 
 	enum class ReadOnlySequence_1_SequenceType : ::System::Int32
 	{

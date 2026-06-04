@@ -11,13 +11,13 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DrivenRectTransformTracker_TypeDefinitionIndex = 4210;
+	inline static constexpr unsigned int DrivenRectTransformTracker_TypeDefinitionIndex = 4384;
 
 	struct alignas(1) DrivenRectTransformTracker
 	{
-		::System::Void Add(::UnityEngine::Object* driver, ::UnityEngine::RectTransform* rectTransform, ::UnityEngine::DrivenTransformProperties drivenProperties)
+		::System::Void Add(::UnityEngine::Object* a1, ::UnityEngine::RectTransform* a2, ::UnityEngine::DrivenTransformProperties a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::UnityEngine::RectTransform*, ::UnityEngine::DrivenTransformProperties))((::PBYTE)hIl2Cpp + UNITYENGINE_DRIVENRECTTRANSFORMTRACKER_ADD_OFFSET))(this, driver, rectTransform, drivenProperties);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::UnityEngine::RectTransform*, ::UnityEngine::DrivenTransformProperties))((::PBYTE)hIl2Cpp + UNITYENGINE_DRIVENRECTTRANSFORMTRACKER_ADD_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Clear()

@@ -4,30 +4,30 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189D65C0)
-#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189D67B0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19809650)
+#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19809840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonTraitRow_TypeDefinitionIndex = 12850;
+	inline static constexpr unsigned int GridFightSeasonTraitRow_TypeDefinitionIndex = 12935;
 
 	class GridFightSeasonTraitRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
 		::Il2CppArray<::System::UInt32>* StandardQuestList; // 0x18
-		::System::UInt32 SeasonID; // 0x20
-		::System::UInt32 Priority; // 0x24
-		::System::UInt32 TraitID; // 0x28
+		::System::UInt32 Priority; // 0x20
+		::System::UInt32 TraitID; // 0x24
+		::System::UInt32 SeasonID; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightSeasonTraitRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightSeasonTraitRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightSeasonTraitRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightSeasonTraitRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

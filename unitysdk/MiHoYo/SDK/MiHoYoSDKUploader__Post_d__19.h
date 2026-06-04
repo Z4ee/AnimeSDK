@@ -7,33 +7,33 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8D60BB0)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x8D60C80)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x8D60CE0)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x8D60C90)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8D60BA0)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0x8D5F9C0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA1BCF30)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA1BD000)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA1BD060)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xA1BD010)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA1BCF20)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0xA1BBE40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKUploader__Post_d__19_TypeDefinitionIndex = 43076;
+	inline static constexpr unsigned int MiHoYoSDKUploader__Post_d__19_TypeDefinitionIndex = 43879;
 
 	class MiHoYoSDKUploader__Post_d__19 : public ::System::Object
 	{
 	public:
-		::System::String* requestUrl; // 0x10
-		::System::Action_1<::System::String*>* callback; // 0x18
-		::System::Action* timeoutCallback; // 0x20
-		::MiHoYo::SDK::MiHoYoSDKUploader* __4__this; // 0x28
-		::System::String* bodyString; // 0x30
-		::System::Object* __2__current; // 0x38
+		::System::Action* timeoutCallback; // 0x10
+		::System::String* bodyString; // 0x18
+		::MiHoYo::SDK::MiHoYoSDKUploader* __4__this; // 0x20
+		::System::Action_1<::System::String*>* callback; // 0x28
+		::System::Object* __2__current; // 0x30
+		::System::String* requestUrl; // 0x38
 		::System::Int32 retryTime; // 0x40
-		::System::Single timeoutSecond; // 0x44
-		::System::Int32 __1__state; // 0x48
+		::System::Int32 __1__state; // 0x44
+		::System::Single timeoutSecond; // 0x48
 
-		::System::Void _ctor(::System::Int32 __1__state)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19__CTOR_OFFSET))(this, __1__state);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()

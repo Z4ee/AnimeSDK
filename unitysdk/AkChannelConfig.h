@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AKCHANNELCONFIG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A5D9930)
-#define AKCHANNELCONFIG_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A5D9E40)
-#define AKCHANNELCONFIG_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1A5D9230)
-#define AKCHANNELCONFIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5D9140)
-#define AKCHANNELCONFIG_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A5D91C0)
-#define AKCHANNELCONFIG_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1A5C89C0)
-#define AKCHANNELCONFIG_GET_ECONFIGTYPE_OFFSET UNITYSDK_OFFSET(0x1A5D9600)
-#define AKCHANNELCONFIG_GET_UCHANNELMASK_OFFSET UNITYSDK_OFFSET(0x1A5D9770)
-#define AKCHANNELCONFIG_GET_UNUMCHANNELS_OFFSET UNITYSDK_OFFSET(0x1A5D9490)
-#define AKCHANNELCONFIG_ISCHANNELCONFIGSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1A5DA0A0)
-#define AKCHANNELCONFIG_ISVALID_OFFSET UNITYSDK_OFFSET(0x1A5D9CE0)
-#define AKCHANNELCONFIG_REMOVECENTER_OFFSET UNITYSDK_OFFSET(0x1A5D9FD0)
-#define AKCHANNELCONFIG_REMOVELFE_OFFSET UNITYSDK_OFFSET(0x1A5D9F00)
-#define AKCHANNELCONFIG_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A5D9D90)
-#define AKCHANNELCONFIG_SETAMBISONIC_OFFSET UNITYSDK_OFFSET(0x1A5D9C20)
-#define AKCHANNELCONFIG_SETANONYMOUS_OFFSET UNITYSDK_OFFSET(0x1A5D9B60)
-#define AKCHANNELCONFIG_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1A5D9080)
-#define AKCHANNELCONFIG_SETSTANDARDORANONYMOUS_OFFSET UNITYSDK_OFFSET(0x1A5D9AA0)
-#define AKCHANNELCONFIG_SETSTANDARD_OFFSET UNITYSDK_OFFSET(0x1A5D99E0)
-#define AKCHANNELCONFIG_SET_ECONFIGTYPE_OFFSET UNITYSDK_OFFSET(0x1A5D9540)
-#define AKCHANNELCONFIG_SET_UCHANNELMASK_OFFSET UNITYSDK_OFFSET(0x1A5D96B0)
-#define AKCHANNELCONFIG_SET_UNUMCHANNELS_OFFSET UNITYSDK_OFFSET(0x1A5D93D0)
-#define AKCHANNELCONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A5D9820)
-#define AKCHANNELCONFIG__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A5D98A0)
-#define AKCHANNELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C8B00)
+#define AKCHANNELCONFIG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B423690)
+#define AKCHANNELCONFIG_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B423BA0)
+#define AKCHANNELCONFIG_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1B422F50)
+#define AKCHANNELCONFIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B422E30)
+#define AKCHANNELCONFIG_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B422EE0)
+#define AKCHANNELCONFIG_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1B4138B0)
+#define AKCHANNELCONFIG_GET_ECONFIGTYPE_OFFSET UNITYSDK_OFFSET(0x1B423360)
+#define AKCHANNELCONFIG_GET_UCHANNELMASK_OFFSET UNITYSDK_OFFSET(0x1B4234D0)
+#define AKCHANNELCONFIG_GET_UNUMCHANNELS_OFFSET UNITYSDK_OFFSET(0x1B4231F0)
+#define AKCHANNELCONFIG_ISCHANNELCONFIGSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1B423E00)
+#define AKCHANNELCONFIG_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B423A40)
+#define AKCHANNELCONFIG_REMOVECENTER_OFFSET UNITYSDK_OFFSET(0x1B423D30)
+#define AKCHANNELCONFIG_REMOVELFE_OFFSET UNITYSDK_OFFSET(0x1B423C60)
+#define AKCHANNELCONFIG_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B423AF0)
+#define AKCHANNELCONFIG_SETAMBISONIC_OFFSET UNITYSDK_OFFSET(0x1B423980)
+#define AKCHANNELCONFIG_SETANONYMOUS_OFFSET UNITYSDK_OFFSET(0x1B4238C0)
+#define AKCHANNELCONFIG_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1B422D40)
+#define AKCHANNELCONFIG_SETSTANDARDORANONYMOUS_OFFSET UNITYSDK_OFFSET(0x1B423800)
+#define AKCHANNELCONFIG_SETSTANDARD_OFFSET UNITYSDK_OFFSET(0x1B423740)
+#define AKCHANNELCONFIG_SET_ECONFIGTYPE_OFFSET UNITYSDK_OFFSET(0x1B4232A0)
+#define AKCHANNELCONFIG_SET_UCHANNELMASK_OFFSET UNITYSDK_OFFSET(0x1B423410)
+#define AKCHANNELCONFIG_SET_UNUMCHANNELS_OFFSET UNITYSDK_OFFSET(0x1B423130)
+#define AKCHANNELCONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B423580)
+#define AKCHANNELCONFIG__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B423600)
+#define AKCHANNELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4139F0)
 
-inline static constexpr unsigned int AkChannelConfig_TypeDefinitionIndex = 40281;
+inline static constexpr unsigned int AkChannelConfig_TypeDefinitionIndex = 41108;
 
 class AkChannelConfig : public ::System::Object
 {
@@ -36,9 +36,9 @@ public:
 	::System::Boolean swigCMemOwn; // 0x10
 	::System::IntPtr swigCPtr; // 0x18
 
-	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void _ctor_1()
@@ -46,19 +46,19 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG__CTOR_1_OFFSET))(this);
 	}
 
-	::System::Void _ctor_2(::System::UInt32 in_uNumChannels, ::System::UInt32 in_uChannelMask)
+	::System::Void _ctor_2(::System::UInt32 a1, ::System::UInt32 a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG__CTOR_2_OFFSET))(this, in_uNumChannels, in_uChannelMask);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG__CTOR_2_OFFSET))(this, a1, a2);
 	}
 
-	static ::System::IntPtr getCPtr(::AkChannelConfig* obj)
+	static ::System::IntPtr getCPtr(::AkChannelConfig* a1)
 	{
-		return ((::System::IntPtr(*)(::AkChannelConfig*))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_GETCPTR_OFFSET))(obj);
+		return ((::System::IntPtr(*)(::AkChannelConfig*))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_GETCPTR_OFFSET))(a1);
 	}
 
-	::System::Void setCPtr(::System::IntPtr cPtr)
+	::System::Void setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SETCPTR_OFFSET))(this, cPtr);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SETCPTR_OFFSET))(this, a1);
 	}
 
 	::System::Void Finalize()
@@ -71,14 +71,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Dispose_1(::System::Boolean disposing)
+	::System::Void Dispose_1(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_DISPOSE_1_OFFSET))(this, disposing);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_DISPOSE_1_OFFSET))(this, a1);
 	}
 
-	::System::Void set_uNumChannels(::System::UInt32 value)
+	::System::Void set_uNumChannels(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SET_UNUMCHANNELS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SET_UNUMCHANNELS_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_uNumChannels()
@@ -86,9 +86,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_GET_UNUMCHANNELS_OFFSET))(this);
 	}
 
-	::System::Void set_eConfigType(::System::UInt32 value)
+	::System::Void set_eConfigType(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SET_ECONFIGTYPE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SET_ECONFIGTYPE_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_eConfigType()
@@ -96,9 +96,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_GET_ECONFIGTYPE_OFFSET))(this);
 	}
 
-	::System::Void set_uChannelMask(::System::UInt32 value)
+	::System::Void set_uChannelMask(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SET_UCHANNELMASK_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SET_UCHANNELMASK_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_uChannelMask()
@@ -111,24 +111,24 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_CLEAR_OFFSET))(this);
 	}
 
-	::System::Void SetStandard(::System::UInt32 in_uChannelMask)
+	::System::Void SetStandard(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SETSTANDARD_OFFSET))(this, in_uChannelMask);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SETSTANDARD_OFFSET))(this, a1);
 	}
 
-	::System::Void SetStandardOrAnonymous(::System::UInt32 in_uNumChannels, ::System::UInt32 in_uChannelMask)
+	::System::Void SetStandardOrAnonymous(::System::UInt32 a1, ::System::UInt32 a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SETSTANDARDORANONYMOUS_OFFSET))(this, in_uNumChannels, in_uChannelMask);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SETSTANDARDORANONYMOUS_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void SetAnonymous(::System::UInt32 in_uNumChannels)
+	::System::Void SetAnonymous(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SETANONYMOUS_OFFSET))(this, in_uNumChannels);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SETANONYMOUS_OFFSET))(this, a1);
 	}
 
-	::System::Void SetAmbisonic(::System::UInt32 in_uNumChannels)
+	::System::Void SetAmbisonic(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SETAMBISONIC_OFFSET))(this, in_uNumChannels);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SETAMBISONIC_OFFSET))(this, a1);
 	}
 
 	::System::Boolean IsValid()
@@ -141,9 +141,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_SERIALIZE_OFFSET))(this);
 	}
 
-	::System::Void Deserialize(::System::UInt32 in_uChannelConfig)
+	::System::Void Deserialize(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_DESERIALIZE_OFFSET))(this, in_uChannelConfig);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKCHANNELCONFIG_DESERIALIZE_OFFSET))(this, a1);
 	}
 
 	::AkChannelConfig* RemoveLFE()

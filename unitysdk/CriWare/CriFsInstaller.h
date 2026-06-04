@@ -8,26 +8,26 @@
 namespace CriWare { class CriFsBinder; }
 namespace System { class String; }
 
-#define CRIWARE_CRIFSINSTALLER_COPY_OFFSET UNITYSDK_OFFSET(0x12C05B70)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_COPY_OFFSET UNITYSDK_OFFSET(0x12C06450)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_CREATE_OFFSET UNITYSDK_OFFSET(0x12C06230)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_DESTROY_OFFSET UNITYSDK_OFFSET(0x12C063D0)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_EXECUTEMAIN_OFFSET UNITYSDK_OFFSET(0x12C06760)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETPROGRESS_OFFSET UNITYSDK_OFFSET(0x12C06650)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x12C065C0)
-#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_STOP_OFFSET UNITYSDK_OFFSET(0x12C06540)
-#define CRIWARE_CRIFSINSTALLER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x12C062C0)
-#define CRIWARE_CRIFSINSTALLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12C06130)
-#define CRIWARE_CRIFSINSTALLER_EXECUTEMAIN_OFFSET UNITYSDK_OFFSET(0x12C066E0)
-#define CRIWARE_CRIFSINSTALLER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x12C067E0)
-#define CRIWARE_CRIFSINSTALLER_GETPROGRESS_OFFSET UNITYSDK_OFFSET(0x12C05FF0)
-#define CRIWARE_CRIFSINSTALLER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x12C06090)
-#define CRIWARE_CRIFSINSTALLER_STOP_OFFSET UNITYSDK_OFFSET(0x12C05810)
-#define CRIWARE_CRIFSINSTALLER__CTOR_OFFSET UNITYSDK_OFFSET(0x12C05970)
+#define CRIWARE_CRIFSINSTALLER_COPY_OFFSET UNITYSDK_OFFSET(0x146C0610)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_COPY_OFFSET UNITYSDK_OFFSET(0x146C0FA0)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_CREATE_OFFSET UNITYSDK_OFFSET(0x146C0D80)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_DESTROY_OFFSET UNITYSDK_OFFSET(0x146C0F20)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_EXECUTEMAIN_OFFSET UNITYSDK_OFFSET(0x146C12B0)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETPROGRESS_OFFSET UNITYSDK_OFFSET(0x146C11A0)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x146C1110)
+#define CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_STOP_OFFSET UNITYSDK_OFFSET(0x146C1090)
+#define CRIWARE_CRIFSINSTALLER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x146C0E10)
+#define CRIWARE_CRIFSINSTALLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x146C0C20)
+#define CRIWARE_CRIFSINSTALLER_EXECUTEMAIN_OFFSET UNITYSDK_OFFSET(0x146C1230)
+#define CRIWARE_CRIFSINSTALLER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x146C1330)
+#define CRIWARE_CRIFSINSTALLER_GETPROGRESS_OFFSET UNITYSDK_OFFSET(0x146C0AE0)
+#define CRIWARE_CRIFSINSTALLER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x146C0B80)
+#define CRIWARE_CRIFSINSTALLER_STOP_OFFSET UNITYSDK_OFFSET(0x146C02B0)
+#define CRIWARE_CRIFSINSTALLER__CTOR_OFFSET UNITYSDK_OFFSET(0x146C0410)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsInstaller_TypeDefinitionIndex = 36841;
+	inline static constexpr unsigned int CriFsInstaller_TypeDefinitionIndex = 37141;
 
 	class CriFsInstaller : public ::CriWare::CriDisposable
 	{
@@ -46,14 +46,14 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposing)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_DISPOSE_1_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_DISPOSE_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Copy(::CriWare::CriFsBinder* binder, ::System::String* srcPath, ::System::String* dstPath, ::System::Int32 installBufferSize)
+		::System::Void Copy(::CriWare::CriFsBinder* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_COPY_OFFSET))(this, binder, srcPath, dstPath, installBufferSize);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriFsBinder*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_COPY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Stop()
@@ -86,34 +86,34 @@ namespace CriWare
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_EXECUTEMAIN_OFFSET))();
 		}
 
-		static ::System::Int32 criFsInstaller_Create(::System::IntPtr& installer, ::CriWare::CriFsInstaller_CopyPolicy option)
+		static ::System::Int32 criFsInstaller_Create(::System::IntPtr& a1, ::CriWare::CriFsInstaller_CopyPolicy a2)
 		{
-			return ((::System::Int32(*)(::System::IntPtr&, ::CriWare::CriFsInstaller_CopyPolicy))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_CREATE_OFFSET))(installer, option);
+			return ((::System::Int32(*)(::System::IntPtr&, ::CriWare::CriFsInstaller_CopyPolicy))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_CREATE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 criFsInstaller_Destroy(::System::IntPtr installer)
+		static ::System::Int32 criFsInstaller_Destroy(::System::IntPtr a1)
 		{
-			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_DESTROY_OFFSET))(installer);
+			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_DESTROY_OFFSET))(a1);
 		}
 
-		static ::System::Int32 criFsInstaller_Copy(::System::IntPtr installer, ::System::IntPtr binder, ::System::String* src_path, ::System::String* dst_path, ::System::IntPtr buffer, ::System::Int64 buffer_size)
+		static ::System::Int32 criFsInstaller_Copy(::System::IntPtr a1, ::System::IntPtr a2, ::System::String* a3, ::System::String* a4, ::System::IntPtr a5, ::System::Int64 a6)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::String*, ::System::IntPtr, ::System::Int64))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_COPY_OFFSET))(installer, binder, src_path, dst_path, buffer, buffer_size);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::String*, ::System::IntPtr, ::System::Int64))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_COPY_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 criFsInstaller_Stop(::System::IntPtr installer)
+		static ::System::Int32 criFsInstaller_Stop(::System::IntPtr a1)
 		{
-			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_STOP_OFFSET))(installer);
+			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_STOP_OFFSET))(a1);
 		}
 
-		static ::System::Int32 criFsInstaller_GetStatus(::System::IntPtr installer, ::CriWare::CriFsInstaller_Status& status)
+		static ::System::Int32 criFsInstaller_GetStatus(::System::IntPtr a1, ::CriWare::CriFsInstaller_Status& a2)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::CriWare::CriFsInstaller_Status&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETSTATUS_OFFSET))(installer, status);
+			return ((::System::Int32(*)(::System::IntPtr, ::CriWare::CriFsInstaller_Status&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETSTATUS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 criFsInstaller_GetProgress(::System::IntPtr installer, ::System::Single& progress)
+		static ::System::Int32 criFsInstaller_GetProgress(::System::IntPtr a1, ::System::Single& a2)
 		{
-			return ((::System::Int32(*)(::System::IntPtr, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETPROGRESS_OFFSET))(installer, progress);
+			return ((::System::Int32(*)(::System::IntPtr, ::System::Single&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLER_CRIFSINSTALLER_GETPROGRESS_OFFSET))(a1, a2);
 		}
 	};
 }

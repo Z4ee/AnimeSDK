@@ -4,14 +4,14 @@
 
 namespace ZXing::Datamatrix::Encoder { class EncoderContext; }
 
-#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODEASCIIDIGITS_OFFSET UNITYSDK_OFFSET(0x1A745CB0)
-#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1A745860)
-#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x1A745850)
-#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A746750)
+#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODEASCIIDIGITS_OFFSET UNITYSDK_OFFSET(0x1B5458E0)
+#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1B545030)
+#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x1B545020)
+#define ZXING_DATAMATRIX_ENCODER_ASCIIENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5462A0)
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int ASCIIEncoder_TypeDefinitionIndex = 6035;
+	inline static constexpr unsigned int ASCIIEncoder_TypeDefinitionIndex = 6408;
 
 	class ASCIIEncoder : public ::System::Object
 	{
@@ -26,14 +26,14 @@ namespace ZXing::Datamatrix::Encoder
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_GET_ENCODINGMODE_OFFSET))(this);
 		}
 
-		::System::Void encode(::ZXing::Datamatrix::Encoder::EncoderContext* context)
+		::System::Void encode(::ZXing::Datamatrix::Encoder::EncoderContext* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODE_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODE_OFFSET))(this, a1);
 		}
 
-		static ::System::Char encodeASCIIDigits(::System::Char digit1, ::System::Char digit2)
+		static ::System::Char encodeASCIIDigits(::System::Char a1, ::System::Char a2)
 		{
-			return ((::System::Char(*)(::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODEASCIIDIGITS_OFFSET))(digit1, digit2);
+			return ((::System::Char(*)(::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_ASCIIENCODER_ENCODEASCIIDIGITS_OFFSET))(a1, a2);
 		}
 	};
 }

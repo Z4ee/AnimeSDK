@@ -5,22 +5,22 @@
 namespace RPG::Client::ChenLingBattle { class GridIndex; }
 namespace RPG::Client::ChenLingBattle { class IEntity; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_GRID_CLEARENTITY_OFFSET UNITYSDK_OFFSET(0x9F9C030)
-#define RPG_CLIENT_CHENLINGBATTLE_GRID_CREATE_OFFSET UNITYSDK_OFFSET(0x9F9AE40)
-#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_ENTITYUNIQUEID_OFFSET UNITYSDK_OFFSET(0x9F9CC80)
-#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x9FA74A0)
-#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x9FA7470)
-#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x9FA7480)
-#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_X_OFFSET UNITYSDK_OFFSET(0x9F961F0)
-#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_Y_OFFSET UNITYSDK_OFFSET(0x9F96210)
-#define RPG_CLIENT_CHENLINGBATTLE_GRID_SETENTITY_OFFSET UNITYSDK_OFFSET(0x9F9BFE0)
-#define RPG_CLIENT_CHENLINGBATTLE_GRID_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0x9FA74B0)
-#define RPG_CLIENT_CHENLINGBATTLE_GRID_SET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x9FA7490)
-#define RPG_CLIENT_CHENLINGBATTLE_GRID__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA7460)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID_CLEARENTITY_OFFSET UNITYSDK_OFFSET(0xB5C0B40)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID_CREATE_OFFSET UNITYSDK_OFFSET(0xB5C0A80)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_ENTITYUNIQUEID_OFFSET UNITYSDK_OFFSET(0xB5B4560)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0xB5C0BC0)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xB5C0B90)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xB5C0BA0)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_X_OFFSET UNITYSDK_OFFSET(0xB5B6A50)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID_GET_Y_OFFSET UNITYSDK_OFFSET(0xB5B6A70)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID_SETENTITY_OFFSET UNITYSDK_OFFSET(0xB5B4660)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0xB5C0BD0)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID_SET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xB5C0BB0)
+#define RPG_CLIENT_CHENLINGBATTLE_GRID__CTOR_OFFSET UNITYSDK_OFFSET(0xB5C0B30)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int Grid_TypeDefinitionIndex = 70123;
+	inline static constexpr unsigned int Grid_TypeDefinitionIndex = 70935;
 
 	class Grid : public ::System::Object
 	{
@@ -29,19 +29,19 @@ namespace RPG::Client::ChenLingBattle
 		::RPG::Client::ChenLingBattle::GridIndex* _Index; // 0x18
 		::System::Boolean _IsUnlock_k__BackingField; // 0x20
 
-		::System::Void _ctor(::RPG::Client::ChenLingBattle::GridIndex* index)
+		::System::Void _ctor(::RPG::Client::ChenLingBattle::GridIndex* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::GridIndex*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID__CTOR_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::GridIndex*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ChenLingBattle::Grid* Create(::System::Int32 x, ::System::Int32 y)
+		static ::RPG::Client::ChenLingBattle::Grid* Create(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::RPG::Client::ChenLingBattle::Grid*(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID_CREATE_OFFSET))(x, y);
+			return ((::RPG::Client::ChenLingBattle::Grid*(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID_CREATE_OFFSET))(a1, a2);
 		}
 
-		::System::Void SetEntity(::RPG::Client::ChenLingBattle::IEntity* entity)
+		::System::Void SetEntity(::RPG::Client::ChenLingBattle::IEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID_SETENTITY_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID_SETENTITY_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearEntity()
@@ -69,9 +69,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID_GET_ISUNLOCK_OFFSET))(this);
 		}
 
-		::System::Void set_IsUnlock(::System::Boolean value)
+		::System::Void set_IsUnlock(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID_SET_ISUNLOCK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID_SET_ISUNLOCK_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_EntityUniqueID()
@@ -84,9 +84,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::RPG::Client::ChenLingBattle::IEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID_GET_ENTITY_OFFSET))(this);
 		}
 
-		::System::Void set_Entity(::RPG::Client::ChenLingBattle::IEntity* value)
+		::System::Void set_Entity(::RPG::Client::ChenLingBattle::IEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID_SET_ENTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_GRID_SET_ENTITY_OFFSET))(this, a1);
 		}
 	};
 }

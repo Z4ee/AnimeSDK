@@ -5,24 +5,24 @@
 namespace RPG::Client { class QuestData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9CD8330)
-#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9CD8370)
-#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__GETSORTEDQUESTDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0x9CD8380)
+#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB27D840)
+#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB27D880)
+#define RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__GETSORTEDQUESTDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0xB27D890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AetherDivideTrainerData___c_TypeDefinitionIndex = 57407;
+	inline static constexpr unsigned int AetherDivideTrainerData___c_TypeDefinitionIndex = 58219;
 
 	class AetherDivideTrainerData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::AetherDivideTrainerData___c** StaticGet___9()
-		{
-			return (::RPG::Client::AetherDivideTrainerData___c**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideTrainerData___c_TypeDefinitionIndex)->GetStaticField(0x26EC0);
-		}
 		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Int32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideTrainerData___c_TypeDefinitionIndex)->GetStaticField(0x26EC8);
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideTrainerData___c_TypeDefinitionIndex)->GetStaticField(0x5FDB0);
+		}
+		static ::RPG::Client::AetherDivideTrainerData___c** StaticGet___9()
+		{
+			return (::RPG::Client::AetherDivideTrainerData___c**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideTrainerData___c_TypeDefinitionIndex)->GetStaticField(0x5FDB8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetSortedQuestDataList_b__7_0(::RPG::Client::QuestData* quest)
+		::System::Int32 _GetSortedQuestDataList_b__7_0(::RPG::Client::QuestData* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__GETSORTEDQUESTDATALIST_B__7_0_OFFSET))(this, quest);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::QuestData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AETHERDIVIDETRAINERDATA___C__GETSORTEDQUESTDATALIST_B__7_0_OFFSET))(this, a1);
 		}
 	};
 }

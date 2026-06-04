@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavNodeInnerConditionType_TypeDefinitionIndex = 16267;
+	inline static constexpr unsigned int LevelNavNodeInnerConditionType_TypeDefinitionIndex = 16301;
 
 	enum class LevelNavNodeInnerConditionType : ::System::Int32
 	{

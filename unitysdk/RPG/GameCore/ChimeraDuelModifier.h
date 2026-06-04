@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 
-#define RPG_GAMECORE_CHIMERADUELMODIFIER_METHOD_2_34412B2EFCA27E8F_OFFSET UNITYSDK_OFFSET(0x187FFC00)
-#define RPG_GAMECORE_CHIMERADUELMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x187FFD70)
+#define RPG_GAMECORE_CHIMERADUELMODIFIER_METHOD_2_5A8E4D36BC12F5F5_OFFSET UNITYSDK_OFFSET(0x19641C10)
+#define RPG_GAMECORE_CHIMERADUELMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x19641D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelModifier_TypeDefinitionIndex = 15182;
+	inline static constexpr unsigned int ChimeraDuelModifier_TypeDefinitionIndex = 15243;
 
 	class ChimeraDuelModifier : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_34412B2EFCA27E8F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelModifier*& a2)
+		static ::System::Void Method_2_5A8E4D36BC12F5F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelModifier*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELMODIFIER_METHOD_2_34412B2EFCA27E8F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELMODIFIER_METHOD_2_5A8E4D36BC12F5F5_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,17 +5,17 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C4D20E7B3D5ABE35_METHOD_1_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0x9945150)
-#define CLASS_1_C4D20E7B3D5ABE35_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x9945200)
-#define CLASS_1_C4D20E7B3D5ABE35__CTOR_OFFSET UNITYSDK_OFFSET(0x9945270)
+#define CLASS_1_C4D20E7B3D5ABE35_METHOD_1_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0xABF0600)
+#define CLASS_1_C4D20E7B3D5ABE35_METHOD_1_EBEE0D0A222A8264_OFFSET UNITYSDK_OFFSET(0xABF06B0)
+#define CLASS_1_C4D20E7B3D5ABE35__CTOR_OFFSET UNITYSDK_OFFSET(0xABF0750)
 
-inline static constexpr unsigned int Class_1_C4D20E7B3D5ABE35_TypeDefinitionIndex = 60006;
+inline static constexpr unsigned int Class_1_C4D20E7B3D5ABE35_TypeDefinitionIndex = 60941;
 
 class Class_1_C4D20E7B3D5ABE35 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* Field_1_1; // 0x10
-	::RPG::Client::GridFightRole* Field_1_0; // 0x18
+	::RPG::Client::GridFightRole* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -27,8 +27,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C4D20E7B3D5ABE35_METHOD_1_4DA6D4A624E42CAB_OFFSET))(this);
 	}
 
-	::System::Void Method_1_9681042564541CD6()
+	::System::Void Method_1_EBEE0D0A222A8264()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C4D20E7B3D5ABE35_METHOD_1_9681042564541CD6_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C4D20E7B3D5ABE35_METHOD_1_EBEE0D0A222A8264_OFFSET))(this);
 	}
 };

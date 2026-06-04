@@ -6,15 +6,15 @@ namespace System::Collections { class IEnumerator; }
 namespace TapTap::Sdk { class UIAnimator_Action; }
 namespace TapTap::Sdk { class UIElement; }
 
-#define TAPTAP_SDK_UIANIMATOR_BLOCKCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1A1C3860)
-#define TAPTAP_SDK_UIANIMATOR_BLOCKFORSECOND_OFFSET UNITYSDK_OFFSET(0x1A1C3670)
-#define TAPTAP_SDK_UIANIMATOR_DOENTERANIMATION_OFFSET UNITYSDK_OFFSET(0x1A1C3790)
-#define TAPTAP_SDK_UIANIMATOR_DOEXITANIMATION_OFFSET UNITYSDK_OFFSET(0x1A1C35D0)
-#define TAPTAP_SDK_UIANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C3B70)
+#define TAPTAP_SDK_UIANIMATOR_BLOCKCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B027EC0)
+#define TAPTAP_SDK_UIANIMATOR_BLOCKFORSECOND_OFFSET UNITYSDK_OFFSET(0x1B027CE0)
+#define TAPTAP_SDK_UIANIMATOR_DOENTERANIMATION_OFFSET UNITYSDK_OFFSET(0x1B027E10)
+#define TAPTAP_SDK_UIANIMATOR_DOEXITANIMATION_OFFSET UNITYSDK_OFFSET(0x1B027C40)
+#define TAPTAP_SDK_UIANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B027F40)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int UIAnimator_TypeDefinitionIndex = 6454;
+	inline static constexpr unsigned int UIAnimator_TypeDefinitionIndex = 7070;
 
 	class UIAnimator : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,24 +24,24 @@ namespace TapTap::Sdk
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void DoExitAnimation(::TapTap::Sdk::UIElement* exit, ::TapTap::Sdk::UIElement* resume, ::TapTap::Sdk::UIAnimator_Action* onAnimationEnd)
+		::System::Void DoExitAnimation(::TapTap::Sdk::UIElement* a1, ::TapTap::Sdk::UIElement* a2, ::TapTap::Sdk::UIAnimator_Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::UIElement*, ::TapTap::Sdk::UIElement*, ::TapTap::Sdk::UIAnimator_Action*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_DOEXITANIMATION_OFFSET))(this, exit, resume, onAnimationEnd);
+			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::UIElement*, ::TapTap::Sdk::UIElement*, ::TapTap::Sdk::UIAnimator_Action*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_DOEXITANIMATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DoEnterAnimation(::TapTap::Sdk::UIElement* pause, ::TapTap::Sdk::UIElement* enter, ::TapTap::Sdk::UIAnimator_Action* onAnimationEnd)
+		::System::Void DoEnterAnimation(::TapTap::Sdk::UIElement* a1, ::TapTap::Sdk::UIElement* a2, ::TapTap::Sdk::UIAnimator_Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::UIElement*, ::TapTap::Sdk::UIElement*, ::TapTap::Sdk::UIAnimator_Action*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_DOENTERANIMATION_OFFSET))(this, pause, enter, onAnimationEnd);
+			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::UIElement*, ::TapTap::Sdk::UIElement*, ::TapTap::Sdk::UIAnimator_Action*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_DOENTERANIMATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void BlockForSecond(::System::Single duration, ::TapTap::Sdk::UIAnimator_Action* callback)
+		::System::Void BlockForSecond(::System::Single a1, ::TapTap::Sdk::UIAnimator_Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::TapTap::Sdk::UIAnimator_Action*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_BLOCKFORSECOND_OFFSET))(this, duration, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::TapTap::Sdk::UIAnimator_Action*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_BLOCKFORSECOND_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::IEnumerator* BlockCoroutine(::System::Single blockDuration, ::TapTap::Sdk::UIAnimator_Action* onBlockEnd)
+		::System::Collections::IEnumerator* BlockCoroutine(::System::Single a1, ::TapTap::Sdk::UIAnimator_Action* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::TapTap::Sdk::UIAnimator_Action*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_BLOCKCOROUTINE_OFFSET))(this, blockDuration, onBlockEnd);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::TapTap::Sdk::UIAnimator_Action*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_BLOCKCOROUTINE_OFFSET))(this, a1, a2);
 		}
 	};
 }

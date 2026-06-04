@@ -4,7 +4,7 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BB5E0)
+#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF24C90)
 
 namespace System::ComponentModel
 {
@@ -15,9 +15,9 @@ namespace System::ComponentModel
 	public:
 		::System::Int32 index; // 0x90
 
-		::System::Void _ctor(::System::Type* arrayType, ::System::Type* elementType, ::System::Int32 index)
+		::System::Void _ctor(::System::Type* a1, ::System::Type* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR__CTOR_OFFSET))(this, arrayType, elementType, index);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

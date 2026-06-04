@@ -6,16 +6,16 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_GET_PROJECTIONADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0xA564A10)
-#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xA5649A0)
-#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xA564890)
-#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xA564800)
-#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_SET_PROJECTIONADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0xA564A20)
-#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA564A30)
+#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_GET_PROJECTIONADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0xBBD20A0)
+#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xBBD2030)
+#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xBBD1F10)
+#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xBBD1E70)
+#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_SET_PROJECTIONADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0xBBD20B0)
+#define RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xBBD20C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightProjectionChangeCollector_TypeDefinitionIndex = 59413;
+	inline static constexpr unsigned int GridFightProjectionChangeCollector_TypeDefinitionIndex = 60348;
 
 	class GridFightProjectionChangeCollector : public ::System::Object
 	{
@@ -33,14 +33,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_RESET_OFFSET))(this);
 		}
 
-		::System::Void OnPropertyChangedEventHandler(::System::Object* sender, ::System::ComponentModel::PropertyChangedEventArgs* e)
+		::System::Void OnPropertyChangedEventHandler(::System::Object* a1, ::System::ComponentModel::PropertyChangedEventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET))(this, sender, e);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnCollectionChangedEventHandler(::System::Object* sender, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* e)
+		::System::Void OnCollectionChangedEventHandler(::System::Object* a1, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET))(this, sender, e);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_ProjectionAddedOrRemoved()
@@ -48,9 +48,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_GET_PROJECTIONADDEDORREMOVED_OFFSET))(this);
 		}
 
-		::System::Void set_ProjectionAddedOrRemoved(::System::Boolean value)
+		::System::Void set_ProjectionAddedOrRemoved(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_SET_PROJECTIONADDEDORREMOVED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPROJECTIONCHANGECOLLECTOR_SET_PROJECTIONADDEDORREMOVED_OFFSET))(this, a1);
 		}
 	};
 }

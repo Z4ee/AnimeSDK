@@ -7,13 +7,13 @@ namespace RPG::Client { class NpcBodySizeInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_NPCBODYSIZECONFIG_METHOD_3_8F7825DAFFB9B517_OFFSET UNITYSDK_OFFSET(0xABDEE50)
-#define RPG_CLIENT_NPCBODYSIZECONFIG_METHOD_3_A79C59C7B8291CFC_OFFSET UNITYSDK_OFFSET(0xABDF0D0)
-#define RPG_CLIENT_NPCBODYSIZECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xABDF1D0)
+#define RPG_CLIENT_NPCBODYSIZECONFIG_METHOD_3_A79C59C7B8291CFC_OFFSET UNITYSDK_OFFSET(0xC2EC190)
+#define RPG_CLIENT_NPCBODYSIZECONFIG_METHOD_3_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0xC2EBF10)
+#define RPG_CLIENT_NPCBODYSIZECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC2EC290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NpcBodySizeConfig_TypeDefinitionIndex = 55397;
+	inline static constexpr unsigned int NpcBodySizeConfig_TypeDefinitionIndex = 56142;
 
 	class NpcBodySizeConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCBODYSIZECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_8F7825DAFFB9B517()
+		::System::Void Method_3_EAD10B3E55E2C4C5()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCBODYSIZECONFIG_METHOD_3_8F7825DAFFB9B517_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCBODYSIZECONFIG_METHOD_3_EAD10B3E55E2C4C5_OFFSET))(this);
 		}
 
 		::RPG::Client::NpcBodySizeInfo* Method_3_A79C59C7B8291CFC(::RPG::GameCore::NPCBodySize a1)

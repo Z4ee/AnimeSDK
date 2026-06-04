@@ -5,22 +5,22 @@
 
 namespace System { class String; }
 
-#define ENTITAS_CONTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12C51530)
+#define ENTITAS_CONTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x146FF230)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextInfo_TypeDefinitionIndex = 9823;
+	inline static constexpr unsigned int ContextInfo_TypeDefinitionIndex = 9650;
 
 	class ContextInfo : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* componentNames; // 0x10
-		::Il2CppArray<::System::RuntimeTypeHandle>* componentTypes; // 0x18
-		::System::String* name; // 0x20
+		::System::String* name; // 0x10
+		::Il2CppArray<::System::String*>* componentNames; // 0x18
+		::Il2CppArray<::System::RuntimeTypeHandle>* componentTypes; // 0x20
 
-		::System::Void _ctor(::System::String* name, ::Il2CppArray<::System::String*>* componentNames, ::Il2CppArray<::System::RuntimeTypeHandle>* componentTypes)
+		::System::Void _ctor(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::Il2CppArray<::System::RuntimeTypeHandle>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::RuntimeTypeHandle>*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTINFO__CTOR_OFFSET))(this, name, componentNames, componentTypes);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::RuntimeTypeHandle>*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTINFO__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

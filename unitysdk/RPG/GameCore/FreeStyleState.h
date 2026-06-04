@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLESTATE_METHOD_2_026B51564A043788_OFFSET UNITYSDK_OFFSET(0x18932E00)
-#define RPG_GAMECORE_FREESTYLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18933020)
+#define RPG_GAMECORE_FREESTYLESTATE_METHOD_2_79D5B2EA7C583413_OFFSET UNITYSDK_OFFSET(0x1976DF80)
+#define RPG_GAMECORE_FREESTYLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1976E190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleState_TypeDefinitionIndex = 16026;
+	inline static constexpr unsigned int FreeStyleState_TypeDefinitionIndex = 16076;
 
 	class FreeStyleState : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLESTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_026B51564A043788(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleState*& a2)
+		static ::System::Void Method_2_79D5B2EA7C583413(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLESTATE_METHOD_2_026B51564A043788_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLESTATE_METHOD_2_79D5B2EA7C583413_OFFSET))(a1, a2);
 		}
 	};
 }

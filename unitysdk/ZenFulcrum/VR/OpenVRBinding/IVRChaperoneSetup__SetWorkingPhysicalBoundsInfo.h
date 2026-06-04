@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E7670)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E76D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6DF140)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6E7650)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B517390)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B5173F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B50F060)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B517310)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo_TypeDefinitionIndex = 35772;
+	inline static constexpr unsigned int IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo_TypeDefinitionIndex = 36072;
 
 	class IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t>* pQuadsBuffer, ::System::UInt32 unQuadsCount)
+		::System::Boolean Invoke(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t>* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t>*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_INVOKE_OFFSET))(this, pQuadsBuffer, unQuadsCount);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t>*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t>* pQuadsBuffer, ::System::UInt32 unQuadsCount, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t>* a1, ::System::UInt32 a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t>*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_BEGININVOKE_OFFSET))(this, pQuadsBuffer, unQuadsCount, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::HmdQuad_t>*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONESETUP__SETWORKINGPHYSICALBOUNDSINFO_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

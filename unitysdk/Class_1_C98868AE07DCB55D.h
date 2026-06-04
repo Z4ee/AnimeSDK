@@ -7,16 +7,16 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C98868AE07DCB55D__CTOR_OFFSET UNITYSDK_OFFSET(0x17E5E7D0)
+#define CLASS_1_C98868AE07DCB55D__CTOR_OFFSET UNITYSDK_OFFSET(0x18E4DBA0)
 
-inline static constexpr unsigned int Class_1_C98868AE07DCB55D_TypeDefinitionIndex = 38494;
+inline static constexpr unsigned int Class_1_C98868AE07DCB55D_TypeDefinitionIndex = 39261;
 
 class Class_1_C98868AE07DCB55D : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::MatchThreeTemplateApplyRuleRow*>*>* Field_1_2; // 0x18
-	::System::UInt32 Field_1_1; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::MatchThreeTemplateApplyRuleRow*>*>* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

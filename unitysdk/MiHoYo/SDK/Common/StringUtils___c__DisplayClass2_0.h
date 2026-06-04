@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Match; }
 
-#define MIHOYO_SDK_COMMON_STRINGUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173FAAF0)
-#define MIHOYO_SDK_COMMON_STRINGUTILS___C__DISPLAYCLASS2_0__SAFEFORMATNOTCSHARPSTANDARDSTRING_B__0_OFFSET UNITYSDK_OFFSET(0x173FAE10)
+#define MIHOYO_SDK_COMMON_STRINGUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181FEDB0)
+#define MIHOYO_SDK_COMMON_STRINGUTILS___C__DISPLAYCLASS2_0__SAFEFORMATNOTCSHARPSTANDARDSTRING_B__0_OFFSET UNITYSDK_OFFSET(0x181FF020)
 
 namespace MiHoYo::SDK::Common
 {
-	inline static constexpr unsigned int StringUtils___c__DisplayClass2_0_TypeDefinitionIndex = 7585;
+	inline static constexpr unsigned int StringUtils___c__DisplayClass2_0_TypeDefinitionIndex = 8488;
 
 	class StringUtils___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::Common
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::String* _SafeFormatNotCSharpStandardString_b__0(::System::Text::RegularExpressions::Match* m)
+		::System::String* _SafeFormatNotCSharpStandardString_b__0(::System::Text::RegularExpressions::Match* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Text::RegularExpressions::Match*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS___C__DISPLAYCLASS2_0__SAFEFORMATNOTCSHARPSTANDARDSTRING_B__0_OFFSET))(this, m);
+			return ((::System::String*(*)(::PVOID, ::System::Text::RegularExpressions::Match*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_STRINGUTILS___C__DISPLAYCLASS2_0__SAFEFORMATNOTCSHARPSTANDARDSTRING_B__0_OFFSET))(this, a1);
 		}
 	};
 }

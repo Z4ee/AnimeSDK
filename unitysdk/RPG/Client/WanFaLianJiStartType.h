@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WanFaLianJiStartType_TypeDefinitionIndex = 61425;
+	inline static constexpr unsigned int WanFaLianJiStartType_TypeDefinitionIndex = 62349;
 
 	enum class WanFaLianJiStartType : ::System::Int32
 	{

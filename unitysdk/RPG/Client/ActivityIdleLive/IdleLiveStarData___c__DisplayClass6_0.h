@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveStarData_StarInfo; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B752C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA___C__DISPLAYCLASS6_0___GETSTARNEEDEDCHAPTER_B__0_OFFSET UNITYSDK_OFFSET(0x9B75510)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB15D7C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA___C__DISPLAYCLASS6_0___GETSTARNEEDEDCHAPTER_B__0_OFFSET UNITYSDK_OFFSET(0xB15DA20)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveStarData___c__DisplayClass6_0_TypeDefinitionIndex = 69394;
+	inline static constexpr unsigned int IdleLiveStarData___c__DisplayClass6_0_TypeDefinitionIndex = 70206;
 
 	class IdleLiveStarData___c__DisplayClass6_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA___C__DISPLAYCLASS6_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __GetStarNeededChapter_b__0(::RPG::Client::ActivityIdleLive::IdleLiveStarData_StarInfo* x)
+		::System::Boolean __GetStarNeededChapter_b__0(::RPG::Client::ActivityIdleLive::IdleLiveStarData_StarInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveStarData_StarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA___C__DISPLAYCLASS6_0___GETSTARNEEDEDCHAPTER_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveStarData_StarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA___C__DISPLAYCLASS6_0___GETSTARNEEDEDCHAPTER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CD9533418F3B6F39_VCameraType.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace System { class String; }
-namespace UnityEngine { class GameObject; }
-namespace UnityEngine { class Transform; }
+namespace System { class Object; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_905_TypeDefinitionIndex = 64283;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_905_TypeDefinitionIndex = 63542;
 
 class Class_0_16E4307DCC419505_905
 {

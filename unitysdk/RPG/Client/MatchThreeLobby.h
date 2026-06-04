@@ -7,24 +7,24 @@ namespace RPG::Client { class MatchThreeOpponentData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MATCHTHREELOBBY_CHANGESELFBIRD_OFFSET UNITYSDK_OFFSET(0xA8391D0)
-#define RPG_CLIENT_MATCHTHREELOBBY_CHANGESELFSTATE_OFFSET UNITYSDK_OFFSET(0xA8394A0)
-#define RPG_CLIENT_MATCHTHREELOBBY_GETOPPONENTDATABYUID_OFFSET UNITYSDK_OFFSET(0xA839640)
-#define RPG_CLIENT_MATCHTHREELOBBY_GET_OPPONENTS_OFFSET UNITYSDK_OFFSET(0xA83A440)
-#define RPG_CLIENT_MATCHTHREELOBBY_GET_SELFOPPONENTDATA_OFFSET UNITYSDK_OFFSET(0xA839420)
-#define RPG_CLIENT_MATCHTHREELOBBY_SAVECURUSEBIRD_OFFSET UNITYSDK_OFFSET(0xA839720)
-#define RPG_CLIENT_MATCHTHREELOBBY_SET_OPPONENTS_OFFSET UNITYSDK_OFFSET(0xA83A450)
-#define RPG_CLIENT_MATCHTHREELOBBY_STARTMATCH_OFFSET UNITYSDK_OFFSET(0xA839290)
-#define RPG_CLIENT_MATCHTHREELOBBY__CTOR_OFFSET UNITYSDK_OFFSET(0xA83A460)
-#define RPG_CLIENT_MATCHTHREELOBBY__ONINIT_OFFSET UNITYSDK_OFFSET(0xA839880)
-#define RPG_CLIENT_MATCHTHREELOBBY__ONMEMBERCHANGE_OFFSET UNITYSDK_OFFSET(0xA8399D0)
-#define RPG_CLIENT_MATCHTHREELOBBY__SYNCOPPONENTS_OFFSET UNITYSDK_OFFSET(0xA839A20)
-#define RPG_CLIENT_MATCHTHREELOBBY___IFIXBASEPROXY__ONINIT_OFFSET UNITYSDK_OFFSET(0xA83A4C0)
-#define RPG_CLIENT_MATCHTHREELOBBY___IFIXBASEPROXY__ONMEMBERCHANGE_OFFSET UNITYSDK_OFFSET(0xA83A530)
+#define RPG_CLIENT_MATCHTHREELOBBY_CHANGESELFBIRD_OFFSET UNITYSDK_OFFSET(0xBF83190)
+#define RPG_CLIENT_MATCHTHREELOBBY_CHANGESELFSTATE_OFFSET UNITYSDK_OFFSET(0xBF83460)
+#define RPG_CLIENT_MATCHTHREELOBBY_GETOPPONENTDATABYUID_OFFSET UNITYSDK_OFFSET(0xBF83600)
+#define RPG_CLIENT_MATCHTHREELOBBY_GET_OPPONENTS_OFFSET UNITYSDK_OFFSET(0xBF842B0)
+#define RPG_CLIENT_MATCHTHREELOBBY_GET_SELFOPPONENTDATA_OFFSET UNITYSDK_OFFSET(0xBF833E0)
+#define RPG_CLIENT_MATCHTHREELOBBY_SAVECURUSEBIRD_OFFSET UNITYSDK_OFFSET(0xBF83700)
+#define RPG_CLIENT_MATCHTHREELOBBY_SET_OPPONENTS_OFFSET UNITYSDK_OFFSET(0xBF842C0)
+#define RPG_CLIENT_MATCHTHREELOBBY_STARTMATCH_OFFSET UNITYSDK_OFFSET(0xBF83250)
+#define RPG_CLIENT_MATCHTHREELOBBY__CTOR_OFFSET UNITYSDK_OFFSET(0xBF842D0)
+#define RPG_CLIENT_MATCHTHREELOBBY__ONINIT_OFFSET UNITYSDK_OFFSET(0xBF83850)
+#define RPG_CLIENT_MATCHTHREELOBBY__ONMEMBERCHANGE_OFFSET UNITYSDK_OFFSET(0xBF839A0)
+#define RPG_CLIENT_MATCHTHREELOBBY__SYNCOPPONENTS_OFFSET UNITYSDK_OFFSET(0xBF839F0)
+#define RPG_CLIENT_MATCHTHREELOBBY___IFIXBASEPROXY__ONINIT_OFFSET UNITYSDK_OFFSET(0xBF84330)
+#define RPG_CLIENT_MATCHTHREELOBBY___IFIXBASEPROXY__ONMEMBERCHANGE_OFFSET UNITYSDK_OFFSET(0xBF84390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeLobby_TypeDefinitionIndex = 60558;
+	inline static constexpr unsigned int MatchThreeLobby_TypeDefinitionIndex = 61492;
 
 	class MatchThreeLobby : public ::RPG::Client::BaseLobby
 	{
@@ -37,9 +37,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ChangeSelfBird(::System::UInt32 birdID)
+		::System::Void ChangeSelfBird(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY_CHANGESELFBIRD_OFFSET))(this, birdID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY_CHANGESELFBIRD_OFFSET))(this, a1);
 		}
 
 		::System::Void StartMatch()
@@ -47,14 +47,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY_STARTMATCH_OFFSET))(this);
 		}
 
-		::System::Void ChangeSelfState(::Enum_3_63C076C405BE0674_1 type)
+		::System::Void ChangeSelfState(::Enum_3_63C076C405BE0674_1 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_63C076C405BE0674_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY_CHANGESELFSTATE_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_63C076C405BE0674_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY_CHANGESELFSTATE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MatchThreeOpponentData* GetOpponentDataByUID(::System::UInt32 uid)
+		::RPG::Client::MatchThreeOpponentData* GetOpponentDataByUID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MatchThreeOpponentData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY_GETOPPONENTDATABYUID_OFFSET))(this, uid);
+			return ((::RPG::Client::MatchThreeOpponentData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY_GETOPPONENTDATABYUID_OFFSET))(this, a1);
 		}
 
 		::System::Void SaveCurUseBird()
@@ -62,9 +62,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY_SAVECURUSEBIRD_OFFSET))(this);
 		}
 
-		::System::Void _OnInit(::System::UInt32 createParam)
+		::System::Void _OnInit(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY__ONINIT_OFFSET))(this, createParam);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY__ONINIT_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnMemberChange()
@@ -87,14 +87,14 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::MatchThreeOpponentData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY_GET_OPPONENTS_OFFSET))(this);
 		}
 
-		::System::Void set_Opponents(::System::Collections::Generic::List_1<::RPG::Client::MatchThreeOpponentData*>* value)
+		::System::Void set_Opponents(::System::Collections::Generic::List_1<::RPG::Client::MatchThreeOpponentData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MatchThreeOpponentData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY_SET_OPPONENTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MatchThreeOpponentData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY_SET_OPPONENTS_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy__OnInit(::System::UInt32 P0)
+		::System::Void __iFixBaseProxy__OnInit(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY___IFIXBASEPROXY__ONINIT_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREELOBBY___IFIXBASEPROXY__ONINIT_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy__OnMemberChange()

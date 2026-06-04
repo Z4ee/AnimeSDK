@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RtModifierBehaviorLifeBinding.h"
+#include "unitysdk/RPG/GameCore/CharaStoryMoveState.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_24193089A4D2255F;
+namespace RPG::GameCore { class CharacterInputData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_409_TypeDefinitionIndex = 49559;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_409_TypeDefinitionIndex = 50059;
 
 class Class_0_16E4307DCC419505_409
 {

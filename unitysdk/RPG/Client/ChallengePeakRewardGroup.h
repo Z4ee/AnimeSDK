@@ -8,39 +8,39 @@ namespace RPG::Client { class ChallengePeakReward; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0x9F54D50)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GETRELATEDBOSSSPECIALREWARDDATABYTYPEVALUE_OFFSET UNITYSDK_OFFSET(0x9F58B90)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GETSORTEDBOSSSTARREWARDDATA_OFFSET UNITYSDK_OFFSET(0x9F59010)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GETSORTEDNORMALPASSREWARDDATA_OFFSET UNITYSDK_OFFSET(0x9F58D50)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GETSORTEDNORMALSTARREWARDDATA_OFFSET UNITYSDK_OFFSET(0x9F58FC0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_HASPASSREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x9F50310)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_HASREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x9F500C0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_HASSTARREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x9F50230)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_ID_OFFSET UNITYSDK_OFFSET(0x9F58390)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_PEAKGROUPID_OFFSET UNITYSDK_OFFSET(0x9F583B0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_SET_ID_OFFSET UNITYSDK_OFFSET(0x9F583A0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_TAKEMONSTERANDBOSSSTARREWARD_OFFSET UNITYSDK_OFFSET(0x9F580F0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_TAKEMONSTERPASSREWARD_OFFSET UNITYSDK_OFFSET(0x9F57E50)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x9F58580)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__GETSORTEDREWARDDATABYTYPE_OFFSET UNITYSDK_OFFSET(0x9F58DA0)
-#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__HASREWARDCANTAKEOFTYPE_OFFSET UNITYSDK_OFFSET(0x9F583C0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xB56DD80)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GETRELATEDBOSSSPECIALREWARDDATABYTYPEVALUE_OFFSET UNITYSDK_OFFSET(0xB571C50)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GETSORTEDBOSSSTARREWARDDATA_OFFSET UNITYSDK_OFFSET(0xB5720B0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GETSORTEDNORMALPASSREWARDDATA_OFFSET UNITYSDK_OFFSET(0xB571DE0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GETSORTEDNORMALSTARREWARDDATA_OFFSET UNITYSDK_OFFSET(0xB572060)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_HASPASSREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0xB568E70)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_HASREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0xB568C20)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_HASSTARREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0xB568D90)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_ID_OFFSET UNITYSDK_OFFSET(0xB571430)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_PEAKGROUPID_OFFSET UNITYSDK_OFFSET(0xB571450)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_SET_ID_OFFSET UNITYSDK_OFFSET(0xB571440)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_TAKEMONSTERANDBOSSSTARREWARD_OFFSET UNITYSDK_OFFSET(0xB571170)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_TAKEMONSTERPASSREWARD_OFFSET UNITYSDK_OFFSET(0xB570EB0)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xB571600)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__GETSORTEDREWARDDATABYTYPE_OFFSET UNITYSDK_OFFSET(0xB571E30)
+#define RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__HASREWARDCANTAKEOFTYPE_OFFSET UNITYSDK_OFFSET(0xB571460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakRewardGroup_TypeDefinitionIndex = 58198;
+	inline static constexpr unsigned int ChallengePeakRewardGroup_TypeDefinitionIndex = 59128;
 
 	class ChallengePeakRewardGroup : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>* _Rewards; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChallengePeakRewardType, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>*>* _RewardsDict; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChallengePeakRewardType, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>*>* _RewardsDict; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>* _Rewards; // 0x18
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::ChallengePeakRewardState, ::System::Int32>* _ProgressTypeOrder; // 0x20
-		::System::UInt32 _ID_k__BackingField; // 0x28
-		::System::UInt32 _PeakGroupID_k__BackingField; // 0x2C
+		::System::UInt32 _PeakGroupID_k__BackingField; // 0x28
+		::System::UInt32 _ID_k__BackingField; // 0x2C
 
-		::System::Void _ctor(::System::UInt32 id, ::System::UInt32 peakGroupID, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>* rewards)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__CTOR_OFFSET))(this, id, peakGroupID, rewards);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 get_ID()
@@ -48,9 +48,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_PeakGroupID()
@@ -73,9 +73,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GET_HASPASSREWARDCANTAKE_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ChallengePeakRewardGroup* Create(::System::UInt32 id, ::System::UInt32 peakGroupID, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>* rewards)
+		static ::RPG::Client::ChallengePeakRewardGroup* Create(::System::UInt32 a1, ::System::UInt32 a2, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>* a3)
 		{
-			return ((::RPG::Client::ChallengePeakRewardGroup*(*)(::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_CREATE_OFFSET))(id, peakGroupID, rewards);
+			return ((::RPG::Client::ChallengePeakRewardGroup*(*)(::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_CREATE_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>* GetSortedNormalPassRewardData()
@@ -93,9 +93,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GETSORTEDBOSSSTARREWARDDATA_OFFSET))(this);
 		}
 
-		::RPG::Client::ChallengePeakReward* GetRelatedBossSpecialRewardDataByTypeValue(::System::UInt32 typeValue)
+		::RPG::Client::ChallengePeakReward* GetRelatedBossSpecialRewardDataByTypeValue(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChallengePeakReward*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GETRELATEDBOSSSPECIALREWARDDATABYTYPEVALUE_OFFSET))(this, typeValue);
+			return ((::RPG::Client::ChallengePeakReward*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_GETRELATEDBOSSSPECIALREWARDDATABYTYPEVALUE_OFFSET))(this, a1);
 		}
 
 		::System::Void TakeMonsterPassReward()
@@ -108,14 +108,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP_TAKEMONSTERANDBOSSSTARREWARD_OFFSET))(this);
 		}
 
-		::System::Boolean _HasRewardCanTakeOfType(::RPG::GameCore::ChallengePeakRewardType rewardTypes)
+		::System::Boolean _HasRewardCanTakeOfType(::RPG::GameCore::ChallengePeakRewardType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChallengePeakRewardType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__HASREWARDCANTAKEOFTYPE_OFFSET))(this, rewardTypes);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChallengePeakRewardType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__HASREWARDCANTAKEOFTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>* _GetSortedRewardDataByType(::RPG::GameCore::ChallengePeakRewardType type, ::System::Boolean isIgnoreProgress)
+		::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>* _GetSortedRewardDataByType(::RPG::GameCore::ChallengePeakRewardType a1, ::System::Boolean a2)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>*(*)(::PVOID, ::RPG::GameCore::ChallengePeakRewardType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__GETSORTEDREWARDDATABYTYPE_OFFSET))(this, type, isIgnoreProgress);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ChallengePeakReward*>*(*)(::PVOID, ::RPG::GameCore::ChallengePeakRewardType, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKREWARDGROUP__GETSORTEDREWARDDATABYTYPE_OFFSET))(this, a1, a2);
 		}
 	};
 }

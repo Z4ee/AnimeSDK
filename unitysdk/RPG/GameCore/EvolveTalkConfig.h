@@ -4,17 +4,17 @@
 
 namespace System { class Action; }
 
-#define RPG_GAMECORE_EVOLVETALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB6863C0)
+#define RPG_GAMECORE_EVOLVETALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF0F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveTalkConfig_TypeDefinitionIndex = 54074;
+	inline static constexpr unsigned int EvolveTalkConfig_TypeDefinitionIndex = 54800;
 
 	class EvolveTalkConfig : public ::System::Object
 	{
 	public:
-		::System::Action* OnFinish; // 0x10
-		::Il2CppArray<::System::UInt32>* TalkIDs; // 0x18
+		::Il2CppArray<::System::UInt32>* TalkIDs; // 0x10
+		::System::Action* OnFinish; // 0x18
 		::System::UInt32 Season; // 0x20
 
 		::System::Void _ctor()

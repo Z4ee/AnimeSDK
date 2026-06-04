@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameEditorDebugDrawShapeType_TypeDefinitionIndex = 17917;
+	inline static constexpr unsigned int LittleGameEditorDebugDrawShapeType_TypeDefinitionIndex = 17944;
 
 	enum class LittleGameEditorDebugDrawShapeType : ::System::Int32
 	{

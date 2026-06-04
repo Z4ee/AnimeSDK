@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetHLODSwitchDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B018BD3C735E6A54_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11C07070)
-#define CLASS_3_B018BD3C735E6A54__CTOR_OFFSET UNITYSDK_OFFSET(0x11C07040)
+#define CLASS_3_B018BD3C735E6A54_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC7DED0)
+#define CLASS_3_B018BD3C735E6A54__CTOR_OFFSET UNITYSDK_OFFSET(0xAC7DEA0)
 
-inline static constexpr unsigned int Class_3_B018BD3C735E6A54_TypeDefinitionIndex = 51549;
+inline static constexpr unsigned int Class_3_B018BD3C735E6A54_TypeDefinitionIndex = 52218;
 
 class Class_3_B018BD3C735E6A54 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetHLODSwitchDelay*>
 {

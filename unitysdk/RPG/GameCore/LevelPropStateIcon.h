@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPROPSTATEICON_METHOD_2_E1BA8C3439B27B7B_OFFSET UNITYSDK_OFFSET(0x18A58FD0)
-#define RPG_GAMECORE_LEVELPROPSTATEICON__CTOR_OFFSET UNITYSDK_OFFSET(0x18A59200)
+#define RPG_GAMECORE_LEVELPROPSTATEICON_METHOD_2_E1BA8C3439B27B7B_OFFSET UNITYSDK_OFFSET(0x198899B0)
+#define RPG_GAMECORE_LEVELPROPSTATEICON__CTOR_OFFSET UNITYSDK_OFFSET(0x19889BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPropStateIcon_TypeDefinitionIndex = 16354;
+	inline static constexpr unsigned int LevelPropStateIcon_TypeDefinitionIndex = 16386;
 
 	class LevelPropStateIcon : public ::RPG::GameCore::JsonConfig
 	{

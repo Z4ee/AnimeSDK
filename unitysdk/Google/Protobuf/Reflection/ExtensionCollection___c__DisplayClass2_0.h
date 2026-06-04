@@ -7,12 +7,12 @@ namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace Google::Protobuf::Reflection { class FieldDescriptorProto; }
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170F8550)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x170F9790)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E593D0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x17E5A6F0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ExtensionCollection___c__DisplayClass2_0_TypeDefinitionIndex = 6335;
+	inline static constexpr unsigned int ExtensionCollection___c__DisplayClass2_0_TypeDefinitionIndex = 5537;
 
 	class ExtensionCollection___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace Google::Protobuf::Reflection
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Reflection::FieldDescriptor* __ctor_b__0(::Google::Protobuf::Reflection::FieldDescriptorProto* extension, ::System::Int32 i)
+		::Google::Protobuf::Reflection::FieldDescriptor* __ctor_b__0(::Google::Protobuf::Reflection::FieldDescriptorProto* a1, ::System::Int32 a2)
 		{
-			return ((::Google::Protobuf::Reflection::FieldDescriptor*(*)(::PVOID, ::Google::Protobuf::Reflection::FieldDescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET))(this, extension, i);
+			return ((::Google::Protobuf::Reflection::FieldDescriptor*(*)(::PVOID, ::Google::Protobuf::Reflection::FieldDescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Protobuf { class ByteString; }
 namespace MiHoYo::SDK::Protobuf { class IMessage; }
 
-#define MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1739B6D0)
-#define MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1739B480)
+#define MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x181A5820)
+#define MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x181A55D0)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int MessageExtensions_TypeDefinitionIndex = 33640;
+	inline static constexpr unsigned int MessageExtensions_TypeDefinitionIndex = 33922;
 
 	class MessageExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Void MergeFrom(::MiHoYo::SDK::Protobuf::IMessage* message, ::Il2CppArray<::System::Byte>* data)
+		static ::System::Void MergeFrom(::MiHoYo::SDK::Protobuf::IMessage* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::Protobuf::IMessage*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_OFFSET))(message, data);
+			return ((::System::Void(*)(::MiHoYo::SDK::Protobuf::IMessage*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void MergeFrom_1(::MiHoYo::SDK::Protobuf::IMessage* message, ::MiHoYo::SDK::Protobuf::ByteString* data)
+		static ::System::Void MergeFrom_1(::MiHoYo::SDK::Protobuf::IMessage* a1, ::MiHoYo::SDK::Protobuf::ByteString* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::Protobuf::IMessage*, ::MiHoYo::SDK::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_1_OFFSET))(message, data);
+			return ((::System::Void(*)(::MiHoYo::SDK::Protobuf::IMessage*, ::MiHoYo::SDK::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_MESSAGEEXTENSIONS_MERGEFROM_1_OFFSET))(a1, a2);
 		}
 	};
 }

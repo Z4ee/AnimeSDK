@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int OwnershipStatus_TypeDefinitionIndex = 42206;
+	inline static constexpr unsigned int OwnershipStatus_TypeDefinitionIndex = 43009;
 
 	enum class OwnershipStatus : ::System::Int32
 	{

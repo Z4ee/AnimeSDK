@@ -5,14 +5,14 @@
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x1711A040)
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1711A030)
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1711A020)
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1711A010)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x17E7A010)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x17E7A000)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17E79FF0)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E79FE0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int PackageDescriptor_TypeDefinitionIndex = 6355;
+	inline static constexpr unsigned int PackageDescriptor_TypeDefinitionIndex = 5557;
 
 	class PackageDescriptor : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace Google::Protobuf::Reflection
 		::System::String* name; // 0x18
 		::System::String* fullName; // 0x20
 
-		::System::Void _ctor(::System::String* name, ::System::String* fullName, ::Google::Protobuf::Reflection::FileDescriptor* file)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::Google::Protobuf::Reflection::FileDescriptor* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Google::Protobuf::Reflection::FileDescriptor*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR__CTOR_OFFSET))(this, name, fullName, file);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Google::Protobuf::Reflection::FileDescriptor*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* get_Name()

@@ -3,29 +3,29 @@
 #include "unitysdk/RPG/Client/CameraModuleConfigBase.h"
 #include "unitysdk/RPG/Client/CameraModuleType.h"
 
-class Class_2_2D85C3C5517A2A08_TransitionShotData;
+class Class_2_9571B284696356E4_TransitionShotData;
 namespace RPG::Client { class BattleToMazeShotConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLETRANSITIONMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0x9E818F0)
-#define RPG_CLIENT_BATTLETRANSITIONMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9E81940)
+#define RPG_CLIENT_BATTLETRANSITIONMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xB41C160)
+#define RPG_CLIENT_BATTLETRANSITIONMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB41C1B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleTransitionModuleConfig_TypeDefinitionIndex = 64213;
+	inline static constexpr unsigned int BattleTransitionModuleConfig_TypeDefinitionIndex = 65134;
 
 	class BattleTransitionModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:
 		::System::Boolean ForbidMazeToBattleTransition; // 0x18
 		::System::Boolean ForbidBattleToMazeTransition; // 0x19
-		::Class_2_2D85C3C5517A2A08_TransitionShotData* UltraLongShot; // 0x20
-		::Class_2_2D85C3C5517A2A08_TransitionShotData* LongShot; // 0x28
-		::Class_2_2D85C3C5517A2A08_TransitionShotData* CloseShot; // 0x30
-		::Class_2_2D85C3C5517A2A08_TransitionShotData* PlayerBeHitShot; // 0x38
-		::Class_2_2D85C3C5517A2A08_TransitionShotData* PlayerBeHitMiddleShot; // 0x40
-		::Class_2_2D85C3C5517A2A08_TransitionShotData* PlayerBeHitLongShot; // 0x48
+		::Class_2_9571B284696356E4_TransitionShotData* UltraLongShot; // 0x20
+		::Class_2_9571B284696356E4_TransitionShotData* LongShot; // 0x28
+		::Class_2_9571B284696356E4_TransitionShotData* CloseShot; // 0x30
+		::Class_2_9571B284696356E4_TransitionShotData* PlayerBeHitShot; // 0x38
+		::Class_2_9571B284696356E4_TransitionShotData* PlayerBeHitMiddleShot; // 0x40
+		::Class_2_9571B284696356E4_TransitionShotData* PlayerBeHitLongShot; // 0x48
 		::System::Single FrameBlendDelay; // 0x50
 		::System::Single FrameBlendWeightStart; // 0x54
 		::System::Single FrameBlendDuration; // 0x58

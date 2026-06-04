@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int GaussianBlurGradual_TypeDefinitionIndex = 35186;
+	inline static constexpr unsigned int GaussianBlurGradual_TypeDefinitionIndex = 35486;
 
 	enum class GaussianBlurGradual : ::System::Int32
 	{

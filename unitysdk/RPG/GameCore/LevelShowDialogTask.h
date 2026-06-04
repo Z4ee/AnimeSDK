@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class LevelShowDialog; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELSHOWDIALOGTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6DF6B0)
-#define RPG_GAMECORE_LEVELSHOWDIALOGTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6DF6F0)
-#define RPG_GAMECORE_LEVELSHOWDIALOGTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6DF770)
-#define RPG_GAMECORE_LEVELSHOWDIALOGTASK_TICK_OFFSET UNITYSDK_OFFSET(0xB6DF7C0)
-#define RPG_GAMECORE_LEVELSHOWDIALOGTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DF6A0)
-#define RPG_GAMECORE_LEVELSHOWDIALOGTASK__ONDIALOGUECLOSED_OFFSET UNITYSDK_OFFSET(0xB6DF820)
+#define RPG_GAMECORE_LEVELSHOWDIALOGTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE4D7A0)
+#define RPG_GAMECORE_LEVELSHOWDIALOGTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCE4D7E0)
+#define RPG_GAMECORE_LEVELSHOWDIALOGTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCE4D860)
+#define RPG_GAMECORE_LEVELSHOWDIALOGTASK_TICK_OFFSET UNITYSDK_OFFSET(0xCE4D8B0)
+#define RPG_GAMECORE_LEVELSHOWDIALOGTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4D790)
+#define RPG_GAMECORE_LEVELSHOWDIALOGTASK__ONDIALOGUECLOSED_OFFSET UNITYSDK_OFFSET(0xCE4D910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelShowDialogTask_TypeDefinitionIndex = 53672;
+	inline static constexpr unsigned int LevelShowDialogTask_TypeDefinitionIndex = 54385;
 
 	class LevelShowDialogTask : public ::Class_1_5F51D4049EA87B7B
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::LevelShowDialog* _ConfigRef; // 0x18
 		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::TaskContext* pContext, ::RPG::GameCore::LevelShowDialog* pConfig)
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LevelShowDialog* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelShowDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSHOWDIALOGTASK__CTOR_OFFSET))(this, pContext, pConfig);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelShowDialog*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSHOWDIALOGTASK__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -42,9 +42,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSHOWDIALOGTASK_ONTASKRESET_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSHOWDIALOGTASK_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSHOWDIALOGTASK_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnDialogueClosed()

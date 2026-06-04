@@ -9,24 +9,24 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17708160)
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x1770AAE0)
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__1_OFFSET UNITYSDK_OFFSET(0x1770B3A0)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184C5590)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x184C7DB0)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__1_OFFSET UNITYSDK_OFFSET(0x184C8610)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GooglePCManager___c__DisplayClass25_0_TypeDefinitionIndex = 8093;
+	inline static constexpr unsigned int GooglePCManager___c__DisplayClass25_0_TypeDefinitionIndex = 8996;
 
 	class GooglePCManager___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnGetGoogleQueryGoods; // 0x18
-		::System::Collections::Generic::List_1<::System::String*>* goodsIdList; // 0x20
+		::System::Collections::Generic::List_1<::System::String*>* goodsIdList; // 0x10
+		::System::String* payGoodsId; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x20
 		::System::String* accountId; // 0x28
 		::MiHoYo::SDK::JSONNode* payInfo; // 0x30
-		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x38
-		::System::String* payGoodsId; // 0x40
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnGetGoogleQueryGoods; // 0x38
+		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x40
 		::System::String* token; // 0x48
 
 		::System::Void _ctor()
@@ -34,14 +34,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Pay_b__0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _Pay_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _Pay_b__1(::System::Boolean canPay)
+		::System::Void _Pay_b__1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__1_OFFSET))(this, canPay);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0__PAY_B__1_OFFSET))(this, a1);
 		}
 	};
 }

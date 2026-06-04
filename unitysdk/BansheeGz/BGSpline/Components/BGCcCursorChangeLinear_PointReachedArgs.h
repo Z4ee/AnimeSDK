@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x17B89FF0)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS_GET_POINTINDEX_OFFSET UNITYSDK_OFFSET(0x17B8A100)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS_SET_POINTINDEX_OFFSET UNITYSDK_OFFSET(0x17B8A110)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B8A140)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17B8A120)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x18938050)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS_GET_POINTINDEX_OFFSET UNITYSDK_OFFSET(0x18938160)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS_SET_POINTINDEX_OFFSET UNITYSDK_OFFSET(0x18938170)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x189381A0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18938180)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcCursorChangeLinear_PointReachedArgs_TypeDefinitionIndex = 33835;
+	inline static constexpr unsigned int BGCcCursorChangeLinear_PointReachedArgs_TypeDefinitionIndex = 34117;
 
 	class BGCcCursorChangeLinear_PointReachedArgs : public ::System::EventArgs
 	{
 	public:
 		static ::BansheeGz::BGSpline::Components::BGCcCursorChangeLinear_PointReachedArgs** StaticGet_Instance()
 		{
-			return (::BansheeGz::BGSpline::Components::BGCcCursorChangeLinear_PointReachedArgs**)Il2CppClass::FromTypeDefinitionIndex(BGCcCursorChangeLinear_PointReachedArgs_TypeDefinitionIndex)->GetStaticField(0x697F0);
+			return (::BansheeGz::BGSpline::Components::BGCcCursorChangeLinear_PointReachedArgs**)Il2CppClass::FromTypeDefinitionIndex(BGCcCursorChangeLinear_PointReachedArgs_TypeDefinitionIndex)->GetStaticField(0x4EDF0);
 		}
 		::System::Int32 _PointIndex_k__BackingField; // 0x10
 
@@ -36,14 +36,14 @@ namespace BansheeGz::BGSpline::Components
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS_GET_POINTINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_PointIndex(::System::Int32 value)
+		::System::Void set_PointIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS_SET_POINTINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS_SET_POINTINDEX_OFFSET))(this, a1);
 		}
 
-		static ::BansheeGz::BGSpline::Components::BGCcCursorChangeLinear_PointReachedArgs* GetInstance(::System::Int32 index)
+		static ::BansheeGz::BGSpline::Components::BGCcCursorChangeLinear_PointReachedArgs* GetInstance(::System::Int32 a1)
 		{
-			return ((::BansheeGz::BGSpline::Components::BGCcCursorChangeLinear_PointReachedArgs*(*)(::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS_GETINSTANCE_OFFSET))(index);
+			return ((::BansheeGz::BGSpline::Components::BGCcCursorChangeLinear_PointReachedArgs*(*)(::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDARGS_GETINSTANCE_OFFSET))(a1);
 		}
 	};
 }

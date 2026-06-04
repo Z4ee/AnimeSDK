@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STAGEPRELOADCONFIG_METHOD_2_7201E095BFB49FD8_OFFSET UNITYSDK_OFFSET(0x18E914B0)
-#define RPG_GAMECORE_STAGEPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E91590)
+#define RPG_GAMECORE_STAGEPRELOADCONFIG_METHOD_2_AAAA35FEB5F9620D_OFFSET UNITYSDK_OFFSET(0x19CAE310)
+#define RPG_GAMECORE_STAGEPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CAE400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePreloadConfig_TypeDefinitionIndex = 15474;
+	inline static constexpr unsigned int StagePreloadConfig_TypeDefinitionIndex = 15537;
 
 	class StagePreloadConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPRELOADCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7201E095BFB49FD8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StagePreloadConfig*& a2)
+		static ::System::Void Method_2_AAAA35FEB5F9620D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StagePreloadConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StagePreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPRELOADCONFIG_METHOD_2_7201E095BFB49FD8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StagePreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPRELOADCONFIG_METHOD_2_AAAA35FEB5F9620D_OFFSET))(a1, a2);
 		}
 	};
 }

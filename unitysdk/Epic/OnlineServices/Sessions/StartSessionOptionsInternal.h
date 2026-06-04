@@ -6,33 +6,33 @@ namespace Epic::OnlineServices::Sessions { class StartSessionOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A0F0)
-#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x19FD0)
-#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x19F00)
-#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x19E50)
+#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A9D0)
+#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x1A9C0)
+#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1A8F0)
+#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x1A840)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int StartSessionOptionsInternal_TypeDefinitionIndex = 41385;
+	inline static constexpr unsigned int StartSessionOptionsInternal_TypeDefinitionIndex = 42188;
 
 	struct alignas(8) StartSessionOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_SessionName; // 0x18
 
-		::System::Void set_SessionName(::System::String* value)
+		::System::Void set_SessionName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::StartSessionOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::StartSessionOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::StartSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::StartSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

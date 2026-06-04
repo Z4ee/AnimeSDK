@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerBanModEntranceType_TypeDefinitionIndex = 12427;
+	inline static constexpr unsigned int DrinkMakerBanModEntranceType_TypeDefinitionIndex = 12515;
 
 	enum class DrinkMakerBanModEntranceType : ::System::Int32
 	{

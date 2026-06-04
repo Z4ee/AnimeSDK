@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELSUBMAPENTITYBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A5AB90)
-#define RPG_GAMECORE_LEVELSUBMAPENTITYBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A5ACD0)
+#define RPG_GAMECORE_LEVELSUBMAPENTITYBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1988B9A0)
+#define RPG_GAMECORE_LEVELSUBMAPENTITYBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1988BAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSubmapEntityBakedInfo_TypeDefinitionIndex = 16259;
+	inline static constexpr unsigned int LevelSubmapEntityBakedInfo_TypeDefinitionIndex = 16293;
 
 	class LevelSubmapEntityBakedInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSUBMAPENTITYBAKEDINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelSubmapEntityBakedInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelSubmapEntityBakedInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelSubmapEntityBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSUBMAPENTITYBAKEDINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelSubmapEntityBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSUBMAPENTITYBAKEDINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

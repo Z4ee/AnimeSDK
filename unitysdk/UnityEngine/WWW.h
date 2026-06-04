@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define UNITYENGINE_WWW_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5BF890)
-#define UNITYENGINE_WWW_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1A5BF2F0)
-#define UNITYENGINE_WWW_GET_ISDONE_OFFSET UNITYSDK_OFFSET(0x1A5BF410)
-#define UNITYENGINE_WWW_GET_KEEPWAITING_OFFSET UNITYSDK_OFFSET(0x1A5BF860)
-#define UNITYENGINE_WWW_GET_RESPONSEHEADERS_OFFSET UNITYSDK_OFFSET(0x1A5BF430)
-#define UNITYENGINE_WWW_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1A5BF690)
-#define UNITYENGINE_WWW_GET_URL_OFFSET UNITYSDK_OFFSET(0x1A5BF840)
-#define UNITYENGINE_WWW_WAITUNTILDONEIFPOSSIBLE_OFFSET UNITYSDK_OFFSET(0x1A5BF700)
-#define UNITYENGINE_WWW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A5BF050)
-#define UNITYENGINE_WWW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5BF010)
+#define UNITYENGINE_WWW_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B40BCA0)
+#define UNITYENGINE_WWW_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1B40B700)
+#define UNITYENGINE_WWW_GET_ISDONE_OFFSET UNITYSDK_OFFSET(0x1B40B820)
+#define UNITYENGINE_WWW_GET_KEEPWAITING_OFFSET UNITYSDK_OFFSET(0x1B40BC70)
+#define UNITYENGINE_WWW_GET_RESPONSEHEADERS_OFFSET UNITYSDK_OFFSET(0x1B40B840)
+#define UNITYENGINE_WWW_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1B40BAA0)
+#define UNITYENGINE_WWW_GET_URL_OFFSET UNITYSDK_OFFSET(0x1B40BC50)
+#define UNITYENGINE_WWW_WAITUNTILDONEIFPOSSIBLE_OFFSET UNITYSDK_OFFSET(0x1B40BB10)
+#define UNITYENGINE_WWW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B40B460)
+#define UNITYENGINE_WWW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40B420)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WWW_TypeDefinitionIndex = 5999;
+	inline static constexpr unsigned int WWW_TypeDefinitionIndex = 6276;
 
 	class WWW : public ::UnityEngine::CustomYieldInstruction
 	{
@@ -27,14 +27,14 @@ namespace UnityEngine
 		::UnityEngine::Networking::UnityWebRequest* _uwr; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _responseHeaders; // 0x18
 
-		::System::Void _ctor(::System::String* url)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_WWW__CTOR_OFFSET))(this, url);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_WWW__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::String* url, ::Il2CppArray<::System::Byte>* postData, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers)
+		::System::Void _ctor_1(::System::String* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_WWW__CTOR_1_OFFSET))(this, url, postData, headers);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_WWW__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* get_error()

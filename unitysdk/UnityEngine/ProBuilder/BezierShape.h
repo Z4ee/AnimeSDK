@@ -6,17 +6,17 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_GET_ISEDITING_OFFSET UNITYSDK_OFFSET(0x1A1F6860)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_GET_MESH_OFFSET UNITYSDK_OFFSET(0x1A1F6880)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_INIT_OFFSET UNITYSDK_OFFSET(0x1A1F6940)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_REFRESH_OFFSET UNITYSDK_OFFSET(0x1A1F6A00)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_ISEDITING_OFFSET UNITYSDK_OFFSET(0x1A1F6870)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_MESH_OFFSET UNITYSDK_OFFSET(0x1A1F6930)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F6DF0)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_GET_ISEDITING_OFFSET UNITYSDK_OFFSET(0x1B05B200)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_GET_MESH_OFFSET UNITYSDK_OFFSET(0x1B05B220)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_INIT_OFFSET UNITYSDK_OFFSET(0x1B05B2E0)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_REFRESH_OFFSET UNITYSDK_OFFSET(0x1B05B470)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_ISEDITING_OFFSET UNITYSDK_OFFSET(0x1B05B210)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_MESH_OFFSET UNITYSDK_OFFSET(0x1B05B2D0)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B05B850)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int BezierShape_TypeDefinitionIndex = 39893;
+	inline static constexpr unsigned int BezierShape_TypeDefinitionIndex = 40720;
 
 	class BezierShape : public ::UnityEngine::MonoBehaviour
 	{
@@ -40,9 +40,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERSHAPE_GET_ISEDITING_OFFSET))(this);
 		}
 
-		::System::Void set_isEditing(::System::Boolean value)
+		::System::Void set_isEditing(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_ISEDITING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_ISEDITING_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::ProBuilder::ProBuilderMesh* get_mesh()
@@ -50,9 +50,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::ProBuilderMesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERSHAPE_GET_MESH_OFFSET))(this);
 		}
 
-		::System::Void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value)
+		::System::Void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_MESH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_MESH_OFFSET))(this, a1);
 		}
 
 		::System::Void Init()

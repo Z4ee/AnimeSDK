@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimDefaultCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGLOBALCAMERACONFIG_METHOD_2_B9F949D4DDF239AF_OFFSET UNITYSDK_OFFSET(0x18902FD0)
-#define RPG_GAMECORE_FIVEDIMGLOBALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x189046E0)
+#define RPG_GAMECORE_FIVEDIMGLOBALCAMERACONFIG_METHOD_2_A6CB6B9D45827AB4_OFFSET UNITYSDK_OFFSET(0x1973EEA0)
+#define RPG_GAMECORE_FIVEDIMGLOBALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19740DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGlobalCameraConfig_TypeDefinitionIndex = 15791;
+	inline static constexpr unsigned int FiveDimGlobalCameraConfig_TypeDefinitionIndex = 15846;
 
 	class FiveDimGlobalCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGLOBALCAMERACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B9F949D4DDF239AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGlobalCameraConfig*& a2)
+		static ::System::Void Method_2_A6CB6B9D45827AB4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGlobalCameraConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGlobalCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGLOBALCAMERACONFIG_METHOD_2_B9F949D4DDF239AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGlobalCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGLOBALCAMERACONFIG_METHOD_2_A6CB6B9D45827AB4_OFFSET))(a1, a2);
 		}
 	};
 }

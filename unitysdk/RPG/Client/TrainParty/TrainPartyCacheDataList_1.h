@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyCacheDataList_1_TypeDefinitionIndex = 68628;
+	inline static constexpr unsigned int TrainPartyCacheDataList_1_TypeDefinitionIndex = 69440;
 
 	template <typename T>
 	class TrainPartyCacheDataList_1 : public ::System::Object

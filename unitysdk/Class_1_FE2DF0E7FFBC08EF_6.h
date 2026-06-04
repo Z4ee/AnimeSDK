@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class Action; }
+
+#define CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_256B6E165124982E_OFFSET UNITYSDK_OFFSET(0xAF211F0)
+#define CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xAF20E70)
+#define CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_394C43DAA425E94B_OFFSET UNITYSDK_OFFSET(0xAF20F30)
+#define CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_96A53A17AC5D0E93_OFFSET UNITYSDK_OFFSET(0xAF210C0)
+#define CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xAF20EF0)
+#define CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xAF20EB0)
+#define CLASS_1_FE2DF0E7FFBC08EF_6__CTOR_OFFSET UNITYSDK_OFFSET(0xAF21250)
+
+inline static constexpr unsigned int Class_1_FE2DF0E7FFBC08EF_6_TypeDefinitionIndex = 56525;
+
+class Class_1_FE2DF0E7FFBC08EF_6 : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE2DF0E7FFBC08EF_6__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_394C43DAA425E94B(::System::Action* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_394C43DAA425E94B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_96A53A17AC5D0E93()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_96A53A17AC5D0E93_OFFSET))(this);
+	}
+
+	::System::Void Method_1_256B6E165124982E(::System::Action* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_FE2DF0E7FFBC08EF_6_METHOD_1_256B6E165124982E_OFFSET))(this, a1);
+	}
+};

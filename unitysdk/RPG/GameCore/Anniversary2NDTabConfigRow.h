@@ -7,30 +7,30 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186A7380)
-#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186A75F0)
+#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1947BD10)
+#define RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1947BF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Anniversary2NDTabConfigRow_TypeDefinitionIndex = 11953;
+	inline static constexpr unsigned int Anniversary2NDTabConfigRow_TypeDefinitionIndex = 12046;
 
 	class Anniversary2NDTabConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* TabIcon; // 0x10
 		::Il2CppArray<::System::UInt32>* RelatedAnniversaryContentList; // 0x18
-		::RPG::Client::TextID TabName; // 0x20
-		::RPG::GameCore::Anniversary2NDPanelEnum PanelType; // 0x30
-		::System::UInt32 TabID; // 0x34
+		::RPG::GameCore::Anniversary2NDPanelEnum PanelType; // 0x20
+		::System::UInt32 TabID; // 0x24
+		::RPG::Client::TextID TabName; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::Anniversary2NDTabConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Anniversary2NDTabConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Anniversary2NDTabConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Anniversary2NDTabConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANNIVERSARY2NDTABCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

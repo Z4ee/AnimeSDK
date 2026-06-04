@@ -5,29 +5,29 @@
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xA691490)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xA6914F0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBDE1D70)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xBDE1DD0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraInjuredCommand_TypeDefinitionIndex = 70387;
+	inline static constexpr unsigned int ChimeraInjuredCommand_TypeDefinitionIndex = 71203;
 
 	class ChimeraInjuredCommand : public ::System::Object
 	{
 	public:
-		::System::UInt32 InjuredChimeraID; // 0x10
-		::System::Single ChangeVal; // 0x14
-		::System::Boolean IsByWork; // 0x18
-		::System::Single CurVal; // 0x1C
+		::System::Single ChangeVal; // 0x10
+		::System::Single CurVal; // 0x14
+		::System::UInt32 InjuredChimeraID; // 0x18
+		::System::Boolean IsByWork; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 id, ::System::Single changeVal, ::System::Single curVal, ::System::Boolean isByWork)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND__CTOR_OFFSET))(this, id, changeVal, curVal, isByWork);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Execute(::RPG::Client::Prop::ChimeraBattlePuzzleBoard* puzzle, ::System::Action* finishCallback)
+		::System::Void Execute(::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND_EXECUTE_OFFSET))(this, puzzle, finishCallback);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND_EXECUTE_OFFSET))(this, a1, a2);
 		}
 	};
 }

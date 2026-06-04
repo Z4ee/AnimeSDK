@@ -7,17 +7,17 @@ namespace RPG::Client { class MonoEffectPluginSpreadMultiplier; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xB781DA0)
-#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER_METHOD_4_DF73D58058BE2916_OFFSET UNITYSDK_OFFSET(0xB781F60)
-#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xB781E10)
-#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB782090)
-#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xB782130)
-#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xB782140)
-#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB782150)
+#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xCF251C0)
+#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER_METHOD_4_DF73D58058BE2916_OFFSET UNITYSDK_OFFSET(0xCF25380)
+#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xCF25230)
+#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCF254B0)
+#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xCF25550)
+#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xCF25560)
+#define RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCF25570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindScanStartTrigger_TypeDefinitionIndex = 52998;
+	inline static constexpr unsigned int TimeRewindScanStartTrigger_TypeDefinitionIndex = 53708;
 
 	class TimeRewindScanStartTrigger : public ::UnityEngine::StateMachineBehaviour
 	{
@@ -53,14 +53,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER_METHOD_4_DF73D58058BE2916_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSCANSTARTTRIGGER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

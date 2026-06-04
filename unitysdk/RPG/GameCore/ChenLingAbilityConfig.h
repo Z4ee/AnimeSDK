@@ -8,12 +8,12 @@ namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGABILITYCONFIG_METHOD_2_7C5FA93F024982BF_OFFSET UNITYSDK_OFFSET(0x187DCB30)
-#define RPG_GAMECORE_CHENLINGABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187DCD40)
+#define RPG_GAMECORE_CHENLINGABILITYCONFIG_METHOD_2_8861A2F6987B016C_OFFSET UNITYSDK_OFFSET(0x1961A580)
+#define RPG_GAMECORE_CHENLINGABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1961A790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingAbilityConfig_TypeDefinitionIndex = 14867;
+	inline static constexpr unsigned int ChenLingAbilityConfig_TypeDefinitionIndex = 14931;
 
 	class ChenLingAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGABILITYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7C5FA93F024982BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingAbilityConfig*& a2)
+		static ::System::Void Method_2_8861A2F6987B016C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingAbilityConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingAbilityConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGABILITYCONFIG_METHOD_2_7C5FA93F024982BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingAbilityConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGABILITYCONFIG_METHOD_2_8861A2F6987B016C_OFFSET))(a1, a2);
 		}
 	};
 }

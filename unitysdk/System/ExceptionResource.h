@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int ExceptionResource_TypeDefinitionIndex = 337;
+	inline static constexpr unsigned int ExceptionResource_TypeDefinitionIndex = 336;
 
 	enum class ExceptionResource : ::System::Int32
 	{

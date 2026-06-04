@@ -5,17 +5,17 @@
 namespace RPG::Client { class StoryLineData; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_DAD2109A2D34346D_METHOD_1_5354A13DDABA2EFA_OFFSET UNITYSDK_OFFSET(0x12AF8FD0)
-#define CLASS_1_DAD2109A2D34346D_METHOD_1_DB5D297A176C2473_OFFSET UNITYSDK_OFFSET(0x12AF8F70)
-#define CLASS_1_DAD2109A2D34346D__CTOR_OFFSET UNITYSDK_OFFSET(0x12AF8E40)
+#define CLASS_1_DAD2109A2D34346D_METHOD_1_5354A13DDABA2EFA_OFFSET UNITYSDK_OFFSET(0x112A5460)
+#define CLASS_1_DAD2109A2D34346D_METHOD_1_DB5D297A176C2473_OFFSET UNITYSDK_OFFSET(0x112A5400)
+#define CLASS_1_DAD2109A2D34346D__CTOR_OFFSET UNITYSDK_OFFSET(0x112A52D0)
 
-inline static constexpr unsigned int Class_1_DAD2109A2D34346D_TypeDefinitionIndex = 68873;
+inline static constexpr unsigned int Class_1_DAD2109A2D34346D_TypeDefinitionIndex = 69685;
 
 class Class_1_DAD2109A2D34346D : public ::System::Object
 {
 public:
-	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_1; // 0x10
-	::RPG::Client::StoryLineData* Field_1_0; // 0x18
+	::RPG::Client::StoryLineData* Field_1_0; // 0x10
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_1; // 0x18
 
 	::System::Void _ctor(::System::UInt32 a1)
 	{

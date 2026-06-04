@@ -8,20 +8,20 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGameSt
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGameStartCurve___c__DisplayClass37_0; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA6D2030)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__0_OFFSET UNITYSDK_OFFSET(0xA6D3560)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__1_OFFSET UNITYSDK_OFFSET(0xA6D3740)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBE23100)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__0_OFFSET UNITYSDK_OFFSET(0xBE24680)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__1_OFFSET UNITYSDK_OFFSET(0xBE248A0)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c__DisplayClass37_1_TypeDefinitionIndex = 70553;
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c__DisplayClass37_1_TypeDefinitionIndex = 71370;
 
 	class FourRotateVoxelGameStartCurve___c__DisplayClass37_1 : public ::System::Object
 	{
 	public:
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve___c__DisplayClass37_0* CS___8__locals1; // 0x10
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve_Class_1_CFEC17D7952BD0DC* colorLiquidEffectData; // 0x18
-		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* __9__1; // 0x20
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve_Class_1_CFEC17D7952BD0DC* colorLiquidEffectData; // 0x10
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* __9__1; // 0x18
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve___c__DisplayClass37_0* CS___8__locals1; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -33,9 +33,9 @@ namespace RPG::Client::LittleGame::FourRotateVoxel
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__0_OFFSET))(this);
 		}
 
-		::System::Void __SprayLiquidToBrick2D_b__1(::RPG::Client::MonoEffect* effect, ::RPG::Client::TriggerEffectCallbackParams callbackParams)
+		::System::Void __SprayLiquidToBrick2D_b__1(::RPG::Client::MonoEffect* a1, ::RPG::Client::TriggerEffectCallbackParams a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__1_OFFSET))(this, effect, callbackParams);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__1_OFFSET))(this, a1, a2);
 		}
 	};
 }

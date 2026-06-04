@@ -5,10 +5,10 @@
 namespace RPG::Client { class ST_Parkour_ByCompareRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7B4568DFACDC8DFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9383EA0)
-#define CLASS_3_7B4568DFACDC8DFA__CTOR_OFFSET UNITYSDK_OFFSET(0x9383E70)
+#define CLASS_3_7B4568DFACDC8DFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13622FD0)
+#define CLASS_3_7B4568DFACDC8DFA__CTOR_OFFSET UNITYSDK_OFFSET(0x13622FA0)
 
-inline static constexpr unsigned int Class_3_7B4568DFACDC8DFA_TypeDefinitionIndex = 48129;
+inline static constexpr unsigned int Class_3_7B4568DFACDC8DFA_TypeDefinitionIndex = 48747;
 
 class Class_3_7B4568DFACDC8DFA : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::Client::ST_Parkour_ByCompareRank*>
 {

@@ -8,24 +8,24 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22EC740)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x22EC700)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22EC6E0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1A47FDE0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1A47F980)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1A47F9B0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1A47F950)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22EC6D0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x22EC4B0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x22EC4E0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x22EC510)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_4_OFFSET UNITYSDK_OFFSET(0x22EC540)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_5_OFFSET UNITYSDK_OFFSET(0x22EC600)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x22EC480)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x388AC00)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x388ABC0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x388ABA0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B2CFFB0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1B2CFBB0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1B2CFBE0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B2CFB80)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x388AB90)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x388A970)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x388A9A0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x388A9D0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_4_OFFSET UNITYSDK_OFFSET(0x388AA00)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_5_OFFSET UNITYSDK_OFFSET(0x388AAC0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x388A940)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderTargetIdentifier_TypeDefinitionIndex = 4519;
+	inline static constexpr unsigned int RenderTargetIdentifier_TypeDefinitionIndex = 4693;
 
 	struct alignas(8) RenderTargetIdentifier
 	{
@@ -37,49 +37,49 @@ namespace UnityEngine::Rendering
 		::UnityEngine::CubemapFace m_CubeFace; // 0x2C
 		::System::Int32 m_DepthSlice; // 0x30
 
-		::System::Void _ctor(::UnityEngine::Rendering::BuiltinRenderTextureType type)
+		::System::Void _ctor(::UnityEngine::Rendering::BuiltinRenderTextureType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BuiltinRenderTextureType))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BuiltinRenderTextureType))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Int32 nameID)
+		::System::Void _ctor_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_1_OFFSET))(this, nameID);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Int32 nameID, ::System::Int32 mipLevel, ::UnityEngine::CubemapFace cubeFace, ::System::Int32 depthSlice)
+		::System::Void _ctor_2(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::CubemapFace a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_2_OFFSET))(this, nameID, mipLevel, cubeFace, depthSlice);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_2_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_3(::UnityEngine::Rendering::RenderTargetIdentifier renderTargetIdentifier, ::System::Int32 mipLevel, ::UnityEngine::CubemapFace cubeFace, ::System::Int32 depthSlice)
+		::System::Void _ctor_3(::UnityEngine::Rendering::RenderTargetIdentifier a1, ::System::Int32 a2, ::UnityEngine::CubemapFace a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_3_OFFSET))(this, renderTargetIdentifier, mipLevel, cubeFace, depthSlice);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_3_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_4(::UnityEngine::Texture* tex)
+		::System::Void _ctor_4(::UnityEngine::Texture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_4_OFFSET))(this, tex);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_4_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_5(::UnityEngine::Texture* tex, ::System::Int32 mipLevel, ::UnityEngine::CubemapFace cubeFace, ::System::Int32 depthSlice)
+		::System::Void _ctor_5(::UnityEngine::Texture* a1, ::System::Int32 a2, ::UnityEngine::CubemapFace a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_5_OFFSET))(this, tex, mipLevel, cubeFace, depthSlice);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_5_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit(::UnityEngine::Rendering::BuiltinRenderTextureType type)
+		static ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit(::UnityEngine::Rendering::BuiltinRenderTextureType a1)
 		{
-			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::UnityEngine::Rendering::BuiltinRenderTextureType))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_OFFSET))(type);
+			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::UnityEngine::Rendering::BuiltinRenderTextureType))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit_1(::System::Int32 nameID)
+		static ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit_1(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_1_OFFSET))(nameID);
+			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_1_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit_2(::UnityEngine::Texture* tex)
+		static ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit_2(::UnityEngine::Texture* a1)
 		{
-			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_2_OFFSET))(tex);
+			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_2_OFFSET))(a1);
 		}
 
 		::System::String* ToString()
@@ -92,19 +92,19 @@ namespace UnityEngine::Rendering
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::UnityEngine::Rendering::RenderTargetIdentifier rhs)
+		::System::Boolean Equals(::UnityEngine::Rendering::RenderTargetIdentifier a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::RenderTargetIdentifier))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_OFFSET))(this, rhs);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::RenderTargetIdentifier))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Equality(::UnityEngine::Rendering::RenderTargetIdentifier lhs, ::UnityEngine::Rendering::RenderTargetIdentifier rhs)
+		static ::System::Boolean op_Equality(::UnityEngine::Rendering::RenderTargetIdentifier a1, ::UnityEngine::Rendering::RenderTargetIdentifier a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 	};
 }

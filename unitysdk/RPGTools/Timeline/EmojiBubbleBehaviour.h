@@ -8,16 +8,16 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPGTools::Timeline { class EmojiBubbleClip; }
 namespace UnityEngine { class Transform; }
 
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8C5E20)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_METHOD_2_525399CADFF973AB_OFFSET UNITYSDK_OFFSET(0xB8C6400)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8C5E40)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8C5E30)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C6890)
-#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8C68A0)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD0097E0)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_METHOD_2_525399CADFF973AB_OFFSET UNITYSDK_OFFSET(0xD009D00)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD009800)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD0097F0)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD00A190)
+#define RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD00A1A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmojiBubbleBehaviour_TypeDefinitionIndex = 44841;
+	inline static constexpr unsigned int EmojiBubbleBehaviour_TypeDefinitionIndex = 45394;
 
 	class EmojiBubbleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -34,9 +34,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::EmojiBubbleClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::EmojiBubbleClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::EmojiBubbleClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::EmojiBubbleClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::EmojiBubbleClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -49,9 +49,9 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Transform*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR_METHOD_2_525399CADFF973AB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOJIBUBBLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

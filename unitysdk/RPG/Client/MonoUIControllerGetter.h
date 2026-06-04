@@ -5,15 +5,15 @@
 namespace RPG::Client { class UIController; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOUICONTROLLERGETTER_GET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xAA0E500)
-#define RPG_CLIENT_MONOUICONTROLLERGETTER_GET_OFFSET UNITYSDK_OFFSET(0xAA0E570)
-#define RPG_CLIENT_MONOUICONTROLLERGETTER_SETCONTROLLER_OFFSET UNITYSDK_OFFSET(0xAA0E520)
-#define RPG_CLIENT_MONOUICONTROLLERGETTER_SET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xAA0E510)
-#define RPG_CLIENT_MONOUICONTROLLERGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0xAA0E660)
+#define RPG_CLIENT_MONOUICONTROLLERGETTER_GET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xC15C730)
+#define RPG_CLIENT_MONOUICONTROLLERGETTER_GET_OFFSET UNITYSDK_OFFSET(0xC15C7A0)
+#define RPG_CLIENT_MONOUICONTROLLERGETTER_SETCONTROLLER_OFFSET UNITYSDK_OFFSET(0xC15C750)
+#define RPG_CLIENT_MONOUICONTROLLERGETTER_SET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xC15C740)
+#define RPG_CLIENT_MONOUICONTROLLERGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0xC15C890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIControllerGetter_TypeDefinitionIndex = 65755;
+	inline static constexpr unsigned int MonoUIControllerGetter_TypeDefinitionIndex = 66689;
 
 	class MonoUIControllerGetter : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,19 +30,19 @@ namespace RPG::Client
 			return ((::RPG::Client::UIController*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUICONTROLLERGETTER_GET_CONTROLLER_OFFSET))(this);
 		}
 
-		::System::Void set_Controller(::RPG::Client::UIController* value)
+		::System::Void set_Controller(::RPG::Client::UIController* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUICONTROLLERGETTER_SET_CONTROLLER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUICONTROLLERGETTER_SET_CONTROLLER_OFFSET))(this, a1);
 		}
 
-		::System::Void SetController(::RPG::Client::UIController* controller)
+		::System::Void SetController(::RPG::Client::UIController* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUICONTROLLERGETTER_SETCONTROLLER_OFFSET))(this, controller);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUICONTROLLERGETTER_SETCONTROLLER_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::MonoUIControllerGetter* Get(::UnityEngine::Transform* target)
+		static ::RPG::Client::MonoUIControllerGetter* Get(::UnityEngine::Transform* a1)
 		{
-			return ((::RPG::Client::MonoUIControllerGetter*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUICONTROLLERGETTER_GET_OFFSET))(target);
+			return ((::RPG::Client::MonoUIControllerGetter*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUICONTROLLERGETTER_GET_OFFSET))(a1);
 		}
 	};
 }

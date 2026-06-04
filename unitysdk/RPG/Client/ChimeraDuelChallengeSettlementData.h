@@ -5,31 +5,31 @@
 
 namespace RPG::Client { class ChimeraDuelBattlePageViewModel_TeamViewModel; }
 
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA0003E0)
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ALLYTEAM_OFFSET UNITYSDK_OFFSET(0xA000CA0)
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ENEMYREASON_OFFSET UNITYSDK_OFFSET(0xA000D00)
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ENEMYTEAM_OFFSET UNITYSDK_OFFSET(0xA000CC0)
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ISMASTER_OFFSET UNITYSDK_OFFSET(0xA000D20)
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_REASON_OFFSET UNITYSDK_OFFSET(0xA000CE0)
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ALLYTEAM_OFFSET UNITYSDK_OFFSET(0xA000CB0)
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ENEMYREASON_OFFSET UNITYSDK_OFFSET(0xA000D10)
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ENEMYTEAM_OFFSET UNITYSDK_OFFSET(0xA000CD0)
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ISMASTER_OFFSET UNITYSDK_OFFSET(0xA000D30)
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_REASON_OFFSET UNITYSDK_OFFSET(0xA000CF0)
-#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA000D40)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB67B580)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ALLYTEAM_OFFSET UNITYSDK_OFFSET(0xB67C6F0)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ENEMYREASON_OFFSET UNITYSDK_OFFSET(0xB67C750)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ENEMYTEAM_OFFSET UNITYSDK_OFFSET(0xB67C710)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ISMASTER_OFFSET UNITYSDK_OFFSET(0xB67C770)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_REASON_OFFSET UNITYSDK_OFFSET(0xB67C730)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ALLYTEAM_OFFSET UNITYSDK_OFFSET(0xB67C700)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ENEMYREASON_OFFSET UNITYSDK_OFFSET(0xB67C760)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ENEMYTEAM_OFFSET UNITYSDK_OFFSET(0xB67C720)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ISMASTER_OFFSET UNITYSDK_OFFSET(0xB67C780)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_REASON_OFFSET UNITYSDK_OFFSET(0xB67C740)
+#define RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB67C790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelChallengeSettlementData_TypeDefinitionIndex = 58305;
+	inline static constexpr unsigned int ChimeraDuelChallengeSettlementData_TypeDefinitionIndex = 59235;
 
 	class ChimeraDuelChallengeSettlementData : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* _AllyTeam_k__BackingField; // 0x10
-		::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* _EnemyTeam_k__BackingField; // 0x18
-		::RPG::Client::LittleGame::ChimeraDuelSettleReason _Reason_k__BackingField; // 0x20
-		::System::Boolean _IsMaster_k__BackingField; // 0x24
-		::RPG::Client::LittleGame::ChimeraDuelSettleReason _EnemyReason_k__BackingField; // 0x28
+		::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* _EnemyTeam_k__BackingField; // 0x10
+		::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* _AllyTeam_k__BackingField; // 0x18
+		::RPG::Client::LittleGame::ChimeraDuelSettleReason _EnemyReason_k__BackingField; // 0x20
+		::RPG::Client::LittleGame::ChimeraDuelSettleReason _Reason_k__BackingField; // 0x24
+		::System::Boolean _IsMaster_k__BackingField; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ALLYTEAM_OFFSET))(this);
 		}
 
-		::System::Void set_AllyTeam(::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* value)
+		::System::Void set_AllyTeam(::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ALLYTEAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ALLYTEAM_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* get_EnemyTeam()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ENEMYTEAM_OFFSET))(this);
 		}
 
-		::System::Void set_EnemyTeam(::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* value)
+		::System::Void set_EnemyTeam(::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ENEMYTEAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ENEMYTEAM_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::LittleGame::ChimeraDuelSettleReason get_Reason()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::RPG::Client::LittleGame::ChimeraDuelSettleReason(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_REASON_OFFSET))(this);
 		}
 
-		::System::Void set_Reason(::RPG::Client::LittleGame::ChimeraDuelSettleReason value)
+		::System::Void set_Reason(::RPG::Client::LittleGame::ChimeraDuelSettleReason a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChimeraDuelSettleReason))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_REASON_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChimeraDuelSettleReason))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_REASON_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::LittleGame::ChimeraDuelSettleReason get_EnemyReason()
@@ -71,9 +71,9 @@ namespace RPG::Client
 			return ((::RPG::Client::LittleGame::ChimeraDuelSettleReason(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ENEMYREASON_OFFSET))(this);
 		}
 
-		::System::Void set_EnemyReason(::RPG::Client::LittleGame::ChimeraDuelSettleReason value)
+		::System::Void set_EnemyReason(::RPG::Client::LittleGame::ChimeraDuelSettleReason a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChimeraDuelSettleReason))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ENEMYREASON_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChimeraDuelSettleReason))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ENEMYREASON_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsMaster()
@@ -81,14 +81,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_GET_ISMASTER_OFFSET))(this);
 		}
 
-		::System::Void set_IsMaster(::System::Boolean value)
+		::System::Void set_IsMaster(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ISMASTER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_SET_ISMASTER_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ChimeraDuelChallengeSettlementData* Create(::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* allyTeam, ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* enemyTeam, ::RPG::Client::LittleGame::ChimeraDuelSettleReason reason, ::System::Boolean isMaster)
+		static ::RPG::Client::ChimeraDuelChallengeSettlementData* Create(::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* a1, ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* a2, ::RPG::Client::LittleGame::ChimeraDuelSettleReason a3, ::System::Boolean a4)
 		{
-			return ((::RPG::Client::ChimeraDuelChallengeSettlementData*(*)(::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*, ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*, ::RPG::Client::LittleGame::ChimeraDuelSettleReason, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_CREATE_OFFSET))(allyTeam, enemyTeam, reason, isMaster);
+			return ((::RPG::Client::ChimeraDuelChallengeSettlementData*(*)(::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*, ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*, ::RPG::Client::LittleGame::ChimeraDuelSettleReason, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHALLENGESETTLEMENTDATA_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

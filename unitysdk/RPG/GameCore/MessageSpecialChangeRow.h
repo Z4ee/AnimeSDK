@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MESSAGESPECIALCHANGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AE7810)
-#define RPG_GAMECORE_MESSAGESPECIALCHANGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE7950)
+#define RPG_GAMECORE_MESSAGESPECIALCHANGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19916A80)
+#define RPG_GAMECORE_MESSAGESPECIALCHANGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19916BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageSpecialChangeRow_TypeDefinitionIndex = 13677;
+	inline static constexpr unsigned int MessageSpecialChangeRow_TypeDefinitionIndex = 13746;
 
 	class MessageSpecialChangeRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 DialogShowID; // 0x10
-		::System::UInt32 ItemID; // 0x14
+		::System::UInt32 ItemID; // 0x10
+		::System::UInt32 DialogShowID; // 0x14
 		::RPG::GameCore::MessageSpecialChangeType ActionType; // 0x18
 
 		::System::Void _ctor()
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGESPECIALCHANGEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MessageSpecialChangeRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MessageSpecialChangeRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MessageSpecialChangeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGESPECIALCHANGEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MessageSpecialChangeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGESPECIALCHANGEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

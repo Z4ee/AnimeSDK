@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_7ACCB923E979A908.h"
+#include "unitysdk/Class_1_3713064DEE761936.h"
 
 namespace RPG::Client { class PlanetFesFloatingController; }
 
-#define CLASS_2_17282789426EAD93_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x973F860)
-#define CLASS_2_17282789426EAD93__CTOR_OFFSET UNITYSDK_OFFSET(0x973F8B0)
-#define CLASS_2_17282789426EAD93___IFIXBASEPROXY_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x973F8C0)
+#define CLASS_2_17282789426EAD93_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xA734B00)
+#define CLASS_2_17282789426EAD93__CTOR_OFFSET UNITYSDK_OFFSET(0xA734B50)
+#define CLASS_2_17282789426EAD93___IFIXBASEPROXY_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xA734B60)
 
-inline static constexpr unsigned int Class_2_17282789426EAD93_TypeDefinitionIndex = 68729;
+inline static constexpr unsigned int Class_2_17282789426EAD93_TypeDefinitionIndex = 69541;
 
-class Class_2_17282789426EAD93 : public ::Class_1_7ACCB923E979A908
+class Class_2_17282789426EAD93 : public ::Class_1_3713064DEE761936
 {
 public:
 	::RPG::Client::PlanetFesFloatingController* Field_2_0; // 0x20

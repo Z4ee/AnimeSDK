@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class BattleFullScreenTransfer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6AA65D9852A19501_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x117D5BC0)
-#define CLASS_3_6AA65D9852A19501__CTOR_OFFSET UNITYSDK_OFFSET(0x117D5B90)
+#define CLASS_3_6AA65D9852A19501_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB783870)
+#define CLASS_3_6AA65D9852A19501__CTOR_OFFSET UNITYSDK_OFFSET(0xB783840)
 
-inline static constexpr unsigned int Class_3_6AA65D9852A19501_TypeDefinitionIndex = 53436;
+inline static constexpr unsigned int Class_3_6AA65D9852A19501_TypeDefinitionIndex = 54149;
 
 class Class_3_6AA65D9852A19501 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::BattleFullScreenTransfer*>
 {

@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::UI { class PayParentConsentSentDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17685B90)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x17685C90)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18457330)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18457440)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int PayParentConsentSentDialog___c__DisplayClass30_0_TypeDefinitionIndex = 7406;
+	inline static constexpr unsigned int PayParentConsentSentDialog___c__DisplayClass30_0_TypeDefinitionIndex = 8309;
 
 	class PayParentConsentSentDialog___c__DisplayClass30_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG___C__DISPLAYCLASS30_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::UI::PayParentConsentSentDialog* dialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::UI::PayParentConsentSentDialog* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::PayParentConsentSentDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::PayParentConsentSentDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

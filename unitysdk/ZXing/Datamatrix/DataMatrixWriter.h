@@ -11,14 +11,14 @@ namespace ZXing::Datamatrix::Encoder { class DefaultPlacement; }
 namespace ZXing::Datamatrix::Encoder { class SymbolInfo; }
 namespace ZXing::QrCode::Internal { class ByteMatrix; }
 
-#define ZXING_DATAMATRIX_DATAMATRIXWRITER_CONVERTBYTEMATRIXTOBITMATRIX_OFFSET UNITYSDK_OFFSET(0x1A7455F0)
-#define ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODELOWLEVEL_OFFSET UNITYSDK_OFFSET(0x1A744930)
-#define ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1A7416C0)
-#define ZXING_DATAMATRIX_DATAMATRIXWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A745840)
+#define ZXING_DATAMATRIX_DATAMATRIXWRITER_CONVERTBYTEMATRIXTOBITMATRIX_OFFSET UNITYSDK_OFFSET(0x1B544E00)
+#define ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODELOWLEVEL_OFFSET UNITYSDK_OFFSET(0x1B544200)
+#define ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1B541A20)
+#define ZXING_DATAMATRIX_DATAMATRIXWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B545010)
 
 namespace ZXing::Datamatrix
 {
-	inline static constexpr unsigned int DataMatrixWriter_TypeDefinitionIndex = 6122;
+	inline static constexpr unsigned int DataMatrixWriter_TypeDefinitionIndex = 6495;
 
 	class DataMatrixWriter : public ::System::Object
 	{
@@ -28,19 +28,19 @@ namespace ZXing::Datamatrix
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_DATAMATRIXWRITER__CTOR_OFFSET))(this);
 		}
 
-		::ZXing::Common::BitMatrix* encode(::System::String* contents, ::ZXing::BarcodeFormat format, ::System::Int32 width, ::System::Int32 height, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* hints)
+		::ZXing::Common::BitMatrix* encode(::System::String* a1, ::ZXing::BarcodeFormat a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* a5)
 		{
-			return ((::ZXing::Common::BitMatrix*(*)(::PVOID, ::System::String*, ::ZXing::BarcodeFormat, ::System::Int32, ::System::Int32, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODE_OFFSET))(this, contents, format, width, height, hints);
+			return ((::ZXing::Common::BitMatrix*(*)(::PVOID, ::System::String*, ::ZXing::BarcodeFormat, ::System::Int32, ::System::Int32, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::ZXing::Common::BitMatrix* encodeLowLevel(::ZXing::Datamatrix::Encoder::DefaultPlacement* placement, ::ZXing::Datamatrix::Encoder::SymbolInfo* symbolInfo)
+		static ::ZXing::Common::BitMatrix* encodeLowLevel(::ZXing::Datamatrix::Encoder::DefaultPlacement* a1, ::ZXing::Datamatrix::Encoder::SymbolInfo* a2)
 		{
-			return ((::ZXing::Common::BitMatrix*(*)(::ZXing::Datamatrix::Encoder::DefaultPlacement*, ::ZXing::Datamatrix::Encoder::SymbolInfo*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODELOWLEVEL_OFFSET))(placement, symbolInfo);
+			return ((::ZXing::Common::BitMatrix*(*)(::ZXing::Datamatrix::Encoder::DefaultPlacement*, ::ZXing::Datamatrix::Encoder::SymbolInfo*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_DATAMATRIXWRITER_ENCODELOWLEVEL_OFFSET))(a1, a2);
 		}
 
-		static ::ZXing::Common::BitMatrix* convertByteMatrixToBitMatrix(::ZXing::QrCode::Internal::ByteMatrix* matrix)
+		static ::ZXing::Common::BitMatrix* convertByteMatrixToBitMatrix(::ZXing::QrCode::Internal::ByteMatrix* a1)
 		{
-			return ((::ZXing::Common::BitMatrix*(*)(::ZXing::QrCode::Internal::ByteMatrix*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_DATAMATRIXWRITER_CONVERTBYTEMATRIXTOBITMATRIX_OFFSET))(matrix);
+			return ((::ZXing::Common::BitMatrix*(*)(::ZXing::QrCode::Internal::ByteMatrix*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_DATAMATRIXWRITER_CONVERTBYTEMATRIXTOBITMATRIX_OFFSET))(a1);
 		}
 	};
 }

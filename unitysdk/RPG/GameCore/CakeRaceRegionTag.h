@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceRegionTag_TypeDefinitionIndex = 10505;
+	inline static constexpr unsigned int CakeRaceRegionTag_TypeDefinitionIndex = 10545;
 
 	enum class CakeRaceRegionTag : ::System::Int32
 	{

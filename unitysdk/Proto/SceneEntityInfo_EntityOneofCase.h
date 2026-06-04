@@ -3,15 +3,15 @@
 
 namespace Proto
 {
-	inline static constexpr unsigned int SceneEntityInfo_EntityOneofCase_TypeDefinitionIndex = 32028;
+	inline static constexpr unsigned int SceneEntityInfo_EntityOneofCase_TypeDefinitionIndex = 32137;
 
 	enum class SceneEntityInfo_EntityOneofCase : ::System::Int32
 	{
 		None = 0,
-		Actor = 1,
-		NpcMonster = 9,
-		Npc = 8,
-		Prop = 3,
-		SummonUnit = 11,
+		Actor = 12,
+		NpcMonster = 5,
+		Npc = 1,
+		Prop = 14,
+		SummonUnit = 15,
 	};
 }

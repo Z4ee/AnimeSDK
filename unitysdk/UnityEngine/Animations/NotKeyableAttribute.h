@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int NotKeyableAttribute_TypeDefinitionIndex = 5073;
+	inline static constexpr unsigned int NotKeyableAttribute_TypeDefinitionIndex = 5167;
 
 	class NotKeyableAttribute : public ::System::Attribute
 	{

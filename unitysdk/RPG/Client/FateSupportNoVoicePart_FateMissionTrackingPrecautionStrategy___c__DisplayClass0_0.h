@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA361F60)
-#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__TRYCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xA361F70)
+#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB9B5F40)
+#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__TRYCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xB9B5F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy___c__DisplayClass0_0_TypeDefinitionIndex = 59029;
+	inline static constexpr unsigned int FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy___c__DisplayClass0_0_TypeDefinitionIndex = 59959;
 
 	class FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy___c__DisplayClass0_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _TryCheck_b__0(::System::Boolean isOk)
+		::System::Void _TryCheck_b__0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__TRYCHECK_B__0_OFFSET))(this, isOk);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__TRYCHECK_B__0_OFFSET))(this, a1);
 		}
 	};
 }

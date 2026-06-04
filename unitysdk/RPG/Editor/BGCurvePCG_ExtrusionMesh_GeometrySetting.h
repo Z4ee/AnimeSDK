@@ -3,19 +3,19 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_1_BC892FF2CA890F74_Section;
+class Class_1_F0BC55524B5D6A07_Section;
 
-#define RPG_EDITOR_BGCURVEPCG_EXTRUSIONMESH_GEOMETRYSETTING__CCTOR_OFFSET UNITYSDK_OFFSET(0xB4FDB60)
+#define RPG_EDITOR_BGCURVEPCG_EXTRUSIONMESH_GEOMETRYSETTING__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC64CD0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_ExtrusionMesh_GeometrySetting_TypeDefinitionIndex = 48022;
+	inline static constexpr unsigned int BGCurvePCG_ExtrusionMesh_GeometrySetting_TypeDefinitionIndex = 48640;
 
 	struct alignas(8) BGCurvePCG_ExtrusionMesh_GeometrySetting
 	{
 		static ::RPG::Editor::BGCurvePCG_ExtrusionMesh_GeometrySetting* StaticGet_init()
 		{
-			return (::RPG::Editor::BGCurvePCG_ExtrusionMesh_GeometrySetting*)Il2CppClass::FromTypeDefinitionIndex(BGCurvePCG_ExtrusionMesh_GeometrySetting_TypeDefinitionIndex)->GetStaticField(0x3D6E0);
+			return (::RPG::Editor::BGCurvePCG_ExtrusionMesh_GeometrySetting*)Il2CppClass::FromTypeDefinitionIndex(BGCurvePCG_ExtrusionMesh_GeometrySetting_TypeDefinitionIndex)->GetStaticField(0x62C90);
 		}
 		::UnityEngine::Vector2 Range; // 0x10
 		::System::Single MeshSplit; // 0x18
@@ -27,7 +27,7 @@ namespace RPG::Editor
 		::System::Boolean IfUseSectionPoint; // 0x34
 		::System::Single LeftOffset; // 0x38
 		::System::Single RightOffset; // 0x3C
-		::Class_1_BC892FF2CA890F74_Section* Section; // 0x40
+		::Class_1_F0BC55524B5D6A07_Section* Section; // 0x40
 		::System::Boolean IfGenerateSection; // 0x48
 
 		static ::System::Void _cctor()

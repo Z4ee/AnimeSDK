@@ -7,14 +7,14 @@ namespace RPG::CustomRP { class MaterialLibrary; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_MOTIONBLURRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x18145C00)
-#define RPG_CUSTOMRP_MOTIONBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x18145D70)
-#define RPG_CUSTOMRP_MOTIONBLURRENDERER_SETUPOUTPUTRT_OFFSET UNITYSDK_OFFSET(0x18145BD0)
-#define RPG_CUSTOMRP_MOTIONBLURRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x181459E0)
+#define RPG_CUSTOMRP_MOTIONBLURRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x18EEBD00)
+#define RPG_CUSTOMRP_MOTIONBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x18EEBE70)
+#define RPG_CUSTOMRP_MOTIONBLURRENDERER_SETUPOUTPUTRT_OFFSET UNITYSDK_OFFSET(0x18EEBCD0)
+#define RPG_CUSTOMRP_MOTIONBLURRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EEBAE0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MotionBlurRenderer_TypeDefinitionIndex = 35206;
+	inline static constexpr unsigned int MotionBlurRenderer_TypeDefinitionIndex = 35506;
 
 	class MotionBlurRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
@@ -25,24 +25,24 @@ namespace RPG::CustomRP
 		::RPG::CustomRP::RTIDHandle _VelocityTileNeighborMax; // 0xA0
 		::RPG::CustomRP::RTIDHandle _Veloctiy; // 0xD8
 
-		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* matLib)
+		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MOTIONBLURRENDERER__CTOR_OFFSET))(this, matLib);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MOTIONBLURRENDERER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetupOutputRT(::System::Int32& outputID)
+		::System::Void SetupOutputRT(::System::Int32& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MOTIONBLURRENDERER_SETUPOUTPUTRT_OFFSET))(this, outputID);
+			return ((::System::Void(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MOTIONBLURRENDERER_SETUPOUTPUTRT_OFFSET))(this, a1);
 		}
 
-		::System::Void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* cmd)
+		::System::Void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MOTIONBLURRENDERER_FRAMECLEANUP_OFFSET))(this, cmd);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MOTIONBLURRENDERER_FRAMECLEANUP_OFFSET))(this, a1);
 		}
 
-		::System::Void InnerExecute(::UnityEngine::Rendering::CommandBuffer* cmd)
+		::System::Void InnerExecute(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MOTIONBLURRENDERER_INNEREXECUTE_OFFSET))(this, cmd);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MOTIONBLURRENDERER_INNEREXECUTE_OFFSET))(this, a1);
 		}
 	};
 }

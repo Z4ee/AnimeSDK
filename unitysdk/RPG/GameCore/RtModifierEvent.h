@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtModifierEvent_TypeDefinitionIndex = 16770;
+	inline static constexpr unsigned int RtModifierEvent_TypeDefinitionIndex = 16786;
 
 	enum class RtModifierEvent : ::System::Int32
 	{

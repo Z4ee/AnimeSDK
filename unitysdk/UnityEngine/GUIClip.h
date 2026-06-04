@@ -5,28 +5,28 @@
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_GUICLIP_GETMATRIX_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4AB2E0)
-#define UNITYENGINE_GUICLIP_GETMATRIX_OFFSET UNITYSDK_OFFSET(0x1A49FB80)
-#define UNITYENGINE_GUICLIP_GET_VISIBLERECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4AB240)
-#define UNITYENGINE_GUICLIP_GET_VISIBLERECT_OFFSET UNITYSDK_OFFSET(0x1A4A6A50)
-#define UNITYENGINE_GUICLIP_INTERNAL_GETCOUNT_OFFSET UNITYSDK_OFFSET(0x1A4AB290)
-#define UNITYENGINE_GUICLIP_INTERNAL_POPPARENTCLIP_OFFSET UNITYSDK_OFFSET(0x1A4AB320)
-#define UNITYENGINE_GUICLIP_INTERNAL_POP_OFFSET UNITYSDK_OFFSET(0x1A4A8D90)
-#define UNITYENGINE_GUICLIP_INTERNAL_PUSHPARENTCLIP_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4AB310)
-#define UNITYENGINE_GUICLIP_INTERNAL_PUSHPARENTCLIP_OFFSET UNITYSDK_OFFSET(0x1A4AB300)
-#define UNITYENGINE_GUICLIP_INTERNAL_PUSH_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4AB280)
-#define UNITYENGINE_GUICLIP_INTERNAL_PUSH_OFFSET UNITYSDK_OFFSET(0x1A4AB250)
-#define UNITYENGINE_GUICLIP_POP_OFFSET UNITYSDK_OFFSET(0x1A4AA520)
-#define UNITYENGINE_GUICLIP_PUSH_OFFSET UNITYSDK_OFFSET(0x1A4A8CE0)
-#define UNITYENGINE_GUICLIP_SETMATRIX_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4AB2F0)
-#define UNITYENGINE_GUICLIP_SETMATRIX_OFFSET UNITYSDK_OFFSET(0x1A49FC20)
-#define UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_OFFSET UNITYSDK_OFFSET(0x1A4AB330)
-#define UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_VECTOR2_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4AB2D0)
-#define UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_VECTOR2_OFFSET UNITYSDK_OFFSET(0x1A4AB2A0)
+#define UNITYENGINE_GUICLIP_GETMATRIX_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2F9AC0)
+#define UNITYENGINE_GUICLIP_GETMATRIX_OFFSET UNITYSDK_OFFSET(0x1B2EE7C0)
+#define UNITYENGINE_GUICLIP_GET_VISIBLERECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2F9A20)
+#define UNITYENGINE_GUICLIP_GET_VISIBLERECT_OFFSET UNITYSDK_OFFSET(0x1B2F55E0)
+#define UNITYENGINE_GUICLIP_INTERNAL_GETCOUNT_OFFSET UNITYSDK_OFFSET(0x1B2F9A70)
+#define UNITYENGINE_GUICLIP_INTERNAL_POPPARENTCLIP_OFFSET UNITYSDK_OFFSET(0x1B2F9B00)
+#define UNITYENGINE_GUICLIP_INTERNAL_POP_OFFSET UNITYSDK_OFFSET(0x1B2F7850)
+#define UNITYENGINE_GUICLIP_INTERNAL_PUSHPARENTCLIP_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2F9AF0)
+#define UNITYENGINE_GUICLIP_INTERNAL_PUSHPARENTCLIP_OFFSET UNITYSDK_OFFSET(0x1B2F9AE0)
+#define UNITYENGINE_GUICLIP_INTERNAL_PUSH_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2F9A60)
+#define UNITYENGINE_GUICLIP_INTERNAL_PUSH_OFFSET UNITYSDK_OFFSET(0x1B2F9A30)
+#define UNITYENGINE_GUICLIP_POP_OFFSET UNITYSDK_OFFSET(0x1B2F8FC0)
+#define UNITYENGINE_GUICLIP_PUSH_OFFSET UNITYSDK_OFFSET(0x1B2F77A0)
+#define UNITYENGINE_GUICLIP_SETMATRIX_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2F9AD0)
+#define UNITYENGINE_GUICLIP_SETMATRIX_OFFSET UNITYSDK_OFFSET(0x1B2EE860)
+#define UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_OFFSET UNITYSDK_OFFSET(0x1B2F9B10)
+#define UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_VECTOR2_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2F9AB0)
+#define UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_VECTOR2_OFFSET UNITYSDK_OFFSET(0x1B2F9A80)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIClip_TypeDefinitionIndex = 5117;
+	inline static constexpr unsigned int GUIClip_TypeDefinitionIndex = 5211;
 
 	class GUIClip : public ::System::Object
 	{
@@ -36,9 +36,9 @@ namespace UnityEngine
 			return ((::UnityEngine::Rect(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_GET_VISIBLERECT_OFFSET))();
 		}
 
-		static ::System::Void Internal_Push(::UnityEngine::Rect screenRect, ::UnityEngine::Vector2 scrollOffset, ::UnityEngine::Vector2 renderOffset, ::System::Boolean resetOffset)
+		static ::System::Void Internal_Push(::UnityEngine::Rect a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_INTERNAL_PUSH_OFFSET))(screenRect, scrollOffset, renderOffset, resetOffset);
+			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_INTERNAL_PUSH_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void Internal_Pop()
@@ -51,9 +51,9 @@ namespace UnityEngine
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_INTERNAL_GETCOUNT_OFFSET))();
 		}
 
-		static ::UnityEngine::Vector2 UnclipToWindow_Vector2(::UnityEngine::Vector2 pos)
+		static ::UnityEngine::Vector2 UnclipToWindow_Vector2(::UnityEngine::Vector2 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_VECTOR2_OFFSET))(pos);
+			return ((::UnityEngine::Vector2(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_VECTOR2_OFFSET))(a1);
 		}
 
 		static ::UnityEngine::Matrix4x4 GetMatrix()
@@ -61,14 +61,14 @@ namespace UnityEngine
 			return ((::UnityEngine::Matrix4x4(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_GETMATRIX_OFFSET))();
 		}
 
-		static ::System::Void SetMatrix(::UnityEngine::Matrix4x4 m)
+		static ::System::Void SetMatrix(::UnityEngine::Matrix4x4 a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_SETMATRIX_OFFSET))(m);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_SETMATRIX_OFFSET))(a1);
 		}
 
-		static ::System::Void Internal_PushParentClip(::UnityEngine::Matrix4x4 objectTransform, ::UnityEngine::Rect clipRect)
+		static ::System::Void Internal_PushParentClip(::UnityEngine::Matrix4x4 a1, ::UnityEngine::Rect a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_INTERNAL_PUSHPARENTCLIP_OFFSET))(objectTransform, clipRect);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_INTERNAL_PUSHPARENTCLIP_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Internal_PopParentClip()
@@ -76,9 +76,9 @@ namespace UnityEngine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_INTERNAL_POPPARENTCLIP_OFFSET))();
 		}
 
-		static ::System::Void Push(::UnityEngine::Rect screenRect, ::UnityEngine::Vector2 scrollOffset, ::UnityEngine::Vector2 renderOffset, ::System::Boolean resetOffset)
+		static ::System::Void Push(::UnityEngine::Rect a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_PUSH_OFFSET))(screenRect, scrollOffset, renderOffset, resetOffset);
+			return ((::System::Void(*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_PUSH_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void Pop()
@@ -86,39 +86,39 @@ namespace UnityEngine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_POP_OFFSET))();
 		}
 
-		static ::UnityEngine::Vector2 UnclipToWindow(::UnityEngine::Vector2 pos)
+		static ::UnityEngine::Vector2 UnclipToWindow(::UnityEngine::Vector2 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_OFFSET))(pos);
+			return ((::UnityEngine::Vector2(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_OFFSET))(a1);
 		}
 
-		static ::System::Void get_visibleRect_Injected(::UnityEngine::Rect& ret)
+		static ::System::Void get_visibleRect_Injected(::UnityEngine::Rect& a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_GET_VISIBLERECT_INJECTED_OFFSET))(ret);
+			return ((::System::Void(*)(::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_GET_VISIBLERECT_INJECTED_OFFSET))(a1);
 		}
 
-		static ::System::Void Internal_Push_Injected(::UnityEngine::Rect& screenRect, ::UnityEngine::Vector2& scrollOffset, ::UnityEngine::Vector2& renderOffset, ::System::Boolean resetOffset)
+		static ::System::Void Internal_Push_Injected(::UnityEngine::Rect& a1, ::UnityEngine::Vector2& a2, ::UnityEngine::Vector2& a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rect&, ::UnityEngine::Vector2&, ::UnityEngine::Vector2&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_INTERNAL_PUSH_INJECTED_OFFSET))(screenRect, scrollOffset, renderOffset, resetOffset);
+			return ((::System::Void(*)(::UnityEngine::Rect&, ::UnityEngine::Vector2&, ::UnityEngine::Vector2&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_INTERNAL_PUSH_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void UnclipToWindow_Vector2_Injected(::UnityEngine::Vector2& pos, ::UnityEngine::Vector2& ret)
+		static ::System::Void UnclipToWindow_Vector2_Injected(::UnityEngine::Vector2& a1, ::UnityEngine::Vector2& a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector2&, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_VECTOR2_INJECTED_OFFSET))(pos, ret);
+			return ((::System::Void(*)(::UnityEngine::Vector2&, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_UNCLIPTOWINDOW_VECTOR2_INJECTED_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void GetMatrix_Injected(::UnityEngine::Matrix4x4& ret)
+		static ::System::Void GetMatrix_Injected(::UnityEngine::Matrix4x4& a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_GETMATRIX_INJECTED_OFFSET))(ret);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_GETMATRIX_INJECTED_OFFSET))(a1);
 		}
 
-		static ::System::Void SetMatrix_Injected(::UnityEngine::Matrix4x4& m)
+		static ::System::Void SetMatrix_Injected(::UnityEngine::Matrix4x4& a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_SETMATRIX_INJECTED_OFFSET))(m);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_SETMATRIX_INJECTED_OFFSET))(a1);
 		}
 
-		static ::System::Void Internal_PushParentClip_Injected(::UnityEngine::Matrix4x4& objectTransform, ::UnityEngine::Rect& clipRect)
+		static ::System::Void Internal_PushParentClip_Injected(::UnityEngine::Matrix4x4& a1, ::UnityEngine::Rect& a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_INTERNAL_PUSHPARENTCLIP_INJECTED_OFFSET))(objectTransform, clipRect);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_GUICLIP_INTERNAL_PUSHPARENTCLIP_INJECTED_OFFSET))(a1, a2);
 		}
 	};
 }

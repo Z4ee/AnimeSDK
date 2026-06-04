@@ -9,49 +9,49 @@ namespace RPG::GameCore { class DisplayItemConfig; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ACTIVEITEMDATA_OFFSET UNITYSDK_OFFSET(0x9AA0EF0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ACTIVEITEMID_OFFSET UNITYSDK_OFFSET(0x9AA0ED0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ACTIVEITEMPROGRESS_OFFSET UNITYSDK_OFFSET(0x9AA0E90)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0x9AA0E70)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_BENEFITDATALIST_OFFSET UNITYSDK_OFFSET(0x9AA1010)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_GIFTSHOWLIST_OFFSET UNITYSDK_OFFSET(0x9AA0FF0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_GRANTEDACTIVEITEMNUM_OFFSET UNITYSDK_OFFSET(0x9AA0EB0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x9AA0E50)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ITEMLIMIT_OFFSET UNITYSDK_OFFSET(0x9AA0FB0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_POWERCONSUME_OFFSET UNITYSDK_OFFSET(0x9AA0FD0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVEITEMID_OFFSET UNITYSDK_OFFSET(0x9AA0EE0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVEITEMPROGRESS_OFFSET UNITYSDK_OFFSET(0x9AA0EA0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0x9AA0E80)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_GIFTSHOWLIST_OFFSET UNITYSDK_OFFSET(0x9AA1000)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_GRANTEDACTIVEITEMNUM_OFFSET UNITYSDK_OFFSET(0x9AA0EC0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0x9AA0E60)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ITEMLIMIT_OFFSET UNITYSDK_OFFSET(0x9AA0FC0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_POWERCONSUME_OFFSET UNITYSDK_OFFSET(0x9AA0FE0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_SYNCFROM_OFFSET UNITYSDK_OFFSET(0x9AA1020)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA_USEACTIVEITEMWITHCALLBACK_OFFSET UNITYSDK_OFFSET(0x9AA13A0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9AA0BF0)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA__INITCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x9AA0C50)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ACTIVEITEMDATA_OFFSET UNITYSDK_OFFSET(0xB081160)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ACTIVEITEMID_OFFSET UNITYSDK_OFFSET(0xB081140)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ACTIVEITEMPROGRESS_OFFSET UNITYSDK_OFFSET(0xB081100)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0xB0810E0)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_BENEFITDATALIST_OFFSET UNITYSDK_OFFSET(0xB081280)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_GIFTSHOWLIST_OFFSET UNITYSDK_OFFSET(0xB081260)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_GRANTEDACTIVEITEMNUM_OFFSET UNITYSDK_OFFSET(0xB081120)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xB0810C0)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ITEMLIMIT_OFFSET UNITYSDK_OFFSET(0xB081220)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_GET_POWERCONSUME_OFFSET UNITYSDK_OFFSET(0xB081240)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVEITEMID_OFFSET UNITYSDK_OFFSET(0xB081150)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVEITEMPROGRESS_OFFSET UNITYSDK_OFFSET(0xB081110)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVITYID_OFFSET UNITYSDK_OFFSET(0xB0810F0)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_GIFTSHOWLIST_OFFSET UNITYSDK_OFFSET(0xB081270)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_GRANTEDACTIVEITEMNUM_OFFSET UNITYSDK_OFFSET(0xB081130)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xB0810D0)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ITEMLIMIT_OFFSET UNITYSDK_OFFSET(0xB081230)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_SET_POWERCONSUME_OFFSET UNITYSDK_OFFSET(0xB081250)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_SYNCFROM_OFFSET UNITYSDK_OFFSET(0xB081290)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA_USEACTIVEITEMWITHCALLBACK_OFFSET UNITYSDK_OFFSET(0xB081630)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB080E00)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA__INITCONFIGDATA_OFFSET UNITYSDK_OFFSET(0xB080E60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActiveActivityData_TypeDefinitionIndex = 56601;
+	inline static constexpr unsigned int ActiveActivityData_TypeDefinitionIndex = 57378;
 
 	class ActiveActivityData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::ActiveActivityBenefitData*>* _BenefitDataList_k__BackingField; // 0x10
 		::Il2CppArray<::RPG::GameCore::DisplayItemConfig*>* _GiftShowList_k__BackingField; // 0x18
-		::System::UInt32 _ActivityID_k__BackingField; // 0x20
-		::System::UInt32 _ID_k__BackingField; // 0x24
-		::System::UInt32 _GrantedActiveItemNum_k__BackingField; // 0x28
-		::System::UInt32 _PowerConsume_k__BackingField; // 0x2C
-		::System::UInt32 _ItemLimit_k__BackingField; // 0x30
+		::System::UInt32 _PowerConsume_k__BackingField; // 0x20
+		::System::UInt32 _ActiveItemProgress_k__BackingField; // 0x24
+		::System::UInt32 _ActivityID_k__BackingField; // 0x28
+		::System::UInt32 _ID_k__BackingField; // 0x2C
+		::System::UInt32 _GrantedActiveItemNum_k__BackingField; // 0x30
 		::System::UInt32 _ActiveItemID_k__BackingField; // 0x34
-		::System::UInt32 _ActiveItemProgress_k__BackingField; // 0x38
+		::System::UInt32 _ItemLimit_k__BackingField; // 0x38
 
-		::System::Void _ctor(::System::UInt32 id)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA__CTOR_OFFSET))(this, id);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -59,9 +59,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ActivityID()
@@ -69,9 +69,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ACTIVITYID_OFFSET))(this);
 		}
 
-		::System::Void set_ActivityID(::System::UInt32 value)
+		::System::Void set_ActivityID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVITYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVITYID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ActiveItemProgress()
@@ -79,9 +79,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ACTIVEITEMPROGRESS_OFFSET))(this);
 		}
 
-		::System::Void set_ActiveItemProgress(::System::UInt32 value)
+		::System::Void set_ActiveItemProgress(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVEITEMPROGRESS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVEITEMPROGRESS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_GrantedActiveItemNum()
@@ -89,9 +89,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_GET_GRANTEDACTIVEITEMNUM_OFFSET))(this);
 		}
 
-		::System::Void set_GrantedActiveItemNum(::System::UInt32 value)
+		::System::Void set_GrantedActiveItemNum(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_GRANTEDACTIVEITEMNUM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_GRANTEDACTIVEITEMNUM_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ActiveItemID()
@@ -99,9 +99,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ACTIVEITEMID_OFFSET))(this);
 		}
 
-		::System::Void set_ActiveItemID(::System::UInt32 value)
+		::System::Void set_ActiveItemID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVEITEMID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ACTIVEITEMID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ItemData* get_ActiveItemData()
@@ -114,9 +114,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_GET_ITEMLIMIT_OFFSET))(this);
 		}
 
-		::System::Void set_ItemLimit(::System::UInt32 value)
+		::System::Void set_ItemLimit(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ITEMLIMIT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_ITEMLIMIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_PowerConsume()
@@ -124,9 +124,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_GET_POWERCONSUME_OFFSET))(this);
 		}
 
-		::System::Void set_PowerConsume(::System::UInt32 value)
+		::System::Void set_PowerConsume(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_POWERCONSUME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_POWERCONSUME_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::RPG::GameCore::DisplayItemConfig*>* get_GiftShowList()
@@ -134,9 +134,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::RPG::GameCore::DisplayItemConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_GET_GIFTSHOWLIST_OFFSET))(this);
 		}
 
-		::System::Void set_GiftShowList(::Il2CppArray<::RPG::GameCore::DisplayItemConfig*>* value)
+		::System::Void set_GiftShowList(::Il2CppArray<::RPG::GameCore::DisplayItemConfig*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::DisplayItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_GIFTSHOWLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::DisplayItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SET_GIFTSHOWLIST_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ActiveActivityBenefitData*>* get_BenefitDataList()
@@ -144,14 +144,14 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ActiveActivityBenefitData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_GET_BENEFITDATALIST_OFFSET))(this);
 		}
 
-		::System::Void SyncFrom(::Class_1_EFF6ABE3B36522D9* protoData)
+		::System::Void SyncFrom(::Class_1_EFF6ABE3B36522D9* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_EFF6ABE3B36522D9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SYNCFROM_OFFSET))(this, protoData);
+			return ((::System::Void(*)(::PVOID, ::Class_1_EFF6ABE3B36522D9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_SYNCFROM_OFFSET))(this, a1);
 		}
 
-		::System::Void UseActiveItemWithCallback(::System::Action* callback)
+		::System::Void UseActiveItemWithCallback(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_USEACTIVEITEMWITHCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEACTIVITYDATA_USEACTIVEITEMWITHCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitConfigData()

@@ -8,11 +8,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x22F0110)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x388F660)
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int PhraseRecognizedEventArgs_TypeDefinitionIndex = 4254;
+	inline static constexpr unsigned int PhraseRecognizedEventArgs_TypeDefinitionIndex = 4428;
 
 	struct alignas(8) PhraseRecognizedEventArgs
 	{
@@ -22,9 +22,9 @@ namespace UnityEngine::Windows::Speech
 		::System::DateTime phraseStartTime; // 0x28
 		::System::TimeSpan phraseDuration; // 0x30
 
-		::System::Void _ctor(::System::String* text, ::UnityEngine::Windows::Speech::ConfidenceLevel confidence, ::Il2CppArray<::UnityEngine::Windows::Speech::SemanticMeaning>* semanticMeanings, ::System::DateTime phraseStartTime, ::System::TimeSpan phraseDuration)
+		::System::Void _ctor(::System::String* a1, ::UnityEngine::Windows::Speech::ConfidenceLevel a2, ::Il2CppArray<::UnityEngine::Windows::Speech::SemanticMeaning>* a3, ::System::DateTime a4, ::System::TimeSpan a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Windows::Speech::ConfidenceLevel, ::Il2CppArray<::UnityEngine::Windows::Speech::SemanticMeaning>*, ::System::DateTime, ::System::TimeSpan))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZEDEVENTARGS__CTOR_OFFSET))(this, text, confidence, semanticMeanings, phraseStartTime, phraseDuration);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Windows::Speech::ConfidenceLevel, ::Il2CppArray<::UnityEngine::Windows::Speech::SemanticMeaning>*, ::System::DateTime, ::System::TimeSpan))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZEDEVENTARGS__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

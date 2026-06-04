@@ -17,7 +17,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int List_1_TypeDefinitionIndex = 1561;
+	inline static constexpr unsigned int List_1_TypeDefinitionIndex = 1559;
 
 	template <typename T>
 	class List_1 : public ::System::Object
@@ -26,7 +26,6 @@ namespace System::Collections::Generic
 		::Il2CppArray<T>* _items; // 0x0
 		::System::Int32 _size; // 0x0
 		::System::Int32 _version; // 0x0
-		::System::Object* _syncRoot; // 0x0
 		static ::Il2CppArray<T>** StaticGet__emptyArray()
 		{
 			return (::Il2CppArray<T>**)Il2CppClass::FromTypeDefinitionIndex(List_1_TypeDefinitionIndex)->GetStaticField(0x0);

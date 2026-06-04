@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextAnchor_TypeDefinitionIndex = 4946;
+	inline static constexpr unsigned int TextAnchor_TypeDefinitionIndex = 5024;
 
 	enum class TextAnchor : ::System::Int32
 	{

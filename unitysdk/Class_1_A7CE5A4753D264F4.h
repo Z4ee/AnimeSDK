@@ -5,9 +5,9 @@
 
 namespace RPG::Client { class PlanetFesEventDataBase; }
 
-#define CLASS_1_A7CE5A4753D264F4_METHOD_1_00243183F41CFBAB_OFFSET UNITYSDK_OFFSET(0x9774B60)
+#define CLASS_1_A7CE5A4753D264F4_METHOD_1_00243183F41CFBAB_OFFSET UNITYSDK_OFFSET(0xA499240)
 
-inline static constexpr unsigned int Class_1_A7CE5A4753D264F4_TypeDefinitionIndex = 61312;
+inline static constexpr unsigned int Class_1_A7CE5A4753D264F4_TypeDefinitionIndex = 62236;
 
 class Class_1_A7CE5A4753D264F4 : public ::System::Object
 {

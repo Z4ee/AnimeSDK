@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicJsonConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DYNAMICJSONLIST_METHOD_2_1E6C0569086DA096_OFFSET UNITYSDK_OFFSET(0x18891E40)
-#define RPG_GAMECORE_DYNAMICJSONLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18891FD0)
+#define RPG_GAMECORE_DYNAMICJSONLIST_METHOD_2_1E6C0569086DA096_OFFSET UNITYSDK_OFFSET(0x196CE6F0)
+#define RPG_GAMECORE_DYNAMICJSONLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x196CE880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicJsonList_TypeDefinitionIndex = 15599;
+	inline static constexpr unsigned int DynamicJsonList_TypeDefinitionIndex = 15661;
 
 	class DynamicJsonList : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class ShopModuleLuaWrap; }
 
-#define RPG_CLIENT_SHOPMODULE_FINDSHOPTYPEOFITEM_OFFSET UNITYSDK_OFFSET(0xB16B280)
-#define RPG_CLIENT_SHOPMODULE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB16B220)
-#define RPG_CLIENT_SHOPMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xB16B380)
+#define RPG_CLIENT_SHOPMODULE_FINDSHOPTYPEOFITEM_OFFSET UNITYSDK_OFFSET(0xC8C0330)
+#define RPG_CLIENT_SHOPMODULE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xC8C02D0)
+#define RPG_CLIENT_SHOPMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xC8C0440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShopModule_TypeDefinitionIndex = 62640;
+	inline static constexpr unsigned int ShopModule_TypeDefinitionIndex = 63573;
 
 	class ShopModule : public ::RPG::Client::BaseModule
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ShopModule*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_SHOPMODULE_GET_INSTANCE_OFFSET))();
 		}
 
-		::System::UInt32 FindShopTypeOfItem(::System::UInt32 itemID)
+		::System::UInt32 FindShopTypeOfItem(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHOPMODULE_FINDSHOPTYPEOFITEM_OFFSET))(this, itemID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHOPMODULE_FINDSHOPTYPEOFITEM_OFFSET))(this, a1);
 		}
 	};
 }

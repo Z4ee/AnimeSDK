@@ -34,7 +34,7 @@ namespace Mono::Unity { class UnityTls_unitytls_interface_struct_unitytls_x509li
 namespace Mono::Unity { class UnityTls_unitytls_interface_struct_unitytls_x509verify_default_ca_t; }
 namespace Mono::Unity { class UnityTls_unitytls_interface_struct_unitytls_x509verify_explicit_ca_t; }
 
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A5570)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF15C80)
 
 namespace Mono::Unity
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingDescConditionType_TypeDefinitionIndex = 13233;
+	inline static constexpr unsigned int LoadingDescConditionType_TypeDefinitionIndex = 13310;
 
 	enum class LoadingDescConditionType : ::System::Int32
 	{

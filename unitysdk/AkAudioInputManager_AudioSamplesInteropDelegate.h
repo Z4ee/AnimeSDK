@@ -6,33 +6,33 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A5CB6A0)
-#define AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A5CB740)
-#define AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A5CB310)
-#define AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5CADA0)
+#define AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B415A30)
+#define AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B415AD0)
+#define AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B415A00)
+#define AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B415990)
 
-inline static constexpr unsigned int AkAudioInputManager_AudioSamplesInteropDelegate_TypeDefinitionIndex = 40369;
+inline static constexpr unsigned int AkAudioInputManager_AudioSamplesInteropDelegate_TypeDefinitionIndex = 41196;
 
 class AkAudioInputManager_AudioSamplesInteropDelegate : public ::System::MulticastDelegate
 {
 public:
-	::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+	::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE__CTOR_OFFSET))(this, object, method);
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Invoke(::System::UInt32 playingID, ::Il2CppArray<::System::Single>* samples, ::System::UInt32 channelIndex, ::System::UInt32 frames)
+	::System::Boolean Invoke(::System::UInt32 a1, ::Il2CppArray<::System::Single>* a2, ::System::UInt32 a3, ::System::UInt32 a4)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::Il2CppArray<::System::Single>*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_INVOKE_OFFSET))(this, playingID, samples, channelIndex, frames);
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::Il2CppArray<::System::Single>*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::IAsyncResult* BeginInvoke(::System::UInt32 playingID, ::Il2CppArray<::System::Single>* samples, ::System::UInt32 channelIndex, ::System::UInt32 frames, ::System::AsyncCallback* callback, ::System::Object* object)
+	::System::IAsyncResult* BeginInvoke(::System::UInt32 a1, ::Il2CppArray<::System::Single>* a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 	{
-		return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::Il2CppArray<::System::Single>*, ::System::UInt32, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_BEGININVOKE_OFFSET))(this, playingID, samples, channelIndex, frames, callback, object);
+		return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::Il2CppArray<::System::Single>*, ::System::UInt32, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 	}
 
-	::System::Boolean EndInvoke(::System::IAsyncResult* result)
+	::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_ENDINVOKE_OFFSET))(this, result);
+		return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 	}
 };

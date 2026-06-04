@@ -6,27 +6,27 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELTURNEND_GETACTIVEENTITYTEAM_OFFSET UNITYSDK_OFFSET(0xB6E0AA0)
-#define RPG_GAMECORE_LEVELTURNEND_GETACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0xB6E0A60)
-#define RPG_GAMECORE_LEVELTURNEND_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6E0A10)
-#define RPG_GAMECORE_LEVELTURNEND_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6E09C0)
-#define RPG_GAMECORE_LEVELTURNEND_GETTURNCOUNTER_OFFSET UNITYSDK_OFFSET(0xB6E0AE0)
-#define RPG_GAMECORE_LEVELTURNEND__CTOR_OFFSET UNITYSDK_OFFSET(0xB6E09B0)
+#define RPG_GAMECORE_LEVELTURNEND_GETACTIVEENTITYTEAM_OFFSET UNITYSDK_OFFSET(0xCE4EB70)
+#define RPG_GAMECORE_LEVELTURNEND_GETACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0xCE4EB30)
+#define RPG_GAMECORE_LEVELTURNEND_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE4EAE0)
+#define RPG_GAMECORE_LEVELTURNEND_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE4EA90)
+#define RPG_GAMECORE_LEVELTURNEND_GETTURNCOUNTER_OFFSET UNITYSDK_OFFSET(0xCE4EBB0)
+#define RPG_GAMECORE_LEVELTURNEND__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4EA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTurnEnd_TypeDefinitionIndex = 52258;
+	inline static constexpr unsigned int LevelTurnEnd_TypeDefinitionIndex = 52955;
 
 	class LevelTurnEnd : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* _ActiveEntity; // 0x10
-		::RPG::GameCore::TeamType _ActiveEntityTeam; // 0x18
-		::System::UInt32 _TurnCounter; // 0x1C
+		::System::UInt32 _TurnCounter; // 0x18
+		::RPG::GameCore::TeamType _ActiveEntityTeam; // 0x1C
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* activeEntity, ::RPG::GameCore::TeamType eActiveEntityTeam, ::System::UInt32 TurnCounter)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TeamType a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TeamType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNEND__CTOR_OFFSET))(this, activeEntity, eActiveEntityTeam, TurnCounter);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TeamType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNEND__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

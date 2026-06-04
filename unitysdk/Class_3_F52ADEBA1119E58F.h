@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetUpTrainVisitorBubble; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F52ADEBA1119E58F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11D47210)
-#define CLASS_3_F52ADEBA1119E58F__CTOR_OFFSET UNITYSDK_OFFSET(0x11D471E0)
+#define CLASS_3_F52ADEBA1119E58F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x106230E0)
+#define CLASS_3_F52ADEBA1119E58F__CTOR_OFFSET UNITYSDK_OFFSET(0x106230B0)
 
-inline static constexpr unsigned int Class_3_F52ADEBA1119E58F_TypeDefinitionIndex = 49112;
+inline static constexpr unsigned int Class_3_F52ADEBA1119E58F_TypeDefinitionIndex = 49779;
 
 class Class_3_F52ADEBA1119E58F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetUpTrainVisitorBubble*>
 {

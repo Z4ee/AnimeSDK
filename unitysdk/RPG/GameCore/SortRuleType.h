@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SortRuleType_TypeDefinitionIndex = 17347;
+	inline static constexpr unsigned int SortRuleType_TypeDefinitionIndex = 17351;
 
 	enum class SortRuleType : ::System::Int32
 	{

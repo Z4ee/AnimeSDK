@@ -3,24 +3,24 @@
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_VECTOR2PARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1A335B80)
-#define UNITYENGINE_RENDERING_VECTOR2PARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A335B40)
+#define UNITYENGINE_RENDERING_VECTOR2PARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1B1904A0)
+#define UNITYENGINE_RENDERING_VECTOR2PARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B190460)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int Vector2Parameter_TypeDefinitionIndex = 33556;
+	inline static constexpr unsigned int Vector2Parameter_TypeDefinitionIndex = 33838;
 
 	class Vector2Parameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Vector2>
 	{
 	public:
-		::System::Void _ctor(::UnityEngine::Vector2 value, ::System::Boolean overrideState)
+		::System::Void _ctor(::UnityEngine::Vector2 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VECTOR2PARAMETER__CTOR_OFFSET))(this, value, overrideState);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VECTOR2PARAMETER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Interp(::UnityEngine::Vector2 from, ::UnityEngine::Vector2 to, ::System::Single t)
+		::System::Void Interp(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VECTOR2PARAMETER_INTERP_OFFSET))(this, from, to, t);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VECTOR2PARAMETER_INTERP_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

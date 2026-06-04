@@ -8,28 +8,28 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1758C310)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS50_0__GETREQUESTEX_G__ONGETRESPONSE_0_OFFSET UNITYSDK_OFFSET(0x1758DB20)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS50_0__GETREQUESTEX_G__ONGETTIMEOUT_1_OFFSET UNITYSDK_OFFSET(0x1758DB70)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18374BC0)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS50_0__GETREQUESTEX_G__ONGETRESPONSE_0_OFFSET UNITYSDK_OFFSET(0x18376080)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS50_0__GETREQUESTEX_G__ONGETTIMEOUT_1_OFFSET UNITYSDK_OFFSET(0x183760D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass50_0_TypeDefinitionIndex = 7214;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass50_0_TypeDefinitionIndex = 8117;
 
 	class NetworkManager___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* callback; // 0x10
-		::MiHoYo::SDK::NetworkManager* __4__this; // 0x18
+		::MiHoYo::SDK::NetworkManager* __4__this; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS50_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GetRequestEx_g__onGetResponse_0(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* responseHeaders, ::System::String* responseString)
+		::System::Void _GetRequestEx_g__onGetResponse_0(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS50_0__GETREQUESTEX_G__ONGETRESPONSE_0_OFFSET))(this, responseHeaders, responseString);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS50_0__GETREQUESTEX_G__ONGETRESPONSE_0_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _GetRequestEx_g__onGetTimeOut_1()

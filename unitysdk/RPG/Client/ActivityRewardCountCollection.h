@@ -7,16 +7,16 @@ namespace RPG::Client { class ActivityRewardCountData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x9C56370)
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_GETREWARDCOUNT_OFFSET UNITYSDK_OFFSET(0x9C56160)
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_SYNCALLREWARDCOUNTS_OFFSET UNITYSDK_OFFSET(0x9C56410)
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_SYNCONEREWARDCOUNT_OFFSET UNITYSDK_OFFSET(0x9C56760)
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9C560E0)
-#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION__GETORCREATEREWARDCOUNT_OFFSET UNITYSDK_OFFSET(0x9C561B0)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_CLEAR_OFFSET UNITYSDK_OFFSET(0xB1F7590)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_GETREWARDCOUNT_OFFSET UNITYSDK_OFFSET(0xB1F73B0)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_SYNCALLREWARDCOUNTS_OFFSET UNITYSDK_OFFSET(0xB1F7620)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_SYNCONEREWARDCOUNT_OFFSET UNITYSDK_OFFSET(0xB1F7970)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F7330)
+#define RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION__GETORCREATEREWARDCOUNT_OFFSET UNITYSDK_OFFSET(0xB1F7400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardCountCollection_TypeDefinitionIndex = 56986;
+	inline static constexpr unsigned int ActivityRewardCountCollection_TypeDefinitionIndex = 57773;
 
 	class ActivityRewardCountCollection : public ::System::Object
 	{
@@ -28,9 +28,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::ActivityRewardCountData* GetRewardCount(::System::UInt32 activityID)
+		::RPG::Client::ActivityRewardCountData* GetRewardCount(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ActivityRewardCountData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_GETREWARDCOUNT_OFFSET))(this, activityID);
+			return ((::RPG::Client::ActivityRewardCountData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_GETREWARDCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -38,19 +38,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void SyncAllRewardCounts(::System::Collections::Generic::IEnumerable_1<::Class_1_455008579EB95638_5*>* proto)
+		::System::Void SyncAllRewardCounts(::System::Collections::Generic::IEnumerable_1<::Class_1_455008579EB95638_5*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_455008579EB95638_5*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_SYNCALLREWARDCOUNTS_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_455008579EB95638_5*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_SYNCALLREWARDCOUNTS_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncOneRewardCount(::Class_1_455008579EB95638_5* proto)
+		::System::Void SyncOneRewardCount(::Class_1_455008579EB95638_5* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_455008579EB95638_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_SYNCONEREWARDCOUNT_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_455008579EB95638_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION_SYNCONEREWARDCOUNT_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ActivityRewardCountData* _GetOrCreateRewardCount(::System::UInt32 activityID)
+		::RPG::Client::ActivityRewardCountData* _GetOrCreateRewardCount(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ActivityRewardCountData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION__GETORCREATEREWARDCOUNT_OFFSET))(this, activityID);
+			return ((::RPG::Client::ActivityRewardCountData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDCOUNTCOLLECTION__GETORCREATEREWARDCOUNT_OFFSET))(this, a1);
 		}
 	};
 }

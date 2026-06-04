@@ -11,33 +11,33 @@ namespace UnityEngine { class MonoBehaviour; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define UNITYENGINE_RENDERING_BATCHANIMATION_ADDINSTANCE_OFFSET UNITYSDK_OFFSET(0x1A4754F0)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_ALLOCANIMINSTANCEGROUP_OFFSET UNITYSDK_OFFSET(0x1A4755F0)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_DESTORYINSTANCE_OFFSET UNITYSDK_OFFSET(0x1A475510)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_ENABLEINSTANCELAYER_OFFSET UNITYSDK_OFFSET(0x1A475660)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_FINDVARIANTINDEX_OFFSET UNITYSDK_OFFSET(0x1A475580)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_GETINSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0x1A475530)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x1A475520)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_GETLODPARTCOUNT_OFFSET UNITYSDK_OFFSET(0x1A475570)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_GET_EVENTEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A474EA0)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_INTERNALUPDATEINSTANCESHAREDMAT_OFFSET UNITYSDK_OFFSET(0x1A475590)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_ISENABLEGRAPH_OFFSET UNITYSDK_OFFSET(0x1A475650)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_PLAY_OFFSET UNITYSDK_OFFSET(0x1A475620)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_RESETANIMATION_OFFSET UNITYSDK_OFFSET(0x1A475630)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_RESETANIMINSTANCEGROUP_OFFSET UNITYSDK_OFFSET(0x1A475600)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_RESETRESREF_OFFSET UNITYSDK_OFFSET(0x1A475610)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_SETINSTANCESHADERMATPROP_OFFSET UNITYSDK_OFFSET(0x1A4755E0)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_SETPOSROT_OFFSET UNITYSDK_OFFSET(0x1A475500)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_SET_EVENTEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A475640)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_SET_LODSIZE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A475560)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_SET_LODSIZE_OFFSET UNITYSDK_OFFSET(0x1A475540)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_UPDATEINSTANCESHAREDMAT_1_OFFSET UNITYSDK_OFFSET(0x1A4755D0)
-#define UNITYENGINE_RENDERING_BATCHANIMATION_UPDATEINSTANCESHAREDMAT_OFFSET UNITYSDK_OFFSET(0x1A4755A0)
-#define UNITYENGINE_RENDERING_BATCHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A475670)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_ADDINSTANCE_OFFSET UNITYSDK_OFFSET(0x1B2C4150)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_ALLOCANIMINSTANCEGROUP_OFFSET UNITYSDK_OFFSET(0x1B2C4250)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_DESTORYINSTANCE_OFFSET UNITYSDK_OFFSET(0x1B2C4170)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_ENABLEINSTANCELAYER_OFFSET UNITYSDK_OFFSET(0x1B2C42C0)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_FINDVARIANTINDEX_OFFSET UNITYSDK_OFFSET(0x1B2C41E0)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_GETINSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0x1B2C4190)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x1B2C4180)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_GETLODPARTCOUNT_OFFSET UNITYSDK_OFFSET(0x1B2C41D0)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_GET_EVENTEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B2C4010)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_INTERNALUPDATEINSTANCESHAREDMAT_OFFSET UNITYSDK_OFFSET(0x1B2C41F0)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_ISENABLEGRAPH_OFFSET UNITYSDK_OFFSET(0x1B2C42B0)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_PLAY_OFFSET UNITYSDK_OFFSET(0x1B2C4280)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_RESETANIMATION_OFFSET UNITYSDK_OFFSET(0x1B2C4290)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_RESETANIMINSTANCEGROUP_OFFSET UNITYSDK_OFFSET(0x1B2C4260)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_RESETRESREF_OFFSET UNITYSDK_OFFSET(0x1B2C4270)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_SETINSTANCESHADERMATPROP_OFFSET UNITYSDK_OFFSET(0x1B2C4240)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_SETPOSROT_OFFSET UNITYSDK_OFFSET(0x1B2C4160)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_SET_EVENTEXECUTE_OFFSET UNITYSDK_OFFSET(0x1B2C42A0)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_SET_LODSIZE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2C41C0)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_SET_LODSIZE_OFFSET UNITYSDK_OFFSET(0x1B2C41A0)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_UPDATEINSTANCESHAREDMAT_1_OFFSET UNITYSDK_OFFSET(0x1B2C4230)
+#define UNITYENGINE_RENDERING_BATCHANIMATION_UPDATEINSTANCESHAREDMAT_OFFSET UNITYSDK_OFFSET(0x1B2C4200)
+#define UNITYENGINE_RENDERING_BATCHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C42D0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchAnimation_TypeDefinitionIndex = 4589;
+	inline static constexpr unsigned int BatchAnimation_TypeDefinitionIndex = 4763;
 
 	class BatchAnimation : public ::UnityEngine::Behaviour
 	{
@@ -47,14 +47,14 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddInstance(::System::Int32 count, ::UnityEngine::Transform* parent)
+		::System::Void AddInstance(::System::Int32 a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_ADDINSTANCE_OFFSET))(this, count, parent);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_ADDINSTANCE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetPosRot(::Il2CppArray<::UnityEngine::Vector3>* posArray, ::Il2CppArray<::UnityEngine::Quaternion>* rotArray, ::System::Int32 count, ::System::Int32 offset)
+		::System::Void SetPosRot(::Il2CppArray<::UnityEngine::Vector3>* a1, ::Il2CppArray<::UnityEngine::Quaternion>* a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Quaternion>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_SETPOSROT_OFFSET))(this, posArray, rotArray, count, offset);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Quaternion>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_SETPOSROT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void DestoryInstance()
@@ -62,9 +62,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_DESTORYINSTANCE_OFFSET))(this);
 		}
 
-		::UnityEngine::Rendering::BatchAnimationInstance* GetInstance(::System::Int32 index)
+		::UnityEngine::Rendering::BatchAnimationInstance* GetInstance(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Rendering::BatchAnimationInstance*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_GETINSTANCE_OFFSET))(this, index);
+			return ((::UnityEngine::Rendering::BatchAnimationInstance*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_GETINSTANCE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetInstanceCount()
@@ -72,44 +72,44 @@ namespace UnityEngine::Rendering
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_GETINSTANCECOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_lodSize(::UnityEngine::Vector2 value)
+		::System::Void set_lodSize(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_SET_LODSIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_SET_LODSIZE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetLodPartCount(::System::Int32 lod)
+		::System::Int32 GetLodPartCount(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_GETLODPARTCOUNT_OFFSET))(this, lod);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_GETLODPARTCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Int32 FindVariantIndex(::System::Int32 part, ::System::UInt32 key)
+		::System::Int32 FindVariantIndex(::System::Int32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_FINDVARIANTINDEX_OFFSET))(this, part, key);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_FINDVARIANTINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InternalUpdateInstanceSharedMat(::System::IntPtr data, ::System::Int32 offsetIndex, ::System::Int32 count, ::System::Int32 totalsize, ::System::Int32 stride, ::System::Int32 part)
+		::System::Void InternalUpdateInstanceSharedMat(::System::IntPtr a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_INTERNALUPDATEINSTANCESHAREDMAT_OFFSET))(this, data, offsetIndex, count, totalsize, stride, part);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_INTERNALUPDATEINSTANCESHAREDMAT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void UpdateInstanceSharedMat(::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>& data, ::System::Int32 offsetIndex, ::System::Int32 count, ::System::Int32 totalsize, ::System::Int32 stride)
+		::System::Void UpdateInstanceSharedMat(::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>& a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>&, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_UPDATEINSTANCESHAREDMAT_OFFSET))(this, data, offsetIndex, count, totalsize, stride);
+			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>&, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_UPDATEINSTANCESHAREDMAT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void UpdateInstanceSharedMat_1(::Unity::Collections::NativeArray_1<::System::Single>& data, ::System::Int32 offsetIndex, ::System::Int32 count, ::System::Int32 totalsize, ::System::Int32 stride, ::System::Int32 part)
+		::System::Void UpdateInstanceSharedMat_1(::Unity::Collections::NativeArray_1<::System::Single>& a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Single>&, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_UPDATEINSTANCESHAREDMAT_1_OFFSET))(this, data, offsetIndex, count, totalsize, stride, part);
+			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Single>&, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_UPDATEINSTANCESHAREDMAT_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void SetInstanceShaderMatProp(::System::Int32 shaderId)
+		::System::Void SetInstanceShaderMatProp(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_SETINSTANCESHADERMATPROP_OFFSET))(this, shaderId);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_SETINSTANCESHADERMATPROP_OFFSET))(this, a1);
 		}
 
-		::System::Void AllocAnimInstanceGroup(::System::Int32 index)
+		::System::Void AllocAnimInstanceGroup(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_ALLOCANIMINSTANCEGROUP_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_ALLOCANIMINSTANCEGROUP_OFFSET))(this, a1);
 		}
 
 		::System::Void ResetAnimInstanceGroup()
@@ -117,9 +117,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_RESETANIMINSTANCEGROUP_OFFSET))(this);
 		}
 
-		::System::Void Play(::System::Int32 instanceIndex, ::System::Int32 count, ::System::Int32 groupIndex, ::System::Int32 palyState, ::System::Int32 maxdelay)
+		::System::Void Play(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_PLAY_OFFSET))(this, instanceIndex, count, groupIndex, palyState, maxdelay);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_PLAY_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void ResetAnimation()
@@ -137,9 +137,9 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::MonoBehaviour*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_GET_EVENTEXECUTE_OFFSET))(this);
 		}
 
-		::System::Void set_eventExecute(::UnityEngine::MonoBehaviour* value)
+		::System::Void set_eventExecute(::UnityEngine::MonoBehaviour* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_SET_EVENTEXECUTE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_SET_EVENTEXECUTE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsEnableGraph()
@@ -147,14 +147,14 @@ namespace UnityEngine::Rendering
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_ISENABLEGRAPH_OFFSET))(this);
 		}
 
-		::System::Void EnableInstanceLayer(::System::Int32 layer, ::System::Boolean enable)
+		::System::Void EnableInstanceLayer(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_ENABLEINSTANCELAYER_OFFSET))(this, layer, enable);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_ENABLEINSTANCELAYER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void set_lodSize_Injected(::UnityEngine::Vector2& value)
+		::System::Void set_lodSize_Injected(::UnityEngine::Vector2& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_SET_LODSIZE_INJECTED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMATION_SET_LODSIZE_INJECTED_OFFSET))(this, a1);
 		}
 	};
 }

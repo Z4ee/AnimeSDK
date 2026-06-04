@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PostureTypeTasksConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_METHOD_2_2F8978C439E5E7AF_OFFSET UNITYSDK_OFFSET(0x18AC9340)
-#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC99B0)
+#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_METHOD_2_D5A3E2AC543008E0_OFFSET UNITYSDK_OFFSET(0x198F9770)
+#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198F9D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBattleTransitionConfig_TypeDefinitionIndex = 16721;
+	inline static constexpr unsigned int MazeBattleTransitionConfig_TypeDefinitionIndex = 16744;
 
 	class MazeBattleTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2F8978C439E5E7AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MazeBattleTransitionConfig*& a2)
+		static ::System::Void Method_2_D5A3E2AC543008E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MazeBattleTransitionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazeBattleTransitionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_METHOD_2_2F8978C439E5E7AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazeBattleTransitionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_METHOD_2_D5A3E2AC543008E0_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_MONOPERFORMANCEBGIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA9E9EE0)
+#define RPG_CLIENT_MONOPERFORMANCEBGIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xC138240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPerformanceBgImage_TypeDefinitionIndex = 66884;
+	inline static constexpr unsigned int MonoPerformanceBgImage_TypeDefinitionIndex = 67824;
 
 	class MonoPerformanceBgImage : public ::UnityEngine::MonoBehaviour
 	{

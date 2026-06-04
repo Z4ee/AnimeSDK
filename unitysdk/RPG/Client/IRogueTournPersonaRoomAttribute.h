@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaRoomAttribute_TypeDefinitionIndex = 62419;
+	inline static constexpr unsigned int IRogueTournPersonaRoomAttribute_TypeDefinitionIndex = 63352;
 
 	class IRogueTournPersonaRoomAttribute
 	{

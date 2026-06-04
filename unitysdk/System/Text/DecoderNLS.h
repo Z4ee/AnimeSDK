@@ -6,43 +6,43 @@
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_DECODERNLS_CLEARMUSTFLUSH_OFFSET UNITYSDK_OFFSET(0x17838410)
-#define SYSTEM_TEXT_DECODERNLS_CONVERT_1_OFFSET UNITYSDK_OFFSET(0x17838220)
-#define SYSTEM_TEXT_DECODERNLS_CONVERT_OFFSET UNITYSDK_OFFSET(0x17837F60)
-#define SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_1_OFFSET UNITYSDK_OFFSET(0x178379A0)
-#define SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_2_OFFSET UNITYSDK_OFFSET(0x17837B10)
-#define SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x17837980)
-#define SYSTEM_TEXT_DECODERNLS_GETCHARS_1_OFFSET UNITYSDK_OFFSET(0x17837C30)
-#define SYSTEM_TEXT_DECODERNLS_GETCHARS_2_OFFSET UNITYSDK_OFFSET(0x17837E60)
-#define SYSTEM_TEXT_DECODERNLS_GETCHARS_OFFSET UNITYSDK_OFFSET(0x17837C00)
-#define SYSTEM_TEXT_DECODERNLS_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x17838400)
-#define SYSTEM_TEXT_DECODERNLS_GET_MUSTFLUSH_OFFSET UNITYSDK_OFFSET(0x178383F0)
-#define SYSTEM_TEXT_DECODERNLS_RESET_OFFSET UNITYSDK_OFFSET(0x17837960)
-#define SYSTEM_TEXT_DECODERNLS_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x17837800)
-#define SYSTEM_TEXT_DECODERNLS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17835670)
-#define SYSTEM_TEXT_DECODERNLS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17837940)
-#define SYSTEM_TEXT_DECODERNLS__CTOR_OFFSET UNITYSDK_OFFSET(0x17837780)
+#define SYSTEM_TEXT_DECODERNLS_CLEARMUSTFLUSH_OFFSET UNITYSDK_OFFSET(0x185F21C0)
+#define SYSTEM_TEXT_DECODERNLS_CONVERT_1_OFFSET UNITYSDK_OFFSET(0x185F1FD0)
+#define SYSTEM_TEXT_DECODERNLS_CONVERT_OFFSET UNITYSDK_OFFSET(0x185F1D10)
+#define SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_1_OFFSET UNITYSDK_OFFSET(0x185F1750)
+#define SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_2_OFFSET UNITYSDK_OFFSET(0x185F18C0)
+#define SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x185F1730)
+#define SYSTEM_TEXT_DECODERNLS_GETCHARS_1_OFFSET UNITYSDK_OFFSET(0x185F19E0)
+#define SYSTEM_TEXT_DECODERNLS_GETCHARS_2_OFFSET UNITYSDK_OFFSET(0x185F1C10)
+#define SYSTEM_TEXT_DECODERNLS_GETCHARS_OFFSET UNITYSDK_OFFSET(0x185F19B0)
+#define SYSTEM_TEXT_DECODERNLS_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x185F21B0)
+#define SYSTEM_TEXT_DECODERNLS_GET_MUSTFLUSH_OFFSET UNITYSDK_OFFSET(0x185F21A0)
+#define SYSTEM_TEXT_DECODERNLS_RESET_OFFSET UNITYSDK_OFFSET(0x185F1710)
+#define SYSTEM_TEXT_DECODERNLS_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x185F15C0)
+#define SYSTEM_TEXT_DECODERNLS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x185EF480)
+#define SYSTEM_TEXT_DECODERNLS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x185F16F0)
+#define SYSTEM_TEXT_DECODERNLS__CTOR_OFFSET UNITYSDK_OFFSET(0x185F1540)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int DecoderNLS_TypeDefinitionIndex = 473;
+	inline static constexpr unsigned int DecoderNLS_TypeDefinitionIndex = 472;
 
 	class DecoderNLS : public ::System::Text::Decoder
 	{
 	public:
 		::System::Text::Encoding* m_encoding; // 0x20
-		::System::Boolean m_throwOnOverflow; // 0x28
-		::System::Boolean m_mustFlush; // 0x29
+		::System::Boolean m_mustFlush; // 0x28
+		::System::Boolean m_throwOnOverflow; // 0x29
 		::System::Int32 m_bytesUsed; // 0x2C
 
-		::System::Void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS__CTOR_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::Text::Encoding* encoding)
+		::System::Void _ctor_1(::System::Text::Encoding* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS__CTOR_1_OFFSET))(this, encoding);
+			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2()
@@ -50,9 +50,9 @@ namespace System::Text
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS__CTOR_2_OFFSET))(this);
 		}
 
-		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Reset()
@@ -60,44 +60,44 @@ namespace System::Text
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_RESET_OFFSET))(this);
 		}
 
-		::System::Int32 GetCharCount(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 index, ::System::Int32 count)
+		::System::Int32 GetCharCount(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_OFFSET))(this, bytes, index, count);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 GetCharCount_1(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 index, ::System::Int32 count, ::System::Boolean flush)
+		::System::Int32 GetCharCount_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_1_OFFSET))(this, bytes, index, count, flush);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 GetCharCount_2(::System::Byte* bytes, ::System::Int32 count, ::System::Boolean flush)
+		::System::Int32 GetCharCount_2(::System::Byte* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_2_OFFSET))(this, bytes, count, flush);
+			return ((::System::Int32(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARCOUNT_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 GetChars(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 byteIndex, ::System::Int32 byteCount, ::Il2CppArray<::System::Char>* chars, ::System::Int32 charIndex)
+		::System::Int32 GetChars(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Char>* a4, ::System::Int32 a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARS_OFFSET))(this, bytes, byteIndex, byteCount, chars, charIndex);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARS_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 GetChars_1(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 byteIndex, ::System::Int32 byteCount, ::Il2CppArray<::System::Char>* chars, ::System::Int32 charIndex, ::System::Boolean flush)
+		::System::Int32 GetChars_1(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Char>* a4, ::System::Int32 a5, ::System::Boolean a6)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARS_1_OFFSET))(this, bytes, byteIndex, byteCount, chars, charIndex, flush);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARS_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Int32 GetChars_2(::System::Byte* bytes, ::System::Int32 byteCount, ::System::Char* chars, ::System::Int32 charCount, ::System::Boolean flush)
+		::System::Int32 GetChars_2(::System::Byte* a1, ::System::Int32 a2, ::System::Char* a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Char*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARS_2_OFFSET))(this, bytes, byteCount, chars, charCount, flush);
+			return ((::System::Int32(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Char*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_GETCHARS_2_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Convert(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 byteIndex, ::System::Int32 byteCount, ::Il2CppArray<::System::Char>* chars, ::System::Int32 charIndex, ::System::Int32 charCount, ::System::Boolean flush, ::System::Int32& bytesUsed, ::System::Int32& charsUsed, ::System::Boolean& completed)
+		::System::Void Convert(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Char>* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Boolean a7, ::System::Int32& a8, ::System::Int32& a9, ::System::Boolean& a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32&, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_CONVERT_OFFSET))(this, bytes, byteIndex, byteCount, chars, charIndex, charCount, flush, bytesUsed, charsUsed, completed);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32&, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_CONVERT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::System::Void Convert_1(::System::Byte* bytes, ::System::Int32 byteCount, ::System::Char* chars, ::System::Int32 charCount, ::System::Boolean flush, ::System::Int32& bytesUsed, ::System::Int32& charsUsed, ::System::Boolean& completed)
+		::System::Void Convert_1(::System::Byte* a1, ::System::Int32 a2, ::System::Char* a3, ::System::Int32 a4, ::System::Boolean a5, ::System::Int32& a6, ::System::Int32& a7, ::System::Boolean& a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Char*, ::System::Int32, ::System::Boolean, ::System::Int32&, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_CONVERT_1_OFFSET))(this, bytes, byteCount, chars, charCount, flush, bytesUsed, charsUsed, completed);
+			return ((::System::Void(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Char*, ::System::Int32, ::System::Boolean, ::System::Int32&, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_DECODERNLS_CONVERT_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Boolean get_MustFlush()

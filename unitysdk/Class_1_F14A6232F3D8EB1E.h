@@ -7,27 +7,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_F14A6232F3D8EB1E_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x18B8E750)
-#define CLASS_1_F14A6232F3D8EB1E__CTOR_OFFSET UNITYSDK_OFFSET(0x18B8ED20)
+#define CLASS_1_F14A6232F3D8EB1E_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x19244520)
+#define CLASS_1_F14A6232F3D8EB1E__CTOR_OFFSET UNITYSDK_OFFSET(0x19244AE0)
 
-inline static constexpr unsigned int Class_1_F14A6232F3D8EB1E_TypeDefinitionIndex = 14270;
+inline static constexpr unsigned int Class_1_F14A6232F3D8EB1E_TypeDefinitionIndex = 14327;
 
 class Class_1_F14A6232F3D8EB1E : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_8; // 0x10
-	::System::String* Field_1_1; // 0x18
+	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
+	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_1; // 0x18
 	::System::String* Field_1_2; // 0x20
-	::Il2CppArray<::System::UInt32>* Field_1_10; // 0x28
-	::RPG::Client::TextID Field_1_3; // 0x30
-	::RPG::Client::TextID Field_1_6; // 0x40
-	::RPG::Client::TextID Field_1_7; // 0x50
-	::RPG::Client::TextID Field_1_4; // 0x60
-	::System::UInt32 Field_1_9; // 0x70
-	::System::Boolean Field_1_11; // 0x74
-	::RPG::Client::TextID Field_1_5; // 0x78
-	::System::UInt32 Field_1_0; // 0x88
-	::System::UInt32 Field_1_12; // 0x8C
+	::System::String* Field_1_3; // 0x28
+	::RPG::Client::TextID Field_1_4; // 0x30
+	::RPG::Client::TextID Field_1_5; // 0x40
+	::System::UInt32 Field_1_6; // 0x50
+	::System::UInt32 Field_1_7; // 0x54
+	::System::Boolean Field_1_8; // 0x58
+	::System::UInt32 Field_1_9; // 0x5C
+	::RPG::Client::TextID Field_1_10; // 0x60
+	::RPG::Client::TextID Field_1_11; // 0x70
+	::RPG::Client::TextID Field_1_12; // 0x80
 
 	::System::Void _ctor()
 	{

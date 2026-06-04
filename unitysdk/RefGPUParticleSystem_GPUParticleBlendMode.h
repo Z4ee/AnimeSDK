@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_GPUParticleBlendMode_TypeDefinitionIndex = 39713;
+inline static constexpr unsigned int RefGPUParticleSystem_GPUParticleBlendMode_TypeDefinitionIndex = 40536;
 
 enum class RefGPUParticleSystem_GPUParticleBlendMode : ::System::Int32
 {

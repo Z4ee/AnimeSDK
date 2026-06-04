@@ -7,13 +7,13 @@ namespace RPG::Client { class MonoMovementPropHandle; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_STAGEMOVETEST_START_OFFSET UNITYSDK_OFFSET(0xB1C2DA0)
-#define RPG_CLIENT_STAGEMOVETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xB1C2F50)
-#define RPG_CLIENT_STAGEMOVETEST__CTOR_OFFSET UNITYSDK_OFFSET(0xB1C3310)
+#define RPG_CLIENT_STAGEMOVETEST_START_OFFSET UNITYSDK_OFFSET(0xC91B780)
+#define RPG_CLIENT_STAGEMOVETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xC91B9E0)
+#define RPG_CLIENT_STAGEMOVETEST__CTOR_OFFSET UNITYSDK_OFFSET(0xC91BDE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageMoveTest_TypeDefinitionIndex = 63414;
+	inline static constexpr unsigned int StageMoveTest_TypeDefinitionIndex = 64331;
 
 	class StageMoveTest : public ::UnityEngine::MonoBehaviour
 	{

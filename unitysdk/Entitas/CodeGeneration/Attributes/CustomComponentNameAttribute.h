@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_CUSTOMCOMPONENTNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C50140)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_CUSTOMCOMPONENTNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x146FE810)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int CustomComponentNameAttribute_TypeDefinitionIndex = 9894;
+	inline static constexpr unsigned int CustomComponentNameAttribute_TypeDefinitionIndex = 9721;
 
 	class CustomComponentNameAttribute : public ::System::Attribute
 	{
 	public:
 		::Il2CppArray<::System::String*>* componentNames; // 0x10
 
-		::System::Void _ctor(::Il2CppArray<::System::String*>* componentNames)
+		::System::Void _ctor(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + ENTITAS_CODEGENERATION_ATTRIBUTES_CUSTOMCOMPONENTNAMEATTRIBUTE__CTOR_OFFSET))(this, componentNames);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + ENTITAS_CODEGENERATION_ATTRIBUTES_CUSTOMCOMPONENTNAMEATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

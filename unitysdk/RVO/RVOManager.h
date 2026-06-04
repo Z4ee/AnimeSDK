@@ -8,30 +8,30 @@ namespace RVO { class RVOAgent; }
 namespace RVO { class Simulator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RVO_RVOMANAGER_ADDOBSTACLE_OFFSET UNITYSDK_OFFSET(0x8E04C40)
-#define RVO_RVOMANAGER_ALLOCAGENT_OFFSET UNITYSDK_OFFSET(0x8E04AA0)
-#define RVO_RVOMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8E042B0)
-#define RVO_RVOMANAGER_GET_SIMULATOR_OFFSET UNITYSDK_OFFSET(0x8E059F0)
-#define RVO_RVOMANAGER_PROCESSOBSTACLES_OFFSET UNITYSDK_OFFSET(0x8E059A0)
-#define RVO_RVOMANAGER_RELEASEAGENT_OFFSET UNITYSDK_OFFSET(0x8E04B90)
-#define RVO_RVOMANAGER_SIMULATE_OFFSET UNITYSDK_OFFSET(0x8E04580)
-#define RVO_RVOMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x8E05A00)
-#define RVO_RVOMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x8E04000)
+#define RVO_RVOMANAGER_ADDOBSTACLE_OFFSET UNITYSDK_OFFSET(0xA2536A0)
+#define RVO_RVOMANAGER_ALLOCAGENT_OFFSET UNITYSDK_OFFSET(0xA253440)
+#define RVO_RVOMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA252C70)
+#define RVO_RVOMANAGER_GET_SIMULATOR_OFFSET UNITYSDK_OFFSET(0xA254460)
+#define RVO_RVOMANAGER_PROCESSOBSTACLES_OFFSET UNITYSDK_OFFSET(0xA254410)
+#define RVO_RVOMANAGER_RELEASEAGENT_OFFSET UNITYSDK_OFFSET(0xA253580)
+#define RVO_RVOMANAGER_SIMULATE_OFFSET UNITYSDK_OFFSET(0xA252F80)
+#define RVO_RVOMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xA254470)
+#define RVO_RVOMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xA252900)
 
 namespace RVO
 {
-	inline static constexpr unsigned int RVOManager_TypeDefinitionIndex = 41048;
+	inline static constexpr unsigned int RVOManager_TypeDefinitionIndex = 41851;
 
 	class RVOManager : public ::System::Object
 	{
 	public:
 		static ::RVO::RVOAgentParam* StaticGet_InvalidParam()
 		{
-			return (::RVO::RVOAgentParam*)Il2CppClass::FromTypeDefinitionIndex(RVOManager_TypeDefinitionIndex)->GetStaticField(0x10140);
+			return (::RVO::RVOAgentParam*)Il2CppClass::FromTypeDefinitionIndex(RVOManager_TypeDefinitionIndex)->GetStaticField(0x8050);
 		}
-		::System::Collections::Generic::List_1<::RVO::RVOAgent*>* _Agents; // 0x10
-		::System::Collections::Generic::List_1<::RVO::RVOAgent*>* _AgentPool; // 0x18
-		::RVO::Simulator* _Simulator; // 0x20
+		::RVO::Simulator* _Simulator; // 0x10
+		::System::Collections::Generic::List_1<::RVO::RVOAgent*>* _Agents; // 0x18
+		::System::Collections::Generic::List_1<::RVO::RVOAgent*>* _AgentPool; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -48,24 +48,24 @@ namespace RVO
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RVO_RVOMANAGER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Simulate(::System::Single deltaTime)
+		::System::Void Simulate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOMANAGER_SIMULATE_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RVO_RVOMANAGER_SIMULATE_OFFSET))(this, a1);
 		}
 
-		::RVO::RVOAgent* AllocAgent(::RVO::RVOAgentParam& param)
+		::RVO::RVOAgent* AllocAgent(::RVO::RVOAgentParam& a1)
 		{
-			return ((::RVO::RVOAgent*(*)(::PVOID, ::RVO::RVOAgentParam&))((::PBYTE)hIl2Cpp + RVO_RVOMANAGER_ALLOCAGENT_OFFSET))(this, param);
+			return ((::RVO::RVOAgent*(*)(::PVOID, ::RVO::RVOAgentParam&))((::PBYTE)hIl2Cpp + RVO_RVOMANAGER_ALLOCAGENT_OFFSET))(this, a1);
 		}
 
-		::System::Void ReleaseAgent(::RVO::RVOAgent* agent)
+		::System::Void ReleaseAgent(::RVO::RVOAgent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RVO::RVOAgent*))((::PBYTE)hIl2Cpp + RVO_RVOMANAGER_RELEASEAGENT_OFFSET))(this, agent);
+			return ((::System::Void(*)(::PVOID, ::RVO::RVOAgent*))((::PBYTE)hIl2Cpp + RVO_RVOMANAGER_RELEASEAGENT_OFFSET))(this, a1);
 		}
 
-		::System::Void AddObstacle(::RVO::RVOObstacleParam& param)
+		::System::Void AddObstacle(::RVO::RVOObstacleParam& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RVO::RVOObstacleParam&))((::PBYTE)hIl2Cpp + RVO_RVOMANAGER_ADDOBSTACLE_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::RVO::RVOObstacleParam&))((::PBYTE)hIl2Cpp + RVO_RVOMANAGER_ADDOBSTACLE_OFFSET))(this, a1);
 		}
 
 		::System::Void ProcessObstacles()

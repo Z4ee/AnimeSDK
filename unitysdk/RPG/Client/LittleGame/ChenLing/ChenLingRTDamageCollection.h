@@ -5,17 +5,17 @@
 namespace RPG::Client::LittleGame::ChenLing { class ChenLingRTDamageData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_GET_DATALIST_OFFSET UNITYSDK_OFFSET(0xA683C90)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_REORDER_OFFSET UNITYSDK_OFFSET(0xA683F10)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_SET_DATALIST_OFFSET UNITYSDK_OFFSET(0xA683CA0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_SYNC_OFFSET UNITYSDK_OFFSET(0xA683E00)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA684160)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION__FINDWITHID_OFFSET UNITYSDK_OFFSET(0xA683CB0)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION__ISNEEDREORDER_OFFSET UNITYSDK_OFFSET(0xA684060)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_GET_DATALIST_OFFSET UNITYSDK_OFFSET(0xBDCE330)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_REORDER_OFFSET UNITYSDK_OFFSET(0xBDCE5D0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_SET_DATALIST_OFFSET UNITYSDK_OFFSET(0xBDCE340)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_SYNC_OFFSET UNITYSDK_OFFSET(0xBDCE470)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xBDCE840)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION__FINDWITHID_OFFSET UNITYSDK_OFFSET(0xBDCE350)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION__ISNEEDREORDER_OFFSET UNITYSDK_OFFSET(0xBDCE750)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingRTDamageCollection_TypeDefinitionIndex = 71328;
+	inline static constexpr unsigned int ChenLingRTDamageCollection_TypeDefinitionIndex = 72350;
 
 	class ChenLingRTDamageCollection : public ::System::Object
 	{
@@ -32,19 +32,19 @@ namespace RPG::Client::LittleGame::ChenLing
 			return ((::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_GET_DATALIST_OFFSET))(this);
 		}
 
-		::System::Void set_DataList(::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData*>* value)
+		::System::Void set_DataList(::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_SET_DATALIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_SET_DATALIST_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData* _FindWithID(::System::UInt32 soldierID)
+		::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData* _FindWithID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION__FINDWITHID_OFFSET))(this, soldierID);
+			return ((::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION__FINDWITHID_OFFSET))(this, a1);
 		}
 
-		::System::Void Sync(::System::UInt32 soldierID, ::System::Single damage, ::System::Single maxDamage)
+		::System::Void Sync(::System::UInt32 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_SYNC_OFFSET))(this, soldierID, damage, maxDamage);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION_SYNC_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ReOrder()

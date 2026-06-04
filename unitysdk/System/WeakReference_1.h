@@ -8,7 +8,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
-	inline static constexpr unsigned int WeakReference_1_TypeDefinitionIndex = 454;
+	inline static constexpr unsigned int WeakReference_1_TypeDefinitionIndex = 453;
 
 	template <typename T>
 	class WeakReference_1 : public ::System::Object

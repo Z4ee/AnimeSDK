@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int IUpdateable_TypeDefinitionIndex = 37206;
+	inline static constexpr unsigned int IUpdateable_TypeDefinitionIndex = 37938;
 
 	class IUpdateable
 	{

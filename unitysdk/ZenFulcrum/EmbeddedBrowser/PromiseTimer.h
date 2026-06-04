@@ -8,15 +8,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 namespace ZenFulcrum::EmbeddedBrowser { class PredicateWait; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A6CC0C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITFOR_OFFSET UNITYSDK_OFFSET(0x1A6CBED0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITUNTIL_OFFSET UNITYSDK_OFFSET(0x1A6CBF80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITWHILE_OFFSET UNITYSDK_OFFSET(0x1A6CC020)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6CC330)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B509360)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITFOR_OFFSET UNITYSDK_OFFSET(0x1B5090F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITUNTIL_OFFSET UNITYSDK_OFFSET(0x1B5091B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITWHILE_OFFSET UNITYSDK_OFFSET(0x1B5092B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5095E0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PromiseTimer_TypeDefinitionIndex = 36299;
+	inline static constexpr unsigned int PromiseTimer_TypeDefinitionIndex = 36599;
 
 	class PromiseTimer : public ::System::Object
 	{
@@ -29,24 +29,24 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER__CTOR_OFFSET))(this);
 		}
 
-		::ZenFulcrum::EmbeddedBrowser::IPromise* WaitFor(::System::Single seconds)
+		::ZenFulcrum::EmbeddedBrowser::IPromise* WaitFor(::System::Single a1)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITFOR_OFFSET))(this, seconds);
+			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITFOR_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::EmbeddedBrowser::IPromise* WaitWhile(::System::Func_2<::ZenFulcrum::EmbeddedBrowser::TimeData, ::System::Boolean>* predicate)
+		::ZenFulcrum::EmbeddedBrowser::IPromise* WaitWhile(::System::Func_2<::ZenFulcrum::EmbeddedBrowser::TimeData, ::System::Boolean>* a1)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Func_2<::ZenFulcrum::EmbeddedBrowser::TimeData, ::System::Boolean>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITWHILE_OFFSET))(this, predicate);
+			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Func_2<::ZenFulcrum::EmbeddedBrowser::TimeData, ::System::Boolean>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITWHILE_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::EmbeddedBrowser::IPromise* WaitUntil(::System::Func_2<::ZenFulcrum::EmbeddedBrowser::TimeData, ::System::Boolean>* predicate)
+		::ZenFulcrum::EmbeddedBrowser::IPromise* WaitUntil(::System::Func_2<::ZenFulcrum::EmbeddedBrowser::TimeData, ::System::Boolean>* a1)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Func_2<::ZenFulcrum::EmbeddedBrowser::TimeData, ::System::Boolean>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITUNTIL_OFFSET))(this, predicate);
+			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Func_2<::ZenFulcrum::EmbeddedBrowser::TimeData, ::System::Boolean>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_WAITUNTIL_OFFSET))(this, a1);
 		}
 
-		::System::Void Update(::System::Single deltaTime)
+		::System::Void Update(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_UPDATE_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER_UPDATE_OFFSET))(this, a1);
 		}
 	};
 }

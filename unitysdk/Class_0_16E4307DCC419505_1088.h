@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
-namespace RPG::Client::ActivityIdleLive { class StoryLine; }
+class Class_1_D09F4FAB9C64FEFA;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1088_TypeDefinitionIndex = 69201;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1088_TypeDefinitionIndex = 69046;
 
 class Class_0_16E4307DCC419505_1088
 {

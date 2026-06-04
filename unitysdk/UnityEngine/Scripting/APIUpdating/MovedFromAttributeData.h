@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_SCRIPTING_APIUPDATING_MOVEDFROMATTRIBUTEDATA_SET_OFFSET UNITYSDK_OFFSET(0x22EEBE0)
+#define UNITYENGINE_SCRIPTING_APIUPDATING_MOVEDFROMATTRIBUTEDATA_SET_OFFSET UNITYSDK_OFFSET(0x388D380)
 
 namespace UnityEngine::Scripting::APIUpdating
 {
-	inline static constexpr unsigned int MovedFromAttributeData_TypeDefinitionIndex = 4313;
+	inline static constexpr unsigned int MovedFromAttributeData_TypeDefinitionIndex = 4487;
 
 	struct alignas(8) MovedFromAttributeData
 	{
@@ -20,9 +20,9 @@ namespace UnityEngine::Scripting::APIUpdating
 		::System::Boolean assemblyHasChanged; // 0x2A
 		::System::Boolean autoUdpateAPI; // 0x2B
 
-		::System::Void Set(::System::Boolean autoUpdateAPI, ::System::String* sourceNamespace, ::System::String* sourceAssembly, ::System::String* sourceClassName)
+		::System::Void Set(::System::Boolean a1, ::System::String* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_APIUPDATING_MOVEDFROMATTRIBUTEDATA_SET_OFFSET))(this, autoUpdateAPI, sourceNamespace, sourceAssembly, sourceClassName);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_APIUPDATING_MOVEDFROMATTRIBUTEDATA_SET_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

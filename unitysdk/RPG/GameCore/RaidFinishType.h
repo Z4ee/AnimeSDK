@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidFinishType_TypeDefinitionIndex = 13785;
+	inline static constexpr unsigned int RaidFinishType_TypeDefinitionIndex = 13852;
 
 	enum class RaidFinishType : ::System::Int32
 	{

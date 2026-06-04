@@ -11,13 +11,13 @@ namespace RPG::GameCore { class ChenLingBattleResource_OnHit; }
 namespace RPG::GameCore { class ChenLingBattleTriggerCallback; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_09E468168EF41340_OFFSET UNITYSDK_OFFSET(0x187DE4F0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_0FE73CBFDE0BF0AE_OFFSET UNITYSDK_OFFSET(0x187DE550)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER__CTOR_OFFSET UNITYSDK_OFFSET(0x187DE540)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_11566A2604581A85_OFFSET UNITYSDK_OFFSET(0x1961C4C0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_A642C14C8CC54C80_OFFSET UNITYSDK_OFFSET(0x1961C460)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER__CTOR_OFFSET UNITYSDK_OFFSET(0x1961C4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_CreateLaser_TypeDefinitionIndex = 14907;
+	inline static constexpr unsigned int ChenLingBattleAbility_CreateLaser_TypeDefinitionIndex = 14970;
 
 	class ChenLingBattleAbility_CreateLaser : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
@@ -40,14 +40,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_09E468168EF41340(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser*& a2)
+		static ::System::Void Method_3_A642C14C8CC54C80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_09E468168EF41340_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_A642C14C8CC54C80_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0FE73CBFDE0BF0AE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser* a2)
+		static ::System::Void Method_3_11566A2604581A85(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_0FE73CBFDE0BF0AE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_11566A2604581A85_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,11 +5,11 @@
 
 namespace RPGTools::Timeline { class OverrideTransform; }
 
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_CLASS_1_5ADB076CDD392373__CTOR_OFFSET UNITYSDK_OFFSET(0xB8F1A50)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_CLASS_1_5ADB076CDD392373__CTOR_OFFSET UNITYSDK_OFFSET(0xD0337D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int OverrideTransformMixer_Class_1_5ADB076CDD392373_TypeDefinitionIndex = 44752;
+	inline static constexpr unsigned int OverrideTransformMixer_Class_1_5ADB076CDD392373_TypeDefinitionIndex = 45299;
 
 	class OverrideTransformMixer_Class_1_5ADB076CDD392373 : public ::System::Object
 	{

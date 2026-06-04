@@ -8,19 +8,19 @@ namespace RPG::Client { class UIFramePostProcessParam; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAMEWITHPOSTPROCESS_OFFSET UNITYSDK_OFFSET(0xB3EBFB0)
-#define RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xB3EBB40)
-#define RPG_CLIENT_UIFRAMECAPTURE_GET_CAPTUREMANAGER_OFFSET UNITYSDK_OFFSET(0xB3EBD70)
-#define RPG_CLIENT_UIFRAMECAPTURE_GET_CAPTUREPARAM_OFFSET UNITYSDK_OFFSET(0xB3EC260)
-#define RPG_CLIENT_UIFRAMECAPTURE_GET_POSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0xB3EC280)
-#define RPG_CLIENT_UIFRAMECAPTURE_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0xB3E0550)
-#define RPG_CLIENT_UIFRAMECAPTURE_SET_CAPTUREPARAM_OFFSET UNITYSDK_OFFSET(0xB3EC270)
-#define RPG_CLIENT_UIFRAMECAPTURE_SET_POSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0xB3EC290)
-#define RPG_CLIENT_UIFRAMECAPTURE__CTOR_OFFSET UNITYSDK_OFFSET(0xB3D83E0)
+#define RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAMEWITHPOSTPROCESS_OFFSET UNITYSDK_OFFSET(0xCB4C940)
+#define RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xCB4C4B0)
+#define RPG_CLIENT_UIFRAMECAPTURE_GET_CAPTUREMANAGER_OFFSET UNITYSDK_OFFSET(0xCB4C6F0)
+#define RPG_CLIENT_UIFRAMECAPTURE_GET_CAPTUREPARAM_OFFSET UNITYSDK_OFFSET(0xCB4CC30)
+#define RPG_CLIENT_UIFRAMECAPTURE_GET_POSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0xCB4CC50)
+#define RPG_CLIENT_UIFRAMECAPTURE_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0xCB41620)
+#define RPG_CLIENT_UIFRAMECAPTURE_SET_CAPTUREPARAM_OFFSET UNITYSDK_OFFSET(0xCB4CC40)
+#define RPG_CLIENT_UIFRAMECAPTURE_SET_POSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0xCB4CC60)
+#define RPG_CLIENT_UIFRAMECAPTURE__CTOR_OFFSET UNITYSDK_OFFSET(0xCB39C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIFrameCapture_TypeDefinitionIndex = 67279;
+	inline static constexpr unsigned int UIFrameCapture_TypeDefinitionIndex = 68231;
 
 	class UIFrameCapture : public ::System::Object
 	{
@@ -33,14 +33,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Texture* CaptureFrame(::RPG::Client::UIFrameCaptureParam* captureParam)
+		::UnityEngine::Texture* CaptureFrame(::RPG::Client::UIFrameCaptureParam* a1)
 		{
-			return ((::UnityEngine::Texture*(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAME_OFFSET))(this, captureParam);
+			return ((::UnityEngine::Texture*(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAME_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise_1<::UnityEngine::Texture*>* CaptureFrameWithPostProcess(::RPG::Client::UIFrameCaptureParam* captureParam, ::RPG::Client::UIFramePostProcessParam* postProcessParam)
+		::RPG::Client::Promises::Promise_1<::UnityEngine::Texture*>* CaptureFrameWithPostProcess(::RPG::Client::UIFrameCaptureParam* a1, ::RPG::Client::UIFramePostProcessParam* a2)
 		{
-			return ((::RPG::Client::Promises::Promise_1<::UnityEngine::Texture*>*(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*, ::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAMEWITHPOSTPROCESS_OFFSET))(this, captureParam, postProcessParam);
+			return ((::RPG::Client::Promises::Promise_1<::UnityEngine::Texture*>*(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*, ::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAMEWITHPOSTPROCESS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ReleaseCapture()
@@ -58,9 +58,9 @@ namespace RPG::Client
 			return ((::RPG::Client::UIFrameCaptureParam*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_GET_CAPTUREPARAM_OFFSET))(this);
 		}
 
-		::System::Void set_CaptureParam(::RPG::Client::UIFrameCaptureParam* value)
+		::System::Void set_CaptureParam(::RPG::Client::UIFrameCaptureParam* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_SET_CAPTUREPARAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_SET_CAPTUREPARAM_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::UIFramePostProcessParam* get_PostProcessParam()
@@ -68,9 +68,9 @@ namespace RPG::Client
 			return ((::RPG::Client::UIFramePostProcessParam*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_GET_POSTPROCESSPARAM_OFFSET))(this);
 		}
 
-		::System::Void set_PostProcessParam(::RPG::Client::UIFramePostProcessParam* value)
+		::System::Void set_PostProcessParam(::RPG::Client::UIFramePostProcessParam* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_SET_POSTPROCESSPARAM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_SET_POSTPROCESSPARAM_OFFSET))(this, a1);
 		}
 	};
 }

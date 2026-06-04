@@ -6,19 +6,19 @@
 namespace RootMotion::FinalIK { class RotationLimit; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_IKSOLVER_BONE_GET_ROTATIONLIMIT_OFFSET UNITYSDK_OFFSET(0x8E1E9A0)
-#define ROOTMOTION_FINALIK_IKSOLVER_BONE_SETTOSOLVERPOSITION_OFFSET UNITYSDK_OFFSET(0x8E1F6E0)
-#define ROOTMOTION_FINALIK_IKSOLVER_BONE_SET_ROTATIONLIMIT_OFFSET UNITYSDK_OFFSET(0x8E1EA60)
-#define ROOTMOTION_FINALIK_IKSOLVER_BONE_SOLVERSWING_OFFSET UNITYSDK_OFFSET(0x8E1EF60)
-#define ROOTMOTION_FINALIK_IKSOLVER_BONE_SWING2D_OFFSET UNITYSDK_OFFSET(0x8E1F390)
-#define ROOTMOTION_FINALIK_IKSOLVER_BONE_SWING_OFFSET UNITYSDK_OFFSET(0x8E1EA80)
-#define ROOTMOTION_FINALIK_IKSOLVER_BONE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8E1F780)
-#define ROOTMOTION_FINALIK_IKSOLVER_BONE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x8E1F7D0)
-#define ROOTMOTION_FINALIK_IKSOLVER_BONE__CTOR_OFFSET UNITYSDK_OFFSET(0x8E1F720)
+#define ROOTMOTION_FINALIK_IKSOLVER_BONE_GET_ROTATIONLIMIT_OFFSET UNITYSDK_OFFSET(0xA26F460)
+#define ROOTMOTION_FINALIK_IKSOLVER_BONE_SETTOSOLVERPOSITION_OFFSET UNITYSDK_OFFSET(0xA270170)
+#define ROOTMOTION_FINALIK_IKSOLVER_BONE_SET_ROTATIONLIMIT_OFFSET UNITYSDK_OFFSET(0xA26F520)
+#define ROOTMOTION_FINALIK_IKSOLVER_BONE_SOLVERSWING_OFFSET UNITYSDK_OFFSET(0xA26FA20)
+#define ROOTMOTION_FINALIK_IKSOLVER_BONE_SWING2D_OFFSET UNITYSDK_OFFSET(0xA26FE20)
+#define ROOTMOTION_FINALIK_IKSOLVER_BONE_SWING_OFFSET UNITYSDK_OFFSET(0xA26F540)
+#define ROOTMOTION_FINALIK_IKSOLVER_BONE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA270210)
+#define ROOTMOTION_FINALIK_IKSOLVER_BONE__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA270260)
+#define ROOTMOTION_FINALIK_IKSOLVER_BONE__CTOR_OFFSET UNITYSDK_OFFSET(0xA2701B0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolver_Bone_TypeDefinitionIndex = 41031;
+	inline static constexpr unsigned int IKSolver_Bone_TypeDefinitionIndex = 41834;
 
 	class IKSolver_Bone : public ::RootMotion::FinalIK::IKSolver_Point
 	{
@@ -34,14 +34,14 @@ namespace RootMotion::FinalIK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::Transform* transform)
+		::System::Void _ctor_1(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE__CTOR_1_OFFSET))(this, transform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::UnityEngine::Transform* transform, ::System::Single weight)
+		::System::Void _ctor_2(::UnityEngine::Transform* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE__CTOR_2_OFFSET))(this, transform, weight);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::RootMotion::FinalIK::RotationLimit* get_rotationLimit()
@@ -49,24 +49,24 @@ namespace RootMotion::FinalIK
 			return ((::RootMotion::FinalIK::RotationLimit*(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE_GET_ROTATIONLIMIT_OFFSET))(this);
 		}
 
-		::System::Void set_rotationLimit(::RootMotion::FinalIK::RotationLimit* value)
+		::System::Void set_rotationLimit(::RootMotion::FinalIK::RotationLimit* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RootMotion::FinalIK::RotationLimit*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE_SET_ROTATIONLIMIT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RootMotion::FinalIK::RotationLimit*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE_SET_ROTATIONLIMIT_OFFSET))(this, a1);
 		}
 
-		::System::Void Swing(::UnityEngine::Vector3 swingTarget, ::System::Single weight)
+		::System::Void Swing(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE_SWING_OFFSET))(this, swingTarget, weight);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE_SWING_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void SolverSwing(::Il2CppArray<::RootMotion::FinalIK::IKSolver_Bone*>* bones, ::System::Int32 index, ::UnityEngine::Vector3 swingTarget, ::System::Single weight)
+		static ::System::Void SolverSwing(::Il2CppArray<::RootMotion::FinalIK::IKSolver_Bone*>* a1, ::System::Int32 a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::RootMotion::FinalIK::IKSolver_Bone*>*, ::System::Int32, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE_SOLVERSWING_OFFSET))(bones, index, swingTarget, weight);
+			return ((::System::Void(*)(::Il2CppArray<::RootMotion::FinalIK::IKSolver_Bone*>*, ::System::Int32, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE_SOLVERSWING_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::Void Swing2D(::UnityEngine::Vector3 swingTarget, ::System::Single weight)
+		::System::Void Swing2D(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE_SWING2D_OFFSET))(this, swingTarget, weight);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVER_BONE_SWING2D_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetToSolverPosition()

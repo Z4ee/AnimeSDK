@@ -5,16 +5,16 @@
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Events { class UnityEvent; }
 
-#define RPG_CLIENT_ACTIVEDETECTION_ADDACTIVELISTENER_OFFSET UNITYSDK_OFFSET(0x9AA1ED0)
-#define RPG_CLIENT_ACTIVEDETECTION_ADDDEACTIVELISTENER_OFFSET UNITYSDK_OFFSET(0x9AA1F30)
-#define RPG_CLIENT_ACTIVEDETECTION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x9AA1FE0)
-#define RPG_CLIENT_ACTIVEDETECTION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9AA1F90)
-#define RPG_CLIENT_ACTIVEDETECTION_REMOVEALLLISTENERS_OFFSET UNITYSDK_OFFSET(0x9AA1DE0)
-#define RPG_CLIENT_ACTIVEDETECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9AA2030)
+#define RPG_CLIENT_ACTIVEDETECTION_ADDACTIVELISTENER_OFFSET UNITYSDK_OFFSET(0xB082190)
+#define RPG_CLIENT_ACTIVEDETECTION_ADDDEACTIVELISTENER_OFFSET UNITYSDK_OFFSET(0xB0821F0)
+#define RPG_CLIENT_ACTIVEDETECTION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB0822A0)
+#define RPG_CLIENT_ACTIVEDETECTION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB082250)
+#define RPG_CLIENT_ACTIVEDETECTION_REMOVEALLLISTENERS_OFFSET UNITYSDK_OFFSET(0xB0820A0)
+#define RPG_CLIENT_ACTIVEDETECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB0822F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActiveDetection_TypeDefinitionIndex = 67082;
+	inline static constexpr unsigned int ActiveDetection_TypeDefinitionIndex = 68024;
 
 	class ActiveDetection : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,14 +32,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEDETECTION_REMOVEALLLISTENERS_OFFSET))(this);
 		}
 
-		::System::Void AddActiveListener(::UnityEngine::Events::UnityAction* callback)
+		::System::Void AddActiveListener(::UnityEngine::Events::UnityAction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEDETECTION_ADDACTIVELISTENER_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEDETECTION_ADDACTIVELISTENER_OFFSET))(this, a1);
 		}
 
-		::System::Void AddDeactiveListener(::UnityEngine::Events::UnityAction* callback)
+		::System::Void AddDeactiveListener(::UnityEngine::Events::UnityAction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEDETECTION_ADDDEACTIVELISTENER_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVEDETECTION_ADDDEACTIVELISTENER_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()

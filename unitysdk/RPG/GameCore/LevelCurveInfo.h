@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelCurvePointInfo; }
 
-#define RPG_GAMECORE_LEVELCURVEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18A3E970)
-#define RPG_GAMECORE_LEVELCURVEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A3E930)
-#define RPG_GAMECORE_LEVELCURVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3E960)
+#define RPG_GAMECORE_LEVELCURVEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x198703F0)
+#define RPG_GAMECORE_LEVELCURVEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198703B0)
+#define RPG_GAMECORE_LEVELCURVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x198703E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCurveInfo_TypeDefinitionIndex = 16485;
+	inline static constexpr unsigned int LevelCurveInfo_TypeDefinitionIndex = 16517;
 
 	class LevelCurveInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelCurveInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelCurveInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelCurveInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelCurveInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelCurveInfo* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelCurveInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelCurveInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINFO_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelCurveInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCURVEINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

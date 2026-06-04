@@ -7,15 +7,15 @@ namespace Epic::OnlineServices { class EpicAccountId; }
 namespace Epic::OnlineServices::Mods { class EnumerateModsOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x544B0)
-#define EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x544A0)
-#define EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x54300)
-#define EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x543C0)
-#define EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x26F0)
+#define EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x58F10)
+#define EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x58F00)
+#define EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x58D60)
+#define EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x58E20)
+#define EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x2A90)
 
 namespace Epic::OnlineServices::Mods
 {
-	inline static constexpr unsigned int EnumerateModsOptionsInternal_TypeDefinitionIndex = 41766;
+	inline static constexpr unsigned int EnumerateModsOptionsInternal_TypeDefinitionIndex = 42569;
 
 	struct alignas(8) EnumerateModsOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::Mods
 		::System::IntPtr m_LocalUserId; // 0x18
 		::Epic::OnlineServices::Mods::ModEnumerationType m_Type; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Type(::Epic::OnlineServices::Mods::ModEnumerationType value)
+		::System::Void set_Type(::Epic::OnlineServices::Mods::ModEnumerationType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModEnumerationType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModEnumerationType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_TYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Mods::EnumerateModsOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Mods::EnumerateModsOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::EnumerateModsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::EnumerateModsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ENUMERATEMODSOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLERARGUMENTEXPRESSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A72AC10)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLERARGUMENTEXPRESSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52C0D0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CallerArgumentExpressionAttribute_TypeDefinitionIndex = 6493;
+	inline static constexpr unsigned int CallerArgumentExpressionAttribute_TypeDefinitionIndex = 6322;
 
 	class CallerArgumentExpressionAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* _ParameterName_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::String* parameterName)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_CALLERARGUMENTEXPRESSIONATTRIBUTE__CTOR_OFFSET))(this, parameterName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_CALLERARGUMENTEXPRESSIONATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

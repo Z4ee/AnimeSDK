@@ -11,15 +11,15 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22EA710)
-#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_OFFSET UNITYSDK_OFFSET(0x22EA6D0)
-#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETCAMERACULLINGPLANE_OFFSET UNITYSDK_OFFSET(0x22EA6B0)
-#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22EA790)
-#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETSHADOWCULLINGPLANE_OFFSET UNITYSDK_OFFSET(0x22EA690)
+#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x38886C0)
+#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_OFFSET UNITYSDK_OFFSET(0x3888680)
+#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETCAMERACULLINGPLANE_OFFSET UNITYSDK_OFFSET(0x3888660)
+#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3888740)
+#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETSHADOWCULLINGPLANE_OFFSET UNITYSDK_OFFSET(0x3888640)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CameraProperties_TypeDefinitionIndex = 4548;
+	inline static constexpr unsigned int CameraProperties_TypeDefinitionIndex = 4722;
 
 	struct alignas(4) CameraProperties
 	{
@@ -58,27 +58,27 @@ namespace UnityEngine::Rendering
 		::System::Single stableFieldOfView; // 0x3F0
 
 		/*
-		::UnityEngine::Plane GetShadowCullingPlane(::System::Int32 index)
+		::UnityEngine::Plane GetShadowCullingPlane(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Plane(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETSHADOWCULLINGPLANE_OFFSET))(this, index);
+			return ((::UnityEngine::Plane(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETSHADOWCULLINGPLANE_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::UnityEngine::Plane GetCameraCullingPlane(::System::Int32 index)
+		::UnityEngine::Plane GetCameraCullingPlane(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Plane(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETCAMERACULLINGPLANE_OFFSET))(this, index);
+			return ((::UnityEngine::Plane(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETCAMERACULLINGPLANE_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Boolean Equals(::UnityEngine::Rendering::CameraProperties other)
+		::System::Boolean Equals(::UnityEngine::Rendering::CameraProperties a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::CameraProperties))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::CameraProperties))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

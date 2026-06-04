@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG_METHOD_2_97816108FAF1CBF6_OFFSET UNITYSDK_OFFSET(0x1866DA20)
-#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1866DDD0)
+#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG_METHOD_2_84F60838E35EFFF9_OFFSET UNITYSDK_OFFSET(0x19440620)
+#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194409C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureBehaviorConfig_TypeDefinitionIndex = 16733;
+	inline static constexpr unsigned int AdventureBehaviorConfig_TypeDefinitionIndex = 16754;
 
 	class AdventureBehaviorConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_97816108FAF1CBF6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureBehaviorConfig*& a2)
+		static ::System::Void Method_2_84F60838E35EFFF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureBehaviorConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureBehaviorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG_METHOD_2_97816108FAF1CBF6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureBehaviorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG_METHOD_2_84F60838E35EFFF9_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,13 +5,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_PROPDESTRUCTITEM_METHOD_2_C853717DEE2015B8_OFFSET UNITYSDK_OFFSET(0x18C69CD0)
-#define RPG_GAMECORE_PROPDESTRUCTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18C69EE0)
+#define RPG_GAMECORE_PROPDESTRUCTITEM_METHOD_2_6BD92461339CAF1D_OFFSET UNITYSDK_OFFSET(0x19A8BB30)
+#define RPG_GAMECORE_PROPDESTRUCTITEM_METHOD_2_C853717DEE2015B8_OFFSET UNITYSDK_OFFSET(0x19A8B910)
+#define RPG_GAMECORE_PROPDESTRUCTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19A8BB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDestructItem_TypeDefinitionIndex = 20177;
+	inline static constexpr unsigned int PropDestructItem_TypeDefinitionIndex = 20034;
 
 	class PropDestructItem : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,6 +31,11 @@ namespace RPG::GameCore
 		static ::System::Void Method_2_C853717DEE2015B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropDestructItem*& a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropDestructItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDESTRUCTITEM_METHOD_2_C853717DEE2015B8_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_6BD92461339CAF1D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::PropDestructItem*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::PropDestructItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDESTRUCTITEM_METHOD_2_6BD92461339CAF1D_OFFSET))(a1, a2);
 		}
 	};
 }

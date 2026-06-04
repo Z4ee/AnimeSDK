@@ -5,24 +5,24 @@
 class Class_1_8CF94E0F14A91ED3_2;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9FC0600)
-#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9FC0630)
-#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x9FC0640)
+#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB5DB900)
+#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DB930)
+#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xB5DB940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleStageData___c_TypeDefinitionIndex = 56681;
+	inline static constexpr unsigned int ChenLingBattleStageData___c_TypeDefinitionIndex = 57458;
 
 	class ChenLingBattleStageData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ChenLingBattleStageData___c** StaticGet___9()
-		{
-			return (::RPG::Client::ChenLingBattleStageData___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x50A30);
-		}
 		static ::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_2*>** StaticGet___9__0_0()
 		{
-			return (::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_2*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x50A38);
+			return (::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_2*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x60AA0);
+		}
+		static ::RPG::Client::ChenLingBattleStageData___c** StaticGet___9()
+		{
+			return (::RPG::Client::ChenLingBattleStageData___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x60AA8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __ctor_b__0_0(::Class_1_8CF94E0F14A91ED3_2* x, ::Class_1_8CF94E0F14A91ED3_2* y)
+		::System::Int32 __ctor_b__0_0(::Class_1_8CF94E0F14A91ED3_2* a1, ::Class_1_8CF94E0F14A91ED3_2* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_8CF94E0F14A91ED3_2*, ::Class_1_8CF94E0F14A91ED3_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C___CTOR_B__0_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::Class_1_8CF94E0F14A91ED3_2*, ::Class_1_8CF94E0F14A91ED3_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C___CTOR_B__0_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStreamPlayer_AlembicStreamSource_TypeDefinitionIndex = 40864;
+	inline static constexpr unsigned int AlembicStreamPlayer_AlembicStreamSource_TypeDefinitionIndex = 41690;
 
 	enum class AlembicStreamPlayer_AlembicStreamSource : ::System::Int32
 	{

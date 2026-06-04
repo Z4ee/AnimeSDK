@@ -7,7 +7,7 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginTilingByTargetID_RendererData_TypeDefinitionIndex = 64646;
+	inline static constexpr unsigned int MonoEffectPluginTilingByTargetID_RendererData_TypeDefinitionIndex = 65567;
 
 	struct alignas(8) MonoEffectPluginTilingByTargetID_RendererData
 	{

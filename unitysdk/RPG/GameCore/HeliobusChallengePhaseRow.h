@@ -5,32 +5,32 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HELIOBUSCHALLENGEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189F1040)
-#define RPG_GAMECORE_HELIOBUSCHALLENGEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189F17D0)
+#define RPG_GAMECORE_HELIOBUSCHALLENGEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19823DA0)
+#define RPG_GAMECORE_HELIOBUSCHALLENGEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19824510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusChallengePhaseRow_TypeDefinitionIndex = 13036;
+	inline static constexpr unsigned int HeliobusChallengePhaseRow_TypeDefinitionIndex = 13119;
 
 	class HeliobusChallengePhaseRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ChallengeGroupList; // 0x10
-		::System::UInt32 MapEntranceID; // 0x18
-		::System::UInt32 MappingInfoID; // 0x1C
-		::RPG::Client::TextID ChallengePhaseName; // 0x20
-		::RPG::Client::TextID ChallengePhaseUnlock; // 0x30
-		::System::UInt32 ChallengePhaseID; // 0x40
-		::System::UInt32 UnlockMissionID; // 0x44
+		::RPG::Client::TextID ChallengePhaseUnlock; // 0x18
+		::RPG::Client::TextID ChallengePhaseName; // 0x28
+		::System::UInt32 ChallengePhaseID; // 0x38
+		::System::UInt32 MappingInfoID; // 0x3C
+		::System::UInt32 UnlockMissionID; // 0x40
+		::System::UInt32 MapEntranceID; // 0x44
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCHALLENGEPHASEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::HeliobusChallengePhaseRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeliobusChallengePhaseRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeliobusChallengePhaseRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCHALLENGEPHASEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeliobusChallengePhaseRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCHALLENGEPHASEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

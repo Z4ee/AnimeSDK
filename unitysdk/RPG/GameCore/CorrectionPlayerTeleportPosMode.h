@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CorrectionPlayerTeleportPosMode_TypeDefinitionIndex = 19460;
+	inline static constexpr unsigned int CorrectionPlayerTeleportPosMode_TypeDefinitionIndex = 23163;
 
 	enum class CorrectionPlayerTeleportPosMode : ::System::Int32
 	{

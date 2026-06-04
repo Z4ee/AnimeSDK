@@ -4,13 +4,13 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB36FF50)
-#define RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__TRANSFERCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xB36FF60)
-#define RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__TRANSFERCHECK_B__1_OFFSET UNITYSDK_OFFSET(0xB36FF80)
+#define RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCACBB00)
+#define RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__TRANSFERCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xCACBB10)
+#define RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__TRANSFERCHECK_B__1_OFFSET UNITYSDK_OFFSET(0xCACBB30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransferUtils___c__DisplayClass0_0_TypeDefinitionIndex = 62859;
+	inline static constexpr unsigned int TransferUtils___c__DisplayClass0_0_TypeDefinitionIndex = 63794;
 
 	class TransferUtils___c__DisplayClass0_0 : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _TransferCheck_b__0(::System::Boolean isOk)
+		::System::Void _TransferCheck_b__0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__TRANSFERCHECK_B__0_OFFSET))(this, isOk);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__TRANSFERCHECK_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _TransferCheck_b__1(::System::Boolean isOk)
+		::System::Void _TransferCheck_b__1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__TRANSFERCHECK_B__1_OFFSET))(this, isOk);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__TRANSFERCHECK_B__1_OFFSET))(this, a1);
 		}
 	};
 }

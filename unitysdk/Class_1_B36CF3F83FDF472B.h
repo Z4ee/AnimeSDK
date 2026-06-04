@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_046D7E7D73E44996;
+class Class_1_7291C38274750BA2_2;
 namespace RPG::Client { class PSManager; }
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B36CF3F83FDF472B_METHOD_1_0C3EB93BBF68E6E6_1_OFFSET UNITYSDK_OFFSET(0x117AAB10)
-#define CLASS_1_B36CF3F83FDF472B_METHOD_1_0C3EB93BBF68E6E6_OFFSET UNITYSDK_OFFSET(0x117AA9E0)
-#define CLASS_1_B36CF3F83FDF472B_METHOD_1_89FE5E6F36ECBFED_OFFSET UNITYSDK_OFFSET(0x117AAC40)
-#define CLASS_1_B36CF3F83FDF472B__CTOR_OFFSET UNITYSDK_OFFSET(0x117AAC70)
+#define CLASS_1_B36CF3F83FDF472B_METHOD_1_0C3EB93BBF68E6E6_1_OFFSET UNITYSDK_OFFSET(0x142CAB20)
+#define CLASS_1_B36CF3F83FDF472B_METHOD_1_0C3EB93BBF68E6E6_OFFSET UNITYSDK_OFFSET(0x142CA9F0)
+#define CLASS_1_B36CF3F83FDF472B_METHOD_1_89FE5E6F36ECBFED_OFFSET UNITYSDK_OFFSET(0x142CAC50)
+#define CLASS_1_B36CF3F83FDF472B__CTOR_OFFSET UNITYSDK_OFFSET(0x142CAC80)
 
-inline static constexpr unsigned int Class_1_B36CF3F83FDF472B_TypeDefinitionIndex = 59124;
+inline static constexpr unsigned int Class_1_B36CF3F83FDF472B_TypeDefinitionIndex = 60054;
 
 class Class_1_B36CF3F83FDF472B : public ::System::Object
 {
@@ -23,14 +23,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B36CF3F83FDF472B__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_0C3EB93BBF68E6E6(::System::Action_1<::System::Collections::Generic::List_1<::Class_1_046D7E7D73E44996*>*>* a1, ::System::Action_1<::System::Exception*>* a2)
+	::System::Void Method_1_0C3EB93BBF68E6E6(::System::Action_1<::System::Collections::Generic::List_1<::Class_1_7291C38274750BA2_2*>*>* a1, ::System::Action_1<::System::Exception*>* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::List_1<::Class_1_046D7E7D73E44996*>*>*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + CLASS_1_B36CF3F83FDF472B_METHOD_1_0C3EB93BBF68E6E6_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::List_1<::Class_1_7291C38274750BA2_2*>*>*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + CLASS_1_B36CF3F83FDF472B_METHOD_1_0C3EB93BBF68E6E6_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_0C3EB93BBF68E6E6_1(::System::Action_1<::System::Collections::Generic::List_1<::Class_1_046D7E7D73E44996*>*>* a1, ::System::Action_1<::System::Exception*>* a2)
+	::System::Void Method_1_0C3EB93BBF68E6E6_1(::System::Action_1<::System::Collections::Generic::List_1<::Class_1_7291C38274750BA2_2*>*>* a1, ::System::Action_1<::System::Exception*>* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::List_1<::Class_1_046D7E7D73E44996*>*>*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + CLASS_1_B36CF3F83FDF472B_METHOD_1_0C3EB93BBF68E6E6_1_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::List_1<::Class_1_7291C38274750BA2_2*>*>*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + CLASS_1_B36CF3F83FDF472B_METHOD_1_0C3EB93BBF68E6E6_1_OFFSET))(this, a1, a2);
 	}
 
 	::RPG::Client::PSManager* Method_1_89FE5E6F36ECBFED()

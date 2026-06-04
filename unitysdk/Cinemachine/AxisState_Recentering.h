@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CINEMACHINE_AXISSTATE_RECENTERING_CANCELRECENTERING_OFFSET UNITYSDK_OFFSET(0x16204E0)
-#define CINEMACHINE_AXISSTATE_RECENTERING_COPYSTATEFROM_OFFSET UNITYSDK_OFFSET(0x16204B0)
-#define CINEMACHINE_AXISSTATE_RECENTERING_DORECENTERING_OFFSET UNITYSDK_OFFSET(0x1620570)
-#define CINEMACHINE_AXISSTATE_RECENTERING_LEGACYUPGRADE_OFFSET UNITYSDK_OFFSET(0x1620580)
-#define CINEMACHINE_AXISSTATE_RECENTERING_RECENTERNOW_OFFSET UNITYSDK_OFFSET(0x1620560)
-#define CINEMACHINE_AXISSTATE_RECENTERING_VALIDATE_OFFSET UNITYSDK_OFFSET(0x16204A0)
-#define CINEMACHINE_AXISSTATE_RECENTERING__CTOR_OFFSET UNITYSDK_OFFSET(0x1620480)
+#define CINEMACHINE_AXISSTATE_RECENTERING_CANCELRECENTERING_OFFSET UNITYSDK_OFFSET(0x2BCF8D0)
+#define CINEMACHINE_AXISSTATE_RECENTERING_COPYSTATEFROM_OFFSET UNITYSDK_OFFSET(0x2BCF8A0)
+#define CINEMACHINE_AXISSTATE_RECENTERING_DORECENTERING_OFFSET UNITYSDK_OFFSET(0x2BCF960)
+#define CINEMACHINE_AXISSTATE_RECENTERING_LEGACYUPGRADE_OFFSET UNITYSDK_OFFSET(0x2BCF970)
+#define CINEMACHINE_AXISSTATE_RECENTERING_RECENTERNOW_OFFSET UNITYSDK_OFFSET(0x2BCF950)
+#define CINEMACHINE_AXISSTATE_RECENTERING_VALIDATE_OFFSET UNITYSDK_OFFSET(0x2BCF890)
+#define CINEMACHINE_AXISSTATE_RECENTERING__CTOR_OFFSET UNITYSDK_OFFSET(0x2BCF870)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int AxisState_Recentering_TypeDefinitionIndex = 36560;
+	inline static constexpr unsigned int AxisState_Recentering_TypeDefinitionIndex = 36860;
 
 	struct alignas(4) AxisState_Recentering
 	{
@@ -24,9 +24,9 @@ namespace Cinemachine
 		::System::Int32 m_LegacyHeadingDefinition; // 0x24
 		::System::Int32 m_LegacyVelocityFilterStrength; // 0x28
 
-		::System::Void _ctor(::System::Boolean enabled, ::System::Single waitTime, ::System::Single recenteringTime)
+		::System::Void _ctor(::System::Boolean a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_AXISSTATE_RECENTERING__CTOR_OFFSET))(this, enabled, waitTime, recenteringTime);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_AXISSTATE_RECENTERING__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Validate()
@@ -34,9 +34,9 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_AXISSTATE_RECENTERING_VALIDATE_OFFSET))(this);
 		}
 
-		::System::Void CopyStateFrom(::Cinemachine::AxisState_Recentering& other)
+		::System::Void CopyStateFrom(::Cinemachine::AxisState_Recentering& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::AxisState_Recentering&))((::PBYTE)hIl2Cpp + CINEMACHINE_AXISSTATE_RECENTERING_COPYSTATEFROM_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::AxisState_Recentering&))((::PBYTE)hIl2Cpp + CINEMACHINE_AXISSTATE_RECENTERING_COPYSTATEFROM_OFFSET))(this, a1);
 		}
 
 		::System::Void CancelRecentering()
@@ -50,15 +50,15 @@ namespace Cinemachine
 		}
 
 		/*
-		::System::Void DoRecentering(::Cinemachine::AxisState& axis, ::System::Single deltaTime, ::System::Single recenterTarget)
+		::System::Void DoRecentering(::Cinemachine::AxisState& a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::AxisState&, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_AXISSTATE_RECENTERING_DORECENTERING_OFFSET))(this, axis, deltaTime, recenterTarget);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::AxisState&, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_AXISSTATE_RECENTERING_DORECENTERING_OFFSET))(this, a1, a2, a3);
 		}
 		*/
 
-		::System::Boolean LegacyUpgrade(::System::Int32& heading, ::System::Int32& velocityFilter)
+		::System::Boolean LegacyUpgrade(::System::Int32& a1, ::System::Int32& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + CINEMACHINE_AXISSTATE_RECENTERING_LEGACYUPGRADE_OFFSET))(this, heading, velocityFilter);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + CINEMACHINE_AXISSTATE_RECENTERING_LEGACYUPGRADE_OFFSET))(this, a1, a2);
 		}
 	};
 }

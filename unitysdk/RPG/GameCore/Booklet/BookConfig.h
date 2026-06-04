@@ -8,12 +8,12 @@ namespace RPG::GameCore::Booklet { class ChapterConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BOOKLET_BOOKCONFIG_METHOD_2_D6D9F72E63B07C8A_OFFSET UNITYSDK_OFFSET(0x1870F110)
-#define RPG_GAMECORE_BOOKLET_BOOKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1870F2D0)
+#define RPG_GAMECORE_BOOKLET_BOOKCONFIG_METHOD_2_FB3A0FA6B6F07B4C_OFFSET UNITYSDK_OFFSET(0x194E1CB0)
+#define RPG_GAMECORE_BOOKLET_BOOKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194E1E70)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int BookConfig_TypeDefinitionIndex = 23763;
+	inline static constexpr unsigned int BookConfig_TypeDefinitionIndex = 23596;
 
 	class BookConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore::Booklet
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_BOOKCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D6D9F72E63B07C8A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::BookConfig*& a2)
+		static ::System::Void Method_2_FB3A0FA6B6F07B4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::BookConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::BookConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_BOOKCONFIG_METHOD_2_D6D9F72E63B07C8A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::BookConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_BOOKCONFIG_METHOD_2_FB3A0FA6B6F07B4C_OFFSET))(a1, a2);
 		}
 	};
 }

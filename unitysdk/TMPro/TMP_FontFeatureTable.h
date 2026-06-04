@@ -6,14 +6,14 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace TMPro { class TMP_GlyphPairAdjustmentRecord; }
 
-#define TMPRO_TMP_FONTFEATURETABLE_GET_GLYPHPAIRADJUSTMENTRECORDS_OFFSET UNITYSDK_OFFSET(0x1A35A150)
-#define TMPRO_TMP_FONTFEATURETABLE_SET_GLYPHPAIRADJUSTMENTRECORDS_OFFSET UNITYSDK_OFFSET(0x1A35A160)
-#define TMPRO_TMP_FONTFEATURETABLE_SORTGLYPHPAIRADJUSTMENTRECORDS_OFFSET UNITYSDK_OFFSET(0x1A34D9E0)
-#define TMPRO_TMP_FONTFEATURETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A353740)
+#define TMPRO_TMP_FONTFEATURETABLE_GET_GLYPHPAIRADJUSTMENTRECORDS_OFFSET UNITYSDK_OFFSET(0x1B1B4DA0)
+#define TMPRO_TMP_FONTFEATURETABLE_SET_GLYPHPAIRADJUSTMENTRECORDS_OFFSET UNITYSDK_OFFSET(0x1B1B4DB0)
+#define TMPRO_TMP_FONTFEATURETABLE_SORTGLYPHPAIRADJUSTMENTRECORDS_OFFSET UNITYSDK_OFFSET(0x1B1A81A0)
+#define TMPRO_TMP_FONTFEATURETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AE540)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontFeatureTable_TypeDefinitionIndex = 40141;
+	inline static constexpr unsigned int TMP_FontFeatureTable_TypeDefinitionIndex = 40968;
 
 	class TMP_FontFeatureTable : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace TMPro
 			return ((::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTFEATURETABLE_GET_GLYPHPAIRADJUSTMENTRECORDS_OFFSET))(this);
 		}
 
-		::System::Void set_glyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* value)
+		::System::Void set_glyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTFEATURETABLE_SET_GLYPHPAIRADJUSTMENTRECORDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTFEATURETABLE_SET_GLYPHPAIRADJUSTMENTRECORDS_OFFSET))(this, a1);
 		}
 
 		::System::Void SortGlyphPairAdjustmentRecords()

@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ILuaHackConfig_TypeDefinitionIndex = 54791;
+	inline static constexpr unsigned int ILuaHackConfig_TypeDefinitionIndex = 55518;
 
 	class ILuaHackConfig
 	{

@@ -10,33 +10,33 @@ namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x1796EFB0)
-#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x1796F900)
-#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1796F970)
-#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1796DEF0)
+#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x18720580)
+#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x18720F00)
+#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x18720F80)
+#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1871F3A0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int Stream_ReadWriteTask_TypeDefinitionIndex = 684;
+	inline static constexpr unsigned int Stream_ReadWriteTask_TypeDefinitionIndex = 683;
 
 	class Stream_ReadWriteTask : public ::System::Threading::Tasks::Task_1<::System::Int32>
 	{
 	public:
 		static ::System::Threading::ContextCallback** StaticGet_s_invokeAsyncCallback()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(Stream_ReadWriteTask_TypeDefinitionIndex)->GetStaticField(0x8550);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(Stream_ReadWriteTask_TypeDefinitionIndex)->GetStaticField(0x7D80);
 		}
-		::Il2CppArray<::System::Byte>* _buffer; // 0x50
-		::System::IO::Stream* _stream; // 0x58
-		::System::Threading::ExecutionContext* _context; // 0x60
-		::System::AsyncCallback* _callback; // 0x68
-		::System::Int32 _offset; // 0x70
-		::System::Boolean _isRead; // 0x74
-		::System::Int32 _count; // 0x78
+		::System::IO::Stream* _stream; // 0x50
+		::System::Threading::ExecutionContext* _context; // 0x58
+		::System::AsyncCallback* _callback; // 0x60
+		::Il2CppArray<::System::Byte>* _buffer; // 0x68
+		::System::Int32 _count; // 0x70
+		::System::Int32 _offset; // 0x74
+		::System::Boolean _isRead; // 0x78
 
-		::System::Void _ctor(::System::Boolean isRead, ::System::Func_2<::System::Object*, ::System::Int32>* function, ::System::Object* state, ::System::IO::Stream* stream, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* callback)
+		::System::Void _ctor(::System::Boolean a1, ::System::Func_2<::System::Object*, ::System::Int32>* a2, ::System::Object* a3, ::System::IO::Stream* a4, ::Il2CppArray<::System::Byte>* a5, ::System::Int32 a6, ::System::Int32 a7, ::System::AsyncCallback* a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Func_2<::System::Object*, ::System::Int32>*, ::System::Object*, ::System::IO::Stream*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET))(this, isRead, function, state, stream, buffer, offset, count, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Func_2<::System::Object*, ::System::Int32>*, ::System::Object*, ::System::IO::Stream*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::AsyncCallback*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void ClearBeginState()
@@ -44,14 +44,14 @@ namespace System::IO
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET))(this);
 		}
 
-		static ::System::Void InvokeAsyncCallback(::System::Object* completedTask)
+		static ::System::Void InvokeAsyncCallback(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET))(completedTask);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET))(a1);
 		}
 
-		::System::Void System_Threading_Tasks_ITaskCompletionAction_Invoke(::System::Threading::Tasks::Task* completingTask)
+		::System::Void System_Threading_Tasks_ITaskCompletionAction_Invoke(::System::Threading::Tasks::Task* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET))(this, completingTask);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET))(this, a1);
 		}
 	};
 }

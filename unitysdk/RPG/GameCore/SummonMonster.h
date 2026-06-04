@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SummonMonsterData; }
 namespace RPG::GameCore { class VCameraConfig; }
 
-#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_D271BD267EABA655_OFFSET UNITYSDK_OFFSET(0x18EB2920)
-#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_FC814657042E0F38_OFFSET UNITYSDK_OFFSET(0x18EB2A40)
-#define RPG_GAMECORE_SUMMONMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB29C0)
+#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_1D932944641139F6_OFFSET UNITYSDK_OFFSET(0x19CD27D0)
+#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_F6F974CAAF44DC43_OFFSET UNITYSDK_OFFSET(0x19CD26B0)
+#define RPG_GAMECORE_SUMMONMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD2750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonMonster_TypeDefinitionIndex = 21543;
+	inline static constexpr unsigned int SummonMonster_TypeDefinitionIndex = 21418;
 
 	class SummonMonster : public ::RPG::GameCore::TaskConfig
 	{
@@ -39,14 +39,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONMONSTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D271BD267EABA655(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonMonster*& a2)
+		static ::System::Void Method_3_F6F974CAAF44DC43(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonMonster*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONMONSTER_METHOD_3_D271BD267EABA655_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONMONSTER_METHOD_3_F6F974CAAF44DC43_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FC814657042E0F38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonMonster* a2)
+		static ::System::Void Method_3_1D932944641139F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonMonster* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonMonster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONMONSTER_METHOD_3_FC814657042E0F38_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonMonster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONMONSTER_METHOD_3_1D932944641139F6_OFFSET))(a1, a2);
 		}
 	};
 }

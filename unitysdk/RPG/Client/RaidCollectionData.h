@@ -7,43 +7,43 @@ namespace RPG::GameCore { class ActivityRaidCollectionRow; }
 namespace RPG::GameCore { class RaidConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_CANEDITTEAM_OFFSET UNITYSDK_OFFSET(0xAF649C0)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0xAF645D0)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xAF64570)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xAF649E0)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xAF646A0)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_RAIDID_OFFSET UNITYSDK_OFFSET(0xAF64150)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_RAIDROW_OFFSET UNITYSDK_OFFSET(0xAF645B0)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_REWARDIDS_OFFSET UNITYSDK_OFFSET(0xAF64600)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xAF64590)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xAF64580)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xAF649F0)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_SET_RAIDROW_OFFSET UNITYSDK_OFFSET(0xAF645C0)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0xAF645A0)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_STARTRAID_OFFSET UNITYSDK_OFFSET(0xAF643A0)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xAF64350)
-#define RPG_CLIENT_RAIDCOLLECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAF64070)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_CANEDITTEAM_OFFSET UNITYSDK_OFFSET(0xC6A9930)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0xC6A9540)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xC6A94E0)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC6A9950)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xC6A9610)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_RAIDID_OFFSET UNITYSDK_OFFSET(0xC6A90D0)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_RAIDROW_OFFSET UNITYSDK_OFFSET(0xC6A9520)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_REWARDIDS_OFFSET UNITYSDK_OFFSET(0xC6A9570)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xC6A9500)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xC6A94F0)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC6A9960)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_SET_RAIDROW_OFFSET UNITYSDK_OFFSET(0xC6A9530)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0xC6A9510)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_STARTRAID_OFFSET UNITYSDK_OFFSET(0xC6A9310)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xC6A92C0)
+#define RPG_CLIENT_RAIDCOLLECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC6A8FF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RaidCollectionData_TypeDefinitionIndex = 61486;
+	inline static constexpr unsigned int RaidCollectionData_TypeDefinitionIndex = 62419;
 
 	class RaidCollectionData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ActivityRaidCollectionRow* _Row_k__BackingField; // 0x10
-		::RPG::GameCore::RaidConfigRow* _RaidRow_k__BackingField; // 0x18
+		::RPG::GameCore::RaidConfigRow* _RaidRow_k__BackingField; // 0x10
+		::RPG::GameCore::ActivityRaidCollectionRow* _Row_k__BackingField; // 0x18
 		::System::Boolean _IsFinished_k__BackingField; // 0x20
 		::System::UInt32 _ID_k__BackingField; // 0x24
 
-		::System::Void _ctor(::System::UInt32 id)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA__CTOR_OFFSET))(this, id);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void Sync(::System::Boolean isFinished)
+		::System::Void Sync(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_SYNC_OFFSET))(this, isFinished);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_SYNC_OFFSET))(this, a1);
 		}
 
 		::System::Void StartRaid()
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ActivityRaidCollectionRow* get_Row()
@@ -66,9 +66,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::ActivityRaidCollectionRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::ActivityRaidCollectionRow* value)
+		::System::Void set_Row(::RPG::GameCore::ActivityRaidCollectionRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityRaidCollectionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityRaidCollectionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ROW_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_RaidID()
@@ -81,9 +81,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::RaidConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_GET_RAIDROW_OFFSET))(this);
 		}
 
-		::System::Void set_RaidRow(::RPG::GameCore::RaidConfigRow* value)
+		::System::Void set_RaidRow(::RPG::GameCore::RaidConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RaidConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_SET_RAIDROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RaidConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_SET_RAIDROW_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Desc()
@@ -111,9 +111,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_GET_ISFINISHED_OFFSET))(this);
 		}
 
-		::System::Void set_IsFinished(::System::Boolean value)
+		::System::Void set_IsFinished(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ISFINISHED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDCOLLECTIONDATA_SET_ISFINISHED_OFFSET))(this, a1);
 		}
 	};
 }

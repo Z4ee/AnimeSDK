@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERATRIGGERPERFORMANCEBYPHASE_METHOD_3_38C43E4F24F5EC03_OFFSET UNITYSDK_OFFSET(0x1880BD00)
-#define RPG_GAMECORE_CHIMERATRIGGERPERFORMANCEBYPHASE_METHOD_3_DB580490AE9AF272_OFFSET UNITYSDK_OFFSET(0x1880BD80)
-#define RPG_GAMECORE_CHIMERATRIGGERPERFORMANCEBYPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1880BD50)
+#define RPG_GAMECORE_CHIMERATRIGGERPERFORMANCEBYPHASE_METHOD_3_28D28729FCF3943D_OFFSET UNITYSDK_OFFSET(0x1964D580)
+#define RPG_GAMECORE_CHIMERATRIGGERPERFORMANCEBYPHASE_METHOD_3_A15A6FF2330F11F4_OFFSET UNITYSDK_OFFSET(0x1964D600)
+#define RPG_GAMECORE_CHIMERATRIGGERPERFORMANCEBYPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1964D5D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTriggerPerformanceByPhase_TypeDefinitionIndex = 20571;
+	inline static constexpr unsigned int ChimeraTriggerPerformanceByPhase_TypeDefinitionIndex = 20506;
 
 	class ChimeraTriggerPerformanceByPhase : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATRIGGERPERFORMANCEBYPHASE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_38C43E4F24F5EC03(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraTriggerPerformanceByPhase*& a2)
+		static ::System::Void Method_3_28D28729FCF3943D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraTriggerPerformanceByPhase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraTriggerPerformanceByPhase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATRIGGERPERFORMANCEBYPHASE_METHOD_3_38C43E4F24F5EC03_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraTriggerPerformanceByPhase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATRIGGERPERFORMANCEBYPHASE_METHOD_3_28D28729FCF3943D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DB580490AE9AF272(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraTriggerPerformanceByPhase* a2)
+		static ::System::Void Method_3_A15A6FF2330F11F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraTriggerPerformanceByPhase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraTriggerPerformanceByPhase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATRIGGERPERFORMANCEBYPHASE_METHOD_3_DB580490AE9AF272_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraTriggerPerformanceByPhase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATRIGGERPERFORMANCEBYPHASE_METHOD_3_A15A6FF2330F11F4_OFFSET))(a1, a2);
 		}
 	};
 }

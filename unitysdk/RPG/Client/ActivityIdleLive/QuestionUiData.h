@@ -7,33 +7,33 @@ namespace RPG::Client::ActivityIdleLive { class GiftSenderUiData; }
 namespace RPG::GameCore { class IdleLiveQuestionRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9BDE2C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x9BDE2B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_GET_UID_OFFSET UNITYSDK_OFFSET(0x9BDE2A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9BDE380)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB17A2A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xB17A290)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_GET_UID_OFFSET UNITYSDK_OFFSET(0xB17A280)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB17A360)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int QuestionUiData_TypeDefinitionIndex = 69490;
+	inline static constexpr unsigned int QuestionUiData_TypeDefinitionIndex = 70302;
 
 	class QuestionUiData : public ::System::Object
 	{
 	public:
-		::System::String* SenderIcon; // 0x10
-		::System::String* Option2Icon; // 0x18
+		::System::String* Option2Icon; // 0x10
+		::System::String* Option1Icon; // 0x18
 		::RPG::Client::ActivityIdleLive::GiftSenderUiData* SenderUiData; // 0x20
-		::System::String* Option1Icon; // 0x28
+		::System::String* SenderIcon; // 0x28
 		::RPG::Client::TextID Content; // 0x30
-		::System::Boolean IsShow; // 0x40
-		::System::UInt32 Option2Id; // 0x44
-		::System::Single Duration; // 0x48
-		::System::UInt32 Option1Id; // 0x4C
+		::System::Single Duration; // 0x40
+		::System::Boolean IsShow; // 0x44
+		::System::UInt32 Option1Id; // 0x48
+		::System::UInt32 _Id_k__BackingField; // 0x4C
 		::System::UInt32 _Uid_k__BackingField; // 0x50
-		::System::UInt32 _Id_k__BackingField; // 0x54
+		::System::UInt32 Option2Id; // 0x54
 
-		::System::Void _ctor(::RPG::GameCore::IdleLiveQuestionRow* questionRow, ::System::UInt32 uid)
+		::System::Void _ctor(::RPG::GameCore::IdleLiveQuestionRow* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveQuestionRow*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA__CTOR_OFFSET))(this, questionRow, uid);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveQuestionRow*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_Uid()
@@ -46,9 +46,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_GET_ID_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ActivityIdleLive::QuestionUiData* Create(::System::UInt32 id, ::System::UInt32 uid)
+		static ::RPG::Client::ActivityIdleLive::QuestionUiData* Create(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::ActivityIdleLive::QuestionUiData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_CREATE_OFFSET))(id, uid);
+			return ((::RPG::Client::ActivityIdleLive::QuestionUiData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_CREATE_OFFSET))(a1, a2);
 		}
 	};
 }

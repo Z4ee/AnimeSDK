@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_DYNAMICRESOLUTIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18113830)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_DYNAMICRESOLUTIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB6C70)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_DynamicResolutionSettings_TypeDefinitionIndex = 35051;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_DynamicResolutionSettings_TypeDefinitionIndex = 35337;
 
 	class CRPGraphicsSettingsData_DynamicResolutionSettings : public ::System::Object
 	{

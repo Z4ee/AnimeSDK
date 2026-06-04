@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B3B40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B3C30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6B3700)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6917F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4F1820)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4F1910)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4F17F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F1780)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_DisplayDialogFunc_TypeDefinitionIndex = 36141;
+	inline static constexpr unsigned int BrowserNative_DisplayDialogFunc_TypeDefinitionIndex = 36441;
 
 	class BrowserNative_DisplayDialogFunc : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Int32 browserId, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DialogType dialogType, ::System::IntPtr dialogText, ::System::IntPtr initialPromptText, ::System::IntPtr sourceURL)
+		::System::Void Invoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DialogType a2, ::System::IntPtr a3, ::System::IntPtr a4, ::System::IntPtr a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DialogType, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_INVOKE_OFFSET))(this, browserId, dialogType, dialogText, initialPromptText, sourceURL);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DialogType, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_INVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 browserId, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DialogType dialogType, ::System::IntPtr dialogText, ::System::IntPtr initialPromptText, ::System::IntPtr sourceURL, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DialogType a2, ::System::IntPtr a3, ::System::IntPtr a4, ::System::IntPtr a5, ::System::AsyncCallback* a6, ::System::Object* a7)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DialogType, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_BEGININVOKE_OFFSET))(this, browserId, dialogType, dialogText, initialPromptText, sourceURL, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DialogType, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

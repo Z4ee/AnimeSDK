@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB914050)
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB9140D0)
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB9140E0)
+#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xD054AB0)
+#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD054B30)
+#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xD054B40)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowHipplenGrowthDialogBehaviour_TypeDefinitionIndex = 45033;
+	inline static constexpr unsigned int ShowHipplenGrowthDialogBehaviour_TypeDefinitionIndex = 45581;
 
 	class ShowHipplenGrowthDialogBehaviour : public ::RPGTools::Timeline::BaseShowDialogBehaviour
 	{
@@ -25,9 +25,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 	};
 }

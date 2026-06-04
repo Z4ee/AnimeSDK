@@ -5,17 +5,17 @@
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 #include "unitysdk/UnityEngine/Jobs/TransformAccessArray.h"
 
-class Class_0_16E4307DCC419505_252;
+class Class_0_16E4307DCC419505_265;
 
 namespace RPG::Client::Multithread
 {
-	inline static constexpr unsigned int JobParallelForTransformThreadTask_1_TypeDefinitionIndex = 39594;
+	inline static constexpr unsigned int JobParallelForTransformThreadTask_1_TypeDefinitionIndex = 40417;
 
 	template <typename TaskData>
 	class JobParallelForTransformThreadTask_1 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_252* _OwnerNode_k__BackingField; // 0x0
+		::Class_0_16E4307DCC419505_265* _OwnerNode_k__BackingField; // 0x0
 		::System::Boolean _LockScene; // 0x0
 		::System::Boolean _RunInMainThread; // 0x0
 		::System::Boolean _Enable; // 0x0

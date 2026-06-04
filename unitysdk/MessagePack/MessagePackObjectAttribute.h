@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE_GET_ALLOWPRIVATE_OFFSET UNITYSDK_OFFSET(0x1731C060)
-#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE_GET_KEYASPROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1731C040)
-#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1731C050)
+#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE_GET_ALLOWPRIVATE_OFFSET UNITYSDK_OFFSET(0x1812AA10)
+#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE_GET_KEYASPROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1812A9F0)
+#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1812AA00)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackObjectAttribute_TypeDefinitionIndex = 6578;
+	inline static constexpr unsigned int MessagePackObjectAttribute_TypeDefinitionIndex = 6540;
 
 	class MessagePackObjectAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Boolean _AllowPrivate_k__BackingField; // 0x10
-		::System::Boolean _KeyAsPropertyName_k__BackingField; // 0x11
+		::System::Boolean _KeyAsPropertyName_k__BackingField; // 0x10
+		::System::Boolean _AllowPrivate_k__BackingField; // 0x11
 
-		::System::Void _ctor(::System::Boolean keyAsPropertyName)
+		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE__CTOR_OFFSET))(this, keyAsPropertyName);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_KeyAsPropertyName()

@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class FiveDimWaterReflectionConfig; }
 
-#define CLASS_1_CC0FB73B7DDBE506__CTOR_OFFSET UNITYSDK_OFFSET(0x17F0E460)
+#define CLASS_1_CC0FB73B7DDBE506__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD0CA0)
 
-inline static constexpr unsigned int Class_1_CC0FB73B7DDBE506_TypeDefinitionIndex = 39310;
+inline static constexpr unsigned int Class_1_CC0FB73B7DDBE506_TypeDefinitionIndex = 40079;
 
 class Class_1_CC0FB73B7DDBE506 : public ::System::Object
 {

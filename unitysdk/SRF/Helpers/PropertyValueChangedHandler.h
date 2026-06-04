@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19EA3170)
-#define SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19EA31A0)
-#define SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x19EA2850)
-#define SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA3150)
+#define SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AD18A60)
+#define SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AD18A90)
+#define SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AD18630)
+#define SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD189F0)
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int PropertyValueChangedHandler_TypeDefinitionIndex = 33337;
+	inline static constexpr unsigned int PropertyValueChangedHandler_TypeDefinitionIndex = 33619;
 
 	class PropertyValueChangedHandler : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::SRF::Helpers::PropertyReference* property)
+		::System::Void Invoke(::SRF::Helpers::PropertyReference* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRF::Helpers::PropertyReference*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_INVOKE_OFFSET))(this, property);
+			return ((::System::Void(*)(::PVOID, ::SRF::Helpers::PropertyReference*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::SRF::Helpers::PropertyReference* property, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::SRF::Helpers::PropertyReference* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::SRF::Helpers::PropertyReference*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_BEGININVOKE_OFFSET))(this, property, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::SRF::Helpers::PropertyReference*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYVALUECHANGEDHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

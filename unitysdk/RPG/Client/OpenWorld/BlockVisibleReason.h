@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int BlockVisibleReason_TypeDefinitionIndex = 68033;
+	inline static constexpr unsigned int BlockVisibleReason_TypeDefinitionIndex = 68992;
 
 	enum class BlockVisibleReason : ::System::Int32
 	{
@@ -17,8 +17,7 @@ namespace RPG::Client::OpenWorld
 		TrainParty = 7,
 		GamePlay = 8,
 		BattleArea = 9,
-		PlayerInfo = 10,
-		MainCameraHidden = 11,
-		Max = 12,
+		MainCameraHidden = 10,
+		Max = 11,
 	};
 }

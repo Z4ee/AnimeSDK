@@ -8,7 +8,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ArrayFormatter_1_TypeDefinitionIndex = 9423;
+	inline static constexpr unsigned int ArrayFormatter_1_TypeDefinitionIndex = 7326;
 
 	template <typename T>
 	class ArrayFormatter_1 : public ::System::Object

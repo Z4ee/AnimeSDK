@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12C1ADA0)
-#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12C1AE10)
-#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x12C1A580)
-#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x12C1AD80)
+#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x146D4690)
+#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x146D4700)
+#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x146D4160)
+#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x146D4620)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_CuePointCallback_TypeDefinitionIndex = 36955;
+	inline static constexpr unsigned int Player_CuePointCallback_TypeDefinitionIndex = 37255;
 
 	class Player_CuePointCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::CriWare::CriMana::EventPoint& eventPoint)
+		::System::Void Invoke(::CriWare::CriMana::EventPoint& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriMana::EventPoint&))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_INVOKE_OFFSET))(this, eventPoint);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriMana::EventPoint&))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::CriWare::CriMana::EventPoint& eventPoint, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::CriWare::CriMana::EventPoint& a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::CriWare::CriMana::EventPoint&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_BEGININVOKE_OFFSET))(this, eventPoint, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::CriWare::CriMana::EventPoint&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::CriWare::CriMana::EventPoint& eventPoint, ::System::IAsyncResult* result)
+		::System::Void EndInvoke(::CriWare::CriMana::EventPoint& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriMana::EventPoint&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_ENDINVOKE_OFFSET))(this, eventPoint, result);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriMana::EventPoint&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

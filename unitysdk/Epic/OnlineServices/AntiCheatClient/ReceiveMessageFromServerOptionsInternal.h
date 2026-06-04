@@ -5,14 +5,14 @@
 namespace Epic::OnlineServices::AntiCheatClient { class ReceiveMessageFromServerOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9060)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x9050)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_DATA_OFFSET UNITYSDK_OFFSET(0x8F60)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x8FD0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9900)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x98F0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_DATA_OFFSET UNITYSDK_OFFSET(0x9800)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x9870)
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int ReceiveMessageFromServerOptionsInternal_TypeDefinitionIndex = 42550;
+	inline static constexpr unsigned int ReceiveMessageFromServerOptionsInternal_TypeDefinitionIndex = 43353;
 
 	struct alignas(8) ReceiveMessageFromServerOptionsInternal
 	{
@@ -20,19 +20,19 @@ namespace Epic::OnlineServices::AntiCheatClient
 		::System::UInt32 m_DataLengthBytes; // 0x14
 		::System::IntPtr m_Data; // 0x18
 
-		::System::Void set_Data(::Il2CppArray<::System::Byte>* value)
+		::System::Void set_Data(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_DATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_DATA_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromServerOptions* other)
+		::System::Void Set(::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromServerOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromServerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatClient::ReceiveMessageFromServerOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_RECEIVEMESSAGEFROMSERVEROPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

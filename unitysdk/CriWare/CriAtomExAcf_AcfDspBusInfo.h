@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_ACFDSPBUSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1622C30)
+#define CRIWARE_CRIATOMEXACF_ACFDSPBUSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD2E60)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusInfo_TypeDefinitionIndex = 36771;
+	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusInfo_TypeDefinitionIndex = 37071;
 
 	struct alignas(8) CriAtomExAcf_AcfDspBusInfo
 	{
@@ -24,9 +24,9 @@ namespace CriWare
 		::System::Byte numFxes; // 0x42
 		::System::Byte numBusLinks; // 0x43
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* data, ::System::Int32 startIndex)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_ACFDSPBUSINFO__CTOR_OFFSET))(this, data, startIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_ACFDSPBUSINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

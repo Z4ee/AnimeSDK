@@ -5,7 +5,7 @@ namespace RPG::Client { class RogueFormulaInfo; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournGameWithFormula_TypeDefinitionIndex = 62303;
+	inline static constexpr unsigned int IRogueTournGameWithFormula_TypeDefinitionIndex = 63236;
 
 	class IRogueTournGameWithFormula
 	{

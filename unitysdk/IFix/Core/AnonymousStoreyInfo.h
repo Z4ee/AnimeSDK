@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IFIX_CORE_ANONYMOUSSTOREYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1713CAE0)
+#define IFIX_CORE_ANONYMOUSSTOREYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17F87FE0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int AnonymousStoreyInfo_TypeDefinitionIndex = 9928;
+	inline static constexpr unsigned int AnonymousStoreyInfo_TypeDefinitionIndex = 9755;
 
 	class AnonymousStoreyInfo : public ::System::Object
 	{
@@ -14,9 +14,9 @@ namespace IFix::Core
 		::Il2CppArray<::System::Int32>* VTable; // 0x10
 		::Il2CppArray<::System::Int32>* FieldTypes; // 0x18
 		::Il2CppArray<::System::Int32>* Slots; // 0x20
-		::System::Int32 CtorId; // 0x28
+		::System::Int32 FieldNum; // 0x28
 		::System::Int32 CtorParamNum; // 0x2C
-		::System::Int32 FieldNum; // 0x30
+		::System::Int32 CtorId; // 0x30
 
 		::System::Void _ctor()
 		{

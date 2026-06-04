@@ -4,14 +4,14 @@
 
 namespace System::Runtime::Serialization { class FixupHolder; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST_ADD_OFFSET UNITYSDK_OFFSET(0x179F5330)
-#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST_ENLARGEARRAY_OFFSET UNITYSDK_OFFSET(0x179F5460)
-#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x179F52E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x179F5290)
+#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST_ADD_OFFSET UNITYSDK_OFFSET(0x187A5100)
+#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST_ENLARGEARRAY_OFFSET UNITYSDK_OFFSET(0x187A5220)
+#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x187A50B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x187A5060)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int FixupHolderList_TypeDefinitionIndex = 1104;
+	inline static constexpr unsigned int FixupHolderList_TypeDefinitionIndex = 1103;
 
 	class FixupHolderList : public ::System::Object
 	{
@@ -24,14 +24,14 @@ namespace System::Runtime::Serialization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Int32 startingSize)
+		::System::Void _ctor_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST__CTOR_1_OFFSET))(this, startingSize);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Add(::System::Runtime::Serialization::FixupHolder* fixup)
+		::System::Void Add(::System::Runtime::Serialization::FixupHolder* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::FixupHolder*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST_ADD_OFFSET))(this, fixup);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::FixupHolder*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDERLIST_ADD_OFFSET))(this, a1);
 		}
 
 		::System::Void EnlargeArray()

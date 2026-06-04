@@ -13,19 +13,19 @@ namespace Epic::OnlineServices::Stats { class QueryStatsOptions; }
 namespace Epic::OnlineServices::Stats { class Stat; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_COPYSTATBYINDEX_OFFSET UNITYSDK_OFFSET(0x8BE6DB0)
-#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_COPYSTATBYNAME_OFFSET UNITYSDK_OFFSET(0x8BE7060)
-#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_GETSTATSCOUNT_OFFSET UNITYSDK_OFFSET(0x8BE7260)
-#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_INGESTSTAT_OFFSET UNITYSDK_OFFSET(0x8BE7460)
-#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_ONINGESTSTATCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BE6C70)
-#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_ONQUERYSTATSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8BE6D00)
-#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_QUERYSTATS_OFFSET UNITYSDK_OFFSET(0x8BE7620)
-#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8BE6DA0)
-#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8BE6D90)
+#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_COPYSTATBYINDEX_OFFSET UNITYSDK_OFFSET(0xA0F7F50)
+#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_COPYSTATBYNAME_OFFSET UNITYSDK_OFFSET(0xA0F8200)
+#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_GETSTATSCOUNT_OFFSET UNITYSDK_OFFSET(0xA0F8400)
+#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_INGESTSTAT_OFFSET UNITYSDK_OFFSET(0xA0F8600)
+#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_ONINGESTSTATCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0F7DF0)
+#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_ONQUERYSTATSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA0F7E90)
+#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE_QUERYSTATS_OFFSET UNITYSDK_OFFSET(0xA0F87E0)
+#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA0F7F40)
+#define EPIC_ONLINESERVICES_STATS_STATSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA0F7F30)
 
 namespace Epic::OnlineServices::Stats
 {
-	inline static constexpr unsigned int StatsInterface_TypeDefinitionIndex = 41225;
+	inline static constexpr unsigned int StatsInterface_TypeDefinitionIndex = 42028;
 
 	class StatsInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -47,44 +47,44 @@ namespace Epic::OnlineServices::Stats
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopyStatByIndex(::Epic::OnlineServices::Stats::CopyStatByIndexOptions* options, ::Epic::OnlineServices::Stats::Stat*& outStat)
+		::Epic::OnlineServices::Result CopyStatByIndex(::Epic::OnlineServices::Stats::CopyStatByIndexOptions* a1, ::Epic::OnlineServices::Stats::Stat*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Stats::CopyStatByIndexOptions*, ::Epic::OnlineServices::Stats::Stat*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_COPYSTATBYINDEX_OFFSET))(this, options, outStat);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Stats::CopyStatByIndexOptions*, ::Epic::OnlineServices::Stats::Stat*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_COPYSTATBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyStatByName(::Epic::OnlineServices::Stats::CopyStatByNameOptions* options, ::Epic::OnlineServices::Stats::Stat*& outStat)
+		::Epic::OnlineServices::Result CopyStatByName(::Epic::OnlineServices::Stats::CopyStatByNameOptions* a1, ::Epic::OnlineServices::Stats::Stat*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Stats::CopyStatByNameOptions*, ::Epic::OnlineServices::Stats::Stat*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_COPYSTATBYNAME_OFFSET))(this, options, outStat);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Stats::CopyStatByNameOptions*, ::Epic::OnlineServices::Stats::Stat*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_COPYSTATBYNAME_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetStatsCount(::Epic::OnlineServices::Stats::GetStatCountOptions* options)
+		::System::UInt32 GetStatsCount(::Epic::OnlineServices::Stats::GetStatCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Stats::GetStatCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_GETSTATSCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Stats::GetStatCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_GETSTATSCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Void IngestStat(::Epic::OnlineServices::Stats::IngestStatOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Stats::OnIngestStatCompleteCallback* completionDelegate)
+		::System::Void IngestStat(::Epic::OnlineServices::Stats::IngestStatOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Stats::OnIngestStatCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Stats::IngestStatOptions*, ::System::Object*, ::Epic::OnlineServices::Stats::OnIngestStatCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_INGESTSTAT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Stats::IngestStatOptions*, ::System::Object*, ::Epic::OnlineServices::Stats::OnIngestStatCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_INGESTSTAT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryStats(::Epic::OnlineServices::Stats::QueryStatsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Stats::OnQueryStatsCompleteCallback* completionDelegate)
+		::System::Void QueryStats(::Epic::OnlineServices::Stats::QueryStatsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Stats::OnQueryStatsCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Stats::QueryStatsOptions*, ::System::Object*, ::Epic::OnlineServices::Stats::OnQueryStatsCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_QUERYSTATS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Stats::QueryStatsOptions*, ::System::Object*, ::Epic::OnlineServices::Stats::OnQueryStatsCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_QUERYSTATS_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnIngestStatCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnIngestStatCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_ONINGESTSTATCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_ONINGESTSTATCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryStatsCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryStatsCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_ONQUERYSTATSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_STATSINTERFACE_ONQUERYSTATSCOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

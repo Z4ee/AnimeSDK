@@ -16,138 +16,138 @@ namespace UnityEngine::ProBuilder { class PolyShape; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDFACES_OFFSET UNITYSDK_OFFSET(0x1A256220)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDFACE_OFFSET UNITYSDK_OFFSET(0x1A2552C0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOEDGE_1_OFFSET UNITYSDK_OFFSET(0x1A25E010)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOEDGE_OFFSET UNITYSDK_OFFSET(0x1A25DF90)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOFACE_1_OFFSET UNITYSDK_OFFSET(0x1A25CF30)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOFACE_OFFSET UNITYSDK_OFFSET(0x1A25CF20)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_BRIDGE_OFFSET UNITYSDK_OFFSET(0x1A25AB90)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CLEARANDREFRESHMESH_OFFSET UNITYSDK_OFFSET(0x1A2587C0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATEPOLYGONWITHHOLE_OFFSET UNITYSDK_OFFSET(0x1A2573A0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATEPOLYGON_OFFSET UNITYSDK_OFFSET(0x1A256D00)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_1_OFFSET UNITYSDK_OFFSET(0x1A2587A0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_2_OFFSET UNITYSDK_OFFSET(0x1A259AA0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_3_OFFSET UNITYSDK_OFFSET(0x1A258800)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_OFFSET UNITYSDK_OFFSET(0x1A258600)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_DUPLICATEANDFLIP_OFFSET UNITYSDK_OFFSET(0x1A259FB0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_FACEWITHVERTICESANDHOLE_OFFSET UNITYSDK_OFFSET(0x1A258160)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_FACEWITHVERTICES_OFFSET UNITYSDK_OFFSET(0x1A257300)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXINFACE_OFFSET UNITYSDK_OFFSET(0x1A261B00)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXINMESH_OFFSET UNITYSDK_OFFSET(0x1A264180)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXONEDGE_OFFSET UNITYSDK_OFFSET(0x1A262840)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_TENTCAPWITHVERTICES_OFFSET UNITYSDK_OFFSET(0x1A25A940)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDFACES_OFFSET UNITYSDK_OFFSET(0x1B0B9EC0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDFACE_OFFSET UNITYSDK_OFFSET(0x1B0B8FA0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOEDGE_1_OFFSET UNITYSDK_OFFSET(0x1B0C1C40)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOEDGE_OFFSET UNITYSDK_OFFSET(0x1B0C1BD0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOFACE_1_OFFSET UNITYSDK_OFFSET(0x1B0C08D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOFACE_OFFSET UNITYSDK_OFFSET(0x1B0C08C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_BRIDGE_OFFSET UNITYSDK_OFFSET(0x1B0BE990)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CLEARANDREFRESHMESH_OFFSET UNITYSDK_OFFSET(0x1B0BC3D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATEPOLYGONWITHHOLE_OFFSET UNITYSDK_OFFSET(0x1B0BB070)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATEPOLYGON_OFFSET UNITYSDK_OFFSET(0x1B0BA9C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_1_OFFSET UNITYSDK_OFFSET(0x1B0BC3B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_2_OFFSET UNITYSDK_OFFSET(0x1B0BD6D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_3_OFFSET UNITYSDK_OFFSET(0x1B0BC410)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_OFFSET UNITYSDK_OFFSET(0x1B0BC220)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_DUPLICATEANDFLIP_OFFSET UNITYSDK_OFFSET(0x1B0BDB80)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_FACEWITHVERTICESANDHOLE_OFFSET UNITYSDK_OFFSET(0x1B0BBD40)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_FACEWITHVERTICES_OFFSET UNITYSDK_OFFSET(0x1B0BAFD0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXINFACE_OFFSET UNITYSDK_OFFSET(0x1B0C5220)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXINMESH_OFFSET UNITYSDK_OFFSET(0x1B0C7CF0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXONEDGE_OFFSET UNITYSDK_OFFSET(0x1B0C6360)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_TENTCAPWITHVERTICES_OFFSET UNITYSDK_OFFSET(0x1B0BE5B0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int AppendElements_TypeDefinitionIndex = 40029;
+	inline static constexpr unsigned int AppendElements_TypeDefinitionIndex = 40856;
 
 	class AppendElements : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ProBuilder::Face* AppendFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::UnityEngine::Vector3>* positions, ::Il2CppArray<::UnityEngine::Color>* colors, ::Il2CppArray<::UnityEngine::Vector2>* uv0s, ::Il2CppArray<::UnityEngine::Vector4>* uv2s, ::Il2CppArray<::UnityEngine::Vector4>* uv3s, ::UnityEngine::ProBuilder::Face* face, ::Il2CppArray<::System::Int32>* common)
+		static ::UnityEngine::ProBuilder::Face* AppendFace(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::UnityEngine::Vector3>* a2, ::Il2CppArray<::UnityEngine::Color>* a3, ::Il2CppArray<::UnityEngine::Vector2>* a4, ::Il2CppArray<::UnityEngine::Vector4>* a5, ::Il2CppArray<::UnityEngine::Vector4>* a6, ::UnityEngine::ProBuilder::Face* a7, ::Il2CppArray<::System::Int32>* a8)
 		{
-			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Color>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::Il2CppArray<::UnityEngine::Vector4>*, ::Il2CppArray<::UnityEngine::Vector4>*, ::UnityEngine::ProBuilder::Face*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDFACE_OFFSET))(mesh, positions, colors, uv0s, uv2s, uv3s, face, common);
+			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Color>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::Il2CppArray<::UnityEngine::Vector4>*, ::Il2CppArray<::UnityEngine::Vector4>*, ::UnityEngine::ProBuilder::Face*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDFACE_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* AppendFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::Il2CppArray<::UnityEngine::Vector3>*>* positions, ::Il2CppArray<::Il2CppArray<::UnityEngine::Color>*>* colors, ::Il2CppArray<::Il2CppArray<::UnityEngine::Vector2>*>* uvs, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* faces, ::Il2CppArray<::Il2CppArray<::System::Int32>*>* shared)
+		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* AppendFaces(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::Il2CppArray<::UnityEngine::Vector3>*>* a2, ::Il2CppArray<::Il2CppArray<::UnityEngine::Color>*>* a3, ::Il2CppArray<::Il2CppArray<::UnityEngine::Vector2>*>* a4, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* a5, ::Il2CppArray<::Il2CppArray<::System::Int32>*>* a6)
 		{
-			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::Il2CppArray<::UnityEngine::Vector3>*>*, ::Il2CppArray<::Il2CppArray<::UnityEngine::Color>*>*, ::Il2CppArray<::Il2CppArray<::UnityEngine::Vector2>*>*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*, ::Il2CppArray<::Il2CppArray<::System::Int32>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDFACES_OFFSET))(mesh, positions, colors, uvs, faces, shared);
+			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::Il2CppArray<::UnityEngine::Vector3>*>*, ::Il2CppArray<::Il2CppArray<::UnityEngine::Color>*>*, ::Il2CppArray<::Il2CppArray<::UnityEngine::Vector2>*>*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*, ::Il2CppArray<::Il2CppArray<::System::Int32>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDFACES_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::UnityEngine::ProBuilder::Face* CreatePolygon(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::System::Int32>* indexes, ::System::Boolean unordered)
+		static ::UnityEngine::ProBuilder::Face* CreatePolygon(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2, ::System::Boolean a3)
 		{
-			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATEPOLYGON_OFFSET))(mesh, indexes, unordered);
+			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATEPOLYGON_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::Face* CreatePolygonWithHole(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::System::Int32>* indexes, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::System::Int32>*>* holes)
+		static ::UnityEngine::ProBuilder::Face* CreatePolygonWithHole(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::System::Int32>*>* a3)
 		{
-			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::System::Int32>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATEPOLYGONWITHHOLE_OFFSET))(mesh, indexes, holes);
+			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::System::Int32>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATEPOLYGONWITHHOLE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::PolyShape* poly)
+		static ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon(::UnityEngine::ProBuilder::PolyShape* a1)
 		{
-			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::PolyShape*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_OFFSET))(poly);
+			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::PolyShape*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_OFFSET))(a1);
 		}
 
-		static ::System::Void ClearAndRefreshMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh)
+		static ::System::Void ClearAndRefreshMesh(::UnityEngine::ProBuilder::ProBuilderMesh* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CLEARANDREFRESHMESH_OFFSET))(mesh);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CLEARANDREFRESHMESH_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, ::System::Single extrude, ::System::Boolean flipNormals)
+		static ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_1_OFFSET))(mesh, points, extrude, flipNormals);
+			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon_2(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, ::System::Single extrude, ::System::Boolean flipNormals, ::UnityEngine::Vector3 cameraLookAt, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* holePoints)
+		static ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon_2(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a2, ::System::Single a3, ::System::Boolean a4, ::UnityEngine::Vector3 a5, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* a6)
 		{
-			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Single, ::System::Boolean, ::UnityEngine::Vector3, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_2_OFFSET))(mesh, points, extrude, flipNormals, cameraLookAt, holePoints);
+			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Single, ::System::Boolean, ::UnityEngine::Vector3, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_2_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon_3(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, ::System::Single extrude, ::System::Boolean flipNormals, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* holePoints)
+		static ::UnityEngine::ProBuilder::ActionResult* CreateShapeFromPolygon_3(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a2, ::System::Single a3, ::System::Boolean a4, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>* a5)
 		{
-			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Single, ::System::Boolean, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_3_OFFSET))(mesh, points, extrude, flipNormals, holePoints);
+			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Single, ::System::Boolean, ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_CREATESHAPEFROMPOLYGON_3_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::UnityEngine::ProBuilder::FaceRebuildData* FaceWithVertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Boolean unordered)
+		static ::UnityEngine::ProBuilder::FaceRebuildData* FaceWithVertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::ProBuilder::FaceRebuildData*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_FACEWITHVERTICES_OFFSET))(vertices, unordered);
+			return ((::UnityEngine::ProBuilder::FaceRebuildData*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_FACEWITHVERTICES_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::FaceRebuildData* FaceWithVerticesAndHole(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* borderVertices, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* holes)
+		static ::UnityEngine::ProBuilder::FaceRebuildData* FaceWithVerticesAndHole(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* a1, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* a2)
 		{
-			return ((::UnityEngine::ProBuilder::FaceRebuildData*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_FACEWITHVERTICESANDHOLE_OFFSET))(borderVertices, holes);
+			return ((::UnityEngine::ProBuilder::FaceRebuildData*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_FACEWITHVERTICESANDHOLE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>* TentCapWithVertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* path)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>* TentCapWithVertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_TENTCAPWITHVERTICES_OFFSET))(path);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_TENTCAPWITHVERTICES_OFFSET))(a1);
 		}
 
-		static ::System::Void DuplicateAndFlip(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* faces)
+		static ::System::Void DuplicateAndFlip(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_DUPLICATEANDFLIP_OFFSET))(mesh, faces);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_DUPLICATEANDFLIP_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::Face* Bridge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b, ::System::Boolean allowNonManifoldGeometry)
+		static ::UnityEngine::ProBuilder::Face* Bridge(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2, ::UnityEngine::ProBuilder::Edge a3, ::System::Boolean a4)
 		{
-			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::Edge, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_BRIDGE_OFFSET))(mesh, a, b, allowNonManifoldGeometry);
+			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::Edge, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_BRIDGE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::ProBuilder::Face* AppendVerticesToFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::Il2CppArray<::UnityEngine::Vector3>* points)
+		static ::UnityEngine::ProBuilder::Face* AppendVerticesToFace(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Face* a2, ::Il2CppArray<::UnityEngine::Vector3>* a3)
 		{
-			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOFACE_OFFSET))(mesh, face, points);
+			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOFACE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::Face* AppendVerticesToFace_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::Il2CppArray<::UnityEngine::Vector3>* points, ::System::Boolean insertOnEdge)
+		static ::UnityEngine::ProBuilder::Face* AppendVerticesToFace_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Face* a2, ::Il2CppArray<::UnityEngine::Vector3>* a3, ::System::Boolean a4)
 		{
-			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::Il2CppArray<::UnityEngine::Vector3>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOFACE_1_OFFSET))(mesh, face, points, insertOnEdge);
+			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::Il2CppArray<::UnityEngine::Vector3>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOFACE_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* AppendVerticesToEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge, ::System::Int32 count)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* AppendVerticesToEdge(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2, ::System::Int32 a3)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOEDGE_OFFSET))(mesh, edge, count);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOEDGE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* AppendVerticesToEdge_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges, ::System::Int32 count)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* AppendVerticesToEdge_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* a2, ::System::Int32 a3)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOEDGE_1_OFFSET))(mesh, edges, count);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_APPENDVERTICESTOEDGE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* InsertVertexInFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 point)
+		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* InsertVertexInFace(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Face* a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXINFACE_OFFSET))(mesh, face, point);
+			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXINFACE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* InsertVertexOnEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge originalEdge, ::UnityEngine::Vector3 point)
+		static ::UnityEngine::ProBuilder::Vertex* InsertVertexOnEdge(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXONEDGE_OFFSET))(mesh, originalEdge, point);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXONEDGE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::Vertex* InsertVertexInMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal)
+		static ::UnityEngine::ProBuilder::Vertex* InsertVertexInMesh(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXINMESH_OFFSET))(mesh, point, normal);
+			return ((::UnityEngine::ProBuilder::Vertex*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS_INSERTVERTEXINMESH_OFFSET))(a1, a2, a3);
 		}
 	};
 }

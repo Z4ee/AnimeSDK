@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_DIAGNOSTICS_DEBUGGERTYPEPROXYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x178DEEC0)
+#define SYSTEM_DIAGNOSTICS_DEBUGGERTYPEPROXYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18697200)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int DebuggerTypeProxyAttribute_TypeDefinitionIndex = 1571;
+	inline static constexpr unsigned int DebuggerTypeProxyAttribute_TypeDefinitionIndex = 1569;
 
 	class DebuggerTypeProxyAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* typeName; // 0x10
 
-		::System::Void _ctor(::System::Type* type)
+		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_DEBUGGERTYPEPROXYATTRIBUTE__CTOR_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_DEBUGGERTYPEPROXYATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int DTSubStringType_TypeDefinitionIndex = 259;
+	inline static constexpr unsigned int DTSubStringType_TypeDefinitionIndex = 258;
 
 	enum class DTSubStringType : ::System::Int32
 	{

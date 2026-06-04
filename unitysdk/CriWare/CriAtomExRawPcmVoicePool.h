@@ -4,24 +4,24 @@
 #include "unitysdk/CriWare/CriAtomExRawPcmVoicePool_RawPcmVoicePoolConfig.h"
 #include "unitysdk/CriWare/CriAtomExVoicePool.h"
 
-#define CRIWARE_CRIATOMEXRAWPCMVOICEPOOL_CRIATOMEXVOICEPOOL_ALLOCATERAWPCMVOICEPOOL_OFFSET UNITYSDK_OFFSET(0x12BF1BD0)
-#define CRIWARE_CRIATOMEXRAWPCMVOICEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x12BF1A30)
+#define CRIWARE_CRIATOMEXRAWPCMVOICEPOOL_CRIATOMEXVOICEPOOL_ALLOCATERAWPCMVOICEPOOL_OFFSET UNITYSDK_OFFSET(0x146AE870)
+#define CRIWARE_CRIATOMEXRAWPCMVOICEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x146AE6D0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExRawPcmVoicePool_TypeDefinitionIndex = 36827;
+	inline static constexpr unsigned int CriAtomExRawPcmVoicePool_TypeDefinitionIndex = 37127;
 
 	class CriAtomExRawPcmVoicePool : public ::CriWare::CriAtomExVoicePool
 	{
 	public:
-		::System::Void _ctor(::System::Int32 numVoices, ::System::Int32 maxChannels, ::System::Int32 maxSamplingRate, ::CriWare::CriAtomExRawPcmVoicePool_RawPcmFormat format, ::System::UInt32 identifier)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::CriWare::CriAtomExRawPcmVoicePool_RawPcmFormat a4, ::System::UInt32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::CriWare::CriAtomExRawPcmVoicePool_RawPcmFormat, ::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXRAWPCMVOICEPOOL__CTOR_OFFSET))(this, numVoices, maxChannels, maxSamplingRate, format, identifier);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::CriWare::CriAtomExRawPcmVoicePool_RawPcmFormat, ::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXRAWPCMVOICEPOOL__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::System::IntPtr criAtomExVoicePool_AllocateRawPcmVoicePool(::CriWare::CriAtomExRawPcmVoicePool_RawPcmVoicePoolConfig& config, ::System::IntPtr work, ::System::Int32 work_size)
+		static ::System::IntPtr criAtomExVoicePool_AllocateRawPcmVoicePool(::CriWare::CriAtomExRawPcmVoicePool_RawPcmVoicePoolConfig& a1, ::System::IntPtr a2, ::System::Int32 a3)
 		{
-			return ((::System::IntPtr(*)(::CriWare::CriAtomExRawPcmVoicePool_RawPcmVoicePoolConfig&, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXRAWPCMVOICEPOOL_CRIATOMEXVOICEPOOL_ALLOCATERAWPCMVOICEPOOL_OFFSET))(config, work, work_size);
+			return ((::System::IntPtr(*)(::CriWare::CriAtomExRawPcmVoicePool_RawPcmVoicePoolConfig&, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXRAWPCMVOICEPOOL_CRIATOMEXVOICEPOOL_ALLOCATERAWPCMVOICEPOOL_OFFSET))(a1, a2, a3);
 		}
 	};
 }

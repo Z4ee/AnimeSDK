@@ -16,58 +16,58 @@ namespace UnityEngine::NVIDIA { class DLSSContext; }
 namespace UnityEngine::NVIDIA { class InitDeviceContext; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_CREATEFEATURE_OFFSET UNITYSDK_OFFSET(0x1A4C89C0)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_CREATEGRAPHICSDEVICE_OFFSET UNITYSDK_OFFSET(0x1A4C8640)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_CREATESETTEXTUREUSERDATA_OFFSET UNITYSDK_OFFSET(0x1A4C8420)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_DESTROYFEATURE_OFFSET UNITYSDK_OFFSET(0x1A4C8DB0)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_EXECUTEDLSS_OFFSET UNITYSDK_OFFSET(0x1A4C8E70)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A4C7DA0)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_GETOPTIMALSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A4C8FC0)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_GET_DEVICE_OFFSET UNITYSDK_OFFSET(0x1A4C86C0)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1A4C8720)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A4C7A00)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_INSERTEVENTCALL_OFFSET UNITYSDK_OFFSET(0x1A4C7EA0)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_INTERNALCREATE_OFFSET UNITYSDK_OFFSET(0x1A4C8180)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_ISFEATUREAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1A4C8860)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_CREATEFEATURESLOT_OFFSET UNITYSDK_OFFSET(0x1A4C8D30)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETBASEEVENTID_OFFSET UNITYSDK_OFFSET(0x1A4C8100)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETDEVICEVERSION_OFFSET UNITYSDK_OFFSET(0x1A4C87E0)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETOPTIMALSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A4C90C0)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETRENDEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A4C8080)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETSETTEXTUREEVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A4C85C0)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_INITAPI_OFFSET UNITYSDK_OFFSET(0x1A4C7BE0)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_ISFEATUREAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1A4C8940)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_SHUTDOWNAPI_OFFSET UNITYSDK_OFFSET(0x1A4C7D20)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A4C8440)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1A4C7C60)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4C9150)
-#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4C7660)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_CREATEFEATURE_OFFSET UNITYSDK_OFFSET(0x1B316770)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_CREATEGRAPHICSDEVICE_OFFSET UNITYSDK_OFFSET(0x1B3164B0)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_CREATESETTEXTUREUSERDATA_OFFSET UNITYSDK_OFFSET(0x1B3162D0)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_DESTROYFEATURE_OFFSET UNITYSDK_OFFSET(0x1B316B20)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_EXECUTEDLSS_OFFSET UNITYSDK_OFFSET(0x1B316BE0)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B315D60)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_GETOPTIMALSETTINGS_OFFSET UNITYSDK_OFFSET(0x1B316D30)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_GET_DEVICE_OFFSET UNITYSDK_OFFSET(0x1B316500)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1B316530)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B315A10)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_INSERTEVENTCALL_OFFSET UNITYSDK_OFFSET(0x1B315E30)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_INTERNALCREATE_OFFSET UNITYSDK_OFFSET(0x1B3160D0)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_ISFEATUREAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1B316650)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_CREATEFEATURESLOT_OFFSET UNITYSDK_OFFSET(0x1B316AA0)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETBASEEVENTID_OFFSET UNITYSDK_OFFSET(0x1B316050)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETDEVICEVERSION_OFFSET UNITYSDK_OFFSET(0x1B3165D0)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETOPTIMALSETTINGS_OFFSET UNITYSDK_OFFSET(0x1B316E00)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETRENDEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B315FD0)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETSETTEXTUREEVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B316430)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_INITAPI_OFFSET UNITYSDK_OFFSET(0x1B315BC0)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_ISFEATUREAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1B3166F0)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_SHUTDOWNAPI_OFFSET UNITYSDK_OFFSET(0x1B315CE0)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B3162F0)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1B315C40)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B316E90)
+#define UNITYENGINE_NVIDIA_GRAPHICSDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B315630)
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int GraphicsDevice_TypeDefinitionIndex = 5186;
+	inline static constexpr unsigned int GraphicsDevice_TypeDefinitionIndex = 5011;
 
 	class GraphicsDevice : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::NVIDIA::GraphicsDevice** StaticGet_sGraphicsDeviceInstance()
-		{
-			return (::UnityEngine::NVIDIA::GraphicsDevice**)Il2CppClass::FromTypeDefinitionIndex(GraphicsDevice_TypeDefinitionIndex)->GetStaticField(0x2C0);
-		}
 		static ::System::String** StaticGet_s_DefaultAppDir()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(GraphicsDevice_TypeDefinitionIndex)->GetStaticField(0x2C8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(GraphicsDevice_TypeDefinitionIndex)->GetStaticField(0x240);
+		}
+		static ::UnityEngine::NVIDIA::GraphicsDevice** StaticGet_sGraphicsDeviceInstance()
+		{
+			return (::UnityEngine::NVIDIA::GraphicsDevice**)Il2CppClass::FromTypeDefinitionIndex(GraphicsDevice_TypeDefinitionIndex)->GetStaticField(0x248);
 		}
 		static ::System::String** StaticGet_s_DefaultProjectID()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(GraphicsDevice_TypeDefinitionIndex)->GetStaticField(0x2D0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(GraphicsDevice_TypeDefinitionIndex)->GetStaticField(0x250);
 		}
 		::UnityEngine::NVIDIA::InitDeviceContext* m_InitDeviceContext; // 0x10
 		::System::Collections::Generic::Stack_1<::UnityEngine::NVIDIA::DLSSContext*>* s_ContextObjectPool; // 0x18
 
-		::System::Void _ctor(::System::String* projectId, ::System::String* engineVersion, ::System::String* appDir)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE__CTOR_OFFSET))(this, projectId, engineVersion, appDir);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
@@ -90,24 +90,24 @@ namespace UnityEngine::NVIDIA
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_FINALIZE_OFFSET))(this);
 		}
 
-		::System::Void InsertEventCall(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::NVIDIA::PluginEvent pluginEvent, ::System::IntPtr ptr)
+		::System::Void InsertEventCall(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::NVIDIA::PluginEvent a2, ::System::IntPtr a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::NVIDIA::PluginEvent, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_INSERTEVENTCALL_OFFSET))(this, cmd, pluginEvent, ptr);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::NVIDIA::PluginEvent, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_INSERTEVENTCALL_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::UnityEngine::NVIDIA::GraphicsDevice* InternalCreate(::System::String* appIdOrProjectId, ::System::String* engineVersion, ::System::String* appDir)
+		static ::UnityEngine::NVIDIA::GraphicsDevice* InternalCreate(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::UnityEngine::NVIDIA::GraphicsDevice*(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_INTERNALCREATE_OFFSET))(appIdOrProjectId, engineVersion, appDir);
+			return ((::UnityEngine::NVIDIA::GraphicsDevice*(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_INTERNALCREATE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 CreateSetTextureUserData(::System::Int32 featureId, ::System::Int32 textureSlot, ::System::Boolean clearTextureTable)
+		static ::System::Int32 CreateSetTextureUserData(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_CREATESETTEXTUREUSERDATA_OFFSET))(featureId, textureSlot, clearTextureTable);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_CREATESETTEXTUREUSERDATA_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void SetTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::NVIDIA::DLSSContext* dlssContext, ::UnityEngine::NVIDIA::DLSSCommandExecutionData_Textures textureSlot, ::UnityEngine::Texture* texture, ::System::Boolean clearTextureTable)
+		::System::Void SetTexture(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::NVIDIA::DLSSContext* a2, ::UnityEngine::NVIDIA::DLSSCommandExecutionData_Textures a3, ::UnityEngine::Texture* a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::NVIDIA::DLSSContext*, ::UnityEngine::NVIDIA::DLSSCommandExecutionData_Textures, ::UnityEngine::Texture*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_SETTEXTURE_OFFSET))(this, cmd, dlssContext, textureSlot, texture, clearTextureTable);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::NVIDIA::DLSSContext*, ::UnityEngine::NVIDIA::DLSSCommandExecutionData_Textures, ::UnityEngine::Texture*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_SETTEXTURE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		static ::UnityEngine::NVIDIA::GraphicsDevice* CreateGraphicsDevice()
@@ -125,34 +125,34 @@ namespace UnityEngine::NVIDIA
 			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_GET_VERSION_OFFSET))();
 		}
 
-		::System::Boolean IsFeatureAvailable(::UnityEngine::NVIDIA::GraphicsDeviceFeature featureID)
+		::System::Boolean IsFeatureAvailable(::UnityEngine::NVIDIA::GraphicsDeviceFeature a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::NVIDIA::GraphicsDeviceFeature))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_ISFEATUREAVAILABLE_OFFSET))(this, featureID);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::NVIDIA::GraphicsDeviceFeature))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_ISFEATUREAVAILABLE_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::NVIDIA::DLSSContext* CreateFeature(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::NVIDIA::DLSSCommandInitializationData& initSettings)
+		::UnityEngine::NVIDIA::DLSSContext* CreateFeature(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::NVIDIA::DLSSCommandInitializationData& a2)
 		{
-			return ((::UnityEngine::NVIDIA::DLSSContext*(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::NVIDIA::DLSSCommandInitializationData&))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_CREATEFEATURE_OFFSET))(this, cmd, initSettings);
+			return ((::UnityEngine::NVIDIA::DLSSContext*(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::NVIDIA::DLSSCommandInitializationData&))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_CREATEFEATURE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DestroyFeature(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::NVIDIA::DLSSContext* dlssContext)
+		::System::Void DestroyFeature(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::NVIDIA::DLSSContext* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::NVIDIA::DLSSContext*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_DESTROYFEATURE_OFFSET))(this, cmd, dlssContext);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::NVIDIA::DLSSContext*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_DESTROYFEATURE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ExecuteDLSS(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::NVIDIA::DLSSContext* dlssContext, ::UnityEngine::NVIDIA::DLSSTextureTable& textures)
+		::System::Void ExecuteDLSS(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::NVIDIA::DLSSContext* a2, ::UnityEngine::NVIDIA::DLSSTextureTable& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::NVIDIA::DLSSContext*, ::UnityEngine::NVIDIA::DLSSTextureTable&))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_EXECUTEDLSS_OFFSET))(this, cmd, dlssContext, textures);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::NVIDIA::DLSSContext*, ::UnityEngine::NVIDIA::DLSSTextureTable&))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_EXECUTEDLSS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean GetOptimalSettings(::System::UInt32 targetWidth, ::System::UInt32 targetHeight, ::UnityEngine::NVIDIA::DLSSQuality quality, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData& optimalSettings)
+		::System::Boolean GetOptimalSettings(::System::UInt32 a1, ::System::UInt32 a2, ::UnityEngine::NVIDIA::DLSSQuality a3, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::UnityEngine::NVIDIA::DLSSQuality, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData&))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_GETOPTIMALSETTINGS_OFFSET))(this, targetWidth, targetHeight, quality, optimalSettings);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::UnityEngine::NVIDIA::DLSSQuality, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData&))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_GETOPTIMALSETTINGS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean NVUP_InitApi(::System::IntPtr initData)
+		static ::System::Boolean NVUP_InitApi(::System::IntPtr a1)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_INITAPI_OFFSET))(initData);
+			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_INITAPI_OFFSET))(a1);
 		}
 
 		static ::System::Void NVUP_ShutdownApi()
@@ -160,14 +160,14 @@ namespace UnityEngine::NVIDIA
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_SHUTDOWNAPI_OFFSET))();
 		}
 
-		static ::System::Boolean NVUP_IsFeatureAvailable(::UnityEngine::NVIDIA::GraphicsDeviceFeature featureID)
+		static ::System::Boolean NVUP_IsFeatureAvailable(::UnityEngine::NVIDIA::GraphicsDeviceFeature a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::NVIDIA::GraphicsDeviceFeature))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_ISFEATUREAVAILABLE_OFFSET))(featureID);
+			return ((::System::Boolean(*)(::UnityEngine::NVIDIA::GraphicsDeviceFeature))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_ISFEATUREAVAILABLE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean NVUP_GetOptimalSettings(::System::UInt32 inTargetWidth, ::System::UInt32 inTargetHeight, ::UnityEngine::NVIDIA::DLSSQuality inPerfVQuality, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData& data)
+		static ::System::Boolean NVUP_GetOptimalSettings(::System::UInt32 a1, ::System::UInt32 a2, ::UnityEngine::NVIDIA::DLSSQuality a3, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData& a4)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::UnityEngine::NVIDIA::DLSSQuality, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData&))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETOPTIMALSETTINGS_OFFSET))(inTargetWidth, inTargetHeight, inPerfVQuality, data);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::UnityEngine::NVIDIA::DLSSQuality, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData&))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_GRAPHICSDEVICE_NVUP_GETOPTIMALSETTINGS_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::IntPtr NVUP_GetRenderEventCallback()

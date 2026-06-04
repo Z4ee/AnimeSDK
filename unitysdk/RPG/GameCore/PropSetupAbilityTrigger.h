@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSETUPABILITYTRIGGER_METHOD_3_8E68CDABF75DB68C_OFFSET UNITYSDK_OFFSET(0x18C752F0)
-#define RPG_GAMECORE_PROPSETUPABILITYTRIGGER_METHOD_3_EBB97B243F75F059_OFFSET UNITYSDK_OFFSET(0x18C75410)
-#define RPG_GAMECORE_PROPSETUPABILITYTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C75390)
+#define RPG_GAMECORE_PROPSETUPABILITYTRIGGER_METHOD_3_046D7273CC8E0035_OFFSET UNITYSDK_OFFSET(0x19A97790)
+#define RPG_GAMECORE_PROPSETUPABILITYTRIGGER_METHOD_3_29F231EE3870357B_OFFSET UNITYSDK_OFFSET(0x19A97670)
+#define RPG_GAMECORE_PROPSETUPABILITYTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A97710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetupAbilityTrigger_TypeDefinitionIndex = 19300;
+	inline static constexpr unsigned int PropSetupAbilityTrigger_TypeDefinitionIndex = 19215;
 
 	class PropSetupAbilityTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,14 +37,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPABILITYTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8E68CDABF75DB68C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupAbilityTrigger*& a2)
+		static ::System::Void Method_3_29F231EE3870357B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupAbilityTrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupAbilityTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPABILITYTRIGGER_METHOD_3_8E68CDABF75DB68C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupAbilityTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPABILITYTRIGGER_METHOD_3_29F231EE3870357B_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EBB97B243F75F059(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupAbilityTrigger* a2)
+		static ::System::Void Method_3_046D7273CC8E0035(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupAbilityTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupAbilityTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPABILITYTRIGGER_METHOD_3_EBB97B243F75F059_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupAbilityTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPABILITYTRIGGER_METHOD_3_046D7273CC8E0035_OFFSET))(a1, a2);
 		}
 	};
 }

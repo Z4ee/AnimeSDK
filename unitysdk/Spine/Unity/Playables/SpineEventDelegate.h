@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E29F40)
-#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E29F70)
-#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E299F0)
-#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E299D0)
+#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ACA4530)
+#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ACA4560)
+#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ACA4520)
+#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACA4430)
 
 namespace Spine::Unity::Playables
 {
-	inline static constexpr unsigned int SpineEventDelegate_TypeDefinitionIndex = 40898;
+	inline static constexpr unsigned int SpineEventDelegate_TypeDefinitionIndex = 41724;
 
 	class SpineEventDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Spine::Event* e)
+		::System::Void Invoke(::Spine::Event* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Event*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_INVOKE_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::Spine::Event*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Spine::Event* e, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Spine::Event* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Spine::Event*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_BEGININVOKE_OFFSET))(this, e, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Spine::Event*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

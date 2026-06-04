@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_Result_TypeDefinitionIndex = 43549;
+	inline static constexpr unsigned int HAPI_Result_TypeDefinitionIndex = 37485;
 
 	enum class HAPI_Result : ::System::Int32
 	{
@@ -24,6 +24,8 @@ namespace HoudiniEngineUnity
 		HAPI_RESULT_DISALLOWED_NC_ASSET_WITH_LC_LICENSE = 140,
 		HAPI_RESULT_DISALLOWED_LC_ASSET_WITH_C_LICENSE = 150,
 		HAPI_RESULT_DISALLOWED_HENGINEINDIE_W_3PARTY_PLUGIN = 160,
+		HAPI_RESULT_SHARED_MEMORY_BUFFER_OVERFLOW = 170,
+		HAPI_RESULT_INVALID_SHARED_MEMORY_BUFFER = 180,
 		HAPI_RESULT_ASSET_INVALID = 200,
 		HAPI_RESULT_NODE_INVALID = 210,
 		HAPI_RESULT_USER_INTERRUPTED = 300,

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierAddReason_TypeDefinitionIndex = 51492;
+	inline static constexpr unsigned int ModifierAddReason_TypeDefinitionIndex = 52160;
 
 	enum class ModifierAddReason : ::System::Int32
 	{

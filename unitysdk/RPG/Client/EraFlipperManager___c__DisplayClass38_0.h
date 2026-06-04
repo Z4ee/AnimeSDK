@@ -5,12 +5,12 @@
 namespace RPG::Client { class ProxyEffectProp; }
 namespace RPG::GameCore { class PropComponent; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA2AF020)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS38_0___INITGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xA2AF9F0)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB936A90)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS38_0___INITGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xB9374F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass38_0_TypeDefinitionIndex = 55796;
+	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass38_0_TypeDefinitionIndex = 56551;
 
 	class EraFlipperManager___c__DisplayClass38_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __InitGroup_b__0(::RPG::Client::ProxyEffectProp* tuple)
+		::System::Boolean __InitGroup_b__0(::RPG::Client::ProxyEffectProp* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ProxyEffectProp*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS38_0___INITGROUP_B__0_OFFSET))(this, tuple);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ProxyEffectProp*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS38_0___INITGROUP_B__0_OFFSET))(this, a1);
 		}
 	};
 }

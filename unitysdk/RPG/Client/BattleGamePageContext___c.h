@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9E084B0)
-#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9E084F0)
-#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C___TOGGLEAVATARPANEL_B__65_0_OFFSET UNITYSDK_OFFSET(0x9E08500)
+#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB3E05C0)
+#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB3E0600)
+#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C___TOGGLEAVATARPANEL_B__65_0_OFFSET UNITYSDK_OFFSET(0xB3E0610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePageContext___c_TypeDefinitionIndex = 66044;
+	inline static constexpr unsigned int BattleGamePageContext___c_TypeDefinitionIndex = 66977;
 
 	class BattleGamePageContext___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__65_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePageContext___c_TypeDefinitionIndex)->GetStaticField(0x3E2C0);
-		}
 		static ::RPG::Client::BattleGamePageContext___c** StaticGet___9()
 		{
-			return (::RPG::Client::BattleGamePageContext___c**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePageContext___c_TypeDefinitionIndex)->GetStaticField(0x3E2C8);
+			return (::RPG::Client::BattleGamePageContext___c**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePageContext___c_TypeDefinitionIndex)->GetStaticField(0x55240);
+		}
+		static ::System::Action** StaticGet___9__65_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePageContext___c_TypeDefinitionIndex)->GetStaticField(0x55248);
 		}
 
 		static ::System::Void _cctor()

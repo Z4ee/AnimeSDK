@@ -5,12 +5,12 @@
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2941F0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS10_0__REBUILDSELECTIONINDEXES_B__0_OFFSET UNITYSDK_OFFSET(0x1A2942E0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F7460)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS10_0__REBUILDSELECTIONINDEXES_B__0_OFFSET UNITYSDK_OFFSET(0x1B0F75D0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MeshValidation___c__DisplayClass10_0_TypeDefinitionIndex = 40065;
+	inline static constexpr unsigned int MeshValidation___c__DisplayClass10_0_TypeDefinitionIndex = 40892;
 
 	class MeshValidation___c__DisplayClass10_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace UnityEngine::ProBuilder::MeshOperations
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS10_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RebuildSelectionIndexes_b__0(::UnityEngine::ProBuilder::Face* x)
+		::System::Boolean _RebuildSelectionIndexes_b__0(::UnityEngine::ProBuilder::Face* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS10_0__REBUILDSELECTIONINDEXES_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS10_0__REBUILDSELECTIONINDEXES_B__0_OFFSET))(this, a1);
 		}
 	};
 }

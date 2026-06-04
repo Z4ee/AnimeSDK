@@ -6,16 +6,16 @@ namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::ReporterUtil { template <typename T> class AnalyzerResult_1; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_ANALYZERRESULTTOJSON_OFFSET UNITYSDK_OFFSET(0x8DB0680)
-#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_BUILDJSON_1_OFFSET UNITYSDK_OFFSET(0x8DB0580)
-#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_BUILDJSON_OFFSET UNITYSDK_OFFSET(0x8DB03C0)
-#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_CREATEEMPTYNOTE_OFFSET UNITYSDK_OFFSET(0x8DB0540)
-#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_FILLHEADERS_OFFSET UNITYSDK_OFFSET(0x8DB0D20)
-#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x8DB10B0)
+#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_ANALYZERRESULTTOJSON_OFFSET UNITYSDK_OFFSET(0xA1FF480)
+#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_BUILDJSON_1_OFFSET UNITYSDK_OFFSET(0xA1FF380)
+#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_BUILDJSON_OFFSET UNITYSDK_OFFSET(0xA1FF1C0)
+#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_CREATEEMPTYNOTE_OFFSET UNITYSDK_OFFSET(0xA1FF340)
+#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_FILLHEADERS_OFFSET UNITYSDK_OFFSET(0xA1FFB00)
+#define MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0xA1FFE80)
 
 namespace MiHoYo::SDK::SdkReport
 {
-	inline static constexpr unsigned int AnalyzerResultFormatter_TypeDefinitionIndex = 43190;
+	inline static constexpr unsigned int AnalyzerResultFormatter_TypeDefinitionIndex = 43993;
 
 	class AnalyzerResultFormatter : public ::System::Object
 	{
@@ -38,14 +38,14 @@ namespace MiHoYo::SDK::SdkReport
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER__CTOR_OFFSET))(this);
 		}
 
-		::MiHoYo::SDK::JSONNode* BuildJSON(::System::String* eventName, ::System::String* stageName, ::System::Int64 duration, ::MiHoYo::SDK::JSONNode* node)
+		::MiHoYo::SDK::JSONNode* BuildJSON(::System::String* a1, ::System::String* a2, ::System::Int64 a3, ::MiHoYo::SDK::JSONNode* a4)
 		{
-			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int64, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_BUILDJSON_OFFSET))(this, eventName, stageName, duration, node);
+			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int64, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_BUILDJSON_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::MiHoYo::SDK::JSONNode* BuildJSON_1(::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* result, ::System::String* eventName, ::System::String* stageName, ::MiHoYo::SDK::JSONNode* node)
+		::MiHoYo::SDK::JSONNode* BuildJSON_1(::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* a1, ::System::String* a2, ::System::String* a3, ::MiHoYo::SDK::JSONNode* a4)
 		{
-			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*, ::System::String*, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_BUILDJSON_1_OFFSET))(this, result, eventName, stageName, node);
+			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*, ::System::String*, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_BUILDJSON_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::MiHoYo::SDK::JSONNode* CreateEmptyNote()
@@ -53,14 +53,14 @@ namespace MiHoYo::SDK::SdkReport
 			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_CREATEEMPTYNOTE_OFFSET))(this);
 		}
 
-		::MiHoYo::SDK::JSONNode* FillHeaders(::System::String* url, ::System::String* webViewLaunchId, ::MiHoYo::SDK::JSONNode* node)
+		::MiHoYo::SDK::JSONNode* FillHeaders(::System::String* a1, ::System::String* a2, ::MiHoYo::SDK::JSONNode* a3)
 		{
-			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::String*, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_FILLHEADERS_OFFSET))(this, url, webViewLaunchId, node);
+			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::String*, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_FILLHEADERS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::MiHoYo::SDK::JSONNode* AnalyzerResultToJson(::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* result, ::MiHoYo::SDK::JSONNode* node)
+		::MiHoYo::SDK::JSONNode* AnalyzerResultToJson(::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* a1, ::MiHoYo::SDK::JSONNode* a2)
 		{
-			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_ANALYZERRESULTTOJSON_OFFSET))(this, result, node);
+			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_ANALYZERRESULTFORMATTER_ANALYZERRESULTTOJSON_OFFSET))(this, a1, a2);
 		}
 	};
 }

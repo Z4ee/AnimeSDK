@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TUTORIALGUIDETEXTADAPTCONFIG_METHOD_2_40B705F7DA2C1C7D_OFFSET UNITYSDK_OFFSET(0x190DB740)
-#define RPG_GAMECORE_TUTORIALGUIDETEXTADAPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190DBA10)
+#define RPG_GAMECORE_TUTORIALGUIDETEXTADAPTCONFIG_METHOD_2_0EFA86A150E2921E_OFFSET UNITYSDK_OFFSET(0x19E2C6E0)
+#define RPG_GAMECORE_TUTORIALGUIDETEXTADAPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2C950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideTextAdaptConfig_TypeDefinitionIndex = 23413;
+	inline static constexpr unsigned int TutorialGuideTextAdaptConfig_TypeDefinitionIndex = 23064;
 
 	class TutorialGuideTextAdaptConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALGUIDETEXTADAPTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_40B705F7DA2C1C7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialGuideTextAdaptConfig*& a2)
+		static ::System::Void Method_2_0EFA86A150E2921E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialGuideTextAdaptConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialGuideTextAdaptConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALGUIDETEXTADAPTCONFIG_METHOD_2_40B705F7DA2C1C7D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialGuideTextAdaptConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALGUIDETEXTADAPTCONFIG_METHOD_2_0EFA86A150E2921E_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class FiveDimTrampolineConfig; }
 
-#define CLASS_1_362DDBE3F3495DA5__CTOR_OFFSET UNITYSDK_OFFSET(0x17E2CB80)
+#define CLASS_1_362DDBE3F3495DA5__CTOR_OFFSET UNITYSDK_OFFSET(0x18CEC8C0)
 
-inline static constexpr unsigned int Class_1_362DDBE3F3495DA5_TypeDefinitionIndex = 39269;
+inline static constexpr unsigned int Class_1_362DDBE3F3495DA5_TypeDefinitionIndex = 40038;
 
 class Class_1_362DDBE3F3495DA5 : public ::System::Object
 {

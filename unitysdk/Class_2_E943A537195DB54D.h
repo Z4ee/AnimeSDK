@@ -7,21 +7,21 @@ namespace RPG::GameCore { class ColliderTriggerComponent; }
 namespace RPG::GameCore { class MapRotationAirlockConfig; }
 namespace System { class Object; }
 
-#define CLASS_2_E943A537195DB54D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x119E4F10)
-#define CLASS_2_E943A537195DB54D_METHOD_2_51C705BBAF9B6304_OFFSET UNITYSDK_OFFSET(0x119E5040)
-#define CLASS_2_E943A537195DB54D_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x119E5960)
-#define CLASS_2_E943A537195DB54D_METHOD_2_B454A31C7AC848CE_OFFSET UNITYSDK_OFFSET(0x119E5170)
-#define CLASS_2_E943A537195DB54D_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x119E58B0)
-#define CLASS_2_E943A537195DB54D_METHOD_2_DEFA2D2CA8FF3213_OFFSET UNITYSDK_OFFSET(0x119E54A0)
-#define CLASS_2_E943A537195DB54D__CTOR_OFFSET UNITYSDK_OFFSET(0x119E59E0)
+#define CLASS_2_E943A537195DB54D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB9F2AF0)
+#define CLASS_2_E943A537195DB54D_METHOD_2_2424370D67F5C25B_OFFSET UNITYSDK_OFFSET(0xB9F2C30)
+#define CLASS_2_E943A537195DB54D_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xB9F3590)
+#define CLASS_2_E943A537195DB54D_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0xB9F34E0)
+#define CLASS_2_E943A537195DB54D_METHOD_2_DEFA2D2CA8FF3213_OFFSET UNITYSDK_OFFSET(0xB9F30C0)
+#define CLASS_2_E943A537195DB54D_METHOD_2_EC494F94772C40E8_OFFSET UNITYSDK_OFFSET(0xB9F2D70)
+#define CLASS_2_E943A537195DB54D__CTOR_OFFSET UNITYSDK_OFFSET(0xB9F3610)
 
-inline static constexpr unsigned int Class_2_E943A537195DB54D_TypeDefinitionIndex = 52821;
+inline static constexpr unsigned int Class_2_E943A537195DB54D_TypeDefinitionIndex = 53527;
 
 class Class_2_E943A537195DB54D : public ::RPG::GameCore::GameComponentBase
 {
 public:
-	::RPG::GameCore::ColliderTriggerComponent* Field_2_1; // 0x18
-	::RPG::GameCore::MapRotationAirlockConfig* Field_2_0; // 0x20
+	::RPG::GameCore::MapRotationAirlockConfig* Field_2_0; // 0x18
+	::RPG::GameCore::ColliderTriggerComponent* Field_2_1; // 0x20
 	::System::UInt32 Field_2_2; // 0x28
 
 	::System::Void _ctor()
@@ -34,14 +34,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E943A537195DB54D_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_2_51C705BBAF9B6304(::RPG::GameCore::MapRotationAirlockConfig* a1)
+	::System::Void Method_2_2424370D67F5C25B(::RPG::GameCore::MapRotationAirlockConfig* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MapRotationAirlockConfig*))((::PBYTE)hIl2Cpp + CLASS_2_E943A537195DB54D_METHOD_2_51C705BBAF9B6304_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MapRotationAirlockConfig*))((::PBYTE)hIl2Cpp + CLASS_2_E943A537195DB54D_METHOD_2_2424370D67F5C25B_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_B454A31C7AC848CE(::System::Object* a1)
+	::System::Void Method_2_EC494F94772C40E8(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_E943A537195DB54D_METHOD_2_B454A31C7AC848CE_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_E943A537195DB54D_METHOD_2_EC494F94772C40E8_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_DEFA2D2CA8FF3213(::System::Int32 a1, ::System::Int32 a2, ::RPG::GameCore::AirlockEvent a3)

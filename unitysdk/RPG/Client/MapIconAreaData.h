@@ -4,19 +4,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_MAPICONAREADATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xA7F25C0)
-#define RPG_CLIENT_MAPICONAREADATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA7F25A0)
+#define RPG_CLIENT_MAPICONAREADATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xBEDAC10)
+#define RPG_CLIENT_MAPICONAREADATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBEDABF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapIconAreaData_TypeDefinitionIndex = 57936;
+	inline static constexpr unsigned int MapIconAreaData_TypeDefinitionIndex = 58852;
 
 	class MapIconAreaData : public ::System::Object
 	{
 	public:
-		::System::Int32 AreaID; // 0x10
-		::UnityEngine::Vector2 OffsetPosition; // 0x14
-		::RPG::GameCore::MinimapAreaType MapAreaType; // 0x1C
+		::UnityEngine::Vector2 OffsetPosition; // 0x10
+		::RPG::GameCore::MinimapAreaType MapAreaType; // 0x18
+		::System::Int32 AreaID; // 0x1C
 
 		::System::Void _ctor()
 		{

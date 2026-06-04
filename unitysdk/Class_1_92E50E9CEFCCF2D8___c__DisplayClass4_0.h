@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { class Promise; }
+
+#define CLASS_1_92E50E9CEFCCF2D8___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13B08660)
+#define CLASS_1_92E50E9CEFCCF2D8___C__DISPLAYCLASS4_0___PLAYSTORY_B__1_OFFSET UNITYSDK_OFFSET(0x13B08840)
+#define CLASS_1_92E50E9CEFCCF2D8___C__DISPLAYCLASS4_0___PLAYSTORY_B__2_OFFSET UNITYSDK_OFFSET(0x13B08980)
+#define CLASS_1_92E50E9CEFCCF2D8___C__DISPLAYCLASS4_0___PLAYSTORY_B__3_OFFSET UNITYSDK_OFFSET(0x13B089A0)
+
+inline static constexpr unsigned int Class_1_92E50E9CEFCCF2D8___c__DisplayClass4_0_TypeDefinitionIndex = 63036;
+
+class Class_1_92E50E9CEFCCF2D8___c__DisplayClass4_0 : public ::System::Object
+{
+public:
+	::RPG::Client::Promises::Promise* promise; // 0x10
+	::System::UInt32 storyId; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_92E50E9CEFCCF2D8___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* __PlayStory_b__1()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_92E50E9CEFCCF2D8___C__DISPLAYCLASS4_0___PLAYSTORY_B__1_OFFSET))(this);
+	}
+
+	::System::Void __PlayStory_b__2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_92E50E9CEFCCF2D8___C__DISPLAYCLASS4_0___PLAYSTORY_B__2_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* __PlayStory_b__3()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_92E50E9CEFCCF2D8___C__DISPLAYCLASS4_0___PLAYSTORY_B__3_OFFSET))(this);
+	}
+};

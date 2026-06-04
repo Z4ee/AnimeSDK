@@ -5,20 +5,20 @@
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceTalkBubbleMonoView; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9EDD440)
-#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_CATANIMDELAY_OFFSET UNITYSDK_OFFSET(0x9EDD400)
-#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_CATVIEW_OFFSET UNITYSDK_OFFSET(0x9EDD3C0)
-#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_RANK_OFFSET UNITYSDK_OFFSET(0x9EDD420)
-#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_TALKBUBBLE_OFFSET UNITYSDK_OFFSET(0x9EDD3E0)
-#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_CATANIMDELAY_OFFSET UNITYSDK_OFFSET(0x9EDD410)
-#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_CATVIEW_OFFSET UNITYSDK_OFFSET(0x9EDD3D0)
-#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_RANK_OFFSET UNITYSDK_OFFSET(0x9EDD430)
-#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_TALKBUBBLE_OFFSET UNITYSDK_OFFSET(0x9EDD3F0)
-#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9EDD4E0)
+#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB479B10)
+#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_CATANIMDELAY_OFFSET UNITYSDK_OFFSET(0xB479AD0)
+#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_CATVIEW_OFFSET UNITYSDK_OFFSET(0xB479A90)
+#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_RANK_OFFSET UNITYSDK_OFFSET(0xB479AF0)
+#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_TALKBUBBLE_OFFSET UNITYSDK_OFFSET(0xB479AB0)
+#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_CATANIMDELAY_OFFSET UNITYSDK_OFFSET(0xB479AE0)
+#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_CATVIEW_OFFSET UNITYSDK_OFFSET(0xB479AA0)
+#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_RANK_OFFSET UNITYSDK_OFFSET(0xB479B00)
+#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_TALKBUBBLE_OFFSET UNITYSDK_OFFSET(0xB479AC0)
+#define RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB479BB0)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCatUI3DPerformancePrepareData_TypeDefinitionIndex = 70229;
+	inline static constexpr unsigned int CakeRaceCatUI3DPerformancePrepareData_TypeDefinitionIndex = 71041;
 
 	class CakeRaceCatUI3DPerformancePrepareData : public ::System::Object
 	{
@@ -38,9 +38,9 @@ namespace RPG::Client::CakeRace
 			return ((::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_CATVIEW_OFFSET))(this);
 		}
 
-		::System::Void set_CatView(::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* value)
+		::System::Void set_CatView(::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_CATVIEW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_CATVIEW_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView* get_TalkBubble()
@@ -48,9 +48,9 @@ namespace RPG::Client::CakeRace
 			return ((::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_TALKBUBBLE_OFFSET))(this);
 		}
 
-		::System::Void set_TalkBubble(::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView* value)
+		::System::Void set_TalkBubble(::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_TALKBUBBLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_TALKBUBBLE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_CatAnimDelay()
@@ -58,9 +58,9 @@ namespace RPG::Client::CakeRace
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_CATANIMDELAY_OFFSET))(this);
 		}
 
-		::System::Void set_CatAnimDelay(::System::Single value)
+		::System::Void set_CatAnimDelay(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_CATANIMDELAY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_CATANIMDELAY_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Rank()
@@ -68,14 +68,14 @@ namespace RPG::Client::CakeRace
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_GET_RANK_OFFSET))(this);
 		}
 
-		::System::Void set_Rank(::System::Int32 value)
+		::System::Void set_Rank(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_RANK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_SET_RANK_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::CakeRace::CakeRaceCatUI3DPerformancePrepareData* Create(::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* catView, ::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView* talkBubble, ::System::Single catAnimDelay, ::System::Int32 rank)
+		static ::RPG::Client::CakeRace::CakeRaceCatUI3DPerformancePrepareData* Create(::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* a1, ::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView* a2, ::System::Single a3, ::System::Int32 a4)
 		{
-			return ((::RPG::Client::CakeRace::CakeRaceCatUI3DPerformancePrepareData*(*)(::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView*, ::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_CREATE_OFFSET))(catView, talkBubble, catAnimDelay, rank);
+			return ((::RPG::Client::CakeRace::CakeRaceCatUI3DPerformancePrepareData*(*)(::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView*, ::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATUI3DPERFORMANCEPREPAREDATA_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

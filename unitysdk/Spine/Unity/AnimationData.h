@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SPINE_UNITY_ANIMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2BD30)
+#define SPINE_UNITY_ANIMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACA62A0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int AnimationData_TypeDefinitionIndex = 40588;
+	inline static constexpr unsigned int AnimationData_TypeDefinitionIndex = 41415;
 
 	class AnimationData : public ::System::Object
 	{

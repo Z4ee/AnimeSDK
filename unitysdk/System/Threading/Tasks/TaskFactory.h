@@ -11,22 +11,22 @@ namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x17876D70)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x17876DC0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x17876CA0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x17874660)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17876C30)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x17874BB0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1862FD20)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x1862FD70)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1862FC50)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x1862D390)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1862FBE0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1862D960)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskFactory_TypeDefinitionIndex = 924;
+	inline static constexpr unsigned int TaskFactory_TypeDefinitionIndex = 923;
 
 	class TaskFactory : public ::System::Object
 	{
 	public:
-		::System::Threading::CancellationToken m_defaultCancellationToken; // 0x10
-		::System::Threading::Tasks::TaskScheduler* m_defaultScheduler; // 0x18
+		::System::Threading::Tasks::TaskScheduler* m_defaultScheduler; // 0x10
+		::System::Threading::CancellationToken m_defaultCancellationToken; // 0x18
 		::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions; // 0x20
 		::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions; // 0x24
 
@@ -35,29 +35,29 @@ namespace System::Threading::Tasks
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::TaskContinuationOptions continuationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler)
+		::System::Void _ctor_1(::System::Threading::CancellationToken a1, ::System::Threading::Tasks::TaskCreationOptions a2, ::System::Threading::Tasks::TaskContinuationOptions a3, ::System::Threading::Tasks::TaskScheduler* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskCreationOptions, ::System::Threading::Tasks::TaskContinuationOptions, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET))(this, cancellationToken, creationOptions, continuationOptions, scheduler);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskCreationOptions, ::System::Threading::Tasks::TaskContinuationOptions, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Void CheckCreationOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions)
+		static ::System::Void CheckCreationOptions(::System::Threading::Tasks::TaskCreationOptions a1)
 		{
-			return ((::System::Void(*)(::System::Threading::Tasks::TaskCreationOptions))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET))(creationOptions);
+			return ((::System::Void(*)(::System::Threading::Tasks::TaskCreationOptions))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET))(a1);
 		}
 
-		static ::System::Void CheckFromAsyncOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Boolean hasBeginMethod)
+		static ::System::Void CheckFromAsyncOptions(::System::Threading::Tasks::TaskCreationOptions a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::System::Threading::Tasks::TaskCreationOptions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET))(creationOptions, hasBeginMethod);
+			return ((::System::Void(*)(::System::Threading::Tasks::TaskCreationOptions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* CommonCWAnyLogic(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks)
+		static ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* CommonCWAnyLogic(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* a1)
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*(*)(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET))(tasks);
+			return ((::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*(*)(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET))(a1);
 		}
 
-		static ::System::Void CheckMultiTaskContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions continuationOptions)
+		static ::System::Void CheckMultiTaskContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions a1)
 		{
-			return ((::System::Void(*)(::System::Threading::Tasks::TaskContinuationOptions))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET))(continuationOptions);
+			return ((::System::Void(*)(::System::Threading::Tasks::TaskContinuationOptions))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET))(a1);
 		}
 	};
 }

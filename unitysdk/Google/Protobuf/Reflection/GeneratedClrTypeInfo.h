@@ -7,53 +7,53 @@ namespace Google::Protobuf { class MessageParser; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x1710DDA0)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_EXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1710DDE0)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_NESTEDENUMS_OFFSET UNITYSDK_OFFSET(0x1710DE10)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_NESTEDTYPES_OFFSET UNITYSDK_OFFSET(0x1710DE00)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_ONEOFNAMES_OFFSET UNITYSDK_OFFSET(0x1710DDF0)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1710DDC0)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_PROPERTYNAMES_OFFSET UNITYSDK_OFFSET(0x1710DDD0)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_SET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x1710DDB0)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1710DE20)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x170F1B40)
-#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x170F1990)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x17E6DE30)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_EXTENSIONS_OFFSET UNITYSDK_OFFSET(0x17E6DE70)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_NESTEDENUMS_OFFSET UNITYSDK_OFFSET(0x17E6DEA0)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_NESTEDTYPES_OFFSET UNITYSDK_OFFSET(0x17E6DE90)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_ONEOFNAMES_OFFSET UNITYSDK_OFFSET(0x17E6DE80)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x17E6DE50)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_PROPERTYNAMES_OFFSET UNITYSDK_OFFSET(0x17E6DE60)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_SET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x17E6DE40)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E6DEB0)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17E52750)
+#define GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17E525A0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int GeneratedClrTypeInfo_TypeDefinitionIndex = 6343;
+	inline static constexpr unsigned int GeneratedClrTypeInfo_TypeDefinitionIndex = 5545;
 
 	class GeneratedClrTypeInfo : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::Google::Protobuf::Extension*>** StaticGet_EmptyExtensions()
+		static ::Il2CppArray<::System::String*>** StaticGet_EmptyNames()
 		{
-			return (::Il2CppArray<::Google::Protobuf::Extension*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedClrTypeInfo_TypeDefinitionIndex)->GetStaticField(0x5850);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedClrTypeInfo_TypeDefinitionIndex)->GetStaticField(0x3E5A0);
 		}
 		static ::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>** StaticGet_EmptyCodeInfo()
 		{
-			return (::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedClrTypeInfo_TypeDefinitionIndex)->GetStaticField(0x5858);
+			return (::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedClrTypeInfo_TypeDefinitionIndex)->GetStaticField(0x3E5A8);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_EmptyNames()
+		static ::Il2CppArray<::Google::Protobuf::Extension*>** StaticGet_EmptyExtensions()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedClrTypeInfo_TypeDefinitionIndex)->GetStaticField(0x5860);
+			return (::Il2CppArray<::Google::Protobuf::Extension*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedClrTypeInfo_TypeDefinitionIndex)->GetStaticField(0x3E5B0);
 		}
-		::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>* _NestedTypes_k__BackingField; // 0x10
+		::System::Type* _ClrType_k__BackingField; // 0x10
 		::Il2CppArray<::System::Type*>* _NestedEnums_k__BackingField; // 0x18
 		::Google::Protobuf::MessageParser* _Parser_k__BackingField; // 0x20
-		::System::Type* _ClrType_k__BackingField; // 0x28
+		::Il2CppArray<::System::String*>* _PropertyNames_k__BackingField; // 0x28
 		::Il2CppArray<::Google::Protobuf::Extension*>* _Extensions_k__BackingField; // 0x30
-		::Il2CppArray<::System::String*>* _PropertyNames_k__BackingField; // 0x38
-		::Il2CppArray<::System::String*>* _OneofNames_k__BackingField; // 0x40
+		::Il2CppArray<::System::String*>* _OneofNames_k__BackingField; // 0x38
+		::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>* _NestedTypes_k__BackingField; // 0x40
 
-		::System::Void _ctor(::System::Type* clrType, ::Google::Protobuf::MessageParser* parser, ::Il2CppArray<::System::String*>* propertyNames, ::Il2CppArray<::System::String*>* oneofNames, ::Il2CppArray<::System::Type*>* nestedEnums, ::Il2CppArray<::Google::Protobuf::Extension*>* extensions, ::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>* nestedTypes)
+		::System::Void _ctor(::System::Type* a1, ::Google::Protobuf::MessageParser* a2, ::Il2CppArray<::System::String*>* a3, ::Il2CppArray<::System::String*>* a4, ::Il2CppArray<::System::Type*>* a5, ::Il2CppArray<::Google::Protobuf::Extension*>* a6, ::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::Google::Protobuf::MessageParser*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::Type*>*, ::Il2CppArray<::Google::Protobuf::Extension*>*, ::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_OFFSET))(this, clrType, parser, propertyNames, oneofNames, nestedEnums, extensions, nestedTypes);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::Google::Protobuf::MessageParser*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::Type*>*, ::Il2CppArray<::Google::Protobuf::Extension*>*, ::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void _ctor_1(::Il2CppArray<::System::Type*>* nestedEnums, ::Il2CppArray<::Google::Protobuf::Extension*>* extensions, ::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>* nestedTypes)
+		::System::Void _ctor_1(::Il2CppArray<::System::Type*>* a1, ::Il2CppArray<::Google::Protobuf::Extension*>* a2, ::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Type*>*, ::Il2CppArray<::Google::Protobuf::Extension*>*, ::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_1_OFFSET))(this, nestedEnums, extensions, nestedTypes);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Type*>*, ::Il2CppArray<::Google::Protobuf::Extension*>*, ::Il2CppArray<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
@@ -66,9 +66,9 @@ namespace Google::Protobuf::Reflection
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_GET_CLRTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ClrType(::System::Type* value)
+		::System::Void set_ClrType(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_SET_CLRTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_GENERATEDCLRTYPEINFO_SET_CLRTYPE_OFFSET))(this, a1);
 		}
 
 		::Google::Protobuf::MessageParser* get_Parser()

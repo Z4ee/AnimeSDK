@@ -7,18 +7,18 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8E3E0A0)
-#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8E3E060)
-#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E3E080)
-#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8E3E480)
-#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8E3E070)
-#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E3E090)
-#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8E3E0B0)
-#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8E3E590)
+#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2978D0)
+#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA297890)
+#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2978B0)
+#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA297CB0)
+#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2978A0)
+#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2978C0)
+#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA2978E0)
+#define EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA297DD0)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int AuthExpirationCallbackInfo_TypeDefinitionIndex = 42259;
+	inline static constexpr unsigned int AuthExpirationCallbackInfo_TypeDefinitionIndex = 43062;
 
 	class AuthExpirationCallbackInfo : public ::System::Object
 	{
@@ -36,9 +36,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -46,9 +46,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -56,14 +56,14 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Connect::AuthExpirationCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Connect::AuthExpirationCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Connect::AuthExpirationCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Connect::AuthExpirationCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_AUTHEXPIRATIONCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

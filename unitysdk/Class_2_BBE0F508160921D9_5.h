@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_7ACCB923E979A908.h"
+#include "unitysdk/Class_1_3713064DEE761936.h"
 
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define CLASS_2_BBE0F508160921D9_5_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xE6332B0)
-#define CLASS_2_BBE0F508160921D9_5__CTOR_OFFSET UNITYSDK_OFFSET(0xE6333F0)
-#define CLASS_2_BBE0F508160921D9_5___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xE633400)
+#define CLASS_2_BBE0F508160921D9_5_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x14360F00)
+#define CLASS_2_BBE0F508160921D9_5__CTOR_OFFSET UNITYSDK_OFFSET(0x14361040)
+#define CLASS_2_BBE0F508160921D9_5___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x14361050)
 
-inline static constexpr unsigned int Class_2_BBE0F508160921D9_5_TypeDefinitionIndex = 70032;
+inline static constexpr unsigned int Class_2_BBE0F508160921D9_5_TypeDefinitionIndex = 70844;
 
-class Class_2_BBE0F508160921D9_5 : public ::Class_1_7ACCB923E979A908
+class Class_2_BBE0F508160921D9_5 : public ::Class_1_3713064DEE761936
 {
 public:
 	::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* Field_2_0; // 0x20

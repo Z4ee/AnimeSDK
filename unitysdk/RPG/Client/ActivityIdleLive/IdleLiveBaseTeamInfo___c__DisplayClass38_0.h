@@ -5,12 +5,12 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B37F40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS38_0___ADDTEAMAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0x9B39740)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB11E620)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS38_0___ADDTEAMAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0xB11FF00)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass38_0_TypeDefinitionIndex = 69156;
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass38_0_TypeDefinitionIndex = 69968;
 
 	class IdleLiveBaseTeamInfo___c__DisplayClass38_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS38_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __AddTeamAvatar_b__0(::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* slot)
+		::System::Boolean __AddTeamAvatar_b__0(::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS38_0___ADDTEAMAVATAR_B__0_OFFSET))(this, slot);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS38_0___ADDTEAMAVATAR_B__0_OFFSET))(this, a1);
 		}
 	};
 }

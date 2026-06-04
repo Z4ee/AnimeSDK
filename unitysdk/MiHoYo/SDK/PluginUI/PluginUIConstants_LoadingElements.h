@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_LoadingElements_TypeDefinitionIndex = 7932;
+	inline static constexpr unsigned int PluginUIConstants_LoadingElements_TypeDefinitionIndex = 8835;
 
 	class PluginUIConstants_LoadingElements : public ::System::Object
 	{

@@ -8,25 +8,25 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserCursor; }
 namespace ZenFulcrum::EmbeddedBrowser { class FPSBrowserUI; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_GET_ENABLEINPUT_OFFSET UNITYSDK_OFFSET(0x1A6BE7A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A6BE6D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_ONGUI_OFFSET UNITYSDK_OFFSET(0x1A6BE830)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETCURSOR_OFFSET UNITYSDK_OFFSET(0x1A6BEA40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETUPBROWSERINPUT_OFFSET UNITYSDK_OFFSET(0x1A6BE1D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SET_ENABLEINPUT_OFFSET UNITYSDK_OFFSET(0x1A6BE7B0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_START_OFFSET UNITYSDK_OFFSET(0x1A6BE7C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6BEA50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_GET_ENABLEINPUT_OFFSET UNITYSDK_OFFSET(0x1B4FA3F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B4FA320)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_ONGUI_OFFSET UNITYSDK_OFFSET(0x1B4FA480)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETCURSOR_OFFSET UNITYSDK_OFFSET(0x1B4FA690)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETUPBROWSERINPUT_OFFSET UNITYSDK_OFFSET(0x1B4F9E40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SET_ENABLEINPUT_OFFSET UNITYSDK_OFFSET(0x1B4FA400)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_START_OFFSET UNITYSDK_OFFSET(0x1B4FA410)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4FA6A0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int FPSCursorRenderer_TypeDefinitionIndex = 36240;
+	inline static constexpr unsigned int FPSCursorRenderer_TypeDefinitionIndex = 36540;
 
 	class FPSCursorRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer** StaticGet__instance()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer**)Il2CppClass::FromTypeDefinitionIndex(FPSCursorRenderer_TypeDefinitionIndex)->GetStaticField(0x6A2D0);
+			return (::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer**)Il2CppClass::FromTypeDefinitionIndex(FPSCursorRenderer_TypeDefinitionIndex)->GetStaticField(0x656D0);
 		}
 		::System::Single scale; // 0x18
 		::System::Single maxDistance; // 0x1C
@@ -50,14 +50,14 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_GET_ENABLEINPUT_OFFSET))(this);
 		}
 
-		::System::Void set_EnableInput(::System::Boolean value)
+		::System::Void set_EnableInput(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SET_ENABLEINPUT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SET_ENABLEINPUT_OFFSET))(this, a1);
 		}
 
-		static ::System::Void SetUpBrowserInput(::ZenFulcrum::EmbeddedBrowser::Browser* browser, ::UnityEngine::MeshCollider* mesh)
+		static ::System::Void SetUpBrowserInput(::ZenFulcrum::EmbeddedBrowser::Browser* a1, ::UnityEngine::MeshCollider* a2)
 		{
-			return ((::System::Void(*)(::ZenFulcrum::EmbeddedBrowser::Browser*, ::UnityEngine::MeshCollider*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETUPBROWSERINPUT_OFFSET))(browser, mesh);
+			return ((::System::Void(*)(::ZenFulcrum::EmbeddedBrowser::Browser*, ::UnityEngine::MeshCollider*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETUPBROWSERINPUT_OFFSET))(a1, a2);
 		}
 
 		::System::Void Start()
@@ -70,9 +70,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_ONGUI_OFFSET))(this);
 		}
 
-		::System::Void SetCursor(::ZenFulcrum::EmbeddedBrowser::BrowserCursor* newCursor, ::ZenFulcrum::EmbeddedBrowser::FPSBrowserUI* ui)
+		::System::Void SetCursor(::ZenFulcrum::EmbeddedBrowser::BrowserCursor* a1, ::ZenFulcrum::EmbeddedBrowser::FPSBrowserUI* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::BrowserCursor*, ::ZenFulcrum::EmbeddedBrowser::FPSBrowserUI*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETCURSOR_OFFSET))(this, newCursor, ui);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::BrowserCursor*, ::ZenFulcrum::EmbeddedBrowser::FPSBrowserUI*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETCURSOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

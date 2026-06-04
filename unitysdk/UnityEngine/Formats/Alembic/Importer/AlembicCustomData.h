@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCUSTOMDATA_GET_FACESETNAMES_OFFSET UNITYSDK_OFFSET(0x1A1CD930)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCUSTOMDATA_SETFACESETNAMES_OFFSET UNITYSDK_OFFSET(0x1A1CD940)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1CDA30)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCUSTOMDATA_GET_FACESETNAMES_OFFSET UNITYSDK_OFFSET(0x1B031AD0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCUSTOMDATA_SETFACESETNAMES_OFFSET UNITYSDK_OFFSET(0x1B031AE0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B031BE0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicCustomData_TypeDefinitionIndex = 40874;
+	inline static constexpr unsigned int AlembicCustomData_TypeDefinitionIndex = 41700;
 
 	class AlembicCustomData : public ::UnityEngine::MonoBehaviour
 	{
@@ -28,9 +28,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCUSTOMDATA_GET_FACESETNAMES_OFFSET))(this);
 		}
 
-		::System::Void SetFacesetNames(::System::Collections::Generic::List_1<::System::String*>* names)
+		::System::Void SetFacesetNames(::System::Collections::Generic::List_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCUSTOMDATA_SETFACESETNAMES_OFFSET))(this, names);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCUSTOMDATA_SETFACESETNAMES_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace MiHoYo::SDK { class AccountModel; }
 
-#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173CE7D0)
-#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS20_0__GETACCOUNTINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x173CF4C0)
+#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181D86A0)
+#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS20_0__GETACCOUNTINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x181D9320)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountListManager___c__DisplayClass20_0_TypeDefinitionIndex = 7030;
+	inline static constexpr unsigned int AccountListManager___c__DisplayClass20_0_TypeDefinitionIndex = 7933;
 
 	class AccountListManager___c__DisplayClass20_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetAccountIndex_b__0(::MiHoYo::SDK::AccountModel* x)
+		::System::Boolean _GetAccountIndex_b__0(::MiHoYo::SDK::AccountModel* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::AccountModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS20_0__GETACCOUNTINDEX_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::AccountModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS20_0__GETACCOUNTINDEX_B__0_OFFSET))(this, a1);
 		}
 	};
 }

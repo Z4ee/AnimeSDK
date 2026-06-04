@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class RogueBuffData; }
-namespace System::Collections::Generic { template <typename T> class IList_1; }
+class Class_0_16E4307DCC419505_773;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_784_TypeDefinitionIndex = 61685;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_784_TypeDefinitionIndex = 60759;
 
 class Class_0_16E4307DCC419505_784
 {

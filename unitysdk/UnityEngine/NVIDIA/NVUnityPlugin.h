@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A4C92B0)
-#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_ISLOADED_OFFSET UNITYSDK_OFFSET(0x1A4C92A0)
+#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B317000)
+#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_ISLOADED_OFFSET UNITYSDK_OFFSET(0x1B316FF0)
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int NVUnityPlugin_TypeDefinitionIndex = 5171;
+	inline static constexpr unsigned int NVUnityPlugin_TypeDefinitionIndex = 4996;
 
 	class NVUnityPlugin : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace UnityEngine::NVIDIA
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_NVUNITYPLUGIN_ISLOADED_OFFSET))();
 		}
 
-		static ::System::Void Initialize(::System::String* pluginsFolder)
+		static ::System::Void Initialize(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_NVUNITYPLUGIN_INITIALIZE_OFFSET))(pluginsFolder);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NVIDIA_NVUNITYPLUGIN_INITIALIZE_OFFSET))(a1);
 		}
 	};
 }

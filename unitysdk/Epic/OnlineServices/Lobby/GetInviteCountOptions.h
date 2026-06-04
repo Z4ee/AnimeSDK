@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_LOBBY_GETINVITECOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8EA8750)
-#define EPIC_ONLINESERVICES_LOBBY_GETINVITECOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8EA8760)
-#define EPIC_ONLINESERVICES_LOBBY_GETINVITECOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8EA8770)
+#define EPIC_ONLINESERVICES_LOBBY_GETINVITECOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2E39E0)
+#define EPIC_ONLINESERVICES_LOBBY_GETINVITECOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2E39F0)
+#define EPIC_ONLINESERVICES_LOBBY_GETINVITECOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2E3A00)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int GetInviteCountOptions_TypeDefinitionIndex = 41847;
+	inline static constexpr unsigned int GetInviteCountOptions_TypeDefinitionIndex = 42650;
 
 	class GetInviteCountOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETINVITECOUNTOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETINVITECOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_GETINVITECOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

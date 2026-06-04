@@ -7,14 +7,14 @@ namespace TMPro { class TMP_FontAsset; }
 namespace TMPro { class TMP_SpriteAsset; }
 namespace UnityEngine { class Material; }
 
-#define TMPRO_MATERIALREFERENCE_ADDMATERIALREFERENCE_1_OFFSET UNITYSDK_OFFSET(0x1A33F020)
-#define TMPRO_MATERIALREFERENCE_ADDMATERIALREFERENCE_OFFSET UNITYSDK_OFFSET(0x1A33EDD0)
-#define TMPRO_MATERIALREFERENCE_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1A33ECF0)
-#define TMPRO_MATERIALREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x22DE460)
+#define TMPRO_MATERIALREFERENCE_ADDMATERIALREFERENCE_1_OFFSET UNITYSDK_OFFSET(0x1B199920)
+#define TMPRO_MATERIALREFERENCE_ADDMATERIALREFERENCE_OFFSET UNITYSDK_OFFSET(0x1B199720)
+#define TMPRO_MATERIALREFERENCE_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1B199640)
+#define TMPRO_MATERIALREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x387A710)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int MaterialReference_TypeDefinitionIndex = 40094;
+	inline static constexpr unsigned int MaterialReference_TypeDefinitionIndex = 40921;
 
 	struct alignas(8) MaterialReference
 	{
@@ -28,24 +28,24 @@ namespace TMPro
 		::System::Single padding; // 0x40
 		::System::Int32 referenceCount; // 0x44
 
-		::System::Void _ctor(::System::Int32 index, ::TMPro::TMP_FontAsset* fontAsset, ::TMPro::TMP_SpriteAsset* spriteAsset, ::UnityEngine::Material* material, ::System::Single padding)
+		::System::Void _ctor(::System::Int32 a1, ::TMPro::TMP_FontAsset* a2, ::TMPro::TMP_SpriteAsset* a3, ::UnityEngine::Material* a4, ::System::Single a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::TMPro::TMP_FontAsset*, ::TMPro::TMP_SpriteAsset*, ::UnityEngine::Material*, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_MATERIALREFERENCE__CTOR_OFFSET))(this, index, fontAsset, spriteAsset, material, padding);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::TMPro::TMP_FontAsset*, ::TMPro::TMP_SpriteAsset*, ::UnityEngine::Material*, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_MATERIALREFERENCE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean Contains(::Il2CppArray<::TMPro::MaterialReference>* materialReferences, ::TMPro::TMP_FontAsset* fontAsset)
+		static ::System::Boolean Contains(::Il2CppArray<::TMPro::MaterialReference>* a1, ::TMPro::TMP_FontAsset* a2)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::TMPro::MaterialReference>*, ::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + TMPRO_MATERIALREFERENCE_CONTAINS_OFFSET))(materialReferences, fontAsset);
+			return ((::System::Boolean(*)(::Il2CppArray<::TMPro::MaterialReference>*, ::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + TMPRO_MATERIALREFERENCE_CONTAINS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 AddMaterialReference(::UnityEngine::Material* material, ::TMPro::TMP_FontAsset* fontAsset, ::Il2CppArray<::TMPro::MaterialReference>*& materialReferences, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* materialReferenceIndexLookup)
+		static ::System::Int32 AddMaterialReference(::UnityEngine::Material* a1, ::TMPro::TMP_FontAsset* a2, ::Il2CppArray<::TMPro::MaterialReference>*& a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a4)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Material*, ::TMPro::TMP_FontAsset*, ::Il2CppArray<::TMPro::MaterialReference>*&, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + TMPRO_MATERIALREFERENCE_ADDMATERIALREFERENCE_OFFSET))(material, fontAsset, materialReferences, materialReferenceIndexLookup);
+			return ((::System::Int32(*)(::UnityEngine::Material*, ::TMPro::TMP_FontAsset*, ::Il2CppArray<::TMPro::MaterialReference>*&, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + TMPRO_MATERIALREFERENCE_ADDMATERIALREFERENCE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 AddMaterialReference_1(::UnityEngine::Material* material, ::TMPro::TMP_SpriteAsset* spriteAsset, ::Il2CppArray<::TMPro::MaterialReference>*& materialReferences, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* materialReferenceIndexLookup)
+		static ::System::Int32 AddMaterialReference_1(::UnityEngine::Material* a1, ::TMPro::TMP_SpriteAsset* a2, ::Il2CppArray<::TMPro::MaterialReference>*& a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a4)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Material*, ::TMPro::TMP_SpriteAsset*, ::Il2CppArray<::TMPro::MaterialReference>*&, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + TMPRO_MATERIALREFERENCE_ADDMATERIALREFERENCE_1_OFFSET))(material, spriteAsset, materialReferences, materialReferenceIndexLookup);
+			return ((::System::Int32(*)(::UnityEngine::Material*, ::TMPro::TMP_SpriteAsset*, ::Il2CppArray<::TMPro::MaterialReference>*&, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + TMPRO_MATERIALREFERENCE_ADDMATERIALREFERENCE_1_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

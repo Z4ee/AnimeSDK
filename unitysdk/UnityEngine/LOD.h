@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define UNITYENGINE_LOD__CTOR_OFFSET UNITYSDK_OFFSET(0x22E4950)
+#define UNITYENGINE_LOD__CTOR_OFFSET UNITYSDK_OFFSET(0x3881650)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LOD_TypeDefinitionIndex = 4000;
+	inline static constexpr unsigned int LOD_TypeDefinitionIndex = 4174;
 
 	struct alignas(8) LOD
 	{
@@ -16,9 +16,9 @@ namespace UnityEngine
 		::System::Single fadeTransitionWidth; // 0x14
 		::Il2CppArray<::UnityEngine::Renderer*>* renderers; // 0x18
 
-		::System::Void _ctor(::System::Single screenRelativeTransitionHeight, ::Il2CppArray<::UnityEngine::Renderer*>* renderers)
+		::System::Void _ctor(::System::Single a1, ::Il2CppArray<::UnityEngine::Renderer*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::Il2CppArray<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOD__CTOR_OFFSET))(this, screenRelativeTransitionHeight, renderers);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::Il2CppArray<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOD__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

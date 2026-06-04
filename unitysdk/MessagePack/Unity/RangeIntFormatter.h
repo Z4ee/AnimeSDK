@@ -7,13 +7,13 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_RANGEINTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x17321720)
-#define MESSAGEPACK_UNITY_RANGEINTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x173216C0)
-#define MESSAGEPACK_UNITY_RANGEINTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x173219E0)
+#define MESSAGEPACK_UNITY_RANGEINTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x18130080)
+#define MESSAGEPACK_UNITY_RANGEINTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x18130020)
+#define MESSAGEPACK_UNITY_RANGEINTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18130340)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int RangeIntFormatter_TypeDefinitionIndex = 10004;
+	inline static constexpr unsigned int RangeIntFormatter_TypeDefinitionIndex = 9831;
 
 	class RangeIntFormatter : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace MessagePack::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_RANGEINTFORMATTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Serialize(::MessagePack::MessagePackWriter& writer, ::UnityEngine::RangeInt value, ::MessagePack::MessagePackSerializerOptions* options)
+		::System::Void Serialize(::MessagePack::MessagePackWriter& a1, ::UnityEngine::RangeInt a2, ::MessagePack::MessagePackSerializerOptions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::RangeInt, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_RANGEINTFORMATTER_SERIALIZE_OFFSET))(this, writer, value, options);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::UnityEngine::RangeInt, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_RANGEINTFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::RangeInt Deserialize(::MessagePack::MessagePackReader& reader, ::MessagePack::MessagePackSerializerOptions* options)
+		::UnityEngine::RangeInt Deserialize(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackSerializerOptions* a2)
 		{
-			return ((::UnityEngine::RangeInt(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_RANGEINTFORMATTER_DESERIALIZE_OFFSET))(this, reader, options);
+			return ((::UnityEngine::RangeInt(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UNITY_RANGEINTFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
 	};
 }

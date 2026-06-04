@@ -5,13 +5,13 @@
 namespace UnityEngine::UIElements { class EventBase; }
 namespace UnityEngine::UIElements { class IPanel; }
 
-#define UNITYENGINE_UIELEMENTS_DEFAULTDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1A507440)
-#define UNITYENGINE_UIELEMENTS_DEFAULTDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1A5074A0)
-#define UNITYENGINE_UIELEMENTS_DEFAULTDISPATCHINGSTRATEGY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A507630)
+#define UNITYENGINE_UIELEMENTS_DEFAULTDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1B352780)
+#define UNITYENGINE_UIELEMENTS_DEFAULTDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1B3527F0)
+#define UNITYENGINE_UIELEMENTS_DEFAULTDISPATCHINGSTRATEGY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3529B0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int DefaultDispatchingStrategy_TypeDefinitionIndex = 5898;
+	inline static constexpr unsigned int DefaultDispatchingStrategy_TypeDefinitionIndex = 6175;
 
 	class DefaultDispatchingStrategy : public ::System::Object
 	{
@@ -21,14 +21,14 @@ namespace UnityEngine::UIElements
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_DEFAULTDISPATCHINGSTRATEGY__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt)
+		::System::Boolean CanDispatchEvent(::UnityEngine::UIElements::EventBase* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_DEFAULTDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET))(this, evt);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_DEFAULTDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel)
+		::System::Void DispatchEvent(::UnityEngine::UIElements::EventBase* a1, ::UnityEngine::UIElements::IPanel* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_DEFAULTDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET))(this, evt, panel);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_DEFAULTDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET))(this, a1, a2);
 		}
 	};
 }

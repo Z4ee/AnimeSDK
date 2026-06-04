@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_MessageOverlay_t_TypeDefinitionIndex = 36062;
+	inline static constexpr unsigned int VREvent_MessageOverlay_t_TypeDefinitionIndex = 36362;
 
 	struct alignas(4) VREvent_MessageOverlay_t
 	{

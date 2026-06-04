@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_THREADING_TIMEOUTHELPER_GETTIME_OFFSET UNITYSDK_OFFSET(0x1787D100)
-#define SYSTEM_THREADING_TIMEOUTHELPER_UPDATETIMEOUT_OFFSET UNITYSDK_OFFSET(0x1787D140)
+#define SYSTEM_THREADING_TIMEOUTHELPER_GETTIME_OFFSET UNITYSDK_OFFSET(0x18635C80)
+#define SYSTEM_THREADING_TIMEOUTHELPER_UPDATETIMEOUT_OFFSET UNITYSDK_OFFSET(0x18635CC0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int TimeoutHelper_TypeDefinitionIndex = 813;
+	inline static constexpr unsigned int TimeoutHelper_TypeDefinitionIndex = 812;
 
 	class TimeoutHelper : public ::System::Object
 	{
@@ -17,9 +17,9 @@ namespace System::Threading
 			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TIMEOUTHELPER_GETTIME_OFFSET))();
 		}
 
-		static ::System::Int32 UpdateTimeOut(::System::UInt32 startTime, ::System::Int32 originalWaitMillisecondsTimeout)
+		static ::System::Int32 UpdateTimeOut(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TIMEOUTHELPER_UPDATETIMEOUT_OFFSET))(startTime, originalWaitMillisecondsTimeout);
+			return ((::System::Int32(*)(::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TIMEOUTHELPER_UPDATETIMEOUT_OFFSET))(a1, a2);
 		}
 	};
 }

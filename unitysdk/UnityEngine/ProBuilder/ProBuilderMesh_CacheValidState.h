@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ProBuilderMesh_CacheValidState_TypeDefinitionIndex = 39960;
+	inline static constexpr unsigned int ProBuilderMesh_CacheValidState_TypeDefinitionIndex = 40787;
 
 	enum class ProBuilderMesh_CacheValidState : ::System::Byte
 	{

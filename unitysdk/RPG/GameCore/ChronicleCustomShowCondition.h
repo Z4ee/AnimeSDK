@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHRONICLECUSTOMSHOWCONDITION_METHOD_2_E67DD0DD8C0FBBB9_OFFSET UNITYSDK_OFFSET(0x1880D720)
-#define RPG_GAMECORE_CHRONICLECUSTOMSHOWCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1880D830)
+#define RPG_GAMECORE_CHRONICLECUSTOMSHOWCONDITION_METHOD_2_E67DD0DD8C0FBBB9_OFFSET UNITYSDK_OFFSET(0x1964EF60)
+#define RPG_GAMECORE_CHRONICLECUSTOMSHOWCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1964F070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChronicleCustomShowCondition_TypeDefinitionIndex = 17997;
+	inline static constexpr unsigned int ChronicleCustomShowCondition_TypeDefinitionIndex = 18024;
 
 	class ChronicleCustomShowCondition : public ::RPG::GameCore::JsonConfig
 	{

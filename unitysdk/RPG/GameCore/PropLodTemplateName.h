@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropLodTemplateName_TypeDefinitionIndex = 10293;
+	inline static constexpr unsigned int PropLodTemplateName_TypeDefinitionIndex = 10124;
 
 	enum class PropLodTemplateName : ::System::Int32
 	{

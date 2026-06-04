@@ -3,29 +3,55 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_2AE1D80996AD66EA_3_METHOD_1_47B047590A4850CC_OFFSET UNITYSDK_OFFSET(0x10AF0BA0)
-#define CLASS_1_2AE1D80996AD66EA_3_METHOD_1_E2C273CA106EBD0B_OFFSET UNITYSDK_OFFSET(0x10AF0C00)
-#define CLASS_1_2AE1D80996AD66EA_3__CTOR_OFFSET UNITYSDK_OFFSET(0x10AF0B90)
+#define CLASS_1_2AE1D80996AD66EA_3_GET_ACTUALVALUE_OFFSET UNITYSDK_OFFSET(0x1443E580)
+#define CLASS_1_2AE1D80996AD66EA_3_GET_EXPECTEDVALUE_OFFSET UNITYSDK_OFFSET(0x1443E5A0)
+#define CLASS_1_2AE1D80996AD66EA_3_GET_INITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1443E560)
+#define CLASS_1_2AE1D80996AD66EA_3_SET_ACTUALVALUE_OFFSET UNITYSDK_OFFSET(0x1443E590)
+#define CLASS_1_2AE1D80996AD66EA_3_SET_EXPECTEDVALUE_OFFSET UNITYSDK_OFFSET(0x1443E5B0)
+#define CLASS_1_2AE1D80996AD66EA_3_SET_INITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1443E570)
+#define CLASS_1_2AE1D80996AD66EA_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1443E5C0)
 
-inline static constexpr unsigned int Class_1_2AE1D80996AD66EA_3_TypeDefinitionIndex = 61962;
+inline static constexpr unsigned int Class_1_2AE1D80996AD66EA_3_TypeDefinitionIndex = 72372;
 
 class Class_1_2AE1D80996AD66EA_3 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FixPoint Field_1_0; // 0x10
+	::RPG::GameCore::FixPoint _InitialValue_k__BackingField; // 0x10
+	::RPG::GameCore::FixPoint _ActualValue_k__BackingField; // 0x18
+	::RPG::GameCore::FixPoint _ExpectedValue_k__BackingField; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::FixPoint a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_2AE1D80996AD66EA_3__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Object* Method_1_47B047590A4850CC()
+	::RPG::GameCore::FixPoint get_InitialValue()
 	{
-		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2AE1D80996AD66EA_3_METHOD_1_47B047590A4850CC_OFFSET))(this);
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2AE1D80996AD66EA_3_GET_INITIALVALUE_OFFSET))(this);
 	}
 
-	::RPG::GameCore::FixPoint Method_1_E2C273CA106EBD0B()
+	::System::Void set_InitialValue(::RPG::GameCore::FixPoint a1)
 	{
-		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2AE1D80996AD66EA_3_METHOD_1_E2C273CA106EBD0B_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_2AE1D80996AD66EA_3_SET_INITIALVALUE_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FixPoint get_ActualValue()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2AE1D80996AD66EA_3_GET_ACTUALVALUE_OFFSET))(this);
+	}
+
+	::System::Void set_ActualValue(::RPG::GameCore::FixPoint a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_2AE1D80996AD66EA_3_SET_ACTUALVALUE_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FixPoint get_ExpectedValue()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2AE1D80996AD66EA_3_GET_EXPECTEDVALUE_OFFSET))(this);
+	}
+
+	::System::Void set_ExpectedValue(::RPG::GameCore::FixPoint a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_2AE1D80996AD66EA_3_SET_EXPECTEDVALUE_OFFSET))(this, a1);
 	}
 };

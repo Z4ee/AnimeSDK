@@ -8,14 +8,14 @@ namespace Spine { class SkeletonData; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace Spine::Unity::Playables { class SpineEventDelegate; }
 
-#define SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_ADD_ANIMATIONEVENTS_OFFSET UNITYSDK_OFFSET(0x19E29F80)
-#define SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_HANDLEEVENTS_OFFSET UNITYSDK_OFFSET(0x19E2A080)
-#define SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_REMOVE_ANIMATIONEVENTS_OFFSET UNITYSDK_OFFSET(0x19E2A000)
-#define SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E25FB0)
+#define SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_ADD_ANIMATIONEVENTS_OFFSET UNITYSDK_OFFSET(0x1ACA4570)
+#define SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_HANDLEEVENTS_OFFSET UNITYSDK_OFFSET(0x1ACA4670)
+#define SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_REMOVE_ANIMATIONEVENTS_OFFSET UNITYSDK_OFFSET(0x1ACA45F0)
+#define SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACA0C50)
 
 namespace Spine::Unity::Playables
 {
-	inline static constexpr unsigned int SpinePlayableHandleBase_TypeDefinitionIndex = 40899;
+	inline static constexpr unsigned int SpinePlayableHandleBase_TypeDefinitionIndex = 41725;
 
 	class SpinePlayableHandleBase : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,19 +27,19 @@ namespace Spine::Unity::Playables
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_AnimationEvents(::Spine::Unity::Playables::SpineEventDelegate* value)
+		::System::Void add_AnimationEvents(::Spine::Unity::Playables::SpineEventDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::Playables::SpineEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_ADD_ANIMATIONEVENTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::Playables::SpineEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_ADD_ANIMATIONEVENTS_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_AnimationEvents(::Spine::Unity::Playables::SpineEventDelegate* value)
+		::System::Void remove_AnimationEvents(::Spine::Unity::Playables::SpineEventDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::Playables::SpineEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_REMOVE_ANIMATIONEVENTS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::Playables::SpineEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_REMOVE_ANIMATIONEVENTS_OFFSET))(this, a1);
 		}
 
-		::System::Void HandleEvents(::Spine::ExposedList_1<::Spine::Event*>* eventBuffer)
+		::System::Void HandleEvents(::Spine::ExposedList_1<::Spine::Event*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Event*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_HANDLEEVENTS_OFFSET))(this, eventBuffer);
+			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Event*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEPLAYABLEHANDLEBASE_HANDLEEVENTS_OFFSET))(this, a1);
 		}
 	};
 }

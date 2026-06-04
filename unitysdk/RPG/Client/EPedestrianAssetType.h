@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EPedestrianAssetType_TypeDefinitionIndex = 63843;
+	inline static constexpr unsigned int EPedestrianAssetType_TypeDefinitionIndex = 64764;
 
 	enum class EPedestrianAssetType : ::System::Int32
 	{

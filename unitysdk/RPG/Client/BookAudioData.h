@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class AudioBookDataRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BOOKAUDIODATA_GET_AUDIOEVENT_OFFSET UNITYSDK_OFFSET(0x9E9DC00)
-#define RPG_CLIENT_BOOKAUDIODATA_GET_HASAUDIO_OFFSET UNITYSDK_OFFSET(0x9E9DBF0)
-#define RPG_CLIENT_BOOKAUDIODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9E9D7A0)
+#define RPG_CLIENT_BOOKAUDIODATA_GET_AUDIOEVENT_OFFSET UNITYSDK_OFFSET(0xB439D70)
+#define RPG_CLIENT_BOOKAUDIODATA_GET_HASAUDIO_OFFSET UNITYSDK_OFFSET(0xB439D60)
+#define RPG_CLIENT_BOOKAUDIODATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB439910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookAudioData_TypeDefinitionIndex = 61139;
+	inline static constexpr unsigned int BookAudioData_TypeDefinitionIndex = 62063;
 
 	class BookAudioData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::AudioBookDataRow* _Row; // 0x10
 
-		::System::Void _ctor(::System::UInt32 bookID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKAUDIODATA__CTOR_OFFSET))(this, bookID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKAUDIODATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasAudio()

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Camera; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_ECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x12C26160)
+#define HEDGEHOGTEAM_EASYTOUCH_ECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x146DECD0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int ECamera_TypeDefinitionIndex = 37021;
+	inline static constexpr unsigned int ECamera_TypeDefinitionIndex = 37321;
 
 	class ECamera : public ::System::Object
 	{
@@ -16,9 +16,9 @@ namespace HedgehogTeam::EasyTouch
 		::UnityEngine::Camera* camera; // 0x10
 		::System::Boolean guiCamera; // 0x18
 
-		::System::Void _ctor(::UnityEngine::Camera* cam, ::System::Boolean gui)
+		::System::Void _ctor(::UnityEngine::Camera* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_ECAMERA__CTOR_OFFSET))(this, cam, gui);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_ECAMERA__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

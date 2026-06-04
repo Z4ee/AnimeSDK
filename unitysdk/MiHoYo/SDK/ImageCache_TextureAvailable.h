@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1755E330)
-#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1755E360)
-#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1755DB50)
-#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1755D660)
+#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18345870)
+#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x183458A0)
+#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x183455A0)
+#define MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18345800)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ImageCache_TextureAvailable_TypeDefinitionIndex = 7022;
+	inline static constexpr unsigned int ImageCache_TextureAvailable_TypeDefinitionIndex = 7925;
 
 	class ImageCache_TextureAvailable : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::Texture2D* texture)
+		::System::Void Invoke(::UnityEngine::Texture2D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_INVOKE_OFFSET))(this, texture);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Texture2D* texture, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::Texture2D* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Texture2D*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_BEGININVOKE_OFFSET))(this, texture, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Texture2D*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_TEXTUREAVAILABLE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

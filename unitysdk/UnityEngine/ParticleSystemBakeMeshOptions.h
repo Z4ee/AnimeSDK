@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemBakeMeshOptions_TypeDefinitionIndex = 5513;
+	inline static constexpr unsigned int ParticleSystemBakeMeshOptions_TypeDefinitionIndex = 5790;
 
 	enum class ParticleSystemBakeMeshOptions : ::System::Int32
 	{

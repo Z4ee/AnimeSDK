@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CakeRaceActionBase; }
 
-#define RPG_GAMECORE_CAKERACEEVENTHANDLER_METHOD_2_10B3E16EAA3C89C0_OFFSET UNITYSDK_OFFSET(0x18770DB0)
-#define RPG_GAMECORE_CAKERACEEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18770F70)
+#define RPG_GAMECORE_CAKERACEEVENTHANDLER_METHOD_2_68B37272104A6A35_OFFSET UNITYSDK_OFFSET(0x195ECC00)
+#define RPG_GAMECORE_CAKERACEEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x195ECDC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceEventHandler_TypeDefinitionIndex = 17420;
+	inline static constexpr unsigned int CakeRaceEventHandler_TypeDefinitionIndex = 17425;
 
 	class CakeRaceEventHandler : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEEVENTHANDLER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_10B3E16EAA3C89C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceEventHandler*& a2)
+		static ::System::Void Method_2_68B37272104A6A35(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceEventHandler*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceEventHandler*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEEVENTHANDLER_METHOD_2_10B3E16EAA3C89C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceEventHandler*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEEVENTHANDLER_METHOD_2_68B37272104A6A35_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int INotification_TypeDefinitionIndex = 4707;
+	inline static constexpr unsigned int INotification_TypeDefinitionIndex = 4881;
 
 	class INotification
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
 
-class Class_1_2CAAA2FDF9170110;
+class Class_1_1C30CE192ABE4C54;
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SummonUnitAIConfig; }
@@ -19,12 +19,12 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TriggerEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITCONFIG_METHOD_2_31FA45A1C9CAC86B_OFFSET UNITYSDK_OFFSET(0x18EB4730)
-#define RPG_GAMECORE_SUMMONUNITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB5210)
+#define RPG_GAMECORE_SUMMONUNITCONFIG_METHOD_2_9435D17CA7EA4F5D_OFFSET UNITYSDK_OFFSET(0x19CD4410)
+#define RPG_GAMECORE_SUMMONUNITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD4EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitConfig_TypeDefinitionIndex = 16704;
+	inline static constexpr unsigned int SummonUnitConfig_TypeDefinitionIndex = 16729;
 
 	class SummonUnitConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -62,16 +62,16 @@ namespace RPG::GameCore
 		::RPG::GameCore::SummonUnitBeAttackConfig* BeAttackConfig; // 0xF8
 		::RPG::GameCore::SummonUnitGatherConfig* GatherConfig; // 0x100
 		::RPG::GameCore::SummonUnitMiscConfig* MiscConfig; // 0x108
-		::Class_1_2CAAA2FDF9170110* DynamicValues; // 0x110
+		::Class_1_1C30CE192ABE4C54* DynamicValues; // 0x110
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_31FA45A1C9CAC86B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitConfig*& a2)
+		static ::System::Void Method_2_9435D17CA7EA4F5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITCONFIG_METHOD_2_31FA45A1C9CAC86B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITCONFIG_METHOD_2_9435D17CA7EA4F5D_OFFSET))(a1, a2);
 		}
 	};
 }

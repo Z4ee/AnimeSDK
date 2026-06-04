@@ -1,28 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_CustomRuleType.h"
-#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_InVisionRefreshState.h"
-#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_NpcConflictRefreshState.h"
-#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_RegionRefreshState.h"
-#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_SpaceConflictRefreshState.h"
-#include "unitysdk/RPG/GameCore/GroupCategory.h"
-#include "unitysdk/RPG/GameCore/HoYoGroupType.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::GameCore { class LevelGroupBakedInfo; }
-namespace RPG::GameCore { class LevelGroupSpatialBakedInfo; }
-namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_43BD383C98B4C0C5_125__CTOR_OFFSET UNITYSDK_OFFSET(0x12528270)
+#define CLASS_1_43BD383C98B4C0C5_125__CTOR_OFFSET UNITYSDK_OFFSET(0xAF20150)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_125_TypeDefinitionIndex = 57225;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_125_TypeDefinitionIndex = 56046;
 
 class Class_1_43BD383C98B4C0C5_125 : public ::System::Object
 {
 public:
+	// static const ::System::Char Field_1_0; // 0x0
+	// static const ::System::Char Field_1_1; // 0x0
+	// static const ::System::Char Field_1_2; // 0x0
+	// static const ::System::Char Field_1_3; // 0x0
+	// static const ::System::Char Field_1_4; // 0x0
+	// static const ::System::Char Field_1_5; // 0x0
+	// static const ::System::Char Field_1_6; // 0x0
+	// static const ::System::Char Field_1_7; // 0x0
+	// static const ::System::Char Field_1_8; // 0x0
+	// static const ::System::Char Field_1_9; // 0x0
+	// static const ::System::String* Field_1_10; // 0x0
+	// static const ::System::String* Field_1_11; // 0x0
+	// static const ::System::String* Field_1_12; // 0x0
+	// static const ::System::String* Field_1_13; // 0x0
+	// static const ::System::String* Field_1_14; // 0x0
+	// static const ::System::String* Field_1_15; // 0x0
+	// static const ::System::String* Field_1_16; // 0x0
+	// static const ::System::String* Field_1_17; // 0x0
+	// static const ::System::String* Field_1_18; // 0x0
+
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_125__CTOR_OFFSET))(this);

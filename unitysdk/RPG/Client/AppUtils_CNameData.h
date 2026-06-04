@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_APPUTILS_CNAMEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x9D36CA0)
+#define RPG_CLIENT_APPUTILS_CNAMEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xB326D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AppUtils_CNameData_TypeDefinitionIndex = 54674;
+	inline static constexpr unsigned int AppUtils_CNameData_TypeDefinitionIndex = 55401;
 
 	struct alignas(8) AppUtils_CNameData
 	{
 		static ::RPG::Client::AppUtils_CNameData* StaticGet_Emtpy()
 		{
-			return (::RPG::Client::AppUtils_CNameData*)Il2CppClass::FromTypeDefinitionIndex(AppUtils_CNameData_TypeDefinitionIndex)->GetStaticField(0x2FCA0);
+			return (::RPG::Client::AppUtils_CNameData*)Il2CppClass::FromTypeDefinitionIndex(AppUtils_CNameData_TypeDefinitionIndex)->GetStaticField(0x619E0);
 		}
 		::System::String* IP; // 0x10
 		::System::String* CName; // 0x18

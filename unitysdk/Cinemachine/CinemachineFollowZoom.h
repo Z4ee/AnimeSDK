@@ -6,14 +6,14 @@
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define CINEMACHINE_CINEMACHINEFOLLOWZOOM_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x12B7D1C0)
-#define CINEMACHINE_CINEMACHINEFOLLOWZOOM_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x12B7D160)
-#define CINEMACHINE_CINEMACHINEFOLLOWZOOM_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x12B7D1D0)
-#define CINEMACHINE_CINEMACHINEFOLLOWZOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x12B7D690)
+#define CINEMACHINE_CINEMACHINEFOLLOWZOOM_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x1463CAD0)
+#define CINEMACHINE_CINEMACHINEFOLLOWZOOM_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1463CA70)
+#define CINEMACHINE_CINEMACHINEFOLLOWZOOM_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1463CAE0)
+#define CINEMACHINE_CINEMACHINEFOLLOWZOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1463CFD0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineFollowZoom_TypeDefinitionIndex = 36498;
+	inline static constexpr unsigned int CinemachineFollowZoom_TypeDefinitionIndex = 36798;
 
 	class CinemachineFollowZoom : public ::Cinemachine::CinemachineExtension
 	{
@@ -38,9 +38,9 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFOLLOWZOOM_GETMAXDAMPTIME_OFFSET))(this);
 		}
 
-		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* vcam, ::Cinemachine::CinemachineCore_Stage stage, ::Cinemachine::CameraState& state, ::System::Single deltaTime)
+		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState& a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFOLLOWZOOM_POSTPIPELINESTAGECALLBACK_OFFSET))(this, vcam, stage, state, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFOLLOWZOOM_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

@@ -9,38 +9,38 @@ namespace RPG::Client { class ContactIdentity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHATCONTACTDATA_APPENDMESSAGE_OFFSET UNITYSDK_OFFSET(0x9F79C10)
-#define RPG_CLIENT_CHATCONTACTDATA_CLEARMESSAGES_OFFSET UNITYSDK_OFFSET(0x9F79EB0)
-#define RPG_CLIENT_CHATCONTACTDATA_GETHISTORYMESSAGE_OFFSET UNITYSDK_OFFSET(0x9F7A600)
-#define RPG_CLIENT_CHATCONTACTDATA_GET_EARLIESTMESSAGE_OFFSET UNITYSDK_OFFSET(0x9F7A850)
-#define RPG_CLIENT_CHATCONTACTDATA_GET_HISTORYINITIALIZED_OFFSET UNITYSDK_OFFSET(0x9F7A810)
-#define RPG_CLIENT_CHATCONTACTDATA_GET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x9F7A730)
-#define RPG_CLIENT_CHATCONTACTDATA_GET_ISALLHISTORYINLOCAL_OFFSET UNITYSDK_OFFSET(0x9F7A830)
-#define RPG_CLIENT_CHATCONTACTDATA_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x9F7A7B0)
-#define RPG_CLIENT_CHATCONTACTDATA_GET_ISONLINEPLAYROOM_OFFSET UNITYSDK_OFFSET(0x9F7A790)
-#define RPG_CLIENT_CHATCONTACTDATA_GET_ISPAM_OFFSET UNITYSDK_OFFSET(0x9F7A750)
-#define RPG_CLIENT_CHATCONTACTDATA_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0x9F7A770)
-#define RPG_CLIENT_CHATCONTACTDATA_GET_LATESTMESSAGE_OFFSET UNITYSDK_OFFSET(0x9F7A920)
-#define RPG_CLIENT_CHATCONTACTDATA_GET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0x9F7AA00)
-#define RPG_CLIENT_CHATCONTACTDATA_ISSAMECONTACT_1_OFFSET UNITYSDK_OFFSET(0x9F7A5A0)
-#define RPG_CLIENT_CHATCONTACTDATA_ISSAMECONTACT_OFFSET UNITYSDK_OFFSET(0x9F7A500)
-#define RPG_CLIENT_CHATCONTACTDATA_REMOVEMESSAGE_OFFSET UNITYSDK_OFFSET(0x9F79D70)
-#define RPG_CLIENT_CHATCONTACTDATA_SENDTEXTMESSAGE_OFFSET UNITYSDK_OFFSET(0x9F7A3F0)
-#define RPG_CLIENT_CHATCONTACTDATA_SET_HISTORYINITIALIZED_OFFSET UNITYSDK_OFFSET(0x9F7A820)
-#define RPG_CLIENT_CHATCONTACTDATA_SET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x9F7A740)
-#define RPG_CLIENT_CHATCONTACTDATA_SET_ISALLHISTORYINLOCAL_OFFSET UNITYSDK_OFFSET(0x9F7A840)
-#define RPG_CLIENT_CHATCONTACTDATA_SYNCHISTORY_OFFSET UNITYSDK_OFFSET(0x9F79F30)
-#define RPG_CLIENT_CHATCONTACTDATA_SYNCTIME_OFFSET UNITYSDK_OFFSET(0x9F7A3A0)
-#define RPG_CLIENT_CHATCONTACTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9F7AA60)
-#define RPG_CLIENT_CHATCONTACTDATA__MERGEMESSAGES_OFFSET UNITYSDK_OFFSET(0x9F79FC0)
-#define RPG_CLIENT_CHATCONTACTDATA__ONCLEARMESSAGES_OFFSET UNITYSDK_OFFSET(0x9F7A4C0)
-#define RPG_CLIENT_CHATCONTACTDATA__ONSYNCHISTORY_OFFSET UNITYSDK_OFFSET(0x9F7A470)
-#define RPG_CLIENT_CHATCONTACTDATA__REFRESHLASTMESSAGESTATUS_OFFSET UNITYSDK_OFFSET(0x9F7A2F0)
-#define RPG_CLIENT_CHATCONTACTDATA__UPDATELASTMESSAGESTATUS_OFFSET UNITYSDK_OFFSET(0x9F79CC0)
+#define RPG_CLIENT_CHATCONTACTDATA_APPENDMESSAGE_OFFSET UNITYSDK_OFFSET(0xB593100)
+#define RPG_CLIENT_CHATCONTACTDATA_CLEARMESSAGES_OFFSET UNITYSDK_OFFSET(0xB593400)
+#define RPG_CLIENT_CHATCONTACTDATA_GETHISTORYMESSAGE_OFFSET UNITYSDK_OFFSET(0xB593BB0)
+#define RPG_CLIENT_CHATCONTACTDATA_GET_EARLIESTMESSAGE_OFFSET UNITYSDK_OFFSET(0xB593E00)
+#define RPG_CLIENT_CHATCONTACTDATA_GET_HISTORYINITIALIZED_OFFSET UNITYSDK_OFFSET(0xB593DC0)
+#define RPG_CLIENT_CHATCONTACTDATA_GET_IDENTITY_OFFSET UNITYSDK_OFFSET(0xB593CE0)
+#define RPG_CLIENT_CHATCONTACTDATA_GET_ISALLHISTORYINLOCAL_OFFSET UNITYSDK_OFFSET(0xB593DE0)
+#define RPG_CLIENT_CHATCONTACTDATA_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xB593D60)
+#define RPG_CLIENT_CHATCONTACTDATA_GET_ISONLINEPLAYROOM_OFFSET UNITYSDK_OFFSET(0xB593D40)
+#define RPG_CLIENT_CHATCONTACTDATA_GET_ISPAM_OFFSET UNITYSDK_OFFSET(0xB593D00)
+#define RPG_CLIENT_CHATCONTACTDATA_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0xB593D20)
+#define RPG_CLIENT_CHATCONTACTDATA_GET_LATESTMESSAGE_OFFSET UNITYSDK_OFFSET(0xB593EC0)
+#define RPG_CLIENT_CHATCONTACTDATA_GET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0xB593F90)
+#define RPG_CLIENT_CHATCONTACTDATA_ISSAMECONTACT_1_OFFSET UNITYSDK_OFFSET(0xB593B50)
+#define RPG_CLIENT_CHATCONTACTDATA_ISSAMECONTACT_OFFSET UNITYSDK_OFFSET(0xB593AB0)
+#define RPG_CLIENT_CHATCONTACTDATA_REMOVEMESSAGE_OFFSET UNITYSDK_OFFSET(0xB5932B0)
+#define RPG_CLIENT_CHATCONTACTDATA_SENDTEXTMESSAGE_OFFSET UNITYSDK_OFFSET(0xB5939A0)
+#define RPG_CLIENT_CHATCONTACTDATA_SET_HISTORYINITIALIZED_OFFSET UNITYSDK_OFFSET(0xB593DD0)
+#define RPG_CLIENT_CHATCONTACTDATA_SET_IDENTITY_OFFSET UNITYSDK_OFFSET(0xB593CF0)
+#define RPG_CLIENT_CHATCONTACTDATA_SET_ISALLHISTORYINLOCAL_OFFSET UNITYSDK_OFFSET(0xB593DF0)
+#define RPG_CLIENT_CHATCONTACTDATA_SYNCHISTORY_OFFSET UNITYSDK_OFFSET(0xB593480)
+#define RPG_CLIENT_CHATCONTACTDATA_SYNCTIME_OFFSET UNITYSDK_OFFSET(0xB593950)
+#define RPG_CLIENT_CHATCONTACTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB593FF0)
+#define RPG_CLIENT_CHATCONTACTDATA__MERGEMESSAGES_OFFSET UNITYSDK_OFFSET(0xB593510)
+#define RPG_CLIENT_CHATCONTACTDATA__ONCLEARMESSAGES_OFFSET UNITYSDK_OFFSET(0xB593A70)
+#define RPG_CLIENT_CHATCONTACTDATA__ONSYNCHISTORY_OFFSET UNITYSDK_OFFSET(0xB593A20)
+#define RPG_CLIENT_CHATCONTACTDATA__REFRESHLASTMESSAGESTATUS_OFFSET UNITYSDK_OFFSET(0xB5938B0)
+#define RPG_CLIENT_CHATCONTACTDATA__UPDATELASTMESSAGESTATUS_OFFSET UNITYSDK_OFFSET(0xB593210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatContactData_TypeDefinitionIndex = 58225;
+	inline static constexpr unsigned int ChatContactData_TypeDefinitionIndex = 59155;
 
 	class ChatContactData : public ::System::Object
 	{
@@ -56,14 +56,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void AppendMessage(::RPG::Client::ChatMessageData* messageData)
+		::System::Void AppendMessage(::RPG::Client::ChatMessageData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChatMessageData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_APPENDMESSAGE_OFFSET))(this, messageData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChatMessageData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_APPENDMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveMessage(::System::Int32 index)
+		::System::Void RemoveMessage(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_REMOVEMESSAGE_OFFSET))(this, index);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_REMOVEMESSAGE_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearMessages()
@@ -71,24 +71,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_CLEARMESSAGES_OFFSET))(this);
 		}
 
-		::System::Void SyncHistory(::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* messages, ::System::UInt32 page)
+		::System::Void SyncHistory(::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SYNCHISTORY_OFFSET))(this, messages, page);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SYNCHISTORY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SyncTime(::System::UInt32 timeStamp)
+		::System::Void SyncTime(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SYNCTIME_OFFSET))(this, timeStamp);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SYNCTIME_OFFSET))(this, a1);
 		}
 
-		::System::Void SendTextMessage(::System::String* text)
+		::System::Void SendTextMessage(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SENDTEXTMESSAGE_OFFSET))(this, text);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SENDTEXTMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnSyncHistory(::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* messages, ::System::UInt32 page)
+		::System::Void _OnSyncHistory(::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA__ONSYNCHISTORY_OFFSET))(this, messages, page);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA__ONSYNCHISTORY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OnClearMessages()
@@ -96,14 +96,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA__ONCLEARMESSAGES_OFFSET))(this);
 		}
 
-		::System::Boolean IsSameContact(::System::UInt32 id, ::RPG::Client::ContactRole role)
+		::System::Boolean IsSameContact(::System::UInt32 a1, ::RPG::Client::ContactRole a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::ContactRole))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_ISSAMECONTACT_OFFSET))(this, id, role);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::RPG::Client::ContactRole))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_ISSAMECONTACT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsSameContact_1(::RPG::Client::ChatContactData* contactData)
+		::System::Boolean IsSameContact_1(::RPG::Client::ChatContactData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChatContactData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_ISSAMECONTACT_1_OFFSET))(this, contactData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChatContactData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_ISSAMECONTACT_1_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* GetHistoryMessage()
@@ -111,9 +111,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_GETHISTORYMESSAGE_OFFSET))(this);
 		}
 
-		::System::Void _UpdateLastMessageStatus(::RPG::Client::ChatMessageData* messageData)
+		::System::Void _UpdateLastMessageStatus(::RPG::Client::ChatMessageData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChatMessageData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA__UPDATELASTMESSAGESTATUS_OFFSET))(this, messageData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChatMessageData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA__UPDATELASTMESSAGESTATUS_OFFSET))(this, a1);
 		}
 
 		::System::Void _RefreshLastMessageStatus()
@@ -121,9 +121,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA__REFRESHLASTMESSAGESTATUS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* _MergeMessages(::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* baseMessages, ::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* toAddMessages)
+		::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* _MergeMessages(::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* a1, ::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA__MERGEMESSAGES_OFFSET))(this, baseMessages, toAddMessages);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ChatMessageData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA__MERGEMESSAGES_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::ContactIdentity* get_Identity()
@@ -131,9 +131,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ContactIdentity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_GET_IDENTITY_OFFSET))(this);
 		}
 
-		::System::Void set_Identity(::RPG::Client::ContactIdentity* value)
+		::System::Void set_Identity(::RPG::Client::ContactIdentity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ContactIdentity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SET_IDENTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ContactIdentity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SET_IDENTITY_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsPam()
@@ -161,9 +161,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_GET_HISTORYINITIALIZED_OFFSET))(this);
 		}
 
-		::System::Void set_HistoryInitialized(::System::Boolean value)
+		::System::Void set_HistoryInitialized(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SET_HISTORYINITIALIZED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SET_HISTORYINITIALIZED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsAllHistoryInLocal()
@@ -171,9 +171,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_GET_ISALLHISTORYINLOCAL_OFFSET))(this);
 		}
 
-		::System::Void set_IsAllHistoryInLocal(::System::Boolean value)
+		::System::Void set_IsAllHistoryInLocal(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SET_ISALLHISTORYINLOCAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATCONTACTDATA_SET_ISALLHISTORYINLOCAL_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ChatMessageData* get_EarliestMessage()

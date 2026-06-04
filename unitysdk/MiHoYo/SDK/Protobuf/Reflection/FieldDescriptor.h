@@ -12,42 +12,42 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class OneofDescriptor; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_COMPARETO_OFFSET UNITYSDK_OFFSET(0x173A9670)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_CREATEACCESSOR_OFFSET UNITYSDK_OFFSET(0x173A9AD0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x173A9710)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GETFIELDTYPEFROMPROTOTYPE_OFFSET UNITYSDK_OFFSET(0x173A9570)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_ACCESSOR_OFFSET UNITYSDK_OFFSET(0x173A9620)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_CONTAININGONEOF_OFFSET UNITYSDK_OFFSET(0x173A9200)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_CONTAININGTYPE_OFFSET UNITYSDK_OFFSET(0x173A91F0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_FIELDNUMBER_OFFSET UNITYSDK_OFFSET(0x1739ABB0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_FIELDTYPE_OFFSET UNITYSDK_OFFSET(0x173A9650)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_ISMAP_OFFSET UNITYSDK_OFFSET(0x17397C90)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_ISREPEATED_OFFSET UNITYSDK_OFFSET(0x17397CE0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_JSONNAME_OFFSET UNITYSDK_OFFSET(0x173A9210)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1739D070)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x173A9220)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x173A9230)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_COMPARETO_OFFSET UNITYSDK_OFFSET(0x181B2DC0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_CREATEACCESSOR_OFFSET UNITYSDK_OFFSET(0x181B3220)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x181B2E60)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GETFIELDTYPEFROMPROTOTYPE_OFFSET UNITYSDK_OFFSET(0x181B2CC0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_ACCESSOR_OFFSET UNITYSDK_OFFSET(0x181B2D70)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_CONTAININGONEOF_OFFSET UNITYSDK_OFFSET(0x181B2950)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_CONTAININGTYPE_OFFSET UNITYSDK_OFFSET(0x181B2940)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_FIELDNUMBER_OFFSET UNITYSDK_OFFSET(0x181A4CD0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_FIELDTYPE_OFFSET UNITYSDK_OFFSET(0x181B2DA0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_ISMAP_OFFSET UNITYSDK_OFFSET(0x181A1D20)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_ISREPEATED_OFFSET UNITYSDK_OFFSET(0x181A1D70)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_JSONNAME_OFFSET UNITYSDK_OFFSET(0x181B2960)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x181A71A0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x181B2970)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x181B2980)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldDescriptor_TypeDefinitionIndex = 33741;
+	inline static constexpr unsigned int FieldDescriptor_TypeDefinitionIndex = 34023;
 
 	class FieldDescriptor : public ::MiHoYo::SDK::Protobuf::Reflection::DescriptorBase
 	{
 	public:
 		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* _ContainingType_k__BackingField; // 0x28
-		::System::String* _JsonName_k__BackingField; // 0x30
-		::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor* enumType; // 0x38
-		::MiHoYo::SDK::Protobuf::Reflection::OneofDescriptor* _ContainingOneof_k__BackingField; // 0x40
-		::System::String* propertyName; // 0x48
-		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* messageType; // 0x50
-		::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto* _Proto_k__BackingField; // 0x58
-		::MiHoYo::SDK::Protobuf::Reflection::IFieldAccessor* accessor; // 0x60
+		::MiHoYo::SDK::Protobuf::Reflection::OneofDescriptor* _ContainingOneof_k__BackingField; // 0x30
+		::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto* _Proto_k__BackingField; // 0x38
+		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* messageType; // 0x40
+		::System::String* _JsonName_k__BackingField; // 0x48
+		::System::String* propertyName; // 0x50
+		::MiHoYo::SDK::Protobuf::Reflection::IFieldAccessor* accessor; // 0x58
+		::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor* enumType; // 0x60
 		::MiHoYo::SDK::Protobuf::Reflection::FieldType fieldType; // 0x68
 
-		::System::Void _ctor(::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto* proto, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file, ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* parent, ::System::Int32 index, ::System::String* propertyName)
+		::System::Void _ctor(::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto* a1, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* a2, ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* a3, ::System::Int32 a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto*, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*, ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR__CTOR_OFFSET))(this, proto, file, parent, index, propertyName);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto*, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*, ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* get_ContainingType()
@@ -80,9 +80,9 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 			return ((::MiHoYo::SDK::Protobuf::Reflection::IFieldAccessor*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_ACCESSOR_OFFSET))(this);
 		}
 
-		static ::MiHoYo::SDK::Protobuf::Reflection::FieldType GetFieldTypeFromProtoType(::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto_Types_Type type)
+		static ::MiHoYo::SDK::Protobuf::Reflection::FieldType GetFieldTypeFromProtoType(::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto_Types_Type a1)
 		{
-			return ((::MiHoYo::SDK::Protobuf::Reflection::FieldType(*)(::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto_Types_Type))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GETFIELDTYPEFROMPROTOTYPE_OFFSET))(type);
+			return ((::MiHoYo::SDK::Protobuf::Reflection::FieldType(*)(::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto_Types_Type))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GETFIELDTYPEFROMPROTOTYPE_OFFSET))(a1);
 		}
 
 		::System::Boolean get_IsRepeated()
@@ -105,9 +105,9 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_GET_FIELDNUMBER_OFFSET))(this);
 		}
 
-		::System::Int32 CompareTo(::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor* other)
+		::System::Int32 CompareTo(::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTOR_COMPARETO_OFFSET))(this, a1);
 		}
 
 		::System::Void CrossLink()

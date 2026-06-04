@@ -4,12 +4,12 @@
 
 namespace RPG::Client::DiceCombat { class DiceCombatSpecialRuleData; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA138390)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__PINSPECIALRULEBYID_B__0_OFFSET UNITYSDK_OFFSET(0xA1383E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7B3E30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__PINSPECIALRULEBYID_B__0_OFFSET UNITYSDK_OFFSET(0xB7B3E80)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatSpecialRuleGroupData___c__DisplayClass2_0_TypeDefinitionIndex = 69850;
+	inline static constexpr unsigned int DiceCombatSpecialRuleGroupData___c__DisplayClass2_0_TypeDefinitionIndex = 70662;
 
 	class DiceCombatSpecialRuleGroupData___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _PinSpecialRuleByID_b__0(::RPG::Client::DiceCombat::DiceCombatSpecialRuleData* ruleData)
+		::System::Boolean _PinSpecialRuleByID_b__0(::RPG::Client::DiceCombat::DiceCombatSpecialRuleData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatSpecialRuleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__PINSPECIALRULEBYID_B__0_OFFSET))(this, ruleData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatSpecialRuleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSPECIALRULEGROUPDATA___C__DISPLAYCLASS2_0__PINSPECIALRULEBYID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -8,36 +8,36 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1751E8D0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1751E910)
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1751E350)
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1751E330)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1830A920)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1830A960)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1830A910)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1830A890)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_UpdateMatchDetailDelegate_TypeDefinitionIndex = 6706;
+	inline static constexpr unsigned int ConsoleDelegate_UpdateMatchDetailDelegate_TypeDefinitionIndex = 7609;
 
 	class ConsoleDelegate_UpdateMatchDetailDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::String* jsonInfo, ::System::Action_1<::System::String*>* callback)
+		::System::Void Invoke(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_INVOKE_OFFSET))(this, jsonInfo, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* jsonInfo, ::System::Action_1<::System::String*>* callback, ::System::AsyncCallback* __callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::Action_1<::System::String*>* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_BEGININVOKE_OFFSET))(this, jsonInfo, callback, __callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEMATCHDETAILDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

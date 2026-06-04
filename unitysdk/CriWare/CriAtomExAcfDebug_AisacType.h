@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_AisacType_TypeDefinitionIndex = 36919;
+	inline static constexpr unsigned int CriAtomExAcfDebug_AisacType_TypeDefinitionIndex = 37219;
 
 	enum class CriAtomExAcfDebug_AisacType : ::System::Int32
 	{

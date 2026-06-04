@@ -10,45 +10,45 @@ namespace CriWare { class CriAtomExAcb; }
 namespace CriWare { class CriFsBinder; }
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_CREATE_OFFSET UNITYSDK_OFFSET(0x12BD4660)
-#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_DESTROY_OFFSET UNITYSDK_OFFSET(0x12BD4BA0)
-#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x12BD4940)
-#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_LOADACBDATAASYNC_OFFSET UNITYSDK_OFFSET(0x12BD4870)
-#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_LOADACBFILEASYNC_OFFSET UNITYSDK_OFFSET(0x12BD46F0)
-#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_MOVEACBHANDLE_OFFSET UNITYSDK_OFFSET(0x12BD49C0)
-#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_WAITFORCOMPLETION_OFFSET UNITYSDK_OFFSET(0x12BD4D20)
-#define CRIWARE_CRIATOMEXACBLOADER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x12BD4A40)
-#define CRIWARE_CRIATOMEXACBLOADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12BC76C0)
-#define CRIWARE_CRIATOMEXACBLOADER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x12BD4C20)
-#define CRIWARE_CRIATOMEXACBLOADER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x12BC74C0)
-#define CRIWARE_CRIATOMEXACBLOADER_LOADACBDATAASYNC_OFFSET UNITYSDK_OFFSET(0x12BC7150)
-#define CRIWARE_CRIATOMEXACBLOADER_LOADACBFILEASYNC_OFFSET UNITYSDK_OFFSET(0x12BC7BE0)
-#define CRIWARE_CRIATOMEXACBLOADER_MOVEACB_OFFSET UNITYSDK_OFFSET(0x12BC7540)
-#define CRIWARE_CRIATOMEXACBLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x12BD47D0)
+#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_CREATE_OFFSET UNITYSDK_OFFSET(0x14691940)
+#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_DESTROY_OFFSET UNITYSDK_OFFSET(0x14691E80)
+#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x14691C20)
+#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_LOADACBDATAASYNC_OFFSET UNITYSDK_OFFSET(0x14691B50)
+#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_LOADACBFILEASYNC_OFFSET UNITYSDK_OFFSET(0x146919D0)
+#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_MOVEACBHANDLE_OFFSET UNITYSDK_OFFSET(0x14691CA0)
+#define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_WAITFORCOMPLETION_OFFSET UNITYSDK_OFFSET(0x14692000)
+#define CRIWARE_CRIATOMEXACBLOADER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x14691D20)
+#define CRIWARE_CRIATOMEXACBLOADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14684300)
+#define CRIWARE_CRIATOMEXACBLOADER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x14691F00)
+#define CRIWARE_CRIATOMEXACBLOADER_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x14684100)
+#define CRIWARE_CRIATOMEXACBLOADER_LOADACBDATAASYNC_OFFSET UNITYSDK_OFFSET(0x14683D90)
+#define CRIWARE_CRIATOMEXACBLOADER_LOADACBFILEASYNC_OFFSET UNITYSDK_OFFSET(0x14684910)
+#define CRIWARE_CRIATOMEXACBLOADER_MOVEACB_OFFSET UNITYSDK_OFFSET(0x14684180)
+#define CRIWARE_CRIATOMEXACBLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x14691AB0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcbLoader_TypeDefinitionIndex = 36765;
+	inline static constexpr unsigned int CriAtomExAcbLoader_TypeDefinitionIndex = 37065;
 
 	class CriAtomExAcbLoader : public ::CriWare::CriDisposable
 	{
 	public:
-		::System::IntPtr handle; // 0x20
-		::System::Nullable_1<::System::Runtime::InteropServices::GCHandle> gch; // 0x28
+		::System::Nullable_1<::System::Runtime::InteropServices::GCHandle> gch; // 0x20
+		::System::IntPtr handle; // 0x28
 
-		::System::Void _ctor(::System::IntPtr handle, ::System::Nullable_1<::System::Runtime::InteropServices::GCHandle> dataHandle)
+		::System::Void _ctor(::System::IntPtr a1, ::System::Nullable_1<::System::Runtime::InteropServices::GCHandle> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Nullable_1<::System::Runtime::InteropServices::GCHandle>))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER__CTOR_OFFSET))(this, handle, dataHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Nullable_1<::System::Runtime::InteropServices::GCHandle>))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		static ::CriWare::CriAtomExAcbLoader* LoadAcbFileAsync(::CriWare::CriFsBinder* binder, ::System::String* acbPath, ::System::String* awbPath, ::System::Boolean loadAwbOnMemory)
+		static ::CriWare::CriAtomExAcbLoader* LoadAcbFileAsync(::CriWare::CriFsBinder* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4)
 		{
-			return ((::CriWare::CriAtomExAcbLoader*(*)(::CriWare::CriFsBinder*, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_LOADACBFILEASYNC_OFFSET))(binder, acbPath, awbPath, loadAwbOnMemory);
+			return ((::CriWare::CriAtomExAcbLoader*(*)(::CriWare::CriFsBinder*, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_LOADACBFILEASYNC_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::CriWare::CriAtomExAcbLoader* LoadAcbDataAsync(::Il2CppArray<::System::Byte>* acbData, ::CriWare::CriFsBinder* awbBinder, ::System::String* awbPath, ::System::Boolean loadAwbOnMemory)
+		static ::CriWare::CriAtomExAcbLoader* LoadAcbDataAsync(::Il2CppArray<::System::Byte>* a1, ::CriWare::CriFsBinder* a2, ::System::String* a3, ::System::Boolean a4)
 		{
-			return ((::CriWare::CriAtomExAcbLoader*(*)(::Il2CppArray<::System::Byte>*, ::CriWare::CriFsBinder*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_LOADACBDATAASYNC_OFFSET))(acbData, awbBinder, awbPath, loadAwbOnMemory);
+			return ((::CriWare::CriAtomExAcbLoader*(*)(::Il2CppArray<::System::Byte>*, ::CriWare::CriFsBinder*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_LOADACBDATAASYNC_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::CriWare::CriAtomExAcbLoader_Status GetStatus()
@@ -66,9 +66,9 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposing)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_DISPOSE_1_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_DISPOSE_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()
@@ -76,39 +76,39 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_FINALIZE_OFFSET))(this);
 		}
 
-		static ::System::IntPtr criAtomExAcbLoader_Create(::CriWare::CriAtomExAcbLoader_LoaderConfig& config)
+		static ::System::IntPtr criAtomExAcbLoader_Create(::CriWare::CriAtomExAcbLoader_LoaderConfig& a1)
 		{
-			return ((::System::IntPtr(*)(::CriWare::CriAtomExAcbLoader_LoaderConfig&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_CREATE_OFFSET))(config);
+			return ((::System::IntPtr(*)(::CriWare::CriAtomExAcbLoader_LoaderConfig&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_CREATE_OFFSET))(a1);
 		}
 
-		static ::System::Void criAtomExAcbLoader_Destroy(::System::IntPtr acb_loader)
+		static ::System::Void criAtomExAcbLoader_Destroy(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_DESTROY_OFFSET))(acb_loader);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_DESTROY_OFFSET))(a1);
 		}
 
-		static ::System::Boolean criAtomExAcbLoader_LoadAcbFileAsync(::System::IntPtr acb_loader, ::System::IntPtr acb_binder, ::System::String* acb_path, ::System::IntPtr awb_binder, ::System::String* awb_path)
+		static ::System::Boolean criAtomExAcbLoader_LoadAcbFileAsync(::System::IntPtr a1, ::System::IntPtr a2, ::System::String* a3, ::System::IntPtr a4, ::System::String* a5)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::IntPtr, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_LOADACBFILEASYNC_OFFSET))(acb_loader, acb_binder, acb_path, awb_binder, awb_path);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::IntPtr, ::System::String*, ::System::IntPtr, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_LOADACBFILEASYNC_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean criAtomExAcbLoader_LoadAcbDataAsync(::System::IntPtr acb_loader, ::System::IntPtr acb_data, ::System::Int32 acb_size, ::System::IntPtr awb_binder, ::System::String* awb_path)
+		static ::System::Boolean criAtomExAcbLoader_LoadAcbDataAsync(::System::IntPtr a1, ::System::IntPtr a2, ::System::Int32 a3, ::System::IntPtr a4, ::System::String* a5)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr, ::System::IntPtr, ::System::Int32, ::System::IntPtr, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_LOADACBDATAASYNC_OFFSET))(acb_loader, acb_data, acb_size, awb_binder, awb_path);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::IntPtr, ::System::Int32, ::System::IntPtr, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_LOADACBDATAASYNC_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::CriWare::CriAtomExAcbLoader_Status criAtomExAcbLoader_GetStatus(::System::IntPtr acb_loader)
+		static ::CriWare::CriAtomExAcbLoader_Status criAtomExAcbLoader_GetStatus(::System::IntPtr a1)
 		{
-			return ((::CriWare::CriAtomExAcbLoader_Status(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_GETSTATUS_OFFSET))(acb_loader);
+			return ((::CriWare::CriAtomExAcbLoader_Status(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_GETSTATUS_OFFSET))(a1);
 		}
 
-		static ::System::Boolean criAtomExAcbLoader_WaitForCompletion(::System::IntPtr acb_loader)
+		static ::System::Boolean criAtomExAcbLoader_WaitForCompletion(::System::IntPtr a1)
 		{
-			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_WAITFORCOMPLETION_OFFSET))(acb_loader);
+			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_WAITFORCOMPLETION_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr criAtomExAcbLoader_MoveAcbHandle(::System::IntPtr acb_loader)
+		static ::System::IntPtr criAtomExAcbLoader_MoveAcbHandle(::System::IntPtr a1)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_MOVEACBHANDLE_OFFSET))(acb_loader);
+			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_MOVEACBHANDLE_OFFSET))(a1);
 		}
 	};
 }

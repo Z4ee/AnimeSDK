@@ -7,17 +7,17 @@ class Class_2_A8371512CE517879;
 namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0x1287CF70)
-#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET UNITYSDK_OFFSET(0x1287D010)
-#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1287C010)
+#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0xA7837B0)
+#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET UNITYSDK_OFFSET(0xA783850)
+#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA7827E0)
 
-inline static constexpr unsigned int Class_2_A8371512CE517879___c__DisplayClass7_0_TypeDefinitionIndex = 70224;
+inline static constexpr unsigned int Class_2_A8371512CE517879___c__DisplayClass7_0_TypeDefinitionIndex = 71036;
 
 class Class_2_A8371512CE517879___c__DisplayClass7_0 : public ::System::Object
 {
 public:
-	::Class_2_A8371512CE517879* __4__this; // 0x10
-	::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x18
+	::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x10
+	::Class_2_A8371512CE517879* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -29,8 +29,8 @@ public:
 		return ((::RPG::Client::Promises::IPromise_1<::Class_1_8F58629771D14EB4*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET))(this);
 	}
 
-	::System::Void _ConfirmLoan_b__1(::Class_1_8F58629771D14EB4* loanServerSyncData)
+	::System::Void _ConfirmLoan_b__1(::Class_1_8F58629771D14EB4* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_8F58629771D14EB4*))((::PBYTE)hIl2Cpp + CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET))(this, loanServerSyncData);
+		return ((::System::Void(*)(::PVOID, ::Class_1_8F58629771D14EB4*))((::PBYTE)hIl2Cpp + CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET))(this, a1);
 	}
 };

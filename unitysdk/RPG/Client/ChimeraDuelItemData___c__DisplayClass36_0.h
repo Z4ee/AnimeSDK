@@ -5,12 +5,12 @@
 namespace RPG::Client { class IChimeraDuelSkillData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_CHIMERADUELITEMDATA___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA017740)
-#define RPG_CLIENT_CHIMERADUELITEMDATA___C__DISPLAYCLASS36_0___TRYGETFIRSTSKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA017AB0)
+#define RPG_CLIENT_CHIMERADUELITEMDATA___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB694BA0)
+#define RPG_CLIENT_CHIMERADUELITEMDATA___C__DISPLAYCLASS36_0___TRYGETFIRSTSKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB694F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelItemData___c__DisplayClass36_0_TypeDefinitionIndex = 58374;
+	inline static constexpr unsigned int ChimeraDuelItemData___c__DisplayClass36_0_TypeDefinitionIndex = 59304;
 
 	class ChimeraDuelItemData___c__DisplayClass36_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELITEMDATA___C__DISPLAYCLASS36_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __TryGetFirstSkillData_b__0(::RPG::Client::IChimeraDuelSkillData* skillData)
+		::System::Boolean __TryGetFirstSkillData_b__0(::RPG::Client::IChimeraDuelSkillData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IChimeraDuelSkillData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELITEMDATA___C__DISPLAYCLASS36_0___TRYGETFIRSTSKILLDATA_B__0_OFFSET))(this, skillData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IChimeraDuelSkillData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELITEMDATA___C__DISPLAYCLASS36_0___TRYGETFIRSTSKILLDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

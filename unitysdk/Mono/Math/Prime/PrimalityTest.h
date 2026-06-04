@@ -8,10 +8,10 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_MATH_PRIME_PRIMALITYTEST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x177625E0)
-#define MONO_MATH_PRIME_PRIMALITYTEST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17762660)
-#define MONO_MATH_PRIME_PRIMALITYTEST_INVOKE_OFFSET UNITYSDK_OFFSET(0x17762070)
-#define MONO_MATH_PRIME_PRIMALITYTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x177619A0)
+#define MONO_MATH_PRIME_PRIMALITYTEST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1851E620)
+#define MONO_MATH_PRIME_PRIMALITYTEST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1851E6A0)
+#define MONO_MATH_PRIME_PRIMALITYTEST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1851E510)
+#define MONO_MATH_PRIME_PRIMALITYTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1851E530)
 
 namespace Mono::Math::Prime
 {
@@ -20,24 +20,24 @@ namespace Mono::Math::Prime
 	class PrimalityTest : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTEST__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTEST__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence)
+		::System::Boolean Invoke(::Mono::Math::BigInteger* a1, ::Mono::Math::Prime::ConfidenceFactor a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTEST_INVOKE_OFFSET))(this, bi, confidence);
+			return ((::System::Boolean(*)(::PVOID, ::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTEST_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Mono::Math::BigInteger* a1, ::Mono::Math::Prime::ConfidenceFactor a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTEST_BEGININVOKE_OFFSET))(this, bi, confidence, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTEST_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTEST_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTEST_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

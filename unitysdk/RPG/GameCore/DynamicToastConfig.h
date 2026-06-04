@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DYNAMICTOASTCONFIG_METHOD_2_125697B156F1C21A_OFFSET UNITYSDK_OFFSET(0x18892B20)
-#define RPG_GAMECORE_DYNAMICTOASTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18892C90)
+#define RPG_GAMECORE_DYNAMICTOASTCONFIG_METHOD_2_125697B156F1C21A_OFFSET UNITYSDK_OFFSET(0x196CF5F0)
+#define RPG_GAMECORE_DYNAMICTOASTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196CF760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicToastConfig_TypeDefinitionIndex = 22833;
+	inline static constexpr unsigned int DynamicToastConfig_TypeDefinitionIndex = 22534;
 
 	class DynamicToastConfig : public ::RPG::GameCore::JsonConfig
 	{

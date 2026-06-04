@@ -7,25 +7,25 @@
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::UI::CoroutineTween { class ColorTween_ColorTweenCallback; }
 
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_ADDONCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x22FB5E0)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GETDURATION_OFFSET UNITYSDK_OFFSET(0x22B72A0)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GETIGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x22DDD70)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x22B72A0)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x22DDD70)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_STARTCOLOR_OFFSET UNITYSDK_OFFSET(0x164DBE0)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_TARGETCOLOR_OFFSET UNITYSDK_OFFSET(0x1652700)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_TWEENMODE_OFFSET UNITYSDK_OFFSET(0x104B0)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_DURATION_OFFSET UNITYSDK_OFFSET(0x22DDD60)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x22DDD80)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_STARTCOLOR_OFFSET UNITYSDK_OFFSET(0x22B0750)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_TARGETCOLOR_OFFSET UNITYSDK_OFFSET(0x22DDD50)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_TWEENMODE_OFFSET UNITYSDK_OFFSET(0xBA10)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_TWEENVALUE_OFFSET UNITYSDK_OFFSET(0x22DDD90)
-#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_VALIDTARGET_OFFSET UNITYSDK_OFFSET(0x313F0)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_ADDONCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x389B8E0)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GETDURATION_OFFSET UNITYSDK_OFFSET(0x3846CA0)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GETIGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x3879FA0)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x3846CA0)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x3879FA0)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_STARTCOLOR_OFFSET UNITYSDK_OFFSET(0x2BF6370)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_TARGETCOLOR_OFFSET UNITYSDK_OFFSET(0x2CDA500)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_TWEENMODE_OFFSET UNITYSDK_OFFSET(0x112A0)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_DURATION_OFFSET UNITYSDK_OFFSET(0x3879F90)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_IGNORETIMESCALE_OFFSET UNITYSDK_OFFSET(0x3879FB0)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_STARTCOLOR_OFFSET UNITYSDK_OFFSET(0x3842610)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_TARGETCOLOR_OFFSET UNITYSDK_OFFSET(0x3879F80)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_TWEENMODE_OFFSET UNITYSDK_OFFSET(0xC270)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_TWEENVALUE_OFFSET UNITYSDK_OFFSET(0x3879FC0)
+#define UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_VALIDTARGET_OFFSET UNITYSDK_OFFSET(0x2FB60)
 
 namespace UnityEngine::UI::CoroutineTween
 {
-	inline static constexpr unsigned int ColorTween_TypeDefinitionIndex = 5775;
+	inline static constexpr unsigned int ColorTween_TypeDefinitionIndex = 6052;
 
 	struct alignas(8) ColorTween
 	{
@@ -41,9 +41,9 @@ namespace UnityEngine::UI::CoroutineTween
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_STARTCOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_startColor(::UnityEngine::Color value)
+		::System::Void set_startColor(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_STARTCOLOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_STARTCOLOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Color get_targetColor()
@@ -51,9 +51,9 @@ namespace UnityEngine::UI::CoroutineTween
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_TARGETCOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_targetColor(::UnityEngine::Color value)
+		::System::Void set_targetColor(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_TARGETCOLOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_TARGETCOLOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode get_tweenMode()
@@ -61,9 +61,9 @@ namespace UnityEngine::UI::CoroutineTween
 			return ((::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_TWEENMODE_OFFSET))(this);
 		}
 
-		::System::Void set_tweenMode(::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode value)
+		::System::Void set_tweenMode(::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_TWEENMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_TWEENMODE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_duration()
@@ -71,9 +71,9 @@ namespace UnityEngine::UI::CoroutineTween
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_DURATION_OFFSET))(this);
 		}
 
-		::System::Void set_duration(::System::Single value)
+		::System::Void set_duration(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_DURATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_DURATION_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_ignoreTimeScale()
@@ -81,19 +81,19 @@ namespace UnityEngine::UI::CoroutineTween
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_GET_IGNORETIMESCALE_OFFSET))(this);
 		}
 
-		::System::Void set_ignoreTimeScale(::System::Boolean value)
+		::System::Void set_ignoreTimeScale(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_IGNORETIMESCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_SET_IGNORETIMESCALE_OFFSET))(this, a1);
 		}
 
-		::System::Void TweenValue(::System::Single floatPercentage)
+		::System::Void TweenValue(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_TWEENVALUE_OFFSET))(this, floatPercentage);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_TWEENVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>* callback)
+		::System::Void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_ADDONCHANGEDCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_COLORTWEEN_ADDONCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean GetIgnoreTimescale()

@@ -8,12 +8,12 @@ namespace RPG::GameCore { class LevelRegionConnectivity; }
 namespace RPG::GameCore { class LevelRegionStateConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LEVELREGIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A594B0)
-#define RPG_GAMECORE_LEVELREGIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A59640)
+#define RPG_GAMECORE_LEVELREGIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19889E90)
+#define RPG_GAMECORE_LEVELREGIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1988A010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRegionInfo_TypeDefinitionIndex = 16500;
+	inline static constexpr unsigned int LevelRegionInfo_TypeDefinitionIndex = 16531;
 
 	class LevelRegionInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelRegionInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelRegionInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_D3ACE0DDA55D6A06_METHOD_1_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0xB7DF990)
-#define CLASS_1_D3ACE0DDA55D6A06_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB7DFA50)
-#define CLASS_1_D3ACE0DDA55D6A06__CTOR_OFFSET UNITYSDK_OFFSET(0xB7DF910)
-#define CLASS_1_D3ACE0DDA55D6A06___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB7DFDB0)
+#define CLASS_1_D3ACE0DDA55D6A06_METHOD_1_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0x141F7050)
+#define CLASS_1_D3ACE0DDA55D6A06_TOSTRING_OFFSET UNITYSDK_OFFSET(0x141F7110)
+#define CLASS_1_D3ACE0DDA55D6A06__CTOR_OFFSET UNITYSDK_OFFSET(0x141F6FD0)
+#define CLASS_1_D3ACE0DDA55D6A06___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x141F7420)
 
-inline static constexpr unsigned int Class_1_D3ACE0DDA55D6A06_TypeDefinitionIndex = 64698;
+inline static constexpr unsigned int Class_1_D3ACE0DDA55D6A06_TypeDefinitionIndex = 65619;
 
 class Class_1_D3ACE0DDA55D6A06 : public ::System::Object
 {
 public:
-	::UnityEngine::Renderer* Field_1_0; // 0x10
-	::UnityEngine::MaterialPropertyBlock* Field_1_4; // 0x18
-	::System::Single Field_1_2; // 0x20
-	::System::Int32 Field_1_1; // 0x24
-	::System::Single Field_1_3; // 0x28
+	::UnityEngine::MaterialPropertyBlock* Field_1_0; // 0x10
+	::UnityEngine::Renderer* Field_1_1; // 0x18
+	::System::Int32 Field_1_2; // 0x20
+	::System::Single Field_1_3; // 0x24
+	::System::Single Field_1_4; // 0x28
 
 	::System::Void _ctor(::UnityEngine::Renderer* a1, ::System::String* a2, ::System::Single a3)
 	{

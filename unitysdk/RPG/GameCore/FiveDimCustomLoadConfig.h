@@ -10,13 +10,13 @@ namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace RPG::GameCore { class FiveDimLevelVarCondition; }
 namespace RPG::GameCore { class FiveDimSubMissionCondition; }
 
-#define RPG_GAMECORE_FIVEDIMCUSTOMLOADCONFIG_METHOD_3_2BEDDC9746FD8EB9_OFFSET UNITYSDK_OFFSET(0x188FBB50)
-#define RPG_GAMECORE_FIVEDIMCUSTOMLOADCONFIG_METHOD_3_8B2E1B5245FB7E31_OFFSET UNITYSDK_OFFSET(0x188FBC10)
-#define RPG_GAMECORE_FIVEDIMCUSTOMLOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188FBBC0)
+#define RPG_GAMECORE_FIVEDIMCUSTOMLOADCONFIG_METHOD_3_017A381125033987_OFFSET UNITYSDK_OFFSET(0x197372F0)
+#define RPG_GAMECORE_FIVEDIMCUSTOMLOADCONFIG_METHOD_3_2EBDC5072485975B_OFFSET UNITYSDK_OFFSET(0x19737230)
+#define RPG_GAMECORE_FIVEDIMCUSTOMLOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197372A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCustomLoadConfig_TypeDefinitionIndex = 17675;
+	inline static constexpr unsigned int FiveDimCustomLoadConfig_TypeDefinitionIndex = 17703;
 
 	class FiveDimCustomLoadConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -39,14 +39,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCUSTOMLOADCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2BEDDC9746FD8EB9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCustomLoadConfig*& a2)
+		static ::System::Void Method_3_2EBDC5072485975B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCustomLoadConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCustomLoadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCUSTOMLOADCONFIG_METHOD_3_2BEDDC9746FD8EB9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCustomLoadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCUSTOMLOADCONFIG_METHOD_3_2EBDC5072485975B_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8B2E1B5245FB7E31(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCustomLoadConfig* a2)
+		static ::System::Void Method_3_017A381125033987(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCustomLoadConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCustomLoadConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCUSTOMLOADCONFIG_METHOD_3_8B2E1B5245FB7E31_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCustomLoadConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCUSTOMLOADCONFIG_METHOD_3_017A381125033987_OFFSET))(a1, a2);
 		}
 	};
 }

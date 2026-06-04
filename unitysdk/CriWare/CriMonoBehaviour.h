@@ -3,15 +3,15 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CRIWARE_CRIMONOBEHAVIOUR_GET_GUID_OFFSET UNITYSDK_OFFSET(0x12C21160)
-#define CRIWARE_CRIMONOBEHAVIOUR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12C1E4B0)
-#define CRIWARE_CRIMONOBEHAVIOUR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12C1BA40)
-#define CRIWARE_CRIMONOBEHAVIOUR_SET_GUID_OFFSET UNITYSDK_OFFSET(0x12C21170)
-#define CRIWARE_CRIMONOBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x12C1C190)
+#define CRIWARE_CRIMONOBEHAVIOUR_GET_GUID_OFFSET UNITYSDK_OFFSET(0x146DA2C0)
+#define CRIWARE_CRIMONOBEHAVIOUR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x146D7B40)
+#define CRIWARE_CRIMONOBEHAVIOUR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x146D5190)
+#define CRIWARE_CRIMONOBEHAVIOUR_SET_GUID_OFFSET UNITYSDK_OFFSET(0x146DA2D0)
+#define CRIWARE_CRIMONOBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x146D57E0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriMonoBehaviour_TypeDefinitionIndex = 36937;
+	inline static constexpr unsigned int CriMonoBehaviour_TypeDefinitionIndex = 37237;
 
 	class CriMonoBehaviour : public ::UnityEngine::MonoBehaviour
 	{
@@ -28,9 +28,9 @@ namespace CriWare
 			return ((::System::Guid(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMONOBEHAVIOUR_GET_GUID_OFFSET))(this);
 		}
 
-		::System::Void set_guid(::System::Guid value)
+		::System::Void set_guid(::System::Guid a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + CRIWARE_CRIMONOBEHAVIOUR_SET_GUID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + CRIWARE_CRIMONOBEHAVIOUR_SET_GUID_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()

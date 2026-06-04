@@ -7,33 +7,33 @@ namespace Hdg { class rdtSerializerRegistry; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERCOLOR_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x8C22740)
-#define HDG_RDTSERIALIZERCOLOR_READ_OFFSET UNITYSDK_OFFSET(0x8C227F0)
-#define HDG_RDTSERIALIZERCOLOR_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0x8C22730)
-#define HDG_RDTSERIALIZERCOLOR_WRITE_OFFSET UNITYSDK_OFFSET(0x8C22770)
-#define HDG_RDTSERIALIZERCOLOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8C22700)
-#define HDG_RDTSERIALIZERCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x8C226F0)
+#define HDG_RDTSERIALIZERCOLOR_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xA12A1D0)
+#define HDG_RDTSERIALIZERCOLOR_READ_OFFSET UNITYSDK_OFFSET(0xA12A280)
+#define HDG_RDTSERIALIZERCOLOR_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0xA12A1C0)
+#define HDG_RDTSERIALIZERCOLOR_WRITE_OFFSET UNITYSDK_OFFSET(0xA12A200)
+#define HDG_RDTSERIALIZERCOLOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA12A190)
+#define HDG_RDTSERIALIZERCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA12A180)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerColor_TypeDefinitionIndex = 43767;
+	inline static constexpr unsigned int rdtSerializerColor_TypeDefinitionIndex = 44309;
 
 	class rdtSerializerColor : public ::System::Object
 	{
 	public:
-		::System::Single r; // 0x10
+		::System::Single a; // 0x10
 		::System::Single b; // 0x14
 		::System::Single g; // 0x18
-		::System::Single a; // 0x1C
+		::System::Single r; // 0x1C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCOLOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::Color c)
+		::System::Void _ctor_1(::UnityEngine::Color a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCOLOR__CTOR_1_OFFSET))(this, c);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCOLOR__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Color ToUnityType()
@@ -41,19 +41,19 @@ namespace Hdg
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCOLOR_TOUNITYTYPE_OFFSET))(this);
 		}
 
-		::System::Object* Deserialize(::Hdg::rdtSerializerRegistry* registry)
+		::System::Object* Deserialize(::Hdg::rdtSerializerRegistry* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCOLOR_DESERIALIZE_OFFSET))(this, registry);
+			return ((::System::Object*(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCOLOR_DESERIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void Write(::System::IO::BinaryWriter* w)
+		::System::Void Write(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCOLOR_WRITE_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCOLOR_WRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void Read(::System::IO::BinaryReader* br)
+		::System::Void Read(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCOLOR_READ_OFFSET))(this, br);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCOLOR_READ_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class RectTransform; }
 
-#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A470190)
-#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A4701C0)
-#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A46F8D0)
-#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A470170)
+#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B2BF530)
+#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B2BF560)
+#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B2BF170)
+#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2BF4C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RectTransform_ReapplyDrivenProperties_TypeDefinitionIndex = 4214;
+	inline static constexpr unsigned int RectTransform_ReapplyDrivenProperties_TypeDefinitionIndex = 4388;
 
 	class RectTransform_ReapplyDrivenProperties : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::RectTransform* driven)
+		::System::Void Invoke(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_INVOKE_OFFSET))(this, driven);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::RectTransform* driven, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::RectTransform* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::RectTransform*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_BEGININVOKE_OFFSET))(this, driven, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::RectTransform*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

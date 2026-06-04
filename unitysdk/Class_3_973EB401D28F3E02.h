@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddReShaEasterEggMatchRule; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_973EB401D28F3E02_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9341F50)
-#define CLASS_3_973EB401D28F3E02__CTOR_OFFSET UNITYSDK_OFFSET(0x9341F20)
+#define CLASS_3_973EB401D28F3E02_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA4C16A0)
+#define CLASS_3_973EB401D28F3E02__CTOR_OFFSET UNITYSDK_OFFSET(0xA4C1670)
 
-inline static constexpr unsigned int Class_3_973EB401D28F3E02_TypeDefinitionIndex = 48300;
+inline static constexpr unsigned int Class_3_973EB401D28F3E02_TypeDefinitionIndex = 48926;
 
 class Class_3_973EB401D28F3E02 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddReShaEasterEggMatchRule*>
 {

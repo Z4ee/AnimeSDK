@@ -3,7 +3,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaGCOptions_TypeDefinitionIndex = 46439;
+	inline static constexpr unsigned int LuaGCOptions_TypeDefinitionIndex = 47029;
 
 	enum class LuaGCOptions : ::System::Int32
 	{

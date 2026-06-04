@@ -7,25 +7,25 @@ namespace UnityEngine { class ISubsystemDescriptor; }
 namespace UnityEngine { class ISubsystemDescriptorImpl; }
 namespace UnityEngine { class SubsystemDescriptor; }
 
-#define UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS_INTERNAL_ADDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A4F3CE0)
-#define UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS_INTERNAL_CLEARMANAGEDDESCRIPTORS_OFFSET UNITYSDK_OFFSET(0x1A4F4000)
-#define UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS_INTERNAL_INITIALIZEMANAGEDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A4F3ED0)
-#define UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4F4240)
+#define UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS_INTERNAL_ADDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B340B60)
+#define UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS_INTERNAL_CLEARMANAGEDDESCRIPTORS_OFFSET UNITYSDK_OFFSET(0x1B340F00)
+#define UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS_INTERNAL_INITIALIZEMANAGEDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B340D80)
+#define UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B341160)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Internal_SubsystemDescriptors_TypeDefinitionIndex = 5529;
+	inline static constexpr unsigned int Internal_SubsystemDescriptors_TypeDefinitionIndex = 5806;
 
 	class Internal_SubsystemDescriptors : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptor*>** StaticGet_s_StandaloneSubsystemDescriptors()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptor*>**)Il2CppClass::FromTypeDefinitionIndex(Internal_SubsystemDescriptors_TypeDefinitionIndex)->GetStaticField(0x410);
-		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptorImpl*>** StaticGet_s_IntegratedSubsystemDescriptors()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptorImpl*>**)Il2CppClass::FromTypeDefinitionIndex(Internal_SubsystemDescriptors_TypeDefinitionIndex)->GetStaticField(0x418);
+			return (::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptorImpl*>**)Il2CppClass::FromTypeDefinitionIndex(Internal_SubsystemDescriptors_TypeDefinitionIndex)->GetStaticField(0x440);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptor*>** StaticGet_s_StandaloneSubsystemDescriptors()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptor*>**)Il2CppClass::FromTypeDefinitionIndex(Internal_SubsystemDescriptors_TypeDefinitionIndex)->GetStaticField(0x448);
 		}
 
 		static ::System::Void _cctor()
@@ -33,14 +33,14 @@ namespace UnityEngine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS__CCTOR_OFFSET))();
 		}
 
-		static ::System::Boolean Internal_AddDescriptor(::UnityEngine::SubsystemDescriptor* descriptor)
+		static ::System::Boolean Internal_AddDescriptor(::UnityEngine::SubsystemDescriptor* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::SubsystemDescriptor*))((::PBYTE)hIl2Cpp + UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS_INTERNAL_ADDDESCRIPTOR_OFFSET))(descriptor);
+			return ((::System::Boolean(*)(::UnityEngine::SubsystemDescriptor*))((::PBYTE)hIl2Cpp + UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS_INTERNAL_ADDDESCRIPTOR_OFFSET))(a1);
 		}
 
-		static ::System::Void Internal_InitializeManagedDescriptor(::System::IntPtr ptr, ::UnityEngine::ISubsystemDescriptorImpl* desc)
+		static ::System::Void Internal_InitializeManagedDescriptor(::System::IntPtr a1, ::UnityEngine::ISubsystemDescriptorImpl* a2)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::UnityEngine::ISubsystemDescriptorImpl*))((::PBYTE)hIl2Cpp + UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS_INTERNAL_INITIALIZEMANAGEDDESCRIPTOR_OFFSET))(ptr, desc);
+			return ((::System::Void(*)(::System::IntPtr, ::UnityEngine::ISubsystemDescriptorImpl*))((::PBYTE)hIl2Cpp + UNITYENGINE_INTERNAL_SUBSYSTEMDESCRIPTORS_INTERNAL_INITIALIZEMANAGEDDESCRIPTOR_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Internal_ClearManagedDescriptors()

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SORTTARGETS_METHOD_3_0C365BA265955B3C_OFFSET UNITYSDK_OFFSET(0x18E74810)
-#define RPG_GAMECORE_SORTTARGETS_METHOD_3_13A70F58EACBD537_OFFSET UNITYSDK_OFFSET(0x18E746F0)
-#define RPG_GAMECORE_SORTTARGETS__CTOR_OFFSET UNITYSDK_OFFSET(0x18E74790)
+#define RPG_GAMECORE_SORTTARGETS_METHOD_3_62299A528350F73A_OFFSET UNITYSDK_OFFSET(0x19C903A0)
+#define RPG_GAMECORE_SORTTARGETS_METHOD_3_C2E746C5414F7E12_OFFSET UNITYSDK_OFFSET(0x19C904C0)
+#define RPG_GAMECORE_SORTTARGETS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C90440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SortTargets_TypeDefinitionIndex = 22084;
+	inline static constexpr unsigned int SortTargets_TypeDefinitionIndex = 21884;
 
 	class SortTargets : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,14 +33,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SORTTARGETS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_13A70F58EACBD537(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SortTargets*& a2)
+		static ::System::Void Method_3_62299A528350F73A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SortTargets*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SortTargets*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SORTTARGETS_METHOD_3_13A70F58EACBD537_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SortTargets*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SORTTARGETS_METHOD_3_62299A528350F73A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0C365BA265955B3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SortTargets* a2)
+		static ::System::Void Method_3_C2E746C5414F7E12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SortTargets* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SortTargets*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SORTTARGETS_METHOD_3_0C365BA265955B3C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SortTargets*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SORTTARGETS_METHOD_3_C2E746C5414F7E12_OFFSET))(a1, a2);
 		}
 	};
 }

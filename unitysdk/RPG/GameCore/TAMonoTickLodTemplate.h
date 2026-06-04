@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LodDetail; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TAMONOTICKLODTEMPLATE_METHOD_2_B7F1EEFF4A99CD3A_OFFSET UNITYSDK_OFFSET(0x18ECCBB0)
-#define RPG_GAMECORE_TAMONOTICKLODTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18ECCD20)
+#define RPG_GAMECORE_TAMONOTICKLODTEMPLATE_METHOD_2_B7F1EEFF4A99CD3A_OFFSET UNITYSDK_OFFSET(0x19CEC390)
+#define RPG_GAMECORE_TAMONOTICKLODTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CEC4F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TAMonoTickLodTemplate_TypeDefinitionIndex = 18240;
+	inline static constexpr unsigned int TAMonoTickLodTemplate_TypeDefinitionIndex = 18215;
 
 	class TAMonoTickLodTemplate : public ::RPG::GameCore::JsonConfig
 	{

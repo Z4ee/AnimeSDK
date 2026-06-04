@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int AntiCheatCommonClientPlatform_TypeDefinitionIndex = 42461;
+	inline static constexpr unsigned int AntiCheatCommonClientPlatform_TypeDefinitionIndex = 43264;
 
 	enum class AntiCheatCommonClientPlatform : ::System::Int32
 	{

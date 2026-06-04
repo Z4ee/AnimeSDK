@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_CONNECT_UNLINKACCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E62980)
-#define EPIC_ONLINESERVICES_CONNECT_UNLINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E62990)
-#define EPIC_ONLINESERVICES_CONNECT_UNLINKACCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E629A0)
+#define EPIC_ONLINESERVICES_CONNECT_UNLINKACCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2A7360)
+#define EPIC_ONLINESERVICES_CONNECT_UNLINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2A7370)
+#define EPIC_ONLINESERVICES_CONNECT_UNLINKACCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2A7380)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int UnlinkAccountOptions_TypeDefinitionIndex = 42344;
+	inline static constexpr unsigned int UnlinkAccountOptions_TypeDefinitionIndex = 43147;
 
 	class UnlinkAccountOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_UNLINKACCOUNTOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_UNLINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_UNLINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

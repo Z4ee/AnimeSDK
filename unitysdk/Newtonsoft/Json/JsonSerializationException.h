@@ -9,17 +9,17 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_1_OFFSET UNITYSDK_OFFSET(0x17A5C0F0)
-#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_2_OFFSET UNITYSDK_OFFSET(0x17A700C0)
-#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_OFFSET UNITYSDK_OFFSET(0x17A58840)
-#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A58490)
-#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17A70000)
-#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x17A70070)
-#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17A6FFA0)
+#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1880ADD0)
+#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1881F570)
+#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_OFFSET UNITYSDK_OFFSET(0x188076D0)
+#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18807320)
+#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1881F4B0)
+#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1881F520)
+#define NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1881F450)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonSerializationException_TypeDefinitionIndex = 8367;
+	inline static constexpr unsigned int JsonSerializationException_TypeDefinitionIndex = 9270;
 
 	class JsonSerializationException : public ::Newtonsoft::Json::JsonException
 	{
@@ -29,34 +29,34 @@ namespace Newtonsoft::Json
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* message, ::System::Exception* innerException)
+		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_2_OFFSET))(this, message, innerException);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_3_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 
-		static ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::JsonReader* reader, ::System::String* message)
+		static ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::JsonReader* a1, ::System::String* a2)
 		{
-			return ((::Newtonsoft::Json::JsonSerializationException*(*)(::Newtonsoft::Json::JsonReader*, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_OFFSET))(reader, message);
+			return ((::Newtonsoft::Json::JsonSerializationException*(*)(::Newtonsoft::Json::JsonReader*, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_OFFSET))(a1, a2);
 		}
 
-		static ::Newtonsoft::Json::JsonSerializationException* Create_1(::Newtonsoft::Json::JsonReader* reader, ::System::String* message, ::System::Exception* ex)
+		static ::Newtonsoft::Json::JsonSerializationException* Create_1(::Newtonsoft::Json::JsonReader* a1, ::System::String* a2, ::System::Exception* a3)
 		{
-			return ((::Newtonsoft::Json::JsonSerializationException*(*)(::Newtonsoft::Json::JsonReader*, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_1_OFFSET))(reader, message, ex);
+			return ((::Newtonsoft::Json::JsonSerializationException*(*)(::Newtonsoft::Json::JsonReader*, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Newtonsoft::Json::JsonSerializationException* Create_2(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::System::String* path, ::System::String* message, ::System::Exception* ex)
+		static ::Newtonsoft::Json::JsonSerializationException* Create_2(::Newtonsoft::Json::IJsonLineInfo* a1, ::System::String* a2, ::System::String* a3, ::System::Exception* a4)
 		{
-			return ((::Newtonsoft::Json::JsonSerializationException*(*)(::Newtonsoft::Json::IJsonLineInfo*, ::System::String*, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_2_OFFSET))(lineInfo, path, message, ex);
+			return ((::Newtonsoft::Json::JsonSerializationException*(*)(::Newtonsoft::Json::IJsonLineInfo*, ::System::String*, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZATIONEXCEPTION_CREATE_2_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

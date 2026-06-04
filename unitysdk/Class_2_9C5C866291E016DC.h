@@ -5,21 +5,21 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroStunTargetArchive; }
 
-#define CLASS_2_9C5C866291E016DC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11804050)
-#define CLASS_2_9C5C866291E016DC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x118040A0)
-#define CLASS_2_9C5C866291E016DC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11804410)
-#define CLASS_2_9C5C866291E016DC_TICK_OFFSET UNITYSDK_OFFSET(0x11804460)
-#define CLASS_2_9C5C866291E016DC__CTOR_OFFSET UNITYSDK_OFFSET(0x11804040)
+#define CLASS_2_9C5C866291E016DC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA93F6A0)
+#define CLASS_2_9C5C866291E016DC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA93F6F0)
+#define CLASS_2_9C5C866291E016DC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA93F9F0)
+#define CLASS_2_9C5C866291E016DC_TICK_OFFSET UNITYSDK_OFFSET(0xA93FA40)
+#define CLASS_2_9C5C866291E016DC__CTOR_OFFSET UNITYSDK_OFFSET(0xA93F690)
 
-inline static constexpr unsigned int Class_2_9C5C866291E016DC_TypeDefinitionIndex = 54371;
+inline static constexpr unsigned int Class_2_9C5C866291E016DC_TypeDefinitionIndex = 55098;
 
 class Class_2_9C5C866291E016DC : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::WolfBroStunTargetArchive* Field_2_1; // 0x20
-	::System::UInt32 Field_2_3; // 0x28
-	::System::UInt32 Field_2_2; // 0x2C
+	::RPG::GameCore::WolfBroStunTargetArchive* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::System::UInt32 Field_2_2; // 0x28
+	::System::UInt32 Field_2_3; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WolfBroStunTargetArchive* a2)
 	{

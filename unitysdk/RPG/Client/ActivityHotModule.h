@@ -14,33 +14,33 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYHOTMODULE_GETACTIVITYHOTDATAS_OFFSET UNITYSDK_OFFSET(0x9B1B5B0)
-#define RPG_CLIENT_ACTIVITYHOTMODULE_HASNEWVERSIONNOTSEEN_OFFSET UNITYSDK_OFFSET(0x9B1D9E0)
-#define RPG_CLIENT_ACTIVITYHOTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x9B1B300)
-#define RPG_CLIENT_ACTIVITYHOTMODULE_ISFUNCTIONUNLOCK_OFFSET UNITYSDK_OFFSET(0x9B1B500)
-#define RPG_CLIENT_ACTIVITYHOTMODULE_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0x9B1B410)
-#define RPG_CLIENT_ACTIVITYHOTMODULE_PROCESSCOREREWARDDATAS_OFFSET UNITYSDK_OFFSET(0x9B1B7C0)
-#define RPG_CLIENT_ACTIVITYHOTMODULE_SETNEWVERSIONSEEN_OFFSET UNITYSDK_OFFSET(0x9B1DBB0)
-#define RPG_CLIENT_ACTIVITYHOTMODULE_SHOWACTIVITYHOTNEWREDDOT_OFFSET UNITYSDK_OFFSET(0x9B1D980)
-#define RPG_CLIENT_ACTIVITYHOTMODULE_TRYGETHCOINCOUNT_OFFSET UNITYSDK_OFFSET(0x9B1DCF0)
-#define RPG_CLIENT_ACTIVITYHOTMODULE__ACTIVITYHOTDATALISTSORTCOMPARER_OFFSET UNITYSDK_OFFSET(0x9B1DFE0)
-#define RPG_CLIENT_ACTIVITYHOTMODULE__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x9B1E5D0)
-#define RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTAVATARCOREREWARDS_OFFSET UNITYSDK_OFFSET(0x9B1C7A0)
-#define RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTCOREREWARDBYITEMID_OFFSET UNITYSDK_OFFSET(0x9B1B940)
-#define RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTOTHERCOREREWARDSBYITEMID_OFFSET UNITYSDK_OFFSET(0x9B1DDA0)
-#define RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTOTHERCOREREWARDS_OFFSET UNITYSDK_OFFSET(0x9B1D480)
-#define RPG_CLIENT_ACTIVITYHOTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x9B1B260)
-#define RPG_CLIENT_ACTIVITYHOTMODULE__GETCURRENTVERSIONIDFORACTIVITYHOT_OFFSET UNITYSDK_OFFSET(0x9B1DB20)
-#define RPG_CLIENT_ACTIVITYHOTMODULE__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x9B1E790)
-#define RPG_CLIENT_ACTIVITYHOTMODULE__ONGETACTIVITYHOTDATASCRSP_OFFSET UNITYSDK_OFFSET(0x9B1E640)
-#define RPG_CLIENT_ACTIVITYHOTMODULE__SYNCACTIVITYHOTDATAS_OFFSET UNITYSDK_OFFSET(0x9B1E080)
-#define RPG_CLIENT_ACTIVITYHOTMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x9B1E7A0)
-#define RPG_CLIENT_ACTIVITYHOTMODULE___IFIXBASEPROXY_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0x9B1E830)
-#define RPG_CLIENT_ACTIVITYHOTMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x9B1E890)
+#define RPG_CLIENT_ACTIVITYHOTMODULE_GETACTIVITYHOTDATAS_OFFSET UNITYSDK_OFFSET(0xB100DF0)
+#define RPG_CLIENT_ACTIVITYHOTMODULE_HASNEWVERSIONNOTSEEN_OFFSET UNITYSDK_OFFSET(0xB102FE0)
+#define RPG_CLIENT_ACTIVITYHOTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0xB100B50)
+#define RPG_CLIENT_ACTIVITYHOTMODULE_ISFUNCTIONUNLOCK_OFFSET UNITYSDK_OFFSET(0xB100D40)
+#define RPG_CLIENT_ACTIVITYHOTMODULE_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0xB100C80)
+#define RPG_CLIENT_ACTIVITYHOTMODULE_PROCESSCOREREWARDDATAS_OFFSET UNITYSDK_OFFSET(0xB101010)
+#define RPG_CLIENT_ACTIVITYHOTMODULE_SETNEWVERSIONSEEN_OFFSET UNITYSDK_OFFSET(0xB1031B0)
+#define RPG_CLIENT_ACTIVITYHOTMODULE_SHOWACTIVITYHOTNEWREDDOT_OFFSET UNITYSDK_OFFSET(0xB102F80)
+#define RPG_CLIENT_ACTIVITYHOTMODULE_TRYGETHCOINCOUNT_OFFSET UNITYSDK_OFFSET(0xB1032F0)
+#define RPG_CLIENT_ACTIVITYHOTMODULE__ACTIVITYHOTDATALISTSORTCOMPARER_OFFSET UNITYSDK_OFFSET(0xB103640)
+#define RPG_CLIENT_ACTIVITYHOTMODULE__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xB103C80)
+#define RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTAVATARCOREREWARDS_OFFSET UNITYSDK_OFFSET(0xB101E90)
+#define RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTCOREREWARDBYITEMID_OFFSET UNITYSDK_OFFSET(0xB1011B0)
+#define RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTOTHERCOREREWARDSBYITEMID_OFFSET UNITYSDK_OFFSET(0xB1033B0)
+#define RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTOTHERCOREREWARDS_OFFSET UNITYSDK_OFFSET(0xB102A50)
+#define RPG_CLIENT_ACTIVITYHOTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xB100AA0)
+#define RPG_CLIENT_ACTIVITYHOTMODULE__GETCURRENTVERSIONIDFORACTIVITYHOT_OFFSET UNITYSDK_OFFSET(0xB103120)
+#define RPG_CLIENT_ACTIVITYHOTMODULE__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xB103EB0)
+#define RPG_CLIENT_ACTIVITYHOTMODULE__ONGETACTIVITYHOTDATASCRSP_OFFSET UNITYSDK_OFFSET(0xB103D60)
+#define RPG_CLIENT_ACTIVITYHOTMODULE__SYNCACTIVITYHOTDATAS_OFFSET UNITYSDK_OFFSET(0xB1036E0)
+#define RPG_CLIENT_ACTIVITYHOTMODULE___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xB103EC0)
+#define RPG_CLIENT_ACTIVITYHOTMODULE___IFIXBASEPROXY_ONRECONNECT_OFFSET UNITYSDK_OFFSET(0xB103F40)
+#define RPG_CLIENT_ACTIVITYHOTMODULE___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xB103FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityHotModule_TypeDefinitionIndex = 56752;
+	inline static constexpr unsigned int ActivityHotModule_TypeDefinitionIndex = 57536;
 
 	class ActivityHotModule : public ::RPG::Client::BaseModule
 	{
@@ -74,9 +74,9 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE_GETACTIVITYHOTDATAS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>* ProcessCoreRewardDatas(::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* activityHotDatas)
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>* ProcessCoreRewardDatas(::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE_PROCESSCOREREWARDDATAS_OFFSET))(this, activityHotDatas);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE_PROCESSCOREREWARDDATAS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean ShowActivityHotNewRedDot()
@@ -94,9 +94,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE_SETNEWVERSIONSEEN_OFFSET))(this);
 		}
 
-		::System::Int32 TryGetHCoinCount(::System::UInt32 activityHotID)
+		::System::Int32 TryGetHCoinCount(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE_TRYGETHCOINCOUNT_OFFSET))(this, activityHotID);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE_TRYGETHCOINCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 _GetCurrentVersionIDForActivityHot()
@@ -104,34 +104,34 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__GETCURRENTVERSIONIDFORACTIVITYHOT_OFFSET))(this);
 		}
 
-		::System::Void _CollectCoreRewardByItemId(::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* activityHotDatas, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>* coreRewardDatas, ::System::UInt32 itemId)
+		::System::Void _CollectCoreRewardByItemId(::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* a1, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>* a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTCOREREWARDBYITEMID_OFFSET))(this, activityHotDatas, coreRewardDatas, itemId);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTCOREREWARDBYITEMID_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _CollectAvatarCoreRewards(::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* activityHotDatas, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>* coreRewardDatas)
+		::System::Void _CollectAvatarCoreRewards(::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* a1, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTAVATARCOREREWARDS_OFFSET))(this, activityHotDatas, coreRewardDatas);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTAVATARCOREREWARDS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _CollectOtherCoreRewards(::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* activityHotDatas, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>* coreRewardDatas)
+		::System::Void _CollectOtherCoreRewards(::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* a1, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTOTHERCOREREWARDS_OFFSET))(this, activityHotDatas, coreRewardDatas);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTOTHERCOREREWARDS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _CollectOtherCoreRewardsByItemID(::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>* coreRewardDatas, ::System::UInt32 itemID, ::System::UInt32 activityID)
+		::System::Void _CollectOtherCoreRewardsByItemID(::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTOTHERCOREREWARDSBYITEMID_OFFSET))(this, coreRewardDatas, itemID, activityID);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__COLLECTOTHERCOREREWARDSBYITEMID_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 _ActivityHotDataListSortComparer(::RPG::Client::ActivityHotData* a, ::RPG::Client::ActivityHotData* b)
+		::System::Int32 _ActivityHotDataListSortComparer(::RPG::Client::ActivityHotData* a1, ::RPG::Client::ActivityHotData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ActivityHotData*, ::RPG::Client::ActivityHotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__ACTIVITYHOTDATALISTSORTCOMPARER_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ActivityHotData*, ::RPG::Client::ActivityHotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__ACTIVITYHOTDATALISTSORTCOMPARER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _SyncActivityHotDatas(::System::Collections::Generic::IEnumerable_1<::Class_1_455008579EB95638_5*>* serverDatas, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* datas)
+		::System::Void _SyncActivityHotDatas(::System::Collections::Generic::IEnumerable_1<::Class_1_455008579EB95638_5*>* a1, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_455008579EB95638_5*>*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__SYNCACTIVITYHOTDATAS_OFFSET))(this, serverDatas, datas);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_455008579EB95638_5*>*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__SYNCACTIVITYHOTDATAS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _AddPacketHandlers()
@@ -139,9 +139,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__ADDPACKETHANDLERS_OFFSET))(this);
 		}
 
-		::System::Void _OnGetActivityHotDataScRsp(::System::UInt16 cmd, ::System::Object* rspObject)
+		::System::Void _OnGetActivityHotDataScRsp(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__ONGETACTIVITYHOTDATASCRSP_OFFSET))(this, cmd, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE__ONGETACTIVITYHOTDATASCRSP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _Init_b__1_0()

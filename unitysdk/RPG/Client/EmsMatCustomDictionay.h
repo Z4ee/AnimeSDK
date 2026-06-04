@@ -6,15 +6,15 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_EMSMATCUSTOMDICTIONAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0xA2848A0)
-#define RPG_CLIENT_EMSMATCUSTOMDICTIONAY_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xA284800)
-#define RPG_CLIENT_EMSMATCUSTOMDICTIONAY_METHOD_1_4DB5506DCD053FB2_OFFSET UNITYSDK_OFFSET(0xA284720)
-#define RPG_CLIENT_EMSMATCUSTOMDICTIONAY_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0xA2847B0)
-#define RPG_CLIENT_EMSMATCUSTOMDICTIONAY__CTOR_OFFSET UNITYSDK_OFFSET(0xA2846C0)
+#define RPG_CLIENT_EMSMATCUSTOMDICTIONAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0xB90A500)
+#define RPG_CLIENT_EMSMATCUSTOMDICTIONAY_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0xB90A410)
+#define RPG_CLIENT_EMSMATCUSTOMDICTIONAY_METHOD_1_CFE6FB160FFF5938_OFFSET UNITYSDK_OFFSET(0xB90A460)
+#define RPG_CLIENT_EMSMATCUSTOMDICTIONAY_METHOD_1_EE995D7DF270EB55_OFFSET UNITYSDK_OFFSET(0xB90A2D0)
+#define RPG_CLIENT_EMSMATCUSTOMDICTIONAY__CTOR_OFFSET UNITYSDK_OFFSET(0xB90A270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmsMatCustomDictionay_TypeDefinitionIndex = 65229;
+	inline static constexpr unsigned int EmsMatCustomDictionay_TypeDefinitionIndex = 66156;
 
 	class EmsMatCustomDictionay : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMSMATCUSTOMDICTIONAY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_4DB5506DCD053FB2(::System::String* a1, ::UnityEngine::Material* a2)
+		::System::Void Method_1_EE995D7DF270EB55(::System::String* a1, ::UnityEngine::Material* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMSMATCUSTOMDICTIONAY_METHOD_1_4DB5506DCD053FB2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMSMATCUSTOMDICTIONAY_METHOD_1_EE995D7DF270EB55_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Method_1_95780ED94B90ED36()
@@ -37,9 +37,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMSMATCUSTOMDICTIONAY_METHOD_1_95780ED94B90ED36_OFFSET))(this);
 		}
 
-		::System::Void Method_1_33ACA6CB2ABC73F7()
+		::System::Void Method_1_CFE6FB160FFF5938()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMSMATCUSTOMDICTIONAY_METHOD_1_33ACA6CB2ABC73F7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMSMATCUSTOMDICTIONAY_METHOD_1_CFE6FB160FFF5938_OFFSET))(this);
 		}
 
 		::System::Void Finalize()

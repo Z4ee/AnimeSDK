@@ -5,12 +5,12 @@
 namespace RPG::Client { class ActivityAetherDivideData; }
 namespace RPG::Client { class ActivityAetherDivideModuleRedDotFilter; }
 
-#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___C__DISPLAYCLASS35_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9AA7310)
-#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___C__DISPLAYCLASS35_1___RECONSTRUCTTYPEGROUPIDLIST_B__1_OFFSET UNITYSDK_OFFSET(0x9AA7860)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___C__DISPLAYCLASS35_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB0880E0)
+#define RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___C__DISPLAYCLASS35_1___RECONSTRUCTTYPEGROUPIDLIST_B__1_OFFSET UNITYSDK_OFFSET(0xB088620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityAetherDivideModuleRedDotFilter___c__DisplayClass35_1_TypeDefinitionIndex = 61529;
+	inline static constexpr unsigned int ActivityAetherDivideModuleRedDotFilter___c__DisplayClass35_1_TypeDefinitionIndex = 62462;
 
 	class ActivityAetherDivideModuleRedDotFilter___c__DisplayClass35_1 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___C__DISPLAYCLASS35_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __ReConstructTypeGroupIdList_b__1(::RPG::Client::ActivityAetherDivideData* item)
+		::System::Boolean __ReConstructTypeGroupIdList_b__1(::RPG::Client::ActivityAetherDivideData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityAetherDivideData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___C__DISPLAYCLASS35_1___RECONSTRUCTTYPEGROUPIDLIST_B__1_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityAetherDivideData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYAETHERDIVIDEMODULEREDDOTFILTER___C__DISPLAYCLASS35_1___RECONSTRUCTTYPEGROUPIDLIST_B__1_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class MonoEffectLodDetail; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MONOEFFECTLODCONFIG_METHOD_2_530496350C1F94D0_OFFSET UNITYSDK_OFFSET(0x18B42A20)
-#define RPG_GAMECORE_MONOEFFECTLODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B42B30)
+#define RPG_GAMECORE_MONOEFFECTLODCONFIG_METHOD_2_53EEEEE2D9054922_OFFSET UNITYSDK_OFFSET(0x1995A9C0)
+#define RPG_GAMECORE_MONOEFFECTLODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1995AAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonoEffectLodConfig_TypeDefinitionIndex = 18099;
+	inline static constexpr unsigned int MonoEffectLodConfig_TypeDefinitionIndex = 18121;
 
 	class MonoEffectLodConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOEFFECTLODCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_530496350C1F94D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonoEffectLodConfig*& a2)
+		static ::System::Void Method_2_53EEEEE2D9054922(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonoEffectLodConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonoEffectLodConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOEFFECTLODCONFIG_METHOD_2_530496350C1F94D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonoEffectLodConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOEFFECTLODCONFIG_METHOD_2_53EEEEE2D9054922_OFFSET))(a1, a2);
 		}
 	};
 }

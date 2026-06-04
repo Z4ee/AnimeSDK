@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace UnityEngine::Profiling { class Recorder; }
 
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY_INIT_OFFSET UNITYSDK_OFFSET(0x1817B620)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1817B760)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1817B830)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY_INIT_OFFSET UNITYSDK_OFFSET(0x18F21520)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY_UPDATE_OFFSET UNITYSDK_OFFSET(0x18F21660)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x18F21730)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RuntimeProfiler_RecorderEntry_TypeDefinitionIndex = 35293;
+	inline static constexpr unsigned int RuntimeProfiler_RecorderEntry_TypeDefinitionIndex = 35593;
 
 	class RuntimeProfiler_RecorderEntry : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::CustomRP
 		::UnityEngine::Profiling::Recorder* recorder; // 0x10
 		::System::String* name; // 0x18
 		::System::String* profileName; // 0x20
-		::System::Single avgTime; // 0x28
+		::System::Single accTime; // 0x28
 		::System::Int32 callCount; // 0x2C
-		::System::Single accTime; // 0x30
+		::System::Single avgTime; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -33,9 +33,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY_INIT_OFFSET))(this);
 		}
 
-		::System::Void Update(::System::Single accDeltaTime, ::System::Single ooFrameCount)
+		::System::Void Update(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY_UPDATE_OFFSET))(this, accDeltaTime, ooFrameCount);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY_UPDATE_OFFSET))(this, a1, a2);
 		}
 	};
 }

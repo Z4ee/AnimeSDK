@@ -8,21 +8,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xAC2C570)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xAC2C740)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0xAC2C910)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0xAC2C8A0)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xAC2C830)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xAC2C980)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xAC2CA10)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xAC2CA20)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0xAC2CA50)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0xAC2CA40)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xAC2CA30)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC33C340)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xC33C510)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0xC33C6E0)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0xC33C670)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC33C600)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC33C750)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC33C7E0)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xC33C7F0)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0xC33C820)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0xC33C810)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC33C800)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int StateParkourAnimEvent_TypeDefinitionIndex = 68332;
+	inline static constexpr unsigned int StateParkourAnimEvent_TypeDefinitionIndex = 69306;
 
 	class StateParkourAnimEvent : public ::UnityEngine::StateMachineBehaviour
 	{
@@ -60,29 +60,29 @@ namespace RPG::Client::ParkourGame
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEIK_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateExit(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateExit(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEEXIT_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEEXIT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateMove(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateMove(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEMOVE_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEMOVE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnStateIK(::UnityEngine::Animator* P0, ::UnityEngine::AnimatorStateInfo P1, ::System::Int32 P2)
+		::System::Void __iFixBaseProxy_OnStateIK(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEIK_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT___IFIXBASEPROXY_ONSTATEIK_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -6,33 +6,33 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::Stats { class GetStatCountOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B6F0)
-#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x1B5C0)
-#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1B4F0)
-#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1B430)
+#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BCA0)
+#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x1BC90)
+#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1BBC0)
+#define EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x1BB00)
 
 namespace Epic::OnlineServices::Stats
 {
-	inline static constexpr unsigned int GetStatCountOptionsInternal_TypeDefinitionIndex = 41208;
+	inline static constexpr unsigned int GetStatCountOptionsInternal_TypeDefinitionIndex = 42011;
 
 	struct alignas(8) GetStatCountOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_TargetUserId; // 0x18
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Stats::GetStatCountOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Stats::GetStatCountOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Stats::GetStatCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Stats::GetStatCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_STATS_GETSTATCOUNTOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

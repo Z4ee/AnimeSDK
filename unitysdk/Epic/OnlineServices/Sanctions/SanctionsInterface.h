@@ -10,16 +10,16 @@ namespace Epic::OnlineServices::Sanctions { class PlayerSanction; }
 namespace Epic::OnlineServices::Sanctions { class QueryActivePlayerSanctionsOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_COPYPLAYERSANCTIONBYINDEX_OFFSET UNITYSDK_OFFSET(0x8F366D0)
-#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_GETPLAYERSANCTIONCOUNT_OFFSET UNITYSDK_OFFSET(0x8F36960)
-#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_ONQUERYACTIVEPLAYERSANCTIONSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F36620)
-#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_QUERYACTIVEPLAYERSANCTIONS_OFFSET UNITYSDK_OFFSET(0x8F36B50)
-#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8F366C0)
-#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8F366B0)
+#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_COPYPLAYERSANCTIONBYINDEX_OFFSET UNITYSDK_OFFSET(0xA356FB0)
+#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_GETPLAYERSANCTIONCOUNT_OFFSET UNITYSDK_OFFSET(0xA357240)
+#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_ONQUERYACTIVEPLAYERSANCTIONSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA356EF0)
+#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_QUERYACTIVEPLAYERSANCTIONS_OFFSET UNITYSDK_OFFSET(0xA357430)
+#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA356FA0)
+#define EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA356F90)
 
 namespace Epic::OnlineServices::Sanctions
 {
-	inline static constexpr unsigned int SanctionsInterface_TypeDefinitionIndex = 41408;
+	inline static constexpr unsigned int SanctionsInterface_TypeDefinitionIndex = 42211;
 
 	class SanctionsInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -34,29 +34,29 @@ namespace Epic::OnlineServices::Sanctions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopyPlayerSanctionByIndex(::Epic::OnlineServices::Sanctions::CopyPlayerSanctionByIndexOptions* options, ::Epic::OnlineServices::Sanctions::PlayerSanction*& outSanction)
+		::Epic::OnlineServices::Result CopyPlayerSanctionByIndex(::Epic::OnlineServices::Sanctions::CopyPlayerSanctionByIndexOptions* a1, ::Epic::OnlineServices::Sanctions::PlayerSanction*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sanctions::CopyPlayerSanctionByIndexOptions*, ::Epic::OnlineServices::Sanctions::PlayerSanction*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_COPYPLAYERSANCTIONBYINDEX_OFFSET))(this, options, outSanction);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sanctions::CopyPlayerSanctionByIndexOptions*, ::Epic::OnlineServices::Sanctions::PlayerSanction*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_COPYPLAYERSANCTIONBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetPlayerSanctionCount(::Epic::OnlineServices::Sanctions::GetPlayerSanctionCountOptions* options)
+		::System::UInt32 GetPlayerSanctionCount(::Epic::OnlineServices::Sanctions::GetPlayerSanctionCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Sanctions::GetPlayerSanctionCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_GETPLAYERSANCTIONCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Sanctions::GetPlayerSanctionCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_GETPLAYERSANCTIONCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Void QueryActivePlayerSanctions(::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Sanctions::OnQueryActivePlayerSanctionsCallback* completionDelegate)
+		::System::Void QueryActivePlayerSanctions(::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Sanctions::OnQueryActivePlayerSanctionsCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsOptions*, ::System::Object*, ::Epic::OnlineServices::Sanctions::OnQueryActivePlayerSanctionsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_QUERYACTIVEPLAYERSANCTIONS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sanctions::QueryActivePlayerSanctionsOptions*, ::System::Object*, ::Epic::OnlineServices::Sanctions::OnQueryActivePlayerSanctionsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_QUERYACTIVEPLAYERSANCTIONS_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnQueryActivePlayerSanctionsCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryActivePlayerSanctionsCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_ONQUERYACTIVEPLAYERSANCTIONSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SANCTIONS_SANCTIONSINTERFACE_ONQUERYACTIVEPLAYERSANCTIONSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

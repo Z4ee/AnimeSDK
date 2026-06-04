@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define SPINE_UNITY_SKELETONRENDERERCUSTOMMATERIALS_SLOTMATERIALOVERRIDE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22CE0D0)
+#define SPINE_UNITY_SKELETONRENDERERCUSTOMMATERIALS_SLOTMATERIALOVERRIDE_EQUALS_OFFSET UNITYSDK_OFFSET(0x38681F0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRendererCustomMaterials_SlotMaterialOverride_TypeDefinitionIndex = 40609;
+	inline static constexpr unsigned int SkeletonRendererCustomMaterials_SlotMaterialOverride_TypeDefinitionIndex = 41436;
 
 	struct alignas(8) SkeletonRendererCustomMaterials_SlotMaterialOverride
 	{
@@ -17,9 +17,9 @@ namespace Spine::Unity
 		::System::String* slotName; // 0x18
 		::UnityEngine::Material* material; // 0x20
 
-		::System::Boolean Equals(::Spine::Unity::SkeletonRendererCustomMaterials_SlotMaterialOverride other)
+		::System::Boolean Equals(::Spine::Unity::SkeletonRendererCustomMaterials_SlotMaterialOverride a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Spine::Unity::SkeletonRendererCustomMaterials_SlotMaterialOverride))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERERCUSTOMMATERIALS_SLOTMATERIALOVERRIDE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::Spine::Unity::SkeletonRendererCustomMaterials_SlotMaterialOverride))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERERCUSTOMMATERIALS_SLOTMATERIALOVERRIDE_EQUALS_OFFSET))(this, a1);
 		}
 	};
 }

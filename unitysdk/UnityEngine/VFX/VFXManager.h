@@ -4,7 +4,7 @@
 
 namespace UnityEngine::VFX
 {
-	inline static constexpr unsigned int VFXManager_TypeDefinitionIndex = 6005;
+	inline static constexpr unsigned int VFXManager_TypeDefinitionIndex = 6282;
 
 	class VFXManager : public ::System::Object
 	{

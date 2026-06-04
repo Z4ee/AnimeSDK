@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IRenderingItemBlackBoardContext_1_TypeDefinitionIndex = 38251;
+	inline static constexpr unsigned int IRenderingItemBlackBoardContext_1_TypeDefinitionIndex = 39008;
 
 	template <typename TEntity>
 	class IRenderingItemBlackBoardContext_1

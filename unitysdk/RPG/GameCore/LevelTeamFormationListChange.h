@@ -5,25 +5,25 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6DFB60)
-#define RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6DFBB0)
-#define RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE_GET_CHANGEDENTITY_OFFSET UNITYSDK_OFFSET(0xB6DFC10)
-#define RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE_GET_TEAMENTITY_OFFSET UNITYSDK_OFFSET(0xB6DFC00)
-#define RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DFB50)
+#define RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE4DC40)
+#define RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE4DC90)
+#define RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE_GET_CHANGEDENTITY_OFFSET UNITYSDK_OFFSET(0xCE4DCF0)
+#define RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE_GET_TEAMENTITY_OFFSET UNITYSDK_OFFSET(0xCE4DCE0)
+#define RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4DC30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTeamFormationListChange_TypeDefinitionIndex = 52277;
+	inline static constexpr unsigned int LevelTeamFormationListChange_TypeDefinitionIndex = 52974;
 
 	class LevelTeamFormationListChange : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* _ChangedEntity; // 0x10
-		::RPG::GameCore::GameEntity* _TeamEntity; // 0x18
+		::RPG::GameCore::GameEntity* _TeamEntity; // 0x10
+		::RPG::GameCore::GameEntity* _ChangedEntity; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* teamEntity, ::RPG::GameCore::GameEntity* changedEntity)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE__CTOR_OFFSET))(this, teamEntity, changedEntity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTEAMFORMATIONLISTCHANGE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::EventType GetEventType()

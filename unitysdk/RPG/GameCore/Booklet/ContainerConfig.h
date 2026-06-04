@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_METHOD_3_18530C2DD9F0FDCF_OFFSET UNITYSDK_OFFSET(0x1870FB90)
-#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_METHOD_3_2F1687E91A235D31_OFFSET UNITYSDK_OFFSET(0x1870F6F0)
-#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1870FEC0)
+#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_METHOD_3_18530C2DD9F0FDCF_OFFSET UNITYSDK_OFFSET(0x194E2730)
+#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_METHOD_3_2C2C967AFE1F4B97_OFFSET UNITYSDK_OFFSET(0x194E2290)
+#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194E2A60)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int ContainerConfig_TypeDefinitionIndex = 23774;
+	inline static constexpr unsigned int ContainerConfig_TypeDefinitionIndex = 23607;
 
 	class ContainerConfig : public ::RPG::GameCore::Booklet::ElementConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore::Booklet
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_CONTAINERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2F1687E91A235D31(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::ContainerConfig*& a2)
+		static ::System::Void Method_3_2C2C967AFE1F4B97(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::ContainerConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::ContainerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_METHOD_3_2F1687E91A235D31_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::ContainerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_METHOD_3_2C2C967AFE1F4B97_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_18530C2DD9F0FDCF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::ContainerConfig* a2)

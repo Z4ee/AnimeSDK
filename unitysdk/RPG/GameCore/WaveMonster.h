@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SingleMonsterInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAVEMONSTER_METHOD_3_9ECB7B60956F1A5F_OFFSET UNITYSDK_OFFSET(0x1910CCB0)
-#define RPG_GAMECORE_WAVEMONSTER_METHOD_3_A404C235E773EB30_OFFSET UNITYSDK_OFFSET(0x1910CB80)
-#define RPG_GAMECORE_WAVEMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1910CC30)
+#define RPG_GAMECORE_WAVEMONSTER_METHOD_3_1DCB78F664EB377D_OFFSET UNITYSDK_OFFSET(0x19E65480)
+#define RPG_GAMECORE_WAVEMONSTER_METHOD_3_F24D3E9F4397FE15_OFFSET UNITYSDK_OFFSET(0x19E65350)
+#define RPG_GAMECORE_WAVEMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E65400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaveMonster_TypeDefinitionIndex = 22365;
+	inline static constexpr unsigned int WaveMonster_TypeDefinitionIndex = 22121;
 
 	class WaveMonster : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,14 +34,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAVEMONSTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A404C235E773EB30(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaveMonster*& a2)
+		static ::System::Void Method_3_F24D3E9F4397FE15(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaveMonster*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaveMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAVEMONSTER_METHOD_3_A404C235E773EB30_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaveMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAVEMONSTER_METHOD_3_F24D3E9F4397FE15_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9ECB7B60956F1A5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaveMonster* a2)
+		static ::System::Void Method_3_1DCB78F664EB377D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaveMonster* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaveMonster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAVEMONSTER_METHOD_3_9ECB7B60956F1A5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaveMonster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAVEMONSTER_METHOD_3_1DCB78F664EB377D_OFFSET))(a1, a2);
 		}
 	};
 }

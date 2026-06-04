@@ -12,33 +12,33 @@ namespace System::IO { class BinaryReader; }
 namespace System::IO { class Stream; }
 namespace System::Threading { class Thread; }
 
-#define HDG_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x8C103F0)
-#define HDG_READMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0x8C115E0)
-#define HDG_READMESSAGETHREAD_ONREADING_OFFSET UNITYSDK_OFFSET(0x8C10760)
-#define HDG_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x8C10610)
-#define HDG_READMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0x8C10640)
-#define HDG_READMESSAGETHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x8C10400)
+#define HDG_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xA118190)
+#define HDG_READMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0xA118F40)
+#define HDG_READMESSAGETHREAD_ONREADING_OFFSET UNITYSDK_OFFSET(0xA118500)
+#define HDG_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0xA1183F0)
+#define HDG_READMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0xA118420)
+#define HDG_READMESSAGETHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0xA1181A0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 43749;
+	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 44291;
 
 	class ReadMessageThread : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x10
-		::System::Action_1<::Hdg::rdtTcpMessage*>* m_callback; // 0x18
-		::System::IO::Stream* m_stream; // 0x20
-		::System::Threading::Thread* m_thread; // 0x28
+		::System::IO::Stream* m_stream; // 0x10
+		::System::Threading::Thread* m_thread; // 0x18
+		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x20
+		::System::IO::BinaryReader* m_reader; // 0x28
 		::System::String* m_name; // 0x30
-		::System::IO::BinaryReader* m_reader; // 0x38
-		::Hdg::rdtDispatcher* m_dispatcher; // 0x40
-		::Hdg::ReadMessageThread_State m_state; // 0x48
-		::System::Boolean m_run; // 0x4C
+		::Hdg::rdtDispatcher* m_dispatcher; // 0x38
+		::System::Action_1<::Hdg::rdtTcpMessage*>* m_callback; // 0x40
+		::System::Boolean m_run; // 0x48
+		::Hdg::ReadMessageThread_State m_state; // 0x4C
 
-		::System::Void _ctor(::System::IO::Stream* stream, ::Hdg::rdtDispatcher* dispatcher, ::System::Action_1<::Hdg::rdtTcpMessage*>* callback, ::System::String* name)
+		::System::Void _ctor(::System::IO::Stream* a1, ::Hdg::rdtDispatcher* a2, ::System::Action_1<::Hdg::rdtTcpMessage*>* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::Hdg::rdtDispatcher*, ::System::Action_1<::Hdg::rdtTcpMessage*>*, ::System::String*))((::PBYTE)hIl2Cpp + HDG_READMESSAGETHREAD__CTOR_OFFSET))(this, stream, dispatcher, callback, name);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::Hdg::rdtDispatcher*, ::System::Action_1<::Hdg::rdtTcpMessage*>*, ::System::String*))((::PBYTE)hIl2Cpp + HDG_READMESSAGETHREAD__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean get_IsConnected()

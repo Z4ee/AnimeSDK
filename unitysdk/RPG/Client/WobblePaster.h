@@ -7,53 +7,53 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_WOBBLEPASTER_START_OFFSET UNITYSDK_OFFSET(0xB4C95D0)
-#define RPG_CLIENT_WOBBLEPASTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xB4C9AB0)
-#define RPG_CLIENT_WOBBLEPASTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB4CACE0)
-#define RPG_CLIENT_WOBBLEPASTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB4CAC80)
+#define RPG_CLIENT_WOBBLEPASTER_START_OFFSET UNITYSDK_OFFSET(0xCC2F900)
+#define RPG_CLIENT_WOBBLEPASTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xCC2FDE0)
+#define RPG_CLIENT_WOBBLEPASTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC31010)
+#define RPG_CLIENT_WOBBLEPASTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCC30FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WobblePaster_TypeDefinitionIndex = 64785;
+	inline static constexpr unsigned int WobblePaster_TypeDefinitionIndex = 65711;
 
 	class WobblePaster : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_40()
+		static ::System::Int32* StaticGet_Field_5_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0xD5C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x13380);
 		}
-		static ::System::Int32* StaticGet_Field_5_42()
+		static ::System::Int32* StaticGet_Field_5_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0xD5C4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x13384);
 		}
-		static ::System::Int32* StaticGet_Field_5_37()
+		static ::System::Int32* StaticGet_Field_5_2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0xD5C8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x13388);
 		}
-		static ::System::Int32* StaticGet_Field_5_35()
+		static ::System::Int32* StaticGet_Field_5_3()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0xD5CC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x1338C);
 		}
-		static ::System::Int32* StaticGet_Field_5_36()
+		static ::System::Int32* StaticGet_Field_5_4()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0xD5D0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x13390);
 		}
-		static ::System::Int32* StaticGet_Field_5_38()
+		static ::System::Int32* StaticGet_Field_5_5()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0xD5D4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x13394);
 		}
-		static ::System::Int32* StaticGet_Field_5_41()
+		static ::System::Int32* StaticGet_Field_5_6()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0xD5D8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x13398);
 		}
-		static ::System::Int32* StaticGet_Field_5_34()
+		static ::System::Int32* StaticGet_Field_5_7()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0xD5DC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x1339C);
 		}
-		static ::System::Int32* StaticGet_Field_5_39()
+		static ::System::Int32* StaticGet_Field_5_8()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0xD5E0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WobblePaster_TypeDefinitionIndex)->GetStaticField(0x133A0);
 		}
 		::UnityEngine::GameObject* ReferenceObject1; // 0x18
 		::UnityEngine::GameObject* ReferenceObject2; // 0x20
@@ -62,33 +62,33 @@ namespace RPG::Client
 		::System::Single MaxWobble; // 0x38
 		::System::Single WobbleSpeed; // 0x3C
 		::System::Single Recovery; // 0x40
-		::UnityEngine::Vector3 Field_5_7; // 0x44
-		::UnityEngine::Vector3 Field_5_8; // 0x50
-		::UnityEngine::Vector3 Field_5_9; // 0x5C
-		::UnityEngine::Vector3 Field_5_10; // 0x68
-		::System::Single Field_5_11; // 0x74
-		::System::Single Field_5_12; // 0x78
-		::System::Single Field_5_13; // 0x7C
-		::System::Single Field_5_14; // 0x80
-		::UnityEngine::Vector3 Field_5_15; // 0x84
-		::UnityEngine::Vector3 Field_5_16; // 0x90
-		::UnityEngine::Vector3 Field_5_17; // 0x9C
-		::UnityEngine::Vector3 Field_5_18; // 0xA8
-		::System::Single Field_5_19; // 0xB4
-		::System::Single Field_5_20; // 0xB8
-		::System::Single Field_5_21; // 0xBC
-		::System::Single Field_5_22; // 0xC0
-		::UnityEngine::Vector3 Field_5_23; // 0xC4
-		::UnityEngine::Vector3 Field_5_24; // 0xD0
-		::UnityEngine::Vector3 Field_5_25; // 0xDC
-		::UnityEngine::Vector3 Field_5_26; // 0xE8
-		::System::Single Field_5_27; // 0xF4
-		::System::Single Field_5_28; // 0xF8
-		::System::Single Field_5_29; // 0xFC
-		::System::Single Field_5_30; // 0x100
-		::System::Single Field_5_31; // 0x104
-		::System::Single Field_5_32; // 0x108
-		::UnityEngine::MaterialPropertyBlock* Field_5_33; // 0x110
+		::UnityEngine::Vector3 Field_5_16; // 0x44
+		::UnityEngine::Vector3 Field_5_17; // 0x50
+		::UnityEngine::Vector3 Field_5_18; // 0x5C
+		::UnityEngine::Vector3 Field_5_19; // 0x68
+		::System::Single Field_5_20; // 0x74
+		::System::Single Field_5_21; // 0x78
+		::System::Single Field_5_22; // 0x7C
+		::System::Single Field_5_23; // 0x80
+		::UnityEngine::Vector3 Field_5_24; // 0x84
+		::UnityEngine::Vector3 Field_5_25; // 0x90
+		::UnityEngine::Vector3 Field_5_26; // 0x9C
+		::UnityEngine::Vector3 Field_5_27; // 0xA8
+		::System::Single Field_5_28; // 0xB4
+		::System::Single Field_5_29; // 0xB8
+		::System::Single Field_5_30; // 0xBC
+		::System::Single Field_5_31; // 0xC0
+		::UnityEngine::Vector3 Field_5_32; // 0xC4
+		::UnityEngine::Vector3 Field_5_33; // 0xD0
+		::UnityEngine::Vector3 Field_5_34; // 0xDC
+		::UnityEngine::Vector3 Field_5_35; // 0xE8
+		::System::Single Field_5_36; // 0xF4
+		::System::Single Field_5_37; // 0xF8
+		::System::Single Field_5_38; // 0xFC
+		::System::Single Field_5_39; // 0x100
+		::System::Single Field_5_40; // 0x104
+		::System::Single Field_5_41; // 0x108
+		::UnityEngine::MaterialPropertyBlock* Field_5_42; // 0x110
 
 		::System::Void _ctor()
 		{

@@ -4,14 +4,14 @@
 
 namespace UnityEngine { class Animation; }
 
-#define UNITYENGINE_ANIMATION_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A40CC30)
-#define UNITYENGINE_ANIMATION_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1A40CC60)
-#define UNITYENGINE_ANIMATION_ENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1A40CC90)
-#define UNITYENGINE_ANIMATION_ENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A40CAB0)
+#define UNITYENGINE_ANIMATION_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B2612E0)
+#define UNITYENGINE_ANIMATION_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B261310)
+#define UNITYENGINE_ANIMATION_ENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B261340)
+#define UNITYENGINE_ANIMATION_ENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B261160)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Animation_Enumerator_TypeDefinitionIndex = 5069;
+	inline static constexpr unsigned int Animation_Enumerator_TypeDefinitionIndex = 5163;
 
 	class Animation_Enumerator : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace UnityEngine
 		::UnityEngine::Animation* m_Outer; // 0x10
 		::System::Int32 m_CurrentIndex; // 0x18
 
-		::System::Void _ctor(::UnityEngine::Animation* outer)
+		::System::Void _ctor(::UnityEngine::Animation* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animation*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATION_ENUMERATOR__CTOR_OFFSET))(this, outer);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animation*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATION_ENUMERATOR__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_Current()

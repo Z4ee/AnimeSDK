@@ -7,14 +7,14 @@ namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace HedgehogTeam::EasyTouch { class QuickTouch_OnTouch; }
 namespace HedgehogTeam::EasyTouch { class QuickTouch_OnTouchNotOverMe; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_DOACTION_OFFSET UNITYSDK_OFFSET(0x12C4EC30)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_ISOVERME_OFFSET UNITYSDK_OFFSET(0x12C4EAB0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_UPDATE_OFFSET UNITYSDK_OFFSET(0x12C4E6A0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH__CTOR_OFFSET UNITYSDK_OFFSET(0x12C4E610)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_DOACTION_OFFSET UNITYSDK_OFFSET(0x146FD270)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_ISOVERME_OFFSET UNITYSDK_OFFSET(0x146FD0F0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_UPDATE_OFFSET UNITYSDK_OFFSET(0x146FCCD0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH__CTOR_OFFSET UNITYSDK_OFFSET(0x146FCC40)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickTouch_TypeDefinitionIndex = 37012;
+	inline static constexpr unsigned int QuickTouch_TypeDefinitionIndex = 37312;
 
 	class QuickTouch : public ::HedgehogTeam::EasyTouch::QuickBase
 	{
@@ -34,14 +34,14 @@ namespace HedgehogTeam::EasyTouch
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void DoAction(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void DoAction(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_DOACTION_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_DOACTION_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsOverMe(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Boolean IsOverMe(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_ISOVERME_OFFSET))(this, gesture);
+			return ((::System::Boolean(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_ISOVERME_OFFSET))(this, a1);
 		}
 	};
 }

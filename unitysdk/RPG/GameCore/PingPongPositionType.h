@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongPositionType_TypeDefinitionIndex = 16089;
+	inline static constexpr unsigned int PingPongPositionType_TypeDefinitionIndex = 16139;
 
 	enum class PingPongPositionType : ::System::Int32
 	{

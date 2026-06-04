@@ -8,11 +8,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEX_CUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16220B0)
+#define CRIWARE_CRIATOMEX_CUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD22E0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CueInfo_TypeDefinitionIndex = 36719;
+	inline static constexpr unsigned int CriAtomEx_CueInfo_TypeDefinitionIndex = 37019;
 
 	struct alignas(8) CriAtomEx_CueInfo
 	{
@@ -34,9 +34,9 @@ namespace CriWare
 		::CriWare::CriAtomEx_CuePos3dInfo pos3dInfo; // 0x48
 		::CriWare::CriAtomEx_GameVariableInfo gameVariableInfo; // 0x90
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* data, ::System::Int32 startIndex)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUEINFO__CTOR_OFFSET))(this, data, startIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_CUEINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

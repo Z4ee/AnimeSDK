@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FollowByPlayerCustomRoutePoint; }
 
-#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_METHOD_3_D17314141ABB6AA2_OFFSET UNITYSDK_OFFSET(0x18658EC0)
-#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_METHOD_3_F7965E6CE18B421D_OFFSET UNITYSDK_OFFSET(0x18658F60)
-#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x18658F20)
+#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_METHOD_3_63EF65E3D782BFEF_OFFSET UNITYSDK_OFFSET(0x1942C9A0)
+#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_METHOD_3_C7B5B534B7050CAF_OFFSET UNITYSDK_OFFSET(0x1942CA40)
+#define RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1942CA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcFollowByPlayer_TypeDefinitionIndex = 18908;
+	inline static constexpr unsigned int AdvNpcFollowByPlayer_TypeDefinitionIndex = 18864;
 
 	class AdvNpcFollowByPlayer : public ::RPG::GameCore::TaskConfig
 	{
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D17314141ABB6AA2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFollowByPlayer*& a2)
+		static ::System::Void Method_3_63EF65E3D782BFEF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFollowByPlayer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFollowByPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_METHOD_3_D17314141ABB6AA2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFollowByPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_METHOD_3_63EF65E3D782BFEF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F7965E6CE18B421D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFollowByPlayer* a2)
+		static ::System::Void Method_3_C7B5B534B7050CAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFollowByPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFollowByPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_METHOD_3_F7965E6CE18B421D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFollowByPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWBYPLAYER_METHOD_3_C7B5B534B7050CAF_OFFSET))(a1, a2);
 		}
 	};
 }

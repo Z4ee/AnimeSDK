@@ -4,24 +4,24 @@
 
 namespace RPG::Client { class IFateGameAffixItemPanelData; }
 
-#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISAFFIX_OFFSET UNITYSDK_OFFSET(0xA33A770)
-#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISREIJUAFFIX_OFFSET UNITYSDK_OFFSET(0xA33A810)
+#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISAFFIX_OFFSET UNITYSDK_OFFSET(0xB98BE40)
+#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISREIJUAFFIX_OFFSET UNITYSDK_OFFSET(0xB98BEE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameAffixItemPanelDataExt_TypeDefinitionIndex = 58963;
+	inline static constexpr unsigned int FateGameAffixItemPanelDataExt_TypeDefinitionIndex = 59893;
 
 	class FateGameAffixItemPanelDataExt : public ::System::Object
 	{
 	public:
-		static ::System::Boolean IsAffix(::RPG::Client::IFateGameAffixItemPanelData* data)
+		static ::System::Boolean IsAffix(::RPG::Client::IFateGameAffixItemPanelData* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::IFateGameAffixItemPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISAFFIX_OFFSET))(data);
+			return ((::System::Boolean(*)(::RPG::Client::IFateGameAffixItemPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISAFFIX_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsReijuAffix(::RPG::Client::IFateGameAffixItemPanelData* data)
+		static ::System::Boolean IsReijuAffix(::RPG::Client::IFateGameAffixItemPanelData* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::IFateGameAffixItemPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISREIJUAFFIX_OFFSET))(data);
+			return ((::System::Boolean(*)(::RPG::Client::IFateGameAffixItemPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISREIJUAFFIX_OFFSET))(a1);
 		}
 	};
 }

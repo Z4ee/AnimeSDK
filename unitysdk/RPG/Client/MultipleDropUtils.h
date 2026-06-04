@@ -12,96 +12,96 @@ namespace RPG::Client { class MultipleDropData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MULTIPLEDROPUTILS_GETALLDATA_OFFSET UNITYSDK_OFFSET(0xAAFA9D0)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_GETBANNERTEXT_OFFSET UNITYSDK_OFFSET(0xAAFADB0)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_GETGUIDETYPEBYMULTIPLEDROPTYPE_OFFSET UNITYSDK_OFFSET(0xAAFB010)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTIMESDATA_OFFSET UNITYSDK_OFFSET(0xAAFA210)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTYPEBYFARMTYPE_OFFSET UNITYSDK_OFFSET(0xAAFB100)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTYPEBYGUIDETYPE_OFFSET UNITYSDK_OFFSET(0xAAFB150)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_GETSIGNICONPATH_OFFSET UNITYSDK_OFFSET(0xAAFAD30)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_GETTOPDATA_OFFSET UNITYSDK_OFFSET(0xAAF92D0)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTIPLEDROP_1_OFFSET UNITYSDK_OFFSET(0xAAF99F0)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTIPLEDROP_OFFSET UNITYSDK_OFFSET(0xAAF9280)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTISPECIFICMULTIPLEDROP_OFFSET UNITYSDK_OFFSET(0xAAFA4C0)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_ISINSPECIFICMULTIPLEDROP_OFFSET UNITYSDK_OFFSET(0xAAF9F60)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_ISMULTIDROPTIMESREMAINING_OFFSET UNITYSDK_OFFSET(0xAAFA1B0)
-#define RPG_CLIENT_MULTIPLEDROPUTILS_ISMULTIPLEDROPTYPEGUIDEOPENINHANDBOOK_OFFSET UNITYSDK_OFFSET(0xAAFAE80)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_GETALLDATA_OFFSET UNITYSDK_OFFSET(0xC1C93E0)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_GETBANNERTEXT_OFFSET UNITYSDK_OFFSET(0xC1C9850)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_GETGUIDETYPEBYMULTIPLEDROPTYPE_OFFSET UNITYSDK_OFFSET(0xC1C9AB0)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTIMESDATA_OFFSET UNITYSDK_OFFSET(0xC1C8B80)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTYPEBYFARMTYPE_OFFSET UNITYSDK_OFFSET(0xC1C9BA0)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTYPEBYGUIDETYPE_OFFSET UNITYSDK_OFFSET(0xC1C9BF0)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_GETSIGNICONPATH_OFFSET UNITYSDK_OFFSET(0xC1C97D0)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_GETTOPDATA_OFFSET UNITYSDK_OFFSET(0xC1C7BD0)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTIPLEDROP_1_OFFSET UNITYSDK_OFFSET(0xC1C8390)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTIPLEDROP_OFFSET UNITYSDK_OFFSET(0xC1C7B80)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTISPECIFICMULTIPLEDROP_OFFSET UNITYSDK_OFFSET(0xC1C8EC0)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_ISINSPECIFICMULTIPLEDROP_OFFSET UNITYSDK_OFFSET(0xC1C8910)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_ISMULTIDROPTIMESREMAINING_OFFSET UNITYSDK_OFFSET(0xC1C8B20)
+#define RPG_CLIENT_MULTIPLEDROPUTILS_ISMULTIPLEDROPTYPEGUIDEOPENINHANDBOOK_OFFSET UNITYSDK_OFFSET(0xC1C9920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultipleDropUtils_TypeDefinitionIndex = 61087;
+	inline static constexpr unsigned int MultipleDropUtils_TypeDefinitionIndex = 62011;
 
 	class MultipleDropUtils : public ::System::Object
 	{
 	public:
-		static ::System::Boolean IsInMultipleDrop(::RPG::GameCore::MultipleDropTypeConfig farmType)
+		static ::System::Boolean IsInMultipleDrop(::RPG::GameCore::MultipleDropTypeConfig a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTIPLEDROP_OFFSET))(farmType);
+			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTIPLEDROP_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsInMultipleDrop_1(::RPG::GameCore::MultipleDropTypeConfig farmType, ::System::UInt32 multiplier)
+		static ::System::Boolean IsInMultipleDrop_1(::RPG::GameCore::MultipleDropTypeConfig a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTIPLEDROP_1_OFFSET))(farmType, multiplier);
+			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTIPLEDROP_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsMultiDropTimesRemaining(::RPG::GameCore::MultipleDropTypeConfig farmType)
+		static ::System::Boolean IsMultiDropTimesRemaining(::RPG::GameCore::MultipleDropTypeConfig a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISMULTIDROPTIMESREMAINING_OFFSET))(farmType);
+			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISMULTIDROPTIMESREMAINING_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsInMultiSpecificMultipleDrop(::RPG::GameCore::MultipleDropTypeConfig farmType)
+		static ::System::Boolean IsInMultiSpecificMultipleDrop(::RPG::GameCore::MultipleDropTypeConfig a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTISPECIFICMULTIPLEDROP_OFFSET))(farmType);
+			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISINMULTISPECIFICMULTIPLEDROP_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsInSpecificMultipleDrop(::RPG::GameCore::MultipleDropTypeConfig farmType, ::RPG::GameCore::ActivityFarmMultipleDropType dropType, ::System::UInt32 multiplier)
+		static ::System::Boolean IsInSpecificMultipleDrop(::RPG::GameCore::MultipleDropTypeConfig a1, ::RPG::GameCore::ActivityFarmMultipleDropType a2, ::System::UInt32 a3)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig, ::RPG::GameCore::ActivityFarmMultipleDropType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISINSPECIFICMULTIPLEDROP_OFFSET))(farmType, dropType, multiplier);
+			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig, ::RPG::GameCore::ActivityFarmMultipleDropType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISINSPECIFICMULTIPLEDROP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::MultipleDropTimesData GetMultipleDropTimesData(::RPG::GameCore::MultipleDropTypeConfig multipleDropType, ::System::UInt32 multiplier)
+		static ::RPG::Client::MultipleDropTimesData GetMultipleDropTimesData(::RPG::GameCore::MultipleDropTypeConfig a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::MultipleDropTimesData(*)(::RPG::GameCore::MultipleDropTypeConfig, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTIMESDATA_OFFSET))(multipleDropType, multiplier);
+			return ((::RPG::Client::MultipleDropTimesData(*)(::RPG::GameCore::MultipleDropTypeConfig, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTIMESDATA_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::MultipleDropData* GetTopData(::RPG::GameCore::MultipleDropTypeConfig farmType)
+		static ::RPG::Client::MultipleDropData* GetTopData(::RPG::GameCore::MultipleDropTypeConfig a1)
 		{
-			return ((::RPG::Client::MultipleDropData*(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETTOPDATA_OFFSET))(farmType);
+			return ((::RPG::Client::MultipleDropData*(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETTOPDATA_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::MultipleDropData*>* GetAllData(::RPG::GameCore::MultipleDropTypeConfig farmType)
+		static ::System::Collections::Generic::List_1<::RPG::Client::MultipleDropData*>* GetAllData(::RPG::GameCore::MultipleDropTypeConfig a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::MultipleDropData*>*(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETALLDATA_OFFSET))(farmType);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::MultipleDropData*>*(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETALLDATA_OFFSET))(a1);
 		}
 
-		static ::System::String* GetSignIconPath(::RPG::GameCore::MultipleDropTypeConfig farmType)
+		static ::System::String* GetSignIconPath(::RPG::GameCore::MultipleDropTypeConfig a1)
 		{
-			return ((::System::String*(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETSIGNICONPATH_OFFSET))(farmType);
+			return ((::System::String*(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETSIGNICONPATH_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::TextID GetBannerText(::RPG::GameCore::MultipleDropTypeConfig farmType)
+		static ::RPG::Client::TextID GetBannerText(::RPG::GameCore::MultipleDropTypeConfig a1)
 		{
-			return ((::RPG::Client::TextID(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETBANNERTEXT_OFFSET))(farmType);
+			return ((::RPG::Client::TextID(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETBANNERTEXT_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsMultipleDropTypeGuideOpenInHandbook(::RPG::GameCore::MultipleDropTypeConfig multipleDropType)
+		static ::System::Boolean IsMultipleDropTypeGuideOpenInHandbook(::RPG::GameCore::MultipleDropTypeConfig a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISMULTIPLEDROPTYPEGUIDEOPENINHANDBOOK_OFFSET))(multipleDropType);
+			return ((::System::Boolean(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_ISMULTIPLEDROPTYPEGUIDEOPENINHANDBOOK_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::MultipleDropTypeConfig GetMultipleDropTypeByFarmType(::RPG::GameCore::FarmTypeConfig farmType)
+		static ::RPG::GameCore::MultipleDropTypeConfig GetMultipleDropTypeByFarmType(::RPG::GameCore::FarmTypeConfig a1)
 		{
-			return ((::RPG::GameCore::MultipleDropTypeConfig(*)(::RPG::GameCore::FarmTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTYPEBYFARMTYPE_OFFSET))(farmType);
+			return ((::RPG::GameCore::MultipleDropTypeConfig(*)(::RPG::GameCore::FarmTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTYPEBYFARMTYPE_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::MultipleDropTypeConfig GetMultipleDropTypeByGuideType(::RPG::GameCore::GuideType guideType)
+		static ::RPG::GameCore::MultipleDropTypeConfig GetMultipleDropTypeByGuideType(::RPG::GameCore::GuideType a1)
 		{
-			return ((::RPG::GameCore::MultipleDropTypeConfig(*)(::RPG::GameCore::GuideType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTYPEBYGUIDETYPE_OFFSET))(guideType);
+			return ((::RPG::GameCore::MultipleDropTypeConfig(*)(::RPG::GameCore::GuideType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETMULTIPLEDROPTYPEBYGUIDETYPE_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::GuideType GetGuideTypeByMultipleDropType(::RPG::GameCore::MultipleDropTypeConfig multipleDropType)
+		static ::RPG::GameCore::GuideType GetGuideTypeByMultipleDropType(::RPG::GameCore::MultipleDropTypeConfig a1)
 		{
-			return ((::RPG::GameCore::GuideType(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETGUIDETYPEBYMULTIPLEDROPTYPE_OFFSET))(multipleDropType);
+			return ((::RPG::GameCore::GuideType(*)(::RPG::GameCore::MultipleDropTypeConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLEDROPUTILS_GETGUIDETYPEBYMULTIPLEDROPTYPE_OFFSET))(a1);
 		}
 	};
 }

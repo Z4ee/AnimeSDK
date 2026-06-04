@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONSTERWAVEPARAMCONFIG_METHOD_2_A3C73782D742FF7A_OFFSET UNITYSDK_OFFSET(0x18B64340)
-#define RPG_GAMECORE_MONSTERWAVEPARAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B64530)
+#define RPG_GAMECORE_MONSTERWAVEPARAMCONFIG_METHOD_2_A3C73782D742FF7A_OFFSET UNITYSDK_OFFSET(0x199B37E0)
+#define RPG_GAMECORE_MONSTERWAVEPARAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199B39D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterWaveParamConfig_TypeDefinitionIndex = 17260;
+	inline static constexpr unsigned int MonsterWaveParamConfig_TypeDefinitionIndex = 17268;
 
 	class MonsterWaveParamConfig : public ::RPG::GameCore::JsonConfig
 	{

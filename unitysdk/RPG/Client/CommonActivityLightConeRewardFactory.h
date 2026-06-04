@@ -6,13 +6,13 @@ namespace RPG::Client { class CommonActivityLightConeRewardData; }
 namespace RPG::Client { class CommonActivityLightConeRewardGroup; }
 namespace RPG::GameCore { class ActivityEquipmentRewardMaterialRow; }
 
-#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATEGROUP_OFFSET UNITYSDK_OFFSET(0xA0B8A70)
-#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xA0B8610)
-#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xA0B8CB0)
+#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATEGROUP_OFFSET UNITYSDK_OFFSET(0xB6F6D10)
+#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xB6F6830)
+#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xB6F6F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CommonActivityLightConeRewardFactory_TypeDefinitionIndex = 56880;
+	inline static constexpr unsigned int CommonActivityLightConeRewardFactory_TypeDefinitionIndex = 57668;
 
 	class CommonActivityLightConeRewardFactory : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::CommonActivityLightConeRewardData* Create(::System::UInt32 ID)
+		static ::RPG::Client::CommonActivityLightConeRewardData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::CommonActivityLightConeRewardData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATE_OFFSET))(ID);
+			return ((::RPG::Client::CommonActivityLightConeRewardData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::CommonActivityLightConeRewardGroup* CreateGroup(::RPG::GameCore::ActivityEquipmentRewardMaterialRow* row)
+		static ::RPG::Client::CommonActivityLightConeRewardGroup* CreateGroup(::RPG::GameCore::ActivityEquipmentRewardMaterialRow* a1)
 		{
-			return ((::RPG::Client::CommonActivityLightConeRewardGroup*(*)(::RPG::GameCore::ActivityEquipmentRewardMaterialRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATEGROUP_OFFSET))(row);
+			return ((::RPG::Client::CommonActivityLightConeRewardGroup*(*)(::RPG::GameCore::ActivityEquipmentRewardMaterialRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATEGROUP_OFFSET))(a1);
 		}
 	};
 }

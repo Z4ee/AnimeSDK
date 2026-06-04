@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class MatchThreeGameOpponent; }
 
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA836F80)
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_0__INITPLAYERS_B__0_OFFSET UNITYSDK_OFFSET(0xA836F90)
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_0__INITPLAYERS_B__1_OFFSET UNITYSDK_OFFSET(0xA837000)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF78330)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_0__INITPLAYERS_B__0_OFFSET UNITYSDK_OFFSET(0xBF81140)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_0__INITPLAYERS_B__1_OFFSET UNITYSDK_OFFSET(0xBF811B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass4_0_TypeDefinitionIndex = 60707;
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass4_0_TypeDefinitionIndex = 61641;
 
 	class MatchThreeGame___c__DisplayClass4_0 : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _InitPlayers_b__0(::RPG::Client::MatchThreeGameOpponent* opponent)
+		::System::Boolean _InitPlayers_b__0(::RPG::Client::MatchThreeGameOpponent* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeGameOpponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_0__INITPLAYERS_B__0_OFFSET))(this, opponent);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeGameOpponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_0__INITPLAYERS_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _InitPlayers_b__1(::RPG::Client::MatchThreeGameOpponent* opponent)
+		::System::Boolean _InitPlayers_b__1(::RPG::Client::MatchThreeGameOpponent* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeGameOpponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_0__INITPLAYERS_B__1_OFFSET))(this, opponent);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeGameOpponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_0__INITPLAYERS_B__1_OFFSET))(this, a1);
 		}
 	};
 }

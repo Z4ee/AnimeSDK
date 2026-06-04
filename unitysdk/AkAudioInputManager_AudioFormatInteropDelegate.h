@@ -6,33 +6,33 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A5CB1C0)
-#define AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A5CB230)
-#define AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A5CAE70)
-#define AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5CADC0)
+#define AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4157F0)
+#define AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B415860)
+#define AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4157E0)
+#define AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B415770)
 
-inline static constexpr unsigned int AkAudioInputManager_AudioFormatInteropDelegate_TypeDefinitionIndex = 40367;
+inline static constexpr unsigned int AkAudioInputManager_AudioFormatInteropDelegate_TypeDefinitionIndex = 41194;
 
 class AkAudioInputManager_AudioFormatInteropDelegate : public ::System::MulticastDelegate
 {
 public:
-	::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+	::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE__CTOR_OFFSET))(this, object, method);
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Invoke(::System::UInt32 playingID, ::System::IntPtr format)
+	::System::Void Invoke(::System::UInt32 a1, ::System::IntPtr a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_INVOKE_OFFSET))(this, playingID, format);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 	}
 
-	::System::IAsyncResult* BeginInvoke(::System::UInt32 playingID, ::System::IntPtr format, ::System::AsyncCallback* callback, ::System::Object* object)
+	::System::IAsyncResult* BeginInvoke(::System::UInt32 a1, ::System::IntPtr a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 	{
-		return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_BEGININVOKE_OFFSET))(this, playingID, format, callback, object);
+		return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void EndInvoke(::System::IAsyncResult* result)
+	::System::Void EndInvoke(::System::IAsyncResult* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_ENDINVOKE_OFFSET))(this, result);
+		return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + AKAUDIOINPUTMANAGER_AUDIOFORMATINTEROPDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 	}
 };

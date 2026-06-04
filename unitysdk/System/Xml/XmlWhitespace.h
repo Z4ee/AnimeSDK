@@ -8,17 +8,17 @@ namespace System::Xml { class XmlDocument; }
 namespace System::Xml { class XmlNode; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_XMLWHITESPACE_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1A08EE90)
-#define SYSTEM_XML_XMLWHITESPACE_GET_ISTEXT_OFFSET UNITYSDK_OFFSET(0x1A08EF30)
-#define SYSTEM_XML_XMLWHITESPACE_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1A08ED30)
-#define SYSTEM_XML_XMLWHITESPACE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A08ED10)
-#define SYSTEM_XML_XMLWHITESPACE_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1A08ED50)
-#define SYSTEM_XML_XMLWHITESPACE_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x1A08ED60)
-#define SYSTEM_XML_XMLWHITESPACE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A08EDF0)
-#define SYSTEM_XML_XMLWHITESPACE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A08EE10)
-#define SYSTEM_XML_XMLWHITESPACE_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1A08EF20)
-#define SYSTEM_XML_XMLWHITESPACE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A08EEE0)
-#define SYSTEM_XML_XMLWHITESPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A08EC20)
+#define SYSTEM_XML_XMLWHITESPACE_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1AEFFEA0)
+#define SYSTEM_XML_XMLWHITESPACE_GET_ISTEXT_OFFSET UNITYSDK_OFFSET(0x1AEFFF40)
+#define SYSTEM_XML_XMLWHITESPACE_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1AEFFCA0)
+#define SYSTEM_XML_XMLWHITESPACE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1AEFFC80)
+#define SYSTEM_XML_XMLWHITESPACE_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1AEFFCC0)
+#define SYSTEM_XML_XMLWHITESPACE_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x1AEFFCD0)
+#define SYSTEM_XML_XMLWHITESPACE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1AEFFD60)
+#define SYSTEM_XML_XMLWHITESPACE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1AEFFD80)
+#define SYSTEM_XML_XMLWHITESPACE_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1AEFFF30)
+#define SYSTEM_XML_XMLWHITESPACE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1AEFFEF0)
+#define SYSTEM_XML_XMLWHITESPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEFFB00)
 
 namespace System::Xml
 {
@@ -27,9 +27,9 @@ namespace System::Xml
 	class XmlWhitespace : public ::System::Xml::XmlCharacterData
 	{
 	public:
-		::System::Void _ctor(::System::String* strData, ::System::Xml::XmlDocument* doc)
+		::System::Void _ctor(::System::String* a1, ::System::Xml::XmlDocument* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWHITESPACE__CTOR_OFFSET))(this, strData, doc);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWHITESPACE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Name()
@@ -57,24 +57,24 @@ namespace System::Xml
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWHITESPACE_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::String* value)
+		::System::Void set_Value(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWHITESPACE_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWHITESPACE_SET_VALUE_OFFSET))(this, a1);
 		}
 
-		::System::Xml::XmlNode* CloneNode(::System::Boolean deep)
+		::System::Xml::XmlNode* CloneNode(::System::Boolean a1)
 		{
-			return ((::System::Xml::XmlNode*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWHITESPACE_CLONENODE_OFFSET))(this, deep);
+			return ((::System::Xml::XmlNode*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWHITESPACE_CLONENODE_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteTo(::System::Xml::XmlWriter* w)
+		::System::Void WriteTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWHITESPACE_WRITETO_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWHITESPACE_WRITETO_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteContentTo(::System::Xml::XmlWriter* w)
+		::System::Void WriteContentTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWHITESPACE_WRITECONTENTTO_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWHITESPACE_WRITECONTENTTO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsText()

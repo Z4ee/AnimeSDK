@@ -12,29 +12,29 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_301046E588A5ED6C_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCD54380)
-#define CLASS_3_301046E588A5ED6C_DOONENTER_OFFSET UNITYSDK_OFFSET(0xCD541F0)
-#define CLASS_3_301046E588A5ED6C_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xCD542B0)
-#define CLASS_3_301046E588A5ED6C_METHOD_3_302491B5103E9B5D_OFFSET UNITYSDK_OFFSET(0xCD548F0)
-#define CLASS_3_301046E588A5ED6C_METHOD_3_8A4E7CFB6A3884DD_OFFSET UNITYSDK_OFFSET(0xCD54600)
-#define CLASS_3_301046E588A5ED6C_METHOD_3_D1CC371FD412BD91_OFFSET UNITYSDK_OFFSET(0xCD544E0)
-#define CLASS_3_301046E588A5ED6C_METHOD_3_DFD7F5C5419FD422_OFFSET UNITYSDK_OFFSET(0xCD54660)
-#define CLASS_3_301046E588A5ED6C__CTOR_OFFSET UNITYSDK_OFFSET(0xCD53FB0)
-#define CLASS_3_301046E588A5ED6C___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCD54820)
-#define CLASS_3_301046E588A5ED6C___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0xCD54720)
-#define CLASS_3_301046E588A5ED6C___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xCD547A0)
+#define CLASS_3_301046E588A5ED6C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12AB5B80)
+#define CLASS_3_301046E588A5ED6C_DOONENTER_OFFSET UNITYSDK_OFFSET(0x12AB59F0)
+#define CLASS_3_301046E588A5ED6C_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x12AB5AB0)
+#define CLASS_3_301046E588A5ED6C_METHOD_3_8A4E7CFB6A3884DD_OFFSET UNITYSDK_OFFSET(0x12AB5E70)
+#define CLASS_3_301046E588A5ED6C_METHOD_3_932EF970D713663B_OFFSET UNITYSDK_OFFSET(0x12AB5CD0)
+#define CLASS_3_301046E588A5ED6C_METHOD_3_DFD7F5C5419FD422_OFFSET UNITYSDK_OFFSET(0x12AB6150)
+#define CLASS_3_301046E588A5ED6C_METHOD_3_E97FC8C27C810984_OFFSET UNITYSDK_OFFSET(0x12AB5ED0)
+#define CLASS_3_301046E588A5ED6C__CTOR_OFFSET UNITYSDK_OFFSET(0x12AB57D0)
+#define CLASS_3_301046E588A5ED6C___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12AB6090)
+#define CLASS_3_301046E588A5ED6C___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0x12AB5F90)
+#define CLASS_3_301046E588A5ED6C___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x12AB6010)
 
-inline static constexpr unsigned int Class_3_301046E588A5ED6C_TypeDefinitionIndex = 72376;
+inline static constexpr unsigned int Class_3_301046E588A5ED6C_TypeDefinitionIndex = 73398;
 
 class Class_3_301046E588A5ED6C : public ::Class_2_C5E5FE6832D0C155
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* Field_3_2; // 0xC0
-	::System::Action* Field_3_3; // 0xC8
-	::Il2CppArray<::RPG::GameCore::EntityType>* Field_3_1; // 0xD0
-	::System::Action* Field_3_4; // 0xD8
-	::System::Boolean Field_3_5; // 0xE0
-	::System::Boolean Field_3_0; // 0xE1
+	::Il2CppArray<::RPG::GameCore::EntityType>* Field_3_0; // 0xC0
+	::System::Action* Field_3_1; // 0xC8
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* Field_3_2; // 0xD0
+	::System::Action* Field_3_3; // 0xD8
+	::System::Boolean Field_3_4; // 0xE0
+	::System::Boolean Field_3_5; // 0xE1
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>* a3, ::Il2CppArray<::System::Action*>* a4, ::System::Func_1<::System::Boolean>* a5)
 	{
@@ -56,9 +56,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_3_D1CC371FD412BD91(::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>* a1)
+	::System::Void Method_3_932EF970D713663B(::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>*))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C_METHOD_3_D1CC371FD412BD91_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::OptionTriggerInfo*>*))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C_METHOD_3_932EF970D713663B_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_3_8A4E7CFB6A3884DD(::System::Action* a1, ::System::Action* a2)
@@ -66,19 +66,19 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C_METHOD_3_8A4E7CFB6A3884DD_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_3_DFD7F5C5419FD422(::System::Object* a1)
+	::System::Void Method_3_E97FC8C27C810984(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C_METHOD_3_DFD7F5C5419FD422_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C_METHOD_3_E97FC8C27C810984_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_DoOnEnter(::RPG::GameCore::GameEntity* P0)
+	::System::Void __iFixBaseProxy_DoOnEnter(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C___IFIXBASEPROXY_DOONENTER_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C___IFIXBASEPROXY_DOONENTER_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_DoOnExit(::RPG::GameCore::GameEntity* P0, ::RPG::GameCore::TriggerExitReason P1)
+	::System::Void __iFixBaseProxy_DoOnExit(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TriggerExitReason a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TriggerExitReason))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C___IFIXBASEPROXY_DOONEXIT_OFFSET))(this, P0, P1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TriggerExitReason))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C___IFIXBASEPROXY_DOONEXIT_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void __iFixBaseProxy_Dispose()
@@ -86,8 +86,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_3_302491B5103E9B5D(::System::Object* P0)
+	::System::Void Method_3_DFD7F5C5419FD422(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C_METHOD_3_302491B5103E9B5D_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_301046E588A5ED6C_METHOD_3_DFD7F5C5419FD422_OFFSET))(this, a1);
 	}
 };

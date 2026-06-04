@@ -6,15 +6,15 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER_REFRESHPOSITION_OFFSET UNITYSDK_OFFSET(0xA028670)
-#define RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA028C60)
-#define RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHINFOPOSITION_OFFSET UNITYSDK_OFFSET(0xA028B30)
-#define RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHNAMEPOSITION_OFFSET UNITYSDK_OFFSET(0xA0288D0)
-#define RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHTALKPOPPOSITION_OFFSET UNITYSDK_OFFSET(0xA028A00)
+#define RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER_REFRESHPOSITION_OFFSET UNITYSDK_OFFSET(0xB6A4F80)
+#define RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB6A55F0)
+#define RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHINFOPOSITION_OFFSET UNITYSDK_OFFSET(0xB6A54C0)
+#define RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHNAMEPOSITION_OFFSET UNITYSDK_OFFSET(0xB6A5260)
+#define RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHTALKPOPPOSITION_OFFSET UNITYSDK_OFFSET(0xB6A5390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraEvaluationPositionController_TypeDefinitionIndex = 66776;
+	inline static constexpr unsigned int ChimeraEvaluationPositionController_TypeDefinitionIndex = 67716;
 
 	class ChimeraEvaluationPositionController : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,24 +30,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void RefreshPosition(::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* nodeList)
+		::System::Void RefreshPosition(::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER_REFRESHPOSITION_OFFSET))(this, nodeList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER_REFRESHPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void _RefreshNamePosition(::UnityEngine::RectTransform* node, ::UnityEngine::Vector3 newLocalPosition)
+		::System::Void _RefreshNamePosition(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHNAMEPOSITION_OFFSET))(this, node, newLocalPosition);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHNAMEPOSITION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _RefreshTalkPopPosition(::UnityEngine::RectTransform* node, ::UnityEngine::Vector3 newLocalPosition)
+		::System::Void _RefreshTalkPopPosition(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHTALKPOPPOSITION_OFFSET))(this, node, newLocalPosition);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHTALKPOPPOSITION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _RefreshInfoPosition(::UnityEngine::RectTransform* node, ::UnityEngine::Vector3 newLocalPosition)
+		::System::Void _RefreshInfoPosition(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHINFOPOSITION_OFFSET))(this, node, newLocalPosition);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONPOSITIONCONTROLLER__REFRESHINFOPOSITION_OFFSET))(this, a1, a2);
 		}
 	};
 }

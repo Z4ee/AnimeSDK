@@ -9,38 +9,36 @@
 #include "unitysdk/RPG/MVector3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace System { class String; }
 
-#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_302838C57322931A_OFFSET UNITYSDK_OFFSET(0x18E024A0)
-#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_B889F2F56102372C_OFFSET UNITYSDK_OFFSET(0x18E02670)
-#define RPG_GAMECORE_SERVANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E02640)
+#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_B889F2F56102372C_OFFSET UNITYSDK_OFFSET(0x19C21940)
+#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_FB8141C3AC00DE88_OFFSET UNITYSDK_OFFSET(0x19C214D0)
+#define RPG_GAMECORE_SERVANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C21830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 15647;
+	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 15705;
 
 	class ServantConfig : public ::RPG::GameCore::CharacterConfig
 	{
 	public:
-		::RPG::GameCore::BattleEventLifeBinding LifeBinding; // 0x208
-		::RPG::GameCore::TeamLocationType LocationType; // 0x20C
-		::System::Boolean AddToTeamFormation; // 0x210
-		::RPG::GameCore::AttackDamageType DamageType; // 0x214
-		::RPG::GameCore::AbilityPropertyIneritType PropertyInherit; // 0x218
-		::Il2CppArray<::RPG::GameCore::AbilityProperty>* SyncPropertyExceptList; // 0x220
-		::RPG::MVector3 ViewModeServantFollowOffset; // 0x228
-		::System::Single ViewModeServantFollowYawAngle; // 0x234
-		::System::Boolean IsPlayerControlled; // 0x238
-		::System::String* AIPath; // 0x240
+		::RPG::GameCore::BattleEventLifeBinding LifeBinding; // 0x210
+		::RPG::GameCore::TeamLocationType LocationType; // 0x214
+		::System::Boolean AddToTeamFormation; // 0x218
+		::RPG::GameCore::AttackDamageType DamageType; // 0x21C
+		::RPG::GameCore::AbilityPropertyIneritType PropertyInherit; // 0x220
+		::Il2CppArray<::RPG::GameCore::AbilityProperty>* SyncPropertyExceptList; // 0x228
+		::RPG::MVector3 ViewModeServantFollowOffset; // 0x230
+		::System::Single ViewModeServantFollowYawAngle; // 0x23C
+		::System::Boolean IsPlayerControlled; // 0x240
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_302838C57322931A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ServantConfig*& a2)
+		static ::System::Void Method_3_FB8141C3AC00DE88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ServantConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ServantConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTCONFIG_METHOD_3_302838C57322931A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ServantConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTCONFIG_METHOD_3_FB8141C3AC00DE88_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B889F2F56102372C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ServantConfig* a2)

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineupAvatarDynamicParamType_TypeDefinitionIndex = 17224;
+	inline static constexpr unsigned int LineupAvatarDynamicParamType_TypeDefinitionIndex = 17232;
 
 	enum class LineupAvatarDynamicParamType : ::System::Int32
 	{

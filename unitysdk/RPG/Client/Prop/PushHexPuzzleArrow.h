@@ -5,14 +5,14 @@
 
 namespace RPG::Client::Prop { class PuzzleBoardBase; }
 
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW_INIT_OFFSET UNITYSDK_OFFSET(0xAEAC510)
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW_REFRESHDIRECTION_OFFSET UNITYSDK_OFFSET(0xAEAC590)
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW__CTOR_OFFSET UNITYSDK_OFFSET(0xAEAC780)
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xAEAC790)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW_INIT_OFFSET UNITYSDK_OFFSET(0xC5F2AD0)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW_REFRESHDIRECTION_OFFSET UNITYSDK_OFFSET(0xC5F2B50)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW__CTOR_OFFSET UNITYSDK_OFFSET(0xC5F2D40)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xC5F2D50)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PushHexPuzzleArrow_TypeDefinitionIndex = 72113;
+	inline static constexpr unsigned int PushHexPuzzleArrow_TypeDefinitionIndex = 73135;
 
 	class PushHexPuzzleArrow : public ::RPG::Client::Prop::HexPuzzleItemBase
 	{
@@ -34,9 +34,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW_REFRESHDIRECTION_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_Init(::RPG::Client::Prop::PuzzleBoardBase* P0)
+		::System::Void __iFixBaseProxy_Init(::RPG::Client::Prop::PuzzleBoardBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PuzzleBoardBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW___IFIXBASEPROXY_INIT_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PuzzleBoardBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PUSHHEXPUZZLEARROW___IFIXBASEPROXY_INIT_OFFSET))(this, a1);
 		}
 	};
 }

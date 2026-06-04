@@ -4,27 +4,27 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_CALENDARIDTOCULTURENAME_OFFSET UNITYSDK_OFFSET(0x1791A8A0)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_FILL_CALENDAR_DATA_OFFSET UNITYSDK_OFFSET(0x1791ABF0)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_GETCALENDARDATA_OFFSET UNITYSDK_OFFSET(0x179185C0)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEABBREVIATEDERANAMES_OFFSET UNITYSDK_OFFSET(0x1791A1D0)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEERANAMES_OFFSET UNITYSDK_OFFSET(0x17919C70)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETCALENDARDATA_OFFSET UNITYSDK_OFFSET(0x17919BA0)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETTWODIGITYEARMAX_OFFSET UNITYSDK_OFFSET(0x17918A40)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x17918A60)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x179193D0)
-#define SYSTEM_GLOBALIZATION_CALENDARDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17918A50)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_CALENDARIDTOCULTURENAME_OFFSET UNITYSDK_OFFSET(0x186D0040)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_FILL_CALENDAR_DATA_OFFSET UNITYSDK_OFFSET(0x186D0330)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_GETCALENDARDATA_OFFSET UNITYSDK_OFFSET(0x186CE280)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEABBREVIATEDERANAMES_OFFSET UNITYSDK_OFFSET(0x186CFA30)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEERANAMES_OFFSET UNITYSDK_OFFSET(0x186CF5C0)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETCALENDARDATA_OFFSET UNITYSDK_OFFSET(0x186CF4F0)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETTWODIGITYEARMAX_OFFSET UNITYSDK_OFFSET(0x186CE700)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x186CE720)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x186CED50)
+#define SYSTEM_GLOBALIZATION_CALENDARDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x186CE710)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CalendarData_TypeDefinitionIndex = 733;
+	inline static constexpr unsigned int CalendarData_TypeDefinitionIndex = 732;
 
 	class CalendarData : public ::System::Object
 	{
 	public:
 		static ::System::Globalization::CalendarData** StaticGet_Invariant()
 		{
-			return (::System::Globalization::CalendarData**)Il2CppClass::FromTypeDefinitionIndex(CalendarData_TypeDefinitionIndex)->GetStaticField(0x6E20);
+			return (::System::Globalization::CalendarData**)Il2CppClass::FromTypeDefinitionIndex(CalendarData_TypeDefinitionIndex)->GetStaticField(0x6510);
 		}
 		// static const ::System::Int32 MAX_CALENDARS = 0x17; // 0x0
 		::System::String* sNativeName; // 0x10
@@ -57,44 +57,44 @@ namespace System::Globalization
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA__CCTOR_OFFSET))();
 		}
 
-		::System::Void _ctor_1(::System::String* localeName, ::System::Int32 calendarId, ::System::Boolean bUseUserOverrides)
+		::System::Void _ctor_1(::System::String* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA__CTOR_1_OFFSET))(this, localeName, calendarId, bUseUserOverrides);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void InitializeEraNames(::System::String* localeName, ::System::Int32 calendarId)
+		::System::Void InitializeEraNames(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEERANAMES_OFFSET))(this, localeName, calendarId);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEERANAMES_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InitializeAbbreviatedEraNames(::System::String* localeName, ::System::Int32 calendarId)
+		::System::Void InitializeAbbreviatedEraNames(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEABBREVIATEDERANAMES_OFFSET))(this, localeName, calendarId);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_INITIALIZEABBREVIATEDERANAMES_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Globalization::CalendarData* GetCalendarData(::System::Int32 calendarId)
+		static ::System::Globalization::CalendarData* GetCalendarData(::System::Int32 a1)
 		{
-			return ((::System::Globalization::CalendarData*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_GETCALENDARDATA_OFFSET))(calendarId);
+			return ((::System::Globalization::CalendarData*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_GETCALENDARDATA_OFFSET))(a1);
 		}
 
-		static ::System::String* CalendarIdToCultureName(::System::Int32 calendarId)
+		static ::System::String* CalendarIdToCultureName(::System::Int32 a1)
 		{
-			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_CALENDARIDTOCULTURENAME_OFFSET))(calendarId);
+			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_CALENDARIDTOCULTURENAME_OFFSET))(a1);
 		}
 
-		static ::System::Int32 nativeGetTwoDigitYearMax(::System::Int32 calID)
+		static ::System::Int32 nativeGetTwoDigitYearMax(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETTWODIGITYEARMAX_OFFSET))(calID);
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETTWODIGITYEARMAX_OFFSET))(a1);
 		}
 
-		static ::System::Boolean nativeGetCalendarData(::System::Globalization::CalendarData* data, ::System::String* localeName, ::System::Int32 calendarId)
+		static ::System::Boolean nativeGetCalendarData(::System::Globalization::CalendarData* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::CalendarData*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETCALENDARDATA_OFFSET))(data, localeName, calendarId);
+			return ((::System::Boolean(*)(::System::Globalization::CalendarData*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_NATIVEGETCALENDARDATA_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Boolean fill_calendar_data(::System::String* localeName, ::System::Int32 datetimeIndex)
+		::System::Boolean fill_calendar_data(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_FILL_CALENDAR_DATA_OFFSET))(this, localeName, datetimeIndex);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CALENDARDATA_FILL_CALENDAR_DATA_OFFSET))(this, a1, a2);
 		}
 	};
 }

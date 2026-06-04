@@ -2,9 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::GameCore { class GameEntity; }
-
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_42_TypeDefinitionIndex = 49775;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_42_TypeDefinitionIndex = 50151;
 
 class Class_1_534AF681CC2BD5FD_42 : public ::System::Object
 {

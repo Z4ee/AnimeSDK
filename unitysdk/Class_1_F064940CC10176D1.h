@@ -5,15 +5,15 @@
 
 namespace RPG::Client { class ShotAnimMovementData; }
 
-#define CLASS_1_F064940CC10176D1__CTOR_OFFSET UNITYSDK_OFFSET(0xA7B9400)
+#define CLASS_1_F064940CC10176D1__CTOR_OFFSET UNITYSDK_OFFSET(0x139F5440)
 
-inline static constexpr unsigned int Class_1_F064940CC10176D1_TypeDefinitionIndex = 64193;
+inline static constexpr unsigned int Class_1_F064940CC10176D1_TypeDefinitionIndex = 65114;
 
 class Class_1_F064940CC10176D1 : public ::System::Object
 {
 public:
-	::RPG::Client::ShotAnimMovementData* Field_1_1; // 0x10
-	::RPG::Client::ShotAnimType Field_1_0; // 0x18
+	::RPG::Client::ShotAnimMovementData* Field_1_0; // 0x10
+	::RPG::Client::ShotAnimType Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

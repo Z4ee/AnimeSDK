@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RoleTrialActivityData.h"
 
-#define RPG_CLIENT_ROLETRIALCOLLABORATIONACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB12B400)
+#define RPG_CLIENT_ROLETRIALCOLLABORATIONACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC87F3A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoleTrialCollaborationActivityData_TypeDefinitionIndex = 56864;
+	inline static constexpr unsigned int RoleTrialCollaborationActivityData_TypeDefinitionIndex = 57652;
 
 	class RoleTrialCollaborationActivityData : public ::RPG::Client::RoleTrialActivityData
 	{
 	public:
-		::System::Void _ctor(::System::UInt32 ID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALCOLLABORATIONACTIVITYDATA__CTOR_OFFSET))(this, ID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALCOLLABORATIONACTIVITYDATA__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

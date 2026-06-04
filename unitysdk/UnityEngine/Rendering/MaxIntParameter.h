@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/IntParameter.h"
 
-#define UNITYENGINE_RENDERING_MAXINTPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A321A70)
-#define UNITYENGINE_RENDERING_MAXINTPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A321A80)
-#define UNITYENGINE_RENDERING_MAXINTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A321A90)
+#define UNITYENGINE_RENDERING_MAXINTPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B17C390)
+#define UNITYENGINE_RENDERING_MAXINTPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B17C3A0)
+#define UNITYENGINE_RENDERING_MAXINTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17C3B0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MaxIntParameter_TypeDefinitionIndex = 33540;
+	inline static constexpr unsigned int MaxIntParameter_TypeDefinitionIndex = 33822;
 
 	class MaxIntParameter : public ::UnityEngine::Rendering::IntParameter
 	{
 	public:
 		::System::Int32 max; // 0x20
 
-		::System::Void _ctor(::System::Int32 value, ::System::Int32 max, ::System::Boolean overrideState)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_MAXINTPARAMETER__CTOR_OFFSET))(this, value, max, overrideState);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_MAXINTPARAMETER__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_value()
@@ -25,9 +25,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_MAXINTPARAMETER_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_value(::System::Int32 value)
+		::System::Void set_value(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_MAXINTPARAMETER_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_MAXINTPARAMETER_SET_VALUE_OFFSET))(this, a1);
 		}
 	};
 }

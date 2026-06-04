@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_5C0B0D7675435A20.h"
 
-class Class_0_16E4307DCC419505_116;
-class Class_1_47EE63CB5C4DC8FC_7;
+class Class_1_4806277EE54A9300;
+namespace RPG::GameCore { class FiveDimBaseCameraConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_138_TypeDefinitionIndex = 38144;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_138_TypeDefinitionIndex = 38887;
 
 class Class_0_16E4307DCC419505_138
 {

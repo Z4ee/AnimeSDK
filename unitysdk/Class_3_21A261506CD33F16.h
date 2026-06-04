@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_2_3A284BE358DB4BF2.h"
-#include "unitysdk/Enum_3_63BCB6C405BA8A1D_1.h"
+#include "unitysdk/Enum_3_63BCB6C405BA8A1D_2.h"
 
-class Class_1_D17272E82AE804C2_792;
+class Class_1_D17272E82AE804C2_828;
 namespace RPG::Client { class RogueKeywordInfo; }
 
-#define CLASS_3_21A261506CD33F16_METHOD_3_EBEE0D0A222A8264_OFFSET UNITYSDK_OFFSET(0x117F5A60)
-#define CLASS_3_21A261506CD33F16__CTOR_OFFSET UNITYSDK_OFFSET(0x117F5A50)
+#define CLASS_3_21A261506CD33F16_METHOD_3_61113270C4B9E4F4_OFFSET UNITYSDK_OFFSET(0xA77A150)
+#define CLASS_3_21A261506CD33F16__CTOR_OFFSET UNITYSDK_OFFSET(0xA77A140)
 
-inline static constexpr unsigned int Class_3_21A261506CD33F16_TypeDefinitionIndex = 61794;
+inline static constexpr unsigned int Class_3_21A261506CD33F16_TypeDefinitionIndex = 62727;
 
 class Class_3_21A261506CD33F16 : public ::Class_2_3A284BE358DB4BF2
 {
 public:
-	::Class_1_D17272E82AE804C2_792* Field_3_0; // 0x28
+	::Class_1_D17272E82AE804C2_828* Field_3_0; // 0x28
 
-	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_1 a1, ::RPG::Client::RogueKeywordInfo* a2, ::Class_1_D17272E82AE804C2_792* a3)
+	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_2 a1, ::RPG::Client::RogueKeywordInfo* a2, ::Class_1_D17272E82AE804C2_828* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Enum_3_63BCB6C405BA8A1D_1, ::RPG::Client::RogueKeywordInfo*, ::Class_1_D17272E82AE804C2_792*))((::PBYTE)hIl2Cpp + CLASS_3_21A261506CD33F16__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Enum_3_63BCB6C405BA8A1D_2, ::RPG::Client::RogueKeywordInfo*, ::Class_1_D17272E82AE804C2_828*))((::PBYTE)hIl2Cpp + CLASS_3_21A261506CD33F16__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_3_EBEE0D0A222A8264()
+	::System::Void Method_3_61113270C4B9E4F4()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_21A261506CD33F16_METHOD_3_EBEE0D0A222A8264_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_21A261506CD33F16_METHOD_3_61113270C4B9E4F4_OFFSET))(this);
 	}
 };

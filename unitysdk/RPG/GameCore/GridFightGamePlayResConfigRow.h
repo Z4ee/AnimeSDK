@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTGAMEPLAYRESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189AEC50)
-#define RPG_GAMECORE_GRIDFIGHTGAMEPLAYRESCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189AEE10)
+#define RPG_GAMECORE_GRIDFIGHTGAMEPLAYRESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197E6800)
+#define RPG_GAMECORE_GRIDFIGHTGAMEPLAYRESCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x197E69C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightGamePlayResConfigRow_TypeDefinitionIndex = 12733;
+	inline static constexpr unsigned int GridFightGamePlayResConfigRow_TypeDefinitionIndex = 12823;
 
 	class GridFightGamePlayResConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* Name; // 0x18
+		::System::String* Name; // 0x10
+		::System::String* IconPath; // 0x18
 		::System::String* Desc; // 0x20
 		::System::UInt32 ID; // 0x28
 
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTGAMEPLAYRESCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GridFightGamePlayResConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightGamePlayResConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightGamePlayResConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTGAMEPLAYRESCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightGamePlayResConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTGAMEPLAYRESCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

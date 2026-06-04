@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK { class MmtManager___c__DisplayClass13_1; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_2__CREATEMMT_B__1_OFFSET UNITYSDK_OFFSET(0x175807C0)
-#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17580670)
+#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_2__CREATEMMT_B__1_OFFSET UNITYSDK_OFFSET(0x18369000)
+#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18368EB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MmtManager___c__DisplayClass13_2_TypeDefinitionIndex = 7079;
+	inline static constexpr unsigned int MmtManager___c__DisplayClass13_2_TypeDefinitionIndex = 7982;
 
 	class MmtManager___c__DisplayClass13_2 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_2__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _CreateMmt_b__1(::System::Int32 code, ::System::String* mmt)
+		::System::Void _CreateMmt_b__1(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_2__CREATEMMT_B__1_OFFSET))(this, code, mmt);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_2__CREATEMMT_B__1_OFFSET))(this, a1, a2);
 		}
 	};
 }

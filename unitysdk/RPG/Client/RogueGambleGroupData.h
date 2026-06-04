@@ -6,51 +6,51 @@
 #include "unitysdk/RPG/GameCore/RogueGambleMachineType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_284D32FB02E8E03B;
-class Class_1_2C8DDB37F88B4DBC_1;
+class Class_1_2C8DDB37F88B4DBC_3;
+class Class_1_A206B8DE5F5CCBA3;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class RogueGambleUnitData; }
 namespace RPG::GameCore { class RogueTournGambleGroupRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_GAMBLEMODE_OFFSET UNITYSDK_OFFSET(0xB03C8E0)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xB03C8C0)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xB03C700)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xB03C720)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xB03B900)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB03C890)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ROGUEGAMBLEUNITDATALIST_OFFSET UNITYSDK_OFFSET(0xB03C740)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xB03C760)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB03C870)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_GAMBLEMODE_OFFSET UNITYSDK_OFFSET(0xB03C8F0)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xB03C710)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0xB03C730)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ROGUEGAMBLEUNITDATALIST_OFFSET UNITYSDK_OFFSET(0xB03C750)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB03B410)
-#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA__SETUPGAMBLEGROUPDATALIST_OFFSET UNITYSDK_OFFSET(0xB03C4F0)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_GAMBLEMODE_OFFSET UNITYSDK_OFFSET(0xC789390)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xC789370)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xC7891B0)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xC7891D0)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC7883D0)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC789340)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ROGUEGAMBLEUNITDATALIST_OFFSET UNITYSDK_OFFSET(0xC7891F0)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xC789210)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xC789320)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_GAMBLEMODE_OFFSET UNITYSDK_OFFSET(0xC7893A0)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xC7891C0)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0xC7891E0)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ROGUEGAMBLEUNITDATALIST_OFFSET UNITYSDK_OFFSET(0xC789200)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC787E40)
+#define RPG_CLIENT_ROGUEGAMBLEGROUPDATA__SETUPGAMBLEGROUPDATALIST_OFFSET UNITYSDK_OFFSET(0xC788EE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueGambleGroupData_TypeDefinitionIndex = 61933;
+	inline static constexpr unsigned int RogueGambleGroupData_TypeDefinitionIndex = 62866;
 
 	class RogueGambleGroupData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RogueTournGambleGroupRow* _Row; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::RogueGambleUnitData*>* _RogueGambleUnitDataList_k__BackingField; // 0x18
-		::RPG::Client::RogueGambleMode _GambleMode_k__BackingField; // 0x20
-		::System::Boolean _IsValid_k__BackingField; // 0x24
-		::System::UInt32 _ID_k__BackingField; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::RogueGambleUnitData*>* _RogueGambleUnitDataList_k__BackingField; // 0x10
+		::RPG::GameCore::RogueTournGambleGroupRow* _Row; // 0x18
+		::System::UInt32 _ID_k__BackingField; // 0x20
+		::RPG::Client::RogueGambleMode _GambleMode_k__BackingField; // 0x24
+		::System::Boolean _IsValid_k__BackingField; // 0x28
 
-		::System::Void _ctor(::Class_1_2C8DDB37F88B4DBC_1* protoGroupInfo, ::RPG::Client::RogueGambleMode gambleMode)
+		::System::Void _ctor(::Class_1_2C8DDB37F88B4DBC_3* a1, ::RPG::Client::RogueGambleMode a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_2C8DDB37F88B4DBC_1*, ::RPG::Client::RogueGambleMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA__CTOR_OFFSET))(this, protoGroupInfo, gambleMode);
+			return ((::System::Void(*)(::PVOID, ::Class_1_2C8DDB37F88B4DBC_3*, ::RPG::Client::RogueGambleMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _SetupGambleGroupDataList(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_284D32FB02E8E03B*>* protoUnitDataList)
+		::System::Void _SetupGambleGroupDataList(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_A206B8DE5F5CCBA3*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_284D32FB02E8E03B*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA__SETUPGAMBLEGROUPDATALIST_OFFSET))(this, protoUnitDataList);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_A206B8DE5F5CCBA3*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA__SETUPGAMBLEGROUPDATALIST_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -58,9 +58,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsValid()
@@ -68,9 +68,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ISVALID_OFFSET))(this);
 		}
 
-		::System::Void set_IsValid(::System::Boolean value)
+		::System::Void set_IsValid(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ISVALID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ISVALID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::RogueGambleUnitData*>* get_RogueGambleUnitDataList()
@@ -78,9 +78,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::RogueGambleUnitData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_ROGUEGAMBLEUNITDATALIST_OFFSET))(this);
 		}
 
-		::System::Void set_RogueGambleUnitDataList(::System::Collections::Generic::List_1<::RPG::Client::RogueGambleUnitData*>* value)
+		::System::Void set_RogueGambleUnitDataList(::System::Collections::Generic::List_1<::RPG::Client::RogueGambleUnitData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RogueGambleUnitData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ROGUEGAMBLEUNITDATALIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RogueGambleUnitData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_ROGUEGAMBLEUNITDATALIST_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::RogueTournGambleGroupRow* get_Row()
@@ -113,9 +113,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueGambleMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_GET_GAMBLEMODE_OFFSET))(this);
 		}
 
-		::System::Void set_GambleMode(::RPG::Client::RogueGambleMode value)
+		::System::Void set_GambleMode(::RPG::Client::RogueGambleMode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueGambleMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_GAMBLEMODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueGambleMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEGAMBLEGROUPDATA_SET_GAMBLEMODE_OFFSET))(this, a1);
 		}
 	};
 }

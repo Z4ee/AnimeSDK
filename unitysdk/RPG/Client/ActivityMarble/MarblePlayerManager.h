@@ -5,26 +5,26 @@
 namespace RPG::Client::ActivityMarble { class MarblePvePlayer; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_FETCHDEPENDANTSUBMISSIONIDS_OFFSET UNITYSDK_OFFSET(0x9C10F10)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GETMYPLAYERID_OFFSET UNITYSDK_OFFSET(0x9C02580)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GETMYPLAYERINFO_OFFSET UNITYSDK_OFFSET(0x9C10B60)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GETPLAYER_OFFSET UNITYSDK_OFFSET(0x9C024C0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GET__MANPLAYERID_OFFSET UNITYSDK_OFFSET(0x9C10CF0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GET__WOMANPLAYERID_OFFSET UNITYSDK_OFFSET(0x9C10E00)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x9C10A20)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_ISME_OFFSET UNITYSDK_OFFSET(0x9C10C50)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_ISSAMEPLAYER_OFFSET UNITYSDK_OFFSET(0x9C028B0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x9C10F60)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_FETCHDEPENDANTSUBMISSIONIDS_OFFSET UNITYSDK_OFFSET(0xB1AE7E0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GETMYPLAYERID_OFFSET UNITYSDK_OFFSET(0xB19F520)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GETMYPLAYERINFO_OFFSET UNITYSDK_OFFSET(0xB1AE430)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GETPLAYER_OFFSET UNITYSDK_OFFSET(0xB19F460)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GET__MANPLAYERID_OFFSET UNITYSDK_OFFSET(0xB1AE5C0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GET__WOMANPLAYERID_OFFSET UNITYSDK_OFFSET(0xB1AE6D0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xB1AE2F0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_ISME_OFFSET UNITYSDK_OFFSET(0xB1AE520)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_ISSAMEPLAYER_OFFSET UNITYSDK_OFFSET(0xB19F840)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xB1AE830)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePlayerManager_TypeDefinitionIndex = 68949;
+	inline static constexpr unsigned int MarblePlayerManager_TypeDefinitionIndex = 69761;
 
 	class MarblePlayerManager : public ::System::Object
 	{
 	public:
-		::System::UInt32 _NewPlayerID; // 0x10
-		::System::UInt32 _OldPlayerID; // 0x14
+		::System::UInt32 _OldPlayerID; // 0x10
+		::System::UInt32 _NewPlayerID; // 0x14
 
 		::System::Void _ctor()
 		{
@@ -36,14 +36,14 @@ namespace RPG::Client::ActivityMarble
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_INIT_OFFSET))(this);
 		}
 
-		::System::Boolean IsSamePlayer(::System::UInt32 playerA, ::System::UInt32 playerB)
+		::System::Boolean IsSamePlayer(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_ISSAMEPLAYER_OFFSET))(this, playerA, playerB);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_ISSAMEPLAYER_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::ActivityMarble::MarblePvePlayer* GetPlayer(::System::UInt32 playerID)
+		::RPG::Client::ActivityMarble::MarblePvePlayer* GetPlayer(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ActivityMarble::MarblePvePlayer*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GETPLAYER_OFFSET))(this, playerID);
+			return ((::RPG::Client::ActivityMarble::MarblePvePlayer*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GETPLAYER_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ActivityMarble::MarblePvePlayer* GetMyPlayerInfo()
@@ -51,9 +51,9 @@ namespace RPG::Client::ActivityMarble
 			return ((::RPG::Client::ActivityMarble::MarblePvePlayer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GETMYPLAYERINFO_OFFSET))(this);
 		}
 
-		::System::Boolean IsMe(::RPG::Client::ActivityMarble::MarblePvePlayer* player)
+		::System::Boolean IsMe(::RPG::Client::ActivityMarble::MarblePvePlayer* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityMarble::MarblePvePlayer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_ISME_OFFSET))(this, player);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityMarble::MarblePvePlayer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_ISME_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetMyPlayerID()
@@ -61,9 +61,9 @@ namespace RPG::Client::ActivityMarble
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_GETMYPLAYERID_OFFSET))(this);
 		}
 
-		::System::Void FetchDependantSubMissionIDs(::System::Collections::Generic::HashSet_1<::System::UInt32>* set)
+		::System::Void FetchDependantSubMissionIDs(::System::Collections::Generic::HashSet_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_FETCHDEPENDANTSUBMISSIONIDS_OFFSET))(this, set);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERMANAGER_FETCHDEPENDANTSUBMISSIONIDS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get__ManPlayerID()

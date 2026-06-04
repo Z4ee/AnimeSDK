@@ -3,34 +3,34 @@
 #include "unitysdk/RPG/GameCore/RelicType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_29A54A6045520AF2;
-class Class_1_6A9A64AC86CBF3B4;
+class Class_1_1D95EF1836E9FE9D;
+class Class_1_5D2E9E194E93B02A;
 namespace RPG::Client { class RelicItemData; }
 namespace RPG::Client { class RelicPresetPlanViewModel; }
 namespace RPG::Client { class RelicRecommendData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xAF9DB00)
-#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GETINVENTORYRELICITEMDATALIST_OFFSET UNITYSDK_OFFSET(0xAF9DCD0)
-#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GETRELICITEMDATA_OFFSET UNITYSDK_OFFSET(0xAF9E030)
-#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GETRELICRECOMMENDDATA_OFFSET UNITYSDK_OFFSET(0xAF9E1C0)
-#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GET_PLANVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xAF9E640)
-#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_SET_PLANVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xAF9E650)
-#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xAF9DC50)
-#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL__GETRELICTYPEMATCHSCORE_OFFSET UNITYSDK_OFFSET(0xAF9E210)
-#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL__SORTINVENTORYRELICITEMS_OFFSET UNITYSDK_OFFSET(0xAF9DD40)
+#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xC6E5710)
+#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GETINVENTORYRELICITEMDATALIST_OFFSET UNITYSDK_OFFSET(0xC6E58E0)
+#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GETRELICITEMDATA_OFFSET UNITYSDK_OFFSET(0xC6E5C80)
+#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GETRELICRECOMMENDDATA_OFFSET UNITYSDK_OFFSET(0xC6E5E10)
+#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GET_PLANVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC6E6250)
+#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL_SET_PLANVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC6E6260)
+#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC6E5860)
+#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL__GETRELICTYPEMATCHSCORE_OFFSET UNITYSDK_OFFSET(0xC6E5E60)
+#define RPG_CLIENT_RELICPRESETEDITVIEWMODEL__SORTINVENTORYRELICITEMS_OFFSET UNITYSDK_OFFSET(0xC6E5950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetEditViewModel_TypeDefinitionIndex = 61571;
+	inline static constexpr unsigned int RelicPresetEditViewModel_TypeDefinitionIndex = 62504;
 
 	class RelicPresetEditViewModel : public ::System::Object
 	{
 	public:
-		::RPG::Client::RelicPresetPlanViewModel* _PlanViewModel_k__BackingField; // 0x10
-		::Class_1_6A9A64AC86CBF3B4* _PresetCalculatorService; // 0x18
+		::Class_1_5D2E9E194E93B02A* _PresetDataService; // 0x10
+		::RPG::Client::RelicPresetPlanViewModel* _PlanViewModel_k__BackingField; // 0x18
 		::RPG::Client::RelicRecommendData* _RecommendData; // 0x20
-		::Class_1_29A54A6045520AF2* _PresetDataService; // 0x28
+		::Class_1_1D95EF1836E9FE9D* _PresetCalculatorService; // 0x28
 		::System::Int32 RelicTypeMatchBaseScore; // 0x30
 
 		::System::Void _ctor()
@@ -38,19 +38,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::RelicPresetEditViewModel* Create(::RPG::Client::RelicPresetPlanViewModel* planViewModel, ::Class_1_29A54A6045520AF2* relicPresetDataService, ::Class_1_6A9A64AC86CBF3B4* calculatorService)
+		static ::RPG::Client::RelicPresetEditViewModel* Create(::RPG::Client::RelicPresetPlanViewModel* a1, ::Class_1_5D2E9E194E93B02A* a2, ::Class_1_1D95EF1836E9FE9D* a3)
 		{
-			return ((::RPG::Client::RelicPresetEditViewModel*(*)(::RPG::Client::RelicPresetPlanViewModel*, ::Class_1_29A54A6045520AF2*, ::Class_1_6A9A64AC86CBF3B4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL_CREATE_OFFSET))(planViewModel, relicPresetDataService, calculatorService);
+			return ((::RPG::Client::RelicPresetEditViewModel*(*)(::RPG::Client::RelicPresetPlanViewModel*, ::Class_1_5D2E9E194E93B02A*, ::Class_1_1D95EF1836E9FE9D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL_CREATE_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* GetInventoryRelicItemDataList(::RPG::GameCore::RelicType relicType)
+		::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* GetInventoryRelicItemDataList(::RPG::GameCore::RelicType a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*(*)(::PVOID, ::RPG::GameCore::RelicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GETINVENTORYRELICITEMDATALIST_OFFSET))(this, relicType);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*(*)(::PVOID, ::RPG::GameCore::RelicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GETINVENTORYRELICITEMDATALIST_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RelicItemData* GetRelicItemData(::RPG::GameCore::RelicType relicType)
+		::RPG::Client::RelicItemData* GetRelicItemData(::RPG::GameCore::RelicType a1)
 		{
-			return ((::RPG::Client::RelicItemData*(*)(::PVOID, ::RPG::GameCore::RelicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GETRELICITEMDATA_OFFSET))(this, relicType);
+			return ((::RPG::Client::RelicItemData*(*)(::PVOID, ::RPG::GameCore::RelicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GETRELICITEMDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RelicRecommendData* GetRelicRecommendData()
@@ -58,14 +58,14 @@ namespace RPG::Client
 			return ((::RPG::Client::RelicRecommendData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GETRELICRECOMMENDDATA_OFFSET))(this);
 		}
 
-		::System::Void _SortInventoryRelicItems(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* relicItems, ::RPG::GameCore::RelicType relicType)
+		::System::Void _SortInventoryRelicItems(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* a1, ::RPG::GameCore::RelicType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*, ::RPG::GameCore::RelicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL__SORTINVENTORYRELICITEMS_OFFSET))(this, relicItems, relicType);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*, ::RPG::GameCore::RelicType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL__SORTINVENTORYRELICITEMS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _GetRelicTypeMatchScore(::RPG::Client::RelicItemData* relicItem)
+		::System::Int32 _GetRelicTypeMatchScore(::RPG::Client::RelicItemData* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL__GETRELICTYPEMATCHSCORE_OFFSET))(this, relicItem);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL__GETRELICTYPEMATCHSCORE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RelicPresetPlanViewModel* get_PlanViewModel()
@@ -73,9 +73,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RelicPresetPlanViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL_GET_PLANVIEWMODEL_OFFSET))(this);
 		}
 
-		::System::Void set_PlanViewModel(::RPG::Client::RelicPresetPlanViewModel* value)
+		::System::Void set_PlanViewModel(::RPG::Client::RelicPresetPlanViewModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicPresetPlanViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL_SET_PLANVIEWMODEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicPresetPlanViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETEDITVIEWMODEL_SET_PLANVIEWMODEL_OFFSET))(this, a1);
 		}
 	};
 }

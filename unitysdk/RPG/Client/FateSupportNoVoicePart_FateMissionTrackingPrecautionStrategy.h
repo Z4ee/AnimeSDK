@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY_TRYCHECK_OFFSET UNITYSDK_OFFSET(0xA361E50)
-#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY__CTOR_OFFSET UNITYSDK_OFFSET(0xA361870)
+#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY_TRYCHECK_OFFSET UNITYSDK_OFFSET(0xB9B5E20)
+#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY__CTOR_OFFSET UNITYSDK_OFFSET(0xB9B5870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy_TypeDefinitionIndex = 59028;
+	inline static constexpr unsigned int FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy_TypeDefinitionIndex = 59958;
 
 	class FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean TryCheck(::System::UInt32 missionID, ::System::Action* onApprove, ::System::Action* onReject)
+		::System::Boolean TryCheck(::System::UInt32 a1, ::System::Action* a2, ::System::Action* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY_TRYCHECK_OFFSET))(this, missionID, onApprove, onReject);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY_TRYCHECK_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

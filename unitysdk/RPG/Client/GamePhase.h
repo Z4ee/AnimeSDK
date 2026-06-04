@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BasePhase.h"
 
-class Class_2_8CF02C3C8507EA90;
+class Class_2_B7D28807473A6079;
 
-#define RPG_CLIENT_GAMEPHASE_GET_GAMECONTEXT_OFFSET UNITYSDK_OFFSET(0xA41F440)
-#define RPG_CLIENT_GAMEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0xA41F480)
+#define RPG_CLIENT_GAMEPHASE_GET_GAMECONTEXT_OFFSET UNITYSDK_OFFSET(0xBABB390)
+#define RPG_CLIENT_GAMEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0xBABB3D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GamePhase_TypeDefinitionIndex = 56370;
+	inline static constexpr unsigned int GamePhase_TypeDefinitionIndex = 57132;
 
 	class GamePhase : public ::RPG::Client::BasePhase
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPHASE__CTOR_OFFSET))(this);
 		}
 
-		::Class_2_8CF02C3C8507EA90* get_GameContext()
+		::Class_2_B7D28807473A6079* get_GameContext()
 		{
-			return ((::Class_2_8CF02C3C8507EA90*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPHASE_GET_GAMECONTEXT_OFFSET))(this);
+			return ((::Class_2_B7D28807473A6079*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPHASE_GET_GAMECONTEXT_OFFSET))(this);
 		}
 	};
 }

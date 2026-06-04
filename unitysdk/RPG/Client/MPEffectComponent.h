@@ -7,17 +7,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MPEFFECTCOMPONENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA72C6B0)
-#define RPG_CLIENT_MPEFFECTCOMPONENT_PLAYDECREASEEFFECT_OFFSET UNITYSDK_OFFSET(0xA72CBF0)
-#define RPG_CLIENT_MPEFFECTCOMPONENT_PLAYINCREASEEFFECT_OFFSET UNITYSDK_OFFSET(0xA72C880)
-#define RPG_CLIENT_MPEFFECTCOMPONENT_SYNCLOADRESOURCETO_OFFSET UNITYSDK_OFFSET(0xA72CDC0)
-#define RPG_CLIENT_MPEFFECTCOMPONENT_TRYADDEFFECT_OFFSET UNITYSDK_OFFSET(0xA72CA50)
-#define RPG_CLIENT_MPEFFECTCOMPONENT_UNLOADRESOURCES_OFFSET UNITYSDK_OFFSET(0xA72C700)
-#define RPG_CLIENT_MPEFFECTCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA72CF50)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBE90E20)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_PLAYDECREASEEFFECT_OFFSET UNITYSDK_OFFSET(0xBE91350)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_PLAYINCREASEEFFECT_OFFSET UNITYSDK_OFFSET(0xBE90FE0)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_SYNCLOADRESOURCETO_OFFSET UNITYSDK_OFFSET(0xBE91520)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_TRYADDEFFECT_OFFSET UNITYSDK_OFFSET(0xBE911B0)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_UNLOADRESOURCES_OFFSET UNITYSDK_OFFSET(0xBE90E70)
+#define RPG_CLIENT_MPEFFECTCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xBE91700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MPEffectComponent_TypeDefinitionIndex = 66865;
+	inline static constexpr unsigned int MPEffectComponent_TypeDefinitionIndex = 67805;
 
 	class MPEffectComponent : public ::UnityEngine::MonoBehaviour
 	{
@@ -52,14 +52,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MPEFFECTCOMPONENT_PLAYDECREASEEFFECT_OFFSET))(this);
 		}
 
-		::System::Void TryAddEffect(::System::String* effectPath)
+		::System::Void TryAddEffect(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MPEFFECTCOMPONENT_TRYADDEFFECT_OFFSET))(this, effectPath);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MPEFFECTCOMPONENT_TRYADDEFFECT_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncLoadResourceTo(::System::String* path, ::UnityEngine::Transform* tf)
+		::System::Void SyncLoadResourceTo(::System::String* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MPEFFECTCOMPONENT_SYNCLOADRESOURCETO_OFFSET))(this, path, tf);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MPEFFECTCOMPONENT_SYNCLOADRESOURCETO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void UnloadResources()

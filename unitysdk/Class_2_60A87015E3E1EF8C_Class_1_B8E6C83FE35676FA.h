@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/UISkillIndex.h"
+#include "unitysdk/RPG/GameCore/BattleOperationType.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class EventManager; }
+namespace System { class Action; }
+
+#define CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xFF48CF0)
+#define CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA_METHOD_1_79FB4CBACF7E6178_OFFSET UNITYSDK_OFFSET(0xFF48C40)
+#define CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA_METHOD_1_87B13257DC6123F2_OFFSET UNITYSDK_OFFSET(0xFF48D40)
+#define CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA_METHOD_1_A6544B958241856F_OFFSET UNITYSDK_OFFSET(0xFF48DA0)
+#define CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xFF48BF0)
+#define CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA__CTOR_OFFSET UNITYSDK_OFFSET(0xFF48200)
+
+inline static constexpr unsigned int Class_2_60A87015E3E1EF8C_Class_1_B8E6C83FE35676FA_TypeDefinitionIndex = 55002;
+
+class Class_2_60A87015E3E1EF8C_Class_1_B8E6C83FE35676FA : public ::System::Object
+{
+public:
+	::System::Action* Field_1_0; // 0x10
+	::RPG::Client::UISkillIndex Field_1_1; // 0x18
+
+	::System::Void _ctor(::RPG::Client::UISkillIndex a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::Il2CppArray<::RPG::GameCore::BattleOperationType>* Method_1_79FB4CBACF7E6178()
+	{
+		return ((::Il2CppArray<::RPG::GameCore::BattleOperationType>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA_METHOD_1_79FB4CBACF7E6178_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::System::Void Method_1_87B13257DC6123F2(::RPG::GameCore::EventManager* a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EventManager*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA_METHOD_1_87B13257DC6123F2_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_A6544B958241856F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_60A87015E3E1EF8C_CLASS_1_B8E6C83FE35676FA_METHOD_1_A6544B958241856F_OFFSET))(this);
+	}
+};

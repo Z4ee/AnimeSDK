@@ -4,25 +4,25 @@
 
 namespace RPG::GameCore { class ChimeraDuelChimeraLevelRow; }
 
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0xA002720)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xA002740)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_GET_SKILLIDS_OFFSET UNITYSDK_OFFSET(0xA002760)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xA002710)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_TRYCREATE_OFFSET UNITYSDK_OFFSET(0xA002780)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA002800)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0xB67E380)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xB67E3A0)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_GET_SKILLIDS_OFFSET UNITYSDK_OFFSET(0xB67E3C0)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xB67E370)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_TRYCREATE_OFFSET UNITYSDK_OFFSET(0xB67E3E0)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB67E460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraLevelData_TypeDefinitionIndex = 58353;
+	inline static constexpr unsigned int ChimeraDuelChimeraLevelData_TypeDefinitionIndex = 59283;
 
 	class ChimeraDuelChimeraLevelData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ChimeraDuelChimeraLevelRow* __Row_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::UInt32 chimeraID, ::System::UInt32 level)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA__CTOR_OFFSET))(this, chimeraID, level);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::ChimeraDuelChimeraLevelRow* get__Row()
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_GET_SKILLIDS_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ChimeraDuelChimeraLevelData* TryCreate(::System::UInt32 chimeraID, ::System::UInt32 level)
+		static ::RPG::Client::ChimeraDuelChimeraLevelData* TryCreate(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::ChimeraDuelChimeraLevelData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_TRYCREATE_OFFSET))(chimeraID, level);
+			return ((::RPG::Client::ChimeraDuelChimeraLevelData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELCHIMERALEVELDATA_TRYCREATE_OFFSET))(a1, a2);
 		}
 	};
 }

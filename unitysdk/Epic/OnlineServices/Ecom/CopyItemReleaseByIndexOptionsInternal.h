@@ -7,16 +7,16 @@ namespace Epic::OnlineServices::Ecom { class CopyItemReleaseByIndexOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3B110)
-#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3B0A0)
-#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x3AFE0)
-#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x3AF20)
-#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3B090)
-#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_RELEASEINDEX_OFFSET UNITYSDK_OFFSET(0xBC50)
+#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3E950)
+#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x3E8D0)
+#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x3E810)
+#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x3E750)
+#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x3E8C0)
+#define EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_RELEASEINDEX_OFFSET UNITYSDK_OFFSET(0xC4C0)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int CopyItemReleaseByIndexOptionsInternal_TypeDefinitionIndex = 42157;
+	inline static constexpr unsigned int CopyItemReleaseByIndexOptionsInternal_TypeDefinitionIndex = 42960;
 
 	struct alignas(8) CopyItemReleaseByIndexOptionsInternal
 	{
@@ -25,29 +25,29 @@ namespace Epic::OnlineServices::Ecom
 		::System::IntPtr m_ItemId; // 0x20
 		::System::UInt32 m_ReleaseIndex; // 0x28
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ItemId(::System::String* value)
+		::System::Void set_ItemId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_ITEMID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_ITEMID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ReleaseIndex(::System::UInt32 value)
+		::System::Void set_ReleaseIndex(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_RELEASEINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_RELEASEINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Ecom::CopyItemReleaseByIndexOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Ecom::CopyItemReleaseByIndexOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyItemReleaseByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyItemReleaseByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_COPYITEMRELEASEBYINDEXOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SUBMISSIONIDLISTFORSKIPMCVVERIFY_METHOD_2_256808872E4EDEFA_OFFSET UNITYSDK_OFFSET(0x18EAE820)
-#define RPG_GAMECORE_SUBMISSIONIDLISTFORSKIPMCVVERIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x18EAE8E0)
+#define RPG_GAMECORE_SUBMISSIONIDLISTFORSKIPMCVVERIFY_METHOD_2_7C1AC549B8A82E57_OFFSET UNITYSDK_OFFSET(0x19CCB8B0)
+#define RPG_GAMECORE_SUBMISSIONIDLISTFORSKIPMCVVERIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x19CCB970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionIDListForSkipMCVVerify_TypeDefinitionIndex = 18049;
+	inline static constexpr unsigned int SubMissionIDListForSkipMCVVerify_TypeDefinitionIndex = 18073;
 
 	class SubMissionIDListForSkipMCVVerify : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONIDLISTFORSKIPMCVVERIFY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_256808872E4EDEFA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubMissionIDListForSkipMCVVerify*& a2)
+		static ::System::Void Method_2_7C1AC549B8A82E57(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubMissionIDListForSkipMCVVerify*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubMissionIDListForSkipMCVVerify*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONIDLISTFORSKIPMCVVERIFY_METHOD_2_256808872E4EDEFA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubMissionIDListForSkipMCVVerify*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONIDLISTFORSKIPMCVVERIFY_METHOD_2_7C1AC549B8A82E57_OFFSET))(a1, a2);
 		}
 	};
 }

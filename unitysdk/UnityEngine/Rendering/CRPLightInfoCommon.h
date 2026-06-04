@@ -8,7 +8,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPLightInfoCommon_TypeDefinitionIndex = 4679;
+	inline static constexpr unsigned int CRPLightInfoCommon_TypeDefinitionIndex = 4853;
 
 	struct alignas(4) CRPLightInfoCommon
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B43820)
-#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B439A0)
+#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1995B7A0)
+#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1995B920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyCellResourceRow_TypeDefinitionIndex = 11470;
+	inline static constexpr unsigned int MonopolyCellResourceRow_TypeDefinitionIndex = 11515;
 
 	class MonopolyCellResourceRow : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCELLRESOURCEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MonopolyCellResourceRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyCellResourceRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyCellResourceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCELLRESOURCEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyCellResourceRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCELLRESOURCEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

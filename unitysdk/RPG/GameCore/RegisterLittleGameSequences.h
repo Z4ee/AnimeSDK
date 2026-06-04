@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_REGISTERLITTLEGAMESEQUENCES_METHOD_3_45A0595DB0B2A9B4_OFFSET UNITYSDK_OFFSET(0x18C96080)
-#define RPG_GAMECORE_REGISTERLITTLEGAMESEQUENCES_METHOD_3_D110A9F652F005E5_OFFSET UNITYSDK_OFFSET(0x18C96000)
-#define RPG_GAMECORE_REGISTERLITTLEGAMESEQUENCES__CTOR_OFFSET UNITYSDK_OFFSET(0x18C96050)
+#define RPG_GAMECORE_REGISTERLITTLEGAMESEQUENCES_METHOD_3_75BA56BD80EC0E32_OFFSET UNITYSDK_OFFSET(0x19ABA4F0)
+#define RPG_GAMECORE_REGISTERLITTLEGAMESEQUENCES_METHOD_3_C42A033601244CFB_OFFSET UNITYSDK_OFFSET(0x19ABA470)
+#define RPG_GAMECORE_REGISTERLITTLEGAMESEQUENCES__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABA4C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RegisterLittleGameSequences_TypeDefinitionIndex = 20313;
+	inline static constexpr unsigned int RegisterLittleGameSequences_TypeDefinitionIndex = 20232;
 
 	class RegisterLittleGameSequences : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REGISTERLITTLEGAMESEQUENCES__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D110A9F652F005E5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RegisterLittleGameSequences*& a2)
+		static ::System::Void Method_3_C42A033601244CFB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RegisterLittleGameSequences*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RegisterLittleGameSequences*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REGISTERLITTLEGAMESEQUENCES_METHOD_3_D110A9F652F005E5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RegisterLittleGameSequences*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REGISTERLITTLEGAMESEQUENCES_METHOD_3_C42A033601244CFB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_45A0595DB0B2A9B4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RegisterLittleGameSequences* a2)
+		static ::System::Void Method_3_75BA56BD80EC0E32(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RegisterLittleGameSequences* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RegisterLittleGameSequences*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REGISTERLITTLEGAMESEQUENCES_METHOD_3_45A0595DB0B2A9B4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RegisterLittleGameSequences*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REGISTERLITTLEGAMESEQUENCES_METHOD_3_75BA56BD80EC0E32_OFFSET))(a1, a2);
 		}
 	};
 }

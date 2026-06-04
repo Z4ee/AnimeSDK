@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WolfBroPuzzleBoard_Struct_2_C8AA17EC07891605_TypeDefinitionIndex = 72188;
+	inline static constexpr unsigned int WolfBroPuzzleBoard_Struct_2_C8AA17EC07891605_TypeDefinitionIndex = 73210;
 
 	struct alignas(8) WolfBroPuzzleBoard_Struct_2_C8AA17EC07891605
 	{

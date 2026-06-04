@@ -5,16 +5,16 @@
 class Class_2_5FF2340E88CFFA8C;
 namespace RPG::Client { class BaseShaderPropertyTransition; }
 
-#define CLASS_2_5FF2340E88CFFA8C___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B4A160)
-#define CLASS_2_5FF2340E88CFFA8C___C__DISPLAYCLASS14_0___BEGINFADEOUT_DITHERMODE_B__0_OFFSET UNITYSDK_OFFSET(0x12B4A520)
+#define CLASS_2_5FF2340E88CFFA8C___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA551780)
+#define CLASS_2_5FF2340E88CFFA8C___C__DISPLAYCLASS14_0___BEGINFADEOUT_DITHERMODE_B__0_OFFSET UNITYSDK_OFFSET(0xA551B40)
 
-inline static constexpr unsigned int Class_2_5FF2340E88CFFA8C___c__DisplayClass14_0_TypeDefinitionIndex = 52867;
+inline static constexpr unsigned int Class_2_5FF2340E88CFFA8C___c__DisplayClass14_0_TypeDefinitionIndex = 53576;
 
 class Class_2_5FF2340E88CFFA8C___c__DisplayClass14_0 : public ::System::Object
 {
 public:
-	::RPG::Client::BaseShaderPropertyTransition* spt; // 0x10
-	::Class_2_5FF2340E88CFFA8C* __4__this; // 0x18
+	::Class_2_5FF2340E88CFFA8C* __4__this; // 0x10
+	::RPG::Client::BaseShaderPropertyTransition* spt; // 0x18
 
 	::System::Void _ctor()
 	{

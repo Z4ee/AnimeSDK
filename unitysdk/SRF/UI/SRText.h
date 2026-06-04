@@ -4,14 +4,14 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define SRF_UI_SRTEXT_ADD_LAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x19EA9D50)
-#define SRF_UI_SRTEXT_REMOVE_LAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x19EA9FF0)
-#define SRF_UI_SRTEXT_SETLAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x19EB03A0)
-#define SRF_UI_SRTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB03D0)
+#define SRF_UI_SRTEXT_ADD_LAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x1AD20390)
+#define SRF_UI_SRTEXT_REMOVE_LAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x1AD20640)
+#define SRF_UI_SRTEXT_SETLAYOUTDIRTY_OFFSET UNITYSDK_OFFSET(0x1AD27040)
+#define SRF_UI_SRTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD27080)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int SRText_TypeDefinitionIndex = 33306;
+	inline static constexpr unsigned int SRText_TypeDefinitionIndex = 33588;
 
 	class SRText : public ::UnityEngine::UI::Text
 	{
@@ -23,14 +23,14 @@ namespace SRF::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_SRTEXT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_LayoutDirty(::System::Action_1<::SRF::UI::SRText*>* value)
+		::System::Void add_LayoutDirty(::System::Action_1<::SRF::UI::SRText*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRF::UI::SRText*>*))((::PBYTE)hIl2Cpp + SRF_UI_SRTEXT_ADD_LAYOUTDIRTY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRF::UI::SRText*>*))((::PBYTE)hIl2Cpp + SRF_UI_SRTEXT_ADD_LAYOUTDIRTY_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_LayoutDirty(::System::Action_1<::SRF::UI::SRText*>* value)
+		::System::Void remove_LayoutDirty(::System::Action_1<::SRF::UI::SRText*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRF::UI::SRText*>*))((::PBYTE)hIl2Cpp + SRF_UI_SRTEXT_REMOVE_LAYOUTDIRTY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRF::UI::SRText*>*))((::PBYTE)hIl2Cpp + SRF_UI_SRTEXT_REMOVE_LAYOUTDIRTY_OFFSET))(this, a1);
 		}
 
 		::System::Void SetLayoutDirty()

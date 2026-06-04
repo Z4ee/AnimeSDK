@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace System
 {
-	inline static constexpr unsigned int ICustomFormatter_TypeDefinitionIndex = 278;
+	inline static constexpr unsigned int ICustomFormatter_TypeDefinitionIndex = 277;
 
 	class ICustomFormatter
 	{

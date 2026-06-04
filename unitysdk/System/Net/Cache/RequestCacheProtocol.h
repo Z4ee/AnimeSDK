@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F1370)
+#define SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF575F0)
 
 namespace System::Net::Cache
 {
@@ -11,9 +11,9 @@ namespace System::Net::Cache
 	class RequestCacheProtocol : public ::System::Object
 	{
 	public:
-		::System::Void _ctor(::System::Object* arg1, ::System::Object* arg2)
+		::System::Void _ctor(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL__CTOR_OFFSET))(this, arg1, arg2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

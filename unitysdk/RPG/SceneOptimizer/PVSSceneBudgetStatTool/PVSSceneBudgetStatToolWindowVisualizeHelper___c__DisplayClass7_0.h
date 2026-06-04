@@ -5,12 +5,12 @@
 
 namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool { class PVSSceneBudgetStatToolWindowVisualizeHelper_Class_1_5807397403863C28; }
 
-#define RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_PVSSCENEBUDGETSTATTOOLWINDOWVISUALIZEHELPER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB870910)
-#define RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_PVSSCENEBUDGETSTATTOOLWINDOWVISUALIZEHELPER___C__DISPLAYCLASS7_0__REMOVEBOUNDS_B__0_OFFSET UNITYSDK_OFFSET(0xB871730)
+#define RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_PVSSCENEBUDGETSTATTOOLWINDOWVISUALIZEHELPER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFB9D10)
+#define RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_PVSSCENEBUDGETSTATTOOLWINDOWVISUALIZEHELPER___C__DISPLAYCLASS7_0__REMOVEBOUNDS_B__0_OFFSET UNITYSDK_OFFSET(0xCFBAB50)
 
 namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 {
-	inline static constexpr unsigned int PVSSceneBudgetStatToolWindowVisualizeHelper___c__DisplayClass7_0_TypeDefinitionIndex = 47816;
+	inline static constexpr unsigned int PVSSceneBudgetStatToolWindowVisualizeHelper___c__DisplayClass7_0_TypeDefinitionIndex = 48431;
 
 	class PVSSceneBudgetStatToolWindowVisualizeHelper___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_PVSSCENEBUDGETSTATTOOLWINDOWVISUALIZEHELPER___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RemoveBounds_b__0(::RPG::SceneOptimizer::PVSSceneBudgetStatTool::PVSSceneBudgetStatToolWindowVisualizeHelper_Class_1_5807397403863C28* info)
+		::System::Boolean _RemoveBounds_b__0(::RPG::SceneOptimizer::PVSSceneBudgetStatTool::PVSSceneBudgetStatToolWindowVisualizeHelper_Class_1_5807397403863C28* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::SceneOptimizer::PVSSceneBudgetStatTool::PVSSceneBudgetStatToolWindowVisualizeHelper_Class_1_5807397403863C28*))((::PBYTE)hIl2Cpp + RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_PVSSCENEBUDGETSTATTOOLWINDOWVISUALIZEHELPER___C__DISPLAYCLASS7_0__REMOVEBOUNDS_B__0_OFFSET))(this, info);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::SceneOptimizer::PVSSceneBudgetStatTool::PVSSceneBudgetStatToolWindowVisualizeHelper_Class_1_5807397403863C28*))((::PBYTE)hIl2Cpp + RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_PVSSCENEBUDGETSTATTOOLWINDOWVISUALIZEHELPER___C__DISPLAYCLASS7_0__REMOVEBOUNDS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

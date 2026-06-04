@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace UnityEngine { class Sprite; }
 
-#define TMPRO_TMP_DROPDOWN_OPTIONDATA_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0x1A34AAB0)
-#define TMPRO_TMP_DROPDOWN_OPTIONDATA_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1A34AA90)
-#define TMPRO_TMP_DROPDOWN_OPTIONDATA_SET_IMAGE_OFFSET UNITYSDK_OFFSET(0x1A34AAC0)
-#define TMPRO_TMP_DROPDOWN_OPTIONDATA_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1A34AAA0)
-#define TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A347CF0)
-#define TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A347DE0)
-#define TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1A34AAD0)
-#define TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A347230)
+#define TMPRO_TMP_DROPDOWN_OPTIONDATA_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0x1B1A5020)
+#define TMPRO_TMP_DROPDOWN_OPTIONDATA_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1B1A5000)
+#define TMPRO_TMP_DROPDOWN_OPTIONDATA_SET_IMAGE_OFFSET UNITYSDK_OFFSET(0x1B1A5030)
+#define TMPRO_TMP_DROPDOWN_OPTIONDATA_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1B1A5010)
+#define TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B1A1FE0)
+#define TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B1A2160)
+#define TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1B1A5040)
+#define TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A1460)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Dropdown_OptionData_TypeDefinitionIndex = 40117;
+	inline static constexpr unsigned int TMP_Dropdown_OptionData_TypeDefinitionIndex = 40944;
 
 	class TMP_Dropdown_OptionData : public ::System::Object
 	{
@@ -29,19 +29,19 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* text)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_1_OFFSET))(this, text);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::UnityEngine::Sprite* image)
+		::System::Void _ctor_2(::UnityEngine::Sprite* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_2_OFFSET))(this, image);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_2_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_3(::System::String* text, ::UnityEngine::Sprite* image)
+		::System::Void _ctor_3(::System::String* a1, ::UnityEngine::Sprite* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_3_OFFSET))(this, text, image);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA__CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_text()
@@ -49,9 +49,9 @@ namespace TMPro
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA_GET_TEXT_OFFSET))(this);
 		}
 
-		::System::Void set_text(::System::String* value)
+		::System::Void set_text(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA_SET_TEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA_SET_TEXT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Sprite* get_image()
@@ -59,9 +59,9 @@ namespace TMPro
 			return ((::UnityEngine::Sprite*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA_GET_IMAGE_OFFSET))(this);
 		}
 
-		::System::Void set_image(::UnityEngine::Sprite* value)
+		::System::Void set_image(::UnityEngine::Sprite* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA_SET_IMAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + TMPRO_TMP_DROPDOWN_OPTIONDATA_SET_IMAGE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AnimGroupEventEntry; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ANIMGROUPEVENTCONFIG_METHOD_2_E4AA037B35B18A7D_OFFSET UNITYSDK_OFFSET(0x186A4150)
-#define RPG_GAMECORE_ANIMGROUPEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186A4350)
+#define RPG_GAMECORE_ANIMGROUPEVENTCONFIG_METHOD_2_7139AE676B73FDDB_OFFSET UNITYSDK_OFFSET(0x19478B70)
+#define RPG_GAMECORE_ANIMGROUPEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19478D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimGroupEventConfig_TypeDefinitionIndex = 15418;
+	inline static constexpr unsigned int AnimGroupEventConfig_TypeDefinitionIndex = 15481;
 
 	class AnimGroupEventConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMGROUPEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E4AA037B35B18A7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnimGroupEventConfig*& a2)
+		static ::System::Void Method_2_7139AE676B73FDDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnimGroupEventConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AnimGroupEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMGROUPEVENTCONFIG_METHOD_2_E4AA037B35B18A7D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AnimGroupEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMGROUPEVENTCONFIG_METHOD_2_7139AE676B73FDDB_OFFSET))(a1, a2);
 		}
 	};
 }

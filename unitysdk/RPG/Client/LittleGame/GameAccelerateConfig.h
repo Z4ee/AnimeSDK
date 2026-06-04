@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_GAMEACCELERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17EF8760)
+#define RPG_CLIENT_LITTLEGAME_GAMEACCELERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CDC170)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int GameAccelerateConfig_TypeDefinitionIndex = 38578;
+	inline static constexpr unsigned int GameAccelerateConfig_TypeDefinitionIndex = 39345;
 
 	class GameAccelerateConfig : public ::System::Object
 	{

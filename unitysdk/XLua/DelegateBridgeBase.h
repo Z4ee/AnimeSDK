@@ -7,41 +7,41 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace XLua { class LuaEnv; }
 
-#define XLUA_DELEGATEBRIDGEBASE_ADDDELEGATE_OFFSET UNITYSDK_OFFSET(0x1120E2F0)
-#define XLUA_DELEGATEBRIDGEBASE_GETDELEGATEBYTYPE_OFFSET UNITYSDK_OFFSET(0x1120E4A0)
-#define XLUA_DELEGATEBRIDGEBASE_TRYGETDELEGATE_OFFSET UNITYSDK_OFFSET(0x1120E230)
-#define XLUA_DELEGATEBRIDGEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1120DA50)
+#define XLUA_DELEGATEBRIDGEBASE_ADDDELEGATE_OFFSET UNITYSDK_OFFSET(0x12E801B0)
+#define XLUA_DELEGATEBRIDGEBASE_GETDELEGATEBYTYPE_OFFSET UNITYSDK_OFFSET(0x12E80360)
+#define XLUA_DELEGATEBRIDGEBASE_TRYGETDELEGATE_OFFSET UNITYSDK_OFFSET(0x12E80100)
+#define XLUA_DELEGATEBRIDGEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x12E7FDD0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int DelegateBridgeBase_TypeDefinitionIndex = 46392;
+	inline static constexpr unsigned int DelegateBridgeBase_TypeDefinitionIndex = 46982;
 
 	class DelegateBridgeBase : public ::XLua::LuaBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Delegate*>* bindTo; // 0x20
+		::System::Type* firstKey; // 0x20
 		::System::Delegate* firstValue; // 0x28
-		::System::Type* firstKey; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Delegate*>* bindTo; // 0x30
 		::System::Int32 errorFuncRef; // 0x38
 
-		::System::Void _ctor(::System::Int32 reference, ::XLua::LuaEnv* luaenv)
+		::System::Void _ctor(::System::Int32 a1, ::XLua::LuaEnv* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_DELEGATEBRIDGEBASE__CTOR_OFFSET))(this, reference, luaenv);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_DELEGATEBRIDGEBASE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryGetDelegate(::System::Type* key, ::System::Delegate*& value)
+		::System::Boolean TryGetDelegate(::System::Type* a1, ::System::Delegate*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Delegate*&))((::PBYTE)hIl2Cpp + XLUA_DELEGATEBRIDGEBASE_TRYGETDELEGATE_OFFSET))(this, key, value);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Delegate*&))((::PBYTE)hIl2Cpp + XLUA_DELEGATEBRIDGEBASE_TRYGETDELEGATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddDelegate(::System::Type* key, ::System::Delegate* value)
+		::System::Void AddDelegate(::System::Type* a1, ::System::Delegate* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Delegate*))((::PBYTE)hIl2Cpp + XLUA_DELEGATEBRIDGEBASE_ADDDELEGATE_OFFSET))(this, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Delegate*))((::PBYTE)hIl2Cpp + XLUA_DELEGATEBRIDGEBASE_ADDDELEGATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Delegate* GetDelegateByType(::System::Type* type)
+		::System::Delegate* GetDelegateByType(::System::Type* a1)
 		{
-			return ((::System::Delegate*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_DELEGATEBRIDGEBASE_GETDELEGATEBYTYPE_OFFSET))(this, type);
+			return ((::System::Delegate*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + XLUA_DELEGATEBRIDGEBASE_GETDELEGATEBYTYPE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int DiceCombatModifierEvent_TypeDefinitionIndex = 34219;
+	inline static constexpr unsigned int DiceCombatModifierEvent_TypeDefinitionIndex = 34501;
 
 	enum class DiceCombatModifierEvent : ::System::Int32
 	{

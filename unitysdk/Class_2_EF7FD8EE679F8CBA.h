@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_B69B8B108BBE7284.h"
+#include "unitysdk/Class_1_C7C4EDD02A4426B2.h"
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_EF7FD8EE679F8CBA_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x11760940)
-#define CLASS_2_EF7FD8EE679F8CBA__CTOR_OFFSET UNITYSDK_OFFSET(0x117608D0)
+#define CLASS_2_EF7FD8EE679F8CBA_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x14153F00)
+#define CLASS_2_EF7FD8EE679F8CBA__CTOR_OFFSET UNITYSDK_OFFSET(0x14153E90)
 
-inline static constexpr unsigned int Class_2_EF7FD8EE679F8CBA_TypeDefinitionIndex = 64332;
+inline static constexpr unsigned int Class_2_EF7FD8EE679F8CBA_TypeDefinitionIndex = 65253;
 
-class Class_2_EF7FD8EE679F8CBA : public ::Class_1_B69B8B108BBE7284
+class Class_2_EF7FD8EE679F8CBA : public ::Class_1_C7C4EDD02A4426B2
 {
 public:
 	::UnityEngine::Transform* Field_2_0; // 0x28

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_ENTITYANIMSTATECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB62C3B0)
-#define RPG_GAMECORE_ENTITYANIMSTATECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB62C370)
-#define RPG_GAMECORE_ENTITYANIMSTATECHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xB62C320)
-#define RPG_GAMECORE_ENTITYANIMSTATECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB62C400)
+#define RPG_GAMECORE_ENTITYANIMSTATECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCD96100)
+#define RPG_GAMECORE_ENTITYANIMSTATECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCD960C0)
+#define RPG_GAMECORE_ENTITYANIMSTATECHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xCD96070)
+#define RPG_GAMECORE_ENTITYANIMSTATECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD96150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityAnimStateChange_TypeDefinitionIndex = 52228;
+	inline static constexpr unsigned int EntityAnimStateChange_TypeDefinitionIndex = 52925;
 
-	class EntityAnimStateChange : public ::Class_1_9988289E7F8AA214
+	class EntityAnimStateChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::UInt32 _EntityRuntimeID; // 0x18
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYANIMSTATECHANGE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::EntityAnimStateChange* Init(::System::UInt32 nEntityRuntimeID)
+		::RPG::GameCore::EntityAnimStateChange* Init(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::EntityAnimStateChange*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYANIMSTATECHANGE_INIT_OFFSET))(this, nEntityRuntimeID);
+			return ((::RPG::GameCore::EntityAnimStateChange*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYANIMSTATECHANGE_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

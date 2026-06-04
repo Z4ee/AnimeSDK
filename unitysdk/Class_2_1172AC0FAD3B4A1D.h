@@ -5,21 +5,21 @@
 namespace RPG::GameCore { class ShowHintEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_1172AC0FAD3B4A1D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12813760)
-#define CLASS_2_1172AC0FAD3B4A1D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12813880)
-#define CLASS_2_1172AC0FAD3B4A1D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x128137B0)
-#define CLASS_2_1172AC0FAD3B4A1D_TICK_OFFSET UNITYSDK_OFFSET(0x12813BD0)
-#define CLASS_2_1172AC0FAD3B4A1D__CTOR_OFFSET UNITYSDK_OFFSET(0x12813750)
+#define CLASS_2_1172AC0FAD3B4A1D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA3C9520)
+#define CLASS_2_1172AC0FAD3B4A1D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA3C9640)
+#define CLASS_2_1172AC0FAD3B4A1D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA3C9570)
+#define CLASS_2_1172AC0FAD3B4A1D_TICK_OFFSET UNITYSDK_OFFSET(0xA3C9990)
+#define CLASS_2_1172AC0FAD3B4A1D__CTOR_OFFSET UNITYSDK_OFFSET(0xA3C9510)
 
-inline static constexpr unsigned int Class_2_1172AC0FAD3B4A1D_TypeDefinitionIndex = 49127;
+inline static constexpr unsigned int Class_2_1172AC0FAD3B4A1D_TypeDefinitionIndex = 49794;
 
 class Class_2_1172AC0FAD3B4A1D : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::ShowHintEffect* Field_2_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
-	::System::UInt32 Field_2_3; // 0x28
-	::System::UInt32 Field_2_2; // 0x2C
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::ShowHintEffect* Field_2_1; // 0x20
+	::System::UInt32 Field_2_2; // 0x28
+	::System::UInt32 Field_2_3; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowHintEffect* a2)
 	{

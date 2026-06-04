@@ -15,39 +15,39 @@ namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATERESPONSEMESSAGE_OFFSET UNITYSDK_OFFSET(0x19F6F0F0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATEWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x19F6E680)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19F6E620)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_GET_COOKIECONTAINER_OFFSET UNITYSDK_OFFSET(0x19F6E5D0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_GET_MAXREQUESTCONTENTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x19F6E610)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_METHODHASBODY_OFFSET UNITYSDK_OFFSET(0x19F6F6A0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x19F6F7B0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F6CD10)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATERESPONSEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1ADE4DD0)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATEWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x1ADE4330)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ADE42B0)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_GET_COOKIECONTAINER_OFFSET UNITYSDK_OFFSET(0x1ADE4260)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_GET_MAXREQUESTCONTENTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x1ADE42A0)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_METHODHASBODY_OFFSET UNITYSDK_OFFSET(0x1ADE5400)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x1ADE5510)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADE2AB0)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpClientHandler_TypeDefinitionIndex = 4781;
+	inline static constexpr unsigned int HttpClientHandler_TypeDefinitionIndex = 3748;
 
 	class HttpClientHandler : public ::System::Net::Http::HttpMessageHandler
 	{
 	public:
 		static ::System::Int64* StaticGet_groupCounter()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler_TypeDefinitionIndex)->GetStaticField(0x6490);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler_TypeDefinitionIndex)->GetStaticField(0x9CE0);
 		}
-		::System::Net::ICredentials* credentials; // 0x10
+		::System::String* connectionGroupName; // 0x10
 		::System::Net::CookieContainer* cookieContainer; // 0x18
-		::System::String* connectionGroupName; // 0x20
+		::System::Net::ICredentials* credentials; // 0x20
 		::System::Net::IWebProxy* proxy; // 0x28
-		::System::Boolean allowAutoRedirect; // 0x30
-		::System::Boolean useDefaultCredentials; // 0x31
-		::System::Boolean useProxy; // 0x32
-		::System::Boolean preAuthenticate; // 0x33
-		::System::Boolean useCookies; // 0x34
-		::System::Boolean disposed; // 0x35
-		::System::Boolean sentRequest; // 0x36
-		::System::Int64 maxRequestContentBufferSize; // 0x38
-		::System::Int32 maxAutomaticRedirections; // 0x40
+		::System::Int64 maxRequestContentBufferSize; // 0x30
+		::System::Int32 maxAutomaticRedirections; // 0x38
+		::System::Boolean useCookies; // 0x3C
+		::System::Boolean sentRequest; // 0x3D
+		::System::Boolean useProxy; // 0x3E
+		::System::Boolean disposed; // 0x3F
+		::System::Boolean useDefaultCredentials; // 0x40
+		::System::Boolean allowAutoRedirect; // 0x41
+		::System::Boolean preAuthenticate; // 0x42
 		::System::Net::DecompressionMethods automaticDecompression; // 0x44
 
 		::System::Void _ctor()
@@ -65,29 +65,29 @@ namespace System::Net::Http
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_GET_MAXREQUESTCONTENTBUFFERSIZE_OFFSET))(this);
 		}
 
-		::System::Void Dispose(::System::Boolean disposing)
+		::System::Void Dispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_DISPOSE_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_DISPOSE_OFFSET))(this, a1);
 		}
 
-		::System::Net::HttpWebRequest* CreateWebRequest(::System::Net::Http::HttpRequestMessage* request)
+		::System::Net::HttpWebRequest* CreateWebRequest(::System::Net::Http::HttpRequestMessage* a1)
 		{
-			return ((::System::Net::HttpWebRequest*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATEWEBREQUEST_OFFSET))(this, request);
+			return ((::System::Net::HttpWebRequest*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATEWEBREQUEST_OFFSET))(this, a1);
 		}
 
-		::System::Net::Http::HttpResponseMessage* CreateResponseMessage(::System::Net::HttpWebResponse* wr, ::System::Net::Http::HttpRequestMessage* requestMessage, ::System::Threading::CancellationToken cancellationToken)
+		::System::Net::Http::HttpResponseMessage* CreateResponseMessage(::System::Net::HttpWebResponse* a1, ::System::Net::Http::HttpRequestMessage* a2, ::System::Threading::CancellationToken a3)
 		{
-			return ((::System::Net::Http::HttpResponseMessage*(*)(::PVOID, ::System::Net::HttpWebResponse*, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATERESPONSEMESSAGE_OFFSET))(this, wr, requestMessage, cancellationToken);
+			return ((::System::Net::Http::HttpResponseMessage*(*)(::PVOID, ::System::Net::HttpWebResponse*, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATERESPONSEMESSAGE_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Boolean MethodHasBody(::System::Net::Http::HttpMethod* method)
+		static ::System::Boolean MethodHasBody(::System::Net::Http::HttpMethod* a1)
 		{
-			return ((::System::Boolean(*)(::System::Net::Http::HttpMethod*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_METHODHASBODY_OFFSET))(method);
+			return ((::System::Boolean(*)(::System::Net::Http::HttpMethod*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_METHODHASBODY_OFFSET))(a1);
 		}
 
-		::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Threading::CancellationToken cancellationToken)
+		::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* a1, ::System::Threading::CancellationToken a2)
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_SENDASYNC_OFFSET))(this, request, cancellationToken);
+			return ((::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_SENDASYNC_OFFSET))(this, a1, a2);
 		}
 	};
 }

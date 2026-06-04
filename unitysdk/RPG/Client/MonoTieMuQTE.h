@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_MONOTIEMUQTE__CTOR_OFFSET UNITYSDK_OFFSET(0xA9FE2A0)
+#define RPG_CLIENT_MONOTIEMUQTE__CTOR_OFFSET UNITYSDK_OFFSET(0xC14C560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTieMuQTE_TypeDefinitionIndex = 66616;
+	inline static constexpr unsigned int MonoTieMuQTE_TypeDefinitionIndex = 67556;
 
 	class MonoTieMuQTE : public ::UnityEngine::MonoBehaviour
 	{

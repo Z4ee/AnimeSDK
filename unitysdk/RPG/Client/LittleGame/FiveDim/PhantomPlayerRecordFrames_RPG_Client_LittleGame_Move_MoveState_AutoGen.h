@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PhantomPlayerFrameData_1.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_RPG_CLIENT_LITTLEGAME_MOVE_MOVESTATE_AUTOGEN__CTOR_OFFSET UNITYSDK_OFFSET(0x17EF6940)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_RPG_CLIENT_LITTLEGAME_MOVE_MOVESTATE_AUTOGEN__CTOR_OFFSET UNITYSDK_OFFSET(0x18CDA2E0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PhantomPlayerRecordFrames_RPG_Client_LittleGame_Move_MoveState_AutoGen_TypeDefinitionIndex = 39448;
+	inline static constexpr unsigned int PhantomPlayerRecordFrames_RPG_Client_LittleGame_Move_MoveState_AutoGen_TypeDefinitionIndex = 40219;
 
 	class PhantomPlayerRecordFrames_RPG_Client_LittleGame_Move_MoveState_AutoGen : public ::RPG::Client::LittleGame::FiveDim::PhantomPlayerFrameData_1<::RPG::Client::LittleGame::Move::MoveState>
 	{

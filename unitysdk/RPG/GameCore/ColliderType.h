@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ColliderType_TypeDefinitionIndex = 52718;
+	inline static constexpr unsigned int ColliderType_TypeDefinitionIndex = 53420;
 
 	enum class ColliderType : ::System::Int32
 	{

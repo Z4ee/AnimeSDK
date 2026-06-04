@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ParseResult_TypeDefinitionIndex = 8404;
+	inline static constexpr unsigned int ParseResult_TypeDefinitionIndex = 9307;
 
 	enum class ParseResult : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CasterType_TypeDefinitionIndex = 35037;
+	inline static constexpr unsigned int CasterType_TypeDefinitionIndex = 35323;
 
 	enum class CasterType : ::System::Int32
 	{

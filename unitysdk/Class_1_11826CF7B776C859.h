@@ -3,23 +3,23 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_382;
+class Class_0_16E4307DCC419505_401;
 
-#define CLASS_1_11826CF7B776C859_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x12136530)
-#define CLASS_1_11826CF7B776C859_GET_MUTED_OFFSET UNITYSDK_OFFSET(0x12136510)
-#define CLASS_1_11826CF7B776C859_GET_RUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12136540)
-#define CLASS_1_11826CF7B776C859_INVOKE_OFFSET UNITYSDK_OFFSET(0x12136550)
-#define CLASS_1_11826CF7B776C859_SET_MUTED_OFFSET UNITYSDK_OFFSET(0x12136520)
-#define CLASS_1_11826CF7B776C859__CTOR_OFFSET UNITYSDK_OFFSET(0x12136500)
+#define CLASS_1_11826CF7B776C859_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCED6820)
+#define CLASS_1_11826CF7B776C859_GET_MUTED_OFFSET UNITYSDK_OFFSET(0xCED6800)
+#define CLASS_1_11826CF7B776C859_GET_RUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCED6830)
+#define CLASS_1_11826CF7B776C859_INVOKE_OFFSET UNITYSDK_OFFSET(0xCED6840)
+#define CLASS_1_11826CF7B776C859_SET_MUTED_OFFSET UNITYSDK_OFFSET(0xCED6810)
+#define CLASS_1_11826CF7B776C859__CTOR_OFFSET UNITYSDK_OFFSET(0xCED67F0)
 
-inline static constexpr unsigned int Class_1_11826CF7B776C859_TypeDefinitionIndex = 67349;
+inline static constexpr unsigned int Class_1_11826CF7B776C859_TypeDefinitionIndex = 68301;
 
 class Class_1_11826CF7B776C859 : public ::System::Object
 {
 public:
-	::System::Boolean _Muted_k__BackingField; // 0x10
+	::RPG::GameCore::EventType _EventType_k__BackingField; // 0x10
 	::System::UInt32 _RuntimeID_k__BackingField; // 0x14
-	::RPG::GameCore::EventType _EventType_k__BackingField; // 0x18
+	::System::Boolean _Muted_k__BackingField; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::EventType a1, ::System::UInt32 a2)
 	{
@@ -31,9 +31,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_11826CF7B776C859_GET_MUTED_OFFSET))(this);
 	}
 
-	::System::Void set_Muted(::System::Boolean value)
+	::System::Void set_Muted(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_11826CF7B776C859_SET_MUTED_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_11826CF7B776C859_SET_MUTED_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::EventType get_EventType()
@@ -46,8 +46,8 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_11826CF7B776C859_GET_RUNTIMEID_OFFSET))(this);
 	}
 
-	::System::Void Invoke(::Class_0_16E4307DCC419505_382* a1)
+	::System::Void Invoke(::Class_0_16E4307DCC419505_401* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + CLASS_1_11826CF7B776C859_INVOKE_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_401*))((::PBYTE)hIl2Cpp + CLASS_1_11826CF7B776C859_INVOKE_OFFSET))(this, a1);
 	}
 };

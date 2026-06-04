@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RtDirConfig; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_B143ABA5CBB39D9F_OFFSET UNITYSDK_OFFSET(0x190EE1F0)
-#define RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_EB3660720CAA4692_OFFSET UNITYSDK_OFFSET(0x190EE1B0)
-#define RPG_GAMECORE_VE_RTANGLEBETWEEN__CTOR_OFFSET UNITYSDK_OFFSET(0x190EE1E0)
+#define RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_59BE755F21326139_OFFSET UNITYSDK_OFFSET(0x19E41B70)
+#define RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_79BF78ECAD8883C4_OFFSET UNITYSDK_OFFSET(0x19E41B30)
+#define RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_A83FFF2A9D75E62F_OFFSET UNITYSDK_OFFSET(0x19E41D80)
+#define RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_C9CA47DE4EBB61AB_OFFSET UNITYSDK_OFFSET(0x19E41D50)
+#define RPG_GAMECORE_VE_RTANGLEBETWEEN__CTOR_OFFSET UNITYSDK_OFFSET(0x19E41B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VE_RtAngleBetween_TypeDefinitionIndex = 23279;
+	inline static constexpr unsigned int VE_RtAngleBetween_TypeDefinitionIndex = 22946;
 
 	class VE_RtAngleBetween : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
@@ -25,14 +28,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTANGLEBETWEEN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EB3660720CAA4692(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtAngleBetween*& a2)
+		static ::System::Void Method_3_79BF78ECAD8883C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtAngleBetween*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtAngleBetween*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_EB3660720CAA4692_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtAngleBetween*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_79BF78ECAD8883C4_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B143ABA5CBB39D9F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtAngleBetween* a2)
+		static ::System::Void Method_3_59BE755F21326139(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtAngleBetween* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtAngleBetween*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_B143ABA5CBB39D9F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtAngleBetween*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_59BE755F21326139_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_C9CA47DE4EBB61AB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtAngleBetween*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtAngleBetween*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_C9CA47DE4EBB61AB_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_A83FFF2A9D75E62F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtAngleBetween* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtAngleBetween*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTANGLEBETWEEN_METHOD_3_A83FFF2A9D75E62F_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 namespace ZXing::Datamatrix::Encoder { class EncoderContext; }
 
-#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_BACKTRACKONECHARACTER_OFFSET UNITYSDK_OFFSET(0x1A747130)
-#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODECHAR_OFFSET UNITYSDK_OFFSET(0x1A747900)
-#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODETOCODEWORDS_OFFSET UNITYSDK_OFFSET(0x1A7472C0)
-#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1A746D10)
-#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x1A746D00)
-#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_HANDLEEOD_OFFSET UNITYSDK_OFFSET(0x1A747420)
-#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_WRITENEXTTRIPLET_OFFSET UNITYSDK_OFFSET(0x1A7471F0)
-#define ZXING_DATAMATRIX_ENCODER_C40ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A747B20)
+#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_BACKTRACKONECHARACTER_OFFSET UNITYSDK_OFFSET(0x1B546FD0)
+#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODECHAR_OFFSET UNITYSDK_OFFSET(0x1B547950)
+#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODETOCODEWORDS_OFFSET UNITYSDK_OFFSET(0x1B547160)
+#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1B546BB0)
+#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x1B546BA0)
+#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_HANDLEEOD_OFFSET UNITYSDK_OFFSET(0x1B5472A0)
+#define ZXING_DATAMATRIX_ENCODER_C40ENCODER_WRITENEXTTRIPLET_OFFSET UNITYSDK_OFFSET(0x1B547090)
+#define ZXING_DATAMATRIX_ENCODER_C40ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B547E60)
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int C40Encoder_TypeDefinitionIndex = 6087;
+	inline static constexpr unsigned int C40Encoder_TypeDefinitionIndex = 6460;
 
 	class C40Encoder : public ::System::Object
 	{
@@ -32,34 +32,34 @@ namespace ZXing::Datamatrix::Encoder
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_GET_ENCODINGMODE_OFFSET))(this);
 		}
 
-		::System::Void encode(::ZXing::Datamatrix::Encoder::EncoderContext* context)
+		::System::Void encode(::ZXing::Datamatrix::Encoder::EncoderContext* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODE_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 backtrackOneCharacter(::ZXing::Datamatrix::Encoder::EncoderContext* context, ::System::Text::StringBuilder* buffer, ::System::Text::StringBuilder* removed, ::System::Int32 lastCharSize)
+		::System::Int32 backtrackOneCharacter(::ZXing::Datamatrix::Encoder::EncoderContext* a1, ::System::Text::StringBuilder* a2, ::System::Text::StringBuilder* a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*, ::System::Text::StringBuilder*, ::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_BACKTRACKONECHARACTER_OFFSET))(this, context, buffer, removed, lastCharSize);
+			return ((::System::Int32(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*, ::System::Text::StringBuilder*, ::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_BACKTRACKONECHARACTER_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Void writeNextTriplet(::ZXing::Datamatrix::Encoder::EncoderContext* context, ::System::Text::StringBuilder* buffer)
+		static ::System::Void writeNextTriplet(::ZXing::Datamatrix::Encoder::EncoderContext* a1, ::System::Text::StringBuilder* a2)
 		{
-			return ((::System::Void(*)(::ZXing::Datamatrix::Encoder::EncoderContext*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_WRITENEXTTRIPLET_OFFSET))(context, buffer);
+			return ((::System::Void(*)(::ZXing::Datamatrix::Encoder::EncoderContext*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_WRITENEXTTRIPLET_OFFSET))(a1, a2);
 		}
 
-		::System::Void handleEOD(::ZXing::Datamatrix::Encoder::EncoderContext* context, ::System::Text::StringBuilder* buffer)
+		::System::Void handleEOD(::ZXing::Datamatrix::Encoder::EncoderContext* a1, ::System::Text::StringBuilder* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_HANDLEEOD_OFFSET))(this, context, buffer);
+			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_HANDLEEOD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 encodeChar(::System::Char c, ::System::Text::StringBuilder* sb)
+		::System::Int32 encodeChar(::System::Char a1, ::System::Text::StringBuilder* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODECHAR_OFFSET))(this, c, sb);
+			return ((::System::Int32(*)(::PVOID, ::System::Char, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODECHAR_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::String* encodeToCodewords(::System::Text::StringBuilder* sb, ::System::Int32 startPos)
+		static ::System::String* encodeToCodewords(::System::Text::StringBuilder* a1, ::System::Int32 a2)
 		{
-			return ((::System::String*(*)(::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODETOCODEWORDS_OFFSET))(sb, startPos);
+			return ((::System::String*(*)(::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_C40ENCODER_ENCODETOCODEWORDS_OFFSET))(a1, a2);
 		}
 	};
 }

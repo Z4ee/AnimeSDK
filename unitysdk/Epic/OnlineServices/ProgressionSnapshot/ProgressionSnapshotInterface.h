@@ -12,19 +12,19 @@ namespace Epic::OnlineServices::ProgressionSnapshot { class OnSubmitSnapshotCall
 namespace Epic::OnlineServices::ProgressionSnapshot { class SubmitSnapshotOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ADDPROGRESSION_OFFSET UNITYSDK_OFFSET(0x8F0ED20)
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_BEGINSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x8F0EE80)
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_DELETESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x8F0F060)
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ENDSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x8F0F2A0)
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ONDELETESNAPSHOTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F0EBE0)
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ONSUBMITSNAPSHOTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F0EC70)
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_SUBMITSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x8F0F400)
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8F0ED10)
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8F0ED00)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ADDPROGRESSION_OFFSET UNITYSDK_OFFSET(0xA336E30)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_BEGINSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xA336F90)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_DELETESNAPSHOT_OFFSET UNITYSDK_OFFSET(0xA337170)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ENDSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xA3373D0)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ONDELETESNAPSHOTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA336CD0)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ONSUBMITSNAPSHOTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA336D70)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_SUBMITSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xA337530)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA336E20)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA336E10)
 
 namespace Epic::OnlineServices::ProgressionSnapshot
 {
-	inline static constexpr unsigned int ProgressionSnapshotInterface_TypeDefinitionIndex = 41571;
+	inline static constexpr unsigned int ProgressionSnapshotInterface_TypeDefinitionIndex = 42374;
 
 	class ProgressionSnapshotInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -41,44 +41,44 @@ namespace Epic::OnlineServices::ProgressionSnapshot
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result AddProgression(::Epic::OnlineServices::ProgressionSnapshot::AddProgressionOptions* options)
+		::Epic::OnlineServices::Result AddProgression(::Epic::OnlineServices::ProgressionSnapshot::AddProgressionOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::ProgressionSnapshot::AddProgressionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ADDPROGRESSION_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::ProgressionSnapshot::AddProgressionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ADDPROGRESSION_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result BeginSnapshot(::Epic::OnlineServices::ProgressionSnapshot::BeginSnapshotOptions* options, ::System::UInt32& outSnapshotId)
+		::Epic::OnlineServices::Result BeginSnapshot(::Epic::OnlineServices::ProgressionSnapshot::BeginSnapshotOptions* a1, ::System::UInt32& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::ProgressionSnapshot::BeginSnapshotOptions*, ::System::UInt32&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_BEGINSNAPSHOT_OFFSET))(this, options, outSnapshotId);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::ProgressionSnapshot::BeginSnapshotOptions*, ::System::UInt32&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_BEGINSNAPSHOT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DeleteSnapshot(::Epic::OnlineServices::ProgressionSnapshot::DeleteSnapshotOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::ProgressionSnapshot::OnDeleteSnapshotCallback* completionDelegate)
+		::System::Void DeleteSnapshot(::Epic::OnlineServices::ProgressionSnapshot::DeleteSnapshotOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::ProgressionSnapshot::OnDeleteSnapshotCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProgressionSnapshot::DeleteSnapshotOptions*, ::System::Object*, ::Epic::OnlineServices::ProgressionSnapshot::OnDeleteSnapshotCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_DELETESNAPSHOT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProgressionSnapshot::DeleteSnapshotOptions*, ::System::Object*, ::Epic::OnlineServices::ProgressionSnapshot::OnDeleteSnapshotCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_DELETESNAPSHOT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result EndSnapshot(::Epic::OnlineServices::ProgressionSnapshot::EndSnapshotOptions* options)
+		::Epic::OnlineServices::Result EndSnapshot(::Epic::OnlineServices::ProgressionSnapshot::EndSnapshotOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::ProgressionSnapshot::EndSnapshotOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ENDSNAPSHOT_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::ProgressionSnapshot::EndSnapshotOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ENDSNAPSHOT_OFFSET))(this, a1);
 		}
 
-		::System::Void SubmitSnapshot(::Epic::OnlineServices::ProgressionSnapshot::SubmitSnapshotOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::ProgressionSnapshot::OnSubmitSnapshotCallback* completionDelegate)
+		::System::Void SubmitSnapshot(::Epic::OnlineServices::ProgressionSnapshot::SubmitSnapshotOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::ProgressionSnapshot::OnSubmitSnapshotCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProgressionSnapshot::SubmitSnapshotOptions*, ::System::Object*, ::Epic::OnlineServices::ProgressionSnapshot::OnSubmitSnapshotCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_SUBMITSNAPSHOT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProgressionSnapshot::SubmitSnapshotOptions*, ::System::Object*, ::Epic::OnlineServices::ProgressionSnapshot::OnSubmitSnapshotCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_SUBMITSNAPSHOT_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnDeleteSnapshotCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnDeleteSnapshotCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ONDELETESNAPSHOTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ONDELETESNAPSHOTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnSubmitSnapshotCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnSubmitSnapshotCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ONSUBMITSNAPSHOTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_PROGRESSIONSNAPSHOTINTERFACE_ONSUBMITSNAPSHOTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUESTART_METHOD_3_BF883BE0C5DD94DC_OFFSET UNITYSDK_OFFSET(0x18D686C0)
-#define RPG_GAMECORE_ROGUESTART_METHOD_3_CE6523B372114ECD_OFFSET UNITYSDK_OFFSET(0x18D68740)
-#define RPG_GAMECORE_ROGUESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x18D68710)
+#define RPG_GAMECORE_ROGUESTART_METHOD_3_C256CD227EB239F6_OFFSET UNITYSDK_OFFSET(0x19BBCA10)
+#define RPG_GAMECORE_ROGUESTART_METHOD_3_D0F5743148F054EF_OFFSET UNITYSDK_OFFSET(0x19BBCA90)
+#define RPG_GAMECORE_ROGUESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x19BBCA60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueStart_TypeDefinitionIndex = 21144;
+	inline static constexpr unsigned int RogueStart_TypeDefinitionIndex = 21044;
 
 	class RogueStart : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUESTART__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BF883BE0C5DD94DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueStart*& a2)
+		static ::System::Void Method_3_C256CD227EB239F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueStart*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueStart*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUESTART_METHOD_3_BF883BE0C5DD94DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueStart*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUESTART_METHOD_3_C256CD227EB239F6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CE6523B372114ECD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueStart* a2)
+		static ::System::Void Method_3_D0F5743148F054EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueStart* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueStart*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUESTART_METHOD_3_CE6523B372114ECD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueStart*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUESTART_METHOD_3_D0F5743148F054EF_OFFSET))(a1, a2);
 		}
 	};
 }

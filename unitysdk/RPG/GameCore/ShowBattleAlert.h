@@ -9,13 +9,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_3703130F7353B5DD_OFFSET UNITYSDK_OFFSET(0x18E58420)
-#define RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_69C996B6AA39C5D4_OFFSET UNITYSDK_OFFSET(0x18E584A0)
-#define RPG_GAMECORE_SHOWBATTLEALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E58470)
+#define RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_5809B16CE295D7F9_OFFSET UNITYSDK_OFFSET(0x19C746E0)
+#define RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_CCB15AAADD3B0F6D_OFFSET UNITYSDK_OFFSET(0x19C74660)
+#define RPG_GAMECORE_SHOWBATTLEALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C746B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleAlert_TypeDefinitionIndex = 21842;
+	inline static constexpr unsigned int ShowBattleAlert_TypeDefinitionIndex = 21676;
 
 	class ShowBattleAlert : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,14 +35,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEALERT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3703130F7353B5DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleAlert*& a2)
+		static ::System::Void Method_3_CCB15AAADD3B0F6D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleAlert*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleAlert*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_3703130F7353B5DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleAlert*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_CCB15AAADD3B0F6D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_69C996B6AA39C5D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleAlert* a2)
+		static ::System::Void Method_3_5809B16CE295D7F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleAlert* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleAlert*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_69C996B6AA39C5D4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleAlert*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_5809B16CE295D7F9_OFFSET))(a1, a2);
 		}
 	};
 }

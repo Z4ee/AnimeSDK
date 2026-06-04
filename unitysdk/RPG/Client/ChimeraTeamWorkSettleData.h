@@ -5,26 +5,26 @@
 namespace RPG::Client { class ChimeraWorkSettleData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA085DA0)
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETCHIMERAWORKSETTLEDATA_OFFSET UNITYSDK_OFFSET(0xA085EB0)
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETMAXDAMAGECHIMERAID_OFFSET UNITYSDK_OFFSET(0xA085FF0)
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETMAXDAMAGENEWCHIMERAID_OFFSET UNITYSDK_OFFSET(0xA086190)
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETMAXKILLCHIMERAID_OFFSET UNITYSDK_OFFSET(0xA086510)
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETMINDAMAGECHIMERAID_OFFSET UNITYSDK_OFFSET(0xA086370)
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_INIT_OFFSET UNITYSDK_OFFSET(0xA085A50)
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_ISNEWJOINCHIMERAID_OFFSET UNITYSDK_OFFSET(0xA085F90)
-#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA0866D0)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6C5440)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETCHIMERAWORKSETTLEDATA_OFFSET UNITYSDK_OFFSET(0xB6C5530)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETMAXDAMAGECHIMERAID_OFFSET UNITYSDK_OFFSET(0xB6C56F0)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETMAXDAMAGENEWCHIMERAID_OFFSET UNITYSDK_OFFSET(0xB6C5890)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETMAXKILLCHIMERAID_OFFSET UNITYSDK_OFFSET(0xB6C5CB0)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETMINDAMAGECHIMERAID_OFFSET UNITYSDK_OFFSET(0xB6C5B10)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_INIT_OFFSET UNITYSDK_OFFSET(0xB6C50D0)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_ISNEWJOINCHIMERAID_OFFSET UNITYSDK_OFFSET(0xB6C5630)
+#define RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C5E60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamWorkSettleData_TypeDefinitionIndex = 58462;
+	inline static constexpr unsigned int ChimeraTeamWorkSettleData_TypeDefinitionIndex = 59392;
 
 	class ChimeraTeamWorkSettleData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* NewJoinChimeras; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* SurviveChimeras; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* DeadChimeras; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* DeadChimeras; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* NewJoinChimeras; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* SurviveChimeras; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::ChimeraWorkSettleData*>* ChimeraWorkSettleDatas; // 0x28
 		::System::Boolean HasDisposed; // 0x30
 
@@ -33,9 +33,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::System::Collections::Generic::List_1<::System::UInt32>* chimeraIDs)
+		::System::Void Init(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_INIT_OFFSET))(this, chimeraIDs);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -43,14 +43,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_DISPOSE_OFFSET))(this);
 		}
 
-		::RPG::Client::ChimeraWorkSettleData* GetChimeraWorkSettleData(::System::UInt32 chimeraID)
+		::RPG::Client::ChimeraWorkSettleData* GetChimeraWorkSettleData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraWorkSettleData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETCHIMERAWORKSETTLEDATA_OFFSET))(this, chimeraID);
+			return ((::RPG::Client::ChimeraWorkSettleData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_GETCHIMERAWORKSETTLEDATA_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsNewJoinChimeraID(::System::UInt32 chimeraID)
+		::System::Boolean IsNewJoinChimeraID(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_ISNEWJOINCHIMERAID_OFFSET))(this, chimeraID);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATEAMWORKSETTLEDATA_ISNEWJOINCHIMERAID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetMaxDamageChimeraID()

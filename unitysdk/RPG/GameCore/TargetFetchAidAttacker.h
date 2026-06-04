@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHAIDATTACKER_METHOD_4_5064AA45E7DA9AA7_OFFSET UNITYSDK_OFFSET(0x18EE2A60)
-#define RPG_GAMECORE_TARGETFETCHAIDATTACKER_METHOD_4_F29601CF457A7449_OFFSET UNITYSDK_OFFSET(0x18EDA420)
-#define RPG_GAMECORE_TARGETFETCHAIDATTACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EDA3D0)
+#define RPG_GAMECORE_TARGETFETCHAIDATTACKER_METHOD_4_19B3DD808F99BD41_OFFSET UNITYSDK_OFFSET(0x19D0A790)
+#define RPG_GAMECORE_TARGETFETCHAIDATTACKER_METHOD_4_5064AA45E7DA9AA7_OFFSET UNITYSDK_OFFSET(0x19D0A6B0)
+#define RPG_GAMECORE_TARGETFETCHAIDATTACKER_METHOD_4_A36A2DB87585D3E8_OFFSET UNITYSDK_OFFSET(0x19D03E00)
+#define RPG_GAMECORE_TARGETFETCHAIDATTACKER_METHOD_4_F29601CF457A7449_OFFSET UNITYSDK_OFFSET(0x19CF67D0)
+#define RPG_GAMECORE_TARGETFETCHAIDATTACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF6780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAidAttacker_TypeDefinitionIndex = 22998;
+	inline static constexpr unsigned int TargetFetchAidAttacker_TypeDefinitionIndex = 22689;
 
 	class TargetFetchAidAttacker : public ::RPG::GameCore::TargetEvaluator
 	{
@@ -28,6 +31,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_F29601CF457A7449(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAidAttacker* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAidAttacker*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAIDATTACKER_METHOD_4_F29601CF457A7449_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_A36A2DB87585D3E8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAidAttacker*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAidAttacker*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAIDATTACKER_METHOD_4_A36A2DB87585D3E8_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_19B3DD808F99BD41(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAidAttacker* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAidAttacker*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHAIDATTACKER_METHOD_4_19B3DD808F99BD41_OFFSET))(a1, a2);
 		}
 	};
 }

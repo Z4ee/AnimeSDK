@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAEVALUATIONCONDITION_METHOD_2_75945B8D8AA0A742_OFFSET UNITYSDK_OFFSET(0x18808010)
-#define RPG_GAMECORE_CHIMERAEVALUATIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x188081A0)
+#define RPG_GAMECORE_CHIMERAEVALUATIONCONDITION_METHOD_2_F2FAA28219EFAC89_OFFSET UNITYSDK_OFFSET(0x19649870)
+#define RPG_GAMECORE_CHIMERAEVALUATIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x19649A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraEvaluationCondition_TypeDefinitionIndex = 15019;
+	inline static constexpr unsigned int ChimeraEvaluationCondition_TypeDefinitionIndex = 15082;
 
 	class ChimeraEvaluationCondition : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAEVALUATIONCONDITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_75945B8D8AA0A742(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraEvaluationCondition*& a2)
+		static ::System::Void Method_2_F2FAA28219EFAC89(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraEvaluationCondition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraEvaluationCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAEVALUATIONCONDITION_METHOD_2_75945B8D8AA0A742_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraEvaluationCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAEVALUATIONCONDITION_METHOD_2_F2FAA28219EFAC89_OFFSET))(a1, a2);
 		}
 	};
 }

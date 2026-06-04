@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameNavigationType_TypeDefinitionIndex = 20307;
+	inline static constexpr unsigned int LittleGameNavigationType_TypeDefinitionIndex = 23213;
 
 	enum class LittleGameNavigationType : ::System::Int32
 	{

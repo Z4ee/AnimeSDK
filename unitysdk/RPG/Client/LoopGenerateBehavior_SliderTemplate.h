@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_GET_TARGETGO_OFFSET UNITYSDK_OFFSET(0x13C30)
-#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_SET_TARGETGO_OFFSET UNITYSDK_OFFSET(0xAF80)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_GET_TARGETGO_OFFSET UNITYSDK_OFFSET(0x14410)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_SET_TARGETGO_OFFSET UNITYSDK_OFFSET(0xB7C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerateBehavior_SliderTemplate_TypeDefinitionIndex = 65367;
+	inline static constexpr unsigned int LoopGenerateBehavior_SliderTemplate_TypeDefinitionIndex = 66294;
 
 	struct alignas(8) LoopGenerateBehavior_SliderTemplate
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_GET_TARGETGO_OFFSET))(this);
 		}
 
-		::System::Void set_TargetGo(::UnityEngine::GameObject* value)
+		::System::Void set_TargetGo(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_SET_TARGETGO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_SLIDERTEMPLATE_SET_TARGETGO_OFFSET))(this, a1);
 		}
 	};
 }

@@ -11,13 +11,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_SIMPRTXGROUP_METHOD_1_19B91D58E02869BC_OFFSET UNITYSDK_OFFSET(0xB1770E0)
-#define RPG_CLIENT_SIMPRTXGROUP_METHOD_1_9DBC9E6BCD10AD9A_OFFSET UNITYSDK_OFFSET(0xB176F70)
-#define RPG_CLIENT_SIMPRTXGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xB177280)
+#define RPG_CLIENT_SIMPRTXGROUP_METHOD_1_9DBC9E6BCD10AD9A_OFFSET UNITYSDK_OFFSET(0xC8CBDB0)
+#define RPG_CLIENT_SIMPRTXGROUP_METHOD_1_EBAC71FBE1837205_OFFSET UNITYSDK_OFFSET(0xC8CBF20)
+#define RPG_CLIENT_SIMPRTXGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xC8CC0D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXGroup_TypeDefinitionIndex = 64707;
+	inline static constexpr unsigned int SimpRTXGroup_TypeDefinitionIndex = 65628;
 
 	class SimpRTXGroup : public ::System::Object
 	{
@@ -42,9 +42,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIMPRTXGROUP_METHOD_1_9DBC9E6BCD10AD9A_OFFSET))(this);
 		}
 
-		::System::Void Method_1_19B91D58E02869BC()
+		::System::Void Method_1_EBAC71FBE1837205()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIMPRTXGROUP_METHOD_1_19B91D58E02869BC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIMPRTXGROUP_METHOD_1_EBAC71FBE1837205_OFFSET))(this);
 		}
 	};
 }

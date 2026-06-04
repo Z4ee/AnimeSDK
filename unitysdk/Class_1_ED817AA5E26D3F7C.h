@@ -6,18 +6,18 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleShowDither; }
 
-#define CLASS_1_ED817AA5E26D3F7C_METHOD_1_40E03D354D1ACC85_OFFSET UNITYSDK_OFFSET(0x11ACFF50)
-#define CLASS_1_ED817AA5E26D3F7C_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x11AD0300)
-#define CLASS_1_ED817AA5E26D3F7C__CTOR_OFFSET UNITYSDK_OFFSET(0x11ACFEF0)
+#define CLASS_1_ED817AA5E26D3F7C_METHOD_1_4857357D5C1BFCE8_OFFSET UNITYSDK_OFFSET(0x143C2330)
+#define CLASS_1_ED817AA5E26D3F7C_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x143C26E0)
+#define CLASS_1_ED817AA5E26D3F7C__CTOR_OFFSET UNITYSDK_OFFSET(0x143C22D0)
 
-inline static constexpr unsigned int Class_1_ED817AA5E26D3F7C_TypeDefinitionIndex = 71902;
+inline static constexpr unsigned int Class_1_ED817AA5E26D3F7C_TypeDefinitionIndex = 72924;
 
 class Class_1_ED817AA5E26D3F7C : public ::System::Object
 {
 public:
-	::RPG::GameCore::ChimeraBattleShowDither* Field_1_1; // 0x10
-	::RPG::Client::Promises::Promise* Field_1_0; // 0x18
-	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Field_1_2; // 0x20
+	::RPG::Client::Promises::Promise* Field_1_0; // 0x10
+	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Field_1_1; // 0x18
+	::RPG::GameCore::ChimeraBattleShowDither* Field_1_2; // 0x20
 	::System::UInt32 Field_1_3; // 0x28
 	::System::UInt32 Field_1_4; // 0x2C
 
@@ -26,9 +26,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraBattleShowDither*, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_ED817AA5E26D3F7C__CTOR_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void Method_1_40E03D354D1ACC85()
+	::System::Void Method_1_4857357D5C1BFCE8()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ED817AA5E26D3F7C_METHOD_1_40E03D354D1ACC85_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ED817AA5E26D3F7C_METHOD_1_4857357D5C1BFCE8_OFFSET))(this);
 	}
 
 	::RPG::Client::Promises::Promise* Method_1_8F9DF3D751E1E0BF()

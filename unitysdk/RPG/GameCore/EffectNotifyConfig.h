@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTNOTIFYCONFIG_METHOD_2_CDDAB0DBB8CE33B7_OFFSET UNITYSDK_OFFSET(0x188971D0)
-#define RPG_GAMECORE_EFFECTNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18897360)
+#define RPG_GAMECORE_EFFECTNOTIFYCONFIG_METHOD_2_CDDAB0DBB8CE33B7_OFFSET UNITYSDK_OFFSET(0x196D5A70)
+#define RPG_GAMECORE_EFFECTNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196D5C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectNotifyConfig_TypeDefinitionIndex = 16050;
+	inline static constexpr unsigned int EffectNotifyConfig_TypeDefinitionIndex = 16100;
 
 	class EffectNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

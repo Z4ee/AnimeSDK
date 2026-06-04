@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BASELINEAVATARPRELOADCONFIG_METHOD_2_10A26512E6F95D83_OFFSET UNITYSDK_OFFSET(0x186EE860)
-#define RPG_GAMECORE_BASELINEAVATARPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186EEA20)
+#define RPG_GAMECORE_BASELINEAVATARPRELOADCONFIG_METHOD_2_03B65456493461F9_OFFSET UNITYSDK_OFFSET(0x194C2070)
+#define RPG_GAMECORE_BASELINEAVATARPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194C2230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaselineAvatarPreloadConfig_TypeDefinitionIndex = 15471;
+	inline static constexpr unsigned int BaselineAvatarPreloadConfig_TypeDefinitionIndex = 15534;
 
 	class BaselineAvatarPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASELINEAVATARPRELOADCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_10A26512E6F95D83(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BaselineAvatarPreloadConfig*& a2)
+		static ::System::Void Method_2_03B65456493461F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BaselineAvatarPreloadConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BaselineAvatarPreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASELINEAVATARPRELOADCONFIG_METHOD_2_10A26512E6F95D83_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BaselineAvatarPreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASELINEAVATARPRELOADCONFIG_METHOD_2_03B65456493461F9_OFFSET))(a1, a2);
 		}
 	};
 }

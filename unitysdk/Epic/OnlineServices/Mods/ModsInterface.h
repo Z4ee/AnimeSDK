@@ -15,21 +15,21 @@ namespace Epic::OnlineServices::Mods { class UninstallModOptions; }
 namespace Epic::OnlineServices::Mods { class UpdateModOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_COPYMODINFO_OFFSET UNITYSDK_OFFSET(0x8ED36F0)
-#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ENUMERATEMODS_OFFSET UNITYSDK_OFFSET(0x8ED3980)
-#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_INSTALLMOD_OFFSET UNITYSDK_OFFSET(0x8ED3C00)
-#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONENUMERATEMODSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8ED3490)
-#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONINSTALLMODCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8ED3520)
-#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONUNINSTALLMODCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8ED35B0)
-#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONUPDATEMODCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8ED3640)
-#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_UNINSTALLMOD_OFFSET UNITYSDK_OFFSET(0x8ED3DE0)
-#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_UPDATEMOD_OFFSET UNITYSDK_OFFSET(0x8ED3FC0)
-#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8ED36E0)
-#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8ED36D0)
+#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_COPYMODINFO_OFFSET UNITYSDK_OFFSET(0xA306900)
+#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ENUMERATEMODS_OFFSET UNITYSDK_OFFSET(0xA306B90)
+#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_INSTALLMOD_OFFSET UNITYSDK_OFFSET(0xA306E10)
+#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONENUMERATEMODSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA306660)
+#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONINSTALLMODCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA306700)
+#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONUNINSTALLMODCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA3067A0)
+#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONUPDATEMODCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA306840)
+#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_UNINSTALLMOD_OFFSET UNITYSDK_OFFSET(0xA306FF0)
+#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE_UPDATEMOD_OFFSET UNITYSDK_OFFSET(0xA3071D0)
+#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA3068F0)
+#define EPIC_ONLINESERVICES_MODS_MODSINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA3068E0)
 
 namespace Epic::OnlineServices::Mods
 {
-	inline static constexpr unsigned int ModsInterface_TypeDefinitionIndex = 41776;
+	inline static constexpr unsigned int ModsInterface_TypeDefinitionIndex = 42579;
 
 	class ModsInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -47,54 +47,54 @@ namespace Epic::OnlineServices::Mods
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopyModInfo(::Epic::OnlineServices::Mods::CopyModInfoOptions* options, ::Epic::OnlineServices::Mods::ModInfo*& outEnumeratedMods)
+		::Epic::OnlineServices::Result CopyModInfo(::Epic::OnlineServices::Mods::CopyModInfoOptions* a1, ::Epic::OnlineServices::Mods::ModInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Mods::CopyModInfoOptions*, ::Epic::OnlineServices::Mods::ModInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_COPYMODINFO_OFFSET))(this, options, outEnumeratedMods);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Mods::CopyModInfoOptions*, ::Epic::OnlineServices::Mods::ModInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_COPYMODINFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EnumerateMods(::Epic::OnlineServices::Mods::EnumerateModsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Mods::OnEnumerateModsCallback* completionDelegate)
+		::System::Void EnumerateMods(::Epic::OnlineServices::Mods::EnumerateModsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Mods::OnEnumerateModsCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::EnumerateModsOptions*, ::System::Object*, ::Epic::OnlineServices::Mods::OnEnumerateModsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ENUMERATEMODS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::EnumerateModsOptions*, ::System::Object*, ::Epic::OnlineServices::Mods::OnEnumerateModsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ENUMERATEMODS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void InstallMod(::Epic::OnlineServices::Mods::InstallModOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Mods::OnInstallModCallback* completionDelegate)
+		::System::Void InstallMod(::Epic::OnlineServices::Mods::InstallModOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Mods::OnInstallModCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::InstallModOptions*, ::System::Object*, ::Epic::OnlineServices::Mods::OnInstallModCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_INSTALLMOD_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::InstallModOptions*, ::System::Object*, ::Epic::OnlineServices::Mods::OnInstallModCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_INSTALLMOD_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UninstallMod(::Epic::OnlineServices::Mods::UninstallModOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Mods::OnUninstallModCallback* completionDelegate)
+		::System::Void UninstallMod(::Epic::OnlineServices::Mods::UninstallModOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Mods::OnUninstallModCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::UninstallModOptions*, ::System::Object*, ::Epic::OnlineServices::Mods::OnUninstallModCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_UNINSTALLMOD_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::UninstallModOptions*, ::System::Object*, ::Epic::OnlineServices::Mods::OnUninstallModCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_UNINSTALLMOD_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UpdateMod(::Epic::OnlineServices::Mods::UpdateModOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Mods::OnUpdateModCallback* completionDelegate)
+		::System::Void UpdateMod(::Epic::OnlineServices::Mods::UpdateModOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Mods::OnUpdateModCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::UpdateModOptions*, ::System::Object*, ::Epic::OnlineServices::Mods::OnUpdateModCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_UPDATEMOD_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::UpdateModOptions*, ::System::Object*, ::Epic::OnlineServices::Mods::OnUpdateModCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_UPDATEMOD_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnEnumerateModsCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnEnumerateModsCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONENUMERATEMODSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONENUMERATEMODSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnInstallModCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnInstallModCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONINSTALLMODCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONINSTALLMODCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnUninstallModCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnUninstallModCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONUNINSTALLMODCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONUNINSTALLMODCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnUpdateModCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnUpdateModCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONUPDATEMODCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_MODSINTERFACE_ONUPDATEMODCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

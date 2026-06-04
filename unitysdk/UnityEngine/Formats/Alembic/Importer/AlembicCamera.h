@@ -8,22 +8,22 @@
 
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1A1CA100)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1A1CA2D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1A1CA0D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1A1CA0E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1CA880)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1B02E700)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1B02E8D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1B02E6D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1B02E6E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B02EE80)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicCamera_TypeDefinitionIndex = 40844;
+	inline static constexpr unsigned int AlembicCamera_TypeDefinitionIndex = 41670;
 
 	class AlembicCamera : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
 	public:
 		::UnityEngine::Camera* m_camera; // 0x28
-		::UnityEngine::Formats::Alembic::Sdk::CameraData m_abcData; // 0x30
-		::UnityEngine::Formats::Alembic::Sdk::aiCamera m_abcSchema; // 0x50
+		::UnityEngine::Formats::Alembic::Sdk::aiCamera m_abcSchema; // 0x30
+		::UnityEngine::Formats::Alembic::Sdk::CameraData m_abcData; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -40,9 +40,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_GET_VISIBILITY_OFFSET))(this);
 		}
 
-		::System::Void AbcSetup(::UnityEngine::Formats::Alembic::Sdk::aiObject abcObj, ::UnityEngine::Formats::Alembic::Sdk::aiSchema abcSchema)
+		::System::Void AbcSetup(::UnityEngine::Formats::Alembic::Sdk::aiObject a1, ::UnityEngine::Formats::Alembic::Sdk::aiSchema a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiObject, ::UnityEngine::Formats::Alembic::Sdk::aiSchema))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_ABCSETUP_OFFSET))(this, abcObj, abcSchema);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aiObject, ::UnityEngine::Formats::Alembic::Sdk::aiSchema))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCAMERA_ABCSETUP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AbcSyncDataEnd()

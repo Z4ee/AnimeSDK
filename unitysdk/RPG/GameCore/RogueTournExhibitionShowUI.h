@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ROGUETOURNEXHIBITIONSHOWUI_METHOD_3_252BC2ADFD7E1F6F_OFFSET UNITYSDK_OFFSET(0x18D72FA0)
-#define RPG_GAMECORE_ROGUETOURNEXHIBITIONSHOWUI_METHOD_3_4F25FF2A392A4594_OFFSET UNITYSDK_OFFSET(0x18D73020)
-#define RPG_GAMECORE_ROGUETOURNEXHIBITIONSHOWUI__CTOR_OFFSET UNITYSDK_OFFSET(0x18D72FF0)
+#define RPG_GAMECORE_ROGUETOURNEXHIBITIONSHOWUI_METHOD_3_5CDB545D24D07606_OFFSET UNITYSDK_OFFSET(0x19BC6D70)
+#define RPG_GAMECORE_ROGUETOURNEXHIBITIONSHOWUI_METHOD_3_6EB74784776C0B75_OFFSET UNITYSDK_OFFSET(0x19BC6CF0)
+#define RPG_GAMECORE_ROGUETOURNEXHIBITIONSHOWUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC6D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournExhibitionShowUI_TypeDefinitionIndex = 20983;
+	inline static constexpr unsigned int RogueTournExhibitionShowUI_TypeDefinitionIndex = 20895;
 
 	class RogueTournExhibitionShowUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXHIBITIONSHOWUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_252BC2ADFD7E1F6F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournExhibitionShowUI*& a2)
+		static ::System::Void Method_3_6EB74784776C0B75(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournExhibitionShowUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournExhibitionShowUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXHIBITIONSHOWUI_METHOD_3_252BC2ADFD7E1F6F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournExhibitionShowUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXHIBITIONSHOWUI_METHOD_3_6EB74784776C0B75_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4F25FF2A392A4594(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournExhibitionShowUI* a2)
+		static ::System::Void Method_3_5CDB545D24D07606(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournExhibitionShowUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournExhibitionShowUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXHIBITIONSHOWUI_METHOD_3_4F25FF2A392A4594_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournExhibitionShowUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNEXHIBITIONSHOWUI_METHOD_3_5CDB545D24D07606_OFFSET))(a1, a2);
 		}
 	};
 }

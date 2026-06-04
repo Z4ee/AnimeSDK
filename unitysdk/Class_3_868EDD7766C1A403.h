@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearRegardAsAttackType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_868EDD7766C1A403_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11B63910)
-#define CLASS_3_868EDD7766C1A403__CTOR_OFFSET UNITYSDK_OFFSET(0x11B638E0)
+#define CLASS_3_868EDD7766C1A403_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14312760)
+#define CLASS_3_868EDD7766C1A403__CTOR_OFFSET UNITYSDK_OFFSET(0x14312730)
 
-inline static constexpr unsigned int Class_3_868EDD7766C1A403_TypeDefinitionIndex = 50697;
+inline static constexpr unsigned int Class_3_868EDD7766C1A403_TypeDefinitionIndex = 51365;
 
 class Class_3_868EDD7766C1A403 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearRegardAsAttackType*>
 {

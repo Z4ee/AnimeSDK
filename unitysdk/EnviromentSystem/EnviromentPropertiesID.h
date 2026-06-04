@@ -3,7 +3,7 @@
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviromentPropertiesID_TypeDefinitionIndex = 46181;
+	inline static constexpr unsigned int EnviromentPropertiesID_TypeDefinitionIndex = 46764;
 
 	enum class EnviromentPropertiesID : ::System::Int32
 	{
@@ -205,19 +205,20 @@ namespace EnviromentSystem
 		SSGIBrightnessLimit = 195,
 		SSGIObjectThickness = 196,
 		SSGIBlendMode = 197,
-		SSRUseHizTrace = 198,
-		UseUnrealProbe = 199,
-		ForwardAnisoAmbientScale = 200,
-		ForwardAnisoFadeByDistanceEnv = 201,
-		AdjustReflectionHSV = 202,
-		LowQualityDisableCSM = 203,
-		CloudShadowCoverage = 204,
-		CloudShadowOpacity = 205,
-		CloudShadowSmoothness = 206,
-		CloudShadowTilling = 207,
-		CloudShadowBias = 208,
-		CloudShadowSpeed = 209,
-		CloudShadowMaxHeight = 210,
-		Max = 211,
+		SSGIPerformanceTier = 198,
+		SSRUseHizTrace = 199,
+		UseUnrealProbe = 200,
+		ForwardAnisoAmbientScale = 201,
+		ForwardAnisoFadeByDistanceEnv = 202,
+		AdjustReflectionHSV = 203,
+		LowQualityDisableCSM = 204,
+		CloudShadowCoverage = 205,
+		CloudShadowOpacity = 206,
+		CloudShadowSmoothness = 207,
+		CloudShadowTilling = 208,
+		CloudShadowBias = 209,
+		CloudShadowSpeed = 210,
+		CloudShadowMaxHeight = 211,
+		Max = 212,
 	};
 }

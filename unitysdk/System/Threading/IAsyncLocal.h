@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int IAsyncLocal_TypeDefinitionIndex = 821;
+	inline static constexpr unsigned int IAsyncLocal_TypeDefinitionIndex = 820;
 
 	class IAsyncLocal
 	{

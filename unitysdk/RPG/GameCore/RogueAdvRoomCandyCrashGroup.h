@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RogueAdvRoomCandyCrashGroupTemplate; }
 
-#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHGROUP_METHOD_2_C8266C689C99421E_OFFSET UNITYSDK_OFFSET(0x18CE6600)
-#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18CE6700)
+#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHGROUP_METHOD_2_C3BE15EE5894F693_OFFSET UNITYSDK_OFFSET(0x19B0BFD0)
+#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19B0C0C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdvRoomCandyCrashGroup_TypeDefinitionIndex = 16982;
+	inline static constexpr unsigned int RogueAdvRoomCandyCrashGroup_TypeDefinitionIndex = 16997;
 
 	class RogueAdvRoomCandyCrashGroup : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C8266C689C99421E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdvRoomCandyCrashGroup*& a2)
+		static ::System::Void Method_2_C3BE15EE5894F693(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdvRoomCandyCrashGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdvRoomCandyCrashGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHGROUP_METHOD_2_C8266C689C99421E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdvRoomCandyCrashGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHGROUP_METHOD_2_C3BE15EE5894F693_OFFSET))(a1, a2);
 		}
 	};
 }

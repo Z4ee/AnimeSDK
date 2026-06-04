@@ -7,12 +7,12 @@ namespace RPG::GameCore { class NoteGroupConfig; }
 namespace RPG::GameCore { class NoteNotifyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_METHOD_2_1F84A77D084A4BF2_OFFSET UNITYSDK_OFFSET(0x18B76B20)
-#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B77180)
+#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_METHOD_2_DD3D10DA34D3B9A9_OFFSET UNITYSDK_OFFSET(0x199C58E0)
+#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199C5F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmTimelineConfig_TypeDefinitionIndex = 16035;
+	inline static constexpr unsigned int MusicRhythmTimelineConfig_TypeDefinitionIndex = 16085;
 
 	class MusicRhythmTimelineConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -40,9 +40,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1F84A77D084A4BF2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MusicRhythmTimelineConfig*& a2)
+		static ::System::Void Method_2_DD3D10DA34D3B9A9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MusicRhythmTimelineConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MusicRhythmTimelineConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_METHOD_2_1F84A77D084A4BF2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MusicRhythmTimelineConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_METHOD_2_DD3D10DA34D3B9A9_OFFSET))(a1, a2);
 		}
 	};
 }

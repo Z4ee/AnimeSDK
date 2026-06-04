@@ -4,22 +4,22 @@
 
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class RogueInstanceCacheManager_3; }
 
-#define CLASS_1_ED38314B253B0150_GET_PRESETID_OFFSET UNITYSDK_OFFSET(0xA2DF4F0)
-#define CLASS_1_ED38314B253B0150_METHOD_1_0511E01F1DEE88BF_OFFSET UNITYSDK_OFFSET(0xA2DF630)
-#define CLASS_1_ED38314B253B0150_METHOD_1_37AA74CF28285FA0_OFFSET UNITYSDK_OFFSET(0xA2DF5C0)
-#define CLASS_1_ED38314B253B0150_METHOD_1_761BDE1139FE5F25_OFFSET UNITYSDK_OFFSET(0xA2DF520)
-#define CLASS_1_ED38314B253B0150_SET_PRESETID_OFFSET UNITYSDK_OFFSET(0xA2DF500)
-#define CLASS_1_ED38314B253B0150__CCTOR_OFFSET UNITYSDK_OFFSET(0xA2DF760)
-#define CLASS_1_ED38314B253B0150__CTOR_OFFSET UNITYSDK_OFFSET(0xA2DF510)
+#define CLASS_1_ED38314B253B0150_GET_PRESETID_OFFSET UNITYSDK_OFFSET(0x1400CA10)
+#define CLASS_1_ED38314B253B0150_METHOD_1_0511E01F1DEE88BF_OFFSET UNITYSDK_OFFSET(0x1400CB50)
+#define CLASS_1_ED38314B253B0150_METHOD_1_1667096B11874B0A_OFFSET UNITYSDK_OFFSET(0x1400CA40)
+#define CLASS_1_ED38314B253B0150_METHOD_1_37AA74CF28285FA0_OFFSET UNITYSDK_OFFSET(0x1400CAE0)
+#define CLASS_1_ED38314B253B0150_SET_PRESETID_OFFSET UNITYSDK_OFFSET(0x1400CA20)
+#define CLASS_1_ED38314B253B0150__CCTOR_OFFSET UNITYSDK_OFFSET(0x1400CC80)
+#define CLASS_1_ED38314B253B0150__CTOR_OFFSET UNITYSDK_OFFSET(0x1400CA30)
 
-inline static constexpr unsigned int Class_1_ED38314B253B0150_TypeDefinitionIndex = 62417;
+inline static constexpr unsigned int Class_1_ED38314B253B0150_TypeDefinitionIndex = 63350;
 
 class Class_1_ED38314B253B0150 : public ::System::Object
 {
 public:
-	static ::RPG::Client::RogueInstanceCacheManager_3<::System::UInt32, ::System::UInt32, ::Class_1_ED38314B253B0150*>** StaticGet_Field_1_1()
+	static ::RPG::Client::RogueInstanceCacheManager_3<::System::UInt32, ::System::UInt32, ::Class_1_ED38314B253B0150*>** StaticGet_Field_1_0()
 	{
-		return (::RPG::Client::RogueInstanceCacheManager_3<::System::UInt32, ::System::UInt32, ::Class_1_ED38314B253B0150*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ED38314B253B0150_TypeDefinitionIndex)->GetStaticField(0x6B140);
+		return (::RPG::Client::RogueInstanceCacheManager_3<::System::UInt32, ::System::UInt32, ::Class_1_ED38314B253B0150*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ED38314B253B0150_TypeDefinitionIndex)->GetStaticField(0x3DAA0);
 	}
 	::System::UInt32 _PresetID_k__BackingField; // 0x10
 
@@ -38,14 +38,14 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ED38314B253B0150_GET_PRESETID_OFFSET))(this);
 	}
 
-	::System::Void set_PresetID(::System::UInt32 value)
+	::System::Void set_PresetID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_ED38314B253B0150_SET_PRESETID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_ED38314B253B0150_SET_PRESETID_OFFSET))(this, a1);
 	}
 
-	static ::Class_1_ED38314B253B0150* Method_1_761BDE1139FE5F25(::System::UInt32 a1, ::System::UInt32 a2)
+	static ::Class_1_ED38314B253B0150* Method_1_1667096B11874B0A(::System::UInt32 a1, ::System::UInt32 a2)
 	{
-		return ((::Class_1_ED38314B253B0150*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_ED38314B253B0150_METHOD_1_761BDE1139FE5F25_OFFSET))(a1, a2);
+		return ((::Class_1_ED38314B253B0150*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_ED38314B253B0150_METHOD_1_1667096B11874B0A_OFFSET))(a1, a2);
 	}
 
 	static ::Class_1_ED38314B253B0150* Method_1_37AA74CF28285FA0(::System::UInt32 a1, ::System::UInt32 a2)

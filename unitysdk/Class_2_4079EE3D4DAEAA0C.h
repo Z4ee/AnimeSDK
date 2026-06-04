@@ -8,25 +8,25 @@ namespace RPG::GameCore { class ShowHeartDialUI; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_4079EE3D4DAEAA0C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11E59130)
-#define CLASS_2_4079EE3D4DAEAA0C_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x11E591D0)
-#define CLASS_2_4079EE3D4DAEAA0C_METHOD_2_FF55884589608AE4_OFFSET UNITYSDK_OFFSET(0x11E59020)
-#define CLASS_2_4079EE3D4DAEAA0C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11E58E70)
-#define CLASS_2_4079EE3D4DAEAA0C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11E590E0)
-#define CLASS_2_4079EE3D4DAEAA0C_TICK_OFFSET UNITYSDK_OFFSET(0x11E59170)
-#define CLASS_2_4079EE3D4DAEAA0C__CTOR_OFFSET UNITYSDK_OFFSET(0x11E58E60)
+#define CLASS_2_4079EE3D4DAEAA0C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x112AECE0)
+#define CLASS_2_4079EE3D4DAEAA0C_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x112AED80)
+#define CLASS_2_4079EE3D4DAEAA0C_METHOD_2_EFAE6171FF3CE93B_OFFSET UNITYSDK_OFFSET(0x112AEBD0)
+#define CLASS_2_4079EE3D4DAEAA0C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x112AEA00)
+#define CLASS_2_4079EE3D4DAEAA0C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x112AEC90)
+#define CLASS_2_4079EE3D4DAEAA0C_TICK_OFFSET UNITYSDK_OFFSET(0x112AED20)
+#define CLASS_2_4079EE3D4DAEAA0C__CTOR_OFFSET UNITYSDK_OFFSET(0x112AE9F0)
 
-inline static constexpr unsigned int Class_2_4079EE3D4DAEAA0C_TypeDefinitionIndex = 54083;
+inline static constexpr unsigned int Class_2_4079EE3D4DAEAA0C_TypeDefinitionIndex = 54809;
 
 class Class_2_4079EE3D4DAEAA0C : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	// static const ::System::String* Field_2_4; // 0x0
-	// static const ::System::String* Field_2_5; // 0x0
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x18
-	::RPG::GameCore::LevelGraphComponent* Field_2_3; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x28
-	::RPG::GameCore::ShowHeartDialUI* Field_2_0; // 0x30
+	// static const ::System::String* Field_2_0; // 0x0
+	// static const ::System::String* Field_2_1; // 0x0
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x18
+	::RPG::GameCore::GameEntity* Field_2_3; // 0x20
+	::RPG::GameCore::ShowHeartDialUI* Field_2_4; // 0x28
+	::RPG::GameCore::LevelGraphComponent* Field_2_5; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowHeartDialUI* a2)
 	{
@@ -53,9 +53,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_4079EE3D4DAEAA0C_TICK_OFFSET))(this, a1);
 	}
 
-	::RPG::GameCore::LevelGraphComponent* Method_2_FF55884589608AE4(::System::String* a1)
+	::RPG::GameCore::LevelGraphComponent* Method_2_EFAE6171FF3CE93B(::System::String* a1)
 	{
-		return ((::RPG::GameCore::LevelGraphComponent*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_4079EE3D4DAEAA0C_METHOD_2_FF55884589608AE4_OFFSET))(this, a1);
+		return ((::RPG::GameCore::LevelGraphComponent*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_4079EE3D4DAEAA0C_METHOD_2_EFAE6171FF3CE93B_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_B1936CE4DA97AA45()

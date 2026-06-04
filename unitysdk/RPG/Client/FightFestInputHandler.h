@@ -6,16 +6,16 @@
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::Events { class UnityEvent; }
 
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0xA373540)
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONDRAG_OFFSET UNITYSDK_OFFSET(0xA3735A0)
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xA3736A0)
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xA3736F0)
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONSCROLL_OFFSET UNITYSDK_OFFSET(0xA373750)
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA3737E0)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0xB9C6ED0)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONDRAG_OFFSET UNITYSDK_OFFSET(0xB9C6F30)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xB9C7030)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xB9C7080)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONSCROLL_OFFSET UNITYSDK_OFFSET(0xB9C70E0)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB9C7170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestInputHandler_TypeDefinitionIndex = 59052;
+	inline static constexpr unsigned int FightFestInputHandler_TypeDefinitionIndex = 59982;
 
 	class FightFestInputHandler : public ::UnityEngine::MonoBehaviour
 	{
@@ -36,29 +36,29 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONBEGINDRAG_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONBEGINDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONDRAG_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void OnEndDrag(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnEndDrag(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONENDDRAG_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONENDDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONPOINTERCLICK_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONPOINTERCLICK_OFFSET))(this, a1);
 		}
 
-		::System::Void OnScroll(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnScroll(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONSCROLL_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONSCROLL_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class GeetestView; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_GEETESTVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17526440)
-#define MIHOYO_SDK_GEETESTVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17526480)
-#define MIHOYO_SDK_GEETESTVIEW___C__SHOW_B__14_0_OFFSET UNITYSDK_OFFSET(0x17526490)
+#define MIHOYO_SDK_GEETESTVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1830EDA0)
+#define MIHOYO_SDK_GEETESTVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1830EDE0)
+#define MIHOYO_SDK_GEETESTVIEW___C__SHOW_B__14_0_OFFSET UNITYSDK_OFFSET(0x1830EDF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GeetestView___c_TypeDefinitionIndex = 7291;
+	inline static constexpr unsigned int GeetestView___c_TypeDefinitionIndex = 8194;
 
 	class GeetestView___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::GeetestView*>** StaticGet___9__14_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::GeetestView*>**)Il2CppClass::FromTypeDefinitionIndex(GeetestView___c_TypeDefinitionIndex)->GetStaticField(0x17DB0);
-		}
 		static ::MiHoYo::SDK::GeetestView___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::GeetestView___c**)Il2CppClass::FromTypeDefinitionIndex(GeetestView___c_TypeDefinitionIndex)->GetStaticField(0x17DB8);
+			return (::MiHoYo::SDK::GeetestView___c**)Il2CppClass::FromTypeDefinitionIndex(GeetestView___c_TypeDefinitionIndex)->GetStaticField(0x13390);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::GeetestView*>** StaticGet___9__14_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::GeetestView*>**)Il2CppClass::FromTypeDefinitionIndex(GeetestView___c_TypeDefinitionIndex)->GetStaticField(0x13398);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__14_0(::MiHoYo::SDK::GeetestView* dialog)
+		::System::Void _Show_b__14_0(::MiHoYo::SDK::GeetestView* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::GeetestView*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW___C__SHOW_B__14_0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::GeetestView*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW___C__SHOW_B__14_0_OFFSET))(this, a1);
 		}
 	};
 }

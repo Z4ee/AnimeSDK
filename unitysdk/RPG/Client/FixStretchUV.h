@@ -11,13 +11,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_FIXSTRETCHUV_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xA3BD490)
-#define RPG_CLIENT_FIXSTRETCHUV__CTOR_OFFSET UNITYSDK_OFFSET(0xA3BD4E0)
-#define RPG_CLIENT_FIXSTRETCHUV___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xA3BD5B0)
+#define RPG_CLIENT_FIXSTRETCHUV_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBA5A370)
+#define RPG_CLIENT_FIXSTRETCHUV__CTOR_OFFSET UNITYSDK_OFFSET(0xBA5A3C0)
+#define RPG_CLIENT_FIXSTRETCHUV___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBA5A490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FixStretchUV_TypeDefinitionIndex = 65089;
+	inline static constexpr unsigned int FixStretchUV_TypeDefinitionIndex = 66015;
 
 	class FixStretchUV : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::FixStretchUVBehavior*>
 	{

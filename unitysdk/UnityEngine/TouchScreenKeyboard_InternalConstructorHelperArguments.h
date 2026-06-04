@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TouchScreenKeyboard_InternalConstructorHelperArguments_TypeDefinitionIndex = 4204;
+	inline static constexpr unsigned int TouchScreenKeyboard_InternalConstructorHelperArguments_TypeDefinitionIndex = 4378;
 
 	struct alignas(4) TouchScreenKeyboard_InternalConstructorHelperArguments
 	{

@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class MonopolyMapConfig; }
 
-#define CLASS_1_FC0C6492ED19B560__CTOR_OFFSET UNITYSDK_OFFSET(0x17E3EE50)
+#define CLASS_1_FC0C6492ED19B560__CTOR_OFFSET UNITYSDK_OFFSET(0x18C55150)
 
-inline static constexpr unsigned int Class_1_FC0C6492ED19B560_TypeDefinitionIndex = 38802;
+inline static constexpr unsigned int Class_1_FC0C6492ED19B560_TypeDefinitionIndex = 39570;
 
 class Class_1_FC0C6492ED19B560 : public ::System::Object
 {

@@ -6,23 +6,23 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-class Class_2_8981E75B701FEB10;
+class Class_2_8DC5AE9AD23DB502;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture3D; }
 
-#define RPG_CLIENT_MONOFOGVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0xA9C2B50)
-#define RPG_CLIENT_MONOFOGVOLUME_GET_LAST_SAVE_PATH_OFFSET UNITYSDK_OFFSET(0xA9C2CF0)
-#define RPG_CLIENT_MONOFOGVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA9C2BB0)
-#define RPG_CLIENT_MONOFOGVOLUME_SAVETOFILE_OFFSET UNITYSDK_OFFSET(0xA9C2C80)
-#define RPG_CLIENT_MONOFOGVOLUME_SET_LAST_SAVE_PATH_OFFSET UNITYSDK_OFFSET(0xA9C2D00)
-#define RPG_CLIENT_MONOFOGVOLUME_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9C2C20)
-#define RPG_CLIENT_MONOFOGVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xA9C2D40)
+#define RPG_CLIENT_MONOFOGVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0xC110B60)
+#define RPG_CLIENT_MONOFOGVOLUME_GET_LAST_SAVE_PATH_OFFSET UNITYSDK_OFFSET(0xC110D00)
+#define RPG_CLIENT_MONOFOGVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC110BC0)
+#define RPG_CLIENT_MONOFOGVOLUME_SAVETOFILE_OFFSET UNITYSDK_OFFSET(0xC110C90)
+#define RPG_CLIENT_MONOFOGVOLUME_SET_LAST_SAVE_PATH_OFFSET UNITYSDK_OFFSET(0xC110D10)
+#define RPG_CLIENT_MONOFOGVOLUME_UPDATE_OFFSET UNITYSDK_OFFSET(0xC110C30)
+#define RPG_CLIENT_MONOFOGVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xC110D50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoFogVolume_TypeDefinitionIndex = 65280;
+	inline static constexpr unsigned int MonoFogVolume_TypeDefinitionIndex = 66207;
 
 	class MonoFogVolume : public ::UnityEngine::MonoBehaviour
 	{
@@ -56,7 +56,7 @@ namespace RPG::Client
 		::System::Single ShapeSpeed; // 0xC8
 		::System::Single DetailSpeed; // 0xCC
 		::UnityEngine::GameObject* fogObject; // 0xD0
-		::Class_2_8981E75B701FEB10* Field_5_29; // 0xD8
+		::Class_2_8DC5AE9AD23DB502* Field_5_29; // 0xD8
 
 		::System::Void _ctor()
 		{

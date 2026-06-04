@@ -7,19 +7,19 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_AWAKE_OFFSET UNITYSDK_OFFSET(0xA148F60)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_PLAYCHANGE_OFFSET UNITYSDK_OFFSET(0xA149360)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_SETUP_OFFSET UNITYSDK_OFFSET(0xA149110)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_UPDATE_OFFSET UNITYSDK_OFFSET(0xA149580)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__COMPAREENTRIESBYINDEX_OFFSET UNITYSDK_OFFSET(0xA149920)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__COMPAREENTRIESBYPERCENTTHENINDEX_OFFSET UNITYSDK_OFFSET(0xA1499E0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0xA149AB0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__UPDATEPERCENTS_OFFSET UNITYSDK_OFFSET(0xA149630)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__UPDATERANKING_OFFSET UNITYSDK_OFFSET(0xA1497C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_AWAKE_OFFSET UNITYSDK_OFFSET(0xB7C7D90)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_PLAYCHANGE_OFFSET UNITYSDK_OFFSET(0xB7C81E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_SETUP_OFFSET UNITYSDK_OFFSET(0xB7C7F30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_UPDATE_OFFSET UNITYSDK_OFFSET(0xB7C8420)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__COMPAREENTRIESBYINDEX_OFFSET UNITYSDK_OFFSET(0xB7C87F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__COMPAREENTRIESBYPERCENTTHENINDEX_OFFSET UNITYSDK_OFFSET(0xB7C8980)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0xB7C8A50)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__UPDATEPERCENTS_OFFSET UNITYSDK_OFFSET(0xB7C84D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__UPDATERANKING_OFFSET UNITYSDK_OFFSET(0xB7C8660)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2BrandRankingList_TypeDefinitionIndex = 69966;
+	inline static constexpr unsigned int DiceCombatV2BrandRankingList_TypeDefinitionIndex = 70778;
 
 	class DiceCombatV2BrandRankingList : public ::UnityEngine::MonoBehaviour
 	{
@@ -45,14 +45,14 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void Setup(::System::Collections::Generic::List_1<::System::Int32>* percents, ::System::Int32 maxPercent)
+		::System::Void Setup(::System::Collections::Generic::List_1<::System::Int32>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_SETUP_OFFSET))(this, percents, maxPercent);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_SETUP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PlayChange(::System::Collections::Generic::List_1<::System::Int32>* percents, ::System::Action* onPlayEnd)
+		::System::Void PlayChange(::System::Collections::Generic::List_1<::System::Int32>* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_PLAYCHANGE_OFFSET))(this, percents, onPlayEnd);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_PLAYCHANGE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Update()
@@ -60,9 +60,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void _UpdatePercents(::System::Single deltaTime)
+		::System::Void _UpdatePercents(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__UPDATEPERCENTS_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__UPDATEPERCENTS_OFFSET))(this, a1);
 		}
 
 		::System::Void _UpdateRanking()
@@ -70,14 +70,14 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__UPDATERANKING_OFFSET))(this);
 		}
 
-		::System::Int32 _CompareEntriesByIndex(::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry* x, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry* y)
+		::System::Int32 _CompareEntriesByIndex(::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry* a1, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__COMPAREENTRIESBYINDEX_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__COMPAREENTRIESBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _CompareEntriesByPercentThenIndex(::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry* x, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry* y)
+		::System::Int32 _CompareEntriesByPercentThenIndex(::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry* a1, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__COMPAREENTRIESBYPERCENTTHENINDEX_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST__COMPAREENTRIESBYPERCENTTHENINDEX_OFFSET))(this, a1, a2);
 		}
 	};
 }

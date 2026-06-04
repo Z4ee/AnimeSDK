@@ -7,32 +7,32 @@
 namespace System { class String; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UTILITIES_MATERIALQUALITYUTILITIES_FROMINDEX_OFFSET UNITYSDK_OFFSET(0x1A33CED0)
-#define UTILITIES_MATERIALQUALITYUTILITIES_GETCLOSESTQUALITY_OFFSET UNITYSDK_OFFSET(0x1A33CC60)
-#define UTILITIES_MATERIALQUALITYUTILITIES_GETHIGHESTQUALITY_OFFSET UNITYSDK_OFFSET(0x1A33CBC0)
-#define UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_1_OFFSET UNITYSDK_OFFSET(0x1A33D040)
-#define UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1A33CEE0)
-#define UTILITIES_MATERIALQUALITYUTILITIES_TOFIRSTINDEX_OFFSET UNITYSDK_OFFSET(0x1A33CDE0)
-#define UTILITIES_MATERIALQUALITYUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A33D1C0)
+#define UTILITIES_MATERIALQUALITYUTILITIES_FROMINDEX_OFFSET UNITYSDK_OFFSET(0x1B1977A0)
+#define UTILITIES_MATERIALQUALITYUTILITIES_GETCLOSESTQUALITY_OFFSET UNITYSDK_OFFSET(0x1B197530)
+#define UTILITIES_MATERIALQUALITYUTILITIES_GETHIGHESTQUALITY_OFFSET UNITYSDK_OFFSET(0x1B197490)
+#define UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_1_OFFSET UNITYSDK_OFFSET(0x1B1978E0)
+#define UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1B1977B0)
+#define UTILITIES_MATERIALQUALITYUTILITIES_TOFIRSTINDEX_OFFSET UNITYSDK_OFFSET(0x1B1976B0)
+#define UTILITIES_MATERIALQUALITYUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B197A50)
 
 namespace Utilities
 {
-	inline static constexpr unsigned int MaterialQualityUtilities_TypeDefinitionIndex = 33354;
+	inline static constexpr unsigned int MaterialQualityUtilities_TypeDefinitionIndex = 33636;
 
 	class MaterialQualityUtilities : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_EnumNames()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x68770);
-		}
 		static ::Il2CppArray<::UnityEngine::Rendering::ShaderKeyword>** StaticGet_Keywords()
 		{
-			return (::Il2CppArray<::UnityEngine::Rendering::ShaderKeyword>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x68778);
+			return (::Il2CppArray<::UnityEngine::Rendering::ShaderKeyword>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x4BC70);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_EnumNames()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x4BC78);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_KeywordNames()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x68780);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x4BC80);
 		}
 
 		static ::System::Void _cctor()
@@ -40,34 +40,34 @@ namespace Utilities
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES__CCTOR_OFFSET))();
 		}
 
-		static ::Utilities::MaterialQuality GetHighestQuality(::Utilities::MaterialQuality levels)
+		static ::Utilities::MaterialQuality GetHighestQuality(::Utilities::MaterialQuality a1)
 		{
-			return ((::Utilities::MaterialQuality(*)(::Utilities::MaterialQuality))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_GETHIGHESTQUALITY_OFFSET))(levels);
+			return ((::Utilities::MaterialQuality(*)(::Utilities::MaterialQuality))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_GETHIGHESTQUALITY_OFFSET))(a1);
 		}
 
-		static ::Utilities::MaterialQuality GetClosestQuality(::Utilities::MaterialQuality availableLevels, ::Utilities::MaterialQuality requestedLevel)
+		static ::Utilities::MaterialQuality GetClosestQuality(::Utilities::MaterialQuality a1, ::Utilities::MaterialQuality a2)
 		{
-			return ((::Utilities::MaterialQuality(*)(::Utilities::MaterialQuality, ::Utilities::MaterialQuality))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_GETCLOSESTQUALITY_OFFSET))(availableLevels, requestedLevel);
+			return ((::Utilities::MaterialQuality(*)(::Utilities::MaterialQuality, ::Utilities::MaterialQuality))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_GETCLOSESTQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetGlobalShaderKeywords(::Utilities::MaterialQuality level)
+		static ::System::Void SetGlobalShaderKeywords(::Utilities::MaterialQuality a1)
 		{
-			return ((::System::Void(*)(::Utilities::MaterialQuality))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_OFFSET))(level);
+			return ((::System::Void(*)(::Utilities::MaterialQuality))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_OFFSET))(a1);
 		}
 
-		static ::System::Void SetGlobalShaderKeywords_1(::Utilities::MaterialQuality level, ::UnityEngine::Rendering::CommandBuffer* cmd)
+		static ::System::Void SetGlobalShaderKeywords_1(::Utilities::MaterialQuality a1, ::UnityEngine::Rendering::CommandBuffer* a2)
 		{
-			return ((::System::Void(*)(::Utilities::MaterialQuality, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_1_OFFSET))(level, cmd);
+			return ((::System::Void(*)(::Utilities::MaterialQuality, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 ToFirstIndex(::Utilities::MaterialQuality level)
+		static ::System::Int32 ToFirstIndex(::Utilities::MaterialQuality a1)
 		{
-			return ((::System::Int32(*)(::Utilities::MaterialQuality))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_TOFIRSTINDEX_OFFSET))(level);
+			return ((::System::Int32(*)(::Utilities::MaterialQuality))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_TOFIRSTINDEX_OFFSET))(a1);
 		}
 
-		static ::Utilities::MaterialQuality FromIndex(::System::Int32 index)
+		static ::Utilities::MaterialQuality FromIndex(::System::Int32 a1)
 		{
-			return ((::Utilities::MaterialQuality(*)(::System::Int32))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_FROMINDEX_OFFSET))(index);
+			return ((::Utilities::MaterialQuality(*)(::System::Int32))((::PBYTE)hIl2Cpp + UTILITIES_MATERIALQUALITYUTILITIES_FROMINDEX_OFFSET))(a1);
 		}
 	};
 }

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE_REQUESTIDCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x8D12910)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE_REQUESTIDCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0xA16AA40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelInterface_RequestIdContainer_TypeDefinitionIndex = 43117;
+	inline static constexpr unsigned int HoYoChannelInterface_RequestIdContainer_TypeDefinitionIndex = 43920;
 
 	class HoYoChannelInterface_RequestIdContainer : public ::System::Object
 	{

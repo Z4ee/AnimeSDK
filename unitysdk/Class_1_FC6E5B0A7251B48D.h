@@ -5,16 +5,16 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_FC6E5B0A7251B48D_METHOD_1_D44B7F51DEAAFB41_OFFSET UNITYSDK_OFFSET(0x18FB98D0)
-#define CLASS_1_FC6E5B0A7251B48D__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB99E0)
+#define CLASS_1_FC6E5B0A7251B48D_METHOD_1_D44B7F51DEAAFB41_OFFSET UNITYSDK_OFFSET(0x19E756A0)
+#define CLASS_1_FC6E5B0A7251B48D__CTOR_OFFSET UNITYSDK_OFFSET(0x19E757B0)
 
-inline static constexpr unsigned int Class_1_FC6E5B0A7251B48D_TypeDefinitionIndex = 14620;
+inline static constexpr unsigned int Class_1_FC6E5B0A7251B48D_TypeDefinitionIndex = 14642;
 
 class Class_1_FC6E5B0A7251B48D : public ::System::Object
 {
 public:
-	::RPG::GameCore::UpgradeAvatarSubRelicType Field_1_1; // 0x10
-	::System::UInt32 Field_1_0; // 0x14
+	::System::UInt32 Field_1_0; // 0x10
+	::RPG::GameCore::UpgradeAvatarSubRelicType Field_1_1; // 0x14
 
 	::System::Void _ctor()
 	{

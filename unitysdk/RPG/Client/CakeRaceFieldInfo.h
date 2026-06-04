@@ -7,16 +7,16 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_CAKERACEFIELDINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9EF9660)
-#define RPG_CLIENT_CAKERACEFIELDINFO_GETFIELD_OFFSET UNITYSDK_OFFSET(0x9EF9910)
-#define RPG_CLIENT_CAKERACEFIELDINFO_GET_FIELDMAP_OFFSET UNITYSDK_OFFSET(0x9EF99F0)
-#define RPG_CLIENT_CAKERACEFIELDINFO_INIT_OFFSET UNITYSDK_OFFSET(0x9EF9440)
-#define RPG_CLIENT_CAKERACEFIELDINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x9EF9710)
-#define RPG_CLIENT_CAKERACEFIELDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9EF9A00)
+#define RPG_CLIENT_CAKERACEFIELDINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB495D20)
+#define RPG_CLIENT_CAKERACEFIELDINFO_GETFIELD_OFFSET UNITYSDK_OFFSET(0xB47A680)
+#define RPG_CLIENT_CAKERACEFIELDINFO_GET_FIELDMAP_OFFSET UNITYSDK_OFFSET(0xB495F90)
+#define RPG_CLIENT_CAKERACEFIELDINFO_INIT_OFFSET UNITYSDK_OFFSET(0xB495AB0)
+#define RPG_CLIENT_CAKERACEFIELDINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xB495DC0)
+#define RPG_CLIENT_CAKERACEFIELDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB495FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceFieldInfo_TypeDefinitionIndex = 58053;
+	inline static constexpr unsigned int CakeRaceFieldInfo_TypeDefinitionIndex = 58969;
 
 	class CakeRaceFieldInfo : public ::System::Object
 	{
@@ -39,14 +39,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Sync(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* unlockedFieldIdList, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* finishedFieldIdList)
+		::System::Void Sync(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDINFO_SYNC_OFFSET))(this, unlockedFieldIdList, finishedFieldIdList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDINFO_SYNC_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::CakeRaceFieldData* GetField(::System::UInt32 fieldId)
+		::RPG::Client::CakeRaceFieldData* GetField(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::CakeRaceFieldData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDINFO_GETFIELD_OFFSET))(this, fieldId);
+			return ((::RPG::Client::CakeRaceFieldData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDINFO_GETFIELD_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::RPG::Client::CakeRaceFieldData*>* get_FieldMap()

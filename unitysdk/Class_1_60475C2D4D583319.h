@@ -10,42 +10,42 @@ class Class_2_A0580152EB393340;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define CLASS_1_60475C2D4D583319_METHOD_1_2313407289FC2813_OFFSET UNITYSDK_OFFSET(0x11830720)
-#define CLASS_1_60475C2D4D583319_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1182F880)
-#define CLASS_1_60475C2D4D583319_METHOD_1_3978A63BC8CCDBF6_OFFSET UNITYSDK_OFFSET(0x1182F9A0)
-#define CLASS_1_60475C2D4D583319_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1182F810)
-#define CLASS_1_60475C2D4D583319_METHOD_1_57D80B372834C5D1_OFFSET UNITYSDK_OFFSET(0x1182F6C0)
-#define CLASS_1_60475C2D4D583319_METHOD_1_B432444EA3C6BED8_OFFSET UNITYSDK_OFFSET(0x1182FC40)
-#define CLASS_1_60475C2D4D583319_METHOD_1_C75FBCF88EADEF52_OFFSET UNITYSDK_OFFSET(0x1182FB40)
-#define CLASS_1_60475C2D4D583319_METHOD_1_DB724851FEB3D97C_OFFSET UNITYSDK_OFFSET(0x1182F730)
-#define CLASS_1_60475C2D4D583319_METHOD_1_EDCA216BAAE60E47_OFFSET UNITYSDK_OFFSET(0x1182F8D0)
-#define CLASS_1_60475C2D4D583319__CCTOR_OFFSET UNITYSDK_OFFSET(0x11830A20)
-#define CLASS_1_60475C2D4D583319__CTOR_OFFSET UNITYSDK_OFFSET(0x1182F620)
+#define CLASS_1_60475C2D4D583319_METHOD_1_2313407289FC2813_OFFSET UNITYSDK_OFFSET(0x134D6960)
+#define CLASS_1_60475C2D4D583319_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x134D59F0)
+#define CLASS_1_60475C2D4D583319_METHOD_1_3978A63BC8CCDBF6_OFFSET UNITYSDK_OFFSET(0x134D5B10)
+#define CLASS_1_60475C2D4D583319_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x134D5970)
+#define CLASS_1_60475C2D4D583319_METHOD_1_57D80B372834C5D1_OFFSET UNITYSDK_OFFSET(0x134D5820)
+#define CLASS_1_60475C2D4D583319_METHOD_1_C75FBCF88EADEF52_OFFSET UNITYSDK_OFFSET(0x134D5CB0)
+#define CLASS_1_60475C2D4D583319_METHOD_1_DB724851FEB3D97C_OFFSET UNITYSDK_OFFSET(0x134D5890)
+#define CLASS_1_60475C2D4D583319_METHOD_1_DDF954C8FE9E6001_OFFSET UNITYSDK_OFFSET(0x134D5DB0)
+#define CLASS_1_60475C2D4D583319_METHOD_1_EDCA216BAAE60E47_OFFSET UNITYSDK_OFFSET(0x134D5A40)
+#define CLASS_1_60475C2D4D583319__CCTOR_OFFSET UNITYSDK_OFFSET(0x134D6C60)
+#define CLASS_1_60475C2D4D583319__CTOR_OFFSET UNITYSDK_OFFSET(0x134D5780)
 
-inline static constexpr unsigned int Class_1_60475C2D4D583319_TypeDefinitionIndex = 48391;
+inline static constexpr unsigned int Class_1_60475C2D4D583319_TypeDefinitionIndex = 49017;
 
 class Class_1_60475C2D4D583319 : public ::System::Object
 {
 public:
-	static ::System::Single* StaticGet_Field_1_15()
+	static ::System::Single* StaticGet_Field_1_0()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_60475C2D4D583319_TypeDefinitionIndex)->GetStaticField(0x5EF0);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_60475C2D4D583319_TypeDefinitionIndex)->GetStaticField(0xADC0);
 	}
-	::RPG::GameCore::TransformComponent* Field_1_5; // 0x10
-	::Class_2_199C92B758EE3BC4* Field_1_3; // 0x18
-	::Il2CppArray<::System::Int32>* Field_1_7; // 0x20
-	::RPG::GameCore::GameEntity* Field_1_4; // 0x28
-	::Class_2_A0580152EB393340* Field_1_2; // 0x30
-	::RPG::GameCore::TransformComponent* Field_1_1; // 0x38
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x40
-	::System::Int32 Field_1_14; // 0x48
-	::RPG::GameCore::FollowSideType Field_1_8; // 0x4C
-	::System::Single Field_1_12; // 0x50
-	::RPG::GameCore::FollowSideType Field_1_9; // 0x54
-	::System::Single Field_1_13; // 0x58
-	::System::Single Field_1_10; // 0x5C
-	::System::Single Field_1_11; // 0x60
-	::RPG::GameCore::AdvancedFollowType Field_1_6; // 0x64
+	::RPG::GameCore::TransformComponent* Field_1_1; // 0x10
+	::RPG::GameCore::GameEntity* Field_1_2; // 0x18
+	::Class_2_199C92B758EE3BC4* Field_1_3; // 0x20
+	::RPG::GameCore::TransformComponent* Field_1_4; // 0x28
+	::Class_2_A0580152EB393340* Field_1_5; // 0x30
+	::RPG::GameCore::GameEntity* Field_1_6; // 0x38
+	::Il2CppArray<::System::Int32>* Field_1_7; // 0x40
+	::System::Single Field_1_8; // 0x48
+	::System::Single Field_1_9; // 0x4C
+	::RPG::GameCore::FollowSideType Field_1_10; // 0x50
+	::System::Single Field_1_11; // 0x54
+	::RPG::GameCore::FollowSideType Field_1_12; // 0x58
+	::System::Single Field_1_13; // 0x5C
+	::RPG::GameCore::AdvancedFollowType Field_1_14; // 0x60
+	::System::Int32 Field_1_15; // 0x64
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::AdvancedFollowType a2, ::Il2CppArray<::System::Int32>* a3, ::System::Single a4, ::System::Single a5)
 	{
@@ -87,9 +87,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_60475C2D4D583319_METHOD_1_3978A63BC8CCDBF6_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_B432444EA3C6BED8(::System::Single a1, ::System::Boolean a2, ::System::Boolean a3)
+	::System::Void Method_1_DDF954C8FE9E6001(::System::Single a1, ::System::Boolean a2, ::System::Boolean a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_60475C2D4D583319_METHOD_1_B432444EA3C6BED8_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_60475C2D4D583319_METHOD_1_DDF954C8FE9E6001_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Boolean Method_1_C75FBCF88EADEF52(::System::Int32 a1, ::System::Single a2)

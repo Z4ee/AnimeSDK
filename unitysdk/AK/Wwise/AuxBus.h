@@ -6,14 +6,14 @@
 class WwiseAuxBusReference;
 class WwiseObjectReference;
 
-#define AK_WWISE_AUXBUS_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1A5C2420)
-#define AK_WWISE_AUXBUS_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1A5C24A0)
-#define AK_WWISE_AUXBUS_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1A5C2430)
-#define AK_WWISE_AUXBUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C24B0)
+#define AK_WWISE_AUXBUS_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1B40D4A0)
+#define AK_WWISE_AUXBUS_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1B40D520)
+#define AK_WWISE_AUXBUS_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1B40D4B0)
+#define AK_WWISE_AUXBUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40D530)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int AuxBus_TypeDefinitionIndex = 40531;
+	inline static constexpr unsigned int AuxBus_TypeDefinitionIndex = 41358;
 
 	class AuxBus : public ::AK::Wwise::BaseType
 	{
@@ -30,9 +30,9 @@ namespace AK::Wwise
 			return ((::WwiseObjectReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_AUXBUS_GET_OBJECTREFERENCE_OFFSET))(this);
 		}
 
-		::System::Void set_ObjectReference(::WwiseObjectReference* value)
+		::System::Void set_ObjectReference(::WwiseObjectReference* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_AUXBUS_SET_OBJECTREFERENCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_AUXBUS_SET_OBJECTREFERENCE_OFFSET))(this, a1);
 		}
 
 		::WwiseObjectType get_WwiseObjectType()

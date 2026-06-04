@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODELICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B32160)
-#define RPG_GAMECORE_MODELICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B32290)
+#define RPG_GAMECORE_MODELICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1994A400)
+#define RPG_GAMECORE_MODELICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1994A530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModelIconConfigRow_TypeDefinitionIndex = 11874;
+	inline static constexpr unsigned int ModelIconConfigRow_TypeDefinitionIndex = 11967;
 
 	class ModelIconConfigRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODELICONCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ModelIconConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModelIconConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModelIconConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODELICONCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModelIconConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODELICONCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

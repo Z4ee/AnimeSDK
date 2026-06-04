@@ -1,0 +1,100 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/LimaoNewsOfficeSurveyType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_BCC3E80A274A1E2E;
+namespace System { class String; }
+
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xBD9BDD0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xBD8E3A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_ISNONE_OFFSET UNITYSDK_OFFSET(0xBD9BC60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_OFFICESURVEYTYPE_OFFSET UNITYSDK_OFFSET(0xBD9BEA0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_SURVEYTYPECOLORSTATE_OFFSET UNITYSDK_OFFSET(0xBD9BF00)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_SURVEYTYPEICON_OFFSET UNITYSDK_OFFSET(0xBD9BEC0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_SURVEYTYPEMASKCOLORSTATE_OFFSET UNITYSDK_OFFSET(0xBD9BF60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_SURVEYTYPETEXTID_OFFSET UNITYSDK_OFFSET(0xBD9BEE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_SET_OFFICESURVEYTYPE_OFFSET UNITYSDK_OFFSET(0xBD9BEB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_SET_SURVEYTYPEICON_OFFSET UNITYSDK_OFFSET(0xBD9BED0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_SET_SURVEYTYPETEXTID_OFFSET UNITYSDK_OFFSET(0xBD9BEF0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBD9BD60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA__INITBYROW_OFFSET UNITYSDK_OFFSET(0xBD9BD70)
+
+namespace RPG::Client::LimaoNews
+{
+	inline static constexpr unsigned int LimaoNewsOfficeSurveyTypeData_TypeDefinitionIndex = 73771;
+
+	class LimaoNewsOfficeSurveyTypeData : public ::System::Object
+	{
+	public:
+		::System::String* _SurveyTypeIcon_k__BackingField; // 0x10
+		::RPG::GameCore::LimaoNewsOfficeSurveyType _OfficeSurveyType_k__BackingField; // 0x18
+		::RPG::Client::TextID _SurveyTypeTextID_k__BackingField; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyTypeData* Create(::RPG::GameCore::LimaoNewsOfficeSurveyType a1)
+		{
+			return ((::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyTypeData*(*)(::RPG::GameCore::LimaoNewsOfficeSurveyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_CREATE_OFFSET))(a1);
+		}
+
+		static ::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyTypeData* Create_1(::Class_1_BCC3E80A274A1E2E* a1)
+		{
+			return ((::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyTypeData*(*)(::Class_1_BCC3E80A274A1E2E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_CREATE_1_OFFSET))(a1);
+		}
+
+		::System::Void _InitByRow(::Class_1_BCC3E80A274A1E2E* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_BCC3E80A274A1E2E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA__INITBYROW_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::LimaoNewsOfficeSurveyType get_OfficeSurveyType()
+		{
+			return ((::RPG::GameCore::LimaoNewsOfficeSurveyType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_OFFICESURVEYTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_OfficeSurveyType(::RPG::GameCore::LimaoNewsOfficeSurveyType a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LimaoNewsOfficeSurveyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_SET_OFFICESURVEYTYPE_OFFSET))(this, a1);
+		}
+
+		::System::String* get_SurveyTypeIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_SURVEYTYPEICON_OFFSET))(this);
+		}
+
+		::System::Void set_SurveyTypeIcon(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_SET_SURVEYTYPEICON_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_SurveyTypeTextID()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_SURVEYTYPETEXTID_OFFSET))(this);
+		}
+
+		::System::Void set_SurveyTypeTextID(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_SET_SURVEYTYPETEXTID_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsNone()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_ISNONE_OFFSET))(this);
+		}
+
+		::System::String* get_SurveyTypeColorState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_SURVEYTYPECOLORSTATE_OFFSET))(this);
+		}
+
+		::System::String* get_SurveyTypeMaskColorState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPEDATA_GET_SURVEYTYPEMASKCOLORSTATE_OFFSET))(this);
+		}
+	};
+}

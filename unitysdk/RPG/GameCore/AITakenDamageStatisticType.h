@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AITakenDamageStatisticType_TypeDefinitionIndex = 14743;
+	inline static constexpr unsigned int AITakenDamageStatisticType_TypeDefinitionIndex = 14808;
 
 	enum class AITakenDamageStatisticType : ::System::Int32
 	{

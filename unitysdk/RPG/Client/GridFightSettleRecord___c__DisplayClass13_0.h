@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightProjection; }
 
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA58DFD0)
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS13_0__GETPROJBYID_B__0_OFFSET UNITYSDK_OFFSET(0xA58DFE0)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBFAF60)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS13_0__GETPROJBYID_B__0_OFFSET UNITYSDK_OFFSET(0xBBFD6E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass13_0_TypeDefinitionIndex = 60037;
+	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass13_0_TypeDefinitionIndex = 60972;
 
 	class GridFightSettleRecord___c__DisplayClass13_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetProjByID_b__0(::RPG::Client::GridFightProjection* x)
+		::System::Boolean _GetProjByID_b__0(::RPG::Client::GridFightProjection* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightProjection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS13_0__GETPROJBYID_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightProjection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS13_0__GETPROJBYID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

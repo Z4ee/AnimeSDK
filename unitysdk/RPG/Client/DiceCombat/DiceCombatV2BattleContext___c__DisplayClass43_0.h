@@ -6,12 +6,12 @@ namespace RPG::Client::DiceCombat { class DiceCombatPerformanceBattleEvent; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS43_0__APPENDPERFORMANCEEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xA147C40)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA143F20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS43_0__APPENDPERFORMANCEEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xB7C6A20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7C31D0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2BattleContext___c__DisplayClass43_0_TypeDefinitionIndex = 69926;
+	inline static constexpr unsigned int DiceCombatV2BattleContext___c__DisplayClass43_0_TypeDefinitionIndex = 70738;
 
 	class DiceCombatV2BattleContext___c__DisplayClass43_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS43_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _AppendPerformanceEventHandler_b__0(::RPG::Client::DiceCombat::DiceCombatPerformanceBattleEvent* evt)
+		::System::Void _AppendPerformanceEventHandler_b__0(::RPG::Client::DiceCombat::DiceCombatPerformanceBattleEvent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatPerformanceBattleEvent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS43_0__APPENDPERFORMANCEEVENTHANDLER_B__0_OFFSET))(this, evt);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatPerformanceBattleEvent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS43_0__APPENDPERFORMANCEEVENTHANDLER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

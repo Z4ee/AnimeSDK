@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x176904D0)
-#define MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17690500)
-#define MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17690230)
-#define MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17690210)
+#define MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18460C60)
+#define MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18460C90)
+#define MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18460C50)
+#define MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18460BE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WeGameDelegate_DoAwakeDelegate_TypeDefinitionIndex = 6755;
+	inline static constexpr unsigned int WeGameDelegate_DoAwakeDelegate_TypeDefinitionIndex = 7658;
 
 	class WeGameDelegate_DoAwakeDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -28,14 +28,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_DOAWAKEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

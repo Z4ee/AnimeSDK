@@ -25,27 +25,27 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_33D362272DC28DD2_OFFSET UNITYSDK_OFFSET(0xF922080)
-#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0xF920230)
-#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_54820ED244BEEFAC_OFFSET UNITYSDK_OFFSET(0xF9205F0)
-#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_6EDCA900CAD178C3_OFFSET UNITYSDK_OFFSET(0xF920810)
-#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_88F597A5A1C86674_OFFSET UNITYSDK_OFFSET(0xF922100)
-#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_93CA3DB332CE3E20_OFFSET UNITYSDK_OFFSET(0xF921FF0)
-#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_D378B8603F19F57B_OFFSET UNITYSDK_OFFSET(0xF922380)
-#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_FE05356E47D9A94A_OFFSET UNITYSDK_OFFSET(0xF920020)
-#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2__CCTOR_OFFSET UNITYSDK_OFFSET(0xF922950)
-#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2__CTOR_OFFSET UNITYSDK_OFFSET(0xF9226B0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_2EA44CE637944130_OFFSET UNITYSDK_OFFSET(0x135D8B00)
+#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_54820ED244BEEFAC_OFFSET UNITYSDK_OFFSET(0x135D88E0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_88F597A5A1C86674_OFFSET UNITYSDK_OFFSET(0x135DA5B0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_96922A4E2C751B39_OFFSET UNITYSDK_OFFSET(0x135DA4B0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_B247C6D88E785B91_OFFSET UNITYSDK_OFFSET(0x135D84F0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_B74E3224520159AE_OFFSET UNITYSDK_OFFSET(0x135DA3A0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_CE36E5A2BF903DD6_OFFSET UNITYSDK_OFFSET(0x135D8280)
+#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_D378B8603F19F57B_OFFSET UNITYSDK_OFFSET(0x135DA820)
+#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2__CCTOR_OFFSET UNITYSDK_OFFSET(0x135DADF0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x135DAB50)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvProfileV2_TypeDefinitionIndex = 46002;
+	inline static constexpr unsigned int EnvProfileV2_TypeDefinitionIndex = 46585;
 
 	class EnvProfileV2 : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::EnviromentSystemV2Space::PropertyDataBase*>** StaticGet__tempList()
 		{
-			return (::System::Collections::Generic::List_1<::EnviromentSystemV2Space::PropertyDataBase*>**)Il2CppClass::FromTypeDefinitionIndex(EnvProfileV2_TypeDefinitionIndex)->GetStaticField(0xC340);
+			return (::System::Collections::Generic::List_1<::EnviromentSystemV2Space::PropertyDataBase*>**)Il2CppClass::FromTypeDefinitionIndex(EnvProfileV2_TypeDefinitionIndex)->GetStaticField(0x46D60);
 		}
 		::System::Boolean isSubclip; // 0x18
 		::System::String* profilePath; // 0x20
@@ -79,14 +79,14 @@ namespace EnviromentSystemV2Space
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2__CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_3_FE05356E47D9A94A(::System::String* a1)
+		::System::Void Method_3_CE36E5A2BF903DD6(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_FE05356E47D9A94A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_CE36E5A2BF903DD6_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_497833CF065C1894()
+		::System::Void Method_3_B247C6D88E785B91()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_497833CF065C1894_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_B247C6D88E785B91_OFFSET))(this);
 		}
 
 		::System::Int32 Method_3_54820ED244BEEFAC()
@@ -94,19 +94,19 @@ namespace EnviromentSystemV2Space
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_54820ED244BEEFAC_OFFSET))(this);
 		}
 
-		::System::Void Method_3_6EDCA900CAD178C3(::System::Collections::Generic::List_1<::EnviromentSystemV2Space::PropertyDataBase*>* a1)
+		::System::Void Method_3_2EA44CE637944130(::System::Collections::Generic::List_1<::EnviromentSystemV2Space::PropertyDataBase*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::EnviromentSystemV2Space::PropertyDataBase*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_6EDCA900CAD178C3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::EnviromentSystemV2Space::PropertyDataBase*>*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_2EA44CE637944130_OFFSET))(this, a1);
 		}
 
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::PropertyDataBase*>* Method_3_93CA3DB332CE3E20()
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::PropertyDataBase*>* Method_3_B74E3224520159AE()
 		{
-			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::PropertyDataBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_93CA3DB332CE3E20_OFFSET))(this);
+			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::PropertyDataBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_B74E3224520159AE_OFFSET))(this);
 		}
 
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::PropertyDataBase*>* Method_3_33D362272DC28DD2()
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::PropertyDataBase*>* Method_3_96922A4E2C751B39()
 		{
-			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::PropertyDataBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_33D362272DC28DD2_OFFSET))(this);
+			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::EnviromentSystemV2Space::PropertyDataBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVPROFILEV2_METHOD_3_96922A4E2C751B39_OFFSET))(this);
 		}
 
 		::System::Boolean Method_3_88F597A5A1C86674()

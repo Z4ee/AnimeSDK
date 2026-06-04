@@ -14,45 +14,45 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_EDGERINGNEXT_OFFSET UNITYSDK_OFFSET(0x1A27B420)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDHOLES_1_OFFSET UNITYSDK_OFFSET(0x1A27F0C0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDHOLES_OFFSET UNITYSDK_OFFSET(0x1A27EDF0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDNEXTEDGEINHOLE_OFFSET UNITYSDK_OFFSET(0x1A27F8E0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOODSELECTION_OFFSET UNITYSDK_OFFSET(0x1A27E250)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOOD_1_OFFSET UNITYSDK_OFFSET(0x1A27DE50)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOOD_OFFSET UNITYSDK_OFFSET(0x1A27DDC0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETCONNECTEDEDGES_OFFSET UNITYSDK_OFFSET(0x1A2789C0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPINTERNALITERATIVE_OFFSET UNITYSDK_OFFSET(0x1A27D040)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A27CA80)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPITERATIVE_OFFSET UNITYSDK_OFFSET(0x1A27CC60)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOP_OFFSET UNITYSDK_OFFSET(0x1A27C590)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGERINGITERATIVE_OFFSET UNITYSDK_OFFSET(0x1A27BD50)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGERING_OFFSET UNITYSDK_OFFSET(0x1A27B4A0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACELOOP_1_OFFSET UNITYSDK_OFFSET(0x1A27E8C0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACELOOP_OFFSET UNITYSDK_OFFSET(0x1A27E680)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACERINGANDLOOP_OFFSET UNITYSDK_OFFSET(0x1A27EB80)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_1_OFFSET UNITYSDK_OFFSET(0x1A25CAB0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_2_OFFSET UNITYSDK_OFFSET(0x1A278030)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_OFFSET UNITYSDK_OFFSET(0x1A277C00)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETEREDGES_1_OFFSET UNITYSDK_OFFSET(0x1A279A60)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETEREDGES_OFFSET UNITYSDK_OFFSET(0x1A279330)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETERFACES_OFFSET UNITYSDK_OFFSET(0x1A27A0C0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETERVERTICES_OFFSET UNITYSDK_OFFSET(0x1A27ADD0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETSPOKES_OFFSET UNITYSDK_OFFSET(0x1A27D380)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GROWSELECTION_OFFSET UNITYSDK_OFFSET(0x1A27D780)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_NEXTSPOKE_OFFSET UNITYSDK_OFFSET(0x1A27D700)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A27F9B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_EDGERINGNEXT_OFFSET UNITYSDK_OFFSET(0x1B0DFDC0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDHOLES_1_OFFSET UNITYSDK_OFFSET(0x1B0E40C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDHOLES_OFFSET UNITYSDK_OFFSET(0x1B0E3D50)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDNEXTEDGEINHOLE_OFFSET UNITYSDK_OFFSET(0x1B0E4A80)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOODSELECTION_OFFSET UNITYSDK_OFFSET(0x1B0E3120)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOOD_1_OFFSET UNITYSDK_OFFSET(0x1B0E2D20)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOOD_OFFSET UNITYSDK_OFFSET(0x1B0E2C90)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETCONNECTEDEDGES_OFFSET UNITYSDK_OFFSET(0x1B0DD4F0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPINTERNALITERATIVE_OFFSET UNITYSDK_OFFSET(0x1B0E1CD0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B0E15F0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPITERATIVE_OFFSET UNITYSDK_OFFSET(0x1B0E1830)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOP_OFFSET UNITYSDK_OFFSET(0x1B0E1000)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGERINGITERATIVE_OFFSET UNITYSDK_OFFSET(0x1B0E0750)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGERING_OFFSET UNITYSDK_OFFSET(0x1B0DFE40)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACELOOP_1_OFFSET UNITYSDK_OFFSET(0x1B0E3820)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACELOOP_OFFSET UNITYSDK_OFFSET(0x1B0E35F0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACERINGANDLOOP_OFFSET UNITYSDK_OFFSET(0x1B0E3AF0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_1_OFFSET UNITYSDK_OFFSET(0x1B0C0470)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_2_OFFSET UNITYSDK_OFFSET(0x1B0DCCB0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_OFFSET UNITYSDK_OFFSET(0x1B0DC8B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETEREDGES_1_OFFSET UNITYSDK_OFFSET(0x1B0DE680)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETEREDGES_OFFSET UNITYSDK_OFFSET(0x1B0DDDD0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETERFACES_OFFSET UNITYSDK_OFFSET(0x1B0DED30)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETERVERTICES_OFFSET UNITYSDK_OFFSET(0x1B0DF770)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETSPOKES_OFFSET UNITYSDK_OFFSET(0x1B0E20A0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GROWSELECTION_OFFSET UNITYSDK_OFFSET(0x1B0E2600)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_NEXTSPOKE_OFFSET UNITYSDK_OFFSET(0x1B0E2580)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0E4B50)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int ElementSelection_TypeDefinitionIndex = 40048;
+	inline static constexpr unsigned int ElementSelection_TypeDefinitionIndex = 40875;
 
 	class ElementSelection : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Vector3* StaticGet_Vector3_Zero()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(ElementSelection_TypeDefinitionIndex)->GetStaticField(0xA6D0);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(ElementSelection_TypeDefinitionIndex)->GetStaticField(0x10930);
 		}
 		// static const ::System::Int32 k_MaxHoleIterations = 0x800; // 0x0
 
@@ -61,139 +61,139 @@ namespace UnityEngine::ProBuilder::MeshOperations
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void GetNeighborFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* neighborFaces)
+		static ::System::Void GetNeighborFaces(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_OFFSET))(mesh, edge, neighborFaces);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>>* GetNeighborFaces_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>>* GetNeighborFaces_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_1_OFFSET))(mesh, edge);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* GetNeighborFaces_2(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::System::Int32>* indexes)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* GetNeighborFaces_2(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::System::Int32>* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_2_OFFSET))(mesh, indexes);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETNEIGHBORFACES_2_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::UnityEngine::ProBuilder::Edge>* GetConnectedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::System::Int32>* indexes)
+		static ::Il2CppArray<::UnityEngine::ProBuilder::Edge>* GetConnectedEdges(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::System::Int32>* a2)
 		{
-			return ((::Il2CppArray<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETCONNECTEDEDGES_OFFSET))(mesh, indexes);
+			return ((::Il2CppArray<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETCONNECTEDEDGES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* GetPerimeterEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces)
+		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* GetPerimeterEdges(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETEREDGES_OFFSET))(mesh, faces);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETEREDGES_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::Int32>* GetPerimeterEdges_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges)
+		static ::Il2CppArray<::System::Int32>* GetPerimeterEdges_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* a2)
 		{
-			return ((::Il2CppArray<::System::Int32>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETEREDGES_1_OFFSET))(mesh, edges);
+			return ((::Il2CppArray<::System::Int32>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETEREDGES_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* GetPerimeterFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces)
+		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* GetPerimeterFaces(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETERFACES_OFFSET))(mesh, faces);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETERFACES_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::Int32>* GetPerimeterVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::System::Int32>* indexes, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>* universal_edges_all)
+		static ::Il2CppArray<::System::Int32>* GetPerimeterVertices(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::System::Int32>* a2, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>* a3)
 		{
-			return ((::Il2CppArray<::System::Int32>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETERVERTICES_OFFSET))(mesh, indexes, universal_edges_all);
+			return ((::Il2CppArray<::System::Int32>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETPERIMETERVERTICES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::WingedEdge* EdgeRingNext(::UnityEngine::ProBuilder::WingedEdge* edge)
+		static ::UnityEngine::ProBuilder::WingedEdge* EdgeRingNext(::UnityEngine::ProBuilder::WingedEdge* a1)
 		{
-			return ((::UnityEngine::ProBuilder::WingedEdge*(*)(::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_EDGERINGNEXT_OFFSET))(edge);
+			return ((::UnityEngine::ProBuilder::WingedEdge*(*)(::UnityEngine::ProBuilder::WingedEdge*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_EDGERINGNEXT_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* GetEdgeRing(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges)
+		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* GetEdgeRing(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* a2)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGERING_OFFSET))(pb, edges);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGERING_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* GetEdgeRingIterative(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges)
+		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* GetEdgeRingIterative(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* a2)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGERINGITERATIVE_OFFSET))(pb, edges);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGERINGITERATIVE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetEdgeLoop(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*& loop)
+		static ::System::Boolean GetEdgeLoop(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* a2, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*& a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOP_OFFSET))(mesh, edges, loop);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetEdgeLoopIterative(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*& loop)
+		static ::System::Boolean GetEdgeLoopIterative(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* a2, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*& a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPITERATIVE_OFFSET))(mesh, edges, loop);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPITERATIVE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetEdgeLoopInternal(::UnityEngine::ProBuilder::WingedEdge* start, ::System::Int32 startIndex, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>* used)
+		static ::System::Boolean GetEdgeLoopInternal(::UnityEngine::ProBuilder::WingedEdge* a1, ::System::Int32 a2, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>* a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPINTERNAL_OFFSET))(start, startIndex, used);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPINTERNAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void GetEdgeLoopInternalIterative(::UnityEngine::ProBuilder::WingedEdge* start, ::UnityEngine::ProBuilder::Edge edge, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>* used)
+		static ::System::Void GetEdgeLoopInternalIterative(::UnityEngine::ProBuilder::WingedEdge* a1, ::UnityEngine::ProBuilder::Edge a2, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPINTERNALITERATIVE_OFFSET))(start, edge, used);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETEDGELOOPINTERNALITERATIVE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::ProBuilder::WingedEdge* NextSpoke(::UnityEngine::ProBuilder::WingedEdge* wing, ::System::Int32 pivot, ::System::Boolean opp)
+		static ::UnityEngine::ProBuilder::WingedEdge* NextSpoke(::UnityEngine::ProBuilder::WingedEdge* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::UnityEngine::ProBuilder::WingedEdge*(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_NEXTSPOKE_OFFSET))(wing, pivot, opp);
+			return ((::UnityEngine::ProBuilder::WingedEdge*(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_NEXTSPOKE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* GetSpokes(::UnityEngine::ProBuilder::WingedEdge* wing, ::System::Int32 sharedIndex, ::System::Boolean allowHoles)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* GetSpokes(::UnityEngine::ProBuilder::WingedEdge* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETSPOKES_OFFSET))(wing, sharedIndex, allowHoles);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETSPOKES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* GrowSelection(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Single maxAngleDiff)
+		static ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* GrowSelection(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2, ::System::Single a3)
 		{
-			return ((::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GROWSELECTION_OFFSET))(mesh, faces, maxAngleDiff);
+			return ((::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GROWSELECTION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Flood(::UnityEngine::ProBuilder::WingedEdge* wing, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* selection)
+		static ::System::Void Flood(::UnityEngine::ProBuilder::WingedEdge* a1, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOOD_OFFSET))(wing, selection);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOOD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Flood_1(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::UnityEngine::ProBuilder::WingedEdge* wing, ::UnityEngine::Vector3 wingNrm, ::System::Single maxAngle, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* selection)
+		static ::System::Void Flood_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::WingedEdge* a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::Vector3, ::System::Single, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOOD_1_OFFSET))(pb, wing, wingNrm, maxAngle, selection);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::Vector3, ::System::Single, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOOD_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* FloodSelection(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Single maxAngleDiff)
+		static ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* FloodSelection(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* a2, ::System::Single a3)
 		{
-			return ((::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOODSELECTION_OFFSET))(mesh, faces, maxAngleDiff);
+			return ((::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FLOODSELECTION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* GetFaceLoop(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* faces, ::System::Boolean ring)
+		static ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* GetFaceLoop(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACELOOP_OFFSET))(mesh, faces, ring);
+			return ((::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACELOOP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* GetFaceRingAndLoop(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* faces)
+		static ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* GetFaceRingAndLoop(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* a2)
 		{
-			return ((::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACERINGANDLOOP_OFFSET))(mesh, faces);
+			return ((::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACERINGANDLOOP_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* GetFaceLoop_1(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings, ::UnityEngine::ProBuilder::Face* face, ::System::Boolean ring)
+		static ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* GetFaceLoop_1(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* a1, ::UnityEngine::ProBuilder::Face* a2, ::System::Boolean a3)
 		{
-			return ((::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::UnityEngine::ProBuilder::Face*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACELOOP_1_OFFSET))(wings, face, ring);
+			return ((::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::UnityEngine::ProBuilder::Face*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_GETFACELOOP_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>* FindHoles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* indexes)
+		static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>* FindHoles(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDHOLES_OFFSET))(mesh, indexes);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDHOLES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>* FindHoles_1(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* wings, ::System::Collections::Generic::HashSet_1<::System::Int32>* common)
+		static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>* FindHoles_1(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* a1, ::System::Collections::Generic::HashSet_1<::System::Int32>* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::HashSet_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDHOLES_1_OFFSET))(wings, common);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::HashSet_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDHOLES_1_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::WingedEdge* FindNextEdgeInHole(::UnityEngine::ProBuilder::WingedEdge* wing, ::System::Int32 common)
+		static ::UnityEngine::ProBuilder::WingedEdge* FindNextEdgeInHole(::UnityEngine::ProBuilder::WingedEdge* a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::ProBuilder::WingedEdge*(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDNEXTEDGEINHOLE_OFFSET))(wing, common);
+			return ((::UnityEngine::ProBuilder::WingedEdge*(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_ELEMENTSELECTION_FINDNEXTEDGEINHOLE_OFFSET))(a1, a2);
 		}
 	};
 }

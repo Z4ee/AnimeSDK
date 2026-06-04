@@ -5,10 +5,10 @@
 
 class Class_1_621BFCA8F4CDD0A1;
 
-#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA060A00)
-#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS11_0___DOSPLIT_B__0_OFFSET UNITYSDK_OFFSET(0xA061450)
+#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13C23900)
+#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS11_0___DOSPLIT_B__0_OFFSET UNITYSDK_OFFSET(0x13C24370)
 
-inline static constexpr unsigned int Class_2_EC9A90E156962139___c__DisplayClass11_0_TypeDefinitionIndex = 71396;
+inline static constexpr unsigned int Class_2_EC9A90E156962139___c__DisplayClass11_0_TypeDefinitionIndex = 72418;
 
 class Class_2_EC9A90E156962139___c__DisplayClass11_0 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EC9A90E156962139___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
 	}
 
-	::UnityEngine::Vector3 __DoSplit_b__0(::Class_1_621BFCA8F4CDD0A1* l)
+	::UnityEngine::Vector3 __DoSplit_b__0(::Class_1_621BFCA8F4CDD0A1* a1)
 	{
-		return ((::UnityEngine::Vector3(*)(::PVOID, ::Class_1_621BFCA8F4CDD0A1*))((::PBYTE)hIl2Cpp + CLASS_2_EC9A90E156962139___C__DISPLAYCLASS11_0___DOSPLIT_B__0_OFFSET))(this, l);
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::Class_1_621BFCA8F4CDD0A1*))((::PBYTE)hIl2Cpp + CLASS_2_EC9A90E156962139___C__DISPLAYCLASS11_0___DOSPLIT_B__0_OFFSET))(this, a1);
 	}
 };

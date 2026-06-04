@@ -5,12 +5,12 @@
 
 namespace RPG::Client::DiceCombat { class DiceCombatCommunicateData; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA13C8F0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS36_0__GETCOMMUNICATEDATAS_B__0_OFFSET UNITYSDK_OFFSET(0xA143050)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7B8BB0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS36_0__GETCOMMUNICATEDATAS_B__0_OFFSET UNITYSDK_OFFSET(0xB7C21F0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass36_0_TypeDefinitionIndex = 69864;
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass36_0_TypeDefinitionIndex = 70676;
 
 	class DiceCombatUtil___c__DisplayClass36_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS36_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetCommunicateDatas_b__0(::RPG::Client::DiceCombat::DiceCombatCommunicateData* data)
+		::System::Boolean _GetCommunicateDatas_b__0(::RPG::Client::DiceCombat::DiceCombatCommunicateData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatCommunicateData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS36_0__GETCOMMUNICATEDATAS_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatCommunicateData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS36_0__GETCOMMUNICATEDATAS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

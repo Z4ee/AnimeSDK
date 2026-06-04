@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVPLAYERPUSHDOWNPROP_METHOD_3_60179C75C48A23D0_OFFSET UNITYSDK_OFFSET(0x1865DE00)
-#define RPG_GAMECORE_ADVPLAYERPUSHDOWNPROP_METHOD_3_64838D4482E6F6C0_OFFSET UNITYSDK_OFFSET(0x1865DE80)
-#define RPG_GAMECORE_ADVPLAYERPUSHDOWNPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1865DE50)
+#define RPG_GAMECORE_ADVPLAYERPUSHDOWNPROP_METHOD_3_3C959566DABF319E_OFFSET UNITYSDK_OFFSET(0x19431800)
+#define RPG_GAMECORE_ADVPLAYERPUSHDOWNPROP_METHOD_3_DAF2F3C0D58D81F2_OFFSET UNITYSDK_OFFSET(0x19431880)
+#define RPG_GAMECORE_ADVPLAYERPUSHDOWNPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x19431850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvPlayerPushDownProp_TypeDefinitionIndex = 21111;
+	inline static constexpr unsigned int AdvPlayerPushDownProp_TypeDefinitionIndex = 21013;
 
 	class AdvPlayerPushDownProp : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERPUSHDOWNPROP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_60179C75C48A23D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerPushDownProp*& a2)
+		static ::System::Void Method_3_3C959566DABF319E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerPushDownProp*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPlayerPushDownProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERPUSHDOWNPROP_METHOD_3_60179C75C48A23D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPlayerPushDownProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERPUSHDOWNPROP_METHOD_3_3C959566DABF319E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_64838D4482E6F6C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerPushDownProp* a2)
+		static ::System::Void Method_3_DAF2F3C0D58D81F2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerPushDownProp* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPlayerPushDownProp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERPUSHDOWNPROP_METHOD_3_64838D4482E6F6C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPlayerPushDownProp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERPUSHDOWNPROP_METHOD_3_DAF2F3C0D58D81F2_OFFSET))(a1, a2);
 		}
 	};
 }

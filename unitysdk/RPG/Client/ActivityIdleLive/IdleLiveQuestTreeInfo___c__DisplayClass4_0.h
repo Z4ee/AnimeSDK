@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveQuestTreeTabData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREEINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B6EE60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREEINFO___C__DISPLAYCLASS4_0__HASCHAPTERCANGETREWARDAFTER_B__0_OFFSET UNITYSDK_OFFSET(0x9B6F060)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREEINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB157110)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREEINFO___C__DISPLAYCLASS4_0__HASCHAPTERCANGETREWARDAFTER_B__0_OFFSET UNITYSDK_OFFSET(0xB157310)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveQuestTreeInfo___c__DisplayClass4_0_TypeDefinitionIndex = 69433;
+	inline static constexpr unsigned int IdleLiveQuestTreeInfo___c__DisplayClass4_0_TypeDefinitionIndex = 70245;
 
 	class IdleLiveQuestTreeInfo___c__DisplayClass4_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREEINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _HasChapterCanGetRewardAfter_b__0(::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeTabData* tab)
+		::System::Boolean _HasChapterCanGetRewardAfter_b__0(::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeTabData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeTabData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREEINFO___C__DISPLAYCLASS4_0__HASCHAPTERCANGETREWARDAFTER_B__0_OFFSET))(this, tab);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveQuestTreeTabData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEQUESTTREEINFO___C__DISPLAYCLASS4_0__HASCHAPTERCANGETREWARDAFTER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,9 +5,9 @@
 class Class_1_5469D397DAE62876;
 namespace RPG::GameCore { class GameEntity; }
 
-#define STRUCT_2_4BFB662CA8913AC0_METHOD_2_2AC5DC31C38B346F_OFFSET UNITYSDK_OFFSET(0x90807A0)
+#define STRUCT_2_4BFB662CA8913AC0_METHOD_2_2AC5DC31C38B346F_OFFSET UNITYSDK_OFFSET(0x143FB0B0)
 
-inline static constexpr unsigned int Struct_2_4BFB662CA8913AC0_TypeDefinitionIndex = 49565;
+inline static constexpr unsigned int Struct_2_4BFB662CA8913AC0_TypeDefinitionIndex = 50232;
 
 struct alignas(8) Struct_2_4BFB662CA8913AC0
 {

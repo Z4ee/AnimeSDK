@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A71B6B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A71B700)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A71B3C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1A71B3A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B525020)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B525070)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B525010)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B524FA0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__GetControllerRoleForTrackedDeviceIndex_TypeDefinitionIndex = 35671;
+	inline static constexpr unsigned int IVRSystem__GetControllerRoleForTrackedDeviceIndex_TypeDefinitionIndex = 35971;
 
 	class IVRSystem__GetControllerRoleForTrackedDeviceIndex : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole Invoke(::System::UInt32 unDeviceIndex)
+		::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole Invoke(::System::UInt32 a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_INVOKE_OFFSET))(this, unDeviceIndex);
+			return ((::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt32 unDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt32 a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_BEGININVOKE_OFFSET))(this, unDeviceIndex, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole EndInvoke(::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_ENDINVOKE_OFFSET))(this, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::ETrackedControllerRole(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETCONTROLLERROLEFORTRACKEDDEVICEINDEX_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -11,19 +11,19 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA1E64D0)
-#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_METHOD_5_00DEF5A164D9A9D5_OFFSET UNITYSDK_OFFSET(0xA1E6540)
-#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA1E6420)
-#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0xA1E70A0)
+#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB869220)
+#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_METHOD_5_3E522F4B992303E1_OFFSET UNITYSDK_OFFSET(0xB869290)
+#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB869170)
+#define RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB869D10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_MaterialPropertySetter_TypeDefinitionIndex = 65002;
+	inline static constexpr unsigned int Effect_MaterialPropertySetter_TypeDefinitionIndex = 65928;
 
 	class Effect_MaterialPropertySetter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Int32 Field_5_20 = 0x3; // 0x0
+		// static const ::System::Int32 Field_5_0 = 0x3; // 0x0
 		::Il2CppArray<::UnityEngine::Material*>* materials; // 0x18
 		::System::Collections::Generic::List_1<::System::Int32>* matEnableID; // 0x20
 		::System::Boolean OnlyFirstUpdate; // 0x28
@@ -42,8 +42,8 @@ namespace RPG::Client
 		::UnityEngine::Vector4 VectorData; // 0x80
 		::System::Boolean Toggle_TexData; // 0x90
 		::UnityEngine::Texture* TexData; // 0x98
-		::UnityEngine::Renderer* Field_5_18; // 0xA0
-		::System::Boolean Field_5_19; // 0xA8
+		::UnityEngine::Renderer* Field_5_19; // 0xA0
+		::System::Boolean Field_5_20; // 0xA8
 		::System::Boolean Field_5_21; // 0xA9
 		::Il2CppArray<::UnityEngine::Texture*>* Field_5_22; // 0xB0
 
@@ -62,9 +62,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_00DEF5A164D9A9D5()
+		::System::Void Method_5_3E522F4B992303E1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_METHOD_5_00DEF5A164D9A9D5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_MATERIALPROPERTYSETTER_METHOD_5_3E522F4B992303E1_OFFSET))(this);
 		}
 	};
 }

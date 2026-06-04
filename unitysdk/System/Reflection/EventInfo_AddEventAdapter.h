@@ -7,36 +7,36 @@ namespace System { class Delegate; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x179A0B40)
-#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x179A0B80)
-#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x179A05C0)
-#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x179A05A0)
+#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18753520)
+#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18753560)
+#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x18753510)
+#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18753420)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int EventInfo_AddEventAdapter_TypeDefinitionIndex = 603;
+	inline static constexpr unsigned int EventInfo_AddEventAdapter_TypeDefinitionIndex = 602;
 
 	class EventInfo_AddEventAdapter : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Object* _this, ::System::Delegate* dele)
+		::System::Void Invoke(::System::Object* a1, ::System::Delegate* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Delegate*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_INVOKE_OFFSET))(this, _this, dele);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Delegate*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Object* _this, ::System::Delegate* dele, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Object* a1, ::System::Delegate* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::Delegate*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_BEGININVOKE_OFFSET))(this, _this, dele, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::Delegate*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

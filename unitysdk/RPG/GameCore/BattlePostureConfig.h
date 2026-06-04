@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPOSTURECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18702A70)
-#define RPG_GAMECORE_BATTLEPOSTURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18702CB0)
+#define RPG_GAMECORE_BATTLEPOSTURECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194D5E50)
+#define RPG_GAMECORE_BATTLEPOSTURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194D6090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePostureConfig_TypeDefinitionIndex = 16717;
+	inline static constexpr unsigned int BattlePostureConfig_TypeDefinitionIndex = 16740;
 
 	class BattlePostureConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPOSTURECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::BattlePostureConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePostureConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePostureConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPOSTURECONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePostureConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPOSTURECONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

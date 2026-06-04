@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define STRUCT_2_36399DCF74B23261_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x15A68D0)
+#define STRUCT_2_36399DCF74B23261_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x7A0E0)
 
-inline static constexpr unsigned int Struct_2_36399DCF74B23261_TypeDefinitionIndex = 53254;
+inline static constexpr unsigned int Struct_2_36399DCF74B23261_TypeDefinitionIndex = 53966;
 
 struct alignas(8) Struct_2_36399DCF74B23261
 {

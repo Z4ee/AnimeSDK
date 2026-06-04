@@ -1,0 +1,115 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_BC950E36747FB4C9.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_360;
+class Class_0_16E4307DCC419505_606;
+class Class_1_090AB0EAA610410E;
+class Class_1_5E92AC2D7588EEFB;
+class Class_1_8BBCC14743470DE4;
+namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client { class RelicItemData; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_187BBB1132FC68A9_GET_PREVIEWAVATARREPOSITORY_OFFSET UNITYSDK_OFFSET(0xD7E6A40)
+#define CLASS_1_187BBB1132FC68A9_GET_PROFILEBUILDER_OFFSET UNITYSDK_OFFSET(0xD7E6A20)
+#define CLASS_1_187BBB1132FC68A9_GET_QUERYAVATARSKINSERVICE_OFFSET UNITYSDK_OFFSET(0xD7E6A60)
+#define CLASS_1_187BBB1132FC68A9_GET_QUERYMULTIPLEPATHCONFIGSERVICE_OFFSET UNITYSDK_OFFSET(0xD7E6A80)
+#define CLASS_1_187BBB1132FC68A9_METHOD_1_16EADD378C05E14D_OFFSET UNITYSDK_OFFSET(0xD7E71D0)
+#define CLASS_1_187BBB1132FC68A9_METHOD_1_55A53A49C5C0FA31_OFFSET UNITYSDK_OFFSET(0xD7E6AA0)
+#define CLASS_1_187BBB1132FC68A9_METHOD_1_5774792074C1C420_OFFSET UNITYSDK_OFFSET(0xD7E6BB0)
+#define CLASS_1_187BBB1132FC68A9_METHOD_1_771392F8740B4E0F_OFFSET UNITYSDK_OFFSET(0xD7E6F10)
+#define CLASS_1_187BBB1132FC68A9_METHOD_1_C64481418BADEABE_OFFSET UNITYSDK_OFFSET(0xD7E73E0)
+#define CLASS_1_187BBB1132FC68A9_METHOD_1_E3B744EC30D70EF0_OFFSET UNITYSDK_OFFSET(0xD7E6CB0)
+#define CLASS_1_187BBB1132FC68A9_SET_PREVIEWAVATARREPOSITORY_OFFSET UNITYSDK_OFFSET(0xD7E6A50)
+#define CLASS_1_187BBB1132FC68A9_SET_PROFILEBUILDER_OFFSET UNITYSDK_OFFSET(0xD7E6A30)
+#define CLASS_1_187BBB1132FC68A9_SET_QUERYAVATARSKINSERVICE_OFFSET UNITYSDK_OFFSET(0xD7E6A70)
+#define CLASS_1_187BBB1132FC68A9_SET_QUERYMULTIPLEPATHCONFIGSERVICE_OFFSET UNITYSDK_OFFSET(0xD7E6A90)
+#define CLASS_1_187BBB1132FC68A9__CTOR_OFFSET UNITYSDK_OFFSET(0xD7E75F0)
+
+inline static constexpr unsigned int Class_1_187BBB1132FC68A9_TypeDefinitionIndex = 58648;
+
+class Class_1_187BBB1132FC68A9 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_606* _QueryMultiplePathConfigService_k__BackingField; // 0x10
+	::Class_1_8BBCC14743470DE4* _PreviewAvatarRepository_k__BackingField; // 0x18
+	::Class_0_16E4307DCC419505_360* _ProfileBuilder_k__BackingField; // 0x20
+	::Class_1_5E92AC2D7588EEFB* _QueryAvatarSkinService_k__BackingField; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9__CTOR_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_360* get_ProfileBuilder()
+	{
+		return ((::Class_0_16E4307DCC419505_360*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_GET_PROFILEBUILDER_OFFSET))(this);
+	}
+
+	::System::Void set_ProfileBuilder(::Class_0_16E4307DCC419505_360* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_360*))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_SET_PROFILEBUILDER_OFFSET))(this, a1);
+	}
+
+	::Class_1_8BBCC14743470DE4* get_PreviewAvatarRepository()
+	{
+		return ((::Class_1_8BBCC14743470DE4*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_GET_PREVIEWAVATARREPOSITORY_OFFSET))(this);
+	}
+
+	::System::Void set_PreviewAvatarRepository(::Class_1_8BBCC14743470DE4* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_8BBCC14743470DE4*))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_SET_PREVIEWAVATARREPOSITORY_OFFSET))(this, a1);
+	}
+
+	::Class_1_5E92AC2D7588EEFB* get_QueryAvatarSkinService()
+	{
+		return ((::Class_1_5E92AC2D7588EEFB*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_GET_QUERYAVATARSKINSERVICE_OFFSET))(this);
+	}
+
+	::System::Void set_QueryAvatarSkinService(::Class_1_5E92AC2D7588EEFB* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_5E92AC2D7588EEFB*))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_SET_QUERYAVATARSKINSERVICE_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_606* get_QueryMultiplePathConfigService()
+	{
+		return ((::Class_0_16E4307DCC419505_606*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_GET_QUERYMULTIPLEPATHCONFIGSERVICE_OFFSET))(this);
+	}
+
+	::System::Void set_QueryMultiplePathConfigService(::Class_0_16E4307DCC419505_606* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_606*))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_SET_QUERYMULTIPLEPATHCONFIGSERVICE_OFFSET))(this, a1);
+	}
+
+	::RPG::AvatarSystem::IAvatar* Method_1_55A53A49C5C0FA31(::Struct_2_BC950E36747FB4C9& a1)
+	{
+		return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::Struct_2_BC950E36747FB4C9&))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_METHOD_1_55A53A49C5C0FA31_OFFSET))(this, a1);
+	}
+
+	::RPG::AvatarSystem::IAvatar* Method_1_5774792074C1C420(::Struct_2_BC950E36747FB4C9& a1, ::Class_1_090AB0EAA610410E* a2)
+	{
+		return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::Struct_2_BC950E36747FB4C9&, ::Class_1_090AB0EAA610410E*))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_METHOD_1_5774792074C1C420_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::AvatarSystem::IAvatar* Method_1_E3B744EC30D70EF0(::RPG::AvatarSystem::IAvatar* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
+	{
+		return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_METHOD_1_E3B744EC30D70EF0_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::RPG::AvatarSystem::IAvatar* Method_1_771392F8740B4E0F(::RPG::AvatarSystem::IAvatar* a1, ::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* a2)
+	{
+		return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_METHOD_1_771392F8740B4E0F_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::AvatarSystem::IAvatar* Method_1_16EADD378C05E14D(::RPG::AvatarSystem::IAvatar* a1, ::RPG::Client::RelicItemData* a2)
+	{
+		return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_METHOD_1_16EADD378C05E14D_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::AvatarSystem::IAvatar* Method_1_C64481418BADEABE(::System::UInt32 a1)
+	{
+		return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_187BBB1132FC68A9_METHOD_1_C64481418BADEABE_OFFSET))(this, a1);
+	}
+};

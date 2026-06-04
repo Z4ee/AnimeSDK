@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B23710)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS25_0__SELECTEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0x9B24790)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB109190)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS25_0__SELECTEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0xB10A3B0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData___c__DisplayClass25_0_TypeDefinitionIndex = 69494;
+	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData___c__DisplayClass25_0_TypeDefinitionIndex = 70306;
 
 	class BaseSpEquipInventoryDisplayData___c__DisplayClass25_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _SelectEquip_b__0(::RPG::Client::ActivityIdleLive::SpecialEquip* x)
+		::System::Boolean _SelectEquip_b__0(::RPG::Client::ActivityIdleLive::SpecialEquip* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpecialEquip*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS25_0__SELECTEQUIP_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpecialEquip*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS25_0__SELECTEQUIP_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarPathChangeToTargetConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARPATHCHANGECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186C5A40)
-#define RPG_GAMECORE_AVATARPATHCHANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186C5CB0)
+#define RPG_GAMECORE_AVATARPATHCHANGECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1949C390)
+#define RPG_GAMECORE_AVATARPATHCHANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1949C620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPathChangeConfig_TypeDefinitionIndex = 23424;
+	inline static constexpr unsigned int AvatarPathChangeConfig_TypeDefinitionIndex = 23073;
 
 	class AvatarPathChangeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARPATHCHANGECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AvatarPathChangeConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarPathChangeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarPathChangeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARPATHCHANGECONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarPathChangeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARPATHCHANGECONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

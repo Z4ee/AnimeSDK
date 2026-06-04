@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SmartObjectState_TypeDefinitionIndex = 48112;
+	inline static constexpr unsigned int SmartObjectState_TypeDefinitionIndex = 48730;
 
 	enum class SmartObjectState : ::System::Int32
 	{

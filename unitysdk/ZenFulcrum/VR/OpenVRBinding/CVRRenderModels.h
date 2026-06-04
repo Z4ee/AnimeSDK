@@ -10,78 +10,78 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREERENDERMODEL_OFFSET UNITYSDK_OFFSET(0x1A6E2270)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREETEXTURED3D11_OFFSET UNITYSDK_OFFSET(0x1A6E2310)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREETEXTURE_OFFSET UNITYSDK_OFFSET(0x1A6E22B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTBUTTONMASK_OFFSET UNITYSDK_OFFSET(0x1A6E23B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1A6E2370)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTNAME_OFFSET UNITYSDK_OFFSET(0x1A6E2390)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTRENDERMODELNAME_OFFSET UNITYSDK_OFFSET(0x1A6E23D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTSTATE_OFFSET UNITYSDK_OFFSET(0x1A6E23F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELCOUNT_OFFSET UNITYSDK_OFFSET(0x1A6E2350)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELERRORNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x1A6E2CB0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELNAME_OFFSET UNITYSDK_OFFSET(0x1A6E2330)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELORIGINALPATH_OFFSET UNITYSDK_OFFSET(0x1A6E2C90)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELTHUMBNAILURL_OFFSET UNITYSDK_OFFSET(0x1A6E2C70)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADINTOTEXTURED3D11_ASYNC_OFFSET UNITYSDK_OFFSET(0x1A6E22F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADRENDERMODEL_ASYNC_OFFSET UNITYSDK_OFFSET(0x1A6E2250)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADTEXTURED3D11_ASYNC_OFFSET UNITYSDK_OFFSET(0x1A6E22D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADTEXTURE_ASYNC_OFFSET UNITYSDK_OFFSET(0x1A6E2290)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_RENDERMODELHASCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A6E2C50)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6E2160)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREERENDERMODEL_OFFSET UNITYSDK_OFFSET(0x1B511600)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREETEXTURED3D11_OFFSET UNITYSDK_OFFSET(0x1B5116F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREETEXTURE_OFFSET UNITYSDK_OFFSET(0x1B511660)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTBUTTONMASK_OFFSET UNITYSDK_OFFSET(0x1B5117F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1B511780)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTNAME_OFFSET UNITYSDK_OFFSET(0x1B5117B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTRENDERMODELNAME_OFFSET UNITYSDK_OFFSET(0x1B511820)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTSTATE_OFFSET UNITYSDK_OFFSET(0x1B511860)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELCOUNT_OFFSET UNITYSDK_OFFSET(0x1B511750)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELERRORNAMEFROMENUM_OFFSET UNITYSDK_OFFSET(0x1B511AB0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELNAME_OFFSET UNITYSDK_OFFSET(0x1B511720)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELORIGINALPATH_OFFSET UNITYSDK_OFFSET(0x1B511A70)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELTHUMBNAILURL_OFFSET UNITYSDK_OFFSET(0x1B511A30)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADINTOTEXTURED3D11_ASYNC_OFFSET UNITYSDK_OFFSET(0x1B5116C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADRENDERMODEL_ASYNC_OFFSET UNITYSDK_OFFSET(0x1B5115D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADTEXTURED3D11_ASYNC_OFFSET UNITYSDK_OFFSET(0x1B511690)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADTEXTURE_ASYNC_OFFSET UNITYSDK_OFFSET(0x1B511630)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_RENDERMODELHASCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B511A00)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5114F0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVRRenderModels_TypeDefinitionIndex = 35967;
+	inline static constexpr unsigned int CVRRenderModels_TypeDefinitionIndex = 36267;
 
 	class CVRRenderModels : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::VR::OpenVRBinding::IVRRenderModels FnTable; // 0x10
 
-		::System::Void _ctor(::System::IntPtr pInterface)
+		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS__CTOR_OFFSET))(this, pInterface);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS__CTOR_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError LoadRenderModel_Async(::System::String* pchRenderModelName, ::System::IntPtr& ppRenderModel)
+		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError LoadRenderModel_Async(::System::String* a1, ::System::IntPtr& a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::String*, ::System::IntPtr&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADRENDERMODEL_ASYNC_OFFSET))(this, pchRenderModelName, ppRenderModel);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::String*, ::System::IntPtr&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADRENDERMODEL_ASYNC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FreeRenderModel(::System::IntPtr pRenderModel)
+		::System::Void FreeRenderModel(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREERENDERMODEL_OFFSET))(this, pRenderModel);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREERENDERMODEL_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError LoadTexture_Async(::System::Int32 textureId, ::System::IntPtr& ppTexture)
+		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError LoadTexture_Async(::System::Int32 a1, ::System::IntPtr& a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::Int32, ::System::IntPtr&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADTEXTURE_ASYNC_OFFSET))(this, textureId, ppTexture);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::Int32, ::System::IntPtr&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADTEXTURE_ASYNC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FreeTexture(::System::IntPtr pTexture)
+		::System::Void FreeTexture(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREETEXTURE_OFFSET))(this, pTexture);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREETEXTURE_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError LoadTextureD3D11_Async(::System::Int32 textureId, ::System::IntPtr pD3D11Device, ::System::IntPtr& ppD3D11Texture2D)
+		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError LoadTextureD3D11_Async(::System::Int32 a1, ::System::IntPtr a2, ::System::IntPtr& a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::Int32, ::System::IntPtr, ::System::IntPtr&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADTEXTURED3D11_ASYNC_OFFSET))(this, textureId, pD3D11Device, ppD3D11Texture2D);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::Int32, ::System::IntPtr, ::System::IntPtr&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADTEXTURED3D11_ASYNC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError LoadIntoTextureD3D11_Async(::System::Int32 textureId, ::System::IntPtr pDstTexture)
+		::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError LoadIntoTextureD3D11_Async(::System::Int32 a1, ::System::IntPtr a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADINTOTEXTURED3D11_ASYNC_OFFSET))(this, textureId, pDstTexture);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError(*)(::PVOID, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_LOADINTOTEXTURED3D11_ASYNC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FreeTextureD3D11(::System::IntPtr pD3D11Texture2D)
+		::System::Void FreeTextureD3D11(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREETEXTURED3D11_OFFSET))(this, pD3D11Texture2D);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_FREETEXTURED3D11_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetRenderModelName(::System::UInt32 unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, ::System::UInt32 unRenderModelNameLen)
+		::System::UInt32 GetRenderModelName(::System::UInt32 a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELNAME_OFFSET))(this, unRenderModelIndex, pchRenderModelName, unRenderModelNameLen);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELNAME_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetRenderModelCount()
@@ -89,49 +89,49 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELCOUNT_OFFSET))(this);
 		}
 
-		::System::UInt32 GetComponentCount(::System::String* pchRenderModelName)
+		::System::UInt32 GetComponentCount(::System::String* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTCOUNT_OFFSET))(this, pchRenderModelName);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetComponentName(::System::String* pchRenderModelName, ::System::UInt32 unComponentIndex, ::System::Text::StringBuilder* pchComponentName, ::System::UInt32 unComponentNameLen)
+		::System::UInt32 GetComponentName(::System::String* a1, ::System::UInt32 a2, ::System::Text::StringBuilder* a3, ::System::UInt32 a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::UInt32, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTNAME_OFFSET))(this, pchRenderModelName, unComponentIndex, pchComponentName, unComponentNameLen);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::UInt32, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTNAME_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::UInt64 GetComponentButtonMask(::System::String* pchRenderModelName, ::System::String* pchComponentName)
+		::System::UInt64 GetComponentButtonMask(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTBUTTONMASK_OFFSET))(this, pchRenderModelName, pchComponentName);
+			return ((::System::UInt64(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTBUTTONMASK_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetComponentRenderModelName(::System::String* pchRenderModelName, ::System::String* pchComponentName, ::System::Text::StringBuilder* pchComponentRenderModelName, ::System::UInt32 unComponentRenderModelNameLen)
+		::System::UInt32 GetComponentRenderModelName(::System::String* a1, ::System::String* a2, ::System::Text::StringBuilder* a3, ::System::UInt32 a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTRENDERMODELNAME_OFFSET))(this, pchRenderModelName, pchComponentName, pchComponentRenderModelName, unComponentRenderModelNameLen);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTRENDERMODELNAME_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean GetComponentState(::System::String* pchRenderModelName, ::System::String* pchComponentName, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t& pControllerState, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_ControllerMode_State_t& pState, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_ComponentState_t& pComponentState)
+		::System::Boolean GetComponentState(::System::String* a1, ::System::String* a2, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t& a3, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_ControllerMode_State_t& a4, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_ComponentState_t& a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t&, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_ControllerMode_State_t&, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_ComponentState_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTSTATE_OFFSET))(this, pchRenderModelName, pchComponentName, pControllerState, pState, pComponentState);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::ZenFulcrum::VR::OpenVRBinding::VRControllerState_t&, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_ControllerMode_State_t&, ::ZenFulcrum::VR::OpenVRBinding::RenderModel_ComponentState_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETCOMPONENTSTATE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean RenderModelHasComponent(::System::String* pchRenderModelName, ::System::String* pchComponentName)
+		::System::Boolean RenderModelHasComponent(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_RENDERMODELHASCOMPONENT_OFFSET))(this, pchRenderModelName, pchComponentName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_RENDERMODELHASCOMPONENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetRenderModelThumbnailURL(::System::String* pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, ::System::UInt32 unThumbnailURLLen, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError& peError)
+		::System::UInt32 GetRenderModelThumbnailURL(::System::String* a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError& a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELTHUMBNAILURL_OFFSET))(this, pchRenderModelName, pchThumbnailURL, unThumbnailURLLen, peError);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELTHUMBNAILURL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::UInt32 GetRenderModelOriginalPath(::System::String* pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath, ::System::UInt32 unOriginalPathLen, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError& peError)
+		::System::UInt32 GetRenderModelOriginalPath(::System::String* a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError& a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELORIGINALPATH_OFFSET))(this, pchRenderModelName, pchOriginalPath, unOriginalPathLen, peError);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELORIGINALPATH_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::String* GetRenderModelErrorNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError error)
+		::System::String* GetRenderModelErrorNameFromEnum(::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELERRORNAMEFROMENUM_OFFSET))(this, error);
+			return ((::System::String*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVRRenderModelError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRENDERMODELS_GETRENDERMODELERRORNAMEFROMENUM_OFFSET))(this, a1);
 		}
 	};
 }

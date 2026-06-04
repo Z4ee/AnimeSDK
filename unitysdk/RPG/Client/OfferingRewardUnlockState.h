@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OfferingRewardUnlockState_TypeDefinitionIndex = 61150;
+	inline static constexpr unsigned int OfferingRewardUnlockState_TypeDefinitionIndex = 62074;
 
 	enum class OfferingRewardUnlockState : ::System::Int32
 	{

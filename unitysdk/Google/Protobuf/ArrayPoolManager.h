@@ -4,23 +4,23 @@
 
 namespace Google::Protobuf { class IBytesArrayPool; }
 
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GETARRAY_OFFSET UNITYSDK_OFFSET(0x170D3B90)
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GETBYTESARRAYPOOL_OFFSET UNITYSDK_OFFSET(0x170D3B80)
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x170D3B50)
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_RETURNARRAY_OFFSET UNITYSDK_OFFSET(0x170D3BD0)
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SETBYTESARRAYPOOL_OFFSET UNITYSDK_OFFSET(0x170D3B70)
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x170D3B60)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GETARRAY_OFFSET UNITYSDK_OFFSET(0x17E362C0)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GETBYTESARRAYPOOL_OFFSET UNITYSDK_OFFSET(0x17E362B0)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x17E36280)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_RETURNARRAY_OFFSET UNITYSDK_OFFSET(0x17E36300)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SETBYTESARRAYPOOL_OFFSET UNITYSDK_OFFSET(0x17E362A0)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x17E36290)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ArrayPoolManager_TypeDefinitionIndex = 6192;
+	inline static constexpr unsigned int ArrayPoolManager_TypeDefinitionIndex = 5394;
 
 	class ArrayPoolManager : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::IBytesArrayPool** StaticGet__Instance_k__BackingField()
 		{
-			return (::Google::Protobuf::IBytesArrayPool**)Il2CppClass::FromTypeDefinitionIndex(ArrayPoolManager_TypeDefinitionIndex)->GetStaticField(0x15B0);
+			return (::Google::Protobuf::IBytesArrayPool**)Il2CppClass::FromTypeDefinitionIndex(ArrayPoolManager_TypeDefinitionIndex)->GetStaticField(0x39140);
 		}
 
 		static ::Google::Protobuf::IBytesArrayPool* get_Instance()
@@ -28,14 +28,14 @@ namespace Google::Protobuf
 			return ((::Google::Protobuf::IBytesArrayPool*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GET_INSTANCE_OFFSET))();
 		}
 
-		static ::System::Void set_Instance(::Google::Protobuf::IBytesArrayPool* value)
+		static ::System::Void set_Instance(::Google::Protobuf::IBytesArrayPool* a1)
 		{
-			return ((::System::Void(*)(::Google::Protobuf::IBytesArrayPool*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SET_INSTANCE_OFFSET))(value);
+			return ((::System::Void(*)(::Google::Protobuf::IBytesArrayPool*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SET_INSTANCE_OFFSET))(a1);
 		}
 
-		static ::System::Void SetBytesArrayPool(::Google::Protobuf::IBytesArrayPool* pool)
+		static ::System::Void SetBytesArrayPool(::Google::Protobuf::IBytesArrayPool* a1)
 		{
-			return ((::System::Void(*)(::Google::Protobuf::IBytesArrayPool*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SETBYTESARRAYPOOL_OFFSET))(pool);
+			return ((::System::Void(*)(::Google::Protobuf::IBytesArrayPool*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SETBYTESARRAYPOOL_OFFSET))(a1);
 		}
 
 		static ::Google::Protobuf::IBytesArrayPool* GetBytesArrayPool()
@@ -43,14 +43,14 @@ namespace Google::Protobuf
 			return ((::Google::Protobuf::IBytesArrayPool*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GETBYTESARRAYPOOL_OFFSET))();
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetArray(::System::Int32 size)
+		static ::Il2CppArray<::System::Byte>* GetArray(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GETARRAY_OFFSET))(size);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GETARRAY_OFFSET))(a1);
 		}
 
-		static ::System::Void ReturnArray(::Il2CppArray<::System::Byte>* array)
+		static ::System::Void ReturnArray(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_RETURNARRAY_OFFSET))(array);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_RETURNARRAY_OFFSET))(a1);
 		}
 	};
 }

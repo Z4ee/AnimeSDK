@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 
-#define MIHOYO_SDK_PAYHELPER_SUPPORTARBITRAYPARAMINCREATEORDER_OFFSET UNITYSDK_OFFSET(0x175FBEB0)
-#define MIHOYO_SDK_PAYHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x175FC1A0)
+#define MIHOYO_SDK_PAYHELPER_SUPPORTARBITRAYPARAMINCREATEORDER_OFFSET UNITYSDK_OFFSET(0x183D48E0)
+#define MIHOYO_SDK_PAYHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x183D4BF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PayHelper_TypeDefinitionIndex = 7064;
+	inline static constexpr unsigned int PayHelper_TypeDefinitionIndex = 7967;
 
 	class PayHelper : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAYHELPER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void SupportArbitrayParamInCreateOrder(::MiHoYo::SDK::JSONObject*& model, ::MiHoYo::SDK::JSONNode* payInfo)
+		static ::System::Void SupportArbitrayParamInCreateOrder(::MiHoYo::SDK::JSONObject*& a1, ::MiHoYo::SDK::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::JSONObject*&, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAYHELPER_SUPPORTARBITRAYPARAMINCREATEORDER_OFFSET))(model, payInfo);
+			return ((::System::Void(*)(::MiHoYo::SDK::JSONObject*&, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAYHELPER_SUPPORTARBITRAYPARAMINCREATEORDER_OFFSET))(a1, a2);
 		}
 	};
 }

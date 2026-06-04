@@ -6,14 +6,14 @@
 
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_COMBINEINSTANCE_GET_MESH_OFFSET UNITYSDK_OFFSET(0x22E3500)
-#define UNITYENGINE_COMBINEINSTANCE_SET_MESH_OFFSET UNITYSDK_OFFSET(0x22E3510)
-#define UNITYENGINE_COMBINEINSTANCE_SET_SUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x1D50)
-#define UNITYENGINE_COMBINEINSTANCE_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x22E3560)
+#define UNITYENGINE_COMBINEINSTANCE_GET_MESH_OFFSET UNITYSDK_OFFSET(0x3880280)
+#define UNITYENGINE_COMBINEINSTANCE_SET_MESH_OFFSET UNITYSDK_OFFSET(0x3880290)
+#define UNITYENGINE_COMBINEINSTANCE_SET_SUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x21F0)
+#define UNITYENGINE_COMBINEINSTANCE_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x38802E0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CombineInstance_TypeDefinitionIndex = 4004;
+	inline static constexpr unsigned int CombineInstance_TypeDefinitionIndex = 4178;
 
 	struct alignas(4) CombineInstance
 	{
@@ -28,19 +28,19 @@ namespace UnityEngine
 			return ((::UnityEngine::Mesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COMBINEINSTANCE_GET_MESH_OFFSET))(this);
 		}
 
-		::System::Void set_mesh(::UnityEngine::Mesh* value)
+		::System::Void set_mesh(::UnityEngine::Mesh* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_COMBINEINSTANCE_SET_MESH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_COMBINEINSTANCE_SET_MESH_OFFSET))(this, a1);
 		}
 
-		::System::Void set_subMeshIndex(::System::Int32 value)
+		::System::Void set_subMeshIndex(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_COMBINEINSTANCE_SET_SUBMESHINDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_COMBINEINSTANCE_SET_SUBMESHINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void set_transform(::UnityEngine::Matrix4x4 value)
+		::System::Void set_transform(::UnityEngine::Matrix4x4 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_COMBINEINSTANCE_SET_TRANSFORM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_COMBINEINSTANCE_SET_TRANSFORM_OFFSET))(this, a1);
 		}
 	};
 }

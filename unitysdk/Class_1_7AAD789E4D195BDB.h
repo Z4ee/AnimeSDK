@@ -6,19 +6,19 @@ namespace RPG::Client { class CameraBlendCurve; }
 namespace RPG::Client { template <typename T1, typename T2> class LRUCache_2; }
 namespace System { class String; }
 
-#define CLASS_1_7AAD789E4D195BDB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x962C2D0)
-#define CLASS_1_7AAD789E4D195BDB_METHOD_1_7F03B34224173121_OFFSET UNITYSDK_OFFSET(0x962C160)
-#define CLASS_1_7AAD789E4D195BDB_METHOD_1_9961319058EA1D8D_OFFSET UNITYSDK_OFFSET(0x962C200)
-#define CLASS_1_7AAD789E4D195BDB_METHOD_1_A62684ADEAB91B7B_OFFSET UNITYSDK_OFFSET(0x962C350)
-#define CLASS_1_7AAD789E4D195BDB__CTOR_OFFSET UNITYSDK_OFFSET(0x962C0D0)
+#define CLASS_1_7AAD789E4D195BDB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA5D1E00)
+#define CLASS_1_7AAD789E4D195BDB_METHOD_1_7F03B34224173121_OFFSET UNITYSDK_OFFSET(0xA5D1C90)
+#define CLASS_1_7AAD789E4D195BDB_METHOD_1_9961319058EA1D8D_OFFSET UNITYSDK_OFFSET(0xA5D1D30)
+#define CLASS_1_7AAD789E4D195BDB_METHOD_1_A700FFDDAA173FF2_OFFSET UNITYSDK_OFFSET(0xA5D1E80)
+#define CLASS_1_7AAD789E4D195BDB__CTOR_OFFSET UNITYSDK_OFFSET(0xA5D1BF0)
 
-inline static constexpr unsigned int Class_1_7AAD789E4D195BDB_TypeDefinitionIndex = 64081;
+inline static constexpr unsigned int Class_1_7AAD789E4D195BDB_TypeDefinitionIndex = 65002;
 
 class Class_1_7AAD789E4D195BDB : public ::System::Object
 {
 public:
-	::RPG::Client::LRUCache_2<::System::String*, ::RPG::Client::CameraBlendCurve*>* Field_1_1; // 0x10
-	::RPG::Client::CameraBlendCurve* Field_1_0; // 0x18
+	::RPG::Client::LRUCache_2<::System::String*, ::RPG::Client::CameraBlendCurve*>* Field_1_0; // 0x10
+	::RPG::Client::CameraBlendCurve* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -40,8 +40,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7AAD789E4D195BDB_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_A62684ADEAB91B7B(::RPG::Client::CameraBlendCurve* a1)
+	::System::Void Method_1_A700FFDDAA173FF2(::RPG::Client::CameraBlendCurve* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraBlendCurve*))((::PBYTE)hIl2Cpp + CLASS_1_7AAD789E4D195BDB_METHOD_1_A62684ADEAB91B7B_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraBlendCurve*))((::PBYTE)hIl2Cpp + CLASS_1_7AAD789E4D195BDB_METHOD_1_A700FFDDAA173FF2_OFFSET))(this, a1);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int FileShare_TypeDefinitionIndex = 714;
+	inline static constexpr unsigned int FileShare_TypeDefinitionIndex = 713;
 
 	enum class FileShare : ::System::Int32
 	{

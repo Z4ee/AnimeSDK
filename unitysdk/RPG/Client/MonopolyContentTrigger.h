@@ -5,29 +5,29 @@
 
 namespace RPG::Client { class LuaUIController; }
 
-#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0xAA9A510)
-#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_GET_SEQID_OFFSET UNITYSDK_OFFSET(0xAA9A550)
-#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xAA9A530)
-#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_CONTENTID_OFFSET UNITYSDK_OFFSET(0xAA9A520)
-#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_SEQID_OFFSET UNITYSDK_OFFSET(0xAA9A560)
-#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xAA9A540)
-#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_TRIGGER_OFFSET UNITYSDK_OFFSET(0xAA9A080)
-#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xAA9A070)
+#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0xC167060)
+#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_GET_SEQID_OFFSET UNITYSDK_OFFSET(0xC1670A0)
+#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xC167080)
+#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_CONTENTID_OFFSET UNITYSDK_OFFSET(0xC167070)
+#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_SEQID_OFFSET UNITYSDK_OFFSET(0xC1670B0)
+#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xC167090)
+#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER_TRIGGER_OFFSET UNITYSDK_OFFSET(0xC166FF0)
+#define RPG_CLIENT_MONOPOLYCONTENTTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xC166FE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyContentTrigger_TypeDefinitionIndex = 61034;
+	inline static constexpr unsigned int MonopolyContentTrigger_TypeDefinitionIndex = 61968;
 
 	class MonopolyContentTrigger : public ::System::Object
 	{
 	public:
-		::RPG::Client::MonopolyContentType _Type_k__BackingField; // 0x10
-		::System::UInt32 _ContentID_k__BackingField; // 0x14
-		::System::UInt32 _SeqID_k__BackingField; // 0x18
+		::System::UInt32 _ContentID_k__BackingField; // 0x10
+		::System::UInt32 _SeqID_k__BackingField; // 0x14
+		::RPG::Client::MonopolyContentType _Type_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::UInt32 seqID, ::System::UInt32 contentID, ::RPG::Client::MonopolyContentType type)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::Client::MonopolyContentType a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::Client::MonopolyContentType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCONTENTTRIGGER__CTOR_OFFSET))(this, seqID, contentID, type);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::Client::MonopolyContentType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCONTENTTRIGGER__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::LuaUIController* Trigger()
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCONTENTTRIGGER_GET_CONTENTID_OFFSET))(this);
 		}
 
-		::System::Void set_ContentID(::System::UInt32 value)
+		::System::Void set_ContentID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_CONTENTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_CONTENTID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MonopolyContentType get_Type()
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MonopolyContentType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCONTENTTRIGGER_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::RPG::Client::MonopolyContentType value)
+		::System::Void set_Type(::RPG::Client::MonopolyContentType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonopolyContentType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonopolyContentType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_TYPE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_SeqID()
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCONTENTTRIGGER_GET_SEQID_OFFSET))(this);
 		}
 
-		::System::Void set_SeqID(::System::UInt32 value)
+		::System::Void set_SeqID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_SEQID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYCONTENTTRIGGER_SET_SEQID_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCH3_TAGBEHAVIOURCONFIG_METHOD_2_53C2EC3A8565C073_OFFSET UNITYSDK_OFFSET(0x18AB7EF0)
-#define RPG_GAMECORE_MATCH3_TAGBEHAVIOURCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABB700)
+#define RPG_GAMECORE_MATCH3_TAGBEHAVIOURCONFIG_METHOD_2_719BF9664D7DA201_OFFSET UNITYSDK_OFFSET(0x198E89D0)
+#define RPG_GAMECORE_MATCH3_TAGBEHAVIOURCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198EC0D0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int TagBehaviourConfig_TypeDefinitionIndex = 23758;
+	inline static constexpr unsigned int TagBehaviourConfig_TypeDefinitionIndex = 23592;
 
 	class TagBehaviourConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore::Match3
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_TAGBEHAVIOURCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_53C2EC3A8565C073(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::TagBehaviourConfig*& a2)
+		static ::System::Void Method_2_719BF9664D7DA201(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::TagBehaviourConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::TagBehaviourConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_TAGBEHAVIOURCONFIG_METHOD_2_53C2EC3A8565C073_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::TagBehaviourConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_TAGBEHAVIOURCONFIG_METHOD_2_719BF9664D7DA201_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/PcssSampleQuality.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_PCSSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x181138A0)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_PCSSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB6CE0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_PcssSettings_TypeDefinitionIndex = 35059;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_PcssSettings_TypeDefinitionIndex = 35345;
 
 	class CRPGraphicsSettingsData_PcssSettings : public ::System::Object
 	{

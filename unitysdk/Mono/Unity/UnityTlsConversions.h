@@ -8,11 +8,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/Authentication/SslProtocols.h"
 
-#define MONO_UNITY_UNITYTLSCONVERSIONS_CONVERTPROTOCOLVERSION_OFFSET UNITYSDK_OFFSET(0x1A0B03D0)
-#define MONO_UNITY_UNITYTLSCONVERSIONS_GETMAXPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1A0AFC30)
-#define MONO_UNITY_UNITYTLSCONVERSIONS_GETMINPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1A0AFB20)
-#define MONO_UNITY_UNITYTLSCONVERSIONS_VERIFYRESULTTOALERTDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1A0A50F0)
-#define MONO_UNITY_UNITYTLSCONVERSIONS_VERIFYRESULTTOPOLICYERRROR_OFFSET UNITYSDK_OFFSET(0x1A0B0EB0)
+#define MONO_UNITY_UNITYTLSCONVERSIONS_CONVERTPROTOCOLVERSION_OFFSET UNITYSDK_OFFSET(0x1AF1A1E0)
+#define MONO_UNITY_UNITYTLSCONVERSIONS_GETMAXPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1AF199C0)
+#define MONO_UNITY_UNITYTLSCONVERSIONS_GETMINPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1AF19890)
+#define MONO_UNITY_UNITYTLSCONVERSIONS_VERIFYRESULTTOALERTDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1AF15800)
+#define MONO_UNITY_UNITYTLSCONVERSIONS_VERIFYRESULTTOPOLICYERRROR_OFFSET UNITYSDK_OFFSET(0x1AF1AD00)
 
 namespace Mono::Unity
 {
@@ -21,29 +21,29 @@ namespace Mono::Unity
 	class UnityTlsConversions : public ::System::Object
 	{
 	public:
-		static ::Mono::Unity::UnityTls_unitytls_protocol GetMinProtocol(::System::Security::Authentication::SslProtocols protocols)
+		static ::Mono::Unity::UnityTls_unitytls_protocol GetMinProtocol(::System::Security::Authentication::SslProtocols a1)
 		{
-			return ((::Mono::Unity::UnityTls_unitytls_protocol(*)(::System::Security::Authentication::SslProtocols))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONVERSIONS_GETMINPROTOCOL_OFFSET))(protocols);
+			return ((::Mono::Unity::UnityTls_unitytls_protocol(*)(::System::Security::Authentication::SslProtocols))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONVERSIONS_GETMINPROTOCOL_OFFSET))(a1);
 		}
 
-		static ::Mono::Unity::UnityTls_unitytls_protocol GetMaxProtocol(::System::Security::Authentication::SslProtocols protocols)
+		static ::Mono::Unity::UnityTls_unitytls_protocol GetMaxProtocol(::System::Security::Authentication::SslProtocols a1)
 		{
-			return ((::Mono::Unity::UnityTls_unitytls_protocol(*)(::System::Security::Authentication::SslProtocols))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONVERSIONS_GETMAXPROTOCOL_OFFSET))(protocols);
+			return ((::Mono::Unity::UnityTls_unitytls_protocol(*)(::System::Security::Authentication::SslProtocols))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONVERSIONS_GETMAXPROTOCOL_OFFSET))(a1);
 		}
 
-		static ::Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(::Mono::Unity::UnityTls_unitytls_protocol protocol)
+		static ::Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(::Mono::Unity::UnityTls_unitytls_protocol a1)
 		{
-			return ((::Mono::Security::Interface::TlsProtocols(*)(::Mono::Unity::UnityTls_unitytls_protocol))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONVERSIONS_CONVERTPROTOCOLVERSION_OFFSET))(protocol);
+			return ((::Mono::Security::Interface::TlsProtocols(*)(::Mono::Unity::UnityTls_unitytls_protocol))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONVERSIONS_CONVERTPROTOCOLVERSION_OFFSET))(a1);
 		}
 
-		static ::Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult, ::Mono::Security::Interface::AlertDescription defaultAlert)
+		static ::Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(::Mono::Unity::UnityTls_unitytls_x509verify_result a1, ::Mono::Security::Interface::AlertDescription a2)
 		{
-			return ((::Mono::Security::Interface::AlertDescription(*)(::Mono::Unity::UnityTls_unitytls_x509verify_result, ::Mono::Security::Interface::AlertDescription))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONVERSIONS_VERIFYRESULTTOALERTDESCRIPTION_OFFSET))(verifyResult, defaultAlert);
+			return ((::Mono::Security::Interface::AlertDescription(*)(::Mono::Unity::UnityTls_unitytls_x509verify_result, ::Mono::Security::Interface::AlertDescription))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONVERSIONS_VERIFYRESULTTOALERTDESCRIPTION_OFFSET))(a1, a2);
 		}
 
-		static ::Mono::Security::Interface::MonoSslPolicyErrors VerifyResultToPolicyErrror(::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult)
+		static ::Mono::Security::Interface::MonoSslPolicyErrors VerifyResultToPolicyErrror(::Mono::Unity::UnityTls_unitytls_x509verify_result a1)
 		{
-			return ((::Mono::Security::Interface::MonoSslPolicyErrors(*)(::Mono::Unity::UnityTls_unitytls_x509verify_result))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONVERSIONS_VERIFYRESULTTOPOLICYERRROR_OFFSET))(verifyResult);
+			return ((::Mono::Security::Interface::MonoSslPolicyErrors(*)(::Mono::Unity::UnityTls_unitytls_x509verify_result))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONVERSIONS_VERIFYRESULTTOPOLICYERRROR_OFFSET))(a1);
 		}
 	};
 }

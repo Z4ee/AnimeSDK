@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_ReportType_TypeDefinitionIndex = 7327;
+	inline static constexpr unsigned int HoYoPassSDK_ReportType_TypeDefinitionIndex = 8230;
 
 	enum class HoYoPassSDK_ReportType : ::System::Int32
 	{

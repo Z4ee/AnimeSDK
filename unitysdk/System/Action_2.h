@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace System
 {
-	inline static constexpr unsigned int Action_2_TypeDefinitionIndex = 171;
+	inline static constexpr unsigned int Action_2_TypeDefinitionIndex = 170;
 
 	template <typename T1, typename T2>
 	class Action_2 : public ::System::MulticastDelegate

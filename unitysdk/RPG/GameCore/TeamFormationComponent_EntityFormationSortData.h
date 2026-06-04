@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ENTITYFORMATIONSORTDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xE26B0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ENTITYFORMATIONSORTDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1483D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent_EntityFormationSortData_TypeDefinitionIndex = 53204;
+	inline static constexpr unsigned int TeamFormationComponent_EntityFormationSortData_TypeDefinitionIndex = 53917;
 
 	struct alignas(8) TeamFormationComponent_EntityFormationSortData
 	{
@@ -17,9 +17,9 @@ namespace RPG::GameCore
 		::System::Int32 FormationIndex; // 0x1C
 		::System::UInt32 RemoveVersion; // 0x20
 
-		::System::Int32 CompareTo(::RPG::GameCore::TeamFormationComponent_EntityFormationSortData other)
+		::System::Int32 CompareTo(::RPG::GameCore::TeamFormationComponent_EntityFormationSortData a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::TeamFormationComponent_EntityFormationSortData))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ENTITYFORMATIONSORTDATA_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::TeamFormationComponent_EntityFormationSortData))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ENTITYFORMATIONSORTDATA_COMPARETO_OFFSET))(this, a1);
 		}
 	};
 }

@@ -8,12 +8,12 @@ namespace RPG::GameCore { class BattleLineupAvatarConfig; }
 namespace RPG::GameCore { class LineupGridFightConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLELINEUPCONFIG_METHOD_2_CE3B5EDCD21307FE_OFFSET UNITYSDK_OFFSET(0x186FCB40)
-#define RPG_GAMECORE_BATTLELINEUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186FCD80)
+#define RPG_GAMECORE_BATTLELINEUPCONFIG_METHOD_2_698D6E65616654F9_OFFSET UNITYSDK_OFFSET(0x194D0090)
+#define RPG_GAMECORE_BATTLELINEUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194D02D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupConfig_TypeDefinitionIndex = 17231;
+	inline static constexpr unsigned int BattleLineupConfig_TypeDefinitionIndex = 17239;
 
 	class BattleLineupConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CE3B5EDCD21307FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleLineupConfig*& a2)
+		static ::System::Void Method_2_698D6E65616654F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleLineupConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleLineupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPCONFIG_METHOD_2_CE3B5EDCD21307FE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleLineupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLELINEUPCONFIG_METHOD_2_698D6E65616654F9_OFFSET))(a1, a2);
 		}
 	};
 }

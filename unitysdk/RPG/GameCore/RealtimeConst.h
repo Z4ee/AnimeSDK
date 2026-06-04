@@ -13,24 +13,24 @@ namespace RPG::GameCore { class RtBehaviorFlagListPair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_REALTIMECONST_GET_REVERSEDMODIFIERSTATUSTYPEIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x18C8E310)
-#define RPG_GAMECORE_REALTIMECONST_GET_REVERSEMODIFIERBEHAVIORFLAGIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x18C8E850)
-#define RPG_GAMECORE_REALTIMECONST_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x18C8E1B0)
-#define RPG_GAMECORE_REALTIMECONST_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x18C8E230)
-#define RPG_GAMECORE_REALTIMECONST_METHOD_2_CF8DAE60A62181DC_OFFSET UNITYSDK_OFFSET(0x18C8E250)
-#define RPG_GAMECORE_REALTIMECONST_METHOD_2_FAB2C0F2A5E8F898_OFFSET UNITYSDK_OFFSET(0x18C8DCF0)
-#define RPG_GAMECORE_REALTIMECONST__CTOR_OFFSET UNITYSDK_OFFSET(0x18C8E190)
+#define RPG_GAMECORE_REALTIMECONST_GET_REVERSEDMODIFIERSTATUSTYPEIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x19AB2F50)
+#define RPG_GAMECORE_REALTIMECONST_GET_REVERSEMODIFIERBEHAVIORFLAGIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x19AB3370)
+#define RPG_GAMECORE_REALTIMECONST_METHOD_2_3DA1C6D86A162460_OFFSET UNITYSDK_OFFSET(0x19AB2A70)
+#define RPG_GAMECORE_REALTIMECONST_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x19AB2E00)
+#define RPG_GAMECORE_REALTIMECONST_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x19AB2E80)
+#define RPG_GAMECORE_REALTIMECONST_METHOD_2_CF8DAE60A62181DC_OFFSET UNITYSDK_OFFSET(0x19AB2EA0)
+#define RPG_GAMECORE_REALTIMECONST__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB2DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RealtimeConst_TypeDefinitionIndex = 16752;
+	inline static constexpr unsigned int RealtimeConst_TypeDefinitionIndex = 16771;
 
 	class RealtimeConst : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::RPG::GameCore::RealtimeConst** StaticGet_Config()
 		{
-			return (::RPG::GameCore::RealtimeConst**)Il2CppClass::FromTypeDefinitionIndex(RealtimeConst_TypeDefinitionIndex)->GetStaticField(0x23D40);
+			return (::RPG::GameCore::RealtimeConst**)Il2CppClass::FromTypeDefinitionIndex(RealtimeConst_TypeDefinitionIndex)->GetStaticField(0x12870);
 		}
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RtCharacterState, ::System::Single>* StateHitLayerWeightMap; // 0x10
 		::RPG::GameCore::FixPoint DefaultDieTime; // 0x18
@@ -47,9 +47,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REALTIMECONST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FAB2C0F2A5E8F898(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RealtimeConst*& a2)
+		static ::System::Void Method_2_3DA1C6D86A162460(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RealtimeConst*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RealtimeConst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REALTIMECONST_METHOD_2_FAB2C0F2A5E8F898_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RealtimeConst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REALTIMECONST_METHOD_2_3DA1C6D86A162460_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_2_5790A55946AA509D()

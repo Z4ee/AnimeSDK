@@ -6,14 +6,14 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Component; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER_CAPTURE_1_OFFSET UNITYSDK_OFFSET(0x1A1E4370)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1A1E42B0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER_SETUP_OFFSET UNITYSDK_OFFSET(0x1A1E4140)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E44B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER_CAPTURE_1_OFFSET UNITYSDK_OFFSET(0x1B048D50)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1B048C90)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER_SETUP_OFFSET UNITYSDK_OFFSET(0x1B048B20)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B048E90)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_CameraCapturer_TypeDefinitionIndex = 40764;
+	inline static constexpr unsigned int AlembicRecorder_CameraCapturer_TypeDefinitionIndex = 41590;
 
 	class AlembicRecorder_CameraCapturer : public ::UnityEngine::Formats::Alembic::Util::ComponentCapturer
 	{
@@ -26,9 +26,9 @@ namespace UnityEngine::Formats::Alembic::Util
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Setup(::UnityEngine::Component* c)
+		::System::Void Setup(::UnityEngine::Component* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Component*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER_SETUP_OFFSET))(this, c);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Component*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER_SETUP_OFFSET))(this, a1);
 		}
 
 		::System::Void Capture()
@@ -36,9 +36,9 @@ namespace UnityEngine::Formats::Alembic::Util
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER_CAPTURE_OFFSET))(this);
 		}
 
-		::System::Void Capture_1(::UnityEngine::Formats::Alembic::Sdk::CameraData& dst)
+		::System::Void Capture_1(::UnityEngine::Formats::Alembic::Sdk::CameraData& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::CameraData&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER_CAPTURE_1_OFFSET))(this, dst);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::CameraData&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CAMERACAPTURER_CAPTURE_1_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMFIXEDJOYSTICK_DRAGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD8370)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMFIXEDJOYSTICK_DRAGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x13CB90)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int MonoFiveDimFixedJoyStick_DragInfo_TypeDefinitionIndex = 70939;
+	inline static constexpr unsigned int MonoFiveDimFixedJoyStick_DragInfo_TypeDefinitionIndex = 71761;
 
 	struct alignas(4) MonoFiveDimFixedJoyStick_DragInfo
 	{
@@ -15,9 +15,9 @@ namespace RPG::Client::LittleGame::FiveDim
 		::UnityEngine::Vector2 HitPos; // 0x14
 		::System::Single CenterToHitDistancePow; // 0x1C
 
-		::System::Void _ctor(::System::Single uiAngle, ::UnityEngine::Vector2 hitPos, ::System::Single centerToHitDistancePow)
+		::System::Void _ctor(::System::Single a1, ::UnityEngine::Vector2 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMFIXEDJOYSTICK_DRAGINFO__CTOR_OFFSET))(this, uiAngle, hitPos, centerToHitDistancePow);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMFIXEDJOYSTICK_DRAGINFO__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

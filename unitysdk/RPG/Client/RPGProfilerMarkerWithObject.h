@@ -7,13 +7,13 @@ namespace RPG::Client { class RPGProfilerMarkerLevel; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT_BEGIN_OFFSET UNITYSDK_OFFSET(0x19D331B0)
-#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT_END_OFFSET UNITYSDK_OFFSET(0x19D33230)
-#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19D330E0)
+#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT_BEGIN_OFFSET UNITYSDK_OFFSET(0x1ABB02A0)
+#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT_END_OFFSET UNITYSDK_OFFSET(0x1ABB0320)
+#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB01D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGProfilerMarkerWithObject_TypeDefinitionIndex = 33255;
+	inline static constexpr unsigned int RPGProfilerMarkerWithObject_TypeDefinitionIndex = 33364;
 
 	class RPGProfilerMarkerWithObject : public ::System::Object
 	{
@@ -21,14 +21,14 @@ namespace RPG::Client
 		::RPG::Client::RPGProfilerMarkerLevel* m_MarkerLevel; // 0x10
 		::Unity::Profiling::ProfilerMarkerWithObject m_Marker; // 0x18
 
-		::System::Void _ctor(::System::String* name, ::System::String* parameterName1, ::System::String* parameterName2, ::System::Int32 markerLevel)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT__CTOR_OFFSET))(this, name, parameterName1, parameterName2, markerLevel);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Begin(::UnityEngine::Object* obj1, ::UnityEngine::Object* obj2)
+		::System::Void Begin(::UnityEngine::Object* a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT_BEGIN_OFFSET))(this, obj1, obj2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT_BEGIN_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void End()

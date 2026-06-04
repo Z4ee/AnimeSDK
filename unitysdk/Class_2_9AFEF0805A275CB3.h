@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_08438989973CBC6B.h"
+#include "unitysdk/Class_1_1345FFCC87DEA342.h"
 
 class Class_1_FAF146B3D74C3C3F;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_2_9AFEF0805A275CB3_METHOD_2_F5D02CB63424FC5A_OFFSET UNITYSDK_OFFSET(0x124AF220)
-#define CLASS_2_9AFEF0805A275CB3__CTOR_OFFSET UNITYSDK_OFFSET(0x124AF2C0)
+#define CLASS_2_9AFEF0805A275CB3_METHOD_2_F5D02CB63424FC5A_OFFSET UNITYSDK_OFFSET(0x13557080)
+#define CLASS_2_9AFEF0805A275CB3__CTOR_OFFSET UNITYSDK_OFFSET(0x13557120)
 
-inline static constexpr unsigned int Class_2_9AFEF0805A275CB3_TypeDefinitionIndex = 72631;
+inline static constexpr unsigned int Class_2_9AFEF0805A275CB3_TypeDefinitionIndex = 74454;
 
-class Class_2_9AFEF0805A275CB3 : public ::Class_1_08438989973CBC6B
+class Class_2_9AFEF0805A275CB3 : public ::Class_1_1345FFCC87DEA342
 {
 public:
 	::System::Void _ctor()

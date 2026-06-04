@@ -1,0 +1,82 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+
+class Class_1_68EB032547196D7A;
+class Class_1_A37DB8F90C5A9B88;
+class Class_1_B357CAB772B661F4;
+class Class_1_EEEC64A49E103F70;
+namespace RPG::Client { class PlayerData; }
+namespace System { class String; }
+
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xC3B7B40)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_AREAID_OFFSET UNITYSDK_OFFSET(0xC3B7D30)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_ENEMYHEADICONPATH_OFFSET UNITYSDK_OFFSET(0xC3B7CA0)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_ENEMYNAME_OFFSET UNITYSDK_OFFSET(0xC3B7C50)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_ENEMYTALKCONTENT_OFFSET UNITYSDK_OFFSET(0xC3B7D00)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_PLAYERNAME_OFFSET UNITYSDK_OFFSET(0xC3B7C30)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_PLAYERTALKCONTENT_OFFSET UNITYSDK_OFFSET(0xC3B7CD0)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET__ENEMYROUNDINFODATA_OFFSET UNITYSDK_OFFSET(0xC3B7C80)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC3B7C00)
+
+namespace RPG::Client::PixAir
+{
+	inline static constexpr unsigned int PixAirEnterBattleLoadingViewModel_TypeDefinitionIndex = 73583;
+
+	class PixAirEnterBattleLoadingViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::Class_1_EEEC64A49E103F70* _GameStageInfo; // 0x20
+		::System::String* PlayerIconPath; // 0x28
+		::Class_1_A37DB8F90C5A9B88* _BattleService; // 0x30
+		::Class_1_68EB032547196D7A* _GameBattleRoundInfo; // 0x38
+		::RPG::Client::PlayerData* _PlayerInfoData; // 0x40
+		::System::Single MinWaitTime; // 0x48
+		::System::Boolean IsWaitEnterBattle; // 0x4C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::PixAir::PixAirEnterBattleLoadingViewModel* Create(::RPG::Client::PlayerData* a1, ::Class_1_68EB032547196D7A* a2, ::Class_1_EEEC64A49E103F70* a3)
+		{
+			return ((::RPG::Client::PixAir::PixAirEnterBattleLoadingViewModel*(*)(::RPG::Client::PlayerData*, ::Class_1_68EB032547196D7A*, ::Class_1_EEEC64A49E103F70*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_CREATE_OFFSET))(a1, a2, a3);
+		}
+
+		::System::String* get_PlayerName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_PLAYERNAME_OFFSET))(this);
+		}
+
+		::System::String* get_EnemyName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_ENEMYNAME_OFFSET))(this);
+		}
+
+		::System::String* get_EnemyHeadIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_ENEMYHEADICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_PlayerTalkContent()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_PLAYERTALKCONTENT_OFFSET))(this);
+		}
+
+		::System::String* get_EnemyTalkContent()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_ENEMYTALKCONTENT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_AreaID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET_AREAID_OFFSET))(this);
+		}
+
+		::Class_1_B357CAB772B661F4* get__EnemyRoundInfoData()
+		{
+			return ((::Class_1_B357CAB772B661F4*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGVIEWMODEL_GET__ENEMYROUNDINFODATA_OFFSET))(this);
+		}
+	};
+}

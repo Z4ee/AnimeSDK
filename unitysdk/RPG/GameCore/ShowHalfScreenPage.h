@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWHALFSCREENPAGE_METHOD_3_9D873A6C7F077391_OFFSET UNITYSDK_OFFSET(0x18E62390)
-#define RPG_GAMECORE_SHOWHALFSCREENPAGE_METHOD_3_D429D2104786A550_OFFSET UNITYSDK_OFFSET(0x18E62310)
-#define RPG_GAMECORE_SHOWHALFSCREENPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x18E62360)
+#define RPG_GAMECORE_SHOWHALFSCREENPAGE_METHOD_3_69806ACEC21EA767_OFFSET UNITYSDK_OFFSET(0x19C7E4C0)
+#define RPG_GAMECORE_SHOWHALFSCREENPAGE_METHOD_3_D5B0A13CFCC47FB8_OFFSET UNITYSDK_OFFSET(0x19C7E440)
+#define RPG_GAMECORE_SHOWHALFSCREENPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7E490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowHalfScreenPage_TypeDefinitionIndex = 19423;
+	inline static constexpr unsigned int ShowHalfScreenPage_TypeDefinitionIndex = 19328;
 
 	class ShowHalfScreenPage : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHALFSCREENPAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D429D2104786A550(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHalfScreenPage*& a2)
+		static ::System::Void Method_3_D5B0A13CFCC47FB8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHalfScreenPage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowHalfScreenPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHALFSCREENPAGE_METHOD_3_D429D2104786A550_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowHalfScreenPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHALFSCREENPAGE_METHOD_3_D5B0A13CFCC47FB8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9D873A6C7F077391(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHalfScreenPage* a2)
+		static ::System::Void Method_3_69806ACEC21EA767(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHalfScreenPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowHalfScreenPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHALFSCREENPAGE_METHOD_3_9D873A6C7F077391_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowHalfScreenPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHALFSCREENPAGE_METHOD_3_69806ACEC21EA767_OFFSET))(a1, a2);
 		}
 	};
 }

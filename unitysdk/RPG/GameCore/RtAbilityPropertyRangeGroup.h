@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicValueRangeCallback; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RTABILITYPROPERTYRANGEGROUP_METHOD_2_9DC3EE5C5C488761_OFFSET UNITYSDK_OFFSET(0x18D82F10)
-#define RPG_GAMECORE_RTABILITYPROPERTYRANGEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18D830A0)
+#define RPG_GAMECORE_RTABILITYPROPERTYRANGEGROUP_METHOD_2_27BD2A9318FDE584_OFFSET UNITYSDK_OFFSET(0x19BD6440)
+#define RPG_GAMECORE_RTABILITYPROPERTYRANGEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD65C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAbilityPropertyRangeGroup_TypeDefinitionIndex = 16769;
+	inline static constexpr unsigned int RtAbilityPropertyRangeGroup_TypeDefinitionIndex = 16785;
 
 	class RtAbilityPropertyRangeGroup : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYPROPERTYRANGEGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9DC3EE5C5C488761(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAbilityPropertyRangeGroup*& a2)
+		static ::System::Void Method_2_27BD2A9318FDE584(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAbilityPropertyRangeGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAbilityPropertyRangeGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYPROPERTYRANGEGROUP_METHOD_2_9DC3EE5C5C488761_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAbilityPropertyRangeGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYPROPERTYRANGEGROUP_METHOD_2_27BD2A9318FDE584_OFFSET))(a1, a2);
 		}
 	};
 }

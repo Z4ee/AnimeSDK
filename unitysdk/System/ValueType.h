@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define SYSTEM_VALUETYPE_DEFAULTEQUALS_OFFSET UNITYSDK_OFFSET(0x178A14B0)
-#define SYSTEM_VALUETYPE_EQUALS_OFFSET UNITYSDK_OFFSET(0x178A1660)
-#define SYSTEM_VALUETYPE_GETHASHCODEOFPTR_OFFSET UNITYSDK_OFFSET(0x178A1720)
-#define SYSTEM_VALUETYPE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x178A1680)
-#define SYSTEM_VALUETYPE_INTERNALEQUALS_OFFSET UNITYSDK_OFFSET(0x178A14A0)
-#define SYSTEM_VALUETYPE_INTERNALGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x178A1670)
-#define SYSTEM_VALUETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x178A1780)
-#define SYSTEM_VALUETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x178A1490)
+#define SYSTEM_VALUETYPE_DEFAULTEQUALS_OFFSET UNITYSDK_OFFSET(0x1865AE90)
+#define SYSTEM_VALUETYPE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1865B040)
+#define SYSTEM_VALUETYPE_GETHASHCODEOFPTR_OFFSET UNITYSDK_OFFSET(0x1865B0F0)
+#define SYSTEM_VALUETYPE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1865B060)
+#define SYSTEM_VALUETYPE_INTERNALEQUALS_OFFSET UNITYSDK_OFFSET(0x1865AE80)
+#define SYSTEM_VALUETYPE_INTERNALGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1865B050)
+#define SYSTEM_VALUETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1865B150)
+#define SYSTEM_VALUETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1865AE70)
 
 namespace System
 {
-	inline static constexpr unsigned int ValueType_TypeDefinitionIndex = 448;
+	inline static constexpr unsigned int ValueType_TypeDefinitionIndex = 447;
 
 	class ValueType : public ::System::Object
 	{
@@ -25,24 +25,24 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Boolean InternalEquals(::System::Object* o1, ::System::Object* o2, ::Il2CppArray<::System::Object*>*& fields)
+		static ::System::Boolean InternalEquals(::System::Object* a1, ::System::Object* a2, ::Il2CppArray<::System::Object*>*& a3)
 		{
-			return ((::System::Boolean(*)(::System::Object*, ::System::Object*, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_INTERNALEQUALS_OFFSET))(o1, o2, fields);
+			return ((::System::Boolean(*)(::System::Object*, ::System::Object*, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_INTERNALEQUALS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean DefaultEquals(::System::Object* o1, ::System::Object* o2)
+		static ::System::Boolean DefaultEquals(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_DEFAULTEQUALS_OFFSET))(o1, o2);
+			return ((::System::Boolean(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_DEFAULTEQUALS_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_EQUALS_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 InternalGetHashCode(::System::Object* o, ::Il2CppArray<::System::Object*>*& fields)
+		static ::System::Int32 InternalGetHashCode(::System::Object* a1, ::Il2CppArray<::System::Object*>*& a2)
 		{
-			return ((::System::Int32(*)(::System::Object*, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_INTERNALGETHASHCODE_OFFSET))(o, fields);
+			return ((::System::Int32(*)(::System::Object*, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_INTERNALGETHASHCODE_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -50,9 +50,9 @@ namespace System
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Int32 GetHashCodeOfPtr(::System::IntPtr ptr)
+		static ::System::Int32 GetHashCodeOfPtr(::System::IntPtr a1)
 		{
-			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_GETHASHCODEOFPTR_OFFSET))(ptr);
+			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_GETHASHCODEOFPTR_OFFSET))(a1);
 		}
 
 		::System::String* ToString()

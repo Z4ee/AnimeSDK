@@ -5,14 +5,14 @@
 namespace System { class String; }
 namespace System { class TypeName; }
 
-#define SYSTEM_TYPENAMES_ATYPENAME_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1789B4D0)
-#define SYSTEM_TYPENAMES_ATYPENAME_EQUALS_OFFSET UNITYSDK_OFFSET(0x1789B3F0)
-#define SYSTEM_TYPENAMES_ATYPENAME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1789B440)
-#define SYSTEM_TYPENAMES_ATYPENAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1789A1C0)
+#define SYSTEM_TYPENAMES_ATYPENAME_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18654B10)
+#define SYSTEM_TYPENAMES_ATYPENAME_EQUALS_OFFSET UNITYSDK_OFFSET(0x18654A30)
+#define SYSTEM_TYPENAMES_ATYPENAME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18654A80)
+#define SYSTEM_TYPENAMES_ATYPENAME__CTOR_OFFSET UNITYSDK_OFFSET(0x186536B0)
 
 namespace System
 {
-	inline static constexpr unsigned int TypeNames_ATypeName_TypeDefinitionIndex = 439;
+	inline static constexpr unsigned int TypeNames_ATypeName_TypeDefinitionIndex = 438;
 
 	class TypeNames_ATypeName : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TYPENAMES_ATYPENAME__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::TypeName* other)
+		::System::Boolean Equals(::System::TypeName* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::TypeName*))((::PBYTE)hIl2Cpp + SYSTEM_TYPENAMES_ATYPENAME_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::TypeName*))((::PBYTE)hIl2Cpp + SYSTEM_TYPENAMES_ATYPENAME_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -32,9 +32,9 @@ namespace System
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TYPENAMES_ATYPENAME_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals_1(::System::Object* other)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TYPENAMES_ATYPENAME_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TYPENAMES_ATYPENAME_EQUALS_1_OFFSET))(this, a1);
 		}
 	};
 }

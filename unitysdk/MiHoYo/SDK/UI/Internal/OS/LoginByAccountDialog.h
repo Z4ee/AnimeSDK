@@ -9,52 +9,52 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GETACCOUNTINPUT_OFFSET UNITYSDK_OFFSET(0x176802C0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONAPPLELOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x176801E0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONBACKBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680280)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680260)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONFACEBOOKLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680200)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONFORGOTPASSWORDBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x176801C0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONGOOGLELOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680220)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONGUESTLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x176802A0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680180)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONREGISTERBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x176801A0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONTWITTERLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680240)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x176805D0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x17680640)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONAPPLELOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x176801F0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONBACKBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680290)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680270)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONFACEBOOKLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680210)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONFORGOTPASSWORDBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x176801D0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONGOOGLELOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680230)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONGUESTLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x176802B0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680190)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONREGISTERBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x176801B0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONTWITTERLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x17680250)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x17680410)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_UPDATEACCOUNTINPUT_OFFSET UNITYSDK_OFFSET(0x17680330)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_UPDATEPASSWORD_OFFSET UNITYSDK_OFFSET(0x176803A0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x176806A0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG__SHOW_B__43_0_OFFSET UNITYSDK_OFFSET(0x176806B0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GETACCOUNTINPUT_OFFSET UNITYSDK_OFFSET(0x18451C70)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONAPPLELOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451B90)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONBACKBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451C30)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451C10)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONFACEBOOKLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451BB0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONFORGOTPASSWORDBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451B70)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONGOOGLELOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451BD0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONGUESTLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451C50)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451B30)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONREGISTERBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451B50)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONTWITTERLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451BF0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x18451F00)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x18451F70)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONAPPLELOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451BA0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONBACKBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451C40)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451C20)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONFACEBOOKLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451BC0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONFORGOTPASSWORDBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451B80)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONGOOGLELOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451BE0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONGUESTLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451C60)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451B40)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONREGISTERBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451B60)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONTWITTERLOGINBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x18451C00)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x18451D30)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_UPDATEACCOUNTINPUT_OFFSET UNITYSDK_OFFSET(0x18451CB0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_UPDATEPASSWORD_OFFSET UNITYSDK_OFFSET(0x18451CF0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x18451F90)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG__SHOW_B__43_0_OFFSET UNITYSDK_OFFSET(0x18451FA0)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int LoginByAccountDialog_TypeDefinitionIndex = 7450;
+	inline static constexpr unsigned int LoginByAccountDialog_TypeDefinitionIndex = 8353;
 
 	class LoginByAccountDialog : public ::System::Object
 	{
 	public:
-		::System::Action* _OnBackBtnClicked_k__BackingField; // 0x10
-		::System::Action* _OnRegisterBtnClicked_k__BackingField; // 0x18
-		::System::Action* _OnTwitterLoginBtnClicked_k__BackingField; // 0x20
-		::System::Action* _OnGuestLoginBtnClicked_k__BackingField; // 0x28
-		::System::Action_1<::System::String*>* _OnForgotPasswordBtnClicked_k__BackingField; // 0x30
-		::System::Action* _OnAppleLoginBtnClicked_k__BackingField; // 0x38
-		::System::Action* _OnFacebookLoginBtnClicked_k__BackingField; // 0x40
-		::System::Action* _OnGoogleLoginBtnClicked_k__BackingField; // 0x48
-		::System::Action_2<::System::String*, ::System::String*>* _OnLoginBtnClicked_k__BackingField; // 0x50
-		::System::Action* _OnCloseBtnClicked_k__BackingField; // 0x58
+		::System::Action_2<::System::String*, ::System::String*>* _OnLoginBtnClicked_k__BackingField; // 0x10
+		::System::Action* _OnCloseBtnClicked_k__BackingField; // 0x18
+		::System::Action* _OnGoogleLoginBtnClicked_k__BackingField; // 0x20
+		::System::Action* _OnRegisterBtnClicked_k__BackingField; // 0x28
+		::System::Action* _OnAppleLoginBtnClicked_k__BackingField; // 0x30
+		::System::Action_1<::System::String*>* _OnForgotPasswordBtnClicked_k__BackingField; // 0x38
+		::System::Action* _OnGuestLoginBtnClicked_k__BackingField; // 0x40
+		::System::Action* _OnTwitterLoginBtnClicked_k__BackingField; // 0x48
+		::System::Action* _OnBackBtnClicked_k__BackingField; // 0x50
+		::System::Action* _OnFacebookLoginBtnClicked_k__BackingField; // 0x58
 
 		::System::Void _ctor()
 		{
@@ -66,9 +66,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action_2<::System::String*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONLOGINBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnLoginBtnClicked(::System::Action_2<::System::String*, ::System::String*>* value)
+		::System::Void set_OnLoginBtnClicked(::System::Action_2<::System::String*, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONLOGINBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONLOGINBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnRegisterBtnClicked()
@@ -76,9 +76,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONREGISTERBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnRegisterBtnClicked(::System::Action* value)
+		::System::Void set_OnRegisterBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONREGISTERBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONREGISTERBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action_1<::System::String*>* get_OnForgotPasswordBtnClicked()
@@ -86,9 +86,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONFORGOTPASSWORDBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnForgotPasswordBtnClicked(::System::Action_1<::System::String*>* value)
+		::System::Void set_OnForgotPasswordBtnClicked(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONFORGOTPASSWORDBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONFORGOTPASSWORDBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnAppleLoginBtnClicked()
@@ -96,9 +96,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONAPPLELOGINBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnAppleLoginBtnClicked(::System::Action* value)
+		::System::Void set_OnAppleLoginBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONAPPLELOGINBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONAPPLELOGINBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnFacebookLoginBtnClicked()
@@ -106,9 +106,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONFACEBOOKLOGINBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnFacebookLoginBtnClicked(::System::Action* value)
+		::System::Void set_OnFacebookLoginBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONFACEBOOKLOGINBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONFACEBOOKLOGINBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnGoogleLoginBtnClicked()
@@ -116,9 +116,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONGOOGLELOGINBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnGoogleLoginBtnClicked(::System::Action* value)
+		::System::Void set_OnGoogleLoginBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONGOOGLELOGINBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONGOOGLELOGINBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnTwitterLoginBtnClicked()
@@ -126,9 +126,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONTWITTERLOGINBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnTwitterLoginBtnClicked(::System::Action* value)
+		::System::Void set_OnTwitterLoginBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONTWITTERLOGINBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONTWITTERLOGINBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnCloseBtnClicked()
@@ -136,9 +136,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONCLOSEBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnCloseBtnClicked(::System::Action* value)
+		::System::Void set_OnCloseBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnBackBtnClicked()
@@ -146,9 +146,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONBACKBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnBackBtnClicked(::System::Action* value)
+		::System::Void set_OnBackBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONBACKBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONBACKBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnGuestLoginBtnClicked()
@@ -156,9 +156,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONGUESTLOGINBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnGuestLoginBtnClicked(::System::Action* value)
+		::System::Void set_OnGuestLoginBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONGUESTLOGINBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONGUESTLOGINBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::String* GetAccountInput()
@@ -166,19 +166,19 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GETACCOUNTINPUT_OFFSET))(this);
 		}
 
-		::System::Void UpdateAccountInput(::System::String* accountName)
+		::System::Void UpdateAccountInput(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_UPDATEACCOUNTINPUT_OFFSET))(this, accountName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_UPDATEACCOUNTINPUT_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdatePassword(::System::String* password)
+		::System::Void UpdatePassword(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_UPDATEPASSWORD_OFFSET))(this, password);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_UPDATEPASSWORD_OFFSET))(this, a1);
 		}
 
-		::System::Void Show(::System::Collections::Generic::List_1<::MiHoYo::SDK::PC::OS::ThirdpartyMethod>* channels, ::System::Boolean enableBack)
+		::System::Void Show(::System::Collections::Generic::List_1<::MiHoYo::SDK::PC::OS::ThirdpartyMethod>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MiHoYo::SDK::PC::OS::ThirdpartyMethod>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SHOW_OFFSET))(this, channels, enableBack);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MiHoYo::SDK::PC::OS::ThirdpartyMethod>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SHOW_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Hide()

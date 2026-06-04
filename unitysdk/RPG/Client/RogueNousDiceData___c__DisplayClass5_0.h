@@ -5,12 +5,12 @@
 namespace RPG::Client { class RogueNousDiceBranchDataItem; }
 namespace RPG::GameCore { class RogueNousDiceBranchTagRow; }
 
-#define RPG_CLIENT_ROGUENOUSDICEDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB084A80)
-#define RPG_CLIENT_ROGUENOUSDICEDATA___C__DISPLAYCLASS5_0__GETBRANCHESBYGENRE_B__0_OFFSET UNITYSDK_OFFSET(0xB085470)
+#define RPG_CLIENT_ROGUENOUSDICEDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7D4E10)
+#define RPG_CLIENT_ROGUENOUSDICEDATA___C__DISPLAYCLASS5_0__GETBRANCHESBYGENRE_B__0_OFFSET UNITYSDK_OFFSET(0xC7D5910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueNousDiceData___c__DisplayClass5_0_TypeDefinitionIndex = 61660;
+	inline static constexpr unsigned int RogueNousDiceData___c__DisplayClass5_0_TypeDefinitionIndex = 62593;
 
 	class RogueNousDiceData___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetBranchesByGenre_b__0(::RPG::Client::RogueNousDiceBranchDataItem* a)
+		::System::Boolean _GetBranchesByGenre_b__0(::RPG::Client::RogueNousDiceBranchDataItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueNousDiceBranchDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEDATA___C__DISPLAYCLASS5_0__GETBRANCHESBYGENRE_B__0_OFFSET))(this, a);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueNousDiceBranchDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICEDATA___C__DISPLAYCLASS5_0__GETBRANCHESBYGENRE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

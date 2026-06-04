@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOWOLFBROBULLETLINE_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0xAA124F0)
-#define RPG_CLIENT_MONOWOLFBROBULLETLINE_SETDISTANCE_OFFSET UNITYSDK_OFFSET(0xAA12520)
-#define RPG_CLIENT_MONOWOLFBROBULLETLINE_SET_FORWARD_OFFSET UNITYSDK_OFFSET(0xAA12510)
-#define RPG_CLIENT_MONOWOLFBROBULLETLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xAA12710)
+#define RPG_CLIENT_MONOWOLFBROBULLETLINE_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0xC160FD0)
+#define RPG_CLIENT_MONOWOLFBROBULLETLINE_SETDISTANCE_OFFSET UNITYSDK_OFFSET(0xC161000)
+#define RPG_CLIENT_MONOWOLFBROBULLETLINE_SET_FORWARD_OFFSET UNITYSDK_OFFSET(0xC160FF0)
+#define RPG_CLIENT_MONOWOLFBROBULLETLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xC1611D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoWolfBroBulletLine_TypeDefinitionIndex = 63360;
+	inline static constexpr unsigned int MonoWolfBroBulletLine_TypeDefinitionIndex = 64277;
 
 	class MonoWolfBroBulletLine : public ::UnityEngine::MonoBehaviour
 	{
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWOLFBROBULLETLINE_GET_FORWARD_OFFSET))(this);
 		}
 
-		::System::Void set_Forward(::UnityEngine::Vector3 value)
+		::System::Void set_Forward(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWOLFBROBULLETLINE_SET_FORWARD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOWOLFBROBULLETLINE_SET_FORWARD_OFFSET))(this, a1);
 		}
 
 		::System::Void SetDistance(::System::Single a1)

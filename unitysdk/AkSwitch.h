@@ -6,15 +6,15 @@ namespace AK::Wwise { class BaseType; }
 namespace AK::Wwise { class Switch; }
 namespace UnityEngine { class GameObject; }
 
-#define AKSWITCH_GET_GROUPGUID_OFFSET UNITYSDK_OFFSET(0x1A6632A0)
-#define AKSWITCH_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1A663160)
-#define AKSWITCH_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1A6631C0)
-#define AKSWITCH_GET_VALUEID_OFFSET UNITYSDK_OFFSET(0x1A6630E0)
-#define AKSWITCH_GET_WWISETYPE_OFFSET UNITYSDK_OFFSET(0x1A663020)
-#define AKSWITCH_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1A663060)
-#define AKSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A663400)
+#define AKSWITCH_GET_GROUPGUID_OFFSET UNITYSDK_OFFSET(0x1B4AE630)
+#define AKSWITCH_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1B4AE4F0)
+#define AKSWITCH_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1B4AE550)
+#define AKSWITCH_GET_VALUEID_OFFSET UNITYSDK_OFFSET(0x1B4AE470)
+#define AKSWITCH_GET_WWISETYPE_OFFSET UNITYSDK_OFFSET(0x1B4AE3B0)
+#define AKSWITCH_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1B4AE3F0)
+#define AKSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AE790)
 
-inline static constexpr unsigned int AkSwitch_TypeDefinitionIndex = 40512;
+inline static constexpr unsigned int AkSwitch_TypeDefinitionIndex = 41339;
 
 class AkSwitch : public ::AkDragDropTriggerHandler
 {
@@ -35,9 +35,9 @@ public:
 		return ((::AK::Wwise::BaseType*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSWITCH_GET_WWISETYPE_OFFSET))(this);
 	}
 
-	::System::Void HandleEvent(::UnityEngine::GameObject* in_gameObject)
+	::System::Void HandleEvent(::UnityEngine::GameObject* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKSWITCH_HANDLEEVENT_OFFSET))(this, in_gameObject);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKSWITCH_HANDLEEVENT_OFFSET))(this, a1);
 	}
 
 	::System::Int32 get_valueID()

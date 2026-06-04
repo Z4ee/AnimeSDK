@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace System
 {
-	inline static constexpr unsigned int Comparison_1_TypeDefinitionIndex = 187;
+	inline static constexpr unsigned int Comparison_1_TypeDefinitionIndex = 186;
 
 	template <typename T>
 	class Comparison_1 : public ::System::MulticastDelegate

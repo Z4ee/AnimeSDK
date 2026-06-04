@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_0E117AC86D8E5BCA;
-class Class_2_1BB8CA1042AACD99;
+class Class_2_AEE59ED8DADEC1A1;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_2254CBF47061A452_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x17C5D130)
-#define CLASS_1_2254CBF47061A452__CTOR_OFFSET UNITYSDK_OFFSET(0x17C59C40)
+#define CLASS_1_2254CBF47061A452_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x18988320)
+#define CLASS_1_2254CBF47061A452__CTOR_OFFSET UNITYSDK_OFFSET(0x18988380)
 
-inline static constexpr unsigned int Class_1_2254CBF47061A452_TypeDefinitionIndex = 33986;
+inline static constexpr unsigned int Class_1_2254CBF47061A452_TypeDefinitionIndex = 34268;
 
 class Class_1_2254CBF47061A452 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::Class_1_0E117AC86D8E5BCA*, ::System::UInt32>* Field_1_1; // 0x10
-	::System::Collections::Generic::List_1<::Class_2_1BB8CA1042AACD99*>* Field_1_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::Class_1_0E117AC86D8E5BCA*, ::System::UInt32>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_2_AEE59ED8DADEC1A1*>* Field_1_1; // 0x18
 	::System::Int32 Field_1_2; // 0x20
 
 	::System::Void _ctor()

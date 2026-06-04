@@ -5,7 +5,7 @@
 namespace Entitas { template <typename T> class IMatcher_1; }
 namespace RPG::Client::LittleGame { template <typename T> class IChestContext_1; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_21_TypeDefinitionIndex = 38215;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_21_TypeDefinitionIndex = 38972;
 
 class Class_1_534AF681CC2BD5FD_21 : public ::System::Object
 {

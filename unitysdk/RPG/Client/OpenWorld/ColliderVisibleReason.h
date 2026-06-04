@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int ColliderVisibleReason_TypeDefinitionIndex = 68045;
+	inline static constexpr unsigned int ColliderVisibleReason_TypeDefinitionIndex = 69005;
 
 	enum class ColliderVisibleReason : ::System::Int32
 	{

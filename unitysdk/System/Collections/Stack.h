@@ -5,22 +5,22 @@
 namespace System { class Array; }
 namespace System::Collections { class IEnumerator; }
 
-#define SYSTEM_COLLECTIONS_STACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x178A5F90)
-#define SYSTEM_COLLECTIONS_STACK_CLONE_OFFSET UNITYSDK_OFFSET(0x178A5FC0)
-#define SYSTEM_COLLECTIONS_STACK_COPYTO_OFFSET UNITYSDK_OFFSET(0x178A60B0)
-#define SYSTEM_COLLECTIONS_STACK_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x178A6370)
-#define SYSTEM_COLLECTIONS_STACK_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x177FE350)
-#define SYSTEM_COLLECTIONS_STACK_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x178A5F40)
-#define SYSTEM_COLLECTIONS_STACK_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x178A5F50)
-#define SYSTEM_COLLECTIONS_STACK_PEEK_OFFSET UNITYSDK_OFFSET(0x178A6400)
-#define SYSTEM_COLLECTIONS_STACK_POP_OFFSET UNITYSDK_OFFSET(0x178A64A0)
-#define SYSTEM_COLLECTIONS_STACK_PUSH_OFFSET UNITYSDK_OFFSET(0x178A6550)
-#define SYSTEM_COLLECTIONS_STACK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x177FE2C0)
-#define SYSTEM_COLLECTIONS_STACK__CTOR_OFFSET UNITYSDK_OFFSET(0x177FE290)
+#define SYSTEM_COLLECTIONS_STACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1865FC20)
+#define SYSTEM_COLLECTIONS_STACK_CLONE_OFFSET UNITYSDK_OFFSET(0x1865FC50)
+#define SYSTEM_COLLECTIONS_STACK_COPYTO_OFFSET UNITYSDK_OFFSET(0x1865FD40)
+#define SYSTEM_COLLECTIONS_STACK_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1865FFF0)
+#define SYSTEM_COLLECTIONS_STACK_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1865FBC0)
+#define SYSTEM_COLLECTIONS_STACK_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1865FBD0)
+#define SYSTEM_COLLECTIONS_STACK_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x1865FBE0)
+#define SYSTEM_COLLECTIONS_STACK_PEEK_OFFSET UNITYSDK_OFFSET(0x18660080)
+#define SYSTEM_COLLECTIONS_STACK_POP_OFFSET UNITYSDK_OFFSET(0x18660110)
+#define SYSTEM_COLLECTIONS_STACK_PUSH_OFFSET UNITYSDK_OFFSET(0x186601B0)
+#define SYSTEM_COLLECTIONS_STACK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x185B8A40)
+#define SYSTEM_COLLECTIONS_STACK__CTOR_OFFSET UNITYSDK_OFFSET(0x185B8A10)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int Stack_TypeDefinitionIndex = 1493;
+	inline static constexpr unsigned int Stack_TypeDefinitionIndex = 1492;
 
 	class Stack : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace System::Collections
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_STACK__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Int32 initialCapacity)
+		::System::Void _ctor_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_STACK__CTOR_1_OFFSET))(this, initialCapacity);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_STACK__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Count()
@@ -65,9 +65,9 @@ namespace System::Collections
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_STACK_CLONE_OFFSET))(this);
 		}
 
-		::System::Void CopyTo(::System::Array* array, ::System::Int32 index)
+		::System::Void CopyTo(::System::Array* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_STACK_COPYTO_OFFSET))(this, array, index);
+			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_STACK_COPYTO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::IEnumerator* GetEnumerator()
@@ -85,9 +85,9 @@ namespace System::Collections
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_STACK_POP_OFFSET))(this);
 		}
 
-		::System::Void Push(::System::Object* obj)
+		::System::Void Push(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_STACK_PUSH_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_STACK_PUSH_OFFSET))(this, a1);
 		}
 	};
 }

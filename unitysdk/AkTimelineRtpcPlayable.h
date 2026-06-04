@@ -10,14 +10,14 @@ namespace AK::Wwise { class RTPC; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define AKTIMELINERTPCPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1A6681C0)
-#define AKTIMELINERTPCPLAYABLE_GET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1A668190)
-#define AKTIMELINERTPCPLAYABLE_SETUPCLIPDISPLAY_OFFSET UNITYSDK_OFFSET(0x1A668150)
-#define AKTIMELINERTPCPLAYABLE_SET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1A6681A0)
-#define AKTIMELINERTPCPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1A6681B0)
-#define AKTIMELINERTPCPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6683D0)
+#define AKTIMELINERTPCPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B4B3480)
+#define AKTIMELINERTPCPLAYABLE_GET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1B4B3450)
+#define AKTIMELINERTPCPLAYABLE_SETUPCLIPDISPLAY_OFFSET UNITYSDK_OFFSET(0x1B4B3410)
+#define AKTIMELINERTPCPLAYABLE_SET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1B4B3460)
+#define AKTIMELINERTPCPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B4B3470)
+#define AKTIMELINERTPCPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B3620)
 
-inline static constexpr unsigned int AkTimelineRtpcPlayable_TypeDefinitionIndex = 40434;
+inline static constexpr unsigned int AkTimelineRtpcPlayable_TypeDefinitionIndex = 41261;
 
 class AkTimelineRtpcPlayable : public ::UnityEngine::Playables::PlayableAsset
 {
@@ -42,9 +42,9 @@ public:
 		return ((::UnityEngine::Timeline::TimelineClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLE_GET_OWNINGCLIP_OFFSET))(this);
 	}
 
-	::System::Void set_owningClip(::UnityEngine::Timeline::TimelineClip* value)
+	::System::Void set_owningClip(::UnityEngine::Timeline::TimelineClip* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLE_SET_OWNINGCLIP_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLE_SET_OWNINGCLIP_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Timeline::ClipCaps UnityEngine_Timeline_ITimelineClipAsset_get_clipCaps()
@@ -52,8 +52,8 @@ public:
 		return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET))(this);
 	}
 
-	::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* gameObject)
+	::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
 	{
-		return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLE_CREATEPLAYABLE_OFFSET))(this, graph, gameObject);
+		return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLE_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 	}
 };

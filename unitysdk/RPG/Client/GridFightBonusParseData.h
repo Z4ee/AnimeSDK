@@ -10,34 +10,34 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xA45B840)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xA45B9E0)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xA45B9A0)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ORBS_OFFSET UNITYSDK_OFFSET(0xA45B9C0)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ROLES_OFFSET UNITYSDK_OFFSET(0xA45B980)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_PARSE_1_OFFSET UNITYSDK_OFFSET(0xA45B320)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_PARSE_OFFSET UNITYSDK_OFFSET(0xA45A610)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SETALLISDELAY_OFFSET UNITYSDK_OFFSET(0xA45B620)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xA45B9F0)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0xA45B9B0)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ORBS_OFFSET UNITYSDK_OFFSET(0xA45B9D0)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ROLES_OFFSET UNITYSDK_OFFSET(0xA45B990)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA45A500)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA45A3F0)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__PARSEBASICBONUS_OFFSET UNITYSDK_OFFSET(0xA45A6E0)
-#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__PARSECOMBINATIONBONUS_OFFSET UNITYSDK_OFFSET(0xA45B200)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xBAF7EA0)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xBAF8060)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xBAF8020)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ORBS_OFFSET UNITYSDK_OFFSET(0xBAF8040)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ROLES_OFFSET UNITYSDK_OFFSET(0xBAF8000)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_PARSE_1_OFFSET UNITYSDK_OFFSET(0xBAF79B0)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_PARSE_OFFSET UNITYSDK_OFFSET(0xBAF6C40)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SETALLISDELAY_OFFSET UNITYSDK_OFFSET(0xBAF7CB0)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xBAF8070)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0xBAF8030)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ORBS_OFFSET UNITYSDK_OFFSET(0xBAF8050)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ROLES_OFFSET UNITYSDK_OFFSET(0xBAF8010)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xBAF6B20)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBAF6A00)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__PARSEBASICBONUS_OFFSET UNITYSDK_OFFSET(0xBAF6D10)
+#define RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__PARSECOMBINATIONBONUS_OFFSET UNITYSDK_OFFSET(0xBAF78B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBonusParseData_TypeDefinitionIndex = 59277;
+	inline static constexpr unsigned int GridFightBonusParseData_TypeDefinitionIndex = 60212;
 
 	class GridFightBonusParseData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>* _Items_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>* _Roles_k__BackingField; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _ItemCount_k__BackingField; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightOrbData*>* _Orbs_k__BackingField; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _ItemCount_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightOrbData*>* _Orbs_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>* _Items_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>* _Roles_k__BackingField; // 0x28
 		::System::Boolean _IsStatic; // 0x30
 
 		::System::Void _ctor()
@@ -45,34 +45,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Boolean isStatic)
+		::System::Void _ctor_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__CTOR_1_OFFSET))(this, isStatic);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Parse(::System::UInt32 bonusID)
+		::System::Void Parse(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_PARSE_OFFSET))(this, bonusID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_PARSE_OFFSET))(this, a1);
 		}
 
-		::System::Void Parse_1(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* bonusIDs)
+		::System::Void Parse_1(::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_PARSE_1_OFFSET))(this, bonusIDs);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_PARSE_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ParseCombinationBonus(::RPG::GameCore::GridFightCombinationBonusConfigRow* combinationRow)
+		::System::Void _ParseCombinationBonus(::RPG::GameCore::GridFightCombinationBonusConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightCombinationBonusConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__PARSECOMBINATIONBONUS_OFFSET))(this, combinationRow);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightCombinationBonusConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__PARSECOMBINATIONBONUS_OFFSET))(this, a1);
 		}
 
-		::System::Void _ParseBasicBonus(::RPG::GameCore::GridFightBasicBonusConfigRow* basicRow, ::System::UInt32 count)
+		::System::Void _ParseBasicBonus(::RPG::GameCore::GridFightBasicBonusConfigRow* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightBasicBonusConfigRow*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__PARSEBASICBONUS_OFFSET))(this, basicRow, count);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightBasicBonusConfigRow*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA__PARSEBASICBONUS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetAllIsDelay(::System::Boolean isDelay)
+		::System::Void SetAllIsDelay(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SETALLISDELAY_OFFSET))(this, isDelay);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SETALLISDELAY_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -85,9 +85,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ROLES_OFFSET))(this);
 		}
 
-		::System::Void set_Roles(::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>* value)
+		::System::Void set_Roles(::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ROLES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ROLES_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>* get_Items()
@@ -95,9 +95,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ITEMS_OFFSET))(this);
 		}
 
-		::System::Void set_Items(::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>* value)
+		::System::Void set_Items(::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ITEMS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightCommonDetailData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ITEMS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightOrbData*>* get_Orbs()
@@ -105,9 +105,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightOrbData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ORBS_OFFSET))(this);
 		}
 
-		::System::Void set_Orbs(::System::Collections::Generic::List_1<::RPG::Client::GridFightOrbData*>* value)
+		::System::Void set_Orbs(::System::Collections::Generic::List_1<::RPG::Client::GridFightOrbData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightOrbData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ORBS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightOrbData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ORBS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* get_ItemCount()
@@ -115,9 +115,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_GET_ITEMCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_ItemCount(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* value)
+		::System::Void set_ItemCount(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ITEMCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBONUSPARSEDATA_SET_ITEMCOUNT_OFFSET))(this, a1);
 		}
 	};
 }

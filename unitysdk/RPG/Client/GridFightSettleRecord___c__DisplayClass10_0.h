@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightNPC; }
 
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA58DF70)
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS10_0__GETNPCBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xA58DF80)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBFAD00)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS10_0__GETNPCBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xBBFD6A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass10_0_TypeDefinitionIndex = 60035;
+	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass10_0_TypeDefinitionIndex = 60970;
 
 	class GridFightSettleRecord___c__DisplayClass10_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS10_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetNPCByUID_b__0(::RPG::Client::GridFightNPC* npc)
+		::System::Boolean _GetNPCByUID_b__0(::RPG::Client::GridFightNPC* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS10_0__GETNPCBYUID_B__0_OFFSET))(this, npc);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS10_0__GETNPCBYUID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FilterEffectType_TypeDefinitionIndex = 22066;
+	inline static constexpr unsigned int FilterEffectType_TypeDefinitionIndex = 23339;
 
 	enum class FilterEffectType : ::System::Int32
 	{

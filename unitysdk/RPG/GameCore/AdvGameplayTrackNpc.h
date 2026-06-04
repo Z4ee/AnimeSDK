@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TrackNpcZoneConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_METHOD_3_95A7F496BDEA20FF_OFFSET UNITYSDK_OFFSET(0x18652230)
-#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_METHOD_3_E5DBEA3E7D5F0AF4_OFFSET UNITYSDK_OFFSET(0x18652080)
-#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x186520C0)
+#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_METHOD_3_3890B36F889C654E_OFFSET UNITYSDK_OFFSET(0x19425850)
+#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_METHOD_3_4412A590264E8774_OFFSET UNITYSDK_OFFSET(0x19425A00)
+#define RPG_GAMECORE_ADVGAMEPLAYTRACKNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x19425890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvGameplayTrackNpc_TypeDefinitionIndex = 21052;
+	inline static constexpr unsigned int AdvGameplayTrackNpc_TypeDefinitionIndex = 20960;
 
 	class AdvGameplayTrackNpc : public ::RPG::GameCore::TaskConfig
 	{
@@ -46,14 +46,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGAMEPLAYTRACKNPC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E5DBEA3E7D5F0AF4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvGameplayTrackNpc*& a2)
+		static ::System::Void Method_3_3890B36F889C654E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvGameplayTrackNpc*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvGameplayTrackNpc*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_METHOD_3_E5DBEA3E7D5F0AF4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvGameplayTrackNpc*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_METHOD_3_3890B36F889C654E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_95A7F496BDEA20FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvGameplayTrackNpc* a2)
+		static ::System::Void Method_3_4412A590264E8774(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvGameplayTrackNpc* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvGameplayTrackNpc*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_METHOD_3_95A7F496BDEA20FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvGameplayTrackNpc*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGAMEPLAYTRACKNPC_METHOD_3_4412A590264E8774_OFFSET))(a1, a2);
 		}
 	};
 }

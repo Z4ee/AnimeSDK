@@ -12,41 +12,41 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_1_OFFSET UNITYSDK_OFFSET(0x22DECA0)
-#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_2_OFFSET UNITYSDK_OFFSET(0x22DECD0)
-#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_OFFSET UNITYSDK_OFFSET(0x22DEC60)
-#define TMPRO_TMP_MESHINFO_CLEAR_1_OFFSET UNITYSDK_OFFSET(0x22DEC50)
-#define TMPRO_TMP_MESHINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x22DEAD0)
-#define TMPRO_TMP_MESHINFO_RESIZEMESHINFO_1_OFFSET UNITYSDK_OFFSET(0x22DEAC0)
-#define TMPRO_TMP_MESHINFO_RESIZEMESHINFO_OFFSET UNITYSDK_OFFSET(0x22DEAB0)
-#define TMPRO_TMP_MESHINFO_SORTGEOMETRY_1_OFFSET UNITYSDK_OFFSET(0x22DEEC0)
-#define TMPRO_TMP_MESHINFO_SORTGEOMETRY_OFFSET UNITYSDK_OFFSET(0x22DEE50)
-#define TMPRO_TMP_MESHINFO_SWAPVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x22DEED0)
-#define TMPRO_TMP_MESHINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3789D0)
-#define TMPRO_TMP_MESHINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x22DEAA0)
-#define TMPRO_TMP_MESHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x22DEA90)
+#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_1_OFFSET UNITYSDK_OFFSET(0x387AF20)
+#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_2_OFFSET UNITYSDK_OFFSET(0x387AF50)
+#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_OFFSET UNITYSDK_OFFSET(0x387AEE0)
+#define TMPRO_TMP_MESHINFO_CLEAR_1_OFFSET UNITYSDK_OFFSET(0x387AED0)
+#define TMPRO_TMP_MESHINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x387AD50)
+#define TMPRO_TMP_MESHINFO_RESIZEMESHINFO_1_OFFSET UNITYSDK_OFFSET(0x387AD40)
+#define TMPRO_TMP_MESHINFO_RESIZEMESHINFO_OFFSET UNITYSDK_OFFSET(0x387AD30)
+#define TMPRO_TMP_MESHINFO_SORTGEOMETRY_1_OFFSET UNITYSDK_OFFSET(0x387B140)
+#define TMPRO_TMP_MESHINFO_SORTGEOMETRY_OFFSET UNITYSDK_OFFSET(0x387B0D0)
+#define TMPRO_TMP_MESHINFO_SWAPVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x387B150)
+#define TMPRO_TMP_MESHINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1D1FF0)
+#define TMPRO_TMP_MESHINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x387AD20)
+#define TMPRO_TMP_MESHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x387AD10)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_MeshInfo_TypeDefinitionIndex = 40175;
+	inline static constexpr unsigned int TMP_MeshInfo_TypeDefinitionIndex = 41002;
 
 	struct alignas(8) TMP_MeshInfo
 	{
-		static ::UnityEngine::Color32* StaticGet_s_DefaultColor()
-		{
-			return (::UnityEngine::Color32*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0xC460);
-		}
 		static ::UnityEngine::Vector4* StaticGet_s_DefaultTangent()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0xC464);
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0x11AA0);
 		}
 		static ::UnityEngine::Bounds* StaticGet_s_DefaultBounds()
 		{
-			return (::UnityEngine::Bounds*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0xC474);
+			return (::UnityEngine::Bounds*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0x11AB0);
 		}
 		static ::UnityEngine::Vector3* StaticGet_s_DefaultNormal()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0xC48C);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0x11AC8);
+		}
+		static ::UnityEngine::Color32* StaticGet_s_DefaultColor()
+		{
+			return (::UnityEngine::Color32*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0x11AD4);
 		}
 		::UnityEngine::Mesh* mesh; // 0x10
 		::System::Int32 vertexCount; // 0x18
@@ -59,14 +59,14 @@ namespace TMPro
 		::Il2CppArray<::System::Int32>* triangles; // 0x50
 		::UnityEngine::Material* material; // 0x58
 
-		::System::Void _ctor(::UnityEngine::Mesh* mesh, ::System::Int32 size)
+		::System::Void _ctor(::UnityEngine::Mesh* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO__CTOR_OFFSET))(this, mesh, size);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::Mesh* mesh, ::System::Int32 size, ::System::Boolean isVolumetric)
+		::System::Void _ctor_1(::UnityEngine::Mesh* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO__CTOR_1_OFFSET))(this, mesh, size, isVolumetric);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
@@ -74,14 +74,14 @@ namespace TMPro
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO__CCTOR_OFFSET))();
 		}
 
-		::System::Void ResizeMeshInfo(::System::Int32 size)
+		::System::Void ResizeMeshInfo(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_RESIZEMESHINFO_OFFSET))(this, size);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_RESIZEMESHINFO_OFFSET))(this, a1);
 		}
 
-		::System::Void ResizeMeshInfo_1(::System::Int32 size, ::System::Boolean isVolumetric)
+		::System::Void ResizeMeshInfo_1(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_RESIZEMESHINFO_1_OFFSET))(this, size, isVolumetric);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_RESIZEMESHINFO_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()
@@ -89,9 +89,9 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void Clear_1(::System::Boolean uploadChanges)
+		::System::Void Clear_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_CLEAR_1_OFFSET))(this, uploadChanges);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_CLEAR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearUnusedVertices()
@@ -99,29 +99,29 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_OFFSET))(this);
 		}
 
-		::System::Void ClearUnusedVertices_1(::System::Int32 startIndex)
+		::System::Void ClearUnusedVertices_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_1_OFFSET))(this, startIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_1_OFFSET))(this, a1);
 		}
 
-		::System::Void ClearUnusedVertices_2(::System::Int32 startIndex, ::System::Boolean updateMesh)
+		::System::Void ClearUnusedVertices_2(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_2_OFFSET))(this, startIndex, updateMesh);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SortGeometry(::TMPro::VertexSortingOrder order)
+		::System::Void SortGeometry(::TMPro::VertexSortingOrder a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TMPro::VertexSortingOrder))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_SORTGEOMETRY_OFFSET))(this, order);
+			return ((::System::Void(*)(::PVOID, ::TMPro::VertexSortingOrder))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_SORTGEOMETRY_OFFSET))(this, a1);
 		}
 
-		::System::Void SortGeometry_1(::System::Collections::Generic::IList_1<::System::Int32>* sortingOrder)
+		::System::Void SortGeometry_1(::System::Collections::Generic::IList_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_SORTGEOMETRY_1_OFFSET))(this, sortingOrder);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_SORTGEOMETRY_1_OFFSET))(this, a1);
 		}
 
-		::System::Void SwapVertexData(::System::Int32 src, ::System::Int32 dst)
+		::System::Void SwapVertexData(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_SWAPVERTEXDATA_OFFSET))(this, src, dst);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_TMP_MESHINFO_SWAPVERTEXDATA_OFFSET))(this, a1, a2);
 		}
 	};
 }

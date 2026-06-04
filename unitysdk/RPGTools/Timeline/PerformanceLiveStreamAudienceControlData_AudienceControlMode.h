@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PerformanceLiveStreamAudienceControlData_AudienceControlMode_TypeDefinitionIndex = 44907;
+	inline static constexpr unsigned int PerformanceLiveStreamAudienceControlData_AudienceControlMode_TypeDefinitionIndex = 45455;
 
 	enum class PerformanceLiveStreamAudienceControlData_AudienceControlMode : ::System::Int32
 	{

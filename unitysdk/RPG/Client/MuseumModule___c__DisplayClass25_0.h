@@ -7,27 +7,27 @@ namespace RPG::Client { class MuseumModule; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAB0C760)
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS25_0___REFRESHFORCEMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xAB0C770)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC20F0B0)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS25_0___REFRESHFORCEMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC219620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumModule___c__DisplayClass25_0_TypeDefinitionIndex = 61105;
+	inline static constexpr unsigned int MuseumModule___c__DisplayClass25_0_TypeDefinitionIndex = 62029;
 
 	class MuseumModule___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MuseumModule* __4__this; // 0x10
-		::RPG::Client::Promises::Promise* promise; // 0x18
+		::RPG::Client::Promises::Promise* promise; // 0x10
+		::RPG::Client::MuseumModule* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __RefreshForceMissionData_b__0(::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>* dataList)
+		::System::Void __RefreshForceMissionData_b__0(::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS25_0___REFRESHFORCEMISSIONDATA_B__0_OFFSET))(this, dataList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS25_0___REFRESHFORCEMISSIONDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

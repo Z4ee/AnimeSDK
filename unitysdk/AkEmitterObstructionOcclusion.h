@@ -7,12 +7,12 @@ class AkAudioListener;
 class AkGameObj;
 class AkObstructionOcclusion_ObstructionOcclusionValue;
 
-#define AKEMITTEROBSTRUCTIONOCCLUSION_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A5E5100)
-#define AKEMITTEROBSTRUCTIONOCCLUSION_SETOBSTRUCTIONOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1A5E54A0)
-#define AKEMITTEROBSTRUCTIONOCCLUSION_UPDATECURRENTLISTENERLIST_OFFSET UNITYSDK_OFFSET(0x1A5E5200)
-#define AKEMITTEROBSTRUCTIONOCCLUSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5E5620)
+#define AKEMITTEROBSTRUCTIONOCCLUSION_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B42EF60)
+#define AKEMITTEROBSTRUCTIONOCCLUSION_SETOBSTRUCTIONOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1B42F360)
+#define AKEMITTEROBSTRUCTIONOCCLUSION_UPDATECURRENTLISTENERLIST_OFFSET UNITYSDK_OFFSET(0x1B42F060)
+#define AKEMITTEROBSTRUCTIONOCCLUSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B42F4E0)
 
-inline static constexpr unsigned int AkEmitterObstructionOcclusion_TypeDefinitionIndex = 40471;
+inline static constexpr unsigned int AkEmitterObstructionOcclusion_TypeDefinitionIndex = 41298;
 
 class AkEmitterObstructionOcclusion : public ::AkObstructionOcclusion
 {
@@ -34,8 +34,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKEMITTEROBSTRUCTIONOCCLUSION_UPDATECURRENTLISTENERLIST_OFFSET))(this);
 	}
 
-	::System::Void SetObstructionOcclusion(::System::Collections::Generic::KeyValuePair_2<::AkAudioListener*, ::AkObstructionOcclusion_ObstructionOcclusionValue*> ObsOccPair)
+	::System::Void SetObstructionOcclusion(::System::Collections::Generic::KeyValuePair_2<::AkAudioListener*, ::AkObstructionOcclusion_ObstructionOcclusionValue*> a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::AkAudioListener*, ::AkObstructionOcclusion_ObstructionOcclusionValue*>))((::PBYTE)hIl2Cpp + AKEMITTEROBSTRUCTIONOCCLUSION_SETOBSTRUCTIONOCCLUSION_OFFSET))(this, ObsOccPair);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::AkAudioListener*, ::AkObstructionOcclusion_ObstructionOcclusionValue*>))((::PBYTE)hIl2Cpp + AKEMITTEROBSTRUCTIONOCCLUSION_SETOBSTRUCTIONOCCLUSION_OFFSET))(this, a1);
 	}
 };

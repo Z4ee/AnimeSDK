@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_SELECTORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16246C0)
+#define CRIWARE_CRIATOMEXACF_SELECTORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD4890)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_SelectorInfo_TypeDefinitionIndex = 36781;
+	inline static constexpr unsigned int CriAtomExAcf_SelectorInfo_TypeDefinitionIndex = 37081;
 
 	struct alignas(8) CriAtomExAcf_SelectorInfo
 	{
@@ -17,9 +17,9 @@ namespace CriWare
 		::System::UInt16 numLabels; // 0x1A
 		::System::UInt16 globalLabelIndex; // 0x1C
 
-		::System::Void _ctor(::Il2CppArray<::System::Byte>* data, ::System::Int32 startIndex)
+		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_SELECTORINFO__CTOR_OFFSET))(this, data, startIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_SELECTORINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

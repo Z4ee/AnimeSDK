@@ -7,16 +7,16 @@ namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_GET_GLOBALPROPERTYHASHSET_OFFSET UNITYSDK_OFFSET(0x1A672550)
-#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_IGNOREPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1A671CB0)
-#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_ISPROPERTYIGNORED_OFFSET UNITYSDK_OFFSET(0x1A671DB0)
-#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_ISUSINGGLOBALPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1A6724C0)
-#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SETGLOBALPROPERTYVALUES_OFFSET UNITYSDK_OFFSET(0x1A671F70)
-#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SETUSEGLOBALPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1A671E40)
-#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SET_GLOBALPROPERTYHASHSET_OFFSET UNITYSDK_OFFSET(0x1A672650)
-#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A66EF40)
+#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_GET_GLOBALPROPERTYHASHSET_OFFSET UNITYSDK_OFFSET(0x1B4BD720)
+#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_IGNOREPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1B4BCB90)
+#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_ISPROPERTYIGNORED_OFFSET UNITYSDK_OFFSET(0x1B4BCD40)
+#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_ISUSINGGLOBALPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1B4BD640)
+#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SETGLOBALPROPERTYVALUES_OFFSET UNITYSDK_OFFSET(0x1B4BD010)
+#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SETUSEGLOBALPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1B4BCE20)
+#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SET_GLOBALPROPERTYHASHSET_OFFSET UNITYSDK_OFFSET(0x1B4BD820)
+#define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4BA0C0)
 
-inline static constexpr unsigned int AkWwiseInitializationSettings_PlatformSettings_TypeDefinitionIndex = 40413;
+inline static constexpr unsigned int AkWwiseInitializationSettings_PlatformSettings_TypeDefinitionIndex = 41240;
 
 class AkWwiseInitializationSettings_PlatformSettings : public ::AkCommonPlatformSettings
 {
@@ -30,29 +30,29 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS__CTOR_OFFSET))(this);
 	}
 
-	::System::Void IgnorePropertyValue(::System::String* propertyPath)
+	::System::Void IgnorePropertyValue(::System::String* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_IGNOREPROPERTYVALUE_OFFSET))(this, propertyPath);
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_IGNOREPROPERTYVALUE_OFFSET))(this, a1);
 	}
 
-	::System::Boolean IsPropertyIgnored(::System::String* propertyPath)
+	::System::Boolean IsPropertyIgnored(::System::String* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_ISPROPERTYIGNORED_OFFSET))(this, propertyPath);
+		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_ISPROPERTYIGNORED_OFFSET))(this, a1);
 	}
 
-	::System::Void SetUseGlobalPropertyValue(::System::String* propertyPath, ::System::Boolean use)
+	::System::Void SetUseGlobalPropertyValue(::System::String* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SETUSEGLOBALPROPERTYVALUE_OFFSET))(this, propertyPath, use);
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SETUSEGLOBALPROPERTYVALUE_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void SetGlobalPropertyValues(::System::Collections::IEnumerable* enumerable)
+	::System::Void SetGlobalPropertyValues(::System::Collections::IEnumerable* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::IEnumerable*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SETGLOBALPROPERTYVALUES_OFFSET))(this, enumerable);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::IEnumerable*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SETGLOBALPROPERTYVALUES_OFFSET))(this, a1);
 	}
 
-	::System::Boolean IsUsingGlobalPropertyValue(::System::String* propertyPath)
+	::System::Boolean IsUsingGlobalPropertyValue(::System::String* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_ISUSINGGLOBALPROPERTYVALUE_OFFSET))(this, propertyPath);
+		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_ISUSINGGLOBALPROPERTYVALUE_OFFSET))(this, a1);
 	}
 
 	::System::Collections::Generic::HashSet_1<::System::String*>* get_GlobalPropertyHashSet()
@@ -60,8 +60,8 @@ public:
 		return ((::System::Collections::Generic::HashSet_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_GET_GLOBALPROPERTYHASHSET_OFFSET))(this);
 	}
 
-	::System::Void set_GlobalPropertyHashSet(::System::Collections::Generic::HashSet_1<::System::String*>* value)
+	::System::Void set_GlobalPropertyHashSet(::System::Collections::Generic::HashSet_1<::System::String*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::String*>*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SET_GLOBALPROPERTYHASHSET_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::String*>*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SET_GLOBALPROPERTYHASHSET_OFFSET))(this, a1);
 	}
 };

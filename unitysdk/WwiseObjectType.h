@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int WwiseObjectType_TypeDefinitionIndex = 40442;
+inline static constexpr unsigned int WwiseObjectType_TypeDefinitionIndex = 41269;
 
 enum class WwiseObjectType : ::System::Int32
 {

@@ -6,15 +6,15 @@ namespace AK::Wwise { class BaseType; }
 namespace AK::Wwise { class State; }
 namespace UnityEngine { class GameObject; }
 
-#define AKSTATE_GET_GROUPGUID_OFFSET UNITYSDK_OFFSET(0x1A65DFD0)
-#define AKSTATE_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1A65DE10)
-#define AKSTATE_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1A65DE70)
-#define AKSTATE_GET_VALUEID_OFFSET UNITYSDK_OFFSET(0x1A65DD90)
-#define AKSTATE_GET_WWISETYPE_OFFSET UNITYSDK_OFFSET(0x1A65DBA0)
-#define AKSTATE_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1A65DD30)
-#define AKSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A65E130)
+#define AKSTATE_GET_GROUPGUID_OFFSET UNITYSDK_OFFSET(0x1B4A9600)
+#define AKSTATE_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1B4A9440)
+#define AKSTATE_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1B4A94A0)
+#define AKSTATE_GET_VALUEID_OFFSET UNITYSDK_OFFSET(0x1B4A93C0)
+#define AKSTATE_GET_WWISETYPE_OFFSET UNITYSDK_OFFSET(0x1B4A9160)
+#define AKSTATE_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1B4A9360)
+#define AKSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A9760)
 
-inline static constexpr unsigned int AkState_TypeDefinitionIndex = 40510;
+inline static constexpr unsigned int AkState_TypeDefinitionIndex = 41337;
 
 class AkState : public ::AkDragDropTriggerHandler
 {
@@ -35,9 +35,9 @@ public:
 		return ((::AK::Wwise::BaseType*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSTATE_GET_WWISETYPE_OFFSET))(this);
 	}
 
-	::System::Void HandleEvent(::UnityEngine::GameObject* in_gameObject)
+	::System::Void HandleEvent(::UnityEngine::GameObject* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKSTATE_HANDLEEVENT_OFFSET))(this, in_gameObject);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKSTATE_HANDLEEVENT_OFFSET))(this, a1);
 	}
 
 	::System::Int32 get_valueID()

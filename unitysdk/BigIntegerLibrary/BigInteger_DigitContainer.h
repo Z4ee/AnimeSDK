@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A72EB90)
-#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A72E830)
-#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A72E7F0)
+#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B52FDA0)
+#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B52FA90)
+#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52FA50)
 
 namespace BigIntegerLibrary
 {
-	inline static constexpr unsigned int BigInteger_DigitContainer_TypeDefinitionIndex = 6069;
+	inline static constexpr unsigned int BigInteger_DigitContainer_TypeDefinitionIndex = 6442;
 
 	class BigInteger_DigitContainer : public ::System::Object
 	{
@@ -20,14 +20,14 @@ namespace BigIntegerLibrary
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER__CTOR_OFFSET))(this);
 		}
 
-		::System::Int64 get_Item(::System::Int32 index)
+		::System::Int64 get_Item(::System::Int32 a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_GET_ITEM_OFFSET))(this, index);
+			return ((::System::Int64(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::Int32 index, ::System::Int64 value)
+		::System::Void set_Item(::System::Int32 a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_SET_ITEM_OFFSET))(this, index, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 	};
 }

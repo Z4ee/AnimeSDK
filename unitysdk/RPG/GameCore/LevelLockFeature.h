@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELLOCKFEATURE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18A47FA0)
-#define RPG_GAMECORE_LEVELLOCKFEATURE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A47F20)
-#define RPG_GAMECORE_LEVELLOCKFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A47F70)
+#define RPG_GAMECORE_LEVELLOCKFEATURE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19879630)
+#define RPG_GAMECORE_LEVELLOCKFEATURE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198795B0)
+#define RPG_GAMECORE_LEVELLOCKFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x19879600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLockFeature_TypeDefinitionIndex = 22368;
+	inline static constexpr unsigned int LevelLockFeature_TypeDefinitionIndex = 22124;
 
 	class LevelLockFeature : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLOCKFEATURE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelLockFeature*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelLockFeature*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelLockFeature*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLOCKFEATURE_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelLockFeature*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLOCKFEATURE_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelLockFeature* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelLockFeature* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelLockFeature*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLOCKFEATURE_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelLockFeature*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLOCKFEATURE_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

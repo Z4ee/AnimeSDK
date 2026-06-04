@@ -5,11 +5,11 @@
 namespace RPG::Client { class EditorAssetHash2BundleIndexItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EDITORASSETHASH2BUNDLEINDEXITEMWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x17B83E20)
+#define RPG_CLIENT_EDITORASSETHASH2BUNDLEINDEXITEMWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x18931DC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EditorAssetHash2BundleIndexItemWrap_TypeDefinitionIndex = 37735;
+	inline static constexpr unsigned int EditorAssetHash2BundleIndexItemWrap_TypeDefinitionIndex = 38469;
 
 	class EditorAssetHash2BundleIndexItemWrap : public ::System::Object
 	{

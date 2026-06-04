@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_GAMECORE_SHOWGUIDETEXTFOLLOW3D_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18E61F20)
-#define RPG_GAMECORE_SHOWGUIDETEXTFOLLOW3D_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E61E50)
-#define RPG_GAMECORE_SHOWGUIDETEXTFOLLOW3D__CTOR_OFFSET UNITYSDK_OFFSET(0x18E61ED0)
+#define RPG_GAMECORE_SHOWGUIDETEXTFOLLOW3D_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19C7E050)
+#define RPG_GAMECORE_SHOWGUIDETEXTFOLLOW3D_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C7DF80)
+#define RPG_GAMECORE_SHOWGUIDETEXTFOLLOW3D__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7E000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideTextFollow3D_TypeDefinitionIndex = 23354;
+	inline static constexpr unsigned int ShowGuideTextFollow3D_TypeDefinitionIndex = 23012;
 
 	class ShowGuideTextFollow3D : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,14 +37,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETEXTFOLLOW3D__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ShowGuideTextFollow3D*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideTextFollow3D*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideTextFollow3D*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETEXTFOLLOW3D_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideTextFollow3D*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETEXTFOLLOW3D_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ShowGuideTextFollow3D* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideTextFollow3D* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideTextFollow3D*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETEXTFOLLOW3D_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideTextFollow3D*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDETEXTFOLLOW3D_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

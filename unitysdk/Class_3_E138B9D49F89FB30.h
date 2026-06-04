@@ -6,10 +6,10 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_ElfByIsCustomerState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E138B9D49F89FB30_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12B178F0)
-#define CLASS_3_E138B9D49F89FB30__CTOR_OFFSET UNITYSDK_OFFSET(0x12B17870)
+#define CLASS_3_E138B9D49F89FB30_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC45E410)
+#define CLASS_3_E138B9D49F89FB30__CTOR_OFFSET UNITYSDK_OFFSET(0xC45E390)
 
-inline static constexpr unsigned int Class_3_E138B9D49F89FB30_TypeDefinitionIndex = 48138;
+inline static constexpr unsigned int Class_3_E138B9D49F89FB30_TypeDefinitionIndex = 48762;
 
 class Class_3_E138B9D49F89FB30 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ElfByIsCustomerState*>
 {

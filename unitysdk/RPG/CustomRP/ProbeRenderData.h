@@ -7,13 +7,13 @@
 namespace RPG::CustomRP { class CRPProbe; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CUSTOMRP_PROBERENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x22B9760)
-#define RPG_CUSTOMRP_PROBERENDERDATA_SETBASEDATA_OFFSET UNITYSDK_OFFSET(0x22B97A0)
-#define RPG_CUSTOMRP_PROBERENDERDATA_SET_OFFSET UNITYSDK_OFFSET(0x22B9790)
+#define RPG_CUSTOMRP_PROBERENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x384A800)
+#define RPG_CUSTOMRP_PROBERENDERDATA_SETBASEDATA_OFFSET UNITYSDK_OFFSET(0x384A840)
+#define RPG_CUSTOMRP_PROBERENDERDATA_SET_OFFSET UNITYSDK_OFFSET(0x384A830)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ProbeRenderData_TypeDefinitionIndex = 35068;
+	inline static constexpr unsigned int ProbeRenderData_TypeDefinitionIndex = 35354;
 
 	struct alignas(8) ProbeRenderData
 	{
@@ -31,14 +31,14 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PROBERENDERDATA_RESET_OFFSET))(this);
 		}
 
-		::System::Void Set(::RPG::CustomRP::CRPProbe* probe)
+		::System::Void Set(::RPG::CustomRP::CRPProbe* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPProbe*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PROBERENDERDATA_SET_OFFSET))(this, probe);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPProbe*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PROBERENDERDATA_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetBaseData(::RPG::CustomRP::CRPProbe* probe)
+		::System::Void SetBaseData(::RPG::CustomRP::CRPProbe* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPProbe*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PROBERENDERDATA_SETBASEDATA_OFFSET))(this, probe);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPProbe*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PROBERENDERDATA_SETBASEDATA_OFFSET))(this, a1);
 		}
 	};
 }

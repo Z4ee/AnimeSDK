@@ -6,21 +6,21 @@ namespace Newtonsoft::Json::Converters { class IXmlNode; }
 namespace System { class String; }
 namespace System::Xml::Linq { class XText; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_XTEXTWRAPPER_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x17A609F0)
-#define NEWTONSOFT_JSON_CONVERTERS_XTEXTWRAPPER_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x17A60910)
-#define NEWTONSOFT_JSON_CONVERTERS_XTEXTWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x17A60980)
-#define NEWTONSOFT_JSON_CONVERTERS_XTEXTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A5E3A0)
+#define NEWTONSOFT_JSON_CONVERTERS_XTEXTWRAPPER_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x1880F850)
+#define NEWTONSOFT_JSON_CONVERTERS_XTEXTWRAPPER_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1880F760)
+#define NEWTONSOFT_JSON_CONVERTERS_XTEXTWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1880F7D0)
+#define NEWTONSOFT_JSON_CONVERTERS_XTEXTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1880D170)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int XTextWrapper_TypeDefinitionIndex = 8586;
+	inline static constexpr unsigned int XTextWrapper_TypeDefinitionIndex = 9489;
 
 	class XTextWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper
 	{
 	public:
-		::System::Void _ctor(::System::Xml::Linq::XText* text)
+		::System::Void _ctor(::System::Xml::Linq::XText* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XText*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XTEXTWRAPPER__CTOR_OFFSET))(this, text);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XText*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XTEXTWRAPPER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Linq::XText* get_Text()

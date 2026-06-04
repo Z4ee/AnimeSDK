@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class Cubemap; }
 
-#define UNITYENGINE_RENDERING_NOINTERPCUBEMAPPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A321E60)
+#define UNITYENGINE_RENDERING_NOINTERPCUBEMAPPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17C780)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpCubemapParameter_TypeDefinitionIndex = 33567;
+	inline static constexpr unsigned int NoInterpCubemapParameter_TypeDefinitionIndex = 33849;
 
 	class NoInterpCubemapParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Cubemap*>
 	{
 	public:
-		::System::Void _ctor(::UnityEngine::Cubemap* value, ::System::Boolean overrideState)
+		::System::Void _ctor(::UnityEngine::Cubemap* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Cubemap*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPCUBEMAPPARAMETER__CTOR_OFFSET))(this, value, overrideState);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Cubemap*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_NOINTERPCUBEMAPPARAMETER__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -4,9 +4,9 @@
 
 namespace Mono::Globalization::Unicode { class Contraction; }
 
-#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x177913E0)
-#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x177914D0)
-#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x177914C0)
+#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1854BE90)
+#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1854BF60)
+#define MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1854BF50)
 
 namespace Mono::Globalization::Unicode
 {
@@ -17,7 +17,7 @@ namespace Mono::Globalization::Unicode
 	public:
 		static ::Mono::Globalization::Unicode::ContractionComparer** StaticGet_Instance()
 		{
-			return (::Mono::Globalization::Unicode::ContractionComparer**)Il2CppClass::FromTypeDefinitionIndex(ContractionComparer_TypeDefinitionIndex)->GetStaticField(0x1A40);
+			return (::Mono::Globalization::Unicode::ContractionComparer**)Il2CppClass::FromTypeDefinitionIndex(ContractionComparer_TypeDefinitionIndex)->GetStaticField(0x1D90);
 		}
 
 		::System::Void _ctor()
@@ -30,9 +30,9 @@ namespace Mono::Globalization::Unicode
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER__CCTOR_OFFSET))();
 		}
 
-		::System::Int32 Compare(::Mono::Globalization::Unicode::Contraction* c1, ::Mono::Globalization::Unicode::Contraction* c2)
+		::System::Int32 Compare(::Mono::Globalization::Unicode::Contraction* a1, ::Mono::Globalization::Unicode::Contraction* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Mono::Globalization::Unicode::Contraction*, ::Mono::Globalization::Unicode::Contraction*))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_COMPARE_OFFSET))(this, c1, c2);
+			return ((::System::Int32(*)(::PVOID, ::Mono::Globalization::Unicode::Contraction*, ::Mono::Globalization::Unicode::Contraction*))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_CONTRACTIONCOMPARER_COMPARE_OFFSET))(this, a1, a2);
 		}
 	};
 }

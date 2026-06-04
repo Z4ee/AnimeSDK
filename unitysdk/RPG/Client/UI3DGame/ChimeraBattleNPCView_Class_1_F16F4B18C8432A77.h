@@ -6,24 +6,24 @@
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CLASS_1_F16F4B18C8432A77_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xB3AE730)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CLASS_1_F16F4B18C8432A77_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB3AE9B0)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CLASS_1_F16F4B18C8432A77__CCTOR_OFFSET UNITYSDK_OFFSET(0xB3AEA00)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CLASS_1_F16F4B18C8432A77__CTOR_OFFSET UNITYSDK_OFFSET(0xB3AE3C0)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CLASS_1_F16F4B18C8432A77_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xCB0E610)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CLASS_1_F16F4B18C8432A77_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xCB0E870)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CLASS_1_F16F4B18C8432A77__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB0E8C0)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW_CLASS_1_F16F4B18C8432A77__CTOR_OFFSET UNITYSDK_OFFSET(0xCB0E2A0)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int ChimeraBattleNPCView_Class_1_F16F4B18C8432A77_TypeDefinitionIndex = 69716;
+	inline static constexpr unsigned int ChimeraBattleNPCView_Class_1_F16F4B18C8432A77_TypeDefinitionIndex = 70528;
 
 	class ChimeraBattleNPCView_Class_1_F16F4B18C8432A77 : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_1_2()
+		static ::System::Int32* StaticGet_Field_1_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleNPCView_Class_1_F16F4B18C8432A77_TypeDefinitionIndex)->GetStaticField(0xAA20);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleNPCView_Class_1_F16F4B18C8432A77_TypeDefinitionIndex)->GetStaticField(0x11FA0);
 		}
-		::UnityEngine::Transform* Field_1_0; // 0x10
-		::UnityEngine::Animator* Field_1_1; // 0x18
+		::UnityEngine::Transform* Field_1_1; // 0x10
+		::UnityEngine::Animator* Field_1_2; // 0x18
 		::UnityEngine::Vector3 Field_1_3; // 0x20
 
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::Animator* a2)

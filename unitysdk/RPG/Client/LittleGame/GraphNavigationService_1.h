@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_44B8EC842F459D62;
+class Class_1_D8F4AFFB45264B6D;
 namespace RPG::Client::LittleGame { template <typename T> class NavigationRequest_1; }
 namespace RPG::GameCore { class LittleGameEntityConfig; }
 namespace RPG::GameCore { class LittleGameWayPointGraphConfig; }
@@ -17,7 +17,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int GraphNavigationService_1_TypeDefinitionIndex = 70274;
+	inline static constexpr unsigned int GraphNavigationService_1_TypeDefinitionIndex = 71087;
 
 	template <typename TEntity>
 	class GraphNavigationService_1 : public ::System::Object
@@ -37,7 +37,7 @@ namespace RPG::Client::LittleGame
 		::RPG::GameCore::LittleGameWayPointGraphConfig* _WayPointConfig; // 0x0
 		::Il2CppArray<::System::Single>* _Graph; // 0x0
 		::System::Int32 _GraphLength; // 0x0
-		::Class_1_44B8EC842F459D62* _Dijkstra; // 0x0
+		::Class_1_D8F4AFFB45264B6D* _Dijkstra; // 0x0
 		::System::Collections::Generic::List_1<TEntity>* _NavAgents; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::LittleGame::NavigationRequest_1<TEntity>*>* _NavRequests; // 0x0
 	};

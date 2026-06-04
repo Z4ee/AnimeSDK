@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HideFlags_TypeDefinitionIndex = 4168;
+	inline static constexpr unsigned int HideFlags_TypeDefinitionIndex = 4342;
 
 	enum class HideFlags : ::System::Int32
 	{

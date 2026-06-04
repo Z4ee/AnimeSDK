@@ -6,27 +6,27 @@ namespace MiHoYo::SDK::PluginUI { class IPluginUIService; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175FC750)
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE___C__DISPLAYCLASS5_0__TRYGETELEMENTACTION_B__0_OFFSET UNITYSDK_OFFSET(0x175FCA70)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183D50C0)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE___C__DISPLAYCLASS5_0__TRYGETELEMENTACTION_B__0_OFFSET UNITYSDK_OFFSET(0x183D5410)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int IPluginUIService___c__DisplayClass5_0_TypeDefinitionIndex = 7906;
+	inline static constexpr unsigned int IPluginUIService___c__DisplayClass5_0_TypeDefinitionIndex = 8809;
 
 	class IPluginUIService___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PluginUI::IPluginUIService* __4__this; // 0x10
-		::System::String* strElementID; // 0x18
+		::System::String* strElementID; // 0x10
+		::MiHoYo::SDK::PluginUI::IPluginUIService* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _TryGetElementAction_b__0(::System::String* strArgs, ::System::Action_1<::System::String*>* callback)
+		::System::Void _TryGetElementAction_b__0(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE___C__DISPLAYCLASS5_0__TRYGETELEMENTACTION_B__0_OFFSET))(this, strArgs, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE___C__DISPLAYCLASS5_0__TRYGETELEMENTACTION_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

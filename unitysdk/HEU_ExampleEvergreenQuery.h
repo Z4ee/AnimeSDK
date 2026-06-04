@@ -11,18 +11,18 @@ namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 namespace UnityEngine { class GameObject; }
 
-#define HEU_EXAMPLEEVERGREENQUERY_CHANGEPARMSANDCOOK_OFFSET UNITYSDK_OFFSET(0x8C0CF30)
-#define HEU_EXAMPLEEVERGREENQUERY_COOKASSET_OFFSET UNITYSDK_OFFSET(0x8C0CF10)
-#define HEU_EXAMPLEEVERGREENQUERY_QUERYATTRIBUTEBYSTORAGETYPE_OFFSET UNITYSDK_OFFSET(0x8C0E8E0)
-#define HEU_EXAMPLEEVERGREENQUERY_QUERYATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8C0D6F0)
-#define HEU_EXAMPLEEVERGREENQUERY_QUERYGEOPARTS_OFFSET UNITYSDK_OFFSET(0x8C0DC90)
-#define HEU_EXAMPLEEVERGREENQUERY_QUERYHOUDINIASSET_OFFSET UNITYSDK_OFFSET(0x8C0CCB0)
-#define HEU_EXAMPLEEVERGREENQUERY_QUERYOBJECTS_OFFSET UNITYSDK_OFFSET(0x8C0D340)
-#define HEU_EXAMPLEEVERGREENQUERY_QUERYPARTATTRIBUTEBYOWNER_OFFSET UNITYSDK_OFFSET(0x8C0E420)
-#define HEU_EXAMPLEEVERGREENQUERY_STARTQUERY_OFFSET UNITYSDK_OFFSET(0x8C0CAA0)
-#define HEU_EXAMPLEEVERGREENQUERY__CTOR_OFFSET UNITYSDK_OFFSET(0x8C0EB00)
+#define HEU_EXAMPLEEVERGREENQUERY_CHANGEPARMSANDCOOK_OFFSET UNITYSDK_OFFSET(0x17E9B300)
+#define HEU_EXAMPLEEVERGREENQUERY_COOKASSET_OFFSET UNITYSDK_OFFSET(0x17E9B2E0)
+#define HEU_EXAMPLEEVERGREENQUERY_QUERYATTRIBUTEBYSTORAGETYPE_OFFSET UNITYSDK_OFFSET(0x17E9D1D0)
+#define HEU_EXAMPLEEVERGREENQUERY_QUERYATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17E9BB50)
+#define HEU_EXAMPLEEVERGREENQUERY_QUERYGEOPARTS_OFFSET UNITYSDK_OFFSET(0x17E9C580)
+#define HEU_EXAMPLEEVERGREENQUERY_QUERYHOUDINIASSET_OFFSET UNITYSDK_OFFSET(0x17E9B0F0)
+#define HEU_EXAMPLEEVERGREENQUERY_QUERYOBJECTS_OFFSET UNITYSDK_OFFSET(0x17E9B750)
+#define HEU_EXAMPLEEVERGREENQUERY_QUERYPARTATTRIBUTEBYOWNER_OFFSET UNITYSDK_OFFSET(0x17E9CCD0)
+#define HEU_EXAMPLEEVERGREENQUERY_STARTQUERY_OFFSET UNITYSDK_OFFSET(0x17E9AA60)
+#define HEU_EXAMPLEEVERGREENQUERY__CTOR_OFFSET UNITYSDK_OFFSET(0x17E9D810)
 
-inline static constexpr unsigned int HEU_ExampleEvergreenQuery_TypeDefinitionIndex = 40915;
+inline static constexpr unsigned int HEU_ExampleEvergreenQuery_TypeDefinitionIndex = 37384;
 
 class HEU_ExampleEvergreenQuery : public ::System::Object
 {
@@ -37,43 +37,43 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_STARTQUERY_OFFSET))();
 	}
 
-	static ::HoudiniEngineUnity::HEU_HoudiniAsset* QueryHoudiniAsset(::UnityEngine::GameObject* rootGO)
+	static ::HoudiniEngineUnity::HEU_HoudiniAsset* QueryHoudiniAsset(::UnityEngine::GameObject* a1)
 	{
-		return ((::HoudiniEngineUnity::HEU_HoudiniAsset*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYHOUDINIASSET_OFFSET))(rootGO);
+		return ((::HoudiniEngineUnity::HEU_HoudiniAsset*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYHOUDINIASSET_OFFSET))(a1);
 	}
 
-	static ::System::Void CookAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset)
+	static ::System::Void CookAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* a1)
 	{
-		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_COOKASSET_OFFSET))(houdiniAsset);
+		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_COOKASSET_OFFSET))(a1);
 	}
 
-	static ::System::Void ChangeParmsAndCook(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset)
+	static ::System::Void ChangeParmsAndCook(::HoudiniEngineUnity::HEU_HoudiniAsset* a1)
 	{
-		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_CHANGEPARMSANDCOOK_OFFSET))(houdiniAsset);
+		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_CHANGEPARMSANDCOOK_OFFSET))(a1);
 	}
 
-	static ::System::Void QueryObjects(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset)
+	static ::System::Void QueryObjects(::HoudiniEngineUnity::HEU_HoudiniAsset* a1)
 	{
-		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYOBJECTS_OFFSET))(houdiniAsset);
+		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYOBJECTS_OFFSET))(a1);
 	}
 
-	static ::System::Void QueryGeoParts(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_GeoInfo& geoInfo)
+	static ::System::Void QueryGeoParts(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HAPI_GeoInfo& a2)
 	{
-		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_GeoInfo&))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYGEOPARTS_OFFSET))(session, geoInfo);
+		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_GeoInfo&))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYGEOPARTS_OFFSET))(a1, a2);
 	}
 
-	static ::System::Void QueryPartAttributeByOwner(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, ::System::Int32 count, ::System::Text::StringBuilder* sb)
+	static ::System::Void QueryPartAttributeByOwner(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::HoudiniEngineUnity::HAPI_AttributeOwner a4, ::System::Int32 a5, ::System::Text::StringBuilder* a6)
 	{
-		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HAPI_AttributeOwner, ::System::Int32, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYPARTATTRIBUTEBYOWNER_OFFSET))(session, geoID, partID, owner, count, sb);
+		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HAPI_AttributeOwner, ::System::Int32, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYPARTATTRIBUTEBYOWNER_OFFSET))(a1, a2, a3, a4, a5, a6);
 	}
 
-	static ::System::Void QueryAttributeByStorageType(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::HoudiniEngineUnity::HAPI_AttributeInfo& attrInfo, ::System::String* attrName)
+	static ::System::Void QueryAttributeByStorageType(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::HoudiniEngineUnity::HAPI_AttributeInfo& a4, ::System::String* a5)
 	{
-		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HAPI_AttributeInfo&, ::System::String*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYATTRIBUTEBYSTORAGETYPE_OFFSET))(session, geoID, partID, attrInfo, attrName);
+		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HAPI_AttributeInfo&, ::System::String*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYATTRIBUTEBYSTORAGETYPE_OFFSET))(a1, a2, a3, a4, a5);
 	}
 
-	static ::System::Void QueryAttribute(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset, ::System::String* objName, ::System::String* geoName, ::System::Int32 partID, ::System::String* attrName)
+	static ::System::Void QueryAttribute(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4, ::System::String* a5)
 	{
-		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYATTRIBUTE_OFFSET))(houdiniAsset, objName, geoName, partID, attrName);
+		return ((::System::Void(*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::String*, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + HEU_EXAMPLEEVERGREENQUERY_QUERYATTRIBUTE_OFFSET))(a1, a2, a3, a4, a5);
 	}
 };

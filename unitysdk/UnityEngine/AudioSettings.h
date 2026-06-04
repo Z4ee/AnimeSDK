@@ -4,23 +4,23 @@
 
 namespace UnityEngine { class AudioSettings_AudioConfigurationChangeHandler; }
 
-#define UNITYENGINE_AUDIOSETTINGS_INVOKEONAUDIOCONFIGURATIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1A41B3D0)
+#define UNITYENGINE_AUDIOSETTINGS_INVOKEONAUDIOCONFIGURATIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1B26E5D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioSettings_TypeDefinitionIndex = 5091;
+	inline static constexpr unsigned int AudioSettings_TypeDefinitionIndex = 5185;
 
 	class AudioSettings : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::AudioSettings_AudioConfigurationChangeHandler** StaticGet_OnAudioConfigurationChanged()
 		{
-			return (::UnityEngine::AudioSettings_AudioConfigurationChangeHandler**)Il2CppClass::FromTypeDefinitionIndex(AudioSettings_TypeDefinitionIndex)->GetStaticField(0x250);
+			return (::UnityEngine::AudioSettings_AudioConfigurationChangeHandler**)Il2CppClass::FromTypeDefinitionIndex(AudioSettings_TypeDefinitionIndex)->GetStaticField(0x2B0);
 		}
 
-		static ::System::Void InvokeOnAudioConfigurationChanged(::System::Boolean deviceWasChanged)
+		static ::System::Void InvokeOnAudioConfigurationChanged(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOSETTINGS_INVOKEONAUDIOCONFIGURATIONCHANGED_OFFSET))(deviceWasChanged);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOSETTINGS_INVOKEONAUDIOCONFIGURATIONCHANGED_OFFSET))(a1);
 		}
 	};
 }

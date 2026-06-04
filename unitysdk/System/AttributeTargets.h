@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int AttributeTargets_TypeDefinitionIndex = 202;
+	inline static constexpr unsigned int AttributeTargets_TypeDefinitionIndex = 201;
 
 	enum class AttributeTargets : ::System::Int32
 	{

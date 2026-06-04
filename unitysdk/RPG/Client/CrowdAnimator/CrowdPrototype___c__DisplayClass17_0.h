@@ -5,12 +5,12 @@
 namespace RPG::Client::CrowdAnimator { class BoneData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D7C90)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS17_0__GETBONEBYTRANSFORM_B__0_OFFSET UNITYSDK_OFFSET(0xA0D7DC0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB717600)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS17_0__GETBONEBYTRANSFORM_B__0_OFFSET UNITYSDK_OFFSET(0xB717740)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdPrototype___c__DisplayClass17_0_TypeDefinitionIndex = 67855;
+	inline static constexpr unsigned int CrowdPrototype___c__DisplayClass17_0_TypeDefinitionIndex = 68813;
 
 	class CrowdPrototype___c__DisplayClass17_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::CrowdAnimator
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetBoneByTransform_b__0(::RPG::Client::CrowdAnimator::BoneData* b)
+		::System::Boolean _GetBoneByTransform_b__0(::RPG::Client::CrowdAnimator::BoneData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CrowdAnimator::BoneData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS17_0__GETBONEBYTRANSFORM_B__0_OFFSET))(this, b);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CrowdAnimator::BoneData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDPROTOTYPE___C__DISPLAYCLASS17_0__GETBONEBYTRANSFORM_B__0_OFFSET))(this, a1);
 		}
 	};
 }

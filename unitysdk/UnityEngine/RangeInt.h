@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_RANGEINT_GET_END_OFFSET UNITYSDK_OFFSET(0x22E7770)
-#define UNITYENGINE_RANGEINT__CTOR_OFFSET UNITYSDK_OFFSET(0x73E20)
+#define UNITYENGINE_RANGEINT_GET_END_OFFSET UNITYSDK_OFFSET(0x3884480)
+#define UNITYENGINE_RANGEINT__CTOR_OFFSET UNITYSDK_OFFSET(0x7BBE0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RangeInt_TypeDefinitionIndex = 4144;
+	inline static constexpr unsigned int RangeInt_TypeDefinitionIndex = 4318;
 
 	struct alignas(4) RangeInt
 	{
 		::System::Int32 start; // 0x10
 		::System::Int32 length; // 0x14
 
-		::System::Void _ctor(::System::Int32 start, ::System::Int32 length)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RANGEINT__CTOR_OFFSET))(this, start, length);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RANGEINT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_end()

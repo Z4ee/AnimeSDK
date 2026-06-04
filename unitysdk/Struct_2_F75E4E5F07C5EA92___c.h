@@ -6,32 +6,32 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define STRUCT_2_F75E4E5F07C5EA92___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D8E310)
-#define STRUCT_2_F75E4E5F07C5EA92___C__COMBINE_B__6_0_OFFSET UNITYSDK_OFFSET(0x19D8E360)
-#define STRUCT_2_F75E4E5F07C5EA92___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19D8E350)
-#define STRUCT_2_F75E4E5F07C5EA92___C__GETDIRECTORIES_B__20_0_OFFSET UNITYSDK_OFFSET(0x19D8E3B0)
-#define STRUCT_2_F75E4E5F07C5EA92___C__GETFILES_B__19_0_OFFSET UNITYSDK_OFFSET(0x19D8E370)
+#define STRUCT_2_F75E4E5F07C5EA92___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC10450)
+#define STRUCT_2_F75E4E5F07C5EA92___C__COMBINE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1AC104A0)
+#define STRUCT_2_F75E4E5F07C5EA92___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC10490)
+#define STRUCT_2_F75E4E5F07C5EA92___C__GETDIRECTORIES_B__20_0_OFFSET UNITYSDK_OFFSET(0x1AC104F0)
+#define STRUCT_2_F75E4E5F07C5EA92___C__GETFILES_B__19_0_OFFSET UNITYSDK_OFFSET(0x1AC104B0)
 
-inline static constexpr unsigned int Struct_2_F75E4E5F07C5EA92___c_TypeDefinitionIndex = 9724;
+inline static constexpr unsigned int Struct_2_F75E4E5F07C5EA92___c_TypeDefinitionIndex = 33493;
 
 class Struct_2_F75E4E5F07C5EA92___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::Struct_2_F75E4E5F07C5EA92, ::System::String*>** StaticGet___9__6_0()
 	{
-		return (::System::Func_2<::Struct_2_F75E4E5F07C5EA92, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_F75E4E5F07C5EA92___c_TypeDefinitionIndex)->GetStaticField(0x19090);
+		return (::System::Func_2<::Struct_2_F75E4E5F07C5EA92, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_F75E4E5F07C5EA92___c_TypeDefinitionIndex)->GetStaticField(0x47C70);
 	}
 	static ::System::Func_2<::System::String*, ::Struct_2_F75E4E5F07C5EA92>** StaticGet___9__20_0()
 	{
-		return (::System::Func_2<::System::String*, ::Struct_2_F75E4E5F07C5EA92>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_F75E4E5F07C5EA92___c_TypeDefinitionIndex)->GetStaticField(0x19098);
+		return (::System::Func_2<::System::String*, ::Struct_2_F75E4E5F07C5EA92>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_F75E4E5F07C5EA92___c_TypeDefinitionIndex)->GetStaticField(0x47C78);
 	}
 	static ::Struct_2_F75E4E5F07C5EA92___c** StaticGet___9()
 	{
-		return (::Struct_2_F75E4E5F07C5EA92___c**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_F75E4E5F07C5EA92___c_TypeDefinitionIndex)->GetStaticField(0x190A0);
+		return (::Struct_2_F75E4E5F07C5EA92___c**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_F75E4E5F07C5EA92___c_TypeDefinitionIndex)->GetStaticField(0x47C80);
 	}
 	static ::System::Func_2<::System::String*, ::Struct_2_F75E4E5F07C5EA92>** StaticGet___9__19_0()
 	{
-		return (::System::Func_2<::System::String*, ::Struct_2_F75E4E5F07C5EA92>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_F75E4E5F07C5EA92___c_TypeDefinitionIndex)->GetStaticField(0x190A8);
+		return (::System::Func_2<::System::String*, ::Struct_2_F75E4E5F07C5EA92>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_F75E4E5F07C5EA92___c_TypeDefinitionIndex)->GetStaticField(0x47C88);
 	}
 
 	static ::System::Void _cctor()
@@ -44,18 +44,18 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_F75E4E5F07C5EA92___C__CTOR_OFFSET))(this);
 	}
 
-	::System::String* _Combine_b__6_0(::Struct_2_F75E4E5F07C5EA92 p)
+	::System::String* _Combine_b__6_0(::Struct_2_F75E4E5F07C5EA92 a1)
 	{
-		return ((::System::String*(*)(::PVOID, ::Struct_2_F75E4E5F07C5EA92))((::PBYTE)hIl2Cpp + STRUCT_2_F75E4E5F07C5EA92___C__COMBINE_B__6_0_OFFSET))(this, p);
+		return ((::System::String*(*)(::PVOID, ::Struct_2_F75E4E5F07C5EA92))((::PBYTE)hIl2Cpp + STRUCT_2_F75E4E5F07C5EA92___C__COMBINE_B__6_0_OFFSET))(this, a1);
 	}
 
-	::Struct_2_F75E4E5F07C5EA92 _GetFiles_b__19_0(::System::String* p)
+	::Struct_2_F75E4E5F07C5EA92 _GetFiles_b__19_0(::System::String* a1)
 	{
-		return ((::Struct_2_F75E4E5F07C5EA92(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + STRUCT_2_F75E4E5F07C5EA92___C__GETFILES_B__19_0_OFFSET))(this, p);
+		return ((::Struct_2_F75E4E5F07C5EA92(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + STRUCT_2_F75E4E5F07C5EA92___C__GETFILES_B__19_0_OFFSET))(this, a1);
 	}
 
-	::Struct_2_F75E4E5F07C5EA92 _GetDirectories_b__20_0(::System::String* p)
+	::Struct_2_F75E4E5F07C5EA92 _GetDirectories_b__20_0(::System::String* a1)
 	{
-		return ((::Struct_2_F75E4E5F07C5EA92(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + STRUCT_2_F75E4E5F07C5EA92___C__GETDIRECTORIES_B__20_0_OFFSET))(this, p);
+		return ((::Struct_2_F75E4E5F07C5EA92(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + STRUCT_2_F75E4E5F07C5EA92___C__GETDIRECTORIES_B__20_0_OFFSET))(this, a1);
 	}
 };

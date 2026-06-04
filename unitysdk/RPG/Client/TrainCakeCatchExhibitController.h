@@ -8,12 +8,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_ECBCF86CDE61CBCA;
-class Class_2_8A13E4280BFE59E5;
+class Class_1_616F89B5F43D1E61;
 namespace RPG { class OutlinePostFXMonoPlugin; }
 namespace RPG::Client { class TrainCakeCatchExhibitController_Cat; }
 namespace RPG::Client { class TrainCakeCatchExhibitController_CatGround; }
 namespace RPG::Client { class TrainCakeCatchExhibitController_CatTree; }
+namespace RPG::Client { class TrainCakeCatchGameModule; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelAreaManager; }
 namespace RPG::GameCore { class NPCDataRow; }
@@ -23,63 +23,63 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB325850)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETCATGROUNDS_OFFSET UNITYSDK_OFFSET(0xB3269B0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETCATTREE_OFFSET UNITYSDK_OFFSET(0xB3269F0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETGROUNDANCHORPOS_OFFSET UNITYSDK_OFFSET(0xB326580)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETTREEANCHORPOS_OFFSET UNITYSDK_OFFSET(0xB3267B0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_ONPROPCREATE_OFFSET UNITYSDK_OFFSET(0xB325E00)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_ONSAVE_OFFSET UNITYSDK_OFFSET(0xB326960)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATGROUNDCAT_OFFSET UNITYSDK_OFFSET(0xB3263E0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATGROUNDTYPE_OFFSET UNITYSDK_OFFSET(0xB3262B0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATTREECAT_OFFSET UNITYSDK_OFFSET(0xB326170)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATTREETYPE_OFFSET UNITYSDK_OFFSET(0xB325F00)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETSELECTEDCAT_OFFSET UNITYSDK_OFFSET(0xB326A30)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_TICK_OFFSET UNITYSDK_OFFSET(0xB325AE0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_TRIGGERCATCHANGEEFFECT_OFFSET UNITYSDK_OFFSET(0xB326CB0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB329440)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__CREATECAT_OFFSET UNITYSDK_OFFSET(0xB3273A0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB3248F0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DESPAWNCATOUTLINEROOT_OFFSET UNITYSDK_OFFSET(0xB325A30)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DESPAWNTRANSCAT_OFFSET UNITYSDK_OFFSET(0xB3276E0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DESTROYCAT_OFFSET UNITYSDK_OFFSET(0xB327420)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DISPOSECATGROUNDS_OFFSET UNITYSDK_OFFSET(0xB325980)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DISPOSECATTREE_OFFSET UNITYSDK_OFFSET(0xB325920)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__FINDCAT_OFFSET UNITYSDK_OFFSET(0xB326B40)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__GETLEVELAREAMANAGER_OFFSET UNITYSDK_OFFSET(0xB3274F0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCATGROUNDS_OFFSET UNITYSDK_OFFSET(0xB324B50)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCATTREE_OFFSET UNITYSDK_OFFSET(0xB324AD0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_CATEFFECT_OFFSET UNITYSDK_OFFSET(0xB3288B0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_CATSIZE_OFFSET UNITYSDK_OFFSET(0xB327970)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_CATTREEATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xB328570)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_CATTREECHANGETYPEEVENT_OFFSET UNITYSDK_OFFSET(0xB327FA0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_CATTREEGROUPINSTANCEID_OFFSET UNITYSDK_OFFSET(0xB3281F0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_GROUNDANCHOR_OFFSET UNITYSDK_OFFSET(0xB327B00)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_GROUNDSAVELERPTIME_OFFSET UNITYSDK_OFFSET(0xB327E80)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_OFFSET UNITYSDK_OFFSET(0xB324A50)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_VOICECD_OFFSET UNITYSDK_OFFSET(0xB328D70)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__ONCURRENTREGIONENTER_OFFSET UNITYSDK_OFFSET(0xB325290)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__ONCURRENTREGIONLEAVE_OFFSET UNITYSDK_OFFSET(0xB325650)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__REFRESHCATSONREGIONCHANGE_OFFSET UNITYSDK_OFFSET(0xB3254D0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__REGISTERREGIONCALLBACK_OFFSET UNITYSDK_OFFSET(0xB325110)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__RESETVOICETIMER_OFFSET UNITYSDK_OFFSET(0xB3250A0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__SPAWNCATOUTLINEROOT_OFFSET UNITYSDK_OFFSET(0xB327790)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__SPAWNTRANSCAT_OFFSET UNITYSDK_OFFSET(0xB327570)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__TICKVOICE_OFFSET UNITYSDK_OFFSET(0xB325CA0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__TRIGGERENTITYEVENT_OFFSET UNITYSDK_OFFSET(0xB327480)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__TRIGGERVOICERANDOM_OFFSET UNITYSDK_OFFSET(0xB329100)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__UNREGISTERREGIONCALLBACK_OFFSET UNITYSDK_OFFSET(0xB3253C0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCA7E5F0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETCATGROUNDS_OFFSET UNITYSDK_OFFSET(0xCA7F2F0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETCATTREE_OFFSET UNITYSDK_OFFSET(0xCA7F330)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETGROUNDANCHORPOS_OFFSET UNITYSDK_OFFSET(0xCA7EFF0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETTREEANCHORPOS_OFFSET UNITYSDK_OFFSET(0xCA7F220)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_ONPROPCREATE_OFFSET UNITYSDK_OFFSET(0xCA7EB70)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_ONSAVE_OFFSET UNITYSDK_OFFSET(0xCA7F2A0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATGROUNDCAT_OFFSET UNITYSDK_OFFSET(0xCA7EE50)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATGROUNDTYPE_OFFSET UNITYSDK_OFFSET(0xCA7ED30)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATTREECAT_OFFSET UNITYSDK_OFFSET(0xCA7ECD0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATTREETYPE_OFFSET UNITYSDK_OFFSET(0xCA7EC70)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETSELECTEDCAT_OFFSET UNITYSDK_OFFSET(0xCA7F370)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_TICK_OFFSET UNITYSDK_OFFSET(0xCA7E870)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_TRIGGERCATCHANGEEFFECT_OFFSET UNITYSDK_OFFSET(0xCA7F5C0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCA814A0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__CREATECAT_OFFSET UNITYSDK_OFFSET(0xCA7F8F0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xCA7D450)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DESPAWNCATOUTLINEROOT_OFFSET UNITYSDK_OFFSET(0xCA7E7C0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DESPAWNTRANSCAT_OFFSET UNITYSDK_OFFSET(0xCA7FC00)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DESTROYCAT_OFFSET UNITYSDK_OFFSET(0xCA7F970)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DISPOSECATGROUNDS_OFFSET UNITYSDK_OFFSET(0xCA7E720)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DISPOSECATTREE_OFFSET UNITYSDK_OFFSET(0xCA7E6C0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__FINDCAT_OFFSET UNITYSDK_OFFSET(0xCA7F480)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__GETLEVELAREAMANAGER_OFFSET UNITYSDK_OFFSET(0xCA7FA40)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCATGROUNDS_OFFSET UNITYSDK_OFFSET(0xCA7D630)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCATTREE_OFFSET UNITYSDK_OFFSET(0xCA7D5D0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_CATEFFECT_OFFSET UNITYSDK_OFFSET(0xCA80AA0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_CATSIZE_OFFSET UNITYSDK_OFFSET(0xCA7FEA0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_CATTREEATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xCA80840)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_CATTREECHANGETYPEEVENT_OFFSET UNITYSDK_OFFSET(0xCA803A0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_CATTREEGROUPINSTANCEID_OFFSET UNITYSDK_OFFSET(0xCA805C0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_GROUNDANCHOR_OFFSET UNITYSDK_OFFSET(0xCA80010)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_GROUNDSAVELERPTIME_OFFSET UNITYSDK_OFFSET(0xCA802B0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_OFFSET UNITYSDK_OFFSET(0xCA7D550)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__INITCONSTVALUE_VOICECD_OFFSET UNITYSDK_OFFSET(0xCA80E40)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__ONCURRENTREGIONENTER_OFFSET UNITYSDK_OFFSET(0xCA7E000)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__ONCURRENTREGIONLEAVE_OFFSET UNITYSDK_OFFSET(0xCA7E430)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__REFRESHCATSONREGIONCHANGE_OFFSET UNITYSDK_OFFSET(0xCA7E2D0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__REGISTERREGIONCALLBACK_OFFSET UNITYSDK_OFFSET(0xCA7DDD0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__RESETVOICETIMER_OFFSET UNITYSDK_OFFSET(0xCA7DD60)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__SPAWNCATOUTLINEROOT_OFFSET UNITYSDK_OFFSET(0xCA7FCB0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__SPAWNTRANSCAT_OFFSET UNITYSDK_OFFSET(0xCA7FAC0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__TICKVOICE_OFFSET UNITYSDK_OFFSET(0xCA7EA10)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__TRIGGERENTITYEVENT_OFFSET UNITYSDK_OFFSET(0xCA7F9D0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__TRIGGERVOICERANDOM_OFFSET UNITYSDK_OFFSET(0xCA810D0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__UNREGISTERREGIONCALLBACK_OFFSET UNITYSDK_OFFSET(0xCA7E0F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainCakeCatchExhibitController_TypeDefinitionIndex = 55519;
+	inline static constexpr unsigned int TrainCakeCatchExhibitController_TypeDefinitionIndex = 56270;
 
 	class TrainCakeCatchExhibitController : public ::System::Object
 	{
 	public:
 		static ::System::UInt32* StaticGet__RegionID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController_TypeDefinitionIndex)->GetStaticField(0xDA80);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController_TypeDefinitionIndex)->GetStaticField(0x10DE0);
 		}
 		// static const ::System::String* TRANS_CAT_PATH; // 0x0
 		// static const ::System::String* CAT_OUTLINE_ROOT_PATH; // 0x0
@@ -97,36 +97,36 @@ namespace RPG::Client
 		// static const ::System::String* _CONSTVALUE_CAT_OUTLINE_BLUR_SIZE; // 0x0
 		// static const ::System::String* _CONSTVALUE_CATTREE_MAOMAOGAO_VOICE_CD; // 0x0
 		// static const ::System::String* _VoiceEventName; // 0x0
-		::Il2CppArray<::System::String*>* _GroundAnchorNames; // 0x10
-		::System::String* _CatTreeChangeTypeEventDefault; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::TrainCakeCatchExhibitController_CatTreeType, ::System::String*>* _CatTreeTypeToEntityEvent; // 0x20
-		::System::String* _EffectPathCatChange; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::TrainCakeCatchExhibitController_Cat*>* _TempVoiceCatList; // 0x30
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::TrainCakeCatchExhibitController_CatTreeType, ::System::String*>* _CatTreeTypeToEntityEvent; // 0x10
+		::Il2CppArray<::System::String*>* _CatTreeAttachPoints; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::TrainCakeCatchExhibitController_Cat*>* _TempVoiceCatList; // 0x20
+		::RPG::Client::TrainCakeCatchExhibitController_Cat* _SelectedCat; // 0x28
+		::System::String* _CatTreeChangeTypeEventDefault; // 0x30
 		::RPG::Client::TrainCakeCatchExhibitController_CatTree* _CatTree; // 0x38
-		::RPG::Client::TrainCakeCatchExhibitController_Cat* _SelectedCat; // 0x40
-		::Class_2_8A13E4280BFE59E5* _GameModule; // 0x48
-		::Il2CppArray<::System::String*>* _CatTreeAttachPoints; // 0x50
-		::System::String* _GroundAreaName; // 0x58
-		::Il2CppArray<::RPG::Client::TrainCakeCatchExhibitController_CatGround*>* _CatGrounds; // 0x60
-		::System::String* _CatTreeChangeTypeEventGodGift; // 0x68
-		::RPG::OutlinePostFXMonoPlugin* _CatOutlineRoot; // 0x70
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::TrainCakeCatchExhibitController_CatGroundType, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>* _CatGroundPosTypeToOffset; // 0x78
-		::System::Boolean _IsInRegion; // 0x80
-		::System::UInt32 _CatTreeInstanceID; // 0x84
-		::System::Single _CatOutlineBlurSize; // 0x88
-		::System::Single _CatHeight; // 0x8C
-		::System::UInt32 _CatTreeGroupID; // 0x90
-		::System::Single _VoiceCDMax; // 0x94
-		::System::Single _VoiceTimer; // 0x98
-		::System::Single _VoiceCDMin; // 0x9C
-		::UnityEngine::Color _CatOutlineColor; // 0xA0
-		::System::Single _GroundSaveLerpTime; // 0xB0
-		::System::Single _CatRadius; // 0xB4
-		::System::Single _VoiceNextCD; // 0xB8
+		::RPG::OutlinePostFXMonoPlugin* _CatOutlineRoot; // 0x40
+		::Il2CppArray<::RPG::Client::TrainCakeCatchExhibitController_CatGround*>* _CatGrounds; // 0x48
+		::RPG::Client::TrainCakeCatchGameModule* _GameModule; // 0x50
+		::System::String* _CatTreeChangeTypeEventGodGift; // 0x58
+		::System::String* _GroundAreaName; // 0x60
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::TrainCakeCatchExhibitController_CatGroundType, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>* _CatGroundPosTypeToOffset; // 0x68
+		::Il2CppArray<::System::String*>* _GroundAnchorNames; // 0x70
+		::System::String* _EffectPathCatChange; // 0x78
+		::System::Single _CatHeight; // 0x80
+		::System::Single _VoiceCDMax; // 0x84
+		::System::Single _VoiceTimer; // 0x88
+		::System::Single _GroundSaveLerpTime; // 0x8C
+		::UnityEngine::Color _CatOutlineColor; // 0x90
+		::System::Single _CatRadius; // 0xA0
+		::System::Single _CatOutlineBlurSize; // 0xA4
+		::System::Boolean _IsInRegion; // 0xA8
+		::System::Single _VoiceNextCD; // 0xAC
+		::System::UInt32 _CatTreeGroupID; // 0xB0
+		::System::Single _VoiceCDMin; // 0xB4
+		::System::UInt32 _CatTreeInstanceID; // 0xB8
 
-		::System::Void _ctor(::Class_2_8A13E4280BFE59E5* gameModule)
+		::System::Void _ctor(::RPG::Client::TrainCakeCatchGameModule* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_8A13E4280BFE59E5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__CTOR_OFFSET))(this, gameModule);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchGameModule*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -144,14 +144,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__UNREGISTERREGIONCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void _OnCurrentRegionEnter(::Class_1_ECBCF86CDE61CBCA* region)
+		::System::Void _OnCurrentRegionEnter(::Class_1_616F89B5F43D1E61* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_ECBCF86CDE61CBCA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__ONCURRENTREGIONENTER_OFFSET))(this, region);
+			return ((::System::Void(*)(::PVOID, ::Class_1_616F89B5F43D1E61*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__ONCURRENTREGIONENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnCurrentRegionLeave(::Class_1_ECBCF86CDE61CBCA* region)
+		::System::Void _OnCurrentRegionLeave(::Class_1_616F89B5F43D1E61* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_ECBCF86CDE61CBCA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__ONCURRENTREGIONLEAVE_OFFSET))(this, region);
+			return ((::System::Void(*)(::PVOID, ::Class_1_616F89B5F43D1E61*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__ONCURRENTREGIONLEAVE_OFFSET))(this, a1);
 		}
 
 		::System::Void _RefreshCatsOnRegionChange()
@@ -164,44 +164,44 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single deltaTime)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_TICK_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPropCreate(::RPG::GameCore::GameEntity* entity)
+		::System::Void OnPropCreate(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_ONPROPCREATE_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_ONPROPCREATE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCatTreeType(::RPG::Client::TrainCakeCatchExhibitController_CatTreeType type)
+		::System::Void SetCatTreeType(::RPG::Client::TrainCakeCatchExhibitController_CatTreeType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController_CatTreeType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATTREETYPE_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController_CatTreeType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATTREETYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCatTreeCat(::System::Collections::Generic::List_1<::System::UInt32>* npcIDs)
+		::System::Void SetCatTreeCat(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATTREECAT_OFFSET))(this, npcIDs);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATTREECAT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCatGroundType(::System::Int32 index, ::RPG::Client::TrainCakeCatchExhibitController_CatGroundType groundType)
+		::System::Void SetCatGroundType(::System::Int32 a1, ::RPG::Client::TrainCakeCatchExhibitController_CatGroundType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::TrainCakeCatchExhibitController_CatGroundType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATGROUNDTYPE_OFFSET))(this, index, groundType);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::TrainCakeCatchExhibitController_CatGroundType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATGROUNDTYPE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetCatGroundCat(::System::Int32 index, ::RPG::Client::TrainCakeCatchExhibitController_GroundSetType setType, ::System::Collections::Generic::List_1<::System::UInt32>* npcIDs)
+		::System::Void SetCatGroundCat(::System::Int32 a1, ::RPG::Client::TrainCakeCatchExhibitController_GroundSetType a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::TrainCakeCatchExhibitController_GroundSetType, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATGROUNDCAT_OFFSET))(this, index, setType, npcIDs);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::TrainCakeCatchExhibitController_GroundSetType, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETCATGROUNDCAT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Vector3 GetGroundAnchorPos(::System::Int32 index)
+		::UnityEngine::Vector3 GetGroundAnchorPos(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETGROUNDANCHORPOS_OFFSET))(this, index);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETGROUNDANCHORPOS_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 GetTreeAnchorPos(::System::Int32 index)
+		::UnityEngine::Vector3 GetTreeAnchorPos(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETTREEANCHORPOS_OFFSET))(this, index);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETTREEANCHORPOS_OFFSET))(this, a1);
 		}
 
 		::System::Void OnSave()
@@ -219,19 +219,19 @@ namespace RPG::Client
 			return ((::RPG::Client::TrainCakeCatchExhibitController_CatTree*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_GETCATTREE_OFFSET))(this);
 		}
 
-		::System::Void SetSelectedCat(::RPG::Client::TrainCakeCatchExhibitController_CarPositionType positionType, ::System::Int32 index1, ::System::Int32 index2)
+		::System::Void SetSelectedCat(::RPG::Client::TrainCakeCatchExhibitController_CarPositionType a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController_CarPositionType, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETSELECTEDCAT_OFFSET))(this, positionType, index1, index2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController_CarPositionType, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_SETSELECTEDCAT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void TriggerCatChangeEffect(::RPG::Client::TrainCakeCatchExhibitController_CarPositionType positionType, ::System::Int32 index1, ::System::Int32 index2)
+		::System::Void TriggerCatChangeEffect(::RPG::Client::TrainCakeCatchExhibitController_CarPositionType a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController_CarPositionType, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_TRIGGERCATCHANGEEFFECT_OFFSET))(this, positionType, index1, index2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController_CarPositionType, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_TRIGGERCATCHANGEEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::TrainCakeCatchExhibitController_Cat* _FindCat(::RPG::Client::TrainCakeCatchExhibitController_CarPositionType positionType, ::System::Int32 index1, ::System::Int32 index2)
+		::RPG::Client::TrainCakeCatchExhibitController_Cat* _FindCat(::RPG::Client::TrainCakeCatchExhibitController_CarPositionType a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::RPG::Client::TrainCakeCatchExhibitController_Cat*(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController_CarPositionType, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__FINDCAT_OFFSET))(this, positionType, index1, index2);
+			return ((::RPG::Client::TrainCakeCatchExhibitController_Cat*(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController_CarPositionType, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__FINDCAT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _InitCatGrounds()
@@ -254,19 +254,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DISPOSECATTREE_OFFSET))(this);
 		}
 
-		::RPG::GameCore::GameEntity* _CreateCat(::RPG::GameCore::NPCDataRow* npcRow, ::System::String* uniqueName, ::UnityEngine::Transform* parent)
+		::RPG::GameCore::GameEntity* _CreateCat(::RPG::GameCore::NPCDataRow* a1, ::System::String* a2, ::UnityEngine::Transform* a3)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::NPCDataRow*, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__CREATECAT_OFFSET))(this, npcRow, uniqueName, parent);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::NPCDataRow*, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__CREATECAT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _DestroyCat(::RPG::GameCore::GameEntity* entity)
+		::System::Void _DestroyCat(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DESTROYCAT_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DESTROYCAT_OFFSET))(this, a1);
 		}
 
-		::System::Void _TriggerEntityEvent(::RPG::GameCore::GameEntity* entity, ::System::String* eventName)
+		::System::Void _TriggerEntityEvent(::RPG::GameCore::GameEntity* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__TRIGGERENTITYEVENT_OFFSET))(this, entity, eventName);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__TRIGGERENTITYEVENT_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::LevelAreaManager* _GetLevelAreaManager()
@@ -279,9 +279,9 @@ namespace RPG::Client
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__SPAWNTRANSCAT_OFFSET))(this);
 		}
 
-		::System::Void _DespawnTransCat(::UnityEngine::GameObject* gameObject)
+		::System::Void _DespawnTransCat(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DESPAWNTRANSCAT_OFFSET))(this, gameObject);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__DESPAWNTRANSCAT_OFFSET))(this, a1);
 		}
 
 		::System::Void _SpawnCatOutlineRoot()
@@ -344,9 +344,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__RESETVOICETIMER_OFFSET))(this);
 		}
 
-		::System::Void _TickVoice(::System::Single deltaTime)
+		::System::Void _TickVoice(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__TICKVOICE_OFFSET))(this, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER__TICKVOICE_OFFSET))(this, a1);
 		}
 
 		::System::Void _TriggerVoiceRandom()

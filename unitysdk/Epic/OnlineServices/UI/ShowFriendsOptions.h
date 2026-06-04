@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_UI_SHOWFRIENDSOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8BF6080)
-#define EPIC_ONLINESERVICES_UI_SHOWFRIENDSOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8BF6090)
-#define EPIC_ONLINESERVICES_UI_SHOWFRIENDSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BF60A0)
+#define EPIC_ONLINESERVICES_UI_SHOWFRIENDSOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA103500)
+#define EPIC_ONLINESERVICES_UI_SHOWFRIENDSOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA103510)
+#define EPIC_ONLINESERVICES_UI_SHOWFRIENDSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA103520)
 
 namespace Epic::OnlineServices::UI
 {
-	inline static constexpr unsigned int ShowFriendsOptions_TypeDefinitionIndex = 41157;
+	inline static constexpr unsigned int ShowFriendsOptions_TypeDefinitionIndex = 41960;
 
 	class ShowFriendsOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::UI
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_SHOWFRIENDSOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_SHOWFRIENDSOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_SHOWFRIENDSOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

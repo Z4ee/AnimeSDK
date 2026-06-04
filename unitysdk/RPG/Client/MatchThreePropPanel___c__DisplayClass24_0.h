@@ -5,12 +5,12 @@
 namespace RPG::Client { class MatchThreeGameProp; }
 namespace RPG::Client { class MatchThreePropPanel; }
 
-#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA8469F0)
-#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__DISPLAYCLASS24_0__SETUPVIEW_B__2_OFFSET UNITYSDK_OFFSET(0xA846C00)
+#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF90520)
+#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__DISPLAYCLASS24_0__SETUPVIEW_B__2_OFFSET UNITYSDK_OFFSET(0xBF90750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreePropPanel___c__DisplayClass24_0_TypeDefinitionIndex = 60736;
+	inline static constexpr unsigned int MatchThreePropPanel___c__DisplayClass24_0_TypeDefinitionIndex = 61670;
 
 	class MatchThreePropPanel___c__DisplayClass24_0 : public ::System::Object
 	{

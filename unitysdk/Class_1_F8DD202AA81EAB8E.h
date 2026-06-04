@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_6E311A017753F787.h"
+#include "unitysdk/Struct_2_BAC27E6E9012E854.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::GameCore { class FiveDimSpikeConfig; }
 
-#define CLASS_1_F8DD202AA81EAB8E__CTOR_OFFSET UNITYSDK_OFFSET(0x17F99B10)
+#define CLASS_1_F8DD202AA81EAB8E__CTOR_OFFSET UNITYSDK_OFFSET(0x18BFBAB0)
 
-inline static constexpr unsigned int Class_1_F8DD202AA81EAB8E_TypeDefinitionIndex = 39290;
+inline static constexpr unsigned int Class_1_F8DD202AA81EAB8E_TypeDefinitionIndex = 40059;
 
 class Class_1_F8DD202AA81EAB8E : public ::System::Object
 {
 public:
-	::Struct_2_6E311A017753F787 Field_1_1; // 0x10
-	::RPG::GameCore::FiveDimSpikeConfig* Field_1_0; // 0x30
+	::RPG::GameCore::FiveDimSpikeConfig* Field_1_0; // 0x10
+	::Struct_2_BAC27E6E9012E854 Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

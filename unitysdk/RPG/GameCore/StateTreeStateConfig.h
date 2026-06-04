@@ -8,13 +8,13 @@ namespace RPG::GameCore { class STTaskConfig; }
 namespace RPG::GameCore { class StateTreeSelectStateConfig; }
 namespace RPG::GameCore { class StateTreeTransitionConfig; }
 
-#define RPG_GAMECORE_STATETREESTATECONFIG_METHOD_3_1A799750F85DE99D_OFFSET UNITYSDK_OFFSET(0x18E9DB30)
-#define RPG_GAMECORE_STATETREESTATECONFIG_METHOD_3_67CAFE4E7BE95CC8_OFFSET UNITYSDK_OFFSET(0x18E9D5F0)
-#define RPG_GAMECORE_STATETREESTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E9D5E0)
+#define RPG_GAMECORE_STATETREESTATECONFIG_METHOD_3_06851D487CADA37E_OFFSET UNITYSDK_OFFSET(0x19CBAC40)
+#define RPG_GAMECORE_STATETREESTATECONFIG_METHOD_3_FE5B10BEB467818F_OFFSET UNITYSDK_OFFSET(0x19CBA720)
+#define RPG_GAMECORE_STATETREESTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CBA710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateTreeStateConfig_TypeDefinitionIndex = 14664;
+	inline static constexpr unsigned int StateTreeStateConfig_TypeDefinitionIndex = 14730;
 
 	class StateTreeStateConfig : public ::RPG::GameCore::StateTreeStateBaseConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESTATECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1A799750F85DE99D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StateTreeStateConfig*& a2)
+		static ::System::Void Method_3_06851D487CADA37E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StateTreeStateConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StateTreeStateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESTATECONFIG_METHOD_3_1A799750F85DE99D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StateTreeStateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESTATECONFIG_METHOD_3_06851D487CADA37E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_67CAFE4E7BE95CC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StateTreeStateConfig* a2)
+		static ::System::Void Method_3_FE5B10BEB467818F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StateTreeStateConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StateTreeStateConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESTATECONFIG_METHOD_3_67CAFE4E7BE95CC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StateTreeStateConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESTATECONFIG_METHOD_3_FE5B10BEB467818F_OFFSET))(a1, a2);
 		}
 	};
 }

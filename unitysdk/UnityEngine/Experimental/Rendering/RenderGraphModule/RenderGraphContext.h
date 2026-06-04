@@ -9,7 +9,7 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraphContext_TypeDefinitionIndex = 33358;
+	inline static constexpr unsigned int RenderGraphContext_TypeDefinitionIndex = 33640;
 
 	struct alignas(8) RenderGraphContext
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int CirticalTrackType_TypeDefinitionIndex = 71325;
+	inline static constexpr unsigned int CirticalTrackType_TypeDefinitionIndex = 72347;
 
 	enum class CirticalTrackType : ::System::Int32
 	{

@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int IBitArray_TypeDefinitionIndex = 33499;
+	inline static constexpr unsigned int IBitArray_TypeDefinitionIndex = 33781;
 
 	class IBitArray
 	{

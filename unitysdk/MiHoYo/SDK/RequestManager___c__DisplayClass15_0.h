@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17638470)
-#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS15_0__GETMOBILEVERIFYCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1763EFF0)
+#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184162B0)
+#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS15_0__GETMOBILEVERIFYCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1841D070)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RequestManager___c__DisplayClass15_0_TypeDefinitionIndex = 7103;
+	inline static constexpr unsigned int RequestManager___c__DisplayClass15_0_TypeDefinitionIndex = 8006;
 
 	class RequestManager___c__DisplayClass15_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GetMobileVerifyCode_b__0(::System::Int32 code, ::System::String* mmt)
+		::System::Void _GetMobileVerifyCode_b__0(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS15_0__GETMOBILEVERIFYCODE_B__0_OFFSET))(this, code, mmt);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS15_0__GETMOBILEVERIFYCODE_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

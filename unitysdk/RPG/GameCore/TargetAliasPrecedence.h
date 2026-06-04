@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetAliasPrecedence_TypeDefinitionIndex = 54470;
+	inline static constexpr unsigned int TargetAliasPrecedence_TypeDefinitionIndex = 55197;
 
 	enum class TargetAliasPrecedence : ::System::Int32
 	{

@@ -5,24 +5,24 @@
 namespace RPG::Client { class MatchThreeOpponentData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA848220)
-#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA848260)
-#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__GETPROCESSEDOPPONENTS_B__6_0_OFFSET UNITYSDK_OFFSET(0xA848270)
+#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF91E70)
+#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF91EB0)
+#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__GETPROCESSEDOPPONENTS_B__6_0_OFFSET UNITYSDK_OFFSET(0xBF91EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeRoyaleLobby___c_TypeDefinitionIndex = 60832;
+	inline static constexpr unsigned int MatchThreeRoyaleLobby___c_TypeDefinitionIndex = 61766;
 
 	class MatchThreeRoyaleLobby___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::MatchThreeOpponentData*>** StaticGet___9__6_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MatchThreeOpponentData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeRoyaleLobby___c_TypeDefinitionIndex)->GetStaticField(0x29670);
+			return (::System::Comparison_1<::RPG::Client::MatchThreeOpponentData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeRoyaleLobby___c_TypeDefinitionIndex)->GetStaticField(0x55A10);
 		}
 		static ::RPG::Client::MatchThreeRoyaleLobby___c** StaticGet___9()
 		{
-			return (::RPG::Client::MatchThreeRoyaleLobby___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeRoyaleLobby___c_TypeDefinitionIndex)->GetStaticField(0x29678);
+			return (::RPG::Client::MatchThreeRoyaleLobby___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeRoyaleLobby___c_TypeDefinitionIndex)->GetStaticField(0x55A18);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEROYALELOBBY___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetProcessedOpponents_b__6_0(::RPG::Client::MatchThreeOpponentData* a, ::RPG::Client::MatchThreeOpponentData* b)
+		::System::Int32 _GetProcessedOpponents_b__6_0(::RPG::Client::MatchThreeOpponentData* a1, ::RPG::Client::MatchThreeOpponentData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MatchThreeOpponentData*, ::RPG::Client::MatchThreeOpponentData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEROYALELOBBY___C__GETPROCESSEDOPPONENTS_B__6_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MatchThreeOpponentData*, ::RPG::Client::MatchThreeOpponentData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEROYALELOBBY___C__GETPROCESSEDOPPONENTS_B__6_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

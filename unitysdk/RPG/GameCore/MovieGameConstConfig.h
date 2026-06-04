@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ActivityMovieStartBuffConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MOVIEGAMECONSTCONFIG_METHOD_2_FB3579EF1D51FDF8_OFFSET UNITYSDK_OFFSET(0x18B65E90)
-#define RPG_GAMECORE_MOVIEGAMECONSTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B661D0)
+#define RPG_GAMECORE_MOVIEGAMECONSTCONFIG_METHOD_2_AF9CA7D68282BF17_OFFSET UNITYSDK_OFFSET(0x199B5310)
+#define RPG_GAMECORE_MOVIEGAMECONSTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199B5650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MovieGameConstConfig_TypeDefinitionIndex = 16650;
+	inline static constexpr unsigned int MovieGameConstConfig_TypeDefinitionIndex = 16679;
 
 	class MovieGameConstConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MOVIEGAMECONSTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FB3579EF1D51FDF8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MovieGameConstConfig*& a2)
+		static ::System::Void Method_2_AF9CA7D68282BF17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MovieGameConstConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MovieGameConstConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MOVIEGAMECONSTCONFIG_METHOD_2_FB3579EF1D51FDF8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MovieGameConstConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MOVIEGAMECONSTCONFIG_METHOD_2_AF9CA7D68282BF17_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8E8AE80)
-#define EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8E8AEB0)
-#define EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8E88640)
-#define EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8E8AE60)
+#define EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA2C9DE0)
+#define EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA2C9E10)
+#define EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA2C8080)
+#define EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA2C9CF0)
 
 namespace Epic::OnlineServices::Friends
 {
-	inline static constexpr unsigned int OnSendInviteCallback_TypeDefinitionIndex = 42120;
+	inline static constexpr unsigned int OnSendInviteCallback_TypeDefinitionIndex = 42923;
 
 	class OnSendInviteCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::Friends::SendInviteCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::Friends::SendInviteCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Friends::SendInviteCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Friends::SendInviteCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Friends::SendInviteCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Friends::SendInviteCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Friends::SendInviteCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Friends::SendInviteCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_FRIENDS_ONSENDINVITECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

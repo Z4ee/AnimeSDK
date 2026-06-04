@@ -10,17 +10,17 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XLua { class LuaEnv; }
 namespace XLua { class LuaMemoryLeakChecker_Data; }
 
-#define XLUA_LUAMEMORYLEAKCHECKER_FINDGROWING_OFFSET UNITYSDK_OFFSET(0x112371E0)
-#define XLUA_LUAMEMORYLEAKCHECKER_GETRELATIONSHIP_OFFSET UNITYSDK_OFFSET(0x11236E60)
-#define XLUA_LUAMEMORYLEAKCHECKER_GETSIZEREPORT_OFFSET UNITYSDK_OFFSET(0x112369D0)
-#define XLUA_LUAMEMORYLEAKCHECKER_MAKEKEY_OFFSET UNITYSDK_OFFSET(0x11236CF0)
-#define XLUA_LUAMEMORYLEAKCHECKER_MEMORYLEAKCHECK_OFFSET UNITYSDK_OFFSET(0x112374A0)
-#define XLUA_LUAMEMORYLEAKCHECKER_MEMORYLEAKREPORT_OFFSET UNITYSDK_OFFSET(0x11237590)
-#define XLUA_LUAMEMORYLEAKCHECKER_STARTMEMORYLEAKCHECK_OFFSET UNITYSDK_OFFSET(0x11237100)
+#define XLUA_LUAMEMORYLEAKCHECKER_FINDGROWING_OFFSET UNITYSDK_OFFSET(0x12E98070)
+#define XLUA_LUAMEMORYLEAKCHECKER_GETRELATIONSHIP_OFFSET UNITYSDK_OFFSET(0x12E97CE0)
+#define XLUA_LUAMEMORYLEAKCHECKER_GETSIZEREPORT_OFFSET UNITYSDK_OFFSET(0x12E977F0)
+#define XLUA_LUAMEMORYLEAKCHECKER_MAKEKEY_OFFSET UNITYSDK_OFFSET(0x12E97B60)
+#define XLUA_LUAMEMORYLEAKCHECKER_MEMORYLEAKCHECK_OFFSET UNITYSDK_OFFSET(0x12E98320)
+#define XLUA_LUAMEMORYLEAKCHECKER_MEMORYLEAKREPORT_OFFSET UNITYSDK_OFFSET(0x12E98410)
+#define XLUA_LUAMEMORYLEAKCHECKER_STARTMEMORYLEAKCHECK_OFFSET UNITYSDK_OFFSET(0x12E97F90)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker_TypeDefinitionIndex = 46290;
+	inline static constexpr unsigned int LuaMemoryLeakChecker_TypeDefinitionIndex = 46880;
 
 	class LuaMemoryLeakChecker : public ::System::Object
 	{
@@ -29,39 +29,39 @@ namespace XLua
 		// static const ::System::String* METATABLE_KEY; // 0x0
 		// static const ::System::String* KEY_OF_TABLE; // 0x0
 
-		static ::XLua::LuaMemoryLeakChecker_Data* getSizeReport(::XLua::LuaEnv* env)
+		static ::XLua::LuaMemoryLeakChecker_Data* getSizeReport(::XLua::LuaEnv* a1)
 		{
-			return ((::XLua::LuaMemoryLeakChecker_Data*(*)(::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_GETSIZEREPORT_OFFSET))(env);
+			return ((::XLua::LuaMemoryLeakChecker_Data*(*)(::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_GETSIZEREPORT_OFFSET))(a1);
 		}
 
-		static ::System::String* makeKey(::XLua::LuaDLL::RelationshipType type, ::System::String* key, ::System::Double d, ::System::String* key2)
+		static ::System::String* makeKey(::XLua::LuaDLL::RelationshipType a1, ::System::String* a2, ::System::Double a3, ::System::String* a4)
 		{
-			return ((::System::String*(*)(::XLua::LuaDLL::RelationshipType, ::System::String*, ::System::Double, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_MAKEKEY_OFFSET))(type, key, d, key2);
+			return ((::System::String*(*)(::XLua::LuaDLL::RelationshipType, ::System::String*, ::System::Double, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_MAKEKEY_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::IntPtr, ::System::Collections::Generic::List_1<::XLua::LuaMemoryLeakChecker_RefInfo>*>* getRelationship(::XLua::LuaEnv* env)
+		static ::System::Collections::Generic::Dictionary_2<::System::IntPtr, ::System::Collections::Generic::List_1<::XLua::LuaMemoryLeakChecker_RefInfo>*>* getRelationship(::XLua::LuaEnv* a1)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::IntPtr, ::System::Collections::Generic::List_1<::XLua::LuaMemoryLeakChecker_RefInfo>*>*(*)(::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_GETRELATIONSHIP_OFFSET))(env);
+			return ((::System::Collections::Generic::Dictionary_2<::System::IntPtr, ::System::Collections::Generic::List_1<::XLua::LuaMemoryLeakChecker_RefInfo>*>*(*)(::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_GETRELATIONSHIP_OFFSET))(a1);
 		}
 
-		static ::XLua::LuaMemoryLeakChecker_Data* StartMemoryLeakCheck(::XLua::LuaEnv* env)
+		static ::XLua::LuaMemoryLeakChecker_Data* StartMemoryLeakCheck(::XLua::LuaEnv* a1)
 		{
-			return ((::XLua::LuaMemoryLeakChecker_Data*(*)(::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_STARTMEMORYLEAKCHECK_OFFSET))(env);
+			return ((::XLua::LuaMemoryLeakChecker_Data*(*)(::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_STARTMEMORYLEAKCHECK_OFFSET))(a1);
 		}
 
-		static ::XLua::LuaMemoryLeakChecker_Data* findGrowing(::XLua::LuaMemoryLeakChecker_Data* from, ::XLua::LuaMemoryLeakChecker_Data* to)
+		static ::XLua::LuaMemoryLeakChecker_Data* findGrowing(::XLua::LuaMemoryLeakChecker_Data* a1, ::XLua::LuaMemoryLeakChecker_Data* a2)
 		{
-			return ((::XLua::LuaMemoryLeakChecker_Data*(*)(::XLua::LuaMemoryLeakChecker_Data*, ::XLua::LuaMemoryLeakChecker_Data*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_FINDGROWING_OFFSET))(from, to);
+			return ((::XLua::LuaMemoryLeakChecker_Data*(*)(::XLua::LuaMemoryLeakChecker_Data*, ::XLua::LuaMemoryLeakChecker_Data*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_FINDGROWING_OFFSET))(a1, a2);
 		}
 
-		static ::XLua::LuaMemoryLeakChecker_Data* MemoryLeakCheck(::XLua::LuaEnv* env, ::XLua::LuaMemoryLeakChecker_Data* last)
+		static ::XLua::LuaMemoryLeakChecker_Data* MemoryLeakCheck(::XLua::LuaEnv* a1, ::XLua::LuaMemoryLeakChecker_Data* a2)
 		{
-			return ((::XLua::LuaMemoryLeakChecker_Data*(*)(::XLua::LuaEnv*, ::XLua::LuaMemoryLeakChecker_Data*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_MEMORYLEAKCHECK_OFFSET))(env, last);
+			return ((::XLua::LuaMemoryLeakChecker_Data*(*)(::XLua::LuaEnv*, ::XLua::LuaMemoryLeakChecker_Data*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_MEMORYLEAKCHECK_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* MemoryLeakReport(::XLua::LuaEnv* env, ::XLua::LuaMemoryLeakChecker_Data* data, ::System::Int32 maxLevel)
+		static ::System::String* MemoryLeakReport(::XLua::LuaEnv* a1, ::XLua::LuaMemoryLeakChecker_Data* a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::XLua::LuaEnv*, ::XLua::LuaMemoryLeakChecker_Data*, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_MEMORYLEAKREPORT_OFFSET))(env, data, maxLevel);
+			return ((::System::String*(*)(::XLua::LuaEnv*, ::XLua::LuaMemoryLeakChecker_Data*, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER_MEMORYLEAKREPORT_OFFSET))(a1, a2, a3);
 		}
 	};
 }

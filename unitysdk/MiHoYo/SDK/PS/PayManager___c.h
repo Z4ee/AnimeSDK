@@ -8,29 +8,29 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PS_PAYMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x175EFB30)
-#define MIHOYO_SDK_PS_PAYMANAGER___C__CHECKPSPAY_B__17_1_OFFSET UNITYSDK_OFFSET(0x175EFBA0)
-#define MIHOYO_SDK_PS_PAYMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x175EFB70)
-#define MIHOYO_SDK_PS_PAYMANAGER___C__REFRESHPRODUCTCACHE_B__16_0_OFFSET UNITYSDK_OFFSET(0x175EFB80)
+#define MIHOYO_SDK_PS_PAYMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183C9610)
+#define MIHOYO_SDK_PS_PAYMANAGER___C__CHECKPSPAY_B__17_1_OFFSET UNITYSDK_OFFSET(0x183C9680)
+#define MIHOYO_SDK_PS_PAYMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183C9650)
+#define MIHOYO_SDK_PS_PAYMANAGER___C__REFRESHPRODUCTCACHE_B__16_0_OFFSET UNITYSDK_OFFSET(0x183C9660)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PayManager___c_TypeDefinitionIndex = 7672;
+	inline static constexpr unsigned int PayManager___c_TypeDefinitionIndex = 8575;
 
 	class PayManager___c : public ::System::Object
 	{
 	public:
+		static ::MiHoYo::SDK::PS::PayManager___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::PS::PayManager___c**)Il2CppClass::FromTypeDefinitionIndex(PayManager___c_TypeDefinitionIndex)->GetStaticField(0x18E40);
+		}
 		static ::System::Func_2<::MiHoYo::SDK::PS::PayManager_PSProduct, ::MiHoYo::SDK::Console::ConsoleProduct>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::MiHoYo::SDK::PS::PayManager_PSProduct, ::MiHoYo::SDK::Console::ConsoleProduct>**)Il2CppClass::FromTypeDefinitionIndex(PayManager___c_TypeDefinitionIndex)->GetStaticField(0x1DD30);
+			return (::System::Func_2<::MiHoYo::SDK::PS::PayManager_PSProduct, ::MiHoYo::SDK::Console::ConsoleProduct>**)Il2CppClass::FromTypeDefinitionIndex(PayManager___c_TypeDefinitionIndex)->GetStaticField(0x18E48);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__17_1()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(PayManager___c_TypeDefinitionIndex)->GetStaticField(0x1DD38);
-		}
-		static ::MiHoYo::SDK::PS::PayManager___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::PS::PayManager___c**)Il2CppClass::FromTypeDefinitionIndex(PayManager___c_TypeDefinitionIndex)->GetStaticField(0x1DD40);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(PayManager___c_TypeDefinitionIndex)->GetStaticField(0x18E50);
 		}
 
 		static ::System::Void _cctor()
@@ -43,14 +43,14 @@ namespace MiHoYo::SDK::PS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PAYMANAGER___C__CTOR_OFFSET))(this);
 		}
 
-		::MiHoYo::SDK::Console::ConsoleProduct _RefreshProductCache_b__16_0(::MiHoYo::SDK::PS::PayManager_PSProduct t)
+		::MiHoYo::SDK::Console::ConsoleProduct _RefreshProductCache_b__16_0(::MiHoYo::SDK::PS::PayManager_PSProduct a1)
 		{
-			return ((::MiHoYo::SDK::Console::ConsoleProduct(*)(::PVOID, ::MiHoYo::SDK::PS::PayManager_PSProduct))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PAYMANAGER___C__REFRESHPRODUCTCACHE_B__16_0_OFFSET))(this, t);
+			return ((::MiHoYo::SDK::Console::ConsoleProduct(*)(::PVOID, ::MiHoYo::SDK::PS::PayManager_PSProduct))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PAYMANAGER___C__REFRESHPRODUCTCACHE_B__16_0_OFFSET))(this, a1);
 		}
 
-		::System::Void _CheckPSPay_b__17_1(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _CheckPSPay_b__17_1(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PAYMANAGER___C__CHECKPSPAY_B__17_1_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PAYMANAGER___C__CHECKPSPAY_B__17_1_OFFSET))(this, a1);
 		}
 	};
 }

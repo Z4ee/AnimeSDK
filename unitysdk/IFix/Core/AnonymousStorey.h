@@ -7,68 +7,68 @@ namespace IFix::Core { class VirtualMachine; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define IFIX_CORE_ANONYMOUSSTOREY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1713C200)
-#define IFIX_CORE_ANONYMOUSSTOREY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1713C960)
-#define IFIX_CORE_ANONYMOUSSTOREY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1713C580)
-#define IFIX_CORE_ANONYMOUSSTOREY_GET_OFFSET UNITYSDK_OFFSET(0x1713B410)
-#define IFIX_CORE_ANONYMOUSSTOREY_LDFLD_OFFSET UNITYSDK_OFFSET(0x1713B170)
-#define IFIX_CORE_ANONYMOUSSTOREY_OBJECTEQUALS_OFFSET UNITYSDK_OFFSET(0x1713C1F0)
-#define IFIX_CORE_ANONYMOUSSTOREY_OBJECTGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1713C570)
-#define IFIX_CORE_ANONYMOUSSTOREY_OBJECTTOSTRING_OFFSET UNITYSDK_OFFSET(0x1713C700)
-#define IFIX_CORE_ANONYMOUSSTOREY_SET_OFFSET UNITYSDK_OFFSET(0x1713BED0)
-#define IFIX_CORE_ANONYMOUSSTOREY_STFLD_OFFSET UNITYSDK_OFFSET(0x1713B2D0)
-#define IFIX_CORE_ANONYMOUSSTOREY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1713C740)
-#define IFIX_CORE_ANONYMOUSSTOREY__CTOR_OFFSET UNITYSDK_OFFSET(0x1713AD10)
+#define IFIX_CORE_ANONYMOUSSTOREY_EQUALS_OFFSET UNITYSDK_OFFSET(0x17F87790)
+#define IFIX_CORE_ANONYMOUSSTOREY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x17F87E60)
+#define IFIX_CORE_ANONYMOUSSTOREY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17F87B00)
+#define IFIX_CORE_ANONYMOUSSTOREY_GET_OFFSET UNITYSDK_OFFSET(0x17F869D0)
+#define IFIX_CORE_ANONYMOUSSTOREY_LDFLD_OFFSET UNITYSDK_OFFSET(0x17F867D0)
+#define IFIX_CORE_ANONYMOUSSTOREY_OBJECTEQUALS_OFFSET UNITYSDK_OFFSET(0x17F87780)
+#define IFIX_CORE_ANONYMOUSSTOREY_OBJECTGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17F87AF0)
+#define IFIX_CORE_ANONYMOUSSTOREY_OBJECTTOSTRING_OFFSET UNITYSDK_OFFSET(0x17F87C80)
+#define IFIX_CORE_ANONYMOUSSTOREY_SET_OFFSET UNITYSDK_OFFSET(0x17F87490)
+#define IFIX_CORE_ANONYMOUSSTOREY_STFLD_OFFSET UNITYSDK_OFFSET(0x17F868E0)
+#define IFIX_CORE_ANONYMOUSSTOREY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17F87CC0)
+#define IFIX_CORE_ANONYMOUSSTOREY__CTOR_OFFSET UNITYSDK_OFFSET(0x17F86410)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int AnonymousStorey_TypeDefinitionIndex = 9927;
+	inline static constexpr unsigned int AnonymousStorey_TypeDefinitionIndex = 9754;
 
 	class AnonymousStorey : public ::System::Object
 	{
 	public:
-		::IFix::Core::VirtualMachine* virtualMachine; // 0x10
-		::Il2CppArray<::System::Object*>* managedFields; // 0x18
+		::Il2CppArray<::System::Object*>* managedFields; // 0x10
+		::IFix::Core::VirtualMachine* virtualMachine; // 0x18
 		::Il2CppArray<::IFix::Core::Value>* unmanagedFields; // 0x20
-		::System::Int32 toStringMethodId; // 0x28
-		::System::Int32 typeId; // 0x2C
-		::System::Int32 equalMethodId; // 0x30
-		::System::Int32 finalizeMethodId; // 0x34
+		::System::Int32 typeId; // 0x28
+		::System::Int32 finalizeMethodId; // 0x2C
+		::System::Int32 toStringMethodId; // 0x30
+		::System::Int32 equalMethodId; // 0x34
 		::System::Int32 getHashCodeMethodId; // 0x38
 
-		::System::Void _ctor(::System::Int32 fieldNum, ::Il2CppArray<::System::Int32>* fieldTypes, ::System::Int32 typeID, ::Il2CppArray<::System::Int32>* vTable, ::IFix::Core::VirtualMachine* virtualMachine)
+		::System::Void _ctor(::System::Int32 a1, ::Il2CppArray<::System::Int32>* a2, ::System::Int32 a3, ::Il2CppArray<::System::Int32>* a4, ::IFix::Core::VirtualMachine* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::IFix::Core::VirtualMachine*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY__CTOR_OFFSET))(this, fieldNum, fieldTypes, typeID, vTable, virtualMachine);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::IFix::Core::VirtualMachine*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Ldfld(::System::Int32 fieldIndex, ::IFix::Core::Value* evaluationStackBase, ::IFix::Core::Value* evaluationStackPointer, ::Il2CppArray<::System::Object*>* managedStack)
+		::System::Void Ldfld(::System::Int32 a1, ::IFix::Core::Value* a2, ::IFix::Core::Value* a3, ::Il2CppArray<::System::Object*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::IFix::Core::Value*, ::IFix::Core::Value*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_LDFLD_OFFSET))(this, fieldIndex, evaluationStackBase, evaluationStackPointer, managedStack);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::IFix::Core::Value*, ::IFix::Core::Value*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_LDFLD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Stfld(::System::Int32 fieldIndex, ::IFix::Core::Value* evaluationStackBase, ::IFix::Core::Value* evaluationStackPointer, ::Il2CppArray<::System::Object*>* managedStack)
+		::System::Void Stfld(::System::Int32 a1, ::IFix::Core::Value* a2, ::IFix::Core::Value* a3, ::Il2CppArray<::System::Object*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::IFix::Core::Value*, ::IFix::Core::Value*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_STFLD_OFFSET))(this, fieldIndex, evaluationStackBase, evaluationStackPointer, managedStack);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::IFix::Core::Value*, ::IFix::Core::Value*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_STFLD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Object* Get(::System::Int32 fieldIndex, ::System::Type* type, ::IFix::Core::VirtualMachine* virtualMachine, ::System::Boolean valueTypeClone)
+		::System::Object* Get(::System::Int32 a1, ::System::Type* a2, ::IFix::Core::VirtualMachine* a3, ::System::Boolean a4)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Type*, ::IFix::Core::VirtualMachine*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_GET_OFFSET))(this, fieldIndex, type, virtualMachine, valueTypeClone);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Type*, ::IFix::Core::VirtualMachine*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_GET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Set(::System::Int32 fieldIndex, ::System::Object* obj, ::System::Type* type, ::IFix::Core::VirtualMachine* virtualMachine)
+		::System::Void Set(::System::Int32 a1, ::System::Object* a2, ::System::Type* a3, ::IFix::Core::VirtualMachine* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Type*, ::IFix::Core::VirtualMachine*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_SET_OFFSET))(this, fieldIndex, obj, type, virtualMachine);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Type*, ::IFix::Core::VirtualMachine*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_SET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean ObjectEquals(::System::Object* obj)
+		::System::Boolean ObjectEquals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_OBJECTEQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_OBJECTEQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_ANONYMOUSSTOREY_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 ObjectGetHashCode()

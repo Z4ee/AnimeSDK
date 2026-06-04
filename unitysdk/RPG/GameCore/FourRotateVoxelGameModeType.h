@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelGameModeType_TypeDefinitionIndex = 15852;
+	inline static constexpr unsigned int FourRotateVoxelGameModeType_TypeDefinitionIndex = 15906;
 
 	enum class FourRotateVoxelGameModeType : ::System::Int32
 	{

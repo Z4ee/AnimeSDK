@@ -4,66 +4,66 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETBOTTOM_OFFSET UNITYSDK_OFFSET(0xAF83A10)
-#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETLEFT_OFFSET UNITYSDK_OFFSET(0xAF83740)
-#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETRIGHT_OFFSET UNITYSDK_OFFSET(0xAF83810)
-#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETTOP_OFFSET UNITYSDK_OFFSET(0xAF83910)
-#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_ISPOOLABLE_OFFSET UNITYSDK_OFFSET(0xAF83AE0)
-#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETBOTTOM_OFFSET UNITYSDK_OFFSET(0xAF834B0)
-#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETLEFT_OFFSET UNITYSDK_OFFSET(0xAF82C60)
-#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETRIGHT_OFFSET UNITYSDK_OFFSET(0xAF82EF0)
-#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETTOP_OFFSET UNITYSDK_OFFSET(0xAF831D0)
+#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETBOTTOM_OFFSET UNITYSDK_OFFSET(0xC6C9E10)
+#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETLEFT_OFFSET UNITYSDK_OFFSET(0xC6C9B40)
+#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETRIGHT_OFFSET UNITYSDK_OFFSET(0xC6C9C10)
+#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETTOP_OFFSET UNITYSDK_OFFSET(0xC6C9D10)
+#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_ISPOOLABLE_OFFSET UNITYSDK_OFFSET(0xC6C9EE0)
+#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETBOTTOM_OFFSET UNITYSDK_OFFSET(0xC6C98B0)
+#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETLEFT_OFFSET UNITYSDK_OFFSET(0xC6C9060)
+#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETRIGHT_OFFSET UNITYSDK_OFFSET(0xC6C92F0)
+#define RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETTOP_OFFSET UNITYSDK_OFFSET(0xC6C95D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RectTransformExtensions_TypeDefinitionIndex = 67044;
+	inline static constexpr unsigned int RectTransformExtensions_TypeDefinitionIndex = 67986;
 
 	class RectTransformExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Void SetLeft(::UnityEngine::RectTransform* rt, ::System::Single left)
+		static ::System::Void SetLeft(::UnityEngine::RectTransform* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETLEFT_OFFSET))(rt, left);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETLEFT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetRight(::UnityEngine::RectTransform* rt, ::System::Single right)
+		static ::System::Void SetRight(::UnityEngine::RectTransform* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETRIGHT_OFFSET))(rt, right);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETRIGHT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetTop(::UnityEngine::RectTransform* rt, ::System::Single top)
+		static ::System::Void SetTop(::UnityEngine::RectTransform* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETTOP_OFFSET))(rt, top);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETTOP_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetBottom(::UnityEngine::RectTransform* rt, ::System::Single bottom)
+		static ::System::Void SetBottom(::UnityEngine::RectTransform* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETBOTTOM_OFFSET))(rt, bottom);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_SETBOTTOM_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single GetLeft(::UnityEngine::RectTransform* rt)
+		static ::System::Single GetLeft(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETLEFT_OFFSET))(rt);
+			return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETLEFT_OFFSET))(a1);
 		}
 
-		static ::System::Single GetRight(::UnityEngine::RectTransform* rt)
+		static ::System::Single GetRight(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETRIGHT_OFFSET))(rt);
+			return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETRIGHT_OFFSET))(a1);
 		}
 
-		static ::System::Single GetTop(::UnityEngine::RectTransform* rt)
+		static ::System::Single GetTop(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETTOP_OFFSET))(rt);
+			return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETTOP_OFFSET))(a1);
 		}
 
-		static ::System::Single GetBottom(::UnityEngine::RectTransform* rt)
+		static ::System::Single GetBottom(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETBOTTOM_OFFSET))(rt);
+			return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_GETBOTTOM_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsPoolable(::UnityEngine::RectTransform* rt)
+		static ::System::Boolean IsPoolable(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_ISPOOLABLE_OFFSET))(rt);
+			return ((::System::Boolean(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECTTRANSFORMEXTENSIONS_ISPOOLABLE_OFFSET))(a1);
 		}
 	};
 }

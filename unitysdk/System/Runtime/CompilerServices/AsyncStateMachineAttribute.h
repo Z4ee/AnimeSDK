@@ -4,18 +4,18 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCSTATEMACHINEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179BE510)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCSTATEMACHINEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1876F140)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncStateMachineAttribute_TypeDefinitionIndex = 1350;
+	inline static constexpr unsigned int AsyncStateMachineAttribute_TypeDefinitionIndex = 1349;
 
 	class AsyncStateMachineAttribute : public ::System::Runtime::CompilerServices::StateMachineAttribute
 	{
 	public:
-		::System::Void _ctor(::System::Type* stateMachineType)
+		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCSTATEMACHINEATTRIBUTE__CTOR_OFFSET))(this, stateMachineType);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCSTATEMACHINEATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

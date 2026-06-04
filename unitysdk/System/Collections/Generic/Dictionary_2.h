@@ -22,7 +22,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int Dictionary_2_TypeDefinitionIndex = 1525;
+	inline static constexpr unsigned int Dictionary_2_TypeDefinitionIndex = 1524;
 
 	template <typename TKey, typename TValue>
 	class Dictionary_2 : public ::System::Object
@@ -37,6 +37,5 @@ namespace System::Collections::Generic
 		::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer; // 0x0
 		::System::Collections::Generic::Dictionary_2_KeyCollection<TKey, TValue>* keys; // 0x0
 		::System::Collections::Generic::Dictionary_2_ValueCollection<TKey, TValue>* values; // 0x0
-		::System::Object* _syncRoot; // 0x0
 	};
 }

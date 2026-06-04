@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/NewsTicker_MoveDirectionType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_0_16E4307DCC419505_889;
+class Class_0_16E4307DCC419505_939;
 namespace RPG::Client { class NewsTickerItem; }
 namespace RPG::Client { template <typename T> class NewsTickerItemPool_1; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
@@ -13,26 +13,26 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_NEWSTICKER_AWAKE_OFFSET UNITYSDK_OFFSET(0xABD5E40)
-#define RPG_CLIENT_NEWSTICKER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xABD6000)
-#define RPG_CLIENT_NEWSTICKER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xABD5F60)
-#define RPG_CLIENT_NEWSTICKER_PAUSE_OFFSET UNITYSDK_OFFSET(0xABD6D80)
-#define RPG_CLIENT_NEWSTICKER_PLAY_OFFSET UNITYSDK_OFFSET(0xABD6CF0)
-#define RPG_CLIENT_NEWSTICKER_SETITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xABD6AF0)
-#define RPG_CLIENT_NEWSTICKER_SETSETUPITEMCALLBACK_1_OFFSET UNITYSDK_OFFSET(0xABD6A40)
-#define RPG_CLIENT_NEWSTICKER_SETSETUPITEMCALLBACK_OFFSET UNITYSDK_OFFSET(0xABD69F0)
-#define RPG_CLIENT_NEWSTICKER_STOP_OFFSET UNITYSDK_OFFSET(0xABD6D30)
-#define RPG_CLIENT_NEWSTICKER_UPDATE_OFFSET UNITYSDK_OFFSET(0xABD6060)
-#define RPG_CLIENT_NEWSTICKER__CTOR_OFFSET UNITYSDK_OFFSET(0xABD6DC0)
-#define RPG_CLIENT_NEWSTICKER__ONMOVEDIRECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0xABD5EE0)
-#define RPG_CLIENT_NEWSTICKER__RECYCLEALLITEMS_OFFSET UNITYSDK_OFFSET(0xABD6B90)
-#define RPG_CLIENT_NEWSTICKER__TICKCREATENEWITEMS_OFFSET UNITYSDK_OFFSET(0xABD6630)
-#define RPG_CLIENT_NEWSTICKER__TICKMOVEITEMS_OFFSET UNITYSDK_OFFSET(0xABD6110)
-#define RPG_CLIENT_NEWSTICKER__TICKRECYCLEITEMS_OFFSET UNITYSDK_OFFSET(0xABD63A0)
+#define RPG_CLIENT_NEWSTICKER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC2E3100)
+#define RPG_CLIENT_NEWSTICKER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC2E3320)
+#define RPG_CLIENT_NEWSTICKER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC2E3250)
+#define RPG_CLIENT_NEWSTICKER_PAUSE_OFFSET UNITYSDK_OFFSET(0xC2E42B0)
+#define RPG_CLIENT_NEWSTICKER_PLAY_OFFSET UNITYSDK_OFFSET(0xC2E4220)
+#define RPG_CLIENT_NEWSTICKER_SETITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xC2E3FE0)
+#define RPG_CLIENT_NEWSTICKER_SETSETUPITEMCALLBACK_1_OFFSET UNITYSDK_OFFSET(0xC2E3EF0)
+#define RPG_CLIENT_NEWSTICKER_SETSETUPITEMCALLBACK_OFFSET UNITYSDK_OFFSET(0xC2E3EA0)
+#define RPG_CLIENT_NEWSTICKER_STOP_OFFSET UNITYSDK_OFFSET(0xC2E4260)
+#define RPG_CLIENT_NEWSTICKER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC2E33A0)
+#define RPG_CLIENT_NEWSTICKER__CTOR_OFFSET UNITYSDK_OFFSET(0xC2E42F0)
+#define RPG_CLIENT_NEWSTICKER__ONMOVEDIRECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0xC2E31D0)
+#define RPG_CLIENT_NEWSTICKER__RECYCLEALLITEMS_OFFSET UNITYSDK_OFFSET(0xC2E40A0)
+#define RPG_CLIENT_NEWSTICKER__TICKCREATENEWITEMS_OFFSET UNITYSDK_OFFSET(0xC2E3A30)
+#define RPG_CLIENT_NEWSTICKER__TICKMOVEITEMS_OFFSET UNITYSDK_OFFSET(0xC2E3470)
+#define RPG_CLIENT_NEWSTICKER__TICKRECYCLEITEMS_OFFSET UNITYSDK_OFFSET(0xC2E3720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NewsTicker_TypeDefinitionIndex = 63597;
+	inline static constexpr unsigned int NewsTicker_TypeDefinitionIndex = 64517;
 
 	class NewsTicker : public ::UnityEngine::MonoBehaviour
 	{
@@ -79,19 +79,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void SetSetupItemCallback(::System::Action_2<::RPG::Client::NewsTickerItem*, ::System::UInt32>* onSetupItem)
+		::System::Void SetSetupItemCallback(::System::Action_2<::RPG::Client::NewsTickerItem*, ::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::Client::NewsTickerItem*, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER_SETSETUPITEMCALLBACK_OFFSET))(this, onSetupItem);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::Client::NewsTickerItem*, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER_SETSETUPITEMCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void SetSetupItemCallback_1(::System::Action_3<::XLua::LuaTable*, ::RPG::Client::NewsTickerItem*, ::System::UInt32>* onSetupItem, ::XLua::LuaTable* luaSelf)
+		::System::Void SetSetupItemCallback_1(::System::Action_3<::XLua::LuaTable*, ::RPG::Client::NewsTickerItem*, ::System::UInt32>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::NewsTickerItem*, ::System::UInt32>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER_SETSETUPITEMCALLBACK_1_OFFSET))(this, onSetupItem, luaSelf);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::NewsTickerItem*, ::System::UInt32>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER_SETSETUPITEMCALLBACK_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetItemCount(::System::UInt32 count)
+		::System::Void SetItemCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER_SETITEMCOUNT_OFFSET))(this, count);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER_SETITEMCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Void Play()
@@ -114,19 +114,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER__ONMOVEDIRECTIONCHANGED_OFFSET))(this);
 		}
 
-		::System::Void _TickMoveItems(::Class_0_16E4307DCC419505_889* calImpl)
+		::System::Void _TickMoveItems(::Class_0_16E4307DCC419505_939* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_889*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER__TICKMOVEITEMS_OFFSET))(this, calImpl);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_939*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER__TICKMOVEITEMS_OFFSET))(this, a1);
 		}
 
-		::System::Void _TickRecycleItems(::Class_0_16E4307DCC419505_889* calImpl)
+		::System::Void _TickRecycleItems(::Class_0_16E4307DCC419505_939* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_889*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER__TICKRECYCLEITEMS_OFFSET))(this, calImpl);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_939*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER__TICKRECYCLEITEMS_OFFSET))(this, a1);
 		}
 
-		::System::Void _TickCreateNewItems(::Class_0_16E4307DCC419505_889* calImpl)
+		::System::Void _TickCreateNewItems(::Class_0_16E4307DCC419505_939* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_889*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER__TICKCREATENEWITEMS_OFFSET))(this, calImpl);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_939*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWSTICKER__TICKCREATENEWITEMS_OFFSET))(this, a1);
 		}
 
 		::System::Void _RecycleAllItems()

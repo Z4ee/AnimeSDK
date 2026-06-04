@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionCustomValue; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_METHOD_2_61C7F6C564FCBF93_OFFSET UNITYSDK_OFFSET(0x18B2D0D0)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2D270)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_METHOD_2_61C7F6C564FCBF93_OFFSET UNITYSDK_OFFSET(0x19944AC0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x19944C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValuePair_TypeDefinitionIndex = 18011;
+	inline static constexpr unsigned int MissionCustomValuePair_TypeDefinitionIndex = 18038;
 
 	class MissionCustomValuePair : public ::RPG::GameCore::JsonConfig
 	{

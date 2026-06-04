@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class IAvatarComparer; }
-namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_1_OFFSET UNITYSDK_OFFSET(0x9D6C710)
-#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x9D6C550)
-#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULT_OFFSET UNITYSDK_OFFSET(0x9D6C400)
-#define RPG_CLIENT_AVATARCOMPARERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x9D6C880)
+#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_1_OFFSET UNITYSDK_OFFSET(0xB35D1C0)
+#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xB35D050)
+#define RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULT_OFFSET UNITYSDK_OFFSET(0xB35CF00)
+#define RPG_CLIENT_AVATARCOMPARERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xB35D330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarComparerFactory_TypeDefinitionIndex = 57865;
+	inline static constexpr unsigned int AvatarComparerFactory_TypeDefinitionIndex = 58758;
 
 	class AvatarComparerFactory : public ::System::Object
 	{
@@ -28,14 +28,14 @@ namespace RPG::Client
 			return ((::RPG::Client::IAvatarComparer*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULT_OFFSET))();
 		}
 
-		static ::RPG::Client::IAvatarComparer* GetDefaultWithCustomHighlight(::RPG::Client::IAvatarComparer* customHighlightComparer)
+		static ::RPG::Client::IAvatarComparer* GetDefaultWithCustomHighlight(::RPG::Client::IAvatarComparer* a1)
 		{
-			return ((::RPG::Client::IAvatarComparer*(*)(::RPG::Client::IAvatarComparer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_OFFSET))(customHighlightComparer);
+			return ((::RPG::Client::IAvatarComparer*(*)(::RPG::Client::IAvatarComparer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::IAvatarComparer* GetDefaultWithCustomHighlight_1(::System::Comparison_1<::RPG::Client::IAvatarInfoProvider*>* customHighlightComparison)
+		static ::RPG::Client::IAvatarComparer* GetDefaultWithCustomHighlight_1(::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>* a1)
 		{
-			return ((::RPG::Client::IAvatarComparer*(*)(::System::Comparison_1<::RPG::Client::IAvatarInfoProvider*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_1_OFFSET))(customHighlightComparison);
+			return ((::RPG::Client::IAvatarComparer*(*)(::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARERFACTORY_GETDEFAULTWITHCUSTOMHIGHLIGHT_1_OFFSET))(a1);
 		}
 	};
 }

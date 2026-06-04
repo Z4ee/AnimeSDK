@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PERFORMANCEBACKUPCONFIG_METHOD_2_774E6EC19B37663B_OFFSET UNITYSDK_OFFSET(0x18BDC5F0)
-#define RPG_GAMECORE_PERFORMANCEBACKUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDC830)
+#define RPG_GAMECORE_PERFORMANCEBACKUPCONFIG_METHOD_2_35B6B26CB69DB3D4_OFFSET UNITYSDK_OFFSET(0x199EE780)
+#define RPG_GAMECORE_PERFORMANCEBACKUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199EE9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceBackupConfig_TypeDefinitionIndex = 18058;
+	inline static constexpr unsigned int PerformanceBackupConfig_TypeDefinitionIndex = 18082;
 
 	class PerformanceBackupConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEBACKUPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_774E6EC19B37663B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceBackupConfig*& a2)
+		static ::System::Void Method_2_35B6B26CB69DB3D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceBackupConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceBackupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEBACKUPCONFIG_METHOD_2_774E6EC19B37663B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceBackupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEBACKUPCONFIG_METHOD_2_35B6B26CB69DB3D4_OFFSET))(a1, a2);
 		}
 	};
 }

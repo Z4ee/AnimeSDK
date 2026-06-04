@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_5462E9D93C6034C6_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x9A38BA0)
-#define CLASS_2_5462E9D93C6034C6_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x9A38B30)
-#define CLASS_2_5462E9D93C6034C6__CTOR_OFFSET UNITYSDK_OFFSET(0x9A38C40)
+#define CLASS_2_5462E9D93C6034C6_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xA937820)
+#define CLASS_2_5462E9D93C6034C6_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xA9377B0)
+#define CLASS_2_5462E9D93C6034C6__CTOR_OFFSET UNITYSDK_OFFSET(0xA9378C0)
 
-inline static constexpr unsigned int Class_2_5462E9D93C6034C6_TypeDefinitionIndex = 66634;
+inline static constexpr unsigned int Class_2_5462E9D93C6034C6_TypeDefinitionIndex = 67574;
 
 class Class_2_5462E9D93C6034C6 : public ::Class_1_89D8044AB73F8F6D
 {
 public:
-	::UnityEngine::UI::Text* Field_2_1; // 0x18
-	::UnityEngine::UI::Text* Field_2_0; // 0x20
+	::UnityEngine::UI::Text* Field_2_0; // 0x18
+	::UnityEngine::UI::Text* Field_2_1; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -5,13 +5,13 @@
 
 namespace RPG::GameCore { class BattleTargetConfigRow; }
 
-#define RPG_GAMECORE_BATTLETARGETDETAILDATA_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xE1F50)
-#define RPG_GAMECORE_BATTLETARGETDETAILDATA_GET_TOTALPROGRESS_OFFSET UNITYSDK_OFFSET(0xE1EF0)
-#define RPG_GAMECORE_BATTLETARGETDETAILDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x29C30)
+#define RPG_GAMECORE_BATTLETARGETDETAILDATA_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1479F0)
+#define RPG_GAMECORE_BATTLETARGETDETAILDATA_GET_TOTALPROGRESS_OFFSET UNITYSDK_OFFSET(0x147980)
+#define RPG_GAMECORE_BATTLETARGETDETAILDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x2C890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleTargetDetailData_TypeDefinitionIndex = 53100;
+	inline static constexpr unsigned int BattleTargetDetailData_TypeDefinitionIndex = 53810;
 
 	struct alignas(8) BattleTargetDetailData
 	{
@@ -19,9 +19,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::FixPoint CurrentProgress; // 0x18
 		::RPG::GameCore::FixPoint FinishDelay; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::BattleTargetConfigRow* config, ::RPG::GameCore::FixPoint currentProgress, ::RPG::GameCore::FixPoint finishDelay)
+		::System::Void _ctor(::RPG::GameCore::BattleTargetConfigRow* a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleTargetConfigRow*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLETARGETDETAILDATA__CTOR_OFFSET))(this, config, currentProgress, finishDelay);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleTargetConfigRow*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLETARGETDETAILDATA__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::GameCore::FixPoint get_TotalProgress()

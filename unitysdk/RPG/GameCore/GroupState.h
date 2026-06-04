@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GROUPSTATE_METHOD_2_9792F54AA0062613_OFFSET UNITYSDK_OFFSET(0x189E1960)
-#define RPG_GAMECORE_GROUPSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x189E1AA0)
+#define RPG_GAMECORE_GROUPSTATE_METHOD_2_9792F54AA0062613_OFFSET UNITYSDK_OFFSET(0x19814DB0)
+#define RPG_GAMECORE_GROUPSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19814EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupState_TypeDefinitionIndex = 16439;
+	inline static constexpr unsigned int GroupState_TypeDefinitionIndex = 16473;
 
 	class GroupState : public ::RPG::GameCore::JsonConfig
 	{

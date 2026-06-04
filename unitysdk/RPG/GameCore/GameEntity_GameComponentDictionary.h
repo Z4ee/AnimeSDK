@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameComponentBase; }
 
-#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0xB699430)
+#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0xCE05D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntity_GameComponentDictionary_TypeDefinitionIndex = 49337;
+	inline static constexpr unsigned int GameEntity_GameComponentDictionary_TypeDefinitionIndex = 50004;
 
 	class GameEntity_GameComponentDictionary : public ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::GameComponentBase*>
 	{

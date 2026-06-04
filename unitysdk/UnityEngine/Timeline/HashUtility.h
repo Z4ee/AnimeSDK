@@ -2,54 +2,54 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_1_OFFSET UNITYSDK_OFFSET(0x1A3E6230)
-#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_2_OFFSET UNITYSDK_OFFSET(0x1A3E6270)
-#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_3_OFFSET UNITYSDK_OFFSET(0x1A3E62C0)
-#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_4_OFFSET UNITYSDK_OFFSET(0x1A3E6320)
-#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_5_OFFSET UNITYSDK_OFFSET(0x1A3E63A0)
-#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_6_OFFSET UNITYSDK_OFFSET(0x1A3E6430)
-#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_OFFSET UNITYSDK_OFFSET(0x1A3D9B90)
+#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_1_OFFSET UNITYSDK_OFFSET(0x1B23A8A0)
+#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_2_OFFSET UNITYSDK_OFFSET(0x1B23A8E0)
+#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_3_OFFSET UNITYSDK_OFFSET(0x1B23A930)
+#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_4_OFFSET UNITYSDK_OFFSET(0x1B23A990)
+#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_5_OFFSET UNITYSDK_OFFSET(0x1B23AA10)
+#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_6_OFFSET UNITYSDK_OFFSET(0x1B23AAA0)
+#define UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_OFFSET UNITYSDK_OFFSET(0x1B22E1F0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int HashUtility_TypeDefinitionIndex = 35636;
+	inline static constexpr unsigned int HashUtility_TypeDefinitionIndex = 35936;
 
 	class HashUtility : public ::System::Object
 	{
 	public:
-		static ::System::Int32 CombineHash(::System::Int32 h1, ::System::Int32 h2)
+		static ::System::Int32 CombineHash(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_OFFSET))(h1, h2);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 CombineHash_1(::System::Int32 h1, ::System::Int32 h2, ::System::Int32 h3)
+		static ::System::Int32 CombineHash_1(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_1_OFFSET))(h1, h2, h3);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 CombineHash_2(::System::Int32 h1, ::System::Int32 h2, ::System::Int32 h3, ::System::Int32 h4)
+		static ::System::Int32 CombineHash_2(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_2_OFFSET))(h1, h2, h3, h4);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 CombineHash_3(::System::Int32 h1, ::System::Int32 h2, ::System::Int32 h3, ::System::Int32 h4, ::System::Int32 h5)
+		static ::System::Int32 CombineHash_3(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_3_OFFSET))(h1, h2, h3, h4, h5);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_3_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Int32 CombineHash_4(::System::Int32 h1, ::System::Int32 h2, ::System::Int32 h3, ::System::Int32 h4, ::System::Int32 h5, ::System::Int32 h6)
+		static ::System::Int32 CombineHash_4(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_4_OFFSET))(h1, h2, h3, h4, h5, h6);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_4_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 CombineHash_5(::System::Int32 h1, ::System::Int32 h2, ::System::Int32 h3, ::System::Int32 h4, ::System::Int32 h5, ::System::Int32 h6, ::System::Int32 h7)
+		static ::System::Int32 CombineHash_5(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_5_OFFSET))(h1, h2, h3, h4, h5, h6, h7);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_5_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Int32 CombineHash_6(::Il2CppArray<::System::Int32>* hashes)
+		static ::System::Int32 CombineHash_6(::Il2CppArray<::System::Int32>* a1)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_6_OFFSET))(hashes);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_HASHUTILITY_COMBINEHASH_6_OFFSET))(a1);
 		}
 	};
 }

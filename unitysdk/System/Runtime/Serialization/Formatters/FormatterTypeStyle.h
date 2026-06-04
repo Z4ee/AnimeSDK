@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Serialization::Formatters
 {
-	inline static constexpr unsigned int FormatterTypeStyle_TypeDefinitionIndex = 1132;
+	inline static constexpr unsigned int FormatterTypeStyle_TypeDefinitionIndex = 1131;
 
 	enum class FormatterTypeStyle : ::System::Int32
 	{

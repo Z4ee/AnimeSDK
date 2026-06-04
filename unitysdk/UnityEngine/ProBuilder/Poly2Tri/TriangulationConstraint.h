@@ -4,17 +4,17 @@
 
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F2240)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B056D40)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int TriangulationConstraint_TypeDefinitionIndex = 35513;
+	inline static constexpr unsigned int TriangulationConstraint_TypeDefinitionIndex = 35813;
 
 	class TriangulationConstraint : public ::System::Object
 	{
 	public:
-		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Q; // 0x10
-		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* P; // 0x18
+		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* P; // 0x10
+		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Q; // 0x18
 
 		::System::Void _ctor()
 		{

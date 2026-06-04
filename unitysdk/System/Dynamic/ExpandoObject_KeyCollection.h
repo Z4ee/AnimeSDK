@@ -8,21 +8,21 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 namespace System::Dynamic { class ExpandoObject; }
 namespace System::Dynamic { class ExpandoObject_ExpandoData; }
 
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_ADD_OFFSET UNITYSDK_OFFSET(0x19EBA6C0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_CHECKVERSION_OFFSET UNITYSDK_OFFSET(0x19EBA650)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x19EBA790)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_CONTAINS_OFFSET UNITYSDK_OFFSET(0x19EBA7E0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_COPYTO_OFFSET UNITYSDK_OFFSET(0x19EBA920)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19EBAD90)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x19EBACB0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x19EBAD30)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_REMOVE_OFFSET UNITYSDK_OFFSET(0x19EBAD40)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19EBADF0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB8CD0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_ADD_OFFSET UNITYSDK_OFFSET(0x1AD314F0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_CHECKVERSION_OFFSET UNITYSDK_OFFSET(0x1AD31480)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x1AD315C0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1AD31610)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_COPYTO_OFFSET UNITYSDK_OFFSET(0x1AD317D0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1AD31BB0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1AD31AD0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1AD31B50)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_REMOVE_OFFSET UNITYSDK_OFFSET(0x1AD31B60)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1AD31C10)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD2FB50)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int ExpandoObject_KeyCollection_TypeDefinitionIndex = 3663;
+	inline static constexpr unsigned int ExpandoObject_KeyCollection_TypeDefinitionIndex = 3664;
 
 	class ExpandoObject_KeyCollection : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace System::Dynamic
 		::System::Int32 _expandoCount; // 0x20
 		::System::Int32 _expandoVersion; // 0x24
 
-		::System::Void _ctor(::System::Dynamic::ExpandoObject* expando)
+		::System::Void _ctor(::System::Dynamic::ExpandoObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Dynamic::ExpandoObject*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION__CTOR_OFFSET))(this, expando);
+			return ((::System::Void(*)(::PVOID, ::System::Dynamic::ExpandoObject*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void CheckVersion()
@@ -42,9 +42,9 @@ namespace System::Dynamic
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_CHECKVERSION_OFFSET))(this);
 		}
 
-		::System::Void Add(::System::String* item)
+		::System::Void Add(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_ADD_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_ADD_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -52,14 +52,14 @@ namespace System::Dynamic
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_CLEAR_OFFSET))(this);
 		}
 
-		::System::Boolean Contains(::System::String* item)
+		::System::Boolean Contains(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_CONTAINS_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_CONTAINS_OFFSET))(this, a1);
 		}
 
-		::System::Void CopyTo(::Il2CppArray<::System::String*>* array, ::System::Int32 arrayIndex)
+		::System::Void CopyTo(::Il2CppArray<::System::String*>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_COPYTO_OFFSET))(this, array, arrayIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_COPYTO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_Count()
@@ -72,9 +72,9 @@ namespace System::Dynamic
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_GET_ISREADONLY_OFFSET))(this);
 		}
 
-		::System::Boolean Remove(::System::String* item)
+		::System::Boolean Remove(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_REMOVE_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_KEYCOLLECTION_REMOVE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IEnumerator_1<::System::String*>* GetEnumerator()

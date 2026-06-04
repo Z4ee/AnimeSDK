@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x174EAF80)
-#define WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x174EAFF0)
-#define WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x174EAC30)
-#define WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x174EA940)
+#define WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x182E8970)
+#define WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x182E89E0)
+#define WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x182E8960)
+#define WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x182E88F0)
 
 namespace WeLing::SDK
 {
-	inline static constexpr unsigned int PipeWrapper_OnReceiveData_TypeDefinitionIndex = 6589;
+	inline static constexpr unsigned int PipeWrapper_OnReceiveData_TypeDefinitionIndex = 7492;
 
 	class PipeWrapper_OnReceiveData : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::IntPtr data, ::System::Int32& size)
+		::System::Void Invoke(::System::IntPtr a1, ::System::Int32& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32&))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_INVOKE_OFFSET))(this, data, size);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32&))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::IntPtr data, ::System::Int32& size, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::IntPtr a1, ::System::Int32& a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::Int32&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_BEGININVOKE_OFFSET))(this, data, size, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::Int32&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::Int32& size, ::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::Int32& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_ENDINVOKE_OFFSET))(this, size, result);
+			return ((::System::Void(*)(::PVOID, ::System::Int32&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + WELING_SDK_PIPEWRAPPER_ONRECEIVEDATA_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

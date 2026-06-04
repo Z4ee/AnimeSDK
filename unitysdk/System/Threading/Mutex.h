@@ -4,7 +4,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int Mutex_TypeDefinitionIndex = 871;
+	inline static constexpr unsigned int Mutex_TypeDefinitionIndex = 870;
 
 	class Mutex : public ::System::Threading::WaitHandle
 	{

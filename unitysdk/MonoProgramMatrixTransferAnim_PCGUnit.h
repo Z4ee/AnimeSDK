@@ -12,23 +12,23 @@ class MonoProgramMatrixTransferAnim_PCGAction;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_18D3A646DDD61291_OFFSET UNITYSDK_OFFSET(0x93399B0)
-#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_2AD04807B794EEB6_OFFSET UNITYSDK_OFFSET(0x933A200)
-#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x9339570)
-#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x933A5E0)
-#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_B768DA94E3FD91D9_OFFSET UNITYSDK_OFFSET(0x9339860)
-#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_FDC478E941B91C50_OFFSET UNITYSDK_OFFSET(0x933A630)
-#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x933A890)
-#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x933A880)
+#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_18D3A646DDD61291_OFFSET UNITYSDK_OFFSET(0xA84ED10)
+#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0xA84F8D0)
+#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0xA84EBD0)
+#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0xA84E8D0)
+#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_F83AAA65B6159C8A_OFFSET UNITYSDK_OFFSET(0xA84F500)
+#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_FDC478E941B91C50_OFFSET UNITYSDK_OFFSET(0xA84F920)
+#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT__CCTOR_OFFSET UNITYSDK_OFFSET(0xA84FB70)
+#define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0xA84FB60)
 
-inline static constexpr unsigned int MonoProgramMatrixTransferAnim_PCGUnit_TypeDefinitionIndex = 44258;
+inline static constexpr unsigned int MonoProgramMatrixTransferAnim_PCGUnit_TypeDefinitionIndex = 44804;
 
 class MonoProgramMatrixTransferAnim_PCGUnit : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_PosLUT()
 	{
-		return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MonoProgramMatrixTransferAnim_PCGUnit_TypeDefinitionIndex)->GetStaticField(0x6AA70);
+		return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MonoProgramMatrixTransferAnim_PCGUnit_TypeDefinitionIndex)->GetStaticField(0x64F10);
 	}
 	::MonoProgramMatrixTransferAnim_PCGUnit_StartPosTypeLR StartPosLR; // 0x10
 	::MonoProgramMatrixTransferAnim_PCGUnit_StartPosTypeFace StartPosFace; // 0x14
@@ -52,9 +52,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT__CCTOR_OFFSET))();
 	}
 
-	::System::Void Method_1_2AD04807B794EEB6(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1)
+	::System::Void Method_1_F83AAA65B6159C8A(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_2AD04807B794EEB6_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_F83AAA65B6159C8A_OFFSET))(this, a1);
 	}
 
 	::System::Int32 Method_1_A1D8CD775DEC3C21()
@@ -62,9 +62,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_A1D8CD775DEC3C21_OFFSET))(this);
 	}
 
-	::System::Void Method_1_41A074549EF25F63()
+	::System::Void Method_1_EDFD49C942C75D6C()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_41A074549EF25F63_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_EDFD49C942C75D6C_OFFSET))(this);
 	}
 
 	::UnityEngine::Vector4 Method_1_FDC478E941B91C50(::System::Single a1, ::UnityEngine::Vector4 a2, ::MonoProgramMatrixTransferAnim_PCGAction_ActionType a3)
@@ -72,9 +72,9 @@ public:
 		return ((::UnityEngine::Vector4(*)(::PVOID, ::System::Single, ::UnityEngine::Vector4, ::MonoProgramMatrixTransferAnim_PCGAction_ActionType))((::PBYTE)hIl2Cpp + MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_FDC478E941B91C50_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_1_B768DA94E3FD91D9()
+	::System::Void Method_1_D737CD2779D51A4E()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_B768DA94E3FD91D9_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_METHOD_1_D737CD2779D51A4E_OFFSET))(this);
 	}
 
 	::System::Void Method_1_18D3A646DDD61291(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)

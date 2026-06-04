@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS97_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB59F550)
-#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS97_0__WALLDETECT_B__0_OFFSET UNITYSDK_OFFSET(0xB5AEC00)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS97_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD00010)
+#define RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS97_0__WALLDETECT_B__0_OFFSET UNITYSDK_OFFSET(0xCD0F810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureStatic___c__DisplayClass97_0_TypeDefinitionIndex = 54425;
+	inline static constexpr unsigned int AdventureStatic___c__DisplayClass97_0_TypeDefinitionIndex = 55152;
 
 	class AdventureStatic___c__DisplayClass97_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS97_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _WallDetect_b__0(::UnityEngine::Transform* t)
+		::System::Boolean _WallDetect_b__0(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS97_0__WALLDETECT_B__0_OFFSET))(this, t);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC___C__DISPLAYCLASS97_0__WALLDETECT_B__0_OFFSET))(this, a1);
 		}
 	};
 }

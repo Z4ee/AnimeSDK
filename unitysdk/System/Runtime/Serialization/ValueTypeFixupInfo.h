@@ -4,14 +4,14 @@
 
 namespace System::Reflection { class FieldInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_CONTAINERID_OFFSET UNITYSDK_OFFSET(0x17A22A40)
-#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_PARENTFIELD_OFFSET UNITYSDK_OFFSET(0x17A22A50)
-#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_PARENTINDEX_OFFSET UNITYSDK_OFFSET(0x17A22A60)
-#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17A17E10)
+#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_CONTAINERID_OFFSET UNITYSDK_OFFSET(0x187D0D40)
+#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_PARENTFIELD_OFFSET UNITYSDK_OFFSET(0x187D0D50)
+#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO_GET_PARENTINDEX_OFFSET UNITYSDK_OFFSET(0x187D0D60)
+#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x187C6730)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int ValueTypeFixupInfo_TypeDefinitionIndex = 1131;
+	inline static constexpr unsigned int ValueTypeFixupInfo_TypeDefinitionIndex = 1130;
 
 	class ValueTypeFixupInfo : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace System::Runtime::Serialization
 		::System::Reflection::FieldInfo* m_parentField; // 0x18
 		::System::Int64 m_containerID; // 0x20
 
-		::System::Void _ctor(::System::Int64 containerID, ::System::Reflection::FieldInfo* member, ::Il2CppArray<::System::Int32>* parentIndex)
+		::System::Void _ctor(::System::Int64 a1, ::System::Reflection::FieldInfo* a2, ::Il2CppArray<::System::Int32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Reflection::FieldInfo*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO__CTOR_OFFSET))(this, containerID, member, parentIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Reflection::FieldInfo*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int64 get_ContainerID()

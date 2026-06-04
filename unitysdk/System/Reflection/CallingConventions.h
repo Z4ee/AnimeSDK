@@ -3,7 +3,7 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int CallingConventions_TypeDefinitionIndex = 556;
+	inline static constexpr unsigned int CallingConventions_TypeDefinitionIndex = 555;
 
 	enum class CallingConventions : ::System::Int32
 	{

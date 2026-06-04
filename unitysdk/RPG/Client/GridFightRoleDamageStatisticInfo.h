@@ -6,19 +6,19 @@
 class Class_1_F1F83A16E5B8B459_3;
 namespace RPG::Client { class GridFightSeasonRole; }
 
-#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xA5742E0)
-#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA573D70)
+#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xBBE18C0)
+#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xBBE1350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleDamageStatisticInfo_TypeDefinitionIndex = 59268;
+	inline static constexpr unsigned int GridFightRoleDamageStatisticInfo_TypeDefinitionIndex = 60203;
 
 	class GridFightRoleDamageStatisticInfo : public ::RPG::Client::GridFightDamageStatisticInfo
 	{
 	public:
-		::System::Void _ctor(::Class_1_F1F83A16E5B8B459_3* damageInfo, ::System::Double maxDamage, ::System::Nullable_1<::System::UInt32> seasonUID)
+		::System::Void _ctor(::Class_1_F1F83A16E5B8B459_3* a1, ::System::Double a2, ::System::Nullable_1<::System::UInt32> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F1F83A16E5B8B459_3*, ::System::Double, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO__CTOR_OFFSET))(this, damageInfo, maxDamage, seasonUID);
+			return ((::System::Void(*)(::PVOID, ::Class_1_F1F83A16E5B8B459_3*, ::System::Double, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::GridFightSeasonRole* get_Role()

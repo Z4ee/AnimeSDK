@@ -4,33 +4,33 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_FILEPATH_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x188E31F0)
-#define RPG_GAMECORE_FILEPATH_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x188E31B0)
-#define RPG_GAMECORE_FILEPATH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x188E3200)
-#define RPG_GAMECORE_FILEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x188E31A0)
+#define RPG_GAMECORE_FILEPATH_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1971F970)
+#define RPG_GAMECORE_FILEPATH_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1971F930)
+#define RPG_GAMECORE_FILEPATH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1971F980)
+#define RPG_GAMECORE_FILEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1971F920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FilePath_TypeDefinitionIndex = 23580;
+	inline static constexpr unsigned int FilePath_TypeDefinitionIndex = 10458;
 
 	class FilePath : public ::System::Object
 	{
 	public:
 		::System::String* PathPrivate; // 0x10
 
-		::System::Void _ctor(::System::String* path)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FILEPATH__CTOR_OFFSET))(this, path);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FILEPATH__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::GameCore::FilePath* op_Implicit(::System::String* path)
+		static ::RPG::GameCore::FilePath* op_Implicit(::System::String* a1)
 		{
-			return ((::RPG::GameCore::FilePath*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FILEPATH_OP_IMPLICIT_OFFSET))(path);
+			return ((::RPG::GameCore::FilePath*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FILEPATH_OP_IMPLICIT_OFFSET))(a1);
 		}
 
-		static ::System::String* op_Implicit_1(::RPG::GameCore::FilePath* filePath)
+		static ::System::String* op_Implicit_1(::RPG::GameCore::FilePath* a1)
 		{
-			return ((::System::String*(*)(::RPG::GameCore::FilePath*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FILEPATH_OP_IMPLICIT_1_OFFSET))(filePath);
+			return ((::System::String*(*)(::RPG::GameCore::FilePath*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FILEPATH_OP_IMPLICIT_1_OFFSET))(a1);
 		}
 
 		::System::String* ToString()

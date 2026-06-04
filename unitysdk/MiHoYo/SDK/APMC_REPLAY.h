@@ -4,36 +4,36 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_APMC_REPLAY_ASTROLABE_REPLAYFIGHTINGREPORT_OFFSET UNITYSDK_OFFSET(0x8CDCAB0)
-#define MIHOYO_SDK_APMC_REPLAY_ASTROLABE_REPLAYREPORT_OFFSET UNITYSDK_OFFSET(0x8CDC820)
-#define MIHOYO_SDK_APMC_REPLAY_REPLAYFIGHTINGREPORT_OFFSET UNITYSDK_OFFSET(0x8CDC9A0)
-#define MIHOYO_SDK_APMC_REPLAY_REPLAYREPORT_OFFSET UNITYSDK_OFFSET(0x8CDC6F0)
+#define MIHOYO_SDK_APMC_REPLAY_ASTROLABE_REPLAYFIGHTINGREPORT_OFFSET UNITYSDK_OFFSET(0xA134920)
+#define MIHOYO_SDK_APMC_REPLAY_ASTROLABE_REPLAYREPORT_OFFSET UNITYSDK_OFFSET(0xA134690)
+#define MIHOYO_SDK_APMC_REPLAY_REPLAYFIGHTINGREPORT_OFFSET UNITYSDK_OFFSET(0xA134810)
+#define MIHOYO_SDK_APMC_REPLAY_REPLAYREPORT_OFFSET UNITYSDK_OFFSET(0xA134560)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_REPLAY_TypeDefinitionIndex = 43103;
+	inline static constexpr unsigned int APMC_REPLAY_TypeDefinitionIndex = 43906;
 
 	class APMC_REPLAY : public ::System::Object
 	{
 	public:
-		static ::System::Void replayReport(::System::String* battle_id, ::System::String* stage_id, ::System::String* data_version, ::System::String* bin_version, ::System::String* reason, ::System::String* dmp, ::System::String* custom_data)
+		static ::System::Void replayReport(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::String* a7)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_REPLAY_REPLAYREPORT_OFFSET))(battle_id, stage_id, data_version, bin_version, reason, dmp, custom_data);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_REPLAY_REPLAYREPORT_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void replayFightingReport(::System::String* stage_id, ::System::String* data_version, ::System::String* sig_version, ::System::String* dmp, ::System::String* custom_data)
+		static ::System::Void replayFightingReport(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_REPLAY_REPLAYFIGHTINGREPORT_OFFSET))(stage_id, data_version, sig_version, dmp, custom_data);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_REPLAY_REPLAYFIGHTINGREPORT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void Astrolabe_ReplayReport(::System::String* battle_id, ::System::String* stage_id, ::System::String* data_version, ::System::String* bin_version, ::System::String* reason, ::System::String* dmp, ::System::String* custom_data)
+		static ::System::Void Astrolabe_ReplayReport(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::String* a7)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_REPLAY_ASTROLABE_REPLAYREPORT_OFFSET))(battle_id, stage_id, data_version, bin_version, reason, dmp, custom_data);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_REPLAY_ASTROLABE_REPLAYREPORT_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void Astrolabe_ReplayFightingReport(::System::String* stage_id, ::System::String* data_version, ::System::String* sig_version, ::System::String* dmp, ::System::String* custom_data)
+		static ::System::Void Astrolabe_ReplayFightingReport(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_REPLAY_ASTROLABE_REPLAYFIGHTINGREPORT_OFFSET))(stage_id, data_version, sig_version, dmp, custom_data);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_REPLAY_ASTROLABE_REPLAYFIGHTINGREPORT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

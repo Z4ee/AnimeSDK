@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/PlanetFesLandType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3745C69C00F04B7D_1;
+class Class_1_3745C69C00F04B7D;
 namespace RPG::Client { class PlanetFesLineupAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANETFESLANDLINEUPDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xACC25D0)
-#define RPG_CLIENT_PLANETFESLANDLINEUPDATA_GET_LANDTYPE_OFFSET UNITYSDK_OFFSET(0xACC25B0)
-#define RPG_CLIENT_PLANETFESLANDLINEUPDATA_SET_LANDTYPE_OFFSET UNITYSDK_OFFSET(0xACC25C0)
-#define RPG_CLIENT_PLANETFESLANDLINEUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xACC27C0)
+#define RPG_CLIENT_PLANETFESLANDLINEUPDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC416FE0)
+#define RPG_CLIENT_PLANETFESLANDLINEUPDATA_GET_LANDTYPE_OFFSET UNITYSDK_OFFSET(0xC416FC0)
+#define RPG_CLIENT_PLANETFESLANDLINEUPDATA_SET_LANDTYPE_OFFSET UNITYSDK_OFFSET(0xC416FD0)
+#define RPG_CLIENT_PLANETFESLANDLINEUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC417230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesLandLineupData_TypeDefinitionIndex = 61286;
+	inline static constexpr unsigned int PlanetFesLandLineupData_TypeDefinitionIndex = 62210;
 
 	class PlanetFesLandLineupData : public ::System::Object
 	{
@@ -32,14 +32,14 @@ namespace RPG::Client
 			return ((::RPG::GameCore::PlanetFesLandType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLANDLINEUPDATA_GET_LANDTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_LandType(::RPG::GameCore::PlanetFesLandType value)
+		::System::Void set_LandType(::RPG::GameCore::PlanetFesLandType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlanetFesLandType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLANDLINEUPDATA_SET_LANDTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlanetFesLandType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLANDLINEUPDATA_SET_LANDTYPE_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::PlanetFesLandLineupData* Create(::RPG::GameCore::PlanetFesLandType type, ::Il2CppArray<::Class_1_3745C69C00F04B7D_1*>* avatars)
+		static ::RPG::Client::PlanetFesLandLineupData* Create(::RPG::GameCore::PlanetFesLandType a1, ::Il2CppArray<::Class_1_3745C69C00F04B7D*>* a2)
 		{
-			return ((::RPG::Client::PlanetFesLandLineupData*(*)(::RPG::GameCore::PlanetFesLandType, ::Il2CppArray<::Class_1_3745C69C00F04B7D_1*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLANDLINEUPDATA_CREATE_OFFSET))(type, avatars);
+			return ((::RPG::Client::PlanetFesLandLineupData*(*)(::RPG::GameCore::PlanetFesLandType, ::Il2CppArray<::Class_1_3745C69C00F04B7D*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESLANDLINEUPDATA_CREATE_OFFSET))(a1, a2);
 		}
 	};
 }

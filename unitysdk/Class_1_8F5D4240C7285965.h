@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8F5D4240C7285965_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12A4FD30)
-#define CLASS_1_8F5D4240C7285965__CTOR_OFFSET UNITYSDK_OFFSET(0x12A4FDE0)
-#define CLASS_1_8F5D4240C7285965___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12A4FE40)
+#define CLASS_1_8F5D4240C7285965_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB02EDC0)
+#define CLASS_1_8F5D4240C7285965__CTOR_OFFSET UNITYSDK_OFFSET(0xB02EE70)
+#define CLASS_1_8F5D4240C7285965___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB02EED0)
 
-inline static constexpr unsigned int Class_1_8F5D4240C7285965_TypeDefinitionIndex = 48008;
+inline static constexpr unsigned int Class_1_8F5D4240C7285965_TypeDefinitionIndex = 48626;
 
 class Class_1_8F5D4240C7285965 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_2; // 0x10
-	::System::Boolean Field_1_3; // 0x18
-	::RPG::GameCore::MissionBeginType Field_1_1; // 0x1C
-	::System::UInt32 Field_1_0; // 0x20
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
+	::RPG::GameCore::MissionBeginType Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x1C
+	::System::Boolean Field_1_3; // 0x20
 
 	::System::Void _ctor()
 	{

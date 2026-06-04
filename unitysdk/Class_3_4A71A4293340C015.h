@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsFirstInsertAbilityInQueue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4A71A4293340C015_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11A3CA00)
-#define CLASS_3_4A71A4293340C015__CTOR_OFFSET UNITYSDK_OFFSET(0x11A3C9D0)
+#define CLASS_3_4A71A4293340C015_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA3F7610)
+#define CLASS_3_4A71A4293340C015__CTOR_OFFSET UNITYSDK_OFFSET(0xA3F75E0)
 
-inline static constexpr unsigned int Class_3_4A71A4293340C015_TypeDefinitionIndex = 50434;
+inline static constexpr unsigned int Class_3_4A71A4293340C015_TypeDefinitionIndex = 51099;
 
 class Class_3_4A71A4293340C015 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsFirstInsertAbilityInQueue*>
 {

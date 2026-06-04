@@ -6,21 +6,21 @@ namespace RPG::Client { class DebateManager; }
 namespace RPG::GameCore { class DebateCostChangce; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_33C7E5B8C35BA76F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11A6BF80)
-#define CLASS_2_33C7E5B8C35BA76F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11A6BD80)
-#define CLASS_2_33C7E5B8C35BA76F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11A6BFD0)
-#define CLASS_2_33C7E5B8C35BA76F_TICK_OFFSET UNITYSDK_OFFSET(0x11A6C020)
-#define CLASS_2_33C7E5B8C35BA76F__CTOR_OFFSET UNITYSDK_OFFSET(0x11A6BD70)
+#define CLASS_2_33C7E5B8C35BA76F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1427EB60)
+#define CLASS_2_33C7E5B8C35BA76F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1427E960)
+#define CLASS_2_33C7E5B8C35BA76F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1427EBB0)
+#define CLASS_2_33C7E5B8C35BA76F_TICK_OFFSET UNITYSDK_OFFSET(0x1427EC00)
+#define CLASS_2_33C7E5B8C35BA76F__CTOR_OFFSET UNITYSDK_OFFSET(0x1427E950)
 
-inline static constexpr unsigned int Class_2_33C7E5B8C35BA76F_TypeDefinitionIndex = 48656;
+inline static constexpr unsigned int Class_2_33C7E5B8C35BA76F_TypeDefinitionIndex = 49321;
 
 class Class_2_33C7E5B8C35BA76F : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	::RPG::GameCore::DebateCostChangce* Field_2_0; // 0x18
 	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::RPG::Client::DebateManager* Field_2_3; // 0x28
-	::System::Single Field_2_2; // 0x30
+	::RPG::Client::DebateManager* Field_2_2; // 0x28
+	::System::Single Field_2_3; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DebateCostChangce* a2)
 	{

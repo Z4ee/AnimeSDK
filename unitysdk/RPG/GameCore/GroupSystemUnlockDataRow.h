@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189E1AB0)
-#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189E1BD0)
+#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19814F00)
+#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19815020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupSystemUnlockDataRow_TypeDefinitionIndex = 12611;
+	inline static constexpr unsigned int GroupSystemUnlockDataRow_TypeDefinitionIndex = 12701;
 
 	class GroupSystemUnlockDataRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::GroupSystemUnlockDataRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GroupSystemUnlockDataRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupSystemUnlockDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupSystemUnlockDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

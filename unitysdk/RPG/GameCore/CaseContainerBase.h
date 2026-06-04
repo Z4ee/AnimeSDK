@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_CASECONTAINERBASE_METHOD_2_E1D9799A41C604C6_1_OFFSET UNITYSDK_OFFSET(0x187B87B0)
-#define RPG_GAMECORE_CASECONTAINERBASE_METHOD_2_E1D9799A41C604C6_OFFSET UNITYSDK_OFFSET(0x187B8510)
-#define RPG_GAMECORE_CASECONTAINERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x187B8870)
+#define RPG_GAMECORE_CASECONTAINERBASE_METHOD_2_B58BB1E8444FB843_OFFSET UNITYSDK_OFFSET(0x195F51E0)
+#define RPG_GAMECORE_CASECONTAINERBASE_METHOD_2_E1D9799A41C604C6_OFFSET UNITYSDK_OFFSET(0x195F4F60)
+#define RPG_GAMECORE_CASECONTAINERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x195F5290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CaseContainerBase_TypeDefinitionIndex = 22758;
+	inline static constexpr unsigned int CaseContainerBase_TypeDefinitionIndex = 22465;
 
 	class CaseContainerBase : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CaseContainerBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CASECONTAINERBASE_METHOD_2_E1D9799A41C604C6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_E1D9799A41C604C6_1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CaseContainerBase* a2)
+		static ::System::Void Method_2_B58BB1E8444FB843(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CaseContainerBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CaseContainerBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CASECONTAINERBASE_METHOD_2_E1D9799A41C604C6_1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CaseContainerBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CASECONTAINERBASE_METHOD_2_B58BB1E8444FB843_OFFSET))(a1, a2);
 		}
 	};
 }

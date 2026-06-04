@@ -14,21 +14,21 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_SKELETONPARTSRENDERER_ADD_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x19E59650)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_CLEARMESH_OFFSET UNITYSDK_OFFSET(0x19E59750)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHFILTER_OFFSET UNITYSDK_OFFSET(0x19E59630)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHGENERATOR_OFFSET UNITYSDK_OFFSET(0x19E59400)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHRENDERER_OFFSET UNITYSDK_OFFSET(0x19E59610)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_LAZYINTIALIZE_OFFSET UNITYSDK_OFFSET(0x19E59420)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_NEWPARTSRENDERERGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x19E5A6C0)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_REMOVE_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x19E596D0)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_RENDERPARTS_OFFSET UNITYSDK_OFFSET(0x19E59780)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_SETPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x19E5A680)
-#define SPINE_UNITY_SKELETONPARTSRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5A940)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_ADD_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x1ACD0920)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_CLEARMESH_OFFSET UNITYSDK_OFFSET(0x1ACD0A20)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHFILTER_OFFSET UNITYSDK_OFFSET(0x1ACD0900)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHGENERATOR_OFFSET UNITYSDK_OFFSET(0x1ACD06D0)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1ACD08E0)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_LAZYINTIALIZE_OFFSET UNITYSDK_OFFSET(0x1ACD06F0)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_NEWPARTSRENDERERGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1ACD1550)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_REMOVE_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x1ACD09A0)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_RENDERPARTS_OFFSET UNITYSDK_OFFSET(0x1ACD0A50)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_SETPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1ACD1510)
+#define SPINE_UNITY_SKELETONPARTSRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD1760)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonPartsRenderer_TypeDefinitionIndex = 40597;
+	inline static constexpr unsigned int SkeletonPartsRenderer_TypeDefinitionIndex = 41424;
 
 	class SkeletonPartsRenderer : public ::UnityEngine::MonoBehaviour
 	{
@@ -60,14 +60,14 @@ namespace Spine::Unity
 			return ((::UnityEngine::MeshFilter*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHFILTER_OFFSET))(this);
 		}
 
-		::System::Void add_OnMeshAndMaterialsUpdated(::Spine::Unity::SkeletonPartsRenderer_SkeletonPartsRendererDelegate* value)
+		::System::Void add_OnMeshAndMaterialsUpdated(::Spine::Unity::SkeletonPartsRenderer_SkeletonPartsRendererDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonPartsRenderer_SkeletonPartsRendererDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_ADD_ONMESHANDMATERIALSUPDATED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonPartsRenderer_SkeletonPartsRendererDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_ADD_ONMESHANDMATERIALSUPDATED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnMeshAndMaterialsUpdated(::Spine::Unity::SkeletonPartsRenderer_SkeletonPartsRendererDelegate* value)
+		::System::Void remove_OnMeshAndMaterialsUpdated(::Spine::Unity::SkeletonPartsRenderer_SkeletonPartsRendererDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonPartsRenderer_SkeletonPartsRendererDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_REMOVE_ONMESHANDMATERIALSUPDATED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonPartsRenderer_SkeletonPartsRendererDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_REMOVE_ONMESHANDMATERIALSUPDATED_OFFSET))(this, a1);
 		}
 
 		::System::Void LazyIntialize()
@@ -80,19 +80,19 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_CLEARMESH_OFFSET))(this);
 		}
 
-		::System::Void RenderParts(::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>* instructions, ::System::Int32 startSubmesh, ::System::Int32 endSubmesh)
+		::System::Void RenderParts(::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_RENDERPARTS_OFFSET))(this, instructions, startSubmesh, endSubmesh);
+			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_RENDERPARTS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetPropertyBlock(::UnityEngine::MaterialPropertyBlock* block)
+		::System::Void SetPropertyBlock(::UnityEngine::MaterialPropertyBlock* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_SETPROPERTYBLOCK_OFFSET))(this, block);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_SETPROPERTYBLOCK_OFFSET))(this, a1);
 		}
 
-		static ::Spine::Unity::SkeletonPartsRenderer* NewPartsRendererGameObject(::UnityEngine::Transform* parent, ::System::String* name, ::System::Int32 sortingOrder)
+		static ::Spine::Unity::SkeletonPartsRenderer* NewPartsRendererGameObject(::UnityEngine::Transform* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::Spine::Unity::SkeletonPartsRenderer*(*)(::UnityEngine::Transform*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_NEWPARTSRENDERERGAMEOBJECT_OFFSET))(parent, name, sortingOrder);
+			return ((::Spine::Unity::SkeletonPartsRenderer*(*)(::UnityEngine::Transform*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_NEWPARTSRENDERERGAMEOBJECT_OFFSET))(a1, a2, a3);
 		}
 	};
 }

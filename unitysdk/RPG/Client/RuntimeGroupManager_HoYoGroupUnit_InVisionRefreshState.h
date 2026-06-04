@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager_HoYoGroupUnit_InVisionRefreshState_TypeDefinitionIndex = 57257;
+	inline static constexpr unsigned int RuntimeGroupManager_HoYoGroupUnit_InVisionRefreshState_TypeDefinitionIndex = 58047;
 
 	enum class RuntimeGroupManager_HoYoGroupUnit_InVisionRefreshState : ::System::Int32
 	{

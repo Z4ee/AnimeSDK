@@ -5,14 +5,14 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_CONTINUANCETOKEN_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x8E647C0)
-#define EPIC_ONLINESERVICES_CONTINUANCETOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8E64590)
-#define EPIC_ONLINESERVICES_CONTINUANCETOKEN__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8E64580)
-#define EPIC_ONLINESERVICES_CONTINUANCETOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x8E64570)
+#define EPIC_ONLINESERVICES_CONTINUANCETOKEN_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0xA2A91A0)
+#define EPIC_ONLINESERVICES_CONTINUANCETOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA2A8F80)
+#define EPIC_ONLINESERVICES_CONTINUANCETOKEN__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA2A8F70)
+#define EPIC_ONLINESERVICES_CONTINUANCETOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0xA2A8F60)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int ContinuanceToken_TypeDefinitionIndex = 41081;
+	inline static constexpr unsigned int ContinuanceToken_TypeDefinitionIndex = 41884;
 
 	class ContinuanceToken : public ::Epic::OnlineServices::Handle
 	{
@@ -22,14 +22,14 @@ namespace Epic::OnlineServices
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONTINUANCETOKEN__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONTINUANCETOKEN__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONTINUANCETOKEN__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result ToString(::System::String*& outBuffer)
+		::Epic::OnlineServices::Result ToString(::System::String*& a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONTINUANCETOKEN_TOSTRING_OFFSET))(this, outBuffer);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONTINUANCETOKEN_TOSTRING_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString_1()

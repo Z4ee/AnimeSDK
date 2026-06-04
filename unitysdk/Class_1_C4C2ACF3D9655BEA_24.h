@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace UnityEngine { class Renderer; }
+#define CLASS_1_C4C2ACF3D9655BEA_24__CTOR_OFFSET UNITYSDK_OFFSET(0x18B8F6B0)
 
-#define CLASS_1_C4C2ACF3D9655BEA_24__CTOR_OFFSET UNITYSDK_OFFSET(0x11A57890)
-
-inline static constexpr unsigned int Class_1_C4C2ACF3D9655BEA_24_TypeDefinitionIndex = 44194;
+inline static constexpr unsigned int Class_1_C4C2ACF3D9655BEA_24_TypeDefinitionIndex = 39628;
 
 class Class_1_C4C2ACF3D9655BEA_24 : public ::System::Object
 {

@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB147C90)
-#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS8_0___INITSDK_B__0_OFFSET UNITYSDK_OFFSET(0xB148DD0)
+#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC89B820)
+#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS8_0___INITSDK_B__0_OFFSET UNITYSDK_OFFSET(0xC89C970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SDKLoginPhase___c__DisplayClass8_0_TypeDefinitionIndex = 56406;
+	inline static constexpr unsigned int SDKLoginPhase___c__DisplayClass8_0_TypeDefinitionIndex = 57168;
 
 	class SDKLoginPhase___c__DisplayClass8_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __InitSDk_b__0(::System::Int32 result)
+		::System::Void __InitSDk_b__0(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS8_0___INITSDK_B__0_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS8_0___INITSDK_B__0_OFFSET))(this, a1);
 		}
 	};
 }

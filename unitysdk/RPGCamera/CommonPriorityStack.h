@@ -5,16 +5,16 @@
 namespace RPGCamera { class IPriorityStackItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGCAMERA_COMMONPRIORITYSTACK_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x8DF4400)
-#define RPGCAMERA_COMMONPRIORITYSTACK_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x8DF0D50)
-#define RPGCAMERA_COMMONPRIORITYSTACK_PEEK_OFFSET UNITYSDK_OFFSET(0x8DF13B0)
-#define RPGCAMERA_COMMONPRIORITYSTACK_POP_OFFSET UNITYSDK_OFFSET(0x8DF1090)
-#define RPGCAMERA_COMMONPRIORITYSTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x8DF0E30)
-#define RPGCAMERA_COMMONPRIORITYSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8DF1560)
+#define RPGCAMERA_COMMONPRIORITYSTACK_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xA240E40)
+#define RPGCAMERA_COMMONPRIORITYSTACK_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA23D870)
+#define RPGCAMERA_COMMONPRIORITYSTACK_PEEK_OFFSET UNITYSDK_OFFSET(0xA23E010)
+#define RPGCAMERA_COMMONPRIORITYSTACK_POP_OFFSET UNITYSDK_OFFSET(0xA23DCD0)
+#define RPGCAMERA_COMMONPRIORITYSTACK_PUSH_OFFSET UNITYSDK_OFFSET(0xA23D940)
+#define RPGCAMERA_COMMONPRIORITYSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA23E1E0)
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CommonPriorityStack_TypeDefinitionIndex = 40956;
+	inline static constexpr unsigned int CommonPriorityStack_TypeDefinitionIndex = 41774;
 
 	class CommonPriorityStack : public ::System::Object
 	{
@@ -32,24 +32,24 @@ namespace RPGCamera
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK_GET_COUNT_OFFSET))(this);
 		}
 
-		::RPGCamera::IPriorityStackItem* get_Item(::System::Int32 index)
+		::RPGCamera::IPriorityStackItem* get_Item(::System::Int32 a1)
 		{
-			return ((::RPGCamera::IPriorityStackItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK_GET_ITEM_OFFSET))(this, index);
+			return ((::RPGCamera::IPriorityStackItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void Push(::RPGCamera::IPriorityStackItem* item)
+		::System::Void Push(::RPGCamera::IPriorityStackItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGCamera::IPriorityStackItem*))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK_PUSH_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::RPGCamera::IPriorityStackItem*))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK_PUSH_OFFSET))(this, a1);
 		}
 
-		::RPGCamera::IPriorityStackItem* Pop(::System::Int32 index)
+		::RPGCamera::IPriorityStackItem* Pop(::System::Int32 a1)
 		{
-			return ((::RPGCamera::IPriorityStackItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK_POP_OFFSET))(this, index);
+			return ((::RPGCamera::IPriorityStackItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK_POP_OFFSET))(this, a1);
 		}
 
-		::RPGCamera::IPriorityStackItem* Peek(::System::Int32 index)
+		::RPGCamera::IPriorityStackItem* Peek(::System::Int32 a1)
 		{
-			return ((::RPGCamera::IPriorityStackItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK_PEEK_OFFSET))(this, index);
+			return ((::RPGCamera::IPriorityStackItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGCAMERA_COMMONPRIORITYSTACK_PEEK_OFFSET))(this, a1);
 		}
 	};
 }

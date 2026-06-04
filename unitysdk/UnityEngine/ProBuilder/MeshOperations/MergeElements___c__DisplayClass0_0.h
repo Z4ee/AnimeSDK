@@ -5,12 +5,12 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A28F020)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__DISPLAYCLASS0_0__MERGEPAIRS_B__0_OFFSET UNITYSDK_OFFSET(0x1A28FD40)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F2230)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__DISPLAYCLASS0_0__MERGEPAIRS_B__0_OFFSET UNITYSDK_OFFSET(0x1B0F2E10)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MergeElements___c__DisplayClass0_0_TypeDefinitionIndex = 40058;
+	inline static constexpr unsigned int MergeElements___c__DisplayClass0_0_TypeDefinitionIndex = 40885;
 
 	class MergeElements___c__DisplayClass0_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace UnityEngine::ProBuilder::MeshOperations
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _MergePairs_b__0(::UnityEngine::ProBuilder::Face* x)
+		::System::Boolean _MergePairs_b__0(::UnityEngine::ProBuilder::Face* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__DISPLAYCLASS0_0__MERGEPAIRS_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ProBuilder::Face*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__DISPLAYCLASS0_0__MERGEPAIRS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

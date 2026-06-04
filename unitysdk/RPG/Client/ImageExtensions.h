@@ -6,30 +6,30 @@ namespace System { class String; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETALPHA_OFFSET UNITYSDK_OFFSET(0xA623AB0)
-#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETCOLOR_OFFSET UNITYSDK_OFFSET(0xA623BA0)
-#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETSPRITE_OFFSET UNITYSDK_OFFSET(0xA6239B0)
+#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETALPHA_OFFSET UNITYSDK_OFFSET(0xBD28440)
+#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETCOLOR_OFFSET UNITYSDK_OFFSET(0xBD28530)
+#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETSPRITE_OFFSET UNITYSDK_OFFSET(0xBD28340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ImageExtensions_TypeDefinitionIndex = 67042;
+	inline static constexpr unsigned int ImageExtensions_TypeDefinitionIndex = 67984;
 
 	class ImageExtensions : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Sprite* SafeSetSprite(::UnityEngine::UI::Image* image, ::System::String* path, ::System::Boolean outputError)
+		static ::UnityEngine::Sprite* SafeSetSprite(::UnityEngine::UI::Image* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::UnityEngine::Sprite*(*)(::UnityEngine::UI::Image*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGEEXTENSIONS_SAFESETSPRITE_OFFSET))(image, path, outputError);
+			return ((::UnityEngine::Sprite*(*)(::UnityEngine::UI::Image*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGEEXTENSIONS_SAFESETSPRITE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SafeSetAlpha(::UnityEngine::UI::Image* image, ::System::Single alpha, ::System::Boolean outputError)
+		static ::System::Void SafeSetAlpha(::UnityEngine::UI::Image* a1, ::System::Single a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::Image*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGEEXTENSIONS_SAFESETALPHA_OFFSET))(image, alpha, outputError);
+			return ((::System::Void(*)(::UnityEngine::UI::Image*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGEEXTENSIONS_SAFESETALPHA_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SafeSetColor(::UnityEngine::UI::Image* image, ::System::String* colorString, ::System::Boolean outputError)
+		static ::System::Void SafeSetColor(::UnityEngine::UI::Image* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::Image*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGEEXTENSIONS_SAFESETCOLOR_OFFSET))(image, colorString, outputError);
+			return ((::System::Void(*)(::UnityEngine::UI::Image*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGEEXTENSIONS_SAFESETCOLOR_OFFSET))(a1, a2, a3);
 		}
 	};
 }

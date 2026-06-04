@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ReflectionUtil_ExtensionReflectionHelper_2_TypeDefinitionIndex = 6366;
+	inline static constexpr unsigned int ReflectionUtil_ExtensionReflectionHelper_2_TypeDefinitionIndex = 5568;
 
 	template <typename T1, typename T3>
 	class ReflectionUtil_ExtensionReflectionHelper_2 : public ::System::Object

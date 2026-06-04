@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore::Booklet { class StepConfig; }
 
-#define RPG_GAMECORE_BOOKLET_SPREADSTEPCONFIG_METHOD_2_F4472489FE641A3A_OFFSET UNITYSDK_OFFSET(0x18711380)
-#define RPG_GAMECORE_BOOKLET_SPREADSTEPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18712440)
+#define RPG_GAMECORE_BOOKLET_SPREADSTEPCONFIG_METHOD_2_130283185D83CAEF_OFFSET UNITYSDK_OFFSET(0x194E3ED0)
+#define RPG_GAMECORE_BOOKLET_SPREADSTEPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194E4F90)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int SpreadStepConfig_TypeDefinitionIndex = 23779;
+	inline static constexpr unsigned int SpreadStepConfig_TypeDefinitionIndex = 23612;
 
 	class SpreadStepConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore::Booklet
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_SPREADSTEPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F4472489FE641A3A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::SpreadStepConfig*& a2)
+		static ::System::Void Method_2_130283185D83CAEF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::SpreadStepConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::SpreadStepConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_SPREADSTEPCONFIG_METHOD_2_F4472489FE641A3A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::SpreadStepConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_SPREADSTEPCONFIG_METHOD_2_130283185D83CAEF_OFFSET))(a1, a2);
 		}
 	};
 }

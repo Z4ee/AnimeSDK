@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_C203092A4A0DCFDE_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x187A53D0)
-#define CLASS_1_C203092A4A0DCFDE__CTOR_OFFSET UNITYSDK_OFFSET(0x187A5810)
+#define CLASS_1_C203092A4A0DCFDE_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x19D53830)
+#define CLASS_1_C203092A4A0DCFDE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D53C70)
 
-inline static constexpr unsigned int Class_1_C203092A4A0DCFDE_TypeDefinitionIndex = 13216;
+inline static constexpr unsigned int Class_1_C203092A4A0DCFDE_TypeDefinitionIndex = 13293;
 
 class Class_1_C203092A4A0DCFDE : public ::System::Object
 {
 public:
-	::System::String* Field_1_9; // 0x10
-	::System::String* Field_1_6; // 0x18
-	::System::UInt32 Field_1_11; // 0x20
-	::System::UInt32 Field_1_8; // 0x24
-	::System::UInt32 Field_1_7; // 0x28
-	::System::UInt32 Field_1_0; // 0x2C
-	::RPG::Client::TextID Field_1_4; // 0x30
-	::RPG::Client::TextID Field_1_5; // 0x40
-	::System::UInt32 Field_1_3; // 0x50
-	::System::UInt32 Field_1_2; // 0x54
+	::System::String* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x20
+	::System::UInt32 Field_1_3; // 0x24
+	::System::UInt32 Field_1_4; // 0x28
+	::System::UInt32 Field_1_5; // 0x2C
+	::RPG::GameCore::LimaoNewsOfficeEventPriorityType Field_1_6; // 0x30
+	::System::UInt32 Field_1_7; // 0x34
+	::RPG::Client::TextID Field_1_8; // 0x38
+	::RPG::Client::TextID Field_1_9; // 0x48
 	::System::UInt32 Field_1_10; // 0x58
-	::RPG::GameCore::LimaoNewsOfficeEventPriorityType Field_1_1; // 0x5C
+	::System::UInt32 Field_1_11; // 0x5C
 
 	::System::Void _ctor()
 	{

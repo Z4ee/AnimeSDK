@@ -6,33 +6,33 @@ namespace Epic::OnlineServices::Presence { class PresenceModificationSetJoinInfo
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x63F60)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x63E40)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_JOININFO_OFFSET UNITYSDK_OFFSET(0x63CC0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x63D70)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x69700)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x696F0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_JOININFO_OFFSET UNITYSDK_OFFSET(0x69570)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x69620)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int PresenceModificationSetJoinInfoOptionsInternal_TypeDefinitionIndex = 41611;
+	inline static constexpr unsigned int PresenceModificationSetJoinInfoOptionsInternal_TypeDefinitionIndex = 42414;
 
 	struct alignas(8) PresenceModificationSetJoinInfoOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_JoinInfo; // 0x18
 
-		::System::Void set_JoinInfo(::System::String* value)
+		::System::Void set_JoinInfo(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_JOININFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_JOININFO_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Presence::PresenceModificationSetJoinInfoOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Presence::PresenceModificationSetJoinInfoOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetJoinInfoOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceModificationSetJoinInfoOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETJOININFOOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLURALITYSTANCEBARSETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C366D0)
-#define RPG_GAMECORE_PLURALITYSTANCEBARSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x18C368F0)
+#define RPG_GAMECORE_PLURALITYSTANCEBARSETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A43670)
+#define RPG_GAMECORE_PLURALITYSTANCEBARSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x19A43890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PluralityStanceBarSetting_TypeDefinitionIndex = 16247;
+	inline static constexpr unsigned int PluralityStanceBarSetting_TypeDefinitionIndex = 16281;
 
 	class PluralityStanceBarSetting : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLURALITYSTANCEBARSETTING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PluralityStanceBarSetting*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PluralityStanceBarSetting*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PluralityStanceBarSetting*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLURALITYSTANCEBARSETTING_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PluralityStanceBarSetting*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLURALITYSTANCEBARSETTING_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

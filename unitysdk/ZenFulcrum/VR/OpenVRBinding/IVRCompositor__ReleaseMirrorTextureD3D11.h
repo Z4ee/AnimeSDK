@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6EF9B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6EFA00)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6EF6C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6EF6A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B519730)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B519780)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B519720)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5196B0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__ReleaseMirrorTextureD3D11_TypeDefinitionIndex = 35811;
+	inline static constexpr unsigned int IVRCompositor__ReleaseMirrorTextureD3D11_TypeDefinitionIndex = 36111;
 
 	class IVRCompositor__ReleaseMirrorTextureD3D11 : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::IntPtr pD3D11ShaderResourceView)
+		::System::Void Invoke(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_INVOKE_OFFSET))(this, pD3D11ShaderResourceView);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::IntPtr pD3D11ShaderResourceView, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::IntPtr a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_BEGININVOKE_OFFSET))(this, pD3D11ShaderResourceView, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__RELEASEMIRRORTEXTURED3D11_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

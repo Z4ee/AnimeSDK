@@ -6,25 +6,25 @@
 namespace System { class Object; }
 namespace System::Threading { class CancellationCallbackInfo; }
 
-#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x229F410)
-#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x229F490)
-#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_EQUALS_OFFSET UNITYSDK_OFFSET(0x229F420)
-#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x229F4C0)
-#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_TRYDEREGISTER_OFFSET UNITYSDK_OFFSET(0x229F3A0)
-#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION__CTOR_OFFSET UNITYSDK_OFFSET(0x164F280)
+#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x382F220)
+#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x382F2A0)
+#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_EQUALS_OFFSET UNITYSDK_OFFSET(0x382F230)
+#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x382F2D0)
+#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_TRYDEREGISTER_OFFSET UNITYSDK_OFFSET(0x382F1C0)
+#define SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION__CTOR_OFFSET UNITYSDK_OFFSET(0x2C9ACB0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int CancellationTokenRegistration_TypeDefinitionIndex = 797;
+	inline static constexpr unsigned int CancellationTokenRegistration_TypeDefinitionIndex = 796;
 
 	struct alignas(8) CancellationTokenRegistration
 	{
 		::System::Threading::CancellationCallbackInfo* m_callbackInfo; // 0x10
 		::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> m_registrationInfo; // 0x18
 
-		::System::Void _ctor(::System::Threading::CancellationCallbackInfo* callbackInfo, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> registrationInfo)
+		::System::Void _ctor(::System::Threading::CancellationCallbackInfo* a1, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::CancellationCallbackInfo*, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*>))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION__CTOR_OFFSET))(this, callbackInfo, registrationInfo);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::CancellationCallbackInfo*, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*>))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean TryDeregister()
@@ -37,14 +37,14 @@ namespace System::Threading
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Threading::CancellationTokenRegistration other)
+		::System::Boolean Equals_1(::System::Threading::CancellationTokenRegistration a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Threading::CancellationTokenRegistration))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Threading::CancellationTokenRegistration))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKENREGISTRATION_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

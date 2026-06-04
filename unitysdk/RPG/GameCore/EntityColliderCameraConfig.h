@@ -7,12 +7,12 @@ namespace RPG::GameCore { class EntityColliderHeightCameraConfig; }
 namespace RPG::GameCore { class TaskListTemplate; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTITYCOLLIDERCAMERACONFIG_METHOD_2_7C6BEBD74121803E_OFFSET UNITYSDK_OFFSET(0x188ACC00)
-#define RPG_GAMECORE_ENTITYCOLLIDERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188ACD90)
+#define RPG_GAMECORE_ENTITYCOLLIDERCAMERACONFIG_METHOD_2_E488470B7916462B_OFFSET UNITYSDK_OFFSET(0x196EAC50)
+#define RPG_GAMECORE_ENTITYCOLLIDERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196EADD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityColliderCameraConfig_TypeDefinitionIndex = 15547;
+	inline static constexpr unsigned int EntityColliderCameraConfig_TypeDefinitionIndex = 15609;
 
 	class EntityColliderCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYCOLLIDERCAMERACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7C6BEBD74121803E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityColliderCameraConfig*& a2)
+		static ::System::Void Method_2_E488470B7916462B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityColliderCameraConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityColliderCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYCOLLIDERCAMERACONFIG_METHOD_2_7C6BEBD74121803E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityColliderCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYCOLLIDERCAMERACONFIG_METHOD_2_E488470B7916462B_OFFSET))(a1, a2);
 		}
 	};
 }

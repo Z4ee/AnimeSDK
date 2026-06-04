@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_D1E0AD3915BCCF29_22_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814.h"
+#include "unitysdk/Class_1_D1E0AD3915BCCF29_24_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814.h"
 #include "unitysdk/RPG/Client/TrainParty/TrainPartyBuildDIYPhotoItem.h"
 #include "unitysdk/RPG/Client/TrainParty/TrainPartyBuildDIYPhotoItemFilterType.h"
 
@@ -8,30 +8,28 @@ namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0xB3309E0)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GETFILTERTYPEID_OFFSET UNITYSDK_OFFSET(0xB330A60)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_DETAILICONPATH_OFFSET UNITYSDK_OFFSET(0xB330C20)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_PHOTOTYPE_OFFSET UNITYSDK_OFFSET(0xB330C40)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_RARITY_OFFSET UNITYSDK_OFFSET(0xB330C50)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_REDDOTKEY_OFFSET UNITYSDK_OFFSET(0xB330BE0)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET__REDDOTIDS_OFFSET UNITYSDK_OFFSET(0xB330B60)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_INITDATA_OFFSET UNITYSDK_OFFSET(0xB3307E0)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_SET_DETAILICONPATH_OFFSET UNITYSDK_OFFSET(0xB330C30)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_SET_RARITY_OFFSET UNITYSDK_OFFSET(0xB330C60)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB330C70)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0xB330C90)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM___IFIXBASEPROXY_GETFILTERTYPEID_OFFSET UNITYSDK_OFFSET(0xB330CA0)
-#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM___IFIXBASEPROXY_INITDATA_OFFSET UNITYSDK_OFFSET(0xB330C80)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0xCA8B420)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GETDETAILIMAGEPATH_OFFSET UNITYSDK_OFFSET(0xCA8B3A0)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GETFILTERTYPEID_OFFSET UNITYSDK_OFFSET(0xCA8B4A0)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_PHOTOTYPE_OFFSET UNITYSDK_OFFSET(0xCA8B660)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_RARITY_OFFSET UNITYSDK_OFFSET(0xCA8B670)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_REDDOTKEY_OFFSET UNITYSDK_OFFSET(0xCA8B620)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET__REDDOTIDS_OFFSET UNITYSDK_OFFSET(0xCA8B5A0)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_INITDATA_OFFSET UNITYSDK_OFFSET(0xCA8B0C0)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_SET_RARITY_OFFSET UNITYSDK_OFFSET(0xCA8B680)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCA8B690)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0xCA8B6C0)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM___IFIXBASEPROXY_GETFILTERTYPEID_OFFSET UNITYSDK_OFFSET(0xCA8B7B0)
+#define RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM___IFIXBASEPROXY_INITDATA_OFFSET UNITYSDK_OFFSET(0xCA8B6B0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int AvatarPhotoItem_TypeDefinitionIndex = 68550;
+	inline static constexpr unsigned int AvatarPhotoItem_TypeDefinitionIndex = 69362;
 
 	class AvatarPhotoItem : public ::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItem
 	{
 	public:
-		::System::String* _DetailIconPath_k__BackingField; // 0x78
-		::System::UInt32 _Rarity_k__BackingField; // 0x80
+		::System::UInt32 _Rarity_k__BackingField; // 0x78
 
 		::System::Void _ctor()
 		{
@@ -43,14 +41,19 @@ namespace RPG::Client::TrainParty
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_INITDATA_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* other)
+		::System::String* GetDetailImagePath()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_EQUALS_OFFSET))(this, other);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GETDETAILIMAGEPATH_OFFSET))(this);
 		}
 
-		::System::UInt32 GetFilterTypeID(::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItemFilterType filterType)
+		::System::Boolean Equals(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItemFilterType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GETFILTERTYPEID_OFFSET))(this, filterType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetFilterTypeID(::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItemFilterType a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItemFilterType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GETFILTERTYPEID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::PrefHashSet_1<::System::UInt32>* get__ReddotIDs()
@@ -63,19 +66,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_REDDOTKEY_OFFSET))(this);
 		}
 
-		::System::String* get_DetailIconPath()
+		::Class_1_D1E0AD3915BCCF29_24_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814 get_PhotoType()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_DETAILICONPATH_OFFSET))(this);
-		}
-
-		::System::Void set_DetailIconPath(::System::String* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_SET_DETAILICONPATH_OFFSET))(this, value);
-		}
-
-		::Class_1_D1E0AD3915BCCF29_22_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814 get_PhotoType()
-		{
-			return ((::Class_1_D1E0AD3915BCCF29_22_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_PHOTOTYPE_OFFSET))(this);
+			return ((::Class_1_D1E0AD3915BCCF29_24_Class_1_534EF681CC2FBEA4_Enum_3_0076592102B61814(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_PHOTOTYPE_OFFSET))(this);
 		}
 
 		::System::UInt32 get_Rarity()
@@ -83,9 +76,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_GET_RARITY_OFFSET))(this);
 		}
 
-		::System::Void set_Rarity(::System::UInt32 value)
+		::System::Void set_Rarity(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_SET_RARITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM_SET_RARITY_OFFSET))(this, a1);
 		}
 
 		::System::Void __iFixBaseProxy_InitData()
@@ -93,14 +86,14 @@ namespace RPG::Client::TrainParty
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM___IFIXBASEPROXY_INITDATA_OFFSET))(this);
 		}
 
-		::System::Boolean __iFixBaseProxy_Equals(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* P0)
+		::System::Boolean __iFixBaseProxy_Equals(::RPG::Client::TrainParty::TrainPartyBuildDIYItem* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM___IFIXBASEPROXY_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __iFixBaseProxy_GetFilterTypeID(::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItemFilterType P0)
+		::System::UInt32 __iFixBaseProxy_GetFilterTypeID(::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItemFilterType a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItemFilterType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM___IFIXBASEPROXY_GETFILTERTYPEID_OFFSET))(this, P0);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItemFilterType))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_AVATARPHOTOITEM___IFIXBASEPROXY_GETFILTERTYPEID_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,68 +5,68 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ABS_OFFSET UNITYSDK_OFFSET(0x12BB0CD0)
-#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ALMOSTZERO_OFFSET UNITYSDK_OFFSET(0x12BAD5C0)
-#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ANGLE_OFFSET UNITYSDK_OFFSET(0x12BB0D00)
-#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_CLOSESTPOINTONSEGMENT_1_OFFSET UNITYSDK_OFFSET(0x12BB0C40)
-#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_CLOSESTPOINTONSEGMENT_OFFSET UNITYSDK_OFFSET(0x12BB0B90)
-#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_PROJECTONTOPLANE_OFFSET UNITYSDK_OFFSET(0x12BB0050)
-#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SAFEFROMTOROTATION_OFFSET UNITYSDK_OFFSET(0x12BB0EC0)
-#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SIGNEDANGLE_OFFSET UNITYSDK_OFFSET(0x12BB06C0)
-#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SLERPWITHREFERENCEUP_OFFSET UNITYSDK_OFFSET(0x12BB1160)
+#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ABS_OFFSET UNITYSDK_OFFSET(0x1466DD70)
+#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ALMOSTZERO_OFFSET UNITYSDK_OFFSET(0x1466A970)
+#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ANGLE_OFFSET UNITYSDK_OFFSET(0x1466DDA0)
+#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_CLOSESTPOINTONSEGMENT_1_OFFSET UNITYSDK_OFFSET(0x1466DCE0)
+#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_CLOSESTPOINTONSEGMENT_OFFSET UNITYSDK_OFFSET(0x1466DC30)
+#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_PROJECTONTOPLANE_OFFSET UNITYSDK_OFFSET(0x1466D0F0)
+#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SAFEFROMTOROTATION_OFFSET UNITYSDK_OFFSET(0x1466DF60)
+#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SIGNEDANGLE_OFFSET UNITYSDK_OFFSET(0x1466D760)
+#define CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SLERPWITHREFERENCEUP_OFFSET UNITYSDK_OFFSET(0x1466E200)
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int UnityVectorExtensions_TypeDefinitionIndex = 36659;
+	inline static constexpr unsigned int UnityVectorExtensions_TypeDefinitionIndex = 36959;
 
 	class UnityVectorExtensions : public ::System::Object
 	{
 	public:
 		// static const ::System::Single Epsilon; // 0x0
 
-		static ::System::Single ClosestPointOnSegment(::UnityEngine::Vector3 p, ::UnityEngine::Vector3 s0, ::UnityEngine::Vector3 s1)
+		static ::System::Single ClosestPointOnSegment(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_CLOSESTPOINTONSEGMENT_OFFSET))(p, s0, s1);
+			return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_CLOSESTPOINTONSEGMENT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Single ClosestPointOnSegment_1(::UnityEngine::Vector2 p, ::UnityEngine::Vector2 s0, ::UnityEngine::Vector2 s1)
+		static ::System::Single ClosestPointOnSegment_1(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_CLOSESTPOINTONSEGMENT_1_OFFSET))(p, s0, s1);
+			return ((::System::Single(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_CLOSESTPOINTONSEGMENT_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Vector3 ProjectOntoPlane(::UnityEngine::Vector3 vector, ::UnityEngine::Vector3 planeNormal)
+		static ::UnityEngine::Vector3 ProjectOntoPlane(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_PROJECTONTOPLANE_OFFSET))(vector, planeNormal);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_PROJECTONTOPLANE_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 Abs(::UnityEngine::Vector3 v)
+		static ::UnityEngine::Vector3 Abs(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ABS_OFFSET))(v);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ABS_OFFSET))(a1);
 		}
 
-		static ::System::Boolean AlmostZero(::UnityEngine::Vector3 v)
+		static ::System::Boolean AlmostZero(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ALMOSTZERO_OFFSET))(v);
+			return ((::System::Boolean(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ALMOSTZERO_OFFSET))(a1);
 		}
 
-		static ::System::Single Angle(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2)
+		static ::System::Single Angle(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ANGLE_OFFSET))(v1, v2);
+			return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_ANGLE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single SignedAngle(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, ::UnityEngine::Vector3 up)
+		static ::System::Single SignedAngle(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SIGNEDANGLE_OFFSET))(v1, v2, up);
+			return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SIGNEDANGLE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Quaternion SafeFromToRotation(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, ::UnityEngine::Vector3 up)
+		static ::UnityEngine::Quaternion SafeFromToRotation(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SAFEFROMTOROTATION_OFFSET))(v1, v2, up);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SAFEFROMTOROTATION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Vector3 SlerpWithReferenceUp(::UnityEngine::Vector3 vA, ::UnityEngine::Vector3 vB, ::System::Single t, ::UnityEngine::Vector3 up)
+		static ::UnityEngine::Vector3 SlerpWithReferenceUp(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::UnityEngine::Vector3 a4)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SLERPWITHREFERENCEUP_OFFSET))(vA, vB, t, up);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYVECTOREXTENSIONS_SLERPWITHREFERENCEUP_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

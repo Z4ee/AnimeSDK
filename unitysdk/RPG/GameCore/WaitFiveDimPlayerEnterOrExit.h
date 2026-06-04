@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_WAITFIVEDIMPLAYERENTEROREXIT_METHOD_3_1E18B81D81A96C1C_OFFSET UNITYSDK_OFFSET(0x190FCB20)
-#define RPG_GAMECORE_WAITFIVEDIMPLAYERENTEROREXIT_METHOD_3_4E645A73339E1B23_OFFSET UNITYSDK_OFFSET(0x190FCAA0)
-#define RPG_GAMECORE_WAITFIVEDIMPLAYERENTEROREXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x190FCAF0)
+#define RPG_GAMECORE_WAITFIVEDIMPLAYERENTEROREXIT_METHOD_3_DD951FD98FAFD069_OFFSET UNITYSDK_OFFSET(0x19E554A0)
+#define RPG_GAMECORE_WAITFIVEDIMPLAYERENTEROREXIT_METHOD_3_E46A570BE1C25B86_OFFSET UNITYSDK_OFFSET(0x19E55520)
+#define RPG_GAMECORE_WAITFIVEDIMPLAYERENTEROREXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E554F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitFiveDimPlayerEnterOrExit_TypeDefinitionIndex = 20264;
+	inline static constexpr unsigned int WaitFiveDimPlayerEnterOrExit_TypeDefinitionIndex = 20120;
 
 	class WaitFiveDimPlayerEnterOrExit : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIVEDIMPLAYERENTEROREXIT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4E645A73339E1B23(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFiveDimPlayerEnterOrExit*& a2)
+		static ::System::Void Method_3_DD951FD98FAFD069(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFiveDimPlayerEnterOrExit*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFiveDimPlayerEnterOrExit*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIVEDIMPLAYERENTEROREXIT_METHOD_3_4E645A73339E1B23_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFiveDimPlayerEnterOrExit*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIVEDIMPLAYERENTEROREXIT_METHOD_3_DD951FD98FAFD069_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1E18B81D81A96C1C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFiveDimPlayerEnterOrExit* a2)
+		static ::System::Void Method_3_E46A570BE1C25B86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFiveDimPlayerEnterOrExit* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFiveDimPlayerEnterOrExit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIVEDIMPLAYERENTEROREXIT_METHOD_3_1E18B81D81A96C1C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFiveDimPlayerEnterOrExit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFIVEDIMPLAYERENTEROREXIT_METHOD_3_E46A570BE1C25B86_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::CompilerFramework
 {
-	inline static constexpr unsigned int DiagnosticSeverity_TypeDefinitionIndex = 37897;
+	inline static constexpr unsigned int DiagnosticSeverity_TypeDefinitionIndex = 38634;
 
 	enum class DiagnosticSeverity : ::System::Int32
 	{

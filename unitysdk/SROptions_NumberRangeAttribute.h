@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/NumberRangeAttribute.h"
 
-#define SROPTIONS_NUMBERRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x8E52770)
+#define SROPTIONS_NUMBERRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xA27BFE0)
 
-inline static constexpr unsigned int SROptions_NumberRangeAttribute_TypeDefinitionIndex = 40925;
+inline static constexpr unsigned int SROptions_NumberRangeAttribute_TypeDefinitionIndex = 41743;
 
 class SROptions_NumberRangeAttribute : public ::SRDebugger::NumberRangeAttribute
 {
 public:
-	::System::Void _ctor(::System::Double min, ::System::Double max)
+	::System::Void _ctor(::System::Double a1, ::System::Double a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + SROPTIONS_NUMBERRANGEATTRIBUTE__CTOR_OFFSET))(this, min, max);
+		return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + SROPTIONS_NUMBERRANGEATTRIBUTE__CTOR_OFFSET))(this, a1, a2);
 	}
 };

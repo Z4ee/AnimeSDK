@@ -7,19 +7,19 @@ namespace RPG::Client { class ModelUI3DModeConstraint_CameraRotateScopeShaderTra
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_CLASS_1_19721EF9D24AE504__CTOR_OFFSET UNITYSDK_OFFSET(0xA9052C0)
+#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_CLASS_1_19721EF9D24AE504__CTOR_OFFSET UNITYSDK_OFFSET(0xC0537A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ModelUI3DModeConstraint_Class_1_19721EF9D24AE504_TypeDefinitionIndex = 63175;
+	inline static constexpr unsigned int ModelUI3DModeConstraint_Class_1_19721EF9D24AE504_TypeDefinitionIndex = 64092;
 
 	class ModelUI3DModeConstraint_Class_1_19721EF9D24AE504 : public ::System::Object
 	{
 	public:
-		::RPG::Client::BaseShaderPropertyTransition* Field_1_0; // 0x10
-		::System::String* Field_1_3; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::ModelUI3DModeConstraint_CameraRotateScopeShaderTransition*>* Field_1_1; // 0x20
-		::System::Single Field_1_2; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::ModelUI3DModeConstraint_CameraRotateScopeShaderTransition*>* Field_1_0; // 0x10
+		::System::String* Field_1_1; // 0x18
+		::RPG::Client::BaseShaderPropertyTransition* Field_1_2; // 0x20
+		::System::Single Field_1_3; // 0x28
 
 		::System::Void _ctor()
 		{

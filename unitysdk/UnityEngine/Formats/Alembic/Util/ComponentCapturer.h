@@ -6,18 +6,18 @@
 namespace UnityEngine { class Component; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_COMPONENTCAPTURER_MARKFORCEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x1A1E9B80)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_COMPONENTCAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E9C00)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_COMPONENTCAPTURER_MARKFORCEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x1B04E2E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_COMPONENTCAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B04E360)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int ComponentCapturer_TypeDefinitionIndex = 40753;
+	inline static constexpr unsigned int ComponentCapturer_TypeDefinitionIndex = 41579;
 
 	class ComponentCapturer : public ::System::Object
 	{
 	public:
-		::UnityEngine::Formats::Alembic::Util::AlembicRecorder* recorder; // 0x10
-		::UnityEngine::Formats::Alembic::Util::ComponentCapturer* parent; // 0x18
+		::UnityEngine::Formats::Alembic::Util::ComponentCapturer* parent; // 0x10
+		::UnityEngine::Formats::Alembic::Util::AlembicRecorder* recorder; // 0x18
 		::UnityEngine::Formats::Alembic::Sdk::aeObject abcObject; // 0x20
 		::System::Int32 timeSamplingIndex; // 0x28
 

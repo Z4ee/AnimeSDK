@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A727D00)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A727D70)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A7279B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A727990)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B528BF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B528C60)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B528BE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B528B70)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRTrackedCamera__HasCamera_TypeDefinitionIndex = 35703;
+	inline static constexpr unsigned int IVRTrackedCamera__HasCamera_TypeDefinitionIndex = 36003;
 
 	class IVRTrackedCamera__HasCamera : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError Invoke(::System::UInt32 nDeviceIndex, ::System::Boolean& pHasCamera)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError Invoke(::System::UInt32 a1, ::System::Boolean& a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::System::Boolean&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_INVOKE_OFFSET))(this, nDeviceIndex, pHasCamera);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::System::Boolean&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt32 nDeviceIndex, ::System::Boolean& pHasCamera, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt32 a1, ::System::Boolean& a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::Boolean&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_BEGININVOKE_OFFSET))(this, nDeviceIndex, pHasCamera, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::Boolean&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError EndInvoke(::System::Boolean& pHasCamera, ::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError EndInvoke(::System::Boolean& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::Boolean&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_ENDINVOKE_OFFSET))(this, pHasCamera, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::Boolean&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__HASCAMERA_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

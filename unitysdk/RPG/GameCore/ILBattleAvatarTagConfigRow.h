@@ -7,29 +7,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A0B5F0)
-#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A0B7F0)
+#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1983D960)
+#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1983DB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleAvatarTagConfigRow_TypeDefinitionIndex = 13059;
+	inline static constexpr unsigned int ILBattleAvatarTagConfigRow_TypeDefinitionIndex = 13140;
 
 	class ILBattleAvatarTagConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* AssociatedStatusId; // 0x18
-		::RPG::GameCore::ILBattleAvatarTag ID; // 0x20
-		::RPG::Client::TextID Name; // 0x28
+		::System::String* AssociatedStatusId; // 0x10
+		::System::String* IconPath; // 0x18
+		::RPG::Client::TextID Name; // 0x20
+		::RPG::GameCore::ILBattleAvatarTag ID; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ILBattleAvatarTagConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ILBattleAvatarTagConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ILBattleAvatarTagConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ILBattleAvatarTagConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

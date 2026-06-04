@@ -7,16 +7,16 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPGTools::Timeline { class EmoAnimLayerEmotionFullClip; }
 
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8C06E0)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_METHOD_2_C701845A47AEF344_OFFSET UNITYSDK_OFFSET(0xB8C0810)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8C0700)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xB8C06F0)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C0B00)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8C0B10)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD004380)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_METHOD_2_C701845A47AEF344_OFFSET UNITYSDK_OFFSET(0xD0044B0)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD0043A0)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD004390)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD0047B0)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD0047C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoAnimLayerEmotionFullBehaviour_TypeDefinitionIndex = 44837;
+	inline static constexpr unsigned int EmoAnimLayerEmotionFullBehaviour_TypeDefinitionIndex = 45388;
 
 	class EmoAnimLayerEmotionFullBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -33,9 +33,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::EmoAnimLayerEmotionFullClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_GET_CLIP_OFFSET))(this);
 		}
 
-		::System::Void set_Clip(::RPGTools::Timeline::EmoAnimLayerEmotionFullClip* value)
+		::System::Void set_Clip(::RPGTools::Timeline::EmoAnimLayerEmotionFullClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::EmoAnimLayerEmotionFullClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_SET_CLIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::EmoAnimLayerEmotionFullClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_SET_CLIP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -48,9 +48,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR_METHOD_2_C701845A47AEF344_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

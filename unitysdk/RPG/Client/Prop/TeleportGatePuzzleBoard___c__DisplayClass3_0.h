@@ -7,14 +7,14 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::Prop { class TeleportGatePuzzleBoard; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAEEB220)
-#define RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__0_OFFSET UNITYSDK_OFFSET(0xAEEF0B0)
-#define RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__1_OFFSET UNITYSDK_OFFSET(0xAEEF520)
-#define RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__2_OFFSET UNITYSDK_OFFSET(0xAEEF8C0)
+#define RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6303A0)
+#define RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__0_OFFSET UNITYSDK_OFFSET(0xC634160)
+#define RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__1_OFFSET UNITYSDK_OFFSET(0xC6345C0)
+#define RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__2_OFFSET UNITYSDK_OFFSET(0xC634960)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGatePuzzleBoard___c__DisplayClass3_0_TypeDefinitionIndex = 72400;
+	inline static constexpr unsigned int TeleportGatePuzzleBoard___c__DisplayClass3_0_TypeDefinitionIndex = 73422;
 
 	class TeleportGatePuzzleBoard___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -27,19 +27,19 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __InitTeleportGatePuzzleBoard_b__0(::UnityEngine::GameObject* go, ::RPG::Client::OpenWorld::StreamingItemData* itemData)
+		::System::Void __InitTeleportGatePuzzleBoard_b__0(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__0_OFFSET))(this, go, itemData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __InitTeleportGatePuzzleBoard_b__1(::UnityEngine::GameObject* last, ::UnityEngine::GameObject* now, ::RPG::Client::OpenWorld::StreamingItemData* itemData)
+		::System::Void __InitTeleportGatePuzzleBoard_b__1(::UnityEngine::GameObject* a1, ::UnityEngine::GameObject* a2, ::RPG::Client::OpenWorld::StreamingItemData* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__1_OFFSET))(this, last, now, itemData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __InitTeleportGatePuzzleBoard_b__2(::UnityEngine::GameObject* go, ::RPG::Client::OpenWorld::StreamingItemData* itemData)
+		::System::Void __InitTeleportGatePuzzleBoard_b__2(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__2_OFFSET))(this, go, itemData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATEPUZZLEBOARD___C__DISPLAYCLASS3_0___INITTELEPORTGATEPUZZLEBOARD_B__2_OFFSET))(this, a1, a2);
 		}
 	};
 }

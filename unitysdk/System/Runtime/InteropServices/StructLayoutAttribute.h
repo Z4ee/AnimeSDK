@@ -6,35 +6,35 @@
 
 namespace System { class RuntimeType; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x179C1DC0)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x179C1FC0)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179C2070)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18772A30)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x18772C40)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18772D00)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int StructLayoutAttribute_TypeDefinitionIndex = 1412;
+	inline static constexpr unsigned int StructLayoutAttribute_TypeDefinitionIndex = 1411;
 
 	class StructLayoutAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Runtime::InteropServices::CharSet CharSet; // 0x10
-		::System::Int32 Size; // 0x14
-		::System::Int32 Pack; // 0x18
+		::System::Int32 Pack; // 0x14
+		::System::Int32 Size; // 0x18
 		::System::Runtime::InteropServices::LayoutKind _val; // 0x1C
 
-		::System::Void _ctor(::System::Runtime::InteropServices::LayoutKind layoutKind, ::System::Int32 pack, ::System::Int32 size, ::System::Runtime::InteropServices::CharSet charSet)
+		::System::Void _ctor(::System::Runtime::InteropServices::LayoutKind a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Runtime::InteropServices::CharSet a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::InteropServices::LayoutKind, ::System::Int32, ::System::Int32, ::System::Runtime::InteropServices::CharSet))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE__CTOR_OFFSET))(this, layoutKind, pack, size, charSet);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::InteropServices::LayoutKind, ::System::Int32, ::System::Int32, ::System::Runtime::InteropServices::CharSet))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Runtime::InteropServices::StructLayoutAttribute* GetCustomAttribute(::System::RuntimeType* type)
+		static ::System::Runtime::InteropServices::StructLayoutAttribute* GetCustomAttribute(::System::RuntimeType* a1)
 		{
-			return ((::System::Runtime::InteropServices::StructLayoutAttribute*(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET))(type);
+			return ((::System::Runtime::InteropServices::StructLayoutAttribute*(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsDefined(::System::RuntimeType* type)
+		static ::System::Boolean IsDefined(::System::RuntimeType* a1)
 		{
-			return ((::System::Boolean(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_ISDEFINED_OFFSET))(type);
+			return ((::System::Boolean(*)(::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_STRUCTLAYOUTATTRIBUTE_ISDEFINED_OFFSET))(a1);
 		}
 	};
 }

@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xA12F7B0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM_GET_ISRECONNECTEDGAME_OFFSET UNITYSDK_OFFSET(0xA139210)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM_SET_ISRECONNECTEDGAME_OFFSET UNITYSDK_OFFSET(0xA139220)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA139200)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xB7AB9B0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM_GET_ISRECONNECTEDGAME_OFFSET UNITYSDK_OFFSET(0xB7B4890)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM_SET_ISRECONNECTEDGAME_OFFSET UNITYSDK_OFFSET(0xB7B48A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB7B4880)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatStartPVPGameParam_TypeDefinitionIndex = 69891;
+	inline static constexpr unsigned int DiceCombatStartPVPGameParam_TypeDefinitionIndex = 70703;
 
 	class DiceCombatStartPVPGameParam : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatStartPVPGameParam* Create(::System::Boolean isReConnectedGame)
+		static ::RPG::Client::DiceCombat::DiceCombatStartPVPGameParam* Create(::System::Boolean a1)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatStartPVPGameParam*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM_CREATE_OFFSET))(isReConnectedGame);
+			return ((::RPG::Client::DiceCombat::DiceCombatStartPVPGameParam*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM_CREATE_OFFSET))(a1);
 		}
 
 		::System::Boolean get_IsReConnectedGame()
@@ -31,9 +31,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM_GET_ISRECONNECTEDGAME_OFFSET))(this);
 		}
 
-		::System::Void set_IsReConnectedGame(::System::Boolean value)
+		::System::Void set_IsReConnectedGame(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM_SET_ISRECONNECTEDGAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATSTARTPVPGAMEPARAM_SET_ISRECONNECTEDGAME_OFFSET))(this, a1);
 		}
 	};
 }

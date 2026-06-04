@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/ScreenTransferType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8F3020)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD034CB0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PlayScreenTransferBehaviour_TypeDefinitionIndex = 44958;
+	inline static constexpr unsigned int PlayScreenTransferBehaviour_TypeDefinitionIndex = 45506;
 
 	class PlayScreenTransferBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

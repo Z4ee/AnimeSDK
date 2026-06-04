@@ -5,18 +5,18 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8EBAEF0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8EBAED0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8EBAEB0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8EBB190)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8EBAEE0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8EBAF10)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8EBAEC0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8EBB2A0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2F6130)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2F6110)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2F60F0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA2F63D0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2F6120)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA2F6150)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2F6100)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F64F0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbySearchFindCallbackInfo_TypeDefinitionIndex = 41924;
+	inline static constexpr unsigned int LobbySearchFindCallbackInfo_TypeDefinitionIndex = 42727;
 
 	class LobbySearchFindCallbackInfo : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -44,9 +44,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -54,14 +54,14 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Lobby::LobbySearchFindCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Lobby::LobbySearchFindCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Lobby::LobbySearchFindCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Lobby::LobbySearchFindCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHFINDCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

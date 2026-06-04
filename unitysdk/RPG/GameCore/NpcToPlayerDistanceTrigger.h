@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_NPCTOPLAYERDISTANCETRIGGER_METHOD_3_12660BEE758A1371_OFFSET UNITYSDK_OFFSET(0x18BC2270)
-#define RPG_GAMECORE_NPCTOPLAYERDISTANCETRIGGER_METHOD_3_EDD0B9E136C1253F_OFFSET UNITYSDK_OFFSET(0x18BC2320)
-#define RPG_GAMECORE_NPCTOPLAYERDISTANCETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC22E0)
+#define RPG_GAMECORE_NPCTOPLAYERDISTANCETRIGGER_METHOD_3_185378D501F8DCC2_OFFSET UNITYSDK_OFFSET(0x199D3B60)
+#define RPG_GAMECORE_NPCTOPLAYERDISTANCETRIGGER_METHOD_3_AA6010EE8AC03296_OFFSET UNITYSDK_OFFSET(0x199D3AB0)
+#define RPG_GAMECORE_NPCTOPLAYERDISTANCETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x199D3B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NpcToPlayerDistanceTrigger_TypeDefinitionIndex = 19279;
+	inline static constexpr unsigned int NpcToPlayerDistanceTrigger_TypeDefinitionIndex = 19195;
 
 	class NpcToPlayerDistanceTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCTOPLAYERDISTANCETRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_12660BEE758A1371(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NpcToPlayerDistanceTrigger*& a2)
+		static ::System::Void Method_3_AA6010EE8AC03296(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NpcToPlayerDistanceTrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NpcToPlayerDistanceTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCTOPLAYERDISTANCETRIGGER_METHOD_3_12660BEE758A1371_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NpcToPlayerDistanceTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCTOPLAYERDISTANCETRIGGER_METHOD_3_AA6010EE8AC03296_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EDD0B9E136C1253F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NpcToPlayerDistanceTrigger* a2)
+		static ::System::Void Method_3_185378D501F8DCC2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NpcToPlayerDistanceTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NpcToPlayerDistanceTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCTOPLAYERDISTANCETRIGGER_METHOD_3_EDD0B9E136C1253F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NpcToPlayerDistanceTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCTOPLAYERDISTANCETRIGGER_METHOD_3_185378D501F8DCC2_OFFSET))(a1, a2);
 		}
 	};
 }

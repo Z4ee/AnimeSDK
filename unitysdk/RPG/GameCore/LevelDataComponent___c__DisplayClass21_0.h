@@ -4,12 +4,12 @@
 
 class Class_1_7AB88D713F5121B3_43;
 
-#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D23E0)
-#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__STATISTICBATTLETARGETLIST_B__0_OFFSET UNITYSDK_OFFSET(0xB6D48D0)
+#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE404A0)
+#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__STATISTICBATTLETARGETLIST_B__0_OFFSET UNITYSDK_OFFSET(0xCE428D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDataComponent___c__DisplayClass21_0_TypeDefinitionIndex = 53099;
+	inline static constexpr unsigned int LevelDataComponent___c__DisplayClass21_0_TypeDefinitionIndex = 53809;
 
 	class LevelDataComponent___c__DisplayClass21_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _StatisticBattleTargetList_b__0(::Class_1_7AB88D713F5121B3_43* x)
+		::System::Boolean _StatisticBattleTargetList_b__0(::Class_1_7AB88D713F5121B3_43* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_7AB88D713F5121B3_43*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__STATISTICBATTLETARGETLIST_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_7AB88D713F5121B3_43*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__STATISTICBATTLETARGETLIST_B__0_OFFSET))(this, a1);
 		}
 	};
 }

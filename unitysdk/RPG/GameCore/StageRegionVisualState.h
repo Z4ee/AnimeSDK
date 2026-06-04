@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageRegionVisualState_TypeDefinitionIndex = 18220;
+	inline static constexpr unsigned int StageRegionVisualState_TypeDefinitionIndex = 23110;
 
 	enum class StageRegionVisualState : ::System::Int32
 	{

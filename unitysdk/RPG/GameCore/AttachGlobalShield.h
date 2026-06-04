@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ATTACHGLOBALSHIELD_METHOD_3_105D61E7ACBDF7CE_OFFSET UNITYSDK_OFFSET(0x186AD790)
-#define RPG_GAMECORE_ATTACHGLOBALSHIELD_METHOD_3_156E1D0FB9C6ABF5_OFFSET UNITYSDK_OFFSET(0x186AD810)
-#define RPG_GAMECORE_ATTACHGLOBALSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x186AD7E0)
+#define RPG_GAMECORE_ATTACHGLOBALSHIELD_METHOD_3_739D0C3ACF4291CE_OFFSET UNITYSDK_OFFSET(0x194855D0)
+#define RPG_GAMECORE_ATTACHGLOBALSHIELD_METHOD_3_EFD9BDB897A91457_OFFSET UNITYSDK_OFFSET(0x19485550)
+#define RPG_GAMECORE_ATTACHGLOBALSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x194855A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachGlobalShield_TypeDefinitionIndex = 22581;
+	inline static constexpr unsigned int AttachGlobalShield_TypeDefinitionIndex = 22314;
 
 	class AttachGlobalShield : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHGLOBALSHIELD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_105D61E7ACBDF7CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachGlobalShield*& a2)
+		static ::System::Void Method_3_EFD9BDB897A91457(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachGlobalShield*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttachGlobalShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHGLOBALSHIELD_METHOD_3_105D61E7ACBDF7CE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttachGlobalShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHGLOBALSHIELD_METHOD_3_EFD9BDB897A91457_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_156E1D0FB9C6ABF5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachGlobalShield* a2)
+		static ::System::Void Method_3_739D0C3ACF4291CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachGlobalShield* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttachGlobalShield*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHGLOBALSHIELD_METHOD_3_156E1D0FB9C6ABF5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttachGlobalShield*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHGLOBALSHIELD_METHOD_3_739D0C3ACF4291CE_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_THREADING_WAITCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1787F700)
-#define SYSTEM_THREADING_WAITCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1787F730)
-#define SYSTEM_THREADING_WAITCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1787F1B0)
-#define SYSTEM_THREADING_WAITCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1787A630)
+#define SYSTEM_THREADING_WAITCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18637AC0)
+#define SYSTEM_THREADING_WAITCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18637AF0)
+#define SYSTEM_THREADING_WAITCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x18637AB0)
+#define SYSTEM_THREADING_WAITCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x186379C0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int WaitCallback_TypeDefinitionIndex = 852;
+	inline static constexpr unsigned int WaitCallback_TypeDefinitionIndex = 851;
 
 	class WaitCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Object* state)
+		::System::Void Invoke(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITCALLBACK_INVOKE_OFFSET))(this, state);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Object* state, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Object* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITCALLBACK_BEGININVOKE_OFFSET))(this, state, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_WAITCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,36 +6,36 @@
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_ADD_OFFSET UNITYSDK_OFFSET(0xD3EB0)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_CLEAR_OFFSET UNITYSDK_OFFSET(0xD3EC0)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_CONTAINS_OFFSET UNITYSDK_OFFSET(0xD3E30)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_COPYTO_OFFSET UNITYSDK_OFFSET(0xD3E90)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xD3D90)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xD240)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x5580)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0xD3F10)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_OP_ONESCOMPLEMENT_OFFSET UNITYSDK_OFFSET(0x9DAECA0)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_REMOVE_OFFSET UNITYSDK_OFFSET(0xD3EA0)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xD3E20)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DAF620)
-#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS__CTOR_OFFSET UNITYSDK_OFFSET(0xD3D50)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_ADD_OFFSET UNITYSDK_OFFSET(0x136C70)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_CLEAR_OFFSET UNITYSDK_OFFSET(0x136C80)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_CONTAINS_OFFSET UNITYSDK_OFFSET(0x136BF0)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x136C50)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x136AA0)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xDAD0)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x5B60)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x136CD0)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_OP_ONESCOMPLEMENT_OFFSET UNITYSDK_OFFSET(0xB38A8E0)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_REMOVE_OFFSET UNITYSDK_OFFSET(0x136C60)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x136B50)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS__CCTOR_OFFSET UNITYSDK_OFFSET(0xB38AFB0)
+#define RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS__CTOR_OFFSET UNITYSDK_OFFSET(0x136A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarOutfit_PlayerOutfitSlotTypeFlags_TypeDefinitionIndex = 57673;
+	inline static constexpr unsigned int AvatarOutfit_PlayerOutfitSlotTypeFlags_TypeDefinitionIndex = 58464;
 
 	struct alignas(8) AvatarOutfit_PlayerOutfitSlotTypeFlags
 	{
 		static ::System::Int32* StaticGet_CAPACITY()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AvatarOutfit_PlayerOutfitSlotTypeFlags_TypeDefinitionIndex)->GetStaticField(0xD0B0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AvatarOutfit_PlayerOutfitSlotTypeFlags_TypeDefinitionIndex)->GetStaticField(0x13910);
 		}
 		::System::UInt64 _Flags; // 0x10
 		::System::Int32 _Count; // 0x18
 
-		::System::Void _ctor(::System::UInt64 flags)
+		::System::Void _ctor(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS__CTOR_OFFSET))(this, flags);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags op_OnesComplement(::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags flags)
+		static ::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags op_OnesComplement(::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags a1)
 		{
-			return ((::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags(*)(::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_OP_ONESCOMPLEMENT_OFFSET))(flags);
+			return ((::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags(*)(::RPG::Client::AvatarOutfit_PlayerOutfitSlotTypeFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_OP_ONESCOMPLEMENT_OFFSET))(a1);
 		}
 
 		::System::Collections::Generic::IEnumerator_1<::RPG::GameCore::PlayerOutfitSlotType>* GetEnumerator()
@@ -58,24 +58,24 @@ namespace RPG::Client
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
 		}
 
-		::System::Boolean Contains(::RPG::GameCore::PlayerOutfitSlotType item)
+		::System::Boolean Contains(::RPG::GameCore::PlayerOutfitSlotType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::PlayerOutfitSlotType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_CONTAINS_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::PlayerOutfitSlotType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_CONTAINS_OFFSET))(this, a1);
 		}
 
-		::System::Void CopyTo(::Il2CppArray<::RPG::GameCore::PlayerOutfitSlotType>* array, ::System::Int32 arrayIndex)
+		::System::Void CopyTo(::Il2CppArray<::RPG::GameCore::PlayerOutfitSlotType>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::PlayerOutfitSlotType>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_COPYTO_OFFSET))(this, array, arrayIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::PlayerOutfitSlotType>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_COPYTO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Remove(::RPG::GameCore::PlayerOutfitSlotType item)
+		::System::Boolean Remove(::RPG::GameCore::PlayerOutfitSlotType a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::PlayerOutfitSlotType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_REMOVE_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::PlayerOutfitSlotType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_REMOVE_OFFSET))(this, a1);
 		}
 
-		::System::Void Add(::RPG::GameCore::PlayerOutfitSlotType item)
+		::System::Void Add(::RPG::GameCore::PlayerOutfitSlotType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlayerOutfitSlotType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_ADD_OFFSET))(this, item);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlayerOutfitSlotType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFIT_PLAYEROUTFITSLOTTYPEFLAGS_ADD_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()

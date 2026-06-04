@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_STREAMINGFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0xB1E15E0)
+#define RPG_CLIENT_STREAMINGFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0xC93B1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StreamingFeature_TypeDefinitionIndex = 62627;
+	inline static constexpr unsigned int StreamingFeature_TypeDefinitionIndex = 63560;
 
 	class StreamingFeature : public ::System::Object
 	{

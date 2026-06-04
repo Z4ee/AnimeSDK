@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_UIMONOJOYSTICK_DRAGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDF930)
+#define RPG_CLIENT_UIMONOJOYSTICK_DRAGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x144D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIMonoJoyStick_DragInfo_TypeDefinitionIndex = 67096;
+	inline static constexpr unsigned int UIMonoJoyStick_DragInfo_TypeDefinitionIndex = 68039;
 
 	struct alignas(4) UIMonoJoyStick_DragInfo
 	{
@@ -15,9 +15,9 @@ namespace RPG::Client
 		::System::Single WorldAngle; // 0x18
 		::System::Single DragDeltaInInch; // 0x1C
 
-		::System::Void _ctor(::System::Single uiAngle, ::System::Single worldAngle, ::System::Single centerToHitDistancePow, ::System::Single dragDeltaInInch)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMONOJOYSTICK_DRAGINFO__CTOR_OFFSET))(this, uiAngle, worldAngle, centerToHitDistancePow, dragDeltaInInch);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMONOJOYSTICK_DRAGINFO__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

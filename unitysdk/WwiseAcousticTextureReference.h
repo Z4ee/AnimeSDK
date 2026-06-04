@@ -3,10 +3,10 @@
 #include "unitysdk/WwiseObjectReference.h"
 #include "unitysdk/WwiseObjectType.h"
 
-#define WWISEACOUSTICTEXTUREREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1A68A9F0)
-#define WWISEACOUSTICTEXTUREREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A68AA00)
+#define WWISEACOUSTICTEXTUREREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1B4D5F70)
+#define WWISEACOUSTICTEXTUREREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D5F80)
 
-inline static constexpr unsigned int WwiseAcousticTextureReference_TypeDefinitionIndex = 40436;
+inline static constexpr unsigned int WwiseAcousticTextureReference_TypeDefinitionIndex = 41263;
 
 class WwiseAcousticTextureReference : public ::WwiseObjectReference
 {

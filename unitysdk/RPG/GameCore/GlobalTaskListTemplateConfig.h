@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskListTemplate; }
 
-#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG_METHOD_2_2DD6F3E68EF7D6C7_OFFSET UNITYSDK_OFFSET(0x189988B0)
-#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x189989B0)
+#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG_METHOD_2_29B6AF7529D336B2_OFFSET UNITYSDK_OFFSET(0x197C2B90)
+#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197D1200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalTaskListTemplateConfig_TypeDefinitionIndex = 17332;
+	inline static constexpr unsigned int GlobalTaskListTemplateConfig_TypeDefinitionIndex = 17336;
 
 	class GlobalTaskListTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2DD6F3E68EF7D6C7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalTaskListTemplateConfig*& a2)
+		static ::System::Void Method_2_29B6AF7529D336B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalTaskListTemplateConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalTaskListTemplateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG_METHOD_2_2DD6F3E68EF7D6C7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalTaskListTemplateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG_METHOD_2_29B6AF7529D336B2_OFFSET))(a1, a2);
 		}
 	};
 }

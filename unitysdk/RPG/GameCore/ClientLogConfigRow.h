@@ -5,29 +5,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicValue; }
 
-#define RPG_GAMECORE_CLIENTLOGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18813740)
-#define RPG_GAMECORE_CLIENTLOGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18813920)
+#define RPG_GAMECORE_CLIENTLOGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19654DF0)
+#define RPG_GAMECORE_CLIENTLOGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19654FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClientLogConfigRow_TypeDefinitionIndex = 12509;
+	inline static constexpr unsigned int ClientLogConfigRow_TypeDefinitionIndex = 12597;
 
 	class ClientLogConfigRow : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::DynamicValue* Params; // 0x10
-		::System::Boolean IsWhiteMode; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::System::UInt32 Actionid; // 0x20
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 Actionid; // 0x1C
+		::System::Boolean IsWhiteMode; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLIENTLOGCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ClientLogConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClientLogConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClientLogConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLIENTLOGCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClientLogConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLIENTLOGCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

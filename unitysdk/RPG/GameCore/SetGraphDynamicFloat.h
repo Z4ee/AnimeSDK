@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_METHOD_3_64E3530435C22FAA_OFFSET UNITYSDK_OFFSET(0x18E33390)
-#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_METHOD_3_D2C851B4AAAF2E58_OFFSET UNITYSDK_OFFSET(0x18E33410)
-#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E333E0)
+#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_METHOD_3_78C1ED7DC5B4C2B1_OFFSET UNITYSDK_OFFSET(0x19C50180)
+#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_METHOD_3_FBA12263B9F9FB3E_OFFSET UNITYSDK_OFFSET(0x19C50200)
+#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C501D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetGraphDynamicFloat_TypeDefinitionIndex = 19686;
+	inline static constexpr unsigned int SetGraphDynamicFloat_TypeDefinitionIndex = 19566;
 
 	class SetGraphDynamicFloat : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETGRAPHDYNAMICFLOAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_64E3530435C22FAA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetGraphDynamicFloat*& a2)
+		static ::System::Void Method_3_78C1ED7DC5B4C2B1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetGraphDynamicFloat*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetGraphDynamicFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_METHOD_3_64E3530435C22FAA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetGraphDynamicFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_METHOD_3_78C1ED7DC5B4C2B1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D2C851B4AAAF2E58(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetGraphDynamicFloat* a2)
+		static ::System::Void Method_3_FBA12263B9F9FB3E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetGraphDynamicFloat* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetGraphDynamicFloat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_METHOD_3_D2C851B4AAAF2E58_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetGraphDynamicFloat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_METHOD_3_FBA12263B9F9FB3E_OFFSET))(a1, a2);
 		}
 	};
 }

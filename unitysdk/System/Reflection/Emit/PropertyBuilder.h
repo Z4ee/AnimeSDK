@@ -12,26 +12,26 @@ namespace System::Reflection { class Binder; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETACCESSORS_OFFSET UNITYSDK_OFFSET(0x1799F4E0)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1799F560)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1799F520)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETGETMETHOD_OFFSET UNITYSDK_OFFSET(0x1799F5A0)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETINDEXPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1799F450)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETSETMETHOD_OFFSET UNITYSDK_OFFSET(0x1799F5E0)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1799F620)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1799F270)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1799F2C0)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1799F310)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0x1799F360)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1799F3B0)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1799F400)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_REFLECTEDTYPE_OFFSET UNITYSDK_OFFSET(0x1799F4A0)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x1799F660)
-#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1799F6A0)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETACCESSORS_OFFSET UNITYSDK_OFFSET(0x18752380)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x18752400)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x187523C0)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETGETMETHOD_OFFSET UNITYSDK_OFFSET(0x18752440)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETINDEXPARAMETERS_OFFSET UNITYSDK_OFFSET(0x187522F0)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETSETMETHOD_OFFSET UNITYSDK_OFFSET(0x18752480)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x187524C0)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18752110)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x18752160)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x187521B0)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0x18752200)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18752250)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x187522A0)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_REFLECTEDTYPE_OFFSET UNITYSDK_OFFSET(0x18752340)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x18752500)
+#define SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_SETVALUE_OFFSET UNITYSDK_OFFSET(0x18752540)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int PropertyBuilder_TypeDefinitionIndex = 655;
+	inline static constexpr unsigned int PropertyBuilder_TypeDefinitionIndex = 654;
 
 	class PropertyBuilder : public ::System::Reflection::PropertyInfo
 	{
@@ -76,44 +76,44 @@ namespace System::Reflection::Emit
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GET_REFLECTEDTYPE_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Reflection::MethodInfo*>* GetAccessors(::System::Boolean nonPublic)
+		::Il2CppArray<::System::Reflection::MethodInfo*>* GetAccessors(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Reflection::MethodInfo*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETACCESSORS_OFFSET))(this, nonPublic);
+			return ((::Il2CppArray<::System::Reflection::MethodInfo*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETACCESSORS_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETCUSTOMATTRIBUTES_OFFSET))(this, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETCUSTOMATTRIBUTES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* attributeType, ::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETCUSTOMATTRIBUTES_1_OFFSET))(this, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETCUSTOMATTRIBUTES_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Reflection::MethodInfo* GetGetMethod(::System::Boolean nonPublic)
+		::System::Reflection::MethodInfo* GetGetMethod(::System::Boolean a1)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETGETMETHOD_OFFSET))(this, nonPublic);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETGETMETHOD_OFFSET))(this, a1);
 		}
 
-		::System::Reflection::MethodInfo* GetSetMethod(::System::Boolean nonPublic)
+		::System::Reflection::MethodInfo* GetSetMethod(::System::Boolean a1)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETSETMETHOD_OFFSET))(this, nonPublic);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETSETMETHOD_OFFSET))(this, a1);
 		}
 
-		::System::Object* GetValue(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::Il2CppArray<::System::Object*>* index, ::System::Globalization::CultureInfo* culture)
+		::System::Object* GetValue(::System::Object* a1, ::System::Reflection::BindingFlags a2, ::System::Reflection::Binder* a3, ::Il2CppArray<::System::Object*>* a4, ::System::Globalization::CultureInfo* a5)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETVALUE_OFFSET))(this, obj, invokeAttr, binder, index, culture);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_GETVALUE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean IsDefined(::System::Type* attributeType, ::System::Boolean inherit)
+		::System::Boolean IsDefined(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_ISDEFINED_OFFSET))(this, attributeType, inherit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_ISDEFINED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::Il2CppArray<::System::Object*>* index, ::System::Globalization::CultureInfo* culture)
+		::System::Void SetValue(::System::Object* a1, ::System::Object* a2, ::System::Reflection::BindingFlags a3, ::System::Reflection::Binder* a4, ::Il2CppArray<::System::Object*>* a5, ::System::Globalization::CultureInfo* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_SETVALUE_OFFSET))(this, obj, value, invokeAttr, binder, index, culture);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_PROPERTYBUILDER_SETVALUE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

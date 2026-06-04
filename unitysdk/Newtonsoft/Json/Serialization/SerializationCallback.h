@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17ABF400)
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17ABF480)
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x17AA6060)
-#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17AA7910)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1886DF30)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1886DFB0)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x18855160)
+#define NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1886DE40)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int SerializationCallback_TypeDefinitionIndex = 8469;
+	inline static constexpr unsigned int SerializationCallback_TypeDefinitionIndex = 9372;
 
 	class SerializationCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void Invoke(::System::Object* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_INVOKE_OFFSET))(this, o, context);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Object* a1, ::System::Runtime::Serialization::StreamingContext a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::Runtime::Serialization::StreamingContext, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_BEGININVOKE_OFFSET))(this, o, context, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::Runtime::Serialization::StreamingContext, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_SERIALIZATIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

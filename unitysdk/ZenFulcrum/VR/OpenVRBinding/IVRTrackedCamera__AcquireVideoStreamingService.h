@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A724E50)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A724EC0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A724B00)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A724AE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B527CB0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B527D20)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B527CA0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B527C30)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRTrackedCamera__AcquireVideoStreamingService_TypeDefinitionIndex = 35707;
+	inline static constexpr unsigned int IVRTrackedCamera__AcquireVideoStreamingService_TypeDefinitionIndex = 36007;
 
 	class IVRTrackedCamera__AcquireVideoStreamingService : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError Invoke(::System::UInt32 nDeviceIndex, ::System::UInt64& pHandle)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError Invoke(::System::UInt32 a1, ::System::UInt64& a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::System::UInt64&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_INVOKE_OFFSET))(this, nDeviceIndex, pHandle);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt32, ::System::UInt64&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt32 nDeviceIndex, ::System::UInt64& pHandle, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt32 a1, ::System::UInt64& a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::UInt64&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_BEGININVOKE_OFFSET))(this, nDeviceIndex, pHandle, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::System::UInt64&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError EndInvoke(::System::UInt64& pHandle, ::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError EndInvoke(::System::UInt64& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_ENDINVOKE_OFFSET))(this, pHandle, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRTrackedCameraError(*)(::PVOID, ::System::UInt64&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRTRACKEDCAMERA__ACQUIREVIDEOSTREAMINGSERVICE_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

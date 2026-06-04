@@ -7,14 +7,14 @@
 namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17547B60)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS57_0__STARTTHIRDPARTYOAUTH_B__0_OFFSET UNITYSDK_OFFSET(0x1754FEA0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS57_0__STARTTHIRDPARTYOAUTH_B__1_OFFSET UNITYSDK_OFFSET(0x1754FF70)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS57_0__STARTTHIRDPARTYOAUTH_B__2_OFFSET UNITYSDK_OFFSET(0x175500E0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1832F1E0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS57_0__STARTTHIRDPARTYOAUTH_B__0_OFFSET UNITYSDK_OFFSET(0x183374A0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS57_0__STARTTHIRDPARTYOAUTH_B__1_OFFSET UNITYSDK_OFFSET(0x18337590)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS57_0__STARTTHIRDPARTYOAUTH_B__2_OFFSET UNITYSDK_OFFSET(0x18337700)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass57_0_TypeDefinitionIndex = 7362;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass57_0_TypeDefinitionIndex = 8265;
 
 	class LoginManager___c__DisplayClass57_0 : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS57_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _StartThirdpartyOAuth_b__0(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode retcode, ::System::String* accessToken)
+		::System::Void _StartThirdpartyOAuth_b__0(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS57_0__STARTTHIRDPARTYOAUTH_B__0_OFFSET))(this, retcode, accessToken);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS57_0__STARTTHIRDPARTYOAUTH_B__0_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _StartThirdpartyOAuth_b__1()

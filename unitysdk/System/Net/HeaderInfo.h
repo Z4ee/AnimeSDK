@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Net { class HeaderParser; }
 
-#define SYSTEM_NET_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A116760)
+#define SYSTEM_NET_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF7BC10)
 
 namespace System::Net
 {
@@ -16,13 +16,13 @@ namespace System::Net
 	public:
 		::System::String* HeaderName; // 0x10
 		::System::Net::HeaderParser* Parser; // 0x18
-		::System::Boolean AllowMultiValues; // 0x20
-		::System::Boolean IsResponseRestricted; // 0x21
-		::System::Boolean IsRequestRestricted; // 0x22
+		::System::Boolean IsRequestRestricted; // 0x20
+		::System::Boolean AllowMultiValues; // 0x21
+		::System::Boolean IsResponseRestricted; // 0x22
 
-		::System::Void _ctor(::System::String* name, ::System::Boolean requestRestricted, ::System::Boolean responseRestricted, ::System::Boolean multi, ::System::Net::HeaderParser* p)
+		::System::Void _ctor(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Net::HeaderParser* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Net::HeaderParser*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERINFO__CTOR_OFFSET))(this, name, requestRestricted, responseRestricted, multi, p);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Net::HeaderParser*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HEADERINFO__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

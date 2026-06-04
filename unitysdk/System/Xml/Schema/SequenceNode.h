@@ -6,10 +6,10 @@ namespace System::Xml::Schema { class BitSet; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_SEQUENCENODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x19FCF700)
-#define SYSTEM_XML_SCHEMA_SEQUENCENODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x19FCFE30)
-#define SYSTEM_XML_SCHEMA_SEQUENCENODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x19FCFC80)
-#define SYSTEM_XML_SCHEMA_SEQUENCENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FCFE40)
+#define SYSTEM_XML_SCHEMA_SEQUENCENODE_CONSTRUCTPOS_OFFSET UNITYSDK_OFFSET(0x1AE43170)
+#define SYSTEM_XML_SCHEMA_SEQUENCENODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1AE43AB0)
+#define SYSTEM_XML_SCHEMA_SEQUENCENODE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1AE43900)
+#define SYSTEM_XML_SCHEMA_SEQUENCENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE43AC0)
 
 namespace System::Xml::Schema
 {
@@ -23,9 +23,9 @@ namespace System::Xml::Schema
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SEQUENCENODE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos)
+		::System::Void ConstructPos(::System::Xml::Schema::BitSet* a1, ::System::Xml::Schema::BitSet* a2, ::Il2CppArray<::System::Xml::Schema::BitSet*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::Il2CppArray<::System::Xml::Schema::BitSet*>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SEQUENCENODE_CONSTRUCTPOS_OFFSET))(this, firstpos, lastpos, followpos);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::Il2CppArray<::System::Xml::Schema::BitSet*>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SEQUENCENODE_CONSTRUCTPOS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_IsNullable()
@@ -33,9 +33,9 @@ namespace System::Xml::Schema
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SEQUENCENODE_GET_ISNULLABLE_OFFSET))(this);
 		}
 
-		::System::Void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions)
+		::System::Void ExpandTree(::System::Xml::Schema::InteriorNode* a1, ::System::Xml::Schema::SymbolsDictionary* a2, ::System::Xml::Schema::Positions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SEQUENCENODE_EXPANDTREE_OFFSET))(this, parent, symbols, positions);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_SEQUENCENODE_EXPANDTREE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

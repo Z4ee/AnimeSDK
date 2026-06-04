@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanarReflection_Quality_TypeDefinitionIndex = 64685;
+	inline static constexpr unsigned int PlanarReflection_Quality_TypeDefinitionIndex = 65606;
 
 	enum class PlanarReflection_Quality : ::System::Int32
 	{

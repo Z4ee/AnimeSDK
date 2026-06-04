@@ -3,7 +3,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int SearchOption_TypeDefinitionIndex = 724;
+	inline static constexpr unsigned int SearchOption_TypeDefinitionIndex = 723;
 
 	enum class SearchOption : ::System::Int32
 	{

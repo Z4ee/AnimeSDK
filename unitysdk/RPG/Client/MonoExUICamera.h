@@ -10,11 +10,11 @@
 class Class_1_3EE0A731EA0C8B63;
 class Class_2_0EF6D9EB61B0E98E_1;
 class Class_2_1A03558EE92028F7;
-class Class_2_4234349125811B5C;
-class Class_2_4EAE3B7F219197BA;
-class Class_2_AE169F52A9613A77;
+class Class_2_4DF1EB99899254EA;
+class Class_2_53BA676286403FAC;
+class Class_2_8916F0776AEBA746;
+class Class_2_D91F96C9F9304095;
 class Class_2_E46C72143CFC0F6C;
-class Class_2_F760CE809D71CA56;
 namespace RPG::Client { class MonoExUICameraNavigator; }
 namespace RPG::Client { class MonoExUICamera_CameraOutInfo; }
 namespace RPG::Client { class MonoExUICamera_IInputProvider; }
@@ -26,85 +26,85 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEXUICAMERA_CLAMPINNERRECT_OFFSET UNITYSDK_OFFSET(0xA9BBBD0)
-#define RPG_CLIENT_MONOEXUICAMERA_CLAMPOUTERRECT_OFFSET UNITYSDK_OFFSET(0xA9BD900)
-#define RPG_CLIENT_MONOEXUICAMERA_CLAMPRECT_OFFSET UNITYSDK_OFFSET(0xA9BD6E0)
-#define RPG_CLIENT_MONOEXUICAMERA_CLAMPZOOM_OFFSET UNITYSDK_OFFSET(0xA9BDB50)
-#define RPG_CLIENT_MONOEXUICAMERA_DAMPINGCAMERA_OFFSET UNITYSDK_OFFSET(0xA9BE8C0)
-#define RPG_CLIENT_MONOEXUICAMERA_FOCUSCAMERA_1_OFFSET UNITYSDK_OFFSET(0xA9BEE50)
-#define RPG_CLIENT_MONOEXUICAMERA_FOCUSCAMERA_OFFSET UNITYSDK_OFFSET(0xA9BEDC0)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERADISTANCE_OFFSET UNITYSDK_OFFSET(0xA9BFF40)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAEULER_OFFSET UNITYSDK_OFFSET(0xA9BC950)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAORIGINPOS_OFFSET UNITYSDK_OFFSET(0xA9C05B0)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAOUTINFO_OFFSET UNITYSDK_OFFSET(0xA9BCEA0)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAPIVOT_OFFSET UNITYSDK_OFFSET(0xA9C02F0)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0xA9BC830)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERASPEED_OFFSET UNITYSDK_OFFSET(0xA9C0360)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAZOOMINFO_OFFSET UNITYSDK_OFFSET(0xA9BDCC0)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAZOOMRATIO_OFFSET UNITYSDK_OFFSET(0xA9BDDA0)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERA_OFFSET UNITYSDK_OFFSET(0xA9BC470)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCANVASPOS_OFFSET UNITYSDK_OFFSET(0xA9C0610)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCANVASRANGE_OFFSET UNITYSDK_OFFSET(0xA9BCC50)
-#define RPG_CLIENT_MONOEXUICAMERA_GETCURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xA9BCC00)
-#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMBOTTOM_OFFSET UNITYSDK_OFFSET(0xA9BD650)
-#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMHEIGHT_OFFSET UNITYSDK_OFFSET(0xA9BDA50)
-#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMLEFT_OFFSET UNITYSDK_OFFSET(0xA9BD380)
-#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMRIGHT_OFFSET UNITYSDK_OFFSET(0xA9BD4A0)
-#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMTOP_OFFSET UNITYSDK_OFFSET(0xA9BD5C0)
-#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMWIDTH_OFFSET UNITYSDK_OFFSET(0xA9BD9B0)
-#define RPG_CLIENT_MONOEXUICAMERA_GETOUTINFO_OFFSET UNITYSDK_OFFSET(0xA9BCAD0)
-#define RPG_CLIENT_MONOEXUICAMERA_GETSCREENLENGTH_OFFSET UNITYSDK_OFFSET(0xA9BE820)
-#define RPG_CLIENT_MONOEXUICAMERA_GETSTATE_OFFSET UNITYSDK_OFFSET(0xA9BCB70)
-#define RPG_CLIENT_MONOEXUICAMERA_GETZOOMRANGE_OFFSET UNITYSDK_OFFSET(0xA9BDFA0)
-#define RPG_CLIENT_MONOEXUICAMERA_GOTOSTATE_OFFSET UNITYSDK_OFFSET(0xA9BBE50)
-#define RPG_CLIENT_MONOEXUICAMERA_INITCANVASRANGE_OFFSET UNITYSDK_OFFSET(0xA9BCDA0)
-#define RPG_CLIENT_MONOEXUICAMERA_INITSTATES_OFFSET UNITYSDK_OFFSET(0xA9BB550)
-#define RPG_CLIENT_MONOEXUICAMERA_INIT_OFFSET UNITYSDK_OFFSET(0xA9BB3A0)
-#define RPG_CLIENT_MONOEXUICAMERA_ISALMOSTZERO_OFFSET UNITYSDK_OFFSET(0xA9BDBF0)
-#define RPG_CLIENT_MONOEXUICAMERA_ISLOCKX_OFFSET UNITYSDK_OFFSET(0xA9C0730)
-#define RPG_CLIENT_MONOEXUICAMERA_ISLOCKY_OFFSET UNITYSDK_OFFSET(0xA9C0770)
-#define RPG_CLIENT_MONOEXUICAMERA_MOVECAMERAIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xA9BE240)
-#define RPG_CLIENT_MONOEXUICAMERA_MOVECAMERA_OFFSET UNITYSDK_OFFSET(0xA9BE070)
-#define RPG_CLIENT_MONOEXUICAMERA_RECOVERCAMERAHARD_OFFSET UNITYSDK_OFFSET(0xA9BF000)
-#define RPG_CLIENT_MONOEXUICAMERA_RECOVERCAMERASOFT_OFFSET UNITYSDK_OFFSET(0xA9BF470)
-#define RPG_CLIENT_MONOEXUICAMERA_REFRESH_OFFSET UNITYSDK_OFFSET(0xA9BBC80)
-#define RPG_CLIENT_MONOEXUICAMERA_SAFEFRAME_OFFSET UNITYSDK_OFFSET(0xA9BED00)
-#define RPG_CLIENT_MONOEXUICAMERA_SETBORDERRECVSPEED_OFFSET UNITYSDK_OFFSET(0xA9C07B0)
-#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAANIMATIONSTATUS_OFFSET UNITYSDK_OFFSET(0xA9BBA00)
-#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAINITPOS_OFFSET UNITYSDK_OFFSET(0xA9BBDC0)
-#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAORIGINPOS_OFFSET UNITYSDK_OFFSET(0xA9C0550)
-#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAPIVOT_OFFSET UNITYSDK_OFFSET(0xA9BF400)
-#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0xA9BC540)
-#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERASPEED_OFFSET UNITYSDK_OFFSET(0xA9C03D0)
-#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAZOOMRATIO_OFFSET UNITYSDK_OFFSET(0xA9BDE60)
-#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAZOOMSPEED_OFFSET UNITYSDK_OFFSET(0xA9C0440)
-#define RPG_CLIENT_MONOEXUICAMERA_SETCANVASMARGIN_OFFSET UNITYSDK_OFFSET(0xA9BDED0)
-#define RPG_CLIENT_MONOEXUICAMERA_SETCANVASRECT_OFFSET UNITYSDK_OFFSET(0xA9BBA50)
-#define RPG_CLIENT_MONOEXUICAMERA_SETDRAGGOPOSOFFSET_OFFSET UNITYSDK_OFFSET(0xA9BC8E0)
-#define RPG_CLIENT_MONOEXUICAMERA_SETENABLENAVIGATOR_OFFSET UNITYSDK_OFFSET(0xA9C08B0)
-#define RPG_CLIENT_MONOEXUICAMERA_SETINPUTPROVIDER_OFFSET UNITYSDK_OFFSET(0xA9BCB20)
-#define RPG_CLIENT_MONOEXUICAMERA_SETLOCKXY_OFFSET UNITYSDK_OFFSET(0xA9C06D0)
-#define RPG_CLIENT_MONOEXUICAMERA_SETSWIPEENABLE_OFFSET UNITYSDK_OFFSET(0xA9C0810)
-#define RPG_CLIENT_MONOEXUICAMERA_SETZOOMENABLE_OFFSET UNITYSDK_OFFSET(0xA9C0860)
-#define RPG_CLIENT_MONOEXUICAMERA_SETZOOMRANGE_OFFSET UNITYSDK_OFFSET(0xA9C04A0)
-#define RPG_CLIENT_MONOEXUICAMERA_SET_PANEL0_OFFSET UNITYSDK_OFFSET(0xA9BB390)
-#define RPG_CLIENT_MONOEXUICAMERA_SWIPECAMERA_OFFSET UNITYSDK_OFFSET(0xA9BE300)
-#define RPG_CLIENT_MONOEXUICAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9BBF90)
-#define RPG_CLIENT_MONOEXUICAMERA_ZOOMCAMERABASE_OFFSET UNITYSDK_OFFSET(0xA9BF9E0)
-#define RPG_CLIENT_MONOEXUICAMERA_ZOOMCAMERA_OFFSET UNITYSDK_OFFSET(0xA9BFFC0)
-#define RPG_CLIENT_MONOEXUICAMERA_ZOOMDAMPINGCAMERA_OFFSET UNITYSDK_OFFSET(0xA9C02B0)
-#define RPG_CLIENT_MONOEXUICAMERA_ZOOMRECOVERCAMERA_OFFSET UNITYSDK_OFFSET(0xA9BF7F0)
-#define RPG_CLIENT_MONOEXUICAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xA9C0980)
-#define RPG_CLIENT_MONOEXUICAMERA__FRUSTUMRECT_OFFSET UNITYSDK_OFFSET(0xA9BE6F0)
-#define RPG_CLIENT_MONOEXUICAMERA__GETZOOMSPEEDBYPOINTERPOSITION_OFFSET UNITYSDK_OFFSET(0xA9BFBE0)
-#define RPG_CLIENT_MONOEXUICAMERA__SWIPESPEED_OFFSET UNITYSDK_OFFSET(0xA9BE4C0)
-#define RPG_CLIENT_MONOEXUICAMERA__UPDATECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0xA9BC2A0)
-#define RPG_CLIENT_MONOEXUICAMERA__UPDATEDRAGGOPOSITION_OFFSET UNITYSDK_OFFSET(0xA9BC050)
-#define RPG_CLIENT_MONOEXUICAMERA__UPDATE_OFFSET UNITYSDK_OFFSET(0xA9BBFE0)
+#define RPG_CLIENT_MONOEXUICAMERA_CLAMPINNERRECT_OFFSET UNITYSDK_OFFSET(0xC109AB0)
+#define RPG_CLIENT_MONOEXUICAMERA_CLAMPOUTERRECT_OFFSET UNITYSDK_OFFSET(0xC10B920)
+#define RPG_CLIENT_MONOEXUICAMERA_CLAMPRECT_OFFSET UNITYSDK_OFFSET(0xC10B700)
+#define RPG_CLIENT_MONOEXUICAMERA_CLAMPZOOM_OFFSET UNITYSDK_OFFSET(0xC10BB70)
+#define RPG_CLIENT_MONOEXUICAMERA_DAMPINGCAMERA_OFFSET UNITYSDK_OFFSET(0xC10C8E0)
+#define RPG_CLIENT_MONOEXUICAMERA_FOCUSCAMERA_1_OFFSET UNITYSDK_OFFSET(0xC10CE70)
+#define RPG_CLIENT_MONOEXUICAMERA_FOCUSCAMERA_OFFSET UNITYSDK_OFFSET(0xC10CDE0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERADISTANCE_OFFSET UNITYSDK_OFFSET(0xC10DF50)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAEULER_OFFSET UNITYSDK_OFFSET(0xC10A7F0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAORIGINPOS_OFFSET UNITYSDK_OFFSET(0xC10E5C0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAOUTINFO_OFFSET UNITYSDK_OFFSET(0xC10AD10)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAPIVOT_OFFSET UNITYSDK_OFFSET(0xC10E300)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0xC10A6D0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERASPEED_OFFSET UNITYSDK_OFFSET(0xC10E370)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAZOOMINFO_OFFSET UNITYSDK_OFFSET(0xC10BCE0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERAZOOMRATIO_OFFSET UNITYSDK_OFFSET(0xC10BDC0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCAMERA_OFFSET UNITYSDK_OFFSET(0xC10A330)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCANVASPOS_OFFSET UNITYSDK_OFFSET(0xC10E620)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCANVASRANGE_OFFSET UNITYSDK_OFFSET(0xC10AAF0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETCURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xC10AAA0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMBOTTOM_OFFSET UNITYSDK_OFFSET(0xC10B670)
+#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMHEIGHT_OFFSET UNITYSDK_OFFSET(0xC10BA70)
+#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMLEFT_OFFSET UNITYSDK_OFFSET(0xC10B3A0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMRIGHT_OFFSET UNITYSDK_OFFSET(0xC10B4C0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMTOP_OFFSET UNITYSDK_OFFSET(0xC10B5E0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMWIDTH_OFFSET UNITYSDK_OFFSET(0xC10B9D0)
+#define RPG_CLIENT_MONOEXUICAMERA_GETOUTINFO_OFFSET UNITYSDK_OFFSET(0xC10A970)
+#define RPG_CLIENT_MONOEXUICAMERA_GETSCREENLENGTH_OFFSET UNITYSDK_OFFSET(0xC10C840)
+#define RPG_CLIENT_MONOEXUICAMERA_GETSTATE_OFFSET UNITYSDK_OFFSET(0xC10AA10)
+#define RPG_CLIENT_MONOEXUICAMERA_GETZOOMRANGE_OFFSET UNITYSDK_OFFSET(0xC10BFC0)
+#define RPG_CLIENT_MONOEXUICAMERA_GOTOSTATE_OFFSET UNITYSDK_OFFSET(0xC109D30)
+#define RPG_CLIENT_MONOEXUICAMERA_INITCANVASRANGE_OFFSET UNITYSDK_OFFSET(0xC10AC30)
+#define RPG_CLIENT_MONOEXUICAMERA_INITSTATES_OFFSET UNITYSDK_OFFSET(0xC109430)
+#define RPG_CLIENT_MONOEXUICAMERA_INIT_OFFSET UNITYSDK_OFFSET(0xC109280)
+#define RPG_CLIENT_MONOEXUICAMERA_ISALMOSTZERO_OFFSET UNITYSDK_OFFSET(0xC10BC10)
+#define RPG_CLIENT_MONOEXUICAMERA_ISLOCKX_OFFSET UNITYSDK_OFFSET(0xC10E740)
+#define RPG_CLIENT_MONOEXUICAMERA_ISLOCKY_OFFSET UNITYSDK_OFFSET(0xC10E780)
+#define RPG_CLIENT_MONOEXUICAMERA_MOVECAMERAIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xC10C230)
+#define RPG_CLIENT_MONOEXUICAMERA_MOVECAMERA_OFFSET UNITYSDK_OFFSET(0xC10C060)
+#define RPG_CLIENT_MONOEXUICAMERA_RECOVERCAMERAHARD_OFFSET UNITYSDK_OFFSET(0xC10D020)
+#define RPG_CLIENT_MONOEXUICAMERA_RECOVERCAMERASOFT_OFFSET UNITYSDK_OFFSET(0xC10D490)
+#define RPG_CLIENT_MONOEXUICAMERA_REFRESH_OFFSET UNITYSDK_OFFSET(0xC109B60)
+#define RPG_CLIENT_MONOEXUICAMERA_SAFEFRAME_OFFSET UNITYSDK_OFFSET(0xC10CD20)
+#define RPG_CLIENT_MONOEXUICAMERA_SETBORDERRECVSPEED_OFFSET UNITYSDK_OFFSET(0xC10E7C0)
+#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAANIMATIONSTATUS_OFFSET UNITYSDK_OFFSET(0xC1098E0)
+#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAINITPOS_OFFSET UNITYSDK_OFFSET(0xC109CA0)
+#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAORIGINPOS_OFFSET UNITYSDK_OFFSET(0xC10E560)
+#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAPIVOT_OFFSET UNITYSDK_OFFSET(0xC10D420)
+#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0xC10A400)
+#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERASPEED_OFFSET UNITYSDK_OFFSET(0xC10E3E0)
+#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAZOOMRATIO_OFFSET UNITYSDK_OFFSET(0xC10BE80)
+#define RPG_CLIENT_MONOEXUICAMERA_SETCAMERAZOOMSPEED_OFFSET UNITYSDK_OFFSET(0xC10E450)
+#define RPG_CLIENT_MONOEXUICAMERA_SETCANVASMARGIN_OFFSET UNITYSDK_OFFSET(0xC10BEF0)
+#define RPG_CLIENT_MONOEXUICAMERA_SETCANVASRECT_OFFSET UNITYSDK_OFFSET(0xC109930)
+#define RPG_CLIENT_MONOEXUICAMERA_SETDRAGGOPOSOFFSET_OFFSET UNITYSDK_OFFSET(0xC10A780)
+#define RPG_CLIENT_MONOEXUICAMERA_SETENABLENAVIGATOR_OFFSET UNITYSDK_OFFSET(0xC10E8C0)
+#define RPG_CLIENT_MONOEXUICAMERA_SETINPUTPROVIDER_OFFSET UNITYSDK_OFFSET(0xC10A9C0)
+#define RPG_CLIENT_MONOEXUICAMERA_SETLOCKXY_OFFSET UNITYSDK_OFFSET(0xC10E6E0)
+#define RPG_CLIENT_MONOEXUICAMERA_SETSWIPEENABLE_OFFSET UNITYSDK_OFFSET(0xC10E820)
+#define RPG_CLIENT_MONOEXUICAMERA_SETZOOMENABLE_OFFSET UNITYSDK_OFFSET(0xC10E870)
+#define RPG_CLIENT_MONOEXUICAMERA_SETZOOMRANGE_OFFSET UNITYSDK_OFFSET(0xC10E4B0)
+#define RPG_CLIENT_MONOEXUICAMERA_SET_PANEL0_OFFSET UNITYSDK_OFFSET(0xC109270)
+#define RPG_CLIENT_MONOEXUICAMERA_SWIPECAMERA_OFFSET UNITYSDK_OFFSET(0xC10C2F0)
+#define RPG_CLIENT_MONOEXUICAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0xC109E70)
+#define RPG_CLIENT_MONOEXUICAMERA_ZOOMCAMERABASE_OFFSET UNITYSDK_OFFSET(0xC10DA00)
+#define RPG_CLIENT_MONOEXUICAMERA_ZOOMCAMERA_OFFSET UNITYSDK_OFFSET(0xC10DFD0)
+#define RPG_CLIENT_MONOEXUICAMERA_ZOOMDAMPINGCAMERA_OFFSET UNITYSDK_OFFSET(0xC10E2C0)
+#define RPG_CLIENT_MONOEXUICAMERA_ZOOMRECOVERCAMERA_OFFSET UNITYSDK_OFFSET(0xC10D810)
+#define RPG_CLIENT_MONOEXUICAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xC10E990)
+#define RPG_CLIENT_MONOEXUICAMERA__FRUSTUMRECT_OFFSET UNITYSDK_OFFSET(0xC10C710)
+#define RPG_CLIENT_MONOEXUICAMERA__GETZOOMSPEEDBYPOINTERPOSITION_OFFSET UNITYSDK_OFFSET(0xC10DC00)
+#define RPG_CLIENT_MONOEXUICAMERA__SWIPESPEED_OFFSET UNITYSDK_OFFSET(0xC10C490)
+#define RPG_CLIENT_MONOEXUICAMERA__UPDATECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0xC10A160)
+#define RPG_CLIENT_MONOEXUICAMERA__UPDATEDRAGGOPOSITION_OFFSET UNITYSDK_OFFSET(0xC109F30)
+#define RPG_CLIENT_MONOEXUICAMERA__UPDATE_OFFSET UNITYSDK_OFFSET(0xC109EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoExUICamera_TypeDefinitionIndex = 67217;
+	inline static constexpr unsigned int MonoExUICamera_TypeDefinitionIndex = 68169;
 
 	class MonoExUICamera : public ::UnityEngine::MonoBehaviour
 	{
@@ -147,13 +147,13 @@ namespace RPG::Client
 		::UnityEngine::Rect _canvas_inner_rect; // 0xB8
 		::UnityEngine::Rect _canvas_outter_rect; // 0xC8
 		::Class_1_3EE0A731EA0C8B63* _currentState; // 0xD8
-		::Class_2_F760CE809D71CA56* _idleState; // 0xE0
-		::Class_2_4EAE3B7F219197BA* _swipeState; // 0xE8
+		::Class_2_8916F0776AEBA746* _idleState; // 0xE0
+		::Class_2_4DF1EB99899254EA* _swipeState; // 0xE8
 		::Class_2_E46C72143CFC0F6C* _dampingState; // 0xF0
-		::Class_2_AE169F52A9613A77* _recoverState; // 0xF8
+		::Class_2_D91F96C9F9304095* _recoverState; // 0xF8
 		::Class_2_1A03558EE92028F7* _zoomRecoverState; // 0x100
 		::Class_2_0EF6D9EB61B0E98E_1* _zoomDampingState; // 0x108
-		::Class_2_4234349125811B5C* _focusState; // 0x110
+		::Class_2_53BA676286403FAC* _focusState; // 0x110
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::MonoExUICamera_E_ExUICameraState, ::Class_1_3EE0A731EA0C8B63*>* _stateDict; // 0x118
 		::UnityEngine::Camera* _camera; // 0x120
 		::UnityEngine::Vector3 _v_camera_pivot; // 0x128
@@ -176,24 +176,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_Panel0(::UnityEngine::Transform* value)
+		::System::Void set_Panel0(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SET_PANEL0_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SET_PANEL0_OFFSET))(this, a1);
 		}
 
-		::System::Void Init(::UnityEngine::Camera* controlCamera)
+		::System::Void Init(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_INIT_OFFSET))(this, controlCamera);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCameraAnimationStatus(::System::Boolean status)
+		::System::Void SetCameraAnimationStatus(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAANIMATIONSTATUS_OFFSET))(this, status);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAANIMATIONSTATUS_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCanvasRect(::System::Single width, ::System::Single height)
+		::System::Void SetCanvasRect(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCANVASRECT_OFFSET))(this, width, height);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCANVASRECT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Refresh()
@@ -231,9 +231,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA__UPDATEDRAGGOPOSITION_OFFSET))(this);
 		}
 
-		::System::Void SetCameraPosition(::UnityEngine::Vector3 destination)
+		::System::Void SetCameraPosition(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAPOSITION_OFFSET))(this, destination);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAPOSITION_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 GetCameraPosition()
@@ -241,9 +241,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETCAMERAPOSITION_OFFSET))(this);
 		}
 
-		::System::Void SetDragGoPosOffset(::UnityEngine::Vector3 offset)
+		::System::Void SetDragGoPosOffset(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETDRAGGOPOSOFFSET_OFFSET))(this, offset);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETDRAGGOPOSOFFSET_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 GetCameraEuler()
@@ -256,9 +256,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MonoExUICamera_CameraOutInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETOUTINFO_OFFSET))(this);
 		}
 
-		::System::Void SetInputProvider(::RPG::Client::MonoExUICamera_IInputProvider* provider)
+		::System::Void SetInputProvider(::RPG::Client::MonoExUICamera_IInputProvider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoExUICamera_IInputProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETINPUTPROVIDER_OFFSET))(this, provider);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoExUICamera_IInputProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETINPUTPROVIDER_OFFSET))(this, a1);
 		}
 
 		::System::Void InitStates()
@@ -266,14 +266,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_INITSTATES_OFFSET))(this);
 		}
 
-		::System::Void GotoState(::RPG::Client::MonoExUICamera_E_ExUICameraState newStateName, ::System::Object* param)
+		::System::Void GotoState(::RPG::Client::MonoExUICamera_E_ExUICameraState a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoExUICamera_E_ExUICameraState, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GOTOSTATE_OFFSET))(this, newStateName, param);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoExUICamera_E_ExUICameraState, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GOTOSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::Class_1_3EE0A731EA0C8B63* GetState(::RPG::Client::MonoExUICamera_E_ExUICameraState stateName)
+		::Class_1_3EE0A731EA0C8B63* GetState(::RPG::Client::MonoExUICamera_E_ExUICameraState a1)
 		{
-			return ((::Class_1_3EE0A731EA0C8B63*(*)(::PVOID, ::RPG::Client::MonoExUICamera_E_ExUICameraState))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETSTATE_OFFSET))(this, stateName);
+			return ((::Class_1_3EE0A731EA0C8B63*(*)(::PVOID, ::RPG::Client::MonoExUICamera_E_ExUICameraState))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETSTATE_OFFSET))(this, a1);
 		}
 
 		::Class_1_3EE0A731EA0C8B63* GetCurrentState()
@@ -281,9 +281,9 @@ namespace RPG::Client
 			return ((::Class_1_3EE0A731EA0C8B63*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETCURRENTSTATE_OFFSET))(this);
 		}
 
-		::UnityEngine::Rect GetCanvasRange(::System::Boolean outer, ::System::Boolean forceRefresh)
+		::UnityEngine::Rect GetCanvasRange(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::Rect(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETCANVASRANGE_OFFSET))(this, outer, forceRefresh);
+			return ((::UnityEngine::Rect(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETCANVASRANGE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void InitCanvasRange()
@@ -291,69 +291,69 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_INITCANVASRANGE_OFFSET))(this);
 		}
 
-		::System::Void GetCameraOutInfo(::UnityEngine::Vector3 pos, ::RPG::Client::MonoExUICamera_CameraOutInfo*& info)
+		::System::Void GetCameraOutInfo(::UnityEngine::Vector3 a1, ::RPG::Client::MonoExUICamera_CameraOutInfo*& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::RPG::Client::MonoExUICamera_CameraOutInfo*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETCAMERAOUTINFO_OFFSET))(this, pos, info);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::RPG::Client::MonoExUICamera_CameraOutInfo*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETCAMERAOUTINFO_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 ClampInnerRect(::UnityEngine::Vector3 pos)
+		::UnityEngine::Vector3 ClampInnerRect(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_CLAMPINNERRECT_OFFSET))(this, pos);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_CLAMPINNERRECT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 ClampOuterRect(::UnityEngine::Vector3 pos)
+		::UnityEngine::Vector3 ClampOuterRect(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_CLAMPOUTERRECT_OFFSET))(this, pos);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_CLAMPOUTERRECT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 ClampRect(::UnityEngine::Vector3 pos, ::UnityEngine::Rect canvasRect)
+		::UnityEngine::Vector3 ClampRect(::UnityEngine::Vector3 a1, ::UnityEngine::Rect a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_CLAMPRECT_OFFSET))(this, pos, canvasRect);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_CLAMPRECT_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 ClampZoom(::UnityEngine::Vector3 pos)
+		::UnityEngine::Vector3 ClampZoom(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_CLAMPZOOM_OFFSET))(this, pos);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_CLAMPZOOM_OFFSET))(this, a1);
 		}
 
-		::System::Single GetFrustumLeft(::UnityEngine::Vector3 pos)
+		::System::Single GetFrustumLeft(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMLEFT_OFFSET))(this, pos);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMLEFT_OFFSET))(this, a1);
 		}
 
-		::System::Single GetFrustumRight(::UnityEngine::Vector3 pos)
+		::System::Single GetFrustumRight(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMRIGHT_OFFSET))(this, pos);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMRIGHT_OFFSET))(this, a1);
 		}
 
-		::System::Single GetFrustumTop(::UnityEngine::Vector3 pos)
+		::System::Single GetFrustumTop(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMTOP_OFFSET))(this, pos);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMTOP_OFFSET))(this, a1);
 		}
 
-		::System::Single GetFrustumBottom(::UnityEngine::Vector3 pos)
+		::System::Single GetFrustumBottom(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMBOTTOM_OFFSET))(this, pos);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMBOTTOM_OFFSET))(this, a1);
 		}
 
-		::System::Single GetFrustumHeight(::UnityEngine::Vector3 pos)
+		::System::Single GetFrustumHeight(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMHEIGHT_OFFSET))(this, pos);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMHEIGHT_OFFSET))(this, a1);
 		}
 
-		::System::Single GetFrustumWidth(::UnityEngine::Vector3 pos)
+		::System::Single GetFrustumWidth(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMWIDTH_OFFSET))(this, pos);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETFRUSTUMWIDTH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsAlmostZero(::System::Single value)
+		::System::Boolean IsAlmostZero(::System::Single a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_ISALMOSTZERO_OFFSET))(this, value);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_ISALMOSTZERO_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MonoExUICamera_E_ExUIZoomRange GetCameraZoomInfo(::System::Single z, ::System::Single& ratio)
+		::RPG::Client::MonoExUICamera_E_ExUIZoomRange GetCameraZoomInfo(::System::Single a1, ::System::Single& a2)
 		{
-			return ((::RPG::Client::MonoExUICamera_E_ExUIZoomRange(*)(::PVOID, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETCAMERAZOOMINFO_OFFSET))(this, z, ratio);
+			return ((::RPG::Client::MonoExUICamera_E_ExUIZoomRange(*)(::PVOID, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETCAMERAZOOMINFO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single GetCameraZoomRatio()
@@ -361,14 +361,14 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETCAMERAZOOMRATIO_OFFSET))(this);
 		}
 
-		::System::Void SetCameraZoomRatio(::System::Single ratio)
+		::System::Void SetCameraZoomRatio(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAZOOMRATIO_OFFSET))(this, ratio);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAZOOMRATIO_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCanvasMargin(::System::Single left, ::System::Single right, ::System::Single top, ::System::Single bottom)
+		::System::Void SetCanvasMargin(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCANVASMARGIN_OFFSET))(this, left, right, top, bottom);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCANVASMARGIN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::Il2CppArray<::System::Single>* GetZoomRange()
@@ -376,29 +376,29 @@ namespace RPG::Client
 			return ((::Il2CppArray<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETZOOMRANGE_OFFSET))(this);
 		}
 
-		::System::Void MoveCamera(::UnityEngine::Vector3 speed)
+		::System::Void MoveCamera(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_MOVECAMERA_OFFSET))(this, speed);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_MOVECAMERA_OFFSET))(this, a1);
 		}
 
-		::System::Void MoveCameraImmediately(::UnityEngine::Vector3 speed)
+		::System::Void MoveCameraImmediately(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_MOVECAMERAIMMEDIATELY_OFFSET))(this, speed);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_MOVECAMERAIMMEDIATELY_OFFSET))(this, a1);
 		}
 
-		::System::Void SwipeCamera(::UnityEngine::Vector2 rawDelta)
+		::System::Void SwipeCamera(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SWIPECAMERA_OFFSET))(this, rawDelta);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SWIPECAMERA_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 _SwipeSpeed(::UnityEngine::Vector2 rawDelta)
+		::UnityEngine::Vector2 _SwipeSpeed(::UnityEngine::Vector2 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA__SWIPESPEED_OFFSET))(this, rawDelta);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA__SWIPESPEED_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 _FrustumRect(::UnityEngine::Vector3 pos)
+		::UnityEngine::Vector2 _FrustumRect(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA__FRUSTUMRECT_OFFSET))(this, pos);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA__FRUSTUMRECT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean DampingCamera()
@@ -406,14 +406,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_DAMPINGCAMERA_OFFSET))(this);
 		}
 
-		::System::Void FocusCamera(::UnityEngine::Vector2 focusPos, ::System::Single time)
+		::System::Void FocusCamera(::UnityEngine::Vector2 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_FOCUSCAMERA_OFFSET))(this, focusPos, time);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_FOCUSCAMERA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FocusCamera_1(::UnityEngine::Vector3 focusPos, ::System::Single time)
+		::System::Void FocusCamera_1(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_FOCUSCAMERA_1_OFFSET))(this, focusPos, time);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_FOCUSCAMERA_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single SafeFrame()
@@ -436,19 +436,19 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_ZOOMRECOVERCAMERA_OFFSET))(this);
 		}
 
-		::System::Void ZoomCameraBase(::System::Single zoomSpeed)
+		::System::Void ZoomCameraBase(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_ZOOMCAMERABASE_OFFSET))(this, zoomSpeed);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_ZOOMCAMERABASE_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 _GetZoomSpeedByPointerPosition(::System::Single deltaZoom)
+		::UnityEngine::Vector3 _GetZoomSpeedByPointerPosition(::System::Single a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA__GETZOOMSPEEDBYPOINTERPOSITION_OFFSET))(this, deltaZoom);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA__GETZOOMSPEEDBYPOINTERPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void ZoomCamera(::System::Single pinch)
+		::System::Void ZoomCamera(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_ZOOMCAMERA_OFFSET))(this, pinch);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_ZOOMCAMERA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean ZoomDampingCamera()
@@ -471,29 +471,29 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETCAMERASPEED_OFFSET))(this);
 		}
 
-		::System::Void SetCameraSpeed(::UnityEngine::Vector3 speed)
+		::System::Void SetCameraSpeed(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERASPEED_OFFSET))(this, speed);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERASPEED_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCameraZoomSpeed(::System::Single speed)
+		::System::Void SetCameraZoomSpeed(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAZOOMSPEED_OFFSET))(this, speed);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAZOOMSPEED_OFFSET))(this, a1);
 		}
 
-		::System::Void SetZoomRange(::System::Single minOuter, ::System::Single minInner, ::System::Single maxInner, ::System::Single maxOuter)
+		::System::Void SetZoomRange(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETZOOMRANGE_OFFSET))(this, minOuter, minInner, maxInner, maxOuter);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETZOOMRANGE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetCameraPivot(::UnityEngine::Vector3 pos)
+		::System::Void SetCameraPivot(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAPIVOT_OFFSET))(this, pos);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAPIVOT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCameraOriginPos(::UnityEngine::Vector3 pos)
+		::System::Void SetCameraOriginPos(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAORIGINPOS_OFFSET))(this, pos);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETCAMERAORIGINPOS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 GetCameraOriginPos()
@@ -511,9 +511,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_GETCAMERADISTANCE_OFFSET))(this);
 		}
 
-		::System::Void SetLockXY(::System::Boolean lockX, ::System::Boolean lockY)
+		::System::Void SetLockXY(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETLOCKXY_OFFSET))(this, lockX, lockY);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETLOCKXY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsLockX()
@@ -526,24 +526,24 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_ISLOCKY_OFFSET))(this);
 		}
 
-		::System::Void SetBorderRecvSpeed(::System::Single value)
+		::System::Void SetBorderRecvSpeed(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETBORDERRECVSPEED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETBORDERRECVSPEED_OFFSET))(this, a1);
 		}
 
-		::System::Void SetSwipeEnable(::System::Boolean enable)
+		::System::Void SetSwipeEnable(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETSWIPEENABLE_OFFSET))(this, enable);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETSWIPEENABLE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetZoomEnable(::System::Boolean enable)
+		::System::Void SetZoomEnable(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETZOOMENABLE_OFFSET))(this, enable);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETZOOMENABLE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetEnableNavigator(::System::Boolean enable)
+		::System::Void SetEnableNavigator(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETENABLENAVIGATOR_OFFSET))(this, enable);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEXUICAMERA_SETENABLENAVIGATOR_OFFSET))(this, a1);
 		}
 	};
 }

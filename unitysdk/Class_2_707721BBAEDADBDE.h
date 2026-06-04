@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class AddGlobalDynamicOffsetIgnoreEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_707721BBAEDADBDE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD3AF510)
-#define CLASS_2_707721BBAEDADBDE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD3AF550)
-#define CLASS_2_707721BBAEDADBDE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD3AF770)
-#define CLASS_2_707721BBAEDADBDE_TICK_OFFSET UNITYSDK_OFFSET(0xD3AF7C0)
-#define CLASS_2_707721BBAEDADBDE__CTOR_OFFSET UNITYSDK_OFFSET(0xD3AF500)
+#define CLASS_2_707721BBAEDADBDE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA8ADC60)
+#define CLASS_2_707721BBAEDADBDE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA8ADCA0)
+#define CLASS_2_707721BBAEDADBDE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA8ADEC0)
+#define CLASS_2_707721BBAEDADBDE_TICK_OFFSET UNITYSDK_OFFSET(0xA8ADF10)
+#define CLASS_2_707721BBAEDADBDE__CTOR_OFFSET UNITYSDK_OFFSET(0xA8ADC50)
 
-inline static constexpr unsigned int Class_2_707721BBAEDADBDE_TypeDefinitionIndex = 53352;
+inline static constexpr unsigned int Class_2_707721BBAEDADBDE_TypeDefinitionIndex = 54065;
 
 class Class_2_707721BBAEDADBDE : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::AddGlobalDynamicOffsetIgnoreEntity* Field_2_0; // 0x20
+	::RPG::GameCore::AddGlobalDynamicOffsetIgnoreEntity* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AddGlobalDynamicOffsetIgnoreEntity* a2)
 	{

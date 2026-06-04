@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CUTSCENECACHEINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xA0EFEA0)
+#define RPG_CLIENT_CUTSCENECACHEINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xB72F510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CutsceneCacheInitParams_TypeDefinitionIndex = 55060;
+	inline static constexpr unsigned int CutsceneCacheInitParams_TypeDefinitionIndex = 55794;
 
 	class CutsceneCacheInitParams : public ::System::Object
 	{
@@ -17,9 +17,9 @@ namespace RPG::Client
 		::System::String* CutsceneName; // 0x10
 		::RPG::GameCore::GenderType HeroGender; // 0x18
 
-		::System::Void _ctor(::System::String* cutsceneName, ::RPG::GameCore::GenderType heroGender)
+		::System::Void _ctor(::System::String* a1, ::RPG::GameCore::GenderType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GenderType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUTSCENECACHEINITPARAMS__CTOR_OFFSET))(this, cutsceneName, heroGender);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GenderType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUTSCENECACHEINITPARAMS__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

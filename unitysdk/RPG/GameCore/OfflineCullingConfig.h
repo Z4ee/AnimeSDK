@@ -3,14 +3,16 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_OFFLINECULLINGCONFIG_METHOD_2_0E7CF5ABF813FE71_OFFSET UNITYSDK_OFFSET(0x18BC3A00)
-#define RPG_GAMECORE_OFFLINECULLINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC3BC0)
+#define RPG_GAMECORE_OFFLINECULLINGCONFIG_METHOD_2_5D0750B987017478_OFFSET UNITYSDK_OFFSET(0x199D5240)
+#define RPG_GAMECORE_OFFLINECULLINGCONFIG_METHOD_2_8151046A97A29664_OFFSET UNITYSDK_OFFSET(0x199D5410)
+#define RPG_GAMECORE_OFFLINECULLINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199D5400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfflineCullingConfig_TypeDefinitionIndex = 18194;
+	inline static constexpr unsigned int OfflineCullingConfig_TypeDefinitionIndex = 18187;
 
 	class OfflineCullingConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFLINECULLINGCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0E7CF5ABF813FE71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OfflineCullingConfig*& a2)
+		static ::System::Void Method_2_5D0750B987017478(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OfflineCullingConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OfflineCullingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFLINECULLINGCONFIG_METHOD_2_0E7CF5ABF813FE71_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OfflineCullingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFLINECULLINGCONFIG_METHOD_2_5D0750B987017478_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_8151046A97A29664(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::OfflineCullingConfig*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::OfflineCullingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFLINECULLINGCONFIG_METHOD_2_8151046A97A29664_OFFSET))(a1, a2);
 		}
 	};
 }

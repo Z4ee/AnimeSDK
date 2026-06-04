@@ -12,17 +12,17 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AVATARRANKCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x9DB6750)
-#define RPG_CLIENT_AVATARRANKCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x9DB6580)
-#define RPG_CLIENT_AVATARRANKCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9DB65D0)
-#define RPG_CLIENT_AVATARRANKCONTROL_SETRANKTEXTURES_OFFSET UNITYSDK_OFFSET(0x9DB6080)
-#define RPG_CLIENT_AVATARRANKCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x9DB73A0)
-#define RPG_CLIENT_AVATARRANKCONTROL__GETTEXTUREPATH_OFFSET UNITYSDK_OFFSET(0x9DB64A0)
-#define RPG_CLIENT_AVATARRANKCONTROL__RELEASETEXTUREASSET_OFFSET UNITYSDK_OFFSET(0x9DB6250)
+#define RPG_CLIENT_AVATARRANKCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB392520)
+#define RPG_CLIENT_AVATARRANKCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB392370)
+#define RPG_CLIENT_AVATARRANKCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB3923C0)
+#define RPG_CLIENT_AVATARRANKCONTROL_SETRANKTEXTURES_OFFSET UNITYSDK_OFFSET(0xB391EB0)
+#define RPG_CLIENT_AVATARRANKCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xB3930A0)
+#define RPG_CLIENT_AVATARRANKCONTROL__GETTEXTUREPATH_OFFSET UNITYSDK_OFFSET(0xB392290)
+#define RPG_CLIENT_AVATARRANKCONTROL__RELEASETEXTUREASSET_OFFSET UNITYSDK_OFFSET(0xB392050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarRankControl_TypeDefinitionIndex = 65471;
+	inline static constexpr unsigned int AvatarRankControl_TypeDefinitionIndex = 66401;
 
 	class AvatarRankControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -72,14 +72,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARRANKCONTROL__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetRankTextures(::System::UInt32 avatarID)
+		::System::Void SetRankTextures(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARRANKCONTROL_SETRANKTEXTURES_OFFSET))(this, avatarID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARRANKCONTROL_SETRANKTEXTURES_OFFSET))(this, a1);
 		}
 
-		::System::String* _GetTexturePath(::System::UInt32 avatarID, ::System::Int32 rank)
+		::System::String* _GetTexturePath(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARRANKCONTROL__GETTEXTUREPATH_OFFSET))(this, avatarID, rank);
+			return ((::System::String*(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARRANKCONTROL__GETTEXTUREPATH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ReleaseTextureAsset()

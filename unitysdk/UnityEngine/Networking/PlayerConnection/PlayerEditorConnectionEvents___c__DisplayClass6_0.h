@@ -5,12 +5,12 @@
 
 namespace UnityEngine::Networking::PlayerConnection { class PlayerEditorConnectionEvents_MessageTypeSubscribers; }
 
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A462DC0)
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS___C__DISPLAYCLASS6_0__INVOKEMESSAGEIDSUBSCRIBERS_B__0_OFFSET UNITYSDK_OFFSET(0x1A462EA0)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2B3000)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS___C__DISPLAYCLASS6_0__INVOKEMESSAGEIDSUBSCRIBERS_B__0_OFFSET UNITYSDK_OFFSET(0x1B2B30E0)
 
 namespace UnityEngine::Networking::PlayerConnection
 {
-	inline static constexpr unsigned int PlayerEditorConnectionEvents___c__DisplayClass6_0_TypeDefinitionIndex = 4489;
+	inline static constexpr unsigned int PlayerEditorConnectionEvents___c__DisplayClass6_0_TypeDefinitionIndex = 4663;
 
 	class PlayerEditorConnectionEvents___c__DisplayClass6_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace UnityEngine::Networking::PlayerConnection
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS___C__DISPLAYCLASS6_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _InvokeMessageIdSubscribers_b__0(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers* x)
+		::System::Boolean _InvokeMessageIdSubscribers_b__0(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS___C__DISPLAYCLASS6_0__INVOKEMESSAGEIDSUBSCRIBERS_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS___C__DISPLAYCLASS6_0__INVOKEMESSAGEIDSUBSCRIBERS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

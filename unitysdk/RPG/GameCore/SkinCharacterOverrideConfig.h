@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AdventureCharacterConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_0C4BB4EBBCE268F5_OFFSET UNITYSDK_OFFSET(0x18E73770)
-#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_D25FD22724C3016D_OFFSET UNITYSDK_OFFSET(0x18E73480)
-#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E73760)
+#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_0C4BB4EBBCE268F5_OFFSET UNITYSDK_OFFSET(0x19C8F410)
+#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_2728F94EAFB58187_OFFSET UNITYSDK_OFFSET(0x19C8F120)
+#define RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8F400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkinCharacterOverrideConfig_TypeDefinitionIndex = 16568;
+	inline static constexpr unsigned int SkinCharacterOverrideConfig_TypeDefinitionIndex = 16598;
 
 	class SkinCharacterOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D25FD22724C3016D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SkinCharacterOverrideConfig*& a2)
+		static ::System::Void Method_2_2728F94EAFB58187(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SkinCharacterOverrideConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SkinCharacterOverrideConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_D25FD22724C3016D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SkinCharacterOverrideConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKINCHARACTEROVERRIDECONFIG_METHOD_2_2728F94EAFB58187_OFFSET))(a1, a2);
 		}
 
 		::System::Void Method_2_0C4BB4EBBCE268F5(::RPG::GameCore::AdventureCharacterConfig* a1)

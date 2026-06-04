@@ -8,10 +8,10 @@ namespace System::Xml { class XmlName; }
 namespace System::Xml { class XmlNameTable; }
 namespace System::Xml::Schema { class IXmlSchemaInfo; }
 
-#define SYSTEM_XML_DOMNAMETABLE_ADDNAME_OFFSET UNITYSDK_OFFSET(0x19F9ED20)
-#define SYSTEM_XML_DOMNAMETABLE_GETNAME_OFFSET UNITYSDK_OFFSET(0x19F9EA00)
-#define SYSTEM_XML_DOMNAMETABLE_GROW_OFFSET UNITYSDK_OFFSET(0x19F9F3F0)
-#define SYSTEM_XML_DOMNAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F9E980)
+#define SYSTEM_XML_DOMNAMETABLE_ADDNAME_OFFSET UNITYSDK_OFFSET(0x1AE15190)
+#define SYSTEM_XML_DOMNAMETABLE_GETNAME_OFFSET UNITYSDK_OFFSET(0x1AE14E80)
+#define SYSTEM_XML_DOMNAMETABLE_GROW_OFFSET UNITYSDK_OFFSET(0x1AE15820)
+#define SYSTEM_XML_DOMNAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE14E00)
 
 namespace System::Xml
 {
@@ -21,24 +21,24 @@ namespace System::Xml
 	{
 	public:
 		::Il2CppArray<::System::Xml::XmlName*>* entries; // 0x10
-		::System::Xml::XmlNameTable* nameTable; // 0x18
-		::System::Xml::XmlDocument* ownerDocument; // 0x20
+		::System::Xml::XmlDocument* ownerDocument; // 0x18
+		::System::Xml::XmlNameTable* nameTable; // 0x20
 		::System::Int32 count; // 0x28
 		::System::Int32 mask; // 0x2C
 
-		::System::Void _ctor(::System::Xml::XmlDocument* document)
+		::System::Void _ctor(::System::Xml::XmlDocument* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_DOMNAMETABLE__CTOR_OFFSET))(this, document);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_DOMNAMETABLE__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Xml::XmlName* GetName(::System::String* prefix, ::System::String* localName, ::System::String* ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo)
+		::System::Xml::XmlName* GetName(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Xml::Schema::IXmlSchemaInfo* a4)
 		{
-			return ((::System::Xml::XmlName*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::Schema::IXmlSchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_DOMNAMETABLE_GETNAME_OFFSET))(this, prefix, localName, ns, schemaInfo);
+			return ((::System::Xml::XmlName*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::Schema::IXmlSchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_DOMNAMETABLE_GETNAME_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Xml::XmlName* AddName(::System::String* prefix, ::System::String* localName, ::System::String* ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo)
+		::System::Xml::XmlName* AddName(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Xml::Schema::IXmlSchemaInfo* a4)
 		{
-			return ((::System::Xml::XmlName*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::Schema::IXmlSchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_DOMNAMETABLE_ADDNAME_OFFSET))(this, prefix, localName, ns, schemaInfo);
+			return ((::System::Xml::XmlName*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::Schema::IXmlSchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_DOMNAMETABLE_ADDNAME_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Grow()

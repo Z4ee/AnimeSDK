@@ -4,8 +4,8 @@
 
 namespace System::Xml { class XmlRawWriter; }
 
-#define SYSTEM_XML_XMLRAWWRITERBASE64ENCODER_WRITECHARS_OFFSET UNITYSDK_OFFSET(0x1A060BC0)
-#define SYSTEM_XML_XMLRAWWRITERBASE64ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0606B0)
+#define SYSTEM_XML_XMLRAWWRITERBASE64ENCODER_WRITECHARS_OFFSET UNITYSDK_OFFSET(0x1AED2CE0)
+#define SYSTEM_XML_XMLRAWWRITERBASE64ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AED2800)
 
 namespace System::Xml
 {
@@ -16,14 +16,14 @@ namespace System::Xml
 	public:
 		::System::Xml::XmlRawWriter* rawWriter; // 0x28
 
-		::System::Void _ctor(::System::Xml::XmlRawWriter* rawWriter)
+		::System::Void _ctor(::System::Xml::XmlRawWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlRawWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRAWWRITERBASE64ENCODER__CTOR_OFFSET))(this, rawWriter);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlRawWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRAWWRITERBASE64ENCODER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteChars(::Il2CppArray<::System::Char>* chars, ::System::Int32 index, ::System::Int32 count)
+		::System::Void WriteChars(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRAWWRITERBASE64ENCODER_WRITECHARS_OFFSET))(this, chars, index, count);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLRAWWRITERBASE64ENCODER_WRITECHARS_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

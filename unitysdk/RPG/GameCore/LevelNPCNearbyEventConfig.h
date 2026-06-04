@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNPCNEARBYEVENTCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18A4D000)
-#define RPG_GAMECORE_LEVELNPCNEARBYEVENTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A4C440)
-#define RPG_GAMECORE_LEVELNPCNEARBYEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4CFF0)
+#define RPG_GAMECORE_LEVELNPCNEARBYEVENTCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1987DC40)
+#define RPG_GAMECORE_LEVELNPCNEARBYEVENTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1987D070)
+#define RPG_GAMECORE_LEVELNPCNEARBYEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1987DC30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCNearbyEventConfig_TypeDefinitionIndex = 16392;
+	inline static constexpr unsigned int LevelNPCNearbyEventConfig_TypeDefinitionIndex = 16425;
 
 	class LevelNPCNearbyEventConfig : public ::RPG::GameCore::LevelNPCNearbyConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCNEARBYEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelNPCNearbyEventConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCNearbyEventConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCNearbyEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCNEARBYEVENTCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCNearbyEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCNEARBYEVENTCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelNPCNearbyEventConfig* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNPCNearbyEventConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCNearbyEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCNEARBYEVENTCONFIG_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNPCNearbyEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNPCNEARBYEVENTCONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

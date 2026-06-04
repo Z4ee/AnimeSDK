@@ -7,12 +7,12 @@ namespace RPG::GameCore { class FloorCustomValueConfig; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELDIMENSIONCROSSMAPBRIEFINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A3F130)
-#define RPG_GAMECORE_LEVELDIMENSIONCROSSMAPBRIEFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3F3A0)
+#define RPG_GAMECORE_LEVELDIMENSIONCROSSMAPBRIEFINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19870D30)
+#define RPG_GAMECORE_LEVELDIMENSIONCROSSMAPBRIEFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19870F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDimensionCrossMapBriefInfo_TypeDefinitionIndex = 16279;
+	inline static constexpr unsigned int LevelDimensionCrossMapBriefInfo_TypeDefinitionIndex = 16313;
 
 	class LevelDimensionCrossMapBriefInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDIMENSIONCROSSMAPBRIEFINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelDimensionCrossMapBriefInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelDimensionCrossMapBriefInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelDimensionCrossMapBriefInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDIMENSIONCROSSMAPBRIEFINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelDimensionCrossMapBriefInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDIMENSIONCROSSMAPBRIEFINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

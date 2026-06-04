@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightGameRef; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS98_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4C5500)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS98_0__READUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xA4C5510)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS98_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB67D30)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS98_0__READUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xBB6AEC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass98_0_TypeDefinitionIndex = 59573;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass98_0_TypeDefinitionIndex = 60508;
 
 	class GridFightGameRef___c__DisplayClass98_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS98_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ReadUpdate_b__0(::System::Boolean success)
+		::System::Void _ReadUpdate_b__0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS98_0__READUPDATE_B__0_OFFSET))(this, success);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS98_0__READUPDATE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

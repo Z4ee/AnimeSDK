@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA5D12D0)
-#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA5D1310)
-#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__TRYGETVALUEFROMTEAM_B__3_0_OFFSET UNITYSDK_OFFSET(0xA5D1320)
+#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBCD2D80)
+#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBCD2DC0)
+#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__TRYGETVALUEFROMTEAM_B__3_0_OFFSET UNITYSDK_OFFSET(0xBCD2DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightValueComponent___c_TypeDefinitionIndex = 60011;
+	inline static constexpr unsigned int GridFightValueComponent___c_TypeDefinitionIndex = 60946;
 
 	class GridFightValueComponent___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightValueComponent___c_TypeDefinitionIndex)->GetStaticField(0x1C4B0);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightValueComponent___c_TypeDefinitionIndex)->GetStaticField(0x3E4F0);
 		}
 		static ::RPG::Client::GridFightValueComponent___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightValueComponent___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightValueComponent___c_TypeDefinitionIndex)->GetStaticField(0x1C4B8);
+			return (::RPG::Client::GridFightValueComponent___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightValueComponent___c_TypeDefinitionIndex)->GetStaticField(0x3E4F8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _TryGetValueFromTeam_b__3_0(::RPG::Client::GridFightRole* x)
+		::System::Boolean _TryGetValueFromTeam_b__3_0(::RPG::Client::GridFightRole* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__TRYGETVALUEFROMTEAM_B__3_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__TRYGETVALUEFROMTEAM_B__3_0_OFFSET))(this, a1);
 		}
 	};
 }

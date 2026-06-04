@@ -6,17 +6,17 @@ namespace Epic::OnlineServices::Platform { class ClientCredentials; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5B040)
-#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_GET_CLIENTID_OFFSET UNITYSDK_OFFSET(0x5AD00)
-#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_GET_CLIENTSECRET_OFFSET UNITYSDK_OFFSET(0x5AE60)
-#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5AFD0)
-#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_CLIENTID_OFFSET UNITYSDK_OFFSET(0x5ADB0)
-#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_CLIENTSECRET_OFFSET UNITYSDK_OFFSET(0x5AF10)
-#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5AFC0)
+#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x602A0)
+#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_GET_CLIENTID_OFFSET UNITYSDK_OFFSET(0x5FF50)
+#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_GET_CLIENTSECRET_OFFSET UNITYSDK_OFFSET(0x600B0)
+#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x60220)
+#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_CLIENTID_OFFSET UNITYSDK_OFFSET(0x60000)
+#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_CLIENTSECRET_OFFSET UNITYSDK_OFFSET(0x60160)
+#define EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x60210)
 
 namespace Epic::OnlineServices::Platform
 {
-	inline static constexpr unsigned int ClientCredentialsInternal_TypeDefinitionIndex = 42564;
+	inline static constexpr unsigned int ClientCredentialsInternal_TypeDefinitionIndex = 43367;
 
 	struct alignas(8) ClientCredentialsInternal
 	{
@@ -28,9 +28,9 @@ namespace Epic::OnlineServices::Platform
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_GET_CLIENTID_OFFSET))(this);
 		}
 
-		::System::Void set_ClientId(::System::String* value)
+		::System::Void set_ClientId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_CLIENTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_CLIENTID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ClientSecret()
@@ -38,19 +38,19 @@ namespace Epic::OnlineServices::Platform
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_GET_CLIENTSECRET_OFFSET))(this);
 		}
 
-		::System::Void set_ClientSecret(::System::String* value)
+		::System::Void set_ClientSecret(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_CLIENTSECRET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_CLIENTSECRET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Platform::ClientCredentials* other)
+		::System::Void Set(::Epic::OnlineServices::Platform::ClientCredentials* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::ClientCredentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Platform::ClientCredentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLATFORM_CLIENTCREDENTIALSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

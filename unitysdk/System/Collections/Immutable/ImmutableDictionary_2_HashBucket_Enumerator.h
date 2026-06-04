@@ -10,7 +10,7 @@ namespace System { class Object; }
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableDictionary_2_HashBucket_Enumerator_TypeDefinitionIndex = 9134;
+	inline static constexpr unsigned int ImmutableDictionary_2_HashBucket_Enumerator_TypeDefinitionIndex = 6998;
 
 	template <typename TKey, typename TValue>
 	struct ImmutableDictionary_2_HashBucket_Enumerator

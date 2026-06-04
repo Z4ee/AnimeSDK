@@ -1,0 +1,550 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_F3F43255EC92B83B.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_1_C47576BEFCFAD595;
+class Class_1_F2EADB0CA33C76B0;
+class Class_2_21D8D70FF0D35DD4;
+class Class_2_55373297DA27393D;
+class ParkourCameraController;
+namespace Cinemachine { class CinemachineVirtualCamera; }
+namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
+namespace RPG::Client::ParkourGame { class MonoParkourItem; }
+namespace RPG::Client::ParkourGame { class ParkourSkillConfig; }
+namespace RPG::Client::ParkourGame { class ParkourSkillConfig_Fire; }
+namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace UnityEngine { class Animator; }
+namespace UnityEngine { class GameObject; }
+
+#define CLASS_3_2C9EAA87767F46A5_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14532BD0)
+#define CLASS_3_2C9EAA87767F46A5_GET_BALLID_OFFSET UNITYSDK_OFFSET(0x145384A0)
+#define CLASS_3_2C9EAA87767F46A5_GET_BOOMCOUNT_OFFSET UNITYSDK_OFFSET(0x14538520)
+#define CLASS_3_2C9EAA87767F46A5_GET_BOOMHITCOUNT_OFFSET UNITYSDK_OFFSET(0x14538400)
+#define CLASS_3_2C9EAA87767F46A5_GET_CROSSROADINFOVIEWDISTANCE_OFFSET UNITYSDK_OFFSET(0x145384E0)
+#define CLASS_3_2C9EAA87767F46A5_GET_CROSSROADINFOVIEWHEIGHT_OFFSET UNITYSDK_OFFSET(0x145384F0)
+#define CLASS_3_2C9EAA87767F46A5_GET_DEFAULTENGINEMAXSPEED_OFFSET UNITYSDK_OFFSET(0x145384C0)
+#define CLASS_3_2C9EAA87767F46A5_GET_HITBOOMCOUNT_OFFSET UNITYSDK_OFFSET(0x14538500)
+#define CLASS_3_2C9EAA87767F46A5_GET_OBSTACLEHITCOUNT_OFFSET UNITYSDK_OFFSET(0x145383E0)
+#define CLASS_3_2C9EAA87767F46A5_GET_OTHERCHARACTERHITCOUNT_OFFSET UNITYSDK_OFFSET(0x14538420)
+#define CLASS_3_2C9EAA87767F46A5_GET_POWERENGINEMAXSPEED_OFFSET UNITYSDK_OFFSET(0x145384D0)
+#define CLASS_3_2C9EAA87767F46A5_GET_SKILLITEMGETCOUNT_OFFSET UNITYSDK_OFFSET(0x145383C0)
+#define CLASS_3_2C9EAA87767F46A5_GET_SKILLUSECOUNT_OFFSET UNITYSDK_OFFSET(0x14538380)
+#define CLASS_3_2C9EAA87767F46A5_GET_SPEEDITEMGETCOUNT_OFFSET UNITYSDK_OFFSET(0x145383A0)
+#define CLASS_3_2C9EAA87767F46A5_GET_SPEEDUPUSECOUNT_OFFSET UNITYSDK_OFFSET(0x14538360)
+#define CLASS_3_2C9EAA87767F46A5_GET_SUPERSTARRECOVERYCOUNT_OFFSET UNITYSDK_OFFSET(0x14538440)
+#define CLASS_3_2C9EAA87767F46A5_GET_TRIGGERACCELERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x14538460)
+#define CLASS_3_2C9EAA87767F46A5_GET_TRIGGERDECELERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x14538480)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_0B6C3969A0985ADD_OFFSET UNITYSDK_OFFSET(0x145342D0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_0B7E3489D2C0938B_OFFSET UNITYSDK_OFFSET(0x14532D90)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_0EC85BD6019C6281_OFFSET UNITYSDK_OFFSET(0x145387C0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_1682247A40B81983_OFFSET UNITYSDK_OFFSET(0x14535950)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_18D9238B9C310BFF_OFFSET UNITYSDK_OFFSET(0x145387B0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_200EB0EFC2090115_OFFSET UNITYSDK_OFFSET(0x14538010)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_2257DA855DB485C2_OFFSET UNITYSDK_OFFSET(0x14538790)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x145384B0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x145388B0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_361C06486F56B4E7_OFFSET UNITYSDK_OFFSET(0x14533F60)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_36D8543FC20E22FB_OFFSET UNITYSDK_OFFSET(0x14534940)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x14533CE0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_49964A8388055B4B_OFFSET UNITYSDK_OFFSET(0x14537BA0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_50131F4CF014469C_OFFSET UNITYSDK_OFFSET(0x145331F0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0x14536CB0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_568E2DFCDC397B64_OFFSET UNITYSDK_OFFSET(0x14533E20)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x145388C0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_5939EE110A8ACAD9_OFFSET UNITYSDK_OFFSET(0x14537D40)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_5ADA47B2C93A8C96_OFFSET UNITYSDK_OFFSET(0x14538850)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_6423291ED13007B8_OFFSET UNITYSDK_OFFSET(0x14538180)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_68A37D9B80DCB4F0_OFFSET UNITYSDK_OFFSET(0x14537E60)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_6A0EBEECA245A27C_OFFSET UNITYSDK_OFFSET(0x14536480)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_72D6AD0F841EB149_OFFSET UNITYSDK_OFFSET(0x14538120)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0x14538780)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_805C56F44231AEF9_OFFSET UNITYSDK_OFFSET(0x145343B0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_8C1FB0C6AEFFB54E_OFFSET UNITYSDK_OFFSET(0x14532EB0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_8C37D3550631A349_OFFSET UNITYSDK_OFFSET(0x145370E0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_8C704EC832EDEFC8_OFFSET UNITYSDK_OFFSET(0x145330E0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_8D595942D57F40CD_OFFSET UNITYSDK_OFFSET(0x145387A0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_98572BA99BE193CC_OFFSET UNITYSDK_OFFSET(0x14534D70)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_99513D35F145C6F4_OFFSET UNITYSDK_OFFSET(0x14538840)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_9AB55F553C4AC6E8_OFFSET UNITYSDK_OFFSET(0x145329C0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_A1C464B05BB7A5C1_OFFSET UNITYSDK_OFFSET(0x14538550)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_A536C0A3C82A1588_OFFSET UNITYSDK_OFFSET(0x14534FF0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_B597570DAD5B5F84_OFFSET UNITYSDK_OFFSET(0x14534CC0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_B9EC3F44C1BFC5EF_OFFSET UNITYSDK_OFFSET(0x14537910)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_BFB18FAE35A0DC0F_OFFSET UNITYSDK_OFFSET(0x14538920)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_D35B60AE823B8CC1_OFFSET UNITYSDK_OFFSET(0x145333A0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_D68547FF19A170E2_OFFSET UNITYSDK_OFFSET(0x145338C0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_D91A0BC1F20994FA_OFFSET UNITYSDK_OFFSET(0x14537A90)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_DEDD31AF6F4E4818_OFFSET UNITYSDK_OFFSET(0x145332F0)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_E5D8558AA4DA1C00_OFFSET UNITYSDK_OFFSET(0x14536F80)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x14537990)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_ED6CF54BFD44815E_OFFSET UNITYSDK_OFFSET(0x14538770)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x14532860)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_F011FE82F2197681_OFFSET UNITYSDK_OFFSET(0x14538540)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_F02B5B383D593A70_OFFSET UNITYSDK_OFFSET(0x14536E70)
+#define CLASS_3_2C9EAA87767F46A5_METHOD_3_F89FD5B16A2B41BB_OFFSET UNITYSDK_OFFSET(0x14534C00)
+#define CLASS_3_2C9EAA87767F46A5_SET_BOOMCOUNT_OFFSET UNITYSDK_OFFSET(0x14538530)
+#define CLASS_3_2C9EAA87767F46A5_SET_BOOMHITCOUNT_OFFSET UNITYSDK_OFFSET(0x14538410)
+#define CLASS_3_2C9EAA87767F46A5_SET_HITBOOMCOUNT_OFFSET UNITYSDK_OFFSET(0x14538510)
+#define CLASS_3_2C9EAA87767F46A5_SET_OBSTACLEHITCOUNT_OFFSET UNITYSDK_OFFSET(0x145383F0)
+#define CLASS_3_2C9EAA87767F46A5_SET_OTHERCHARACTERHITCOUNT_OFFSET UNITYSDK_OFFSET(0x14538430)
+#define CLASS_3_2C9EAA87767F46A5_SET_SKILLITEMGETCOUNT_OFFSET UNITYSDK_OFFSET(0x145383D0)
+#define CLASS_3_2C9EAA87767F46A5_SET_SKILLUSECOUNT_OFFSET UNITYSDK_OFFSET(0x14538390)
+#define CLASS_3_2C9EAA87767F46A5_SET_SPEEDITEMGETCOUNT_OFFSET UNITYSDK_OFFSET(0x145383B0)
+#define CLASS_3_2C9EAA87767F46A5_SET_SPEEDUPUSECOUNT_OFFSET UNITYSDK_OFFSET(0x14538370)
+#define CLASS_3_2C9EAA87767F46A5_SET_SUPERSTARRECOVERYCOUNT_OFFSET UNITYSDK_OFFSET(0x14538450)
+#define CLASS_3_2C9EAA87767F46A5_SET_TRIGGERACCELERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x14538470)
+#define CLASS_3_2C9EAA87767F46A5_SET_TRIGGERDECELERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x14538490)
+#define CLASS_3_2C9EAA87767F46A5__CTOR_OFFSET UNITYSDK_OFFSET(0x145322C0)
+#define CLASS_3_2C9EAA87767F46A5__PLAYENTERCAMERA_B__8_0_OFFSET UNITYSDK_OFFSET(0x14538720)
+#define CLASS_3_2C9EAA87767F46A5___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14538760)
+
+inline static constexpr unsigned int Class_3_2C9EAA87767F46A5_TypeDefinitionIndex = 69297;
+
+class Class_3_2C9EAA87767F46A5 : public ::Class_2_F3F43255EC92B83B
+{
+public:
+	// static const ::System::Single Field_3_0; // 0x0
+	// static const ::System::Int32 Field_3_1 = 0x3E7; // 0x0
+	// static const ::System::Single Field_3_2; // 0x0
+	// static const ::System::Int32 Field_3_3 = 0x1; // 0x0
+	// static const ::System::Single Field_3_4; // 0x0
+	::ParkourCameraController* Field_3_5; // 0x108
+	::Cinemachine::CinemachineVirtualCamera* Field_3_6; // 0x110
+	::UnityEngine::Animator* Field_3_7; // 0x118
+	::UnityEngine::GameObject* Field_3_8; // 0x120
+	::System::Action_1<::System::UInt32>* Field_3_9; // 0x128
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Field_3_10; // 0x130
+	::System::UInt32 _SkillItemGetCount_k__BackingField; // 0x138
+	::System::UInt32 _HitBoomCount_k__BackingField; // 0x13C
+	::System::UInt32 _TriggerDecelerationCount_k__BackingField; // 0x140
+	::System::Nullable_1<::System::Single> Field_3_14; // 0x144
+	::System::UInt32 _BoomHitCount_k__BackingField; // 0x14C
+	::System::Single _PowerEngineMaxSpeed_k__BackingField; // 0x150
+	::System::UInt32 _SpeedUpUseCount_k__BackingField; // 0x154
+	::UnityEngine::Vector3 Field_3_18; // 0x158
+	::System::UInt32 _OtherCharacterHitCount_k__BackingField; // 0x164
+	::System::Single Field_3_20; // 0x168
+	::System::Single _CrossroadInfoViewHeight_k__BackingField; // 0x16C
+	::System::UInt32 _ObstacleHitCount_k__BackingField; // 0x170
+	::System::Single Field_3_23; // 0x174
+	::System::UInt32 _TriggerAccelerationCount_k__BackingField; // 0x178
+	::System::UInt32 _SkillUseCount_k__BackingField; // 0x17C
+	::System::UInt32 _SpeedItemGetCount_k__BackingField; // 0x180
+	::System::UInt32 _SuperStarRecoveryCount_k__BackingField; // 0x184
+	::System::Single _CrossroadInfoViewDistance_k__BackingField; // 0x188
+	::System::UInt32 _BallID_k__BackingField; // 0x18C
+	::System::Int32 Field_3_30; // 0x190
+	::UnityEngine::Vector3 Field_3_31; // 0x194
+	::System::Single _DefaultEngineMaxSpeed_k__BackingField; // 0x1A0
+	::System::UInt32 _BoomCount_k__BackingField; // 0x1A4
+	::System::Int32 Field_3_34; // 0x1A8
+
+	::System::Void _ctor(::System::Int32 a1, ::System::UInt32 a2, ::RPG::Client::ParkourGame::MonoParkourCharacter* a3, ::Class_1_C47576BEFCFAD595* a4, ::UnityEngine::GameObject* a5)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourCharacter*, ::Class_1_C47576BEFCFAD595*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_3_8C1FB0C6AEFFB54E(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_8C1FB0C6AEFFB54E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_0B7E3489D2C0938B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_0B7E3489D2C0938B_OFFSET))(this);
+	}
+
+	::System::Void Method_3_8C704EC832EDEFC8()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_8C704EC832EDEFC8_OFFSET))(this);
+	}
+
+	::System::Void Method_3_50131F4CF014469C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_50131F4CF014469C_OFFSET))(this);
+	}
+
+	::System::Void Method_3_41A074549EF25F63()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_41A074549EF25F63_OFFSET))(this);
+	}
+
+	::System::Void Method_3_568E2DFCDC397B64()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_568E2DFCDC397B64_OFFSET))(this);
+	}
+
+	::System::Void Method_3_0B6C3969A0985ADD(::System::Single a1, ::System::Single a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_0B6C3969A0985ADD_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_3_805C56F44231AEF9()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_805C56F44231AEF9_OFFSET))(this);
+	}
+
+	::System::Void Method_3_36D8543FC20E22FB(::UnityEngine::Vector3 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_36D8543FC20E22FB_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_F89FD5B16A2B41BB(::RPG::Client::ParkourGame::ParkourSkillConfig_Fire* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::ParkourSkillConfig_Fire*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_F89FD5B16A2B41BB_OFFSET))(this, a1);
+	}
+
+	::Class_2_21D8D70FF0D35DD4* Method_3_B597570DAD5B5F84(::RPG::Client::ParkourGame::ParkourSkillConfig* a1)
+	{
+		return ((::Class_2_21D8D70FF0D35DD4*(*)(::PVOID, ::RPG::Client::ParkourGame::ParkourSkillConfig*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_B597570DAD5B5F84_OFFSET))(this, a1);
+	}
+
+	::Class_1_F2EADB0CA33C76B0* Method_3_98572BA99BE193CC(::RPG::Client::ParkourGame::ParkourSkillConfig* a1)
+	{
+		return ((::Class_1_F2EADB0CA33C76B0*(*)(::PVOID, ::RPG::Client::ParkourGame::ParkourSkillConfig*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_98572BA99BE193CC_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_A536C0A3C82A1588(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_A536C0A3C82A1588_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_1682247A40B81983(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_1682247A40B81983_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_F02B5B383D593A70(::Class_2_55373297DA27393D* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_55373297DA27393D*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_F02B5B383D593A70_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_E5D8558AA4DA1C00(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_E5D8558AA4DA1C00_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_3_8C37D3550631A349(::RPG::Client::ParkourGame::MonoParkourItem* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourItem*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_8C37D3550631A349_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_B9EC3F44C1BFC5EF(::Class_2_F3F43255EC92B83B* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_F3F43255EC92B83B*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_B9EC3F44C1BFC5EF_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_6A0EBEECA245A27C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_6A0EBEECA245A27C_OFFSET))(this);
+	}
+
+	::System::Void Method_3_361C06486F56B4E7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_361C06486F56B4E7_OFFSET))(this);
+	}
+
+	::System::Void Method_3_E7EF6BC52B28648C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_E7EF6BC52B28648C_OFFSET))(this);
+	}
+
+	::System::Void Method_3_D35B60AE823B8CC1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_D35B60AE823B8CC1_OFFSET))(this);
+	}
+
+	::System::Void Method_3_D91A0BC1F20994FA(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_D91A0BC1F20994FA_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_D68547FF19A170E2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_D68547FF19A170E2_OFFSET))(this);
+	}
+
+	::System::Void Method_3_5939EE110A8ACAD9(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_5939EE110A8ACAD9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_200EB0EFC2090115(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_200EB0EFC2090115_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_72D6AD0F841EB149(::System::Int32 a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_72D6AD0F841EB149_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_3_EDFD49C942C75D6C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_EDFD49C942C75D6C_OFFSET))(this);
+	}
+
+	::System::Void Method_3_6423291ED13007B8(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_6423291ED13007B8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_51CFFE2AF748ECD7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_51CFFE2AF748ECD7_OFFSET))(this);
+	}
+
+	::System::Void Method_3_9AB55F553C4AC6E8()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_9AB55F553C4AC6E8_OFFSET))(this);
+	}
+
+	::System::UInt32 get_SpeedUpUseCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_SPEEDUPUSECOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_SpeedUpUseCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_SPEEDUPUSECOUNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_SkillUseCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_SKILLUSECOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_SkillUseCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_SKILLUSECOUNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_SpeedItemGetCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_SPEEDITEMGETCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_SpeedItemGetCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_SPEEDITEMGETCOUNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_SkillItemGetCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_SKILLITEMGETCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_SkillItemGetCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_SKILLITEMGETCOUNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_ObstacleHitCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_OBSTACLEHITCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_ObstacleHitCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_OBSTACLEHITCOUNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_BoomHitCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_BOOMHITCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_BoomHitCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_BOOMHITCOUNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_OtherCharacterHitCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_OTHERCHARACTERHITCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_OtherCharacterHitCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_OTHERCHARACTERHITCOUNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_SuperStarRecoveryCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_SUPERSTARRECOVERYCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_SuperStarRecoveryCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_SUPERSTARRECOVERYCOUNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_TriggerAccelerationCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_TRIGGERACCELERATIONCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_TriggerAccelerationCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_TRIGGERACCELERATIONCOUNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_TriggerDecelerationCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_TRIGGERDECELERATIONCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_TriggerDecelerationCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_TRIGGERDECELERATIONCOUNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_BallID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_BALLID_OFFSET))(this);
+	}
+
+	::Class_1_C47576BEFCFAD595* Method_3_24748FC20F375725()
+	{
+		return ((::Class_1_C47576BEFCFAD595*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_24748FC20F375725_OFFSET))(this);
+	}
+
+	::System::Single get_DefaultEngineMaxSpeed()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_DEFAULTENGINEMAXSPEED_OFFSET))(this);
+	}
+
+	::System::Single get_PowerEngineMaxSpeed()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_POWERENGINEMAXSPEED_OFFSET))(this);
+	}
+
+	::System::Single get_CrossroadInfoViewDistance()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_CROSSROADINFOVIEWDISTANCE_OFFSET))(this);
+	}
+
+	::System::Single get_CrossroadInfoViewHeight()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_CROSSROADINFOVIEWHEIGHT_OFFSET))(this);
+	}
+
+	::System::UInt32 get_HitBoomCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_HITBOOMCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_HitBoomCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_HITBOOMCOUNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_BoomCount()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_GET_BOOMCOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_BoomCount(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_SET_BOOMCOUNT_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_3_68A37D9B80DCB4F0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_68A37D9B80DCB4F0_OFFSET))(this);
+	}
+
+	::System::Boolean Method_3_49964A8388055B4B()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_49964A8388055B4B_OFFSET))(this);
+	}
+
+	::Class_2_21D8D70FF0D35DD4* Method_3_DEDD31AF6F4E4818()
+	{
+		return ((::Class_2_21D8D70FF0D35DD4*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_DEDD31AF6F4E4818_OFFSET))(this);
+	}
+
+	::Cinemachine::CinemachineVirtualCamera* Method_3_F011FE82F2197681()
+	{
+		return ((::Cinemachine::CinemachineVirtualCamera*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_F011FE82F2197681_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3 Method_3_A1C464B05BB7A5C1()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_A1C464B05BB7A5C1_OFFSET))(this);
+	}
+
+	::System::Void _PlayEnterCamera_b__8_0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5__PLAYENTERCAMERA_B__8_0_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_3_ED6CF54BFD44815E(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_ED6CF54BFD44815E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_749948B663FCCCEF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_749948B663FCCCEF_OFFSET))(this);
+	}
+
+	::Class_1_F2EADB0CA33C76B0* Method_3_2257DA855DB485C2(::RPG::Client::ParkourGame::ParkourSkillConfig* a1)
+	{
+		return ((::Class_1_F2EADB0CA33C76B0*(*)(::PVOID, ::RPG::Client::ParkourGame::ParkourSkillConfig*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_2257DA855DB485C2_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_8D595942D57F40CD(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_8D595942D57F40CD_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_18D9238B9C310BFF(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_18D9238B9C310BFF_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_0EC85BD6019C6281(::Class_2_55373297DA27393D* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_55373297DA27393D*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_0EC85BD6019C6281_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_99513D35F145C6F4(::RPG::Client::ParkourGame::MonoParkourItem* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourItem*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_99513D35F145C6F4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_5ADA47B2C93A8C96(::Class_2_F3F43255EC92B83B* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_F3F43255EC92B83B*))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_5ADA47B2C93A8C96_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_25DEA5C65A602671()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_25DEA5C65A602671_OFFSET))(this);
+	}
+
+	::System::Void Method_3_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_5790A55946AA509D_OFFSET))(this);
+	}
+
+	::System::Void Method_3_BFB18FAE35A0DC0F(::System::Int32 a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_2C9EAA87767F46A5_METHOD_3_BFB18FAE35A0DC0F_OFFSET))(this, a1, a2);
+	}
+};

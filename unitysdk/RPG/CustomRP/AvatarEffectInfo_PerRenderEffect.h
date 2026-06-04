@@ -10,28 +10,28 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_ADD_OFFSET UNITYSDK_OFFSET(0x18102370)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_FIND_OFFSET UNITYSDK_OFFSET(0x181029B0)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_REMOVE_OFFSET UNITYSDK_OFFSET(0x18102A60)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_RENDERER_OFFSET UNITYSDK_OFFSET(0x18102C00)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_RESET_OFFSET UNITYSDK_OFFSET(0x181028F0)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_RPG_CUSTOMRP_AVATAREFFECTINFO_IAVATAREFFECT_RENDERER_OFFSET UNITYSDK_OFFSET(0x18102C50)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18102C10)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_ADD_OFFSET UNITYSDK_OFFSET(0x18EA54C0)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_FIND_OFFSET UNITYSDK_OFFSET(0x18EA5C10)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_REMOVE_OFFSET UNITYSDK_OFFSET(0x18EA5CE0)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_RENDERER_OFFSET UNITYSDK_OFFSET(0x18EA5EA0)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_RESET_OFFSET UNITYSDK_OFFSET(0x18EA5B30)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_RPG_CUSTOMRP_AVATAREFFECTINFO_IAVATAREFFECT_RENDERER_OFFSET UNITYSDK_OFFSET(0x18EA5EF0)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA5EB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectInfo_PerRenderEffect_TypeDefinitionIndex = 34973;
+	inline static constexpr unsigned int AvatarEffectInfo_PerRenderEffect_TypeDefinitionIndex = 35258;
 
 	class AvatarEffectInfo_PerRenderEffect : public ::System::Object
 	{
 	public:
-		::UnityEngine::Renderer* render; // 0x10
+		::Il2CppArray<::System::Int32>* subMeshIndices; // 0x10
 		::System::Collections::Generic::List_1<::RPG::CustomRP::AvatarEffectInfo_EffectMaterialGroup*>* effGroup; // 0x18
-		::Il2CppArray<::System::Int32>* subMeshIndices; // 0x20
-		::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder eExecutionOrder; // 0x28
-		::System::Boolean ignoreMpb; // 0x2C
-		::System::UInt32 RLM; // 0x30
-		::System::Int32 subMeshCount; // 0x34
+		::UnityEngine::Renderer* render; // 0x20
+		::System::UInt32 RLM; // 0x28
+		::System::Int32 subMeshCount; // 0x2C
+		::System::Boolean ignoreMpb; // 0x30
+		::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder eExecutionOrder; // 0x34
 
 		::System::Void _ctor()
 		{
@@ -43,29 +43,29 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_RESET_OFFSET))(this);
 		}
 
-		::System::Boolean Find(::UnityEngine::Material* mat)
+		::System::Boolean Find(::UnityEngine::Material* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_FIND_OFFSET))(this, mat);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_FIND_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Remove(::UnityEngine::Material* mat)
+		::System::Boolean Remove(::UnityEngine::Material* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_REMOVE_OFFSET))(this, mat);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_REMOVE_OFFSET))(this, a1);
 		}
 
-		::System::Void Add(::UnityEngine::Material* mat, ::Il2CppArray<::System::Int32>* overridePassIDs, ::System::Boolean afterTransparent)
+		::System::Void Add(::UnityEngine::Material* a1, ::Il2CppArray<::System::Int32>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::Il2CppArray<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_ADD_OFFSET))(this, mat, overridePassIDs, afterTransparent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::Il2CppArray<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_ADD_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Renderer(::RPG::CustomRP::CRPRendererData*& renderData, ::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Boolean afterTransparent)
+		::System::Void Renderer(::RPG::CustomRP::CRPRendererData*& a1, ::UnityEngine::Rendering::CommandBuffer* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPRendererData*&, ::UnityEngine::Rendering::CommandBuffer*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_RENDERER_OFFSET))(this, renderData, cmd, afterTransparent);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPRendererData*&, ::UnityEngine::Rendering::CommandBuffer*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_RENDERER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RPG_CustomRP_AvatarEffectInfo_IAvatarEffect_Renderer(::RPG::CustomRP::CRPRendererData*& renderData, ::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Boolean afterTransparent)
+		::System::Void RPG_CustomRP_AvatarEffectInfo_IAvatarEffect_Renderer(::RPG::CustomRP::CRPRendererData*& a1, ::UnityEngine::Rendering::CommandBuffer* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPRendererData*&, ::UnityEngine::Rendering::CommandBuffer*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_RPG_CUSTOMRP_AVATAREFFECTINFO_IAVATAREFFECT_RENDERER_OFFSET))(this, renderData, cmd, afterTransparent);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CRPRendererData*&, ::UnityEngine::Rendering::CommandBuffer*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREFFECT_RPG_CUSTOMRP_AVATAREFFECTINFO_IAVATAREFFECT_RENDERER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

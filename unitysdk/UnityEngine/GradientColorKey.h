@@ -3,20 +3,20 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_GRADIENTCOLORKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1651C80)
+#define UNITYENGINE_GRADIENTCOLORKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x2D2C680)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GradientColorKey_TypeDefinitionIndex = 4030;
+	inline static constexpr unsigned int GradientColorKey_TypeDefinitionIndex = 4204;
 
 	struct alignas(4) GradientColorKey
 	{
 		::UnityEngine::Color color; // 0x10
 		::System::Single time; // 0x20
 
-		::System::Void _ctor(::UnityEngine::Color col, ::System::Single time)
+		::System::Void _ctor(::UnityEngine::Color a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GRADIENTCOLORKEY__CTOR_OFFSET))(this, col, time);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GRADIENTCOLORKEY__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

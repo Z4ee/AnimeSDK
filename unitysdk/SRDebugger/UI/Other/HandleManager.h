@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define SRDEBUGGER_UI_OTHER_HANDLEMANAGER_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x19E95DB0)
-#define SRDEBUGGER_UI_OTHER_HANDLEMANAGER_SETALIGNMENT_OFFSET UNITYSDK_OFFSET(0x19E7DD40)
-#define SRDEBUGGER_UI_OTHER_HANDLEMANAGER_START_OFFSET UNITYSDK_OFFSET(0x19E95DA0)
-#define SRDEBUGGER_UI_OTHER_HANDLEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E95DD0)
+#define SRDEBUGGER_UI_OTHER_HANDLEMANAGER_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x1AD0BB10)
+#define SRDEBUGGER_UI_OTHER_HANDLEMANAGER_SETALIGNMENT_OFFSET UNITYSDK_OFFSET(0x1ACF42E0)
+#define SRDEBUGGER_UI_OTHER_HANDLEMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1AD0BB00)
+#define SRDEBUGGER_UI_OTHER_HANDLEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0BB30)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int HandleManager_TypeDefinitionIndex = 35372;
+	inline static constexpr unsigned int HandleManager_TypeDefinitionIndex = 35672;
 
 	class HandleManager : public ::SRF::SRMonoBehaviour
 	{
@@ -38,14 +38,14 @@ namespace SRDebugger::UI::Other
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_HANDLEMANAGER_START_OFFSET))(this);
 		}
 
-		::System::Void SetAlignment(::SRDebugger::PinAlignment alignment)
+		::System::Void SetAlignment(::SRDebugger::PinAlignment a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::PinAlignment))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_HANDLEMANAGER_SETALIGNMENT_OFFSET))(this, alignment);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::PinAlignment))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_HANDLEMANAGER_SETALIGNMENT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetActive(::UnityEngine::GameObject* obj, ::System::Boolean active)
+		::System::Void SetActive(::UnityEngine::GameObject* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_HANDLEMANAGER_SETACTIVE_OFFSET))(this, obj, active);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_HANDLEMANAGER_SETACTIVE_OFFSET))(this, a1, a2);
 		}
 	};
 }

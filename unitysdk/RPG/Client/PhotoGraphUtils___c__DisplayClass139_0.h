@@ -4,12 +4,12 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS139_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC8FEB0)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS139_0___ONREQUESTPERMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xAC90D10)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS139_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3A2AF0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS139_0___ONREQUESTPERMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xC3A3960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass139_0_TypeDefinitionIndex = 64019;
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass139_0_TypeDefinitionIndex = 64940;
 
 	class PhotoGraphUtils___c__DisplayClass139_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS139_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __OnRequestPermission_b__0(::System::Boolean saveSuccess)
+		::System::Void __OnRequestPermission_b__0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS139_0___ONREQUESTPERMISSION_B__0_OFFSET))(this, saveSuccess);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS139_0___ONREQUESTPERMISSION_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawPuzzleRandomFloating_FloatingModeEnum_TypeDefinitionIndex = 72160;
+	inline static constexpr unsigned int JigsawPuzzleRandomFloating_FloatingModeEnum_TypeDefinitionIndex = 73182;
 
 	enum class JigsawPuzzleRandomFloating_FloatingModeEnum : ::System::Int32
 	{

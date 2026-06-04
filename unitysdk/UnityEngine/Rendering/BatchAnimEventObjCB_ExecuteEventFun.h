@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine::Rendering { class BatchAnimation; }
 
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A475450)
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A4754D0)
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A474ED0)
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A474EB0)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B2C40B0)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B2C4130)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B2C40A0)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C4020)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchAnimEventObjCB_ExecuteEventFun_TypeDefinitionIndex = 4596;
+	inline static constexpr unsigned int BatchAnimEventObjCB_ExecuteEventFun_TypeDefinitionIndex = 4770;
 
 	class BatchAnimEventObjCB_ExecuteEventFun : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::Rendering::BatchAnimation* ba, ::UnityEngine::Rendering::BatchAnimEventObjCB& eventObj)
+		::System::Void Invoke(::UnityEngine::Rendering::BatchAnimation* a1, ::UnityEngine::Rendering::BatchAnimEventObjCB& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::UnityEngine::Rendering::BatchAnimEventObjCB&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_INVOKE_OFFSET))(this, ba, eventObj);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::UnityEngine::Rendering::BatchAnimEventObjCB&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Rendering::BatchAnimation* ba, ::UnityEngine::Rendering::BatchAnimEventObjCB& eventObj, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::Rendering::BatchAnimation* a1, ::UnityEngine::Rendering::BatchAnimEventObjCB& a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::UnityEngine::Rendering::BatchAnimEventObjCB&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_BEGININVOKE_OFFSET))(this, ba, eventObj, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::UnityEngine::Rendering::BatchAnimEventObjCB&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::UnityEngine::Rendering::BatchAnimEventObjCB& eventObj, ::System::IAsyncResult* result)
+		::System::Void EndInvoke(::UnityEngine::Rendering::BatchAnimEventObjCB& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimEventObjCB&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_ENDINVOKE_OFFSET))(this, eventObj, result);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimEventObjCB&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_EXECUTEEVENTFUN_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

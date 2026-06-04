@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEOVERRIDECONFIG_METHOD_2_CD39D6BB2EFE29B2_OFFSET UNITYSDK_OFFSET(0x18900F70)
-#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18901080)
+#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEOVERRIDECONFIG_METHOD_2_596EE3A0C2270DCD_OFFSET UNITYSDK_OFFSET(0x1973CA40)
+#define RPG_GAMECORE_FIVEDIMEVILSMILESTATEOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1973CB80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEvilSmileStateOverrideConfig_TypeDefinitionIndex = 17649;
+	inline static constexpr unsigned int FiveDimEvilSmileStateOverrideConfig_TypeDefinitionIndex = 17675;
 
 	class FiveDimEvilSmileStateOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILESTATEOVERRIDECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CD39D6BB2EFE29B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEvilSmileStateOverrideConfig*& a2)
+		static ::System::Void Method_2_596EE3A0C2270DCD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEvilSmileStateOverrideConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEvilSmileStateOverrideConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILESTATEOVERRIDECONFIG_METHOD_2_CD39D6BB2EFE29B2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEvilSmileStateOverrideConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILESTATEOVERRIDECONFIG_METHOD_2_596EE3A0C2270DCD_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9DD5D60)
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS12_0___DOINVITEPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x9DD9250)
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS12_0___DOINVITEPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0x9DD9280)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB3AED90)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS12_0___DOINVITEPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xB3B2350)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS12_0___DOINVITEPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0xB3B2380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseLobby___c__DisplayClass12_0_TypeDefinitionIndex = 60551;
+	inline static constexpr unsigned int BaseLobby___c__DisplayClass12_0_TypeDefinitionIndex = 61485;
 
 	class BaseLobby___c__DisplayClass12_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS12_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __DoInvitePromise_b__0(::System::UInt16 cmd, ::System::Object* rspObject)
+		::System::Void __DoInvitePromise_b__0(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS12_0___DOINVITEPROMISE_B__0_OFFSET))(this, cmd, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS12_0___DOINVITEPROMISE_B__0_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __DoInvitePromise_b__1()

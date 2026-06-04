@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineClip_ClipExtrapolation_TypeDefinitionIndex = 35549;
+	inline static constexpr unsigned int TimelineClip_ClipExtrapolation_TypeDefinitionIndex = 35849;
 
 	enum class TimelineClip_ClipExtrapolation : ::System::Int32
 	{

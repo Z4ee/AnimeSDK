@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD_WEBRESPONSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8D6EA50)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD_WEBRESPONSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA1C5E80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewCloud_WebResponseData_TypeDefinitionIndex = 43145;
+	inline static constexpr unsigned int MiHoYoSDKWebViewCloud_WebResponseData_TypeDefinitionIndex = 43948;
 
 	class MiHoYoSDKWebViewCloud_WebResponseData : public ::System::Object
 	{

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.h"
 
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDFILEHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x19EB66D0)
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDFILEHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB6660)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDFILEHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x1AD2D4A0)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDFILEHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD2D410)
 
 namespace Microsoft::Win32::SafeHandles
 {
@@ -12,9 +12,9 @@ namespace Microsoft::Win32::SafeHandles
 	class SafeMemoryMappedFileHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{
 	public:
-		::System::Void _ctor(::System::IntPtr preexistingHandle, ::System::Boolean ownsHandle)
+		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDFILEHANDLE__CTOR_OFFSET))(this, preexistingHandle, ownsHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_SAFEHANDLES_SAFEMEMORYMAPPEDFILEHANDLE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean ReleaseHandle()

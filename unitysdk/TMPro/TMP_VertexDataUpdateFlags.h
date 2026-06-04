@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_VertexDataUpdateFlags_TypeDefinitionIndex = 40235;
+	inline static constexpr unsigned int TMP_VertexDataUpdateFlags_TypeDefinitionIndex = 41062;
 
 	enum class TMP_VertexDataUpdateFlags : ::System::Int32
 	{

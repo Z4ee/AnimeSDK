@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SYSTEM_REFLECTION_MEMBERFILTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x179A1EF0)
-#define SYSTEM_REFLECTION_MEMBERFILTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x179A1F30)
-#define SYSTEM_REFLECTION_MEMBERFILTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x179A1930)
-#define SYSTEM_REFLECTION_MEMBERFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x179A1910)
+#define SYSTEM_REFLECTION_MEMBERFILTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18754330)
+#define SYSTEM_REFLECTION_MEMBERFILTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18754370)
+#define SYSTEM_REFLECTION_MEMBERFILTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x18754320)
+#define SYSTEM_REFLECTION_MEMBERFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18754230)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MemberFilter_TypeDefinitionIndex = 570;
+	inline static constexpr unsigned int MemberFilter_TypeDefinitionIndex = 569;
 
 	class MemberFilter : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERFILTER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERFILTER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::Reflection::MemberInfo* m, ::System::Object* filterCriteria)
+		::System::Boolean Invoke(::System::Reflection::MemberInfo* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::MemberInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERFILTER_INVOKE_OFFSET))(this, m, filterCriteria);
+			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::MemberInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERFILTER_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Reflection::MemberInfo* m, ::System::Object* filterCriteria, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Reflection::MemberInfo* a1, ::System::Object* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Reflection::MemberInfo*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERFILTER_BEGININVOKE_OFFSET))(this, m, filterCriteria, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Reflection::MemberInfo*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERFILTER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERFILTER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERFILTER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

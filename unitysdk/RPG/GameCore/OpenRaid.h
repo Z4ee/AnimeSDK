@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_OPENRAID_METHOD_3_166BD1B92EED31B4_OFFSET UNITYSDK_OFFSET(0x18BC5E40)
-#define RPG_GAMECORE_OPENRAID_METHOD_3_FE8C92DF8C8FB525_OFFSET UNITYSDK_OFFSET(0x18BC5EC0)
-#define RPG_GAMECORE_OPENRAID__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC5E90)
+#define RPG_GAMECORE_OPENRAID_METHOD_3_B0BBD85AC5159AD7_OFFSET UNITYSDK_OFFSET(0x199D79F0)
+#define RPG_GAMECORE_OPENRAID_METHOD_3_D2E689CC00834CFE_OFFSET UNITYSDK_OFFSET(0x199D7970)
+#define RPG_GAMECORE_OPENRAID__CTOR_OFFSET UNITYSDK_OFFSET(0x199D79C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenRaid_TypeDefinitionIndex = 20456;
+	inline static constexpr unsigned int OpenRaid_TypeDefinitionIndex = 20397;
 
 	class OpenRaid : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENRAID__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_166BD1B92EED31B4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenRaid*& a2)
+		static ::System::Void Method_3_D2E689CC00834CFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenRaid*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenRaid*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENRAID_METHOD_3_166BD1B92EED31B4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenRaid*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENRAID_METHOD_3_D2E689CC00834CFE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FE8C92DF8C8FB525(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenRaid* a2)
+		static ::System::Void Method_3_B0BBD85AC5159AD7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenRaid* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenRaid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENRAID_METHOD_3_FE8C92DF8C8FB525_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenRaid*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENRAID_METHOD_3_B0BBD85AC5159AD7_OFFSET))(a1, a2);
 		}
 	};
 }

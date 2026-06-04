@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRIGGERFIGHTFESTLINEUPINMISSION_METHOD_3_339AA2E9FC9F59D0_OFFSET UNITYSDK_OFFSET(0x190C6270)
-#define RPG_GAMECORE_TRIGGERFIGHTFESTLINEUPINMISSION_METHOD_3_508170CCB2BA7247_OFFSET UNITYSDK_OFFSET(0x190C61F0)
-#define RPG_GAMECORE_TRIGGERFIGHTFESTLINEUPINMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0x190C6240)
+#define RPG_GAMECORE_TRIGGERFIGHTFESTLINEUPINMISSION_METHOD_3_6BA54C838F32ED4A_OFFSET UNITYSDK_OFFSET(0x19E15720)
+#define RPG_GAMECORE_TRIGGERFIGHTFESTLINEUPINMISSION_METHOD_3_BA72256D5BF1215D_OFFSET UNITYSDK_OFFSET(0x19E156A0)
+#define RPG_GAMECORE_TRIGGERFIGHTFESTLINEUPINMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E156F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerFightFestLineupInMission_TypeDefinitionIndex = 20568;
+	inline static constexpr unsigned int TriggerFightFestLineupInMission_TypeDefinitionIndex = 20503;
 
 	class TriggerFightFestLineupInMission : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERFIGHTFESTLINEUPINMISSION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_508170CCB2BA7247(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerFightFestLineupInMission*& a2)
+		static ::System::Void Method_3_BA72256D5BF1215D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerFightFestLineupInMission*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerFightFestLineupInMission*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERFIGHTFESTLINEUPINMISSION_METHOD_3_508170CCB2BA7247_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerFightFestLineupInMission*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERFIGHTFESTLINEUPINMISSION_METHOD_3_BA72256D5BF1215D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_339AA2E9FC9F59D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerFightFestLineupInMission* a2)
+		static ::System::Void Method_3_6BA54C838F32ED4A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerFightFestLineupInMission* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerFightFestLineupInMission*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERFIGHTFESTLINEUPINMISSION_METHOD_3_339AA2E9FC9F59D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerFightFestLineupInMission*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERFIGHTFESTLINEUPINMISSION_METHOD_3_6BA54C838F32ED4A_OFFSET))(a1, a2);
 		}
 	};
 }

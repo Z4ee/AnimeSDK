@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace UnityEngine::GCFreeClosure { class IDebug; }
 
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x1A444840)
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1A444810)
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A444950)
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A444940)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x1B295840)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1B295810)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B295950)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B295940)
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int ClosureDebug_TypeDefinitionIndex = 4267;
+	inline static constexpr unsigned int ClosureDebug_TypeDefinitionIndex = 4441;
 
 	class ClosureDebug : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::GCFreeClosure::ClosureDebug** StaticGet__Default_k__BackingField()
 		{
-			return (::UnityEngine::GCFreeClosure::ClosureDebug**)Il2CppClass::FromTypeDefinitionIndex(ClosureDebug_TypeDefinitionIndex)->GetStaticField(0x14FE0);
+			return (::UnityEngine::GCFreeClosure::ClosureDebug**)Il2CppClass::FromTypeDefinitionIndex(ClosureDebug_TypeDefinitionIndex)->GetStaticField(0x2F260);
 		}
 		::UnityEngine::GCFreeClosure::IDebug* _debug; // 0x10
 
@@ -38,9 +38,9 @@ namespace UnityEngine::GCFreeClosure
 			return ((::UnityEngine::GCFreeClosure::ClosureDebug*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_GET_DEFAULT_OFFSET))();
 		}
 
-		static ::System::Void Assert(::System::Boolean condition, ::System::String* msg)
+		static ::System::Void Assert(::System::Boolean a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_ASSERT_OFFSET))(condition, msg);
+			return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_ASSERT_OFFSET))(a1, a2);
 		}
 	};
 }

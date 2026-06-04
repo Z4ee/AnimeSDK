@@ -5,59 +5,59 @@
 namespace RPG::GameCore { class PhoneCaseConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PHONECASEDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xAC5E1A0)
-#define RPG_CLIENT_PHONECASEDATA_CREATEPHONECASEDATA_OFFSET UNITYSDK_OFFSET(0xAC5DF50)
-#define RPG_CLIENT_PHONECASEDATA_GETITEMICONPATH_OFFSET UNITYSDK_OFFSET(0xAC5E340)
-#define RPG_CLIENT_PHONECASEDATA_GET_CANSHOW_OFFSET UNITYSDK_OFFSET(0xAC5E6C0)
-#define RPG_CLIENT_PHONECASEDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xAC5E650)
-#define RPG_CLIENT_PHONECASEDATA_GET_IMGPATH_OFFSET UNITYSDK_OFFSET(0xAC5E5D0)
-#define RPG_CLIENT_PHONECASEDATA_GET_ISEQUIP_OFFSET UNITYSDK_OFFSET(0xAC5E260)
-#define RPG_CLIENT_PHONECASEDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xAC5E630)
-#define RPG_CLIENT_PHONECASEDATA_GET_ITEMFIGUREICONPATH_OFFSET UNITYSDK_OFFSET(0xAC5E570)
-#define RPG_CLIENT_PHONECASEDATA_GET_ITEMICONPATH_OFFSET UNITYSDK_OFFSET(0xAC5E510)
-#define RPG_CLIENT_PHONECASEDATA_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xAC5AF90)
-#define RPG_CLIENT_PHONECASEDATA_SETUNLOCKED_OFFSET UNITYSDK_OFFSET(0xAC5E150)
-#define RPG_CLIENT_PHONECASEDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xAC5E660)
-#define RPG_CLIENT_PHONECASEDATA_SET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xAC5E640)
-#define RPG_CLIENT_PHONECASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAC5DF10)
-#define RPG_CLIENT_PHONECASEDATA__GETPATHWITHGENDER_OFFSET UNITYSDK_OFFSET(0xAC5E3C0)
-#define RPG_CLIENT_PHONECASEDATA___IFIXBASEPROXY_GET_ITEMFIGUREICONPATH_OFFSET UNITYSDK_OFFSET(0xAC5E7D0)
-#define RPG_CLIENT_PHONECASEDATA___IFIXBASEPROXY_GET_ITEMICONPATH_OFFSET UNITYSDK_OFFSET(0xAC5E730)
+#define RPG_CLIENT_PHONECASEDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xC36FFB0)
+#define RPG_CLIENT_PHONECASEDATA_CREATEPHONECASEDATA_OFFSET UNITYSDK_OFFSET(0xC36FC50)
+#define RPG_CLIENT_PHONECASEDATA_GETITEMICONPATH_OFFSET UNITYSDK_OFFSET(0xC370150)
+#define RPG_CLIENT_PHONECASEDATA_GET_CANSHOW_OFFSET UNITYSDK_OFFSET(0xC370500)
+#define RPG_CLIENT_PHONECASEDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xC370490)
+#define RPG_CLIENT_PHONECASEDATA_GET_IMGPATH_OFFSET UNITYSDK_OFFSET(0xC370410)
+#define RPG_CLIENT_PHONECASEDATA_GET_ISEQUIP_OFFSET UNITYSDK_OFFSET(0xC370070)
+#define RPG_CLIENT_PHONECASEDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xC370470)
+#define RPG_CLIENT_PHONECASEDATA_GET_ITEMFIGUREICONPATH_OFFSET UNITYSDK_OFFSET(0xC3703B0)
+#define RPG_CLIENT_PHONECASEDATA_GET_ITEMICONPATH_OFFSET UNITYSDK_OFFSET(0xC370350)
+#define RPG_CLIENT_PHONECASEDATA_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xC36C8F0)
+#define RPG_CLIENT_PHONECASEDATA_SETUNLOCKED_OFFSET UNITYSDK_OFFSET(0xC36FF60)
+#define RPG_CLIENT_PHONECASEDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xC3704A0)
+#define RPG_CLIENT_PHONECASEDATA_SET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xC370480)
+#define RPG_CLIENT_PHONECASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC36FC10)
+#define RPG_CLIENT_PHONECASEDATA__GETPATHWITHGENDER_OFFSET UNITYSDK_OFFSET(0xC3701D0)
+#define RPG_CLIENT_PHONECASEDATA___IFIXBASEPROXY_GET_ITEMFIGUREICONPATH_OFFSET UNITYSDK_OFFSET(0xC370600)
+#define RPG_CLIENT_PHONECASEDATA___IFIXBASEPROXY_GET_ITEMICONPATH_OFFSET UNITYSDK_OFFSET(0xC370570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhoneCaseData_TypeDefinitionIndex = 61207;
+	inline static constexpr unsigned int PhoneCaseData_TypeDefinitionIndex = 62131;
 
 	class PhoneCaseData : public ::RPG::Client::ItemData
 	{
 	public:
 		::RPG::GameCore::PhoneCaseConfigRow* _Row; // 0x40
-		::System::Boolean _IsUnlock_k__BackingField; // 0x48
-		::System::UInt32 _ID_k__BackingField; // 0x4C
+		::System::UInt32 _ID_k__BackingField; // 0x48
+		::System::Boolean _IsUnlock_k__BackingField; // 0x4C
 
-		::System::Void _ctor(::System::UInt32 configID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA__CTOR_OFFSET))(this, configID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::PhoneCaseData* CreatePhoneCaseData(::System::UInt32 id)
+		static ::RPG::Client::PhoneCaseData* CreatePhoneCaseData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::PhoneCaseData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_CREATEPHONECASEDATA_OFFSET))(id);
+			return ((::RPG::Client::PhoneCaseData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_CREATEPHONECASEDATA_OFFSET))(a1);
 		}
 
-		::System::Void SetUnlocked(::System::Boolean unlock)
+		::System::Void SetUnlocked(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_SETUNLOCKED_OFFSET))(this, unlock);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_SETUNLOCKED_OFFSET))(this, a1);
 		}
 
-		::System::Int32 CompareTo(::RPG::Client::PhoneCaseData* other)
+		::System::Int32 CompareTo(::RPG::Client::PhoneCaseData* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::PhoneCaseData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::PhoneCaseData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_COMPARETO_OFFSET))(this, a1);
 		}
 
-		static ::System::String* GetItemIconPath(::System::UInt32 itemID)
+		static ::System::String* GetItemIconPath(::System::UInt32 a1)
 		{
-			return ((::System::String*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_GETITEMICONPATH_OFFSET))(itemID);
+			return ((::System::String*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_GETITEMICONPATH_OFFSET))(a1);
 		}
 
 		::System::String* get_ItemIconPath()
@@ -80,9 +80,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_GET_PREFABPATH_OFFSET))(this);
 		}
 
-		static ::System::String* _GetPathWithGender(::System::String* path)
+		static ::System::String* _GetPathWithGender(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA__GETPATHWITHGENDER_OFFSET))(path);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA__GETPATHWITHGENDER_OFFSET))(a1);
 		}
 
 		::System::Boolean get_IsUnlock()
@@ -90,9 +90,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_GET_ISUNLOCK_OFFSET))(this);
 		}
 
-		::System::Void set_IsUnlock(::System::Boolean value)
+		::System::Void set_IsUnlock(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_SET_ISUNLOCK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_SET_ISUNLOCK_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -100,9 +100,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONECASEDATA_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsEquip()

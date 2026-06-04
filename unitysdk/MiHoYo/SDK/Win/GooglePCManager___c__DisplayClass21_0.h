@@ -8,12 +8,12 @@ namespace MiHoYo::SDK::Win { class GooglePCManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x177060C0)
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x17709B30)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184C3560)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x184C6E50)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GooglePCManager___c__DisplayClass21_0_TypeDefinitionIndex = 8092;
+	inline static constexpr unsigned int GooglePCManager___c__DisplayClass21_0_TypeDefinitionIndex = 8995;
 
 	class GooglePCManager___c__DisplayClass21_0 : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GetProductList_b__0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _GetProductList_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__GETPRODUCTLIST_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__GETPRODUCTLIST_B__0_OFFSET))(this, a1);
 		}
 	};
 }

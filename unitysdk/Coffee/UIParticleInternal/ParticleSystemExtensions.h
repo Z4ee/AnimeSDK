@@ -13,30 +13,30 @@ namespace UnityEngine { class ParticleSystemRenderer; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Transform; }
 
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_CANBAKEMESH_OFFSET UNITYSDK_OFFSET(0x12BBB9E0)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_EXEC_OFFSET UNITYSDK_OFFSET(0x12BB2470)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETACTUALSIMULATIONSPACE_OFFSET UNITYSDK_OFFSET(0x12BBCD50)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETINDEX_OFFSET UNITYSDK_OFFSET(0x12BBF980)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETMAINEMITTER_OFFSET UNITYSDK_OFFSET(0x12BB46C0)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETPARTICLEARRAY_OFFSET UNITYSDK_OFFSET(0x12BB8B60)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETTEXTUREFORSPRITE_OFFSET UNITYSDK_OFFSET(0x12BB9610)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISLOCALSPACE_OFFSET UNITYSDK_OFFSET(0x12BB9410)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISSUBEMITTEROF_OFFSET UNITYSDK_OFFSET(0x12BBFBC0)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISWORLDSPACE_OFFSET UNITYSDK_OFFSET(0x12BBCDA0)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_SORTFORRENDERING_OFFSET UNITYSDK_OFFSET(0x12BBF880)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_VALIDATESHAPE_OFFSET UNITYSDK_OFFSET(0x12BBBA30)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BBFC50)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_CANBAKEMESH_OFFSET UNITYSDK_OFFSET(0x14679250)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_EXEC_OFFSET UNITYSDK_OFFSET(0x1466F530)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETACTUALSIMULATIONSPACE_OFFSET UNITYSDK_OFFSET(0x1467A650)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETINDEX_OFFSET UNITYSDK_OFFSET(0x1467D3A0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETMAINEMITTER_OFFSET UNITYSDK_OFFSET(0x14671B70)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETPARTICLEARRAY_OFFSET UNITYSDK_OFFSET(0x146764C0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETTEXTUREFORSPRITE_OFFSET UNITYSDK_OFFSET(0x14676F70)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISLOCALSPACE_OFFSET UNITYSDK_OFFSET(0x14676D70)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISSUBEMITTEROF_OFFSET UNITYSDK_OFFSET(0x1467D5F0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISWORLDSPACE_OFFSET UNITYSDK_OFFSET(0x1467A6A0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_SORTFORRENDERING_OFFSET UNITYSDK_OFFSET(0x1467D280)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_VALIDATESHAPE_OFFSET UNITYSDK_OFFSET(0x146792A0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1467D680)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int ParticleSystemExtensions_TypeDefinitionIndex = 40701;
+	inline static constexpr unsigned int ParticleSystemExtensions_TypeDefinitionIndex = 41528;
 
 	class ParticleSystemExtensions : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::ParticleSystem_Particle>** StaticGet_s_TmpParticles()
 		{
-			return (::Il2CppArray<::UnityEngine::ParticleSystem_Particle>**)Il2CppClass::FromTypeDefinitionIndex(ParticleSystemExtensions_TypeDefinitionIndex)->GetStaticField(0x1530);
+			return (::Il2CppArray<::UnityEngine::ParticleSystem_Particle>**)Il2CppClass::FromTypeDefinitionIndex(ParticleSystemExtensions_TypeDefinitionIndex)->GetStaticField(0x1460);
 		}
 
 		static ::System::Void _cctor()
@@ -44,64 +44,64 @@ namespace Coffee::UIParticleInternal
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS__CCTOR_OFFSET))();
 		}
 
-		static ::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* GetParticleArray(::System::Int32 size)
+		static ::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* GetParticleArray(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::UnityEngine::ParticleSystem_Particle>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETPARTICLEARRAY_OFFSET))(size);
+			return ((::Il2CppArray<::UnityEngine::ParticleSystem_Particle>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETPARTICLEARRAY_OFFSET))(a1);
 		}
 
-		static ::System::Void ValidateShape(::UnityEngine::ParticleSystem* self)
+		static ::System::Void ValidateShape(::UnityEngine::ParticleSystem* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_VALIDATESHAPE_OFFSET))(self);
+			return ((::System::Void(*)(::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_VALIDATESHAPE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean CanBakeMesh(::UnityEngine::ParticleSystemRenderer* self)
+		static ::System::Boolean CanBakeMesh(::UnityEngine::ParticleSystemRenderer* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ParticleSystemRenderer*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_CANBAKEMESH_OFFSET))(self);
+			return ((::System::Boolean(*)(::UnityEngine::ParticleSystemRenderer*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_CANBAKEMESH_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ParticleSystemSimulationSpace GetActualSimulationSpace(::UnityEngine::ParticleSystem* self)
+		static ::UnityEngine::ParticleSystemSimulationSpace GetActualSimulationSpace(::UnityEngine::ParticleSystem* a1)
 		{
-			return ((::UnityEngine::ParticleSystemSimulationSpace(*)(::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETACTUALSIMULATIONSPACE_OFFSET))(self);
+			return ((::UnityEngine::ParticleSystemSimulationSpace(*)(::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETACTUALSIMULATIONSPACE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsLocalSpace(::UnityEngine::ParticleSystem* self)
+		static ::System::Boolean IsLocalSpace(::UnityEngine::ParticleSystem* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISLOCALSPACE_OFFSET))(self);
+			return ((::System::Boolean(*)(::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISLOCALSPACE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsWorldSpace(::UnityEngine::ParticleSystem* self)
+		static ::System::Boolean IsWorldSpace(::UnityEngine::ParticleSystem* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISWORLDSPACE_OFFSET))(self);
+			return ((::System::Boolean(*)(::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISWORLDSPACE_OFFSET))(a1);
 		}
 
-		static ::System::Void SortForRendering(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* self, ::UnityEngine::Transform* transform, ::System::Boolean sortByMaterial)
+		static ::System::Void SortForRendering(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* a1, ::UnityEngine::Transform* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_SORTFORRENDERING_OFFSET))(self, transform, sortByMaterial);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_SORTFORRENDERING_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 GetIndex(::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>* list, ::UnityEngine::Object* ps)
+		static ::System::Int32 GetIndex(::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>* a1, ::UnityEngine::Object* a2)
 		{
-			return ((::System::Int32(*)(::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETINDEX_OFFSET))(list, ps);
+			return ((::System::Int32(*)(::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETINDEX_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Texture2D* GetTextureForSprite(::UnityEngine::ParticleSystem* self)
+		static ::UnityEngine::Texture2D* GetTextureForSprite(::UnityEngine::ParticleSystem* a1)
 		{
-			return ((::UnityEngine::Texture2D*(*)(::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETTEXTUREFORSPRITE_OFFSET))(self);
+			return ((::UnityEngine::Texture2D*(*)(::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETTEXTUREFORSPRITE_OFFSET))(a1);
 		}
 
-		static ::System::Void Exec(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* self, ::System::Action_1<::UnityEngine::ParticleSystem*>* action)
+		static ::System::Void Exec(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* a1, ::System::Action_1<::UnityEngine::ParticleSystem*>* a2)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>*, ::System::Action_1<::UnityEngine::ParticleSystem*>*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_EXEC_OFFSET))(self, action);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>*, ::System::Action_1<::UnityEngine::ParticleSystem*>*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_EXEC_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ParticleSystem* GetMainEmitter(::UnityEngine::ParticleSystem* self, ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* list)
+		static ::UnityEngine::ParticleSystem* GetMainEmitter(::UnityEngine::ParticleSystem* a1, ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* a2)
 		{
-			return ((::UnityEngine::ParticleSystem*(*)(::UnityEngine::ParticleSystem*, ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETMAINEMITTER_OFFSET))(self, list);
+			return ((::UnityEngine::ParticleSystem*(*)(::UnityEngine::ParticleSystem*, ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETMAINEMITTER_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsSubEmitterOf(::UnityEngine::ParticleSystem* self, ::UnityEngine::ParticleSystem* parent)
+		static ::System::Boolean IsSubEmitterOf(::UnityEngine::ParticleSystem* a1, ::UnityEngine::ParticleSystem* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ParticleSystem*, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISSUBEMITTEROF_OFFSET))(self, parent);
+			return ((::System::Boolean(*)(::UnityEngine::ParticleSystem*, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISSUBEMITTEROF_OFFSET))(a1, a2);
 		}
 	};
 }

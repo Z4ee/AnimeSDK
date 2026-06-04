@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_38055A527A761D34_LineType.h"
+#include "unitysdk/Class_3_98D44D81FBACEF55_LineType.h"
 #include "unitysdk/Class_3_B3D9F954008EA010_DrawModeType.h"
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/Struct_2_B3CFB45E7E960210.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_38055A527A761D34_AdditionalTransformAnim;
+class Class_3_98D44D81FBACEF55_AdditionalTransformAnim;
 class Class_3_B3D9F954008EA010;
 class Class_3_B3D9F954008EA010_AnimatedInstance;
 class Class_3_B3D9F954008EA010_AnimatedItem;
@@ -16,23 +16,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_BAKEBEZIERCURVEDRAWMODE_OFFSET UNITYSDK_OFFSET(0xA40CEE0)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xA40DB50)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xA40E480)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_RENDERBUDGETDATA_OFFSET UNITYSDK_OFFSET(0xA40E530)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_METHOD_7_193B69F9A0A775CE_OFFSET UNITYSDK_OFFSET(0xA40CF20)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xA40EA40)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_BAKEBEZIERCURVEDRAWMODE_OFFSET UNITYSDK_OFFSET(0xBAA74B0)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xBAA8120)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xBAA8970)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_RENDERBUDGETDATA_OFFSET UNITYSDK_OFFSET(0xBAA8A20)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_METHOD_7_193B69F9A0A775CE_OFFSET UNITYSDK_OFFSET(0xBAA74F0)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xBAA8F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GPUTransformLoopAnim_TypeDefinitionIndex = 64824;
+	inline static constexpr unsigned int GPUTransformLoopAnim_TypeDefinitionIndex = 65750;
 
 	class GPUTransformLoopAnim : public ::RPG::Client::TAMonoPlugin_1<::Class_3_B3D9F954008EA010*>
 	{
 	public:
 		::System::Collections::Generic::List_1<::Class_3_B3D9F954008EA010_AnimatedItem*>* AnimatedCrowd; // 0x30
 		::Class_3_B3D9F954008EA010_DrawModeType DrawMode; // 0x38
-		::Class_3_38055A527A761D34_LineType Mode; // 0x3C
+		::Class_3_98D44D81FBACEF55_LineType Mode; // 0x3C
 		::UnityEngine::Vector3 StartPos; // 0x40
 		::UnityEngine::Vector3 EndPos; // 0x4C
 		::RPG::Client::BezierCurve* Curve; // 0x58
@@ -42,7 +42,7 @@ namespace RPG::Client
 		::UnityEngine::Vector3 GlobalRelativeTranslation; // 0x74
 		::UnityEngine::Vector3 GlobalRelativeRotation; // 0x80
 		::UnityEngine::Vector3 GlobalRelativeScale; // 0x8C
-		::Class_3_38055A527A761D34_AdditionalTransformAnim* AdditionalTransformAnim; // 0x98
+		::Class_3_98D44D81FBACEF55_AdditionalTransformAnim* AdditionalTransformAnim; // 0x98
 		::System::Boolean Inited; // 0xA0
 		::System::Single SpeedLog; // 0xA4
 

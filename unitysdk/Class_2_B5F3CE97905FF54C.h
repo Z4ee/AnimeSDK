@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_E8C81730380D9B3A.h"
+#include "unitysdk/Class_1_FCEA91136CC875E4.h"
 #include "unitysdk/RPG/Client/NotifyType.h"
 
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define CLASS_2_B5F3CE97905FF54C_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x9888FB0)
-#define CLASS_2_B5F3CE97905FF54C__CTOR_OFFSET UNITYSDK_OFFSET(0x9888F30)
+#define CLASS_2_B5F3CE97905FF54C_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x14202BC0)
+#define CLASS_2_B5F3CE97905FF54C__CTOR_OFFSET UNITYSDK_OFFSET(0x14202B50)
 
-inline static constexpr unsigned int Class_2_B5F3CE97905FF54C_TypeDefinitionIndex = 67351;
+inline static constexpr unsigned int Class_2_B5F3CE97905FF54C_TypeDefinitionIndex = 68303;
 
-class Class_2_B5F3CE97905FF54C : public ::Class_1_E8C81730380D9B3A
+class Class_2_B5F3CE97905FF54C : public ::Class_1_FCEA91136CC875E4
 {
 public:
 	::System::Action* Field_2_0; // 0x18

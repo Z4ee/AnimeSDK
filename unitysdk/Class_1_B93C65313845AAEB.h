@@ -7,20 +7,20 @@ class Class_3_F946D4081774B88D;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B93C65313845AAEB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x96B6EC0)
-#define CLASS_1_B93C65313845AAEB_METHOD_1_0DC6BC4DBC5B422B_OFFSET UNITYSDK_OFFSET(0x96B7370)
-#define CLASS_1_B93C65313845AAEB_METHOD_1_83DA8FE11BEA9751_OFFSET UNITYSDK_OFFSET(0x96B6FE0)
-#define CLASS_1_B93C65313845AAEB_METHOD_1_F4AB2CFCF5494DB7_OFFSET UNITYSDK_OFFSET(0x96B72B0)
-#define CLASS_1_B93C65313845AAEB__CTOR_OFFSET UNITYSDK_OFFSET(0x96B6780)
+#define CLASS_1_B93C65313845AAEB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13FE8D60)
+#define CLASS_1_B93C65313845AAEB_METHOD_1_098E71CA53F64B12_OFFSET UNITYSDK_OFFSET(0x13FE8E70)
+#define CLASS_1_B93C65313845AAEB_METHOD_1_0DC6BC4DBC5B422B_OFFSET UNITYSDK_OFFSET(0x13FE9120)
+#define CLASS_1_B93C65313845AAEB_METHOD_1_F4AB2CFCF5494DB7_OFFSET UNITYSDK_OFFSET(0x13FE9070)
+#define CLASS_1_B93C65313845AAEB__CTOR_OFFSET UNITYSDK_OFFSET(0x13FE8650)
 
-inline static constexpr unsigned int Class_1_B93C65313845AAEB_TypeDefinitionIndex = 46288;
+inline static constexpr unsigned int Class_1_B93C65313845AAEB_TypeDefinitionIndex = 46878;
 
 class Class_1_B93C65313845AAEB : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::Collections::Generic::HashSet_1<::Class_3_F946D4081774B88D*>*>* Field_1_1; // 0x10
-	::System::Collections::Generic::List_1<::Class_3_F946D4081774B88D*>* Field_1_2; // 0x18
-	::System::Boolean Field_1_0; // 0x20
+	::Il2CppArray<::System::Collections::Generic::HashSet_1<::Class_3_F946D4081774B88D*>*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_3_F946D4081774B88D*>* Field_1_1; // 0x18
+	::System::Boolean Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -32,9 +32,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B93C65313845AAEB_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_83DA8FE11BEA9751(::System::Single a1)
+	::System::Void Method_1_098E71CA53F64B12(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_B93C65313845AAEB_METHOD_1_83DA8FE11BEA9751_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_B93C65313845AAEB_METHOD_1_098E71CA53F64B12_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_F4AB2CFCF5494DB7(::Code::Manager::ECustomLateUpdateType a1, ::Class_3_F946D4081774B88D* a2)

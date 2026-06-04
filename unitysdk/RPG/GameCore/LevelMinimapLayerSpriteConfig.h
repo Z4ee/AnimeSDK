@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELMINIMAPLAYERSPRITECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A482A0)
-#define RPG_GAMECORE_LEVELMINIMAPLAYERSPRITECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A48420)
+#define RPG_GAMECORE_LEVELMINIMAPLAYERSPRITECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19879770)
+#define RPG_GAMECORE_LEVELMINIMAPLAYERSPRITECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198798F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelMinimapLayerSpriteConfig_TypeDefinitionIndex = 16339;
+	inline static constexpr unsigned int LevelMinimapLayerSpriteConfig_TypeDefinitionIndex = 16371;
 
 	class LevelMinimapLayerSpriteConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMINIMAPLAYERSPRITECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelMinimapLayerSpriteConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelMinimapLayerSpriteConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelMinimapLayerSpriteConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMINIMAPLAYERSPRITECONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelMinimapLayerSpriteConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMINIMAPLAYERSPRITECONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

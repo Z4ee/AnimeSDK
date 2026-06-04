@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXRANDOMITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188BC2D0)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXRANDOMITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188BC420)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXRANDOMITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196F9D40)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXRANDOMITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196F9E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRewardBoxRandomItemRow_TypeDefinitionIndex = 10946;
+	inline static constexpr unsigned int EvolveBuildRewardBoxRandomItemRow_TypeDefinitionIndex = 10999;
 
 	class EvolveBuildRewardBoxRandomItemRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXRANDOMITEMROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::EvolveBuildRewardBoxRandomItemRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EvolveBuildRewardBoxRandomItemRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EvolveBuildRewardBoxRandomItemRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXRANDOMITEMROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EvolveBuildRewardBoxRandomItemRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOXRANDOMITEMROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

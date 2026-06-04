@@ -7,35 +7,35 @@ namespace RPG::Client { class GridFightConsumableItemConfig; }
 namespace RPG::Client { class GridFightEquipItemConfig; }
 namespace RPG::Client { class GridFightItemConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_CONSUMABLECONFIG_OFFSET UNITYSDK_OFFSET(0xA4EEE30)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_EQUIPCONFIG_OFFSET UNITYSDK_OFFSET(0xA4EEE40)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_ISCONSUMABLE_OFFSET UNITYSDK_OFFSET(0xA4EEE50)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_ISEQUIPMENT_OFFSET UNITYSDK_OFFSET(0xA4EEE60)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_ITEMCONFIG_OFFSET UNITYSDK_OFFSET(0xA4EED90)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xA4EED70)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_SET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xA4EED80)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA4EED30)
-#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA4EED20)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_CONSUMABLECONFIG_OFFSET UNITYSDK_OFFSET(0xBB95D20)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_EQUIPCONFIG_OFFSET UNITYSDK_OFFSET(0xBB95D30)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_ISCONSUMABLE_OFFSET UNITYSDK_OFFSET(0xBB95D40)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_ISEQUIPMENT_OFFSET UNITYSDK_OFFSET(0xBB95D50)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_ITEMCONFIG_OFFSET UNITYSDK_OFFSET(0xBB95C80)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xBB95C60)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_SET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xBB95C70)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0xBB95C20)
+#define RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xBB95C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightHandBookEquipItemConfig_TypeDefinitionIndex = 59743;
+	inline static constexpr unsigned int GridFightHandBookEquipItemConfig_TypeDefinitionIndex = 60678;
 
 	class GridFightHandBookEquipItemConfig : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightEquipItemConfig* _equipConfig; // 0x10
-		::RPG::Client::GridFightConsumableItemConfig* _consumableConfig; // 0x18
+		::RPG::Client::GridFightConsumableItemConfig* _consumableConfig; // 0x10
+		::RPG::Client::GridFightEquipItemConfig* _equipConfig; // 0x18
 		::RPG::Client::GridFightHandBookEquipItemType _ItemType_k__BackingField; // 0x20
 
-		::System::Void _ctor(::RPG::Client::GridFightConsumableItemConfig* consumableConfig)
+		::System::Void _ctor(::RPG::Client::GridFightConsumableItemConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightConsumableItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG__CTOR_OFFSET))(this, consumableConfig);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightConsumableItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::RPG::Client::GridFightEquipItemConfig* equipConfig)
+		::System::Void _ctor_1(::RPG::Client::GridFightEquipItemConfig* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG__CTOR_1_OFFSET))(this, equipConfig);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEquipItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightHandBookEquipItemType get_ItemType()
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightHandBookEquipItemType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_GET_ITEMTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ItemType(::RPG::Client::GridFightHandBookEquipItemType value)
+		::System::Void set_ItemType(::RPG::Client::GridFightHandBookEquipItemType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightHandBookEquipItemType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_SET_ITEMTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightHandBookEquipItemType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTHANDBOOKEQUIPITEMCONFIG_SET_ITEMTYPE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightItemConfig* get_ItemConfig()

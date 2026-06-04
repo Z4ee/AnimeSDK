@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightShopRole; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5770A0)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__DISPLAYCLASS12_0__GETSHOPROLECOUNTBYIDANDSTAR_B__0_OFFSET UNITYSDK_OFFSET(0xA57A2E0)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBE4FD0)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__DISPLAYCLASS12_0__GETSHOPROLECOUNTBYIDANDSTAR_B__0_OFFSET UNITYSDK_OFFSET(0xBBE8D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleShop___c__DisplayClass12_0_TypeDefinitionIndex = 60056;
+	inline static constexpr unsigned int GridFightRoleShop___c__DisplayClass12_0_TypeDefinitionIndex = 60991;
 
 	class GridFightRoleShop___c__DisplayClass12_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__DISPLAYCLASS12_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetShopRoleCountByIDAndStar_b__0(::RPG::Client::GridFightShopRole* role)
+		::System::Boolean _GetShopRoleCountByIDAndStar_b__0(::RPG::Client::GridFightShopRole* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightShopRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__DISPLAYCLASS12_0__GETSHOPROLECOUNTBYIDANDSTAR_B__0_OFFSET))(this, role);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightShopRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP___C__DISPLAYCLASS12_0__GETSHOPROLECOUNTBYIDANDSTAR_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,10 +6,10 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_NET_HTTPLISTENEREXCEPTION_GET_ERRORCODE_OFFSET UNITYSDK_OFFSET(0x1A121020)
-#define SYSTEM_NET_HTTPLISTENEREXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A106880)
-#define SYSTEM_NET_HTTPLISTENEREXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A120F40)
-#define SYSTEM_NET_HTTPLISTENEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A120DC0)
+#define SYSTEM_NET_HTTPLISTENEREXCEPTION_GET_ERRORCODE_OFFSET UNITYSDK_OFFSET(0x1AF85390)
+#define SYSTEM_NET_HTTPLISTENEREXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AF6C4C0)
+#define SYSTEM_NET_HTTPLISTENEREXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1AF852D0)
+#define SYSTEM_NET_HTTPLISTENEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF851E0)
 
 namespace System::Net
 {
@@ -23,14 +23,14 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENEREXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Int32 errorCode, ::System::String* message)
+		::System::Void _ctor_1(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENEREXCEPTION__CTOR_1_OFFSET))(this, errorCode, message);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENEREXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext)
+		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENEREXCEPTION__CTOR_2_OFFSET))(this, serializationInfo, streamingContext);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENEREXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_ErrorCode()

@@ -6,14 +6,14 @@ namespace UnityEngine::AI { class NavMesh_OnNavMeshPreUpdate; }
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshLink___O_TypeDefinitionIndex = 37653;
+	inline static constexpr unsigned int NavMeshLink___O_TypeDefinitionIndex = 38385;
 
 	class NavMeshLink___O : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate** StaticGet__0___UpdateTrackedInstances()
 		{
-			return (::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate**)Il2CppClass::FromTypeDefinitionIndex(NavMeshLink___O_TypeDefinitionIndex)->GetStaticField(0x10A0);
+			return (::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate**)Il2CppClass::FromTypeDefinitionIndex(NavMeshLink___O_TypeDefinitionIndex)->GetStaticField(0xFD0);
 		}
 	};
 }

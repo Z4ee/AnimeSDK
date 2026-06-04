@@ -6,20 +6,20 @@ namespace RPG::Client { class GridFightEffectController; }
 namespace RPG::Client { class GridFightFlyEffect; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4718C0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__PLAYEQUIPEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xA472F00)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB0EEB0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS34_0__PLAYEQUIPEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xBB0EEC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass34_0_TypeDefinitionIndex = 59342;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass34_0_TypeDefinitionIndex = 60277;
 
 	class GridFightEffectController___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightFlyEffect* effect; // 0x10
+		::RPG::Client::GridFightEffectController* __4__this; // 0x10
 		::UnityEngine::Transform* itemTrans; // 0x18
-		::RPG::Client::GridFightEffectController* __4__this; // 0x20
-		::UnityEngine::Transform* effectAddTrans; // 0x28
+		::UnityEngine::Transform* effectAddTrans; // 0x20
+		::RPG::Client::GridFightFlyEffect* effect; // 0x28
 
 		::System::Void _ctor()
 		{

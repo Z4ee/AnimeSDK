@@ -3,7 +3,7 @@
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int SaveOptions_TypeDefinitionIndex = 4922;
+	inline static constexpr unsigned int SaveOptions_TypeDefinitionIndex = 3889;
 
 	enum class SaveOptions : ::System::Int32
 	{

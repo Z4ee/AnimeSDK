@@ -9,20 +9,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_1_71B383B2694DD99B_CLEAR_OFFSET UNITYSDK_OFFSET(0x12A71E90)
-#define CLASS_1_71B383B2694DD99B_METHOD_1_4C67662FAC8F9EB5_OFFSET UNITYSDK_OFFSET(0x12A71C50)
-#define CLASS_1_71B383B2694DD99B_METHOD_1_F7EE1BC6F402AEF1_OFFSET UNITYSDK_OFFSET(0x12A71F00)
-#define CLASS_1_71B383B2694DD99B__CTOR_OFFSET UNITYSDK_OFFSET(0x12A726E0)
+#define CLASS_1_71B383B2694DD99B_CLEAR_OFFSET UNITYSDK_OFFSET(0x138383E0)
+#define CLASS_1_71B383B2694DD99B_METHOD_1_4C67662FAC8F9EB5_OFFSET UNITYSDK_OFFSET(0x13838220)
+#define CLASS_1_71B383B2694DD99B_METHOD_1_F7EE1BC6F402AEF1_OFFSET UNITYSDK_OFFSET(0x13838450)
+#define CLASS_1_71B383B2694DD99B__CTOR_OFFSET UNITYSDK_OFFSET(0x138387D0)
 
-inline static constexpr unsigned int Class_1_71B383B2694DD99B_TypeDefinitionIndex = 49762;
+inline static constexpr unsigned int Class_1_71B383B2694DD99B_TypeDefinitionIndex = 50429;
 
 class Class_1_71B383B2694DD99B : public ::System::Object
 {
 public:
-	::Class_1_5F51D4049EA87B7B* Field_1_1; // 0x10
-	::RPG::GameCore::TaskContext* Field_1_0; // 0x18
-	::RPG::GameCore::EntityTypeMask Field_1_2; // 0x20
-	::RPG::GameCore::TeamTypeMask Field_1_3; // 0x28
+	::RPG::GameCore::TaskContext* Field_1_0; // 0x10
+	::Class_1_5F51D4049EA87B7B* Field_1_1; // 0x18
+	::RPG::GameCore::TeamTypeMask Field_1_2; // 0x20
+	::RPG::GameCore::EntityTypeMask Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{

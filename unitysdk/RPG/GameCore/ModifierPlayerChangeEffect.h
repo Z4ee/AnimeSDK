@@ -8,13 +8,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIERPLAYERCHANGEEFFECT_METHOD_3_65F446DB51D703AF_OFFSET UNITYSDK_OFFSET(0x18B350D0)
-#define RPG_GAMECORE_MODIFIERPLAYERCHANGEEFFECT_METHOD_3_F159647A5247B37D_OFFSET UNITYSDK_OFFSET(0x18B35150)
-#define RPG_GAMECORE_MODIFIERPLAYERCHANGEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B35120)
+#define RPG_GAMECORE_MODIFIERPLAYERCHANGEEFFECT_METHOD_3_0756FD568647D385_OFFSET UNITYSDK_OFFSET(0x1994D160)
+#define RPG_GAMECORE_MODIFIERPLAYERCHANGEEFFECT_METHOD_3_4919FBEF5362B0CA_OFFSET UNITYSDK_OFFSET(0x1994D1E0)
+#define RPG_GAMECORE_MODIFIERPLAYERCHANGEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1994D1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierPlayerChangeEffect_TypeDefinitionIndex = 19220;
+	inline static constexpr unsigned int ModifierPlayerChangeEffect_TypeDefinitionIndex = 19141;
 
 	class ModifierPlayerChangeEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERPLAYERCHANGEEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_65F446DB51D703AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierPlayerChangeEffect*& a2)
+		static ::System::Void Method_3_0756FD568647D385(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierPlayerChangeEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierPlayerChangeEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERPLAYERCHANGEEFFECT_METHOD_3_65F446DB51D703AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierPlayerChangeEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERPLAYERCHANGEEFFECT_METHOD_3_0756FD568647D385_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F159647A5247B37D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierPlayerChangeEffect* a2)
+		static ::System::Void Method_3_4919FBEF5362B0CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierPlayerChangeEffect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierPlayerChangeEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERPLAYERCHANGEEFFECT_METHOD_3_F159647A5247B37D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierPlayerChangeEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERPLAYERCHANGEEFFECT_METHOD_3_4919FBEF5362B0CA_OFFSET))(a1, a2);
 		}
 	};
 }

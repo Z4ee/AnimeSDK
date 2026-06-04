@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_LEVELINITSEQUECECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A47340)
-#define RPG_GAMECORE_LEVELINITSEQUECECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A47410)
+#define RPG_GAMECORE_LEVELINITSEQUECECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19878C40)
+#define RPG_GAMECORE_LEVELINITSEQUECECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19878D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelInitSequeceConfig_TypeDefinitionIndex = 17388;
+	inline static constexpr unsigned int LevelInitSequeceConfig_TypeDefinitionIndex = 17393;
 
 	class LevelInitSequeceConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINITSEQUECECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelInitSequeceConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelInitSequeceConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelInitSequeceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINITSEQUECECONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelInitSequeceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINITSEQUECECONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

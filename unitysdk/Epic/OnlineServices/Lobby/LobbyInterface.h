@@ -52,62 +52,62 @@ namespace Epic::OnlineServices::Lobby { class UpdateLobbyOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYJOINLOBBYACCEPTED_OFFSET UNITYSDK_OFFSET(0x8EB1410)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0x8EB1690)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0x8EB1910)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYMEMBERSTATUSRECEIVED_OFFSET UNITYSDK_OFFSET(0x8EB1B90)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYMEMBERUPDATERECEIVED_OFFSET UNITYSDK_OFFSET(0x8EB1E10)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYUPDATERECEIVED_OFFSET UNITYSDK_OFFSET(0x8EB2090)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYRTCROOMCONNECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0x8EB2310)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLEBYINVITEID_OFFSET UNITYSDK_OFFSET(0x8EB2680)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLEBYUIEVENTID_OFFSET UNITYSDK_OFFSET(0x8EB2890)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLE_OFFSET UNITYSDK_OFFSET(0x8EB24F0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_CREATELOBBYSEARCH_OFFSET UNITYSDK_OFFSET(0x8EB2BE0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_CREATELOBBY_OFFSET UNITYSDK_OFFSET(0x8EB2A20)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_DESTROYLOBBY_OFFSET UNITYSDK_OFFSET(0x8EB2D70)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETINVITECOUNT_OFFSET UNITYSDK_OFFSET(0x8EB2F30)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETINVITEIDBYINDEX_OFFSET UNITYSDK_OFFSET(0x8EB3120)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETRTCROOMNAME_OFFSET UNITYSDK_OFFSET(0x8EB3470)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ISRTCROOMCONNECTED_OFFSET UNITYSDK_OFFSET(0x8EB3790)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_JOINLOBBY_OFFSET UNITYSDK_OFFSET(0x8EB3960)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_KICKMEMBER_OFFSET UNITYSDK_OFFSET(0x8EB3B20)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_LEAVELOBBY_OFFSET UNITYSDK_OFFSET(0x8EB3CE0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONCREATELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB0A60)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONDESTROYLOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB0AF0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONJOINLOBBYACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB0B80)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONJOINLOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB0C10)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONKICKMEMBERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB0CA0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLEAVELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB0D30)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB0DC0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB0E50)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYMEMBERSTATUSRECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB0EE0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYMEMBERUPDATERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB0F70)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYUPDATERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB1000)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONPROMOTEMEMBERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB1090)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONQUERYINVITESCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB1120)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONREJECTINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB1240)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONRTCROOMCONNECTIONCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB11B0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONSENDINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB12D0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONUPDATELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB1360)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_PROMOTEMEMBER_OFFSET UNITYSDK_OFFSET(0x8EB3EA0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_QUERYINVITES_OFFSET UNITYSDK_OFFSET(0x8EB4060)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REJECTINVITE_OFFSET UNITYSDK_OFFSET(0x8EB42B0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYJOINLOBBYACCEPTED_OFFSET UNITYSDK_OFFSET(0x8EB4470)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0x8EB4550)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0x8EB4630)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYMEMBERSTATUSRECEIVED_OFFSET UNITYSDK_OFFSET(0x8EB4710)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYMEMBERUPDATERECEIVED_OFFSET UNITYSDK_OFFSET(0x8EB47F0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYUPDATERECEIVED_OFFSET UNITYSDK_OFFSET(0x8EB48D0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYRTCROOMCONNECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0x8EB49B0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_SENDINVITE_OFFSET UNITYSDK_OFFSET(0x8EB4A90)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_UPDATELOBBYMODIFICATION_OFFSET UNITYSDK_OFFSET(0x8EB4EA0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_UPDATELOBBY_OFFSET UNITYSDK_OFFSET(0x8EB4C50)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8EB1400)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8EB13F0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYJOINLOBBYACCEPTED_OFFSET UNITYSDK_OFFSET(0xA2EC8E0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0xA2ECB90)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0xA2ECE40)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYMEMBERSTATUSRECEIVED_OFFSET UNITYSDK_OFFSET(0xA2ED0F0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYMEMBERUPDATERECEIVED_OFFSET UNITYSDK_OFFSET(0xA2ED3A0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYUPDATERECEIVED_OFFSET UNITYSDK_OFFSET(0xA2ED650)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYRTCROOMCONNECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0xA2ED900)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLEBYINVITEID_OFFSET UNITYSDK_OFFSET(0xA2EDC80)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLEBYUIEVENTID_OFFSET UNITYSDK_OFFSET(0xA2EDE90)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLE_OFFSET UNITYSDK_OFFSET(0xA2EDAF0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_CREATELOBBYSEARCH_OFFSET UNITYSDK_OFFSET(0xA2EE200)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_CREATELOBBY_OFFSET UNITYSDK_OFFSET(0xA2EE020)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_DESTROYLOBBY_OFFSET UNITYSDK_OFFSET(0xA2EE390)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETINVITECOUNT_OFFSET UNITYSDK_OFFSET(0xA2EE570)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETINVITEIDBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2EE760)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETRTCROOMNAME_OFFSET UNITYSDK_OFFSET(0xA2EEAA0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ISRTCROOMCONNECTED_OFFSET UNITYSDK_OFFSET(0xA2EEDA0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_JOINLOBBY_OFFSET UNITYSDK_OFFSET(0xA2EEF70)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_KICKMEMBER_OFFSET UNITYSDK_OFFSET(0xA2EF150)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_LEAVELOBBY_OFFSET UNITYSDK_OFFSET(0xA2EF330)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONCREATELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EBE20)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONDESTROYLOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EBEC0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONJOINLOBBYACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EBF60)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONJOINLOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC000)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONKICKMEMBERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC0A0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLEAVELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC140)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC1E0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC280)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYMEMBERSTATUSRECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC320)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYMEMBERUPDATERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC3C0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYUPDATERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC460)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONPROMOTEMEMBERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC500)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONQUERYINVITESCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC5A0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONREJECTINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC6E0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONRTCROOMCONNECTIONCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC640)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONSENDINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC780)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONUPDATELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2EC820)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_PROMOTEMEMBER_OFFSET UNITYSDK_OFFSET(0xA2EF510)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_QUERYINVITES_OFFSET UNITYSDK_OFFSET(0xA2EF6F0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REJECTINVITE_OFFSET UNITYSDK_OFFSET(0xA2EF960)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYJOINLOBBYACCEPTED_OFFSET UNITYSDK_OFFSET(0xA2EFB40)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0xA2EFC20)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0xA2EFD00)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYMEMBERSTATUSRECEIVED_OFFSET UNITYSDK_OFFSET(0xA2EFDE0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYMEMBERUPDATERECEIVED_OFFSET UNITYSDK_OFFSET(0xA2EFEC0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYUPDATERECEIVED_OFFSET UNITYSDK_OFFSET(0xA2EFFA0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYRTCROOMCONNECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0xA2F0080)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_SENDINVITE_OFFSET UNITYSDK_OFFSET(0xA2F0160)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_UPDATELOBBYMODIFICATION_OFFSET UNITYSDK_OFFSET(0xA2F05B0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_UPDATELOBBY_OFFSET UNITYSDK_OFFSET(0xA2F0340)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA2EC8D0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA2EC8C0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbyInterface_TypeDefinitionIndex = 41893;
+	inline static constexpr unsigned int LobbyInterface_TypeDefinitionIndex = 42696;
 
 	class LobbyInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -156,259 +156,259 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyJoinLobbyAccepted(::Epic::OnlineServices::Lobby::AddNotifyJoinLobbyAcceptedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnJoinLobbyAcceptedCallback* notificationFn)
+		::System::UInt64 AddNotifyJoinLobbyAccepted(::Epic::OnlineServices::Lobby::AddNotifyJoinLobbyAcceptedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnJoinLobbyAcceptedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyJoinLobbyAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnJoinLobbyAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYJOINLOBBYACCEPTED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyJoinLobbyAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnJoinLobbyAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYJOINLOBBYACCEPTED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyLobbyInviteAccepted(::Epic::OnlineServices::Lobby::AddNotifyLobbyInviteAcceptedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnLobbyInviteAcceptedCallback* notificationFn)
+		::System::UInt64 AddNotifyLobbyInviteAccepted(::Epic::OnlineServices::Lobby::AddNotifyLobbyInviteAcceptedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnLobbyInviteAcceptedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyLobbyInviteAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLobbyInviteAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYINVITEACCEPTED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyLobbyInviteAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLobbyInviteAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYINVITEACCEPTED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyLobbyInviteReceived(::Epic::OnlineServices::Lobby::AddNotifyLobbyInviteReceivedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnLobbyInviteReceivedCallback* notificationFn)
+		::System::UInt64 AddNotifyLobbyInviteReceived(::Epic::OnlineServices::Lobby::AddNotifyLobbyInviteReceivedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnLobbyInviteReceivedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyLobbyInviteReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLobbyInviteReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYINVITERECEIVED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyLobbyInviteReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLobbyInviteReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYINVITERECEIVED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyLobbyMemberStatusReceived(::Epic::OnlineServices::Lobby::AddNotifyLobbyMemberStatusReceivedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnLobbyMemberStatusReceivedCallback* notificationFn)
+		::System::UInt64 AddNotifyLobbyMemberStatusReceived(::Epic::OnlineServices::Lobby::AddNotifyLobbyMemberStatusReceivedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnLobbyMemberStatusReceivedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyLobbyMemberStatusReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLobbyMemberStatusReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYMEMBERSTATUSRECEIVED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyLobbyMemberStatusReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLobbyMemberStatusReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYMEMBERSTATUSRECEIVED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyLobbyMemberUpdateReceived(::Epic::OnlineServices::Lobby::AddNotifyLobbyMemberUpdateReceivedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnLobbyMemberUpdateReceivedCallback* notificationFn)
+		::System::UInt64 AddNotifyLobbyMemberUpdateReceived(::Epic::OnlineServices::Lobby::AddNotifyLobbyMemberUpdateReceivedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnLobbyMemberUpdateReceivedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyLobbyMemberUpdateReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLobbyMemberUpdateReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYMEMBERUPDATERECEIVED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyLobbyMemberUpdateReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLobbyMemberUpdateReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYMEMBERUPDATERECEIVED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyLobbyUpdateReceived(::Epic::OnlineServices::Lobby::AddNotifyLobbyUpdateReceivedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnLobbyUpdateReceivedCallback* notificationFn)
+		::System::UInt64 AddNotifyLobbyUpdateReceived(::Epic::OnlineServices::Lobby::AddNotifyLobbyUpdateReceivedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnLobbyUpdateReceivedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyLobbyUpdateReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLobbyUpdateReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYUPDATERECEIVED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyLobbyUpdateReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLobbyUpdateReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYLOBBYUPDATERECEIVED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyRTCRoomConnectionChanged(::Epic::OnlineServices::Lobby::AddNotifyRTCRoomConnectionChangedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnRTCRoomConnectionChangedCallback* notificationFn)
+		::System::UInt64 AddNotifyRTCRoomConnectionChanged(::Epic::OnlineServices::Lobby::AddNotifyRTCRoomConnectionChangedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnRTCRoomConnectionChangedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyRTCRoomConnectionChangedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnRTCRoomConnectionChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYRTCROOMCONNECTIONCHANGED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyRTCRoomConnectionChangedOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnRTCRoomConnectionChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ADDNOTIFYRTCROOMCONNECTIONCHANGED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result CopyLobbyDetailsHandle(::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleOptions* options, ::Epic::OnlineServices::Lobby::LobbyDetails*& outLobbyDetailsHandle)
+		::Epic::OnlineServices::Result CopyLobbyDetailsHandle(::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleOptions* a1, ::Epic::OnlineServices::Lobby::LobbyDetails*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleOptions*, ::Epic::OnlineServices::Lobby::LobbyDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLE_OFFSET))(this, options, outLobbyDetailsHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleOptions*, ::Epic::OnlineServices::Lobby::LobbyDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLE_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyLobbyDetailsHandleByInviteId(::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByInviteIdOptions* options, ::Epic::OnlineServices::Lobby::LobbyDetails*& outLobbyDetailsHandle)
+		::Epic::OnlineServices::Result CopyLobbyDetailsHandleByInviteId(::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByInviteIdOptions* a1, ::Epic::OnlineServices::Lobby::LobbyDetails*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByInviteIdOptions*, ::Epic::OnlineServices::Lobby::LobbyDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLEBYINVITEID_OFFSET))(this, options, outLobbyDetailsHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByInviteIdOptions*, ::Epic::OnlineServices::Lobby::LobbyDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLEBYINVITEID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyLobbyDetailsHandleByUiEventId(::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByUiEventIdOptions* options, ::Epic::OnlineServices::Lobby::LobbyDetails*& outLobbyDetailsHandle)
+		::Epic::OnlineServices::Result CopyLobbyDetailsHandleByUiEventId(::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByUiEventIdOptions* a1, ::Epic::OnlineServices::Lobby::LobbyDetails*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByUiEventIdOptions*, ::Epic::OnlineServices::Lobby::LobbyDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLEBYUIEVENTID_OFFSET))(this, options, outLobbyDetailsHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByUiEventIdOptions*, ::Epic::OnlineServices::Lobby::LobbyDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_COPYLOBBYDETAILSHANDLEBYUIEVENTID_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CreateLobby(::Epic::OnlineServices::Lobby::CreateLobbyOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnCreateLobbyCallback* completionDelegate)
+		::System::Void CreateLobby(::Epic::OnlineServices::Lobby::CreateLobbyOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnCreateLobbyCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::CreateLobbyOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnCreateLobbyCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_CREATELOBBY_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::CreateLobbyOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnCreateLobbyCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_CREATELOBBY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result CreateLobbySearch(::Epic::OnlineServices::Lobby::CreateLobbySearchOptions* options, ::Epic::OnlineServices::Lobby::LobbySearch*& outLobbySearchHandle)
+		::Epic::OnlineServices::Result CreateLobbySearch(::Epic::OnlineServices::Lobby::CreateLobbySearchOptions* a1, ::Epic::OnlineServices::Lobby::LobbySearch*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::CreateLobbySearchOptions*, ::Epic::OnlineServices::Lobby::LobbySearch*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_CREATELOBBYSEARCH_OFFSET))(this, options, outLobbySearchHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::CreateLobbySearchOptions*, ::Epic::OnlineServices::Lobby::LobbySearch*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_CREATELOBBYSEARCH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DestroyLobby(::Epic::OnlineServices::Lobby::DestroyLobbyOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnDestroyLobbyCallback* completionDelegate)
+		::System::Void DestroyLobby(::Epic::OnlineServices::Lobby::DestroyLobbyOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnDestroyLobbyCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::DestroyLobbyOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnDestroyLobbyCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_DESTROYLOBBY_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::DestroyLobbyOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnDestroyLobbyCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_DESTROYLOBBY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt32 GetInviteCount(::Epic::OnlineServices::Lobby::GetInviteCountOptions* options)
+		::System::UInt32 GetInviteCount(::Epic::OnlineServices::Lobby::GetInviteCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Lobby::GetInviteCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETINVITECOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Lobby::GetInviteCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETINVITECOUNT_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result GetInviteIdByIndex(::Epic::OnlineServices::Lobby::GetInviteIdByIndexOptions* options, ::System::String*& outBuffer)
+		::Epic::OnlineServices::Result GetInviteIdByIndex(::Epic::OnlineServices::Lobby::GetInviteIdByIndexOptions* a1, ::System::String*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::GetInviteIdByIndexOptions*, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETINVITEIDBYINDEX_OFFSET))(this, options, outBuffer);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::GetInviteIdByIndexOptions*, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETINVITEIDBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result GetRTCRoomName(::Epic::OnlineServices::Lobby::GetRTCRoomNameOptions* options, ::System::String*& outBuffer)
+		::Epic::OnlineServices::Result GetRTCRoomName(::Epic::OnlineServices::Lobby::GetRTCRoomNameOptions* a1, ::System::String*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::GetRTCRoomNameOptions*, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETRTCROOMNAME_OFFSET))(this, options, outBuffer);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::GetRTCRoomNameOptions*, ::System::String*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_GETRTCROOMNAME_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result IsRTCRoomConnected(::Epic::OnlineServices::Lobby::IsRTCRoomConnectedOptions* options, ::System::Boolean& bOutIsConnected)
+		::Epic::OnlineServices::Result IsRTCRoomConnected(::Epic::OnlineServices::Lobby::IsRTCRoomConnectedOptions* a1, ::System::Boolean& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::IsRTCRoomConnectedOptions*, ::System::Boolean&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ISRTCROOMCONNECTED_OFFSET))(this, options, bOutIsConnected);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::IsRTCRoomConnectedOptions*, ::System::Boolean&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ISRTCROOMCONNECTED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void JoinLobby(::Epic::OnlineServices::Lobby::JoinLobbyOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnJoinLobbyCallback* completionDelegate)
+		::System::Void JoinLobby(::Epic::OnlineServices::Lobby::JoinLobbyOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnJoinLobbyCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::JoinLobbyOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnJoinLobbyCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_JOINLOBBY_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::JoinLobbyOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnJoinLobbyCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_JOINLOBBY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void KickMember(::Epic::OnlineServices::Lobby::KickMemberOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnKickMemberCallback* completionDelegate)
+		::System::Void KickMember(::Epic::OnlineServices::Lobby::KickMemberOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnKickMemberCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::KickMemberOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnKickMemberCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_KICKMEMBER_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::KickMemberOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnKickMemberCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_KICKMEMBER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LeaveLobby(::Epic::OnlineServices::Lobby::LeaveLobbyOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnLeaveLobbyCallback* completionDelegate)
+		::System::Void LeaveLobby(::Epic::OnlineServices::Lobby::LeaveLobbyOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnLeaveLobbyCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LeaveLobbyOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLeaveLobbyCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_LEAVELOBBY_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LeaveLobbyOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnLeaveLobbyCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_LEAVELOBBY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void PromoteMember(::Epic::OnlineServices::Lobby::PromoteMemberOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnPromoteMemberCallback* completionDelegate)
+		::System::Void PromoteMember(::Epic::OnlineServices::Lobby::PromoteMemberOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnPromoteMemberCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::PromoteMemberOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnPromoteMemberCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_PROMOTEMEMBER_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::PromoteMemberOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnPromoteMemberCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_PROMOTEMEMBER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryInvites(::Epic::OnlineServices::Lobby::QueryInvitesOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnQueryInvitesCallback* completionDelegate)
+		::System::Void QueryInvites(::Epic::OnlineServices::Lobby::QueryInvitesOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnQueryInvitesCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::QueryInvitesOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnQueryInvitesCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_QUERYINVITES_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::QueryInvitesOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnQueryInvitesCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_QUERYINVITES_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RejectInvite(::Epic::OnlineServices::Lobby::RejectInviteOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnRejectInviteCallback* completionDelegate)
+		::System::Void RejectInvite(::Epic::OnlineServices::Lobby::RejectInviteOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnRejectInviteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::RejectInviteOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnRejectInviteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REJECTINVITE_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::RejectInviteOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnRejectInviteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REJECTINVITE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RemoveNotifyJoinLobbyAccepted(::System::UInt64 inId)
+		::System::Void RemoveNotifyJoinLobbyAccepted(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYJOINLOBBYACCEPTED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYJOINLOBBYACCEPTED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyLobbyInviteAccepted(::System::UInt64 inId)
+		::System::Void RemoveNotifyLobbyInviteAccepted(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYINVITEACCEPTED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYINVITEACCEPTED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyLobbyInviteReceived(::System::UInt64 inId)
+		::System::Void RemoveNotifyLobbyInviteReceived(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYINVITERECEIVED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYINVITERECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyLobbyMemberStatusReceived(::System::UInt64 inId)
+		::System::Void RemoveNotifyLobbyMemberStatusReceived(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYMEMBERSTATUSRECEIVED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYMEMBERSTATUSRECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyLobbyMemberUpdateReceived(::System::UInt64 inId)
+		::System::Void RemoveNotifyLobbyMemberUpdateReceived(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYMEMBERUPDATERECEIVED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYMEMBERUPDATERECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyLobbyUpdateReceived(::System::UInt64 inId)
+		::System::Void RemoveNotifyLobbyUpdateReceived(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYUPDATERECEIVED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYLOBBYUPDATERECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyRTCRoomConnectionChanged(::System::UInt64 inId)
+		::System::Void RemoveNotifyRTCRoomConnectionChanged(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYRTCROOMCONNECTIONCHANGED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_REMOVENOTIFYRTCROOMCONNECTIONCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void SendInvite(::Epic::OnlineServices::Lobby::SendInviteOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnSendInviteCallback* completionDelegate)
+		::System::Void SendInvite(::Epic::OnlineServices::Lobby::SendInviteOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnSendInviteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::SendInviteOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnSendInviteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_SENDINVITE_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::SendInviteOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnSendInviteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_SENDINVITE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UpdateLobby(::Epic::OnlineServices::Lobby::UpdateLobbyOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::OnUpdateLobbyCallback* completionDelegate)
+		::System::Void UpdateLobby(::Epic::OnlineServices::Lobby::UpdateLobbyOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::OnUpdateLobbyCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::UpdateLobbyOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnUpdateLobbyCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_UPDATELOBBY_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::UpdateLobbyOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::OnUpdateLobbyCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_UPDATELOBBY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result UpdateLobbyModification(::Epic::OnlineServices::Lobby::UpdateLobbyModificationOptions* options, ::Epic::OnlineServices::Lobby::LobbyModification*& outLobbyModificationHandle)
+		::Epic::OnlineServices::Result UpdateLobbyModification(::Epic::OnlineServices::Lobby::UpdateLobbyModificationOptions* a1, ::Epic::OnlineServices::Lobby::LobbyModification*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::UpdateLobbyModificationOptions*, ::Epic::OnlineServices::Lobby::LobbyModification*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_UPDATELOBBYMODIFICATION_OFFSET))(this, options, outLobbyModificationHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::UpdateLobbyModificationOptions*, ::Epic::OnlineServices::Lobby::LobbyModification*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_UPDATELOBBYMODIFICATION_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void OnCreateLobbyCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnCreateLobbyCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONCREATELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONCREATELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnDestroyLobbyCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnDestroyLobbyCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONDESTROYLOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONDESTROYLOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnJoinLobbyAcceptedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnJoinLobbyAcceptedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONJOINLOBBYACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONJOINLOBBYACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnJoinLobbyCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnJoinLobbyCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONJOINLOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONJOINLOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnKickMemberCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnKickMemberCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONKICKMEMBERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONKICKMEMBERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLeaveLobbyCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLeaveLobbyCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLEAVELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLEAVELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLobbyInviteAcceptedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLobbyInviteAcceptedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLobbyInviteReceivedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLobbyInviteReceivedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLobbyMemberStatusReceivedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLobbyMemberStatusReceivedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYMEMBERSTATUSRECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYMEMBERSTATUSRECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLobbyMemberUpdateReceivedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLobbyMemberUpdateReceivedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYMEMBERUPDATERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYMEMBERUPDATERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnLobbyUpdateReceivedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnLobbyUpdateReceivedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYUPDATERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONLOBBYUPDATERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnPromoteMemberCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnPromoteMemberCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONPROMOTEMEMBERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONPROMOTEMEMBERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryInvitesCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryInvitesCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONQUERYINVITESCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONQUERYINVITESCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnRTCRoomConnectionChangedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnRTCRoomConnectionChangedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONRTCROOMCONNECTIONCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONRTCROOMCONNECTIONCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnRejectInviteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnRejectInviteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONREJECTINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONREJECTINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnSendInviteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnSendInviteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONSENDINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONSENDINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnUpdateLobbyCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnUpdateLobbyCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONUPDATELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYINTERFACE_ONUPDATELOBBYCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

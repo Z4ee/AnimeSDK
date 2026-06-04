@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RecordType_TypeDefinitionIndex = 10442;
+	inline static constexpr unsigned int RecordType_TypeDefinitionIndex = 10483;
 
 	enum class RecordType : ::System::Int32
 	{

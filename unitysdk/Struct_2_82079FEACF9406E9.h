@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/RtBehaviorFlag.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_82079FEACF9406E9_TypeDefinitionIndex = 49747;
+inline static constexpr unsigned int Struct_2_82079FEACF9406E9_TypeDefinitionIndex = 50414;
 
 struct alignas(8) Struct_2_82079FEACF9406E9
 {

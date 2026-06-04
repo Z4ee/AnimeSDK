@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AILeadWayState_TypeDefinitionIndex = 48461;
+	inline static constexpr unsigned int AILeadWayState_TypeDefinitionIndex = 49087;
 
 	enum class AILeadWayState : ::System::Int32
 	{

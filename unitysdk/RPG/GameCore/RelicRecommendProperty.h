@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RELICRECOMMENDPROPERTY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C9E470)
-#define RPG_GAMECORE_RELICRECOMMENDPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x18C9E590)
+#define RPG_GAMECORE_RELICRECOMMENDPROPERTY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AC3220)
+#define RPG_GAMECORE_RELICRECOMMENDPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC3340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicRecommendProperty_TypeDefinitionIndex = 12058;
+	inline static constexpr unsigned int RelicRecommendProperty_TypeDefinitionIndex = 12149;
 
 	class RelicRecommendProperty : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELICRECOMMENDPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RelicRecommendProperty*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RelicRecommendProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RelicRecommendProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELICRECOMMENDPROPERTY_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RelicRecommendProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELICRECOMMENDPROPERTY_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

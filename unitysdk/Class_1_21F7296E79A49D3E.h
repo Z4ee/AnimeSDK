@@ -4,17 +4,17 @@
 
 class Class_3_C6C803F6D2DDE4D8;
 
-#define CLASS_1_21F7296E79A49D3E_GET_HANDLER_OFFSET UNITYSDK_OFFSET(0x129F62B0)
-#define CLASS_1_21F7296E79A49D3E_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x129F62C0)
-#define CLASS_1_21F7296E79A49D3E__CTOR_OFFSET UNITYSDK_OFFSET(0x129F62D0)
+#define CLASS_1_21F7296E79A49D3E_GET_HANDLER_OFFSET UNITYSDK_OFFSET(0x12A9EDF0)
+#define CLASS_1_21F7296E79A49D3E_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x12A9EE00)
+#define CLASS_1_21F7296E79A49D3E__CTOR_OFFSET UNITYSDK_OFFSET(0x12A9EE10)
 
-inline static constexpr unsigned int Class_1_21F7296E79A49D3E_TypeDefinitionIndex = 71533;
+inline static constexpr unsigned int Class_1_21F7296E79A49D3E_TypeDefinitionIndex = 72555;
 
 class Class_1_21F7296E79A49D3E : public ::System::Object
 {
 public:
-	::System::Object* _Owner_k__BackingField; // 0x10
-	::Class_3_C6C803F6D2DDE4D8* _Handler_k__BackingField; // 0x18
+	::Class_3_C6C803F6D2DDE4D8* _Handler_k__BackingField; // 0x10
+	::System::Object* _Owner_k__BackingField; // 0x18
 
 	::System::Void _ctor(::Class_3_C6C803F6D2DDE4D8* a1, ::System::Object* a2)
 	{

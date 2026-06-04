@@ -9,20 +9,20 @@ namespace RPG::GameCore { class RtBattleCharacterCameraConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0DDCBF910E1BEABC_CLEAR_OFFSET UNITYSDK_OFFSET(0x9A14B90)
-#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_5D53338527D01CA8_OFFSET UNITYSDK_OFFSET(0x9A14C20)
-#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_8377BC0DCBA8CDB6_OFFSET UNITYSDK_OFFSET(0x9A148E0)
-#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_B7A8627FBC70C11A_OFFSET UNITYSDK_OFFSET(0x9A148F0)
-#define CLASS_1_0DDCBF910E1BEABC__CTOR_OFFSET UNITYSDK_OFFSET(0x9A14DC0)
+#define CLASS_1_0DDCBF910E1BEABC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1443CDB0)
+#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_8377BC0DCBA8CDB6_OFFSET UNITYSDK_OFFSET(0x1443CAA0)
+#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_A5C0A53CF4FA2766_OFFSET UNITYSDK_OFFSET(0x1443CE50)
+#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_B7A8627FBC70C11A_OFFSET UNITYSDK_OFFSET(0x1443CAB0)
+#define CLASS_1_0DDCBF910E1BEABC__CTOR_OFFSET UNITYSDK_OFFSET(0x1443D000)
 
-inline static constexpr unsigned int Class_1_0DDCBF910E1BEABC_TypeDefinitionIndex = 50105;
+inline static constexpr unsigned int Class_1_0DDCBF910E1BEABC_TypeDefinitionIndex = 50772;
 
 class Class_1_0DDCBF910E1BEABC : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_5F51D4049EA87B7B*>* Field_1_2; // 0x10
-	::RPG::GameCore::TaskContext* Field_1_0; // 0x18
-	::Il2CppArray<::RPG::GameCore::RtBattleCharacterCameraConfig*>* Field_1_1; // 0x20
+	::Il2CppArray<::RPG::GameCore::RtBattleCharacterCameraConfig*>* Field_1_0; // 0x10
+	::RPG::GameCore::TaskContext* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_5F51D4049EA87B7B*>* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -44,8 +44,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0DDCBF910E1BEABC_CLEAR_OFFSET))(this);
 	}
 
-	::RPG::GameCore::RtBattleCharacterCameraConfig* Method_1_5D53338527D01CA8(::RPG::GameCore::RtBattleCharacterCameraTag a1)
+	::RPG::GameCore::RtBattleCharacterCameraConfig* Method_1_A5C0A53CF4FA2766(::RPG::GameCore::RtBattleCharacterCameraTag a1)
 	{
-		return ((::RPG::GameCore::RtBattleCharacterCameraConfig*(*)(::PVOID, ::RPG::GameCore::RtBattleCharacterCameraTag))((::PBYTE)hIl2Cpp + CLASS_1_0DDCBF910E1BEABC_METHOD_1_5D53338527D01CA8_OFFSET))(this, a1);
+		return ((::RPG::GameCore::RtBattleCharacterCameraConfig*(*)(::PVOID, ::RPG::GameCore::RtBattleCharacterCameraTag))((::PBYTE)hIl2Cpp + CLASS_1_0DDCBF910E1BEABC_METHOD_1_A5C0A53CF4FA2766_OFFSET))(this, a1);
 	}
 };

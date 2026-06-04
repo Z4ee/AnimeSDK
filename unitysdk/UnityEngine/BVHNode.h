@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BVHNode_TypeDefinitionIndex = 3912;
+	inline static constexpr unsigned int BVHNode_TypeDefinitionIndex = 4086;
 
 	struct alignas(8) BVHNode
 	{

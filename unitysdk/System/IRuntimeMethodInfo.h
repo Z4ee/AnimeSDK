@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int IRuntimeMethodInfo_TypeDefinitionIndex = 373;
+	inline static constexpr unsigned int IRuntimeMethodInfo_TypeDefinitionIndex = 372;
 
 	class IRuntimeMethodInfo
 	{

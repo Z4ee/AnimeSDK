@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int VRTextureUsage_TypeDefinitionIndex = 3985;
+	inline static constexpr unsigned int VRTextureUsage_TypeDefinitionIndex = 4159;
 
 	enum class VRTextureUsage : ::System::Int32
 	{

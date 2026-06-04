@@ -12,24 +12,24 @@ namespace System::Text { class Encoding; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_1_OFFSET UNITYSDK_OFFSET(0x19F71E80)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_OFFSET UNITYSDK_OFFSET(0x19F71C90)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTO_OFFSET UNITYSDK_OFFSET(0x19F71DC0)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_CREATEFIXEDMEMORYSTREAM_OFFSET UNITYSDK_OFFSET(0x19F71F20)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x19F71FF0)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19F71FD0)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_GETENCODINGFROMBUFFER_OFFSET UNITYSDK_OFFSET(0x19F72220)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x19F6F620)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_GET_LOADEDBUFFERLENGTH_OFFSET UNITYSDK_OFFSET(0x19F5FA90)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_1_OFFSET UNITYSDK_OFFSET(0x19F6E460)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_OFFSET UNITYSDK_OFFSET(0x19F72020)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_READASSTRINGASYNC_OFFSET UNITYSDK_OFFSET(0x19F72170)
-#define SYSTEM_NET_HTTP_HTTPCONTENT_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x19F726F0)
-#define SYSTEM_NET_HTTP_HTTPCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5AB60)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_1_OFFSET UNITYSDK_OFFSET(0x1ADE7B30)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_OFFSET UNITYSDK_OFFSET(0x1ADE7940)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTO_OFFSET UNITYSDK_OFFSET(0x1ADE7A70)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_CREATEFIXEDMEMORYSTREAM_OFFSET UNITYSDK_OFFSET(0x1ADE7BD0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1ADE7CC0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ADE7CA0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_GETENCODINGFROMBUFFER_OFFSET UNITYSDK_OFFSET(0x1ADE7E80)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1ADE5360)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_GET_LOADEDBUFFERLENGTH_OFFSET UNITYSDK_OFFSET(0x1ADD4CC0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_1_OFFSET UNITYSDK_OFFSET(0x1ADE4160)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_OFFSET UNITYSDK_OFFSET(0x1ADE7CF0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_READASSTRINGASYNC_OFFSET UNITYSDK_OFFSET(0x1ADE7DD0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1ADE82F0)
+#define SYSTEM_NET_HTTP_HTTPCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADCFB00)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpContent_TypeDefinitionIndex = 4785;
+	inline static constexpr unsigned int HttpContent_TypeDefinitionIndex = 3752;
 
 	class HttpContent : public ::System::Object
 	{
@@ -53,24 +53,24 @@ namespace System::Net::Http
 			return ((::System::Nullable_1<::System::Int64>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_GET_LOADEDBUFFERLENGTH_OFFSET))(this);
 		}
 
-		::System::Void CopyTo(::System::IO::Stream* stream)
+		::System::Void CopyTo(::System::IO::Stream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_COPYTO_OFFSET))(this, stream);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_COPYTO_OFFSET))(this, a1);
 		}
 
-		::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream)
+		::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* a1)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_OFFSET))(this, stream);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::IO::Stream*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_OFFSET))(this, a1);
 		}
 
-		::System::Threading::Tasks::Task* CopyToAsync_1(::System::IO::Stream* stream, ::System::Net::TransportContext* context)
+		::System::Threading::Tasks::Task* CopyToAsync_1(::System::IO::Stream* a1, ::System::Net::TransportContext* a2)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::IO::Stream*, ::System::Net::TransportContext*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_1_OFFSET))(this, stream, context);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::IO::Stream*, ::System::Net::TransportContext*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_1_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Net::Http::HttpContent_FixedMemoryStream* CreateFixedMemoryStream(::System::Int64 maxBufferSize)
+		static ::System::Net::Http::HttpContent_FixedMemoryStream* CreateFixedMemoryStream(::System::Int64 a1)
 		{
-			return ((::System::Net::Http::HttpContent_FixedMemoryStream*(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_CREATEFIXEDMEMORYSTREAM_OFFSET))(maxBufferSize);
+			return ((::System::Net::Http::HttpContent_FixedMemoryStream*(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_CREATEFIXEDMEMORYSTREAM_OFFSET))(a1);
 		}
 
 		::System::Void Dispose()
@@ -78,9 +78,9 @@ namespace System::Net::Http
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposing)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_DISPOSE_1_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_DISPOSE_1_OFFSET))(this, a1);
 		}
 
 		::System::Threading::Tasks::Task* LoadIntoBufferAsync()
@@ -88,9 +88,9 @@ namespace System::Net::Http
 			return ((::System::Threading::Tasks::Task*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_OFFSET))(this);
 		}
 
-		::System::Threading::Tasks::Task* LoadIntoBufferAsync_1(::System::Int64 maxBufferSize)
+		::System::Threading::Tasks::Task* LoadIntoBufferAsync_1(::System::Int64 a1)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_1_OFFSET))(this, maxBufferSize);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_1_OFFSET))(this, a1);
 		}
 
 		::System::Threading::Tasks::Task_1<::System::String*>* ReadAsStringAsync()
@@ -98,14 +98,14 @@ namespace System::Net::Http
 			return ((::System::Threading::Tasks::Task_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_READASSTRINGASYNC_OFFSET))(this);
 		}
 
-		static ::System::Text::Encoding* GetEncodingFromBuffer(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 length, ::System::Int32& preambleLength)
+		static ::System::Text::Encoding* GetEncodingFromBuffer(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32& a3)
 		{
-			return ((::System::Text::Encoding*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_GETENCODINGFROMBUFFER_OFFSET))(buffer, length, preambleLength);
+			return ((::System::Text::Encoding*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_GETENCODINGFROMBUFFER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 StartsWith(::Il2CppArray<::System::Byte>* array, ::System::Int32 length, ::Il2CppArray<::System::Byte>* value)
+		static ::System::Int32 StartsWith(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::Il2CppArray<::System::Byte>* a3)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_STARTSWITH_OFFSET))(array, length, value);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_STARTSWITH_OFFSET))(a1, a2, a3);
 		}
 	};
 }

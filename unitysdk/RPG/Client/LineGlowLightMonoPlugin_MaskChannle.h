@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LineGlowLightMonoPlugin_MaskChannle_TypeDefinitionIndex = 65279;
+	inline static constexpr unsigned int LineGlowLightMonoPlugin_MaskChannle_TypeDefinitionIndex = 66206;
 
 	enum class LineGlowLightMonoPlugin_MaskChannle : ::System::Int32
 	{

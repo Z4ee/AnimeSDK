@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int Abci_TypeDefinitionIndex = 40815;
+	inline static constexpr unsigned int Abci_TypeDefinitionIndex = 41641;
 
 	class Abci : public ::System::Object
 	{

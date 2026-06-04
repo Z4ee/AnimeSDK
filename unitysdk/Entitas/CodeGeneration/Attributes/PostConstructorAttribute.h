@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_POSTCONSTRUCTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C501D0)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_POSTCONSTRUCTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x146FE8A0)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int PostConstructorAttribute_TypeDefinitionIndex = 9909;
+	inline static constexpr unsigned int PostConstructorAttribute_TypeDefinitionIndex = 9736;
 
 	class PostConstructorAttribute : public ::System::Attribute
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int DisplayStyle_TypeDefinitionIndex = 5873;
+	inline static constexpr unsigned int DisplayStyle_TypeDefinitionIndex = 6150;
 
 	enum class DisplayStyle : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int IMouseService_TypeDefinitionIndex = 9975;
+	inline static constexpr unsigned int IMouseService_TypeDefinitionIndex = 9802;
 
 	class IMouseService
 	{

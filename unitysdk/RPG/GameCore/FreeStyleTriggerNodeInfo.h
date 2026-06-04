@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLETRIGGERNODEINFO_METHOD_3_8B6511E48B1DECCE_OFFSET UNITYSDK_OFFSET(0x18933B70)
-#define RPG_GAMECORE_FREESTYLETRIGGERNODEINFO_METHOD_3_EDADC79DB17BDB4C_OFFSET UNITYSDK_OFFSET(0x18933BF0)
-#define RPG_GAMECORE_FREESTYLETRIGGERNODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18933BC0)
+#define RPG_GAMECORE_FREESTYLETRIGGERNODEINFO_METHOD_3_5049A62DF571554F_OFFSET UNITYSDK_OFFSET(0x1976ED50)
+#define RPG_GAMECORE_FREESTYLETRIGGERNODEINFO_METHOD_3_C9577264B3F9F9EA_OFFSET UNITYSDK_OFFSET(0x1976ECD0)
+#define RPG_GAMECORE_FREESTYLETRIGGERNODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1976ED20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleTriggerNodeInfo_TypeDefinitionIndex = 16030;
+	inline static constexpr unsigned int FreeStyleTriggerNodeInfo_TypeDefinitionIndex = 16080;
 
 	class FreeStyleTriggerNodeInfo : public ::RPG::GameCore::FreeStyleTriggerSimpleNodeInfo
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLETRIGGERNODEINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8B6511E48B1DECCE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleTriggerNodeInfo*& a2)
+		static ::System::Void Method_3_C9577264B3F9F9EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleTriggerNodeInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleTriggerNodeInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLETRIGGERNODEINFO_METHOD_3_8B6511E48B1DECCE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleTriggerNodeInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLETRIGGERNODEINFO_METHOD_3_C9577264B3F9F9EA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EDADC79DB17BDB4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleTriggerNodeInfo* a2)
+		static ::System::Void Method_3_5049A62DF571554F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleTriggerNodeInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleTriggerNodeInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLETRIGGERNODEINFO_METHOD_3_EDADC79DB17BDB4C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleTriggerNodeInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLETRIGGERNODEINFO_METHOD_3_5049A62DF571554F_OFFSET))(a1, a2);
 		}
 	};
 }

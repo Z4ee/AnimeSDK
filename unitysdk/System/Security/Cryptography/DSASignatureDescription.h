@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/SignatureDescription.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREDESCRIPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17A37C20)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREDESCRIPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x187E63B0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int DSASignatureDescription_TypeDefinitionIndex = 1061;
+	inline static constexpr unsigned int DSASignatureDescription_TypeDefinitionIndex = 1060;
 
 	class DSASignatureDescription : public ::System::Security::Cryptography::SignatureDescription
 	{

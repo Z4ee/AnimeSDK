@@ -3,7 +3,7 @@
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int Settings_ShortcutActions_TypeDefinitionIndex = 35340;
+	inline static constexpr unsigned int Settings_ShortcutActions_TypeDefinitionIndex = 35640;
 
 	enum class Settings_ShortcutActions : ::System::Int32
 	{

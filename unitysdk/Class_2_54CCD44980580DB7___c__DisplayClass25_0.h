@@ -6,10 +6,10 @@ class Class_1_603C5A0548F631AA;
 namespace System::Net { class IPEndPoint; }
 namespace System::Net { class ServicePoint; }
 
-#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x129C2950)
-#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS25_0___GETWEBRESPONSE_B__1_OFFSET UNITYSDK_OFFSET(0x129C70B0)
+#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14581550)
+#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS25_0___GETWEBRESPONSE_B__1_OFFSET UNITYSDK_OFFSET(0x14585C40)
 
-inline static constexpr unsigned int Class_2_54CCD44980580DB7___c__DisplayClass25_0_TypeDefinitionIndex = 54981;
+inline static constexpr unsigned int Class_2_54CCD44980580DB7___c__DisplayClass25_0_TypeDefinitionIndex = 55715;
 
 class Class_2_54CCD44980580DB7___c__DisplayClass25_0 : public ::System::Object
 {
@@ -22,8 +22,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Net::IPEndPoint* __GetWebResponse_b__1(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEP, ::System::Int32 iDnsRetry)
+	::System::Net::IPEndPoint* __GetWebResponse_b__1(::System::Net::ServicePoint* a1, ::System::Net::IPEndPoint* a2, ::System::Int32 a3)
 	{
-		return ((::System::Net::IPEndPoint*(*)(::PVOID, ::System::Net::ServicePoint*, ::System::Net::IPEndPoint*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS25_0___GETWEBRESPONSE_B__1_OFFSET))(this, servicePoint, remoteEP, iDnsRetry);
+		return ((::System::Net::IPEndPoint*(*)(::PVOID, ::System::Net::ServicePoint*, ::System::Net::IPEndPoint*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS25_0___GETWEBRESPONSE_B__1_OFFSET))(this, a1, a2, a3);
 	}
 };

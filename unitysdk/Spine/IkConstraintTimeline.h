@@ -8,15 +8,15 @@ namespace Spine { class Event; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_IKCONSTRAINTTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x19DDAD90)
-#define SPINE_IKCONSTRAINTTIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x19DDAC50)
-#define SPINE_IKCONSTRAINTTIMELINE_GET_IKCONSTRAINTINDEX_OFFSET UNITYSDK_OFFSET(0x19DDAC60)
-#define SPINE_IKCONSTRAINTTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x19DDAC70)
-#define SPINE_IKCONSTRAINTTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DDAB40)
+#define SPINE_IKCONSTRAINTTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1AC57C80)
+#define SPINE_IKCONSTRAINTTIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1AC57BA0)
+#define SPINE_IKCONSTRAINTTIMELINE_GET_IKCONSTRAINTINDEX_OFFSET UNITYSDK_OFFSET(0x1AC57BB0)
+#define SPINE_IKCONSTRAINTTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1AC57BC0)
+#define SPINE_IKCONSTRAINTTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC57AB0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int IkConstraintTimeline_TypeDefinitionIndex = 36384;
+	inline static constexpr unsigned int IkConstraintTimeline_TypeDefinitionIndex = 36684;
 
 	class IkConstraintTimeline : public ::Spine::CurveTimeline
 	{
@@ -29,9 +29,9 @@ namespace Spine
 		// static const ::System::Int32 STRETCH = 0x5; // 0x0
 		::System::Int32 ikConstraintIndex; // 0x28
 
-		::System::Void _ctor(::System::Int32 frameCount, ::System::Int32 bezierCount, ::System::Int32 ikConstraintIndex)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINTTIMELINE__CTOR_OFFSET))(this, frameCount, bezierCount, ikConstraintIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINTTIMELINE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_FrameEntries()
@@ -44,14 +44,14 @@ namespace Spine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINTTIMELINE_GET_IKCONSTRAINTINDEX_OFFSET))(this);
 		}
 
-		::System::Void SetFrame(::System::Int32 frame, ::System::Single time, ::System::Single mix, ::System::Single softness, ::System::Int32 bendDirection, ::System::Boolean compress, ::System::Boolean stretch)
+		::System::Void SetFrame(::System::Int32 a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Int32 a5, ::System::Boolean a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINTTIMELINE_SETFRAME_OFFSET))(this, frame, time, mix, softness, bendDirection, compress, stretch);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINTTIMELINE_SETFRAME_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void Apply(::Spine::Skeleton* skeleton, ::System::Single lastTime, ::System::Single time, ::Spine::ExposedList_1<::Spine::Event*>* firedEvents, ::System::Single alpha, ::Spine::MixBlend blend, ::Spine::MixDirection direction)
+		::System::Void Apply(::Spine::Skeleton* a1, ::System::Single a2, ::System::Single a3, ::Spine::ExposedList_1<::Spine::Event*>* a4, ::System::Single a5, ::Spine::MixBlend a6, ::Spine::MixDirection a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINTTIMELINE_APPLY_OFFSET))(this, skeleton, lastTime, time, firedEvents, alpha, blend, direction);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINTTIMELINE_APPLY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 	};
 }

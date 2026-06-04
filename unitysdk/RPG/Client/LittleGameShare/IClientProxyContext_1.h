@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int IClientProxyContext_1_TypeDefinitionIndex = 34530;
+	inline static constexpr unsigned int IClientProxyContext_1_TypeDefinitionIndex = 34813;
 
 	template <typename TEntity>
 	class IClientProxyContext_1

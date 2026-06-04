@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int PluginEvent_TypeDefinitionIndex = 5185;
+	inline static constexpr unsigned int PluginEvent_TypeDefinitionIndex = 5010;
 
 	enum class PluginEvent : ::System::Int32
 	{

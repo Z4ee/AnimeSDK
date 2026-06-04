@@ -7,17 +7,17 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB8C0F50)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8C0D40)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xB8C1090)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C1100)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB8C1280)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8C11E0)
-#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xB8C12C0)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD004B40)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD004990)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD004C80)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD004CF0)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD004E70)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD004DD0)
+#define RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD004EB0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoAnimLayerEmotionFullTrack_TypeDefinitionIndex = 44838;
+	inline static constexpr unsigned int EmoAnimLayerEmotionFullTrack_TypeDefinitionIndex = 45389;
 
 	class EmoAnimLayerEmotionFullTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -42,19 +42,19 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::UnityEngine::Timeline::TimelineClip* P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* P0)
+		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOANIMLAYEREMOTIONFULLTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

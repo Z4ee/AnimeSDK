@@ -9,29 +9,29 @@ namespace Spine { class Skeleton; }
 namespace Spine { class VertexAttachment; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_DEFORMTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x19DD6EF0)
-#define SPINE_DEFORMTIMELINE_GETCURVEPERCENT_OFFSET UNITYSDK_OFFSET(0x19DD6BF0)
-#define SPINE_DEFORMTIMELINE_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x19DD68E0)
-#define SPINE_DEFORMTIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x19DD68D0)
-#define SPINE_DEFORMTIMELINE_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x19DD68F0)
-#define SPINE_DEFORMTIMELINE_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x19DD69C0)
-#define SPINE_DEFORMTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x19DD6900)
-#define SPINE_DEFORMTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DD66B0)
+#define SPINE_DEFORMTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1AC542C0)
+#define SPINE_DEFORMTIMELINE_GETCURVEPERCENT_OFFSET UNITYSDK_OFFSET(0x1AC54090)
+#define SPINE_DEFORMTIMELINE_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1AC53DC0)
+#define SPINE_DEFORMTIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1AC53DB0)
+#define SPINE_DEFORMTIMELINE_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x1AC53DD0)
+#define SPINE_DEFORMTIMELINE_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x1AC53E80)
+#define SPINE_DEFORMTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1AC53DE0)
+#define SPINE_DEFORMTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC53C00)
 
 namespace Spine
 {
-	inline static constexpr unsigned int DeformTimeline_TypeDefinitionIndex = 36381;
+	inline static constexpr unsigned int DeformTimeline_TypeDefinitionIndex = 36681;
 
 	class DeformTimeline : public ::Spine::CurveTimeline
 	{
 	public:
-		::Il2CppArray<::Il2CppArray<::System::Single>*>* vertices; // 0x28
-		::Spine::VertexAttachment* attachment; // 0x30
+		::Spine::VertexAttachment* attachment; // 0x28
+		::Il2CppArray<::Il2CppArray<::System::Single>*>* vertices; // 0x30
 		::System::Int32 slotIndex; // 0x38
 
-		::System::Void _ctor(::System::Int32 frameCount, ::System::Int32 bezierCount, ::System::Int32 slotIndex, ::Spine::VertexAttachment* attachment)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::Spine::VertexAttachment* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::Spine::VertexAttachment*))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE__CTOR_OFFSET))(this, frameCount, bezierCount, slotIndex, attachment);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::Spine::VertexAttachment*))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_SlotIndex()
@@ -49,24 +49,24 @@ namespace Spine
 			return ((::Il2CppArray<::Il2CppArray<::System::Single>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE_GET_VERTICES_OFFSET))(this);
 		}
 
-		::System::Void SetFrame(::System::Int32 frame, ::System::Single time, ::Il2CppArray<::System::Single>* vertices)
+		::System::Void SetFrame(::System::Int32 a1, ::System::Single a2, ::Il2CppArray<::System::Single>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE_SETFRAME_OFFSET))(this, frame, time, vertices);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE_SETFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void setBezier(::System::Int32 bezier, ::System::Int32 frame, ::System::Int32 value, ::System::Single time1, ::System::Single value1, ::System::Single cx1, ::System::Single cy1, ::System::Single cx2, ::System::Single cy2, ::System::Single time2, ::System::Single value2)
+		::System::Void setBezier(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Single a9, ::System::Single a10, ::System::Single a11)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE_SETBEZIER_OFFSET))(this, bezier, frame, value, time1, value1, cx1, cy1, cx2, cy2, time2, value2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE_SETBEZIER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
-		::System::Single GetCurvePercent(::System::Single time, ::System::Int32 frame)
+		::System::Single GetCurvePercent(::System::Single a1, ::System::Int32 a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE_GETCURVEPERCENT_OFFSET))(this, time, frame);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE_GETCURVEPERCENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Apply(::Spine::Skeleton* skeleton, ::System::Single lastTime, ::System::Single time, ::Spine::ExposedList_1<::Spine::Event*>* firedEvents, ::System::Single alpha, ::Spine::MixBlend blend, ::Spine::MixDirection direction)
+		::System::Void Apply(::Spine::Skeleton* a1, ::System::Single a2, ::System::Single a3, ::Spine::ExposedList_1<::Spine::Event*>* a4, ::System::Single a5, ::Spine::MixBlend a6, ::Spine::MixDirection a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE_APPLY_OFFSET))(this, skeleton, lastTime, time, firedEvents, alpha, blend, direction);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE_APPLY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 	};
 }

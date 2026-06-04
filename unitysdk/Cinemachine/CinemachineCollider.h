@@ -20,40 +20,40 @@ namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class SphereCollider; }
 
-#define CINEMACHINE_CINEMACHINECOLLIDER_CAMERAWASDISPLACED_OFFSET UNITYSDK_OFFSET(0x12B6FC60)
-#define CINEMACHINE_CINEMACHINECOLLIDER_CHECKFORTARGETOBSTRUCTIONS_OFFSET UNITYSDK_OFFSET(0x12B727C0)
-#define CINEMACHINE_CINEMACHINECOLLIDER_CLAMPRAYTOBOUNDS_OFFSET UNITYSDK_OFFSET(0x12B74400)
-#define CINEMACHINE_CINEMACHINECOLLIDER_DESTROYCOLLIDER_OFFSET UNITYSDK_OFFSET(0x12B6FD90)
-#define CINEMACHINE_CINEMACHINECOLLIDER_GETCAMERADISPLACEMENTDISTANCE_OFFSET UNITYSDK_OFFSET(0x12B6FCC0)
-#define CINEMACHINE_CINEMACHINECOLLIDER_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x12B70090)
-#define CINEMACHINE_CINEMACHINECOLLIDER_GETPUSHBACKDISTANCE_OFFSET UNITYSDK_OFFSET(0x12B740A0)
-#define CINEMACHINE_CINEMACHINECOLLIDER_GETWALKINGDIRECTION_OFFSET UNITYSDK_OFFSET(0x12B73680)
-#define CINEMACHINE_CINEMACHINECOLLIDER_GET_DEBUGPATHS_OFFSET UNITYSDK_OFFSET(0x12B6FF20)
-#define CINEMACHINE_CINEMACHINECOLLIDER_ISTARGETOBSCURED_OFFSET UNITYSDK_OFFSET(0x12B6FC10)
-#define CINEMACHINE_CINEMACHINECOLLIDER_ISTARGETOFFSCREEN_OFFSET UNITYSDK_OFFSET(0x12B720B0)
-#define CINEMACHINE_CINEMACHINECOLLIDER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12B6FD60)
-#define CINEMACHINE_CINEMACHINECOLLIDER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x12B6FD20)
-#define CINEMACHINE_CINEMACHINECOLLIDER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x12B700B0)
-#define CINEMACHINE_CINEMACHINECOLLIDER_PRESERVELIGNOFSIGHT_OFFSET UNITYSDK_OFFSET(0x12B70DC0)
-#define CINEMACHINE_CINEMACHINECOLLIDER_PULLCAMERAINFRONTOFNEARESTOBSTACLE_OFFSET UNITYSDK_OFFSET(0x12B72A20)
-#define CINEMACHINE_CINEMACHINECOLLIDER_PUSHCAMERABACK_OFFSET UNITYSDK_OFFSET(0x12B72D10)
-#define CINEMACHINE_CINEMACHINECOLLIDER_RESPECTCAMERARADIUS_OFFSET UNITYSDK_OFFSET(0x12B71410)
-#define CINEMACHINE_CINEMACHINECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B74D10)
+#define CINEMACHINE_CINEMACHINECOLLIDER_CAMERAWASDISPLACED_OFFSET UNITYSDK_OFFSET(0x1462F520)
+#define CINEMACHINE_CINEMACHINECOLLIDER_CHECKFORTARGETOBSTRUCTIONS_OFFSET UNITYSDK_OFFSET(0x146320E0)
+#define CINEMACHINE_CINEMACHINECOLLIDER_CLAMPRAYTOBOUNDS_OFFSET UNITYSDK_OFFSET(0x14633C90)
+#define CINEMACHINE_CINEMACHINECOLLIDER_DESTROYCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1462F650)
+#define CINEMACHINE_CINEMACHINECOLLIDER_GETCAMERADISPLACEMENTDISTANCE_OFFSET UNITYSDK_OFFSET(0x1462F580)
+#define CINEMACHINE_CINEMACHINECOLLIDER_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x1462F960)
+#define CINEMACHINE_CINEMACHINECOLLIDER_GETPUSHBACKDISTANCE_OFFSET UNITYSDK_OFFSET(0x14633930)
+#define CINEMACHINE_CINEMACHINECOLLIDER_GETWALKINGDIRECTION_OFFSET UNITYSDK_OFFSET(0x14632F60)
+#define CINEMACHINE_CINEMACHINECOLLIDER_GET_DEBUGPATHS_OFFSET UNITYSDK_OFFSET(0x1462F7A0)
+#define CINEMACHINE_CINEMACHINECOLLIDER_ISTARGETOBSCURED_OFFSET UNITYSDK_OFFSET(0x1462F4D0)
+#define CINEMACHINE_CINEMACHINECOLLIDER_ISTARGETOFFSCREEN_OFFSET UNITYSDK_OFFSET(0x146319C0)
+#define CINEMACHINE_CINEMACHINECOLLIDER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1462F620)
+#define CINEMACHINE_CINEMACHINECOLLIDER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1462F5E0)
+#define CINEMACHINE_CINEMACHINECOLLIDER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1462F980)
+#define CINEMACHINE_CINEMACHINECOLLIDER_PRESERVELIGNOFSIGHT_OFFSET UNITYSDK_OFFSET(0x14630670)
+#define CINEMACHINE_CINEMACHINECOLLIDER_PULLCAMERAINFRONTOFNEARESTOBSTACLE_OFFSET UNITYSDK_OFFSET(0x14632320)
+#define CINEMACHINE_CINEMACHINECOLLIDER_PUSHCAMERABACK_OFFSET UNITYSDK_OFFSET(0x14632610)
+#define CINEMACHINE_CINEMACHINECOLLIDER_RESPECTCAMERARADIUS_OFFSET UNITYSDK_OFFSET(0x14630CD0)
+#define CINEMACHINE_CINEMACHINECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x146345B0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineCollider_TypeDefinitionIndex = 36489;
+	inline static constexpr unsigned int CinemachineCollider_TypeDefinitionIndex = 36789;
 
 	class CinemachineCollider : public ::Cinemachine::CinemachineExtension
 	{
 	public:
 		static ::UnityEngine::GameObject** StaticGet_mCameraColliderGameObject()
 		{
-			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(CinemachineCollider_TypeDefinitionIndex)->GetStaticField(0x6670);
+			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(CinemachineCollider_TypeDefinitionIndex)->GetStaticField(0x4C20);
 		}
 		static ::UnityEngine::SphereCollider** StaticGet_mCameraCollider()
 		{
-			return (::UnityEngine::SphereCollider**)Il2CppClass::FromTypeDefinitionIndex(CinemachineCollider_TypeDefinitionIndex)->GetStaticField(0x6678);
+			return (::UnityEngine::SphereCollider**)Il2CppClass::FromTypeDefinitionIndex(CinemachineCollider_TypeDefinitionIndex)->GetStaticField(0x4C28);
 		}
 		// static const ::System::Single PrecisionSlush; // 0x0
 		// static const ::System::Single AngleThreshold; // 0x0
@@ -79,19 +79,19 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean IsTargetObscured(::Cinemachine::ICinemachineCamera* vcam)
+		::System::Boolean IsTargetObscured(::Cinemachine::ICinemachineCamera* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_ISTARGETOBSCURED_OFFSET))(this, vcam);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_ISTARGETOBSCURED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CameraWasDisplaced(::Cinemachine::ICinemachineCamera* vcam)
+		::System::Boolean CameraWasDisplaced(::Cinemachine::ICinemachineCamera* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_CAMERAWASDISPLACED_OFFSET))(this, vcam);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_CAMERAWASDISPLACED_OFFSET))(this, a1);
 		}
 
-		::System::Single GetCameraDisplacementDistance(::Cinemachine::ICinemachineCamera* vcam)
+		::System::Single GetCameraDisplacementDistance(::Cinemachine::ICinemachineCamera* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_GETCAMERADISPLACEMENTDISTANCE_OFFSET))(this, vcam);
+			return ((::System::Single(*)(::PVOID, ::Cinemachine::ICinemachineCamera*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_GETCAMERADISPLACEMENTDISTANCE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnValidate()
@@ -114,39 +114,39 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_GETMAXDAMPTIME_OFFSET))(this);
 		}
 
-		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* vcam, ::Cinemachine::CinemachineCore_Stage stage, ::Cinemachine::CameraState& state, ::System::Single deltaTime)
+		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState& a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_POSTPIPELINESTAGECALLBACK_OFFSET))(this, vcam, stage, state, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::UnityEngine::Vector3 PreserveLignOfSight(::Cinemachine::CameraState& state, ::Cinemachine::CinemachineCollider_VcamExtraState*& extra)
+		::UnityEngine::Vector3 PreserveLignOfSight(::Cinemachine::CameraState& a1, ::Cinemachine::CinemachineCollider_VcamExtraState*& a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::Cinemachine::CameraState&, ::Cinemachine::CinemachineCollider_VcamExtraState*&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_PRESERVELIGNOFSIGHT_OFFSET))(this, state, extra);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::Cinemachine::CameraState&, ::Cinemachine::CinemachineCollider_VcamExtraState*&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_PRESERVELIGNOFSIGHT_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 PullCameraInFrontOfNearestObstacle(::UnityEngine::Vector3 cameraPos, ::UnityEngine::Vector3 lookAtPos, ::System::Int32 layerMask, ::UnityEngine::RaycastHit& hitInfo)
+		::UnityEngine::Vector3 PullCameraInFrontOfNearestObstacle(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Int32 a3, ::UnityEngine::RaycastHit& a4)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Int32, ::UnityEngine::RaycastHit&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_PULLCAMERAINFRONTOFNEARESTOBSTACLE_OFFSET))(this, cameraPos, lookAtPos, layerMask, hitInfo);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Int32, ::UnityEngine::RaycastHit&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_PULLCAMERAINFRONTOFNEARESTOBSTACLE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::UnityEngine::Vector3 PushCameraBack(::UnityEngine::Vector3 currentPos, ::UnityEngine::Vector3 pushDir, ::UnityEngine::RaycastHit obstacle, ::UnityEngine::Vector3 lookAtPos, ::UnityEngine::Plane startPlane, ::System::Single targetDistance, ::System::Int32 iterations, ::Cinemachine::CinemachineCollider_VcamExtraState*& extra)
+		::UnityEngine::Vector3 PushCameraBack(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::RaycastHit a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Plane a5, ::System::Single a6, ::System::Int32 a7, ::Cinemachine::CinemachineCollider_VcamExtraState*& a8)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::RaycastHit, ::UnityEngine::Vector3, ::UnityEngine::Plane, ::System::Single, ::System::Int32, ::Cinemachine::CinemachineCollider_VcamExtraState*&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_PUSHCAMERABACK_OFFSET))(this, currentPos, pushDir, obstacle, lookAtPos, startPlane, targetDistance, iterations, extra);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::RaycastHit, ::UnityEngine::Vector3, ::UnityEngine::Plane, ::System::Single, ::System::Int32, ::Cinemachine::CinemachineCollider_VcamExtraState*&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_PUSHCAMERABACK_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Boolean GetWalkingDirection(::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 pushDir, ::UnityEngine::RaycastHit obstacle, ::UnityEngine::Vector3& outDir)
+		::System::Boolean GetWalkingDirection(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::RaycastHit a3, ::UnityEngine::Vector3& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::RaycastHit, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_GETWALKINGDIRECTION_OFFSET))(this, pos, pushDir, obstacle, outDir);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::RaycastHit, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_GETWALKINGDIRECTION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Single GetPushBackDistance(::UnityEngine::Ray ray, ::UnityEngine::Plane startPlane, ::System::Single targetDistance, ::UnityEngine::Vector3 lookAtPos)
+		::System::Single GetPushBackDistance(::UnityEngine::Ray a1, ::UnityEngine::Plane a2, ::System::Single a3, ::UnityEngine::Vector3 a4)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Ray, ::UnityEngine::Plane, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_GETPUSHBACKDISTANCE_OFFSET))(this, ray, startPlane, targetDistance, lookAtPos);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Ray, ::UnityEngine::Plane, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_GETPUSHBACKDISTANCE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Single ClampRayToBounds(::UnityEngine::Ray ray, ::System::Single distance, ::UnityEngine::Bounds bounds)
+		::System::Single ClampRayToBounds(::UnityEngine::Ray a1, ::System::Single a2, ::UnityEngine::Bounds a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Ray, ::System::Single, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_CLAMPRAYTOBOUNDS_OFFSET))(this, ray, distance, bounds);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Ray, ::System::Single, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_CLAMPRAYTOBOUNDS_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void DestroyCollider()
@@ -154,19 +154,19 @@ namespace Cinemachine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_DESTROYCOLLIDER_OFFSET))();
 		}
 
-		::UnityEngine::Vector3 RespectCameraRadius(::UnityEngine::Vector3 cameraPos, ::Cinemachine::CameraState& state)
+		::UnityEngine::Vector3 RespectCameraRadius(::UnityEngine::Vector3 a1, ::Cinemachine::CameraState& a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::Cinemachine::CameraState&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_RESPECTCAMERARADIUS_OFFSET))(this, cameraPos, state);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::Cinemachine::CameraState&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_RESPECTCAMERARADIUS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CheckForTargetObstructions(::Cinemachine::CameraState state)
+		::System::Boolean CheckForTargetObstructions(::Cinemachine::CameraState a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_CHECKFORTARGETOBSTRUCTIONS_OFFSET))(this, state);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_CHECKFORTARGETOBSTRUCTIONS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsTargetOffscreen(::Cinemachine::CameraState state)
+		::System::Boolean IsTargetOffscreen(::Cinemachine::CameraState a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_ISTARGETOFFSCREEN_OFFSET))(this, state);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::CameraState))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_ISTARGETOFFSCREEN_OFFSET))(this, a1);
 		}
 	};
 }

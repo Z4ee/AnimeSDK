@@ -8,19 +8,19 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_E620574958B4D3A7_METHOD_2_B7BC87E745BCE92A_OFFSET UNITYSDK_OFFSET(0x9679050)
-#define CLASS_2_E620574958B4D3A7__CTOR_OFFSET UNITYSDK_OFFSET(0x96791E0)
-#define CLASS_2_E620574958B4D3A7__ONBIND_OFFSET UNITYSDK_OFFSET(0x9679120)
-#define CLASS_2_E620574958B4D3A7___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x9679210)
+#define CLASS_2_E620574958B4D3A7_METHOD_2_B7BC87E745BCE92A_OFFSET UNITYSDK_OFFSET(0xCBF0E40)
+#define CLASS_2_E620574958B4D3A7__CTOR_OFFSET UNITYSDK_OFFSET(0xCBF0FD0)
+#define CLASS_2_E620574958B4D3A7__ONBIND_OFFSET UNITYSDK_OFFSET(0xCBF0F10)
+#define CLASS_2_E620574958B4D3A7___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xCBF1000)
 
-inline static constexpr unsigned int Class_2_E620574958B4D3A7_TypeDefinitionIndex = 66118;
+inline static constexpr unsigned int Class_2_E620574958B4D3A7_TypeDefinitionIndex = 67056;
 
 class Class_2_E620574958B4D3A7 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	::UnityEngine::UI::Text* Field_2_0; // 0x60
-	::UnityEngine::Animation* Field_2_2; // 0x68
-	::UnityEngine::UI::Image* Field_2_1; // 0x70
+	::UnityEngine::UI::Image* Field_2_0; // 0x60
+	::UnityEngine::Animation* Field_2_1; // 0x68
+	::UnityEngine::UI::Text* Field_2_2; // 0x70
 
 	::System::Void _ctor()
 	{

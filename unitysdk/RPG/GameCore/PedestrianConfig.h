@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PEDESTRIANCONFIG_METHOD_2_D9B960991E72708F_OFFSET UNITYSDK_OFFSET(0x18BDA380)
-#define RPG_GAMECORE_PEDESTRIANCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDA430)
+#define RPG_GAMECORE_PEDESTRIANCONFIG_METHOD_2_D9B960991E72708F_OFFSET UNITYSDK_OFFSET(0x199EC640)
+#define RPG_GAMECORE_PEDESTRIANCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199EC6F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PedestrianConfig_TypeDefinitionIndex = 16723;
+	inline static constexpr unsigned int PedestrianConfig_TypeDefinitionIndex = 16746;
 
 	class PedestrianConfig : public ::RPG::GameCore::JsonConfig
 	{

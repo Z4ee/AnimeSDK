@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrainPartyDialogueEventOptionConfig; }
 
-#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTCONFIG_METHOD_2_D979C2460160223F_OFFSET UNITYSDK_OFFSET(0x190A9EE0)
-#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190A9FE0)
+#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTCONFIG_METHOD_2_563C963C97290B8A_OFFSET UNITYSDK_OFFSET(0x19DF4AD0)
+#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19DF4BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyDialogueEventConfig_TypeDefinitionIndex = 17194;
+	inline static constexpr unsigned int TrainPartyDialogueEventConfig_TypeDefinitionIndex = 17202;
 
 	class TrainPartyDialogueEventConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D979C2460160223F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyDialogueEventConfig*& a2)
+		static ::System::Void Method_2_563C963C97290B8A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyDialogueEventConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyDialogueEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTCONFIG_METHOD_2_D979C2460160223F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyDialogueEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTCONFIG_METHOD_2_563C963C97290B8A_OFFSET))(a1, a2);
 		}
 	};
 }

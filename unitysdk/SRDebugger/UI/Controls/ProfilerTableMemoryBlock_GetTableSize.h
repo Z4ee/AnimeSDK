@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E91CE0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E91D10)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E911B0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E91CC0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AD07950)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AD07980)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AD07190)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD07860)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int ProfilerTableMemoryBlock_GetTableSize_TypeDefinitionIndex = 35401;
+	inline static constexpr unsigned int ProfilerTableMemoryBlock_GetTableSize_TypeDefinitionIndex = 35701;
 
 	class ProfilerTableMemoryBlock_GetTableSize : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Collections::Generic::List_1<::SRDebugger::UI::Controls::TableSize*>* tables)
+		::System::Void Invoke(::System::Collections::Generic::List_1<::SRDebugger::UI::Controls::TableSize*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::SRDebugger::UI::Controls::TableSize*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_INVOKE_OFFSET))(this, tables);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::SRDebugger::UI::Controls::TableSize*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Collections::Generic::List_1<::SRDebugger::UI::Controls::TableSize*>* tables, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Collections::Generic::List_1<::SRDebugger::UI::Controls::TableSize*>* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Collections::Generic::List_1<::SRDebugger::UI::Controls::TableSize*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_BEGININVOKE_OFFSET))(this, tables, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Collections::Generic::List_1<::SRDebugger::UI::Controls::TableSize*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

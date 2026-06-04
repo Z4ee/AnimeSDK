@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetEntityFollowAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_670B4171F91A94DA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9A6EC90)
-#define CLASS_3_670B4171F91A94DA__CTOR_OFFSET UNITYSDK_OFFSET(0x9A6EC60)
+#define CLASS_3_670B4171F91A94DA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAFFAE40)
+#define CLASS_3_670B4171F91A94DA__CTOR_OFFSET UNITYSDK_OFFSET(0xAFFAE10)
 
-inline static constexpr unsigned int Class_3_670B4171F91A94DA_TypeDefinitionIndex = 51171;
+inline static constexpr unsigned int Class_3_670B4171F91A94DA_TypeDefinitionIndex = 51841;
 
 class Class_3_670B4171F91A94DA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEntityFollowAttachPoint*>
 {

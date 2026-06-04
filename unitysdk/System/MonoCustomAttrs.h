@@ -14,38 +14,38 @@ namespace System::Reflection { class MonoEvent; }
 namespace System::Reflection { class MonoProperty; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_MONOCUSTOMATTRS_GETBASEEVENTDEFINITION_OFFSET UNITYSDK_OFFSET(0x17981A10)
-#define SYSTEM_MONOCUSTOMATTRS_GETBASEPROPERTYDEFINITION_OFFSET UNITYSDK_OFFSET(0x179816F0)
-#define SYSTEM_MONOCUSTOMATTRS_GETBASE_OFFSET UNITYSDK_OFFSET(0x17980E50)
-#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESBASE_OFFSET UNITYSDK_OFFSET(0x1797FF60)
-#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x17981350)
-#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x17981360)
-#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1797FB20)
-#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x179811D0)
-#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x179800A0)
-#define SYSTEM_MONOCUSTOMATTRS_GETPSEUDOCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1797FD70)
-#define SYSTEM_MONOCUSTOMATTRS_GETPSEUDOCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1797FB30)
-#define SYSTEM_MONOCUSTOMATTRS_ISDEFINEDINTERNAL_OFFSET UNITYSDK_OFFSET(0x179816C0)
-#define SYSTEM_MONOCUSTOMATTRS_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x179813E0)
-#define SYSTEM_MONOCUSTOMATTRS_ISUSERCATTRPROVIDER_OFFSET UNITYSDK_OFFSET(0x1797F9B0)
-#define SYSTEM_MONOCUSTOMATTRS_RETRIEVEATTRIBUTEUSAGENOCACHE_OFFSET UNITYSDK_OFFSET(0x17981BD0)
-#define SYSTEM_MONOCUSTOMATTRS_RETRIEVEATTRIBUTEUSAGE_OFFSET UNITYSDK_OFFSET(0x17980F60)
-#define SYSTEM_MONOCUSTOMATTRS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17981D30)
+#define SYSTEM_MONOCUSTOMATTRS_GETBASEEVENTDEFINITION_OFFSET UNITYSDK_OFFSET(0x18733170)
+#define SYSTEM_MONOCUSTOMATTRS_GETBASEPROPERTYDEFINITION_OFFSET UNITYSDK_OFFSET(0x18732E70)
+#define SYSTEM_MONOCUSTOMATTRS_GETBASE_OFFSET UNITYSDK_OFFSET(0x187325D0)
+#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESBASE_OFFSET UNITYSDK_OFFSET(0x187315E0)
+#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x18732AE0)
+#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x18732AF0)
+#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESINTERNAL_OFFSET UNITYSDK_OFFSET(0x187311F0)
+#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x18732950)
+#define SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18731720)
+#define SYSTEM_MONOCUSTOMATTRS_GETPSEUDOCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x18731460)
+#define SYSTEM_MONOCUSTOMATTRS_GETPSEUDOCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18731200)
+#define SYSTEM_MONOCUSTOMATTRS_ISDEFINEDINTERNAL_OFFSET UNITYSDK_OFFSET(0x18732E40)
+#define SYSTEM_MONOCUSTOMATTRS_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x18732B70)
+#define SYSTEM_MONOCUSTOMATTRS_ISUSERCATTRPROVIDER_OFFSET UNITYSDK_OFFSET(0x18731030)
+#define SYSTEM_MONOCUSTOMATTRS_RETRIEVEATTRIBUTEUSAGENOCACHE_OFFSET UNITYSDK_OFFSET(0x18733330)
+#define SYSTEM_MONOCUSTOMATTRS_RETRIEVEATTRIBUTEUSAGE_OFFSET UNITYSDK_OFFSET(0x18732700)
+#define SYSTEM_MONOCUSTOMATTRS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18733470)
 
 namespace System
 {
-	inline static constexpr unsigned int MonoCustomAttrs_TypeDefinitionIndex = 404;
+	inline static constexpr unsigned int MonoCustomAttrs_TypeDefinitionIndex = 403;
 
 	class MonoCustomAttrs : public ::System::Object
 	{
 	public:
 		static ::System::AttributeUsageAttribute** StaticGet_DefaultAttributeUsage()
 		{
-			return (::System::AttributeUsageAttribute**)Il2CppClass::FromTypeDefinitionIndex(MonoCustomAttrs_TypeDefinitionIndex)->GetStaticField(0x8710);
+			return (::System::AttributeUsageAttribute**)Il2CppClass::FromTypeDefinitionIndex(MonoCustomAttrs_TypeDefinitionIndex)->GetStaticField(0x85C0);
 		}
 		static ::System::Reflection::Assembly** StaticGet_corlib()
 		{
-			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(MonoCustomAttrs_TypeDefinitionIndex)->GetStaticField(0x8718);
+			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(MonoCustomAttrs_TypeDefinitionIndex)->GetStaticField(0x85C8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::AttributeUsageAttribute*>** StaticGet_usage_cache()
 		{
@@ -57,84 +57,84 @@ namespace System
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS__CCTOR_OFFSET))();
 		}
 
-		static ::System::Boolean IsUserCattrProvider(::System::Object* obj)
+		static ::System::Boolean IsUserCattrProvider(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_ISUSERCATTRPROVIDER_OFFSET))(obj);
+			return ((::System::Boolean(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_ISUSERCATTRPROVIDER_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Object*>* GetCustomAttributesInternal(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, ::System::Boolean pseudoAttrs)
+		static ::Il2CppArray<::System::Object*>* GetCustomAttributesInternal(::System::Reflection::ICustomAttributeProvider* a1, ::System::Type* a2, ::System::Boolean a3)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESINTERNAL_OFFSET))(obj, attributeType, pseudoAttrs);
+			return ((::Il2CppArray<::System::Object*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESINTERNAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::System::Object*>* GetPseudoCustomAttributes(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType)
+		static ::Il2CppArray<::System::Object*>* GetPseudoCustomAttributes(::System::Reflection::ICustomAttributeProvider* a1, ::System::Type* a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETPSEUDOCUSTOMATTRIBUTES_OFFSET))(obj, attributeType);
+			return ((::Il2CppArray<::System::Object*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETPSEUDOCUSTOMATTRIBUTES_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::Object*>* GetPseudoCustomAttributes_1(::System::Type* type)
+		static ::Il2CppArray<::System::Object*>* GetPseudoCustomAttributes_1(::System::Type* a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETPSEUDOCUSTOMATTRIBUTES_1_OFFSET))(type);
+			return ((::Il2CppArray<::System::Object*>*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETPSEUDOCUSTOMATTRIBUTES_1_OFFSET))(a1);
 		}
 
-		static ::Il2CppArray<::System::Object*>* GetCustomAttributesBase(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, ::System::Boolean inheritedOnly)
+		static ::Il2CppArray<::System::Object*>* GetCustomAttributesBase(::System::Reflection::ICustomAttributeProvider* a1, ::System::Type* a2, ::System::Boolean a3)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESBASE_OFFSET))(obj, attributeType, inheritedOnly);
+			return ((::Il2CppArray<::System::Object*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESBASE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, ::System::Boolean inherit)
+		static ::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Reflection::ICustomAttributeProvider* a1, ::System::Type* a2, ::System::Boolean a3)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTES_OFFSET))(obj, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Reflection::ICustomAttributeProvider* obj, ::System::Boolean inherit)
+		static ::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Reflection::ICustomAttributeProvider* a1, ::System::Boolean a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTES_1_OFFSET))(obj, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTES_1_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::Reflection::CustomAttributeData*>* GetCustomAttributesDataInternal(::System::Reflection::ICustomAttributeProvider* obj)
+		static ::Il2CppArray<::System::Reflection::CustomAttributeData*>* GetCustomAttributesDataInternal(::System::Reflection::ICustomAttributeProvider* a1)
 		{
-			return ((::Il2CppArray<::System::Reflection::CustomAttributeData*>*(*)(::System::Reflection::ICustomAttributeProvider*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESDATAINTERNAL_OFFSET))(obj);
+			return ((::Il2CppArray<::System::Reflection::CustomAttributeData*>*(*)(::System::Reflection::ICustomAttributeProvider*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESDATAINTERNAL_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider* obj)
+		static ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider* a1)
 		{
-			return ((::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>*(*)(::System::Reflection::ICustomAttributeProvider*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESDATA_OFFSET))(obj);
+			return ((::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>*(*)(::System::Reflection::ICustomAttributeProvider*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETCUSTOMATTRIBUTESDATA_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsDefined(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, ::System::Boolean inherit)
+		static ::System::Boolean IsDefined(::System::Reflection::ICustomAttributeProvider* a1, ::System::Type* a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_ISDEFINED_OFFSET))(obj, attributeType, inherit);
+			return ((::System::Boolean(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_ISDEFINED_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean IsDefinedInternal(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* AttributeType)
+		static ::System::Boolean IsDefinedInternal(::System::Reflection::ICustomAttributeProvider* a1, ::System::Type* a2)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_ISDEFINEDINTERNAL_OFFSET))(obj, AttributeType);
+			return ((::System::Boolean(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_ISDEFINEDINTERNAL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Reflection::PropertyInfo* GetBasePropertyDefinition(::System::Reflection::MonoProperty* property)
+		static ::System::Reflection::PropertyInfo* GetBasePropertyDefinition(::System::Reflection::MonoProperty* a1)
 		{
-			return ((::System::Reflection::PropertyInfo*(*)(::System::Reflection::MonoProperty*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETBASEPROPERTYDEFINITION_OFFSET))(property);
+			return ((::System::Reflection::PropertyInfo*(*)(::System::Reflection::MonoProperty*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETBASEPROPERTYDEFINITION_OFFSET))(a1);
 		}
 
-		static ::System::Reflection::EventInfo* GetBaseEventDefinition(::System::Reflection::MonoEvent* evt)
+		static ::System::Reflection::EventInfo* GetBaseEventDefinition(::System::Reflection::MonoEvent* a1)
 		{
-			return ((::System::Reflection::EventInfo*(*)(::System::Reflection::MonoEvent*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETBASEEVENTDEFINITION_OFFSET))(evt);
+			return ((::System::Reflection::EventInfo*(*)(::System::Reflection::MonoEvent*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETBASEEVENTDEFINITION_OFFSET))(a1);
 		}
 
-		static ::System::Reflection::ICustomAttributeProvider* GetBase(::System::Reflection::ICustomAttributeProvider* obj)
+		static ::System::Reflection::ICustomAttributeProvider* GetBase(::System::Reflection::ICustomAttributeProvider* a1)
 		{
-			return ((::System::Reflection::ICustomAttributeProvider*(*)(::System::Reflection::ICustomAttributeProvider*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETBASE_OFFSET))(obj);
+			return ((::System::Reflection::ICustomAttributeProvider*(*)(::System::Reflection::ICustomAttributeProvider*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_GETBASE_OFFSET))(a1);
 		}
 
-		static ::System::AttributeUsageAttribute* RetrieveAttributeUsageNoCache(::System::Type* attributeType)
+		static ::System::AttributeUsageAttribute* RetrieveAttributeUsageNoCache(::System::Type* a1)
 		{
-			return ((::System::AttributeUsageAttribute*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_RETRIEVEATTRIBUTEUSAGENOCACHE_OFFSET))(attributeType);
+			return ((::System::AttributeUsageAttribute*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_RETRIEVEATTRIBUTEUSAGENOCACHE_OFFSET))(a1);
 		}
 
-		static ::System::AttributeUsageAttribute* RetrieveAttributeUsage(::System::Type* attributeType)
+		static ::System::AttributeUsageAttribute* RetrieveAttributeUsage(::System::Type* a1)
 		{
-			return ((::System::AttributeUsageAttribute*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_RETRIEVEATTRIBUTEUSAGE_OFFSET))(attributeType);
+			return ((::System::AttributeUsageAttribute*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_RETRIEVEATTRIBUTEUSAGE_OFFSET))(a1);
 		}
 	};
 }

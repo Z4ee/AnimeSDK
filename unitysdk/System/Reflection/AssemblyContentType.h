@@ -3,7 +3,7 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyContentType_TypeDefinitionIndex = 552;
+	inline static constexpr unsigned int AssemblyContentType_TypeDefinitionIndex = 551;
 
 	enum class AssemblyContentType : ::System::Int32
 	{

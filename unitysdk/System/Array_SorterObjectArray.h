@@ -5,20 +5,20 @@
 namespace System { class Object; }
 namespace System::Collections { class IComparer; }
 
-#define SYSTEM_ARRAY_SORTEROBJECTARRAY_DOWNHEAP_OFFSET UNITYSDK_OFFSET(0x229DA90)
-#define SYSTEM_ARRAY_SORTEROBJECTARRAY_HEAPSORT_OFFSET UNITYSDK_OFFSET(0x229DA00)
-#define SYSTEM_ARRAY_SORTEROBJECTARRAY_INSERTIONSORT_OFFSET UNITYSDK_OFFSET(0x229DAA0)
-#define SYSTEM_ARRAY_SORTEROBJECTARRAY_INTROSORT_OFFSET UNITYSDK_OFFSET(0x229D9E0)
-#define SYSTEM_ARRAY_SORTEROBJECTARRAY_INTROSPECTIVESORT_OFFSET UNITYSDK_OFFSET(0x229D9D0)
-#define SYSTEM_ARRAY_SORTEROBJECTARRAY_PICKPIVOTANDPARTITION_OFFSET UNITYSDK_OFFSET(0x229D9F0)
-#define SYSTEM_ARRAY_SORTEROBJECTARRAY_SORT_OFFSET UNITYSDK_OFFSET(0x229D9D0)
-#define SYSTEM_ARRAY_SORTEROBJECTARRAY_SWAPIFGREATERWITHITEMS_OFFSET UNITYSDK_OFFSET(0x229D9B0)
-#define SYSTEM_ARRAY_SORTEROBJECTARRAY_SWAP_OFFSET UNITYSDK_OFFSET(0x229D9C0)
-#define SYSTEM_ARRAY_SORTEROBJECTARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x229D840)
+#define SYSTEM_ARRAY_SORTEROBJECTARRAY_DOWNHEAP_OFFSET UNITYSDK_OFFSET(0x382D180)
+#define SYSTEM_ARRAY_SORTEROBJECTARRAY_HEAPSORT_OFFSET UNITYSDK_OFFSET(0x382D0F0)
+#define SYSTEM_ARRAY_SORTEROBJECTARRAY_INSERTIONSORT_OFFSET UNITYSDK_OFFSET(0x382D190)
+#define SYSTEM_ARRAY_SORTEROBJECTARRAY_INTROSORT_OFFSET UNITYSDK_OFFSET(0x382D0D0)
+#define SYSTEM_ARRAY_SORTEROBJECTARRAY_INTROSPECTIVESORT_OFFSET UNITYSDK_OFFSET(0x382D0C0)
+#define SYSTEM_ARRAY_SORTEROBJECTARRAY_PICKPIVOTANDPARTITION_OFFSET UNITYSDK_OFFSET(0x382D0E0)
+#define SYSTEM_ARRAY_SORTEROBJECTARRAY_SORT_OFFSET UNITYSDK_OFFSET(0x382D0C0)
+#define SYSTEM_ARRAY_SORTEROBJECTARRAY_SWAPIFGREATERWITHITEMS_OFFSET UNITYSDK_OFFSET(0x382D0A0)
+#define SYSTEM_ARRAY_SORTEROBJECTARRAY_SWAP_OFFSET UNITYSDK_OFFSET(0x382D0B0)
+#define SYSTEM_ARRAY_SORTEROBJECTARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x382CF30)
 
 namespace System
 {
-	inline static constexpr unsigned int Array_SorterObjectArray_TypeDefinitionIndex = 140;
+	inline static constexpr unsigned int Array_SorterObjectArray_TypeDefinitionIndex = 139;
 
 	struct alignas(8) Array_SorterObjectArray
 	{
@@ -26,54 +26,54 @@ namespace System
 		::Il2CppArray<::System::Object*>* items; // 0x18
 		::System::Collections::IComparer* comparer; // 0x20
 
-		::System::Void _ctor(::Il2CppArray<::System::Object*>* keys, ::Il2CppArray<::System::Object*>* items, ::System::Collections::IComparer* comparer)
+		::System::Void _ctor(::Il2CppArray<::System::Object*>* a1, ::Il2CppArray<::System::Object*>* a2, ::System::Collections::IComparer* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Object*>*, ::System::Collections::IComparer*))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY__CTOR_OFFSET))(this, keys, items, comparer);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Object*>*, ::System::Collections::IComparer*))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SwapIfGreaterWithItems(::System::Int32 a, ::System::Int32 b)
+		::System::Void SwapIfGreaterWithItems(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_SWAPIFGREATERWITHITEMS_OFFSET))(this, a, b);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_SWAPIFGREATERWITHITEMS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Swap(::System::Int32 i, ::System::Int32 j)
+		::System::Void Swap(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_SWAP_OFFSET))(this, i, j);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_SWAP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Sort(::System::Int32 left, ::System::Int32 length)
+		::System::Void Sort(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_SORT_OFFSET))(this, left, length);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_SORT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void IntrospectiveSort(::System::Int32 left, ::System::Int32 length)
+		::System::Void IntrospectiveSort(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_INTROSPECTIVESORT_OFFSET))(this, left, length);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_INTROSPECTIVESORT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void IntroSort(::System::Int32 lo, ::System::Int32 hi, ::System::Int32 depthLimit)
+		::System::Void IntroSort(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_INTROSORT_OFFSET))(this, lo, hi, depthLimit);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_INTROSORT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 PickPivotAndPartition(::System::Int32 lo, ::System::Int32 hi)
+		::System::Int32 PickPivotAndPartition(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_PICKPIVOTANDPARTITION_OFFSET))(this, lo, hi);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_PICKPIVOTANDPARTITION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Heapsort(::System::Int32 lo, ::System::Int32 hi)
+		::System::Void Heapsort(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_HEAPSORT_OFFSET))(this, lo, hi);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_HEAPSORT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DownHeap(::System::Int32 i, ::System::Int32 n, ::System::Int32 lo)
+		::System::Void DownHeap(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_DOWNHEAP_OFFSET))(this, i, n, lo);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_DOWNHEAP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void InsertionSort(::System::Int32 lo, ::System::Int32 hi)
+		::System::Void InsertionSort(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_INSERTIONSORT_OFFSET))(this, lo, hi);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_SORTEROBJECTARRAY_INSERTIONSORT_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -4,16 +4,16 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_NEXTCHAR_OFFSET UNITYSDK_OFFSET(0x22A87C0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_NEXTNONDIGIT_OFFSET UNITYSDK_OFFSET(0x22A8830)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSEINT_OFFSET UNITYSDK_OFFSET(0x22A88D0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSETIME_OFFSET UNITYSDK_OFFSET(0x22A88E0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_SKIPBLANKS_OFFSET UNITYSDK_OFFSET(0x22A88F0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x22A88C0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_NEXTCHAR_OFFSET UNITYSDK_OFFSET(0x3838B70)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_NEXTNONDIGIT_OFFSET UNITYSDK_OFFSET(0x3838BE0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSEINT_OFFSET UNITYSDK_OFFSET(0x3838C80)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSETIME_OFFSET UNITYSDK_OFFSET(0x3838C90)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_SKIPBLANKS_OFFSET UNITYSDK_OFFSET(0x3838CA0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x3838C70)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int TimeSpanParse_StringParser_TypeDefinitionIndex = 778;
+	inline static constexpr unsigned int TimeSpanParse_StringParser_TypeDefinitionIndex = 777;
 
 	struct alignas(8) TimeSpanParse_StringParser
 	{
@@ -33,23 +33,23 @@ namespace System::Globalization
 		}
 
 		/*
-		::System::Boolean TryParse(::System::String* input, ::System::Globalization::TimeSpanParse_TimeSpanResult& result)
+		::System::Boolean TryParse(::System::String* a1, ::System::Globalization::TimeSpanParse_TimeSpanResult& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_TRYPARSE_OFFSET))(this, input, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_TRYPARSE_OFFSET))(this, a1, a2);
 		}
 		*/
 
 		/*
-		::System::Boolean ParseInt(::System::Int32 max, ::System::Int32& i, ::System::Globalization::TimeSpanParse_TimeSpanResult& result)
+		::System::Boolean ParseInt(::System::Int32 a1, ::System::Int32& a2, ::System::Globalization::TimeSpanParse_TimeSpanResult& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32&, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSEINT_OFFSET))(this, max, i, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32&, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSEINT_OFFSET))(this, a1, a2, a3);
 		}
 		*/
 
 		/*
-		::System::Boolean ParseTime(::System::Int64& time, ::System::Globalization::TimeSpanParse_TimeSpanResult& result)
+		::System::Boolean ParseTime(::System::Int64& a1, ::System::Globalization::TimeSpanParse_TimeSpanResult& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int64&, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSETIME_OFFSET))(this, time, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int64&, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_STRINGPARSER_PARSETIME_OFFSET))(this, a1, a2);
 		}
 		*/
 

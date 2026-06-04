@@ -3,34 +3,34 @@
 #include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_1_6D3A625BE1D0B270;
+class Class_1_1C6D038ACA57B217;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_ED349B47CFEDF9B8_METHOD_2_1724616537E36B8E_OFFSET UNITYSDK_OFFSET(0x920E5C0)
-#define CLASS_2_ED349B47CFEDF9B8_METHOD_2_5B944DF9FC8FD32D_OFFSET UNITYSDK_OFFSET(0x920E500)
-#define CLASS_2_ED349B47CFEDF9B8_METHOD_2_6815AD8D97959763_OFFSET UNITYSDK_OFFSET(0x920E180)
-#define CLASS_2_ED349B47CFEDF9B8_METHOD_2_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x920E490)
-#define CLASS_2_ED349B47CFEDF9B8__CTOR_OFFSET UNITYSDK_OFFSET(0x920E610)
-#define CLASS_2_ED349B47CFEDF9B8__ONBIND_OFFSET UNITYSDK_OFFSET(0x920E010)
-#define CLASS_2_ED349B47CFEDF9B8___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x920E670)
-#define CLASS_2_ED349B47CFEDF9B8___ONBIND_B__1_0_OFFSET UNITYSDK_OFFSET(0x920E650)
+#define CLASS_2_ED349B47CFEDF9B8_METHOD_2_1724616537E36B8E_OFFSET UNITYSDK_OFFSET(0x14273C70)
+#define CLASS_2_ED349B47CFEDF9B8_METHOD_2_5B944DF9FC8FD32D_OFFSET UNITYSDK_OFFSET(0x14273BB0)
+#define CLASS_2_ED349B47CFEDF9B8_METHOD_2_6815AD8D97959763_OFFSET UNITYSDK_OFFSET(0x14273830)
+#define CLASS_2_ED349B47CFEDF9B8_METHOD_2_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x14273B40)
+#define CLASS_2_ED349B47CFEDF9B8__CTOR_OFFSET UNITYSDK_OFFSET(0x14273CC0)
+#define CLASS_2_ED349B47CFEDF9B8__ONBIND_OFFSET UNITYSDK_OFFSET(0x142736B0)
+#define CLASS_2_ED349B47CFEDF9B8___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x14273D20)
+#define CLASS_2_ED349B47CFEDF9B8___ONBIND_B__1_0_OFFSET UNITYSDK_OFFSET(0x14273D00)
 
-inline static constexpr unsigned int Class_2_ED349B47CFEDF9B8_TypeDefinitionIndex = 66583;
+inline static constexpr unsigned int Class_2_ED349B47CFEDF9B8_TypeDefinitionIndex = 67524;
 
 class Class_2_ED349B47CFEDF9B8 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
 	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_5; // 0x0
-	// static const ::System::String* Field_2_6; // 0x0
+	// static const ::System::String* Field_2_1; // 0x0
+	// static const ::System::String* Field_2_2; // 0x0
 	::UnityEngine::Animation* Field_2_3; // 0x60
-	::UnityEngine::UI::Text* Field_2_2; // 0x68
-	::System::Action_1<::Class_2_ED349B47CFEDF9B8*>* Field_2_4; // 0x70
-	::UnityEngine::UI::Text* Field_2_1; // 0x78
+	::UnityEngine::UI::Text* Field_2_4; // 0x68
+	::System::Action_1<::Class_2_ED349B47CFEDF9B8*>* Field_2_5; // 0x70
+	::UnityEngine::UI::Text* Field_2_6; // 0x78
 	::UnityEngine::Vector2 Field_2_7; // 0x80
 
 	::System::Void _ctor()
@@ -43,9 +43,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ED349B47CFEDF9B8__ONBIND_OFFSET))(this);
 	}
 
-	::System::Void Method_2_6815AD8D97959763(::Class_1_6D3A625BE1D0B270* a1)
+	::System::Void Method_2_6815AD8D97959763(::Class_1_1C6D038ACA57B217* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_6D3A625BE1D0B270*))((::PBYTE)hIl2Cpp + CLASS_2_ED349B47CFEDF9B8_METHOD_2_6815AD8D97959763_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_1C6D038ACA57B217*))((::PBYTE)hIl2Cpp + CLASS_2_ED349B47CFEDF9B8_METHOD_2_6815AD8D97959763_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_B387E1AED8A8F880()

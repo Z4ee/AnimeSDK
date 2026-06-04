@@ -6,13 +6,13 @@
 namespace System { class Type; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SIMPLEBINARYEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x19F40890)
-#define SYSTEM_LINQ_EXPRESSIONS_SIMPLEBINARYEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x19F408A0)
-#define SYSTEM_LINQ_EXPRESSIONS_SIMPLEBINARYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F3D860)
+#define SYSTEM_LINQ_EXPRESSIONS_SIMPLEBINARYEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1ADB7E20)
+#define SYSTEM_LINQ_EXPRESSIONS_SIMPLEBINARYEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1ADB7E30)
+#define SYSTEM_LINQ_EXPRESSIONS_SIMPLEBINARYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB4E00)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int SimpleBinaryExpression_TypeDefinitionIndex = 3175;
+	inline static constexpr unsigned int SimpleBinaryExpression_TypeDefinitionIndex = 3176;
 
 	class SimpleBinaryExpression : public ::System::Linq::Expressions::BinaryExpression
 	{
@@ -20,9 +20,9 @@ namespace System::Linq::Expressions
 		::System::Type* _Type_k__BackingField; // 0x20
 		::System::Linq::Expressions::ExpressionType _NodeType_k__BackingField; // 0x28
 
-		::System::Void _ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, ::System::Type* type)
+		::System::Void _ctor(::System::Linq::Expressions::ExpressionType a1, ::System::Linq::Expressions::Expression* a2, ::System::Linq::Expressions::Expression* a3, ::System::Type* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_SIMPLEBINARYEXPRESSION__CTOR_OFFSET))(this, nodeType, left, right, type);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_SIMPLEBINARYEXPRESSION__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Linq::Expressions::ExpressionType get_NodeType()

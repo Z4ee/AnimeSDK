@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class CullingGroup_StateChanged; }
 
-#define UNITYENGINE_CULLINGGROUP_SENDEVENTS_OFFSET UNITYSDK_OFFSET(0x1A435A60)
+#define UNITYENGINE_CULLINGGROUP_SENDEVENTS_OFFSET UNITYSDK_OFFSET(0x1B287760)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CullingGroup_TypeDefinitionIndex = 3861;
+	inline static constexpr unsigned int CullingGroup_TypeDefinitionIndex = 4035;
 
 	class CullingGroup : public ::System::Object
 	{
@@ -16,9 +16,9 @@ namespace UnityEngine
 		::System::IntPtr m_Ptr; // 0x10
 		::UnityEngine::CullingGroup_StateChanged* m_OnStateChanged; // 0x18
 
-		static ::System::Void SendEvents(::UnityEngine::CullingGroup* cullingGroup, ::System::IntPtr eventsPtr, ::System::Int32 count)
+		static ::System::Void SendEvents(::UnityEngine::CullingGroup* a1, ::System::IntPtr a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::CullingGroup*, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_CULLINGGROUP_SENDEVENTS_OFFSET))(cullingGroup, eventsPtr, count);
+			return ((::System::Void(*)(::UnityEngine::CullingGroup*, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_CULLINGGROUP_SENDEVENTS_OFFSET))(a1, a2, a3);
 		}
 	};
 }

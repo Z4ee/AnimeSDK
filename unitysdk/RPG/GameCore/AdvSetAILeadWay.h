@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETAILEADWAY_METHOD_3_244FE280F840976B_OFFSET UNITYSDK_OFFSET(0x186611B0)
-#define RPG_GAMECORE_ADVSETAILEADWAY_METHOD_3_EA32733C8FCC2B31_OFFSET UNITYSDK_OFFSET(0x18661290)
-#define RPG_GAMECORE_ADVSETAILEADWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x18661230)
+#define RPG_GAMECORE_ADVSETAILEADWAY_METHOD_3_3BEB863D8BFED65E_OFFSET UNITYSDK_OFFSET(0x19434BE0)
+#define RPG_GAMECORE_ADVSETAILEADWAY_METHOD_3_F5F53BDC53872316_OFFSET UNITYSDK_OFFSET(0x19434B00)
+#define RPG_GAMECORE_ADVSETAILEADWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x19434B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetAILeadWay_TypeDefinitionIndex = 21069;
+	inline static constexpr unsigned int AdvSetAILeadWay_TypeDefinitionIndex = 20976;
 
 	class AdvSetAILeadWay : public ::RPG::GameCore::TaskConfig
 	{
@@ -48,14 +48,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETAILEADWAY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_244FE280F840976B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetAILeadWay*& a2)
+		static ::System::Void Method_3_F5F53BDC53872316(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetAILeadWay*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetAILeadWay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETAILEADWAY_METHOD_3_244FE280F840976B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetAILeadWay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETAILEADWAY_METHOD_3_F5F53BDC53872316_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EA32733C8FCC2B31(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetAILeadWay* a2)
+		static ::System::Void Method_3_3BEB863D8BFED65E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetAILeadWay* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetAILeadWay*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETAILEADWAY_METHOD_3_EA32733C8FCC2B31_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetAILeadWay*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETAILEADWAY_METHOD_3_3BEB863D8BFED65E_OFFSET))(a1, a2);
 		}
 	};
 }

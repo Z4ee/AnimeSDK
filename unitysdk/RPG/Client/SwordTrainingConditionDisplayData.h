@@ -4,22 +4,22 @@
 #include "unitysdk/RPG/GameCore/SwordTrainingConditionType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_SWORDTRAININGCONDITIONDISPLAYDATA_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xB24D2B0)
-#define RPG_CLIENT_SWORDTRAININGCONDITIONDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB24D2A0)
+#define RPG_CLIENT_SWORDTRAININGCONDITIONDISPLAYDATA_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xC999C70)
+#define RPG_CLIENT_SWORDTRAININGCONDITIONDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC999C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingConditionDisplayData_TypeDefinitionIndex = 57126;
+	inline static constexpr unsigned int SwordTrainingConditionDisplayData_TypeDefinitionIndex = 57916;
 
 	class SwordTrainingConditionDisplayData : public ::System::Object
 	{
 	public:
-		::System::UInt32 TargetNum; // 0x10
-		::RPG::GameCore::SwordTrainingConditionType ConditionType; // 0x14
+		::RPG::GameCore::SwordTrainingConditionType ConditionType; // 0x10
+		::System::UInt32 TargetNum; // 0x14
 
-		::System::Void _ctor(::RPG::GameCore::SwordTrainingConditionType conditionType, ::System::UInt32 targetNum)
+		::System::Void _ctor(::RPG::GameCore::SwordTrainingConditionType a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SwordTrainingConditionType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGCONDITIONDISPLAYDATA__CTOR_OFFSET))(this, conditionType, targetNum);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SwordTrainingConditionType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGCONDITIONDISPLAYDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::TextID GetDisplayName()

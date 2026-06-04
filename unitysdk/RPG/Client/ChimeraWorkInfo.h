@@ -5,16 +5,16 @@
 namespace RPG::Client { class ChimeraWorkDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CHIMERAWORKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA087CA0)
-#define RPG_CLIENT_CHIMERAWORKINFO_GETWORKDATA_OFFSET UNITYSDK_OFFSET(0xA087A40)
-#define RPG_CLIENT_CHIMERAWORKINFO_INIT_OFFSET UNITYSDK_OFFSET(0xA0877D0)
-#define RPG_CLIENT_CHIMERAWORKINFO_RESETWORKCURRENTHP_OFFSET UNITYSDK_OFFSET(0xA087B20)
-#define RPG_CLIENT_CHIMERAWORKINFO_SYNCWORKHP_OFFSET UNITYSDK_OFFSET(0xA0879E0)
-#define RPG_CLIENT_CHIMERAWORKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA087CF0)
+#define RPG_CLIENT_CHIMERAWORKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6B3030)
+#define RPG_CLIENT_CHIMERAWORKINFO_GETWORKDATA_OFFSET UNITYSDK_OFFSET(0xB6A9ED0)
+#define RPG_CLIENT_CHIMERAWORKINFO_INIT_OFFSET UNITYSDK_OFFSET(0xB6B26E0)
+#define RPG_CLIENT_CHIMERAWORKINFO_RESETWORKCURRENTHP_OFFSET UNITYSDK_OFFSET(0xB6B0AA0)
+#define RPG_CLIENT_CHIMERAWORKINFO_SYNCWORKHP_OFFSET UNITYSDK_OFFSET(0xB6B35D0)
+#define RPG_CLIENT_CHIMERAWORKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB6B26D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkInfo_TypeDefinitionIndex = 58511;
+	inline static constexpr unsigned int ChimeraWorkInfo_TypeDefinitionIndex = 59441;
 
 	class ChimeraWorkInfo : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKINFO_INIT_OFFSET))(this);
 		}
 
-		::System::Void SyncWorkHp(::System::UInt32 id, ::System::Int32 currentHp)
+		::System::Void SyncWorkHp(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKINFO_SYNCWORKHP_OFFSET))(this, id, currentHp);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKINFO_SYNCWORKHP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ResetWorkCurrentHp()
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::RPG::Client::ChimeraWorkDataItem* GetWorkData(::System::UInt32 id)
+		::RPG::Client::ChimeraWorkDataItem* GetWorkData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraWorkDataItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKINFO_GETWORKDATA_OFFSET))(this, id);
+			return ((::RPG::Client::ChimeraWorkDataItem*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKINFO_GETWORKDATA_OFFSET))(this, a1);
 		}
 	};
 }

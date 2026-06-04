@@ -7,35 +7,35 @@ namespace Proto { class ItemList; }
 namespace RPG::Client { class ItemData; }
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_CLIENT_GACHAITEMDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xA411C70)
-#define RPG_CLIENT_GACHAITEMDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xA411DA0)
-#define RPG_CLIENT_GACHAITEMDATA_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xA411D90)
-#define RPG_CLIENT_GACHAITEMDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA411D60)
-#define RPG_CLIENT_GACHAITEMDATA_HAVEADDITIONALITEM_OFFSET UNITYSDK_OFFSET(0xA411850)
-#define RPG_CLIENT_GACHAITEMDATA_HAVECONVERTITEM_OFFSET UNITYSDK_OFFSET(0xA4118B0)
-#define RPG_CLIENT_GACHAITEMDATA_SETROW_OFFSET UNITYSDK_OFFSET(0xA40ECF0)
-#define RPG_CLIENT_GACHAITEMDATA_SET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xA411DB0)
-#define RPG_CLIENT_GACHAITEMDATA_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0xA4117F0)
-#define RPG_CLIENT_GACHAITEMDATA_SYNCADDITIONALITEMDATA_OFFSET UNITYSDK_OFFSET(0xA411910)
-#define RPG_CLIENT_GACHAITEMDATA_SYNCCONVERTITEMDATA_OFFSET UNITYSDK_OFFSET(0xA411AC0)
-#define RPG_CLIENT_GACHAITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA40EB90)
+#define RPG_CLIENT_GACHAITEMDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xBAAC230)
+#define RPG_CLIENT_GACHAITEMDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xBAAC350)
+#define RPG_CLIENT_GACHAITEMDATA_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xBAAC340)
+#define RPG_CLIENT_GACHAITEMDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBAAC310)
+#define RPG_CLIENT_GACHAITEMDATA_HAVEADDITIONALITEM_OFFSET UNITYSDK_OFFSET(0xBAABD70)
+#define RPG_CLIENT_GACHAITEMDATA_HAVECONVERTITEM_OFFSET UNITYSDK_OFFSET(0xBAABDD0)
+#define RPG_CLIENT_GACHAITEMDATA_SETROW_OFFSET UNITYSDK_OFFSET(0xBAA9230)
+#define RPG_CLIENT_GACHAITEMDATA_SET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xBAAC360)
+#define RPG_CLIENT_GACHAITEMDATA_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0xBAABD10)
+#define RPG_CLIENT_GACHAITEMDATA_SYNCADDITIONALITEMDATA_OFFSET UNITYSDK_OFFSET(0xBAABE30)
+#define RPG_CLIENT_GACHAITEMDATA_SYNCCONVERTITEMDATA_OFFSET UNITYSDK_OFFSET(0xBAAC030)
+#define RPG_CLIENT_GACHAITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBAA90D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaItemData_TypeDefinitionIndex = 59158;
+	inline static constexpr unsigned int GachaItemData_TypeDefinitionIndex = 60092;
 
 	class GachaItemData : public ::System::Object
 	{
 	public:
-		::RPG::Client::ItemData* _ItemData_k__BackingField; // 0x10
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* AdditionalItems; // 0x18
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ConvertItems; // 0x20
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ConvertItems; // 0x10
+		::RPG::Client::ItemData* _ItemData_k__BackingField; // 0x18
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* AdditionalItems; // 0x20
 		::System::Boolean IsNew; // 0x28
 		::System::UInt32 _ItemID; // 0x2C
 
-		::System::Void _ctor(::System::UInt32 itemID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA__CTOR_OFFSET))(this, itemID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean HaveAdditionalItem()
@@ -48,24 +48,24 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_HAVECONVERTITEM_OFFSET))(this);
 		}
 
-		::System::Void SyncAdditionalItemData(::Proto::ItemList* dropData)
+		::System::Void SyncAdditionalItemData(::Proto::ItemList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_SYNCADDITIONALITEMDATA_OFFSET))(this, dropData);
+			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_SYNCADDITIONALITEMDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncConvertItemData(::Proto::ItemList* itemList)
+		::System::Void SyncConvertItemData(::Proto::ItemList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_SYNCCONVERTITEMDATA_OFFSET))(this, itemList);
+			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_SYNCCONVERTITEMDATA_OFFSET))(this, a1);
 		}
 
-		::System::Int32 CompareTo(::RPG::Client::GachaItemData* other)
+		::System::Int32 CompareTo(::RPG::Client::GachaItemData* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::GachaItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::GachaItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_COMPARETO_OFFSET))(this, a1);
 		}
 
-		::System::Void SetRow(::System::UInt32 itemID)
+		::System::Void SetRow(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_SETROW_OFFSET))(this, itemID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_SETROW_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ItemID()
@@ -73,9 +73,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_GET_ITEMID_OFFSET))(this);
 		}
 
-		::System::Void set_ItemID(::System::UInt32 value)
+		::System::Void set_ItemID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_SET_ITEMID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_SET_ITEMID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ItemMainType get_Type()
@@ -88,9 +88,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_GET_ITEMDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ItemData(::RPG::Client::ItemData* value)
+		::System::Void set_ItemData(::RPG::Client::ItemData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_SET_ITEMDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAITEMDATA_SET_ITEMDATA_OFFSET))(this, a1);
 		}
 	};
 }

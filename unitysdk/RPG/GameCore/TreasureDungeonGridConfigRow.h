@@ -8,39 +8,39 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190B9C30)
-#define RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190BA140)
+#define RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E048A0)
+#define RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19E04DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonGridConfigRow_TypeDefinitionIndex = 11826;
+	inline static constexpr unsigned int TreasureDungeonGridConfigRow_TypeDefinitionIndex = 11921;
 
 	class TreasureDungeonGridConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TypeParam; // 0x10
-		::System::String* TutorialTriggerString; // 0x18
-		::System::String* IconPath; // 0x20
-		::System::String* IconPath2D; // 0x28
-		::RPG::GameCore::TreasureDungeonGridEffectType EffectType; // 0x30
-		::System::UInt32 GridSubType; // 0x34
-		::System::UInt32 ParamInt; // 0x38
-		::System::UInt32 TutorialTriggerType; // 0x3C
-		::System::UInt32 OpenBuff; // 0x40
-		::System::UInt32 GridID; // 0x44
-		::RPG::Client::TextID Desc; // 0x48
-		::RPG::Client::TextID Name; // 0x58
-		::System::UInt32 ReplaceGridID; // 0x68
-		::RPG::GameCore::TreasureDungeonGridType GridType; // 0x6C
+		::System::String* IconPath; // 0x18
+		::System::String* IconPath2D; // 0x20
+		::System::String* TutorialTriggerString; // 0x28
+		::System::UInt32 GridSubType; // 0x30
+		::System::UInt32 OpenBuff; // 0x34
+		::RPG::Client::TextID Name; // 0x38
+		::System::UInt32 ReplaceGridID; // 0x48
+		::RPG::GameCore::TreasureDungeonGridType GridType; // 0x4C
+		::System::UInt32 ParamInt; // 0x50
+		::System::UInt32 TutorialTriggerType; // 0x54
+		::RPG::GameCore::TreasureDungeonGridEffectType EffectType; // 0x58
+		::System::UInt32 GridID; // 0x5C
+		::RPG::Client::TextID Desc; // 0x60
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TreasureDungeonGridConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TreasureDungeonGridConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TreasureDungeonGridConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TreasureDungeonGridConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TREASUREDUNGEONGRIDCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_ABILITYBEINGLIMBO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB509EA0)
-#define RPG_GAMECORE_ABILITYBEINGLIMBO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB509E60)
-#define RPG_GAMECORE_ABILITYBEINGLIMBO_INIT_OFFSET UNITYSDK_OFFSET(0xB509E10)
-#define RPG_GAMECORE_ABILITYBEINGLIMBO__CTOR_OFFSET UNITYSDK_OFFSET(0xB509EF0)
+#define RPG_GAMECORE_ABILITYBEINGLIMBO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCC70D80)
+#define RPG_GAMECORE_ABILITYBEINGLIMBO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCC70D40)
+#define RPG_GAMECORE_ABILITYBEINGLIMBO_INIT_OFFSET UNITYSDK_OFFSET(0xCC70CF0)
+#define RPG_GAMECORE_ABILITYBEINGLIMBO__CTOR_OFFSET UNITYSDK_OFFSET(0xCC70DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityBeingLimbo_TypeDefinitionIndex = 52130;
+	inline static constexpr unsigned int AbilityBeingLimbo_TypeDefinitionIndex = 52827;
 
-	class AbilityBeingLimbo : public ::Class_1_9988289E7F8AA214
+	class AbilityBeingLimbo : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::UInt32 _SourceEntityRuntimeID; // 0x18
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEINGLIMBO__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AbilityBeingLimbo* Init(::System::UInt32 nSourceRuntimeID)
+		::RPG::GameCore::AbilityBeingLimbo* Init(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::AbilityBeingLimbo*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEINGLIMBO_INIT_OFFSET))(this, nSourceRuntimeID);
+			return ((::RPG::GameCore::AbilityBeingLimbo*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEINGLIMBO_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

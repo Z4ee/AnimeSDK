@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 
-namespace UnityEngine { class Transform; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_256_TypeDefinitionIndex = 39593;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_256_TypeDefinitionIndex = 40215;
 
 class Class_0_16E4307DCC419505_256
 {

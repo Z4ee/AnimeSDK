@@ -8,10 +8,10 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A0A6D60)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A0A6E00)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A0A69A0)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A6980)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AF16250)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AF162F0)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AF16220)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF161A0)
 
 namespace Mono::Unity
 {
@@ -20,24 +20,24 @@ namespace Mono::Unity
 	class UnityTls_unitytls_interface_struct_unitytls_key_parse_pem_t : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::Mono::Unity::UnityTls_unitytls_key* Invoke(::System::Byte* buffer, ::System::IntPtr bufferLen, ::System::Byte* password, ::System::IntPtr passwordLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		::Mono::Unity::UnityTls_unitytls_key* Invoke(::System::Byte* a1, ::System::IntPtr a2, ::System::Byte* a3, ::System::IntPtr a4, ::Mono::Unity::UnityTls_unitytls_errorstate* a5)
 		{
-			return ((::Mono::Unity::UnityTls_unitytls_key*(*)(::PVOID, ::System::Byte*, ::System::IntPtr, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_INVOKE_OFFSET))(this, buffer, bufferLen, password, passwordLen, errorState);
+			return ((::Mono::Unity::UnityTls_unitytls_key*(*)(::PVOID, ::System::Byte*, ::System::IntPtr, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_INVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Byte* buffer, ::System::IntPtr bufferLen, ::System::Byte* password, ::System::IntPtr passwordLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Byte* a1, ::System::IntPtr a2, ::System::Byte* a3, ::System::IntPtr a4, ::Mono::Unity::UnityTls_unitytls_errorstate* a5, ::System::AsyncCallback* a6, ::System::Object* a7)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Byte*, ::System::IntPtr, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_BEGININVOKE_OFFSET))(this, buffer, bufferLen, password, passwordLen, errorState, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Byte*, ::System::IntPtr, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::Mono::Unity::UnityTls_unitytls_key* EndInvoke(::System::IAsyncResult* result)
+		::Mono::Unity::UnityTls_unitytls_key* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::Mono::Unity::UnityTls_unitytls_key*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_ENDINVOKE_OFFSET))(this, result);
+			return ((::Mono::Unity::UnityTls_unitytls_key*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_KEY_PARSE_PEM_T_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

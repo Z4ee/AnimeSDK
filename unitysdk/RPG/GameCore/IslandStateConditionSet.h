@@ -5,13 +5,15 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class IslandStateSavedValueCondition; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_8AED93D86E92DD70_OFFSET UNITYSDK_OFFSET(0x18A23CF0)
-#define RPG_GAMECORE_ISLANDSTATECONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18A23E50)
+#define RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_97DF06D8121EDCB8_OFFSET UNITYSDK_OFFSET(0x19855950)
+#define RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_A9FC9F7202841B3A_OFFSET UNITYSDK_OFFSET(0x198557E0)
+#define RPG_GAMECORE_ISLANDSTATECONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x19855940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IslandStateConditionSet_TypeDefinitionIndex = 18154;
+	inline static constexpr unsigned int IslandStateConditionSet_TypeDefinitionIndex = 18150;
 
 	class IslandStateConditionSet : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ISLANDSTATECONDITIONSET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8AED93D86E92DD70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IslandStateConditionSet*& a2)
+		static ::System::Void Method_2_A9FC9F7202841B3A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IslandStateConditionSet*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IslandStateConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_8AED93D86E92DD70_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IslandStateConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_A9FC9F7202841B3A_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_97DF06D8121EDCB8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::IslandStateConditionSet*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::IslandStateConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_97DF06D8121EDCB8_OFFSET))(a1, a2);
 		}
 	};
 }

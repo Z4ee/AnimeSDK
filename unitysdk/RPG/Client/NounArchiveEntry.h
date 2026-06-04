@@ -6,35 +6,35 @@ namespace RPG::Client { class NounArchiveData; }
 namespace RPG::GameCore { class NounAtlasRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_NOUNARCHIVEENTRY_CANUNLOCKED_OFFSET UNITYSDK_OFFSET(0xABDBF10)
-#define RPG_CLIENT_NOUNARCHIVEENTRY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xABDCAA0)
-#define RPG_CLIENT_NOUNARCHIVEENTRY_GETLASTUNLOCKINDEX_OFFSET UNITYSDK_OFFSET(0xABDC900)
-#define RPG_CLIENT_NOUNARCHIVEENTRY_GET_OWNERARCHIVEDATA_OFFSET UNITYSDK_OFFSET(0xABDC8E0)
-#define RPG_CLIENT_NOUNARCHIVEENTRY_GET_REDDOTKEY_OFFSET UNITYSDK_OFFSET(0xABDCA30)
-#define RPG_CLIENT_NOUNARCHIVEENTRY_GET_ROW_OFFSET UNITYSDK_OFFSET(0xABDC870)
-#define RPG_CLIENT_NOUNARCHIVEENTRY_GET_SORTID_OFFSET UNITYSDK_OFFSET(0xABDCCC0)
-#define RPG_CLIENT_NOUNARCHIVEENTRY_ISNEWUNLOCKINDEX_OFFSET UNITYSDK_OFFSET(0xABDC9D0)
-#define RPG_CLIENT_NOUNARCHIVEENTRY_SET_OWNERARCHIVEDATA_OFFSET UNITYSDK_OFFSET(0xABDC8F0)
-#define RPG_CLIENT_NOUNARCHIVEENTRY_UNLOCK_OFFSET UNITYSDK_OFFSET(0xABDBFA0)
-#define RPG_CLIENT_NOUNARCHIVEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xABDC4D0)
-#define RPG_CLIENT_NOUNARCHIVEENTRY___IFIXBASEPROXY_CANUNLOCKED_OFFSET UNITYSDK_OFFSET(0xABDCD30)
-#define RPG_CLIENT_NOUNARCHIVEENTRY___IFIXBASEPROXY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xABDCDB0)
-#define RPG_CLIENT_NOUNARCHIVEENTRY___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0xABDCDA0)
+#define RPG_CLIENT_NOUNARCHIVEENTRY_CANUNLOCKED_OFFSET UNITYSDK_OFFSET(0xC2E8DD0)
+#define RPG_CLIENT_NOUNARCHIVEENTRY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xC2E9940)
+#define RPG_CLIENT_NOUNARCHIVEENTRY_GETLASTUNLOCKINDEX_OFFSET UNITYSDK_OFFSET(0xC2E97D0)
+#define RPG_CLIENT_NOUNARCHIVEENTRY_GET_OWNERARCHIVEDATA_OFFSET UNITYSDK_OFFSET(0xC2E97B0)
+#define RPG_CLIENT_NOUNARCHIVEENTRY_GET_REDDOTKEY_OFFSET UNITYSDK_OFFSET(0xC2E9920)
+#define RPG_CLIENT_NOUNARCHIVEENTRY_GET_ROW_OFFSET UNITYSDK_OFFSET(0xC2E9730)
+#define RPG_CLIENT_NOUNARCHIVEENTRY_GET_SORTID_OFFSET UNITYSDK_OFFSET(0xC2E9A30)
+#define RPG_CLIENT_NOUNARCHIVEENTRY_ISNEWUNLOCKINDEX_OFFSET UNITYSDK_OFFSET(0xC2E98C0)
+#define RPG_CLIENT_NOUNARCHIVEENTRY_SET_OWNERARCHIVEDATA_OFFSET UNITYSDK_OFFSET(0xC2E97C0)
+#define RPG_CLIENT_NOUNARCHIVEENTRY_UNLOCK_OFFSET UNITYSDK_OFFSET(0xC2E8E60)
+#define RPG_CLIENT_NOUNARCHIVEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xC2E9300)
+#define RPG_CLIENT_NOUNARCHIVEENTRY___IFIXBASEPROXY_CANUNLOCKED_OFFSET UNITYSDK_OFFSET(0xC2E9A50)
+#define RPG_CLIENT_NOUNARCHIVEENTRY___IFIXBASEPROXY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xC2E9AC0)
+#define RPG_CLIENT_NOUNARCHIVEENTRY___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0xC2E9AB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NounArchiveEntry_TypeDefinitionIndex = 57603;
+	inline static constexpr unsigned int NounArchiveEntry_TypeDefinitionIndex = 58415;
 
 	class NounArchiveEntry : public ::RPG::Client::BaseArchiveEntry
 	{
 	public:
-		::RPG::Client::NounArchiveData* _OwnerArchiveData_k__BackingField; // 0x20
-		::System::Collections::Generic::List_1<::RPG::GameCore::NounAtlasRow*>* _Rows; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::NounAtlasRow*>* _Rows; // 0x20
+		::RPG::Client::NounArchiveData* _OwnerArchiveData_k__BackingField; // 0x28
 		::System::Int32 _CurrentIndex; // 0x30
 
-		::System::Void _ctor(::RPG::GameCore::NounAtlasRow* nounArchiveData, ::RPG::Client::NounArchiveData* ownerArchiveData)
+		::System::Void _ctor(::RPG::GameCore::NounAtlasRow* a1, ::RPG::Client::NounArchiveData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::NounAtlasRow*, ::RPG::Client::NounArchiveData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY__CTOR_OFFSET))(this, nounArchiveData, ownerArchiveData);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::NounAtlasRow*, ::RPG::Client::NounArchiveData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::NounAtlasRow* get_Row()
@@ -47,9 +47,9 @@ namespace RPG::Client
 			return ((::RPG::Client::NounArchiveData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY_GET_OWNERARCHIVEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_OwnerArchiveData(::RPG::Client::NounArchiveData* value)
+		::System::Void set_OwnerArchiveData(::RPG::Client::NounArchiveData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::NounArchiveData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY_SET_OWNERARCHIVEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::NounArchiveData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY_SET_OWNERARCHIVEDATA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean CanUnlocked()
@@ -57,9 +57,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY_CANUNLOCKED_OFFSET))(this);
 		}
 
-		::System::Boolean IsNewUnlockIndex(::System::Int32 lastUnlockIndex)
+		::System::Boolean IsNewUnlockIndex(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY_ISNEWUNLOCKINDEX_OFFSET))(this, lastUnlockIndex);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY_ISNEWUNLOCKINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetLastUnlockIndex()
@@ -67,14 +67,14 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY_GETLASTUNLOCKINDEX_OFFSET))(this);
 		}
 
-		::System::Void Unlock(::System::Boolean fromLogin)
+		::System::Void Unlock(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY_UNLOCK_OFFSET))(this, fromLogin);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY_UNLOCK_OFFSET))(this, a1);
 		}
 
-		::System::Int32 CompareTo(::RPG::Client::BaseArchiveEntry* obj)
+		::System::Int32 CompareTo(::RPG::Client::BaseArchiveEntry* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::BaseArchiveEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY_COMPARETO_OFFSET))(this, obj);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::BaseArchiveEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY_COMPARETO_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_SortID()
@@ -92,14 +92,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY___IFIXBASEPROXY_CANUNLOCKED_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_Unlock(::System::Boolean P0)
+		::System::Void __iFixBaseProxy_Unlock(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY___IFIXBASEPROXY_UNLOCK_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY___IFIXBASEPROXY_UNLOCK_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __iFixBaseProxy_CompareTo(::RPG::Client::BaseArchiveEntry* P0)
+		::System::Int32 __iFixBaseProxy_CompareTo(::RPG::Client::BaseArchiveEntry* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::BaseArchiveEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY___IFIXBASEPROXY_COMPARETO_OFFSET))(this, P0);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::BaseArchiveEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOUNARCHIVEENTRY___IFIXBASEPROXY_COMPARETO_OFFSET))(this, a1);
 		}
 	};
 }

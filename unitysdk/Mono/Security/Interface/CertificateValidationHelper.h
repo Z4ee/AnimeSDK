@@ -6,8 +6,8 @@ namespace Mono::Security::Interface { class ICertificateValidator2; }
 namespace Mono::Security::Interface { class MonoTlsProvider; }
 namespace Mono::Security::Interface { class MonoTlsSettings; }
 
-#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1776DF10)
-#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1776DE70)
+#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x18529740)
+#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x185296A0)
 
 namespace Mono::Security::Interface
 {
@@ -16,13 +16,13 @@ namespace Mono::Security::Interface
 	class CertificateValidationHelper : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_noX509Chain()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CertificateValidationHelper_TypeDefinitionIndex)->GetStaticField(0x5390);
-		}
 		static ::System::Boolean* StaticGet_supportsTrustAnchors()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CertificateValidationHelper_TypeDefinitionIndex)->GetStaticField(0x5391);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CertificateValidationHelper_TypeDefinitionIndex)->GetStaticField(0x8970);
+		}
+		static ::System::Boolean* StaticGet_noX509Chain()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CertificateValidationHelper_TypeDefinitionIndex)->GetStaticField(0x8971);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +30,9 @@ namespace Mono::Security::Interface
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER__CCTOR_OFFSET))();
 		}
 
-		static ::Mono::Security::Interface::ICertificateValidator2* GetInternalValidator(::Mono::Security::Interface::MonoTlsSettings* settings, ::Mono::Security::Interface::MonoTlsProvider* provider)
+		static ::Mono::Security::Interface::ICertificateValidator2* GetInternalValidator(::Mono::Security::Interface::MonoTlsSettings* a1, ::Mono::Security::Interface::MonoTlsProvider* a2)
 		{
-			return ((::Mono::Security::Interface::ICertificateValidator2*(*)(::Mono::Security::Interface::MonoTlsSettings*, ::Mono::Security::Interface::MonoTlsProvider*))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET))(settings, provider);
+			return ((::Mono::Security::Interface::ICertificateValidator2*(*)(::Mono::Security::Interface::MonoTlsSettings*, ::Mono::Security::Interface::MonoTlsProvider*))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET))(a1, a2);
 		}
 	};
 }

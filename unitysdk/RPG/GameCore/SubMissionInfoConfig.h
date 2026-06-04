@@ -18,15 +18,17 @@ namespace RPG::GameCore { class FinishActionConfig; }
 namespace RPG::GameCore { class MissionCustomValueRewardConfig; }
 namespace RPG::GameCore { class MissionItemConfig; }
 namespace RPG::GameCore { class MissionWaypointDataPack; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EAE8F0)
-#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_IFIGNOREVERSEPARAM_OFFSET UNITYSDK_OFFSET(0x18EAFF30)
-#define RPG_GAMECORE_SUBMISSIONINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18EAFF20)
+#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CCB9E0)
+#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMJSON_OFFSET UNITYSDK_OFFSET(0x19CCCF70)
+#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_IFIGNOREVERSEPARAM_OFFSET UNITYSDK_OFFSET(0x19CCB980)
+#define RPG_GAMECORE_SUBMISSIONINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CCCF60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionInfoConfig_TypeDefinitionIndex = 18042;
+	inline static constexpr unsigned int SubMissionInfoConfig_TypeDefinitionIndex = 14705;
 
 	class SubMissionInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -104,14 +106,19 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::SubMissionInfoConfig*& val)
+		::System::Boolean IfIgnoreVerseParam(::RPG::GameCore::MissionVerseParam a1)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubMissionInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::MissionVerseParam))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG_IFIGNOREVERSEPARAM_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IfIgnoreVerseParam(::RPG::GameCore::MissionVerseParam verseParam)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubMissionInfoConfig*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::MissionVerseParam))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG_IFIGNOREVERSEPARAM_OFFSET))(this, verseParam);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubMissionInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMBINARY_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void FromJson(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::SubMissionInfoConfig*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::SubMissionInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMJSON_OFFSET))(a1, a2);
 		}
 	};
 }

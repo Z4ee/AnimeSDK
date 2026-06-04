@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StretchMode_TypeDefinitionIndex = 65087;
+	inline static constexpr unsigned int StretchMode_TypeDefinitionIndex = 66013;
 
 	enum class StretchMode : ::System::Int32
 	{

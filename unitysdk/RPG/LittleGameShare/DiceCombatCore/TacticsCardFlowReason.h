@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int TacticsCardFlowReason_TypeDefinitionIndex = 34297;
+	inline static constexpr unsigned int TacticsCardFlowReason_TypeDefinitionIndex = 34579;
 
 	enum class TacticsCardFlowReason : ::System::Byte
 	{

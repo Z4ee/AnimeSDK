@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PlayerChallengeRecordData.h"
 
-class Class_1_F5046AC8E8B0D181;
+class Class_1_4E16FFD583F3B1DC_1;
 
-#define RPG_CLIENT_PLAYERSTORYRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xAD69FF0)
-#define RPG_CLIENT_PLAYERSTORYRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAD69F80)
-#define RPG_CLIENT_PLAYERSTORYRECORDDATA___IFIXBASEPROXY_SYNC_OFFSET UNITYSDK_OFFSET(0xAD6A0F0)
+#define RPG_CLIENT_PLAYERSTORYRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xC4AB230)
+#define RPG_CLIENT_PLAYERSTORYRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC4AB200)
+#define RPG_CLIENT_PLAYERSTORYRECORDDATA___IFIXBASEPROXY_SYNC_OFFSET UNITYSDK_OFFSET(0xC4AB330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerStoryRecordData_TypeDefinitionIndex = 59137;
+	inline static constexpr unsigned int PlayerStoryRecordData_TypeDefinitionIndex = 60068;
 
 	class PlayerStoryRecordData : public ::RPG::Client::PlayerChallengeRecordData
 	{
@@ -20,14 +20,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERSTORYRECORDDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Class_1_F5046AC8E8B0D181* info)
+		::System::Void Sync(::Class_1_4E16FFD583F3B1DC_1* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F5046AC8E8B0D181*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERSTORYRECORDDATA_SYNC_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_4E16FFD583F3B1DC_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERSTORYRECORDDATA_SYNC_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_Sync(::Class_1_F5046AC8E8B0D181* P0)
+		::System::Void __iFixBaseProxy_Sync(::Class_1_4E16FFD583F3B1DC_1* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F5046AC8E8B0D181*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERSTORYRECORDDATA___IFIXBASEPROXY_SYNC_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::Class_1_4E16FFD583F3B1DC_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERSTORYRECORDDATA___IFIXBASEPROXY_SYNC_OFFSET))(this, a1);
 		}
 	};
 }

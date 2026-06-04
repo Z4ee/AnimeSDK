@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_BINDTONAME_OFFSET UNITYSDK_OFFSET(0x17A1F690)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A1F6A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_BINDTONAME_OFFSET UNITYSDK_OFFSET(0x187CDC30)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x187CDC40)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SerializationBinder_TypeDefinitionIndex = 1117;
+	inline static constexpr unsigned int SerializationBinder_TypeDefinitionIndex = 1116;
 
 	class SerializationBinder : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace System::Runtime::Serialization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void BindToName(::System::Type* serializedType, ::System::String*& assemblyName, ::System::String*& typeName)
+		::System::Void BindToName(::System::Type* a1, ::System::String*& a2, ::System::String*& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_BINDTONAME_OFFSET))(this, serializedType, assemblyName, typeName);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONBINDER_BINDTONAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

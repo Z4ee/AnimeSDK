@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
 
-#define MESSAGEPACK_SIPHASH_COMPUTE_OFFSET UNITYSDK_OFFSET(0x17373720)
-#define MESSAGEPACK_SIPHASH__CTOR_OFFSET UNITYSDK_OFFSET(0x173741E0)
+#define MESSAGEPACK_SIPHASH_COMPUTE_OFFSET UNITYSDK_OFFSET(0x181800A0)
+#define MESSAGEPACK_SIPHASH__CTOR_OFFSET UNITYSDK_OFFSET(0x18180C00)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SipHash_TypeDefinitionIndex = 9295;
+	inline static constexpr unsigned int SipHash_TypeDefinitionIndex = 7198;
 
 	class SipHash : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_SIPHASH__CTOR_OFFSET))(this);
 		}
 
-		::System::Int64 Compute(::System::ReadOnlySpan_1<::System::Byte> data)
+		::System::Int64 Compute(::System::ReadOnlySpan_1<::System::Byte> a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_SIPHASH_COMPUTE_OFFSET))(this, data);
+			return ((::System::Int64(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_SIPHASH_COMPUTE_OFFSET))(this, a1);
 		}
 	};
 }

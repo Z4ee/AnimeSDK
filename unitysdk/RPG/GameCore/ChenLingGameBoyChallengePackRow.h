@@ -4,29 +4,29 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187EB3A0)
-#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEPACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187EB550)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1962D2A0)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEPACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1962D450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingGameBoyChallengePackRow_TypeDefinitionIndex = 13358;
+	inline static constexpr unsigned int ChenLingGameBoyChallengePackRow_TypeDefinitionIndex = 13431;
 
 	class ChenLingGameBoyChallengePackRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 GameBoyChallengePackID; // 0x10
-		::System::UInt32 CheatChallengeID; // 0x14
+		::System::UInt32 RewardID; // 0x10
+		::System::UInt32 GameBoyChallengePackID; // 0x14
 		::System::UInt32 HardChallengeID; // 0x18
-		::System::UInt32 RewardID; // 0x1C
+		::System::UInt32 CheatChallengeID; // 0x1C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEPACKROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ChenLingGameBoyChallengePackRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingGameBoyChallengePackRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingGameBoyChallengePackRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEPACKROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingGameBoyChallengePackRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEPACKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

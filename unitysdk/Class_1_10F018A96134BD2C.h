@@ -4,15 +4,15 @@
 
 namespace RPG::GameCore { class AlleyPackGoodItemConfig; }
 
-#define CLASS_1_10F018A96134BD2C__CTOR_OFFSET UNITYSDK_OFFSET(0xBAAF170)
+#define CLASS_1_10F018A96134BD2C__CTOR_OFFSET UNITYSDK_OFFSET(0x143D2000)
 
-inline static constexpr unsigned int Class_1_10F018A96134BD2C_TypeDefinitionIndex = 68212;
+inline static constexpr unsigned int Class_1_10F018A96134BD2C_TypeDefinitionIndex = 69186;
 
 class Class_1_10F018A96134BD2C : public ::System::Object
 {
 public:
-	::RPG::GameCore::AlleyPackGoodItemConfig* Field_1_1; // 0x10
-	::System::UInt32 Field_1_0; // 0x18
+	::RPG::GameCore::AlleyPackGoodItemConfig* Field_1_0; // 0x10
+	::System::UInt32 Field_1_1; // 0x18
 
 	::System::Void _ctor(::System::UInt32 a1)
 	{

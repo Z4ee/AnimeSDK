@@ -8,19 +8,19 @@
 namespace RPG::Client { class CharaEyeAutoBlink; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xB8A6C00)
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_GET_EYEBLINKTYPE_OFFSET UNITYSDK_OFFSET(0xB8A6C20)
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB8A6DE0)
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8A6C40)
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xB8A6C10)
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_SET_EYEBLINKTYPE_OFFSET UNITYSDK_OFFSET(0xB8A6C30)
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A6E80)
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB8A6EA0)
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8A6E90)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xCFEA7F0)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_GET_EYEBLINKTYPE_OFFSET UNITYSDK_OFFSET(0xCFEA810)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xCFEA9D0)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFEA830)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xCFEA800)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_SET_EYEBLINKTYPE_OFFSET UNITYSDK_OFFSET(0xCFEA820)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFEAA70)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xCFEAA90)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFEAA80)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharaEyeAutoBlinkBehaviour_TypeDefinitionIndex = 44683;
+	inline static constexpr unsigned int CharaEyeAutoBlinkBehaviour_TypeDefinitionIndex = 45230;
 
 	class CharaEyeAutoBlinkBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,9 +39,9 @@ namespace RPGTools::Timeline
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_GET_CHARACTERUNIQUENAME_OFFSET))(this);
 		}
 
-		::System::Void set_CharacterUniqueName(::System::String* value)
+		::System::Void set_CharacterUniqueName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_SET_CHARACTERUNIQUENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_SET_CHARACTERUNIQUENAME_OFFSET))(this, a1);
 		}
 
 		::RPGTools::Timeline::CharaEyeAutoBlinkClip_BlinkType get_EyeBlinkType()
@@ -49,9 +49,9 @@ namespace RPGTools::Timeline
 			return ((::RPGTools::Timeline::CharaEyeAutoBlinkClip_BlinkType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_GET_EYEBLINKTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_EyeBlinkType(::RPGTools::Timeline::CharaEyeAutoBlinkClip_BlinkType value)
+		::System::Void set_EyeBlinkType(::RPGTools::Timeline::CharaEyeAutoBlinkClip_BlinkType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::CharaEyeAutoBlinkClip_BlinkType))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_SET_EYEBLINKTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::CharaEyeAutoBlinkClip_BlinkType))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_SET_EYEBLINKTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -64,14 +64,14 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 	};
 }

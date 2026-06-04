@@ -5,12 +5,12 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveFuncUnlockFlyService___c__DisplayClass6_0; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTimedEffect; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9B56170)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_1__SHOWFUNCUNLOCKFLY_B__1_OFFSET UNITYSDK_OFFSET(0x9B56180)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB13D630)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE___C__DISPLAYCLASS6_1__SHOWFUNCUNLOCKFLY_B__1_OFFSET UNITYSDK_OFFSET(0xB13D640)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveFuncUnlockFlyService___c__DisplayClass6_1_TypeDefinitionIndex = 69353;
+	inline static constexpr unsigned int IdleLiveFuncUnlockFlyService___c__DisplayClass6_1_TypeDefinitionIndex = 70165;
 
 	class IdleLiveFuncUnlockFlyService___c__DisplayClass6_1 : public ::System::Object
 	{

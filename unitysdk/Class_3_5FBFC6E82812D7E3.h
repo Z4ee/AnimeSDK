@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetStepperDecisionGroupIndex; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5FBFC6E82812D7E3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEC9D220)
-#define CLASS_3_5FBFC6E82812D7E3__CTOR_OFFSET UNITYSDK_OFFSET(0xEC9D1F0)
+#define CLASS_3_5FBFC6E82812D7E3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13AC0AC0)
+#define CLASS_3_5FBFC6E82812D7E3__CTOR_OFFSET UNITYSDK_OFFSET(0x13AC0A90)
 
-inline static constexpr unsigned int Class_3_5FBFC6E82812D7E3_TypeDefinitionIndex = 51231;
+inline static constexpr unsigned int Class_3_5FBFC6E82812D7E3_TypeDefinitionIndex = 51903;
 
 class Class_3_5FBFC6E82812D7E3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetStepperDecisionGroupIndex*>
 {

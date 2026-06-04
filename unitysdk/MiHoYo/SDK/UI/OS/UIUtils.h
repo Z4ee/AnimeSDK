@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_OS_UIUTILS_GETCOLOREDTEXT_OFFSET UNITYSDK_OFFSET(0x1766B4C0)
-#define MIHOYO_SDK_UI_OS_UIUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x176850D0)
+#define MIHOYO_SDK_UI_OS_UIUTILS_GETCOLOREDTEXT_OFFSET UNITYSDK_OFFSET(0x1843C530)
+#define MIHOYO_SDK_UI_OS_UIUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x18456870)
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int UIUtils_TypeDefinitionIndex = 7495;
+	inline static constexpr unsigned int UIUtils_TypeDefinitionIndex = 8398;
 
 	class UIUtils : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace MiHoYo::SDK::UI::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_OS_UIUTILS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::String* GetColoredText(::System::String* color, ::System::String* text)
+		static ::System::String* GetColoredText(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_OS_UIUTILS_GETCOLOREDTEXT_OFFSET))(color, text);
+			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_OS_UIUTILS_GETCOLOREDTEXT_OFFSET))(a1, a2);
 		}
 	};
 }

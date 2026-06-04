@@ -6,18 +6,18 @@ namespace Hdg { class rdtSerializerRegistry; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERBUTTON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x8C225D0)
-#define HDG_RDTSERIALIZERBUTTON_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x8C22660)
-#define HDG_RDTSERIALIZERBUTTON_EQUALS_OFFSET UNITYSDK_OFFSET(0x8C225E0)
-#define HDG_RDTSERIALIZERBUTTON_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8C22680)
-#define HDG_RDTSERIALIZERBUTTON_READ_OFFSET UNITYSDK_OFFSET(0x8C226C0)
-#define HDG_RDTSERIALIZERBUTTON_WRITE_OFFSET UNITYSDK_OFFSET(0x8C22690)
-#define HDG_RDTSERIALIZERBUTTON__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8C225C0)
-#define HDG_RDTSERIALIZERBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x8C225B0)
+#define HDG_RDTSERIALIZERBUTTON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xA12A070)
+#define HDG_RDTSERIALIZERBUTTON_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA12A0F0)
+#define HDG_RDTSERIALIZERBUTTON_EQUALS_OFFSET UNITYSDK_OFFSET(0xA12A080)
+#define HDG_RDTSERIALIZERBUTTON_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA12A110)
+#define HDG_RDTSERIALIZERBUTTON_READ_OFFSET UNITYSDK_OFFSET(0xA12A150)
+#define HDG_RDTSERIALIZERBUTTON_WRITE_OFFSET UNITYSDK_OFFSET(0xA12A120)
+#define HDG_RDTSERIALIZERBUTTON__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA12A060)
+#define HDG_RDTSERIALIZERBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0xA12A050)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerButton_TypeDefinitionIndex = 43766;
+	inline static constexpr unsigned int rdtSerializerButton_TypeDefinitionIndex = 44308;
 
 	class rdtSerializerButton : public ::System::Object
 	{
@@ -29,24 +29,24 @@ namespace Hdg
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Boolean inpressed)
+		::System::Void _ctor_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON__CTOR_1_OFFSET))(this, inpressed);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Object* Deserialize(::Hdg::rdtSerializerRegistry* registry)
+		::System::Object* Deserialize(::Hdg::rdtSerializerRegistry* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON_DESERIALIZE_OFFSET))(this, registry);
+			return ((::System::Object*(*)(::PVOID, ::Hdg::rdtSerializerRegistry*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON_DESERIALIZE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::Hdg::rdtSerializerButton* p)
+		::System::Boolean Equals_1(::Hdg::rdtSerializerButton* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Hdg::rdtSerializerButton*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON_EQUALS_1_OFFSET))(this, p);
+			return ((::System::Boolean(*)(::PVOID, ::Hdg::rdtSerializerButton*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -54,14 +54,14 @@ namespace Hdg
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Void Write(::System::IO::BinaryWriter* w)
+		::System::Void Write(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON_WRITE_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON_WRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void Read(::System::IO::BinaryReader* r)
+		::System::Void Read(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON_READ_OFFSET))(this, r);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERBUTTON_READ_OFFSET))(this, a1);
 		}
 	};
 }

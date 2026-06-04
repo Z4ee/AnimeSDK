@@ -7,29 +7,29 @@ namespace IniParserEx { class Token; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define INIPARSEREX_BASEPARSER_CLEARCOMMENT_OFFSET UNITYSDK_OFFSET(0x1A41C6B0)
-#define INIPARSEREX_BASEPARSER_GETCHAR_OFFSET UNITYSDK_OFFSET(0x1A41C0E0)
-#define INIPARSEREX_BASEPARSER_GETLEADINGCHAR_OFFSET UNITYSDK_OFFSET(0x1A41C7C0)
-#define INIPARSEREX_BASEPARSER_GETLOCATION_OFFSET UNITYSDK_OFFSET(0x1A41C6D0)
-#define INIPARSEREX_BASEPARSER_GETTOKEN_OFFSET UNITYSDK_OFFSET(0x1A41C9E0)
-#define INIPARSEREX_BASEPARSER_INITPARSERSOURCE_OFFSET UNITYSDK_OFFSET(0x1A41BEF0)
-#define INIPARSEREX_BASEPARSER_ISBEGINCOMMENT_OFFSET UNITYSDK_OFFSET(0x1A41BF30)
-#define INIPARSEREX_BASEPARSER_ISENDCOMMENT_OFFSET UNITYSDK_OFFSET(0x1A41C000)
-#define INIPARSEREX_BASEPARSER_ISENDOFLINE_OFFSET UNITYSDK_OFFSET(0x1A41DFD0)
-#define INIPARSEREX_BASEPARSER_ISEOL_OFFSET UNITYSDK_OFFSET(0x1A41C9B0)
-#define INIPARSEREX_BASEPARSER_ISLINECOMMENT_OFFSET UNITYSDK_OFFSET(0x1A41C070)
-#define INIPARSEREX_BASEPARSER_ISWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1A41C990)
-#define INIPARSEREX_BASEPARSER_MATCHSYMBOL_OFFSET UNITYSDK_OFFSET(0x1A41DF50)
-#define INIPARSEREX_BASEPARSER_PEEKCHAR_OFFSET UNITYSDK_OFFSET(0x1A41BFA0)
-#define INIPARSEREX_BASEPARSER_REQUIRESYMBOL_OFFSET UNITYSDK_OFFSET(0x1A41E010)
-#define INIPARSEREX_BASEPARSER_UNGETCHAR_OFFSET UNITYSDK_OFFSET(0x1A41C9D0)
-#define INIPARSEREX_BASEPARSER_UNGETTOKEN_OFFSET UNITYSDK_OFFSET(0x1A41DF20)
-#define INIPARSEREX_BASEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41E020)
-#define INIPARSEREX_BASEPARSER__GETTOKEN_G__ISPAIR_22_0_OFFSET UNITYSDK_OFFSET(0x1A41DF00)
+#define INIPARSEREX_BASEPARSER_CLEARCOMMENT_OFFSET UNITYSDK_OFFSET(0x1B26F3E0)
+#define INIPARSEREX_BASEPARSER_GETCHAR_OFFSET UNITYSDK_OFFSET(0x1B26EB20)
+#define INIPARSEREX_BASEPARSER_GETLEADINGCHAR_OFFSET UNITYSDK_OFFSET(0x1B26F4F0)
+#define INIPARSEREX_BASEPARSER_GETLOCATION_OFFSET UNITYSDK_OFFSET(0x1B26F400)
+#define INIPARSEREX_BASEPARSER_GETTOKEN_OFFSET UNITYSDK_OFFSET(0x1B26FA80)
+#define INIPARSEREX_BASEPARSER_INITPARSERSOURCE_OFFSET UNITYSDK_OFFSET(0x1B26E930)
+#define INIPARSEREX_BASEPARSER_ISBEGINCOMMENT_OFFSET UNITYSDK_OFFSET(0x1B26E970)
+#define INIPARSEREX_BASEPARSER_ISENDCOMMENT_OFFSET UNITYSDK_OFFSET(0x1B26EA40)
+#define INIPARSEREX_BASEPARSER_ISENDOFLINE_OFFSET UNITYSDK_OFFSET(0x1B271380)
+#define INIPARSEREX_BASEPARSER_ISEOL_OFFSET UNITYSDK_OFFSET(0x1B26FA50)
+#define INIPARSEREX_BASEPARSER_ISLINECOMMENT_OFFSET UNITYSDK_OFFSET(0x1B26EAB0)
+#define INIPARSEREX_BASEPARSER_ISWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1B26FA30)
+#define INIPARSEREX_BASEPARSER_MATCHSYMBOL_OFFSET UNITYSDK_OFFSET(0x1B271300)
+#define INIPARSEREX_BASEPARSER_PEEKCHAR_OFFSET UNITYSDK_OFFSET(0x1B26E9E0)
+#define INIPARSEREX_BASEPARSER_REQUIRESYMBOL_OFFSET UNITYSDK_OFFSET(0x1B2713C0)
+#define INIPARSEREX_BASEPARSER_UNGETCHAR_OFFSET UNITYSDK_OFFSET(0x1B26FA70)
+#define INIPARSEREX_BASEPARSER_UNGETTOKEN_OFFSET UNITYSDK_OFFSET(0x1B2712D0)
+#define INIPARSEREX_BASEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2713D0)
+#define INIPARSEREX_BASEPARSER__GETTOKEN_G__ISPAIR_22_0_OFFSET UNITYSDK_OFFSET(0x1B2712B0)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int BaseParser_TypeDefinitionIndex = 3741;
+	inline static constexpr unsigned int BaseParser_TypeDefinitionIndex = 3915;
 
 	class BaseParser : public ::System::Object
 	{
@@ -48,29 +48,29 @@ namespace IniParserEx
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void InitParserSource(::System::String* fileName, ::System::String* sourceBuffer)
+		::System::Void InitParserSource(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_INITPARSERSOURCE_OFFSET))(this, fileName, sourceBuffer);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_INITPARSERSOURCE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsBeginComment(::System::Char currentChar)
+		::System::Boolean IsBeginComment(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_ISBEGINCOMMENT_OFFSET))(this, currentChar);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_ISBEGINCOMMENT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsEndComment(::System::Char currentChar)
+		::System::Boolean IsEndComment(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_ISENDCOMMENT_OFFSET))(this, currentChar);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_ISENDCOMMENT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsLineComment(::System::Char currentChar)
+		::System::Boolean IsLineComment(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_ISLINECOMMENT_OFFSET))(this, currentChar);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_ISLINECOMMENT_OFFSET))(this, a1);
 		}
 
-		::System::Char GetChar(::System::Boolean literal)
+		::System::Char GetChar(::System::Boolean a1)
 		{
-			return ((::System::Char(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_GETCHAR_OFFSET))(this, literal);
+			return ((::System::Char(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_GETCHAR_OFFSET))(this, a1);
 		}
 
 		::System::Char PeekChar()
@@ -88,14 +88,14 @@ namespace IniParserEx
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_UNGETCHAR_OFFSET))(this);
 		}
 
-		static ::System::Boolean IsEOL(::System::Char c)
+		static ::System::Boolean IsEOL(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_ISEOL_OFFSET))(c);
+			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_ISEOL_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsWhitespace(::System::Char c)
+		static ::System::Boolean IsWhitespace(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_ISWHITESPACE_OFFSET))(c);
+			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_ISWHITESPACE_OFFSET))(a1);
 		}
 
 		::System::Void ClearComment()
@@ -103,19 +103,19 @@ namespace IniParserEx
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_CLEARCOMMENT_OFFSET))(this);
 		}
 
-		::IniParserEx::Token* GetToken(::System::Boolean noConst, ::System::Boolean asSingleChar)
+		::IniParserEx::Token* GetToken(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::IniParserEx::Token*(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_GETTOKEN_OFFSET))(this, noConst, asSingleChar);
+			return ((::IniParserEx::Token*(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_GETTOKEN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UnGetToken(::IniParserEx::Token* token)
+		::System::Void UnGetToken(::IniParserEx::Token* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_UNGETTOKEN_OFFSET))(this, token);
+			return ((::System::Void(*)(::PVOID, ::IniParserEx::Token*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_UNGETTOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Boolean MatchSymbol(::System::Char match)
+		::System::Boolean MatchSymbol(::System::Char a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_MATCHSYMBOL_OFFSET))(this, match);
+			return ((::System::Boolean(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_MATCHSYMBOL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsEndOfLine()
@@ -123,9 +123,9 @@ namespace IniParserEx
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_ISENDOFLINE_OFFSET))(this);
 		}
 
-		::System::Void RequireSymbol(::System::Char match, ::System::String* tag)
+		::System::Void RequireSymbol(::System::Char a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_REQUIRESYMBOL_OFFSET))(this, match, tag);
+			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_REQUIRESYMBOL_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetLocation()
@@ -133,9 +133,9 @@ namespace IniParserEx
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER_GETLOCATION_OFFSET))(this);
 		}
 
-		static ::System::Boolean _GetToken_g__IsPair_22_0(::System::Char cc, ::System::Char dd, ::IniParserEx::BaseParser___c__DisplayClass22_0& a3)
+		static ::System::Boolean _GetToken_g__IsPair_22_0(::System::Char a1, ::System::Char a2, ::IniParserEx::BaseParser___c__DisplayClass22_0& a3)
 		{
-			return ((::System::Boolean(*)(::System::Char, ::System::Char, ::IniParserEx::BaseParser___c__DisplayClass22_0&))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER__GETTOKEN_G__ISPAIR_22_0_OFFSET))(cc, dd, a3);
+			return ((::System::Boolean(*)(::System::Char, ::System::Char, ::IniParserEx::BaseParser___c__DisplayClass22_0&))((::PBYTE)hIl2Cpp + INIPARSEREX_BASEPARSER__GETTOKEN_G__ISPAIR_22_0_OFFSET))(a1, a2, a3);
 		}
 	};
 }

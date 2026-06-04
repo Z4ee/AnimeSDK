@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define XLUA_AUTOGENTAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B84BE0)
+#define XLUA_AUTOGENTAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18932C70)
 
 namespace XLua
 {
-	inline static constexpr unsigned int AutoGenTagAttribute_TypeDefinitionIndex = 6403;
+	inline static constexpr unsigned int AutoGenTagAttribute_TypeDefinitionIndex = 5605;
 
 	class AutoGenTagAttribute : public ::System::Attribute
 	{

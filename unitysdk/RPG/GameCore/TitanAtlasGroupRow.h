@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TITANATLASGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1909DA20)
-#define RPG_GAMECORE_TITANATLASGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1909DC60)
+#define RPG_GAMECORE_TITANATLASGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19DE8910)
+#define RPG_GAMECORE_TITANATLASGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE8B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TitanAtlasGroupRow_TypeDefinitionIndex = 14496;
+	inline static constexpr unsigned int TitanAtlasGroupRow_TypeDefinitionIndex = 14532;
 
 	class TitanAtlasGroupRow : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TITANATLASGROUPROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TitanAtlasGroupRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TitanAtlasGroupRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TitanAtlasGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TITANATLASGROUPROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TitanAtlasGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TITANATLASGROUPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

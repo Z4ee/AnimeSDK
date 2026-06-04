@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int IBytesArrayPool_TypeDefinitionIndex = 6191;
+	inline static constexpr unsigned int IBytesArrayPool_TypeDefinitionIndex = 5393;
 
 	class IBytesArrayPool
 	{

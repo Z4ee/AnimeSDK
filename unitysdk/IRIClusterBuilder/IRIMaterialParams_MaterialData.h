@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IRICLUSTERBUILDER_IRIMATERIALPARAMS_MATERIALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12411650)
+#define IRICLUSTERBUILDER_IRIMATERIALPARAMS_MATERIALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14235870)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRIMaterialParams_MaterialData_TypeDefinitionIndex = 44515;
+	inline static constexpr unsigned int IRIMaterialParams_MaterialData_TypeDefinitionIndex = 45062;
 
 	class IRIMaterialParams_MaterialData : public ::System::Object
 	{

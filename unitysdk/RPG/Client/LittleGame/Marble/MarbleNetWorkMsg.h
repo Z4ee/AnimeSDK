@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Marble
 {
-	inline static constexpr unsigned int MarbleNetWorkMsg_TypeDefinitionIndex = 38920;
+	inline static constexpr unsigned int MarbleNetWorkMsg_TypeDefinitionIndex = 39688;
 
 	enum class MarbleNetWorkMsg : ::System::Int32
 	{

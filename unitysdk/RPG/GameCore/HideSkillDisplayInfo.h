@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIDESKILLDISPLAYINFO_METHOD_3_3F5C9842FD8D2043_OFFSET UNITYSDK_OFFSET(0x189FF770)
-#define RPG_GAMECORE_HIDESKILLDISPLAYINFO_METHOD_3_5B8E2E055FA2DA70_OFFSET UNITYSDK_OFFSET(0x189FF6F0)
-#define RPG_GAMECORE_HIDESKILLDISPLAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x189FF740)
+#define RPG_GAMECORE_HIDESKILLDISPLAYINFO_METHOD_3_5376927C4FD2C9EC_OFFSET UNITYSDK_OFFSET(0x19831CD0)
+#define RPG_GAMECORE_HIDESKILLDISPLAYINFO_METHOD_3_CA386120E148D585_OFFSET UNITYSDK_OFFSET(0x19831C50)
+#define RPG_GAMECORE_HIDESKILLDISPLAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19831CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideSkillDisplayInfo_TypeDefinitionIndex = 21731;
+	inline static constexpr unsigned int HideSkillDisplayInfo_TypeDefinitionIndex = 21577;
 
 	class HideSkillDisplayInfo : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDESKILLDISPLAYINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5B8E2E055FA2DA70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideSkillDisplayInfo*& a2)
+		static ::System::Void Method_3_CA386120E148D585(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideSkillDisplayInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideSkillDisplayInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDESKILLDISPLAYINFO_METHOD_3_5B8E2E055FA2DA70_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideSkillDisplayInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDESKILLDISPLAYINFO_METHOD_3_CA386120E148D585_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3F5C9842FD8D2043(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideSkillDisplayInfo* a2)
+		static ::System::Void Method_3_5376927C4FD2C9EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideSkillDisplayInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideSkillDisplayInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDESKILLDISPLAYINFO_METHOD_3_3F5C9842FD8D2043_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideSkillDisplayInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDESKILLDISPLAYINFO_METHOD_3_5376927C4FD2C9EC_OFFSET))(a1, a2);
 		}
 	};
 }

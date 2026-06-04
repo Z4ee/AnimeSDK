@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONS_GET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x8BDFDE0)
-#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONS_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x8BDFDF0)
-#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BDFE00)
+#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONS_GET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0xA0F1CD0)
+#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONS_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0xA0F1CE0)
+#define EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA0F1CF0)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int StartSessionOptions_TypeDefinitionIndex = 41384;
+	inline static constexpr unsigned int StartSessionOptions_TypeDefinitionIndex = 42187;
 
 	class StartSessionOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONS_GET_SESSIONNAME_OFFSET))(this);
 		}
 
-		::System::Void set_SessionName(::System::String* value)
+		::System::Void set_SessionName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONS_SET_SESSIONNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_STARTSESSIONOPTIONS_SET_SESSIONNAME_OFFSET))(this, a1);
 		}
 	};
 }

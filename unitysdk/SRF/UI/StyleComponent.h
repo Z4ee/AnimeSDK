@@ -9,19 +9,19 @@ namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Selectable; }
 
-#define SRF_UI_STYLECOMPONENT_APPLYSTYLE_OFFSET UNITYSDK_OFFSET(0x19EB0E50)
-#define SRF_UI_STYLECOMPONENT_GETSTYLEROOT_OFFSET UNITYSDK_OFFSET(0x19EB0BE0)
-#define SRF_UI_STYLECOMPONENT_GET_STYLEKEY_OFFSET UNITYSDK_OFFSET(0x19EB0900)
-#define SRF_UI_STYLECOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19EB0BD0)
-#define SRF_UI_STYLECOMPONENT_REFRESH_OFFSET UNITYSDK_OFFSET(0x19EB0920)
-#define SRF_UI_STYLECOMPONENT_SET_STYLEKEY_OFFSET UNITYSDK_OFFSET(0x19EB0910)
-#define SRF_UI_STYLECOMPONENT_SRSTYLEDIRTY_OFFSET UNITYSDK_OFFSET(0x19EB11A0)
-#define SRF_UI_STYLECOMPONENT_START_OFFSET UNITYSDK_OFFSET(0x19EB0BB0)
-#define SRF_UI_STYLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB1200)
+#define SRF_UI_STYLECOMPONENT_APPLYSTYLE_OFFSET UNITYSDK_OFFSET(0x1AD27B30)
+#define SRF_UI_STYLECOMPONENT_GETSTYLEROOT_OFFSET UNITYSDK_OFFSET(0x1AD278C0)
+#define SRF_UI_STYLECOMPONENT_GET_STYLEKEY_OFFSET UNITYSDK_OFFSET(0x1AD275C0)
+#define SRF_UI_STYLECOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AD278B0)
+#define SRF_UI_STYLECOMPONENT_REFRESH_OFFSET UNITYSDK_OFFSET(0x1AD275E0)
+#define SRF_UI_STYLECOMPONENT_SET_STYLEKEY_OFFSET UNITYSDK_OFFSET(0x1AD275D0)
+#define SRF_UI_STYLECOMPONENT_SRSTYLEDIRTY_OFFSET UNITYSDK_OFFSET(0x1AD27EC0)
+#define SRF_UI_STYLECOMPONENT_START_OFFSET UNITYSDK_OFFSET(0x1AD27890)
+#define SRF_UI_STYLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD27F20)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int StyleComponent_TypeDefinitionIndex = 33308;
+	inline static constexpr unsigned int StyleComponent_TypeDefinitionIndex = 33590;
 
 	class StyleComponent : public ::SRF::SRMonoBehaviour
 	{
@@ -45,9 +45,9 @@ namespace SRF::UI
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_STYLECOMPONENT_GET_STYLEKEY_OFFSET))(this);
 		}
 
-		::System::Void set_StyleKey(::System::String* value)
+		::System::Void set_StyleKey(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRF_UI_STYLECOMPONENT_SET_STYLEKEY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRF_UI_STYLECOMPONENT_SET_STYLEKEY_OFFSET))(this, a1);
 		}
 
 		::System::Void Start()
@@ -60,9 +60,9 @@ namespace SRF::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_STYLECOMPONENT_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Void Refresh(::System::Boolean invalidateCache)
+		::System::Void Refresh(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRF_UI_STYLECOMPONENT_REFRESH_OFFSET))(this, invalidateCache);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRF_UI_STYLECOMPONENT_REFRESH_OFFSET))(this, a1);
 		}
 
 		::SRF::UI::StyleRoot* GetStyleRoot()

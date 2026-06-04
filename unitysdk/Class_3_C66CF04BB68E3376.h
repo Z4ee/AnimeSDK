@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvNPCSetHidden; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C66CF04BB68E3376_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x95A3D90)
-#define CLASS_3_C66CF04BB68E3376__CTOR_OFFSET UNITYSDK_OFFSET(0x95A3D60)
+#define CLASS_3_C66CF04BB68E3376_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA9FCB90)
+#define CLASS_3_C66CF04BB68E3376__CTOR_OFFSET UNITYSDK_OFFSET(0xA9FCB60)
 
-inline static constexpr unsigned int Class_3_C66CF04BB68E3376_TypeDefinitionIndex = 48417;
+inline static constexpr unsigned int Class_3_C66CF04BB68E3376_TypeDefinitionIndex = 49043;
 
 class Class_3_C66CF04BB68E3376 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvNPCSetHidden*>
 {

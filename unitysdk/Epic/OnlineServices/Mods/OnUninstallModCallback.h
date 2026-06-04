@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8ED5E60)
-#define EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8ED5E90)
-#define EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8ED4C40)
-#define EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8ED5E40)
+#define EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA307900)
+#define EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA307930)
+#define EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA3073D0)
+#define EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA307810)
 
 namespace Epic::OnlineServices::Mods
 {
-	inline static constexpr unsigned int OnUninstallModCallback_TypeDefinitionIndex = 41781;
+	inline static constexpr unsigned int OnUninstallModCallback_TypeDefinitionIndex = 42584;
 
 	class OnUninstallModCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::Mods::UninstallModCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::Mods::UninstallModCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::UninstallModCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::UninstallModCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Mods::UninstallModCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Mods::UninstallModCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Mods::UninstallModCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Mods::UninstallModCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_ONUNINSTALLMODCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

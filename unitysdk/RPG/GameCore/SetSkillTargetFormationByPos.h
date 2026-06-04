@@ -9,13 +9,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TargetFormationPosConfig; }
 
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_50FE5E2CDE56E151_OFFSET UNITYSDK_OFFSET(0x18E41850)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_8632E1689D648F9F_OFFSET UNITYSDK_OFFSET(0x18E41920)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x18E418D0)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_40EAA5A2F21BB840_OFFSET UNITYSDK_OFFSET(0x19C5E5A0)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_B9C6A6FDB5EFD9C4_OFFSET UNITYSDK_OFFSET(0x19C5E670)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5E620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSkillTargetFormationByPos_TypeDefinitionIndex = 21380;
+	inline static constexpr unsigned int SetSkillTargetFormationByPos_TypeDefinitionIndex = 21270;
 
 	class SetSkillTargetFormationByPos : public ::RPG::GameCore::TaskConfig
 	{
@@ -46,14 +46,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_50FE5E2CDE56E151(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTargetFormationByPos*& a2)
+		static ::System::Void Method_3_40EAA5A2F21BB840(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTargetFormationByPos*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillTargetFormationByPos*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_50FE5E2CDE56E151_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillTargetFormationByPos*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_40EAA5A2F21BB840_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8632E1689D648F9F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTargetFormationByPos* a2)
+		static ::System::Void Method_3_B9C6A6FDB5EFD9C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTargetFormationByPos* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillTargetFormationByPos*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_8632E1689D648F9F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillTargetFormationByPos*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_B9C6A6FDB5EFD9C4_OFFSET))(a1, a2);
 		}
 	};
 }

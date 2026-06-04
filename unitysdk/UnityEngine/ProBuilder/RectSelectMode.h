@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int RectSelectMode_TypeDefinitionIndex = 39953;
+	inline static constexpr unsigned int RectSelectMode_TypeDefinitionIndex = 40780;
 
 	enum class RectSelectMode : ::System::Int32
 	{

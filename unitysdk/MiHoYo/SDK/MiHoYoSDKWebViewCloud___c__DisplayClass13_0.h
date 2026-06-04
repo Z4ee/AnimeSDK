@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D6D070)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS13_0__GETUSERAGENT_B__0_OFFSET UNITYSDK_OFFSET(0x8D6EA20)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA1C50E0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS13_0__GETUSERAGENT_B__0_OFFSET UNITYSDK_OFFSET(0xA1C5E50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewCloud___c__DisplayClass13_0_TypeDefinitionIndex = 43146;
+	inline static constexpr unsigned int MiHoYoSDKWebViewCloud___c__DisplayClass13_0_TypeDefinitionIndex = 43949;
 
 	class MiHoYoSDKWebViewCloud___c__DisplayClass13_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GetUserAgent_b__0(::System::String* message)
+		::System::Void _GetUserAgent_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS13_0__GETUSERAGENT_B__0_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS13_0__GETUSERAGENT_B__0_OFFSET))(this, a1);
 		}
 	};
 }

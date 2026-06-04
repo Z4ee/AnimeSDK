@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_AUTODESTROY_START_OFFSET UNITYSDK_OFFSET(0x9D654C0)
-#define RPG_CLIENT_AUTODESTROY_UPDATE_OFFSET UNITYSDK_OFFSET(0x9D65510)
-#define RPG_CLIENT_AUTODESTROY__CTOR_OFFSET UNITYSDK_OFFSET(0x9D655A0)
+#define RPG_CLIENT_AUTODESTROY_START_OFFSET UNITYSDK_OFFSET(0xB355C10)
+#define RPG_CLIENT_AUTODESTROY_UPDATE_OFFSET UNITYSDK_OFFSET(0xB355C60)
+#define RPG_CLIENT_AUTODESTROY__CTOR_OFFSET UNITYSDK_OFFSET(0xB355CF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AutoDestroy_TypeDefinitionIndex = 62989;
+	inline static constexpr unsigned int AutoDestroy_TypeDefinitionIndex = 63904;
 
 	class AutoDestroy : public ::UnityEngine::MonoBehaviour
 	{

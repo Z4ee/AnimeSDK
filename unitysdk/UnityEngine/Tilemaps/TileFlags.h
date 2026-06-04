@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Tilemaps
 {
-	inline static constexpr unsigned int TileFlags_TypeDefinitionIndex = 5559;
+	inline static constexpr unsigned int TileFlags_TypeDefinitionIndex = 5836;
 
 	enum class TileFlags : ::System::Int32
 	{

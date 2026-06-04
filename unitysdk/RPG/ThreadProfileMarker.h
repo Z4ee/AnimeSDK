@@ -6,22 +6,22 @@ namespace RPG { class ThreadStatProfiler; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_THREADPROFILEMARKER_BEGIN_OFFSET UNITYSDK_OFFSET(0x19D38930)
-#define RPG_THREADPROFILEMARKER_END_OFFSET UNITYSDK_OFFSET(0x19D38E80)
-#define RPG_THREADPROFILEMARKER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19D39060)
-#define RPG_THREADPROFILEMARKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D39070)
-#define RPG_THREADPROFILEMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19D38920)
+#define RPG_THREADPROFILEMARKER_BEGIN_OFFSET UNITYSDK_OFFSET(0x1ABB58F0)
+#define RPG_THREADPROFILEMARKER_END_OFFSET UNITYSDK_OFFSET(0x1ABB5E30)
+#define RPG_THREADPROFILEMARKER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1ABB6000)
+#define RPG_THREADPROFILEMARKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ABB6010)
+#define RPG_THREADPROFILEMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB58E0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ThreadProfileMarker_TypeDefinitionIndex = 33249;
+	inline static constexpr unsigned int ThreadProfileMarker_TypeDefinitionIndex = 33358;
 
 	class ThreadProfileMarker : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::ThreadProfileMarker*>** StaticGet_AllMarkers()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::ThreadProfileMarker*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadProfileMarker_TypeDefinitionIndex)->GetStaticField(0xD80);
+			return (::System::Collections::Generic::List_1<::RPG::ThreadProfileMarker*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadProfileMarker_TypeDefinitionIndex)->GetStaticField(0xCC0);
 		}
 		static ::RPG::ThreadStatProfiler** StaticGet_ThreadStat()
 		{
@@ -29,9 +29,9 @@ namespace RPG
 		}
 		::System::String* _Name_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::String* name)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_THREADPROFILEMARKER__CTOR_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_THREADPROFILEMARKER__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()

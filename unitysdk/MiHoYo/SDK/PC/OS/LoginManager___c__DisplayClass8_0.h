@@ -6,28 +6,28 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::PC::OS { class LoginManager; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175B5A00)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__REFRESHACCOUNTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x175B5EF0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1839AC60)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__REFRESHACCOUNTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1839B160)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass8_0_TypeDefinitionIndex = 7577;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass8_0_TypeDefinitionIndex = 8480;
 
 	class LoginManager___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::MiHoYo::SDK::PC::OS::LoginManager* __4__this; // 0x18
-		::MiHoYo::SDK::AccountModel* account; // 0x20
+		::MiHoYo::SDK::PC::OS::LoginManager* __4__this; // 0x10
+		::MiHoYo::SDK::AccountModel* account; // 0x18
+		::System::Action* callback; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RefreshAccountInfo_b__0(::System::Int32 retcode)
+		::System::Void _RefreshAccountInfo_b__0(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__REFRESHACCOUNTINFO_B__0_OFFSET))(this, retcode);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__REFRESHACCOUNTINFO_B__0_OFFSET))(this, a1);
 		}
 	};
 }

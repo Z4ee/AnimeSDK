@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int BindingSourceType_TypeDefinitionIndex = 37100;
+	inline static constexpr unsigned int BindingSourceType_TypeDefinitionIndex = 37832;
 
 	enum class BindingSourceType : ::System::Int32
 	{

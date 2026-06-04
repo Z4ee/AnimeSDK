@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameRefRoleExpiredType_TypeDefinitionIndex = 59597;
+	inline static constexpr unsigned int GameRefRoleExpiredType_TypeDefinitionIndex = 60532;
 
 	enum class GameRefRoleExpiredType : ::System::Int32
 	{

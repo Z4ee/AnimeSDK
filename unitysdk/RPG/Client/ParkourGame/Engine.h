@@ -5,7 +5,7 @@
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int Engine_TypeDefinitionIndex = 68238;
+	inline static constexpr unsigned int Engine_TypeDefinitionIndex = 69212;
 
 	struct alignas(8) Engine
 	{

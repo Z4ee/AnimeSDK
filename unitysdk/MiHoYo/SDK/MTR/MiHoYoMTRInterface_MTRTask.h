@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::MTR { class MiHoYoMTRInterface_MiHoYoMTRCallback; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MTRTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x8D31E90)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MTRTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xA188000)
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface_MTRTask_TypeDefinitionIndex = 43241;
+	inline static constexpr unsigned int MiHoYoMTRInterface_MTRTask_TypeDefinitionIndex = 44044;
 
 	class MiHoYoMTRInterface_MTRTask : public ::MiHoYo::SDK::MTR::MiHoYoMTRInterface_BaseTask
 	{

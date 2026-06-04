@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager_DebugCsvLogRow_TypeDefinitionIndex = 51656;
+	inline static constexpr unsigned int EvolveBuildGearManager_DebugCsvLogRow_TypeDefinitionIndex = 52329;
 
 	struct alignas(4) EvolveBuildGearManager_DebugCsvLogRow
 	{

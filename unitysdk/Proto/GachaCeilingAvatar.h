@@ -9,50 +9,50 @@ namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_GACHACEILINGAVATAR_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x19339FE0)
-#define PROTO_GACHACEILINGAVATAR_CLONE_OFFSET UNITYSDK_OFFSET(0x19339D70)
-#define PROTO_GACHACEILINGAVATAR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x19339E70)
-#define PROTO_GACHACEILINGAVATAR_EQUALS_OFFSET UNITYSDK_OFFSET(0x19339E00)
-#define PROTO_GACHACEILINGAVATAR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19339ED0)
-#define PROTO_GACHACEILINGAVATAR_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x19339DE0)
-#define PROTO_GACHACEILINGAVATAR_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x19339CF0)
-#define PROTO_GACHACEILINGAVATAR_GET_REPEATEDCNT_OFFSET UNITYSDK_OFFSET(0x19339DC0)
-#define PROTO_GACHACEILINGAVATAR_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1933A130)
-#define PROTO_GACHACEILINGAVATAR_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1933A0F0)
-#define PROTO_GACHACEILINGAVATAR_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x19339D20)
-#define PROTO_GACHACEILINGAVATAR_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x19339DF0)
-#define PROTO_GACHACEILINGAVATAR_SET_REPEATEDCNT_OFFSET UNITYSDK_OFFSET(0x19339DD0)
-#define PROTO_GACHACEILINGAVATAR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19339F00)
-#define PROTO_GACHACEILINGAVATAR_WRITETO_OFFSET UNITYSDK_OFFSET(0x19339F60)
-#define PROTO_GACHACEILINGAVATAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1933A1B0)
-#define PROTO_GACHACEILINGAVATAR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19339D40)
-#define PROTO_GACHACEILINGAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x19339D30)
+#define PROTO_GACHACEILINGAVATAR_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A0ECE40)
+#define PROTO_GACHACEILINGAVATAR_CLONE_OFFSET UNITYSDK_OFFSET(0x1A0ECBD0)
+#define PROTO_GACHACEILINGAVATAR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A0ECCD0)
+#define PROTO_GACHACEILINGAVATAR_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A0ECC60)
+#define PROTO_GACHACEILINGAVATAR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A0ECD30)
+#define PROTO_GACHACEILINGAVATAR_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1A0ECC40)
+#define PROTO_GACHACEILINGAVATAR_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A0ECB50)
+#define PROTO_GACHACEILINGAVATAR_GET_REPEATEDCNT_OFFSET UNITYSDK_OFFSET(0x1A0ECC20)
+#define PROTO_GACHACEILINGAVATAR_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A0ECF90)
+#define PROTO_GACHACEILINGAVATAR_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A0ECF50)
+#define PROTO_GACHACEILINGAVATAR_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A0ECB80)
+#define PROTO_GACHACEILINGAVATAR_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1A0ECC50)
+#define PROTO_GACHACEILINGAVATAR_SET_REPEATEDCNT_OFFSET UNITYSDK_OFFSET(0x1A0ECC30)
+#define PROTO_GACHACEILINGAVATAR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A0ECD60)
+#define PROTO_GACHACEILINGAVATAR_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A0ECDC0)
+#define PROTO_GACHACEILINGAVATAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0ED110)
+#define PROTO_GACHACEILINGAVATAR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A0ECBA0)
+#define PROTO_GACHACEILINGAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0ECB90)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GachaCeilingAvatar_TypeDefinitionIndex = 27364;
+	inline static constexpr unsigned int GachaCeilingAvatar_TypeDefinitionIndex = 27343;
 
 	class GachaCeilingAvatar : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::GachaCeilingAvatar*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::GachaCeilingAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(GachaCeilingAvatar_TypeDefinitionIndex)->GetStaticField(0x18060);
+			return (::Google::Protobuf::MessageParser_1<::Proto::GachaCeilingAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(GachaCeilingAvatar_TypeDefinitionIndex)->GetStaticField(0x4E20);
 		}
 		// static const ::System::Int32 RepeatedCntFieldNumber = 0x5; // 0x0
-		// static const ::System::Int32 AvatarIdFieldNumber = 0xE; // 0x0
+		// static const ::System::Int32 AvatarIdFieldNumber = 0x2; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::System::UInt32 avatarId_; // 0x18
-		::System::UInt32 repeatedCnt_; // 0x1C
+		::System::UInt32 repeatedCnt_; // 0x18
+		::System::UInt32 avatarId_; // 0x1C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Proto::GachaCeilingAvatar* other)
+		::System::Void _ctor_1(::Proto::GachaCeilingAvatar* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::GachaCeilingAvatar*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Proto::GachaCeilingAvatar*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -80,9 +80,9 @@ namespace Proto
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_GET_REPEATEDCNT_OFFSET))(this);
 		}
 
-		::System::Void set_RepeatedCnt(::System::UInt32 value)
+		::System::Void set_RepeatedCnt(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_SET_REPEATEDCNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_SET_REPEATEDCNT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_AvatarId()
@@ -90,19 +90,19 @@ namespace Proto
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_GET_AVATARID_OFFSET))(this);
 		}
 
-		::System::Void set_AvatarId(::System::UInt32 value)
+		::System::Void set_AvatarId(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_SET_AVATARID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_SET_AVATARID_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::Proto::GachaCeilingAvatar* other)
+		::System::Boolean Equals_1(::Proto::GachaCeilingAvatar* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Proto::GachaCeilingAvatar*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::Proto::GachaCeilingAvatar*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -115,9 +115,9 @@ namespace Proto
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* output)
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_WRITETO_OFFSET))(this, output);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_WRITETO_OFFSET))(this, a1);
 		}
 
 		::System::Int32 CalculateSize()
@@ -125,14 +125,14 @@ namespace Proto
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_CALCULATESIZE_OFFSET))(this);
 		}
 
-		::System::Void MergeFrom(::Proto::GachaCeilingAvatar* other)
+		::System::Void MergeFrom(::Proto::GachaCeilingAvatar* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::GachaCeilingAvatar*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_MERGEFROM_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Proto::GachaCeilingAvatar*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_MERGEFROM_OFFSET))(this, a1);
 		}
 
-		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* input)
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_MERGEFROM_1_OFFSET))(this, input);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_MERGEFROM_1_OFFSET))(this, a1);
 		}
 	};
 }

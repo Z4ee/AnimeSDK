@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EPedestrianV2MotionState_TypeDefinitionIndex = 63878;
+	inline static constexpr unsigned int EPedestrianV2MotionState_TypeDefinitionIndex = 64799;
 
 	enum class EPedestrianV2MotionState : ::System::Int32
 	{

@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17AA4C70)
-#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17AA4CB0)
-#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x17AA4630)
-#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A9B2F0)
+#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18853E40)
+#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18853E80)
+#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x18853E20)
+#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18853D30)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int ExtensionDataSetter_TypeDefinitionIndex = 8471;
+	inline static constexpr unsigned int ExtensionDataSetter_TypeDefinitionIndex = 9374;
 
 	class ExtensionDataSetter : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Object* o, ::System::String* key, ::System::Object* value)
+		::System::Void Invoke(::System::Object* a1, ::System::String* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_INVOKE_OFFSET))(this, o, key, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::String* key, ::System::Object* value, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Object* a1, ::System::String* a2, ::System::Object* a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::String*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_BEGININVOKE_OFFSET))(this, o, key, value, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::String*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATASETTER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

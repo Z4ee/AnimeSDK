@@ -6,20 +6,20 @@ namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_BAKEDEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8C37C10)
+#define HOUDINIENGINEUNITY_HEU_BAKEDEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17EADDC0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_BakedEventData_TypeDefinitionIndex = 43470;
+	inline static constexpr unsigned int HEU_BakedEventData_TypeDefinitionIndex = 37395;
 
 	class HEU_BakedEventData : public ::HoudiniEngineUnity::HEU_AssetEventData
 	{
 	public:
 		::System::Boolean IsNewBake; // 0x28
 
-		::System::Void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::System::Boolean successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects, ::System::Boolean isNewBake)
+		::System::Void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* a1, ::System::Boolean a2, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::Boolean, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_BAKEDEVENTDATA__CTOR_OFFSET))(this, asset, successful, outputObjects, isNewBake);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ::System::Boolean, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_BAKEDEVENTDATA__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

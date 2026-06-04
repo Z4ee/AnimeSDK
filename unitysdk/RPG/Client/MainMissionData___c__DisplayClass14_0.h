@@ -4,12 +4,12 @@
 
 class Class_1_09B5AE4A49F8C191;
 
-#define RPG_CLIENT_MAINMISSIONDATA___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA76DCE0)
-#define RPG_CLIENT_MAINMISSIONDATA___C__DISPLAYCLASS14_0__ONHOYOGROUPACTIVECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xA77A220)
+#define RPG_CLIENT_MAINMISSIONDATA___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBE93AE0)
+#define RPG_CLIENT_MAINMISSIONDATA___C__DISPLAYCLASS14_0__ONHOYOGROUPACTIVECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xBEA0210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MainMissionData___c__DisplayClass14_0_TypeDefinitionIndex = 60897;
+	inline static constexpr unsigned int MainMissionData___c__DisplayClass14_0_TypeDefinitionIndex = 61831;
 
 	class MainMissionData___c__DisplayClass14_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAINMISSIONDATA___C__DISPLAYCLASS14_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _OnHoYoGroupActiveChange_b__0(::Class_1_09B5AE4A49F8C191* item)
+		::System::Boolean _OnHoYoGroupActiveChange_b__0(::Class_1_09B5AE4A49F8C191* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_09B5AE4A49F8C191*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAINMISSIONDATA___C__DISPLAYCLASS14_0__ONHOYOGROUPACTIVECHANGE_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_09B5AE4A49F8C191*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAINMISSIONDATA___C__DISPLAYCLASS14_0__ONHOYOGROUPACTIVECHANGE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

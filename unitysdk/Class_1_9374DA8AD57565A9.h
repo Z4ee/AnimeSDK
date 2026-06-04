@@ -31,9 +31,9 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace System::Collections::Generic { template <typename T> class SortedSet_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define CLASS_1_9374DA8AD57565A9_METHOD_1_9AE324BCEFACA884_OFFSET UNITYSDK_OFFSET(0x191F15A0)
+#define CLASS_1_9374DA8AD57565A9_METHOD_1_9AE324BCEFACA884_OFFSET UNITYSDK_OFFSET(0x19F1F450)
 
-inline static constexpr unsigned int Class_1_9374DA8AD57565A9_TypeDefinitionIndex = 8924;
+inline static constexpr unsigned int Class_1_9374DA8AD57565A9_TypeDefinitionIndex = 6788;
 
 class Class_1_9374DA8AD57565A9 : public ::System::Object
 {

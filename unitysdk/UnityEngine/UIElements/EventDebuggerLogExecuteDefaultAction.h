@@ -9,13 +9,13 @@ namespace UnityEngine::UIElements { class EventBase; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventDebuggerLogExecuteDefaultAction_TypeDefinitionIndex = 5970;
+	inline static constexpr unsigned int EventDebuggerLogExecuteDefaultAction_TypeDefinitionIndex = 6247;
 
 	struct alignas(1) EventDebuggerLogExecuteDefaultAction
 	{
-		::System::Void _ctor(::UnityEngine::UIElements::EventBase* evt)
+		::System::Void _ctor(::UnityEngine::UIElements::EventBase* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDEBUGGERLOGEXECUTEDEFAULTACTION__CTOR_OFFSET))(this, evt);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDEBUGGERLOGEXECUTEDEFAULTACTION__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

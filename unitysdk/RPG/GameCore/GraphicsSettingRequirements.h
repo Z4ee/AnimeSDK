@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRAPHICSSETTINGREQUIREMENTS_METHOD_2_89B47EC7B70C3302_OFFSET UNITYSDK_OFFSET(0x1899BBA0)
-#define RPG_GAMECORE_GRAPHICSSETTINGREQUIREMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1899BCC0)
+#define RPG_GAMECORE_GRAPHICSSETTINGREQUIREMENTS_METHOD_2_89B47EC7B70C3302_OFFSET UNITYSDK_OFFSET(0x197C2EB0)
+#define RPG_GAMECORE_GRAPHICSSETTINGREQUIREMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x197D3F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GraphicsSettingRequirements_TypeDefinitionIndex = 17357;
+	inline static constexpr unsigned int GraphicsSettingRequirements_TypeDefinitionIndex = 17361;
 
 	class GraphicsSettingRequirements : public ::RPG::GameCore::JsonConfig
 	{

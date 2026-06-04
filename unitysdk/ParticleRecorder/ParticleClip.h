@@ -6,11 +6,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PARTICLERECORDER_PARTICLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x180FD050)
+#define PARTICLERECORDER_PARTICLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18E9FEB0)
 
 namespace ParticleRecorder
 {
-	inline static constexpr unsigned int ParticleClip_TypeDefinitionIndex = 34877;
+	inline static constexpr unsigned int ParticleClip_TypeDefinitionIndex = 35160;
 
 	class ParticleClip : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace ParticleRecorder
 		::System::Boolean isEmission; // 0x2C
 		::System::Int32 maxBatchCount; // 0x30
 
-		::System::Void _ctor(::System::Int32 count)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + PARTICLERECORDER_PARTICLECLIP__CTOR_OFFSET))(this, count);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + PARTICLERECORDER_PARTICLECLIP__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

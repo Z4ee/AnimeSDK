@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ALLOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x8BA4A00)
+#define EPIC_ONLINESERVICES_ALLOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA0BF120)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int AllocationException_TypeDefinitionIndex = 41062;
+	inline static constexpr unsigned int AllocationException_TypeDefinitionIndex = 41865;
 
 	class AllocationException : public ::System::Exception
 	{
 	public:
-		::System::Void _ctor(::System::String* message)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ALLOCATIONEXCEPTION__CTOR_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ALLOCATIONEXCEPTION__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

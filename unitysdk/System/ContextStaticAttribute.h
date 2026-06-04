@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_CONTEXTSTATICATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x178A8C90)
+#define SYSTEM_CONTEXTSTATICATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18661FC0)
 
 namespace System
 {
-	inline static constexpr unsigned int ContextStaticAttribute_TypeDefinitionIndex = 221;
+	inline static constexpr unsigned int ContextStaticAttribute_TypeDefinitionIndex = 220;
 
 	class ContextStaticAttribute : public ::System::Attribute
 	{

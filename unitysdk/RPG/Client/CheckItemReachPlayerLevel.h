@@ -7,32 +7,32 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x9F896A0)
-#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL_GET_TARGETPLAYERLEVEL_OFFSET UNITYSDK_OFFSET(0x9F898C0)
-#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9F89810)
-#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x9F89680)
-#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x9F89760)
-#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x9F898D0)
-#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9F899B0)
-#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL___IFIXBASEPROXY__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x9F89940)
+#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xB5A31D0)
+#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL_GET_TARGETPLAYERLEVEL_OFFSET UNITYSDK_OFFSET(0xB5A33F0)
+#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB5A3340)
+#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB5A31B0)
+#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB5A3290)
+#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xB5A3400)
+#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB5A34C0)
+#define RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL___IFIXBASEPROXY__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB5A3460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CheckItemReachPlayerLevel_TypeDefinitionIndex = 55253;
+	inline static constexpr unsigned int CheckItemReachPlayerLevel_TypeDefinitionIndex = 55987;
 
 	class CheckItemReachPlayerLevel : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:
 		::System::UInt32 _TargetPlayerLevel_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::Object* param)
+		::System::Void _ctor(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL__CTOR_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void FillNotifyTypesTo(::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>* buffer)
+		::System::Void FillNotifyTypesTo(::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL_FILLNOTIFYTYPESTO_OFFSET))(this, buffer);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL_FILLNOTIFYTYPESTO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean _DoCheckImpl()
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL_GET_TARGETPLAYERLEVEL_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_FillNotifyTypesTo(::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>* P0)
+		::System::Void __iFixBaseProxy_FillNotifyTypesTo(::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMREACHPLAYERLEVEL___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __iFixBaseProxy__DoCheckImpl()

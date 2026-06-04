@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace SRF
 {
-	inline static constexpr unsigned int SRFIListExtensions_TypeDefinitionIndex = 33281;
+	inline static constexpr unsigned int SRFIListExtensions_TypeDefinitionIndex = 33563;
 
 	class SRFIListExtensions : public ::System::Object
 	{

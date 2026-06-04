@@ -8,12 +8,12 @@ namespace System { class Type; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class MonoEvent; }
 
-#define SYSTEM_REFLECTION_MONOEVENTINFO_GETEVENTINFO_OFFSET UNITYSDK_OFFSET(0x179A6310)
-#define SYSTEM_REFLECTION_MONOEVENTINFO_GET_EVENT_INFO_OFFSET UNITYSDK_OFFSET(0x179A65F0)
+#define SYSTEM_REFLECTION_MONOEVENTINFO_GETEVENTINFO_OFFSET UNITYSDK_OFFSET(0x18757FE0)
+#define SYSTEM_REFLECTION_MONOEVENTINFO_GET_EVENT_INFO_OFFSET UNITYSDK_OFFSET(0x187582A0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MonoEventInfo_TypeDefinitionIndex = 612;
+	inline static constexpr unsigned int MonoEventInfo_TypeDefinitionIndex = 611;
 
 	struct alignas(8) MonoEventInfo
 	{
@@ -26,14 +26,14 @@ namespace System::Reflection
 		::System::Reflection::EventAttributes attrs; // 0x40
 		::Il2CppArray<::System::Reflection::MethodInfo*>* other_methods; // 0x48
 
-		static ::System::Void get_event_info(::System::Reflection::MonoEvent* ev, ::System::Reflection::MonoEventInfo& info)
+		static ::System::Void get_event_info(::System::Reflection::MonoEvent* a1, ::System::Reflection::MonoEventInfo& a2)
 		{
-			return ((::System::Void(*)(::System::Reflection::MonoEvent*, ::System::Reflection::MonoEventInfo&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENTINFO_GET_EVENT_INFO_OFFSET))(ev, info);
+			return ((::System::Void(*)(::System::Reflection::MonoEvent*, ::System::Reflection::MonoEventInfo&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENTINFO_GET_EVENT_INFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Reflection::MonoEventInfo GetEventInfo(::System::Reflection::MonoEvent* ev)
+		static ::System::Reflection::MonoEventInfo GetEventInfo(::System::Reflection::MonoEvent* a1)
 		{
-			return ((::System::Reflection::MonoEventInfo(*)(::System::Reflection::MonoEvent*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENTINFO_GETEVENTINFO_OFFSET))(ev);
+			return ((::System::Reflection::MonoEventInfo(*)(::System::Reflection::MonoEvent*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOEVENTINFO_GETEVENTINFO_OFFSET))(a1);
 		}
 	};
 }

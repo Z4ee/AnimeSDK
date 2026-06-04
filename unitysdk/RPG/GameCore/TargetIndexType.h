@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetIndexType_TypeDefinitionIndex = 22893;
+	inline static constexpr unsigned int TargetIndexType_TypeDefinitionIndex = 23437;
 
 	enum class TargetIndexType : ::System::Int32
 	{

@@ -6,12 +6,12 @@
 namespace RPG::Client { class GridFightEquipCraftRecipe___c__DisplayClass4_0; }
 namespace RPG::Client { class GridFightEquipItemData; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_1__CANCRAFTTOROLE_B__0_OFFSET UNITYSDK_OFFSET(0xA47F5E0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA47F480)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_1__CANCRAFTTOROLE_B__0_OFFSET UNITYSDK_OFFSET(0xBB1D000)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBB1CED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftRecipe___c__DisplayClass4_1_TypeDefinitionIndex = 59366;
+	inline static constexpr unsigned int GridFightEquipCraftRecipe___c__DisplayClass4_1_TypeDefinitionIndex = 60301;
 
 	class GridFightEquipCraftRecipe___c__DisplayClass4_1 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _CanCraftToRole_b__0(::RPG::Client::GridFightEquipItemData* x)
+		::System::Boolean _CanCraftToRole_b__0(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_1__CANCRAFTTOROLE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_1__CANCRAFTTOROLE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

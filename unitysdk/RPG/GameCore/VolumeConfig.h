@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class StageVolumeConfig; }
 namespace RPG::GameCore { class StageVolumeConfigV2WithTAData; }
 
-#define RPG_GAMECORE_VOLUMECONFIG_METHOD_2_A01AC9BE5A788AE2_OFFSET UNITYSDK_OFFSET(0x190F7370)
-#define RPG_GAMECORE_VOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190F74B0)
+#define RPG_GAMECORE_VOLUMECONFIG_METHOD_2_CC7B259483DD5D90_OFFSET UNITYSDK_OFFSET(0x19E4FE30)
+#define RPG_GAMECORE_VOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E4FF60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VolumeConfig_TypeDefinitionIndex = 18167;
+	inline static constexpr unsigned int VolumeConfig_TypeDefinitionIndex = 18163;
 
 	class VolumeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VOLUMECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A01AC9BE5A788AE2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VolumeConfig*& a2)
+		static ::System::Void Method_2_CC7B259483DD5D90(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VolumeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VolumeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VOLUMECONFIG_METHOD_2_A01AC9BE5A788AE2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VolumeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VOLUMECONFIG_METHOD_2_CC7B259483DD5D90_OFFSET))(a1, a2);
 		}
 	};
 }

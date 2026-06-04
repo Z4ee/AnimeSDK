@@ -16,35 +16,35 @@ namespace System::Net::Sockets { class TcpClient; }
 namespace System::Net::Sockets { class TcpListener; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CUSTOMRP_DEBUGSERVER_ADDDEBUGSERVER_OFFSET UNITYSDK_OFFSET(0x181361C0)
-#define RPG_CUSTOMRP_DEBUGSERVER_ENQUEUECB_OFFSET UNITYSDK_OFFSET(0x18137200)
-#define RPG_CUSTOMRP_DEBUGSERVER_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0x181371C0)
-#define RPG_CUSTOMRP_DEBUGSERVER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18136180)
-#define RPG_CUSTOMRP_DEBUGSERVER_GET_OFFSET UNITYSDK_OFFSET(0x18136460)
-#define RPG_CUSTOMRP_DEBUGSERVER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x181370F0)
-#define RPG_CUSTOMRP_DEBUGSERVER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18136C70)
-#define RPG_CUSTOMRP_DEBUGSERVER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x181368E0)
-#define RPG_CUSTOMRP_DEBUGSERVER_RELEASE_OFFSET UNITYSDK_OFFSET(0x181366B0)
-#define RPG_CUSTOMRP_DEBUGSERVER_UPDATE_OFFSET UNITYSDK_OFFSET(0x18136DD0)
-#define RPG_CUSTOMRP_DEBUGSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x18137FB0)
-#define RPG_CUSTOMRP_DEBUGSERVER__ONCONNECTED_OFFSET UNITYSDK_OFFSET(0x18137B00)
-#define RPG_CUSTOMRP_DEBUGSERVER__ONCONNECTING_OFFSET UNITYSDK_OFFSET(0x18137660)
-#define RPG_CUSTOMRP_DEBUGSERVER__ONDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x18137F30)
-#define RPG_CUSTOMRP_DEBUGSERVER__ONWAITING_OFFSET UNITYSDK_OFFSET(0x181375B0)
-#define RPG_CUSTOMRP_DEBUGSERVER__SETSTATE_OFFSET UNITYSDK_OFFSET(0x18137280)
-#define RPG_CUSTOMRP_DEBUGSERVER__STARTLISTENING_OFFSET UNITYSDK_OFFSET(0x18136AD0)
-#define RPG_CUSTOMRP_DEBUGSERVER__STOP_OFFSET UNITYSDK_OFFSET(0x18136D60)
+#define RPG_CUSTOMRP_DEBUGSERVER_ADDDEBUGSERVER_OFFSET UNITYSDK_OFFSET(0x18EDAD90)
+#define RPG_CUSTOMRP_DEBUGSERVER_ENQUEUECB_OFFSET UNITYSDK_OFFSET(0x18EDBDE0)
+#define RPG_CUSTOMRP_DEBUGSERVER_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0x18EDBDA0)
+#define RPG_CUSTOMRP_DEBUGSERVER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18EDAD80)
+#define RPG_CUSTOMRP_DEBUGSERVER_GET_OFFSET UNITYSDK_OFFSET(0x18EDB030)
+#define RPG_CUSTOMRP_DEBUGSERVER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x18EDBC60)
+#define RPG_CUSTOMRP_DEBUGSERVER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18EDB810)
+#define RPG_CUSTOMRP_DEBUGSERVER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18EDB490)
+#define RPG_CUSTOMRP_DEBUGSERVER_RELEASE_OFFSET UNITYSDK_OFFSET(0x18EDB270)
+#define RPG_CUSTOMRP_DEBUGSERVER_UPDATE_OFFSET UNITYSDK_OFFSET(0x18EDBA10)
+#define RPG_CUSTOMRP_DEBUGSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EDCA30)
+#define RPG_CUSTOMRP_DEBUGSERVER__ONCONNECTED_OFFSET UNITYSDK_OFFSET(0x18EDC520)
+#define RPG_CUSTOMRP_DEBUGSERVER__ONCONNECTING_OFFSET UNITYSDK_OFFSET(0x18EDBFC0)
+#define RPG_CUSTOMRP_DEBUGSERVER__ONDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x18EDC950)
+#define RPG_CUSTOMRP_DEBUGSERVER__ONWAITING_OFFSET UNITYSDK_OFFSET(0x18EDBF10)
+#define RPG_CUSTOMRP_DEBUGSERVER__SETSTATE_OFFSET UNITYSDK_OFFSET(0x18EDBE50)
+#define RPG_CUSTOMRP_DEBUGSERVER__STARTLISTENING_OFFSET UNITYSDK_OFFSET(0x18EDB670)
+#define RPG_CUSTOMRP_DEBUGSERVER__STOP_OFFSET UNITYSDK_OFFSET(0x18EDB930)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DebugServer_TypeDefinitionIndex = 35287;
+	inline static constexpr unsigned int DebugServer_TypeDefinitionIndex = 35587;
 
 	class DebugServer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::RPG::CustomRP::DebugServer** StaticGet_s_instance()
 		{
-			return (::RPG::CustomRP::DebugServer**)Il2CppClass::FromTypeDefinitionIndex(DebugServer_TypeDefinitionIndex)->GetStaticField(0x66CC0);
+			return (::RPG::CustomRP::DebugServer**)Il2CppClass::FromTypeDefinitionIndex(DebugServer_TypeDefinitionIndex)->GetStaticField(0x61AE0);
 		}
 		::RPG::CustomRP::DebugServer_State _state; // 0x18
 		::Il2CppArray<::System::Action*>* _stateDelegates; // 0x20
@@ -68,19 +68,19 @@ namespace RPG::CustomRP
 			return ((::RPG::CustomRP::DebugServer*(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_GET_INSTANCE_OFFSET))();
 		}
 
-		static ::RPG::CustomRP::MsgCallback* AddDebugServer(::UnityEngine::GameObject* go)
+		static ::RPG::CustomRP::MsgCallback* AddDebugServer(::UnityEngine::GameObject* a1)
 		{
-			return ((::RPG::CustomRP::MsgCallback*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_ADDDEBUGSERVER_OFFSET))(go);
+			return ((::RPG::CustomRP::MsgCallback*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_ADDDEBUGSERVER_OFFSET))(a1);
 		}
 
-		::RPG::CustomRP::IRPMessage* Get(::System::String* type)
+		::RPG::CustomRP::IRPMessage* Get(::System::String* a1)
 		{
-			return ((::RPG::CustomRP::IRPMessage*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_GET_OFFSET))(this, type);
+			return ((::RPG::CustomRP::IRPMessage*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_GET_OFFSET))(this, a1);
 		}
 
-		::System::Void Release(::RPG::CustomRP::IRPMessage* msg)
+		::System::Void Release(::RPG::CustomRP::IRPMessage* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::IRPMessage*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_RELEASE_OFFSET))(this, msg);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::IRPMessage*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_RELEASE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()
@@ -98,24 +98,24 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void OnApplicationPause(::System::Boolean pause)
+		::System::Void OnApplicationPause(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_ONAPPLICATIONPAUSE_OFFSET))(this, pause);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_ONAPPLICATIONPAUSE_OFFSET))(this, a1);
 		}
 
-		::System::Void EnqueueMessage(::RPG::CustomRP::IRPMessage* msg)
+		::System::Void EnqueueMessage(::RPG::CustomRP::IRPMessage* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::IRPMessage*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_ENQUEUEMESSAGE_OFFSET))(this, msg);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::IRPMessage*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_ENQUEUEMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void EnqueueCb(::RPG::CustomRP::IRPMsgCb* cb)
+		::System::Void EnqueueCb(::RPG::CustomRP::IRPMsgCb* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::IRPMsgCb*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_ENQUEUECB_OFFSET))(this, cb);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::IRPMsgCb*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER_ENQUEUECB_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetState(::RPG::CustomRP::DebugServer_State state)
+		::System::Void _SetState(::RPG::CustomRP::DebugServer_State a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::DebugServer_State))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER__SETSTATE_OFFSET))(this, state);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::DebugServer_State))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSERVER__SETSTATE_OFFSET))(this, a1);
 		}
 
 		::System::Void _StartListening()

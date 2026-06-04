@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_8BE3C66A8F21F652.h"
+#include "unitysdk/Struct_2_44EF3BC6A9A1AE8B.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define STRUCT_2_C011C4309B1E1D24_DISPOSE_OFFSET UNITYSDK_OFFSET(0x161FC80)
-#define STRUCT_2_C011C4309B1E1D24_EXECUTE_OFFSET UNITYSDK_OFFSET(0x161FC70)
+#define STRUCT_2_C011C4309B1E1D24_DISPOSE_OFFSET UNITYSDK_OFFSET(0x7A2B0)
+#define STRUCT_2_C011C4309B1E1D24_EXECUTE_OFFSET UNITYSDK_OFFSET(0x7A2A0)
 
-inline static constexpr unsigned int Struct_2_C011C4309B1E1D24_TypeDefinitionIndex = 65520;
+inline static constexpr unsigned int Struct_2_C011C4309B1E1D24_TypeDefinitionIndex = 66450;
 
 struct alignas(8) Struct_2_C011C4309B1E1D24
 {
-	::Unity::Collections::NativeArray_1<::Struct_2_8BE3C66A8F21F652> Field_2_0; // 0x10
+	::Unity::Collections::NativeArray_1<::Struct_2_44EF3BC6A9A1AE8B> Field_2_0; // 0x10
 	::System::Single Field_2_1; // 0x20
 
 	::System::Void Execute(::System::Int32 a1)

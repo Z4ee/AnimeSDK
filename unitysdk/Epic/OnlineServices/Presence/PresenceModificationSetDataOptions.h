@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices::Presence { class DataRecord; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETDATAOPTIONS_GET_RECORDS_OFFSET UNITYSDK_OFFSET(0x8F09BC0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETDATAOPTIONS_SET_RECORDS_OFFSET UNITYSDK_OFFSET(0x8F09BD0)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETDATAOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8F09BE0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETDATAOPTIONS_GET_RECORDS_OFFSET UNITYSDK_OFFSET(0xA332BE0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETDATAOPTIONS_SET_RECORDS_OFFSET UNITYSDK_OFFSET(0xA332BF0)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETDATAOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA332C00)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int PresenceModificationSetDataOptions_TypeDefinitionIndex = 41608;
+	inline static constexpr unsigned int PresenceModificationSetDataOptions_TypeDefinitionIndex = 42411;
 
 	class PresenceModificationSetDataOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Il2CppArray<::Epic::OnlineServices::Presence::DataRecord*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETDATAOPTIONS_GET_RECORDS_OFFSET))(this);
 		}
 
-		::System::Void set_Records(::Il2CppArray<::Epic::OnlineServices::Presence::DataRecord*>* value)
+		::System::Void set_Records(::Il2CppArray<::Epic::OnlineServices::Presence::DataRecord*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::Presence::DataRecord*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETDATAOPTIONS_SET_RECORDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::Presence::DataRecord*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONSETDATAOPTIONS_SET_RECORDS_OFFSET))(this, a1);
 		}
 	};
 }

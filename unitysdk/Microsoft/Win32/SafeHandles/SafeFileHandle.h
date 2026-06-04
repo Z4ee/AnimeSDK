@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.h"
 
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEFILEHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x1778D8C0)
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEFILEHANDLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1778D850)
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEFILEHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1778D7D0)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEFILEHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x185487A0)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEFILEHANDLE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18548710)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEFILEHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18548660)
 
 namespace Microsoft::Win32::SafeHandles
 {
@@ -18,9 +18,9 @@ namespace Microsoft::Win32::SafeHandles
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_SAFEHANDLES_SAFEFILEHANDLE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr preexistingHandle, ::System::Boolean ownsHandle)
+		::System::Void _ctor_1(::System::IntPtr a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_SAFEHANDLES_SAFEFILEHANDLE__CTOR_1_OFFSET))(this, preexistingHandle, ownsHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_SAFEHANDLES_SAFEFILEHANDLE__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean ReleaseHandle()

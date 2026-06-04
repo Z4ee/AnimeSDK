@@ -6,7 +6,7 @@ namespace System::Collections { class IEqualityComparer; }
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int IStructuralEquatable_TypeDefinitionIndex = 1479;
+	inline static constexpr unsigned int IStructuralEquatable_TypeDefinitionIndex = 1478;
 
 	class IStructuralEquatable
 	{

@@ -9,16 +9,16 @@ namespace Spine::Unity { class BlendModeMaterials_ReplacementMaterial; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define SPINE_UNITY_BLENDMODEMATERIALS_APPLYMATERIALS_OFFSET UNITYSDK_OFFSET(0x19E333F0)
-#define SPINE_UNITY_BLENDMODEMATERIALS_BLENDMODEFORMATERIAL_OFFSET UNITYSDK_OFFSET(0x19E33040)
-#define SPINE_UNITY_BLENDMODEMATERIALS_CLONEATLASREGIONWITHMATERIAL_OFFSET UNITYSDK_OFFSET(0x19E33D30)
-#define SPINE_UNITY_BLENDMODEMATERIALS_GET_REQUIRESBLENDMODEMATERIALS_OFFSET UNITYSDK_OFFSET(0x19E33020)
-#define SPINE_UNITY_BLENDMODEMATERIALS_SET_REQUIRESBLENDMODEMATERIALS_OFFSET UNITYSDK_OFFSET(0x19E33030)
-#define SPINE_UNITY_BLENDMODEMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x19E34070)
+#define SPINE_UNITY_BLENDMODEMATERIALS_APPLYMATERIALS_OFFSET UNITYSDK_OFFSET(0x1ACAD910)
+#define SPINE_UNITY_BLENDMODEMATERIALS_BLENDMODEFORMATERIAL_OFFSET UNITYSDK_OFFSET(0x1ACAD520)
+#define SPINE_UNITY_BLENDMODEMATERIALS_CLONEATLASREGIONWITHMATERIAL_OFFSET UNITYSDK_OFFSET(0x1ACAE190)
+#define SPINE_UNITY_BLENDMODEMATERIALS_GET_REQUIRESBLENDMODEMATERIALS_OFFSET UNITYSDK_OFFSET(0x1ACAD500)
+#define SPINE_UNITY_BLENDMODEMATERIALS_SET_REQUIRESBLENDMODEMATERIALS_OFFSET UNITYSDK_OFFSET(0x1ACAD510)
+#define SPINE_UNITY_BLENDMODEMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACAE370)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int BlendModeMaterials_TypeDefinitionIndex = 40553;
+	inline static constexpr unsigned int BlendModeMaterials_TypeDefinitionIndex = 41380;
 
 	class BlendModeMaterials : public ::System::Object
 	{
@@ -39,24 +39,24 @@ namespace Spine::Unity
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALS_GET_REQUIRESBLENDMODEMATERIALS_OFFSET))(this);
 		}
 
-		::System::Void set_RequiresBlendModeMaterials(::System::Boolean value)
+		::System::Void set_RequiresBlendModeMaterials(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALS_SET_REQUIRESBLENDMODEMATERIALS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALS_SET_REQUIRESBLENDMODEMATERIALS_OFFSET))(this, a1);
 		}
 
-		::Spine::BlendMode BlendModeForMaterial(::UnityEngine::Material* material)
+		::Spine::BlendMode BlendModeForMaterial(::UnityEngine::Material* a1)
 		{
-			return ((::Spine::BlendMode(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALS_BLENDMODEFORMATERIAL_OFFSET))(this, material);
+			return ((::Spine::BlendMode(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALS_BLENDMODEFORMATERIAL_OFFSET))(this, a1);
 		}
 
-		::System::Void ApplyMaterials(::Spine::SkeletonData* skeletonData)
+		::System::Void ApplyMaterials(::Spine::SkeletonData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALS_APPLYMATERIALS_OFFSET))(this, skeletonData);
+			return ((::System::Void(*)(::PVOID, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALS_APPLYMATERIALS_OFFSET))(this, a1);
 		}
 
-		::Spine::AtlasRegion* CloneAtlasRegionWithMaterial(::Spine::AtlasRegion* originalRegion, ::System::Collections::Generic::List_1<::Spine::Unity::BlendModeMaterials_ReplacementMaterial*>* replacementMaterials)
+		::Spine::AtlasRegion* CloneAtlasRegionWithMaterial(::Spine::AtlasRegion* a1, ::System::Collections::Generic::List_1<::Spine::Unity::BlendModeMaterials_ReplacementMaterial*>* a2)
 		{
-			return ((::Spine::AtlasRegion*(*)(::PVOID, ::Spine::AtlasRegion*, ::System::Collections::Generic::List_1<::Spine::Unity::BlendModeMaterials_ReplacementMaterial*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALS_CLONEATLASREGIONWITHMATERIAL_OFFSET))(this, originalRegion, replacementMaterials);
+			return ((::Spine::AtlasRegion*(*)(::PVOID, ::Spine::AtlasRegion*, ::System::Collections::Generic::List_1<::Spine::Unity::BlendModeMaterials_ReplacementMaterial*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALS_CLONEATLASREGIONWITHMATERIAL_OFFSET))(this, a1, a2);
 		}
 	};
 }

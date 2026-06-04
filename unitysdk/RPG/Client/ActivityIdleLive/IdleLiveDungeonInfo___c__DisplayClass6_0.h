@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B4A620)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS6_0__GETDUNGEONDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9B4DC00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1320C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS6_0__GETDUNGEONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB135640)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonInfo___c__DisplayClass6_0_TypeDefinitionIndex = 69274;
+	inline static constexpr unsigned int IdleLiveDungeonInfo___c__DisplayClass6_0_TypeDefinitionIndex = 70086;
 
 	class IdleLiveDungeonInfo___c__DisplayClass6_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS6_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetDungeonData_b__0(::RPG::Client::ActivityIdleLive::IdleLiveDungeonData* data)
+		::System::Boolean _GetDungeonData_b__0(::RPG::Client::ActivityIdleLive::IdleLiveDungeonData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS6_0__GETDUNGEONDATA_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS6_0__GETDUNGEONDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

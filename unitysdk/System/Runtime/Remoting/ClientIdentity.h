@@ -8,24 +8,24 @@ namespace System { class Type; }
 namespace System { class WeakReference; }
 namespace System::Runtime::Remoting { class ObjRef; }
 
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x179CAAE0)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x179CAA20)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_TARGETURI_OFFSET UNITYSDK_OFFSET(0x179CAAF0)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_SET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x179CAAA0)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x179CA9A0)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x1877B8A0)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x1877B7D0)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_TARGETURI_OFFSET UNITYSDK_OFFSET(0x1877B8B0)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_SET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x1877B860)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1877B750)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int ClientIdentity_TypeDefinitionIndex = 1201;
+	inline static constexpr unsigned int ClientIdentity_TypeDefinitionIndex = 1200;
 
 	class ClientIdentity : public ::System::Runtime::Remoting::Identity
 	{
 	public:
 		::System::WeakReference* _proxyReference; // 0x48
 
-		::System::Void _ctor(::System::String* objectUri, ::System::Runtime::Remoting::ObjRef* objRef)
+		::System::Void _ctor(::System::String* a1, ::System::Runtime::Remoting::ObjRef* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Runtime::Remoting::ObjRef*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY__CTOR_OFFSET))(this, objectUri, objRef);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Runtime::Remoting::ObjRef*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::MarshalByRefObject* get_ClientProxy()
@@ -33,14 +33,14 @@ namespace System::Runtime::Remoting
 			return ((::System::MarshalByRefObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_CLIENTPROXY_OFFSET))(this);
 		}
 
-		::System::Void set_ClientProxy(::System::MarshalByRefObject* value)
+		::System::Void set_ClientProxy(::System::MarshalByRefObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::MarshalByRefObject*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_SET_CLIENTPROXY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::MarshalByRefObject*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_SET_CLIENTPROXY_OFFSET))(this, a1);
 		}
 
-		::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType)
+		::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* a1)
 		{
-			return ((::System::Runtime::Remoting::ObjRef*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CREATEOBJREF_OFFSET))(this, requestedType);
+			return ((::System::Runtime::Remoting::ObjRef*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CREATEOBJREF_OFFSET))(this, a1);
 		}
 
 		::System::String* get_TargetUri()

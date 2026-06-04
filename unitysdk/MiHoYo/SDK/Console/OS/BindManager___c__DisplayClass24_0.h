@@ -6,27 +6,27 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console::OS { class BindManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17457320)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS24_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x17459950)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18258900)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS24_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x1825B0B0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass24_0_TypeDefinitionIndex = 7823;
+	inline static constexpr unsigned int BindManager___c__DisplayClass24_0_TypeDefinitionIndex = 8726;
 
 	class BindManager___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::OS::BindManager* __4__this; // 0x10
-		::System::String* input; // 0x18
+		::System::String* input; // 0x10
+		::MiHoYo::SDK::Console::OS::BindManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GetCaptchaCode_b__0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _GetCaptchaCode_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS24_0__GETCAPTCHACODE_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS24_0__GETCAPTCHACODE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

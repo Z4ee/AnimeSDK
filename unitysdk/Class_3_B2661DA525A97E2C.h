@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareMonsterPhase; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B2661DA525A97E2C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12B46F80)
-#define CLASS_3_B2661DA525A97E2C__CTOR_OFFSET UNITYSDK_OFFSET(0x12B46F50)
+#define CLASS_3_B2661DA525A97E2C_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA5692A0)
+#define CLASS_3_B2661DA525A97E2C__CTOR_OFFSET UNITYSDK_OFFSET(0xA569270)
 
-inline static constexpr unsigned int Class_3_B2661DA525A97E2C_TypeDefinitionIndex = 50326;
+inline static constexpr unsigned int Class_3_B2661DA525A97E2C_TypeDefinitionIndex = 50991;
 
 class Class_3_B2661DA525A97E2C : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareMonsterPhase*>
 {

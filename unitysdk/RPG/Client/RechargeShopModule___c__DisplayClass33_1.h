@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RechargeShopModule___c__DisplayClass33_0; }
 
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS33_1__BUYGIFT_B__1_OFFSET UNITYSDK_OFFSET(0xAF7C2E0)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAF7C2D0)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS33_1__BUYGIFT_B__1_OFFSET UNITYSDK_OFFSET(0xC6C2840)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC6C2830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass33_1_TypeDefinitionIndex = 61515;
+	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass33_1_TypeDefinitionIndex = 62448;
 
 	class RechargeShopModule___c__DisplayClass33_1 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS33_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _BuyGift_b__1(::System::Boolean refreshSuccess)
+		::System::Void _BuyGift_b__1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS33_1__BUYGIFT_B__1_OFFSET))(this, refreshSuccess);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS33_1__BUYGIFT_B__1_OFFSET))(this, a1);
 		}
 	};
 }

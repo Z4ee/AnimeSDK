@@ -4,31 +4,31 @@
 
 namespace System::Security::Cryptography { class RC2; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x17A459E0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A475C0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x17A45020)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x187F3CE0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x187F5810)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x187F33D0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RC2Transform_TypeDefinitionIndex = 1070;
+	inline static constexpr unsigned int RC2Transform_TypeDefinitionIndex = 1069;
 
 	class RC2Transform : public ::Mono::Security::Cryptography::SymmetricTransform
 	{
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_pitable()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(RC2Transform_TypeDefinitionIndex)->GetStaticField(0x8B10);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(RC2Transform_TypeDefinitionIndex)->GetStaticField(0xEC40);
 		}
 		::Il2CppArray<::System::UInt16>* K; // 0x50
-		::System::UInt16 R0; // 0x58
-		::System::UInt16 R1; // 0x5A
-		::System::UInt16 R3; // 0x5C
-		::System::UInt16 R2; // 0x5E
-		::System::Int32 j; // 0x60
+		::System::Int32 j; // 0x58
+		::System::UInt16 R2; // 0x5C
+		::System::UInt16 R1; // 0x5E
+		::System::UInt16 R3; // 0x60
+		::System::UInt16 R0; // 0x62
 
-		::System::Void _ctor(::System::Security::Cryptography::RC2* rc2Algo, ::System::Boolean encryption, ::Il2CppArray<::System::Byte>* key, ::Il2CppArray<::System::Byte>* iv)
+		::System::Void _ctor(::System::Security::Cryptography::RC2* a1, ::System::Boolean a2, ::Il2CppArray<::System::Byte>* a3, ::Il2CppArray<::System::Byte>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::RC2*, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM__CTOR_OFFSET))(this, rc2Algo, encryption, key, iv);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::RC2*, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace System::Security::Cryptography
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM__CCTOR_OFFSET))();
 		}
 
-		::System::Void ECB(::Il2CppArray<::System::Byte>* input, ::Il2CppArray<::System::Byte>* output)
+		::System::Void ECB(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM_ECB_OFFSET))(this, input, output);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RC2TRANSFORM_ECB_OFFSET))(this, a1, a2);
 		}
 	};
 }

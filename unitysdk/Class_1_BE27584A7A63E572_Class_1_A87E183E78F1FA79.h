@@ -4,18 +4,18 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_181A7F9409C60DBC;
+class Class_2_6B60059019300BAD;
 
-#define CLASS_1_BE27584A7A63E572_CLASS_1_A87E183E78F1FA79__CTOR_OFFSET UNITYSDK_OFFSET(0xA559B40)
+#define CLASS_1_BE27584A7A63E572_CLASS_1_A87E183E78F1FA79__CTOR_OFFSET UNITYSDK_OFFSET(0xA4D96C0)
 
-inline static constexpr unsigned int Class_1_BE27584A7A63E572_Class_1_A87E183E78F1FA79_TypeDefinitionIndex = 71308;
+inline static constexpr unsigned int Class_1_BE27584A7A63E572_Class_1_A87E183E78F1FA79_TypeDefinitionIndex = 72330;
 
 class Class_1_BE27584A7A63E572_Class_1_A87E183E78F1FA79 : public ::System::Object
 {
 public:
-	::Class_2_181A7F9409C60DBC* Field_1_0; // 0x10
-	::RPG::MVector3 Field_1_2; // 0x18
-	::System::Nullable_1<::System::Single> Field_1_1; // 0x24
+	::Class_2_6B60059019300BAD* Field_1_0; // 0x10
+	::System::Nullable_1<::System::Single> Field_1_1; // 0x18
+	::RPG::MVector3 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

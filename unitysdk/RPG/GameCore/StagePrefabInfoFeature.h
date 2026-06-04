@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePrefabInfoFeature_TypeDefinitionIndex = 18114;
+	inline static constexpr unsigned int StagePrefabInfoFeature_TypeDefinitionIndex = 23097;
 
 	enum class StagePrefabInfoFeature : ::System::Int32
 	{

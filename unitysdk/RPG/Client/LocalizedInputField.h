@@ -9,31 +9,31 @@ namespace System { class String; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
 
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_AWAKE_OFFSET UNITYSDK_OFFSET(0xA6F7CC0)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_HASSTATE_OFFSET UNITYSDK_OFFSET(0xA6F9710)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA6F80E0)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_ONDESELECT_OFFSET UNITYSDK_OFFSET(0xA6F9350)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA6F7F50)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_ONSELECT_OFFSET UNITYSDK_OFFSET(0xA6F8950)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_SETCHECKED_OFFSET UNITYSDK_OFFSET(0xA6F8CD0)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD_UPDATELABEL_OFFSET UNITYSDK_OFFSET(0xA6F8330)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD__ANIMATORCHECK_OFFSET UNITYSDK_OFFSET(0xA6F9620)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0xA6F9F70)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD__INITNAVIGATIONMODE_OFFSET UNITYSDK_OFFSET(0xA6F9AB0)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD__ONENDEDIT_OFFSET UNITYSDK_OFFSET(0xA6F9920)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD__ONUIINCONTROLTIPUPDATE_OFFSET UNITYSDK_OFFSET(0xA6F9B40)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD__ONVALIDATEINPUT_OFFSET UNITYSDK_OFFSET(0xA6F97C0)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD__POSTINPUTSOUND_OFFSET UNITYSDK_OFFSET(0xA6F9D70)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0xA6FA010)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA6FA0B0)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_ONDESELECT_OFFSET UNITYSDK_OFFSET(0xA6FA1A0)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA6FA0A0)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_ONSELECT_OFFSET UNITYSDK_OFFSET(0xA6FA0D0)
-#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_UPDATELABEL_OFFSET UNITYSDK_OFFSET(0xA6FA0C0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_AWAKE_OFFSET UNITYSDK_OFFSET(0xBE581F0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_HASSTATE_OFFSET UNITYSDK_OFFSET(0xBE59720)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xBE586C0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_ONDESELECT_OFFSET UNITYSDK_OFFSET(0xBE59360)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBE584C0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_ONSELECT_OFFSET UNITYSDK_OFFSET(0xBE58EB0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_SETCHECKED_OFFSET UNITYSDK_OFFSET(0xBE59230)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD_UPDATELABEL_OFFSET UNITYSDK_OFFSET(0xBE58920)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD__ANIMATORCHECK_OFFSET UNITYSDK_OFFSET(0xBE59630)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0xBE5A000)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD__INITNAVIGATIONMODE_OFFSET UNITYSDK_OFFSET(0xBE59AC0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD__ONENDEDIT_OFFSET UNITYSDK_OFFSET(0xBE59930)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD__ONUIINCONTROLTIPUPDATE_OFFSET UNITYSDK_OFFSET(0xBE59BD0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD__ONVALIDATEINPUT_OFFSET UNITYSDK_OFFSET(0xBE597D0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD__POSTINPUTSOUND_OFFSET UNITYSDK_OFFSET(0xBE59E00)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0xBE5A0A0)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xBE5A140)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_ONDESELECT_OFFSET UNITYSDK_OFFSET(0xBE5A230)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xBE5A130)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_ONSELECT_OFFSET UNITYSDK_OFFSET(0xBE5A160)
+#define RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_UPDATELABEL_OFFSET UNITYSDK_OFFSET(0xBE5A150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LocalizedInputField_TypeDefinitionIndex = 66855;
+	inline static constexpr unsigned int LocalizedInputField_TypeDefinitionIndex = 67795;
 
 	class LocalizedInputField : public ::UnityEngine::UI::InputField
 	{
@@ -74,34 +74,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_UPDATELABEL_OFFSET))(this);
 		}
 
-		::System::Void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData)
+		::System::Void OnSelect(::UnityEngine::EventSystems::BaseEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_ONSELECT_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_ONSELECT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData)
+		::System::Void OnDeselect(::UnityEngine::EventSystems::BaseEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_ONDESELECT_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_ONDESELECT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetChecked(::System::Boolean isChecked)
+		::System::Void SetChecked(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_SETCHECKED_OFFSET))(this, isChecked);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_SETCHECKED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HasState(::UnityEngine::Animator* _animator, ::System::String* state_name, ::System::Int32 index)
+		::System::Boolean HasState(::UnityEngine::Animator* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Animator*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_HASSTATE_OFFSET))(this, _animator, state_name, index);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Animator*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD_HASSTATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Char _OnValidateInput(::System::String* s, ::System::Int32 charIndex, ::System::Char addedChar)
+		::System::Char _OnValidateInput(::System::String* a1, ::System::Int32 a2, ::System::Char a3)
 		{
-			return ((::System::Char(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Char))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD__ONVALIDATEINPUT_OFFSET))(this, s, charIndex, addedChar);
+			return ((::System::Char(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Char))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD__ONVALIDATEINPUT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _OnEndEdit(::System::String* str)
+		::System::Void _OnEndEdit(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD__ONENDEDIT_OFFSET))(this, str);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD__ONENDEDIT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean _AnimatorCheck()
@@ -114,9 +114,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD__INITNAVIGATIONMODE_OFFSET))(this);
 		}
 
-		::System::Void _OnUIInControlTipUpdate(::System::Object* args)
+		::System::Void _OnUIInControlTipUpdate(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD__ONUIINCONTROLTIPUPDATE_OFFSET))(this, args);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD__ONUIINCONTROLTIPUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Void _PostInputSound()
@@ -144,14 +144,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_UPDATELABEL_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_OnSelect(::UnityEngine::EventSystems::BaseEventData* P0)
+		::System::Void __iFixBaseProxy_OnSelect(::UnityEngine::EventSystems::BaseEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_ONSELECT_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_ONSELECT_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_OnDeselect(::UnityEngine::EventSystems::BaseEventData* P0)
+		::System::Void __iFixBaseProxy_OnDeselect(::UnityEngine::EventSystems::BaseEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_ONDESELECT_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOCALIZEDINPUTFIELD___IFIXBASEPROXY_ONDESELECT_OFFSET))(this, a1);
 		}
 	};
 }

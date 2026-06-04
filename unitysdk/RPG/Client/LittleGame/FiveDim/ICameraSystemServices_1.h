@@ -7,9 +7,9 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_163;
-class Class_0_16E4307DCC419505_205;
-class Class_0_16E4307DCC419505_98;
+class Class_0_16E4307DCC419505_169;
+class Class_0_16E4307DCC419505_215;
+class Class_0_16E4307DCC419505_97;
 namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class FiveDimGlobalCameraConfig; }
@@ -19,7 +19,7 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int ICameraSystemServices_1_TypeDefinitionIndex = 39419;
+	inline static constexpr unsigned int ICameraSystemServices_1_TypeDefinitionIndex = 40190;
 
 	template <typename T>
 	class ICameraSystemServices_1

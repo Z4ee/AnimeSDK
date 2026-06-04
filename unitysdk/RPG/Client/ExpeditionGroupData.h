@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class ExpeditionGroupRow; }
 
-#define RPG_CLIENT_EXPEDITIONGROUPDATA_GETINPROGRESSHARVESTCOUNT_OFFSET UNITYSDK_OFFSET(0xA30C640)
-#define RPG_CLIENT_EXPEDITIONGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA30C600)
+#define RPG_CLIENT_EXPEDITIONGROUPDATA_GETINPROGRESSHARVESTCOUNT_OFFSET UNITYSDK_OFFSET(0xB95CCF0)
+#define RPG_CLIENT_EXPEDITIONGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB95CCB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionGroupData_TypeDefinitionIndex = 58828;
+	inline static constexpr unsigned int ExpeditionGroupData_TypeDefinitionIndex = 59758;
 
 	class ExpeditionGroupData : public ::System::Object
 	{
@@ -17,9 +17,9 @@ namespace RPG::Client
 		::RPG::GameCore::ExpeditionGroupRow* Config; // 0x10
 		::System::UInt32 GroupID; // 0x18
 
-		::System::Void _ctor(::System::UInt32 groupId)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONGROUPDATA__CTOR_OFFSET))(this, groupId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONGROUPDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetInProgressHarvestCount()

@@ -7,20 +7,20 @@
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace HedgehogTeam::EasyTouch { class QuickPinch_OnPinchAction; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_DOACTION_OFFSET UNITYSDK_OFFSET(0x12C4D320)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12C4D2F0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12C4CFC0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12C4CCA0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PICHEND_OFFSET UNITYSDK_OFFSET(0x12C4D5B0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCHIN_OFFSET UNITYSDK_OFFSET(0x12C4D570)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCHOUT_OFFSET UNITYSDK_OFFSET(0x12C4D590)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCH_OFFSET UNITYSDK_OFFSET(0x12C4D300)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_UNSUBSCRIBEEVENT_OFFSET UNITYSDK_OFFSET(0x12C4CFD0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH__CTOR_OFFSET UNITYSDK_OFFSET(0x12C4CC10)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_DOACTION_OFFSET UNITYSDK_OFFSET(0x146FB840)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x146FB810)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x146FB460)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ONENABLE_OFFSET UNITYSDK_OFFSET(0x146FB0C0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PICHEND_OFFSET UNITYSDK_OFFSET(0x146FBAD0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCHIN_OFFSET UNITYSDK_OFFSET(0x146FBA90)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCHOUT_OFFSET UNITYSDK_OFFSET(0x146FBAB0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCH_OFFSET UNITYSDK_OFFSET(0x146FB820)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_UNSUBSCRIBEEVENT_OFFSET UNITYSDK_OFFSET(0x146FB470)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH__CTOR_OFFSET UNITYSDK_OFFSET(0x146FB030)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickPinch_TypeDefinitionIndex = 37001;
+	inline static constexpr unsigned int QuickPinch_TypeDefinitionIndex = 37301;
 
 	class QuickPinch : public ::HedgehogTeam::EasyTouch::QuickBase
 	{
@@ -57,29 +57,29 @@ namespace HedgehogTeam::EasyTouch
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_UNSUBSCRIBEEVENT_OFFSET))(this);
 		}
 
-		::System::Void On_Pinch(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_Pinch(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCH_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCH_OFFSET))(this, a1);
 		}
 
-		::System::Void On_PinchIn(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_PinchIn(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCHIN_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCHIN_OFFSET))(this, a1);
 		}
 
-		::System::Void On_PinchOut(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_PinchOut(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCHOUT_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PINCHOUT_OFFSET))(this, a1);
 		}
 
-		::System::Void On_PichEnd(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_PichEnd(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PICHEND_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ON_PICHEND_OFFSET))(this, a1);
 		}
 
-		::System::Void DoAction(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void DoAction(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_DOACTION_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_DOACTION_OFFSET))(this, a1);
 		}
 	};
 }

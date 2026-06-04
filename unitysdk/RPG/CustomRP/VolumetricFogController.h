@@ -5,23 +5,23 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18183500)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x181836E0)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18183680)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18183600)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x181837D0)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18183740)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18F29530)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18F296E0)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18F29680)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18F29600)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F297D0)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F29740)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VolumetricFogController_TypeDefinitionIndex = 35126;
+	inline static constexpr unsigned int VolumetricFogController_TypeDefinitionIndex = 35412;
 
 	class VolumetricFogController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::RPG::CustomRP::VolumetricFogController*>** StaticGet__instances()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::CustomRP::VolumetricFogController*>**)Il2CppClass::FromTypeDefinitionIndex(VolumetricFogController_TypeDefinitionIndex)->GetStaticField(0xF50);
+			return (::System::Collections::Generic::HashSet_1<::RPG::CustomRP::VolumetricFogController*>**)Il2CppClass::FromTypeDefinitionIndex(VolumetricFogController_TypeDefinitionIndex)->GetStaticField(0x62E40);
 		}
 		::System::Boolean Enable; // 0x18
 		::System::Single StartDistance; // 0x1C

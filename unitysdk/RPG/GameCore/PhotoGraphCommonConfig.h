@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PhotoGraphBodySizeHeightConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_METHOD_2_2A5B768076B3986E_OFFSET UNITYSDK_OFFSET(0x18BF3F50)
-#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF42F0)
+#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_METHOD_2_100CE94BB5D81A94_OFFSET UNITYSDK_OFFSET(0x19A05DC0)
+#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A06150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphCommonConfig_TypeDefinitionIndex = 18079;
+	inline static constexpr unsigned int PhotoGraphCommonConfig_TypeDefinitionIndex = 18103;
 
 	class PhotoGraphCommonConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2A5B768076B3986E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphCommonConfig*& a2)
+		static ::System::Void Method_2_100CE94BB5D81A94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphCommonConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphCommonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_METHOD_2_2A5B768076B3986E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphCommonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_METHOD_2_100CE94BB5D81A94_OFFSET))(a1, a2);
 		}
 	};
 }

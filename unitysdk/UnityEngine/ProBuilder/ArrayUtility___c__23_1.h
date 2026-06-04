@@ -8,7 +8,7 @@ namespace UnityEngine::ProBuilder { template <typename T> class ArrayUtility___c
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ArrayUtility___c__23_1_TypeDefinitionIndex = 39885;
+	inline static constexpr unsigned int ArrayUtility___c__23_1_TypeDefinitionIndex = 40712;
 
 	template <typename T>
 	class ArrayUtility___c__23_1 : public ::System::Object

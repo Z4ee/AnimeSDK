@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::Sessions { class RegisterPlayersOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14A00)
-#define EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x14990)
-#define EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x14980)
-#define EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_PLAYERSTOREGISTER_OFFSET UNITYSDK_OFFSET(0x14910)
-#define EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x14860)
+#define EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x150E0)
+#define EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x15060)
+#define EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x15050)
+#define EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_PLAYERSTOREGISTER_OFFSET UNITYSDK_OFFSET(0x14FE0)
+#define EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET UNITYSDK_OFFSET(0x14F30)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int RegisterPlayersOptionsInternal_TypeDefinitionIndex = 41314;
+	inline static constexpr unsigned int RegisterPlayersOptionsInternal_TypeDefinitionIndex = 42117;
 
 	struct alignas(8) RegisterPlayersOptionsInternal
 	{
@@ -24,24 +24,24 @@ namespace Epic::OnlineServices::Sessions
 		::System::IntPtr m_PlayersToRegister; // 0x20
 		::System::UInt32 m_PlayersToRegisterCount; // 0x28
 
-		::System::Void set_SessionName(::System::String* value)
+		::System::Void set_SessionName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_SESSIONNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_PlayersToRegister(::Il2CppArray<::Epic::OnlineServices::ProductUserId*>* value)
+		::System::Void set_PlayersToRegister(::Il2CppArray<::Epic::OnlineServices::ProductUserId*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::ProductUserId*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_PLAYERSTOREGISTER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::ProductUserId*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_PLAYERSTOREGISTER_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::RegisterPlayersOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::RegisterPlayersOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::RegisterPlayersOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::RegisterPlayersOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REGISTERPLAYERSOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

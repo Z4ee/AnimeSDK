@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define CLASS_1_945ACFB1FEBC7A2C_26__CTOR_OFFSET UNITYSDK_OFFSET(0x991C440)
+#define CLASS_1_945ACFB1FEBC7A2C_26__CTOR_OFFSET UNITYSDK_OFFSET(0x10647140)
 
-inline static constexpr unsigned int Class_1_945ACFB1FEBC7A2C_26_TypeDefinitionIndex = 59642;
+inline static constexpr unsigned int Class_1_945ACFB1FEBC7A2C_26_TypeDefinitionIndex = 57859;
 
 class Class_1_945ACFB1FEBC7A2C_26 : public ::System::Object
 {
 public:
-	::System::String* CdnContent; // 0x10
+	::System::String* InviteCode; // 0x10
 
 	::System::Void _ctor()
 	{

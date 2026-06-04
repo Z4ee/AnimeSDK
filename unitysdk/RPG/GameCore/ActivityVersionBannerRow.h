@@ -5,27 +5,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1863B690)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1863BBF0)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1940A6E0)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1940AC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityVersionBannerRow_TypeDefinitionIndex = 10732;
+	inline static constexpr unsigned int ActivityVersionBannerRow_TypeDefinitionIndex = 10788;
 
 	class ActivityVersionBannerRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ActivityID; // 0x10
-		::RPG::GameCore::MainMissionType Type; // 0x14
+		::RPG::GameCore::MainMissionType Type; // 0x10
+		::System::UInt32 ActivityID; // 0x14
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYVERSIONBANNERROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityVersionBannerRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityVersionBannerRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityVersionBannerRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYVERSIONBANNERROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityVersionBannerRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYVERSIONBANNERROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

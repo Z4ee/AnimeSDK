@@ -8,27 +8,27 @@ namespace RPG::Client::ActivityIdleLive { class EmojiChatContentData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9B27D30)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA_GETEMOJICHATCONTENTDATA_OFFSET UNITYSDK_OFFSET(0x9B27DE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0x9B27A30)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0x9B27A40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9B27A50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA__GETEMOJINUM_OFFSET UNITYSDK_OFFSET(0x9B27F10)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA__GETEMOJI_OFFSET UNITYSDK_OFFSET(0x9B27E90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA__GETSENDERNAME_OFFSET UNITYSDK_OFFSET(0x9B28020)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB10DCF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA_GETEMOJICHATCONTENTDATA_OFFSET UNITYSDK_OFFSET(0xB10DD80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xB10D8B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xB10D8C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB10D8D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA__GETEMOJINUM_OFFSET UNITYSDK_OFFSET(0xB10DEC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA__GETEMOJI_OFFSET UNITYSDK_OFFSET(0xB10DE30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA__GETSENDERNAME_OFFSET UNITYSDK_OFFSET(0xB10DFD0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int EmojiChatData_TypeDefinitionIndex = 69401;
+	inline static constexpr unsigned int EmojiChatData_TypeDefinitionIndex = 70213;
 
 	class EmojiChatData : public ::System::Object
 	{
 	public:
-		::Class_1_981D4BAE18B257E9* _TextNumRandomRange; // 0x10
-		::System::Collections::Generic::List_1<::System::String*>* _PossibleEmojis; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::TextID>* _PossibleSenders; // 0x20
-		::System::Single _Interval_k__BackingField; // 0x28
-		::System::UInt32 _EmojiPhaseId; // 0x2C
+		::System::Collections::Generic::List_1<::RPG::Client::TextID>* _PossibleSenders; // 0x10
+		::Class_1_981D4BAE18B257E9* _TextNumRandomRange; // 0x18
+		::System::Collections::Generic::List_1<::System::String*>* _PossibleEmojis; // 0x20
+		::System::UInt32 _EmojiPhaseId; // 0x28
+		::System::Single _Interval_k__BackingField; // 0x2C
 
 		::System::Void _ctor()
 		{
@@ -40,9 +40,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA_GET_INTERVAL_OFFSET))(this);
 		}
 
-		::System::Void set_Interval(::System::Single value)
+		::System::Void set_Interval(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA_SET_INTERVAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATDATA_SET_INTERVAL_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

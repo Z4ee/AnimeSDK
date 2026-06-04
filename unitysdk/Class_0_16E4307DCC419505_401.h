@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
 
-class Class_2_09C674B625F78810;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_401_TypeDefinitionIndex = 49482;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_401_TypeDefinitionIndex = 52939;
 
 class Class_0_16E4307DCC419505_401
 {

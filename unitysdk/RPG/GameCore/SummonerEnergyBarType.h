@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonerEnergyBarType_TypeDefinitionIndex = 21633;
+	inline static constexpr unsigned int SummonerEnergyBarType_TypeDefinitionIndex = 23296;
 
 	enum class SummonerEnergyBarType : ::System::Int32
 	{

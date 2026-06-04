@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DynamicArray_1_TypeDefinitionIndex = 33391;
+	inline static constexpr unsigned int DynamicArray_1_TypeDefinitionIndex = 33673;
 
 	template <typename T>
 	class DynamicArray_1 : public ::System::Object

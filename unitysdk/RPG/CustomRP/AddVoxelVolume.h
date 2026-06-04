@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CUSTOMRP_ADDVOXELVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xB4EBCD0)
+#define RPG_CUSTOMRP_ADDVOXELVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xCC51D60)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AddVoxelVolume_TypeDefinitionIndex = 47845;
+	inline static constexpr unsigned int AddVoxelVolume_TypeDefinitionIndex = 48460;
 
 	class AddVoxelVolume : public ::UnityEngine::MonoBehaviour
 	{

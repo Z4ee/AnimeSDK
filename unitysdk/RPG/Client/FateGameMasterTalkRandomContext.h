@@ -6,15 +6,15 @@
 namespace RPG::Client { class FateGameData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT_CLONEAVATARSWAPPED_OFFSET UNITYSDK_OFFSET(0xD6F80)
-#define RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT_CREATEBYGAMEDATA_OFFSET UNITYSDK_OFFSET(0xA347E50)
-#define RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT_GET_ISAVATAR2WIN_OFFSET UNITYSDK_OFFSET(0xD6F70)
-#define RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD7020)
-#define RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD7030)
+#define RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT_CLONEAVATARSWAPPED_OFFSET UNITYSDK_OFFSET(0x13B300)
+#define RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT_CREATEBYGAMEDATA_OFFSET UNITYSDK_OFFSET(0xB9989A0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT_GET_ISAVATAR2WIN_OFFSET UNITYSDK_OFFSET(0x13B2F0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x13B3A0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x13B3B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterTalkRandomContext_TypeDefinitionIndex = 58969;
+	inline static constexpr unsigned int FateGameMasterTalkRandomContext_TypeDefinitionIndex = 59899;
 
 	struct alignas(4) FateGameMasterTalkRandomContext
 	{
@@ -32,9 +32,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT_GET_ISAVATAR2WIN_OFFSET))(this);
 		}
 
-		static ::RPG::Client::FateGameMasterTalkRandomContext CreateByGameData(::RPG::Client::FateGameMasterTalkUIType uiType, ::System::UInt32 avatarID1, ::System::UInt32 avatarID2, ::RPG::Client::FateGameData* gameData)
+		static ::RPG::Client::FateGameMasterTalkRandomContext CreateByGameData(::RPG::Client::FateGameMasterTalkUIType a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::FateGameData* a4)
 		{
-			return ((::RPG::Client::FateGameMasterTalkRandomContext(*)(::RPG::Client::FateGameMasterTalkUIType, ::System::UInt32, ::System::UInt32, ::RPG::Client::FateGameData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT_CREATEBYGAMEDATA_OFFSET))(uiType, avatarID1, avatarID2, gameData);
+			return ((::RPG::Client::FateGameMasterTalkRandomContext(*)(::RPG::Client::FateGameMasterTalkUIType, ::System::UInt32, ::System::UInt32, ::RPG::Client::FateGameData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERTALKRANDOMCONTEXT_CREATEBYGAMEDATA_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::RPG::Client::FateGameMasterTalkRandomContext CloneAvatarSwapped()

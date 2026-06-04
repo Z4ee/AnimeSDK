@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MIHOYO_SDK_MIHOYOBASESDK_CUSTOMAUTOTESTUNIQUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8D37690)
+#define MIHOYO_SDK_MIHOYOBASESDK_CUSTOMAUTOTESTUNIQUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA18C930)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoBaseSDK_CustomAutoTestUniqueInfo_TypeDefinitionIndex = 42862;
+	inline static constexpr unsigned int MiHoYoBaseSDK_CustomAutoTestUniqueInfo_TypeDefinitionIndex = 43665;
 
 	class MiHoYoBaseSDK_CustomAutoTestUniqueInfo : public ::System::Object
 	{

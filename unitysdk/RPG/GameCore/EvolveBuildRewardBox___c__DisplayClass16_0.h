@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class EvolveBuildRewardBoxGear; }
 namespace RPG::GameCore { class EvolveBuildRewardBoxGearUpgrade; }
 
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB682650)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS16_0___ADDTOWAVEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB685120)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCDED0D0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS16_0___ADDTOWAVEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCDEFA90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRewardBox___c__DisplayClass16_0_TypeDefinitionIndex = 49351;
+	inline static constexpr unsigned int EvolveBuildRewardBox___c__DisplayClass16_0_TypeDefinitionIndex = 50018;
 
 	class EvolveBuildRewardBox___c__DisplayClass16_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __AddToWaveData_b__0(::RPG::GameCore::EvolveBuildRewardBoxGearUpgrade* a)
+		::System::Boolean __AddToWaveData_b__0(::RPG::GameCore::EvolveBuildRewardBoxGearUpgrade* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGearUpgrade*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS16_0___ADDTOWAVEDATA_B__0_OFFSET))(this, a);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::EvolveBuildRewardBoxGearUpgrade*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDREWARDBOX___C__DISPLAYCLASS16_0___ADDTOWAVEDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

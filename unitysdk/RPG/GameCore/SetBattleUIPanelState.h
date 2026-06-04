@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETBATTLEUIPANELSTATE_METHOD_3_0C26432518CD7DA3_OFFSET UNITYSDK_OFFSET(0x18E0D630)
-#define RPG_GAMECORE_SETBATTLEUIPANELSTATE_METHOD_3_4309EF5932473441_OFFSET UNITYSDK_OFFSET(0x18E0D6B0)
-#define RPG_GAMECORE_SETBATTLEUIPANELSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18E0D680)
+#define RPG_GAMECORE_SETBATTLEUIPANELSTATE_METHOD_3_DD16B946F620AFB9_OFFSET UNITYSDK_OFFSET(0x19C2C4A0)
+#define RPG_GAMECORE_SETBATTLEUIPANELSTATE_METHOD_3_E58CA86274BE6A56_OFFSET UNITYSDK_OFFSET(0x19C2C520)
+#define RPG_GAMECORE_SETBATTLEUIPANELSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2C4F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetBattleUIPanelState_TypeDefinitionIndex = 21722;
+	inline static constexpr unsigned int SetBattleUIPanelState_TypeDefinitionIndex = 21571;
 
 	class SetBattleUIPanelState : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLEUIPANELSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0C26432518CD7DA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleUIPanelState*& a2)
+		static ::System::Void Method_3_DD16B946F620AFB9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleUIPanelState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleUIPanelState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLEUIPANELSTATE_METHOD_3_0C26432518CD7DA3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleUIPanelState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLEUIPANELSTATE_METHOD_3_DD16B946F620AFB9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4309EF5932473441(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleUIPanelState* a2)
+		static ::System::Void Method_3_E58CA86274BE6A56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleUIPanelState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleUIPanelState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLEUIPANELSTATE_METHOD_3_4309EF5932473441_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleUIPanelState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLEUIPANELSTATE_METHOD_3_E58CA86274BE6A56_OFFSET))(a1, a2);
 		}
 	};
 }

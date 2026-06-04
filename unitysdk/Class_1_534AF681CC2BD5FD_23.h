@@ -5,7 +5,7 @@
 namespace Entitas { template <typename T> class IMatcher_1; }
 namespace RPG::Client::LittleGame { template <typename T> class ILeverSwitchContext_1; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_23_TypeDefinitionIndex = 38242;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_23_TypeDefinitionIndex = 38999;
 
 class Class_1_534AF681CC2BD5FD_23 : public ::System::Object
 {

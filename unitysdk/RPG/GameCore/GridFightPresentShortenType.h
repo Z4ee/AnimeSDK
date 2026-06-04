@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPresentShortenType_TypeDefinitionIndex = 12701;
+	inline static constexpr unsigned int GridFightPresentShortenType_TypeDefinitionIndex = 12791;
 
 	enum class GridFightPresentShortenType : ::System::Int32
 	{

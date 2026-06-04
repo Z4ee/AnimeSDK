@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToastPile; }
 
-#define CLASS_3_A0287300C8A4B006_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x117B8880)
-#define CLASS_3_A0287300C8A4B006__CTOR_OFFSET UNITYSDK_OFFSET(0x117B8850)
+#define CLASS_3_A0287300C8A4B006_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCECDD80)
+#define CLASS_3_A0287300C8A4B006__CTOR_OFFSET UNITYSDK_OFFSET(0xCECDD50)
 
-inline static constexpr unsigned int Class_3_A0287300C8A4B006_TypeDefinitionIndex = 49238;
+inline static constexpr unsigned int Class_3_A0287300C8A4B006_TypeDefinitionIndex = 49905;
 
 class Class_3_A0287300C8A4B006 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ToastPile*>
 {

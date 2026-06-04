@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define CLOUDGAME_MAILBOX_IME___C__DISPLAYCLASS3_0__CONNECT_B__1_OFFSET UNITYSDK_OFFSET(0x173CAEA0)
-#define CLOUDGAME_MAILBOX_IME___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173CAE90)
+#define CLOUDGAME_MAILBOX_IME___C__DISPLAYCLASS3_0__CONNECT_B__1_OFFSET UNITYSDK_OFFSET(0x181D5770)
+#define CLOUDGAME_MAILBOX_IME___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181D5760)
 
 namespace CloudGame::MailBox
 {
-	inline static constexpr unsigned int Ime___c__DisplayClass3_0_TypeDefinitionIndex = 6592;
+	inline static constexpr unsigned int Ime___c__DisplayClass3_0_TypeDefinitionIndex = 7495;
 
 	class Ime___c__DisplayClass3_0 : public ::System::Object
 	{

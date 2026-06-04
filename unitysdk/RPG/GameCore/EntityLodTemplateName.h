@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityLodTemplateName_TypeDefinitionIndex = 10296;
+	inline static constexpr unsigned int EntityLodTemplateName_TypeDefinitionIndex = 10127;
 
 	enum class EntityLodTemplateName : ::System::Int32
 	{

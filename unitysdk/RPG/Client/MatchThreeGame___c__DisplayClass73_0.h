@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MatchThreeGameOpponent; }
 
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA837470)
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_0___UPDATEPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xA837480)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF7D460)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_0___UPDATEPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xBF815C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass73_0_TypeDefinitionIndex = 60713;
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass73_0_TypeDefinitionIndex = 61647;
 
 	class MatchThreeGame___c__DisplayClass73_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __UpdatePlayer_b__0(::RPG::Client::MatchThreeGameOpponent* x)
+		::System::Boolean __UpdatePlayer_b__0(::RPG::Client::MatchThreeGameOpponent* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeGameOpponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_0___UPDATEPLAYER_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeGameOpponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_0___UPDATEPLAYER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

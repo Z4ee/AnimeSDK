@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PropStateMatchConfig; }
 
-#define RPG_GAMECORE_ADDRESHAEASTEREGGMATCHRULE_METHOD_3_0E2B7B38F31D1940_OFFSET UNITYSDK_OFFSET(0x18642480)
-#define RPG_GAMECORE_ADDRESHAEASTEREGGMATCHRULE_METHOD_3_AEFA02796422F7F8_OFFSET UNITYSDK_OFFSET(0x18642400)
-#define RPG_GAMECORE_ADDRESHAEASTEREGGMATCHRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x18642450)
+#define RPG_GAMECORE_ADDRESHAEASTEREGGMATCHRULE_METHOD_3_22D4E91DD6B19AAA_OFFSET UNITYSDK_OFFSET(0x19411470)
+#define RPG_GAMECORE_ADDRESHAEASTEREGGMATCHRULE_METHOD_3_721254C1E97A1D73_OFFSET UNITYSDK_OFFSET(0x194113F0)
+#define RPG_GAMECORE_ADDRESHAEASTEREGGMATCHRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x19411440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddReShaEasterEggMatchRule_TypeDefinitionIndex = 20894;
+	inline static constexpr unsigned int AddReShaEasterEggMatchRule_TypeDefinitionIndex = 20812;
 
 	class AddReShaEasterEggMatchRule : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDRESHAEASTEREGGMATCHRULE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AEFA02796422F7F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddReShaEasterEggMatchRule*& a2)
+		static ::System::Void Method_3_721254C1E97A1D73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddReShaEasterEggMatchRule*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddReShaEasterEggMatchRule*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDRESHAEASTEREGGMATCHRULE_METHOD_3_AEFA02796422F7F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddReShaEasterEggMatchRule*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDRESHAEASTEREGGMATCHRULE_METHOD_3_721254C1E97A1D73_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0E2B7B38F31D1940(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddReShaEasterEggMatchRule* a2)
+		static ::System::Void Method_3_22D4E91DD6B19AAA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddReShaEasterEggMatchRule* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddReShaEasterEggMatchRule*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDRESHAEASTEREGGMATCHRULE_METHOD_3_0E2B7B38F31D1940_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddReShaEasterEggMatchRule*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDRESHAEASTEREGGMATCHRULE_METHOD_3_22D4E91DD6B19AAA_OFFSET))(a1, a2);
 		}
 	};
 }

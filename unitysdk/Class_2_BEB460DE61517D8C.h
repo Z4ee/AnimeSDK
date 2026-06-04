@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_B55037134F9E6688.h"
 
-class Class_2_843468DEB2C89684;
+class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_CutinAnimation; }
 
-#define CLASS_2_BEB460DE61517D8C_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x17BFDE40)
-#define CLASS_2_BEB460DE61517D8C__CTOR_OFFSET UNITYSDK_OFFSET(0x17BFDE30)
+#define CLASS_2_BEB460DE61517D8C_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x189BDC70)
+#define CLASS_2_BEB460DE61517D8C__CTOR_OFFSET UNITYSDK_OFFSET(0x189BDC60)
 
-inline static constexpr unsigned int Class_2_BEB460DE61517D8C_TypeDefinitionIndex = 34095;
+inline static constexpr unsigned int Class_2_BEB460DE61517D8C_TypeDefinitionIndex = 34377;
 
 class Class_2_BEB460DE61517D8C : public ::Class_1_B55037134F9E6688
 {
 public:
 	::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_CutinAnimation* Field_2_0; // 0x18
-	::Class_2_843468DEB2C89684* Field_2_1; // 0x20
+	::Class_2_48488E8DBD9F6BCE* Field_2_1; // 0x20
 
-	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_CutinAnimation* a1, ::Class_2_843468DEB2C89684* a2)
+	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_CutinAnimation* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_CutinAnimation*, ::Class_2_843468DEB2C89684*))((::PBYTE)hIl2Cpp + CLASS_2_BEB460DE61517D8C__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_CutinAnimation*, ::Class_2_48488E8DBD9F6BCE*))((::PBYTE)hIl2Cpp + CLASS_2_BEB460DE61517D8C__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_B1936CE4DA97AA45()

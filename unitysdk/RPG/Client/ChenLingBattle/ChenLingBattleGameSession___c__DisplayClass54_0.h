@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ChenLingBattle { class IEntity; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F9CC70)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS54_0__REMOVEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x9FA1A00)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5B4550)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS54_0__REMOVEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xB5BA840)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass54_0_TypeDefinitionIndex = 70097;
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass54_0_TypeDefinitionIndex = 70909;
 
 	class ChenLingBattleGameSession___c__DisplayClass54_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS54_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RemoveEntity_b__0(::RPG::Client::ChenLingBattle::IEntity* x)
+		::System::Boolean _RemoveEntity_b__0(::RPG::Client::ChenLingBattle::IEntity* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS54_0__REMOVEENTITY_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS54_0__REMOVEENTITY_B__0_OFFSET))(this, a1);
 		}
 	};
 }

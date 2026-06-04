@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class DebugInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_DEBUGINFOCOMPARER_SYSTEM_COLLECTIONS_GENERIC_ICOMPARER_SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__COMPARE_OFFSET UNITYSDK_OFFSET(0x19EFA830)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_DEBUGINFOCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x19EFA820)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_DEBUGINFOCOMPARER_SYSTEM_COLLECTIONS_GENERIC_ICOMPARER_SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__COMPARE_OFFSET UNITYSDK_OFFSET(0x1AD71EF0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_DEBUGINFOCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD71EE0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int DebugInfo_DebugInfoComparer_TypeDefinitionIndex = 3469;
+	inline static constexpr unsigned int DebugInfo_DebugInfoComparer_TypeDefinitionIndex = 3470;
 
 	class DebugInfo_DebugInfoComparer : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_DEBUGINFOCOMPARER__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare(::System::Linq::Expressions::Interpreter::DebugInfo* d1, ::System::Linq::Expressions::Interpreter::DebugInfo* d2)
+		::System::Int32 System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare(::System::Linq::Expressions::Interpreter::DebugInfo* a1, ::System::Linq::Expressions::Interpreter::DebugInfo* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::DebugInfo*, ::System::Linq::Expressions::Interpreter::DebugInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_DEBUGINFOCOMPARER_SYSTEM_COLLECTIONS_GENERIC_ICOMPARER_SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__COMPARE_OFFSET))(this, d1, d2);
+			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::DebugInfo*, ::System::Linq::Expressions::Interpreter::DebugInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_DEBUGINFOCOMPARER_SYSTEM_COLLECTIONS_GENERIC_ICOMPARER_SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__COMPARE_OFFSET))(this, a1, a2);
 		}
 	};
 }

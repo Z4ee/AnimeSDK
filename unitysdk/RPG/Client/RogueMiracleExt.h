@@ -11,48 +11,48 @@ namespace RPG::Client { class IRogueTournMiracle; }
 namespace RPG::Client { class IRogueTournMiracleInGame; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEMIRACLEEXT_ASINGAME_OFFSET UNITYSDK_OFFSET(0xB0708D0)
-#define RPG_CLIENT_ROGUEMIRACLEEXT_ASTOURNINGAME_OFFSET UNITYSDK_OFFSET(0xB070920)
-#define RPG_CLIENT_ROGUEMIRACLEEXT_ASWITHCATEGORY_OFFSET UNITYSDK_OFFSET(0xB070880)
-#define RPG_CLIENT_ROGUEMIRACLEEXT_GETALLHEXMIRACLES_OFFSET UNITYSDK_OFFSET(0xB070970)
-#define RPG_CLIENT_ROGUEMIRACLEEXT_GETMIRACLESBYCATEGORY_OFFSET UNITYSDK_OFFSET(0xB0709C0)
-#define RPG_CLIENT_ROGUEMIRACLEEXT_ISMIRACLEACHIEVED_OFFSET UNITYSDK_OFFSET(0xB070B90)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_ASINGAME_OFFSET UNITYSDK_OFFSET(0xC7C0C70)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_ASTOURNINGAME_OFFSET UNITYSDK_OFFSET(0xC7C0CD0)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_ASWITHCATEGORY_OFFSET UNITYSDK_OFFSET(0xC7C0C10)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_GETALLHEXMIRACLES_OFFSET UNITYSDK_OFFSET(0xC7C0D30)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_GETMIRACLESBYCATEGORY_OFFSET UNITYSDK_OFFSET(0xC7C0D80)
+#define RPG_CLIENT_ROGUEMIRACLEEXT_ISMIRACLEACHIEVED_OFFSET UNITYSDK_OFFSET(0xC7C0F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMiracleExt_TypeDefinitionIndex = 61979;
+	inline static constexpr unsigned int RogueMiracleExt_TypeDefinitionIndex = 62912;
 
 	class RogueMiracleExt : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::IRogueMiracleWithCategory* AsWithCategory(::RPG::Client::IRogueMiracle* miracle)
+		static ::RPG::Client::IRogueMiracleWithCategory* AsWithCategory(::RPG::Client::IRogueMiracle* a1)
 		{
-			return ((::RPG::Client::IRogueMiracleWithCategory*(*)(::RPG::Client::IRogueMiracle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_ASWITHCATEGORY_OFFSET))(miracle);
+			return ((::RPG::Client::IRogueMiracleWithCategory*(*)(::RPG::Client::IRogueMiracle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_ASWITHCATEGORY_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::IRogueMiracleInGame* AsInGame(::RPG::Client::IRogueMiracle* miracle)
+		static ::RPG::Client::IRogueMiracleInGame* AsInGame(::RPG::Client::IRogueMiracle* a1)
 		{
-			return ((::RPG::Client::IRogueMiracleInGame*(*)(::RPG::Client::IRogueMiracle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_ASINGAME_OFFSET))(miracle);
+			return ((::RPG::Client::IRogueMiracleInGame*(*)(::RPG::Client::IRogueMiracle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_ASINGAME_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::IRogueTournMiracleInGame* AsTournInGame(::RPG::Client::IRogueTournMiracle* miracle)
+		static ::RPG::Client::IRogueTournMiracleInGame* AsTournInGame(::RPG::Client::IRogueTournMiracle* a1)
 		{
-			return ((::RPG::Client::IRogueTournMiracleInGame*(*)(::RPG::Client::IRogueTournMiracle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_ASTOURNINGAME_OFFSET))(miracle);
+			return ((::RPG::Client::IRogueTournMiracleInGame*(*)(::RPG::Client::IRogueTournMiracle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_ASTOURNINGAME_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>* GetAllHexMiracles(::RPG::Client::IRogueMiracleInfo* miracleInfo)
+		static ::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>* GetAllHexMiracles(::RPG::Client::IRogueMiracleInfo* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>*(*)(::RPG::Client::IRogueMiracleInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_GETALLHEXMIRACLES_OFFSET))(miracleInfo);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>*(*)(::RPG::Client::IRogueMiracleInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_GETALLHEXMIRACLES_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>* GetMiraclesByCategory(::RPG::Client::IRogueMiracleInfo* miracleInfo, ::RPG::GameCore::RogueMiracleCategory category, ::System::Boolean isBrokenFirst)
+		static ::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>* GetMiraclesByCategory(::RPG::Client::IRogueMiracleInfo* a1, ::RPG::GameCore::RogueMiracleCategory a2, ::System::Boolean a3)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>*(*)(::RPG::Client::IRogueMiracleInfo*, ::RPG::GameCore::RogueMiracleCategory, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_GETMIRACLESBYCATEGORY_OFFSET))(miracleInfo, category, isBrokenFirst);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>*(*)(::RPG::Client::IRogueMiracleInfo*, ::RPG::GameCore::RogueMiracleCategory, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_GETMIRACLESBYCATEGORY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean IsMiracleAchieved(::RPG::Client::IRogueMiracleInfo* miracleInfo, ::System::UInt32 miracleID)
+		static ::System::Boolean IsMiracleAchieved(::RPG::Client::IRogueMiracleInfo* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::IRogueMiracleInfo*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_ISMIRACLEACHIEVED_OFFSET))(miracleInfo, miracleID);
+			return ((::System::Boolean(*)(::RPG::Client::IRogueMiracleInfo*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEEXT_ISMIRACLEACHIEVED_OFFSET))(a1, a2);
 		}
 	};
 }

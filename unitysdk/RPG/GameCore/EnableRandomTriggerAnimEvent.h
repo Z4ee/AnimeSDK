@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENABLERANDOMTRIGGERANIMEVENT_METHOD_3_520A2EF6A2450A0A_OFFSET UNITYSDK_OFFSET(0x188A7070)
-#define RPG_GAMECORE_ENABLERANDOMTRIGGERANIMEVENT_METHOD_3_8A991D283B281E60_OFFSET UNITYSDK_OFFSET(0x188A6FF0)
-#define RPG_GAMECORE_ENABLERANDOMTRIGGERANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x188A7040)
+#define RPG_GAMECORE_ENABLERANDOMTRIGGERANIMEVENT_METHOD_3_534497E6BB86B5F1_OFFSET UNITYSDK_OFFSET(0x196E5560)
+#define RPG_GAMECORE_ENABLERANDOMTRIGGERANIMEVENT_METHOD_3_BE2FACD3BF7A212E_OFFSET UNITYSDK_OFFSET(0x196E55E0)
+#define RPG_GAMECORE_ENABLERANDOMTRIGGERANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x196E55B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableRandomTriggerAnimEvent_TypeDefinitionIndex = 21305;
+	inline static constexpr unsigned int EnableRandomTriggerAnimEvent_TypeDefinitionIndex = 21201;
 
 	class EnableRandomTriggerAnimEvent : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLERANDOMTRIGGERANIMEVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8A991D283B281E60(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableRandomTriggerAnimEvent*& a2)
+		static ::System::Void Method_3_534497E6BB86B5F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableRandomTriggerAnimEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableRandomTriggerAnimEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLERANDOMTRIGGERANIMEVENT_METHOD_3_8A991D283B281E60_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableRandomTriggerAnimEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLERANDOMTRIGGERANIMEVENT_METHOD_3_534497E6BB86B5F1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_520A2EF6A2450A0A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableRandomTriggerAnimEvent* a2)
+		static ::System::Void Method_3_BE2FACD3BF7A212E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableRandomTriggerAnimEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableRandomTriggerAnimEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLERANDOMTRIGGERANIMEVENT_METHOD_3_520A2EF6A2450A0A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableRandomTriggerAnimEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLERANDOMTRIGGERANIMEVENT_METHOD_3_BE2FACD3BF7A212E_OFFSET))(a1, a2);
 		}
 	};
 }

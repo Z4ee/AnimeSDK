@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8CE1940)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8CE19A0)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8CE15F0)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8CE0460)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA13CDE0)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA13CE40)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA13CDD0)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA13CD60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatNative_HoYoSDKNativeCallback_TypeDefinitionIndex = 42692;
+	inline static constexpr unsigned int AccountPlatNative_HoYoSDKNativeCallback_TypeDefinitionIndex = 43495;
 
 	class AccountPlatNative_HoYoSDKNativeCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Int32 nCallbackIndex, ::System::String* strArgs)
+		::System::Void Invoke(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_INVOKE_OFFSET))(this, nCallbackIndex, strArgs);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Int32 nCallbackIndex, ::System::String* strArgs, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Int32 a1, ::System::String* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_BEGININVOKE_OFFSET))(this, nCallbackIndex, strArgs, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Int32, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

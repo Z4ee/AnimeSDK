@@ -6,20 +6,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TrainPartyPerformanceCharacterTriggerFreeStyle; }
 
-#define CLASS_2_403311B54F09C188_DISPOSE_OFFSET UNITYSDK_OFFSET(0x127D2E90)
-#define CLASS_2_403311B54F09C188_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x127D2EE0)
-#define CLASS_2_403311B54F09C188_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x127D3360)
-#define CLASS_2_403311B54F09C188_TICK_OFFSET UNITYSDK_OFFSET(0x127D33B0)
-#define CLASS_2_403311B54F09C188__CTOR_OFFSET UNITYSDK_OFFSET(0x127D2E80)
+#define CLASS_2_403311B54F09C188_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAEF34D0)
+#define CLASS_2_403311B54F09C188_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAEF3520)
+#define CLASS_2_403311B54F09C188_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAEF39A0)
+#define CLASS_2_403311B54F09C188_TICK_OFFSET UNITYSDK_OFFSET(0xAEF39F0)
+#define CLASS_2_403311B54F09C188__CTOR_OFFSET UNITYSDK_OFFSET(0xAEF34C0)
 
-inline static constexpr unsigned int Class_2_403311B54F09C188_TypeDefinitionIndex = 49256;
+inline static constexpr unsigned int Class_2_403311B54F09C188_TypeDefinitionIndex = 49923;
 
 class Class_2_403311B54F09C188 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x20
-	::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle* Field_2_1; // 0x28
+	::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle* Field_2_1; // 0x20
+	::RPG::GameCore::GameEntity* Field_2_2; // 0x28
 	::System::UInt32 Field_2_3; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle* a2)

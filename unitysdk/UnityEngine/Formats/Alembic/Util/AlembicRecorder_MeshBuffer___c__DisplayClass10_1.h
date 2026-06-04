@@ -5,12 +5,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder_MeshBuffer___c__DisplayClass10_0; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPLAYCLASS10_1__CAPTURE_B__5_OFFSET UNITYSDK_OFFSET(0x1A1E7430)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E6770)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPLAYCLASS10_1__CAPTURE_B__5_OFFSET UNITYSDK_OFFSET(0x1B04C260)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B04B370)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_MeshBuffer___c__DisplayClass10_1_TypeDefinitionIndex = 40758;
+	inline static constexpr unsigned int AlembicRecorder_MeshBuffer___c__DisplayClass10_1_TypeDefinitionIndex = 41584;
 
 	class AlembicRecorder_MeshBuffer___c__DisplayClass10_1 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace UnityEngine::Formats::Alembic::Util
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPLAYCLASS10_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Capture_b__5(::System::Collections::Generic::List_1<::System::Int32>* l)
+		::System::Void _Capture_b__5(::System::Collections::Generic::List_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPLAYCLASS10_1__CAPTURE_B__5_OFFSET))(this, l);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_MESHBUFFER___C__DISPLAYCLASS10_1__CAPTURE_B__5_OFFSET))(this, a1);
 		}
 	};
 }

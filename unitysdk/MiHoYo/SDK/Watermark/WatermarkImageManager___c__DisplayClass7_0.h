@@ -7,27 +7,27 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1768A900)
-#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS7_0__REQUESTSCREENSHOTWATERMARK_B__0_OFFSET UNITYSDK_OFFSET(0x1768D430)
+#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1845BEA0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS7_0__REQUESTSCREENSHOTWATERMARK_B__0_OFFSET UNITYSDK_OFFSET(0x1845E970)
 
 namespace MiHoYo::SDK::Watermark
 {
-	inline static constexpr unsigned int WatermarkImageManager___c__DisplayClass7_0_TypeDefinitionIndex = 7625;
+	inline static constexpr unsigned int WatermarkImageManager___c__DisplayClass7_0_TypeDefinitionIndex = 8528;
 
 	class WatermarkImageManager___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>* callback; // 0x10
-		::MiHoYo::SDK::Watermark::WatermarkImageManager* __4__this; // 0x18
+		::MiHoYo::SDK::Watermark::WatermarkImageManager* __4__this; // 0x10
+		::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RequestScreenshotWatermark_b__0(::System::String* url)
+		::System::Void _RequestScreenshotWatermark_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS7_0__REQUESTSCREENSHOTWATERMARK_B__0_OFFSET))(this, url);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER___C__DISPLAYCLASS7_0__REQUESTSCREENSHOTWATERMARK_B__0_OFFSET))(this, a1);
 		}
 	};
 }

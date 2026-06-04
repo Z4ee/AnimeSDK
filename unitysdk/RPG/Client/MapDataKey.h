@@ -4,38 +4,38 @@
 
 class Class_1_69EEE63CE134E1EF;
 
-#define RPG_CLIENT_MAPDATAKEY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xA7D7270)
-#define RPG_CLIENT_MAPDATAKEY_DECONSTRUCT_OFFSET UNITYSDK_OFFSET(0xA7D7060)
-#define RPG_CLIENT_MAPDATAKEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA7D7320)
-#define RPG_CLIENT_MAPDATAKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xA7D7190)
-#define RPG_CLIENT_MAPDATAKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA7D73E0)
-#define RPG_CLIENT_MAPDATAKEY_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0xA7D7460)
-#define RPG_CLIENT_MAPDATAKEY_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0xA7D7440)
-#define RPG_CLIENT_MAPDATAKEY_GET_ISCURRENTMAP_OFFSET UNITYSDK_OFFSET(0xA7D7050)
-#define RPG_CLIENT_MAPDATAKEY_GET_ISINONLINEPLAYROOM_OFFSET UNITYSDK_OFFSET(0xA7D7470)
-#define RPG_CLIENT_MAPDATAKEY_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0xA7D7450)
-#define RPG_CLIENT_MAPDATAKEY_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xA7D70E0)
-#define RPG_CLIENT_MAPDATAKEY_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0xA7D7480)
-#define RPG_CLIENT_MAPDATAKEY_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xA7D7210)
-#define RPG_CLIENT_MAPDATAKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xA7D7030)
-#define RPG_CLIENT_MAPDATAKEY___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0xA7D7530)
-#define RPG_CLIENT_MAPDATAKEY___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA7D7540)
+#define RPG_CLIENT_MAPDATAKEY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xBEC1BD0)
+#define RPG_CLIENT_MAPDATAKEY_DECONSTRUCT_OFFSET UNITYSDK_OFFSET(0xBEC19C0)
+#define RPG_CLIENT_MAPDATAKEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xBEC1C80)
+#define RPG_CLIENT_MAPDATAKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xBEC1AF0)
+#define RPG_CLIENT_MAPDATAKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xBEC1D40)
+#define RPG_CLIENT_MAPDATAKEY_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0xBEC1DC0)
+#define RPG_CLIENT_MAPDATAKEY_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0xBEC1DA0)
+#define RPG_CLIENT_MAPDATAKEY_GET_ISCURRENTMAP_OFFSET UNITYSDK_OFFSET(0xBEC19B0)
+#define RPG_CLIENT_MAPDATAKEY_GET_ISINONLINEPLAYROOM_OFFSET UNITYSDK_OFFSET(0xBEC1DD0)
+#define RPG_CLIENT_MAPDATAKEY_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0xBEC1DB0)
+#define RPG_CLIENT_MAPDATAKEY_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xBEC1A40)
+#define RPG_CLIENT_MAPDATAKEY_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0xBEC1DE0)
+#define RPG_CLIENT_MAPDATAKEY_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xBEC1B70)
+#define RPG_CLIENT_MAPDATAKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xBEC1990)
+#define RPG_CLIENT_MAPDATAKEY___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0xBEC1E80)
+#define RPG_CLIENT_MAPDATAKEY___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xBEC1E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapDataKey_TypeDefinitionIndex = 61137;
+	inline static constexpr unsigned int MapDataKey_TypeDefinitionIndex = 62061;
 
 	class MapDataKey : public ::System::Object
 	{
 	public:
-		::System::UInt32 _StoryLineID_k__BackingField; // 0x10
-		::System::UInt32 _FloorID_k__BackingField; // 0x14
-		::System::Boolean _IsInOnlinePlayRoom_k__BackingField; // 0x18
-		::System::UInt32 _ContentID_k__BackingField; // 0x1C
+		::System::UInt32 _FloorID_k__BackingField; // 0x10
+		::System::Boolean _IsInOnlinePlayRoom_k__BackingField; // 0x14
+		::System::UInt32 _ContentID_k__BackingField; // 0x18
+		::System::UInt32 _StoryLineID_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 storyLineID, ::System::UInt32 contentID, ::System::UInt32 floorID, ::System::Boolean isInOnlinePlayRoom)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY__CTOR_OFFSET))(this, storyLineID, contentID, floorID, isInOnlinePlayRoom);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean get_IsCurrentMap()
@@ -43,34 +43,34 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_GET_ISCURRENTMAP_OFFSET))(this);
 		}
 
-		::System::Void Deconstruct(::System::UInt32& storyLineID, ::System::UInt32& contentID, ::System::UInt32& floorID, ::System::Boolean& isInOnlinePlayRoom)
+		::System::Void Deconstruct(::System::UInt32& a1, ::System::UInt32& a2, ::System::UInt32& a3, ::System::Boolean& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_DECONSTRUCT_OFFSET))(this, storyLineID, contentID, floorID, isInOnlinePlayRoom);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_DECONSTRUCT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean op_Equality(::RPG::Client::MapDataKey* left, ::RPG::Client::MapDataKey* right)
+		static ::System::Boolean op_Equality(::RPG::Client::MapDataKey* a1, ::RPG::Client::MapDataKey* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::MapDataKey*, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::MapDataKey*, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::Client::MapDataKey* left, ::RPG::Client::MapDataKey* right)
+		static ::System::Boolean op_Inequality(::RPG::Client::MapDataKey* a1, ::RPG::Client::MapDataKey* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::MapDataKey*, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_OP_INEQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::MapDataKey*, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Int32 CompareTo(::RPG::Client::MapDataKey* other)
+		::System::Int32 CompareTo(::RPG::Client::MapDataKey* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_COMPARETO_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::RPG::Client::MapDataKey* other)
+		::System::Boolean Equals(::RPG::Client::MapDataKey* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -98,14 +98,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_GET_ISINONLINEPLAYROOM_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MapDataKey* op_Explicit(::Class_1_69EEE63CE134E1EF* sceneIdentifier)
+		static ::RPG::Client::MapDataKey* op_Explicit(::Class_1_69EEE63CE134E1EF* a1)
 		{
-			return ((::RPG::Client::MapDataKey*(*)(::Class_1_69EEE63CE134E1EF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_OP_EXPLICIT_OFFSET))(sceneIdentifier);
+			return ((::RPG::Client::MapDataKey*(*)(::Class_1_69EEE63CE134E1EF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY_OP_EXPLICIT_OFFSET))(a1);
 		}
 
-		::System::Boolean __iFixBaseProxy_Equals(::System::Object* P0)
+		::System::Boolean __iFixBaseProxy_Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDATAKEY___IFIXBASEPROXY_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __iFixBaseProxy_GetHashCode()

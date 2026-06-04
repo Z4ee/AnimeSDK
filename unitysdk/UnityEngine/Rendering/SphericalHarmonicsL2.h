@@ -4,14 +4,14 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22ED6A0)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_OFFSET UNITYSDK_OFFSET(0x22ED5F0)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22ED5E0)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1A4816A0)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x388BF40)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_OFFSET UNITYSDK_OFFSET(0x388BE90)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x388BE80)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B2D1E70)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SphericalHarmonicsL2_TypeDefinitionIndex = 4540;
+	inline static constexpr unsigned int SphericalHarmonicsL2_TypeDefinitionIndex = 4714;
 
 	struct alignas(4) SphericalHarmonicsL2
 	{
@@ -48,19 +48,19 @@ namespace UnityEngine::Rendering
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::UnityEngine::Rendering::SphericalHarmonicsL2 other)
+		::System::Boolean Equals_1(::UnityEngine::Rendering::SphericalHarmonicsL2 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::SphericalHarmonicsL2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::SphericalHarmonicsL2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs)
+		static ::System::Boolean op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 a1, ::UnityEngine::Rendering::SphericalHarmonicsL2 a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Rendering::SphericalHarmonicsL2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_EQUALITY_OFFSET))(lhs, rhs);
+			return ((::System::Boolean(*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Rendering::SphericalHarmonicsL2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 	};
 }

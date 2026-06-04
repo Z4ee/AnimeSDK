@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Protobuf { class IMessage; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL___C__DISPLAYCLASS1_0__CREATEFUNCIMESSAGEOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x173BA790)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173BA690)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL___C__DISPLAYCLASS1_0__CREATEFUNCIMESSAGEOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x181C4760)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181C4670)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ReflectionUtil___c__DisplayClass1_0_TypeDefinitionIndex = 33759;
+	inline static constexpr unsigned int ReflectionUtil___c__DisplayClass1_0_TypeDefinitionIndex = 34041;
 
 	class ReflectionUtil___c__DisplayClass1_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Object* _CreateFuncIMessageObject_b__0(::MiHoYo::SDK::Protobuf::IMessage* message)
+		::System::Object* _CreateFuncIMessageObject_b__0(::MiHoYo::SDK::Protobuf::IMessage* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::IMessage*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL___C__DISPLAYCLASS1_0__CREATEFUNCIMESSAGEOBJECT_B__0_OFFSET))(this, message);
+			return ((::System::Object*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::IMessage*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_REFLECTIONUTIL___C__DISPLAYCLASS1_0__CREATEFUNCIMESSAGEOBJECT_B__0_OFFSET))(this, a1);
 		}
 	};
 }

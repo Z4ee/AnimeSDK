@@ -7,14 +7,14 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Threading { class Mutex; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION_SETUPEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1785B970)
-#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1785B880)
-#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1785B9D0)
-#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1785B7F0)
+#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION_SETUPEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18615570)
+#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18615480)
+#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x186155D0)
+#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x186153F0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int AbandonedMutexException_TypeDefinitionIndex = 819;
+	inline static constexpr unsigned int AbandonedMutexException_TypeDefinitionIndex = 818;
 
 	class AbandonedMutexException : public ::System::SystemException
 	{
@@ -27,19 +27,19 @@ namespace System::Threading
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Int32 location, ::System::Threading::WaitHandle* handle)
+		::System::Void _ctor_1(::System::Int32 a1, ::System::Threading::WaitHandle* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Threading::WaitHandle*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_1_OFFSET))(this, location, handle);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Threading::WaitHandle*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_2_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetupException(::System::Int32 location, ::System::Threading::WaitHandle* handle)
+		::System::Void SetupException(::System::Int32 a1, ::System::Threading::WaitHandle* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Threading::WaitHandle*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION_SETUPEXCEPTION_OFFSET))(this, location, handle);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Threading::WaitHandle*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION_SETUPEXCEPTION_OFFSET))(this, a1, a2);
 		}
 	};
 }

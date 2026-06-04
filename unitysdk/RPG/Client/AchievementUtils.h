@@ -5,18 +5,18 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACHIEVEMENTUTILS_DOESENTITYCONTAINSMODIFIER_OFFSET UNITYSDK_OFFSET(0x9AA0780)
+#define RPG_CLIENT_ACHIEVEMENTUTILS_DOESENTITYCONTAINSMODIFIER_OFFSET UNITYSDK_OFFSET(0xB0809E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AchievementUtils_TypeDefinitionIndex = 56589;
+	inline static constexpr unsigned int AchievementUtils_TypeDefinitionIndex = 57366;
 
 	class AchievementUtils : public ::System::Object
 	{
 	public:
-		static ::System::Boolean DoesEntityContainsModifier(::RPG::GameCore::GameEntity* entity, ::System::String* abilityName)
+		static ::System::Boolean DoesEntityContainsModifier(::RPG::GameCore::GameEntity* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHIEVEMENTUTILS_DOESENTITYCONTAINSMODIFIER_OFFSET))(entity, abilityName);
+			return ((::System::Boolean(*)(::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHIEVEMENTUTILS_DOESENTITYCONTAINSMODIFIER_OFFSET))(a1, a2);
 		}
 	};
 }

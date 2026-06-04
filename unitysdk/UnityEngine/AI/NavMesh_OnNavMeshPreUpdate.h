@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A4005E0)
-#define UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A400610)
-#define UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A3FFB40)
-#define UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4005C0)
+#define UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B255410)
+#define UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B255440)
+#define UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B254E90)
+#define UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2553A0)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMesh_OnNavMeshPreUpdate_TypeDefinitionIndex = 5379;
+	inline static constexpr unsigned int NavMesh_OnNavMeshPreUpdate_TypeDefinitionIndex = 5656;
 
 	class NavMesh_OnNavMeshPreUpdate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -28,14 +28,14 @@ namespace UnityEngine::AI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESH_ONNAVMESHPREUPDATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

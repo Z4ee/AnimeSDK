@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GETQUERYDICTIONARY_OFFSET UNITYSDK_OFFSET(0x229CF90)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_ARGS_OFFSET UNITYSDK_OFFSET(0x104A0)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_PATH_OFFSET UNITYSDK_OFFSET(0x13C30)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_QUERY_OFFSET UNITYSDK_OFFSET(0x296E0)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_RAWMESSAGE_OFFSET UNITYSDK_OFFSET(0x5580)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_SCHEME_OFFSET UNITYSDK_OFFSET(0x5AF0)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_ARGS_OFFSET UNITYSDK_OFFSET(0xB390)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_PATH_OFFSET UNITYSDK_OFFSET(0xAF80)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_QUERY_OFFSET UNITYSDK_OFFSET(0x296F0)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_RAWMESSAGE_OFFSET UNITYSDK_OFFSET(0xBDC0)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_SCHEME_OFFSET UNITYSDK_OFFSET(0x8D10)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x229CF80)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GETQUERYDICTIONARY_OFFSET UNITYSDK_OFFSET(0x382B720)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_ARGS_OFFSET UNITYSDK_OFFSET(0x11290)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_PATH_OFFSET UNITYSDK_OFFSET(0x14410)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_QUERY_OFFSET UNITYSDK_OFFSET(0x2AD20)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_RAWMESSAGE_OFFSET UNITYSDK_OFFSET(0x5B60)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_SCHEME_OFFSET UNITYSDK_OFFSET(0x60D0)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_ARGS_OFFSET UNITYSDK_OFFSET(0xBBE0)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_PATH_OFFSET UNITYSDK_OFFSET(0xB7C0)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_QUERY_OFFSET UNITYSDK_OFFSET(0x2AD30)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_RAWMESSAGE_OFFSET UNITYSDK_OFFSET(0xC630)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_SCHEME_OFFSET UNITYSDK_OFFSET(0x95B0)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x382B710)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UniWebViewMessage_TypeDefinitionIndex = 6984;
+	inline static constexpr unsigned int UniWebViewMessage_TypeDefinitionIndex = 7887;
 
 	struct alignas(8) UniWebViewMessage
 	{
@@ -30,9 +30,9 @@ namespace MiHoYo::SDK
 		::System::String* _Query_k__BackingField; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _Args_k__BackingField; // 0x30
 
-		::System::Void _ctor(::System::String* rawMessage)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE__CTOR_OFFSET))(this, rawMessage);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RawMessage()
@@ -40,9 +40,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_RAWMESSAGE_OFFSET))(this);
 		}
 
-		::System::Void set_RawMessage(::System::String* value)
+		::System::Void set_RawMessage(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_RAWMESSAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_RAWMESSAGE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Scheme()
@@ -50,9 +50,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_SCHEME_OFFSET))(this);
 		}
 
-		::System::Void set_Scheme(::System::String* value)
+		::System::Void set_Scheme(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_SCHEME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_SCHEME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Path()
@@ -60,9 +60,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_PATH_OFFSET))(this);
 		}
 
-		::System::Void set_Path(::System::String* value)
+		::System::Void set_Path(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_PATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_PATH_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Query()
@@ -70,9 +70,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_QUERY_OFFSET))(this);
 		}
 
-		::System::Void set_Query(::System::String* value)
+		::System::Void set_Query(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_QUERY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_QUERY_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* get_Args()
@@ -80,14 +80,14 @@ namespace MiHoYo::SDK
 			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_ARGS_OFFSET))(this);
 		}
 
-		::System::Void set_Args(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* value)
+		::System::Void set_Args(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_ARGS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_SET_ARGS_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* GetQueryDictionary(::System::String* query)
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* GetQueryDictionary(::System::String* a1)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_GETQUERYDICTIONARY_OFFSET))(this, query);
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UNIWEBVIEWMESSAGE_GETQUERYDICTIONARY_OFFSET))(this, a1);
 		}
 	};
 }

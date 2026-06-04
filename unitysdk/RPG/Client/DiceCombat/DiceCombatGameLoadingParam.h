@@ -5,40 +5,40 @@
 namespace RPG::Client::DiceCombat { class DiceCombatRankLevelData; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xA128F20)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0xA128FE0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_ISFRIENDPVP_OFFSET UNITYSDK_OFFSET(0xA129020)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_ISPVP_OFFSET UNITYSDK_OFFSET(0xA129000)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_PVESTAGEID_OFFSET UNITYSDK_OFFSET(0xA129040)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_RANKLEVELDATA_OFFSET UNITYSDK_OFFSET(0xA129060)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_CALLBACK_OFFSET UNITYSDK_OFFSET(0xA128FF0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_ISFRIENDPVP_OFFSET UNITYSDK_OFFSET(0xA129030)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_ISPVP_OFFSET UNITYSDK_OFFSET(0xA129010)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_PVESTAGEID_OFFSET UNITYSDK_OFFSET(0xA129050)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_RANKLEVELDATA_OFFSET UNITYSDK_OFFSET(0xA129070)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA128F10)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xB7A6730)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0xB7A67F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_ISFRIENDPVP_OFFSET UNITYSDK_OFFSET(0xB7A6830)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_ISPVP_OFFSET UNITYSDK_OFFSET(0xB7A6810)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_PVESTAGEID_OFFSET UNITYSDK_OFFSET(0xB7A6850)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_RANKLEVELDATA_OFFSET UNITYSDK_OFFSET(0xB7A6870)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_CALLBACK_OFFSET UNITYSDK_OFFSET(0xB7A6800)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_ISFRIENDPVP_OFFSET UNITYSDK_OFFSET(0xB7A6840)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_ISPVP_OFFSET UNITYSDK_OFFSET(0xB7A6820)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_PVESTAGEID_OFFSET UNITYSDK_OFFSET(0xB7A6860)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_RANKLEVELDATA_OFFSET UNITYSDK_OFFSET(0xB7A6880)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB7A6720)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatGameLoadingParam_TypeDefinitionIndex = 69884;
+	inline static constexpr unsigned int DiceCombatGameLoadingParam_TypeDefinitionIndex = 70696;
 
 	class DiceCombatGameLoadingParam : public ::System::Object
 	{
 	public:
-		::System::Action* _Callback_k__BackingField; // 0x10
-		::RPG::Client::DiceCombat::DiceCombatRankLevelData* _RankLevelData_k__BackingField; // 0x18
-		::System::Boolean _IsFriendPVP_k__BackingField; // 0x20
-		::System::Boolean _IsPVP_k__BackingField; // 0x21
-		::System::UInt32 _PVEStageID_k__BackingField; // 0x24
+		::RPG::Client::DiceCombat::DiceCombatRankLevelData* _RankLevelData_k__BackingField; // 0x10
+		::System::Action* _Callback_k__BackingField; // 0x18
+		::System::UInt32 _PVEStageID_k__BackingField; // 0x20
+		::System::Boolean _IsFriendPVP_k__BackingField; // 0x24
+		::System::Boolean _IsPVP_k__BackingField; // 0x25
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatGameLoadingParam* Create(::System::Action* callback, ::System::Boolean isPVP, ::System::Boolean isFriendPVP, ::System::UInt32 pveStageID, ::RPG::Client::DiceCombat::DiceCombatRankLevelData* rankLevelData)
+		static ::RPG::Client::DiceCombat::DiceCombatGameLoadingParam* Create(::System::Action* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::UInt32 a4, ::RPG::Client::DiceCombat::DiceCombatRankLevelData* a5)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatGameLoadingParam*(*)(::System::Action*, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::RPG::Client::DiceCombat::DiceCombatRankLevelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_CREATE_OFFSET))(callback, isPVP, isFriendPVP, pveStageID, rankLevelData);
+			return ((::RPG::Client::DiceCombat::DiceCombatGameLoadingParam*(*)(::System::Action*, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::RPG::Client::DiceCombat::DiceCombatRankLevelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_CREATE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::Action* get_Callback()
@@ -46,9 +46,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_CALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_Callback(::System::Action* value)
+		::System::Void set_Callback(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_CALLBACK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_CALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsPVP()
@@ -56,9 +56,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_ISPVP_OFFSET))(this);
 		}
 
-		::System::Void set_IsPVP(::System::Boolean value)
+		::System::Void set_IsPVP(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_ISPVP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_ISPVP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsFriendPVP()
@@ -66,9 +66,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_ISFRIENDPVP_OFFSET))(this);
 		}
 
-		::System::Void set_IsFriendPVP(::System::Boolean value)
+		::System::Void set_IsFriendPVP(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_ISFRIENDPVP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_ISFRIENDPVP_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_PVEStageID()
@@ -76,9 +76,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_PVESTAGEID_OFFSET))(this);
 		}
 
-		::System::Void set_PVEStageID(::System::UInt32 value)
+		::System::Void set_PVEStageID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_PVESTAGEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_PVESTAGEID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DiceCombat::DiceCombatRankLevelData* get_RankLevelData()
@@ -86,9 +86,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::DiceCombatRankLevelData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_GET_RANKLEVELDATA_OFFSET))(this);
 		}
 
-		::System::Void set_RankLevelData(::RPG::Client::DiceCombat::DiceCombatRankLevelData* value)
+		::System::Void set_RankLevelData(::RPG::Client::DiceCombat::DiceCombatRankLevelData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatRankLevelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_RANKLEVELDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatRankLevelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATGAMELOADINGPARAM_SET_RANKLEVELDATA_OFFSET))(this, a1);
 		}
 	};
 }

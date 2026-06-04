@@ -4,13 +4,13 @@
 
 namespace System { class Action; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1A31B170)
-#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x1A31B180)
-#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2FBAD0)
+#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1B1761F0)
+#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x1B176200)
+#define UNITYENGINE_RENDERING_DEBUGUI_BUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1B15BC50)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Button_TypeDefinitionIndex = 33460;
+	inline static constexpr unsigned int DebugUI_Button_TypeDefinitionIndex = 33742;
 
 	class DebugUI_Button : public ::UnityEngine::Rendering::DebugUI_Widget
 	{
@@ -27,9 +27,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BUTTON_GET_ACTION_OFFSET))(this);
 		}
 
-		::System::Void set_action(::System::Action* value)
+		::System::Void set_action(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BUTTON_SET_ACTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_BUTTON_SET_ACTION_OFFSET))(this, a1);
 		}
 	};
 }

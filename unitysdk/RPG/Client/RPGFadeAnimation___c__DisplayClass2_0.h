@@ -5,12 +5,12 @@
 namespace RPG::Client { class CustomTransitionFadeIn; }
 namespace System { class String; }
 
-#define RPG_CLIENT_RPGFADEANIMATION___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAF44170)
-#define RPG_CLIENT_RPGFADEANIMATION___C__DISPLAYCLASS2_0__GETFADEINANIM_B__0_OFFSET UNITYSDK_OFFSET(0xAF44390)
+#define RPG_CLIENT_RPGFADEANIMATION___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC68A210)
+#define RPG_CLIENT_RPGFADEANIMATION___C__DISPLAYCLASS2_0__GETFADEINANIM_B__0_OFFSET UNITYSDK_OFFSET(0xC68A440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGFadeAnimation___c__DisplayClass2_0_TypeDefinitionIndex = 67086;
+	inline static constexpr unsigned int RPGFadeAnimation___c__DisplayClass2_0_TypeDefinitionIndex = 68029;
 
 	class RPGFadeAnimation___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetFadeInAnim_b__0(::RPG::Client::CustomTransitionFadeIn* x)
+		::System::Boolean _GetFadeInAnim_b__0(::RPG::Client::CustomTransitionFadeIn* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CustomTransitionFadeIn*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION___C__DISPLAYCLASS2_0__GETFADEINANIM_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CustomTransitionFadeIn*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGFADEANIMATION___C__DISPLAYCLASS2_0__GETFADEINANIM_B__0_OFFSET))(this, a1);
 		}
 	};
 }

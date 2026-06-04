@@ -8,15 +8,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::EventSystems { class PointerInputModule_ButtonState; }
 
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_ANYPRESSESTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1A531450)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_ANYRELEASESTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1A5314C0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_GETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1A531530)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_SETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1A5304C0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A531390)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_ANYPRESSESTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1B37CEE0)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_ANYRELEASESTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1B37CF60)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_GETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1B37CFE0)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_SETBUTTONSTATE_OFFSET UNITYSDK_OFFSET(0x1B37BF80)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B37CE20)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int PointerInputModule_MouseState_TypeDefinitionIndex = 5821;
+	inline static constexpr unsigned int PointerInputModule_MouseState_TypeDefinitionIndex = 6098;
 
 	class PointerInputModule_MouseState : public ::System::Object
 	{
@@ -38,14 +38,14 @@ namespace UnityEngine::EventSystems
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_ANYRELEASESTHISFRAME_OFFSET))(this);
 		}
 
-		::UnityEngine::EventSystems::PointerInputModule_ButtonState* GetButtonState(::UnityEngine::EventSystems::PointerEventData_InputButton button)
+		::UnityEngine::EventSystems::PointerInputModule_ButtonState* GetButtonState(::UnityEngine::EventSystems::PointerEventData_InputButton a1)
 		{
-			return ((::UnityEngine::EventSystems::PointerInputModule_ButtonState*(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData_InputButton))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_GETBUTTONSTATE_OFFSET))(this, button);
+			return ((::UnityEngine::EventSystems::PointerInputModule_ButtonState*(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData_InputButton))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_GETBUTTONSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetButtonState(::UnityEngine::EventSystems::PointerEventData_InputButton button, ::UnityEngine::EventSystems::PointerEventData_FramePressState stateForMouseButton, ::UnityEngine::EventSystems::PointerEventData* data)
+		::System::Void SetButtonState(::UnityEngine::EventSystems::PointerEventData_InputButton a1, ::UnityEngine::EventSystems::PointerEventData_FramePressState a2, ::UnityEngine::EventSystems::PointerEventData* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData_InputButton, ::UnityEngine::EventSystems::PointerEventData_FramePressState, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_SETBUTTONSTATE_OFFSET))(this, button, stateForMouseButton, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData_InputButton, ::UnityEngine::EventSystems::PointerEventData_FramePressState, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSESTATE_SETBUTTONSTATE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

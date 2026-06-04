@@ -7,10 +7,10 @@ class AkCommonOutputSettings_ChannelConfiguration;
 class AkOutputSettings;
 namespace System { class String; }
 
-#define AKCOMMONOUTPUTSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1A5DCD60)
-#define AKCOMMONOUTPUTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C8110)
+#define AKCOMMONOUTPUTSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1B426B60)
+#define AKCOMMONOUTPUTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B412F60)
 
-inline static constexpr unsigned int AkCommonOutputSettings_TypeDefinitionIndex = 40387;
+inline static constexpr unsigned int AkCommonOutputSettings_TypeDefinitionIndex = 41214;
 
 class AkCommonOutputSettings : public ::System::Object
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCOMMONOUTPUTSETTINGS__CTOR_OFFSET))(this);
 	}
 
-	::System::Void CopyTo(::AkOutputSettings* settings)
+	::System::Void CopyTo(::AkOutputSettings* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkOutputSettings*))((::PBYTE)hIl2Cpp + AKCOMMONOUTPUTSETTINGS_COPYTO_OFFSET))(this, settings);
+		return ((::System::Void(*)(::PVOID, ::AkOutputSettings*))((::PBYTE)hIl2Cpp + AKCOMMONOUTPUTSETTINGS_COPYTO_OFFSET))(this, a1);
 	}
 };

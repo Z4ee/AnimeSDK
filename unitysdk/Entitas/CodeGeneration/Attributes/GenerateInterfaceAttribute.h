@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_GENERATEINTERFACEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C501C0)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_GENERATEINTERFACEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x146FE890)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int GenerateInterfaceAttribute_TypeDefinitionIndex = 9908;
+	inline static constexpr unsigned int GenerateInterfaceAttribute_TypeDefinitionIndex = 9735;
 
 	class GenerateInterfaceAttribute : public ::System::Attribute
 	{

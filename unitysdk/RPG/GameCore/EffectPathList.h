@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTPATHLIST_METHOD_2_38B1CED65DE889BF_OFFSET UNITYSDK_OFFSET(0x18897370)
-#define RPG_GAMECORE_EFFECTPATHLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18897470)
+#define RPG_GAMECORE_EFFECTPATHLIST_METHOD_2_B574A2CCF3B1730A_OFFSET UNITYSDK_OFFSET(0x196D5C10)
+#define RPG_GAMECORE_EFFECTPATHLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x196D5D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectPathList_TypeDefinitionIndex = 15470;
+	inline static constexpr unsigned int EffectPathList_TypeDefinitionIndex = 15533;
 
 	class EffectPathList : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTPATHLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_38B1CED65DE889BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectPathList*& a2)
+		static ::System::Void Method_2_B574A2CCF3B1730A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EffectPathList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectPathList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTPATHLIST_METHOD_2_38B1CED65DE889BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EffectPathList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EFFECTPATHLIST_METHOD_2_B574A2CCF3B1730A_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,20 +4,20 @@
 
 namespace Proto { class GetSceneMapInfoScRsp; }
 
-#define PROTO_GETSCENEMAPINFOSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1933EE40)
-#define PROTO_GETSCENEMAPINFOSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1933EE70)
-#define PROTO_GETSCENEMAPINFOSCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1933EE80)
+#define PROTO_GETSCENEMAPINFOSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0F1EF0)
+#define PROTO_GETSCENEMAPINFOSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F1F20)
+#define PROTO_GETSCENEMAPINFOSCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A0F1F30)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetSceneMapInfoScRsp___c_TypeDefinitionIndex = 32193;
+	inline static constexpr unsigned int GetSceneMapInfoScRsp___c_TypeDefinitionIndex = 32302;
 
 	class GetSceneMapInfoScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::GetSceneMapInfoScRsp___c** StaticGet___9()
 		{
-			return (::Proto::GetSceneMapInfoScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(GetSceneMapInfoScRsp___c_TypeDefinitionIndex)->GetStaticField(0x63D20);
+			return (::Proto::GetSceneMapInfoScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(GetSceneMapInfoScRsp___c_TypeDefinitionIndex)->GetStaticField(0x437E0);
 		}
 
 		static ::System::Void _cctor()

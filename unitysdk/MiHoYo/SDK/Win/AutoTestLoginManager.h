@@ -9,32 +9,32 @@ namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_COMBOLOGIN_OFFSET UNITYSDK_OFFSET(0x176ADB80)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_COMBOLOGOUT_OFFSET UNITYSDK_OFFSET(0x176ADE50)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x176ADC90)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_LOGOUT_OFFSET UNITYSDK_OFFSET(0x176ADF60)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_ONCOMBOLOGINCALLBACK_OFFSET UNITYSDK_OFFSET(0x176AD4C0)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_REQUESTCOMBOLOGIN_OFFSET UNITYSDK_OFFSET(0x176AD340)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_SETLOGINACCOUNT_OFFSET UNITYSDK_OFFSET(0x176AE590)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x176AEA00)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x176AE9D0)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_COMBOLOGIN_OFFSET UNITYSDK_OFFSET(0x1846C730)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_COMBOLOGOUT_OFFSET UNITYSDK_OFFSET(0x1846CA20)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x1846C850)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_LOGOUT_OFFSET UNITYSDK_OFFSET(0x1846CB40)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_ONCOMBOLOGINCALLBACK_OFFSET UNITYSDK_OFFSET(0x1846C170)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_REQUESTCOMBOLOGIN_OFFSET UNITYSDK_OFFSET(0x1846BFE0)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_SETLOGINACCOUNT_OFFSET UNITYSDK_OFFSET(0x1846D120)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1846D470)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1846D440)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AutoTestLoginManager_TypeDefinitionIndex = 8021;
+	inline static constexpr unsigned int AutoTestLoginManager_TypeDefinitionIndex = 8924;
 
 	class AutoTestLoginManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Win::AutoTestLoginManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::AutoTestLoginManager**)Il2CppClass::FromTypeDefinitionIndex(AutoTestLoginManager_TypeDefinitionIndex)->GetStaticField(0x26FE0);
+			return (::MiHoYo::SDK::Win::AutoTestLoginManager**)Il2CppClass::FromTypeDefinitionIndex(AutoTestLoginManager_TypeDefinitionIndex)->GetStaticField(0x25AC0);
 		}
-		::System::String* accountAutoTest; // 0x10
-		::System::String* passwordAutoTest; // 0x18
-		::System::Int32 tokenType; // 0x20
-		::System::Boolean isAutoTest; // 0x24
-		::System::Boolean isLoginRequest; // 0x25
+		::System::String* passwordAutoTest; // 0x10
+		::System::String* accountAutoTest; // 0x18
+		::System::Boolean isAutoTest; // 0x20
+		::System::Boolean isLoginRequest; // 0x21
+		::System::Int32 tokenType; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -46,39 +46,39 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER__CCTOR_OFFSET))();
 		}
 
-		::System::Void RequestComboLogin(::System::String* body, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback)
+		::System::Void RequestComboLogin(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_REQUESTCOMBOLOGIN_OFFSET))(this, body, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_REQUESTCOMBOLOGIN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnComboLoginCallback(::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>* response, ::System::Action_1<::System::String*>* callback)
+		::System::Void OnComboLoginCallback(::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_ONCOMBOLOGINCALLBACK_OFFSET))(this, response, callback);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_ONCOMBOLOGINCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ComboLogin(::System::Action_1<::System::String*>* callback)
+		::System::Void ComboLogin(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_COMBOLOGIN_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_COMBOLOGIN_OFFSET))(this, a1);
 		}
 
-		::System::Void ComboLogout(::System::Action_1<::System::String*>* callback)
+		::System::Void ComboLogout(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_COMBOLOGOUT_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_COMBOLOGOUT_OFFSET))(this, a1);
 		}
 
-		::System::Void Login(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* callback)
+		::System::Void Login(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_LOGIN_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_LOGIN_OFFSET))(this, a1);
 		}
 
-		::System::Void Logout(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* callback)
+		::System::Void Logout(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_LOGOUT_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_LOGOUT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetLoginAccount(::System::String* jsonString)
+		::System::Void SetLoginAccount(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_SETLOGINACCOUNT_OFFSET))(this, jsonString);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER_SETLOGINACCOUNT_OFFSET))(this, a1);
 		}
 	};
 }

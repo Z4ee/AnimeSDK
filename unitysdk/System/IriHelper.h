@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define SYSTEM_IRIHELPER_CHECKIRIUNICODERANGE_1_OFFSET UNITYSDK_OFFSET(0x1A0EDB40)
-#define SYSTEM_IRIHELPER_CHECKIRIUNICODERANGE_OFFSET UNITYSDK_OFFSET(0x1A0EDAE0)
-#define SYSTEM_IRIHELPER_CHECKISRESERVED_OFFSET UNITYSDK_OFFSET(0x1A0EE190)
-#define SYSTEM_IRIHELPER_ESCAPEUNESCAPEIRI_OFFSET UNITYSDK_OFFSET(0x1A0EE390)
+#define SYSTEM_IRIHELPER_CHECKIRIUNICODERANGE_1_OFFSET UNITYSDK_OFFSET(0x1AF547E0)
+#define SYSTEM_IRIHELPER_CHECKIRIUNICODERANGE_OFFSET UNITYSDK_OFFSET(0x1AF54780)
+#define SYSTEM_IRIHELPER_CHECKISRESERVED_OFFSET UNITYSDK_OFFSET(0x1AF54E10)
+#define SYSTEM_IRIHELPER_ESCAPEUNESCAPEIRI_OFFSET UNITYSDK_OFFSET(0x1AF55010)
 
 namespace System
 {
@@ -17,24 +17,24 @@ namespace System
 	class IriHelper : public ::System::Object
 	{
 	public:
-		static ::System::Boolean CheckIriUnicodeRange(::System::Char unicode, ::System::Boolean isQuery)
+		static ::System::Boolean CheckIriUnicodeRange(::System::Char a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::System::Char, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IRIHELPER_CHECKIRIUNICODERANGE_OFFSET))(unicode, isQuery);
+			return ((::System::Boolean(*)(::System::Char, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IRIHELPER_CHECKIRIUNICODERANGE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean CheckIriUnicodeRange_1(::System::Char highSurr, ::System::Char lowSurr, ::System::Boolean& surrogatePair, ::System::Boolean isQuery)
+		static ::System::Boolean CheckIriUnicodeRange_1(::System::Char a1, ::System::Char a2, ::System::Boolean& a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::System::Char, ::System::Char, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IRIHELPER_CHECKIRIUNICODERANGE_1_OFFSET))(highSurr, lowSurr, surrogatePair, isQuery);
+			return ((::System::Boolean(*)(::System::Char, ::System::Char, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IRIHELPER_CHECKIRIUNICODERANGE_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean CheckIsReserved(::System::Char ch, ::System::UriComponents component)
+		static ::System::Boolean CheckIsReserved(::System::Char a1, ::System::UriComponents a2)
 		{
-			return ((::System::Boolean(*)(::System::Char, ::System::UriComponents))((::PBYTE)hIl2Cpp + SYSTEM_IRIHELPER_CHECKISRESERVED_OFFSET))(ch, component);
+			return ((::System::Boolean(*)(::System::Char, ::System::UriComponents))((::PBYTE)hIl2Cpp + SYSTEM_IRIHELPER_CHECKISRESERVED_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* EscapeUnescapeIri(::System::Char* pInput, ::System::Int32 start, ::System::Int32 end, ::System::UriComponents component)
+		static ::System::String* EscapeUnescapeIri(::System::Char* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::UriComponents a4)
 		{
-			return ((::System::String*(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::UriComponents))((::PBYTE)hIl2Cpp + SYSTEM_IRIHELPER_ESCAPEUNESCAPEIRI_OFFSET))(pInput, start, end, component);
+			return ((::System::String*(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::UriComponents))((::PBYTE)hIl2Cpp + SYSTEM_IRIHELPER_ESCAPEUNESCAPEIRI_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

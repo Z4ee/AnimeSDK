@@ -6,14 +6,14 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x1A6CC920)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_LOADINDEX_OFFSET UNITYSDK_OFFSET(0x1A6CC610)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1A6CCD90)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6CC540)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_HANDLEREQUEST_OFFSET UNITYSDK_OFFSET(0x1B509C00)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_LOADINDEX_OFFSET UNITYSDK_OFFSET(0x1B5098D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1B50A0C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B509800)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int StandaloneWebResources_TypeDefinitionIndex = 36325;
+	inline static constexpr unsigned int StandaloneWebResources_TypeDefinitionIndex = 36625;
 
 	class StandaloneWebResources : public ::ZenFulcrum::EmbeddedBrowser::WebResources
 	{
@@ -23,9 +23,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::ZenFulcrum::EmbeddedBrowser::StandaloneWebResources_IndexEntry>* toc; // 0x10
 		::System::String* dataFile; // 0x18
 
-		::System::Void _ctor(::System::String* dataFile)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES__CTOR_OFFSET))(this, dataFile);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void LoadIndex()
@@ -33,14 +33,14 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_LOADINDEX_OFFSET))(this);
 		}
 
-		::System::Void HandleRequest(::System::Int32 id, ::System::String* url)
+		::System::Void HandleRequest(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_HANDLEREQUEST_OFFSET))(this, id, url);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_HANDLEREQUEST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void WriteData(::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Byte>*>* files)
+		::System::Void WriteData(::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Byte>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Byte>*>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_WRITEDATA_OFFSET))(this, files);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Byte>*>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES_WRITEDATA_OFFSET))(this, a1);
 		}
 	};
 }

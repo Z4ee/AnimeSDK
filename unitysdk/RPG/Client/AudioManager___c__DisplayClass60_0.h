@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9D63E30)
-#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS60_0__PAUSEEVENT_B__0_OFFSET UNITYSDK_OFFSET(0x9D63E40)
+#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB34BAE0)
+#define RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS60_0__PAUSEEVENT_B__0_OFFSET UNITYSDK_OFFSET(0xB354B60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioManager___c__DisplayClass60_0_TypeDefinitionIndex = 55111;
+	inline static constexpr unsigned int AudioManager___c__DisplayClass60_0_TypeDefinitionIndex = 55845;
 
 	class AudioManager___c__DisplayClass60_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS60_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PauseEvent_b__0(::System::UInt32 eventID)
+		::System::Void _PauseEvent_b__0(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS60_0__PAUSEEVENT_B__0_OFFSET))(this, eventID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER___C__DISPLAYCLASS60_0__PAUSEEVENT_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class OfferingRewardData; }
+namespace System { class String; }
+
+#define CLASS_1_97E659ED8D5D259C_11_GET_OFFERINGID_OFFSET UNITYSDK_OFFSET(0x13A08B30)
+#define CLASS_1_97E659ED8D5D259C_11_METHOD_1_49091FA7D0FEFC35_OFFSET UNITYSDK_OFFSET(0x13A08C10)
+#define CLASS_1_97E659ED8D5D259C_11_METHOD_1_77D0BA711228273D_OFFSET UNITYSDK_OFFSET(0x13A08CE0)
+#define CLASS_1_97E659ED8D5D259C_11_METHOD_1_A05B7D848116F4B7_OFFSET UNITYSDK_OFFSET(0x13A08B50)
+#define CLASS_1_97E659ED8D5D259C_11_METHOD_1_B8FF86B5386F944C_OFFSET UNITYSDK_OFFSET(0x13A08AD0)
+#define CLASS_1_97E659ED8D5D259C_11_METHOD_1_F0E4FAC8E5EC9E93_OFFSET UNITYSDK_OFFSET(0x13A08BF0)
+#define CLASS_1_97E659ED8D5D259C_11_SET_OFFERINGID_OFFSET UNITYSDK_OFFSET(0x13A08B40)
+#define CLASS_1_97E659ED8D5D259C_11__CTOR_OFFSET UNITYSDK_OFFSET(0x13A08DD0)
+
+inline static constexpr unsigned int Class_1_97E659ED8D5D259C_11_TypeDefinitionIndex = 59729;
+
+class Class_1_97E659ED8D5D259C_11 : public ::System::Object
+{
+public:
+	::System::UInt32 _OfferingID_k__BackingField; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_11__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_97E659ED8D5D259C_11* Method_1_B8FF86B5386F944C(::System::UInt32 a1)
+	{
+		return ((::Class_1_97E659ED8D5D259C_11*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_11_METHOD_1_B8FF86B5386F944C_OFFSET))(a1);
+	}
+
+	::System::UInt32 get_OfferingID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_11_GET_OFFERINGID_OFFSET))(this);
+	}
+
+	::System::Void set_OfferingID(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_11_SET_OFFERINGID_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::OfferingRewardData* Method_1_A05B7D848116F4B7()
+	{
+		return ((::RPG::Client::OfferingRewardData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_11_METHOD_1_A05B7D848116F4B7_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_F0E4FAC8E5EC9E93()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_11_METHOD_1_F0E4FAC8E5EC9E93_OFFSET))(this);
+	}
+
+	::System::String* Method_1_49091FA7D0FEFC35()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_11_METHOD_1_49091FA7D0FEFC35_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_77D0BA711228273D()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_11_METHOD_1_77D0BA711228273D_OFFSET))(this);
+	}
+};

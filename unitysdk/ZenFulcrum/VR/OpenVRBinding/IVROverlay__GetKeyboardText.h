@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6F7770)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6F77D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6F7210)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F71F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B51B840)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B51B8A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B51B830)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B51B7B0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__GetKeyboardText_TypeDefinitionIndex = 35894;
+	inline static constexpr unsigned int IVROverlay__GetKeyboardText_TypeDefinitionIndex = 36194;
 
 	class IVROverlay__GetKeyboardText : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 Invoke(::System::Text::StringBuilder* pchText, ::System::UInt32 cchText)
+		::System::UInt32 Invoke(::System::Text::StringBuilder* a1, ::System::UInt32 a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_INVOKE_OFFSET))(this, pchText, cchText);
+			return ((::System::UInt32(*)(::PVOID, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder* pchText, ::System::UInt32 cchText, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder* a1, ::System::UInt32 a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Text::StringBuilder*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_BEGININVOKE_OFFSET))(this, pchText, cchText, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Text::StringBuilder*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::UInt32 EndInvoke(::System::IAsyncResult* result)
+		::System::UInt32 EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETKEYBOARDTEXT_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

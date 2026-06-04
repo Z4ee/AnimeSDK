@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ScaleMode_TypeDefinitionIndex = 5120;
+	inline static constexpr unsigned int ScaleMode_TypeDefinitionIndex = 5214;
 
 	enum class ScaleMode : ::System::Int32
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetAIStop; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DF60FDFE52455D55_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x128F7340)
-#define CLASS_3_DF60FDFE52455D55__CTOR_OFFSET UNITYSDK_OFFSET(0x128F7310)
+#define CLASS_3_DF60FDFE52455D55_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA944140)
+#define CLASS_3_DF60FDFE52455D55__CTOR_OFFSET UNITYSDK_OFFSET(0xA944110)
 
-inline static constexpr unsigned int Class_3_DF60FDFE52455D55_TypeDefinitionIndex = 48464;
+inline static constexpr unsigned int Class_3_DF60FDFE52455D55_TypeDefinitionIndex = 49090;
 
 class Class_3_DF60FDFE52455D55 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetAIStop*>
 {

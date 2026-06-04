@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/SpecialSkillButtonGroupType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1021;
+class Class_1_F8D4E2BAA9A57E44;
+
+#define CLASS_1_DBA6120F681EB662_METHOD_1_528BD4865C714C5C_OFFSET UNITYSDK_OFFSET(0x143A76C0)
+#define CLASS_1_DBA6120F681EB662_METHOD_1_80FE5793C3B79107_OFFSET UNITYSDK_OFFSET(0x143A7690)
+#define CLASS_1_DBA6120F681EB662_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x143A7640)
+#define CLASS_1_DBA6120F681EB662_METHOD_1_E2F75914E0014702_OFFSET UNITYSDK_OFFSET(0x143A7680)
+#define CLASS_1_DBA6120F681EB662__CCTOR_OFFSET UNITYSDK_OFFSET(0x143A7700)
+#define CLASS_1_DBA6120F681EB662__CTOR_OFFSET UNITYSDK_OFFSET(0x143A76F0)
+
+inline static constexpr unsigned int Class_1_DBA6120F681EB662_TypeDefinitionIndex = 67247;
+
+class Class_1_DBA6120F681EB662 : public ::System::Object
+{
+public:
+	static ::Class_1_F8D4E2BAA9A57E44** StaticGet_Field_1_0()
+	{
+		return (::Class_1_F8D4E2BAA9A57E44**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DBA6120F681EB662_TypeDefinitionIndex)->GetStaticField(0x3F30);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBA6120F681EB662__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_DBA6120F681EB662__CCTOR_OFFSET))();
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBA6120F681EB662_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::RPG::GameCore::SpecialSkillButtonGroupType Method_1_E2F75914E0014702()
+	{
+		return ((::RPG::GameCore::SpecialSkillButtonGroupType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBA6120F681EB662_METHOD_1_E2F75914E0014702_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1021* Method_1_80FE5793C3B79107()
+	{
+		return ((::Class_0_16E4307DCC419505_1021*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBA6120F681EB662_METHOD_1_80FE5793C3B79107_OFFSET))(this);
+	}
+
+	static ::Class_1_F8D4E2BAA9A57E44* Method_1_528BD4865C714C5C()
+	{
+		return ((::Class_1_F8D4E2BAA9A57E44*(*)())((::PBYTE)hIl2Cpp + CLASS_1_DBA6120F681EB662_METHOD_1_528BD4865C714C5C_OFFSET))();
+	}
+};

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PHOTOGRAPHAVATARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BF3CD0)
-#define RPG_GAMECORE_PHOTOGRAPHAVATARCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF3E20)
+#define RPG_GAMECORE_PHOTOGRAPHAVATARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A05B50)
+#define RPG_GAMECORE_PHOTOGRAPHAVATARCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A05C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphAvatarConfigRow_TypeDefinitionIndex = 13689;
+	inline static constexpr unsigned int PhotoGraphAvatarConfigRow_TypeDefinitionIndex = 13758;
 
 	class PhotoGraphAvatarConfigRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAVATARCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PhotoGraphAvatarConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphAvatarConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphAvatarConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAVATARCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphAvatarConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAVATARCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

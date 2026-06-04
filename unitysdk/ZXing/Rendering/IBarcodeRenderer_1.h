@@ -8,7 +8,7 @@ namespace ZXing::Common { class EncodingOptions; }
 
 namespace ZXing::Rendering
 {
-	inline static constexpr unsigned int IBarcodeRenderer_1_TypeDefinitionIndex = 6040;
+	inline static constexpr unsigned int IBarcodeRenderer_1_TypeDefinitionIndex = 6413;
 
 	template <typename TOutput>
 	class IBarcodeRenderer_1

@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSAEONCROSSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D49AE0)
-#define RPG_GAMECORE_ROGUENOUSAEONCROSSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D49CD0)
+#define RPG_GAMECORE_ROGUENOUSAEONCROSSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B9F9A0)
+#define RPG_GAMECORE_ROGUENOUSAEONCROSSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B9FB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousAeonCrossRow_TypeDefinitionIndex = 14127;
+	inline static constexpr unsigned int RogueNousAeonCrossRow_TypeDefinitionIndex = 14188;
 
 	class RogueNousAeonCrossRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SubAeonNum; // 0x10
+		::System::UInt32 MainAeonNum; // 0x10
 		::System::UInt32 MainAeonID; // 0x14
-		::System::UInt32 MainAeonNum; // 0x18
+		::System::UInt32 SubAeonNum; // 0x18
 		::System::UInt32 SubAeonID; // 0x1C
 		::System::UInt32 BuffGroup; // 0x20
 
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUENOUSAEONCROSSROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueNousAeonCrossRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueNousAeonCrossRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueNousAeonCrossRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUENOUSAEONCROSSROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueNousAeonCrossRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUENOUSAEONCROSSROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

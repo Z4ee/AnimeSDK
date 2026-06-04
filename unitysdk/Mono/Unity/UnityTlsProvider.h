@@ -14,17 +14,17 @@ namespace System::Net::Security { class SslStream; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_UNITY_UNITYTLSPROVIDER_CREATESSLSTREAMINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A0B0FD0)
-#define MONO_UNITY_UNITYTLSPROVIDER_CREATESSLSTREAM_OFFSET UNITYSDK_OFFSET(0x1A0A3790)
-#define MONO_UNITY_UNITYTLSPROVIDER_GET_ID_OFFSET UNITYSDK_OFFSET(0x1A0B0F40)
-#define MONO_UNITY_UNITYTLSPROVIDER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A0B0F30)
-#define MONO_UNITY_UNITYTLSPROVIDER_GET_SUPPORTEDPROTOCOLS_OFFSET UNITYSDK_OFFSET(0x1A0B0FC0)
-#define MONO_UNITY_UNITYTLSPROVIDER_GET_SUPPORTSCLEANSHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1A0B0FB0)
-#define MONO_UNITY_UNITYTLSPROVIDER_GET_SUPPORTSCONNECTIONINFO_OFFSET UNITYSDK_OFFSET(0x1A0B0FA0)
-#define MONO_UNITY_UNITYTLSPROVIDER_GET_SUPPORTSMONOEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1A0B0F90)
-#define MONO_UNITY_UNITYTLSPROVIDER_GET_SUPPORTSSSLSTREAM_OFFSET UNITYSDK_OFFSET(0x1A0B0F80)
-#define MONO_UNITY_UNITYTLSPROVIDER_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1A09BF20)
-#define MONO_UNITY_UNITYTLSPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B10A0)
+#define MONO_UNITY_UNITYTLSPROVIDER_CREATESSLSTREAMINTERNAL_OFFSET UNITYSDK_OFFSET(0x1AF1AE20)
+#define MONO_UNITY_UNITYTLSPROVIDER_CREATESSLSTREAM_OFFSET UNITYSDK_OFFSET(0x1AF14740)
+#define MONO_UNITY_UNITYTLSPROVIDER_GET_ID_OFFSET UNITYSDK_OFFSET(0x1AF1AD90)
+#define MONO_UNITY_UNITYTLSPROVIDER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1AF1AD80)
+#define MONO_UNITY_UNITYTLSPROVIDER_GET_SUPPORTEDPROTOCOLS_OFFSET UNITYSDK_OFFSET(0x1AF1AE10)
+#define MONO_UNITY_UNITYTLSPROVIDER_GET_SUPPORTSCLEANSHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1AF1AE00)
+#define MONO_UNITY_UNITYTLSPROVIDER_GET_SUPPORTSCONNECTIONINFO_OFFSET UNITYSDK_OFFSET(0x1AF1ADF0)
+#define MONO_UNITY_UNITYTLSPROVIDER_GET_SUPPORTSMONOEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1AF1ADE0)
+#define MONO_UNITY_UNITYTLSPROVIDER_GET_SUPPORTSSSLSTREAM_OFFSET UNITYSDK_OFFSET(0x1AF1ADD0)
+#define MONO_UNITY_UNITYTLSPROVIDER_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1AF0CD40)
+#define MONO_UNITY_UNITYTLSPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF1AEF0)
 
 namespace Mono::Unity
 {
@@ -73,19 +73,19 @@ namespace Mono::Unity
 			return ((::System::Security::Authentication::SslProtocols(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSPROVIDER_GET_SUPPORTEDPROTOCOLS_OFFSET))(this);
 		}
 
-		::Mono::Security::Interface::IMonoSslStream* CreateSslStream(::System::IO::Stream* innerStream, ::System::Boolean leaveInnerStreamOpen, ::Mono::Security::Interface::MonoTlsSettings* settings)
+		::Mono::Security::Interface::IMonoSslStream* CreateSslStream(::System::IO::Stream* a1, ::System::Boolean a2, ::Mono::Security::Interface::MonoTlsSettings* a3)
 		{
-			return ((::Mono::Security::Interface::IMonoSslStream*(*)(::PVOID, ::System::IO::Stream*, ::System::Boolean, ::Mono::Security::Interface::MonoTlsSettings*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSPROVIDER_CREATESSLSTREAM_OFFSET))(this, innerStream, leaveInnerStreamOpen, settings);
+			return ((::Mono::Security::Interface::IMonoSslStream*(*)(::PVOID, ::System::IO::Stream*, ::System::Boolean, ::Mono::Security::Interface::MonoTlsSettings*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSPROVIDER_CREATESSLSTREAM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Mono::Security::Interface::IMonoSslStream* CreateSslStreamInternal(::System::Net::Security::SslStream* sslStream, ::System::IO::Stream* innerStream, ::System::Boolean leaveInnerStreamOpen, ::Mono::Security::Interface::MonoTlsSettings* settings)
+		::Mono::Security::Interface::IMonoSslStream* CreateSslStreamInternal(::System::Net::Security::SslStream* a1, ::System::IO::Stream* a2, ::System::Boolean a3, ::Mono::Security::Interface::MonoTlsSettings* a4)
 		{
-			return ((::Mono::Security::Interface::IMonoSslStream*(*)(::PVOID, ::System::Net::Security::SslStream*, ::System::IO::Stream*, ::System::Boolean, ::Mono::Security::Interface::MonoTlsSettings*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSPROVIDER_CREATESSLSTREAMINTERNAL_OFFSET))(this, sslStream, innerStream, leaveInnerStreamOpen, settings);
+			return ((::Mono::Security::Interface::IMonoSslStream*(*)(::PVOID, ::System::Net::Security::SslStream*, ::System::IO::Stream*, ::System::Boolean, ::Mono::Security::Interface::MonoTlsSettings*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSPROVIDER_CREATESSLSTREAMINTERNAL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean ValidateCertificate(::Mono::Security::Interface::ICertificateValidator2* validator, ::System::String* targetHost, ::System::Boolean serverMode, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, ::System::Boolean wantsChain, ::System::Security::Cryptography::X509Certificates::X509Chain*& chain, ::Mono::Security::Interface::MonoSslPolicyErrors& errors, ::System::Int32& status11)
+		::System::Boolean ValidateCertificate(::Mono::Security::Interface::ICertificateValidator2* a1, ::System::String* a2, ::System::Boolean a3, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a4, ::System::Boolean a5, ::System::Security::Cryptography::X509Certificates::X509Chain*& a6, ::Mono::Security::Interface::MonoSslPolicyErrors& a7, ::System::Int32& a8)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Mono::Security::Interface::ICertificateValidator2*, ::System::String*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509Chain*&, ::Mono::Security::Interface::MonoSslPolicyErrors&, ::System::Int32&))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSPROVIDER_VALIDATECERTIFICATE_OFFSET))(this, validator, targetHost, serverMode, certificates, wantsChain, chain, errors, status11);
+			return ((::System::Boolean(*)(::PVOID, ::Mono::Security::Interface::ICertificateValidator2*, ::System::String*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Boolean, ::System::Security::Cryptography::X509Certificates::X509Chain*&, ::Mono::Security::Interface::MonoSslPolicyErrors&, ::System::Int32&))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSPROVIDER_VALIDATECERTIFICATE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 	};
 }

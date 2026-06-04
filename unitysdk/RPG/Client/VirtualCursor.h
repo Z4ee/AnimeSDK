@@ -5,9 +5,9 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_0_16E4307DCC419505_1018;
-class Class_0_16E4307DCC419505_1019;
-class Class_0_16E4307DCC419505_1020;
+class Class_0_16E4307DCC419505_1068;
+class Class_0_16E4307DCC419505_1069;
+class Class_0_16E4307DCC419505_1070;
 class Class_1_BA3EE563E6A792E6;
 namespace InControl { class PlayerAction; }
 namespace RPG::Client { class IVirtualCursor; }
@@ -29,74 +29,74 @@ namespace UnityEngine::Events { class UnityEvent; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
-#define RPG_CLIENT_VIRTUALCURSOR_ACTIVE_OFFSET UNITYSDK_OFFSET(0xB47F550)
-#define RPG_CLIENT_VIRTUALCURSOR_ADDMOVELISTENER_OFFSET UNITYSDK_OFFSET(0xB47EEB0)
-#define RPG_CLIENT_VIRTUALCURSOR_ADDSTOPLISTENER_OFFSET UNITYSDK_OFFSET(0xB47EFA0)
-#define RPG_CLIENT_VIRTUALCURSOR_DEACTIVE_OFFSET UNITYSDK_OFFSET(0xB47F5A0)
-#define RPG_CLIENT_VIRTUALCURSOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB47EB30)
-#define RPG_CLIENT_VIRTUALCURSOR_GET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0xB481AC0)
-#define RPG_CLIENT_VIRTUALCURSOR_GET_ONMOVE_OFFSET UNITYSDK_OFFSET(0xB47EE90)
-#define RPG_CLIENT_VIRTUALCURSOR_GET_ONSTOP_OFFSET UNITYSDK_OFFSET(0xB47EEA0)
-#define RPG_CLIENT_VIRTUALCURSOR_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xB47EB50)
-#define RPG_CLIENT_VIRTUALCURSOR_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xB481AB0)
-#define RPG_CLIENT_VIRTUALCURSOR_HIDE_OFFSET UNITYSDK_OFFSET(0xB47FB10)
-#define RPG_CLIENT_VIRTUALCURSOR_INCONTROL_INCONTROLINPUTMODULE_IINPUTPROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0xB481810)
-#define RPG_CLIENT_VIRTUALCURSOR_INIT_OFFSET UNITYSDK_OFFSET(0xB47F090)
-#define RPG_CLIENT_VIRTUALCURSOR_ISHOVEROVER_OFFSET UNITYSDK_OFFSET(0xB480170)
-#define RPG_CLIENT_VIRTUALCURSOR_ISHOVERUI_OFFSET UNITYSDK_OFFSET(0xB47FEE0)
-#define RPG_CLIENT_VIRTUALCURSOR_MOVE_OFFSET UNITYSDK_OFFSET(0xB47FC20)
-#define RPG_CLIENT_VIRTUALCURSOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB47F430)
-#define RPG_CLIENT_VIRTUALCURSOR_OVERRIDESIMULATETOUCHACTION_OFFSET UNITYSDK_OFFSET(0xB4805F0)
-#define RPG_CLIENT_VIRTUALCURSOR_REMOVEMOVELISTENER_OFFSET UNITYSDK_OFFSET(0xB47EF10)
-#define RPG_CLIENT_VIRTUALCURSOR_REMOVESTOPLISTENER_OFFSET UNITYSDK_OFFSET(0xB47F000)
-#define RPG_CLIENT_VIRTUALCURSOR_RPG_CLIENT_IUIDRAGINPUT_GETPOSITION_OFFSET UNITYSDK_OFFSET(0xB4817C0)
-#define RPG_CLIENT_VIRTUALCURSOR_RPG_CLIENT_IVIRTUALCURSORSIMULATETOUCHACTION_ONPOINTERPRESS_OFFSET UNITYSDK_OFFSET(0xB481870)
-#define RPG_CLIENT_VIRTUALCURSOR_RPG_CLIENT_IVIRTUALCURSORSIMULATETOUCHACTION_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xB4819D0)
-#define RPG_CLIENT_VIRTUALCURSOR_SETBOUNDSCLAMPER_OFFSET UNITYSDK_OFFSET(0xB47F650)
-#define RPG_CLIENT_VIRTUALCURSOR_SETRAYCASTFILTER_OFFSET UNITYSDK_OFFSET(0xB4805A0)
-#define RPG_CLIENT_VIRTUALCURSOR_SETSTATUS_OFFSET UNITYSDK_OFFSET(0xB47F6C0)
-#define RPG_CLIENT_VIRTUALCURSOR_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB47EB40)
-#define RPG_CLIENT_VIRTUALCURSOR_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xB47EB60)
-#define RPG_CLIENT_VIRTUALCURSOR_SHOW_OFFSET UNITYSDK_OFFSET(0xB47F9C0)
-#define RPG_CLIENT_VIRTUALCURSOR_SNAPTO_OFFSET UNITYSDK_OFFSET(0xB47FDF0)
-#define RPG_CLIENT_VIRTUALCURSOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xB480B70)
-#define RPG_CLIENT_VIRTUALCURSOR__CAMERA_OFFSET UNITYSDK_OFFSET(0xB481670)
-#define RPG_CLIENT_VIRTUALCURSOR__CLAMPPOS_OFFSET UNITYSDK_OFFSET(0xB47EBC0)
-#define RPG_CLIENT_VIRTUALCURSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xB481AD0)
-#define RPG_CLIENT_VIRTUALCURSOR__DESELECTIFSELECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0xB481160)
-#define RPG_CLIENT_VIRTUALCURSOR__FINDFIRSTRAYCAST_OFFSET UNITYSDK_OFFSET(0xB481350)
-#define RPG_CLIENT_VIRTUALCURSOR__GETANIMNAME_OFFSET UNITYSDK_OFFSET(0xB47F7E0)
-#define RPG_CLIENT_VIRTUALCURSOR__GETVIRTUALCURSOREVENTDATA_OFFSET UNITYSDK_OFFSET(0xB481010)
-#define RPG_CLIENT_VIRTUALCURSOR__INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xB47F2B0)
-#define RPG_CLIENT_VIRTUALCURSOR__ISCONTAINSTARGETRAYCAST_OFFSET UNITYSDK_OFFSET(0xB480290)
-#define RPG_CLIENT_VIRTUALCURSOR__ISRAYCASTVALID_OFFSET UNITYSDK_OFFSET(0xB4815A0)
-#define RPG_CLIENT_VIRTUALCURSOR__ISUNDERVIRTUALCURSOR_OFFSET UNITYSDK_OFFSET(0xB4800F0)
-#define RPG_CLIENT_VIRTUALCURSOR__MAXSPEEDOFSTATUS_OFFSET UNITYSDK_OFFSET(0xB481750)
-#define RPG_CLIENT_VIRTUALCURSOR__MOVECURSORPOS_OFFSET UNITYSDK_OFFSET(0xB47FD30)
-#define RPG_CLIENT_VIRTUALCURSOR__PLAYANIM_OFFSET UNITYSDK_OFFSET(0xB47F8E0)
-#define RPG_CLIENT_VIRTUALCURSOR__SETDAMPING_OFFSET UNITYSDK_OFFSET(0xB480730)
-#define RPG_CLIENT_VIRTUALCURSOR__SETIDLE_OFFSET UNITYSDK_OFFSET(0xB47F3A0)
-#define RPG_CLIENT_VIRTUALCURSOR__SETMOVE_OFFSET UNITYSDK_OFFSET(0xB4806A0)
-#define RPG_CLIENT_VIRTUALCURSOR__SETSNAP_OFFSET UNITYSDK_OFFSET(0xB47FE50)
-#define RPG_CLIENT_VIRTUALCURSOR__SETUPICONPOS_OFFSET UNITYSDK_OFFSET(0xB47ECD0)
-#define RPG_CLIENT_VIRTUALCURSOR__SETUPICONVISIBLE_OFFSET UNITYSDK_OFFSET(0xB47F950)
-#define RPG_CLIENT_VIRTUALCURSOR__SIMULATETOUCH_OFFSET UNITYSDK_OFFSET(0xB480C00)
-#define RPG_CLIENT_VIRTUALCURSOR__SPEEDFACTOROFSTATUS_OFFSET UNITYSDK_OFFSET(0xB4816E0)
-#define RPG_CLIENT_VIRTUALCURSOR__STOP_OFFSET UNITYSDK_OFFSET(0xB480640)
-#define RPG_CLIENT_VIRTUALCURSOR__TRYADDINPUTPROCESSOR_OFFSET UNITYSDK_OFFSET(0xB47FA40)
-#define RPG_CLIENT_VIRTUALCURSOR__TRYGETAXISVALUE_OFFSET UNITYSDK_OFFSET(0xB4807C0)
-#define RPG_CLIENT_VIRTUALCURSOR__TRYREMOVEINPUTPROCESSOR_OFFSET UNITYSDK_OFFSET(0xB47F480)
+#define RPG_CLIENT_VIRTUALCURSOR_ACTIVE_OFFSET UNITYSDK_OFFSET(0xCC21C00)
+#define RPG_CLIENT_VIRTUALCURSOR_ADDMOVELISTENER_OFFSET UNITYSDK_OFFSET(0xCC21550)
+#define RPG_CLIENT_VIRTUALCURSOR_ADDSTOPLISTENER_OFFSET UNITYSDK_OFFSET(0xCC21640)
+#define RPG_CLIENT_VIRTUALCURSOR_DEACTIVE_OFFSET UNITYSDK_OFFSET(0xCC21C50)
+#define RPG_CLIENT_VIRTUALCURSOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xCC211D0)
+#define RPG_CLIENT_VIRTUALCURSOR_GET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0xCC24280)
+#define RPG_CLIENT_VIRTUALCURSOR_GET_ONMOVE_OFFSET UNITYSDK_OFFSET(0xCC21530)
+#define RPG_CLIENT_VIRTUALCURSOR_GET_ONSTOP_OFFSET UNITYSDK_OFFSET(0xCC21540)
+#define RPG_CLIENT_VIRTUALCURSOR_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xCC211F0)
+#define RPG_CLIENT_VIRTUALCURSOR_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xCC24270)
+#define RPG_CLIENT_VIRTUALCURSOR_HIDE_OFFSET UNITYSDK_OFFSET(0xCC221E0)
+#define RPG_CLIENT_VIRTUALCURSOR_INCONTROL_INCONTROLINPUTMODULE_IINPUTPROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0xCC23FD0)
+#define RPG_CLIENT_VIRTUALCURSOR_INIT_OFFSET UNITYSDK_OFFSET(0xCC21730)
+#define RPG_CLIENT_VIRTUALCURSOR_ISHOVEROVER_OFFSET UNITYSDK_OFFSET(0xCC22840)
+#define RPG_CLIENT_VIRTUALCURSOR_ISHOVERUI_OFFSET UNITYSDK_OFFSET(0xCC225B0)
+#define RPG_CLIENT_VIRTUALCURSOR_MOVE_OFFSET UNITYSDK_OFFSET(0xCC222F0)
+#define RPG_CLIENT_VIRTUALCURSOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCC21AE0)
+#define RPG_CLIENT_VIRTUALCURSOR_OVERRIDESIMULATETOUCHACTION_OFFSET UNITYSDK_OFFSET(0xCC22BB0)
+#define RPG_CLIENT_VIRTUALCURSOR_REMOVEMOVELISTENER_OFFSET UNITYSDK_OFFSET(0xCC215B0)
+#define RPG_CLIENT_VIRTUALCURSOR_REMOVESTOPLISTENER_OFFSET UNITYSDK_OFFSET(0xCC216A0)
+#define RPG_CLIENT_VIRTUALCURSOR_RPG_CLIENT_IUIDRAGINPUT_GETPOSITION_OFFSET UNITYSDK_OFFSET(0xCC23F80)
+#define RPG_CLIENT_VIRTUALCURSOR_RPG_CLIENT_IVIRTUALCURSORSIMULATETOUCHACTION_ONPOINTERPRESS_OFFSET UNITYSDK_OFFSET(0xCC24030)
+#define RPG_CLIENT_VIRTUALCURSOR_RPG_CLIENT_IVIRTUALCURSORSIMULATETOUCHACTION_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xCC24190)
+#define RPG_CLIENT_VIRTUALCURSOR_SETBOUNDSCLAMPER_OFFSET UNITYSDK_OFFSET(0xCC21D00)
+#define RPG_CLIENT_VIRTUALCURSOR_SETRAYCASTFILTER_OFFSET UNITYSDK_OFFSET(0xCC22B60)
+#define RPG_CLIENT_VIRTUALCURSOR_SETSTATUS_OFFSET UNITYSDK_OFFSET(0xCC21D70)
+#define RPG_CLIENT_VIRTUALCURSOR_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0xCC211E0)
+#define RPG_CLIENT_VIRTUALCURSOR_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xCC21200)
+#define RPG_CLIENT_VIRTUALCURSOR_SHOW_OFFSET UNITYSDK_OFFSET(0xCC220D0)
+#define RPG_CLIENT_VIRTUALCURSOR_SNAPTO_OFFSET UNITYSDK_OFFSET(0xCC224C0)
+#define RPG_CLIENT_VIRTUALCURSOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xCC23130)
+#define RPG_CLIENT_VIRTUALCURSOR__CAMERA_OFFSET UNITYSDK_OFFSET(0xCC23E30)
+#define RPG_CLIENT_VIRTUALCURSOR__CLAMPPOS_OFFSET UNITYSDK_OFFSET(0xCC21260)
+#define RPG_CLIENT_VIRTUALCURSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCC24290)
+#define RPG_CLIENT_VIRTUALCURSOR__DESELECTIFSELECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0xCC23720)
+#define RPG_CLIENT_VIRTUALCURSOR__FINDFIRSTRAYCAST_OFFSET UNITYSDK_OFFSET(0xCC23910)
+#define RPG_CLIENT_VIRTUALCURSOR__GETANIMNAME_OFFSET UNITYSDK_OFFSET(0xCC21F50)
+#define RPG_CLIENT_VIRTUALCURSOR__GETVIRTUALCURSOREVENTDATA_OFFSET UNITYSDK_OFFSET(0xCC235D0)
+#define RPG_CLIENT_VIRTUALCURSOR__INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xCC21960)
+#define RPG_CLIENT_VIRTUALCURSOR__ISCONTAINSTARGETRAYCAST_OFFSET UNITYSDK_OFFSET(0xCC22960)
+#define RPG_CLIENT_VIRTUALCURSOR__ISRAYCASTVALID_OFFSET UNITYSDK_OFFSET(0xCC23BC0)
+#define RPG_CLIENT_VIRTUALCURSOR__ISUNDERVIRTUALCURSOR_OFFSET UNITYSDK_OFFSET(0xCC227C0)
+#define RPG_CLIENT_VIRTUALCURSOR__MAXSPEEDOFSTATUS_OFFSET UNITYSDK_OFFSET(0xCC23F10)
+#define RPG_CLIENT_VIRTUALCURSOR__MOVECURSORPOS_OFFSET UNITYSDK_OFFSET(0xCC22400)
+#define RPG_CLIENT_VIRTUALCURSOR__PLAYANIM_OFFSET UNITYSDK_OFFSET(0xCC21FF0)
+#define RPG_CLIENT_VIRTUALCURSOR__SETDAMPING_OFFSET UNITYSDK_OFFSET(0xCC22CF0)
+#define RPG_CLIENT_VIRTUALCURSOR__SETIDLE_OFFSET UNITYSDK_OFFSET(0xCC21A50)
+#define RPG_CLIENT_VIRTUALCURSOR__SETMOVE_OFFSET UNITYSDK_OFFSET(0xCC22C60)
+#define RPG_CLIENT_VIRTUALCURSOR__SETSNAP_OFFSET UNITYSDK_OFFSET(0xCC22520)
+#define RPG_CLIENT_VIRTUALCURSOR__SETUPICONPOS_OFFSET UNITYSDK_OFFSET(0xCC21370)
+#define RPG_CLIENT_VIRTUALCURSOR__SETUPICONVISIBLE_OFFSET UNITYSDK_OFFSET(0xCC22060)
+#define RPG_CLIENT_VIRTUALCURSOR__SIMULATETOUCH_OFFSET UNITYSDK_OFFSET(0xCC231C0)
+#define RPG_CLIENT_VIRTUALCURSOR__SPEEDFACTOROFSTATUS_OFFSET UNITYSDK_OFFSET(0xCC23EA0)
+#define RPG_CLIENT_VIRTUALCURSOR__STOP_OFFSET UNITYSDK_OFFSET(0xCC22C00)
+#define RPG_CLIENT_VIRTUALCURSOR__TRYADDINPUTPROCESSOR_OFFSET UNITYSDK_OFFSET(0xCC22150)
+#define RPG_CLIENT_VIRTUALCURSOR__TRYGETAXISVALUE_OFFSET UNITYSDK_OFFSET(0xCC22D80)
+#define RPG_CLIENT_VIRTUALCURSOR__TRYREMOVEINPUTPROCESSOR_OFFSET UNITYSDK_OFFSET(0xCC21B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCursor_TypeDefinitionIndex = 67432;
+	inline static constexpr unsigned int VirtualCursor_TypeDefinitionIndex = 68384;
 
 	class VirtualCursor : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::RPG::Client::IVirtualCursor** StaticGet__Current_k__BackingField()
 		{
-			return (::RPG::Client::IVirtualCursor**)Il2CppClass::FromTypeDefinitionIndex(VirtualCursor_TypeDefinitionIndex)->GetStaticField(0xCD00);
+			return (::RPG::Client::IVirtualCursor**)Il2CppClass::FromTypeDefinitionIndex(VirtualCursor_TypeDefinitionIndex)->GetStaticField(0x18BF0);
 		}
 		// static const ::System::String* _NORMAL_2_HIGHLIGHT_ANIM; // 0x0
 		// static const ::System::String* _NORMAL_2_SELECTED_ANIM; // 0x0
@@ -127,7 +127,7 @@ namespace RPG::Client
 		::UnityEngine::RectTransform* _ContainerRect; // 0x80
 		::UnityEngine::Transform* _IconTransform; // 0x88
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* _AnimationMap; // 0x90
-		::Class_0_16E4307DCC419505_1020* _SimulateTouchAction; // 0x98
+		::Class_0_16E4307DCC419505_1070* _SimulateTouchAction; // 0x98
 		::System::Boolean _Visible; // 0xA0
 		::UnityEngine::Vector2 _CursorPos; // 0xA4
 		::RPG::Client::VirtualCursorStatus _Status; // 0xAC
@@ -139,11 +139,11 @@ namespace RPG::Client
 		::RPG::Common::IState_1<::RPG::Client::VirtualCursor*>* _SnapState; // 0xD8
 		::UnityEngine::Vector2 _MoveSpeed; // 0xE0
 		::UnityEngine::Vector2 _SnapPosition; // 0xE8
-		::Class_0_16E4307DCC419505_1018* _BoundClamper; // 0xF0
+		::Class_0_16E4307DCC419505_1068* _BoundClamper; // 0xF0
 		::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* _RaycastResults; // 0xF8
 		::Class_1_BA3EE563E6A792E6* _VirtualCursorEventData; // 0x100
 		::UnityEngine::EventSystems::PointerEventData* _PointerEventData; // 0x108
-		::Class_0_16E4307DCC419505_1019* _RaycastFilter; // 0x110
+		::Class_0_16E4307DCC419505_1069* _RaycastFilter; // 0x110
 
 		::System::Void _ctor()
 		{
@@ -155,9 +155,9 @@ namespace RPG::Client
 			return ((::RPG::Client::IVirtualCursor*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_GET_CURRENT_OFFSET))();
 		}
 
-		static ::System::Void set_Current(::RPG::Client::IVirtualCursor* value)
+		static ::System::Void set_Current(::RPG::Client::IVirtualCursor* a1)
 		{
-			return ((::System::Void(*)(::RPG::Client::IVirtualCursor*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SET_CURRENT_OFFSET))(value);
+			return ((::System::Void(*)(::RPG::Client::IVirtualCursor*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SET_CURRENT_OFFSET))(a1);
 		}
 
 		::UnityEngine::Vector2 get_Position()
@@ -165,9 +165,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_GET_POSITION_OFFSET))(this);
 		}
 
-		::System::Void set_Position(::UnityEngine::Vector2 value)
+		::System::Void set_Position(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SET_POSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SET_POSITION_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>* get_OnMove()
@@ -180,29 +180,29 @@ namespace RPG::Client
 			return ((::UnityEngine::Events::UnityEvent*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_GET_ONSTOP_OFFSET))(this);
 		}
 
-		::System::Void AddMoveListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>* listener)
+		::System::Void AddMoveListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_ADDMOVELISTENER_OFFSET))(this, listener);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_ADDMOVELISTENER_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveMoveListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>* listener)
+		::System::Void RemoveMoveListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_REMOVEMOVELISTENER_OFFSET))(this, listener);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_REMOVEMOVELISTENER_OFFSET))(this, a1);
 		}
 
-		::System::Void AddStopListener(::UnityEngine::Events::UnityAction* listener)
+		::System::Void AddStopListener(::UnityEngine::Events::UnityAction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_ADDSTOPLISTENER_OFFSET))(this, listener);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_ADDSTOPLISTENER_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveStopListener(::UnityEngine::Events::UnityAction* listener)
+		::System::Void RemoveStopListener(::UnityEngine::Events::UnityAction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_REMOVESTOPLISTENER_OFFSET))(this, listener);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_REMOVESTOPLISTENER_OFFSET))(this, a1);
 		}
 
-		::System::Void Init(::RPG::Client::UIController* ownerController)
+		::System::Void Init(::RPG::Client::UIController* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_INIT_OFFSET))(this, ownerController);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDestroy()
@@ -220,14 +220,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_DEACTIVE_OFFSET))(this);
 		}
 
-		::System::Void SetBoundsClamper(::Class_0_16E4307DCC419505_1018* clamper)
+		::System::Void SetBoundsClamper(::Class_0_16E4307DCC419505_1068* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1018*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SETBOUNDSCLAMPER_OFFSET))(this, clamper);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1068*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SETBOUNDSCLAMPER_OFFSET))(this, a1);
 		}
 
-		::System::Void SetStatus(::RPG::Client::VirtualCursorStatus status)
+		::System::Void SetStatus(::RPG::Client::VirtualCursorStatus a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::VirtualCursorStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SETSTATUS_OFFSET))(this, status);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::VirtualCursorStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SETSTATUS_OFFSET))(this, a1);
 		}
 
 		::System::Void Show()
@@ -240,34 +240,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_HIDE_OFFSET))(this);
 		}
 
-		::System::Void Move(::UnityEngine::Vector2 speed)
+		::System::Void Move(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_MOVE_OFFSET))(this, speed);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_MOVE_OFFSET))(this, a1);
 		}
 
-		::System::Void SnapTo(::UnityEngine::Vector2 position)
+		::System::Void SnapTo(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SNAPTO_OFFSET))(this, position);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SNAPTO_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsHoverUI(::UnityEngine::Transform* target)
+		::System::Boolean IsHoverUI(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_ISHOVERUI_OFFSET))(this, target);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_ISHOVERUI_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsHoverOver(::UnityEngine::Transform* target)
+		::System::Boolean IsHoverOver(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_ISHOVEROVER_OFFSET))(this, target);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_ISHOVEROVER_OFFSET))(this, a1);
 		}
 
-		::System::Void SetRaycastFilter(::Class_0_16E4307DCC419505_1019* filter)
+		::System::Void SetRaycastFilter(::Class_0_16E4307DCC419505_1069* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1019*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SETRAYCASTFILTER_OFFSET))(this, filter);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1069*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SETRAYCASTFILTER_OFFSET))(this, a1);
 		}
 
-		::System::Void OverrideSimulateTouchAction(::Class_0_16E4307DCC419505_1020* action)
+		::System::Void OverrideSimulateTouchAction(::Class_0_16E4307DCC419505_1070* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1020*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_OVERRIDESIMULATETOUCHACTION_OFFSET))(this, action);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1070*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_OVERRIDESIMULATETOUCHACTION_OFFSET))(this, a1);
 		}
 
 		::System::Void _Stop()
@@ -295,9 +295,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__SETSNAP_OFFSET))(this);
 		}
 
-		::System::Boolean _TryGetAxisValue(::UnityEngine::Vector2& value)
+		::System::Boolean _TryGetAxisValue(::UnityEngine::Vector2& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__TRYGETAXISVALUE_OFFSET))(this, value);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__TRYGETAXISVALUE_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()
@@ -315,34 +315,34 @@ namespace RPG::Client
 			return ((::Class_1_BA3EE563E6A792E6*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__GETVIRTUALCURSOREVENTDATA_OFFSET))(this);
 		}
 
-		::System::Void _DeselectIfSelectionChanged(::UnityEngine::GameObject* currentOverGo, ::UnityEngine::EventSystems::BaseEventData* pointerEvent)
+		::System::Void _DeselectIfSelectionChanged(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::BaseEventData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__DESELECTIFSELECTIONCHANGED_OFFSET))(this, currentOverGo, pointerEvent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__DESELECTIFSELECTIONCHANGED_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::EventSystems::RaycastResult _FindFirstRaycast(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* raycastResults)
+		::UnityEngine::EventSystems::RaycastResult _FindFirstRaycast(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* a1)
 		{
-			return ((::UnityEngine::EventSystems::RaycastResult(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__FINDFIRSTRAYCAST_OFFSET))(this, raycastResults);
+			return ((::UnityEngine::EventSystems::RaycastResult(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__FINDFIRSTRAYCAST_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsContainsTargetRaycast(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* raycastResults, ::UnityEngine::GameObject* target)
+		::System::Boolean _IsContainsTargetRaycast(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* a1, ::UnityEngine::GameObject* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__ISCONTAINSTARGETRAYCAST_OFFSET))(this, raycastResults, target);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__ISCONTAINSTARGETRAYCAST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _IsUnderVirtualCursor(::UnityEngine::Transform* target)
+		::System::Boolean _IsUnderVirtualCursor(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__ISUNDERVIRTUALCURSOR_OFFSET))(this, target);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__ISUNDERVIRTUALCURSOR_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _IsRaycastValid(::UnityEngine::EventSystems::RaycastResult raycastResult)
+		::System::Boolean _IsRaycastValid(::UnityEngine::EventSystems::RaycastResult a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::EventSystems::RaycastResult))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__ISRAYCASTVALID_OFFSET))(this, raycastResult);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::EventSystems::RaycastResult))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__ISRAYCASTVALID_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 _ClampPos(::UnityEngine::Vector2 pos)
+		::UnityEngine::Vector2 _ClampPos(::UnityEngine::Vector2 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__CLAMPPOS_OFFSET))(this, pos);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__CLAMPPOS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Camera* _Camera()
@@ -350,9 +350,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__CAMERA_OFFSET))(this);
 		}
 
-		::System::Void _MoveCursorPos(::UnityEngine::Vector2 speed)
+		::System::Void _MoveCursorPos(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__MOVECURSORPOS_OFFSET))(this, speed);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__MOVECURSORPOS_OFFSET))(this, a1);
 		}
 
 		::System::Void _SetupIconPos()
@@ -365,14 +365,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__INITCOMPONENT_OFFSET))(this);
 		}
 
-		::System::String* _GetAnimName(::RPG::Client::VirtualCursorStatus previous, ::RPG::Client::VirtualCursorStatus next)
+		::System::String* _GetAnimName(::RPG::Client::VirtualCursorStatus a1, ::RPG::Client::VirtualCursorStatus a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::Client::VirtualCursorStatus, ::RPG::Client::VirtualCursorStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__GETANIMNAME_OFFSET))(this, previous, next);
+			return ((::System::String*(*)(::PVOID, ::RPG::Client::VirtualCursorStatus, ::RPG::Client::VirtualCursorStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__GETANIMNAME_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _PlayAnim(::System::String* animName)
+		::System::Void _PlayAnim(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__PLAYANIM_OFFSET))(this, animName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR__PLAYANIM_OFFSET))(this, a1);
 		}
 
 		::System::Void _SetupIconVisible()
@@ -405,19 +405,19 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_RPG_CLIENT_IUIDRAGINPUT_GETPOSITION_OFFSET))(this);
 		}
 
-		::System::Void InControl_InControlInputModule_IInputProcessor_Process(::System::Boolean& usedEvent)
+		::System::Void InControl_InControlInputModule_IInputProcessor_Process(::System::Boolean& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_INCONTROL_INCONTROLINPUTMODULE_IINPUTPROCESSOR_PROCESS_OFFSET))(this, usedEvent);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_INCONTROL_INCONTROLINPUTMODULE_IINPUTPROCESSOR_PROCESS_OFFSET))(this, a1);
 		}
 
-		::System::Void RPG_Client_IVirtualCursorSimulateTouchAction_OnPointerPress(::UnityEngine::GameObject* gameObject, ::UnityEngine::EventSystems::PointerEventData* pointerEvent)
+		::System::Void RPG_Client_IVirtualCursorSimulateTouchAction_OnPointerPress(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::PointerEventData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_RPG_CLIENT_IVIRTUALCURSORSIMULATETOUCHACTION_ONPOINTERPRESS_OFFSET))(this, gameObject, pointerEvent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_RPG_CLIENT_IVIRTUALCURSORSIMULATETOUCHACTION_ONPOINTERPRESS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RPG_Client_IVirtualCursorSimulateTouchAction_OnPointerUp(::UnityEngine::GameObject* gameObject, ::UnityEngine::EventSystems::PointerEventData* pointerEvent)
+		::System::Void RPG_Client_IVirtualCursorSimulateTouchAction_OnPointerUp(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::PointerEventData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_RPG_CLIENT_IVIRTUALCURSORSIMULATETOUCHACTION_ONPOINTERUP_OFFSET))(this, gameObject, pointerEvent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_RPG_CLIENT_IVIRTUALCURSORSIMULATETOUCHACTION_ONPOINTERUP_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::VirtualCursorStatus get_Status()

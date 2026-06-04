@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RANDOMCONFIG_METHOD_4_704FF9B9B1E02FF8_OFFSET UNITYSDK_OFFSET(0x18C89920)
-#define RPG_GAMECORE_RANDOMCONFIG_METHOD_4_7202DE5DAB38DB8F_OFFSET UNITYSDK_OFFSET(0x18C897A0)
-#define RPG_GAMECORE_RANDOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C89870)
+#define RPG_GAMECORE_RANDOMCONFIG_METHOD_4_3373E8598E206E9F_OFFSET UNITYSDK_OFFSET(0x19AAE640)
+#define RPG_GAMECORE_RANDOMCONFIG_METHOD_4_CF8B1D54EE470613_OFFSET UNITYSDK_OFFSET(0x19AAE7C0)
+#define RPG_GAMECORE_RANDOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAE710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomConfig_TypeDefinitionIndex = 22769;
+	inline static constexpr unsigned int RandomConfig_TypeDefinitionIndex = 22476;
 
 	class RandomConfig : public ::RPG::GameCore::CompositeConfig
 	{
@@ -37,14 +37,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_7202DE5DAB38DB8F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomConfig*& a2)
+		static ::System::Void Method_4_3373E8598E206E9F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMCONFIG_METHOD_4_7202DE5DAB38DB8F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMCONFIG_METHOD_4_3373E8598E206E9F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_704FF9B9B1E02FF8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomConfig* a2)
+		static ::System::Void Method_4_CF8B1D54EE470613(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMCONFIG_METHOD_4_704FF9B9B1E02FF8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMCONFIG_METHOD_4_CF8B1D54EE470613_OFFSET))(a1, a2);
 		}
 	};
 }

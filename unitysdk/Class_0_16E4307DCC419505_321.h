@@ -1,7 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_321_TypeDefinitionIndex = 45849;
+namespace RPG::GameCore { class SimpleTalkInfo; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_321_TypeDefinitionIndex = 45519;
 
 class Class_0_16E4307DCC419505_321
 {

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_THRUSTMASTERTMXMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x171E16F0)
-#define INCONTROL_NATIVEDEVICEPROFILES_THRUSTMASTERTMXMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x171E1780)
+#define INCONTROL_NATIVEDEVICEPROFILES_THRUSTMASTERTMXMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1801A9D0)
+#define INCONTROL_NATIVEDEVICEPROFILES_THRUSTMASTERTMXMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1801AA50)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int ThrustmasterTMXMacNativeProfile_TypeDefinitionIndex = 37545;
+	inline static constexpr unsigned int ThrustmasterTMXMacNativeProfile_TypeDefinitionIndex = 38277;
 
 	class ThrustmasterTMXMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

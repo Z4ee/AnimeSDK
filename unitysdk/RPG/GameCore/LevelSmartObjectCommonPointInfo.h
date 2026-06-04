@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELSMARTOBJECTCOMMONPOINTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A5A1E0)
-#define RPG_GAMECORE_LEVELSMARTOBJECTCOMMONPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A5A3E0)
+#define RPG_GAMECORE_LEVELSMARTOBJECTCOMMONPOINTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1988AB90)
+#define RPG_GAMECORE_LEVELSMARTOBJECTCOMMONPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1988AD90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSmartObjectCommonPointInfo_TypeDefinitionIndex = 16480;
+	inline static constexpr unsigned int LevelSmartObjectCommonPointInfo_TypeDefinitionIndex = 16512;
 
 	class LevelSmartObjectCommonPointInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSMARTOBJECTCOMMONPOINTINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelSmartObjectCommonPointInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelSmartObjectCommonPointInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelSmartObjectCommonPointInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSMARTOBJECTCOMMONPOINTINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelSmartObjectCommonPointInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSMARTOBJECTCOMMONPOINTINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

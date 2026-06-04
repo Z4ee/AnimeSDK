@@ -10,13 +10,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_METHOD_3_57B6CF32F17C97A6_OFFSET UNITYSDK_OFFSET(0x190BD180)
-#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_METHOD_3_E8E42C7968867E18_OFFSET UNITYSDK_OFFSET(0x190BD410)
-#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x190BD2E0)
+#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_METHOD_3_2C033422EC73CB47_OFFSET UNITYSDK_OFFSET(0x19E07FD0)
+#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_METHOD_3_D673D115CCC8BAFF_OFFSET UNITYSDK_OFFSET(0x19E07D40)
+#define RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E07EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAnimStateWithMove_TypeDefinitionIndex = 21345;
+	inline static constexpr unsigned int TriggerAnimStateWithMove_TypeDefinitionIndex = 21239;
 
 	class TriggerAnimStateWithMove : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,14 +37,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_57B6CF32F17C97A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimStateWithMove*& a2)
+		static ::System::Void Method_3_D673D115CCC8BAFF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimStateWithMove*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAnimStateWithMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_METHOD_3_57B6CF32F17C97A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAnimStateWithMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_METHOD_3_D673D115CCC8BAFF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E8E42C7968867E18(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimStateWithMove* a2)
+		static ::System::Void Method_3_2C033422EC73CB47(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimStateWithMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAnimStateWithMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_METHOD_3_E8E42C7968867E18_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAnimStateWithMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEWITHMOVE_METHOD_3_2C033422EC73CB47_OFFSET))(a1, a2);
 		}
 	};
 }

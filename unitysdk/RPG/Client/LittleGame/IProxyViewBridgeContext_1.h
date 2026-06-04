@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IProxyViewBridgeContext_1_TypeDefinitionIndex = 38248;
+	inline static constexpr unsigned int IProxyViewBridgeContext_1_TypeDefinitionIndex = 39005;
 
 	template <typename TEntity>
 	class IProxyViewBridgeContext_1

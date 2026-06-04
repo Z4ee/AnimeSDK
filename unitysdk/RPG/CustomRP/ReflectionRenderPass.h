@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReflectionRenderPass_TypeDefinitionIndex = 35023;
+	inline static constexpr unsigned int ReflectionRenderPass_TypeDefinitionIndex = 35308;
 
 	enum class ReflectionRenderPass : ::System::Int32
 	{

@@ -5,34 +5,34 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A23E6A0)
-#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A23E690)
-#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_INVERSEMASK_OFFSET UNITYSDK_OFFSET(0x1A23E5D0)
-#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_INVERSE_OFFSET UNITYSDK_OFFSET(0x1A23E540)
-#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_MASK_OFFSET UNITYSDK_OFFSET(0x1A23E5A0)
-#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1A23E610)
-#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1A23E650)
-#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A23E700)
-#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A23E800)
-#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A23E530)
+#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B0A2D80)
+#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B0A2D70)
+#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_INVERSEMASK_OFFSET UNITYSDK_OFFSET(0x1B0A2CB0)
+#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_INVERSE_OFFSET UNITYSDK_OFFSET(0x1B0A2C20)
+#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_MASK_OFFSET UNITYSDK_OFFSET(0x1B0A2C80)
+#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B0A2CF0)
+#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B0A2D30)
+#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B0A2DE0)
+#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0A2EA0)
+#define UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A2C10)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int HandleConstraint2D_TypeDefinitionIndex = 39915;
+	inline static constexpr unsigned int HandleConstraint2D_TypeDefinitionIndex = 40742;
 
 	class HandleConstraint2D : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::ProBuilder::HandleConstraint2D** StaticGet_None()
 		{
-			return (::UnityEngine::ProBuilder::HandleConstraint2D**)Il2CppClass::FromTypeDefinitionIndex(HandleConstraint2D_TypeDefinitionIndex)->GetStaticField(0x257F0);
+			return (::UnityEngine::ProBuilder::HandleConstraint2D**)Il2CppClass::FromTypeDefinitionIndex(HandleConstraint2D_TypeDefinitionIndex)->GetStaticField(0x51F60);
 		}
 		::System::Int32 x; // 0x10
 		::System::Int32 y; // 0x14
 
-		::System::Void _ctor(::System::Int32 x, ::System::Int32 y)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D__CTOR_OFFSET))(this, x, y);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -45,24 +45,24 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::HandleConstraint2D*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_INVERSE_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2 Mask(::UnityEngine::Vector2 v)
+		::UnityEngine::Vector2 Mask(::UnityEngine::Vector2 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_MASK_OFFSET))(this, v);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_MASK_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 InverseMask(::UnityEngine::Vector2 v)
+		::UnityEngine::Vector2 InverseMask(::UnityEngine::Vector2 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_INVERSEMASK_OFFSET))(this, v);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_INVERSEMASK_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean op_Equality(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D* b)
+		static ::System::Boolean op_Equality(::UnityEngine::ProBuilder::HandleConstraint2D* a1, ::UnityEngine::ProBuilder::HandleConstraint2D* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::HandleConstraint2D*, ::UnityEngine::ProBuilder::HandleConstraint2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_OP_EQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::HandleConstraint2D*, ::UnityEngine::ProBuilder::HandleConstraint2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D* b)
+		static ::System::Boolean op_Inequality(::UnityEngine::ProBuilder::HandleConstraint2D* a1, ::UnityEngine::ProBuilder::HandleConstraint2D* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::HandleConstraint2D*, ::UnityEngine::ProBuilder::HandleConstraint2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_OP_INEQUALITY_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::HandleConstraint2D*, ::UnityEngine::ProBuilder::HandleConstraint2D*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -70,9 +70,9 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* o)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_EQUALS_OFFSET))(this, o);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HANDLECONSTRAINT2D_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

@@ -7,138 +7,138 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_ALIGN_OFFSET UNITYSDK_OFFSET(0x1757CFF0)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOMLEFT_OFFSET UNITYSDK_OFFSET(0x1757CE10)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOMRIGHT_OFFSET UNITYSDK_OFFSET(0x1757CF50)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOM_OFFSET UNITYSDK_OFFSET(0x1757CEB0)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_CENTER_OFFSET UNITYSDK_OFFSET(0x1757CCD0)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_LEFT_OFFSET UNITYSDK_OFFSET(0x1757CC30)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_RIGHT_OFFSET UNITYSDK_OFFSET(0x1757CD70)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETALIGNMENT_OFFSET UNITYSDK_OFFSET(0x1757C9B0)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETSTRETCHHORIZONTALRECT_OFFSET UNITYSDK_OFFSET(0x1757D1E0)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETSTRETCHVERTICALRECT_OFFSET UNITYSDK_OFFSET(0x1757D6A0)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHFULL_OFFSET UNITYSDK_OFFSET(0x1757E100)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALBOTTOM_OFFSET UNITYSDK_OFFSET(0x1757DD40)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALCENTER_OFFSET UNITYSDK_OFFSET(0x1757DC50)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALTOP_OFFSET UNITYSDK_OFFSET(0x1757DB60)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALCENTER_OFFSET UNITYSDK_OFFSET(0x1757DF20)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALLEFT_OFFSET UNITYSDK_OFFSET(0x1757DE30)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALRIGHT_OFFSET UNITYSDK_OFFSET(0x1757E010)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCH_OFFSET UNITYSDK_OFFSET(0x1757E4B0)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOPLEFT_OFFSET UNITYSDK_OFFSET(0x1757CA50)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOPRIGHT_OFFSET UNITYSDK_OFFSET(0x1757CB90)
-#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOP_OFFSET UNITYSDK_OFFSET(0x1757CAF0)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_ALIGN_OFFSET UNITYSDK_OFFSET(0x183656A0)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOMLEFT_OFFSET UNITYSDK_OFFSET(0x183654C0)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOMRIGHT_OFFSET UNITYSDK_OFFSET(0x18365600)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOM_OFFSET UNITYSDK_OFFSET(0x18365560)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_CENTER_OFFSET UNITYSDK_OFFSET(0x18365380)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_LEFT_OFFSET UNITYSDK_OFFSET(0x183652E0)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_RIGHT_OFFSET UNITYSDK_OFFSET(0x18365420)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETALIGNMENT_OFFSET UNITYSDK_OFFSET(0x18365060)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETSTRETCHHORIZONTALRECT_OFFSET UNITYSDK_OFFSET(0x18365890)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETSTRETCHVERTICALRECT_OFFSET UNITYSDK_OFFSET(0x18365D50)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHFULL_OFFSET UNITYSDK_OFFSET(0x183667B0)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALBOTTOM_OFFSET UNITYSDK_OFFSET(0x183663F0)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALCENTER_OFFSET UNITYSDK_OFFSET(0x18366300)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALTOP_OFFSET UNITYSDK_OFFSET(0x18366210)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALCENTER_OFFSET UNITYSDK_OFFSET(0x183665D0)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALLEFT_OFFSET UNITYSDK_OFFSET(0x183664E0)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALRIGHT_OFFSET UNITYSDK_OFFSET(0x183666C0)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCH_OFFSET UNITYSDK_OFFSET(0x18366B60)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOPLEFT_OFFSET UNITYSDK_OFFSET(0x18365100)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOPRIGHT_OFFSET UNITYSDK_OFFSET(0x18365240)
+#define MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOP_OFFSET UNITYSDK_OFFSET(0x183651A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKRectTransform_TypeDefinitionIndex = 7047;
+	inline static constexpr unsigned int MiHoYoSDKRectTransform_TypeDefinitionIndex = 7950;
 
 	class MiHoYoSDKRectTransform : public ::System::Object
 	{
 	public:
-		static ::System::Void SetAlignment(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 value, ::UnityEngine::Vector2 offset, ::UnityEngine::Vector2 size, ::System::Boolean adjustPivot)
+		static ::System::Void SetAlignment(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETALIGNMENT_OFFSET))(rect, value, offset, size, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETALIGNMENT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void TopLeft(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 offset, ::UnityEngine::Vector2 size, ::System::Boolean adjustPivot)
+		static ::System::Void TopLeft(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOPLEFT_OFFSET))(rect, offset, size, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOPLEFT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Top(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 offset, ::UnityEngine::Vector2 size, ::System::Boolean adjustPivot)
+		static ::System::Void Top(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOP_OFFSET))(rect, offset, size, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOP_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void TopRight(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 offset, ::UnityEngine::Vector2 size, ::System::Boolean adjustPivot)
+		static ::System::Void TopRight(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOPRIGHT_OFFSET))(rect, offset, size, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_TOPRIGHT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Left(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 offset, ::UnityEngine::Vector2 size, ::System::Boolean adjustPivot)
+		static ::System::Void Left(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_LEFT_OFFSET))(rect, offset, size, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_LEFT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Center(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 offset, ::UnityEngine::Vector2 size, ::System::Boolean adjustPivot)
+		static ::System::Void Center(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_CENTER_OFFSET))(rect, offset, size, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_CENTER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Right(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 offset, ::UnityEngine::Vector2 size, ::System::Boolean adjustPivot)
+		static ::System::Void Right(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_RIGHT_OFFSET))(rect, offset, size, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_RIGHT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void BottomLeft(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 offset, ::UnityEngine::Vector2 size, ::System::Boolean adjustPivot)
+		static ::System::Void BottomLeft(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOMLEFT_OFFSET))(rect, offset, size, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOMLEFT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Bottom(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 offset, ::UnityEngine::Vector2 size, ::System::Boolean adjustPivot)
+		static ::System::Void Bottom(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOM_OFFSET))(rect, offset, size, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOM_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void BottomRight(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 offset, ::UnityEngine::Vector2 size, ::System::Boolean adjustPivot)
+		static ::System::Void BottomRight(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOMRIGHT_OFFSET))(rect, offset, size, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_BOTTOMRIGHT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Align(::UnityEngine::RectTransform* rect, ::MiHoYo::SDK::SDKRectAlignment alignment, ::UnityEngine::Vector2 offset, ::UnityEngine::Vector2 size, ::System::Boolean adjustPivot)
+		static ::System::Void Align(::UnityEngine::RectTransform* a1, ::MiHoYo::SDK::SDKRectAlignment a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::MiHoYo::SDK::SDKRectAlignment, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_ALIGN_OFFSET))(rect, alignment, offset, size, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::MiHoYo::SDK::SDKRectAlignment, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_ALIGN_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void SetStretchHorizontalRect(::UnityEngine::RectTransform* rect, ::System::Single paddingLeft, ::System::Single offsetY, ::System::Single paddingRight, ::System::Single height)
+		static ::System::Void SetStretchHorizontalRect(::UnityEngine::RectTransform* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETSTRETCHHORIZONTALRECT_OFFSET))(rect, paddingLeft, offsetY, paddingRight, height);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETSTRETCHHORIZONTALRECT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void SetStretchVerticalRect(::UnityEngine::RectTransform* rect, ::System::Single offsetX, ::System::Single paddingTop, ::System::Single width, ::System::Single paddingBottom)
+		static ::System::Void SetStretchVerticalRect(::UnityEngine::RectTransform* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETSTRETCHVERTICALRECT_OFFSET))(rect, offsetX, paddingTop, width, paddingBottom);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_SETSTRETCHVERTICALRECT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void StretchHorizontalTop(::UnityEngine::RectTransform* rect, ::System::Single paddingLeft, ::System::Single offsetY, ::System::Single paddingRight, ::System::Single height, ::System::Boolean adjustPivot)
+		static ::System::Void StretchHorizontalTop(::UnityEngine::RectTransform* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALTOP_OFFSET))(rect, paddingLeft, offsetY, paddingRight, height, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALTOP_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void StretchHorizontalCenter(::UnityEngine::RectTransform* rect, ::System::Single paddingLeft, ::System::Single offsetY, ::System::Single paddingRight, ::System::Single height, ::System::Boolean adjustPivot)
+		static ::System::Void StretchHorizontalCenter(::UnityEngine::RectTransform* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALCENTER_OFFSET))(rect, paddingLeft, offsetY, paddingRight, height, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALCENTER_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void StretchHorizontalBottom(::UnityEngine::RectTransform* rect, ::System::Single paddingLeft, ::System::Single offsetY, ::System::Single paddingRight, ::System::Single height, ::System::Boolean adjustPivot)
+		static ::System::Void StretchHorizontalBottom(::UnityEngine::RectTransform* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALBOTTOM_OFFSET))(rect, paddingLeft, offsetY, paddingRight, height, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHHORIZONTALBOTTOM_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void StretchVerticalLeft(::UnityEngine::RectTransform* rect, ::System::Single offsetX, ::System::Single paddingTop, ::System::Single width, ::System::Single paddingBottom, ::System::Boolean adjustPivot)
+		static ::System::Void StretchVerticalLeft(::UnityEngine::RectTransform* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALLEFT_OFFSET))(rect, offsetX, paddingTop, width, paddingBottom, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALLEFT_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void StretchVerticalCenter(::UnityEngine::RectTransform* rect, ::System::Single offsetX, ::System::Single paddingTop, ::System::Single width, ::System::Single paddingBottom, ::System::Boolean adjustPivot)
+		static ::System::Void StretchVerticalCenter(::UnityEngine::RectTransform* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALCENTER_OFFSET))(rect, offsetX, paddingTop, width, paddingBottom, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALCENTER_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void StretchVerticalRight(::UnityEngine::RectTransform* rect, ::System::Single offsetX, ::System::Single paddingTop, ::System::Single width, ::System::Single paddingBottom, ::System::Boolean adjustPivot)
+		static ::System::Void StretchVerticalRight(::UnityEngine::RectTransform* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALRIGHT_OFFSET))(rect, offsetX, paddingTop, width, paddingBottom, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHVERTICALRIGHT_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void StretchFull(::UnityEngine::RectTransform* rect, ::System::Single paddingLeft, ::System::Single paddingTop, ::System::Single paddingRight, ::System::Single paddingBottom)
+		static ::System::Void StretchFull(::UnityEngine::RectTransform* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHFULL_OFFSET))(rect, paddingLeft, paddingTop, paddingRight, paddingBottom);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCHFULL_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void Stretch(::UnityEngine::RectTransform* rect, ::MiHoYo::SDK::SDKRectStretch stretch, ::System::Single leftOrOffsetX, ::System::Single topOrOffsetY, ::System::Single rightOrWidth, ::System::Single bottomOrHeight, ::System::Boolean adjustPivot)
+		static ::System::Void Stretch(::UnityEngine::RectTransform* a1, ::MiHoYo::SDK::SDKRectStretch a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::MiHoYo::SDK::SDKRectStretch, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCH_OFFSET))(rect, stretch, leftOrOffsetX, topOrOffsetY, rightOrWidth, bottomOrHeight, adjustPivot);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::MiHoYo::SDK::SDKRectStretch, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKRECTTRANSFORM_STRETCH_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 	};
 }

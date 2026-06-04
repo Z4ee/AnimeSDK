@@ -7,29 +7,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVESENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A14A70)
-#define RPG_GAMECORE_IDLELIVESENDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A14C90)
+#define RPG_GAMECORE_IDLELIVESENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19846D00)
+#define RPG_GAMECORE_IDLELIVESENDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19846F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSenderRow_TypeDefinitionIndex = 11231;
+	inline static constexpr unsigned int IdleLiveSenderRow_TypeDefinitionIndex = 11278;
 
 	class IdleLiveSenderRow : public ::System::Object
 	{
 	public:
 		::System::String* Icon; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 ID; // 0x28
-		::RPG::GameCore::OfflineMessageSenderType SenderType; // 0x2C
+		::RPG::GameCore::OfflineMessageSenderType SenderType; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::RPG::Client::TextID Name; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESENDERROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::IdleLiveSenderRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveSenderRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveSenderRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESENDERROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveSenderRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVESENDERROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

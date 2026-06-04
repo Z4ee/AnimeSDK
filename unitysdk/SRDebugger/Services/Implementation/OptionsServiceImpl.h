@@ -11,45 +11,45 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADDCONTAINER_1_OFFSET UNITYSDK_OFFSET(0x19E7A5B0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADDCONTAINER_OFFSET UNITYSDK_OFFSET(0x19E7A550)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADD_OPTIONSUPDATED_OFFSET UNITYSDK_OFFSET(0x19E79DE0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x19E79EA0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ONOPTIONSUPDATED_OFFSET UNITYSDK_OFFSET(0x19E7A100)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_OPTIONSCONTAINERONOPTIONADDED_OFFSET UNITYSDK_OFFSET(0x19E79EB0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_OPTIONSCONTAINERONOPTIONREMOVED_OFFSET UNITYSDK_OFFSET(0x19E7A150)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVECONTAINER_1_OFFSET UNITYSDK_OFFSET(0x19E7AB00)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVECONTAINER_OFFSET UNITYSDK_OFFSET(0x19E7AAB0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVE_OPTIONSUPDATED_OFFSET UNITYSDK_OFFSET(0x19E79E40)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_SCAN_OFFSET UNITYSDK_OFFSET(0x19E7A500)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7A3C0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADDCONTAINER_1_OFFSET UNITYSDK_OFFSET(0x1ACF0B60)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADDCONTAINER_OFFSET UNITYSDK_OFFSET(0x1ACF0B00)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADD_OPTIONSUPDATED_OFFSET UNITYSDK_OFFSET(0x1ACF0260)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1ACF0320)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ONOPTIONSUPDATED_OFFSET UNITYSDK_OFFSET(0x1ACF06A0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_OPTIONSCONTAINERONOPTIONADDED_OFFSET UNITYSDK_OFFSET(0x1ACF0330)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_OPTIONSCONTAINERONOPTIONREMOVED_OFFSET UNITYSDK_OFFSET(0x1ACF0700)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVECONTAINER_1_OFFSET UNITYSDK_OFFSET(0x1ACF10D0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVECONTAINER_OFFSET UNITYSDK_OFFSET(0x1ACF1080)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVE_OPTIONSUPDATED_OFFSET UNITYSDK_OFFSET(0x1ACF02C0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_SCAN_OFFSET UNITYSDK_OFFSET(0x1ACF0AB0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF0970)
 
 namespace SRDebugger::Services::Implementation
 {
-	inline static constexpr unsigned int OptionsServiceImpl_TypeDefinitionIndex = 35447;
+	inline static constexpr unsigned int OptionsServiceImpl_TypeDefinitionIndex = 35747;
 
 	class OptionsServiceImpl : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::SRDebugger::IOptionContainer*, ::SRDebugger::Services::Implementation::OptionsServiceImpl_OptionContainerEventHandler*>* _optionContainerEventHandlerLookup; // 0x10
-		::System::EventHandler* OptionsUpdated; // 0x18
-		::System::Collections::Generic::Dictionary_2<::SRDebugger::IOptionContainer*, ::System::Collections::Generic::List_1<::SRDebugger::OptionDefinition*>*>* _optionContainerLookup; // 0x20
-		::System::Collections::Generic::List_1<::SRDebugger::OptionDefinition*>* _options; // 0x28
-		::System::Collections::Generic::IList_1<::SRDebugger::OptionDefinition*>* _optionsReadonly; // 0x30
+		::System::Collections::Generic::List_1<::SRDebugger::OptionDefinition*>* _options; // 0x10
+		::System::Collections::Generic::IList_1<::SRDebugger::OptionDefinition*>* _optionsReadonly; // 0x18
+		::System::Collections::Generic::Dictionary_2<::SRDebugger::IOptionContainer*, ::SRDebugger::Services::Implementation::OptionsServiceImpl_OptionContainerEventHandler*>* _optionContainerEventHandlerLookup; // 0x20
+		::System::EventHandler* OptionsUpdated; // 0x28
+		::System::Collections::Generic::Dictionary_2<::SRDebugger::IOptionContainer*, ::System::Collections::Generic::List_1<::SRDebugger::OptionDefinition*>*>* _optionContainerLookup; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL__CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_OptionsUpdated(::System::EventHandler* value)
+		::System::Void add_OptionsUpdated(::System::EventHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADD_OPTIONSUPDATED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADD_OPTIONSUPDATED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OptionsUpdated(::System::EventHandler* value)
+		::System::Void remove_OptionsUpdated(::System::EventHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVE_OPTIONSUPDATED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVE_OPTIONSUPDATED_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::ICollection_1<::SRDebugger::OptionDefinition*>* get_Options()
@@ -57,39 +57,39 @@ namespace SRDebugger::Services::Implementation
 			return ((::System::Collections::Generic::ICollection_1<::SRDebugger::OptionDefinition*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_GET_OPTIONS_OFFSET))(this);
 		}
 
-		::System::Void OptionsContainerOnOptionAdded(::SRDebugger::IOptionContainer* container, ::SRDebugger::OptionDefinition* optionDefinition)
+		::System::Void OptionsContainerOnOptionAdded(::SRDebugger::IOptionContainer* a1, ::SRDebugger::OptionDefinition* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::IOptionContainer*, ::SRDebugger::OptionDefinition*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_OPTIONSCONTAINERONOPTIONADDED_OFFSET))(this, container, optionDefinition);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::IOptionContainer*, ::SRDebugger::OptionDefinition*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_OPTIONSCONTAINERONOPTIONADDED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OptionsContainerOnOptionRemoved(::SRDebugger::IOptionContainer* container, ::SRDebugger::OptionDefinition* optionDefinition)
+		::System::Void OptionsContainerOnOptionRemoved(::SRDebugger::IOptionContainer* a1, ::SRDebugger::OptionDefinition* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::IOptionContainer*, ::SRDebugger::OptionDefinition*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_OPTIONSCONTAINERONOPTIONREMOVED_OFFSET))(this, container, optionDefinition);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::IOptionContainer*, ::SRDebugger::OptionDefinition*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_OPTIONSCONTAINERONOPTIONREMOVED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Scan(::System::Object* obj)
+		::System::Void Scan(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_SCAN_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_SCAN_OFFSET))(this, a1);
 		}
 
-		::System::Void AddContainer(::System::Object* obj)
+		::System::Void AddContainer(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADDCONTAINER_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADDCONTAINER_OFFSET))(this, a1);
 		}
 
-		::System::Void AddContainer_1(::SRDebugger::IOptionContainer* optionContainer)
+		::System::Void AddContainer_1(::SRDebugger::IOptionContainer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::IOptionContainer*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADDCONTAINER_1_OFFSET))(this, optionContainer);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::IOptionContainer*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_ADDCONTAINER_1_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveContainer(::System::Object* obj)
+		::System::Void RemoveContainer(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVECONTAINER_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVECONTAINER_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveContainer_1(::SRDebugger::IOptionContainer* optionContainer)
+		::System::Void RemoveContainer_1(::SRDebugger::IOptionContainer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::IOptionContainer*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVECONTAINER_1_OFFSET))(this, optionContainer);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::IOptionContainer*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REMOVECONTAINER_1_OFFSET))(this, a1);
 		}
 
 		::System::Void OnOptionsUpdated()

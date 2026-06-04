@@ -7,16 +7,16 @@ namespace UnityEngine::UI { class Slider; }
 namespace UnityEngine::UI { class SmoothMask; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOSLIDERANIM_AWAKE_OFFSET UNITYSDK_OFFSET(0xA9F8330)
-#define RPG_CLIENT_MONOSLIDERANIM_SETVALUE_OFFSET UNITYSDK_OFFSET(0xA9F81C0)
-#define RPG_CLIENT_MONOSLIDERANIM_STARTANIM_OFFSET UNITYSDK_OFFSET(0xA9F80C0)
-#define RPG_CLIENT_MONOSLIDERANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9F8500)
-#define RPG_CLIENT_MONOSLIDERANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xA9F8660)
-#define RPG_CLIENT_MONOSLIDERANIM__SETFILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xA9F8220)
+#define RPG_CLIENT_MONOSLIDERANIM_AWAKE_OFFSET UNITYSDK_OFFSET(0xC1465A0)
+#define RPG_CLIENT_MONOSLIDERANIM_SETVALUE_OFFSET UNITYSDK_OFFSET(0xC146440)
+#define RPG_CLIENT_MONOSLIDERANIM_STARTANIM_OFFSET UNITYSDK_OFFSET(0xC146340)
+#define RPG_CLIENT_MONOSLIDERANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xC146770)
+#define RPG_CLIENT_MONOSLIDERANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xC146A10)
+#define RPG_CLIENT_MONOSLIDERANIM__SETFILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xC146500)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSliderAnim_TypeDefinitionIndex = 66899;
+	inline static constexpr unsigned int MonoSliderAnim_TypeDefinitionIndex = 67839;
 
 	class MonoSliderAnim : public ::UnityEngine::MonoBehaviour
 	{
@@ -38,14 +38,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM__CTOR_OFFSET))(this);
 		}
 
-		::System::Void StartAnim(::System::Single from, ::System::Single to, ::System::Single delay, ::System::Single duration, ::System::Action_1<::XLua::LuaTable*>* animEndCallback, ::XLua::LuaTable* luaTable, ::System::Boolean needEasing)
+		::System::Void StartAnim(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Action_1<::XLua::LuaTable*>* a5, ::XLua::LuaTable* a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM_STARTANIM_OFFSET))(this, from, to, delay, duration, animEndCallback, luaTable, needEasing);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM_STARTANIM_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void SetValue(::System::Single value)
+		::System::Void SetValue(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM_SETVALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM_SETVALUE_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()
@@ -58,9 +58,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void _SetFillAmount(::System::Single value)
+		::System::Void _SetFillAmount(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM__SETFILLAMOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM__SETFILLAMOUNT_OFFSET))(this, a1);
 		}
 	};
 }

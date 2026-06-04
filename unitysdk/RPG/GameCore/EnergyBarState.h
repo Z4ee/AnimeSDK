@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnergyBarState_TypeDefinitionIndex = 21639;
+	inline static constexpr unsigned int EnergyBarState_TypeDefinitionIndex = 23298;
 
 	enum class EnergyBarState : ::System::Int32
 	{

@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E50C00)
-#define SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E50C30)
-#define SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E4A560)
-#define SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E50BE0)
+#define SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ACC8930)
+#define SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ACC8960)
+#define SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ACC3510)
+#define SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACC8840)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonGraphic_InstructionDelegate_TypeDefinitionIndex = 40587;
+	inline static constexpr unsigned int SkeletonGraphic_InstructionDelegate_TypeDefinitionIndex = 41414;
 
 	class SkeletonGraphic_InstructionDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Spine::Unity::SkeletonRendererInstruction* instruction)
+		::System::Void Invoke(::Spine::Unity::SkeletonRendererInstruction* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRendererInstruction*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_INVOKE_OFFSET))(this, instruction);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRendererInstruction*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Spine::Unity::SkeletonRendererInstruction* instruction, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Spine::Unity::SkeletonRendererInstruction* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Spine::Unity::SkeletonRendererInstruction*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_BEGININVOKE_OFFSET))(this, instruction, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Spine::Unity::SkeletonRendererInstruction*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHIC_INSTRUCTIONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

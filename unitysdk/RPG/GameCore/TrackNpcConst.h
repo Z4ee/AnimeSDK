@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TrackNpcVisionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TRACKNPCCONST_METHOD_2_405BD143B5D62E47_OFFSET UNITYSDK_OFFSET(0x190A2740)
-#define RPG_GAMECORE_TRACKNPCCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x190A2810)
+#define RPG_GAMECORE_TRACKNPCCONST_METHOD_2_D6AF175270B821ED_OFFSET UNITYSDK_OFFSET(0x19DED4F0)
+#define RPG_GAMECORE_TRACKNPCCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x19DED5D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackNpcConst_TypeDefinitionIndex = 15405;
+	inline static constexpr unsigned int TrackNpcConst_TypeDefinitionIndex = 15468;
 
 	class TrackNpcConst : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKNPCCONST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_405BD143B5D62E47(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrackNpcConst*& a2)
+		static ::System::Void Method_2_D6AF175270B821ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrackNpcConst*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrackNpcConst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKNPCCONST_METHOD_2_405BD143B5D62E47_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrackNpcConst*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKNPCCONST_METHOD_2_D6AF175270B821ED_OFFSET))(a1, a2);
 		}
 	};
 }

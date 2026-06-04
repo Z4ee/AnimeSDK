@@ -2,44 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_148FC490588BDD52;
-namespace System { class String; }
+class Class_1_916F5886E8F1F462;
 
-#define CLASS_1_F9FBCC956DFCF137_4_METHOD_1_1DF70B274C3935AF_OFFSET UNITYSDK_OFFSET(0x96EB050)
-#define CLASS_1_F9FBCC956DFCF137_4_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x96EB010)
-#define CLASS_1_F9FBCC956DFCF137_4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x96EB0B0)
-#define CLASS_1_F9FBCC956DFCF137_4__CTOR_OFFSET UNITYSDK_OFFSET(0x96EB000)
-#define CLASS_1_F9FBCC956DFCF137_4___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x96EB160)
+#define CLASS_1_F9FBCC956DFCF137_4_CLEAR_OFFSET UNITYSDK_OFFSET(0xA7352F0)
+#define CLASS_1_F9FBCC956DFCF137_4_GET_TOKENQUEUE_OFFSET UNITYSDK_OFFSET(0xA735270)
+#define CLASS_1_F9FBCC956DFCF137_4_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xA735290)
+#define CLASS_1_F9FBCC956DFCF137_4_SET_TOKENQUEUE_OFFSET UNITYSDK_OFFSET(0xA735280)
+#define CLASS_1_F9FBCC956DFCF137_4__CTOR_OFFSET UNITYSDK_OFFSET(0xA735350)
 
-inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_4_TypeDefinitionIndex = 54788;
+inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_4_TypeDefinitionIndex = 50700;
 
 class Class_1_F9FBCC956DFCF137_4 : public ::System::Object
 {
 public:
-	::Class_1_148FC490588BDD52* Field_1_0; // 0x10
+	::Class_1_916F5886E8F1F462* _TokenQueue_k__BackingField; // 0x10
 
-	::System::Void _ctor(::Class_1_148FC490588BDD52* a1)
+	::System::Void _ctor()
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_148FC490588BDD52*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_391A84BCD9F51317()
+	::Class_1_916F5886E8F1F462* get_TokenQueue()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+		return ((::Class_1_916F5886E8F1F462*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_GET_TOKENQUEUE_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_1DF70B274C3935AF()
+	::System::Void set_TokenQueue(::Class_1_916F5886E8F1F462* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_METHOD_1_1DF70B274C3935AF_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::Class_1_916F5886E8F1F462*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_SET_TOKENQUEUE_OFFSET))(this, a1);
 	}
 
-	::System::String* ToString()
+	::System::Boolean Method_1_1D4018D4200358D0()
 	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_TOSTRING_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_METHOD_1_1D4018D4200358D0_OFFSET))(this);
 	}
 
-	::System::String* __iFixBaseProxy_ToString()
+	::System::Void Clear()
 	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_CLEAR_OFFSET))(this);
 	}
 };

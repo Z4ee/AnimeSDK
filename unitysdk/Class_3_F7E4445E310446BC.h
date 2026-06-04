@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeFaceDir; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F7E4445E310446BC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x96AF640)
-#define CLASS_3_F7E4445E310446BC__CTOR_OFFSET UNITYSDK_OFFSET(0x96AF610)
+#define CLASS_3_F7E4445E310446BC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1428D150)
+#define CLASS_3_F7E4445E310446BC__CTOR_OFFSET UNITYSDK_OFFSET(0x1428D120)
 
-inline static constexpr unsigned int Class_3_F7E4445E310446BC_TypeDefinitionIndex = 50657;
+inline static constexpr unsigned int Class_3_F7E4445E310446BC_TypeDefinitionIndex = 51324;
 
 class Class_3_F7E4445E310446BC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChangeFaceDir*>
 {

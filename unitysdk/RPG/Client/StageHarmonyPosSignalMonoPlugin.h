@@ -10,11 +10,11 @@ namespace RPG::Client { class StageHarmonyPosSignalBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_STAGEHARMONYPOSSIGNALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB1B44E0)
+#define RPG_CLIENT_STAGEHARMONYPOSSIGNALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC90A9D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyPosSignalMonoPlugin_TypeDefinitionIndex = 65421;
+	inline static constexpr unsigned int StageHarmonyPosSignalMonoPlugin_TypeDefinitionIndex = 66348;
 
 	class StageHarmonyPosSignalMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageHarmonyPosSignalBehavior*>
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleAvatarPromotionEffectType_TypeDefinitionIndex = 13047;
+	inline static constexpr unsigned int ILBattleAvatarPromotionEffectType_TypeDefinitionIndex = 13129;
 
 	enum class ILBattleAvatarPromotionEffectType : ::System::Int32
 	{

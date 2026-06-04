@@ -6,18 +6,18 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_GET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1767A480)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_GET_ONCONFIRMBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1767A4A0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1767A560)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1767A490)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SET_ONCONFIRMBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1767A4B0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1767A4C0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1767A5C0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG__SHOW_B__8_0_OFFSET UNITYSDK_OFFSET(0x1767A5D0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_GET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1844BCD0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_GET_ONCONFIRMBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1844BCF0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1844BDD0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1844BCE0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SET_ONCONFIRMBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1844BD00)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1844BD10)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1844BE30)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG__SHOW_B__8_0_OFFSET UNITYSDK_OFFSET(0x1844BE40)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int AlertDialog_TypeDefinitionIndex = 7463;
+	inline static constexpr unsigned int AlertDialog_TypeDefinitionIndex = 8366;
 
 	class AlertDialog : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_GET_ONCLOSEBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnCloseBtnClicked(::System::Action* value)
+		::System::Void set_OnCloseBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnConfirmBtnClicked()
@@ -45,14 +45,14 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_GET_ONCONFIRMBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnConfirmBtnClicked(::System::Action* value)
+		::System::Void set_OnConfirmBtnClicked(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SET_ONCONFIRMBTNCLICKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SET_ONCONFIRMBTNCLICKED_OFFSET))(this, a1);
 		}
 
-		::System::Void Show(::System::String* message, ::System::String* btnText, ::System::Boolean closeEnable)
+		::System::Void Show(::System::String* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SHOW_OFFSET))(this, message, btnText, closeEnable);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_SHOW_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Hide()
@@ -60,9 +60,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG_HIDE_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__8_0(::MiHoYo::SDK::UI::Alert_AlertResult result)
+		::System::Void _Show_b__8_0(::MiHoYo::SDK::UI::Alert_AlertResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG__SHOW_B__8_0_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ALERTDIALOG__SHOW_B__8_0_OFFSET))(this, a1);
 		}
 	};
 }

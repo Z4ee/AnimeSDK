@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ActivityGuessTheSilhouetteData; }
 
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9ADD270)
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS1_0__GETACTIVITYGUESSTHESILHOUETTEDISPLAYDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9AE0C50)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0BF360)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS1_0__GETACTIVITYGUESSTHESILHOUETTEDISPLAYDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB0C3310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityGuessTheSilhouetteModule___c__DisplayClass1_0_TypeDefinitionIndex = 56737;
+	inline static constexpr unsigned int ActivityGuessTheSilhouetteModule___c__DisplayClass1_0_TypeDefinitionIndex = 57521;
 
 	class ActivityGuessTheSilhouetteModule___c__DisplayClass1_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetActivityGuessTheSilhouetteDisplayData_b__0(::RPG::Client::ActivityGuessTheSilhouetteData* item)
+		::System::Boolean _GetActivityGuessTheSilhouetteDisplayData_b__0(::RPG::Client::ActivityGuessTheSilhouetteData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityGuessTheSilhouetteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS1_0__GETACTIVITYGUESSTHESILHOUETTEDISPLAYDATA_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityGuessTheSilhouetteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS1_0__GETACTIVITYGUESSTHESILHOUETTEDISPLAYDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

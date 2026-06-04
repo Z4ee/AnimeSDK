@@ -8,7 +8,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int RejectHandler_TypeDefinitionIndex = 8659;
+	inline static constexpr unsigned int RejectHandler_TypeDefinitionIndex = 9562;
 
 	struct alignas(8) RejectHandler
 	{

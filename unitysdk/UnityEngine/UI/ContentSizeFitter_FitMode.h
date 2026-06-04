@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ContentSizeFitter_FitMode_TypeDefinitionIndex = 5646;
+	inline static constexpr unsigned int ContentSizeFitter_FitMode_TypeDefinitionIndex = 5923;
 
 	enum class ContentSizeFitter_FitMode : ::System::Int32
 	{

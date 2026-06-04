@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6D8750)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6D8700)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_GET_DELTASCORE_OFFSET UNITYSDK_OFFSET(0xB6D87A0)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_INIT_OFFSET UNITYSDK_OFFSET(0xB6D86B0)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_SET_DELTASCORE_OFFSET UNITYSDK_OFFSET(0xB6D87B0)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D87C0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE466A0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE46650)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_GET_DELTASCORE_OFFSET UNITYSDK_OFFSET(0xCE466F0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_INIT_OFFSET UNITYSDK_OFFSET(0xCE465E0)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_SET_DELTASCORE_OFFSET UNITYSDK_OFFSET(0xCE46700)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0xCE46710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEvolveBuildGetKillScore_TypeDefinitionIndex = 52376;
+	inline static constexpr unsigned int LevelEvolveBuildGetKillScore_TypeDefinitionIndex = 53073;
 
-	class LevelEvolveBuildGetKillScore : public ::Class_1_9988289E7F8AA214
+	class LevelEvolveBuildGetKillScore : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::FixPoint _DeltaScore_k__BackingField; // 0x18
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelEvolveBuildGetKillScore* Init(::System::UInt32 delta)
+		::RPG::GameCore::LevelEvolveBuildGetKillScore* Init(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::LevelEvolveBuildGetKillScore*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_INIT_OFFSET))(this, delta);
+			return ((::RPG::GameCore::LevelEvolveBuildGetKillScore*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -45,9 +45,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_GET_DELTASCORE_OFFSET))(this);
 		}
 
-		::System::Void set_DeltaScore(::RPG::GameCore::FixPoint value)
+		::System::Void set_DeltaScore(::RPG::GameCore::FixPoint a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_SET_DELTASCORE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDGETKILLSCORE_SET_DELTASCORE_OFFSET))(this, a1);
 		}
 	};
 }

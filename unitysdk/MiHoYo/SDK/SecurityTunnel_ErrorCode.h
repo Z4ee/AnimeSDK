@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_ErrorCode_TypeDefinitionIndex = 42982;
+	inline static constexpr unsigned int SecurityTunnel_ErrorCode_TypeDefinitionIndex = 43785;
 
 	enum class SecurityTunnel_ErrorCode : ::System::Int32
 	{

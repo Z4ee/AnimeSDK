@@ -7,11 +7,11 @@ namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6421FCA7574ADCFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11A4B470)
-#define CLASS_3_6421FCA7574ADCFA_METHOD_3_28DD74503BDDC010_OFFSET UNITYSDK_OFFSET(0x11A4B820)
-#define CLASS_3_6421FCA7574ADCFA__CTOR_OFFSET UNITYSDK_OFFSET(0x11A4B440)
+#define CLASS_3_6421FCA7574ADCFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14466030)
+#define CLASS_3_6421FCA7574ADCFA_METHOD_3_F1824A3363EA4A00_OFFSET UNITYSDK_OFFSET(0x144663F0)
+#define CLASS_3_6421FCA7574ADCFA__CTOR_OFFSET UNITYSDK_OFFSET(0x14466000)
 
-inline static constexpr unsigned int Class_3_6421FCA7574ADCFA_TypeDefinitionIndex = 50341;
+inline static constexpr unsigned int Class_3_6421FCA7574ADCFA_TypeDefinitionIndex = 51006;
 
 class Class_3_6421FCA7574ADCFA : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareSkillBPChangePreview*>
 {
@@ -26,8 +26,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6421FCA7574ADCFA_EVALUATE_OFFSET))(this);
 	}
 
-	::RPG::GameCore::SkillData* Method_3_28DD74503BDDC010(::RPG::GameCore::SkillCharacterComponent* a1)
+	::RPG::GameCore::SkillData* Method_3_F1824A3363EA4A00(::RPG::GameCore::SkillCharacterComponent* a1)
 	{
-		return ((::RPG::GameCore::SkillData*(*)(::PVOID, ::RPG::GameCore::SkillCharacterComponent*))((::PBYTE)hIl2Cpp + CLASS_3_6421FCA7574ADCFA_METHOD_3_28DD74503BDDC010_OFFSET))(this, a1);
+		return ((::RPG::GameCore::SkillData*(*)(::PVOID, ::RPG::GameCore::SkillCharacterComponent*))((::PBYTE)hIl2Cpp + CLASS_3_6421FCA7574ADCFA_METHOD_3_F1824A3363EA4A00_OFFSET))(this, a1);
 	}
 };

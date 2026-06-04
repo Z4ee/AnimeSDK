@@ -7,12 +7,12 @@ namespace RPG::GameCore { class LevelGroupBakedInfo; }
 namespace RPG::GameCore { class LevelSubmapEntityBakedInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELDIMENSIONBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A3EF50)
-#define RPG_GAMECORE_LEVELDIMENSIONBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3F120)
+#define RPG_GAMECORE_LEVELDIMENSIONBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19870B60)
+#define RPG_GAMECORE_LEVELDIMENSIONBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19870D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDimensionBakedInfo_TypeDefinitionIndex = 16261;
+	inline static constexpr unsigned int LevelDimensionBakedInfo_TypeDefinitionIndex = 16295;
 
 	class LevelDimensionBakedInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDIMENSIONBAKEDINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelDimensionBakedInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelDimensionBakedInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelDimensionBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDIMENSIONBAKEDINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelDimensionBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDIMENSIONBAKEDINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

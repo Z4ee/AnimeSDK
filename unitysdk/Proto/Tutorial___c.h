@@ -4,20 +4,20 @@
 
 namespace Proto { class Tutorial; }
 
-#define PROTO_TUTORIAL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x193614F0)
-#define PROTO_TUTORIAL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19361520)
-#define PROTO_TUTORIAL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x19361530)
+#define PROTO_TUTORIAL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A12FF70)
+#define PROTO_TUTORIAL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A12FFA0)
+#define PROTO_TUTORIAL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A12FFB0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int Tutorial___c_TypeDefinitionIndex = 33131;
+	inline static constexpr unsigned int Tutorial___c_TypeDefinitionIndex = 33240;
 
 	class Tutorial___c : public ::System::Object
 	{
 	public:
 		static ::Proto::Tutorial___c** StaticGet___9()
 		{
-			return (::Proto::Tutorial___c**)Il2CppClass::FromTypeDefinitionIndex(Tutorial___c_TypeDefinitionIndex)->GetStaticField(0x661C0);
+			return (::Proto::Tutorial___c**)Il2CppClass::FromTypeDefinitionIndex(Tutorial___c_TypeDefinitionIndex)->GetStaticField(0x46650);
 		}
 
 		static ::System::Void _cctor()

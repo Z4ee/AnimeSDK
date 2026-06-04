@@ -10,23 +10,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xA82D5B0)
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP_ONCREATE_OFFSET UNITYSDK_OFFSET(0xA82D5F0)
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP_PLAY_OFFSET UNITYSDK_OFFSET(0xA828700)
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP_SETSIZE_OFFSET UNITYSDK_OFFSET(0xA82D6B0)
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP_SPAWNED_OFFSET UNITYSDK_OFFSET(0xA82D570)
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP__CTOR_OFFSET UNITYSDK_OFFSET(0xA82D730)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xBF753B0)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP_ONCREATE_OFFSET UNITYSDK_OFFSET(0xBF753F0)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP_PLAY_OFFSET UNITYSDK_OFFSET(0xBF75530)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP_SETSIZE_OFFSET UNITYSDK_OFFSET(0xBF754B0)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP_SPAWNED_OFFSET UNITYSDK_OFFSET(0xBF75370)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP__CTOR_OFFSET UNITYSDK_OFFSET(0xBF75740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeExtraStep_TypeDefinitionIndex = 60698;
+	inline static constexpr unsigned int MatchThreeExtraStep_TypeDefinitionIndex = 61632;
 
 	class MatchThreeExtraStep : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* Field_5_2; // 0x0
-		::RPG::Client::MatchThreeBoard* Field_5_0; // 0x18
-		::UnityEngine::Animation* Field_5_1; // 0x20
+		// static const ::System::String* Field_5_0; // 0x0
+		::RPG::Client::MatchThreeBoard* Field_5_1; // 0x18
+		::UnityEngine::Animation* Field_5_2; // 0x20
 
 		::System::Void _ctor()
 		{

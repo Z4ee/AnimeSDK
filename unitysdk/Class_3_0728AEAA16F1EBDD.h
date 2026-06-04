@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ResetHeadLookAt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0728AEAA16F1EBDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x129ED180)
-#define CLASS_3_0728AEAA16F1EBDD__CTOR_OFFSET UNITYSDK_OFFSET(0x129ED150)
+#define CLASS_3_0728AEAA16F1EBDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA39AE50)
+#define CLASS_3_0728AEAA16F1EBDD__CTOR_OFFSET UNITYSDK_OFFSET(0xA39AE20)
 
-inline static constexpr unsigned int Class_3_0728AEAA16F1EBDD_TypeDefinitionIndex = 51538;
+inline static constexpr unsigned int Class_3_0728AEAA16F1EBDD_TypeDefinitionIndex = 52206;
 
 class Class_3_0728AEAA16F1EBDD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetHeadLookAt*>
 {

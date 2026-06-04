@@ -3,7 +3,7 @@
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int ResourceTypeCode_TypeDefinitionIndex = 531;
+	inline static constexpr unsigned int ResourceTypeCode_TypeDefinitionIndex = 530;
 
 	enum class ResourceTypeCode : ::System::Int32
 	{

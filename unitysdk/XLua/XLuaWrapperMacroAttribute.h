@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define XLUA_XLUAWRAPPERMACROATTRIBUTE_GET_MACRO_OFFSET UNITYSDK_OFFSET(0x17B84CE0)
-#define XLUA_XLUAWRAPPERMACROATTRIBUTE_SET_MACRO_OFFSET UNITYSDK_OFFSET(0x17B84CF0)
-#define XLUA_XLUAWRAPPERMACROATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B84CD0)
+#define XLUA_XLUAWRAPPERMACROATTRIBUTE_GET_MACRO_OFFSET UNITYSDK_OFFSET(0x18932D70)
+#define XLUA_XLUAWRAPPERMACROATTRIBUTE_SET_MACRO_OFFSET UNITYSDK_OFFSET(0x18932D80)
+#define XLUA_XLUAWRAPPERMACROATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18932D60)
 
 namespace XLua
 {
-	inline static constexpr unsigned int XLuaWrapperMacroAttribute_TypeDefinitionIndex = 6412;
+	inline static constexpr unsigned int XLuaWrapperMacroAttribute_TypeDefinitionIndex = 5614;
 
 	class XLuaWrapperMacroAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* _Macro_k__BackingField; // 0x10
 
-		::System::Void _ctor(::System::String* macro)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_XLUAWRAPPERMACROATTRIBUTE__CTOR_OFFSET))(this, macro);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_XLUAWRAPPERMACROATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Macro()
@@ -27,9 +27,9 @@ namespace XLua
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_XLUAWRAPPERMACROATTRIBUTE_GET_MACRO_OFFSET))(this);
 		}
 
-		::System::Void set_Macro(::System::String* value)
+		::System::Void set_Macro(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_XLUAWRAPPERMACROATTRIBUTE_SET_MACRO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_XLUAWRAPPERMACROATTRIBUTE_SET_MACRO_OFFSET))(this, a1);
 		}
 	};
 }

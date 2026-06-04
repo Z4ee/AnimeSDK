@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace System
 {
-	inline static constexpr unsigned int EventHandler_1_TypeDefinitionIndex = 244;
+	inline static constexpr unsigned int EventHandler_1_TypeDefinitionIndex = 243;
 
 	template <typename TEventArgs>
 	class EventHandler_1 : public ::System::MulticastDelegate

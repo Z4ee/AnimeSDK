@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimatorParameterType_TypeDefinitionIndex = 15412;
+	inline static constexpr unsigned int AnimatorParameterType_TypeDefinitionIndex = 15475;
 
 	enum class AnimatorParameterType : ::System::Int32
 	{

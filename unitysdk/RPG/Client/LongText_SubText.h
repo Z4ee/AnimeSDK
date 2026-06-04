@@ -6,21 +6,21 @@ namespace UnityEngine { class CanvasRenderer; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LONGTEXT_SUBTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA70A460)
+#define RPG_CLIENT_LONGTEXT_SUBTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xBE6AD20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LongText_SubText_TypeDefinitionIndex = 66863;
+	inline static constexpr unsigned int LongText_SubText_TypeDefinitionIndex = 67803;
 
 	class LongText_SubText : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* go; // 0x10
-		::UnityEngine::CanvasRenderer* renderer; // 0x18
+		::UnityEngine::CanvasRenderer* renderer; // 0x10
+		::UnityEngine::GameObject* go; // 0x18
 
-		::System::Void _ctor(::UnityEngine::Transform* parent, ::System::Int32 index)
+		::System::Void _ctor(::UnityEngine::Transform* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SUBTEXT__CTOR_OFFSET))(this, parent, index);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LONGTEXT_SUBTEXT__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

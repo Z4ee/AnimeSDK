@@ -4,37 +4,37 @@
 
 namespace System { class Object; }
 
-#define RPG_CLIENT_VERSEPARAM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xDFE00)
-#define RPG_CLIENT_VERSEPARAM_EQUALS_OFFSET UNITYSDK_OFFSET(0xDFDA0)
-#define RPG_CLIENT_VERSEPARAM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xDFE10)
-#define RPG_CLIENT_VERSEPARAM_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x1DA80)
+#define RPG_CLIENT_VERSEPARAM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x145BD0)
+#define RPG_CLIENT_VERSEPARAM_EQUALS_OFFSET UNITYSDK_OFFSET(0x145B70)
+#define RPG_CLIENT_VERSEPARAM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x145BE0)
+#define RPG_CLIENT_VERSEPARAM_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x1E110)
 #define RPG_CLIENT_VERSEPARAM_GET_ISBRANCHLINEVERSE_OFFSET UNITYSDK_OFFSET(0x1030)
-#define RPG_CLIENT_VERSEPARAM_GET_ISEARLYACCESSVERSE_OFFSET UNITYSDK_OFFSET(0xDFD90)
-#define RPG_CLIENT_VERSEPARAM_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define RPG_CLIENT_VERSEPARAM_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xB46B3E0)
-#define RPG_CLIENT_VERSEPARAM_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xB46B450)
-#define RPG_CLIENT_VERSEPARAM__CCTOR_OFFSET UNITYSDK_OFFSET(0xB46B530)
-#define RPG_CLIENT_VERSEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xDFCF0)
-#define RPG_CLIENT_VERSEPARAM___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0xDFE60)
-#define RPG_CLIENT_VERSEPARAM___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xDFEB0)
+#define RPG_CLIENT_VERSEPARAM_GET_ISEARLYACCESSVERSE_OFFSET UNITYSDK_OFFSET(0x145B60)
+#define RPG_CLIENT_VERSEPARAM_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define RPG_CLIENT_VERSEPARAM_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xCC0DEE0)
+#define RPG_CLIENT_VERSEPARAM_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xCC0DF50)
+#define RPG_CLIENT_VERSEPARAM__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC0E030)
+#define RPG_CLIENT_VERSEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x145AC0)
+#define RPG_CLIENT_VERSEPARAM___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x145C30)
+#define RPG_CLIENT_VERSEPARAM___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x145C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VerseParam_TypeDefinitionIndex = 61092;
+	inline static constexpr unsigned int VerseParam_TypeDefinitionIndex = 62016;
 
 	struct alignas(4) VerseParam
 	{
 		static ::RPG::Client::VerseParam* StaticGet_Master()
 		{
-			return (::RPG::Client::VerseParam*)Il2CppClass::FromTypeDefinitionIndex(VerseParam_TypeDefinitionIndex)->GetStaticField(0x7AD0);
+			return (::RPG::Client::VerseParam*)Il2CppClass::FromTypeDefinitionIndex(VerseParam_TypeDefinitionIndex)->GetStaticField(0xBC60);
 		}
 		::System::UInt32 _StoryLineID_k__BackingField; // 0x10
 		::System::UInt32 _ContentID_k__BackingField; // 0x14
 		::System::UInt32 _Hash; // 0x18
 
-		::System::Void _ctor(::System::UInt32 storyLineID, ::System::UInt32 contentID)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM__CTOR_OFFSET))(this, storyLineID, contentID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -62,14 +62,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM_GET_ISEARLYACCESSVERSE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::Client::VerseParam other)
+		::System::Boolean Equals(::RPG::Client::VerseParam a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::VerseParam))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::VerseParam))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -77,19 +77,19 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::RPG::Client::VerseParam left, ::RPG::Client::VerseParam right)
+		static ::System::Boolean op_Equality(::RPG::Client::VerseParam a1, ::RPG::Client::VerseParam a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::VerseParam, ::RPG::Client::VerseParam))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::VerseParam, ::RPG::Client::VerseParam))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::RPG::Client::VerseParam left, ::RPG::Client::VerseParam right)
+		static ::System::Boolean op_Inequality(::RPG::Client::VerseParam a1, ::RPG::Client::VerseParam a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::VerseParam, ::RPG::Client::VerseParam))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM_OP_INEQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::RPG::Client::VerseParam, ::RPG::Client::VerseParam))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean __iFixBaseProxy_Equals(::System::Object* P0)
+		::System::Boolean __iFixBaseProxy_Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM___IFIXBASEPROXY_EQUALS_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSEPARAM___IFIXBASEPROXY_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __iFixBaseProxy_GetHashCode()

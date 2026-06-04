@@ -6,31 +6,31 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1797C590)
-#define SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1797C600)
-#define SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1797C650)
-#define SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1797C530)
+#define SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1872DDB0)
+#define SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1872DE20)
+#define SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1872DE70)
+#define SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1872DD50)
 
 namespace System
 {
-	inline static constexpr unsigned int InvalidTimeZoneException_TypeDefinitionIndex = 291;
+	inline static constexpr unsigned int InvalidTimeZoneException_TypeDefinitionIndex = 290;
 
 	class InvalidTimeZoneException : public ::System::Exception
 	{
 	public:
-		::System::Void _ctor(::System::String* message)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::String* message, ::System::Exception* innerException)
+		::System::Void _ctor_1(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_1_OFFSET))(this, message, innerException);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_2_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_INVALIDTIMEZONEEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3()

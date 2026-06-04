@@ -5,29 +5,29 @@
 
 class AkExternalSourceInfoArray;
 
-#define AKPLAYLIST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A603D60)
-#define AKPLAYLIST_ENQUEUE_1_OFFSET UNITYSDK_OFFSET(0x1A6041C0)
-#define AKPLAYLIST_ENQUEUE_2_OFFSET UNITYSDK_OFFSET(0x1A6042B0)
-#define AKPLAYLIST_ENQUEUE_3_OFFSET UNITYSDK_OFFSET(0x1A604390)
-#define AKPLAYLIST_ENQUEUE_4_OFFSET UNITYSDK_OFFSET(0x1A604460)
-#define AKPLAYLIST_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x1A6040B0)
-#define AKPLAYLIST_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1A603B80)
-#define AKPLAYLIST_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1A603BD0)
-#define AKPLAYLIST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A604520)
-#define AKPLAYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A603AE0)
-#define AKPLAYLIST___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A604630)
-#define AKPLAYLIST___IFIXBASEPROXY_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1A604620)
+#define AKPLAYLIST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B44E690)
+#define AKPLAYLIST_ENQUEUE_1_OFFSET UNITYSDK_OFFSET(0x1B44EB70)
+#define AKPLAYLIST_ENQUEUE_2_OFFSET UNITYSDK_OFFSET(0x1B44EC60)
+#define AKPLAYLIST_ENQUEUE_3_OFFSET UNITYSDK_OFFSET(0x1B44ED40)
+#define AKPLAYLIST_ENQUEUE_4_OFFSET UNITYSDK_OFFSET(0x1B44EE10)
+#define AKPLAYLIST_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x1B44EA60)
+#define AKPLAYLIST_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1B44E480)
+#define AKPLAYLIST_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1B44E4D0)
+#define AKPLAYLIST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B44EED0)
+#define AKPLAYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B44E3E0)
+#define AKPLAYLIST___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B44EFE0)
+#define AKPLAYLIST___IFIXBASEPROXY_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1B44EFD0)
 
-inline static constexpr unsigned int AkPlaylist_TypeDefinitionIndex = 40329;
+inline static constexpr unsigned int AkPlaylist_TypeDefinitionIndex = 41156;
 
 class AkPlaylist : public ::AkPlaylistArray
 {
 public:
 	::System::IntPtr swigCPtr; // 0x20
 
-	::System::Void _ctor(::System::IntPtr cPtr, ::System::Boolean cMemoryOwn)
+	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKPLAYLIST__CTOR_OFFSET))(this, cPtr, cMemoryOwn);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKPLAYLIST__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void _ctor_1()
@@ -35,53 +35,53 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKPLAYLIST__CTOR_1_OFFSET))(this);
 	}
 
-	static ::System::IntPtr getCPtr(::AkPlaylist* obj)
+	static ::System::IntPtr getCPtr(::AkPlaylist* a1)
 	{
-		return ((::System::IntPtr(*)(::AkPlaylist*))((::PBYTE)hIl2Cpp + AKPLAYLIST_GETCPTR_OFFSET))(obj);
+		return ((::System::IntPtr(*)(::AkPlaylist*))((::PBYTE)hIl2Cpp + AKPLAYLIST_GETCPTR_OFFSET))(a1);
 	}
 
-	::System::Void setCPtr(::System::IntPtr cPtr)
+	::System::Void setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKPLAYLIST_SETCPTR_OFFSET))(this, cPtr);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKPLAYLIST_SETCPTR_OFFSET))(this, a1);
 	}
 
-	::System::Void Dispose(::System::Boolean disposing)
+	::System::Void Dispose(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKPLAYLIST_DISPOSE_OFFSET))(this, disposing);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKPLAYLIST_DISPOSE_OFFSET))(this, a1);
 	}
 
-	::AKRESULT Enqueue(::System::UInt32 in_audioNodeID, ::System::Int32 in_msDelay, ::System::IntPtr in_pCustomInfo, ::System::UInt32 in_cExternals, ::AkExternalSourceInfoArray* in_pExternalSources)
+	::AKRESULT Enqueue(::System::UInt32 a1, ::System::Int32 a2, ::System::IntPtr a3, ::System::UInt32 a4, ::AkExternalSourceInfoArray* a5)
 	{
-		return ((::AKRESULT(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::IntPtr, ::System::UInt32, ::AkExternalSourceInfoArray*))((::PBYTE)hIl2Cpp + AKPLAYLIST_ENQUEUE_OFFSET))(this, in_audioNodeID, in_msDelay, in_pCustomInfo, in_cExternals, in_pExternalSources);
+		return ((::AKRESULT(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::IntPtr, ::System::UInt32, ::AkExternalSourceInfoArray*))((::PBYTE)hIl2Cpp + AKPLAYLIST_ENQUEUE_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
-	::AKRESULT Enqueue_1(::System::UInt32 in_audioNodeID, ::System::Int32 in_msDelay, ::System::IntPtr in_pCustomInfo, ::System::UInt32 in_cExternals)
+	::AKRESULT Enqueue_1(::System::UInt32 a1, ::System::Int32 a2, ::System::IntPtr a3, ::System::UInt32 a4)
 	{
-		return ((::AKRESULT(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::IntPtr, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLIST_ENQUEUE_1_OFFSET))(this, in_audioNodeID, in_msDelay, in_pCustomInfo, in_cExternals);
+		return ((::AKRESULT(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::IntPtr, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLIST_ENQUEUE_1_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::AKRESULT Enqueue_2(::System::UInt32 in_audioNodeID, ::System::Int32 in_msDelay, ::System::IntPtr in_pCustomInfo)
+	::AKRESULT Enqueue_2(::System::UInt32 a1, ::System::Int32 a2, ::System::IntPtr a3)
 	{
-		return ((::AKRESULT(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKPLAYLIST_ENQUEUE_2_OFFSET))(this, in_audioNodeID, in_msDelay, in_pCustomInfo);
+		return ((::AKRESULT(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKPLAYLIST_ENQUEUE_2_OFFSET))(this, a1, a2, a3);
 	}
 
-	::AKRESULT Enqueue_3(::System::UInt32 in_audioNodeID, ::System::Int32 in_msDelay)
+	::AKRESULT Enqueue_3(::System::UInt32 a1, ::System::Int32 a2)
 	{
-		return ((::AKRESULT(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + AKPLAYLIST_ENQUEUE_3_OFFSET))(this, in_audioNodeID, in_msDelay);
+		return ((::AKRESULT(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + AKPLAYLIST_ENQUEUE_3_OFFSET))(this, a1, a2);
 	}
 
-	::AKRESULT Enqueue_4(::System::UInt32 in_audioNodeID)
+	::AKRESULT Enqueue_4(::System::UInt32 a1)
 	{
-		return ((::AKRESULT(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLIST_ENQUEUE_4_OFFSET))(this, in_audioNodeID);
+		return ((::AKRESULT(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AKPLAYLIST_ENQUEUE_4_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_setCPtr(::System::IntPtr P0)
+	::System::Void __iFixBaseProxy_setCPtr(::System::IntPtr a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKPLAYLIST___IFIXBASEPROXY_SETCPTR_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKPLAYLIST___IFIXBASEPROXY_SETCPTR_OFFSET))(this, a1);
 	}
 
-	::System::Void __iFixBaseProxy_Dispose(::System::Boolean P0)
+	::System::Void __iFixBaseProxy_Dispose(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKPLAYLIST___IFIXBASEPROXY_DISPOSE_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKPLAYLIST___IFIXBASEPROXY_DISPOSE_OFFSET))(this, a1);
 	}
 };

@@ -1,0 +1,199 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1216;
+class Class_1_06E38C65842C3B24;
+class Class_1_19E8636AE6D65360;
+class Class_1_3AD2528CD53B1639_3;
+class Class_1_70D2E0F3216AAE0C_5;
+class Class_1_79ED0A52DF225781;
+class Class_1_7BF8FDF00F218876_10;
+class Class_1_A16A135FC5A0DDB9;
+class Class_1_B019EAD7E127C874;
+class Class_1_B1410BF5E86A477D;
+class Class_1_C617DB584DD22EFC;
+class Class_1_EF2D3B79941AF6F8;
+namespace RPG::Client::Promises { class IPromise; }
+namespace System { class Action; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_367B452FA4E5EC2C_ADD_ONENDED_OFFSET UNITYSDK_OFFSET(0x141C6A20)
+#define CLASS_1_367B452FA4E5EC2C_GET_CACHEDSETTLE_OFFSET UNITYSDK_OFFSET(0x141C69D0)
+#define CLASS_1_367B452FA4E5EC2C_GET_PENDINGSETTLE_OFFSET UNITYSDK_OFFSET(0x141C69F0)
+#define CLASS_1_367B452FA4E5EC2C_GET_STAGEINDEX_OFFSET UNITYSDK_OFFSET(0x141C6710)
+#define CLASS_1_367B452FA4E5EC2C_GET_TIERCEREF_OFFSET UNITYSDK_OFFSET(0x141C6700)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_114781D79D91EA39_OFFSET UNITYSDK_OFFSET(0x141C6A10)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_2C95AFAD0256302F_OFFSET UNITYSDK_OFFSET(0x141C6DE0)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_3BA742A028F8A2B4_OFFSET UNITYSDK_OFFSET(0x141C6740)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_444A75193F7C3D82_OFFSET UNITYSDK_OFFSET(0x141C76A0)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_53B84B70FED92787_OFFSET UNITYSDK_OFFSET(0x141C6730)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_54600A8A63B5092A_OFFSET UNITYSDK_OFFSET(0x141C72D0)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_58D5590C3662938B_OFFSET UNITYSDK_OFFSET(0x141C71F0)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_6280C650AC794AD6_OFFSET UNITYSDK_OFFSET(0x141C7A30)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_76C14174E094F341_OFFSET UNITYSDK_OFFSET(0x141C73B0)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_DE7035732E1EE275_1_OFFSET UNITYSDK_OFFSET(0x141C70E0)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_DE7035732E1EE275_OFFSET UNITYSDK_OFFSET(0x141C6FD0)
+#define CLASS_1_367B452FA4E5EC2C_METHOD_1_FB2B506081C13F6C_OFFSET UNITYSDK_OFFSET(0x141C7B00)
+#define CLASS_1_367B452FA4E5EC2C_REMOVE_ONENDED_OFFSET UNITYSDK_OFFSET(0x141C6A80)
+#define CLASS_1_367B452FA4E5EC2C_SET_CACHEDSETTLE_OFFSET UNITYSDK_OFFSET(0x141C69E0)
+#define CLASS_1_367B452FA4E5EC2C_SET_PENDINGSETTLE_OFFSET UNITYSDK_OFFSET(0x141C6A00)
+#define CLASS_1_367B452FA4E5EC2C_SET_STAGEINDEX_OFFSET UNITYSDK_OFFSET(0x141C6720)
+#define CLASS_1_367B452FA4E5EC2C__CONFIRMSTAGESETTLE_B__30_0_OFFSET UNITYSDK_OFFSET(0x141C7F40)
+#define CLASS_1_367B452FA4E5EC2C__CONTINUEWITHNEXTSTAGE_B__27_0_OFFSET UNITYSDK_OFFSET(0x141C7E70)
+#define CLASS_1_367B452FA4E5EC2C__CTOR_OFFSET UNITYSDK_OFFSET(0x141C6AE0)
+#define CLASS_1_367B452FA4E5EC2C__LEAVE_B__29_0_OFFSET UNITYSDK_OFFSET(0x141C7F20)
+#define CLASS_1_367B452FA4E5EC2C__RESTARTFROMCURRENTSTAGE_B__28_0_OFFSET UNITYSDK_OFFSET(0x141C7EE0)
+#define CLASS_1_367B452FA4E5EC2C___HANDLESESSIONSETTLE_B__33_0_OFFSET UNITYSDK_OFFSET(0x141C7F50)
+
+inline static constexpr unsigned int Class_1_367B452FA4E5EC2C_TypeDefinitionIndex = 74104;
+
+class Class_1_367B452FA4E5EC2C : public ::System::Object
+{
+public:
+	::Class_1_06E38C65842C3B24* _TierceRef_k__BackingField; // 0x10
+	::System::Action* OnEnded; // 0x18
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_2; // 0x20
+	::Class_1_79ED0A52DF225781* _CachedSettle_k__BackingField; // 0x28
+	::Class_0_16E4307DCC419505_1216* Field_1_4; // 0x30
+	::Class_1_C617DB584DD22EFC* _PendingSettle_k__BackingField; // 0x38
+	::System::Boolean Field_1_6; // 0x40
+	::System::Int32 _StageIndex_k__BackingField; // 0x44
+
+	::System::Void _ctor(::Class_0_16E4307DCC419505_1216* a1, ::Class_1_06E38C65842C3B24* a2, ::Class_1_19E8636AE6D65360* a3, ::Class_1_EF2D3B79941AF6F8* a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1216*, ::Class_1_06E38C65842C3B24*, ::Class_1_19E8636AE6D65360*, ::Class_1_EF2D3B79941AF6F8*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C__CTOR_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::Class_1_06E38C65842C3B24* get_TierceRef()
+	{
+		return ((::Class_1_06E38C65842C3B24*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_GET_TIERCEREF_OFFSET))(this);
+	}
+
+	::System::Int32 get_StageIndex()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_GET_STAGEINDEX_OFFSET))(this);
+	}
+
+	::System::Void set_StageIndex(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_SET_STAGEINDEX_OFFSET))(this, a1);
+	}
+
+	::System::Nullable_1<::System::Int32> Method_1_53B84B70FED92787()
+	{
+		return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_53B84B70FED92787_OFFSET))(this);
+	}
+
+	::Class_1_79ED0A52DF225781* get_CachedSettle()
+	{
+		return ((::Class_1_79ED0A52DF225781*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_GET_CACHEDSETTLE_OFFSET))(this);
+	}
+
+	::System::Void set_CachedSettle(::Class_1_79ED0A52DF225781* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_79ED0A52DF225781*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_SET_CACHEDSETTLE_OFFSET))(this, a1);
+	}
+
+	::Class_1_C617DB584DD22EFC* get_PendingSettle()
+	{
+		return ((::Class_1_C617DB584DD22EFC*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_GET_PENDINGSETTLE_OFFSET))(this);
+	}
+
+	::System::Void set_PendingSettle(::Class_1_C617DB584DD22EFC* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_C617DB584DD22EFC*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_SET_PENDINGSETTLE_OFFSET))(this, a1);
+	}
+
+	::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* Method_1_114781D79D91EA39()
+	{
+		return ((::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_114781D79D91EA39_OFFSET))(this);
+	}
+
+	::System::Void add_OnEnded(::System::Action* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_ADD_ONENDED_OFFSET))(this, a1);
+	}
+
+	::System::Void remove_OnEnded(::System::Action* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_REMOVE_ONENDED_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_2C95AFAD0256302F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_2C95AFAD0256302F_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_DE7035732E1EE275()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_DE7035732E1EE275_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_DE7035732E1EE275_1()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_DE7035732E1EE275_1_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_58D5590C3662938B()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_58D5590C3662938B_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_54600A8A63B5092A(::System::Boolean a1)
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_54600A8A63B5092A_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_76C14174E094F341(::Class_1_B1410BF5E86A477D* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_B1410BF5E86A477D*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_76C14174E094F341_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_6280C650AC794AD6(::Class_1_B019EAD7E127C874* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_B019EAD7E127C874*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_6280C650AC794AD6_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_FB2B506081C13F6C(::Class_1_3AD2528CD53B1639_3* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_3AD2528CD53B1639_3*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_FB2B506081C13F6C_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_444A75193F7C3D82(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_444A75193F7C3D82_OFFSET))(this, a1, a2);
+	}
+
+	::System::Nullable_1<::System::Int32> Method_1_3BA742A028F8A2B4()
+	{
+		return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C_METHOD_1_3BA742A028F8A2B4_OFFSET))(this);
+	}
+
+	::System::Void _ContinueWithNextStage_b__27_0(::Class_1_70D2E0F3216AAE0C_5* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_70D2E0F3216AAE0C_5*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C__CONTINUEWITHNEXTSTAGE_B__27_0_OFFSET))(this, a1);
+	}
+
+	::System::Void _RestartFromCurrentStage_b__28_0(::Class_1_7BF8FDF00F218876_10* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_7BF8FDF00F218876_10*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C__RESTARTFROMCURRENTSTAGE_B__28_0_OFFSET))(this, a1);
+	}
+
+	::System::Void _Leave_b__29_0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C__LEAVE_B__29_0_OFFSET))(this);
+	}
+
+	::System::Void _ConfirmStageSettle_b__30_0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C__CONFIRMSTAGESETTLE_B__30_0_OFFSET))(this);
+	}
+
+	::System::Boolean __HandleSessionSettle_b__33_0(::Class_1_A16A135FC5A0DDB9* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_A16A135FC5A0DDB9*))((::PBYTE)hIl2Cpp + CLASS_1_367B452FA4E5EC2C___HANDLESESSIONSETTLE_B__33_0_OFFSET))(this, a1);
+	}
+};

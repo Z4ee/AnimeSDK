@@ -6,15 +6,15 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT_GETCASTENTITY_OFFSET UNITYSDK_OFFSET(0xB6CF2C0)
-#define RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT_GETCUSTOMIZESTRING_OFFSET UNITYSDK_OFFSET(0xB6B94E0)
-#define RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6CF270)
-#define RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6CF220)
-#define RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB6B3A30)
+#define RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT_GETCASTENTITY_OFFSET UNITYSDK_OFFSET(0xCE3D630)
+#define RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT_GETCUSTOMIZESTRING_OFFSET UNITYSDK_OFFSET(0xCE25F60)
+#define RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE3D5E0)
+#define RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE3D590)
+#define RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xCE1FF10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCustomizeStringEvent_TypeDefinitionIndex = 52275;
+	inline static constexpr unsigned int LevelCustomizeStringEvent_TypeDefinitionIndex = 52972;
 
 	class LevelCustomizeStringEvent : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::GameEntity* _CastEntity; // 0x10
 		::System::String* _Customize; // 0x18
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* CastEntity, ::System::String* Customize)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT__CTOR_OFFSET))(this, CastEntity, Customize);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCUSTOMIZESTRINGEVENT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

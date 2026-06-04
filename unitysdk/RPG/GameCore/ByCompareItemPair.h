@@ -3,13 +3,15 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREITEMPAIR_METHOD_2_ED80A333B12D7CB3_OFFSET UNITYSDK_OFFSET(0x187315E0)
-#define RPG_GAMECORE_BYCOMPAREITEMPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x18731700)
+#define RPG_GAMECORE_BYCOMPAREITEMPAIR_METHOD_2_62A373F04F266822_OFFSET UNITYSDK_OFFSET(0x1951BC50)
+#define RPG_GAMECORE_BYCOMPAREITEMPAIR_METHOD_2_ED80A333B12D7CB3_OFFSET UNITYSDK_OFFSET(0x1951BB20)
+#define RPG_GAMECORE_BYCOMPAREITEMPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1951BC40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareItemPair_TypeDefinitionIndex = 20066;
+	inline static constexpr unsigned int ByCompareItemPair_TypeDefinitionIndex = 19925;
 
 	class ByCompareItemPair : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,6 +27,11 @@ namespace RPG::GameCore
 		static ::System::Void Method_2_ED80A333B12D7CB3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareItemPair*& a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareItemPair*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREITEMPAIR_METHOD_2_ED80A333B12D7CB3_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_62A373F04F266822(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareItemPair*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareItemPair*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREITEMPAIR_METHOD_2_62A373F04F266822_OFFSET))(a1, a2);
 		}
 	};
 }

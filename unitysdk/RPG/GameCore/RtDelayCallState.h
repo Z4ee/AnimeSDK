@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDelayCallState_TypeDefinitionIndex = 49910;
+	inline static constexpr unsigned int RtDelayCallState_TypeDefinitionIndex = 50577;
 
 	enum class RtDelayCallState : ::System::Int32
 	{

@@ -4,16 +4,16 @@
 
 namespace RPG::Client::DiceCombat { class DiceCombatStageInfo; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xA12B3F0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_GET_BEGINSTAGE_OFFSET UNITYSDK_OFFSET(0xA12B490)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_GET_STAGEINFO_OFFSET UNITYSDK_OFFSET(0xA12B4B0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_SET_BEGINSTAGE_OFFSET UNITYSDK_OFFSET(0xA12B4A0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_SET_STAGEINFO_OFFSET UNITYSDK_OFFSET(0xA12B4C0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA12B480)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xB7A75A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_GET_BEGINSTAGE_OFFSET UNITYSDK_OFFSET(0xB7A7640)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_GET_STAGEINFO_OFFSET UNITYSDK_OFFSET(0xB7A7660)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_SET_BEGINSTAGE_OFFSET UNITYSDK_OFFSET(0xB7A7650)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_SET_STAGEINFO_OFFSET UNITYSDK_OFFSET(0xB7A7670)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB7A7630)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatPVEProcessPageParam_TypeDefinitionIndex = 69887;
+	inline static constexpr unsigned int DiceCombatPVEProcessPageParam_TypeDefinitionIndex = 70699;
 
 	class DiceCombatPVEProcessPageParam : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatPVEProcessPageParam* Create(::System::Boolean beginStage, ::RPG::Client::DiceCombat::DiceCombatStageInfo* stageInfo)
+		static ::RPG::Client::DiceCombat::DiceCombatPVEProcessPageParam* Create(::System::Boolean a1, ::RPG::Client::DiceCombat::DiceCombatStageInfo* a2)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatPVEProcessPageParam*(*)(::System::Boolean, ::RPG::Client::DiceCombat::DiceCombatStageInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_CREATE_OFFSET))(beginStage, stageInfo);
+			return ((::RPG::Client::DiceCombat::DiceCombatPVEProcessPageParam*(*)(::System::Boolean, ::RPG::Client::DiceCombat::DiceCombatStageInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean get_BeginStage()
@@ -36,9 +36,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_GET_BEGINSTAGE_OFFSET))(this);
 		}
 
-		::System::Void set_BeginStage(::System::Boolean value)
+		::System::Void set_BeginStage(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_SET_BEGINSTAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_SET_BEGINSTAGE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DiceCombat::DiceCombatStageInfo* get_StageInfo()
@@ -46,9 +46,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::DiceCombatStageInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_GET_STAGEINFO_OFFSET))(this);
 		}
 
-		::System::Void set_StageInfo(::RPG::Client::DiceCombat::DiceCombatStageInfo* value)
+		::System::Void set_StageInfo(::RPG::Client::DiceCombat::DiceCombatStageInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatStageInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_SET_STAGEINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatStageInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEPROCESSPAGEPARAM_SET_STAGEINFO_OFFSET))(this, a1);
 		}
 	};
 }

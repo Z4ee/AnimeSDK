@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_4_F6727781D6D80ED0_CustomColorBlendMode.h"
+#include "unitysdk/Class_4_0C4F666150CF6EB8_CustomColorBlendMode.h"
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/ScenenLightManager/SceneManagedLightTAMonoPluginBase_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_4_F6727781D6D80ED0;
+class Class_4_0C4F666150CF6EB8;
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_EASYFOG_GET_FOGNORMALMAP_OFFSET UNITYSDK_OFFSET(0xA1AFD20)
-#define RPG_CLIENT_EASYFOG_GET_OPACITYMAP_OFFSET UNITYSDK_OFFSET(0xA1AFCD0)
-#define RPG_CLIENT_EASYFOG__CTOR_OFFSET UNITYSDK_OFFSET(0xA1AFD70)
+#define RPG_CLIENT_EASYFOG_GET_FOGNORMALMAP_OFFSET UNITYSDK_OFFSET(0xB831860)
+#define RPG_CLIENT_EASYFOG_GET_OPACITYMAP_OFFSET UNITYSDK_OFFSET(0xB831810)
+#define RPG_CLIENT_EASYFOG__CTOR_OFFSET UNITYSDK_OFFSET(0xB8318B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EasyFog_TypeDefinitionIndex = 65271;
+	inline static constexpr unsigned int EasyFog_TypeDefinitionIndex = 66198;
 
-	class EasyFog : public ::ScenenLightManager::SceneManagedLightTAMonoPluginBase_1<::Class_4_F6727781D6D80ED0*>
+	class EasyFog : public ::ScenenLightManager::SceneManagedLightTAMonoPluginBase_1<::Class_4_0C4F666150CF6EB8*>
 	{
 	public:
 		::UnityEngine::Material* easyFogTemplateMaterial; // 0x30
@@ -39,9 +39,9 @@ namespace RPG::Client
 		::System::Single distortIntensity; // 0x9C
 		::System::Single directionalLightIntensity; // 0xA0
 		::UnityEngine::Color customDirectionalLightColor; // 0xA4
-		::Class_4_F6727781D6D80ED0_CustomColorBlendMode directionalLightBlendMode; // 0xB4
+		::Class_4_0C4F666150CF6EB8_CustomColorBlendMode directionalLightBlendMode; // 0xB4
 		::UnityEngine::Color customAmbientColor; // 0xB8
-		::Class_4_F6727781D6D80ED0_CustomColorBlendMode ambientLightBlendMode; // 0xC8
+		::Class_4_0C4F666150CF6EB8_CustomColorBlendMode ambientLightBlendMode; // 0xC8
 		::UnityEngine::Color customEmissiveColor; // 0xCC
 		::System::Single softParticlesNearFadeDistance; // 0xDC
 		::System::Single softParticlesFarFadeDistance; // 0xE0

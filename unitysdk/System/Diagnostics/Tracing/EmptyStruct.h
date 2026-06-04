@@ -4,7 +4,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EmptyStruct_TypeDefinitionIndex = 1583;
+	inline static constexpr unsigned int EmptyStruct_TypeDefinitionIndex = 1581;
 
 	struct alignas(1) EmptyStruct
 	{

@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/FiveDim/TimeScaleReason.h"
 #include "unitysdk/RPG/GCFreeClosure/ClosureEvent_2.h"
 #include "unitysdk/Struct_2_4127FF4C06B070D3.h"
-#include "unitysdk/Struct_2_A7B9824716EA1FCD.h"
+#include "unitysdk/Struct_2_DF3F1B8142DB3648.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_F3391C70DC37088D;
@@ -40,11 +41,14 @@ namespace RPG::GameCore { class FiveDimCreateMascotFakePlayerAction; }
 namespace RPG::GameCore { class FiveDimCreatePhantomPlayerAction; }
 namespace RPG::GameCore { class FiveDimCrystalChangeHPAction; }
 namespace RPG::GameCore { class FiveDimDebugLogEventAction; }
+namespace RPG::GameCore { class FiveDimDestroyCleanerBotAction; }
 namespace RPG::GameCore { class FiveDimDestroyMascotFakePlayerAction; }
 namespace RPG::GameCore { class FiveDimDestroyPhantomPlayerAction; }
 namespace RPG::GameCore { class FiveDimDestructPropAction; }
 namespace RPG::GameCore { class FiveDimDropEntityAction; }
+namespace RPG::GameCore { class FiveDimEnableGrenadierAttackAction; }
 namespace RPG::GameCore { class FiveDimEnableIntervalSpawnAction; }
+namespace RPG::GameCore { class FiveDimEnableSimpleHitBoxAction; }
 namespace RPG::GameCore { class FiveDimEnergyBlockChargeAction; }
 namespace RPG::GameCore { class FiveDimEnterDashPrepareStateAction; }
 namespace RPG::GameCore { class FiveDimEnterHiddenAreaAction; }
@@ -154,7 +158,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 70588;
+	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 71406;
 
 	template <typename T>
 	class FiveDimBaseEventActionService_1 : public ::System::Object

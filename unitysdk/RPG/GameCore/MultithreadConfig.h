@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ThreadTaskConfig; }
 
-#define RPG_GAMECORE_MULTITHREADCONFIG_METHOD_2_D43F91276DB5651B_OFFSET UNITYSDK_OFFSET(0x18B67850)
-#define RPG_GAMECORE_MULTITHREADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B67920)
+#define RPG_GAMECORE_MULTITHREADCONFIG_METHOD_2_994D32FD8876D21E_OFFSET UNITYSDK_OFFSET(0x199B6C30)
+#define RPG_GAMECORE_MULTITHREADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199B6CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultithreadConfig_TypeDefinitionIndex = 23423;
+	inline static constexpr unsigned int MultithreadConfig_TypeDefinitionIndex = 23072;
 
 	class MultithreadConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MULTITHREADCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D43F91276DB5651B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MultithreadConfig*& a2)
+		static ::System::Void Method_2_994D32FD8876D21E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MultithreadConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MultithreadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MULTITHREADCONFIG_METHOD_2_D43F91276DB5651B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MultithreadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MULTITHREADCONFIG_METHOD_2_994D32FD8876D21E_OFFSET))(a1, a2);
 		}
 	};
 }

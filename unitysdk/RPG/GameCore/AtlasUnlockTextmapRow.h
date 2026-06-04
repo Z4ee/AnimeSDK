@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186ACE20)
-#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186ACFA0)
+#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19484BE0)
+#define RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19484D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AtlasUnlockTextmapRow_TypeDefinitionIndex = 11986;
+	inline static constexpr unsigned int AtlasUnlockTextmapRow_TypeDefinitionIndex = 12079;
 
 	class AtlasUnlockTextmapRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AtlasUnlockTextmapRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AtlasUnlockTextmapRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AtlasUnlockTextmapRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AtlasUnlockTextmapRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATLASUNLOCKTEXTMAPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

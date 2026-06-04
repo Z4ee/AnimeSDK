@@ -7,48 +7,48 @@ namespace RPG::GameCore { class ICharacterSkillRowData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYID_1_OFFSET UNITYSDK_OFFSET(0xB60A010)
-#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYID_OFFSET UNITYSDK_OFFSET(0xB609C50)
-#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYNAME_1_OFFSET UNITYSDK_OFFSET(0xB609F00)
-#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYNAME_OFFSET UNITYSDK_OFFSET(0xB609AA0)
-#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATA_1_OFFSET UNITYSDK_OFFSET(0xB609DB0)
-#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATA_OFFSET UNITYSDK_OFFSET(0xB609A30)
+#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYID_1_OFFSET UNITYSDK_OFFSET(0xCD72430)
+#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYID_OFFSET UNITYSDK_OFFSET(0xCD72070)
+#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYNAME_1_OFFSET UNITYSDK_OFFSET(0xCD72320)
+#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYNAME_OFFSET UNITYSDK_OFFSET(0xCD71E90)
+#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATA_1_OFFSET UNITYSDK_OFFSET(0xCD72210)
+#define RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATA_OFFSET UNITYSDK_OFFSET(0xCD71E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterRowDataExtensions_TypeDefinitionIndex = 52459;
+	inline static constexpr unsigned int CharacterRowDataExtensions_TypeDefinitionIndex = 53159;
 
 	class CharacterRowDataExtensions : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowData(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>* skillDatas, ::System::Int32 nSkillIndex)
+		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowData(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>* a1, ::System::Int32 a2)
 		{
-			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATA_OFFSET))(skillDatas, nSkillIndex);
+			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATA_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByName(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>* skillDatas, ::System::String* skillName)
+		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByName(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>* a1, ::System::String* a2)
 		{
-			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYNAME_OFFSET))(skillDatas, skillName);
+			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYNAME_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByID(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>* skillDatas, ::System::UInt32 skillID)
+		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByID(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYID_OFFSET))(skillDatas, skillID);
+			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYID_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowData_1(::RPG::GameCore::CharacterDataComponent* characterData, ::System::Int32 nSkillIndex)
+		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowData_1(::RPG::GameCore::CharacterDataComponent* a1, ::System::Int32 a2)
 		{
-			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::RPG::GameCore::CharacterDataComponent*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATA_1_OFFSET))(characterData, nSkillIndex);
+			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::RPG::GameCore::CharacterDataComponent*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATA_1_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByName_1(::RPG::GameCore::CharacterDataComponent* characterData, ::System::String* skillName)
+		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByName_1(::RPG::GameCore::CharacterDataComponent* a1, ::System::String* a2)
 		{
-			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::RPG::GameCore::CharacterDataComponent*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYNAME_1_OFFSET))(characterData, skillName);
+			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::RPG::GameCore::CharacterDataComponent*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYNAME_1_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByID_1(::RPG::GameCore::CharacterDataComponent* characterData, ::System::UInt32 skillID)
+		static ::RPG::GameCore::ICharacterSkillRowData* GetSkillRowDataByID_1(::RPG::GameCore::CharacterDataComponent* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::RPG::GameCore::CharacterDataComponent*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYID_1_OFFSET))(characterData, skillID);
+			return ((::RPG::GameCore::ICharacterSkillRowData*(*)(::RPG::GameCore::CharacterDataComponent*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERROWDATAEXTENSIONS_GETSKILLROWDATABYID_1_OFFSET))(a1, a2);
 		}
 	};
 }

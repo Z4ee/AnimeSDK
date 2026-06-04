@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DeviceSettingInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEVICESETTINGGROUP_METHOD_2_82DD6C1D2E693301_OFFSET UNITYSDK_OFFSET(0x1885F160)
-#define RPG_GAMECORE_DEVICESETTINGGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1885F3A0)
+#define RPG_GAMECORE_DEVICESETTINGGROUP_METHOD_2_ED1C112F1A61C362_OFFSET UNITYSDK_OFFSET(0x1969E4C0)
+#define RPG_GAMECORE_DEVICESETTINGGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1969E700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceSettingGroup_TypeDefinitionIndex = 15582;
+	inline static constexpr unsigned int DeviceSettingGroup_TypeDefinitionIndex = 15644;
 
 	class DeviceSettingGroup : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICESETTINGGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_82DD6C1D2E693301(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceSettingGroup*& a2)
+		static ::System::Void Method_2_ED1C112F1A61C362(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceSettingGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceSettingGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICESETTINGGROUP_METHOD_2_82DD6C1D2E693301_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceSettingGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICESETTINGGROUP_METHOD_2_ED1C112F1A61C362_OFFSET))(a1, a2);
 		}
 	};
 }

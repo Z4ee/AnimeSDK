@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGateInfo_TypeDefinitionIndex = 72392;
+	inline static constexpr unsigned int TeleportGateInfo_TypeDefinitionIndex = 73414;
 
 	struct alignas(8) TeleportGateInfo
 	{

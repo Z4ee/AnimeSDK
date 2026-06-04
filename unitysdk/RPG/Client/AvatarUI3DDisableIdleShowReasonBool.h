@@ -4,13 +4,13 @@
 #include "unitysdk/RPG/Client/ReasonBool_1.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_AVATARUI3DDISABLEIDLESHOWREASONBOOL_ISNEEDDISABLE_OFFSET UNITYSDK_OFFSET(0x9DBFE90)
-#define RPG_CLIENT_AVATARUI3DDISABLEIDLESHOWREASONBOOL_SETDISABLE_OFFSET UNITYSDK_OFFSET(0x9DBFEE0)
-#define RPG_CLIENT_AVATARUI3DDISABLEIDLESHOWREASONBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x9DBFE80)
+#define RPG_CLIENT_AVATARUI3DDISABLEIDLESHOWREASONBOOL_ISNEEDDISABLE_OFFSET UNITYSDK_OFFSET(0xB398410)
+#define RPG_CLIENT_AVATARUI3DDISABLEIDLESHOWREASONBOOL_SETDISABLE_OFFSET UNITYSDK_OFFSET(0xB398460)
+#define RPG_CLIENT_AVATARUI3DDISABLEIDLESHOWREASONBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xB398400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarUI3DDisableIdleShowReasonBool_TypeDefinitionIndex = 57662;
+	inline static constexpr unsigned int AvatarUI3DDisableIdleShowReasonBool_TypeDefinitionIndex = 58454;
 
 	class AvatarUI3DDisableIdleShowReasonBool : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARUI3DDISABLEIDLESHOWREASONBOOL_ISNEEDDISABLE_OFFSET))(this);
 		}
 
-		::System::Void SetDisable(::System::Boolean isNeedDisable, ::RPG::Client::AvatarUI3DDisableIdleShowReason reason)
+		::System::Void SetDisable(::System::Boolean a1, ::RPG::Client::AvatarUI3DDisableIdleShowReason a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::Client::AvatarUI3DDisableIdleShowReason))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARUI3DDISABLEIDLESHOWREASONBOOL_SETDISABLE_OFFSET))(this, isNeedDisable, reason);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::Client::AvatarUI3DDisableIdleShowReason))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARUI3DDISABLEIDLESHOWREASONBOOL_SETDISABLE_OFFSET))(this, a1, a2);
 		}
 	};
 }

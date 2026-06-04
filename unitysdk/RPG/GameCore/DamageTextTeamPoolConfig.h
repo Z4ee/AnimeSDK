@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DAMAGETEXTTEAMPOOLCONFIG_METHOD_2_68F117186625E969_OFFSET UNITYSDK_OFFSET(0x18850B10)
-#define RPG_GAMECORE_DAMAGETEXTTEAMPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18850D20)
+#define RPG_GAMECORE_DAMAGETEXTTEAMPOOLCONFIG_METHOD_2_1267694444390973_OFFSET UNITYSDK_OFFSET(0x1968FD10)
+#define RPG_GAMECORE_DAMAGETEXTTEAMPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1968FF10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageTextTeamPoolConfig_TypeDefinitionIndex = 16239;
+	inline static constexpr unsigned int DamageTextTeamPoolConfig_TypeDefinitionIndex = 16275;
 
 	class DamageTextTeamPoolConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGETEXTTEAMPOOLCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_68F117186625E969(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamageTextTeamPoolConfig*& a2)
+		static ::System::Void Method_2_1267694444390973(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamageTextTeamPoolConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DamageTextTeamPoolConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGETEXTTEAMPOOLCONFIG_METHOD_2_68F117186625E969_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DamageTextTeamPoolConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGETEXTTEAMPOOLCONFIG_METHOD_2_1267694444390973_OFFSET))(a1, a2);
 		}
 	};
 }

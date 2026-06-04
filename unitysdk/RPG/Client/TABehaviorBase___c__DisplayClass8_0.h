@@ -7,19 +7,19 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB26C260)
-#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__PRELOADDEPENDENTASSET_B__0_OFFSET UNITYSDK_OFFSET(0xB26C6D0)
+#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9B94F0)
+#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__PRELOADDEPENDENTASSET_B__0_OFFSET UNITYSDK_OFFSET(0xC9B9950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TABehaviorBase___c__DisplayClass8_0_TypeDefinitionIndex = 65257;
+	inline static constexpr unsigned int TABehaviorBase___c__DisplayClass8_0_TypeDefinitionIndex = 66184;
 
 	class TABehaviorBase___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::TABehaviorBase* __4__this; // 0x10
+		::System::Action_1<::UnityEngine::Object*>* __9__0; // 0x10
 		::System::Action* completeCallback; // 0x18
-		::System::Action_1<::UnityEngine::Object*>* __9__0; // 0x20
+		::RPG::Client::TABehaviorBase* __4__this; // 0x20
 		::System::Int32 taskCount; // 0x28
 
 		::System::Void _ctor()
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PreloadDependentAsset_b__0(::UnityEngine::Object* obj)
+		::System::Void _PreloadDependentAsset_b__0(::UnityEngine::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__PRELOADDEPENDENTASSET_B__0_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__PRELOADDEPENDENTASSET_B__0_OFFSET))(this, a1);
 		}
 	};
 }

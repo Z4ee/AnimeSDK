@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWITCHALLEYSHIP_METHOD_3_18A4357B18922200_OFFSET UNITYSDK_OFFSET(0x18EB7730)
-#define RPG_GAMECORE_SWITCHALLEYSHIP_METHOD_3_4A6E96E172D99E99_OFFSET UNITYSDK_OFFSET(0x18EB76B0)
-#define RPG_GAMECORE_SWITCHALLEYSHIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB7700)
+#define RPG_GAMECORE_SWITCHALLEYSHIP_METHOD_3_6080C54B36F99846_OFFSET UNITYSDK_OFFSET(0x19CD7330)
+#define RPG_GAMECORE_SWITCHALLEYSHIP_METHOD_3_61BFF74C9B5C8B07_OFFSET UNITYSDK_OFFSET(0x19CD72B0)
+#define RPG_GAMECORE_SWITCHALLEYSHIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD7300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchAlleyShip_TypeDefinitionIndex = 23059;
+	inline static constexpr unsigned int SwitchAlleyShip_TypeDefinitionIndex = 22747;
 
 	class SwitchAlleyShip : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHALLEYSHIP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4A6E96E172D99E99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchAlleyShip*& a2)
+		static ::System::Void Method_3_61BFF74C9B5C8B07(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchAlleyShip*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchAlleyShip*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHALLEYSHIP_METHOD_3_4A6E96E172D99E99_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchAlleyShip*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHALLEYSHIP_METHOD_3_61BFF74C9B5C8B07_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_18A4357B18922200(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchAlleyShip* a2)
+		static ::System::Void Method_3_6080C54B36F99846(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchAlleyShip* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchAlleyShip*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHALLEYSHIP_METHOD_3_18A4357B18922200_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchAlleyShip*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHALLEYSHIP_METHOD_3_6080C54B36F99846_OFFSET))(a1, a2);
 		}
 	};
 }

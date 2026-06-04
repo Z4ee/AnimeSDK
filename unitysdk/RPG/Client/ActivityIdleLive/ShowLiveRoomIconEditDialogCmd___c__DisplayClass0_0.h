@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class LiveRoomIconUiData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9BDEBC0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD___C__DISPLAYCLASS0_0__ONEXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x9BDEC40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB17ABD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD___C__DISPLAYCLASS0_0__ONEXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xB17AC50)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int ShowLiveRoomIconEditDialogCmd___c__DisplayClass0_0_TypeDefinitionIndex = 69423;
+	inline static constexpr unsigned int ShowLiveRoomIconEditDialogCmd___c__DisplayClass0_0_TypeDefinitionIndex = 70235;
 
 	class ShowLiveRoomIconEditDialogCmd___c__DisplayClass0_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _OnExecute_b__0(::RPG::Client::ActivityIdleLive::LiveRoomIconUiData* x)
+		::System::Boolean _OnExecute_b__0(::RPG::Client::ActivityIdleLive::LiveRoomIconUiData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::LiveRoomIconUiData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD___C__DISPLAYCLASS0_0__ONEXECUTE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::LiveRoomIconUiData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SHOWLIVEROOMICONEDITDIALOGCMD___C__DISPLAYCLASS0_0__ONEXECUTE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -21,76 +21,76 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CALPOWERLEVELRAWFORRECOMMEND_OFFSET UNITYSDK_OFFSET(0x9B34F30)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CALPOWERLEVELRAW_OFFSET UNITYSDK_OFFSET(0x9B30FE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CALPOWERLEVEL_OFFSET UNITYSDK_OFFSET(0x9B30F70)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CHECKHASAVATARCANDEPLOY_OFFSET UNITYSDK_OFFSET(0x9B320E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CHECKISALLSLOTSFULL_OFFSET UNITYSDK_OFFSET(0x9B31B80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CHECKISFULLBYPOSTYPE_OFFSET UNITYSDK_OFFSET(0x9B36000)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CONFIRMRECOMMENDDATA_OFFSET UNITYSDK_OFFSET(0x9B36C60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETACTIVECAPTAINTAGCOUNT_OFFSET UNITYSDK_OFFSET(0x9B37320)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETALIVEBATTLEAVATARIDLIST_OFFSET UNITYSDK_OFFSET(0x9B36640)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETALLAVATARS_OFFSET UNITYSDK_OFFSET(0x9B35EE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETALLTABUIDATA_OFFSET UNITYSDK_OFFSET(0x9B35CB0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETALLTEAMSLOTDATAS_OFFSET UNITYSDK_OFFSET(0x9B293A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETAVATARDATABYID_OFFSET UNITYSDK_OFFSET(0x9B35850)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETAVATARSBYPOSTYPE_OFFSET UNITYSDK_OFFSET(0x9B240E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETCAPTAINSLOTDATA_OFFSET UNITYSDK_OFFSET(0x9B36FF0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETCAPTAINTAG_OFFSET UNITYSDK_OFFSET(0x9B37220)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETLIMITLEVEL_OFFSET UNITYSDK_OFFSET(0x9B36310)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETSLOTDATABYID_OFFSET UNITYSDK_OFFSET(0x9B30C50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GET_SPEQUIPSLOTINFO_OFFSET UNITYSDK_OFFSET(0x9B392A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_INITBASE_OFFSET UNITYSDK_OFFSET(0x9B306E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_MARKALLONSLOTAVATARSEEN_OFFSET UNITYSDK_OFFSET(0x9B31660)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_ONAVATARINFOPROTOCOLRECEIVED_OFFSET UNITYSDK_OFFSET(0x9B39200)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_ONSLOTINFOPROTOCOLRECEIVED_OFFSET UNITYSDK_OFFSET(0x9B39250)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_REGISTERMODIFIERBUILDER_OFFSET UNITYSDK_OFFSET(0x9B30BE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_REGISTERSPEQUIPSLOTINFO_OFFSET UNITYSDK_OFFSET(0x9B35C50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_SET_SPEQUIPSLOTINFO_OFFSET UNITYSDK_OFFSET(0x9B392B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_UPGRADESLOT_OFFSET UNITYSDK_OFFSET(0x9B35F90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__ADDTEAMAVATAR_1_OFFSET UNITYSDK_OFFSET(0x9B37CA0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__ADDTEAMAVATAR_OFFSET UNITYSDK_OFFSET(0x9B37970)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__BUILDMODIFIERBUILDERS_OFFSET UNITYSDK_OFFSET(0x9B389C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CALPOWERLEVELRAWFROMLAYOUT_OFFSET UNITYSDK_OFFSET(0x9B32660)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CHECKTEAMISVALID_OFFSET UNITYSDK_OFFSET(0x9B38790)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CLEARALLTEAMAVATAR_OFFSET UNITYSDK_OFFSET(0x9B38EA0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9B392C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__INITTEAMSLOTDATAS_OFFSET UNITYSDK_OFFSET(0x9B308E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__REFRESHTEAMSLOTDATAS_OFFSET UNITYSDK_OFFSET(0x9B38AB0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__UPDATETEAMPOS_OFFSET UNITYSDK_OFFSET(0x9B37F50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CALPOWERLEVELRAWFORRECOMMEND_OFFSET UNITYSDK_OFFSET(0xB11B570)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CALPOWERLEVELRAW_OFFSET UNITYSDK_OFFSET(0xB117390)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CALPOWERLEVEL_OFFSET UNITYSDK_OFFSET(0xB117320)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CHECKHASAVATARCANDEPLOY_OFFSET UNITYSDK_OFFSET(0xB1186D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CHECKISALLSLOTSFULL_OFFSET UNITYSDK_OFFSET(0xB1180A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CHECKISFULLBYPOSTYPE_OFFSET UNITYSDK_OFFSET(0xB11C690)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CONFIRMRECOMMENDDATA_OFFSET UNITYSDK_OFFSET(0xB11D340)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETACTIVECAPTAINTAGCOUNT_OFFSET UNITYSDK_OFFSET(0xB11DA60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETALIVEBATTLEAVATARIDLIST_OFFSET UNITYSDK_OFFSET(0xB11CCD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETALLAVATARS_OFFSET UNITYSDK_OFFSET(0xB11C4D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETALLTABUIDATA_OFFSET UNITYSDK_OFFSET(0xB11C1F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETALLTEAMSLOTDATAS_OFFSET UNITYSDK_OFFSET(0xB10F170)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETAVATARDATABYID_OFFSET UNITYSDK_OFFSET(0xB11BF40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETAVATARSBYPOSTYPE_OFFSET UNITYSDK_OFFSET(0xB109C20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETCAPTAINSLOTDATA_OFFSET UNITYSDK_OFFSET(0xB11D740)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETCAPTAINTAG_OFFSET UNITYSDK_OFFSET(0xB11D940)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETLIMITLEVEL_OFFSET UNITYSDK_OFFSET(0xB11C9D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETSLOTDATABYID_OFFSET UNITYSDK_OFFSET(0xB116EF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GET_SPEQUIPSLOTINFO_OFFSET UNITYSDK_OFFSET(0xB11FA60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_INITBASE_OFFSET UNITYSDK_OFFSET(0xB1165B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_MARKALLONSLOTAVATARSEEN_OFFSET UNITYSDK_OFFSET(0xB117AE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_ONAVATARINFOPROTOCOLRECEIVED_OFFSET UNITYSDK_OFFSET(0xB11F9C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_ONSLOTINFOPROTOCOLRECEIVED_OFFSET UNITYSDK_OFFSET(0xB11FA10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_REGISTERMODIFIERBUILDER_OFFSET UNITYSDK_OFFSET(0xB116E40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_REGISTERSPEQUIPSLOTINFO_OFFSET UNITYSDK_OFFSET(0xB11C190)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_SET_SPEQUIPSLOTINFO_OFFSET UNITYSDK_OFFSET(0xB11FA70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_UPGRADESLOT_OFFSET UNITYSDK_OFFSET(0xB11C620)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__ADDTEAMAVATAR_1_OFFSET UNITYSDK_OFFSET(0xB11E3F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__ADDTEAMAVATAR_OFFSET UNITYSDK_OFFSET(0xB11E0F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__BUILDMODIFIERBUILDERS_OFFSET UNITYSDK_OFFSET(0xB11F000)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CALPOWERLEVELRAWFROMLAYOUT_OFFSET UNITYSDK_OFFSET(0xB118CF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CHECKTEAMISVALID_OFFSET UNITYSDK_OFFSET(0xB11EE00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CLEARALLTEAMAVATAR_OFFSET UNITYSDK_OFFSET(0xB11F5B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB11FA80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__INITTEAMSLOTDATAS_OFFSET UNITYSDK_OFFSET(0xB116AC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__REFRESHTEAMSLOTDATAS_OFFSET UNITYSDK_OFFSET(0xB11F110)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__UPDATETEAMPOS_OFFSET UNITYSDK_OFFSET(0xB11E630)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTeamInfo_TypeDefinitionIndex = 69150;
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo_TypeDefinitionIndex = 69962;
 
 	class IdleLiveBaseTeamInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* _SpEquipSlotInfo_k__BackingField; // 0x10
-		::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotInfo* _SlotInfo; // 0x18
+		::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotInfo* _SlotInfo; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*>* _ModifierBuilders; // 0x18
 		::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo* _AvatarInfo; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ILBattleCharacterLocation, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*>*>* _AllTeamSlotDatas; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*>* _ModifierBuilders; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>* _AllTeamAvatarDatas; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>* _AllTeamAvatarDatas; // 0x30
+		::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* _SpEquipSlotInfo_k__BackingField; // 0x38
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void InitBase(::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo* avatarInfo, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotInfo* slotInfo)
+		::System::Void InitBase(::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo* a1, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo*, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_INITBASE_OFFSET))(this, avatarInfo, slotInfo);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo*, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_INITBASE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterModifierBuilder(::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* builder)
+		::System::Void RegisterModifierBuilder(::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_REGISTERMODIFIERBUILDER_OFFSET))(this, builder);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_REGISTERMODIFIERBUILDER_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* GetSlotDataByID(::System::UInt32 slotID)
+		::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* GetSlotDataByID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETSLOTDATABYID_OFFSET))(this, slotID);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETSLOTDATABYID_OFFSET))(this, a1);
 		}
 
 		::System::UInt64 CalPowerLevel()
@@ -118,24 +118,24 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::RPG::Client::ActivityIdleLive::IdleLiveDecimal(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CALPOWERLEVELRAW_OFFSET))(this);
 		}
 
-		::RPG::Client::ActivityIdleLive::IdleLiveDecimal CalPowerLevelRawForRecommend(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* recommendData)
+		::RPG::Client::ActivityIdleLive::IdleLiveDecimal CalPowerLevelRawForRecommend(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* a1)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveDecimal(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CALPOWERLEVELRAWFORRECOMMEND_OFFSET))(this, recommendData);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveDecimal(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CALPOWERLEVELRAWFORRECOMMEND_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ActivityIdleLive::IdleLiveDecimal _CalPowerLevelRawFromLayout(::System::Collections::Generic::IEnumerable_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*>* captainSlotDatas, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*>* allSlotDatasFlat)
+		::RPG::Client::ActivityIdleLive::IdleLiveDecimal _CalPowerLevelRawFromLayout(::System::Collections::Generic::IEnumerable_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*>* a1, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*>* a2)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveDecimal(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CALPOWERLEVELRAWFROMLAYOUT_OFFSET))(this, captainSlotDatas, allSlotDatasFlat);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveDecimal(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CALPOWERLEVELRAWFROMLAYOUT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterSpEquipSlotInfo(::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* spEquipSlotInfo)
+		::System::Void RegisterSpEquipSlotInfo(::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpEquipSlotInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_REGISTERSPEQUIPSLOTINFO_OFFSET))(this, spEquipSlotInfo);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpEquipSlotInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_REGISTERSPEQUIPSLOTINFO_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData* GetAvatarDataByID(::System::UInt32 avatarId)
+		::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData* GetAvatarDataByID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETAVATARDATABYID_OFFSET))(this, avatarId);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETAVATARDATABYID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*>* GetAllTeamSlotDatas()
@@ -143,9 +143,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETALLTEAMSLOTDATAS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>* GetAvatarsByPosType(::RPG::GameCore::ILBattleCharacterLocation posType, ::System::Boolean isExcludeNew)
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>* GetAvatarsByPosType(::RPG::GameCore::ILBattleCharacterLocation a1, ::System::Boolean a2)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>*(*)(::PVOID, ::RPG::GameCore::ILBattleCharacterLocation, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETAVATARSBYPOSTYPE_OFFSET))(this, posType, isExcludeNew);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>*(*)(::PVOID, ::RPG::GameCore::ILBattleCharacterLocation, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETAVATARSBYPOSTYPE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::TeamEditAllTabUiData>* GetAllTabUiData()
@@ -158,14 +158,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETALLAVATARS_OFFSET))(this);
 		}
 
-		::System::Void UpgradeSlot(::System::UInt32 slotID, ::System::UInt32 level)
+		::System::Void UpgradeSlot(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_UPGRADESLOT_OFFSET))(this, slotID, level);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_UPGRADESLOT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CheckIsFullByPosType(::RPG::GameCore::ILBattleCharacterLocation posType)
+		::System::Boolean CheckIsFullByPosType(::RPG::GameCore::ILBattleCharacterLocation a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ILBattleCharacterLocation))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CHECKISFULLBYPOSTYPE_OFFSET))(this, posType);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ILBattleCharacterLocation))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CHECKISFULLBYPOSTYPE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetLimitLevel()
@@ -178,9 +178,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETALIVEBATTLEAVATARIDLIST_OFFSET))(this);
 		}
 
-		::System::Void ConfirmRecommendData(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* data)
+		::System::Void ConfirmRecommendData(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CONFIRMRECOMMENDDATA_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_CONFIRMRECOMMENDDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* GetCaptainSlotData()
@@ -198,19 +198,19 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GETACTIVECAPTAINTAGCOUNT_OFFSET))(this);
 		}
 
-		::System::Void _AddTeamAvatar(::System::UInt32 avatarId, ::System::UInt32 slotID)
+		::System::Void _AddTeamAvatar(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__ADDTEAMAVATAR_OFFSET))(this, avatarId, slotID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__ADDTEAMAVATAR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _AddTeamAvatar_1(::System::UInt32 avatarId)
+		::System::Void _AddTeamAvatar_1(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__ADDTEAMAVATAR_1_OFFSET))(this, avatarId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__ADDTEAMAVATAR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _UpdateTeamPos(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* teamAvatarIdDict)
+		::System::Void _UpdateTeamPos(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__UPDATETEAMPOS_OFFSET))(this, teamAvatarIdDict);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__UPDATETEAMPOS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean _CheckTeamIsValid()
@@ -218,9 +218,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CHECKTEAMISVALID_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::AvatarSystem::Property::PropertyModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*>* _BuildModifierBuilders(::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData* data)
+		::System::Collections::Generic::List_1<::RPG::AvatarSystem::Property::PropertyModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*>* _BuildModifierBuilders(::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::AvatarSystem::Property::PropertyModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*>*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__BUILDMODIFIERBUILDERS_OFFSET))(this, data);
+			return ((::System::Collections::Generic::List_1<::RPG::AvatarSystem::Property::PropertyModifierBuilder_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*>*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__BUILDMODIFIERBUILDERS_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitTeamSlotDatas()
@@ -238,14 +238,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO__CLEARALLTEAMAVATAR_OFFSET))(this);
 		}
 
-		::System::Void OnAvatarInfoProtocolReceived(::System::Object* sender, ::Class_3_1C169A0F2ACF26E7* e)
+		::System::Void OnAvatarInfoProtocolReceived(::System::Object* a1, ::Class_3_1C169A0F2ACF26E7* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Class_3_1C169A0F2ACF26E7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_ONAVATARINFOPROTOCOLRECEIVED_OFFSET))(this, sender, e);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Class_3_1C169A0F2ACF26E7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_ONAVATARINFOPROTOCOLRECEIVED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnSlotInfoProtocolReceived(::System::Object* sender, ::Class_3_1C169A0F2ACF26E7* e)
+		::System::Void OnSlotInfoProtocolReceived(::System::Object* a1, ::Class_3_1C169A0F2ACF26E7* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Class_3_1C169A0F2ACF26E7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_ONSLOTINFOPROTOCOLRECEIVED_OFFSET))(this, sender, e);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::Class_3_1C169A0F2ACF26E7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_ONSLOTINFOPROTOCOLRECEIVED_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* get_SpEquipSlotInfo()
@@ -253,9 +253,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::RPG::Client::ActivityIdleLive::SpEquipSlotInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_GET_SPEQUIPSLOTINFO_OFFSET))(this);
 		}
 
-		::System::Void set_SpEquipSlotInfo(::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* value)
+		::System::Void set_SpEquipSlotInfo(::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpEquipSlotInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_SET_SPEQUIPSLOTINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpEquipSlotInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO_SET_SPEQUIPSLOTINFO_OFFSET))(this, a1);
 		}
 	};
 }

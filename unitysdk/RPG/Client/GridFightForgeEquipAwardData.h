@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightForgeAwardData.h"
 
-class Class_1_D17272E82AE804C2_362;
+class Class_1_D17272E82AE804C2_375;
 namespace RPG::Client { class GridFightEquipItemConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_GET_EQUIPID_OFFSET UNITYSDK_OFFSET(0xA49F310)
-#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_GET_EQUIPITEMCONFIG_OFFSET UNITYSDK_OFFSET(0xA49F330)
-#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_SET_EQUIPID_OFFSET UNITYSDK_OFFSET(0xA49F320)
-#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA49F2E0)
+#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_GET_EQUIPID_OFFSET UNITYSDK_OFFSET(0xBB3EAD0)
+#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_GET_EQUIPITEMCONFIG_OFFSET UNITYSDK_OFFSET(0xBB3EAF0)
+#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_SET_EQUIPID_OFFSET UNITYSDK_OFFSET(0xBB3EAE0)
+#define RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBB3EAA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightForgeEquipAwardData_TypeDefinitionIndex = 59836;
+	inline static constexpr unsigned int GridFightForgeEquipAwardData_TypeDefinitionIndex = 60771;
 
 	class GridFightForgeEquipAwardData : public ::RPG::Client::GridFightForgeAwardData
 	{
 	public:
 		::System::UInt32 _EquipID_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::UInt32 awardIndex, ::Class_1_D17272E82AE804C2_362* protoEquip)
+		::System::Void _ctor(::System::UInt32 a1, ::Class_1_D17272E82AE804C2_375* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_D17272E82AE804C2_362*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA__CTOR_OFFSET))(this, awardIndex, protoEquip);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_D17272E82AE804C2_375*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_EquipID()
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_GET_EQUIPID_OFFSET))(this);
 		}
 
-		::System::Void set_EquipID(::System::UInt32 value)
+		::System::Void set_EquipID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_SET_EQUIPID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORGEEQUIPAWARDDATA_SET_EQUIPID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightEquipItemConfig* get_EquipItemConfig()

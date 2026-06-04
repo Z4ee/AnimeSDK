@@ -6,7 +6,7 @@
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CALLBACKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A13EE80)
+#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CALLBACKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFA3140)
 
 namespace System::Net
 {
@@ -16,14 +16,14 @@ namespace System::Net
 	{
 	public:
 		::System::Security::Cryptography::X509Certificates::X509Chain* chain; // 0x10
-		::System::Object* request; // 0x18
-		::System::Security::Cryptography::X509Certificates::X509Certificate* certificate; // 0x20
-		::System::Boolean result; // 0x28
-		::System::Net::Security::SslPolicyErrors sslPolicyErrors; // 0x2C
+		::System::Security::Cryptography::X509Certificates::X509Certificate* certificate; // 0x18
+		::System::Object* request; // 0x20
+		::System::Net::Security::SslPolicyErrors sslPolicyErrors; // 0x28
+		::System::Boolean result; // 0x2C
 
-		::System::Void _ctor(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Net::Security::SslPolicyErrors sslPolicyErrors)
+		::System::Void _ctor(::System::Object* a1, ::System::Security::Cryptography::X509Certificates::X509Certificate* a2, ::System::Security::Cryptography::X509Certificates::X509Chain* a3, ::System::Net::Security::SslPolicyErrors a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors))((::PBYTE)hIl2Cpp + SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CALLBACKCONTEXT__CTOR_OFFSET))(this, request, certificate, chain, sslPolicyErrors);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors))((::PBYTE)hIl2Cpp + SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CALLBACKCONTEXT__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

@@ -6,7 +6,7 @@ namespace RPG::Client::ParkourGame { class ParkourSkillConfig; }
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ParkourSkillConfig_Random_RandomData_TypeDefinitionIndex = 68236;
+	inline static constexpr unsigned int ParkourSkillConfig_Random_RandomData_TypeDefinitionIndex = 69210;
 
 	struct alignas(8) ParkourSkillConfig_Random_RandomData
 	{

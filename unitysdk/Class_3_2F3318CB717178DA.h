@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class BySkipNextTeleportEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2F3318CB717178DA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9A64670)
-#define CLASS_3_2F3318CB717178DA__CTOR_OFFSET UNITYSDK_OFFSET(0x9A64640)
+#define CLASS_3_2F3318CB717178DA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13A58670)
+#define CLASS_3_2F3318CB717178DA__CTOR_OFFSET UNITYSDK_OFFSET(0x13A58640)
 
-inline static constexpr unsigned int Class_3_2F3318CB717178DA_TypeDefinitionIndex = 49020;
+inline static constexpr unsigned int Class_3_2F3318CB717178DA_TypeDefinitionIndex = 49686;
 
 class Class_3_2F3318CB717178DA : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::BySkipNextTeleportEffect*>
 {

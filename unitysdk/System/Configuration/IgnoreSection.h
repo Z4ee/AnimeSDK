@@ -8,13 +8,13 @@ namespace System::Configuration { class ConfigurationElement; }
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 namespace System::Xml { class XmlReader; }
 
-#define SYSTEM_CONFIGURATION_IGNORESECTION_DESERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x19EB64D0)
-#define SYSTEM_CONFIGURATION_IGNORESECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x19EB6490)
-#define SYSTEM_CONFIGURATION_IGNORESECTION_ISMODIFIED_OFFSET UNITYSDK_OFFSET(0x19EB6510)
-#define SYSTEM_CONFIGURATION_IGNORESECTION_RESETMODIFIED_OFFSET UNITYSDK_OFFSET(0x19EB6590)
-#define SYSTEM_CONFIGURATION_IGNORESECTION_RESET_OFFSET UNITYSDK_OFFSET(0x19EB6550)
-#define SYSTEM_CONFIGURATION_IGNORESECTION_SERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x19EB65D0)
-#define SYSTEM_CONFIGURATION_IGNORESECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB6450)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_DESERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1AD2D280)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1AD2D240)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_ISMODIFIED_OFFSET UNITYSDK_OFFSET(0x1AD2D2C0)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_RESETMODIFIED_OFFSET UNITYSDK_OFFSET(0x1AD2D340)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_RESET_OFFSET UNITYSDK_OFFSET(0x1AD2D300)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_SERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1AD2D380)
+#define SYSTEM_CONFIGURATION_IGNORESECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD2D200)
 
 namespace System::Configuration
 {
@@ -33,9 +33,9 @@ namespace System::Configuration
 			return ((::System::Configuration::ConfigurationPropertyCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION_GET_PROPERTIES_OFFSET))(this);
 		}
 
-		::System::Void DeserializeSection(::System::Xml::XmlReader* xmlReader)
+		::System::Void DeserializeSection(::System::Xml::XmlReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlReader*))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION_DESERIALIZESECTION_OFFSET))(this, xmlReader);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlReader*))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION_DESERIALIZESECTION_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsModified()
@@ -43,9 +43,9 @@ namespace System::Configuration
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION_ISMODIFIED_OFFSET))(this);
 		}
 
-		::System::Void Reset(::System::Configuration::ConfigurationElement* parentSection)
+		::System::Void Reset(::System::Configuration::ConfigurationElement* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Configuration::ConfigurationElement*))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION_RESET_OFFSET))(this, parentSection);
+			return ((::System::Void(*)(::PVOID, ::System::Configuration::ConfigurationElement*))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION_RESET_OFFSET))(this, a1);
 		}
 
 		::System::Void ResetModified()
@@ -53,9 +53,9 @@ namespace System::Configuration
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION_RESETMODIFIED_OFFSET))(this);
 		}
 
-		::System::String* SerializeSection(::System::Configuration::ConfigurationElement* parentSection, ::System::String* name, ::System::Configuration::ConfigurationSaveMode saveMode)
+		::System::String* SerializeSection(::System::Configuration::ConfigurationElement* a1, ::System::String* a2, ::System::Configuration::ConfigurationSaveMode a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Configuration::ConfigurationElement*, ::System::String*, ::System::Configuration::ConfigurationSaveMode))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION_SERIALIZESECTION_OFFSET))(this, parentSection, name, saveMode);
+			return ((::System::String*(*)(::PVOID, ::System::Configuration::ConfigurationElement*, ::System::String*, ::System::Configuration::ConfigurationSaveMode))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION_SERIALIZESECTION_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

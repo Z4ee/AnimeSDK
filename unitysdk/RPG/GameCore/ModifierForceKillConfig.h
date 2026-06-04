@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_METHOD_2_DF8DD7601765989F_OFFSET UNITYSDK_OFFSET(0x18B34940)
-#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B34B60)
+#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_METHOD_2_DF8DD7601765989F_OFFSET UNITYSDK_OFFSET(0x1994C9D0)
+#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1994CBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierForceKillConfig_TypeDefinitionIndex = 17338;
+	inline static constexpr unsigned int ModifierForceKillConfig_TypeDefinitionIndex = 17342;
 
 	class ModifierForceKillConfig : public ::RPG::GameCore::JsonConfig
 	{

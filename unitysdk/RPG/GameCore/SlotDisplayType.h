@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SlotDisplayType_TypeDefinitionIndex = 13745;
+	inline static constexpr unsigned int SlotDisplayType_TypeDefinitionIndex = 13813;
 
 	enum class SlotDisplayType : ::System::Int32
 	{

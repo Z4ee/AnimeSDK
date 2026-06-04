@@ -6,29 +6,29 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAGALLERYTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18808B60)
-#define RPG_GAMECORE_CHIMERAGALLERYTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18808DA0)
+#define RPG_GAMECORE_CHIMERAGALLERYTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1964A2B0)
+#define RPG_GAMECORE_CHIMERAGALLERYTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1964A4F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraGalleryTalkRow_TypeDefinitionIndex = 12334;
+	inline static constexpr unsigned int ChimeraGalleryTalkRow_TypeDefinitionIndex = 12422;
 
 	class ChimeraGalleryTalkRow : public ::System::Object
 	{
 	public:
-		::System::Single Sort; // 0x10
-		::RPG::GameCore::ChimeraTalkConditionType ConditionType; // 0x14
-		::RPG::Client::TextID Title; // 0x18
-		::RPG::Client::TextID NumberedTitle; // 0x28
+		::RPG::Client::TextID Title; // 0x10
+		::RPG::Client::TextID NumberedTitle; // 0x20
+		::RPG::GameCore::ChimeraTalkConditionType ConditionType; // 0x30
+		::System::Single Sort; // 0x34
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAGALLERYTALKROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ChimeraGalleryTalkRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraGalleryTalkRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraGalleryTalkRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAGALLERYTALKROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraGalleryTalkRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAGALLERYTALKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

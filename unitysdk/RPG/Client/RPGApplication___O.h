@@ -6,14 +6,14 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGApplication___O_TypeDefinitionIndex = 64039;
+	inline static constexpr unsigned int RPGApplication___O_TypeDefinitionIndex = 64960;
 
 	class RPGApplication___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0___Quit()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RPGApplication___O_TypeDefinitionIndex)->GetStaticField(0x11140);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RPGApplication___O_TypeDefinitionIndex)->GetStaticField(0x27260);
 		}
 	};
 }

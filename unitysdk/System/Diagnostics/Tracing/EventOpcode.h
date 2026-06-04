@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventOpcode_TypeDefinitionIndex = 1705;
+	inline static constexpr unsigned int EventOpcode_TypeDefinitionIndex = 1703;
 
 	enum class EventOpcode : ::System::Int32
 	{

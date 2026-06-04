@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueGambleMachineType_TypeDefinitionIndex = 10395;
+	inline static constexpr unsigned int RogueGambleMachineType_TypeDefinitionIndex = 10228;
 
 	enum class RogueGambleMachineType : ::System::Int32
 	{

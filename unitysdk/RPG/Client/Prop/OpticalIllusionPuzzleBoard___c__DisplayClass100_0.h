@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Prop { class OpticalIllusionPuzzleBoard_Class_1_29346FA79C775DFC_1; }
 
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAE751D0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_0___BFS_B__0_OFFSET UNITYSDK_OFFSET(0xAE75B50)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5B97F0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_0___BFS_B__0_OFFSET UNITYSDK_OFFSET(0xC5BA130)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass100_0_TypeDefinitionIndex = 72202;
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass100_0_TypeDefinitionIndex = 73224;
 
 	class OpticalIllusionPuzzleBoard___c__DisplayClass100_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __BFS_b__0(::System::UInt32 i)
+		::System::Void __BFS_b__0(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_0___BFS_B__0_OFFSET))(this, i);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_0___BFS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

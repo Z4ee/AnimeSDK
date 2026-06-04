@@ -5,12 +5,12 @@
 
 namespace RPG::CustomRP { class CaptureScene; }
 
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18121F80)
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0___CAPTURESCENEOUTPUTCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x18121F90)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC4460)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0___CAPTURESCENEOUTPUTCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x18EC4470)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureScene___c__DisplayClass13_0_TypeDefinitionIndex = 34988;
+	inline static constexpr unsigned int CaptureScene___c__DisplayClass13_0_TypeDefinitionIndex = 35273;
 
 	class CaptureScene___c__DisplayClass13_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __CaptureSceneOutputCoroutine_b__0(::UnityEngine::Rendering::AsyncGPUReadbackRequest request)
+		::System::Void __CaptureSceneOutputCoroutine_b__0(::UnityEngine::Rendering::AsyncGPUReadbackRequest a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::AsyncGPUReadbackRequest))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0___CAPTURESCENEOUTPUTCOROUTINE_B__0_OFFSET))(this, request);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::AsyncGPUReadbackRequest))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0___CAPTURESCENEOUTPUTCOROUTINE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

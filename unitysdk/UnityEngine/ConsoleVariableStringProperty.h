@@ -6,20 +6,20 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define UNITYENGINE_CONSOLEVARIABLESTRINGPROPERTY_GET_STRINGVALUE_OFFSET UNITYSDK_OFFSET(0x22E3740)
-#define UNITYENGINE_CONSOLEVARIABLESTRINGPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x22E3750)
+#define UNITYENGINE_CONSOLEVARIABLESTRINGPROPERTY_GET_STRINGVALUE_OFFSET UNITYSDK_OFFSET(0x3880490)
+#define UNITYENGINE_CONSOLEVARIABLESTRINGPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x38804A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ConsoleVariableStringProperty_TypeDefinitionIndex = 3871;
+	inline static constexpr unsigned int ConsoleVariableStringProperty_TypeDefinitionIndex = 4045;
 
 	struct alignas(8) ConsoleVariableStringProperty
 	{
 		::UnityEngine::ConsoleVariableProperty property; // 0x10
 
-		::System::Void _ctor(::System::String* name, ::System::String* description, ::System::String* defaultValue, ::System::Action* onValueChanged)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLESTRINGPROPERTY__CTOR_OFFSET))(this, name, description, defaultValue, onValueChanged);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONSOLEVARIABLESTRINGPROPERTY__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::String* get_StringValue()

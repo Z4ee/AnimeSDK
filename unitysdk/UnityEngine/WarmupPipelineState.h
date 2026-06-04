@@ -13,7 +13,7 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WarmupPipelineState_TypeDefinitionIndex = 4191;
+	inline static constexpr unsigned int WarmupPipelineState_TypeDefinitionIndex = 4365;
 
 	struct alignas(8) WarmupPipelineState
 	{

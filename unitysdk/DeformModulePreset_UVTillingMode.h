@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DeformModulePreset_UVTillingMode_TypeDefinitionIndex = 43956;
+inline static constexpr unsigned int DeformModulePreset_UVTillingMode_TypeDefinitionIndex = 44502;
 
 enum class DeformModulePreset_UVTillingMode : ::System::Int32
 {

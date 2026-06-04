@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1761BEA0)
-#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1761BF10)
-#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1761B990)
-#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1761BE80)
+#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x183FB630)
+#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x183FB6A0)
+#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x183FB3D0)
+#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x183FB5C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PopupDialog_OnSelectedDelegate_TypeDefinitionIndex = 7050;
+	inline static constexpr unsigned int PopupDialog_OnSelectedDelegate_TypeDefinitionIndex = 7953;
 
 	class PopupDialog_OnSelectedDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::PopupDialog_SelectedResult result)
+		::System::Void Invoke(::MiHoYo::SDK::PopupDialog_SelectedResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PopupDialog_SelectedResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_INVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PopupDialog_SelectedResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::PopupDialog_SelectedResult result, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::PopupDialog_SelectedResult a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::PopupDialog_SelectedResult, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_BEGININVOKE_OFFSET))(this, result, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::PopupDialog_SelectedResult, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

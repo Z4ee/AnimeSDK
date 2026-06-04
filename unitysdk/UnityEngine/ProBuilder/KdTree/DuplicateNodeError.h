@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define UNITYENGINE_PROBUILDER_KDTREE_DUPLICATENODEERROR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EA400)
+#define UNITYENGINE_PROBUILDER_KDTREE_DUPLICATENODEERROR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B04EBE0)
 
 namespace UnityEngine::ProBuilder::KdTree
 {
-	inline static constexpr unsigned int DuplicateNodeError_TypeDefinitionIndex = 35483;
+	inline static constexpr unsigned int DuplicateNodeError_TypeDefinitionIndex = 35783;
 
 	class DuplicateNodeError : public ::System::Exception
 	{

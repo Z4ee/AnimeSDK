@@ -6,24 +6,24 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Event; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETUNITYKEYCODE_OFFSET UNITYSDK_OFFSET(0x1A6C6180)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETWINDOWSKEYCODE_OFFSET UNITYSDK_OFFSET(0x1A6C5FB0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6C44B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETUNITYKEYCODE_OFFSET UNITYSDK_OFFSET(0x1B502E60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETWINDOWSKEYCODE_OFFSET UNITYSDK_OFFSET(0x1B502CA0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5011D0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int KeyMappings_TypeDefinitionIndex = 36274;
+	inline static constexpr unsigned int KeyMappings_TypeDefinitionIndex = 36574;
 
 	class KeyMappings : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Int32>** StaticGet_mappings()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(KeyMappings_TypeDefinitionIndex)->GetStaticField(0x6A3E0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::KeyCode>** StaticGet_reverseMappings()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::KeyCode>**)Il2CppClass::FromTypeDefinitionIndex(KeyMappings_TypeDefinitionIndex)->GetStaticField(0x6A3E8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::KeyCode>**)Il2CppClass::FromTypeDefinitionIndex(KeyMappings_TypeDefinitionIndex)->GetStaticField(0x65AE0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Int32>** StaticGet_mappings()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(KeyMappings_TypeDefinitionIndex)->GetStaticField(0x65AE8);
 		}
 
 		static ::System::Void _cctor()
@@ -31,14 +31,14 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS__CCTOR_OFFSET))();
 		}
 
-		static ::System::Int32 GetWindowsKeyCode(::UnityEngine::Event* ev)
+		static ::System::Int32 GetWindowsKeyCode(::UnityEngine::Event* a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Event*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETWINDOWSKEYCODE_OFFSET))(ev);
+			return ((::System::Int32(*)(::UnityEngine::Event*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETWINDOWSKEYCODE_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::KeyCode GetUnityKeyCode(::System::Int32 windowsKeyCode)
+		static ::UnityEngine::KeyCode GetUnityKeyCode(::System::Int32 a1)
 		{
-			return ((::UnityEngine::KeyCode(*)(::System::Int32))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETUNITYKEYCODE_OFFSET))(windowsKeyCode);
+			return ((::UnityEngine::KeyCode(*)(::System::Int32))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETUNITYKEYCODE_OFFSET))(a1);
 		}
 	};
 }

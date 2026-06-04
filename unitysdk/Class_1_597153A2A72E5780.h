@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_597153A2A72E5780_GET_ISINCREASE_OFFSET UNITYSDK_OFFSET(0xCD1E590)
-#define CLASS_1_597153A2A72E5780_GET_TARGETID_OFFSET UNITYSDK_OFFSET(0xCD1E5D0)
-#define CLASS_1_597153A2A72E5780_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xCD1E5B0)
-#define CLASS_1_597153A2A72E5780_SET_ISINCREASE_OFFSET UNITYSDK_OFFSET(0xCD1E5A0)
-#define CLASS_1_597153A2A72E5780_SET_TARGETID_OFFSET UNITYSDK_OFFSET(0xCD1E5E0)
-#define CLASS_1_597153A2A72E5780_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xCD1E5C0)
-#define CLASS_1_597153A2A72E5780__CTOR_OFFSET UNITYSDK_OFFSET(0xCD1E5F0)
+#define CLASS_1_597153A2A72E5780_GET_ISINCREASE_OFFSET UNITYSDK_OFFSET(0x14202AE0)
+#define CLASS_1_597153A2A72E5780_GET_TARGETID_OFFSET UNITYSDK_OFFSET(0x14202B20)
+#define CLASS_1_597153A2A72E5780_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x14202B00)
+#define CLASS_1_597153A2A72E5780_SET_ISINCREASE_OFFSET UNITYSDK_OFFSET(0x14202AF0)
+#define CLASS_1_597153A2A72E5780_SET_TARGETID_OFFSET UNITYSDK_OFFSET(0x14202B30)
+#define CLASS_1_597153A2A72E5780_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x14202B10)
+#define CLASS_1_597153A2A72E5780__CTOR_OFFSET UNITYSDK_OFFSET(0x14202B40)
 
-inline static constexpr unsigned int Class_1_597153A2A72E5780_TypeDefinitionIndex = 61502;
+inline static constexpr unsigned int Class_1_597153A2A72E5780_TypeDefinitionIndex = 62435;
 
 class Class_1_597153A2A72E5780 : public ::System::Object
 {
 public:
-	::System::UInt32 _TargetID_k__BackingField; // 0x10
+	::System::UInt32 _Value_k__BackingField; // 0x10
 	::System::Boolean _IsIncrease_k__BackingField; // 0x14
-	::System::UInt32 _Value_k__BackingField; // 0x18
+	::System::UInt32 _TargetID_k__BackingField; // 0x18
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
 	{
@@ -29,9 +29,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_597153A2A72E5780_GET_ISINCREASE_OFFSET))(this);
 	}
 
-	::System::Void set_IsIncrease(::System::Boolean value)
+	::System::Void set_IsIncrease(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_597153A2A72E5780_SET_ISINCREASE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_597153A2A72E5780_SET_ISINCREASE_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_Value()
@@ -39,9 +39,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_597153A2A72E5780_GET_VALUE_OFFSET))(this);
 	}
 
-	::System::Void set_Value(::System::UInt32 value)
+	::System::Void set_Value(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_597153A2A72E5780_SET_VALUE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_597153A2A72E5780_SET_VALUE_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_TargetID()
@@ -49,8 +49,8 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_597153A2A72E5780_GET_TARGETID_OFFSET))(this);
 	}
 
-	::System::Void set_TargetID(::System::UInt32 value)
+	::System::Void set_TargetID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_597153A2A72E5780_SET_TARGETID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_597153A2A72E5780_SET_TARGETID_OFFSET))(this, a1);
 	}
 };

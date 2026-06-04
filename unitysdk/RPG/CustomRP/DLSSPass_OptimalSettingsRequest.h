@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/NVIDIA/OptimalDLSSSettingsData.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define RPG_CUSTOMRP_DLSSPASS_OPTIMALSETTINGSREQUEST_CANFIT_OFFSET UNITYSDK_OFFSET(0x22B8D20)
+#define RPG_CUSTOMRP_DLSSPASS_OPTIMALSETTINGSREQUEST_CANFIT_OFFSET UNITYSDK_OFFSET(0x3849A20)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass_OptimalSettingsRequest_TypeDefinitionIndex = 34946;
+	inline static constexpr unsigned int DLSSPass_OptimalSettingsRequest_TypeDefinitionIndex = 35229;
 
 	struct alignas(4) DLSSPass_OptimalSettingsRequest
 	{
@@ -18,9 +18,9 @@ namespace RPG::CustomRP
 		::UnityEngine::NVIDIA::OptimalDLSSSettingsData optimalSettings; // 0x24
 
 		/*
-		::System::Boolean CanFit(::RPG::CustomRP::DLSSPass_Resolution rect)
+		::System::Boolean CanFit(::RPG::CustomRP::DLSSPass_Resolution a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::CustomRP::DLSSPass_Resolution))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_OPTIMALSETTINGSREQUEST_CANFIT_OFFSET))(this, rect);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::CustomRP::DLSSPass_Resolution))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_OPTIMALSETTINGSREQUEST_CANFIT_OFFSET))(this, a1);
 		}
 		*/
 	};

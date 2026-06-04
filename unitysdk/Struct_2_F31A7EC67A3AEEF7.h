@@ -5,7 +5,6 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/DisablePlayerMoveReason.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/EnterDashReason.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/LandingLevel.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/PauseRecordResetPositionReason.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 #include "unitysdk/Struct_2_241BF863AE3123B3.h"
 #include "unitysdk/Struct_2_52A902145F5BE51F_1.h"
@@ -27,30 +26,30 @@ namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class Transform; }
 
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_0A0296D150EB9DA4_OFFSET UNITYSDK_OFFSET(0x22B1B80)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0x22B25C0)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x22B1A70)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_4E8DF6F8A37B229A_1_OFFSET UNITYSDK_OFFSET(0x22B1F70)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_4E8DF6F8A37B229A_2_OFFSET UNITYSDK_OFFSET(0x22B2150)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_4E8DF6F8A37B229A_3_OFFSET UNITYSDK_OFFSET(0x22B2330)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_4E8DF6F8A37B229A_4_OFFSET UNITYSDK_OFFSET(0x22B2510)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_4E8DF6F8A37B229A_OFFSET UNITYSDK_OFFSET(0x22B1D90)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_7DFB4B9C80198D98_1_OFFSET UNITYSDK_OFFSET(0x22B1BC0)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_7DFB4B9C80198D98_OFFSET UNITYSDK_OFFSET(0x22B1BA0)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_B22F293B7893A372_OFFSET UNITYSDK_OFFSET(0x22B2550)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_C21A7AC6282FB0D0_1_OFFSET UNITYSDK_OFFSET(0x22B19D0)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_C21A7AC6282FB0D0_2_OFFSET UNITYSDK_OFFSET(0x22B1A20)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_C21A7AC6282FB0D0_OFFSET UNITYSDK_OFFSET(0x22B1980)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_C34AC80B04BCFF1B_OFFSET UNITYSDK_OFFSET(0x22B1AD0)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F0088C88851A7DFB_1_OFFSET UNITYSDK_OFFSET(0x22B2640)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x22B2540)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F10A0D072D26C4BF_1_OFFSET UNITYSDK_OFFSET(0x22B1DC0)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F10A0D072D26C4BF_2_OFFSET UNITYSDK_OFFSET(0x22B1FA0)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F10A0D072D26C4BF_3_OFFSET UNITYSDK_OFFSET(0x22B2180)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F10A0D072D26C4BF_4_OFFSET UNITYSDK_OFFSET(0x22B2360)
-#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x22B1BE0)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_0A0296D150EB9DA4_OFFSET UNITYSDK_OFFSET(0x3847970)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0x38483B0)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x3847860)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_4E8DF6F8A37B229A_1_OFFSET UNITYSDK_OFFSET(0x3847D60)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_4E8DF6F8A37B229A_2_OFFSET UNITYSDK_OFFSET(0x3847F40)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_4E8DF6F8A37B229A_3_OFFSET UNITYSDK_OFFSET(0x3848120)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_4E8DF6F8A37B229A_4_OFFSET UNITYSDK_OFFSET(0x3848300)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_4E8DF6F8A37B229A_OFFSET UNITYSDK_OFFSET(0x3847B80)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_7DFB4B9C80198D98_1_OFFSET UNITYSDK_OFFSET(0x38479B0)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_7DFB4B9C80198D98_OFFSET UNITYSDK_OFFSET(0x3847990)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_B22F293B7893A372_OFFSET UNITYSDK_OFFSET(0x3848340)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_C21A7AC6282FB0D0_1_OFFSET UNITYSDK_OFFSET(0x38477C0)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_C21A7AC6282FB0D0_2_OFFSET UNITYSDK_OFFSET(0x3847810)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_C21A7AC6282FB0D0_OFFSET UNITYSDK_OFFSET(0x3847770)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_C34AC80B04BCFF1B_OFFSET UNITYSDK_OFFSET(0x38478C0)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F0088C88851A7DFB_1_OFFSET UNITYSDK_OFFSET(0x3848430)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x3848330)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F10A0D072D26C4BF_1_OFFSET UNITYSDK_OFFSET(0x3847BB0)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F10A0D072D26C4BF_2_OFFSET UNITYSDK_OFFSET(0x3847D90)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F10A0D072D26C4BF_3_OFFSET UNITYSDK_OFFSET(0x3847F70)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F10A0D072D26C4BF_4_OFFSET UNITYSDK_OFFSET(0x3848150)
+#define STRUCT_2_F31A7EC67A3AEEF7_METHOD_2_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x38479D0)
 
-inline static constexpr unsigned int Struct_2_F31A7EC67A3AEEF7_TypeDefinitionIndex = 39262;
+inline static constexpr unsigned int Struct_2_F31A7EC67A3AEEF7_TypeDefinitionIndex = 40031;
 
 struct alignas(8) Struct_2_F31A7EC67A3AEEF7
 {
@@ -130,123 +129,122 @@ struct alignas(8) Struct_2_F31A7EC67A3AEEF7
 	::RPG::PoolList_1<::System::Int32>* Field_2_73; // 0x440
 	::RPG::PoolList_1<::System::Int32>* Field_2_74; // 0x448
 	::Struct_2_C326D3DFDE2D8D31 Field_2_75; // 0x450
-	::RPG::PoolList_1<::Struct_2_C326D3DFDE2D8D31>* Field_2_76; // 0x4F0
-	::System::Single Field_2_77; // 0x4F8
-	::System::Boolean Field_2_78; // 0x4FC
-	::System::Boolean Field_2_79; // 0x4FD
-	::System::Boolean Field_2_80; // 0x4FE
-	::System::Boolean Field_2_81; // 0x4FF
-	::System::Boolean Field_2_82; // 0x500
-	::Struct_2_241BF863AE3123B3 Field_2_83; // 0x508
-	::Struct_2_241BF863AE3123B3 Field_2_84; // 0x558
-	::System::Boolean Field_2_85; // 0x5A8
-	::RPG::GameCore::FloatCurve* Field_2_86; // 0x5B0
-	::System::Single Field_2_87; // 0x5B8
-	::System::Single Field_2_88; // 0x5BC
-	::System::Single Field_2_89; // 0x5C0
-	::System::Boolean Field_2_90; // 0x5C4
-	::System::Boolean Field_2_91; // 0x5C5
-	::System::Boolean Field_2_92; // 0x5C6
-	::System::Boolean Field_2_93; // 0x5C7
-	::System::Boolean Field_2_94; // 0x5C8
-	::System::Single Field_2_95; // 0x5CC
-	::System::Boolean Field_2_96; // 0x5D0
-	::System::Single Field_2_97; // 0x5D4
-	::System::Boolean Field_2_98; // 0x5D8
-	::System::Single Field_2_99; // 0x5DC
-	::System::Boolean Field_2_100; // 0x5E0
-	::System::Single Field_2_101; // 0x5E4
-	::System::Boolean Field_2_102; // 0x5E8
-	::System::Int32 Field_2_103; // 0x5EC
-	::System::Int32 Field_2_104; // 0x5F0
-	::UnityEngine::Vector3 Field_2_105; // 0x5F4
-	::System::Boolean Field_2_106; // 0x600
-	::System::Int32 Field_2_107; // 0x604
-	::RPG::Client::LittleGame::FiveDim::EnterDashReason Field_2_108; // 0x608
-	::Struct_2_984AA94FB23486F9 Field_2_109; // 0x60C
-	::System::Boolean Field_2_110; // 0x624
-	::System::Boolean Field_2_111; // 0x625
-	::System::Single Field_2_112; // 0x628
-	::System::Single Field_2_113; // 0x62C
-	::System::Int32 Field_2_114; // 0x630
-	::UnityEngine::Vector3 Field_2_115; // 0x634
-	::UnityEngine::Vector2 Field_2_116; // 0x640
-	::System::Single Field_2_117; // 0x648
-	::System::Single Field_2_118; // 0x64C
-	::System::Boolean Field_2_119; // 0x650
-	::System::Boolean Field_2_120; // 0x651
-	::System::Boolean Field_2_121; // 0x652
-	::RPG::PoolList_1<::System::Int32>* Field_2_122; // 0x658
-	::System::Int32 Field_2_123; // 0x660
-	::System::Boolean Field_2_124; // 0x664
-	::System::Boolean Field_2_125; // 0x665
-	::System::Int32 Field_2_126; // 0x668
-	::Struct_2_EAC1BB0F093534A5 Field_2_127; // 0x66C
-	::UnityEngine::Transform* Field_2_128; // 0x6D8
-	::System::Boolean Field_2_129; // 0x6E0
-	::System::UInt32 Field_2_130; // 0x6E4
-	::Struct_2_EAC1BB0F093534A5 Field_2_131; // 0x6E8
-	::Struct_2_EAC1BB0F093534A5 Field_2_132; // 0x750
-	::System::UInt32 Field_2_133; // 0x7B8
-	::System::Int32 Field_2_134; // 0x7BC
-	::RPG::PoolList_1<::System::Int32>* Field_2_135; // 0x7C0
-	::System::Boolean Field_2_136; // 0x7C8
-	::System::Int32 Field_2_137; // 0x7CC
-	::System::Single Field_2_138; // 0x7D0
-	::System::Boolean Field_2_139; // 0x7D4
-	::UnityEngine::Vector3 Field_2_140; // 0x7D8
-	::UnityEngine::Vector3 Field_2_141; // 0x7E4
-	::System::Boolean Field_2_142; // 0x7F0
-	::System::Boolean Field_2_143; // 0x7F1
-	::System::Boolean Field_2_144; // 0x7F2
-	::UnityEngine::Vector3 Field_2_145; // 0x7F4
-	::UnityEngine::Vector3 Field_2_146; // 0x800
-	::System::Int32 Field_2_147; // 0x80C
-	::RPG::PoolList_1<::System::Int32>* Field_2_148; // 0x810
-	::UnityEngine::Vector3 Field_2_149; // 0x818
-	::System::Boolean Field_2_150; // 0x824
-	::System::Boolean Field_2_151; // 0x825
-	::Struct_2_B4E2525399EA69B7 Field_2_152; // 0x828
-	::System::Single Field_2_153; // 0x868
-	::RPG::Client::LittleGame::FiveDim::AcquireFiveDimPlayerBeatBackReason Field_2_154; // 0x86C
-	::RPG::Client::LittleGame::FiveDim::AcquireFiveDimPlayerBeatBackReason Field_2_155; // 0x870
-	::System::Boolean Field_2_156; // 0x874
-	::System::Single Field_2_157; // 0x878
-	::System::Single Field_2_158; // 0x87C
-	::Struct_2_52A902145F5BE51F_1 Field_2_159; // 0x880
-	::System::Single Field_2_160; // 0x8A4
-	::RPG::Client::LittleGame::FiveDim::AcquireFiveDimPlayerRebornReason Field_2_161; // 0x8A8
-	::System::Single Field_2_162; // 0x8AC
-	::System::Single Field_2_163; // 0x8B0
-	::System::Boolean Field_2_164; // 0x8B4
-	::System::Single Field_2_165; // 0x8B8
-	::System::Boolean Field_2_166; // 0x8BC
-	::System::Single Field_2_167; // 0x8C0
-	::RPG::PoolDictionary_2<::UnityEngine::Collider*, ::UnityEngine::Collision*>* Field_2_168; // 0x8C8
-	::RPG::PoolDictionary_2<::UnityEngine::Collider*, ::UnityEngine::Collision*>* Field_2_169; // 0x8D0
-	::System::Boolean Field_2_170; // 0x8D8
-	::System::Boolean Field_2_171; // 0x8D9
-	::System::Single Field_2_172; // 0x8DC
-	::System::Single Field_2_173; // 0x8E0
-	::System::Boolean Field_2_174; // 0x8E4
-	::RPG::Client::LittleGame::FiveDim::PauseRecordResetPositionReason Field_2_175; // 0x8E8
-	::System::Boolean Field_2_176; // 0x8EC
-	::System::Single Field_2_177; // 0x8F0
-	::System::Boolean Field_2_178; // 0x8F4
-	::System::Single Field_2_179; // 0x8F8
-	::System::Boolean Field_2_180; // 0x8FC
-	::System::Boolean Field_2_181; // 0x8FD
-	::System::Boolean Field_2_182; // 0x8FE
-	::System::Boolean Field_2_183; // 0x8FF
-	::System::Boolean Field_2_184; // 0x900
-	::UnityEngine::Vector2 Field_2_185; // 0x904
-	::System::Int32 Field_2_186; // 0x90C
-	::System::Single Field_2_187; // 0x910
-	::System::Single Field_2_188; // 0x914
-	::System::Boolean Field_2_189; // 0x918
-	::System::Single Field_2_190; // 0x91C
-	::System::Boolean Field_2_191; // 0x920
-	::System::UInt32 Field_2_192; // 0x924
+	::RPG::PoolList_1<::Struct_2_C326D3DFDE2D8D31>* Field_2_76; // 0x558
+	::System::Single Field_2_77; // 0x560
+	::System::Boolean Field_2_78; // 0x564
+	::System::Boolean Field_2_79; // 0x565
+	::System::Boolean Field_2_80; // 0x566
+	::System::Boolean Field_2_81; // 0x567
+	::System::Boolean Field_2_82; // 0x568
+	::Struct_2_241BF863AE3123B3 Field_2_83; // 0x570
+	::Struct_2_241BF863AE3123B3 Field_2_84; // 0x5C0
+	::System::Boolean Field_2_85; // 0x610
+	::RPG::GameCore::FloatCurve* Field_2_86; // 0x618
+	::System::Single Field_2_87; // 0x620
+	::System::Single Field_2_88; // 0x624
+	::System::Single Field_2_89; // 0x628
+	::System::Boolean Field_2_90; // 0x62C
+	::System::Boolean Field_2_91; // 0x62D
+	::System::Boolean Field_2_92; // 0x62E
+	::System::Boolean Field_2_93; // 0x62F
+	::System::Boolean Field_2_94; // 0x630
+	::System::Single Field_2_95; // 0x634
+	::System::Boolean Field_2_96; // 0x638
+	::System::Single Field_2_97; // 0x63C
+	::System::Boolean Field_2_98; // 0x640
+	::System::Single Field_2_99; // 0x644
+	::System::Boolean Field_2_100; // 0x648
+	::System::Single Field_2_101; // 0x64C
+	::System::Boolean Field_2_102; // 0x650
+	::System::Int32 Field_2_103; // 0x654
+	::System::Int32 Field_2_104; // 0x658
+	::UnityEngine::Vector3 Field_2_105; // 0x65C
+	::System::Boolean Field_2_106; // 0x668
+	::System::Int32 Field_2_107; // 0x66C
+	::RPG::Client::LittleGame::FiveDim::EnterDashReason Field_2_108; // 0x670
+	::Struct_2_984AA94FB23486F9 Field_2_109; // 0x674
+	::System::Boolean Field_2_110; // 0x68C
+	::System::Boolean Field_2_111; // 0x68D
+	::System::Single Field_2_112; // 0x690
+	::System::Single Field_2_113; // 0x694
+	::System::Int32 Field_2_114; // 0x698
+	::UnityEngine::Vector3 Field_2_115; // 0x69C
+	::UnityEngine::Vector2 Field_2_116; // 0x6A8
+	::System::Single Field_2_117; // 0x6B0
+	::System::Single Field_2_118; // 0x6B4
+	::System::Boolean Field_2_119; // 0x6B8
+	::System::Boolean Field_2_120; // 0x6B9
+	::System::Boolean Field_2_121; // 0x6BA
+	::RPG::PoolList_1<::System::Int32>* Field_2_122; // 0x6C0
+	::System::Int32 Field_2_123; // 0x6C8
+	::System::Boolean Field_2_124; // 0x6CC
+	::System::Boolean Field_2_125; // 0x6CD
+	::System::Int32 Field_2_126; // 0x6D0
+	::Struct_2_EAC1BB0F093534A5 Field_2_127; // 0x6D4
+	::UnityEngine::Transform* Field_2_128; // 0x740
+	::System::Boolean Field_2_129; // 0x748
+	::System::UInt32 Field_2_130; // 0x74C
+	::Struct_2_EAC1BB0F093534A5 Field_2_131; // 0x750
+	::Struct_2_EAC1BB0F093534A5 Field_2_132; // 0x7B8
+	::System::UInt32 Field_2_133; // 0x820
+	::System::Int32 Field_2_134; // 0x824
+	::RPG::PoolList_1<::System::Int32>* Field_2_135; // 0x828
+	::System::Boolean Field_2_136; // 0x830
+	::System::Int32 Field_2_137; // 0x834
+	::System::Single Field_2_138; // 0x838
+	::System::Boolean Field_2_139; // 0x83C
+	::UnityEngine::Vector3 Field_2_140; // 0x840
+	::UnityEngine::Vector3 Field_2_141; // 0x84C
+	::System::Boolean Field_2_142; // 0x858
+	::System::Boolean Field_2_143; // 0x859
+	::System::Boolean Field_2_144; // 0x85A
+	::UnityEngine::Vector3 Field_2_145; // 0x85C
+	::UnityEngine::Vector3 Field_2_146; // 0x868
+	::System::Int32 Field_2_147; // 0x874
+	::RPG::PoolList_1<::System::Int32>* Field_2_148; // 0x878
+	::UnityEngine::Vector3 Field_2_149; // 0x880
+	::System::Boolean Field_2_150; // 0x88C
+	::System::Boolean Field_2_151; // 0x88D
+	::Struct_2_B4E2525399EA69B7 Field_2_152; // 0x890
+	::System::Single Field_2_153; // 0x8D0
+	::RPG::Client::LittleGame::FiveDim::AcquireFiveDimPlayerBeatBackReason Field_2_154; // 0x8D4
+	::RPG::Client::LittleGame::FiveDim::AcquireFiveDimPlayerBeatBackReason Field_2_155; // 0x8D8
+	::System::Boolean Field_2_156; // 0x8DC
+	::System::Single Field_2_157; // 0x8E0
+	::System::Single Field_2_158; // 0x8E4
+	::Struct_2_52A902145F5BE51F_1 Field_2_159; // 0x8E8
+	::System::Single Field_2_160; // 0x90C
+	::RPG::Client::LittleGame::FiveDim::AcquireFiveDimPlayerRebornReason Field_2_161; // 0x910
+	::System::Single Field_2_162; // 0x914
+	::System::Single Field_2_163; // 0x918
+	::System::Boolean Field_2_164; // 0x91C
+	::System::Single Field_2_165; // 0x920
+	::System::Boolean Field_2_166; // 0x924
+	::System::Single Field_2_167; // 0x928
+	::RPG::PoolDictionary_2<::UnityEngine::Collider*, ::UnityEngine::Collision*>* Field_2_168; // 0x930
+	::RPG::PoolDictionary_2<::UnityEngine::Collider*, ::UnityEngine::Collision*>* Field_2_169; // 0x938
+	::System::Boolean Field_2_170; // 0x940
+	::System::Boolean Field_2_171; // 0x941
+	::System::Single Field_2_172; // 0x944
+	::System::Single Field_2_173; // 0x948
+	::System::Boolean Field_2_174; // 0x94C
+	::System::Boolean Field_2_175; // 0x94D
+	::System::Single Field_2_176; // 0x950
+	::System::Boolean Field_2_177; // 0x954
+	::System::Single Field_2_178; // 0x958
+	::System::Boolean Field_2_179; // 0x95C
+	::System::Boolean Field_2_180; // 0x95D
+	::System::Boolean Field_2_181; // 0x95E
+	::System::Boolean Field_2_182; // 0x95F
+	::System::Boolean Field_2_183; // 0x960
+	::UnityEngine::Vector2 Field_2_184; // 0x964
+	::System::Int32 Field_2_185; // 0x96C
+	::System::Single Field_2_186; // 0x970
+	::System::Single Field_2_187; // 0x974
+	::System::Boolean Field_2_188; // 0x978
+	::System::Single Field_2_189; // 0x97C
+	::System::Boolean Field_2_190; // 0x980
+	::System::UInt32 Field_2_191; // 0x984
 
 	::UnityEngine::Vector2 Method_2_C21A7AC6282FB0D0()
 	{

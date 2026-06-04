@@ -5,12 +5,12 @@
 namespace RPG::Client { class MissionChronicleSubPathData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA8B3060)
-#define RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS26_0___SETCONNECTIONWAYDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA8B3CD0)
+#define RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFFDBC0)
+#define RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS26_0___SETCONNECTIONWAYDATA_B__0_OFFSET UNITYSDK_OFFSET(0xBFFE8A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionChronicleMainPathData___c__DisplayClass26_0_TypeDefinitionIndex = 60851;
+	inline static constexpr unsigned int MissionChronicleMainPathData___c__DisplayClass26_0_TypeDefinitionIndex = 61785;
 
 	class MissionChronicleMainPathData___c__DisplayClass26_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS26_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __SetConnectionWayData_b__0(::RPG::Client::MissionChronicleSubPathData* p)
+		::System::Boolean __SetConnectionWayData_b__0(::RPG::Client::MissionChronicleSubPathData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MissionChronicleSubPathData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS26_0___SETCONNECTIONWAYDATA_B__0_OFFSET))(this, p);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MissionChronicleSubPathData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA___C__DISPLAYCLASS26_0___SETCONNECTIONWAYDATA_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,43 +4,43 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_03EB5D6C771FDB13;
-class Class_2_6D901FCC8D1C685B;
 namespace Proto { class ItemList; }
+namespace RPG::Client { class ActivityBenefitV2Round; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_ADD_ONCLAIMREWARDFINISHED_OFFSET UNITYSDK_OFFSET(0x9AC7800)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_CLAIMREWARD_OFFSET UNITYSDK_OFFSET(0x9AC75C0)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x9AC7070)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9AC7470)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x9AC6EE0)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x9AC6D50)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_ISREWARDCLAIMED_OFFSET UNITYSDK_OFFSET(0x9AC7020)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x9AC7000)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x9AC6E10)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET__PRIZE_OFFSET UNITYSDK_OFFSET(0x9AC6D60)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_REMOVE_ONCLAIMREWARDFINISHED_OFFSET UNITYSDK_OFFSET(0x9AC7860)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0x9AC7010)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x9AC7290)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL__ONCLAIMREWARDFINISHED_OFFSET UNITYSDK_OFFSET(0x9AC7760)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_ADD_ONCLAIMREWARDFINISHED_OFFSET UNITYSDK_OFFSET(0xB0A8B90)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_CLAIMREWARD_OFFSET UNITYSDK_OFFSET(0xB0A8940)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xB0A83B0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB0A87C0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0xB0A8260)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xB0A80D0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_ISREWARDCLAIMED_OFFSET UNITYSDK_OFFSET(0xB0A8390)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xB0A8370)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xB0A8190)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET__PRIZE_OFFSET UNITYSDK_OFFSET(0xB0A80E0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_REMOVE_ONCLAIMREWARDFINISHED_OFFSET UNITYSDK_OFFSET(0xB0A8BF0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0xB0A8380)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB0A85D0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL__ONCLAIMREWARDFINISHED_OFFSET UNITYSDK_OFFSET(0xB0A8AE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityBenefitV2RoundDetailViewModel_TypeDefinitionIndex = 56641;
+	inline static constexpr unsigned int ActivityBenefitV2RoundDetailViewModel_TypeDefinitionIndex = 57418;
 
 	class ActivityBenefitV2RoundDetailViewModel : public ::System::Object
 	{
 	public:
-		::Class_2_6D901FCC8D1C685B* _Round; // 0x10
+		::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>* OnClaimRewardFinished; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _Items_k__BackingField; // 0x18
-		::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>* OnClaimRewardFinished; // 0x20
-		::System::Boolean IsSpecialPrize; // 0x28
-		::System::Int32 _Index_k__BackingField; // 0x2C
+		::RPG::Client::ActivityBenefitV2Round* _Round; // 0x20
+		::System::Int32 _Index_k__BackingField; // 0x28
+		::System::Boolean IsSpecialPrize; // 0x2C
 
-		::System::Void _ctor(::System::Int32 roundIndex, ::Class_2_6D901FCC8D1C685B* round, ::System::Boolean isSpecialPrize)
+		::System::Void _ctor(::System::Int32 a1, ::RPG::Client::ActivityBenefitV2Round* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Class_2_6D901FCC8D1C685B*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL__CTOR_OFFSET))(this, roundIndex, round, isSpecialPrize);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::ActivityBenefitV2Round*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_Index()
@@ -68,9 +68,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_ITEMS_OFFSET))(this);
 		}
 
-		::System::Void set_Items(::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* value)
+		::System::Void set_Items(::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_SET_ITEMS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_SET_ITEMS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsRewardClaimed()
@@ -78,9 +78,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_GET_ISREWARDCLAIMED_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ActivityBenefitV2RoundDetailViewModel* Create(::System::Int32 roundIndex)
+		static ::RPG::Client::ActivityBenefitV2RoundDetailViewModel* Create(::System::Int32 a1)
 		{
-			return ((::RPG::Client::ActivityBenefitV2RoundDetailViewModel*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_CREATE_OFFSET))(roundIndex);
+			return ((::RPG::Client::ActivityBenefitV2RoundDetailViewModel*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_CREATE_OFFSET))(a1);
 		}
 
 		::System::Void Dispose()
@@ -93,19 +93,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_CLAIMREWARD_OFFSET))(this);
 		}
 
-		::System::Void _OnClaimRewardFinished(::System::Int32 roundIndex, ::Proto::ItemList* itemList)
+		::System::Void _OnClaimRewardFinished(::System::Int32 a1, ::Proto::ItemList* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL__ONCLAIMREWARDFINISHED_OFFSET))(this, roundIndex, itemList);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL__ONCLAIMREWARDFINISHED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void add_OnClaimRewardFinished(::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>* value)
+		::System::Void add_OnClaimRewardFinished(::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_ADD_ONCLAIMREWARDFINISHED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_ADD_ONCLAIMREWARDFINISHED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnClaimRewardFinished(::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>* value)
+		::System::Void remove_OnClaimRewardFinished(::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_REMOVE_ONCLAIMREWARDFINISHED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDDETAILVIEWMODEL_REMOVE_ONCLAIMREWARDFINISHED_OFFSET))(this, a1);
 		}
 	};
 }

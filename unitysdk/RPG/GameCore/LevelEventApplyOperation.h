@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/OperationTypeMask.h"
 
-#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6D8250)
-#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6D82F0)
-#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6D82A0)
-#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_INIT_OFFSET UNITYSDK_OFFSET(0xB6D8200)
-#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D8340)
-#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6D8350)
+#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_CLEAR_OFFSET UNITYSDK_OFFSET(0xCE46190)
+#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE46230)
+#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE461E0)
+#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_INIT_OFFSET UNITYSDK_OFFSET(0xCE46140)
+#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0xCE46280)
+#define RPG_GAMECORE_LEVELEVENTAPPLYOPERATION___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xCE46290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEventApplyOperation_TypeDefinitionIndex = 52356;
+	inline static constexpr unsigned int LevelEventApplyOperation_TypeDefinitionIndex = 53053;
 
-	class LevelEventApplyOperation : public ::Class_1_9988289E7F8AA214
+	class LevelEventApplyOperation : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::OperationTypeMask OperationMask; // 0x18
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVENTAPPLYOPERATION__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelEventApplyOperation* Init(::RPG::GameCore::OperationTypeMask opMask)
+		::RPG::GameCore::LevelEventApplyOperation* Init(::RPG::GameCore::OperationTypeMask a1)
 		{
-			return ((::RPG::GameCore::LevelEventApplyOperation*(*)(::PVOID, ::RPG::GameCore::OperationTypeMask))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_INIT_OFFSET))(this, opMask);
+			return ((::RPG::GameCore::LevelEventApplyOperation*(*)(::PVOID, ::RPG::GameCore::OperationTypeMask))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVENTAPPLYOPERATION_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()

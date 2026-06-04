@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace System { class Uri; }
 
-#define SYSTEM_URIBUILDER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A1B1A40)
-#define SYSTEM_URIBUILDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A1B1AA0)
-#define SYSTEM_URIBUILDER_GET_QUERY_OFFSET UNITYSDK_OFFSET(0x1A1B1380)
-#define SYSTEM_URIBUILDER_GET_URI_OFFSET UNITYSDK_OFFSET(0x1A1B1570)
-#define SYSTEM_URIBUILDER_INIT_OFFSET UNITYSDK_OFFSET(0x1A1B0E60)
-#define SYSTEM_URIBUILDER_SETFIELDSFROMURI_OFFSET UNITYSDK_OFFSET(0x1A1B10A0)
-#define SYSTEM_URIBUILDER_SET_HOST_OFFSET UNITYSDK_OFFSET(0x1A1B11E0)
-#define SYSTEM_URIBUILDER_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1A1B1290)
-#define SYSTEM_URIBUILDER_SET_QUERY_OFFSET UNITYSDK_OFFSET(0x1A1B1390)
-#define SYSTEM_URIBUILDER_SET_SCHEME_OFFSET UNITYSDK_OFFSET(0x1A1B13E0)
-#define SYSTEM_URIBUILDER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A1B1600)
-#define SYSTEM_URIBUILDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A1B0CC0)
-#define SYSTEM_URIBUILDER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A1B0FB0)
-#define SYSTEM_URIBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B0C30)
+#define SYSTEM_URIBUILDER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B0145B0)
+#define SYSTEM_URIBUILDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B014610)
+#define SYSTEM_URIBUILDER_GET_QUERY_OFFSET UNITYSDK_OFFSET(0x1B013F90)
+#define SYSTEM_URIBUILDER_GET_URI_OFFSET UNITYSDK_OFFSET(0x1B014180)
+#define SYSTEM_URIBUILDER_INIT_OFFSET UNITYSDK_OFFSET(0x1B013A70)
+#define SYSTEM_URIBUILDER_SETFIELDSFROMURI_OFFSET UNITYSDK_OFFSET(0x1B013CB0)
+#define SYSTEM_URIBUILDER_SET_HOST_OFFSET UNITYSDK_OFFSET(0x1B013DF0)
+#define SYSTEM_URIBUILDER_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1B013EA0)
+#define SYSTEM_URIBUILDER_SET_QUERY_OFFSET UNITYSDK_OFFSET(0x1B013FA0)
+#define SYSTEM_URIBUILDER_SET_SCHEME_OFFSET UNITYSDK_OFFSET(0x1B013FF0)
+#define SYSTEM_URIBUILDER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B014210)
+#define SYSTEM_URIBUILDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B0138D0)
+#define SYSTEM_URIBUILDER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B013BC0)
+#define SYSTEM_URIBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B013840)
 
 namespace System
 {
@@ -27,14 +27,14 @@ namespace System
 	class UriBuilder : public ::System::Object
 	{
 	public:
-		::System::String* _schemeDelimiter; // 0x10
-		::System::String* _host; // 0x18
-		::System::String* _username; // 0x20
-		::System::String* _fragment; // 0x28
-		::System::String* _password; // 0x30
+		::System::String* _username; // 0x10
+		::System::String* _password; // 0x18
+		::System::String* _host; // 0x20
+		::System::String* _query; // 0x28
+		::System::String* _path; // 0x30
 		::System::String* _scheme; // 0x38
-		::System::String* _path; // 0x40
-		::System::String* _query; // 0x48
+		::System::String* _schemeDelimiter; // 0x40
+		::System::String* _fragment; // 0x48
 		::System::Uri* _uri; // 0x50
 		::System::Int32 _port; // 0x58
 		::System::Boolean _changed; // 0x5C
@@ -44,29 +44,29 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* uri)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER__CTOR_1_OFFSET))(this, uri);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Uri* uri)
+		::System::Void _ctor_2(::System::Uri* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER__CTOR_2_OFFSET))(this, uri);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER__CTOR_2_OFFSET))(this, a1);
 		}
 
-		::System::Void Init(::System::Uri* uri)
+		::System::Void Init(::System::Uri* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_INIT_OFFSET))(this, uri);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Host(::System::String* value)
+		::System::Void set_Host(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_SET_HOST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_SET_HOST_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Path(::System::String* value)
+		::System::Void set_Path(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_SET_PATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_SET_PATH_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Query()
@@ -74,14 +74,14 @@ namespace System
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_GET_QUERY_OFFSET))(this);
 		}
 
-		::System::Void set_Query(::System::String* value)
+		::System::Void set_Query(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_SET_QUERY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_SET_QUERY_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Scheme(::System::String* value)
+		::System::Void set_Scheme(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_SET_SCHEME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_SET_SCHEME_OFFSET))(this, a1);
 		}
 
 		::System::Uri* get_Uri()
@@ -89,9 +89,9 @@ namespace System
 			return ((::System::Uri*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_GET_URI_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* rparam)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_EQUALS_OFFSET))(this, rparam);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -99,9 +99,9 @@ namespace System
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Void SetFieldsFromUri(::System::Uri* uri)
+		::System::Void SetFieldsFromUri(::System::Uri* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_SETFIELDSFROMURI_OFFSET))(this, uri);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_URIBUILDER_SETFIELDSFROMURI_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

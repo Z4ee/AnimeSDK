@@ -4,10 +4,10 @@
 
 namespace System::IO::MemoryMappedFiles { class MemoryMappedView; }
 
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19EC2CC0)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x19EC2E00)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x19EC2C60)
-#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC2610)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AD39A60)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x1AD39BC0)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x1AD39A00)
+#define SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD39320)
 
 namespace System::IO::MemoryMappedFiles
 {
@@ -18,19 +18,19 @@ namespace System::IO::MemoryMappedFiles
 	public:
 		::System::IO::MemoryMappedFiles::MemoryMappedView* m_view; // 0x68
 
-		::System::Void _ctor(::System::IO::MemoryMappedFiles::MemoryMappedView* view)
+		::System::Void _ctor(::System::IO::MemoryMappedFiles::MemoryMappedView* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::MemoryMappedFiles::MemoryMappedView*))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM__CTOR_OFFSET))(this, view);
+			return ((::System::Void(*)(::PVOID, ::System::IO::MemoryMappedFiles::MemoryMappedView*))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetLength(::System::Int64 value)
+		::System::Void SetLength(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM_SETLENGTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM_SETLENGTH_OFFSET))(this, a1);
 		}
 
-		::System::Void Dispose(::System::Boolean disposing)
+		::System::Void Dispose(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM_DISPOSE_OFFSET))(this, disposing);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYMAPPEDFILES_MEMORYMAPPEDVIEWSTREAM_DISPOSE_OFFSET))(this, a1);
 		}
 
 		::System::Void Flush()

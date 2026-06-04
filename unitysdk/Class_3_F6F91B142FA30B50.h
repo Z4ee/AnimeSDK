@@ -6,10 +6,10 @@ class Class_2_9D4DD2F4235F8658;
 namespace RPG::GameCore { class ST_ByAIHangUp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F6F91B142FA30B50_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9A34B00)
-#define CLASS_3_F6F91B142FA30B50__CTOR_OFFSET UNITYSDK_OFFSET(0x9A34AA0)
+#define CLASS_3_F6F91B142FA30B50_EVALUATE_OFFSET UNITYSDK_OFFSET(0xAF3BBE0)
+#define CLASS_3_F6F91B142FA30B50__CTOR_OFFSET UNITYSDK_OFFSET(0xAF3BB80)
 
-inline static constexpr unsigned int Class_3_F6F91B142FA30B50_TypeDefinitionIndex = 48169;
+inline static constexpr unsigned int Class_3_F6F91B142FA30B50_TypeDefinitionIndex = 48793;
 
 class Class_3_F6F91B142FA30B50 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByAIHangUp*>
 {

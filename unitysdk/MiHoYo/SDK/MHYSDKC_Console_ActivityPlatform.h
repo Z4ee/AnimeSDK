@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Console_ActivityPlatform_TypeDefinitionIndex = 42759;
+	inline static constexpr unsigned int MHYSDKC_Console_ActivityPlatform_TypeDefinitionIndex = 43562;
 
 	enum class MHYSDKC_Console_ActivityPlatform : ::System::Int32
 	{

@@ -8,36 +8,36 @@ namespace System { class Object; }
 namespace System { class ResolveEventArgs; }
 namespace System::Reflection { class Module; }
 
-#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x179A4F20)
-#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x179A4F60)
-#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x179A4960)
-#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x179A4940)
+#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18756CD0)
+#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18756D10)
+#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x18756CC0)
+#define SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18756BD0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ModuleResolveEventHandler_TypeDefinitionIndex = 609;
+	inline static constexpr unsigned int ModuleResolveEventHandler_TypeDefinitionIndex = 608;
 
 	class ModuleResolveEventHandler : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Reflection::Module* Invoke(::System::Object* sender, ::System::ResolveEventArgs* e)
+		::System::Reflection::Module* Invoke(::System::Object* a1, ::System::ResolveEventArgs* a2)
 		{
-			return ((::System::Reflection::Module*(*)(::PVOID, ::System::Object*, ::System::ResolveEventArgs*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_INVOKE_OFFSET))(this, sender, e);
+			return ((::System::Reflection::Module*(*)(::PVOID, ::System::Object*, ::System::ResolveEventArgs*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::System::ResolveEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Object* a1, ::System::ResolveEventArgs* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::ResolveEventArgs*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_BEGININVOKE_OFFSET))(this, sender, e, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Object*, ::System::ResolveEventArgs*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Reflection::Module* EndInvoke(::System::IAsyncResult* result)
+		::System::Reflection::Module* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Reflection::Module*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Reflection::Module*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MODULERESOLVEEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

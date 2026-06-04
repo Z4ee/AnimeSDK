@@ -25,13 +25,13 @@ namespace RPG::GameCore { class TriggerValidGuestConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LEVELPROPINFO_METHOD_4_3E4A3F8653C9EDC8_OFFSET UNITYSDK_OFFSET(0x18A50BB0)
-#define RPG_GAMECORE_LEVELPROPINFO_METHOD_4_79E8BD454C31F2CD_OFFSET UNITYSDK_OFFSET(0x18A58660)
-#define RPG_GAMECORE_LEVELPROPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A50AE0)
+#define RPG_GAMECORE_LEVELPROPINFO_METHOD_4_8891414C4A335FB2_OFFSET UNITYSDK_OFFSET(0x19887670)
+#define RPG_GAMECORE_LEVELPROPINFO_METHOD_4_8A8E2471DB7D15B3_OFFSET UNITYSDK_OFFSET(0x198874B0)
+#define RPG_GAMECORE_LEVELPROPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x198875A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPropInfo_TypeDefinitionIndex = 16381;
+	inline static constexpr unsigned int LevelPropInfo_TypeDefinitionIndex = 16412;
 
 	class LevelPropInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
@@ -112,14 +112,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_79E8BD454C31F2CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPropInfo*& a2)
+		static ::System::Void Method_4_8A8E2471DB7D15B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPropInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPropInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPINFO_METHOD_4_79E8BD454C31F2CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPropInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPINFO_METHOD_4_8A8E2471DB7D15B3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_3E4A3F8653C9EDC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPropInfo* a2)
+		static ::System::Void Method_4_8891414C4A335FB2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPropInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPropInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPINFO_METHOD_4_3E4A3F8653C9EDC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPropInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPROPINFO_METHOD_4_8891414C4A335FB2_OFFSET))(a1, a2);
 		}
 	};
 }

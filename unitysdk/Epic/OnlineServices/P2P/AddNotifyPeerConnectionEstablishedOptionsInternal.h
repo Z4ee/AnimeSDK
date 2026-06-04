@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::P2P { class AddNotifyPeerConnectionEstablishedOp
 namespace Epic::OnlineServices::P2P { class SocketId; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x56CC0)
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x56C50)
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x56AB0)
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x56C40)
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_SOCKETID_OFFSET UNITYSDK_OFFSET(0x56B70)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5BB10)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5BA90)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x5B8F0)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5BA80)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_SOCKETID_OFFSET UNITYSDK_OFFSET(0x5B9B0)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int AddNotifyPeerConnectionEstablishedOptionsInternal_TypeDefinitionIndex = 41700;
+	inline static constexpr unsigned int AddNotifyPeerConnectionEstablishedOptionsInternal_TypeDefinitionIndex = 42503;
 
 	struct alignas(8) AddNotifyPeerConnectionEstablishedOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::P2P
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::IntPtr m_SocketId; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_SocketId(::Epic::OnlineServices::P2P::SocketId* value)
+		::System::Void set_SocketId(::Epic::OnlineServices::P2P::SocketId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::SocketId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_SOCKETID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::SocketId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_SOCKETID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::P2P::AddNotifyPeerConnectionEstablishedOptions* other)
+		::System::Void Set(::Epic::OnlineServices::P2P::AddNotifyPeerConnectionEstablishedOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::AddNotifyPeerConnectionEstablishedOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::AddNotifyPeerConnectionEstablishedOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_ADDNOTIFYPEERCONNECTIONESTABLISHEDOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

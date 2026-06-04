@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_167CC5FE2F587D46_CustomDataChannel_TypeDefinitionIndex = 65121;
+inline static constexpr unsigned int Class_2_167CC5FE2F587D46_CustomDataChannel_TypeDefinitionIndex = 66048;
 
 enum class Class_2_167CC5FE2F587D46_CustomDataChannel : ::System::Int32
 {

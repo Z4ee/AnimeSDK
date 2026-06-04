@@ -3,7 +3,7 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ProcessorArchitecture_TypeDefinitionIndex = 553;
+	inline static constexpr unsigned int ProcessorArchitecture_TypeDefinitionIndex = 552;
 
 	enum class ProcessorArchitecture : ::System::Int32
 	{

@@ -7,17 +7,17 @@ namespace Epic::OnlineServices::Connect { class Credentials; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x31CB0)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x31A70)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x68F0)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x31CA0)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x31BD0)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x31B20)
-#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x26F0)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x35560)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x35320)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x6EE0)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x35550)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x35480)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x353D0)
+#define EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x2A90)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int CredentialsInternal_TypeDefinitionIndex = 42281;
+	inline static constexpr unsigned int CredentialsInternal_TypeDefinitionIndex = 43084;
 
 	struct alignas(8) CredentialsInternal
 	{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_GET_TOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_Token(::System::String* value)
+		::System::Void set_Token(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_TOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_TOKEN_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ExternalCredentialType get_Type()
@@ -40,19 +40,19 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ExternalCredentialType(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::Epic::OnlineServices::ExternalCredentialType value)
+		::System::Void set_Type(::Epic::OnlineServices::ExternalCredentialType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalCredentialType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ExternalCredentialType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_TYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Connect::Credentials* other)
+		::System::Void Set(::Epic::OnlineServices::Connect::Credentials* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::Credentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::Credentials*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREDENTIALSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

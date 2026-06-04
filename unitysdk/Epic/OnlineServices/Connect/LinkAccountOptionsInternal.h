@@ -7,15 +7,15 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::Connect { class LinkAccountOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x33790)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x33720)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0x33650)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x33590)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x33710)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x36F70)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x36EF0)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0x36E20)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x36D60)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x36EE0)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int LinkAccountOptionsInternal_TypeDefinitionIndex = 42299;
+	inline static constexpr unsigned int LinkAccountOptionsInternal_TypeDefinitionIndex = 43102;
 
 	struct alignas(8) LinkAccountOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::Connect
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::IntPtr m_ContinuanceToken; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ContinuanceToken(::Epic::OnlineServices::ContinuanceToken* value)
+		::System::Void set_ContinuanceToken(::Epic::OnlineServices::ContinuanceToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ContinuanceToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_CONTINUANCETOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ContinuanceToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_CONTINUANCETOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Connect::LinkAccountOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Connect::LinkAccountOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::LinkAccountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::LinkAccountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

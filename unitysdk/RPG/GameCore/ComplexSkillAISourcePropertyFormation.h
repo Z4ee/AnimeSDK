@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PropertyFormationValue; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCEPROPERTYFORMATION_METHOD_3_351D982853C77160_OFFSET UNITYSDK_OFFSET(0x188300A0)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCEPROPERTYFORMATION_METHOD_3_9B2DCED85BA79087_OFFSET UNITYSDK_OFFSET(0x1882E750)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCEPROPERTYFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1882E730)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCEPROPERTYFORMATION_METHOD_3_1288D8677A2E7D65_OFFSET UNITYSDK_OFFSET(0x1966E200)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCEPROPERTYFORMATION_METHOD_3_E12F828F7B7C25C2_OFFSET UNITYSDK_OFFSET(0x1966FF00)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCEPROPERTYFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1966E1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAISourcePropertyFormation_TypeDefinitionIndex = 14694;
+	inline static constexpr unsigned int ComplexSkillAISourcePropertyFormation_TypeDefinitionIndex = 14759;
 
 	class ComplexSkillAISourcePropertyFormation : public ::RPG::GameCore::ComplexSkillAISource
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEPROPERTYFORMATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_351D982853C77160(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourcePropertyFormation*& a2)
+		static ::System::Void Method_3_E12F828F7B7C25C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourcePropertyFormation*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourcePropertyFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEPROPERTYFORMATION_METHOD_3_351D982853C77160_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourcePropertyFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEPROPERTYFORMATION_METHOD_3_E12F828F7B7C25C2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9B2DCED85BA79087(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourcePropertyFormation* a2)
+		static ::System::Void Method_3_1288D8677A2E7D65(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourcePropertyFormation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourcePropertyFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEPROPERTYFORMATION_METHOD_3_9B2DCED85BA79087_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourcePropertyFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEPROPERTYFORMATION_METHOD_3_1288D8677A2E7D65_OFFSET))(a1, a2);
 		}
 	};
 }

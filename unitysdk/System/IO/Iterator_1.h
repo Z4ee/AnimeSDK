@@ -8,7 +8,7 @@ namespace System::IO { template <typename T> class Iterator_1; }
 
 namespace System::IO
 {
-	inline static constexpr unsigned int Iterator_1_TypeDefinitionIndex = 671;
+	inline static constexpr unsigned int Iterator_1_TypeDefinitionIndex = 670;
 
 	template <typename TSource>
 	class Iterator_1 : public ::System::Object

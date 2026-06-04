@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/EPedestrianAssetType.h"
 
-class Class_0_16E4307DCC419505_900;
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+class Class_1_355A2207C3B7A99D_105;
+class Class_1_355A2207C3B7A99D_106;
+namespace RPG::Client { class RogueTournPersonaModifierInfo; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_901_TypeDefinitionIndex = 63845;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_901_TypeDefinitionIndex = 63242;
 
 class Class_0_16E4307DCC419505_901
 {

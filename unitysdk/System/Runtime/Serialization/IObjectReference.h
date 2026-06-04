@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int IObjectReference_TypeDefinitionIndex = 1095;
+	inline static constexpr unsigned int IObjectReference_TypeDefinitionIndex = 1094;
 
 	class IObjectReference
 	{

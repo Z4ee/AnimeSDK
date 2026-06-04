@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PINGPONGENEMYSHOOTCONFIG_METHOD_2_614060E919C727A4_OFFSET UNITYSDK_OFFSET(0x18BFB9B0)
-#define RPG_GAMECORE_PINGPONGENEMYSHOOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BFBB90)
+#define RPG_GAMECORE_PINGPONGENEMYSHOOTCONFIG_METHOD_2_5B16C4A6BB5DA8FB_OFFSET UNITYSDK_OFFSET(0x19A0D800)
+#define RPG_GAMECORE_PINGPONGENEMYSHOOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A0D9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongEnemyShootConfig_TypeDefinitionIndex = 16082;
+	inline static constexpr unsigned int PingPongEnemyShootConfig_TypeDefinitionIndex = 16132;
 
 	class PingPongEnemyShootConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYSHOOTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_614060E919C727A4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongEnemyShootConfig*& a2)
+		static ::System::Void Method_2_5B16C4A6BB5DA8FB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongEnemyShootConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongEnemyShootConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYSHOOTCONFIG_METHOD_2_614060E919C727A4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongEnemyShootConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGENEMYSHOOTCONFIG_METHOD_2_5B16C4A6BB5DA8FB_OFFSET))(a1, a2);
 		}
 	};
 }

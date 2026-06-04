@@ -3,21 +3,21 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/XLua/OptimizeFlag.h"
 
-#define XLUA_GCOPTIMIZEATTRIBUTE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x17B84C20)
-#define XLUA_GCOPTIMIZEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B84C30)
+#define XLUA_GCOPTIMIZEATTRIBUTE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x18932CB0)
+#define XLUA_GCOPTIMIZEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18932CC0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int GCOptimizeAttribute_TypeDefinitionIndex = 6405;
+	inline static constexpr unsigned int GCOptimizeAttribute_TypeDefinitionIndex = 5607;
 
 	class GCOptimizeAttribute : public ::System::Attribute
 	{
 	public:
 		::XLua::OptimizeFlag flag; // 0x10
 
-		::System::Void _ctor(::XLua::OptimizeFlag flag)
+		::System::Void _ctor(::XLua::OptimizeFlag a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::OptimizeFlag))((::PBYTE)hIl2Cpp + XLUA_GCOPTIMIZEATTRIBUTE__CTOR_OFFSET))(this, flag);
+			return ((::System::Void(*)(::PVOID, ::XLua::OptimizeFlag))((::PBYTE)hIl2Cpp + XLUA_GCOPTIMIZEATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
 		::XLua::OptimizeFlag get_Flag()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraShakeSpaceType_TypeDefinitionIndex = 15554;
+	inline static constexpr unsigned int VCameraShakeSpaceType_TypeDefinitionIndex = 15616;
 
 	enum class VCameraShakeSpaceType : ::System::Int32
 	{

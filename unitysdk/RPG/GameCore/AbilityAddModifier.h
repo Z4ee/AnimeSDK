@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class BaseModifierInstance; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ABILITYADDMODIFIER_CLEAR_OFFSET UNITYSDK_OFFSET(0xB509630)
-#define RPG_GAMECORE_ABILITYADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB5096D0)
-#define RPG_GAMECORE_ABILITYADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB509680)
-#define RPG_GAMECORE_ABILITYADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xB5095D0)
-#define RPG_GAMECORE_ABILITYADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xB509720)
-#define RPG_GAMECORE_ABILITYADDMODIFIER___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB509730)
+#define RPG_GAMECORE_ABILITYADDMODIFIER_CLEAR_OFFSET UNITYSDK_OFFSET(0xCC70540)
+#define RPG_GAMECORE_ABILITYADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCC705E0)
+#define RPG_GAMECORE_ABILITYADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCC70590)
+#define RPG_GAMECORE_ABILITYADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xCC704E0)
+#define RPG_GAMECORE_ABILITYADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xCC70630)
+#define RPG_GAMECORE_ABILITYADDMODIFIER___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xCC70640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityAddModifier_TypeDefinitionIndex = 52137;
+	inline static constexpr unsigned int AbilityAddModifier_TypeDefinitionIndex = 52834;
 
-	class AbilityAddModifier : public ::Class_1_9988289E7F8AA214
+	class AbilityAddModifier : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::BaseModifierInstance* ModifierInstance; // 0x18
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYADDMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AbilityAddModifier* Init(::RPG::GameCore::GameEntity* pModifierOwnerEntity, ::RPG::GameCore::BaseModifierInstance* pModifierInstance)
+		::RPG::GameCore::AbilityAddModifier* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::BaseModifierInstance* a2)
 		{
-			return ((::RPG::GameCore::AbilityAddModifier*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::BaseModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYADDMODIFIER_INIT_OFFSET))(this, pModifierOwnerEntity, pModifierInstance);
+			return ((::RPG::GameCore::AbilityAddModifier*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::BaseModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYADDMODIFIER_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MarbleSampleConfig; }
 
-#define RPG_GAMECORE_MARBLELAUNCHAICONFIG_METHOD_2_3D2FC51262288A18_OFFSET UNITYSDK_OFFSET(0x18A9E2B0)
-#define RPG_GAMECORE_MARBLELAUNCHAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A9E510)
+#define RPG_GAMECORE_MARBLELAUNCHAICONFIG_METHOD_2_3D2FC51262288A18_OFFSET UNITYSDK_OFFSET(0x198D1500)
+#define RPG_GAMECORE_MARBLELAUNCHAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198D1750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleLaunchAIConfig_TypeDefinitionIndex = 16001;
+	inline static constexpr unsigned int MarbleLaunchAIConfig_TypeDefinitionIndex = 16051;
 
 	class MarbleLaunchAIConfig : public ::RPG::GameCore::JsonConfig
 	{

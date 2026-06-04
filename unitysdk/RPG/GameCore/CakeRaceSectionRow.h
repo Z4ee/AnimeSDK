@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CAKERACESECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187B3C30)
-#define RPG_GAMECORE_CAKERACESECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187B3DA0)
+#define RPG_GAMECORE_CAKERACESECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195F0CF0)
+#define RPG_GAMECORE_CAKERACESECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x195F0E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceSectionRow_TypeDefinitionIndex = 10512;
+	inline static constexpr unsigned int CakeRaceSectionRow_TypeDefinitionIndex = 10552;
 
 	class CakeRaceSectionRow : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACESECTIONROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::CakeRaceSectionRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceSectionRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceSectionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACESECTIONROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceSectionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACESECTIONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

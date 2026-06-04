@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_GETCHANGERATIO_OFFSET UNITYSDK_OFFSET(0xB50F990)
-#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_GETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0xB50F950)
-#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB50F900)
-#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB50F8C0)
-#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xB50F860)
-#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB50F9D0)
+#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_GETCHANGERATIO_OFFSET UNITYSDK_OFFSET(0xCC76B40)
+#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_GETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0xCC76B00)
+#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCC76AB0)
+#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCC76A70)
+#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xCC76A10)
+#define RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC76B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityCurrentStanceChange_TypeDefinitionIndex = 52121;
+	inline static constexpr unsigned int AbilityCurrentStanceChange_TypeDefinitionIndex = 52818;
 
-	class AbilityCurrentStanceChange : public ::Class_1_9988289E7F8AA214
+	class AbilityCurrentStanceChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::FixPoint _ChangeValue; // 0x18
-		::RPG::GameCore::FixPoint _ChangeRatio; // 0x20
-		::System::UInt32 _EntityRuntimeID; // 0x28
+		::RPG::GameCore::FixPoint _ChangeRatio; // 0x18
+		::System::UInt32 _EntityRuntimeID; // 0x20
+		::RPG::GameCore::FixPoint _ChangeValue; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AbilityCurrentStanceChange* Init(::System::UInt32 EntityRuntimeID, ::RPG::GameCore::FixPoint ChangeValue, ::RPG::GameCore::FixPoint ChangeRatio)
+		::RPG::GameCore::AbilityCurrentStanceChange* Init(::System::UInt32 a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::RPG::GameCore::AbilityCurrentStanceChange*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_INIT_OFFSET))(this, EntityRuntimeID, ChangeValue, ChangeRatio);
+			return ((::RPG::GameCore::AbilityCurrentStanceChange*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCURRENTSTANCECHANGE_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

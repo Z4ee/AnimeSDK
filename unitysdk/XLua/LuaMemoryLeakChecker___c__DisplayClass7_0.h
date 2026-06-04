@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x112370F0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS7_0__GETRELATIONSHIP_B__0_OFFSET UNITYSDK_OFFSET(0x11238640)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12E97F80)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS7_0__GETRELATIONSHIP_B__0_OFFSET UNITYSDK_OFFSET(0x12E99490)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass7_0_TypeDefinitionIndex = 46297;
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass7_0_TypeDefinitionIndex = 46887;
 
 	class LuaMemoryLeakChecker___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _getRelationship_b__0(::System::IntPtr parent, ::System::IntPtr child, ::XLua::LuaDLL::RelationshipType type, ::System::String* key, ::System::Double d, ::System::String* key2)
+		::System::Void _getRelationship_b__0(::System::IntPtr a1, ::System::IntPtr a2, ::XLua::LuaDLL::RelationshipType a3, ::System::String* a4, ::System::Double a5, ::System::String* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr, ::XLua::LuaDLL::RelationshipType, ::System::String*, ::System::Double, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS7_0__GETRELATIONSHIP_B__0_OFFSET))(this, parent, child, type, key, d, key2);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr, ::XLua::LuaDLL::RelationshipType, ::System::String*, ::System::Double, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS7_0__GETRELATIONSHIP_B__0_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

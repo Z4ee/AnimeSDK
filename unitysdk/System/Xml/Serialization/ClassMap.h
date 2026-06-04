@@ -16,27 +16,27 @@ namespace System::Xml::Serialization { class XmlTypeMapMemberAttribute; }
 namespace System::Xml::Serialization { class XmlTypeMapMemberExpandable; }
 namespace System::Xml::Serialization { class XmlTypeMapMemberNamespaces; }
 
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_ADDMEMBER_OFFSET UNITYSDK_OFFSET(0x19FF5990)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_BUILDKEY_OFFSET UNITYSDK_OFFSET(0x19FF6670)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GETATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x19FF6860)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GETELEMENT_1_OFFSET UNITYSDK_OFFSET(0x19FF6D80)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x19FF6950)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_ALLMEMBERS_OFFSET UNITYSDK_OFFSET(0x19FF7A30)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_ATTRIBUTEMEMBERS_OFFSET UNITYSDK_OFFSET(0x19FF75B0)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_DEFAULTANYATTRIBUTEMEMBER_OFFSET UNITYSDK_OFFSET(0x19FF7590)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_DEFAULTANYELEMENTMEMBER_OFFSET UNITYSDK_OFFSET(0x19FF7580)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_ELEMENTMEMBERS_OFFSET UNITYSDK_OFFSET(0x19FF7A20)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_FLATLISTS_OFFSET UNITYSDK_OFFSET(0x19FF7A40)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_HASSIMPLECONTENT_OFFSET UNITYSDK_OFFSET(0x19FF7E30)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_ISORDERDEPENDENTMAP_OFFSET UNITYSDK_OFFSET(0x19FF71E0)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_LISTMEMBERS_OFFSET UNITYSDK_OFFSET(0x19FF7A50)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_NAMESPACEDECLARATIONS_OFFSET UNITYSDK_OFFSET(0x19FF75A0)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_RETURNMEMBER_OFFSET UNITYSDK_OFFSET(0x19FF7A70)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_SIMPLECONTENTBASETYPE_OFFSET UNITYSDK_OFFSET(0x19FF7A80)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_XMLTEXTCOLLECTOR_OFFSET UNITYSDK_OFFSET(0x19FF7A60)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_REGISTERFLATLIST_OFFSET UNITYSDK_OFFSET(0x19FF67B0)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP_SETCANBESIMPLETYPE_OFFSET UNITYSDK_OFFSET(0x19FF7E20)
-#define SYSTEM_XML_SERIALIZATION_CLASSMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF7ED0)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_ADDMEMBER_OFFSET UNITYSDK_OFFSET(0x1AE69940)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_BUILDKEY_OFFSET UNITYSDK_OFFSET(0x1AE6A6D0)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GETATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1AE6A8B0)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GETELEMENT_1_OFFSET UNITYSDK_OFFSET(0x1AE6AE00)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x1AE6A9B0)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_ALLMEMBERS_OFFSET UNITYSDK_OFFSET(0x1AE6BAF0)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_ATTRIBUTEMEMBERS_OFFSET UNITYSDK_OFFSET(0x1AE6B690)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_DEFAULTANYATTRIBUTEMEMBER_OFFSET UNITYSDK_OFFSET(0x1AE6B670)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_DEFAULTANYELEMENTMEMBER_OFFSET UNITYSDK_OFFSET(0x1AE6B660)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_ELEMENTMEMBERS_OFFSET UNITYSDK_OFFSET(0x1AE6BAE0)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_FLATLISTS_OFFSET UNITYSDK_OFFSET(0x1AE6BB00)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_HASSIMPLECONTENT_OFFSET UNITYSDK_OFFSET(0x1AE6BF50)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_ISORDERDEPENDENTMAP_OFFSET UNITYSDK_OFFSET(0x1AE6B280)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_LISTMEMBERS_OFFSET UNITYSDK_OFFSET(0x1AE6BB10)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_NAMESPACEDECLARATIONS_OFFSET UNITYSDK_OFFSET(0x1AE6B680)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_RETURNMEMBER_OFFSET UNITYSDK_OFFSET(0x1AE6BB30)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_SIMPLECONTENTBASETYPE_OFFSET UNITYSDK_OFFSET(0x1AE6BB40)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_XMLTEXTCOLLECTOR_OFFSET UNITYSDK_OFFSET(0x1AE6BB20)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_REGISTERFLATLIST_OFFSET UNITYSDK_OFFSET(0x1AE6A800)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP_SETCANBESIMPLETYPE_OFFSET UNITYSDK_OFFSET(0x1AE6BF40)
+#define SYSTEM_XML_SERIALIZATION_CLASSMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE6BFF0)
 
 namespace System::Xml::Serialization
 {
@@ -45,21 +45,21 @@ namespace System::Xml::Serialization
 	class ClassMap : public ::System::Xml::Serialization::ObjectMap
 	{
 	public:
-		::System::Xml::Serialization::XmlTypeMapMember* _returnMember; // 0x10
-		::System::Xml::Serialization::XmlTypeMapMember* _xmlTextCollector; // 0x18
-		::System::Collections::Hashtable* _attributeMembers; // 0x20
-		::System::Xml::Serialization::XmlTypeMapMemberAnyAttribute* _defaultAnyAttribute; // 0x28
+		::Il2CppArray<::System::Xml::Serialization::XmlTypeMapMemberAttribute*>* _attributeMembersArray; // 0x10
+		::System::Collections::ArrayList* _listMembers; // 0x18
+		::System::Collections::ArrayList* _elementMembers; // 0x20
+		::System::Xml::Serialization::XmlTypeMapMember* _returnMember; // 0x28
 		::System::Xml::Serialization::XmlTypeMapMemberAnyElement* _defaultAnyElement; // 0x30
-		::System::Collections::ArrayList* _allMembers; // 0x38
-		::System::Collections::ArrayList* _flatLists; // 0x40
-		::System::Collections::ArrayList* _elementMembers; // 0x48
-		::System::Collections::ArrayList* _listMembers; // 0x50
-		::Il2CppArray<::System::Xml::Serialization::XmlTypeMapMemberAttribute*>* _attributeMembersArray; // 0x58
-		::System::Collections::ArrayList* _membersWithDefault; // 0x60
-		::System::Collections::Hashtable* _elements; // 0x68
-		::System::Xml::Serialization::XmlTypeMapMemberNamespaces* _namespaceDeclarations; // 0x70
-		::System::Nullable_1<::System::Boolean> _isOrderDependentMap; // 0x78
-		::System::Boolean _canBeSimpleType; // 0x7A
+		::System::Xml::Serialization::XmlTypeMapMember* _xmlTextCollector; // 0x38
+		::System::Xml::Serialization::XmlTypeMapMemberNamespaces* _namespaceDeclarations; // 0x40
+		::System::Collections::Hashtable* _attributeMembers; // 0x48
+		::System::Collections::ArrayList* _allMembers; // 0x50
+		::System::Collections::ArrayList* _flatLists; // 0x58
+		::System::Collections::Hashtable* _elements; // 0x60
+		::System::Xml::Serialization::XmlTypeMapMemberAnyAttribute* _defaultAnyAttribute; // 0x68
+		::System::Collections::ArrayList* _membersWithDefault; // 0x70
+		::System::Boolean _canBeSimpleType; // 0x78
+		::System::Nullable_1<::System::Boolean> _isOrderDependentMap; // 0x79
 		::System::Boolean _ignoreMemberNamespace; // 0x7B
 
 		::System::Void _ctor()
@@ -67,34 +67,34 @@ namespace System::Xml::Serialization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP__CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddMember(::System::Xml::Serialization::XmlTypeMapMember* member)
+		::System::Void AddMember(::System::Xml::Serialization::XmlTypeMapMember* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapMember*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_ADDMEMBER_OFFSET))(this, member);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapMember*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_ADDMEMBER_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterFlatList(::System::Xml::Serialization::XmlTypeMapMemberExpandable* member)
+		::System::Void RegisterFlatList(::System::Xml::Serialization::XmlTypeMapMemberExpandable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapMemberExpandable*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_REGISTERFLATLIST_OFFSET))(this, member);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapMemberExpandable*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_REGISTERFLATLIST_OFFSET))(this, a1);
 		}
 
-		::System::Xml::Serialization::XmlTypeMapMemberAttribute* GetAttribute(::System::String* name, ::System::String* ns)
+		::System::Xml::Serialization::XmlTypeMapMemberAttribute* GetAttribute(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Xml::Serialization::XmlTypeMapMemberAttribute*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_GETATTRIBUTE_OFFSET))(this, name, ns);
+			return ((::System::Xml::Serialization::XmlTypeMapMemberAttribute*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_GETATTRIBUTE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Xml::Serialization::XmlTypeMapElementInfo* GetElement(::System::String* name, ::System::String* ns, ::System::Int32 minimalOrder)
+		::System::Xml::Serialization::XmlTypeMapElementInfo* GetElement(::System::String* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::Xml::Serialization::XmlTypeMapElementInfo*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_GETELEMENT_OFFSET))(this, name, ns, minimalOrder);
+			return ((::System::Xml::Serialization::XmlTypeMapElementInfo*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_GETELEMENT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Xml::Serialization::XmlTypeMapElementInfo* GetElement_1(::System::String* name, ::System::String* ns)
+		::System::Xml::Serialization::XmlTypeMapElementInfo* GetElement_1(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Xml::Serialization::XmlTypeMapElementInfo*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_GETELEMENT_1_OFFSET))(this, name, ns);
+			return ((::System::Xml::Serialization::XmlTypeMapElementInfo*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_GETELEMENT_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* BuildKey(::System::String* name, ::System::String* ns, ::System::Int32 explicitOrder)
+		::System::String* BuildKey(::System::String* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_BUILDKEY_OFFSET))(this, name, ns, explicitOrder);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_BUILDKEY_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_IsOrderDependentMap()
@@ -157,9 +157,9 @@ namespace System::Xml::Serialization
 			return ((::System::Xml::XmlQualifiedName*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_GET_SIMPLECONTENTBASETYPE_OFFSET))(this);
 		}
 
-		::System::Void SetCanBeSimpleType(::System::Boolean can)
+		::System::Void SetCanBeSimpleType(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_SETCANBESIMPLETYPE_OFFSET))(this, can);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CLASSMAP_SETCANBESIMPLETYPE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasSimpleContent()

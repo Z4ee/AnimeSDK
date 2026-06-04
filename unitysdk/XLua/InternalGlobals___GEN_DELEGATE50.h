@@ -9,36 +9,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11224340)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11224380)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET UNITYSDK_OFFSET(0x11223D80)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50__CTOR_OFFSET UNITYSDK_OFFSET(0x11213160)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A170)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A1B0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A160)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50__CTOR_OFFSET UNITYSDK_OFFSET(0x12E8A070)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE50_TypeDefinitionIndex = 46376;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE50_TypeDefinitionIndex = 46966;
 
 	class InternalGlobals___GEN_DELEGATE50 : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::AttackDamageType Invoke(::RPG::GameCore::AttackDamageTypeConfig* cfg, ::RPG::GameCore::TaskContext* ctx)
+		::RPG::GameCore::AttackDamageType Invoke(::RPG::GameCore::AttackDamageTypeConfig* a1, ::RPG::GameCore::TaskContext* a2)
 		{
-			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID, ::RPG::GameCore::AttackDamageTypeConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET))(this, cfg, ctx);
+			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID, ::RPG::GameCore::AttackDamageTypeConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::AttackDamageTypeConfig* cfg, ::RPG::GameCore::TaskContext* ctx, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::AttackDamageTypeConfig* a1, ::RPG::GameCore::TaskContext* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::AttackDamageTypeConfig*, ::RPG::GameCore::TaskContext*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET))(this, cfg, ctx, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::AttackDamageTypeConfig*, ::RPG::GameCore::TaskContext*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::RPG::GameCore::AttackDamageType EndInvoke(::System::IAsyncResult* result)
+		::RPG::GameCore::AttackDamageType EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET))(this, result);
+			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

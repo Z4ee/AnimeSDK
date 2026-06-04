@@ -2,42 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_35661FB1E71DC198;
+class Class_1_0D8C9ED8919282E9;
 namespace RPG::Client { class AdventureWaypointConfig; }
 namespace RPG::Client { class IMapIcon; }
 namespace RPG::Client { class IMapIconTrackSnapshot; }
 namespace RPG::Client { class IWayPointTarget; }
 
-#define RPG_CLIENT_MAPICONEXTENSIONS_GETWAYPOINTCONFIG_OFFSET UNITYSDK_OFFSET(0xA7F28D0)
-#define RPG_CLIENT_MAPICONEXTENSIONS_ISINCURRENTSCENE_OFFSET UNITYSDK_OFFSET(0xA7F2620)
-#define RPG_CLIENT_MAPICONEXTENSIONS__GETFIVEDIMWAYPOINTCONFIG_OFFSET UNITYSDK_OFFSET(0xA7F33D0)
-#define RPG_CLIENT_MAPICONEXTENSIONS__GETMAZEWAYPOINTCONFIG_OFFSET UNITYSDK_OFFSET(0xA7F2E40)
+#define RPG_CLIENT_MAPICONEXTENSIONS_GETWAYPOINTCONFIG_OFFSET UNITYSDK_OFFSET(0xBEDAF60)
+#define RPG_CLIENT_MAPICONEXTENSIONS_ISINCURRENTSCENE_OFFSET UNITYSDK_OFFSET(0xBEDAC70)
+#define RPG_CLIENT_MAPICONEXTENSIONS__GETFIVEDIMWAYPOINTCONFIG_OFFSET UNITYSDK_OFFSET(0xBEDBAE0)
+#define RPG_CLIENT_MAPICONEXTENSIONS__GETMAZEWAYPOINTCONFIG_OFFSET UNITYSDK_OFFSET(0xBEDB4D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapIconExtensions_TypeDefinitionIndex = 57940;
+	inline static constexpr unsigned int MapIconExtensions_TypeDefinitionIndex = 58856;
 
 	class MapIconExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Boolean IsInCurrentScene(::RPG::Client::IMapIcon* mapIcon)
+		static ::System::Boolean IsInCurrentScene(::RPG::Client::IMapIcon* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::IMapIcon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPICONEXTENSIONS_ISINCURRENTSCENE_OFFSET))(mapIcon);
+			return ((::System::Boolean(*)(::RPG::Client::IMapIcon*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPICONEXTENSIONS_ISINCURRENTSCENE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::AdventureWaypointConfig* GetWaypointConfig(::RPG::Client::IMapIconTrackSnapshot* mapIconTrackSnapshot)
+		static ::RPG::Client::AdventureWaypointConfig* GetWaypointConfig(::RPG::Client::IMapIconTrackSnapshot* a1)
 		{
-			return ((::RPG::Client::AdventureWaypointConfig*(*)(::RPG::Client::IMapIconTrackSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPICONEXTENSIONS_GETWAYPOINTCONFIG_OFFSET))(mapIconTrackSnapshot);
+			return ((::RPG::Client::AdventureWaypointConfig*(*)(::RPG::Client::IMapIconTrackSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPICONEXTENSIONS_GETWAYPOINTCONFIG_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::IWayPointTarget* _GetFiveDimWaypointConfig(::RPG::Client::IMapIconTrackSnapshot* mapIconTrackSnapshot, ::Class_1_35661FB1E71DC198* connectInfo)
+		static ::RPG::Client::IWayPointTarget* _GetFiveDimWaypointConfig(::RPG::Client::IMapIconTrackSnapshot* a1, ::Class_1_0D8C9ED8919282E9* a2)
 		{
-			return ((::RPG::Client::IWayPointTarget*(*)(::RPG::Client::IMapIconTrackSnapshot*, ::Class_1_35661FB1E71DC198*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPICONEXTENSIONS__GETFIVEDIMWAYPOINTCONFIG_OFFSET))(mapIconTrackSnapshot, connectInfo);
+			return ((::RPG::Client::IWayPointTarget*(*)(::RPG::Client::IMapIconTrackSnapshot*, ::Class_1_0D8C9ED8919282E9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPICONEXTENSIONS__GETFIVEDIMWAYPOINTCONFIG_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::IWayPointTarget* _GetMazeWaypointConfig(::RPG::Client::IMapIconTrackSnapshot* mapIconTrackSnapshot, ::Class_1_35661FB1E71DC198* connectInfo)
+		static ::RPG::Client::IWayPointTarget* _GetMazeWaypointConfig(::RPG::Client::IMapIconTrackSnapshot* a1, ::Class_1_0D8C9ED8919282E9* a2)
 		{
-			return ((::RPG::Client::IWayPointTarget*(*)(::RPG::Client::IMapIconTrackSnapshot*, ::Class_1_35661FB1E71DC198*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPICONEXTENSIONS__GETMAZEWAYPOINTCONFIG_OFFSET))(mapIconTrackSnapshot, connectInfo);
+			return ((::RPG::Client::IWayPointTarget*(*)(::RPG::Client::IMapIconTrackSnapshot*, ::Class_1_0D8C9ED8919282E9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPICONEXTENSIONS__GETMAZEWAYPOINTCONFIG_OFFSET))(a1, a2);
 		}
 	};
 }

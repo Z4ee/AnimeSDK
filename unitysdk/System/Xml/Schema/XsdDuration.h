@@ -6,26 +6,26 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_DAYS_OFFSET UNITYSDK_OFFSET(0xD240)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_HOURS_OFFSET UNITYSDK_OFFSET(0x15A8520)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_ISNEGATIVE_OFFSET UNITYSDK_OFFSET(0x22B9E60)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_MINUTES_OFFSET UNITYSDK_OFFSET(0x68F0)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_MONTHS_OFFSET UNITYSDK_OFFSET(0x1DA80)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_NANOSECONDS_OFFSET UNITYSDK_OFFSET(0x22D1D80)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_SECONDS_OFFSET UNITYSDK_OFFSET(0x6900)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_YEARS_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x22D1E30)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22D1E20)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_TOTIMESPAN_OFFSET UNITYSDK_OFFSET(0x22D1D90)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSEDIGITS_OFFSET UNITYSDK_OFFSET(0x19FF4DD0)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSE_1_OFFSET UNITYSDK_OFFSET(0x19FF3CE0)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x19FF4DC0)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_TRYTOTIMESPAN_1_OFFSET UNITYSDK_OFFSET(0x22D1E10)
-#define SYSTEM_XML_SCHEMA_XSDDURATION_TRYTOTIMESPAN_OFFSET UNITYSDK_OFFSET(0x22D1E00)
-#define SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x22D1A80)
-#define SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x22D1B60)
-#define SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x22D1D00)
-#define SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x22D1A70)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_DAYS_OFFSET UNITYSDK_OFFSET(0xDAD0)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_HOURS_OFFSET UNITYSDK_OFFSET(0x140A50)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_ISNEGATIVE_OFFSET UNITYSDK_OFFSET(0x384B0F0)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_MINUTES_OFFSET UNITYSDK_OFFSET(0x6EE0)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_MONTHS_OFFSET UNITYSDK_OFFSET(0x1E110)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_NANOSECONDS_OFFSET UNITYSDK_OFFSET(0x386CE70)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_SECONDS_OFFSET UNITYSDK_OFFSET(0x6EF0)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_GET_YEARS_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x386CF20)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x386CF10)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_TOTIMESPAN_OFFSET UNITYSDK_OFFSET(0x386CE80)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSEDIGITS_OFFSET UNITYSDK_OFFSET(0x1AE69320)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSE_1_OFFSET UNITYSDK_OFFSET(0x1AE68500)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1AE69310)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_TRYTOTIMESPAN_1_OFFSET UNITYSDK_OFFSET(0x386CF00)
+#define SYSTEM_XML_SCHEMA_XSDDURATION_TRYTOTIMESPAN_OFFSET UNITYSDK_OFFSET(0x386CEF0)
+#define SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x386CB70)
+#define SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x386CC50)
+#define SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x386CDF0)
+#define SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x386CB60)
 
 namespace System::Xml::Schema
 {
@@ -41,28 +41,28 @@ namespace System::Xml::Schema
 		::System::Int32 seconds; // 0x24
 		::System::UInt32 nanoseconds; // 0x28
 
-		::System::Void _ctor(::System::Boolean isNegative, ::System::Int32 years, ::System::Int32 months, ::System::Int32 days, ::System::Int32 hours, ::System::Int32 minutes, ::System::Int32 seconds, ::System::Int32 nanoseconds)
+		::System::Void _ctor(::System::Boolean a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_OFFSET))(this, isNegative, years, months, days, hours, minutes, seconds, nanoseconds);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		/*
-		::System::Void _ctor_1(::System::TimeSpan timeSpan)
+		::System::Void _ctor_1(::System::TimeSpan a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_1_OFFSET))(this, timeSpan);
+			return ((::System::Void(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_1_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::System::Void _ctor_2(::System::TimeSpan timeSpan, ::System::Xml::Schema::XsdDuration_DurationType durationType)
+		::System::Void _ctor_2(::System::TimeSpan a1, ::System::Xml::Schema::XsdDuration_DurationType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::TimeSpan, ::System::Xml::Schema::XsdDuration_DurationType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_2_OFFSET))(this, timeSpan, durationType);
+			return ((::System::Void(*)(::PVOID, ::System::TimeSpan, ::System::Xml::Schema::XsdDuration_DurationType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 		*/
 
-		::System::Void _ctor_3(::System::String* s, ::System::Xml::Schema::XsdDuration_DurationType durationType)
+		::System::Void _ctor_3(::System::String* a1, ::System::Xml::Schema::XsdDuration_DurationType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Xml::Schema::XsdDuration_DurationType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_3_OFFSET))(this, s, durationType);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Xml::Schema::XsdDuration_DurationType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsNegative()
@@ -106,23 +106,23 @@ namespace System::Xml::Schema
 		}
 
 		/*
-		::System::TimeSpan ToTimeSpan(::System::Xml::Schema::XsdDuration_DurationType durationType)
+		::System::TimeSpan ToTimeSpan(::System::Xml::Schema::XsdDuration_DurationType a1)
 		{
-			return ((::System::TimeSpan(*)(::PVOID, ::System::Xml::Schema::XsdDuration_DurationType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TOTIMESPAN_OFFSET))(this, durationType);
+			return ((::System::TimeSpan(*)(::PVOID, ::System::Xml::Schema::XsdDuration_DurationType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TOTIMESPAN_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::System::Exception* TryToTimeSpan(::System::TimeSpan& result)
+		::System::Exception* TryToTimeSpan(::System::TimeSpan& a1)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TRYTOTIMESPAN_OFFSET))(this, result);
+			return ((::System::Exception*(*)(::PVOID, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TRYTOTIMESPAN_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::System::Exception* TryToTimeSpan_1(::System::Xml::Schema::XsdDuration_DurationType durationType, ::System::TimeSpan& result)
+		::System::Exception* TryToTimeSpan_1(::System::Xml::Schema::XsdDuration_DurationType a1, ::System::TimeSpan& a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Xml::Schema::XsdDuration_DurationType, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TRYTOTIMESPAN_1_OFFSET))(this, durationType, result);
+			return ((::System::Exception*(*)(::PVOID, ::System::Xml::Schema::XsdDuration_DurationType, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TRYTOTIMESPAN_1_OFFSET))(this, a1, a2);
 		}
 		*/
 
@@ -131,24 +131,24 @@ namespace System::Xml::Schema
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* ToString_1(::System::Xml::Schema::XsdDuration_DurationType durationType)
+		::System::String* ToString_1(::System::Xml::Schema::XsdDuration_DurationType a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Xml::Schema::XsdDuration_DurationType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TOSTRING_1_OFFSET))(this, durationType);
+			return ((::System::String*(*)(::PVOID, ::System::Xml::Schema::XsdDuration_DurationType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TOSTRING_1_OFFSET))(this, a1);
 		}
 
-		static ::System::Exception* TryParse(::System::String* s, ::System::Xml::Schema::XsdDuration& result)
+		static ::System::Exception* TryParse(::System::String* a1, ::System::Xml::Schema::XsdDuration& a2)
 		{
-			return ((::System::Exception*(*)(::System::String*, ::System::Xml::Schema::XsdDuration&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSE_OFFSET))(s, result);
+			return ((::System::Exception*(*)(::System::String*, ::System::Xml::Schema::XsdDuration&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Exception* TryParse_1(::System::String* s, ::System::Xml::Schema::XsdDuration_DurationType durationType, ::System::Xml::Schema::XsdDuration& result)
+		static ::System::Exception* TryParse_1(::System::String* a1, ::System::Xml::Schema::XsdDuration_DurationType a2, ::System::Xml::Schema::XsdDuration& a3)
 		{
-			return ((::System::Exception*(*)(::System::String*, ::System::Xml::Schema::XsdDuration_DurationType, ::System::Xml::Schema::XsdDuration&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSE_1_OFFSET))(s, durationType, result);
+			return ((::System::Exception*(*)(::System::String*, ::System::Xml::Schema::XsdDuration_DurationType, ::System::Xml::Schema::XsdDuration&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* TryParseDigits(::System::String* s, ::System::Int32& offset, ::System::Boolean eatDigits, ::System::Int32& result, ::System::Int32& numDigits)
+		static ::System::String* TryParseDigits(::System::String* a1, ::System::Int32& a2, ::System::Boolean a3, ::System::Int32& a4, ::System::Int32& a5)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Int32&, ::System::Boolean, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSEDIGITS_OFFSET))(s, offset, eatDigits, result, numDigits);
+			return ((::System::String*(*)(::System::String*, ::System::Int32&, ::System::Boolean, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XSDDURATION_TRYPARSEDIGITS_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

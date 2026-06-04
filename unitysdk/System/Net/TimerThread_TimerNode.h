@@ -6,12 +6,12 @@
 namespace System { class Object; }
 namespace System::Net { class TimerThread_Callback; }
 
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_CANCEL_OFFSET UNITYSDK_OFFSET(0x1A155EE0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x1A1560A0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_PREV_OFFSET UNITYSDK_OFFSET(0x1A1560C0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_NEXT_OFFSET UNITYSDK_OFFSET(0x1A1560B0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_PREV_OFFSET UNITYSDK_OFFSET(0x1A1560D0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A156040)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_CANCEL_OFFSET UNITYSDK_OFFSET(0x1AFB8E90)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x1AFB9060)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_PREV_OFFSET UNITYSDK_OFFSET(0x1AFB9080)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_NEXT_OFFSET UNITYSDK_OFFSET(0x1AFB9070)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_PREV_OFFSET UNITYSDK_OFFSET(0x1AFB9090)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFB9000)
 
 namespace System::Net
 {
@@ -20,11 +20,11 @@ namespace System::Net
 	class TimerThread_TimerNode : public ::System::Net::TimerThread_Timer
 	{
 	public:
-		::System::Object* m_QueueLock; // 0x18
-		::System::Net::TimerThread_Callback* m_Callback; // 0x20
-		::System::Net::TimerThread_TimerNode* prev; // 0x28
-		::System::Net::TimerThread_TimerNode* next; // 0x30
-		::System::Object* m_Context; // 0x38
+		::System::Net::TimerThread_TimerNode* prev; // 0x18
+		::System::Object* m_QueueLock; // 0x20
+		::System::Net::TimerThread_Callback* m_Callback; // 0x28
+		::System::Object* m_Context; // 0x30
+		::System::Net::TimerThread_TimerNode* next; // 0x38
 		::System::Net::TimerThread_TimerNode_TimerState m_TimerState; // 0x40
 
 		::System::Void _ctor()
@@ -37,9 +37,9 @@ namespace System::Net
 			return ((::System::Net::TimerThread_TimerNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_NEXT_OFFSET))(this);
 		}
 
-		::System::Void set_Next(::System::Net::TimerThread_TimerNode* value)
+		::System::Void set_Next(::System::Net::TimerThread_TimerNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::TimerThread_TimerNode*))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_NEXT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Net::TimerThread_TimerNode*))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_NEXT_OFFSET))(this, a1);
 		}
 
 		::System::Net::TimerThread_TimerNode* get_Prev()
@@ -47,9 +47,9 @@ namespace System::Net
 			return ((::System::Net::TimerThread_TimerNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_PREV_OFFSET))(this);
 		}
 
-		::System::Void set_Prev(::System::Net::TimerThread_TimerNode* value)
+		::System::Void set_Prev(::System::Net::TimerThread_TimerNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::TimerThread_TimerNode*))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_PREV_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Net::TimerThread_TimerNode*))((::PBYTE)hIl2Cpp + SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_PREV_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Cancel()

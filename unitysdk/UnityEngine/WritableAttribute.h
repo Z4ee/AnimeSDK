@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_WRITABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F3B40)
+#define UNITYENGINE_WRITABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3409C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WritableAttribute_TypeDefinitionIndex = 3694;
+	inline static constexpr unsigned int WritableAttribute_TypeDefinitionIndex = 3701;
 
 	class WritableAttribute : public ::System::Attribute
 	{

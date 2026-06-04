@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOCKTARGETHP_METHOD_3_BDD12ECAE64AC1E8_OFFSET UNITYSDK_OFFSET(0x18A79FA0)
-#define RPG_GAMECORE_LOCKTARGETHP_METHOD_3_EF8E1A6801411667_OFFSET UNITYSDK_OFFSET(0x18A79F10)
-#define RPG_GAMECORE_LOCKTARGETHP__CTOR_OFFSET UNITYSDK_OFFSET(0x18A79F70)
+#define RPG_GAMECORE_LOCKTARGETHP_METHOD_3_BDD12ECAE64AC1E8_OFFSET UNITYSDK_OFFSET(0x198AD440)
+#define RPG_GAMECORE_LOCKTARGETHP_METHOD_3_EF8E1A6801411667_OFFSET UNITYSDK_OFFSET(0x198AD3B0)
+#define RPG_GAMECORE_LOCKTARGETHP__CTOR_OFFSET UNITYSDK_OFFSET(0x198AD410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockTargetHP_TypeDefinitionIndex = 22597;
+	inline static constexpr unsigned int LockTargetHP_TypeDefinitionIndex = 22328;
 
 	class LockTargetHP : public ::RPG::GameCore::TaskConfig
 	{

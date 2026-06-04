@@ -19,61 +19,61 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ADDEXTENSION_OFFSET UNITYSDK_OFFSET(0x12BA4FE0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_APPLYPOSITIONBLENDMETHOD_OFFSET UNITYSDK_OFFSET(0x12B7CA90)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_CREATEBLEND_OFFSET UNITYSDK_OFFSET(0x12BA5BB0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_1_OFFSET UNITYSDK_OFFSET(0x12B63B50)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_2_OFFSET UNITYSDK_OFFSET(0x12B8A7F0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_OFFSET UNITYSDK_OFFSET(0x12B7FCD0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_1_OFFSET UNITYSDK_OFFSET(0x12BA4D60)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_2_OFFSET UNITYSDK_OFFSET(0x12BA4E40)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_OFFSET UNITYSDK_OFFSET(0x12B786B0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ENSURESTARTED_OFFSET UNITYSDK_OFFSET(0x12B6C2A0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x12BA5B00)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GETINPUTAXISPROVIDER_OFFSET UNITYSDK_OFFSET(0x12B820D0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x12BA1AA0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x12BA5080)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_FOLLOWTARGETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x12BA4D20)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x12BA50D0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_LOOKATTARGETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x12BA4D40)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x12B67B10)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_PARENTCAMERA_OFFSET UNITYSDK_OFFSET(0x12B7ACC0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_PREVIOUSSTATEISVALID_OFFSET UNITYSDK_OFFSET(0x12BA5100)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x12BA5090)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_VALIDATINGSTREAMVERSION_OFFSET UNITYSDK_OFFSET(0x12BA2B20)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_VIRTUALCAMERAGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x12BA50B0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEONTRANSITIONINEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x12B66620)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEPOSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x12B67420)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEPREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET UNITYSDK_OFFSET(0x12BA4300)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ISLIVECHILD_OFFSET UNITYSDK_OFFSET(0x12BA50F0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_MOVETOTOPOFPRIORITYSUBQUEUE_OFFSET UNITYSDK_OFFSET(0x12BA59B0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12B822C0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12BA5630)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12BA51E0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x12BA59C0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x12BA5120)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x12B665D0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x12B81380)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONWORLDWARPED_OFFSET UNITYSDK_OFFSET(0x12BA5A60)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_PULLSTATEFROMVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x12BA5D10)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_REMOVEEXTENSION_OFFSET UNITYSDK_OFFSET(0x12BA5060)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_RESOLVEFOLLOW_OFFSET UNITYSDK_OFFSET(0x12BA5820)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_RESOLVELOOKAT_OFFSET UNITYSDK_OFFSET(0x12BA5690)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_FOLLOWTARGETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x12BA4D30)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_LOOKATTARGETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x12BA4D50)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_PREVIOUSSTATEISVALID_OFFSET UNITYSDK_OFFSET(0x12BA5110)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x12BA50A0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_VALIDATINGSTREAMVERSION_OFFSET UNITYSDK_OFFSET(0x12BA4D10)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_START_OFFSET UNITYSDK_OFFSET(0x12BA51D0)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_UPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x12B67090)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_UPDATESLAVESTATUS_OFFSET UNITYSDK_OFFSET(0x12BA5510)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_UPDATEVCAMPOOLSTATUS_OFFSET UNITYSDK_OFFSET(0x12BA5570)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x12BA5680)
-#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x12BA6960)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ADDEXTENSION_OFFSET UNITYSDK_OFFSET(0x14662040)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_APPLYPOSITIONBLENDMETHOD_OFFSET UNITYSDK_OFFSET(0x1463C3B0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_CREATEBLEND_OFFSET UNITYSDK_OFFSET(0x14662C40)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_1_OFFSET UNITYSDK_OFFSET(0x14623F90)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_2_OFFSET UNITYSDK_OFFSET(0x14649290)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_OFFSET UNITYSDK_OFFSET(0x1463F660)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_1_OFFSET UNITYSDK_OFFSET(0x14661DC0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_2_OFFSET UNITYSDK_OFFSET(0x14661EA0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_OFFSET UNITYSDK_OFFSET(0x14637F60)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ENSURESTARTED_OFFSET UNITYSDK_OFFSET(0x1462C5B0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x14662B80)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GETINPUTAXISPROVIDER_OFFSET UNITYSDK_OFFSET(0x14641B70)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x1465F530)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x14662120)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_FOLLOWTARGETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x14661D80)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x14662170)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_LOOKATTARGETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x14661DA0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x14627CE0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_PARENTCAMERA_OFFSET UNITYSDK_OFFSET(0x1463A620)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_PREVIOUSSTATEISVALID_OFFSET UNITYSDK_OFFSET(0x146621A0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x14662130)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_VALIDATINGSTREAMVERSION_OFFSET UNITYSDK_OFFSET(0x14660490)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_VIRTUALCAMERAGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x14662150)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEONTRANSITIONINEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x14626910)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEPOSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x146276B0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEPREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET UNITYSDK_OFFSET(0x146611F0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ISLIVECHILD_OFFSET UNITYSDK_OFFSET(0x14662190)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_MOVETOTOPOFPRIORITYSUBQUEUE_OFFSET UNITYSDK_OFFSET(0x146629F0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14641D50)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x14662670)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x14662280)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x14662A00)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x146621C0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x146268C0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x14640D10)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONWORLDWARPED_OFFSET UNITYSDK_OFFSET(0x14662AC0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_PULLSTATEFROMVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x14662DA0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_REMOVEEXTENSION_OFFSET UNITYSDK_OFFSET(0x14662100)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_RESOLVEFOLLOW_OFFSET UNITYSDK_OFFSET(0x14662860)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_RESOLVELOOKAT_OFFSET UNITYSDK_OFFSET(0x146626D0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_FOLLOWTARGETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x14661D90)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_LOOKATTARGETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x14661DB0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_PREVIOUSSTATEISVALID_OFFSET UNITYSDK_OFFSET(0x146621B0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x14662140)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_VALIDATINGSTREAMVERSION_OFFSET UNITYSDK_OFFSET(0x14661D70)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_START_OFFSET UNITYSDK_OFFSET(0x14662270)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_UPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x146272E0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_UPDATESLAVESTATUS_OFFSET UNITYSDK_OFFSET(0x14662550)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_UPDATEVCAMPOOLSTATUS_OFFSET UNITYSDK_OFFSET(0x146625B0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x146626C0)
+#define CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x14663A00)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineVirtualCameraBase_TypeDefinitionIndex = 36596;
+	inline static constexpr unsigned int CinemachineVirtualCameraBase_TypeDefinitionIndex = 36896;
 
 	class CinemachineVirtualCameraBase : public ::UnityEngine::MonoBehaviour
 	{
@@ -104,9 +104,9 @@ namespace Cinemachine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_VALIDATINGSTREAMVERSION_OFFSET))(this);
 		}
 
-		::System::Void set_ValidatingStreamVersion(::System::Int32 value)
+		::System::Void set_ValidatingStreamVersion(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_VALIDATINGSTREAMVERSION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_VALIDATINGSTREAMVERSION_OFFSET))(this, a1);
 		}
 
 		::System::Single get_FollowTargetAttachment()
@@ -114,9 +114,9 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_FOLLOWTARGETATTACHMENT_OFFSET))(this);
 		}
 
-		::System::Void set_FollowTargetAttachment(::System::Single value)
+		::System::Void set_FollowTargetAttachment(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_FOLLOWTARGETATTACHMENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_FOLLOWTARGETATTACHMENT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_LookAtTargetAttachment()
@@ -124,9 +124,9 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_LOOKATTARGETATTACHMENT_OFFSET))(this);
 		}
 
-		::System::Void set_LookAtTargetAttachment(::System::Single value)
+		::System::Void set_LookAtTargetAttachment(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_LOOKATTARGETATTACHMENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_LOOKATTARGETATTACHMENT_OFFSET))(this, a1);
 		}
 
 		::System::Single GetMaxDampTime()
@@ -134,59 +134,59 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GETMAXDAMPTIME_OFFSET))(this);
 		}
 
-		::System::Single DetachedFollowTargetDamp(::System::Single initial, ::System::Single dampTime, ::System::Single deltaTime)
+		::System::Single DetachedFollowTargetDamp(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_OFFSET))(this, initial, dampTime, deltaTime);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Vector3 DetachedFollowTargetDamp_1(::UnityEngine::Vector3 initial, ::UnityEngine::Vector3 dampTime, ::System::Single deltaTime)
+		::UnityEngine::Vector3 DetachedFollowTargetDamp_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_1_OFFSET))(this, initial, dampTime, deltaTime);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Vector3 DetachedFollowTargetDamp_2(::UnityEngine::Vector3 initial, ::System::Single dampTime, ::System::Single deltaTime)
+		::UnityEngine::Vector3 DetachedFollowTargetDamp_2(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_2_OFFSET))(this, initial, dampTime, deltaTime);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDFOLLOWTARGETDAMP_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single DetachedLookAtTargetDamp(::System::Single initial, ::System::Single dampTime, ::System::Single deltaTime)
+		::System::Single DetachedLookAtTargetDamp(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_OFFSET))(this, initial, dampTime, deltaTime);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Vector3 DetachedLookAtTargetDamp_1(::UnityEngine::Vector3 initial, ::UnityEngine::Vector3 dampTime, ::System::Single deltaTime)
+		::UnityEngine::Vector3 DetachedLookAtTargetDamp_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_1_OFFSET))(this, initial, dampTime, deltaTime);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Vector3 DetachedLookAtTargetDamp_2(::UnityEngine::Vector3 initial, ::System::Single dampTime, ::System::Single deltaTime)
+		::UnityEngine::Vector3 DetachedLookAtTargetDamp_2(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_2_OFFSET))(this, initial, dampTime, deltaTime);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_DETACHEDLOOKATTARGETDAMP_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AddExtension(::Cinemachine::CinemachineExtension* extension)
+		::System::Void AddExtension(::Cinemachine::CinemachineExtension* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineExtension*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ADDEXTENSION_OFFSET))(this, extension);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineExtension*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ADDEXTENSION_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveExtension(::Cinemachine::CinemachineExtension* extension)
+		::System::Void RemoveExtension(::Cinemachine::CinemachineExtension* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineExtension*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_REMOVEEXTENSION_OFFSET))(this, extension);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineExtension*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_REMOVEEXTENSION_OFFSET))(this, a1);
 		}
 
-		::System::Void InvokePostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* vcam, ::Cinemachine::CinemachineCore_Stage stage, ::Cinemachine::CameraState& newState, ::System::Single deltaTime)
+		::System::Void InvokePostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState& a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEPOSTPIPELINESTAGECALLBACK_OFFSET))(this, vcam, stage, newState, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEPOSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void InvokePrePipelineMutateCameraStateCallback(::Cinemachine::CinemachineVirtualCameraBase* vcam, ::Cinemachine::CameraState& newState, ::System::Single deltaTime)
+		::System::Void InvokePrePipelineMutateCameraStateCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CameraState& a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEPREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET))(this, vcam, newState, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEPREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean InvokeOnTransitionInExtensions(::Cinemachine::ICinemachineCamera* fromCam, ::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::System::Boolean InvokeOnTransitionInExtensions(::Cinemachine::ICinemachineCamera* a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEONTRANSITIONINEXTENSIONS_OFFSET))(this, fromCam, worldUp, deltaTime);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_INVOKEONTRANSITIONINEXTENSIONS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* get_Name()
@@ -204,14 +204,14 @@ namespace Cinemachine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_PRIORITY_OFFSET))(this);
 		}
 
-		::System::Void set_Priority(::System::Int32 value)
+		::System::Void set_Priority(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_PRIORITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_PRIORITY_OFFSET))(this, a1);
 		}
 
-		::System::Void ApplyPositionBlendMethod(::Cinemachine::CameraState& state, ::Cinemachine::CinemachineVirtualCameraBase_BlendHint hint)
+		::System::Void ApplyPositionBlendMethod(::Cinemachine::CameraState& a1, ::Cinemachine::CinemachineVirtualCameraBase_BlendHint a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::Cinemachine::CinemachineVirtualCameraBase_BlendHint))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_APPLYPOSITIONBLENDMETHOD_OFFSET))(this, state, hint);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::Cinemachine::CinemachineVirtualCameraBase_BlendHint))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_APPLYPOSITIONBLENDMETHOD_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::GameObject* get_VirtualCameraGameObject()
@@ -229,9 +229,9 @@ namespace Cinemachine
 			return ((::Cinemachine::ICinemachineCamera*(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_PARENTCAMERA_OFFSET))(this);
 		}
 
-		::System::Boolean IsLiveChild(::Cinemachine::ICinemachineCamera* vcam, ::System::Boolean dominantChildOnly)
+		::System::Boolean IsLiveChild(::Cinemachine::ICinemachineCamera* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ISLIVECHILD_OFFSET))(this, vcam, dominantChildOnly);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ISLIVECHILD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_PreviousStateIsValid()
@@ -239,19 +239,19 @@ namespace Cinemachine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_GET_PREVIOUSSTATEISVALID_OFFSET))(this);
 		}
 
-		::System::Void set_PreviousStateIsValid(::System::Boolean value)
+		::System::Void set_PreviousStateIsValid(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_PREVIOUSSTATEISVALID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_SET_PREVIOUSSTATEISVALID_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateCameraState(::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::System::Void UpdateCameraState(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_UPDATECAMERASTATE_OFFSET))(this, worldUp, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_UPDATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* fromCam, ::UnityEngine::Vector3 worldUp, ::System::Single deltaTime)
+		::System::Void OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONTRANSITIONFROMCAMERA_OFFSET))(this, fromCam, worldUp, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONTRANSITIONFROMCAMERA_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnDestroy()
@@ -304,14 +304,14 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_UPDATESLAVESTATUS_OFFSET))(this);
 		}
 
-		::UnityEngine::Transform* ResolveLookAt(::UnityEngine::Transform* localLookAt)
+		::UnityEngine::Transform* ResolveLookAt(::UnityEngine::Transform* a1)
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_RESOLVELOOKAT_OFFSET))(this, localLookAt);
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_RESOLVELOOKAT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Transform* ResolveFollow(::UnityEngine::Transform* localFollow)
+		::UnityEngine::Transform* ResolveFollow(::UnityEngine::Transform* a1)
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_RESOLVEFOLLOW_OFFSET))(this, localFollow);
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_RESOLVEFOLLOW_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateVcamPoolStatus()
@@ -324,29 +324,29 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_MOVETOTOPOFPRIORITYSUBQUEUE_OFFSET))(this);
 		}
 
-		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* target, ::UnityEngine::Vector3 positionDelta)
+		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONTARGETOBJECTWARPED_OFFSET))(this, target, positionDelta);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONTARGETOBJECTWARPED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnWorldWarped(::UnityEngine::Vector3 positionDelta, ::System::Single yawDelta)
+		::System::Void OnWorldWarped(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONWORLDWARPED_OFFSET))(this, positionDelta, yawDelta);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_ONWORLDWARPED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ForceCameraPosition(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot)
+		::System::Void ForceCameraPosition(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_FORCECAMERAPOSITION_OFFSET))(this, pos, rot);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_FORCECAMERAPOSITION_OFFSET))(this, a1, a2);
 		}
 
-		::Cinemachine::CinemachineBlend* CreateBlend(::Cinemachine::ICinemachineCamera* camA, ::Cinemachine::ICinemachineCamera* camB, ::Cinemachine::CinemachineBlendDefinition blendDef, ::Cinemachine::CinemachineBlend* activeBlend)
+		::Cinemachine::CinemachineBlend* CreateBlend(::Cinemachine::ICinemachineCamera* a1, ::Cinemachine::ICinemachineCamera* a2, ::Cinemachine::CinemachineBlendDefinition a3, ::Cinemachine::CinemachineBlend* a4)
 		{
-			return ((::Cinemachine::CinemachineBlend*(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::Cinemachine::ICinemachineCamera*, ::Cinemachine::CinemachineBlendDefinition, ::Cinemachine::CinemachineBlend*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_CREATEBLEND_OFFSET))(this, camA, camB, blendDef, activeBlend);
+			return ((::Cinemachine::CinemachineBlend*(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::Cinemachine::ICinemachineCamera*, ::Cinemachine::CinemachineBlendDefinition, ::Cinemachine::CinemachineBlend*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_CREATEBLEND_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::Cinemachine::CameraState PullStateFromVirtualCamera(::UnityEngine::Vector3 worldUp, ::Cinemachine::LensSettings& lens)
+		::Cinemachine::CameraState PullStateFromVirtualCamera(::UnityEngine::Vector3 a1, ::Cinemachine::LensSettings& a2)
 		{
-			return ((::Cinemachine::CameraState(*)(::PVOID, ::UnityEngine::Vector3, ::Cinemachine::LensSettings&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_PULLSTATEFROMVIRTUALCAMERA_OFFSET))(this, worldUp, lens);
+			return ((::Cinemachine::CameraState(*)(::PVOID, ::UnityEngine::Vector3, ::Cinemachine::LensSettings&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEVIRTUALCAMERABASE_PULLSTATEFROMVIRTUALCAMERA_OFFSET))(this, a1, a2);
 		}
 	};
 }

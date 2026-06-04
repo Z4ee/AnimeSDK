@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERITEM_METHOD_2_604FBA5F0637FD12_OFFSET UNITYSDK_OFFSET(0x188FFF20)
-#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18900080)
+#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERITEM_METHOD_2_9099147E09DAF980_OFFSET UNITYSDK_OFFSET(0x1973B9A0)
+#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1973BAF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEventReceiverItem_TypeDefinitionIndex = 17702;
+	inline static constexpr unsigned int FiveDimEventReceiverItem_TypeDefinitionIndex = 17730;
 
 	class FiveDimEventReceiverItem : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVENTRECEIVERITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_604FBA5F0637FD12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEventReceiverItem*& a2)
+		static ::System::Void Method_2_9099147E09DAF980(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEventReceiverItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEventReceiverItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVENTRECEIVERITEM_METHOD_2_604FBA5F0637FD12_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEventReceiverItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVENTRECEIVERITEM_METHOD_2_9099147E09DAF980_OFFSET))(a1, a2);
 		}
 	};
 }

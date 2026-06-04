@@ -5,12 +5,12 @@
 
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkData; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINEMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9AFEBE0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINEMANAGER___C__DISPLAYCLASS11_0__GETFILTERSELECTABLEWORKLIST_B__0_OFFSET UNITYSDK_OFFSET(0x9AFEDF0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINEMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0E2950)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINEMANAGER___C__DISPLAYCLASS11_0__GETFILTERSELECTABLEWORKLIST_B__0_OFFSET UNITYSDK_OFFSET(0xB0E2CA0)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenRoutineManager___c__DisplayClass11_0_TypeDefinitionIndex = 69666;
+	inline static constexpr unsigned int ActivityHipplenRoutineManager___c__DisplayClass11_0_TypeDefinitionIndex = 70478;
 
 	class ActivityHipplenRoutineManager___c__DisplayClass11_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINEMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetFilterSelectableWorkList_b__0(::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* x)
+		::System::Boolean _GetFilterSelectableWorkList_b__0(::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINEMANAGER___C__DISPLAYCLASS11_0__GETFILTERSELECTABLEWORKLIST_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINEMANAGER___C__DISPLAYCLASS11_0__GETFILTERSELECTABLEWORKLIST_B__0_OFFSET))(this, a1);
 		}
 	};
 }

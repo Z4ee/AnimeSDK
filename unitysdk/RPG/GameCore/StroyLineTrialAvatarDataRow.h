@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EABA10)
-#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EABC30)
+#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CC8AA0)
+#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC8CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StroyLineTrialAvatarDataRow_TypeDefinitionIndex = 14394;
+	inline static constexpr unsigned int StroyLineTrialAvatarDataRow_TypeDefinitionIndex = 14435;
 
 	class StroyLineTrialAvatarDataRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x10
-		::Il2CppArray<::System::UInt32>* InitTrialAvatarList; // 0x18
+		::Il2CppArray<::System::UInt32>* InitTrialAvatarList; // 0x10
+		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x18
 		::System::Boolean SkipJoinLineup; // 0x20
 		::System::UInt32 CaptainAvatarID; // 0x24
 		::System::UInt32 StoryLineID; // 0x28
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STROYLINETRIALAVATARDATAROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::StroyLineTrialAvatarDataRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StroyLineTrialAvatarDataRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StroyLineTrialAvatarDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StroyLineTrialAvatarDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

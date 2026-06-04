@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_861;
+class Class_0_16E4307DCC419505_912;
 namespace RPG::GameCore { class TextJoinConfigRow; }
 
-#define CLASS_1_AC4F76C18614E368_METHOD_1_D1BB9E550E1FCC5F_OFFSET UNITYSDK_OFFSET(0x11E58680)
-#define CLASS_1_AC4F76C18614E368__CTOR_OFFSET UNITYSDK_OFFSET(0x11E58760)
+#define CLASS_1_AC4F76C18614E368_METHOD_1_D1BB9E550E1FCC5F_OFFSET UNITYSDK_OFFSET(0xAF50550)
+#define CLASS_1_AC4F76C18614E368__CTOR_OFFSET UNITYSDK_OFFSET(0xAF50630)
 
-inline static constexpr unsigned int Class_1_AC4F76C18614E368_TypeDefinitionIndex = 68654;
+inline static constexpr unsigned int Class_1_AC4F76C18614E368_TypeDefinitionIndex = 69466;
 
 class Class_1_AC4F76C18614E368 : public ::System::Object
 {
@@ -18,8 +18,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AC4F76C18614E368__CTOR_OFFSET))(this);
 	}
 
-	static ::Class_0_16E4307DCC419505_861* Method_1_D1BB9E550E1FCC5F(::RPG::GameCore::TextJoinConfigRow* a1)
+	static ::Class_0_16E4307DCC419505_912* Method_1_D1BB9E550E1FCC5F(::RPG::GameCore::TextJoinConfigRow* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_861*(*)(::RPG::GameCore::TextJoinConfigRow*))((::PBYTE)hIl2Cpp + CLASS_1_AC4F76C18614E368_METHOD_1_D1BB9E550E1FCC5F_OFFSET))(a1);
+		return ((::Class_0_16E4307DCC419505_912*(*)(::RPG::GameCore::TextJoinConfigRow*))((::PBYTE)hIl2Cpp + CLASS_1_AC4F76C18614E368_METHOD_1_D1BB9E550E1FCC5F_OFFSET))(a1);
 	}
 };

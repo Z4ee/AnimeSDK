@@ -8,10 +8,10 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1778EC20)
-#define MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1778ED00)
-#define MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1778E780)
-#define MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1778E760)
+#define MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18549720)
+#define MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18549800)
+#define MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x185496E0)
+#define MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18549660)
 
 namespace Microsoft::Win32
 {
@@ -20,24 +20,24 @@ namespace Microsoft::Win32
 	class UnsafeNativeMethods_ManifestEtw_EtwEnableCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Guid& sourceId, ::System::Int32 isEnabled, ::System::Byte level, ::System::Int64 matchAnyKeywords, ::System::Int64 matchAllKeywords, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR* filterData, ::System::Void* callbackContext)
+		::System::Void Invoke(::System::Guid& a1, ::System::Int32 a2, ::System::Byte a3, ::System::Int64 a4, ::System::Int64 a5, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR* a6, ::System::Void* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid&, ::System::Int32, ::System::Byte, ::System::Int64, ::System::Int64, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR*, ::System::Void*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_INVOKE_OFFSET))(this, sourceId, isEnabled, level, matchAnyKeywords, matchAllKeywords, filterData, callbackContext);
+			return ((::System::Void(*)(::PVOID, ::System::Guid&, ::System::Int32, ::System::Byte, ::System::Int64, ::System::Int64, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR*, ::System::Void*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_INVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Guid& sourceId, ::System::Int32 isEnabled, ::System::Byte level, ::System::Int64 matchAnyKeywords, ::System::Int64 matchAllKeywords, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR* filterData, ::System::Void* callbackContext, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Guid& a1, ::System::Int32 a2, ::System::Byte a3, ::System::Int64 a4, ::System::Int64 a5, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR* a6, ::System::Void* a7, ::System::AsyncCallback* a8, ::System::Object* a9)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Guid&, ::System::Int32, ::System::Byte, ::System::Int64, ::System::Int64, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR*, ::System::Void*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_BEGININVOKE_OFFSET))(this, sourceId, isEnabled, level, matchAnyKeywords, matchAllKeywords, filterData, callbackContext, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Guid&, ::System::Int32, ::System::Byte, ::System::Int64, ::System::Int64, ::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR*, ::System::Void*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Void EndInvoke(::System::Guid& sourceId, ::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::Guid& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_ENDINVOKE_OFFSET))(this, sourceId, result);
+			return ((::System::Void(*)(::PVOID, ::System::Guid&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_UNSAFENATIVEMETHODS_MANIFESTETW_ETWENABLECALLBACK_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

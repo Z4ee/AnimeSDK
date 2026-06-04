@@ -6,7 +6,7 @@
 
 template <typename T1, typename T2, typename T3> class Struct_2_FEC02DE91E0436C1_FuncClosureWrapper_VoidResult_3___c;
 
-inline static constexpr unsigned int Struct_2_FEC02DE91E0436C1_FuncClosureWrapper_VoidResult_3___c_TypeDefinitionIndex = 9005;
+inline static constexpr unsigned int Struct_2_FEC02DE91E0436C1_FuncClosureWrapper_VoidResult_3___c_TypeDefinitionIndex = 6869;
 
 template <typename T0, typename T1, typename T2>
 class Struct_2_FEC02DE91E0436C1_FuncClosureWrapper_VoidResult_3___c : public ::System::Object

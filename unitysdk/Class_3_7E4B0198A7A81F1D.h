@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetMissionAudioState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7E4B0198A7A81F1D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1239B4E0)
-#define CLASS_3_7E4B0198A7A81F1D__CTOR_OFFSET UNITYSDK_OFFSET(0x1239B4B0)
+#define CLASS_3_7E4B0198A7A81F1D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF439E0)
+#define CLASS_3_7E4B0198A7A81F1D__CTOR_OFFSET UNITYSDK_OFFSET(0xBF439B0)
 
-inline static constexpr unsigned int Class_3_7E4B0198A7A81F1D_TypeDefinitionIndex = 53984;
+inline static constexpr unsigned int Class_3_7E4B0198A7A81F1D_TypeDefinitionIndex = 54709;
 
 class Class_3_7E4B0198A7A81F1D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetMissionAudioState*>
 {

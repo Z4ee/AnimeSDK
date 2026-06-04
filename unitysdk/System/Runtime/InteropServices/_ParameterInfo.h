@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _ParameterInfo_TypeDefinitionIndex = 1441;
+	inline static constexpr unsigned int _ParameterInfo_TypeDefinitionIndex = 1440;
 
 	class _ParameterInfo
 	{

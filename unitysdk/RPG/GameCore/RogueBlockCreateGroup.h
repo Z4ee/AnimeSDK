@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RogueDLCBlockWeight; }
 namespace RPG::GameCore { class RogueDLCMarkType; }
 
-#define RPG_GAMECORE_ROGUEBLOCKCREATEGROUP_METHOD_2_87B509123B6B96DC_OFFSET UNITYSDK_OFFSET(0x18CEED90)
-#define RPG_GAMECORE_ROGUEBLOCKCREATEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18CEEFC0)
+#define RPG_GAMECORE_ROGUEBLOCKCREATEGROUP_METHOD_2_F02454F779035563_OFFSET UNITYSDK_OFFSET(0x19B14410)
+#define RPG_GAMECORE_ROGUEBLOCKCREATEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19B14640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueBlockCreateGroup_TypeDefinitionIndex = 17009;
+	inline static constexpr unsigned int RogueBlockCreateGroup_TypeDefinitionIndex = 17023;
 
 	class RogueBlockCreateGroup : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBLOCKCREATEGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_87B509123B6B96DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueBlockCreateGroup*& a2)
+		static ::System::Void Method_2_F02454F779035563(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueBlockCreateGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueBlockCreateGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBLOCKCREATEGROUP_METHOD_2_87B509123B6B96DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueBlockCreateGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBLOCKCREATEGROUP_METHOD_2_F02454F779035563_OFFSET))(a1, a2);
 		}
 	};
 }

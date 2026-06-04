@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_869;
+class Class_1_D17272E82AE804C2_827;
+namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_872_TypeDefinitionIndex = 63002;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_872_TypeDefinitionIndex = 62844;
 
 class Class_0_16E4307DCC419505_872
 {

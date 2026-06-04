@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define RPG_GAMECORE_GRIDFIGHTGUIDETALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB6B3C70)
+#define RPG_GAMECORE_GRIDFIGHTGUIDETALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCE20CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightGuideTalkConfig_TypeDefinitionIndex = 49371;
+	inline static constexpr unsigned int GridFightGuideTalkConfig_TypeDefinitionIndex = 50038;
 
 	class GridFightGuideTalkConfig : public ::System::Object
 	{

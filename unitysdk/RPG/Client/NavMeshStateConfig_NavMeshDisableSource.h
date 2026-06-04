@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NavMeshStateConfig_NavMeshDisableSource_TypeDefinitionIndex = 63305;
+	inline static constexpr unsigned int NavMeshStateConfig_NavMeshDisableSource_TypeDefinitionIndex = 64222;
 
 	enum class NavMeshStateConfig_NavMeshDisableSource : ::System::Int32
 	{

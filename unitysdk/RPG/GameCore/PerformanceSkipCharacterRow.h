@@ -6,15 +6,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x18BE9100)
-#define RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BE91F0)
-#define RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x18BE9090)
-#define RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_RESET_OFFSET UNITYSDK_OFFSET(0x18BE90F0)
-#define RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE9320)
+#define RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x199FB2B0)
+#define RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199FB3A0)
+#define RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x199FB240)
+#define RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_RESET_OFFSET UNITYSDK_OFFSET(0x199FB2A0)
+#define RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199FB4D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipCharacterRow_TypeDefinitionIndex = 13616;
+	inline static constexpr unsigned int PerformanceSkipCharacterRow_TypeDefinitionIndex = 13686;
 
 	class PerformanceSkipCharacterRow : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW__CTOR_OFFSET))(this);
 		}
 
-		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> offsetData)
+		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMTABLEOFFSET_OFFSET))(this, offsetData);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMTABLEOFFSET_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -37,14 +37,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_RESET_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PerformanceSkipCharacterRow* val)
+		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceSkipCharacterRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceSkipCharacterRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMBINARYWITHOUTNEW_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceSkipCharacterRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::PerformanceSkipCharacterRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceSkipCharacterRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceSkipCharacterRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceSkipCharacterRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPCHARACTERROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

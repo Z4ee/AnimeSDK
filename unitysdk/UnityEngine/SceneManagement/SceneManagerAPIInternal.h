@@ -7,30 +7,30 @@
 namespace System { class String; }
 namespace UnityEngine { class AsyncOperation; }
 
-#define UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_LOADSCENEASYNCNAMEINDEXINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4849E0)
-#define UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_LOADSCENEASYNCNAMEINDEXINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A483C60)
-#define UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_UNLOADSCENENAMEINDEXINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A483D00)
+#define UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_LOADSCENEASYNCNAMEINDEXINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2D5430)
+#define UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_LOADSCENEASYNCNAMEINDEXINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B2D4690)
+#define UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_UNLOADSCENENAMEINDEXINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B2D4730)
 
 namespace UnityEngine::SceneManagement
 {
-	inline static constexpr unsigned int SceneManagerAPIInternal_TypeDefinitionIndex = 4316;
+	inline static constexpr unsigned int SceneManagerAPIInternal_TypeDefinitionIndex = 4490;
 
 	class SceneManagerAPIInternal : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::System::String* sceneName, ::System::Int32 sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters, ::System::Boolean mustCompleteNextFrame)
+		static ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::System::String* a1, ::System::Int32 a2, ::UnityEngine::SceneManagement::LoadSceneParameters a3, ::System::Boolean a4)
 		{
-			return ((::UnityEngine::AsyncOperation*(*)(::System::String*, ::System::Int32, ::UnityEngine::SceneManagement::LoadSceneParameters, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_LOADSCENEASYNCNAMEINDEXINTERNAL_OFFSET))(sceneName, sceneBuildIndex, parameters, mustCompleteNextFrame);
+			return ((::UnityEngine::AsyncOperation*(*)(::System::String*, ::System::Int32, ::UnityEngine::SceneManagement::LoadSceneParameters, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_LOADSCENEASYNCNAMEINDEXINTERNAL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::AsyncOperation* UnloadSceneNameIndexInternal(::System::String* sceneName, ::System::Int32 sceneBuildIndex, ::System::Boolean immediately, ::UnityEngine::SceneManagement::UnloadSceneOptions options, ::System::Boolean& outSuccess)
+		static ::UnityEngine::AsyncOperation* UnloadSceneNameIndexInternal(::System::String* a1, ::System::Int32 a2, ::System::Boolean a3, ::UnityEngine::SceneManagement::UnloadSceneOptions a4, ::System::Boolean& a5)
 		{
-			return ((::UnityEngine::AsyncOperation*(*)(::System::String*, ::System::Int32, ::System::Boolean, ::UnityEngine::SceneManagement::UnloadSceneOptions, ::System::Boolean&))((::PBYTE)hIl2Cpp + UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_UNLOADSCENENAMEINDEXINTERNAL_OFFSET))(sceneName, sceneBuildIndex, immediately, options, outSuccess);
+			return ((::UnityEngine::AsyncOperation*(*)(::System::String*, ::System::Int32, ::System::Boolean, ::UnityEngine::SceneManagement::UnloadSceneOptions, ::System::Boolean&))((::PBYTE)hIl2Cpp + UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_UNLOADSCENENAMEINDEXINTERNAL_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal_Injected(::System::String* sceneName, ::System::Int32 sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters& parameters, ::System::Boolean mustCompleteNextFrame)
+		static ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal_Injected(::System::String* a1, ::System::Int32 a2, ::UnityEngine::SceneManagement::LoadSceneParameters& a3, ::System::Boolean a4)
 		{
-			return ((::UnityEngine::AsyncOperation*(*)(::System::String*, ::System::Int32, ::UnityEngine::SceneManagement::LoadSceneParameters&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_LOADSCENEASYNCNAMEINDEXINTERNAL_INJECTED_OFFSET))(sceneName, sceneBuildIndex, parameters, mustCompleteNextFrame);
+			return ((::UnityEngine::AsyncOperation*(*)(::System::String*, ::System::Int32, ::UnityEngine::SceneManagement::LoadSceneParameters&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_SCENEMANAGEMENT_SCENEMANAGERAPIINTERNAL_LOADSCENEASYNCNAMEINDEXINTERNAL_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

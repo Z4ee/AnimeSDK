@@ -7,21 +7,21 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfTakeOutWait; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FA9CB9163F709F4A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11AA97B0)
-#define CLASS_3_FA9CB9163F709F4A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11AA92F0)
-#define CLASS_3_FA9CB9163F709F4A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11AA95C0)
-#define CLASS_3_FA9CB9163F709F4A_TICK_OFFSET UNITYSDK_OFFSET(0x11AA9610)
-#define CLASS_3_FA9CB9163F709F4A__CTOR_OFFSET UNITYSDK_OFFSET(0x11AA92C0)
-#define CLASS_3_FA9CB9163F709F4A___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11AA9810)
-#define CLASS_3_FA9CB9163F709F4A___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x11AA9800)
+#define CLASS_3_FA9CB9163F709F4A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA361970)
+#define CLASS_3_FA9CB9163F709F4A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA3614B0)
+#define CLASS_3_FA9CB9163F709F4A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA361780)
+#define CLASS_3_FA9CB9163F709F4A_TICK_OFFSET UNITYSDK_OFFSET(0xA3617D0)
+#define CLASS_3_FA9CB9163F709F4A__CTOR_OFFSET UNITYSDK_OFFSET(0xA361480)
+#define CLASS_3_FA9CB9163F709F4A___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA3619D0)
+#define CLASS_3_FA9CB9163F709F4A___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xA3619C0)
 
-inline static constexpr unsigned int Class_3_FA9CB9163F709F4A_TypeDefinitionIndex = 48156;
+inline static constexpr unsigned int Class_3_FA9CB9163F709F4A_TypeDefinitionIndex = 48780;
 
 class Class_3_FA9CB9163F709F4A : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfTakeOutWait*>
 {
 public:
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_1; // 0x28
-	::RPG::Client::ElfRestaurantGameInstance* Field_3_0; // 0x30
+	::RPG::Client::ElfRestaurantGameInstance* Field_3_0; // 0x28
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_1; // 0x30
 	::System::Single Field_3_2; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfTakeOutWait* a2)
@@ -49,9 +49,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_FA9CB9163F709F4A_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_FA9CB9163F709F4A___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_FA9CB9163F709F4A___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 	}
 
 	::System::Void __iFixBaseProxy_Dispose()

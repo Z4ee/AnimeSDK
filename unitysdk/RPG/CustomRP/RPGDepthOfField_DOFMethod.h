@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGDepthOfField_DOFMethod_TypeDefinitionIndex = 35173;
+	inline static constexpr unsigned int RPGDepthOfField_DOFMethod_TypeDefinitionIndex = 35473;
 
 	enum class RPGDepthOfField_DOFMethod : ::System::Int32
 	{

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class CakeRaceOwlbertAnim; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CAKERACEOWLBERTANIMCONFIG_METHOD_2_AFBA5DC2D1A9623F_OFFSET UNITYSDK_OFFSET(0x18773970)
-#define RPG_GAMECORE_CAKERACEOWLBERTANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18773A40)
+#define RPG_GAMECORE_CAKERACEOWLBERTANIMCONFIG_METHOD_2_BD854603E796B065_OFFSET UNITYSDK_OFFSET(0x195EFB00)
+#define RPG_GAMECORE_CAKERACEOWLBERTANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x195EFBE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceOwlbertAnimConfig_TypeDefinitionIndex = 17463;
+	inline static constexpr unsigned int CakeRaceOwlbertAnimConfig_TypeDefinitionIndex = 17466;
 
 	class CakeRaceOwlbertAnimConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEOWLBERTANIMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_AFBA5DC2D1A9623F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceOwlbertAnimConfig*& a2)
+		static ::System::Void Method_2_BD854603E796B065(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceOwlbertAnimConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceOwlbertAnimConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEOWLBERTANIMCONFIG_METHOD_2_AFBA5DC2D1A9623F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceOwlbertAnimConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEOWLBERTANIMCONFIG_METHOD_2_BD854603E796B065_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_NOTIFYMANAGER_DELAYPACKET__CTOR_OFFSET UNITYSDK_OFFSET(0xABD8340)
+#define RPG_CLIENT_NOTIFYMANAGER_DELAYPACKET__CTOR_OFFSET UNITYSDK_OFFSET(0xC2E54E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NotifyManager_DelayPacket_TypeDefinitionIndex = 54680;
+	inline static constexpr unsigned int NotifyManager_DelayPacket_TypeDefinitionIndex = 55407;
 
 	class NotifyManager_DelayPacket : public ::System::Object
 	{
@@ -15,9 +15,9 @@ namespace RPG::Client
 		::System::UInt32 RetCode; // 0x18
 		::System::UInt16 CmdID; // 0x1C
 
-		::System::Void _ctor(::System::UInt16 cmdID, ::System::UInt32 retcode, ::System::Object* rsp)
+		::System::Void _ctor(::System::UInt16 a1, ::System::UInt32 a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::UInt32, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOTIFYMANAGER_DELAYPACKET__CTOR_OFFSET))(this, cmdID, retcode, rsp);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::UInt32, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOTIFYMANAGER_DELAYPACKET__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

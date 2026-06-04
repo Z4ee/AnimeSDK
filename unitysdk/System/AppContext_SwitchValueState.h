@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int AppContext_SwitchValueState_TypeDefinitionIndex = 156;
+	inline static constexpr unsigned int AppContext_SwitchValueState_TypeDefinitionIndex = 155;
 
 	enum class AppContext_SwitchValueState : ::System::Int32
 	{

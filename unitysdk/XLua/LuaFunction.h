@@ -8,43 +8,43 @@ namespace System { class Type; }
 namespace XLua { class LuaEnv; }
 namespace XLua { class LuaTable; }
 
-#define XLUA_LUAFUNCTION_CALL_1_OFFSET UNITYSDK_OFFSET(0x112359E0)
-#define XLUA_LUAFUNCTION_CALL_OFFSET UNITYSDK_OFFSET(0x112361D0)
-#define XLUA_LUAFUNCTION_PUSH_OFFSET UNITYSDK_OFFSET(0x112368A0)
-#define XLUA_LUAFUNCTION_SETENV_OFFSET UNITYSDK_OFFSET(0x112365B0)
-#define XLUA_LUAFUNCTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x11236950)
-#define XLUA_LUAFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x112361C0)
+#define XLUA_LUAFUNCTION_CALL_1_OFFSET UNITYSDK_OFFSET(0x12E96DA0)
+#define XLUA_LUAFUNCTION_CALL_OFFSET UNITYSDK_OFFSET(0x12E97000)
+#define XLUA_LUAFUNCTION_PUSH_OFFSET UNITYSDK_OFFSET(0x12E976C0)
+#define XLUA_LUAFUNCTION_SETENV_OFFSET UNITYSDK_OFFSET(0x12E973D0)
+#define XLUA_LUAFUNCTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12E97770)
+#define XLUA_LUAFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x12E96FF0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaFunction_TypeDefinitionIndex = 46402;
+	inline static constexpr unsigned int LuaFunction_TypeDefinitionIndex = 46992;
 
 	class LuaFunction : public ::XLua::LuaBase
 	{
 	public:
-		::System::Void _ctor(::System::Int32 reference, ::XLua::LuaEnv* luaenv)
+		::System::Void _ctor(::System::Int32 a1, ::XLua::LuaEnv* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUAFUNCTION__CTOR_OFFSET))(this, reference, luaenv);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUAFUNCTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Object*>* Call(::Il2CppArray<::System::Object*>* args, ::Il2CppArray<::System::Type*>* returnTypes)
+		::Il2CppArray<::System::Object*>* Call(::Il2CppArray<::System::Object*>* a1, ::Il2CppArray<::System::Type*>* a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + XLUA_LUAFUNCTION_CALL_OFFSET))(this, args, returnTypes);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + XLUA_LUAFUNCTION_CALL_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Object*>* Call_1(::Il2CppArray<::System::Object*>* args)
+		::Il2CppArray<::System::Object*>* Call_1(::Il2CppArray<::System::Object*>* a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + XLUA_LUAFUNCTION_CALL_1_OFFSET))(this, args);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + XLUA_LUAFUNCTION_CALL_1_OFFSET))(this, a1);
 		}
 
-		::System::Void SetEnv(::XLua::LuaTable* env)
+		::System::Void SetEnv(::XLua::LuaTable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + XLUA_LUAFUNCTION_SETENV_OFFSET))(this, env);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + XLUA_LUAFUNCTION_SETENV_OFFSET))(this, a1);
 		}
 
-		::System::Void push(::System::IntPtr L)
+		::System::Void push(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUAFUNCTION_PUSH_OFFSET))(this, L);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUAFUNCTION_PUSH_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

@@ -7,22 +7,22 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Light; }
 namespace UnityEngine { class Renderer; }
 
-#define UNITYENGINE_RENDERING_CRPACTOR_ADDACTOR_OFFSET UNITYSDK_OFFSET(0x1A476DA0)
-#define UNITYENGINE_RENDERING_CRPACTOR_ADDFLAG_OFFSET UNITYSDK_OFFSET(0x1A476E00)
-#define UNITYENGINE_RENDERING_CRPACTOR_ATTACHRENDERS_OFFSET UNITYSDK_OFFSET(0x1A476DE0)
-#define UNITYENGINE_RENDERING_CRPACTOR_QUERYACTOR_OFFSET UNITYSDK_OFFSET(0x1A476E50)
-#define UNITYENGINE_RENDERING_CRPACTOR_REFRESHACTORRENDER_OFFSET UNITYSDK_OFFSET(0x1A476DD0)
-#define UNITYENGINE_RENDERING_CRPACTOR_REFRESHACTOR_OFFSET UNITYSDK_OFFSET(0x1A476DC0)
-#define UNITYENGINE_RENDERING_CRPACTOR_REMOVEACTOR_OFFSET UNITYSDK_OFFSET(0x1A476DB0)
-#define UNITYENGINE_RENDERING_CRPACTOR_REMOVEFLAG_OFFSET UNITYSDK_OFFSET(0x1A476E10)
-#define UNITYENGINE_RENDERING_CRPACTOR_SETABOVEOFFSET_OFFSET UNITYSDK_OFFSET(0x1A476DF0)
-#define UNITYENGINE_RENDERING_CRPACTOR_SETOBJLOCALLIGHT_OFFSET UNITYSDK_OFFSET(0x1A476E40)
-#define UNITYENGINE_RENDERING_CRPACTOR_SETOVERRIDECACHEPOS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A476E30)
-#define UNITYENGINE_RENDERING_CRPACTOR_SETOVERRIDECACHEPOS_OFFSET UNITYSDK_OFFSET(0x1A476E20)
+#define UNITYENGINE_RENDERING_CRPACTOR_ADDACTOR_OFFSET UNITYSDK_OFFSET(0x1B2C4F50)
+#define UNITYENGINE_RENDERING_CRPACTOR_ADDFLAG_OFFSET UNITYSDK_OFFSET(0x1B2C4FB0)
+#define UNITYENGINE_RENDERING_CRPACTOR_ATTACHRENDERS_OFFSET UNITYSDK_OFFSET(0x1B2C4F90)
+#define UNITYENGINE_RENDERING_CRPACTOR_QUERYACTOR_OFFSET UNITYSDK_OFFSET(0x1B2C5000)
+#define UNITYENGINE_RENDERING_CRPACTOR_REFRESHACTORRENDER_OFFSET UNITYSDK_OFFSET(0x1B2C4F80)
+#define UNITYENGINE_RENDERING_CRPACTOR_REFRESHACTOR_OFFSET UNITYSDK_OFFSET(0x1B2C4F70)
+#define UNITYENGINE_RENDERING_CRPACTOR_REMOVEACTOR_OFFSET UNITYSDK_OFFSET(0x1B2C4F60)
+#define UNITYENGINE_RENDERING_CRPACTOR_REMOVEFLAG_OFFSET UNITYSDK_OFFSET(0x1B2C4FC0)
+#define UNITYENGINE_RENDERING_CRPACTOR_SETABOVEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B2C4FA0)
+#define UNITYENGINE_RENDERING_CRPACTOR_SETOBJLOCALLIGHT_OFFSET UNITYSDK_OFFSET(0x1B2C4FF0)
+#define UNITYENGINE_RENDERING_CRPACTOR_SETOVERRIDECACHEPOS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2C4FE0)
+#define UNITYENGINE_RENDERING_CRPACTOR_SETOVERRIDECACHEPOS_OFFSET UNITYSDK_OFFSET(0x1B2C4FD0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPActor_TypeDefinitionIndex = 4674;
+	inline static constexpr unsigned int CRPActor_TypeDefinitionIndex = 4848;
 
 	struct alignas(8) CRPActor
 	{
@@ -31,64 +31,64 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Vector3 lastAffactLightVec; // 0x1C
 		::System::Int32 lightType; // 0x28
 
-		static ::System::Void AddActor(::UnityEngine::GameObject* go, ::System::UInt32 flag)
+		static ::System::Void AddActor(::UnityEngine::GameObject* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_ADDACTOR_OFFSET))(go, flag);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_ADDACTOR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void RemoveActor(::System::Int32 instanceID)
+		static ::System::Void RemoveActor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_REMOVEACTOR_OFFSET))(instanceID);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_REMOVEACTOR_OFFSET))(a1);
 		}
 
-		static ::System::Void RefreshActor(::UnityEngine::GameObject* go)
+		static ::System::Void RefreshActor(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_REFRESHACTOR_OFFSET))(go);
+			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_REFRESHACTOR_OFFSET))(a1);
 		}
 
-		static ::System::Void RefreshActorRender(::UnityEngine::GameObject* go, ::UnityEngine::Renderer* render)
+		static ::System::Void RefreshActorRender(::UnityEngine::GameObject* a1, ::UnityEngine::Renderer* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_REFRESHACTORRENDER_OFFSET))(go, render);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_REFRESHACTORRENDER_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AttachRenders(::UnityEngine::GameObject* go, ::UnityEngine::GameObject* subGO, ::System::Boolean attach)
+		static ::System::Void AttachRenders(::UnityEngine::GameObject* a1, ::UnityEngine::GameObject* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_ATTACHRENDERS_OFFSET))(go, subGO, attach);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_ATTACHRENDERS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetAboveOffset(::UnityEngine::GameObject* go, ::System::Single offsetY)
+		static ::System::Void SetAboveOffset(::UnityEngine::GameObject* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_SETABOVEOFFSET_OFFSET))(go, offsetY);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_SETABOVEOFFSET_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AddFlag(::UnityEngine::GameObject* go, ::System::UInt32 flag)
+		static ::System::Void AddFlag(::UnityEngine::GameObject* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_ADDFLAG_OFFSET))(go, flag);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_ADDFLAG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void RemoveFlag(::UnityEngine::GameObject* go, ::System::UInt32 flag)
+		static ::System::Void RemoveFlag(::UnityEngine::GameObject* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_REMOVEFLAG_OFFSET))(go, flag);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_REMOVEFLAG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetOverrideCachePos(::UnityEngine::GameObject* go, ::UnityEngine::Vector3 position, ::System::UInt32 flag, ::System::Boolean add)
+		static ::System::Void SetOverrideCachePos(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_SETOVERRIDECACHEPOS_OFFSET))(go, position, flag, add);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_SETOVERRIDECACHEPOS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void SetObjLocalLight(::UnityEngine::GameObject* go, ::UnityEngine::Light* light)
+		static ::System::Void SetObjLocalLight(::UnityEngine::GameObject* a1, ::UnityEngine::Light* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_SETOBJLOCALLIGHT_OFFSET))(go, light);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_SETOBJLOCALLIGHT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean QueryActor(::UnityEngine::GameObject* go, ::UnityEngine::Rendering::CRPActor& actor)
+		static ::System::Boolean QueryActor(::UnityEngine::GameObject* a1, ::UnityEngine::Rendering::CRPActor& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::GameObject*, ::UnityEngine::Rendering::CRPActor&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_QUERYACTOR_OFFSET))(go, actor);
+			return ((::System::Boolean(*)(::UnityEngine::GameObject*, ::UnityEngine::Rendering::CRPActor&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_QUERYACTOR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetOverrideCachePos_Injected(::UnityEngine::GameObject* go, ::UnityEngine::Vector3& position, ::System::UInt32 flag, ::System::Boolean add)
+		static ::System::Void SetOverrideCachePos_Injected(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3& a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3&, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_SETOVERRIDECACHEPOS_INJECTED_OFFSET))(go, position, flag, add);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3&, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CRPACTOR_SETOVERRIDECACHEPOS_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

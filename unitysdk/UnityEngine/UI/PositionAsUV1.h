@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_POSITIONASUV1_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1A580B10)
-#define UNITYENGINE_UI_POSITIONASUV1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A580B00)
+#define UNITYENGINE_UI_POSITIONASUV1_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1B3CE9D0)
+#define UNITYENGINE_UI_POSITIONASUV1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3CE9C0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int PositionAsUV1_TypeDefinitionIndex = 5771;
+	inline static constexpr unsigned int PositionAsUV1_TypeDefinitionIndex = 6048;
 
 	class PositionAsUV1 : public ::UnityEngine::UI::BaseMeshEffect
 	{
@@ -19,9 +19,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_POSITIONASUV1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ModifyMesh(::UnityEngine::UI::VertexHelper* vh)
+		::System::Void ModifyMesh(::UnityEngine::UI::VertexHelper* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_POSITIONASUV1_MODIFYMESH_OFFSET))(this, vh);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_POSITIONASUV1_MODIFYMESH_OFFSET))(this, a1);
 		}
 	};
 }

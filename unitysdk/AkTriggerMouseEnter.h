@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkTriggerBase.h"
 
-#define AKTRIGGERMOUSEENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A66D880)
+#define AKTRIGGERMOUSEENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B8A70)
 
-inline static constexpr unsigned int AkTriggerMouseEnter_TypeDefinitionIndex = 40525;
+inline static constexpr unsigned int AkTriggerMouseEnter_TypeDefinitionIndex = 41352;
 
 class AkTriggerMouseEnter : public ::AkTriggerBase
 {

@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12C43500)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12C43530)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x12C3C550)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x12C434E0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x146EFEC0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x146EFEF0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x146EADC0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x146EFDD0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_PinchEndHandler_TypeDefinitionIndex = 37053;
+	inline static constexpr unsigned int EasyTouch_PinchEndHandler_TypeDefinitionIndex = 37353;
 
 	class EasyTouch_PinchEndHandler : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_INVOKE_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::HedgehogTeam::EasyTouch::Gesture* gesture, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::HedgehogTeam::EasyTouch::Gesture* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_BEGININVOKE_OFFSET))(this, gesture, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_PINCHENDHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

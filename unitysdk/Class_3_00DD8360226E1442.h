@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsRogueTournLastRoom; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_00DD8360226E1442_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11B3E010)
-#define CLASS_3_00DD8360226E1442__CTOR_OFFSET UNITYSDK_OFFSET(0x11B3DFE0)
+#define CLASS_3_00DD8360226E1442_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1237C760)
+#define CLASS_3_00DD8360226E1442__CTOR_OFFSET UNITYSDK_OFFSET(0x1237C730)
 
-inline static constexpr unsigned int Class_3_00DD8360226E1442_TypeDefinitionIndex = 53471;
+inline static constexpr unsigned int Class_3_00DD8360226E1442_TypeDefinitionIndex = 54184;
 
 class Class_3_00DD8360226E1442 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsRogueTournLastRoom*>
 {

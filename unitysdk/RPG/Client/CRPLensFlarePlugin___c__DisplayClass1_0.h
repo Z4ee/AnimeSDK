@@ -6,12 +6,12 @@ namespace RPG::Client { class CRPLensFlarePlugin; }
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class OnAssetOperationDelegate; }
 
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EBA4B0)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0___ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x9EBAA40)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB456FD0)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0___ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xB4575E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPLensFlarePlugin___c__DisplayClass1_0_TypeDefinitionIndex = 64688;
+	inline static constexpr unsigned int CRPLensFlarePlugin___c__DisplayClass1_0_TypeDefinitionIndex = 65609;
 
 	class CRPLensFlarePlugin___c__DisplayClass1_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __AsyncLoad_b__0(::RPG::Client::IAssetOperation* assetOpt)
+		::System::Boolean __AsyncLoad_b__0(::RPG::Client::IAssetOperation* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0___ASYNCLOAD_B__0_OFFSET))(this, assetOpt);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0___ASYNCLOAD_B__0_OFFSET))(this, a1);
 		}
 	};
 }

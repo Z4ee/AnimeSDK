@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_COOKIETOKENIZER_RECOGNIZEDATTRIBUTE_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0xD240)
-#define SYSTEM_NET_COOKIETOKENIZER_RECOGNIZEDATTRIBUTE_ISEQUALTO_OFFSET UNITYSDK_OFFSET(0x22D4330)
-#define SYSTEM_NET_COOKIETOKENIZER_RECOGNIZEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x77400)
+#define SYSTEM_NET_COOKIETOKENIZER_RECOGNIZEDATTRIBUTE_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0xDAD0)
+#define SYSTEM_NET_COOKIETOKENIZER_RECOGNIZEDATTRIBUTE_ISEQUALTO_OFFSET UNITYSDK_OFFSET(0x386FC30)
+#define SYSTEM_NET_COOKIETOKENIZER_RECOGNIZEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x89650)
 
 namespace System::Net
 {
@@ -18,9 +18,9 @@ namespace System::Net
 		::System::String* m_name; // 0x10
 		::System::Net::CookieToken m_token; // 0x18
 
-		::System::Void _ctor(::System::String* name, ::System::Net::CookieToken token)
+		::System::Void _ctor(::System::String* a1, ::System::Net::CookieToken a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::CookieToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIETOKENIZER_RECOGNIZEDATTRIBUTE__CTOR_OFFSET))(this, name, token);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::CookieToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIETOKENIZER_RECOGNIZEDATTRIBUTE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::CookieToken get_Token()
@@ -28,9 +28,9 @@ namespace System::Net
 			return ((::System::Net::CookieToken(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIETOKENIZER_RECOGNIZEDATTRIBUTE_GET_TOKEN_OFFSET))(this);
 		}
 
-		::System::Boolean IsEqualTo(::System::String* value)
+		::System::Boolean IsEqualTo(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIETOKENIZER_RECOGNIZEDATTRIBUTE_ISEQUALTO_OFFSET))(this, value);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIETOKENIZER_RECOGNIZEDATTRIBUTE_ISEQUALTO_OFFSET))(this, a1);
 		}
 	};
 }

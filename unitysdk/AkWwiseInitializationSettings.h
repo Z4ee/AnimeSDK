@@ -10,38 +10,38 @@ class AkWwiseInitializationSettings_PlatformSettings;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKWWISEINITIALIZATIONSETTINGS_GETADVANCEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A66F340)
-#define AKWWISEINITIALIZATIONSETTINGS_GETCOMMSSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A66F380)
-#define AKWWISEINITIALIZATIONSETTINGS_GETPLATFORMSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A66F540)
-#define AKWWISEINITIALIZATIONSETTINGS_GETUSERSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A66F300)
-#define AKWWISEINITIALIZATIONSETTINGS_GET_ACTIVEPLATFORMSETTINGS_OFFSET UNITYSDK_OFFSET(0x1A66F7C0)
-#define AKWWISEINITIALIZATIONSETTINGS_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1A66F2B0)
-#define AKWWISEINITIALIZATIONSETTINGS_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A66F3C0)
-#define AKWWISEINITIALIZATIONSETTINGS_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1A66F240)
-#define AKWWISEINITIALIZATIONSETTINGS_INITIALIZESOUNDENGINE_OFFSET UNITYSDK_OFFSET(0x1A66FB10)
-#define AKWWISEINITIALIZATIONSETTINGS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A66F950)
-#define AKWWISEINITIALIZATIONSETTINGS_RESETSOUNDENGINE_OFFSET UNITYSDK_OFFSET(0x1A6708C0)
-#define AKWWISEINITIALIZATIONSETTINGS_SLEEPFORMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x1A6711B0)
-#define AKWWISEINITIALIZATIONSETTINGS_TERMINATESOUNDENGINE_OFFSET UNITYSDK_OFFSET(0x1A670BA0)
-#define AKWWISEINITIALIZATIONSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6714E0)
-#define AKWWISEINITIALIZATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A671460)
+#define AKWWISEINITIALIZATIONSETTINGS_GETADVANCEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1B4BA4B0)
+#define AKWWISEINITIALIZATIONSETTINGS_GETCOMMSSETTINGS_OFFSET UNITYSDK_OFFSET(0x1B4BA4F0)
+#define AKWWISEINITIALIZATIONSETTINGS_GETPLATFORMSETTINGS_OFFSET UNITYSDK_OFFSET(0x1B4BA6B0)
+#define AKWWISEINITIALIZATIONSETTINGS_GETUSERSETTINGS_OFFSET UNITYSDK_OFFSET(0x1B4BA470)
+#define AKWWISEINITIALIZATIONSETTINGS_GET_ACTIVEPLATFORMSETTINGS_OFFSET UNITYSDK_OFFSET(0x1B4BA960)
+#define AKWWISEINITIALIZATIONSETTINGS_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1B4BA420)
+#define AKWWISEINITIALIZATIONSETTINGS_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B4BA530)
+#define AKWWISEINITIALIZATIONSETTINGS_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B4BA3B0)
+#define AKWWISEINITIALIZATIONSETTINGS_INITIALIZESOUNDENGINE_OFFSET UNITYSDK_OFFSET(0x1B4BACB0)
+#define AKWWISEINITIALIZATIONSETTINGS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B4BAAF0)
+#define AKWWISEINITIALIZATIONSETTINGS_RESETSOUNDENGINE_OFFSET UNITYSDK_OFFSET(0x1B4BBA20)
+#define AKWWISEINITIALIZATIONSETTINGS_SLEEPFORMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x1B4BC310)
+#define AKWWISEINITIALIZATIONSETTINGS_TERMINATESOUNDENGINE_OFFSET UNITYSDK_OFFSET(0x1B4BBD00)
+#define AKWWISEINITIALIZATIONSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4BC670)
+#define AKWWISEINITIALIZATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4BC5F0)
 
-inline static constexpr unsigned int AkWwiseInitializationSettings_TypeDefinitionIndex = 40412;
+inline static constexpr unsigned int AkWwiseInitializationSettings_TypeDefinitionIndex = 41239;
 
 class AkWwiseInitializationSettings : public ::AkCommonPlatformSettings
 {
 public:
 	static ::AkBasePlatformSettings** StaticGet_m_ActivePlatformSettings()
 	{
-		return (::AkBasePlatformSettings**)Il2CppClass::FromTypeDefinitionIndex(AkWwiseInitializationSettings_TypeDefinitionIndex)->GetStaticField(0x3F260);
-	}
-	static ::AkWwiseInitializationSettings** StaticGet_m_Instance()
-	{
-		return (::AkWwiseInitializationSettings**)Il2CppClass::FromTypeDefinitionIndex(AkWwiseInitializationSettings_TypeDefinitionIndex)->GetStaticField(0x3F268);
+		return (::AkBasePlatformSettings**)Il2CppClass::FromTypeDefinitionIndex(AkWwiseInitializationSettings_TypeDefinitionIndex)->GetStaticField(0x613F0);
 	}
 	static ::Il2CppArray<::System::String*>** StaticGet_AllGlobalValues()
 	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AkWwiseInitializationSettings_TypeDefinitionIndex)->GetStaticField(0x3F270);
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AkWwiseInitializationSettings_TypeDefinitionIndex)->GetStaticField(0x613F8);
+	}
+	static ::AkWwiseInitializationSettings** StaticGet_m_Instance()
+	{
+		return (::AkWwiseInitializationSettings**)Il2CppClass::FromTypeDefinitionIndex(AkWwiseInitializationSettings_TypeDefinitionIndex)->GetStaticField(0x61400);
 	}
 	::System::Collections::Generic::List_1<::System::String*>* PlatformSettingsNameList; // 0x18
 	::System::Collections::Generic::List_1<::AkWwiseInitializationSettings_PlatformSettings*>* PlatformSettingsList; // 0x20
@@ -90,9 +90,9 @@ public:
 		return ((::AkWwiseInitializationSettings*(*)())((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_GET_INSTANCE_OFFSET))();
 	}
 
-	static ::AkBasePlatformSettings* GetPlatformSettings(::System::String* platformName)
+	static ::AkBasePlatformSettings* GetPlatformSettings(::System::String* a1)
 	{
-		return ((::AkBasePlatformSettings*(*)(::System::String*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_GETPLATFORMSETTINGS_OFFSET))(platformName);
+		return ((::AkBasePlatformSettings*(*)(::System::String*))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_GETPLATFORMSETTINGS_OFFSET))(a1);
 	}
 
 	static ::AkBasePlatformSettings* get_ActivePlatformSettings()
@@ -110,9 +110,9 @@ public:
 		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_INITIALIZESOUNDENGINE_OFFSET))();
 	}
 
-	static ::System::Boolean ResetSoundEngine(::System::Boolean isPlaying)
+	static ::System::Boolean ResetSoundEngine(::System::Boolean a1)
 	{
-		return ((::System::Boolean(*)(::System::Boolean))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_RESETSOUNDENGINE_OFFSET))(isPlaying);
+		return ((::System::Boolean(*)(::System::Boolean))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_RESETSOUNDENGINE_OFFSET))(a1);
 	}
 
 	static ::System::Void TerminateSoundEngine()
@@ -120,8 +120,8 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_TERMINATESOUNDENGINE_OFFSET))();
 	}
 
-	static ::System::Void SleepForMilliseconds(::System::Double milliseconds)
+	static ::System::Void SleepForMilliseconds(::System::Double a1)
 	{
-		return ((::System::Void(*)(::System::Double))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_SLEEPFORMILLISECONDS_OFFSET))(milliseconds);
+		return ((::System::Void(*)(::System::Double))((::PBYTE)hIl2Cpp + AKWWISEINITIALIZATIONSETTINGS_SLEEPFORMILLISECONDS_OFFSET))(a1);
 	}
 };

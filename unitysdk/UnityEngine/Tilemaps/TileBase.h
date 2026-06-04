@@ -8,17 +8,17 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Tilemaps { class ITilemap; }
 
-#define UNITYENGINE_TILEMAPS_TILEBASE_GETTILEANIMATIONDATANOREF_OFFSET UNITYSDK_OFFSET(0x1A503320)
-#define UNITYENGINE_TILEMAPS_TILEBASE_GETTILEANIMATIONDATA_OFFSET UNITYSDK_OFFSET(0x1A503310)
-#define UNITYENGINE_TILEMAPS_TILEBASE_GETTILEDATANOREF_OFFSET UNITYSDK_OFFSET(0x1A503240)
-#define UNITYENGINE_TILEMAPS_TILEBASE_GETTILEDATA_OFFSET UNITYSDK_OFFSET(0x1A503230)
-#define UNITYENGINE_TILEMAPS_TILEBASE_REFRESHTILE_OFFSET UNITYSDK_OFFSET(0x1A5031F0)
-#define UNITYENGINE_TILEMAPS_TILEBASE_STARTUP_OFFSET UNITYSDK_OFFSET(0x1A503380)
-#define UNITYENGINE_TILEMAPS_TILEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5031E0)
+#define UNITYENGINE_TILEMAPS_TILEBASE_GETTILEANIMATIONDATANOREF_OFFSET UNITYSDK_OFFSET(0x1B34E360)
+#define UNITYENGINE_TILEMAPS_TILEBASE_GETTILEANIMATIONDATA_OFFSET UNITYSDK_OFFSET(0x1B34E350)
+#define UNITYENGINE_TILEMAPS_TILEBASE_GETTILEDATANOREF_OFFSET UNITYSDK_OFFSET(0x1B34E280)
+#define UNITYENGINE_TILEMAPS_TILEBASE_GETTILEDATA_OFFSET UNITYSDK_OFFSET(0x1B34E270)
+#define UNITYENGINE_TILEMAPS_TILEBASE_REFRESHTILE_OFFSET UNITYSDK_OFFSET(0x1B34E230)
+#define UNITYENGINE_TILEMAPS_TILEBASE_STARTUP_OFFSET UNITYSDK_OFFSET(0x1B34E3C0)
+#define UNITYENGINE_TILEMAPS_TILEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34E220)
 
 namespace UnityEngine::Tilemaps
 {
-	inline static constexpr unsigned int TileBase_TypeDefinitionIndex = 5557;
+	inline static constexpr unsigned int TileBase_TypeDefinitionIndex = 5834;
 
 	class TileBase : public ::UnityEngine::ScriptableObject
 	{
@@ -28,34 +28,34 @@ namespace UnityEngine::Tilemaps
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void RefreshTile(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap)
+		::System::Void RefreshTile(::UnityEngine::Vector3Int a1, ::UnityEngine::Tilemaps::ITilemap* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_REFRESHTILE_OFFSET))(this, position, tilemap);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_REFRESHTILE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetTileData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::UnityEngine::Tilemaps::TileData& tileData)
+		::System::Void GetTileData(::UnityEngine::Vector3Int a1, ::UnityEngine::Tilemaps::ITilemap* a2, ::UnityEngine::Tilemaps::TileData& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::UnityEngine::Tilemaps::TileData&))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_GETTILEDATA_OFFSET))(this, position, tilemap, tileData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::UnityEngine::Tilemaps::TileData&))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_GETTILEDATA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Tilemaps::TileData GetTileDataNoRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap)
+		::UnityEngine::Tilemaps::TileData GetTileDataNoRef(::UnityEngine::Vector3Int a1, ::UnityEngine::Tilemaps::ITilemap* a2)
 		{
-			return ((::UnityEngine::Tilemaps::TileData(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_GETTILEDATANOREF_OFFSET))(this, position, tilemap);
+			return ((::UnityEngine::Tilemaps::TileData(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_GETTILEDATANOREF_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean GetTileAnimationData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::UnityEngine::Tilemaps::TileAnimationData& tileAnimationData)
+		::System::Boolean GetTileAnimationData(::UnityEngine::Vector3Int a1, ::UnityEngine::Tilemaps::ITilemap* a2, ::UnityEngine::Tilemaps::TileAnimationData& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::UnityEngine::Tilemaps::TileAnimationData&))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_GETTILEANIMATIONDATA_OFFSET))(this, position, tilemap, tileAnimationData);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::UnityEngine::Tilemaps::TileAnimationData&))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_GETTILEANIMATIONDATA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Tilemaps::TileAnimationData GetTileAnimationDataNoRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap)
+		::UnityEngine::Tilemaps::TileAnimationData GetTileAnimationDataNoRef(::UnityEngine::Vector3Int a1, ::UnityEngine::Tilemaps::ITilemap* a2)
 		{
-			return ((::UnityEngine::Tilemaps::TileAnimationData(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_GETTILEANIMATIONDATANOREF_OFFSET))(this, position, tilemap);
+			return ((::UnityEngine::Tilemaps::TileAnimationData(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_GETTILEANIMATIONDATANOREF_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean StartUp(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::UnityEngine::GameObject* go)
+		::System::Boolean StartUp(::UnityEngine::Vector3Int a1, ::UnityEngine::Tilemaps::ITilemap* a2, ::UnityEngine::GameObject* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_STARTUP_OFFSET))(this, position, tilemap, go);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILEBASE_STARTUP_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

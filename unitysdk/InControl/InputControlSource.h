@@ -7,33 +7,33 @@
 namespace InControl { class InputDevice; }
 namespace System { class String; }
 
-#define INCONTROL_INPUTCONTROLSOURCE_GETSTATE_OFFSET UNITYSDK_OFFSET(0x2296C20)
-#define INCONTROL_INPUTCONTROLSOURCE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x2296C10)
-#define INCONTROL_INPUTCONTROLSOURCE_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x1DA80)
-#define INCONTROL_INPUTCONTROLSOURCE_GET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x59D0)
-#define INCONTROL_INPUTCONTROLSOURCE_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x1D50)
-#define INCONTROL_INPUTCONTROLSOURCE_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x299E0)
-#define INCONTROL_INPUTCONTROLSOURCE_TOCODE_OFFSET UNITYSDK_OFFSET(0x2296C30)
-#define INCONTROL_INPUTCONTROLSOURCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2296C00)
-#define INCONTROL_INPUTCONTROLSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x73E20)
+#define INCONTROL_INPUTCONTROLSOURCE_GETSTATE_OFFSET UNITYSDK_OFFSET(0x3824800)
+#define INCONTROL_INPUTCONTROLSOURCE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x38247F0)
+#define INCONTROL_INPUTCONTROLSOURCE_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x1E110)
+#define INCONTROL_INPUTCONTROLSOURCE_GET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define INCONTROL_INPUTCONTROLSOURCE_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x21F0)
+#define INCONTROL_INPUTCONTROLSOURCE_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x2C4C0)
+#define INCONTROL_INPUTCONTROLSOURCE_TOCODE_OFFSET UNITYSDK_OFFSET(0x3824810)
+#define INCONTROL_INPUTCONTROLSOURCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x38247E0)
+#define INCONTROL_INPUTCONTROLSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x7BBE0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputControlSource_TypeDefinitionIndex = 37127;
+	inline static constexpr unsigned int InputControlSource_TypeDefinitionIndex = 37859;
 
 	struct alignas(4) InputControlSource
 	{
 		::InControl::InputControlSourceType sourceType; // 0x10
 		::System::Int32 index; // 0x14
 
-		::System::Void _ctor(::InControl::InputControlSourceType sourceType, ::System::Int32 index)
+		::System::Void _ctor(::InControl::InputControlSourceType a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputControlSourceType, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE__CTOR_OFFSET))(this, sourceType, index);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputControlSourceType, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::KeyCode keyCode)
+		::System::Void _ctor_1(::UnityEngine::KeyCode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::KeyCode))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE__CTOR_1_OFFSET))(this, keyCode);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::KeyCode))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::InControl::InputControlSourceType get_SourceType()
@@ -41,9 +41,9 @@ namespace InControl
 			return ((::InControl::InputControlSourceType(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE_GET_SOURCETYPE_OFFSET))(this);
 		}
 
-		::System::Void set_SourceType(::InControl::InputControlSourceType value)
+		::System::Void set_SourceType(::InControl::InputControlSourceType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputControlSourceType))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE_SET_SOURCETYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputControlSourceType))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE_SET_SOURCETYPE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Index()
@@ -51,19 +51,19 @@ namespace InControl
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE_GET_INDEX_OFFSET))(this);
 		}
 
-		::System::Void set_Index(::System::Int32 value)
+		::System::Void set_Index(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE_SET_INDEX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE_SET_INDEX_OFFSET))(this, a1);
 		}
 
-		::System::Single GetValue(::InControl::InputDevice* inputDevice)
+		::System::Single GetValue(::InControl::InputDevice* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE_GETVALUE_OFFSET))(this, inputDevice);
+			return ((::System::Single(*)(::PVOID, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE_GETVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean GetState(::InControl::InputDevice* inputDevice)
+		::System::Boolean GetState(::InControl::InputDevice* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE_GETSTATE_OFFSET))(this, inputDevice);
+			return ((::System::Boolean(*)(::PVOID, ::InControl::InputDevice*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSOURCE_GETSTATE_OFFSET))(this, a1);
 		}
 
 		::System::String* ToCode()

@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DOMAINNAMEHELPER_IDNEQUIVALENT_1_OFFSET UNITYSDK_OFFSET(0x1A0E4EB0)
-#define SYSTEM_DOMAINNAMEHELPER_IDNEQUIVALENT_OFFSET UNITYSDK_OFFSET(0x1A0E4BB0)
-#define SYSTEM_DOMAINNAMEHELPER_ISASCIILETTERORDIGIT_OFFSET UNITYSDK_OFFSET(0x1A0E4970)
-#define SYSTEM_DOMAINNAMEHELPER_ISIDNACE_1_OFFSET UNITYSDK_OFFSET(0x1A0E5130)
-#define SYSTEM_DOMAINNAMEHELPER_ISIDNACE_OFFSET UNITYSDK_OFFSET(0x1A0E5160)
-#define SYSTEM_DOMAINNAMEHELPER_ISVALIDBYIRI_OFFSET UNITYSDK_OFFSET(0x1A0E49E0)
-#define SYSTEM_DOMAINNAMEHELPER_ISVALIDDOMAINLABELCHARACTER_OFFSET UNITYSDK_OFFSET(0x1A0E49A0)
-#define SYSTEM_DOMAINNAMEHELPER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1A0E4800)
-#define SYSTEM_DOMAINNAMEHELPER_PARSECANONICALNAME_OFFSET UNITYSDK_OFFSET(0x1A0E4630)
-#define SYSTEM_DOMAINNAMEHELPER_UNICODEEQUIVALENT_1_OFFSET UNITYSDK_OFFSET(0x1A0E53A0)
-#define SYSTEM_DOMAINNAMEHELPER_UNICODEEQUIVALENT_OFFSET UNITYSDK_OFFSET(0x1A0E5260)
+#define SYSTEM_DOMAINNAMEHELPER_IDNEQUIVALENT_1_OFFSET UNITYSDK_OFFSET(0x1AF4D250)
+#define SYSTEM_DOMAINNAMEHELPER_IDNEQUIVALENT_OFFSET UNITYSDK_OFFSET(0x1AF4CF40)
+#define SYSTEM_DOMAINNAMEHELPER_ISASCIILETTERORDIGIT_OFFSET UNITYSDK_OFFSET(0x1AF4CD00)
+#define SYSTEM_DOMAINNAMEHELPER_ISIDNACE_1_OFFSET UNITYSDK_OFFSET(0x1AF4D4D0)
+#define SYSTEM_DOMAINNAMEHELPER_ISIDNACE_OFFSET UNITYSDK_OFFSET(0x1AF4D500)
+#define SYSTEM_DOMAINNAMEHELPER_ISVALIDBYIRI_OFFSET UNITYSDK_OFFSET(0x1AF4CD70)
+#define SYSTEM_DOMAINNAMEHELPER_ISVALIDDOMAINLABELCHARACTER_OFFSET UNITYSDK_OFFSET(0x1AF4CD30)
+#define SYSTEM_DOMAINNAMEHELPER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1AF4CB90)
+#define SYSTEM_DOMAINNAMEHELPER_PARSECANONICALNAME_OFFSET UNITYSDK_OFFSET(0x1AF4C9C0)
+#define SYSTEM_DOMAINNAMEHELPER_UNICODEEQUIVALENT_1_OFFSET UNITYSDK_OFFSET(0x1AF4D740)
+#define SYSTEM_DOMAINNAMEHELPER_UNICODEEQUIVALENT_OFFSET UNITYSDK_OFFSET(0x1AF4D600)
 
 namespace System
 {
@@ -23,59 +23,59 @@ namespace System
 	class DomainNameHelper : public ::System::Object
 	{
 	public:
-		static ::System::String* ParseCanonicalName(::System::String* str, ::System::Int32 start, ::System::Int32 end, ::System::Boolean& loopback)
+		static ::System::String* ParseCanonicalName(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean& a4)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_PARSECANONICALNAME_OFFSET))(str, start, end, loopback);
+			return ((::System::String*(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_PARSECANONICALNAME_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean IsValid(::System::Char* name, ::System::UInt16 pos, ::System::Int32& returnedEnd, ::System::Boolean& notCanonical, ::System::Boolean notImplicitFile)
+		static ::System::Boolean IsValid(::System::Char* a1, ::System::UInt16 a2, ::System::Int32& a3, ::System::Boolean& a4, ::System::Boolean a5)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::UInt16, ::System::Int32&, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISVALID_OFFSET))(name, pos, returnedEnd, notCanonical, notImplicitFile);
+			return ((::System::Boolean(*)(::System::Char*, ::System::UInt16, ::System::Int32&, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISVALID_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean IsValidByIri(::System::Char* name, ::System::UInt16 pos, ::System::Int32& returnedEnd, ::System::Boolean& notCanonical, ::System::Boolean notImplicitFile)
+		static ::System::Boolean IsValidByIri(::System::Char* a1, ::System::UInt16 a2, ::System::Int32& a3, ::System::Boolean& a4, ::System::Boolean a5)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::UInt16, ::System::Int32&, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISVALIDBYIRI_OFFSET))(name, pos, returnedEnd, notCanonical, notImplicitFile);
+			return ((::System::Boolean(*)(::System::Char*, ::System::UInt16, ::System::Int32&, ::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISVALIDBYIRI_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::String* IdnEquivalent(::System::Char* hostname, ::System::Int32 start, ::System::Int32 end, ::System::Boolean& allAscii, ::System::Boolean& atLeastOneValidIdn)
+		static ::System::String* IdnEquivalent(::System::Char* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean& a4, ::System::Boolean& a5)
 		{
-			return ((::System::String*(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_IDNEQUIVALENT_OFFSET))(hostname, start, end, allAscii, atLeastOneValidIdn);
+			return ((::System::String*(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_IDNEQUIVALENT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::String* IdnEquivalent_1(::System::Char* hostname, ::System::Int32 start, ::System::Int32 end, ::System::Boolean& allAscii, ::System::String*& bidiStrippedHost)
+		static ::System::String* IdnEquivalent_1(::System::Char* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean& a4, ::System::String*& a5)
 		{
-			return ((::System::String*(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::Boolean&, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_IDNEQUIVALENT_1_OFFSET))(hostname, start, end, allAscii, bidiStrippedHost);
+			return ((::System::String*(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::Boolean&, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_IDNEQUIVALENT_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean IsIdnAce(::System::String* input, ::System::Int32 index)
+		static ::System::Boolean IsIdnAce(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISIDNACE_OFFSET))(input, index);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISIDNACE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsIdnAce_1(::System::Char* input, ::System::Int32 index)
+		static ::System::Boolean IsIdnAce_1(::System::Char* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISIDNACE_1_OFFSET))(input, index);
+			return ((::System::Boolean(*)(::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISIDNACE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* UnicodeEquivalent(::System::String* idnHost, ::System::Char* hostname, ::System::Int32 start, ::System::Int32 end)
+		static ::System::String* UnicodeEquivalent(::System::String* a1, ::System::Char* a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Char*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_UNICODEEQUIVALENT_OFFSET))(idnHost, hostname, start, end);
+			return ((::System::String*(*)(::System::String*, ::System::Char*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_UNICODEEQUIVALENT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::String* UnicodeEquivalent_1(::System::Char* hostname, ::System::Int32 start, ::System::Int32 end, ::System::Boolean& allAscii, ::System::Boolean& atLeastOneValidIdn)
+		static ::System::String* UnicodeEquivalent_1(::System::Char* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean& a4, ::System::Boolean& a5)
 		{
-			return ((::System::String*(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_UNICODEEQUIVALENT_1_OFFSET))(hostname, start, end, allAscii, atLeastOneValidIdn);
+			return ((::System::String*(*)(::System::Char*, ::System::Int32, ::System::Int32, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_UNICODEEQUIVALENT_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean IsASCIILetterOrDigit(::System::Char character, ::System::Boolean& notCanonical)
+		static ::System::Boolean IsASCIILetterOrDigit(::System::Char a1, ::System::Boolean& a2)
 		{
-			return ((::System::Boolean(*)(::System::Char, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISASCIILETTERORDIGIT_OFFSET))(character, notCanonical);
+			return ((::System::Boolean(*)(::System::Char, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISASCIILETTERORDIGIT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsValidDomainLabelCharacter(::System::Char character, ::System::Boolean& notCanonical)
+		static ::System::Boolean IsValidDomainLabelCharacter(::System::Char a1, ::System::Boolean& a2)
 		{
-			return ((::System::Boolean(*)(::System::Char, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISVALIDDOMAINLABELCHARACTER_OFFSET))(character, notCanonical);
+			return ((::System::Boolean(*)(::System::Char, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_DOMAINNAMEHELPER_ISVALIDDOMAINLABELCHARACTER_OFFSET))(a1, a2);
 		}
 	};
 }

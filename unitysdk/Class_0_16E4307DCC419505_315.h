@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/ScenenLightManager/LightInstanceID.h"
 
-class Class_1_585FC61876C1A1D5_Class_3_AE31F159F362893C;
+class Class_0_16E4307DCC419505_314;
+namespace System { class String; }
+namespace System { class Type; }
+namespace UnityEngine { class Object; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_315_TypeDefinitionIndex = 45776;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_315_TypeDefinitionIndex = 45017;
 
 class Class_0_16E4307DCC419505_315
 {

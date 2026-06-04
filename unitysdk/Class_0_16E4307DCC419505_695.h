@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/AvatarUpgradePart.h"
 
-namespace RPG::Client { class ChimeraDuelGameData; }
-namespace RPG::Client { class ChimeraDuelGameSessionCurrentRound; }
-namespace RPG::Client { class ChimeraDuelGameSessionTeam; }
+namespace RPG::AvatarSystem { class IAvatar; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_695_TypeDefinitionIndex = 58330;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_695_TypeDefinitionIndex = 58792;
 
 class Class_0_16E4307DCC419505_695
 {

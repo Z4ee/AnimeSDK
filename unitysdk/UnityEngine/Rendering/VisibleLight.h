@@ -10,13 +10,13 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22EDAB0)
-#define UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_OFFSET UNITYSDK_OFFSET(0x22EDA70)
-#define UNITYENGINE_RENDERING_VISIBLELIGHT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22EDB30)
+#define UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x388C190)
+#define UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_OFFSET UNITYSDK_OFFSET(0x388C150)
+#define UNITYENGINE_RENDERING_VISIBLELIGHT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x388C210)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VisibleLight_TypeDefinitionIndex = 4585;
+	inline static constexpr unsigned int VisibleLight_TypeDefinitionIndex = 4759;
 
 	struct alignas(4) VisibleLight
 	{
@@ -30,14 +30,14 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Rendering::VisibleLightFlags m_Flags; // 0x80
 		::UnityEngine::Bounds m_AABB; // 0x84
 
-		::System::Boolean Equals(::UnityEngine::Rendering::VisibleLight other)
+		::System::Boolean Equals(::UnityEngine::Rendering::VisibleLight a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::VisibleLight))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::VisibleLight))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VISIBLELIGHT_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

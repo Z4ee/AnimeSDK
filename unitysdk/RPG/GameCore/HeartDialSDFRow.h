@@ -5,30 +5,30 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HEARTDIALSDFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189EDC70)
-#define RPG_GAMECORE_HEARTDIALSDFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189EDED0)
+#define RPG_GAMECORE_HEARTDIALSDFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19820C90)
+#define RPG_GAMECORE_HEARTDIALSDFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19820EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialSDFRow_TypeDefinitionIndex = 13001;
+	inline static constexpr unsigned int HeartDialSDFRow_TypeDefinitionIndex = 13084;
 
 	class HeartDialSDFRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FloorIDList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 VoiceID; // 0x1C
-		::System::Boolean IsKaomoji; // 0x20
-		::RPG::Client::TextID SDFText; // 0x28
+		::System::UInt32 VoiceID; // 0x18
+		::System::Boolean IsKaomoji; // 0x1C
+		::RPG::Client::TextID SDFText; // 0x20
+		::System::UInt32 ID; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALSDFROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::HeartDialSDFRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeartDialSDFRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeartDialSDFRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALSDFROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeartDialSDFRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALSDFROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

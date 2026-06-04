@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineVirtualCameraBase_StandbyUpdateMode_TypeDefinitionIndex = 36597;
+	inline static constexpr unsigned int CinemachineVirtualCameraBase_StandbyUpdateMode_TypeDefinitionIndex = 36897;
 
 	enum class CinemachineVirtualCameraBase_StandbyUpdateMode : ::System::Int32
 	{

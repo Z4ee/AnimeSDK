@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x175FADF0)
-#define MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x175FAE40)
-#define MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x175DA770)
-#define MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x175FADD0)
+#define MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x183D38D0)
+#define MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x183D3920)
+#define MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x183B70C0)
+#define MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x183D3860)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_NotifyPremiumFeatureDelegate_TypeDefinitionIndex = 6810;
+	inline static constexpr unsigned int PSDelegate_NotifyPremiumFeatureDelegate_TypeDefinitionIndex = 7713;
 
 	class PSDelegate_NotifyPremiumFeatureDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::UInt64 properties)
+		::System::Void Invoke(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_INVOKE_OFFSET))(this, properties);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt64 properties, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt64 a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_BEGININVOKE_OFFSET))(this, properties, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_NOTIFYPREMIUMFEATUREDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

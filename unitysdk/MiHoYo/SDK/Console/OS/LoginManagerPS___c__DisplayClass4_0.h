@@ -6,27 +6,27 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console::OS { class LoginManagerPS; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174653C0)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0__ONCONSOLELOGINCALLBACK_G__FAILEDCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x174666E0)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182663B0)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0__ONCONSOLELOGINCALLBACK_G__FAILEDCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x182676F0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int LoginManagerPS___c__DisplayClass4_0_TypeDefinitionIndex = 7840;
+	inline static constexpr unsigned int LoginManagerPS___c__DisplayClass4_0_TypeDefinitionIndex = 8743;
 
 	class LoginManagerPS___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::NetworkResponseModel* response; // 0x10
-		::MiHoYo::SDK::Console::OS::LoginManagerPS* __4__this; // 0x18
+		::MiHoYo::SDK::Console::OS::LoginManagerPS* __4__this; // 0x10
+		::MiHoYo::SDK::NetworkResponseModel* response; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnConsoleLoginCallback_g__failedCallback_1(::System::Int32 code, ::System::String* message)
+		::System::Void _OnConsoleLoginCallback_g__failedCallback_1(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0__ONCONSOLELOGINCALLBACK_G__FAILEDCALLBACK_1_OFFSET))(this, code, message);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS4_0__ONCONSOLELOGINCALLBACK_G__FAILEDCALLBACK_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

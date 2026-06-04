@@ -9,23 +9,23 @@ namespace Epic::OnlineServices::Lobby { class LocalRTCOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x48970)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x48900)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_ALLOWINVITES_OFFSET UNITYSDK_OFFSET(0x48510)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_BUCKETID_OFFSET UNITYSDK_OFFSET(0x485C0)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_DISABLEHOSTMIGRATION_OFFSET UNITYSDK_OFFSET(0x48670)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_ENABLERTCROOM_OFFSET UNITYSDK_OFFSET(0x48720)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x48840)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOCALRTCOPTIONS_OFFSET UNITYSDK_OFFSET(0x487D0)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x483A0)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_MAXLOBBYMEMBERS_OFFSET UNITYSDK_OFFSET(0x26F0)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x488F0)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_PERMISSIONLEVEL_OFFSET UNITYSDK_OFFSET(0x6910)
-#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_PRESENCEENABLED_OFFSET UNITYSDK_OFFSET(0x48460)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x4D020)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4CFA0)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_ALLOWINVITES_OFFSET UNITYSDK_OFFSET(0x4CBB0)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_BUCKETID_OFFSET UNITYSDK_OFFSET(0x4CC60)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_DISABLEHOSTMIGRATION_OFFSET UNITYSDK_OFFSET(0x4CD10)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_ENABLERTCROOM_OFFSET UNITYSDK_OFFSET(0x4CDC0)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x4CEE0)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOCALRTCOPTIONS_OFFSET UNITYSDK_OFFSET(0x4CE70)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x4CA40)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_MAXLOBBYMEMBERS_OFFSET UNITYSDK_OFFSET(0x2A90)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x4CF90)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_PERMISSIONLEVEL_OFFSET UNITYSDK_OFFSET(0x6F00)
+#define EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_PRESENCEENABLED_OFFSET UNITYSDK_OFFSET(0x4CB00)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int CreateLobbyOptionsInternal_TypeDefinitionIndex = 41840;
+	inline static constexpr unsigned int CreateLobbyOptionsInternal_TypeDefinitionIndex = 42643;
 
 	struct alignas(8) CreateLobbyOptionsInternal
 	{
@@ -41,64 +41,64 @@ namespace Epic::OnlineServices::Lobby
 		::System::IntPtr m_LocalRTCOptions; // 0x40
 		::System::IntPtr m_LobbyId; // 0x48
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_MaxLobbyMembers(::System::UInt32 value)
+		::System::Void set_MaxLobbyMembers(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_MAXLOBBYMEMBERS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_MAXLOBBYMEMBERS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_PermissionLevel(::Epic::OnlineServices::Lobby::LobbyPermissionLevel value)
+		::System::Void set_PermissionLevel(::Epic::OnlineServices::Lobby::LobbyPermissionLevel a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyPermissionLevel))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_PERMISSIONLEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyPermissionLevel))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_PERMISSIONLEVEL_OFFSET))(this, a1);
 		}
 
-		::System::Void set_PresenceEnabled(::System::Boolean value)
+		::System::Void set_PresenceEnabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_PRESENCEENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_PRESENCEENABLED_OFFSET))(this, a1);
 		}
 
-		::System::Void set_AllowInvites(::System::Boolean value)
+		::System::Void set_AllowInvites(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_ALLOWINVITES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_ALLOWINVITES_OFFSET))(this, a1);
 		}
 
-		::System::Void set_BucketId(::System::String* value)
+		::System::Void set_BucketId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_BUCKETID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_BUCKETID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_DisableHostMigration(::System::Boolean value)
+		::System::Void set_DisableHostMigration(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_DISABLEHOSTMIGRATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_DISABLEHOSTMIGRATION_OFFSET))(this, a1);
 		}
 
-		::System::Void set_EnableRTCRoom(::System::Boolean value)
+		::System::Void set_EnableRTCRoom(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_ENABLERTCROOM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_ENABLERTCROOM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_LocalRTCOptions(::Epic::OnlineServices::Lobby::LocalRTCOptions* value)
+		::System::Void set_LocalRTCOptions(::Epic::OnlineServices::Lobby::LocalRTCOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LocalRTCOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOCALRTCOPTIONS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LocalRTCOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOCALRTCOPTIONS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_LobbyId(::System::String* value)
+		::System::Void set_LobbyId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Lobby::CreateLobbyOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Lobby::CreateLobbyOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::CreateLobbyOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::CreateLobbyOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_CREATELOBBYOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

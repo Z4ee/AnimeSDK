@@ -7,10 +7,10 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_DC33E550141EBFE3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x74FA0)
-#define STRUCT_2_DC33E550141EBFE3__CTOR_OFFSET UNITYSDK_OFFSET(0x74F90)
+#define STRUCT_2_DC33E550141EBFE3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x870E0)
+#define STRUCT_2_DC33E550141EBFE3__CTOR_OFFSET UNITYSDK_OFFSET(0x870D0)
 
-inline static constexpr unsigned int Struct_2_DC33E550141EBFE3_TypeDefinitionIndex = 68149;
+inline static constexpr unsigned int Struct_2_DC33E550141EBFE3_TypeDefinitionIndex = 69122;
 
 struct alignas(8) Struct_2_DC33E550141EBFE3
 {

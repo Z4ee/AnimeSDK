@@ -8,13 +8,13 @@ namespace RPG::Client { class GridFightTrait; }
 namespace RPG::Client { class GridFightTraitConfig; }
 namespace RPG::Client { class GridFightTraitConfigBase; }
 
-#define CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12909770)
-#define CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__0_OFFSET UNITYSDK_OFFSET(0x129099F0)
-#define CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__2_OFFSET UNITYSDK_OFFSET(0x12909920)
-#define CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__3_OFFSET UNITYSDK_OFFSET(0x12909980)
-#define CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_G___HASEQUIPPEDSAME_1_OFFSET UNITYSDK_OFFSET(0x12909780)
+#define CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13ABF1F0)
+#define CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__0_OFFSET UNITYSDK_OFFSET(0x13ABF510)
+#define CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__2_OFFSET UNITYSDK_OFFSET(0x13ABF440)
+#define CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__3_OFFSET UNITYSDK_OFFSET(0x13ABF4A0)
+#define CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_G___HASEQUIPPEDSAME_1_OFFSET UNITYSDK_OFFSET(0x13ABF200)
 
-inline static constexpr unsigned int Class_1_50936B9A1F88684A___c__DisplayClass0_0_TypeDefinitionIndex = 59832;
+inline static constexpr unsigned int Class_1_50936B9A1F88684A___c__DisplayClass0_0_TypeDefinitionIndex = 60767;
 
 class Class_1_50936B9A1F88684A___c__DisplayClass0_0 : public ::System::Object
 {
@@ -27,19 +27,19 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _Satisfy_b__2(::RPG::Client::GridFightTraitConfigBase* x)
+	::System::Boolean _Satisfy_b__2(::RPG::Client::GridFightTraitConfigBase* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitConfigBase*))((::PBYTE)hIl2Cpp + CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__2_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitConfigBase*))((::PBYTE)hIl2Cpp + CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__2_OFFSET))(this, a1);
 	}
 
-	::System::Boolean _Satisfy_b__3(::RPG::Client::GridFightTrait* x)
+	::System::Boolean _Satisfy_b__3(::RPG::Client::GridFightTrait* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__3_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__3_OFFSET))(this, a1);
 	}
 
-	::System::Boolean _Satisfy_b__0(::RPG::Client::GridFightTraitConfig* x)
+	::System::Boolean _Satisfy_b__0(::RPG::Client::GridFightTraitConfig* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitConfig*))((::PBYTE)hIl2Cpp + CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitConfig*))((::PBYTE)hIl2Cpp + CLASS_1_50936B9A1F88684A___C__DISPLAYCLASS0_0__SATISFY_B__0_OFFSET))(this, a1);
 	}
 
 	::System::Boolean _Satisfy_g___HasEquippedSame_1()

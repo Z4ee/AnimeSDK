@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/RPG/GameCore/RtSkillPropertyType.h"
+#include "unitysdk/Struct_2_87C8F594A107C13B.h"
 
-namespace RPG::GameCore { class RtSkillConfig; }
-namespace System { class Object; }
-namespace System { class String; }
+class Class_0_16E4307DCC419505_426;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_444_TypeDefinitionIndex = 49850;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_444_TypeDefinitionIndex = 50465;
 
 class Class_0_16E4307DCC419505_444
 {

@@ -7,12 +7,12 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB854230)
-#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS6_0__RELOADEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xB854240)
+#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF893C0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS6_0__RELOADEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xCF9C930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierInstance___c__DisplayClass6_0_TypeDefinitionIndex = 51479;
+	inline static constexpr unsigned int TurnBasedModifierInstance___c__DisplayClass6_0_TypeDefinitionIndex = 52147;
 
 	class TurnBasedModifierInstance___c__DisplayClass6_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS6_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ReloadEffects_b__0(::RPG::Client::MonoEffect* pEffectObject, ::RPG::Client::TriggerEffectCallbackParams extraParams)
+		::System::Void _ReloadEffects_b__0(::RPG::Client::MonoEffect* a1, ::RPG::Client::TriggerEffectCallbackParams a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS6_0__RELOADEFFECTS_B__0_OFFSET))(this, pEffectObject, extraParams);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE___C__DISPLAYCLASS6_0__RELOADEFFECTS_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

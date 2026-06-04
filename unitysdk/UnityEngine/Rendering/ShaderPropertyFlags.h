@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShaderPropertyFlags_TypeDefinitionIndex = 4702;
+	inline static constexpr unsigned int ShaderPropertyFlags_TypeDefinitionIndex = 4876;
 
 	enum class ShaderPropertyFlags : ::System::Int32
 	{

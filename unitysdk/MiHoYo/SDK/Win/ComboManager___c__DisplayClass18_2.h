@@ -7,14 +7,14 @@ namespace MiHoYo::SDK { class ComboUserModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class ComboManager___c__DisplayClass18_0; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_2__CTOR_OFFSET UNITYSDK_OFFSET(0x176F4210)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_2__LOGIN_B__7_OFFSET UNITYSDK_OFFSET(0x176F7720)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_2__LOGIN_B__8_OFFSET UNITYSDK_OFFSET(0x176F7620)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_2__LOGIN_B__9_OFFSET UNITYSDK_OFFSET(0x176F7680)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_2__CTOR_OFFSET UNITYSDK_OFFSET(0x184B2030)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_2__LOGIN_B__7_OFFSET UNITYSDK_OFFSET(0x184B5090)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_2__LOGIN_B__8_OFFSET UNITYSDK_OFFSET(0x184B4F90)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_2__LOGIN_B__9_OFFSET UNITYSDK_OFFSET(0x184B4FF0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass18_2_TypeDefinitionIndex = 8171;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass18_2_TypeDefinitionIndex = 9074;
 
 	class ComboManager___c__DisplayClass18_2 : public ::System::Object
 	{
@@ -37,9 +37,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_2__LOGIN_B__9_OFFSET))(this);
 		}
 
-		::System::Void _Login_b__7(::MiHoYo::SDK::Alert_AlertResult result)
+		::System::Void _Login_b__7(::MiHoYo::SDK::Alert_AlertResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_2__LOGIN_B__7_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_2__LOGIN_B__7_OFFSET))(this, a1);
 		}
 	};
 }

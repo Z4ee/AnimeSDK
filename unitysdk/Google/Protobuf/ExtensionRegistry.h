@@ -11,25 +11,25 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_1_OFFSET UNITYSDK_OFFSET(0x170D9DF0)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_2_OFFSET UNITYSDK_OFFSET(0x170D9E90)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_OFFSET UNITYSDK_OFFSET(0x170D9C70)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x170DA1D0)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CLONE_OFFSET UNITYSDK_OFFSET(0x170DA9A0)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CONTAINSINPUTFIELD_OFFSET UNITYSDK_OFFSET(0x170D9B60)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CONTAINS_OFFSET UNITYSDK_OFFSET(0x170DA2B0)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x170DA690)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x170D9A70)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_REMOVE_OFFSET UNITYSDK_OFFSET(0x170DA820)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_GOOGLE_PROTOBUF_EXTENSION__COPYTO_OFFSET UNITYSDK_OFFSET(0x170DA420)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_GOOGLE_PROTOBUF_EXTENSION__GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x170D9B50)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x170DA990)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x170D9870)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x170D97E0)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_1_OFFSET UNITYSDK_OFFSET(0x17E3C390)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_2_OFFSET UNITYSDK_OFFSET(0x17E3C410)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_OFFSET UNITYSDK_OFFSET(0x17E3C240)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x17E3C720)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CLONE_OFFSET UNITYSDK_OFFSET(0x17E3CE90)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CONTAINSINPUTFIELD_OFFSET UNITYSDK_OFFSET(0x17E3C130)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CONTAINS_OFFSET UNITYSDK_OFFSET(0x17E3C800)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17E3CBA0)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x17E3C040)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_REMOVE_OFFSET UNITYSDK_OFFSET(0x17E3CD30)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_GOOGLE_PROTOBUF_EXTENSION__COPYTO_OFFSET UNITYSDK_OFFSET(0x17E3C950)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_GOOGLE_PROTOBUF_EXTENSION__GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x17E3C120)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17E3CE80)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17E3BE10)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17E3BD80)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ExtensionRegistry_TypeDefinitionIndex = 6169;
+	inline static constexpr unsigned int ExtensionRegistry_TypeDefinitionIndex = 5371;
 
 	class ExtensionRegistry : public ::System::Object
 	{
@@ -41,9 +41,9 @@ namespace Google::Protobuf
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Collections::Generic::IDictionary_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>* collection)
+		::System::Void _ctor_1(::System::Collections::Generic::IDictionary_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IDictionary_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY__CTOR_1_OFFSET))(this, collection);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IDictionary_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Count()
@@ -56,24 +56,24 @@ namespace Google::Protobuf
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_GOOGLE_PROTOBUF_EXTENSION__GET_ISREADONLY_OFFSET))(this);
 		}
 
-		::System::Boolean ContainsInputField(::Google::Protobuf::CodedInputStream* stream, ::System::Type* target, ::Google::Protobuf::Extension*& extension)
+		::System::Boolean ContainsInputField(::Google::Protobuf::CodedInputStream* a1, ::System::Type* a2, ::Google::Protobuf::Extension*& a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::CodedInputStream*, ::System::Type*, ::Google::Protobuf::Extension*&))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CONTAINSINPUTFIELD_OFFSET))(this, stream, target, extension);
+			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::CodedInputStream*, ::System::Type*, ::Google::Protobuf::Extension*&))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CONTAINSINPUTFIELD_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Add(::Google::Protobuf::Extension* extension)
+		::System::Void Add(::Google::Protobuf::Extension* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Extension*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_OFFSET))(this, extension);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Extension*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_OFFSET))(this, a1);
 		}
 
-		::System::Void Add_1(::Il2CppArray<::Google::Protobuf::Extension*>* newExtensions)
+		::System::Void Add_1(::Il2CppArray<::Google::Protobuf::Extension*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Google::Protobuf::Extension*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_1_OFFSET))(this, newExtensions);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Google::Protobuf::Extension*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Add_2(::System::Collections::Generic::IEnumerable_1<::Google::Protobuf::Extension*>* newExtensions)
+		::System::Void Add_2(::System::Collections::Generic::IEnumerable_1<::Google::Protobuf::Extension*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Google::Protobuf::Extension*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_2_OFFSET))(this, newExtensions);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Google::Protobuf::Extension*>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_ADD_2_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -81,14 +81,14 @@ namespace Google::Protobuf
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CLEAR_OFFSET))(this);
 		}
 
-		::System::Boolean Contains(::Google::Protobuf::Extension* item)
+		::System::Boolean Contains(::Google::Protobuf::Extension* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::Extension*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CONTAINS_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::Extension*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_CONTAINS_OFFSET))(this, a1);
 		}
 
-		::System::Void System_Collections_Generic_ICollection_Google_Protobuf_Extension__CopyTo(::Il2CppArray<::Google::Protobuf::Extension*>* array, ::System::Int32 arrayIndex)
+		::System::Void System_Collections_Generic_ICollection_Google_Protobuf_Extension__CopyTo(::Il2CppArray<::Google::Protobuf::Extension*>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Google::Protobuf::Extension*>*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_GOOGLE_PROTOBUF_EXTENSION__COPYTO_OFFSET))(this, array, arrayIndex);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Google::Protobuf::Extension*>*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_GOOGLE_PROTOBUF_EXTENSION__COPYTO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::IEnumerator_1<::Google::Protobuf::Extension*>* GetEnumerator()
@@ -96,9 +96,9 @@ namespace Google::Protobuf
 			return ((::System::Collections::Generic::IEnumerator_1<::Google::Protobuf::Extension*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_GETENUMERATOR_OFFSET))(this);
 		}
 
-		::System::Boolean Remove(::Google::Protobuf::Extension* item)
+		::System::Boolean Remove(::Google::Protobuf::Extension* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::Extension*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_REMOVE_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::Extension*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_EXTENSIONREGISTRY_REMOVE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

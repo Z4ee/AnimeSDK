@@ -12,26 +12,26 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class ServiceDescriptor; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_BUILDFROM_OFFSET UNITYSDK_OFFSET(0x173AD130)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_COMPUTEFULLNAME_OFFSET UNITYSDK_OFFSET(0x173A5C70)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x173AD390)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_DETERMINEPUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x173ACBA0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_FROMGENERATEDCODE_OFFSET UNITYSDK_OFFSET(0x173A5810)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_DESCRIPTORPOOL_OFFSET UNITYSDK_OFFSET(0x173AD120)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_MESSAGETYPES_OFFSET UNITYSDK_OFFSET(0x173AD0C0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1739C2A0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PACKAGE_OFFSET UNITYSDK_OFFSET(0x1739BF60)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x173AD090)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x173AD0E0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_SERVICES_OFFSET UNITYSDK_OFFSET(0x173AD0D0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_MIHOYO_SDK_PROTOBUF_REFLECTION_IDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x173AD110)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_MIHOYO_SDK_PROTOBUF_REFLECTION_IDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x173AD0F0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x173AE5E0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x173AC8E0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_BUILDFROM_OFFSET UNITYSDK_OFFSET(0x181B6A60)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_COMPUTEFULLNAME_OFFSET UNITYSDK_OFFSET(0x181AEF60)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x181B6CC0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_DETERMINEPUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x181B6360)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_FROMGENERATEDCODE_OFFSET UNITYSDK_OFFSET(0x181AEAF0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_DESCRIPTORPOOL_OFFSET UNITYSDK_OFFSET(0x181B6A50)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_MESSAGETYPES_OFFSET UNITYSDK_OFFSET(0x181B69F0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x181A63E0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PACKAGE_OFFSET UNITYSDK_OFFSET(0x181A6090)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x181B69C0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x181B6A10)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_SERVICES_OFFSET UNITYSDK_OFFSET(0x181B6A00)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_MIHOYO_SDK_PROTOBUF_REFLECTION_IDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x181B6A40)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_MIHOYO_SDK_PROTOBUF_REFLECTION_IDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x181B6A20)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x181B7F20)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x181B6080)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileDescriptor_TypeDefinitionIndex = 33743;
+	inline static constexpr unsigned int FileDescriptor_TypeDefinitionIndex = 34025;
 
 	class FileDescriptor : public ::System::Object
 	{
@@ -45,19 +45,19 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 		::MiHoYo::SDK::Protobuf::ByteString* _SerializedData_k__BackingField; // 0x40
 		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor*>* _EnumTypes_k__BackingField; // 0x48
 
-		::System::Void _ctor(::MiHoYo::SDK::Protobuf::ByteString* descriptorData, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto* proto, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* dependencies, ::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool* pool, ::System::Boolean allowUnknownDependencies, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo)
+		::System::Void _ctor(::MiHoYo::SDK::Protobuf::ByteString* a1, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto* a2, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* a3, ::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool* a4, ::System::Boolean a5, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::ByteString*, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto*, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>*, ::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool*, ::System::Boolean, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR__CTOR_OFFSET))(this, descriptorData, proto, dependencies, pool, allowUnknownDependencies, generatedCodeInfo);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::ByteString*, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto*, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>*, ::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool*, ::System::Boolean, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::String* ComputeFullName(::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* parent, ::System::String* name)
+		::System::String* ComputeFullName(::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_COMPUTEFULLNAME_OFFSET))(this, parent, name);
+			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_COMPUTEFULLNAME_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* DeterminePublicDependencies(::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* this_, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto* proto, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* dependencies, ::System::Boolean allowUnknownDependencies)
+		static ::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* DeterminePublicDependencies(::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* a1, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto* a2, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* a3, ::System::Boolean a4)
 		{
-			return ((::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>*(*)(::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto*, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_DETERMINEPUBLICDEPENDENCIES_OFFSET))(this_, proto, dependencies, allowUnknownDependencies);
+			return ((::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>*(*)(::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto*, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_DETERMINEPUBLICDEPENDENCIES_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto* get_Proto()
@@ -105,9 +105,9 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 			return ((::MiHoYo::SDK::Protobuf::Reflection::DescriptorPool*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_DESCRIPTORPOOL_OFFSET))(this);
 		}
 
-		static ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* BuildFrom(::MiHoYo::SDK::Protobuf::ByteString* descriptorData, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto* proto, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* dependencies, ::System::Boolean allowUnknownDependencies, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo)
+		static ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* BuildFrom(::MiHoYo::SDK::Protobuf::ByteString* a1, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto* a2, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* a3, ::System::Boolean a4, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* a5)
 		{
-			return ((::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*(*)(::MiHoYo::SDK::Protobuf::ByteString*, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto*, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>*, ::System::Boolean, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_BUILDFROM_OFFSET))(descriptorData, proto, dependencies, allowUnknownDependencies, generatedCodeInfo);
+			return ((::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*(*)(::MiHoYo::SDK::Protobuf::ByteString*, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptorProto*, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>*, ::System::Boolean, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_BUILDFROM_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::Void CrossLink()
@@ -115,9 +115,9 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_CROSSLINK_OFFSET))(this);
 		}
 
-		static ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* FromGeneratedCode(::Il2CppArray<::System::Byte>* descriptorData, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* dependencies, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo)
+		static ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* FromGeneratedCode(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>* a2, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* a3)
 		{
-			return ((::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*(*)(::Il2CppArray<::System::Byte>*, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>*, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_FROMGENERATEDCODE_OFFSET))(descriptorData, dependencies, generatedCodeInfo);
+			return ((::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*(*)(::Il2CppArray<::System::Byte>*, ::Il2CppArray<::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor*>*, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_FILEDESCRIPTOR_FROMGENERATEDCODE_OFFSET))(a1, a2, a3);
 		}
 
 		::System::String* ToString()

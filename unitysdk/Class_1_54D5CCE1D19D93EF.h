@@ -2,58 +2,63 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_8;
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_1_333B902B2174BECA_1;
 
-#define CLASS_1_54D5CCE1D19D93EF_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x129A22A0)
-#define CLASS_1_54D5CCE1D19D93EF_GET_AVATARLEVEL_OFFSET UNITYSDK_OFFSET(0x129A22C0)
-#define CLASS_1_54D5CCE1D19D93EF_METHOD_1_169C9AE8F88E4F64_OFFSET UNITYSDK_OFFSET(0x129A2200)
-#define CLASS_1_54D5CCE1D19D93EF_METHOD_1_4DDD3DE2D159DC6E_OFFSET UNITYSDK_OFFSET(0x129A1EA0)
-#define CLASS_1_54D5CCE1D19D93EF_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x129A22B0)
-#define CLASS_1_54D5CCE1D19D93EF_SET_AVATARLEVEL_OFFSET UNITYSDK_OFFSET(0x129A22D0)
-#define CLASS_1_54D5CCE1D19D93EF__CTOR_OFFSET UNITYSDK_OFFSET(0x129A2290)
+#define CLASS_1_54D5CCE1D19D93EF_GET_PHASEINDEX_OFFSET UNITYSDK_OFFSET(0xA362E50)
+#define CLASS_1_54D5CCE1D19D93EF_GET_SCORE_OFFSET UNITYSDK_OFFSET(0xA362E70)
+#define CLASS_1_54D5CCE1D19D93EF_GET_STARNUM_OFFSET UNITYSDK_OFFSET(0xA362E90)
+#define CLASS_1_54D5CCE1D19D93EF_METHOD_1_169C9AE8F88E4F64_OFFSET UNITYSDK_OFFSET(0xA362DA0)
+#define CLASS_1_54D5CCE1D19D93EF_SET_PHASEINDEX_OFFSET UNITYSDK_OFFSET(0xA362E60)
+#define CLASS_1_54D5CCE1D19D93EF_SET_SCORE_OFFSET UNITYSDK_OFFSET(0xA362E80)
+#define CLASS_1_54D5CCE1D19D93EF_SET_STARNUM_OFFSET UNITYSDK_OFFSET(0xA362EA0)
+#define CLASS_1_54D5CCE1D19D93EF__CTOR_OFFSET UNITYSDK_OFFSET(0xA362E40)
 
-inline static constexpr unsigned int Class_1_54D5CCE1D19D93EF_TypeDefinitionIndex = 61474;
+inline static constexpr unsigned int Class_1_54D5CCE1D19D93EF_TypeDefinitionIndex = 57464;
 
 class Class_1_54D5CCE1D19D93EF : public ::System::Object
 {
 public:
-	::System::UInt32 _AvatarId_k__BackingField; // 0x10
-	::System::UInt32 _AvatarLevel_k__BackingField; // 0x14
+	::System::UInt32 _PhaseIndex_k__BackingField; // 0x10
+	::System::UInt32 _Score_k__BackingField; // 0x14
+	::System::UInt32 _StarNum_k__BackingField; // 0x18
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF__CTOR_OFFSET))(this);
 	}
 
-	static ::System::Collections::Generic::List_1<::Class_1_54D5CCE1D19D93EF*>* Method_1_4DDD3DE2D159DC6E(::System::Collections::Generic::IEnumerable_1<::Class_1_D17272E82AE804C2_8*>* a1)
+	static ::Class_1_54D5CCE1D19D93EF* Method_1_169C9AE8F88E4F64(::Class_1_333B902B2174BECA_1* a1)
 	{
-		return ((::System::Collections::Generic::List_1<::Class_1_54D5CCE1D19D93EF*>*(*)(::System::Collections::Generic::IEnumerable_1<::Class_1_D17272E82AE804C2_8*>*))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_METHOD_1_4DDD3DE2D159DC6E_OFFSET))(a1);
+		return ((::Class_1_54D5CCE1D19D93EF*(*)(::Class_1_333B902B2174BECA_1*))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_METHOD_1_169C9AE8F88E4F64_OFFSET))(a1);
 	}
 
-	static ::Class_1_54D5CCE1D19D93EF* Method_1_169C9AE8F88E4F64(::Class_1_D17272E82AE804C2_8* a1)
+	::System::UInt32 get_PhaseIndex()
 	{
-		return ((::Class_1_54D5CCE1D19D93EF*(*)(::Class_1_D17272E82AE804C2_8*))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_METHOD_1_169C9AE8F88E4F64_OFFSET))(a1);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_GET_PHASEINDEX_OFFSET))(this);
 	}
 
-	::System::UInt32 get_AvatarId()
+	::System::Void set_PhaseIndex(::System::UInt32 a1)
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_GET_AVATARID_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_SET_PHASEINDEX_OFFSET))(this, a1);
 	}
 
-	::System::Void set_AvatarId(::System::UInt32 value)
+	::System::UInt32 get_Score()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_SET_AVATARID_OFFSET))(this, value);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_GET_SCORE_OFFSET))(this);
 	}
 
-	::System::UInt32 get_AvatarLevel()
+	::System::Void set_Score(::System::UInt32 a1)
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_GET_AVATARLEVEL_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_SET_SCORE_OFFSET))(this, a1);
 	}
 
-	::System::Void set_AvatarLevel(::System::UInt32 value)
+	::System::UInt32 get_StarNum()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_SET_AVATARLEVEL_OFFSET))(this, value);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_GET_STARNUM_OFFSET))(this);
+	}
+
+	::System::Void set_StarNum(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_54D5CCE1D19D93EF_SET_STARNUM_OFFSET))(this, a1);
 	}
 };

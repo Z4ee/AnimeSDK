@@ -4,28 +4,28 @@
 
 namespace XLua { class LuaEnv; }
 
-#define XLUA_LUABASE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1122AEA0)
-#define XLUA_LUABASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1122AE50)
-#define XLUA_LUABASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1122B110)
-#define XLUA_LUABASE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1122ADE0)
-#define XLUA_LUABASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1122B550)
-#define XLUA_LUABASE_PUSH_OFFSET UNITYSDK_OFFSET(0x1122B8E0)
-#define XLUA_LUABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1120E220)
+#define XLUA_LUABASE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x12E8BDF0)
+#define XLUA_LUABASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12E8BD70)
+#define XLUA_LUABASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x12E8C0E0)
+#define XLUA_LUABASE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x12E8BD00)
+#define XLUA_LUABASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x12E8C6D0)
+#define XLUA_LUABASE_PUSH_OFFSET UNITYSDK_OFFSET(0x12E8CA60)
+#define XLUA_LUABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x12E8BCF0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaBase_TypeDefinitionIndex = 46395;
+	inline static constexpr unsigned int LuaBase_TypeDefinitionIndex = 46985;
 
 	class LuaBase : public ::System::Object
 	{
 	public:
 		::XLua::LuaEnv* luaEnv; // 0x10
-		::System::Int32 luaReference; // 0x18
-		::System::Boolean disposed; // 0x1C
+		::System::Boolean disposed; // 0x18
+		::System::Int32 luaReference; // 0x1C
 
-		::System::Void _ctor(::System::Int32 reference, ::XLua::LuaEnv* luaenv)
+		::System::Void _ctor(::System::Int32 a1, ::XLua::LuaEnv* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUABASE__CTOR_OFFSET))(this, reference, luaenv);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUABASE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Finalize()
@@ -38,14 +38,14 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUABASE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Dispose_1(::System::Boolean disposeManagedResources)
+		::System::Void Dispose_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + XLUA_LUABASE_DISPOSE_1_OFFSET))(this, disposeManagedResources);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + XLUA_LUABASE_DISPOSE_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* o)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_LUABASE_EQUALS_OFFSET))(this, o);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_LUABASE_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -53,9 +53,9 @@ namespace XLua
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUABASE_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Void push(::System::IntPtr L)
+		::System::Void push(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUABASE_PUSH_OFFSET))(this, L);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUABASE_PUSH_OFFSET))(this, a1);
 		}
 	};
 }

@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class IAvatarInfoProvider; }
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xA35EC50)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0xA3602C0)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_MASTERROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0xA360250)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_RANKING_OFFSET UNITYSDK_OFFSET(0xA3602B0)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA360220)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xB9B2630)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0xB9B3EA0)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_MASTERROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0xB9B3E30)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_RANKING_OFFSET UNITYSDK_OFFSET(0xB9B3E90)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB9B3E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateStatisticsMasterInfoItem_TypeDefinitionIndex = 59000;
+	inline static constexpr unsigned int FateStatisticsMasterInfoItem_TypeDefinitionIndex = 59930;
 
 	class FateStatisticsMasterInfoItem : public ::System::Object
 	{
 	public:
-		::RPG::Client::IAvatarInfoProvider* _AvatarData; // 0x10
-		::System::Boolean _IsPlayer; // 0x18
-		::System::UInt32 _Ranking; // 0x1C
-		::System::UInt32 _AvatarRealID; // 0x20
+		::RPG::AvatarSystem::IAvatar* _Avatar; // 0x10
+		::System::UInt32 _Ranking; // 0x18
+		::System::UInt32 _AvatarRealID; // 0x1C
+		::System::Boolean _IsPlayer; // 0x20
 
-		::System::Void _ctor(::System::UInt32 avatarRealID, ::System::UInt32 ranking, ::System::Boolean isPlayer)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSMASTERINFOITEM__CTOR_OFFSET))(this, avatarRealID, ranking, isPlayer);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSMASTERINFOITEM__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::RPG::Client::FateStatisticsMasterInfoItem* Create(::System::UInt32 avatarRealID, ::System::UInt32 ranking, ::System::Boolean isPlayer)
+		static ::RPG::Client::FateStatisticsMasterInfoItem* Create(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::FateStatisticsMasterInfoItem*(*)(::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CREATE_OFFSET))(avatarRealID, ranking, isPlayer);
+			return ((::RPG::Client::FateStatisticsMasterInfoItem*(*)(::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CREATE_OFFSET))(a1, a2, a3);
 		}
 
 		::System::String* get_MasterRoundIconPath()

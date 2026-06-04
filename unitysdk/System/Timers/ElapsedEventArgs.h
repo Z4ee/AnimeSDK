@@ -3,7 +3,7 @@
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define SYSTEM_TIMERS_ELAPSEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A19C1E0)
+#define SYSTEM_TIMERS_ELAPSEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFFEFD0)
 
 namespace System::Timers
 {
@@ -14,9 +14,9 @@ namespace System::Timers
 	public:
 		::System::DateTime time; // 0x10
 
-		::System::Void _ctor(::System::DateTime time)
+		::System::Void _ctor(::System::DateTime a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMERS_ELAPSEDEVENTARGS__CTOR_OFFSET))(this, time);
+			return ((::System::Void(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_TIMERS_ELAPSEDEVENTARGS__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

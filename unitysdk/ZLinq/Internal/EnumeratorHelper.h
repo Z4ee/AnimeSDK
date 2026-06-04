@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
 
-#define ZLINQ_INTERNAL_ENUMERATORHELPER_TRYGETSLICERANGE_OFFSET UNITYSDK_OFFSET(0x1A72AE40)
+#define ZLINQ_INTERNAL_ENUMERATORHELPER_TRYGETSLICERANGE_OFFSET UNITYSDK_OFFSET(0x1B52C2F0)
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int EnumeratorHelper_TypeDefinitionIndex = 6560;
+	inline static constexpr unsigned int EnumeratorHelper_TypeDefinitionIndex = 6389;
 
 	class EnumeratorHelper : public ::System::Object
 	{
 	public:
-		static ::System::Boolean TryGetSliceRange(::System::Int32 sourceLength, ::System::Index offset, ::System::Int32 destinationLength, ::System::Int32& start, ::System::Int32& count)
+		static ::System::Boolean TryGetSliceRange(::System::Int32 a1, ::System::Index a2, ::System::Int32 a3, ::System::Int32& a4, ::System::Int32& a5)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::System::Index, ::System::Int32, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + ZLINQ_INTERNAL_ENUMERATORHELPER_TRYGETSLICERANGE_OFFSET))(sourceLength, offset, destinationLength, start, count);
+			return ((::System::Boolean(*)(::System::Int32, ::System::Index, ::System::Int32, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + ZLINQ_INTERNAL_ENUMERATORHELPER_TRYGETSLICERANGE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

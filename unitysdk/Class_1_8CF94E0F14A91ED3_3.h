@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_8CF94E0F14A91ED3_3_GET_EVALUATIONID_OFFSET UNITYSDK_OFFSET(0xCD3E300)
-#define CLASS_1_8CF94E0F14A91ED3_3_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0xCD3E320)
-#define CLASS_1_8CF94E0F14A91ED3_3_SET_EVALUATIONID_OFFSET UNITYSDK_OFFSET(0xCD3E310)
-#define CLASS_1_8CF94E0F14A91ED3_3_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0xCD3E330)
-#define CLASS_1_8CF94E0F14A91ED3_3__CTOR_OFFSET UNITYSDK_OFFSET(0xCD3E2F0)
+#define CLASS_1_8CF94E0F14A91ED3_3_GET_EVALUATIONID_OFFSET UNITYSDK_OFFSET(0x143123A0)
+#define CLASS_1_8CF94E0F14A91ED3_3_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x143123C0)
+#define CLASS_1_8CF94E0F14A91ED3_3_SET_EVALUATIONID_OFFSET UNITYSDK_OFFSET(0x143123B0)
+#define CLASS_1_8CF94E0F14A91ED3_3_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x143123D0)
+#define CLASS_1_8CF94E0F14A91ED3_3__CTOR_OFFSET UNITYSDK_OFFSET(0x14312390)
 
-inline static constexpr unsigned int Class_1_8CF94E0F14A91ED3_3_TypeDefinitionIndex = 58501;
+inline static constexpr unsigned int Class_1_8CF94E0F14A91ED3_3_TypeDefinitionIndex = 59431;
 
 class Class_1_8CF94E0F14A91ED3_3 : public ::System::Object
 {
@@ -26,9 +26,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_GET_EVALUATIONID_OFFSET))(this);
 	}
 
-	::System::Void set_EvaluationID(::System::UInt32 value)
+	::System::Void set_EvaluationID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_SET_EVALUATIONID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_SET_EVALUATIONID_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_Progress()
@@ -36,8 +36,8 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_GET_PROGRESS_OFFSET))(this);
 	}
 
-	::System::Void set_Progress(::System::UInt32 value)
+	::System::Void set_Progress(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_SET_PROGRESS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_SET_PROGRESS_OFFSET))(this, a1);
 	}
 };

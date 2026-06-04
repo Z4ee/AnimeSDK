@@ -5,12 +5,12 @@
 namespace RPG::Client::DiceCombat { class DiceCombatGlossaryTermData; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS83_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA140A10)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS83_0__GETGLOSSARYDATASBYIDLIST_B__0_OFFSET UNITYSDK_OFFSET(0xA143080)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS83_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7BDF10)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS83_0__GETGLOSSARYDATASBYIDLIST_B__0_OFFSET UNITYSDK_OFFSET(0xB7C2220)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass83_0_TypeDefinitionIndex = 69865;
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass83_0_TypeDefinitionIndex = 70677;
 
 	class DiceCombatUtil___c__DisplayClass83_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS83_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetGlossaryDatasByIDList_b__0(::RPG::Client::DiceCombat::DiceCombatGlossaryTermData* lhs, ::RPG::Client::DiceCombat::DiceCombatGlossaryTermData* rhs)
+		::System::Int32 _GetGlossaryDatasByIDList_b__0(::RPG::Client::DiceCombat::DiceCombatGlossaryTermData* a1, ::RPG::Client::DiceCombat::DiceCombatGlossaryTermData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatGlossaryTermData*, ::RPG::Client::DiceCombat::DiceCombatGlossaryTermData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS83_0__GETGLOSSARYDATASBYIDLIST_B__0_OFFSET))(this, lhs, rhs);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatGlossaryTermData*, ::RPG::Client::DiceCombat::DiceCombatGlossaryTermData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS83_0__GETGLOSSARYDATASBYIDLIST_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

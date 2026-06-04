@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class ActivityLocalLegendRewardGroup; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9BFF1F0)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__DISPLAYCLASS2_0__HASUNTAKENREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x9BFF3C0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB19C250)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__DISPLAYCLASS2_0__HASUNTAKENREWARD_B__0_OFFSET UNITYSDK_OFFSET(0xB19C450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendRewardData___c__DisplayClass2_0_TypeDefinitionIndex = 56781;
+	inline static constexpr unsigned int ActivityLocalLegendRewardData___c__DisplayClass2_0_TypeDefinitionIndex = 57565;
 
 	class ActivityLocalLegendRewardData___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _HasUntakenReward_b__0(::RPG::Client::ActivityLocalLegendRewardGroup* group)
+		::System::Boolean _HasUntakenReward_b__0(::RPG::Client::ActivityLocalLegendRewardGroup* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityLocalLegendRewardGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__DISPLAYCLASS2_0__HASUNTAKENREWARD_B__0_OFFSET))(this, group);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityLocalLegendRewardGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__DISPLAYCLASS2_0__HASUNTAKENREWARD_B__0_OFFSET))(this, a1);
 		}
 	};
 }

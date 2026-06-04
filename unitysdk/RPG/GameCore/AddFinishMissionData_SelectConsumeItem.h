@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SelectMissionItemConfig; }
 namespace RPG::GameCore { class SimpleTalkInfo; }
 
-#define RPG_GAMECORE_ADDFINISHMISSIONDATA_SELECTCONSUMEITEM_METHOD_3_C94BA7896D5C75AD_OFFSET UNITYSDK_OFFSET(0x1863EAE0)
-#define RPG_GAMECORE_ADDFINISHMISSIONDATA_SELECTCONSUMEITEM_METHOD_3_F90B3A0BB359F5A8_OFFSET UNITYSDK_OFFSET(0x1863EC40)
-#define RPG_GAMECORE_ADDFINISHMISSIONDATA_SELECTCONSUMEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1863EBA0)
+#define RPG_GAMECORE_ADDFINISHMISSIONDATA_SELECTCONSUMEITEM_METHOD_3_505E08932197D047_OFFSET UNITYSDK_OFFSET(0x1940DC80)
+#define RPG_GAMECORE_ADDFINISHMISSIONDATA_SELECTCONSUMEITEM_METHOD_3_8F6147675E7500EA_OFFSET UNITYSDK_OFFSET(0x1940DB20)
+#define RPG_GAMECORE_ADDFINISHMISSIONDATA_SELECTCONSUMEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1940DBE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddFinishMissionData_SelectConsumeItem_TypeDefinitionIndex = 20413;
+	inline static constexpr unsigned int AddFinishMissionData_SelectConsumeItem_TypeDefinitionIndex = 20358;
 
 	class AddFinishMissionData_SelectConsumeItem : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_SELECTCONSUMEITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C94BA7896D5C75AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddFinishMissionData_SelectConsumeItem*& a2)
+		static ::System::Void Method_3_8F6147675E7500EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddFinishMissionData_SelectConsumeItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddFinishMissionData_SelectConsumeItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_SELECTCONSUMEITEM_METHOD_3_C94BA7896D5C75AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddFinishMissionData_SelectConsumeItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_SELECTCONSUMEITEM_METHOD_3_8F6147675E7500EA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F90B3A0BB359F5A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddFinishMissionData_SelectConsumeItem* a2)
+		static ::System::Void Method_3_505E08932197D047(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddFinishMissionData_SelectConsumeItem* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddFinishMissionData_SelectConsumeItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_SELECTCONSUMEITEM_METHOD_3_F90B3A0BB359F5A8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddFinishMissionData_SelectConsumeItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_SELECTCONSUMEITEM_METHOD_3_505E08932197D047_OFFSET))(a1, a2);
 		}
 	};
 }

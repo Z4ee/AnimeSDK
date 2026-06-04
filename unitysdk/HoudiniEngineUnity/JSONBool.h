@@ -9,36 +9,36 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define HOUDINIENGINEUNITY_JSONBOOL_EQUALS_OFFSET UNITYSDK_OFFSET(0x8CD2A20)
-#define HOUDINIENGINEUNITY_JSONBOOL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x8CD28D0)
-#define HOUDINIENGINEUNITY_JSONBOOL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8CD2A40)
-#define HOUDINIENGINEUNITY_JSONBOOL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x8CD2960)
-#define HOUDINIENGINEUNITY_JSONBOOL_GET_ISBOOLEAN_OFFSET UNITYSDK_OFFSET(0x8CD28C0)
-#define HOUDINIENGINEUNITY_JSONBOOL_GET_TAG_OFFSET UNITYSDK_OFFSET(0x8CD28B0)
-#define HOUDINIENGINEUNITY_JSONBOOL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x8CD28F0)
-#define HOUDINIENGINEUNITY_JSONBOOL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x8CD2970)
-#define HOUDINIENGINEUNITY_JSONBOOL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x8CD2910)
-#define HOUDINIENGINEUNITY_JSONBOOL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x8CD29E0)
-#define HOUDINIENGINEUNITY_JSONBOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8CD2990)
-#define HOUDINIENGINEUNITY_JSONBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x8CD2980)
+#define HOUDINIENGINEUNITY_JSONBOOL_EQUALS_OFFSET UNITYSDK_OFFSET(0x17F752E0)
+#define HOUDINIENGINEUNITY_JSONBOOL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17F75190)
+#define HOUDINIENGINEUNITY_JSONBOOL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17F75300)
+#define HOUDINIENGINEUNITY_JSONBOOL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x17F75220)
+#define HOUDINIENGINEUNITY_JSONBOOL_GET_ISBOOLEAN_OFFSET UNITYSDK_OFFSET(0x17F75180)
+#define HOUDINIENGINEUNITY_JSONBOOL_GET_TAG_OFFSET UNITYSDK_OFFSET(0x17F75170)
+#define HOUDINIENGINEUNITY_JSONBOOL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x17F751B0)
+#define HOUDINIENGINEUNITY_JSONBOOL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x17F75230)
+#define HOUDINIENGINEUNITY_JSONBOOL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x17F751D0)
+#define HOUDINIENGINEUNITY_JSONBOOL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x17F752A0)
+#define HOUDINIENGINEUNITY_JSONBOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17F75250)
+#define HOUDINIENGINEUNITY_JSONBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x17F75240)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int JSONBool_TypeDefinitionIndex = 43732;
+	inline static constexpr unsigned int JSONBool_TypeDefinitionIndex = 37719;
 
 	class JSONBool : public ::HoudiniEngineUnity::JSONNode
 	{
 	public:
 		::System::Boolean m_Data; // 0x10
 
-		::System::Void _ctor(::System::Boolean aData)
+		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL__CTOR_OFFSET))(this, aData);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::String* aData)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL__CTOR_1_OFFSET))(this, aData);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::HoudiniEngineUnity::JSONNodeType get_Tag()
@@ -61,9 +61,9 @@ namespace HoudiniEngineUnity
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::String* value)
+		::System::Void set_Value(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL_SET_VALUE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_AsBool()
@@ -71,19 +71,19 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL_GET_ASBOOL_OFFSET))(this);
 		}
 
-		::System::Void set_AsBool(::System::Boolean value)
+		::System::Void set_AsBool(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL_SET_ASBOOL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL_SET_ASBOOL_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* aSB, ::System::Int32 aIndent, ::System::Int32 aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode)
+		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* a1, ::System::Int32 a2, ::System::Int32 a3, ::HoudiniEngineUnity::JSONTextMode a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::JSONTextMode))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL_WRITETOSTRINGBUILDER_OFFSET))(this, aSB, aIndent, aIndentInc, aMode);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::JSONTextMode))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL_WRITETOSTRINGBUILDER_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONBOOL_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

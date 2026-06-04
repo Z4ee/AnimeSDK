@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
+class Class_1_78A7ED2C7E071DF9;
 class Class_1_81F1CF945D2A8B9E_1;
 class Class_1_8278C4CB5E7C57A4;
-class Class_1_B9F5BC78FB41D3C3;
 class Class_1_D64959CBBD533335_1;
-class Class_3_C96CADB16834C680;
+class Class_3_53C5C258632BD139;
 namespace Entitas { template <typename T> class IContext_1; }
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace Entitas { template <typename T> class IMatcher_1; }
@@ -19,13 +19,13 @@ namespace System::IO { class MemoryStream; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int SnapshotSendSystem_1_TypeDefinitionIndex = 34440;
+	inline static constexpr unsigned int SnapshotSendSystem_1_TypeDefinitionIndex = 34722;
 
 	template <typename TEntity>
 	class SnapshotSendSystem_1 : public ::System::Object
 	{
 	public:
-		::Class_3_C96CADB16834C680* _Instance; // 0x0
+		::Class_3_53C5C258632BD139* _Instance; // 0x0
 		::Entitas::IContext_1<TEntity>* _Context; // 0x0
 		::Entitas::IMatcher_1<TEntity>* _ReplicatedMatcher; // 0x0
 		::Entitas::IGroup_1<TEntity>* _ReplicatedGroup; // 0x0

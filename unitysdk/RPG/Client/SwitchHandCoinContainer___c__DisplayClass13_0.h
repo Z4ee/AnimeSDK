@@ -5,12 +5,12 @@
 namespace RPG::Client { class SwitchHandCoinData; }
 namespace RPG::GameCore { class AdventureAfterPropStateChange; }
 
-#define RPG_CLIENT_SWITCHHANDCOINCONTAINER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1EF030)
-#define RPG_CLIENT_SWITCHHANDCOINCONTAINER___C__DISPLAYCLASS13_0___ONPROPSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xB1EFCD0)
+#define RPG_CLIENT_SWITCHHANDCOINCONTAINER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC985360)
+#define RPG_CLIENT_SWITCHHANDCOINCONTAINER___C__DISPLAYCLASS13_0___ONPROPSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xC986890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwitchHandCoinContainer___c__DisplayClass13_0_TypeDefinitionIndex = 62688;
+	inline static constexpr unsigned int SwitchHandCoinContainer___c__DisplayClass13_0_TypeDefinitionIndex = 63621;
 
 	class SwitchHandCoinContainer___c__DisplayClass13_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWITCHHANDCOINCONTAINER___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __OnPropStateChange_b__0(::RPG::Client::SwitchHandCoinData* coinData)
+		::System::Boolean __OnPropStateChange_b__0(::RPG::Client::SwitchHandCoinData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::SwitchHandCoinData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWITCHHANDCOINCONTAINER___C__DISPLAYCLASS13_0___ONPROPSTATECHANGE_B__0_OFFSET))(this, coinData);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::SwitchHandCoinData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWITCHHANDCOINCONTAINER___C__DISPLAYCLASS13_0___ONPROPSTATECHANGE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

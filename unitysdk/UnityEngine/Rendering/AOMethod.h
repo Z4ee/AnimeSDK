@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AOMethod_TypeDefinitionIndex = 4641;
+	inline static constexpr unsigned int AOMethod_TypeDefinitionIndex = 4815;
 
 	enum class AOMethod : ::System::Int32
 	{

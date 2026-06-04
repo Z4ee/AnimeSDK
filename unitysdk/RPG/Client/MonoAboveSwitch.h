@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_MONOABOVESWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0xA90CB70)
+#define RPG_CLIENT_MONOABOVESWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0xC057080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAboveSwitch_TypeDefinitionIndex = 67313;
+	inline static constexpr unsigned int MonoAboveSwitch_TypeDefinitionIndex = 68265;
 
 	class MonoAboveSwitch : public ::UnityEngine::MonoBehaviour
 	{

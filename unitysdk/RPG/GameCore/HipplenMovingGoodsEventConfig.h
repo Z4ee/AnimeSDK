@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENMOVINGGOODSEVENTCONFIG_METHOD_2_A6BD0DFD0243E083_OFFSET UNITYSDK_OFFSET(0x18A04B70)
-#define RPG_GAMECORE_HIPPLENMOVINGGOODSEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A04E20)
+#define RPG_GAMECORE_HIPPLENMOVINGGOODSEVENTCONFIG_METHOD_2_3F05A9D1F5F4D0B8_OFFSET UNITYSDK_OFFSET(0x19836FD0)
+#define RPG_GAMECORE_HIPPLENMOVINGGOODSEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19837260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenMovingGoodsEventConfig_TypeDefinitionIndex = 15897;
+	inline static constexpr unsigned int HipplenMovingGoodsEventConfig_TypeDefinitionIndex = 15950;
 
 	class HipplenMovingGoodsEventConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENMOVINGGOODSEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A6BD0DFD0243E083(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenMovingGoodsEventConfig*& a2)
+		static ::System::Void Method_2_3F05A9D1F5F4D0B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenMovingGoodsEventConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenMovingGoodsEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENMOVINGGOODSEVENTCONFIG_METHOD_2_A6BD0DFD0243E083_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenMovingGoodsEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENMOVINGGOODSEVENTCONFIG_METHOD_2_3F05A9D1F5F4D0B8_OFFSET))(a1, a2);
 		}
 	};
 }

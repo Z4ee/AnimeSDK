@@ -9,36 +9,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x175A4B30)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x175A4B70)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x175A45B0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x175A4590)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1838C9C0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1838CA00)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1838C9B0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1838C8C0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelDelegate_AuthTokenDelegate_TypeDefinitionIndex = 7521;
+	inline static constexpr unsigned int HoYoChannelDelegate_AuthTokenDelegate_TypeDefinitionIndex = 8424;
 
 	class HoYoChannelDelegate_AuthTokenDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams* param, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>* callback)
+		::System::Void Invoke(::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_INVOKE_OFFSET))(this, param, callback);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams* param, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>* callback, ::System::AsyncCallback* __callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_BEGININVOKE_OFFSET))(this, param, callback, __callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_AUTHTOKENDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

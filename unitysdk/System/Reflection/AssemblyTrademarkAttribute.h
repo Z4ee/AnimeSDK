@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYTRADEMARKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17997150)
+#define SYSTEM_REFLECTION_ASSEMBLYTRADEMARKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1874AE90)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyTrademarkAttribute_TypeDefinitionIndex = 539;
+	inline static constexpr unsigned int AssemblyTrademarkAttribute_TypeDefinitionIndex = 538;
 
 	class AssemblyTrademarkAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* m_trademark; // 0x10
 
-		::System::Void _ctor(::System::String* trademark)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYTRADEMARKATTRIBUTE__CTOR_OFFSET))(this, trademark);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYTRADEMARKATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

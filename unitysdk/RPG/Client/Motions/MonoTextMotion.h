@@ -25,63 +25,63 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_APPLYSHADOWZEROALLOC_OFFSET UNITYSDK_OFFSET(0xAAD37B0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_AWAKE_OFFSET UNITYSDK_OFFSET(0xAAD0220)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xAAD0140)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_FORCEREDRAW_OFFSET UNITYSDK_OFFSET(0xAACF790)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_HASMOTIONNOTFINISH_OFFSET UNITYSDK_OFFSET(0xAACF630)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_IMMEDIATEFINISHALLMOTIONS_OFFSET UNITYSDK_OFFSET(0xAACF710)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_IMMEDIATEFINISHEXITINGMOTIONS_OFFSET UNITYSDK_OFFSET(0xAACF7E0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xAACE7E0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAAD0360)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xAAD03B0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_PAUSE_OFFSET UNITYSDK_OFFSET(0xAAD0080)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_RESUME_OFFSET UNITYSDK_OFFSET(0xAAD00C0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTIDWITHMOTIONWITHTYPERTYPE_OFFSET UNITYSDK_OFFSET(0xAACFFD0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTIDWITHMOTION_OFFSET UNITYSDK_OFFSET(0xAACFAC0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTWITHMOTION_OFFSET UNITYSDK_OFFSET(0xAACF9C0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SPAWNED_OFFSET UNITYSDK_OFFSET(0xAAD0100)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_UPDATEOUTLINE_OFFSET UNITYSDK_OFFSET(0xAACEC50)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xAAD0490)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CLEARMOTIONDATA_OFFSET UNITYSDK_OFFSET(0xAAD01C0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATECHARMOTIONINRANGE_OFFSET UNITYSDK_OFFSET(0xAAD1990)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATECHARMOTION_OFFSET UNITYSDK_OFFSET(0xAAD3480)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSCHARMOTIONINRANGE_OFFSET UNITYSDK_OFFSET(0xAAD4580)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSCHARMOTION_OFFSET UNITYSDK_OFFSET(0xAAD4F00)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSRUBYCHARMOTION_1_OFFSET UNITYSDK_OFFSET(0xAAD5140)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSRUBYCHARMOTION_OFFSET UNITYSDK_OFFSET(0xAAD48C0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSTYPERMOTION_OFFSET UNITYSDK_OFFSET(0xAAD1100)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERSE1CHARMOTIONINRANGE_OFFSET UNITYSDK_OFFSET(0xAAD1FF0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERSE1CHARMOTION_OFFSET UNITYSDK_OFFSET(0xAAD3E70)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERUBYCHARMOTION_OFFSET UNITYSDK_OFFSET(0xAAD1BD0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATETEXTEFFECTMOTION_OFFSET UNITYSDK_OFFSET(0xAAD0E30)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATETEXTEXITINGMOTION_OFFSET UNITYSDK_OFFSET(0xAAD0C20)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATETYPERMOTION_OFFSET UNITYSDK_OFFSET(0xAAD15C0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATEWRAPMOTION_OFFSET UNITYSDK_OFFSET(0xAAD2290)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xAAD53B0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETLASTLINEBOTTOMPOSY_OFFSET UNITYSDK_OFFSET(0xAAD2CE0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETLINEBOTTOMPOSY_OFFSET UNITYSDK_OFFSET(0xAAD30C0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETMASKCHARACTERINFO_OFFSET UNITYSDK_OFFSET(0xAAD4390)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETRECTBOTTOMPOSY_OFFSET UNITYSDK_OFFSET(0xAAD2C70)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETSUBSTR_OFFSET UNITYSDK_OFFSET(0xAAD2FC0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETTOTALBOTTOMVISIBLECHARCOUNT_OFFSET UNITYSDK_OFFSET(0xAAD4140)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETVISIBLECHARCOUNT_OFFSET UNITYSDK_OFFSET(0xAAD3050)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__IMMEDIATELYSHOWNEXTSENTENCE_OFFSET UNITYSDK_OFFSET(0xAACF830)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__MODIFYMESH_B__0_0_OFFSET UNITYSDK_OFFSET(0xAAD5460)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PARSEVISIBLECHARINDEXTOLINEINDEX_OFFSET UNITYSDK_OFFSET(0xAAD3680)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PROCESSLINEINFOFORRUBY_OFFSET UNITYSDK_OFFSET(0xAAD35F0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PROCESSLINEINFOS_OFFSET UNITYSDK_OFFSET(0xAAD0600)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PROCESSONELINE_OFFSET UNITYSDK_OFFSET(0xAAD0A20)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__RESETTEXTMOVEMENT_OFFSET UNITYSDK_OFFSET(0xAAD0D00)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__SHOWNEXTSENTENCE_OFFSET UNITYSDK_OFFSET(0xAAD0CB0)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__TRYFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xAAD0430)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0xAAD5580)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAAD5590)
-#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION___IFIXBASEPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xAAD55A0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_APPLYSHADOWZEROALLOC_OFFSET UNITYSDK_OFFSET(0xC1A3910)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_AWAKE_OFFSET UNITYSDK_OFFSET(0xC1A00D0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xC19FFF0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_FORCEREDRAW_OFFSET UNITYSDK_OFFSET(0xC19F650)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_HASMOTIONNOTFINISH_OFFSET UNITYSDK_OFFSET(0xC19F4F0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_IMMEDIATEFINISHALLMOTIONS_OFFSET UNITYSDK_OFFSET(0xC19F5D0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_IMMEDIATEFINISHEXITINGMOTIONS_OFFSET UNITYSDK_OFFSET(0xC19F6A0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xC19E670)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC1A0210)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC1A0260)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_PAUSE_OFFSET UNITYSDK_OFFSET(0xC19FF30)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_RESUME_OFFSET UNITYSDK_OFFSET(0xC19FF70)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTIDWITHMOTIONWITHTYPERTYPE_OFFSET UNITYSDK_OFFSET(0xC19FE80)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTIDWITHMOTION_OFFSET UNITYSDK_OFFSET(0xC19F970)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTWITHMOTION_OFFSET UNITYSDK_OFFSET(0xC19F880)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SPAWNED_OFFSET UNITYSDK_OFFSET(0xC19FFB0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_UPDATEOUTLINE_OFFSET UNITYSDK_OFFSET(0xC19EAF0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xC1A0360)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CLEARMOTIONDATA_OFFSET UNITYSDK_OFFSET(0xC1A0070)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATECHARMOTIONINRANGE_OFFSET UNITYSDK_OFFSET(0xC1A1950)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATECHARMOTION_OFFSET UNITYSDK_OFFSET(0xC1A3600)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSCHARMOTIONINRANGE_OFFSET UNITYSDK_OFFSET(0xC1A46F0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSCHARMOTION_OFFSET UNITYSDK_OFFSET(0xC1A5190)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSRUBYCHARMOTION_1_OFFSET UNITYSDK_OFFSET(0xC1A53C0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSRUBYCHARMOTION_OFFSET UNITYSDK_OFFSET(0xC1A4A80)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSTYPERMOTION_OFFSET UNITYSDK_OFFSET(0xC1A1080)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERSE1CHARMOTIONINRANGE_OFFSET UNITYSDK_OFFSET(0xC1A20C0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERSE1CHARMOTION_OFFSET UNITYSDK_OFFSET(0xC1A3FE0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERUBYCHARMOTION_OFFSET UNITYSDK_OFFSET(0xC1A1BE0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATETEXTEFFECTMOTION_OFFSET UNITYSDK_OFFSET(0xC1A0D80)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATETEXTEXITINGMOTION_OFFSET UNITYSDK_OFFSET(0xC1A0B50)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATETYPERMOTION_OFFSET UNITYSDK_OFFSET(0xC1A1560)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATEWRAPMOTION_OFFSET UNITYSDK_OFFSET(0xC1A23D0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xC1A5630)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETLASTLINEBOTTOMPOSY_OFFSET UNITYSDK_OFFSET(0xC1A2E50)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETLINEBOTTOMPOSY_OFFSET UNITYSDK_OFFSET(0xC1A3230)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETMASKCHARACTERINFO_OFFSET UNITYSDK_OFFSET(0xC1A4500)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETRECTBOTTOMPOSY_OFFSET UNITYSDK_OFFSET(0xC1A2DE0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETSUBSTR_OFFSET UNITYSDK_OFFSET(0xC1A3130)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETTOTALBOTTOMVISIBLECHARCOUNT_OFFSET UNITYSDK_OFFSET(0xC1A42A0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETVISIBLECHARCOUNT_OFFSET UNITYSDK_OFFSET(0xC1A31C0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__IMMEDIATELYSHOWNEXTSENTENCE_OFFSET UNITYSDK_OFFSET(0xC19F6F0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__MODIFYMESH_B__0_0_OFFSET UNITYSDK_OFFSET(0xC1A56E0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PARSEVISIBLECHARINDEXTOLINEINDEX_OFFSET UNITYSDK_OFFSET(0xC1A3800)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PROCESSLINEINFOFORRUBY_OFFSET UNITYSDK_OFFSET(0xC1A3750)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PROCESSLINEINFOS_OFFSET UNITYSDK_OFFSET(0xC1A04D0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PROCESSONELINE_OFFSET UNITYSDK_OFFSET(0xC1A0900)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__RESETTEXTMOVEMENT_OFFSET UNITYSDK_OFFSET(0xC1A0C50)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__SHOWNEXTSENTENCE_OFFSET UNITYSDK_OFFSET(0xC1A0C00)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION__TRYFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xC1A02F0)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0xC1A5800)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC1A5810)
+#define RPG_CLIENT_MOTIONS_MONOTEXTMOTION___IFIXBASEPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC1A5820)
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MonoTextMotion_TypeDefinitionIndex = 67680;
+	inline static constexpr unsigned int MonoTextMotion_TypeDefinitionIndex = 68638;
 
 	class MonoTextMotion : public ::UnityEngine::UI::BaseMeshEffect
 	{
@@ -123,9 +123,9 @@ namespace RPG::Client::Motions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ModifyMesh(::UnityEngine::UI::VertexHelper* vh)
+		::System::Void ModifyMesh(::UnityEngine::UI::VertexHelper* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_MODIFYMESH_OFFSET))(this, vh);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_MODIFYMESH_OFFSET))(this, a1);
 		}
 
 		::System::Boolean HasMotionNotFinish()
@@ -143,19 +143,19 @@ namespace RPG::Client::Motions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_IMMEDIATEFINISHEXITINGMOTIONS_OFFSET))(this);
 		}
 
-		::System::Void ShowTextWithMotion(::System::Single charInterval, ::System::Action* callBackLuaFunction)
+		::System::Void ShowTextWithMotion(::System::Single a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTWITHMOTION_OFFSET))(this, charInterval, callBackLuaFunction);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTWITHMOTION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ShowTextIDWithMotion(::System::Single charInterval, ::System::Action* callBackLuaFunction, ::RPG::Client::TextID textID, ::Il2CppArray<::System::Object*>* replaceParams)
+		::System::Void ShowTextIDWithMotion(::System::Single a1, ::System::Action* a2, ::RPG::Client::TextID a3, ::Il2CppArray<::System::Object*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action*, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTIDWITHMOTION_OFFSET))(this, charInterval, callBackLuaFunction, textID, replaceParams);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action*, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTIDWITHMOTION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void ShowTextIDWithMotionWithTyperType(::System::Single charInterval, ::System::Action* callBackLuaFunction, ::RPG::GameCore::TextMotionTyperType typerType, ::RPG::Client::TextID textID, ::Il2CppArray<::System::Object*>* replaceParams)
+		::System::Void ShowTextIDWithMotionWithTyperType(::System::Single a1, ::System::Action* a2, ::RPG::GameCore::TextMotionTyperType a3, ::RPG::Client::TextID a4, ::Il2CppArray<::System::Object*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action*, ::RPG::GameCore::TextMotionTyperType, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTIDWITHMOTIONWITHTYPERTYPE_OFFSET))(this, charInterval, callBackLuaFunction, typerType, textID, replaceParams);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action*, ::RPG::GameCore::TextMotionTyperType, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_SHOWTEXTIDWITHMOTIONWITHTYPERTYPE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Pause()
@@ -213,9 +213,9 @@ namespace RPG::Client::Motions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PROCESSLINEINFOS_OFFSET))(this);
 		}
 
-		::System::Void _ProcessOneLine(::System::String* text, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TextFormatFlag>* flags, ::System::Int32 headCharIndex, ::System::Int32 tailCharIndex, ::System::Int32& visibleCharCount)
+		::System::Void _ProcessOneLine(::System::String* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TextFormatFlag>* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32& a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TextFormatFlag>*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PROCESSONELINE_OFFSET))(this, text, flags, headCharIndex, tailCharIndex, visibleCharCount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TextFormatFlag>*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PROCESSONELINE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::Class_2_9C4E0E0141829F67* _CreateTextExitingMotion()
@@ -238,19 +238,19 @@ namespace RPG::Client::Motions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__RESETTEXTMOVEMENT_OFFSET))(this);
 		}
 
-		::Class_2_9C4E0E0141829F67* _CreateTextEffectMotion(::System::String* text, ::System::Single charInterval)
+		::Class_2_9C4E0E0141829F67* _CreateTextEffectMotion(::System::String* a1, ::System::Single a2)
 		{
-			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATETEXTEFFECTMOTION_OFFSET))(this, text, charInterval);
+			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATETEXTEFFECTMOTION_OFFSET))(this, a1, a2);
 		}
 
-		::Class_2_9C4E0E0141829F67* _CreateTyperMotion(::System::String* text, ::System::Single charInterval)
+		::Class_2_9C4E0E0141829F67* _CreateTyperMotion(::System::String* a1, ::System::Single a2)
 		{
-			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATETYPERMOTION_OFFSET))(this, text, charInterval);
+			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATETYPERMOTION_OFFSET))(this, a1, a2);
 		}
 
-		::Class_2_9C4E0E0141829F67* _CreateWrapMotion(::System::Single charInterval)
+		::Class_2_9C4E0E0141829F67* _CreateWrapMotion(::System::Single a1)
 		{
-			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATEWRAPMOTION_OFFSET))(this, charInterval);
+			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATEWRAPMOTION_OFFSET))(this, a1);
 		}
 
 		::System::Single _GetRectBottomPosY()
@@ -263,44 +263,44 @@ namespace RPG::Client::Motions
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETLASTLINEBOTTOMPOSY_OFFSET))(this);
 		}
 
-		::System::Single _GetLineBottomPosY(::System::Int32 lineIndex, ::System::Int32 beginCharIndex, ::System::Int32 endCharIndex)
+		::System::Single _GetLineBottomPosY(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETLINEBOTTOMPOSY_OFFSET))(this, lineIndex, beginCharIndex, endCharIndex);
+			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETLINEBOTTOMPOSY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>* _CreateCharMotionInRange(::System::String* text, ::System::Int32 subStrBeginIndex, ::System::Int32 subStrEndIndex, ::System::Int32& unHideBeginIndex, ::System::Single& unHideDuration, ::System::Single charInterval)
+		::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>* _CreateCharMotionInRange(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4, ::System::Single& a5, ::System::Single a6)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATECHARMOTIONINRANGE_OFFSET))(this, text, subStrBeginIndex, subStrEndIndex, unHideBeginIndex, unHideDuration, charInterval);
+			return ((::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATECHARMOTIONINRANGE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>* _CreateRubyCharMotion(::System::String* text, ::Struct_2_4C8453486C91E3A1_8 rubyData, ::System::Int32& unHideBeginIndex, ::System::Single& unHideDuration, ::System::Single charInterval)
+		::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>* _CreateRubyCharMotion(::System::String* a1, ::Struct_2_4C8453486C91E3A1_8 a2, ::System::Int32& a3, ::System::Single& a4, ::System::Single a5)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>*(*)(::PVOID, ::System::String*, ::Struct_2_4C8453486C91E3A1_8, ::System::Int32&, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERUBYCHARMOTION_OFFSET))(this, text, rubyData, unHideBeginIndex, unHideDuration, charInterval);
+			return ((::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>*(*)(::PVOID, ::System::String*, ::Struct_2_4C8453486C91E3A1_8, ::System::Int32&, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERUBYCHARMOTION_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::String* _GetSubStr(::System::String* originStr, ::System::Int32 startIndex, ::System::Int32 length)
+		::System::String* _GetSubStr(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETSUBSTR_OFFSET))(this, originStr, startIndex, length);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETSUBSTR_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Int32 _GetVisibleCharCount(::System::String* str)
+		static ::System::Int32 _GetVisibleCharCount(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETVISIBLECHARCOUNT_OFFSET))(str);
+			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETVISIBLECHARCOUNT_OFFSET))(a1);
 		}
 
-		::Class_2_9C4E0E0141829F67* _CreateCharMotion(::System::Int32 index, ::System::Single keepHideDuration)
+		::Class_2_9C4E0E0141829F67* _CreateCharMotion(::System::Int32 a1, ::System::Single a2)
 		{
-			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATECHARMOTION_OFFSET))(this, index, keepHideDuration);
+			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATECHARMOTION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ProcessLineInfoForRuby(::System::Int32 visibleCharIndex, ::System::Int32 characterCountToRemove)
+		::System::Void _ProcessLineInfoForRuby(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PROCESSLINEINFOFORRUBY_OFFSET))(this, visibleCharIndex, characterCountToRemove);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PROCESSLINEINFOFORRUBY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _ParseVisibleCharIndexToLineIndex(::System::Int32 visibleCharIndex)
+		::System::Int32 _ParseVisibleCharIndexToLineIndex(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PARSEVISIBLECHARINDEXTOLINEINDEX_OFFSET))(this, visibleCharIndex);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__PARSEVISIBLECHARINDEXTOLINEINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Void _ClearMotionData()
@@ -308,54 +308,54 @@ namespace RPG::Client::Motions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CLEARMOTIONDATA_OFFSET))(this);
 		}
 
-		::System::Void UpdateOutline(::UnityEngine::UI::VertexHelper* vh, ::UnityEngine::Color effectColor, ::UnityEngine::Vector2 effectDistance, ::System::Boolean useGraphicAlpha)
+		::System::Void UpdateOutline(::UnityEngine::UI::VertexHelper* a1, ::UnityEngine::Color a2, ::UnityEngine::Vector2 a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::UnityEngine::Color, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_UPDATEOUTLINE_OFFSET))(this, vh, effectColor, effectDistance, useGraphicAlpha);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::UnityEngine::Color, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_UPDATEOUTLINE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void ApplyShadowZeroAlloc(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* verts, ::UnityEngine::Color32 color, ::System::Int32 start, ::System::Int32 end, ::System::Single x, ::System::Single y, ::System::Boolean UseGraphicAlpha)
+		::System::Void ApplyShadowZeroAlloc(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a1, ::UnityEngine::Color32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Single a5, ::System::Single a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Color32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_APPLYSHADOWZEROALLOC_OFFSET))(this, verts, color, start, end, x, y, UseGraphicAlpha);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Color32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION_APPLYSHADOWZEROALLOC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>* _CreateRSE1CharMotionInRange(::System::String* text, ::System::Int32 subStrBeginIndex, ::System::Int32 subStrEndIndex, ::System::Int32& unHideBeginIndex, ::System::Single& unHideDuration, ::System::Single charInterval, ::System::Int32 twoPhaseShowOffset)
+		::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>* _CreateRSE1CharMotionInRange(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4, ::System::Single& a5, ::System::Single a6, ::System::Int32 a7)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Single&, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERSE1CHARMOTIONINRANGE_OFFSET))(this, text, subStrBeginIndex, subStrEndIndex, unHideBeginIndex, unHideDuration, charInterval, twoPhaseShowOffset);
+			return ((::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Single&, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERSE1CHARMOTIONINRANGE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::Class_2_9C4E0E0141829F67* _CreateRSE1CharMotion(::System::Int32 index, ::System::Single d, ::System::Single showTime, ::System::Single timeForColor1, ::System::Single timeForColor2, ::UnityEngine::Color32 color1, ::UnityEngine::Color32 color2)
+		::Class_2_9C4E0E0141829F67* _CreateRSE1CharMotion(::System::Int32 a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::UnityEngine::Color32 a6, ::UnityEngine::Color32 a7)
 		{
-			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::Color32, ::UnityEngine::Color32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERSE1CHARMOTION_OFFSET))(this, index, d, showTime, timeForColor1, timeForColor2, color1, color2);
+			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::Color32, ::UnityEngine::Color32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATERSE1CHARMOTION_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::Class_2_9C4E0E0141829F67* _CreateNousTyperMotion(::System::String* text, ::System::Single charInterval, ::System::Int32 maxMaskedCharacterCount)
+		::Class_2_9C4E0E0141829F67* _CreateNousTyperMotion(::System::String* a1, ::System::Single a2, ::System::Int32 a3)
 		{
-			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::String*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSTYPERMOTION_OFFSET))(this, text, charInterval, maxMaskedCharacterCount);
+			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::String*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSTYPERMOTION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 _GetTotalBottomVisibleCharCount(::System::String* text)
+		::System::Int32 _GetTotalBottomVisibleCharCount(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETTOTALBOTTOMVISIBLECHARCOUNT_OFFSET))(this, text);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__GETTOTALBOTTOMVISIBLECHARCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>* _CreateNousCharMotionInRange(::System::String* text, ::System::Int32 subStrBeginIndex, ::System::Int32 subStrEndIndex, ::System::Int32& unHideBeginIndex, ::System::Int32& bottomCharIndex, ::System::Single charInterval, ::UnityEngine::CharacterInfo maskCharacterInfo, ::System::Int32 maxMaskedCharacterCount)
+		::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>* _CreateNousCharMotionInRange(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4, ::System::Int32& a5, ::System::Single a6, ::UnityEngine::CharacterInfo a7, ::System::Int32 a8)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Int32&, ::System::Single, ::UnityEngine::CharacterInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSCHARMOTIONINRANGE_OFFSET))(this, text, subStrBeginIndex, subStrEndIndex, unHideBeginIndex, bottomCharIndex, charInterval, maskCharacterInfo, maxMaskedCharacterCount);
+			return ((::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Int32&, ::System::Single, ::UnityEngine::CharacterInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSCHARMOTIONINRANGE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>* _CreateNousRubyCharMotion(::System::String* text, ::Struct_2_4C8453486C91E3A1_8 rubyData, ::System::Int32& unHideBeginIndex, ::System::Int32& bottomCharIndex, ::System::Single charInterval, ::UnityEngine::CharacterInfo maskCharacterInfo, ::System::Int32 maxMaskedCharacterCount)
+		::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>* _CreateNousRubyCharMotion(::System::String* a1, ::Struct_2_4C8453486C91E3A1_8 a2, ::System::Int32& a3, ::System::Int32& a4, ::System::Single a5, ::UnityEngine::CharacterInfo a6, ::System::Int32 a7)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>*(*)(::PVOID, ::System::String*, ::Struct_2_4C8453486C91E3A1_8, ::System::Int32&, ::System::Int32&, ::System::Single, ::UnityEngine::CharacterInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSRUBYCHARMOTION_OFFSET))(this, text, rubyData, unHideBeginIndex, bottomCharIndex, charInterval, maskCharacterInfo, maxMaskedCharacterCount);
+			return ((::System::Collections::Generic::List_1<::Class_2_9C4E0E0141829F67*>*(*)(::PVOID, ::System::String*, ::Struct_2_4C8453486C91E3A1_8, ::System::Int32&, ::System::Int32&, ::System::Single, ::UnityEngine::CharacterInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSRUBYCHARMOTION_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::Class_2_9C4E0E0141829F67* _CreateNousCharMotion(::System::Int32 charIndex, ::System::Int32 bottomCharIndex, ::System::Single charInterval, ::System::Int32 maxMaskedCharacterCount, ::UnityEngine::Color32 color, ::UnityEngine::CharacterInfo maskCharacterInfo)
+		::Class_2_9C4E0E0141829F67* _CreateNousCharMotion(::System::Int32 a1, ::System::Int32 a2, ::System::Single a3, ::System::Int32 a4, ::UnityEngine::Color32 a5, ::UnityEngine::CharacterInfo a6)
 		{
-			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single, ::System::Int32, ::UnityEngine::Color32, ::UnityEngine::CharacterInfo))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSCHARMOTION_OFFSET))(this, charIndex, bottomCharIndex, charInterval, maxMaskedCharacterCount, color, maskCharacterInfo);
+			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single, ::System::Int32, ::UnityEngine::Color32, ::UnityEngine::CharacterInfo))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSCHARMOTION_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::Class_2_9C4E0E0141829F67* _CreateNousRubyCharMotion_1(::System::Single preDuration, ::System::Int32 charIndex, ::System::Int32 topCharIndex, ::System::Single charInterval, ::System::Int32 maxMaskedCharacterCount, ::UnityEngine::Color32 color, ::UnityEngine::CharacterInfo maskCharacterInfo)
+		::Class_2_9C4E0E0141829F67* _CreateNousRubyCharMotion_1(::System::Single a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4, ::System::Int32 a5, ::UnityEngine::Color32 a6, ::UnityEngine::CharacterInfo a7)
 		{
-			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Single, ::System::Int32, ::System::Int32, ::System::Single, ::System::Int32, ::UnityEngine::Color32, ::UnityEngine::CharacterInfo))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSRUBYCHARMOTION_1_OFFSET))(this, preDuration, charIndex, topCharIndex, charInterval, maxMaskedCharacterCount, color, maskCharacterInfo);
+			return ((::Class_2_9C4E0E0141829F67*(*)(::PVOID, ::System::Single, ::System::Int32, ::System::Int32, ::System::Single, ::System::Int32, ::UnityEngine::Color32, ::UnityEngine::CharacterInfo))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOTEXTMOTION__CREATENOUSRUBYCHARMOTION_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::UnityEngine::CharacterInfo _GetMaskCharacterInfo()

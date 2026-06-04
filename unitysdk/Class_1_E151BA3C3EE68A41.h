@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_BC389B37BA981479_Enum_3_82A7959B7D4CD9A7.h"
+#include "unitysdk/Enum_3_63BCB6C405BA8A1D_2.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_851;
+class Class_0_16E4307DCC419505_852;
+class Class_1_BC389B37BA981479;
+class Class_3_E5512583829E22AE;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define CLASS_1_E151BA3C3EE68A41_METHOD_1_79E06619EB5BCD2A_OFFSET UNITYSDK_OFFSET(0x13A295E0)
+#define CLASS_1_E151BA3C3EE68A41_METHOD_1_7D8840B2F036D21B_OFFSET UNITYSDK_OFFSET(0x13A29470)
+#define CLASS_1_E151BA3C3EE68A41__CTOR_OFFSET UNITYSDK_OFFSET(0x13A293F0)
+
+inline static constexpr unsigned int Class_1_E151BA3C3EE68A41_TypeDefinitionIndex = 62751;
+
+class Class_1_E151BA3C3EE68A41 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_852* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::Class_1_BC389B37BA981479_Enum_3_82A7959B7D4CD9A7, ::Class_3_E5512583829E22AE*>* Field_1_1; // 0x18
+
+	::System::Void _ctor(::Class_0_16E4307DCC419505_852* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_852*))((::PBYTE)hIl2Cpp + CLASS_1_E151BA3C3EE68A41__CTOR_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_851* Method_1_7D8840B2F036D21B(::Enum_3_63BCB6C405BA8A1D_2 a1, ::Class_1_BC389B37BA981479* a2)
+	{
+		return ((::Class_0_16E4307DCC419505_851*(*)(::PVOID, ::Enum_3_63BCB6C405BA8A1D_2, ::Class_1_BC389B37BA981479*))((::PBYTE)hIl2Cpp + CLASS_1_E151BA3C3EE68A41_METHOD_1_7D8840B2F036D21B_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_79E06619EB5BCD2A(::Class_1_BC389B37BA981479_Enum_3_82A7959B7D4CD9A7 a1, ::Class_3_E5512583829E22AE* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_BC389B37BA981479_Enum_3_82A7959B7D4CD9A7, ::Class_3_E5512583829E22AE*))((::PBYTE)hIl2Cpp + CLASS_1_E151BA3C3EE68A41_METHOD_1_79E06619EB5BCD2A_OFFSET))(this, a1, a2);
+	}
+};

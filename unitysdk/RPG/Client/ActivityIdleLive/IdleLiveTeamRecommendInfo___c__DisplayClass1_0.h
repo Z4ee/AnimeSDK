@@ -7,22 +7,22 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamRecommendData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B81BC0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__0_OFFSET UNITYSDK_OFFSET(0x9B82430)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__1_OFFSET UNITYSDK_OFFSET(0x9B82460)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__2_OFFSET UNITYSDK_OFFSET(0x9B824C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__3_OFFSET UNITYSDK_OFFSET(0x9B82520)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB16B510)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__0_OFFSET UNITYSDK_OFFSET(0xB16BC60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__1_OFFSET UNITYSDK_OFFSET(0xB16BC90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__2_OFFSET UNITYSDK_OFFSET(0xB16BD40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__3_OFFSET UNITYSDK_OFFSET(0xB16BDF0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass1_0_TypeDefinitionIndex = 69144;
+	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass1_0_TypeDefinitionIndex = 69956;
 
 	class IdleLiveTeamRecommendInfo___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*, ::System::Boolean>* captainTagMatchByData; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*, ::System::UInt32>* weightByData; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData*>* allAvatarDatas; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*, ::System::UInt32>* weightByData; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*, ::System::Boolean>* captainTagMatchByData; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*, ::System::UInt64>* powerByData; // 0x28
 
 		::System::Void _ctor()
@@ -30,24 +30,24 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetRecommendDataListByTagList_b__0(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* data)
+		::System::Boolean _GetRecommendDataListByTagList_b__0(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetRecommendDataListByTagList_b__1(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* data)
+		::System::Boolean _GetRecommendDataListByTagList_b__1(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__1_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__1_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 _GetRecommendDataListByTagList_b__2(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* data)
+		::System::UInt64 _GetRecommendDataListByTagList_b__2(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* a1)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__2_OFFSET))(this, data);
+			return ((::System::UInt64(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__2_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _GetRecommendDataListByTagList_b__3(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* data)
+		::System::UInt32 _GetRecommendDataListByTagList_b__3(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__3_OFFSET))(this, data);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS1_0__GETRECOMMENDDATALISTBYTAGLIST_B__3_OFFSET))(this, a1);
 		}
 	};
 }

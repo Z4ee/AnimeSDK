@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8EBE9F0)
-#define EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8EBEA20)
-#define EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8EBE4A0)
-#define EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8EBE480)
+#define EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA2F8F70)
+#define EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA2F8FA0)
+#define EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA2F8F60)
+#define EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F8E70)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int OnDestroyLobbyCallback_TypeDefinitionIndex = 41948;
+	inline static constexpr unsigned int OnDestroyLobbyCallback_TypeDefinitionIndex = 42751;
 
 	class OnDestroyLobbyCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::Lobby::DestroyLobbyCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::Lobby::DestroyLobbyCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::DestroyLobbyCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::DestroyLobbyCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Lobby::DestroyLobbyCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Lobby::DestroyLobbyCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Lobby::DestroyLobbyCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Lobby::DestroyLobbyCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ONDESTROYLOBBYCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

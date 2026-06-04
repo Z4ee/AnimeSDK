@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SHADERPROPERTYCONFIG_METHOD_2_A31BC3D26F5AADD5_OFFSET UNITYSDK_OFFSET(0x18E4EE90)
-#define RPG_GAMECORE_SHADERPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E4F120)
+#define RPG_GAMECORE_SHADERPROPERTYCONFIG_METHOD_2_E7BC312AD1AC9CBB_OFFSET UNITYSDK_OFFSET(0x19C6BA60)
+#define RPG_GAMECORE_SHADERPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C6BCD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShaderPropertyConfig_TypeDefinitionIndex = 18866;
+	inline static constexpr unsigned int ShaderPropertyConfig_TypeDefinitionIndex = 18831;
 
 	class ShaderPropertyConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHADERPROPERTYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A31BC3D26F5AADD5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShaderPropertyConfig*& a2)
+		static ::System::Void Method_2_E7BC312AD1AC9CBB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShaderPropertyConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShaderPropertyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHADERPROPERTYCONFIG_METHOD_2_A31BC3D26F5AADD5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShaderPropertyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHADERPROPERTYCONFIG_METHOD_2_E7BC312AD1AC9CBB_OFFSET))(a1, a2);
 		}
 	};
 }

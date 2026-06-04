@@ -5,27 +5,27 @@
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class DebugInfo_DebugInfoComparer; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_GETMATCHINGDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x19EFA3C0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19EFA4B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x19EFA7E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19EFA4A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_GETMATCHINGDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x1AD71A90)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AD71C00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD71EA0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD71BF0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int DebugInfo_TypeDefinitionIndex = 3468;
+	inline static constexpr unsigned int DebugInfo_TypeDefinitionIndex = 3469;
 
 	class DebugInfo : public ::System::Object
 	{
 	public:
 		static ::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer** StaticGet_s_debugComparer()
 		{
-			return (::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer**)Il2CppClass::FromTypeDefinitionIndex(DebugInfo_TypeDefinitionIndex)->GetStaticField(0x12770);
+			return (::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer**)Il2CppClass::FromTypeDefinitionIndex(DebugInfo_TypeDefinitionIndex)->GetStaticField(0x2A3F0);
 		}
 		::System::String* FileName; // 0x10
-		::System::Int32 Index; // 0x18
-		::System::Int32 StartLine; // 0x1C
-		::System::Boolean IsClear; // 0x20
-		::System::Int32 EndLine; // 0x24
+		::System::Boolean IsClear; // 0x18
+		::System::Int32 EndLine; // 0x1C
+		::System::Int32 Index; // 0x20
+		::System::Int32 StartLine; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -37,9 +37,9 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__CCTOR_OFFSET))();
 		}
 
-		static ::System::Linq::Expressions::Interpreter::DebugInfo* GetMatchingDebugInfo(::Il2CppArray<::System::Linq::Expressions::Interpreter::DebugInfo*>* debugInfos, ::System::Int32 index)
+		static ::System::Linq::Expressions::Interpreter::DebugInfo* GetMatchingDebugInfo(::Il2CppArray<::System::Linq::Expressions::Interpreter::DebugInfo*>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Linq::Expressions::Interpreter::DebugInfo*(*)(::Il2CppArray<::System::Linq::Expressions::Interpreter::DebugInfo*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_GETMATCHINGDEBUGINFO_OFFSET))(debugInfos, index);
+			return ((::System::Linq::Expressions::Interpreter::DebugInfo*(*)(::Il2CppArray<::System::Linq::Expressions::Interpreter::DebugInfo*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_GETMATCHINGDEBUGINFO_OFFSET))(a1, a2);
 		}
 
 		::System::String* ToString()

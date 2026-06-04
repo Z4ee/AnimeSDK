@@ -4,18 +4,18 @@
 
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONLINQCONTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x17AA0170)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONLINQCONTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1884FE40)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonLinqContract_TypeDefinitionIndex = 8446;
+	inline static constexpr unsigned int JsonLinqContract_TypeDefinitionIndex = 9349;
 
 	class JsonLinqContract : public ::Newtonsoft::Json::Serialization::JsonContract
 	{
 	public:
-		::System::Void _ctor(::System::Type* underlyingType)
+		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONLINQCONTRACT__CTOR_OFFSET))(this, underlyingType);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONLINQCONTRACT__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

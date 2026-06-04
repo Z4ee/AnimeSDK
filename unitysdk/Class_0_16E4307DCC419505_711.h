@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_019938BC9C50B169_2.h"
 
-class Class_1_046D7E7D73E44996;
-namespace System { class Exception; }
-namespace System { template <typename T> class Action_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace RPG::Client::Promises { class IPromise; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_711_TypeDefinitionIndex = 59123;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_711_TypeDefinitionIndex = 58702;
 
 class Class_0_16E4307DCC419505_711
 {

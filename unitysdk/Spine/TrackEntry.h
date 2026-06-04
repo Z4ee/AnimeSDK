@@ -10,186 +10,186 @@ namespace Spine { class Event; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_TRACKENTRY_ADD_COMPLETE_OFFSET UNITYSDK_OFFSET(0x19E1EB00)
-#define SPINE_TRACKENTRY_ADD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19E1EA40)
-#define SPINE_TRACKENTRY_ADD_END_OFFSET UNITYSDK_OFFSET(0x19E1E980)
-#define SPINE_TRACKENTRY_ADD_EVENT_OFFSET UNITYSDK_OFFSET(0x19E1EBC0)
-#define SPINE_TRACKENTRY_ADD_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x19E1E8C0)
-#define SPINE_TRACKENTRY_ADD_START_OFFSET UNITYSDK_OFFSET(0x19E1E800)
-#define SPINE_TRACKENTRY_ALLOWIMMEDIATEQUEUE_OFFSET UNITYSDK_OFFSET(0x19E1F2A0)
-#define SPINE_TRACKENTRY_GET_ALPHA_OFFSET UNITYSDK_OFFSET(0x19E1F050)
-#define SPINE_TRACKENTRY_GET_ANIMATIONEND_OFFSET UNITYSDK_OFFSET(0x19E1EF30)
-#define SPINE_TRACKENTRY_GET_ANIMATIONLAST_OFFSET UNITYSDK_OFFSET(0x19E1EF50)
-#define SPINE_TRACKENTRY_GET_ANIMATIONSTART_OFFSET UNITYSDK_OFFSET(0x19E1EF10)
-#define SPINE_TRACKENTRY_GET_ANIMATIONTIME_OFFSET UNITYSDK_OFFSET(0x19E1EF80)
-#define SPINE_TRACKENTRY_GET_ANIMATION_OFFSET UNITYSDK_OFFSET(0x19E1EE20)
-#define SPINE_TRACKENTRY_GET_ATTACHMENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x19E1F0A0)
-#define SPINE_TRACKENTRY_GET_DELAY_OFFSET UNITYSDK_OFFSET(0x19E1EE50)
-#define SPINE_TRACKENTRY_GET_DRAWORDERTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x19E1F0C0)
-#define SPINE_TRACKENTRY_GET_EVENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x19E1F080)
-#define SPINE_TRACKENTRY_GET_HOLDPREVIOUS_OFFSET UNITYSDK_OFFSET(0x19E1F1A0)
-#define SPINE_TRACKENTRY_GET_INTERRUPTALPHA_OFFSET UNITYSDK_OFFSET(0x19E1F070)
-#define SPINE_TRACKENTRY_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0x19E1F100)
-#define SPINE_TRACKENTRY_GET_ISEMPTYANIMATION_OFFSET UNITYSDK_OFFSET(0x19E1F200)
-#define SPINE_TRACKENTRY_GET_LOOP_OFFSET UNITYSDK_OFFSET(0x19E1EE30)
-#define SPINE_TRACKENTRY_GET_MIXBLEND_OFFSET UNITYSDK_OFFSET(0x19E1F160)
-#define SPINE_TRACKENTRY_GET_MIXDURATION_OFFSET UNITYSDK_OFFSET(0x19E1F140)
-#define SPINE_TRACKENTRY_GET_MIXINGFROM_OFFSET UNITYSDK_OFFSET(0x19E1F180)
-#define SPINE_TRACKENTRY_GET_MIXINGTO_OFFSET UNITYSDK_OFFSET(0x19E1F190)
-#define SPINE_TRACKENTRY_GET_MIXTIME_OFFSET UNITYSDK_OFFSET(0x19E1F120)
-#define SPINE_TRACKENTRY_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x19E1F0E0)
-#define SPINE_TRACKENTRY_GET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x19E1F0F0)
-#define SPINE_TRACKENTRY_GET_REVERSE_OFFSET UNITYSDK_OFFSET(0x19E1F1C0)
-#define SPINE_TRACKENTRY_GET_SHORTESTROTATION_OFFSET UNITYSDK_OFFSET(0x19E1F1E0)
-#define SPINE_TRACKENTRY_GET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x19E1F030)
-#define SPINE_TRACKENTRY_GET_TRACKCOMPLETE_OFFSET UNITYSDK_OFFSET(0x19E1EEB0)
-#define SPINE_TRACKENTRY_GET_TRACKEND_OFFSET UNITYSDK_OFFSET(0x19E1EE90)
-#define SPINE_TRACKENTRY_GET_TRACKINDEX_OFFSET UNITYSDK_OFFSET(0x19E1EE10)
-#define SPINE_TRACKENTRY_GET_TRACKTIME_OFFSET UNITYSDK_OFFSET(0x19E1EE70)
-#define SPINE_TRACKENTRY_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x19E1ED00)
-#define SPINE_TRACKENTRY_ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x19E1ECE0)
-#define SPINE_TRACKENTRY_ONEND_OFFSET UNITYSDK_OFFSET(0x19E1ECC0)
-#define SPINE_TRACKENTRY_ONEVENT_OFFSET UNITYSDK_OFFSET(0x19E1ED20)
-#define SPINE_TRACKENTRY_ONINTERRUPT_OFFSET UNITYSDK_OFFSET(0x19E1ECA0)
-#define SPINE_TRACKENTRY_ONSTART_OFFSET UNITYSDK_OFFSET(0x19E1EC80)
-#define SPINE_TRACKENTRY_REMOVE_COMPLETE_OFFSET UNITYSDK_OFFSET(0x19E1EB60)
-#define SPINE_TRACKENTRY_REMOVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19E1EAA0)
-#define SPINE_TRACKENTRY_REMOVE_END_OFFSET UNITYSDK_OFFSET(0x19E1E9E0)
-#define SPINE_TRACKENTRY_REMOVE_EVENT_OFFSET UNITYSDK_OFFSET(0x19E1EC20)
-#define SPINE_TRACKENTRY_REMOVE_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x19E1E920)
-#define SPINE_TRACKENTRY_REMOVE_START_OFFSET UNITYSDK_OFFSET(0x19E1E860)
-#define SPINE_TRACKENTRY_RESETROTATIONDIRECTIONS_OFFSET UNITYSDK_OFFSET(0x19E1F240)
-#define SPINE_TRACKENTRY_RESET_OFFSET UNITYSDK_OFFSET(0x19E1ED40)
-#define SPINE_TRACKENTRY_SET_ALPHA_OFFSET UNITYSDK_OFFSET(0x19E1F060)
-#define SPINE_TRACKENTRY_SET_ANIMATIONEND_OFFSET UNITYSDK_OFFSET(0x19E1EF40)
-#define SPINE_TRACKENTRY_SET_ANIMATIONLAST_OFFSET UNITYSDK_OFFSET(0x19E1EF60)
-#define SPINE_TRACKENTRY_SET_ANIMATIONSTART_OFFSET UNITYSDK_OFFSET(0x19E1EF20)
-#define SPINE_TRACKENTRY_SET_ATTACHMENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x19E1F0B0)
-#define SPINE_TRACKENTRY_SET_DELAY_OFFSET UNITYSDK_OFFSET(0x19E1EE60)
-#define SPINE_TRACKENTRY_SET_DRAWORDERTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x19E1F0D0)
-#define SPINE_TRACKENTRY_SET_EVENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x19E1F090)
-#define SPINE_TRACKENTRY_SET_HOLDPREVIOUS_OFFSET UNITYSDK_OFFSET(0x19E1F1B0)
-#define SPINE_TRACKENTRY_SET_LOOP_OFFSET UNITYSDK_OFFSET(0x19E1EE40)
-#define SPINE_TRACKENTRY_SET_MIXBLEND_OFFSET UNITYSDK_OFFSET(0x19E1F170)
-#define SPINE_TRACKENTRY_SET_MIXDURATION_OFFSET UNITYSDK_OFFSET(0x19E1F150)
-#define SPINE_TRACKENTRY_SET_MIXTIME_OFFSET UNITYSDK_OFFSET(0x19E1F130)
-#define SPINE_TRACKENTRY_SET_REVERSE_OFFSET UNITYSDK_OFFSET(0x19E1F1D0)
-#define SPINE_TRACKENTRY_SET_SHORTESTROTATION_OFFSET UNITYSDK_OFFSET(0x19E1F1F0)
-#define SPINE_TRACKENTRY_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x19E1F040)
-#define SPINE_TRACKENTRY_SET_TRACKEND_OFFSET UNITYSDK_OFFSET(0x19E1EEA0)
-#define SPINE_TRACKENTRY_SET_TRACKTIME_OFFSET UNITYSDK_OFFSET(0x19E1EE80)
-#define SPINE_TRACKENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19E1F280)
-#define SPINE_TRACKENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1F2C0)
+#define SPINE_TRACKENTRY_ADD_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1AC9A220)
+#define SPINE_TRACKENTRY_ADD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AC9A160)
+#define SPINE_TRACKENTRY_ADD_END_OFFSET UNITYSDK_OFFSET(0x1AC9A0A0)
+#define SPINE_TRACKENTRY_ADD_EVENT_OFFSET UNITYSDK_OFFSET(0x1AC9A2E0)
+#define SPINE_TRACKENTRY_ADD_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x1AC99FE0)
+#define SPINE_TRACKENTRY_ADD_START_OFFSET UNITYSDK_OFFSET(0x1AC99F20)
+#define SPINE_TRACKENTRY_ALLOWIMMEDIATEQUEUE_OFFSET UNITYSDK_OFFSET(0x1AC9A9C0)
+#define SPINE_TRACKENTRY_GET_ALPHA_OFFSET UNITYSDK_OFFSET(0x1AC9A770)
+#define SPINE_TRACKENTRY_GET_ANIMATIONEND_OFFSET UNITYSDK_OFFSET(0x1AC9A650)
+#define SPINE_TRACKENTRY_GET_ANIMATIONLAST_OFFSET UNITYSDK_OFFSET(0x1AC9A670)
+#define SPINE_TRACKENTRY_GET_ANIMATIONSTART_OFFSET UNITYSDK_OFFSET(0x1AC9A630)
+#define SPINE_TRACKENTRY_GET_ANIMATIONTIME_OFFSET UNITYSDK_OFFSET(0x1AC9A6A0)
+#define SPINE_TRACKENTRY_GET_ANIMATION_OFFSET UNITYSDK_OFFSET(0x1AC9A540)
+#define SPINE_TRACKENTRY_GET_ATTACHMENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1AC9A7C0)
+#define SPINE_TRACKENTRY_GET_DELAY_OFFSET UNITYSDK_OFFSET(0x1AC9A570)
+#define SPINE_TRACKENTRY_GET_DRAWORDERTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1AC9A7E0)
+#define SPINE_TRACKENTRY_GET_EVENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1AC9A7A0)
+#define SPINE_TRACKENTRY_GET_HOLDPREVIOUS_OFFSET UNITYSDK_OFFSET(0x1AC9A8C0)
+#define SPINE_TRACKENTRY_GET_INTERRUPTALPHA_OFFSET UNITYSDK_OFFSET(0x1AC9A790)
+#define SPINE_TRACKENTRY_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1AC9A820)
+#define SPINE_TRACKENTRY_GET_ISEMPTYANIMATION_OFFSET UNITYSDK_OFFSET(0x1AC9A920)
+#define SPINE_TRACKENTRY_GET_LOOP_OFFSET UNITYSDK_OFFSET(0x1AC9A550)
+#define SPINE_TRACKENTRY_GET_MIXBLEND_OFFSET UNITYSDK_OFFSET(0x1AC9A880)
+#define SPINE_TRACKENTRY_GET_MIXDURATION_OFFSET UNITYSDK_OFFSET(0x1AC9A860)
+#define SPINE_TRACKENTRY_GET_MIXINGFROM_OFFSET UNITYSDK_OFFSET(0x1AC9A8A0)
+#define SPINE_TRACKENTRY_GET_MIXINGTO_OFFSET UNITYSDK_OFFSET(0x1AC9A8B0)
+#define SPINE_TRACKENTRY_GET_MIXTIME_OFFSET UNITYSDK_OFFSET(0x1AC9A840)
+#define SPINE_TRACKENTRY_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x1AC9A800)
+#define SPINE_TRACKENTRY_GET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x1AC9A810)
+#define SPINE_TRACKENTRY_GET_REVERSE_OFFSET UNITYSDK_OFFSET(0x1AC9A8E0)
+#define SPINE_TRACKENTRY_GET_SHORTESTROTATION_OFFSET UNITYSDK_OFFSET(0x1AC9A900)
+#define SPINE_TRACKENTRY_GET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x1AC9A750)
+#define SPINE_TRACKENTRY_GET_TRACKCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1AC9A5D0)
+#define SPINE_TRACKENTRY_GET_TRACKEND_OFFSET UNITYSDK_OFFSET(0x1AC9A5B0)
+#define SPINE_TRACKENTRY_GET_TRACKINDEX_OFFSET UNITYSDK_OFFSET(0x1AC9A530)
+#define SPINE_TRACKENTRY_GET_TRACKTIME_OFFSET UNITYSDK_OFFSET(0x1AC9A590)
+#define SPINE_TRACKENTRY_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1AC9A420)
+#define SPINE_TRACKENTRY_ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1AC9A400)
+#define SPINE_TRACKENTRY_ONEND_OFFSET UNITYSDK_OFFSET(0x1AC9A3E0)
+#define SPINE_TRACKENTRY_ONEVENT_OFFSET UNITYSDK_OFFSET(0x1AC9A440)
+#define SPINE_TRACKENTRY_ONINTERRUPT_OFFSET UNITYSDK_OFFSET(0x1AC9A3C0)
+#define SPINE_TRACKENTRY_ONSTART_OFFSET UNITYSDK_OFFSET(0x1AC9A3A0)
+#define SPINE_TRACKENTRY_REMOVE_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1AC9A280)
+#define SPINE_TRACKENTRY_REMOVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AC9A1C0)
+#define SPINE_TRACKENTRY_REMOVE_END_OFFSET UNITYSDK_OFFSET(0x1AC9A100)
+#define SPINE_TRACKENTRY_REMOVE_EVENT_OFFSET UNITYSDK_OFFSET(0x1AC9A340)
+#define SPINE_TRACKENTRY_REMOVE_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x1AC9A040)
+#define SPINE_TRACKENTRY_REMOVE_START_OFFSET UNITYSDK_OFFSET(0x1AC99F80)
+#define SPINE_TRACKENTRY_RESETROTATIONDIRECTIONS_OFFSET UNITYSDK_OFFSET(0x1AC9A960)
+#define SPINE_TRACKENTRY_RESET_OFFSET UNITYSDK_OFFSET(0x1AC9A460)
+#define SPINE_TRACKENTRY_SET_ALPHA_OFFSET UNITYSDK_OFFSET(0x1AC9A780)
+#define SPINE_TRACKENTRY_SET_ANIMATIONEND_OFFSET UNITYSDK_OFFSET(0x1AC9A660)
+#define SPINE_TRACKENTRY_SET_ANIMATIONLAST_OFFSET UNITYSDK_OFFSET(0x1AC9A680)
+#define SPINE_TRACKENTRY_SET_ANIMATIONSTART_OFFSET UNITYSDK_OFFSET(0x1AC9A640)
+#define SPINE_TRACKENTRY_SET_ATTACHMENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1AC9A7D0)
+#define SPINE_TRACKENTRY_SET_DELAY_OFFSET UNITYSDK_OFFSET(0x1AC9A580)
+#define SPINE_TRACKENTRY_SET_DRAWORDERTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1AC9A7F0)
+#define SPINE_TRACKENTRY_SET_EVENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1AC9A7B0)
+#define SPINE_TRACKENTRY_SET_HOLDPREVIOUS_OFFSET UNITYSDK_OFFSET(0x1AC9A8D0)
+#define SPINE_TRACKENTRY_SET_LOOP_OFFSET UNITYSDK_OFFSET(0x1AC9A560)
+#define SPINE_TRACKENTRY_SET_MIXBLEND_OFFSET UNITYSDK_OFFSET(0x1AC9A890)
+#define SPINE_TRACKENTRY_SET_MIXDURATION_OFFSET UNITYSDK_OFFSET(0x1AC9A870)
+#define SPINE_TRACKENTRY_SET_MIXTIME_OFFSET UNITYSDK_OFFSET(0x1AC9A850)
+#define SPINE_TRACKENTRY_SET_REVERSE_OFFSET UNITYSDK_OFFSET(0x1AC9A8F0)
+#define SPINE_TRACKENTRY_SET_SHORTESTROTATION_OFFSET UNITYSDK_OFFSET(0x1AC9A910)
+#define SPINE_TRACKENTRY_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x1AC9A760)
+#define SPINE_TRACKENTRY_SET_TRACKEND_OFFSET UNITYSDK_OFFSET(0x1AC9A5C0)
+#define SPINE_TRACKENTRY_SET_TRACKTIME_OFFSET UNITYSDK_OFFSET(0x1AC9A5A0)
+#define SPINE_TRACKENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AC9A9A0)
+#define SPINE_TRACKENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC9A9E0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int TrackEntry_TypeDefinitionIndex = 36393;
+	inline static constexpr unsigned int TrackEntry_TypeDefinitionIndex = 36693;
 
 	class TrackEntry : public ::System::Object
 	{
 	public:
-		::Spine::ExposedList_1<::Spine::TrackEntry*>* timelineHoldMix; // 0x10
-		::Spine::AnimationState_TrackEntryEventDelegate* Event; // 0x18
-		::Spine::TrackEntry* mixingTo; // 0x20
-		::Spine::TrackEntry* next; // 0x28
-		::Spine::AnimationState_TrackEntryDelegate* Interrupt; // 0x30
-		::Spine::ExposedList_1<::System::Int32>* timelineMode; // 0x38
-		::Spine::AnimationState_TrackEntryDelegate* End; // 0x40
-		::Spine::TrackEntry* previous; // 0x48
-		::Spine::AnimationState_TrackEntryDelegate* Dispose; // 0x50
-		::Spine::ExposedList_1<::System::Single>* timelinesRotation; // 0x58
-		::Spine::TrackEntry* mixingFrom; // 0x60
-		::Spine::AnimationState_TrackEntryDelegate* Start; // 0x68
-		::Spine::AnimationState_TrackEntryDelegate* Complete; // 0x70
-		::Spine::Animation* animation; // 0x78
-		::System::Single nextAnimationLast; // 0x80
-		::System::Single trackEnd; // 0x84
-		::System::Single trackTime; // 0x88
-		::System::Boolean shortestRotation; // 0x8C
-		::System::Boolean holdPrevious; // 0x8D
-		::System::Boolean loop; // 0x8E
-		::System::Boolean reverse; // 0x8F
-		::Spine::MixBlend mixBlend; // 0x90
-		::System::Single animationLast; // 0x94
-		::System::Single mixTime; // 0x98
-		::System::Single drawOrderThreshold; // 0x9C
-		::System::Single nextTrackLast; // 0xA0
-		::System::Int32 trackIndex; // 0xA4
-		::System::Single animationEnd; // 0xA8
-		::System::Single alpha; // 0xAC
-		::System::Single eventThreshold; // 0xB0
-		::System::Single mixDuration; // 0xB4
-		::System::Single totalAlpha; // 0xB8
-		::System::Single interruptAlpha; // 0xBC
-		::System::Single trackLast; // 0xC0
-		::System::Single timeScale; // 0xC4
-		::System::Single attachmentThreshold; // 0xC8
-		::System::Single delay; // 0xCC
-		::System::Single animationStart; // 0xD0
+		::Spine::ExposedList_1<::System::Single>* timelinesRotation; // 0x10
+		::Spine::AnimationState_TrackEntryDelegate* Complete; // 0x18
+		::Spine::AnimationState_TrackEntryDelegate* Interrupt; // 0x20
+		::Spine::AnimationState_TrackEntryDelegate* Start; // 0x28
+		::Spine::TrackEntry* previous; // 0x30
+		::Spine::TrackEntry* mixingTo; // 0x38
+		::Spine::TrackEntry* mixingFrom; // 0x40
+		::Spine::AnimationState_TrackEntryEventDelegate* Event; // 0x48
+		::Spine::Animation* animation; // 0x50
+		::Spine::AnimationState_TrackEntryDelegate* End; // 0x58
+		::Spine::AnimationState_TrackEntryDelegate* Dispose; // 0x60
+		::Spine::ExposedList_1<::Spine::TrackEntry*>* timelineHoldMix; // 0x68
+		::Spine::TrackEntry* next; // 0x70
+		::Spine::ExposedList_1<::System::Int32>* timelineMode; // 0x78
+		::System::Single interruptAlpha; // 0x80
+		::System::Single alpha; // 0x84
+		::System::Single animationStart; // 0x88
+		::System::Single delay; // 0x8C
+		::System::Single trackLast; // 0x90
+		::System::Single totalAlpha; // 0x94
+		::System::Single animationEnd; // 0x98
+		::System::Single timeScale; // 0x9C
+		::System::Single eventThreshold; // 0xA0
+		::System::Single nextAnimationLast; // 0xA4
+		::System::Single drawOrderThreshold; // 0xA8
+		::System::Single trackTime; // 0xAC
+		::System::Int32 trackIndex; // 0xB0
+		::Spine::MixBlend mixBlend; // 0xB4
+		::System::Single trackEnd; // 0xB8
+		::System::Single mixTime; // 0xBC
+		::System::Single attachmentThreshold; // 0xC0
+		::System::Single animationLast; // 0xC4
+		::System::Boolean shortestRotation; // 0xC8
+		::System::Boolean loop; // 0xC9
+		::System::Boolean reverse; // 0xCA
+		::System::Boolean holdPrevious; // 0xCB
+		::System::Single mixDuration; // 0xCC
+		::System::Single nextTrackLast; // 0xD0
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_Start(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void add_Start(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_START_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_START_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Start(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void remove_Start(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_START_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_START_OFFSET))(this, a1);
 		}
 
-		::System::Void add_Interrupt(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void add_Interrupt(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_INTERRUPT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_INTERRUPT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Interrupt(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void remove_Interrupt(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_INTERRUPT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_INTERRUPT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_End(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void add_End(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_END_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_END_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_End(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void remove_End(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_END_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_END_OFFSET))(this, a1);
 		}
 
-		::System::Void add_Dispose(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void add_Dispose(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_DISPOSE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_DISPOSE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Dispose(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void remove_Dispose(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_DISPOSE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_DISPOSE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_Complete(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void add_Complete(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_COMPLETE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_COMPLETE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Complete(::Spine::AnimationState_TrackEntryDelegate* value)
+		::System::Void remove_Complete(::Spine::AnimationState_TrackEntryDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_COMPLETE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_COMPLETE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_Event(::Spine::AnimationState_TrackEntryEventDelegate* value)
+		::System::Void add_Event(::Spine::AnimationState_TrackEntryEventDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_EVENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ADD_EVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Event(::Spine::AnimationState_TrackEntryEventDelegate* value)
+		::System::Void remove_Event(::Spine::AnimationState_TrackEntryEventDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_EVENT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState_TrackEntryEventDelegate*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_REMOVE_EVENT_OFFSET))(this, a1);
 		}
 
 		::System::Void OnStart()
@@ -217,9 +217,9 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ONCOMPLETE_OFFSET))(this);
 		}
 
-		::System::Void OnEvent(::Spine::Event* e)
+		::System::Void OnEvent(::Spine::Event* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Event*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ONEVENT_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::Spine::Event*))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_ONEVENT_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -242,9 +242,9 @@ namespace Spine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_LOOP_OFFSET))(this);
 		}
 
-		::System::Void set_Loop(::System::Boolean value)
+		::System::Void set_Loop(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_LOOP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_LOOP_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Delay()
@@ -252,9 +252,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_DELAY_OFFSET))(this);
 		}
 
-		::System::Void set_Delay(::System::Single value)
+		::System::Void set_Delay(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_DELAY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_DELAY_OFFSET))(this, a1);
 		}
 
 		::System::Single get_TrackTime()
@@ -262,9 +262,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_TRACKTIME_OFFSET))(this);
 		}
 
-		::System::Void set_TrackTime(::System::Single value)
+		::System::Void set_TrackTime(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_TRACKTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_TRACKTIME_OFFSET))(this, a1);
 		}
 
 		::System::Single get_TrackEnd()
@@ -272,9 +272,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_TRACKEND_OFFSET))(this);
 		}
 
-		::System::Void set_TrackEnd(::System::Single value)
+		::System::Void set_TrackEnd(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_TRACKEND_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_TRACKEND_OFFSET))(this, a1);
 		}
 
 		::System::Single get_TrackComplete()
@@ -287,9 +287,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_ANIMATIONSTART_OFFSET))(this);
 		}
 
-		::System::Void set_AnimationStart(::System::Single value)
+		::System::Void set_AnimationStart(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_ANIMATIONSTART_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_ANIMATIONSTART_OFFSET))(this, a1);
 		}
 
 		::System::Single get_AnimationEnd()
@@ -297,9 +297,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_ANIMATIONEND_OFFSET))(this);
 		}
 
-		::System::Void set_AnimationEnd(::System::Single value)
+		::System::Void set_AnimationEnd(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_ANIMATIONEND_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_ANIMATIONEND_OFFSET))(this, a1);
 		}
 
 		::System::Single get_AnimationLast()
@@ -307,9 +307,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_ANIMATIONLAST_OFFSET))(this);
 		}
 
-		::System::Void set_AnimationLast(::System::Single value)
+		::System::Void set_AnimationLast(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_ANIMATIONLAST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_ANIMATIONLAST_OFFSET))(this, a1);
 		}
 
 		::System::Single get_AnimationTime()
@@ -322,9 +322,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_TIMESCALE_OFFSET))(this);
 		}
 
-		::System::Void set_TimeScale(::System::Single value)
+		::System::Void set_TimeScale(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_TIMESCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_TIMESCALE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Alpha()
@@ -332,9 +332,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_ALPHA_OFFSET))(this);
 		}
 
-		::System::Void set_Alpha(::System::Single value)
+		::System::Void set_Alpha(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_ALPHA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_ALPHA_OFFSET))(this, a1);
 		}
 
 		::System::Single get_InterruptAlpha()
@@ -347,9 +347,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_EVENTTHRESHOLD_OFFSET))(this);
 		}
 
-		::System::Void set_EventThreshold(::System::Single value)
+		::System::Void set_EventThreshold(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_EVENTTHRESHOLD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_EVENTTHRESHOLD_OFFSET))(this, a1);
 		}
 
 		::System::Single get_AttachmentThreshold()
@@ -357,9 +357,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_ATTACHMENTTHRESHOLD_OFFSET))(this);
 		}
 
-		::System::Void set_AttachmentThreshold(::System::Single value)
+		::System::Void set_AttachmentThreshold(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_ATTACHMENTTHRESHOLD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_ATTACHMENTTHRESHOLD_OFFSET))(this, a1);
 		}
 
 		::System::Single get_DrawOrderThreshold()
@@ -367,9 +367,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_DRAWORDERTHRESHOLD_OFFSET))(this);
 		}
 
-		::System::Void set_DrawOrderThreshold(::System::Single value)
+		::System::Void set_DrawOrderThreshold(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_DRAWORDERTHRESHOLD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_DRAWORDERTHRESHOLD_OFFSET))(this, a1);
 		}
 
 		::Spine::TrackEntry* get_Next()
@@ -392,9 +392,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_MIXTIME_OFFSET))(this);
 		}
 
-		::System::Void set_MixTime(::System::Single value)
+		::System::Void set_MixTime(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_MIXTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_MIXTIME_OFFSET))(this, a1);
 		}
 
 		::System::Single get_MixDuration()
@@ -402,9 +402,9 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_MIXDURATION_OFFSET))(this);
 		}
 
-		::System::Void set_MixDuration(::System::Single value)
+		::System::Void set_MixDuration(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_MIXDURATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_MIXDURATION_OFFSET))(this, a1);
 		}
 
 		::Spine::MixBlend get_MixBlend()
@@ -412,9 +412,9 @@ namespace Spine
 			return ((::Spine::MixBlend(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_MIXBLEND_OFFSET))(this);
 		}
 
-		::System::Void set_MixBlend(::Spine::MixBlend value)
+		::System::Void set_MixBlend(::Spine::MixBlend a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::MixBlend))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_MIXBLEND_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::MixBlend))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_MIXBLEND_OFFSET))(this, a1);
 		}
 
 		::Spine::TrackEntry* get_MixingFrom()
@@ -432,9 +432,9 @@ namespace Spine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_HOLDPREVIOUS_OFFSET))(this);
 		}
 
-		::System::Void set_HoldPrevious(::System::Boolean value)
+		::System::Void set_HoldPrevious(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_HOLDPREVIOUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_HOLDPREVIOUS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Reverse()
@@ -442,9 +442,9 @@ namespace Spine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_REVERSE_OFFSET))(this);
 		}
 
-		::System::Void set_Reverse(::System::Boolean value)
+		::System::Void set_Reverse(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_REVERSE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_REVERSE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_ShortestRotation()
@@ -452,9 +452,9 @@ namespace Spine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_GET_SHORTESTROTATION_OFFSET))(this);
 		}
 
-		::System::Void set_ShortestRotation(::System::Boolean value)
+		::System::Void set_ShortestRotation(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_SHORTESTROTATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_TRACKENTRY_SET_SHORTESTROTATION_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsEmptyAnimation()

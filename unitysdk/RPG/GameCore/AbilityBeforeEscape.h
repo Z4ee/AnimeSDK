@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_ABILITYBEFOREESCAPE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB509BF0)
-#define RPG_GAMECORE_ABILITYBEFOREESCAPE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB509BB0)
-#define RPG_GAMECORE_ABILITYBEFOREESCAPE_INIT_OFFSET UNITYSDK_OFFSET(0xB509B60)
-#define RPG_GAMECORE_ABILITYBEFOREESCAPE__CTOR_OFFSET UNITYSDK_OFFSET(0xB509C40)
+#define RPG_GAMECORE_ABILITYBEFOREESCAPE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCC70AE0)
+#define RPG_GAMECORE_ABILITYBEFOREESCAPE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCC70AA0)
+#define RPG_GAMECORE_ABILITYBEFOREESCAPE_INIT_OFFSET UNITYSDK_OFFSET(0xCC70A50)
+#define RPG_GAMECORE_ABILITYBEFOREESCAPE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC70B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityBeforeEscape_TypeDefinitionIndex = 52132;
+	inline static constexpr unsigned int AbilityBeforeEscape_TypeDefinitionIndex = 52829;
 
-	class AbilityBeforeEscape : public ::Class_1_9988289E7F8AA214
+	class AbilityBeforeEscape : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::UInt32 _SourceEntityRuntimeID; // 0x18
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEFOREESCAPE__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AbilityBeforeEscape* Init(::System::UInt32 nSourceRuntimeID)
+		::RPG::GameCore::AbilityBeforeEscape* Init(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::AbilityBeforeEscape*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEFOREESCAPE_INIT_OFFSET))(this, nSourceRuntimeID);
+			return ((::RPG::GameCore::AbilityBeforeEscape*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYBEFOREESCAPE_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

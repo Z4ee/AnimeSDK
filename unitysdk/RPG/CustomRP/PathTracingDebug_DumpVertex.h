@@ -5,7 +5,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PathTracingDebug_DumpVertex_TypeDefinitionIndex = 47850;
+	inline static constexpr unsigned int PathTracingDebug_DumpVertex_TypeDefinitionIndex = 48465;
 
 	struct alignas(4) PathTracingDebug_DumpVertex
 	{

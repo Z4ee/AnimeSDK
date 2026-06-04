@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTMERGEEQUIPEVENT_EQUIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA4F4310)
+#define RPG_CLIENT_GRIDFIGHTMERGEEQUIPEVENT_EQUIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBB9B080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMergeEquipEvent_EquipData_TypeDefinitionIndex = 59804;
+	inline static constexpr unsigned int GridFightMergeEquipEvent_EquipData_TypeDefinitionIndex = 60739;
 
 	class GridFightMergeEquipEvent_EquipData : public ::System::Object
 	{

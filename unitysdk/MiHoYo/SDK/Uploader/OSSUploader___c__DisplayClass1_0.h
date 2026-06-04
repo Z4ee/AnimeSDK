@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Uploader { class OSSUploader; }
 namespace MiHoYo::SDK::Uploader { class Task; }
 
-#define MIHOYO_SDK_UPLOADER_OSSUPLOADER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DDEF80)
-#define MIHOYO_SDK_UPLOADER_OSSUPLOADER___C__DISPLAYCLASS1_0__INTERNALUPLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x8DDEF90)
+#define MIHOYO_SDK_UPLOADER_OSSUPLOADER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA22A7D0)
+#define MIHOYO_SDK_UPLOADER_OSSUPLOADER___C__DISPLAYCLASS1_0__INTERNALUPLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xA22A7E0)
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int OSSUploader___c__DisplayClass1_0_TypeDefinitionIndex = 43228;
+	inline static constexpr unsigned int OSSUploader___c__DisplayClass1_0_TypeDefinitionIndex = 44031;
 
 	class OSSUploader___c__DisplayClass1_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MiHoYo::SDK::Uploader
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_OSSUPLOADER___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _InternalUpload_b__0(::System::Object* _)
+		::System::Void _InternalUpload_b__0(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_OSSUPLOADER___C__DISPLAYCLASS1_0__INTERNALUPLOAD_B__0_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_OSSUPLOADER___C__DISPLAYCLASS1_0__INTERNALUPLOAD_B__0_OFFSET))(this, a1);
 		}
 	};
 }

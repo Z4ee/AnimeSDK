@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarAssetPreloadConfig; }
 
-#define RPG_GAMECORE_DEVICERELATEDAVATARASSETPRELOADCONFIG_METHOD_3_4DDD68D2A31FD705_OFFSET UNITYSDK_OFFSET(0x1885D300)
-#define RPG_GAMECORE_DEVICERELATEDAVATARASSETPRELOADCONFIG_METHOD_3_874B1EF7036DF083_OFFSET UNITYSDK_OFFSET(0x1885D360)
-#define RPG_GAMECORE_DEVICERELATEDAVATARASSETPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1885D350)
+#define RPG_GAMECORE_DEVICERELATEDAVATARASSETPRELOADCONFIG_METHOD_3_2814C3349C740B13_OFFSET UNITYSDK_OFFSET(0x1969C6A0)
+#define RPG_GAMECORE_DEVICERELATEDAVATARASSETPRELOADCONFIG_METHOD_3_F7D6345E5FDDBAC5_OFFSET UNITYSDK_OFFSET(0x1969C700)
+#define RPG_GAMECORE_DEVICERELATEDAVATARASSETPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1969C6F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceRelatedAvatarAssetPreloadConfig_TypeDefinitionIndex = 15590;
+	inline static constexpr unsigned int DeviceRelatedAvatarAssetPreloadConfig_TypeDefinitionIndex = 15652;
 
 	class DeviceRelatedAvatarAssetPreloadConfig : public ::RPG::GameCore::DeviceRelatedConfigBase
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDAVATARASSETPRELOADCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4DDD68D2A31FD705(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedAvatarAssetPreloadConfig*& a2)
+		static ::System::Void Method_3_2814C3349C740B13(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedAvatarAssetPreloadConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedAvatarAssetPreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDAVATARASSETPRELOADCONFIG_METHOD_3_4DDD68D2A31FD705_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedAvatarAssetPreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDAVATARASSETPRELOADCONFIG_METHOD_3_2814C3349C740B13_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_874B1EF7036DF083(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedAvatarAssetPreloadConfig* a2)
+		static ::System::Void Method_3_F7D6345E5FDDBAC5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedAvatarAssetPreloadConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedAvatarAssetPreloadConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDAVATARASSETPRELOADCONFIG_METHOD_3_874B1EF7036DF083_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedAvatarAssetPreloadConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDAVATARASSETPRELOADCONFIG_METHOD_3_F7D6345E5FDDBAC5_OFFSET))(a1, a2);
 		}
 	};
 }

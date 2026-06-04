@@ -6,7 +6,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int ConsoleScreenBufferInfo_TypeDefinitionIndex = 458;
+	inline static constexpr unsigned int ConsoleScreenBufferInfo_TypeDefinitionIndex = 457;
 
 	struct alignas(2) ConsoleScreenBufferInfo
 	{

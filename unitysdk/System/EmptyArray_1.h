@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int EmptyArray_1_TypeDefinitionIndex = 389;
+	inline static constexpr unsigned int EmptyArray_1_TypeDefinitionIndex = 388;
 
 	template <typename T>
 	class EmptyArray_1 : public ::System::Object

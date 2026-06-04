@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int UI3DHipplenViewType_TypeDefinitionIndex = 69675;
+	inline static constexpr unsigned int UI3DHipplenViewType_TypeDefinitionIndex = 70487;
 
 	enum class UI3DHipplenViewType : ::System::Int32
 	{

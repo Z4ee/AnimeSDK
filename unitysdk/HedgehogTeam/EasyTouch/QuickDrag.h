@@ -8,24 +8,24 @@ namespace HedgehogTeam::EasyTouch { class QuickDrag_OnDrag; }
 namespace HedgehogTeam::EasyTouch { class QuickDrag_OnDragEnd; }
 namespace HedgehogTeam::EasyTouch { class QuickDrag_OnDragStart; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_GETPOSITIONAXES_OFFSET UNITYSDK_OFFSET(0x12C4B8E0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x12C4AF10)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12C4AF00)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12C4AA80)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12C4A610)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAGEND_OFFSET UNITYSDK_OFFSET(0x12C4BB20)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAGSTART_OFFSET UNITYSDK_OFFSET(0x12C4B330)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAG_OFFSET UNITYSDK_OFFSET(0x12C4B610)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHDOWN_OFFSET UNITYSDK_OFFSET(0x12C4B120)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHSTART_OFFSET UNITYSDK_OFFSET(0x12C4AFE0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHUP_OFFSET UNITYSDK_OFFSET(0x12C4B2F0)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_STOPDRAG_OFFSET UNITYSDK_OFFSET(0x12C4AF30)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_UNSUBSCRIBEEVENT_OFFSET UNITYSDK_OFFSET(0x12C4AA90)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG__CTOR_OFFSET UNITYSDK_OFFSET(0x12C4A580)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_GETPOSITIONAXES_OFFSET UNITYSDK_OFFSET(0x146F9CC0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x146F92F0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x146F92E0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x146F8DA0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x146F8870)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAGEND_OFFSET UNITYSDK_OFFSET(0x146F9F00)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAGSTART_OFFSET UNITYSDK_OFFSET(0x146F9710)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAG_OFFSET UNITYSDK_OFFSET(0x146F99F0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHDOWN_OFFSET UNITYSDK_OFFSET(0x146F9500)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHSTART_OFFSET UNITYSDK_OFFSET(0x146F93C0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHUP_OFFSET UNITYSDK_OFFSET(0x146F96D0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_STOPDRAG_OFFSET UNITYSDK_OFFSET(0x146F9310)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_UNSUBSCRIBEEVENT_OFFSET UNITYSDK_OFFSET(0x146F8DB0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG__CTOR_OFFSET UNITYSDK_OFFSET(0x146F87E0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickDrag_TypeDefinitionIndex = 36990;
+	inline static constexpr unsigned int QuickDrag_TypeDefinitionIndex = 37290;
 
 	class QuickDrag : public ::HedgehogTeam::EasyTouch::QuickBase
 	{
@@ -68,39 +68,39 @@ namespace HedgehogTeam::EasyTouch
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ONCOLLISIONENTER_OFFSET))(this);
 		}
 
-		::System::Void On_TouchStart(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_TouchStart(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHSTART_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHSTART_OFFSET))(this, a1);
 		}
 
-		::System::Void On_TouchDown(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_TouchDown(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHDOWN_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHDOWN_OFFSET))(this, a1);
 		}
 
-		::System::Void On_TouchUp(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_TouchUp(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHUP_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_TOUCHUP_OFFSET))(this, a1);
 		}
 
-		::System::Void On_DragStart(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_DragStart(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAGSTART_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAGSTART_OFFSET))(this, a1);
 		}
 
-		::System::Void On_Drag(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_Drag(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAG_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void On_DragEnd(::HedgehogTeam::EasyTouch::Gesture* gesture)
+		::System::Void On_DragEnd(::HedgehogTeam::EasyTouch::Gesture* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAGEND_OFFSET))(this, gesture);
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_ON_DRAGEND_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 GetPositionAxes(::UnityEngine::Vector3 position)
+		::UnityEngine::Vector3 GetPositionAxes(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_GETPOSITIONAXES_OFFSET))(this, position);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKDRAG_GETPOSITIONAXES_OFFSET))(this, a1);
 		}
 
 		::System::Void StopDrag()

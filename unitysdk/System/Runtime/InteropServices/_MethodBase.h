@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _MethodBase_TypeDefinitionIndex = 1438;
+	inline static constexpr unsigned int _MethodBase_TypeDefinitionIndex = 1437;
 
 	class _MethodBase
 	{

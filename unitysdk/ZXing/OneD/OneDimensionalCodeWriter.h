@@ -8,15 +8,15 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_ONEDIMENSIONALCODEWRITER_APPENDPATTERN_OFFSET UNITYSDK_OFFSET(0x1A755CA0)
-#define ZXING_ONED_ONEDIMENSIONALCODEWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1A755130)
-#define ZXING_ONED_ONEDIMENSIONALCODEWRITER_GET_DEFAULTMARGIN_OFFSET UNITYSDK_OFFSET(0x1A75BBE0)
-#define ZXING_ONED_ONEDIMENSIONALCODEWRITER_RENDERRESULT_OFFSET UNITYSDK_OFFSET(0x1A75BA60)
-#define ZXING_ONED_ONEDIMENSIONALCODEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A74F820)
+#define ZXING_ONED_ONEDIMENSIONALCODEWRITER_APPENDPATTERN_OFFSET UNITYSDK_OFFSET(0x1B5562F0)
+#define ZXING_ONED_ONEDIMENSIONALCODEWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1B5554D0)
+#define ZXING_ONED_ONEDIMENSIONALCODEWRITER_GET_DEFAULTMARGIN_OFFSET UNITYSDK_OFFSET(0x1B55D8B0)
+#define ZXING_ONED_ONEDIMENSIONALCODEWRITER_RENDERRESULT_OFFSET UNITYSDK_OFFSET(0x1B55D740)
+#define ZXING_ONED_ONEDIMENSIONALCODEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B550B10)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int OneDimensionalCodeWriter_TypeDefinitionIndex = 6042;
+	inline static constexpr unsigned int OneDimensionalCodeWriter_TypeDefinitionIndex = 6415;
 
 	class OneDimensionalCodeWriter : public ::System::Object
 	{
@@ -26,19 +26,19 @@ namespace ZXing::OneD
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_ONED_ONEDIMENSIONALCODEWRITER__CTOR_OFFSET))(this);
 		}
 
-		::ZXing::Common::BitMatrix* encode(::System::String* contents, ::ZXing::BarcodeFormat format, ::System::Int32 width, ::System::Int32 height, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* hints)
+		::ZXing::Common::BitMatrix* encode(::System::String* a1, ::ZXing::BarcodeFormat a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* a5)
 		{
-			return ((::ZXing::Common::BitMatrix*(*)(::PVOID, ::System::String*, ::ZXing::BarcodeFormat, ::System::Int32, ::System::Int32, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>*))((::PBYTE)hIl2Cpp + ZXING_ONED_ONEDIMENSIONALCODEWRITER_ENCODE_OFFSET))(this, contents, format, width, height, hints);
+			return ((::ZXing::Common::BitMatrix*(*)(::PVOID, ::System::String*, ::ZXing::BarcodeFormat, ::System::Int32, ::System::Int32, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>*))((::PBYTE)hIl2Cpp + ZXING_ONED_ONEDIMENSIONALCODEWRITER_ENCODE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::ZXing::Common::BitMatrix* renderResult(::Il2CppArray<::System::Boolean>* code, ::System::Int32 width, ::System::Int32 height, ::System::Int32 sidesMargin)
+		static ::ZXing::Common::BitMatrix* renderResult(::Il2CppArray<::System::Boolean>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::ZXing::Common::BitMatrix*(*)(::Il2CppArray<::System::Boolean>*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_ONED_ONEDIMENSIONALCODEWRITER_RENDERRESULT_OFFSET))(code, width, height, sidesMargin);
+			return ((::ZXing::Common::BitMatrix*(*)(::Il2CppArray<::System::Boolean>*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_ONED_ONEDIMENSIONALCODEWRITER_RENDERRESULT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 appendPattern(::Il2CppArray<::System::Boolean>* target, ::System::Int32 pos, ::Il2CppArray<::System::Int32>* pattern, ::System::Boolean startColor)
+		static ::System::Int32 appendPattern(::Il2CppArray<::System::Boolean>* a1, ::System::Int32 a2, ::Il2CppArray<::System::Int32>* a3, ::System::Boolean a4)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Boolean>*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZXING_ONED_ONEDIMENSIONALCODEWRITER_APPENDPATTERN_OFFSET))(target, pos, pattern, startColor);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Boolean>*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZXING_ONED_ONEDIMENSIONALCODEWRITER_APPENDPATTERN_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_DefaultMargin()

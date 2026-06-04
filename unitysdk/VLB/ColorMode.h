@@ -3,7 +3,7 @@
 
 namespace VLB
 {
-	inline static constexpr unsigned int ColorMode_TypeDefinitionIndex = 45599;
+	inline static constexpr unsigned int ColorMode_TypeDefinitionIndex = 46182;
 
 	enum class ColorMode : ::System::Int32
 	{

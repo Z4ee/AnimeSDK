@@ -3,7 +3,7 @@
 #include "unitysdk/Struct_2_34C03801479AC814_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1CBA230307F9C289_53;
+class Class_1_1CBA230307F9C289_55;
 class Class_1_668FE281FA72D3E8_24;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class RogueTournExhibitionBoothData; }
@@ -12,46 +12,46 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_BEGINEDIT_OFFSET UNITYSDK_OFFSET(0xB0C4580)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_CLEARPREVIEW_OFFSET UNITYSDK_OFFSET(0xB0C44A0)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB0C35D0)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_EDITBOOTHEXHIBITION_OFFSET UNITYSDK_OFFSET(0xB0C4630)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_ENDEDIT_OFFSET UNITYSDK_OFFSET(0xB0C4AF0)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_FINDDISPLAYEDBOOTHEDITED_OFFSET UNITYSDK_OFFSET(0xB0C48E0)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GETDISPLAYEDEXHIBITIONEDITED_OFFSET UNITYSDK_OFFSET(0xB0C4710)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GETUNSEENEXHIBITIONIDS_OFFSET UNITYSDK_OFFSET(0xB0C4EF0)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GET_BOOTHS_OFFSET UNITYSDK_OFFSET(0xB0C56C0)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GET_EXHIBITIONCOUNT_OFFSET UNITYSDK_OFFSET(0xB0C56D0)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GET_EXHIBITIONS_OFFSET UNITYSDK_OFFSET(0xB0C56B0)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xB0C55C0)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GET_UNLOCKEDEXHIBITIONCOUNT_OFFSET UNITYSDK_OFFSET(0xB0C5720)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_INIT_OFFSET UNITYSDK_OFFSET(0xB0C3060)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SETALLUNLOCKEDEXHIBITIONSSEEN_OFFSET UNITYSDK_OFFSET(0xB0C5340)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SETEXHIBITIONSEEN_OFFSET UNITYSDK_OFFSET(0xB0C51D0)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SETPREVIEWBOOTHEXHIBITION_OFFSET UNITYSDK_OFFSET(0xB0C42D0)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SYNCBOOTHS_OFFSET UNITYSDK_OFFSET(0xB0C3B80)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SYNCEXHIBITIONS_OFFSET UNITYSDK_OFFSET(0xB0C3750)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_TRYGETPREVIEWEXHIBITION_OFFSET UNITYSDK_OFFSET(0xB0C4400)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB0C2E40)
-#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO__GETEXHIBITION_OFFSET UNITYSDK_OFFSET(0xB0C4870)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_BEGINEDIT_OFFSET UNITYSDK_OFFSET(0xC814000)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_CLEARPREVIEW_OFFSET UNITYSDK_OFFSET(0xC813F10)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC813010)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_EDITBOOTHEXHIBITION_OFFSET UNITYSDK_OFFSET(0xC8140A0)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_ENDEDIT_OFFSET UNITYSDK_OFFSET(0xC814690)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_FINDDISPLAYEDBOOTHEDITED_OFFSET UNITYSDK_OFFSET(0xC814410)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GETDISPLAYEDEXHIBITIONEDITED_OFFSET UNITYSDK_OFFSET(0xC814180)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GETUNSEENEXHIBITIONIDS_OFFSET UNITYSDK_OFFSET(0xC814AB0)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GET_BOOTHS_OFFSET UNITYSDK_OFFSET(0xC815390)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GET_EXHIBITIONCOUNT_OFFSET UNITYSDK_OFFSET(0xC8153A0)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GET_EXHIBITIONS_OFFSET UNITYSDK_OFFSET(0xC815380)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xC815290)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GET_UNLOCKEDEXHIBITIONCOUNT_OFFSET UNITYSDK_OFFSET(0xC8153F0)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_INIT_OFFSET UNITYSDK_OFFSET(0xC812C50)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SETALLUNLOCKEDEXHIBITIONSSEEN_OFFSET UNITYSDK_OFFSET(0xC814FA0)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SETEXHIBITIONSEEN_OFFSET UNITYSDK_OFFSET(0xC814E30)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SETPREVIEWBOOTHEXHIBITION_OFFSET UNITYSDK_OFFSET(0xC813CF0)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SYNCBOOTHS_OFFSET UNITYSDK_OFFSET(0xC813590)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SYNCEXHIBITIONS_OFFSET UNITYSDK_OFFSET(0xC813160)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_TRYGETPREVIEWEXHIBITION_OFFSET UNITYSDK_OFFSET(0xC813E20)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC812A30)
+#define RPG_CLIENT_ROGUETOURNEXHIBITIONINFO__GETEXHIBITION_OFFSET UNITYSDK_OFFSET(0xC814360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournExhibitionInfo_TypeDefinitionIndex = 62277;
+	inline static constexpr unsigned int RogueTournExhibitionInfo_TypeDefinitionIndex = 63210;
 
 	class RogueTournExhibitionInfo : public ::System::Object
 	{
 	public:
 		// static const ::System::UInt32 EmptyExhibitionID = 0x0; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RogueTournExhibitionData*>* _Exhibitions; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _EditedBooth2Exhibition; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RogueTournExhibitionBoothData*>* _Booths; // 0x18
 		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::RPG::Client::RogueTournExhibitionBoothData*>* _Booths_ReadOnly; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RogueTournExhibitionBoothData*>* _Booths; // 0x28
-		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::RPG::Client::RogueTournExhibitionData*>* _Exhibitions_ReadOnly; // 0x30
+		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::RPG::Client::RogueTournExhibitionData*>* _Exhibitions_ReadOnly; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _EditedBooth2Exhibition; // 0x30
 		::System::UInt32 _PreviewBoothID; // 0x38
-		::System::UInt32 _PreviewExhibitionID; // 0x3C
-		::System::Boolean _IsInPreview; // 0x40
-		::System::Boolean _IsEditing; // 0x41
+		::System::Boolean _IsInPreview; // 0x3C
+		::System::Boolean _IsEditing; // 0x3D
+		::System::UInt32 _PreviewExhibitionID; // 0x40
 
 		::System::Void _ctor()
 		{
@@ -68,24 +68,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void SyncExhibitions(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_53*>* proto)
+		::System::Void SyncExhibitions(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_55*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_53*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SYNCEXHIBITIONS_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1CBA230307F9C289_55*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SYNCEXHIBITIONS_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncBooths(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_668FE281FA72D3E8_24*>* proto)
+		::System::Void SyncBooths(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_668FE281FA72D3E8_24*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_668FE281FA72D3E8_24*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SYNCBOOTHS_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_668FE281FA72D3E8_24*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SYNCBOOTHS_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPreviewBoothExhibition(::RPG::Client::RogueTournExhibitionBoothData* booth, ::RPG::Client::RogueTournExhibitionData* exhibition)
+		::System::Void SetPreviewBoothExhibition(::RPG::Client::RogueTournExhibitionBoothData* a1, ::RPG::Client::RogueTournExhibitionData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournExhibitionBoothData*, ::RPG::Client::RogueTournExhibitionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SETPREVIEWBOOTHEXHIBITION_OFFSET))(this, booth, exhibition);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournExhibitionBoothData*, ::RPG::Client::RogueTournExhibitionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SETPREVIEWBOOTHEXHIBITION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryGetPreviewExhibition(::RPG::Client::RogueTournExhibitionBoothData* booth, ::RPG::Client::RogueTournExhibitionData*& exhibition)
+		::System::Boolean TryGetPreviewExhibition(::RPG::Client::RogueTournExhibitionBoothData* a1, ::RPG::Client::RogueTournExhibitionData*& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTournExhibitionBoothData*, ::RPG::Client::RogueTournExhibitionData*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_TRYGETPREVIEWEXHIBITION_OFFSET))(this, booth, exhibition);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTournExhibitionBoothData*, ::RPG::Client::RogueTournExhibitionData*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_TRYGETPREVIEWEXHIBITION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearPreview()
@@ -98,19 +98,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_BEGINEDIT_OFFSET))(this);
 		}
 
-		::System::Void EditBoothExhibition(::RPG::Client::RogueTournExhibitionBoothData* booth, ::RPG::Client::RogueTournExhibitionData* exhibition)
+		::System::Void EditBoothExhibition(::RPG::Client::RogueTournExhibitionBoothData* a1, ::RPG::Client::RogueTournExhibitionData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournExhibitionBoothData*, ::RPG::Client::RogueTournExhibitionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_EDITBOOTHEXHIBITION_OFFSET))(this, booth, exhibition);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournExhibitionBoothData*, ::RPG::Client::RogueTournExhibitionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_EDITBOOTHEXHIBITION_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::RogueTournExhibitionData* GetDisplayedExhibitionEdited(::RPG::Client::RogueTournExhibitionBoothData* booth)
+		::RPG::Client::RogueTournExhibitionData* GetDisplayedExhibitionEdited(::RPG::Client::RogueTournExhibitionBoothData* a1)
 		{
-			return ((::RPG::Client::RogueTournExhibitionData*(*)(::PVOID, ::RPG::Client::RogueTournExhibitionBoothData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GETDISPLAYEDEXHIBITIONEDITED_OFFSET))(this, booth);
+			return ((::RPG::Client::RogueTournExhibitionData*(*)(::PVOID, ::RPG::Client::RogueTournExhibitionBoothData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GETDISPLAYEDEXHIBITIONEDITED_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RogueTournExhibitionBoothData* FindDisplayedBoothEdited(::RPG::Client::RogueTournExhibitionData* exhibition)
+		::RPG::Client::RogueTournExhibitionBoothData* FindDisplayedBoothEdited(::RPG::Client::RogueTournExhibitionData* a1)
 		{
-			return ((::RPG::Client::RogueTournExhibitionBoothData*(*)(::PVOID, ::RPG::Client::RogueTournExhibitionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_FINDDISPLAYEDBOOTHEDITED_OFFSET))(this, exhibition);
+			return ((::RPG::Client::RogueTournExhibitionBoothData*(*)(::PVOID, ::RPG::Client::RogueTournExhibitionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_FINDDISPLAYEDBOOTHEDITED_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::Struct_2_34C03801479AC814_1>* EndEdit()
@@ -123,9 +123,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_GETUNSEENEXHIBITIONIDS_OFFSET))(this);
 		}
 
-		::System::Void SetExhibitionSeen(::RPG::Client::RogueTournExhibitionData* exhibition)
+		::System::Void SetExhibitionSeen(::RPG::Client::RogueTournExhibitionData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournExhibitionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SETEXHIBITIONSEEN_OFFSET))(this, exhibition);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournExhibitionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SETEXHIBITIONSEEN_OFFSET))(this, a1);
 		}
 
 		::System::Void SetAllUnlockedExhibitionsSeen()
@@ -133,9 +133,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO_SETALLUNLOCKEDEXHIBITIONSSEEN_OFFSET))(this);
 		}
 
-		::RPG::Client::RogueTournExhibitionData* _GetExhibition(::System::UInt32 exhibitionID)
+		::RPG::Client::RogueTournExhibitionData* _GetExhibition(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::RogueTournExhibitionData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO__GETEXHIBITION_OFFSET))(this, exhibitionID);
+			return ((::RPG::Client::RogueTournExhibitionData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNEXHIBITIONINFO__GETEXHIBITION_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsUnlocked()

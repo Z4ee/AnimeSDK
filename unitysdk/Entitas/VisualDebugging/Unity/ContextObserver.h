@@ -12,31 +12,31 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace System::Text { class StringBuilder; }
 namespace UnityEngine { class GameObject; }
 
-#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_DEACTIVATE_OFFSET UNITYSDK_OFFSET(0x12C57770)
-#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x12C57270)
-#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x12C57330)
-#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_GET_GROUPS_OFFSET UNITYSDK_OFFSET(0x12C57280)
-#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_ONENTITYCREATED_OFFSET UNITYSDK_OFFSET(0x12C579C0)
-#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_ONGROUPCREATED_OFFSET UNITYSDK_OFFSET(0x12C57AE0)
-#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12C57B40)
-#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x12C57340)
+#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_DEACTIVATE_OFFSET UNITYSDK_OFFSET(0x14704B20)
+#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x14704350)
+#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x147043B0)
+#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_GET_GROUPS_OFFSET UNITYSDK_OFFSET(0x14704360)
+#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_ONENTITYCREATED_OFFSET UNITYSDK_OFFSET(0x147050A0)
+#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_ONGROUPCREATED_OFFSET UNITYSDK_OFFSET(0x147051C0)
+#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14705260)
+#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x147043C0)
 
 namespace Entitas::VisualDebugging::Unity
 {
-	inline static constexpr unsigned int ContextObserver_TypeDefinitionIndex = 9878;
+	inline static constexpr unsigned int ContextObserver_TypeDefinitionIndex = 9705;
 
 	class ContextObserver : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Stack_1<::Entitas::VisualDebugging::Unity::EntityBehaviour*>* _entityBehaviourPool; // 0x10
-		::System::Text::StringBuilder* _toStringBuilder; // 0x18
-		::UnityEngine::GameObject* _gameObject; // 0x20
+		::UnityEngine::GameObject* _gameObject; // 0x18
+		::Entitas::IContext* _context; // 0x20
 		::System::Collections::Generic::List_1<::Entitas::IGroup*>* _groups; // 0x28
-		::Entitas::IContext* _context; // 0x30
+		::System::Text::StringBuilder* _toStringBuilder; // 0x30
 
-		::System::Void _ctor(::Entitas::IContext* context)
+		::System::Void _ctor(::Entitas::IContext* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER__CTOR_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER__CTOR_OFFSET))(this, a1);
 		}
 
 		::Entitas::IContext* get_context()
@@ -59,14 +59,14 @@ namespace Entitas::VisualDebugging::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_DEACTIVATE_OFFSET))(this);
 		}
 
-		::System::Void onEntityCreated(::Entitas::IContext* context, ::Entitas::IEntity* entity)
+		::System::Void onEntityCreated(::Entitas::IContext* a1, ::Entitas::IEntity* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_ONENTITYCREATED_OFFSET))(this, context, entity);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_ONENTITYCREATED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void onGroupCreated(::Entitas::IContext* context, ::Entitas::IGroup* group)
+		::System::Void onGroupCreated(::Entitas::IContext* a1, ::Entitas::IGroup* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Entitas::IGroup*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_ONGROUPCREATED_OFFSET))(this, context, group);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Entitas::IGroup*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVER_ONGROUPCREATED_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* ToString()

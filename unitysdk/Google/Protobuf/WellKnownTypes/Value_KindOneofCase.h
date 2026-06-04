@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Value_KindOneofCase_TypeDefinitionIndex = 6231;
+	inline static constexpr unsigned int Value_KindOneofCase_TypeDefinitionIndex = 5433;
 
 	enum class Value_KindOneofCase : ::System::Int32
 	{

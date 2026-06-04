@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPSETUPSCENESELECTION_METHOD_3_1788F76848666D1D_OFFSET UNITYSDK_OFFSET(0x18C763F0)
-#define RPG_GAMECORE_PROPSETUPSCENESELECTION_METHOD_3_1F312887AF6B1A48_OFFSET UNITYSDK_OFFSET(0x18C76540)
-#define RPG_GAMECORE_PROPSETUPSCENESELECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18C764B0)
+#define RPG_GAMECORE_PROPSETUPSCENESELECTION_METHOD_3_05AD153364DAE70A_OFFSET UNITYSDK_OFFSET(0x19A986E0)
+#define RPG_GAMECORE_PROPSETUPSCENESELECTION_METHOD_3_2B2E43A1E54DA5B5_OFFSET UNITYSDK_OFFSET(0x19A98830)
+#define RPG_GAMECORE_PROPSETUPSCENESELECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19A987A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetupSceneSelection_TypeDefinitionIndex = 20881;
+	inline static constexpr unsigned int PropSetupSceneSelection_TypeDefinitionIndex = 20800;
 
 	class PropSetupSceneSelection : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPSCENESELECTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1788F76848666D1D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupSceneSelection*& a2)
+		static ::System::Void Method_3_05AD153364DAE70A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupSceneSelection*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupSceneSelection*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPSCENESELECTION_METHOD_3_1788F76848666D1D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupSceneSelection*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPSCENESELECTION_METHOD_3_05AD153364DAE70A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1F312887AF6B1A48(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupSceneSelection* a2)
+		static ::System::Void Method_3_2B2E43A1E54DA5B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupSceneSelection* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupSceneSelection*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPSCENESELECTION_METHOD_3_1F312887AF6B1A48_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupSceneSelection*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPSCENESELECTION_METHOD_3_2B2E43A1E54DA5B5_OFFSET))(a1, a2);
 		}
 	};
 }

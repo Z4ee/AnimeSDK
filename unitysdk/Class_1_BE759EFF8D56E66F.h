@@ -4,22 +4,22 @@
 
 namespace RPG::GameCore { class DrinkMakerCheersPerformanceRow; }
 
-#define CLASS_1_BE759EFF8D56E66F_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x9B9D310)
-#define CLASS_1_BE759EFF8D56E66F_GET_ISFIRSTDRINKONDAY_OFFSET UNITYSDK_OFFSET(0x9B9D330)
-#define CLASS_1_BE759EFF8D56E66F_GET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x9B9D350)
-#define CLASS_1_BE759EFF8D56E66F_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x9B9D320)
-#define CLASS_1_BE759EFF8D56E66F_SET_ISFIRSTDRINKONDAY_OFFSET UNITYSDK_OFFSET(0x9B9D340)
-#define CLASS_1_BE759EFF8D56E66F_SET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x9B9D360)
-#define CLASS_1_BE759EFF8D56E66F__CTOR_OFFSET UNITYSDK_OFFSET(0x9B9D2E0)
+#define CLASS_1_BE759EFF8D56E66F_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1238BED0)
+#define CLASS_1_BE759EFF8D56E66F_GET_ISFIRSTDRINKONDAY_OFFSET UNITYSDK_OFFSET(0x1238BEF0)
+#define CLASS_1_BE759EFF8D56E66F_GET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x1238BF10)
+#define CLASS_1_BE759EFF8D56E66F_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1238BEE0)
+#define CLASS_1_BE759EFF8D56E66F_SET_ISFIRSTDRINKONDAY_OFFSET UNITYSDK_OFFSET(0x1238BF00)
+#define CLASS_1_BE759EFF8D56E66F_SET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x1238BF20)
+#define CLASS_1_BE759EFF8D56E66F__CTOR_OFFSET UNITYSDK_OFFSET(0x1238BEA0)
 
-inline static constexpr unsigned int Class_1_BE759EFF8D56E66F_TypeDefinitionIndex = 58619;
+inline static constexpr unsigned int Class_1_BE759EFF8D56E66F_TypeDefinitionIndex = 59549;
 
 class Class_1_BE759EFF8D56E66F : public ::System::Object
 {
 public:
-	::System::UInt32 _GroupId_k__BackingField; // 0x10
-	::System::Boolean _IsFirstDrinkOnDay_k__BackingField; // 0x14
-	::System::UInt32 _PerformanceId_k__BackingField; // 0x18
+	::System::UInt32 _PerformanceId_k__BackingField; // 0x10
+	::System::UInt32 _GroupId_k__BackingField; // 0x14
+	::System::Boolean _IsFirstDrinkOnDay_k__BackingField; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::DrinkMakerCheersPerformanceRow* a1, ::System::Boolean a2)
 	{
@@ -31,9 +31,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE759EFF8D56E66F_GET_GROUPID_OFFSET))(this);
 	}
 
-	::System::Void set_GroupId(::System::UInt32 value)
+	::System::Void set_GroupId(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_BE759EFF8D56E66F_SET_GROUPID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_BE759EFF8D56E66F_SET_GROUPID_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_IsFirstDrinkOnDay()
@@ -41,9 +41,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE759EFF8D56E66F_GET_ISFIRSTDRINKONDAY_OFFSET))(this);
 	}
 
-	::System::Void set_IsFirstDrinkOnDay(::System::Boolean value)
+	::System::Void set_IsFirstDrinkOnDay(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_BE759EFF8D56E66F_SET_ISFIRSTDRINKONDAY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_BE759EFF8D56E66F_SET_ISFIRSTDRINKONDAY_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_PerformanceId()
@@ -51,8 +51,8 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BE759EFF8D56E66F_GET_PERFORMANCEID_OFFSET))(this);
 	}
 
-	::System::Void set_PerformanceId(::System::UInt32 value)
+	::System::Void set_PerformanceId(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_BE759EFF8D56E66F_SET_PERFORMANCEID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_BE759EFF8D56E66F_SET_PERFORMANCEID_OFFSET))(this, a1);
 	}
 };

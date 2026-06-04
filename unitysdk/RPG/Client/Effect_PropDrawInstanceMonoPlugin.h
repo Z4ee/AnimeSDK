@@ -6,12 +6,12 @@
 namespace RPG::Client { class Effect_PropDrawInstanceBehavior; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_PROPDRAWINSTANCEMONOPLUGIN_SETINSTANCEMATRICES_OFFSET UNITYSDK_OFFSET(0xA1FCAC0)
-#define RPG_CLIENT_EFFECT_PROPDRAWINSTANCEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA1FCB70)
+#define RPG_CLIENT_EFFECT_PROPDRAWINSTANCEMONOPLUGIN_SETINSTANCEMATRICES_OFFSET UNITYSDK_OFFSET(0xB880DE0)
+#define RPG_CLIENT_EFFECT_PROPDRAWINSTANCEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB880E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PropDrawInstanceMonoPlugin_TypeDefinitionIndex = 65030;
+	inline static constexpr unsigned int Effect_PropDrawInstanceMonoPlugin_TypeDefinitionIndex = 65956;
 
 	class Effect_PropDrawInstanceMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_PropDrawInstanceBehavior*>
 	{

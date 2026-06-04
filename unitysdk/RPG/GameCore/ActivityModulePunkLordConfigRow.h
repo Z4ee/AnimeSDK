@@ -4,27 +4,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186220F0)
-#define RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18622210)
+#define RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193F1ED0)
+#define RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193F1FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityModulePunkLordConfigRow_TypeDefinitionIndex = 11618;
+	inline static constexpr unsigned int ActivityModulePunkLordConfigRow_TypeDefinitionIndex = 11717;
 
 	class ActivityModulePunkLordConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 ActivityModuleID; // 0x14
+		::System::UInt32 ActivityModuleID; // 0x10
+		::System::UInt32 ID; // 0x14
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityModulePunkLordConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityModulePunkLordConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityModulePunkLordConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityModulePunkLordConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

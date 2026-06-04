@@ -3,36 +3,36 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROGUEENDLESSUTILS_GETRECOMMENDLEVEL_OFFSET UNITYSDK_OFFSET(0xB02FAA0)
-#define RPG_CLIENT_ROGUEENDLESSUTILS_ISAREAAVAILABLEREWARD_OFFSET UNITYSDK_OFFSET(0xB0315D0)
-#define RPG_CLIENT_ROGUEENDLESSUTILS_ISAREASEEN_OFFSET UNITYSDK_OFFSET(0xB02DF00)
-#define RPG_CLIENT_ROGUEENDLESSUTILS_RECORDAREASEEN_OFFSET UNITYSDK_OFFSET(0xB031500)
+#define RPG_CLIENT_ROGUEENDLESSUTILS_GETRECOMMENDLEVEL_OFFSET UNITYSDK_OFFSET(0xC77B850)
+#define RPG_CLIENT_ROGUEENDLESSUTILS_ISAREAAVAILABLEREWARD_OFFSET UNITYSDK_OFFSET(0xC77D3B0)
+#define RPG_CLIENT_ROGUEENDLESSUTILS_ISAREASEEN_OFFSET UNITYSDK_OFFSET(0xC779C40)
+#define RPG_CLIENT_ROGUEENDLESSUTILS_RECORDAREASEEN_OFFSET UNITYSDK_OFFSET(0xC77D2E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueEndlessUtils_TypeDefinitionIndex = 62151;
+	inline static constexpr unsigned int RogueEndlessUtils_TypeDefinitionIndex = 63084;
 
 	class RogueEndlessUtils : public ::System::Object
 	{
 	public:
-		static ::System::Void RecordAreaSeen(::System::UInt32 areaID)
+		static ::System::Void RecordAreaSeen(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEENDLESSUTILS_RECORDAREASEEN_OFFSET))(areaID);
+			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEENDLESSUTILS_RECORDAREASEEN_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsAreaSeen(::System::UInt32 areaID)
+		static ::System::Boolean IsAreaSeen(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEENDLESSUTILS_ISAREASEEN_OFFSET))(areaID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEENDLESSUTILS_ISAREASEEN_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsAreaAvailableReward(::System::UInt32 areaID)
+		static ::System::Boolean IsAreaAvailableReward(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEENDLESSUTILS_ISAREAAVAILABLEREWARD_OFFSET))(areaID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEENDLESSUTILS_ISAREAAVAILABLEREWARD_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetRecommendLevel(::System::UInt32 areaID, ::System::Nullable_1<::System::UInt32> worldLevel)
+		static ::System::UInt32 GetRecommendLevel(::System::UInt32 a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEENDLESSUTILS_GETRECOMMENDLEVEL_OFFSET))(areaID, worldLevel);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEENDLESSUTILS_GETRECOMMENDLEVEL_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Text { class Encoding; }
 
-#define MIHOYO_SDK_RC4EXTEND_GETBYTES_OFFSET UNITYSDK_OFFSET(0x8DA8400)
+#define MIHOYO_SDK_RC4EXTEND_GETBYTES_OFFSET UNITYSDK_OFFSET(0xA1F8A10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Rc4Extend_TypeDefinitionIndex = 43088;
+	inline static constexpr unsigned int Rc4Extend_TypeDefinitionIndex = 43891;
 
 	class Rc4Extend : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>* GetBytes(::System::String* str, ::System::Text::Encoding* en)
+		static ::Il2CppArray<::System::Byte>* GetBytes(::System::String* a1, ::System::Text::Encoding* a2)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_RC4EXTEND_GETBYTES_OFFSET))(str, en);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_RC4EXTEND_GETBYTES_OFFSET))(a1, a2);
 		}
 	};
 }

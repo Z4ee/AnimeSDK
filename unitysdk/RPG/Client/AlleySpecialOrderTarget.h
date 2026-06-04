@@ -7,34 +7,34 @@
 namespace RPG::Client { class AlleySpecialOrderCheckParam; }
 namespace RPG::GameCore { class AlleySpecialOrderFinishRow; }
 
-#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_DOCHECK_OFFSET UNITYSDK_OFFSET(0x9D19E90)
-#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_GET_CURPROGRESS_OFFSET UNITYSDK_OFFSET(0x9D1A0B0)
-#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_GET_FINISHTYPE_OFFSET UNITYSDK_OFFSET(0x9D1A060)
-#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_GET_SPECIALORDERFINISHDESC_OFFSET UNITYSDK_OFFSET(0x9D1A080)
-#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_GET_TOTALPROGRESS_OFFSET UNITYSDK_OFFSET(0x9D1A0D0)
-#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_SET_CURPROGRESS_OFFSET UNITYSDK_OFFSET(0x9D1A0C0)
-#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_SET_TOTALPROGRESS_OFFSET UNITYSDK_OFFSET(0x9D1A0E0)
-#define RPG_CLIENT_ALLEYSPECIALORDERTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x9D19E00)
+#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_DOCHECK_OFFSET UNITYSDK_OFFSET(0xB309A70)
+#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_GET_CURPROGRESS_OFFSET UNITYSDK_OFFSET(0xB309C90)
+#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_GET_FINISHTYPE_OFFSET UNITYSDK_OFFSET(0xB309C40)
+#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_GET_SPECIALORDERFINISHDESC_OFFSET UNITYSDK_OFFSET(0xB309C60)
+#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_GET_TOTALPROGRESS_OFFSET UNITYSDK_OFFSET(0xB309CB0)
+#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_SET_CURPROGRESS_OFFSET UNITYSDK_OFFSET(0xB309CA0)
+#define RPG_CLIENT_ALLEYSPECIALORDERTARGET_SET_TOTALPROGRESS_OFFSET UNITYSDK_OFFSET(0xB309CC0)
+#define RPG_CLIENT_ALLEYSPECIALORDERTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xB3099E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleySpecialOrderTarget_TypeDefinitionIndex = 57437;
+	inline static constexpr unsigned int AlleySpecialOrderTarget_TypeDefinitionIndex = 58249;
 
 	class AlleySpecialOrderTarget : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::AlleySpecialOrderFinishRow* Row; // 0x10
-		::System::Int32 _TotalProgress_k__BackingField; // 0x18
-		::System::Int32 _CurProgress_k__BackingField; // 0x1C
+		::System::Int32 _CurProgress_k__BackingField; // 0x18
+		::System::Int32 _TotalProgress_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 specialOrderFinishID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSPECIALORDERTARGET__CTOR_OFFSET))(this, specialOrderFinishID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSPECIALORDERTARGET__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Boolean DoCheck(::RPG::Client::AlleySpecialOrderCheckParam* checkParam)
+		::System::Boolean DoCheck(::RPG::Client::AlleySpecialOrderCheckParam* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AlleySpecialOrderCheckParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSPECIALORDERTARGET_DOCHECK_OFFSET))(this, checkParam);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AlleySpecialOrderCheckParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSPECIALORDERTARGET_DOCHECK_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::SpecialOrderFinishTypeEnum get_FinishType()
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSPECIALORDERTARGET_GET_CURPROGRESS_OFFSET))(this);
 		}
 
-		::System::Void set_CurProgress(::System::Int32 value)
+		::System::Void set_CurProgress(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSPECIALORDERTARGET_SET_CURPROGRESS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSPECIALORDERTARGET_SET_CURPROGRESS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_TotalProgress()
@@ -62,9 +62,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSPECIALORDERTARGET_GET_TOTALPROGRESS_OFFSET))(this);
 		}
 
-		::System::Void set_TotalProgress(::System::Int32 value)
+		::System::Void set_TotalProgress(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSPECIALORDERTARGET_SET_TOTALPROGRESS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSPECIALORDERTARGET_SET_TOTALPROGRESS_OFFSET))(this, a1);
 		}
 	};
 }

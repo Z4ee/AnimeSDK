@@ -4,14 +4,14 @@
 
 namespace RPG::Client { class MonoJoyStickProvider; }
 
-#define RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE_ENTER_OFFSET UNITYSDK_OFFSET(0xA9D7BA0)
-#define RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE_EXIT_OFFSET UNITYSDK_OFFSET(0xA9D7EA0)
-#define RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE_TICK_OFFSET UNITYSDK_OFFSET(0xA9D7CD0)
-#define RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA9D7820)
+#define RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE_ENTER_OFFSET UNITYSDK_OFFSET(0xC125B20)
+#define RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE_EXIT_OFFSET UNITYSDK_OFFSET(0xC125E70)
+#define RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE_TICK_OFFSET UNITYSDK_OFFSET(0xC125C80)
+#define RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xC125760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoJoyStickProvider_OutterPressState_TypeDefinitionIndex = 56545;
+	inline static constexpr unsigned int MonoJoyStickProvider_OutterPressState_TypeDefinitionIndex = 57322;
 
 	class MonoJoyStickProvider_OutterPressState : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Enter(::RPG::Client::MonoJoyStickProvider* owner)
+		::System::Void Enter(::RPG::Client::MonoJoyStickProvider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE_ENTER_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE_ENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void Tick(::RPG::Client::MonoJoyStickProvider* owner)
+		::System::Void Tick(::RPG::Client::MonoJoyStickProvider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE_TICK_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOJOYSTICKPROVIDER_OUTTERPRESSSTATE_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void Exit()

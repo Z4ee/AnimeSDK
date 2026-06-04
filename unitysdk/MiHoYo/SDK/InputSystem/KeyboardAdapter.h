@@ -5,24 +5,24 @@
 
 namespace MiHoYo::SDK::InputSystem { class IKeyboardService; }
 
-#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEYDOWN_OFFSET UNITYSDK_OFFSET(0x1738D680)
-#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEYUP_OFFSET UNITYSDK_OFFSET(0x1738DA30)
-#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEY_OFFSET UNITYSDK_OFFSET(0x1738D850)
-#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1738AD50)
-#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_REGISTERSERVICE_OFFSET UNITYSDK_OFFSET(0x1738DC10)
-#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1738D640)
-#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1738D630)
+#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEYDOWN_OFFSET UNITYSDK_OFFSET(0x18198050)
+#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEYUP_OFFSET UNITYSDK_OFFSET(0x18198430)
+#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEY_OFFSET UNITYSDK_OFFSET(0x18198220)
+#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18195730)
+#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_REGISTERSERVICE_OFFSET UNITYSDK_OFFSET(0x18198640)
+#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18198040)
+#define MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18198030)
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int KeyboardAdapter_TypeDefinitionIndex = 9962;
+	inline static constexpr unsigned int KeyboardAdapter_TypeDefinitionIndex = 9789;
 
 	class KeyboardAdapter : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::InputSystem::KeyboardAdapter** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::InputSystem::KeyboardAdapter**)Il2CppClass::FromTypeDefinitionIndex(KeyboardAdapter_TypeDefinitionIndex)->GetStaticField(0xC30);
+			return (::MiHoYo::SDK::InputSystem::KeyboardAdapter**)Il2CppClass::FromTypeDefinitionIndex(KeyboardAdapter_TypeDefinitionIndex)->GetStaticField(0xB60);
 		}
 		::MiHoYo::SDK::InputSystem::IKeyboardService* m_service; // 0x10
 
@@ -36,29 +36,29 @@ namespace MiHoYo::SDK::InputSystem
 			return ((::MiHoYo::SDK::InputSystem::KeyboardAdapter*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GET_INSTANCE_OFFSET))();
 		}
 
-		static ::System::Void set_Instance(::MiHoYo::SDK::InputSystem::KeyboardAdapter* value)
+		static ::System::Void set_Instance(::MiHoYo::SDK::InputSystem::KeyboardAdapter* a1)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::InputSystem::KeyboardAdapter*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_SET_INSTANCE_OFFSET))(value);
+			return ((::System::Void(*)(::MiHoYo::SDK::InputSystem::KeyboardAdapter*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_SET_INSTANCE_OFFSET))(a1);
 		}
 
-		::System::Boolean GetKeyDown(::System::Int32 nKey, ::MiHoYo::SDK::InputSystem::KeyType keyType)
+		::System::Boolean GetKeyDown(::System::Int32 a1, ::MiHoYo::SDK::InputSystem::KeyType a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::MiHoYo::SDK::InputSystem::KeyType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEYDOWN_OFFSET))(this, nKey, keyType);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::MiHoYo::SDK::InputSystem::KeyType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEYDOWN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean GetKey(::System::Int32 nKey, ::MiHoYo::SDK::InputSystem::KeyType keyType)
+		::System::Boolean GetKey(::System::Int32 a1, ::MiHoYo::SDK::InputSystem::KeyType a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::MiHoYo::SDK::InputSystem::KeyType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEY_OFFSET))(this, nKey, keyType);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::MiHoYo::SDK::InputSystem::KeyType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean GetKeyUp(::System::Int32 nKey, ::MiHoYo::SDK::InputSystem::KeyType keyType)
+		::System::Boolean GetKeyUp(::System::Int32 a1, ::MiHoYo::SDK::InputSystem::KeyType a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::MiHoYo::SDK::InputSystem::KeyType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEYUP_OFFSET))(this, nKey, keyType);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::MiHoYo::SDK::InputSystem::KeyType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_GETKEYUP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterService(::MiHoYo::SDK::InputSystem::IKeyboardService* service)
+		::System::Void RegisterService(::MiHoYo::SDK::InputSystem::IKeyboardService* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::InputSystem::IKeyboardService*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_REGISTERSERVICE_OFFSET))(this, service);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::InputSystem::IKeyboardService*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_KEYBOARDADAPTER_REGISTERSERVICE_OFFSET))(this, a1);
 		}
 	};
 }

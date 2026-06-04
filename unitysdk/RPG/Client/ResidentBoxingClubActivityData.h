@@ -5,23 +5,23 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RESIDENTBOXINGCLUBACTIVITYDATA_GETPREMISSIONLIST_OFFSET UNITYSDK_OFFSET(0xAFD9650)
-#define RPG_CLIENT_RESIDENTBOXINGCLUBACTIVITYDATA_GET_ENTERPANELREDDOT_OFFSET UNITYSDK_OFFSET(0xAFD96E0)
-#define RPG_CLIENT_RESIDENTBOXINGCLUBACTIVITYDATA_ISENTERPANELFULLCOMPLETED_OFFSET UNITYSDK_OFFSET(0xAFD9600)
-#define RPG_CLIENT_RESIDENTBOXINGCLUBACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAFD9440)
+#define RPG_CLIENT_RESIDENTBOXINGCLUBACTIVITYDATA_GETPREMISSIONLIST_OFFSET UNITYSDK_OFFSET(0xC71D2B0)
+#define RPG_CLIENT_RESIDENTBOXINGCLUBACTIVITYDATA_GET_ENTERPANELREDDOT_OFFSET UNITYSDK_OFFSET(0xC71D340)
+#define RPG_CLIENT_RESIDENTBOXINGCLUBACTIVITYDATA_ISENTERPANELFULLCOMPLETED_OFFSET UNITYSDK_OFFSET(0xC71D260)
+#define RPG_CLIENT_RESIDENTBOXINGCLUBACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC71D080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ResidentBoxingClubActivityData_TypeDefinitionIndex = 56959;
+	inline static constexpr unsigned int ResidentBoxingClubActivityData_TypeDefinitionIndex = 57747;
 
 	class ResidentBoxingClubActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* UnlockMissionList; // 0xA0
 
-		::System::Void _ctor(::System::UInt32 ID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESIDENTBOXINGCLUBACTIVITYDATA__CTOR_OFFSET))(this, ID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESIDENTBOXINGCLUBACTIVITYDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsEnterPanelFullCompleted()

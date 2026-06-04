@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Texture; }
 
-#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ATLASTEXTUREOVERRIDE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22CDFC0)
+#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ATLASTEXTUREOVERRIDE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3867A70)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonGraphicCustomMaterials_AtlasTextureOverride_TypeDefinitionIndex = 40607;
+	inline static constexpr unsigned int SkeletonGraphicCustomMaterials_AtlasTextureOverride_TypeDefinitionIndex = 41434;
 
 	struct alignas(8) SkeletonGraphicCustomMaterials_AtlasTextureOverride
 	{
@@ -16,9 +16,9 @@ namespace Spine::Unity
 		::UnityEngine::Texture* originalTexture; // 0x18
 		::UnityEngine::Texture* replacementTexture; // 0x20
 
-		::System::Boolean Equals(::Spine::Unity::SkeletonGraphicCustomMaterials_AtlasTextureOverride other)
+		::System::Boolean Equals(::Spine::Unity::SkeletonGraphicCustomMaterials_AtlasTextureOverride a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Spine::Unity::SkeletonGraphicCustomMaterials_AtlasTextureOverride))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ATLASTEXTUREOVERRIDE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::Spine::Unity::SkeletonGraphicCustomMaterials_AtlasTextureOverride))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ATLASTEXTUREOVERRIDE_EQUALS_OFFSET))(this, a1);
 		}
 	};
 }

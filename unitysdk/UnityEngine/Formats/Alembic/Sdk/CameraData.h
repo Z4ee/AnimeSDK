@@ -4,22 +4,22 @@
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/Bool.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_FARCLIPPLANE_OFFSET UNITYSDK_OFFSET(0x22B7270)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_FOCALLENGTH_OFFSET UNITYSDK_OFFSET(0xCC70)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_LENSSHIFT_OFFSET UNITYSDK_OFFSET(0x13C30)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_NEARCLIPPLANE_OFFSET UNITYSDK_OFFSET(0x17967C0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_SENSORSIZE_OFFSET UNITYSDK_OFFSET(0x5AF0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x2A500)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_FARCLIPPLANE_OFFSET UNITYSDK_OFFSET(0x22D72D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_FOCALLENGTH_OFFSET UNITYSDK_OFFSET(0xCC80)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_LENSSHIFT_OFFSET UNITYSDK_OFFSET(0xAF80)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_NEARCLIPPLANE_OFFSET UNITYSDK_OFFSET(0x6ECA0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_SENSORSIZE_OFFSET UNITYSDK_OFFSET(0x8D10)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0xD87E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_FARCLIPPLANE_OFFSET UNITYSDK_OFFSET(0x3846C70)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_FOCALLENGTH_OFFSET UNITYSDK_OFFSET(0xD4F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_LENSSHIFT_OFFSET UNITYSDK_OFFSET(0x14410)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_NEARCLIPPLANE_OFFSET UNITYSDK_OFFSET(0x2D2B640)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_SENSORSIZE_OFFSET UNITYSDK_OFFSET(0x60D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x2D770)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_FARCLIPPLANE_OFFSET UNITYSDK_OFFSET(0x3872DE0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_FOCALLENGTH_OFFSET UNITYSDK_OFFSET(0xD500)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_LENSSHIFT_OFFSET UNITYSDK_OFFSET(0xB7C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_NEARCLIPPLANE_OFFSET UNITYSDK_OFFSET(0x75120)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_SENSORSIZE_OFFSET UNITYSDK_OFFSET(0x95B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x13CFF0)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int CameraData_TypeDefinitionIndex = 40834;
+	inline static constexpr unsigned int CameraData_TypeDefinitionIndex = 41660;
 
 	struct alignas(4) CameraData
 	{
@@ -35,9 +35,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_VISIBILITY_OFFSET))(this);
 		}
 
-		::System::Void set_visibility(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_visibility(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_VISIBILITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_VISIBILITY_OFFSET))(this, a1);
 		}
 
 		::System::Single get_focalLength()
@@ -45,9 +45,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_FOCALLENGTH_OFFSET))(this);
 		}
 
-		::System::Void set_focalLength(::System::Single value)
+		::System::Void set_focalLength(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_FOCALLENGTH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_FOCALLENGTH_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 get_sensorSize()
@@ -55,9 +55,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_SENSORSIZE_OFFSET))(this);
 		}
 
-		::System::Void set_sensorSize(::UnityEngine::Vector2 value)
+		::System::Void set_sensorSize(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_SENSORSIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_SENSORSIZE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 get_lensShift()
@@ -65,9 +65,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_LENSSHIFT_OFFSET))(this);
 		}
 
-		::System::Void set_lensShift(::UnityEngine::Vector2 value)
+		::System::Void set_lensShift(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_LENSSHIFT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_LENSSHIFT_OFFSET))(this, a1);
 		}
 
 		::System::Single get_nearClipPlane()
@@ -75,9 +75,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_NEARCLIPPLANE_OFFSET))(this);
 		}
 
-		::System::Void set_nearClipPlane(::System::Single value)
+		::System::Void set_nearClipPlane(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_NEARCLIPPLANE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_NEARCLIPPLANE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_farClipPlane()
@@ -85,9 +85,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_GET_FARCLIPPLANE_OFFSET))(this);
 		}
 
-		::System::Void set_farClipPlane(::System::Single value)
+		::System::Void set_farClipPlane(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_FARCLIPPLANE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_CAMERADATA_SET_FARCLIPPLANE_OFFSET))(this, a1);
 		}
 	};
 }

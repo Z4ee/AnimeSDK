@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelGroupMissionCondition; }
 
-#define RPG_GAMECORE_LEVELGROUPMISSIONCONDITIONSET_METHOD_2_9D5084BB1905644E_OFFSET UNITYSDK_OFFSET(0x18A46490)
-#define RPG_GAMECORE_LEVELGROUPMISSIONCONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18A46630)
+#define RPG_GAMECORE_LEVELGROUPMISSIONCONDITIONSET_METHOD_2_4149F00E3412603B_OFFSET UNITYSDK_OFFSET(0x198708A0)
+#define RPG_GAMECORE_LEVELGROUPMISSIONCONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x198786C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupMissionConditionSet_TypeDefinitionIndex = 16327;
+	inline static constexpr unsigned int LevelGroupMissionConditionSet_TypeDefinitionIndex = 16359;
 
 	class LevelGroupMissionConditionSet : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPMISSIONCONDITIONSET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9D5084BB1905644E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupMissionConditionSet*& a2)
+		static ::System::Void Method_2_4149F00E3412603B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupMissionConditionSet*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupMissionConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPMISSIONCONDITIONSET_METHOD_2_9D5084BB1905644E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupMissionConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPMISSIONCONDITIONSET_METHOD_2_4149F00E3412603B_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXACFDEBUG_SELECTORINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x1625430)
+#define CRIWARE_CRIATOMEXACFDEBUG_SELECTORINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2BD5560)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_SelectorInfoForMarshaling_TypeDefinitionIndex = 36927;
+	inline static constexpr unsigned int CriAtomExAcfDebug_SelectorInfoForMarshaling_TypeDefinitionIndex = 37227;
 
 	struct alignas(8) CriAtomExAcfDebug_SelectorInfoForMarshaling
 	{
@@ -16,9 +16,9 @@ namespace CriWare
 		::System::UInt16 globalLabelIndex; // 0x1C
 
 		/*
-		::System::Void Convert(::CriWare::CriAtomExAcfDebug_SelectorInfo& x)
+		::System::Void Convert(::CriWare::CriAtomExAcfDebug_SelectorInfo& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExAcfDebug_SelectorInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACFDEBUG_SELECTORINFOFORMARSHALING_CONVERT_OFFSET))(this, x);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExAcfDebug_SelectorInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACFDEBUG_SELECTORINFOFORMARSHALING_CONVERT_OFFSET))(this, a1);
 		}
 		*/
 	};

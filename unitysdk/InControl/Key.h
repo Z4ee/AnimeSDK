@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int Key_TypeDefinitionIndex = 37103;
+	inline static constexpr unsigned int Key_TypeDefinitionIndex = 37835;
 
 	enum class Key : ::System::Int32
 	{

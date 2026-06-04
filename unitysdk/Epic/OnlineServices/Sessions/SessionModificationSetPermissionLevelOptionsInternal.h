@@ -7,32 +7,32 @@ namespace Epic::OnlineServices::Sessions { class SessionModificationSetPermissio
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x17D70)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1D60)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_PERMISSIONLEVEL_OFFSET UNITYSDK_OFFSET(0x1D50)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x17E70)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2200)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_PERMISSIONLEVEL_OFFSET UNITYSDK_OFFSET(0x21F0)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionModificationSetPermissionLevelOptionsInternal_TypeDefinitionIndex = 41359;
+	inline static constexpr unsigned int SessionModificationSetPermissionLevelOptionsInternal_TypeDefinitionIndex = 42162;
 
 	struct alignas(4) SessionModificationSetPermissionLevelOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::Epic::OnlineServices::Sessions::OnlineSessionPermissionLevel m_PermissionLevel; // 0x14
 
-		::System::Void set_PermissionLevel(::Epic::OnlineServices::Sessions::OnlineSessionPermissionLevel value)
+		::System::Void set_PermissionLevel(::Epic::OnlineServices::Sessions::OnlineSessionPermissionLevel a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::OnlineSessionPermissionLevel))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_PERMISSIONLEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::OnlineSessionPermissionLevel))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_PERMISSIONLEVEL_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::SessionModificationSetPermissionLevelOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::SessionModificationSetPermissionLevelOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionModificationSetPermissionLevelOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionModificationSetPermissionLevelOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONMODIFICATIONSETPERMISSIONLEVELOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -7,7 +7,7 @@ namespace RPG::Client::Billboard { class BillboardIdentifier; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IWayPointTarget_TypeDefinitionIndex = 63676;
+	inline static constexpr unsigned int IWayPointTarget_TypeDefinitionIndex = 64597;
 
 	class IWayPointTarget
 	{

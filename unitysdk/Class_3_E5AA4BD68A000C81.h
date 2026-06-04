@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetStanceCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E5AA4BD68A000C81_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x987DCD0)
-#define CLASS_3_E5AA4BD68A000C81__CTOR_OFFSET UNITYSDK_OFFSET(0x987DCA0)
+#define CLASS_3_E5AA4BD68A000C81_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB004E60)
+#define CLASS_3_E5AA4BD68A000C81__CTOR_OFFSET UNITYSDK_OFFSET(0xB004E30)
 
-inline static constexpr unsigned int Class_3_E5AA4BD68A000C81_TypeDefinitionIndex = 51229;
+inline static constexpr unsigned int Class_3_E5AA4BD68A000C81_TypeDefinitionIndex = 51901;
 
 class Class_3_E5AA4BD68A000C81 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetStanceCount*>
 {

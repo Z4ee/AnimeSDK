@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int Int16Enum_TypeDefinitionIndex = 391;
+	inline static constexpr unsigned int Int16Enum_TypeDefinitionIndex = 390;
 
 	enum class Int16Enum : ::System::Int16
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiscreteBar_DisplayMode_TypeDefinitionIndex = 66827;
+	inline static constexpr unsigned int DiscreteBar_DisplayMode_TypeDefinitionIndex = 67767;
 
 	enum class DiscreteBar_DisplayMode : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Configuration::Assemblies
 {
-	inline static constexpr unsigned int AssemblyHashAlgorithm_TypeDefinitionIndex = 462;
+	inline static constexpr unsigned int AssemblyHashAlgorithm_TypeDefinitionIndex = 461;
 
 	enum class AssemblyHashAlgorithm : ::System::Int32
 	{

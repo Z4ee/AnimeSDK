@@ -9,14 +9,14 @@ namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xA154F60)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_GET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xA156360)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_SET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xA156370)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA156380)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xB7D4460)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_GET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xB7D57C0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_SET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xB7D57D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB7D57E0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2PvEBattleResultInfo_TypeDefinitionIndex = 69906;
+	inline static constexpr unsigned int DiceCombatV2PvEBattleResultInfo_TypeDefinitionIndex = 70718;
 
 	class DiceCombatV2PvEBattleResultInfo : public ::RPG::Client::DiceCombat::DiceCombatV2BattleResultInfo
 	{
@@ -33,14 +33,14 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_GET_REWARDITEMS_OFFSET))(this);
 		}
 
-		::System::Void set_RewardItems(::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ItemDisplayData*>* value)
+		::System::Void set_RewardItems(::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ItemDisplayData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ItemDisplayData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_SET_REWARDITEMS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ItemDisplayData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_SET_REWARDITEMS_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatV2PvEBattleResultInfo* Create(::System::Boolean isWin, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* localPlayerAvatarInfo, ::RPG::Client::DiceCombat::DiceCombatV2PvEStage* pveStage, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* bossAvatarInfo, ::System::Collections::Generic::IEnumerable_1<::Proto::Item*>* rewardItems)
+		static ::RPG::Client::DiceCombat::DiceCombatV2PvEBattleResultInfo* Create(::System::Boolean a1, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a2, ::RPG::Client::DiceCombat::DiceCombatV2PvEStage* a3, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a4, ::System::Collections::Generic::IEnumerable_1<::Proto::Item*>* a5)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatV2PvEBattleResultInfo*(*)(::System::Boolean, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*, ::RPG::Client::DiceCombat::DiceCombatV2PvEStage*, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*, ::System::Collections::Generic::IEnumerable_1<::Proto::Item*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_CREATE_OFFSET))(isWin, localPlayerAvatarInfo, pveStage, bossAvatarInfo, rewardItems);
+			return ((::RPG::Client::DiceCombat::DiceCombatV2PvEBattleResultInfo*(*)(::System::Boolean, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*, ::RPG::Client::DiceCombat::DiceCombatV2PvEStage*, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*, ::System::Collections::Generic::IEnumerable_1<::Proto::Item*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_CREATE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

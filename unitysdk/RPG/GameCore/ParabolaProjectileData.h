@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PARABOLAPROJECTILEDATA_METHOD_3_36EE5E8D949764CA_OFFSET UNITYSDK_OFFSET(0x18BD1300)
-#define RPG_GAMECORE_PARABOLAPROJECTILEDATA_METHOD_3_5462F205E5EBE9E9_OFFSET UNITYSDK_OFFSET(0x18BD1350)
-#define RPG_GAMECORE_PARABOLAPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD1340)
+#define RPG_GAMECORE_PARABOLAPROJECTILEDATA_METHOD_3_36EE5E8D949764CA_OFFSET UNITYSDK_OFFSET(0x199E2EB0)
+#define RPG_GAMECORE_PARABOLAPROJECTILEDATA_METHOD_3_5462F205E5EBE9E9_OFFSET UNITYSDK_OFFSET(0x199E2F00)
+#define RPG_GAMECORE_PARABOLAPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x199E2EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParabolaProjectileData_TypeDefinitionIndex = 14831;
+	inline static constexpr unsigned int ParabolaProjectileData_TypeDefinitionIndex = 14895;
 
 	class ParabolaProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:
-		::System::Single ParabolaHeightRatio; // 0xB0
-		::System::Single ParabolaRoll; // 0xB4
-		::System::Boolean ParabolaUseWorldSpaceUp; // 0xB8
+		::System::Single ParabolaHeightRatio; // 0xB8
+		::System::Single ParabolaRoll; // 0xBC
+		::System::Boolean ParabolaUseWorldSpaceUp; // 0xC0
 
 		::System::Void _ctor()
 		{

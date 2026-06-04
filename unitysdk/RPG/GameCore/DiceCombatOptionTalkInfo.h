@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_METHOD_3_9E18120ABF9510E2_OFFSET UNITYSDK_OFFSET(0x188695B0)
-#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_METHOD_3_D29161959348A1DC_OFFSET UNITYSDK_OFFSET(0x18869510)
-#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18869570)
+#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_METHOD_3_9E18120ABF9510E2_OFFSET UNITYSDK_OFFSET(0x196A84B0)
+#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_METHOD_3_D29161959348A1DC_OFFSET UNITYSDK_OFFSET(0x196A8410)
+#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x196A8470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatOptionTalkInfo_TypeDefinitionIndex = 19833;
+	inline static constexpr unsigned int DiceCombatOptionTalkInfo_TypeDefinitionIndex = 19703;
 
 	class DiceCombatOptionTalkInfo : public ::RPG::GameCore::OptionTalkInfo
 	{
 	public:
-		::System::Boolean IsShowHardLevel; // 0x70
-		::System::UInt32 StageID; // 0x74
-		::System::Boolean IsForceShow; // 0x78
+		::System::Boolean IsShowHardLevel; // 0x68
+		::System::UInt32 StageID; // 0x6C
+		::System::Boolean IsForceShow; // 0x70
 
 		::System::Void _ctor()
 		{

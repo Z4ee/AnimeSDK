@@ -5,11 +5,11 @@
 namespace RPG::Client { class ControllLightEditComp_LinkSlotInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CONTROLLLIGHTEDITCOMP__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D2DB0)
+#define RPG_CLIENT_CONTROLLLIGHTEDITCOMP__CTOR_OFFSET UNITYSDK_OFFSET(0xB7126C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ControllLightEditComp_TypeDefinitionIndex = 64702;
+	inline static constexpr unsigned int ControllLightEditComp_TypeDefinitionIndex = 65623;
 
 	class ControllLightEditComp : public ::UnityEngine::MonoBehaviour
 	{

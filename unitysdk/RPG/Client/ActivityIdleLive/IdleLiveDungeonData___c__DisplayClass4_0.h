@@ -5,13 +5,13 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonAssistData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonFriendSoltData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B44770)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS4_0__TRYADDASSISTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9B45860)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS4_0__TRYADDASSISTDATA_B__1_OFFSET UNITYSDK_OFFSET(0x9B45880)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB12CC10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS4_0__TRYADDASSISTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB12CC20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS4_0__TRYADDASSISTDATA_B__1_OFFSET UNITYSDK_OFFSET(0xB12CC40)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonData___c__DisplayClass4_0_TypeDefinitionIndex = 69260;
+	inline static constexpr unsigned int IdleLiveDungeonData___c__DisplayClass4_0_TypeDefinitionIndex = 70072;
 
 	class IdleLiveDungeonData___c__DisplayClass4_0 : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _TryAddAssistData_b__0(::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistData* data)
+		::System::Boolean _TryAddAssistData_b__0(::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS4_0__TRYADDASSISTDATA_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS4_0__TRYADDASSISTDATA_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _TryAddAssistData_b__1(::RPG::Client::ActivityIdleLive::IdleLiveDungeonFriendSoltData* data)
+		::System::Boolean _TryAddAssistData_b__1(::RPG::Client::ActivityIdleLive::IdleLiveDungeonFriendSoltData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonFriendSoltData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS4_0__TRYADDASSISTDATA_B__1_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonFriendSoltData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS4_0__TRYADDASSISTDATA_B__1_OFFSET))(this, a1);
 		}
 	};
 }

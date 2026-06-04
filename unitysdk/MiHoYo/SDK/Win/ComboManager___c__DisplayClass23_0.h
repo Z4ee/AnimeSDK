@@ -7,27 +7,27 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class ComboManager; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176F79C0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS23_0__ONACCOUNTPLATLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x176F79D0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184B5340)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS23_0__ONACCOUNTPLATLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x184B5350)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass23_0_TypeDefinitionIndex = 8175;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass23_0_TypeDefinitionIndex = 9078;
 
 	class ComboManager___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>* callbackModel; // 0x10
-		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x18
+		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x10
+		::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>* callbackModel; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS23_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnAccountPlatLogin_b__0(::MiHoYo::SDK::NetworkResponseModel* comboLoginResponse)
+		::System::Void _OnAccountPlatLogin_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS23_0__ONACCOUNTPLATLOGIN_B__0_OFFSET))(this, comboLoginResponse);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS23_0__ONACCOUNTPLATLOGIN_B__0_OFFSET))(this, a1);
 		}
 	};
 }

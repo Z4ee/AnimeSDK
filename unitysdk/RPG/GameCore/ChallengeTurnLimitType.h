@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeTurnLimitType_TypeDefinitionIndex = 22077;
+	inline static constexpr unsigned int ChallengeTurnLimitType_TypeDefinitionIndex = 23341;
 
 	enum class ChallengeTurnLimitType : ::System::Int32
 	{

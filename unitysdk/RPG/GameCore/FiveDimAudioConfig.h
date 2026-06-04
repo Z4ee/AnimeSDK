@@ -7,12 +7,12 @@ namespace RPG::GameCore { class FiveDimEmotionConfig; }
 namespace RPG::GameCore { class FiveDimRTPCConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG_METHOD_2_D50BB2CE71E8A4C2_OFFSET UNITYSDK_OFFSET(0x188EB580)
-#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188EB970)
+#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG_METHOD_2_6073BE75AEA30839_OFFSET UNITYSDK_OFFSET(0x19727CD0)
+#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197280C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAudioConfig_TypeDefinitionIndex = 15831;
+	inline static constexpr unsigned int FiveDimAudioConfig_TypeDefinitionIndex = 15886;
 
 	class FiveDimAudioConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMAUDIOCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D50BB2CE71E8A4C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAudioConfig*& a2)
+		static ::System::Void Method_2_6073BE75AEA30839(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAudioConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimAudioConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMAUDIOCONFIG_METHOD_2_D50BB2CE71E8A4C2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimAudioConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMAUDIOCONFIG_METHOD_2_6073BE75AEA30839_OFFSET))(a1, a2);
 		}
 	};
 }

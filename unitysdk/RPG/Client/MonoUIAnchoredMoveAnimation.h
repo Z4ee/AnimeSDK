@@ -6,19 +6,19 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_GET_ISPLAYING_OFFSET UNITYSDK_OFFSET(0xAA0D820)
-#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0xAA0D510)
-#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_PLAYATCURPOS_OFFSET UNITYSDK_OFFSET(0xAA0D760)
-#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_PLAY_OFFSET UNITYSDK_OFFSET(0xAA0D620)
-#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_UPDATE_OFFSET UNITYSDK_OFFSET(0xAA0D1D0)
-#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xAA0D830)
-#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__GETCURVEVALUE_OFFSET UNITYSDK_OFFSET(0xAA0D570)
-#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__PLAY_OFFSET UNITYSDK_OFFSET(0xAA0D700)
-#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__STOP_OFFSET UNITYSDK_OFFSET(0xAA0D4A0)
+#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_GET_ISPLAYING_OFFSET UNITYSDK_OFFSET(0xC15BBF0)
+#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0xC15B8E0)
+#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_PLAYATCURPOS_OFFSET UNITYSDK_OFFSET(0xC15BB30)
+#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_PLAY_OFFSET UNITYSDK_OFFSET(0xC15B9F0)
+#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_UPDATE_OFFSET UNITYSDK_OFFSET(0xC15B590)
+#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xC15BC00)
+#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__GETCURVEVALUE_OFFSET UNITYSDK_OFFSET(0xC15B940)
+#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__PLAY_OFFSET UNITYSDK_OFFSET(0xC15BAD0)
+#define RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__STOP_OFFSET UNITYSDK_OFFSET(0xC15B870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIAnchoredMoveAnimation_TypeDefinitionIndex = 63574;
+	inline static constexpr unsigned int MonoUIAnchoredMoveAnimation_TypeDefinitionIndex = 64495;
 
 	class MonoUIAnchoredMoveAnimation : public ::UnityEngine::MonoBehaviour
 	{
@@ -41,14 +41,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Play(::UnityEngine::Vector2 startPos, ::UnityEngine::Vector2 posDelta, ::System::Single duration, ::System::Action* endCallback)
+		::System::Void Play(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::System::Single a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_PLAY_OFFSET))(this, startPos, posDelta, duration, endCallback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_PLAY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void PlayAtCurPos(::UnityEngine::Vector2 posDelta, ::System::Single duration, ::System::Action* endCallback)
+		::System::Void PlayAtCurPos(::UnityEngine::Vector2 a1, ::System::Single a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_PLAYATCURPOS_OFFSET))(this, posDelta, duration, endCallback);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_PLAYATCURPOS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _Play()
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__PLAY_OFFSET))(this);
 		}
 
-		::System::Void _Stop(::System::Boolean callEndCbk)
+		::System::Void _Stop(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__STOP_OFFSET))(this, callEndCbk);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__STOP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsPlaying()
@@ -71,9 +71,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION_GET_PROGRESS_OFFSET))(this);
 		}
 
-		::System::Single _GetCurveValue(::System::Single t)
+		::System::Single _GetCurveValue(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__GETCURVEVALUE_OFFSET))(this, t);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIANCHOREDMOVEANIMATION__GETCURVEVALUE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,18 +6,18 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraWorkLeave; }
 
-#define CLASS_1_1425A666E2144E45_METHOD_1_3CAB3F134E5CEF52_OFFSET UNITYSDK_OFFSET(0x9A2D3A0)
-#define CLASS_1_1425A666E2144E45_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x9A2D360)
-#define CLASS_1_1425A666E2144E45__CTOR_OFFSET UNITYSDK_OFFSET(0x9A2D320)
+#define CLASS_1_1425A666E2144E45_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x12A94E90)
+#define CLASS_1_1425A666E2144E45_METHOD_1_BA1BB49741CFDFE1_OFFSET UNITYSDK_OFFSET(0x12A94ED0)
+#define CLASS_1_1425A666E2144E45__CTOR_OFFSET UNITYSDK_OFFSET(0x12A94E50)
 
-inline static constexpr unsigned int Class_1_1425A666E2144E45_TypeDefinitionIndex = 71918;
+inline static constexpr unsigned int Class_1_1425A666E2144E45_TypeDefinitionIndex = 72940;
 
 class Class_1_1425A666E2144E45 : public ::System::Object
 {
 public:
-	::RPG::Client::Promises::Promise* Field_1_2; // 0x10
-	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Field_1_1; // 0x18
-	::RPG::GameCore::ChimeraWorkLeave* Field_1_0; // 0x20
+	::RPG::GameCore::ChimeraWorkLeave* Field_1_0; // 0x10
+	::RPG::Client::Promises::Promise* Field_1_1; // 0x18
+	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Field_1_2; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraWorkLeave* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2)
 	{
@@ -29,8 +29,8 @@ public:
 		return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1425A666E2144E45_METHOD_1_8F9DF3D751E1E0BF_OFFSET))(this);
 	}
 
-	::System::Void Method_1_3CAB3F134E5CEF52()
+	::System::Void Method_1_BA1BB49741CFDFE1()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1425A666E2144E45_METHOD_1_3CAB3F134E5CEF52_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1425A666E2144E45_METHOD_1_BA1BB49741CFDFE1_OFFSET))(this);
 	}
 };

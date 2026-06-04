@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class ProtocolConfirm; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOCOLCONFIRM___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1761E6F0)
-#define MIHOYO_SDK_PROTOCOLCONFIRM___C__DISPLAYCLASS20_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1761F2F0)
+#define MIHOYO_SDK_PROTOCOLCONFIRM___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183FDD30)
+#define MIHOYO_SDK_PROTOCOLCONFIRM___C__DISPLAYCLASS20_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x183FE8A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolConfirm___c__DisplayClass20_0_TypeDefinitionIndex = 7066;
+	inline static constexpr unsigned int ProtocolConfirm___c__DisplayClass20_0_TypeDefinitionIndex = 7969;
 
 	class ProtocolConfirm___c__DisplayClass20_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLCONFIRM___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::ProtocolConfirm* dialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::ProtocolConfirm* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ProtocolConfirm*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLCONFIRM___C__DISPLAYCLASS20_0__SHOW_B__0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ProtocolConfirm*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLCONFIRM___C__DISPLAYCLASS20_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

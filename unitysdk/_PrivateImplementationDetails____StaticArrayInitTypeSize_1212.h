@@ -6,5 +6,5 @@ inline static constexpr unsigned int _PrivateImplementationDetails____StaticArra
 
 struct alignas(1) _PrivateImplementationDetails____StaticArrayInitTypeSize_1212
 {
-	System::UChar data[1212]; // 0x0
+	System::UChar data[1228]; // 0x0
 };

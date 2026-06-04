@@ -3,15 +3,18 @@
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TARGETFETCHPARTNER_METHOD_4_446F09681B0C4E48_OFFSET UNITYSDK_OFFSET(0x18EE5590)
-#define RPG_GAMECORE_TARGETFETCHPARTNER_METHOD_4_A22D8A1262A37AFC_OFFSET UNITYSDK_OFFSET(0x18EDF260)
-#define RPG_GAMECORE_TARGETFETCHPARTNER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EDF210)
+#define RPG_GAMECORE_TARGETFETCHPARTNER_METHOD_4_446F09681B0C4E48_OFFSET UNITYSDK_OFFSET(0x19D0E370)
+#define RPG_GAMECORE_TARGETFETCHPARTNER_METHOD_4_A22D8A1262A37AFC_OFFSET UNITYSDK_OFFSET(0x19CFB610)
+#define RPG_GAMECORE_TARGETFETCHPARTNER_METHOD_4_BAE7C44E17AF1F96_OFFSET UNITYSDK_OFFSET(0x19D06C00)
+#define RPG_GAMECORE_TARGETFETCHPARTNER_METHOD_4_E622C25EB6F86F89_OFFSET UNITYSDK_OFFSET(0x19D0E3E0)
+#define RPG_GAMECORE_TARGETFETCHPARTNER__CTOR_OFFSET UNITYSDK_OFFSET(0x19CFB5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchPartner_TypeDefinitionIndex = 22925;
+	inline static constexpr unsigned int TargetFetchPartner_TypeDefinitionIndex = 22616;
 
 	class TargetFetchPartner : public ::RPG::GameCore::TargetEvaluator
 	{
@@ -32,6 +35,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_A22D8A1262A37AFC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchPartner* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchPartner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHPARTNER_METHOD_4_A22D8A1262A37AFC_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_BAE7C44E17AF1F96(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchPartner*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchPartner*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHPARTNER_METHOD_4_BAE7C44E17AF1F96_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_E622C25EB6F86F89(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchPartner* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchPartner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHPARTNER_METHOD_4_E622C25EB6F86F89_OFFSET))(a1, a2);
 		}
 	};
 }

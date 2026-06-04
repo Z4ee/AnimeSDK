@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindView_TypeDefinitionIndex = 16667;
+	inline static constexpr unsigned int TimeRewindView_TypeDefinitionIndex = 16695;
 
 	enum class TimeRewindView : ::System::Int32
 	{

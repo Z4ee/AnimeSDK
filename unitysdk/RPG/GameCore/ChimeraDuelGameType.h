@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelGameType_TypeDefinitionIndex = 10637;
+	inline static constexpr unsigned int ChimeraDuelGameType_TypeDefinitionIndex = 10693;
 
 	enum class ChimeraDuelGameType : ::System::Int32
 	{

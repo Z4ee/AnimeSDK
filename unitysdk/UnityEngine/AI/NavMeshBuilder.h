@@ -14,72 +14,72 @@ namespace UnityEngine { class AsyncOperation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::AI { class NavMeshData; }
 
-#define UNITYENGINE_AI_NAVMESHBUILDER_BUILDNAVMESHDATA_OFFSET UNITYSDK_OFFSET(0x1A401580)
-#define UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCESINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A401570)
-#define UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A4013D0)
-#define UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCES_1_OFFSET UNITYSDK_OFFSET(0x1A4013E0)
-#define UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCES_OFFSET UNITYSDK_OFFSET(0x1A4011F0)
-#define UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNCLISTINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A401830)
-#define UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNCLISTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A401820)
-#define UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNC_OFFSET UNITYSDK_OFFSET(0x1A401720)
-#define UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATALISTINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A401710)
-#define UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATALISTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A401700)
+#define UNITYENGINE_AI_NAVMESHBUILDER_BUILDNAVMESHDATA_OFFSET UNITYSDK_OFFSET(0x1B2563C0)
+#define UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCESINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B2563B0)
+#define UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B256210)
+#define UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCES_1_OFFSET UNITYSDK_OFFSET(0x1B256220)
+#define UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCES_OFFSET UNITYSDK_OFFSET(0x1B256020)
+#define UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNCLISTINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B256670)
+#define UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNCLISTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B256660)
+#define UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNC_OFFSET UNITYSDK_OFFSET(0x1B256560)
+#define UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATALISTINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B256550)
+#define UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATALISTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B256540)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshBuilder_TypeDefinitionIndex = 5366;
+	inline static constexpr unsigned int NavMeshBuilder_TypeDefinitionIndex = 5643;
 
 	class NavMeshBuilder : public ::System::Object
 	{
 	public:
-		static ::System::Void CollectSources(::UnityEngine::Bounds includedWorldBounds, ::System::Int32 includedLayerMask, ::UnityEngine::AI::NavMeshCollectGeometry geometry, ::System::Int32 defaultArea, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildMarkup>* markups, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>* results)
+		static ::System::Void CollectSources(::UnityEngine::Bounds a1, ::System::Int32 a2, ::UnityEngine::AI::NavMeshCollectGeometry a3, ::System::Int32 a4, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildMarkup>* a5, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>* a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Bounds, ::System::Int32, ::UnityEngine::AI::NavMeshCollectGeometry, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildMarkup>*, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCES_OFFSET))(includedWorldBounds, includedLayerMask, geometry, defaultArea, markups, results);
+			return ((::System::Void(*)(::UnityEngine::Bounds, ::System::Int32, ::UnityEngine::AI::NavMeshCollectGeometry, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildMarkup>*, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCES_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void CollectSources_1(::UnityEngine::Transform* root, ::System::Int32 includedLayerMask, ::UnityEngine::AI::NavMeshCollectGeometry geometry, ::System::Int32 defaultArea, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildMarkup>* markups, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>* results)
+		static ::System::Void CollectSources_1(::UnityEngine::Transform* a1, ::System::Int32 a2, ::UnityEngine::AI::NavMeshCollectGeometry a3, ::System::Int32 a4, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildMarkup>* a5, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>* a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*, ::System::Int32, ::UnityEngine::AI::NavMeshCollectGeometry, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildMarkup>*, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCES_1_OFFSET))(root, includedLayerMask, geometry, defaultArea, markups, results);
+			return ((::System::Void(*)(::UnityEngine::Transform*, ::System::Int32, ::UnityEngine::AI::NavMeshCollectGeometry, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildMarkup>*, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCES_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::Il2CppArray<::UnityEngine::AI::NavMeshBuildSource>* CollectSourcesInternal(::System::Int32 includedLayerMask, ::UnityEngine::Bounds includedWorldBounds, ::UnityEngine::Transform* root, ::System::Boolean useBounds, ::UnityEngine::AI::NavMeshCollectGeometry geometry, ::System::Int32 defaultArea, ::Il2CppArray<::UnityEngine::AI::NavMeshBuildMarkup>* markups)
+		static ::Il2CppArray<::UnityEngine::AI::NavMeshBuildSource>* CollectSourcesInternal(::System::Int32 a1, ::UnityEngine::Bounds a2, ::UnityEngine::Transform* a3, ::System::Boolean a4, ::UnityEngine::AI::NavMeshCollectGeometry a5, ::System::Int32 a6, ::Il2CppArray<::UnityEngine::AI::NavMeshBuildMarkup>* a7)
 		{
-			return ((::Il2CppArray<::UnityEngine::AI::NavMeshBuildSource>*(*)(::System::Int32, ::UnityEngine::Bounds, ::UnityEngine::Transform*, ::System::Boolean, ::UnityEngine::AI::NavMeshCollectGeometry, ::System::Int32, ::Il2CppArray<::UnityEngine::AI::NavMeshBuildMarkup>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCESINTERNAL_OFFSET))(includedLayerMask, includedWorldBounds, root, useBounds, geometry, defaultArea, markups);
+			return ((::Il2CppArray<::UnityEngine::AI::NavMeshBuildSource>*(*)(::System::Int32, ::UnityEngine::Bounds, ::UnityEngine::Transform*, ::System::Boolean, ::UnityEngine::AI::NavMeshCollectGeometry, ::System::Int32, ::Il2CppArray<::UnityEngine::AI::NavMeshBuildMarkup>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCESINTERNAL_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::UnityEngine::AI::NavMeshData* BuildNavMeshData(::UnityEngine::AI::NavMeshBuildSettings buildSettings, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>* sources, ::UnityEngine::Bounds localBounds, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation)
+		static ::UnityEngine::AI::NavMeshData* BuildNavMeshData(::UnityEngine::AI::NavMeshBuildSettings a1, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>* a2, ::UnityEngine::Bounds a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Quaternion a5)
 		{
-			return ((::UnityEngine::AI::NavMeshData*(*)(::UnityEngine::AI::NavMeshBuildSettings, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>*, ::UnityEngine::Bounds, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_BUILDNAVMESHDATA_OFFSET))(buildSettings, sources, localBounds, position, rotation);
+			return ((::UnityEngine::AI::NavMeshData*(*)(::UnityEngine::AI::NavMeshBuildSettings, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>*, ::UnityEngine::Bounds, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_BUILDNAVMESHDATA_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean UpdateNavMeshDataListInternal(::UnityEngine::AI::NavMeshData* data, ::UnityEngine::AI::NavMeshBuildSettings buildSettings, ::System::Object* sources, ::UnityEngine::Bounds localBounds)
+		static ::System::Boolean UpdateNavMeshDataListInternal(::UnityEngine::AI::NavMeshData* a1, ::UnityEngine::AI::NavMeshBuildSettings a2, ::System::Object* a3, ::UnityEngine::Bounds a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::AI::NavMeshData*, ::UnityEngine::AI::NavMeshBuildSettings, ::System::Object*, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATALISTINTERNAL_OFFSET))(data, buildSettings, sources, localBounds);
+			return ((::System::Boolean(*)(::UnityEngine::AI::NavMeshData*, ::UnityEngine::AI::NavMeshBuildSettings, ::System::Object*, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATALISTINTERNAL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::AsyncOperation* UpdateNavMeshDataAsync(::UnityEngine::AI::NavMeshData* data, ::UnityEngine::AI::NavMeshBuildSettings buildSettings, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>* sources, ::UnityEngine::Bounds localBounds)
+		static ::UnityEngine::AsyncOperation* UpdateNavMeshDataAsync(::UnityEngine::AI::NavMeshData* a1, ::UnityEngine::AI::NavMeshBuildSettings a2, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>* a3, ::UnityEngine::Bounds a4)
 		{
-			return ((::UnityEngine::AsyncOperation*(*)(::UnityEngine::AI::NavMeshData*, ::UnityEngine::AI::NavMeshBuildSettings, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>*, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNC_OFFSET))(data, buildSettings, sources, localBounds);
+			return ((::UnityEngine::AsyncOperation*(*)(::UnityEngine::AI::NavMeshData*, ::UnityEngine::AI::NavMeshBuildSettings, ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>*, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNC_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::AsyncOperation* UpdateNavMeshDataAsyncListInternal(::UnityEngine::AI::NavMeshData* data, ::UnityEngine::AI::NavMeshBuildSettings buildSettings, ::System::Object* sources, ::UnityEngine::Bounds localBounds)
+		static ::UnityEngine::AsyncOperation* UpdateNavMeshDataAsyncListInternal(::UnityEngine::AI::NavMeshData* a1, ::UnityEngine::AI::NavMeshBuildSettings a2, ::System::Object* a3, ::UnityEngine::Bounds a4)
 		{
-			return ((::UnityEngine::AsyncOperation*(*)(::UnityEngine::AI::NavMeshData*, ::UnityEngine::AI::NavMeshBuildSettings, ::System::Object*, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNCLISTINTERNAL_OFFSET))(data, buildSettings, sources, localBounds);
+			return ((::UnityEngine::AsyncOperation*(*)(::UnityEngine::AI::NavMeshData*, ::UnityEngine::AI::NavMeshBuildSettings, ::System::Object*, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNCLISTINTERNAL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Il2CppArray<::UnityEngine::AI::NavMeshBuildSource>* CollectSourcesInternal_Injected(::System::Int32 includedLayerMask, ::UnityEngine::Bounds& includedWorldBounds, ::UnityEngine::Transform* root, ::System::Boolean useBounds, ::UnityEngine::AI::NavMeshCollectGeometry geometry, ::System::Int32 defaultArea, ::Il2CppArray<::UnityEngine::AI::NavMeshBuildMarkup>* markups)
+		static ::Il2CppArray<::UnityEngine::AI::NavMeshBuildSource>* CollectSourcesInternal_Injected(::System::Int32 a1, ::UnityEngine::Bounds& a2, ::UnityEngine::Transform* a3, ::System::Boolean a4, ::UnityEngine::AI::NavMeshCollectGeometry a5, ::System::Int32 a6, ::Il2CppArray<::UnityEngine::AI::NavMeshBuildMarkup>* a7)
 		{
-			return ((::Il2CppArray<::UnityEngine::AI::NavMeshBuildSource>*(*)(::System::Int32, ::UnityEngine::Bounds&, ::UnityEngine::Transform*, ::System::Boolean, ::UnityEngine::AI::NavMeshCollectGeometry, ::System::Int32, ::Il2CppArray<::UnityEngine::AI::NavMeshBuildMarkup>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCESINTERNAL_INJECTED_OFFSET))(includedLayerMask, includedWorldBounds, root, useBounds, geometry, defaultArea, markups);
+			return ((::Il2CppArray<::UnityEngine::AI::NavMeshBuildSource>*(*)(::System::Int32, ::UnityEngine::Bounds&, ::UnityEngine::Transform*, ::System::Boolean, ::UnityEngine::AI::NavMeshCollectGeometry, ::System::Int32, ::Il2CppArray<::UnityEngine::AI::NavMeshBuildMarkup>*))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_COLLECTSOURCESINTERNAL_INJECTED_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Boolean UpdateNavMeshDataListInternal_Injected(::UnityEngine::AI::NavMeshData* data, ::UnityEngine::AI::NavMeshBuildSettings& buildSettings, ::System::Object* sources, ::UnityEngine::Bounds& localBounds)
+		static ::System::Boolean UpdateNavMeshDataListInternal_Injected(::UnityEngine::AI::NavMeshData* a1, ::UnityEngine::AI::NavMeshBuildSettings& a2, ::System::Object* a3, ::UnityEngine::Bounds& a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::AI::NavMeshData*, ::UnityEngine::AI::NavMeshBuildSettings&, ::System::Object*, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATALISTINTERNAL_INJECTED_OFFSET))(data, buildSettings, sources, localBounds);
+			return ((::System::Boolean(*)(::UnityEngine::AI::NavMeshData*, ::UnityEngine::AI::NavMeshBuildSettings&, ::System::Object*, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATALISTINTERNAL_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::UnityEngine::AsyncOperation* UpdateNavMeshDataAsyncListInternal_Injected(::UnityEngine::AI::NavMeshData* data, ::UnityEngine::AI::NavMeshBuildSettings& buildSettings, ::System::Object* sources, ::UnityEngine::Bounds& localBounds)
+		static ::UnityEngine::AsyncOperation* UpdateNavMeshDataAsyncListInternal_Injected(::UnityEngine::AI::NavMeshData* a1, ::UnityEngine::AI::NavMeshBuildSettings& a2, ::System::Object* a3, ::UnityEngine::Bounds& a4)
 		{
-			return ((::UnityEngine::AsyncOperation*(*)(::UnityEngine::AI::NavMeshData*, ::UnityEngine::AI::NavMeshBuildSettings&, ::System::Object*, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNCLISTINTERNAL_INJECTED_OFFSET))(data, buildSettings, sources, localBounds);
+			return ((::UnityEngine::AsyncOperation*(*)(::UnityEngine::AI::NavMeshData*, ::UnityEngine::AI::NavMeshBuildSettings&, ::System::Object*, ::UnityEngine::Bounds&))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHBUILDER_UPDATENAVMESHDATAASYNCLISTINTERNAL_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

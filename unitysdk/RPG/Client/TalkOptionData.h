@@ -8,11 +8,11 @@ namespace RPG::Client { class RogueTalkOptionDataExt; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TALKOPTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB283100)
+#define RPG_CLIENT_TALKOPTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC9D0F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkOptionData_TypeDefinitionIndex = 62724;
+	inline static constexpr unsigned int TalkOptionData_TypeDefinitionIndex = 63657;
 
 	class TalkOptionData : public ::System::Object
 	{
@@ -21,17 +21,17 @@ namespace RPG::Client
 		::RPG::Client::RogueTalkOptionDataExt* RogueExt; // 0x18
 		::RPG::Client::ITalkOptionExtData* ExtData; // 0x20
 		::System::String* IconPath; // 0x28
-		::System::Int32 InfoIndex; // 0x30
-		::System::Boolean DeleteAfterSelection; // 0x34
-		::System::UInt32 TalkSentenceID; // 0x38
-		::System::UInt32 DialogueGroupID; // 0x3C
-		::System::UInt32 MenuItemExtraInfo; // 0x40
-		::System::Boolean IsSkipDefault; // 0x44
-		::System::Boolean HasBeenTriggeredLogic; // 0x45
-		::System::Boolean IsValid; // 0x46
-		::System::Boolean HasTriggered; // 0x47
-		::System::UInt32 SubMissionIDForMenuItem; // 0x48
-		::RPG::Client::TextID Text; // 0x50
+		::System::Boolean IsSkipDefault; // 0x30
+		::System::Boolean DeleteAfterSelection; // 0x31
+		::System::Int32 InfoIndex; // 0x34
+		::System::Boolean IsValid; // 0x38
+		::System::Boolean HasTriggered; // 0x39
+		::System::Boolean HasBeenTriggeredLogic; // 0x3A
+		::System::UInt32 TalkSentenceID; // 0x3C
+		::RPG::Client::TextID Text; // 0x40
+		::System::UInt32 MenuItemExtraInfo; // 0x50
+		::System::UInt32 DialogueGroupID; // 0x54
+		::System::UInt32 SubMissionIDForMenuItem; // 0x58
 
 		::System::Void _ctor()
 		{

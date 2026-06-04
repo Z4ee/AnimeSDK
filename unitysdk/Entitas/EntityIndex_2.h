@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntityIndex_2_TypeDefinitionIndex = 9841;
+	inline static constexpr unsigned int EntityIndex_2_TypeDefinitionIndex = 9668;
 
 	template <typename TEntity, typename TKey>
 	class EntityIndex_2 : public ::Entitas::AbstractEntityIndex_2<TEntity, TKey>

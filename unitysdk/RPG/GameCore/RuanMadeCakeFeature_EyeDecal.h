@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RUANMADECAKEFEATURE_EYEDECAL_METHOD_3_5FE526E169083760_OFFSET UNITYSDK_OFFSET(0x18DDC500)
-#define RPG_GAMECORE_RUANMADECAKEFEATURE_EYEDECAL_METHOD_3_81F6D9FC991077E9_OFFSET UNITYSDK_OFFSET(0x18DDCDD0)
-#define RPG_GAMECORE_RUANMADECAKEFEATURE_EYEDECAL__CTOR_OFFSET UNITYSDK_OFFSET(0x18DDC4F0)
+#define RPG_GAMECORE_RUANMADECAKEFEATURE_EYEDECAL_METHOD_3_3E16CDF6DCC7144B_OFFSET UNITYSDK_OFFSET(0x19BF9220)
+#define RPG_GAMECORE_RUANMADECAKEFEATURE_EYEDECAL_METHOD_3_CB833E12B8B4E3D6_OFFSET UNITYSDK_OFFSET(0x19BF9B00)
+#define RPG_GAMECORE_RUANMADECAKEFEATURE_EYEDECAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF9210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RuanMadeCakeFeature_EyeDecal_TypeDefinitionIndex = 16577;
+	inline static constexpr unsigned int RuanMadeCakeFeature_EyeDecal_TypeDefinitionIndex = 16607;
 
 	class RuanMadeCakeFeature_EyeDecal : public ::RPG::GameCore::RuanMadeCakeFeatureConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUANMADECAKEFEATURE_EYEDECAL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_81F6D9FC991077E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RuanMadeCakeFeature_EyeDecal*& a2)
+		static ::System::Void Method_3_CB833E12B8B4E3D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RuanMadeCakeFeature_EyeDecal*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RuanMadeCakeFeature_EyeDecal*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUANMADECAKEFEATURE_EYEDECAL_METHOD_3_81F6D9FC991077E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RuanMadeCakeFeature_EyeDecal*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUANMADECAKEFEATURE_EYEDECAL_METHOD_3_CB833E12B8B4E3D6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5FE526E169083760(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RuanMadeCakeFeature_EyeDecal* a2)
+		static ::System::Void Method_3_3E16CDF6DCC7144B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RuanMadeCakeFeature_EyeDecal* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RuanMadeCakeFeature_EyeDecal*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUANMADECAKEFEATURE_EYEDECAL_METHOD_3_5FE526E169083760_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RuanMadeCakeFeature_EyeDecal*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUANMADECAKEFEATURE_EYEDECAL_METHOD_3_3E16CDF6DCC7144B_OFFSET))(a1, a2);
 		}
 	};
 }

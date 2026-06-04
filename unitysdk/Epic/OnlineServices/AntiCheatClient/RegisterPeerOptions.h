@@ -6,30 +6,30 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x8BAB1C0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_CLIENTPLATFORM_OFFSET UNITYSDK_OFFSET(0x8BAB1A0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_CLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x8BAB180)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_IPADDRESS_OFFSET UNITYSDK_OFFSET(0x8BAB1E0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_PEERHANDLE_OFFSET UNITYSDK_OFFSET(0x8BAB160)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x8BAB1D0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_CLIENTPLATFORM_OFFSET UNITYSDK_OFFSET(0x8BAB1B0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_CLIENTTYPE_OFFSET UNITYSDK_OFFSET(0x8BAB190)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_IPADDRESS_OFFSET UNITYSDK_OFFSET(0x8BAB1F0)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_PEERHANDLE_OFFSET UNITYSDK_OFFSET(0x8BAB170)
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BAB200)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xA0C3E90)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_CLIENTPLATFORM_OFFSET UNITYSDK_OFFSET(0xA0C3E70)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_CLIENTTYPE_OFFSET UNITYSDK_OFFSET(0xA0C3E50)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_IPADDRESS_OFFSET UNITYSDK_OFFSET(0xA0C3EB0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_PEERHANDLE_OFFSET UNITYSDK_OFFSET(0xA0C3E30)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xA0C3EA0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_CLIENTPLATFORM_OFFSET UNITYSDK_OFFSET(0xA0C3E80)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_CLIENTTYPE_OFFSET UNITYSDK_OFFSET(0xA0C3E60)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_IPADDRESS_OFFSET UNITYSDK_OFFSET(0xA0C3EC0)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_PEERHANDLE_OFFSET UNITYSDK_OFFSET(0xA0C3E40)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA0C3ED0)
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int RegisterPeerOptions_TypeDefinitionIndex = 42551;
+	inline static constexpr unsigned int RegisterPeerOptions_TypeDefinitionIndex = 43354;
 
 	class RegisterPeerOptions : public ::System::Object
 	{
 	public:
-		::System::String* _IpAddress_k__BackingField; // 0x10
-		::System::String* _AccountId_k__BackingField; // 0x18
-		::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform _ClientPlatform_k__BackingField; // 0x20
-		::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType _ClientType_k__BackingField; // 0x24
-		::System::IntPtr _PeerHandle_k__BackingField; // 0x28
+		::System::String* _AccountId_k__BackingField; // 0x10
+		::System::String* _IpAddress_k__BackingField; // 0x18
+		::System::IntPtr _PeerHandle_k__BackingField; // 0x20
+		::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform _ClientPlatform_k__BackingField; // 0x28
+		::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType _ClientType_k__BackingField; // 0x2C
 
 		::System::Void _ctor()
 		{
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::AntiCheatClient
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_PEERHANDLE_OFFSET))(this);
 		}
 
-		::System::Void set_PeerHandle(::System::IntPtr value)
+		::System::Void set_PeerHandle(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_PEERHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_PEERHANDLE_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType get_ClientType()
@@ -51,9 +51,9 @@ namespace Epic::OnlineServices::AntiCheatClient
 			return ((::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_CLIENTTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ClientType(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType value)
+		::System::Void set_ClientType(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_CLIENTTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_CLIENTTYPE_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform get_ClientPlatform()
@@ -61,9 +61,9 @@ namespace Epic::OnlineServices::AntiCheatClient
 			return ((::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_CLIENTPLATFORM_OFFSET))(this);
 		}
 
-		::System::Void set_ClientPlatform(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform value)
+		::System::Void set_ClientPlatform(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_CLIENTPLATFORM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientPlatform))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_CLIENTPLATFORM_OFFSET))(this, a1);
 		}
 
 		::System::String* get_AccountId()
@@ -71,9 +71,9 @@ namespace Epic::OnlineServices::AntiCheatClient
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_ACCOUNTID_OFFSET))(this);
 		}
 
-		::System::Void set_AccountId(::System::String* value)
+		::System::Void set_AccountId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_ACCOUNTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_ACCOUNTID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_IpAddress()
@@ -81,9 +81,9 @@ namespace Epic::OnlineServices::AntiCheatClient
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_GET_IPADDRESS_OFFSET))(this);
 		}
 
-		::System::Void set_IpAddress(::System::String* value)
+		::System::Void set_IpAddress(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_IPADDRESS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCLIENT_REGISTERPEEROPTIONS_SET_IPADDRESS_OFFSET))(this, a1);
 		}
 	};
 }

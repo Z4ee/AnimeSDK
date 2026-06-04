@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TRIGGERABILITY_METHOD_3_960902033F5E69E6_OFFSET UNITYSDK_OFFSET(0x190BBC10)
-#define RPG_GAMECORE_TRIGGERABILITY_METHOD_3_DC2AB14032F3953A_OFFSET UNITYSDK_OFFSET(0x190BBB90)
-#define RPG_GAMECORE_TRIGGERABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x190BBBE0)
+#define RPG_GAMECORE_TRIGGERABILITY_METHOD_3_960902033F5E69E6_OFFSET UNITYSDK_OFFSET(0x19E067D0)
+#define RPG_GAMECORE_TRIGGERABILITY_METHOD_3_DC2AB14032F3953A_OFFSET UNITYSDK_OFFSET(0x19E06750)
+#define RPG_GAMECORE_TRIGGERABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19E067A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAbility_TypeDefinitionIndex = 21583;
+	inline static constexpr unsigned int TriggerAbility_TypeDefinitionIndex = 21448;
 
 	class TriggerAbility : public ::RPG::GameCore::TaskConfig
 	{

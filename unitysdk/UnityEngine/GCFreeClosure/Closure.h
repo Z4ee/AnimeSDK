@@ -6,15 +6,15 @@
 namespace System { class Delegate; }
 namespace System { class Object; }
 
-#define UNITYENGINE_GCFREECLOSURE_CLOSURE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22E3B50)
-#define UNITYENGINE_GCFREECLOSURE_CLOSURE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22E3AF0)
-#define UNITYENGINE_GCFREECLOSURE_CLOSURE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22E3C00)
-#define UNITYENGINE_GCFREECLOSURE_CLOSURE_ISVALID_OFFSET UNITYSDK_OFFSET(0x22E3AD0)
-#define UNITYENGINE_GCFREECLOSURE_CLOSURE_RESET_OFFSET UNITYSDK_OFFSET(0x22E3AE0)
+#define UNITYENGINE_GCFREECLOSURE_CLOSURE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x38808A0)
+#define UNITYENGINE_GCFREECLOSURE_CLOSURE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3880840)
+#define UNITYENGINE_GCFREECLOSURE_CLOSURE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3880950)
+#define UNITYENGINE_GCFREECLOSURE_CLOSURE_ISVALID_OFFSET UNITYSDK_OFFSET(0x3880820)
+#define UNITYENGINE_GCFREECLOSURE_CLOSURE_RESET_OFFSET UNITYSDK_OFFSET(0x3880830)
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int Closure_TypeDefinitionIndex = 4262;
+	inline static constexpr unsigned int Closure_TypeDefinitionIndex = 4436;
 
 	struct alignas(8) Closure
 	{
@@ -34,14 +34,14 @@ namespace UnityEngine::GCFreeClosure
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_CLOSURE_RESET_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::UnityEngine::GCFreeClosure::Closure other)
+		::System::Boolean Equals(::UnityEngine::GCFreeClosure::Closure a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GCFreeClosure::Closure))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_CLOSURE_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GCFreeClosure::Closure))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_CLOSURE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_CLOSURE_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_GCFREECLOSURE_CLOSURE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

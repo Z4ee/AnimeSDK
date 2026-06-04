@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xA88DBC0)
-#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_HASSEEN_OFFSET UNITYSDK_OFFSET(0xA88DC90)
-#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xA88DC50)
-#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xA88DC40)
-#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA88DAB0)
-#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_VIDEOID_OFFSET UNITYSDK_OFFSET(0xA88DC70)
-#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_SET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xA88DC60)
-#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_SET_VIDEOID_OFFSET UNITYSDK_OFFSET(0xA88DC80)
-#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA88DAC0)
+#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xBFD9AC0)
+#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_HASSEEN_OFFSET UNITYSDK_OFFSET(0xBFD9B90)
+#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xBFD9B50)
+#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xBFD9B40)
+#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBFD99B0)
+#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_VIDEOID_OFFSET UNITYSDK_OFFSET(0xBFD9B70)
+#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_SET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xBFD9B60)
+#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_SET_VIDEOID_OFFSET UNITYSDK_OFFSET(0xBFD9B80)
+#define RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xBFD99C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentVideoBlock_TypeDefinitionIndex = 58258;
+	inline static constexpr unsigned int MessageContentVideoBlock_TypeDefinitionIndex = 59188;
 
 	class MessageContentVideoBlock : public ::RPG::Client::MessageContentBlock
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 		::System::UInt32 _VideoID_k__BackingField; // 0x20
 		::System::UInt32 _itemID; // 0x24
 
-		::System::Void _ctor(::System::UInt32 itemID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK__CTOR_OFFSET))(this, itemID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::Client::MessageContentBlock* other)
+		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ItemID()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_IMAGEPATH_OFFSET))(this);
 		}
 
-		::System::Void set_ImagePath(::System::String* value)
+		::System::Void set_ImagePath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_SET_IMAGEPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_SET_IMAGEPATH_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_VideoID()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_GET_VIDEOID_OFFSET))(this);
 		}
 
-		::System::Void set_VideoID(::System::UInt32 value)
+		::System::Void set_VideoID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_SET_VIDEOID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTVIDEOBLOCK_SET_VIDEOID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasSeen()

@@ -6,15 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYCOMPAREUNUSEDINSERTABILITYCOUNT_METHOD_4_10EE79D0FD7575C8_OFFSET UNITYSDK_OFFSET(0x187406B0)
-#define RPG_GAMECORE_BYCOMPAREUNUSEDINSERTABILITYCOUNT_METHOD_4_82F44DB474616D00_OFFSET UNITYSDK_OFFSET(0x18740780)
-#define RPG_GAMECORE_BYCOMPAREUNUSEDINSERTABILITYCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x18740730)
+#define RPG_GAMECORE_BYCOMPAREUNUSEDINSERTABILITYCOUNT_METHOD_4_10EE79D0FD7575C8_OFFSET UNITYSDK_OFFSET(0x1953CA00)
+#define RPG_GAMECORE_BYCOMPAREUNUSEDINSERTABILITYCOUNT_METHOD_4_82F44DB474616D00_OFFSET UNITYSDK_OFFSET(0x1953CAD0)
+#define RPG_GAMECORE_BYCOMPAREUNUSEDINSERTABILITYCOUNT_METHOD_4_A8D42FAAFE534AF9_OFFSET UNITYSDK_OFFSET(0x1953CDC0)
+#define RPG_GAMECORE_BYCOMPAREUNUSEDINSERTABILITYCOUNT_METHOD_4_C9274476816BC27A_OFFSET UNITYSDK_OFFSET(0x1953CD40)
+#define RPG_GAMECORE_BYCOMPAREUNUSEDINSERTABILITYCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1953CA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareUnusedInsertAbilityCount_TypeDefinitionIndex = 21975;
+	inline static constexpr unsigned int ByCompareUnusedInsertAbilityCount_TypeDefinitionIndex = 21798;
 
 	class ByCompareUnusedInsertAbilityCount : public ::RPG::GameCore::PredicateConfig
 	{
@@ -37,6 +40,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_82F44DB474616D00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareUnusedInsertAbilityCount* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareUnusedInsertAbilityCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREUNUSEDINSERTABILITYCOUNT_METHOD_4_82F44DB474616D00_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_C9274476816BC27A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareUnusedInsertAbilityCount*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareUnusedInsertAbilityCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREUNUSEDINSERTABILITYCOUNT_METHOD_4_C9274476816BC27A_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_A8D42FAAFE534AF9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareUnusedInsertAbilityCount* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareUnusedInsertAbilityCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREUNUSEDINSERTABILITYCOUNT_METHOD_4_A8D42FAAFE534AF9_OFFSET))(a1, a2);
 		}
 	};
 }

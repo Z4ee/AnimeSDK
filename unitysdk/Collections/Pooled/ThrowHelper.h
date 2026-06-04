@@ -14,64 +14,64 @@ namespace System { class Type; }
 namespace System::Collections::Generic { class KeyNotFoundException; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define COLLECTIONS_POOLED_THROWHELPER_GETADDINGDUPLICATEWITHKEYARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD6A20)
-#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x17AD6BF0)
-#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD6B30)
-#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTNAME_OFFSET UNITYSDK_OFFSET(0x17AD6D40)
-#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD6C80)
-#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x17AD7640)
-#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD6850)
-#define COLLECTIONS_POOLED_THROWHELPER_GETINVALIDOPERATIONEXCEPTION_ENUMCURRENT_OFFSET UNITYSDK_OFFSET(0x17AD7D30)
-#define COLLECTIONS_POOLED_THROWHELPER_GETINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD7790)
-#define COLLECTIONS_POOLED_THROWHELPER_GETKEYNOTFOUNDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD81A0)
-#define COLLECTIONS_POOLED_THROWHELPER_GETRESOURCESTRING_OFFSET UNITYSDK_OFFSET(0x17AD7230)
-#define COLLECTIONS_POOLED_THROWHELPER_GETWRONGKEYTYPEARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD7FC0)
-#define COLLECTIONS_POOLED_THROWHELPER_GETWRONGVALUETYPEARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD80B0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWAGGREGATEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD7B60)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x17AD6BB0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_ARGUMENT_INVALIDARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x17AD7C00)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_DESTINATIONTOOSHORT_OFFSET UNITYSDK_OFFSET(0x17AD6770)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD6AF0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_OVERLAPALIGNMENTMISMATCH_OFFSET UNITYSDK_OFFSET(0x17AD67C0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x17AD71D0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_2_OFFSET UNITYSDK_OFFSET(0x17AD74E0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD7190)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x17AD7550)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_2_OFFSET UNITYSDK_OFFSET(0x17AD75B0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_3_OFFSET UNITYSDK_OFFSET(0x17AD75F0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD6720)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGE_INDEXEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD6810)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWARRAYTYPEMISMATCHEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD6680)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWCOUNTARGUMENTOUTOFRANGE_ARGUMENTOUTOFRANGE_COUNT_OFFSET UNITYSDK_OFFSET(0x17AD69E0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWFORMATEXCEPTION_BADFORMATSPECIFIER_OFFSET UNITYSDK_OFFSET(0x17AD7F70)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINDEXARGUMENTOUTOFRANGE_NEEDNONNEGNUMEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD68E0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINDEXOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD66D0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x17AD7810)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_CONCURRENTOPERATIONSNOTSUPPORTED_OFFSET UNITYSDK_OFFSET(0x17AD7ED0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_ENUMCURRENT_OFFSET UNITYSDK_OFFSET(0x17AD7CF0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_HANDLEISNOTINITIALIZED_OFFSET UNITYSDK_OFFSET(0x17AD7F20)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_INVALIDOPERATION_ENUMENDED_OFFSET UNITYSDK_OFFSET(0x17AD7CA0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_INVALIDOPERATION_ENUMFAILEDVERSION_OFFSET UNITYSDK_OFFSET(0x17AD7DE0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_INVALIDOPERATION_ENUMNOTSTARTED_OFFSET UNITYSDK_OFFSET(0x17AD7C50)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_INVALIDOPERATION_ENUMOPCANTHAPPEN_OFFSET UNITYSDK_OFFSET(0x17AD7E30)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_INVALIDOPERATION_NOVALUE_OFFSET UNITYSDK_OFFSET(0x17AD7E80)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD7750)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWLENGTHARGUMENTOUTOFRANGE_ARGUMENTOUTOFRANGE_NEEDNONNEGNUM_OFFSET UNITYSDK_OFFSET(0x17AD6960)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWNOTSUPPORTEDEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x17AD7B10)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWNOTSUPPORTEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD7990)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWOBJECTDISPOSEDEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x17AD7AB0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWOBJECTDISPOSEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD7A50)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWOUTOFMEMORYEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD7BB0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWRANKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD7930)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWSECURITYEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD78D0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWSERIALIZATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD7870)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWSTARTINDEXARGUMENTOUTOFRANGE_ARGUMENTOUTOFRANGE_INDEX_OFFSET UNITYSDK_OFFSET(0x17AD69A0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWUNAUTHORIZEDACCESSEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD79F0)
-#define COLLECTIONS_POOLED_THROWHELPER_THROWVALUEARGUMENTOUTOFRANGE_NEEDNONNEGNUMEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17AD6920)
+#define COLLECTIONS_POOLED_THROWHELPER_GETADDINGDUPLICATEWITHKEYARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x188846C0)
+#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x18884890)
+#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x188847D0)
+#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTNAME_OFFSET UNITYSDK_OFFSET(0x188849E0)
+#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18884920)
+#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x188852E0)
+#define COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x188844F0)
+#define COLLECTIONS_POOLED_THROWHELPER_GETINVALIDOPERATIONEXCEPTION_ENUMCURRENT_OFFSET UNITYSDK_OFFSET(0x188859D0)
+#define COLLECTIONS_POOLED_THROWHELPER_GETINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18885430)
+#define COLLECTIONS_POOLED_THROWHELPER_GETKEYNOTFOUNDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18885E40)
+#define COLLECTIONS_POOLED_THROWHELPER_GETRESOURCESTRING_OFFSET UNITYSDK_OFFSET(0x18884ED0)
+#define COLLECTIONS_POOLED_THROWHELPER_GETWRONGKEYTYPEARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18885C60)
+#define COLLECTIONS_POOLED_THROWHELPER_GETWRONGVALUETYPEARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18885D50)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWAGGREGATEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18885800)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x18884850)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_ARGUMENT_INVALIDARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x188858A0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_DESTINATIONTOOSHORT_OFFSET UNITYSDK_OFFSET(0x18884410)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18884790)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_OVERLAPALIGNMENTMISMATCH_OFFSET UNITYSDK_OFFSET(0x18884460)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x18884E70)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_2_OFFSET UNITYSDK_OFFSET(0x18885180)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18884E30)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x188851F0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_2_OFFSET UNITYSDK_OFFSET(0x18885250)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_3_OFFSET UNITYSDK_OFFSET(0x18885290)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x188843C0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGE_INDEXEXCEPTION_OFFSET UNITYSDK_OFFSET(0x188844B0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWARRAYTYPEMISMATCHEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18884320)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWCOUNTARGUMENTOUTOFRANGE_ARGUMENTOUTOFRANGE_COUNT_OFFSET UNITYSDK_OFFSET(0x18884680)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWFORMATEXCEPTION_BADFORMATSPECIFIER_OFFSET UNITYSDK_OFFSET(0x18885C10)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINDEXARGUMENTOUTOFRANGE_NEEDNONNEGNUMEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18884580)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINDEXOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18884370)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x188854B0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_CONCURRENTOPERATIONSNOTSUPPORTED_OFFSET UNITYSDK_OFFSET(0x18885B70)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_ENUMCURRENT_OFFSET UNITYSDK_OFFSET(0x18885990)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_HANDLEISNOTINITIALIZED_OFFSET UNITYSDK_OFFSET(0x18885BC0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_INVALIDOPERATION_ENUMENDED_OFFSET UNITYSDK_OFFSET(0x18885940)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_INVALIDOPERATION_ENUMFAILEDVERSION_OFFSET UNITYSDK_OFFSET(0x18885A80)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_INVALIDOPERATION_ENUMNOTSTARTED_OFFSET UNITYSDK_OFFSET(0x188858F0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_INVALIDOPERATION_ENUMOPCANTHAPPEN_OFFSET UNITYSDK_OFFSET(0x18885AD0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_INVALIDOPERATION_NOVALUE_OFFSET UNITYSDK_OFFSET(0x18885B20)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x188853F0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWLENGTHARGUMENTOUTOFRANGE_ARGUMENTOUTOFRANGE_NEEDNONNEGNUM_OFFSET UNITYSDK_OFFSET(0x18884600)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWNOTSUPPORTEDEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x188857B0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWNOTSUPPORTEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18885630)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWOBJECTDISPOSEDEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x18885750)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWOBJECTDISPOSEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x188856F0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWOUTOFMEMORYEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18885850)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWRANKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x188855D0)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWSECURITYEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18885570)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWSERIALIZATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18885510)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWSTARTINDEXARGUMENTOUTOFRANGE_ARGUMENTOUTOFRANGE_INDEX_OFFSET UNITYSDK_OFFSET(0x18884640)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWUNAUTHORIZEDACCESSEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18885690)
+#define COLLECTIONS_POOLED_THROWHELPER_THROWVALUEARGUMENTOUTOFRANGE_NEEDNONNEGNUMEXCEPTION_OFFSET UNITYSDK_OFFSET(0x188845C0)
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int ThrowHelper_TypeDefinitionIndex = 5358;
+	inline static constexpr unsigned int ThrowHelper_TypeDefinitionIndex = 5109;
 
 	class ThrowHelper : public ::System::Object
 	{
@@ -131,99 +131,99 @@ namespace Collections::Pooled
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWCOUNTARGUMENTOUTOFRANGE_ARGUMENTOUTOFRANGE_COUNT_OFFSET))();
 		}
 
-		static ::System::ArgumentException* GetAddingDuplicateWithKeyArgumentException(::System::Object* key)
+		static ::System::ArgumentException* GetAddingDuplicateWithKeyArgumentException(::System::Object* a1)
 		{
-			return ((::System::ArgumentException*(*)(::System::Object*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETADDINGDUPLICATEWITHKEYARGUMENTEXCEPTION_OFFSET))(key);
+			return ((::System::ArgumentException*(*)(::System::Object*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETADDINGDUPLICATEWITHKEYARGUMENTEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowArgumentException(::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowArgumentException(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_OFFSET))(resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowArgumentException_1(::Collections::Pooled::ExceptionResource resource, ::Collections::Pooled::ExceptionArgument argument)
+		static ::System::Void ThrowArgumentException_1(::Collections::Pooled::ExceptionResource a1, ::Collections::Pooled::ExceptionArgument a2)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource, ::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_1_OFFSET))(resource, argument);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource, ::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTEXCEPTION_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::ArgumentNullException* GetArgumentNullException(::Collections::Pooled::ExceptionArgument argument)
+		static ::System::ArgumentNullException* GetArgumentNullException(::Collections::Pooled::ExceptionArgument a1)
 		{
-			return ((::System::ArgumentNullException*(*)(::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTNULLEXCEPTION_OFFSET))(argument);
+			return ((::System::ArgumentNullException*(*)(::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTNULLEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowArgumentNullException(::Collections::Pooled::ExceptionArgument argument)
+		static ::System::Void ThrowArgumentNullException(::Collections::Pooled::ExceptionArgument a1)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_OFFSET))(argument);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowArgumentNullException_1(::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowArgumentNullException_1(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_1_OFFSET))(resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_1_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowArgumentNullException_2(::Collections::Pooled::ExceptionArgument argument, ::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowArgumentNullException_2(::Collections::Pooled::ExceptionArgument a1, ::Collections::Pooled::ExceptionResource a2)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionArgument, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_2_OFFSET))(argument, resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionArgument, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTNULLEXCEPTION_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ThrowArgumentOutOfRangeException_1(::Collections::Pooled::ExceptionArgument argument)
+		static ::System::Void ThrowArgumentOutOfRangeException_1(::Collections::Pooled::ExceptionArgument a1)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET))(argument);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowArgumentOutOfRangeException_2(::Collections::Pooled::ExceptionArgument argument, ::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowArgumentOutOfRangeException_2(::Collections::Pooled::ExceptionArgument a1, ::Collections::Pooled::ExceptionResource a2)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionArgument, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_2_OFFSET))(argument, resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionArgument, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ThrowArgumentOutOfRangeException_3(::Collections::Pooled::ExceptionArgument argument, ::System::Int32 paramNumber, ::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowArgumentOutOfRangeException_3(::Collections::Pooled::ExceptionArgument a1, ::System::Int32 a2, ::Collections::Pooled::ExceptionResource a3)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionArgument, ::System::Int32, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_3_OFFSET))(argument, paramNumber, resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionArgument, ::System::Int32, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_3_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ThrowInvalidOperationException(::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowInvalidOperationException(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_OFFSET))(resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowInvalidOperationException_1(::Collections::Pooled::ExceptionResource resource, ::System::Exception* e)
+		static ::System::Void ThrowInvalidOperationException_1(::Collections::Pooled::ExceptionResource a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource, ::System::Exception*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_1_OFFSET))(resource, e);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource, ::System::Exception*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ThrowSerializationException(::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowSerializationException(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWSERIALIZATIONEXCEPTION_OFFSET))(resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWSERIALIZATIONEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowSecurityException(::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowSecurityException(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWSECURITYEXCEPTION_OFFSET))(resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWSECURITYEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowRankException(::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowRankException(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWRANKEXCEPTION_OFFSET))(resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWRANKEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowNotSupportedException(::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowNotSupportedException(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWNOTSUPPORTEDEXCEPTION_OFFSET))(resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWNOTSUPPORTEDEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowUnauthorizedAccessException(::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowUnauthorizedAccessException(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWUNAUTHORIZEDACCESSEXCEPTION_OFFSET))(resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWUNAUTHORIZEDACCESSEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void ThrowObjectDisposedException(::System::String* objectName, ::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowObjectDisposedException(::System::String* a1, ::Collections::Pooled::ExceptionResource a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWOBJECTDISPOSEDEXCEPTION_OFFSET))(objectName, resource);
+			return ((::System::Void(*)(::System::String*, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWOBJECTDISPOSEDEXCEPTION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ThrowObjectDisposedException_1(::Collections::Pooled::ExceptionResource resource)
+		static ::System::Void ThrowObjectDisposedException_1(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWOBJECTDISPOSEDEXCEPTION_1_OFFSET))(resource);
+			return ((::System::Void(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWOBJECTDISPOSEDEXCEPTION_1_OFFSET))(a1);
 		}
 
 		static ::System::Void ThrowNotSupportedException_1()
@@ -231,9 +231,9 @@ namespace Collections::Pooled
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWNOTSUPPORTEDEXCEPTION_1_OFFSET))();
 		}
 
-		static ::System::Void ThrowAggregateException(::System::Collections::Generic::List_1<::System::Exception*>* exceptions)
+		static ::System::Void ThrowAggregateException(::System::Collections::Generic::List_1<::System::Exception*>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWAGGREGATEEXCEPTION_OFFSET))(exceptions);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWAGGREGATEEXCEPTION_OFFSET))(a1);
 		}
 
 		static ::System::Void ThrowOutOfMemoryException()
@@ -256,9 +256,9 @@ namespace Collections::Pooled
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_INVALIDOPERATION_ENUMENDED_OFFSET))();
 		}
 
-		static ::System::Void ThrowInvalidOperationException_EnumCurrent(::System::Int32 index)
+		static ::System::Void ThrowInvalidOperationException_EnumCurrent(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_ENUMCURRENT_OFFSET))(index);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_ENUMCURRENT_OFFSET))(a1);
 		}
 
 		static ::System::Void ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion()
@@ -291,59 +291,59 @@ namespace Collections::Pooled
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_THROWFORMATEXCEPTION_BADFORMATSPECIFIER_OFFSET))();
 		}
 
-		static ::System::ArgumentException* GetArgumentException(::Collections::Pooled::ExceptionResource resource)
+		static ::System::ArgumentException* GetArgumentException(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::ArgumentException*(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTEXCEPTION_OFFSET))(resource);
+			return ((::System::ArgumentException*(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::InvalidOperationException* GetInvalidOperationException(::Collections::Pooled::ExceptionResource resource)
+		static ::System::InvalidOperationException* GetInvalidOperationException(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::InvalidOperationException*(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETINVALIDOPERATIONEXCEPTION_OFFSET))(resource);
+			return ((::System::InvalidOperationException*(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETINVALIDOPERATIONEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::ArgumentException* GetWrongKeyTypeArgumentException(::System::Object* key, ::System::Type* targetType)
+		static ::System::ArgumentException* GetWrongKeyTypeArgumentException(::System::Object* a1, ::System::Type* a2)
 		{
-			return ((::System::ArgumentException*(*)(::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETWRONGKEYTYPEARGUMENTEXCEPTION_OFFSET))(key, targetType);
+			return ((::System::ArgumentException*(*)(::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETWRONGKEYTYPEARGUMENTEXCEPTION_OFFSET))(a1, a2);
 		}
 
-		static ::System::ArgumentException* GetWrongValueTypeArgumentException(::System::Object* value, ::System::Type* targetType)
+		static ::System::ArgumentException* GetWrongValueTypeArgumentException(::System::Object* a1, ::System::Type* a2)
 		{
-			return ((::System::ArgumentException*(*)(::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETWRONGVALUETYPEARGUMENTEXCEPTION_OFFSET))(value, targetType);
+			return ((::System::ArgumentException*(*)(::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETWRONGVALUETYPEARGUMENTEXCEPTION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::KeyNotFoundException* GetKeyNotFoundException(::System::Object* key)
+		static ::System::Collections::Generic::KeyNotFoundException* GetKeyNotFoundException(::System::Object* a1)
 		{
-			return ((::System::Collections::Generic::KeyNotFoundException*(*)(::System::Object*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETKEYNOTFOUNDEXCEPTION_OFFSET))(key);
+			return ((::System::Collections::Generic::KeyNotFoundException*(*)(::System::Object*))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETKEYNOTFOUNDEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::ArgumentOutOfRangeException* GetArgumentOutOfRangeException(::Collections::Pooled::ExceptionArgument argument, ::Collections::Pooled::ExceptionResource resource)
+		static ::System::ArgumentOutOfRangeException* GetArgumentOutOfRangeException(::Collections::Pooled::ExceptionArgument a1, ::Collections::Pooled::ExceptionResource a2)
 		{
-			return ((::System::ArgumentOutOfRangeException*(*)(::Collections::Pooled::ExceptionArgument, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTOUTOFRANGEEXCEPTION_OFFSET))(argument, resource);
+			return ((::System::ArgumentOutOfRangeException*(*)(::Collections::Pooled::ExceptionArgument, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTOUTOFRANGEEXCEPTION_OFFSET))(a1, a2);
 		}
 
-		static ::System::ArgumentException* GetArgumentException_1(::Collections::Pooled::ExceptionResource resource, ::Collections::Pooled::ExceptionArgument argument)
+		static ::System::ArgumentException* GetArgumentException_1(::Collections::Pooled::ExceptionResource a1, ::Collections::Pooled::ExceptionArgument a2)
 		{
-			return ((::System::ArgumentException*(*)(::Collections::Pooled::ExceptionResource, ::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTEXCEPTION_1_OFFSET))(resource, argument);
+			return ((::System::ArgumentException*(*)(::Collections::Pooled::ExceptionResource, ::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTEXCEPTION_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::ArgumentOutOfRangeException* GetArgumentOutOfRangeException_1(::Collections::Pooled::ExceptionArgument argument, ::System::Int32 paramNumber, ::Collections::Pooled::ExceptionResource resource)
+		static ::System::ArgumentOutOfRangeException* GetArgumentOutOfRangeException_1(::Collections::Pooled::ExceptionArgument a1, ::System::Int32 a2, ::Collections::Pooled::ExceptionResource a3)
 		{
-			return ((::System::ArgumentOutOfRangeException*(*)(::Collections::Pooled::ExceptionArgument, ::System::Int32, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET))(argument, paramNumber, resource);
+			return ((::System::ArgumentOutOfRangeException*(*)(::Collections::Pooled::ExceptionArgument, ::System::Int32, ::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::InvalidOperationException* GetInvalidOperationException_EnumCurrent(::System::Int32 index)
+		static ::System::InvalidOperationException* GetInvalidOperationException_EnumCurrent(::System::Int32 a1)
 		{
-			return ((::System::InvalidOperationException*(*)(::System::Int32))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETINVALIDOPERATIONEXCEPTION_ENUMCURRENT_OFFSET))(index);
+			return ((::System::InvalidOperationException*(*)(::System::Int32))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETINVALIDOPERATIONEXCEPTION_ENUMCURRENT_OFFSET))(a1);
 		}
 
-		static ::System::String* GetArgumentName(::Collections::Pooled::ExceptionArgument argument)
+		static ::System::String* GetArgumentName(::Collections::Pooled::ExceptionArgument a1)
 		{
-			return ((::System::String*(*)(::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTNAME_OFFSET))(argument);
+			return ((::System::String*(*)(::Collections::Pooled::ExceptionArgument))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETARGUMENTNAME_OFFSET))(a1);
 		}
 
-		static ::System::String* GetResourceString(::Collections::Pooled::ExceptionResource resource)
+		static ::System::String* GetResourceString(::Collections::Pooled::ExceptionResource a1)
 		{
-			return ((::System::String*(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETRESOURCESTRING_OFFSET))(resource);
+			return ((::System::String*(*)(::Collections::Pooled::ExceptionResource))((::PBYTE)hIl2Cpp + COLLECTIONS_POOLED_THROWHELPER_GETRESOURCESTRING_OFFSET))(a1);
 		}
 	};
 }

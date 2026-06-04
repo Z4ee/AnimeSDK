@@ -27,93 +27,93 @@ namespace RPG::GameCore { class SubMissionRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BIGMAPUTILS_GETAREAID_OFFSET UNITYSDK_OFFSET(0x9E91810)
-#define RPG_CLIENT_BIGMAPUTILS_GETBASEFLOORID_OFFSET UNITYSDK_OFFSET(0x9E94940)
-#define RPG_CLIENT_BIGMAPUTILS_GETCOCOONICONTYPEANDCOLORBYMAPPROPDEF_OFFSET UNITYSDK_OFFSET(0x9E90B20)
-#define RPG_CLIENT_BIGMAPUTILS_GETCOMMONICONTYPEANDCOLORBYMAPPROPDEF_OFFSET UNITYSDK_OFFSET(0x9E90E00)
-#define RPG_CLIENT_BIGMAPUTILS_GETCURPLAYERWORLDID_OFFSET UNITYSDK_OFFSET(0x9E90790)
-#define RPG_CLIENT_BIGMAPUTILS_GETCURSHOWENTRANCEID_OFFSET UNITYSDK_OFFSET(0x9E8F590)
-#define RPG_CLIENT_BIGMAPUTILS_GETCURWORLDID_OFFSET UNITYSDK_OFFSET(0x9E8E7F0)
-#define RPG_CLIENT_BIGMAPUTILS_GETENTITYBAKEDINFO_OFFSET UNITYSDK_OFFSET(0x9E92DD0)
-#define RPG_CLIENT_BIGMAPUTILS_GETENTRANCEIDBYFLOORID_OFFSET UNITYSDK_OFFSET(0x9E94810)
-#define RPG_CLIENT_BIGMAPUTILS_GETFLOORCONNECTIVITYROWBYTOENTRANCEID_OFFSET UNITYSDK_OFFSET(0x9E94B40)
-#define RPG_CLIENT_BIGMAPUTILS_GETFLOORIDBYENTRANCE_OFFSET UNITYSDK_OFFSET(0x9E94790)
-#define RPG_CLIENT_BIGMAPUTILS_GETFROMENTRANCEIDBYTOENTRANCEID_OFFSET UNITYSDK_OFFSET(0x9E949C0)
-#define RPG_CLIENT_BIGMAPUTILS_GETICONPOSITIONINMAP_OFFSET UNITYSDK_OFFSET(0x9E94280)
-#define RPG_CLIENT_BIGMAPUTILS_GETICONTYPEANDCOLORBYMAPPROPDEF_OFFSET UNITYSDK_OFFSET(0x9E90960)
-#define RPG_CLIENT_BIGMAPUTILS_GETISENTRANCEIDINTRAINWORLD_OFFSET UNITYSDK_OFFSET(0x9E90430)
-#define RPG_CLIENT_BIGMAPUTILS_GETMAPENTRYROW_OFFSET UNITYSDK_OFFSET(0x9E8F750)
-#define RPG_CLIENT_BIGMAPUTILS_GETMAPICONAREADATABYAREAID_OFFSET UNITYSDK_OFFSET(0x9E92A80)
-#define RPG_CLIENT_BIGMAPUTILS_GETMAPICONPOSITIONINMAP_OFFSET UNITYSDK_OFFSET(0x9E91280)
-#define RPG_CLIENT_BIGMAPUTILS_GETMAPICONROTATION_OFFSET UNITYSDK_OFFSET(0x9E914E0)
-#define RPG_CLIENT_BIGMAPUTILS_GETMAPPINGINFOROWBYID_OFFSET UNITYSDK_OFFSET(0x9E927E0)
-#define RPG_CLIENT_BIGMAPUTILS_GETMAPTARGETAREAID_OFFSET UNITYSDK_OFFSET(0x9E95120)
-#define RPG_CLIENT_BIGMAPUTILS_GETNEWREDDOTWORLDIDLIST_OFFSET UNITYSDK_OFFSET(0x9E92910)
-#define RPG_CLIENT_BIGMAPUTILS_GETPLANETYPEBYENTRANCEID_OFFSET UNITYSDK_OFFSET(0x9E8F6B0)
-#define RPG_CLIENT_BIGMAPUTILS_GETPLAYERAREADATA_OFFSET UNITYSDK_OFFSET(0x9E92F70)
-#define RPG_CLIENT_BIGMAPUTILS_GETPLAYERAREAID_OFFSET UNITYSDK_OFFSET(0x9E916A0)
-#define RPG_CLIENT_BIGMAPUTILS_GETPLAYERPOSITIONINMAP_OFFSET UNITYSDK_OFFSET(0x9E94050)
-#define RPG_CLIENT_BIGMAPUTILS_GETPLAYERPOSITION_OFFSET UNITYSDK_OFFSET(0x9E91750)
-#define RPG_CLIENT_BIGMAPUTILS_GETPROPCONFIGMAPPINGINFOID_OFFSET UNITYSDK_OFFSET(0x9E94570)
-#define RPG_CLIENT_BIGMAPUTILS_GETSECTIONBOUNDS_OFFSET UNITYSDK_OFFSET(0x9E91140)
-#define RPG_CLIENT_BIGMAPUTILS_GETSECTIONROADSPRITEPATH_OFFSET UNITYSDK_OFFSET(0x9E91590)
-#define RPG_CLIENT_BIGMAPUTILS_GETSECTIONVERTICESBYAREAID_OFFSET UNITYSDK_OFFSET(0x9E95930)
-#define RPG_CLIENT_BIGMAPUTILS_GETSHOWTRACKINGSUBMISSIONDATALIST_OFFSET UNITYSDK_OFFSET(0x9E900D0)
-#define RPG_CLIENT_BIGMAPUTILS_GETSUBMISSIONDATALIST_OFFSET UNITYSDK_OFFSET(0x9E8FC20)
-#define RPG_CLIENT_BIGMAPUTILS_GETTRACESUBMISSIONBYENTRANCEID_OFFSET UNITYSDK_OFFSET(0x9E90490)
-#define RPG_CLIENT_BIGMAPUTILS_GETWORLDIDBYENTRANCEID_OFFSET UNITYSDK_OFFSET(0x9E8E6F0)
-#define RPG_CLIENT_BIGMAPUTILS_GETWORLDIDBYPLANEID_OFFSET UNITYSDK_OFFSET(0x9E903B0)
-#define RPG_CLIENT_BIGMAPUTILS_GET_ICONDEFAULTCOLOR_OFFSET UNITYSDK_OFFSET(0x9E8F0B0)
-#define RPG_CLIENT_BIGMAPUTILS_GET_TRAINPLANEID_OFFSET UNITYSDK_OFFSET(0x9E8F130)
-#define RPG_CLIENT_BIGMAPUTILS_GET_TRAINWORLDID_OFFSET UNITYSDK_OFFSET(0x9E8E7E0)
-#define RPG_CLIENT_BIGMAPUTILS_GET_WORLDIDLIST_OFFSET UNITYSDK_OFFSET(0x9E8F140)
-#define RPG_CLIENT_BIGMAPUTILS_ISCANLOADMAPPROPDEF_OFFSET UNITYSDK_OFFSET(0x9E94D90)
-#define RPG_CLIENT_BIGMAPUTILS_ISCURRENTTRACEMISSIONSCENE_1_OFFSET UNITYSDK_OFFSET(0x9E92240)
-#define RPG_CLIENT_BIGMAPUTILS_ISCURRENTTRACEMISSIONSCENE_OFFSET UNITYSDK_OFFSET(0x9E90710)
-#define RPG_CLIENT_BIGMAPUTILS_ISCURTRAINMAP_OFFSET UNITYSDK_OFFSET(0x9E8C410)
-#define RPG_CLIENT_BIGMAPUTILS_ISENTRYUNLOCKEDEXTEND_OFFSET UNITYSDK_OFFSET(0x9E91DF0)
-#define RPG_CLIENT_BIGMAPUTILS_ISENTRYUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9E8FB80)
-#define RPG_CLIENT_BIGMAPUTILS_ISINROTATABLEREGION_OFFSET UNITYSDK_OFFSET(0x9E94C90)
-#define RPG_CLIENT_BIGMAPUTILS_ISINSPECIFICMAP_OFFSET UNITYSDK_OFFSET(0x9E8F450)
-#define RPG_CLIENT_BIGMAPUTILS_ISMAPAREAHIDE_OFFSET UNITYSDK_OFFSET(0x9E94D10)
-#define RPG_CLIENT_BIGMAPUTILS_ISPAMINFLOOR_OFFSET UNITYSDK_OFFSET(0x9E8F340)
-#define RPG_CLIENT_BIGMAPUTILS_ISPLAYERINHIDEAREA_OFFSET UNITYSDK_OFFSET(0x9E93D60)
-#define RPG_CLIENT_BIGMAPUTILS_ISROTATIONBRIDGE_OFFSET UNITYSDK_OFFSET(0x9E950D0)
-#define RPG_CLIENT_BIGMAPUTILS_ISSHOWAREAMAP_OFFSET UNITYSDK_OFFSET(0x9E8FA50)
-#define RPG_CLIENT_BIGMAPUTILS_ISSHOWSUBMISSIONINMAP_1_OFFSET UNITYSDK_OFFSET(0x9E92500)
-#define RPG_CLIENT_BIGMAPUTILS_ISSHOWSUBMISSIONINMAP_OFFSET UNITYSDK_OFFSET(0x9E92480)
-#define RPG_CLIENT_BIGMAPUTILS_ISTRACESUBMISSION_1_OFFSET UNITYSDK_OFFSET(0x9E920D0)
-#define RPG_CLIENT_BIGMAPUTILS_ISTRACESUBMISSION_OFFSET UNITYSDK_OFFSET(0x9E91F00)
-#define RPG_CLIENT_BIGMAPUTILS_OVERRIDEMINIMAPICONTYPEBYMAPROTATION_OFFSET UNITYSDK_OFFSET(0x9E94FA0)
-#define RPG_CLIENT_BIGMAPUTILS_PAMINFLOORIDNOW_OFFSET UNITYSDK_OFFSET(0x9E8F3B0)
-#define RPG_CLIENT_BIGMAPUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x9E95A80)
-#define RPG_CLIENT_BIGMAPUTILS__GETINLEFTVALUE_OFFSET UNITYSDK_OFFSET(0x9E959E0)
-#define RPG_CLIENT_BIGMAPUTILS__GETLEVELNAVMAPAREABYAREAID_OFFSET UNITYSDK_OFFSET(0x9E92D30)
-#define RPG_CLIENT_BIGMAPUTILS__GETPLAYERREGIONID_OFFSET UNITYSDK_OFFSET(0x9E93CB0)
-#define RPG_CLIENT_BIGMAPUTILS__GETREGIONID_OFFSET UNITYSDK_OFFSET(0x9E91C50)
-#define RPG_CLIENT_BIGMAPUTILS__ISMAPICONINPOLYGON_OFFSET UNITYSDK_OFFSET(0x9E95550)
-#define RPG_CLIENT_BIGMAPUTILS__ISMAPICONINRECT_OFFSET UNITYSDK_OFFSET(0x9E95480)
-#define RPG_CLIENT_BIGMAPUTILS__ISMAPICONINSECTION_OFFSET UNITYSDK_OFFSET(0x9E95360)
-#define RPG_CLIENT_BIGMAPUTILS__OBSOLETEGETPLAYERAREADATA_OFFSET UNITYSDK_OFFSET(0x9E934D0)
+#define RPG_CLIENT_BIGMAPUTILS_GETAREAID_OFFSET UNITYSDK_OFFSET(0xB42D3F0)
+#define RPG_CLIENT_BIGMAPUTILS_GETBASEFLOORID_OFFSET UNITYSDK_OFFSET(0xB430750)
+#define RPG_CLIENT_BIGMAPUTILS_GETCOCOONICONTYPEANDCOLORBYMAPPROPDEF_OFFSET UNITYSDK_OFFSET(0xB42C700)
+#define RPG_CLIENT_BIGMAPUTILS_GETCOMMONICONTYPEANDCOLORBYMAPPROPDEF_OFFSET UNITYSDK_OFFSET(0xB42C9E0)
+#define RPG_CLIENT_BIGMAPUTILS_GETCURPLAYERWORLDID_OFFSET UNITYSDK_OFFSET(0xB42C370)
+#define RPG_CLIENT_BIGMAPUTILS_GETCURSHOWENTRANCEID_OFFSET UNITYSDK_OFFSET(0xB42AFA0)
+#define RPG_CLIENT_BIGMAPUTILS_GETCURWORLDID_OFFSET UNITYSDK_OFFSET(0xB41B450)
+#define RPG_CLIENT_BIGMAPUTILS_GETENTITYBAKEDINFO_OFFSET UNITYSDK_OFFSET(0xB42EA70)
+#define RPG_CLIENT_BIGMAPUTILS_GETENTRANCEIDBYFLOORID_OFFSET UNITYSDK_OFFSET(0xB4305E0)
+#define RPG_CLIENT_BIGMAPUTILS_GETFLOORCONNECTIVITYROWBYTOENTRANCEID_OFFSET UNITYSDK_OFFSET(0xB4309A0)
+#define RPG_CLIENT_BIGMAPUTILS_GETFLOORIDBYENTRANCE_OFFSET UNITYSDK_OFFSET(0xB430560)
+#define RPG_CLIENT_BIGMAPUTILS_GETFROMENTRANCEIDBYTOENTRANCEID_OFFSET UNITYSDK_OFFSET(0xB4307D0)
+#define RPG_CLIENT_BIGMAPUTILS_GETICONPOSITIONINMAP_OFFSET UNITYSDK_OFFSET(0xB430040)
+#define RPG_CLIENT_BIGMAPUTILS_GETICONTYPEANDCOLORBYMAPPROPDEF_OFFSET UNITYSDK_OFFSET(0xB42C540)
+#define RPG_CLIENT_BIGMAPUTILS_GETISENTRANCEIDINTRAINWORLD_OFFSET UNITYSDK_OFFSET(0xB42C010)
+#define RPG_CLIENT_BIGMAPUTILS_GETMAPENTRYROW_OFFSET UNITYSDK_OFFSET(0xB42B160)
+#define RPG_CLIENT_BIGMAPUTILS_GETMAPICONAREADATABYAREAID_OFFSET UNITYSDK_OFFSET(0xB42E720)
+#define RPG_CLIENT_BIGMAPUTILS_GETMAPICONPOSITIONINMAP_OFFSET UNITYSDK_OFFSET(0xB42CE60)
+#define RPG_CLIENT_BIGMAPUTILS_GETMAPICONROTATION_OFFSET UNITYSDK_OFFSET(0xB42D0C0)
+#define RPG_CLIENT_BIGMAPUTILS_GETMAPPINGINFOROWBYID_OFFSET UNITYSDK_OFFSET(0xB42E3D0)
+#define RPG_CLIENT_BIGMAPUTILS_GETMAPTARGETAREAID_OFFSET UNITYSDK_OFFSET(0xB430DB0)
+#define RPG_CLIENT_BIGMAPUTILS_GETNEWREDDOTWORLDIDLIST_OFFSET UNITYSDK_OFFSET(0xB42E500)
+#define RPG_CLIENT_BIGMAPUTILS_GETPLANETYPEBYENTRANCEID_OFFSET UNITYSDK_OFFSET(0xB42B0C0)
+#define RPG_CLIENT_BIGMAPUTILS_GETPLAYERAREADATA_OFFSET UNITYSDK_OFFSET(0xB42EC10)
+#define RPG_CLIENT_BIGMAPUTILS_GETPLAYERAREAID_OFFSET UNITYSDK_OFFSET(0xB42D280)
+#define RPG_CLIENT_BIGMAPUTILS_GETPLAYERPOSITIONINMAP_OFFSET UNITYSDK_OFFSET(0xB42FE00)
+#define RPG_CLIENT_BIGMAPUTILS_GETPLAYERPOSITION_OFFSET UNITYSDK_OFFSET(0xB42D330)
+#define RPG_CLIENT_BIGMAPUTILS_GETPROPCONFIGMAPPINGINFOID_OFFSET UNITYSDK_OFFSET(0xB430340)
+#define RPG_CLIENT_BIGMAPUTILS_GETSECTIONBOUNDS_OFFSET UNITYSDK_OFFSET(0xB42CD20)
+#define RPG_CLIENT_BIGMAPUTILS_GETSECTIONROADSPRITEPATH_OFFSET UNITYSDK_OFFSET(0xB42D170)
+#define RPG_CLIENT_BIGMAPUTILS_GETSECTIONVERTICESBYAREAID_OFFSET UNITYSDK_OFFSET(0xB431620)
+#define RPG_CLIENT_BIGMAPUTILS_GETSHOWTRACKINGSUBMISSIONDATALIST_OFFSET UNITYSDK_OFFSET(0xB42BC30)
+#define RPG_CLIENT_BIGMAPUTILS_GETSUBMISSIONDATALIST_OFFSET UNITYSDK_OFFSET(0xB42B710)
+#define RPG_CLIENT_BIGMAPUTILS_GETTRACESUBMISSIONBYENTRANCEID_OFFSET UNITYSDK_OFFSET(0xB42C070)
+#define RPG_CLIENT_BIGMAPUTILS_GETWORLDIDBYENTRANCEID_OFFSET UNITYSDK_OFFSET(0xB42A220)
+#define RPG_CLIENT_BIGMAPUTILS_GETWORLDIDBYPLANEID_OFFSET UNITYSDK_OFFSET(0xB42BF90)
+#define RPG_CLIENT_BIGMAPUTILS_GET_ICONDEFAULTCOLOR_OFFSET UNITYSDK_OFFSET(0xB42AA50)
+#define RPG_CLIENT_BIGMAPUTILS_GET_TRAINPLANEID_OFFSET UNITYSDK_OFFSET(0xB42AAD0)
+#define RPG_CLIENT_BIGMAPUTILS_GET_TRAINWORLDID_OFFSET UNITYSDK_OFFSET(0xB42A310)
+#define RPG_CLIENT_BIGMAPUTILS_GET_WORLDIDLIST_OFFSET UNITYSDK_OFFSET(0xB42AAE0)
+#define RPG_CLIENT_BIGMAPUTILS_ISCANLOADMAPPROPDEF_OFFSET UNITYSDK_OFFSET(0xB426F60)
+#define RPG_CLIENT_BIGMAPUTILS_ISCURRENTTRACEMISSIONSCENE_1_OFFSET UNITYSDK_OFFSET(0xB42DE30)
+#define RPG_CLIENT_BIGMAPUTILS_ISCURRENTTRACEMISSIONSCENE_OFFSET UNITYSDK_OFFSET(0xB42C2F0)
+#define RPG_CLIENT_BIGMAPUTILS_ISCURTRAINMAP_OFFSET UNITYSDK_OFFSET(0xB427F80)
+#define RPG_CLIENT_BIGMAPUTILS_ISENTRYUNLOCKEDEXTEND_OFFSET UNITYSDK_OFFSET(0xB42D9E0)
+#define RPG_CLIENT_BIGMAPUTILS_ISENTRYUNLOCKED_OFFSET UNITYSDK_OFFSET(0xB42B680)
+#define RPG_CLIENT_BIGMAPUTILS_ISINROTATABLEREGION_OFFSET UNITYSDK_OFFSET(0xB430B40)
+#define RPG_CLIENT_BIGMAPUTILS_ISINSPECIFICMAP_OFFSET UNITYSDK_OFFSET(0xB42AE50)
+#define RPG_CLIENT_BIGMAPUTILS_ISMAPAREAHIDE_OFFSET UNITYSDK_OFFSET(0xB430BC0)
+#define RPG_CLIENT_BIGMAPUTILS_ISPAMINFLOOR_OFFSET UNITYSDK_OFFSET(0xB42AD50)
+#define RPG_CLIENT_BIGMAPUTILS_ISPLAYERINHIDEAREA_OFFSET UNITYSDK_OFFSET(0xB42FB10)
+#define RPG_CLIENT_BIGMAPUTILS_ISROTATIONBRIDGE_OFFSET UNITYSDK_OFFSET(0xB430D60)
+#define RPG_CLIENT_BIGMAPUTILS_ISSHOWAREAMAP_OFFSET UNITYSDK_OFFSET(0xB42B500)
+#define RPG_CLIENT_BIGMAPUTILS_ISSHOWSUBMISSIONINMAP_1_OFFSET UNITYSDK_OFFSET(0xB42E0F0)
+#define RPG_CLIENT_BIGMAPUTILS_ISSHOWSUBMISSIONINMAP_OFFSET UNITYSDK_OFFSET(0xB42E070)
+#define RPG_CLIENT_BIGMAPUTILS_ISTRACESUBMISSION_1_OFFSET UNITYSDK_OFFSET(0xB42DCC0)
+#define RPG_CLIENT_BIGMAPUTILS_ISTRACESUBMISSION_OFFSET UNITYSDK_OFFSET(0xB42DAF0)
+#define RPG_CLIENT_BIGMAPUTILS_OVERRIDEMINIMAPICONTYPEBYMAPROTATION_OFFSET UNITYSDK_OFFSET(0xB430C40)
+#define RPG_CLIENT_BIGMAPUTILS_PAMINFLOORIDNOW_OFFSET UNITYSDK_OFFSET(0xB42ADC0)
+#define RPG_CLIENT_BIGMAPUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0xB431770)
+#define RPG_CLIENT_BIGMAPUTILS__GETINLEFTVALUE_OFFSET UNITYSDK_OFFSET(0xB4316D0)
+#define RPG_CLIENT_BIGMAPUTILS__GETLEVELNAVMAPAREABYAREAID_OFFSET UNITYSDK_OFFSET(0xB42E9D0)
+#define RPG_CLIENT_BIGMAPUTILS__GETPLAYERREGIONID_OFFSET UNITYSDK_OFFSET(0xB42FA60)
+#define RPG_CLIENT_BIGMAPUTILS__GETREGIONID_OFFSET UNITYSDK_OFFSET(0xB42D840)
+#define RPG_CLIENT_BIGMAPUTILS__ISMAPICONINPOLYGON_OFFSET UNITYSDK_OFFSET(0xB431240)
+#define RPG_CLIENT_BIGMAPUTILS__ISMAPICONINRECT_OFFSET UNITYSDK_OFFSET(0xB431170)
+#define RPG_CLIENT_BIGMAPUTILS__ISMAPICONINSECTION_OFFSET UNITYSDK_OFFSET(0xB431050)
+#define RPG_CLIENT_BIGMAPUTILS__OBSOLETEGETPLAYERAREADATA_OFFSET UNITYSDK_OFFSET(0xB42F170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BigMapUtils_TypeDefinitionIndex = 57938;
+	inline static constexpr unsigned int BigMapUtils_TypeDefinitionIndex = 58854;
 
 	class BigMapUtils : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavmapArea*>** StaticGet__LevelNavmapAreaList()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavmapArea*>**)Il2CppClass::FromTypeDefinitionIndex(BigMapUtils_TypeDefinitionIndex)->GetStaticField(0x58500);
+		}
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet__WorldIDList()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(BigMapUtils_TypeDefinitionIndex)->GetStaticField(0x414A0);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(BigMapUtils_TypeDefinitionIndex)->GetStaticField(0x58508);
 		}
 		static ::RPG::Client::MapIconAreaData** StaticGet__MapIconAreaData()
 		{
-			return (::RPG::Client::MapIconAreaData**)Il2CppClass::FromTypeDefinitionIndex(BigMapUtils_TypeDefinitionIndex)->GetStaticField(0x414A8);
-		}
-		static ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavmapArea*>** StaticGet__LevelNavmapAreaList()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavmapArea*>**)Il2CppClass::FromTypeDefinitionIndex(BigMapUtils_TypeDefinitionIndex)->GetStaticField(0x414B0);
+			return (::RPG::Client::MapIconAreaData**)Il2CppClass::FromTypeDefinitionIndex(BigMapUtils_TypeDefinitionIndex)->GetStaticField(0x58510);
 		}
 
 		static ::System::Void _cctor()
@@ -146,19 +146,19 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISCURTRAINMAP_OFFSET))();
 		}
 
-		static ::System::Boolean IsPamInFloor(::System::UInt32 floorID, ::System::UInt32 dimensionID)
+		static ::System::Boolean IsPamInFloor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISPAMINFLOOR_OFFSET))(floorID, dimensionID);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISPAMINFLOOR_OFFSET))(a1, a2);
 		}
 
-		static ::System::UInt32 PamInFloorIDNow(::System::UInt32 dimensionID)
+		static ::System::UInt32 PamInFloorIDNow(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_PAMINFLOORIDNOW_OFFSET))(dimensionID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_PAMINFLOORIDNOW_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsInSpecificMap(::System::UInt32 floorID, ::System::UInt32 planeID)
+		static ::System::Boolean IsInSpecificMap(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISINSPECIFICMAP_OFFSET))(floorID, planeID);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISINSPECIFICMAP_OFFSET))(a1, a2);
 		}
 
 		static ::System::UInt32 GetCurShowEntranceID()
@@ -166,24 +166,24 @@ namespace RPG::Client
 			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETCURSHOWENTRANCEID_OFFSET))();
 		}
 
-		static ::RPG::GameCore::PlaneType GetPlaneTypeByEntranceID(::System::UInt32 entranceID)
+		static ::RPG::GameCore::PlaneType GetPlaneTypeByEntranceID(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::PlaneType(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETPLANETYPEBYENTRANCEID_OFFSET))(entranceID);
+			return ((::RPG::GameCore::PlaneType(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETPLANETYPEBYENTRANCEID_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::MapEntryRow* GetMapEntryRow(::System::UInt32 planeID, ::System::UInt32 floorID)
+		static ::RPG::GameCore::MapEntryRow* GetMapEntryRow(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::GameCore::MapEntryRow*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPENTRYROW_OFFSET))(planeID, floorID);
+			return ((::RPG::GameCore::MapEntryRow*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPENTRYROW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsShowAreaMap(::RPG::GameCore::MapEntryRow* mapEntryRow)
+		static ::System::Boolean IsShowAreaMap(::RPG::GameCore::MapEntryRow* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::MapEntryRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISSHOWAREAMAP_OFFSET))(mapEntryRow);
+			return ((::System::Boolean(*)(::RPG::GameCore::MapEntryRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISSHOWAREAMAP_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>* GetSubMissionDataList(::System::UInt32 floorID, ::System::UInt32 storylineID, ::System::UInt32 contentID)
+		static ::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>* GetSubMissionDataList(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETSUBMISSIONDATALIST_OFFSET))(floorID, storylineID, contentID);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETSUBMISSIONDATALIST_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>* GetShowTrackingSubMissionDataList()
@@ -191,24 +191,24 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETSHOWTRACKINGSUBMISSIONDATALIST_OFFSET))();
 		}
 
-		static ::System::UInt32 GetWorldIDByEntranceID(::System::UInt32 entranceID)
+		static ::System::UInt32 GetWorldIDByEntranceID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETWORLDIDBYENTRANCEID_OFFSET))(entranceID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETWORLDIDBYENTRANCEID_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetWorldIDByPlaneID(::System::UInt32 planeID)
+		static ::System::UInt32 GetWorldIDByPlaneID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETWORLDIDBYPLANEID_OFFSET))(planeID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETWORLDIDBYPLANEID_OFFSET))(a1);
 		}
 
-		static ::System::Boolean GetIsEntranceIDInTrainWorld(::System::UInt32 entranceID)
+		static ::System::Boolean GetIsEntranceIDInTrainWorld(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETISENTRANCEIDINTRAINWORLD_OFFSET))(entranceID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETISENTRANCEIDINTRAINWORLD_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::SubMissionData* GetTraceSubMissionByEntranceID(::System::UInt32 entranceID)
+		static ::RPG::Client::SubMissionData* GetTraceSubMissionByEntranceID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::SubMissionData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETTRACESUBMISSIONBYENTRANCEID_OFFSET))(entranceID);
+			return ((::RPG::Client::SubMissionData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETTRACESUBMISSIONBYENTRANCEID_OFFSET))(a1);
 		}
 
 		static ::System::UInt32 GetCurPlayerWorldID()
@@ -221,39 +221,39 @@ namespace RPG::Client
 			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETCURWORLDID_OFFSET))();
 		}
 
-		static ::System::Void GetIconTypeAndColorByMapPropDef(::RPG::Client::MapPropDef* mapPropDef, ::RPG::GameCore::PropState propState, ::System::UInt32& refIconType, ::UnityEngine::Color& refIconColor, ::System::String*& refAnchorKey)
+		static ::System::Void GetIconTypeAndColorByMapPropDef(::RPG::Client::MapPropDef* a1, ::RPG::GameCore::PropState a2, ::System::UInt32& a3, ::UnityEngine::Color& a4, ::System::String*& a5)
 		{
-			return ((::System::Void(*)(::RPG::Client::MapPropDef*, ::RPG::GameCore::PropState, ::System::UInt32&, ::UnityEngine::Color&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETICONTYPEANDCOLORBYMAPPROPDEF_OFFSET))(mapPropDef, propState, refIconType, refIconColor, refAnchorKey);
+			return ((::System::Void(*)(::RPG::Client::MapPropDef*, ::RPG::GameCore::PropState, ::System::UInt32&, ::UnityEngine::Color&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETICONTYPEANDCOLORBYMAPPROPDEF_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void GetCommonIconTypeAndColorByMapPropDef(::RPG::Client::MapPropDef* mapPropDef, ::RPG::GameCore::PropState propState, ::System::UInt32& refIconType, ::UnityEngine::Color& refIconColor, ::System::String*& refAnchorKey)
+		static ::System::Void GetCommonIconTypeAndColorByMapPropDef(::RPG::Client::MapPropDef* a1, ::RPG::GameCore::PropState a2, ::System::UInt32& a3, ::UnityEngine::Color& a4, ::System::String*& a5)
 		{
-			return ((::System::Void(*)(::RPG::Client::MapPropDef*, ::RPG::GameCore::PropState, ::System::UInt32&, ::UnityEngine::Color&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETCOMMONICONTYPEANDCOLORBYMAPPROPDEF_OFFSET))(mapPropDef, propState, refIconType, refIconColor, refAnchorKey);
+			return ((::System::Void(*)(::RPG::Client::MapPropDef*, ::RPG::GameCore::PropState, ::System::UInt32&, ::UnityEngine::Color&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETCOMMONICONTYPEANDCOLORBYMAPPROPDEF_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void GetCocoonIconTypeAndColorByMapPropDef(::RPG::Client::MapPropDef* mapPropDef, ::RPG::GameCore::PropState propState, ::System::UInt32& refIconType, ::UnityEngine::Color& refIconColor, ::System::String*& refAnchorKey)
+		static ::System::Void GetCocoonIconTypeAndColorByMapPropDef(::RPG::Client::MapPropDef* a1, ::RPG::GameCore::PropState a2, ::System::UInt32& a3, ::UnityEngine::Color& a4, ::System::String*& a5)
 		{
-			return ((::System::Void(*)(::RPG::Client::MapPropDef*, ::RPG::GameCore::PropState, ::System::UInt32&, ::UnityEngine::Color&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETCOCOONICONTYPEANDCOLORBYMAPPROPDEF_OFFSET))(mapPropDef, propState, refIconType, refIconColor, refAnchorKey);
+			return ((::System::Void(*)(::RPG::Client::MapPropDef*, ::RPG::GameCore::PropState, ::System::UInt32&, ::UnityEngine::Color&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETCOCOONICONTYPEANDCOLORBYMAPPROPDEF_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::RPG::Client::NavMap::SectionBoundsParam* GetSectionBounds(::RPG::GameCore::LevelMinimapSection* section, ::Il2CppArray<::RPG::MVector2>* sectionVerticesArray)
+		static ::RPG::Client::NavMap::SectionBoundsParam* GetSectionBounds(::RPG::GameCore::LevelMinimapSection* a1, ::Il2CppArray<::RPG::MVector2>* a2)
 		{
-			return ((::RPG::Client::NavMap::SectionBoundsParam*(*)(::RPG::GameCore::LevelMinimapSection*, ::Il2CppArray<::RPG::MVector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETSECTIONBOUNDS_OFFSET))(section, sectionVerticesArray);
+			return ((::RPG::Client::NavMap::SectionBoundsParam*(*)(::RPG::GameCore::LevelMinimapSection*, ::Il2CppArray<::RPG::MVector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETSECTIONBOUNDS_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 GetMapIconPositionInMap(::RPG::GameCore::LevelNavmapConfig* navmapConfig, ::UnityEngine::Vector3 iconPosition)
+		static ::UnityEngine::Vector3 GetMapIconPositionInMap(::RPG::GameCore::LevelNavmapConfig* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::RPG::GameCore::LevelNavmapConfig*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPICONPOSITIONINMAP_OFFSET))(navmapConfig, iconPosition);
+			return ((::UnityEngine::Vector3(*)(::RPG::GameCore::LevelNavmapConfig*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPICONPOSITIONINMAP_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Quaternion GetMapIconRotation(::UnityEngine::Vector3 iconRoation, ::System::Single offset)
+		static ::UnityEngine::Quaternion GetMapIconRotation(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPICONROTATION_OFFSET))(iconRoation, offset);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPICONROTATION_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GetSectionRoadSpritePath(::RPG::GameCore::LevelMinimapSection* section, ::RPG::Client::FloorSavedData* floorSavedValues)
+		static ::System::String* GetSectionRoadSpritePath(::RPG::GameCore::LevelMinimapSection* a1, ::RPG::Client::FloorSavedData* a2)
 		{
-			return ((::System::String*(*)(::RPG::GameCore::LevelMinimapSection*, ::RPG::Client::FloorSavedData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETSECTIONROADSPRITEPATH_OFFSET))(section, floorSavedValues);
+			return ((::System::String*(*)(::RPG::GameCore::LevelMinimapSection*, ::RPG::Client::FloorSavedData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETSECTIONROADSPRITEPATH_OFFSET))(a1, a2);
 		}
 
 		static ::System::Int32 GetPlayerAreaID()
@@ -261,54 +261,54 @@ namespace RPG::Client
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETPLAYERAREAID_OFFSET))();
 		}
 
-		static ::System::Int32 GetAreaID(::UnityEngine::Vector3 position)
+		static ::System::Int32 GetAreaID(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETAREAID_OFFSET))(position);
+			return ((::System::Int32(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETAREAID_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsEntryUnlockedExtend(::System::UInt32 entranceID)
+		static ::System::Boolean IsEntryUnlockedExtend(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISENTRYUNLOCKEDEXTEND_OFFSET))(entranceID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISENTRYUNLOCKEDEXTEND_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsEntryUnlocked(::System::UInt32 entranceID)
+		static ::System::Boolean IsEntryUnlocked(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISENTRYUNLOCKED_OFFSET))(entranceID);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISENTRYUNLOCKED_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsTraceSubMission(::RPG::Client::SubMissionData* subMissionData)
+		static ::System::Boolean IsTraceSubMission(::RPG::Client::SubMissionData* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISTRACESUBMISSION_OFFSET))(subMissionData);
+			return ((::System::Boolean(*)(::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISTRACESUBMISSION_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsTraceSubMission_1(::RPG::GameCore::SubMissionRow* subMissionRow)
+		static ::System::Boolean IsTraceSubMission_1(::RPG::GameCore::SubMissionRow* a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::SubMissionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISTRACESUBMISSION_1_OFFSET))(subMissionRow);
+			return ((::System::Boolean(*)(::RPG::GameCore::SubMissionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISTRACESUBMISSION_1_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsCurrentTraceMissionScene(::System::UInt32 entranceID, ::RPG::Client::SubMissionData* subMissionData)
+		static ::System::Boolean IsCurrentTraceMissionScene(::System::UInt32 a1, ::RPG::Client::SubMissionData* a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISCURRENTTRACEMISSIONSCENE_OFFSET))(entranceID, subMissionData);
+			return ((::System::Boolean(*)(::System::UInt32, ::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISCURRENTTRACEMISSIONSCENE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsCurrentTraceMissionScene_1(::System::UInt32 entranceID, ::RPG::GameCore::SubMissionRow* subMissionRow)
+		static ::System::Boolean IsCurrentTraceMissionScene_1(::System::UInt32 a1, ::RPG::GameCore::SubMissionRow* a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::RPG::GameCore::SubMissionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISCURRENTTRACEMISSIONSCENE_1_OFFSET))(entranceID, subMissionRow);
+			return ((::System::Boolean(*)(::System::UInt32, ::RPG::GameCore::SubMissionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISCURRENTTRACEMISSIONSCENE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsShowSubMissionInMap(::System::UInt32 entranceID, ::RPG::Client::SubMissionData* subMissionData)
+		static ::System::Boolean IsShowSubMissionInMap(::System::UInt32 a1, ::RPG::Client::SubMissionData* a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISSHOWSUBMISSIONINMAP_OFFSET))(entranceID, subMissionData);
+			return ((::System::Boolean(*)(::System::UInt32, ::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISSHOWSUBMISSIONINMAP_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsShowSubMissionInMap_1(::System::UInt32 entranceID, ::RPG::GameCore::SubMissionRow* subMissionRow)
+		static ::System::Boolean IsShowSubMissionInMap_1(::System::UInt32 a1, ::RPG::GameCore::SubMissionRow* a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::RPG::GameCore::SubMissionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISSHOWSUBMISSIONINMAP_1_OFFSET))(entranceID, subMissionRow);
+			return ((::System::Boolean(*)(::System::UInt32, ::RPG::GameCore::SubMissionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISSHOWSUBMISSIONINMAP_1_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::MappingInfoRow* GetMappingInfoRowByID(::System::UInt32 mappingInfoID)
+		static ::RPG::GameCore::MappingInfoRow* GetMappingInfoRowByID(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::MappingInfoRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPPINGINFOROWBYID_OFFSET))(mappingInfoID);
+			return ((::RPG::GameCore::MappingInfoRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPPINGINFOROWBYID_OFFSET))(a1);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::UInt32>* GetNewRedDotWorldIDList()
@@ -316,89 +316,89 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETNEWREDDOTWORLDIDLIST_OFFSET))();
 		}
 
-		static ::RPG::Client::MapIconAreaData* GetMapIconAreaDataByAreaID(::RPG::GameCore::LevelNavmapConfig* navmapConfig, ::System::Int32 areaID, ::UnityEngine::Vector3 iconPosition)
+		static ::RPG::Client::MapIconAreaData* GetMapIconAreaDataByAreaID(::RPG::GameCore::LevelNavmapConfig* a1, ::System::Int32 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::RPG::Client::MapIconAreaData*(*)(::RPG::GameCore::LevelNavmapConfig*, ::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPICONAREADATABYAREAID_OFFSET))(navmapConfig, areaID, iconPosition);
+			return ((::RPG::Client::MapIconAreaData*(*)(::RPG::GameCore::LevelNavmapConfig*, ::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPICONAREADATABYAREAID_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void GetEntityBakedInfo(::RPG::Client::NavMap::IMapDataSource* mapData, ::System::UInt32 groupID, ::System::UInt32 instanceID, ::System::UInt32& regionID, ::System::Int32& layerID, ::System::Int32& areaID, ::System::Int32& sectionID)
+		static ::System::Void GetEntityBakedInfo(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32& a4, ::System::Int32& a5, ::System::Int32& a6, ::System::Int32& a7)
 		{
-			return ((::System::Void(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32, ::System::UInt32&, ::System::Int32&, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETENTITYBAKEDINFO_OFFSET))(mapData, groupID, instanceID, regionID, layerID, areaID, sectionID);
+			return ((::System::Void(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32, ::System::UInt32&, ::System::Int32&, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETENTITYBAKEDINFO_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::RPG::Client::MapIconAreaData* GetPlayerAreaData(::RPG::Client::MapDef* mapDef, ::UnityEngine::Vector3 iconPosition)
+		static ::RPG::Client::MapIconAreaData* GetPlayerAreaData(::RPG::Client::MapDef* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::RPG::Client::MapIconAreaData*(*)(::RPG::Client::MapDef*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETPLAYERAREADATA_OFFSET))(mapDef, iconPosition);
+			return ((::RPG::Client::MapIconAreaData*(*)(::RPG::Client::MapDef*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETPLAYERAREADATA_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::MapIconAreaData* _ObsoleteGetPlayerAreaData(::RPG::Client::MapDef* mapDef, ::UnityEngine::Vector3 iconPosition)
+		static ::RPG::Client::MapIconAreaData* _ObsoleteGetPlayerAreaData(::RPG::Client::MapDef* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::RPG::Client::MapIconAreaData*(*)(::RPG::Client::MapDef*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__OBSOLETEGETPLAYERAREADATA_OFFSET))(mapDef, iconPosition);
+			return ((::RPG::Client::MapIconAreaData*(*)(::RPG::Client::MapDef*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__OBSOLETEGETPLAYERAREADATA_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 GetPlayerPositionInMap(::RPG::Client::MapDef* mapDef, ::UnityEngine::Vector3 iconPosition, ::System::Int32& refAreaID)
+		static ::UnityEngine::Vector3 GetPlayerPositionInMap(::RPG::Client::MapDef* a1, ::UnityEngine::Vector3 a2, ::System::Int32& a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::RPG::Client::MapDef*, ::UnityEngine::Vector3, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETPLAYERPOSITIONINMAP_OFFSET))(mapDef, iconPosition, refAreaID);
+			return ((::UnityEngine::Vector3(*)(::RPG::Client::MapDef*, ::UnityEngine::Vector3, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETPLAYERPOSITIONINMAP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Vector3 GetIconPositionInMap(::RPG::Client::MapDef* mapDef, ::UnityEngine::Vector3 iconPosition, ::System::Int32 areaID)
+		static ::UnityEngine::Vector3 GetIconPositionInMap(::RPG::Client::MapDef* a1, ::UnityEngine::Vector3 a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::RPG::Client::MapDef*, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETICONPOSITIONINMAP_OFFSET))(mapDef, iconPosition, areaID);
+			return ((::UnityEngine::Vector3(*)(::RPG::Client::MapDef*, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETICONPOSITIONINMAP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 GetPropConfigMappingInfoID(::System::UInt32 storylineID, ::System::UInt32 contentID, ::System::UInt32 entranceID, ::System::UInt32 groupID, ::System::UInt32 instanceID)
+		static ::System::UInt32 GetPropConfigMappingInfoID(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETPROPCONFIGMAPPINGINFOID_OFFSET))(storylineID, contentID, entranceID, groupID, instanceID);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETPROPCONFIGMAPPINGINFOID_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::UInt32 GetEntranceIDByFloorID(::System::UInt32 floorID)
+		static ::System::UInt32 GetEntranceIDByFloorID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETENTRANCEIDBYFLOORID_OFFSET))(floorID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETENTRANCEIDBYFLOORID_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetFloorIDByEntrance(::System::UInt32 entranceID)
+		static ::System::UInt32 GetFloorIDByEntrance(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETFLOORIDBYENTRANCE_OFFSET))(entranceID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETFLOORIDBYENTRANCE_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetBaseFloorID(::System::UInt32 floorID)
+		static ::System::UInt32 GetBaseFloorID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETBASEFLOORID_OFFSET))(floorID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETBASEFLOORID_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetFromEntranceIDByToEntranceID(::System::UInt32 toEntranceID)
+		static ::System::UInt32 GetFromEntranceIDByToEntranceID(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETFROMENTRANCEIDBYTOENTRANCEID_OFFSET))(toEntranceID);
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETFROMENTRANCEIDBYTOENTRANCEID_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::MazeFloorConnectivityRow* GetFloorConnectivityRowByToEntranceID(::System::UInt32 toEntranceID)
+		static ::RPG::GameCore::MazeFloorConnectivityRow* GetFloorConnectivityRowByToEntranceID(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::MazeFloorConnectivityRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETFLOORCONNECTIVITYROWBYTOENTRANCEID_OFFSET))(toEntranceID);
+			return ((::RPG::GameCore::MazeFloorConnectivityRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETFLOORCONNECTIVITYROWBYTOENTRANCEID_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsInRotatableRegion(::RPG::Client::NavMap::IMapDataSource* mapData, ::System::UInt32 groupID)
+		static ::System::Boolean IsInRotatableRegion(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISINROTATABLEREGION_OFFSET))(mapData, groupID);
+			return ((::System::Boolean(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISINROTATABLEREGION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsMapAreaHide(::RPG::GameCore::LevelNavmapConfig* _NavmapConfig, ::System::Int32 areaID)
+		static ::System::Boolean IsMapAreaHide(::RPG::GameCore::LevelNavmapConfig* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::LevelNavmapConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISMAPAREAHIDE_OFFSET))(_NavmapConfig, areaID);
+			return ((::System::Boolean(*)(::RPG::GameCore::LevelNavmapConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISMAPAREAHIDE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsCanLoadMapPropDef(::System::UInt32 groupID, ::System::UInt32 instanceID)
+		static ::System::Boolean IsCanLoadMapPropDef(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISCANLOADMAPPROPDEF_OFFSET))(groupID, instanceID);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISCANLOADMAPPROPDEF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void OverrideMinimapIconTypeByMapRotation(::RPG::Client::MapMappingInfoData* mappingInfoData, ::RPG::Client::NavMap::IMapDataSource* mapData, ::System::UInt32 storyLineID)
+		static ::System::Void OverrideMinimapIconTypeByMapRotation(::RPG::Client::MapMappingInfoData* a1, ::RPG::Client::NavMap::IMapDataSource* a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::RPG::Client::MapMappingInfoData*, ::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_OVERRIDEMINIMAPICONTYPEBYMAPROTATION_OFFSET))(mappingInfoData, mapData, storyLineID);
+			return ((::System::Void(*)(::RPG::Client::MapMappingInfoData*, ::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_OVERRIDEMINIMAPICONTYPEBYMAPROTATION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean IsRotationBridge(::RPG::GameCore::PropState state)
+		static ::System::Boolean IsRotationBridge(::RPG::GameCore::PropState a1)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::PropState))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISROTATIONBRIDGE_OFFSET))(state);
+			return ((::System::Boolean(*)(::RPG::GameCore::PropState))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISROTATIONBRIDGE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean IsPlayerInHideArea()
@@ -406,39 +406,39 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_ISPLAYERINHIDEAREA_OFFSET))();
 		}
 
-		static ::System::Int32 GetMapTargetAreaID(::System::UInt32 groupID, ::System::UInt32 instanceID, ::RPG::Client::MapDef* mapDef)
+		static ::System::Int32 GetMapTargetAreaID(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::Client::MapDef* a3)
 		{
-			return ((::System::Int32(*)(::System::UInt32, ::System::UInt32, ::RPG::Client::MapDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPTARGETAREAID_OFFSET))(groupID, instanceID, mapDef);
+			return ((::System::Int32(*)(::System::UInt32, ::System::UInt32, ::RPG::Client::MapDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETMAPTARGETAREAID_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::GameCore::LevelNavmapArea* _GetLevelNavmapAreaByAreaID(::RPG::GameCore::LevelNavmapConfig* _NavmapConfig, ::System::Int32 areaID)
+		static ::RPG::GameCore::LevelNavmapArea* _GetLevelNavmapAreaByAreaID(::RPG::GameCore::LevelNavmapConfig* a1, ::System::Int32 a2)
 		{
-			return ((::RPG::GameCore::LevelNavmapArea*(*)(::RPG::GameCore::LevelNavmapConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__GETLEVELNAVMAPAREABYAREAID_OFFSET))(_NavmapConfig, areaID);
+			return ((::RPG::GameCore::LevelNavmapArea*(*)(::RPG::GameCore::LevelNavmapConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__GETLEVELNAVMAPAREABYAREAID_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean _IsMapIconInSection(::UnityEngine::Vector3 iconPosition, ::RPG::GameCore::LevelMinimapSection* section, ::RPG::GameCore::LevelNavmapConfig* navmapConfig, ::System::UInt32 areaID)
+		static ::System::Boolean _IsMapIconInSection(::UnityEngine::Vector3 a1, ::RPG::GameCore::LevelMinimapSection* a2, ::RPG::GameCore::LevelNavmapConfig* a3, ::System::UInt32 a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::RPG::GameCore::LevelMinimapSection*, ::RPG::GameCore::LevelNavmapConfig*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__ISMAPICONINSECTION_OFFSET))(iconPosition, section, navmapConfig, areaID);
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::RPG::GameCore::LevelMinimapSection*, ::RPG::GameCore::LevelNavmapConfig*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__ISMAPICONINSECTION_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean _IsMapIconInRect(::UnityEngine::Vector3 iconPosition, ::RPG::GameCore::LevelMinimapSection* section, ::RPG::GameCore::LevelNavmapConfig* navmapConfig, ::System::UInt32 areaID)
+		static ::System::Boolean _IsMapIconInRect(::UnityEngine::Vector3 a1, ::RPG::GameCore::LevelMinimapSection* a2, ::RPG::GameCore::LevelNavmapConfig* a3, ::System::UInt32 a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::RPG::GameCore::LevelMinimapSection*, ::RPG::GameCore::LevelNavmapConfig*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__ISMAPICONINRECT_OFFSET))(iconPosition, section, navmapConfig, areaID);
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::RPG::GameCore::LevelMinimapSection*, ::RPG::GameCore::LevelNavmapConfig*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__ISMAPICONINRECT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Il2CppArray<::RPG::MVector2>* GetSectionVerticesByAreaID(::RPG::GameCore::LevelNavmapConfig* navmapConfig, ::System::UInt32 areaID)
+		static ::Il2CppArray<::RPG::MVector2>* GetSectionVerticesByAreaID(::RPG::GameCore::LevelNavmapConfig* a1, ::System::UInt32 a2)
 		{
-			return ((::Il2CppArray<::RPG::MVector2>*(*)(::RPG::GameCore::LevelNavmapConfig*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETSECTIONVERTICESBYAREAID_OFFSET))(navmapConfig, areaID);
+			return ((::Il2CppArray<::RPG::MVector2>*(*)(::RPG::GameCore::LevelNavmapConfig*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETSECTIONVERTICESBYAREAID_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean _IsMapIconInPolygon(::UnityEngine::Vector3 iconPosition, ::RPG::GameCore::LevelMinimapSection* section, ::RPG::GameCore::LevelNavmapConfig* navmapConfig, ::System::UInt32 areaID)
+		static ::System::Boolean _IsMapIconInPolygon(::UnityEngine::Vector3 a1, ::RPG::GameCore::LevelMinimapSection* a2, ::RPG::GameCore::LevelNavmapConfig* a3, ::System::UInt32 a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::RPG::GameCore::LevelMinimapSection*, ::RPG::GameCore::LevelNavmapConfig*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__ISMAPICONINPOLYGON_OFFSET))(iconPosition, section, navmapConfig, areaID);
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::RPG::GameCore::LevelMinimapSection*, ::RPG::GameCore::LevelNavmapConfig*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__ISMAPICONINPOLYGON_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single _GetInLeftValue(::RPG::MVector2 p0, ::RPG::MVector2 p1, ::UnityEngine::Vector3 iconPosition)
+		static ::System::Single _GetInLeftValue(::RPG::MVector2 a1, ::RPG::MVector2 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Single(*)(::RPG::MVector2, ::RPG::MVector2, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__GETINLEFTVALUE_OFFSET))(p0, p1, iconPosition);
+			return ((::System::Single(*)(::RPG::MVector2, ::RPG::MVector2, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__GETINLEFTVALUE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::UInt32 _GetPlayerRegionID()
@@ -446,9 +446,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__GETPLAYERREGIONID_OFFSET))();
 		}
 
-		static ::System::UInt32 _GetRegionID(::UnityEngine::Vector3 position)
+		static ::System::UInt32 _GetRegionID(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::UInt32(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__GETREGIONID_OFFSET))(position);
+			return ((::System::UInt32(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__GETREGIONID_OFFSET))(a1);
 		}
 
 		static ::System::Nullable_1<::UnityEngine::Vector3> GetPlayerPosition()

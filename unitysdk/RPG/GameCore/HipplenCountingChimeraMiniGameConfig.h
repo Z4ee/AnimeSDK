@@ -9,12 +9,12 @@ namespace RPG::GameCore { class HipplenMiniGameLoadCharacter; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENCOUNTINGCHIMERAMINIGAMECONFIG_METHOD_2_D3D71D2C877F69DA_OFFSET UNITYSDK_OFFSET(0x18A00F20)
-#define RPG_GAMECORE_HIPPLENCOUNTINGCHIMERAMINIGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A012A0)
+#define RPG_GAMECORE_HIPPLENCOUNTINGCHIMERAMINIGAMECONFIG_METHOD_2_5D777E53259E3CB0_OFFSET UNITYSDK_OFFSET(0x19833470)
+#define RPG_GAMECORE_HIPPLENCOUNTINGCHIMERAMINIGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198337C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenCountingChimeraMiniGameConfig_TypeDefinitionIndex = 15900;
+	inline static constexpr unsigned int HipplenCountingChimeraMiniGameConfig_TypeDefinitionIndex = 15953;
 
 	class HipplenCountingChimeraMiniGameConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENCOUNTINGCHIMERAMINIGAMECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D3D71D2C877F69DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenCountingChimeraMiniGameConfig*& a2)
+		static ::System::Void Method_2_5D777E53259E3CB0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenCountingChimeraMiniGameConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenCountingChimeraMiniGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENCOUNTINGCHIMERAMINIGAMECONFIG_METHOD_2_D3D71D2C877F69DA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenCountingChimeraMiniGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENCOUNTINGCHIMERAMINIGAMECONFIG_METHOD_2_5D777E53259E3CB0_OFFSET))(a1, a2);
 		}
 	};
 }

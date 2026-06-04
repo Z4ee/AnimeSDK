@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int EntityType_TypeDefinitionIndex = 39945;
+	inline static constexpr unsigned int EntityType_TypeDefinitionIndex = 40772;
 
 	enum class EntityType : ::System::Int32
 	{

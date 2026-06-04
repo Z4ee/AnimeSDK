@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GridFightWaveMonsterInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTBATTLETEMPLATE_METHOD_2_ABCDA0B53F005523_OFFSET UNITYSDK_OFFSET(0x189A32D0)
-#define RPG_GAMECORE_GRIDFIGHTBATTLETEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x189A34C0)
+#define RPG_GAMECORE_GRIDFIGHTBATTLETEMPLATE_METHOD_2_427B7179AD8A204C_OFFSET UNITYSDK_OFFSET(0x197DB050)
+#define RPG_GAMECORE_GRIDFIGHTBATTLETEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x197DB230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBattleTemplate_TypeDefinitionIndex = 17258;
+	inline static constexpr unsigned int GridFightBattleTemplate_TypeDefinitionIndex = 17266;
 
 	class GridFightBattleTemplate : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTBATTLETEMPLATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_ABCDA0B53F005523(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightBattleTemplate*& a2)
+		static ::System::Void Method_2_427B7179AD8A204C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightBattleTemplate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightBattleTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTBATTLETEMPLATE_METHOD_2_ABCDA0B53F005523_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightBattleTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTBATTLETEMPLATE_METHOD_2_427B7179AD8A204C_OFFSET))(a1, a2);
 		}
 	};
 }

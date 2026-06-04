@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AssetTask_BuildType_TypeDefinitionIndex = 43664;
+	inline static constexpr unsigned int HEU_AssetTask_BuildType_TypeDefinitionIndex = 37640;
 
 	enum class HEU_AssetTask_BuildType : ::System::Int32
 	{

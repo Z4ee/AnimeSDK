@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameComponentTypeInfoHelper_1_TypeDefinitionIndex = 53087;
+	inline static constexpr unsigned int GameComponentTypeInfoHelper_1_TypeDefinitionIndex = 53797;
 
 	template <typename T>
 	class GameComponentTypeInfoHelper_1 : public ::System::Object

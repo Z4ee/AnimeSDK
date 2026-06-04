@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimMouseCursorCtrl_CursorState_TypeDefinitionIndex = 70928;
+	inline static constexpr unsigned int FiveDimMouseCursorCtrl_CursorState_TypeDefinitionIndex = 71750;
 
 	enum class FiveDimMouseCursorCtrl_CursorState : ::System::Int32
 	{

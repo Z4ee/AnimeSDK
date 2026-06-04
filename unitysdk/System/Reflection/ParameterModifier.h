@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_REFLECTION_PARAMETERMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x22ABA20)
+#define SYSTEM_REFLECTION_PARAMETERMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x383B910)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ParameterModifier_TypeDefinitionIndex = 581;
+	inline static constexpr unsigned int ParameterModifier_TypeDefinitionIndex = 580;
 
 	struct alignas(8) ParameterModifier
 	{
 		::Il2CppArray<::System::Boolean>* _byRef; // 0x10
 
-		::System::Void _ctor(::System::Int32 parameterCount)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERMODIFIER__CTOR_OFFSET))(this, parameterCount);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERMODIFIER__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

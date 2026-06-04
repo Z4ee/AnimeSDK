@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A481E0)
-#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A48290)
+#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198700A0)
+#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19879760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLookAtPositionInfo_TypeDefinitionIndex = 16468;
+	inline static constexpr unsigned int LevelLookAtPositionInfo_TypeDefinitionIndex = 16500;
 
 	class LevelLookAtPositionInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLOOKATPOSITIONINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelLookAtPositionInfo*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelLookAtPositionInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelLookAtPositionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLOOKATPOSITIONINFO_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelLookAtPositionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLOOKATPOSITIONINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

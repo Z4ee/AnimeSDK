@@ -3,7 +3,7 @@
 
 namespace WeLing::SDK
 {
-	inline static constexpr unsigned int GyroType_TypeDefinitionIndex = 6587;
+	inline static constexpr unsigned int GyroType_TypeDefinitionIndex = 7490;
 
 	enum class GyroType : ::System::Int32
 	{

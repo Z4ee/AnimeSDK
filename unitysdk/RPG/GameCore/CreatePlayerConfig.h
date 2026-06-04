@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DOFConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATEPLAYERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188442D0)
-#define RPG_GAMECORE_CREATEPLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18844410)
+#define RPG_GAMECORE_CREATEPLAYERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196838A0)
+#define RPG_GAMECORE_CREATEPLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196839E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreatePlayerConfig_TypeDefinitionIndex = 23426;
+	inline static constexpr unsigned int CreatePlayerConfig_TypeDefinitionIndex = 23075;
 
 	class CreatePlayerConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPLAYERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::CreatePlayerConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePlayerConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePlayerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPLAYERCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePlayerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPLAYERCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class DialogRenderer; }
-namespace UnityEngine { class Camera; }
-namespace UnityEngine { class GameObject; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_915_TypeDefinitionIndex = 64522;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_915_TypeDefinitionIndex = 63859;
 
 class Class_0_16E4307DCC419505_915
 {

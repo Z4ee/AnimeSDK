@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FloorInstanceType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_F58FBBBFAD28B36A_METHOD_2_BE18C04CD91E0748_OFFSET UNITYSDK_OFFSET(0x15AEBD0)
+#define STRUCT_2_F58FBBBFAD28B36A_METHOD_2_BE18C04CD91E0748_OFFSET UNITYSDK_OFFSET(0x2BCDC90)
 
-inline static constexpr unsigned int Struct_2_F58FBBBFAD28B36A_TypeDefinitionIndex = 57281;
+inline static constexpr unsigned int Struct_2_F58FBBBFAD28B36A_TypeDefinitionIndex = 58071;
 
 struct alignas(4) Struct_2_F58FBBBFAD28B36A
 {

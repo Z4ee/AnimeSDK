@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 
-#define RPG_GAMECORE_CHIMERABATTLERUNOUT_METHOD_3_DBAB9427723AB440_OFFSET UNITYSDK_OFFSET(0x187F3A10)
-#define RPG_GAMECORE_CHIMERABATTLERUNOUT_METHOD_3_E1AE68D0C15291AE_OFFSET UNITYSDK_OFFSET(0x187F2250)
-#define RPG_GAMECORE_CHIMERABATTLERUNOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x187F2240)
+#define RPG_GAMECORE_CHIMERABATTLERUNOUT_METHOD_3_7809ED5D700BED80_OFFSET UNITYSDK_OFFSET(0x19635820)
+#define RPG_GAMECORE_CHIMERABATTLERUNOUT_METHOD_3_E31D9636E79EBB85_OFFSET UNITYSDK_OFFSET(0x19634050)
+#define RPG_GAMECORE_CHIMERABATTLERUNOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x19634040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleRunOut_TypeDefinitionIndex = 15042;
+	inline static constexpr unsigned int ChimeraBattleRunOut_TypeDefinitionIndex = 15105;
 
 	class ChimeraBattleRunOut : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLERUNOUT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DBAB9427723AB440(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleRunOut*& a2)
+		static ::System::Void Method_3_7809ED5D700BED80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleRunOut*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleRunOut*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLERUNOUT_METHOD_3_DBAB9427723AB440_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleRunOut*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLERUNOUT_METHOD_3_7809ED5D700BED80_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E1AE68D0C15291AE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleRunOut* a2)
+		static ::System::Void Method_3_E31D9636E79EBB85(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleRunOut* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleRunOut*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLERUNOUT_METHOD_3_E1AE68D0C15291AE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleRunOut*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLERUNOUT_METHOD_3_E31D9636E79EBB85_OFFSET))(a1, a2);
 		}
 	};
 }

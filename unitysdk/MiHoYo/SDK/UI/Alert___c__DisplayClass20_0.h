@@ -6,13 +6,13 @@ namespace MiHoYo::SDK::UI { class Alert_OnAlertDelegate; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176691C0)
-#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x1766A910)
-#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x1766A980)
+#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1843A4F0)
+#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x1843B960)
+#define MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x1843B9D0)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int Alert___c__DisplayClass20_0_TypeDefinitionIndex = 7419;
+	inline static constexpr unsigned int Alert___c__DisplayClass20_0_TypeDefinitionIndex = 8322;
 
 	class Alert___c__DisplayClass20_0 : public ::System::Object
 	{
@@ -24,14 +24,14 @@ namespace MiHoYo::SDK::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ShowPluginUI_b__0(::System::String* strArgs, ::System::Action_1<::System::String*>* closeActionCallback)
+		::System::Void _ShowPluginUI_b__0(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__0_OFFSET))(this, strArgs, closeActionCallback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowPluginUI_b__1(::System::String* strArgs, ::System::Action_1<::System::String*>* confirmActionCallback)
+		::System::Void _ShowPluginUI_b__1(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__1_OFFSET))(this, strArgs, confirmActionCallback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__1_OFFSET))(this, a1, a2);
 		}
 	};
 }

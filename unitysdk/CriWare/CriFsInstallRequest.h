@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIFSINSTALLREQUEST_GET_DESTINATIONPATH_OFFSET UNITYSDK_OFFSET(0x12C05710)
-#define CRIWARE_CRIFSINSTALLREQUEST_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x12C05730)
-#define CRIWARE_CRIFSINSTALLREQUEST_GET_SOURCEPATH_OFFSET UNITYSDK_OFFSET(0x12C056F0)
-#define CRIWARE_CRIFSINSTALLREQUEST_SET_DESTINATIONPATH_OFFSET UNITYSDK_OFFSET(0x12C05720)
-#define CRIWARE_CRIFSINSTALLREQUEST_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x12C05740)
-#define CRIWARE_CRIFSINSTALLREQUEST_SET_SOURCEPATH_OFFSET UNITYSDK_OFFSET(0x12C05700)
-#define CRIWARE_CRIFSINSTALLREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x12C05750)
+#define CRIWARE_CRIFSINSTALLREQUEST_GET_DESTINATIONPATH_OFFSET UNITYSDK_OFFSET(0x146C01B0)
+#define CRIWARE_CRIFSINSTALLREQUEST_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x146C01D0)
+#define CRIWARE_CRIFSINSTALLREQUEST_GET_SOURCEPATH_OFFSET UNITYSDK_OFFSET(0x146C0190)
+#define CRIWARE_CRIFSINSTALLREQUEST_SET_DESTINATIONPATH_OFFSET UNITYSDK_OFFSET(0x146C01C0)
+#define CRIWARE_CRIFSINSTALLREQUEST_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x146C01E0)
+#define CRIWARE_CRIFSINSTALLREQUEST_SET_SOURCEPATH_OFFSET UNITYSDK_OFFSET(0x146C01A0)
+#define CRIWARE_CRIFSINSTALLREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x146C01F0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsInstallRequest_TypeDefinitionIndex = 36853;
+	inline static constexpr unsigned int CriFsInstallRequest_TypeDefinitionIndex = 37153;
 
 	class CriFsInstallRequest : public ::CriWare::CriFsRequest
 	{
 	public:
-		::System::String* _sourcePath_k__BackingField; // 0x38
-		::System::String* _destinationPath_k__BackingField; // 0x40
+		::System::String* _destinationPath_k__BackingField; // 0x38
+		::System::String* _sourcePath_k__BackingField; // 0x40
 		::System::Single _progress_k__BackingField; // 0x48
 
 		::System::Void _ctor()
@@ -33,9 +33,9 @@ namespace CriWare
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUEST_GET_SOURCEPATH_OFFSET))(this);
 		}
 
-		::System::Void set_sourcePath(::System::String* value)
+		::System::Void set_sourcePath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUEST_SET_SOURCEPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUEST_SET_SOURCEPATH_OFFSET))(this, a1);
 		}
 
 		::System::String* get_destinationPath()
@@ -43,9 +43,9 @@ namespace CriWare
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUEST_GET_DESTINATIONPATH_OFFSET))(this);
 		}
 
-		::System::Void set_destinationPath(::System::String* value)
+		::System::Void set_destinationPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUEST_SET_DESTINATIONPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUEST_SET_DESTINATIONPATH_OFFSET))(this, a1);
 		}
 
 		::System::Single get_progress()
@@ -53,9 +53,9 @@ namespace CriWare
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUEST_GET_PROGRESS_OFFSET))(this);
 		}
 
-		::System::Void set_progress(::System::Single value)
+		::System::Void set_progress(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUEST_SET_PROGRESS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSINSTALLREQUEST_SET_PROGRESS_OFFSET))(this, a1);
 		}
 	};
 }

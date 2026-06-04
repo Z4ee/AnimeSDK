@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEMIRACLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D2A050)
-#define RPG_GAMECORE_ROGUEMIRACLEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D2A1A0)
+#define RPG_GAMECORE_ROGUEMIRACLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B4D9D0)
+#define RPG_GAMECORE_ROGUEMIRACLEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B4DB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleGroupRow_TypeDefinitionIndex = 13926;
+	inline static constexpr unsigned int RogueMiracleGroupRow_TypeDefinitionIndex = 13992;
 
 	class RogueMiracleGroupRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEGROUPROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueMiracleGroupRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMiracleGroupRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMiracleGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEGROUPROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMiracleGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEGROUPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

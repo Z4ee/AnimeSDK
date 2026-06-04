@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTeamLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1EA0955F65B1D771_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9650010)
-#define CLASS_3_1EA0955F65B1D771__CTOR_OFFSET UNITYSDK_OFFSET(0x964FFE0)
+#define CLASS_3_1EA0955F65B1D771_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x143CC490)
+#define CLASS_3_1EA0955F65B1D771__CTOR_OFFSET UNITYSDK_OFFSET(0x143CC460)
 
-inline static constexpr unsigned int Class_3_1EA0955F65B1D771_TypeDefinitionIndex = 51242;
+inline static constexpr unsigned int Class_3_1EA0955F65B1D771_TypeDefinitionIndex = 51914;
 
 class Class_3_1EA0955F65B1D771 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTeamLockTarget*>
 {

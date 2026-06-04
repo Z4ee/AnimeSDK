@@ -11,31 +11,31 @@ namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_POPIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x17617A60)
-#define MIHOYO_SDK_POPIMAGE_CLICKIMAGE_OFFSET UNITYSDK_OFFSET(0x17619330)
-#define MIHOYO_SDK_POPIMAGE_CLOSE_OFFSET UNITYSDK_OFFSET(0x17619430)
-#define MIHOYO_SDK_POPIMAGE_GET_POPIMAGEMODEL_OFFSET UNITYSDK_OFFSET(0x176178F0)
-#define MIHOYO_SDK_POPIMAGE_HIDE_OFFSET UNITYSDK_OFFSET(0x176179F0)
-#define MIHOYO_SDK_POPIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1761A920)
-#define MIHOYO_SDK_POPIMAGE_ONGETTEXTURE_OFFSET UNITYSDK_OFFSET(0x17619EF0)
-#define MIHOYO_SDK_POPIMAGE_RESTJOYPADBUTTONUI_OFFSET UNITYSDK_OFFSET(0x1761A800)
-#define MIHOYO_SDK_POPIMAGE_SET_POPIMAGEMODEL_OFFSET UNITYSDK_OFFSET(0x17617690)
-#define MIHOYO_SDK_POPIMAGE_SHOW_OFFSET UNITYSDK_OFFSET(0x17617900)
-#define MIHOYO_SDK_POPIMAGE_UPDATEJOYPADBUTTONUI_OFFSET UNITYSDK_OFFSET(0x1761A4B0)
-#define MIHOYO_SDK_POPIMAGE_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x176188D0)
-#define MIHOYO_SDK_POPIMAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0x17618990)
-#define MIHOYO_SDK_POPIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1761A960)
+#define MIHOYO_SDK_POPIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x183F7D10)
+#define MIHOYO_SDK_POPIMAGE_CLICKIMAGE_OFFSET UNITYSDK_OFFSET(0x183F9600)
+#define MIHOYO_SDK_POPIMAGE_CLOSE_OFFSET UNITYSDK_OFFSET(0x183F9700)
+#define MIHOYO_SDK_POPIMAGE_GET_POPIMAGEMODEL_OFFSET UNITYSDK_OFFSET(0x183F7B90)
+#define MIHOYO_SDK_POPIMAGE_HIDE_OFFSET UNITYSDK_OFFSET(0x183F7CA0)
+#define MIHOYO_SDK_POPIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x183FA170)
+#define MIHOYO_SDK_POPIMAGE_ONGETTEXTURE_OFFSET UNITYSDK_OFFSET(0x183F9750)
+#define MIHOYO_SDK_POPIMAGE_RESTJOYPADBUTTONUI_OFFSET UNITYSDK_OFFSET(0x183FA050)
+#define MIHOYO_SDK_POPIMAGE_SET_POPIMAGEMODEL_OFFSET UNITYSDK_OFFSET(0x183F7910)
+#define MIHOYO_SDK_POPIMAGE_SHOW_OFFSET UNITYSDK_OFFSET(0x183F7BA0)
+#define MIHOYO_SDK_POPIMAGE_UPDATEJOYPADBUTTONUI_OFFSET UNITYSDK_OFFSET(0x183F9D20)
+#define MIHOYO_SDK_POPIMAGE_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x183F8BA0)
+#define MIHOYO_SDK_POPIMAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0x183F8C60)
+#define MIHOYO_SDK_POPIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x183FA190)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PopImage_TypeDefinitionIndex = 7292;
+	inline static constexpr unsigned int PopImage_TypeDefinitionIndex = 8195;
 
 	class PopImage : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::PopImage** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PopImage**)Il2CppClass::FromTypeDefinitionIndex(PopImage_TypeDefinitionIndex)->GetStaticField(0x16870);
+			return (::MiHoYo::SDK::PopImage**)Il2CppClass::FromTypeDefinitionIndex(PopImage_TypeDefinitionIndex)->GetStaticField(0x11F30);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* BGPath; // 0x0
@@ -80,9 +80,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_popImageModel(::MiHoYo::SDK::PopImageModel* value)
+		::System::Void set_popImageModel(::MiHoYo::SDK::PopImageModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PopImageModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_SET_POPIMAGEMODEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PopImageModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_SET_POPIMAGEMODEL_OFFSET))(this, a1);
 		}
 
 		::MiHoYo::SDK::PopImageModel* get_popImageModel()
@@ -90,9 +90,9 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::PopImageModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_GET_POPIMAGEMODEL_OFFSET))(this);
 		}
 
-		static ::System::Void Show(::System::Boolean animationed)
+		static ::System::Void Show(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_SHOW_OFFSET))(animationed);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_SHOW_OFFSET))(a1);
 		}
 
 		static ::System::Void Hide()
@@ -125,9 +125,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_CLICKIMAGE_OFFSET))(this);
 		}
 
-		::System::Void OnGetTexture(::UnityEngine::Texture2D* data)
+		::System::Void OnGetTexture(::UnityEngine::Texture2D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_ONGETTEXTURE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_ONGETTEXTURE_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateJoyPadButtonUI()

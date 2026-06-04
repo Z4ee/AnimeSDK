@@ -4,12 +4,12 @@
 
 namespace System::Diagnostics::Tracing { class EventSource; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCECREATEDEVENTARGS_SET_EVENTSOURCE_OFFSET UNITYSDK_OFFSET(0x17901830)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCECREATEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x178E7560)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCECREATEDEVENTARGS_SET_EVENTSOURCE_OFFSET UNITYSDK_OFFSET(0x186B83C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCECREATEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1869FA80)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventSourceCreatedEventArgs_TypeDefinitionIndex = 1681;
+	inline static constexpr unsigned int EventSourceCreatedEventArgs_TypeDefinitionIndex = 1679;
 
 	class EventSourceCreatedEventArgs : public ::System::EventArgs
 	{
@@ -21,9 +21,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCECREATEDEVENTARGS__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_EventSource(::System::Diagnostics::Tracing::EventSource* value)
+		::System::Void set_EventSource(::System::Diagnostics::Tracing::EventSource* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventSource*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCECREATEDEVENTARGS_SET_EVENTSOURCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventSource*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCECREATEDEVENTARGS_SET_EVENTSOURCE_OFFSET))(this, a1);
 		}
 	};
 }

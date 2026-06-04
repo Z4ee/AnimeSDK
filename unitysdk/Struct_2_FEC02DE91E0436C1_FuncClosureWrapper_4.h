@@ -6,7 +6,7 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int Struct_2_FEC02DE91E0436C1_FuncClosureWrapper_4_TypeDefinitionIndex = 8996;
+inline static constexpr unsigned int Struct_2_FEC02DE91E0436C1_FuncClosureWrapper_4_TypeDefinitionIndex = 6860;
 
 template <typename T0, typename T1, typename T2, typename TResult>
 class Struct_2_FEC02DE91E0436C1_FuncClosureWrapper_4 : public ::System::Object

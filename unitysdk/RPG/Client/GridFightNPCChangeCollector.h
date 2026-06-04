@@ -6,16 +6,16 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_GET_NPCADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0xA511B10)
-#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xA511AA0)
-#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xA511990)
-#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xA511900)
-#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_SET_NPCADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0xA511B20)
-#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA511B30)
+#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_GET_NPCADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0xBBB8B60)
+#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xBBB8AF0)
+#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xBBB89D0)
+#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xBBB8930)
+#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_SET_NPCADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0xBBB8B70)
+#define RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xBBB8B80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightNPCChangeCollector_TypeDefinitionIndex = 59409;
+	inline static constexpr unsigned int GridFightNPCChangeCollector_TypeDefinitionIndex = 60344;
 
 	class GridFightNPCChangeCollector : public ::System::Object
 	{
@@ -33,14 +33,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_RESET_OFFSET))(this);
 		}
 
-		::System::Void OnPropertyChangedEventHandler(::System::Object* sender, ::System::ComponentModel::PropertyChangedEventArgs* e)
+		::System::Void OnPropertyChangedEventHandler(::System::Object* a1, ::System::ComponentModel::PropertyChangedEventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET))(this, sender, e);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnCollectionChangedEventHandler(::System::Object* sender, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* e)
+		::System::Void OnCollectionChangedEventHandler(::System::Object* a1, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET))(this, sender, e);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_NPCAddedOrRemoved()
@@ -48,9 +48,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_GET_NPCADDEDORREMOVED_OFFSET))(this);
 		}
 
-		::System::Void set_NPCAddedOrRemoved(::System::Boolean value)
+		::System::Void set_NPCAddedOrRemoved(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_SET_NPCADDEDORREMOVED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPCCHANGECOLLECTOR_SET_NPCADDEDORREMOVED_OFFSET))(this, a1);
 		}
 	};
 }

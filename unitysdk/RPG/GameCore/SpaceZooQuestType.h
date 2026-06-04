@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooQuestType_TypeDefinitionIndex = 11686;
+	inline static constexpr unsigned int SpaceZooQuestType_TypeDefinitionIndex = 11785;
 
 	enum class SpaceZooQuestType : ::System::Int32
 	{

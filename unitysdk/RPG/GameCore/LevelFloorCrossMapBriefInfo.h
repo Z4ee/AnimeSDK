@@ -11,12 +11,12 @@ namespace RPG::GameCore { class RtLevelGroupInstanceCommonInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LEVELFLOORCROSSMAPBRIEFINFO_METHOD_2_42CEF4EE1D9B5C3E_OFFSET UNITYSDK_OFFSET(0x18A41FA0)
-#define RPG_GAMECORE_LEVELFLOORCROSSMAPBRIEFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A423A0)
+#define RPG_GAMECORE_LEVELFLOORCROSSMAPBRIEFINFO_METHOD_2_4FD1BA5AED6844D6_OFFSET UNITYSDK_OFFSET(0x19873FD0)
+#define RPG_GAMECORE_LEVELFLOORCROSSMAPBRIEFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19874370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelFloorCrossMapBriefInfo_TypeDefinitionIndex = 16280;
+	inline static constexpr unsigned int LevelFloorCrossMapBriefInfo_TypeDefinitionIndex = 16314;
 
 	class LevelFloorCrossMapBriefInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELFLOORCROSSMAPBRIEFINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_42CEF4EE1D9B5C3E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelFloorCrossMapBriefInfo*& a2)
+		static ::System::Void Method_2_4FD1BA5AED6844D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelFloorCrossMapBriefInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelFloorCrossMapBriefInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELFLOORCROSSMAPBRIEFINFO_METHOD_2_42CEF4EE1D9B5C3E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelFloorCrossMapBriefInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELFLOORCROSSMAPBRIEFINFO_METHOD_2_4FD1BA5AED6844D6_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -15,48 +15,48 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIFOLLOW3DTARGET_AWAKE_OFFSET UNITYSDK_OFFSET(0xB3EA170)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_CLEARFOLLOWDATA_OFFSET UNITYSDK_OFFSET(0xB3E9770)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_GET_FOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xB3EAB80)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_GET_OFFSET UNITYSDK_OFFSET(0xB3E9380)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_GET__CAMERA_OFFSET UNITYSDK_OFFSET(0xB3E9300)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_INIT_OFFSET UNITYSDK_OFFSET(0xB3E94F0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB3E9AC0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_ONLYAPPLYCURRENTPOSITION_OFFSET UNITYSDK_OFFSET(0xB3E97F0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_SAFEUPDATE_OFFSET UNITYSDK_OFFSET(0xB3E9A60)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_SETOVERRIDECAMERA_OFFSET UNITYSDK_OFFSET(0xB3E94A0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_SETPOSTPROCESSHANDLER_OFFSET UNITYSDK_OFFSET(0xB3EA0D0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_SETPRETICKHANDLER_OFFSET UNITYSDK_OFFSET(0xB3EA120)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_SET_FOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xB3EABE0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_START_OFFSET UNITYSDK_OFFSET(0xB3EA1E0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__CCTOR_OFFSET UNITYSDK_OFFSET(0xB3EAD20)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__CLAMPPOS_OFFSET UNITYSDK_OFFSET(0xB3EA490)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xB3EACC0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__GETTARGETWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xB3E9860)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__INITUICONFIG_OFFSET UNITYSDK_OFFSET(0xB3E96C0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__ISWORLDPOSCLAMPEDINCAMERAZ_OFFSET UNITYSDK_OFFSET(0xB3EA3A0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__ONUIREDOADAPT_OFFSET UNITYSDK_OFFSET(0xB3EA230)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__POSTPROCESSPOSITION_OFFSET UNITYSDK_OFFSET(0xB3EA5D0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__SHOULDTICKFOLLOW_OFFSET UNITYSDK_OFFSET(0xB3EA280)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_AWAKE_OFFSET UNITYSDK_OFFSET(0xCB4B000)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_CLEARFOLLOWDATA_OFFSET UNITYSDK_OFFSET(0xCB4A5F0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_GET_FOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xCB4B580)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_GET_OFFSET UNITYSDK_OFFSET(0xCB4A3D0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_GET__CAMERA_OFFSET UNITYSDK_OFFSET(0xCB4A350)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_INIT_OFFSET UNITYSDK_OFFSET(0xCB32CD0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCB4A950)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_ONLYAPPLYCURRENTPOSITION_OFFSET UNITYSDK_OFFSET(0xCB4A670)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SAFEUPDATE_OFFSET UNITYSDK_OFFSET(0xCB4A8F0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SETOVERRIDECAMERA_OFFSET UNITYSDK_OFFSET(0xCB4A4F0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SETPOSTPROCESSHANDLER_OFFSET UNITYSDK_OFFSET(0xCB4AF60)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SETPRETICKHANDLER_OFFSET UNITYSDK_OFFSET(0xCB4AFB0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SET_FOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xCB32EA0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_START_OFFSET UNITYSDK_OFFSET(0xCB4B0A0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB4B640)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__CLAMPPOS_OFFSET UNITYSDK_OFFSET(0xCB4B350)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xCB4B5E0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__GETTARGETWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xCB4A6E0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__INITUICONFIG_OFFSET UNITYSDK_OFFSET(0xCB4A540)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__ISWORLDPOSCLAMPEDINCAMERAZ_OFFSET UNITYSDK_OFFSET(0xCB4B260)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__ONUIREDOADAPT_OFFSET UNITYSDK_OFFSET(0xCB4B0F0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__POSTPROCESSPOSITION_OFFSET UNITYSDK_OFFSET(0xCB4B490)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__SHOULDTICKFOLLOW_OFFSET UNITYSDK_OFFSET(0xCB4B140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIFollow3DTarget_TypeDefinitionIndex = 63701;
+	inline static constexpr unsigned int UIFollow3DTarget_TypeDefinitionIndex = 64622;
 
 	class UIFollow3DTarget : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Boolean* StaticGet__CHECK_VISIBILITY()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIFollow3DTarget_TypeDefinitionIndex)->GetStaticField(0xBAA0);
-		}
 		static ::System::Boolean* StaticGet__CAMERA_DIS_INIT()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIFollow3DTarget_TypeDefinitionIndex)->GetStaticField(0xBAA1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIFollow3DTarget_TypeDefinitionIndex)->GetStaticField(0x122D0);
+		}
+		static ::System::Boolean* StaticGet__CHECK_VISIBILITY()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIFollow3DTarget_TypeDefinitionIndex)->GetStaticField(0x122D1);
 		}
 		static ::UnityEngine::Vector3* StaticGet__veryFarPosition()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIFollow3DTarget_TypeDefinitionIndex)->GetStaticField(0xBAA4);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIFollow3DTarget_TypeDefinitionIndex)->GetStaticField(0x122D4);
 		}
 		::UnityEngine::Camera* _OverrideCamera; // 0x18
 		::RPG::GameCore::GameEntity* FollowEntity; // 0x20
@@ -93,14 +93,14 @@ namespace RPG::Client
 			return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_GET__CAMERA_OFFSET))(this);
 		}
 
-		static ::RPG::Client::UIFollow3DTarget* Get(::UnityEngine::Transform* target)
+		static ::RPG::Client::UIFollow3DTarget* Get(::UnityEngine::Transform* a1)
 		{
-			return ((::RPG::Client::UIFollow3DTarget*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_GET_OFFSET))(target);
+			return ((::RPG::Client::UIFollow3DTarget*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_GET_OFFSET))(a1);
 		}
 
-		::System::Void SetOverrideCamera(::UnityEngine::Camera* camera)
+		::System::Void SetOverrideCamera(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETOVERRIDECAMERA_OFFSET))(this, camera);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETOVERRIDECAMERA_OFFSET))(this, a1);
 		}
 
 		::System::Void Init()
@@ -123,14 +123,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SAFEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void SetPostProcessHandler(::RPG::Client::UIFollow3DTarget_PostProcessDelegate* handler)
+		::System::Void SetPostProcessHandler(::RPG::Client::UIFollow3DTarget_PostProcessDelegate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIFollow3DTarget_PostProcessDelegate*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETPOSTPROCESSHANDLER_OFFSET))(this, handler);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIFollow3DTarget_PostProcessDelegate*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETPOSTPROCESSHANDLER_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPreTickHandler(::System::Action_1<::RPG::Client::UIFollow3DTarget*>* preTickHandler)
+		::System::Void SetPreTickHandler(::System::Action_1<::RPG::Client::UIFollow3DTarget*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::UIFollow3DTarget*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETPRETICKHANDLER_OFFSET))(this, preTickHandler);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::UIFollow3DTarget*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETPRETICKHANDLER_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()
@@ -143,9 +143,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_START_OFFSET))(this);
 		}
 
-		::System::Void _OnUIRedoAdapt(::System::Object* arg)
+		::System::Void _OnUIRedoAdapt(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__ONUIREDOADAPT_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__ONUIREDOADAPT_OFFSET))(this, a1);
 		}
 
 		::System::Void LateUpdate()
@@ -158,14 +158,14 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__GETTARGETWORLDPOSITION_OFFSET))(this);
 		}
 
-		::System::Boolean _IsWorldPosClampedInCameraZ(::UnityEngine::Camera* targetCamera, ::UnityEngine::Vector3 worldPos)
+		::System::Boolean _IsWorldPosClampedInCameraZ(::UnityEngine::Camera* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__ISWORLDPOSCLAMPEDINCAMERAZ_OFFSET))(this, targetCamera, worldPos);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__ISWORLDPOSCLAMPEDINCAMERAZ_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 _PostProcessPosition(::UnityEngine::Vector3 position)
+		::UnityEngine::Vector3 _PostProcessPosition(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__POSTPROCESSPOSITION_OFFSET))(this, position);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__POSTPROCESSPOSITION_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _InitUIConfig()
@@ -178,9 +178,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__SHOULDTICKFOLLOW_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 _ClampPos(::UnityEngine::Vector3 screenPos, ::System::Boolean isInCamera)
+		::UnityEngine::Vector3 _ClampPos(::UnityEngine::Vector3 a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__CLAMPPOS_OFFSET))(this, screenPos, isInCamera);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__CLAMPPOS_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::GameObject* get_FollowTarget()
@@ -188,9 +188,9 @@ namespace RPG::Client
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_GET_FOLLOWTARGET_OFFSET))(this);
 		}
 
-		::System::Void set_FollowTarget(::UnityEngine::GameObject* value)
+		::System::Void set_FollowTarget(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SET_FOLLOWTARGET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SET_FOLLOWTARGET_OFFSET))(this, a1);
 		}
 	};
 }

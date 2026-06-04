@@ -7,12 +7,12 @@ namespace RPG::GameCore { class MarbleBuffConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GLOBALMARBLEBUFFCONFIG_METHOD_2_384AC304324C9232_OFFSET UNITYSDK_OFFSET(0x18997990)
-#define RPG_GAMECORE_GLOBALMARBLEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18997AA0)
+#define RPG_GAMECORE_GLOBALMARBLEBUFFCONFIG_METHOD_2_BFC27F2034876C20_OFFSET UNITYSDK_OFFSET(0x197B71D0)
+#define RPG_GAMECORE_GLOBALMARBLEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197D0880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalMarbleBuffConfig_TypeDefinitionIndex = 15994;
+	inline static constexpr unsigned int GlobalMarbleBuffConfig_TypeDefinitionIndex = 16044;
 
 	class GlobalMarbleBuffConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMARBLEBUFFCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_384AC304324C9232(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalMarbleBuffConfig*& a2)
+		static ::System::Void Method_2_BFC27F2034876C20(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalMarbleBuffConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalMarbleBuffConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMARBLEBUFFCONFIG_METHOD_2_384AC304324C9232_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalMarbleBuffConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMARBLEBUFFCONFIG_METHOD_2_BFC27F2034876C20_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -9,26 +9,26 @@ namespace RPG::GameCore { class RechargeGiftConfigRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_CREATEREWARDSDATA_OFFSET UNITYSDK_OFFSET(0xAF77370)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xAF78000)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xAF78020)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xAF78010)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAF78030)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_CREATEREWARDSDATA_OFFSET UNITYSDK_OFFSET(0xC6BD3D0)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xC6BE020)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xC6BE040)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xC6BE030)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC6BE050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeGiftRewardData_TypeDefinitionIndex = 61510;
+	inline static constexpr unsigned int RechargeGiftRewardData_TypeDefinitionIndex = 62443;
 
 	class RechargeGiftRewardData : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* _Items_k__BackingField; // 0x10
-		::RPG::Client::RechargeGiftRewardStatus _Status_k__BackingField; // 0x18
-		::System::UInt32 _ID_k__BackingField; // 0x1C
+		::System::UInt32 _ID_k__BackingField; // 0x18
+		::RPG::Client::RechargeGiftRewardStatus _Status_k__BackingField; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 dataID, ::RPG::Client::RechargeGiftRewardStatus status, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* rewardIDs, ::System::UInt32 mcoin)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::RechargeGiftRewardStatus a2, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a3, ::System::UInt32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::RechargeGiftRewardStatus, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGEGIFTREWARDDATA__CTOR_OFFSET))(this, dataID, status, rewardIDs, mcoin);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::RechargeGiftRewardStatus, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGEGIFTREWARDDATA__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::UInt32 get_ID()
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::RPG::GameCore::ItemConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ITEMS_OFFSET))(this);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>* CreateRewardsData(::RPG::GameCore::RechargeGiftConfigRow* giftConfigRow, ::System::Collections::Generic::IEnumerable_1<::Class_1_1CBA230307F9C289_47*>* rewardStatusList)
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>* CreateRewardsData(::RPG::GameCore::RechargeGiftConfigRow* a1, ::System::Collections::Generic::IEnumerable_1<::Class_1_1CBA230307F9C289_47*>* a2)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>*(*)(::RPG::GameCore::RechargeGiftConfigRow*, ::System::Collections::Generic::IEnumerable_1<::Class_1_1CBA230307F9C289_47*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGEGIFTREWARDDATA_CREATEREWARDSDATA_OFFSET))(giftConfigRow, rewardStatusList);
+			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>*(*)(::RPG::GameCore::RechargeGiftConfigRow*, ::System::Collections::Generic::IEnumerable_1<::Class_1_1CBA230307F9C289_47*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGEGIFTREWARDDATA_CREATEREWARDSDATA_OFFSET))(a1, a2);
 		}
 	};
 }

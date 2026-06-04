@@ -5,14 +5,16 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTLIFEBINDINGCONFIG_METHOD_2_8856EDBC5189C167_OFFSET UNITYSDK_OFFSET(0x18DD42F0)
-#define RPG_GAMECORE_RTLIFEBINDINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD4450)
+#define RPG_GAMECORE_RTLIFEBINDINGCONFIG_METHOD_2_21517041D5506559_OFFSET UNITYSDK_OFFSET(0x19BEE090)
+#define RPG_GAMECORE_RTLIFEBINDINGCONFIG_METHOD_2_8856EDBC5189C167_OFFSET UNITYSDK_OFFSET(0x19BEDF20)
+#define RPG_GAMECORE_RTLIFEBINDINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEE080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLifeBindingConfig_TypeDefinitionIndex = 23154;
+	inline static constexpr unsigned int RtLifeBindingConfig_TypeDefinitionIndex = 22834;
 
 	class RtLifeBindingConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,6 +31,11 @@ namespace RPG::GameCore
 		static ::System::Void Method_2_8856EDBC5189C167(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtLifeBindingConfig*& a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtLifeBindingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLIFEBINDINGCONFIG_METHOD_2_8856EDBC5189C167_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_2_21517041D5506559(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtLifeBindingConfig*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtLifeBindingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLIFEBINDINGCONFIG_METHOD_2_21517041D5506559_OFFSET))(a1, a2);
 		}
 	};
 }

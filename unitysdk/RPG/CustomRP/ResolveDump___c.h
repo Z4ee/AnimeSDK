@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CUSTOMRP_RESOLVEDUMP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1817AE10)
-#define RPG_CUSTOMRP_RESOLVEDUMP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1817AE50)
-#define RPG_CUSTOMRP_RESOLVEDUMP___C___SAVETOLOCAL_B__7_0_OFFSET UNITYSDK_OFFSET(0x1817AE60)
+#define RPG_CUSTOMRP_RESOLVEDUMP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F20D10)
+#define RPG_CUSTOMRP_RESOLVEDUMP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18F20D50)
+#define RPG_CUSTOMRP_RESOLVEDUMP___C___SAVETOLOCAL_B__7_0_OFFSET UNITYSDK_OFFSET(0x18F20D60)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ResolveDump___c_TypeDefinitionIndex = 35134;
+	inline static constexpr unsigned int ResolveDump___c_TypeDefinitionIndex = 35420;
 
 	class ResolveDump___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::CustomRP::ResolveDump_Tex>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::CustomRP::ResolveDump_Tex>**)Il2CppClass::FromTypeDefinitionIndex(ResolveDump___c_TypeDefinitionIndex)->GetStaticField(0x67F30);
+			return (::System::Comparison_1<::RPG::CustomRP::ResolveDump_Tex>**)Il2CppClass::FromTypeDefinitionIndex(ResolveDump___c_TypeDefinitionIndex)->GetStaticField(0x62A20);
 		}
 		static ::RPG::CustomRP::ResolveDump___c** StaticGet___9()
 		{
-			return (::RPG::CustomRP::ResolveDump___c**)Il2CppClass::FromTypeDefinitionIndex(ResolveDump___c_TypeDefinitionIndex)->GetStaticField(0x67F38);
+			return (::RPG::CustomRP::ResolveDump___c**)Il2CppClass::FromTypeDefinitionIndex(ResolveDump___c_TypeDefinitionIndex)->GetStaticField(0x62A28);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RESOLVEDUMP___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __SaveToLocal_b__7_0(::RPG::CustomRP::ResolveDump_Tex t1, ::RPG::CustomRP::ResolveDump_Tex t2)
+		::System::Int32 __SaveToLocal_b__7_0(::RPG::CustomRP::ResolveDump_Tex a1, ::RPG::CustomRP::ResolveDump_Tex a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::CustomRP::ResolveDump_Tex, ::RPG::CustomRP::ResolveDump_Tex))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RESOLVEDUMP___C___SAVETOLOCAL_B__7_0_OFFSET))(this, t1, t2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::CustomRP::ResolveDump_Tex, ::RPG::CustomRP::ResolveDump_Tex))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RESOLVEDUMP___C___SAVETOLOCAL_B__7_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTADDSTAGEABILITYBYNAME_METHOD_3_8C98E7E750854DFE_OFFSET UNITYSDK_OFFSET(0x18D83130)
-#define RPG_GAMECORE_RTADDSTAGEABILITYBYNAME_METHOD_3_8D2DAE38EC3D310F_OFFSET UNITYSDK_OFFSET(0x18D830B0)
-#define RPG_GAMECORE_RTADDSTAGEABILITYBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x18D83100)
+#define RPG_GAMECORE_RTADDSTAGEABILITYBYNAME_METHOD_3_744A64A7A5EBFB63_OFFSET UNITYSDK_OFFSET(0x19BD6650)
+#define RPG_GAMECORE_RTADDSTAGEABILITYBYNAME_METHOD_3_804A296293DD2B10_OFFSET UNITYSDK_OFFSET(0x19BD65D0)
+#define RPG_GAMECORE_RTADDSTAGEABILITYBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD6620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAddStageAbilityByName_TypeDefinitionIndex = 23072;
+	inline static constexpr unsigned int RtAddStageAbilityByName_TypeDefinitionIndex = 22758;
 
 	class RtAddStageAbilityByName : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTADDSTAGEABILITYBYNAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8D2DAE38EC3D310F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAddStageAbilityByName*& a2)
+		static ::System::Void Method_3_804A296293DD2B10(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAddStageAbilityByName*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAddStageAbilityByName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTADDSTAGEABILITYBYNAME_METHOD_3_8D2DAE38EC3D310F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAddStageAbilityByName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTADDSTAGEABILITYBYNAME_METHOD_3_804A296293DD2B10_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8C98E7E750854DFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAddStageAbilityByName* a2)
+		static ::System::Void Method_3_744A64A7A5EBFB63(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAddStageAbilityByName* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAddStageAbilityByName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTADDSTAGEABILITYBYNAME_METHOD_3_8C98E7E750854DFE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAddStageAbilityByName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTADDSTAGEABILITYBYNAME_METHOD_3_744A64A7A5EBFB63_OFFSET))(a1, a2);
 		}
 	};
 }

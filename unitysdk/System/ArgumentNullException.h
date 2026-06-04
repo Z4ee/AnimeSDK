@@ -6,14 +6,14 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x177D7710)
-#define SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x177D7860)
-#define SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x177D78D0)
-#define SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x177D77C0)
+#define SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18591DB0)
+#define SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18591F00)
+#define SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x18591F70)
+#define SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18591E60)
 
 namespace System
 {
-	inline static constexpr unsigned int ArgumentNullException_TypeDefinitionIndex = 194;
+	inline static constexpr unsigned int ArgumentNullException_TypeDefinitionIndex = 193;
 
 	class ArgumentNullException : public ::System::ArgumentException
 	{
@@ -23,19 +23,19 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* paramName)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_1_OFFSET))(this, paramName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* paramName, ::System::String* message)
+		::System::Void _ctor_2(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_2_OFFSET))(this, paramName, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_3_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTNULLEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 	};
 }

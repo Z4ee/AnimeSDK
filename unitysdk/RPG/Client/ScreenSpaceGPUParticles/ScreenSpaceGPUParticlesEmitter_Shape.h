@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ScreenSpaceGPUParticles
 {
-	inline static constexpr unsigned int ScreenSpaceGPUParticlesEmitter_Shape_TypeDefinitionIndex = 67842;
+	inline static constexpr unsigned int ScreenSpaceGPUParticlesEmitter_Shape_TypeDefinitionIndex = 68800;
 
 	enum class ScreenSpaceGPUParticlesEmitter_Shape : ::System::Int32
 	{

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_STRINGCASECONTAINER_METHOD_3_9E9E7B3A2E1924A6_OFFSET UNITYSDK_OFFSET(0x18EA8F10)
-#define RPG_GAMECORE_STRINGCASECONTAINER_METHOD_3_A22FC063629C9975_OFFSET UNITYSDK_OFFSET(0x18EA8F50)
-#define RPG_GAMECORE_STRINGCASECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA8F40)
+#define RPG_GAMECORE_STRINGCASECONTAINER_METHOD_3_3AC806E1BD3C4917_OFFSET UNITYSDK_OFFSET(0x19CC61C0)
+#define RPG_GAMECORE_STRINGCASECONTAINER_METHOD_3_6099B8615EB4EDE0_OFFSET UNITYSDK_OFFSET(0x19CC6180)
+#define RPG_GAMECORE_STRINGCASECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC61B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StringCaseContainer_TypeDefinitionIndex = 16644;
+	inline static constexpr unsigned int StringCaseContainer_TypeDefinitionIndex = 16674;
 
 	class StringCaseContainer : public ::RPG::GameCore::CaseContainerBase
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGCASECONTAINER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9E9E7B3A2E1924A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StringCaseContainer*& a2)
+		static ::System::Void Method_3_6099B8615EB4EDE0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StringCaseContainer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StringCaseContainer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGCASECONTAINER_METHOD_3_9E9E7B3A2E1924A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StringCaseContainer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGCASECONTAINER_METHOD_3_6099B8615EB4EDE0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A22FC063629C9975(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StringCaseContainer* a2)
+		static ::System::Void Method_3_3AC806E1BD3C4917(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StringCaseContainer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StringCaseContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGCASECONTAINER_METHOD_3_A22FC063629C9975_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StringCaseContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRINGCASECONTAINER_METHOD_3_3AC806E1BD3C4917_OFFSET))(a1, a2);
 		}
 	};
 }

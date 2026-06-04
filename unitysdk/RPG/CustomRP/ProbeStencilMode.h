@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ProbeStencilMode_TypeDefinitionIndex = 35070;
+	inline static constexpr unsigned int ProbeStencilMode_TypeDefinitionIndex = 35356;
 
 	enum class ProbeStencilMode : ::System::Int32
 	{

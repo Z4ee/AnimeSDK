@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Console { class ConsoleWelcomeDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1743DF10)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1743DF50)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C__SHOW_B__24_0_OFFSET UNITYSDK_OFFSET(0x1743DF60)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x182407E0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18240820)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C__SHOW_B__24_0_OFFSET UNITYSDK_OFFSET(0x18240830)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleWelcomeDialog___c_TypeDefinitionIndex = 7772;
+	inline static constexpr unsigned int ConsoleWelcomeDialog___c_TypeDefinitionIndex = 8675;
 
 	class ConsoleWelcomeDialog___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Console::ConsoleWelcomeDialog___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Console::ConsoleWelcomeDialog___c**)Il2CppClass::FromTypeDefinitionIndex(ConsoleWelcomeDialog___c_TypeDefinitionIndex)->GetStaticField(0x19BF0);
+			return (::MiHoYo::SDK::Console::ConsoleWelcomeDialog___c**)Il2CppClass::FromTypeDefinitionIndex(ConsoleWelcomeDialog___c_TypeDefinitionIndex)->GetStaticField(0xFC20);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::Console::ConsoleWelcomeDialog*>** StaticGet___9__24_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleWelcomeDialog*>**)Il2CppClass::FromTypeDefinitionIndex(ConsoleWelcomeDialog___c_TypeDefinitionIndex)->GetStaticField(0x19BF8);
+			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleWelcomeDialog*>**)Il2CppClass::FromTypeDefinitionIndex(ConsoleWelcomeDialog___c_TypeDefinitionIndex)->GetStaticField(0xFC28);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__24_0(::MiHoYo::SDK::Console::ConsoleWelcomeDialog* dialog)
+		::System::Void _Show_b__24_0(::MiHoYo::SDK::Console::ConsoleWelcomeDialog* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Console::ConsoleWelcomeDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C__SHOW_B__24_0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Console::ConsoleWelcomeDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C__SHOW_B__24_0_OFFSET))(this, a1);
 		}
 	};
 }

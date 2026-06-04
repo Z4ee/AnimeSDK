@@ -5,11 +5,9 @@
 namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace UnityEngine { class GameObject; }
 
-#define HEU_SCRIPTPARAMETEREXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x8C0FE30)
-#define HEU_SCRIPTPARAMETEREXAMPLE_UPDATEGRAVITY_OFFSET UNITYSDK_OFFSET(0x8C10210)
-#define HEU_SCRIPTPARAMETEREXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x8C102C0)
+#define HEU_SCRIPTPARAMETEREXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17EA2EA0)
 
-inline static constexpr unsigned int HEU_ScriptParameterExample_TypeDefinitionIndex = 40920;
+inline static constexpr unsigned int HEU_ScriptParameterExample_TypeDefinitionIndex = 37389;
 
 class HEU_ScriptParameterExample : public ::UnityEngine::MonoBehaviour
 {
@@ -22,15 +20,5 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEU_SCRIPTPARAMETEREXAMPLE__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Start()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEU_SCRIPTPARAMETEREXAMPLE_START_OFFSET))(this);
-	}
-
-	::System::Void UpdateGravity()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEU_SCRIPTPARAMETEREXAMPLE_UPDATEGRAVITY_OFFSET))(this);
 	}
 };

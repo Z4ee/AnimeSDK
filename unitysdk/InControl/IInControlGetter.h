@@ -4,7 +4,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int IInControlGetter_TypeDefinitionIndex = 37153;
+	inline static constexpr unsigned int IInControlGetter_TypeDefinitionIndex = 37885;
 
 	class IInControlGetter
 	{

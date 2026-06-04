@@ -5,18 +5,18 @@
 namespace RPG::Client { class Map_RefreshEntitiesExtraInfo; }
 namespace RPG::Client { class RuntimeGroupManager; }
 
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB13B170)
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS76_0___TRIGGERHOYOGROUPENTITIESREFRESHWITHSCREENTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0xB1447D0)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC88ED10)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS76_0___TRIGGERHOYOGROUPENTITIESREFRESHWITHSCREENTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0xC898200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass76_0_TypeDefinitionIndex = 57266;
+	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass76_0_TypeDefinitionIndex = 58056;
 
 	class RuntimeGroupManager___c__DisplayClass76_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Map_RefreshEntitiesExtraInfo* extraInfo; // 0x10
-		::RPG::Client::RuntimeGroupManager* __4__this; // 0x18
+		::RPG::Client::RuntimeGroupManager* __4__this; // 0x10
+		::RPG::Client::Map_RefreshEntitiesExtraInfo* extraInfo; // 0x18
 
 		::System::Void _ctor()
 		{

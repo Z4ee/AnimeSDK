@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xA132C10)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_GET_SHOWIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xA132BF0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0xA132BD0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_SET_SHOWIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xA132C00)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0xA132BE0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA132BC0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xB7AE840)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_GET_SHOWIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xB7AE820)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0xB7AE800)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_SET_SHOWIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xB7AE830)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0xB7AE810)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB7AE7F0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatPvEBattlePreparePageParam_TypeDefinitionIndex = 69889;
+	inline static constexpr unsigned int DiceCombatPvEBattlePreparePageParam_TypeDefinitionIndex = 70701;
 
 	class DiceCombatPvEBattlePreparePageParam : public ::System::Object
 	{
 	public:
-		::System::UInt32 _StageID_k__BackingField; // 0x10
-		::System::Boolean _ShowImmediately_k__BackingField; // 0x14
+		::System::Boolean _ShowImmediately_k__BackingField; // 0x10
+		::System::UInt32 _StageID_k__BackingField; // 0x14
 
 		::System::Void _ctor()
 		{
@@ -29,9 +29,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_GET_STAGEID_OFFSET))(this);
 		}
 
-		::System::Void set_StageID(::System::UInt32 value)
+		::System::Void set_StageID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_SET_STAGEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_SET_STAGEID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_ShowImmediately()
@@ -39,14 +39,14 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_GET_SHOWIMMEDIATELY_OFFSET))(this);
 		}
 
-		::System::Void set_ShowImmediately(::System::Boolean value)
+		::System::Void set_ShowImmediately(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_SET_SHOWIMMEDIATELY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_SET_SHOWIMMEDIATELY_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatPvEBattlePreparePageParam* Create(::System::UInt32 stageID, ::System::Boolean showImmediately)
+		static ::RPG::Client::DiceCombat::DiceCombatPvEBattlePreparePageParam* Create(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatPvEBattlePreparePageParam*(*)(::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_CREATE_OFFSET))(stageID, showImmediately);
+			return ((::RPG::Client::DiceCombat::DiceCombatPvEBattlePreparePageParam*(*)(::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVEBATTLEPREPAREPAGEPARAM_CREATE_OFFSET))(a1, a2);
 		}
 	};
 }

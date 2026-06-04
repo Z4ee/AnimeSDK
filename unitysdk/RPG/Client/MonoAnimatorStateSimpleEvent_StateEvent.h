@@ -7,12 +7,12 @@ namespace RPG::Client { class MonoAnimatorStateSimpleEvent_Event; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_STATEEVENT_METHOD_1_9E6A43039EB02D1E_OFFSET UNITYSDK_OFFSET(0xA90DD10)
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_STATEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA90DFA0)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_STATEEVENT_METHOD_1_9E6A43039EB02D1E_OFFSET UNITYSDK_OFFSET(0xC058510)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_STATEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC0587B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_StateEvent_TypeDefinitionIndex = 63181;
+	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_StateEvent_TypeDefinitionIndex = 64098;
 
 	class MonoAnimatorStateSimpleEvent_StateEvent : public ::System::Object
 	{

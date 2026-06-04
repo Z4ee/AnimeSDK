@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class ByIsBodyPartClientOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_A745CCAF07AE878E__CTOR_OFFSET UNITYSDK_OFFSET(0xD9C0490)
+#define CLASS_4_A745CCAF07AE878E__CTOR_OFFSET UNITYSDK_OFFSET(0xA5F1530)
 
-inline static constexpr unsigned int Class_4_A745CCAF07AE878E_TypeDefinitionIndex = 50414;
+inline static constexpr unsigned int Class_4_A745CCAF07AE878E_TypeDefinitionIndex = 51079;
 
 class Class_4_A745CCAF07AE878E : public ::Class_3_F8475F35C1D70A82
 {

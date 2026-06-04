@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define TMPRO_FONTASSETCREATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x22DE1C0)
+#define TMPRO_FONTASSETCREATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x387A3F0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FontAssetCreationSettings_TypeDefinitionIndex = 40129;
+	inline static constexpr unsigned int FontAssetCreationSettings_TypeDefinitionIndex = 40956;
 
 	struct alignas(8) FontAssetCreationSettings
 	{
@@ -29,9 +29,9 @@ namespace TMPro
 		::System::Int32 renderMode; // 0x60
 		::System::Boolean includeFontFeatures; // 0x64
 
-		::System::Void _ctor(::System::String* sourceFontFileGUID, ::System::Int32 pointSize, ::System::Int32 pointSizeSamplingMode, ::System::Int32 padding, ::System::Int32 packingMode, ::System::Int32 atlasWidth, ::System::Int32 atlasHeight, ::System::Int32 characterSelectionMode, ::System::String* characterSet, ::System::Int32 renderMode)
+		::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::String* a9, ::System::Int32 a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_FONTASSETCREATIONSETTINGS__CTOR_OFFSET))(this, sourceFontFileGUID, pointSize, pointSizeSamplingMode, padding, packingMode, atlasWidth, atlasHeight, characterSelectionMode, characterSet, renderMode);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + TMPRO_FONTASSETCREATIONSETTINGS__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 	};
 }

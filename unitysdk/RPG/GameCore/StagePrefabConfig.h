@@ -7,12 +7,12 @@ namespace RPG::GameCore { class StageTypePrefabs; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAGEPREFABCONFIG_METHOD_2_6D4EAF06F6BA6B3D_OFFSET UNITYSDK_OFFSET(0x18E90AB0)
-#define RPG_GAMECORE_STAGEPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E90BC0)
+#define RPG_GAMECORE_STAGEPREFABCONFIG_METHOD_2_ACC913841008953F_OFFSET UNITYSDK_OFFSET(0x19CAE200)
+#define RPG_GAMECORE_STAGEPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CAE300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePrefabConfig_TypeDefinitionIndex = 15476;
+	inline static constexpr unsigned int StagePrefabConfig_TypeDefinitionIndex = 15539;
 
 	class StagePrefabConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPREFABCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6D4EAF06F6BA6B3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StagePrefabConfig*& a2)
+		static ::System::Void Method_2_ACC913841008953F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StagePrefabConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StagePrefabConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPREFABCONFIG_METHOD_2_6D4EAF06F6BA6B3D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StagePrefabConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEPREFABCONFIG_METHOD_2_ACC913841008953F_OFFSET))(a1, a2);
 		}
 	};
 }

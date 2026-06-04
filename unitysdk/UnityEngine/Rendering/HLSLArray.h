@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_RENDERING_HLSLARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A320A20)
+#define UNITYENGINE_RENDERING_HLSLARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17B410)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int HLSLArray_TypeDefinitionIndex = 33487;
+	inline static constexpr unsigned int HLSLArray_TypeDefinitionIndex = 33769;
 
 	class HLSLArray : public ::System::Attribute
 	{
@@ -16,9 +16,9 @@ namespace UnityEngine::Rendering
 		::System::Type* elementType; // 0x10
 		::System::Int32 arraySize; // 0x18
 
-		::System::Void _ctor(::System::Int32 arraySize, ::System::Type* elementType)
+		::System::Void _ctor(::System::Int32 a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HLSLARRAY__CTOR_OFFSET))(this, arraySize, elementType);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HLSLARRAY__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

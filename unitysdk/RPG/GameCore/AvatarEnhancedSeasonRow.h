@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARENHANCEDSEASONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186BF9E0)
-#define RPG_GAMECORE_AVATARENHANCEDSEASONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186BFB00)
+#define RPG_GAMECORE_AVATARENHANCEDSEASONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19496280)
+#define RPG_GAMECORE_AVATARENHANCEDSEASONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194963A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarEnhancedSeasonRow_TypeDefinitionIndex = 12090;
+	inline static constexpr unsigned int AvatarEnhancedSeasonRow_TypeDefinitionIndex = 12180;
 
 	class AvatarEnhancedSeasonRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARENHANCEDSEASONROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AvatarEnhancedSeasonRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarEnhancedSeasonRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarEnhancedSeasonRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARENHANCEDSEASONROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarEnhancedSeasonRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARENHANCEDSEASONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

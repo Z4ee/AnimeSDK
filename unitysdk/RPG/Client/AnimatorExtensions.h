@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_ANIMATOREXTENSIONS_REBINDWITHPRESTATUS_OFFSET UNITYSDK_OFFSET(0x9D25100)
+#define RPG_CLIENT_ANIMATOREXTENSIONS_REBINDWITHPRESTATUS_OFFSET UNITYSDK_OFFSET(0xB3149D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorExtensions_TypeDefinitionIndex = 55432;
+	inline static constexpr unsigned int AnimatorExtensions_TypeDefinitionIndex = 56177;
 
 	class AnimatorExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Void RebindWithPreStatus(::UnityEngine::Animator* animator)
+		static ::System::Void RebindWithPreStatus(::UnityEngine::Animator* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATOREXTENSIONS_REBINDWITHPRESTATUS_OFFSET))(animator);
+			return ((::System::Void(*)(::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATOREXTENSIONS_REBINDWITHPRESTATUS_OFFSET))(a1);
 		}
 	};
 }

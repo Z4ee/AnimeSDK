@@ -14,275 +14,275 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CUSTOMRP_RPMATH_ADDMUL_OFFSET UNITYSDK_OFFSET(0x1816E890)
-#define RPG_CUSTOMRP_RPMATH_ADD_1_OFFSET UNITYSDK_OFFSET(0x1816E8E0)
-#define RPG_CUSTOMRP_RPMATH_ADD_OFFSET UNITYSDK_OFFSET(0x1816E840)
-#define RPG_CUSTOMRP_RPMATH_BOXINTERSECTFRUSTUM_OFFSET UNITYSDK_OFFSET(0x1816E2F0)
-#define RPG_CUSTOMRP_RPMATH_DOT_1_OFFSET UNITYSDK_OFFSET(0x18143430)
-#define RPG_CUSTOMRP_RPMATH_DOT_OFFSET UNITYSDK_OFFSET(0x1816D8B0)
-#define RPG_CUSTOMRP_RPMATH_GAMMATOLINEARSPACEHDR_OFFSET UNITYSDK_OFFSET(0x1816F420)
-#define RPG_CUSTOMRP_RPMATH_GETCOLUMN_1_OFFSET UNITYSDK_OFFSET(0x1816E770)
-#define RPG_CUSTOMRP_RPMATH_GETCOLUMN_OFFSET UNITYSDK_OFFSET(0x1816EDE0)
-#define RPG_CUSTOMRP_RPMATH_GETRANDOM2D_OFFSET UNITYSDK_OFFSET(0x1816EB20)
-#define RPG_CUSTOMRP_RPMATH_INTERSECTSAABB_OFFSET UNITYSDK_OFFSET(0x1816E230)
-#define RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_1_OFFSET UNITYSDK_OFFSET(0x1816F1C0)
-#define RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_2_OFFSET UNITYSDK_OFFSET(0x1816F4E0)
-#define RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_OFFSET UNITYSDK_OFFSET(0x1816E960)
-#define RPG_CUSTOMRP_RPMATH_ISSAME_1_OFFSET UNITYSDK_OFFSET(0x1816E930)
-#define RPG_CUSTOMRP_RPMATH_ISSAME_2_OFFSET UNITYSDK_OFFSET(0x18143170)
-#define RPG_CUSTOMRP_RPMATH_ISSAME_3_OFFSET UNITYSDK_OFFSET(0x1816E9A0)
-#define RPG_CUSTOMRP_RPMATH_ISSAME_4_OFFSET UNITYSDK_OFFSET(0x18143200)
-#define RPG_CUSTOMRP_RPMATH_ISSAME_5_OFFSET UNITYSDK_OFFSET(0x1816F3D0)
-#define RPG_CUSTOMRP_RPMATH_ISSAME_6_OFFSET UNITYSDK_OFFSET(0x181431B0)
-#define RPG_CUSTOMRP_RPMATH_ISSAME_OFFSET UNITYSDK_OFFSET(0x1816D8D0)
-#define RPG_CUSTOMRP_RPMATH_MAD_OFFSET UNITYSDK_OFFSET(0x1816E900)
-#define RPG_CUSTOMRP_RPMATH_MAX2_OFFSET UNITYSDK_OFFSET(0x1816E870)
-#define RPG_CUSTOMRP_RPMATH_MIN2_OFFSET UNITYSDK_OFFSET(0x1816E800)
-#define RPG_CUSTOMRP_RPMATH_MULCOLUMN_OFFSET UNITYSDK_OFFSET(0x1816F010)
-#define RPG_CUSTOMRP_RPMATH_MULINDEX_OFFSET UNITYSDK_OFFSET(0x1816EF50)
-#define RPG_CUSTOMRP_RPMATH_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x181442F0)
-#define RPG_CUSTOMRP_RPMATH_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x18160990)
-#define RPG_CUSTOMRP_RPMATH_MUL_1_OFFSET UNITYSDK_OFFSET(0x1816EC10)
-#define RPG_CUSTOMRP_RPMATH_MUL_OFFSET UNITYSDK_OFFSET(0x1816E7E0)
-#define RPG_CUSTOMRP_RPMATH_NEARDISTPOINT2AABB_1_OFFSET UNITYSDK_OFFSET(0x1816DC00)
-#define RPG_CUSTOMRP_RPMATH_NEARDISTPOINT2AABB_OFFSET UNITYSDK_OFFSET(0x1816DA30)
-#define RPG_CUSTOMRP_RPMATH_NEARDIST_OFFSET UNITYSDK_OFFSET(0x1816D880)
-#define RPG_CUSTOMRP_RPMATH_NEARPOINT2AABB_1_OFFSET UNITYSDK_OFFSET(0x1816DFB0)
-#define RPG_CUSTOMRP_RPMATH_NEARPOINT2AABB_OFFSET UNITYSDK_OFFSET(0x1816DD30)
-#define RPG_CUSTOMRP_RPMATH_RGB_NEWA_OFFSET UNITYSDK_OFFSET(0x1816F3B0)
-#define RPG_CUSTOMRP_RPMATH_SETCOLUMN_OFFSET UNITYSDK_OFFSET(0x1816EE80)
-#define RPG_CUSTOMRP_RPMATH_SETIDENTITY_OFFSET UNITYSDK_OFFSET(0x1816F0E0)
-#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_1_OFFSET UNITYSDK_OFFSET(0x1816D920)
-#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_2_OFFSET UNITYSDK_OFFSET(0x1816D950)
-#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_3_OFFSET UNITYSDK_OFFSET(0x1816D980)
-#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_4_OFFSET UNITYSDK_OFFSET(0x1816D990)
-#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_5_OFFSET UNITYSDK_OFFSET(0x1816D9E0)
-#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_6_OFFSET UNITYSDK_OFFSET(0x1816E9F0)
-#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_7_OFFSET UNITYSDK_OFFSET(0x1816EA30)
-#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_8_OFFSET UNITYSDK_OFFSET(0x1816EA80)
-#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_9_OFFSET UNITYSDK_OFFSET(0x1816F480)
-#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_OFFSET UNITYSDK_OFFSET(0x1816D8F0)
-#define RPG_CUSTOMRP_RPMATH_SETORTHO_OFFSET UNITYSDK_OFFSET(0x1816F110)
-#define RPG_CUSTOMRP_RPMATH_SET_1_OFFSET UNITYSDK_OFFSET(0x1816EBA0)
-#define RPG_CUSTOMRP_RPMATH_SET_OFFSET UNITYSDK_OFFSET(0x1816E820)
-#define RPG_CUSTOMRP_RPMATH_SQR_1_OFFSET UNITYSDK_OFFSET(0x1816EAE0)
-#define RPG_CUSTOMRP_RPMATH_SQR_OFFSET UNITYSDK_OFFSET(0x181433F0)
-#define RPG_CUSTOMRP_RPMATH_SUB_OFFSET UNITYSDK_OFFSET(0x1816E8C0)
-#define RPG_CUSTOMRP_RPMATH_TRANSFORMBOUNDS_OFFSET UNITYSDK_OFFSET(0x1816E420)
-#define RPG_CUSTOMRP_RPMATH_VECTOR2AABBSQR_OFFSET UNITYSDK_OFFSET(0x1816E290)
+#define RPG_CUSTOMRP_RPMATH_ADDMUL_OFFSET UNITYSDK_OFFSET(0x18F14960)
+#define RPG_CUSTOMRP_RPMATH_ADD_1_OFFSET UNITYSDK_OFFSET(0x18F149B0)
+#define RPG_CUSTOMRP_RPMATH_ADD_OFFSET UNITYSDK_OFFSET(0x18F14910)
+#define RPG_CUSTOMRP_RPMATH_BOXINTERSECTFRUSTUM_OFFSET UNITYSDK_OFFSET(0x18F143C0)
+#define RPG_CUSTOMRP_RPMATH_DOT_1_OFFSET UNITYSDK_OFFSET(0x18EE9580)
+#define RPG_CUSTOMRP_RPMATH_DOT_OFFSET UNITYSDK_OFFSET(0x18F139B0)
+#define RPG_CUSTOMRP_RPMATH_GAMMATOLINEARSPACEHDR_OFFSET UNITYSDK_OFFSET(0x18F154B0)
+#define RPG_CUSTOMRP_RPMATH_GETCOLUMN_1_OFFSET UNITYSDK_OFFSET(0x18F14840)
+#define RPG_CUSTOMRP_RPMATH_GETCOLUMN_OFFSET UNITYSDK_OFFSET(0x18F14EB0)
+#define RPG_CUSTOMRP_RPMATH_GETRANDOM2D_OFFSET UNITYSDK_OFFSET(0x18F14BF0)
+#define RPG_CUSTOMRP_RPMATH_INTERSECTSAABB_OFFSET UNITYSDK_OFFSET(0x18F14300)
+#define RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_1_OFFSET UNITYSDK_OFFSET(0x18F15250)
+#define RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_2_OFFSET UNITYSDK_OFFSET(0x18F15570)
+#define RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_OFFSET UNITYSDK_OFFSET(0x18F14A30)
+#define RPG_CUSTOMRP_RPMATH_ISSAME_1_OFFSET UNITYSDK_OFFSET(0x18F14A00)
+#define RPG_CUSTOMRP_RPMATH_ISSAME_2_OFFSET UNITYSDK_OFFSET(0x18EE92C0)
+#define RPG_CUSTOMRP_RPMATH_ISSAME_3_OFFSET UNITYSDK_OFFSET(0x18F14A70)
+#define RPG_CUSTOMRP_RPMATH_ISSAME_4_OFFSET UNITYSDK_OFFSET(0x18EE9350)
+#define RPG_CUSTOMRP_RPMATH_ISSAME_5_OFFSET UNITYSDK_OFFSET(0x18F15460)
+#define RPG_CUSTOMRP_RPMATH_ISSAME_6_OFFSET UNITYSDK_OFFSET(0x18EE9300)
+#define RPG_CUSTOMRP_RPMATH_ISSAME_OFFSET UNITYSDK_OFFSET(0x18F139D0)
+#define RPG_CUSTOMRP_RPMATH_MAD_OFFSET UNITYSDK_OFFSET(0x18F149D0)
+#define RPG_CUSTOMRP_RPMATH_MAX2_OFFSET UNITYSDK_OFFSET(0x18F14940)
+#define RPG_CUSTOMRP_RPMATH_MIN2_OFFSET UNITYSDK_OFFSET(0x18F148D0)
+#define RPG_CUSTOMRP_RPMATH_MULCOLUMN_OFFSET UNITYSDK_OFFSET(0x18F150A0)
+#define RPG_CUSTOMRP_RPMATH_MULINDEX_OFFSET UNITYSDK_OFFSET(0x18F14FE0)
+#define RPG_CUSTOMRP_RPMATH_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x18EEA430)
+#define RPG_CUSTOMRP_RPMATH_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x18F067F0)
+#define RPG_CUSTOMRP_RPMATH_MUL_1_OFFSET UNITYSDK_OFFSET(0x18F14CE0)
+#define RPG_CUSTOMRP_RPMATH_MUL_OFFSET UNITYSDK_OFFSET(0x18F148B0)
+#define RPG_CUSTOMRP_RPMATH_NEARDISTPOINT2AABB_1_OFFSET UNITYSDK_OFFSET(0x18F13CD0)
+#define RPG_CUSTOMRP_RPMATH_NEARDISTPOINT2AABB_OFFSET UNITYSDK_OFFSET(0x18F13B30)
+#define RPG_CUSTOMRP_RPMATH_NEARDIST_OFFSET UNITYSDK_OFFSET(0x18F13980)
+#define RPG_CUSTOMRP_RPMATH_NEARPOINT2AABB_1_OFFSET UNITYSDK_OFFSET(0x18F14080)
+#define RPG_CUSTOMRP_RPMATH_NEARPOINT2AABB_OFFSET UNITYSDK_OFFSET(0x18F13E00)
+#define RPG_CUSTOMRP_RPMATH_RGB_NEWA_OFFSET UNITYSDK_OFFSET(0x18F15440)
+#define RPG_CUSTOMRP_RPMATH_SETCOLUMN_OFFSET UNITYSDK_OFFSET(0x18F14F50)
+#define RPG_CUSTOMRP_RPMATH_SETIDENTITY_OFFSET UNITYSDK_OFFSET(0x18F15170)
+#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_1_OFFSET UNITYSDK_OFFSET(0x18F13A20)
+#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_2_OFFSET UNITYSDK_OFFSET(0x18F13A50)
+#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_3_OFFSET UNITYSDK_OFFSET(0x18F13A80)
+#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_4_OFFSET UNITYSDK_OFFSET(0x18F13A90)
+#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_5_OFFSET UNITYSDK_OFFSET(0x18F13AE0)
+#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_6_OFFSET UNITYSDK_OFFSET(0x18F14AC0)
+#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_7_OFFSET UNITYSDK_OFFSET(0x18F14B00)
+#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_8_OFFSET UNITYSDK_OFFSET(0x18F14B50)
+#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_9_OFFSET UNITYSDK_OFFSET(0x18F15510)
+#define RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_OFFSET UNITYSDK_OFFSET(0x18F139F0)
+#define RPG_CUSTOMRP_RPMATH_SETORTHO_OFFSET UNITYSDK_OFFSET(0x18F151A0)
+#define RPG_CUSTOMRP_RPMATH_SET_1_OFFSET UNITYSDK_OFFSET(0x18F14C70)
+#define RPG_CUSTOMRP_RPMATH_SET_OFFSET UNITYSDK_OFFSET(0x18F148F0)
+#define RPG_CUSTOMRP_RPMATH_SQR_1_OFFSET UNITYSDK_OFFSET(0x18F14BB0)
+#define RPG_CUSTOMRP_RPMATH_SQR_OFFSET UNITYSDK_OFFSET(0x18EE9540)
+#define RPG_CUSTOMRP_RPMATH_SUB_OFFSET UNITYSDK_OFFSET(0x18F14990)
+#define RPG_CUSTOMRP_RPMATH_TRANSFORMBOUNDS_OFFSET UNITYSDK_OFFSET(0x18F144F0)
+#define RPG_CUSTOMRP_RPMATH_VECTOR2AABBSQR_OFFSET UNITYSDK_OFFSET(0x18F14360)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPMath_TypeDefinitionIndex = 35257;
+	inline static constexpr unsigned int RPMath_TypeDefinitionIndex = 35557;
 
 	class RPMath : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Vector3* StaticGet_tmp0()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(RPMath_TypeDefinitionIndex)->GetStaticField(0x108B0);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(RPMath_TypeDefinitionIndex)->GetStaticField(0x12530);
 		}
 		static ::UnityEngine::Vector3* StaticGet_tmp1()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(RPMath_TypeDefinitionIndex)->GetStaticField(0x108BC);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(RPMath_TypeDefinitionIndex)->GetStaticField(0x1253C);
 		}
 		static ::RPG::CustomRP::RPMath_TransformBoundsTmp* StaticGet_boundTmp()
 		{
-			return (::RPG::CustomRP::RPMath_TransformBoundsTmp*)Il2CppClass::FromTypeDefinitionIndex(RPMath_TypeDefinitionIndex)->GetStaticField(0x108C8);
+			return (::RPG::CustomRP::RPMath_TransformBoundsTmp*)Il2CppClass::FromTypeDefinitionIndex(RPMath_TypeDefinitionIndex)->GetStaticField(0x12548);
 		}
 		static ::UnityEngine::Matrix4x4* StaticGet_tmpMatrix0()
 		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(RPMath_TypeDefinitionIndex)->GetStaticField(0x10958);
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(RPMath_TypeDefinitionIndex)->GetStaticField(0x125D8);
 		}
 
-		static ::System::Boolean NearDist(::System::Single min, ::System::Single max, ::System::Single pos, ::System::Single& d)
+		static ::System::Boolean NearDist(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single& a4)
 		{
-			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_NEARDIST_OFFSET))(min, max, pos, d);
+			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_NEARDIST_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single Dot(::System::Single vx, ::System::Single vy, ::System::Single vz, ::System::Single x, ::System::Single y, ::System::Single z)
+		static ::System::Single Dot(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_DOT_OFFSET))(vx, vy, vz, x, y, z);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_DOT_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean IsSame(::System::Single a, ::System::Single b)
+		static ::System::Boolean IsSame(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetIfNotSame(::System::Single& a, ::System::Single b)
+		static ::System::Boolean SetIfNotSame(::System::Single& a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetIfNotSame_1(::System::Int32& a, ::System::Int32 b)
+		static ::System::Boolean SetIfNotSame_1(::System::Int32& a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_1_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetIfNotSame_2(::System::UInt32& a, ::System::UInt32 b)
+		static ::System::Boolean SetIfNotSame_2(::System::UInt32& a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::System::UInt32&, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_2_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::System::UInt32&, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetIfNotSame_3(::System::Boolean& a, ::System::Boolean b)
+		static ::System::Boolean SetIfNotSame_3(::System::Boolean& a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_3_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::System::Boolean&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetIfNotSame_4(::System::String*& a, ::System::String* b)
+		static ::System::Boolean SetIfNotSame_4(::System::String*& a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*&, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_4_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::System::String*&, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_4_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetIfNotSame_5(::UnityEngine::GameObject*& a, ::UnityEngine::GameObject* b)
+		static ::System::Boolean SetIfNotSame_5(::UnityEngine::GameObject*& a1, ::UnityEngine::GameObject* a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::GameObject*&, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_5_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::GameObject*&, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_5_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single NearDistPoint2AABB(::UnityEngine::Vector3& ext, ::UnityEngine::Vector3& pos)
+		static ::System::Single NearDistPoint2AABB(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_NEARDISTPOINT2AABB_OFFSET))(ext, pos);
+			return ((::System::Single(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_NEARDISTPOINT2AABB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single NearDistPoint2AABB_1(::UnityEngine::Vector4& ext, ::UnityEngine::Vector3& pos)
+		static ::System::Single NearDistPoint2AABB_1(::UnityEngine::Vector4& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_NEARDISTPOINT2AABB_1_OFFSET))(ext, pos);
+			return ((::System::Single(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_NEARDISTPOINT2AABB_1_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 NearPoint2AABB(::UnityEngine::Vector3& ext, ::UnityEngine::Vector3& pos)
+		static ::UnityEngine::Vector3 NearPoint2AABB(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_NEARPOINT2AABB_OFFSET))(ext, pos);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_NEARPOINT2AABB_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 NearPoint2AABB_1(::UnityEngine::Vector4& ext, ::UnityEngine::Vector3& pos)
+		static ::UnityEngine::Vector3 NearPoint2AABB_1(::UnityEngine::Vector4& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_NEARPOINT2AABB_1_OFFSET))(ext, pos);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_NEARPOINT2AABB_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IntersectsAABB(::UnityEngine::Vector3& min0, ::UnityEngine::Vector3& max0, ::UnityEngine::Vector3& min1, ::UnityEngine::Vector3& max1)
+		static ::System::Boolean IntersectsAABB(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Vector3& a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_INTERSECTSAABB_OFFSET))(min0, max0, min1, max1);
+			return ((::System::Boolean(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_INTERSECTSAABB_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single Vector2AABBSqr(::UnityEngine::Vector3& pos, ::RPG::CustomRP::AABB& aabb)
+		static ::System::Single Vector2AABBSqr(::UnityEngine::Vector3& a1, ::RPG::CustomRP::AABB& a2)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector3&, ::RPG::CustomRP::AABB&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_VECTOR2AABBSQR_OFFSET))(pos, aabb);
+			return ((::System::Single(*)(::UnityEngine::Vector3&, ::RPG::CustomRP::AABB&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_VECTOR2AABBSQR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean BoxIntersectFrustum(::RPG::CustomRP::AABB& aabb, ::Il2CppArray<::UnityEngine::Plane>* planes)
+		static ::System::Boolean BoxIntersectFrustum(::RPG::CustomRP::AABB& a1, ::Il2CppArray<::UnityEngine::Plane>* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::CustomRP::AABB&, ::Il2CppArray<::UnityEngine::Plane>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_BOXINTERSECTFRUSTUM_OFFSET))(aabb, planes);
+			return ((::System::Boolean(*)(::RPG::CustomRP::AABB&, ::Il2CppArray<::UnityEngine::Plane>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_BOXINTERSECTFRUSTUM_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void TransformBounds(::UnityEngine::Matrix4x4& m, ::RPG::CustomRP::AABB& bounds, ::RPG::CustomRP::AABB& boundsLS)
+		static ::System::Void TransformBounds(::UnityEngine::Matrix4x4& a1, ::RPG::CustomRP::AABB& a2, ::RPG::CustomRP::AABB& a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::RPG::CustomRP::AABB&, ::RPG::CustomRP::AABB&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_TRANSFORMBOUNDS_OFFSET))(m, bounds, boundsLS);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::RPG::CustomRP::AABB&, ::RPG::CustomRP::AABB&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_TRANSFORMBOUNDS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Set(::UnityEngine::Vector3& result, ::UnityEngine::Vector3& v)
+		static ::System::Void Set(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SET_OFFSET))(result, v);
+			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SET_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Add(::UnityEngine::Vector3& result, ::UnityEngine::Vector3& v)
+		static ::System::Void Add(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ADD_OFFSET))(result, v);
+			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ADD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Add_1(::UnityEngine::Vector3& result, ::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b)
+		static ::System::Void Add_1(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ADD_1_OFFSET))(result, a, b);
+			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ADD_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void AddMul(::UnityEngine::Vector3& result, ::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b, ::System::Single s)
+		static ::System::Void AddMul(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ADDMUL_OFFSET))(result, a, b, s);
+			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ADDMUL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Mad(::UnityEngine::Vector3& result, ::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b, ::System::Single s)
+		static ::System::Void Mad(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MAD_OFFSET))(result, a, b, s);
+			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MAD_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void Sub(::UnityEngine::Vector3& result, ::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b)
+		static ::System::Void Sub(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SUB_OFFSET))(result, a, b);
+			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SUB_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Mul(::UnityEngine::Vector3& result, ::UnityEngine::Vector3& v, ::System::Single scale)
+		static ::System::Void Mul(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MUL_OFFSET))(result, v, scale);
+			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MUL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Vector4 Multiply(::UnityEngine::Vector4& a, ::UnityEngine::Vector4& b)
+		static ::UnityEngine::Vector4 Multiply(::UnityEngine::Vector4& a1, ::UnityEngine::Vector4& a2)
 		{
-			return ((::UnityEngine::Vector4(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MULTIPLY_OFFSET))(a, b);
+			return ((::UnityEngine::Vector4(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MULTIPLY_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 Multiply_1(::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b)
+		static ::UnityEngine::Vector3 Multiply_1(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MULTIPLY_1_OFFSET))(a, b);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MULTIPLY_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Min2(::UnityEngine::Vector3& result, ::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b)
+		static ::System::Void Min2(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MIN2_OFFSET))(result, a, b);
+			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MIN2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Max2(::UnityEngine::Vector3& result, ::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b)
+		static ::System::Void Max2(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MAX2_OFFSET))(result, a, b);
+			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MAX2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean IsSame_1(::UnityEngine::Vector2& a, ::UnityEngine::Vector2& b)
+		static ::System::Boolean IsSame_1(::UnityEngine::Vector2& a1, ::UnityEngine::Vector2& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector2&, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_1_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::Vector2&, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsSame_2(::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b)
+		static ::System::Boolean IsSame_2(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_2_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsSameRough(::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b, ::System::Single eps)
+		static ::System::Boolean IsSameRough(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_OFFSET))(a, b, eps);
+			return ((::System::Boolean(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean IsSame_3(::UnityEngine::Vector4& a, ::UnityEngine::Vector4& b)
+		static ::System::Boolean IsSame_3(::UnityEngine::Vector4& a1, ::UnityEngine::Vector4& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_3_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetIfNotSame_6(::UnityEngine::Vector2& a, ::UnityEngine::Vector2& b)
+		static ::System::Boolean SetIfNotSame_6(::UnityEngine::Vector2& a1, ::UnityEngine::Vector2& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector2&, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_6_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::Vector2&, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetIfNotSame_7(::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b)
+		static ::System::Boolean SetIfNotSame_7(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_7_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean SetIfNotSame_8(::UnityEngine::Vector4& a, ::UnityEngine::Vector4& b)
+		static ::System::Boolean SetIfNotSame_8(::UnityEngine::Vector4& a1, ::UnityEngine::Vector4& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_8_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Sqr(::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b)
+		static ::System::Single Sqr(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SQR_OFFSET))(a, b);
+			return ((::System::Single(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SQR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Sqr_1(::UnityEngine::Vector4& a, ::UnityEngine::Vector3& b)
+		static ::System::Single Sqr_1(::UnityEngine::Vector4& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SQR_1_OFFSET))(a, b);
+			return ((::System::Single(*)(::UnityEngine::Vector4&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SQR_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single Dot_1(::UnityEngine::Vector3& a, ::UnityEngine::Vector3& b)
+		static ::System::Single Dot_1(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_DOT_1_OFFSET))(a, b);
+			return ((::System::Single(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_DOT_1_OFFSET))(a1, a2);
 		}
 
 		static ::UnityEngine::Vector2 GetRandom2D()
@@ -290,89 +290,89 @@ namespace RPG::CustomRP
 			return ((::UnityEngine::Vector2(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_GETRANDOM2D_OFFSET))();
 		}
 
-		static ::System::Void Set_1(::UnityEngine::Matrix4x4& result, ::UnityEngine::Matrix4x4& v)
+		static ::System::Void Set_1(::UnityEngine::Matrix4x4& a1, ::UnityEngine::Matrix4x4& a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SET_1_OFFSET))(result, v);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SET_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Mul_1(::UnityEngine::Matrix4x4& result, ::UnityEngine::Matrix4x4& lhs, ::UnityEngine::Matrix4x4& rhs)
+		static ::System::Void Mul_1(::UnityEngine::Matrix4x4& a1, ::UnityEngine::Matrix4x4& a2, ::UnityEngine::Matrix4x4& a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MUL_1_OFFSET))(result, lhs, rhs);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MUL_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void GetColumn(::UnityEngine::Matrix4x4& matrix, ::System::Int32 index, ::UnityEngine::Vector4& result)
+		static ::System::Void GetColumn(::UnityEngine::Matrix4x4& a1, ::System::Int32 a2, ::UnityEngine::Vector4& a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Int32, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_GETCOLUMN_OFFSET))(matrix, index, result);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Int32, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_GETCOLUMN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void GetColumn_1(::UnityEngine::Matrix4x4& matrix, ::System::Int32 index, ::UnityEngine::Vector3& result)
+		static ::System::Void GetColumn_1(::UnityEngine::Matrix4x4& a1, ::System::Int32 a2, ::UnityEngine::Vector3& a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Int32, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_GETCOLUMN_1_OFFSET))(matrix, index, result);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Int32, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_GETCOLUMN_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetColumn(::UnityEngine::Matrix4x4& matrix, ::System::Int32 index, ::System::Single x, ::System::Single y, ::System::Single z, ::System::Single w)
+		static ::System::Void SetColumn(::UnityEngine::Matrix4x4& a1, ::System::Int32 a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETCOLUMN_OFFSET))(matrix, index, x, y, z, w);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETCOLUMN_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void MulIndex(::UnityEngine::Matrix4x4& matrix, ::System::Int32 index, ::System::Single s)
+		static ::System::Void MulIndex(::UnityEngine::Matrix4x4& a1, ::System::Int32 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MULINDEX_OFFSET))(matrix, index, s);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MULINDEX_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void MulColumn(::UnityEngine::Matrix4x4& matrix, ::System::Int32 index, ::System::Single s)
+		static ::System::Void MulColumn(::UnityEngine::Matrix4x4& a1, ::System::Int32 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MULCOLUMN_OFFSET))(matrix, index, s);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_MULCOLUMN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetIdentity(::UnityEngine::Matrix4x4& result)
+		static ::System::Void SetIdentity(::UnityEngine::Matrix4x4& a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIDENTITY_OFFSET))(result);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIDENTITY_OFFSET))(a1);
 		}
 
-		static ::System::Void SetOrtho(::UnityEngine::Matrix4x4& result, ::System::Single left, ::System::Single right, ::System::Single bottom, ::System::Single top, ::System::Single zNear, ::System::Single zFar)
+		static ::System::Void SetOrtho(::UnityEngine::Matrix4x4& a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETORTHO_OFFSET))(result, left, right, bottom, top, zNear, zFar);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETORTHO_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Boolean IsSame_4(::UnityEngine::Matrix4x4& a, ::UnityEngine::Matrix4x4& b)
+		static ::System::Boolean IsSame_4(::UnityEngine::Matrix4x4& a1, ::UnityEngine::Matrix4x4& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_4_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_4_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsSameRough_1(::UnityEngine::Matrix4x4& a, ::UnityEngine::Matrix4x4& b, ::System::Single eps)
+		static ::System::Boolean IsSameRough_1(::UnityEngine::Matrix4x4& a1, ::UnityEngine::Matrix4x4& a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_1_OFFSET))(a, b, eps);
+			return ((::System::Boolean(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Color RGB_NewA(::UnityEngine::Color& c, ::System::Single a)
+		static ::UnityEngine::Color RGB_NewA(::UnityEngine::Color& a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::Color&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_RGB_NEWA_OFFSET))(c, a);
+			return ((::UnityEngine::Color(*)(::UnityEngine::Color&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_RGB_NEWA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsSame_5(::UnityEngine::Color& a, ::UnityEngine::Color& b)
+		static ::System::Boolean IsSame_5(::UnityEngine::Color& a1, ::UnityEngine::Color& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Color&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_5_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::Color&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_5_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single GammaToLinearSpaceHDR(::System::Single value)
+		static ::System::Single GammaToLinearSpaceHDR(::System::Single a1)
 		{
-			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_GAMMATOLINEARSPACEHDR_OFFSET))(value);
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_GAMMATOLINEARSPACEHDR_OFFSET))(a1);
 		}
 
-		static ::System::Boolean SetIfNotSame_9(::UnityEngine::Color& a, ::UnityEngine::Color& b)
+		static ::System::Boolean SetIfNotSame_9(::UnityEngine::Color& a1, ::UnityEngine::Color& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Color&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_9_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::Color&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_SETIFNOTSAME_9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsSame_6(::UnityEngine::Quaternion& a, ::UnityEngine::Quaternion& b)
+		static ::System::Boolean IsSame_6(::UnityEngine::Quaternion& a1, ::UnityEngine::Quaternion& a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Quaternion&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_6_OFFSET))(a, b);
+			return ((::System::Boolean(*)(::UnityEngine::Quaternion&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAME_6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsSameRough_2(::UnityEngine::Quaternion& a, ::UnityEngine::Quaternion& b, ::System::Single eps)
+		static ::System::Boolean IsSameRough_2(::UnityEngine::Quaternion& a1, ::UnityEngine::Quaternion& a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Quaternion&, ::UnityEngine::Quaternion&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_2_OFFSET))(a, b, eps);
+			return ((::System::Boolean(*)(::UnityEngine::Quaternion&, ::UnityEngine::Quaternion&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPMATH_ISSAMEROUGH_2_OFFSET))(a1, a2, a3);
 		}
 	};
 }

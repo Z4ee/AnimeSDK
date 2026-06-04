@@ -9,16 +9,16 @@
 
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_BOOLFIELD_OFFSET UNITYSDK_OFFSET(0x18176D80)
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_FLOATFIELD_OFFSET UNITYSDK_OFFSET(0x18176AF0)
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_INTFIELD_OFFSET UNITYSDK_OFFSET(0x18176C50)
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_ONGUI_OFFSET UNITYSDK_OFFSET(0x18176DA0)
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_TOENGINE_OFFSET UNITYSDK_OFFSET(0x18176A50)
-#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x181769E0)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_BOOLFIELD_OFFSET UNITYSDK_OFFSET(0x18F1C940)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_FLOATFIELD_OFFSET UNITYSDK_OFFSET(0x18F1C6B0)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_INTFIELD_OFFSET UNITYSDK_OFFSET(0x18F1C810)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_ONGUI_OFFSET UNITYSDK_OFFSET(0x18F1C960)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_TOENGINE_OFFSET UNITYSDK_OFFSET(0x18F1C610)
+#define RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18F1C5A0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReflectionSetting_SSGISettingData_TypeDefinitionIndex = 35227;
+	inline static constexpr unsigned int ReflectionSetting_SSGISettingData_TypeDefinitionIndex = 35527;
 
 	class ReflectionSetting_SSGISettingData : public ::System::Object
 	{
@@ -53,24 +53,24 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ToEngine(::UnityEngine::Rendering::SSGISettings& settings)
+		::System::Void ToEngine(::UnityEngine::Rendering::SSGISettings& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::SSGISettings&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_TOENGINE_OFFSET))(this, settings);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::SSGISettings&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_TOENGINE_OFFSET))(this, a1);
 		}
 
-		::System::Single FloatField(::System::Single v, ::System::String* name, ::System::Single minValue, ::System::Single maxValue)
+		::System::Single FloatField(::System::Single a1, ::System::String* a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::String*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_FLOATFIELD_OFFSET))(this, v, name, minValue, maxValue);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::String*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_FLOATFIELD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 IntField(::System::Int32 v, ::System::String* name, ::System::Int32 minValue, ::System::Int32 maxValue)
+		::System::Int32 IntField(::System::Int32 a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_INTFIELD_OFFSET))(this, v, name, minValue, maxValue);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_INTFIELD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean BoolField(::System::Boolean v, ::System::String* name)
+		::System::Boolean BoolField(::System::Boolean a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_BOOLFIELD_OFFSET))(this, v, name);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_REFLECTIONSETTING_SSGISETTINGDATA_BOOLFIELD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnGUI()

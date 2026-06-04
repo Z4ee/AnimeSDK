@@ -7,17 +7,17 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Light; }
 
-#define RPG_CUSTOMRP_LIGHTCOLLECTION_APPLYLIGHTMODE_OFFSET UNITYSDK_OFFSET(0xB4ED680)
-#define RPG_CUSTOMRP_LIGHTCOLLECTION_GET_MODE_OFFSET UNITYSDK_OFFSET(0xB4ED5C0)
-#define RPG_CUSTOMRP_LIGHTCOLLECTION_METHOD_5_778B92FF9B739AF4_OFFSET UNITYSDK_OFFSET(0xB4ED770)
-#define RPG_CUSTOMRP_LIGHTCOLLECTION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB4ED6F0)
-#define RPG_CUSTOMRP_LIGHTCOLLECTION_SET_MODE_OFFSET UNITYSDK_OFFSET(0xB4ED5D0)
-#define RPG_CUSTOMRP_LIGHTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB4ED880)
-#define RPG_CUSTOMRP_LIGHTCOLLECTION__GET_LIGHTSCANNOTBEBAKED_B__9_0_OFFSET UNITYSDK_OFFSET(0xB4ED890)
+#define RPG_CUSTOMRP_LIGHTCOLLECTION_APPLYLIGHTMODE_OFFSET UNITYSDK_OFFSET(0xCC53630)
+#define RPG_CUSTOMRP_LIGHTCOLLECTION_GET_MODE_OFFSET UNITYSDK_OFFSET(0xCC53570)
+#define RPG_CUSTOMRP_LIGHTCOLLECTION_METHOD_5_4A3C3BDB6511B6FD_OFFSET UNITYSDK_OFFSET(0xCC53720)
+#define RPG_CUSTOMRP_LIGHTCOLLECTION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCC536A0)
+#define RPG_CUSTOMRP_LIGHTCOLLECTION_SET_MODE_OFFSET UNITYSDK_OFFSET(0xCC53580)
+#define RPG_CUSTOMRP_LIGHTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xCC53850)
+#define RPG_CUSTOMRP_LIGHTCOLLECTION__GET_LIGHTSCANNOTBEBAKED_B__9_0_OFFSET UNITYSDK_OFFSET(0xCC53860)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LightCollection_TypeDefinitionIndex = 47846;
+	inline static constexpr unsigned int LightCollection_TypeDefinitionIndex = 48461;
 
 	class LightCollection : public ::UnityEngine::MonoBehaviour
 	{
@@ -50,14 +50,14 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LIGHTCOLLECTION_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::Light*>* Method_5_778B92FF9B739AF4()
+		::System::Collections::Generic::List_1<::UnityEngine::Light*>* Method_5_4A3C3BDB6511B6FD()
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::Light*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LIGHTCOLLECTION_METHOD_5_778B92FF9B739AF4_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Light*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LIGHTCOLLECTION_METHOD_5_4A3C3BDB6511B6FD_OFFSET))(this);
 		}
 
-		::System::Boolean _get_LightsCanNotBeBaked_b__9_0(::UnityEngine::Light* l)
+		::System::Boolean _get_LightsCanNotBeBaked_b__9_0(::UnityEngine::Light* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LIGHTCOLLECTION__GET_LIGHTSCANNOTBEBAKED_B__9_0_OFFSET))(this, l);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_LIGHTCOLLECTION__GET_LIGHTSCANNOTBEBAKED_B__9_0_OFFSET))(this, a1);
 		}
 	};
 }

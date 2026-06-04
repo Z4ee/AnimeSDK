@@ -7,21 +7,21 @@
 
 namespace RPG::GameCore { class FiveDimMapSurfaceConfig; }
 
-#define CLASS_1_0DE34E2ADC1B5120_GET_SURFACEID_OFFSET UNITYSDK_OFFSET(0xB4A3A10)
-#define CLASS_1_0DE34E2ADC1B5120_GET__POSITIONINFACE_OFFSET UNITYSDK_OFFSET(0xB4A3A30)
-#define CLASS_1_0DE34E2ADC1B5120_METHOD_1_4EC38B34F0D76336_OFFSET UNITYSDK_OFFSET(0xB4A3990)
-#define CLASS_1_0DE34E2ADC1B5120_METHOD_1_941CB5DD620FAC6A_OFFSET UNITYSDK_OFFSET(0xB4A3A50)
-#define CLASS_1_0DE34E2ADC1B5120_SET_SURFACEID_OFFSET UNITYSDK_OFFSET(0xB4A3A20)
-#define CLASS_1_0DE34E2ADC1B5120_SET__POSITIONINFACE_OFFSET UNITYSDK_OFFSET(0xB4A3A40)
-#define CLASS_1_0DE34E2ADC1B5120__CTOR_OFFSET UNITYSDK_OFFSET(0xB4A3A00)
+#define CLASS_1_0DE34E2ADC1B5120_GET_SURFACEID_OFFSET UNITYSDK_OFFSET(0x13693C30)
+#define CLASS_1_0DE34E2ADC1B5120_GET__POSITIONINFACE_OFFSET UNITYSDK_OFFSET(0x13693C50)
+#define CLASS_1_0DE34E2ADC1B5120_METHOD_1_4EC38B34F0D76336_OFFSET UNITYSDK_OFFSET(0x13693BB0)
+#define CLASS_1_0DE34E2ADC1B5120_METHOD_1_941CB5DD620FAC6A_OFFSET UNITYSDK_OFFSET(0x13693C70)
+#define CLASS_1_0DE34E2ADC1B5120_SET_SURFACEID_OFFSET UNITYSDK_OFFSET(0x13693C40)
+#define CLASS_1_0DE34E2ADC1B5120_SET__POSITIONINFACE_OFFSET UNITYSDK_OFFSET(0x13693C60)
+#define CLASS_1_0DE34E2ADC1B5120__CTOR_OFFSET UNITYSDK_OFFSET(0x13693C20)
 
-inline static constexpr unsigned int Class_1_0DE34E2ADC1B5120_TypeDefinitionIndex = 68896;
+inline static constexpr unsigned int Class_1_0DE34E2ADC1B5120_TypeDefinitionIndex = 69708;
 
 class Class_1_0DE34E2ADC1B5120 : public ::System::Object
 {
 public:
-	::RPG::MVector2 __PositionInFace_k__BackingField; // 0x10
-	::System::UInt32 _SurfaceID_k__BackingField; // 0x18
+	::System::UInt32 _SurfaceID_k__BackingField; // 0x10
+	::RPG::MVector2 __PositionInFace_k__BackingField; // 0x14
 
 	::System::Void _ctor()
 	{
@@ -38,9 +38,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0DE34E2ADC1B5120_GET_SURFACEID_OFFSET))(this);
 	}
 
-	::System::Void set_SurfaceID(::System::UInt32 value)
+	::System::Void set_SurfaceID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_0DE34E2ADC1B5120_SET_SURFACEID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_0DE34E2ADC1B5120_SET_SURFACEID_OFFSET))(this, a1);
 	}
 
 	::RPG::MVector2 get__PositionInFace()
@@ -48,9 +48,9 @@ public:
 		return ((::RPG::MVector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0DE34E2ADC1B5120_GET__POSITIONINFACE_OFFSET))(this);
 	}
 
-	::System::Void set__PositionInFace(::RPG::MVector2 value)
+	::System::Void set__PositionInFace(::RPG::MVector2 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::MVector2))((::PBYTE)hIl2Cpp + CLASS_1_0DE34E2ADC1B5120_SET__POSITIONINFACE_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::MVector2))((::PBYTE)hIl2Cpp + CLASS_1_0DE34E2ADC1B5120_SET__POSITIONINFACE_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::Vector3 Method_1_941CB5DD620FAC6A(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Int16 a3, ::UnityEngine::Vector2 a4)

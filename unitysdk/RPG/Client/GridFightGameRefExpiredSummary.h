@@ -10,41 +10,41 @@ namespace RPG::Client { class GridFightPortalData; }
 namespace RPG::Client { class GridFightSeasonRole; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_DELETEDEXPIREDROLES_OFFSET UNITYSDK_OFFSET(0xA4D0730)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_DELETEDSECONDARYEXPIREDROLES_OFFSET UNITYSDK_OFFSET(0xA4D09B0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_HASEXPIRED_OFFSET UNITYSDK_OFFSET(0xA4D0B10)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_HASMAINCHANGE_OFFSET UNITYSDK_OFFSET(0xA4D0BC0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_HASOTHERCHANGE_OFFSET UNITYSDK_OFFSET(0xA4D0C30)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_ISTOTALEXPIRED_OFFSET UNITYSDK_OFFSET(0xA4D0AF0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_POSEXPIREDROLES_OFFSET UNITYSDK_OFFSET(0xA4D05F0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_RARITYEXPIREDROLES_OFFSET UNITYSDK_OFFSET(0xA4D04B0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_RARITYSECONDARYEXPIREDROLES_OFFSET UNITYSDK_OFFSET(0xA4D0870)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_SET_ISTOTALEXPIRED_OFFSET UNITYSDK_OFFSET(0xA4D0B00)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA4D0CE0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY__CTOR_OFFSET UNITYSDK_OFFSET(0xA4C60A0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_DELETEDEXPIREDROLES_OFFSET UNITYSDK_OFFSET(0xBB74E20)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_DELETEDSECONDARYEXPIREDROLES_OFFSET UNITYSDK_OFFSET(0xBB750E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_HASEXPIRED_OFFSET UNITYSDK_OFFSET(0xBB75260)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_HASMAINCHANGE_OFFSET UNITYSDK_OFFSET(0xBB75310)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_HASOTHERCHANGE_OFFSET UNITYSDK_OFFSET(0xBB75380)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_ISTOTALEXPIRED_OFFSET UNITYSDK_OFFSET(0xBB75240)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_POSEXPIREDROLES_OFFSET UNITYSDK_OFFSET(0xBB74CC0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_RARITYEXPIREDROLES_OFFSET UNITYSDK_OFFSET(0xBB74B60)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_RARITYSECONDARYEXPIREDROLES_OFFSET UNITYSDK_OFFSET(0xBB74F80)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_SET_ISTOTALEXPIRED_OFFSET UNITYSDK_OFFSET(0xBB75250)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY__CTOR_1_OFFSET UNITYSDK_OFFSET(0xBB484B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY__CTOR_OFFSET UNITYSDK_OFFSET(0xBB6B960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefExpiredSummary_TypeDefinitionIndex = 59598;
+	inline static constexpr unsigned int GridFightGameRefExpiredSummary_TypeDefinitionIndex = 60533;
 
 	class GridFightGameRefExpiredSummary : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightAugment*>* ExpiredAugments; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightSeasonRole*>* ExpiredSecondaryRoles; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightPortalData*>* ExpiredPortals; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightSeasonRole*>* ExpiredRoles; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameRefTrait*>* ExpiredTraits; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameRefTrait*>* ExpiredTraits; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightSeasonRole*>* ExpiredSecondaryRoles; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightPortalData*>* ExpiredPortals; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightSeasonRole*>* ExpiredRoles; // 0x30
 		::System::Boolean _IsTotalExpired_k__BackingField; // 0x38
 
-		::System::Void _ctor(::RPG::Client::GridFightGameRefData* data)
+		::System::Void _ctor(::RPG::Client::GridFightGameRefData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGameRefData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY__CTOR_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGameRefData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::RPG::Client::GridFightGameFormation* formation)
+		::System::Void _ctor_1(::RPG::Client::GridFightGameFormation* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGameFormation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY__CTOR_1_OFFSET))(this, formation);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGameFormation*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightSeasonRole*>* get_RarityExpiredRoles()
@@ -77,9 +77,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_GET_ISTOTALEXPIRED_OFFSET))(this);
 		}
 
-		::System::Void set_IsTotalExpired(::System::Boolean value)
+		::System::Void set_IsTotalExpired(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_SET_ISTOTALEXPIRED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEXPIREDSUMMARY_SET_ISTOTALEXPIRED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasExpired()

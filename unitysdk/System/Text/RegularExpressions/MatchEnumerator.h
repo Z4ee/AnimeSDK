@@ -5,10 +5,10 @@
 namespace System::Text::RegularExpressions { class Match; }
 namespace System::Text::RegularExpressions { class MatchCollection; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A17B540)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1A17B4F0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1A17B590)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A17B490)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1AFDF340)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1AFDF2F0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1AFDF390)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFDF290)
 
 namespace System::Text::RegularExpressions
 {
@@ -22,9 +22,9 @@ namespace System::Text::RegularExpressions
 		::System::Boolean _done; // 0x20
 		::System::Int32 _curindex; // 0x24
 
-		::System::Void _ctor(::System::Text::RegularExpressions::MatchCollection* matchcoll)
+		::System::Void _ctor(::System::Text::RegularExpressions::MatchCollection* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::MatchCollection*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET))(this, matchcoll);
+			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::MatchCollection*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean MoveNext()

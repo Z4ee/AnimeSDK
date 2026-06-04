@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierConfigType_TypeDefinitionIndex = 10375;
+	inline static constexpr unsigned int RogueModifierConfigType_TypeDefinitionIndex = 10208;
 
 	enum class RogueModifierConfigType : ::System::Int32
 	{

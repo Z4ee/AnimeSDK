@@ -8,19 +8,19 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeNode; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_CREATE_OFFSET UNITYSDK_OFFSET(0x9B2B150)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_GETFIRSTREACHNODE_OFFSET UNITYSDK_OFFSET(0x9B399C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_GETFIRSTREACHROWINDEX_OFFSET UNITYSDK_OFFSET(0x9B3A030)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_GET_ROWS_OFFSET UNITYSDK_OFFSET(0x9B3A2E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_HASANYIDLELIVETECHTREECANACTIVATE_OFFSET UNITYSDK_OFFSET(0x9B2CBA0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_ISALLNODEACTIVATED_OFFSET UNITYSDK_OFFSET(0x9B3A1B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_SET_ROWS_OFFSET UNITYSDK_OFFSET(0x9B3A2F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x9B39850)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE__DETERMINEROWTYPE_OFFSET UNITYSDK_OFFSET(0x9B398D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_CREATE_OFFSET UNITYSDK_OFFSET(0xB111000)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_GETFIRSTREACHNODE_OFFSET UNITYSDK_OFFSET(0xB1201F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_GETFIRSTREACHROWINDEX_OFFSET UNITYSDK_OFFSET(0xB120760)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_GET_ROWS_OFFSET UNITYSDK_OFFSET(0xB120A90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_HASANYIDLELIVETECHTREECANACTIVATE_OFFSET UNITYSDK_OFFSET(0xB112760)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_ISALLNODEACTIVATED_OFFSET UNITYSDK_OFFSET(0xB120940)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_SET_ROWS_OFFSET UNITYSDK_OFFSET(0xB120AA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE__CTOR_OFFSET UNITYSDK_OFFSET(0xB120010)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE__DETERMINEROWTYPE_OFFSET UNITYSDK_OFFSET(0xB120090)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTechTree_TypeDefinitionIndex = 69456;
+	inline static constexpr unsigned int IdleLiveBaseTechTree_TypeDefinitionIndex = 70268;
 
 	class IdleLiveBaseTechTree : public ::System::Object
 	{
@@ -32,14 +32,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree* Create(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>* nodes)
+		static ::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree* Create(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>* a1)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree*(*)(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_CREATE_OFFSET))(nodes);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTree*(*)(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRowType _DetermineRowType(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>* nodes, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* successorDict)
+		static ::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRowType _DetermineRowType(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* a2)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRowType(*)(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE__DETERMINEROWTYPE_OFFSET))(nodes, successorDict);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRowType(*)(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE__DETERMINEROWTYPE_OFFSET))(a1, a2);
 		}
 
 		::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode* GetFirstReachNode()
@@ -67,9 +67,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRow*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_GET_ROWS_OFFSET))(this);
 		}
 
-		::System::Void set_Rows(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRow*>* value)
+		::System::Void set_Rows(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRow*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRow*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_SET_ROWS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveBaseTechTreeRow*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETECHTREE_SET_ROWS_OFFSET))(this, a1);
 		}
 	};
 }

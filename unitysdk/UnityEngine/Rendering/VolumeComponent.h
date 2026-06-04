@@ -8,26 +8,26 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Reflection { class FieldInfo; }
 namespace UnityEngine::Rendering { class VolumeParameter; }
 
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A338280)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1A337280)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x1A3372A0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_INTERP_OFFSET UNITYSDK_OFFSET(0x1A337B00)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A338320)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A337730)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A3372C0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_ONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1A337AF0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_OVERRIDE_OFFSET UNITYSDK_OFFSET(0x1A337990)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A3383A0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_SETALLOVERRIDESTO_1_OFFSET UNITYSDK_OFFSET(0x1A337CD0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_SETALLOVERRIDESTO_OFFSET UNITYSDK_OFFSET(0x1A337CC0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_SET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1A337290)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_SET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x1A3372B0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A338420)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT__ONENABLE_B__10_2_OFFSET UNITYSDK_OFFSET(0x1A338440)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B192B40)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1B191A50)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x1B191A70)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_INTERP_OFFSET UNITYSDK_OFFSET(0x1B1923B0)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B192BE0)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B191FE0)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B191A90)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_ONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1B1923A0)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_OVERRIDE_OFFSET UNITYSDK_OFFSET(0x1B192240)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_RELEASE_OFFSET UNITYSDK_OFFSET(0x1B192C60)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_SETALLOVERRIDESTO_1_OFFSET UNITYSDK_OFFSET(0x1B192580)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_SETALLOVERRIDESTO_OFFSET UNITYSDK_OFFSET(0x1B192570)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_SET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1B191A60)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT_SET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x1B191A80)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B192CE0)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT__ONENABLE_B__10_2_OFFSET UNITYSDK_OFFSET(0x1B192D00)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeComponent_TypeDefinitionIndex = 33528;
+	inline static constexpr unsigned int VolumeComponent_TypeDefinitionIndex = 33810;
 
 	class VolumeComponent : public ::UnityEngine::ScriptableObject
 	{
@@ -47,9 +47,9 @@ namespace UnityEngine::Rendering
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_GET_DISPLAYNAME_OFFSET))(this);
 		}
 
-		::System::Void set_displayName(::System::String* value)
+		::System::Void set_displayName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_SET_DISPLAYNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_SET_DISPLAYNAME_OFFSET))(this, a1);
 		}
 
 		::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* get_parameters()
@@ -57,9 +57,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_GET_PARAMETERS_OFFSET))(this);
 		}
 
-		::System::Void set_parameters(::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* value)
+		::System::Void set_parameters(::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_SET_PARAMETERS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_SET_PARAMETERS_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()
@@ -72,29 +72,29 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void Override(::UnityEngine::Rendering::VolumeComponent* state)
+		::System::Void Override(::UnityEngine::Rendering::VolumeComponent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::VolumeComponent*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_OVERRIDE_OFFSET))(this, state);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::VolumeComponent*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_OVERRIDE_OFFSET))(this, a1);
 		}
 
-		::System::Void OnOverride(::System::Boolean isActive)
+		::System::Void OnOverride(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_ONOVERRIDE_OFFSET))(this, isActive);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_ONOVERRIDE_OFFSET))(this, a1);
 		}
 
-		::System::Void Interp(::UnityEngine::Rendering::VolumeComponent* from, ::UnityEngine::Rendering::VolumeComponent* to, ::System::Single t)
+		::System::Void Interp(::UnityEngine::Rendering::VolumeComponent* a1, ::UnityEngine::Rendering::VolumeComponent* a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::VolumeComponent*, ::UnityEngine::Rendering::VolumeComponent*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_INTERP_OFFSET))(this, from, to, t);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::VolumeComponent*, ::UnityEngine::Rendering::VolumeComponent*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_INTERP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetAllOverridesTo(::System::Boolean state)
+		::System::Void SetAllOverridesTo(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_SETALLOVERRIDESTO_OFFSET))(this, state);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_SETALLOVERRIDESTO_OFFSET))(this, a1);
 		}
 
-		::System::Void SetAllOverridesTo_1(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>* enumerable, ::System::Boolean state)
+		::System::Void SetAllOverridesTo_1(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_SETALLOVERRIDESTO_1_OFFSET))(this, enumerable, state);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_SETALLOVERRIDESTO_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -112,9 +112,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT_RELEASE_OFFSET))(this);
 		}
 
-		::UnityEngine::Rendering::VolumeParameter* _OnEnable_b__10_2(::System::Reflection::FieldInfo* t)
+		::UnityEngine::Rendering::VolumeParameter* _OnEnable_b__10_2(::System::Reflection::FieldInfo* a1)
 		{
-			return ((::UnityEngine::Rendering::VolumeParameter*(*)(::PVOID, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT__ONENABLE_B__10_2_OFFSET))(this, t);
+			return ((::UnityEngine::Rendering::VolumeParameter*(*)(::PVOID, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMECOMPONENT__ONENABLE_B__10_2_OFFSET))(this, a1);
 		}
 	};
 }

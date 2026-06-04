@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_GET_READDATA_OFFSET UNITYSDK_OFFSET(0x17A6BBD0)
-#define NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_GET_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x17A6BBB0)
-#define NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_SET_READDATA_OFFSET UNITYSDK_OFFSET(0x17A6BBE0)
-#define NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_SET_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x17A6BBC0)
-#define NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A6BBF0)
+#define NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_GET_READDATA_OFFSET UNITYSDK_OFFSET(0x1881AD00)
+#define NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_GET_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1881ACE0)
+#define NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_SET_READDATA_OFFSET UNITYSDK_OFFSET(0x1881AD10)
+#define NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_SET_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1881ACF0)
+#define NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1881AD20)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonExtensionDataAttribute_TypeDefinitionIndex = 8337;
+	inline static constexpr unsigned int JsonExtensionDataAttribute_TypeDefinitionIndex = 9240;
 
 	class JsonExtensionDataAttribute : public ::System::Attribute
 	{
@@ -28,9 +28,9 @@ namespace Newtonsoft::Json
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_GET_WRITEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_WriteData(::System::Boolean value)
+		::System::Void set_WriteData(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_SET_WRITEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_SET_WRITEDATA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_ReadData()
@@ -38,9 +38,9 @@ namespace Newtonsoft::Json
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_GET_READDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ReadData(::System::Boolean value)
+		::System::Void set_ReadData(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_SET_READDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONEXTENSIONDATAATTRIBUTE_SET_READDATA_OFFSET))(this, a1);
 		}
 	};
 }

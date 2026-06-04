@@ -7,17 +7,17 @@ namespace Entitas { class IEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x12C5A3B0)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x12C5A3C0)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_INIT_OFFSET UNITYSDK_OFFSET(0x12C5A3D0)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12C5A730)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0x12C5A510)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0x12C5A690)
-#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x12C5A810)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x14707BF0)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x14707C00)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_INIT_OFFSET UNITYSDK_OFFSET(0x14707C10)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x147082B0)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0x14707EF0)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0x14708210)
+#define ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x14708510)
 
 namespace Entitas::VisualDebugging::Unity
 {
-	inline static constexpr unsigned int EntityBehaviour_TypeDefinitionIndex = 9887;
+	inline static constexpr unsigned int EntityBehaviour_TypeDefinitionIndex = 9714;
 
 	class EntityBehaviour : public ::UnityEngine::MonoBehaviour
 	{
@@ -42,14 +42,14 @@ namespace Entitas::VisualDebugging::Unity
 			return ((::Entitas::IEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_GET_ENTITY_OFFSET))(this);
 		}
 
-		::System::Void Init(::Entitas::IContext* context, ::Entitas::IEntity* entity, ::System::Collections::Generic::Stack_1<::Entitas::VisualDebugging::Unity::EntityBehaviour*>* entityBehaviourPool)
+		::System::Void Init(::Entitas::IContext* a1, ::Entitas::IEntity* a2, ::System::Collections::Generic::Stack_1<::Entitas::VisualDebugging::Unity::EntityBehaviour*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Entitas::IEntity*, ::System::Collections::Generic::Stack_1<::Entitas::VisualDebugging::Unity::EntityBehaviour*>*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_INIT_OFFSET))(this, context, entity, entityBehaviourPool);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Entitas::IEntity*, ::System::Collections::Generic::Stack_1<::Entitas::VisualDebugging::Unity::EntityBehaviour*>*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void onEntityReleased(::Entitas::IEntity* e)
+		::System::Void onEntityReleased(::Entitas::IEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_ONENTITYRELEASED_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_ENTITYBEHAVIOUR_ONENTITYRELEASED_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()

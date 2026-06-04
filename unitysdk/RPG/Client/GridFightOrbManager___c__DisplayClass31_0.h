@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightInteractableOrb; }
 namespace RPG::Client { class OrbSpawnConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA516490)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS31_0__REGENPENDINGSPHERES_B__0_OFFSET UNITYSDK_OFFSET(0xA517C90)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBBD8D0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS31_0__REGENPENDINGSPHERES_B__0_OFFSET UNITYSDK_OFFSET(0xBBBF040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass31_0_TypeDefinitionIndex = 59316;
+	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass31_0_TypeDefinitionIndex = 60251;
 
 	class GridFightOrbManager___c__DisplayClass31_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _ReGenPendingSpheres_b__0(::RPG::Client::OrbSpawnConfig* x)
+		::System::Boolean _ReGenPendingSpheres_b__0(::RPG::Client::OrbSpawnConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::OrbSpawnConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS31_0__REGENPENDINGSPHERES_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::OrbSpawnConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS31_0__REGENPENDINGSPHERES_B__0_OFFSET))(this, a1);
 		}
 	};
 }

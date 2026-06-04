@@ -5,24 +5,24 @@
 namespace UnityEngine::EventSystems { class BaseEventData; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_INTROBUTTON_GET_ENABLEGUIDECLOSEATTHEOUTSET_OFFSET UNITYSDK_OFFSET(0xA63A950)
-#define RPG_CLIENT_INTROBUTTON_GET_GUIDEID_OFFSET UNITYSDK_OFFSET(0xA63A8E0)
-#define RPG_CLIENT_INTROBUTTON_GET_INTRODUCEID_OFFSET UNITYSDK_OFFSET(0xA63A870)
-#define RPG_CLIENT_INTROBUTTON_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xA63A970)
-#define RPG_CLIENT_INTROBUTTON_ONSUBMIT_OFFSET UNITYSDK_OFFSET(0xA63AA90)
-#define RPG_CLIENT_INTROBUTTON_OPENINTRODUCEDIALOG_OFFSET UNITYSDK_OFFSET(0xA63AB40)
-#define RPG_CLIENT_INTROBUTTON_OPENTUTORIALGUIDEDIALOG_OFFSET UNITYSDK_OFFSET(0xA63AC80)
-#define RPG_CLIENT_INTROBUTTON_SET_ENABLEGUIDECLOSEATTHEOUTSET_OFFSET UNITYSDK_OFFSET(0xA63A960)
-#define RPG_CLIENT_INTROBUTTON_SET_GUIDEID_OFFSET UNITYSDK_OFFSET(0xA63A8F0)
-#define RPG_CLIENT_INTROBUTTON_SET_INTRODUCEID_OFFSET UNITYSDK_OFFSET(0xA63A880)
-#define RPG_CLIENT_INTROBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0xA63AE30)
-#define RPG_CLIENT_INTROBUTTON__OPENDIALOG_OFFSET UNITYSDK_OFFSET(0xA63AA20)
-#define RPG_CLIENT_INTROBUTTON___IFIXBASEPROXY_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xA63AED0)
-#define RPG_CLIENT_INTROBUTTON___IFIXBASEPROXY_ONSUBMIT_OFFSET UNITYSDK_OFFSET(0xA63AEE0)
+#define RPG_CLIENT_INTROBUTTON_GET_ENABLEGUIDECLOSEATTHEOUTSET_OFFSET UNITYSDK_OFFSET(0xBD3FC20)
+#define RPG_CLIENT_INTROBUTTON_GET_GUIDEID_OFFSET UNITYSDK_OFFSET(0xBD3FBB0)
+#define RPG_CLIENT_INTROBUTTON_GET_INTRODUCEID_OFFSET UNITYSDK_OFFSET(0xBD3FB40)
+#define RPG_CLIENT_INTROBUTTON_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xBD3FC40)
+#define RPG_CLIENT_INTROBUTTON_ONSUBMIT_OFFSET UNITYSDK_OFFSET(0xBD3FD60)
+#define RPG_CLIENT_INTROBUTTON_OPENINTRODUCEDIALOG_OFFSET UNITYSDK_OFFSET(0xBD3FE10)
+#define RPG_CLIENT_INTROBUTTON_OPENTUTORIALGUIDEDIALOG_OFFSET UNITYSDK_OFFSET(0xBD3FF40)
+#define RPG_CLIENT_INTROBUTTON_SET_ENABLEGUIDECLOSEATTHEOUTSET_OFFSET UNITYSDK_OFFSET(0xBD3FC30)
+#define RPG_CLIENT_INTROBUTTON_SET_GUIDEID_OFFSET UNITYSDK_OFFSET(0xBD3FBC0)
+#define RPG_CLIENT_INTROBUTTON_SET_INTRODUCEID_OFFSET UNITYSDK_OFFSET(0xBD3FB50)
+#define RPG_CLIENT_INTROBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0xBD400B0)
+#define RPG_CLIENT_INTROBUTTON__OPENDIALOG_OFFSET UNITYSDK_OFFSET(0xBD3FCF0)
+#define RPG_CLIENT_INTROBUTTON___IFIXBASEPROXY_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xBD40150)
+#define RPG_CLIENT_INTROBUTTON___IFIXBASEPROXY_ONSUBMIT_OFFSET UNITYSDK_OFFSET(0xBD40160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IntroButton_TypeDefinitionIndex = 66848;
+	inline static constexpr unsigned int IntroButton_TypeDefinitionIndex = 67788;
 
 	class IntroButton : public ::RPG::Client::AnimatorButton
 	{
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_GET_INTRODUCEID_OFFSET))(this);
 		}
 
-		::System::Void set_IntroduceID(::System::Int32 value)
+		::System::Void set_IntroduceID(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_SET_INTRODUCEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_SET_INTRODUCEID_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_GuideID()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_GET_GUIDEID_OFFSET))(this);
 		}
 
-		::System::Void set_GuideID(::System::Int32 value)
+		::System::Void set_GuideID(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_SET_GUIDEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_SET_GUIDEID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_EnableGuideCloseAtTheOutset()
@@ -61,19 +61,19 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_GET_ENABLEGUIDECLOSEATTHEOUTSET_OFFSET))(this);
 		}
 
-		::System::Void set_EnableGuideCloseAtTheOutset(::System::Boolean value)
+		::System::Void set_EnableGuideCloseAtTheOutset(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_SET_ENABLEGUIDECLOSEATTHEOUTSET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_SET_ENABLEGUIDECLOSEATTHEOUTSET_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_ONPOINTERCLICK_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_ONPOINTERCLICK_OFFSET))(this, a1);
 		}
 
-		::System::Void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData)
+		::System::Void OnSubmit(::UnityEngine::EventSystems::BaseEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_ONSUBMIT_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON_ONSUBMIT_OFFSET))(this, a1);
 		}
 
 		::System::Void OpenIntroduceDialog()
@@ -91,14 +91,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON__OPENDIALOG_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_OnPointerClick(::UnityEngine::EventSystems::PointerEventData* P0)
+		::System::Void __iFixBaseProxy_OnPointerClick(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON___IFIXBASEPROXY_ONPOINTERCLICK_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON___IFIXBASEPROXY_ONPOINTERCLICK_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_OnSubmit(::UnityEngine::EventSystems::BaseEventData* P0)
+		::System::Void __iFixBaseProxy_OnSubmit(::UnityEngine::EventSystems::BaseEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON___IFIXBASEPROXY_ONSUBMIT_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTROBUTTON___IFIXBASEPROXY_ONSUBMIT_OFFSET))(this, a1);
 		}
 	};
 }

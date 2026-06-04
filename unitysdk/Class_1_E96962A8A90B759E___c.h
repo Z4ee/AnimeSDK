@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class LoadingStratageConfigRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_E96962A8A90B759E___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x96EE120)
-#define CLASS_1_E96962A8A90B759E___C__CTOR_OFFSET UNITYSDK_OFFSET(0x96EE150)
-#define CLASS_1_E96962A8A90B759E___C___SELECTLOADINGSTRATEGYBYCONDITION_B__7_0_OFFSET UNITYSDK_OFFSET(0x96EE160)
+#define CLASS_1_E96962A8A90B759E___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1374B180)
+#define CLASS_1_E96962A8A90B759E___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1374B1B0)
+#define CLASS_1_E96962A8A90B759E___C___SELECTLOADINGSTRATEGYBYCONDITION_B__7_0_OFFSET UNITYSDK_OFFSET(0x1374B1C0)
 
-inline static constexpr unsigned int Class_1_E96962A8A90B759E___c_TypeDefinitionIndex = 55752;
+inline static constexpr unsigned int Class_1_E96962A8A90B759E___c_TypeDefinitionIndex = 56506;
 
 class Class_1_E96962A8A90B759E___c : public ::System::Object
 {
 public:
 	static ::System::Comparison_1<::RPG::GameCore::LoadingStratageConfigRow*>** StaticGet___9__7_0()
 	{
-		return (::System::Comparison_1<::RPG::GameCore::LoadingStratageConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E96962A8A90B759E___c_TypeDefinitionIndex)->GetStaticField(0x683E0);
+		return (::System::Comparison_1<::RPG::GameCore::LoadingStratageConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E96962A8A90B759E___c_TypeDefinitionIndex)->GetStaticField(0x53E90);
 	}
 	static ::Class_1_E96962A8A90B759E___c** StaticGet___9()
 	{
-		return (::Class_1_E96962A8A90B759E___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E96962A8A90B759E___c_TypeDefinitionIndex)->GetStaticField(0x683E8);
+		return (::Class_1_E96962A8A90B759E___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E96962A8A90B759E___c_TypeDefinitionIndex)->GetStaticField(0x53E98);
 	}
 
 	static ::System::Void _cctor()
@@ -33,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E96962A8A90B759E___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Int32 __SelectLoadingStrategyByCondition_b__7_0(::RPG::GameCore::LoadingStratageConfigRow* l, ::RPG::GameCore::LoadingStratageConfigRow* r)
+	::System::Int32 __SelectLoadingStrategyByCondition_b__7_0(::RPG::GameCore::LoadingStratageConfigRow* a1, ::RPG::GameCore::LoadingStratageConfigRow* a2)
 	{
-		return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::LoadingStratageConfigRow*, ::RPG::GameCore::LoadingStratageConfigRow*))((::PBYTE)hIl2Cpp + CLASS_1_E96962A8A90B759E___C___SELECTLOADINGSTRATEGYBYCONDITION_B__7_0_OFFSET))(this, l, r);
+		return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::LoadingStratageConfigRow*, ::RPG::GameCore::LoadingStratageConfigRow*))((::PBYTE)hIl2Cpp + CLASS_1_E96962A8A90B759E___C___SELECTLOADINGSTRATEGYBYCONDITION_B__7_0_OFFSET))(this, a1, a2);
 	}
 };

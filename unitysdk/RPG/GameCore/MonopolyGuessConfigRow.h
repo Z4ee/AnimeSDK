@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYGUESSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B48830)
-#define RPG_GAMECORE_MONOPOLYGUESSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B48980)
+#define RPG_GAMECORE_MONOPOLYGUESSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199605F0)
+#define RPG_GAMECORE_MONOPOLYGUESSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19960730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyGuessConfigRow_TypeDefinitionIndex = 11464;
+	inline static constexpr unsigned int MonopolyGuessConfigRow_TypeDefinitionIndex = 11509;
 
 	class MonopolyGuessConfigRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYGUESSCONFIGROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MonopolyGuessConfigRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyGuessConfigRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyGuessConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYGUESSCONFIGROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyGuessConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYGUESSCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

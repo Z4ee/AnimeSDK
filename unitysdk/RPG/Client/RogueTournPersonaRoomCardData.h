@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB0F9760)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB0F9710)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC84C1D0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC84C110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardData_TypeDefinitionIndex = 62431;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardData_TypeDefinitionIndex = 63364;
 
 	class RogueTournPersonaRoomCardData : public ::RPG::Client::RogueTournPersonaRoomCardDataBase
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::RogueTournPersonaRoomCardData* Create(::System::UInt32 compositionType, ::System::UInt32 level, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* attributeIDs)
+		static ::RPG::Client::RogueTournPersonaRoomCardData* Create(::System::UInt32 a1, ::System::UInt32 a2, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a3)
 		{
-			return ((::RPG::Client::RogueTournPersonaRoomCardData*(*)(::System::UInt32, ::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATA_CREATE_OFFSET))(compositionType, level, attributeIDs);
+			return ((::RPG::Client::RogueTournPersonaRoomCardData*(*)(::System::UInt32, ::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATA_CREATE_OFFSET))(a1, a2, a3);
 		}
 	};
 }

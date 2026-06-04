@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8EF8270)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8EF82C0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x8EF7F80)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x8EF7F60)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA3237E0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA323830)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_INVOKE_OFFSET UNITYSDK_OFFSET(0xA3237D0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL__CTOR_OFFSET UNITYSDK_OFFSET(0xA323760)
 
 namespace Epic::OnlineServices::PlayerDataStorage
 {
-	inline static constexpr unsigned int OnReadFileDataCallbackInternal_TypeDefinitionIndex = 41664;
+	inline static constexpr unsigned int OnReadFileDataCallbackInternal_TypeDefinitionIndex = 42467;
 
 	class OnReadFileDataCallbackInternal : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::PlayerDataStorage::ReadResult Invoke(::System::IntPtr data)
+		::Epic::OnlineServices::PlayerDataStorage::ReadResult Invoke(::System::IntPtr a1)
 		{
-			return ((::Epic::OnlineServices::PlayerDataStorage::ReadResult(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_INVOKE_OFFSET))(this, data);
+			return ((::Epic::OnlineServices::PlayerDataStorage::ReadResult(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::IntPtr data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::IntPtr a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::PlayerDataStorage::ReadResult EndInvoke(::System::IAsyncResult* result)
+		::Epic::OnlineServices::PlayerDataStorage::ReadResult EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::Epic::OnlineServices::PlayerDataStorage::ReadResult(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_ENDINVOKE_OFFSET))(this, result);
+			return ((::Epic::OnlineServices::PlayerDataStorage::ReadResult(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_ONREADFILEDATACALLBACKINTERNAL_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

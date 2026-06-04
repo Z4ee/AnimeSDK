@@ -6,15 +6,15 @@
 
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xB8DF160)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB8DED90)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8DF2E0)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xB8DF300)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB8DF2F0)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xD0220D0)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD021D00)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD022250)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xD022270)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD022260)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int GlobalMainIntensityTimelineBehaviour_TypeDefinitionIndex = 45184;
+	inline static constexpr unsigned int GlobalMainIntensityTimelineBehaviour_TypeDefinitionIndex = 45741;
 
 	class GlobalMainIntensityTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -43,14 +43,14 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable P0)
+		::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, a1);
 		}
 	};
 }

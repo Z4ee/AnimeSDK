@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_OPENCOCOON_METHOD_3_3BF9E5F25BCBCFA7_OFFSET UNITYSDK_OFFSET(0x18BC4C40)
-#define RPG_GAMECORE_OPENCOCOON_METHOD_3_95896F15BD909E25_OFFSET UNITYSDK_OFFSET(0x18BC4DB0)
-#define RPG_GAMECORE_OPENCOCOON__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC4D10)
+#define RPG_GAMECORE_OPENCOCOON_METHOD_3_0E4B80EF56F3735F_OFFSET UNITYSDK_OFFSET(0x199D6790)
+#define RPG_GAMECORE_OPENCOCOON_METHOD_3_9CB9B48AC89C2503_OFFSET UNITYSDK_OFFSET(0x199D6900)
+#define RPG_GAMECORE_OPENCOCOON__CTOR_OFFSET UNITYSDK_OFFSET(0x199D6860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenCocoon_TypeDefinitionIndex = 20948;
+	inline static constexpr unsigned int OpenCocoon_TypeDefinitionIndex = 20861;
 
 	class OpenCocoon : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENCOCOON__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3BF9E5F25BCBCFA7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenCocoon*& a2)
+		static ::System::Void Method_3_0E4B80EF56F3735F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenCocoon*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenCocoon*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENCOCOON_METHOD_3_3BF9E5F25BCBCFA7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenCocoon*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENCOCOON_METHOD_3_0E4B80EF56F3735F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_95896F15BD909E25(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenCocoon* a2)
+		static ::System::Void Method_3_9CB9B48AC89C2503(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenCocoon* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenCocoon*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENCOCOON_METHOD_3_95896F15BD909E25_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenCocoon*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENCOCOON_METHOD_3_9CB9B48AC89C2503_OFFSET))(a1, a2);
 		}
 	};
 }

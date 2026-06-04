@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int KeyboardType_TypeDefinitionIndex = 9965;
+	inline static constexpr unsigned int KeyboardType_TypeDefinitionIndex = 9792;
 
 	enum class KeyboardType : ::System::Int32
 	{

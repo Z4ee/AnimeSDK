@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class FormationMovePause; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1E7EF57EB64C3175_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x90107A0)
-#define CLASS_3_1E7EF57EB64C3175__CTOR_OFFSET UNITYSDK_OFFSET(0x9010770)
+#define CLASS_3_1E7EF57EB64C3175_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA3ABCE0)
+#define CLASS_3_1E7EF57EB64C3175__CTOR_OFFSET UNITYSDK_OFFSET(0xA3ABCB0)
 
-inline static constexpr unsigned int Class_3_1E7EF57EB64C3175_TypeDefinitionIndex = 53616;
+inline static constexpr unsigned int Class_3_1E7EF57EB64C3175_TypeDefinitionIndex = 54329;
 
 class Class_3_1E7EF57EB64C3175 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::FormationMovePause*>
 {

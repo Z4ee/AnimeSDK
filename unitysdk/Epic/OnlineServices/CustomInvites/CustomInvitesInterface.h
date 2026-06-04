@@ -13,22 +13,22 @@ namespace Epic::OnlineServices::CustomInvites { class SendCustomInviteOptions; }
 namespace Epic::OnlineServices::CustomInvites { class SetCustomInviteOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ADDNOTIFYCUSTOMINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0x8E64B00)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ADDNOTIFYCUSTOMINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0x8E64DA0)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_FINALIZEINVITE_OFFSET UNITYSDK_OFFSET(0x8E65040)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONCUSTOMINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E64930)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONCUSTOMINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E649C0)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONSENDCUSTOMINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E64A50)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_REMOVENOTIFYCUSTOMINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0x8E651A0)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_REMOVENOTIFYCUSTOMINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0x8E65280)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_SENDCUSTOMINVITE_OFFSET UNITYSDK_OFFSET(0x8E65360)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_SETCUSTOMINVITE_OFFSET UNITYSDK_OFFSET(0x8E65540)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8E64AF0)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8E64AE0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ADDNOTIFYCUSTOMINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0xA2A9510)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ADDNOTIFYCUSTOMINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0xA2A97C0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_FINALIZEINVITE_OFFSET UNITYSDK_OFFSET(0xA2A9A70)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONCUSTOMINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2A9310)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONCUSTOMINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2A93B0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONSENDCUSTOMINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2A9450)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_REMOVENOTIFYCUSTOMINVITEACCEPTED_OFFSET UNITYSDK_OFFSET(0xA2A9BD0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_REMOVENOTIFYCUSTOMINVITERECEIVED_OFFSET UNITYSDK_OFFSET(0xA2A9CB0)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_SENDCUSTOMINVITE_OFFSET UNITYSDK_OFFSET(0xA2A9D90)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_SETCUSTOMINVITE_OFFSET UNITYSDK_OFFSET(0xA2A9F70)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA2A9500)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA2A94F0)
 
 namespace Epic::OnlineServices::CustomInvites
 {
-	inline static constexpr unsigned int CustomInvitesInterface_TypeDefinitionIndex = 42236;
+	inline static constexpr unsigned int CustomInvitesInterface_TypeDefinitionIndex = 43039;
 
 	class CustomInvitesInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -45,59 +45,59 @@ namespace Epic::OnlineServices::CustomInvites
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyCustomInviteAccepted(::Epic::OnlineServices::CustomInvites::AddNotifyCustomInviteAcceptedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::CustomInvites::OnCustomInviteAcceptedCallback* notificationFn)
+		::System::UInt64 AddNotifyCustomInviteAccepted(::Epic::OnlineServices::CustomInvites::AddNotifyCustomInviteAcceptedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::CustomInvites::OnCustomInviteAcceptedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::AddNotifyCustomInviteAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::CustomInvites::OnCustomInviteAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ADDNOTIFYCUSTOMINVITEACCEPTED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::AddNotifyCustomInviteAcceptedOptions*, ::System::Object*, ::Epic::OnlineServices::CustomInvites::OnCustomInviteAcceptedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ADDNOTIFYCUSTOMINVITEACCEPTED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyCustomInviteReceived(::Epic::OnlineServices::CustomInvites::AddNotifyCustomInviteReceivedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::CustomInvites::OnCustomInviteReceivedCallback* notificationFn)
+		::System::UInt64 AddNotifyCustomInviteReceived(::Epic::OnlineServices::CustomInvites::AddNotifyCustomInviteReceivedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::CustomInvites::OnCustomInviteReceivedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::AddNotifyCustomInviteReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::CustomInvites::OnCustomInviteReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ADDNOTIFYCUSTOMINVITERECEIVED_OFFSET))(this, options, clientData, notificationFn);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::AddNotifyCustomInviteReceivedOptions*, ::System::Object*, ::Epic::OnlineServices::CustomInvites::OnCustomInviteReceivedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ADDNOTIFYCUSTOMINVITERECEIVED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result FinalizeInvite(::Epic::OnlineServices::CustomInvites::FinalizeInviteOptions* options)
+		::Epic::OnlineServices::Result FinalizeInvite(::Epic::OnlineServices::CustomInvites::FinalizeInviteOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::FinalizeInviteOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_FINALIZEINVITE_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::FinalizeInviteOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_FINALIZEINVITE_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyCustomInviteAccepted(::System::UInt64 inId)
+		::System::Void RemoveNotifyCustomInviteAccepted(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_REMOVENOTIFYCUSTOMINVITEACCEPTED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_REMOVENOTIFYCUSTOMINVITEACCEPTED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyCustomInviteReceived(::System::UInt64 inId)
+		::System::Void RemoveNotifyCustomInviteReceived(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_REMOVENOTIFYCUSTOMINVITERECEIVED_OFFSET))(this, inId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_REMOVENOTIFYCUSTOMINVITERECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void SendCustomInvite(::Epic::OnlineServices::CustomInvites::SendCustomInviteOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::CustomInvites::OnSendCustomInviteCallback* completionDelegate)
+		::System::Void SendCustomInvite(::Epic::OnlineServices::CustomInvites::SendCustomInviteOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::CustomInvites::OnSendCustomInviteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::SendCustomInviteOptions*, ::System::Object*, ::Epic::OnlineServices::CustomInvites::OnSendCustomInviteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_SENDCUSTOMINVITE_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::SendCustomInviteOptions*, ::System::Object*, ::Epic::OnlineServices::CustomInvites::OnSendCustomInviteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_SENDCUSTOMINVITE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result SetCustomInvite(::Epic::OnlineServices::CustomInvites::SetCustomInviteOptions* options)
+		::Epic::OnlineServices::Result SetCustomInvite(::Epic::OnlineServices::CustomInvites::SetCustomInviteOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::SetCustomInviteOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_SETCUSTOMINVITE_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::CustomInvites::SetCustomInviteOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_SETCUSTOMINVITE_OFFSET))(this, a1);
 		}
 
-		static ::System::Void OnCustomInviteAcceptedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnCustomInviteAcceptedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONCUSTOMINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONCUSTOMINVITEACCEPTEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnCustomInviteReceivedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnCustomInviteReceivedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONCUSTOMINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONCUSTOMINVITERECEIVEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnSendCustomInviteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnSendCustomInviteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONSENDCUSTOMINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CUSTOMINVITES_CUSTOMINVITESINTERFACE_ONSENDCUSTOMINVITECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

@@ -7,11 +7,11 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_CRYSTALTRANSFORMSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0xA1BB590)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_CRYSTALTRANSFORMSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0xB83E4D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_AbyssCrystalManager_CrystalTransformStruct_TypeDefinitionIndex = 64921;
+	inline static constexpr unsigned int Effect_AbyssCrystalManager_CrystalTransformStruct_TypeDefinitionIndex = 65847;
 
 	class Effect_AbyssCrystalManager_CrystalTransformStruct : public ::System::Object
 	{

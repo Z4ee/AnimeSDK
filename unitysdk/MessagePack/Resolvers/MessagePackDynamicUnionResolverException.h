@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MESSAGEPACK_RESOLVERS_MESSAGEPACKDYNAMICUNIONRESOLVEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17383C10)
+#define MESSAGEPACK_RESOLVERS_MESSAGEPACKDYNAMICUNIONRESOLVEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1818E800)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int MessagePackDynamicUnionResolverException_TypeDefinitionIndex = 9319;
+	inline static constexpr unsigned int MessagePackDynamicUnionResolverException_TypeDefinitionIndex = 7222;
 
 	class MessagePackDynamicUnionResolverException : public ::MessagePack::MessagePackSerializationException
 	{
 	public:
-		::System::Void _ctor(::System::String* message)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_RESOLVERS_MESSAGEPACKDYNAMICUNIONRESOLVEREXCEPTION__CTOR_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_RESOLVERS_MESSAGEPACKDYNAMICUNIONRESOLVEREXCEPTION__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_NET_HTTP_STRINGCONTENT_GETBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x19F74C30)
-#define SYSTEM_NET_HTTP_STRINGCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F74980)
+#define SYSTEM_NET_HTTP_STRINGCONTENT_GETBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1ADEA800)
+#define SYSTEM_NET_HTTP_STRINGCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADEA450)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int StringContent_TypeDefinitionIndex = 4796;
+	inline static constexpr unsigned int StringContent_TypeDefinitionIndex = 3763;
 
 	class StringContent : public ::System::Net::Http::ByteArrayContent
 	{
 	public:
-		::System::Void _ctor(::System::String* content, ::System::Text::Encoding* encoding, ::System::String* mediaType)
+		::System::Void _ctor(::System::String* a1, ::System::Text::Encoding* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Text::Encoding*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_STRINGCONTENT__CTOR_OFFSET))(this, content, encoding, mediaType);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Text::Encoding*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_STRINGCONTENT__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::System::Byte>* GetByteArray(::System::String* content, ::System::Text::Encoding* encoding)
+		static ::Il2CppArray<::System::Byte>* GetByteArray(::System::String* a1, ::System::Text::Encoding* a2)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_STRINGCONTENT_GETBYTEARRAY_OFFSET))(content, encoding);
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_STRINGCONTENT_GETBYTEARRAY_OFFSET))(a1, a2);
 		}
 	};
 }

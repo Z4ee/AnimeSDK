@@ -8,29 +8,29 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_CREATEBRIDGEELEMENT_OFFSET UNITYSDK_OFFSET(0x1760DD00)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x17616170)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYELEMENTSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x176168F0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYGETCAPTCHAFAILED_OFFSET UNITYSDK_OFFSET(0x176165A0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYGETCAPTCHASUCCESS_OFFSET UNITYSDK_OFFSET(0x176163C0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYHIDEELEMENTS_OFFSET UNITYSDK_OFFSET(0x176168E0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYSHOWELEMENTS_OFFSET UNITYSDK_OFFSET(0x17616670)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYSHOWORHIDEELEMENTS_OFFSET UNITYSDK_OFFSET(0x17616680)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_UPDATEGETCAPTCHAELEMENTTEXT_OFFSET UNITYSDK_OFFSET(0x17616510)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_UPDATEPLUGINUIELEMENT_OFFSET UNITYSDK_OFFSET(0x17616250)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17616A20)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17616160)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_CREATEBRIDGEELEMENT_OFFSET UNITYSDK_OFFSET(0x183EA910)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x183F5780)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYELEMENTSTATUSCHANGED_OFFSET UNITYSDK_OFFSET(0x183F5F40)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYGETCAPTCHAFAILED_OFFSET UNITYSDK_OFFSET(0x183F5C00)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYGETCAPTCHASUCCESS_OFFSET UNITYSDK_OFFSET(0x183F5A20)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYHIDEELEMENTS_OFFSET UNITYSDK_OFFSET(0x183F5F30)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYSHOWELEMENTS_OFFSET UNITYSDK_OFFSET(0x183F5CD0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYSHOWORHIDEELEMENTS_OFFSET UNITYSDK_OFFSET(0x183F5CE0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_UPDATEGETCAPTCHAELEMENTTEXT_OFFSET UNITYSDK_OFFSET(0x183F5B70)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_UPDATEPLUGINUIELEMENT_OFFSET UNITYSDK_OFFSET(0x183F5860)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x183F6070)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x183F5770)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIWrapper_TypeDefinitionIndex = 7912;
+	inline static constexpr unsigned int PluginUIWrapper_TypeDefinitionIndex = 8815;
 
 	class PluginUIWrapper : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::PluginUI::PluginUIWrapper** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::PluginUI::PluginUIWrapper**)Il2CppClass::FromTypeDefinitionIndex(PluginUIWrapper_TypeDefinitionIndex)->GetStaticField(0x21560);
+			return (::MiHoYo::SDK::PluginUI::PluginUIWrapper**)Il2CppClass::FromTypeDefinitionIndex(PluginUIWrapper_TypeDefinitionIndex)->GetStaticField(0x1A2E0);
 		}
 
 		::System::Void _ctor()
@@ -48,49 +48,49 @@ namespace MiHoYo::SDK::PluginUI
 			return ((::MiHoYo::SDK::PluginUI::PluginUIWrapper*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_GETINSTANCE_OFFSET))();
 		}
 
-		::System::Void UpdatePluginUIElement(::System::String* strUIName, ::System::String* strElementID, ::System::String* strElementNewText)
+		::System::Void UpdatePluginUIElement(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_UPDATEPLUGINUIELEMENT_OFFSET))(this, strUIName, strElementID, strElementNewText);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_UPDATEPLUGINUIELEMENT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NotifyGetCaptchaSuccess(::System::Action_1<::System::String*>* callback, ::System::String* strUIName, ::System::String* strGetCaptchaElementID)
+		::System::Void NotifyGetCaptchaSuccess(::System::Action_1<::System::String*>* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYGETCAPTCHASUCCESS_OFFSET))(this, callback, strUIName, strGetCaptchaElementID);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYGETCAPTCHASUCCESS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NotifyGetCaptchaFailed(::System::Action_1<::System::String*>* callback)
+		::System::Void NotifyGetCaptchaFailed(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYGETCAPTCHAFAILED_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYGETCAPTCHAFAILED_OFFSET))(this, a1);
 		}
 
-		static ::MiHoYo::SDK::PluginUI::PluginUIBridgeElement* CreateBridgeElement(::System::String* id, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* action, ::System::String* text, ::System::String* hint, ::System::Boolean isVisible, ::System::Boolean isChecked, ::System::Int16 type)
+		static ::MiHoYo::SDK::PluginUI::PluginUIBridgeElement* CreateBridgeElement(::System::String* a1, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* a2, ::System::String* a3, ::System::String* a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Int16 a7)
 		{
-			return ((::MiHoYo::SDK::PluginUI::PluginUIBridgeElement*(*)(::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Int16))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_CREATEBRIDGEELEMENT_OFFSET))(id, action, text, hint, isVisible, isChecked, type);
+			return ((::MiHoYo::SDK::PluginUI::PluginUIBridgeElement*(*)(::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Int16))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_CREATEBRIDGEELEMENT_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void NotifyShowElements(::System::String* strUIName, ::System::Collections::Generic::List_1<::System::String*>* lstElementIds)
+		::System::Void NotifyShowElements(::System::String* a1, ::System::Collections::Generic::List_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYSHOWELEMENTS_OFFSET))(this, strUIName, lstElementIds);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYSHOWELEMENTS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void NotifyHideElements(::System::String* strUIName, ::System::Collections::Generic::List_1<::System::String*>* lstElementIds)
+		::System::Void NotifyHideElements(::System::String* a1, ::System::Collections::Generic::List_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYHIDEELEMENTS_OFFSET))(this, strUIName, lstElementIds);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYHIDEELEMENTS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void NotifyShowOrHideElements(::System::String* strUIName, ::System::Collections::Generic::List_1<::System::String*>* lstElementIds, ::System::Boolean bIsShow)
+		::System::Void NotifyShowOrHideElements(::System::String* a1, ::System::Collections::Generic::List_1<::System::String*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYSHOWORHIDEELEMENTS_OFFSET))(this, strUIName, lstElementIds, bIsShow);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYSHOWORHIDEELEMENTS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NotifyElementStatusChanged(::System::String* strUIName, ::System::String* strElementID, ::System::String* strStatusName, ::System::String* strStatusValue)
+		::System::Void NotifyElementStatusChanged(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYELEMENTSTATUSCHANGED_OFFSET))(this, strUIName, strElementID, strStatusName, strStatusValue);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_NOTIFYELEMENTSTATUSCHANGED_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void UpdateGetCaptchaElementText(::System::String* strUIName, ::System::String* strGetCaptchaElementID)
+		::System::Void UpdateGetCaptchaElementText(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_UPDATEGETCAPTCHAELEMENTTEXT_OFFSET))(this, strUIName, strGetCaptchaElementID);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIWRAPPER_UPDATEGETCAPTCHAELEMENTTEXT_OFFSET))(this, a1, a2);
 		}
 	};
 }

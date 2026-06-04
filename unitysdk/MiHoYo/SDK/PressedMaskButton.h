@@ -6,14 +6,14 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_PRESSEDMASKBUTTON_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1761C310)
-#define MIHOYO_SDK_PRESSEDMASKBUTTON_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x1761C390)
-#define MIHOYO_SDK_PRESSEDMASKBUTTON_START_OFFSET UNITYSDK_OFFSET(0x1761BF30)
-#define MIHOYO_SDK_PRESSEDMASKBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1761C410)
+#define MIHOYO_SDK_PRESSEDMASKBUTTON_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x183FBA90)
+#define MIHOYO_SDK_PRESSEDMASKBUTTON_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x183FBB10)
+#define MIHOYO_SDK_PRESSEDMASKBUTTON_START_OFFSET UNITYSDK_OFFSET(0x183FB6C0)
+#define MIHOYO_SDK_PRESSEDMASKBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x183FBB90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PressedMaskButton_TypeDefinitionIndex = 7053;
+	inline static constexpr unsigned int PressedMaskButton_TypeDefinitionIndex = 7956;
 
 	class PressedMaskButton : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,14 +31,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PRESSEDMASKBUTTON_START_OFFSET))(this);
 		}
 
-		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PRESSEDMASKBUTTON_ONPOINTERDOWN_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PRESSEDMASKBUTTON_ONPOINTERDOWN_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PRESSEDMASKBUTTON_ONPOINTERUP_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PRESSEDMASKBUTTON_ONPOINTERUP_OFFSET))(this, a1);
 		}
 	};
 }

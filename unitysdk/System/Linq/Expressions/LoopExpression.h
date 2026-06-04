@@ -4,19 +4,19 @@
 
 namespace System::Linq::Expressions { class LabelTarget; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_LOOPEXPRESSION_GET_BODY_OFFSET UNITYSDK_OFFSET(0x19F3D420)
-#define SYSTEM_LINQ_EXPRESSIONS_LOOPEXPRESSION_GET_BREAKLABEL_OFFSET UNITYSDK_OFFSET(0x19F3D430)
-#define SYSTEM_LINQ_EXPRESSIONS_LOOPEXPRESSION_GET_CONTINUELABEL_OFFSET UNITYSDK_OFFSET(0x19F3D440)
+#define SYSTEM_LINQ_EXPRESSIONS_LOOPEXPRESSION_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1ADB49C0)
+#define SYSTEM_LINQ_EXPRESSIONS_LOOPEXPRESSION_GET_BREAKLABEL_OFFSET UNITYSDK_OFFSET(0x1ADB49D0)
+#define SYSTEM_LINQ_EXPRESSIONS_LOOPEXPRESSION_GET_CONTINUELABEL_OFFSET UNITYSDK_OFFSET(0x1ADB49E0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int LoopExpression_TypeDefinitionIndex = 3226;
+	inline static constexpr unsigned int LoopExpression_TypeDefinitionIndex = 3227;
 
 	class LoopExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Linq::Expressions::LabelTarget* _ContinueLabel_k__BackingField; // 0x10
-		::System::Linq::Expressions::Expression* _Body_k__BackingField; // 0x18
+		::System::Linq::Expressions::Expression* _Body_k__BackingField; // 0x10
+		::System::Linq::Expressions::LabelTarget* _ContinueLabel_k__BackingField; // 0x18
 		::System::Linq::Expressions::LabelTarget* _BreakLabel_k__BackingField; // 0x20
 
 		::System::Linq::Expressions::Expression* get_Body()

@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace UnityEngine { class Transform; }
+
+#define CLASS_1_C67A6979628184B7_CLASS_1_36A0020EEB62E831__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA3B07B0)
+#define CLASS_1_C67A6979628184B7_CLASS_1_36A0020EEB62E831__CTOR_OFFSET UNITYSDK_OFFSET(0xA3B07A0)
+
+inline static constexpr unsigned int Class_1_C67A6979628184B7_Class_1_36A0020EEB62E831_TypeDefinitionIndex = 61656;
+
+class Class_1_C67A6979628184B7_Class_1_36A0020EEB62E831 : public ::System::Object
+{
+public:
+	::System::Object* Field_1_0; // 0x10
+	::UnityEngine::Transform* Field_1_1; // 0x18
+	::System::Boolean Field_1_2; // 0x20
+
+	::System::Void _ctor(::UnityEngine::Transform* a1, ::System::Object* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_C67A6979628184B7_CLASS_1_36A0020EEB62E831__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void _ctor_1(::System::Boolean a1, ::UnityEngine::Transform* a2, ::System::Object* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Transform*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_C67A6979628184B7_CLASS_1_36A0020EEB62E831__CTOR_1_OFFSET))(this, a1, a2, a3);
+	}
+};

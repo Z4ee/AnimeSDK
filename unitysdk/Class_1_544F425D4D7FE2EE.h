@@ -11,29 +11,29 @@ namespace RPG::GameCore { class AlleyWalkableGridItemData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_544F425D4D7FE2EE_GET_MAPID_OFFSET UNITYSDK_OFFSET(0xB2392F0)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0xB239370)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_277ECA0A8CD65E18_OFFSET UNITYSDK_OFFSET(0xB2396F0)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_32D47ECDAB5A3A28_OFFSET UNITYSDK_OFFSET(0xB239440)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_55A1E5389DCDEAA7_OFFSET UNITYSDK_OFFSET(0xB239430)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_599753D24F060FF5_OFFSET UNITYSDK_OFFSET(0xB2398B0)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_783358CF25AA8D86_OFFSET UNITYSDK_OFFSET(0xB239060)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_9CB392992E2BEBF8_OFFSET UNITYSDK_OFFSET(0xB239160)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_AB0E8F21576CD00F_OFFSET UNITYSDK_OFFSET(0xB2398C0)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_C9F76EE1141E651C_OFFSET UNITYSDK_OFFSET(0xB239390)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_DB96A5C59B9D48AE_OFFSET UNITYSDK_OFFSET(0xB239700)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_F5599B7DA8E7E53C_1_OFFSET UNITYSDK_OFFSET(0xB239330)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_F5599B7DA8E7E53C_OFFSET UNITYSDK_OFFSET(0xB239310)
-#define CLASS_1_544F425D4D7FE2EE_METHOD_1_FB4BE762B6186C23_OFFSET UNITYSDK_OFFSET(0xB239350)
-#define CLASS_1_544F425D4D7FE2EE_SET_MAPID_OFFSET UNITYSDK_OFFSET(0xB239300)
-#define CLASS_1_544F425D4D7FE2EE__CTOR_OFFSET UNITYSDK_OFFSET(0xB239150)
+#define CLASS_1_544F425D4D7FE2EE_GET_MAPID_OFFSET UNITYSDK_OFFSET(0xAAD09F0)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_0EA2A240B517F003_OFFSET UNITYSDK_OFFSET(0xAAD1230)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0xAAD0A70)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_1921C22937F59355_OFFSET UNITYSDK_OFFSET(0xAAD0A90)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_22A235ECBF4F15B4_OFFSET UNITYSDK_OFFSET(0xAAD0F80)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_783358CF25AA8D86_OFFSET UNITYSDK_OFFSET(0xAAD0770)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_9CB392992E2BEBF8_OFFSET UNITYSDK_OFFSET(0xAAD0860)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_9DB7E36C5EB09444_OFFSET UNITYSDK_OFFSET(0xAAD0BD0)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_A6CE7D7CE3BBCF3F_OFFSET UNITYSDK_OFFSET(0xAAD1540)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_DB96A5C59B9D48AE_OFFSET UNITYSDK_OFFSET(0xAAD0BE0)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_E7910D89F461781D_OFFSET UNITYSDK_OFFSET(0xAAD0F70)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_F5599B7DA8E7E53C_1_OFFSET UNITYSDK_OFFSET(0xAAD0A30)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_F5599B7DA8E7E53C_OFFSET UNITYSDK_OFFSET(0xAAD0A10)
+#define CLASS_1_544F425D4D7FE2EE_METHOD_1_FB4BE762B6186C23_OFFSET UNITYSDK_OFFSET(0xAAD0A50)
+#define CLASS_1_544F425D4D7FE2EE_SET_MAPID_OFFSET UNITYSDK_OFFSET(0xAAD0A00)
+#define CLASS_1_544F425D4D7FE2EE__CTOR_OFFSET UNITYSDK_OFFSET(0xAAD1720)
 
-inline static constexpr unsigned int Class_1_544F425D4D7FE2EE_TypeDefinitionIndex = 57521;
+inline static constexpr unsigned int Class_1_544F425D4D7FE2EE_TypeDefinitionIndex = 58333;
 
 class Class_1_544F425D4D7FE2EE : public ::System::Object
 {
 public:
-	::RPG::GameCore::AlleyMapGridConfig* Field_1_1; // 0x10
+	::RPG::GameCore::AlleyMapGridConfig* Field_1_0; // 0x10
 	::System::UInt32 _MapID_k__BackingField; // 0x18
 
 	::System::Void _ctor()
@@ -56,9 +56,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_GET_MAPID_OFFSET))(this);
 	}
 
-	::System::Void set_MapID(::System::UInt32 value)
+	::System::Void set_MapID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_SET_MAPID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_SET_MAPID_OFFSET))(this, a1);
 	}
 
 	::System::Int32 Method_1_F5599B7DA8E7E53C()
@@ -81,29 +81,14 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_128774387667156B_OFFSET))(this);
 	}
 
-	::Il2CppArray<::RPG::GameCore::AlleyWalkableGridItemData*>* Method_1_C9F76EE1141E651C()
+	::Il2CppArray<::RPG::GameCore::AlleyWalkableGridItemData*>* Method_1_1921C22937F59355()
 	{
-		return ((::Il2CppArray<::RPG::GameCore::AlleyWalkableGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_C9F76EE1141E651C_OFFSET))(this);
+		return ((::Il2CppArray<::RPG::GameCore::AlleyWalkableGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_1921C22937F59355_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::RPG::GameCore::AlleyShopGridItemData*>* Method_1_55A1E5389DCDEAA7()
+	::System::Collections::Generic::List_1<::RPG::GameCore::AlleyShopGridItemData*>* Method_1_9DB7E36C5EB09444()
 	{
-		return ((::System::Collections::Generic::List_1<::RPG::GameCore::AlleyShopGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_55A1E5389DCDEAA7_OFFSET))(this);
-	}
-
-	::System::Collections::Generic::List_1<::RPG::GameCore::AlleyDockGridItemData*>* Method_1_277ECA0A8CD65E18()
-	{
-		return ((::System::Collections::Generic::List_1<::RPG::GameCore::AlleyDockGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_277ECA0A8CD65E18_OFFSET))(this);
-	}
-
-	::System::Collections::Generic::List_1<::RPG::GameCore::AlleyBuffGridItemData*>* Method_1_599753D24F060FF5()
-	{
-		return ((::System::Collections::Generic::List_1<::RPG::GameCore::AlleyBuffGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_599753D24F060FF5_OFFSET))(this);
-	}
-
-	::System::Collections::Generic::List_1<::RPG::GameCore::AlleyShopGridItemData*>* Method_1_32D47ECDAB5A3A28()
-	{
-		return ((::System::Collections::Generic::List_1<::RPG::GameCore::AlleyShopGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_32D47ECDAB5A3A28_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::RPG::GameCore::AlleyShopGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_9DB7E36C5EB09444_OFFSET))(this);
 	}
 
 	::System::Collections::Generic::List_1<::RPG::GameCore::AlleyDockGridItemData*>* Method_1_DB96A5C59B9D48AE()
@@ -111,8 +96,23 @@ public:
 		return ((::System::Collections::Generic::List_1<::RPG::GameCore::AlleyDockGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_DB96A5C59B9D48AE_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::RPG::GameCore::AlleyBuffGridItemData*>* Method_1_AB0E8F21576CD00F()
+	::System::Collections::Generic::List_1<::RPG::GameCore::AlleyBuffGridItemData*>* Method_1_E7910D89F461781D()
 	{
-		return ((::System::Collections::Generic::List_1<::RPG::GameCore::AlleyBuffGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_AB0E8F21576CD00F_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::RPG::GameCore::AlleyBuffGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_E7910D89F461781D_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::List_1<::RPG::GameCore::AlleyShopGridItemData*>* Method_1_0EA2A240B517F003()
+	{
+		return ((::System::Collections::Generic::List_1<::RPG::GameCore::AlleyShopGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_0EA2A240B517F003_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::List_1<::RPG::GameCore::AlleyDockGridItemData*>* Method_1_A6CE7D7CE3BBCF3F()
+	{
+		return ((::System::Collections::Generic::List_1<::RPG::GameCore::AlleyDockGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_A6CE7D7CE3BBCF3F_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::List_1<::RPG::GameCore::AlleyBuffGridItemData*>* Method_1_22A235ECBF4F15B4()
+	{
+		return ((::System::Collections::Generic::List_1<::RPG::GameCore::AlleyBuffGridItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_544F425D4D7FE2EE_METHOD_1_22A235ECBF4F15B4_OFFSET))(this);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int OrderStatus_TypeDefinitionIndex = 7141;
+	inline static constexpr unsigned int OrderStatus_TypeDefinitionIndex = 8044;
 
 	enum class OrderStatus : ::System::Int32
 	{

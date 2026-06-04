@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionResConfig; }
 
-#define RPG_GAMECORE_MISSIONRESCONFIGLIST_METHOD_2_B45F12D7A5717E54_OFFSET UNITYSDK_OFFSET(0x18B2ED30)
-#define RPG_GAMECORE_MISSIONRESCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2EE70)
+#define RPG_GAMECORE_MISSIONRESCONFIGLIST_METHOD_2_F45B0C1AF5574D6E_OFFSET UNITYSDK_OFFSET(0x19946AD0)
+#define RPG_GAMECORE_MISSIONRESCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19946C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionResConfigList_TypeDefinitionIndex = 18052;
+	inline static constexpr unsigned int MissionResConfigList_TypeDefinitionIndex = 18076;
 
 	class MissionResConfigList : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONRESCONFIGLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B45F12D7A5717E54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MissionResConfigList*& a2)
+		static ::System::Void Method_2_F45B0C1AF5574D6E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MissionResConfigList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionResConfigList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONRESCONFIGLIST_METHOD_2_B45F12D7A5717E54_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionResConfigList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONRESCONFIGLIST_METHOD_2_F45B0C1AF5574D6E_OFFSET))(a1, a2);
 		}
 	};
 }

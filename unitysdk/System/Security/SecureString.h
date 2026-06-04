@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_SECURITY_SECURESTRING_ALLOC_OFFSET UNITYSDK_OFFSET(0x17817900)
-#define SYSTEM_SECURITY_SECURESTRING_DECRYPT_OFFSET UNITYSDK_OFFSET(0x17817BF0)
-#define SYSTEM_SECURITY_SECURESTRING_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17817BB0)
-#define SYSTEM_SECURITY_SECURESTRING_ENCRYPT_OFFSET UNITYSDK_OFFSET(0x17817B30)
-#define SYSTEM_SECURITY_SECURESTRING_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x17817C00)
-#define SYSTEM_SECURITY_SECURESTRING_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x17817B40)
-#define SYSTEM_SECURITY_SECURESTRING__CTOR_1_OFFSET UNITYSDK_OFFSET(0x178179F0)
-#define SYSTEM_SECURITY_SECURESTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x178178D0)
+#define SYSTEM_SECURITY_SECURESTRING_ALLOC_OFFSET UNITYSDK_OFFSET(0x185D0C20)
+#define SYSTEM_SECURITY_SECURESTRING_DECRYPT_OFFSET UNITYSDK_OFFSET(0x185D0EF0)
+#define SYSTEM_SECURITY_SECURESTRING_DISPOSE_OFFSET UNITYSDK_OFFSET(0x185D0EB0)
+#define SYSTEM_SECURITY_SECURESTRING_ENCRYPT_OFFSET UNITYSDK_OFFSET(0x185D0E30)
+#define SYSTEM_SECURITY_SECURESTRING_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x185D0F00)
+#define SYSTEM_SECURITY_SECURESTRING_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x185D0E40)
+#define SYSTEM_SECURITY_SECURESTRING__CTOR_1_OFFSET UNITYSDK_OFFSET(0x185D0D10)
+#define SYSTEM_SECURITY_SECURESTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x185D0BF0)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int SecureString_TypeDefinitionIndex = 942;
+	inline static constexpr unsigned int SecureString_TypeDefinitionIndex = 941;
 
 	class SecureString : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Byte>* data; // 0x10
-		::System::Boolean disposed; // 0x18
-		::System::Int32 length; // 0x1C
+		::System::Int32 length; // 0x18
+		::System::Boolean disposed; // 0x1C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURESTRING__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Char* value, ::System::Int32 length)
+		::System::Void _ctor_1(::System::Char* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURESTRING__CTOR_1_OFFSET))(this, value, length);
+			return ((::System::Void(*)(::PVOID, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURESTRING__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_Length()
@@ -52,9 +52,9 @@ namespace System::Security
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURESTRING_DECRYPT_OFFSET))(this);
 		}
 
-		::System::Void Alloc(::System::Int32 length, ::System::Boolean realloc)
+		::System::Void Alloc(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURESTRING_ALLOC_OFFSET))(this, length, realloc);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURESTRING_ALLOC_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::System::Byte>* GetBuffer()

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187ED9C0)
-#define RPG_GAMECORE_CHENLINGSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187EDB20)
+#define RPG_GAMECORE_CHENLINGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1962F970)
+#define RPG_GAMECORE_CHENLINGSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1962FAD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingSkillRow_TypeDefinitionIndex = 10560;
+	inline static constexpr unsigned int ChenLingSkillRow_TypeDefinitionIndex = 10598;
 
 	class ChenLingSkillRow : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGSKILLROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ChenLingSkillRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingSkillRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingSkillRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGSKILLROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingSkillRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGSKILLROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

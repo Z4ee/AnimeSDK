@@ -3,37 +3,37 @@
 #include "unitysdk/RPG/GameCore/MuseumMissionType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_21C7581DFE99F091_69;
-class Class_1_FB4A4ADDA7338C08_3;
+class Class_1_21C7581DFE99F091_71;
+class Class_1_A6623677AE360DE9;
 namespace RPG::GameCore { class MuseumMissionRow; }
 
-#define RPG_CLIENT_MUSEUMTARGETMISSION_CREATE_OFFSET UNITYSDK_OFFSET(0xAB0EB10)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_GET_ID_OFFSET UNITYSDK_OFFSET(0xAB0FA20)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xAB0FAA0)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_GET_PARAMS_OFFSET UNITYSDK_OFFSET(0xAB0FA80)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_GET_ROW_OFFSET UNITYSDK_OFFSET(0xAB0FA40)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xAB0FA60)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_SET_ID_OFFSET UNITYSDK_OFFSET(0xAB0FA30)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xAB0FAB0)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_SET_PARAMS_OFFSET UNITYSDK_OFFSET(0xAB0FA90)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_SET_ROW_OFFSET UNITYSDK_OFFSET(0xAB0FA50)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xAB0FA70)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_SYNCDATA_1_OFFSET UNITYSDK_OFFSET(0xAB0F720)
-#define RPG_CLIENT_MUSEUMTARGETMISSION_SYNCDATA_OFFSET UNITYSDK_OFFSET(0xAB0F3D0)
-#define RPG_CLIENT_MUSEUMTARGETMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0xAB0FAC0)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_CREATE_OFFSET UNITYSDK_OFFSET(0xC21B390)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_GET_ID_OFFSET UNITYSDK_OFFSET(0xC21C100)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xC21C180)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_GET_PARAMS_OFFSET UNITYSDK_OFFSET(0xC21C160)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_GET_ROW_OFFSET UNITYSDK_OFFSET(0xC21C120)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xC21C140)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_SET_ID_OFFSET UNITYSDK_OFFSET(0xC21C110)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xC21C190)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_SET_PARAMS_OFFSET UNITYSDK_OFFSET(0xC21C170)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_SET_ROW_OFFSET UNITYSDK_OFFSET(0xC21C130)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xC21C150)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_SYNCDATA_1_OFFSET UNITYSDK_OFFSET(0xC21C030)
+#define RPG_CLIENT_MUSEUMTARGETMISSION_SYNCDATA_OFFSET UNITYSDK_OFFSET(0xC21BC80)
+#define RPG_CLIENT_MUSEUMTARGETMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0xC21C1A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumTargetMission_TypeDefinitionIndex = 61119;
+	inline static constexpr unsigned int MuseumTargetMission_TypeDefinitionIndex = 62043;
 
 	class MuseumTargetMission : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* _Params_k__BackingField; // 0x10
 		::RPG::GameCore::MuseumMissionRow* _Row_k__BackingField; // 0x18
-		::System::UInt32 _ID_k__BackingField; // 0x20
-		::RPG::GameCore::MuseumMissionType _Type_k__BackingField; // 0x24
-		::System::Boolean _IsFinish_k__BackingField; // 0x28
+		::System::Boolean _IsFinish_k__BackingField; // 0x20
+		::System::UInt32 _ID_k__BackingField; // 0x24
+		::RPG::GameCore::MuseumMissionType _Type_k__BackingField; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SET_ID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::MuseumMissionRow* get_Row()
@@ -55,9 +55,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::MuseumMissionRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::MuseumMissionRow* value)
+		::System::Void set_Row(::RPG::GameCore::MuseumMissionRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MuseumMissionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MuseumMissionRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SET_ROW_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::MuseumMissionType get_Type()
@@ -65,9 +65,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::MuseumMissionType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::RPG::GameCore::MuseumMissionType value)
+		::System::Void set_Type(::RPG::GameCore::MuseumMissionType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MuseumMissionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MuseumMissionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SET_TYPE_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::UInt32>* get_Params()
@@ -75,9 +75,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_GET_PARAMS_OFFSET))(this);
 		}
 
-		::System::Void set_Params(::Il2CppArray<::System::UInt32>* value)
+		::System::Void set_Params(::Il2CppArray<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SET_PARAMS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SET_PARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsFinish()
@@ -85,24 +85,24 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_GET_ISFINISH_OFFSET))(this);
 		}
 
-		::System::Void set_IsFinish(::System::Boolean value)
+		::System::Void set_IsFinish(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SET_ISFINISH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SET_ISFINISH_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::MuseumTargetMission* Create(::System::UInt32 id)
+		static ::RPG::Client::MuseumTargetMission* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::MuseumTargetMission*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_CREATE_OFFSET))(id);
+			return ((::RPG::Client::MuseumTargetMission*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void SyncData(::Class_1_21C7581DFE99F091_69* proto)
+		::System::Void SyncData(::Class_1_21C7581DFE99F091_71* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_21C7581DFE99F091_69*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SYNCDATA_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_21C7581DFE99F091_71*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SYNCDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncData_1(::Class_1_FB4A4ADDA7338C08_3* proto)
+		::System::Void SyncData_1(::Class_1_A6623677AE360DE9* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_FB4A4ADDA7338C08_3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SYNCDATA_1_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_A6623677AE360DE9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMTARGETMISSION_SYNCDATA_1_OFFSET))(this, a1);
 		}
 	};
 }

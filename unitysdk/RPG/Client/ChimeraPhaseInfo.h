@@ -7,20 +7,20 @@
 namespace RPG::Client { class ChimeraPhaseData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CHIMERAPHASEINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA035440)
-#define RPG_CLIENT_CHIMERAPHASEINFO_GETCURRENTPHASEDATA_OFFSET UNITYSDK_OFFSET(0xA036530)
-#define RPG_CLIENT_CHIMERAPHASEINFO_GETPHASEDATABYROUNDID_OFFSET UNITYSDK_OFFSET(0xA036350)
-#define RPG_CLIENT_CHIMERAPHASEINFO_GETPHASEDATA_OFFSET UNITYSDK_OFFSET(0xA035F60)
-#define RPG_CLIENT_CHIMERAPHASEINFO_GET_LASTPHASECOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0xA0365E0)
-#define RPG_CLIENT_CHIMERAPHASEINFO_INIT_OFFSET UNITYSDK_OFFSET(0xA034BE0)
-#define RPG_CLIENT_CHIMERAPHASEINFO_SET_LASTPHASECOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0xA0365F0)
-#define RPG_CLIENT_CHIMERAPHASEINFO_SYNCFINISHSTATUS_OFFSET UNITYSDK_OFFSET(0xA031350)
-#define RPG_CLIENT_CHIMERAPHASEINFO_SYNCPHASEID_OFFSET UNITYSDK_OFFSET(0xA032480)
-#define RPG_CLIENT_CHIMERAPHASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA034BD0)
+#define RPG_CLIENT_CHIMERAPHASEINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6B3080)
+#define RPG_CLIENT_CHIMERAPHASEINFO_GETCURRENTPHASEDATA_OFFSET UNITYSDK_OFFSET(0xB6B43B0)
+#define RPG_CLIENT_CHIMERAPHASEINFO_GETPHASEDATABYROUNDID_OFFSET UNITYSDK_OFFSET(0xB6B41D0)
+#define RPG_CLIENT_CHIMERAPHASEINFO_GETPHASEDATA_OFFSET UNITYSDK_OFFSET(0xB6B3D90)
+#define RPG_CLIENT_CHIMERAPHASEINFO_GET_LASTPHASECOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0xB6B44D0)
+#define RPG_CLIENT_CHIMERAPHASEINFO_INIT_OFFSET UNITYSDK_OFFSET(0xB6B2430)
+#define RPG_CLIENT_CHIMERAPHASEINFO_SET_LASTPHASECOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0xB6B44E0)
+#define RPG_CLIENT_CHIMERAPHASEINFO_SYNCFINISHSTATUS_OFFSET UNITYSDK_OFFSET(0xB6AE000)
+#define RPG_CLIENT_CHIMERAPHASEINFO_SYNCPHASEID_OFFSET UNITYSDK_OFFSET(0xB6AF430)
+#define RPG_CLIENT_CHIMERAPHASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB6B2420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraPhaseInfo_TypeDefinitionIndex = 58441;
+	inline static constexpr unsigned int ChimeraPhaseInfo_TypeDefinitionIndex = 59371;
 
 	class ChimeraPhaseInfo : public ::System::Object
 	{
@@ -44,24 +44,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void SyncPhaseID(::System::UInt32 phaseID)
+		::System::Void SyncPhaseID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_SYNCPHASEID_OFFSET))(this, phaseID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_SYNCPHASEID_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncFinishStatus(::Enum_3_DB663931210BBC27_23 type)
+		::System::Void SyncFinishStatus(::Enum_3_DB663931210BBC27_23 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_DB663931210BBC27_23))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_SYNCFINISHSTATUS_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_DB663931210BBC27_23))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_SYNCFINISHSTATUS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ChimeraPhaseData* GetPhaseData(::System::UInt32 phaseID)
+		::RPG::Client::ChimeraPhaseData* GetPhaseData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraPhaseData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_GETPHASEDATA_OFFSET))(this, phaseID);
+			return ((::RPG::Client::ChimeraPhaseData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_GETPHASEDATA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ChimeraPhaseData* GetPhaseDataByRoundID(::System::UInt32 roundID)
+		::RPG::Client::ChimeraPhaseData* GetPhaseDataByRoundID(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraPhaseData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_GETPHASEDATABYROUNDID_OFFSET))(this, roundID);
+			return ((::RPG::Client::ChimeraPhaseData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_GETPHASEDATABYROUNDID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ChimeraPhaseData* GetCurrentPhaseData()
@@ -74,9 +74,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraLastPhaseCompleteStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_GET_LASTPHASECOMPLETESTATUS_OFFSET))(this);
 		}
 
-		::System::Void set_LastPhaseCompleteStatus(::RPG::Client::ChimeraLastPhaseCompleteStatus value)
+		::System::Void set_LastPhaseCompleteStatus(::RPG::Client::ChimeraLastPhaseCompleteStatus a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraLastPhaseCompleteStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_SET_LASTPHASECOMPLETESTATUS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraLastPhaseCompleteStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAPHASEINFO_SET_LASTPHASECOMPLETESTATUS_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SPINE_SKIN_SKINKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x22CDC00)
+#define SPINE_SKIN_SKINKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x38676B0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Skin_SkinKey_TypeDefinitionIndex = 36460;
+	inline static constexpr unsigned int Skin_SkinKey_TypeDefinitionIndex = 36760;
 
 	struct alignas(8) Skin_SkinKey
 	{
@@ -16,9 +16,9 @@ namespace Spine
 		::System::String* name; // 0x18
 		::System::Int32 hashCode; // 0x20
 
-		::System::Void _ctor(::System::Int32 slotIndex, ::System::String* name)
+		::System::Void _ctor(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKIN_SKINKEY__CTOR_OFFSET))(this, slotIndex, name);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKIN_SKINKEY__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

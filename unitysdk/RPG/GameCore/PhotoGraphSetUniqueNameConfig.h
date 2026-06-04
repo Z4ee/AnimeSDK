@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PhotoGraphSetSingleTargetUniqueName; }
 
-#define RPG_GAMECORE_PHOTOGRAPHSETUNIQUENAMECONFIG_METHOD_2_5E81107020AAC0F7_OFFSET UNITYSDK_OFFSET(0x18BF69F0)
-#define RPG_GAMECORE_PHOTOGRAPHSETUNIQUENAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF7770)
+#define RPG_GAMECORE_PHOTOGRAPHSETUNIQUENAMECONFIG_METHOD_2_2E3515EEAB576122_OFFSET UNITYSDK_OFFSET(0x19A087B0)
+#define RPG_GAMECORE_PHOTOGRAPHSETUNIQUENAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A09500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphSetUniqueNameConfig_TypeDefinitionIndex = 20471;
+	inline static constexpr unsigned int PhotoGraphSetUniqueNameConfig_TypeDefinitionIndex = 20410;
 
 	class PhotoGraphSetUniqueNameConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETUNIQUENAMECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5E81107020AAC0F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphSetUniqueNameConfig*& a2)
+		static ::System::Void Method_2_2E3515EEAB576122(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphSetUniqueNameConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphSetUniqueNameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETUNIQUENAMECONFIG_METHOD_2_5E81107020AAC0F7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphSetUniqueNameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETUNIQUENAMECONFIG_METHOD_2_2E3515EEAB576122_OFFSET))(a1, a2);
 		}
 	};
 }

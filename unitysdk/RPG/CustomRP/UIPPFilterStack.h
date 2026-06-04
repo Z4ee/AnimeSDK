@@ -11,23 +11,23 @@ namespace UnityEngine { class MaterialAnimationBinding; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_UIPPFILTERSTACK_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB4F2F30)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK_GET_KEY_OFFSET UNITYSDK_OFFSET(0xB4F2F20)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB4F2E60)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB4F2B30)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_1_OFFSET UNITYSDK_OFFSET(0xB4F3CB0)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_2_OFFSET UNITYSDK_OFFSET(0xB4F3FE0)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_3_OFFSET UNITYSDK_OFFSET(0xB4F4310)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_OFFSET UNITYSDK_OFFSET(0xB4F3960)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK__CHECKALLMATERIALS_OFFSET UNITYSDK_OFFSET(0xB4F3AF0)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB4F4800)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK__DRAWUIPPPATTERNONLY_OFFSET UNITYSDK_OFFSET(0xB4F3650)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK__DRAWUIPP_OFFSET UNITYSDK_OFFSET(0xB4F35C0)
-#define RPG_CUSTOMRP_UIPPFILTERSTACK__SETMATERIALANIMATIONBINDING_OFFSET UNITYSDK_OFFSET(0xB4F2CF0)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK_EXECUTE_OFFSET UNITYSDK_OFFSET(0xCC58E50)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK_GET_KEY_OFFSET UNITYSDK_OFFSET(0xCC58E40)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCC58D80)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCC58AB0)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_1_OFFSET UNITYSDK_OFFSET(0xCC59920)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_2_OFFSET UNITYSDK_OFFSET(0xCC59AE0)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_3_OFFSET UNITYSDK_OFFSET(0xCC59CA0)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_OFFSET UNITYSDK_OFFSET(0xCC595D0)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK__CHECKALLMATERIALS_OFFSET UNITYSDK_OFFSET(0xCC59750)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCC59EF0)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK__DRAWUIPPPATTERNONLY_OFFSET UNITYSDK_OFFSET(0xCC59310)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK__DRAWUIPP_OFFSET UNITYSDK_OFFSET(0xCC59280)
+#define RPG_CUSTOMRP_UIPPFILTERSTACK__SETMATERIALANIMATIONBINDING_OFFSET UNITYSDK_OFFSET(0xCC58C60)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int UIPPFilterStack_TypeDefinitionIndex = 47873;
+	inline static constexpr unsigned int UIPPFilterStack_TypeDefinitionIndex = 48488;
 
 	class UIPPFilterStack : public ::UnityEngine::MonoBehaviour
 	{
@@ -37,9 +37,9 @@ namespace RPG::CustomRP
 		::UnityEngine::RenderTexture* _UIPPRTCopy; // 0x28
 		::UnityEngine::RenderTexture* _UIPPRT; // 0x30
 		::UnityEngine::RenderTextureDescriptor _UIPPRTDesc; // 0x38
-		::UnityEngine::MaterialAnimationBinding* _MatAniBinding; // 0x70
-		::System::Int32 _SrcBlendShaderProperty; // 0x78
-		::System::Int32 _DstBlendShaderProperty; // 0x7C
+		::UnityEngine::MaterialAnimationBinding* _MatAniBinding; // 0x68
+		::System::Int32 _SrcBlendShaderProperty; // 0x70
+		::System::Int32 _DstBlendShaderProperty; // 0x74
 
 		::System::Void _ctor()
 		{
@@ -61,9 +61,9 @@ namespace RPG::CustomRP
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::CRPMainCameraDesc& mainCameraDesc)
+		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK_EXECUTE_OFFSET))(this, cmd, mainCameraDesc);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK_EXECUTE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _SetMaterialAnimationBinding()
@@ -76,34 +76,34 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__CHECKALLMATERIALS_OFFSET))(this);
 		}
 
-		::System::Void _Blit(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTexture* source, ::UnityEngine::RenderTexture* dest)
+		::System::Void _Blit(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::RenderTexture* a2, ::UnityEngine::RenderTexture* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_OFFSET))(this, cmd, source, dest);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _Blit_1(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTexture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Material* mat)
+		::System::Void _Blit_1(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::RenderTexture* a2, ::UnityEngine::RenderTexture* a3, ::UnityEngine::Material* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_1_OFFSET))(this, cmd, source, dest, mat);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _Blit_2(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTexture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Material* mat, ::System::Int32 passIndex)
+		::System::Void _Blit_2(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::RenderTexture* a2, ::UnityEngine::RenderTexture* a3, ::UnityEngine::Material* a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_2_OFFSET))(this, cmd, source, dest, mat, passIndex);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_2_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void _Blit_3(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTexture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Material* mat, ::System::Collections::Generic::List_1<::System::Int32>* passIDs)
+		::System::Void _Blit_3(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::RenderTexture* a2, ::UnityEngine::RenderTexture* a3, ::UnityEngine::Material* a4, ::System::Collections::Generic::List_1<::System::Int32>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_3_OFFSET))(this, cmd, source, dest, mat, passIDs);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__BLIT_3_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void _DrawUIPP(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTexture* source, ::UnityEngine::RenderTexture* dest, ::RPG::CustomRP::MaterialInfo* materialInfo)
+		::System::Void _DrawUIPP(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::RenderTexture* a2, ::UnityEngine::RenderTexture* a3, ::RPG::CustomRP::MaterialInfo* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::RPG::CustomRP::MaterialInfo*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__DRAWUIPP_OFFSET))(this, cmd, source, dest, materialInfo);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::RPG::CustomRP::MaterialInfo*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__DRAWUIPP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _DrawUIPPPatternOnly(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTexture* dest, ::RPG::CustomRP::MaterialInfo* materialInfo)
+		::System::Void _DrawUIPPPatternOnly(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::RenderTexture* a2, ::RPG::CustomRP::MaterialInfo* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::RPG::CustomRP::MaterialInfo*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__DRAWUIPPPATTERNONLY_OFFSET))(this, cmd, dest, materialInfo);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTexture*, ::RPG::CustomRP::MaterialInfo*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_UIPPFILTERSTACK__DRAWUIPPPATTERNONLY_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

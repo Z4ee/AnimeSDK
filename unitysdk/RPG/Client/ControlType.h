@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ControlType_TypeDefinitionIndex = 54676;
+	inline static constexpr unsigned int ControlType_TypeDefinitionIndex = 55403;
 
 	enum class ControlType : ::System::Int32
 	{

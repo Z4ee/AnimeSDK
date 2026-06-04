@@ -5,17 +5,17 @@
 
 namespace RPG::Client { class RogueTournPersonaRoomCompositionTypeData; }
 
-#define CLASS_1_5126474C9F661228_METHOD_1_1D886997C3F143DB_OFFSET UNITYSDK_OFFSET(0xA2DFCB0)
-#define CLASS_1_5126474C9F661228_METHOD_1_BF427EFFAD6F483A_OFFSET UNITYSDK_OFFSET(0xA2DFC20)
-#define CLASS_1_5126474C9F661228__CTOR_OFFSET UNITYSDK_OFFSET(0xA2DFC10)
+#define CLASS_1_5126474C9F661228_METHOD_1_1D886997C3F143DB_OFFSET UNITYSDK_OFFSET(0xA97BA10)
+#define CLASS_1_5126474C9F661228_METHOD_1_BF427EFFAD6F483A_OFFSET UNITYSDK_OFFSET(0xA97B980)
+#define CLASS_1_5126474C9F661228__CTOR_OFFSET UNITYSDK_OFFSET(0xA97B970)
 
-inline static constexpr unsigned int Class_1_5126474C9F661228_TypeDefinitionIndex = 61958;
+inline static constexpr unsigned int Class_1_5126474C9F661228_TypeDefinitionIndex = 62891;
 
 class Class_1_5126474C9F661228 : public ::System::Object
 {
 public:
-	::RPG::Client::RogueTournPersonaRoomCompositionTypeData* Field_1_1; // 0x10
-	::Struct_2_FD0368737CBF6F9B_6 Field_1_0; // 0x18
+	::RPG::Client::RogueTournPersonaRoomCompositionTypeData* Field_1_0; // 0x10
+	::Struct_2_FD0368737CBF6F9B_6 Field_1_1; // 0x18
 
 	::System::Void _ctor(::Struct_2_FD0368737CBF6F9B_6 a1)
 	{

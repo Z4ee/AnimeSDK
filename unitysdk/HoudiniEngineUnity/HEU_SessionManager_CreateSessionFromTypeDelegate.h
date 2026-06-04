@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8CB9CB0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8CB9CE0)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x8CB9750)
-#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x8CB9730)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17F57D20)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17F57D50)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17F57D10)
+#define HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17F57C20)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_SessionManager_CreateSessionFromTypeDelegate_TypeDefinitionIndex = 43649;
+	inline static constexpr unsigned int HEU_SessionManager_CreateSessionFromTypeDelegate_TypeDefinitionIndex = 37624;
 
 	class HEU_SessionManager_CreateSessionFromTypeDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::HoudiniEngineUnity::HEU_SessionBase* Invoke(::System::Type* type)
+		::HoudiniEngineUnity::HEU_SessionBase* Invoke(::System::Type* a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_INVOKE_OFFSET))(this, type);
+			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Type* type, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Type* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Type*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_BEGININVOKE_OFFSET))(this, type, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Type*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::HoudiniEngineUnity::HEU_SessionBase* EndInvoke(::System::IAsyncResult* result)
+		::HoudiniEngineUnity::HEU_SessionBase* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::HoudiniEngineUnity::HEU_SessionBase*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_SESSIONMANAGER_CREATESESSIONFROMTYPEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

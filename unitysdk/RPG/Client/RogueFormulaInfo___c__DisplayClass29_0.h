@@ -5,12 +5,12 @@
 namespace RPG::Client { class RogueFormulaData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0389F0)
-#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS29_0___GETSORTEDFORMULASONBUFFCHANGEIMPL_B__0_OFFSET UNITYSDK_OFFSET(0xB038D20)
+#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC784FD0)
+#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS29_0___GETSORTEDFORMULASONBUFFCHANGEIMPL_B__0_OFFSET UNITYSDK_OFFSET(0xC7854E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass29_0_TypeDefinitionIndex = 61923;
+	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass29_0_TypeDefinitionIndex = 62856;
 
 	class RogueFormulaInfo___c__DisplayClass29_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS29_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __GetSortedFormulasOnBuffChangeImpl_b__0(::RPG::Client::RogueFormulaData* formula)
+		::System::Int32 __GetSortedFormulasOnBuffChangeImpl_b__0(::RPG::Client::RogueFormulaData* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RogueFormulaData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS29_0___GETSORTEDFORMULASONBUFFCHANGEIMPL_B__0_OFFSET))(this, formula);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RogueFormulaData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS29_0___GETSORTEDFORMULASONBUFFCHANGEIMPL_B__0_OFFSET))(this, a1);
 		}
 	};
 }

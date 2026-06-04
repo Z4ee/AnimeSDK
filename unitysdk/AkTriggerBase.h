@@ -6,10 +6,10 @@ class AkTriggerBase_Trigger;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AKTRIGGERBASE_GETALLDERIVEDTYPES_OFFSET UNITYSDK_OFFSET(0x1A66BA40)
-#define AKTRIGGERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A66C090)
+#define AKTRIGGERBASE_GETALLDERIVEDTYPES_OFFSET UNITYSDK_OFFSET(0x1B4B6E20)
+#define AKTRIGGERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B7480)
 
-inline static constexpr unsigned int AkTriggerBase_TypeDefinitionIndex = 40514;
+inline static constexpr unsigned int AkTriggerBase_TypeDefinitionIndex = 41341;
 
 class AkTriggerBase : public ::UnityEngine::MonoBehaviour
 {

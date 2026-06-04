@@ -14,20 +14,20 @@ namespace System::Net { class EndPoint; }
 namespace System::Net { class IPAddress; }
 namespace System::Net::Sockets { class Socket; }
 
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_CHECKIFTHROWDELAYEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1A14D4C0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETEDISPOSED_OFFSET UNITYSDK_OFFSET(0x1A1534E0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_1_OFFSET UNITYSDK_OFFSET(0x1A14EAE0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_2_OFFSET UNITYSDK_OFFSET(0x1A14FBE0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_3_OFFSET UNITYSDK_OFFSET(0x1A14EAD0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_4_OFFSET UNITYSDK_OFFSET(0x1A14FBD0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_5_OFFSET UNITYSDK_OFFSET(0x1A1511B0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_6_OFFSET UNITYSDK_OFFSET(0x1A1514A0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1A151C80)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_GET_ERRORCODE_OFFSET UNITYSDK_OFFSET(0x1A14F280)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x1A14D000)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x1A150640)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A14D2E0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A153440)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_CHECKIFTHROWDELAYEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1AFB0DD0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETEDISPOSED_OFFSET UNITYSDK_OFFSET(0x1AFB6A40)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_1_OFFSET UNITYSDK_OFFSET(0x1AFB2260)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_2_OFFSET UNITYSDK_OFFSET(0x1AFB3230)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_3_OFFSET UNITYSDK_OFFSET(0x1AFB2250)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_4_OFFSET UNITYSDK_OFFSET(0x1AFB3220)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_5_OFFSET UNITYSDK_OFFSET(0x1AFB4810)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_6_OFFSET UNITYSDK_OFFSET(0x1AFB4AA0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1AFB5150)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_GET_ERRORCODE_OFFSET UNITYSDK_OFFSET(0x1AFB2990)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x1AFB0900)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x1AFB3BF0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AFB0BF0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFB6970)
 
 namespace System::Net::Sockets
 {
@@ -60,9 +60,9 @@ namespace System::Net::Sockets
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation)
+		::System::Void _ctor_1(::System::Net::Sockets::Socket* a1, ::System::AsyncCallback* a2, ::System::Object* a3, ::System::Net::Sockets::SocketOperation a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::Socket*, ::System::AsyncCallback*, ::System::Object*, ::System::Net::Sockets::SocketOperation))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT__CTOR_1_OFFSET))(this, socket, callback, state, operation);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::Socket*, ::System::AsyncCallback*, ::System::Object*, ::System::Net::Sockets::SocketOperation))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::IntPtr get_Handle()
@@ -70,9 +70,9 @@ namespace System::Net::Sockets
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_GET_HANDLE_OFFSET))(this);
 		}
 
-		::System::Void Init(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation)
+		::System::Void Init(::System::Net::Sockets::Socket* a1, ::System::AsyncCallback* a2, ::System::Object* a3, ::System::Net::Sockets::SocketOperation a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::Socket*, ::System::AsyncCallback*, ::System::Object*, ::System::Net::Sockets::SocketOperation))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_INIT_OFFSET))(this, socket, callback, state, operation);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::Socket*, ::System::AsyncCallback*, ::System::Object*, ::System::Net::Sockets::SocketOperation))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_INIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Net::Sockets::SocketError get_ErrorCode()
@@ -95,34 +95,34 @@ namespace System::Net::Sockets
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_OFFSET))(this);
 		}
 
-		::System::Void Complete_1(::System::Boolean synch)
+		::System::Void Complete_1(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_1_OFFSET))(this, synch);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Complete_2(::System::Int32 total)
+		::System::Void Complete_2(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_2_OFFSET))(this, total);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_2_OFFSET))(this, a1);
 		}
 
-		::System::Void Complete_3(::System::Exception* e, ::System::Boolean synch)
+		::System::Void Complete_3(::System::Exception* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_3_OFFSET))(this, e, synch);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Complete_4(::System::Exception* e)
+		::System::Void Complete_4(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_4_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_4_OFFSET))(this, a1);
 		}
 
-		::System::Void Complete_5(::System::Net::Sockets::Socket* s)
+		::System::Void Complete_5(::System::Net::Sockets::Socket* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::Socket*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_5_OFFSET))(this, s);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::Socket*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_5_OFFSET))(this, a1);
 		}
 
-		::System::Void Complete_6(::System::Net::Sockets::Socket* s, ::System::Int32 total)
+		::System::Void Complete_6(::System::Net::Sockets::Socket* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::Socket*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_6_OFFSET))(this, s, total);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::Socket*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCRESULT_COMPLETE_6_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -4,7 +4,7 @@
 
 class Class_2_3F4D673D3F90D12C;
 class Class_2_9D4DD2F4235F8658;
-class Class_2_C14C025AFA60DCA2;
+class Class_2_F67FF7EB526BF85C;
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class CharacterVisibleComponent; }
 namespace RPG::GameCore { class ColliderTriggerComponent; }
@@ -15,41 +15,41 @@ namespace RPG::GameCore { class TransformComponent; }
 namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
 
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB707FF0)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_GET_CONTROLENTITY_OFFSET UNITYSDK_OFFSET(0xB708C30)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_GET_PLAYERSTUB_OFFSET UNITYSDK_OFFSET(0xB708C20)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xB7085F0)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_RELEASECONTROL_OFFSET UNITYSDK_OFFSET(0xB708240)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_SETPLAYERSTUB_OFFSET UNITYSDK_OFFSET(0xB708970)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0xB708080)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB707F90)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__DELAYCANCELCONTROL_OFFSET UNITYSDK_OFFSET(0xB708B90)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__INHERITCONTROLENTITYMODIFIERS_OFFSET UNITYSDK_OFFSET(0xB708450)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__ONREMOTECONTROLRELEASE_OFFSET UNITYSDK_OFFSET(0xB7089C0)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xB708C40)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE73FB0)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_GET_CONTROLENTITY_OFFSET UNITYSDK_OFFSET(0xCE74B80)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_GET_PLAYERSTUB_OFFSET UNITYSDK_OFFSET(0xCE74B70)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xCE745C0)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_RELEASECONTROL_OFFSET UNITYSDK_OFFSET(0xCE74210)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_SETPLAYERSTUB_OFFSET UNITYSDK_OFFSET(0xCE748D0)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0xCE74050)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xCE73F50)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__DELAYCANCELCONTROL_OFFSET UNITYSDK_OFFSET(0xCE74AE0)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__INHERITCONTROLENTITYMODIFIERS_OFFSET UNITYSDK_OFFSET(0xCE74420)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__ONREMOTECONTROLRELEASE_OFFSET UNITYSDK_OFFSET(0xCE74920)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xCE74B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerRemoteControllerComponent_TypeDefinitionIndex = 53156;
+	inline static constexpr unsigned int PlayerRemoteControllerComponent_TypeDefinitionIndex = 53866;
 
 	class PlayerRemoteControllerComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
-		::Class_2_9D4DD2F4235F8658* _AdvCharAICmpt; // 0x18
-		::RPG::GameCore::TransformComponent* _TargetTransformCmpt; // 0x20
-		::RPG::GameCore::LevelGraphComponent* _LevelGraphCmpt; // 0x28
-		::RPG::GameCore::GameEntity* _ControlEntity; // 0x30
-		::RPG::GameCore::CharacterVisibleComponent* _VisibleCmpt; // 0x38
-		::Class_2_3F4D673D3F90D12C* _CharVisionCmpt; // 0x40
+		::RPG::GameCore::TransformComponent* _TargetTransformCmpt; // 0x18
+		::RPG::GameCore::NPCComponent* _NPCCmpt; // 0x20
+		::RPG::GameCore::CharacterVisibleComponent* _VisibleCmpt; // 0x28
+		::RPG::GameCore::GameEntity* _PlayerStub; // 0x30
+		::RPG::GameCore::TransformComponent* _SelfTransformCmpt; // 0x38
+		::RPG::GameCore::GameEntity* _ControlEntity; // 0x40
 		::RPG::GameCore::AdventureCharacterController* _AdvCharCtrlCmpt; // 0x48
-		::RPG::GameCore::NPCComponent* _NPCCmpt; // 0x50
+		::Class_2_3F4D673D3F90D12C* _CharVisionCmpt; // 0x50
 		::RPG::GameCore::ColliderTriggerComponent* _TriggerCmpt; // 0x58
-		::RPG::GameCore::TransformComponent* _SelfTransformCmpt; // 0x60
-		::RPG::GameCore::GameEntity* _PlayerStub; // 0x68
-		::Class_2_C14C025AFA60DCA2* _TargetingCmpt; // 0x70
-		::System::Boolean SyncPlayerPositionToServer; // 0x78
-		::System::Boolean CanUseSameMapTeleport; // 0x79
-		::System::Boolean SupportRush; // 0x7A
+		::RPG::GameCore::LevelGraphComponent* _LevelGraphCmpt; // 0x60
+		::Class_2_F67FF7EB526BF85C* _TargetingCmpt; // 0x68
+		::Class_2_9D4DD2F4235F8658* _AdvCharAICmpt; // 0x70
+		::System::Boolean CanUseSameMapTeleport; // 0x78
+		::System::Boolean SupportRush; // 0x79
+		::System::Boolean SyncPlayerPositionToServer; // 0x7A
 
 		::System::Void _ctor()
 		{
@@ -61,9 +61,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void ReleaseControl()
@@ -71,24 +71,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_RELEASECONTROL_OFFSET))(this);
 		}
 
-		::System::Void _InheritControlEntityModifiers(::RPG::GameCore::GameEntity* controlEntity)
+		::System::Void _InheritControlEntityModifiers(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__INHERITCONTROLENTITYMODIFIERS_OFFSET))(this, controlEntity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__INHERITCONTROLENTITYMODIFIERS_OFFSET))(this, a1);
 		}
 
-		::System::Void InitComponent(::RPG::GameCore::GameEntity* controlEntity)
+		::System::Void InitComponent(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_INITCOMPONENT_OFFSET))(this, controlEntity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_INITCOMPONENT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPlayerStub(::RPG::GameCore::GameEntity* entity)
+		::System::Void SetPlayerStub(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_SETPLAYERSTUB_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_SETPLAYERSTUB_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnRemoteControlRelease(::System::Object* param)
+		::System::Void _OnRemoteControlRelease(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__ONREMOTECONTROLRELEASE_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__ONREMOTECONTROLRELEASE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::IEnumerator* _DelayCancelControl()
@@ -106,9 +106,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_GET_CONTROLENTITY_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+		::System::Void __iFixBaseProxy_Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 		}
 	};
 }

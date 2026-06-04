@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E73B50)
-#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E73BB0)
-#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E73820)
-#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19E73800)
+#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ACEA330)
+#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ACEA390)
+#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ACEA320)
+#define SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACEA2B0)
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int BugReportCompleteCallback_TypeDefinitionIndex = 35417;
+	inline static constexpr unsigned int BugReportCompleteCallback_TypeDefinitionIndex = 35717;
 
 	class BugReportCompleteCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Boolean didSucceed, ::System::String* errorMessage)
+		::System::Void Invoke(::System::Boolean a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_INVOKE_OFFSET))(this, didSucceed, errorMessage);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Boolean didSucceed, ::System::String* errorMessage, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Boolean a1, ::System::String* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Boolean, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_BEGININVOKE_OFFSET))(this, didSucceed, errorMessage, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Boolean, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_BUGREPORTCOMPLETECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

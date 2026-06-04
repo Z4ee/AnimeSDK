@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class ItemConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATARFARMGUIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9DA11D0)
+#define RPG_CLIENT_AVATARFARMGUIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB3839D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarFarmGuideData_TypeDefinitionIndex = 60443;
+	inline static constexpr unsigned int AvatarFarmGuideData_TypeDefinitionIndex = 61378;
 
 	class AvatarFarmGuideData : public ::System::Object
 	{

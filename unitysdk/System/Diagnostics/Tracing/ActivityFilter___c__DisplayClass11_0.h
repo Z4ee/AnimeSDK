@@ -5,12 +5,12 @@
 
 namespace System::Diagnostics::Tracing { class ActivityFilter; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178E2120)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS11_0__GETACTIVITYDYINGDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x178E2140)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1869A450)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS11_0__GETACTIVITYDYINGDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x1869A470)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ActivityFilter___c__DisplayClass11_0_TypeDefinitionIndex = 1689;
+	inline static constexpr unsigned int ActivityFilter___c__DisplayClass11_0_TypeDefinitionIndex = 1687;
 
 	class ActivityFilter___c__DisplayClass11_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GetActivityDyingDelegate_b__0(::System::Guid oldActivity)
+		::System::Void _GetActivityDyingDelegate_b__0(::System::Guid a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS11_0__GETACTIVITYDYINGDELEGATE_B__0_OFFSET))(this, oldActivity);
+			return ((::System::Void(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS11_0__GETACTIVITYDYINGDELEGATE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

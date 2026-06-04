@@ -11,14 +11,14 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::Reflection { class ServiceDescriptor; }
 namespace Google::Protobuf::Reflection { class ServiceDescriptorProto; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17100BD0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x171037C0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x17103C60)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x17103D10)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E614F0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x17E64290)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x17E64790)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x17E64840)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 6342;
+	inline static constexpr unsigned int FileDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 5544;
 
 	class FileDescriptor___c__DisplayClass2_0 : public ::System::Object
 	{
@@ -31,19 +31,19 @@ namespace Google::Protobuf::Reflection
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Reflection::MessageDescriptor* __ctor_b__0(::Google::Protobuf::Reflection::DescriptorProto* message, ::System::Int32 index)
+		::Google::Protobuf::Reflection::MessageDescriptor* __ctor_b__0(::Google::Protobuf::Reflection::DescriptorProto* a1, ::System::Int32 a2)
 		{
-			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID, ::Google::Protobuf::Reflection::DescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET))(this, message, index);
+			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID, ::Google::Protobuf::Reflection::DescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET))(this, a1, a2);
 		}
 
-		::Google::Protobuf::Reflection::EnumDescriptor* __ctor_b__1(::Google::Protobuf::Reflection::EnumDescriptorProto* enumType, ::System::Int32 index)
+		::Google::Protobuf::Reflection::EnumDescriptor* __ctor_b__1(::Google::Protobuf::Reflection::EnumDescriptorProto* a1, ::System::Int32 a2)
 		{
-			return ((::Google::Protobuf::Reflection::EnumDescriptor*(*)(::PVOID, ::Google::Protobuf::Reflection::EnumDescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__1_OFFSET))(this, enumType, index);
+			return ((::Google::Protobuf::Reflection::EnumDescriptor*(*)(::PVOID, ::Google::Protobuf::Reflection::EnumDescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__1_OFFSET))(this, a1, a2);
 		}
 
-		::Google::Protobuf::Reflection::ServiceDescriptor* __ctor_b__2(::Google::Protobuf::Reflection::ServiceDescriptorProto* service, ::System::Int32 index)
+		::Google::Protobuf::Reflection::ServiceDescriptor* __ctor_b__2(::Google::Protobuf::Reflection::ServiceDescriptorProto* a1, ::System::Int32 a2)
 		{
-			return ((::Google::Protobuf::Reflection::ServiceDescriptor*(*)(::PVOID, ::Google::Protobuf::Reflection::ServiceDescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__2_OFFSET))(this, service, index);
+			return ((::Google::Protobuf::Reflection::ServiceDescriptor*(*)(::PVOID, ::Google::Protobuf::Reflection::ServiceDescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__2_OFFSET))(this, a1, a2);
 		}
 	};
 }

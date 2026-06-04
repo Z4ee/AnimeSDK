@@ -3,7 +3,7 @@
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_Status_TypeDefinitionIndex = 36950;
+	inline static constexpr unsigned int Player_Status_TypeDefinitionIndex = 37250;
 
 	enum class Player_Status : ::System::Int32
 	{

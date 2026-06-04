@@ -6,23 +6,23 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xA88D3C0)
-#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_GET_SUGGESTIONS_OFFSET UNITYSDK_OFFSET(0xA88D530)
-#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA88D3A0)
-#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA88D3B0)
+#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xBFD9250)
+#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_GET_SUGGESTIONS_OFFSET UNITYSDK_OFFSET(0xBFD9400)
+#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBFD9230)
+#define RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xBFD9240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentSuggestionBlock_TypeDefinitionIndex = 58276;
+	inline static constexpr unsigned int MessageContentSuggestionBlock_TypeDefinitionIndex = 59206;
 
 	class MessageContentSuggestionBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::String*>* _Suggestions_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::Collections::Generic::List_1<::System::String*>* suggestions)
+		::System::Void _ctor(::System::Collections::Generic::List_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK__CTOR_OFFSET))(this, suggestions);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::RPG::Client::MessageContentBlock* other)
+		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTSUGGESTIONBLOCK_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::String*>* get_Suggestions()

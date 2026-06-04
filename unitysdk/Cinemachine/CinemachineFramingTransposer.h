@@ -18,37 +18,37 @@ namespace Cinemachine { class ICinemachineTargetGroup; }
 namespace Cinemachine::Utility { class PositionPredictor; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_COMPUTEGROUPBOUNDS_OFFSET UNITYSDK_OFFSET(0x12B7F4D0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x12B7DB90)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x12B7DBB0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GETSCREENSPACEGROUPBOUNDINGBOX_OFFSET UNITYSDK_OFFSET(0x12B80100)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GETTARGETHEIGHT_OFFSET UNITYSDK_OFFSET(0x12B7FAB0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_BODYAPPLIESAFTERAIM_OFFSET UNITYSDK_OFFSET(0x12B7DA60)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_HARDGUIDERECT_OFFSET UNITYSDK_OFFSET(0x12B7D7B0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_INHERITINGPOSITION_OFFSET UNITYSDK_OFFSET(0x12B7DCE0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x12B7D9F0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_LASTBOUNDSMATRIX_OFFSET UNITYSDK_OFFSET(0x12B7DE50)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_LASTBOUNDS_OFFSET UNITYSDK_OFFSET(0x12B7DE10)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_SOFTGUIDERECT_OFFSET UNITYSDK_OFFSET(0x12B7D6B0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x12B7DA50)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_TRACKEDPOINT_OFFSET UNITYSDK_OFFSET(0x12B7DA70)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x12B7DEB0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x12B7DAB0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x12B7DBD0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x12B7D920)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ORTHOOFFSETTOSCREENBOUNDS_OFFSET UNITYSDK_OFFSET(0x12B7DD90)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SCREENTOORTHO_OFFSET UNITYSDK_OFFSET(0x12B7DD00)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_HARDGUIDERECT_OFFSET UNITYSDK_OFFSET(0x12B7D7F0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_INHERITINGPOSITION_OFFSET UNITYSDK_OFFSET(0x12B7DCF0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_LASTBOUNDSMATRIX_OFFSET UNITYSDK_OFFSET(0x12B7DE80)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_LASTBOUNDS_OFFSET UNITYSDK_OFFSET(0x12B7DE30)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_SOFTGUIDERECT_OFFSET UNITYSDK_OFFSET(0x12B7D6E0)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_TRACKEDPOINT_OFFSET UNITYSDK_OFFSET(0x12B7DA90)
-#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B810D0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_COMPUTEGROUPBOUNDS_OFFSET UNITYSDK_OFFSET(0x1463EE00)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x1463D4D0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x1463D4F0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GETSCREENSPACEGROUPBOUNDINGBOX_OFFSET UNITYSDK_OFFSET(0x1463FA90)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GETTARGETHEIGHT_OFFSET UNITYSDK_OFFSET(0x1463F3E0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_BODYAPPLIESAFTERAIM_OFFSET UNITYSDK_OFFSET(0x1463D3A0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_HARDGUIDERECT_OFFSET UNITYSDK_OFFSET(0x1463D0F0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_INHERITINGPOSITION_OFFSET UNITYSDK_OFFSET(0x1463D630)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1463D330)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_LASTBOUNDSMATRIX_OFFSET UNITYSDK_OFFSET(0x1463D7A0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_LASTBOUNDS_OFFSET UNITYSDK_OFFSET(0x1463D760)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_SOFTGUIDERECT_OFFSET UNITYSDK_OFFSET(0x1463CFF0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x1463D390)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_TRACKEDPOINT_OFFSET UNITYSDK_OFFSET(0x1463D3B0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x1463D800)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x1463D3F0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x1463D510)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1463D260)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ORTHOOFFSETTOSCREENBOUNDS_OFFSET UNITYSDK_OFFSET(0x1463D6E0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SCREENTOORTHO_OFFSET UNITYSDK_OFFSET(0x1463D650)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_HARDGUIDERECT_OFFSET UNITYSDK_OFFSET(0x1463D130)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_INHERITINGPOSITION_OFFSET UNITYSDK_OFFSET(0x1463D640)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_LASTBOUNDSMATRIX_OFFSET UNITYSDK_OFFSET(0x1463D7D0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_LASTBOUNDS_OFFSET UNITYSDK_OFFSET(0x1463D780)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_SOFTGUIDERECT_OFFSET UNITYSDK_OFFSET(0x1463D020)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_TRACKEDPOINT_OFFSET UNITYSDK_OFFSET(0x1463D3D0)
+#define CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x14640A60)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineFramingTransposer_TypeDefinitionIndex = 36535;
+	inline static constexpr unsigned int CinemachineFramingTransposer_TypeDefinitionIndex = 36835;
 
 	class CinemachineFramingTransposer : public ::Cinemachine::CinemachineComponentBase
 	{
@@ -105,9 +105,9 @@ namespace Cinemachine
 			return ((::UnityEngine::Rect(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_SOFTGUIDERECT_OFFSET))(this);
 		}
 
-		::System::Void set_SoftGuideRect(::UnityEngine::Rect value)
+		::System::Void set_SoftGuideRect(::UnityEngine::Rect a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_SOFTGUIDERECT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_SOFTGUIDERECT_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Rect get_HardGuideRect()
@@ -115,9 +115,9 @@ namespace Cinemachine
 			return ((::UnityEngine::Rect(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_HARDGUIDERECT_OFFSET))(this);
 		}
 
-		::System::Void set_HardGuideRect(::UnityEngine::Rect value)
+		::System::Void set_HardGuideRect(::UnityEngine::Rect a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_HARDGUIDERECT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_HARDGUIDERECT_OFFSET))(this, a1);
 		}
 
 		::System::Void OnValidate()
@@ -145,19 +145,19 @@ namespace Cinemachine
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_TRACKEDPOINT_OFFSET))(this);
 		}
 
-		::System::Void set_TrackedPoint(::UnityEngine::Vector3 value)
+		::System::Void set_TrackedPoint(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_TRACKEDPOINT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_TRACKEDPOINT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* target, ::UnityEngine::Vector3 positionDelta)
+		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ONTARGETOBJECTWARPED_OFFSET))(this, target, positionDelta);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ONTARGETOBJECTWARPED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ForceCameraPosition(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot)
+		::System::Void ForceCameraPosition(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_FORCECAMERAPOSITION_OFFSET))(this, pos, rot);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_FORCECAMERAPOSITION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single GetMaxDampTime()
@@ -165,9 +165,9 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GETMAXDAMPTIME_OFFSET))(this);
 		}
 
-		::System::Boolean OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* fromCam, ::UnityEngine::Vector3 worldUp, ::System::Single deltaTime, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams& transitionParams)
+		::System::Boolean OnTransitionFromCamera(::Cinemachine::ICinemachineCamera* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ONTRANSITIONFROMCAMERA_OFFSET))(this, fromCam, worldUp, deltaTime, transitionParams);
+			return ((::System::Boolean(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::UnityEngine::Vector3, ::System::Single, ::Cinemachine::CinemachineVirtualCameraBase_TransitionParams&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ONTRANSITIONFROMCAMERA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean get_InheritingPosition()
@@ -175,19 +175,19 @@ namespace Cinemachine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_INHERITINGPOSITION_OFFSET))(this);
 		}
 
-		::System::Void set_InheritingPosition(::System::Boolean value)
+		::System::Void set_InheritingPosition(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_INHERITINGPOSITION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_INHERITINGPOSITION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Rect ScreenToOrtho(::UnityEngine::Rect rScreen, ::System::Single orthoSize, ::System::Single aspect)
+		::UnityEngine::Rect ScreenToOrtho(::UnityEngine::Rect a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Rect(*)(::PVOID, ::UnityEngine::Rect, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SCREENTOORTHO_OFFSET))(this, rScreen, orthoSize, aspect);
+			return ((::UnityEngine::Rect(*)(::PVOID, ::UnityEngine::Rect, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SCREENTOORTHO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Vector3 OrthoOffsetToScreenBounds(::UnityEngine::Vector3 targetPos2D, ::UnityEngine::Rect screenRect)
+		::UnityEngine::Vector3 OrthoOffsetToScreenBounds(::UnityEngine::Vector3 a1, ::UnityEngine::Rect a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ORTHOOFFSETTOSCREENBOUNDS_OFFSET))(this, targetPos2D, screenRect);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_ORTHOOFFSETTOSCREENBOUNDS_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Bounds get_LastBounds()
@@ -195,9 +195,9 @@ namespace Cinemachine
 			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_LASTBOUNDS_OFFSET))(this);
 		}
 
-		::System::Void set_LastBounds(::UnityEngine::Bounds value)
+		::System::Void set_LastBounds(::UnityEngine::Bounds a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_LASTBOUNDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_LASTBOUNDS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Matrix4x4 get_LastBoundsMatrix()
@@ -205,29 +205,29 @@ namespace Cinemachine
 			return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GET_LASTBOUNDSMATRIX_OFFSET))(this);
 		}
 
-		::System::Void set_LastBoundsMatrix(::UnityEngine::Matrix4x4 value)
+		::System::Void set_LastBoundsMatrix(::UnityEngine::Matrix4x4 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_LASTBOUNDSMATRIX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_SET_LASTBOUNDSMATRIX_OFFSET))(this, a1);
 		}
 
-		::System::Void MutateCameraState(::Cinemachine::CameraState& curState, ::System::Single deltaTime)
+		::System::Void MutateCameraState(::Cinemachine::CameraState& a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_MUTATECAMERASTATE_OFFSET))(this, curState, deltaTime);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single GetTargetHeight(::UnityEngine::Vector2 boundsSize)
+		::System::Single GetTargetHeight(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GETTARGETHEIGHT_OFFSET))(this, boundsSize);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GETTARGETHEIGHT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 ComputeGroupBounds(::Cinemachine::ICinemachineTargetGroup* group, ::Cinemachine::CameraState& curState)
+		::UnityEngine::Vector3 ComputeGroupBounds(::Cinemachine::ICinemachineTargetGroup* a1, ::Cinemachine::CameraState& a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::Cinemachine::ICinemachineTargetGroup*, ::Cinemachine::CameraState&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_COMPUTEGROUPBOUNDS_OFFSET))(this, group, curState);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::Cinemachine::ICinemachineTargetGroup*, ::Cinemachine::CameraState&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_COMPUTEGROUPBOUNDS_OFFSET))(this, a1, a2);
 		}
 
-		static ::UnityEngine::Bounds GetScreenSpaceGroupBoundingBox(::Cinemachine::ICinemachineTargetGroup* group, ::UnityEngine::Vector3& pos, ::UnityEngine::Quaternion orientation)
+		static ::UnityEngine::Bounds GetScreenSpaceGroupBoundingBox(::Cinemachine::ICinemachineTargetGroup* a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Quaternion a3)
 		{
-			return ((::UnityEngine::Bounds(*)(::Cinemachine::ICinemachineTargetGroup*, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GETSCREENSPACEGROUPBOUNDINGBOX_OFFSET))(group, pos, orientation);
+			return ((::UnityEngine::Bounds(*)(::Cinemachine::ICinemachineTargetGroup*, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFRAMINGTRANSPOSER_GETSCREENSPACEGROUPBOUNDINGBOX_OFFSET))(a1, a2, a3);
 		}
 	};
 }

@@ -10,22 +10,22 @@ namespace System::Xml { class XmlNode; }
 namespace System::Xml { class XmlWriter; }
 namespace System::Xml::Schema { class SchemaInfo; }
 
-#define SYSTEM_XML_XMLDOCUMENTTYPE_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1A047730)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_DTDSCHEMAINFO_OFFSET UNITYSDK_OFFSET(0x1A047950)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_ENTITIES_OFFSET UNITYSDK_OFFSET(0x1A046660)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_INTERNALSUBSET_OFFSET UNITYSDK_OFFSET(0x1A0478D0)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1A047840)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1A047710)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A047700)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1A047720)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_NOTATIONS_OFFSET UNITYSDK_OFFSET(0x1A047850)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_PARSEWITHNAMESPACES_OFFSET UNITYSDK_OFFSET(0x1A0478E0)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_PUBLICID_OFFSET UNITYSDK_OFFSET(0x1A0478B0)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_SYSTEMID_OFFSET UNITYSDK_OFFSET(0x1A0478C0)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_SET_DTDSCHEMAINFO_OFFSET UNITYSDK_OFFSET(0x1A047960)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1A047940)
-#define SYSTEM_XML_XMLDOCUMENTTYPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A0478F0)
-#define SYSTEM_XML_XMLDOCUMENTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0474C0)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1AEB98B0)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_DTDSCHEMAINFO_OFFSET UNITYSDK_OFFSET(0x1AEB9AD0)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_ENTITIES_OFFSET UNITYSDK_OFFSET(0x1AEB8790)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_INTERNALSUBSET_OFFSET UNITYSDK_OFFSET(0x1AEB9A50)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1AEB99C0)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1AEB9890)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1AEB9880)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1AEB98A0)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_NOTATIONS_OFFSET UNITYSDK_OFFSET(0x1AEB99D0)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_PARSEWITHNAMESPACES_OFFSET UNITYSDK_OFFSET(0x1AEB9A60)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_PUBLICID_OFFSET UNITYSDK_OFFSET(0x1AEB9A30)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_GET_SYSTEMID_OFFSET UNITYSDK_OFFSET(0x1AEB9A40)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_SET_DTDSCHEMAINFO_OFFSET UNITYSDK_OFFSET(0x1AEB9AE0)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1AEB9AC0)
+#define SYSTEM_XML_XMLDOCUMENTTYPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1AEB9A70)
+#define SYSTEM_XML_XMLDOCUMENTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEB9640)
 
 namespace System::Xml
 {
@@ -34,18 +34,18 @@ namespace System::Xml
 	class XmlDocumentType : public ::System::Xml::XmlLinkedNode
 	{
 	public:
-		::System::String* internalSubset; // 0x20
-		::System::String* systemId; // 0x28
-		::System::Xml::XmlNamedNodeMap* notations; // 0x30
-		::System::Xml::XmlNamedNodeMap* entities; // 0x38
-		::System::Xml::Schema::SchemaInfo* schemaInfo; // 0x40
-		::System::String* name; // 0x48
-		::System::String* publicId; // 0x50
+		::System::String* publicId; // 0x20
+		::System::Xml::Schema::SchemaInfo* schemaInfo; // 0x28
+		::System::String* name; // 0x30
+		::System::String* internalSubset; // 0x38
+		::System::Xml::XmlNamedNodeMap* notations; // 0x40
+		::System::String* systemId; // 0x48
+		::System::Xml::XmlNamedNodeMap* entities; // 0x50
 		::System::Boolean namespaces; // 0x58
 
-		::System::Void _ctor(::System::String* name, ::System::String* publicId, ::System::String* systemId, ::System::String* internalSubset, ::System::Xml::XmlDocument* doc)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::Xml::XmlDocument* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE__CTOR_OFFSET))(this, name, publicId, systemId, internalSubset, doc);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::String* get_Name()
@@ -63,9 +63,9 @@ namespace System::Xml
 			return ((::System::Xml::XmlNodeType(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE_GET_NODETYPE_OFFSET))(this);
 		}
 
-		::System::Xml::XmlNode* CloneNode(::System::Boolean deep)
+		::System::Xml::XmlNode* CloneNode(::System::Boolean a1)
 		{
-			return ((::System::Xml::XmlNode*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE_CLONENODE_OFFSET))(this, deep);
+			return ((::System::Xml::XmlNode*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE_CLONENODE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsReadOnly()
@@ -103,14 +103,14 @@ namespace System::Xml
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE_GET_PARSEWITHNAMESPACES_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::System::Xml::XmlWriter* w)
+		::System::Void WriteTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE_WRITETO_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE_WRITETO_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteContentTo(::System::Xml::XmlWriter* w)
+		::System::Void WriteContentTo(::System::Xml::XmlWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE_WRITECONTENTTO_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE_WRITECONTENTTO_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Schema::SchemaInfo* get_DtdSchemaInfo()
@@ -118,9 +118,9 @@ namespace System::Xml
 			return ((::System::Xml::Schema::SchemaInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE_GET_DTDSCHEMAINFO_OFFSET))(this);
 		}
 
-		::System::Void set_DtdSchemaInfo(::System::Xml::Schema::SchemaInfo* value)
+		::System::Void set_DtdSchemaInfo(::System::Xml::Schema::SchemaInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::SchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE_SET_DTDSCHEMAINFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::SchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOCUMENTTYPE_SET_DTDSCHEMAINFO_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,23 +6,23 @@
 namespace System::Net::Http { class HttpContent; }
 namespace System::Net::Http::Headers { class MediaTypeHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_GET_CONTENTLENGTH_OFFSET UNITYSDK_OFFSET(0x19F5F8B0)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x19F5FB30)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_SET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x19F5FB70)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5F6F0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_GET_CONTENTLENGTH_OFFSET UNITYSDK_OFFSET(0x1ADD4AE0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1ADD4D60)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_SET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1ADD4DA0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADD4920)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HttpContentHeaders_TypeDefinitionIndex = 4811;
+	inline static constexpr unsigned int HttpContentHeaders_TypeDefinitionIndex = 3778;
 
 	class HttpContentHeaders : public ::System::Net::Http::Headers::HttpHeaders
 	{
 	public:
 		::System::Net::Http::HttpContent* content; // 0x20
 
-		::System::Void _ctor(::System::Net::Http::HttpContent* content)
+		::System::Void _ctor(::System::Net::Http::HttpContent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpContent*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS__CTOR_OFFSET))(this, content);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpContent*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::System::Int64> get_ContentLength()
@@ -35,9 +35,9 @@ namespace System::Net::Http::Headers
 			return ((::System::Net::Http::Headers::MediaTypeHeaderValue*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_GET_CONTENTTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ContentType(::System::Net::Http::Headers::MediaTypeHeaderValue* value)
+		::System::Void set_ContentType(::System::Net::Http::Headers::MediaTypeHeaderValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::MediaTypeHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_SET_CONTENTTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::MediaTypeHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPCONTENTHEADERS_SET_CONTENTTYPE_OFFSET))(this, a1);
 		}
 	};
 }

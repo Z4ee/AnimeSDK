@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int UnityKeyboardProvider_WindowsKeyboardLayoutMapping_TypeDefinitionIndex = 37164;
+	inline static constexpr unsigned int UnityKeyboardProvider_WindowsKeyboardLayoutMapping_TypeDefinitionIndex = 37896;
 
 	enum class UnityKeyboardProvider_WindowsKeyboardLayoutMapping : ::System::Int32
 	{

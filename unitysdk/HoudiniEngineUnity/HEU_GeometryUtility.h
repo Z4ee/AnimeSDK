@@ -8,42 +8,42 @@
 namespace System { class String; }
 namespace UnityEngine { class Mesh; }
 
-#define HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_CALCULATEMESHTANGENTS_OFFSET UNITYSDK_OFFSET(0x8C50F20)
-#define HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATECUBEMESHFROMPOINTS_OFFSET UNITYSDK_OFFSET(0x8C5FCB0)
-#define HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATEPERTRIANGLE_OFFSET UNITYSDK_OFFSET(0x8C53300)
-#define HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATESECONDARYUVSET_OFFSET UNITYSDK_OFFSET(0x8C5FC00)
-#define HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GETINSTANCEOUTPUTNAME_OFFSET UNITYSDK_OFFSET(0x8C3F850)
+#define HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_CALCULATEMESHTANGENTS_OFFSET UNITYSDK_OFFSET(0x17ECE6D0)
+#define HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATECUBEMESHFROMPOINTS_OFFSET UNITYSDK_OFFSET(0x17ED9750)
+#define HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATEPERTRIANGLE_OFFSET UNITYSDK_OFFSET(0x17ED0940)
+#define HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATESECONDARYUVSET_OFFSET UNITYSDK_OFFSET(0x17ED9710)
+#define HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GETINSTANCEOUTPUTNAME_OFFSET UNITYSDK_OFFSET(0x17EB3A00)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GeometryUtility_TypeDefinitionIndex = 43698;
+	inline static constexpr unsigned int HEU_GeometryUtility_TypeDefinitionIndex = 37677;
 
 	class HEU_GeometryUtility : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Vector2>* GeneratePerTriangle(::UnityEngine::Mesh* meshSrc)
+		static ::Il2CppArray<::UnityEngine::Vector2>* GeneratePerTriangle(::UnityEngine::Mesh* a1)
 		{
-			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATEPERTRIANGLE_OFFSET))(meshSrc);
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATEPERTRIANGLE_OFFSET))(a1);
 		}
 
-		static ::System::Void GenerateSecondaryUVSet(::UnityEngine::Mesh* meshsrc)
+		static ::System::Void GenerateSecondaryUVSet(::UnityEngine::Mesh* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATESECONDARYUVSET_OFFSET))(meshsrc);
+			return ((::System::Void(*)(::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATESECONDARYUVSET_OFFSET))(a1);
 		}
 
-		static ::System::Void CalculateMeshTangents(::UnityEngine::Mesh* mesh)
+		static ::System::Void CalculateMeshTangents(::UnityEngine::Mesh* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_CALCULATEMESHTANGENTS_OFFSET))(mesh);
+			return ((::System::Void(*)(::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_CALCULATEMESHTANGENTS_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Mesh* GenerateCubeMeshFromPoints(::Il2CppArray<::UnityEngine::Vector3>* points, ::Il2CppArray<::UnityEngine::Color>* pointsColor, ::System::Single size)
+		static ::UnityEngine::Mesh* GenerateCubeMeshFromPoints(::Il2CppArray<::UnityEngine::Vector3>* a1, ::Il2CppArray<::UnityEngine::Color>* a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Mesh*(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Color>*, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATECUBEMESHFROMPOINTS_OFFSET))(points, pointsColor, size);
+			return ((::UnityEngine::Mesh*(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Color>*, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GENERATECUBEMESHFROMPOINTS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* GetInstanceOutputName(::System::String* partName, ::Il2CppArray<::System::String*>* userPrefix, ::System::Int32 index)
+		static ::System::String* GetInstanceOutputName(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GETINSTANCEOUTPUTNAME_OFFSET))(partName, userPrefix, index);
+			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_GEOMETRYUTILITY_GETINSTANCEOUTPUTNAME_OFFSET))(a1, a2, a3);
 		}
 	};
 }

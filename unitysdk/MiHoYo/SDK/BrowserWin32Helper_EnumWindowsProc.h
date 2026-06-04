@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8CEE430)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8CEE4A0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_INVOKE_OFFSET UNITYSDK_OFFSET(0x8CEE0C0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC__CTOR_OFFSET UNITYSDK_OFFSET(0x8CEBE40)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA145090)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA145100)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_INVOKE_OFFSET UNITYSDK_OFFSET(0xA145080)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC__CTOR_OFFSET UNITYSDK_OFFSET(0xA145010)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper_EnumWindowsProc_TypeDefinitionIndex = 43168;
+	inline static constexpr unsigned int BrowserWin32Helper_EnumWindowsProc_TypeDefinitionIndex = 43971;
 
 	class BrowserWin32Helper_EnumWindowsProc : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::IntPtr hWnd, ::System::IntPtr lParam)
+		::System::Boolean Invoke(::System::IntPtr a1, ::System::IntPtr a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_INVOKE_OFFSET))(this, hWnd, lParam);
+			return ((::System::Boolean(*)(::PVOID, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::IntPtr hWnd, ::System::IntPtr lParam, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::IntPtr a1, ::System::IntPtr a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_BEGININVOKE_OFFSET))(this, hWnd, lParam, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_ENUMWINDOWSPROC_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,50 +4,50 @@
 
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_AZTEC_INTERNAL_AZTECCODE_GET_MATRIX_OFFSET UNITYSDK_OFFSET(0x1A735C40)
-#define ZXING_AZTEC_INTERNAL_AZTECCODE_SET_CODEWORDS_OFFSET UNITYSDK_OFFSET(0x1A735C30)
-#define ZXING_AZTEC_INTERNAL_AZTECCODE_SET_ISCOMPACT_OFFSET UNITYSDK_OFFSET(0x1A735C00)
-#define ZXING_AZTEC_INTERNAL_AZTECCODE_SET_LAYERS_OFFSET UNITYSDK_OFFSET(0x1A735C20)
-#define ZXING_AZTEC_INTERNAL_AZTECCODE_SET_MATRIX_OFFSET UNITYSDK_OFFSET(0x1A735C50)
-#define ZXING_AZTEC_INTERNAL_AZTECCODE_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x1A735C10)
-#define ZXING_AZTEC_INTERNAL_AZTECCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A735C60)
+#define ZXING_AZTEC_INTERNAL_AZTECCODE_GET_MATRIX_OFFSET UNITYSDK_OFFSET(0x1B5368C0)
+#define ZXING_AZTEC_INTERNAL_AZTECCODE_SET_CODEWORDS_OFFSET UNITYSDK_OFFSET(0x1B5368B0)
+#define ZXING_AZTEC_INTERNAL_AZTECCODE_SET_ISCOMPACT_OFFSET UNITYSDK_OFFSET(0x1B536880)
+#define ZXING_AZTEC_INTERNAL_AZTECCODE_SET_LAYERS_OFFSET UNITYSDK_OFFSET(0x1B5368A0)
+#define ZXING_AZTEC_INTERNAL_AZTECCODE_SET_MATRIX_OFFSET UNITYSDK_OFFSET(0x1B5368D0)
+#define ZXING_AZTEC_INTERNAL_AZTECCODE_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x1B536890)
+#define ZXING_AZTEC_INTERNAL_AZTECCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5368E0)
 
 namespace ZXing::Aztec::Internal
 {
-	inline static constexpr unsigned int AztecCode_TypeDefinitionIndex = 6071;
+	inline static constexpr unsigned int AztecCode_TypeDefinitionIndex = 6444;
 
 	class AztecCode : public ::System::Object
 	{
 	public:
 		::ZXing::Common::BitMatrix* _Matrix_k__BackingField; // 0x10
-		::System::Int32 _CodeWords_k__BackingField; // 0x18
-		::System::Int32 _Layers_k__BackingField; // 0x1C
-		::System::Boolean _isCompact_k__BackingField; // 0x20
-		::System::Int32 _Size_k__BackingField; // 0x24
+		::System::Int32 _Layers_k__BackingField; // 0x18
+		::System::Int32 _CodeWords_k__BackingField; // 0x1C
+		::System::Int32 _Size_k__BackingField; // 0x20
+		::System::Boolean _isCompact_k__BackingField; // 0x24
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_isCompact(::System::Boolean value)
+		::System::Void set_isCompact(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE_SET_ISCOMPACT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE_SET_ISCOMPACT_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Size(::System::Int32 value)
+		::System::Void set_Size(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE_SET_SIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE_SET_SIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Layers(::System::Int32 value)
+		::System::Void set_Layers(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE_SET_LAYERS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE_SET_LAYERS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_CodeWords(::System::Int32 value)
+		::System::Void set_CodeWords(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE_SET_CODEWORDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE_SET_CODEWORDS_OFFSET))(this, a1);
 		}
 
 		::ZXing::Common::BitMatrix* get_Matrix()
@@ -55,9 +55,9 @@ namespace ZXing::Aztec::Internal
 			return ((::ZXing::Common::BitMatrix*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE_GET_MATRIX_OFFSET))(this);
 		}
 
-		::System::Void set_Matrix(::ZXing::Common::BitMatrix* value)
+		::System::Void set_Matrix(::ZXing::Common::BitMatrix* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZXing::Common::BitMatrix*))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE_SET_MATRIX_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::ZXing::Common::BitMatrix*))((::PBYTE)hIl2Cpp + ZXING_AZTEC_INTERNAL_AZTECCODE_SET_MATRIX_OFFSET))(this, a1);
 		}
 	};
 }

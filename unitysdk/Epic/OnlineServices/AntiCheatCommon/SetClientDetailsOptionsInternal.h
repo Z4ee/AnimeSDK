@@ -7,16 +7,16 @@
 namespace Epic::OnlineServices::AntiCheatCommon { class SetClientDetailsOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD5A0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xD520)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTFLAGS_OFFSET UNITYSDK_OFFSET(0x26F0)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTHANDLE_OFFSET UNITYSDK_OFFSET(0x8D10)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTINPUTMETHOD_OFFSET UNITYSDK_OFFSET(0x6910)
-#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0xD500)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD00)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0xDC80)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTFLAGS_OFFSET UNITYSDK_OFFSET(0x2A90)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTHANDLE_OFFSET UNITYSDK_OFFSET(0x95B0)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTINPUTMETHOD_OFFSET UNITYSDK_OFFSET(0x6F00)
+#define EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0xB9A0)
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int SetClientDetailsOptionsInternal_TypeDefinitionIndex = 42509;
+	inline static constexpr unsigned int SetClientDetailsOptionsInternal_TypeDefinitionIndex = 43312;
 
 	struct alignas(8) SetClientDetailsOptionsInternal
 	{
@@ -25,29 +25,29 @@ namespace Epic::OnlineServices::AntiCheatCommon
 		::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientFlags m_ClientFlags; // 0x20
 		::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientInput m_ClientInputMethod; // 0x24
 
-		::System::Void set_ClientHandle(::System::IntPtr value)
+		::System::Void set_ClientHandle(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTHANDLE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ClientFlags(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientFlags value)
+		::System::Void set_ClientFlags(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientFlags a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientFlags))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTFLAGS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientFlags))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTFLAGS_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ClientInputMethod(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientInput value)
+		::System::Void set_ClientInputMethod(::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientInput a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientInput))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTINPUTMETHOD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::AntiCheatCommonClientInput))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_CLIENTINPUTMETHOD_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::SetClientDetailsOptions* other)
+		::System::Void Set(::Epic::OnlineServices::AntiCheatCommon::SetClientDetailsOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::SetClientDetailsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::AntiCheatCommon::SetClientDetailsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ANTICHEATCOMMON_SETCLIENTDETAILSOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

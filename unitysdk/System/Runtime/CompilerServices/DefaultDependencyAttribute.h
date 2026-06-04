@@ -3,20 +3,20 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Runtime/CompilerServices/LoadHint.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_DEFAULTDEPENDENCYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x179BEE50)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_DEFAULTDEPENDENCYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1876FA60)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int DefaultDependencyAttribute_TypeDefinitionIndex = 1368;
+	inline static constexpr unsigned int DefaultDependencyAttribute_TypeDefinitionIndex = 1367;
 
 	class DefaultDependencyAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Runtime::CompilerServices::LoadHint loadHint; // 0x10
 
-		::System::Void _ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument)
+		::System::Void _ctor(::System::Runtime::CompilerServices::LoadHint a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::CompilerServices::LoadHint))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_DEFAULTDEPENDENCYATTRIBUTE__CTOR_OFFSET))(this, loadHintArgument);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::CompilerServices::LoadHint))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_DEFAULTDEPENDENCYATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

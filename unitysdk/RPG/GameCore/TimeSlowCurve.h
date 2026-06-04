@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeSlowCurve_TypeDefinitionIndex = 17304;
+	inline static constexpr unsigned int TimeSlowCurve_TypeDefinitionIndex = 17309;
 
 	enum class TimeSlowCurve : ::System::Int32
 	{

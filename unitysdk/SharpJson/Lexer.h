@@ -5,40 +5,40 @@
 
 namespace System { class String; }
 
-#define SHARPJSON_LEXER_GETLASTINDEXOFNUMBER_OFFSET UNITYSDK_OFFSET(0x19DC81B0)
-#define SHARPJSON_LEXER_GETNUMBERSTRING_OFFSET UNITYSDK_OFFSET(0x19DC80A0)
-#define SHARPJSON_LEXER_GET_HASERROR_OFFSET UNITYSDK_OFFSET(0x19DC7FB0)
-#define SHARPJSON_LEXER_GET_LINENUMBER_OFFSET UNITYSDK_OFFSET(0x19DC7FC0)
-#define SHARPJSON_LEXER_GET_PARSENUMBERSASFLOAT_OFFSET UNITYSDK_OFFSET(0x19DC7FE0)
-#define SHARPJSON_LEXER_LOOKAHEAD_OFFSET UNITYSDK_OFFSET(0x19DC7630)
-#define SHARPJSON_LEXER_NEXTTOKEN_1_OFFSET UNITYSDK_OFFSET(0x19DC8230)
-#define SHARPJSON_LEXER_NEXTTOKEN_OFFSET UNITYSDK_OFFSET(0x19DC75A0)
-#define SHARPJSON_LEXER_PARSEDOUBLENUMBER_OFFSET UNITYSDK_OFFSET(0x19DC7F50)
-#define SHARPJSON_LEXER_PARSEFLOATNUMBER_OFFSET UNITYSDK_OFFSET(0x19DC7EF0)
-#define SHARPJSON_LEXER_PARSESTRING_OFFSET UNITYSDK_OFFSET(0x19DC7750)
-#define SHARPJSON_LEXER_RESET_OFFSET UNITYSDK_OFFSET(0x19DC8000)
-#define SHARPJSON_LEXER_SET_LINENUMBER_OFFSET UNITYSDK_OFFSET(0x19DC7FD0)
-#define SHARPJSON_LEXER_SET_PARSENUMBERSASFLOAT_OFFSET UNITYSDK_OFFSET(0x19DC7FF0)
-#define SHARPJSON_LEXER_SKIPWHITESPACES_OFFSET UNITYSDK_OFFSET(0x19DC8020)
-#define SHARPJSON_LEXER__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC6E20)
+#define SHARPJSON_LEXER_GETLASTINDEXOFNUMBER_OFFSET UNITYSDK_OFFSET(0x1AC45870)
+#define SHARPJSON_LEXER_GETNUMBERSTRING_OFFSET UNITYSDK_OFFSET(0x1AC45770)
+#define SHARPJSON_LEXER_GET_HASERROR_OFFSET UNITYSDK_OFFSET(0x1AC45680)
+#define SHARPJSON_LEXER_GET_LINENUMBER_OFFSET UNITYSDK_OFFSET(0x1AC45690)
+#define SHARPJSON_LEXER_GET_PARSENUMBERSASFLOAT_OFFSET UNITYSDK_OFFSET(0x1AC456B0)
+#define SHARPJSON_LEXER_LOOKAHEAD_OFFSET UNITYSDK_OFFSET(0x1AC44AE0)
+#define SHARPJSON_LEXER_NEXTTOKEN_1_OFFSET UNITYSDK_OFFSET(0x1AC458F0)
+#define SHARPJSON_LEXER_NEXTTOKEN_OFFSET UNITYSDK_OFFSET(0x1AC44A60)
+#define SHARPJSON_LEXER_PARSEDOUBLENUMBER_OFFSET UNITYSDK_OFFSET(0x1AC45620)
+#define SHARPJSON_LEXER_PARSEFLOATNUMBER_OFFSET UNITYSDK_OFFSET(0x1AC455C0)
+#define SHARPJSON_LEXER_PARSESTRING_OFFSET UNITYSDK_OFFSET(0x1AC44C00)
+#define SHARPJSON_LEXER_RESET_OFFSET UNITYSDK_OFFSET(0x1AC456D0)
+#define SHARPJSON_LEXER_SET_LINENUMBER_OFFSET UNITYSDK_OFFSET(0x1AC456A0)
+#define SHARPJSON_LEXER_SET_PARSENUMBERSASFLOAT_OFFSET UNITYSDK_OFFSET(0x1AC456C0)
+#define SHARPJSON_LEXER_SKIPWHITESPACES_OFFSET UNITYSDK_OFFSET(0x1AC456F0)
+#define SHARPJSON_LEXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC43E20)
 
 namespace SharpJson
 {
-	inline static constexpr unsigned int Lexer_TypeDefinitionIndex = 36352;
+	inline static constexpr unsigned int Lexer_TypeDefinitionIndex = 36652;
 
 	class Lexer : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Char>* json; // 0x10
 		::Il2CppArray<::System::Char>* stringBuffer; // 0x18
-		::System::Boolean _parseNumbersAsFloat_k__BackingField; // 0x20
-		::System::Boolean success; // 0x21
-		::System::Int32 index; // 0x24
-		::System::Int32 _lineNumber_k__BackingField; // 0x28
+		::System::Int32 _lineNumber_k__BackingField; // 0x20
+		::System::Boolean _parseNumbersAsFloat_k__BackingField; // 0x24
+		::System::Boolean success; // 0x25
+		::System::Int32 index; // 0x28
 
-		::System::Void _ctor(::System::String* text)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER__CTOR_OFFSET))(this, text);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_hasError()
@@ -51,9 +51,9 @@ namespace SharpJson
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_GET_LINENUMBER_OFFSET))(this);
 		}
 
-		::System::Void set_lineNumber(::System::Int32 value)
+		::System::Void set_lineNumber(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_SET_LINENUMBER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_SET_LINENUMBER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_parseNumbersAsFloat()
@@ -61,9 +61,9 @@ namespace SharpJson
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_GET_PARSENUMBERSASFLOAT_OFFSET))(this);
 		}
 
-		::System::Void set_parseNumbersAsFloat(::System::Boolean value)
+		::System::Void set_parseNumbersAsFloat(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_SET_PARSENUMBERSASFLOAT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_SET_PARSENUMBERSASFLOAT_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -91,9 +91,9 @@ namespace SharpJson
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_PARSEDOUBLENUMBER_OFFSET))(this);
 		}
 
-		::System::Int32 GetLastIndexOfNumber(::System::Int32 index)
+		::System::Int32 GetLastIndexOfNumber(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_GETLASTINDEXOFNUMBER_OFFSET))(this, index);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_GETLASTINDEXOFNUMBER_OFFSET))(this, a1);
 		}
 
 		::System::Void SkipWhiteSpaces()
@@ -111,9 +111,9 @@ namespace SharpJson
 			return ((::SharpJson::Lexer_Token(*)(::PVOID))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_NEXTTOKEN_OFFSET))(this);
 		}
 
-		static ::SharpJson::Lexer_Token NextToken_1(::Il2CppArray<::System::Char>* json, ::System::Int32& index)
+		static ::SharpJson::Lexer_Token NextToken_1(::Il2CppArray<::System::Char>* a1, ::System::Int32& a2)
 		{
-			return ((::SharpJson::Lexer_Token(*)(::Il2CppArray<::System::Char>*, ::System::Int32&))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_NEXTTOKEN_1_OFFSET))(json, index);
+			return ((::SharpJson::Lexer_Token(*)(::Il2CppArray<::System::Char>*, ::System::Int32&))((::PBYTE)hIl2Cpp + SHARPJSON_LEXER_NEXTTOKEN_1_OFFSET))(a1, a2);
 		}
 	};
 }

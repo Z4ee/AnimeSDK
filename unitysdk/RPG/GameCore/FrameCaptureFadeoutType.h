@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FrameCaptureFadeoutType_TypeDefinitionIndex = 22186;
+	inline static constexpr unsigned int FrameCaptureFadeoutType_TypeDefinitionIndex = 23362;
 
 	enum class FrameCaptureFadeoutType : ::System::Int32
 	{

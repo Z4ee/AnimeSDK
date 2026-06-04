@@ -8,14 +8,14 @@ namespace Newtonsoft::Json { class JsonWriter; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x17A5D020)
-#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x17A5CE20)
-#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x17A5CD50)
-#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A5D060)
+#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1880BD60)
+#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1880BB60)
+#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1880BA90)
+#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1880BDA0)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int VersionConverter_TypeDefinitionIndex = 8570;
+	inline static constexpr unsigned int VersionConverter_TypeDefinitionIndex = 9473;
 
 	class VersionConverter : public ::Newtonsoft::Json::JsonConverter
 	{
@@ -25,19 +25,19 @@ namespace Newtonsoft::Json::Converters
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer)
+		::System::Void WriteJson(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::JsonSerializer* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_WRITEJSON_OFFSET))(this, writer, value, serializer);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_WRITEJSON_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer)
+		::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* a1, ::System::Type* a2, ::System::Object* a3, ::Newtonsoft::Json::JsonSerializer* a4)
 		{
-			return ((::System::Object*(*)(::PVOID, ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_READJSON_OFFSET))(this, reader, objectType, existingValue, serializer);
+			return ((::System::Object*(*)(::PVOID, ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_READJSON_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean CanConvert(::System::Type* objectType)
+		::System::Boolean CanConvert(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_CANCONVERT_OFFSET))(this, objectType);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_CANCONVERT_OFFSET))(this, a1);
 		}
 	};
 }

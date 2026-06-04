@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetupActionDelayLink; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8F56C6FE67967998_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAA71E60)
-#define CLASS_3_8F56C6FE67967998__CTOR_OFFSET UNITYSDK_OFFSET(0xAA71E30)
+#define CLASS_3_8F56C6FE67967998_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA676530)
+#define CLASS_3_8F56C6FE67967998__CTOR_OFFSET UNITYSDK_OFFSET(0xA676500)
 
-inline static constexpr unsigned int Class_3_8F56C6FE67967998_TypeDefinitionIndex = 51258;
+inline static constexpr unsigned int Class_3_8F56C6FE67967998_TypeDefinitionIndex = 51930;
 
 class Class_3_8F56C6FE67967998 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetupActionDelayLink*>
 {

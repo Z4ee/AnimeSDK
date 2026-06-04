@@ -14,29 +14,29 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_GETATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xA675980)
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0xA674FC0)
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_GETUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0xA675010)
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_INITATTACHPOINTS_OFFSET UNITYSDK_OFFSET(0xA675280)
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_ISDYNAMICATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xA675C20)
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_REMOVEATTACHPOINTS_OFFSET UNITYSDK_OFFSET(0xA6756D0)
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0xA675170)
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_SETTRANSFORM_OFFSET UNITYSDK_OFFSET(0xA675060)
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xA676010)
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CREATEDYNAMICATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xA675E60)
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CREATESTATICATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xA675CF0)
-#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xA674FB0)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_GETATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xBDC0290)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0xBDBF930)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_GETUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0xBDBF980)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_INITATTACHPOINTS_OFFSET UNITYSDK_OFFSET(0xBDBFBF0)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_ISDYNAMICATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xBDC0520)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_REMOVEATTACHPOINTS_OFFSET UNITYSDK_OFFSET(0xBDC0060)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0xBDBFAE0)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_SETTRANSFORM_OFFSET UNITYSDK_OFFSET(0xBDBF9D0)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xBDC0900)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CREATEDYNAMICATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xBDC0750)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CREATESTATICATTACHPOINT_OFFSET UNITYSDK_OFFSET(0xBDC05E0)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xBDBF920)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BaseMonoGenericView_TypeDefinitionIndex = 70269;
+	inline static constexpr unsigned int BaseMonoGenericView_TypeDefinitionIndex = 71082;
 
 	class BaseMonoGenericView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::RPG::GameCore::LittleGameAttachPointInfo** StaticGet_NoNameAttachPointConfig()
 		{
-			return (::RPG::GameCore::LittleGameAttachPointInfo**)Il2CppClass::FromTypeDefinitionIndex(BaseMonoGenericView_TypeDefinitionIndex)->GetStaticField(0xBF60);
+			return (::RPG::GameCore::LittleGameAttachPointInfo**)Il2CppClass::FromTypeDefinitionIndex(BaseMonoGenericView_TypeDefinitionIndex)->GetStaticField(0x179F0);
 		}
 		// static const ::System::String* NoNameAttachPointName; // 0x0
 		::RPG::PoolDictionary_2<::System::String*, ::RPG::Client::LittleGame::BaseMonoGenericView_AttachPointInfo>* _AttachPoints; // 0x18
@@ -61,14 +61,14 @@ namespace RPG::Client::LittleGame
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_GETUNITYOBJECT_OFFSET))(this);
 		}
 
-		::System::Void SetTransform(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale)
+		::System::Void SetTransform(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_SETTRANSFORM_OFFSET))(this, position, rotation, scale);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_SETTRANSFORM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SafeSetActive(::System::Boolean value)
+		::System::Void SafeSetActive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_SAFESETACTIVE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_SAFESETACTIVE_OFFSET))(this, a1);
 		}
 
 		::System::Void InitAttachPoints()
@@ -81,24 +81,24 @@ namespace RPG::Client::LittleGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_REMOVEATTACHPOINTS_OFFSET))(this);
 		}
 
-		::UnityEngine::Transform* GetAttachPoint(::System::String* pointName, ::System::Boolean outputError)
+		::UnityEngine::Transform* GetAttachPoint(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_GETATTACHPOINT_OFFSET))(this, pointName, outputError);
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_GETATTACHPOINT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsDynamicAttachPoint(::System::String* pointName)
+		::System::Boolean IsDynamicAttachPoint(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_ISDYNAMICATTACHPOINT_OFFSET))(this, pointName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW_ISDYNAMICATTACHPOINT_OFFSET))(this, a1);
 		}
 
-		::System::Void _CreateStaticAttachPoint(::RPG::Client::LittleGame::BaseMonoGenericView_AttachPointInfo& pointInfo)
+		::System::Void _CreateStaticAttachPoint(::RPG::Client::LittleGame::BaseMonoGenericView_AttachPointInfo& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::BaseMonoGenericView_AttachPointInfo&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CREATESTATICATTACHPOINT_OFFSET))(this, pointInfo);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::BaseMonoGenericView_AttachPointInfo&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CREATESTATICATTACHPOINT_OFFSET))(this, a1);
 		}
 
-		::System::Void _CreateDynamicAttachPoint(::RPG::Client::LittleGame::BaseMonoGenericView_AttachPointInfo& pointInfo)
+		::System::Void _CreateDynamicAttachPoint(::RPG::Client::LittleGame::BaseMonoGenericView_AttachPointInfo& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::BaseMonoGenericView_AttachPointInfo&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CREATEDYNAMICATTACHPOINT_OFFSET))(this, pointInfo);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::BaseMonoGenericView_AttachPointInfo&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_BASEMONOGENERICVIEW__CREATEDYNAMICATTACHPOINT_OFFSET))(this, a1);
 		}
 	};
 }

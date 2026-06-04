@@ -5,14 +5,14 @@
 
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x19E8E120)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUE_OFFSET UNITYSDK_OFFSET(0x19E8E460)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x19E8E0A0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E8E4A0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1AD04090)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1AD04360)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AD04060)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD043A0)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int ProfilerGraphAxisLabel_TypeDefinitionIndex = 35403;
+	inline static constexpr unsigned int ProfilerGraphAxisLabel_TypeDefinitionIndex = 35703;
 
 	class ProfilerGraphAxisLabel : public ::SRF::SRMonoBehaviourEx
 	{
@@ -32,14 +32,14 @@ namespace SRDebugger::UI::Controls
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void SetValue(::System::Single frameTime, ::System::Single yPosition)
+		::System::Void SetValue(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUE_OFFSET))(this, frameTime, yPosition);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetValueInternal(::System::Single frameTime)
+		::System::Void SetValueInternal(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUEINTERNAL_OFFSET))(this, frameTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_SETVALUEINTERNAL_OFFSET))(this, a1);
 		}
 	};
 }

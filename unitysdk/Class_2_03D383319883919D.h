@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class SwordTrainingCheckIfGameStarted; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_03D383319883919D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x95BAFB0)
-#define CLASS_2_03D383319883919D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x95BADD0)
-#define CLASS_2_03D383319883919D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x95BAF40)
-#define CLASS_2_03D383319883919D_TICK_OFFSET UNITYSDK_OFFSET(0x95BB020)
-#define CLASS_2_03D383319883919D__CTOR_OFFSET UNITYSDK_OFFSET(0x95BACC0)
+#define CLASS_2_03D383319883919D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13701350)
+#define CLASS_2_03D383319883919D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13701150)
+#define CLASS_2_03D383319883919D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x137012E0)
+#define CLASS_2_03D383319883919D_TICK_OFFSET UNITYSDK_OFFSET(0x137013C0)
+#define CLASS_2_03D383319883919D__CTOR_OFFSET UNITYSDK_OFFSET(0x13701040)
 
-inline static constexpr unsigned int Class_2_03D383319883919D_TypeDefinitionIndex = 51352;
+inline static constexpr unsigned int Class_2_03D383319883919D_TypeDefinitionIndex = 52020;
 
 class Class_2_03D383319883919D : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x18
-	::Class_3_E21F6DE9B7FA4D05* Field_2_4; // 0x20
-	::RPG::GameCore::SwordTrainingCheckIfGameStarted* Field_2_0; // 0x28
-	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x30
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x38
+	::RPG::GameCore::SwordTrainingCheckIfGameStarted* Field_2_0; // 0x18
+	::Class_3_07C3C4D2990C49EE* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
+	::Class_3_07C3C4D2990C49EE* Field_2_3; // 0x30
+	::Class_3_07C3C4D2990C49EE* Field_2_4; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwordTrainingCheckIfGameStarted* a2)
 	{

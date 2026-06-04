@@ -5,12 +5,12 @@
 namespace RPG::Client { class FantasticStoryActivityModule; }
 namespace RPG::Client { class FantasticStoryBuffData; }
 
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA31E9B0)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__GETSLOTSTAGEBUFFDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA3234F0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB96F7E0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__GETSLOTSTAGEBUFFDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB974690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FantasticStoryActivityModule___c__DisplayClass38_0_TypeDefinitionIndex = 58840;
+	inline static constexpr unsigned int FantasticStoryActivityModule___c__DisplayClass38_0_TypeDefinitionIndex = 59770;
 
 	class FantasticStoryActivityModule___c__DisplayClass38_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetSlotStageBuffData_b__0(::RPG::Client::FantasticStoryBuffData* a, ::RPG::Client::FantasticStoryBuffData* b)
+		::System::Int32 _GetSlotStageBuffData_b__0(::RPG::Client::FantasticStoryBuffData* a1, ::RPG::Client::FantasticStoryBuffData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::FantasticStoryBuffData*, ::RPG::Client::FantasticStoryBuffData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__GETSLOTSTAGEBUFFDATA_B__0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::FantasticStoryBuffData*, ::RPG::Client::FantasticStoryBuffData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__GETSLOTSTAGEBUFFDATA_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

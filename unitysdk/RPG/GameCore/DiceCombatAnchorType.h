@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatAnchorType_TypeDefinitionIndex = 10759;
+	inline static constexpr unsigned int DiceCombatAnchorType_TypeDefinitionIndex = 10814;
 
 	enum class DiceCombatAnchorType : ::System::Int32
 	{

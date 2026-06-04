@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CubemapFace_TypeDefinitionIndex = 3983;
+	inline static constexpr unsigned int CubemapFace_TypeDefinitionIndex = 4157;
 
 	enum class CubemapFace : ::System::Int32
 	{

@@ -6,12 +6,12 @@ namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define RPG_CLIENT_UIUTILS___C__DISPLAYCLASS67_0__CREATEBLOCKER_B__0_OFFSET UNITYSDK_OFFSET(0xB443A60)
-#define RPG_CLIENT_UIUTILS___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB443690)
+#define RPG_CLIENT_UIUTILS___C__DISPLAYCLASS67_0__CREATEBLOCKER_B__0_OFFSET UNITYSDK_OFFSET(0xCBA3A60)
+#define RPG_CLIENT_UIUTILS___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCBA36B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIUtils___c__DisplayClass67_0_TypeDefinitionIndex = 67396;
+	inline static constexpr unsigned int UIUtils___c__DisplayClass67_0_TypeDefinitionIndex = 68348;
 
 	class UIUtils___c__DisplayClass67_0 : public ::System::Object
 	{

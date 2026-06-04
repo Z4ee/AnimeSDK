@@ -5,15 +5,15 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_GET_INVITEID_OFFSET UNITYSDK_OFFSET(0x8BD1460)
-#define EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8BD1440)
-#define EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_SET_INVITEID_OFFSET UNITYSDK_OFFSET(0x8BD1470)
-#define EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8BD1450)
-#define EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BD1480)
+#define EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_GET_INVITEID_OFFSET UNITYSDK_OFFSET(0xA0E3660)
+#define EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA0E3640)
+#define EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_SET_INVITEID_OFFSET UNITYSDK_OFFSET(0xA0E3670)
+#define EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA0E3650)
+#define EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA0E3680)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int RejectInviteOptions_TypeDefinitionIndex = 41317;
+	inline static constexpr unsigned int RejectInviteOptions_TypeDefinitionIndex = 42120;
 
 	class RejectInviteOptions : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_InviteId()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_GET_INVITEID_OFFSET))(this);
 		}
 
-		::System::Void set_InviteId(::System::String* value)
+		::System::Void set_InviteId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_SET_INVITEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_REJECTINVITEOPTIONS_SET_INVITEID_OFFSET))(this, a1);
 		}
 	};
 }

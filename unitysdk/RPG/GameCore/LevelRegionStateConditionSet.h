@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelRegionStateCondition; }
 
-#define RPG_GAMECORE_LEVELREGIONSTATECONDITIONSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A59BD0)
-#define RPG_GAMECORE_LEVELREGIONSTATECONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18A59D00)
+#define RPG_GAMECORE_LEVELREGIONSTATECONDITIONSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1988A5A0)
+#define RPG_GAMECORE_LEVELREGIONSTATECONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1988A6D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRegionStateConditionSet_TypeDefinitionIndex = 16494;
+	inline static constexpr unsigned int LevelRegionStateConditionSet_TypeDefinitionIndex = 16525;
 
 	class LevelRegionStateConditionSet : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATECONDITIONSET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelRegionStateConditionSet*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelRegionStateConditionSet*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionStateConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATECONDITIONSET_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionStateConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATECONDITIONSET_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

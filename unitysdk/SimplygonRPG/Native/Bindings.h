@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define SIMPLYGONRPG_NATIVE_BINDINGS_REDUCE_OFFSET UNITYSDK_OFFSET(0x8E528E0)
-#define SIMPLYGONRPG_NATIVE_BINDINGS_REMESH_OFFSET UNITYSDK_OFFSET(0x8E529A0)
-#define SIMPLYGONRPG_NATIVE_BINDINGS_RUNPIPELINE_OFFSET UNITYSDK_OFFSET(0x8E52800)
-#define SIMPLYGONRPG_NATIVE_BINDINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E52A60)
+#define SIMPLYGONRPG_NATIVE_BINDINGS_REDUCE_OFFSET UNITYSDK_OFFSET(0xA27C220)
+#define SIMPLYGONRPG_NATIVE_BINDINGS_REMESH_OFFSET UNITYSDK_OFFSET(0xA27C2E0)
+#define SIMPLYGONRPG_NATIVE_BINDINGS_RUNPIPELINE_OFFSET UNITYSDK_OFFSET(0xA27C140)
+#define SIMPLYGONRPG_NATIVE_BINDINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xA27C3A0)
 
 namespace SimplygonRPG::Native
 {
-	inline static constexpr unsigned int Bindings_TypeDefinitionIndex = 40988;
+	inline static constexpr unsigned int Bindings_TypeDefinitionIndex = 41791;
 
 	class Bindings : public ::System::Object
 	{
@@ -21,19 +21,19 @@ namespace SimplygonRPG::Native
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLYGONRPG_NATIVE_BINDINGS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Int32 RunPipeline(::System::String* inputPath, ::System::String* outputPath, ::System::String* pipelinePath)
+		static ::System::Int32 RunPipeline(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SIMPLYGONRPG_NATIVE_BINDINGS_RUNPIPELINE_OFFSET))(inputPath, outputPath, pipelinePath);
+			return ((::System::Int32(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SIMPLYGONRPG_NATIVE_BINDINGS_RUNPIPELINE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 Reduce(::System::String* inputPath, ::System::String* outputPath)
+		static ::System::Int32 Reduce(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SIMPLYGONRPG_NATIVE_BINDINGS_REDUCE_OFFSET))(inputPath, outputPath);
+			return ((::System::Int32(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SIMPLYGONRPG_NATIVE_BINDINGS_REDUCE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 Remesh(::System::String* inputPath, ::System::String* outputPath)
+		static ::System::Int32 Remesh(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SIMPLYGONRPG_NATIVE_BINDINGS_REMESH_OFFSET))(inputPath, outputPath);
+			return ((::System::Int32(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SIMPLYGONRPG_NATIVE_BINDINGS_REMESH_OFFSET))(a1, a2);
 		}
 	};
 }

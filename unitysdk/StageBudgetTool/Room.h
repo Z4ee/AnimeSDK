@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define STAGEBUDGETTOOL_ROOM_METHOD_1_66FF6A49D33160A6_OFFSET UNITYSDK_OFFSET(0xB94F7C0)
-#define STAGEBUDGETTOOL_ROOM__CTOR_OFFSET UNITYSDK_OFFSET(0xB94FA40)
+#define STAGEBUDGETTOOL_ROOM_METHOD_1_63E8F19CFED33AB3_OFFSET UNITYSDK_OFFSET(0xD094BF0)
+#define STAGEBUDGETTOOL_ROOM__CTOR_OFFSET UNITYSDK_OFFSET(0xD094D50)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int Room_TypeDefinitionIndex = 44494;
+	inline static constexpr unsigned int Room_TypeDefinitionIndex = 45040;
 
 	class Room : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace StageBudgetTool
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_ROOM__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_66FF6A49D33160A6(::UnityEngine::Vector3 a1)
+		::System::Boolean Method_1_63E8F19CFED33AB3(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_ROOM_METHOD_1_66FF6A49D33160A6_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_ROOM_METHOD_1_63E8F19CFED33AB3_OFFSET))(this, a1);
 		}
 	};
 }

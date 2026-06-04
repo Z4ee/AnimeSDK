@@ -5,13 +5,13 @@
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine::UIElements { class EventCallbackList; }
 
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_GET_OFFSET UNITYSDK_OFFSET(0x1A50A580)
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A50A6C0)
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A50A750)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_GET_OFFSET UNITYSDK_OFFSET(0x1B355AA0)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1B355BE0)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B355C90)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventCallbackListPool_TypeDefinitionIndex = 5912;
+	inline static constexpr unsigned int EventCallbackListPool_TypeDefinitionIndex = 6189;
 
 	class EventCallbackListPool : public ::System::Object
 	{
@@ -23,14 +23,14 @@ namespace UnityEngine::UIElements
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::UIElements::EventCallbackList* Get(::UnityEngine::UIElements::EventCallbackList* initializer)
+		::UnityEngine::UIElements::EventCallbackList* Get(::UnityEngine::UIElements::EventCallbackList* a1)
 		{
-			return ((::UnityEngine::UIElements::EventCallbackList*(*)(::PVOID, ::UnityEngine::UIElements::EventCallbackList*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_GET_OFFSET))(this, initializer);
+			return ((::UnityEngine::UIElements::EventCallbackList*(*)(::PVOID, ::UnityEngine::UIElements::EventCallbackList*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_GET_OFFSET))(this, a1);
 		}
 
-		::System::Void Release(::UnityEngine::UIElements::EventCallbackList* element)
+		::System::Void Release(::UnityEngine::UIElements::EventCallbackList* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventCallbackList*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_RELEASE_OFFSET))(this, element);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventCallbackList*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTCALLBACKLISTPOOL_RELEASE_OFFSET))(this, a1);
 		}
 	};
 }

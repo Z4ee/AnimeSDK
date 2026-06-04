@@ -6,13 +6,13 @@
 namespace System::Runtime::Serialization { class ISurrogateSelector; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x179E3E60)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATE_SETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x179E4050)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x179E40A0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x18794470)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATE_SETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x18794670)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x187946C0)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int RemotingSurrogate_TypeDefinitionIndex = 1322;
+	inline static constexpr unsigned int RemotingSurrogate_TypeDefinitionIndex = 1321;
 
 	class RemotingSurrogate : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace System::Runtime::Remoting::Messaging
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc)
+		::System::Void GetObjectData(::System::Object* a1, ::System::Runtime::Serialization::SerializationInfo* a2, ::System::Runtime::Serialization::StreamingContext a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATE_GETOBJECTDATA_OFFSET))(this, obj, si, sc);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATE_GETOBJECTDATA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc, ::System::Runtime::Serialization::ISurrogateSelector* selector)
+		::System::Object* SetObjectData(::System::Object* a1, ::System::Runtime::Serialization::SerializationInfo* a2, ::System::Runtime::Serialization::StreamingContext a3, ::System::Runtime::Serialization::ISurrogateSelector* a4)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext, ::System::Runtime::Serialization::ISurrogateSelector*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATE_SETOBJECTDATA_OFFSET))(this, obj, si, sc, selector);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext, ::System::Runtime::Serialization::ISurrogateSelector*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_REMOTINGSURROGATE_SETOBJECTDATA_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CapsuleOcclusion_bonePos_TypeDefinitionIndex = 47892;
+	inline static constexpr unsigned int CapsuleOcclusion_bonePos_TypeDefinitionIndex = 48507;
 
 	enum class CapsuleOcclusion_bonePos : ::System::Int32
 	{

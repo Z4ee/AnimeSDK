@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RogueDialogueEventOptionConfig; }
 
-#define RPG_GAMECORE_ROGUEDIALOGUEEVENTCONFIG_METHOD_2_39387462A8FB7014_OFFSET UNITYSDK_OFFSET(0x18D12BB0)
-#define RPG_GAMECORE_ROGUEDIALOGUEEVENTCONFIG_METHOD_2_3A203B155401C5DE_OFFSET UNITYSDK_OFFSET(0x18D12AD0)
-#define RPG_GAMECORE_ROGUEDIALOGUEEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D12BA0)
+#define RPG_GAMECORE_ROGUEDIALOGUEEVENTCONFIG_METHOD_2_1ADC76E210C050DB_OFFSET UNITYSDK_OFFSET(0x19B377C0)
+#define RPG_GAMECORE_ROGUEDIALOGUEEVENTCONFIG_METHOD_2_39387462A8FB7014_OFFSET UNITYSDK_OFFSET(0x19B37890)
+#define RPG_GAMECORE_ROGUEDIALOGUEEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B37880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDialogueEventConfig_TypeDefinitionIndex = 17017;
+	inline static constexpr unsigned int RogueDialogueEventConfig_TypeDefinitionIndex = 17031;
 
 	class RogueDialogueEventConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDIALOGUEEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3A203B155401C5DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDialogueEventConfig*& a2)
+		static ::System::Void Method_2_1ADC76E210C050DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDialogueEventConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDialogueEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDIALOGUEEVENTCONFIG_METHOD_2_3A203B155401C5DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDialogueEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDIALOGUEEVENTCONFIG_METHOD_2_1ADC76E210C050DB_OFFSET))(a1, a2);
 		}
 
 		::RPG::GameCore::RogueDialogueEventOptionConfig* Method_2_39387462A8FB7014(::System::UInt32 a1)

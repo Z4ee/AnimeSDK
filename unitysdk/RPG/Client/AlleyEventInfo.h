@@ -5,11 +5,11 @@
 
 namespace RPG::GameCore { class AlleyEventRow; }
 
-#define RPG_CLIENT_ALLEYEVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD3590)
+#define RPG_CLIENT_ALLEYEVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1360F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyEventInfo_TypeDefinitionIndex = 57427;
+	inline static constexpr unsigned int AlleyEventInfo_TypeDefinitionIndex = 58239;
 
 	struct alignas(8) AlleyEventInfo
 	{
@@ -17,9 +17,9 @@ namespace RPG::Client
 		::Enum_3_DB663931210BBC27_14 EventState; // 0x18
 		::System::UInt32 AcceptCount; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 eventID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYEVENTINFO__CTOR_OFFSET))(this, eventID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYEVENTINFO__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,24 +7,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Runtime::CompilerServices { template <typename T> class StrongBox_1; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x19F39110)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x19F390D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x19F39120)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F390C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1ADB0A30)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1ADB09F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1ADB0A40)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB09E0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int StringSwitchInstruction_TypeDefinitionIndex = 3326;
+	inline static constexpr unsigned int StringSwitchInstruction_TypeDefinitionIndex = 3327;
 
 	class StringSwitchInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _cases; // 0x10
-		::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* _nullCase; // 0x18
+		::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* _nullCase; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _cases; // 0x18
 
-		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* cases, ::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* nullCase)
+		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* a1, ::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*, ::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION__CTOR_OFFSET))(this, cases, nullCase);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*, ::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_InstructionName()
@@ -37,9 +37,9 @@ namespace System::Linq::Expressions::Interpreter
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET))(this);
 		}
 
-		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame)
+		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET))(this, frame);
+			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
 	};
 }

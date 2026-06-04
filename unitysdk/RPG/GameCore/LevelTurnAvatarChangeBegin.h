@@ -5,20 +5,20 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELTURNAVATARCHANGEBEGIN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6E00C0)
-#define RPG_GAMECORE_LEVELTURNAVATARCHANGEBEGIN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6E0110)
-#define RPG_GAMECORE_LEVELTURNAVATARCHANGEBEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB6E00B0)
+#define RPG_GAMECORE_LEVELTURNAVATARCHANGEBEGIN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE4E1A0)
+#define RPG_GAMECORE_LEVELTURNAVATARCHANGEBEGIN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE4E1F0)
+#define RPG_GAMECORE_LEVELTURNAVATARCHANGEBEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4E190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTurnAvatarChangeBegin_TypeDefinitionIndex = 52262;
+	inline static constexpr unsigned int LevelTurnAvatarChangeBegin_TypeDefinitionIndex = 52959;
 
 	class LevelTurnAvatarChangeBegin : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* SourceEntity; // 0x10
-		::System::UInt32 TargetAvatarID; // 0x18
-		::System::UInt32 SourceAvatarID; // 0x1C
+		::System::UInt32 SourceAvatarID; // 0x18
+		::System::UInt32 TargetAvatarID; // 0x1C
 
 		::System::Void _ctor()
 		{

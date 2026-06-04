@@ -9,13 +9,13 @@ namespace RPGTools::Timeline { class TriggerEffectOnAnchorBehaviour; }
 namespace RPGTools::Timeline { class TriggerEffectOnAnchorData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB926C10)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB926F10)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB926F20)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD066530)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xD0667D0)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xD0667E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerEffectOnAnchorClip_TypeDefinitionIndex = 45070;
+	inline static constexpr unsigned int TriggerEffectOnAnchorClip_TypeDefinitionIndex = 45618;
 
 	class TriggerEffectOnAnchorClip : public ::UnityEngine::Playables::PlayableAsset
 	{

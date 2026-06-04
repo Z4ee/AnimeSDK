@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TIMEREWINDACHIEVEMENT_METHOD_2_96F758E453AD1796_OFFSET UNITYSDK_OFFSET(0x19099D40)
-#define RPG_GAMECORE_TIMEREWINDACHIEVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1909A150)
+#define RPG_GAMECORE_TIMEREWINDACHIEVEMENT_METHOD_2_BA1F760D09B77EE9_OFFSET UNITYSDK_OFFSET(0x19DE4D40)
+#define RPG_GAMECORE_TIMEREWINDACHIEVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE5100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindAchievement_TypeDefinitionIndex = 15711;
+	inline static constexpr unsigned int TimeRewindAchievement_TypeDefinitionIndex = 15767;
 
 	class TimeRewindAchievement : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDACHIEVEMENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_96F758E453AD1796(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindAchievement*& a2)
+		static ::System::Void Method_2_BA1F760D09B77EE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindAchievement*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindAchievement*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDACHIEVEMENT_METHOD_2_96F758E453AD1796_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindAchievement*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDACHIEVEMENT_METHOD_2_BA1F760D09B77EE9_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,33 +6,33 @@ namespace Epic::OnlineServices::Lobby { class CopyLobbyDetailsHandleByInviteIdOp
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x47DA0)
-#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x47C80)
-#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_INVITEID_OFFSET UNITYSDK_OFFSET(0x47B00)
-#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x47BB0)
+#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x4C420)
+#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4C410)
+#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_INVITEID_OFFSET UNITYSDK_OFFSET(0x4C290)
+#define EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x4C340)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int CopyLobbyDetailsHandleByInviteIdOptionsInternal_TypeDefinitionIndex = 41832;
+	inline static constexpr unsigned int CopyLobbyDetailsHandleByInviteIdOptionsInternal_TypeDefinitionIndex = 42635;
 
 	struct alignas(8) CopyLobbyDetailsHandleByInviteIdOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_InviteId; // 0x18
 
-		::System::Void set_InviteId(::System::String* value)
+		::System::Void set_InviteId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_INVITEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_INVITEID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByInviteIdOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByInviteIdOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByInviteIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::CopyLobbyDetailsHandleByInviteIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_COPYLOBBYDETAILSHANDLEBYINVITEIDOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

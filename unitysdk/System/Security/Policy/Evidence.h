@@ -6,16 +6,16 @@ namespace System { class Array; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class IEnumerator; }
 
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_COPYTO_OFFSET UNITYSDK_OFFSET(0x178160A0)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17816150)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x17816030)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x17816080)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x17816090)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x17816020)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_COPYTO_OFFSET UNITYSDK_OFFSET(0x185CF420)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x185CF4D0)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x185CF3B0)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x185CF400)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x185CF410)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x185CF3A0)
 
 namespace System::Security::Policy
 {
-	inline static constexpr unsigned int Evidence_TypeDefinitionIndex = 951;
+	inline static constexpr unsigned int Evidence_TypeDefinitionIndex = 950;
 
 	class Evidence : public ::System::Object
 	{
@@ -44,9 +44,9 @@ namespace System::Security::Policy
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_POLICY_EVIDENCE_GET_SYNCROOT_OFFSET))(this);
 		}
 
-		::System::Void CopyTo(::System::Array* array, ::System::Int32 index)
+		::System::Void CopyTo(::System::Array* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_POLICY_EVIDENCE_COPYTO_OFFSET))(this, array, index);
+			return ((::System::Void(*)(::PVOID, ::System::Array*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_POLICY_EVIDENCE_COPYTO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::IEnumerator* GetEnumerator()

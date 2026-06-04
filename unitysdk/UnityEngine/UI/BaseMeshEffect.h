@@ -8,19 +8,19 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_BASEMESHEFFECT_GET_ADDBASEMESH_OFFSET UNITYSDK_OFFSET(0x1A5370B0)
-#define UNITYENGINE_UI_BASEMESHEFFECT_GET_GRAPHIC_OFFSET UNITYSDK_OFFSET(0x1A536D20)
-#define UNITYENGINE_UI_BASEMESHEFFECT_GET_REQUIREBASEMESH_OFFSET UNITYSDK_OFFSET(0x1A5370A0)
-#define UNITYENGINE_UI_BASEMESHEFFECT_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0x1A537090)
-#define UNITYENGINE_UI_BASEMESHEFFECT_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1A536FC0)
-#define UNITYENGINE_UI_BASEMESHEFFECT_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A536F10)
-#define UNITYENGINE_UI_BASEMESHEFFECT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A536E60)
-#define UNITYENGINE_UI_BASEMESHEFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A536DB0)
-#define UNITYENGINE_UI_BASEMESHEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5370C0)
+#define UNITYENGINE_UI_BASEMESHEFFECT_GET_ADDBASEMESH_OFFSET UNITYSDK_OFFSET(0x1B3829D0)
+#define UNITYENGINE_UI_BASEMESHEFFECT_GET_GRAPHIC_OFFSET UNITYSDK_OFFSET(0x1B382650)
+#define UNITYENGINE_UI_BASEMESHEFFECT_GET_REQUIREBASEMESH_OFFSET UNITYSDK_OFFSET(0x1B3829C0)
+#define UNITYENGINE_UI_BASEMESHEFFECT_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0x1B3829B0)
+#define UNITYENGINE_UI_BASEMESHEFFECT_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1B3828E0)
+#define UNITYENGINE_UI_BASEMESHEFFECT_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B382830)
+#define UNITYENGINE_UI_BASEMESHEFFECT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B382780)
+#define UNITYENGINE_UI_BASEMESHEFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B3826D0)
+#define UNITYENGINE_UI_BASEMESHEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3829E0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int BaseMeshEffect_TypeDefinitionIndex = 5767;
+	inline static constexpr unsigned int BaseMeshEffect_TypeDefinitionIndex = 6044;
 
 	class BaseMeshEffect : public ::UnityEngine::EventSystems::UIBehaviour
 	{
@@ -52,14 +52,14 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_BASEMESHEFFECT_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET))(this);
 		}
 
-		::System::Void ModifyMesh(::UnityEngine::Mesh* mesh)
+		::System::Void ModifyMesh(::UnityEngine::Mesh* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_BASEMESHEFFECT_MODIFYMESH_OFFSET))(this, mesh);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_BASEMESHEFFECT_MODIFYMESH_OFFSET))(this, a1);
 		}
 
-		::System::Void ModifyMesh_1(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* output, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* baseVerts)
+		::System::Void ModifyMesh_1(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_BASEMESHEFFECT_MODIFYMESH_1_OFFSET))(this, output, baseVerts);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_BASEMESHEFFECT_MODIFYMESH_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_RequireBaseMesh()

@@ -7,17 +7,17 @@ namespace Epic::OnlineServices::RTCAudio { class UpdateReceivingOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x6FC30)
-#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x6FBC0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_AUDIOENABLED_OFFSET UNITYSDK_OFFSET(0x6FB00)
-#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x6F8D0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x6FBB0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_PARTICIPANTID_OFFSET UNITYSDK_OFFSET(0x6FA40)
-#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x6F990)
+#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x75FD0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x75F50)
+#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_AUDIOENABLED_OFFSET UNITYSDK_OFFSET(0x75E90)
+#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x75C60)
+#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x75F40)
+#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_PARTICIPANTID_OFFSET UNITYSDK_OFFSET(0x75DD0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x75D20)
 
 namespace Epic::OnlineServices::RTCAudio
 {
-	inline static constexpr unsigned int UpdateReceivingOptionsInternal_TypeDefinitionIndex = 41488;
+	inline static constexpr unsigned int UpdateReceivingOptionsInternal_TypeDefinitionIndex = 42291;
 
 	struct alignas(8) UpdateReceivingOptionsInternal
 	{
@@ -27,34 +27,34 @@ namespace Epic::OnlineServices::RTCAudio
 		::System::IntPtr m_ParticipantId; // 0x28
 		::System::Int32 m_AudioEnabled; // 0x30
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_RoomName(::System::String* value)
+		::System::Void set_RoomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_ROOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_ROOMNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ParticipantId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_ParticipantId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_PARTICIPANTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_PARTICIPANTID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_AudioEnabled(::System::Boolean value)
+		::System::Void set_AudioEnabled(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_AUDIOENABLED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_AUDIOENABLED_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::RTCAudio::UpdateReceivingOptions* other)
+		::System::Void Set(::Epic::OnlineServices::RTCAudio::UpdateReceivingOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::UpdateReceivingOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::UpdateReceivingOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_UPDATERECEIVINGOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

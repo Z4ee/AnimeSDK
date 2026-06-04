@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_A01E51E263E7AB9B.h"
+#include "unitysdk/Class_1_8EE73BB839E63837.h"
 #include "unitysdk/RPG/Client/Prop/ChimePuzzle/ChimeProxy.h"
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_4BAF41C500DED921_METHOD_2_0A32ABCEA39CED97_OFFSET UNITYSDK_OFFSET(0x8F475E0)
-#define CLASS_2_4BAF41C500DED921_METHOD_2_2C1F0A815CE2FE02_OFFSET UNITYSDK_OFFSET(0x8F47660)
-#define CLASS_2_4BAF41C500DED921_METHOD_2_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x8F47720)
-#define CLASS_2_4BAF41C500DED921__CTOR_OFFSET UNITYSDK_OFFSET(0x8F47560)
+#define CLASS_2_4BAF41C500DED921_METHOD_2_0A32ABCEA39CED97_OFFSET UNITYSDK_OFFSET(0x138C7040)
+#define CLASS_2_4BAF41C500DED921_METHOD_2_E240D159E3150659_OFFSET UNITYSDK_OFFSET(0x138C70C0)
+#define CLASS_2_4BAF41C500DED921_METHOD_2_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x138C71C0)
+#define CLASS_2_4BAF41C500DED921__CTOR_OFFSET UNITYSDK_OFFSET(0x138C6FC0)
 
-inline static constexpr unsigned int Class_2_4BAF41C500DED921_TypeDefinitionIndex = 72482;
+inline static constexpr unsigned int Class_2_4BAF41C500DED921_TypeDefinitionIndex = 73504;
 
-class Class_2_4BAF41C500DED921 : public ::Class_1_A01E51E263E7AB9B
+class Class_2_4BAF41C500DED921 : public ::Class_1_8EE73BB839E63837
 {
 public:
 	::Il2CppArray<::System::Int32>* Field_2_0; // 0x30
@@ -29,9 +29,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_4BAF41C500DED921_METHOD_2_0A32ABCEA39CED97_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_2C1F0A815CE2FE02()
+	::System::Boolean Method_2_E240D159E3150659()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4BAF41C500DED921_METHOD_2_2C1F0A815CE2FE02_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4BAF41C500DED921_METHOD_2_E240D159E3150659_OFFSET))(this);
 	}
 
 	::System::Boolean Method_2_F0E307B84478A272()

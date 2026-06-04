@@ -5,8 +5,8 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_WEBEXCEPTIONMAPPING_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x1A1639E0)
-#define SYSTEM_NET_WEBEXCEPTIONMAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A163BE0)
+#define SYSTEM_NET_WEBEXCEPTIONMAPPING_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x1AFC6A50)
+#define SYSTEM_NET_WEBEXCEPTIONMAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFC6C30)
 
 namespace System::Net
 {
@@ -17,7 +17,7 @@ namespace System::Net
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_Mapping()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebExceptionMapping_TypeDefinitionIndex)->GetStaticField(0x14F10);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebExceptionMapping_TypeDefinitionIndex)->GetStaticField(0x26440);
 		}
 
 		static ::System::Void _cctor()
@@ -25,9 +25,9 @@ namespace System::Net
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTIONMAPPING__CCTOR_OFFSET))();
 		}
 
-		static ::System::String* GetWebStatusString(::System::Net::WebExceptionStatus status)
+		static ::System::String* GetWebStatusString(::System::Net::WebExceptionStatus a1)
 		{
-			return ((::System::String*(*)(::System::Net::WebExceptionStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTIONMAPPING_GETWEBSTATUSSTRING_OFFSET))(status);
+			return ((::System::String*(*)(::System::Net::WebExceptionStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTIONMAPPING_GETWEBSTATUSSTRING_OFFSET))(a1);
 		}
 	};
 }

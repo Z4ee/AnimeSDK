@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/EntityType.h"
+#include "unitysdk/RPG/GameCore/AvatarSkillTreeAnchorType.h"
+#include "unitysdk/Struct_2_BC950E36747FB4C9.h"
 
-class Class_1_E17105E653363FFF;
-namespace RPG::GameCore { class GameEntity; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_396_TypeDefinitionIndex = 49450;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_396_TypeDefinitionIndex = 48577;
 
 class Class_0_16E4307DCC419505_396
 {

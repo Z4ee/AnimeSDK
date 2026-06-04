@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _MemberInfo_TypeDefinitionIndex = 1437;
+	inline static constexpr unsigned int _MemberInfo_TypeDefinitionIndex = 1436;
 
 	class _MemberInfo
 	{

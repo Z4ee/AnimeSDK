@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_DF3F1B8142DB3648.h"
 
-class Class_1_E602A1752C4DCAA4;
-namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
+class Class_1_76C7E08195ED7984;
 namespace RPG { template <typename T> class PoolList_1; }
-namespace RPG::GameCore { class FiveDimBaseEventAction; }
-namespace RPG::GameCore { class LittleGameEvent; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_146_TypeDefinitionIndex = 38153;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_146_TypeDefinitionIndex = 38896;
 
 class Class_0_16E4307DCC419505_146
 {

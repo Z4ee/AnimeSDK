@@ -5,11 +5,11 @@
 namespace RPG::Client { class TrainPartyBuildItemDynamicBindValue; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOTRAINPARTYBUILDITEMDYNAMICBIND_DYNAMICBIND__CTOR_OFFSET UNITYSDK_OFFSET(0xAA03090)
+#define RPG_CLIENT_MONOTRAINPARTYBUILDITEMDYNAMICBIND_DYNAMICBIND__CTOR_OFFSET UNITYSDK_OFFSET(0xC151330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildItemDynamicBind_DynamicBind_TypeDefinitionIndex = 63520;
+	inline static constexpr unsigned int MonoTrainPartyBuildItemDynamicBind_DynamicBind_TypeDefinitionIndex = 64440;
 
 	class MonoTrainPartyBuildItemDynamicBind_DynamicBind : public ::System::Object
 	{

@@ -8,29 +8,29 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8EFF000)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8EFEFA0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x8EFEFE0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8EFEFC0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8EFEF80)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8EFF5E0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8EFEFB0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x8EFEFF0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8EFEFD0)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8EFF020)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8EFEF90)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8EFF710)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA329780)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA329720)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0xA329760)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA329740)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA329700)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA329D60)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA329730)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0xA329770)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA329750)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA3297A0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA329710)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA329E90)
 
 namespace Epic::OnlineServices::PlayerDataStorage
 {
-	inline static constexpr unsigned int WriteFileCallbackInfo_TypeDefinitionIndex = 41686;
+	inline static constexpr unsigned int WriteFileCallbackInfo_TypeDefinitionIndex = 42489;
 
 	class WriteFileCallbackInfo : public ::System::Object
 	{
 	public:
-		::System::Object* _ClientData_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
-		::System::String* _Filename_k__BackingField; // 0x20
+		::System::String* _Filename_k__BackingField; // 0x10
+		::System::Object* _ClientData_k__BackingField; // 0x18
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x20
 		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -43,9 +43,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -53,9 +53,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -63,9 +63,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Filename()
@@ -73,9 +73,9 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GET_FILENAME_OFFSET))(this);
 		}
 
-		::System::Void set_Filename(::System::String* value)
+		::System::Void set_Filename(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_FILENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_FILENAME_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -83,14 +83,14 @@ namespace Epic::OnlineServices::PlayerDataStorage
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::PlayerDataStorage::WriteFileCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::PlayerDataStorage::WriteFileCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::PlayerDataStorage::WriteFileCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::PlayerDataStorage::WriteFileCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_WRITEFILECALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

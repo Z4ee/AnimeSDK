@@ -3,12 +3,12 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_RSTOrder.h"
 #include "unitysdk/System/ValueType.h"
 
-#define HOUDINIENGINEUNITY_HAPI_TRANSFORM_INIT_OFFSET UNITYSDK_OFFSET(0x26DC0)
-#define HOUDINIENGINEUNITY_HAPI_TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x26D30)
+#define HOUDINIENGINEUNITY_HAPI_TRANSFORM_INIT_OFFSET UNITYSDK_OFFSET(0x2D4B5B0)
+#define HOUDINIENGINEUNITY_HAPI_TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x2D4B520)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_Transform_TypeDefinitionIndex = 43584;
+	inline static constexpr unsigned int HAPI_Transform_TypeDefinitionIndex = 37526;
 
 	struct alignas(8) HAPI_Transform
 	{
@@ -18,9 +18,9 @@ namespace HoudiniEngineUnity
 		::Il2CppArray<::System::Single>* shear; // 0x28
 		::HoudiniEngineUnity::HAPI_RSTOrder rstOrder; // 0x30
 
-		::System::Void _ctor(::System::Boolean initializeFields)
+		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HAPI_TRANSFORM__CTOR_OFFSET))(this, initializeFields);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HAPI_TRANSFORM__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Init()

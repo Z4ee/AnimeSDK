@@ -6,10 +6,10 @@
 class Class_2_1C9C081C3F4294E9;
 namespace RPG::Client { class MonoEffect; }
 
-#define CLASS_2_1C9C081C3F4294E9___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB48DBE0)
-#define CLASS_2_1C9C081C3F4294E9___C__DISPLAYCLASS9_0___TRIGGERGAINENERGYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB48E830)
+#define CLASS_2_1C9C081C3F4294E9___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD7CAF20)
+#define CLASS_2_1C9C081C3F4294E9___C__DISPLAYCLASS9_0___TRIGGERGAINENERGYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD7CBB90)
 
-inline static constexpr unsigned int Class_2_1C9C081C3F4294E9___c__DisplayClass9_0_TypeDefinitionIndex = 52826;
+inline static constexpr unsigned int Class_2_1C9C081C3F4294E9___c__DisplayClass9_0_TypeDefinitionIndex = 53532;
 
 class Class_2_1C9C081C3F4294E9___c__DisplayClass9_0 : public ::System::Object
 {
@@ -22,8 +22,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1C9C081C3F4294E9___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __TriggerGainEnergyEffect_b__0(::RPG::Client::MonoEffect* monoEffect, ::RPG::Client::TriggerEffectCallbackParams extraParams)
+	::System::Void __TriggerGainEnergyEffect_b__0(::RPG::Client::MonoEffect* a1, ::RPG::Client::TriggerEffectCallbackParams a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + CLASS_2_1C9C081C3F4294E9___C__DISPLAYCLASS9_0___TRIGGERGAINENERGYEFFECT_B__0_OFFSET))(this, monoEffect, extraParams);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + CLASS_2_1C9C081C3F4294E9___C__DISPLAYCLASS9_0___TRIGGERGAINENERGYEFFECT_B__0_OFFSET))(this, a1, a2);
 	}
 };

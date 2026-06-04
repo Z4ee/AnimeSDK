@@ -15,7 +15,7 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_CharacterInfo_TypeDefinitionIndex = 40100;
+	inline static constexpr unsigned int TMP_CharacterInfo_TypeDefinitionIndex = 40927;
 
 	struct alignas(8) TMP_CharacterInfo
 	{

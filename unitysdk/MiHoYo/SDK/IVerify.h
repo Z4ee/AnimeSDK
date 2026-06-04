@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int IVerify_TypeDefinitionIndex = 42855;
+	inline static constexpr unsigned int IVerify_TypeDefinitionIndex = 43658;
 
 	class IVerify
 	{

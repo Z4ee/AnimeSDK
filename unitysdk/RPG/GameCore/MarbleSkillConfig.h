@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MarbleTaskConfig; }
 
-#define RPG_GAMECORE_MARBLESKILLCONFIG_METHOD_2_676C43F7ECC65BC3_OFFSET UNITYSDK_OFFSET(0x18AA8530)
-#define RPG_GAMECORE_MARBLESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AA8C20)
+#define RPG_GAMECORE_MARBLESKILLCONFIG_METHOD_2_5F50113B5BB3D981_OFFSET UNITYSDK_OFFSET(0x198DB3E0)
+#define RPG_GAMECORE_MARBLESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198DBA50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSkillConfig_TypeDefinitionIndex = 15988;
+	inline static constexpr unsigned int MarbleSkillConfig_TypeDefinitionIndex = 16038;
 
 	class MarbleSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLESKILLCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_676C43F7ECC65BC3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleSkillConfig*& a2)
+		static ::System::Void Method_2_5F50113B5BB3D981(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleSkillConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLESKILLCONFIG_METHOD_2_676C43F7ECC65BC3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLESKILLCONFIG_METHOD_2_5F50113B5BB3D981_OFFSET))(a1, a2);
 		}
 	};
 }

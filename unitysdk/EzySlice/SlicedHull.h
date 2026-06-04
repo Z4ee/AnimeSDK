@@ -7,20 +7,20 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define EZYSLICE_SLICEDHULL_CREATEEMPTYOBJECT_OFFSET UNITYSDK_OFFSET(0x8C07060)
-#define EZYSLICE_SLICEDHULL_CREATELOWERHULL_1_OFFSET UNITYSDK_OFFSET(0x8C06A60)
-#define EZYSLICE_SLICEDHULL_CREATELOWERHULL_2_OFFSET UNITYSDK_OFFSET(0x8C06FB0)
-#define EZYSLICE_SLICEDHULL_CREATELOWERHULL_OFFSET UNITYSDK_OFFSET(0x8C06A50)
-#define EZYSLICE_SLICEDHULL_CREATEUPPERHULL_1_OFFSET UNITYSDK_OFFSET(0x8C06450)
-#define EZYSLICE_SLICEDHULL_CREATEUPPERHULL_2_OFFSET UNITYSDK_OFFSET(0x8C069A0)
-#define EZYSLICE_SLICEDHULL_CREATEUPPERHULL_OFFSET UNITYSDK_OFFSET(0x8C06440)
-#define EZYSLICE_SLICEDHULL_GET_LOWERHULL_OFFSET UNITYSDK_OFFSET(0x8C07100)
-#define EZYSLICE_SLICEDHULL_GET_UPPERHULL_OFFSET UNITYSDK_OFFSET(0x8C070F0)
-#define EZYSLICE_SLICEDHULL__CTOR_OFFSET UNITYSDK_OFFSET(0x8C06430)
+#define EZYSLICE_SLICEDHULL_CREATEEMPTYOBJECT_OFFSET UNITYSDK_OFFSET(0xA1131C0)
+#define EZYSLICE_SLICEDHULL_CREATELOWERHULL_1_OFFSET UNITYSDK_OFFSET(0xA112BD0)
+#define EZYSLICE_SLICEDHULL_CREATELOWERHULL_2_OFFSET UNITYSDK_OFFSET(0xA113110)
+#define EZYSLICE_SLICEDHULL_CREATELOWERHULL_OFFSET UNITYSDK_OFFSET(0xA112BC0)
+#define EZYSLICE_SLICEDHULL_CREATEUPPERHULL_1_OFFSET UNITYSDK_OFFSET(0xA1125D0)
+#define EZYSLICE_SLICEDHULL_CREATEUPPERHULL_2_OFFSET UNITYSDK_OFFSET(0xA112B10)
+#define EZYSLICE_SLICEDHULL_CREATEUPPERHULL_OFFSET UNITYSDK_OFFSET(0xA1125C0)
+#define EZYSLICE_SLICEDHULL_GET_LOWERHULL_OFFSET UNITYSDK_OFFSET(0xA113260)
+#define EZYSLICE_SLICEDHULL_GET_UPPERHULL_OFFSET UNITYSDK_OFFSET(0xA113250)
+#define EZYSLICE_SLICEDHULL__CTOR_OFFSET UNITYSDK_OFFSET(0xA1125B0)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int SlicedHull_TypeDefinitionIndex = 43817;
+	inline static constexpr unsigned int SlicedHull_TypeDefinitionIndex = 44359;
 
 	class SlicedHull : public ::System::Object
 	{
@@ -28,29 +28,29 @@ namespace EzySlice
 		::UnityEngine::Mesh* upper_hull; // 0x10
 		::UnityEngine::Mesh* lower_hull; // 0x18
 
-		::System::Void _ctor(::UnityEngine::Mesh* upperHull, ::UnityEngine::Mesh* lowerHull)
+		::System::Void _ctor(::UnityEngine::Mesh* a1, ::UnityEngine::Mesh* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL__CTOR_OFFSET))(this, upperHull, lowerHull);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::GameObject* CreateUpperHull(::UnityEngine::GameObject* original)
+		::UnityEngine::GameObject* CreateUpperHull(::UnityEngine::GameObject* a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL_CREATEUPPERHULL_OFFSET))(this, original);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL_CREATEUPPERHULL_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::GameObject* CreateUpperHull_1(::UnityEngine::GameObject* original, ::UnityEngine::Material* crossSectionMat)
+		::UnityEngine::GameObject* CreateUpperHull_1(::UnityEngine::GameObject* a1, ::UnityEngine::Material* a2)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL_CREATEUPPERHULL_1_OFFSET))(this, original, crossSectionMat);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL_CREATEUPPERHULL_1_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::GameObject* CreateLowerHull(::UnityEngine::GameObject* original)
+		::UnityEngine::GameObject* CreateLowerHull(::UnityEngine::GameObject* a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL_CREATELOWERHULL_OFFSET))(this, original);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL_CREATELOWERHULL_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::GameObject* CreateLowerHull_1(::UnityEngine::GameObject* original, ::UnityEngine::Material* crossSectionMat)
+		::UnityEngine::GameObject* CreateLowerHull_1(::UnityEngine::GameObject* a1, ::UnityEngine::Material* a2)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL_CREATELOWERHULL_1_OFFSET))(this, original, crossSectionMat);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL_CREATELOWERHULL_1_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::GameObject* CreateUpperHull_2()
@@ -73,9 +73,9 @@ namespace EzySlice
 			return ((::UnityEngine::Mesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL_GET_LOWERHULL_OFFSET))(this);
 		}
 
-		static ::UnityEngine::GameObject* CreateEmptyObject(::System::String* name, ::UnityEngine::Mesh* hull)
+		static ::UnityEngine::GameObject* CreateEmptyObject(::System::String* a1, ::UnityEngine::Mesh* a2)
 		{
-			return ((::UnityEngine::GameObject*(*)(::System::String*, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL_CREATEEMPTYOBJECT_OFFSET))(name, hull);
+			return ((::UnityEngine::GameObject*(*)(::System::String*, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + EZYSLICE_SLICEDHULL_CREATEEMPTYOBJECT_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,11 +4,11 @@
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 #include "unitysdk/Unity/Jobs/LowLevel/Unsafe/ScheduleMode.h"
 
-#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBSUTILITY_JOBSCHEDULEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x22E15E0)
+#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBSUTILITY_JOBSCHEDULEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x387DAB0)
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int JobsUtility_JobScheduleParameters_TypeDefinitionIndex = 3781;
+	inline static constexpr unsigned int JobsUtility_JobScheduleParameters_TypeDefinitionIndex = 3955;
 
 	struct alignas(8) JobsUtility_JobScheduleParameters
 	{
@@ -17,9 +17,9 @@ namespace Unity::Jobs::LowLevel::Unsafe
 		::System::IntPtr ReflectionData; // 0x28
 		::System::IntPtr JobDataPtr; // 0x30
 
-		::System::Void _ctor(::System::Void* i_jobData, ::System::IntPtr i_reflectionData, ::Unity::Jobs::JobHandle i_dependency, ::Unity::Jobs::LowLevel::Unsafe::ScheduleMode i_scheduleMode)
+		::System::Void _ctor(::System::Void* a1, ::System::IntPtr a2, ::Unity::Jobs::JobHandle a3, ::Unity::Jobs::LowLevel::Unsafe::ScheduleMode a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Void*, ::System::IntPtr, ::Unity::Jobs::JobHandle, ::Unity::Jobs::LowLevel::Unsafe::ScheduleMode))((::PBYTE)hIl2Cpp + UNITY_JOBS_LOWLEVEL_UNSAFE_JOBSUTILITY_JOBSCHEDULEPARAMETERS__CTOR_OFFSET))(this, i_jobData, i_reflectionData, i_dependency, i_scheduleMode);
+			return ((::System::Void(*)(::PVOID, ::System::Void*, ::System::IntPtr, ::Unity::Jobs::JobHandle, ::Unity::Jobs::LowLevel::Unsafe::ScheduleMode))((::PBYTE)hIl2Cpp + UNITY_JOBS_LOWLEVEL_UNSAFE_JOBSUTILITY_JOBSCHEDULEPARAMETERS__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

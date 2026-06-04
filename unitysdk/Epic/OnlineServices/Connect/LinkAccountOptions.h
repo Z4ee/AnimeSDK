@@ -5,21 +5,21 @@
 namespace Epic::OnlineServices { class ContinuanceToken; }
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_GET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0x8E57A80)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E57A60)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_SET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0x8E57A90)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E57A70)
-#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E57AA0)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_GET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0xA2A17C0)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2A17A0)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_SET_CONTINUANCETOKEN_OFFSET UNITYSDK_OFFSET(0xA2A17D0)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2A17B0)
+#define EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2A17E0)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int LinkAccountOptions_TypeDefinitionIndex = 42298;
+	inline static constexpr unsigned int LinkAccountOptions_TypeDefinitionIndex = 43101;
 
 	class LinkAccountOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x10
-		::Epic::OnlineServices::ContinuanceToken* _ContinuanceToken_k__BackingField; // 0x18
+		::Epic::OnlineServices::ContinuanceToken* _ContinuanceToken_k__BackingField; // 0x10
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ContinuanceToken* get_ContinuanceToken()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ContinuanceToken*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_GET_CONTINUANCETOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_ContinuanceToken(::Epic::OnlineServices::ContinuanceToken* value)
+		::System::Void set_ContinuanceToken(::Epic::OnlineServices::ContinuanceToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ContinuanceToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_SET_CONTINUANCETOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ContinuanceToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_LINKACCOUNTOPTIONS_SET_CONTINUANCETOKEN_OFFSET))(this, a1);
 		}
 	};
 }

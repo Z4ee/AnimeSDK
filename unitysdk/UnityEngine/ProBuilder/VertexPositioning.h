@@ -10,27 +10,27 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_SETSHAREDVERTEXPOSITION_OFFSET UNITYSDK_OFFSET(0x1A2F3890)
-#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_SETSHAREDVERTEXVALUES_OFFSET UNITYSDK_OFFSET(0x1A2F3DE0)
-#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A2F3410)
-#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINWORLDSPACE_1_OFFSET UNITYSDK_OFFSET(0x1A2F2920)
-#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINWORLDSPACE_OFFSET UNITYSDK_OFFSET(0x1A2D50E0)
-#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_1_OFFSET UNITYSDK_OFFSET(0x1A2F36F0)
-#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_2_OFFSET UNITYSDK_OFFSET(0x1A2F37C0)
-#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_OFFSET UNITYSDK_OFFSET(0x1A2F3340)
-#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_VERTICESINWORLDSPACE_OFFSET UNITYSDK_OFFSET(0x1A2F2700)
-#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2F4180)
+#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_SETSHAREDVERTEXPOSITION_OFFSET UNITYSDK_OFFSET(0x1B153380)
+#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_SETSHAREDVERTEXVALUES_OFFSET UNITYSDK_OFFSET(0x1B1538B0)
+#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B152ED0)
+#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINWORLDSPACE_1_OFFSET UNITYSDK_OFFSET(0x1B1523B0)
+#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINWORLDSPACE_OFFSET UNITYSDK_OFFSET(0x1B135C90)
+#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_1_OFFSET UNITYSDK_OFFSET(0x1B1531E0)
+#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_2_OFFSET UNITYSDK_OFFSET(0x1B1532B0)
+#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_OFFSET UNITYSDK_OFFSET(0x1B152E00)
+#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_VERTICESINWORLDSPACE_OFFSET UNITYSDK_OFFSET(0x1B1521A0)
+#define UNITYENGINE_PROBUILDER_VERTEXPOSITIONING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B153C30)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int VertexPositioning_TypeDefinitionIndex = 40008;
+	inline static constexpr unsigned int VertexPositioning_TypeDefinitionIndex = 40835;
 
 	class VertexPositioning : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_s_CoincidentVertices()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(VertexPositioning_TypeDefinitionIndex)->GetStaticField(0x2EA50);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(VertexPositioning_TypeDefinitionIndex)->GetStaticField(0x57220);
 		}
 
 		static ::System::Void _cctor()
@@ -38,49 +38,49 @@ namespace UnityEngine::ProBuilder
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING__CCTOR_OFFSET))();
 		}
 
-		static ::Il2CppArray<::UnityEngine::Vector3>* VerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh)
+		static ::Il2CppArray<::UnityEngine::Vector3>* VerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* a1)
 		{
-			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_VERTICESINWORLDSPACE_OFFSET))(mesh);
+			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_VERTICESINWORLDSPACE_OFFSET))(a1);
 		}
 
-		static ::System::Void TranslateVerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::System::Int32>* indexes, ::UnityEngine::Vector3 offset)
+		static ::System::Void TranslateVerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::System::Int32>* a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINWORLDSPACE_OFFSET))(mesh, indexes, offset);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINWORLDSPACE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void TranslateVerticesInWorldSpace_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Il2CppArray<::System::Int32>* indexes, ::UnityEngine::Vector3 offset, ::System::Single snapValue, ::System::Boolean snapAxisOnly)
+		static ::System::Void TranslateVerticesInWorldSpace_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::System::Int32>* a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*, ::UnityEngine::Vector3, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINWORLDSPACE_1_OFFSET))(mesh, indexes, offset, snapValue, snapAxisOnly);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::Il2CppArray<::System::Int32>*, ::UnityEngine::Vector3, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINWORLDSPACE_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void TranslateVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* indexes, ::UnityEngine::Vector3 offset)
+		static ::System::Void TranslateVertices(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_OFFSET))(mesh, indexes, offset);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void TranslateVertices_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::UnityEngine::Vector3 offset)
+		static ::System::Void TranslateVertices_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_1_OFFSET))(mesh, edges, offset);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void TranslateVertices_2(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::UnityEngine::Vector3 offset)
+		static ::System::Void TranslateVertices_2(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_2_OFFSET))(mesh, faces, offset);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICES_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void TranslateVerticesInternal(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* indices, ::UnityEngine::Vector3 offset)
+		static ::System::Void TranslateVerticesInternal(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINTERNAL_OFFSET))(mesh, indices, offset);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_TRANSLATEVERTICESINTERNAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetSharedVertexPosition(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Int32 sharedVertexHandle, ::UnityEngine::Vector3 position)
+		static ::System::Void SetSharedVertexPosition(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Int32 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_SETSHAREDVERTEXPOSITION_OFFSET))(mesh, sharedVertexHandle, position);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_SETSHAREDVERTEXPOSITION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetSharedVertexValues(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Int32 sharedVertexHandle, ::UnityEngine::ProBuilder::Vertex* vertex)
+		static ::System::Void SetSharedVertexValues(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Int32 a2, ::UnityEngine::ProBuilder::Vertex* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_SETSHAREDVERTEXVALUES_OFFSET))(mesh, sharedVertexHandle, vertex);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32, ::UnityEngine::ProBuilder::Vertex*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_VERTEXPOSITIONING_SETSHAREDVERTEXVALUES_OFFSET))(a1, a2, a3);
 		}
 	};
 }

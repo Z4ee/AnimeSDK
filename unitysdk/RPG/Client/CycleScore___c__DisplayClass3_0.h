@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class CycleScoreRewardRow; }
 
-#define RPG_CLIENT_CYCLESCORE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0F05D0)
-#define RPG_CLIENT_CYCLESCORE___C__DISPLAYCLASS3_0__GETREWARDIDBYRANK_B__0_OFFSET UNITYSDK_OFFSET(0xA0F1100)
+#define RPG_CLIENT_CYCLESCORE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB72FCE0)
+#define RPG_CLIENT_CYCLESCORE___C__DISPLAYCLASS3_0__GETREWARDIDBYRANK_B__0_OFFSET UNITYSDK_OFFSET(0xB7308C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CycleScore___c__DisplayClass3_0_TypeDefinitionIndex = 58539;
+	inline static constexpr unsigned int CycleScore___c__DisplayClass3_0_TypeDefinitionIndex = 59469;
 
 	class CycleScore___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CYCLESCORE___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetRewardIDByRank_b__0(::RPG::GameCore::CycleScoreRewardRow* x)
+		::System::Boolean _GetRewardIDByRank_b__0(::RPG::GameCore::CycleScoreRewardRow* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::CycleScoreRewardRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CYCLESCORE___C__DISPLAYCLASS3_0__GETREWARDIDBYRANK_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::CycleScoreRewardRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CYCLESCORE___C__DISPLAYCLASS3_0__GETREWARDIDBYRANK_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,44 +4,44 @@
 #include "unitysdk/RPG/GameCore/VisionZoneTag.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-class Class_1_065C3F7CC6C5F3AA;
+class Class_1_6C30C65EACF8D014;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TrackNpcVisionConfig; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define CLASS_2_4AD6CFDC15993F44_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x128107B0)
-#define CLASS_2_4AD6CFDC15993F44_GET_USEFORVISION_OFFSET UNITYSDK_OFFSET(0x128107F0)
-#define CLASS_2_4AD6CFDC15993F44_GET_VISIONTAG_OFFSET UNITYSDK_OFFSET(0x128107D0)
-#define CLASS_2_4AD6CFDC15993F44_METHOD_2_8002A10A0271B67D_OFFSET UNITYSDK_OFFSET(0x12810310)
-#define CLASS_2_4AD6CFDC15993F44_METHOD_2_DE6710E273150031_OFFSET UNITYSDK_OFFSET(0x128101C0)
-#define CLASS_2_4AD6CFDC15993F44_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x128107C0)
-#define CLASS_2_4AD6CFDC15993F44_SET_USEFORVISION_OFFSET UNITYSDK_OFFSET(0x12810800)
-#define CLASS_2_4AD6CFDC15993F44_SET_VISIONTAG_OFFSET UNITYSDK_OFFSET(0x128107E0)
-#define CLASS_2_4AD6CFDC15993F44__CTOR_OFFSET UNITYSDK_OFFSET(0x1280FF10)
+#define CLASS_2_4AD6CFDC15993F44_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xAB76090)
+#define CLASS_2_4AD6CFDC15993F44_GET_USEFORVISION_OFFSET UNITYSDK_OFFSET(0xAB760D0)
+#define CLASS_2_4AD6CFDC15993F44_GET_VISIONTAG_OFFSET UNITYSDK_OFFSET(0xAB760B0)
+#define CLASS_2_4AD6CFDC15993F44_METHOD_2_8002A10A0271B67D_OFFSET UNITYSDK_OFFSET(0xAB75BF0)
+#define CLASS_2_4AD6CFDC15993F44_METHOD_2_DE6710E273150031_OFFSET UNITYSDK_OFFSET(0xAB75AA0)
+#define CLASS_2_4AD6CFDC15993F44_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xAB760A0)
+#define CLASS_2_4AD6CFDC15993F44_SET_USEFORVISION_OFFSET UNITYSDK_OFFSET(0xAB760E0)
+#define CLASS_2_4AD6CFDC15993F44_SET_VISIONTAG_OFFSET UNITYSDK_OFFSET(0xAB760C0)
+#define CLASS_2_4AD6CFDC15993F44__CTOR_OFFSET UNITYSDK_OFFSET(0xAB757F0)
 
-inline static constexpr unsigned int Class_2_4AD6CFDC15993F44_TypeDefinitionIndex = 49332;
+inline static constexpr unsigned int Class_2_4AD6CFDC15993F44_TypeDefinitionIndex = 49999;
 
 class Class_2_4AD6CFDC15993F44 : public ::Class_1_6F8DD29344D23142
 {
 public:
-	::UnityEngine::Quaternion Field_2_0; // 0x60
-	::System::Boolean _UseForVision_k__BackingField; // 0x70
-	::System::UInt32 _Priority_k__BackingField; // 0x74
-	::RPG::GameCore::VisionZoneTag _VisionTag_k__BackingField; // 0x78
+	::System::UInt32 _Priority_k__BackingField; // 0x60
+	::UnityEngine::Quaternion Field_2_1; // 0x64
+	::RPG::GameCore::VisionZoneTag _VisionTag_k__BackingField; // 0x74
+	::System::Boolean _UseForVision_k__BackingField; // 0x78
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TransformComponent* a2, ::RPG::GameCore::TrackNpcVisionConfig* a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TransformComponent*, ::RPG::GameCore::TrackNpcVisionConfig*))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_2_DE6710E273150031(::RPG::GameCore::GameEntity* a1, ::Class_1_065C3F7CC6C5F3AA* a2, ::System::Boolean& a3, ::System::Boolean& a4)
+	::System::Void Method_2_DE6710E273150031(::RPG::GameCore::GameEntity* a1, ::Class_1_6C30C65EACF8D014* a2, ::System::Boolean& a3, ::System::Boolean& a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_1_065C3F7CC6C5F3AA*, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_METHOD_2_DE6710E273150031_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_1_6C30C65EACF8D014*, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_METHOD_2_DE6710E273150031_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Boolean Method_2_8002A10A0271B67D(::Class_1_065C3F7CC6C5F3AA* a1)
+	::System::Boolean Method_2_8002A10A0271B67D(::Class_1_6C30C65EACF8D014* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_065C3F7CC6C5F3AA*))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_METHOD_2_8002A10A0271B67D_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_6C30C65EACF8D014*))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_METHOD_2_8002A10A0271B67D_OFFSET))(this, a1);
 	}
 
 	::System::UInt32 get_Priority()
@@ -49,9 +49,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_GET_PRIORITY_OFFSET))(this);
 	}
 
-	::System::Void set_Priority(::System::UInt32 value)
+	::System::Void set_Priority(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_SET_PRIORITY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_SET_PRIORITY_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::VisionZoneTag get_VisionTag()
@@ -59,9 +59,9 @@ public:
 		return ((::RPG::GameCore::VisionZoneTag(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_GET_VISIONTAG_OFFSET))(this);
 	}
 
-	::System::Void set_VisionTag(::RPG::GameCore::VisionZoneTag value)
+	::System::Void set_VisionTag(::RPG::GameCore::VisionZoneTag a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VisionZoneTag))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_SET_VISIONTAG_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VisionZoneTag))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_SET_VISIONTAG_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_UseForVision()
@@ -69,8 +69,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_GET_USEFORVISION_OFFSET))(this);
 	}
 
-	::System::Void set_UseForVision(::System::Boolean value)
+	::System::Void set_UseForVision(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_SET_USEFORVISION_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_4AD6CFDC15993F44_SET_USEFORVISION_OFFSET))(this, a1);
 	}
 };

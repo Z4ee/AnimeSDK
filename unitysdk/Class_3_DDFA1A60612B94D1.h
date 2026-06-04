@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/TargetEvaluatorImpl_1.h"
 
 namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class TargetFetchAdvFakeAvatarPlayerStub; }
+namespace RPG::GameCore { class RtBattleTargetCameraFocusTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_DDFA1A60612B94D1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12824410)
-#define CLASS_3_DDFA1A60612B94D1__CTOR_OFFSET UNITYSDK_OFFSET(0x12824370)
+#define CLASS_3_DDFA1A60612B94D1_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA6DC510)
+#define CLASS_3_DDFA1A60612B94D1__CTOR_OFFSET UNITYSDK_OFFSET(0xA6DC4A0)
 
-inline static constexpr unsigned int Class_3_DDFA1A60612B94D1_TypeDefinitionIndex = 54494;
+inline static constexpr unsigned int Class_3_DDFA1A60612B94D1_TypeDefinitionIndex = 50246;
 
-class Class_3_DDFA1A60612B94D1 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchAdvFakeAvatarPlayerStub*>
+class Class_3_DDFA1A60612B94D1 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::RtBattleTargetCameraFocusTarget*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TargetFetchAdvFakeAvatarPlayerStub* a1)
+	::System::Void _ctor(::RPG::GameCore::RtBattleTargetCameraFocusTarget* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchAdvFakeAvatarPlayerStub*))((::PBYTE)hIl2Cpp + CLASS_3_DDFA1A60612B94D1__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RtBattleTargetCameraFocusTarget*))((::PBYTE)hIl2Cpp + CLASS_3_DDFA1A60612B94D1__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Evaluate(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)

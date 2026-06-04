@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19E74AD0)
-#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19E74B00)
-#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x19E74580)
-#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E74560)
+#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ACEAB00)
+#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ACEAB30)
+#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ACEAAF0)
+#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACEAA00)
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int ConsoleUpdatedEventHandler_TypeDefinitionIndex = 35420;
+	inline static constexpr unsigned int ConsoleUpdatedEventHandler_TypeDefinitionIndex = 35720;
 
 	class ConsoleUpdatedEventHandler : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::SRDebugger::Services::IConsoleService* console)
+		::System::Void Invoke(::SRDebugger::Services::IConsoleService* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::Services::IConsoleService*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_INVOKE_OFFSET))(this, console);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::Services::IConsoleService*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::SRDebugger::Services::IConsoleService* console, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::SRDebugger::Services::IConsoleService* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::SRDebugger::Services::IConsoleService*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_BEGININVOKE_OFFSET))(this, console, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::SRDebugger::Services::IConsoleService*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

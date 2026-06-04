@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8D07A80)
-#define MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8D07AE0)
-#define MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x8D074D0)
-#define MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x8D074B0)
+#define MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA15F5B0)
+#define MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA15F610)
+#define MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA15F5A0)
+#define MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA15F4B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int FileDownloadTask_OnProgressChange_TypeDefinitionIndex = 42891;
+	inline static constexpr unsigned int FileDownloadTask_OnProgressChange_TypeDefinitionIndex = 43694;
 
 	class FileDownloadTask_OnProgressChange : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::MiHoYo::SDK::FileDownloadTask* task, ::System::Single progress)
+		::System::Void Invoke(::MiHoYo::SDK::FileDownloadTask* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::FileDownloadTask*, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_INVOKE_OFFSET))(this, task, progress);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::FileDownloadTask*, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::FileDownloadTask* task, ::System::Single progress, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MiHoYo::SDK::FileDownloadTask* a1, ::System::Single a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::FileDownloadTask*, ::System::Single, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_BEGININVOKE_OFFSET))(this, task, progress, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MiHoYo::SDK::FileDownloadTask*, ::System::Single, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_FILEDOWNLOADTASK_ONPROGRESSCHANGE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

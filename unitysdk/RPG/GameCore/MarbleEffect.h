@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEEFFECT_METHOD_2_A45D17AD26C6E668_OFFSET UNITYSDK_OFFSET(0x18A9B380)
-#define RPG_GAMECORE_MARBLEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18A9B8E0)
+#define RPG_GAMECORE_MARBLEEFFECT_METHOD_2_A45D17AD26C6E668_OFFSET UNITYSDK_OFFSET(0x198CE4A0)
+#define RPG_GAMECORE_MARBLEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x198CEA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleEffect_TypeDefinitionIndex = 15996;
+	inline static constexpr unsigned int MarbleEffect_TypeDefinitionIndex = 16046;
 
 	class MarbleEffect : public ::RPG::GameCore::JsonConfig
 	{

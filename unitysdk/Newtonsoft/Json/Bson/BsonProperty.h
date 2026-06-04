@@ -5,13 +5,13 @@
 namespace Newtonsoft::Json::Bson { class BsonString; }
 namespace Newtonsoft::Json::Bson { class BsonToken; }
 
-#define NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_NAME_OFFSET UNITYSDK_OFFSET(0x17A55270)
-#define NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x17A55280)
-#define NEWTONSOFT_JSON_BSON_BSONPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x17A54FE0)
+#define NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_NAME_OFFSET UNITYSDK_OFFSET(0x18803FE0)
+#define NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x18803FF0)
+#define NEWTONSOFT_JSON_BSON_BSONPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x18803DB0)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonProperty_TypeDefinitionIndex = 8606;
+	inline static constexpr unsigned int BsonProperty_TypeDefinitionIndex = 9509;
 
 	class BsonProperty : public ::System::Object
 	{
@@ -24,14 +24,14 @@ namespace Newtonsoft::Json::Bson
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::Newtonsoft::Json::Bson::BsonString* value)
+		::System::Void set_Name(::Newtonsoft::Json::Bson::BsonString* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Bson::BsonString*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Bson::BsonString*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_NAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Value(::Newtonsoft::Json::Bson::BsonToken* value)
+		::System::Void set_Value(::Newtonsoft::Json::Bson::BsonToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Bson::BsonToken*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Bson::BsonToken*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_VALUE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -10,45 +10,45 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_ALLEYROUTEVIEW_BINDCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x9D19160)
-#define RPG_CLIENT_ALLEYROUTEVIEW_GETOUTLINEWIDTH_OFFSET UNITYSDK_OFFSET(0x9D196E0)
-#define RPG_CLIENT_ALLEYROUTEVIEW_GETWIDTH_OFFSET UNITYSDK_OFFSET(0x9D19690)
-#define RPG_CLIENT_ALLEYROUTEVIEW_GET_BGCCMATH_OFFSET UNITYSDK_OFFSET(0x9D19790)
-#define RPG_CLIENT_ALLEYROUTEVIEW_GET_BGCCSPLITTERPOLYLINE_OFFSET UNITYSDK_OFFSET(0x9D197B0)
-#define RPG_CLIENT_ALLEYROUTEVIEW_GET_BGCURVE_OFFSET UNITYSDK_OFFSET(0x9D19730)
-#define RPG_CLIENT_ALLEYROUTEVIEW_GET_LINERENDERER_OFFSET UNITYSDK_OFFSET(0x9D19750)
-#define RPG_CLIENT_ALLEYROUTEVIEW_GET_OUTLINERENDERER_OFFSET UNITYSDK_OFFSET(0x9D19770)
-#define RPG_CLIENT_ALLEYROUTEVIEW_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x9D19150)
-#define RPG_CLIENT_ALLEYROUTEVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9D19500)
-#define RPG_CLIENT_ALLEYROUTEVIEW_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x9D19560)
-#define RPG_CLIENT_ALLEYROUTEVIEW_SETHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x9D195B0)
-#define RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCCMATH_OFFSET UNITYSDK_OFFSET(0x9D197A0)
-#define RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCCSPLITTERPOLYLINE_OFFSET UNITYSDK_OFFSET(0x9D197C0)
-#define RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCURVE_OFFSET UNITYSDK_OFFSET(0x9D19740)
-#define RPG_CLIENT_ALLEYROUTEVIEW_SET_LINERENDERER_OFFSET UNITYSDK_OFFSET(0x9D19760)
-#define RPG_CLIENT_ALLEYROUTEVIEW_SET_OUTLINERENDERER_OFFSET UNITYSDK_OFFSET(0x9D19780)
-#define RPG_CLIENT_ALLEYROUTEVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0x9D197E0)
-#define RPG_CLIENT_ALLEYROUTEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9D197D0)
+#define RPG_CLIENT_ALLEYROUTEVIEW_BINDCOMPONENTS_OFFSET UNITYSDK_OFFSET(0xB308DC0)
+#define RPG_CLIENT_ALLEYROUTEVIEW_GETOUTLINEWIDTH_OFFSET UNITYSDK_OFFSET(0xB309330)
+#define RPG_CLIENT_ALLEYROUTEVIEW_GETWIDTH_OFFSET UNITYSDK_OFFSET(0xB3092E0)
+#define RPG_CLIENT_ALLEYROUTEVIEW_GET_BGCCMATH_OFFSET UNITYSDK_OFFSET(0xB3093E0)
+#define RPG_CLIENT_ALLEYROUTEVIEW_GET_BGCCSPLITTERPOLYLINE_OFFSET UNITYSDK_OFFSET(0xB309400)
+#define RPG_CLIENT_ALLEYROUTEVIEW_GET_BGCURVE_OFFSET UNITYSDK_OFFSET(0xB309380)
+#define RPG_CLIENT_ALLEYROUTEVIEW_GET_LINERENDERER_OFFSET UNITYSDK_OFFSET(0xB3093A0)
+#define RPG_CLIENT_ALLEYROUTEVIEW_GET_OUTLINERENDERER_OFFSET UNITYSDK_OFFSET(0xB3093C0)
+#define RPG_CLIENT_ALLEYROUTEVIEW_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0xB308DB0)
+#define RPG_CLIENT_ALLEYROUTEVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB309150)
+#define RPG_CLIENT_ALLEYROUTEVIEW_SETCOLOR_OFFSET UNITYSDK_OFFSET(0xB3091B0)
+#define RPG_CLIENT_ALLEYROUTEVIEW_SETHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xB309200)
+#define RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCCMATH_OFFSET UNITYSDK_OFFSET(0xB3093F0)
+#define RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCCSPLITTERPOLYLINE_OFFSET UNITYSDK_OFFSET(0xB309410)
+#define RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCURVE_OFFSET UNITYSDK_OFFSET(0xB309390)
+#define RPG_CLIENT_ALLEYROUTEVIEW_SET_LINERENDERER_OFFSET UNITYSDK_OFFSET(0xB3093B0)
+#define RPG_CLIENT_ALLEYROUTEVIEW_SET_OUTLINERENDERER_OFFSET UNITYSDK_OFFSET(0xB3093D0)
+#define RPG_CLIENT_ALLEYROUTEVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xB309430)
+#define RPG_CLIENT_ALLEYROUTEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xB309420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyRouteView_TypeDefinitionIndex = 57544;
+	inline static constexpr unsigned int AlleyRouteView_TypeDefinitionIndex = 58356;
 
 	class AlleyRouteView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_7()
+		static ::System::Int32* StaticGet_Field_5_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AlleyRouteView_TypeDefinitionIndex)->GetStaticField(0xB740);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AlleyRouteView_TypeDefinitionIndex)->GetStaticField(0x12DB0);
 		}
-		// static const ::System::Single Field_5_8; // 0x0
+		// static const ::System::Single Field_5_1; // 0x0
 		::BansheeGz::BGSpline::Curve::BGCurve* _BGCurve_k__BackingField; // 0x18
 		::UnityEngine::LineRenderer* _LineRenderer_k__BackingField; // 0x20
 		::UnityEngine::LineRenderer* _OutlineRenderer_k__BackingField; // 0x28
 		::BansheeGz::BGSpline::Components::BGCcMath* _BGCcMath_k__BackingField; // 0x30
 		::BansheeGz::BGSpline::Components::BGCcSplitterPolyline* _BGCcSplitterPolyline_k__BackingField; // 0x38
-		::UnityEngine::Animator* Field_5_5; // 0x40
-		::System::String* Field_5_6; // 0x48
+		::UnityEngine::Animator* Field_5_7; // 0x40
+		::System::String* Field_5_8; // 0x48
 
 		::System::Void _ctor()
 		{
@@ -100,9 +100,9 @@ namespace RPG::Client
 			return ((::BansheeGz::BGSpline::Curve::BGCurve*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_GET_BGCURVE_OFFSET))(this);
 		}
 
-		::System::Void set_BGCurve(::BansheeGz::BGSpline::Curve::BGCurve* value)
+		::System::Void set_BGCurve(::BansheeGz::BGSpline::Curve::BGCurve* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCURVE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCURVE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::LineRenderer* get_LineRenderer()
@@ -110,9 +110,9 @@ namespace RPG::Client
 			return ((::UnityEngine::LineRenderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_GET_LINERENDERER_OFFSET))(this);
 		}
 
-		::System::Void set_LineRenderer(::UnityEngine::LineRenderer* value)
+		::System::Void set_LineRenderer(::UnityEngine::LineRenderer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::LineRenderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_SET_LINERENDERER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LineRenderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_SET_LINERENDERER_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::LineRenderer* get_OutlineRenderer()
@@ -120,9 +120,9 @@ namespace RPG::Client
 			return ((::UnityEngine::LineRenderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_GET_OUTLINERENDERER_OFFSET))(this);
 		}
 
-		::System::Void set_OutlineRenderer(::UnityEngine::LineRenderer* value)
+		::System::Void set_OutlineRenderer(::UnityEngine::LineRenderer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::LineRenderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_SET_OUTLINERENDERER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::LineRenderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_SET_OUTLINERENDERER_OFFSET))(this, a1);
 		}
 
 		::BansheeGz::BGSpline::Components::BGCcMath* get_BGCcMath()
@@ -130,9 +130,9 @@ namespace RPG::Client
 			return ((::BansheeGz::BGSpline::Components::BGCcMath*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_GET_BGCCMATH_OFFSET))(this);
 		}
 
-		::System::Void set_BGCcMath(::BansheeGz::BGSpline::Components::BGCcMath* value)
+		::System::Void set_BGCcMath(::BansheeGz::BGSpline::Components::BGCcMath* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Components::BGCcMath*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCCMATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Components::BGCcMath*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCCMATH_OFFSET))(this, a1);
 		}
 
 		::BansheeGz::BGSpline::Components::BGCcSplitterPolyline* get_BGCcSplitterPolyline()
@@ -140,9 +140,9 @@ namespace RPG::Client
 			return ((::BansheeGz::BGSpline::Components::BGCcSplitterPolyline*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_GET_BGCCSPLITTERPOLYLINE_OFFSET))(this);
 		}
 
-		::System::Void set_BGCcSplitterPolyline(::BansheeGz::BGSpline::Components::BGCcSplitterPolyline* value)
+		::System::Void set_BGCcSplitterPolyline(::BansheeGz::BGSpline::Components::BGCcSplitterPolyline* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Components::BGCcSplitterPolyline*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCCSPLITTERPOLYLINE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Components::BGCcSplitterPolyline*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEVIEW_SET_BGCCSPLITTERPOLYLINE_OFFSET))(this, a1);
 		}
 	};
 }

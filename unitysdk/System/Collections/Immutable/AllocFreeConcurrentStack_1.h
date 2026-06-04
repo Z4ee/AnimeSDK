@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int AllocFreeConcurrentStack_1_TypeDefinitionIndex = 9095;
+	inline static constexpr unsigned int AllocFreeConcurrentStack_1_TypeDefinitionIndex = 6959;
 
 	template <typename T>
 	class AllocFreeConcurrentStack_1 : public ::System::Object

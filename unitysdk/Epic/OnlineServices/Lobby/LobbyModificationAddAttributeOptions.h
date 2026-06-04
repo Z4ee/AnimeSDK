@@ -5,15 +5,15 @@
 
 namespace Epic::OnlineServices::Lobby { class AttributeData; }
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_GET_ATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8EB8310)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x8EB8330)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_SET_ATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8EB8320)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_SET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x8EB8340)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8EB8350)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_GET_ATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xA2F3A30)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0xA2F3A50)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_SET_ATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xA2F3A40)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_SET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0xA2F3A60)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F3A70)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbyModificationAddAttributeOptions_TypeDefinitionIndex = 41904;
+	inline static constexpr unsigned int LobbyModificationAddAttributeOptions_TypeDefinitionIndex = 42707;
 
 	class LobbyModificationAddAttributeOptions : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::Lobby::AttributeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_GET_ATTRIBUTE_OFFSET))(this);
 		}
 
-		::System::Void set_Attribute(::Epic::OnlineServices::Lobby::AttributeData* value)
+		::System::Void set_Attribute(::Epic::OnlineServices::Lobby::AttributeData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::AttributeData*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_SET_ATTRIBUTE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::AttributeData*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_SET_ATTRIBUTE_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Lobby::LobbyAttributeVisibility get_Visibility()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::Lobby::LobbyAttributeVisibility(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_GET_VISIBILITY_OFFSET))(this);
 		}
 
-		::System::Void set_Visibility(::Epic::OnlineServices::Lobby::LobbyAttributeVisibility value)
+		::System::Void set_Visibility(::Epic::OnlineServices::Lobby::LobbyAttributeVisibility a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyAttributeVisibility))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_SET_VISIBILITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyAttributeVisibility))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATIONADDATTRIBUTEOPTIONS_SET_VISIBILITY_OFFSET))(this, a1);
 		}
 	};
 }

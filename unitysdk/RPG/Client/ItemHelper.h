@@ -4,18 +4,18 @@
 
 namespace RPG::Client { class ItemData; }
 
-#define RPG_CLIENT_ITEMHELPER_GETITEM_OFFSET UNITYSDK_OFFSET(0xA659760)
+#define RPG_CLIENT_ITEMHELPER_GETITEM_OFFSET UNITYSDK_OFFSET(0xBD60800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemHelper_TypeDefinitionIndex = 60515;
+	inline static constexpr unsigned int ItemHelper_TypeDefinitionIndex = 61449;
 
 	class ItemHelper : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ItemData* GetItem(::System::UInt32 configID)
+		static ::RPG::Client::ItemData* GetItem(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ItemData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMHELPER_GETITEM_OFFSET))(configID);
+			return ((::RPG::Client::ItemData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMHELPER_GETITEM_OFFSET))(a1);
 		}
 	};
 }

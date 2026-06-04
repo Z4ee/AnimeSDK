@@ -6,23 +6,23 @@
 namespace RPG::Client { class ChimeraGalleryTalkGroupEntry; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xA02A250)
-#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_TALKTEXTS_OFFSET UNITYSDK_OFFSET(0xA02A260)
-#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA02A270)
+#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xB6A6C90)
+#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_TALKTEXTS_OFFSET UNITYSDK_OFFSET(0xB6A6CA0)
+#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB6A6CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryGroupedTalkData_TypeDefinitionIndex = 58432;
+	inline static constexpr unsigned int ChimeraGalleryGroupedTalkData_TypeDefinitionIndex = 59362;
 
 	class ChimeraGalleryGroupedTalkData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::TextID>* _TalkTexts_k__BackingField; // 0x10
-		::RPG::Client::ChimeraGalleryTalkGroupEntry* _Config_k__BackingField; // 0x18
+		::RPG::Client::ChimeraGalleryTalkGroupEntry* _Config_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::TextID>* _TalkTexts_k__BackingField; // 0x18
 
-		::System::Void _ctor(::RPG::Client::ChimeraGalleryTalkGroupEntry* config, ::System::Collections::Generic::List_1<::RPG::Client::TextID>* talkTexts)
+		::System::Void _ctor(::RPG::Client::ChimeraGalleryTalkGroupEntry* a1, ::System::Collections::Generic::List_1<::RPG::Client::TextID>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraGalleryTalkGroupEntry*, ::System::Collections::Generic::List_1<::RPG::Client::TextID>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA__CTOR_OFFSET))(this, config, talkTexts);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraGalleryTalkGroupEntry*, ::System::Collections::Generic::List_1<::RPG::Client::TextID>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::ChimeraGalleryTalkGroupEntry* get_Config()

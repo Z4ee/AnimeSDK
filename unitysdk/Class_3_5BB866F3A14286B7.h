@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvAddVisionUseCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5BB866F3A14286B7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11B8DD50)
-#define CLASS_3_5BB866F3A14286B7__CTOR_OFFSET UNITYSDK_OFFSET(0x11B8DD20)
+#define CLASS_3_5BB866F3A14286B7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9839D0)
+#define CLASS_3_5BB866F3A14286B7__CTOR_OFFSET UNITYSDK_OFFSET(0xC9839A0)
 
-inline static constexpr unsigned int Class_3_5BB866F3A14286B7_TypeDefinitionIndex = 48310;
+inline static constexpr unsigned int Class_3_5BB866F3A14286B7_TypeDefinitionIndex = 48936;
 
 class Class_3_5BB866F3A14286B7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvAddVisionUseCount*>
 {

@@ -4,10 +4,10 @@
 
 namespace RPG::Client::LittleGame::FiveDim { class SidePuzzleTargetData; }
 
-#define CLASS_1_7D93990153DD34ED___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9BAFD50)
-#define CLASS_1_7D93990153DD34ED___C__DISPLAYCLASS4_0___ONQUESTUPDATED_B__0_OFFSET UNITYSDK_OFFSET(0x9BB2280)
+#define CLASS_1_7D93990153DD34ED___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB287DF0)
+#define CLASS_1_7D93990153DD34ED___C__DISPLAYCLASS4_0___ONQUESTUPDATED_B__0_OFFSET UNITYSDK_OFFSET(0xB28A370)
 
-inline static constexpr unsigned int Class_1_7D93990153DD34ED___c__DisplayClass4_0_TypeDefinitionIndex = 70543;
+inline static constexpr unsigned int Class_1_7D93990153DD34ED___c__DisplayClass4_0_TypeDefinitionIndex = 71360;
 
 class Class_1_7D93990153DD34ED___c__DisplayClass4_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7D93990153DD34ED___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __OnQuestUpdated_b__0(::RPG::Client::LittleGame::FiveDim::SidePuzzleTargetData* data)
+	::System::Boolean __OnQuestUpdated_b__0(::RPG::Client::LittleGame::FiveDim::SidePuzzleTargetData* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::SidePuzzleTargetData*))((::PBYTE)hIl2Cpp + CLASS_1_7D93990153DD34ED___C__DISPLAYCLASS4_0___ONQUESTUPDATED_B__0_OFFSET))(this, data);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::SidePuzzleTargetData*))((::PBYTE)hIl2Cpp + CLASS_1_7D93990153DD34ED___C__DISPLAYCLASS4_0___ONQUESTUPDATED_B__0_OFFSET))(this, a1);
 	}
 };

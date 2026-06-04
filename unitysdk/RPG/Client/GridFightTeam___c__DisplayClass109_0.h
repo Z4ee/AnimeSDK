@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightGridData; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS109_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5A2CD0)
-#define RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS109_0___GETGRIDBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xA5A4A80)
+#define RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS109_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC13CE0)
+#define RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS109_0___GETGRIDBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xBC15AB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeam___c__DisplayClass109_0_TypeDefinitionIndex = 59994;
+	inline static constexpr unsigned int GridFightTeam___c__DisplayClass109_0_TypeDefinitionIndex = 60929;
 
 	class GridFightTeam___c__DisplayClass109_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS109_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __GetGridByUID_b__0(::RPG::Client::GridFightGridData* x)
+		::System::Boolean __GetGridByUID_b__0(::RPG::Client::GridFightGridData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGridData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS109_0___GETGRIDBYUID_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGridData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS109_0___GETGRIDBYUID_B__0_OFFSET))(this, a1);
 		}
 	};
 }

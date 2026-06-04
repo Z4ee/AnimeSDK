@@ -5,15 +5,15 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E97FF0)
-#define EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_GET_PERMISSIONKEYS_OFFSET UNITYSDK_OFFSET(0x8E98010)
-#define EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8E98000)
-#define EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_SET_PERMISSIONKEYS_OFFSET UNITYSDK_OFFSET(0x8E98020)
-#define EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E98030)
+#define EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2D45A0)
+#define EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_GET_PERMISSIONKEYS_OFFSET UNITYSDK_OFFSET(0xA2D45C0)
+#define EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA2D45B0)
+#define EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_SET_PERMISSIONKEYS_OFFSET UNITYSDK_OFFSET(0xA2D45D0)
+#define EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2D45E0)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int RequestPermissionsOptions_TypeDefinitionIndex = 42090;
+	inline static constexpr unsigned int RequestPermissionsOptions_TypeDefinitionIndex = 42893;
 
 	class RequestPermissionsOptions : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::String*>* get_PermissionKeys()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::KWS
 			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_GET_PERMISSIONKEYS_OFFSET))(this);
 		}
 
-		::System::Void set_PermissionKeys(::Il2CppArray<::System::String*>* value)
+		::System::Void set_PermissionKeys(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_SET_PERMISSIONKEYS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_KWS_REQUESTPERMISSIONSOPTIONS_SET_PERMISSIONKEYS_OFFSET))(this, a1);
 		}
 	};
 }

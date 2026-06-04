@@ -5,11 +5,11 @@
 
 namespace UnityEngine::UIElements { class EventBase; }
 
-#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKFUNCTORBASE_GET_PHASE_OFFSET UNITYSDK_OFFSET(0x1A50A1F0)
+#define UNITYENGINE_UIELEMENTS_EVENTCALLBACKFUNCTORBASE_GET_PHASE_OFFSET UNITYSDK_OFFSET(0x1B355720)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventCallbackFunctorBase_TypeDefinitionIndex = 5910;
+	inline static constexpr unsigned int EventCallbackFunctorBase_TypeDefinitionIndex = 6187;
 
 	class EventCallbackFunctorBase : public ::System::Object
 	{

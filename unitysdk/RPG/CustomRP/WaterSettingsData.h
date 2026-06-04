@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_WATERSETTINGSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18183880)
+#define RPG_CUSTOMRP_WATERSETTINGSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18F29880)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int WaterSettingsData_TypeDefinitionIndex = 35228;
+	inline static constexpr unsigned int WaterSettingsData_TypeDefinitionIndex = 35528;
 
 	class WaterSettingsData : public ::System::Object
 	{

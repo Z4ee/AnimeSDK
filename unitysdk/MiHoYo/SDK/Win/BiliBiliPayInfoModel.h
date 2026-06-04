@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_BILIBILIPAYINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x176B6570)
+#define MIHOYO_SDK_WIN_BILIBILIPAYINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18474BA0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BiliBiliPayInfoModel_TypeDefinitionIndex = 8086;
+	inline static constexpr unsigned int BiliBiliPayInfoModel_TypeDefinitionIndex = 8989;
 
 	class BiliBiliPayInfoModel : public ::System::Object
 	{

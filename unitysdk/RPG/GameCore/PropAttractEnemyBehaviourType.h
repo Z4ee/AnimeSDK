@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropAttractEnemyBehaviourType_TypeDefinitionIndex = 10258;
+	inline static constexpr unsigned int PropAttractEnemyBehaviourType_TypeDefinitionIndex = 10089;
 
 	enum class PropAttractEnemyBehaviourType : ::System::Int32
 	{

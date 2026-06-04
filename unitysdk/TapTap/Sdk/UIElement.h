@@ -9,34 +9,34 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace TapTap::Sdk { class UIManager; }
 
-#define TAPTAP_SDK_UIELEMENT_ADD_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1A1C3D30)
-#define TAPTAP_SDK_UIELEMENT_CLEARCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A1C3E70)
-#define TAPTAP_SDK_UIELEMENT_DOENTERANIMATION_OFFSET UNITYSDK_OFFSET(0x1A1C3ED0)
-#define TAPTAP_SDK_UIELEMENT_DOEXITANIMATION_OFFSET UNITYSDK_OFFSET(0x1A1C3EA0)
-#define TAPTAP_SDK_UIELEMENT_DOPAUSEANIMATION_OFFSET UNITYSDK_OFFSET(0x1A1C3E80)
-#define TAPTAP_SDK_UIELEMENT_DORESUMEANIMATION_OFFSET UNITYSDK_OFFSET(0x1A1C3E90)
-#define TAPTAP_SDK_UIELEMENT_GETUIMANAGER_OFFSET UNITYSDK_OFFSET(0x1A1BF2B0)
-#define TAPTAP_SDK_UIELEMENT_GET_EXTRA_OFFSET UNITYSDK_OFFSET(0x1A1C3E30)
-#define TAPTAP_SDK_UIELEMENT_GET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1A1C3E60)
-#define TAPTAP_SDK_UIELEMENT_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A1BF290)
-#define TAPTAP_SDK_UIELEMENT_PLAYENTER_OFFSET UNITYSDK_OFFSET(0x1A1C3F60)
-#define TAPTAP_SDK_UIELEMENT_PLAYEXIT_OFFSET UNITYSDK_OFFSET(0x1A1C3F00)
-#define TAPTAP_SDK_UIELEMENT_REMOVE_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1A1C3DB0)
-#define TAPTAP_SDK_UIELEMENT_SET_EXTRA_OFFSET UNITYSDK_OFFSET(0x1A1C3E40)
-#define TAPTAP_SDK_UIELEMENT_SET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1A1C3E50)
-#define TAPTAP_SDK_UIELEMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1C3FC0)
-#define TAPTAP_SDK_UIELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1BA970)
+#define TAPTAP_SDK_UIELEMENT_ADD_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1B028180)
+#define TAPTAP_SDK_UIELEMENT_CLEARCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B0282C0)
+#define TAPTAP_SDK_UIELEMENT_DOENTERANIMATION_OFFSET UNITYSDK_OFFSET(0x1B028320)
+#define TAPTAP_SDK_UIELEMENT_DOEXITANIMATION_OFFSET UNITYSDK_OFFSET(0x1B0282F0)
+#define TAPTAP_SDK_UIELEMENT_DOPAUSEANIMATION_OFFSET UNITYSDK_OFFSET(0x1B0282D0)
+#define TAPTAP_SDK_UIELEMENT_DORESUMEANIMATION_OFFSET UNITYSDK_OFFSET(0x1B0282E0)
+#define TAPTAP_SDK_UIELEMENT_GETUIMANAGER_OFFSET UNITYSDK_OFFSET(0x1B023340)
+#define TAPTAP_SDK_UIELEMENT_GET_EXTRA_OFFSET UNITYSDK_OFFSET(0x1B028280)
+#define TAPTAP_SDK_UIELEMENT_GET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1B0282B0)
+#define TAPTAP_SDK_UIELEMENT_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B023320)
+#define TAPTAP_SDK_UIELEMENT_PLAYENTER_OFFSET UNITYSDK_OFFSET(0x1B0283B0)
+#define TAPTAP_SDK_UIELEMENT_PLAYEXIT_OFFSET UNITYSDK_OFFSET(0x1B028350)
+#define TAPTAP_SDK_UIELEMENT_REMOVE_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1B028200)
+#define TAPTAP_SDK_UIELEMENT_SET_EXTRA_OFFSET UNITYSDK_OFFSET(0x1B028290)
+#define TAPTAP_SDK_UIELEMENT_SET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1B0282A0)
+#define TAPTAP_SDK_UIELEMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B028410)
+#define TAPTAP_SDK_UIELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B01E0A0)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int UIElement_TypeDefinitionIndex = 6450;
+	inline static constexpr unsigned int UIElement_TypeDefinitionIndex = 7066;
 
 	class UIElement : public ::TapTap::Sdk::UIBase
 	{
 	public:
 		static ::System::Int32* StaticGet_animType()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIElement_TypeDefinitionIndex)->GetStaticField(0x420);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIElement_TypeDefinitionIndex)->GetStaticField(0x550);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* extra; // 0x18
 		::System::Action_2<::System::Int32, ::System::Object*>* Callback; // 0x20
@@ -54,14 +54,14 @@ namespace TapTap::Sdk
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT__CCTOR_OFFSET))();
 		}
 
-		::System::Void add_Callback(::System::Action_2<::System::Int32, ::System::Object*>* value)
+		::System::Void add_Callback(::System::Action_2<::System::Int32, ::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Object*>*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_ADD_CALLBACK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Object*>*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_ADD_CALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Callback(::System::Action_2<::System::Int32, ::System::Object*>* value)
+		::System::Void remove_Callback(::System::Action_2<::System::Int32, ::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Object*>*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_REMOVE_CALLBACK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Object*>*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_REMOVE_CALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* get_Extra()
@@ -69,14 +69,14 @@ namespace TapTap::Sdk
 			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_GET_EXTRA_OFFSET))(this);
 		}
 
-		::System::Void set_Extra(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* value)
+		::System::Void set_Extra(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_SET_EXTRA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_SET_EXTRA_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Manager(::TapTap::Sdk::UIManager* value)
+		::System::Void set_Manager(::TapTap::Sdk::UIManager* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::UIManager*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_SET_MANAGER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::TapTap::Sdk::UIManager*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_SET_MANAGER_OFFSET))(this, a1);
 		}
 
 		::TapTap::Sdk::UIManager* get_Manager()
@@ -89,9 +89,9 @@ namespace TapTap::Sdk
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_CLEARCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void OnCallback(::System::Int32 code, ::System::Object* data)
+		::System::Void OnCallback(::System::Int32 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_ONCALLBACK_OFFSET))(this, code, data);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIELEMENT_ONCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::TapTap::Sdk::UIManager* GetUIManager()

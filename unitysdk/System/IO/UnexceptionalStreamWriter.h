@@ -6,23 +6,23 @@ namespace System { class String; }
 namespace System::IO { class Stream; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x17976D30)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x17976E20)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x17976E60)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_3_OFFSET UNITYSDK_OFFSET(0x17976EA0)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x17976DE0)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x17976CE0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x18728630)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x18728720)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x18728760)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_3_OFFSET UNITYSDK_OFFSET(0x187287A0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x187286E0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x187285E0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int UnexceptionalStreamWriter_TypeDefinitionIndex = 727;
+	inline static constexpr unsigned int UnexceptionalStreamWriter_TypeDefinitionIndex = 726;
 
 	class UnexceptionalStreamWriter : public ::System::IO::StreamWriter
 	{
 	public:
-		::System::Void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding)
+		::System::Void _ctor(::System::IO::Stream* a1, ::System::Text::Encoding* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER__CTOR_OFFSET))(this, stream, encoding);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Flush()
@@ -30,24 +30,24 @@ namespace System::IO
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_FLUSH_OFFSET))(this);
 		}
 
-		::System::Void Write(::Il2CppArray<::System::Char>* buffer, ::System::Int32 index, ::System::Int32 count)
+		::System::Void Write(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_OFFSET))(this, buffer, index, count);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Write_1(::System::Char value)
+		::System::Void Write_1(::System::Char a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_1_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Write_2(::Il2CppArray<::System::Char>* value)
+		::System::Void Write_2(::Il2CppArray<::System::Char>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_2_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_2_OFFSET))(this, a1);
 		}
 
-		::System::Void Write_3(::System::String* value)
+		::System::Void Write_3(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_3_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_3_OFFSET))(this, a1);
 		}
 	};
 }

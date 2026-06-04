@@ -11,45 +11,45 @@ namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine::UI { class RectMask2D; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_UI3DCLIPPABLE_CULL_OFFSET UNITYSDK_OFFSET(0xB9A9B70)
-#define UNITYENGINE_UI_UI3DCLIPPABLE_GET_UICAMERA_OFFSET UNITYSDK_OFFSET(0xB9A9A30)
-#define UNITYENGINE_UI_UI3DCLIPPABLE_METHOD_7_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0xB9A9A80)
-#define UNITYENGINE_UI_UI3DCLIPPABLE_METHOD_7_A8F5229F397DA4EA_OFFSET UNITYSDK_OFFSET(0xB9A9ED0)
-#define UNITYENGINE_UI_UI3DCLIPPABLE_METHOD_7_F437BF67AC1F1345_OFFSET UNITYSDK_OFFSET(0xB9A9BA0)
-#define UNITYENGINE_UI_UI3DCLIPPABLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB9A9B40)
-#define UNITYENGINE_UI_UI3DCLIPPABLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB9A9A60)
-#define UNITYENGINE_UI_UI3DCLIPPABLE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xB9A9B80)
-#define UNITYENGINE_UI_UI3DCLIPPABLE_RECALCULATECLIPPING_OFFSET UNITYSDK_OFFSET(0xB9A9B60)
-#define UNITYENGINE_UI_UI3DCLIPPABLE_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0xB9AA1D0)
-#define UNITYENGINE_UI_UI3DCLIPPABLE_SETCLIPSOFTNESS_OFFSET UNITYSDK_OFFSET(0xB9AA570)
-#define UNITYENGINE_UI_UI3DCLIPPABLE_UNITYENGINE_UI_ICLIPPABLE_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xB9AA8D0)
-#define UNITYENGINE_UI_UI3DCLIPPABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9AA880)
-#define UNITYENGINE_UI_UI3DCLIPPABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xB9AA840)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_CULL_OFFSET UNITYSDK_OFFSET(0xD0F1850)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_GET_UICAMERA_OFFSET UNITYSDK_OFFSET(0xD0F1710)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_METHOD_7_A8F5229F397DA4EA_OFFSET UNITYSDK_OFFSET(0xD0F1BB0)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_METHOD_7_B7A43C06FD78D78B_OFFSET UNITYSDK_OFFSET(0xD0F1760)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_METHOD_7_F437BF67AC1F1345_OFFSET UNITYSDK_OFFSET(0xD0F1880)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD0F1820)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD0F1740)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xD0F1860)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_RECALCULATECLIPPING_OFFSET UNITYSDK_OFFSET(0xD0F1840)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0xD0F1EB0)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_SETCLIPSOFTNESS_OFFSET UNITYSDK_OFFSET(0xD0F2230)
+#define UNITYENGINE_UI_UI3DCLIPPABLE_UNITYENGINE_UI_ICLIPPABLE_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xD0F2570)
+#define UNITYENGINE_UI_UI3DCLIPPABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0F2520)
+#define UNITYENGINE_UI_UI3DCLIPPABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F24E0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int UI3DClippable_TypeDefinitionIndex = 44504;
+	inline static constexpr unsigned int UI3DClippable_TypeDefinitionIndex = 45051;
 
 	class UI3DClippable : public ::UnityEngine::UI::Graphic
 	{
 	public:
-		static ::UnityEngine::MaterialPropertyBlock** StaticGet_Field_7_5()
+		static ::UnityEngine::MaterialPropertyBlock** StaticGet_Field_7_0()
 		{
-			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(UI3DClippable_TypeDefinitionIndex)->GetStaticField(0x6820);
+			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(UI3DClippable_TypeDefinitionIndex)->GetStaticField(0x137E0);
 		}
-		static ::System::Int32* StaticGet_Field_7_7()
+		static ::System::Int32* StaticGet_Field_7_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI3DClippable_TypeDefinitionIndex)->GetStaticField(0x30C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI3DClippable_TypeDefinitionIndex)->GetStaticField(0x7AC0);
 		}
-		static ::System::Int32* StaticGet_Field_7_6()
+		static ::System::Int32* StaticGet_Field_7_2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI3DClippable_TypeDefinitionIndex)->GetStaticField(0x30C4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI3DClippable_TypeDefinitionIndex)->GetStaticField(0x7AC4);
 		}
 		::Il2CppArray<::UnityEngine::MeshRenderer*>* _MeshRenderers; // 0xA0
-		::UnityEngine::Camera* Field_7_1; // 0xA8
-		::UnityEngine::UI::RectMask2D* Field_7_2; // 0xB0
-		::UnityEngine::Vector4 Field_7_3; // 0xB8
-		::UnityEngine::Vector4 Field_7_4; // 0xC8
+		::UnityEngine::Camera* Field_7_4; // 0xA8
+		::UnityEngine::UI::RectMask2D* Field_7_5; // 0xB0
+		::UnityEngine::Vector4 Field_7_6; // 0xB8
+		::UnityEngine::Vector4 Field_7_7; // 0xC8
 
 		::System::Void _ctor()
 		{
@@ -91,9 +91,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_UI3DCLIPPABLE_ONPOPULATEMESH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_7_9DE87B16AD0A605E()
+		::System::Void Method_7_B7A43C06FD78D78B()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_UI3DCLIPPABLE_METHOD_7_9DE87B16AD0A605E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_UI3DCLIPPABLE_METHOD_7_B7A43C06FD78D78B_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector4 Method_7_F437BF67AC1F1345(::UnityEngine::Rect a1)

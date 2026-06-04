@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_256D9F63CEA2C6FD;
+class Class_1_843DD6330B22E422;
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-inline static constexpr unsigned int Struct_2_1D60DF88E803C0DE_TypeDefinitionIndex = 50719;
+inline static constexpr unsigned int Struct_2_1D60DF88E803C0DE_TypeDefinitionIndex = 51387;
 
 struct alignas(8) Struct_2_1D60DF88E803C0DE
 {
@@ -15,7 +15,7 @@ struct alignas(8) Struct_2_1D60DF88E803C0DE
 	::RPG::GameCore::TurnBasedAbilityComponent* Field_2_1; // 0x18
 	::RPG::GameCore::FixPoint Field_2_2; // 0x20
 	::RPG::GameCore::AttackDamageType Field_2_3; // 0x28
-	::Class_1_256D9F63CEA2C6FD* Field_2_4; // 0x30
+	::Class_1_843DD6330B22E422* Field_2_4; // 0x30
 	::System::Boolean Field_2_5; // 0x38
 	::System::Boolean Field_2_6; // 0x39
 	::System::Boolean Field_2_7; // 0x3A

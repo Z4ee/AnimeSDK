@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::RTCAdmin { class KickOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x696C0)
-#define EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x69650)
-#define EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x69640)
-#define EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x694D0)
-#define EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x69580)
+#define EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x6F200)
+#define EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x6F180)
+#define EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x6F170)
+#define EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x6F000)
+#define EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x6F0B0)
 
 namespace Epic::OnlineServices::RTCAdmin
 {
-	inline static constexpr unsigned int KickOptionsInternal_TypeDefinitionIndex = 41500;
+	inline static constexpr unsigned int KickOptionsInternal_TypeDefinitionIndex = 42303;
 
 	struct alignas(8) KickOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::RTCAdmin
 		::System::IntPtr m_RoomName; // 0x18
 		::System::IntPtr m_TargetUserId; // 0x20
 
-		::System::Void set_RoomName(::System::String* value)
+		::System::Void set_RoomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_ROOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_ROOMNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::RTCAdmin::KickOptions* other)
+		::System::Void Set(::Epic::OnlineServices::RTCAdmin::KickOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::KickOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAdmin::KickOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCADMIN_KICKOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

@@ -6,12 +6,12 @@
 namespace RPG::Client { class GridFightEquipTrack; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA48BA70)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__ISTRACKSAME_B__0_OFFSET UNITYSDK_OFFSET(0xA4932A0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB2F470)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__ISTRACKSAME_B__0_OFFSET UNITYSDK_OFFSET(0xBB32BB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass25_0_TypeDefinitionIndex = 60152;
+	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass25_0_TypeDefinitionIndex = 61087;
 
 	class GridFightEquipTrackData___c__DisplayClass25_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _IsTrackSame_b__0(::RPG::Client::GridFightEquipTrack* track)
+		::System::Boolean _IsTrackSame_b__0(::RPG::Client::GridFightEquipTrack* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipTrack*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__ISTRACKSAME_B__0_OFFSET))(this, track);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipTrack*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS25_0__ISTRACKSAME_B__0_OFFSET))(this, a1);
 		}
 	};
 }

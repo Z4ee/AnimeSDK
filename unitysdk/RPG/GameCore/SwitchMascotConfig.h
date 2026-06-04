@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SWITCHMASCOTCONFIG_METHOD_2_454F489B5C585E7A_OFFSET UNITYSDK_OFFSET(0x18EBC750)
-#define RPG_GAMECORE_SWITCHMASCOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18EBD150)
+#define RPG_GAMECORE_SWITCHMASCOTCONFIG_METHOD_2_7DF43947B3A6411D_OFFSET UNITYSDK_OFFSET(0x19CDC570)
+#define RPG_GAMECORE_SWITCHMASCOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CDCF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchMascotConfig_TypeDefinitionIndex = 16093;
+	inline static constexpr unsigned int SwitchMascotConfig_TypeDefinitionIndex = 16143;
 
 	class SwitchMascotConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -55,9 +55,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHMASCOTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_454F489B5C585E7A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchMascotConfig*& a2)
+		static ::System::Void Method_2_7DF43947B3A6411D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchMascotConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchMascotConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHMASCOTCONFIG_METHOD_2_454F489B5C585E7A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchMascotConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHMASCOTCONFIG_METHOD_2_7DF43947B3A6411D_OFFSET))(a1, a2);
 		}
 	};
 }

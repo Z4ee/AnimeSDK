@@ -14,33 +14,33 @@ namespace UnityEngine::NVIDIA { class DLSSContext; }
 namespace UnityEngine::NVIDIA { class GraphicsDevice; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_CLEANUP_OFFSET UNITYSDK_OFFSET(0x18135C80)
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_CLEARAUTOMATICSETTINGS_OFFSET UNITYSDK_OFFSET(0x181360B0)
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_CRPCOPYDLSSDATA_OFFSET UNITYSDK_OFFSET(0x181358F0)
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_GET_DLSSCONTEXT_OFFSET UNITYSDK_OFFSET(0x18136030)
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_GET_OPTIMALSETTINGSREQUESTDATA_OFFSET UNITYSDK_OFFSET(0x18136050)
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_GET_USEAUTOMATICSETTINGS_OFFSET UNITYSDK_OFFSET(0x18136040)
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_INIT_OFFSET UNITYSDK_OFFSET(0x181356C0)
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_REQUESTUSEAUTOMATICSETTINGS_OFFSET UNITYSDK_OFFSET(0x18136080)
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_SHOULDUSEAUTOMATICSETTINGS_OFFSET UNITYSDK_OFFSET(0x181360C0)
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_SUBMITDLSSCOMMANDS_OFFSET UNITYSDK_OFFSET(0x18135D50)
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_UPDATEVIEWSTATE_OFFSET UNITYSDK_OFFSET(0x181356D0)
-#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18136070)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_CLEANUP_OFFSET UNITYSDK_OFFSET(0x18EDA930)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_CLEARAUTOMATICSETTINGS_OFFSET UNITYSDK_OFFSET(0x18EDA260)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_CRPCOPYDLSSDATA_OFFSET UNITYSDK_OFFSET(0x18EDA5A0)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_GET_DLSSCONTEXT_OFFSET UNITYSDK_OFFSET(0x18EDAC70)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_GET_OPTIMALSETTINGSREQUESTDATA_OFFSET UNITYSDK_OFFSET(0x18EDAC90)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_GET_USEAUTOMATICSETTINGS_OFFSET UNITYSDK_OFFSET(0x18EDAC80)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_INIT_OFFSET UNITYSDK_OFFSET(0x18EDA300)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_REQUESTUSEAUTOMATICSETTINGS_OFFSET UNITYSDK_OFFSET(0x18ED8D00)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_SHOULDUSEAUTOMATICSETTINGS_OFFSET UNITYSDK_OFFSET(0x18EDACC0)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_SUBMITDLSSCOMMANDS_OFFSET UNITYSDK_OFFSET(0x18EDA990)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_UPDATEVIEWSTATE_OFFSET UNITYSDK_OFFSET(0x18EDA380)
+#define RPG_CUSTOMRP_DLSSPASS_VIEWSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18EDACB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass_ViewState_TypeDefinitionIndex = 34947;
+	inline static constexpr unsigned int DLSSPass_ViewState_TypeDefinitionIndex = 35230;
 
 	class DLSSPass_ViewState : public ::System::Object
 	{
 	public:
-		::UnityEngine::NVIDIA::DLSSContext* m_DlssContext; // 0x10
-		::UnityEngine::NVIDIA::GraphicsDevice* m_Device; // 0x18
-		::RPG::CustomRP::DLSSPass_DlssViewData m_Data; // 0x20
-		::RPG::CustomRP::DLSSPass_Resolution m_BackbufferRes; // 0x44
-		::RPG::CustomRP::DLSSPass_OptimalSettingsRequest m_OptimalSettingsRequest; // 0x4C
-		::System::Boolean m_UseAutomaticSettings; // 0x7C
-		::System::Boolean m_UsingOptimalSettings; // 0x7D
+		::UnityEngine::NVIDIA::GraphicsDevice* m_Device; // 0x10
+		::UnityEngine::NVIDIA::DLSSContext* m_DlssContext; // 0x18
+		::RPG::CustomRP::DLSSPass_OptimalSettingsRequest m_OptimalSettingsRequest; // 0x20
+		::System::Boolean m_UsingOptimalSettings; // 0x50
+		::System::Boolean m_UseAutomaticSettings; // 0x51
+		::RPG::CustomRP::DLSSPass_DlssViewData m_Data; // 0x54
+		::RPG::CustomRP::DLSSPass_Resolution m_BackbufferRes; // 0x78
 
 		::System::Void _ctor()
 		{
@@ -62,14 +62,14 @@ namespace RPG::CustomRP
 			return ((::RPG::CustomRP::DLSSPass_OptimalSettingsRequest(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_GET_OPTIMALSETTINGSREQUESTDATA_OFFSET))(this);
 		}
 
-		::System::Void Init(::UnityEngine::NVIDIA::GraphicsDevice* device)
+		::System::Void Init(::UnityEngine::NVIDIA::GraphicsDevice* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::NVIDIA::GraphicsDevice*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_INIT_OFFSET))(this, device);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::NVIDIA::GraphicsDevice*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestUseAutomaticSettings(::System::Boolean useAutomaticSettings, ::UnityEngine::NVIDIA::DLSSQuality quality, ::UnityEngine::Rect viewport, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData& optimalSettings)
+		::System::Void RequestUseAutomaticSettings(::System::Boolean a1, ::UnityEngine::NVIDIA::DLSSQuality a2, ::UnityEngine::Rect a3, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::NVIDIA::DLSSQuality, ::UnityEngine::Rect, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_REQUESTUSEAUTOMATICSETTINGS_OFFSET))(this, useAutomaticSettings, quality, viewport, optimalSettings);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::NVIDIA::DLSSQuality, ::UnityEngine::Rect, ::UnityEngine::NVIDIA::OptimalDLSSSettingsData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_REQUESTUSEAUTOMATICSETTINGS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void ClearAutomaticSettings()
@@ -82,24 +82,24 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_SHOULDUSEAUTOMATICSETTINGS_OFFSET))(this);
 		}
 
-		::System::Void UpdateViewState(::RPG::CustomRP::DLSSPass_DlssViewData& viewData, ::UnityEngine::Rendering::CommandBuffer* cmdBuffer)
+		::System::Void UpdateViewState(::RPG::CustomRP::DLSSPass_DlssViewData& a1, ::UnityEngine::Rendering::CommandBuffer* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::DLSSPass_DlssViewData&, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_UPDATEVIEWSTATE_OFFSET))(this, viewData, cmdBuffer);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::DLSSPass_DlssViewData&, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_UPDATEVIEWSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SubmitDlssCommands(::UnityEngine::Texture* source, ::UnityEngine::Texture* depth, ::UnityEngine::Texture* motionVectors, ::UnityEngine::Texture* biasColorMask, ::UnityEngine::Texture* output, ::System::Single preExposure, ::UnityEngine::Rendering::CommandBuffer* cmdBuffer)
+		::System::Void SubmitDlssCommands(::UnityEngine::Texture* a1, ::UnityEngine::Texture* a2, ::UnityEngine::Texture* a3, ::UnityEngine::Texture* a4, ::UnityEngine::Texture* a5, ::System::Single a6, ::UnityEngine::Rendering::CommandBuffer* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::System::Single, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_SUBMITDLSSCOMMANDS_OFFSET))(this, source, depth, motionVectors, biasColorMask, output, preExposure, cmdBuffer);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::System::Single, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_SUBMITDLSSCOMMANDS_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void CRPCopyDLSSData(::UnityEngine::Rendering::DLSSData& dlssData)
+		::System::Void CRPCopyDLSSData(::UnityEngine::Rendering::DLSSData& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DLSSData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_CRPCOPYDLSSDATA_OFFSET))(this, dlssData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DLSSData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_CRPCOPYDLSSDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void Cleanup(::UnityEngine::Rendering::CommandBuffer* cmdBuffer)
+		::System::Void Cleanup(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_CLEANUP_OFFSET))(this, cmdBuffer);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_VIEWSTATE_CLEANUP_OFFSET))(this, a1);
 		}
 	};
 }

@@ -1,13 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_97E659ED8D5D259C_2_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1239E0A0)
-#define CLASS_1_97E659ED8D5D259C_2_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1239E0F0)
-#define CLASS_1_97E659ED8D5D259C_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1239E090)
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_97E659ED8D5D259C_2_TypeDefinitionIndex = 52178;
+#define CLASS_1_97E659ED8D5D259C_2_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0xAAB8110)
+#define CLASS_1_97E659ED8D5D259C_2_METHOD_1_D55CBC875E760EA4_OFFSET UNITYSDK_OFFSET(0xAAB8130)
+#define CLASS_1_97E659ED8D5D259C_2_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xAAB8120)
+#define CLASS_1_97E659ED8D5D259C_2__CTOR_OFFSET UNITYSDK_OFFSET(0xAAB8100)
+
+inline static constexpr unsigned int Class_1_97E659ED8D5D259C_2_TypeDefinitionIndex = 51410;
 
 class Class_1_97E659ED8D5D259C_2 : public ::System::Object
 {
@@ -19,13 +21,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_2__CTOR_OFFSET))(this, a1);
 	}
 
-	::RPG::GameCore::EventType GetEventType()
+	::System::UInt32 Method_1_02A3D10A9D535169()
 	{
-		return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_2_GETEVENTTYPE_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_2_METHOD_1_02A3D10A9D535169_OFFSET))(this);
 	}
 
-	::System::UInt32 GetSourceRuntimeID()
+	::System::Boolean Method_1_F0088C88851A7DFB()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_2_GETSOURCERUNTIMEID_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_2_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::String* Method_1_D55CBC875E760EA4()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_2_METHOD_1_D55CBC875E760EA4_OFFSET))(this);
 	}
 };

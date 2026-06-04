@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMIRACLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D29A60)
-#define RPG_GAMECORE_ROGUEMIRACLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D2A1B0)
+#define RPG_GAMECORE_ROGUEMIRACLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B4D3D0)
+#define RPG_GAMECORE_ROGUEMIRACLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B4DB30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleRow_TypeDefinitionIndex = 13928;
+	inline static constexpr unsigned int RogueMiracleRow_TypeDefinitionIndex = 13994;
 
 	class RogueMiracleRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockHandbookMiracleID; // 0x10
+		::System::UInt32 MiracleDisplayID; // 0x10
 		::System::UInt32 MiracleEffectDisplayID; // 0x14
-		::System::UInt32 MiracleDisplayID; // 0x18
+		::System::UInt32 UnlockHandbookMiracleID; // 0x18
 		::System::UInt32 MiracleID; // 0x1C
 
 		::System::Void _ctor()
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueMiracleRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMiracleRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMiracleRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMiracleRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

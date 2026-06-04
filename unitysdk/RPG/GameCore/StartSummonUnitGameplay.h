@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SubLevelGraphDynamicFloatOverride; }
 namespace RPG::GameCore { class SubLevelGraphDynamicStringOverride; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_874DB083122D72F8_OFFSET UNITYSDK_OFFSET(0x18E9C2A0)
-#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_B5C7C73DED37B1CB_OFFSET UNITYSDK_OFFSET(0x18E9C320)
-#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x18E9C2F0)
+#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_0A26D52F4A52EDFD_OFFSET UNITYSDK_OFFSET(0x19CB9400)
+#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_B40DD527B0A543B4_OFFSET UNITYSDK_OFFSET(0x19CB9480)
+#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB9450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartSummonUnitGameplay_TypeDefinitionIndex = 20136;
+	inline static constexpr unsigned int StartSummonUnitGameplay_TypeDefinitionIndex = 19993;
 
 	class StartSummonUnitGameplay : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_874DB083122D72F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartSummonUnitGameplay*& a2)
+		static ::System::Void Method_3_0A26D52F4A52EDFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartSummonUnitGameplay*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartSummonUnitGameplay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_874DB083122D72F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartSummonUnitGameplay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_0A26D52F4A52EDFD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B5C7C73DED37B1CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartSummonUnitGameplay* a2)
+		static ::System::Void Method_3_B40DD527B0A543B4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartSummonUnitGameplay* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartSummonUnitGameplay*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_B5C7C73DED37B1CB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartSummonUnitGameplay*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_B40DD527B0A543B4_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,18 +5,18 @@
 namespace System { class Delegate; }
 namespace System { class Type; }
 
-#define UNITYENGINE_RENDERING_DELEGATEUTILITY_CAST_OFFSET UNITYSDK_OFFSET(0x1A31DC00)
+#define UNITYENGINE_RENDERING_DELEGATEUTILITY_CAST_OFFSET UNITYSDK_OFFSET(0x1B1791C0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DelegateUtility_TypeDefinitionIndex = 33510;
+	inline static constexpr unsigned int DelegateUtility_TypeDefinitionIndex = 33792;
 
 	class DelegateUtility : public ::System::Object
 	{
 	public:
-		static ::System::Delegate* Cast(::System::Delegate* source, ::System::Type* type)
+		static ::System::Delegate* Cast(::System::Delegate* a1, ::System::Type* a2)
 		{
-			return ((::System::Delegate*(*)(::System::Delegate*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DELEGATEUTILITY_CAST_OFFSET))(source, type);
+			return ((::System::Delegate*(*)(::System::Delegate*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DELEGATEUTILITY_CAST_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/PingPongPatrolType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_F279323643B7008A__CTOR_OFFSET UNITYSDK_OFFSET(0x180A8C20)
+#define CLASS_1_F279323643B7008A__CTOR_OFFSET UNITYSDK_OFFSET(0x18D73DF0)
 
-inline static constexpr unsigned int Class_1_F279323643B7008A_TypeDefinitionIndex = 38842;
+inline static constexpr unsigned int Class_1_F279323643B7008A_TypeDefinitionIndex = 39610;
 
 class Class_1_F279323643B7008A : public ::System::Object
 {
 public:
-	::RPG::GameCore::PingPongPatrolType Field_1_1; // 0x10
-	::System::UInt32 Field_1_0; // 0x14
-	::System::Single Field_1_2; // 0x18
-	::System::Int32 Field_1_3; // 0x1C
-	::System::Single Field_1_6; // 0x20
-	::System::Int32 Field_1_4; // 0x24
-	::System::Int32 Field_1_5; // 0x28
+	::System::Single Field_1_0; // 0x10
+	::System::Int32 Field_1_1; // 0x14
+	::RPG::GameCore::PingPongPatrolType Field_1_2; // 0x18
+	::System::UInt32 Field_1_3; // 0x1C
+	::System::Int32 Field_1_4; // 0x20
+	::System::Int32 Field_1_5; // 0x24
+	::System::Single Field_1_6; // 0x28
 
 	::System::Void _ctor()
 	{

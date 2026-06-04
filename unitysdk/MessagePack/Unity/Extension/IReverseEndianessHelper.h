@@ -4,7 +4,7 @@
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int IReverseEndianessHelper_TypeDefinitionIndex = 10019;
+	inline static constexpr unsigned int IReverseEndianessHelper_TypeDefinitionIndex = 9846;
 
 	class IReverseEndianessHelper
 	{

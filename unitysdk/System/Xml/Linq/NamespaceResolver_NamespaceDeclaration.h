@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Xml::Linq { class XNamespace; }
 
-#define SYSTEM_XML_LINQ_NAMESPACERESOLVER_NAMESPACEDECLARATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F90260)
+#define SYSTEM_XML_LINQ_NAMESPACERESOLVER_NAMESPACEDECLARATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE069F0)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int NamespaceResolver_NamespaceDeclaration_TypeDefinitionIndex = 4920;
+	inline static constexpr unsigned int NamespaceResolver_NamespaceDeclaration_TypeDefinitionIndex = 3887;
 
 	class NamespaceResolver_NamespaceDeclaration : public ::System::Object
 	{
 	public:
-		::System::String* prefix; // 0x10
+		::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* prev; // 0x10
 		::System::Xml::Linq::XNamespace* ns; // 0x18
-		::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* prev; // 0x20
+		::System::String* prefix; // 0x20
 		::System::Int32 scope; // 0x28
 
 		::System::Void _ctor()

@@ -7,17 +7,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLESHOWUIPAGETEXTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9E7D580)
+#define RPG_CLIENT_BATTLESHOWUIPAGETEXTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB417AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleShowUIPageTextParam_TypeDefinitionIndex = 66213;
+	inline static constexpr unsigned int BattleShowUIPageTextParam_TypeDefinitionIndex = 67152;
 
 	class BattleShowUIPageTextParam : public ::System::Object
 	{
 	public:
-		::System::String* SDFPath; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* ParamList; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* ParamList; // 0x10
+		::System::String* SDFPath; // 0x18
 		::System::String* TextPath; // 0x20
 		::RPG::Client::TextID TextContent; // 0x28
 

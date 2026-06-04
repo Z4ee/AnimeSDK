@@ -9,12 +9,12 @@ namespace RPG::GameCore { class LevelNavmapArea; }
 namespace RPG::GameCore { class LevelNavmapSubmapConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNAVMAPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A4EDE0)
-#define RPG_GAMECORE_LEVELNAVMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4F2A0)
+#define RPG_GAMECORE_LEVELNAVMAPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1987FA80)
+#define RPG_GAMECORE_LEVELNAVMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1987FF30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavmapConfig_TypeDefinitionIndex = 16345;
+	inline static constexpr unsigned int LevelNavmapConfig_TypeDefinitionIndex = 16377;
 
 	class LevelNavmapConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -39,9 +39,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVMAPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelNavmapConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNavmapConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNavmapConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVMAPCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNavmapConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVMAPCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

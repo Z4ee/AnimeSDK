@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PUMANMOVENOTIFYCONFIG_METHOD_2_2B32ABE60215DFC2_OFFSET UNITYSDK_OFFSET(0x18C7DFF0)
-#define RPG_GAMECORE_PUMANMOVENOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7E170)
+#define RPG_GAMECORE_PUMANMOVENOTIFYCONFIG_METHOD_2_2B32ABE60215DFC2_OFFSET UNITYSDK_OFFSET(0x19AA0910)
+#define RPG_GAMECORE_PUMANMOVENOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA0A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuManMoveNotifyConfig_TypeDefinitionIndex = 16052;
+	inline static constexpr unsigned int PuManMoveNotifyConfig_TypeDefinitionIndex = 16102;
 
 	class PuManMoveNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/PriorityLinkableNodeList_1.h"
+#include "unitysdk/Struct_2_4BFB662CA8913AC0.h"
+
+class Class_0_16E4307DCC419505_427;
+
+#define CLASS_2_E7770305C228D93A_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x13837C50)
+#define CLASS_2_E7770305C228D93A_GET_PREV_OFFSET UNITYSDK_OFFSET(0x13837C30)
+#define CLASS_2_E7770305C228D93A_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x13837C70)
+#define CLASS_2_E7770305C228D93A_METHOD_2_62593EE2FE331D20_OFFSET UNITYSDK_OFFSET(0x13837C90)
+#define CLASS_2_E7770305C228D93A_METHOD_2_E54F64E7B68AFBF4_OFFSET UNITYSDK_OFFSET(0x13837D10)
+#define CLASS_2_E7770305C228D93A_SET_NEXT_OFFSET UNITYSDK_OFFSET(0x13837C60)
+#define CLASS_2_E7770305C228D93A_SET_PREV_OFFSET UNITYSDK_OFFSET(0x13837C40)
+#define CLASS_2_E7770305C228D93A_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x13837C80)
+#define CLASS_2_E7770305C228D93A__CTOR_OFFSET UNITYSDK_OFFSET(0x13837F60)
+
+inline static constexpr unsigned int Class_2_E7770305C228D93A_TypeDefinitionIndex = 50235;
+
+class Class_2_E7770305C228D93A : public ::RPG::PriorityLinkableNodeList_1<::Class_0_16E4307DCC419505_427*>
+{
+public:
+	::Class_0_16E4307DCC419505_427* _Prev_k__BackingField; // 0x28
+	::Class_0_16E4307DCC419505_427* _Next_k__BackingField; // 0x30
+	::System::Int32 _Priority_k__BackingField; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E7770305C228D93A__CTOR_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_427* get_Prev()
+	{
+		return ((::Class_0_16E4307DCC419505_427*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E7770305C228D93A_GET_PREV_OFFSET))(this);
+	}
+
+	::System::Void set_Prev(::Class_0_16E4307DCC419505_427* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_427*))((::PBYTE)hIl2Cpp + CLASS_2_E7770305C228D93A_SET_PREV_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_427* get_Next()
+	{
+		return ((::Class_0_16E4307DCC419505_427*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E7770305C228D93A_GET_NEXT_OFFSET))(this);
+	}
+
+	::System::Void set_Next(::Class_0_16E4307DCC419505_427* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_427*))((::PBYTE)hIl2Cpp + CLASS_2_E7770305C228D93A_SET_NEXT_OFFSET))(this, a1);
+	}
+
+	::System::Int32 get_Priority()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E7770305C228D93A_GET_PRIORITY_OFFSET))(this);
+	}
+
+	::System::Void set_Priority(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_E7770305C228D93A_SET_PRIORITY_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_62593EE2FE331D20()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E7770305C228D93A_METHOD_2_62593EE2FE331D20_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E54F64E7B68AFBF4(::Struct_2_4BFB662CA8913AC0& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_4BFB662CA8913AC0&))((::PBYTE)hIl2Cpp + CLASS_2_E7770305C228D93A_METHOD_2_E54F64E7B68AFBF4_OFFSET))(this, a1);
+	}
+};

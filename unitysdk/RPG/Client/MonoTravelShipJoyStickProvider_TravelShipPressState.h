@@ -6,15 +6,15 @@
 namespace RPG::Client { class MonoJoyStickProvider; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE_ENTER_OFFSET UNITYSDK_OFFSET(0xAA05D50)
-#define RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE_EXIT_OFFSET UNITYSDK_OFFSET(0xAA06230)
-#define RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE_TICK_OFFSET UNITYSDK_OFFSET(0xAA05E30)
-#define RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE__CHECKINBOUNDRYVEC2_OFFSET UNITYSDK_OFFSET(0xAA06050)
-#define RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xAA05BF0)
+#define RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE_ENTER_OFFSET UNITYSDK_OFFSET(0xC153FC0)
+#define RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE_EXIT_OFFSET UNITYSDK_OFFSET(0xC1544A0)
+#define RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE_TICK_OFFSET UNITYSDK_OFFSET(0xC1540A0)
+#define RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE__CHECKINBOUNDRYVEC2_OFFSET UNITYSDK_OFFSET(0xC1542C0)
+#define RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xC153EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTravelShipJoyStickProvider_TravelShipPressState_TypeDefinitionIndex = 56549;
+	inline static constexpr unsigned int MonoTravelShipJoyStickProvider_TravelShipPressState_TypeDefinitionIndex = 57326;
 
 	class MonoTravelShipJoyStickProvider_TravelShipPressState : public ::System::Object
 	{
@@ -27,14 +27,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Enter(::RPG::Client::MonoJoyStickProvider* baseOwner)
+		::System::Void Enter(::RPG::Client::MonoJoyStickProvider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE_ENTER_OFFSET))(this, baseOwner);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE_ENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void Tick(::RPG::Client::MonoJoyStickProvider* baseOwner)
+		::System::Void Tick(::RPG::Client::MonoJoyStickProvider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE_TICK_OFFSET))(this, baseOwner);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoJoyStickProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void Exit()
@@ -42,9 +42,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE_EXIT_OFFSET))(this);
 		}
 
-		::System::Void _CheckInBoundryVec2(::UnityEngine::Vector2& pos, ::UnityEngine::RectTransform* boundary)
+		::System::Void _CheckInBoundryVec2(::UnityEngine::Vector2& a1, ::UnityEngine::RectTransform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2&, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE__CHECKINBOUNDRYVEC2_OFFSET))(this, pos, boundary);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2&, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPJOYSTICKPROVIDER_TRAVELSHIPPRESSSTATE__CHECKINBOUNDRYVEC2_OFFSET))(this, a1, a2);
 		}
 	};
 }

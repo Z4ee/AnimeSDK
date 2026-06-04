@@ -7,12 +7,12 @@ namespace RPG::GameCore { class AvatarColliderCameraConfig; }
 namespace RPG::GameCore { class EntityColliderCameraConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENTITYCOLLIDERCONFIG_METHOD_2_1D2B45508849A69F_OFFSET UNITYSDK_OFFSET(0x188ACDA0)
-#define RPG_GAMECORE_ENTITYCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188ACEF0)
+#define RPG_GAMECORE_ENTITYCOLLIDERCONFIG_METHOD_2_2F340964F90CB45E_OFFSET UNITYSDK_OFFSET(0x196EADE0)
+#define RPG_GAMECORE_ENTITYCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196EAF30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityColliderConfig_TypeDefinitionIndex = 15674;
+	inline static constexpr unsigned int EntityColliderConfig_TypeDefinitionIndex = 15732;
 
 	class EntityColliderConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYCOLLIDERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1D2B45508849A69F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityColliderConfig*& a2)
+		static ::System::Void Method_2_2F340964F90CB45E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityColliderConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityColliderConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYCOLLIDERCONFIG_METHOD_2_1D2B45508849A69F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityColliderConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYCOLLIDERCONFIG_METHOD_2_2F340964F90CB45E_OFFSET))(a1, a2);
 		}
 	};
 }

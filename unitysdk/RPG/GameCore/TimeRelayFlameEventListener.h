@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_17109024249BAAFC_OFFSET UNITYSDK_OFFSET(0x19098C10)
-#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_C96F472F8B1376FE_OFFSET UNITYSDK_OFFSET(0x19098B90)
-#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x19098BE0)
+#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_E05EB60741EA6ED1_OFFSET UNITYSDK_OFFSET(0x19DE3C50)
+#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_FC4A9993FBC32373_OFFSET UNITYSDK_OFFSET(0x19DE3BD0)
+#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE3C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRelayFlameEventListener_TypeDefinitionIndex = 20897;
+	inline static constexpr unsigned int TimeRelayFlameEventListener_TypeDefinitionIndex = 20815;
 
 	class TimeRelayFlameEventListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,14 +37,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C96F472F8B1376FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRelayFlameEventListener*& a2)
+		static ::System::Void Method_3_FC4A9993FBC32373(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRelayFlameEventListener*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRelayFlameEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_C96F472F8B1376FE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRelayFlameEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_FC4A9993FBC32373_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_17109024249BAAFC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRelayFlameEventListener* a2)
+		static ::System::Void Method_3_E05EB60741EA6ED1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRelayFlameEventListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRelayFlameEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_17109024249BAAFC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRelayFlameEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_E05EB60741EA6ED1_OFFSET))(a1, a2);
 		}
 	};
 }

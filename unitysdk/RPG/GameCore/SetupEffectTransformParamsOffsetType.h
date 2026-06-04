@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupEffectTransformParamsOffsetType_TypeDefinitionIndex = 21112;
+	inline static constexpr unsigned int SetupEffectTransformParamsOffsetType_TypeDefinitionIndex = 23261;
 
 	enum class SetupEffectTransformParamsOffsetType : ::System::Int32
 	{

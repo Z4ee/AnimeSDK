@@ -5,7 +5,7 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyCon
 
 namespace RPG::AvatarSystem::Property
 {
-	inline static constexpr unsigned int IPropertyFormula_1_TypeDefinitionIndex = 47999;
+	inline static constexpr unsigned int IPropertyFormula_1_TypeDefinitionIndex = 48617;
 
 	template <typename TValue>
 	class IPropertyFormula_1

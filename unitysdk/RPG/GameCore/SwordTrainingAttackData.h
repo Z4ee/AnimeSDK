@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWORDTRAININGATTACKDATA_METHOD_3_02589044B8050211_OFFSET UNITYSDK_OFFSET(0x18EC0B40)
-#define RPG_GAMECORE_SWORDTRAININGATTACKDATA_METHOD_3_4335EF26734328AD_OFFSET UNITYSDK_OFFSET(0x18EC0AF0)
-#define RPG_GAMECORE_SWORDTRAININGATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC0B30)
+#define RPG_GAMECORE_SWORDTRAININGATTACKDATA_METHOD_3_9CDFBF4E14BA8804_OFFSET UNITYSDK_OFFSET(0x19CE0930)
+#define RPG_GAMECORE_SWORDTRAININGATTACKDATA_METHOD_3_D7EF3B241F774D17_OFFSET UNITYSDK_OFFSET(0x19CE0980)
+#define RPG_GAMECORE_SWORDTRAININGATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19CE0970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingAttackData_TypeDefinitionIndex = 21480;
+	inline static constexpr unsigned int SwordTrainingAttackData_TypeDefinitionIndex = 21361;
 
 	class SwordTrainingAttackData : public ::RPG::GameCore::AttackData
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGATTACKDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4335EF26734328AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwordTrainingAttackData*& a2)
+		static ::System::Void Method_3_9CDFBF4E14BA8804(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwordTrainingAttackData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwordTrainingAttackData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGATTACKDATA_METHOD_3_4335EF26734328AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwordTrainingAttackData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGATTACKDATA_METHOD_3_9CDFBF4E14BA8804_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_02589044B8050211(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwordTrainingAttackData* a2)
+		static ::System::Void Method_3_D7EF3B241F774D17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwordTrainingAttackData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwordTrainingAttackData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGATTACKDATA_METHOD_3_02589044B8050211_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwordTrainingAttackData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGATTACKDATA_METHOD_3_D7EF3B241F774D17_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,20 +4,20 @@
 
 namespace Proto { class UpdateFeatureSwitchScNotify; }
 
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19363410)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19363440)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x19363450)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1323C0)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1323F0)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1A132400)
 
 namespace Proto
 {
-	inline static constexpr unsigned int UpdateFeatureSwitchScNotify___c_TypeDefinitionIndex = 30077;
+	inline static constexpr unsigned int UpdateFeatureSwitchScNotify___c_TypeDefinitionIndex = 30184;
 
 	class UpdateFeatureSwitchScNotify___c : public ::System::Object
 	{
 	public:
 		static ::Proto::UpdateFeatureSwitchScNotify___c** StaticGet___9()
 		{
-			return (::Proto::UpdateFeatureSwitchScNotify___c**)Il2CppClass::FromTypeDefinitionIndex(UpdateFeatureSwitchScNotify___c_TypeDefinitionIndex)->GetStaticField(0x662B0);
+			return (::Proto::UpdateFeatureSwitchScNotify___c**)Il2CppClass::FromTypeDefinitionIndex(UpdateFeatureSwitchScNotify___c_TypeDefinitionIndex)->GetStaticField(0x46840);
 		}
 
 		static ::System::Void _cctor()

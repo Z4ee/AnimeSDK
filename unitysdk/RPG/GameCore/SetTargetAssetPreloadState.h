@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETTARGETASSETPRELOADSTATE_METHOD_3_28AF525F2DDC4B9A_OFFSET UNITYSDK_OFFSET(0x18E44550)
-#define RPG_GAMECORE_SETTARGETASSETPRELOADSTATE_METHOD_3_F58C7E8B644B2C5F_OFFSET UNITYSDK_OFFSET(0x18E44630)
-#define RPG_GAMECORE_SETTARGETASSETPRELOADSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18E44590)
+#define RPG_GAMECORE_SETTARGETASSETPRELOADSTATE_METHOD_3_59E466552D15230E_OFFSET UNITYSDK_OFFSET(0x19C61250)
+#define RPG_GAMECORE_SETTARGETASSETPRELOADSTATE_METHOD_3_748C7C2133C7497D_OFFSET UNITYSDK_OFFSET(0x19C61330)
+#define RPG_GAMECORE_SETTARGETASSETPRELOADSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C61290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetAssetPreloadState_TypeDefinitionIndex = 21713;
+	inline static constexpr unsigned int SetTargetAssetPreloadState_TypeDefinitionIndex = 21563;
 
 	class SetTargetAssetPreloadState : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,14 +30,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETASSETPRELOADSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_28AF525F2DDC4B9A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetAssetPreloadState*& a2)
+		static ::System::Void Method_3_59E466552D15230E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetAssetPreloadState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetAssetPreloadState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETASSETPRELOADSTATE_METHOD_3_28AF525F2DDC4B9A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetAssetPreloadState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETASSETPRELOADSTATE_METHOD_3_59E466552D15230E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F58C7E8B644B2C5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetAssetPreloadState* a2)
+		static ::System::Void Method_3_748C7C2133C7497D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetAssetPreloadState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetAssetPreloadState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETASSETPRELOADSTATE_METHOD_3_F58C7E8B644B2C5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetAssetPreloadState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETASSETPRELOADSTATE_METHOD_3_748C7C2133C7497D_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define XLUA_LUAENV_CUSTOMLOADER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11235DA0)
-#define XLUA_LUAENV_CUSTOMLOADER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11235DD0)
-#define XLUA_LUAENV_CUSTOMLOADER_INVOKE_OFFSET UNITYSDK_OFFSET(0x11235A60)
-#define XLUA_LUAENV_CUSTOMLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1120D9E0)
+#define XLUA_LUAENV_CUSTOMLOADER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E96EA0)
+#define XLUA_LUAENV_CUSTOMLOADER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E96ED0)
+#define XLUA_LUAENV_CUSTOMLOADER_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E96E90)
+#define XLUA_LUAENV_CUSTOMLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x12E96E20)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaEnv_CustomLoader_TypeDefinitionIndex = 46399;
+	inline static constexpr unsigned int LuaEnv_CustomLoader_TypeDefinitionIndex = 46989;
 
 	class LuaEnv_CustomLoader : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUAENV_CUSTOMLOADER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUAENV_CUSTOMLOADER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::System::Byte>* Invoke(::System::String*& filepath)
+		::Il2CppArray<::System::Byte>* Invoke(::System::String*& a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + XLUA_LUAENV_CUSTOMLOADER_INVOKE_OFFSET))(this, filepath);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + XLUA_LUAENV_CUSTOMLOADER_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String*& filepath, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String*& a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_LUAENV_CUSTOMLOADER_BEGININVOKE_OFFSET))(this, filepath, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_LUAENV_CUSTOMLOADER_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Il2CppArray<::System::Byte>* EndInvoke(::System::String*& filepath, ::System::IAsyncResult* result)
+		::Il2CppArray<::System::Byte>* EndInvoke(::System::String*& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_LUAENV_CUSTOMLOADER_ENDINVOKE_OFFSET))(this, filepath, result);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::String*&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_LUAENV_CUSTOMLOADER_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

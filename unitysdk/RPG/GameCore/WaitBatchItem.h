@@ -9,12 +9,12 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITBATCHITEM_METHOD_2_61FBA0D5F412032C_OFFSET UNITYSDK_OFFSET(0x190F93E0)
-#define RPG_GAMECORE_WAITBATCHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x190F9720)
+#define RPG_GAMECORE_WAITBATCHITEM_METHOD_2_9BD9F367CF37E094_OFFSET UNITYSDK_OFFSET(0x19E51E40)
+#define RPG_GAMECORE_WAITBATCHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19E52180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitBatchItem_TypeDefinitionIndex = 22746;
+	inline static constexpr unsigned int WaitBatchItem_TypeDefinitionIndex = 22455;
 
 	class WaitBatchItem : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATCHITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_61FBA0D5F412032C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitBatchItem*& a2)
+		static ::System::Void Method_2_9BD9F367CF37E094(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitBatchItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitBatchItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATCHITEM_METHOD_2_61FBA0D5F412032C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitBatchItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATCHITEM_METHOD_2_9BD9F367CF37E094_OFFSET))(a1, a2);
 		}
 	};
 }

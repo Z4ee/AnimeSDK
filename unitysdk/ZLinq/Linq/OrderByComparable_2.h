@@ -10,7 +10,7 @@ namespace ZLinq::Linq { template <typename T> class IOrderByComparable_1; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int OrderByComparable_2_TypeDefinitionIndex = 6537;
+	inline static constexpr unsigned int OrderByComparable_2_TypeDefinitionIndex = 6366;
 
 	template <typename TSource, typename TKey>
 	class OrderByComparable_2 : public ::System::Object

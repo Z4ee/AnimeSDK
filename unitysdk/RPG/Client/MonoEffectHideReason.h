@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectHideReason_TypeDefinitionIndex = 64441;
+	inline static constexpr unsigned int MonoEffectHideReason_TypeDefinitionIndex = 65362;
 
 	enum class MonoEffectHideReason : ::System::Int32
 	{

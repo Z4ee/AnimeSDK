@@ -4,12 +4,12 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9ED8440)
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS53_0__GETCAKECAUGHTCOUNTINROOM_B__0_OFFSET UNITYSDK_OFFSET(0x9ED9F80)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB474630)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS53_0__GETCAKECAUGHTCOUNTINROOM_B__0_OFFSET UNITYSDK_OFFSET(0xB476320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass53_0_TypeDefinitionIndex = 58001;
+	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass53_0_TypeDefinitionIndex = 58917;
 
 	class CakeCatchModule___c__DisplayClass53_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS53_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetCakeCaughtCountInRoom_b__0(::System::UInt32 x)
+		::System::Boolean _GetCakeCaughtCountInRoom_b__0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS53_0__GETCAKECAUGHTCOUNTINROOM_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS53_0__GETCAKECAUGHTCOUNTINROOM_B__0_OFFSET))(this, a1);
 		}
 	};
 }

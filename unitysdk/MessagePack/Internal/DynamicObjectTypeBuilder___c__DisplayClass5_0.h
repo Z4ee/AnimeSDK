@@ -5,12 +5,12 @@
 namespace MessagePack::Internal { class ObjectSerializationInfo_EmittableMember; }
 namespace System { class Type; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS5_0__BUILDCUSTOMFORMATTERFIELD_B__1_OFFSET UNITYSDK_OFFSET(0x17358DC0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173506E0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS5_0__BUILDCUSTOMFORMATTERFIELD_B__1_OFFSET UNITYSDK_OFFSET(0x18166860)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1815E560)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass5_0_TypeDefinitionIndex = 9381;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass5_0_TypeDefinitionIndex = 7284;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MessagePack::Internal
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _BuildCustomFormatterField_b__1(::System::Type* i)
+		::System::Boolean _BuildCustomFormatterField_b__1(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS5_0__BUILDCUSTOMFORMATTERFIELD_B__1_OFFSET))(this, i);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS5_0__BUILDCUSTOMFORMATTERFIELD_B__1_OFFSET))(this, a1);
 		}
 	};
 }

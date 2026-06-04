@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define SRF_SRFSTRINGEXTENSIONS_FMT_OFFSET UNITYSDK_OFFSET(0x19EA1D10)
+#define SRF_SRFSTRINGEXTENSIONS_FMT_OFFSET UNITYSDK_OFFSET(0x1AD17A50)
 
 namespace SRF
 {
-	inline static constexpr unsigned int SRFStringExtensions_TypeDefinitionIndex = 33282;
+	inline static constexpr unsigned int SRFStringExtensions_TypeDefinitionIndex = 33564;
 
 	class SRFStringExtensions : public ::System::Object
 	{
 	public:
-		static ::System::String* Fmt(::System::String* formatString, ::Il2CppArray<::System::Object*>* args)
+		static ::System::String* Fmt(::System::String* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SRF_SRFSTRINGEXTENSIONS_FMT_OFFSET))(formatString, args);
+			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SRF_SRFSTRINGEXTENSIONS_FMT_OFFSET))(a1, a2);
 		}
 	};
 }

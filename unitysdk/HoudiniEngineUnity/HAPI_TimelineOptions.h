@@ -4,12 +4,12 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_TimelineOptions_TypeDefinitionIndex = 43588;
+	inline static constexpr unsigned int HAPI_TimelineOptions_TypeDefinitionIndex = 37531;
 
-	struct alignas(4) HAPI_TimelineOptions
+	struct alignas(8) HAPI_TimelineOptions
 	{
-		::System::Single fps; // 0x10
-		::System::Single startTime; // 0x14
-		::System::Single endTime; // 0x18
+		::System::Double fps; // 0x10
+		::System::Double startTime; // 0x18
+		::System::Double endTime; // 0x20
 	};
 }

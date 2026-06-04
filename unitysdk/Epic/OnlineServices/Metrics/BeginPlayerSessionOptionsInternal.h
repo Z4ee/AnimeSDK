@@ -9,18 +9,18 @@ namespace Epic::OnlineServices::Metrics { class BeginPlayerSessionOptionsAccount
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x537C0)
-#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x53750)
-#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x534C0)
-#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_CONTROLLERTYPE_OFFSET UNITYSDK_OFFSET(0xBC50)
-#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x53530)
-#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_GAMESESSIONID_OFFSET UNITYSDK_OFFSET(0x53690)
-#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x53740)
-#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_SERVERIP_OFFSET UNITYSDK_OFFSET(0x535E0)
+#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x582D0)
+#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x58250)
+#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x57FC0)
+#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_CONTROLLERTYPE_OFFSET UNITYSDK_OFFSET(0xC4C0)
+#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x58030)
+#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_GAMESESSIONID_OFFSET UNITYSDK_OFFSET(0x58190)
+#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x58240)
+#define EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_SERVERIP_OFFSET UNITYSDK_OFFSET(0x580E0)
 
 namespace Epic::OnlineServices::Metrics
 {
-	inline static constexpr unsigned int BeginPlayerSessionOptionsInternal_TypeDefinitionIndex = 41794;
+	inline static constexpr unsigned int BeginPlayerSessionOptionsInternal_TypeDefinitionIndex = 42597;
 
 	struct alignas(8) BeginPlayerSessionOptionsInternal
 	{
@@ -31,39 +31,39 @@ namespace Epic::OnlineServices::Metrics
 		::System::IntPtr m_ServerIp; // 0x30
 		::System::IntPtr m_GameSessionId; // 0x38
 
-		::System::Void set_AccountId(::Epic::OnlineServices::Metrics::BeginPlayerSessionOptionsAccountId* value)
+		::System::Void set_AccountId(::Epic::OnlineServices::Metrics::BeginPlayerSessionOptionsAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Metrics::BeginPlayerSessionOptionsAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Metrics::BeginPlayerSessionOptionsAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_ACCOUNTID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_DisplayName(::System::String* value)
+		::System::Void set_DisplayName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_DISPLAYNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_DISPLAYNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ControllerType(::Epic::OnlineServices::Metrics::UserControllerType value)
+		::System::Void set_ControllerType(::Epic::OnlineServices::Metrics::UserControllerType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Metrics::UserControllerType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_CONTROLLERTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Metrics::UserControllerType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_CONTROLLERTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void set_ServerIp(::System::String* value)
+		::System::Void set_ServerIp(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_SERVERIP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_SERVERIP_OFFSET))(this, a1);
 		}
 
-		::System::Void set_GameSessionId(::System::String* value)
+		::System::Void set_GameSessionId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_GAMESESSIONID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_GAMESESSIONID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Metrics::BeginPlayerSessionOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Metrics::BeginPlayerSessionOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Metrics::BeginPlayerSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Metrics::BeginPlayerSessionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_METRICS_BEGINPLAYERSESSIONOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

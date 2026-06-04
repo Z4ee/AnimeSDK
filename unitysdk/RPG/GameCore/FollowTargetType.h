@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FollowTargetType_TypeDefinitionIndex = 19055;
+	inline static constexpr unsigned int FollowTargetType_TypeDefinitionIndex = 23133;
 
 	enum class FollowTargetType : ::System::Int32
 	{

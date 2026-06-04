@@ -8,14 +8,14 @@ namespace RPG::GameCore { class AIDecisionUnitConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG_METHOD_4_9BC4B801EB811E9E_OFFSET UNITYSDK_OFFSET(0x185F2610)
-#define RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG_METHOD_4_BD4C279166180CFB_OFFSET UNITYSDK_OFFSET(0x185F0070)
-#define RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG_METHOD_4_C66FCDCC115993CF_OFFSET UNITYSDK_OFFSET(0x185F2650)
-#define RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x185F0060)
+#define RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG_METHOD_4_A1643CBA9CAD5328_OFFSET UNITYSDK_OFFSET(0x193C0DD0)
+#define RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG_METHOD_4_C66FCDCC115993CF_OFFSET UNITYSDK_OFFSET(0x193C33E0)
+#define RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG_METHOD_4_D0F92E420860DE31_OFFSET UNITYSDK_OFFSET(0x193C33A0)
+#define RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x193C0DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIStepperDecisionGroupConfig_TypeDefinitionIndex = 14650;
+	inline static constexpr unsigned int AIStepperDecisionGroupConfig_TypeDefinitionIndex = 14716;
 
 	class AIStepperDecisionGroupConfig : public ::RPG::GameCore::AIDecisionBaseConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9BC4B801EB811E9E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIStepperDecisionGroupConfig*& a2)
+		static ::System::Void Method_4_D0F92E420860DE31(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIStepperDecisionGroupConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIStepperDecisionGroupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG_METHOD_4_9BC4B801EB811E9E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIStepperDecisionGroupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG_METHOD_4_D0F92E420860DE31_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_BD4C279166180CFB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIStepperDecisionGroupConfig* a2)
+		static ::System::Void Method_4_A1643CBA9CAD5328(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIStepperDecisionGroupConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIStepperDecisionGroupConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG_METHOD_4_BD4C279166180CFB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIStepperDecisionGroupConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AISTEPPERDECISIONGROUPCONFIG_METHOD_4_A1643CBA9CAD5328_OFFSET))(a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::GameCore::AIDecisionConfig*>* Method_4_C66FCDCC115993CF()

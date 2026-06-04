@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class TerrainData; }
 
-#define UNITYENGINE_TERRAINCOLLIDER_SET_TERRAINDATA_OFFSET UNITYSDK_OFFSET(0x1A4FA560)
+#define UNITYENGINE_TERRAINCOLLIDER_SET_TERRAINDATA_OFFSET UNITYSDK_OFFSET(0x1B345F30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TerrainCollider_TypeDefinitionIndex = 5536;
+	inline static constexpr unsigned int TerrainCollider_TypeDefinitionIndex = 5813;
 
 	class TerrainCollider : public ::UnityEngine::Collider
 	{
 	public:
-		::System::Void set_terrainData(::UnityEngine::TerrainData* value)
+		::System::Void set_terrainData(::UnityEngine::TerrainData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TerrainData*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINCOLLIDER_SET_TERRAINDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TerrainData*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINCOLLIDER_SET_TERRAINDATA_OFFSET))(this, a1);
 		}
 	};
 }

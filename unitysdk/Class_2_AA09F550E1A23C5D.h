@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_16CA124888A687A8.h"
+
+#define CLASS_2_AA09F550E1A23C5D_GET_BEHIT_OFFSET UNITYSDK_OFFSET(0x10C67E10)
+#define CLASS_2_AA09F550E1A23C5D_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x10C67E40)
+#define CLASS_2_AA09F550E1A23C5D_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x10C67CF0)
+#define CLASS_2_AA09F550E1A23C5D_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x10C67D90)
+#define CLASS_2_AA09F550E1A23C5D_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10C67DD0)
+#define CLASS_2_AA09F550E1A23C5D_SET_BEHIT_OFFSET UNITYSDK_OFFSET(0x10C67E20)
+#define CLASS_2_AA09F550E1A23C5D__CTOR_OFFSET UNITYSDK_OFFSET(0x10C67E30)
+
+inline static constexpr unsigned int Class_2_AA09F550E1A23C5D_TypeDefinitionIndex = 73075;
+
+class Class_2_AA09F550E1A23C5D : public ::Class_1_16CA124888A687A8
+{
+public:
+	::System::Boolean _BeHit_k__BackingField; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA09F550E1A23C5D__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA09F550E1A23C5D_METHOD_2_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA09F550E1A23C5D_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA09F550E1A23C5D_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Boolean get_BeHit()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA09F550E1A23C5D_GET_BEHIT_OFFSET))(this);
+	}
+
+	::System::Void set_BeHit(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_AA09F550E1A23C5D_SET_BEHIT_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA09F550E1A23C5D_METHOD_2_5790A55946AA509D_OFFSET))(this);
+	}
+};

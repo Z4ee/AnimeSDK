@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int SIMTakeOutWindowState_TypeDefinitionIndex = 39455;
+	inline static constexpr unsigned int SIMTakeOutWindowState_TypeDefinitionIndex = 40226;
 
 	enum class SIMTakeOutWindowState : ::System::Int32
 	{

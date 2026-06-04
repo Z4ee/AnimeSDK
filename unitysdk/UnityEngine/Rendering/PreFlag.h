@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PreFlag_TypeDefinitionIndex = 34905;
+	inline static constexpr unsigned int PreFlag_TypeDefinitionIndex = 35188;
 
 	enum class PreFlag : ::System::Int32
 	{
@@ -32,7 +32,7 @@ namespace UnityEngine::Rendering
 		kDisableMainCamera = 4194304,
 		kEnableVoxelIrradianceCache = 8388608,
 		kEnableAdaptiveTessellation = 16777216,
-		kEnableParticleGPUInstance = 33554432,
+		kReflectionCameraCmdBufferOnly_NotUse = 33554432,
 		kTAAValid_Placeholder = 67108864,
 		kDisableShadow = 134217728,
 		kEnableMultiDraw = 268435456,

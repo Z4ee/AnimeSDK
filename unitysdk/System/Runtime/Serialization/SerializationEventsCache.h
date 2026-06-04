@@ -6,19 +6,19 @@ namespace System { class Type; }
 namespace System::Collections { class Hashtable; }
 namespace System::Runtime::Serialization { class SerializationEvents; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE_GETSERIALIZATIONEVENTSFORTYPE_OFFSET UNITYSDK_OFFSET(0x17A1D980)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A20020)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE_GETSERIALIZATIONEVENTSFORTYPE_OFFSET UNITYSDK_OFFSET(0x187CBF20)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x187CE510)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SerializationEventsCache_TypeDefinitionIndex = 1119;
+	inline static constexpr unsigned int SerializationEventsCache_TypeDefinitionIndex = 1118;
 
 	class SerializationEventsCache : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Hashtable** StaticGet_cache()
 		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(SerializationEventsCache_TypeDefinitionIndex)->GetStaticField(0x8A10);
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(SerializationEventsCache_TypeDefinitionIndex)->GetStaticField(0xD490);
 		}
 
 		static ::System::Void _cctor()
@@ -26,9 +26,9 @@ namespace System::Runtime::Serialization
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE__CCTOR_OFFSET))();
 		}
 
-		static ::System::Runtime::Serialization::SerializationEvents* GetSerializationEventsForType(::System::Type* t)
+		static ::System::Runtime::Serialization::SerializationEvents* GetSerializationEventsForType(::System::Type* a1)
 		{
-			return ((::System::Runtime::Serialization::SerializationEvents*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE_GETSERIALIZATIONEVENTSFORTYPE_OFFSET))(t);
+			return ((::System::Runtime::Serialization::SerializationEvents*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE_GETSERIALIZATIONEVENTSFORTYPE_OFFSET))(a1);
 		}
 	};
 }

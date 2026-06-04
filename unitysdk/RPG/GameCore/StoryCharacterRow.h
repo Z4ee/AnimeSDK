@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EA5550)
-#define RPG_GAMECORE_STORYCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA5B60)
+#define RPG_GAMECORE_STORYCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CC1F80)
+#define RPG_GAMECORE_STORYCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC2950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryCharacterRow_TypeDefinitionIndex = 14388;
+	inline static constexpr unsigned int StoryCharacterRow_TypeDefinitionIndex = 14430;
 
 	class StoryCharacterRow : public ::System::Object
 	{
 	public:
-		::System::String* JsonPath; // 0x10
-		::System::String* StoryCharacterID; // 0x18
+		::System::String* StoryCharacterID; // 0x10
+		::System::String* JsonPath; // 0x18
 		::System::String* ConfigEntityPath; // 0x20
 		::RPG::GameCore::NPCSubType SubType; // 0x28
 
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYCHARACTERROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::StoryCharacterRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StoryCharacterRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StoryCharacterRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYCHARACTERROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StoryCharacterRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYCHARACTERROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

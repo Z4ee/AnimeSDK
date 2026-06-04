@@ -9,14 +9,14 @@ namespace RPG::Client { class EnvironmentSystem; }
 namespace RPG::CustomRP { class RPGColorGrading; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINEBEHAVIOUR_METHOD_4_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xB8FCE90)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB8FC530)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8FCF30)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB8FD080)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINEBEHAVIOUR_METHOD_4_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD03E5F0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD03DC90)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD03E690)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD03E7E0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ColorGradingTimelineBehaviour_TypeDefinitionIndex = 45270;
+	inline static constexpr unsigned int ColorGradingTimelineBehaviour_TypeDefinitionIndex = 45827;
 
 	class ColorGradingTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGColorGrading*>
 	{
@@ -39,9 +39,9 @@ namespace RPGTools::Timeline::PostProcessing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINEBEHAVIOUR_METHOD_4_9681042564541CD6_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

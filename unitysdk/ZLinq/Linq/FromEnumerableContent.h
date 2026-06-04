@@ -4,22 +4,22 @@
 
 namespace System { class Object; }
 
-#define ZLINQ_LINQ_FROMENUMERABLECONTENT_THROWIFNOENUMERABLE_OFFSET UNITYSDK_OFFSET(0x2303850)
-#define ZLINQ_LINQ_FROMENUMERABLECONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x2303840)
-#define ZLINQ_LINQ_FROMENUMERABLECONTENT__THROWIFNOENUMERABLE_G__THROW_3_0_OFFSET UNITYSDK_OFFSET(0x1A72B9F0)
+#define ZLINQ_LINQ_FROMENUMERABLECONTENT_THROWIFNOENUMERABLE_OFFSET UNITYSDK_OFFSET(0x38A6900)
+#define ZLINQ_LINQ_FROMENUMERABLECONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x38A68F0)
+#define ZLINQ_LINQ_FROMENUMERABLECONTENT__THROWIFNOENUMERABLE_G__THROW_3_0_OFFSET UNITYSDK_OFFSET(0x1B52CDD0)
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int FromEnumerableContent_TypeDefinitionIndex = 6509;
+	inline static constexpr unsigned int FromEnumerableContent_TypeDefinitionIndex = 6338;
 
 	struct alignas(8) FromEnumerableContent
 	{
 		::System::Object* Source; // 0x10
 		::System::Int32 Index; // 0x18
 
-		::System::Void _ctor(::System::Object* source)
+		::System::Void _ctor(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMENUMERABLECONTENT__CTOR_OFFSET))(this, source);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ZLINQ_LINQ_FROMENUMERABLECONTENT__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void ThrowIfNoEnumerable()

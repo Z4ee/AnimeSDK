@@ -8,15 +8,15 @@ namespace RPG::GameCore { class RtLevelGroupInstanceInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_LEVELGROUPMATERIALREPLACER_METHOD_6_8A00650C96DAEFA1_OFFSET UNITYSDK_OFFSET(0xA6666A0)
-#define RPG_CLIENT_LEVELGROUPMATERIALREPLACER_METHOD_6_C596D6C9B0B7B38D_OFFSET UNITYSDK_OFFSET(0xA666B70)
-#define RPG_CLIENT_LEVELGROUPMATERIALREPLACER__CTOR_OFFSET UNITYSDK_OFFSET(0xA667090)
-#define RPG_CLIENT_LEVELGROUPMATERIALREPLACER___GETNPCINFO_B__1_0_OFFSET UNITYSDK_OFFSET(0xA6670A0)
-#define RPG_CLIENT_LEVELGROUPMATERIALREPLACER___GETNPCINFO_B__1_1_OFFSET UNITYSDK_OFFSET(0xA6670C0)
+#define RPG_CLIENT_LEVELGROUPMATERIALREPLACER_METHOD_6_7D6457F0CB830B67_OFFSET UNITYSDK_OFFSET(0xBD6E220)
+#define RPG_CLIENT_LEVELGROUPMATERIALREPLACER_METHOD_6_8A00650C96DAEFA1_OFFSET UNITYSDK_OFFSET(0xBD6DDD0)
+#define RPG_CLIENT_LEVELGROUPMATERIALREPLACER__CTOR_OFFSET UNITYSDK_OFFSET(0xBD6E720)
+#define RPG_CLIENT_LEVELGROUPMATERIALREPLACER___GETNPCINFO_B__1_0_OFFSET UNITYSDK_OFFSET(0xBD6E730)
+#define RPG_CLIENT_LEVELGROUPMATERIALREPLACER___GETNPCINFO_B__1_1_OFFSET UNITYSDK_OFFSET(0xBD6E750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LevelGroupMaterialReplacer_TypeDefinitionIndex = 63641;
+	inline static constexpr unsigned int LevelGroupMaterialReplacer_TypeDefinitionIndex = 64562;
 
 	class LevelGroupMaterialReplacer : public ::RPG::Client::MaterialReplacerBase
 	{
@@ -36,19 +36,19 @@ namespace RPG::Client
 			return ((::System::ValueTuple_2<::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELGROUPMATERIALREPLACER_METHOD_6_8A00650C96DAEFA1_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelNPCInfo* Method_6_C596D6C9B0B7B38D()
+		::RPG::GameCore::LevelNPCInfo* Method_6_7D6457F0CB830B67()
 		{
-			return ((::RPG::GameCore::LevelNPCInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELGROUPMATERIALREPLACER_METHOD_6_C596D6C9B0B7B38D_OFFSET))(this);
+			return ((::RPG::GameCore::LevelNPCInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELGROUPMATERIALREPLACER_METHOD_6_7D6457F0CB830B67_OFFSET))(this);
 		}
 
-		::System::Boolean __GetNpcInfo_b__1_0(::RPG::GameCore::RtLevelGroupInstanceInfo* instance)
+		::System::Boolean __GetNpcInfo_b__1_0(::RPG::GameCore::RtLevelGroupInstanceInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RtLevelGroupInstanceInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELGROUPMATERIALREPLACER___GETNPCINFO_B__1_0_OFFSET))(this, instance);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RtLevelGroupInstanceInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELGROUPMATERIALREPLACER___GETNPCINFO_B__1_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __GetNpcInfo_b__1_1(::RPG::GameCore::LevelNPCInfo* npc)
+		::System::Boolean __GetNpcInfo_b__1_1(::RPG::GameCore::LevelNPCInfo* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelNPCInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELGROUPMATERIALREPLACER___GETNPCINFO_B__1_1_OFFSET))(this, npc);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelNPCInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELGROUPMATERIALREPLACER___GETNPCINFO_B__1_1_OFFSET))(this, a1);
 		}
 	};
 }

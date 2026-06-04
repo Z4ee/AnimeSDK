@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client::Challenge { class ChallengeAvatarLineupSlotControl; }
+namespace UnityEngine::Events { class UnityAction; }
+
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB4C12E0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___C__DISPLAYCLASS9_0___REFRESH_B__3_OFFSET UNITYSDK_OFFSET(0xB4C1310)
+
+namespace RPG::Client::Challenge
+{
+	inline static constexpr unsigned int ChallengeAvatarLineupSlotsControl___c__DisplayClass9_0_TypeDefinitionIndex = 74072;
+
+	class ChallengeAvatarLineupSlotsControl___c__DisplayClass9_0 : public ::System::Object
+	{
+	public:
+		::RPG::Client::Challenge::ChallengeAvatarLineupSlotControl* control; // 0x10
+		::UnityEngine::Events::UnityAction* clickHandler; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void __Refresh_b__3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___C__DISPLAYCLASS9_0___REFRESH_B__3_OFFSET))(this);
+		}
+	};
+}

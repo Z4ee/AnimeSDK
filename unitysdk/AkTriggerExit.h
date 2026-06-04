@@ -5,10 +5,10 @@
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define AKTRIGGEREXIT_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1A66CA80)
-#define AKTRIGGEREXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A66CB40)
+#define AKTRIGGEREXIT_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1B4B79C0)
+#define AKTRIGGEREXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B7A90)
 
-inline static constexpr unsigned int AkTriggerExit_TypeDefinitionIndex = 40521;
+inline static constexpr unsigned int AkTriggerExit_TypeDefinitionIndex = 41348;
 
 class AkTriggerExit : public ::AkTriggerBase
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTRIGGEREXIT__CTOR_OFFSET))(this);
 	}
 
-	::System::Void OnTriggerExit(::UnityEngine::Collider* in_other)
+	::System::Void OnTriggerExit(::UnityEngine::Collider* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + AKTRIGGEREXIT_ONTRIGGEREXIT_OFFSET))(this, in_other);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + AKTRIGGEREXIT_ONTRIGGEREXIT_OFFSET))(this, a1);
 	}
 };

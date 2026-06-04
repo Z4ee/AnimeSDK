@@ -8,17 +8,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_ADD_OFFSET UNITYSDK_OFFSET(0x19E7F240)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_CREATEDEFAULTSET_OFFSET UNITYSDK_OFFSET(0x19E81BB0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_CREATEREPORT_OFFSET UNITYSDK_OFFSET(0x19E855B0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_GETCATEGORIES_OFFSET UNITYSDK_OFFSET(0x19E85320)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_GETCLOUDMANIFESTPRETTYNAME_OFFSET UNITYSDK_OFFSET(0x19E85D80)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_GETINFO_OFFSET UNITYSDK_OFFSET(0x19E85370)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E81B30)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_ADD_OFFSET UNITYSDK_OFFSET(0x1ACF5950)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_CREATEDEFAULTSET_OFFSET UNITYSDK_OFFSET(0x1ACF8240)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_CREATEREPORT_OFFSET UNITYSDK_OFFSET(0x1ACFBC00)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_GETCATEGORIES_OFFSET UNITYSDK_OFFSET(0x1ACFB950)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_GETCLOUDMANIFESTPRETTYNAME_OFFSET UNITYSDK_OFFSET(0x1ACFC320)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_GETINFO_OFFSET UNITYSDK_OFFSET(0x1ACFBA20)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF81C0)
 
 namespace SRDebugger::Services::Implementation
 {
-	inline static constexpr unsigned int StandardSystemInformationService_TypeDefinitionIndex = 35455;
+	inline static constexpr unsigned int StandardSystemInformationService_TypeDefinitionIndex = 35755;
 
 	class StandardSystemInformationService : public ::System::Object
 	{
@@ -35,19 +35,19 @@ namespace SRDebugger::Services::Implementation
 			return ((::System::Collections::Generic::IEnumerable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_GETCATEGORIES_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IList_1<::SRDebugger::InfoEntry*>* GetInfo(::System::String* category)
+		::System::Collections::Generic::IList_1<::SRDebugger::InfoEntry*>* GetInfo(::System::String* a1)
 		{
-			return ((::System::Collections::Generic::IList_1<::SRDebugger::InfoEntry*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_GETINFO_OFFSET))(this, category);
+			return ((::System::Collections::Generic::IList_1<::SRDebugger::InfoEntry*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_GETINFO_OFFSET))(this, a1);
 		}
 
-		::System::Void Add(::SRDebugger::InfoEntry* info, ::System::String* category)
+		::System::Void Add(::SRDebugger::InfoEntry* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::InfoEntry*, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_ADD_OFFSET))(this, info, category);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::InfoEntry*, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_ADD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>* CreateReport(::System::Boolean includePrivate)
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>* CreateReport(::System::Boolean a1)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_CREATEREPORT_OFFSET))(this, includePrivate);
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_CREATEREPORT_OFFSET))(this, a1);
 		}
 
 		::System::Void CreateDefaultSet()
@@ -55,9 +55,9 @@ namespace SRDebugger::Services::Implementation
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_CREATEDEFAULTSET_OFFSET))(this);
 		}
 
-		static ::System::String* GetCloudManifestPrettyName(::System::String* name)
+		static ::System::String* GetCloudManifestPrettyName(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_GETCLOUDMANIFESTPRETTYNAME_OFFSET))(name);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE_GETCLOUDMANIFESTPRETTYNAME_OFFSET))(a1);
 		}
 	};
 }

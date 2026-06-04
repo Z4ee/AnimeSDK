@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BackGroundMusicGroupType_TypeDefinitionIndex = 12112;
+	inline static constexpr unsigned int BackGroundMusicGroupType_TypeDefinitionIndex = 12201;
 
 	enum class BackGroundMusicGroupType : ::System::Int32
 	{

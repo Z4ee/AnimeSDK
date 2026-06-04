@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_56FF45D7B2C55655;
+class Class_1_D70A30D666F20D90;
 namespace RPG::Client { class Stage; }
 
-#define DEBUGSTREAMINGINFO_INITCMPT_OFFSET UNITYSDK_OFFSET(0xC721890)
-#define DEBUGSTREAMINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC7218F0)
+#define DEBUGSTREAMINGINFO_INITCMPT_OFFSET UNITYSDK_OFFSET(0x10652150)
+#define DEBUGSTREAMINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x106521B0)
 
-inline static constexpr unsigned int DebugStreamingInfo_TypeDefinitionIndex = 44037;
+inline static constexpr unsigned int DebugStreamingInfo_TypeDefinitionIndex = 44583;
 
 class DebugStreamingInfo : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::RPG::Client::Stage* Field_5_0; // 0x18
-	::Class_1_56FF45D7B2C55655* Field_5_1; // 0x20
+	::Class_1_D70A30D666F20D90* Field_5_1; // 0x20
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DEBUGSTREAMINGINFO__CTOR_OFFSET))(this);
 	}
 
-	::System::Void InitCmpt(::RPG::Client::Stage* a1, ::Class_1_56FF45D7B2C55655* a2)
+	::System::Void InitCmpt(::RPG::Client::Stage* a1, ::Class_1_D70A30D666F20D90* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::Stage*, ::Class_1_56FF45D7B2C55655*))((::PBYTE)hIl2Cpp + DEBUGSTREAMINGINFO_INITCMPT_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::Stage*, ::Class_1_D70A30D666F20D90*))((::PBYTE)hIl2Cpp + DEBUGSTREAMINGINFO_INITCMPT_OFFSET))(this, a1, a2);
 	}
 };

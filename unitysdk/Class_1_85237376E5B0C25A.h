@@ -6,14 +6,14 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveBaseTeamInfo; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamAvatarData; }
 namespace System { class String; }
 
-#define CLASS_1_85237376E5B0C25A_METHOD_1_37490A1DBF34A304_OFFSET UNITYSDK_OFFSET(0x128BFF70)
-#define CLASS_1_85237376E5B0C25A_METHOD_1_88F5413BB6942538_OFFSET UNITYSDK_OFFSET(0x128C1CC0)
-#define CLASS_1_85237376E5B0C25A_METHOD_1_A2172401030892FD_OFFSET UNITYSDK_OFFSET(0x128C1E20)
-#define CLASS_1_85237376E5B0C25A_METHOD_1_B3BD374EE2590121_OFFSET UNITYSDK_OFFSET(0x128C6C90)
-#define CLASS_1_85237376E5B0C25A_METHOD_1_BFDE17936CCF5EE6_OFFSET UNITYSDK_OFFSET(0x128CBB80)
-#define CLASS_1_85237376E5B0C25A_METHOD_1_CA587B46D18AE97D_OFFSET UNITYSDK_OFFSET(0x128C6D80)
+#define CLASS_1_85237376E5B0C25A_METHOD_1_37490A1DBF34A304_OFFSET UNITYSDK_OFFSET(0xAF78510)
+#define CLASS_1_85237376E5B0C25A_METHOD_1_489E0B827662C211_OFFSET UNITYSDK_OFFSET(0xAF7A400)
+#define CLASS_1_85237376E5B0C25A_METHOD_1_A087797A896B70F3_OFFSET UNITYSDK_OFFSET(0xAF7A2D0)
+#define CLASS_1_85237376E5B0C25A_METHOD_1_B3BD374EE2590121_OFFSET UNITYSDK_OFFSET(0xAF7EDD0)
+#define CLASS_1_85237376E5B0C25A_METHOD_1_BFDE17936CCF5EE6_OFFSET UNITYSDK_OFFSET(0xAF83840)
+#define CLASS_1_85237376E5B0C25A_METHOD_1_C0C41457AE9A0B89_OFFSET UNITYSDK_OFFSET(0xAF7EEC0)
 
-inline static constexpr unsigned int Class_1_85237376E5B0C25A_TypeDefinitionIndex = 69183;
+inline static constexpr unsigned int Class_1_85237376E5B0C25A_TypeDefinitionIndex = 69995;
 
 class Class_1_85237376E5B0C25A : public ::System::Object
 {
@@ -23,14 +23,14 @@ public:
 		return ((::System::Void(*)(::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData*, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo*))((::PBYTE)hIl2Cpp + CLASS_1_85237376E5B0C25A_METHOD_1_37490A1DBF34A304_OFFSET))(a1, a2);
 	}
 
-	static ::System::Void Method_1_88F5413BB6942538(::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* a1)
+	static ::System::Void Method_1_A087797A896B70F3(::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* a1)
 	{
-		return ((::System::Void(*)(::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo*))((::PBYTE)hIl2Cpp + CLASS_1_85237376E5B0C25A_METHOD_1_88F5413BB6942538_OFFSET))(a1);
+		return ((::System::Void(*)(::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo*))((::PBYTE)hIl2Cpp + CLASS_1_85237376E5B0C25A_METHOD_1_A087797A896B70F3_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_1_A2172401030892FD()
+	static ::System::Void Method_1_489E0B827662C211()
 	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_85237376E5B0C25A_METHOD_1_A2172401030892FD_OFFSET))();
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_85237376E5B0C25A_METHOD_1_489E0B827662C211_OFFSET))();
 	}
 
 	static ::System::Void Method_1_B3BD374EE2590121(::System::String* a1)
@@ -38,9 +38,9 @@ public:
 		return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_85237376E5B0C25A_METHOD_1_B3BD374EE2590121_OFFSET))(a1);
 	}
 
-	static ::System::String* Method_1_CA587B46D18AE97D()
+	static ::System::String* Method_1_C0C41457AE9A0B89()
 	{
-		return ((::System::String*(*)())((::PBYTE)hIl2Cpp + CLASS_1_85237376E5B0C25A_METHOD_1_CA587B46D18AE97D_OFFSET))();
+		return ((::System::String*(*)())((::PBYTE)hIl2Cpp + CLASS_1_85237376E5B0C25A_METHOD_1_C0C41457AE9A0B89_OFFSET))();
 	}
 
 	static ::System::String* Method_1_BFDE17936CCF5EE6(::RPG::Client::ActivityIdleLive::IdleLiveTeamAvatarData* a1, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* a2)

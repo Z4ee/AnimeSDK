@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SILVERWOLFCOLLECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E6BFE0)
-#define RPG_GAMECORE_SILVERWOLFCOLLECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6C170)
+#define RPG_GAMECORE_SILVERWOLFCOLLECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C87CB0)
+#define RPG_GAMECORE_SILVERWOLFCOLLECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C87E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SilverWolfCollectionRow_TypeDefinitionIndex = 11673;
+	inline static constexpr unsigned int SilverWolfCollectionRow_TypeDefinitionIndex = 11772;
 
 	class SilverWolfCollectionRow : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SILVERWOLFCOLLECTIONROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::SilverWolfCollectionRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SilverWolfCollectionRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SilverWolfCollectionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SILVERWOLFCOLLECTIONROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SilverWolfCollectionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SILVERWOLFCOLLECTIONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

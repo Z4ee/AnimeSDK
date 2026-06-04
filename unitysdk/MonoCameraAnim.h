@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOCAMERAANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x9338770)
+#define MONOCAMERAANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xA84DB70)
 
-inline static constexpr unsigned int MonoCameraAnim_TypeDefinitionIndex = 44311;
+inline static constexpr unsigned int MonoCameraAnim_TypeDefinitionIndex = 44857;
 
 class MonoCameraAnim : public ::UnityEngine::MonoBehaviour
 {

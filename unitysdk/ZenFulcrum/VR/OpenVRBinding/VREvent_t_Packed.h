@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/VREvent_Data_t.h"
 
-#define ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x2303780)
-#define ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x2303730)
+#define ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x38A68A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x38A6850)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_t_Packed_TypeDefinitionIndex = 36065;
+	inline static constexpr unsigned int VREvent_t_Packed_TypeDefinitionIndex = 36365;
 
 	struct alignas(4) VREvent_t_Packed
 	{
@@ -18,16 +18,16 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		::ZenFulcrum::VR::OpenVRBinding::VREvent_Data_t data; // 0x1C
 
 		/*
-		::System::Void _ctor(::ZenFulcrum::VR::OpenVRBinding::VREvent_t unpacked)
+		::System::Void _ctor(::ZenFulcrum::VR::OpenVRBinding::VREvent_t a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED__CTOR_OFFSET))(this, unpacked);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED__CTOR_OFFSET))(this, a1);
 		}
 		*/
 
 		/*
-		::System::Void Unpack(::ZenFulcrum::VR::OpenVRBinding::VREvent_t& unpacked)
+		::System::Void Unpack(::ZenFulcrum::VR::OpenVRBinding::VREvent_t& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED_UNPACK_OFFSET))(this, unpacked);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VREvent_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED_UNPACK_OFFSET))(this, a1);
 		}
 		*/
 	};

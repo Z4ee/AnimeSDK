@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/GameCore/NPCStatus.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_1ED17642E72F6338__CTOR_OFFSET UNITYSDK_OFFSET(0x123B3EB0)
+#define CLASS_1_1ED17642E72F6338__CTOR_OFFSET UNITYSDK_OFFSET(0x13C77F70)
 
-inline static constexpr unsigned int Class_1_1ED17642E72F6338_TypeDefinitionIndex = 52845;
+inline static constexpr unsigned int Class_1_1ED17642E72F6338_TypeDefinitionIndex = 53554;
 
 class Class_1_1ED17642E72F6338 : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_2; // 0x10
-	::RPG::GameCore::NPCStatus Field_1_0; // 0x14
-	::RPG::GameCore::NPCStatus Field_1_1; // 0x18
+	::System::UInt32 Field_1_0; // 0x10
+	::RPG::GameCore::NPCStatus Field_1_1; // 0x14
+	::RPG::GameCore::NPCStatus Field_1_2; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::NPCStatus a1, ::RPG::GameCore::NPCStatus a2, ::System::UInt32 a3)
 	{

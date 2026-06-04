@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_DEFAULTMEMBERATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x179997A0)
-#define SYSTEM_REFLECTION_DEFAULTMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17999790)
+#define SYSTEM_REFLECTION_DEFAULTMEMBERATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1874D470)
+#define SYSTEM_REFLECTION_DEFAULTMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1874D460)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int DefaultMemberAttribute_TypeDefinitionIndex = 557;
+	inline static constexpr unsigned int DefaultMemberAttribute_TypeDefinitionIndex = 556;
 
 	class DefaultMemberAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* m_memberName; // 0x10
 
-		::System::Void _ctor(::System::String* memberName)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_DEFAULTMEMBERATTRIBUTE__CTOR_OFFSET))(this, memberName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_DEFAULTMEMBERATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_MemberName()

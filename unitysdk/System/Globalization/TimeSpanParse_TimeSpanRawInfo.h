@@ -8,27 +8,27 @@
 namespace System { class String; }
 namespace System::Globalization { class DateTimeFormatInfo; }
 
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_ADDNUM_OFFSET UNITYSDK_OFFSET(0x22A8D90)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_ADDSEP_OFFSET UNITYSDK_OFFSET(0x22A8D80)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLAPPCOMPATMATCH_OFFSET UNITYSDK_OFFSET(0x22A8B20)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDHMMATCH_OFFSET UNITYSDK_OFFSET(0x22A8C60)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDHMSMATCH_OFFSET UNITYSDK_OFFSET(0x22A8CE0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDMATCH_OFFSET UNITYSDK_OFFSET(0x22A8BE0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMMATCH_OFFSET UNITYSDK_OFFSET(0x22A8C20)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMSFMATCH_OFFSET UNITYSDK_OFFSET(0x22A8D20)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMSMATCH_OFFSET UNITYSDK_OFFSET(0x22A8CA0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLMATCH_OFFSET UNITYSDK_OFFSET(0x22A8BA0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_GET_NEGATIVEINVARIANT_OFFSET UNITYSDK_OFFSET(0x22A89F0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_GET_NEGATIVELOCALIZED_OFFSET UNITYSDK_OFFSET(0x22A8AB0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_GET_POSITIVEINVARIANT_OFFSET UNITYSDK_OFFSET(0x22A89A0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_GET_POSITIVELOCALIZED_OFFSET UNITYSDK_OFFSET(0x22A8A40)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_INIT_OFFSET UNITYSDK_OFFSET(0x22A8D60)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_PARTIALAPPCOMPATMATCH_OFFSET UNITYSDK_OFFSET(0x22A8B60)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_PROCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x22A8D70)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_ADDNUM_OFFSET UNITYSDK_OFFSET(0x3839140)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_ADDSEP_OFFSET UNITYSDK_OFFSET(0x3839130)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLAPPCOMPATMATCH_OFFSET UNITYSDK_OFFSET(0x3838ED0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDHMMATCH_OFFSET UNITYSDK_OFFSET(0x3839010)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDHMSMATCH_OFFSET UNITYSDK_OFFSET(0x3839090)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDMATCH_OFFSET UNITYSDK_OFFSET(0x3838F90)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMMATCH_OFFSET UNITYSDK_OFFSET(0x3838FD0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMSFMATCH_OFFSET UNITYSDK_OFFSET(0x38390D0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMSMATCH_OFFSET UNITYSDK_OFFSET(0x3839050)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLMATCH_OFFSET UNITYSDK_OFFSET(0x3838F50)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_GET_NEGATIVEINVARIANT_OFFSET UNITYSDK_OFFSET(0x3838DA0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_GET_NEGATIVELOCALIZED_OFFSET UNITYSDK_OFFSET(0x3838E60)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_GET_POSITIVEINVARIANT_OFFSET UNITYSDK_OFFSET(0x3838D50)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_GET_POSITIVELOCALIZED_OFFSET UNITYSDK_OFFSET(0x3838DF0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_INIT_OFFSET UNITYSDK_OFFSET(0x3839110)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_PARTIALAPPCOMPATMATCH_OFFSET UNITYSDK_OFFSET(0x3838F10)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_PROCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x3839120)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int TimeSpanParse_TimeSpanRawInfo_TypeDefinitionIndex = 776;
+	inline static constexpr unsigned int TimeSpanParse_TimeSpanRawInfo_TypeDefinitionIndex = 775;
 
 	struct alignas(8) TimeSpanParse_TimeSpanRawInfo
 	{
@@ -65,74 +65,74 @@ namespace System::Globalization
 			return ((::System::Globalization::TimeSpanFormat_FormatLiterals(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_GET_NEGATIVELOCALIZED_OFFSET))(this);
 		}
 
-		::System::Boolean FullAppCompatMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern)
+		::System::Boolean FullAppCompatMatch(::System::Globalization::TimeSpanFormat_FormatLiterals a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLAPPCOMPATMATCH_OFFSET))(this, pattern);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLAPPCOMPATMATCH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean PartialAppCompatMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern)
+		::System::Boolean PartialAppCompatMatch(::System::Globalization::TimeSpanFormat_FormatLiterals a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_PARTIALAPPCOMPATMATCH_OFFSET))(this, pattern);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_PARTIALAPPCOMPATMATCH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean FullMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern)
+		::System::Boolean FullMatch(::System::Globalization::TimeSpanFormat_FormatLiterals a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLMATCH_OFFSET))(this, pattern);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLMATCH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean FullDMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern)
+		::System::Boolean FullDMatch(::System::Globalization::TimeSpanFormat_FormatLiterals a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDMATCH_OFFSET))(this, pattern);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDMATCH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean FullHMMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern)
+		::System::Boolean FullHMMatch(::System::Globalization::TimeSpanFormat_FormatLiterals a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMMATCH_OFFSET))(this, pattern);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMMATCH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean FullDHMMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern)
+		::System::Boolean FullDHMMatch(::System::Globalization::TimeSpanFormat_FormatLiterals a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDHMMATCH_OFFSET))(this, pattern);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDHMMATCH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean FullHMSMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern)
+		::System::Boolean FullHMSMatch(::System::Globalization::TimeSpanFormat_FormatLiterals a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMSMATCH_OFFSET))(this, pattern);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMSMATCH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean FullDHMSMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern)
+		::System::Boolean FullDHMSMatch(::System::Globalization::TimeSpanFormat_FormatLiterals a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDHMSMATCH_OFFSET))(this, pattern);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLDHMSMATCH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean FullHMSFMatch(::System::Globalization::TimeSpanFormat_FormatLiterals pattern)
+		::System::Boolean FullHMSFMatch(::System::Globalization::TimeSpanFormat_FormatLiterals a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMSFMATCH_OFFSET))(this, pattern);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanFormat_FormatLiterals))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_FULLHMSFMATCH_OFFSET))(this, a1);
 		}
 
-		::System::Void Init(::System::Globalization::DateTimeFormatInfo* dtfi)
+		::System::Void Init(::System::Globalization::DateTimeFormatInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_INIT_OFFSET))(this, dtfi);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::DateTimeFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_INIT_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::Boolean ProcessToken(::System::Globalization::TimeSpanParse_TimeSpanToken& tok, ::System::Globalization::TimeSpanParse_TimeSpanResult& result)
+		::System::Boolean ProcessToken(::System::Globalization::TimeSpanParse_TimeSpanToken& a1, ::System::Globalization::TimeSpanParse_TimeSpanResult& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanParse_TimeSpanToken&, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_PROCESSTOKEN_OFFSET))(this, tok, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanParse_TimeSpanToken&, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_PROCESSTOKEN_OFFSET))(this, a1, a2);
 		}
 		*/
 
 		/*
-		::System::Boolean AddSep(::System::String* sep, ::System::Globalization::TimeSpanParse_TimeSpanResult& result)
+		::System::Boolean AddSep(::System::String* a1, ::System::Globalization::TimeSpanParse_TimeSpanResult& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_ADDSEP_OFFSET))(this, sep, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_ADDSEP_OFFSET))(this, a1, a2);
 		}
 		*/
 
 		/*
-		::System::Boolean AddNum(::System::Globalization::TimeSpanParse_TimeSpanToken num, ::System::Globalization::TimeSpanParse_TimeSpanResult& result)
+		::System::Boolean AddNum(::System::Globalization::TimeSpanParse_TimeSpanToken a1, ::System::Globalization::TimeSpanParse_TimeSpanResult& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_ADDNUM_OFFSET))(this, num, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRAWINFO_ADDNUM_OFFSET))(this, a1, a2);
 		}
 		*/
 	};

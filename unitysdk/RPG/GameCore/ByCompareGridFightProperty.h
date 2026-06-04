@@ -7,14 +7,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_3F788ABC1C80F9FF_OFFSET UNITYSDK_OFFSET(0x1872E7E0)
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_D3508E30CFCFD6C2_OFFSET UNITYSDK_OFFSET(0x1872E8B0)
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1872E860)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_2FFEEE113E10183B_OFFSET UNITYSDK_OFFSET(0x19515EA0)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_3F788ABC1C80F9FF_OFFSET UNITYSDK_OFFSET(0x19515AF0)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_C3E4BF4EB62431A0_OFFSET UNITYSDK_OFFSET(0x19515F20)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_D3508E30CFCFD6C2_OFFSET UNITYSDK_OFFSET(0x19515BC0)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19515B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareGridFightProperty_TypeDefinitionIndex = 21416;
+	inline static constexpr unsigned int ByCompareGridFightProperty_TypeDefinitionIndex = 21301;
 
 	class ByCompareGridFightProperty : public ::RPG::GameCore::PredicateConfig
 	{
@@ -38,6 +41,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_D3508E30CFCFD6C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareGridFightProperty* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_D3508E30CFCFD6C2_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_2FFEEE113E10183B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGridFightProperty*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGridFightProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_2FFEEE113E10183B_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_C3E4BF4EB62431A0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGridFightProperty* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_C3E4BF4EB62431A0_OFFSET))(a1, a2);
 		}
 	};
 }

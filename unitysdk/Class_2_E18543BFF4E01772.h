@@ -1,0 +1,302 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_E18543BFF4E01772_EnterFlowFailFallback.h"
+#include "unitysdk/RPG/Client/BaseGameFlow.h"
+#include "unitysdk/RPG/GameCore/GameFlowType.h"
+
+class Class_1_3455AF24EE8529C6;
+class Class_1_43BD383C98B4C0C5_147;
+class Class_1_963E317C37FB5E9A_10;
+class Class_1_97E659ED8D5D259C_6;
+class Class_2_E10154A6F87051D0;
+namespace RPG::Client { class BaseGameFlowContext; }
+namespace RPG::Client { class ChenLingFesModule; }
+namespace RPG::Client { class ChenLingFesStageInstance; }
+namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { class Promise; }
+namespace System { class Exception; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define CLASS_2_E18543BFF4E01772_GET_GAMECONTEXT_OFFSET UNITYSDK_OFFSET(0x139CE940)
+#define CLASS_2_E18543BFF4E01772_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x139CE930)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_1AAE18D3104B6C50_OFFSET UNITYSDK_OFFSET(0x139CE370)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_1C1BDE8ABCA516AF_OFFSET UNITYSDK_OFFSET(0x139CE120)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_2C95AFAD0256302F_OFFSET UNITYSDK_OFFSET(0x139CE300)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_3E586421BA588EFD_OFFSET UNITYSDK_OFFSET(0x139CE520)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x139CE8D0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0x139CD680)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_4E8D02E645DC1BB7_OFFSET UNITYSDK_OFFSET(0x139CCE80)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_56BD7586A0E9BA7C_OFFSET UNITYSDK_OFFSET(0x139CCD40)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_5EBCF276C230582C_OFFSET UNITYSDK_OFFSET(0x139CC110)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_624A21C8AE37557E_OFFSET UNITYSDK_OFFSET(0x139CDFB0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_6A10A8C0CF4C12F8_OFFSET UNITYSDK_OFFSET(0x139CDCE0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_6A7CEF06F8896271_OFFSET UNITYSDK_OFFSET(0x139CC260)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_6D8C6568023BA92A_OFFSET UNITYSDK_OFFSET(0x139CCCE0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_6F03FB9B9F4E8889_OFFSET UNITYSDK_OFFSET(0x139CC2D0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_71BDFB9DD92E722F_OFFSET UNITYSDK_OFFSET(0x139CC3C0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_7BFCAB8A6AC4AEC4_OFFSET UNITYSDK_OFFSET(0x139CB960)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_7D932F1022BCD845_OFFSET UNITYSDK_OFFSET(0x139CDE90)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_809094DEBF13B21A_OFFSET UNITYSDK_OFFSET(0x139CBBA0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_92ED16ECBAFB45C4_OFFSET UNITYSDK_OFFSET(0x139CBEB0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x139CD890)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_9B6BAF49879647BD_OFFSET UNITYSDK_OFFSET(0x139CDA20)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_A2E29675A3D496BD_OFFSET UNITYSDK_OFFSET(0x139CBFF0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_A56EAB6E8DBE44E9_OFFSET UNITYSDK_OFFSET(0x139CD9B0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_B06F516E4459C742_OFFSET UNITYSDK_OFFSET(0x139CE270)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_B235E757922104A8_OFFSET UNITYSDK_OFFSET(0x139CBD40)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_B961D33AD47A2113_OFFSET UNITYSDK_OFFSET(0x139CDDD0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_BB93C69D78C65A48_OFFSET UNITYSDK_OFFSET(0x139CD130)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_BCB5ECC06DF44899_OFFSET UNITYSDK_OFFSET(0x139CD1B0)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_DA3628DA1C2AAF6F_OFFSET UNITYSDK_OFFSET(0x139CC670)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_F1C870D01294DAF7_OFFSET UNITYSDK_OFFSET(0x139CBC40)
+#define CLASS_2_E18543BFF4E01772_METHOD_2_FC6957138AB2A825_OFFSET UNITYSDK_OFFSET(0x139CD950)
+#define CLASS_2_E18543BFF4E01772_ONENTERED_OFFSET UNITYSDK_OFFSET(0x139CC8C0)
+#define CLASS_2_E18543BFF4E01772_ONINITED_OFFSET UNITYSDK_OFFSET(0x139CC760)
+#define CLASS_2_E18543BFF4E01772_SET_GAMECONTEXT_OFFSET UNITYSDK_OFFSET(0x139CE950)
+#define CLASS_2_E18543BFF4E01772__CTOR_OFFSET UNITYSDK_OFFSET(0x139CBB90)
+#define CLASS_2_E18543BFF4E01772__ONCONTEXTDETACHED_OFFSET UNITYSDK_OFFSET(0x139CD4F0)
+#define CLASS_2_E18543BFF4E01772__ONEXITED_OFFSET UNITYSDK_OFFSET(0x139CD550)
+#define CLASS_2_E18543BFF4E01772___IFIXBASEPROXY_ONENTERED_OFFSET UNITYSDK_OFFSET(0x139CE9C0)
+#define CLASS_2_E18543BFF4E01772___IFIXBASEPROXY_ONINITED_OFFSET UNITYSDK_OFFSET(0x139CE960)
+#define CLASS_2_E18543BFF4E01772___IFIXBASEPROXY__ONCONTEXTDETACHED_OFFSET UNITYSDK_OFFSET(0x139CEA50)
+#define CLASS_2_E18543BFF4E01772___IFIXBASEPROXY__ONEXITED_OFFSET UNITYSDK_OFFSET(0x139CEAB0)
+
+inline static constexpr unsigned int Class_2_E18543BFF4E01772_TypeDefinitionIndex = 72238;
+
+class Class_2_E18543BFF4E01772 : public ::RPG::Client::BaseGameFlow
+{
+public:
+	// static const ::System::String* Field_2_0; // 0x0
+	// static const ::System::String* Field_2_1; // 0x0
+	// static const ::System::UInt32 Field_2_2 = 0x9E54; // 0x0
+	::RPG::Client::Promises::Promise* Field_2_3; // 0x40
+	::Class_2_E10154A6F87051D0* _GameContext_k__BackingField; // 0x48
+	::System::String* Field_2_5; // 0x50
+	::RPG::Client::Promises::Promise* Field_2_6; // 0x58
+	::System::String* Field_2_7; // 0x60
+	::RPG::Client::Promises::Promise* Field_2_8; // 0x68
+	::System::Boolean Field_2_9; // 0x70
+	::System::Boolean Field_2_10; // 0x71
+	::System::Boolean Field_2_11; // 0x72
+	::System::Boolean Field_2_12; // 0x73
+	::System::Boolean Field_2_13; // 0x74
+	::System::UInt32 Field_2_14; // 0x78
+	::System::UInt32 Field_2_15; // 0x7C
+
+	::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772__CTOR_OFFSET))(this, a1);
+	}
+
+	static ::Class_2_E18543BFF4E01772* Method_2_7BFCAB8A6AC4AEC4(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a1)
+	{
+		return ((::Class_2_E18543BFF4E01772*(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_7BFCAB8A6AC4AEC4_OFFSET))(a1);
+	}
+
+	::System::Void Method_2_809094DEBF13B21A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_809094DEBF13B21A_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F1C870D01294DAF7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_F1C870D01294DAF7_OFFSET))(this);
+	}
+
+	::System::Void Method_2_92ED16ECBAFB45C4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_92ED16ECBAFB45C4_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5EBCF276C230582C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_5EBCF276C230582C_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B235E757922104A8()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_B235E757922104A8_OFFSET))(this);
+	}
+
+	::System::Void Method_2_6A7CEF06F8896271(::System::String* a1, ::System::String* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_6A7CEF06F8896271_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_6F03FB9B9F4E8889(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_6F03FB9B9F4E8889_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_71BDFB9DD92E722F(::Class_1_3455AF24EE8529C6* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_3455AF24EE8529C6*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_71BDFB9DD92E722F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_DA3628DA1C2AAF6F(::Class_1_963E317C37FB5E9A_10* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_963E317C37FB5E9A_10*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_DA3628DA1C2AAF6F_OFFSET))(this, a1);
+	}
+
+	::System::Void OnInited()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_ONINITED_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* OnEntered()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_ONENTERED_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_2_BB93C69D78C65A48()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_BB93C69D78C65A48_OFFSET))(this);
+	}
+
+	::System::Void _OnContextDetached(::RPG::Client::BaseGameFlowContext* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseGameFlowContext*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772__ONCONTEXTDETACHED_OFFSET))(this, a1);
+	}
+
+	::System::Void _OnExited()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772__ONEXITED_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_2_4E8D02E645DC1BB7()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_4E8D02E645DC1BB7_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_2_56BD7586A0E9BA7C()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_56BD7586A0E9BA7C_OFFSET))(this);
+	}
+
+	::System::Void Method_2_A56EAB6E8DBE44E9(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_A56EAB6E8DBE44E9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_9681042564541CD6_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_2_6A10A8C0CF4C12F8()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_6A10A8C0CF4C12F8_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_2_BCB5ECC06DF44899()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_BCB5ECC06DF44899_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B961D33AD47A2113()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_B961D33AD47A2113_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7D932F1022BCD845(::Class_1_43BD383C98B4C0C5_147* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_147*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_7D932F1022BCD845_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_497833CF065C1894()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_497833CF065C1894_OFFSET))(this);
+	}
+
+	::System::Void Method_2_624A21C8AE37557E(::System::Exception* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_624A21C8AE37557E_OFFSET))(this, a1);
+	}
+
+	::Class_2_E18543BFF4E01772_EnterFlowFailFallback Method_2_1C1BDE8ABCA516AF()
+	{
+		return ((::Class_2_E18543BFF4E01772_EnterFlowFailFallback(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_1C1BDE8ABCA516AF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B06F516E4459C742()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_B06F516E4459C742_OFFSET))(this);
+	}
+
+	::System::Void Method_2_2C95AFAD0256302F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_2C95AFAD0256302F_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1AAE18D3104B6C50(::Class_1_97E659ED8D5D259C_6* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_97E659ED8D5D259C_6*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_1AAE18D3104B6C50_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_2_A2E29675A3D496BD()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_A2E29675A3D496BD_OFFSET))(this);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9B6BAF49879647BD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_9B6BAF49879647BD_OFFSET))(this);
+	}
+
+	::System::Void Method_2_3E586421BA588EFD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_3E586421BA588EFD_OFFSET))(this);
+	}
+
+	::RPG::GameCore::GameFlowType get_Type()
+	{
+		return ((::RPG::GameCore::GameFlowType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_GET_TYPE_OFFSET))(this);
+	}
+
+	::Class_2_E10154A6F87051D0* get_GameContext()
+	{
+		return ((::Class_2_E10154A6F87051D0*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_GET_GAMECONTEXT_OFFSET))(this);
+	}
+
+	::System::Void set_GameContext(::Class_2_E10154A6F87051D0* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_E10154A6F87051D0*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_SET_GAMECONTEXT_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::ChenLingFesModule* Method_2_FC6957138AB2A825()
+	{
+		return ((::RPG::Client::ChenLingFesModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_FC6957138AB2A825_OFFSET))(this);
+	}
+
+	::RPG::Client::ChenLingFesStageInstance* Method_2_6D8C6568023BA92A()
+	{
+		return ((::RPG::Client::ChenLingFesStageInstance*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772_METHOD_2_6D8C6568023BA92A_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_OnInited()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772___IFIXBASEPROXY_ONINITED_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* __iFixBaseProxy_OnEntered()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772___IFIXBASEPROXY_ONENTERED_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__OnContextDetached(::RPG::Client::BaseGameFlowContext* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseGameFlowContext*))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772___IFIXBASEPROXY__ONCONTEXTDETACHED_OFFSET))(this, a1);
+	}
+
+	::System::Void __iFixBaseProxy__OnExited()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E18543BFF4E01772___IFIXBASEPROXY__ONEXITED_OFFSET))(this);
+	}
+};

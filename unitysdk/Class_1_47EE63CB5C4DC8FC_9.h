@@ -4,10 +4,9 @@
 
 class Class_0_16E4307DCC419505_121;
 
-#define CLASS_1_47EE63CB5C4DC8FC_9_CLEAR_OFFSET UNITYSDK_OFFSET(0x17F1C7F0)
-#define CLASS_1_47EE63CB5C4DC8FC_9__CTOR_OFFSET UNITYSDK_OFFSET(0x17F1C870)
+#define CLASS_1_47EE63CB5C4DC8FC_9__CTOR_OFFSET UNITYSDK_OFFSET(0x18E60BA0)
 
-inline static constexpr unsigned int Class_1_47EE63CB5C4DC8FC_9_TypeDefinitionIndex = 39468;
+inline static constexpr unsigned int Class_1_47EE63CB5C4DC8FC_9_TypeDefinitionIndex = 40381;
 
 class Class_1_47EE63CB5C4DC8FC_9 : public ::System::Object
 {
@@ -17,10 +16,5 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_47EE63CB5C4DC8FC_9__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Clear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_47EE63CB5C4DC8FC_9_CLEAR_OFFSET))(this);
 	}
 };

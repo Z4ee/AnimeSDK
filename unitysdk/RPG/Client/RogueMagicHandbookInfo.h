@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_1_355A2207C3B7A99D_101;
-class Class_1_D17272E82AE804C2_817;
+class Class_1_355A2207C3B7A99D_102;
+class Class_1_D17272E82AE804C2_853;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class QuestData; }
 namespace RPG::Client { class RogueMagicHandbookMagicUnitDataItem; }
@@ -13,37 +13,37 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB054B00)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETMAGICUNITDATA_OFFSET UNITYSDK_OFFSET(0xB055A20)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETMAGICUNITQUESTS_OFFSET UNITYSDK_OFFSET(0xB04BD00)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETSCEPTERDATA_OFFSET UNITYSDK_OFFSET(0xB0554C0)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETSCEPTERQUESTS_OFFSET UNITYSDK_OFFSET(0xB04BCB0)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_ALLITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xB056170)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_ALLMAGICUNITCOUNT_OFFSET UNITYSDK_OFFSET(0xB0560D0)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_ALLSCEPTERCOUNT_OFFSET UNITYSDK_OFFSET(0xB056060)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_MAGICUNITDATAITEMS_OFFSET UNITYSDK_OFFSET(0xB056020)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_SCEPTERDATAITEMS_OFFSET UNITYSDK_OFFSET(0xB056000)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_UNLOCKEDITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xB056120)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_UNLOCKEDITEMPERCENTFLOORED_OFFSET UNITYSDK_OFFSET(0xB056240)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_UNLOCKEDMAGICUNITCOUNT_OFFSET UNITYSDK_OFFSET(0xB0560B0)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_UNLOCKEDSCEPTERCOUNT_OFFSET UNITYSDK_OFFSET(0xB056040)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_INIT_OFFSET UNITYSDK_OFFSET(0xB054C10)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_ISMAGICUNITLOCKED_OFFSET UNITYSDK_OFFSET(0xB055CD0)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_ISSCEPTERLOCKED_OFFSET UNITYSDK_OFFSET(0xB055C60)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_MAGICUNITDATAITEMS_OFFSET UNITYSDK_OFFSET(0xB056030)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_SCEPTERDATAITEMS_OFFSET UNITYSDK_OFFSET(0xB056010)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_UNLOCKEDMAGICUNITCOUNT_OFFSET UNITYSDK_OFFSET(0xB0560C0)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_UNLOCKEDSCEPTERCOUNT_OFFSET UNITYSDK_OFFSET(0xB056050)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SYNCSCEPTERS_OFFSET UNITYSDK_OFFSET(0xB055190)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SYNCUNITS_OFFSET UNITYSDK_OFFSET(0xB055700)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB054A20)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO__GETQUESTSFROMCONSTARRAY_OFFSET UNITYSDK_OFFSET(0xB055D40)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO__REFRESHSCEPTERUNLOCKEDCOUNT_OFFSET UNITYSDK_OFFSET(0xB0555E0)
-#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO__REFRESHUNITUNLOCKEDCOUNT_OFFSET UNITYSDK_OFFSET(0xB055B40)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC7A2850)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETMAGICUNITDATA_OFFSET UNITYSDK_OFFSET(0xC7A37A0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETMAGICUNITQUESTS_OFFSET UNITYSDK_OFFSET(0xC799AC0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETSCEPTERDATA_OFFSET UNITYSDK_OFFSET(0xC7A3290)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETSCEPTERQUESTS_OFFSET UNITYSDK_OFFSET(0xC799A70)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_ALLITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xC7A3F00)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_ALLMAGICUNITCOUNT_OFFSET UNITYSDK_OFFSET(0xC7A3E60)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_ALLSCEPTERCOUNT_OFFSET UNITYSDK_OFFSET(0xC7A3DF0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_MAGICUNITDATAITEMS_OFFSET UNITYSDK_OFFSET(0xC7A3DB0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_SCEPTERDATAITEMS_OFFSET UNITYSDK_OFFSET(0xC7A3D90)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_UNLOCKEDITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xC7A3EB0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_UNLOCKEDITEMPERCENTFLOORED_OFFSET UNITYSDK_OFFSET(0xC7A3FD0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_UNLOCKEDMAGICUNITCOUNT_OFFSET UNITYSDK_OFFSET(0xC7A3E40)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_UNLOCKEDSCEPTERCOUNT_OFFSET UNITYSDK_OFFSET(0xC7A3DD0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_INIT_OFFSET UNITYSDK_OFFSET(0xC7A2940)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_ISMAGICUNITLOCKED_OFFSET UNITYSDK_OFFSET(0xC7A3A30)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_ISSCEPTERLOCKED_OFFSET UNITYSDK_OFFSET(0xC7A39C0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_MAGICUNITDATAITEMS_OFFSET UNITYSDK_OFFSET(0xC7A3DC0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_SCEPTERDATAITEMS_OFFSET UNITYSDK_OFFSET(0xC7A3DA0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_UNLOCKEDMAGICUNITCOUNT_OFFSET UNITYSDK_OFFSET(0xC7A3E50)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_UNLOCKEDSCEPTERCOUNT_OFFSET UNITYSDK_OFFSET(0xC7A3DE0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SYNCSCEPTERS_OFFSET UNITYSDK_OFFSET(0xC7A2F80)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SYNCUNITS_OFFSET UNITYSDK_OFFSET(0xC7A34B0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC7A2770)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO__GETQUESTSFROMCONSTARRAY_OFFSET UNITYSDK_OFFSET(0xC7A3AA0)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO__REFRESHSCEPTERUNLOCKEDCOUNT_OFFSET UNITYSDK_OFFSET(0xC7A3380)
+#define RPG_CLIENT_ROGUEMAGICHANDBOOKINFO__REFRESHUNITUNLOCKEDCOUNT_OFFSET UNITYSDK_OFFSET(0xC7A3890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicHandbookInfo_TypeDefinitionIndex = 62104;
+	inline static constexpr unsigned int RogueMagicHandbookInfo_TypeDefinitionIndex = 63037;
 
 	class RogueMagicHandbookInfo : public ::System::Object
 	{
@@ -68,34 +68,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_INIT_OFFSET))(this);
 		}
 
-		::System::Void SyncScepters(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_355A2207C3B7A99D_101*>* proto)
+		::System::Void SyncScepters(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_355A2207C3B7A99D_102*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_355A2207C3B7A99D_101*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SYNCSCEPTERS_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_355A2207C3B7A99D_102*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SYNCSCEPTERS_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncUnits(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_817*>* proto)
+		::System::Void SyncUnits(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_853*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_817*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SYNCUNITS_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_853*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SYNCUNITS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RogueMagicHandbookScepterDataItem* GetScepterData(::System::UInt32 scepterID, ::System::UInt32 level)
+		::RPG::Client::RogueMagicHandbookScepterDataItem* GetScepterData(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::RogueMagicHandbookScepterDataItem*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETSCEPTERDATA_OFFSET))(this, scepterID, level);
+			return ((::RPG::Client::RogueMagicHandbookScepterDataItem*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETSCEPTERDATA_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::RogueMagicHandbookMagicUnitDataItem* GetMagicUnitData(::System::UInt32 unitID, ::System::UInt32 level)
+		::RPG::Client::RogueMagicHandbookMagicUnitDataItem* GetMagicUnitData(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::RogueMagicHandbookMagicUnitDataItem*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETMAGICUNITDATA_OFFSET))(this, unitID, level);
+			return ((::RPG::Client::RogueMagicHandbookMagicUnitDataItem*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETMAGICUNITDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsScepterLocked(::System::UInt32 scepterID, ::System::UInt32 level)
+		::System::Boolean IsScepterLocked(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_ISSCEPTERLOCKED_OFFSET))(this, scepterID, level);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_ISSCEPTERLOCKED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsMagicUnitLocked(::System::UInt32 unitID, ::System::UInt32 level)
+		::System::Boolean IsMagicUnitLocked(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_ISMAGICUNITLOCKED_OFFSET))(this, unitID, level);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_ISMAGICUNITLOCKED_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::QuestData*>* GetScepterQuests()
@@ -108,9 +108,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::QuestData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GETMAGICUNITQUESTS_OFFSET))(this);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::QuestData*>* _GetQuestsFromConstArray(::System::String* constKey)
+		static ::System::Collections::Generic::List_1<::RPG::Client::QuestData*>* _GetQuestsFromConstArray(::System::String* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::QuestData*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO__GETQUESTSFROMCONSTARRAY_OFFSET))(constKey);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::QuestData*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO__GETQUESTSFROMCONSTARRAY_OFFSET))(a1);
 		}
 
 		::System::Void _RefreshScepterUnlockedCount()
@@ -128,9 +128,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::RogueMagicHandbookScepterDataItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_SCEPTERDATAITEMS_OFFSET))(this);
 		}
 
-		::System::Void set_ScepterDataItems(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::RogueMagicHandbookScepterDataItem*>* value)
+		::System::Void set_ScepterDataItems(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::RogueMagicHandbookScepterDataItem*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::RogueMagicHandbookScepterDataItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_SCEPTERDATAITEMS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::RogueMagicHandbookScepterDataItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_SCEPTERDATAITEMS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::RogueMagicHandbookMagicUnitDataItem*>* get_MagicUnitDataItems()
@@ -138,9 +138,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::RogueMagicHandbookMagicUnitDataItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_MAGICUNITDATAITEMS_OFFSET))(this);
 		}
 
-		::System::Void set_MagicUnitDataItems(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::RogueMagicHandbookMagicUnitDataItem*>* value)
+		::System::Void set_MagicUnitDataItems(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::RogueMagicHandbookMagicUnitDataItem*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::RogueMagicHandbookMagicUnitDataItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_MAGICUNITDATAITEMS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::RogueMagicHandbookMagicUnitDataItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_MAGICUNITDATAITEMS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UnlockedScepterCount()
@@ -148,9 +148,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_UNLOCKEDSCEPTERCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_UnlockedScepterCount(::System::UInt32 value)
+		::System::Void set_UnlockedScepterCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_UNLOCKEDSCEPTERCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_UNLOCKEDSCEPTERCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_AllScepterCount()
@@ -163,9 +163,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_GET_UNLOCKEDMAGICUNITCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_UnlockedMagicUnitCount(::System::UInt32 value)
+		::System::Void set_UnlockedMagicUnitCount(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_UNLOCKEDMAGICUNITCOUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICHANDBOOKINFO_SET_UNLOCKEDMAGICUNITCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_AllMagicUnitCount()

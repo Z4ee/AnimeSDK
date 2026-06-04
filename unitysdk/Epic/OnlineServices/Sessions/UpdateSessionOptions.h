@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices::Sessions { class SessionModification; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_UPDATESESSIONOPTIONS_GET_SESSIONMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0x8BE15C0)
-#define EPIC_ONLINESERVICES_SESSIONS_UPDATESESSIONOPTIONS_SET_SESSIONMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0x8BE15D0)
-#define EPIC_ONLINESERVICES_SESSIONS_UPDATESESSIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BE15E0)
+#define EPIC_ONLINESERVICES_SESSIONS_UPDATESESSIONOPTIONS_GET_SESSIONMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0xA0F34F0)
+#define EPIC_ONLINESERVICES_SESSIONS_UPDATESESSIONOPTIONS_SET_SESSIONMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0xA0F3500)
+#define EPIC_ONLINESERVICES_SESSIONS_UPDATESESSIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA0F3510)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int UpdateSessionOptions_TypeDefinitionIndex = 41394;
+	inline static constexpr unsigned int UpdateSessionOptions_TypeDefinitionIndex = 42197;
 
 	class UpdateSessionOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::Epic::OnlineServices::Sessions::SessionModification*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_UPDATESESSIONOPTIONS_GET_SESSIONMODIFICATIONHANDLE_OFFSET))(this);
 		}
 
-		::System::Void set_SessionModificationHandle(::Epic::OnlineServices::Sessions::SessionModification* value)
+		::System::Void set_SessionModificationHandle(::Epic::OnlineServices::Sessions::SessionModification* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionModification*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_UPDATESESSIONOPTIONS_SET_SESSIONMODIFICATIONHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionModification*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_UPDATESESSIONOPTIONS_SET_SESSIONMODIFICATIONHANDLE_OFFSET))(this, a1);
 		}
 	};
 }

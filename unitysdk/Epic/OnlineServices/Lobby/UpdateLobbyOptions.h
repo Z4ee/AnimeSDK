@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices::Lobby { class LobbyModification; }
 
-#define EPIC_ONLINESERVICES_LOBBY_UPDATELOBBYOPTIONS_GET_LOBBYMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0x8ECBB60)
-#define EPIC_ONLINESERVICES_LOBBY_UPDATELOBBYOPTIONS_SET_LOBBYMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0x8ECBB70)
-#define EPIC_ONLINESERVICES_LOBBY_UPDATELOBBYOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8ECBB80)
+#define EPIC_ONLINESERVICES_LOBBY_UPDATELOBBYOPTIONS_GET_LOBBYMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0xA2FF5E0)
+#define EPIC_ONLINESERVICES_LOBBY_UPDATELOBBYOPTIONS_SET_LOBBYMODIFICATIONHANDLE_OFFSET UNITYSDK_OFFSET(0xA2FF5F0)
+#define EPIC_ONLINESERVICES_LOBBY_UPDATELOBBYOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2FF600)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int UpdateLobbyOptions_TypeDefinitionIndex = 42002;
+	inline static constexpr unsigned int UpdateLobbyOptions_TypeDefinitionIndex = 42805;
 
 	class UpdateLobbyOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::Lobby::LobbyModification*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_UPDATELOBBYOPTIONS_GET_LOBBYMODIFICATIONHANDLE_OFFSET))(this);
 		}
 
-		::System::Void set_LobbyModificationHandle(::Epic::OnlineServices::Lobby::LobbyModification* value)
+		::System::Void set_LobbyModificationHandle(::Epic::OnlineServices::Lobby::LobbyModification* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModification*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_UPDATELOBBYOPTIONS_SET_LOBBYMODIFICATIONHANDLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModification*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_UPDATELOBBYOPTIONS_SET_LOBBYMODIFICATIONHANDLE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,23 +5,23 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB58EB60)
-#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETMONSTER_OFFSET UNITYSDK_OFFSET(0xB58EC00)
-#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB58EBB0)
-#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY__CTOR_OFFSET UNITYSDK_OFFSET(0xB58EB50)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCCED600)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETMONSTER_OFFSET UNITYSDK_OFFSET(0xCCED6A0)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCCED650)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY__CTOR_OFFSET UNITYSDK_OFFSET(0xCCED5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureNpcMonsterDestroy_TypeDefinitionIndex = 52173;
+	inline static constexpr unsigned int AdventureNpcMonsterDestroy_TypeDefinitionIndex = 52870;
 
 	class AdventureNpcMonsterDestroy : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* _Monster; // 0x10
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* monster)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY__CTOR_OFFSET))(this, monster);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::EventType GetEventType()

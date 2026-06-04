@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int EAirshipSubwayState_TypeDefinitionIndex = 72571;
+	inline static constexpr unsigned int EAirshipSubwayState_TypeDefinitionIndex = 74394;
 
 	enum class EAirshipSubwayState : ::System::Int32
 	{

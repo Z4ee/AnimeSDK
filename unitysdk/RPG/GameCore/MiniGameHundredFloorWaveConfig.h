@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MiniGameHundredFloorBlockConfig; }
 
-#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORWAVECONFIG_METHOD_3_83D121D1BF093727_OFFSET UNITYSDK_OFFSET(0x18B29DA0)
-#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORWAVECONFIG_METHOD_3_E21986974EAA9902_OFFSET UNITYSDK_OFFSET(0x18B29DF0)
-#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORWAVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B29DE0)
+#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORWAVECONFIG_METHOD_3_2C1B7B9D8F8423EA_OFFSET UNITYSDK_OFFSET(0x19940EC0)
+#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORWAVECONFIG_METHOD_3_6BB89862336E6384_OFFSET UNITYSDK_OFFSET(0x19940F20)
+#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORWAVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19940F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniGameHundredFloorWaveConfig_TypeDefinitionIndex = 17873;
+	inline static constexpr unsigned int MiniGameHundredFloorWaveConfig_TypeDefinitionIndex = 17902;
 
 	class MiniGameHundredFloorWaveConfig : public ::RPG::GameCore::BaseScrollGameWaveConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMEHUNDREDFLOORWAVECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_83D121D1BF093727(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiniGameHundredFloorWaveConfig*& a2)
+		static ::System::Void Method_3_2C1B7B9D8F8423EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiniGameHundredFloorWaveConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiniGameHundredFloorWaveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMEHUNDREDFLOORWAVECONFIG_METHOD_3_83D121D1BF093727_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiniGameHundredFloorWaveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMEHUNDREDFLOORWAVECONFIG_METHOD_3_2C1B7B9D8F8423EA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E21986974EAA9902(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiniGameHundredFloorWaveConfig* a2)
+		static ::System::Void Method_3_6BB89862336E6384(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiniGameHundredFloorWaveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiniGameHundredFloorWaveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMEHUNDREDFLOORWAVECONFIG_METHOD_3_E21986974EAA9902_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiniGameHundredFloorWaveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMEHUNDREDFLOORWAVECONFIG_METHOD_3_6BB89862336E6384_OFFSET))(a1, a2);
 		}
 	};
 }

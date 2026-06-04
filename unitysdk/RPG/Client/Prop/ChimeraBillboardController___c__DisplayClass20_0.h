@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xADBC0D0)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER___C__DISPLAYCLASS20_0__SETTARGETPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0xADBC1D0)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC500380)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER___C__DISPLAYCLASS20_0__SETTARGETPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0xC500480)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBillboardController___c__DisplayClass20_0_TypeDefinitionIndex = 71966;
+	inline static constexpr unsigned int ChimeraBillboardController___c__DisplayClass20_0_TypeDefinitionIndex = 72988;
 
 	class ChimeraBillboardController___c__DisplayClass20_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SetTargetPosition_b__0(::UnityEngine::Transform* settee)
+		::System::Void _SetTargetPosition_b__0(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER___C__DISPLAYCLASS20_0__SETTARGETPOSITION_B__0_OFFSET))(this, settee);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER___C__DISPLAYCLASS20_0__SETTARGETPOSITION_B__0_OFFSET))(this, a1);
 		}
 	};
 }

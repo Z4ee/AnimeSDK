@@ -7,12 +7,12 @@ namespace RPG::GameCore { class PropOverrideAnimLayerConfig; }
 namespace RPG::GameCore { class PropOverrideColliderConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPDYNAMICRESCONFIGITEM_METHOD_2_186C98ED0A7577E4_OFFSET UNITYSDK_OFFSET(0x18C6A350)
-#define RPG_GAMECORE_PROPDYNAMICRESCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18C6A530)
+#define RPG_GAMECORE_PROPDYNAMICRESCONFIGITEM_METHOD_2_72A89B8291E7A937_OFFSET UNITYSDK_OFFSET(0x19A8C250)
+#define RPG_GAMECORE_PROPDYNAMICRESCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19A8C420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDynamicResConfigItem_TypeDefinitionIndex = 16685;
+	inline static constexpr unsigned int PropDynamicResConfigItem_TypeDefinitionIndex = 16711;
 
 	class PropDynamicResConfigItem : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDYNAMICRESCONFIGITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_186C98ED0A7577E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropDynamicResConfigItem*& a2)
+		static ::System::Void Method_2_72A89B8291E7A937(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropDynamicResConfigItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropDynamicResConfigItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDYNAMICRESCONFIGITEM_METHOD_2_186C98ED0A7577E4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropDynamicResConfigItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDYNAMICRESCONFIGITEM_METHOD_2_72A89B8291E7A937_OFFSET))(a1, a2);
 		}
 	};
 }

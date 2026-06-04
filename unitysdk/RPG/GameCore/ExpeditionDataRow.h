@@ -8,36 +8,36 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_EXPEDITIONDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188C5810)
-#define RPG_GAMECORE_EXPEDITIONDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188C61C0)
+#define RPG_GAMECORE_EXPEDITIONDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19702D10)
+#define RPG_GAMECORE_EXPEDITIONDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19703640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionDataRow_TypeDefinitionIndex = 12533;
+	inline static constexpr unsigned int ExpeditionDataRow_TypeDefinitionIndex = 12627;
 
 	class ExpeditionDataRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* BonusDamageTypeList; // 0x10
-		::Il2CppArray<::System::UInt32>* AssignerIDList; // 0x18
-		::Il2CppArray<::RPG::GameCore::AvatarBaseType>* BonusBaseTypeList; // 0x20
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x28
-		::System::UInt32 GroupID; // 0x30
-		::System::UInt32 ExpeditionID; // 0x34
+		::Il2CppArray<::System::UInt32>* AssignerIDList; // 0x10
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x18
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* BonusDamageTypeList; // 0x20
+		::Il2CppArray<::RPG::GameCore::AvatarBaseType>* BonusBaseTypeList; // 0x28
+		::System::UInt32 ExpeditionID; // 0x30
+		::System::UInt32 GroupID; // 0x34
 		::System::UInt32 AvatarNumMax; // 0x38
-		::System::UInt32 AvatarNumMin; // 0x3C
-		::RPG::Client::TextID AssignDesc; // 0x40
-		::RPG::Client::TextID Name; // 0x50
-		::System::UInt32 UnlockMission; // 0x60
+		::RPG::Client::TextID Name; // 0x40
+		::System::UInt32 UnlockMission; // 0x50
+		::System::UInt32 AvatarNumMin; // 0x54
+		::RPG::Client::TextID AssignDesc; // 0x58
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONDATAROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ExpeditionDataRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ExpeditionDataRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ExpeditionDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONDATAROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ExpeditionDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONDATAROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

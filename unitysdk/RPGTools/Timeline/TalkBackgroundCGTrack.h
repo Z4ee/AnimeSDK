@@ -7,17 +7,17 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATELAYERMIXER_OFFSET UNITYSDK_OFFSET(0xB91FEC0)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB91FFC0)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB9200E0)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_UNITYENGINE_TIMELINE_ILAYERABLE_SHOWDEFAULTLAYEREDTRACKCOMMANDS_OFFSET UNITYSDK_OFFSET(0xB91FF80)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB920200)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB920410)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB920450)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATELAYERMIXER_OFFSET UNITYSDK_OFFSET(0xD05FFE0)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD0600E0)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD060200)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_UNITYENGINE_TIMELINE_ILAYERABLE_SHOWDEFAULTLAYEREDTRACKCOMMANDS_OFFSET UNITYSDK_OFFSET(0xD0600A0)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD0602D0)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD0603B0)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD0603F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkBackgroundCGTrack_TypeDefinitionIndex = 45100;
+	inline static constexpr unsigned int TalkBackgroundCGTrack_TypeDefinitionIndex = 45648;
 
 	class TalkBackgroundCGTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -47,14 +47,14 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::UnityEngine::Timeline::TimelineClip* P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBACKGROUNDCGTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

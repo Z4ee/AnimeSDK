@@ -10,12 +10,12 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SUBMODIFIERDATA_METHOD_2_79C1B9100150437E_OFFSET UNITYSDK_OFFSET(0x18EB0820)
-#define RPG_GAMECORE_SUBMODIFIERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB0C10)
+#define RPG_GAMECORE_SUBMODIFIERDATA_METHOD_2_8F202E16CFAA9C78_OFFSET UNITYSDK_OFFSET(0x19CD0320)
+#define RPG_GAMECORE_SUBMODIFIERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD0780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubModifierData_TypeDefinitionIndex = 17326;
+	inline static constexpr unsigned int SubModifierData_TypeDefinitionIndex = 17330;
 
 	class SubModifierData : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,15 +30,16 @@ namespace RPG::GameCore
 		::System::Boolean IsHaloStatus; // 0x48
 		::System::Boolean SyncLayerFromParent; // 0x49
 		::RPG::GameCore::BoolEx AliveOnly; // 0x4C
+		::System::Boolean AutoDetectWhenRevive; // 0x50
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMODIFIERDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_79C1B9100150437E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubModifierData*& a2)
+		static ::System::Void Method_2_8F202E16CFAA9C78(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubModifierData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubModifierData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMODIFIERDATA_METHOD_2_79C1B9100150437E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubModifierData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMODIFIERDATA_METHOD_2_8F202E16CFAA9C78_OFFSET))(a1, a2);
 		}
 	};
 }

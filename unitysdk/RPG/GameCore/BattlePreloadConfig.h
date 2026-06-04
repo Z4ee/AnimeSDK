@@ -13,12 +13,12 @@ namespace RPG::GameCore { class SummonMonsterConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BATTLEPRELOADCONFIG_METHOD_2_C84071CA97A15959_OFFSET UNITYSDK_OFFSET(0x18702CC0)
-#define RPG_GAMECORE_BATTLEPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18703130)
+#define RPG_GAMECORE_BATTLEPRELOADCONFIG_METHOD_2_FC569A99DA90AA78_OFFSET UNITYSDK_OFFSET(0x194D60A0)
+#define RPG_GAMECORE_BATTLEPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194D6490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePreloadConfig_TypeDefinitionIndex = 15484;
+	inline static constexpr unsigned int BattlePreloadConfig_TypeDefinitionIndex = 15547;
 
 	class BattlePreloadConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPRELOADCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C84071CA97A15959(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePreloadConfig*& a2)
+		static ::System::Void Method_2_FC569A99DA90AA78(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePreloadConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPRELOADCONFIG_METHOD_2_C84071CA97A15959_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPRELOADCONFIG_METHOD_2_FC569A99DA90AA78_OFFSET))(a1, a2);
 		}
 	};
 }

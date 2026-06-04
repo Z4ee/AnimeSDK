@@ -8,18 +8,18 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_CALCULATEINNERPOINTS_OFFSET UNITYSDK_OFFSET(0xAB4BA60)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_GET_DEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0xAB4B530)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xAB4B6D0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xAB4B540)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__BUILDBORDER_OFFSET UNITYSDK_OFFSET(0xAB4C270)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__CTOR_OFFSET UNITYSDK_OFFSET(0xAB4CC30)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__GENERATEBORDERGEOMETRY_OFFSET UNITYSDK_OFFSET(0xAB4B740)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xAB4CD60)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_CALCULATEINNERPOINTS_OFFSET UNITYSDK_OFFSET(0xC25A0F0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_GET_DEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0xC259BE0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xC259D60)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC259BF0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__BUILDBORDER_OFFSET UNITYSDK_OFFSET(0xC25A860)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__CTOR_OFFSET UNITYSDK_OFFSET(0xC25B200)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__GENERATEBORDERGEOMETRY_OFFSET UNITYSDK_OFFSET(0xC259DD0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xC25B330)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int SectionBorder_TypeDefinitionIndex = 68911;
+	inline static constexpr unsigned int SectionBorder_TypeDefinitionIndex = 69723;
 
 	class SectionBorder : public ::UnityEngine::UI::MaskableGraphic
 	{
@@ -44,34 +44,34 @@ namespace RPG::Client::NavMap::FiveDim
 			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_GET_DEFAULTMATERIAL_OFFSET))(this);
 		}
 
-		::System::Void SetupView(::Il2CppArray<::RPG::MVector2>* vertices, ::Il2CppArray<::System::UInt32>* indices, ::System::Boolean unlocked)
+		::System::Void SetupView(::Il2CppArray<::RPG::MVector2>* a1, ::Il2CppArray<::System::UInt32>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::MVector2>*, ::Il2CppArray<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_SETUPVIEW_OFFSET))(this, vertices, indices, unlocked);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::MVector2>*, ::Il2CppArray<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_SETUPVIEW_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh)
+		::System::Void OnPopulateMesh(::UnityEngine::UI::VertexHelper* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_ONPOPULATEMESH_OFFSET))(this, vh);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_ONPOPULATEMESH_OFFSET))(this, a1);
 		}
 
-		::System::Void _GenerateBorderGeometry(::UnityEngine::UI::VertexHelper* vh)
+		::System::Void _GenerateBorderGeometry(::UnityEngine::UI::VertexHelper* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__GENERATEBORDERGEOMETRY_OFFSET))(this, vh);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__GENERATEBORDERGEOMETRY_OFFSET))(this, a1);
 		}
 
-		::System::Void _BuildBorder(::UnityEngine::UI::VertexHelper* vh, ::Il2CppArray<::UnityEngine::Vector2>* outer, ::Il2CppArray<::UnityEngine::Vector2>* inner, ::UnityEngine::Color outerColor, ::UnityEngine::Color innerColor)
+		::System::Void _BuildBorder(::UnityEngine::UI::VertexHelper* a1, ::Il2CppArray<::UnityEngine::Vector2>* a2, ::Il2CppArray<::UnityEngine::Vector2>* a3, ::UnityEngine::Color a4, ::UnityEngine::Color a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::Il2CppArray<::UnityEngine::Vector2>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__BUILDBORDER_OFFSET))(this, vh, outer, inner, outerColor, innerColor);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::Il2CppArray<::UnityEngine::Vector2>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER__BUILDBORDER_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::Il2CppArray<::UnityEngine::Vector2>* CalculateInnerPoints(::Il2CppArray<::UnityEngine::Vector2>* outer, ::UnityEngine::Vector2 width)
+		static ::Il2CppArray<::UnityEngine::Vector2>* CalculateInnerPoints(::Il2CppArray<::UnityEngine::Vector2>* a1, ::UnityEngine::Vector2 a2)
 		{
-			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_CALCULATEINNERPOINTS_OFFSET))(outer, width);
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::Il2CppArray<::UnityEngine::Vector2>*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER_CALCULATEINNERPOINTS_OFFSET))(a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnPopulateMesh(::UnityEngine::UI::VertexHelper* P0)
+		::System::Void __iFixBaseProxy_OnPopulateMesh(::UnityEngine::UI::VertexHelper* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONBORDER___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET))(this, a1);
 		}
 	};
 }

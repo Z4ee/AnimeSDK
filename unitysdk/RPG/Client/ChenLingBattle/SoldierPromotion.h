@@ -10,67 +10,67 @@ namespace RPG::Client::ChenLingBattle { class HandCard; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_CREATEPREVIEW_OFFSET UNITYSDK_OFFSET(0x9F9FEF0)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GETHANDCARDAFFECTCONDITION_OFFSET UNITYSDK_OFFSET(0x9F9F7B0)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GETPROMOTIONSKILLDESC_OFFSET UNITYSDK_OFFSET(0x9FB4CB0)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_CONFIGID_OFFSET UNITYSDK_OFFSET(0x9FB4D60)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_ISPROMOTION_OFFSET UNITYSDK_OFFSET(0x9FB4D80)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9FB4DA0)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_SMALLICONOUTLINEPATH_OFFSET UNITYSDK_OFFSET(0x9FB4F30)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_SMALLICONPATH_OFFSET UNITYSDK_OFFSET(0x9FB4EB0)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDCARDCONFIG_OFFSET UNITYSDK_OFFSET(0x9FB4930)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDCONDITION_OFFSET UNITYSDK_OFFSET(0x9F9FB30)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDHANDCARD_OFFSET UNITYSDK_OFFSET(0x9FB48D0)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SETPROMOTION_OFFSET UNITYSDK_OFFSET(0x9F9F480)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SET_CONFIGID_OFFSET UNITYSDK_OFFSET(0x9FB4D70)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SET_ISPROMOTION_OFFSET UNITYSDK_OFFSET(0x9FB4D90)
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9F9B3A0)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_CREATEPREVIEW_OFFSET UNITYSDK_OFFSET(0xB5B8790)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GETHANDCARDAFFECTCONDITION_OFFSET UNITYSDK_OFFSET(0xB5B7CC0)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GETPROMOTIONSKILLDESC_OFFSET UNITYSDK_OFFSET(0xB5CEF50)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_CONFIGID_OFFSET UNITYSDK_OFFSET(0xB5CF000)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_ISPROMOTION_OFFSET UNITYSDK_OFFSET(0xB5CF020)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB5CF040)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_SMALLICONOUTLINEPATH_OFFSET UNITYSDK_OFFSET(0xB5CF1D0)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_SMALLICONPATH_OFFSET UNITYSDK_OFFSET(0xB5CF150)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDCARDCONFIG_OFFSET UNITYSDK_OFFSET(0xB5CECA0)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDCONDITION_OFFSET UNITYSDK_OFFSET(0xB5B83F0)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDHANDCARD_OFFSET UNITYSDK_OFFSET(0xB5CEC40)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SETPROMOTION_OFFSET UNITYSDK_OFFSET(0xB5B78D0)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SET_CONFIGID_OFFSET UNITYSDK_OFFSET(0xB5CF010)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SET_ISPROMOTION_OFFSET UNITYSDK_OFFSET(0xB5CF030)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB5CE9A0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SoldierPromotion_TypeDefinitionIndex = 70134;
+	inline static constexpr unsigned int SoldierPromotion_TypeDefinitionIndex = 70946;
 
 	class SoldierPromotion : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::Condition*>* Conditions; // 0x10
-		::RPG::Client::ChenLingBattleSoldierConfig* _Config; // 0x18
+		::RPG::Client::ChenLingBattleSoldierConfig* _Config; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::Condition*>* Conditions; // 0x18
 		::System::Boolean _IsPromotion_k__BackingField; // 0x20
 		::System::UInt32 _ConfigID_k__BackingField; // 0x24
 
-		::System::Void _ctor(::System::UInt32 configID)
+		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION__CTOR_OFFSET))(this, configID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ChenLingBattle::SoldierPromotion* CreatePreview(::System::UInt32 configID)
+		static ::RPG::Client::ChenLingBattle::SoldierPromotion* CreatePreview(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChenLingBattle::SoldierPromotion*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_CREATEPREVIEW_OFFSET))(configID);
+			return ((::RPG::Client::ChenLingBattle::SoldierPromotion*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_CREATEPREVIEW_OFFSET))(a1);
 		}
 
-		::System::Void SetPromotion(::System::Boolean isPromotion)
+		::System::Void SetPromotion(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SETPROMOTION_OFFSET))(this, isPromotion);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SETPROMOTION_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsNeedCondition(::RPG::Client::ChenLingBattle::Condition* condition)
+		::System::Boolean IsNeedCondition(::RPG::Client::ChenLingBattle::Condition* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::Condition*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDCONDITION_OFFSET))(this, condition);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::Condition*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDCONDITION_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsNeedHandCard(::RPG::Client::ChenLingBattle::HandCard* handCard)
+		::System::Boolean IsNeedHandCard(::RPG::Client::ChenLingBattle::HandCard* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::HandCard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDHANDCARD_OFFSET))(this, handCard);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::HandCard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDHANDCARD_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsNeedCardConfig(::RPG::Client::ChenLingBattle::CardConfig* card)
+		::System::Boolean IsNeedCardConfig(::RPG::Client::ChenLingBattle::CardConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::CardConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDCARDCONFIG_OFFSET))(this, card);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::CardConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_ISNEEDCARDCONFIG_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ChenLingBattle::Condition* GetHandCardAffectCondition(::RPG::Client::ChenLingBattle::HandCard* handCard)
+		::RPG::Client::ChenLingBattle::Condition* GetHandCardAffectCondition(::RPG::Client::ChenLingBattle::HandCard* a1)
 		{
-			return ((::RPG::Client::ChenLingBattle::Condition*(*)(::PVOID, ::RPG::Client::ChenLingBattle::HandCard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GETHANDCARDAFFECTCONDITION_OFFSET))(this, handCard);
+			return ((::RPG::Client::ChenLingBattle::Condition*(*)(::PVOID, ::RPG::Client::ChenLingBattle::HandCard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GETHANDCARDAFFECTCONDITION_OFFSET))(this, a1);
 		}
 
 		::System::String* GetPromotionSkillDesc()
@@ -83,9 +83,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_CONFIGID_OFFSET))(this);
 		}
 
-		::System::Void set_ConfigID(::System::UInt32 value)
+		::System::Void set_ConfigID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SET_CONFIGID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SET_CONFIGID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsPromotion()
@@ -93,9 +93,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_GET_ISPROMOTION_OFFSET))(this);
 		}
 
-		::System::Void set_IsPromotion(::System::Boolean value)
+		::System::Void set_IsPromotion(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SET_ISPROMOTION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SOLDIERPROMOTION_SET_ISPROMOTION_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Name()

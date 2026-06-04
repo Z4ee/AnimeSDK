@@ -4,90 +4,90 @@
 
 namespace System { class Array; }
 
-#define SYSTEM_BUFFER_BLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x177E6600)
-#define SYSTEM_BUFFER_BYTELENGTH_OFFSET UNITYSDK_OFFSET(0x177E64D0)
-#define SYSTEM_BUFFER_INDEXOFBYTE_OFFSET UNITYSDK_OFFSET(0x177E6230)
-#define SYSTEM_BUFFER_INTERNALBLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x177E6220)
-#define SYSTEM_BUFFER_MEMCPY1_OFFSET UNITYSDK_OFFSET(0x177E6B10)
-#define SYSTEM_BUFFER_MEMCPY2_OFFSET UNITYSDK_OFFSET(0x177E6A90)
-#define SYSTEM_BUFFER_MEMCPY4_OFFSET UNITYSDK_OFFSET(0x177E69C0)
-#define SYSTEM_BUFFER_MEMCPY_1_OFFSET UNITYSDK_OFFSET(0x177E6490)
-#define SYSTEM_BUFFER_MEMCPY_2_OFFSET UNITYSDK_OFFSET(0x177E6BB0)
-#define SYSTEM_BUFFER_MEMCPY_OFFSET UNITYSDK_OFFSET(0x177E6450)
-#define SYSTEM_BUFFER_MEMORYCOPY_OFFSET UNITYSDK_OFFSET(0x177E6940)
-#define SYSTEM_BUFFER_ZEROMEMORY_OFFSET UNITYSDK_OFFSET(0x177E63F0)
-#define SYSTEM_BUFFER__BYTELENGTH_OFFSET UNITYSDK_OFFSET(0x177E6370)
+#define SYSTEM_BUFFER_BLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x185A0380)
+#define SYSTEM_BUFFER_BYTELENGTH_OFFSET UNITYSDK_OFFSET(0x185A0250)
+#define SYSTEM_BUFFER_INDEXOFBYTE_OFFSET UNITYSDK_OFFSET(0x1859FFB0)
+#define SYSTEM_BUFFER_INTERNALBLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x1859FFA0)
+#define SYSTEM_BUFFER_MEMCPY1_OFFSET UNITYSDK_OFFSET(0x185A07C0)
+#define SYSTEM_BUFFER_MEMCPY2_OFFSET UNITYSDK_OFFSET(0x185A0930)
+#define SYSTEM_BUFFER_MEMCPY4_OFFSET UNITYSDK_OFFSET(0x185A0860)
+#define SYSTEM_BUFFER_MEMCPY_1_OFFSET UNITYSDK_OFFSET(0x185A0210)
+#define SYSTEM_BUFFER_MEMCPY_2_OFFSET UNITYSDK_OFFSET(0x185A09B0)
+#define SYSTEM_BUFFER_MEMCPY_OFFSET UNITYSDK_OFFSET(0x185A01D0)
+#define SYSTEM_BUFFER_MEMORYCOPY_OFFSET UNITYSDK_OFFSET(0x185A06C0)
+#define SYSTEM_BUFFER_ZEROMEMORY_OFFSET UNITYSDK_OFFSET(0x185A0170)
+#define SYSTEM_BUFFER__BYTELENGTH_OFFSET UNITYSDK_OFFSET(0x185A00F0)
 
 namespace System
 {
-	inline static constexpr unsigned int Buffer_TypeDefinitionIndex = 207;
+	inline static constexpr unsigned int Buffer_TypeDefinitionIndex = 206;
 
 	class Buffer : public ::System::Object
 	{
 	public:
-		static ::System::Boolean InternalBlockCopy(::System::Array* src, ::System::Int32 srcOffsetBytes, ::System::Array* dst, ::System::Int32 dstOffsetBytes, ::System::Int32 byteCount)
+		static ::System::Boolean InternalBlockCopy(::System::Array* a1, ::System::Int32 a2, ::System::Array* a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::System::Array*, ::System::Int32, ::System::Array*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_INTERNALBLOCKCOPY_OFFSET))(src, srcOffsetBytes, dst, dstOffsetBytes, byteCount);
+			return ((::System::Boolean(*)(::System::Array*, ::System::Int32, ::System::Array*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_INTERNALBLOCKCOPY_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Int32 IndexOfByte(::System::Byte* src, ::System::Byte value, ::System::Int32 index, ::System::Int32 count)
+		static ::System::Int32 IndexOfByte(::System::Byte* a1, ::System::Byte a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::Byte*, ::System::Byte, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_INDEXOFBYTE_OFFSET))(src, value, index, count);
+			return ((::System::Int32(*)(::System::Byte*, ::System::Byte, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_INDEXOFBYTE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 _ByteLength(::System::Array* array)
+		static ::System::Int32 _ByteLength(::System::Array* a1)
 		{
-			return ((::System::Int32(*)(::System::Array*))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER__BYTELENGTH_OFFSET))(array);
+			return ((::System::Int32(*)(::System::Array*))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER__BYTELENGTH_OFFSET))(a1);
 		}
 
-		static ::System::Void ZeroMemory(::System::Byte* src, ::System::Int64 len)
+		static ::System::Void ZeroMemory(::System::Byte* a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::System::Byte*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_ZEROMEMORY_OFFSET))(src, len);
+			return ((::System::Void(*)(::System::Byte*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_ZEROMEMORY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Memcpy(::Il2CppArray<::System::Byte>* dest, ::System::Int32 destIndex, ::System::Byte* src, ::System::Int32 srcIndex, ::System::Int32 len)
+		static ::System::Void Memcpy(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Byte* a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Byte*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY_OFFSET))(dest, destIndex, src, srcIndex, len);
+			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Byte*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void Memcpy_1(::System::Byte* pDest, ::System::Int32 destIndex, ::Il2CppArray<::System::Byte>* src, ::System::Int32 srcIndex, ::System::Int32 len)
+		static ::System::Void Memcpy_1(::System::Byte* a1, ::System::Int32 a2, ::Il2CppArray<::System::Byte>* a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::System::Byte*, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY_1_OFFSET))(pDest, destIndex, src, srcIndex, len);
+			return ((::System::Void(*)(::System::Byte*, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Int32 ByteLength(::System::Array* array)
+		static ::System::Int32 ByteLength(::System::Array* a1)
 		{
-			return ((::System::Int32(*)(::System::Array*))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_BYTELENGTH_OFFSET))(array);
+			return ((::System::Int32(*)(::System::Array*))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_BYTELENGTH_OFFSET))(a1);
 		}
 
-		static ::System::Void BlockCopy(::System::Array* src, ::System::Int32 srcOffset, ::System::Array* dst, ::System::Int32 dstOffset, ::System::Int32 count)
+		static ::System::Void BlockCopy(::System::Array* a1, ::System::Int32 a2, ::System::Array* a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::System::Array*, ::System::Int32, ::System::Array*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_BLOCKCOPY_OFFSET))(src, srcOffset, dst, dstOffset, count);
+			return ((::System::Void(*)(::System::Array*, ::System::Int32, ::System::Array*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_BLOCKCOPY_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void MemoryCopy(::System::Void* source, ::System::Void* destination, ::System::Int64 destinationSizeInBytes, ::System::Int64 sourceBytesToCopy)
+		static ::System::Void MemoryCopy(::System::Void* a1, ::System::Void* a2, ::System::Int64 a3, ::System::Int64 a4)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::Void*, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMORYCOPY_OFFSET))(source, destination, destinationSizeInBytes, sourceBytesToCopy);
+			return ((::System::Void(*)(::System::Void*, ::System::Void*, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMORYCOPY_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void memcpy4(::System::Byte* dest, ::System::Byte* src, ::System::Int32 size)
+		static ::System::Void memcpy4(::System::Byte* a1, ::System::Byte* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY4_OFFSET))(dest, src, size);
+			return ((::System::Void(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY4_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void memcpy2(::System::Byte* dest, ::System::Byte* src, ::System::Int32 size)
+		static ::System::Void memcpy2(::System::Byte* a1, ::System::Byte* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY2_OFFSET))(dest, src, size);
+			return ((::System::Void(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void memcpy1(::System::Byte* dest, ::System::Byte* src, ::System::Int32 size)
+		static ::System::Void memcpy1(::System::Byte* a1, ::System::Byte* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY1_OFFSET))(dest, src, size);
+			return ((::System::Void(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Memcpy_2(::System::Byte* dest, ::System::Byte* src, ::System::Int32 size)
+		static ::System::Void Memcpy_2(::System::Byte* a1, ::System::Byte* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY_2_OFFSET))(dest, src, size);
+			return ((::System::Void(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_BUFFER_MEMCPY_2_OFFSET))(a1, a2, a3);
 		}
 	};
 }

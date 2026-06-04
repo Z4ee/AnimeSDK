@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EffectConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NPCAPPEARANCEPRESET_METHOD_2_399D005045C6C2FC_OFFSET UNITYSDK_OFFSET(0x18B77990)
-#define RPG_GAMECORE_NPCAPPEARANCEPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x18B77B60)
+#define RPG_GAMECORE_NPCAPPEARANCEPRESET_METHOD_2_97B77545FA2D9493_OFFSET UNITYSDK_OFFSET(0x199C6730)
+#define RPG_GAMECORE_NPCAPPEARANCEPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x199C68F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCAppearancePreset_TypeDefinitionIndex = 16569;
+	inline static constexpr unsigned int NPCAppearancePreset_TypeDefinitionIndex = 16599;
 
 	class NPCAppearancePreset : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCAPPEARANCEPRESET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_399D005045C6C2FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NPCAppearancePreset*& a2)
+		static ::System::Void Method_2_97B77545FA2D9493(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NPCAppearancePreset*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NPCAppearancePreset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCAPPEARANCEPRESET_METHOD_2_399D005045C6C2FC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NPCAppearancePreset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCAPPEARANCEPRESET_METHOD_2_97B77545FA2D9493_OFFSET))(a1, a2);
 		}
 	};
 }

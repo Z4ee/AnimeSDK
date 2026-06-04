@@ -6,7 +6,7 @@ namespace System { class Type; }
 
 namespace System
 {
-	inline static constexpr unsigned int IFormatProvider_TypeDefinitionIndex = 281;
+	inline static constexpr unsigned int IFormatProvider_TypeDefinitionIndex = 280;
 
 	class IFormatProvider
 	{

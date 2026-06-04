@@ -9,24 +9,24 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_UISCALABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0xB430DF0)
-#define RPG_CLIENT_UISCALABLE_GET_MAXSCALE_OFFSET UNITYSDK_OFFSET(0xB431830)
-#define RPG_CLIENT_UISCALABLE_GET_MINSCALE_OFFSET UNITYSDK_OFFSET(0xB431850)
-#define RPG_CLIENT_UISCALABLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0xB431230)
-#define RPG_CLIENT_UISCALABLE_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xB430EE0)
-#define RPG_CLIENT_UISCALABLE_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xB431560)
-#define RPG_CLIENT_UISCALABLE_SETPOINTERDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0xB4315E0)
-#define RPG_CLIENT_UISCALABLE_SETPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xB431640)
-#define RPG_CLIENT_UISCALABLE_SET_MAXSCALE_OFFSET UNITYSDK_OFFSET(0xB431840)
-#define RPG_CLIENT_UISCALABLE_SET_MINSCALE_OFFSET UNITYSDK_OFFSET(0xB431860)
-#define RPG_CLIENT_UISCALABLE_SIMULATESCALE_OFFSET UNITYSDK_OFFSET(0xB4316A0)
-#define RPG_CLIENT_UISCALABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xB431870)
-#define RPG_CLIENT_UISCALABLE__INITBEGINDATA_OFFSET UNITYSDK_OFFSET(0xB431100)
-#define RPG_CLIENT_UISCALABLE__TRYSETSCALE_OFFSET UNITYSDK_OFFSET(0xB431720)
+#define RPG_CLIENT_UISCALABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0xCB91340)
+#define RPG_CLIENT_UISCALABLE_GET_MAXSCALE_OFFSET UNITYSDK_OFFSET(0xCB91D80)
+#define RPG_CLIENT_UISCALABLE_GET_MINSCALE_OFFSET UNITYSDK_OFFSET(0xCB91DA0)
+#define RPG_CLIENT_UISCALABLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0xCB91780)
+#define RPG_CLIENT_UISCALABLE_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xCB91430)
+#define RPG_CLIENT_UISCALABLE_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xCB91AB0)
+#define RPG_CLIENT_UISCALABLE_SETPOINTERDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0xCB91B30)
+#define RPG_CLIENT_UISCALABLE_SETPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xCB91B90)
+#define RPG_CLIENT_UISCALABLE_SET_MAXSCALE_OFFSET UNITYSDK_OFFSET(0xCB91D90)
+#define RPG_CLIENT_UISCALABLE_SET_MINSCALE_OFFSET UNITYSDK_OFFSET(0xCB91DB0)
+#define RPG_CLIENT_UISCALABLE_SIMULATESCALE_OFFSET UNITYSDK_OFFSET(0xCB91BF0)
+#define RPG_CLIENT_UISCALABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xCB91DC0)
+#define RPG_CLIENT_UISCALABLE__INITBEGINDATA_OFFSET UNITYSDK_OFFSET(0xCB91650)
+#define RPG_CLIENT_UISCALABLE__TRYSETSCALE_OFFSET UNITYSDK_OFFSET(0xCB91C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIScalable_TypeDefinitionIndex = 63716;
+	inline static constexpr unsigned int UIScalable_TypeDefinitionIndex = 64637;
 
 	class UIScalable : public ::UnityEngine::MonoBehaviour
 	{
@@ -54,34 +54,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_ONPOINTERDOWN_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_ONPOINTERDOWN_OFFSET))(this, a1);
 		}
 
-		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_ONDRAG_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_ONDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_ONPOINTERUP_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_ONPOINTERUP_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPointerDownCallback(::System::Action_1<::System::Object*>* luaCallback, ::System::Object* luaCallbackParam)
+		::System::Void SetPointerDownCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SETPOINTERDOWNCALLBACK_OFFSET))(this, luaCallback, luaCallbackParam);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SETPOINTERDOWNCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetPointerUpCallback(::System::Action_1<::System::Object*>* luaCallback, ::System::Object* luaCallbackParam)
+		::System::Void SetPointerUpCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SETPOINTERUPCALLBACK_OFFSET))(this, luaCallback, luaCallbackParam);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SETPOINTERUPCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SimulateScale(::System::Single deltaScale)
+		::System::Void SimulateScale(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SIMULATESCALE_OFFSET))(this, deltaScale);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SIMULATESCALE_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitBeginData()
@@ -89,9 +89,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE__INITBEGINDATA_OFFSET))(this);
 		}
 
-		::System::Void _TrySetScale(::System::Single ratio)
+		::System::Void _TrySetScale(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE__TRYSETSCALE_OFFSET))(this, ratio);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE__TRYSETSCALE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_MaxScale()
@@ -99,9 +99,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_GET_MAXSCALE_OFFSET))(this);
 		}
 
-		::System::Void set_MaxScale(::System::Single value)
+		::System::Void set_MaxScale(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SET_MAXSCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SET_MAXSCALE_OFFSET))(this, a1);
 		}
 
 		::System::Single get_MinScale()
@@ -109,9 +109,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_GET_MINSCALE_OFFSET))(this);
 		}
 
-		::System::Void set_MinScale(::System::Single value)
+		::System::Void set_MinScale(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SET_MINSCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SET_MINSCALE_OFFSET))(this, a1);
 		}
 	};
 }

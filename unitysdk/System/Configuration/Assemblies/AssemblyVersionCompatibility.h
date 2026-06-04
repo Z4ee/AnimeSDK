@@ -3,7 +3,7 @@
 
 namespace System::Configuration::Assemblies
 {
-	inline static constexpr unsigned int AssemblyVersionCompatibility_TypeDefinitionIndex = 463;
+	inline static constexpr unsigned int AssemblyVersionCompatibility_TypeDefinitionIndex = 462;
 
 	enum class AssemblyVersionCompatibility : ::System::Int32
 	{

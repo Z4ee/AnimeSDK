@@ -9,20 +9,20 @@ namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Sprite; }
 
-#define SRDEBUGGER_UI_OTHER_SRTAB_GET_KEY_OFFSET UNITYSDK_OFFSET(0x19E96070)
-#define SRDEBUGGER_UI_OTHER_SRTAB_GET_LONGTITLE_OFFSET UNITYSDK_OFFSET(0x19E96050)
-#define SRDEBUGGER_UI_OTHER_SRTAB_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x19E96030)
-#define SRDEBUGGER_UI_OTHER_SRTAB_ONTABSELECTED_OFFSET UNITYSDK_OFFSET(0x19E962D0)
-#define SRDEBUGGER_UI_OTHER_SRTAB_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x19E96560)
-#define SRDEBUGGER_UI_OTHER_SRTAB_SET_KEY_OFFSET UNITYSDK_OFFSET(0x19E96080)
-#define SRDEBUGGER_UI_OTHER_SRTAB_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x19E96040)
-#define SRDEBUGGER_UI_OTHER_SRTAB_START_OFFSET UNITYSDK_OFFSET(0x19E96090)
-#define SRDEBUGGER_UI_OTHER_SRTAB__CTOR_OFFSET UNITYSDK_OFFSET(0x19E96640)
-#define SRDEBUGGER_UI_OTHER_SRTAB__RESETSCROLLCONTENT_OFFSET UNITYSDK_OFFSET(0x19E964E0)
+#define SRDEBUGGER_UI_OTHER_SRTAB_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1AD0BDD0)
+#define SRDEBUGGER_UI_OTHER_SRTAB_GET_LONGTITLE_OFFSET UNITYSDK_OFFSET(0x1AD0BDB0)
+#define SRDEBUGGER_UI_OTHER_SRTAB_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1AD0BD90)
+#define SRDEBUGGER_UI_OTHER_SRTAB_ONTABSELECTED_OFFSET UNITYSDK_OFFSET(0x1AD0C020)
+#define SRDEBUGGER_UI_OTHER_SRTAB_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x1AD0C2B0)
+#define SRDEBUGGER_UI_OTHER_SRTAB_SET_KEY_OFFSET UNITYSDK_OFFSET(0x1AD0BDE0)
+#define SRDEBUGGER_UI_OTHER_SRTAB_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x1AD0BDA0)
+#define SRDEBUGGER_UI_OTHER_SRTAB_START_OFFSET UNITYSDK_OFFSET(0x1AD0BDF0)
+#define SRDEBUGGER_UI_OTHER_SRTAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0C390)
+#define SRDEBUGGER_UI_OTHER_SRTAB__RESETSCROLLCONTENT_OFFSET UNITYSDK_OFFSET(0x1AD0C230)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int SRTab_TypeDefinitionIndex = 35377;
+	inline static constexpr unsigned int SRTab_TypeDefinitionIndex = 35677;
 
 	class SRTab : public ::SRF::SRMonoBehaviourEx
 	{
@@ -49,9 +49,9 @@ namespace SRDebugger::UI::Other
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB_GET_TITLE_OFFSET))(this);
 		}
 
-		::System::Void set_Title(::System::String* value)
+		::System::Void set_Title(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB_SET_TITLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB_SET_TITLE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_LongTitle()
@@ -64,9 +64,9 @@ namespace SRDebugger::UI::Other
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void set_Key(::System::String* value)
+		::System::Void set_Key(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB_SET_KEY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB_SET_KEY_OFFSET))(this, a1);
 		}
 
 		::System::Void Start()
@@ -79,9 +79,9 @@ namespace SRDebugger::UI::Other
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB_ONTABSELECTED_OFFSET))(this);
 		}
 
-		::System::Void OptionControl(::SRDebugger::Services::MihoyoOptionControlType type)
+		::System::Void OptionControl(::SRDebugger::Services::MihoyoOptionControlType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::Services::MihoyoOptionControlType))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB_OPTIONCONTROL_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::Services::MihoyoOptionControlType))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTAB_OPTIONCONTROL_OFFSET))(this, a1);
 		}
 
 		::System::Void _ResetScrollContent()

@@ -5,14 +5,14 @@
 namespace System::Globalization { class CultureInfo; }
 namespace System::Globalization { class TextInfo; }
 
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x177F1440)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x177F1320)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x177F12A0)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x177F1200)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x185AB2F0)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x185AB1D0)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x185AB150)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x185AB0B0)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int CaseInsensitiveHashCodeProvider_TypeDefinitionIndex = 1456;
+	inline static constexpr unsigned int CaseInsensitiveHashCodeProvider_TypeDefinitionIndex = 1455;
 
 	class CaseInsensitiveHashCodeProvider : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace System::Collections
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Globalization::CultureInfo* culture)
+		::System::Void _ctor_1(::System::Globalization::CultureInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_1_OFFSET))(this, culture);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Collections::CaseInsensitiveHashCodeProvider* get_Default()
@@ -34,9 +34,9 @@ namespace System::Collections
 			return ((::System::Collections::CaseInsensitiveHashCodeProvider*(*)())((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GET_DEFAULT_OFFSET))();
 		}
 
-		::System::Int32 GetHashCode(::System::Object* obj)
+		::System::Int32 GetHashCode(::System::Object* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GETHASHCODE_OFFSET))(this, obj);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GETHASHCODE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -13,30 +13,30 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xA82C2A0)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xA82C770)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xA82C680)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_D01F3CF3C9739CE3_OFFSET UNITYSDK_OFFSET(0xA82BE90)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xA82C2E0)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xA825500)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xA82C260)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xA82C890)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xBF73810)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xBF73CE0)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xBF73C10)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_B71F1B35165C7818_OFFSET UNITYSDK_OFFSET(0xBF73460)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xBF73850)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xBF73280)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xBF737D0)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xBF740C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeCopyPieceEffect_TypeDefinitionIndex = 60694;
+	inline static constexpr unsigned int MatchThreeCopyPieceEffect_TypeDefinitionIndex = 61628;
 
 	class MatchThreeCopyPieceEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* Field_5_7; // 0x0
-		::RPG::Client::MatchThreeBoard* Field_5_0; // 0x18
-		::System::Single Field_5_1; // 0x20
-		::UnityEngine::Transform* Field_5_2; // 0x28
-		::UnityEngine::Transform* Field_5_3; // 0x30
-		::UnityEngine::Transform* Field_5_4; // 0x38
-		::RPG::Client::MatchThreePiece* Field_5_5; // 0x40
-		::RPG::Client::UIPrefabLoader* Field_5_6; // 0x48
+		// static const ::System::String* Field_5_0; // 0x0
+		::RPG::Client::MatchThreeBoard* Field_5_1; // 0x18
+		::System::Single Field_5_2; // 0x20
+		::UnityEngine::Transform* Field_5_3; // 0x28
+		::UnityEngine::Transform* Field_5_4; // 0x30
+		::UnityEngine::Transform* Field_5_5; // 0x38
+		::RPG::Client::MatchThreePiece* Field_5_6; // 0x40
+		::RPG::Client::UIPrefabLoader* Field_5_7; // 0x48
 
 		::System::Void _ctor()
 		{
@@ -73,9 +73,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_1290EA767C459179_OFFSET))(this);
 		}
 
-		::System::Void Method_5_D01F3CF3C9739CE3(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::Class_1_1D65C84443DC695F* a3, ::System::Action* a4, ::System::Action* a5)
+		::System::Void Method_5_B71F1B35165C7818(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::Class_1_1D65C84443DC695F* a3, ::System::Action* a4, ::System::Action* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::Class_1_1D65C84443DC695F*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_D01F3CF3C9739CE3_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::Class_1_1D65C84443DC695F*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_B71F1B35165C7818_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

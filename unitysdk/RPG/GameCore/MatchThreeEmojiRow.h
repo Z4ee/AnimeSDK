@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ABE470)
-#define RPG_GAMECORE_MATCHTHREEEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABE610)
+#define RPG_GAMECORE_MATCHTHREEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198EED20)
+#define RPG_GAMECORE_MATCHTHREEEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198EEEC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeEmojiRow_TypeDefinitionIndex = 11366;
+	inline static constexpr unsigned int MatchThreeEmojiRow_TypeDefinitionIndex = 11413;
 
 	class MatchThreeEmojiRow : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEEMOJIROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MatchThreeEmojiRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MatchThreeEmojiRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MatchThreeEmojiRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEEMOJIROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MatchThreeEmojiRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEEMOJIROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

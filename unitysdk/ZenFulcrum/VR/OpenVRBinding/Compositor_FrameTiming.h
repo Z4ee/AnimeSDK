@@ -5,7 +5,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int Compositor_FrameTiming_TypeDefinitionIndex = 36073;
+	inline static constexpr unsigned int Compositor_FrameTiming_TypeDefinitionIndex = 36373;
 
 	struct alignas(8) Compositor_FrameTiming
 	{

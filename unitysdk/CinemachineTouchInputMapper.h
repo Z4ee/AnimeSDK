@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CINEMACHINETOUCHINPUTMAPPER_GETINPUTAXIS_OFFSET UNITYSDK_OFFSET(0x12BB1FF0)
-#define CINEMACHINETOUCHINPUTMAPPER_START_OFFSET UNITYSDK_OFFSET(0x12BB1F70)
-#define CINEMACHINETOUCHINPUTMAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB20D0)
+#define CINEMACHINETOUCHINPUTMAPPER_GETINPUTAXIS_OFFSET UNITYSDK_OFFSET(0x1466F0B0)
+#define CINEMACHINETOUCHINPUTMAPPER_START_OFFSET UNITYSDK_OFFSET(0x1466F010)
+#define CINEMACHINETOUCHINPUTMAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1466F180)
 
-inline static constexpr unsigned int CinemachineTouchInputMapper_TypeDefinitionIndex = 36475;
+inline static constexpr unsigned int CinemachineTouchInputMapper_TypeDefinitionIndex = 36775;
 
 class CinemachineTouchInputMapper : public ::UnityEngine::MonoBehaviour
 {
@@ -28,8 +28,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINETOUCHINPUTMAPPER_START_OFFSET))(this);
 	}
 
-	::System::Single GetInputAxis(::System::String* axisName)
+	::System::Single GetInputAxis(::System::String* a1)
 	{
-		return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CINEMACHINETOUCHINPUTMAPPER_GETINPUTAXIS_OFFSET))(this, axisName);
+		return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CINEMACHINETOUCHINPUTMAPPER_GETINPUTAXIS_OFFSET))(this, a1);
 	}
 };

@@ -7,21 +7,21 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB877E00)
-#define RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB877E30)
-#define RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB875240)
-#define RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB877DE0)
+#define RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCFC1260)
+#define RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCFC1290)
+#define RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCFBE9D0)
+#define RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xCFC11F0)
 
 namespace RPG::UINavigation
 {
-	inline static constexpr unsigned int UINavigationArea_FirstSelectableDelegate_TypeDefinitionIndex = 47792;
+	inline static constexpr unsigned int UINavigationArea_FirstSelectableDelegate_TypeDefinitionIndex = 48407;
 
 	class UINavigationArea_FirstSelectableDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::GameObject* Invoke()
@@ -29,14 +29,14 @@ namespace RPG::UINavigation
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::GameObject* EndInvoke(::System::IAsyncResult* result)
+		::UnityEngine::GameObject* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONAREA_FIRSTSELECTABLEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

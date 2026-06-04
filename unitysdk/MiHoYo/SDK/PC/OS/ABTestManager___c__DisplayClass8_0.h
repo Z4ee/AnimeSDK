@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::PC::OS { class ABTestManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_ABTESTMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1759B050)
-#define MIHOYO_SDK_PC_OS_ABTESTMANAGER___C__DISPLAYCLASS8_0__REQUESTALLACCOUNTABTEST_B__0_OFFSET UNITYSDK_OFFSET(0x1759BD40)
+#define MIHOYO_SDK_PC_OS_ABTESTMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183832C0)
+#define MIHOYO_SDK_PC_OS_ABTESTMANAGER___C__DISPLAYCLASS8_0__REQUESTALLACCOUNTABTEST_B__0_OFFSET UNITYSDK_OFFSET(0x18383F70)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int ABTestManager___c__DisplayClass8_0_TypeDefinitionIndex = 7507;
+	inline static constexpr unsigned int ABTestManager___c__DisplayClass8_0_TypeDefinitionIndex = 8410;
 
 	class ABTestManager___c__DisplayClass8_0 : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RequestAllAccountABTest_b__0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _RequestAllAccountABTest_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTMANAGER___C__DISPLAYCLASS8_0__REQUESTALLACCOUNTABTEST_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTMANAGER___C__DISPLAYCLASS8_0__REQUESTALLACCOUNTABTEST_B__0_OFFSET))(this, a1);
 		}
 	};
 }

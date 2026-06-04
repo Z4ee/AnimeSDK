@@ -6,11 +6,11 @@
 class CarFlowIntersectionRule;
 namespace System { class String; }
 
-#define CARFLOWINTERSECTIONRULEGROUP_METHOD_1_283228DCA08F69C7_OFFSET UNITYSDK_OFFSET(0xACF4F70)
-#define CARFLOWINTERSECTIONRULEGROUP_METHOD_1_C6BD7598FB8E5123_OFFSET UNITYSDK_OFFSET(0xACF53C0)
-#define CARFLOWINTERSECTIONRULEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xACF5450)
+#define CARFLOWINTERSECTIONRULEGROUP_METHOD_1_2F8759FF1B07A918_OFFSET UNITYSDK_OFFSET(0xC738640)
+#define CARFLOWINTERSECTIONRULEGROUP_METHOD_1_C6BD7598FB8E5123_OFFSET UNITYSDK_OFFSET(0xC738AE0)
+#define CARFLOWINTERSECTIONRULEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xC738B70)
 
-inline static constexpr unsigned int CarFlowIntersectionRuleGroup_TypeDefinitionIndex = 43875;
+inline static constexpr unsigned int CarFlowIntersectionRuleGroup_TypeDefinitionIndex = 44421;
 
 class CarFlowIntersectionRuleGroup : public ::System::Object
 {
@@ -25,9 +25,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARFLOWINTERSECTIONRULEGROUP__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_283228DCA08F69C7(::System::Boolean a1)
+	::System::Void Method_1_2F8759FF1B07A918(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CARFLOWINTERSECTIONRULEGROUP_METHOD_1_283228DCA08F69C7_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CARFLOWINTERSECTIONRULEGROUP_METHOD_1_2F8759FF1B07A918_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_C6BD7598FB8E5123()

@@ -16,60 +16,60 @@ namespace System::Runtime::Serialization { class SafeSerializationEventArgs; }
 namespace System::Runtime::Serialization { class SafeSerializationManager; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_EXCEPTION_ADD_SERIALIZEOBJECTSTATE_OFFSET UNITYSDK_OFFSET(0x17915AA0)
-#define SYSTEM_EXCEPTION_FIXREMOTINGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17916DF0)
-#define SYSTEM_EXCEPTION_GETBASEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17915460)
-#define SYSTEM_EXCEPTION_GETCLASSNAME_OFFSET UNITYSDK_OFFSET(0x17915380)
-#define SYSTEM_EXCEPTION_GETMESSAGEFROMNATIVERESOURCES_OFFSET UNITYSDK_OFFSET(0x17916DB0)
-#define SYSTEM_EXCEPTION_GETMETHODFROMSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x17915480)
-#define SYSTEM_EXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x17915BC0)
-#define SYSTEM_EXCEPTION_GETSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x179155C0)
-#define SYSTEM_EXCEPTION_GETTYPE_OFFSET UNITYSDK_OFFSET(0x178F8CF0)
-#define SYSTEM_EXCEPTION_GET_DATA_OFFSET UNITYSDK_OFFSET(0x179153E0)
-#define SYSTEM_EXCEPTION_GET_HELPLINK_OFFSET UNITYSDK_OFFSET(0x17915650)
-#define SYSTEM_EXCEPTION_GET_HRESULT_OFFSET UNITYSDK_OFFSET(0x17916D50)
-#define SYSTEM_EXCEPTION_GET_INNEREXCEPTION_OFFSET UNITYSDK_OFFSET(0x17915470)
-#define SYSTEM_EXCEPTION_GET_ISTRANSIENT_OFFSET UNITYSDK_OFFSET(0x17916D80)
-#define SYSTEM_EXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x17915220)
-#define SYSTEM_EXCEPTION_GET_REMOTESTACKTRACE_OFFSET UNITYSDK_OFFSET(0x17916CE0)
-#define SYSTEM_EXCEPTION_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x17915670)
-#define SYSTEM_EXCEPTION_GET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x17915550)
-#define SYSTEM_EXCEPTION_GET_TARGETSITE_OFFSET UNITYSDK_OFFSET(0x17915490)
-#define SYSTEM_EXCEPTION_INIT_OFFSET UNITYSDK_OFFSET(0x179151A0)
-#define SYSTEM_EXCEPTION_INTERNALPRESERVESTACKTRACE_OFFSET UNITYSDK_OFFSET(0x17916C40)
-#define SYSTEM_EXCEPTION_INTERNALTOSTRING_OFFSET UNITYSDK_OFFSET(0x17916D70)
-#define SYSTEM_EXCEPTION_ISIMMUTABLEAGILEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17915450)
-#define SYSTEM_EXCEPTION_NISTRANSIENT_OFFSET UNITYSDK_OFFSET(0x17916DA0)
-#define SYSTEM_EXCEPTION_ONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x17916C00)
-#define SYSTEM_EXCEPTION_PREPFORREMOTING_OFFSET UNITYSDK_OFFSET(0x17916040)
-#define SYSTEM_EXCEPTION_REMOVE_SERIALIZEOBJECTSTATE_OFFSET UNITYSDK_OFFSET(0x17915B30)
-#define SYSTEM_EXCEPTION_REPORTUNHANDLEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17916F10)
-#define SYSTEM_EXCEPTION_RESTOREEXCEPTIONDISPATCHINFO_OFFSET UNITYSDK_OFFSET(0x17916CF0)
-#define SYSTEM_EXCEPTION_SETERRORCODE_OFFSET UNITYSDK_OFFSET(0x1790C880)
-#define SYSTEM_EXCEPTION_SETMESSAGE_OFFSET UNITYSDK_OFFSET(0x17916DD0)
-#define SYSTEM_EXCEPTION_SETSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x17916DE0)
-#define SYSTEM_EXCEPTION_SET_HELPLINK_OFFSET UNITYSDK_OFFSET(0x17915660)
-#define SYSTEM_EXCEPTION_SET_HRESULT_OFFSET UNITYSDK_OFFSET(0x17916D60)
-#define SYSTEM_EXCEPTION_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0x17915750)
-#define SYSTEM_EXCEPTION_STRIPFILEINFO_OFFSET UNITYSDK_OFFSET(0x17915640)
-#define SYSTEM_EXCEPTION_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x17915770)
-#define SYSTEM_EXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17915760)
-#define SYSTEM_EXCEPTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x17916F20)
-#define SYSTEM_EXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x179018E0)
-#define SYSTEM_EXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17901930)
-#define SYSTEM_EXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x179019D0)
-#define SYSTEM_EXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x179151E0)
+#define SYSTEM_EXCEPTION_ADD_SERIALIZEOBJECTSTATE_OFFSET UNITYSDK_OFFSET(0x186CB890)
+#define SYSTEM_EXCEPTION_FIXREMOTINGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x186CC910)
+#define SYSTEM_EXCEPTION_GETBASEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x186CB270)
+#define SYSTEM_EXCEPTION_GETCLASSNAME_OFFSET UNITYSDK_OFFSET(0x186CB190)
+#define SYSTEM_EXCEPTION_GETMESSAGEFROMNATIVERESOURCES_OFFSET UNITYSDK_OFFSET(0x186CC8D0)
+#define SYSTEM_EXCEPTION_GETMETHODFROMSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x186CB290)
+#define SYSTEM_EXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x186CB9B0)
+#define SYSTEM_EXCEPTION_GETSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x186CB3D0)
+#define SYSTEM_EXCEPTION_GETTYPE_OFFSET UNITYSDK_OFFSET(0x186B0B00)
+#define SYSTEM_EXCEPTION_GET_DATA_OFFSET UNITYSDK_OFFSET(0x186CB1F0)
+#define SYSTEM_EXCEPTION_GET_HELPLINK_OFFSET UNITYSDK_OFFSET(0x186CB460)
+#define SYSTEM_EXCEPTION_GET_HRESULT_OFFSET UNITYSDK_OFFSET(0x186CC870)
+#define SYSTEM_EXCEPTION_GET_INNEREXCEPTION_OFFSET UNITYSDK_OFFSET(0x186CB280)
+#define SYSTEM_EXCEPTION_GET_ISTRANSIENT_OFFSET UNITYSDK_OFFSET(0x186CC8A0)
+#define SYSTEM_EXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x186CB020)
+#define SYSTEM_EXCEPTION_GET_REMOTESTACKTRACE_OFFSET UNITYSDK_OFFSET(0x186CC800)
+#define SYSTEM_EXCEPTION_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x186CB480)
+#define SYSTEM_EXCEPTION_GET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x186CB360)
+#define SYSTEM_EXCEPTION_GET_TARGETSITE_OFFSET UNITYSDK_OFFSET(0x186CB2A0)
+#define SYSTEM_EXCEPTION_INIT_OFFSET UNITYSDK_OFFSET(0x186CAFA0)
+#define SYSTEM_EXCEPTION_INTERNALPRESERVESTACKTRACE_OFFSET UNITYSDK_OFFSET(0x186CC760)
+#define SYSTEM_EXCEPTION_INTERNALTOSTRING_OFFSET UNITYSDK_OFFSET(0x186CC890)
+#define SYSTEM_EXCEPTION_ISIMMUTABLEAGILEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x186CB260)
+#define SYSTEM_EXCEPTION_NISTRANSIENT_OFFSET UNITYSDK_OFFSET(0x186CC8C0)
+#define SYSTEM_EXCEPTION_ONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x186CC720)
+#define SYSTEM_EXCEPTION_PREPFORREMOTING_OFFSET UNITYSDK_OFFSET(0x186CBDF0)
+#define SYSTEM_EXCEPTION_REMOVE_SERIALIZEOBJECTSTATE_OFFSET UNITYSDK_OFFSET(0x186CB920)
+#define SYSTEM_EXCEPTION_REPORTUNHANDLEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x186CCA30)
+#define SYSTEM_EXCEPTION_RESTOREEXCEPTIONDISPATCHINFO_OFFSET UNITYSDK_OFFSET(0x186CC810)
+#define SYSTEM_EXCEPTION_SETERRORCODE_OFFSET UNITYSDK_OFFSET(0x186C34E0)
+#define SYSTEM_EXCEPTION_SETMESSAGE_OFFSET UNITYSDK_OFFSET(0x186CC8F0)
+#define SYSTEM_EXCEPTION_SETSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x186CC900)
+#define SYSTEM_EXCEPTION_SET_HELPLINK_OFFSET UNITYSDK_OFFSET(0x186CB470)
+#define SYSTEM_EXCEPTION_SET_HRESULT_OFFSET UNITYSDK_OFFSET(0x186CC880)
+#define SYSTEM_EXCEPTION_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0x186CB560)
+#define SYSTEM_EXCEPTION_STRIPFILEINFO_OFFSET UNITYSDK_OFFSET(0x186CB450)
+#define SYSTEM_EXCEPTION_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x186CB580)
+#define SYSTEM_EXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x186CB570)
+#define SYSTEM_EXCEPTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x186CCA40)
+#define SYSTEM_EXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x186B8470)
+#define SYSTEM_EXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x186B84C0)
+#define SYSTEM_EXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x186B8560)
+#define SYSTEM_EXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x186CAFE0)
 
 namespace System
 {
-	inline static constexpr unsigned int Exception_TypeDefinitionIndex = 245;
+	inline static constexpr unsigned int Exception_TypeDefinitionIndex = 244;
 
 	class Exception : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_s_EDILock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Exception_TypeDefinitionIndex)->GetStaticField(0x6970);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Exception_TypeDefinitionIndex)->GetStaticField(0x60B0);
 		}
 		// static const ::System::Int32 _COMPlusExceptionCode = 0xE0434352; // 0x0
 		::System::String* _className; // 0x10
@@ -93,19 +93,19 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* message, ::System::Exception* innerException)
+		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION__CTOR_2_OFFSET))(this, message, innerException);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION__CTOR_3_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -128,9 +128,9 @@ namespace System
 			return ((::System::Collections::IDictionary*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GET_DATA_OFFSET))(this);
 		}
 
-		static ::System::Boolean IsImmutableAgileException(::System::Exception* e)
+		static ::System::Boolean IsImmutableAgileException(::System::Exception* a1)
 		{
-			return ((::System::Boolean(*)(::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_ISIMMUTABLEAGILEEXCEPTION_OFFSET))(e);
+			return ((::System::Boolean(*)(::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_ISIMMUTABLEAGILEEXCEPTION_OFFSET))(a1);
 		}
 
 		::System::String* GetClassName()
@@ -148,9 +148,9 @@ namespace System
 			return ((::System::Exception*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GET_INNEREXCEPTION_OFFSET))(this);
 		}
 
-		static ::System::IRuntimeMethodInfo* GetMethodFromStackTrace(::System::Object* stackTrace)
+		static ::System::IRuntimeMethodInfo* GetMethodFromStackTrace(::System::Object* a1)
 		{
-			return ((::System::IRuntimeMethodInfo*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GETMETHODFROMSTACKTRACE_OFFSET))(stackTrace);
+			return ((::System::IRuntimeMethodInfo*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GETMETHODFROMSTACKTRACE_OFFSET))(a1);
 		}
 
 		::System::Reflection::MethodBase* get_TargetSite()
@@ -163,14 +163,14 @@ namespace System
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GET_STACKTRACE_OFFSET))(this);
 		}
 
-		::System::String* GetStackTrace(::System::Boolean needFileInfo)
+		::System::String* GetStackTrace(::System::Boolean a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GETSTACKTRACE_OFFSET))(this, needFileInfo);
+			return ((::System::String*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GETSTACKTRACE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetErrorCode(::System::Int32 hr)
+		::System::Void SetErrorCode(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SETERRORCODE_OFFSET))(this, hr);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SETERRORCODE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_HelpLink()
@@ -178,9 +178,9 @@ namespace System
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GET_HELPLINK_OFFSET))(this);
 		}
 
-		::System::Void set_HelpLink(::System::String* value)
+		::System::Void set_HelpLink(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SET_HELPLINK_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SET_HELPLINK_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Source()
@@ -188,9 +188,9 @@ namespace System
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GET_SOURCE_OFFSET))(this);
 		}
 
-		::System::Void set_Source(::System::String* value)
+		::System::Void set_Source(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SET_SOURCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SET_SOURCE_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -198,24 +198,24 @@ namespace System
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* ToString_1(::System::Boolean needFileLineInfo, ::System::Boolean needMessage)
+		::System::String* ToString_1(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_TOSTRING_1_OFFSET))(this, needFileLineInfo, needMessage);
+			return ((::System::String*(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_TOSTRING_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void add_SerializeObjectState(::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* value)
+		::System::Void add_SerializeObjectState(::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_ADD_SERIALIZEOBJECTSTATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_ADD_SERIALIZEOBJECTSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_SerializeObjectState(::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* value)
+		::System::Void remove_SerializeObjectState(::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_REMOVE_SERIALIZEOBJECTSTATE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_REMOVE_SERIALIZEOBJECTSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GETOBJECTDATA_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Exception* PrepForRemoting()
@@ -223,9 +223,9 @@ namespace System
 			return ((::System::Exception*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_PREPFORREMOTING_OFFSET))(this);
 		}
 
-		::System::Void OnDeserialized(::System::Runtime::Serialization::StreamingContext context)
+		::System::Void OnDeserialized(::System::Runtime::Serialization::StreamingContext a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_ONDESERIALIZED_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_ONDESERIALIZED_OFFSET))(this, a1);
 		}
 
 		::System::Void InternalPreserveStackTrace()
@@ -238,14 +238,14 @@ namespace System
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GET_REMOTESTACKTRACE_OFFSET))(this);
 		}
 
-		::System::String* StripFileInfo(::System::String* stackTrace, ::System::Boolean isRemoteStackTrace)
+		::System::String* StripFileInfo(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_STRIPFILEINFO_OFFSET))(this, stackTrace, isRemoteStackTrace);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_STRIPFILEINFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RestoreExceptionDispatchInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* exceptionDispatchInfo)
+		::System::Void RestoreExceptionDispatchInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_RESTOREEXCEPTIONDISPATCHINFO_OFFSET))(this, exceptionDispatchInfo);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_RESTOREEXCEPTIONDISPATCHINFO_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_HResult()
@@ -253,9 +253,9 @@ namespace System
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GET_HRESULT_OFFSET))(this);
 		}
 
-		::System::Void set_HResult(::System::Int32 value)
+		::System::Void set_HResult(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SET_HRESULT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SET_HRESULT_OFFSET))(this, a1);
 		}
 
 		::System::String* InternalToString()
@@ -273,24 +273,24 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GET_ISTRANSIENT_OFFSET))(this);
 		}
 
-		static ::System::Boolean nIsTransient(::System::Int32 hr)
+		static ::System::Boolean nIsTransient(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_NISTRANSIENT_OFFSET))(hr);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_NISTRANSIENT_OFFSET))(a1);
 		}
 
-		static ::System::String* GetMessageFromNativeResources(::System::Exception_ExceptionMessageKind kind)
+		static ::System::String* GetMessageFromNativeResources(::System::Exception_ExceptionMessageKind a1)
 		{
-			return ((::System::String*(*)(::System::Exception_ExceptionMessageKind))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GETMESSAGEFROMNATIVERESOURCES_OFFSET))(kind);
+			return ((::System::String*(*)(::System::Exception_ExceptionMessageKind))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_GETMESSAGEFROMNATIVERESOURCES_OFFSET))(a1);
 		}
 
-		::System::Void SetMessage(::System::String* s)
+		::System::Void SetMessage(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SETMESSAGE_OFFSET))(this, s);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SETMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetStackTrace(::System::String* s)
+		::System::Void SetStackTrace(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SETSTACKTRACE_OFFSET))(this, s);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_SETSTACKTRACE_OFFSET))(this, a1);
 		}
 
 		::System::Exception* FixRemotingException()
@@ -298,9 +298,9 @@ namespace System
 			return ((::System::Exception*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_FIXREMOTINGEXCEPTION_OFFSET))(this);
 		}
 
-		static ::System::Void ReportUnhandledException(::System::Exception* exception)
+		static ::System::Void ReportUnhandledException(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_REPORTUNHANDLEDEXCEPTION_OFFSET))(exception);
+			return ((::System::Void(*)(::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_REPORTUNHANDLEDEXCEPTION_OFFSET))(a1);
 		}
 	};
 }

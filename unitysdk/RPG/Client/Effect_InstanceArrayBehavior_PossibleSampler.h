@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceArrayBehavior_PossibleSampler_TypeDefinitionIndex = 65103;
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_PossibleSampler_TypeDefinitionIndex = 66029;
 
 	enum class Effect_InstanceArrayBehavior_PossibleSampler : ::System::Int32
 	{

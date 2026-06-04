@@ -5,12 +5,12 @@
 
 namespace RPG::CustomRP { class RPGDepthOfField; }
 
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELDRENDERER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181596C0)
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELDRENDERER___C__DISPLAYCLASS11_0__SETUPDOFBOKEHPOLYGON_B__0_OFFSET UNITYSDK_OFFSET(0x18159930)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELDRENDERER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18EFF600)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELDRENDERER___C__DISPLAYCLASS11_0__SETUPDOFBOKEHPOLYGON_B__0_OFFSET UNITYSDK_OFFSET(0x18EFF870)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGDepthOfFieldRenderer___c__DisplayClass11_0_TypeDefinitionIndex = 35181;
+	inline static constexpr unsigned int RPGDepthOfFieldRenderer___c__DisplayClass11_0_TypeDefinitionIndex = 35481;
 
 	class RPGDepthOfFieldRenderer___c__DisplayClass11_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGDEPTHOFFIELDRENDERER___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector4 _SetupDOFBokehPolygon_b__0(::System::Single angle, ::System::Boolean finalPass)
+		::UnityEngine::Vector4 _SetupDOFBokehPolygon_b__0(::System::Single a1, ::System::Boolean a2)
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGDEPTHOFFIELDRENDERER___C__DISPLAYCLASS11_0__SETUPDOFBOKEHPOLYGON_B__0_OFFSET))(this, angle, finalPass);
+			return ((::UnityEngine::Vector4(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGDEPTHOFFIELDRENDERER___C__DISPLAYCLASS11_0__SETUPDOFBOKEHPOLYGON_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

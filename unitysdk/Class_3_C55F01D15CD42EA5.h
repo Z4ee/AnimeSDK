@@ -6,12 +6,12 @@ namespace RPG::GameCore { class BindPropsCablelines; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_3_C55F01D15CD42EA5_METHOD_3_6E8DE3966F438DB9_OFFSET UNITYSDK_OFFSET(0x1175AB10)
-#define CLASS_3_C55F01D15CD42EA5_METHOD_3_E97FC8C27C810984_OFFSET UNITYSDK_OFFSET(0x1175AE60)
-#define CLASS_3_C55F01D15CD42EA5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1175A9D0)
-#define CLASS_3_C55F01D15CD42EA5__CTOR_OFFSET UNITYSDK_OFFSET(0x1175A9A0)
+#define CLASS_3_C55F01D15CD42EA5_METHOD_3_C237F448E0A876F0_OFFSET UNITYSDK_OFFSET(0x1390C0F0)
+#define CLASS_3_C55F01D15CD42EA5_METHOD_3_E99C4967A0D3080D_OFFSET UNITYSDK_OFFSET(0x1390C460)
+#define CLASS_3_C55F01D15CD42EA5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1390BF90)
+#define CLASS_3_C55F01D15CD42EA5__CTOR_OFFSET UNITYSDK_OFFSET(0x1390BF60)
 
-inline static constexpr unsigned int Class_3_C55F01D15CD42EA5_TypeDefinitionIndex = 53444;
+inline static constexpr unsigned int Class_3_C55F01D15CD42EA5_TypeDefinitionIndex = 54157;
 
 class Class_3_C55F01D15CD42EA5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::BindPropsCablelines*>
 {
@@ -28,13 +28,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C55F01D15CD42EA5_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Boolean Method_3_6E8DE3966F438DB9(::System::UInt32 a1)
+	::System::Boolean Method_3_C237F448E0A876F0(::System::UInt32 a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_C55F01D15CD42EA5_METHOD_3_6E8DE3966F438DB9_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_C55F01D15CD42EA5_METHOD_3_C237F448E0A876F0_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_3_E97FC8C27C810984(::System::Object* a1)
+	::System::Void Method_3_E99C4967A0D3080D(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_C55F01D15CD42EA5_METHOD_3_E97FC8C27C810984_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_C55F01D15CD42EA5_METHOD_3_E99C4967A0D3080D_OFFSET))(this, a1);
 	}
 };

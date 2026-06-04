@@ -5,24 +5,24 @@
 namespace RPG::CustomRP { class FrameBlending_IFrameBlendingEndOP; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CUSTOMRP_FRAMEBLENDING_ENDBLENDING_OFFSET UNITYSDK_OFFSET(0x1813DCC0)
-#define RPG_CUSTOMRP_FRAMEBLENDING_STARTBLENDING_OFFSET UNITYSDK_OFFSET(0x1813DC40)
+#define RPG_CUSTOMRP_FRAMEBLENDING_ENDBLENDING_OFFSET UNITYSDK_OFFSET(0x18EE41C0)
+#define RPG_CUSTOMRP_FRAMEBLENDING_STARTBLENDING_OFFSET UNITYSDK_OFFSET(0x18EE4170)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FrameBlending_TypeDefinitionIndex = 34995;
+	inline static constexpr unsigned int FrameBlending_TypeDefinitionIndex = 35280;
 
 	class FrameBlending : public ::System::Object
 	{
 	public:
 		static ::RPG::CustomRP::FrameBlending_IFrameBlendingEndOP** StaticGet__Op()
 		{
-			return (::RPG::CustomRP::FrameBlending_IFrameBlendingEndOP**)Il2CppClass::FromTypeDefinitionIndex(FrameBlending_TypeDefinitionIndex)->GetStaticField(0x66DD0);
+			return (::RPG::CustomRP::FrameBlending_IFrameBlendingEndOP**)Il2CppClass::FromTypeDefinitionIndex(FrameBlending_TypeDefinitionIndex)->GetStaticField(0x61D70);
 		}
 
-		static ::System::Void StartBlending(::UnityEngine::RenderTexture* rt, ::System::Single startWeight, ::System::Single durationSec, ::RPG::CustomRP::FrameBlending_IFrameBlendingEndOP* op)
+		static ::System::Void StartBlending(::UnityEngine::RenderTexture* a1, ::System::Single a2, ::System::Single a3, ::RPG::CustomRP::FrameBlending_IFrameBlendingEndOP* a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::RenderTexture*, ::System::Single, ::System::Single, ::RPG::CustomRP::FrameBlending_IFrameBlendingEndOP*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEBLENDING_STARTBLENDING_OFFSET))(rt, startWeight, durationSec, op);
+			return ((::System::Void(*)(::UnityEngine::RenderTexture*, ::System::Single, ::System::Single, ::RPG::CustomRP::FrameBlending_IFrameBlendingEndOP*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEBLENDING_STARTBLENDING_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void EndBlending()

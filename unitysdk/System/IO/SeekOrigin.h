@@ -3,7 +3,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int SeekOrigin_TypeDefinitionIndex = 725;
+	inline static constexpr unsigned int SeekOrigin_TypeDefinitionIndex = 724;
 
 	enum class SeekOrigin : ::System::Int32
 	{

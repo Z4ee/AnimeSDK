@@ -5,17 +5,17 @@
 class Class_1_7EE2012A32ADD2BD;
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 
-#define CLASS_1_7EE2012A32ADD2BD___C__DISPLAYCLASS94_0__CTOR_OFFSET UNITYSDK_OFFSET(0x958DA60)
-#define CLASS_1_7EE2012A32ADD2BD___C__DISPLAYCLASS94_0___LOOKATCHAMPIONCAT_B__0_OFFSET UNITYSDK_OFFSET(0x958E110)
-#define CLASS_1_7EE2012A32ADD2BD___C__DISPLAYCLASS94_0___LOOKATCHAMPIONCAT_B__1_OFFSET UNITYSDK_OFFSET(0x958E1A0)
+#define CLASS_1_7EE2012A32ADD2BD___C__DISPLAYCLASS94_0__CTOR_OFFSET UNITYSDK_OFFSET(0x112BADF0)
+#define CLASS_1_7EE2012A32ADD2BD___C__DISPLAYCLASS94_0___LOOKATCHAMPIONCAT_B__0_OFFSET UNITYSDK_OFFSET(0x112BB4A0)
+#define CLASS_1_7EE2012A32ADD2BD___C__DISPLAYCLASS94_0___LOOKATCHAMPIONCAT_B__1_OFFSET UNITYSDK_OFFSET(0x112BB530)
 
-inline static constexpr unsigned int Class_1_7EE2012A32ADD2BD___c__DisplayClass94_0_TypeDefinitionIndex = 71518;
+inline static constexpr unsigned int Class_1_7EE2012A32ADD2BD___c__DisplayClass94_0_TypeDefinitionIndex = 72540;
 
 class Class_1_7EE2012A32ADD2BD___c__DisplayClass94_0 : public ::System::Object
 {
 public:
-	::Class_1_7EE2012A32ADD2BD* __4__this; // 0x10
-	::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* championCatView; // 0x18
+	::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* championCatView; // 0x10
+	::Class_1_7EE2012A32ADD2BD* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

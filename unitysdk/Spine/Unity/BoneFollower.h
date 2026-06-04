@@ -8,19 +8,19 @@ namespace Spine::Unity { class SkeletonRenderer; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_BONEFOLLOWER_AWAKE_OFFSET UNITYSDK_OFFSET(0x19E35690)
-#define SPINE_UNITY_BONEFOLLOWER_GET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x19E35320)
-#define SPINE_UNITY_BONEFOLLOWER_HANDLEREBUILDRENDERER_OFFSET UNITYSDK_OFFSET(0x19E356A0)
-#define SPINE_UNITY_BONEFOLLOWER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x19E35340)
-#define SPINE_UNITY_BONEFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x19E358C0)
-#define SPINE_UNITY_BONEFOLLOWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19E357D0)
-#define SPINE_UNITY_BONEFOLLOWER_SETBONE_OFFSET UNITYSDK_OFFSET(0x19E35580)
-#define SPINE_UNITY_BONEFOLLOWER_SET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x19E35330)
-#define SPINE_UNITY_BONEFOLLOWER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E36220)
+#define SPINE_UNITY_BONEFOLLOWER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ACAF480)
+#define SPINE_UNITY_BONEFOLLOWER_GET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1ACAF0E0)
+#define SPINE_UNITY_BONEFOLLOWER_HANDLEREBUILDRENDERER_OFFSET UNITYSDK_OFFSET(0x1ACAF490)
+#define SPINE_UNITY_BONEFOLLOWER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ACAF100)
+#define SPINE_UNITY_BONEFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1ACAF6A0)
+#define SPINE_UNITY_BONEFOLLOWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1ACAF5A0)
+#define SPINE_UNITY_BONEFOLLOWER_SETBONE_OFFSET UNITYSDK_OFFSET(0x1ACAF370)
+#define SPINE_UNITY_BONEFOLLOWER_SET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1ACAF0F0)
+#define SPINE_UNITY_BONEFOLLOWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACB0000)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int BoneFollower_TypeDefinitionIndex = 40568;
+	inline static constexpr unsigned int BoneFollower_TypeDefinitionIndex = 41395;
 
 	class BoneFollower : public ::UnityEngine::MonoBehaviour
 	{
@@ -50,14 +50,14 @@ namespace Spine::Unity
 			return ((::Spine::Unity::SkeletonRenderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWER_GET_SKELETONRENDERER_OFFSET))(this);
 		}
 
-		::System::Void set_SkeletonRenderer(::Spine::Unity::SkeletonRenderer* value)
+		::System::Void set_SkeletonRenderer(::Spine::Unity::SkeletonRenderer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWER_SET_SKELETONRENDERER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWER_SET_SKELETONRENDERER_OFFSET))(this, a1);
 		}
 
-		::System::Boolean SetBone(::System::String* name)
+		::System::Boolean SetBone(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWER_SETBONE_OFFSET))(this, name);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWER_SETBONE_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()
@@ -65,9 +65,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWER_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void HandleRebuildRenderer(::Spine::Unity::SkeletonRenderer* skeletonRenderer)
+		::System::Void HandleRebuildRenderer(::Spine::Unity::SkeletonRenderer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWER_HANDLEREBUILDRENDERER_OFFSET))(this, skeletonRenderer);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWER_HANDLEREBUILDRENDERER_OFFSET))(this, a1);
 		}
 
 		::System::Void Initialize()

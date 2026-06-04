@@ -6,33 +6,33 @@ namespace Epic::OnlineServices::Sessions { class CopySessionHandleByInviteIdOpti
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11A90)
-#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x73290)
-#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_INVITEID_OFFSET UNITYSDK_OFFSET(0x73110)
-#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x731C0)
+#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x127B0)
+#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x79630)
+#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_INVITEID_OFFSET UNITYSDK_OFFSET(0x794B0)
+#define EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x79560)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int CopySessionHandleByInviteIdOptionsInternal_TypeDefinitionIndex = 41248;
+	inline static constexpr unsigned int CopySessionHandleByInviteIdOptionsInternal_TypeDefinitionIndex = 42051;
 
 	struct alignas(8) CopySessionHandleByInviteIdOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_InviteId; // 0x18
 
-		::System::Void set_InviteId(::System::String* value)
+		::System::Void set_InviteId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_INVITEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_INVITEID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::CopySessionHandleByInviteIdOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::CopySessionHandleByInviteIdOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopySessionHandleByInviteIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::CopySessionHandleByInviteIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_COPYSESSIONHANDLEBYINVITEIDOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

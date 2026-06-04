@@ -9,7 +9,7 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-inline static constexpr unsigned int Class_1_EE60750735AAF463_Struct_2_0EC4DCF5C3BC3D80_TypeDefinitionIndex = 72573;
+inline static constexpr unsigned int Class_1_EE60750735AAF463_Struct_2_0EC4DCF5C3BC3D80_TypeDefinitionIndex = 74396;
 
 struct alignas(8) Class_1_EE60750735AAF463_Struct_2_0EC4DCF5C3BC3D80
 {

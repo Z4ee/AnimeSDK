@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_INCLINATIONTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A1B940)
-#define RPG_GAMECORE_INCLINATIONTEXTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A1BB00)
+#define RPG_GAMECORE_INCLINATIONTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1984D930)
+#define RPG_GAMECORE_INCLINATIONTEXTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1984DAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InclinationTextRow_TypeDefinitionIndex = 13078;
+	inline static constexpr unsigned int InclinationTextRow_TypeDefinitionIndex = 13159;
 
 	class InclinationTextRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* InclinationTypeList; // 0x10
-		::Il2CppArray<::System::UInt32>* InclinationAddValueList; // 0x18
+		::Il2CppArray<::System::UInt32>* InclinationAddValueList; // 0x10
+		::Il2CppArray<::System::UInt32>* InclinationTypeList; // 0x18
 		::System::UInt32 InclinationType; // 0x20
 		::System::UInt32 TalkSentenceID; // 0x24
 
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLINATIONTEXTROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::InclinationTextRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InclinationTextRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InclinationTextRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLINATIONTEXTROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InclinationTextRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLINATIONTEXTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

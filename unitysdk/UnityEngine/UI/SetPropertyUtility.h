@@ -6,19 +6,19 @@
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 namespace UnityEngine::UI { class CustomUIVectot4EqualityComparer; }
 
-#define UNITYENGINE_UI_SETPROPERTYUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x1A565B20)
-#define UNITYENGINE_UI_SETPROPERTYUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5A2690)
+#define UNITYENGINE_UI_SETPROPERTYUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x1B3B1ED0)
+#define UNITYENGINE_UI_SETPROPERTYUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3EE170)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 5721;
+	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 5998;
 
 	class SetPropertyUtility : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UI::CustomUIVectot4EqualityComparer** StaticGet_vectot4EqualityComparer()
 		{
-			return (::UnityEngine::UI::CustomUIVectot4EqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(SetPropertyUtility_TypeDefinitionIndex)->GetStaticField(0x1ADD0);
+			return (::UnityEngine::UI::CustomUIVectot4EqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(SetPropertyUtility_TypeDefinitionIndex)->GetStaticField(0x47DD0);
 		}
 
 		static ::System::Void _cctor()
@@ -26,9 +26,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SETPROPERTYUTILITY__CCTOR_OFFSET))();
 		}
 
-		static ::System::Boolean SetColor(::UnityEngine::Color& currentValue, ::UnityEngine::Color newValue)
+		static ::System::Boolean SetColor(::UnityEngine::Color& a1, ::UnityEngine::Color a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Color&, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SETPROPERTYUTILITY_SETCOLOR_OFFSET))(currentValue, newValue);
+			return ((::System::Boolean(*)(::UnityEngine::Color&, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SETPROPERTYUTILITY_SETCOLOR_OFFSET))(a1, a2);
 		}
 	};
 }

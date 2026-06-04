@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParameterCondition_TypeDefinitionIndex = 65083;
+	inline static constexpr unsigned int ParameterCondition_TypeDefinitionIndex = 66009;
 
 	struct alignas(1) ParameterCondition
 	{

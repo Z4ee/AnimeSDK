@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_NET_SECURITY_NOREFLECTIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1A0A37B0)
-#define MONO_NET_SECURITY_NOREFLECTIONHELPER_GETPROVIDER_OFFSET UNITYSDK_OFFSET(0x1A0A3870)
+#define MONO_NET_SECURITY_NOREFLECTIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1AF14760)
+#define MONO_NET_SECURITY_NOREFLECTIONHELPER_GETPROVIDER_OFFSET UNITYSDK_OFFSET(0x1AF14830)
 
 namespace Mono::Net::Security
 {
@@ -12,9 +12,9 @@ namespace Mono::Net::Security
 	class NoReflectionHelper : public ::System::Object
 	{
 	public:
-		static ::System::Object* GetInternalValidator(::System::Object* provider, ::System::Object* settings)
+		static ::System::Object* GetInternalValidator(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Object*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_NOREFLECTIONHELPER_GETINTERNALVALIDATOR_OFFSET))(provider, settings);
+			return ((::System::Object*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_NOREFLECTIONHELPER_GETINTERNALVALIDATOR_OFFSET))(a1, a2);
 		}
 
 		static ::System::Object* GetProvider()

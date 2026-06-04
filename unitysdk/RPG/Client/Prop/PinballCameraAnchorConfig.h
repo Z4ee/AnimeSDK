@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PinballCameraAnchorConfig_TypeDefinitionIndex = 72268;
+	inline static constexpr unsigned int PinballCameraAnchorConfig_TypeDefinitionIndex = 73290;
 
 	struct alignas(4) PinballCameraAnchorConfig
 	{

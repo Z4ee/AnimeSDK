@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSERINFOOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8E42CE0)
-#define EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSERINFOOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8E42CF0)
-#define EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSERINFOOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E42D00)
+#define EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSERINFOOPTIONS_GET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA29C820)
+#define EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSERINFOOPTIONS_SET_TARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA29C830)
+#define EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSERINFOOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA29C840)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int CopyProductUserInfoOptions_TypeDefinitionIndex = 42270;
+	inline static constexpr unsigned int CopyProductUserInfoOptions_TypeDefinitionIndex = 43073;
 
 	class CopyProductUserInfoOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Connect
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSERINFOOPTIONS_GET_TARGETUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_TargetUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSERINFOOPTIONS_SET_TARGETUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_COPYPRODUCTUSERINFOOPTIONS_SET_TARGETUSERID_OFFSET))(this, a1);
 		}
 	};
 }

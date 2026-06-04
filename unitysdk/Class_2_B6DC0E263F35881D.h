@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ListenTargetUseSkill; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_2_B6DC0E263F35881D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAFDE7E0)
-#define CLASS_2_B6DC0E263F35881D_METHOD_2_2AA27BA1D6C33879_OFFSET UNITYSDK_OFFSET(0xAFDE980)
-#define CLASS_2_B6DC0E263F35881D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAFDE690)
-#define CLASS_2_B6DC0E263F35881D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAFDE760)
-#define CLASS_2_B6DC0E263F35881D_TICK_OFFSET UNITYSDK_OFFSET(0xAFDE8A0)
-#define CLASS_2_B6DC0E263F35881D__CTOR_OFFSET UNITYSDK_OFFSET(0xAFDE610)
+#define CLASS_2_B6DC0E263F35881D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA53C770)
+#define CLASS_2_B6DC0E263F35881D_METHOD_2_4A48A93CA7A0FA4A_OFFSET UNITYSDK_OFFSET(0xA53C950)
+#define CLASS_2_B6DC0E263F35881D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA53C600)
+#define CLASS_2_B6DC0E263F35881D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA53C6F0)
+#define CLASS_2_B6DC0E263F35881D_TICK_OFFSET UNITYSDK_OFFSET(0xA53C870)
+#define CLASS_2_B6DC0E263F35881D__CTOR_OFFSET UNITYSDK_OFFSET(0xA53C580)
 
-inline static constexpr unsigned int Class_2_B6DC0E263F35881D_TypeDefinitionIndex = 48836;
+inline static constexpr unsigned int Class_2_B6DC0E263F35881D_TypeDefinitionIndex = 49502;
 
 class Class_2_B6DC0E263F35881D : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::GameEntity* Field_2_1; // 0x18
-	::Class_3_E21F6DE9B7FA4D05* Field_2_0; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x28
-	::RPG::GameCore::ListenTargetUseSkill* Field_2_2; // 0x30
+	::RPG::GameCore::ListenTargetUseSkill* Field_2_0; // 0x18
+	::Class_3_07C3C4D2990C49EE* Field_2_1; // 0x20
+	::RPG::GameCore::GameEntity* Field_2_2; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_3; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ListenTargetUseSkill* a2)
 	{
@@ -50,8 +50,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_B6DC0E263F35881D_TICK_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_2AA27BA1D6C33879(::System::Object* a1)
+	::System::Void Method_2_4A48A93CA7A0FA4A(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_B6DC0E263F35881D_METHOD_2_2AA27BA1D6C33879_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_B6DC0E263F35881D_METHOD_2_4A48A93CA7A0FA4A_OFFSET))(this, a1);
 	}
 };

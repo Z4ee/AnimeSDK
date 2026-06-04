@@ -6,30 +6,30 @@ namespace RPG::Client { class IRogueTournBuildRefDataItem; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER_FILTER_OFFSET UNITYSDK_OFFSET(0xB0A5890)
-#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYAVATAR_OFFSET UNITYSDK_OFFSET(0xB0A5CD0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYFORMULA_OFFSET UNITYSDK_OFFSET(0xB0A6550)
+#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER_FILTER_OFFSET UNITYSDK_OFFSET(0xC7F6910)
+#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYAVATAR_OFFSET UNITYSDK_OFFSET(0xC7F6D50)
+#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYFORMULA_OFFSET UNITYSDK_OFFSET(0xC7F7600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefFilterHelper_TypeDefinitionIndex = 62227;
+	inline static constexpr unsigned int RogueTournBuildRefFilterHelper_TypeDefinitionIndex = 63160;
 
 	class RogueTournBuildRefFilterHelper : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::RPG::Client::IRogueTournBuildRefDataItem*>* Filter(::System::Collections::Generic::List_1<::RPG::Client::IRogueTournBuildRefDataItem*>* src, ::System::Collections::Generic::List_1<::System::UInt32>* filteredAvatarRealIDs, ::System::Collections::Generic::List_1<::System::UInt32>* filteredFormulaIDs)
+		static ::System::Collections::Generic::List_1<::RPG::Client::IRogueTournBuildRefDataItem*>* Filter(::System::Collections::Generic::List_1<::RPG::Client::IRogueTournBuildRefDataItem*>* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::IRogueTournBuildRefDataItem*>*(*)(::System::Collections::Generic::List_1<::RPG::Client::IRogueTournBuildRefDataItem*>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER_FILTER_OFFSET))(src, filteredAvatarRealIDs, filteredFormulaIDs);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::IRogueTournBuildRefDataItem*>*(*)(::System::Collections::Generic::List_1<::RPG::Client::IRogueTournBuildRefDataItem*>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER_FILTER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean _IsMatchAnyAvatar(::RPG::Client::IRogueTournBuildRefDataItem* data, ::System::Collections::Generic::HashSet_1<::System::UInt32>* filteredAvatarRealIDs)
+		static ::System::Boolean _IsMatchAnyAvatar(::RPG::Client::IRogueTournBuildRefDataItem* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYAVATAR_OFFSET))(data, filteredAvatarRealIDs);
+			return ((::System::Boolean(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYAVATAR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean _IsMatchAnyFormula(::RPG::Client::IRogueTournBuildRefDataItem* data, ::System::Collections::Generic::HashSet_1<::System::UInt32>* filteredFormulas)
+		static ::System::Boolean _IsMatchAnyFormula(::RPG::Client::IRogueTournBuildRefDataItem* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYFORMULA_OFFSET))(data, filteredFormulas);
+			return ((::System::Boolean(*)(::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYFORMULA_OFFSET))(a1, a2);
 		}
 	};
 }

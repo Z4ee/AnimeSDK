@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA493FB0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS5_0__ISLISTCONTAINSEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0xA494E50)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB335C0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS5_0__ISLISTCONTAINSEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0xBB34690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackUtils___c__DisplayClass5_0_TypeDefinitionIndex = 60168;
+	inline static constexpr unsigned int GridFightEquipTrackUtils___c__DisplayClass5_0_TypeDefinitionIndex = 61103;
 
 	class GridFightEquipTrackUtils___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _IsListContainsEquip_b__0(::System::UInt32 x)
+		::System::Boolean _IsListContainsEquip_b__0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS5_0__ISLISTCONTAINSEQUIP_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPTRACKUTILS___C__DISPLAYCLASS5_0__ISLISTCONTAINSEQUIP_B__0_OFFSET))(this, a1);
 		}
 	};
 }

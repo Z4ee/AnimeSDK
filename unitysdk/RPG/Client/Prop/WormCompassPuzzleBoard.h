@@ -29,114 +29,114 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_CANCELSELECTEFFECT_OFFSET UNITYSDK_OFFSET(0xAF14190)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAF105B0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETEFFECTPARAMS_OFFSET UNITYSDK_OFFSET(0xAF0B8F0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETFINISHTREASUREBOX_OFFSET UNITYSDK_OFFSET(0xAF13430)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETITEM_OFFSET UNITYSDK_OFFSET(0xAF12F50)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETORIBLOCK_OFFSET UNITYSDK_OFFSET(0xAF13210)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETORIITEM_OFFSET UNITYSDK_OFFSET(0xAF130B0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETROUTEFINISH_OFFSET UNITYSDK_OFFSET(0xAF133E0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETSELECTEFFECTPATH_OFFSET UNITYSDK_OFFSET(0xAF0ABF0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETTREASUREBOX_OFFSET UNITYSDK_OFFSET(0xAF111B0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_HIDEALLSHOWITEMS_OFFSET UNITYSDK_OFFSET(0xAF100C0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xAF0AC50)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ISBLOCK_OFFSET UNITYSDK_OFFSET(0xAF13370)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xAF11940)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ISTREASUREBOX_OFFSET UNITYSDK_OFFSET(0xAF11140)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_14014646206E49EF_OFFSET UNITYSDK_OFFSET(0xAF0BD10)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_1BBB005414AEB64F_OFFSET UNITYSDK_OFFSET(0xAF12F00)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xAF135F0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_3D89D6893A434AE8_OFFSET UNITYSDK_OFFSET(0xAF107C0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_5176DC743E478510_OFFSET UNITYSDK_OFFSET(0xAF0FC90)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_648B18622A9B054A_OFFSET UNITYSDK_OFFSET(0xAF0FF10)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_6B72D4EE8C6E907F_OFFSET UNITYSDK_OFFSET(0xAF0E160)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0xAF13CA0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0xAF15050)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_88AA25DE39CF5532_OFFSET UNITYSDK_OFFSET(0xAF13480)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_BF9C25E762BD53B3_OFFSET UNITYSDK_OFFSET(0xAF0F4A0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_C58796335AE5B43E_OFFSET UNITYSDK_OFFSET(0xAF14510)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0xAF153A0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_D89E9B7A3325AE84_OFFSET UNITYSDK_OFFSET(0xAF0E2A0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_FD6692A5F6B0AC0C_OFFSET UNITYSDK_OFFSET(0xAF0B310)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONCANCELCLICK_OFFSET UNITYSDK_OFFSET(0xAF14EB0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONCANCEL_OFFSET UNITYSDK_OFFSET(0xAF14020)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xAF150D0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONDIRECTIONLEFT_OFFSET UNITYSDK_OFFSET(0xAF13650)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONDIRECTIONRIGHT_OFFSET UNITYSDK_OFFSET(0xAF13890)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONLEFTROTATION_OFFSET UNITYSDK_OFFSET(0xAF13AD0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONRESETCLICK_OFFSET UNITYSDK_OFFSET(0xAF14E00)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONRIGHTROTATION_OFFSET UNITYSDK_OFFSET(0xAF13B80)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONSTARTBTN_OFFSET UNITYSDK_OFFSET(0xAF13C30)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_RESETPUZZLE_OFFSET UNITYSDK_OFFSET(0xAF11840)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ROTATERING_OFFSET UNITYSDK_OFFSET(0xAF12910)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_SELECTEFFECT_OFFSET UNITYSDK_OFFSET(0xAF14C20)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xAF0E250)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_TICKPUZZLE_OFFSET UNITYSDK_OFFSET(0xAF11990)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD__CCTOR_OFFSET UNITYSDK_OFFSET(0xAF156C0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xAF15540)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD__INITPUZZLE_B__47_0_OFFSET UNITYSDK_OFFSET(0xAF158E0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAF159C0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xAF15950)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xAF15A30)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_RESETPUZZLE_OFFSET UNITYSDK_OFFSET(0xAF159D0)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xAF15960)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_TICKPUZZLE_OFFSET UNITYSDK_OFFSET(0xAF15AD0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_CANCELSELECTEFFECT_OFFSET UNITYSDK_OFFSET(0xC658BE0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC654DA0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETEFFECTPARAMS_OFFSET UNITYSDK_OFFSET(0xC650490)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETFINISHTREASUREBOX_OFFSET UNITYSDK_OFFSET(0xC657EA0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETITEM_OFFSET UNITYSDK_OFFSET(0xC657980)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETORIBLOCK_OFFSET UNITYSDK_OFFSET(0xC657C20)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETORIITEM_OFFSET UNITYSDK_OFFSET(0xC657AD0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETROUTEFINISH_OFFSET UNITYSDK_OFFSET(0xC657E50)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETSELECTEFFECTPATH_OFFSET UNITYSDK_OFFSET(0xC64F720)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_GETTREASUREBOX_OFFSET UNITYSDK_OFFSET(0xC655BA0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_HIDEALLSHOWITEMS_OFFSET UNITYSDK_OFFSET(0xC6548E0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xC64F780)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ISBLOCK_OFFSET UNITYSDK_OFFSET(0xC657D70)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xC656270)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ISTREASUREBOX_OFFSET UNITYSDK_OFFSET(0xC655AC0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_0076C796B2045359_OFFSET UNITYSDK_OFFSET(0xC6544D0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_1C6AD2DA62FB6EB1_OFFSET UNITYSDK_OFFSET(0xC657930)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xC658060)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_37D641371E4C8F58_OFFSET UNITYSDK_OFFSET(0xC659A30)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_45AA2F5085C2C40D_OFFSET UNITYSDK_OFFSET(0xC6586F0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_648B18622A9B054A_OFFSET UNITYSDK_OFFSET(0xC654730)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_6D93101E4CE10A96_OFFSET UNITYSDK_OFFSET(0xC652960)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_763B70E1B527E566_OFFSET UNITYSDK_OFFSET(0xC64FEC0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_88AA25DE39CF5532_OFFSET UNITYSDK_OFFSET(0xC657EF0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_8DCD1FEC09DA5176_OFFSET UNITYSDK_OFFSET(0xC6508B0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_9501A7230F36162B_OFFSET UNITYSDK_OFFSET(0xC658F70)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_A56385E6706FA723_OFFSET UNITYSDK_OFFSET(0xC653C00)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_AE80CBC984AADFD5_OFFSET UNITYSDK_OFFSET(0xC654FB0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0xC659DE0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_FDF9B21BA16000B3_OFFSET UNITYSDK_OFFSET(0xC652A90)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONCANCELCLICK_OFFSET UNITYSDK_OFFSET(0xC6598A0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONCANCEL_OFFSET UNITYSDK_OFFSET(0xC658A80)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC659AA0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONDIRECTIONLEFT_OFFSET UNITYSDK_OFFSET(0xC6580C0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONDIRECTIONRIGHT_OFFSET UNITYSDK_OFFSET(0xC6582F0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONLEFTROTATION_OFFSET UNITYSDK_OFFSET(0xC658520)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONRESETCLICK_OFFSET UNITYSDK_OFFSET(0xC6597F0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONRIGHTROTATION_OFFSET UNITYSDK_OFFSET(0xC6585D0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONSTARTBTN_OFFSET UNITYSDK_OFFSET(0xC658680)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_RESETPUZZLE_OFFSET UNITYSDK_OFFSET(0xC656170)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ROTATERING_OFFSET UNITYSDK_OFFSET(0xC657330)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_SELECTEFFECT_OFFSET UNITYSDK_OFFSET(0xC659610)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xC652A40)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_TICKPUZZLE_OFFSET UNITYSDK_OFFSET(0xC6562C0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD__CCTOR_OFFSET UNITYSDK_OFFSET(0xC65A160)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xC659FE0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD__INITPUZZLE_B__47_0_OFFSET UNITYSDK_OFFSET(0xC65A350)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC65A430)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xC65A3C0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xC65A4A0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_RESETPUZZLE_OFFSET UNITYSDK_OFFSET(0xC65A440)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xC65A3D0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_TICKPUZZLE_OFFSET UNITYSDK_OFFSET(0xC65A530)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WormCompassPuzzleBoard_TypeDefinitionIndex = 72422;
+	inline static constexpr unsigned int WormCompassPuzzleBoard_TypeDefinitionIndex = 73444;
 
 	class WormCompassPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:
-		static ::System::String** StaticGet__RouteStartSoundEvent()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0xC7C0);
-		}
 		static ::System::String** StaticGet__GameKey()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0xC7C8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x246A0);
+		}
+		static ::System::String** StaticGet__RouteStartSoundEvent()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x246A8);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_Field_6_2()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x246B0);
 		}
 		static ::System::String** StaticGet__RouteStopSoundEvent()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0xC7D0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_Field_6_56()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0xC7D8);
-		}
-		static ::RPG::Client::Prop::WormCompassPuzzleWormAvatar** StaticGet_GlobalAvatar()
-		{
-			return (::RPG::Client::Prop::WormCompassPuzzleWormAvatar**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0xC7E0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x246B8);
 		}
 		static ::System::String** StaticGet__PuzzleFinishSoundEvent()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0xC7E8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x246C0);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet__SelectRingSoundEvent()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0xC7F0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x246C8);
 		}
-		static ::System::Int32* StaticGet_Field_6_43()
+		static ::RPG::Client::Prop::WormCompassPuzzleWormAvatar** StaticGet_GlobalAvatar()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x4BD0);
+			return (::RPG::Client::Prop::WormCompassPuzzleWormAvatar**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x246D0);
 		}
-		static ::System::Int32* StaticGet_Field_6_58()
+		static ::System::Int32* StaticGet_Field_6_7()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x4BD4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x9230);
 		}
-		static ::System::Int32* StaticGet_Field_6_46()
+		static ::System::Int32* StaticGet_Field_6_8()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x4BD8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x9234);
+		}
+		static ::System::Int32* StaticGet_Field_6_9()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x9238);
+		}
+		static ::System::Int32* StaticGet_Field_6_10()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x923C);
 		}
 		static ::System::UInt32* StaticGet_ACHIEVEMENT_ID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x4BDC);
-		}
-		static ::System::Int32* StaticGet_Field_6_47()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x4BE0);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x9240);
 		}
 		::System::Int32 Row; // 0x48
 		::System::Int32 Col; // 0x4C
@@ -151,40 +151,40 @@ namespace RPG::Client::Prop
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassFinishRoute*>* FinishRoutes; // 0x90
 		::System::String* SavedGroupPropertyName; // 0x98
 		::System::String* StartScanEffectPath; // 0xA0
-		::RPG::Client::TriggerEffectParams* Field_6_13; // 0xA8
+		::RPG::Client::TriggerEffectParams* Field_6_25; // 0xA8
 		::System::String* SelectingEffectPath; // 0xB0
 		::System::String* NightSelectingEffectPath; // 0xB8
-		::RPG::Client::TriggerEffectParams* Field_6_16; // 0xC0
-		::RPG::Client::MonoEffect* Field_6_17; // 0xC8
+		::RPG::Client::TriggerEffectParams* Field_6_28; // 0xC0
+		::RPG::Client::MonoEffect* Field_6_29; // 0xC8
 		::System::Boolean IsDayPuzzle; // 0xD0
 		::System::Single ItemDelayShowAfterScan; // 0xD4
 		::RPG::GameCore::DynamicString* RouteReadyEvent; // 0xD8
 		::System::Single RouteFinishDelay; // 0xE0
 		::System::Single FadeOutDelay; // 0xE4
-		::System::Single Field_6_23; // 0xE8
-		::System::Boolean Field_6_24; // 0xEC
-		::System::Boolean Field_6_25; // 0xED
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleRingController*>* Field_6_26; // 0xF0
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleItem*>* Field_6_27; // 0xF8
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleBlock*>* Field_6_28; // 0x100
-		::RPG::Client::Prop::WormCompassPuzzleWormAvatar* Field_6_29; // 0x108
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleTreasureBox*>* Field_6_30; // 0x110
-		::System::Int32 Field_6_31; // 0x118
-		::System::Boolean Field_6_32; // 0x11C
-		::System::Boolean Field_6_33; // 0x11D
-		::System::Boolean Field_6_34; // 0x11E
-		::System::Boolean Field_6_35; // 0x11F
-		::System::Boolean Field_6_36; // 0x120
-		::RPG::Client::Prop::WormCompassFinishRoute* Field_6_37; // 0x128
-		::RPG::Client::Prop::WormCompassPuzzleTreasureBox* Field_6_38; // 0x130
-		::UnityEngine::UI::Image* Field_6_39; // 0x138
+		::System::Single Field_6_35; // 0xE8
+		::System::Boolean Field_6_36; // 0xEC
+		::System::Boolean Field_6_37; // 0xED
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleRingController*>* Field_6_38; // 0xF0
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleItem*>* Field_6_39; // 0xF8
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleBlock*>* Field_6_40; // 0x100
+		::RPG::Client::Prop::WormCompassPuzzleWormAvatar* Field_6_41; // 0x108
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleTreasureBox*>* Field_6_42; // 0x110
+		::System::Int32 Field_6_43; // 0x118
+		::System::Boolean Field_6_44; // 0x11C
+		::System::Boolean Field_6_45; // 0x11D
+		::System::Boolean Field_6_46; // 0x11E
+		::System::Boolean Field_6_47; // 0x11F
+		::System::Boolean Field_6_48; // 0x120
+		::RPG::Client::Prop::WormCompassFinishRoute* Field_6_49; // 0x128
+		::RPG::Client::Prop::WormCompassPuzzleTreasureBox* Field_6_50; // 0x130
+		::UnityEngine::UI::Image* Field_6_51; // 0x138
 		::RPG::Client::Prop::WormCompassPuzzleItem* StartPoint; // 0x140
 		::RPG::Client::Prop::WormCompassPuzzleItem* EndPoint; // 0x148
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleItem*>* Field_6_44; // 0x150
-		::System::Int32 Field_6_45; // 0x158
-		::System::Int32 Field_6_53; // 0x15C
-		::System::Int32 Field_6_54; // 0x160
-		::System::String* Field_6_55; // 0x168
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleItem*>* Field_6_54; // 0x150
+		::System::Int32 Field_6_55; // 0x158
+		::System::Int32 Field_6_56; // 0x15C
+		::System::Int32 Field_6_57; // 0x160
+		::System::String* Field_6_58; // 0x168
 		::System::Int32 Field_6_59; // 0x170
 
 		::System::Void _ctor()
@@ -207,14 +207,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropInitPuzzle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_INITPUZZLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_6_FD6692A5F6B0AC0C()
+		::System::Void Method_6_763B70E1B527E566()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_FD6692A5F6B0AC0C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_763B70E1B527E566_OFFSET))(this);
 		}
 
-		::System::Void Method_6_14014646206E49EF()
+		::System::Void Method_6_8DCD1FEC09DA5176()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_14014646206E49EF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_8DCD1FEC09DA5176_OFFSET))(this);
 		}
 
 		::System::Void StartPuzzle()
@@ -222,9 +222,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_STARTPUZZLE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_D89E9B7A3325AE84(::System::Boolean a1)
+		::System::Void Method_6_FDF9B21BA16000B3(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_D89E9B7A3325AE84_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_FDF9B21BA16000B3_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_6_648B18622A9B054A(::RPG::Client::Prop::WormCompassPuzzleItemBase* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
@@ -242,9 +242,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_BF9C25E762BD53B3()
+		::System::Void Method_6_A56385E6706FA723()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_BF9C25E762BD53B3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_A56385E6706FA723_OFFSET))(this);
 		}
 
 		::System::Void ResetPuzzle()
@@ -267,9 +267,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ROTATERING_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_6_1BBB005414AEB64F()
+		::System::Void Method_6_1C6AD2DA62FB6EB1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_1BBB005414AEB64F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_1C6AD2DA62FB6EB1_OFFSET))(this);
 		}
 
 		::RPG::Client::Prop::WormCompassPuzzleItem* GetItem(::System::Int32 a1, ::System::Int32 a2)
@@ -357,19 +357,19 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONCANCEL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_739DB9F245C7FAD0()
+		::System::Void Method_6_45AA2F5085C2C40D()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_739DB9F245C7FAD0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_45AA2F5085C2C40D_OFFSET))(this);
 		}
 
-		::System::Void Method_6_C58796335AE5B43E(::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleItem*>* a1)
+		::System::Void Method_6_9501A7230F36162B(::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleItem*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_C58796335AE5B43E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::Prop::WormCompassPuzzleItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_9501A7230F36162B_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_6B72D4EE8C6E907F()
+		::System::Void Method_6_6D93101E4CE10A96()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_6B72D4EE8C6E907F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_6D93101E4CE10A96_OFFSET))(this);
 		}
 
 		::System::Void OnResetClick(::System::Object* a1)
@@ -382,9 +382,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_ONCANCELCLICK_OFFSET))(this);
 		}
 
-		::System::Void Method_6_7DD84EAFF333A1E4(::System::Object* a1)
+		::System::Void Method_6_37D641371E4C8F58(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_7DD84EAFF333A1E4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_37D641371E4C8F58_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDestroy()
@@ -407,24 +407,24 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_CANCELSELECTEFFECT_OFFSET))(this);
 		}
 
-		::System::Void Method_6_5176DC743E478510()
+		::System::Void Method_6_0076C796B2045359()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_5176DC743E478510_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_0076C796B2045359_OFFSET))(this);
 		}
 
-		::System::Void Method_6_3D89D6893A434AE8()
+		::System::Void Method_6_AE80CBC984AADFD5()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_3D89D6893A434AE8_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD_METHOD_6_AE80CBC984AADFD5_OFFSET))(this);
 		}
 
-		::System::Void _InitPuzzle_b__47_0(::RPG::Client::MonoEffect* effect, ::RPG::Client::TriggerEffectCallbackParams param)
+		::System::Void _InitPuzzle_b__47_0(::RPG::Client::MonoEffect* a1, ::RPG::Client::TriggerEffectCallbackParams a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD__INITPUZZLE_B__47_0_OFFSET))(this, effect, param);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD__INITPUZZLE_B__47_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_InitPuzzle(::RPG::GameCore::GameEntity* P0, ::RPG::GameCore::TaskContext* P1, ::RPG::GameCore::PropInitPuzzle* P2)
+		::System::Void __iFixBaseProxy_InitPuzzle(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TaskContext* a2, ::RPG::GameCore::PropInitPuzzle* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropInitPuzzle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_INITPUZZLE_OFFSET))(this, P0, P1, P2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropInitPuzzle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_INITPUZZLE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __iFixBaseProxy_StartPuzzle()
@@ -447,9 +447,9 @@ namespace RPG::Client::Prop
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_ISPUZZLEFINISH_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_TickPuzzle(::System::Single P0)
+		::System::Void __iFixBaseProxy_TickPuzzle(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_TICKPUZZLE_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___IFIXBASEPROXY_TICKPUZZLE_OFFSET))(this, a1);
 		}
 	};
 }

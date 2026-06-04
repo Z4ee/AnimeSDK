@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int ChessBoardState_TypeDefinitionIndex = 38870;
+	inline static constexpr unsigned int ChessBoardState_TypeDefinitionIndex = 39638;
 
 	enum class ChessBoardState : ::System::Int32
 	{

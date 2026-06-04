@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_MONOLIMITATIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F45BA0)
+#define SYSTEM_MONOLIMITATIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADBCD00)
 
 namespace System
 {
@@ -13,9 +13,9 @@ namespace System
 	class MonoLimitationAttribute : public ::System::MonoTODOAttribute
 	{
 	public:
-		::System::Void _ctor(::System::String* comment)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_MONOLIMITATIONATTRIBUTE__CTOR_OFFSET))(this, comment);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_MONOLIMITATIONATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

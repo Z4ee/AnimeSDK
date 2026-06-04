@@ -5,14 +5,14 @@
 
 namespace System { class String; }
 
-#define MONO_NET_CFSTRING_ASSTRING_OFFSET UNITYSDK_OFFSET(0x1A097940)
-#define MONO_NET_CFSTRING_CFSTRINGCREATEWITHCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1A098520)
-#define MONO_NET_CFSTRING_CFSTRINGGETCHARACTERSPTR_OFFSET UNITYSDK_OFFSET(0x1A098630)
-#define MONO_NET_CFSTRING_CFSTRINGGETCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1A0986B0)
-#define MONO_NET_CFSTRING_CFSTRINGGETLENGTH_OFFSET UNITYSDK_OFFSET(0x1A0985B0)
-#define MONO_NET_CFSTRING_CREATE_OFFSET UNITYSDK_OFFSET(0x1A093CB0)
-#define MONO_NET_CFSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A098750)
-#define MONO_NET_CFSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A098490)
+#define MONO_NET_CFSTRING_ASSTRING_OFFSET UNITYSDK_OFFSET(0x1AF08A20)
+#define MONO_NET_CFSTRING_CFSTRINGCREATEWITHCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1AF09600)
+#define MONO_NET_CFSTRING_CFSTRINGGETCHARACTERSPTR_OFFSET UNITYSDK_OFFSET(0x1AF09710)
+#define MONO_NET_CFSTRING_CFSTRINGGETCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1AF09790)
+#define MONO_NET_CFSTRING_CFSTRINGGETLENGTH_OFFSET UNITYSDK_OFFSET(0x1AF09690)
+#define MONO_NET_CFSTRING_CREATE_OFFSET UNITYSDK_OFFSET(0x1AF050E0)
+#define MONO_NET_CFSTRING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AF09830)
+#define MONO_NET_CFSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF09570)
 
 namespace Mono::Net
 {
@@ -23,39 +23,39 @@ namespace Mono::Net
 	public:
 		::System::String* str; // 0x18
 
-		::System::Void _ctor(::System::IntPtr handle, ::System::Boolean own)
+		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING__CTOR_OFFSET))(this, handle, own);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::IntPtr CFStringCreateWithCharacters(::System::IntPtr alloc, ::System::IntPtr chars, ::System::IntPtr length)
+		static ::System::IntPtr CFStringCreateWithCharacters(::System::IntPtr a1, ::System::IntPtr a2, ::System::IntPtr a3)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_CFSTRINGCREATEWITHCHARACTERS_OFFSET))(alloc, chars, length);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_CFSTRINGCREATEWITHCHARACTERS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Mono::Net::CFString* Create(::System::String* value)
+		static ::Mono::Net::CFString* Create(::System::String* a1)
 		{
-			return ((::Mono::Net::CFString*(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_CREATE_OFFSET))(value);
+			return ((::Mono::Net::CFString*(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_CREATE_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr CFStringGetLength(::System::IntPtr handle)
+		static ::System::IntPtr CFStringGetLength(::System::IntPtr a1)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_CFSTRINGGETLENGTH_OFFSET))(handle);
+			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_CFSTRINGGETLENGTH_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr CFStringGetCharactersPtr(::System::IntPtr handle)
+		static ::System::IntPtr CFStringGetCharactersPtr(::System::IntPtr a1)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_CFSTRINGGETCHARACTERSPTR_OFFSET))(handle);
+			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_CFSTRINGGETCHARACTERSPTR_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr CFStringGetCharacters(::System::IntPtr handle, ::Mono::Net::CFRange range, ::System::IntPtr buffer)
+		static ::System::IntPtr CFStringGetCharacters(::System::IntPtr a1, ::Mono::Net::CFRange a2, ::System::IntPtr a3)
 		{
-			return ((::System::IntPtr(*)(::System::IntPtr, ::Mono::Net::CFRange, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_CFSTRINGGETCHARACTERS_OFFSET))(handle, range, buffer);
+			return ((::System::IntPtr(*)(::System::IntPtr, ::Mono::Net::CFRange, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_CFSTRINGGETCHARACTERS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* AsString(::System::IntPtr handle)
+		static ::System::String* AsString(::System::IntPtr a1)
 		{
-			return ((::System::String*(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_ASSTRING_OFFSET))(handle);
+			return ((::System::String*(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFSTRING_ASSTRING_OFFSET))(a1);
 		}
 
 		::System::String* ToString()

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMatchThreeBirdData_TypeDefinitionIndex = 60759;
+	inline static constexpr unsigned int IMatchThreeBirdData_TypeDefinitionIndex = 61693;
 
 	class IMatchThreeBirdData
 	{

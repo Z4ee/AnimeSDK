@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SupportedRenderingFeatures_ReflectionProbeModes_TypeDefinitionIndex = 4583;
+	inline static constexpr unsigned int SupportedRenderingFeatures_ReflectionProbeModes_TypeDefinitionIndex = 4757;
 
 	enum class SupportedRenderingFeatures_ReflectionProbeModes : ::System::Int32
 	{

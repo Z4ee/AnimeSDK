@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_PRESENCE_ADDNOTIFYONPRESENCECHANGEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8F00840)
+#define EPIC_ONLINESERVICES_PRESENCE_ADDNOTIFYONPRESENCECHANGEDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA32B020)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int AddNotifyOnPresenceChangedOptions_TypeDefinitionIndex = 41578;
+	inline static constexpr unsigned int AddNotifyOnPresenceChangedOptions_TypeDefinitionIndex = 42381;
 
 	class AddNotifyOnPresenceChangedOptions : public ::System::Object
 	{

@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_B55037134F9E6688.h"
 
-class Class_2_843468DEB2C89684;
+class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount; }
 
-#define CLASS_2_9536F1F16F34C5F4_METHOD_2_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x17C5CAB0)
-#define CLASS_2_9536F1F16F34C5F4__CTOR_OFFSET UNITYSDK_OFFSET(0x17C5CAA0)
+#define CLASS_2_9536F1F16F34C5F4_METHOD_2_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0x189AFCB0)
+#define CLASS_2_9536F1F16F34C5F4__CTOR_OFFSET UNITYSDK_OFFSET(0x189AFCA0)
 
-inline static constexpr unsigned int Class_2_9536F1F16F34C5F4_TypeDefinitionIndex = 34106;
+inline static constexpr unsigned int Class_2_9536F1F16F34C5F4_TypeDefinitionIndex = 34388;
 
 class Class_2_9536F1F16F34C5F4 : public ::Class_1_B55037134F9E6688
 {
 public:
 	::RPG::GameCore::DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount* Field_2_0; // 0x18
-	::Class_2_843468DEB2C89684* Field_2_1; // 0x20
+	::Class_2_48488E8DBD9F6BCE* Field_2_1; // 0x20
 
-	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount* a1, ::Class_2_843468DEB2C89684* a2)
+	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount*, ::Class_2_843468DEB2C89684*))((::PBYTE)hIl2Cpp + CLASS_2_9536F1F16F34C5F4__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount*, ::Class_2_48488E8DBD9F6BCE*))((::PBYTE)hIl2Cpp + CLASS_2_9536F1F16F34C5F4__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_4307B2A4B4A12C1A()
+	::System::Void Method_2_51CFFE2AF748ECD7()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9536F1F16F34C5F4_METHOD_2_4307B2A4B4A12C1A_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9536F1F16F34C5F4_METHOD_2_51CFFE2AF748ECD7_OFFSET))(this);
 	}
 };

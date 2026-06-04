@@ -5,10 +5,10 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_430A26F60E7987BB___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD9C0C60)
-#define CLASS_2_430A26F60E7987BB___C__DISPLAYCLASS4_0___GETGLOBALVALUEINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xD9C0C80)
+#define CLASS_2_430A26F60E7987BB___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12AAA530)
+#define CLASS_2_430A26F60E7987BB___C__DISPLAYCLASS4_0___GETGLOBALVALUEINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x12AAA550)
 
-inline static constexpr unsigned int Class_2_430A26F60E7987BB___c__DisplayClass4_0_TypeDefinitionIndex = 60115;
+inline static constexpr unsigned int Class_2_430A26F60E7987BB___c__DisplayClass4_0_TypeDefinitionIndex = 61050;
 
 class Class_2_430A26F60E7987BB___c__DisplayClass4_0 : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_430A26F60E7987BB___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __GetGlobalValueIndex_b__0(::System::UInt32 x)
+	::System::Boolean __GetGlobalValueIndex_b__0(::System::UInt32 a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_430A26F60E7987BB___C__DISPLAYCLASS4_0___GETGLOBALVALUEINDEX_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_430A26F60E7987BB___C__DISPLAYCLASS4_0___GETGLOBALVALUEINDEX_B__0_OFFSET))(this, a1);
 	}
 };

@@ -6,14 +6,17 @@
 #include "unitysdk/RPG/GameCore/TeamMemberCountingOption.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETMAPADJOINENTITY_METHOD_3_6293A8663FBD49AF_OFFSET UNITYSDK_OFFSET(0x18EE7170)
-#define RPG_GAMECORE_TARGETMAPADJOINENTITY_METHOD_3_DCCAF6D535829D72_OFFSET UNITYSDK_OFFSET(0x18EE7200)
-#define RPG_GAMECORE_TARGETMAPADJOINENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18EE71D0)
+#define RPG_GAMECORE_TARGETMAPADJOINENTITY_METHOD_3_1D0E26877CE7F9C9_OFFSET UNITYSDK_OFFSET(0x19D11510)
+#define RPG_GAMECORE_TARGETMAPADJOINENTITY_METHOD_3_6293A8663FBD49AF_OFFSET UNITYSDK_OFFSET(0x19D11200)
+#define RPG_GAMECORE_TARGETMAPADJOINENTITY_METHOD_3_DCCAF6D535829D72_OFFSET UNITYSDK_OFFSET(0x19D11290)
+#define RPG_GAMECORE_TARGETMAPADJOINENTITY_METHOD_3_FA00819225E3FDF4_OFFSET UNITYSDK_OFFSET(0x19D114B0)
+#define RPG_GAMECORE_TARGETMAPADJOINENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19D11260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMapAdjoinEntity_TypeDefinitionIndex = 23006;
+	inline static constexpr unsigned int TargetMapAdjoinEntity_TypeDefinitionIndex = 22696;
 
 	class TargetMapAdjoinEntity : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -37,6 +40,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_DCCAF6D535829D72(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapAdjoinEntity* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapAdjoinEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPADJOINENTITY_METHOD_3_DCCAF6D535829D72_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_FA00819225E3FDF4(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapAdjoinEntity*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapAdjoinEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPADJOINENTITY_METHOD_3_FA00819225E3FDF4_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_1D0E26877CE7F9C9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapAdjoinEntity* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapAdjoinEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPADJOINENTITY_METHOD_3_1D0E26877CE7F9C9_OFFSET))(a1, a2);
 		}
 	};
 }

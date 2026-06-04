@@ -7,12 +7,12 @@ namespace RPG::GameCore { class CharacterPhaseOverrideConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERPHASECONFIG_METHOD_2_791DAF45E584AAD0_OFFSET UNITYSDK_OFFSET(0x187D5280)
-#define RPG_GAMECORE_CHARACTERPHASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187D5590)
+#define RPG_GAMECORE_CHARACTERPHASECONFIG_METHOD_2_791DAF45E584AAD0_OFFSET UNITYSDK_OFFSET(0x19612B40)
+#define RPG_GAMECORE_CHARACTERPHASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19612E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterPhaseConfig_TypeDefinitionIndex = 15622;
+	inline static constexpr unsigned int CharacterPhaseConfig_TypeDefinitionIndex = 15681;
 
 	class CharacterPhaseConfig : public ::RPG::GameCore::JsonConfig
 	{

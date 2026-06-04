@@ -7,17 +7,17 @@ namespace Epic::OnlineServices::Auth { class IdToken; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11700)
-#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x113F0)
-#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_GET_JSONWEBTOKEN_OFFSET UNITYSDK_OFFSET(0x11520)
-#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x11690)
-#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x11460)
-#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_JSONWEBTOKEN_OFFSET UNITYSDK_OFFSET(0x115D0)
-#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x11680)
+#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12420)
+#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x12100)
+#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_GET_JSONWEBTOKEN_OFFSET UNITYSDK_OFFSET(0x12230)
+#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x123A0)
+#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x12170)
+#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_JSONWEBTOKEN_OFFSET UNITYSDK_OFFSET(0x122E0)
+#define EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x12390)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int IdTokenInternal_TypeDefinitionIndex = 42370;
+	inline static constexpr unsigned int IdTokenInternal_TypeDefinitionIndex = 43173;
 
 	struct alignas(8) IdTokenInternal
 	{
@@ -30,9 +30,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_GET_ACCOUNTID_OFFSET))(this);
 		}
 
-		::System::Void set_AccountId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_AccountId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_ACCOUNTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_ACCOUNTID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_JsonWebToken()
@@ -40,19 +40,19 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_GET_JSONWEBTOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_JsonWebToken(::System::String* value)
+		::System::Void set_JsonWebToken(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_JSONWEBTOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_JSONWEBTOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Auth::IdToken* other)
+		::System::Void Set(::Epic::OnlineServices::Auth::IdToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IdToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IdToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_IDTOKENINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

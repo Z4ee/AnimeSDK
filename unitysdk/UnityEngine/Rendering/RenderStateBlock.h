@@ -9,13 +9,13 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_RENDERSTATEBLOCK_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22EB9D0)
-#define UNITYENGINE_RENDERING_RENDERSTATEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x22EB970)
-#define UNITYENGINE_RENDERING_RENDERSTATEBLOCK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22EBA80)
+#define UNITYENGINE_RENDERING_RENDERSTATEBLOCK_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3889E80)
+#define UNITYENGINE_RENDERING_RENDERSTATEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x3889E20)
+#define UNITYENGINE_RENDERING_RENDERSTATEBLOCK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3889F30)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderStateBlock_TypeDefinitionIndex = 4572;
+	inline static constexpr unsigned int RenderStateBlock_TypeDefinitionIndex = 4746;
 
 	struct alignas(4) RenderStateBlock
 	{
@@ -26,14 +26,14 @@ namespace UnityEngine::Rendering
 		::System::Int32 m_StencilReference; // 0x74
 		::UnityEngine::Rendering::RenderStateMask m_Mask; // 0x78
 
-		::System::Boolean Equals(::UnityEngine::Rendering::RenderStateBlock other)
+		::System::Boolean Equals(::UnityEngine::Rendering::RenderStateBlock a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::RenderStateBlock))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERSTATEBLOCK_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::RenderStateBlock))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERSTATEBLOCK_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERSTATEBLOCK_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERSTATEBLOCK_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

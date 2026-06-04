@@ -12,17 +12,17 @@ namespace RPG::GameCore { class UI3DVirtualCameraComponent; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x9DB2DE0)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_MOVECAMERA_OFFSET UNITYSDK_OFFSET(0x9DB34C0)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9DB32E0)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_STARTBLEND_OFFSET UNITYSDK_OFFSET(0x9DB36A0)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__CHANGEAVATARIDTOMAN_OFFSET UNITYSDK_OFFSET(0x9DB3420)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x9DB3A00)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__GETENTITYMANAGER_OFFSET UNITYSDK_OFFSET(0x9DB30B0)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xB38EA50)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_MOVECAMERA_OFFSET UNITYSDK_OFFSET(0xB38F150)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB38EF90)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_STARTBLEND_OFFSET UNITYSDK_OFFSET(0xB38F3A0)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__CHANGEAVATARIDTOMAN_OFFSET UNITYSDK_OFFSET(0xB38F0C0)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB38F7E0)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__GETENTITYMANAGER_OFFSET UNITYSDK_OFFSET(0xB38ED50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathChangeCameraController_TypeDefinitionIndex = 65748;
+	inline static constexpr unsigned int AvatarPathChangeCameraController_TypeDefinitionIndex = 66682;
 
 	class AvatarPathChangeCameraController : public ::UnityEngine::MonoBehaviour
 	{
@@ -56,19 +56,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__GETENTITYMANAGER_OFFSET))(this);
 		}
 
-		::System::UInt32 _ChangeAvatarIDToMan(::System::UInt32 avatarID)
+		::System::UInt32 _ChangeAvatarIDToMan(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__CHANGEAVATARIDTOMAN_OFFSET))(this, avatarID);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__CHANGEAVATARIDTOMAN_OFFSET))(this, a1);
 		}
 
-		::System::Void MoveCamera(::System::UInt32 avatarID, ::System::Single mainLightDirOffsetX, ::System::Single mainLightDirOffsetY)
+		::System::Void MoveCamera(::System::UInt32 a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_MOVECAMERA_OFFSET))(this, avatarID, mainLightDirOffsetX, mainLightDirOffsetY);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_MOVECAMERA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void StartBlend(::System::UInt32 fromAvatarID, ::System::UInt32 toAvatarID, ::System::Single mainLightDirOffsetX, ::System::Single mainLightDirOffsetY)
+		::System::Void StartBlend(::System::UInt32 a1, ::System::UInt32 a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_STARTBLEND_OFFSET))(this, fromAvatarID, toAvatarID, mainLightDirOffsetX, mainLightDirOffsetY);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_STARTBLEND_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

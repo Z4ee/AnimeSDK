@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PERFORMANCEAUDIOEVENTCONFIG_METHOD_2_443B9CEB74630587_OFFSET UNITYSDK_OFFSET(0x18BDC300)
-#define RPG_GAMECORE_PERFORMANCEAUDIOEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDC5E0)
+#define RPG_GAMECORE_PERFORMANCEAUDIOEVENTCONFIG_METHOD_2_1F3E0846007AA8FE_OFFSET UNITYSDK_OFFSET(0x199EE4F0)
+#define RPG_GAMECORE_PERFORMANCEAUDIOEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199EE770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceAudioEventConfig_TypeDefinitionIndex = 15509;
+	inline static constexpr unsigned int PerformanceAudioEventConfig_TypeDefinitionIndex = 15570;
 
 	class PerformanceAudioEventConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEAUDIOEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_443B9CEB74630587(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceAudioEventConfig*& a2)
+		static ::System::Void Method_2_1F3E0846007AA8FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceAudioEventConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceAudioEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEAUDIOEVENTCONFIG_METHOD_2_443B9CEB74630587_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceAudioEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEAUDIOEVENTCONFIG_METHOD_2_1F3E0846007AA8FE_OFFSET))(a1, a2);
 		}
 	};
 }

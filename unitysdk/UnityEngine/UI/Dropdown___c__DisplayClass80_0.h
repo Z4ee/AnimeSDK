@@ -5,12 +5,12 @@
 namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class Dropdown_DropdownItem; }
 
-#define UNITYENGINE_UI_DROPDOWN___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A54A2C0)
-#define UNITYENGINE_UI_DROPDOWN___C__DISPLAYCLASS80_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1A54B060)
+#define UNITYENGINE_UI_DROPDOWN___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B395D60)
+#define UNITYENGINE_UI_DROPDOWN___C__DISPLAYCLASS80_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B396BA0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Dropdown___c__DisplayClass80_0_TypeDefinitionIndex = 5591;
+	inline static constexpr unsigned int Dropdown___c__DisplayClass80_0_TypeDefinitionIndex = 5868;
 
 	class Dropdown___c__DisplayClass80_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN___C__DISPLAYCLASS80_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::System::Boolean x)
+		::System::Void _Show_b__0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN___C__DISPLAYCLASS80_0__SHOW_B__0_OFFSET))(this, x);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_DROPDOWN___C__DISPLAYCLASS80_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

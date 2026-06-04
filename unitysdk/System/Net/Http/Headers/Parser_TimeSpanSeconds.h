@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_TIMESPANSECONDS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x19F67340)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_TIMESPANSECONDS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1ADDCF00)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Parser_TimeSpanSeconds_TypeDefinitionIndex = 4838;
+	inline static constexpr unsigned int Parser_TimeSpanSeconds_TypeDefinitionIndex = 3805;
 
 	class Parser_TimeSpanSeconds : public ::System::Object
 	{
 	public:
-		static ::System::Boolean TryParse(::System::String* input, ::System::TimeSpan& result)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::TimeSpan& a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_PARSER_TIMESPANSECONDS_TRYPARSE_OFFSET))(input, result);
+			return ((::System::Boolean(*)(::System::String*, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_PARSER_TIMESPANSECONDS_TRYPARSE_OFFSET))(a1, a2);
 		}
 	};
 }

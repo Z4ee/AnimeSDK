@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFateGameMasterInfoMirrorItem_TypeDefinitionIndex = 58966;
+	inline static constexpr unsigned int IFateGameMasterInfoMirrorItem_TypeDefinitionIndex = 59896;
 
 	class IFateGameMasterInfoMirrorItem
 	{

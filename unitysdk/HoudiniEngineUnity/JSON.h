@@ -5,18 +5,18 @@
 namespace HoudiniEngineUnity { class JSONNode; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x8CBC690)
+#define HOUDINIENGINEUNITY_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x17F5A7C0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 43735;
+	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 37722;
 
 	class JSON : public ::System::Object
 	{
 	public:
-		static ::HoudiniEngineUnity::JSONNode* Parse(::System::String* aJSON)
+		static ::HoudiniEngineUnity::JSONNode* Parse(::System::String* a1)
 		{
-			return ((::HoudiniEngineUnity::JSONNode*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSON_PARSE_OFFSET))(aJSON);
+			return ((::HoudiniEngineUnity::JSONNode*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSON_PARSE_OFFSET))(a1);
 		}
 	};
 }

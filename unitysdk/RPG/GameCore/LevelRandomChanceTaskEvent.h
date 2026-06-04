@@ -6,13 +6,13 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6DEA60)
-#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6DEA10)
-#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DEA00)
+#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE4CB60)
+#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE4CB10)
+#define RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4CB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRandomChanceTaskEvent_TypeDefinitionIndex = 52351;
+	inline static constexpr unsigned int LevelRandomChanceTaskEvent_TypeDefinitionIndex = 53048;
 
 	class LevelRandomChanceTaskEvent : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 		::System::String* LogComment; // 0x18
 		::System::Single Chance; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* pEntity, ::System::Single chance, ::System::String* log)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Single a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Single, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT__CTOR_OFFSET))(this, pEntity, chance, log);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Single, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELRANDOMCHANCETASKEVENT__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

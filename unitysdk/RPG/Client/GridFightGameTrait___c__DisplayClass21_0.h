@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class GridFightTrait; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS21_0__CHECKHASTRAITBYEFFECTTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xA4E5F20)
-#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4E4C40)
+#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS21_0__CHECKHASTRAITBYEFFECTTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xBB8C880)
+#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB8B480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameTrait___c__DisplayClass21_0_TypeDefinitionIndex = 60218;
+	inline static constexpr unsigned int GridFightGameTrait___c__DisplayClass21_0_TypeDefinitionIndex = 61153;
 
 	class GridFightGameTrait___c__DisplayClass21_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS21_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _CheckHasTraitByEffectType_b__0(::RPG::Client::GridFightTrait* trait)
+		::System::Boolean _CheckHasTraitByEffectType_b__0(::RPG::Client::GridFightTrait* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS21_0__CHECKHASTRAITBYEFFECTTYPE_B__0_OFFSET))(this, trait);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS21_0__CHECKHASTRAITBYEFFECTTYPE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

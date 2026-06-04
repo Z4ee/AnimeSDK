@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int Environment_SpecialFolderOption_TypeDefinitionIndex = 371;
+	inline static constexpr unsigned int Environment_SpecialFolderOption_TypeDefinitionIndex = 370;
 
 	enum class Environment_SpecialFolderOption : ::System::Int32
 	{

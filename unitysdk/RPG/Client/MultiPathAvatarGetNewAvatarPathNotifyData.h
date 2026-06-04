@@ -5,11 +5,11 @@
 
 namespace RPG::Client { class ItemDisplayData; }
 
-#define RPG_CLIENT_MULTIPATHAVATARGETNEWAVATARPATHNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAAE9EC0)
+#define RPG_CLIENT_MULTIPATHAVATARGETNEWAVATARPATHNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC1B8360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiPathAvatarGetNewAvatarPathNotifyData_TypeDefinitionIndex = 61063;
+	inline static constexpr unsigned int MultiPathAvatarGetNewAvatarPathNotifyData_TypeDefinitionIndex = 61992;
 
 	class MultiPathAvatarGetNewAvatarPathNotifyData : public ::System::Object
 	{

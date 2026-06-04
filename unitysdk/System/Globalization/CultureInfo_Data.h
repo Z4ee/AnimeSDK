@@ -4,7 +4,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CultureInfo_Data_TypeDefinitionIndex = 789;
+	inline static constexpr unsigned int CultureInfo_Data_TypeDefinitionIndex = 788;
 
 	struct alignas(4) CultureInfo_Data
 	{

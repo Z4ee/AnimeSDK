@@ -10,26 +10,26 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define MIHOYO_SDK_JSONARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x1755FAF0)
-#define MIHOYO_SDK_JSONARRAY_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1754B9D0)
-#define MIHOYO_SDK_JSONARRAY_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1755FD50)
-#define MIHOYO_SDK_JSONARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1755FAD0)
-#define MIHOYO_SDK_JSONARRAY_GET_INLINE_OFFSET UNITYSDK_OFFSET(0x1755F590)
-#define MIHOYO_SDK_JSONARRAY_GET_ISARRAY_OFFSET UNITYSDK_OFFSET(0x1755F5C0)
-#define MIHOYO_SDK_JSONARRAY_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x1755F910)
-#define MIHOYO_SDK_JSONARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1755F600)
-#define MIHOYO_SDK_JSONARRAY_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1755F5B0)
-#define MIHOYO_SDK_JSONARRAY_REMOVE_1_OFFSET UNITYSDK_OFFSET(0x1755FCF0)
-#define MIHOYO_SDK_JSONARRAY_REMOVE_OFFSET UNITYSDK_OFFSET(0x1755FC60)
-#define MIHOYO_SDK_JSONARRAY_SET_INLINE_OFFSET UNITYSDK_OFFSET(0x1755F5A0)
-#define MIHOYO_SDK_JSONARRAY_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x1755F960)
-#define MIHOYO_SDK_JSONARRAY_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1755F6C0)
-#define MIHOYO_SDK_JSONARRAY_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x1755FEF0)
-#define MIHOYO_SDK_JSONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1754B660)
+#define MIHOYO_SDK_JSONARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x18347740)
+#define MIHOYO_SDK_JSONARRAY_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18333070)
+#define MIHOYO_SDK_JSONARRAY_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x18347A30)
+#define MIHOYO_SDK_JSONARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x18347720)
+#define MIHOYO_SDK_JSONARRAY_GET_INLINE_OFFSET UNITYSDK_OFFSET(0x18347110)
+#define MIHOYO_SDK_JSONARRAY_GET_ISARRAY_OFFSET UNITYSDK_OFFSET(0x18347140)
+#define MIHOYO_SDK_JSONARRAY_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x18347500)
+#define MIHOYO_SDK_JSONARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x18347180)
+#define MIHOYO_SDK_JSONARRAY_GET_TAG_OFFSET UNITYSDK_OFFSET(0x18347130)
+#define MIHOYO_SDK_JSONARRAY_REMOVE_1_OFFSET UNITYSDK_OFFSET(0x183479D0)
+#define MIHOYO_SDK_JSONARRAY_REMOVE_OFFSET UNITYSDK_OFFSET(0x18347910)
+#define MIHOYO_SDK_JSONARRAY_SET_INLINE_OFFSET UNITYSDK_OFFSET(0x18347120)
+#define MIHOYO_SDK_JSONARRAY_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x18347550)
+#define MIHOYO_SDK_JSONARRAY_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x18347250)
+#define MIHOYO_SDK_JSONARRAY_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x18347BC0)
+#define MIHOYO_SDK_JSONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x18332C80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JSONArray_TypeDefinitionIndex = 7171;
+	inline static constexpr unsigned int JSONArray_TypeDefinitionIndex = 8074;
 
 	class JSONArray : public ::MiHoYo::SDK::JSONNode
 	{
@@ -47,9 +47,9 @@ namespace MiHoYo::SDK
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_GET_INLINE_OFFSET))(this);
 		}
 
-		::System::Void set_Inline(::System::Boolean value)
+		::System::Void set_Inline(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_SET_INLINE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_SET_INLINE_OFFSET))(this, a1);
 		}
 
 		::MiHoYo::SDK::JSONNodeType get_Tag()
@@ -67,24 +67,24 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::JSONNode_Enumerator(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_GETENUMERATOR_OFFSET))(this);
 		}
 
-		::MiHoYo::SDK::JSONNode* get_Item(::System::Int32 aIndex)
+		::MiHoYo::SDK::JSONNode* get_Item(::System::Int32 a1)
 		{
-			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_GET_ITEM_OFFSET))(this, aIndex);
+			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item(::System::Int32 aIndex, ::MiHoYo::SDK::JSONNode* value)
+		::System::Void set_Item(::System::Int32 a1, ::MiHoYo::SDK::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_SET_ITEM_OFFSET))(this, aIndex, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
-		::MiHoYo::SDK::JSONNode* get_Item_1(::System::String* aKey)
+		::MiHoYo::SDK::JSONNode* get_Item_1(::System::String* a1)
 		{
-			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_GET_ITEM_1_OFFSET))(this, aKey);
+			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_GET_ITEM_1_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Item_1(::System::String* aKey, ::MiHoYo::SDK::JSONNode* value)
+		::System::Void set_Item_1(::System::String* a1, ::MiHoYo::SDK::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_SET_ITEM_1_OFFSET))(this, aKey, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_SET_ITEM_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_Count()
@@ -92,19 +92,19 @@ namespace MiHoYo::SDK
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_GET_COUNT_OFFSET))(this);
 		}
 
-		::System::Void Add(::System::String* aKey, ::MiHoYo::SDK::JSONNode* aItem)
+		::System::Void Add(::System::String* a1, ::MiHoYo::SDK::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_ADD_OFFSET))(this, aKey, aItem);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_ADD_OFFSET))(this, a1, a2);
 		}
 
-		::MiHoYo::SDK::JSONNode* Remove(::System::Int32 aIndex)
+		::MiHoYo::SDK::JSONNode* Remove(::System::Int32 a1)
 		{
-			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_REMOVE_OFFSET))(this, aIndex);
+			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_REMOVE_OFFSET))(this, a1);
 		}
 
-		::MiHoYo::SDK::JSONNode* Remove_1(::MiHoYo::SDK::JSONNode* aNode)
+		::MiHoYo::SDK::JSONNode* Remove_1(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_REMOVE_1_OFFSET))(this, aNode);
+			return ((::MiHoYo::SDK::JSONNode*(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_REMOVE_1_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IEnumerable_1<::MiHoYo::SDK::JSONNode*>* get_Children()
@@ -112,9 +112,9 @@ namespace MiHoYo::SDK
 			return ((::System::Collections::Generic::IEnumerable_1<::MiHoYo::SDK::JSONNode*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_GET_CHILDREN_OFFSET))(this);
 		}
 
-		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* aSB, ::System::Int32 aIndent, ::System::Int32 aIndentInc, ::MiHoYo::SDK::JSONTextMode aMode)
+		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* a1, ::System::Int32 a2, ::System::Int32 a3, ::MiHoYo::SDK::JSONTextMode a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::MiHoYo::SDK::JSONTextMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_WRITETOSTRINGBUILDER_OFFSET))(this, aSB, aIndent, aIndentInc, aMode);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::MiHoYo::SDK::JSONTextMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONARRAY_WRITETOSTRINGBUILDER_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

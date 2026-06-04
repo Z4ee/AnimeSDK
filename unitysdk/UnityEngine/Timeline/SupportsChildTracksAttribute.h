@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_SUPPORTSCHILDTRACKSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3EBE10)
+#define UNITYENGINE_TIMELINE_SUPPORTSCHILDTRACKSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B240B80)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int SupportsChildTracksAttribute_TypeDefinitionIndex = 35623;
+	inline static constexpr unsigned int SupportsChildTracksAttribute_TypeDefinitionIndex = 35923;
 
 	class SupportsChildTracksAttribute : public ::System::Attribute
 	{
@@ -16,9 +16,9 @@ namespace UnityEngine::Timeline
 		::System::Type* childType; // 0x10
 		::System::Int32 levels; // 0x18
 
-		::System::Void _ctor(::System::Type* childType, ::System::Int32 levels)
+		::System::Void _ctor(::System::Type* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_SUPPORTSCHILDTRACKSATTRIBUTE__CTOR_OFFSET))(this, childType, levels);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_SUPPORTSCHILDTRACKSATTRIBUTE__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

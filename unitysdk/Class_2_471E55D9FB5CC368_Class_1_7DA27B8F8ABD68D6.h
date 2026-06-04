@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_E01DF6570E9D1BA0;
+namespace RPG::GameCore { class GameEntity; }
+
+#define CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6_GETHPPROGRESS_OFFSET UNITYSDK_OFFSET(0x143B9D60)
+#define CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6_GETKILLPROGRESS_OFFSET UNITYSDK_OFFSET(0x143B9C00)
+#define CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6_GETREDIRECTINFO_OFFSET UNITYSDK_OFFSET(0x143B9E00)
+#define CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6_METHOD_1_0208EC436624B061_OFFSET UNITYSDK_OFFSET(0x143B9CA0)
+#define CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6_METHOD_1_89AE3FDE25BEC3FA_OFFSET UNITYSDK_OFFSET(0x143B9E50)
+#define CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6__CTOR_OFFSET UNITYSDK_OFFSET(0x143B9880)
+
+inline static constexpr unsigned int Class_2_471E55D9FB5CC368_Class_1_7DA27B8F8ABD68D6_TypeDefinitionIndex = 52314;
+
+class Class_2_471E55D9FB5CC368_Class_1_7DA27B8F8ABD68D6 : public ::System::Object
+{
+public:
+	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
+	::Il2CppArray<::System::UInt32>* Field_1_1; // 0x18
+
+	::System::Void _ctor(::Il2CppArray<::System::UInt32>* a1, ::Il2CppArray<::System::UInt32>* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::UInt32 GetKillProgress(::System::UInt32 a1)
+	{
+		return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6_GETKILLPROGRESS_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 GetHPProgress(::System::UInt32 a1)
+	{
+		return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6_GETHPPROGRESS_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_0208EC436624B061(::System::UInt32 a1)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6_METHOD_1_0208EC436624B061_OFFSET))(this, a1);
+	}
+
+	::Class_1_E01DF6570E9D1BA0* GetRedirectInfo(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::Class_1_E01DF6570E9D1BA0*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6_GETREDIRECTINFO_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_89AE3FDE25BEC3FA(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_471E55D9FB5CC368_CLASS_1_7DA27B8F8ABD68D6_METHOD_1_89AE3FDE25BEC3FA_OFFSET))(this, a1);
+	}
+};

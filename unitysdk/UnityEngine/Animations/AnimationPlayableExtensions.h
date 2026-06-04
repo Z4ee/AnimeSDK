@@ -5,18 +5,18 @@
 
 namespace UnityEngine { class AnimationClip; }
 
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEEXTENSIONS_SETANIMATEDPROPERTIESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A40F4D0)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEEXTENSIONS_SETANIMATEDPROPERTIESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B263BB0)
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int AnimationPlayableExtensions_TypeDefinitionIndex = 5080;
+	inline static constexpr unsigned int AnimationPlayableExtensions_TypeDefinitionIndex = 5174;
 
 	class AnimationPlayableExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Void SetAnimatedPropertiesInternal(::UnityEngine::Playables::PlayableHandle& playable, ::UnityEngine::AnimationClip* animatedProperties)
+		static ::System::Void SetAnimatedPropertiesInternal(::UnityEngine::Playables::PlayableHandle& a1, ::UnityEngine::AnimationClip* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableHandle&, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEEXTENSIONS_SETANIMATEDPROPERTIESINTERNAL_OFFSET))(playable, animatedProperties);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableHandle&, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEEXTENSIONS_SETANIMATEDPROPERTIESINTERNAL_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PERFORMDELAYEXECUTE_METHOD_3_03CB628FE4B6784C_OFFSET UNITYSDK_OFFSET(0x18BDAE60)
-#define RPG_GAMECORE_PERFORMDELAYEXECUTE_METHOD_3_838C23B8D9F93EBE_OFFSET UNITYSDK_OFFSET(0x18BDAEE0)
-#define RPG_GAMECORE_PERFORMDELAYEXECUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDAEB0)
+#define RPG_GAMECORE_PERFORMDELAYEXECUTE_METHOD_3_5AB35309CAAE71D8_OFFSET UNITYSDK_OFFSET(0x199ED180)
+#define RPG_GAMECORE_PERFORMDELAYEXECUTE_METHOD_3_8178C658EE754F66_OFFSET UNITYSDK_OFFSET(0x199ED100)
+#define RPG_GAMECORE_PERFORMDELAYEXECUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x199ED150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformDelayExecute_TypeDefinitionIndex = 21744;
+	inline static constexpr unsigned int PerformDelayExecute_TypeDefinitionIndex = 21588;
 
 	class PerformDelayExecute : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMDELAYEXECUTE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_03CB628FE4B6784C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformDelayExecute*& a2)
+		static ::System::Void Method_3_8178C658EE754F66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformDelayExecute*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformDelayExecute*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMDELAYEXECUTE_METHOD_3_03CB628FE4B6784C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformDelayExecute*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMDELAYEXECUTE_METHOD_3_8178C658EE754F66_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_838C23B8D9F93EBE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformDelayExecute* a2)
+		static ::System::Void Method_3_5AB35309CAAE71D8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformDelayExecute* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformDelayExecute*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMDELAYEXECUTE_METHOD_3_838C23B8D9F93EBE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformDelayExecute*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMDELAYEXECUTE_METHOD_3_5AB35309CAAE71D8_OFFSET))(a1, a2);
 		}
 	};
 }

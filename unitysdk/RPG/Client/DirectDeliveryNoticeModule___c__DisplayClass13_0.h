@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class DirectDeliveryNoticeData; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA176500)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS13_0__HASPENDINGNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0xA177B60)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7F4F80)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS13_0__HASPENDINGNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0xB7F6690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DirectDeliveryNoticeModule___c__DisplayClass13_0_TypeDefinitionIndex = 58569;
+	inline static constexpr unsigned int DirectDeliveryNoticeModule___c__DisplayClass13_0_TypeDefinitionIndex = 59499;
 
 	class DirectDeliveryNoticeModule___c__DisplayClass13_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _HasPendingNotice_b__0(::RPG::Client::DirectDeliveryNoticeData* notice)
+		::System::Boolean _HasPendingNotice_b__0(::RPG::Client::DirectDeliveryNoticeData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::DirectDeliveryNoticeData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS13_0__HASPENDINGNOTICE_B__0_OFFSET))(this, notice);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::DirectDeliveryNoticeData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS13_0__HASPENDINGNOTICE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

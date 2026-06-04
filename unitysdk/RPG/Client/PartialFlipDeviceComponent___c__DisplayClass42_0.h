@@ -5,13 +5,13 @@
 namespace RPG::Client { class FlipDevicePoint; }
 namespace RPG::Client { class PartialFlipDeviceComponent; }
 
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC3E0D0)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS42_0___ONREFRESHSTATE_B__0_OFFSET UNITYSDK_OFFSET(0xAC3E640)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS42_0___ONREFRESHSTATE_B__1_OFFSET UNITYSDK_OFFSET(0xAC3E670)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC34DC70)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS42_0___ONREFRESHSTATE_B__0_OFFSET UNITYSDK_OFFSET(0xC34E200)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS42_0___ONREFRESHSTATE_B__1_OFFSET UNITYSDK_OFFSET(0xC34E230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass42_0_TypeDefinitionIndex = 67522;
+	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass42_0_TypeDefinitionIndex = 68476;
 
 	class PartialFlipDeviceComponent___c__DisplayClass42_0 : public ::System::Object
 	{
@@ -24,14 +24,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS42_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __OnRefreshState_b__0(::RPG::Client::FlipDevicePoint* device)
+		::System::Boolean __OnRefreshState_b__0(::RPG::Client::FlipDevicePoint* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FlipDevicePoint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS42_0___ONREFRESHSTATE_B__0_OFFSET))(this, device);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FlipDevicePoint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS42_0___ONREFRESHSTATE_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __OnRefreshState_b__1(::RPG::Client::FlipDevicePoint* device)
+		::System::Boolean __OnRefreshState_b__1(::RPG::Client::FlipDevicePoint* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FlipDevicePoint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS42_0___ONREFRESHSTATE_B__1_OFFSET))(this, device);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FlipDevicePoint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS42_0___ONREFRESHSTATE_B__1_OFFSET))(this, a1);
 		}
 	};
 }

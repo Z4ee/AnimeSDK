@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int HelperPerformState_TypeDefinitionIndex = 72226;
+	inline static constexpr unsigned int HelperPerformState_TypeDefinitionIndex = 73248;
 
 	enum class HelperPerformState : ::System::Int32
 	{

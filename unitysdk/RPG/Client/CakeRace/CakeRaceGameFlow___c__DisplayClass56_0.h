@@ -6,13 +6,13 @@ namespace RPG::Client::CakeRace { class CakeRaceGameFlow; }
 namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EE32D0)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x9EE4AA0)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x9EE4AE0)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB480080)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xB481840)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0xB481880)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass56_0_TypeDefinitionIndex = 70208;
+	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass56_0_TypeDefinitionIndex = 71020;
 
 	class CakeRaceGameFlow___c__DisplayClass56_0 : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client::CakeRace
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __HandleShowLoanConfirmDialog_b__0(::System::Boolean isOk)
+		::System::Void __HandleShowLoanConfirmDialog_b__0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__0_OFFSET))(this, isOk);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__0_OFFSET))(this, a1);
 		}
 
 		::System::Void __HandleShowLoanConfirmDialog_b__1()

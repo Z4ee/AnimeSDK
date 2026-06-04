@@ -10,34 +10,34 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Diagnostics { class Stopwatch; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_CHECKCACHEEXPIRED_OFFSET UNITYSDK_OFFSET(0x173E0570)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_FORCEUPDATEPSPRODUCTSCACHE_OFFSET UNITYSDK_OFFSET(0x173E0700)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETALLPOSSIBLEPSPRODUCTASYNC_OFFSET UNITYSDK_OFFSET(0x173E04F0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETALLPOSSIBLEPSPRODUCT_OFFSET UNITYSDK_OFFSET(0x173E0490)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETPSPRODUCTFROMCACHE_OFFSET UNITYSDK_OFFSET(0x173E0400)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETPSPRODUCTS_OFFSET UNITYSDK_OFFSET(0x173E0800)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x173E0200)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_REFRESHPSPRODUCTSCACHE_OFFSET UNITYSDK_OFFSET(0x173E1540)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_REQUESTPSPRODUCTSFROMSTORE_OFFSET UNITYSDK_OFFSET(0x173E13B0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x173E1B10)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x173E0360)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER__GETALLPOSSIBLEPSPRODUCTASYNC_B__10_0_OFFSET UNITYSDK_OFFSET(0x173E2680)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER__GETALLPOSSIBLEPSPRODUCT_B__9_0_OFFSET UNITYSDK_OFFSET(0x173E1B50)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_CHECKCACHEEXPIRED_OFFSET UNITYSDK_OFFSET(0x181E9180)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_FORCEUPDATEPSPRODUCTSCACHE_OFFSET UNITYSDK_OFFSET(0x181E9310)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETALLPOSSIBLEPSPRODUCTASYNC_OFFSET UNITYSDK_OFFSET(0x181E90E0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETALLPOSSIBLEPSPRODUCT_OFFSET UNITYSDK_OFFSET(0x181E9060)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETPSPRODUCTFROMCACHE_OFFSET UNITYSDK_OFFSET(0x181E8F70)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETPSPRODUCTS_OFFSET UNITYSDK_OFFSET(0x181E9450)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x181E8D70)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_REFRESHPSPRODUCTSCACHE_OFFSET UNITYSDK_OFFSET(0x181EA330)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_REQUESTPSPRODUCTSFROMSTORE_OFFSET UNITYSDK_OFFSET(0x181EA190)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x181EA8E0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x181E8ED0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER__GETALLPOSSIBLEPSPRODUCTASYNC_B__10_0_OFFSET UNITYSDK_OFFSET(0x181EB360)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER__GETALLPOSSIBLEPSPRODUCT_B__9_0_OFFSET UNITYSDK_OFFSET(0x181EA910)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int PSProductManager_TypeDefinitionIndex = 7604;
+	inline static constexpr unsigned int PSProductManager_TypeDefinitionIndex = 8507;
 
 	class PSProductManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Base::GoodsPlatform::PSProductManager** StaticGet__manager()
 		{
-			return (::MiHoYo::SDK::Base::GoodsPlatform::PSProductManager**)Il2CppClass::FromTypeDefinitionIndex(PSProductManager_TypeDefinitionIndex)->GetStaticField(0x16E60);
+			return (::MiHoYo::SDK::Base::GoodsPlatform::PSProductManager**)Il2CppClass::FromTypeDefinitionIndex(PSProductManager_TypeDefinitionIndex)->GetStaticField(0xC610);
 		}
 		static ::System::Diagnostics::Stopwatch** StaticGet__stopwatch()
 		{
-			return (::System::Diagnostics::Stopwatch**)Il2CppClass::FromTypeDefinitionIndex(PSProductManager_TypeDefinitionIndex)->GetStaticField(0x16E68);
+			return (::System::Diagnostics::Stopwatch**)Il2CppClass::FromTypeDefinitionIndex(PSProductManager_TypeDefinitionIndex)->GetStaticField(0xC618);
 		}
 		// static const ::System::String* GOODS_ID; // 0x0
 		// static const ::System::String* NO_DISCOUNT_GOODS_ID; // 0x0
@@ -60,9 +60,9 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 			return ((::MiHoYo::SDK::Base::GoodsPlatform::PSProductManager*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GET_OFFSET))();
 		}
 
-		::System::Nullable_1<::MiHoYo::SDK::Console::ConsoleProduct> GetPSProductFromCache(::System::String* id)
+		::System::Nullable_1<::MiHoYo::SDK::Console::ConsoleProduct> GetPSProductFromCache(::System::String* a1)
 		{
-			return ((::System::Nullable_1<::MiHoYo::SDK::Console::ConsoleProduct>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETPSPRODUCTFROMCACHE_OFFSET))(this, id);
+			return ((::System::Nullable_1<::MiHoYo::SDK::Console::ConsoleProduct>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETPSPRODUCTFROMCACHE_OFFSET))(this, a1);
 		}
 
 		::System::Void GetAllPossiblePSProduct()
@@ -80,29 +80,29 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_CHECKCACHEEXPIRED_OFFSET))(this);
 		}
 
-		::System::Void ForceUpdatePSProductsCache(::Il2CppArray<::System::String*>* idList)
+		::System::Void ForceUpdatePSProductsCache(::Il2CppArray<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_FORCEUPDATEPSPRODUCTSCACHE_OFFSET))(this, idList);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_FORCEUPDATEPSPRODUCTSCACHE_OFFSET))(this, a1);
 		}
 
-		::System::Void GetPSProducts(::Il2CppArray<::System::String*>* idList, ::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>* callback, ::System::Boolean useCache)
+		::System::Void GetPSProducts(::Il2CppArray<::System::String*>* a1, ::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETPSPRODUCTS_OFFSET))(this, idList, callback, useCache);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_GETPSPRODUCTS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RefreshPSProductsCache(::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>* products)
+		::System::Void RefreshPSProductsCache(::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_REFRESHPSPRODUCTSCACHE_OFFSET))(this, products);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_REFRESHPSPRODUCTSCACHE_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestPSProductsFromStore(::Il2CppArray<::System::String*>* idList, ::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>* callback)
+		::System::Void RequestPSProductsFromStore(::Il2CppArray<::System::String*>* a1, ::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_REQUESTPSPRODUCTSFROMSTORE_OFFSET))(this, idList, callback);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER_REQUESTPSPRODUCTSFROMSTORE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _GetAllPossiblePSProduct_b__9_0(::System::Int32 retCode, ::System::String* message, ::MiHoYo::SDK::JSONArray* idData)
+		::System::Void _GetAllPossiblePSProduct_b__9_0(::System::Int32 a1, ::System::String* a2, ::MiHoYo::SDK::JSONArray* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER__GETALLPOSSIBLEPSPRODUCT_B__9_0_OFFSET))(this, retCode, message, idData);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER__GETALLPOSSIBLEPSPRODUCT_B__9_0_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _GetAllPossiblePSProductAsync_b__10_0()

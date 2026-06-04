@@ -7,21 +7,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E68B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E68E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6DA800)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6E6890)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B515E90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B515EC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B50E7D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B515E20)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRChaperone__GetCalibrationState_TypeDefinitionIndex = 35747;
+	inline static constexpr unsigned int IVRChaperone__GetCalibrationState_TypeDefinitionIndex = 36047;
 
 	class IVRChaperone__GetCalibrationState : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::ChaperoneCalibrationState Invoke()
@@ -29,14 +29,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::ZenFulcrum::VR::OpenVRBinding::ChaperoneCalibrationState(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::ChaperoneCalibrationState EndInvoke(::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::ChaperoneCalibrationState EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::ChaperoneCalibrationState(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::ChaperoneCalibrationState(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETCALIBRATIONSTATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

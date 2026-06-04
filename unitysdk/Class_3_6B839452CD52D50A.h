@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class InfiniteWaveInsertMonster; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6B839452CD52D50A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2334C0)
-#define CLASS_3_6B839452CD52D50A__CTOR_OFFSET UNITYSDK_OFFSET(0xB233490)
+#define CLASS_3_6B839452CD52D50A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA5A1E40)
+#define CLASS_3_6B839452CD52D50A__CTOR_OFFSET UNITYSDK_OFFSET(0xA5A1E10)
 
-inline static constexpr unsigned int Class_3_6B839452CD52D50A_TypeDefinitionIndex = 50820;
+inline static constexpr unsigned int Class_3_6B839452CD52D50A_TypeDefinitionIndex = 51488;
 
 class Class_3_6B839452CD52D50A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InfiniteWaveInsertMonster*>
 {

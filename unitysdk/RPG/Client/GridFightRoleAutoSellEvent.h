@@ -5,11 +5,11 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTROLEAUTOSELLEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA5705C0)
+#define RPG_CLIENT_GRIDFIGHTROLEAUTOSELLEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xBBDD860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleAutoSellEvent_TypeDefinitionIndex = 59979;
+	inline static constexpr unsigned int GridFightRoleAutoSellEvent_TypeDefinitionIndex = 60914;
 
 	class GridFightRoleAutoSellEvent : public ::System::Object
 	{

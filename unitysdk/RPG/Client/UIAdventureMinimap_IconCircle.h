@@ -4,14 +4,14 @@
 
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xB3CC030)
-#define RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE_SETRADIUS_OFFSET UNITYSDK_OFFSET(0xB3C8870)
-#define RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE_SET_IMAGE_OFFSET UNITYSDK_OFFSET(0xB3CC040)
-#define RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE__CTOR_OFFSET UNITYSDK_OFFSET(0xB3CA9A0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xCB2C9B0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE_SETRADIUS_OFFSET UNITYSDK_OFFSET(0xCB291A0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE_SET_IMAGE_OFFSET UNITYSDK_OFFSET(0xCB2C9C0)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE__CTOR_OFFSET UNITYSDK_OFFSET(0xCB2B300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdventureMinimap_IconCircle_TypeDefinitionIndex = 63669;
+	inline static constexpr unsigned int UIAdventureMinimap_IconCircle_TypeDefinitionIndex = 64590;
 
 	class UIAdventureMinimap_IconCircle : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace RPG::Client
 		::UnityEngine::UI::Image* _Image_k__BackingField; // 0x10
 		::System::Single _Radius; // 0x18
 
-		::System::Void _ctor(::UnityEngine::UI::Image* image)
+		::System::Void _ctor(::UnityEngine::UI::Image* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE__CTOR_OFFSET))(this, image);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE__CTOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::UI::Image* get_Image()
@@ -30,14 +30,14 @@ namespace RPG::Client
 			return ((::UnityEngine::UI::Image*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE_GET_IMAGE_OFFSET))(this);
 		}
 
-		::System::Void set_Image(::UnityEngine::UI::Image* value)
+		::System::Void set_Image(::UnityEngine::UI::Image* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE_SET_IMAGE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE_SET_IMAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetRadius(::System::Single radius)
+		::System::Void SetRadius(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE_SETRADIUS_OFFSET))(this, radius);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADVENTUREMINIMAP_ICONCIRCLE_SETRADIUS_OFFSET))(this, a1);
 		}
 	};
 }

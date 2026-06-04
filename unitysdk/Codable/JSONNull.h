@@ -9,34 +9,34 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define CODABLE_JSONNULL_CREATEORGET_OFFSET UNITYSDK_OFFSET(0x8B835B0)
-#define CODABLE_JSONNULL_EQUALS_OFFSET UNITYSDK_OFFSET(0x8B88900)
-#define CODABLE_JSONNULL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x8B888A0)
-#define CODABLE_JSONNULL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8B88970)
-#define CODABLE_JSONNULL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x8B888E0)
-#define CODABLE_JSONNULL_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x8B88890)
-#define CODABLE_JSONNULL_GET_TAG_OFFSET UNITYSDK_OFFSET(0x8B88880)
-#define CODABLE_JSONNULL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x8B888C0)
-#define CODABLE_JSONNULL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0x8B888F0)
-#define CODABLE_JSONNULL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x8B888D0)
-#define CODABLE_JSONNULL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x8B88980)
-#define CODABLE_JSONNULL__CCTOR_OFFSET UNITYSDK_OFFSET(0x8B889B0)
-#define CODABLE_JSONNULL__CTOR_OFFSET UNITYSDK_OFFSET(0x8B88870)
+#define CODABLE_JSONNULL_CREATEORGET_OFFSET UNITYSDK_OFFSET(0xA09F570)
+#define CODABLE_JSONNULL_EQUALS_OFFSET UNITYSDK_OFFSET(0xA0A5160)
+#define CODABLE_JSONNULL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xA0A5100)
+#define CODABLE_JSONNULL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA0A51E0)
+#define CODABLE_JSONNULL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0xA0A5140)
+#define CODABLE_JSONNULL_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0xA0A50F0)
+#define CODABLE_JSONNULL_GET_TAG_OFFSET UNITYSDK_OFFSET(0xA0A50E0)
+#define CODABLE_JSONNULL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA0A5120)
+#define CODABLE_JSONNULL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0xA0A5150)
+#define CODABLE_JSONNULL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xA0A5130)
+#define CODABLE_JSONNULL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0xA0A51F0)
+#define CODABLE_JSONNULL__CCTOR_OFFSET UNITYSDK_OFFSET(0xA0A5220)
+#define CODABLE_JSONNULL__CTOR_OFFSET UNITYSDK_OFFSET(0xA0A50D0)
 
 namespace Codable
 {
-	inline static constexpr unsigned int JSONNull_TypeDefinitionIndex = 42686;
+	inline static constexpr unsigned int JSONNull_TypeDefinitionIndex = 43489;
 
 	class JSONNull : public ::Codable::JSONNode
 	{
 	public:
 		static ::Codable::JSONNull** StaticGet_m_StaticInstance()
 		{
-			return (::Codable::JSONNull**)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0x45E20);
+			return (::Codable::JSONNull**)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0x633E0);
 		}
 		static ::System::Boolean* StaticGet_reuseSameInstance()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0xF550);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0x13900);
 		}
 
 		::System::Void _ctor()
@@ -74,9 +74,9 @@ namespace Codable
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::String* value)
+		::System::Void set_Value(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_SET_VALUE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_AsBool()
@@ -84,14 +84,14 @@ namespace Codable
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_GET_ASBOOL_OFFSET))(this);
 		}
 
-		::System::Void set_AsBool(::System::Boolean value)
+		::System::Void set_AsBool(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_SET_ASBOOL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_SET_ASBOOL_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -99,9 +99,9 @@ namespace Codable
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* aSB, ::System::Int32 aIndent, ::System::Int32 aIndentInc, ::Codable::JSONTextMode aMode)
+		::System::Void WriteToStringBuilder(::System::Text::StringBuilder* a1, ::System::Int32 a2, ::System::Int32 a3, ::Codable::JSONTextMode a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::Codable::JSONTextMode))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_WRITETOSTRINGBUILDER_OFFSET))(this, aSB, aIndent, aIndentInc, aMode);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::Codable::JSONTextMode))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_WRITETOSTRINGBUILDER_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

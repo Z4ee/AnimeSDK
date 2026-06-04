@@ -3,18 +3,17 @@
 #include "unitysdk/RPG/Client/UISkillIndex.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_967;
+class Class_0_16E4307DCC419505_1017;
 class Class_1_9CAA42EF32347EE5_5;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_F8D4E2BAA9A57E44_METHOD_1_1E0EA1AC7E2D9526_OFFSET UNITYSDK_OFFSET(0x9314440)
-#define CLASS_1_F8D4E2BAA9A57E44_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x9314340)
-#define CLASS_1_F8D4E2BAA9A57E44_METHOD_1_496B3DEE27B86F26_OFFSET UNITYSDK_OFFSET(0x93143F0)
-#define CLASS_1_F8D4E2BAA9A57E44_METHOD_1_6AF9E9664B4F0C5D_OFFSET UNITYSDK_OFFSET(0x9314390)
-#define CLASS_1_F8D4E2BAA9A57E44_METHOD_1_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x93142F0)
-#define CLASS_1_F8D4E2BAA9A57E44__CTOR_OFFSET UNITYSDK_OFFSET(0x9314490)
+#define CLASS_1_F8D4E2BAA9A57E44_METHOD_1_1E0EA1AC7E2D9526_OFFSET UNITYSDK_OFFSET(0xA41B650)
+#define CLASS_1_F8D4E2BAA9A57E44_METHOD_1_496B3DEE27B86F26_OFFSET UNITYSDK_OFFSET(0xA41B600)
+#define CLASS_1_F8D4E2BAA9A57E44_METHOD_1_6AF9E9664B4F0C5D_OFFSET UNITYSDK_OFFSET(0xA41B5A0)
+#define CLASS_1_F8D4E2BAA9A57E44_METHOD_1_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0xA41B550)
+#define CLASS_1_F8D4E2BAA9A57E44__CTOR_OFFSET UNITYSDK_OFFSET(0xA41B6A0)
 
-inline static constexpr unsigned int Class_1_F8D4E2BAA9A57E44_TypeDefinitionIndex = 66300;
+inline static constexpr unsigned int Class_1_F8D4E2BAA9A57E44_TypeDefinitionIndex = 67241;
 
 class Class_1_F8D4E2BAA9A57E44 : public ::System::Object
 {
@@ -29,19 +28,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_1_9CAA42EF32347EE5_5*))((::PBYTE)hIl2Cpp + CLASS_1_F8D4E2BAA9A57E44_METHOD_1_E9A575D18A0748D9_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_3E7178C5ECF017DB(::System::Boolean a1)
+	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_1017*>* Method_1_6AF9E9664B4F0C5D(::RPG::Client::UISkillIndex a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F8D4E2BAA9A57E44_METHOD_1_3E7178C5ECF017DB_OFFSET))(this, a1);
+		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_1017*>*(*)(::PVOID, ::RPG::Client::UISkillIndex, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F8D4E2BAA9A57E44_METHOD_1_6AF9E9664B4F0C5D_OFFSET))(this, a1, a2);
 	}
 
-	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_967*>* Method_1_6AF9E9664B4F0C5D(::RPG::Client::UISkillIndex a1, ::System::Boolean a2)
+	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_1017*>* Method_1_496B3DEE27B86F26()
 	{
-		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_967*>*(*)(::PVOID, ::RPG::Client::UISkillIndex, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_F8D4E2BAA9A57E44_METHOD_1_6AF9E9664B4F0C5D_OFFSET))(this, a1, a2);
-	}
-
-	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_967*>* Method_1_496B3DEE27B86F26()
-	{
-		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_967*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F8D4E2BAA9A57E44_METHOD_1_496B3DEE27B86F26_OFFSET))(this);
+		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_1017*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F8D4E2BAA9A57E44_METHOD_1_496B3DEE27B86F26_OFFSET))(this);
 	}
 
 	::RPG::Client::UISkillIndex Method_1_1E0EA1AC7E2D9526(::RPG::Client::UISkillIndex a1)

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPRenderObjectFlag_TypeDefinitionIndex = 34903;
+	inline static constexpr unsigned int CRPRenderObjectFlag_TypeDefinitionIndex = 35186;
 
 	enum class CRPRenderObjectFlag : ::System::Int32
 	{

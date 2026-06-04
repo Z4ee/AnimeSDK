@@ -11,26 +11,26 @@ namespace System { class TypeInitializationException; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMICWITHVERIFY_OFFSET UNITYSDK_OFFSET(0x17328A10)
-#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x17328660)
-#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_1_OFFSET UNITYSDK_OFFSET(0x17328580)
-#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_OFFSET UNITYSDK_OFFSET(0x17328530)
-#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17328AA0)
+#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMICWITHVERIFY_OFFSET UNITYSDK_OFFSET(0x18137320)
+#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x18136F40)
+#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_1_OFFSET UNITYSDK_OFFSET(0x18136E60)
+#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_OFFSET UNITYSDK_OFFSET(0x18136E10)
+#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x181373B0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int FormatterResolverExtensions_TypeDefinitionIndex = 9214;
+	inline static constexpr unsigned int FormatterResolverExtensions_TypeDefinitionIndex = 7117;
 
 	class FormatterResolverExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::MethodInfo** StaticGet_GetFormatterRuntimeMethod()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(FormatterResolverExtensions_TypeDefinitionIndex)->GetStaticField(0x416B0);
-		}
 		static ::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Func_2<::MessagePack::IFormatterResolver*, ::MessagePack::Formatters::IMessagePackFormatter*>*>** StaticGet_FormatterGetters()
 		{
-			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Func_2<::MessagePack::IFormatterResolver*, ::MessagePack::Formatters::IMessagePackFormatter*>*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterResolverExtensions_TypeDefinitionIndex)->GetStaticField(0x416B8);
+			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Func_2<::MessagePack::IFormatterResolver*, ::MessagePack::Formatters::IMessagePackFormatter*>*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterResolverExtensions_TypeDefinitionIndex)->GetStaticField(0x8410);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_GetFormatterRuntimeMethod()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(FormatterResolverExtensions_TypeDefinitionIndex)->GetStaticField(0x8418);
 		}
 
 		static ::System::Void _cctor()
@@ -38,24 +38,24 @@ namespace MessagePack
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void Throw(::System::TypeInitializationException* ex)
+		static ::System::Void Throw(::System::TypeInitializationException* a1)
 		{
-			return ((::System::Void(*)(::System::TypeInitializationException*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_OFFSET))(ex);
+			return ((::System::Void(*)(::System::TypeInitializationException*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_OFFSET))(a1);
 		}
 
-		static ::System::Void Throw_1(::System::Type* t, ::MessagePack::IFormatterResolver* resolver)
+		static ::System::Void Throw_1(::System::Type* a1, ::MessagePack::IFormatterResolver* a2)
 		{
-			return ((::System::Void(*)(::System::Type*, ::MessagePack::IFormatterResolver*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_1_OFFSET))(t, resolver);
+			return ((::System::Void(*)(::System::Type*, ::MessagePack::IFormatterResolver*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* GetFormatterDynamic(::MessagePack::IFormatterResolver* resolver, ::System::Type* type)
+		static ::System::Object* GetFormatterDynamic(::MessagePack::IFormatterResolver* a1, ::System::Type* a2)
 		{
-			return ((::System::Object*(*)(::MessagePack::IFormatterResolver*, ::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMIC_OFFSET))(resolver, type);
+			return ((::System::Object*(*)(::MessagePack::IFormatterResolver*, ::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMIC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* GetFormatterDynamicWithVerify(::MessagePack::IFormatterResolver* resolver, ::System::Type* type)
+		static ::System::Object* GetFormatterDynamicWithVerify(::MessagePack::IFormatterResolver* a1, ::System::Type* a2)
 		{
-			return ((::System::Object*(*)(::MessagePack::IFormatterResolver*, ::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMICWITHVERIFY_OFFSET))(resolver, type);
+			return ((::System::Object*(*)(::MessagePack::IFormatterResolver*, ::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMICWITHVERIFY_OFFSET))(a1, a2);
 		}
 	};
 }

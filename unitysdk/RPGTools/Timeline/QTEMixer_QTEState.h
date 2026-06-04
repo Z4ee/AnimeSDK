@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int QTEMixer_QTEState_TypeDefinitionIndex = 45008;
+	inline static constexpr unsigned int QTEMixer_QTEState_TypeDefinitionIndex = 45556;
 
 	enum class QTEMixer_QTEState : ::System::Int32
 	{

@@ -4,14 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_667F0CD27C914E5F_OFFSET UNITYSDK_OFFSET(0x190EE410)
-#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_C6367DEAC0E72D04_OFFSET UNITYSDK_OFFSET(0x190EE3D0)
-#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x190EE400)
+#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_0BCB198334300DE0_OFFSET UNITYSDK_OFFSET(0x19E42210)
+#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_1F98DA12DEAB312A_OFFSET UNITYSDK_OFFSET(0x19E42050)
+#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_2C2EBD232E074F93_OFFSET UNITYSDK_OFFSET(0x19E42240)
+#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_57A78D7058BEAF9D_OFFSET UNITYSDK_OFFSET(0x19E42090)
+#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E42080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VE_RtBattleGridOrder_TypeDefinitionIndex = 23271;
+	inline static constexpr unsigned int VE_RtBattleGridOrder_TypeDefinitionIndex = 22939;
 
 	class VE_RtBattleGridOrder : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
@@ -23,14 +26,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C6367DEAC0E72D04(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtBattleGridOrder*& a2)
+		static ::System::Void Method_3_1F98DA12DEAB312A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtBattleGridOrder*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtBattleGridOrder*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_C6367DEAC0E72D04_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtBattleGridOrder*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_1F98DA12DEAB312A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_667F0CD27C914E5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtBattleGridOrder* a2)
+		static ::System::Void Method_3_57A78D7058BEAF9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtBattleGridOrder* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtBattleGridOrder*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_667F0CD27C914E5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtBattleGridOrder*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_57A78D7058BEAF9D_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_0BCB198334300DE0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtBattleGridOrder*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtBattleGridOrder*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_0BCB198334300DE0_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_2C2EBD232E074F93(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtBattleGridOrder* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtBattleGridOrder*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_2C2EBD232E074F93_OFFSET))(a1, a2);
 		}
 	};
 }

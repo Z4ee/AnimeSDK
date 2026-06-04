@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAEC2FD0)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC60A160)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RotatePillarPuzzleSwitchData_TypeDefinitionIndex = 72307;
+	inline static constexpr unsigned int RotatePillarPuzzleSwitchData_TypeDefinitionIndex = 73329;
 
 	class RotatePillarPuzzleSwitchData : public ::System::Object
 	{

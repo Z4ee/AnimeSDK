@@ -6,7 +6,7 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 template <typename T> class Class_1_E290C58681D2E9F5;
 
-inline static constexpr unsigned int Class_2_186335045AEDACF2_TypeDefinitionIndex = 46087;
+inline static constexpr unsigned int Class_2_186335045AEDACF2_TypeDefinitionIndex = 46670;
 
 template <typename T>
 class Class_2_186335045AEDACF2 : public ::Class_1_534AF681CC2BD5F4<T>

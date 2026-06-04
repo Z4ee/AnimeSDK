@@ -6,29 +6,29 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1862FB20)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x186301B0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193FF170)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193FF810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionModeRow_TypeDefinitionIndex = 11651;
+	inline static constexpr unsigned int ActivityRaidCollectionModeRow_TypeDefinitionIndex = 11750;
 
 	class ActivityRaidCollectionModeRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RaidCollectionGroupList; // 0x10
-		::RPG::GameCore::RaidCollectionType RaidCollectionType; // 0x18
-		::System::UInt32 RaidCollectionTabID; // 0x1C
-		::RPG::Client::TextID RaidCollectionTabName; // 0x20
+		::RPG::Client::TextID RaidCollectionTabName; // 0x18
+		::RPG::GameCore::RaidCollectionType RaidCollectionType; // 0x28
+		::System::UInt32 RaidCollectionTabID; // 0x2C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityRaidCollectionModeRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityRaidCollectionModeRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityRaidCollectionModeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityRaidCollectionModeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

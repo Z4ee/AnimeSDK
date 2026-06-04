@@ -5,15 +5,15 @@
 
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8ECFD60)
-#define EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x8ECFD80)
-#define EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8ECFD70)
-#define EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x8ECFD90)
-#define EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8ECFDA0)
+#define EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA302F00)
+#define EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA302F20)
+#define EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA302F10)
+#define EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xA302F30)
+#define EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA302F40)
 
 namespace Epic::OnlineServices::Mods
 {
-	inline static constexpr unsigned int CopyModInfoOptions_TypeDefinitionIndex = 41761;
+	inline static constexpr unsigned int CopyModInfoOptions_TypeDefinitionIndex = 42564;
 
 	class CopyModInfoOptions : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace Epic::OnlineServices::Mods
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Mods::ModEnumerationType get_Type()
@@ -41,9 +41,9 @@ namespace Epic::OnlineServices::Mods
 			return ((::Epic::OnlineServices::Mods::ModEnumerationType(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::Epic::OnlineServices::Mods::ModEnumerationType value)
+		::System::Void set_Type(::Epic::OnlineServices::Mods::ModEnumerationType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModEnumerationType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Mods::ModEnumerationType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_MODS_COPYMODINFOOPTIONS_SET_TYPE_OFFSET))(this, a1);
 		}
 	};
 }

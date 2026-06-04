@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/EvolveGearType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6849E525224AB916_METHOD_1_0ECF6E365BC89C37_OFFSET UNITYSDK_OFFSET(0x910C060)
+#define CLASS_1_6849E525224AB916_METHOD_1_0ECF6E365BC89C37_OFFSET UNITYSDK_OFFSET(0x12AB9570)
 
-inline static constexpr unsigned int Class_1_6849E525224AB916_TypeDefinitionIndex = 51680;
+inline static constexpr unsigned int Class_1_6849E525224AB916_TypeDefinitionIndex = 52353;
 
 class Class_1_6849E525224AB916 : public ::System::Object
 {

@@ -6,33 +6,33 @@ namespace Epic::OnlineServices::Connect { class CreateDeviceIdOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2FD70)
-#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x2FC50)
-#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_DEVICEMODEL_OFFSET UNITYSDK_OFFSET(0x2FAD0)
-#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x2FB80)
+#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x34EA0)
+#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x34E90)
+#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_DEVICEMODEL_OFFSET UNITYSDK_OFFSET(0x34D10)
+#define EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x34DC0)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int CreateDeviceIdOptionsInternal_TypeDefinitionIndex = 42275;
+	inline static constexpr unsigned int CreateDeviceIdOptionsInternal_TypeDefinitionIndex = 43078;
 
 	struct alignas(8) CreateDeviceIdOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_DeviceModel; // 0x18
 
-		::System::Void set_DeviceModel(::System::String* value)
+		::System::Void set_DeviceModel(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_DEVICEMODEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_DEVICEMODEL_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Connect::CreateDeviceIdOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Connect::CreateDeviceIdOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::CreateDeviceIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Connect::CreateDeviceIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_CONNECT_CREATEDEVICEIDOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

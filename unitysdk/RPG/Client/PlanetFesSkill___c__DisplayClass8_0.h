@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class PlanetFesSkill; }
 
-#define RPG_CLIENT_PLANETFESSKILL___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAD3FDA0)
-#define RPG_CLIENT_PLANETFESSKILL___C__DISPLAYCLASS8_0__ISPREPRECONDITIONSKILL_B__0_OFFSET UNITYSDK_OFFSET(0xAD40160)
+#define RPG_CLIENT_PLANETFESSKILL___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC47DAB0)
+#define RPG_CLIENT_PLANETFESSKILL___C__DISPLAYCLASS8_0__ISPREPRECONDITIONSKILL_B__0_OFFSET UNITYSDK_OFFSET(0xC47DE80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesSkill___c__DisplayClass8_0_TypeDefinitionIndex = 61388;
+	inline static constexpr unsigned int PlanetFesSkill___c__DisplayClass8_0_TypeDefinitionIndex = 62312;
 
 	class PlanetFesSkill___c__DisplayClass8_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSKILL___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _IsPrePreConditionSkill_b__0(::RPG::Client::PlanetFesSkill* x)
+		::System::Boolean _IsPrePreConditionSkill_b__0(::RPG::Client::PlanetFesSkill* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesSkill*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSKILL___C__DISPLAYCLASS8_0__ISPREPRECONDITIONSKILL_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesSkill*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSKILL___C__DISPLAYCLASS8_0__ISPREPRECONDITIONSKILL_B__0_OFFSET))(this, a1);
 		}
 	};
 }

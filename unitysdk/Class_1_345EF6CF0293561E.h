@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_B83FEC6959AC95E7;
+class Class_1_CDF807379B3F27B3;
+namespace System { class Action; }
+
+#define CLASS_1_345EF6CF0293561E_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAC6C7F0)
+#define CLASS_1_345EF6CF0293561E_METHOD_1_6B4A3A1B5816B81E_OFFSET UNITYSDK_OFFSET(0xAC6C710)
+#define CLASS_1_345EF6CF0293561E_METHOD_1_A27D06F9481FAFDB_OFFSET UNITYSDK_OFFSET(0xAC6C9A0)
+#define CLASS_1_345EF6CF0293561E_METHOD_1_B036E5806AE655F4_OFFSET UNITYSDK_OFFSET(0xAC6C840)
+#define CLASS_1_345EF6CF0293561E_METHOD_1_CEE19E05BD6D6BEE_OFFSET UNITYSDK_OFFSET(0xAC6C920)
+#define CLASS_1_345EF6CF0293561E_METHOD_1_ED2383852A5D042B_OFFSET UNITYSDK_OFFSET(0xAC6C670)
+#define CLASS_1_345EF6CF0293561E__CTOR_OFFSET UNITYSDK_OFFSET(0xAC6C700)
+
+inline static constexpr unsigned int Class_1_345EF6CF0293561E_TypeDefinitionIndex = 67406;
+
+class Class_1_345EF6CF0293561E : public ::System::Object
+{
+public:
+	::System::Action* Field_1_0; // 0x10
+	::Class_1_CDF807379B3F27B3* Field_1_1; // 0x18
+	::Class_1_B83FEC6959AC95E7* Field_1_2; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_345EF6CF0293561E__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_345EF6CF0293561E* Method_1_ED2383852A5D042B(::Class_1_B83FEC6959AC95E7* a1, ::Class_1_CDF807379B3F27B3* a2, ::System::Action* a3)
+	{
+		return ((::Class_1_345EF6CF0293561E*(*)(::Class_1_B83FEC6959AC95E7*, ::Class_1_CDF807379B3F27B3*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_345EF6CF0293561E_METHOD_1_ED2383852A5D042B_OFFSET))(a1, a2, a3);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_345EF6CF0293561E_DISPOSE_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_CEE19E05BD6D6BEE()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_345EF6CF0293561E_METHOD_1_CEE19E05BD6D6BEE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_6B4A3A1B5816B81E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_345EF6CF0293561E_METHOD_1_6B4A3A1B5816B81E_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B036E5806AE655F4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_345EF6CF0293561E_METHOD_1_B036E5806AE655F4_OFFSET))(this);
+	}
+
+	::System::Void Method_1_A27D06F9481FAFDB(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_345EF6CF0293561E_METHOD_1_A27D06F9481FAFDB_OFFSET))(this, a1);
+	}
+};

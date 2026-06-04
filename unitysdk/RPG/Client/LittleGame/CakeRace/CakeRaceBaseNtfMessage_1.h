@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_2_0A976FBB3E6CCAE3.h"
 
-class Class_1_0E9EED74A778662A_2;
+class Class_1_3D780034EB92FF7C;
 namespace Google::Protobuf { class IMessage; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceBaseNtfMessage_1_TypeDefinitionIndex = 71553;
+	inline static constexpr unsigned int CakeRaceBaseNtfMessage_1_TypeDefinitionIndex = 72575;
 
 	template <typename T>
 	class CakeRaceBaseNtfMessage_1 : public ::Class_2_0A976FBB3E6CCAE3

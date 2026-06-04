@@ -5,12 +5,12 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1762B4B0)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS35_0__SHOWOVERSEAPROTOCOLPLUGINUI_B__5_OFFSET UNITYSDK_OFFSET(0x1762B840)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18409D00)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS35_0__SHOWOVERSEAPROTOCOLPLUGINUI_B__5_OFFSET UNITYSDK_OFFSET(0x1840A0C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager___c__DisplayClass35_0_TypeDefinitionIndex = 7089;
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass35_0_TypeDefinitionIndex = 7992;
 
 	class ProtocolManager___c__DisplayClass35_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS35_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ShowOverseaProtocolPluginUI_b__5(::MiHoYo::SDK::Confirm_ConfirmResult result)
+		::System::Void _ShowOverseaProtocolPluginUI_b__5(::MiHoYo::SDK::Confirm_ConfirmResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS35_0__SHOWOVERSEAPROTOCOLPLUGINUI_B__5_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS35_0__SHOWOVERSEAPROTOCOLPLUGINUI_B__5_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8CDC250)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8CDC2A0)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_INVOKE_OFFSET UNITYSDK_OFFSET(0x8CDBF60)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART__CTOR_OFFSET UNITYSDK_OFFSET(0x8CDBF40)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA1343E0)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA134430)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_INVOKE_OFFSET UNITYSDK_OFFSET(0xA1343D0)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART__CTOR_OFFSET UNITYSDK_OFFSET(0xA134360)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_LOGBACK_LogUploadStart_TypeDefinitionIndex = 43105;
+	inline static constexpr unsigned int APMC_LOGBACK_LogUploadStart_TypeDefinitionIndex = 43908;
 
 	class APMC_LOGBACK_LogUploadStart : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::IntPtr opaque)
+		::System::Void Invoke(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_INVOKE_OFFSET))(this, opaque);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::IntPtr opaque, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::IntPtr a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_BEGININVOKE_OFFSET))(this, opaque, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADSTART_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

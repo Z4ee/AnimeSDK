@@ -5,31 +5,31 @@
 
 namespace Spine { class TrackEntry; }
 
-#define SPINE_UNITY_WAITFORSPINEANIMATION_HANDLECOMPLETE_OFFSET UNITYSDK_OFFSET(0x19E6A990)
-#define SPINE_UNITY_WAITFORSPINEANIMATION_NOWWAITFOR_OFFSET UNITYSDK_OFFSET(0x19E6A8A0)
-#define SPINE_UNITY_WAITFORSPINEANIMATION_SAFESUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x19E6A570)
-#define SPINE_UNITY_WAITFORSPINEANIMATION_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19E6A980)
-#define SPINE_UNITY_WAITFORSPINEANIMATION_SYSTEM_COLLECTIONS_IENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19E6A8C0)
-#define SPINE_UNITY_WAITFORSPINEANIMATION_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19E6A970)
-#define SPINE_UNITY_WAITFORSPINEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6A560)
+#define SPINE_UNITY_WAITFORSPINEANIMATION_HANDLECOMPLETE_OFFSET UNITYSDK_OFFSET(0x1ACE0FD0)
+#define SPINE_UNITY_WAITFORSPINEANIMATION_NOWWAITFOR_OFFSET UNITYSDK_OFFSET(0x1ACE0EE0)
+#define SPINE_UNITY_WAITFORSPINEANIMATION_SAFESUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1ACE0B10)
+#define SPINE_UNITY_WAITFORSPINEANIMATION_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1ACE0FC0)
+#define SPINE_UNITY_WAITFORSPINEANIMATION_SYSTEM_COLLECTIONS_IENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1ACE0F00)
+#define SPINE_UNITY_WAITFORSPINEANIMATION_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1ACE0FB0)
+#define SPINE_UNITY_WAITFORSPINEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE0B00)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int WaitForSpineAnimation_TypeDefinitionIndex = 40660;
+	inline static constexpr unsigned int WaitForSpineAnimation_TypeDefinitionIndex = 41487;
 
 	class WaitForSpineAnimation : public ::System::Object
 	{
 	public:
 		::System::Boolean m_WasFired; // 0x10
 
-		::System::Void _ctor(::Spine::TrackEntry* trackEntry, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes eventsToWaitFor)
+		::System::Void _ctor(::Spine::TrackEntry* a1, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATION__CTOR_OFFSET))(this, trackEntry, eventsToWaitFor);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::Spine::Unity::WaitForSpineAnimation* NowWaitFor(::Spine::TrackEntry* trackEntry, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes eventsToWaitFor)
+		::Spine::Unity::WaitForSpineAnimation* NowWaitFor(::Spine::TrackEntry* a1, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes a2)
 		{
-			return ((::Spine::Unity::WaitForSpineAnimation*(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATION_NOWWAITFOR_OFFSET))(this, trackEntry, eventsToWaitFor);
+			return ((::Spine::Unity::WaitForSpineAnimation*(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATION_NOWWAITFOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean System_Collections_IEnumerator_MoveNext()
@@ -47,14 +47,14 @@ namespace Spine::Unity
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATION_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Void SafeSubscribe(::Spine::TrackEntry* trackEntry, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes eventsToWaitFor)
+		::System::Void SafeSubscribe(::Spine::TrackEntry* a1, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATION_SAFESUBSCRIBE_OFFSET))(this, trackEntry, eventsToWaitFor);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*, ::Spine::Unity::WaitForSpineAnimation_AnimationEventTypes))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATION_SAFESUBSCRIBE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void HandleComplete(::Spine::TrackEntry* trackEntry)
+		::System::Void HandleComplete(::Spine::TrackEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATION_HANDLECOMPLETE_OFFSET))(this, trackEntry);
+			return ((::System::Void(*)(::PVOID, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEANIMATION_HANDLECOMPLETE_OFFSET))(this, a1);
 		}
 	};
 }

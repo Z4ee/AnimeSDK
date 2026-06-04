@@ -7,18 +7,18 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class CanvasGroup; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOFADEINCOMPONENT_DOTICK_OFFSET UNITYSDK_OFFSET(0xA9C26C0)
-#define RPG_CLIENT_MONOFADEINCOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0xA9C2870)
-#define RPG_CLIENT_MONOFADEINCOMPONENT_PERFORMFADEIN_OFFSET UNITYSDK_OFFSET(0xA9C2A80)
-#define RPG_CLIENT_MONOFADEINCOMPONENT_SETPLAYEDSTATUS_OFFSET UNITYSDK_OFFSET(0xA9C28C0)
-#define RPG_CLIENT_MONOFADEINCOMPONENT_TRYSTARTPERFORM_OFFSET UNITYSDK_OFFSET(0xA9C27D0)
-#define RPG_CLIENT_MONOFADEINCOMPONENT_UPDATE_OFFSET UNITYSDK_OFFSET(0xA9C2670)
-#define RPG_CLIENT_MONOFADEINCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA9C2B10)
-#define RPG_CLIENT_MONOFADEINCOMPONENT__SETALPHA_OFFSET UNITYSDK_OFFSET(0xA9C2910)
+#define RPG_CLIENT_MONOFADEINCOMPONENT_DOTICK_OFFSET UNITYSDK_OFFSET(0xC1106E0)
+#define RPG_CLIENT_MONOFADEINCOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0xC110890)
+#define RPG_CLIENT_MONOFADEINCOMPONENT_PERFORMFADEIN_OFFSET UNITYSDK_OFFSET(0xC110A90)
+#define RPG_CLIENT_MONOFADEINCOMPONENT_SETPLAYEDSTATUS_OFFSET UNITYSDK_OFFSET(0xC1108E0)
+#define RPG_CLIENT_MONOFADEINCOMPONENT_TRYSTARTPERFORM_OFFSET UNITYSDK_OFFSET(0xC1107F0)
+#define RPG_CLIENT_MONOFADEINCOMPONENT_UPDATE_OFFSET UNITYSDK_OFFSET(0xC110690)
+#define RPG_CLIENT_MONOFADEINCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC110B20)
+#define RPG_CLIENT_MONOFADEINCOMPONENT__SETALPHA_OFFSET UNITYSDK_OFFSET(0xC110930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoFadeInComponent_TypeDefinitionIndex = 66872;
+	inline static constexpr unsigned int MonoFadeInComponent_TypeDefinitionIndex = 67812;
 
 	class MonoFadeInComponent : public ::UnityEngine::MonoBehaviour
 	{
@@ -44,9 +44,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFADEINCOMPONENT_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void TryStartPerform(::XLua::LuaTable* cbkOwner, ::System::Action_1<::XLua::LuaTable*>* cbk)
+		::System::Void TryStartPerform(::XLua::LuaTable* a1, ::System::Action_1<::XLua::LuaTable*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFADEINCOMPONENT_TRYSTARTPERFORM_OFFSET))(this, cbkOwner, cbk);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFADEINCOMPONENT_TRYSTARTPERFORM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetPlayedStatus()
@@ -64,14 +64,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFADEINCOMPONENT_DOTICK_OFFSET))(this);
 		}
 
-		::System::Void PerformFadeIn(::System::Single time)
+		::System::Void PerformFadeIn(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFADEINCOMPONENT_PERFORMFADEIN_OFFSET))(this, time);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFADEINCOMPONENT_PERFORMFADEIN_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetAlpha(::System::Single alpha)
+		::System::Void _SetAlpha(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFADEINCOMPONENT__SETALPHA_OFFSET))(this, alpha);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFADEINCOMPONENT__SETALPHA_OFFSET))(this, a1);
 		}
 	};
 }

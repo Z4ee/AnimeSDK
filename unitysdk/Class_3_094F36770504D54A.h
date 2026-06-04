@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroGunPlayPuzzleLoadClockParkModifier; }
 
-#define CLASS_3_094F36770504D54A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x97DCA70)
-#define CLASS_3_094F36770504D54A__CTOR_OFFSET UNITYSDK_OFFSET(0x97DCA40)
+#define CLASS_3_094F36770504D54A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCEC5290)
+#define CLASS_3_094F36770504D54A__CTOR_OFFSET UNITYSDK_OFFSET(0xCEC5260)
 
-inline static constexpr unsigned int Class_3_094F36770504D54A_TypeDefinitionIndex = 54361;
+inline static constexpr unsigned int Class_3_094F36770504D54A_TypeDefinitionIndex = 55088;
 
 class Class_3_094F36770504D54A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WolfBroGunPlayPuzzleLoadClockParkModifier*>
 {

@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E64D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E6500)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6D1000)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6E64B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B5158A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B5158D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B50DE10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B515830)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRApplications__RemoveApplicationManifest_TypeDefinitionIndex = 35716;
+	inline static constexpr unsigned int IVRApplications__RemoveApplicationManifest_TypeDefinitionIndex = 36016;
 
 	class IVRApplications__RemoveApplicationManifest : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError Invoke(::System::String* pchApplicationManifestFullPath)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError Invoke(::System::String* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_INVOKE_OFFSET))(this, pchApplicationManifestFullPath);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* pchApplicationManifestFullPath, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_BEGININVOKE_OFFSET))(this, pchApplicationManifestFullPath, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError EndInvoke(::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_ENDINVOKE_OFFSET))(this, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__REMOVEAPPLICATIONMANIFEST_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

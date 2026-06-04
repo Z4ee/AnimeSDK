@@ -6,29 +6,29 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D28E70)
-#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D290C0)
+#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B4C8C0)
+#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B4CB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleEffectRow_TypeDefinitionIndex = 13899;
+	inline static constexpr unsigned int RogueMiracleEffectRow_TypeDefinitionIndex = 13966;
 
 	class RogueMiracleEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::RPG::Client::TextID MiracleDynamicHint; // 0x18
-		::RPG::Client::TextID MiracleDesc; // 0x28
-		::System::UInt32 MiracleEffectID; // 0x38
+		::System::UInt32 MiracleEffectID; // 0x18
+		::RPG::Client::TextID MiracleDesc; // 0x20
+		::RPG::Client::TextID MiracleDynamicHint; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEEFFECTROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueMiracleEffectRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMiracleEffectRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMiracleEffectRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMiracleEffectRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

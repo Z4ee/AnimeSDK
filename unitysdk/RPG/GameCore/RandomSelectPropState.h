@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class GroupEntityInfo; }
 
-#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_1F5690FE5185FF0D_OFFSET UNITYSDK_OFFSET(0x18C8AC60)
-#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_A3FAE66E1C70220C_OFFSET UNITYSDK_OFFSET(0x18C8ACE0)
-#define RPG_GAMECORE_RANDOMSELECTPROPSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C8ACB0)
+#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_87817F5E907E34A6_OFFSET UNITYSDK_OFFSET(0x19AAFB50)
+#define RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_D72412256C5156E7_OFFSET UNITYSDK_OFFSET(0x19AAFAD0)
+#define RPG_GAMECORE_RANDOMSELECTPROPSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAFB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomSelectPropState_TypeDefinitionIndex = 21109;
+	inline static constexpr unsigned int RandomSelectPropState_TypeDefinitionIndex = 21012;
 
 	class RandomSelectPropState : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTPROPSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1F5690FE5185FF0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectPropState*& a2)
+		static ::System::Void Method_3_D72412256C5156E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectPropState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectPropState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_1F5690FE5185FF0D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectPropState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_D72412256C5156E7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A3FAE66E1C70220C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectPropState* a2)
+		static ::System::Void Method_3_87817F5E907E34A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectPropState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectPropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_A3FAE66E1C70220C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectPropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTPROPSTATE_METHOD_3_87817F5E907E34A6_OFFSET))(a1, a2);
 		}
 	};
 }

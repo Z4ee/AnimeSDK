@@ -3,7 +3,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Sphere3Sphere3IntrTypes_TypeDefinitionIndex = 8762;
+	inline static constexpr unsigned int Sphere3Sphere3IntrTypes_TypeDefinitionIndex = 6626;
 
 	enum class Sphere3Sphere3IntrTypes : ::System::Int32
 	{

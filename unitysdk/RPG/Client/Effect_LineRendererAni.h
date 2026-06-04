@@ -17,99 +17,99 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA1DC740)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xA1DD2D0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_FLASHING_OFFSET UNITYSDK_OFFSET(0xA1DF300)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_080E1913036F2D7A_OFFSET UNITYSDK_OFFSET(0xA1E16E0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_0A0A8830B02C5A4B_OFFSET UNITYSDK_OFFSET(0xA1DD000)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_0D372435D9CAE4BC_OFFSET UNITYSDK_OFFSET(0xA1DFBC0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_0F9967167A7C46B8_OFFSET UNITYSDK_OFFSET(0xA1E3330)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_0FA0DC1A5F2C9A46_OFFSET UNITYSDK_OFFSET(0xA1E18C0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_1436F01296AE7E9E_OFFSET UNITYSDK_OFFSET(0xA1E3280)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_1A425C083DDF2BB1_OFFSET UNITYSDK_OFFSET(0xA1E0F60)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0xA1DD490)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_28DCFAC6E561ABF3_OFFSET UNITYSDK_OFFSET(0xA1DDA20)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_2BD6AADC2D336214_OFFSET UNITYSDK_OFFSET(0xA1E1610)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0xA1E0190)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_35DC9B290E018EE0_OFFSET UNITYSDK_OFFSET(0xA1E17B0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xA1DD430)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xA1DCE90)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_4A13BD8A67015544_OFFSET UNITYSDK_OFFSET(0xA1E0000)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_4BA714DB3EE28969_OFFSET UNITYSDK_OFFSET(0xA1E11D0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_627557CE4CD0ABB4_OFFSET UNITYSDK_OFFSET(0xA1E1000)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_68D158D7FBF6D878_OFFSET UNITYSDK_OFFSET(0xA1E1080)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_6D93101E4CE10A96_OFFSET UNITYSDK_OFFSET(0xA1DF4A0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_7B3D7D2FB25B3ABB_OFFSET UNITYSDK_OFFSET(0xA1E0BE0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_885DF4DA0F709E3E_OFFSET UNITYSDK_OFFSET(0xA1DD7F0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_885ED44B3EB205AE_OFFSET UNITYSDK_OFFSET(0xA1E12B0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_8FD9A03125C62E27_OFFSET UNITYSDK_OFFSET(0xA1E1F80)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_9001FEB11D17FB84_OFFSET UNITYSDK_OFFSET(0xA1E2BB0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0xA1DC8D0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_9F84D1FF74319152_OFFSET UNITYSDK_OFFSET(0xA1DCF30)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_A0433AB55CC45192_OFFSET UNITYSDK_OFFSET(0xA1E08F0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_A3CE3797867F0E52_OFFSET UNITYSDK_OFFSET(0xA1E05C0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_ABFE6A357B89C69A_OFFSET UNITYSDK_OFFSET(0xA1E0760)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xA1DC6A0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_BC91D3156F9FBFB8_OFFSET UNITYSDK_OFFSET(0xA1E1AC0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0xA1E0670)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_D437D090E63BE8A7_1_OFFSET UNITYSDK_OFFSET(0xA1E14F0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0xA1E1420)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0xA1DC560)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_DA92A6D4B0CCB4D9_OFFSET UNITYSDK_OFFSET(0xA1DFF70)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_DAC9219D09D338F5_OFFSET UNITYSDK_OFFSET(0xA1E0DF0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_F96B1C7229DF29DF_OFFSET UNITYSDK_OFFSET(0xA1DF740)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xA1DCC20)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA1DC780)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_RESET_OFFSET UNITYSDK_OFFSET(0xA1DC5F0)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI_UPDATE_OFFSET UNITYSDK_OFFSET(0xA1DCD40)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI__CCTOR_OFFSET UNITYSDK_OFFSET(0xA1E3850)
-#define RPG_CLIENT_EFFECT_LINERENDERERANI__CTOR_OFFSET UNITYSDK_OFFSET(0xA1E36B0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB85F000)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xB85FBA0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_FLASHING_OFFSET UNITYSDK_OFFSET(0xB861B20)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_080E1913036F2D7A_OFFSET UNITYSDK_OFFSET(0xB863B10)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_0D372435D9CAE4BC_OFFSET UNITYSDK_OFFSET(0xB8660C0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_0D7638DBC93E5002_OFFSET UNITYSDK_OFFSET(0xB85F8C0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_1436F01296AE7E9E_OFFSET UNITYSDK_OFFSET(0xB865C80)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_1A425C083DDF2BB1_OFFSET UNITYSDK_OFFSET(0xB863380)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0xB85FD60)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_28DCFAC6E561ABF3_OFFSET UNITYSDK_OFFSET(0xB8602C0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_2BD6AADC2D336214_OFFSET UNITYSDK_OFFSET(0xB863A50)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_2D113EFECECEAB2C_OFFSET UNITYSDK_OFFSET(0xB863CC0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0xB862600)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_35DC9B290E018EE0_OFFSET UNITYSDK_OFFSET(0xB863BD0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xB85FD00)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB85F750)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_4A13BD8A67015544_OFFSET UNITYSDK_OFFSET(0xB862470)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_4BA714DB3EE28969_OFFSET UNITYSDK_OFFSET(0xB863610)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_627557CE4CD0ABB4_OFFSET UNITYSDK_OFFSET(0xB863420)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_68D158D7FBF6D878_OFFSET UNITYSDK_OFFSET(0xB8634A0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_6D93101E4CE10A96_OFFSET UNITYSDK_OFFSET(0xB861CC0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_7B3D7D2FB25B3ABB_OFFSET UNITYSDK_OFFSET(0xB863000)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_885DF4DA0F709E3E_OFFSET UNITYSDK_OFFSET(0xB8600C0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_885ED44B3EB205AE_OFFSET UNITYSDK_OFFSET(0xB8636F0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_8FD9A03125C62E27_OFFSET UNITYSDK_OFFSET(0xB864640)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_9001FEB11D17FB84_OFFSET UNITYSDK_OFFSET(0xB8655E0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0xB85F190)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_9F84D1FF74319152_OFFSET UNITYSDK_OFFSET(0xB85F7F0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_A0433AB55CC45192_OFFSET UNITYSDK_OFFSET(0xB862D10)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_A3CE3797867F0E52_OFFSET UNITYSDK_OFFSET(0xB8629E0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_ABFE6A357B89C69A_OFFSET UNITYSDK_OFFSET(0xB862B80)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xB85EF60)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_BC91D3156F9FBFB8_OFFSET UNITYSDK_OFFSET(0xB863F90)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_C9170D17EFDB195F_OFFSET UNITYSDK_OFFSET(0xB865D30)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0xB862A90)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_D437D090E63BE8A7_1_OFFSET UNITYSDK_OFFSET(0xB863930)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0xB863860)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0xB85EE20)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_DA92A6D4B0CCB4D9_OFFSET UNITYSDK_OFFSET(0xB8623E0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_DAC9219D09D338F5_OFFSET UNITYSDK_OFFSET(0xB863210)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_F96B1C7229DF29DF_OFFSET UNITYSDK_OFFSET(0xB861F60)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB85F4E0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB85F040)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_RESET_OFFSET UNITYSDK_OFFSET(0xB85EEB0)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI_UPDATE_OFFSET UNITYSDK_OFFSET(0xB85F600)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI__CCTOR_OFFSET UNITYSDK_OFFSET(0xB866820)
+#define RPG_CLIENT_EFFECT_LINERENDERERANI__CTOR_OFFSET UNITYSDK_OFFSET(0xB866450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_LineRendererAni_TypeDefinitionIndex = 64990;
+	inline static constexpr unsigned int Effect_LineRendererAni_TypeDefinitionIndex = 65916;
 
 	class Effect_LineRendererAni : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_5_99()
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_5_0()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0x117F0);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0xBE80);
 		}
-		static ::Il2CppArray<::UnityEngine::Plane>** StaticGet_Field_5_79()
+		static ::Il2CppArray<::System::Single>** StaticGet_Field_5_1()
 		{
-			return (::Il2CppArray<::UnityEngine::Plane>**)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0x117F8);
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0xBE88);
 		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_Field_5_91()
+		static ::Il2CppArray<::UnityEngine::Plane>** StaticGet_Field_5_2()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0x11800);
+			return (::Il2CppArray<::UnityEngine::Plane>**)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0xBE90);
 		}
-		static ::Il2CppArray<::System::Single>** StaticGet_Field_5_97()
+		static ::Il2CppArray<::UnityEngine::Vector2>** StaticGet_Field_5_3()
 		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0x11808);
+			return (::Il2CppArray<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0xBE98);
 		}
-		static ::Il2CppArray<::UnityEngine::Vector2>** StaticGet_Field_5_98()
+		static ::Il2CppArray<::System::Int32>** StaticGet_Field_5_4()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0x11810);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0xBEA0);
 		}
 		static ::System::Int32* StaticGet_QualitySetting()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0x5650);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0x4700);
 		}
 		static ::System::Int32* StaticGet_RandomSeedShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0x5654);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_LineRendererAni_TypeDefinitionIndex)->GetStaticField(0x4704);
 		}
-		// static const ::System::Single Field_5_83; // 0x0
-		// static const ::System::Boolean Field_5_86; // 0x0
-		// static const ::System::Int32 Field_5_87 = 0x1; // 0x0
-		// static const ::System::Single Field_5_88; // 0x0
-		// static const ::System::Single Field_5_89; // 0x0
-		// static const ::System::Int32 Field_5_92 = 0xFF; // 0x0
-		// static const ::System::Int32 Field_5_93 = 0x1; // 0x0
-		// static const ::System::Int32 Field_5_94 = 0x7; // 0x0
-		// static const ::System::Int32 Field_5_95 = 0xF; // 0x0
-		// static const ::System::Single Field_5_96; // 0x0
+		// static const ::System::Single Field_5_7; // 0x0
+		// static const ::System::Boolean Field_5_8; // 0x0
+		// static const ::System::Int32 Field_5_9 = 0x1; // 0x0
+		// static const ::System::Single Field_5_10; // 0x0
+		// static const ::System::Single Field_5_11; // 0x0
+		// static const ::System::Int32 Field_5_12 = 0xFF; // 0x0
+		// static const ::System::Int32 Field_5_13 = 0x1; // 0x0
+		// static const ::System::Int32 Field_5_14 = 0x7; // 0x0
+		// static const ::System::Int32 Field_5_15 = 0xF; // 0x0
+		// static const ::System::Single Field_5_16; // 0x0
 		::System::Int32 LineLength; // 0x18
 		::System::Single FollowSpeed; // 0x1C
 		::UnityEngine::AnimationCurve* FollowCurve; // 0x20
@@ -118,9 +118,9 @@ namespace RPG::Client
 		::System::Boolean UseTimeDelay; // 0x38
 		::System::Single TimeDelay; // 0x3C
 		::UnityEngine::AnimationCurve* TimeBlinkCurve; // 0x40
-		::System::Boolean Field_5_9; // 0x48
-		::System::Single Field_5_10; // 0x4C
-		::System::Single Field_5_11; // 0x50
+		::System::Boolean Field_5_25; // 0x48
+		::System::Single Field_5_26; // 0x4C
+		::System::Single Field_5_27; // 0x50
 		::UnityEngine::Vector3 LineTailOffset; // 0x54
 		::System::Single LineTailOffsetLength; // 0x60
 		::System::Boolean LineTailCurveOffsetEnable; // 0x64
@@ -171,28 +171,28 @@ namespace RPG::Client
 		::System::Boolean UpdateState; // 0x141
 		::System::Int32 TargetWaitCount; // 0x144
 		::System::Int32 UpdateCount; // 0x148
-		::UnityEngine::LineRenderer* Field_5_62; // 0x150
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_63; // 0x158
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_64; // 0x160
-		::System::Nullable_1<::UnityEngine::Matrix4x4> Field_5_65; // 0x168
-		::System::Nullable_1<::UnityEngine::Matrix4x4> Field_5_66; // 0x1AC
-		::System::Boolean Field_5_67; // 0x1F0
-		::System::Boolean Field_5_68; // 0x1F1
-		::System::Boolean Field_5_69; // 0x1F2
-		::UnityEngine::Vector3 Field_5_70; // 0x1F4
-		::UnityEngine::Matrix4x4 Field_5_71; // 0x200
-		::System::Single Field_5_72; // 0x240
-		::System::Boolean Field_5_73; // 0x244
-		::UnityEngine::Vector3 Field_5_74; // 0x248
-		::UnityEngine::Vector3 Field_5_75; // 0x254
-		::UnityEngine::Bounds Field_5_76; // 0x260
-		::System::Boolean Field_5_77; // 0x278
-		::UnityEngine::Vector3 Field_5_78; // 0x27C
-		::System::Single Field_5_80; // 0x288
-		::System::Single Field_5_81; // 0x28C
-		::System::Single Field_5_82; // 0x290
-		::System::Single Field_5_85; // 0x294
-		::System::Boolean Field_5_90; // 0x298
+		::UnityEngine::LineRenderer* Field_5_78; // 0x150
+		::Il2CppArray<::UnityEngine::Vector3>* Field_5_79; // 0x158
+		::Il2CppArray<::UnityEngine::Vector3>* Field_5_80; // 0x160
+		::System::Nullable_1<::UnityEngine::Matrix4x4> Field_5_81; // 0x168
+		::System::Nullable_1<::UnityEngine::Matrix4x4> Field_5_82; // 0x1AC
+		::System::Boolean Field_5_83; // 0x1F0
+		::System::Boolean Field_5_84; // 0x1F1
+		::System::Boolean Field_5_85; // 0x1F2
+		::UnityEngine::Vector3 Field_5_86; // 0x1F4
+		::UnityEngine::Matrix4x4 Field_5_87; // 0x200
+		::System::Single Field_5_88; // 0x240
+		::System::Boolean Field_5_89; // 0x244
+		::UnityEngine::Vector3 Field_5_90; // 0x248
+		::UnityEngine::Vector3 Field_5_91; // 0x254
+		::UnityEngine::Bounds Field_5_92; // 0x260
+		::System::Boolean Field_5_93; // 0x278
+		::UnityEngine::Vector3 Field_5_94; // 0x27C
+		::System::Single Field_5_95; // 0x288
+		::System::Single Field_5_96; // 0x28C
+		::System::Single Field_5_97; // 0x290
+		::System::Single Field_5_98; // 0x294
+		::System::Boolean Field_5_99; // 0x298
 		::UnityEngine::Vector2 Field_5_100; // 0x29C
 		::UnityEngine::Vector2 Field_5_101; // 0x2A4
 		::UnityEngine::Vector3 Field_5_102; // 0x2AC
@@ -260,9 +260,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_97D83E4CB3B11935_OFFSET))(this);
 		}
 
-		::System::Void Method_5_0A0A8830B02C5A4B()
+		::System::Void Method_5_0D7638DBC93E5002()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_0A0A8830B02C5A4B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_0D7638DBC93E5002_OFFSET))(this);
 		}
 
 		::System::Void Method_5_6D93101E4CE10A96()
@@ -405,9 +405,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_35DC9B290E018EE0_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 Method_5_0FA0DC1A5F2C9A46(::UnityEngine::Vector3 a1, ::System::Single a2)
+		::UnityEngine::Vector2 Method_5_2D113EFECECEAB2C(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_0FA0DC1A5F2C9A46_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_2D113EFECECEAB2C_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector2 Method_5_BC91D3156F9FBFB8(::UnityEngine::Vector3 a1, ::System::Single a2)
@@ -425,9 +425,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_9001FEB11D17FB84_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2 Method_5_0F9967167A7C46B8(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Int32 a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6, ::System::Int32 a7)
+		::UnityEngine::Vector2 Method_5_C9170D17EFDB195F(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Int32 a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6, ::System::Int32 a7)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_0F9967167A7C46B8_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERERANI_METHOD_5_C9170D17EFDB195F_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::UnityEngine::Vector3 Method_5_1436F01296AE7E9E(::UnityEngine::Vector3 a1, ::System::Int32 a2)

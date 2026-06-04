@@ -3,14 +3,14 @@
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A31EEC0)
-#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1A31EF70)
-#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A31EED0)
-#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A31EF00)
+#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B179D30)
+#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1B179DE0)
+#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1B179D40)
+#define UNITYENGINE_RENDERING_FLOATRANGEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B179D70)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FloatRangeParameter_TypeDefinitionIndex = 33552;
+	inline static constexpr unsigned int FloatRangeParameter_TypeDefinitionIndex = 33834;
 
 	class FloatRangeParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Vector2>
 	{
@@ -18,9 +18,9 @@ namespace UnityEngine::Rendering
 		::System::Single min; // 0x20
 		::System::Single max; // 0x24
 
-		::System::Void _ctor(::UnityEngine::Vector2 value, ::System::Single min, ::System::Single max, ::System::Boolean overrideState)
+		::System::Void _ctor(::UnityEngine::Vector2 a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FLOATRANGEPARAMETER__CTOR_OFFSET))(this, value, min, max, overrideState);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FLOATRANGEPARAMETER__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::UnityEngine::Vector2 get_value()
@@ -28,14 +28,14 @@ namespace UnityEngine::Rendering
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_value(::UnityEngine::Vector2 value)
+		::System::Void set_value(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_SET_VALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void Interp(::UnityEngine::Vector2 from, ::UnityEngine::Vector2 to, ::System::Single t)
+		::System::Void Interp(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_INTERP_OFFSET))(this, from, to, t);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FLOATRANGEPARAMETER_INTERP_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

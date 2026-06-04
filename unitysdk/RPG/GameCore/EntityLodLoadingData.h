@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EntitySpawnConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x188AE310)
-#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188AE820)
-#define RPG_GAMECORE_ENTITYLODLOADINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x188AE2E0)
+#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x196EC350)
+#define RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196EC860)
+#define RPG_GAMECORE_ENTITYLODLOADINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x196EC320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityLodLoadingData_TypeDefinitionIndex = 18257;
+	inline static constexpr unsigned int EntityLodLoadingData_TypeDefinitionIndex = 18230;
 
 	class EntityLodLoadingData : public ::RPG::GameCore::EntityLodLoadingArtData
 	{
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODLOADINGDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::EntityLodLoadingData*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityLodLoadingData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodLoadingData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodLoadingData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::EntityLodLoadingData* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityLodLoadingData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodLoadingData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodLoadingData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODLOADINGDATA_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

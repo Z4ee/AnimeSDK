@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_COMBOUSERMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x173F5380)
+#define MIHOYO_SDK_COMBOUSERMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x181F9B50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ComboUserModel_TypeDefinitionIndex = 6914;
+	inline static constexpr unsigned int ComboUserModel_TypeDefinitionIndex = 7817;
 
 	class ComboUserModel : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace MiHoYo::SDK
 		::System::String* open_token; // 0x78
 		::System::String* asterisk_name; // 0x80
 
-		::System::Void _ctor(::MiHoYo::SDK::JSONNode* json)
+		::System::Void _ctor(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMBOUSERMODEL__CTOR_OFFSET))(this, json);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMBOUSERMODEL__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

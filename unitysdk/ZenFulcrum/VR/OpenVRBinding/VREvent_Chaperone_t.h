@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_Chaperone_t_TypeDefinitionIndex = 36054;
+	inline static constexpr unsigned int VREvent_Chaperone_t_TypeDefinitionIndex = 36354;
 
 	struct alignas(8) VREvent_Chaperone_t
 	{

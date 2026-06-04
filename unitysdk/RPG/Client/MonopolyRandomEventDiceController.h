@@ -10,16 +10,16 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_CLEAREVENT_OFFSET UNITYSDK_OFFSET(0xAABCD10)
-#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0xAABCC00)
-#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_STARTROTATE_OFFSET UNITYSDK_OFFSET(0xAABCD70)
-#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_START_OFFSET UNITYSDK_OFFSET(0xAABCB60)
-#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xAABCFB0)
-#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER__ONROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xAABCF60)
+#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_CLEAREVENT_OFFSET UNITYSDK_OFFSET(0xC18B2A0)
+#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0xC18B170)
+#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_STARTROTATE_OFFSET UNITYSDK_OFFSET(0xC18B300)
+#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_START_OFFSET UNITYSDK_OFFSET(0xC18B080)
+#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xC18B5B0)
+#define RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER__ONROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xC18B550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyRandomEventDiceController_TypeDefinitionIndex = 67105;
+	inline static constexpr unsigned int MonopolyRandomEventDiceController_TypeDefinitionIndex = 68048;
 
 	class MonopolyRandomEventDiceController : public ::UnityEngine::MonoBehaviour
 	{
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_START_OFFSET))(this);
 		}
 
-		::System::Void Init(::System::Action* animFinishCallback)
+		::System::Void Init(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_INIT_OFFSET))(this, animFinishCallback);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearEvent()
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_CLEAREVENT_OFFSET))(this);
 		}
 
-		::System::Void StartRotate(::System::Collections::Generic::List_1<::System::Int32>* diceValue)
+		::System::Void StartRotate(::System::Collections::Generic::List_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_STARTROTATE_OFFSET))(this, diceValue);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYRANDOMEVENTDICECONTROLLER_STARTROTATE_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnRotateFinish()

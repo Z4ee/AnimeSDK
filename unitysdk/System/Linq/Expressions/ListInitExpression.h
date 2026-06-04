@@ -6,18 +6,18 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class ElementInit; }
 namespace System::Linq::Expressions { class NewExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_LISTINITEXPRESSION_GET_INITIALIZERS_OFFSET UNITYSDK_OFFSET(0x19F3D360)
-#define SYSTEM_LINQ_EXPRESSIONS_LISTINITEXPRESSION_GET_NEWEXPRESSION_OFFSET UNITYSDK_OFFSET(0x19F3D350)
+#define SYSTEM_LINQ_EXPRESSIONS_LISTINITEXPRESSION_GET_INITIALIZERS_OFFSET UNITYSDK_OFFSET(0x1ADB4900)
+#define SYSTEM_LINQ_EXPRESSIONS_LISTINITEXPRESSION_GET_NEWEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1ADB48F0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ListInitExpression_TypeDefinitionIndex = 3225;
+	inline static constexpr unsigned int ListInitExpression_TypeDefinitionIndex = 3226;
 
 	class ListInitExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* _Initializers_k__BackingField; // 0x10
-		::System::Linq::Expressions::NewExpression* _NewExpression_k__BackingField; // 0x18
+		::System::Linq::Expressions::NewExpression* _NewExpression_k__BackingField; // 0x10
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* _Initializers_k__BackingField; // 0x18
 
 		::System::Linq::Expressions::NewExpression* get_NewExpression()
 		{

@@ -5,20 +5,20 @@
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define CLASS_2_28318F8C6730A594_GET_ID_OFFSET UNITYSDK_OFFSET(0x19DAFBF0)
-#define CLASS_2_28318F8C6730A594_GET_MESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x19DAFBE0)
-#define CLASS_2_28318F8C6730A594_GET_SUBSCRIBER_OFFSET UNITYSDK_OFFSET(0x19DAFBD0)
-#define CLASS_2_28318F8C6730A594__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19DAFAF0)
-#define CLASS_2_28318F8C6730A594__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAF9E0)
+#define CLASS_2_28318F8C6730A594_GET_ID_OFFSET UNITYSDK_OFFSET(0x1AC31DB0)
+#define CLASS_2_28318F8C6730A594_GET_MESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x1AC31DA0)
+#define CLASS_2_28318F8C6730A594_GET_SUBSCRIBER_OFFSET UNITYSDK_OFFSET(0x1AC31D90)
+#define CLASS_2_28318F8C6730A594__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AC31CB0)
+#define CLASS_2_28318F8C6730A594__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC31BA0)
 
-inline static constexpr unsigned int Class_2_28318F8C6730A594_TypeDefinitionIndex = 39816;
+inline static constexpr unsigned int Class_2_28318F8C6730A594_TypeDefinitionIndex = 40643;
 
 class Class_2_28318F8C6730A594 : public ::System::Exception
 {
 public:
 	::System::Type* _MessageType_k__BackingField; // 0x88
-	::System::Object* _Subscriber_k__BackingField; // 0x90
-	::System::Object* _Id_k__BackingField; // 0x98
+	::System::Object* _Id_k__BackingField; // 0x90
+	::System::Object* _Subscriber_k__BackingField; // 0x98
 
 	::System::Void _ctor(::System::Object* a1, ::System::Type* a2)
 	{

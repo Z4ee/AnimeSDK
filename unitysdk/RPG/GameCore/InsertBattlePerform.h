@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_INSERTBATTLEPERFORM_METHOD_3_37A6BB0722176311_OFFSET UNITYSDK_OFFSET(0x18A1F1E0)
-#define RPG_GAMECORE_INSERTBATTLEPERFORM_METHOD_3_90DFDB29D7A6A63F_OFFSET UNITYSDK_OFFSET(0x18A1F260)
-#define RPG_GAMECORE_INSERTBATTLEPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x18A1F230)
+#define RPG_GAMECORE_INSERTBATTLEPERFORM_METHOD_3_66A577515BEE47E4_OFFSET UNITYSDK_OFFSET(0x198511A0)
+#define RPG_GAMECORE_INSERTBATTLEPERFORM_METHOD_3_ECC9B2789610FCE0_OFFSET UNITYSDK_OFFSET(0x19851120)
+#define RPG_GAMECORE_INSERTBATTLEPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x19851170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InsertBattlePerform_TypeDefinitionIndex = 22340;
+	inline static constexpr unsigned int InsertBattlePerform_TypeDefinitionIndex = 22100;
 
 	class InsertBattlePerform : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INSERTBATTLEPERFORM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_37A6BB0722176311(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InsertBattlePerform*& a2)
+		static ::System::Void Method_3_ECC9B2789610FCE0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InsertBattlePerform*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InsertBattlePerform*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INSERTBATTLEPERFORM_METHOD_3_37A6BB0722176311_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InsertBattlePerform*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INSERTBATTLEPERFORM_METHOD_3_ECC9B2789610FCE0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_90DFDB29D7A6A63F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InsertBattlePerform* a2)
+		static ::System::Void Method_3_66A577515BEE47E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InsertBattlePerform* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InsertBattlePerform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INSERTBATTLEPERFORM_METHOD_3_90DFDB29D7A6A63F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InsertBattlePerform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INSERTBATTLEPERFORM_METHOD_3_66A577515BEE47E4_OFFSET))(a1, a2);
 		}
 	};
 }

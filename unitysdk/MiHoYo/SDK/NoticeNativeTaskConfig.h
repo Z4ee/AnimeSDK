@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_NOTICENATIVETASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17591AC0)
+#define MIHOYO_SDK_NOTICENATIVETASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18379E50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NoticeNativeTaskConfig_TypeDefinitionIndex = 6972;
+	inline static constexpr unsigned int NoticeNativeTaskConfig_TypeDefinitionIndex = 7875;
 
 	class NoticeNativeTaskConfig : public ::MiHoYo::SDK::SwitchBaseConfig
 	{
 	public:
-		::System::Void _ctor(::System::String* dataString)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NOTICENATIVETASKCONFIG__CTOR_OFFSET))(this, dataString);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NOTICENATIVETASKCONFIG__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

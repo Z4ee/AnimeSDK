@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_17122106D616A42B_EFlexibleLimitSource_TypeDefinitionIndex = 52662;
+inline static constexpr unsigned int Class_1_17122106D616A42B_EFlexibleLimitSource_TypeDefinitionIndex = 53362;
 
 enum class Class_1_17122106D616A42B_EFlexibleLimitSource : ::System::Int32
 {

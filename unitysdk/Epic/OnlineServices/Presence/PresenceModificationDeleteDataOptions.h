@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices::Presence { class PresenceModificationDataRecordId; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONS_GET_RECORDS_OFFSET UNITYSDK_OFFSET(0x8F09910)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONS_SET_RECORDS_OFFSET UNITYSDK_OFFSET(0x8F09920)
-#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8F09930)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONS_GET_RECORDS_OFFSET UNITYSDK_OFFSET(0xA332920)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONS_SET_RECORDS_OFFSET UNITYSDK_OFFSET(0xA332930)
+#define EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA332940)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int PresenceModificationDeleteDataOptions_TypeDefinitionIndex = 41606;
+	inline static constexpr unsigned int PresenceModificationDeleteDataOptions_TypeDefinitionIndex = 42409;
 
 	class PresenceModificationDeleteDataOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Presence
 			return ((::Il2CppArray<::Epic::OnlineServices::Presence::PresenceModificationDataRecordId*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONS_GET_RECORDS_OFFSET))(this);
 		}
 
-		::System::Void set_Records(::Il2CppArray<::Epic::OnlineServices::Presence::PresenceModificationDataRecordId*>* value)
+		::System::Void set_Records(::Il2CppArray<::Epic::OnlineServices::Presence::PresenceModificationDataRecordId*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::Presence::PresenceModificationDataRecordId*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONS_SET_RECORDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Epic::OnlineServices::Presence::PresenceModificationDataRecordId*>*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_PRESENCEMODIFICATIONDELETEDATAOPTIONS_SET_RECORDS_OFFSET))(this, a1);
 		}
 	};
 }

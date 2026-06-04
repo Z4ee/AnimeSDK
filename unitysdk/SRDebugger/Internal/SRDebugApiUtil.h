@@ -7,36 +7,36 @@ namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class WebException; }
 namespace System::Net { class WebResponse; }
 
-#define SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_PARSEERROREXCEPTION_OFFSET UNITYSDK_OFFSET(0x19E6EAB0)
-#define SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_PARSEERRORRESPONSE_OFFSET UNITYSDK_OFFSET(0x19E6D370)
-#define SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_READRESPONSESTREAM_OFFSET UNITYSDK_OFFSET(0x19E6EB60)
-#define SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_READRESPONSE_OFFSET UNITYSDK_OFFSET(0x19E6EEA0)
+#define SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_PARSEERROREXCEPTION_OFFSET UNITYSDK_OFFSET(0x1ACE5410)
+#define SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_PARSEERRORRESPONSE_OFFSET UNITYSDK_OFFSET(0x1ACE3AB0)
+#define SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_READRESPONSESTREAM_OFFSET UNITYSDK_OFFSET(0x1ACE54C0)
+#define SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_READRESPONSE_OFFSET UNITYSDK_OFFSET(0x1ACE5750)
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int SRDebugApiUtil_TypeDefinitionIndex = 35463;
+	inline static constexpr unsigned int SRDebugApiUtil_TypeDefinitionIndex = 35763;
 
 	class SRDebugApiUtil : public ::System::Object
 	{
 	public:
-		static ::System::String* ParseErrorException(::System::Net::WebException* ex)
+		static ::System::String* ParseErrorException(::System::Net::WebException* a1)
 		{
-			return ((::System::String*(*)(::System::Net::WebException*))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_PARSEERROREXCEPTION_OFFSET))(ex);
+			return ((::System::String*(*)(::System::Net::WebException*))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_PARSEERROREXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::String* ParseErrorResponse(::System::String* response, ::System::String* fallback)
+		static ::System::String* ParseErrorResponse(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_PARSEERRORRESPONSE_OFFSET))(response, fallback);
+			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_PARSEERRORRESPONSE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ReadResponse(::System::Net::HttpWebRequest* request, ::System::String*& result)
+		static ::System::Boolean ReadResponse(::System::Net::HttpWebRequest* a1, ::System::String*& a2)
 		{
-			return ((::System::Boolean(*)(::System::Net::HttpWebRequest*, ::System::String*&))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_READRESPONSE_OFFSET))(request, result);
+			return ((::System::Boolean(*)(::System::Net::HttpWebRequest*, ::System::String*&))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_READRESPONSE_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* ReadResponseStream(::System::Net::WebResponse* stream)
+		static ::System::String* ReadResponseStream(::System::Net::WebResponse* a1)
 		{
-			return ((::System::String*(*)(::System::Net::WebResponse*))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_READRESPONSESTREAM_OFFSET))(stream);
+			return ((::System::String*(*)(::System::Net::WebResponse*))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_SRDEBUGAPIUTIL_READRESPONSESTREAM_OFFSET))(a1);
 		}
 	};
 }

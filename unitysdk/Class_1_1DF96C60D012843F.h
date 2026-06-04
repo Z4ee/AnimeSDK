@@ -4,18 +4,18 @@
 
 namespace RPG::GameCore { class ModifyAdventureCharacterRunSpeedRatio; }
 
-#define CLASS_1_1DF96C60D012843F_METHOD_1_FC5102551AF3CB1A_OFFSET UNITYSDK_OFFSET(0x98288D0)
-#define CLASS_1_1DF96C60D012843F__CTOR_OFFSET UNITYSDK_OFFSET(0x98289B0)
+#define CLASS_1_1DF96C60D012843F_METHOD_1_FC5102551AF3CB1A_OFFSET UNITYSDK_OFFSET(0x138DD0F0)
+#define CLASS_1_1DF96C60D012843F__CTOR_OFFSET UNITYSDK_OFFSET(0x138DD1D0)
 
-inline static constexpr unsigned int Class_1_1DF96C60D012843F_TypeDefinitionIndex = 48895;
+inline static constexpr unsigned int Class_1_1DF96C60D012843F_TypeDefinitionIndex = 49561;
 
 class Class_1_1DF96C60D012843F : public ::System::Object
 {
 public:
-	::RPG::GameCore::ModifyAdventureCharacterRunSpeedRatio* Field_1_3; // 0x10
-	::System::Single Field_1_2; // 0x18
-	::System::Single Field_1_1; // 0x1C
-	::System::Single Field_1_0; // 0x20
+	::RPG::GameCore::ModifyAdventureCharacterRunSpeedRatio* Field_1_0; // 0x10
+	::System::Single Field_1_1; // 0x18
+	::System::Single Field_1_2; // 0x1C
+	::System::Single Field_1_3; // 0x20
 
 	::System::Void _ctor()
 	{

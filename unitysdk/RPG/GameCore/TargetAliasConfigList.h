@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TARGETALIASCONFIGLIST_METHOD_2_FE6A4C85E52B116F_OFFSET UNITYSDK_OFFSET(0x18ED3690)
-#define RPG_GAMECORE_TARGETALIASCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18ED3760)
+#define RPG_GAMECORE_TARGETALIASCONFIGLIST_METHOD_2_4B1D2C5449EDC655_OFFSET UNITYSDK_OFFSET(0x19CF2DE0)
+#define RPG_GAMECORE_TARGETALIASCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF2EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetAliasConfigList_TypeDefinitionIndex = 22949;
+	inline static constexpr unsigned int TargetAliasConfigList_TypeDefinitionIndex = 22640;
 
 	class TargetAliasConfigList : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETALIASCONFIGLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_FE6A4C85E52B116F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetAliasConfigList*& a2)
+		static ::System::Void Method_2_4B1D2C5449EDC655(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetAliasConfigList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetAliasConfigList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETALIASCONFIGLIST_METHOD_2_FE6A4C85E52B116F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetAliasConfigList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETALIASCONFIGLIST_METHOD_2_4B1D2C5449EDC655_OFFSET))(a1, a2);
 		}
 	};
 }

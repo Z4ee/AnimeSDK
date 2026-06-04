@@ -8,15 +8,15 @@
 
 namespace EzySlice { class IntersectionResult; }
 
-#define EZYSLICE_INTERSECTOR_INTERSECT_1_OFFSET UNITYSDK_OFFSET(0x8C00D60)
-#define EZYSLICE_INTERSECTOR_INTERSECT_2_OFFSET UNITYSDK_OFFSET(0x8C00EA0)
-#define EZYSLICE_INTERSECTOR_INTERSECT_OFFSET UNITYSDK_OFFSET(0x8C00C50)
-#define EZYSLICE_INTERSECTOR_TRIAREA2D_OFFSET UNITYSDK_OFFSET(0x8C00E70)
-#define EZYSLICE_INTERSECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x8C05D20)
+#define EZYSLICE_INTERSECTOR_INTERSECT_1_OFFSET UNITYSDK_OFFSET(0xA10CEE0)
+#define EZYSLICE_INTERSECTOR_INTERSECT_2_OFFSET UNITYSDK_OFFSET(0xA10D020)
+#define EZYSLICE_INTERSECTOR_INTERSECT_OFFSET UNITYSDK_OFFSET(0xA10CDD0)
+#define EZYSLICE_INTERSECTOR_TRIAREA2D_OFFSET UNITYSDK_OFFSET(0xA10CFF0)
+#define EZYSLICE_INTERSECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA111EA0)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Intersector_TypeDefinitionIndex = 43807;
+	inline static constexpr unsigned int Intersector_TypeDefinitionIndex = 44349;
 
 	class Intersector : public ::System::Object
 	{
@@ -28,24 +28,24 @@ namespace EzySlice
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EZYSLICE_INTERSECTOR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Boolean Intersect(::EzySlice::Plane pl, ::EzySlice::Line ln, ::UnityEngine::Vector3& q)
+		static ::System::Boolean Intersect(::EzySlice::Plane a1, ::EzySlice::Line a2, ::UnityEngine::Vector3& a3)
 		{
-			return ((::System::Boolean(*)(::EzySlice::Plane, ::EzySlice::Line, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + EZYSLICE_INTERSECTOR_INTERSECT_OFFSET))(pl, ln, q);
+			return ((::System::Boolean(*)(::EzySlice::Plane, ::EzySlice::Line, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + EZYSLICE_INTERSECTOR_INTERSECT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean Intersect_1(::EzySlice::Plane pl, ::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3& q)
+		static ::System::Boolean Intersect_1(::EzySlice::Plane a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3& a4)
 		{
-			return ((::System::Boolean(*)(::EzySlice::Plane, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + EZYSLICE_INTERSECTOR_INTERSECT_1_OFFSET))(pl, a, b, q);
+			return ((::System::Boolean(*)(::EzySlice::Plane, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + EZYSLICE_INTERSECTOR_INTERSECT_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Single TriArea2D(::System::Single x1, ::System::Single y1, ::System::Single x2, ::System::Single y2, ::System::Single x3, ::System::Single y3)
+		static ::System::Single TriArea2D(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + EZYSLICE_INTERSECTOR_TRIAREA2D_OFFSET))(x1, y1, x2, y2, x3, y3);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + EZYSLICE_INTERSECTOR_TRIAREA2D_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void Intersect_2(::EzySlice::Plane pl, ::EzySlice::Triangle tri, ::EzySlice::IntersectionResult* result)
+		static ::System::Void Intersect_2(::EzySlice::Plane a1, ::EzySlice::Triangle a2, ::EzySlice::IntersectionResult* a3)
 		{
-			return ((::System::Void(*)(::EzySlice::Plane, ::EzySlice::Triangle, ::EzySlice::IntersectionResult*))((::PBYTE)hIl2Cpp + EZYSLICE_INTERSECTOR_INTERSECT_2_OFFSET))(pl, tri, result);
+			return ((::System::Void(*)(::EzySlice::Plane, ::EzySlice::Triangle, ::EzySlice::IntersectionResult*))((::PBYTE)hIl2Cpp + EZYSLICE_INTERSECTOR_INTERSECT_2_OFFSET))(a1, a2, a3);
 		}
 	};
 }

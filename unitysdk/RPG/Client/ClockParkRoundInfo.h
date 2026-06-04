@@ -5,19 +5,19 @@
 
 namespace RPG::GameCore { class ClockParkRoundRow; }
 
-#define RPG_CLIENT_CLOCKPARKROUNDINFO_GET_DICESPECIALDISPLAY_OFFSET UNITYSDK_OFFSET(0xA0A67D0)
-#define RPG_CLIENT_CLOCKPARKROUNDINFO_GET_ROUNDID_OFFSET UNITYSDK_OFFSET(0xA0A6790)
-#define RPG_CLIENT_CLOCKPARKROUNDINFO_GET_ROUNDTYPE_OFFSET UNITYSDK_OFFSET(0xA0A1390)
-#define RPG_CLIENT_CLOCKPARKROUNDINFO_GET_ROW_OFFSET UNITYSDK_OFFSET(0xA0A67B0)
-#define RPG_CLIENT_CLOCKPARKROUNDINFO_SET_ROUNDID_OFFSET UNITYSDK_OFFSET(0xA0A67A0)
-#define RPG_CLIENT_CLOCKPARKROUNDINFO_SET_ROW_OFFSET UNITYSDK_OFFSET(0xA0A67C0)
-#define RPG_CLIENT_CLOCKPARKROUNDINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xA09B890)
-#define RPG_CLIENT_CLOCKPARKROUNDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA09BCC0)
-#define RPG_CLIENT_CLOCKPARKROUNDINFO__ONROUNDCHANGED_OFFSET UNITYSDK_OFFSET(0xA0A6720)
+#define RPG_CLIENT_CLOCKPARKROUNDINFO_GET_DICESPECIALDISPLAY_OFFSET UNITYSDK_OFFSET(0xB6E4480)
+#define RPG_CLIENT_CLOCKPARKROUNDINFO_GET_ROUNDID_OFFSET UNITYSDK_OFFSET(0xB6E4440)
+#define RPG_CLIENT_CLOCKPARKROUNDINFO_GET_ROUNDTYPE_OFFSET UNITYSDK_OFFSET(0xB6DF540)
+#define RPG_CLIENT_CLOCKPARKROUNDINFO_GET_ROW_OFFSET UNITYSDK_OFFSET(0xB6E4460)
+#define RPG_CLIENT_CLOCKPARKROUNDINFO_SET_ROUNDID_OFFSET UNITYSDK_OFFSET(0xB6E4450)
+#define RPG_CLIENT_CLOCKPARKROUNDINFO_SET_ROW_OFFSET UNITYSDK_OFFSET(0xB6E4470)
+#define RPG_CLIENT_CLOCKPARKROUNDINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xB6D9A10)
+#define RPG_CLIENT_CLOCKPARKROUNDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D9E40)
+#define RPG_CLIENT_CLOCKPARKROUNDINFO__ONROUNDCHANGED_OFFSET UNITYSDK_OFFSET(0xB6E43D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClockParkRoundInfo_TypeDefinitionIndex = 56709;
+	inline static constexpr unsigned int ClockParkRoundInfo_TypeDefinitionIndex = 57493;
 
 	class ClockParkRoundInfo : public ::System::Object
 	{
@@ -30,14 +30,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKROUNDINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Sync(::System::UInt32 roundID)
+		::System::Void Sync(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKROUNDINFO_SYNC_OFFSET))(this, roundID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKROUNDINFO_SYNC_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnRoundChanged(::System::UInt32 roundID)
+		::System::Void _OnRoundChanged(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKROUNDINFO__ONROUNDCHANGED_OFFSET))(this, roundID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKROUNDINFO__ONROUNDCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_RoundID()
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKROUNDINFO_GET_ROUNDID_OFFSET))(this);
 		}
 
-		::System::Void set_RoundID(::System::UInt32 value)
+		::System::Void set_RoundID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKROUNDINFO_SET_ROUNDID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKROUNDINFO_SET_ROUNDID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ClockParkRoundRow* get_Row()
@@ -55,9 +55,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::ClockParkRoundRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKROUNDINFO_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::ClockParkRoundRow* value)
+		::System::Void set_Row(::RPG::GameCore::ClockParkRoundRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ClockParkRoundRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKROUNDINFO_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ClockParkRoundRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKROUNDINFO_SET_ROW_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ClockParkRoundType get_RoundType()

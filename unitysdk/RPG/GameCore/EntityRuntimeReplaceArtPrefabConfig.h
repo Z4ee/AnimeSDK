@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EntityRuntimeReplaceArtPrefab; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFABCONFIG_METHOD_2_A72C2362C83FEC16_OFFSET UNITYSDK_OFFSET(0x188AFB50)
-#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188AFC20)
+#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFABCONFIG_METHOD_2_331E7FA3DEA051F4_OFFSET UNITYSDK_OFFSET(0x196EDB70)
+#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196EDC50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityRuntimeReplaceArtPrefabConfig_TypeDefinitionIndex = 18097;
+	inline static constexpr unsigned int EntityRuntimeReplaceArtPrefabConfig_TypeDefinitionIndex = 18119;
 
 	class EntityRuntimeReplaceArtPrefabConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFABCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A72C2362C83FEC16(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityRuntimeReplaceArtPrefabConfig*& a2)
+		static ::System::Void Method_2_331E7FA3DEA051F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityRuntimeReplaceArtPrefabConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityRuntimeReplaceArtPrefabConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFABCONFIG_METHOD_2_A72C2362C83FEC16_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityRuntimeReplaceArtPrefabConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFABCONFIG_METHOD_2_331E7FA3DEA051F4_OFFSET))(a1, a2);
 		}
 	};
 }

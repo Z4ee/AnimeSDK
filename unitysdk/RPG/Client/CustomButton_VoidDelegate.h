@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA0EC140)
-#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA0EC170)
-#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA0EB2D0)
-#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA0EC120)
+#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB72B630)
+#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB72B660)
+#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB72AC10)
+#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB72B5C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomButton_VoidDelegate_TypeDefinitionIndex = 66822;
+	inline static constexpr unsigned int CustomButton_VoidDelegate_TypeDefinitionIndex = 67762;
 
 	class CustomButton_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::GameObject* go)
+		::System::Void Invoke(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_INVOKE_OFFSET))(this, go);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::GameObject* go, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::GameObject* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::GameObject*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_BEGININVOKE_OFFSET))(this, go, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::GameObject*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

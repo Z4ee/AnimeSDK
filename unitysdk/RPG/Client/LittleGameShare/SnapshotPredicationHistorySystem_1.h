@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_A4840B12D5CF2C00;
+class Class_1_68567FA2484DF545;
 class Class_3_C66DEDBB208C643C;
 namespace Entitas { class IEntity; }
 namespace Entitas { template <typename T> class IContext_1; }
@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int SnapshotPredicationHistorySystem_1_TypeDefinitionIndex = 34428;
+	inline static constexpr unsigned int SnapshotPredicationHistorySystem_1_TypeDefinitionIndex = 34710;
 
 	template <typename TEntity>
 	class SnapshotPredicationHistorySystem_1 : public ::System::Object
@@ -29,8 +29,8 @@ namespace RPG::Client::LittleGameShare
 		{
 			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(SnapshotPredicationHistorySystem_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		::Il2CppArray<::Class_1_A4840B12D5CF2C00*>* _PredicationHistory; // 0x0
-		::Class_1_A4840B12D5CF2C00* _WrittingHeadPredicationHistory; // 0x0
+		::Il2CppArray<::Class_1_68567FA2484DF545*>* _PredicationHistory; // 0x0
+		::Class_1_68567FA2484DF545* _WrittingHeadPredicationHistory; // 0x0
 		::System::Int32 _PredicationHistoryIndexHead; // 0x0
 	};
 }

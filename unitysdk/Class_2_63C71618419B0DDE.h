@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_3897C88E8C59E725.h"
+#include "unitysdk/Class_1_ED6A06E6F11DAF49.h"
 
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightRoleStarConfig; }
 namespace System { class Object; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define CLASS_2_63C71618419B0DDE_METHOD_2_009113D5A6029A2A_OFFSET UNITYSDK_OFFSET(0x117B7040)
-#define CLASS_2_63C71618419B0DDE_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x117B7150)
-#define CLASS_2_63C71618419B0DDE__CTOR_OFFSET UNITYSDK_OFFSET(0x117B6EE0)
+#define CLASS_2_63C71618419B0DDE_METHOD_2_009113D5A6029A2A_OFFSET UNITYSDK_OFFSET(0xACB00B0)
+#define CLASS_2_63C71618419B0DDE_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0xACB01C0)
+#define CLASS_2_63C71618419B0DDE__CTOR_OFFSET UNITYSDK_OFFSET(0xACAFFC0)
 
-inline static constexpr unsigned int Class_2_63C71618419B0DDE_TypeDefinitionIndex = 59962;
+inline static constexpr unsigned int Class_2_63C71618419B0DDE_TypeDefinitionIndex = 60897;
 
-class Class_2_63C71618419B0DDE : public ::Class_1_3897C88E8C59E725
+class Class_2_63C71618419B0DDE : public ::Class_1_ED6A06E6F11DAF49
 {
 public:
 	::RPG::Client::GridFightRole* Field_2_0; // 0x20

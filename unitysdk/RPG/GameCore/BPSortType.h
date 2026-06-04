@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BPSortType_TypeDefinitionIndex = 22175;
+	inline static constexpr unsigned int BPSortType_TypeDefinitionIndex = 23360;
 
 	enum class BPSortType : ::System::Int32
 	{

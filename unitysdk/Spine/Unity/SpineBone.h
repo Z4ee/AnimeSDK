@@ -8,30 +8,30 @@ namespace Spine::Unity { class SkeletonDataAsset; }
 namespace Spine::Unity { class SkeletonRenderer; }
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINEBONE_GETBONEDATA_OFFSET UNITYSDK_OFFSET(0x19E69380)
-#define SPINE_UNITY_SPINEBONE_GETBONE_OFFSET UNITYSDK_OFFSET(0x19E69340)
-#define SPINE_UNITY_SPINEBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E69320)
+#define SPINE_UNITY_SPINEBONE_GETBONEDATA_OFFSET UNITYSDK_OFFSET(0x1ACDF880)
+#define SPINE_UNITY_SPINEBONE_GETBONE_OFFSET UNITYSDK_OFFSET(0x1ACDF840)
+#define SPINE_UNITY_SPINEBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACDF820)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineBone_TypeDefinitionIndex = 40646;
+	inline static constexpr unsigned int SpineBone_TypeDefinitionIndex = 41473;
 
 	class SpineBone : public ::Spine::Unity::SpineAttributeBase
 	{
 	public:
-		::System::Void _ctor(::System::String* startsWith, ::System::String* dataField, ::System::Boolean includeNone, ::System::Boolean fallbackToTextField)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEBONE__CTOR_OFFSET))(this, startsWith, dataField, includeNone, fallbackToTextField);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEBONE__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::Spine::Bone* GetBone(::System::String* boneName, ::Spine::Unity::SkeletonRenderer* renderer)
+		static ::Spine::Bone* GetBone(::System::String* a1, ::Spine::Unity::SkeletonRenderer* a2)
 		{
-			return ((::Spine::Bone*(*)(::System::String*, ::Spine::Unity::SkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEBONE_GETBONE_OFFSET))(boneName, renderer);
+			return ((::Spine::Bone*(*)(::System::String*, ::Spine::Unity::SkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEBONE_GETBONE_OFFSET))(a1, a2);
 		}
 
-		static ::Spine::BoneData* GetBoneData(::System::String* boneName, ::Spine::Unity::SkeletonDataAsset* skeletonDataAsset)
+		static ::Spine::BoneData* GetBoneData(::System::String* a1, ::Spine::Unity::SkeletonDataAsset* a2)
 		{
-			return ((::Spine::BoneData*(*)(::System::String*, ::Spine::Unity::SkeletonDataAsset*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEBONE_GETBONEDATA_OFFSET))(boneName, skeletonDataAsset);
+			return ((::Spine::BoneData*(*)(::System::String*, ::Spine::Unity::SkeletonDataAsset*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEBONE_GETBONEDATA_OFFSET))(a1, a2);
 		}
 	};
 }

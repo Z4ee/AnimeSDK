@@ -7,14 +7,14 @@ namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_HASFLAG_OFFSET UNITYSDK_OFFSET(0x262A0)
-#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_READ_OFFSET UNITYSDK_OFFSET(0x26200)
-#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_SETFLAG_OFFSET UNITYSDK_OFFSET(0x26280)
-#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_WRITE_OFFSET UNITYSDK_OFFSET(0x26180)
+#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_HASFLAG_OFFSET UNITYSDK_OFFSET(0x27370)
+#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_READ_OFFSET UNITYSDK_OFFSET(0x272D0)
+#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_SETFLAG_OFFSET UNITYSDK_OFFSET(0x27350)
+#define HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_WRITE_OFFSET UNITYSDK_OFFSET(0x27250)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageUpdateGameObjectProperties_TypeDefinitionIndex = 43801;
+	inline static constexpr unsigned int rdtTcpMessageUpdateGameObjectProperties_TypeDefinitionIndex = 44343;
 
 	struct alignas(8) rdtTcpMessageUpdateGameObjectProperties
 	{
@@ -24,24 +24,24 @@ namespace Hdg
 		::System::String* m_tag; // 0x20
 		::System::Int32 m_layer; // 0x28
 
-		::System::Void Write(::System::IO::BinaryWriter* w)
+		::System::Void Write(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_WRITE_OFFSET))(this, w);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_WRITE_OFFSET))(this, a1);
 		}
 
-		::System::Void Read(::System::IO::BinaryReader* r)
+		::System::Void Read(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_READ_OFFSET))(this, r);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_READ_OFFSET))(this, a1);
 		}
 
-		::System::Void SetFlag(::Hdg::rdtTcpMessageUpdateGameObjectProperties_Flags flag, ::System::Boolean enabled)
+		::System::Void SetFlag(::Hdg::rdtTcpMessageUpdateGameObjectProperties_Flags a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Hdg::rdtTcpMessageUpdateGameObjectProperties_Flags, ::System::Boolean))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_SETFLAG_OFFSET))(this, flag, enabled);
+			return ((::System::Void(*)(::PVOID, ::Hdg::rdtTcpMessageUpdateGameObjectProperties_Flags, ::System::Boolean))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_SETFLAG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean HasFlag(::Hdg::rdtTcpMessageUpdateGameObjectProperties_Flags flag)
+		::System::Boolean HasFlag(::Hdg::rdtTcpMessageUpdateGameObjectProperties_Flags a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Hdg::rdtTcpMessageUpdateGameObjectProperties_Flags))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_HASFLAG_OFFSET))(this, flag);
+			return ((::System::Boolean(*)(::PVOID, ::Hdg::rdtTcpMessageUpdateGameObjectProperties_Flags))((::PBYTE)hIl2Cpp + HDG_RDTTCPMESSAGEUPDATEGAMEOBJECTPROPERTIES_HASFLAG_OFFSET))(this, a1);
 		}
 	};
 }

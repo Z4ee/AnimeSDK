@@ -6,14 +6,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARESTANCE_METHOD_4_7F980E1B269F8610_OFFSET UNITYSDK_OFFSET(0x1873CBB0)
-#define RPG_GAMECORE_BYCOMPARESTANCE_METHOD_4_C5BA92E8D49D8736_OFFSET UNITYSDK_OFFSET(0x1873CAE0)
-#define RPG_GAMECORE_BYCOMPARESTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1873CB60)
+#define RPG_GAMECORE_BYCOMPARESTANCE_METHOD_4_12DE96EBF8B8A088_OFFSET UNITYSDK_OFFSET(0x19534600)
+#define RPG_GAMECORE_BYCOMPARESTANCE_METHOD_4_7106132ABB4ADFAF_OFFSET UNITYSDK_OFFSET(0x19534680)
+#define RPG_GAMECORE_BYCOMPARESTANCE_METHOD_4_7F980E1B269F8610_OFFSET UNITYSDK_OFFSET(0x19534370)
+#define RPG_GAMECORE_BYCOMPARESTANCE_METHOD_4_C5BA92E8D49D8736_OFFSET UNITYSDK_OFFSET(0x195342A0)
+#define RPG_GAMECORE_BYCOMPARESTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19534320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareStance_TypeDefinitionIndex = 21433;
+	inline static constexpr unsigned int ByCompareStance_TypeDefinitionIndex = 21317;
 
 	class ByCompareStance : public ::RPG::GameCore::PredicateConfig
 	{
@@ -36,6 +39,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_7F980E1B269F8610(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareStance* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareStance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESTANCE_METHOD_4_7F980E1B269F8610_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_12DE96EBF8B8A088(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareStance*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareStance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESTANCE_METHOD_4_12DE96EBF8B8A088_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_7106132ABB4ADFAF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareStance* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareStance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESTANCE_METHOD_4_7106132ABB4ADFAF_OFFSET))(a1, a2);
 		}
 	};
 }

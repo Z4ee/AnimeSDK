@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TimelineEntityStateChangeCallback; }
 
-#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_13CA3526F700C1C2_OFFSET UNITYSDK_OFFSET(0x18644630)
-#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_30D3145A18E263D7_OFFSET UNITYSDK_OFFSET(0x186446B0)
-#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x18644680)
+#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_4AD756B1D84AB9A6_OFFSET UNITYSDK_OFFSET(0x19413650)
+#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_FA6C35B3D3104B3A_OFFSET UNITYSDK_OFFSET(0x194136D0)
+#define RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x194136A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddTimelineEntityEventListener_TypeDefinitionIndex = 19605;
+	inline static constexpr unsigned int AddTimelineEntityEventListener_TypeDefinitionIndex = 19492;
 
 	class AddTimelineEntityEventListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,14 +35,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_13CA3526F700C1C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimelineEntityEventListener*& a2)
+		static ::System::Void Method_3_4AD756B1D84AB9A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimelineEntityEventListener*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimelineEntityEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_13CA3526F700C1C2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimelineEntityEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_4AD756B1D84AB9A6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_30D3145A18E263D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimelineEntityEventListener* a2)
+		static ::System::Void Method_3_FA6C35B3D3104B3A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimelineEntityEventListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimelineEntityEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_30D3145A18E263D7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimelineEntityEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMELINEENTITYEVENTLISTENER_METHOD_3_FA6C35B3D3104B3A_OFFSET))(a1, a2);
 		}
 	};
 }

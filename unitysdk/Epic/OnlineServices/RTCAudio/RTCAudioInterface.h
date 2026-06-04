@@ -32,43 +32,43 @@ namespace Epic::OnlineServices::RTCAudio { class UpdateReceivingOptions; }
 namespace Epic::OnlineServices::RTCAudio { class UpdateSendingOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOBEFORERENDER_OFFSET UNITYSDK_OFFSET(0x8F2C440)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOBEFORESEND_OFFSET UNITYSDK_OFFSET(0x8F2C620)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIODEVICESCHANGED_OFFSET UNITYSDK_OFFSET(0x8F2C800)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOINPUTSTATE_OFFSET UNITYSDK_OFFSET(0x8F2CA80)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOOUTPUTSTATE_OFFSET UNITYSDK_OFFSET(0x8F2CC60)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYPARTICIPANTUPDATED_OFFSET UNITYSDK_OFFSET(0x8F2CE40)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOINPUTDEVICEBYINDEX_OFFSET UNITYSDK_OFFSET(0x8F2D020)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOINPUTDEVICESCOUNT_OFFSET UNITYSDK_OFFSET(0x8F2D180)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOOUTPUTDEVICEBYINDEX_OFFSET UNITYSDK_OFFSET(0x8F2D3A0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOOUTPUTDEVICESCOUNT_OFFSET UNITYSDK_OFFSET(0x8F2D500)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOBEFORERENDERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F2BFA0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOBEFORESENDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F2C030)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIODEVICESCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F2C0C0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOINPUTSTATECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F2C150)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOOUTPUTSTATECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F2C1E0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONPARTICIPANTUPDATEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F2C270)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONUPDATERECEIVINGCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F2C300)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONUPDATESENDINGCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8F2C390)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REGISTERPLATFORMAUDIOUSER_OFFSET UNITYSDK_OFFSET(0x8F2D720)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOBEFORERENDER_OFFSET UNITYSDK_OFFSET(0x8F2D920)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOBEFORESEND_OFFSET UNITYSDK_OFFSET(0x8F2DA00)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIODEVICESCHANGED_OFFSET UNITYSDK_OFFSET(0x8F2DAE0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOINPUTSTATE_OFFSET UNITYSDK_OFFSET(0x8F2DBC0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOOUTPUTSTATE_OFFSET UNITYSDK_OFFSET(0x8F2DCA0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYPARTICIPANTUPDATED_OFFSET UNITYSDK_OFFSET(0x8F2DD80)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SENDAUDIO_OFFSET UNITYSDK_OFFSET(0x8F2DE60)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SETAUDIOINPUTSETTINGS_OFFSET UNITYSDK_OFFSET(0x8F2DFC0)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SETAUDIOOUTPUTSETTINGS_OFFSET UNITYSDK_OFFSET(0x8F2E120)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UNREGISTERPLATFORMAUDIOUSER_OFFSET UNITYSDK_OFFSET(0x8F2E280)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UPDATERECEIVING_OFFSET UNITYSDK_OFFSET(0x8F2E480)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UPDATESENDING_OFFSET UNITYSDK_OFFSET(0x8F2E640)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8F2C430)
-#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8F2C420)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOBEFORERENDER_OFFSET UNITYSDK_OFFSET(0xA34D930)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOBEFORESEND_OFFSET UNITYSDK_OFFSET(0xA34DB20)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIODEVICESCHANGED_OFFSET UNITYSDK_OFFSET(0xA34DD10)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOINPUTSTATE_OFFSET UNITYSDK_OFFSET(0xA34DFC0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOOUTPUTSTATE_OFFSET UNITYSDK_OFFSET(0xA34E1B0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYPARTICIPANTUPDATED_OFFSET UNITYSDK_OFFSET(0xA34E3A0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOINPUTDEVICEBYINDEX_OFFSET UNITYSDK_OFFSET(0xA34E590)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOINPUTDEVICESCOUNT_OFFSET UNITYSDK_OFFSET(0xA34E6F0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOOUTPUTDEVICEBYINDEX_OFFSET UNITYSDK_OFFSET(0xA34E930)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOOUTPUTDEVICESCOUNT_OFFSET UNITYSDK_OFFSET(0xA34EA90)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOBEFORERENDERCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA34D410)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOBEFORESENDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA34D4B0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIODEVICESCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA34D550)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOINPUTSTATECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA34D5F0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOOUTPUTSTATECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA34D690)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONPARTICIPANTUPDATEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA34D730)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONUPDATERECEIVINGCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA34D7D0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONUPDATESENDINGCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA34D870)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REGISTERPLATFORMAUDIOUSER_OFFSET UNITYSDK_OFFSET(0xA34ECD0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOBEFORERENDER_OFFSET UNITYSDK_OFFSET(0xA34EED0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOBEFORESEND_OFFSET UNITYSDK_OFFSET(0xA34EFB0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIODEVICESCHANGED_OFFSET UNITYSDK_OFFSET(0xA34F090)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOINPUTSTATE_OFFSET UNITYSDK_OFFSET(0xA34F170)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOOUTPUTSTATE_OFFSET UNITYSDK_OFFSET(0xA34F250)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYPARTICIPANTUPDATED_OFFSET UNITYSDK_OFFSET(0xA34F330)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SENDAUDIO_OFFSET UNITYSDK_OFFSET(0xA34F410)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SETAUDIOINPUTSETTINGS_OFFSET UNITYSDK_OFFSET(0xA34F570)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SETAUDIOOUTPUTSETTINGS_OFFSET UNITYSDK_OFFSET(0xA34F6D0)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UNREGISTERPLATFORMAUDIOUSER_OFFSET UNITYSDK_OFFSET(0xA34F830)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UPDATERECEIVING_OFFSET UNITYSDK_OFFSET(0xA34FA30)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UPDATESENDING_OFFSET UNITYSDK_OFFSET(0xA34FC10)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA34D920)
+#define EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA34D910)
 
 namespace Epic::OnlineServices::RTCAudio
 {
-	inline static constexpr unsigned int RTCAudioInterface_TypeDefinitionIndex = 41472;
+	inline static constexpr unsigned int RTCAudioInterface_TypeDefinitionIndex = 42275;
 
 	class RTCAudioInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -99,164 +99,164 @@ namespace Epic::OnlineServices::RTCAudio
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyAudioBeforeRender(::Epic::OnlineServices::RTCAudio::AddNotifyAudioBeforeRenderOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTCAudio::OnAudioBeforeRenderCallback* completionDelegate)
+		::System::UInt64 AddNotifyAudioBeforeRender(::Epic::OnlineServices::RTCAudio::AddNotifyAudioBeforeRenderOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTCAudio::OnAudioBeforeRenderCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyAudioBeforeRenderOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnAudioBeforeRenderCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOBEFORERENDER_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyAudioBeforeRenderOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnAudioBeforeRenderCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOBEFORERENDER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyAudioBeforeSend(::Epic::OnlineServices::RTCAudio::AddNotifyAudioBeforeSendOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTCAudio::OnAudioBeforeSendCallback* completionDelegate)
+		::System::UInt64 AddNotifyAudioBeforeSend(::Epic::OnlineServices::RTCAudio::AddNotifyAudioBeforeSendOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTCAudio::OnAudioBeforeSendCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyAudioBeforeSendOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnAudioBeforeSendCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOBEFORESEND_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyAudioBeforeSendOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnAudioBeforeSendCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOBEFORESEND_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyAudioDevicesChanged(::Epic::OnlineServices::RTCAudio::AddNotifyAudioDevicesChangedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTCAudio::OnAudioDevicesChangedCallback* completionDelegate)
+		::System::UInt64 AddNotifyAudioDevicesChanged(::Epic::OnlineServices::RTCAudio::AddNotifyAudioDevicesChangedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTCAudio::OnAudioDevicesChangedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyAudioDevicesChangedOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnAudioDevicesChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIODEVICESCHANGED_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyAudioDevicesChangedOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnAudioDevicesChangedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIODEVICESCHANGED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyAudioInputState(::Epic::OnlineServices::RTCAudio::AddNotifyAudioInputStateOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTCAudio::OnAudioInputStateCallback* completionDelegate)
+		::System::UInt64 AddNotifyAudioInputState(::Epic::OnlineServices::RTCAudio::AddNotifyAudioInputStateOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTCAudio::OnAudioInputStateCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyAudioInputStateOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnAudioInputStateCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOINPUTSTATE_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyAudioInputStateOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnAudioInputStateCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOINPUTSTATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyAudioOutputState(::Epic::OnlineServices::RTCAudio::AddNotifyAudioOutputStateOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTCAudio::OnAudioOutputStateCallback* completionDelegate)
+		::System::UInt64 AddNotifyAudioOutputState(::Epic::OnlineServices::RTCAudio::AddNotifyAudioOutputStateOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTCAudio::OnAudioOutputStateCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyAudioOutputStateOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnAudioOutputStateCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOOUTPUTSTATE_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyAudioOutputStateOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnAudioOutputStateCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYAUDIOOUTPUTSTATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyParticipantUpdated(::Epic::OnlineServices::RTCAudio::AddNotifyParticipantUpdatedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTCAudio::OnParticipantUpdatedCallback* completionDelegate)
+		::System::UInt64 AddNotifyParticipantUpdated(::Epic::OnlineServices::RTCAudio::AddNotifyParticipantUpdatedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTCAudio::OnParticipantUpdatedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyParticipantUpdatedOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnParticipantUpdatedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYPARTICIPANTUPDATED_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::AddNotifyParticipantUpdatedOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnParticipantUpdatedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ADDNOTIFYPARTICIPANTUPDATED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::RTCAudio::AudioInputDeviceInfo* GetAudioInputDeviceByIndex(::Epic::OnlineServices::RTCAudio::GetAudioInputDeviceByIndexOptions* options)
+		::Epic::OnlineServices::RTCAudio::AudioInputDeviceInfo* GetAudioInputDeviceByIndex(::Epic::OnlineServices::RTCAudio::GetAudioInputDeviceByIndexOptions* a1)
 		{
-			return ((::Epic::OnlineServices::RTCAudio::AudioInputDeviceInfo*(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::GetAudioInputDeviceByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOINPUTDEVICEBYINDEX_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::RTCAudio::AudioInputDeviceInfo*(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::GetAudioInputDeviceByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOINPUTDEVICEBYINDEX_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetAudioInputDevicesCount(::Epic::OnlineServices::RTCAudio::GetAudioInputDevicesCountOptions* options)
+		::System::UInt32 GetAudioInputDevicesCount(::Epic::OnlineServices::RTCAudio::GetAudioInputDevicesCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::GetAudioInputDevicesCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOINPUTDEVICESCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::GetAudioInputDevicesCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOINPUTDEVICESCOUNT_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfo* GetAudioOutputDeviceByIndex(::Epic::OnlineServices::RTCAudio::GetAudioOutputDeviceByIndexOptions* options)
+		::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfo* GetAudioOutputDeviceByIndex(::Epic::OnlineServices::RTCAudio::GetAudioOutputDeviceByIndexOptions* a1)
 		{
-			return ((::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfo*(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::GetAudioOutputDeviceByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOOUTPUTDEVICEBYINDEX_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfo*(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::GetAudioOutputDeviceByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOOUTPUTDEVICEBYINDEX_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetAudioOutputDevicesCount(::Epic::OnlineServices::RTCAudio::GetAudioOutputDevicesCountOptions* options)
+		::System::UInt32 GetAudioOutputDevicesCount(::Epic::OnlineServices::RTCAudio::GetAudioOutputDevicesCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::GetAudioOutputDevicesCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOOUTPUTDEVICESCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::GetAudioOutputDevicesCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_GETAUDIOOUTPUTDEVICESCOUNT_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result RegisterPlatformAudioUser(::Epic::OnlineServices::RTCAudio::RegisterPlatformAudioUserOptions* options)
+		::Epic::OnlineServices::Result RegisterPlatformAudioUser(::Epic::OnlineServices::RTCAudio::RegisterPlatformAudioUserOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::RegisterPlatformAudioUserOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REGISTERPLATFORMAUDIOUSER_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::RegisterPlatformAudioUserOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REGISTERPLATFORMAUDIOUSER_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyAudioBeforeRender(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyAudioBeforeRender(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOBEFORERENDER_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOBEFORERENDER_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyAudioBeforeSend(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyAudioBeforeSend(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOBEFORESEND_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOBEFORESEND_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyAudioDevicesChanged(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyAudioDevicesChanged(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIODEVICESCHANGED_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIODEVICESCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyAudioInputState(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyAudioInputState(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOINPUTSTATE_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOINPUTSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyAudioOutputState(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyAudioOutputState(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOOUTPUTSTATE_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYAUDIOOUTPUTSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyParticipantUpdated(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyParticipantUpdated(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYPARTICIPANTUPDATED_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_REMOVENOTIFYPARTICIPANTUPDATED_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SendAudio(::Epic::OnlineServices::RTCAudio::SendAudioOptions* options)
+		::Epic::OnlineServices::Result SendAudio(::Epic::OnlineServices::RTCAudio::SendAudioOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::SendAudioOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SENDAUDIO_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::SendAudioOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SENDAUDIO_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetAudioInputSettings(::Epic::OnlineServices::RTCAudio::SetAudioInputSettingsOptions* options)
+		::Epic::OnlineServices::Result SetAudioInputSettings(::Epic::OnlineServices::RTCAudio::SetAudioInputSettingsOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::SetAudioInputSettingsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SETAUDIOINPUTSETTINGS_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::SetAudioInputSettingsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SETAUDIOINPUTSETTINGS_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetAudioOutputSettings(::Epic::OnlineServices::RTCAudio::SetAudioOutputSettingsOptions* options)
+		::Epic::OnlineServices::Result SetAudioOutputSettings(::Epic::OnlineServices::RTCAudio::SetAudioOutputSettingsOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::SetAudioOutputSettingsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SETAUDIOOUTPUTSETTINGS_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::SetAudioOutputSettingsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_SETAUDIOOUTPUTSETTINGS_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result UnregisterPlatformAudioUser(::Epic::OnlineServices::RTCAudio::UnregisterPlatformAudioUserOptions* options)
+		::Epic::OnlineServices::Result UnregisterPlatformAudioUser(::Epic::OnlineServices::RTCAudio::UnregisterPlatformAudioUserOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::UnregisterPlatformAudioUserOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UNREGISTERPLATFORMAUDIOUSER_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::UnregisterPlatformAudioUserOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UNREGISTERPLATFORMAUDIOUSER_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateReceiving(::Epic::OnlineServices::RTCAudio::UpdateReceivingOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTCAudio::OnUpdateReceivingCallback* completionDelegate)
+		::System::Void UpdateReceiving(::Epic::OnlineServices::RTCAudio::UpdateReceivingOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTCAudio::OnUpdateReceivingCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::UpdateReceivingOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnUpdateReceivingCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UPDATERECEIVING_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::UpdateReceivingOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnUpdateReceivingCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UPDATERECEIVING_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UpdateSending(::Epic::OnlineServices::RTCAudio::UpdateSendingOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::RTCAudio::OnUpdateSendingCallback* completionDelegate)
+		::System::Void UpdateSending(::Epic::OnlineServices::RTCAudio::UpdateSendingOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::RTCAudio::OnUpdateSendingCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::UpdateSendingOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnUpdateSendingCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UPDATESENDING_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::RTCAudio::UpdateSendingOptions*, ::System::Object*, ::Epic::OnlineServices::RTCAudio::OnUpdateSendingCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_UPDATESENDING_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnAudioBeforeRenderCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnAudioBeforeRenderCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOBEFORERENDERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOBEFORERENDERCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnAudioBeforeSendCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnAudioBeforeSendCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOBEFORESENDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOBEFORESENDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnAudioDevicesChangedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnAudioDevicesChangedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIODEVICESCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIODEVICESCHANGEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnAudioInputStateCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnAudioInputStateCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOINPUTSTATECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOINPUTSTATECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnAudioOutputStateCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnAudioOutputStateCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOOUTPUTSTATECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONAUDIOOUTPUTSTATECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnParticipantUpdatedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnParticipantUpdatedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONPARTICIPANTUPDATEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONPARTICIPANTUPDATEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnUpdateReceivingCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnUpdateReceivingCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONUPDATERECEIVINGCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONUPDATERECEIVINGCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnUpdateSendingCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnUpdateSendingCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONUPDATESENDINGCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTCAUDIO_RTCAUDIOINTERFACE_ONUPDATESENDINGCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

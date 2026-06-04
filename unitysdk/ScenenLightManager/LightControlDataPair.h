@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define SCENENLIGHTMANAGER_LIGHTCONTROLDATAPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0xB936970)
+#define SCENENLIGHTMANAGER_LIGHTCONTROLDATAPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0xD07B160)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LightControlDataPair_TypeDefinitionIndex = 45755;
+	inline static constexpr unsigned int LightControlDataPair_TypeDefinitionIndex = 46338;
 
 	class LightControlDataPair : public ::System::Object
 	{

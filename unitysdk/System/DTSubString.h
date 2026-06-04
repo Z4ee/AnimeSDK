@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DTSUBSTRING_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x22A3950)
+#define SYSTEM_DTSUBSTRING_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3833820)
 
 namespace System
 {
-	inline static constexpr unsigned int DTSubString_TypeDefinitionIndex = 260;
+	inline static constexpr unsigned int DTSubString_TypeDefinitionIndex = 259;
 
 	struct alignas(8) DTSubString
 	{
@@ -19,9 +19,9 @@ namespace System
 		::System::DTSubStringType type; // 0x20
 		::System::Int32 value; // 0x24
 
-		::System::Char get_Item(::System::Int32 relativeIndex)
+		::System::Char get_Item(::System::Int32 a1)
 		{
-			return ((::System::Char(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DTSUBSTRING_GET_ITEM_OFFSET))(this, relativeIndex);
+			return ((::System::Char(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DTSUBSTRING_GET_ITEM_OFFSET))(this, a1);
 		}
 	};
 }

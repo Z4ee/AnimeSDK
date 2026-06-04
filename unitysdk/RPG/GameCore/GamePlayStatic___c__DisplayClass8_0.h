@@ -7,12 +7,12 @@ namespace RPG::GameCore { class SkillConfig; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB6A04C0)
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET UNITYSDK_OFFSET(0xB6ADC40)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE0CC70)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET UNITYSDK_OFFSET(0xCE1A2E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GamePlayStatic___c__DisplayClass8_0_TypeDefinitionIndex = 54458;
+	inline static constexpr unsigned int GamePlayStatic___c__DisplayClass8_0_TypeDefinitionIndex = 55185;
 
 	class GamePlayStatic___c__DisplayClass8_0 : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SolveStanceWeaknessPreshow_b__0(::RPG::GameCore::TurnBasedModifierInstance* instance)
+		::System::Void _SolveStanceWeaknessPreshow_b__0(::RPG::GameCore::TurnBasedModifierInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

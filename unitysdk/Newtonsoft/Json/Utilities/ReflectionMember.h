@@ -6,22 +6,22 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_GETTER_OFFSET UNITYSDK_OFFSET(0x17ACD180)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x17ACD160)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET UNITYSDK_OFFSET(0x17ACD190)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x17ACD170)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET UNITYSDK_OFFSET(0x17ACD1A0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x17ACD1B0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_GETTER_OFFSET UNITYSDK_OFFSET(0x1887BBD0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1887BBB0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET UNITYSDK_OFFSET(0x1887BBE0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1887BBC0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET UNITYSDK_OFFSET(0x1887BBF0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1887BC00)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionMember_TypeDefinitionIndex = 8393;
+	inline static constexpr unsigned int ReflectionMember_TypeDefinitionIndex = 9296;
 
 	class ReflectionMember : public ::System::Object
 	{
 	public:
-		::System::Func_2<::System::Object*, ::System::Object*>* _Getter_k__BackingField; // 0x10
-		::System::Type* _MemberType_k__BackingField; // 0x18
+		::System::Type* _MemberType_k__BackingField; // 0x10
+		::System::Func_2<::System::Object*, ::System::Object*>* _Getter_k__BackingField; // 0x18
 		::System::Action_2<::System::Object*, ::System::Object*>* _Setter_k__BackingField; // 0x20
 
 		::System::Void _ctor()
@@ -34,9 +34,9 @@ namespace Newtonsoft::Json::Utilities
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_MEMBERTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_MemberType(::System::Type* value)
+		::System::Void set_MemberType(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_MEMBERTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_MEMBERTYPE_OFFSET))(this, a1);
 		}
 
 		::System::Func_2<::System::Object*, ::System::Object*>* get_Getter()
@@ -44,14 +44,14 @@ namespace Newtonsoft::Json::Utilities
 			return ((::System::Func_2<::System::Object*, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_GETTER_OFFSET))(this);
 		}
 
-		::System::Void set_Getter(::System::Func_2<::System::Object*, ::System::Object*>* value)
+		::System::Void set_Getter(::System::Func_2<::System::Object*, ::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_2<::System::Object*, ::System::Object*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Func_2<::System::Object*, ::System::Object*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Setter(::System::Action_2<::System::Object*, ::System::Object*>* value)
+		::System::Void set_Setter(::System::Action_2<::System::Object*, ::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Object*, ::System::Object*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Object*, ::System::Object*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,14 +6,14 @@ namespace XLua { class ObjectCheck; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCheckers___O_TypeDefinitionIndex = 46425;
+	inline static constexpr unsigned int ObjectCheckers___O_TypeDefinitionIndex = 47015;
 
 	class ObjectCheckers___O : public ::System::Object
 	{
 	public:
 		static ::XLua::ObjectCheck** StaticGet__0___objectCheck()
 		{
-			return (::XLua::ObjectCheck**)Il2CppClass::FromTypeDefinitionIndex(ObjectCheckers___O_TypeDefinitionIndex)->GetStaticField(0x6B750);
+			return (::XLua::ObjectCheck**)Il2CppClass::FromTypeDefinitionIndex(ObjectCheckers___O_TypeDefinitionIndex)->GetStaticField(0x15DD0);
 		}
 	};
 }

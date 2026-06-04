@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/LastFixPoint.h"
+#include "unitysdk/System/ValueType.h"
+
+#define STRUCT_2_470210D6939D0A25_METHOD_2_08B7C93CBEDCE11E_OFFSET UNITYSDK_OFFSET(0x38554C0)
+#define STRUCT_2_470210D6939D0A25_METHOD_2_6D7A4212C9BD6FF5_OFFSET UNITYSDK_OFFSET(0x3855560)
+#define STRUCT_2_470210D6939D0A25_METHOD_2_7ADD5F1F5E247E3B_1_OFFSET UNITYSDK_OFFSET(0x5B60)
+#define STRUCT_2_470210D6939D0A25_METHOD_2_7ADD5F1F5E247E3B_OFFSET UNITYSDK_OFFSET(0x5B60)
+#define STRUCT_2_470210D6939D0A25_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x3855540)
+#define STRUCT_2_470210D6939D0A25_METHOD_2_D18F787335F1091F_OFFSET UNITYSDK_OFFSET(0x60D0)
+
+inline static constexpr unsigned int Struct_2_470210D6939D0A25_TypeDefinitionIndex = 9596;
+
+struct alignas(8) Struct_2_470210D6939D0A25
+{
+	::System::Int64 Field_2_0; // 0x10
+	::RPG::GameCore::LastFixPoint Field_2_1; // 0x18
+
+	::System::Void Method_2_08B7C93CBEDCE11E(::RPG::GameCore::LastFixPoint a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LastFixPoint))((::PBYTE)hIl2Cpp + STRUCT_2_470210D6939D0A25_METHOD_2_08B7C93CBEDCE11E_OFFSET))(this, a1);
+	}
+
+	::System::Int64 Method_2_7ADD5F1F5E247E3B()
+	{
+		return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_470210D6939D0A25_METHOD_2_7ADD5F1F5E247E3B_OFFSET))(this);
+	}
+
+	::RPG::GameCore::LastFixPoint Method_2_D18F787335F1091F()
+	{
+		return ((::RPG::GameCore::LastFixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_470210D6939D0A25_METHOD_2_D18F787335F1091F_OFFSET))(this);
+	}
+
+	::System::Void Method_2_832295EC279E5994()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_470210D6939D0A25_METHOD_2_832295EC279E5994_OFFSET))(this);
+	}
+
+	::System::Int64 Method_2_7ADD5F1F5E247E3B_1()
+	{
+		return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_470210D6939D0A25_METHOD_2_7ADD5F1F5E247E3B_1_OFFSET))(this);
+	}
+
+	/*
+	::System::Decimal Method_2_6D7A4212C9BD6FF5()
+	{
+		return ((::System::Decimal(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_470210D6939D0A25_METHOD_2_6D7A4212C9BD6FF5_OFFSET))(this);
+	}
+	*/
+};

@@ -6,27 +6,27 @@
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_5C9447FD38964139;
+class Class_2_C36E5CC18803AA1D;
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB8BA350)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB8BA330)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xB8BA570)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_SET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB8BA340)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB8BA600)
-#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP___IFIXBASEPROXY_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xB8BA660)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFFD630)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xCFFD610)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xCFFD800)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_SET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xCFFD620)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xCFFD890)
+#define RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP___IFIXBASEPROXY_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xCFFD8F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CutsceneCameraClip_TypeDefinitionIndex = 44813;
+	inline static constexpr unsigned int CutsceneCameraClip_TypeDefinitionIndex = 45360;
 
 	class CutsceneCameraClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::UnityEngine::Timeline::ClipCaps _clipCaps_k__BackingField; // 0x18
 		::UnityEngine::AnimationClip* clip; // 0x20
-		::Class_2_5C9447FD38964139* template_; // 0x28
+		::Class_2_C36E5CC18803AA1D* template_; // 0x28
 		::UnityEngine::Vector3 Position; // 0x30
 		::System::Boolean UseUI3DCamera; // 0x3C
 		::System::Single NearClipPlane; // 0x40
@@ -42,9 +42,9 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::System::Void set_clipCaps(::UnityEngine::Timeline::ClipCaps value)
+		::System::Void set_clipCaps(::UnityEngine::Timeline::ClipCaps a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::ClipCaps))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_SET_CLIPCAPS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::ClipCaps))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUTSCENECAMERACLIP_SET_CLIPCAPS_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)

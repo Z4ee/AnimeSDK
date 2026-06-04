@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_COMPONENTCONFIG_METHOD_2_A8EBF78230E22F38_OFFSET UNITYSDK_OFFSET(0x18830B50)
-#define RPG_GAMECORE_COMPONENTCONFIG_METHOD_2_F366EDE048C147AD_OFFSET UNITYSDK_OFFSET(0x188306C0)
-#define RPG_GAMECORE_COMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18830B40)
+#define RPG_GAMECORE_COMPONENTCONFIG_METHOD_2_A8EBF78230E22F38_OFFSET UNITYSDK_OFFSET(0x19670880)
+#define RPG_GAMECORE_COMPONENTCONFIG_METHOD_2_BB5D9120237356F8_OFFSET UNITYSDK_OFFSET(0x19670500)
+#define RPG_GAMECORE_COMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196671E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComponentConfig_TypeDefinitionIndex = 15676;
+	inline static constexpr unsigned int ComponentConfig_TypeDefinitionIndex = 15734;
 
 	class ComponentConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPONENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F366EDE048C147AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComponentConfig*& a2)
+		static ::System::Void Method_2_BB5D9120237356F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComponentConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPONENTCONFIG_METHOD_2_F366EDE048C147AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPONENTCONFIG_METHOD_2_BB5D9120237356F8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_2_A8EBF78230E22F38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComponentConfig* a2)

@@ -4,21 +4,21 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTWORKDATA_GETWORKDATARATIOPROBABILITY_OFFSET UNITYSDK_OFFSET(0x9AED290)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTWORKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9AECF80)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTWORKDATA__INITWORKEFFECTS_OFFSET UNITYSDK_OFFSET(0x9AED080)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTWORKDATA___IFIXBASEPROXY__INITWORKEFFECTS_OFFSET UNITYSDK_OFFSET(0x9AED360)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTWORKDATA_GETWORKDATARATIOPROBABILITY_OFFSET UNITYSDK_OFFSET(0xB0D1820)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTWORKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB0D1410)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTWORKDATA__INITWORKEFFECTS_OFFSET UNITYSDK_OFFSET(0xB0D1510)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTWORKDATA___IFIXBASEPROXY__INITWORKEFFECTS_OFFSET UNITYSDK_OFFSET(0xB0D18F0)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenIncidentWorkData_TypeDefinitionIndex = 69673;
+	inline static constexpr unsigned int ActivityHipplenIncidentWorkData_TypeDefinitionIndex = 70485;
 
 	class ActivityHipplenIncidentWorkData : public ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData
 	{
 	public:
-		::System::Void _ctor(::System::UInt32 id, ::System::Boolean isFixed, ::System::Boolean isRecommend, ::System::Boolean isFinish, ::System::Boolean isExtra)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTWORKDATA__CTOR_OFFSET))(this, id, isFixed, isRecommend, isFinish, isExtra);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTWORKDATA__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void _InitWorkEffects()

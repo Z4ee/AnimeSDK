@@ -9,28 +9,28 @@ namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_TIMELINE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x19E1E700)
-#define SPINE_TIMELINE_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x19E1E6D0)
-#define SPINE_TIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x19E1E6C0)
-#define SPINE_TIMELINE_GET_FRAMES_OFFSET UNITYSDK_OFFSET(0x19E1E6B0)
-#define SPINE_TIMELINE_GET_PROPERTYIDS_OFFSET UNITYSDK_OFFSET(0x19E1E6A0)
-#define SPINE_TIMELINE_SEARCH_1_OFFSET UNITYSDK_OFFSET(0x19E1E7A0)
-#define SPINE_TIMELINE_SEARCH_OFFSET UNITYSDK_OFFSET(0x19E1E750)
-#define SPINE_TIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1E620)
+#define SPINE_TIMELINE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1AC99E40)
+#define SPINE_TIMELINE_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x1AC99E10)
+#define SPINE_TIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1AC99E00)
+#define SPINE_TIMELINE_GET_FRAMES_OFFSET UNITYSDK_OFFSET(0x1AC99DF0)
+#define SPINE_TIMELINE_GET_PROPERTYIDS_OFFSET UNITYSDK_OFFSET(0x1AC99DE0)
+#define SPINE_TIMELINE_SEARCH_1_OFFSET UNITYSDK_OFFSET(0x1AC99ED0)
+#define SPINE_TIMELINE_SEARCH_OFFSET UNITYSDK_OFFSET(0x1AC99E80)
+#define SPINE_TIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC99D60)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Timeline_TypeDefinitionIndex = 36359;
+	inline static constexpr unsigned int Timeline_TypeDefinitionIndex = 36659;
 
 	class Timeline : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* frames; // 0x10
-		::Il2CppArray<::System::String*>* propertyIds; // 0x18
+		::Il2CppArray<::System::String*>* propertyIds; // 0x10
+		::Il2CppArray<::System::Single>* frames; // 0x18
 
-		::System::Void _ctor(::System::Int32 frameCount, ::Il2CppArray<::System::String*>* propertyIds)
+		::System::Void _ctor(::System::Int32 a1, ::Il2CppArray<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SPINE_TIMELINE__CTOR_OFFSET))(this, frameCount, propertyIds);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SPINE_TIMELINE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::System::String*>* get_PropertyIds()
@@ -58,14 +58,14 @@ namespace Spine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TIMELINE_GET_DURATION_OFFSET))(this);
 		}
 
-		static ::System::Int32 Search(::Il2CppArray<::System::Single>* frames, ::System::Single time)
+		static ::System::Int32 Search(::Il2CppArray<::System::Single>* a1, ::System::Single a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Single>*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TIMELINE_SEARCH_OFFSET))(frames, time);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Single>*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TIMELINE_SEARCH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 Search_1(::Il2CppArray<::System::Single>* frames, ::System::Single time, ::System::Int32 step)
+		static ::System::Int32 Search_1(::Il2CppArray<::System::Single>* a1, ::System::Single a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Single>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_TIMELINE_SEARCH_1_OFFSET))(frames, time, step);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Single>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_TIMELINE_SEARCH_1_OFFSET))(a1, a2, a3);
 		}
 	};
 }

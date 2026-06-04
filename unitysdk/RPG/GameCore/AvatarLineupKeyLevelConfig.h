@@ -7,12 +7,12 @@ namespace RPG::GameCore { class BattleLineupEquipmentConfig; }
 namespace RPG::GameCore { class BattleLineupSkillTreePoint; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_METHOD_2_545546A276866E43_OFFSET UNITYSDK_OFFSET(0x186C4FB0)
-#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x186C53C0)
+#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_METHOD_2_BF3719D9D3DEB1B5_OFFSET UNITYSDK_OFFSET(0x1949B920)
+#define RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1949BD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarLineupKeyLevelConfig_TypeDefinitionIndex = 17235;
+	inline static constexpr unsigned int AvatarLineupKeyLevelConfig_TypeDefinitionIndex = 17243;
 
 	class AvatarLineupKeyLevelConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_545546A276866E43(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarLineupKeyLevelConfig*& a2)
+		static ::System::Void Method_2_BF3719D9D3DEB1B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarLineupKeyLevelConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarLineupKeyLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_METHOD_2_545546A276866E43_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarLineupKeyLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARLINEUPKEYLEVELCONFIG_METHOD_2_BF3719D9D3DEB1B5_OFFSET))(a1, a2);
 		}
 	};
 }

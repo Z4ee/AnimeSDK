@@ -7,15 +7,15 @@
 namespace RPG::Client::Dev { class VirtualServerLaunchConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_CREATELAUNCHCONFIG_OFFSET UNITYSDK_OFFSET(0xA0F9060)
-#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_LAUNCHWITHCONFIG_OFFSET UNITYSDK_OFFSET(0xA0F8E70)
-#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_STARTADVENTUREDEVSERVERS_OFFSET UNITYSDK_OFFSET(0xA0F8E00)
-#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xA0F98B0)
-#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER__GETPROMOTIONBYLEVEL_OFFSET UNITYSDK_OFFSET(0xA0F9840)
+#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_CREATELAUNCHCONFIG_OFFSET UNITYSDK_OFFSET(0xB73A420)
+#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_LAUNCHWITHCONFIG_OFFSET UNITYSDK_OFFSET(0xB73A1B0)
+#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_STARTADVENTUREDEVSERVERS_OFFSET UNITYSDK_OFFSET(0xB73A140)
+#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xB73ABB0)
+#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER__GETPROMOTIONBYLEVEL_OFFSET UNITYSDK_OFFSET(0xB73AB40)
 
 namespace RPG::Client::Dev
 {
-	inline static constexpr unsigned int VirtualServerLauncher_TypeDefinitionIndex = 72488;
+	inline static constexpr unsigned int VirtualServerLauncher_TypeDefinitionIndex = 74311;
 
 	class VirtualServerLauncher : public ::System::Object
 	{
@@ -25,24 +25,24 @@ namespace RPG::Client::Dev
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void StartAdventureDevServers(::System::UInt32 planeID, ::System::UInt32 floorID, ::System::UInt32 dimensionID, ::Il2CppArray<::System::UInt32>* avatarIDs, ::Il2CppArray<::Enum_3_DFCB42601400F441>* multiPathAvatarTypes, ::RPG::GameCore::GenderType genderType)
+		static ::System::Void StartAdventureDevServers(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::Il2CppArray<::System::UInt32>* a4, ::Il2CppArray<::Enum_3_DFCB42601400F441>* a5, ::RPG::GameCore::GenderType a6)
 		{
-			return ((::System::Void(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::Enum_3_DFCB42601400F441>*, ::RPG::GameCore::GenderType))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_STARTADVENTUREDEVSERVERS_OFFSET))(planeID, floorID, dimensionID, avatarIDs, multiPathAvatarTypes, genderType);
+			return ((::System::Void(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::Enum_3_DFCB42601400F441>*, ::RPG::GameCore::GenderType))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_STARTADVENTUREDEVSERVERS_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void LaunchWithConfig(::RPG::Client::Dev::VirtualServerLaunchConfig* Config)
+		static ::System::Void LaunchWithConfig(::RPG::Client::Dev::VirtualServerLaunchConfig* a1)
 		{
-			return ((::System::Void(*)(::RPG::Client::Dev::VirtualServerLaunchConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_LAUNCHWITHCONFIG_OFFSET))(Config);
+			return ((::System::Void(*)(::RPG::Client::Dev::VirtualServerLaunchConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_LAUNCHWITHCONFIG_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::Dev::VirtualServerLaunchConfig* CreateLaunchConfig(::System::UInt32 planeID, ::System::UInt32 floorID, ::System::UInt32 dimensionID, ::Il2CppArray<::System::UInt32>* avatarIDs, ::Il2CppArray<::System::UInt32>* avatarEnhancedIDs, ::Il2CppArray<::System::String*>* skillTreePoints, ::Il2CppArray<::System::String*>* avatarLevels, ::Il2CppArray<::Enum_3_DFCB42601400F441>* multiPathAvatarTypes, ::RPG::GameCore::GenderType genderType, ::Il2CppArray<::System::UInt32>* SkinIDs)
+		static ::RPG::Client::Dev::VirtualServerLaunchConfig* CreateLaunchConfig(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::Il2CppArray<::System::UInt32>* a4, ::Il2CppArray<::System::UInt32>* a5, ::Il2CppArray<::System::String*>* a6, ::Il2CppArray<::System::String*>* a7, ::Il2CppArray<::Enum_3_DFCB42601400F441>* a8, ::RPG::GameCore::GenderType a9, ::Il2CppArray<::System::UInt32>* a10)
 		{
-			return ((::RPG::Client::Dev::VirtualServerLaunchConfig*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::Enum_3_DFCB42601400F441>*, ::RPG::GameCore::GenderType, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_CREATELAUNCHCONFIG_OFFSET))(planeID, floorID, dimensionID, avatarIDs, avatarEnhancedIDs, skillTreePoints, avatarLevels, multiPathAvatarTypes, genderType, SkinIDs);
+			return ((::RPG::Client::Dev::VirtualServerLaunchConfig*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::Enum_3_DFCB42601400F441>*, ::RPG::GameCore::GenderType, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER_CREATELAUNCHCONFIG_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		static ::System::Int32 _GetPromotionByLevel(::System::UInt32 level)
+		static ::System::Int32 _GetPromotionByLevel(::System::UInt32 a1)
 		{
-			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER__GETPROMOTIONBYLEVEL_OFFSET))(level);
+			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHER__GETPROMOTIONBYLEVEL_OFFSET))(a1);
 		}
 	};
 }

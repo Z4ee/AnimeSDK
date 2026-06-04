@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_COMPONENTDELAYEDTICKCONFIG_METHOD_2_263AF8AAFB83F627_OFFSET UNITYSDK_OFFSET(0x18830BB0)
-#define RPG_GAMECORE_COMPONENTDELAYEDTICKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18830D30)
+#define RPG_GAMECORE_COMPONENTDELAYEDTICKCONFIG_METHOD_2_E80F641A58A4771E_OFFSET UNITYSDK_OFFSET(0x196708E0)
+#define RPG_GAMECORE_COMPONENTDELAYEDTICKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19670A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComponentDelayedTickConfig_TypeDefinitionIndex = 15686;
+	inline static constexpr unsigned int ComponentDelayedTickConfig_TypeDefinitionIndex = 15744;
 
 	class ComponentDelayedTickConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPONENTDELAYEDTICKCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_263AF8AAFB83F627(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComponentDelayedTickConfig*& a2)
+		static ::System::Void Method_2_E80F641A58A4771E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComponentDelayedTickConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComponentDelayedTickConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPONENTDELAYEDTICKCONFIG_METHOD_2_263AF8AAFB83F627_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComponentDelayedTickConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPONENTDELAYEDTICKCONFIG_METHOD_2_E80F641A58A4771E_OFFSET))(a1, a2);
 		}
 	};
 }

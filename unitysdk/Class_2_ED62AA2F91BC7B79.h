@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class BaseModifierInstance; }
@@ -8,19 +8,19 @@ namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_ED62AA2F91BC7B79_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x123DCED0)
-#define CLASS_2_ED62AA2F91BC7B79_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x123DCE80)
-#define CLASS_2_ED62AA2F91BC7B79_METHOD_2_68BC90F65C30506D_OFFSET UNITYSDK_OFFSET(0x123DCDA0)
-#define CLASS_2_ED62AA2F91BC7B79__CTOR_OFFSET UNITYSDK_OFFSET(0x123DCF20)
+#define CLASS_2_ED62AA2F91BC7B79_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA564CA0)
+#define CLASS_2_ED62AA2F91BC7B79_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA564C50)
+#define CLASS_2_ED62AA2F91BC7B79_METHOD_2_68BC90F65C30506D_OFFSET UNITYSDK_OFFSET(0xA564B70)
+#define CLASS_2_ED62AA2F91BC7B79__CTOR_OFFSET UNITYSDK_OFFSET(0xA564CF0)
 
-inline static constexpr unsigned int Class_2_ED62AA2F91BC7B79_TypeDefinitionIndex = 52147;
+inline static constexpr unsigned int Class_2_ED62AA2F91BC7B79_TypeDefinitionIndex = 52844;
 
-class Class_2_ED62AA2F91BC7B79 : public ::Class_1_9988289E7F8AA214
+class Class_2_ED62AA2F91BC7B79 : public ::Class_1_BF7A075734D15E98
 {
 public:
-	::RPG::GameCore::BaseModifierInstance* Field_2_2; // 0x18
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x20
-	::System::Collections::Generic::List_1<::RPG::GameCore::BaseModifierInstance_ModifierEffectData*>* Field_2_1; // 0x28
+	::RPG::GameCore::GameEntity* Field_2_0; // 0x18
+	::RPG::GameCore::BaseModifierInstance* Field_2_1; // 0x20
+	::System::Collections::Generic::List_1<::RPG::GameCore::BaseModifierInstance_ModifierEffectData*>* Field_2_2; // 0x28
 
 	::System::Void _ctor()
 	{

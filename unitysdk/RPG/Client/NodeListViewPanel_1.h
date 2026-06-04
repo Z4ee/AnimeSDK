@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NodeListViewPanel_1_TypeDefinitionIndex = 66909;
+	inline static constexpr unsigned int NodeListViewPanel_1_TypeDefinitionIndex = 67851;
 
 	template <typename T>
 	class NodeListViewPanel_1 : public ::Class_1_CA217ABF4E3B4F3F

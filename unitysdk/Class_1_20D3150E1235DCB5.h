@@ -7,19 +7,19 @@
 class Class_1_B5F93263C61C75CE;
 namespace RPG::GameCore { class TurnBasedGameMode; }
 
-#define CLASS_1_20D3150E1235DCB5_GET_WORKFINISH_OFFSET UNITYSDK_OFFSET(0x124DD430)
-#define CLASS_1_20D3150E1235DCB5_METHOD_1_566698698B844DA8_OFFSET UNITYSDK_OFFSET(0x124DD310)
-#define CLASS_1_20D3150E1235DCB5_METHOD_1_895E6BF2EDCD95D0_OFFSET UNITYSDK_OFFSET(0x124DD3D0)
-#define CLASS_1_20D3150E1235DCB5_SET_WORKFINISH_OFFSET UNITYSDK_OFFSET(0x124DD440)
-#define CLASS_1_20D3150E1235DCB5__CTOR_OFFSET UNITYSDK_OFFSET(0x124DD300)
+#define CLASS_1_20D3150E1235DCB5_GET_WORKFINISH_OFFSET UNITYSDK_OFFSET(0x13AA0160)
+#define CLASS_1_20D3150E1235DCB5_METHOD_1_4C77E88CBA01CFD8_OFFSET UNITYSDK_OFFSET(0x13AA0040)
+#define CLASS_1_20D3150E1235DCB5_METHOD_1_895E6BF2EDCD95D0_OFFSET UNITYSDK_OFFSET(0x13AA0100)
+#define CLASS_1_20D3150E1235DCB5_SET_WORKFINISH_OFFSET UNITYSDK_OFFSET(0x13AA0170)
+#define CLASS_1_20D3150E1235DCB5__CTOR_OFFSET UNITYSDK_OFFSET(0x13AA0030)
 
-inline static constexpr unsigned int Class_1_20D3150E1235DCB5_TypeDefinitionIndex = 51844;
+inline static constexpr unsigned int Class_1_20D3150E1235DCB5_TypeDefinitionIndex = 52518;
 
 class Class_1_20D3150E1235DCB5 : public ::System::Object
 {
 public:
-	::Class_1_B5F93263C61C75CE* Field_1_2; // 0x10
-	::RPG::GameCore::TurnBasedGameMode* Field_1_1; // 0x18
+	::RPG::GameCore::TurnBasedGameMode* Field_1_0; // 0x10
+	::Class_1_B5F93263C61C75CE* Field_1_1; // 0x18
 	::System::Boolean _WorkFinish_k__BackingField; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TurnBasedGameMode* a1, ::Class_1_B5F93263C61C75CE* a2)
@@ -27,9 +27,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedGameMode*, ::Class_1_B5F93263C61C75CE*))((::PBYTE)hIl2Cpp + CLASS_1_20D3150E1235DCB5__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_566698698B844DA8(::RPG::GameCore::TurnState a1)
+	::System::Void Method_1_4C77E88CBA01CFD8(::RPG::GameCore::TurnState a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnState))((::PBYTE)hIl2Cpp + CLASS_1_20D3150E1235DCB5_METHOD_1_566698698B844DA8_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnState))((::PBYTE)hIl2Cpp + CLASS_1_20D3150E1235DCB5_METHOD_1_4C77E88CBA01CFD8_OFFSET))(this, a1);
 	}
 
 	::Struct_2_27685EFF2E84A814 Method_1_895E6BF2EDCD95D0()
@@ -42,8 +42,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_20D3150E1235DCB5_GET_WORKFINISH_OFFSET))(this);
 	}
 
-	::System::Void set_WorkFinish(::System::Boolean value)
+	::System::Void set_WorkFinish(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_20D3150E1235DCB5_SET_WORKFINISH_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_20D3150E1235DCB5_SET_WORKFINISH_OFFSET))(this, a1);
 	}
 };

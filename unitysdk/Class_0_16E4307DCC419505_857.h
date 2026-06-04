@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::GameCore { class OptionTalkInfo; }
+class Class_0_16E4307DCC419505_856;
+class Class_1_C1A562AF201E3725_6;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_857_TypeDefinitionIndex = 62716;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_857_TypeDefinitionIndex = 62761;
 
 class Class_0_16E4307DCC419505_857
 {

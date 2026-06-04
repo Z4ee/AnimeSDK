@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int GarbageBinState_TypeDefinitionIndex = 39313;
+	inline static constexpr unsigned int GarbageBinState_TypeDefinitionIndex = 40082;
 
 	enum class GarbageBinState : ::System::Int32
 	{

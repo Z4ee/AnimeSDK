@@ -3,14 +3,17 @@
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETMAPBETWEENENTITY_METHOD_3_93EC175E71EFBC56_OFFSET UNITYSDK_OFFSET(0x18EE7D60)
-#define RPG_GAMECORE_TARGETMAPBETWEENENTITY_METHOD_3_F0A7C2AA06DC8194_OFFSET UNITYSDK_OFFSET(0x18EE7C80)
-#define RPG_GAMECORE_TARGETMAPBETWEENENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18EE7D40)
+#define RPG_GAMECORE_TARGETMAPBETWEENENTITY_METHOD_3_93EC175E71EFBC56_OFFSET UNITYSDK_OFFSET(0x19D125A0)
+#define RPG_GAMECORE_TARGETMAPBETWEENENTITY_METHOD_3_C8BD60CC28903178_OFFSET UNITYSDK_OFFSET(0x19D12660)
+#define RPG_GAMECORE_TARGETMAPBETWEENENTITY_METHOD_3_DCCAD0D95AF7F778_OFFSET UNITYSDK_OFFSET(0x19D12600)
+#define RPG_GAMECORE_TARGETMAPBETWEENENTITY_METHOD_3_F0A7C2AA06DC8194_OFFSET UNITYSDK_OFFSET(0x19D124C0)
+#define RPG_GAMECORE_TARGETMAPBETWEENENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19D12580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMapBetweenEntity_TypeDefinitionIndex = 23016;
+	inline static constexpr unsigned int TargetMapBetweenEntity_TypeDefinitionIndex = 22706;
 
 	class TargetMapBetweenEntity : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -28,6 +31,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_3_93EC175E71EFBC56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapBetweenEntity* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapBetweenEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBETWEENENTITY_METHOD_3_93EC175E71EFBC56_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_DCCAD0D95AF7F778(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapBetweenEntity*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapBetweenEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBETWEENENTITY_METHOD_3_DCCAD0D95AF7F778_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_3_C8BD60CC28903178(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapBetweenEntity* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapBetweenEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPBETWEENENTITY_METHOD_3_C8BD60CC28903178_OFFSET))(a1, a2);
 		}
 	};
 }

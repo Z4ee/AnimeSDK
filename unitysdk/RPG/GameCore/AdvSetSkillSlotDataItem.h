@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVSETSKILLSLOTDATAITEM_METHOD_2_57F7C564C7633782_OFFSET UNITYSDK_OFFSET(0x18664C90)
-#define RPG_GAMECORE_ADVSETSKILLSLOTDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18664EA0)
+#define RPG_GAMECORE_ADVSETSKILLSLOTDATAITEM_METHOD_2_57F7C564C7633782_OFFSET UNITYSDK_OFFSET(0x194385C0)
+#define RPG_GAMECORE_ADVSETSKILLSLOTDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x194387D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetSkillSlotDataItem_TypeDefinitionIndex = 19137;
+	inline static constexpr unsigned int AdvSetSkillSlotDataItem_TypeDefinitionIndex = 19066;
 
 	class AdvSetSkillSlotDataItem : public ::RPG::GameCore::JsonConfig
 	{

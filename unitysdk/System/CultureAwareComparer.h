@@ -8,47 +8,47 @@ namespace System { class String; }
 namespace System::Globalization { class CompareInfo; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_CULTUREAWARECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x178B7690)
-#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x178B77D0)
-#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x178B76F0)
-#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_1_OFFSET UNITYSDK_OFFSET(0x178B78A0)
-#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x178B7740)
-#define SYSTEM_CULTUREAWARECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x178B7630)
+#define SYSTEM_CULTUREAWARECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x18670A10)
+#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18670B50)
+#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x18670A70)
+#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_1_OFFSET UNITYSDK_OFFSET(0x18670C30)
+#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18670AC0)
+#define SYSTEM_CULTUREAWARECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x186709B0)
 
 namespace System
 {
-	inline static constexpr unsigned int CultureAwareComparer_TypeDefinitionIndex = 331;
+	inline static constexpr unsigned int CultureAwareComparer_TypeDefinitionIndex = 330;
 
 	class CultureAwareComparer : public ::System::StringComparer
 	{
 	public:
 		::System::Globalization::CompareInfo* _compareInfo; // 0x10
-		::System::Boolean _ignoreCase; // 0x18
-		::System::Globalization::CompareOptions _options; // 0x1C
+		::System::Globalization::CompareOptions _options; // 0x18
+		::System::Boolean _ignoreCase; // 0x1C
 
-		::System::Void _ctor(::System::Globalization::CultureInfo* culture, ::System::Boolean ignoreCase)
+		::System::Void _ctor(::System::Globalization::CultureInfo* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER__CTOR_OFFSET))(this, culture, ignoreCase);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Compare(::System::String* x, ::System::String* y)
+		::System::Int32 Compare(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER_COMPARE_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER_COMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Equals(::System::String* x, ::System::String* y)
+		::System::Boolean Equals(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER_EQUALS_OFFSET))(this, x, y);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER_EQUALS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 GetHashCode(::System::String* obj)
+		::System::Int32 GetHashCode(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_OFFSET))(this, obj);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode_1()

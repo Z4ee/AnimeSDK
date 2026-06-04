@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetBattleUIPanelState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_06986B9F66325F10_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x902BA40)
-#define CLASS_3_06986B9F66325F10__CTOR_OFFSET UNITYSDK_OFFSET(0x902BA10)
+#define CLASS_3_06986B9F66325F10_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA0C5D0)
+#define CLASS_3_06986B9F66325F10__CTOR_OFFSET UNITYSDK_OFFSET(0xBA0C5A0)
 
-inline static constexpr unsigned int Class_3_06986B9F66325F10_TypeDefinitionIndex = 53955;
+inline static constexpr unsigned int Class_3_06986B9F66325F10_TypeDefinitionIndex = 54680;
 
 class Class_3_06986B9F66325F10 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBattleUIPanelState*>
 {

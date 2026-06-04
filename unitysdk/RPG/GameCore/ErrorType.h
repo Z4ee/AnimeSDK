@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ErrorType_TypeDefinitionIndex = 23575;
+	inline static constexpr unsigned int ErrorType_TypeDefinitionIndex = 10450;
 
 	enum class ErrorType : ::System::Int32
 	{

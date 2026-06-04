@@ -6,33 +6,33 @@ namespace Epic::OnlineServices { class ProductUserId; }
 namespace Epic::OnlineServices::Sessions { class SessionSearchFindOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18330)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x18200)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x18070)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x18130)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x183F0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x183E0)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x18250)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x18310)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionSearchFindOptionsInternal_TypeDefinitionIndex = 41366;
+	inline static constexpr unsigned int SessionSearchFindOptionsInternal_TypeDefinitionIndex = 42169;
 
 	struct alignas(8) SessionSearchFindOptionsInternal
 	{
 		::System::Int32 m_ApiVersion; // 0x10
 		::System::IntPtr m_LocalUserId; // 0x18
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Sessions::SessionSearchFindOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Sessions::SessionSearchFindOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionSearchFindOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::SessionSearchFindOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHFINDOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

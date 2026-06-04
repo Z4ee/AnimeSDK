@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_RealPersonElements_TypeDefinitionIndex = 7982;
+	inline static constexpr unsigned int PluginUIConstants_RealPersonElements_TypeDefinitionIndex = 8885;
 
 	class PluginUIConstants_RealPersonElements : public ::System::Object
 	{

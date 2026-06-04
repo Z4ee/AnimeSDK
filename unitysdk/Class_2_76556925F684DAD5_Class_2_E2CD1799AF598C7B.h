@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_76556925F684DAD5_Class_1_9F59B1C537F88FE7.h"
+
+class Class_1_EFECBF8C912C40AA_Class_2_6BE772A579E2B740;
+class Class_2_76556925F684DAD5;
+class Class_2_C83BF0782BE028DB;
+namespace RPG::GameCore { class LevelPedestrianV2IntersectionChenLingFactoryStateInfo_Possession; }
+
+#define CLASS_2_76556925F684DAD5_CLASS_2_E2CD1799AF598C7B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x136412C0)
+#define CLASS_2_76556925F684DAD5_CLASS_2_E2CD1799AF598C7B_METHOD_2_3EA829810980314D_OFFSET UNITYSDK_OFFSET(0x13641330)
+#define CLASS_2_76556925F684DAD5_CLASS_2_E2CD1799AF598C7B__CTOR_OFFSET UNITYSDK_OFFSET(0x136412B0)
+#define CLASS_2_76556925F684DAD5_CLASS_2_E2CD1799AF598C7B___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13641410)
+
+inline static constexpr unsigned int Class_2_76556925F684DAD5_Class_2_E2CD1799AF598C7B_TypeDefinitionIndex = 64813;
+
+class Class_2_76556925F684DAD5_Class_2_E2CD1799AF598C7B : public ::Class_2_76556925F684DAD5_Class_1_9F59B1C537F88FE7
+{
+public:
+	::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryStateInfo_Possession* Field_2_0; // 0x10
+
+	::System::Void _ctor(::Class_2_76556925F684DAD5* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryStateInfo_Possession* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_76556925F684DAD5*, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryStateInfo_Possession*))((::PBYTE)hIl2Cpp + CLASS_2_76556925F684DAD5_CLASS_2_E2CD1799AF598C7B__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_76556925F684DAD5_CLASS_2_E2CD1799AF598C7B_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_3EA829810980314D(::Class_2_C83BF0782BE028DB* a1, ::Class_1_EFECBF8C912C40AA_Class_2_6BE772A579E2B740* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_C83BF0782BE028DB*, ::Class_1_EFECBF8C912C40AA_Class_2_6BE772A579E2B740*))((::PBYTE)hIl2Cpp + CLASS_2_76556925F684DAD5_CLASS_2_E2CD1799AF598C7B_METHOD_2_3EA829810980314D_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void __iFixBaseProxy_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_76556925F684DAD5_CLASS_2_E2CD1799AF598C7B___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+	}
+};

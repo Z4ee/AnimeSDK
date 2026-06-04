@@ -4,27 +4,27 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_1_68DDCD4A4411AB4A_METHOD_1_7B1769B98A2C7F62_OFFSET UNITYSDK_OFFSET(0x9866B70)
-#define CLASS_1_68DDCD4A4411AB4A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9866A90)
-#define CLASS_1_68DDCD4A4411AB4A_METHOD_1_D8EB89DF128EDA39_OFFSET UNITYSDK_OFFSET(0x9866AE0)
-#define CLASS_1_68DDCD4A4411AB4A_METHOD_1_DA7D5FED1E10712C_OFFSET UNITYSDK_OFFSET(0x9866F30)
-#define CLASS_1_68DDCD4A4411AB4A__CTOR_OFFSET UNITYSDK_OFFSET(0x9866950)
+#define CLASS_1_68DDCD4A4411AB4A_METHOD_1_7B1769B98A2C7F62_OFFSET UNITYSDK_OFFSET(0x13D18860)
+#define CLASS_1_68DDCD4A4411AB4A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13D18780)
+#define CLASS_1_68DDCD4A4411AB4A_METHOD_1_D8EB89DF128EDA39_OFFSET UNITYSDK_OFFSET(0x13D187D0)
+#define CLASS_1_68DDCD4A4411AB4A_METHOD_1_DA7D5FED1E10712C_OFFSET UNITYSDK_OFFSET(0x13D18C20)
+#define CLASS_1_68DDCD4A4411AB4A__CTOR_OFFSET UNITYSDK_OFFSET(0x13D126E0)
 
-inline static constexpr unsigned int Class_1_68DDCD4A4411AB4A_TypeDefinitionIndex = 63911;
+inline static constexpr unsigned int Class_1_68DDCD4A4411AB4A_TypeDefinitionIndex = 64832;
 
 class Class_1_68DDCD4A4411AB4A : public ::System::Object
 {
 public:
-	::UnityEngine::AnimationCurve* Field_1_6; // 0x10
-	::UnityEngine::AnimationCurve* Field_1_5; // 0x18
-	::System::Single Field_1_7; // 0x20
-	::System::Single Field_1_2; // 0x24
-	::System::Single Field_1_9; // 0x28
-	::System::Single Field_1_8; // 0x2C
-	::System::Single Field_1_0; // 0x30
-	::System::Single Field_1_3; // 0x34
-	::System::Single Field_1_1; // 0x38
-	::System::Boolean Field_1_4; // 0x3C
+	::UnityEngine::AnimationCurve* Field_1_0; // 0x10
+	::UnityEngine::AnimationCurve* Field_1_1; // 0x18
+	::System::Single Field_1_2; // 0x20
+	::System::Single Field_1_3; // 0x24
+	::System::Single Field_1_4; // 0x28
+	::System::Single Field_1_5; // 0x2C
+	::System::Single Field_1_6; // 0x30
+	::System::Single Field_1_7; // 0x34
+	::System::Single Field_1_8; // 0x38
+	::System::Boolean Field_1_9; // 0x3C
 
 	::System::Void _ctor(::UnityEngine::AnimationCurve* a1, ::UnityEngine::AnimationCurve* a2)
 	{

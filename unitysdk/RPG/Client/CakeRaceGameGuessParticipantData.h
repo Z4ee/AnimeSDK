@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_302;
+class Class_1_D17272E82AE804C2_316;
 namespace RPG::Client { class CakeRaceParticipantData; }
 
-#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9F01430)
-#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_GET_GUESSCOIN_OFFSET UNITYSDK_OFFSET(0x9F02940)
-#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_GET_PARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0x9F028D0)
-#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_GET_PARTICIPANTID_OFFSET UNITYSDK_OFFSET(0x9F028F0)
-#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_SET_PARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0x9F028E0)
-#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9F02990)
-#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA__INIT_OFFSET UNITYSDK_OFFSET(0x9F029A0)
+#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB49D2A0)
+#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_GET_GUESSCOIN_OFFSET UNITYSDK_OFFSET(0xB49E310)
+#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_GET_PARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0xB49E2A0)
+#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_GET_PARTICIPANTID_OFFSET UNITYSDK_OFFSET(0xB49E2C0)
+#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_SET_PARTICIPANTDATA_OFFSET UNITYSDK_OFFSET(0xB49E2B0)
+#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB49E360)
+#define RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA__INIT_OFFSET UNITYSDK_OFFSET(0xB49E370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceGameGuessParticipantData_TypeDefinitionIndex = 58075;
+	inline static constexpr unsigned int CakeRaceGameGuessParticipantData_TypeDefinitionIndex = 58991;
 
 	class CakeRaceGameGuessParticipantData : public ::System::Object
 	{
 	public:
-		::Class_1_D17272E82AE804C2_302* _GuessPlayerData; // 0x10
-		::RPG::Client::CakeRaceParticipantData* _ParticipantData_k__BackingField; // 0x18
+		::RPG::Client::CakeRaceParticipantData* _ParticipantData_k__BackingField; // 0x10
+		::Class_1_D17272E82AE804C2_316* _GuessPlayerData; // 0x18
 
-		::System::Void _ctor(::Class_1_D17272E82AE804C2_302* guessPlayerData)
+		::System::Void _ctor(::Class_1_D17272E82AE804C2_316* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_302*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA__CTOR_OFFSET))(this, guessPlayerData);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_316*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::CakeRaceParticipantData* get_ParticipantData()
@@ -33,9 +33,9 @@ namespace RPG::Client
 			return ((::RPG::Client::CakeRaceParticipantData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_GET_PARTICIPANTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ParticipantData(::RPG::Client::CakeRaceParticipantData* value)
+		::System::Void set_ParticipantData(::RPG::Client::CakeRaceParticipantData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_SET_PARTICIPANTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_SET_PARTICIPANTDATA_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ParticipantID()
@@ -48,9 +48,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_GET_GUESSCOIN_OFFSET))(this);
 		}
 
-		static ::RPG::Client::CakeRaceGameGuessParticipantData* Create(::Class_1_D17272E82AE804C2_302* guessPlayerData)
+		static ::RPG::Client::CakeRaceGameGuessParticipantData* Create(::Class_1_D17272E82AE804C2_316* a1)
 		{
-			return ((::RPG::Client::CakeRaceGameGuessParticipantData*(*)(::Class_1_D17272E82AE804C2_302*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_CREATE_OFFSET))(guessPlayerData);
+			return ((::RPG::Client::CakeRaceGameGuessParticipantData*(*)(::Class_1_D17272E82AE804C2_316*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEGUESSPARTICIPANTDATA_CREATE_OFFSET))(a1);
 		}
 
 		::System::Void _Init()

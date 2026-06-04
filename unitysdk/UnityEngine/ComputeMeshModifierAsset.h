@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ComputeShaderAsset.h"
 
-#define UNITYENGINE_COMPUTEMESHMODIFIERASSET_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1A433300)
-#define UNITYENGINE_COMPUTEMESHMODIFIERASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4332E0)
+#define UNITYENGINE_COMPUTEMESHMODIFIERASSET_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1B284FA0)
+#define UNITYENGINE_COMPUTEMESHMODIFIERASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B284F80)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ComputeMeshModifierAsset_TypeDefinitionIndex = 3920;
+	inline static constexpr unsigned int ComputeMeshModifierAsset_TypeDefinitionIndex = 4094;
 
 	class ComputeMeshModifierAsset : public ::UnityEngine::ComputeShaderAsset
 	{
@@ -17,9 +17,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COMPUTEMESHMODIFIERASSET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Internal_Create(::UnityEngine::ComputeMeshModifierAsset* asset)
+		static ::System::Void Internal_Create(::UnityEngine::ComputeMeshModifierAsset* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::ComputeMeshModifierAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_COMPUTEMESHMODIFIERASSET_INTERNAL_CREATE_OFFSET))(asset);
+			return ((::System::Void(*)(::UnityEngine::ComputeMeshModifierAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_COMPUTEMESHMODIFIERASSET_INTERNAL_CREATE_OFFSET))(a1);
 		}
 	};
 }

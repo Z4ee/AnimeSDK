@@ -10,10 +10,10 @@ namespace System::Net { class ServerCertValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A0A39E0)
-#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A0A3A80)
-#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A09B850)
-#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0A39C0)
+#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AF14AE0)
+#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AF14B80)
+#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AF0CD00)
+#define MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF149F0)
 
 namespace Mono::Net::Security
 {
@@ -22,24 +22,24 @@ namespace Mono::Net::Security
 	class ServerCertValidationCallbackWrapper : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::Net::ServerCertValidationCallback* callback, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::Mono::Security::Interface::MonoSslPolicyErrors sslPolicyErrors)
+		::System::Boolean Invoke(::System::Net::ServerCertValidationCallback* a1, ::System::Security::Cryptography::X509Certificates::X509Certificate* a2, ::System::Security::Cryptography::X509Certificates::X509Chain* a3, ::Mono::Security::Interface::MonoSslPolicyErrors a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Net::ServerCertValidationCallback*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::Mono::Security::Interface::MonoSslPolicyErrors))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_INVOKE_OFFSET))(this, callback, certificate, chain, sslPolicyErrors);
+			return ((::System::Boolean(*)(::PVOID, ::System::Net::ServerCertValidationCallback*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::Mono::Security::Interface::MonoSslPolicyErrors))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Net::ServerCertValidationCallback* callback, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::Mono::Security::Interface::MonoSslPolicyErrors sslPolicyErrors, ::System::AsyncCallback* __callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Net::ServerCertValidationCallback* a1, ::System::Security::Cryptography::X509Certificates::X509Certificate* a2, ::System::Security::Cryptography::X509Certificates::X509Chain* a3, ::Mono::Security::Interface::MonoSslPolicyErrors a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Net::ServerCertValidationCallback*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::Mono::Security::Interface::MonoSslPolicyErrors, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_BEGININVOKE_OFFSET))(this, callback, certificate, chain, sslPolicyErrors, __callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Net::ServerCertValidationCallback*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::Mono::Security::Interface::MonoSslPolicyErrors, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_SERVERCERTVALIDATIONCALLBACKWRAPPER_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

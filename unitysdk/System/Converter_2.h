@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace System
 {
-	inline static constexpr unsigned int Converter_2_TypeDefinitionIndex = 188;
+	inline static constexpr unsigned int Converter_2_TypeDefinitionIndex = 187;
 
 	template <typename TInput, typename TOutput>
 	class Converter_2 : public ::System::MulticastDelegate

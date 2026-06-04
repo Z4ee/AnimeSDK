@@ -6,10 +6,10 @@ class Class_3_CEF86C33D203CEB1;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A006E0)
-#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0___PERSISTENTASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x9A00810)
+#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13A6F010)
+#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0___PERSISTENTASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x13A6F140)
 
-inline static constexpr unsigned int Class_3_CEF86C33D203CEB1___c__DisplayClass5_0_TypeDefinitionIndex = 68005;
+inline static constexpr unsigned int Class_3_CEF86C33D203CEB1___c__DisplayClass5_0_TypeDefinitionIndex = 68963;
 
 class Class_3_CEF86C33D203CEB1___c__DisplayClass5_0 : public ::System::Object
 {
@@ -22,8 +22,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __PersistentAsyncLoad_b__0(::UnityEngine::Object* goPrefab)
+	::System::Void __PersistentAsyncLoad_b__0(::UnityEngine::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0___PERSISTENTASYNCLOAD_B__0_OFFSET))(this, goPrefab);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0___PERSISTENTASYNCLOAD_B__0_OFFSET))(this, a1);
 	}
 };

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IFIX_CORE_IDTAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17140BF0)
+#define IFIX_CORE_IDTAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17F8BD40)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int IDTagAttribute_TypeDefinitionIndex = 9913;
+	inline static constexpr unsigned int IDTagAttribute_TypeDefinitionIndex = 9740;
 
 	class IDTagAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Int32 ID; // 0x10
 
-		::System::Void _ctor(::System::Int32 id)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_IDTAGATTRIBUTE__CTOR_OFFSET))(this, id);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_IDTAGATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

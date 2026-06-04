@@ -5,10 +5,10 @@
 
 namespace UnityEngine { class Transform; }
 
-#define PRESKIRTIK_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x9A8C1E0)
-#define PRESKIRTIK__CTOR_OFFSET UNITYSDK_OFFSET(0x9A8C2A0)
+#define PRESKIRTIK_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB06B7A0)
+#define PRESKIRTIK__CTOR_OFFSET UNITYSDK_OFFSET(0xB06B860)
 
-inline static constexpr unsigned int PreSkirtIk_TypeDefinitionIndex = 44041;
+inline static constexpr unsigned int PreSkirtIk_TypeDefinitionIndex = 44587;
 
 class PreSkirtIk : public ::UnityEngine::MonoBehaviour
 {

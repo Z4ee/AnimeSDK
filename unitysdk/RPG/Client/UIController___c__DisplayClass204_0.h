@@ -6,12 +6,12 @@ namespace RPG::Client { class UIController; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS204_0__ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xB3E2470)
-#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS204_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB3DF050)
+#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS204_0__ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xCB43540)
+#define RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS204_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB402D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIController___c__DisplayClass204_0_TypeDefinitionIndex = 67259;
+	inline static constexpr unsigned int UIController___c__DisplayClass204_0_TypeDefinitionIndex = 68211;
 
 	class UIController___c__DisplayClass204_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS204_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _AsyncLoadPrefab_b__0(::UnityEngine::GameObject* gameObject)
+		::System::Void _AsyncLoadPrefab_b__0(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS204_0__ASYNCLOADPREFAB_B__0_OFFSET))(this, gameObject);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER___C__DISPLAYCLASS204_0__ASYNCLOADPREFAB_B__0_OFFSET))(this, a1);
 		}
 	};
 }

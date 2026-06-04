@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/BaseBindlessArray.h"
 
-#define UNITYENGINE_BINDLESSTEXTUREARRAY_DESTROY_OFFSET UNITYSDK_OFFSET(0x1A42B9B0)
-#define UNITYENGINE_BINDLESSTEXTUREARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A42B920)
+#define UNITYENGINE_BINDLESSTEXTUREARRAY_DESTROY_OFFSET UNITYSDK_OFFSET(0x1B27DDD0)
+#define UNITYENGINE_BINDLESSTEXTUREARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B27DD20)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BindlessTextureArray_TypeDefinitionIndex = 4062;
+	inline static constexpr unsigned int BindlessTextureArray_TypeDefinitionIndex = 4236;
 
 	class BindlessTextureArray : public ::UnityEngine::BaseBindlessArray
 	{
@@ -17,9 +17,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDLESSTEXTUREARRAY_DISPOSE_OFFSET))(this);
 		}
 
-		static ::System::Void Destroy(::UnityEngine::BindlessTextureArray* bindlessArray)
+		static ::System::Void Destroy(::UnityEngine::BindlessTextureArray* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::BindlessTextureArray*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDLESSTEXTUREARRAY_DESTROY_OFFSET))(bindlessArray);
+			return ((::System::Void(*)(::UnityEngine::BindlessTextureArray*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDLESSTEXTUREARRAY_DESTROY_OFFSET))(a1);
 		}
 	};
 }

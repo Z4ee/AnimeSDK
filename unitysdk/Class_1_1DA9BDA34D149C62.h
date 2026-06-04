@@ -5,17 +5,17 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_1DA9BDA34D149C62__CTOR_OFFSET UNITYSDK_OFFSET(0x17EE7CA0)
+#define CLASS_1_1DA9BDA34D149C62__CTOR_OFFSET UNITYSDK_OFFSET(0x18E3FB10)
 
-inline static constexpr unsigned int Class_1_1DA9BDA34D149C62_TypeDefinitionIndex = 39497;
+inline static constexpr unsigned int Class_1_1DA9BDA34D149C62_TypeDefinitionIndex = 40320;
 
 class Class_1_1DA9BDA34D149C62 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_2; // 0x10
-	::RPG::Client::LittleGame::ChenLing::ChenLingCameraType Field_1_0; // 0x18
-	::System::Boolean Field_1_3; // 0x1C
-	::System::Boolean Field_1_1; // 0x1D
+	::UnityEngine::Transform* Field_1_0; // 0x10
+	::System::Boolean Field_1_1; // 0x18
+	::System::Boolean Field_1_2; // 0x19
+	::RPG::Client::LittleGame::ChenLing::ChenLingCameraType Field_1_3; // 0x1C
 
 	::System::Void _ctor()
 	{

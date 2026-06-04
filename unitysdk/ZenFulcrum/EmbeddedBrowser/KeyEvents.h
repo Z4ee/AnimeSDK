@@ -7,28 +7,28 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Event; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_FEED_OFFSET UNITYSDK_OFFSET(0x1A6C4080)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_GET_EVENTS_OFFSET UNITYSDK_OFFSET(0x1A6C3C00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_INPUTUPDATE_OFFSET UNITYSDK_OFFSET(0x1A6C3C10)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_PRESS_OFFSET UNITYSDK_OFFSET(0x1A6C4150)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A6C41E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_TYPE_OFFSET UNITYSDK_OFFSET(0x1A6C4270)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6C4420)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6C43B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_FEED_OFFSET UNITYSDK_OFFSET(0x1B500C70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_GET_EVENTS_OFFSET UNITYSDK_OFFSET(0x1B5007E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_INPUTUPDATE_OFFSET UNITYSDK_OFFSET(0x1B5007F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_PRESS_OFFSET UNITYSDK_OFFSET(0x1B500D90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_RELEASE_OFFSET UNITYSDK_OFFSET(0x1B500E70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_TYPE_OFFSET UNITYSDK_OFFSET(0x1B500F50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B501170)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B501100)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int KeyEvents_TypeDefinitionIndex = 36237;
+	inline static constexpr unsigned int KeyEvents_TypeDefinitionIndex = 36537;
 
 	class KeyEvents : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::KeyCode>** StaticGet_keysToCheck()
 		{
-			return (::Il2CppArray<::UnityEngine::KeyCode>**)Il2CppClass::FromTypeDefinitionIndex(KeyEvents_TypeDefinitionIndex)->GetStaticField(0x6A3D0);
+			return (::Il2CppArray<::UnityEngine::KeyCode>**)Il2CppClass::FromTypeDefinitionIndex(KeyEvents_TypeDefinitionIndex)->GetStaticField(0x65A10);
 		}
-		::System::Collections::Generic::List_1<::UnityEngine::Event*>* keyEvents; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Event*>* keyEventsLast; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Event*>* keyEventsLast; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Event*>* keyEvents; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -50,24 +50,24 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_INPUTUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Feed(::UnityEngine::Event* ev)
+		::System::Void Feed(::UnityEngine::Event* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Event*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_FEED_OFFSET))(this, ev);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Event*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_FEED_OFFSET))(this, a1);
 		}
 
-		::System::Void Press(::UnityEngine::KeyCode key)
+		::System::Void Press(::UnityEngine::KeyCode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::KeyCode))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_PRESS_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::KeyCode))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_PRESS_OFFSET))(this, a1);
 		}
 
-		::System::Void Release(::UnityEngine::KeyCode key)
+		::System::Void Release(::UnityEngine::KeyCode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::KeyCode))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_RELEASE_OFFSET))(this, key);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::KeyCode))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_RELEASE_OFFSET))(this, a1);
 		}
 
-		::System::Void Type(::System::String* text)
+		::System::Void Type(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_TYPE_OFFSET))(this, text);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_KEYEVENTS_TYPE_OFFSET))(this, a1);
 		}
 	};
 }

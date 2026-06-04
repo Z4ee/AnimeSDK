@@ -6,7 +6,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Xml { class XmlAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0018B0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE754A0)
 
 namespace System::Xml::Serialization
 {
@@ -15,15 +15,15 @@ namespace System::Xml::Serialization
 	class XmlAttributeEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Xml::XmlAttribute* attr; // 0x10
+		::System::Object* o; // 0x10
 		::System::String* qnames; // 0x18
-		::System::Object* o; // 0x20
-		::System::Int32 linePosition; // 0x28
-		::System::Int32 lineNumber; // 0x2C
+		::System::Xml::XmlAttribute* attr; // 0x20
+		::System::Int32 lineNumber; // 0x28
+		::System::Int32 linePosition; // 0x2C
 
-		::System::Void _ctor(::System::Xml::XmlAttribute* attr, ::System::Int32 lineNumber, ::System::Int32 linePosition, ::System::Object* o, ::System::String* qnames)
+		::System::Void _ctor(::System::Xml::XmlAttribute* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlAttribute*, ::System::Int32, ::System::Int32, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_OFFSET))(this, attr, lineNumber, linePosition, o, qnames);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlAttribute*, ::System::Int32, ::System::Int32, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

@@ -7,33 +7,33 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class MarbleSealRow; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_CREATE_OFFSET UNITYSDK_OFFSET(0x9C180E0)
-#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9C18D00)
-#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x9C18160)
-#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_LOADMODEL_OFFSET UNITYSDK_OFFSET(0x9C181D0)
-#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_RELEASEMODEL_OFFSET UNITYSDK_OFFSET(0x9C182F0)
-#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0x9C18D50)
-#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9C180D0)
-#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW__DISPOSEMARBLESEALENTITY_OFFSET UNITYSDK_OFFSET(0x9C18A90)
-#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW__GETMARBLESEALENTITY_OFFSET UNITYSDK_OFFSET(0x9C18350)
-#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW__ONMODELLOADED_OFFSET UNITYSDK_OFFSET(0x9C18460)
+#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_CREATE_OFFSET UNITYSDK_OFFSET(0xB1B5AD0)
+#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1B6740)
+#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0xB1B5B50)
+#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_LOADMODEL_OFFSET UNITYSDK_OFFSET(0xB1B5BC0)
+#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_RELEASEMODEL_OFFSET UNITYSDK_OFFSET(0xB1B5CE0)
+#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1B6790)
+#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xB1B5AC0)
+#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW__DISPOSEMARBLESEALENTITY_OFFSET UNITYSDK_OFFSET(0xB1B64C0)
+#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW__GETMARBLESEALENTITY_OFFSET UNITYSDK_OFFSET(0xB1B5D40)
+#define RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW__ONMODELLOADED_OFFSET UNITYSDK_OFFSET(0xB1B5E90)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int UI3DMarbleSealView_TypeDefinitionIndex = 68937;
+	inline static constexpr unsigned int UI3DMarbleSealView_TypeDefinitionIndex = 69749;
 
 	class UI3DMarbleSealView : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet__Standby_State_Name_Hash()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI3DMarbleSealView_TypeDefinitionIndex)->GetStaticField(0xCF60);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI3DMarbleSealView_TypeDefinitionIndex)->GetStaticField(0x11460);
 		}
 		// static const ::System::UInt32 _SpecialMarbleSealID = 0x4; // 0x0
 		// static const ::System::UInt32 _SpecialMarbleMainsubSealID = 0x130; // 0x0
-		::UnityEngine::Transform* _Root; // 0x10
-		::RPG::GameCore::GameEntity* _MarbleSealEntity; // 0x18
-		::RPG::GameCore::CharacterModelComponent* _ModelCmpt; // 0x20
+		::RPG::GameCore::CharacterModelComponent* _ModelCmpt; // 0x10
+		::UnityEngine::Transform* _Root; // 0x18
+		::RPG::GameCore::GameEntity* _MarbleSealEntity; // 0x20
 		::System::UInt32 _CurMarbleSealID; // 0x28
 
 		::System::Void _ctor()
@@ -46,9 +46,9 @@ namespace RPG::Client::ActivityMarble
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::Client::ActivityMarble::UI3DMarbleSealView* Create(::UnityEngine::Transform* root)
+		static ::RPG::Client::ActivityMarble::UI3DMarbleSealView* Create(::UnityEngine::Transform* a1)
 		{
-			return ((::RPG::Client::ActivityMarble::UI3DMarbleSealView*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_CREATE_OFFSET))(root);
+			return ((::RPG::Client::ActivityMarble::UI3DMarbleSealView*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_CREATE_OFFSET))(a1);
 		}
 
 		::UnityEngine::Transform* GetTransform()
@@ -56,9 +56,9 @@ namespace RPG::Client::ActivityMarble
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_GETTRANSFORM_OFFSET))(this);
 		}
 
-		::System::Void LoadModel(::RPG::GameCore::MarbleSealRow* marbleSealConfig)
+		::System::Void LoadModel(::RPG::GameCore::MarbleSealRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleSealRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_LOADMODEL_OFFSET))(this, marbleSealConfig);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleSealRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_UI3DMARBLESEALVIEW_LOADMODEL_OFFSET))(this, a1);
 		}
 
 		::System::Void ReleaseModel()

@@ -11,59 +11,59 @@ namespace System::Globalization { class CultureInfo; }
 namespace System::Globalization { class SortKey; }
 namespace System::Globalization { class SortVersion; }
 
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_ASSIGN_SORTKEY_OFFSET UNITYSDK_OFFSET(0x1791E360)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_COMPAREORDINAL_OFFSET UNITYSDK_OFFSET(0x1791C860)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_1_OFFSET UNITYSDK_OFFSET(0x1791C210)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_2_OFFSET UNITYSDK_OFFSET(0x1791C590)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1791C1F0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_CREATESORTKEYCORE_OFFSET UNITYSDK_OFFSET(0x1791DCB0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_CREATESORTKEY_OFFSET UNITYSDK_OFFSET(0x1791DBE0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1791DF50)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETCOLLATOR_OFFSET UNITYSDK_OFFSET(0x1791CCD0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETCOMPAREINFO_OFFSET UNITYSDK_OFFSET(0x1791BDE0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETHASHCODEOFSTRING_1_OFFSET UNITYSDK_OFFSET(0x1791E090)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETHASHCODEOFSTRING_OFFSET UNITYSDK_OFFSET(0x1791E070)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1791DFE0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETSORTKEY_OFFSET UNITYSDK_OFFSET(0x1791DBD0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1791C170)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_GET_USEMANAGEDCOLLATION_OFFSET UNITYSDK_OFFSET(0x1791CBA0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1791D320)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_MANAGED_OFFSET UNITYSDK_OFFSET(0x1791E5C0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_OFFSET UNITYSDK_OFFSET(0x1791E5B0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_SWITCH_OFFSET UNITYSDK_OFFSET(0x1791C350)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_MANAGED_OFFSET UNITYSDK_OFFSET(0x1791E520)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_OFFSET UNITYSDK_OFFSET(0x1791E430)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_SWITCH_OFFSET UNITYSDK_OFFSET(0x1791D5E0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_ISPREFIX_OFFSET UNITYSDK_OFFSET(0x1791C8B0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_ISSUFFIX_OFFSET UNITYSDK_OFFSET(0x1791CFD0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_LASTINDEXOF_OFFSET UNITYSDK_OFFSET(0x1791D9E0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_ONDESERIALIZED_1_OFFSET UNITYSDK_OFFSET(0x1791C090)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_ONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x1791BE50)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_ONDESERIALIZING_OFFSET UNITYSDK_OFFSET(0x1791BE40)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_ONSERIALIZING_OFFSET UNITYSDK_OFFSET(0x1791C0E0)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1791C120)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1791E300)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1791E600)
-#define SYSTEM_GLOBALIZATION_COMPAREINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1791BDC0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_ASSIGN_SORTKEY_OFFSET UNITYSDK_OFFSET(0x186D3990)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_COMPAREORDINAL_OFFSET UNITYSDK_OFFSET(0x186D1EB0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_1_OFFSET UNITYSDK_OFFSET(0x186D1860)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_2_OFFSET UNITYSDK_OFFSET(0x186D1BE0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x186D1840)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_CREATESORTKEYCORE_OFFSET UNITYSDK_OFFSET(0x186D32E0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_CREATESORTKEY_OFFSET UNITYSDK_OFFSET(0x186D3210)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x186D3580)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETCOLLATOR_OFFSET UNITYSDK_OFFSET(0x186D2320)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETCOMPAREINFO_OFFSET UNITYSDK_OFFSET(0x186D1480)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETHASHCODEOFSTRING_1_OFFSET UNITYSDK_OFFSET(0x186D36C0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETHASHCODEOFSTRING_OFFSET UNITYSDK_OFFSET(0x186D36A0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x186D3610)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_GETSORTKEY_OFFSET UNITYSDK_OFFSET(0x186D3200)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x186D17C0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_GET_USEMANAGEDCOLLATION_OFFSET UNITYSDK_OFFSET(0x186D21F0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_INDEXOF_OFFSET UNITYSDK_OFFSET(0x186D2950)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_MANAGED_OFFSET UNITYSDK_OFFSET(0x186D3BF0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_OFFSET UNITYSDK_OFFSET(0x186D3BE0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_SWITCH_OFFSET UNITYSDK_OFFSET(0x186D19A0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_MANAGED_OFFSET UNITYSDK_OFFSET(0x186D3B50)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_OFFSET UNITYSDK_OFFSET(0x186D3A60)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_SWITCH_OFFSET UNITYSDK_OFFSET(0x186D2C10)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_ISPREFIX_OFFSET UNITYSDK_OFFSET(0x186D1F00)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_ISSUFFIX_OFFSET UNITYSDK_OFFSET(0x186D2600)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_LASTINDEXOF_OFFSET UNITYSDK_OFFSET(0x186D3010)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_ONDESERIALIZED_1_OFFSET UNITYSDK_OFFSET(0x186D16E0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_ONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x186D14F0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_ONDESERIALIZING_OFFSET UNITYSDK_OFFSET(0x186D14E0)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_ONSERIALIZING_OFFSET UNITYSDK_OFFSET(0x186D1730)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x186D1770)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x186D3930)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x186D3C30)
+#define SYSTEM_GLOBALIZATION_COMPAREINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x186D1460)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CompareInfo_TypeDefinitionIndex = 735;
+	inline static constexpr unsigned int CompareInfo_TypeDefinitionIndex = 734;
 
 	class CompareInfo : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Mono::Globalization::Unicode::SimpleCollator*>** StaticGet_collators()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Mono::Globalization::Unicode::SimpleCollator*>**)Il2CppClass::FromTypeDefinitionIndex(CompareInfo_TypeDefinitionIndex)->GetStaticField(0x70C0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Mono::Globalization::Unicode::SimpleCollator*>**)Il2CppClass::FromTypeDefinitionIndex(CompareInfo_TypeDefinitionIndex)->GetStaticField(0x67B0);
 		}
 		static ::System::Boolean* StaticGet_managedCollation()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompareInfo_TypeDefinitionIndex)->GetStaticField(0x3390);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompareInfo_TypeDefinitionIndex)->GetStaticField(0x3210);
 		}
 		static ::System::Boolean* StaticGet_managedCollationChecked()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompareInfo_TypeDefinitionIndex)->GetStaticField(0x3391);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompareInfo_TypeDefinitionIndex)->GetStaticField(0x3211);
 		}
 		// static const ::System::Globalization::CompareOptions ValidIndexMaskOffFlags; // 0x0
 		// static const ::System::Globalization::CompareOptions ValidCompareMaskOffFlags; // 0x0
@@ -88,9 +88,9 @@ namespace System::Globalization
 		::System::Int32 culture; // 0x30
 		::System::Int32 win32LCID; // 0x34
 
-		::System::Void _ctor(::System::Globalization::CultureInfo* culture)
+		::System::Void _ctor(::System::Globalization::CultureInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO__CTOR_OFFSET))(this, culture);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1()
@@ -98,14 +98,14 @@ namespace System::Globalization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO__CTOR_1_OFFSET))(this);
 		}
 
-		static ::System::Globalization::CompareInfo* GetCompareInfo(::System::String* name)
+		static ::System::Globalization::CompareInfo* GetCompareInfo(::System::String* a1)
 		{
-			return ((::System::Globalization::CompareInfo*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_GETCOMPAREINFO_OFFSET))(name);
+			return ((::System::Globalization::CompareInfo*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_GETCOMPAREINFO_OFFSET))(a1);
 		}
 
-		::System::Void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx)
+		::System::Void OnDeserializing(::System::Runtime::Serialization::StreamingContext a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ONDESERIALIZING_OFFSET))(this, ctx);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ONDESERIALIZING_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDeserialized()
@@ -113,19 +113,19 @@ namespace System::Globalization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ONDESERIALIZED_OFFSET))(this);
 		}
 
-		::System::Void OnDeserialized_1(::System::Runtime::Serialization::StreamingContext ctx)
+		::System::Void OnDeserialized_1(::System::Runtime::Serialization::StreamingContext a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ONDESERIALIZED_1_OFFSET))(this, ctx);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ONDESERIALIZED_1_OFFSET))(this, a1);
 		}
 
-		::System::Void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx)
+		::System::Void OnSerializing(::System::Runtime::Serialization::StreamingContext a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ONSERIALIZING_OFFSET))(this, ctx);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ONSERIALIZING_OFFSET))(this, a1);
 		}
 
-		::System::Void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender)
+		::System::Void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET))(this, sender);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -133,59 +133,59 @@ namespace System::Globalization
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Int32 Compare(::System::String* string1, ::System::String* string2)
+		::System::Int32 Compare(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_OFFSET))(this, string1, string2);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Compare_1(::System::String* string1, ::System::String* string2, ::System::Globalization::CompareOptions options)
+		::System::Int32 Compare_1(::System::String* a1, ::System::String* a2, ::System::Globalization::CompareOptions a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_1_OFFSET))(this, string1, string2, options);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 Compare_2(::System::String* string1, ::System::Int32 offset1, ::System::Int32 length1, ::System::String* string2, ::System::Int32 offset2, ::System::Int32 length2, ::System::Globalization::CompareOptions options)
+		::System::Int32 Compare_2(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Globalization::CompareOptions a7)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_2_OFFSET))(this, string1, offset1, length1, string2, offset2, length2, options);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_COMPARE_2_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Int32 CompareOrdinal(::System::String* string1, ::System::Int32 offset1, ::System::Int32 length1, ::System::String* string2, ::System::Int32 offset2, ::System::Int32 length2)
+		static ::System::Int32 CompareOrdinal(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_COMPAREORDINAL_OFFSET))(string1, offset1, length1, string2, offset2, length2);
+			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_COMPAREORDINAL_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean IsPrefix(::System::String* source, ::System::String* prefix, ::System::Globalization::CompareOptions options)
+		::System::Boolean IsPrefix(::System::String* a1, ::System::String* a2, ::System::Globalization::CompareOptions a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ISPREFIX_OFFSET))(this, source, prefix, options);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ISPREFIX_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean IsSuffix(::System::String* source, ::System::String* suffix, ::System::Globalization::CompareOptions options)
+		::System::Boolean IsSuffix(::System::String* a1, ::System::String* a2, ::System::Globalization::CompareOptions a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ISSUFFIX_OFFSET))(this, source, suffix, options);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ISSUFFIX_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 IndexOf(::System::String* source, ::System::String* value, ::System::Int32 startIndex, ::System::Int32 count, ::System::Globalization::CompareOptions options)
+		::System::Int32 IndexOf(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Globalization::CompareOptions a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INDEXOF_OFFSET))(this, source, value, startIndex, count, options);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INDEXOF_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 LastIndexOf(::System::String* source, ::System::String* value, ::System::Int32 startIndex, ::System::Int32 count, ::System::Globalization::CompareOptions options)
+		::System::Int32 LastIndexOf(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Globalization::CompareOptions a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_LASTINDEXOF_OFFSET))(this, source, value, startIndex, count, options);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_LASTINDEXOF_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Globalization::SortKey* GetSortKey(::System::String* source, ::System::Globalization::CompareOptions options)
+		::System::Globalization::SortKey* GetSortKey(::System::String* a1, ::System::Globalization::CompareOptions a2)
 		{
-			return ((::System::Globalization::SortKey*(*)(::PVOID, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_GETSORTKEY_OFFSET))(this, source, options);
+			return ((::System::Globalization::SortKey*(*)(::PVOID, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_GETSORTKEY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Globalization::SortKey* CreateSortKey(::System::String* source, ::System::Globalization::CompareOptions options)
+		::System::Globalization::SortKey* CreateSortKey(::System::String* a1, ::System::Globalization::CompareOptions a2)
 		{
-			return ((::System::Globalization::SortKey*(*)(::PVOID, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_CREATESORTKEY_OFFSET))(this, source, options);
+			return ((::System::Globalization::SortKey*(*)(::PVOID, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_CREATESORTKEY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* value)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_EQUALS_OFFSET))(this, value);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -193,14 +193,14 @@ namespace System::Globalization
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Int32 GetHashCodeOfString(::System::String* source, ::System::Globalization::CompareOptions options)
+		::System::Int32 GetHashCodeOfString(::System::String* a1, ::System::Globalization::CompareOptions a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_GETHASHCODEOFSTRING_OFFSET))(this, source, options);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_GETHASHCODEOFSTRING_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 GetHashCodeOfString_1(::System::String* source, ::System::Globalization::CompareOptions options, ::System::Boolean forceRandomizedHashing, ::System::Int64 additionalEntropy)
+		::System::Int32 GetHashCodeOfString_1(::System::String* a1, ::System::Globalization::CompareOptions a2, ::System::Boolean a3, ::System::Int64 a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Globalization::CompareOptions, ::System::Boolean, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_GETHASHCODEOFSTRING_1_OFFSET))(this, source, options, forceRandomizedHashing, additionalEntropy);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Globalization::CompareOptions, ::System::Boolean, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_GETHASHCODEOFSTRING_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::String* ToString()
@@ -218,44 +218,44 @@ namespace System::Globalization
 			return ((::Mono::Globalization::Unicode::SimpleCollator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_GETCOLLATOR_OFFSET))(this);
 		}
 
-		::System::Globalization::SortKey* CreateSortKeyCore(::System::String* source, ::System::Globalization::CompareOptions options)
+		::System::Globalization::SortKey* CreateSortKeyCore(::System::String* a1, ::System::Globalization::CompareOptions a2)
 		{
-			return ((::System::Globalization::SortKey*(*)(::PVOID, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_CREATESORTKEYCORE_OFFSET))(this, source, options);
+			return ((::System::Globalization::SortKey*(*)(::PVOID, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_CREATESORTKEYCORE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 internal_index_switch(::System::String* s1, ::System::Int32 sindex, ::System::Int32 count, ::System::String* s2, ::System::Globalization::CompareOptions opt, ::System::Boolean first)
+		::System::Int32 internal_index_switch(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Globalization::CompareOptions a5, ::System::Boolean a6)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Globalization::CompareOptions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_SWITCH_OFFSET))(this, s1, sindex, count, s2, opt, first);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Globalization::CompareOptions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_SWITCH_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Int32 internal_compare_switch(::System::String* str1, ::System::Int32 offset1, ::System::Int32 length1, ::System::String* str2, ::System::Int32 offset2, ::System::Int32 length2, ::System::Globalization::CompareOptions options)
+		::System::Int32 internal_compare_switch(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Globalization::CompareOptions a7)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_SWITCH_OFFSET))(this, str1, offset1, length1, str2, offset2, length2, options);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_SWITCH_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Int32 internal_compare_managed(::System::String* str1, ::System::Int32 offset1, ::System::Int32 length1, ::System::String* str2, ::System::Int32 offset2, ::System::Int32 length2, ::System::Globalization::CompareOptions options)
+		::System::Int32 internal_compare_managed(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Globalization::CompareOptions a7)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_MANAGED_OFFSET))(this, str1, offset1, length1, str2, offset2, length2, options);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_MANAGED_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Int32 internal_index_managed(::System::String* s1, ::System::Int32 sindex, ::System::Int32 count, ::System::String* s2, ::System::Globalization::CompareOptions opt, ::System::Boolean first)
+		::System::Int32 internal_index_managed(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Globalization::CompareOptions a5, ::System::Boolean a6)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Globalization::CompareOptions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_MANAGED_OFFSET))(this, s1, sindex, count, s2, opt, first);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Globalization::CompareOptions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_MANAGED_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void assign_sortkey(::System::Object* key, ::System::String* source, ::System::Globalization::CompareOptions options)
+		::System::Void assign_sortkey(::System::Object* a1, ::System::String* a2, ::System::Globalization::CompareOptions a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ASSIGN_SORTKEY_OFFSET))(this, key, source, options);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_ASSIGN_SORTKEY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 internal_compare(::System::String* str1, ::System::Int32 offset1, ::System::Int32 length1, ::System::String* str2, ::System::Int32 offset2, ::System::Int32 length2, ::System::Globalization::CompareOptions options)
+		::System::Int32 internal_compare(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Globalization::CompareOptions a7)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_OFFSET))(this, str1, offset1, length1, str2, offset2, length2, options);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Int32, ::System::Int32, ::System::Globalization::CompareOptions))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_COMPARE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Int32 internal_index(::System::String* source, ::System::Int32 sindex, ::System::Int32 count, ::System::String* value, ::System::Globalization::CompareOptions options, ::System::Boolean first)
+		::System::Int32 internal_index(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Globalization::CompareOptions a5, ::System::Boolean a6)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Globalization::CompareOptions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_OFFSET))(this, source, sindex, count, value, options, first);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Globalization::CompareOptions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_COMPAREINFO_INTERNAL_INDEX_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERABLEND_PERFORMANCETRANSITION_METHOD_2_A75B70F26391EBB1_OFFSET UNITYSDK_OFFSET(0x190E7A70)
-#define RPG_GAMECORE_VCAMERABLEND_PERFORMANCETRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x190E7E40)
+#define RPG_GAMECORE_VCAMERABLEND_PERFORMANCETRANSITION_METHOD_2_A75B70F26391EBB1_OFFSET UNITYSDK_OFFSET(0x19E3A010)
+#define RPG_GAMECORE_VCAMERABLEND_PERFORMANCETRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3A3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraBlend_PerformanceTransition_TypeDefinitionIndex = 15537;
+	inline static constexpr unsigned int VCameraBlend_PerformanceTransition_TypeDefinitionIndex = 15599;
 
 	class VCameraBlend_PerformanceTransition : public ::RPG::GameCore::JsonConfig
 	{

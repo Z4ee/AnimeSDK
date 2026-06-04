@@ -5,11 +5,11 @@
 namespace HoudiniEngineUnity { class HEU_InputInterfaceMesh_HEU_InputDataMesh; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_HEU_INPUTDATAMESHES__CTOR_OFFSET UNITYSDK_OFFSET(0x8C8A710)
+#define HOUDINIENGINEUNITY_HEU_INPUTINTERFACEMESH_HEU_INPUTDATAMESHES__CTOR_OFFSET UNITYSDK_OFFSET(0x17F10560)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputInterfaceMesh_HEU_InputDataMeshes_TypeDefinitionIndex = 43702;
+	inline static constexpr unsigned int HEU_InputInterfaceMesh_HEU_InputDataMeshes_TypeDefinitionIndex = 37682;
 
 	class HEU_InputInterfaceMesh_HEU_InputDataMeshes : public ::HoudiniEngineUnity::HEU_InputData
 	{

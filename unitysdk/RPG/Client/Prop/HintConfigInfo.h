@@ -6,11 +6,11 @@ namespace RPG::Client::Prop { class HintInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_HINTCONFIGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xAE1EB40)
+#define RPG_CLIENT_PROP_HINTCONFIGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC5647E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int HintConfigInfo_TypeDefinitionIndex = 72019;
+	inline static constexpr unsigned int HintConfigInfo_TypeDefinitionIndex = 73041;
 
 	class HintConfigInfo : public ::System::Object
 	{

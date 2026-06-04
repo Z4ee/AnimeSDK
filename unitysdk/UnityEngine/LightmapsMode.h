@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightmapsMode_TypeDefinitionIndex = 3989;
+	inline static constexpr unsigned int LightmapsMode_TypeDefinitionIndex = 4163;
 
 	enum class LightmapsMode : ::System::Int32
 	{

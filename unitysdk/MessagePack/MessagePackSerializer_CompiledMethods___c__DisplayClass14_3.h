@@ -7,12 +7,12 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1737C4E0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_3___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0x1737CE00)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_3__CTOR_OFFSET UNITYSDK_OFFSET(0x18187E60)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_3___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0x181885A0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c__DisplayClass14_3_TypeDefinitionIndex = 9274;
+	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c__DisplayClass14_3_TypeDefinitionIndex = 7177;
 
 	class MessagePackSerializer_CompiledMethods___c__DisplayClass14_3 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_3__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __ctor_b__3(::System::Buffers::IBufferWriter_1<::System::Byte>* x, ::System::Object* y, ::MessagePack::MessagePackSerializerOptions* z, ::System::Threading::CancellationToken a)
+		::System::Void __ctor_b__3(::System::Buffers::IBufferWriter_1<::System::Byte>* a1, ::System::Object* a2, ::MessagePack::MessagePackSerializerOptions* a3, ::System::Threading::CancellationToken a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Buffers::IBufferWriter_1<::System::Byte>*, ::System::Object*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_3___CTOR_B__3_OFFSET))(this, x, y, z, a);
+			return ((::System::Void(*)(::PVOID, ::System::Buffers::IBufferWriter_1<::System::Byte>*, ::System::Object*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_3___CTOR_B__3_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

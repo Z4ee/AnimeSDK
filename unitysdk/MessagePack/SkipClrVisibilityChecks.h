@@ -16,47 +16,47 @@ namespace System::Reflection { class TypeInfo; }
 namespace System::Reflection::Emit { class AssemblyBuilder; }
 namespace System::Reflection::Emit { class ModuleBuilder; }
 
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_EMITMAGICATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17388630)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETMAGICATTRIBUTECTOR_OFFSET UNITYSDK_OFFSET(0x173885B0)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETSKIPVISIBILITYCHECKSREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0x17387A10)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_1_OFFSET UNITYSDK_OFFSET(0x17388490)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_OFFSET UNITYSDK_OFFSET(0x173881A0)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__CCTOR_OFFSET UNITYSDK_OFFSET(0x173886A0)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__CTOR_OFFSET UNITYSDK_OFFSET(0x17387940)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__ADDTYPEIFNONPUBLIC_9_1_OFFSET UNITYSDK_OFFSET(0x17387C90)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__SCANDIRECTTYPE_9_0_OFFSET UNITYSDK_OFFSET(0x17387DF0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_EMITMAGICATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18193060)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETMAGICATTRIBUTECTOR_OFFSET UNITYSDK_OFFSET(0x18192FE0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETSKIPVISIBILITYCHECKSREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0x18192470)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_1_OFFSET UNITYSDK_OFFSET(0x18192ED0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_OFFSET UNITYSDK_OFFSET(0x18192BE0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__CCTOR_OFFSET UNITYSDK_OFFSET(0x181930D0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__CTOR_OFFSET UNITYSDK_OFFSET(0x18192360)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__ADDTYPEIFNONPUBLIC_9_1_OFFSET UNITYSDK_OFFSET(0x181926E0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__SCANDIRECTTYPE_9_0_OFFSET UNITYSDK_OFFSET(0x18192830)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SkipClrVisibilityChecks_TypeDefinitionIndex = 9287;
+	inline static constexpr unsigned int SkipClrVisibilityChecks_TypeDefinitionIndex = 7190;
 
 	class SkipClrVisibilityChecks : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::ConstructorInfo** StaticGet_AttributeBaseClassCtor()
+		static ::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>** StaticGet_EmptySet()
 		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x42650);
+			return (::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x91B0);
 		}
 		static ::System::Reflection::ConstructorInfo** StaticGet_AttributeUsageCtor()
 		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x42658);
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x91B8);
+		}
+		static ::System::Reflection::ConstructorInfo** StaticGet_AttributeBaseClassCtor()
+		{
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x91C0);
 		}
 		static ::System::Reflection::PropertyInfo** StaticGet_AttributeUsageAllowMultipleProperty()
 		{
-			return (::System::Reflection::PropertyInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x42660);
+			return (::System::Reflection::PropertyInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x91C8);
 		}
-		static ::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>** StaticGet_EmptySet()
-		{
-			return (::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x42668);
-		}
-		::System::Reflection::Emit::AssemblyBuilder* assemblyBuilder; // 0x10
+		::System::Reflection::Emit::ModuleBuilder* moduleBuilder; // 0x10
 		::System::Reflection::ConstructorInfo* magicAttributeCtor; // 0x18
-		::System::Reflection::Emit::ModuleBuilder* moduleBuilder; // 0x20
-		::System::Collections::Generic::HashSet_1<::System::String*>* attributedAssemblyNames; // 0x28
+		::System::Collections::Generic::HashSet_1<::System::String*>* attributedAssemblyNames; // 0x20
+		::System::Reflection::Emit::AssemblyBuilder* assemblyBuilder; // 0x28
 
-		::System::Void _ctor(::System::Reflection::Emit::AssemblyBuilder* assemblyBuilder, ::System::Reflection::Emit::ModuleBuilder* moduleBuilder)
+		::System::Void _ctor(::System::Reflection::Emit::AssemblyBuilder* a1, ::System::Reflection::Emit::ModuleBuilder* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::AssemblyBuilder*, ::System::Reflection::Emit::ModuleBuilder*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__CTOR_OFFSET))(this, assemblyBuilder, moduleBuilder);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::AssemblyBuilder*, ::System::Reflection::Emit::ModuleBuilder*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -64,19 +64,19 @@ namespace MessagePack
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void GetSkipVisibilityChecksRequirements(::System::Reflection::TypeInfo* typeInfo, ::System::Collections::Immutable::ImmutableHashSet_1_Builder<::System::Reflection::AssemblyName*>* referencedAssemblies)
+		static ::System::Void GetSkipVisibilityChecksRequirements(::System::Reflection::TypeInfo* a1, ::System::Collections::Immutable::ImmutableHashSet_1_Builder<::System::Reflection::AssemblyName*>* a2)
 		{
-			return ((::System::Void(*)(::System::Reflection::TypeInfo*, ::System::Collections::Immutable::ImmutableHashSet_1_Builder<::System::Reflection::AssemblyName*>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETSKIPVISIBILITYCHECKSREQUIREMENTS_OFFSET))(typeInfo, referencedAssemblies);
+			return ((::System::Void(*)(::System::Reflection::TypeInfo*, ::System::Collections::Immutable::ImmutableHashSet_1_Builder<::System::Reflection::AssemblyName*>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETSKIPVISIBILITYCHECKSREQUIREMENTS_OFFSET))(a1, a2);
 		}
 
-		::System::Void SkipVisibilityChecksFor(::System::Collections::Generic::IEnumerable_1<::System::Reflection::AssemblyName*>* assemblyNames)
+		::System::Void SkipVisibilityChecksFor(::System::Collections::Generic::IEnumerable_1<::System::Reflection::AssemblyName*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::AssemblyName*>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_OFFSET))(this, assemblyNames);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::AssemblyName*>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_OFFSET))(this, a1);
 		}
 
-		::System::Void SkipVisibilityChecksFor_1(::System::Reflection::AssemblyName* assemblyName)
+		::System::Void SkipVisibilityChecksFor_1(::System::Reflection::AssemblyName* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::AssemblyName*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_1_OFFSET))(this, assemblyName);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::AssemblyName*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Reflection::ConstructorInfo* GetMagicAttributeCtor()
@@ -89,14 +89,14 @@ namespace MessagePack
 			return ((::System::Reflection::TypeInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_EMITMAGICATTRIBUTE_OFFSET))(this);
 		}
 
-		static ::System::Void _GetSkipVisibilityChecksRequirements_g__ScanDirectType_9_0(::System::Reflection::TypeInfo* typeInfo, ::MessagePack::SkipClrVisibilityChecks___c__DisplayClass9_0& a2)
+		static ::System::Void _GetSkipVisibilityChecksRequirements_g__ScanDirectType_9_0(::System::Reflection::TypeInfo* a1, ::MessagePack::SkipClrVisibilityChecks___c__DisplayClass9_0& a2)
 		{
-			return ((::System::Void(*)(::System::Reflection::TypeInfo*, ::MessagePack::SkipClrVisibilityChecks___c__DisplayClass9_0&))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__SCANDIRECTTYPE_9_0_OFFSET))(typeInfo, a2);
+			return ((::System::Void(*)(::System::Reflection::TypeInfo*, ::MessagePack::SkipClrVisibilityChecks___c__DisplayClass9_0&))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__SCANDIRECTTYPE_9_0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void _GetSkipVisibilityChecksRequirements_g__AddTypeIfNonPublic_9_1(::System::Type* type, ::MessagePack::SkipClrVisibilityChecks___c__DisplayClass9_0& a2)
+		static ::System::Void _GetSkipVisibilityChecksRequirements_g__AddTypeIfNonPublic_9_1(::System::Type* a1, ::MessagePack::SkipClrVisibilityChecks___c__DisplayClass9_0& a2)
 		{
-			return ((::System::Void(*)(::System::Type*, ::MessagePack::SkipClrVisibilityChecks___c__DisplayClass9_0&))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__ADDTYPEIFNONPUBLIC_9_1_OFFSET))(type, a2);
+			return ((::System::Void(*)(::System::Type*, ::MessagePack::SkipClrVisibilityChecks___c__DisplayClass9_0&))((::PBYTE)hIl2Cpp + MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__ADDTYPEIFNONPUBLIC_9_1_OFFSET))(a1, a2);
 		}
 	};
 }

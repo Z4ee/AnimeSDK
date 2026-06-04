@@ -8,36 +8,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6ED840)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6ED8F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6ED4A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6ED480)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B518E70)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B518F20)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B518E50)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B518DE0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__GetMirrorTextureGL_TypeDefinitionIndex = 35812;
+	inline static constexpr unsigned int IVRCompositor__GetMirrorTextureGL_TypeDefinitionIndex = 36112;
 
 	class IVRCompositor__GetMirrorTextureGL : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError Invoke(::ZenFulcrum::VR::OpenVRBinding::EVREye eEye, ::System::UInt32& pglTextureId, ::System::IntPtr pglSharedTextureHandle)
+		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError Invoke(::ZenFulcrum::VR::OpenVRBinding::EVREye a1, ::System::UInt32& a2, ::System::IntPtr a3)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::UInt32&, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_INVOKE_OFFSET))(this, eEye, pglTextureId, pglSharedTextureHandle);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::UInt32&, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::ZenFulcrum::VR::OpenVRBinding::EVREye eEye, ::System::UInt32& pglTextureId, ::System::IntPtr pglSharedTextureHandle, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::ZenFulcrum::VR::OpenVRBinding::EVREye a1, ::System::UInt32& a2, ::System::IntPtr a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::UInt32&, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_BEGININVOKE_OFFSET))(this, eEye, pglTextureId, pglSharedTextureHandle, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVREye, ::System::UInt32&, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError EndInvoke(::System::UInt32& pglTextureId, ::System::IAsyncResult* result)
+		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError EndInvoke(::System::UInt32& a1, ::System::IAsyncResult* a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::System::UInt32&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_ENDINVOKE_OFFSET))(this, pglTextureId, result);
+			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::System::UInt32&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__GETMIRRORTEXTUREGL_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
 	};
 }

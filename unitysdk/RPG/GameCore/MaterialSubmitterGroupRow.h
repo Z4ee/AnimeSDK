@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AC7C60)
-#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC7DD0)
+#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198F8130)
+#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198F82A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MaterialSubmitterGroupRow_TypeDefinitionIndex = 11404;
+	inline static constexpr unsigned int MaterialSubmitterGroupRow_TypeDefinitionIndex = 11449;
 
 	class MaterialSubmitterGroupRow : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATERIALSUBMITTERGROUPROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MaterialSubmitterGroupRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MaterialSubmitterGroupRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MaterialSubmitterGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATERIALSUBMITTERGROUPROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MaterialSubmitterGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATERIALSUBMITTERGROUPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

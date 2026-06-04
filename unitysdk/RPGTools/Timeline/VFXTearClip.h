@@ -10,13 +10,13 @@ namespace RPGTools::Timeline { class VFXTearClip_FaceTearConfig; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_VFXTEARCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB92D1E0)
-#define RPGTOOLS_TIMELINE_VFXTEARCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB92D1D0)
-#define RPGTOOLS_TIMELINE_VFXTEARCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB92D3A0)
+#define RPGTOOLS_TIMELINE_VFXTEARCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD0717E0)
+#define RPGTOOLS_TIMELINE_VFXTEARCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xD0717D0)
+#define RPGTOOLS_TIMELINE_VFXTEARCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xD071970)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int VFXTearClip_TypeDefinitionIndex = 44824;
+	inline static constexpr unsigned int VFXTearClip_TypeDefinitionIndex = 45371;
 
 	class VFXTearClip : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class OverrideCustomDroneFuncBtn; }
 
-#define RPG_CLIENT_PROP_DRONEHUDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xADFFC50)
+#define RPG_CLIENT_PROP_DRONEHUDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC545510)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DroneHudParam_TypeDefinitionIndex = 72057;
+	inline static constexpr unsigned int DroneHudParam_TypeDefinitionIndex = 73079;
 
 	class DroneHudParam : public ::System::Object
 	{

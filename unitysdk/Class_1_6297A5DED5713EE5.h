@@ -7,21 +7,21 @@ class Class_1_0EF1FE815B5E0EF7;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6297A5DED5713EE5__CTOR_OFFSET UNITYSDK_OFFSET(0x11B63C80)
+#define CLASS_1_6297A5DED5713EE5__CTOR_OFFSET UNITYSDK_OFFSET(0x134C9CA0)
 
-inline static constexpr unsigned int Class_1_6297A5DED5713EE5_TypeDefinitionIndex = 56341;
+inline static constexpr unsigned int Class_1_6297A5DED5713EE5_TypeDefinitionIndex = 57103;
 
 class Class_1_6297A5DED5713EE5 : public ::System::Object
 {
 public:
-	::System::String* Field_1_2; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::String* Field_1_3; // 0x20
-	::Class_1_0EF1FE815B5E0EF7* Field_1_7; // 0x28
-	::System::String* Field_1_0; // 0x30
+	::Class_1_0EF1FE815B5E0EF7* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_1; // 0x18
+	::System::String* Field_1_2; // 0x20
+	::System::String* Field_1_3; // 0x28
+	::System::String* Field_1_4; // 0x30
 	::System::String* Field_1_5; // 0x38
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_4; // 0x40
-	::System::Nullable_1<::System::Boolean> Field_1_6; // 0x48
+	::System::String* Field_1_6; // 0x40
+	::System::Nullable_1<::System::Boolean> Field_1_7; // 0x48
 
 	::System::Void _ctor()
 	{

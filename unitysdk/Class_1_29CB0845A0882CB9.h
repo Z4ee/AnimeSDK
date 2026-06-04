@@ -16,46 +16,46 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_29CB0845A0882CB9_DISPOSE_OFFSET UNITYSDK_OFFSET(0x902EDC0)
-#define CLASS_1_29CB0845A0882CB9_GET_BOARD_OFFSET UNITYSDK_OFFSET(0x902F6E0)
-#define CLASS_1_29CB0845A0882CB9_GET_DESIGNPATHS_OFFSET UNITYSDK_OFFSET(0x902F700)
-#define CLASS_1_29CB0845A0882CB9_GET_MIRRORVALLEYCONFIG_OFFSET UNITYSDK_OFFSET(0x902F6C0)
-#define CLASS_1_29CB0845A0882CB9_GET_PATHINDEX_OFFSET UNITYSDK_OFFSET(0x902F680)
-#define CLASS_1_29CB0845A0882CB9_GET_REACHPOINT_OFFSET UNITYSDK_OFFSET(0x902F6A0)
-#define CLASS_1_29CB0845A0882CB9_METHOD_1_8664E854FFEDC953_OFFSET UNITYSDK_OFFSET(0x902F010)
-#define CLASS_1_29CB0845A0882CB9_METHOD_1_C2F9D63D86AFE0EF_OFFSET UNITYSDK_OFFSET(0x902F480)
-#define CLASS_1_29CB0845A0882CB9_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x902EE60)
-#define CLASS_1_29CB0845A0882CB9_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x902EFD0)
-#define CLASS_1_29CB0845A0882CB9_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x902EE10)
-#define CLASS_1_29CB0845A0882CB9_METHOD_1_EBF44BC910948FDA_1_OFFSET UNITYSDK_OFFSET(0x902F3E0)
-#define CLASS_1_29CB0845A0882CB9_METHOD_1_EBF44BC910948FDA_OFFSET UNITYSDK_OFFSET(0x902F320)
-#define CLASS_1_29CB0845A0882CB9_SET_BOARD_OFFSET UNITYSDK_OFFSET(0x902F6F0)
-#define CLASS_1_29CB0845A0882CB9_SET_DESIGNPATHS_OFFSET UNITYSDK_OFFSET(0x902F710)
-#define CLASS_1_29CB0845A0882CB9_SET_MIRRORVALLEYCONFIG_OFFSET UNITYSDK_OFFSET(0x902F6D0)
-#define CLASS_1_29CB0845A0882CB9_SET_PATHINDEX_OFFSET UNITYSDK_OFFSET(0x902F690)
-#define CLASS_1_29CB0845A0882CB9_SET_REACHPOINT_OFFSET UNITYSDK_OFFSET(0x902F6B0)
-#define CLASS_1_29CB0845A0882CB9__CCTOR_OFFSET UNITYSDK_OFFSET(0x902F720)
-#define CLASS_1_29CB0845A0882CB9__CTOR_OFFSET UNITYSDK_OFFSET(0x902ED20)
+#define CLASS_1_29CB0845A0882CB9_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1378E850)
+#define CLASS_1_29CB0845A0882CB9_GET_BOARD_OFFSET UNITYSDK_OFFSET(0x1378F050)
+#define CLASS_1_29CB0845A0882CB9_GET_DESIGNPATHS_OFFSET UNITYSDK_OFFSET(0x1378F070)
+#define CLASS_1_29CB0845A0882CB9_GET_MIRRORVALLEYCONFIG_OFFSET UNITYSDK_OFFSET(0x1378F030)
+#define CLASS_1_29CB0845A0882CB9_GET_PATHINDEX_OFFSET UNITYSDK_OFFSET(0x1378EFF0)
+#define CLASS_1_29CB0845A0882CB9_GET_REACHPOINT_OFFSET UNITYSDK_OFFSET(0x1378F010)
+#define CLASS_1_29CB0845A0882CB9_METHOD_1_8664E854FFEDC953_OFFSET UNITYSDK_OFFSET(0x1378E990)
+#define CLASS_1_29CB0845A0882CB9_METHOD_1_C2F9D63D86AFE0EF_OFFSET UNITYSDK_OFFSET(0x1378EDF0)
+#define CLASS_1_29CB0845A0882CB9_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1378E8F0)
+#define CLASS_1_29CB0845A0882CB9_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x1378E950)
+#define CLASS_1_29CB0845A0882CB9_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1378E8A0)
+#define CLASS_1_29CB0845A0882CB9_METHOD_1_EBF44BC910948FDA_1_OFFSET UNITYSDK_OFFSET(0x1378ED50)
+#define CLASS_1_29CB0845A0882CB9_METHOD_1_EBF44BC910948FDA_OFFSET UNITYSDK_OFFSET(0x1378ECA0)
+#define CLASS_1_29CB0845A0882CB9_SET_BOARD_OFFSET UNITYSDK_OFFSET(0x1378F060)
+#define CLASS_1_29CB0845A0882CB9_SET_DESIGNPATHS_OFFSET UNITYSDK_OFFSET(0x1378F080)
+#define CLASS_1_29CB0845A0882CB9_SET_MIRRORVALLEYCONFIG_OFFSET UNITYSDK_OFFSET(0x1378F040)
+#define CLASS_1_29CB0845A0882CB9_SET_PATHINDEX_OFFSET UNITYSDK_OFFSET(0x1378F000)
+#define CLASS_1_29CB0845A0882CB9_SET_REACHPOINT_OFFSET UNITYSDK_OFFSET(0x1378F020)
+#define CLASS_1_29CB0845A0882CB9__CCTOR_OFFSET UNITYSDK_OFFSET(0x1378F090)
+#define CLASS_1_29CB0845A0882CB9__CTOR_OFFSET UNITYSDK_OFFSET(0x1378E7B0)
 
-inline static constexpr unsigned int Class_1_29CB0845A0882CB9_TypeDefinitionIndex = 72215;
+inline static constexpr unsigned int Class_1_29CB0845A0882CB9_TypeDefinitionIndex = 73237;
 
 class Class_1_29CB0845A0882CB9 : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_Field_1_7()
+	static ::System::String** StaticGet_Field_1_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_29CB0845A0882CB9_TypeDefinitionIndex)->GetStaticField(0x1B890);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_29CB0845A0882CB9_TypeDefinitionIndex)->GetStaticField(0x2C6C0);
 	}
-	static ::System::String** StaticGet_Field_1_6()
+	static ::System::String** StaticGet_Field_1_1()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_29CB0845A0882CB9_TypeDefinitionIndex)->GetStaticField(0x1B898);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_29CB0845A0882CB9_TypeDefinitionIndex)->GetStaticField(0x2C6C8);
 	}
-	::System::Collections::Generic::List_1<::Class_1_DA16F6EFFF969A86*>* Field_1_1; // 0x10
-	::RPG::Client::Prop::OpticalIllusionPuzzleBoard* _Board_k__BackingField; // 0x18
-	::RPG::Client::MirrormentValleyConfig* _MirrorValleyConfig_k__BackingField; // 0x20
-	::Il2CppArray<::UnityEngine::Vector3>* _DesignPaths_k__BackingField; // 0x28
-	::System::Int32 _PathIndex_k__BackingField; // 0x30
-	::System::Int32 _ReachPoint_k__BackingField; // 0x34
+	::RPG::Client::MirrormentValleyConfig* _MirrorValleyConfig_k__BackingField; // 0x10
+	::Il2CppArray<::UnityEngine::Vector3>* _DesignPaths_k__BackingField; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_DA16F6EFFF969A86*>* Field_1_4; // 0x20
+	::RPG::Client::Prop::OpticalIllusionPuzzleBoard* _Board_k__BackingField; // 0x28
+	::System::Int32 _ReachPoint_k__BackingField; // 0x30
+	::System::Int32 _PathIndex_k__BackingField; // 0x34
 
 	::System::Void _ctor(::RPG::Client::Prop::OpticalIllusionPuzzleBoard* a1)
 	{
@@ -112,9 +112,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_GET_PATHINDEX_OFFSET))(this);
 	}
 
-	::System::Void set_PathIndex(::System::Int32 value)
+	::System::Void set_PathIndex(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_SET_PATHINDEX_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_SET_PATHINDEX_OFFSET))(this, a1);
 	}
 
 	::System::Int32 get_ReachPoint()
@@ -122,9 +122,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_GET_REACHPOINT_OFFSET))(this);
 	}
 
-	::System::Void set_ReachPoint(::System::Int32 value)
+	::System::Void set_ReachPoint(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_SET_REACHPOINT_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_SET_REACHPOINT_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::MirrormentValleyConfig* get_MirrorValleyConfig()
@@ -132,9 +132,9 @@ public:
 		return ((::RPG::Client::MirrormentValleyConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_GET_MIRRORVALLEYCONFIG_OFFSET))(this);
 	}
 
-	::System::Void set_MirrorValleyConfig(::RPG::Client::MirrormentValleyConfig* value)
+	::System::Void set_MirrorValleyConfig(::RPG::Client::MirrormentValleyConfig* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::MirrormentValleyConfig*))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_SET_MIRRORVALLEYCONFIG_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MirrormentValleyConfig*))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_SET_MIRRORVALLEYCONFIG_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::Prop::OpticalIllusionPuzzleBoard* get_Board()
@@ -142,9 +142,9 @@ public:
 		return ((::RPG::Client::Prop::OpticalIllusionPuzzleBoard*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_GET_BOARD_OFFSET))(this);
 	}
 
-	::System::Void set_Board(::RPG::Client::Prop::OpticalIllusionPuzzleBoard* value)
+	::System::Void set_Board(::RPG::Client::Prop::OpticalIllusionPuzzleBoard* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::OpticalIllusionPuzzleBoard*))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_SET_BOARD_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::OpticalIllusionPuzzleBoard*))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_SET_BOARD_OFFSET))(this, a1);
 	}
 
 	::Il2CppArray<::UnityEngine::Vector3>* get_DesignPaths()
@@ -152,8 +152,8 @@ public:
 		return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_GET_DESIGNPATHS_OFFSET))(this);
 	}
 
-	::System::Void set_DesignPaths(::Il2CppArray<::UnityEngine::Vector3>* value)
+	::System::Void set_DesignPaths(::Il2CppArray<::UnityEngine::Vector3>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_SET_DESIGNPATHS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + CLASS_1_29CB0845A0882CB9_SET_DESIGNPATHS_OFFSET))(this, a1);
 	}
 };

@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE15_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x112170B0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE15_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x112170E0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE15_INVOKE_OFFSET UNITYSDK_OFFSET(0x11216B50)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE15__CTOR_OFFSET UNITYSDK_OFFSET(0x11212D00)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE15_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E86FB0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE15_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E86FE0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE15_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E86FA0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE15__CTOR_OFFSET UNITYSDK_OFFSET(0x12E86EB0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE15_TypeDefinitionIndex = 46341;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE15_TypeDefinitionIndex = 46931;
 
 	class InternalGlobals___GEN_DELEGATE15 : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE15__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE15__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::RPG::Client::IRogueTournDifficulty* difficulty)
+		::System::Boolean Invoke(::RPG::Client::IRogueTournDifficulty* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IRogueTournDifficulty*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE15_INVOKE_OFFSET))(this, difficulty);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IRogueTournDifficulty*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE15_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueTournDifficulty* difficulty, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueTournDifficulty* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueTournDifficulty*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE15_BEGININVOKE_OFFSET))(this, difficulty, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueTournDifficulty*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE15_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE15_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE15_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

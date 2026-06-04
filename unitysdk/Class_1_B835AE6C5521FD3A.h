@@ -5,26 +5,26 @@
 
 namespace RPG::Client { class RogueTournTitanBless; }
 
-#define CLASS_1_B835AE6C5521FD3A_METHOD_1_3FCB99F9C7889C1F_OFFSET UNITYSDK_OFFSET(0x9256D30)
-#define CLASS_1_B835AE6C5521FD3A_METHOD_1_748734F2545341E1_OFFSET UNITYSDK_OFFSET(0x9256C10)
-#define CLASS_1_B835AE6C5521FD3A__CTOR_OFFSET UNITYSDK_OFFSET(0x9256C00)
+#define CLASS_1_B835AE6C5521FD3A_METHOD_1_0FA32075F511D6B2_OFFSET UNITYSDK_OFFSET(0x13B7D3B0)
+#define CLASS_1_B835AE6C5521FD3A_METHOD_1_3FCB99F9C7889C1F_OFFSET UNITYSDK_OFFSET(0x13B7D4D0)
+#define CLASS_1_B835AE6C5521FD3A__CTOR_OFFSET UNITYSDK_OFFSET(0x13B7D3A0)
 
-inline static constexpr unsigned int Class_1_B835AE6C5521FD3A_TypeDefinitionIndex = 61961;
+inline static constexpr unsigned int Class_1_B835AE6C5521FD3A_TypeDefinitionIndex = 62894;
 
 class Class_1_B835AE6C5521FD3A : public ::System::Object
 {
 public:
-	::RPG::Client::RogueTournTitanBless* Field_1_1; // 0x10
-	::Struct_2_FD0368737CBF6F9B_5 Field_1_0; // 0x18
+	::RPG::Client::RogueTournTitanBless* Field_1_0; // 0x10
+	::Struct_2_FD0368737CBF6F9B_5 Field_1_1; // 0x18
 
 	::System::Void _ctor(::Struct_2_FD0368737CBF6F9B_5 a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::Struct_2_FD0368737CBF6F9B_5))((::PBYTE)hIl2Cpp + CLASS_1_B835AE6C5521FD3A__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Object* Method_1_748734F2545341E1()
+	::System::Object* Method_1_0FA32075F511D6B2()
 	{
-		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B835AE6C5521FD3A_METHOD_1_748734F2545341E1_OFFSET))(this);
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B835AE6C5521FD3A_METHOD_1_0FA32075F511D6B2_OFFSET))(this);
 	}
 
 	::RPG::Client::RogueTournTitanBless* Method_1_3FCB99F9C7889C1F()

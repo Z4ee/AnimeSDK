@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore::Match3 { class BombCreateConfig; }
 namespace RPG::GameCore::Match3 { class PieceConfig; }
 
-#define RPG_GAMECORE_MATCH3_CHESSBOARDCONFIG_METHOD_2_7C9064D1E683EFB8_OFFSET UNITYSDK_OFFSET(0x18AAF7D0)
-#define RPG_GAMECORE_MATCH3_CHESSBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AAF980)
+#define RPG_GAMECORE_MATCH3_CHESSBOARDCONFIG_METHOD_2_6A90AFB6B25939CA_OFFSET UNITYSDK_OFFSET(0x198E10F0)
+#define RPG_GAMECORE_MATCH3_CHESSBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198E1290)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int ChessBoardConfig_TypeDefinitionIndex = 23672;
+	inline static constexpr unsigned int ChessBoardConfig_TypeDefinitionIndex = 23509;
 
 	class ChessBoardConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore::Match3
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_CHESSBOARDCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7C9064D1E683EFB8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ChessBoardConfig*& a2)
+		static ::System::Void Method_2_6A90AFB6B25939CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ChessBoardConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ChessBoardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_CHESSBOARDCONFIG_METHOD_2_7C9064D1E683EFB8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ChessBoardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_CHESSBOARDCONFIG_METHOD_2_6A90AFB6B25939CA_OFFSET))(a1, a2);
 		}
 	};
 }

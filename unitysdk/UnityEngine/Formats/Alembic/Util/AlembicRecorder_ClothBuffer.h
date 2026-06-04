@@ -10,22 +10,22 @@ namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class Pinne
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorderSettings; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder_MeshBuffer; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1A1E5360)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A1E61E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_GENERATEREMAPINDICES_OFFSET UNITYSDK_OFFSET(0x1A1E4580)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E6320)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1B049F20)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B04ADD0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_GENERATEREMAPINDICES_OFFSET UNITYSDK_OFFSET(0x1B048F60)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B04AF70)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_ClothBuffer_TypeDefinitionIndex = 40759;
+	inline static constexpr unsigned int AlembicRecorder_ClothBuffer_TypeDefinitionIndex = 41585;
 
 	class AlembicRecorder_ClothBuffer : public ::System::Object
 	{
 	public:
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* vertices; // 0x10
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* normals; // 0x18
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>* remap; // 0x20
-		::UnityEngine::Transform* rootBone; // 0x28
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>* remap; // 0x10
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* vertices; // 0x18
+		::UnityEngine::Transform* rootBone; // 0x20
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* normals; // 0x28
 		::System::Int32 numRemappedVertices; // 0x30
 
 		::System::Void _ctor()
@@ -33,14 +33,14 @@ namespace UnityEngine::Formats::Alembic::Util
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void GenerateRemapIndices(::UnityEngine::Mesh* mesh, ::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer* mbuf)
+		::System::Void GenerateRemapIndices(::UnityEngine::Mesh* a1, ::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_GENERATEREMAPINDICES_OFFSET))(this, mesh, mbuf);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_GENERATEREMAPINDICES_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Capture(::UnityEngine::Mesh* mesh, ::UnityEngine::Cloth* cloth, ::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer* mbuf, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings* settings)
+		::System::Void Capture(::UnityEngine::Mesh* a1, ::UnityEngine::Cloth* a2, ::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer* a3, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Cloth*, ::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer*, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_CAPTURE_OFFSET))(this, mesh, cloth, mbuf, settings);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::UnityEngine::Cloth*, ::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer*, ::UnityEngine::Formats::Alembic::Util::AlembicRecorderSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_CAPTURE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Dispose()

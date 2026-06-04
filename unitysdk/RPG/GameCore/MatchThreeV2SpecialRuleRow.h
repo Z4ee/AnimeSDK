@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AC6EF0)
-#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC70B0)
+#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198F7440)
+#define RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198F7600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2SpecialRuleRow_TypeDefinitionIndex = 11375;
+	inline static constexpr unsigned int MatchThreeV2SpecialRuleRow_TypeDefinitionIndex = 11422;
 
 	class MatchThreeV2SpecialRuleRow : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MatchThreeV2SpecialRuleRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MatchThreeV2SpecialRuleRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MatchThreeV2SpecialRuleRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MatchThreeV2SpecialRuleRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEV2SPECIALRULEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GroupEntityDestroyConfig; }
 
-#define RPG_GAMECORE_ADVDESTROYENTITYASYNC_METHOD_3_C43FDD1E76D9C8E4_OFFSET UNITYSDK_OFFSET(0x1864C5D0)
-#define RPG_GAMECORE_ADVDESTROYENTITYASYNC_METHOD_3_DB0901F4A07E8615_OFFSET UNITYSDK_OFFSET(0x1864C650)
-#define RPG_GAMECORE_ADVDESTROYENTITYASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1864C620)
+#define RPG_GAMECORE_ADVDESTROYENTITYASYNC_METHOD_3_1431FB431909C517_OFFSET UNITYSDK_OFFSET(0x1941FE30)
+#define RPG_GAMECORE_ADVDESTROYENTITYASYNC_METHOD_3_F0537447880C508E_OFFSET UNITYSDK_OFFSET(0x1941FDB0)
+#define RPG_GAMECORE_ADVDESTROYENTITYASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1941FE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvDestroyEntityAsync_TypeDefinitionIndex = 20202;
+	inline static constexpr unsigned int AdvDestroyEntityAsync_TypeDefinitionIndex = 20058;
 
 	class AdvDestroyEntityAsync : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDESTROYENTITYASYNC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C43FDD1E76D9C8E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDestroyEntityAsync*& a2)
+		static ::System::Void Method_3_F0537447880C508E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDestroyEntityAsync*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvDestroyEntityAsync*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDESTROYENTITYASYNC_METHOD_3_C43FDD1E76D9C8E4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvDestroyEntityAsync*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDESTROYENTITYASYNC_METHOD_3_F0537447880C508E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DB0901F4A07E8615(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDestroyEntityAsync* a2)
+		static ::System::Void Method_3_1431FB431909C517(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDestroyEntityAsync* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvDestroyEntityAsync*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDESTROYENTITYASYNC_METHOD_3_DB0901F4A07E8615_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvDestroyEntityAsync*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDESTROYENTITYASYNC_METHOD_3_1431FB431909C517_OFFSET))(a1, a2);
 		}
 	};
 }

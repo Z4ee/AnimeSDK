@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChimeraModule; }
 
-#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA031C50)
-#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS13_0___UPDATECURRENTWORKREMAINHP_B__0_OFFSET UNITYSDK_OFFSET(0xA035720)
+#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB6AE900)
+#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS13_0___UPDATECURRENTWORKREMAINHP_B__0_OFFSET UNITYSDK_OFFSET(0xB6B33E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraModule___c__DisplayClass13_0_TypeDefinitionIndex = 58422;
+	inline static constexpr unsigned int ChimeraModule___c__DisplayClass13_0_TypeDefinitionIndex = 59352;
 
 	class ChimeraModule___c__DisplayClass13_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __UpdateCurrentWorkRemainHp_b__0(::System::UInt32 roundID)
+		::System::Void __UpdateCurrentWorkRemainHp_b__0(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS13_0___UPDATECURRENTWORKREMAINHP_B__0_OFFSET))(this, roundID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS13_0___UPDATECURRENTWORKREMAINHP_B__0_OFFSET))(this, a1);
 		}
 	};
 }

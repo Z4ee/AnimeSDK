@@ -3,22 +3,22 @@
 #include "unitysdk/Struct_2_2B16FFFF87B43037.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_0_16E4307DCC419505_884;
+class Class_0_16E4307DCC419505_934;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class RuntimeAnimatorController; }
 
-#define RPG_CLIENT_ROOTMOTIONHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xB130850)
-#define RPG_CLIENT_ROOTMOTIONHANDLER_ONANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0xB1309D0)
-#define RPG_CLIENT_ROOTMOTIONHANDLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB130C20)
-#define RPG_CLIENT_ROOTMOTIONHANDLER_REGISTERMOVEHANDLER_OFFSET UNITYSDK_OFFSET(0xB130CD0)
-#define RPG_CLIENT_ROOTMOTIONHANDLER_START_OFFSET UNITYSDK_OFFSET(0xB130960)
-#define RPG_CLIENT_ROOTMOTIONHANDLER_UNREGISTERMOVEHANDLER_OFFSET UNITYSDK_OFFSET(0xB130FE0)
-#define RPG_CLIENT_ROOTMOTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB131070)
+#define RPG_CLIENT_ROOTMOTIONHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC884D00)
+#define RPG_CLIENT_ROOTMOTIONHANDLER_ONANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0xC884E80)
+#define RPG_CLIENT_ROOTMOTIONHANDLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC885120)
+#define RPG_CLIENT_ROOTMOTIONHANDLER_REGISTERMOVEHANDLER_OFFSET UNITYSDK_OFFSET(0xC8851D0)
+#define RPG_CLIENT_ROOTMOTIONHANDLER_START_OFFSET UNITYSDK_OFFSET(0xC884E10)
+#define RPG_CLIENT_ROOTMOTIONHANDLER_UNREGISTERMOVEHANDLER_OFFSET UNITYSDK_OFFSET(0xC8854E0)
+#define RPG_CLIENT_ROOTMOTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xC885570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RootMotionHandler_TypeDefinitionIndex = 63462;
+	inline static constexpr unsigned int RootMotionHandler_TypeDefinitionIndex = 64379;
 
 	class RootMotionHandler : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,7 +27,7 @@ namespace RPG::Client
 		::System::Boolean EnableRootMotion; // 0x19
 		::System::Boolean ApplyRootMotion; // 0x1A
 		::UnityEngine::Animator* Field_5_3; // 0x20
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_884*>* Field_5_4; // 0x28
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_934*>* Field_5_4; // 0x28
 		::UnityEngine::RuntimeAnimatorController* Field_5_5; // 0x30
 
 		::System::Void _ctor()
@@ -55,14 +55,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROOTMOTIONHANDLER_ONDESTROY_OFFSET))(this);
 		}
 
-		::Struct_2_2B16FFFF87B43037 RegisterMoveHandler(::Class_0_16E4307DCC419505_884* a1)
+		::Struct_2_2B16FFFF87B43037 RegisterMoveHandler(::Class_0_16E4307DCC419505_934* a1)
 		{
-			return ((::Struct_2_2B16FFFF87B43037(*)(::PVOID, ::Class_0_16E4307DCC419505_884*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROOTMOTIONHANDLER_REGISTERMOVEHANDLER_OFFSET))(this, a1);
+			return ((::Struct_2_2B16FFFF87B43037(*)(::PVOID, ::Class_0_16E4307DCC419505_934*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROOTMOTIONHANDLER_REGISTERMOVEHANDLER_OFFSET))(this, a1);
 		}
 
-		::System::Void UnregisterMoveHandler(::Class_0_16E4307DCC419505_884* a1)
+		::System::Void UnregisterMoveHandler(::Class_0_16E4307DCC419505_934* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_884*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROOTMOTIONHANDLER_UNREGISTERMOVEHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_934*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROOTMOTIONHANDLER_UNREGISTERMOVEHANDLER_OFFSET))(this, a1);
 		}
 	};
 }

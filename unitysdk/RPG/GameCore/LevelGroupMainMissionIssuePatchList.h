@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelGroupMainMissionIssuePatch; }
 
-#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCHLIST_METHOD_2_9F98977AC6024769_OFFSET UNITYSDK_OFFSET(0x18A46250)
-#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCHLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18A46320)
+#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCHLIST_METHOD_2_23E9493227E568AC_OFFSET UNITYSDK_OFFSET(0x19878490)
+#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCHLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19878550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupMainMissionIssuePatchList_TypeDefinitionIndex = 16475;
+	inline static constexpr unsigned int LevelGroupMainMissionIssuePatchList_TypeDefinitionIndex = 16507;
 
 	class LevelGroupMainMissionIssuePatchList : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCHLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9F98977AC6024769(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupMainMissionIssuePatchList*& a2)
+		static ::System::Void Method_2_23E9493227E568AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupMainMissionIssuePatchList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupMainMissionIssuePatchList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCHLIST_METHOD_2_9F98977AC6024769_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupMainMissionIssuePatchList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCHLIST_METHOD_2_23E9493227E568AC_OFFSET))(a1, a2);
 		}
 	};
 }

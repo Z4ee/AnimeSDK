@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace UnityEngine::UI { class SimpleStringReader; }
 
-#define UNITYENGINE_UI_TEXTSCANNER_ASSERT_1_OFFSET UNITYSDK_OFFSET(0x1A5B2310)
-#define UNITYENGINE_UI_TEXTSCANNER_ASSERT_OFFSET UNITYSDK_OFFSET(0x1A5B21D0)
-#define UNITYENGINE_UI_TEXTSCANNER_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1A5B1DF0)
-#define UNITYENGINE_UI_TEXTSCANNER_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1A5B1DE0)
-#define UNITYENGINE_UI_TEXTSCANNER_PEEK_OFFSET UNITYSDK_OFFSET(0x1A5B1EF0)
-#define UNITYENGINE_UI_TEXTSCANNER_READ_OFFSET UNITYSDK_OFFSET(0x1A5B2080)
-#define UNITYENGINE_UI_TEXTSCANNER_RESET_OFFSET UNITYSDK_OFFSET(0x1A5B1EC0)
-#define UNITYENGINE_UI_TEXTSCANNER_SKIPWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1A5B2190)
-#define UNITYENGINE_UI_TEXTSCANNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5B1E60)
+#define UNITYENGINE_UI_TEXTSCANNER_ASSERT_1_OFFSET UNITYSDK_OFFSET(0x1B3FDEB0)
+#define UNITYENGINE_UI_TEXTSCANNER_ASSERT_OFFSET UNITYSDK_OFFSET(0x1B3FDD70)
+#define UNITYENGINE_UI_TEXTSCANNER_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1B3FD990)
+#define UNITYENGINE_UI_TEXTSCANNER_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1B3FD980)
+#define UNITYENGINE_UI_TEXTSCANNER_PEEK_OFFSET UNITYSDK_OFFSET(0x1B3FDA90)
+#define UNITYENGINE_UI_TEXTSCANNER_READ_OFFSET UNITYSDK_OFFSET(0x1B3FDC20)
+#define UNITYENGINE_UI_TEXTSCANNER_RESET_OFFSET UNITYSDK_OFFSET(0x1B3FDA60)
+#define UNITYENGINE_UI_TEXTSCANNER_SKIPWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1B3FDD30)
+#define UNITYENGINE_UI_TEXTSCANNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3FDA00)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int TextScanner_TypeDefinitionIndex = 5636;
+	inline static constexpr unsigned int TextScanner_TypeDefinitionIndex = 5913;
 
 	class TextScanner : public ::System::Object
 	{
@@ -41,9 +41,9 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TEXTSCANNER_GET_CANREAD_OFFSET))(this);
 		}
 
-		::System::Void Reset(::System::String* value)
+		::System::Void Reset(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TEXTSCANNER_RESET_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TEXTSCANNER_RESET_OFFSET))(this, a1);
 		}
 
 		::System::Char Peek()
@@ -61,14 +61,14 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TEXTSCANNER_SKIPWHITESPACE_OFFSET))(this);
 		}
 
-		::System::Void Assert(::System::Char next)
+		::System::Void Assert(::System::Char a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TEXTSCANNER_ASSERT_OFFSET))(this, next);
+			return ((::System::Void(*)(::PVOID, ::System::Char))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TEXTSCANNER_ASSERT_OFFSET))(this, a1);
 		}
 
-		::System::Void Assert_1(::System::String* next)
+		::System::Void Assert_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TEXTSCANNER_ASSERT_1_OFFSET))(this, next);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TEXTSCANNER_ASSERT_1_OFFSET))(this, a1);
 		}
 	};
 }

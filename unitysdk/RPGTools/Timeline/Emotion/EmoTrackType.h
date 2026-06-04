@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoTrackType_TypeDefinitionIndex = 45429;
+	inline static constexpr unsigned int EmoTrackType_TypeDefinitionIndex = 46012;
 
 	enum class EmoTrackType : ::System::Int32
 	{

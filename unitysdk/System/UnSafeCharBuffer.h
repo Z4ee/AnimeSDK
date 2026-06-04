@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_UNSAFECHARBUFFER_APPENDSTRING_OFFSET UNITYSDK_OFFSET(0x22A25C0)
-#define SYSTEM_UNSAFECHARBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x22A25B0)
+#define SYSTEM_UNSAFECHARBUFFER_APPENDSTRING_OFFSET UNITYSDK_OFFSET(0x3832400)
+#define SYSTEM_UNSAFECHARBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x38323F0)
 
 namespace System
 {
-	inline static constexpr unsigned int UnSafeCharBuffer_TypeDefinitionIndex = 361;
+	inline static constexpr unsigned int UnSafeCharBuffer_TypeDefinitionIndex = 360;
 
 	struct alignas(8) UnSafeCharBuffer
 	{
@@ -17,14 +17,14 @@ namespace System
 		::System::Int32 m_totalSize; // 0x18
 		::System::Int32 m_length; // 0x1C
 
-		::System::Void _ctor(::System::Char* buffer, ::System::Int32 bufferSize)
+		::System::Void _ctor(::System::Char* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_UNSAFECHARBUFFER__CTOR_OFFSET))(this, buffer, bufferSize);
+			return ((::System::Void(*)(::PVOID, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_UNSAFECHARBUFFER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AppendString(::System::String* stringToAppend)
+		::System::Void AppendString(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_UNSAFECHARBUFFER_APPENDSTRING_OFFSET))(this, stringToAppend);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_UNSAFECHARBUFFER_APPENDSTRING_OFFSET))(this, a1);
 		}
 	};
 }

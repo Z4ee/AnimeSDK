@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_LAZYHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1797C830)
+#define SYSTEM_LAZYHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1872E050)
 
 namespace System
 {
-	inline static constexpr unsigned int LazyHelpers_TypeDefinitionIndex = 158;
+	inline static constexpr unsigned int LazyHelpers_TypeDefinitionIndex = 157;
 
 	class LazyHelpers : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_PUBLICATION_ONLY_SENTINEL()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LazyHelpers_TypeDefinitionIndex)->GetStaticField(0x86F0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LazyHelpers_TypeDefinitionIndex)->GetStaticField(0x8320);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::UINavigation
 {
-	inline static constexpr unsigned int UINavigationArea_EntryOrigin_TypeDefinitionIndex = 47795;
+	inline static constexpr unsigned int UINavigationArea_EntryOrigin_TypeDefinitionIndex = 48410;
 
 	enum class UINavigationArea_EntryOrigin : ::System::Int32
 	{

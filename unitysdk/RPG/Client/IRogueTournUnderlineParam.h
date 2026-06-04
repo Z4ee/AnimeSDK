@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournUnderlineParam_TypeDefinitionIndex = 62560;
+	inline static constexpr unsigned int IRogueTournUnderlineParam_TypeDefinitionIndex = 63493;
 
 	class IRogueTournUnderlineParam
 	{

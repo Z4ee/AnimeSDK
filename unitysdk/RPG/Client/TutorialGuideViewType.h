@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialGuideViewType_TypeDefinitionIndex = 62892;
+	inline static constexpr unsigned int TutorialGuideViewType_TypeDefinitionIndex = 63827;
 
 	enum class TutorialGuideViewType : ::System::Int32
 	{

@@ -8,11 +8,11 @@ namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x19FC7990)
-#define SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x19FC7880)
-#define SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x19FC7CC0)
-#define SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x19FC7DD0)
-#define SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB94C0)
+#define SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1AE3B480)
+#define SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1AE3B370)
+#define SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x1AE3B7B0)
+#define SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1AE3B8C0)
+#define SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE2D2F0)
 
 namespace System::Xml::Schema
 {
@@ -26,24 +26,24 @@ namespace System::Xml::Schema
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER__CTOR_OFFSET))(this);
 		}
 
-		::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets(::System::Object* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_CHECKVALUEFACETS_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_CHECKVALUEFACETS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_1(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_1(::System::TimeSpan a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::TimeSpan, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::TimeSpan, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Boolean MatchEnumeration(::System::Object* a1, ::System::Collections::ArrayList* a2, ::System::Xml::Schema::XmlSchemaDatatype* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_MATCHENUMERATION_OFFSET))(this, value, enumeration, datatype);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_MATCHENUMERATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean MatchEnumeration_1(::System::TimeSpan value, ::System::Collections::ArrayList* enumeration)
+		::System::Boolean MatchEnumeration_1(::System::TimeSpan a1, ::System::Collections::ArrayList* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::TimeSpan, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_MATCHENUMERATION_1_OFFSET))(this, value, enumeration);
+			return ((::System::Boolean(*)(::PVOID, ::System::TimeSpan, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DURATIONFACETSCHECKER_MATCHENUMERATION_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

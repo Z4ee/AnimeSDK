@@ -9,37 +9,37 @@ namespace RPG::GameCore { class LevelAnchorParameter; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_ANCHORINFO_GETAREAANCHORNAME_OFFSET UNITYSDK_OFFSET(0xB5AF1B0)
-#define RPG_GAMECORE_ANCHORINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xB597220)
-#define RPG_GAMECORE_ANCHORINFO_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xB5972B0)
-#define RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET UNITYSDK_OFFSET(0xB5AF160)
-#define RPG_GAMECORE_ANCHORINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB5AF140)
-#define RPG_GAMECORE_ANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB5AF110)
+#define RPG_GAMECORE_ANCHORINFO_GETAREAANCHORNAME_OFFSET UNITYSDK_OFFSET(0xCD115E0)
+#define RPG_GAMECORE_ANCHORINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xCCF7330)
+#define RPG_GAMECORE_ANCHORINFO_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xCCF73E0)
+#define RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET UNITYSDK_OFFSET(0xCD11590)
+#define RPG_GAMECORE_ANCHORINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0xCD11570)
+#define RPG_GAMECORE_ANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCD11540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnchorInfo_TypeDefinitionIndex = 53331;
+	inline static constexpr unsigned int AnchorInfo_TypeDefinitionIndex = 54044;
 
 	class AnchorInfo : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* TransRoot; // 0x10
-		::System::String* Name; // 0x18
-		::System::String* AreaName; // 0x20
-		::RPG::GameCore::LevelAnchorParameter* CustomParameter; // 0x28
+		::System::String* Name; // 0x10
+		::System::String* AreaName; // 0x18
+		::RPG::GameCore::LevelAnchorParameter* CustomParameter; // 0x20
+		::UnityEngine::Transform* TransRoot; // 0x28
 		::RPG::GameCore::LevelAnchorUsage Usage; // 0x30
 		::UnityEngine::Quaternion _Rotation; // 0x34
-		::System::UInt32 ID; // 0x44
-		::UnityEngine::Vector3 _Postion; // 0x48
+		::UnityEngine::Vector3 _Postion; // 0x44
+		::System::UInt32 ID; // 0x50
 
-		::System::Void _ctor(::UnityEngine::Transform* root)
+		::System::Void _ctor(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANCHORINFO__CTOR_OFFSET))(this, root);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANCHORINFO__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::String* anchorName, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot)
+		::System::Void _ctor_1(::System::String* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANCHORINFO__CTOR_1_OFFSET))(this, anchorName, pos, rot);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANCHORINFO__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector3 get_position()
@@ -52,9 +52,9 @@ namespace RPG::GameCore
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANCHORINFO_GET_ROTATION_OFFSET))(this);
 		}
 
-		::System::Void InitForCamera(::UnityEngine::Transform* parent, ::System::String* name)
+		::System::Void InitForCamera(::UnityEngine::Transform* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET))(this, parent, name);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetAreaAnchorName()

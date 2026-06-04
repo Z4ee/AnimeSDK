@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarUpgradePart_TypeDefinitionIndex = 57892;
+	inline static constexpr unsigned int AvatarUpgradePart_TypeDefinitionIndex = 58796;
 
 	enum class AvatarUpgradePart : ::System::Int32
 	{
@@ -14,7 +14,7 @@ namespace RPG::Client
 		RelicSet4 = 16,
 		Relic = 24,
 		TraceTree = 32,
-		Rank = 64,
+		Eidolon = 64,
 		All = 127,
 	};
 }

@@ -6,14 +6,14 @@ namespace RPG::Client { class ConvinceAnchorConfig_AnchorData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CONVINCEANCHORCONFIG_METHOD_1_A6ADFA379C021A61_1_OFFSET UNITYSDK_OFFSET(0xA0D3330)
-#define RPG_CLIENT_CONVINCEANCHORCONFIG_METHOD_1_A6ADFA379C021A61_OFFSET UNITYSDK_OFFSET(0xA0D3190)
-#define RPG_CLIENT_CONVINCEANCHORCONFIG_METHOD_1_A9CC58969E11B744_OFFSET UNITYSDK_OFFSET(0xA0D31F0)
-#define RPG_CLIENT_CONVINCEANCHORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D3390)
+#define RPG_CLIENT_CONVINCEANCHORCONFIG_METHOD_1_72CA05BE564B70B7_OFFSET UNITYSDK_OFFSET(0xB712B00)
+#define RPG_CLIENT_CONVINCEANCHORCONFIG_METHOD_1_A6ADFA379C021A61_1_OFFSET UNITYSDK_OFFSET(0xB712C30)
+#define RPG_CLIENT_CONVINCEANCHORCONFIG_METHOD_1_A6ADFA379C021A61_OFFSET UNITYSDK_OFFSET(0xB712AA0)
+#define RPG_CLIENT_CONVINCEANCHORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB712C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceAnchorConfig_TypeDefinitionIndex = 55949;
+	inline static constexpr unsigned int ConvinceAnchorConfig_TypeDefinitionIndex = 56705;
 
 	class ConvinceAnchorConfig : public ::System::Object
 	{
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ConvinceAnchorConfig_AnchorData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCEANCHORCONFIG_METHOD_1_A6ADFA379C021A61_1_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ConvinceAnchorConfig_AnchorData* Method_1_A9CC58969E11B744(::System::String* a1, ::System::Collections::Generic::List_1<::RPG::Client::ConvinceAnchorConfig_AnchorData*>* a2)
+		::RPG::Client::ConvinceAnchorConfig_AnchorData* Method_1_72CA05BE564B70B7(::System::String* a1, ::System::Collections::Generic::List_1<::RPG::Client::ConvinceAnchorConfig_AnchorData*>* a2)
 		{
-			return ((::RPG::Client::ConvinceAnchorConfig_AnchorData*(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::RPG::Client::ConvinceAnchorConfig_AnchorData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCEANCHORCONFIG_METHOD_1_A9CC58969E11B744_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::ConvinceAnchorConfig_AnchorData*(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::RPG::Client::ConvinceAnchorConfig_AnchorData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCEANCHORCONFIG_METHOD_1_72CA05BE564B70B7_OFFSET))(this, a1, a2);
 		}
 	};
 }

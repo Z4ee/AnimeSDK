@@ -9,17 +9,17 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MATCHTHREEBOARDENV_INIT_OFFSET UNITYSDK_OFFSET(0xA81D8C0)
-#define RPG_CLIENT_MATCHTHREEBOARDENV_METHOD_5_19B91D58E02869BC_OFFSET UNITYSDK_OFFSET(0xA82BC00)
-#define RPG_CLIENT_MATCHTHREEBOARDENV_METHOD_5_380D3A6DB0A496D6_OFFSET UNITYSDK_OFFSET(0xA82BB00)
-#define RPG_CLIENT_MATCHTHREEBOARDENV_METHOD_5_87ED86A49598E706_OFFSET UNITYSDK_OFFSET(0xA82BC80)
-#define RPG_CLIENT_MATCHTHREEBOARDENV_SETGRIDTAG_OFFSET UNITYSDK_OFFSET(0xA826900)
-#define RPG_CLIENT_MATCHTHREEBOARDENV_SETSIZE_OFFSET UNITYSDK_OFFSET(0xA82B980)
-#define RPG_CLIENT_MATCHTHREEBOARDENV__CTOR_OFFSET UNITYSDK_OFFSET(0xA82BE50)
+#define RPG_CLIENT_MATCHTHREEBOARDENV_INIT_OFFSET UNITYSDK_OFFSET(0xBF72BD0)
+#define RPG_CLIENT_MATCHTHREEBOARDENV_METHOD_5_19B91D58E02869BC_OFFSET UNITYSDK_OFFSET(0xBF73000)
+#define RPG_CLIENT_MATCHTHREEBOARDENV_METHOD_5_94BDBF2773396AF1_OFFSET UNITYSDK_OFFSET(0xBF73080)
+#define RPG_CLIENT_MATCHTHREEBOARDENV_METHOD_5_D27288CEC2E97673_OFFSET UNITYSDK_OFFSET(0xBF72EF0)
+#define RPG_CLIENT_MATCHTHREEBOARDENV_SETGRIDTAG_OFFSET UNITYSDK_OFFSET(0xBF72E00)
+#define RPG_CLIENT_MATCHTHREEBOARDENV_SETSIZE_OFFSET UNITYSDK_OFFSET(0xBF72C90)
+#define RPG_CLIENT_MATCHTHREEBOARDENV__CTOR_OFFSET UNITYSDK_OFFSET(0xBF73240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoardEnv_TypeDefinitionIndex = 60692;
+	inline static constexpr unsigned int MatchThreeBoardEnv_TypeDefinitionIndex = 61626;
 
 	class MatchThreeBoardEnv : public ::UnityEngine::MonoBehaviour
 	{
@@ -51,9 +51,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARDENV_SETSIZE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_380D3A6DB0A496D6(::RPG::Client::MatchThreeBoardEnvTag a1, ::System::Action* a2)
+		::System::Void Method_5_D27288CEC2E97673(::RPG::Client::MatchThreeBoardEnvTag a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MatchThreeBoardEnvTag, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARDENV_METHOD_5_380D3A6DB0A496D6_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MatchThreeBoardEnvTag, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARDENV_METHOD_5_D27288CEC2E97673_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_5_19B91D58E02869BC()
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARDENV_METHOD_5_19B91D58E02869BC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_87ED86A49598E706(::RPG::Client::MatchThreeBoardEnvTag a1, ::System::Action* a2)
+		::System::Void Method_5_94BDBF2773396AF1(::RPG::Client::MatchThreeBoardEnvTag a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MatchThreeBoardEnvTag, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARDENV_METHOD_5_87ED86A49598E706_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MatchThreeBoardEnvTag, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARDENV_METHOD_5_94BDBF2773396AF1_OFFSET))(this, a1, a2);
 		}
 	};
 }

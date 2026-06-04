@@ -4,15 +4,15 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CLASS_1_AB817CB39E494C61_CLASS_1_3537A676BB29747D__CTOR_OFFSET UNITYSDK_OFFSET(0x129DA170)
+#define CLASS_1_AB817CB39E494C61_CLASS_1_3537A676BB29747D__CTOR_OFFSET UNITYSDK_OFFSET(0xA666F20)
 
-inline static constexpr unsigned int Class_1_AB817CB39E494C61_Class_1_3537A676BB29747D_TypeDefinitionIndex = 65621;
+inline static constexpr unsigned int Class_1_AB817CB39E494C61_Class_1_3537A676BB29747D_TypeDefinitionIndex = 66555;
 
 class Class_1_AB817CB39E494C61_Class_1_3537A676BB29747D : public ::System::Object
 {
 public:
-	::RPG::Client::ActionBarItemUIStyle Field_1_1; // 0x10
-	::UnityEngine::Vector2 Field_1_0; // 0x14
+	::UnityEngine::Vector2 Field_1_0; // 0x10
+	::RPG::Client::ActionBarItemUIStyle Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

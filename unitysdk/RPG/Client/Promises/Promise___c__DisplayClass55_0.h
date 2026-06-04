@@ -9,26 +9,26 @@ namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180F4660)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x180F5750)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x180F5940)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__2_OFFSET UNITYSDK_OFFSET(0x180F58E0)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__3_OFFSET UNITYSDK_OFFSET(0x180F5900)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__4_OFFSET UNITYSDK_OFFSET(0x180F5920)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E96D10)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x18E98390)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x18E985E0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__2_OFFSET UNITYSDK_OFFSET(0x18E98580)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__3_OFFSET UNITYSDK_OFFSET(0x18E985A0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__4_OFFSET UNITYSDK_OFFSET(0x18E985C0)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass55_0_TypeDefinitionIndex = 8665;
+	inline static constexpr unsigned int Promise___c__DisplayClass55_0_TypeDefinitionIndex = 9568;
 
 	class Promise___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Single>* __9__2; // 0x10
-		::System::Func_1<::RPG::Client::Promises::IPromise*>* onResolved; // 0x18
-		::System::Action_1<::System::Exception*>* onRejected; // 0x20
-		::System::Action* __9__3; // 0x28
-		::RPG::Client::Promises::Promise* resultPromise; // 0x30
-		::System::Action_1<::System::Exception*>* __9__4; // 0x38
+		::System::Action_1<::System::Exception*>* onRejected; // 0x10
+		::RPG::Client::Promises::Promise* resultPromise; // 0x18
+		::System::Action_1<::System::Single>* __9__2; // 0x20
+		::System::Action_1<::System::Exception*>* __9__4; // 0x28
+		::System::Action* __9__3; // 0x30
+		::System::Func_1<::RPG::Client::Promises::IPromise*>* onResolved; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -40,9 +40,9 @@ namespace RPG::Client::Promises
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__0_OFFSET))(this);
 		}
 
-		::System::Void _Then_b__2(::System::Single progress)
+		::System::Void _Then_b__2(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__2_OFFSET))(this, progress);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__2_OFFSET))(this, a1);
 		}
 
 		::System::Void _Then_b__3()
@@ -50,14 +50,14 @@ namespace RPG::Client::Promises
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__3_OFFSET))(this);
 		}
 
-		::System::Void _Then_b__4(::System::Exception* ex)
+		::System::Void _Then_b__4(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__4_OFFSET))(this, ex);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__4_OFFSET))(this, a1);
 		}
 
-		::System::Void _Then_b__1(::System::Exception* ex)
+		::System::Void _Then_b__1(::System::Exception* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__1_OFFSET))(this, ex);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__1_OFFSET))(this, a1);
 		}
 	};
 }

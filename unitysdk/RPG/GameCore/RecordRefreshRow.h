@@ -5,29 +5,29 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RECORDREFRESHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C934E0)
-#define RPG_GAMECORE_RECORDREFRESHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C93B80)
+#define RPG_GAMECORE_RECORDREFRESHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AB79B0)
+#define RPG_GAMECORE_RECORDREFRESHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB8060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RecordRefreshRow_TypeDefinitionIndex = 13637;
+	inline static constexpr unsigned int RecordRefreshRow_TypeDefinitionIndex = 13707;
 
 	class RecordRefreshRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RefreshTime; // 0x10
-		::System::Boolean IsInteract; // 0x18
+		::RPG::GameCore::RecordRefreshType RefreshType; // 0x18
 		::System::UInt32 RefreshID; // 0x1C
-		::RPG::GameCore::RecordRefreshType RefreshType; // 0x20
+		::System::Boolean IsInteract; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDREFRESHROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RecordRefreshRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RecordRefreshRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RecordRefreshRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDREFRESHROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RecordRefreshRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDREFRESHROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

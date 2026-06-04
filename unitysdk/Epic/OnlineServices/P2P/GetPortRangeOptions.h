@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_P2P_GETPORTRANGEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8EDB090)
+#define EPIC_ONLINESERVICES_P2P_GETPORTRANGEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA30C7C0)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int GetPortRangeOptions_TypeDefinitionIndex = 41717;
+	inline static constexpr unsigned int GetPortRangeOptions_TypeDefinitionIndex = 42520;
 
 	class GetPortRangeOptions : public ::System::Object
 	{

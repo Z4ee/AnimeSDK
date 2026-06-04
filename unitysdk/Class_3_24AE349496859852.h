@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ForceMakeCharacterActionable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_24AE349496859852_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x999E2B0)
-#define CLASS_3_24AE349496859852__CTOR_OFFSET UNITYSDK_OFFSET(0x999E280)
+#define CLASS_3_24AE349496859852_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA9375A0)
+#define CLASS_3_24AE349496859852__CTOR_OFFSET UNITYSDK_OFFSET(0xA937570)
 
-inline static constexpr unsigned int Class_3_24AE349496859852_TypeDefinitionIndex = 50771;
+inline static constexpr unsigned int Class_3_24AE349496859852_TypeDefinitionIndex = 51439;
 
 class Class_3_24AE349496859852 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ForceMakeCharacterActionable*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierInfectType_TypeDefinitionIndex = 21994;
+	inline static constexpr unsigned int ModifierInfectType_TypeDefinitionIndex = 23326;
 
 	enum class ModifierInfectType : ::System::Int32
 	{

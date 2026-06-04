@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NATIVETASK_DOLOGGER_OFFSET UNITYSDK_OFFSET(0x17581B30)
-#define MIHOYO_SDK_NATIVETASK_ISNATIVETASKSWITCHENABLE_OFFSET UNITYSDK_OFFSET(0x17581BB0)
-#define MIHOYO_SDK_NATIVETASK_KIBANAREPORTEASY_OFFSET UNITYSDK_OFFSET(0x17581EE0)
-#define MIHOYO_SDK_NATIVETASK_NATIVEINVOKERETURN_OFFSET UNITYSDK_OFFSET(0x17581F70)
-#define MIHOYO_SDK_NATIVETASK_NATIVEINVOKE_OFFSET UNITYSDK_OFFSET(0x17581BE0)
-#define MIHOYO_SDK_NATIVETASK_ONSYNCDATATONATIVE_OFFSET UNITYSDK_OFFSET(0x17581BD0)
-#define MIHOYO_SDK_NATIVETASK_SYNCDATATONATIVE_OFFSET UNITYSDK_OFFSET(0x17581BC0)
-#define MIHOYO_SDK_NATIVETASK_USINGNATIVETASK_OFFSET UNITYSDK_OFFSET(0x17581880)
-#define MIHOYO_SDK_NATIVETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x175821D0)
+#define MIHOYO_SDK_NATIVETASK_DOLOGGER_OFFSET UNITYSDK_OFFSET(0x1836A260)
+#define MIHOYO_SDK_NATIVETASK_ISNATIVETASKSWITCHENABLE_OFFSET UNITYSDK_OFFSET(0x1836A2E0)
+#define MIHOYO_SDK_NATIVETASK_KIBANAREPORTEASY_OFFSET UNITYSDK_OFFSET(0x1836A620)
+#define MIHOYO_SDK_NATIVETASK_NATIVEINVOKERETURN_OFFSET UNITYSDK_OFFSET(0x1836A6B0)
+#define MIHOYO_SDK_NATIVETASK_NATIVEINVOKE_OFFSET UNITYSDK_OFFSET(0x1836A310)
+#define MIHOYO_SDK_NATIVETASK_ONSYNCDATATONATIVE_OFFSET UNITYSDK_OFFSET(0x1836A300)
+#define MIHOYO_SDK_NATIVETASK_SYNCDATATONATIVE_OFFSET UNITYSDK_OFFSET(0x1836A2F0)
+#define MIHOYO_SDK_NATIVETASK_USINGNATIVETASK_OFFSET UNITYSDK_OFFSET(0x18369FB0)
+#define MIHOYO_SDK_NATIVETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1836A910)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NativeTask_TypeDefinitionIndex = 7032;
+	inline static constexpr unsigned int NativeTask_TypeDefinitionIndex = 7935;
 
 	class NativeTask : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean UsingNativeTask(::System::String* strTaskName)
+		::System::Boolean UsingNativeTask(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK_USINGNATIVETASK_OFFSET))(this, strTaskName);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK_USINGNATIVETASK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsNativeTaskSwitchEnable()
@@ -54,24 +54,24 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK_ONSYNCDATATONATIVE_OFFSET))(this);
 		}
 
-		::System::Void NativeInvoke(::System::String* funcName, ::System::String* args, ::System::Action_1<::System::String*>* callback)
+		::System::Void NativeInvoke(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK_NATIVEINVOKE_OFFSET))(this, funcName, args, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK_NATIVEINVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::String* NativeInvokeReturn(::System::String* funcName, ::System::String* args)
+		::System::String* NativeInvokeReturn(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK_NATIVEINVOKERETURN_OFFSET))(this, funcName, args);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK_NATIVEINVOKERETURN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void KibanaReportEasy(::System::String* strEventName, ::System::String* strMsg)
+		::System::Void KibanaReportEasy(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK_KIBANAREPORTEASY_OFFSET))(this, strEventName, strMsg);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK_KIBANAREPORTEASY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DoLogger(::System::String* strLogger)
+		::System::Void DoLogger(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK_DOLOGGER_OFFSET))(this, strLogger);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NATIVETASK_DOLOGGER_OFFSET))(this, a1);
 		}
 	};
 }

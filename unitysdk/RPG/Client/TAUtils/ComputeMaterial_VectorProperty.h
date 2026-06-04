@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_VECTORPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xB26F530)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_VECTORPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BC820)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int ComputeMaterial_VectorProperty_TypeDefinitionIndex = 67749;
+	inline static constexpr unsigned int ComputeMaterial_VectorProperty_TypeDefinitionIndex = 68707;
 
 	class ComputeMaterial_VectorProperty : public ::System::Object
 	{

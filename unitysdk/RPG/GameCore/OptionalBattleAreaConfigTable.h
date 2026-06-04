@@ -7,12 +7,12 @@ namespace RPG::GameCore { class DynamicLoadBattleAreaConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_OPTIONALBATTLEAREACONFIGTABLE_METHOD_2_30797E7F9F7D471C_OFFSET UNITYSDK_OFFSET(0x18BC9DC0)
-#define RPG_GAMECORE_OPTIONALBATTLEAREACONFIGTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC9ED0)
+#define RPG_GAMECORE_OPTIONALBATTLEAREACONFIGTABLE_METHOD_2_F6B78CA9FCC87DD6_OFFSET UNITYSDK_OFFSET(0x199DB840)
+#define RPG_GAMECORE_OPTIONALBATTLEAREACONFIGTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x199DB940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OptionalBattleAreaConfigTable_TypeDefinitionIndex = 18187;
+	inline static constexpr unsigned int OptionalBattleAreaConfigTable_TypeDefinitionIndex = 18180;
 
 	class OptionalBattleAreaConfigTable : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTIONALBATTLEAREACONFIGTABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_30797E7F9F7D471C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OptionalBattleAreaConfigTable*& a2)
+		static ::System::Void Method_2_F6B78CA9FCC87DD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OptionalBattleAreaConfigTable*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OptionalBattleAreaConfigTable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTIONALBATTLEAREACONFIGTABLE_METHOD_2_30797E7F9F7D471C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OptionalBattleAreaConfigTable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTIONALBATTLEAREACONFIGTABLE_METHOD_2_F6B78CA9FCC87DD6_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/LittleGameSmartObjectType.h"
 
-class Class_1_97AF24F8EB6B0441;
-class Class_1_ADC27DBA8547EDD7;
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_1_291F4DFF708B8F23;
+namespace RPG::GameCore { class LittleGameProxyEntityConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_171_TypeDefinitionIndex = 38180;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_171_TypeDefinitionIndex = 38924;
 
 class Class_0_16E4307DCC419505_171
 {

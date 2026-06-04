@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CUSTOMRP_PATHTRACINGDEBUG_DUMPPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xB4F18A0)
+#define RPG_CUSTOMRP_PATHTRACINGDEBUG_DUMPPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xCC57850)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PathTracingDebug_DumpPath_TypeDefinitionIndex = 47851;
+	inline static constexpr unsigned int PathTracingDebug_DumpPath_TypeDefinitionIndex = 48466;
 
 	class PathTracingDebug_DumpPath : public ::System::Object
 	{

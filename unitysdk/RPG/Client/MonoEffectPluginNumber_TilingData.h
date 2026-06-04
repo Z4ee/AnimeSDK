@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_TILINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA997CB0)
+#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_TILINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC0E4ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginNumber_TilingData_TypeDefinitionIndex = 64607;
+	inline static constexpr unsigned int MonoEffectPluginNumber_TilingData_TypeDefinitionIndex = 65528;
 
 	class MonoEffectPluginNumber_TilingData : public ::System::Object
 	{

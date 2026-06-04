@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SearchEntityType_TypeDefinitionIndex = 22870;
+	inline static constexpr unsigned int SearchEntityType_TypeDefinitionIndex = 23431;
 
 	enum class SearchEntityType : ::System::Int32
 	{

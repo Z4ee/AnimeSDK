@@ -11,34 +11,34 @@ namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection::Emit { class LocalBuilder; }
 
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_DECLARELOCAL_OFFSET UNITYSDK_OFFSET(0x1799B690)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_DEFINELABEL_OFFSET UNITYSDK_OFFSET(0x1799B6E0)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_10_OFFSET UNITYSDK_OFFSET(0x1799BA50)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_11_OFFSET UNITYSDK_OFFSET(0x1799BAA0)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_12_OFFSET UNITYSDK_OFFSET(0x1799BAF0)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_13_OFFSET UNITYSDK_OFFSET(0x1799BB40)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_1_OFFSET UNITYSDK_OFFSET(0x1799B780)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_2_OFFSET UNITYSDK_OFFSET(0x1799B7D0)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_3_OFFSET UNITYSDK_OFFSET(0x1799B820)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_4_OFFSET UNITYSDK_OFFSET(0x1799B870)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_5_OFFSET UNITYSDK_OFFSET(0x1799B8C0)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_6_OFFSET UNITYSDK_OFFSET(0x1799B910)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_7_OFFSET UNITYSDK_OFFSET(0x1799B960)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_8_OFFSET UNITYSDK_OFFSET(0x1799B9B0)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_9_OFFSET UNITYSDK_OFFSET(0x1799BA00)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_OFFSET UNITYSDK_OFFSET(0x1799B730)
-#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_MARKLABEL_OFFSET UNITYSDK_OFFSET(0x1799BB90)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_DECLARELOCAL_OFFSET UNITYSDK_OFFSET(0x1874F360)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_DEFINELABEL_OFFSET UNITYSDK_OFFSET(0x1874F3B0)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_10_OFFSET UNITYSDK_OFFSET(0x1874F720)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_11_OFFSET UNITYSDK_OFFSET(0x1874F770)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_12_OFFSET UNITYSDK_OFFSET(0x1874F7C0)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_13_OFFSET UNITYSDK_OFFSET(0x1874F810)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_1_OFFSET UNITYSDK_OFFSET(0x1874F450)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_2_OFFSET UNITYSDK_OFFSET(0x1874F4A0)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_3_OFFSET UNITYSDK_OFFSET(0x1874F4F0)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_4_OFFSET UNITYSDK_OFFSET(0x1874F540)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_5_OFFSET UNITYSDK_OFFSET(0x1874F590)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_6_OFFSET UNITYSDK_OFFSET(0x1874F5E0)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_7_OFFSET UNITYSDK_OFFSET(0x1874F630)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_8_OFFSET UNITYSDK_OFFSET(0x1874F680)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_9_OFFSET UNITYSDK_OFFSET(0x1874F6D0)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_OFFSET UNITYSDK_OFFSET(0x1874F400)
+#define SYSTEM_REFLECTION_EMIT_ILGENERATOR_MARKLABEL_OFFSET UNITYSDK_OFFSET(0x1874F860)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int ILGenerator_TypeDefinitionIndex = 645;
+	inline static constexpr unsigned int ILGenerator_TypeDefinitionIndex = 644;
 
 	class ILGenerator : public ::System::Object
 	{
 	public:
-		::System::Reflection::Emit::LocalBuilder* DeclareLocal(::System::Type* localType)
+		::System::Reflection::Emit::LocalBuilder* DeclareLocal(::System::Type* a1)
 		{
-			return ((::System::Reflection::Emit::LocalBuilder*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_DECLARELOCAL_OFFSET))(this, localType);
+			return ((::System::Reflection::Emit::LocalBuilder*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_DECLARELOCAL_OFFSET))(this, a1);
 		}
 
 		::System::Reflection::Emit::Label DefineLabel()
@@ -46,79 +46,79 @@ namespace System::Reflection::Emit
 			return ((::System::Reflection::Emit::Label(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_DEFINELABEL_OFFSET))(this);
 		}
 
-		::System::Void Emit(::System::Reflection::Emit::OpCode opcode)
+		::System::Void Emit(::System::Reflection::Emit::OpCode a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_OFFSET))(this, opcode);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_OFFSET))(this, a1);
 		}
 
-		::System::Void Emit_1(::System::Reflection::Emit::OpCode opcode, ::System::Byte arg)
+		::System::Void Emit_1(::System::Reflection::Emit::OpCode a1, ::System::Byte a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_1_OFFSET))(this, opcode, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_2(::System::Reflection::Emit::OpCode opcode, ::System::Int16 arg)
+		::System::Void Emit_2(::System::Reflection::Emit::OpCode a1, ::System::Int16 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_2_OFFSET))(this, opcode, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Int16))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_3(::System::Reflection::Emit::OpCode opcode, ::System::Int32 arg)
+		::System::Void Emit_3(::System::Reflection::Emit::OpCode a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_3_OFFSET))(this, opcode, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_4(::System::Reflection::Emit::OpCode opcode, ::System::Int64 arg)
+		::System::Void Emit_4(::System::Reflection::Emit::OpCode a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_4_OFFSET))(this, opcode, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_5(::System::Reflection::Emit::OpCode opcode, ::System::Reflection::ConstructorInfo* con)
+		::System::Void Emit_5(::System::Reflection::Emit::OpCode a1, ::System::Reflection::ConstructorInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Reflection::ConstructorInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_5_OFFSET))(this, opcode, con);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Reflection::ConstructorInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_5_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_6(::System::Reflection::Emit::OpCode opcode, ::System::Reflection::Emit::Label label)
+		::System::Void Emit_6(::System::Reflection::Emit::OpCode a1, ::System::Reflection::Emit::Label a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Reflection::Emit::Label))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_6_OFFSET))(this, opcode, label);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Reflection::Emit::Label))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_6_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_7(::System::Reflection::Emit::OpCode opcode, ::Il2CppArray<::System::Reflection::Emit::Label>* labels)
+		::System::Void Emit_7(::System::Reflection::Emit::OpCode a1, ::Il2CppArray<::System::Reflection::Emit::Label>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::Il2CppArray<::System::Reflection::Emit::Label>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_7_OFFSET))(this, opcode, labels);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::Il2CppArray<::System::Reflection::Emit::Label>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_7_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_8(::System::Reflection::Emit::OpCode opcode, ::System::Reflection::Emit::LocalBuilder* local)
+		::System::Void Emit_8(::System::Reflection::Emit::OpCode a1, ::System::Reflection::Emit::LocalBuilder* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Reflection::Emit::LocalBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_8_OFFSET))(this, opcode, local);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Reflection::Emit::LocalBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_8_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_9(::System::Reflection::Emit::OpCode opcode, ::System::Reflection::FieldInfo* field)
+		::System::Void Emit_9(::System::Reflection::Emit::OpCode a1, ::System::Reflection::FieldInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_9_OFFSET))(this, opcode, field);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_9_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_10(::System::Reflection::Emit::OpCode opcode, ::System::Reflection::MethodInfo* meth)
+		::System::Void Emit_10(::System::Reflection::Emit::OpCode a1, ::System::Reflection::MethodInfo* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_10_OFFSET))(this, opcode, meth);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_10_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_11(::System::Reflection::Emit::OpCode opcode, ::System::SByte arg)
+		::System::Void Emit_11(::System::Reflection::Emit::OpCode a1, ::System::SByte a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::SByte))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_11_OFFSET))(this, opcode, arg);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::SByte))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_11_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_12(::System::Reflection::Emit::OpCode opcode, ::System::String* str)
+		::System::Void Emit_12(::System::Reflection::Emit::OpCode a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_12_OFFSET))(this, opcode, str);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_12_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Emit_13(::System::Reflection::Emit::OpCode opcode, ::System::Type* cls)
+		::System::Void Emit_13(::System::Reflection::Emit::OpCode a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_13_OFFSET))(this, opcode, cls);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::OpCode, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_EMIT_13_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void MarkLabel(::System::Reflection::Emit::Label loc)
+		::System::Void MarkLabel(::System::Reflection::Emit::Label a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::Label))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_MARKLABEL_OFFSET))(this, loc);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Emit::Label))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_ILGENERATOR_MARKLABEL_OFFSET))(this, a1);
 		}
 	};
 }

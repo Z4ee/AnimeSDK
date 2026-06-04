@@ -4,18 +4,18 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_SCRIPTING_MODULEINITIALIZEHELPER_RUNCLASSCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1A484EE0)
+#define UNITYENGINE_SCRIPTING_MODULEINITIALIZEHELPER_RUNCLASSCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1B2D5930)
 
 namespace UnityEngine::Scripting
 {
-	inline static constexpr unsigned int ModuleInitializeHelper_TypeDefinitionIndex = 4310;
+	inline static constexpr unsigned int ModuleInitializeHelper_TypeDefinitionIndex = 4484;
 
 	class ModuleInitializeHelper : public ::System::Object
 	{
 	public:
-		static ::System::Void RunClassConstructor(::System::Type* type)
+		static ::System::Void RunClassConstructor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_MODULEINITIALIZEHELPER_RUNCLASSCONSTRUCTOR_OFFSET))(type);
+			return ((::System::Void(*)(::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTING_MODULEINITIALIZEHELPER_RUNCLASSCONSTRUCTOR_OFFSET))(a1);
 		}
 	};
 }

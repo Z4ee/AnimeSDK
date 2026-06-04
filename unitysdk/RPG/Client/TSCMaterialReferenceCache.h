@@ -9,13 +9,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_TSCMATERIALREFERENCECACHE_METHOD_1_679152990EF3BD2A_OFFSET UNITYSDK_OFFSET(0xB278070)
-#define RPG_CLIENT_TSCMATERIALREFERENCECACHE_METHOD_1_D4FAD9DF8A6E1E94_OFFSET UNITYSDK_OFFSET(0xB278280)
-#define RPG_CLIENT_TSCMATERIALREFERENCECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0xB277E00)
+#define RPG_CLIENT_TSCMATERIALREFERENCECACHE_METHOD_1_5F2883F9130D2889_OFFSET UNITYSDK_OFFSET(0xC9C5DF0)
+#define RPG_CLIENT_TSCMATERIALREFERENCECACHE_METHOD_1_D4FAD9DF8A6E1E94_OFFSET UNITYSDK_OFFSET(0xC9C60D0)
+#define RPG_CLIENT_TSCMATERIALREFERENCECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0xC9C5C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TSCMaterialReferenceCache_TypeDefinitionIndex = 64727;
+	inline static constexpr unsigned int TSCMaterialReferenceCache_TypeDefinitionIndex = 65649;
 
 	class TSCMaterialReferenceCache : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TSCMATERIALREFERENCECACHE__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_679152990EF3BD2A(::System::Collections::Generic::List_1<::System::String*>*& a1, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Material*>*>*& a2)
+		::System::Void Method_1_5F2883F9130D2889(::System::Collections::Generic::List_1<::System::String*>*& a1, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Material*>*>*& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*&, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Material*>*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_TSCMATERIALREFERENCECACHE_METHOD_1_679152990EF3BD2A_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*&, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Material*>*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_TSCMATERIALREFERENCECACHE_METHOD_1_5F2883F9130D2889_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_1_D4FAD9DF8A6E1E94()

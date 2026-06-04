@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CAMERASHAKETASK__CTOR_OFFSET UNITYSDK_OFFSET(0xACF0370)
+#define CAMERASHAKETASK__CTOR_OFFSET UNITYSDK_OFFSET(0xC733FB0)
 
-inline static constexpr unsigned int CameraShakeTask_TypeDefinitionIndex = 44035;
+inline static constexpr unsigned int CameraShakeTask_TypeDefinitionIndex = 44581;
 
 class CameraShakeTask : public ::System::Object
 {

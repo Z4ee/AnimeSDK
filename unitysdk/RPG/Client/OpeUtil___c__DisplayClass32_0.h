@@ -6,20 +6,20 @@ namespace RPG::Client { class ParseUrlCallBack; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_OPEUTIL___C__DISPLAYCLASS32_0__CONVERTEVENTURL_B__0_OFFSET UNITYSDK_OFFSET(0xABF6B80)
-#define RPG_CLIENT_OPEUTIL___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xABF2E10)
+#define RPG_CLIENT_OPEUTIL___C__DISPLAYCLASS32_0__CONVERTEVENTURL_B__0_OFFSET UNITYSDK_OFFSET(0xC3041B0)
+#define RPG_CLIENT_OPEUTIL___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC300460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OpeUtil___c__DisplayClass32_0_TypeDefinitionIndex = 54706;
+	inline static constexpr unsigned int OpeUtil___c__DisplayClass32_0_TypeDefinitionIndex = 55433;
 
 	class OpeUtil___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
-		::System::String* sourceUrl; // 0x10
+		::RPG::Client::ParseUrlCallBack* callBack; // 0x10
 		::System::String* fragment; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict; // 0x20
-		::RPG::Client::ParseUrlCallBack* callBack; // 0x28
+		::System::String* sourceUrl; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict; // 0x28
 		::System::String* baseUrl; // 0x30
 		::System::Boolean isExternalBrowser; // 0x38
 
@@ -28,9 +28,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL___C__DISPLAYCLASS32_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ConvertEventUrl_b__0(::System::UInt16 cmd, ::System::Object* rspObject)
+		::System::Void _ConvertEventUrl_b__0(::System::UInt16 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL___C__DISPLAYCLASS32_0__CONVERTEVENTURL_B__0_OFFSET))(this, cmd, rspObject);
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL___C__DISPLAYCLASS32_0__CONVERTEVENTURL_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

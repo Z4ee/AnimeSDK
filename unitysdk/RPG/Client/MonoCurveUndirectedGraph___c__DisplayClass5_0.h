@@ -5,12 +5,12 @@
 namespace RPG::Client { class CurveUndirectedEdge; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA9251C0)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS5_0__FINDEDGEBYNAME_B__0_OFFSET UNITYSDK_OFFSET(0xA925380)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC06FFC0)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS5_0__FINDEDGEBYNAME_B__0_OFFSET UNITYSDK_OFFSET(0xC070190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass5_0_TypeDefinitionIndex = 63238;
+	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass5_0_TypeDefinitionIndex = 64155;
 
 	class MonoCurveUndirectedGraph___c__DisplayClass5_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _FindEdgeByName_b__0(::RPG::Client::CurveUndirectedEdge* edge)
+		::System::Boolean _FindEdgeByName_b__0(::RPG::Client::CurveUndirectedEdge* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CurveUndirectedEdge*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS5_0__FINDEDGEBYNAME_B__0_OFFSET))(this, edge);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CurveUndirectedEdge*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS5_0__FINDEDGEBYNAME_B__0_OFFSET))(this, a1);
 		}
 	};
 }

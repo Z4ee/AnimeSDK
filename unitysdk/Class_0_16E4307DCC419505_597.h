@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/CompetitiveGamePlaySystemPriority.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_597_TypeDefinitionIndex = 55912;
+class Class_0_16E4307DCC419505_598;
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_597_TypeDefinitionIndex = 56034;
 
 class Class_0_16E4307DCC419505_597
 {

@@ -5,16 +5,16 @@
 class HipplenBuilderBuffAsset_BuffConfig;
 class HipplenBuilderUIMan;
 
-#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E0C6F0)
-#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS42_0__OPENBUFFSELECTIONPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x11E0DEA0)
+#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13C6FFC0)
+#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS42_0__OPENBUFFSELECTIONPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x13C715B0)
 
-inline static constexpr unsigned int HipplenBuilderUIMan___c__DisplayClass42_0_TypeDefinitionIndex = 44010;
+inline static constexpr unsigned int HipplenBuilderUIMan___c__DisplayClass42_0_TypeDefinitionIndex = 44556;
 
 class HipplenBuilderUIMan___c__DisplayClass42_0 : public ::System::Object
 {
 public:
-	::HipplenBuilderBuffAsset_BuffConfig* buff; // 0x10
-	::HipplenBuilderUIMan* __4__this; // 0x18
+	::HipplenBuilderUIMan* __4__this; // 0x10
+	::HipplenBuilderBuffAsset_BuffConfig* buff; // 0x18
 
 	::System::Void _ctor()
 	{

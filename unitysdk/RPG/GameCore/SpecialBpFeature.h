@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPECIALBPFEATURE_METHOD_2_93069D4652E90C28_OFFSET UNITYSDK_OFFSET(0x18E80C40)
-#define RPG_GAMECORE_SPECIALBPFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x18E80DC0)
+#define RPG_GAMECORE_SPECIALBPFEATURE_METHOD_2_93069D4652E90C28_OFFSET UNITYSDK_OFFSET(0x19C9C340)
+#define RPG_GAMECORE_SPECIALBPFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C9C4C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialBpFeature_TypeDefinitionIndex = 22177;
+	inline static constexpr unsigned int SpecialBpFeature_TypeDefinitionIndex = 21956;
 
 	class SpecialBpFeature : public ::RPG::GameCore::JsonConfig
 	{

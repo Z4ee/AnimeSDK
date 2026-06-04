@@ -5,9 +5,9 @@
 
 namespace RPG::Client { class Airline; }
 
-#define STRUCT_2_F93DE209E992FF0D__CTOR_OFFSET UNITYSDK_OFFSET(0xD08D0)
+#define STRUCT_2_F93DE209E992FF0D__CTOR_OFFSET UNITYSDK_OFFSET(0x2BCB730)
 
-inline static constexpr unsigned int Struct_2_F93DE209E992FF0D_TypeDefinitionIndex = 55146;
+inline static constexpr unsigned int Struct_2_F93DE209E992FF0D_TypeDefinitionIndex = 55880;
 
 struct alignas(8) Struct_2_F93DE209E992FF0D
 {

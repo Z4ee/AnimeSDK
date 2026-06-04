@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLENPCCONFIG_METHOD_2_D84400464A92AF26_OFFSET UNITYSDK_OFFSET(0x18AA10C0)
-#define RPG_GAMECORE_MARBLENPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AA1240)
+#define RPG_GAMECORE_MARBLENPCCONFIG_METHOD_2_4F880ECBD859B453_OFFSET UNITYSDK_OFFSET(0x198D08D0)
+#define RPG_GAMECORE_MARBLENPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198D4260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleNpcConfig_TypeDefinitionIndex = 17972;
+	inline static constexpr unsigned int MarbleNpcConfig_TypeDefinitionIndex = 17999;
 
 	class MarbleNpcConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLENPCCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D84400464A92AF26(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleNpcConfig*& a2)
+		static ::System::Void Method_2_4F880ECBD859B453(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleNpcConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleNpcConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLENPCCONFIG_METHOD_2_D84400464A92AF26_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleNpcConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLENPCCONFIG_METHOD_2_4F880ECBD859B453_OFFSET))(a1, a2);
 		}
 	};
 }

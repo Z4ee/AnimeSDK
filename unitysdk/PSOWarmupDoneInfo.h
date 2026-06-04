@@ -5,9 +5,9 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PSOWARMUPDONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9A8A590)
+#define PSOWARMUPDONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB069C00)
 
-inline static constexpr unsigned int PSOWarmupDoneInfo_TypeDefinitionIndex = 44169;
+inline static constexpr unsigned int PSOWarmupDoneInfo_TypeDefinitionIndex = 44715;
 
 class PSOWarmupDoneInfo : public ::System::Object
 {

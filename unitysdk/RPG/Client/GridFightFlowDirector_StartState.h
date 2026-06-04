@@ -5,14 +5,14 @@
 namespace RPG::Client { class GridFightFlowDirector_IFlowState; }
 namespace RPG::Client { class GridFightFlowDirector_IFlowStateEvent; }
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONENTER_OFFSET UNITYSDK_OFFSET(0xA49DE10)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONEVENT_OFFSET UNITYSDK_OFFSET(0xA49DEB0)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONEXIT_OFFSET UNITYSDK_OFFSET(0xA49DE60)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA499E50)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONENTER_OFFSET UNITYSDK_OFFSET(0xBB3D620)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONEVENT_OFFSET UNITYSDK_OFFSET(0xBB3D6C0)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONEXIT_OFFSET UNITYSDK_OFFSET(0xBB3D670)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xBB39610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_StartState_TypeDefinitionIndex = 59443;
+	inline static constexpr unsigned int GridFightFlowDirector_StartState_TypeDefinitionIndex = 60378;
 
 	class GridFightFlowDirector_StartState : public ::System::Object
 	{
@@ -22,19 +22,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnEnter(::RPG::Client::GridFightFlowDirector_IFlowState* last)
+		::System::Void OnEnter(::RPG::Client::GridFightFlowDirector_IFlowState* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightFlowDirector_IFlowState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONENTER_OFFSET))(this, last);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightFlowDirector_IFlowState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void OnExit(::RPG::Client::GridFightFlowDirector_IFlowState* next)
+		::System::Void OnExit(::RPG::Client::GridFightFlowDirector_IFlowState* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightFlowDirector_IFlowState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONEXIT_OFFSET))(this, next);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightFlowDirector_IFlowState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONEXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnEvent(::RPG::Client::GridFightFlowDirector_IFlowStateEvent* event)
+		::System::Void OnEvent(::RPG::Client::GridFightFlowDirector_IFlowStateEvent* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightFlowDirector_IFlowStateEvent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONEVENT_OFFSET))(this, event);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightFlowDirector_IFlowStateEvent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_STARTSTATE_ONEVENT_OFFSET))(this, a1);
 		}
 	};
 }

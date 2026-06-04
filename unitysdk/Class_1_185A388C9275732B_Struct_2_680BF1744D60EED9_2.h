@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+#define CLASS_1_185A388C9275732B_STRUCT_2_680BF1744D60EED9_2_COMPARETO_OFFSET UNITYSDK_OFFSET(0x80C90)
+#define CLASS_1_185A388C9275732B_STRUCT_2_680BF1744D60EED9_2_GET_HADAVATARCOUNT_OFFSET UNITYSDK_OFFSET(0x1E110)
+#define CLASS_1_185A388C9275732B_STRUCT_2_680BF1744D60EED9_2_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x5FB0)
+#define CLASS_1_185A388C9275732B_STRUCT_2_680BF1744D60EED9_2__CTOR_OFFSET UNITYSDK_OFFSET(0x80C80)
+
+inline static constexpr unsigned int Class_1_185A388C9275732B_Struct_2_680BF1744D60EED9_2_TypeDefinitionIndex = 63718;
+
+struct alignas(4) Class_1_185A388C9275732B_Struct_2_680BF1744D60EED9_2
+{
+	::System::Int32 _Position_k__BackingField; // 0x10
+	::System::Int32 _HadAvatarCount_k__BackingField; // 0x14
+
+	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_185A388C9275732B_STRUCT_2_680BF1744D60EED9_2__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Int32 get_Position()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_185A388C9275732B_STRUCT_2_680BF1744D60EED9_2_GET_POSITION_OFFSET))(this);
+	}
+
+	::System::Int32 get_HadAvatarCount()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_185A388C9275732B_STRUCT_2_680BF1744D60EED9_2_GET_HADAVATARCOUNT_OFFSET))(this);
+	}
+
+	::System::Int32 CompareTo(::Class_1_185A388C9275732B_Struct_2_680BF1744D60EED9_2 a1)
+	{
+		return ((::System::Int32(*)(::PVOID, ::Class_1_185A388C9275732B_Struct_2_680BF1744D60EED9_2))((::PBYTE)hIl2Cpp + CLASS_1_185A388C9275732B_STRUCT_2_680BF1744D60EED9_2_COMPARETO_OFFSET))(this, a1);
+	}
+};

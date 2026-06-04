@@ -7,21 +7,21 @@ namespace MiHoYo::SDK { class SecurityTunnel_File; }
 namespace System { class String; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DBA230)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__0_OFFSET UNITYSDK_OFFSET(0x8DC5200)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__1_OFFSET UNITYSDK_OFFSET(0x8DC5230)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__2_OFFSET UNITYSDK_OFFSET(0x8DC5340)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA2089B0)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__0_OFFSET UNITYSDK_OFFSET(0xA212240)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__1_OFFSET UNITYSDK_OFFSET(0xA212270)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__2_OFFSET UNITYSDK_OFFSET(0xA212390)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass38_0_TypeDefinitionIndex = 43029;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass38_0_TypeDefinitionIndex = 43832;
 
 	class SecurityTunnel___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::SecurityTunnel_File* file; // 0x10
-		::System::Predicate_1<::MiHoYo::SDK::SecurityTunnel_File*>* __9__2; // 0x18
-		::MiHoYo::SDK::SecurityTunnel* __4__this; // 0x20
+		::MiHoYo::SDK::SecurityTunnel* __4__this; // 0x18
+		::System::Predicate_1<::MiHoYo::SDK::SecurityTunnel_File*>* __9__2; // 0x20
 		::System::UInt64 id; // 0x28
 
 		::System::Void _ctor()
@@ -29,19 +29,19 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _FilePartReceived_b__0(::MiHoYo::SDK::SecurityTunnel_File* f)
+		::System::Boolean _FilePartReceived_b__0(::MiHoYo::SDK::SecurityTunnel_File* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_File*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__0_OFFSET))(this, f);
+			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_File*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _FilePartReceived_b__1(::System::Boolean isSuccess, ::Il2CppArray<::System::Byte>* buffer, ::System::String* errorMsg)
+		::System::Void _FilePartReceived_b__1(::System::Boolean a1, ::Il2CppArray<::System::Byte>* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__1_OFFSET))(this, isSuccess, buffer, errorMsg);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean _FilePartReceived_b__2(::MiHoYo::SDK::SecurityTunnel_File* f)
+		::System::Boolean _FilePartReceived_b__2(::MiHoYo::SDK::SecurityTunnel_File* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_File*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__2_OFFSET))(this, f);
+			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_File*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__2_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::Lobby { class AddNotifyRTCRoomConnectionChangedO
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x46D70)
-#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x46D00)
-#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x46B80)
-#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x46C30)
-#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x46CF0)
+#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x4B4E0)
+#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4B460)
+#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x4B2E0)
+#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x4B390)
+#define EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x4B450)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int AddNotifyRTCRoomConnectionChangedOptionsInternal_TypeDefinitionIndex = 41824;
+	inline static constexpr unsigned int AddNotifyRTCRoomConnectionChangedOptionsInternal_TypeDefinitionIndex = 42627;
 
 	struct alignas(8) AddNotifyRTCRoomConnectionChangedOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::Lobby
 		::System::IntPtr m_LobbyId; // 0x18
 		::System::IntPtr m_LocalUserId; // 0x20
 
-		::System::Void set_LobbyId(::System::String* value)
+		::System::Void set_LobbyId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_LOBBYID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::Lobby::AddNotifyRTCRoomConnectionChangedOptions* other)
+		::System::Void Set(::Epic::OnlineServices::Lobby::AddNotifyRTCRoomConnectionChangedOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyRTCRoomConnectionChangedOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::AddNotifyRTCRoomConnectionChangedOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_ADDNOTIFYRTCROOMCONNECTIONCHANGEDOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

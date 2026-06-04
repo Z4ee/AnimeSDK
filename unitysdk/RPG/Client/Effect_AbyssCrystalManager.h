@@ -10,23 +10,27 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_ANIMATIONPLAY_OFFSET UNITYSDK_OFFSET(0xA1BB420)
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_GETCRYSTALANIFROMNODE_OFFSET UNITYSDK_OFFSET(0xA1BAEF0)
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_INITCRYSTALMAT_OFFSET UNITYSDK_OFFSET(0xA1B96E0)
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_INITSETCRYSTALMAT_OFFSET UNITYSDK_OFFSET(0xA1BB130)
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_INITSETCRYSTALSHINESCRIPT_OFFSET UNITYSDK_OFFSET(0xA1BB2F0)
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA1B9940)
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_SETAUREOLEANI_OFFSET UNITYSDK_OFFSET(0xA1BA250)
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_SETCRYSTALCENTERWEIGHT_OFFSET UNITYSDK_OFFSET(0xA1B9990)
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_START_OFFSET UNITYSDK_OFFSET(0xA1B9690)
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_UNLOCKCRYSTAL_OFFSET UNITYSDK_OFFSET(0xA1BB030)
-#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xA1BB4F0)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_ANIMATIONPLAY_OFFSET UNITYSDK_OFFSET(0xB83E270)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_GETCRYSTALANIFROMNODE_OFFSET UNITYSDK_OFFSET(0xB83DA80)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_GET_ISALTERNATEMODE_OFFSET UNITYSDK_OFFSET(0xB83C310)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_INITCRYSTALMAT_OFFSET UNITYSDK_OFFSET(0xB83C370)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_INITSETCRYSTALMAT_OFFSET UNITYSDK_OFFSET(0xB83DF40)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_INITSETCRYSTALSHINESCRIPT_OFFSET UNITYSDK_OFFSET(0xB83E100)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB83C600)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB83E340)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_SETAUREOLEANI_OFFSET UNITYSDK_OFFSET(0xB83CDE0)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_SETCRYSTALCENTERWEIGHT_OFFSET UNITYSDK_OFFSET(0xB83C650)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_START_OFFSET UNITYSDK_OFFSET(0xB83C320)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_SWITCHCRYSTALMODE_OFFSET UNITYSDK_OFFSET(0xB83DD20)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_UNLOCKCRYSTAL_OFFSET UNITYSDK_OFFSET(0xB83DC20)
+#define RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xB83E3B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_AbyssCrystalManager_TypeDefinitionIndex = 64920;
+	inline static constexpr unsigned int Effect_AbyssCrystalManager_TypeDefinitionIndex = 65846;
 
 	class Effect_AbyssCrystalManager : public ::UnityEngine::MonoBehaviour
 	{
@@ -45,18 +49,29 @@ namespace RPG::Client
 		::UnityEngine::Vector3 CustomTranslucentDic; // 0x70
 		::UnityEngine::Vector3 CustomLightRimDic; // 0x7C
 		::System::Boolean AnimatorPreview; // 0x88
-		::UnityEngine::Vector3 crystalWorldPos; // 0x8C
-		::UnityEngine::Transform* _aureoleRootTrans; // 0x98
-		::RPG::Client::Effect_AbyssCrystalManager_SelectedState _preSelectedState; // 0xA0
-		::UnityEngine::Transform* _preSelectedNode; // 0xA8
-		::UnityEngine::Animator* _aureoleRootAni; // 0xB0
-		::UnityEngine::Animator* _crystalRootAni; // 0xB8
-		::System::Boolean _crystalEnable; // 0xC0
-		::UnityEngine::Vector3 camVec; // 0xC4
+		::RPG::Client::Effect_AbyssCrystalManager_CrystalTransformStruct* AlternateCrystal; // 0x90
+		::System::Int32 AlternateCrystalIndex; // 0x98
+		::UnityEngine::GameObject* DefaultCrystalRoot; // 0xA0
+		::UnityEngine::GameObject* AlternateCrystalRoot; // 0xA8
+		::System::Boolean _isAlternateMode; // 0xB0
+		::UnityEngine::Material* _alternateMat; // 0xB8
+		::UnityEngine::Vector3 crystalWorldPos; // 0xC0
+		::UnityEngine::Transform* _aureoleRootTrans; // 0xD0
+		::RPG::Client::Effect_AbyssCrystalManager_SelectedState _preSelectedState; // 0xD8
+		::UnityEngine::Transform* _preSelectedNode; // 0xE0
+		::UnityEngine::Animator* _aureoleRootAni; // 0xE8
+		::UnityEngine::Animator* _crystalRootAni; // 0xF0
+		::System::Boolean _crystalEnable; // 0xF8
+		::UnityEngine::Vector3 camVec; // 0xFC
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsAlternateMode()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_GET_ISALTERNATEMODE_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -74,9 +89,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_SETAUREOLEANI_OFFSET))(this);
 		}
 
-		::System::Void UnlockCrystal(::UnityEngine::Transform* node, ::System::Boolean isSpecialMode)
+		::System::Void UnlockCrystal(::UnityEngine::Transform* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_UNLOCKCRYSTAL_OFFSET))(this, node, isSpecialMode);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_UNLOCKCRYSTAL_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void SwitchCrystalMode(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_SWITCHCRYSTALMODE_OFFSET))(this, a1);
 		}
 
 		::System::Void InitSetCrystalMat()
@@ -94,9 +114,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_INITCRYSTALMAT_OFFSET))(this);
 		}
 
-		::UnityEngine::Animator* GetCrystalAniFromNode(::UnityEngine::Transform* selNode)
+		::UnityEngine::Animator* GetCrystalAniFromNode(::UnityEngine::Transform* a1)
 		{
-			return ((::UnityEngine::Animator*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_GETCRYSTALANIFROMNODE_OFFSET))(this, selNode);
+			return ((::UnityEngine::Animator*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_GETCRYSTALANIFROMNODE_OFFSET))(this, a1);
 		}
 
 		::System::Void SetCrystalCenterWeight()
@@ -104,9 +124,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_SETCRYSTALCENTERWEIGHT_OFFSET))(this);
 		}
 
-		::System::Void AnimationPlay(::UnityEngine::Animator* animator, ::System::String* animationName, ::System::Int32 layer)
+		::System::Void AnimationPlay(::UnityEngine::Animator* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_ANIMATIONPLAY_OFFSET))(this, animator, animationName, layer);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_ANIMATIONPLAY_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSCRYSTALMANAGER_ONDESTROY_OFFSET))(this);
 		}
 	};
 }

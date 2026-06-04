@@ -10,15 +10,15 @@ class AkSpatialAudioInitSettings;
 class AkUnityPlatformSpecificSettings;
 namespace System { class String; }
 
-#define AKCOMMONADVANCEDSETTINGS_COPYTO_1_OFFSET UNITYSDK_OFFSET(0x1A5DB460)
-#define AKCOMMONADVANCEDSETTINGS_COPYTO_2_OFFSET UNITYSDK_OFFSET(0x1A5C8330)
-#define AKCOMMONADVANCEDSETTINGS_COPYTO_3_OFFSET UNITYSDK_OFFSET(0x1A5DBDA0)
-#define AKCOMMONADVANCEDSETTINGS_COPYTO_4_OFFSET UNITYSDK_OFFSET(0x1A5DBF90)
-#define AKCOMMONADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1A5DAE10)
-#define AKCOMMONADVANCEDSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1A5DBFE0)
-#define AKCOMMONADVANCEDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C82A0)
+#define AKCOMMONADVANCEDSETTINGS_COPYTO_1_OFFSET UNITYSDK_OFFSET(0x1B425260)
+#define AKCOMMONADVANCEDSETTINGS_COPYTO_2_OFFSET UNITYSDK_OFFSET(0x1B413180)
+#define AKCOMMONADVANCEDSETTINGS_COPYTO_3_OFFSET UNITYSDK_OFFSET(0x1B425BA0)
+#define AKCOMMONADVANCEDSETTINGS_COPYTO_4_OFFSET UNITYSDK_OFFSET(0x1B425D90)
+#define AKCOMMONADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1B424C10)
+#define AKCOMMONADVANCEDSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1B425DE0)
+#define AKCOMMONADVANCEDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4130F0)
 
-inline static constexpr unsigned int AkCommonAdvancedSettings_TypeDefinitionIndex = 40395;
+inline static constexpr unsigned int AkCommonAdvancedSettings_TypeDefinitionIndex = 41222;
 
 class AkCommonAdvancedSettings : public ::System::Object
 {
@@ -43,29 +43,29 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCOMMONADVANCEDSETTINGS__CTOR_OFFSET))(this);
 	}
 
-	::System::Void CopyTo(::AkDeviceSettings* settings)
+	::System::Void CopyTo(::AkDeviceSettings* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkDeviceSettings*))((::PBYTE)hIl2Cpp + AKCOMMONADVANCEDSETTINGS_COPYTO_OFFSET))(this, settings);
+		return ((::System::Void(*)(::PVOID, ::AkDeviceSettings*))((::PBYTE)hIl2Cpp + AKCOMMONADVANCEDSETTINGS_COPYTO_OFFSET))(this, a1);
 	}
 
-	::System::Void CopyTo_1(::AkInitSettings* settings)
+	::System::Void CopyTo_1(::AkInitSettings* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkInitSettings*))((::PBYTE)hIl2Cpp + AKCOMMONADVANCEDSETTINGS_COPYTO_1_OFFSET))(this, settings);
+		return ((::System::Void(*)(::PVOID, ::AkInitSettings*))((::PBYTE)hIl2Cpp + AKCOMMONADVANCEDSETTINGS_COPYTO_1_OFFSET))(this, a1);
 	}
 
-	::System::Void CopyTo_2(::AkPlatformInitSettings* settings)
+	::System::Void CopyTo_2(::AkPlatformInitSettings* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkPlatformInitSettings*))((::PBYTE)hIl2Cpp + AKCOMMONADVANCEDSETTINGS_COPYTO_2_OFFSET))(this, settings);
+		return ((::System::Void(*)(::PVOID, ::AkPlatformInitSettings*))((::PBYTE)hIl2Cpp + AKCOMMONADVANCEDSETTINGS_COPYTO_2_OFFSET))(this, a1);
 	}
 
-	::System::Void CopyTo_3(::AkSpatialAudioInitSettings* settings)
+	::System::Void CopyTo_3(::AkSpatialAudioInitSettings* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkSpatialAudioInitSettings*))((::PBYTE)hIl2Cpp + AKCOMMONADVANCEDSETTINGS_COPYTO_3_OFFSET))(this, settings);
+		return ((::System::Void(*)(::PVOID, ::AkSpatialAudioInitSettings*))((::PBYTE)hIl2Cpp + AKCOMMONADVANCEDSETTINGS_COPYTO_3_OFFSET))(this, a1);
 	}
 
-	::System::Void CopyTo_4(::AkUnityPlatformSpecificSettings* settings)
+	::System::Void CopyTo_4(::AkUnityPlatformSpecificSettings* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AkUnityPlatformSpecificSettings*))((::PBYTE)hIl2Cpp + AKCOMMONADVANCEDSETTINGS_COPYTO_4_OFFSET))(this, settings);
+		return ((::System::Void(*)(::PVOID, ::AkUnityPlatformSpecificSettings*))((::PBYTE)hIl2Cpp + AKCOMMONADVANCEDSETTINGS_COPYTO_4_OFFSET))(this, a1);
 	}
 
 	::System::Void Validate()

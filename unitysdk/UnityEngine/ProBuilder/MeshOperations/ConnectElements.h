@@ -16,66 +16,66 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 namespace UnityEngine::ProBuilder::MeshOperations { class ConnectFaceRebuildData; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTEDGESINFACE_1_OFFSET UNITYSDK_OFFSET(0x1A274810)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTEDGESINFACE_OFFSET UNITYSDK_OFFSET(0x1A2750B0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTINDEXESPERFACE_1_OFFSET UNITYSDK_OFFSET(0x1A272F40)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTINDEXESPERFACE_OFFSET UNITYSDK_OFFSET(0x1A273940)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_1_OFFSET UNITYSDK_OFFSET(0x1A271B60)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_2_OFFSET UNITYSDK_OFFSET(0x1A271BC0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_3_OFFSET UNITYSDK_OFFSET(0x1A26FFB0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_OFFSET UNITYSDK_OFFSET(0x1A26EFF0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_INSERTVERTICES_OFFSET UNITYSDK_OFFSET(0x1A2743A0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTEDGESINFACE_1_OFFSET UNITYSDK_OFFSET(0x1B0D8D80)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTEDGESINFACE_OFFSET UNITYSDK_OFFSET(0x1B0D9AA0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTINDEXESPERFACE_1_OFFSET UNITYSDK_OFFSET(0x1B0D6D00)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTINDEXESPERFACE_OFFSET UNITYSDK_OFFSET(0x1B0D7BC0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_1_OFFSET UNITYSDK_OFFSET(0x1B0D5B00)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_2_OFFSET UNITYSDK_OFFSET(0x1B0D5B60)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_3_OFFSET UNITYSDK_OFFSET(0x1B0D3D30)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_OFFSET UNITYSDK_OFFSET(0x1B0D2F80)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_INSERTVERTICES_OFFSET UNITYSDK_OFFSET(0x1B0D86F0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int ConnectElements_TypeDefinitionIndex = 40040;
+	inline static constexpr unsigned int ConnectElements_TypeDefinitionIndex = 40867;
 
 	class ConnectElements : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces)
+		static ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* Connect(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* a2)
 		{
-			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_OFFSET))(mesh, faces);
+			return ((::Il2CppArray<::UnityEngine::ProBuilder::Face*>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::SimpleTuple_2<::Il2CppArray<::UnityEngine::ProBuilder::Face*>*, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*> Connect_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges)
+		static ::UnityEngine::ProBuilder::SimpleTuple_2<::Il2CppArray<::UnityEngine::ProBuilder::Face*>*, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*> Connect_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* a2)
 		{
-			return ((::UnityEngine::ProBuilder::SimpleTuple_2<::Il2CppArray<::UnityEngine::ProBuilder::Face*>*, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*>(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_1_OFFSET))(mesh, edges);
+			return ((::UnityEngine::ProBuilder::SimpleTuple_2<::Il2CppArray<::UnityEngine::ProBuilder::Face*>*, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*>(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_1_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::System::Int32>* Connect_2(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::System::Int32>* indexes)
+		static ::Il2CppArray<::System::Int32>* Connect_2(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2)
 		{
-			return ((::Il2CppArray<::System::Int32>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_2_OFFSET))(mesh, indexes);
+			return ((::Il2CppArray<::System::Int32>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_2_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::ActionResult* Connect_3(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*& addedFaces, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*& connections, ::System::Boolean returnFaces, ::System::Boolean returnEdges, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* faceMask)
+		static ::UnityEngine::ProBuilder::ActionResult* Connect_3(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* a2, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*& a3, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*& a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* a7)
 		{
-			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*&, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*&, ::System::Boolean, ::System::Boolean, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_3_OFFSET))(mesh, edges, addedFaces, connections, returnFaces, returnEdges, faceMask);
+			return ((::UnityEngine::ProBuilder::ActionResult*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>*&, ::Il2CppArray<::UnityEngine::ProBuilder::Edge>*&, ::System::Boolean, ::System::Boolean, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECT_3_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectEdgesInFace(::UnityEngine::ProBuilder::Face* face, ::UnityEngine::ProBuilder::WingedEdge* a, ::UnityEngine::ProBuilder::WingedEdge* b, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectEdgesInFace(::UnityEngine::ProBuilder::Face* a1, ::UnityEngine::ProBuilder::WingedEdge* a2, ::UnityEngine::ProBuilder::WingedEdge* a3, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* a4)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*(*)(::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTEDGESINFACE_OFFSET))(face, a, b, vertices);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*(*)(::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTEDGESINFACE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectEdgesInFace_1(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* edges, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectEdgesInFace_1(::UnityEngine::ProBuilder::Face* a1, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* a2, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* a3)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*(*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTEDGESINFACE_1_OFFSET))(face, edges, vertices);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*(*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTEDGESINFACE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean InsertVertices(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* edges, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*& data)
+		static ::System::Boolean InsertVertices(::UnityEngine::ProBuilder::Face* a1, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* a2, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* a3, ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*& a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_INSERTVERTICES_OFFSET))(face, edges, vertices, data);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_INSERTVERTICES_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectIndexesPerFace(::UnityEngine::ProBuilder::Face* face, ::System::Int32 a, ::System::Int32 b, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* lookup)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectIndexesPerFace(::UnityEngine::ProBuilder::Face* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* a4, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a5)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*(*)(::UnityEngine::ProBuilder::Face*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTINDEXESPERFACE_OFFSET))(face, a, b, vertices, lookup);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*(*)(::UnityEngine::ProBuilder::Face*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTINDEXESPERFACE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectIndexesPerFace_1(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<::System::Int32>* indexes, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* lookup, ::System::Int32 sharedIndexOffset)
+		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* ConnectIndexesPerFace_1(::UnityEngine::ProBuilder::Face* a1, ::System::Collections::Generic::List_1<::System::Int32>* a2, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a4, ::System::Int32 a5)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*(*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTINDEXESPERFACE_1_OFFSET))(face, indexes, vertices, lookup, sharedIndexOffset);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*(*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS_CONNECTINDEXESPERFACE_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

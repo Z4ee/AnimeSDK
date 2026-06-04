@@ -8,36 +8,36 @@
 namespace Epic::OnlineServices { class ProductUserId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F10650)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_BLOCKED_OFFSET UNITYSDK_OFFSET(0x8F10630)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8F105B0)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F105D0)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_PARTICIPANTID_OFFSET UNITYSDK_OFFSET(0x8F10610)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F10590)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x8F105F0)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8F10F40)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_BLOCKED_OFFSET UNITYSDK_OFFSET(0x8F10640)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8F105C0)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F105E0)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8F10670)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_PARTICIPANTID_OFFSET UNITYSDK_OFFSET(0x8F10620)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8F105A0)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0x8F10600)
-#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8F11080)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA3387D0)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_BLOCKED_OFFSET UNITYSDK_OFFSET(0xA3387B0)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA338730)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA338750)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_PARTICIPANTID_OFFSET UNITYSDK_OFFSET(0xA338790)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA338710)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0xA338770)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA3390C0)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_BLOCKED_OFFSET UNITYSDK_OFFSET(0xA3387C0)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA338740)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA338760)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA3387F0)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_PARTICIPANTID_OFFSET UNITYSDK_OFFSET(0xA3387A0)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA338720)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_ROOMNAME_OFFSET UNITYSDK_OFFSET(0xA338780)
+#define EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA339200)
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int BlockParticipantCallbackInfo_TypeDefinitionIndex = 41522;
+	inline static constexpr unsigned int BlockParticipantCallbackInfo_TypeDefinitionIndex = 42325;
 
 	class BlockParticipantCallbackInfo : public ::System::Object
 	{
 	public:
 		::System::Object* _ClientData_k__BackingField; // 0x10
-		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x18
+		::System::String* _RoomName_k__BackingField; // 0x18
 		::Epic::OnlineServices::ProductUserId* _ParticipantId_k__BackingField; // 0x20
-		::System::String* _RoomName_k__BackingField; // 0x28
-		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x30
-		::System::Boolean _Blocked_k__BackingField; // 0x34
+		::Epic::OnlineServices::ProductUserId* _LocalUserId_k__BackingField; // 0x28
+		::System::Boolean _Blocked_k__BackingField; // 0x30
+		::Epic::OnlineServices::Result _ResultCode_k__BackingField; // 0x34
 
 		::System::Void _ctor()
 		{
@@ -49,9 +49,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -59,9 +59,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_LocalUserId()
@@ -69,9 +69,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RoomName()
@@ -79,9 +79,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_ROOMNAME_OFFSET))(this);
 		}
 
-		::System::Void set_RoomName(::System::String* value)
+		::System::Void set_RoomName(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_ROOMNAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_ROOMNAME_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::ProductUserId* get_ParticipantId()
@@ -89,9 +89,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_PARTICIPANTID_OFFSET))(this);
 		}
 
-		::System::Void set_ParticipantId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_ParticipantId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_PARTICIPANTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_PARTICIPANTID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Blocked()
@@ -99,9 +99,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GET_BLOCKED_OFFSET))(this);
 		}
 
-		::System::Void set_Blocked(::System::Boolean value)
+		::System::Void set_Blocked(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_BLOCKED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_BLOCKED_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -109,14 +109,14 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::RTC::BlockParticipantCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::RTC::BlockParticipantCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::RTC::BlockParticipantCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::RTC::BlockParticipantCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_BLOCKPARTICIPANTCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

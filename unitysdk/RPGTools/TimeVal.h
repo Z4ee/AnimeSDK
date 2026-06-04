@@ -4,7 +4,7 @@
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int TimeVal_TypeDefinitionIndex = 40985;
+	inline static constexpr unsigned int TimeVal_TypeDefinitionIndex = 44283;
 
 	struct alignas(8) TimeVal
 	{

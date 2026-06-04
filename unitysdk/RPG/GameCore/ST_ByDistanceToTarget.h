@@ -5,15 +5,18 @@
 #include "unitysdk/RPG/GameCore/ST_TargetPointType.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_BYDISTANCETOTARGET_METHOD_4_1CCEE9D74F80E571_OFFSET UNITYSDK_OFFSET(0x18DEC9A0)
-#define RPG_GAMECORE_ST_BYDISTANCETOTARGET_METHOD_4_A9F5D2766C667E10_OFFSET UNITYSDK_OFFSET(0x18DEC8D0)
-#define RPG_GAMECORE_ST_BYDISTANCETOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x18DEC950)
+#define RPG_GAMECORE_ST_BYDISTANCETOTARGET_METHOD_4_1CCEE9D74F80E571_OFFSET UNITYSDK_OFFSET(0x19C12230)
+#define RPG_GAMECORE_ST_BYDISTANCETOTARGET_METHOD_4_A7939EAC42D640D3_OFFSET UNITYSDK_OFFSET(0x19C124E0)
+#define RPG_GAMECORE_ST_BYDISTANCETOTARGET_METHOD_4_A9F5D2766C667E10_OFFSET UNITYSDK_OFFSET(0x19C12160)
+#define RPG_GAMECORE_ST_BYDISTANCETOTARGET_METHOD_4_D3CB2C553F72DD32_OFFSET UNITYSDK_OFFSET(0x19C12560)
+#define RPG_GAMECORE_ST_BYDISTANCETOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C121E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_ByDistanceToTarget_TypeDefinitionIndex = 19004;
+	inline static constexpr unsigned int ST_ByDistanceToTarget_TypeDefinitionIndex = 18954;
 
 	class ST_ByDistanceToTarget : public ::RPG::GameCore::PredicateConfig
 	{
@@ -37,6 +40,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_4_1CCEE9D74F80E571(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_ByDistanceToTarget* a2)
 		{
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_ByDistanceToTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYDISTANCETOTARGET_METHOD_4_1CCEE9D74F80E571_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_A7939EAC42D640D3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ST_ByDistanceToTarget*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ST_ByDistanceToTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYDISTANCETOTARGET_METHOD_4_A7939EAC42D640D3_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_D3CB2C553F72DD32(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ST_ByDistanceToTarget* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ST_ByDistanceToTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYDISTANCETOTARGET_METHOD_4_D3CB2C553F72DD32_OFFSET))(a1, a2);
 		}
 	};
 }

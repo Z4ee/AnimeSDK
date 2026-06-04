@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ComplexSkillAIFactor; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUP_METHOD_2_D47D7D5355E7CA17_OFFSET UNITYSDK_OFFSET(0x18829730)
-#define RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x188298D0)
+#define RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUP_METHOD_2_79348BA9B6A1295A_OFFSET UNITYSDK_OFFSET(0x1966A420)
+#define RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1966A5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIFactorGroup_TypeDefinitionIndex = 14731;
+	inline static constexpr unsigned int ComplexSkillAIFactorGroup_TypeDefinitionIndex = 14796;
 
 	class ComplexSkillAIFactorGroup : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D47D7D5355E7CA17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIFactorGroup*& a2)
+		static ::System::Void Method_2_79348BA9B6A1295A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIFactorGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIFactorGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUP_METHOD_2_D47D7D5355E7CA17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIFactorGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIFACTORGROUP_METHOD_2_79348BA9B6A1295A_OFFSET))(a1, a2);
 		}
 	};
 }

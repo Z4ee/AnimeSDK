@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define UNITYENGINE_TIMELINE_WEIGHTUTILITY_NORMALIZEMIXER_OFFSET UNITYSDK_OFFSET(0x1A3D6950)
+#define UNITYENGINE_TIMELINE_WEIGHTUTILITY_NORMALIZEMIXER_OFFSET UNITYSDK_OFFSET(0x1B22B0E0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int WeightUtility_TypeDefinitionIndex = 35646;
+	inline static constexpr unsigned int WeightUtility_TypeDefinitionIndex = 35946;
 
 	class WeightUtility : public ::System::Object
 	{
 	public:
-		static ::System::Single NormalizeMixer(::UnityEngine::Playables::Playable mixer)
+		static ::System::Single NormalizeMixer(::UnityEngine::Playables::Playable a1)
 		{
-			return ((::System::Single(*)(::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_WEIGHTUTILITY_NORMALIZEMIXER_OFFSET))(mixer);
+			return ((::System::Single(*)(::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_WEIGHTUTILITY_NORMALIZEMIXER_OFFSET))(a1);
 		}
 	};
 }

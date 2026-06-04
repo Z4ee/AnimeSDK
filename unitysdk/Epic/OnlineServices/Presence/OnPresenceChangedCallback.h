@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x8F05AB0)
-#define EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x8F05AE0)
-#define EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x8F05560)
-#define EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x8F05540)
+#define EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA32F780)
+#define EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA32F7B0)
+#define EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xA32F770)
+#define EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA32F680)
 
 namespace Epic::OnlineServices::Presence
 {
-	inline static constexpr unsigned int OnPresenceChangedCallback_TypeDefinitionIndex = 41596;
+	inline static constexpr unsigned int OnPresenceChangedCallback_TypeDefinitionIndex = 42399;
 
 	class OnPresenceChangedCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Epic::OnlineServices::Presence::PresenceChangedCallbackInfo* data)
+		::System::Void Invoke(::Epic::OnlineServices::Presence::PresenceChangedCallbackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceChangedCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceChangedCallbackInfo*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Presence::PresenceChangedCallbackInfo* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Epic::OnlineServices::Presence::PresenceChangedCallbackInfo* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceChangedCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Epic::OnlineServices::Presence::PresenceChangedCallbackInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PRESENCE_ONPRESENCECHANGEDCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

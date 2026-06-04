@@ -4,24 +4,24 @@
 
 namespace System { class String; }
 
-#define SRF_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19EA3690)
-#define SRF_JSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x19EA3850)
+#define SRF_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1AD18F60)
+#define SRF_JSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1AD19140)
 
 namespace SRF
 {
-	inline static constexpr unsigned int Json_TypeDefinitionIndex = 33266;
+	inline static constexpr unsigned int Json_TypeDefinitionIndex = 33548;
 
 	class Json : public ::System::Object
 	{
 	public:
-		static ::System::Object* Deserialize(::System::String* json)
+		static ::System::Object* Deserialize(::System::String* a1)
 		{
-			return ((::System::Object*(*)(::System::String*))((::PBYTE)hIl2Cpp + SRF_JSON_DESERIALIZE_OFFSET))(json);
+			return ((::System::Object*(*)(::System::String*))((::PBYTE)hIl2Cpp + SRF_JSON_DESERIALIZE_OFFSET))(a1);
 		}
 
-		static ::System::String* Serialize(::System::Object* obj)
+		static ::System::String* Serialize(::System::Object* a1)
 		{
-			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZE_OFFSET))(obj);
+			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZE_OFFSET))(a1);
 		}
 	};
 }

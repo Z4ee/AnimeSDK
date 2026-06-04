@@ -3,37 +3,37 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/AttributeTargets.h"
 
-#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_GET_ALLOWMULTIPLE_OFFSET UNITYSDK_OFFSET(0x177E40F0)
-#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_GET_INHERITED_OFFSET UNITYSDK_OFFSET(0x177E4110)
-#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_ALLOWMULTIPLE_OFFSET UNITYSDK_OFFSET(0x177E4100)
-#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_INHERITED_OFFSET UNITYSDK_OFFSET(0x177E4120)
-#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x177E4130)
-#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x177E40E0)
-#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x177E40D0)
+#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_GET_ALLOWMULTIPLE_OFFSET UNITYSDK_OFFSET(0x1859DEE0)
+#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_GET_INHERITED_OFFSET UNITYSDK_OFFSET(0x1859DF00)
+#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_ALLOWMULTIPLE_OFFSET UNITYSDK_OFFSET(0x1859DEF0)
+#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_INHERITED_OFFSET UNITYSDK_OFFSET(0x1859DF10)
+#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1859DF20)
+#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1859DED0)
+#define SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1859DEC0)
 
 namespace System
 {
-	inline static constexpr unsigned int AttributeUsageAttribute_TypeDefinitionIndex = 203;
+	inline static constexpr unsigned int AttributeUsageAttribute_TypeDefinitionIndex = 202;
 
 	class AttributeUsageAttribute : public ::System::Attribute
 	{
 	public:
 		static ::System::AttributeUsageAttribute** StaticGet_Default()
 		{
-			return (::System::AttributeUsageAttribute**)Il2CppClass::FromTypeDefinitionIndex(AttributeUsageAttribute_TypeDefinitionIndex)->GetStaticField(0x19F0);
+			return (::System::AttributeUsageAttribute**)Il2CppClass::FromTypeDefinitionIndex(AttributeUsageAttribute_TypeDefinitionIndex)->GetStaticField(0x3C10);
 		}
-		::System::AttributeTargets m_attributeTarget; // 0x10
-		::System::Boolean m_inherited; // 0x14
-		::System::Boolean m_allowMultiple; // 0x15
+		::System::Boolean m_allowMultiple; // 0x10
+		::System::Boolean m_inherited; // 0x11
+		::System::AttributeTargets m_attributeTarget; // 0x14
 
-		::System::Void _ctor(::System::AttributeTargets validOn)
+		::System::Void _ctor(::System::AttributeTargets a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::AttributeTargets))((::PBYTE)hIl2Cpp + SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CTOR_OFFSET))(this, validOn);
+			return ((::System::Void(*)(::PVOID, ::System::AttributeTargets))((::PBYTE)hIl2Cpp + SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::AttributeTargets validOn, ::System::Boolean allowMultiple, ::System::Boolean inherited)
+		::System::Void _ctor_1(::System::AttributeTargets a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::AttributeTargets, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CTOR_1_OFFSET))(this, validOn, allowMultiple, inherited);
+			return ((::System::Void(*)(::PVOID, ::System::AttributeTargets, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ATTRIBUTEUSAGEATTRIBUTE__CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
@@ -46,9 +46,9 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_GET_ALLOWMULTIPLE_OFFSET))(this);
 		}
 
-		::System::Void set_AllowMultiple(::System::Boolean value)
+		::System::Void set_AllowMultiple(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_ALLOWMULTIPLE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_ALLOWMULTIPLE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Inherited()
@@ -56,9 +56,9 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_GET_INHERITED_OFFSET))(this);
 		}
 
-		::System::Void set_Inherited(::System::Boolean value)
+		::System::Void set_Inherited(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_INHERITED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ATTRIBUTEUSAGEATTRIBUTE_SET_INHERITED_OFFSET))(this, a1);
 		}
 	};
 }

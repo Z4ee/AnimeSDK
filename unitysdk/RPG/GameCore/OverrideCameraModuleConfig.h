@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_OVERRIDECAMERAMODULECONFIG_METHOD_2_EB8D532763C31D80_OFFSET UNITYSDK_OFFSET(0x18BCB450)
-#define RPG_GAMECORE_OVERRIDECAMERAMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18BCB560)
+#define RPG_GAMECORE_OVERRIDECAMERAMODULECONFIG_METHOD_2_EB8D532763C31D80_OFFSET UNITYSDK_OFFSET(0x199DCE40)
+#define RPG_GAMECORE_OVERRIDECAMERAMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199DCF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideCameraModuleConfig_TypeDefinitionIndex = 21062;
+	inline static constexpr unsigned int OverrideCameraModuleConfig_TypeDefinitionIndex = 20969;
 
 	class OverrideCameraModuleConfig : public ::RPG::GameCore::JsonConfig
 	{

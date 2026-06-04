@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Move
 {
-	inline static constexpr unsigned int MoveState_TypeDefinitionIndex = 39470;
+	inline static constexpr unsigned int MoveState_TypeDefinitionIndex = 40243;
 
 	enum class MoveState : ::System::Int32
 	{

@@ -1,0 +1,109 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/PixAirEquipTag.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+
+class Class_1_2FDE33CCAE591AA8;
+class Class_1_5F4D64A4B97E38F9;
+namespace RPG::Client::PixAir { class PixAirEquipmentGhost; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::ComponentModel { class PropertyChangedEventArgs; }
+
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xC3C1370)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_CLOSECOMMAND_OFFSET UNITYSDK_OFFSET(0xC3C1820)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_COOLDOWN_OFFSET UNITYSDK_OFFSET(0xC3C0DD0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xC3C1760)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_ISPLAYEREQUIPPED_OFFSET UNITYSDK_OFFSET(0xC3B6DB0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC3C0D10)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_SKILLDESCRIPTION_OFFSET UNITYSDK_OFFSET(0xC3C0D70)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_STARLEVEL_OFFSET UNITYSDK_OFFSET(0xC3C17C0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_TAGS_OFFSET UNITYSDK_OFFSET(0xC3C0FB0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_SET_CLOSECOMMAND_OFFSET UNITYSDK_OFFSET(0xC3C1830)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC3C1430)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL__INIT_OFFSET UNITYSDK_OFFSET(0xC3C1450)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL__ONCLOSE_OFFSET UNITYSDK_OFFSET(0xC3C16D0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL__ONGHOSTPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0xC3C15E0)
+
+namespace RPG::Client::PixAir
+{
+	inline static constexpr unsigned int PixAirEquipInfoViewModel_TypeDefinitionIndex = 73586;
+
+	class PixAirEquipInfoViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::RPG::Client::PixAir::PixAirEquipmentGhost* _Ghost; // 0x20
+		::Class_1_2FDE33CCAE591AA8* _CloseCommand_k__BackingField; // 0x28
+		::Class_1_5F4D64A4B97E38F9* _UIMessenger; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::PixAir::PixAirEquipInfoViewModel* Create(::RPG::Client::PixAir::PixAirEquipmentGhost* a1, ::Class_1_5F4D64A4B97E38F9* a2)
+		{
+			return ((::RPG::Client::PixAir::PixAirEquipInfoViewModel*(*)(::RPG::Client::PixAir::PixAirEquipmentGhost*, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_CREATE_OFFSET))(a1, a2);
+		}
+
+		::System::Void _Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL__INIT_OFFSET))(this);
+		}
+
+		::System::Void _OnGhostPropertyChanged(::System::Object* a1, ::System::ComponentModel::PropertyChangedEventArgs* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ComponentModel::PropertyChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL__ONGHOSTPROPERTYCHANGED_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _OnClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL__ONCLOSE_OFFSET))(this);
+		}
+
+		::System::String* get_Name()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_NAME_OFFSET))(this);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::Int32 get_StarLevel()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_STARLEVEL_OFFSET))(this);
+		}
+
+		::System::String* get_SkillDescription()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_SKILLDESCRIPTION_OFFSET))(this);
+		}
+
+		::System::Single get_CoolDown()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_COOLDOWN_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* get_Tags()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::PixAirEquipTag>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_TAGS_OFFSET))(this);
+		}
+
+		::Class_1_2FDE33CCAE591AA8* get_CloseCommand()
+		{
+			return ((::Class_1_2FDE33CCAE591AA8*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_CLOSECOMMAND_OFFSET))(this);
+		}
+
+		::System::Void set_CloseCommand(::Class_1_2FDE33CCAE591AA8* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_2FDE33CCAE591AA8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_SET_CLOSECOMMAND_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsPlayerEquipped()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOVIEWMODEL_GET_ISPLAYEREQUIPPED_OFFSET))(this);
+		}
+	};
+}

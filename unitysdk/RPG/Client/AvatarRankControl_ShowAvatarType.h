@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarRankControl_ShowAvatarType_TypeDefinitionIndex = 65472;
+	inline static constexpr unsigned int AvatarRankControl_ShowAvatarType_TypeDefinitionIndex = 66402;
 
 	enum class AvatarRankControl_ShowAvatarType : ::System::Int32
 	{

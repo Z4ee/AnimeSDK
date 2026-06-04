@@ -5,33 +5,33 @@
 namespace UnityEngine::Rendering { class BatchAnimation; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PAUSE_OFFSET UNITYSDK_OFFSET(0x1A474B60)
-#define UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PLAYALL_OFFSET UNITYSDK_OFFSET(0x1A474B50)
-#define UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PLAY_OFFSET UNITYSDK_OFFSET(0x1A474B40)
+#define UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PAUSE_OFFSET UNITYSDK_OFFSET(0x1B2C3CC0)
+#define UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PLAYALL_OFFSET UNITYSDK_OFFSET(0x1B2C3CB0)
+#define UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PLAY_OFFSET UNITYSDK_OFFSET(0x1B2C3CA0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BABlendNodeParamaters_TypeDefinitionIndex = 4602;
+	inline static constexpr unsigned int BABlendNodeParamaters_TypeDefinitionIndex = 4776;
 
 	struct alignas(1) BABlendNodeParamaters
 	{
 		/*
-		static ::System::Int32 Play(::UnityEngine::Rendering::BatchAnimationInstance* instance, ::UnityEngine::Rendering::BANodeHash& nodeHash, ::System::Single speed)
+		static ::System::Int32 Play(::UnityEngine::Rendering::BatchAnimationInstance* a1, ::UnityEngine::Rendering::BANodeHash& a2, ::System::Single a3)
 		{
-			return ((::System::Int32(*)(::UnityEngine::Rendering::BatchAnimationInstance*, ::UnityEngine::Rendering::BANodeHash&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PLAY_OFFSET))(instance, nodeHash, speed);
+			return ((::System::Int32(*)(::UnityEngine::Rendering::BatchAnimationInstance*, ::UnityEngine::Rendering::BANodeHash&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PLAY_OFFSET))(a1, a2, a3);
 		}
 		*/
 
 		/*
-		static ::System::Void PlayAll(::UnityEngine::Rendering::BatchAnimation* batchAnimation, ::UnityEngine::Rendering::BANodeHash& blendNode, ::UnityEngine::Rendering::BANodeHash& clipNode0, ::UnityEngine::Rendering::BANodeHash& clipNode1, ::System::Int32 clipIndex, ::System::Single speed)
+		static ::System::Void PlayAll(::UnityEngine::Rendering::BatchAnimation* a1, ::UnityEngine::Rendering::BANodeHash& a2, ::UnityEngine::Rendering::BANodeHash& a3, ::UnityEngine::Rendering::BANodeHash& a4, ::System::Int32 a5, ::System::Single a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::UnityEngine::Rendering::BANodeHash&, ::UnityEngine::Rendering::BANodeHash&, ::UnityEngine::Rendering::BANodeHash&, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PLAYALL_OFFSET))(batchAnimation, blendNode, clipNode0, clipNode1, clipIndex, speed);
+			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::UnityEngine::Rendering::BANodeHash&, ::UnityEngine::Rendering::BANodeHash&, ::UnityEngine::Rendering::BANodeHash&, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PLAYALL_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 		*/
 
-		static ::System::Void Pause(::UnityEngine::Rendering::BatchAnimation* batchanimation, ::System::Int32 playState)
+		static ::System::Void Pause(::UnityEngine::Rendering::BatchAnimation* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PAUSE_OFFSET))(batchanimation, playState);
+			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BABLENDNODEPARAMATERS_PAUSE_OFFSET))(a1, a2);
 		}
 	};
 }

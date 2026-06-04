@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/GameCore/ConfigDataPoolDictionaryEnumeratorKeyValuePoolMember_2.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_0_16E4307DCC419505_16;
+class Class_1_43BD383C98B4C0C5_3;
 namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolDictionaryKeysEnumeratorKeyValuePoolMember_2_TypeDefinitionIndex = 23528;
+	inline static constexpr unsigned int ConfigDataPoolDictionaryKeysEnumeratorKeyValuePoolMember_2_TypeDefinitionIndex = 10383;
 
 	template <typename TKey, typename TValue>
 	struct ConfigDataPoolDictionaryKeysEnumeratorKeyValuePoolMember_2

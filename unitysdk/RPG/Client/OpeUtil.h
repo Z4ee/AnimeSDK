@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/GachaType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_AC6C63F15E9794D3;
+class Class_1_92B1BD6FC8375724;
 namespace RPG::Client { class ParseUrlCallBack; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
@@ -11,154 +11,154 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define RPG_CLIENT_OPEUTIL_CLEARSETDEVICECOROUTINE_OFFSET UNITYSDK_OFFSET(0xABF4B70)
-#define RPG_CLIENT_OPEUTIL_CONVERTENCRYPTURL_OFFSET UNITYSDK_OFFSET(0xABF4EF0)
-#define RPG_CLIENT_OPEUTIL_CONVERTEVENTURL_OFFSET UNITYSDK_OFFSET(0xABF1E40)
-#define RPG_CLIENT_OPEUTIL_DEVICEINFOURL_OFFSET UNITYSDK_OFFSET(0xABF4D80)
-#define RPG_CLIENT_OPEUTIL_GENERALURLPARAMSTRING_OFFSET UNITYSDK_OFFSET(0xABF1950)
-#define RPG_CLIENT_OPEUTIL_GENERALURL_1_OFFSET UNITYSDK_OFFSET(0xABF1BC0)
-#define RPG_CLIENT_OPEUTIL_GENERALURL_OFFSET UNITYSDK_OFFSET(0xABD53B0)
-#define RPG_CLIENT_OPEUTIL_ISGPSINFONEEDED_OFFSET UNITYSDK_OFFSET(0xABF5210)
-#define RPG_CLIENT_OPEUTIL_OPENBANAPPEALURL_OFFSET UNITYSDK_OFFSET(0xABF1DD0)
-#define RPG_CLIENT_OPEUTIL_OPENDISPATCHURL_OFFSET UNITYSDK_OFFSET(0xABF5C60)
-#define RPG_CLIENT_OPEUTIL_OPENGACHADETAILURL_OFFSET UNITYSDK_OFFSET(0xABF5380)
-#define RPG_CLIENT_OPEUTIL_OPENGACHAHISTORYURL_OFFSET UNITYSDK_OFFSET(0xABF5820)
-#define RPG_CLIENT_OPEUTIL_OPENURLDIRECT_OFFSET UNITYSDK_OFFSET(0xABF2D10)
-#define RPG_CLIENT_OPEUTIL_OPENURLINEMBEDDEDBROWSER_OFFSET UNITYSDK_OFFSET(0xABF2C80)
-#define RPG_CLIENT_OPEUTIL_OPENURLINEXTERNALBROWSER_OFFSET UNITYSDK_OFFSET(0xABF1D40)
-#define RPG_CLIENT_OPEUTIL_OPENURLWITHLOGINSTATE_OFFSET UNITYSDK_OFFSET(0xABF2DA0)
-#define RPG_CLIENT_OPEUTIL_PARSEURL_1_OFFSET UNITYSDK_OFFSET(0xABF17B0)
-#define RPG_CLIENT_OPEUTIL_PARSEURL_OFFSET UNITYSDK_OFFSET(0xABD4E50)
-#define RPG_CLIENT_OPEUTIL_REPEATSENDDEVICEINFO_OFFSET UNITYSDK_OFFSET(0xABF4CE0)
-#define RPG_CLIENT_OPEUTIL_SENDDEVICEINFO_OFFSET UNITYSDK_OFFSET(0xABF49F0)
-#define RPG_CLIENT_OPEUTIL_SETUPHTTPGAMEPARAMS_OFFSET UNITYSDK_OFFSET(0xABF65C0)
-#define RPG_CLIENT_OPEUTIL_SETUPHTTPRISKCONTROLPARAMS_OFFSET UNITYSDK_OFFSET(0xABF5FD0)
-#define RPG_CLIENT_OPEUTIL_SETUPRESERVEDPARAM_OFFSET UNITYSDK_OFFSET(0xABF3DD0)
-#define RPG_CLIENT_OPEUTIL_SWAPSTR_OFFSET UNITYSDK_OFFSET(0xABF4800)
-#define RPG_CLIENT_OPEUTIL_TESTOPENURL_OFFSET UNITYSDK_OFFSET(0xABF1C40)
-#define RPG_CLIENT_OPEUTIL__ADDAUTHKEYPARAM_OFFSET UNITYSDK_OFFSET(0xABF3330)
-#define RPG_CLIENT_OPEUTIL__ADDCLIIDPARAM_OFFSET UNITYSDK_OFFSET(0xABF3A90)
-#define RPG_CLIENT_OPEUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0xABF6880)
-#define RPG_CLIENT_OPEUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0xABF6870)
-#define RPG_CLIENT_OPEUTIL__GETCLIID_OFFSET UNITYSDK_OFFSET(0xABF4970)
-#define RPG_CLIENT_OPEUTIL__INCLUDEAUTHKEY_OFFSET UNITYSDK_OFFSET(0xABF3110)
-#define RPG_CLIENT_OPEUTIL__INTERNALOPENURL_OFFSET UNITYSDK_OFFSET(0xABF3690)
-#define RPG_CLIENT_OPEUTIL__SETUPURLPLATFORMTYPEPARAM_OFFSET UNITYSDK_OFFSET(0xABF2E20)
+#define RPG_CLIENT_OPEUTIL_CLEARSETDEVICECOROUTINE_OFFSET UNITYSDK_OFFSET(0xC3022B0)
+#define RPG_CLIENT_OPEUTIL_CONVERTENCRYPTURL_OFFSET UNITYSDK_OFFSET(0xC302630)
+#define RPG_CLIENT_OPEUTIL_CONVERTEVENTURL_OFFSET UNITYSDK_OFFSET(0xC2FF360)
+#define RPG_CLIENT_OPEUTIL_DEVICEINFOURL_OFFSET UNITYSDK_OFFSET(0xC3024C0)
+#define RPG_CLIENT_OPEUTIL_GENERALURLPARAMSTRING_OFFSET UNITYSDK_OFFSET(0xC2FEE00)
+#define RPG_CLIENT_OPEUTIL_GENERALURL_1_OFFSET UNITYSDK_OFFSET(0xC2FF0E0)
+#define RPG_CLIENT_OPEUTIL_GENERALURL_OFFSET UNITYSDK_OFFSET(0xC2FF050)
+#define RPG_CLIENT_OPEUTIL_ISGPSINFONEEDED_OFFSET UNITYSDK_OFFSET(0xC302950)
+#define RPG_CLIENT_OPEUTIL_OPENBANAPPEALURL_OFFSET UNITYSDK_OFFSET(0xC2FF2F0)
+#define RPG_CLIENT_OPEUTIL_OPENDISPATCHURL_OFFSET UNITYSDK_OFFSET(0xC3033A0)
+#define RPG_CLIENT_OPEUTIL_OPENGACHADETAILURL_OFFSET UNITYSDK_OFFSET(0xC302AB0)
+#define RPG_CLIENT_OPEUTIL_OPENGACHAHISTORYURL_OFFSET UNITYSDK_OFFSET(0xC302F40)
+#define RPG_CLIENT_OPEUTIL_OPENURLDIRECT_OFFSET UNITYSDK_OFFSET(0xC300360)
+#define RPG_CLIENT_OPEUTIL_OPENURLINEMBEDDEDBROWSER_OFFSET UNITYSDK_OFFSET(0xC3002D0)
+#define RPG_CLIENT_OPEUTIL_OPENURLINEXTERNALBROWSER_OFFSET UNITYSDK_OFFSET(0xC2FF260)
+#define RPG_CLIENT_OPEUTIL_OPENURLWITHLOGINSTATE_OFFSET UNITYSDK_OFFSET(0xC3003F0)
+#define RPG_CLIENT_OPEUTIL_PARSEURL_1_OFFSET UNITYSDK_OFFSET(0xC2FEC60)
+#define RPG_CLIENT_OPEUTIL_PARSEURL_OFFSET UNITYSDK_OFFSET(0xC2FE6E0)
+#define RPG_CLIENT_OPEUTIL_REPEATSENDDEVICEINFO_OFFSET UNITYSDK_OFFSET(0xC302420)
+#define RPG_CLIENT_OPEUTIL_SENDDEVICEINFO_OFFSET UNITYSDK_OFFSET(0xC302130)
+#define RPG_CLIENT_OPEUTIL_SETUPHTTPGAMEPARAMS_OFFSET UNITYSDK_OFFSET(0xC303C30)
+#define RPG_CLIENT_OPEUTIL_SETUPHTTPRISKCONTROLPARAMS_OFFSET UNITYSDK_OFFSET(0xC303630)
+#define RPG_CLIENT_OPEUTIL_SETUPRESERVEDPARAM_OFFSET UNITYSDK_OFFSET(0xC301580)
+#define RPG_CLIENT_OPEUTIL_SWAPSTR_OFFSET UNITYSDK_OFFSET(0xC301F40)
+#define RPG_CLIENT_OPEUTIL_TESTOPENURL_OFFSET UNITYSDK_OFFSET(0xC2FF160)
+#define RPG_CLIENT_OPEUTIL__ADDAUTHKEYPARAM_OFFSET UNITYSDK_OFFSET(0xC3009E0)
+#define RPG_CLIENT_OPEUTIL__ADDCLIIDPARAM_OFFSET UNITYSDK_OFFSET(0xC3011B0)
+#define RPG_CLIENT_OPEUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0xC303EF0)
+#define RPG_CLIENT_OPEUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0xC303EE0)
+#define RPG_CLIENT_OPEUTIL__GETCLIID_OFFSET UNITYSDK_OFFSET(0xC3020B0)
+#define RPG_CLIENT_OPEUTIL__INCLUDEAUTHKEY_OFFSET UNITYSDK_OFFSET(0xC300760)
+#define RPG_CLIENT_OPEUTIL__INTERNALOPENURL_OFFSET UNITYSDK_OFFSET(0xC300DD0)
+#define RPG_CLIENT_OPEUTIL__SETUPURLPLATFORMTYPEPARAM_OFFSET UNITYSDK_OFFSET(0xC300470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OpeUtil_TypeDefinitionIndex = 54704;
+	inline static constexpr unsigned int OpeUtil_TypeDefinitionIndex = 55431;
 
 	class OpeUtil : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_AppVersion()
+		static ::System::String** StaticGet_AUTH_APP_ID_NAME()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B360);
-		}
-		static ::System::String** StaticGet_CDKEY_URL_TO_USE()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B368);
-		}
-		static ::System::String** StaticGet_GAME_BIZ()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B370);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x685C0);
 		}
 		static ::System::String** StaticGet_CLOUD_GAME()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B378);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x685C8);
 		}
 		static ::System::String** StaticGet_ExtraDeviceInfo()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B380);
-		}
-		static ::System::String** StaticGet_DeviceID()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B388);
-		}
-		static ::System::String** StaticGet_CDKEY_URL_KEY()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B390);
-		}
-		static ::System::String** StaticGet_AUTH_APP_ID_NAME()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B398);
-		}
-		static ::System::String** StaticGet_OperatingSystem()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3A0);
-		}
-		static ::System::String** StaticGet_CHANNEL_ID()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3A8);
-		}
-		static ::System::String** StaticGet_NEW_SIGN_TYPE_VALUE()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3B0);
-		}
-		static ::UnityEngine::Coroutine** StaticGet_setInfoCoroutine()
-		{
-			return (::UnityEngine::Coroutine**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3B8);
-		}
-		static ::System::String** StaticGet_PLAT_TYPE_NAME()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3C0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_deviceParamDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3C8);
-		}
-		static ::System::String** StaticGet_DeviceFP()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3D0);
-		}
-		static ::System::String** StaticGet_DeviceName()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3D8);
-		}
-		static ::System::String** StaticGet_DeviceModel()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3E0);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_RESERVED_WORDS()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3E8);
-		}
-		static ::System::String** StaticGet_Platform()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3F0);
-		}
-		static ::System::String** StaticGet_AUTH_KEY()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B3F8);
-		}
-		static ::System::String** StaticGet_SIGN_TYPE_NAME()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B400);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x685D0);
 		}
 		static ::System::String** StaticGet_CLI_ID()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B408);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x685D8);
 		}
-		static ::System::String** StaticGet_AUTH_KEY_VERSION_NAME()
+		static ::System::String** StaticGet_CHANNEL_ID()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B410);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x685E0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_deviceParamDict()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x685E8);
+		}
+		static ::System::String** StaticGet_DeviceName()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x685F0);
 		}
 		static ::System::String** StaticGet_CDKEY_REQUEST_URL()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x5B418);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x685F8);
 		}
-		static ::System::Single* StaticGet_TrySpan()
+		static ::System::String** StaticGet_Platform()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x101C0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68600);
 		}
-		static ::System::Int32* StaticGet_TryCount()
+		static ::System::String** StaticGet_AppVersion()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x101C4);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68608);
+		}
+		static ::System::String** StaticGet_PLAT_TYPE_NAME()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68610);
+		}
+		static ::System::String** StaticGet_NEW_SIGN_TYPE_VALUE()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68618);
+		}
+		static ::System::String** StaticGet_OperatingSystem()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68620);
+		}
+		static ::System::String** StaticGet_CDKEY_URL_TO_USE()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68628);
+		}
+		static ::System::String** StaticGet_AUTH_KEY()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68630);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_RESERVED_WORDS()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68638);
+		}
+		static ::System::String** StaticGet_AUTH_KEY_VERSION_NAME()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68640);
+		}
+		static ::UnityEngine::Coroutine** StaticGet_setInfoCoroutine()
+		{
+			return (::UnityEngine::Coroutine**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68648);
+		}
+		static ::System::String** StaticGet_DeviceID()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68650);
+		}
+		static ::System::String** StaticGet_CDKEY_URL_KEY()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68658);
+		}
+		static ::System::String** StaticGet_GAME_BIZ()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68660);
+		}
+		static ::System::String** StaticGet_DeviceFP()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68668);
+		}
+		static ::System::String** StaticGet_DeviceModel()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68670);
+		}
+		static ::System::String** StaticGet_SIGN_TYPE_NAME()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x68678);
 		}
 		static ::System::Int32* StaticGet_MaxTryCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x101C8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x14070);
+		}
+		static ::System::Single* StaticGet_TrySpan()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x14074);
+		}
+		static ::System::Int32* StaticGet_TryCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpeUtil_TypeDefinitionIndex)->GetStaticField(0x14078);
 		}
 		// static const ::System::String* SIGN_KEY; // 0x0
 
@@ -172,29 +172,29 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void ParseUrl(::System::String* url, ::System::String*& baseUrl, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*& paramDict)
+		static ::System::Void ParseUrl(::System::String* a1, ::System::String*& a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*& a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*&, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_PARSEURL_OFFSET))(url, baseUrl, paramDict);
+			return ((::System::Void(*)(::System::String*, ::System::String*&, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_PARSEURL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ParseUrl_1(::System::String* url, ::System::String*& baseUrl, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*& paramDict, ::System::String*& fragment)
+		static ::System::Void ParseUrl_1(::System::String* a1, ::System::String*& a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*& a3, ::System::String*& a4)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*&, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_PARSEURL_1_OFFSET))(url, baseUrl, paramDict, fragment);
+			return ((::System::Void(*)(::System::String*, ::System::String*&, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_PARSEURL_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::String* GeneralUrlParamString(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict)
+		static ::System::String* GeneralUrlParamString(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_GENERALURLPARAMSTRING_OFFSET))(paramDict);
+			return ((::System::String*(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_GENERALURLPARAMSTRING_OFFSET))(a1);
 		}
 
-		static ::System::String* GeneralUrl(::System::String* baseUrl, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict)
+		static ::System::String* GeneralUrl(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_GENERALURL_OFFSET))(baseUrl, paramDict);
+			return ((::System::String*(*)(::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_GENERALURL_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* GeneralUrl_1(::System::String* baseUrl, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict, ::System::String* fragment)
+		static ::System::String* GeneralUrl_1(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a2, ::System::String* a3)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_GENERALURL_1_OFFSET))(baseUrl, paramDict, fragment);
+			return ((::System::String*(*)(::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_GENERALURL_1_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void TestOpenURL()
@@ -202,54 +202,54 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_TESTOPENURL_OFFSET))();
 		}
 
-		static ::System::Void OpenBanAppealUrl(::System::String* sourceUrl)
+		static ::System::Void OpenBanAppealUrl(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENBANAPPEALURL_OFFSET))(sourceUrl);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENBANAPPEALURL_OFFSET))(a1);
 		}
 
-		static ::System::Void OpenURLInExternalBrowser(::System::String* sourceUrl, ::RPG::Client::ParseUrlCallBack* callBack, ::System::Boolean addLanguage, ::System::Boolean addPlatform)
+		static ::System::Void OpenURLInExternalBrowser(::System::String* a1, ::RPG::Client::ParseUrlCallBack* a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::System::String*, ::RPG::Client::ParseUrlCallBack*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENURLINEXTERNALBROWSER_OFFSET))(sourceUrl, callBack, addLanguage, addPlatform);
+			return ((::System::Void(*)(::System::String*, ::RPG::Client::ParseUrlCallBack*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENURLINEXTERNALBROWSER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void OpenURLInEmbeddedBrowser(::System::String* sourceUrl, ::RPG::Client::ParseUrlCallBack* callBack, ::System::Boolean addLanguage, ::System::Boolean addPlatform)
+		static ::System::Void OpenURLInEmbeddedBrowser(::System::String* a1, ::RPG::Client::ParseUrlCallBack* a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::System::String*, ::RPG::Client::ParseUrlCallBack*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENURLINEMBEDDEDBROWSER_OFFSET))(sourceUrl, callBack, addLanguage, addPlatform);
+			return ((::System::Void(*)(::System::String*, ::RPG::Client::ParseUrlCallBack*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENURLINEMBEDDEDBROWSER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void OpenURLDirect(::System::String* sourceUrl, ::System::Boolean isExternalBrowser)
+		static ::System::Void OpenURLDirect(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENURLDIRECT_OFFSET))(sourceUrl, isExternalBrowser);
+			return ((::System::Void(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENURLDIRECT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void OpenURLWithLoginState(::System::String* url, ::System::Boolean isExternalBrowser)
+		static ::System::Void OpenURLWithLoginState(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENURLWITHLOGINSTATE_OFFSET))(url, isExternalBrowser);
+			return ((::System::Void(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENURLWITHLOGINSTATE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ConvertEventUrl(::System::String* sourceUrl, ::RPG::Client::ParseUrlCallBack* callBack, ::System::Boolean isExternalBrowser, ::System::Boolean addLanguage, ::System::Boolean addPlatform, ::System::Boolean hasAuthkeyInUrl)
+		static ::System::Void ConvertEventUrl(::System::String* a1, ::RPG::Client::ParseUrlCallBack* a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::System::String*, ::RPG::Client::ParseUrlCallBack*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_CONVERTEVENTURL_OFFSET))(sourceUrl, callBack, isExternalBrowser, addLanguage, addPlatform, hasAuthkeyInUrl);
+			return ((::System::Void(*)(::System::String*, ::RPG::Client::ParseUrlCallBack*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_CONVERTEVENTURL_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean _IncludeAuthkey(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict)
+		static ::System::Boolean _IncludeAuthkey(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__INCLUDEAUTHKEY_OFFSET))(paramDict);
+			return ((::System::Boolean(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__INCLUDEAUTHKEY_OFFSET))(a1);
 		}
 
-		static ::System::Void _AddAuthkeyParam(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict, ::System::String* url, ::System::Boolean skipAddAuthkey)
+		static ::System::Void _AddAuthkeyParam(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__ADDAUTHKEYPARAM_OFFSET))(paramDict, url, skipAddAuthkey);
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__ADDAUTHKEYPARAM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _AddCliIDParam(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict)
+		static ::System::Void _AddCliIDParam(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__ADDCLIIDPARAM_OFFSET))(paramDict);
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__ADDCLIIDPARAM_OFFSET))(a1);
 		}
 
-		static ::System::Void _InternalOpenUrl(::System::String* baseUrl, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict, ::System::String* fragment, ::System::Boolean isExternalBrowser, ::RPG::Client::ParseUrlCallBack* callback)
+		static ::System::Void _InternalOpenUrl(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a2, ::System::String* a3, ::System::Boolean a4, ::RPG::Client::ParseUrlCallBack* a5)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*, ::System::Boolean, ::RPG::Client::ParseUrlCallBack*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__INTERNALOPENURL_OFFSET))(baseUrl, paramDict, fragment, isExternalBrowser, callback);
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*, ::System::Boolean, ::RPG::Client::ParseUrlCallBack*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__INTERNALOPENURL_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::String* _GetCliID()
@@ -257,14 +257,14 @@ namespace RPG::Client
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__GETCLIID_OFFSET))();
 		}
 
-		static ::System::Void SendDeviceInfo(::System::String* authKey, ::System::String* cliID)
+		static ::System::Void SendDeviceInfo(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_SENDDEVICEINFO_OFFSET))(authKey, cliID);
+			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_SENDDEVICEINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::IEnumerator* RepeatSendDeviceInfo(::System::String* authKey, ::System::String* cliID)
+		static ::System::Collections::IEnumerator* RepeatSendDeviceInfo(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_REPEATSENDDEVICEINFO_OFFSET))(authKey, cliID);
+			return ((::System::Collections::IEnumerator*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_REPEATSENDDEVICEINFO_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void ClearSetDeviceCoroutine()
@@ -277,54 +277,54 @@ namespace RPG::Client
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_DEVICEINFOURL_OFFSET))();
 		}
 
-		static ::System::Void _SetupUrlPlatformTypeParam(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict)
+		static ::System::Void _SetupUrlPlatformTypeParam(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__SETUPURLPLATFORMTYPEPARAM_OFFSET))(paramDict);
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL__SETUPURLPLATFORMTYPEPARAM_OFFSET))(a1);
 		}
 
-		static ::System::Void SetupReservedParam(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*& reservedDict)
+		static ::System::Void SetupReservedParam(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*& a2)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_SETUPRESERVEDPARAM_OFFSET))(paramDict, reservedDict);
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_SETUPRESERVEDPARAM_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* ConvertEncryptUrl(::System::String* baseUrl, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict)
+		static ::System::String* ConvertEncryptUrl(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_CONVERTENCRYPTURL_OFFSET))(baseUrl, paramDict);
+			return ((::System::String*(*)(::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_CONVERTENCRYPTURL_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* SwapStr(::System::String* sourceStr)
+		static ::System::String* SwapStr(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_SWAPSTR_OFFSET))(sourceStr);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_SWAPSTR_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsGPSInfoNeeded(::System::String* sourceUrl)
+		static ::System::Boolean IsGPSInfoNeeded(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_ISGPSINFONEEDED_OFFSET))(sourceUrl);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_ISGPSINFONEEDED_OFFSET))(a1);
 		}
 
-		static ::System::Void OpenGachaDetailURL(::System::String* sourceURL)
+		static ::System::Void OpenGachaDetailURL(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENGACHADETAILURL_OFFSET))(sourceURL);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENGACHADETAILURL_OFFSET))(a1);
 		}
 
-		static ::System::Void OpenGachaHistoryURL(::System::String* sourceURL, ::RPG::GameCore::GachaType gachaType, ::System::Collections::Generic::List_1<::System::UInt32>* decideItemIDs)
+		static ::System::Void OpenGachaHistoryURL(::System::String* a1, ::RPG::GameCore::GachaType a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::RPG::GameCore::GachaType, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENGACHAHISTORYURL_OFFSET))(sourceURL, gachaType, decideItemIDs);
+			return ((::System::Void(*)(::System::String*, ::RPG::GameCore::GachaType, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENGACHAHISTORYURL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void OpenDispatchUrl(::System::String* url_key, ::System::Boolean useWebView, ::System::Boolean addLanguage, ::System::Boolean addPlatform)
+		static ::System::Void OpenDispatchUrl(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENDISPATCHURL_OFFSET))(url_key, useWebView, addLanguage, addPlatform);
+			return ((::System::Void(*)(::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_OPENDISPATCHURL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Class_1_AC6C63F15E9794D3* SetupHttpRiskControlParams(::Class_1_AC6C63F15E9794D3* req)
+		static ::Class_1_92B1BD6FC8375724* SetupHttpRiskControlParams(::Class_1_92B1BD6FC8375724* a1)
 		{
-			return ((::Class_1_AC6C63F15E9794D3*(*)(::Class_1_AC6C63F15E9794D3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_SETUPHTTPRISKCONTROLPARAMS_OFFSET))(req);
+			return ((::Class_1_92B1BD6FC8375724*(*)(::Class_1_92B1BD6FC8375724*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_SETUPHTTPRISKCONTROLPARAMS_OFFSET))(a1);
 		}
 
-		static ::Class_1_AC6C63F15E9794D3* SetupHttpGameParams(::Class_1_AC6C63F15E9794D3* req)
+		static ::Class_1_92B1BD6FC8375724* SetupHttpGameParams(::Class_1_92B1BD6FC8375724* a1)
 		{
-			return ((::Class_1_AC6C63F15E9794D3*(*)(::Class_1_AC6C63F15E9794D3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_SETUPHTTPGAMEPARAMS_OFFSET))(req);
+			return ((::Class_1_92B1BD6FC8375724*(*)(::Class_1_92B1BD6FC8375724*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPEUTIL_SETUPHTTPGAMEPARAMS_OFFSET))(a1);
 		}
 	};
 }

@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E6790)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6E6860)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6DB890)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6E6770)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B515D20)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B515DF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B50E960)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B515CA0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRChaperone__GetBoundsColor_TypeDefinitionIndex = 35752;
+	inline static constexpr unsigned int IVRChaperone__GetBoundsColor_TypeDefinitionIndex = 36052;
 
 	class IVRChaperone__GetBoundsColor : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& pOutputColorArray, ::System::Int32 nNumOutputColors, ::System::Single flCollisionBoundsFadeDistance, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& pOutputCameraColor)
+		::System::Void Invoke(::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& a1, ::System::Int32 a2, ::System::Single a3, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::System::Int32, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_INVOKE_OFFSET))(this, pOutputColorArray, nNumOutputColors, flCollisionBoundsFadeDistance, pOutputCameraColor);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::System::Int32, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& pOutputColorArray, ::System::Int32 nNumOutputColors, ::System::Single flCollisionBoundsFadeDistance, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& pOutputCameraColor, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& a1, ::System::Int32 a2, ::System::Single a3, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::System::Int32, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_BEGININVOKE_OFFSET))(this, pOutputColorArray, nNumOutputColors, flCollisionBoundsFadeDistance, pOutputCameraColor, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::System::Int32, ::System::Single, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void EndInvoke(::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& pOutputColorArray, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& pOutputCameraColor, ::System::IAsyncResult* result)
+		::System::Void EndInvoke(::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& a1, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t& a2, ::System::IAsyncResult* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_ENDINVOKE_OFFSET))(this, pOutputColorArray, pOutputCameraColor, result);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::ZenFulcrum::VR::OpenVRBinding::HmdColor_t&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__GETBOUNDSCOLOR_ENDINVOKE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

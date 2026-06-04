@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int ProtoPreconditions_TypeDefinitionIndex = 33644;
+	inline static constexpr unsigned int ProtoPreconditions_TypeDefinitionIndex = 33926;
 
 	class ProtoPreconditions : public ::System::Object
 	{

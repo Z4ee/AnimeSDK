@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Terrain; }
 
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A4F6040)
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A4F60E0)
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A4F4F90)
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F6020)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B3420C0)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B342160)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B341EF0)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B342040)
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
-	inline static constexpr unsigned int TerrainCallbacks_HeightmapChangedCallback_TypeDefinitionIndex = 5250;
+	inline static constexpr unsigned int TerrainCallbacks_HeightmapChangedCallback_TypeDefinitionIndex = 5326;
 
 	class TerrainCallbacks_HeightmapChangedCallback : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::Terrain* terrain, ::UnityEngine::RectInt heightRegion, ::System::Boolean synched)
+		::System::Void Invoke(::UnityEngine::Terrain* a1, ::UnityEngine::RectInt a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Terrain*, ::UnityEngine::RectInt, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_INVOKE_OFFSET))(this, terrain, heightRegion, synched);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Terrain*, ::UnityEngine::RectInt, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Terrain* terrain, ::UnityEngine::RectInt heightRegion, ::System::Boolean synched, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::Terrain* a1, ::UnityEngine::RectInt a2, ::System::Boolean a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Terrain*, ::UnityEngine::RectInt, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_BEGININVOKE_OFFSET))(this, terrain, heightRegion, synched, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Terrain*, ::UnityEngine::RectInt, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_HEIGHTMAPCHANGEDCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

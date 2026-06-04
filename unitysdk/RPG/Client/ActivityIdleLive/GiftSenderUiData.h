@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GIFTSENDERUIDATA_GETNAMESTR_OFFSET UNITYSDK_OFFSET(0x9B2AC20)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_GIFTSENDERUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9B2ACA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GIFTSENDERUIDATA_GETNAMESTR_OFFSET UNITYSDK_OFFSET(0xB110AC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_GIFTSENDERUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB110B40)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int GiftSenderUiData_TypeDefinitionIndex = 69483;
+	inline static constexpr unsigned int GiftSenderUiData_TypeDefinitionIndex = 70295;
 
 	class GiftSenderUiData : public ::System::Object
 	{

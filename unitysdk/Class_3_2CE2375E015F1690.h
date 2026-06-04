@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetIgnoreTimeRewindLockRangeLimit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2CE2375E015F1690_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7998A0)
-#define CLASS_3_2CE2375E015F1690__CTOR_OFFSET UNITYSDK_OFFSET(0xB799870)
+#define CLASS_3_2CE2375E015F1690_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x144B3D30)
+#define CLASS_3_2CE2375E015F1690__CTOR_OFFSET UNITYSDK_OFFSET(0x144B3D00)
 
-inline static constexpr unsigned int Class_3_2CE2375E015F1690_TypeDefinitionIndex = 49218;
+inline static constexpr unsigned int Class_3_2CE2375E015F1690_TypeDefinitionIndex = 49885;
 
 class Class_3_2CE2375E015F1690 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetIgnoreTimeRewindLockRangeLimit*>
 {

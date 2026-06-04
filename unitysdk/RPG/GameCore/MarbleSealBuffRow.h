@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLESEALBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AA5E10)
-#define RPG_GAMECORE_MARBLESEALBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AA63E0)
+#define RPG_GAMECORE_MARBLESEALBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198D8CC0)
+#define RPG_GAMECORE_MARBLESEALBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198D92B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealBuffRow_TypeDefinitionIndex = 11290;
+	inline static constexpr unsigned int MarbleSealBuffRow_TypeDefinitionIndex = 11337;
 
 	class MarbleSealBuffRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLESEALBUFFROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MarbleSealBuffRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleSealBuffRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleSealBuffRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLESEALBUFFROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleSealBuffRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLESEALBUFFROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

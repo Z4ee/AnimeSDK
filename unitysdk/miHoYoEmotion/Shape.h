@@ -7,13 +7,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace miHoYoEmotion { class BoneShape; }
 
-#define MIHOYOEMOTION_SHAPE_HASBONE_OFFSET UNITYSDK_OFFSET(0x8E53240)
-#define MIHOYOEMOTION_SHAPE_INDEXOFBONE_OFFSET UNITYSDK_OFFSET(0x8E53320)
-#define MIHOYOEMOTION_SHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x8E52F40)
+#define MIHOYOEMOTION_SHAPE_HASBONE_OFFSET UNITYSDK_OFFSET(0xA27CB80)
+#define MIHOYOEMOTION_SHAPE_INDEXOFBONE_OFFSET UNITYSDK_OFFSET(0xA27CC50)
+#define MIHOYOEMOTION_SHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0xA27C880)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int Shape_TypeDefinitionIndex = 40971;
+	inline static constexpr unsigned int Shape_TypeDefinitionIndex = 41789;
 
 	class Shape : public ::System::Object
 	{
@@ -29,14 +29,14 @@ namespace miHoYoEmotion
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SHAPE__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean HasBone(::UnityEngine::Transform* bone)
+		::System::Boolean HasBone(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SHAPE_HASBONE_OFFSET))(this, bone);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SHAPE_HASBONE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 IndexOfBone(::UnityEngine::Transform* bone)
+		::System::Int32 IndexOfBone(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SHAPE_INDEXOFBONE_OFFSET))(this, bone);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_SHAPE_INDEXOFBONE_OFFSET))(this, a1);
 		}
 	};
 }

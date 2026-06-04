@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class EpicAccountId; }
 
-#define EPIC_ONLINESERVICES_AUTH_COPYIDTOKENOPTIONS_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x8BC05A0)
-#define EPIC_ONLINESERVICES_AUTH_COPYIDTOKENOPTIONS_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x8BC05B0)
-#define EPIC_ONLINESERVICES_AUTH_COPYIDTOKENOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BC05C0)
+#define EPIC_ONLINESERVICES_AUTH_COPYIDTOKENOPTIONS_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xA0D8150)
+#define EPIC_ONLINESERVICES_AUTH_COPYIDTOKENOPTIONS_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xA0D8160)
+#define EPIC_ONLINESERVICES_AUTH_COPYIDTOKENOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D8170)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int CopyIdTokenOptions_TypeDefinitionIndex = 42359;
+	inline static constexpr unsigned int CopyIdTokenOptions_TypeDefinitionIndex = 43162;
 
 	class CopyIdTokenOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_COPYIDTOKENOPTIONS_GET_ACCOUNTID_OFFSET))(this);
 		}
 
-		::System::Void set_AccountId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_AccountId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_COPYIDTOKENOPTIONS_SET_ACCOUNTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_COPYIDTOKENOPTIONS_SET_ACCOUNTID_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace TMPro { class TMP_GlyphPairAdjustmentRecord; }
 
-#define TMPRO_GLYPHPAIRKEY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x22DE270)
-#define TMPRO_GLYPHPAIRKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x22DE250)
+#define TMPRO_GLYPHPAIRKEY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x387A4A0)
+#define TMPRO_GLYPHPAIRKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x387A480)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int GlyphPairKey_TypeDefinitionIndex = 40147;
+	inline static constexpr unsigned int GlyphPairKey_TypeDefinitionIndex = 40974;
 
 	struct alignas(4) GlyphPairKey
 	{
@@ -17,14 +17,14 @@ namespace TMPro
 		::System::UInt32 secondGlyphIndex; // 0x14
 		::System::UInt32 key; // 0x18
 
-		::System::Void _ctor(::System::UInt32 firstGlyphIndex, ::System::UInt32 secondGlyphIndex)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_GLYPHPAIRKEY__CTOR_OFFSET))(this, firstGlyphIndex, secondGlyphIndex);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_GLYPHPAIRKEY__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::TMPro::TMP_GlyphPairAdjustmentRecord* record)
+		::System::Void _ctor_1(::TMPro::TMP_GlyphPairAdjustmentRecord* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_GlyphPairAdjustmentRecord*))((::PBYTE)hIl2Cpp + TMPRO_GLYPHPAIRKEY__CTOR_1_OFFSET))(this, record);
+			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_GlyphPairAdjustmentRecord*))((::PBYTE)hIl2Cpp + TMPRO_GLYPHPAIRKEY__CTOR_1_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,12 +7,12 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x22FB7B0)
-#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x22FB7A0)
+#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x389BAB0)
+#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x389BAA0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RectMask2D_RotationHelper_TypeDefinitionIndex = 5688;
+	inline static constexpr unsigned int RectMask2D_RotationHelper_TypeDefinitionIndex = 5965;
 
 	struct alignas(8) RectMask2D_RotationHelper
 	{
@@ -23,9 +23,9 @@ namespace UnityEngine::UI
 		::UnityEngine::Vector2 m_AnchorMin; // 0x34
 		::UnityEngine::Vector2 m_AnchorMax; // 0x3C
 
-		::System::Void _ctor(::UnityEngine::RenderMode renderMode, ::UnityEngine::RectTransform* rt)
+		::System::Void _ctor(::UnityEngine::RenderMode a1, ::UnityEngine::RectTransform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderMode, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER__CTOR_OFFSET))(this, renderMode, rt);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderMode, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()

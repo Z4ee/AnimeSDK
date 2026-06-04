@@ -8,7 +8,7 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IWinAccountBindingDialog_TypeDefinitionIndex = 7472;
+	inline static constexpr unsigned int IWinAccountBindingDialog_TypeDefinitionIndex = 8375;
 
 	class IWinAccountBindingDialog
 	{

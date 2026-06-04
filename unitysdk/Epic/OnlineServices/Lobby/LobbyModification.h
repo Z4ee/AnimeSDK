@@ -12,21 +12,21 @@ namespace Epic::OnlineServices::Lobby { class LobbyModificationSetInvitesAllowed
 namespace Epic::OnlineServices::Lobby { class LobbyModificationSetMaxMembersOptions; }
 namespace Epic::OnlineServices::Lobby { class LobbyModificationSetPermissionLevelOptions; }
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_ADDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8EB7380)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_ADDMEMBERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8EB75B0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_RELEASE_OFFSET UNITYSDK_OFFSET(0x8EB77E0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_REMOVEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8EB7860)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_REMOVEMEMBERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8EB7A60)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETBUCKETID_OFFSET UNITYSDK_OFFSET(0x8EB7C60)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETINVITESALLOWED_OFFSET UNITYSDK_OFFSET(0x8EB7E60)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETMAXMEMBERS_OFFSET UNITYSDK_OFFSET(0x8EB8050)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETPERMISSIONLEVEL_OFFSET UNITYSDK_OFFSET(0x8EB81B0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8EB7370)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0x8EB7360)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_ADDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xA2F2AA0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_ADDMEMBERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xA2F2CD0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_RELEASE_OFFSET UNITYSDK_OFFSET(0xA2F2F00)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_REMOVEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xA2F2F80)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_REMOVEMEMBERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xA2F3180)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETBUCKETID_OFFSET UNITYSDK_OFFSET(0xA2F3380)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETINVITESALLOWED_OFFSET UNITYSDK_OFFSET(0xA2F3580)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETMAXMEMBERS_OFFSET UNITYSDK_OFFSET(0xA2F3770)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETPERMISSIONLEVEL_OFFSET UNITYSDK_OFFSET(0xA2F38D0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA2F2A90)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F2A80)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbyModification_TypeDefinitionIndex = 41903;
+	inline static constexpr unsigned int LobbyModification_TypeDefinitionIndex = 42706;
 
 	class LobbyModification : public ::Epic::OnlineServices::Handle
 	{
@@ -47,19 +47,19 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result AddAttribute(::Epic::OnlineServices::Lobby::LobbyModificationAddAttributeOptions* options)
+		::Epic::OnlineServices::Result AddAttribute(::Epic::OnlineServices::Lobby::LobbyModificationAddAttributeOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationAddAttributeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_ADDATTRIBUTE_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationAddAttributeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_ADDATTRIBUTE_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result AddMemberAttribute(::Epic::OnlineServices::Lobby::LobbyModificationAddMemberAttributeOptions* options)
+		::Epic::OnlineServices::Result AddMemberAttribute(::Epic::OnlineServices::Lobby::LobbyModificationAddMemberAttributeOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationAddMemberAttributeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_ADDMEMBERATTRIBUTE_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationAddMemberAttributeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_ADDMEMBERATTRIBUTE_OFFSET))(this, a1);
 		}
 
 		::System::Void Release()
@@ -67,34 +67,34 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_RELEASE_OFFSET))(this);
 		}
 
-		::Epic::OnlineServices::Result RemoveAttribute(::Epic::OnlineServices::Lobby::LobbyModificationRemoveAttributeOptions* options)
+		::Epic::OnlineServices::Result RemoveAttribute(::Epic::OnlineServices::Lobby::LobbyModificationRemoveAttributeOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationRemoveAttributeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_REMOVEATTRIBUTE_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationRemoveAttributeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_REMOVEATTRIBUTE_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result RemoveMemberAttribute(::Epic::OnlineServices::Lobby::LobbyModificationRemoveMemberAttributeOptions* options)
+		::Epic::OnlineServices::Result RemoveMemberAttribute(::Epic::OnlineServices::Lobby::LobbyModificationRemoveMemberAttributeOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationRemoveMemberAttributeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_REMOVEMEMBERATTRIBUTE_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationRemoveMemberAttributeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_REMOVEMEMBERATTRIBUTE_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetBucketId(::Epic::OnlineServices::Lobby::LobbyModificationSetBucketIdOptions* options)
+		::Epic::OnlineServices::Result SetBucketId(::Epic::OnlineServices::Lobby::LobbyModificationSetBucketIdOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationSetBucketIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETBUCKETID_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationSetBucketIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETBUCKETID_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetInvitesAllowed(::Epic::OnlineServices::Lobby::LobbyModificationSetInvitesAllowedOptions* options)
+		::Epic::OnlineServices::Result SetInvitesAllowed(::Epic::OnlineServices::Lobby::LobbyModificationSetInvitesAllowedOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationSetInvitesAllowedOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETINVITESALLOWED_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationSetInvitesAllowedOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETINVITESALLOWED_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetMaxMembers(::Epic::OnlineServices::Lobby::LobbyModificationSetMaxMembersOptions* options)
+		::Epic::OnlineServices::Result SetMaxMembers(::Epic::OnlineServices::Lobby::LobbyModificationSetMaxMembersOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationSetMaxMembersOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETMAXMEMBERS_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationSetMaxMembersOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETMAXMEMBERS_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetPermissionLevel(::Epic::OnlineServices::Lobby::LobbyModificationSetPermissionLevelOptions* options)
+		::Epic::OnlineServices::Result SetPermissionLevel(::Epic::OnlineServices::Lobby::LobbyModificationSetPermissionLevelOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationSetPermissionLevelOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETPERMISSIONLEVEL_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbyModificationSetPermissionLevelOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYMODIFICATION_SETPERMISSIONLEVEL_OFFSET))(this, a1);
 		}
 	};
 }

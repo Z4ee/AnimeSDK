@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HoyoTagContainer; }
 
-#define RPG_GAMECORE_LEVELDIMENSIONFILTERHOYOTAGEXPRESSION_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18A3FB30)
-#define RPG_GAMECORE_LEVELDIMENSIONFILTERHOYOTAGEXPRESSION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A3FDC0)
-#define RPG_GAMECORE_LEVELDIMENSIONFILTERHOYOTAGEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3FB20)
+#define RPG_GAMECORE_LEVELDIMENSIONFILTERHOYOTAGEXPRESSION_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x198716D0)
+#define RPG_GAMECORE_LEVELDIMENSIONFILTERHOYOTAGEXPRESSION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19871960)
+#define RPG_GAMECORE_LEVELDIMENSIONFILTERHOYOTAGEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x198716C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDimensionFilterHoyoTagExpression_TypeDefinitionIndex = 16317;
+	inline static constexpr unsigned int LevelDimensionFilterHoyoTagExpression_TypeDefinitionIndex = 16349;
 
 	class LevelDimensionFilterHoyoTagExpression : public ::RPG::GameCore::LevelDimensionFilterExpression
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDIMENSIONFILTERHOYOTAGEXPRESSION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelDimensionFilterHoyoTagExpression*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelDimensionFilterHoyoTagExpression*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelDimensionFilterHoyoTagExpression*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDIMENSIONFILTERHOYOTAGEXPRESSION_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelDimensionFilterHoyoTagExpression*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDIMENSIONFILTERHOYOTAGEXPRESSION_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::LevelDimensionFilterHoyoTagExpression* val)
+		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelDimensionFilterHoyoTagExpression* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelDimensionFilterHoyoTagExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDIMENSIONFILTERHOYOTAGEXPRESSION_FROMBINARYIMPL_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelDimensionFilterHoyoTagExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDIMENSIONFILTERHOYOTAGEXPRESSION_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
 	};
 }

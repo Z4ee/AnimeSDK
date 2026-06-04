@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FreeStyleCharacterExtendLayerConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG_METHOD_2_79413102F997B3D6_OFFSET UNITYSDK_OFFSET(0x18931ED0)
-#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18932180)
+#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG_METHOD_2_895F216600126C59_OFFSET UNITYSDK_OFFSET(0x1976D0A0)
+#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1976D340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleCharacterConfig_TypeDefinitionIndex = 15434;
+	inline static constexpr unsigned int FreeStyleCharacterConfig_TypeDefinitionIndex = 15497;
 
 	class FreeStyleCharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECHARACTERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_79413102F997B3D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleCharacterConfig*& a2)
+		static ::System::Void Method_2_895F216600126C59(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleCharacterConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleCharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECHARACTERCONFIG_METHOD_2_79413102F997B3D6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleCharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECHARACTERCONFIG_METHOD_2_895F216600126C59_OFFSET))(a1, a2);
 		}
 	};
 }

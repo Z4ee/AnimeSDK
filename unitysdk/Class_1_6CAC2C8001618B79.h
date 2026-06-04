@@ -6,9 +6,9 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_6CAC2C8001618B79_METHOD_1_17E10BBF80328B55_OFFSET UNITYSDK_OFFSET(0x1848A310)
+#define CLASS_1_6CAC2C8001618B79_METHOD_1_17E10BBF80328B55_OFFSET UNITYSDK_OFFSET(0x192A3D70)
 
-inline static constexpr unsigned int Class_1_6CAC2C8001618B79_TypeDefinitionIndex = 23545;
+inline static constexpr unsigned int Class_1_6CAC2C8001618B79_TypeDefinitionIndex = 10420;
 
 class Class_1_6CAC2C8001618B79 : public ::System::Object
 {

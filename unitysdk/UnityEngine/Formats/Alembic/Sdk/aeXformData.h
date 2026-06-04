@@ -5,20 +5,20 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_INHERITS_OFFSET UNITYSDK_OFFSET(0x22D82B0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x164C290)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x22D8280)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_TRANSLATION_OFFSET UNITYSDK_OFFSET(0xD8740)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x2A500)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_INHERITS_OFFSET UNITYSDK_OFFSET(0x22D82C0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x22D8270)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x22D82A0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_TRANSLATION_OFFSET UNITYSDK_OFFSET(0x22D8260)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0xD87E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_INHERITS_OFFSET UNITYSDK_OFFSET(0x3873DB0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x2BEC550)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x3873D80)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_TRANSLATION_OFFSET UNITYSDK_OFFSET(0x13CF50)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x2D770)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_INHERITS_OFFSET UNITYSDK_OFFSET(0x3873DC0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x3873D70)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x3873DA0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_TRANSLATION_OFFSET UNITYSDK_OFFSET(0x3873D60)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x13CFF0)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aeXformData_TypeDefinitionIndex = 40777;
+	inline static constexpr unsigned int aeXformData_TypeDefinitionIndex = 41603;
 
 	struct alignas(4) aeXformData
 	{
@@ -33,9 +33,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_VISIBILITY_OFFSET))(this);
 		}
 
-		::System::Void set_visibility(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_visibility(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_VISIBILITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_VISIBILITY_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_translation()
@@ -43,9 +43,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_TRANSLATION_OFFSET))(this);
 		}
 
-		::System::Void set_translation(::UnityEngine::Vector3 value)
+		::System::Void set_translation(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_TRANSLATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_TRANSLATION_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Quaternion get_rotation()
@@ -53,9 +53,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_ROTATION_OFFSET))(this);
 		}
 
-		::System::Void set_rotation(::UnityEngine::Quaternion value)
+		::System::Void set_rotation(::UnityEngine::Quaternion a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_ROTATION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_ROTATION_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_scale()
@@ -63,9 +63,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_SCALE_OFFSET))(this);
 		}
 
-		::System::Void set_scale(::UnityEngine::Vector3 value)
+		::System::Void set_scale(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_SCALE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_SCALE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::Bool get_inherits()
@@ -73,9 +73,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_GET_INHERITS_OFFSET))(this);
 		}
 
-		::System::Void set_inherits(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_inherits(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_INHERITS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEXFORMDATA_SET_INHERITS_OFFSET))(this, a1);
 		}
 	};
 }

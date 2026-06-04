@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_TELEMETRYBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1765AD90)
+#define MIHOYO_SDK_TELEMETRYBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1842E2A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TelemetryBoxConfig_TypeDefinitionIndex = 6961;
+	inline static constexpr unsigned int TelemetryBoxConfig_TypeDefinitionIndex = 7864;
 
 	class TelemetryBoxConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean datauploadEnable; // 0x10
 
-		::System::Void _ctor(::System::String* dataString)
+		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYBOXCONFIG__CTOR_OFFSET))(this, dataString);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYBOXCONFIG__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,15 +5,15 @@
 namespace RPG::GameCore { class LevelAudioState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELAUDIOSTATETASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6CA340)
-#define RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6CA380)
-#define RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6CA800)
-#define RPG_GAMECORE_LEVELAUDIOSTATETASK_TICK_OFFSET UNITYSDK_OFFSET(0xB6CA850)
-#define RPG_GAMECORE_LEVELAUDIOSTATETASK__CTOR_OFFSET UNITYSDK_OFFSET(0xB6CA330)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE38720)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCE38760)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCE38BE0)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_TICK_OFFSET UNITYSDK_OFFSET(0xCE38C30)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK__CTOR_OFFSET UNITYSDK_OFFSET(0xCE38710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudioStateTask_TypeDefinitionIndex = 53665;
+	inline static constexpr unsigned int LevelAudioStateTask_TypeDefinitionIndex = 54378;
 
 	class LevelAudioStateTask : public ::Class_1_5F51D4049EA87B7B
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::LevelAudioState* _ConfigRef; // 0x18
 		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::TaskContext* Context, ::RPG::GameCore::LevelAudioState* Config)
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LevelAudioState* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelAudioState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK__CTOR_OFFSET))(this, Context, Config);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelAudioState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -41,9 +41,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKRESET_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK_TICK_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,43 +5,43 @@
 namespace System { class String; }
 namespace ZXing::Common { class BitArray; }
 
-#define ZXING_COMMON_BITMATRIX_BUILDTOSTRING_OFFSET UNITYSDK_OFFSET(0x1A73DBE0)
-#define ZXING_COMMON_BITMATRIX_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A73D740)
-#define ZXING_COMMON_BITMATRIX_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A73D9A0)
-#define ZXING_COMMON_BITMATRIX_FLIP_OFFSET UNITYSDK_OFFSET(0x1A73D6F0)
-#define ZXING_COMMON_BITMATRIX_GETENCLOSINGRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1A73D780)
-#define ZXING_COMMON_BITMATRIX_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A73DA60)
-#define ZXING_COMMON_BITMATRIX_GETROW_OFFSET UNITYSDK_OFFSET(0x1A73CAD0)
-#define ZXING_COMMON_BITMATRIX_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1A73D6E0)
-#define ZXING_COMMON_BITMATRIX_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A735A20)
-#define ZXING_COMMON_BITMATRIX_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1A73D6D0)
-#define ZXING_COMMON_BITMATRIX_SETREGION_OFFSET UNITYSDK_OFFSET(0x1A735A70)
-#define ZXING_COMMON_BITMATRIX_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A736D90)
-#define ZXING_COMMON_BITMATRIX_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x1A73DBD0)
-#define ZXING_COMMON_BITMATRIX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A73DB20)
-#define ZXING_COMMON_BITMATRIX__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A735990)
-#define ZXING_COMMON_BITMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x1A736CC0)
+#define ZXING_COMMON_BITMATRIX_BUILDTOSTRING_OFFSET UNITYSDK_OFFSET(0x1B53E070)
+#define ZXING_COMMON_BITMATRIX_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B53DC10)
+#define ZXING_COMMON_BITMATRIX_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B53DE30)
+#define ZXING_COMMON_BITMATRIX_FLIP_OFFSET UNITYSDK_OFFSET(0x1B53DBC0)
+#define ZXING_COMMON_BITMATRIX_GETENCLOSINGRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1B53DC50)
+#define ZXING_COMMON_BITMATRIX_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B53DEF0)
+#define ZXING_COMMON_BITMATRIX_GETROW_OFFSET UNITYSDK_OFFSET(0x1B53CD70)
+#define ZXING_COMMON_BITMATRIX_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1B53DBB0)
+#define ZXING_COMMON_BITMATRIX_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B5366B0)
+#define ZXING_COMMON_BITMATRIX_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1B53DBA0)
+#define ZXING_COMMON_BITMATRIX_SETREGION_OFFSET UNITYSDK_OFFSET(0x1B5366F0)
+#define ZXING_COMMON_BITMATRIX_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1B537920)
+#define ZXING_COMMON_BITMATRIX_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x1B53E060)
+#define ZXING_COMMON_BITMATRIX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B53DFB0)
+#define ZXING_COMMON_BITMATRIX__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B536620)
+#define ZXING_COMMON_BITMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B537850)
 
 namespace ZXing::Common
 {
-	inline static constexpr unsigned int BitMatrix_TypeDefinitionIndex = 6089;
+	inline static constexpr unsigned int BitMatrix_TypeDefinitionIndex = 6462;
 
 	class BitMatrix : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Int32>* bits; // 0x10
 		::System::Int32 height; // 0x18
-		::System::Int32 width; // 0x1C
-		::System::Int32 rowSize; // 0x20
+		::System::Int32 rowSize; // 0x1C
+		::System::Int32 width; // 0x20
 
-		::System::Void _ctor(::System::Int32 dimension)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX__CTOR_OFFSET))(this, dimension);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Int32 width, ::System::Int32 height)
+		::System::Void _ctor_1(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX__CTOR_1_OFFSET))(this, width, height);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_Width()
@@ -54,19 +54,19 @@ namespace ZXing::Common
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_GET_HEIGHT_OFFSET))(this);
 		}
 
-		::System::Boolean get_Item(::System::Int32 x, ::System::Int32 y)
+		::System::Boolean get_Item(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_GET_ITEM_OFFSET))(this, x, y);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_GET_ITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void set_Item(::System::Int32 x, ::System::Int32 y, ::System::Boolean value)
+		::System::Void set_Item(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_SET_ITEM_OFFSET))(this, x, y, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_SET_ITEM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void flip(::System::Int32 x, ::System::Int32 y)
+		::System::Void flip(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_FLIP_OFFSET))(this, x, y);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_FLIP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void clear()
@@ -74,14 +74,14 @@ namespace ZXing::Common
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void setRegion(::System::Int32 left, ::System::Int32 top, ::System::Int32 width, ::System::Int32 height)
+		::System::Void setRegion(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_SETREGION_OFFSET))(this, left, top, width, height);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_SETREGION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::ZXing::Common::BitArray* getRow(::System::Int32 y, ::ZXing::Common::BitArray* row)
+		::ZXing::Common::BitArray* getRow(::System::Int32 a1, ::ZXing::Common::BitArray* a2)
 		{
-			return ((::ZXing::Common::BitArray*(*)(::PVOID, ::System::Int32, ::ZXing::Common::BitArray*))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_GETROW_OFFSET))(this, y, row);
+			return ((::ZXing::Common::BitArray*(*)(::PVOID, ::System::Int32, ::ZXing::Common::BitArray*))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_GETROW_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::System::Int32>* getEnclosingRectangle()
@@ -89,9 +89,9 @@ namespace ZXing::Common
 			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_GETENCLOSINGRECTANGLE_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -104,14 +104,14 @@ namespace ZXing::Common
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* ToString_1(::System::String* setString, ::System::String* unsetString, ::System::String* lineSeparator)
+		::System::String* ToString_1(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_TOSTRING_1_OFFSET))(this, setString, unsetString, lineSeparator);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_TOSTRING_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::String* buildToString(::System::String* setString, ::System::String* unsetString, ::System::String* lineSeparator)
+		::System::String* buildToString(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_BUILDTOSTRING_OFFSET))(this, setString, unsetString, lineSeparator);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ZXING_COMMON_BITMATRIX_BUILDTOSTRING_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

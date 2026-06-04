@@ -6,36 +6,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A6FF760)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A6FF7D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A6FF3F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6FF3D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B51DE40)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B51DEB0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B51DE30)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B51DDC0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__HandleControllerOverlayInteractionAsMouse_TypeDefinitionIndex = 35872;
+	inline static constexpr unsigned int IVROverlay__HandleControllerOverlayInteractionAsMouse_TypeDefinitionIndex = 36172;
 
 	class IVROverlay__HandleControllerOverlayInteractionAsMouse : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::UInt64 ulOverlayHandle, ::System::UInt32 unControllerDeviceIndex)
+		::System::Boolean Invoke(::System::UInt64 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt64, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_INVOKE_OFFSET))(this, ulOverlayHandle, unControllerDeviceIndex);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt64, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt64 ulOverlayHandle, ::System::UInt32 unControllerDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt64 a1, ::System::UInt32 a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_BEGININVOKE_OFFSET))(this, ulOverlayHandle, unControllerDeviceIndex, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__HANDLECONTROLLEROVERLAYINTERACTIONASMOUSE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

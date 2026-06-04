@@ -6,9 +6,9 @@
 
 namespace UnityEngine { class Gradient; }
 
-#define COLORGRADIENTBUNDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D42150)
+#define COLORGRADIENTBUNDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB6550)
 
-inline static constexpr unsigned int ColorGradientBundle_TypeDefinitionIndex = 39693;
+inline static constexpr unsigned int ColorGradientBundle_TypeDefinitionIndex = 40516;
 
 class ColorGradientBundle : public ::System::Object
 {

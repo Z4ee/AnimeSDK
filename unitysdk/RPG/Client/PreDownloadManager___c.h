@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PREDOWNLOADMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAD73010)
-#define RPG_CLIENT_PREDOWNLOADMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAD73040)
-#define RPG_CLIENT_PREDOWNLOADMANAGER___C___CTOR_B__12_0_OFFSET UNITYSDK_OFFSET(0xAD73050)
+#define RPG_CLIENT_PREDOWNLOADMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4B4A50)
+#define RPG_CLIENT_PREDOWNLOADMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4B4A80)
+#define RPG_CLIENT_PREDOWNLOADMANAGER___C___CTOR_B__12_0_OFFSET UNITYSDK_OFFSET(0xC4B4A90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PreDownloadManager___c_TypeDefinitionIndex = 62976;
+	inline static constexpr unsigned int PreDownloadManager___c_TypeDefinitionIndex = 63891;
 
 	class PreDownloadManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__12_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PreDownloadManager___c_TypeDefinitionIndex)->GetStaticField(0x681F0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PreDownloadManager___c_TypeDefinitionIndex)->GetStaticField(0xFB30);
 		}
 		static ::RPG::Client::PreDownloadManager___c** StaticGet___9()
 		{
-			return (::RPG::Client::PreDownloadManager___c**)Il2CppClass::FromTypeDefinitionIndex(PreDownloadManager___c_TypeDefinitionIndex)->GetStaticField(0x681F8);
+			return (::RPG::Client::PreDownloadManager___c**)Il2CppClass::FromTypeDefinitionIndex(PreDownloadManager___c_TypeDefinitionIndex)->GetStaticField(0xFB38);
 		}
 
 		static ::System::Void _cctor()

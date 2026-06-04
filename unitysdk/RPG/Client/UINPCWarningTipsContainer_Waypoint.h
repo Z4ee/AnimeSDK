@@ -14,21 +14,21 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERATTACKING_OFFSET UNITYSDK_OFFSET(0xB415900)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERDANGER_OFFSET UNITYSDK_OFFSET(0xB414A10)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERGUARDING_OFFSET UNITYSDK_OFFSET(0xB414840)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERSAFE_OFFSET UNITYSDK_OFFSET(0xB414BD0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_GIVEBACK_OFFSET UNITYSDK_OFFSET(0xB415050)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xB415C10)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_LEAVEATTACKING_OFFSET UNITYSDK_OFFSET(0xB415A30)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_TICK_OFFSET UNITYSDK_OFFSET(0xB4138E0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xB415C60)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT__ISFORCEHIDE_OFFSET UNITYSDK_OFFSET(0xB415AC0)
-#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT__ISHIDEWARNINGTIP_OFFSET UNITYSDK_OFFSET(0xB415B50)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERATTACKING_OFFSET UNITYSDK_OFFSET(0xCB75AD0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERDANGER_OFFSET UNITYSDK_OFFSET(0xCB74BD0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERGUARDING_OFFSET UNITYSDK_OFFSET(0xCB74A00)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERSAFE_OFFSET UNITYSDK_OFFSET(0xCB74D90)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_GIVEBACK_OFFSET UNITYSDK_OFFSET(0xCB75260)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xCB75DE0)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_LEAVEATTACKING_OFFSET UNITYSDK_OFFSET(0xCB75C00)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_TICK_OFFSET UNITYSDK_OFFSET(0xCB73830)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xCB75E30)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT__ISFORCEHIDE_OFFSET UNITYSDK_OFFSET(0xCB75C90)
+#define RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT__ISHIDEWARNINGTIP_OFFSET UNITYSDK_OFFSET(0xCB75D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UINPCWarningTipsContainer_Waypoint_TypeDefinitionIndex = 63708;
+	inline static constexpr unsigned int UINPCWarningTipsContainer_Waypoint_TypeDefinitionIndex = 64629;
 
 	class UINPCWarningTipsContainer_Waypoint : public ::System::Object
 	{
@@ -37,29 +37,29 @@ namespace RPG::Client
 		// static const ::System::String* ATTACK_HINT; // 0x0
 		// static const ::System::String* ALERT_ANIM; // 0x0
 		// static const ::System::String* WARNING_ANIM; // 0x0
-		::UnityEngine::RectTransform* WarningRect; // 0x10
-		::UnityEngine::GameObject* TargetGO; // 0x18
-		::System::String* PrefabPath; // 0x20
+		::UnityEngine::Animation* AnimationCmpt; // 0x10
+		::RPG::Client::UINPCWarningTipsContainer* OwnerContainer; // 0x18
+		::UnityEngine::RectTransform* WayPointArrow; // 0x20
 		::UnityEngine::UI::Image* SmoothMaskProgress; // 0x28
-		::RPG::GameCore::GameEntity* TargetEntity; // 0x30
-		::UnityEngine::RectTransform* WaypointRect; // 0x38
-		::UnityEngine::Animation* AnimationCmpt; // 0x40
-		::RPG::Client::UINPCWarningTipsContainer* OwnerContainer; // 0x48
-		::UnityEngine::GameObject* UnityGO; // 0x50
-		::UnityEngine::UI::Image* ArrowImage; // 0x58
-		::System::String* _NowAnimName; // 0x60
-		::UnityEngine::RectTransform* ProgressRect; // 0x68
-		::UnityEngine::RectTransform* EffectRect; // 0x70
-		::UnityEngine::RectTransform* WayPointArrow; // 0x78
-		::RPG::GameCore::BillboardComponent* BillboardCmpt; // 0x80
-		::RPG::GameCore::NPCComponent* NpcComponent; // 0x88
+		::RPG::GameCore::NPCComponent* NpcComponent; // 0x30
+		::UnityEngine::RectTransform* ProgressRect; // 0x38
+		::UnityEngine::GameObject* TargetGO; // 0x40
+		::System::String* _NowAnimName; // 0x48
+		::RPG::GameCore::GameEntity* TargetEntity; // 0x50
+		::UnityEngine::GameObject* UnityGO; // 0x58
+		::UnityEngine::UI::Image* ArrowImage; // 0x60
+		::System::String* PrefabPath; // 0x68
+		::RPG::GameCore::BillboardComponent* BillboardCmpt; // 0x70
+		::UnityEngine::RectTransform* EffectRect; // 0x78
+		::UnityEngine::RectTransform* WarningRect; // 0x80
+		::UnityEngine::RectTransform* WaypointRect; // 0x88
 		::RPG::Client::UINPCWarningTipsContainer_WaypointStatus _FromStatus; // 0x90
-		::System::Single pre_alert_value; // 0x94
-		::UnityEngine::Vector3 Offset; // 0x98
-		::System::Int32 pre_is_value_up; // 0xA4
-		::RPG::Client::UINPCWarningTipsContainer_WaypointStatus Status; // 0xA8
-		::System::Single AlertValue; // 0xAC
-		::System::Boolean IsMonsterAttack; // 0xB0
+		::RPG::Client::UINPCWarningTipsContainer_WaypointStatus Status; // 0x94
+		::System::Single pre_alert_value; // 0x98
+		::System::Int32 pre_is_value_up; // 0x9C
+		::System::Single AlertValue; // 0xA0
+		::System::Boolean IsMonsterAttack; // 0xA4
+		::UnityEngine::Vector3 Offset; // 0xA8
 
 		::System::Void _ctor()
 		{
@@ -76,14 +76,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERSAFE_OFFSET))(this);
 		}
 
-		::System::Void EnterGuarding(::System::Single animTime)
+		::System::Void EnterGuarding(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERGUARDING_OFFSET))(this, animTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERGUARDING_OFFSET))(this, a1);
 		}
 
-		::System::Void EnterDanger(::System::Single animTime)
+		::System::Void EnterDanger(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERDANGER_OFFSET))(this, animTime);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_ENTERDANGER_OFFSET))(this, a1);
 		}
 
 		::System::Void EnterAttacking()
@@ -101,9 +101,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT__ISFORCEHIDE_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single minFindThreshold, ::System::Single maxFindThreshold, ::System::Single curAlertValue)
+		::System::Void Tick(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_TICK_OFFSET))(this, minFindThreshold, maxFindThreshold, curAlertValue);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UINPCWARNINGTIPSCONTAINER_WAYPOINT_TICK_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean IsActive()

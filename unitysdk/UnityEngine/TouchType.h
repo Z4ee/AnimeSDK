@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TouchType_TypeDefinitionIndex = 5158;
+	inline static constexpr unsigned int TouchType_TypeDefinitionIndex = 5252;
 
 	enum class TouchType : ::System::Int32
 	{

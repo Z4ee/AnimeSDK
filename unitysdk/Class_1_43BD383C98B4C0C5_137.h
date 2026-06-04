@@ -1,16 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_CustomRuleType.h"
+#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_InVisionRefreshState.h"
+#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_NpcConflictRefreshState.h"
+#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_RegionRefreshState.h"
+#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_SpaceConflictRefreshState.h"
+#include "unitysdk/RPG/GameCore/GroupCategory.h"
+#include "unitysdk/RPG/GameCore/HoYoGroupType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x123EB860)
-#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x123EB8A0)
-#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_3_OFFSET UNITYSDK_OFFSET(0x123EB8E0)
-#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_4_OFFSET UNITYSDK_OFFSET(0x123EB920)
-#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_5_OFFSET UNITYSDK_OFFSET(0x123EB960)
-#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x123EB820)
-#define CLASS_1_43BD383C98B4C0C5_137__CTOR_OFFSET UNITYSDK_OFFSET(0x123EB9A0)
+namespace RPG::GameCore { class LevelGroupBakedInfo; }
+namespace RPG::GameCore { class LevelGroupSpatialBakedInfo; }
+namespace RPG::GameCore { class RuntimeGroupInfo; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_137_TypeDefinitionIndex = 67326;
+#define CLASS_1_43BD383C98B4C0C5_137__CTOR_OFFSET UNITYSDK_OFFSET(0xE48CE80)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_137_TypeDefinitionIndex = 58015;
 
 class Class_1_43BD383C98B4C0C5_137 : public ::System::Object
 {
@@ -18,35 +26,5 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Method_1_CA373AA1C7054598()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_OFFSET))(this);
-	}
-
-	::System::Void Method_1_CA373AA1C7054598_1()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
-	}
-
-	::System::Void Method_1_CA373AA1C7054598_2()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
-	}
-
-	::System::Void Method_1_CA373AA1C7054598_3()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_3_OFFSET))(this);
-	}
-
-	::System::Void Method_1_CA373AA1C7054598_4()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_4_OFFSET))(this);
-	}
-
-	::System::Void Method_1_CA373AA1C7054598_5()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_5_OFFSET))(this);
 	}
 };

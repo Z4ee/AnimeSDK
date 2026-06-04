@@ -43,44 +43,44 @@ namespace Epic::OnlineServices::Ecom { class RedeemEntitlementsOptions; }
 namespace Epic::OnlineServices::Ecom { class Transaction; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_CHECKOUT_OFFSET UNITYSDK_OFFSET(0x8E752F0)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYID_OFFSET UNITYSDK_OFFSET(0x8E755E0)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E757E0)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYNAMEANDINDEX_OFFSET UNITYSDK_OFFSET(0x8E75A90)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMBYID_OFFSET UNITYSDK_OFFSET(0x8E75C90)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMIMAGEINFOBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E75E90)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMRELEASEBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E76090)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERBYID_OFFSET UNITYSDK_OFFSET(0x8E76290)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E76490)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERIMAGEINFOBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E76740)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERITEMBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E76940)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYTRANSACTIONBYID_OFFSET UNITYSDK_OFFSET(0x8E76B40)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYTRANSACTIONBYINDEX_OFFSET UNITYSDK_OFFSET(0x8E76CD0)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETENTITLEMENTSBYNAMECOUNT_OFFSET UNITYSDK_OFFSET(0x8E76EE0)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETENTITLEMENTSCOUNT_OFFSET UNITYSDK_OFFSET(0x8E77040)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETITEMIMAGEINFOCOUNT_OFFSET UNITYSDK_OFFSET(0x8E77230)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETITEMRELEASECOUNT_OFFSET UNITYSDK_OFFSET(0x8E77390)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERCOUNT_OFFSET UNITYSDK_OFFSET(0x8E774F0)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERIMAGEINFOCOUNT_OFFSET UNITYSDK_OFFSET(0x8E776E0)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERITEMCOUNT_OFFSET UNITYSDK_OFFSET(0x8E77840)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETTRANSACTIONCOUNT_OFFSET UNITYSDK_OFFSET(0x8E779A0)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONCHECKOUTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E74F50)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYENTITLEMENTSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E74FE0)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOFFERSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E75070)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOWNERSHIPCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E75100)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOWNERSHIPTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E75190)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONREDEEMENTITLEMENTSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8E75220)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYENTITLEMENTS_OFFSET UNITYSDK_OFFSET(0x8E77B90)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOFFERS_OFFSET UNITYSDK_OFFSET(0x8E77D70)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOWNERSHIPTOKEN_OFFSET UNITYSDK_OFFSET(0x8E78130)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOWNERSHIP_OFFSET UNITYSDK_OFFSET(0x8E77F50)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_REDEEMENTITLEMENTS_OFFSET UNITYSDK_OFFSET(0x8E78310)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8E752D0)
-#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8E752B0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_CHECKOUT_OFFSET UNITYSDK_OFFSET(0xA2B8A00)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYID_OFFSET UNITYSDK_OFFSET(0xA2B8CF0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2B8EF0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYNAMEANDINDEX_OFFSET UNITYSDK_OFFSET(0xA2B91A0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMBYID_OFFSET UNITYSDK_OFFSET(0xA2B93A0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMIMAGEINFOBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2B95A0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMRELEASEBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2B97A0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERBYID_OFFSET UNITYSDK_OFFSET(0xA2B99A0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2B9BA0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERIMAGEINFOBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2B9E50)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERITEMBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2BA050)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYTRANSACTIONBYID_OFFSET UNITYSDK_OFFSET(0xA2BA250)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYTRANSACTIONBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2BA3E0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETENTITLEMENTSBYNAMECOUNT_OFFSET UNITYSDK_OFFSET(0xA2BA5F0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETENTITLEMENTSCOUNT_OFFSET UNITYSDK_OFFSET(0xA2BA750)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETITEMIMAGEINFOCOUNT_OFFSET UNITYSDK_OFFSET(0xA2BA940)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETITEMRELEASECOUNT_OFFSET UNITYSDK_OFFSET(0xA2BAAA0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERCOUNT_OFFSET UNITYSDK_OFFSET(0xA2BAC00)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERIMAGEINFOCOUNT_OFFSET UNITYSDK_OFFSET(0xA2BADF0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xA2BAF50)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETTRANSACTIONCOUNT_OFFSET UNITYSDK_OFFSET(0xA2BB0B0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONCHECKOUTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2B8600)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYENTITLEMENTSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2B86A0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOFFERSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2B8740)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOWNERSHIPCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2B87E0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOWNERSHIPTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2B8880)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONREDEEMENTITLEMENTSCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2B8920)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYENTITLEMENTS_OFFSET UNITYSDK_OFFSET(0xA2BB2A0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOFFERS_OFFSET UNITYSDK_OFFSET(0xA2BB480)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOWNERSHIPTOKEN_OFFSET UNITYSDK_OFFSET(0xA2BB840)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOWNERSHIP_OFFSET UNITYSDK_OFFSET(0xA2BB660)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_REDEEMENTITLEMENTS_OFFSET UNITYSDK_OFFSET(0xA2BBA20)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA2B89E0)
+#define EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA2B89C0)
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int EcomInterface_TypeDefinitionIndex = 42170;
+	inline static constexpr unsigned int EcomInterface_TypeDefinitionIndex = 42973;
 
 	class EcomInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -133,169 +133,169 @@ namespace Epic::OnlineServices::Ecom
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Checkout(::Epic::OnlineServices::Ecom::CheckoutOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Ecom::OnCheckoutCallback* completionDelegate)
+		::System::Void Checkout(::Epic::OnlineServices::Ecom::CheckoutOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Ecom::OnCheckoutCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CheckoutOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnCheckoutCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_CHECKOUT_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::CheckoutOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnCheckoutCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_CHECKOUT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result CopyEntitlementById(::Epic::OnlineServices::Ecom::CopyEntitlementByIdOptions* options, ::Epic::OnlineServices::Ecom::Entitlement*& outEntitlement)
+		::Epic::OnlineServices::Result CopyEntitlementById(::Epic::OnlineServices::Ecom::CopyEntitlementByIdOptions* a1, ::Epic::OnlineServices::Ecom::Entitlement*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyEntitlementByIdOptions*, ::Epic::OnlineServices::Ecom::Entitlement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYID_OFFSET))(this, options, outEntitlement);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyEntitlementByIdOptions*, ::Epic::OnlineServices::Ecom::Entitlement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyEntitlementByIndex(::Epic::OnlineServices::Ecom::CopyEntitlementByIndexOptions* options, ::Epic::OnlineServices::Ecom::Entitlement*& outEntitlement)
+		::Epic::OnlineServices::Result CopyEntitlementByIndex(::Epic::OnlineServices::Ecom::CopyEntitlementByIndexOptions* a1, ::Epic::OnlineServices::Ecom::Entitlement*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyEntitlementByIndexOptions*, ::Epic::OnlineServices::Ecom::Entitlement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYINDEX_OFFSET))(this, options, outEntitlement);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyEntitlementByIndexOptions*, ::Epic::OnlineServices::Ecom::Entitlement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyEntitlementByNameAndIndex(::Epic::OnlineServices::Ecom::CopyEntitlementByNameAndIndexOptions* options, ::Epic::OnlineServices::Ecom::Entitlement*& outEntitlement)
+		::Epic::OnlineServices::Result CopyEntitlementByNameAndIndex(::Epic::OnlineServices::Ecom::CopyEntitlementByNameAndIndexOptions* a1, ::Epic::OnlineServices::Ecom::Entitlement*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyEntitlementByNameAndIndexOptions*, ::Epic::OnlineServices::Ecom::Entitlement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYNAMEANDINDEX_OFFSET))(this, options, outEntitlement);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyEntitlementByNameAndIndexOptions*, ::Epic::OnlineServices::Ecom::Entitlement*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYENTITLEMENTBYNAMEANDINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyItemById(::Epic::OnlineServices::Ecom::CopyItemByIdOptions* options, ::Epic::OnlineServices::Ecom::CatalogItem*& outItem)
+		::Epic::OnlineServices::Result CopyItemById(::Epic::OnlineServices::Ecom::CopyItemByIdOptions* a1, ::Epic::OnlineServices::Ecom::CatalogItem*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyItemByIdOptions*, ::Epic::OnlineServices::Ecom::CatalogItem*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMBYID_OFFSET))(this, options, outItem);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyItemByIdOptions*, ::Epic::OnlineServices::Ecom::CatalogItem*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMBYID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyItemImageInfoByIndex(::Epic::OnlineServices::Ecom::CopyItemImageInfoByIndexOptions* options, ::Epic::OnlineServices::Ecom::KeyImageInfo*& outImageInfo)
+		::Epic::OnlineServices::Result CopyItemImageInfoByIndex(::Epic::OnlineServices::Ecom::CopyItemImageInfoByIndexOptions* a1, ::Epic::OnlineServices::Ecom::KeyImageInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyItemImageInfoByIndexOptions*, ::Epic::OnlineServices::Ecom::KeyImageInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMIMAGEINFOBYINDEX_OFFSET))(this, options, outImageInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyItemImageInfoByIndexOptions*, ::Epic::OnlineServices::Ecom::KeyImageInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMIMAGEINFOBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyItemReleaseByIndex(::Epic::OnlineServices::Ecom::CopyItemReleaseByIndexOptions* options, ::Epic::OnlineServices::Ecom::CatalogRelease*& outRelease)
+		::Epic::OnlineServices::Result CopyItemReleaseByIndex(::Epic::OnlineServices::Ecom::CopyItemReleaseByIndexOptions* a1, ::Epic::OnlineServices::Ecom::CatalogRelease*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyItemReleaseByIndexOptions*, ::Epic::OnlineServices::Ecom::CatalogRelease*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMRELEASEBYINDEX_OFFSET))(this, options, outRelease);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyItemReleaseByIndexOptions*, ::Epic::OnlineServices::Ecom::CatalogRelease*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYITEMRELEASEBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyOfferById(::Epic::OnlineServices::Ecom::CopyOfferByIdOptions* options, ::Epic::OnlineServices::Ecom::CatalogOffer*& outOffer)
+		::Epic::OnlineServices::Result CopyOfferById(::Epic::OnlineServices::Ecom::CopyOfferByIdOptions* a1, ::Epic::OnlineServices::Ecom::CatalogOffer*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyOfferByIdOptions*, ::Epic::OnlineServices::Ecom::CatalogOffer*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERBYID_OFFSET))(this, options, outOffer);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyOfferByIdOptions*, ::Epic::OnlineServices::Ecom::CatalogOffer*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERBYID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyOfferByIndex(::Epic::OnlineServices::Ecom::CopyOfferByIndexOptions* options, ::Epic::OnlineServices::Ecom::CatalogOffer*& outOffer)
+		::Epic::OnlineServices::Result CopyOfferByIndex(::Epic::OnlineServices::Ecom::CopyOfferByIndexOptions* a1, ::Epic::OnlineServices::Ecom::CatalogOffer*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyOfferByIndexOptions*, ::Epic::OnlineServices::Ecom::CatalogOffer*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERBYINDEX_OFFSET))(this, options, outOffer);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyOfferByIndexOptions*, ::Epic::OnlineServices::Ecom::CatalogOffer*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyOfferImageInfoByIndex(::Epic::OnlineServices::Ecom::CopyOfferImageInfoByIndexOptions* options, ::Epic::OnlineServices::Ecom::KeyImageInfo*& outImageInfo)
+		::Epic::OnlineServices::Result CopyOfferImageInfoByIndex(::Epic::OnlineServices::Ecom::CopyOfferImageInfoByIndexOptions* a1, ::Epic::OnlineServices::Ecom::KeyImageInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyOfferImageInfoByIndexOptions*, ::Epic::OnlineServices::Ecom::KeyImageInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERIMAGEINFOBYINDEX_OFFSET))(this, options, outImageInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyOfferImageInfoByIndexOptions*, ::Epic::OnlineServices::Ecom::KeyImageInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERIMAGEINFOBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyOfferItemByIndex(::Epic::OnlineServices::Ecom::CopyOfferItemByIndexOptions* options, ::Epic::OnlineServices::Ecom::CatalogItem*& outItem)
+		::Epic::OnlineServices::Result CopyOfferItemByIndex(::Epic::OnlineServices::Ecom::CopyOfferItemByIndexOptions* a1, ::Epic::OnlineServices::Ecom::CatalogItem*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyOfferItemByIndexOptions*, ::Epic::OnlineServices::Ecom::CatalogItem*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERITEMBYINDEX_OFFSET))(this, options, outItem);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyOfferItemByIndexOptions*, ::Epic::OnlineServices::Ecom::CatalogItem*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYOFFERITEMBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyTransactionById(::Epic::OnlineServices::Ecom::CopyTransactionByIdOptions* options, ::Epic::OnlineServices::Ecom::Transaction*& outTransaction)
+		::Epic::OnlineServices::Result CopyTransactionById(::Epic::OnlineServices::Ecom::CopyTransactionByIdOptions* a1, ::Epic::OnlineServices::Ecom::Transaction*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyTransactionByIdOptions*, ::Epic::OnlineServices::Ecom::Transaction*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYTRANSACTIONBYID_OFFSET))(this, options, outTransaction);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyTransactionByIdOptions*, ::Epic::OnlineServices::Ecom::Transaction*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYTRANSACTIONBYID_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result CopyTransactionByIndex(::Epic::OnlineServices::Ecom::CopyTransactionByIndexOptions* options, ::Epic::OnlineServices::Ecom::Transaction*& outTransaction)
+		::Epic::OnlineServices::Result CopyTransactionByIndex(::Epic::OnlineServices::Ecom::CopyTransactionByIndexOptions* a1, ::Epic::OnlineServices::Ecom::Transaction*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyTransactionByIndexOptions*, ::Epic::OnlineServices::Ecom::Transaction*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYTRANSACTIONBYINDEX_OFFSET))(this, options, outTransaction);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Ecom::CopyTransactionByIndexOptions*, ::Epic::OnlineServices::Ecom::Transaction*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_COPYTRANSACTIONBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 GetEntitlementsByNameCount(::Epic::OnlineServices::Ecom::GetEntitlementsByNameCountOptions* options)
+		::System::UInt32 GetEntitlementsByNameCount(::Epic::OnlineServices::Ecom::GetEntitlementsByNameCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetEntitlementsByNameCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETENTITLEMENTSBYNAMECOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetEntitlementsByNameCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETENTITLEMENTSBYNAMECOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetEntitlementsCount(::Epic::OnlineServices::Ecom::GetEntitlementsCountOptions* options)
+		::System::UInt32 GetEntitlementsCount(::Epic::OnlineServices::Ecom::GetEntitlementsCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetEntitlementsCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETENTITLEMENTSCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetEntitlementsCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETENTITLEMENTSCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetItemImageInfoCount(::Epic::OnlineServices::Ecom::GetItemImageInfoCountOptions* options)
+		::System::UInt32 GetItemImageInfoCount(::Epic::OnlineServices::Ecom::GetItemImageInfoCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetItemImageInfoCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETITEMIMAGEINFOCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetItemImageInfoCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETITEMIMAGEINFOCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetItemReleaseCount(::Epic::OnlineServices::Ecom::GetItemReleaseCountOptions* options)
+		::System::UInt32 GetItemReleaseCount(::Epic::OnlineServices::Ecom::GetItemReleaseCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetItemReleaseCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETITEMRELEASECOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetItemReleaseCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETITEMRELEASECOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetOfferCount(::Epic::OnlineServices::Ecom::GetOfferCountOptions* options)
+		::System::UInt32 GetOfferCount(::Epic::OnlineServices::Ecom::GetOfferCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetOfferCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetOfferCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetOfferImageInfoCount(::Epic::OnlineServices::Ecom::GetOfferImageInfoCountOptions* options)
+		::System::UInt32 GetOfferImageInfoCount(::Epic::OnlineServices::Ecom::GetOfferImageInfoCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetOfferImageInfoCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERIMAGEINFOCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetOfferImageInfoCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERIMAGEINFOCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetOfferItemCount(::Epic::OnlineServices::Ecom::GetOfferItemCountOptions* options)
+		::System::UInt32 GetOfferItemCount(::Epic::OnlineServices::Ecom::GetOfferItemCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetOfferItemCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERITEMCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetOfferItemCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETOFFERITEMCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetTransactionCount(::Epic::OnlineServices::Ecom::GetTransactionCountOptions* options)
+		::System::UInt32 GetTransactionCount(::Epic::OnlineServices::Ecom::GetTransactionCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetTransactionCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETTRANSACTIONCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Ecom::GetTransactionCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_GETTRANSACTIONCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Void QueryEntitlements(::Epic::OnlineServices::Ecom::QueryEntitlementsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Ecom::OnQueryEntitlementsCallback* completionDelegate)
+		::System::Void QueryEntitlements(::Epic::OnlineServices::Ecom::QueryEntitlementsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Ecom::OnQueryEntitlementsCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryEntitlementsOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnQueryEntitlementsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYENTITLEMENTS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryEntitlementsOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnQueryEntitlementsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYENTITLEMENTS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryOffers(::Epic::OnlineServices::Ecom::QueryOffersOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Ecom::OnQueryOffersCallback* completionDelegate)
+		::System::Void QueryOffers(::Epic::OnlineServices::Ecom::QueryOffersOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Ecom::OnQueryOffersCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryOffersOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnQueryOffersCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOFFERS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryOffersOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnQueryOffersCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOFFERS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryOwnership(::Epic::OnlineServices::Ecom::QueryOwnershipOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Ecom::OnQueryOwnershipCallback* completionDelegate)
+		::System::Void QueryOwnership(::Epic::OnlineServices::Ecom::QueryOwnershipOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Ecom::OnQueryOwnershipCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryOwnershipOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnQueryOwnershipCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOWNERSHIP_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryOwnershipOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnQueryOwnershipCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOWNERSHIP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void QueryOwnershipToken(::Epic::OnlineServices::Ecom::QueryOwnershipTokenOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Ecom::OnQueryOwnershipTokenCallback* completionDelegate)
+		::System::Void QueryOwnershipToken(::Epic::OnlineServices::Ecom::QueryOwnershipTokenOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Ecom::OnQueryOwnershipTokenCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryOwnershipTokenOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnQueryOwnershipTokenCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOWNERSHIPTOKEN_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::QueryOwnershipTokenOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnQueryOwnershipTokenCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_QUERYOWNERSHIPTOKEN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RedeemEntitlements(::Epic::OnlineServices::Ecom::RedeemEntitlementsOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Ecom::OnRedeemEntitlementsCallback* completionDelegate)
+		::System::Void RedeemEntitlements(::Epic::OnlineServices::Ecom::RedeemEntitlementsOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Ecom::OnRedeemEntitlementsCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::RedeemEntitlementsOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnRedeemEntitlementsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_REDEEMENTITLEMENTS_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Ecom::RedeemEntitlementsOptions*, ::System::Object*, ::Epic::OnlineServices::Ecom::OnRedeemEntitlementsCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_REDEEMENTITLEMENTS_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void OnCheckoutCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnCheckoutCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONCHECKOUTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONCHECKOUTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryEntitlementsCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryEntitlementsCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYENTITLEMENTSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYENTITLEMENTSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryOffersCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryOffersCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOFFERSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOFFERSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryOwnershipCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryOwnershipCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOWNERSHIPCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOWNERSHIPCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryOwnershipTokenCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryOwnershipTokenCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOWNERSHIPTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONQUERYOWNERSHIPTOKENCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnRedeemEntitlementsCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnRedeemEntitlementsCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONREDEEMENTITLEMENTSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ECOM_ECOMINTERFACE_ONREDEEMENTITLEMENTSCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

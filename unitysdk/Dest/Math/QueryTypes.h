@@ -3,7 +3,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int QueryTypes_TypeDefinitionIndex = 8815;
+	inline static constexpr unsigned int QueryTypes_TypeDefinitionIndex = 6679;
 
 	enum class QueryTypes : ::System::Int32
 	{

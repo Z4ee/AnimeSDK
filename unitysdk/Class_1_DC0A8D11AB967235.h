@@ -3,36 +3,36 @@
 #include "unitysdk/ScenenLightManager/AfterExecOperation.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_96C82B73FFE758FB;
+class Class_1_E3144EBBA3CB68CA;
 
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x922CD60)
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_7889E856344009E9_OFFSET UNITYSDK_OFFSET(0x922CCE0)
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0x922CDC0)
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x922CCD0)
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x922CE10)
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x922CD50)
-#define CLASS_1_DC0A8D11AB967235__CTOR_OFFSET UNITYSDK_OFFSET(0x922CE60)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xAC66D90)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_7889E856344009E9_OFFSET UNITYSDK_OFFSET(0xAC66D10)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0xAC66DF0)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0xAC66D00)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xAC66E40)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xAC66D80)
+#define CLASS_1_DC0A8D11AB967235__CTOR_OFFSET UNITYSDK_OFFSET(0xAC66E90)
 
-inline static constexpr unsigned int Class_1_DC0A8D11AB967235_TypeDefinitionIndex = 45719;
+inline static constexpr unsigned int Class_1_DC0A8D11AB967235_TypeDefinitionIndex = 46302;
 
 class Class_1_DC0A8D11AB967235 : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DC0A8D11AB967235_TypeDefinitionIndex)->GetStaticField(0x11870);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DC0A8D11AB967235_TypeDefinitionIndex)->GetStaticField(0x8130);
 	}
-	::System::Single Field_1_7; // 0x10
-	::System::Single Field_1_8; // 0x14
-	::System::Single Field_1_11; // 0x18
-	::System::Single Field_1_6; // 0x1C
-	::System::Int32 Field_1_4; // 0x20
-	::System::Boolean Field_1_1; // 0x24
-	::System::Boolean Field_1_10; // 0x25
-	::System::Boolean Field_1_2; // 0x26
-	::System::Int32 Field_1_5; // 0x28
-	::System::Single Field_1_9; // 0x2C
-	::System::Int32 Field_1_3; // 0x30
+	::System::Single Field_1_1; // 0x10
+	::System::Int32 Field_1_2; // 0x14
+	::System::Single Field_1_3; // 0x18
+	::System::Int32 Field_1_4; // 0x1C
+	::System::Single Field_1_5; // 0x20
+	::System::Boolean Field_1_6; // 0x24
+	::System::Boolean Field_1_7; // 0x25
+	::System::Boolean Field_1_8; // 0x26
+	::System::Int32 Field_1_9; // 0x28
+	::System::Single Field_1_10; // 0x2C
+	::System::Single Field_1_11; // 0x30
 
 	::System::Void _ctor()
 	{

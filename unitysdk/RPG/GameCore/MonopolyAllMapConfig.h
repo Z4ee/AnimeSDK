@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MonopolyMapConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MONOPOLYALLMAPCONFIG_METHOD_2_C32F6E21CF91E6EF_OFFSET UNITYSDK_OFFSET(0x18B42C90)
-#define RPG_GAMECORE_MONOPOLYALLMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B42DA0)
+#define RPG_GAMECORE_MONOPOLYALLMAPCONFIG_METHOD_2_2C71B38A8ED1ED2D_OFFSET UNITYSDK_OFFSET(0x1995AC20)
+#define RPG_GAMECORE_MONOPOLYALLMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1995AD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyAllMapConfig_TypeDefinitionIndex = 15375;
+	inline static constexpr unsigned int MonopolyAllMapConfig_TypeDefinitionIndex = 15432;
 
 	class MonopolyAllMapConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYALLMAPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C32F6E21CF91E6EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyAllMapConfig*& a2)
+		static ::System::Void Method_2_2C71B38A8ED1ED2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyAllMapConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyAllMapConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYALLMAPCONFIG_METHOD_2_C32F6E21CF91E6EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyAllMapConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYALLMAPCONFIG_METHOD_2_2C71B38A8ED1ED2D_OFFSET))(a1, a2);
 		}
 	};
 }

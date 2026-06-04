@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvDisableNpcSyncMotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_AF124B325361ACEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x118BA350)
-#define CLASS_3_AF124B325361ACEE__CTOR_OFFSET UNITYSDK_OFFSET(0x118BA320)
+#define CLASS_3_AF124B325361ACEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB528320)
+#define CLASS_3_AF124B325361ACEE__CTOR_OFFSET UNITYSDK_OFFSET(0xB5282F0)
 
-inline static constexpr unsigned int Class_3_AF124B325361ACEE_TypeDefinitionIndex = 53367;
+inline static constexpr unsigned int Class_3_AF124B325361ACEE_TypeDefinitionIndex = 54080;
 
 class Class_3_AF124B325361ACEE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvDisableNpcSyncMotion*>
 {

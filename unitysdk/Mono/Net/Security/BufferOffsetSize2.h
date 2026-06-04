@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/Security/BufferOffsetSize.h"
 
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_APPENDDATA_OFFSET UNITYSDK_OFFSET(0x1A09A790)
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_MAKEROOM_OFFSET UNITYSDK_OFFSET(0x1A09A700)
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_RESET_OFFSET UNITYSDK_OFFSET(0x1A09A6A0)
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A09A660)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_APPENDDATA_OFFSET UNITYSDK_OFFSET(0x1AF0BA40)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_MAKEROOM_OFFSET UNITYSDK_OFFSET(0x1AF0B9B0)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_RESET_OFFSET UNITYSDK_OFFSET(0x1AF0B950)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF0B910)
 
 namespace Mono::Net::Security
 {
@@ -16,9 +16,9 @@ namespace Mono::Net::Security
 	public:
 		::System::Int32 InitialSize; // 0x28
 
-		::System::Void _ctor(::System::Int32 size)
+		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_BUFFEROFFSETSIZE2__CTOR_OFFSET))(this, size);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_BUFFEROFFSETSIZE2__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -26,14 +26,14 @@ namespace Mono::Net::Security
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_BUFFEROFFSETSIZE2_RESET_OFFSET))(this);
 		}
 
-		::System::Void MakeRoom(::System::Int32 size)
+		::System::Void MakeRoom(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_BUFFEROFFSETSIZE2_MAKEROOM_OFFSET))(this, size);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_BUFFEROFFSETSIZE2_MAKEROOM_OFFSET))(this, a1);
 		}
 
-		::System::Void AppendData(::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 size)
+		::System::Void AppendData(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_BUFFEROFFSETSIZE2_APPENDDATA_OFFSET))(this, buffer, offset, size);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_BUFFEROFFSETSIZE2_APPENDDATA_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

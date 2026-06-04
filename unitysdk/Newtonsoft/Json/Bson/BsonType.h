@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonType_TypeDefinitionIndex = 8607;
+	inline static constexpr unsigned int BsonType_TypeDefinitionIndex = 9510;
 
 	enum class BsonType : ::System::SByte
 	{

@@ -8,36 +8,36 @@ namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
 
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA2B27B0)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA2B27F0)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA2B1540)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA2B2790)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB9398C0)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB939900)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB938FC0)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB939840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EventTriggerListener_VoidBaseEventDataDelegate_TypeDefinitionIndex = 66831;
+	inline static constexpr unsigned int EventTriggerListener_VoidBaseEventDataDelegate_TypeDefinitionIndex = 67771;
 
 	class EventTriggerListener_VoidBaseEventDataDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::GameObject* go, ::UnityEngine::EventSystems::BaseEventData* data)
+		::System::Void Invoke(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::BaseEventData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_INVOKE_OFFSET))(this, go, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::GameObject* go, ::UnityEngine::EventSystems::BaseEventData* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::BaseEventData* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::BaseEventData*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_BEGININVOKE_OFFSET))(this, go, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::BaseEventData*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDBASEEVENTDATADELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

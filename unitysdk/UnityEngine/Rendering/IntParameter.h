@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define UNITYENGINE_RENDERING_INTPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1A321930)
-#define UNITYENGINE_RENDERING_INTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3045C0)
+#define UNITYENGINE_RENDERING_INTPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1B17C250)
+#define UNITYENGINE_RENDERING_INTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1646A0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int IntParameter_TypeDefinitionIndex = 33536;
+	inline static constexpr unsigned int IntParameter_TypeDefinitionIndex = 33818;
 
 	class IntParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::System::Int32>
 	{
 	public:
-		::System::Void _ctor(::System::Int32 value, ::System::Boolean overrideState)
+		::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_INTPARAMETER__CTOR_OFFSET))(this, value, overrideState);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_INTPARAMETER__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Interp(::System::Int32 from, ::System::Int32 to, ::System::Single t)
+		::System::Void Interp(::System::Int32 a1, ::System::Int32 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_INTPARAMETER_INTERP_OFFSET))(this, from, to, t);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_INTPARAMETER_INTERP_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

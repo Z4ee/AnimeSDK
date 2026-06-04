@@ -10,34 +10,34 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1711E280)
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1711E2A0)
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1711DD00)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x17E7E3C0)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x17E7E3F0)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E7DE10)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SingleFieldAccessor_TypeDefinitionIndex = 6371;
+	inline static constexpr unsigned int SingleFieldAccessor_TypeDefinitionIndex = 5573;
 
 	class SingleFieldAccessor : public ::Google::Protobuf::Reflection::FieldAccessorBase
 	{
 	public:
 		::System::Func_2<::Google::Protobuf::IMessage*, ::System::Boolean>* hasDelegate; // 0x20
-		::System::Action_2<::Google::Protobuf::IMessage*, ::System::Object*>* setValueDelegate; // 0x28
-		::System::Action_1<::Google::Protobuf::IMessage*>* clearDelegate; // 0x30
+		::System::Action_1<::Google::Protobuf::IMessage*>* clearDelegate; // 0x28
+		::System::Action_2<::Google::Protobuf::IMessage*, ::System::Object*>* setValueDelegate; // 0x30
 
-		::System::Void _ctor(::System::Reflection::PropertyInfo* property, ::Google::Protobuf::Reflection::FieldDescriptor* descriptor)
+		::System::Void _ctor(::System::Reflection::PropertyInfo* a1, ::Google::Protobuf::Reflection::FieldDescriptor* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::PropertyInfo*, ::Google::Protobuf::Reflection::FieldDescriptor*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET))(this, property, descriptor);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::PropertyInfo*, ::Google::Protobuf::Reflection::FieldDescriptor*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean HasValue(::Google::Protobuf::IMessage* message)
+		::System::Boolean HasValue(::Google::Protobuf::IMessage* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::IMessage*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_HASVALUE_OFFSET))(this, message);
+			return ((::System::Boolean(*)(::PVOID, ::Google::Protobuf::IMessage*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_HASVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetValue(::Google::Protobuf::IMessage* message, ::System::Object* value)
+		::System::Void SetValue(::Google::Protobuf::IMessage* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::IMessage*, ::System::Object*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET))(this, message, value);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::IMessage*, ::System::Object*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET))(this, a1, a2);
 		}
 	};
 }

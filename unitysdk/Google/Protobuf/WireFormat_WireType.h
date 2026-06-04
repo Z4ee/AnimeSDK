@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int WireFormat_WireType_TypeDefinitionIndex = 6213;
+	inline static constexpr unsigned int WireFormat_WireType_TypeDefinitionIndex = 5415;
 
 	enum class WireFormat_WireType : ::System::UInt32
 	{

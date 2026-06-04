@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTFORGEADDCOINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA49EF20)
+#define RPG_CLIENT_GRIDFIGHTFORGEADDCOINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xBB3E6D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightForgeAddCoinEvent_TypeDefinitionIndex = 59771;
+	inline static constexpr unsigned int GridFightForgeAddCoinEvent_TypeDefinitionIndex = 60706;
 
 	class GridFightForgeAddCoinEvent : public ::System::Object
 	{

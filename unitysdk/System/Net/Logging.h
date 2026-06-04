@@ -11,7 +11,7 @@ namespace System::Net
 	public:
 		static ::System::Boolean* StaticGet_On()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Logging_TypeDefinitionIndex)->GetStaticField(0x5B20);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Logging_TypeDefinitionIndex)->GetStaticField(0x92A0);
 		}
 	};
 }

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB8EEC80)
+#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD030A80)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MoveVirtualCameraOnDollyPathConfig_TypeDefinitionIndex = 44590;
+	inline static constexpr unsigned int MoveVirtualCameraOnDollyPathConfig_TypeDefinitionIndex = 45137;
 
 	class MoveVirtualCameraOnDollyPathConfig : public ::System::Object
 	{

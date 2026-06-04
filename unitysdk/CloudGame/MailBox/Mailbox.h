@@ -7,35 +7,35 @@ namespace CloudGame::MailBox { class Mailbox_SendCallbackHandler; }
 namespace CloudGame::MailBox { class Mailbox_SendCallbackRawHandler; }
 namespace System { class String; }
 
-#define CLOUDGAME_MAILBOX_MAILBOX_ATTACHED_OFFSET UNITYSDK_OFFSET(0x173C9110)
-#define CLOUDGAME_MAILBOX_MAILBOX_CLOSE_OFFSET UNITYSDK_OFFSET(0x173CB280)
-#define CLOUDGAME_MAILBOX_MAILBOX_CREATE_OFFSET UNITYSDK_OFFSET(0x173CB120)
-#define CLOUDGAME_MAILBOX_MAILBOX_FINALIZE_OFFSET UNITYSDK_OFFSET(0x173CB660)
-#define CLOUDGAME_MAILBOX_MAILBOX_MAILBOXSENDCALLBACK_OFFSET UNITYSDK_OFFSET(0x173CAEC0)
-#define CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXCLOSE_OFFSET UNITYSDK_OFFSET(0x173CB0A0)
-#define CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXCREATE_OFFSET UNITYSDK_OFFSET(0x173CAF50)
-#define CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXLIBRARYISATTACHED_OFFSET UNITYSDK_OFFSET(0x173CAED0)
-#define CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXSEND_OFFSET UNITYSDK_OFFSET(0x173CB000)
-#define CLOUDGAME_MAILBOX_MAILBOX_SEND_OFFSET UNITYSDK_OFFSET(0x173C9480)
-#define CLOUDGAME_MAILBOX_MAILBOX__CCTOR_OFFSET UNITYSDK_OFFSET(0x173CB780)
-#define CLOUDGAME_MAILBOX_MAILBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x173C91E0)
+#define CLOUDGAME_MAILBOX_MAILBOX_ATTACHED_OFFSET UNITYSDK_OFFSET(0x181D3A80)
+#define CLOUDGAME_MAILBOX_MAILBOX_CLOSE_OFFSET UNITYSDK_OFFSET(0x181D5B70)
+#define CLOUDGAME_MAILBOX_MAILBOX_CREATE_OFFSET UNITYSDK_OFFSET(0x181D5A10)
+#define CLOUDGAME_MAILBOX_MAILBOX_FINALIZE_OFFSET UNITYSDK_OFFSET(0x181D5C70)
+#define CLOUDGAME_MAILBOX_MAILBOX_MAILBOXSENDCALLBACK_OFFSET UNITYSDK_OFFSET(0x181D57A0)
+#define CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXCLOSE_OFFSET UNITYSDK_OFFSET(0x181D5990)
+#define CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXCREATE_OFFSET UNITYSDK_OFFSET(0x181D5840)
+#define CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXLIBRARYISATTACHED_OFFSET UNITYSDK_OFFSET(0x181D57C0)
+#define CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXSEND_OFFSET UNITYSDK_OFFSET(0x181D58F0)
+#define CLOUDGAME_MAILBOX_MAILBOX_SEND_OFFSET UNITYSDK_OFFSET(0x181D3DC0)
+#define CLOUDGAME_MAILBOX_MAILBOX__CCTOR_OFFSET UNITYSDK_OFFSET(0x181D5D90)
+#define CLOUDGAME_MAILBOX_MAILBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x181D3B50)
 
 namespace CloudGame::MailBox
 {
-	inline static constexpr unsigned int Mailbox_TypeDefinitionIndex = 6594;
+	inline static constexpr unsigned int Mailbox_TypeDefinitionIndex = 7497;
 
 	class Mailbox : public ::System::Object
 	{
 	public:
 		static ::CloudGame::MailBox::Mailbox_SendCallbackRawHandler** StaticGet_sendCallback()
 		{
-			return (::CloudGame::MailBox::Mailbox_SendCallbackRawHandler**)Il2CppClass::FromTypeDefinitionIndex(Mailbox_TypeDefinitionIndex)->GetStaticField(0x16350);
+			return (::CloudGame::MailBox::Mailbox_SendCallbackRawHandler**)Il2CppClass::FromTypeDefinitionIndex(Mailbox_TypeDefinitionIndex)->GetStaticField(0xB1D0);
 		}
 		::System::IntPtr handle; // 0x10
 
-		::System::Void _ctor(::System::String* name, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler* receiveCallback)
+		::System::Void _ctor(::System::String* a1, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX__CTOR_OFFSET))(this, name, receiveCallback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
@@ -48,19 +48,19 @@ namespace CloudGame::MailBox
 			return ((::System::Int64(*)())((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXLIBRARYISATTACHED_OFFSET))();
 		}
 
-		static ::System::Int64 NativeMailboxCreate(::System::IntPtr* pHandle, ::System::IntPtr mailboxName, ::CloudGame::MailBox::Mailbox_SendCallbackRawHandler* sendCallback, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler* receiveCallback)
+		static ::System::Int64 NativeMailboxCreate(::System::IntPtr* a1, ::System::IntPtr a2, ::CloudGame::MailBox::Mailbox_SendCallbackRawHandler* a3, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler* a4)
 		{
-			return ((::System::Int64(*)(::System::IntPtr*, ::System::IntPtr, ::CloudGame::MailBox::Mailbox_SendCallbackRawHandler*, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXCREATE_OFFSET))(pHandle, mailboxName, sendCallback, receiveCallback);
+			return ((::System::Int64(*)(::System::IntPtr*, ::System::IntPtr, ::CloudGame::MailBox::Mailbox_SendCallbackRawHandler*, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXCREATE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int64 NativeMailboxSend(::System::IntPtr pHandle, ::System::IntPtr data, ::System::Int32 size, ::CloudGame::MailBox::Mailbox_SendCallbackHandler* callback)
+		static ::System::Int64 NativeMailboxSend(::System::IntPtr a1, ::System::IntPtr a2, ::System::Int32 a3, ::CloudGame::MailBox::Mailbox_SendCallbackHandler* a4)
 		{
-			return ((::System::Int64(*)(::System::IntPtr, ::System::IntPtr, ::System::Int32, ::CloudGame::MailBox::Mailbox_SendCallbackHandler*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXSEND_OFFSET))(pHandle, data, size, callback);
+			return ((::System::Int64(*)(::System::IntPtr, ::System::IntPtr, ::System::Int32, ::CloudGame::MailBox::Mailbox_SendCallbackHandler*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXSEND_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int64 NativeMailboxClose(::System::IntPtr pHandle)
+		static ::System::Int64 NativeMailboxClose(::System::IntPtr a1)
 		{
-			return ((::System::Int64(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXCLOSE_OFFSET))(pHandle);
+			return ((::System::Int64(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_NATIVEMAILBOXCLOSE_OFFSET))(a1);
 		}
 
 		static ::System::Int64 Attached()
@@ -68,14 +68,14 @@ namespace CloudGame::MailBox
 			return ((::System::Int64(*)())((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_ATTACHED_OFFSET))();
 		}
 
-		::System::Int64 Send(::Il2CppArray<::System::Byte>* data)
+		::System::Int64 Send(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_SEND_OFFSET))(this, data);
+			return ((::System::Int64(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_SEND_OFFSET))(this, a1);
 		}
 
-		::System::Int64 Create(::System::String* name, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler* receiveCallback)
+		::System::Int64 Create(::System::String* a1, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler* a2)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::String*, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_CREATE_OFFSET))(this, name, receiveCallback);
+			return ((::System::Int64(*)(::PVOID, ::System::String*, ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_CREATE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int64 Close()
@@ -83,9 +83,9 @@ namespace CloudGame::MailBox
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_CLOSE_OFFSET))(this);
 		}
 
-		static ::System::Void MailboxSendCallback(::CloudGame::MailBox::Mailbox_SendCallbackHandler* pContext, ::System::Int64 code)
+		static ::System::Void MailboxSendCallback(::CloudGame::MailBox::Mailbox_SendCallbackHandler* a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::CloudGame::MailBox::Mailbox_SendCallbackHandler*, ::System::Int64))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_MAILBOXSENDCALLBACK_OFFSET))(pContext, code);
+			return ((::System::Void(*)(::CloudGame::MailBox::Mailbox_SendCallbackHandler*, ::System::Int64))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_MAILBOXSENDCALLBACK_OFFSET))(a1, a2);
 		}
 
 		::System::Void Finalize()

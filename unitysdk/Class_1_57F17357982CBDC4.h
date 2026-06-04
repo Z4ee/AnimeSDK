@@ -4,10 +4,9 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_57F17357982CBDC4_CLEAR_OFFSET UNITYSDK_OFFSET(0x18027810)
-#define CLASS_1_57F17357982CBDC4__CTOR_OFFSET UNITYSDK_OFFSET(0x18027880)
+#define CLASS_1_57F17357982CBDC4__CTOR_OFFSET UNITYSDK_OFFSET(0x18BB5C70)
 
-inline static constexpr unsigned int Class_1_57F17357982CBDC4_TypeDefinitionIndex = 38076;
+inline static constexpr unsigned int Class_1_57F17357982CBDC4_TypeDefinitionIndex = 39289;
 
 class Class_1_57F17357982CBDC4 : public ::System::Object
 {
@@ -17,10 +16,5 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_57F17357982CBDC4__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Clear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_57F17357982CBDC4_CLEAR_OFFSET))(this);
 	}
 };

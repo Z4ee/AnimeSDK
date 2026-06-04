@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int BRECORD_TypeDefinitionIndex = 451;
+	inline static constexpr unsigned int BRECORD_TypeDefinitionIndex = 450;
 
 	struct alignas(8) BRECORD
 	{

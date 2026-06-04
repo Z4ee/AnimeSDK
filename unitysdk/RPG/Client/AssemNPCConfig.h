@@ -9,18 +9,18 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_2C59D1D0CBDC6514_OFFSET UNITYSDK_OFFSET(0x9D3C2D0)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x9D3C570)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x9D3B2F0)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_758732BD37F8618C_OFFSET UNITYSDK_OFFSET(0x9D3C0B0)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_AD319275F843656C_OFFSET UNITYSDK_OFFSET(0x9D3BC30)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0x9D3AA80)
-#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_E99B65C7129DD63C_OFFSET UNITYSDK_OFFSET(0x9D3BF30)
-#define RPG_CLIENT_ASSEMNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9D3C610)
+#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_2C59D1D0CBDC6514_OFFSET UNITYSDK_OFFSET(0xB32C2E0)
+#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_758732BD37F8618C_OFFSET UNITYSDK_OFFSET(0xB32C0B0)
+#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_8217D0BE55D652BA_OFFSET UNITYSDK_OFFSET(0xB32BAA0)
+#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xB32C5B0)
+#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_A74BD9120F7FD2AB_OFFSET UNITYSDK_OFFSET(0xB32BEC0)
+#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_DB67EEFB041425EC_OFFSET UNITYSDK_OFFSET(0xB32B1B0)
+#define RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0xB32AB10)
+#define RPG_CLIENT_ASSEMNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB32C640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssemNPCConfig_TypeDefinitionIndex = 55369;
+	inline static constexpr unsigned int AssemNPCConfig_TypeDefinitionIndex = 56103;
 
 	class AssemNPCConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -34,24 +34,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_E876C8B6D3B840A6()
+		::System::Void Method_3_EAD10B3E55E2C4C5()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_E876C8B6D3B840A6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_EAD10B3E55E2C4C5_OFFSET))(this);
 		}
 
-		::System::Void Method_3_33E2FA8E6403B93D()
+		::System::Void Method_3_DB67EEFB041425EC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_33E2FA8E6403B93D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_DB67EEFB041425EC_OFFSET))(this);
 		}
 
-		::System::Void Method_3_AD319275F843656C(::System::String* a1, ::RPG::Client::AssemNPC* a2)
+		::System::Void Method_3_8217D0BE55D652BA(::System::String* a1, ::RPG::Client::AssemNPC* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_AD319275F843656C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_8217D0BE55D652BA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_3_E99B65C7129DD63C(::System::String* a1, ::System::String* a2, ::RPG::Client::AssemNPC* a3)
+		::System::Boolean Method_3_A74BD9120F7FD2AB(::System::String* a1, ::System::String* a2, ::RPG::Client::AssemNPC* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_E99B65C7129DD63C_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_A74BD9120F7FD2AB_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Method_3_758732BD37F8618C(::System::String* a1, ::RPG::Client::AssemNPC* a2)
@@ -64,9 +64,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_2C59D1D0CBDC6514_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_30D1209326FA87FC()
+		::System::Void Method_3_89D1F247B9D324EE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_30D1209326FA87FC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCONFIG_METHOD_3_89D1F247B9D324EE_OFFSET))(this);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ChenLingBattle { class SoldierPromotion; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F9C390)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS45_0__GETSOLDIERPROMOTION_B__0_OFFSET UNITYSDK_OFFSET(0x9FA1970)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5B3560)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS45_0__GETSOLDIERPROMOTION_B__0_OFFSET UNITYSDK_OFFSET(0xB5BA7A0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass45_0_TypeDefinitionIndex = 70095;
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass45_0_TypeDefinitionIndex = 70907;
 
 	class ChenLingBattleGameSession___c__DisplayClass45_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS45_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetSoldierPromotion_b__0(::RPG::Client::ChenLingBattle::SoldierPromotion* x)
+		::System::Boolean _GetSoldierPromotion_b__0(::RPG::Client::ChenLingBattle::SoldierPromotion* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::SoldierPromotion*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS45_0__GETSOLDIERPROMOTION_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::SoldierPromotion*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS45_0__GETSOLDIERPROMOTION_B__0_OFFSET))(this, a1);
 		}
 	};
 }

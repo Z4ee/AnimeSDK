@@ -6,13 +6,13 @@ namespace RPG::Client { class GridFightGridData; }
 namespace RPG::Client { class GridFightGridMoveValidateResult; }
 namespace RPG::Client { class GridFightNPC; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_NPCBLOCKCONSTRAIT_VALIDATE_OFFSET UNITYSDK_OFFSET(0xA4EACE0)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_NPCBLOCKCONSTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0xA4E9F00)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_NPCBLOCKCONSTRAIT__SHOULDBLOCK_OFFSET UNITYSDK_OFFSET(0xA4EAF70)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_NPCBLOCKCONSTRAIT_VALIDATE_OFFSET UNITYSDK_OFFSET(0xBB91760)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_NPCBLOCKCONSTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0xBB909B0)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_NPCBLOCKCONSTRAIT__SHOULDBLOCK_OFFSET UNITYSDK_OFFSET(0xBB919F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridOperationValidator_NPCBlockConstrait_TypeDefinitionIndex = 59699;
+	inline static constexpr unsigned int GridFightGridOperationValidator_NPCBlockConstrait_TypeDefinitionIndex = 60634;
 
 	class GridFightGridOperationValidator_NPCBlockConstrait : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_NPCBLOCKCONSTRAIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Validate(::RPG::Client::GridFightGridData* startData, ::RPG::Client::GridFightGridData* endData, ::RPG::Client::GridFightGridMoveValidateResult* result)
+		::System::Void Validate(::RPG::Client::GridFightGridData* a1, ::RPG::Client::GridFightGridData* a2, ::RPG::Client::GridFightGridMoveValidateResult* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGridData*, ::RPG::Client::GridFightGridData*, ::RPG::Client::GridFightGridMoveValidateResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_NPCBLOCKCONSTRAIT_VALIDATE_OFFSET))(this, startData, endData, result);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGridData*, ::RPG::Client::GridFightGridData*, ::RPG::Client::GridFightGridMoveValidateResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_NPCBLOCKCONSTRAIT_VALIDATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean _ShouldBlock(::RPG::Client::GridFightNPC* npc, ::RPG::Client::GridFightGridData* dest, ::RPG::Client::GridFightGridMoveValidateResult* result)
+		::System::Boolean _ShouldBlock(::RPG::Client::GridFightNPC* a1, ::RPG::Client::GridFightGridData* a2, ::RPG::Client::GridFightGridMoveValidateResult* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightNPC*, ::RPG::Client::GridFightGridData*, ::RPG::Client::GridFightGridMoveValidateResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_NPCBLOCKCONSTRAIT__SHOULDBLOCK_OFFSET))(this, npc, dest, result);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightNPC*, ::RPG::Client::GridFightGridData*, ::RPG::Client::GridFightGridMoveValidateResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_NPCBLOCKCONSTRAIT__SHOULDBLOCK_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

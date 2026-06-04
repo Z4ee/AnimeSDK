@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_181F61C600ECA68B;
+namespace RPG::Client { class GridFightFormationRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE_CANDRESS_OFFSET UNITYSDK_OFFSET(0xA4B5B00)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE_GET_REASON_OFFSET UNITYSDK_OFFSET(0xA4B5A50)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A5B90)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE_CANDRESS_OFFSET UNITYSDK_OFFSET(0xBB596B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE_GET_REASON_OFFSET UNITYSDK_OFFSET(0xBB59600)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE__CTOR_OFFSET UNITYSDK_OFFSET(0xBB46A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_ExclusiveTraitUniqueRule_TypeDefinitionIndex = 59485;
+	inline static constexpr unsigned int GridFightGameFormationEditor_ExclusiveTraitUniqueRule_TypeDefinitionIndex = 60420;
 
 	class GridFightGameFormationEditor_ExclusiveTraitUniqueRule : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE_GET_REASON_OFFSET))(this);
 		}
 
-		::System::Boolean CanDress(::Class_2_181F61C600ECA68B* role, ::System::UInt32 equipID)
+		::System::Boolean CanDress(::RPG::Client::GridFightFormationRole* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_181F61C600ECA68B*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE_CANDRESS_OFFSET))(this, role, equipID);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightFormationRole*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE_CANDRESS_OFFSET))(this, a1, a2);
 		}
 	};
 }

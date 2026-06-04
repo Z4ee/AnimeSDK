@@ -6,16 +6,16 @@
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Graphic; }
 
-#define SRF_UI_FLASHGRAPHIC_FLASHANDHOLDUNTILNEXTPRESS_OFFSET UNITYSDK_OFFSET(0x19EAAF50)
-#define SRF_UI_FLASHGRAPHIC_FLASH_OFFSET UNITYSDK_OFFSET(0x19EAAEC0)
-#define SRF_UI_FLASHGRAPHIC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19EAAE60)
-#define SRF_UI_FLASHGRAPHIC_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x19EAADB0)
-#define SRF_UI_FLASHGRAPHIC_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x19EAAE00)
-#define SRF_UI_FLASHGRAPHIC__CTOR_OFFSET UNITYSDK_OFFSET(0x19EAAFA0)
+#define SRF_UI_FLASHGRAPHIC_FLASHANDHOLDUNTILNEXTPRESS_OFFSET UNITYSDK_OFFSET(0x1AD215B0)
+#define SRF_UI_FLASHGRAPHIC_FLASH_OFFSET UNITYSDK_OFFSET(0x1AD21520)
+#define SRF_UI_FLASHGRAPHIC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AD214C0)
+#define SRF_UI_FLASHGRAPHIC_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1AD21410)
+#define SRF_UI_FLASHGRAPHIC_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x1AD21460)
+#define SRF_UI_FLASHGRAPHIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD21600)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int FlashGraphic_TypeDefinitionIndex = 33291;
+	inline static constexpr unsigned int FlashGraphic_TypeDefinitionIndex = 33573;
 
 	class FlashGraphic : public ::UnityEngine::EventSystems::UIBehaviour
 	{
@@ -31,14 +31,14 @@ namespace SRF::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_FLASHGRAPHIC__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_FLASHGRAPHIC_ONPOINTERDOWN_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_FLASHGRAPHIC_ONPOINTERDOWN_OFFSET))(this, a1);
 		}
 
-		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData)
+		::System::Void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_FLASHGRAPHIC_ONPOINTERUP_OFFSET))(this, eventData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + SRF_UI_FLASHGRAPHIC_ONPOINTERUP_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()

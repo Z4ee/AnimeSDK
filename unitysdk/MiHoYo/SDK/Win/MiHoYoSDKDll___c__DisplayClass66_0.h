@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17756930)
-#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS66_0__LOGIN_PAY_B__0_OFFSET UNITYSDK_OFFSET(0x1775AD50)
+#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18513260)
+#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS66_0__LOGIN_PAY_B__0_OFFSET UNITYSDK_OFFSET(0x18517650)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass66_0_TypeDefinitionIndex = 8187;
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass66_0_TypeDefinitionIndex = 9090;
 
 	class MiHoYoSDKDll___c__DisplayClass66_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS66_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _login_pay_b__0(::System::String* strArgs)
+		::System::Void _login_pay_b__0(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS66_0__LOGIN_PAY_B__0_OFFSET))(this, strArgs);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS66_0__LOGIN_PAY_B__0_OFFSET))(this, a1);
 		}
 	};
 }

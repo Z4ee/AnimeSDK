@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class ActivityGuessTheSilhouetteData; }
 
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9AE04D0)
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS23_0___CONVERTGUESSDATALISTTODAYINDEXDICT_B__0_OFFSET UNITYSDK_OFFSET(0x9AE0C70)
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS23_0___CONVERTGUESSDATALISTTODAYINDEXDICT_B__1_OFFSET UNITYSDK_OFFSET(0x9AE0CA0)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0C2BC0)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS23_0___CONVERTGUESSDATALISTTODAYINDEXDICT_B__0_OFFSET UNITYSDK_OFFSET(0xB0C3330)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS23_0___CONVERTGUESSDATALISTTODAYINDEXDICT_B__1_OFFSET UNITYSDK_OFFSET(0xB0C3360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityGuessTheSilhouetteModule___c__DisplayClass23_0_TypeDefinitionIndex = 56738;
+	inline static constexpr unsigned int ActivityGuessTheSilhouetteModule___c__DisplayClass23_0_TypeDefinitionIndex = 57522;
 
 	class ActivityGuessTheSilhouetteModule___c__DisplayClass23_0 : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS23_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __ConvertGuessDataListToDayIndexDict_b__0(::RPG::Client::ActivityGuessTheSilhouetteData* item)
+		::System::Boolean __ConvertGuessDataListToDayIndexDict_b__0(::RPG::Client::ActivityGuessTheSilhouetteData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityGuessTheSilhouetteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS23_0___CONVERTGUESSDATALISTTODAYINDEXDICT_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityGuessTheSilhouetteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS23_0___CONVERTGUESSDATALISTTODAYINDEXDICT_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __ConvertGuessDataListToDayIndexDict_b__1(::RPG::Client::ActivityGuessTheSilhouetteData* item)
+		::System::Boolean __ConvertGuessDataListToDayIndexDict_b__1(::RPG::Client::ActivityGuessTheSilhouetteData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityGuessTheSilhouetteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS23_0___CONVERTGUESSDATALISTTODAYINDEXDICT_B__1_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityGuessTheSilhouetteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS23_0___CONVERTGUESSDATALISTTODAYINDEXDICT_B__1_OFFSET))(this, a1);
 		}
 	};
 }

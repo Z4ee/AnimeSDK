@@ -13,37 +13,37 @@ namespace System::Reflection { class Binder; }
 namespace System::Reflection { class Module; }
 namespace System::Reflection { class RuntimeFieldInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x17A20370)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x17A20340)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x17A20400)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x17A20610)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0x17A202E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_FIELDHANDLE_OFFSET UNITYSDK_OFFSET(0x17A205E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_FIELDINFO_OFFSET UNITYSDK_OFFSET(0x17A205D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_FIELDTYPE_OFFSET UNITYSDK_OFFSET(0x17A203D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_METADATATOKEN_OFFSET UNITYSDK_OFFSET(0x17A20260)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_MODULE_OFFSET UNITYSDK_OFFSET(0x17A201F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17A202D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_REFLECTEDTYPE_OFFSET UNITYSDK_OFFSET(0x17A20310)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_INTERNALGETVALUE_OFFSET UNITYSDK_OFFSET(0x17A20430)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_INTERNALSETVALUE_OFFSET UNITYSDK_OFFSET(0x17A20510)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x17A203A0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x17A204D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17A20280)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x187CE850)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x187CE820)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x187CE8E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x187CEB00)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0x187CE7C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_FIELDHANDLE_OFFSET UNITYSDK_OFFSET(0x187CEAD0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_FIELDINFO_OFFSET UNITYSDK_OFFSET(0x187CEAC0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_FIELDTYPE_OFFSET UNITYSDK_OFFSET(0x187CE8B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_METADATATOKEN_OFFSET UNITYSDK_OFFSET(0x187CE740)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_MODULE_OFFSET UNITYSDK_OFFSET(0x187CE6C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x187CE7B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_REFLECTEDTYPE_OFFSET UNITYSDK_OFFSET(0x187CE7F0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_INTERNALGETVALUE_OFFSET UNITYSDK_OFFSET(0x187CE910)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_INTERNALSETVALUE_OFFSET UNITYSDK_OFFSET(0x187CEA00)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x187CE880)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x187CE9C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x187CE760)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SerializationFieldInfo_TypeDefinitionIndex = 1121;
+	inline static constexpr unsigned int SerializationFieldInfo_TypeDefinitionIndex = 1120;
 
 	class SerializationFieldInfo : public ::System::Reflection::FieldInfo
 	{
 	public:
-		::System::String* m_serializationName; // 0x10
-		::System::Reflection::RuntimeFieldInfo* m_field; // 0x18
+		::System::Reflection::RuntimeFieldInfo* m_field; // 0x10
+		::System::String* m_serializationName; // 0x18
 
-		::System::Void _ctor(::System::Reflection::RuntimeFieldInfo* field, ::System::String* namePrefix)
+		::System::Void _ctor(::System::Reflection::RuntimeFieldInfo* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::RuntimeFieldInfo*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO__CTOR_OFFSET))(this, field, namePrefix);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::RuntimeFieldInfo*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Reflection::Module* get_Module()
@@ -71,19 +71,19 @@ namespace System::Runtime::Serialization
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_REFLECTEDTYPE_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Boolean a1)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETCUSTOMATTRIBUTES_OFFSET))(this, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETCUSTOMATTRIBUTES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* attributeType, ::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* GetCustomAttributes_1(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETCUSTOMATTRIBUTES_1_OFFSET))(this, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETCUSTOMATTRIBUTES_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsDefined(::System::Type* attributeType, ::System::Boolean inherit)
+		::System::Boolean IsDefined(::System::Type* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_ISDEFINED_OFFSET))(this, attributeType, inherit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_ISDEFINED_OFFSET))(this, a1, a2);
 		}
 
 		::System::Type* get_FieldType()
@@ -91,24 +91,24 @@ namespace System::Runtime::Serialization
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GET_FIELDTYPE_OFFSET))(this);
 		}
 
-		::System::Object* GetValue(::System::Object* obj)
+		::System::Object* GetValue(::System::Object* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETVALUE_OFFSET))(this, obj);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_GETVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Object* InternalGetValue(::System::Object* obj)
+		::System::Object* InternalGetValue(::System::Object* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_INTERNALGETVALUE_OFFSET))(this, obj);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_INTERNALGETVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void SetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::System::Globalization::CultureInfo* culture)
+		::System::Void SetValue(::System::Object* a1, ::System::Object* a2, ::System::Reflection::BindingFlags a3, ::System::Reflection::Binder* a4, ::System::Globalization::CultureInfo* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_SETVALUE_OFFSET))(this, obj, value, invokeAttr, binder, culture);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_SETVALUE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void InternalSetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::System::Globalization::CultureInfo* culture)
+		::System::Void InternalSetValue(::System::Object* a1, ::System::Object* a2, ::System::Reflection::BindingFlags a3, ::System::Reflection::Binder* a4, ::System::Globalization::CultureInfo* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_INTERNALSETVALUE_OFFSET))(this, obj, value, invokeAttr, binder, culture);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONFIELDINFO_INTERNALSETVALUE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Reflection::RuntimeFieldInfo* get_FieldInfo()

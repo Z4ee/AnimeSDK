@@ -8,12 +8,12 @@ namespace RPG::GameCore { class HipplenHintWeightConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_METHOD_2_6BE199BAACB19B1C_OFFSET UNITYSDK_OFFSET(0x18A018F0)
-#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A020B0)
+#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_METHOD_2_A38F5E78D9CBF7E7_OFFSET UNITYSDK_OFFSET(0x19833E10)
+#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198345A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenGameMainConfig_TypeDefinitionIndex = 15887;
+	inline static constexpr unsigned int HipplenGameMainConfig_TypeDefinitionIndex = 15940;
 
 	class HipplenGameMainConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -48,9 +48,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMEMAINCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6BE199BAACB19B1C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameMainConfig*& a2)
+		static ::System::Void Method_2_A38F5E78D9CBF7E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameMainConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenGameMainConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_METHOD_2_6BE199BAACB19B1C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenGameMainConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_METHOD_2_A38F5E78D9CBF7E7_OFFSET))(a1, a2);
 		}
 	};
 }

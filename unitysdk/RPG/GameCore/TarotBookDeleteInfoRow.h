@@ -5,32 +5,32 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTBOOKDELETEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18EFB1B0)
-#define RPG_GAMECORE_TAROTBOOKDELETEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18EFB520)
+#define RPG_GAMECORE_TAROTBOOKDELETEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D30700)
+#define RPG_GAMECORE_TAROTBOOKDELETEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D30A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookDeleteInfoRow_TypeDefinitionIndex = 14469;
+	inline static constexpr unsigned int TarotBookDeleteInfoRow_TypeDefinitionIndex = 14484;
 
 	class TarotBookDeleteInfoRow : public ::System::Object
 	{
 	public:
-		::System::Single FadeInTime; // 0x10
-		::System::Single ProgressGapTime; // 0x14
-		::RPG::Client::TextID SentenceTextmapID; // 0x18
-		::RPG::Client::TextID ProgressDesc; // 0x28
-		::System::UInt32 ProgressEnd; // 0x38
-		::System::UInt32 ID; // 0x3C
-		::RPG::Client::TextID SentenceName; // 0x40
+		::RPG::Client::TextID SentenceName; // 0x10
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 ProgressEnd; // 0x24
+		::System::Single ProgressGapTime; // 0x28
+		::System::Single FadeInTime; // 0x2C
+		::RPG::Client::TextID ProgressDesc; // 0x30
+		::RPG::Client::TextID SentenceTextmapID; // 0x40
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKDELETEINFOROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::TarotBookDeleteInfoRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TarotBookDeleteInfoRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TarotBookDeleteInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKDELETEINFOROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TarotBookDeleteInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKDELETEINFOROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

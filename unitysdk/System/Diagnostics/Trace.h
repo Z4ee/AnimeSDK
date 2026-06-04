@@ -5,9 +5,9 @@
 namespace System::Diagnostics { class CorrelationManager; }
 namespace System::Diagnostics { class TraceListenerCollection; }
 
-#define SYSTEM_DIAGNOSTICS_TRACE_GET_AUTOFLUSH_OFFSET UNITYSDK_OFFSET(0x1A0E1B50)
-#define SYSTEM_DIAGNOSTICS_TRACE_GET_CORRELATIONMANAGER_OFFSET UNITYSDK_OFFSET(0x1A0E1B70)
-#define SYSTEM_DIAGNOSTICS_TRACE_GET_LISTENERS_OFFSET UNITYSDK_OFFSET(0x1A0E18C0)
+#define SYSTEM_DIAGNOSTICS_TRACE_GET_AUTOFLUSH_OFFSET UNITYSDK_OFFSET(0x1AF49E80)
+#define SYSTEM_DIAGNOSTICS_TRACE_GET_CORRELATIONMANAGER_OFFSET UNITYSDK_OFFSET(0x1AF49EA0)
+#define SYSTEM_DIAGNOSTICS_TRACE_GET_LISTENERS_OFFSET UNITYSDK_OFFSET(0x1AF49BF0)
 
 namespace System::Diagnostics
 {
@@ -18,7 +18,7 @@ namespace System::Diagnostics
 	public:
 		static ::System::Diagnostics::CorrelationManager** StaticGet_correlationManager()
 		{
-			return (::System::Diagnostics::CorrelationManager**)Il2CppClass::FromTypeDefinitionIndex(Trace_TypeDefinitionIndex)->GetStaticField(0x12890);
+			return (::System::Diagnostics::CorrelationManager**)Il2CppClass::FromTypeDefinitionIndex(Trace_TypeDefinitionIndex)->GetStaticField(0x23960);
 		}
 
 		static ::System::Diagnostics::TraceListenerCollection* get_Listeners()

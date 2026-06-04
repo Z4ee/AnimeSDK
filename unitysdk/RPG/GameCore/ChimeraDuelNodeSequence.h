@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelNode; }
 
-#define RPG_GAMECORE_CHIMERADUELNODESEQUENCE_METHOD_2_3DE3DFC55F598AAF_OFFSET UNITYSDK_OFFSET(0x18800340)
-#define RPG_GAMECORE_CHIMERADUELNODESEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x18800440)
+#define RPG_GAMECORE_CHIMERADUELNODESEQUENCE_METHOD_2_E407430CD0BAE7FA_OFFSET UNITYSDK_OFFSET(0x19642330)
+#define RPG_GAMECORE_CHIMERADUELNODESEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19642420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelNodeSequence_TypeDefinitionIndex = 15147;
+	inline static constexpr unsigned int ChimeraDuelNodeSequence_TypeDefinitionIndex = 15209;
 
 	class ChimeraDuelNodeSequence : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNODESEQUENCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3DE3DFC55F598AAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNodeSequence*& a2)
+		static ::System::Void Method_2_E407430CD0BAE7FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNodeSequence*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelNodeSequence*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNODESEQUENCE_METHOD_2_3DE3DFC55F598AAF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelNodeSequence*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNODESEQUENCE_METHOD_2_E407430CD0BAE7FA_OFFSET))(a1, a2);
 		}
 	};
 }

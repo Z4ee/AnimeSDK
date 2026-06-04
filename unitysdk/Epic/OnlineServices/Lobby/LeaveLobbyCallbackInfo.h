@@ -7,20 +7,20 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8EABB80)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8EABB40)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x8EABB60)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8EABB20)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8EAC010)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8EABB50)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0x8EABB70)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8EABBA0)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8EABB30)
-#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8EAC120)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2E6E80)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2E6E40)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GET_LOBBYID_OFFSET UNITYSDK_OFFSET(0xA2E6E60)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2E6E20)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA2E7310)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA2E6E50)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_LOBBYID_OFFSET UNITYSDK_OFFSET(0xA2E6E70)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA2E6EA0)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA2E6E30)
+#define EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA2E7430)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LeaveLobbyCallbackInfo_TypeDefinitionIndex = 41865;
+	inline static constexpr unsigned int LeaveLobbyCallbackInfo_TypeDefinitionIndex = 42668;
 
 	class LeaveLobbyCallbackInfo : public ::System::Object
 	{
@@ -39,9 +39,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -49,9 +49,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::System::String* get_LobbyId()
@@ -59,9 +59,9 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GET_LOBBYID_OFFSET))(this);
 		}
 
-		::System::Void set_LobbyId(::System::String* value)
+		::System::Void set_LobbyId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_LOBBYID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_LOBBYID_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -69,14 +69,14 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Lobby::LeaveLobbyCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Lobby::LeaveLobbyCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Lobby::LeaveLobbyCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Lobby::LeaveLobbyCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LEAVELOBBYCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

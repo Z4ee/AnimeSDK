@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSkillSetTargetPosSortRule_TypeDefinitionIndex = 23233;
+	inline static constexpr unsigned int RtSkillSetTargetPosSortRule_TypeDefinitionIndex = 23451;
 
 	enum class RtSkillSetTargetPosSortRule : ::System::Int32
 	{

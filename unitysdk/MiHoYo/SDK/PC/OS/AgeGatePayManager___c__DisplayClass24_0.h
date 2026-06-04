@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::PC::OS { class AgeGatePayManager; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1759E3A0)
-#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS24_0__SENDPARENTEMAIL_G__CALLBACK_0_OFFSET UNITYSDK_OFFSET(0x1759FE80)
+#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18386720)
+#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS24_0__SENDPARENTEMAIL_G__CALLBACK_0_OFFSET UNITYSDK_OFFSET(0x183881E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int AgeGatePayManager___c__DisplayClass24_0_TypeDefinitionIndex = 7502;
+	inline static constexpr unsigned int AgeGatePayManager___c__DisplayClass24_0_TypeDefinitionIndex = 8405;
 
 	class AgeGatePayManager___c__DisplayClass24_0 : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SendParentEmail_g__callback_0(::MiHoYo::SDK::NetworkResponseModelEx* response)
+		::System::Void _SendParentEmail_g__callback_0(::MiHoYo::SDK::NetworkResponseModelEx* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS24_0__SENDPARENTEMAIL_G__CALLBACK_0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS24_0__SENDPARENTEMAIL_G__CALLBACK_0_OFFSET))(this, a1);
 		}
 	};
 }

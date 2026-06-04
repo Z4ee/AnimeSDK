@@ -6,54 +6,54 @@ namespace Proto { class DisplayAvatarDetailInfo; }
 namespace RPG::Client { class IAvatarSkinData; }
 namespace RPG::GameCore { class IAvatarCommonRowWrap; }
 
-#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYADVPLAYERID_OFFSET UNITYSDK_OFFSET(0x9DBED10)
-#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARID_OFFSET UNITYSDK_OFFSET(0x9DBE6B0)
-#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARROWWRAP_OFFSET UNITYSDK_OFFSET(0x9DBE630)
-#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARSKINDATA_OFFSET UNITYSDK_OFFSET(0x9DBEC10)
-#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARSKINID_OFFSET UNITYSDK_OFFSET(0x9DBE8F0)
-#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYDISPLAYINFO_OFFSET UNITYSDK_OFFSET(0x9DBEB00)
-#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYSPECIALAVATARID_OFFSET UNITYSDK_OFFSET(0x9DBEB70)
+#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYADVPLAYERID_OFFSET UNITYSDK_OFFSET(0xB395970)
+#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARID_OFFSET UNITYSDK_OFFSET(0xB395300)
+#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARROWWRAP_OFFSET UNITYSDK_OFFSET(0xB395280)
+#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARSKINDATA_OFFSET UNITYSDK_OFFSET(0xB3957A0)
+#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARSKINID_OFFSET UNITYSDK_OFFSET(0xB3953B0)
+#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYDISPLAYINFO_OFFSET UNITYSDK_OFFSET(0xB3956A0)
+#define RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYSPECIALAVATARID_OFFSET UNITYSDK_OFFSET(0xB395710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarSkinDataFactory_TypeDefinitionIndex = 57658;
+	inline static constexpr unsigned int AvatarSkinDataFactory_TypeDefinitionIndex = 58450;
 
 	class AvatarSkinDataFactory : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::IAvatarSkinData* CreateByAvatarRowWrap(::RPG::GameCore::IAvatarCommonRowWrap* avatarRowWrap)
+		static ::RPG::Client::IAvatarSkinData* CreateByAvatarRowWrap(::RPG::GameCore::IAvatarCommonRowWrap* a1)
 		{
-			return ((::RPG::Client::IAvatarSkinData*(*)(::RPG::GameCore::IAvatarCommonRowWrap*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARROWWRAP_OFFSET))(avatarRowWrap);
+			return ((::RPG::Client::IAvatarSkinData*(*)(::RPG::GameCore::IAvatarCommonRowWrap*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARROWWRAP_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::IAvatarSkinData* CreateByAvatarId(::System::UInt32 realID, ::System::UInt32 enhancedID, ::System::UInt32 skinID)
+		static ::RPG::Client::IAvatarSkinData* CreateByAvatarId(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::IAvatarSkinData*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARID_OFFSET))(realID, enhancedID, skinID);
+			return ((::RPG::Client::IAvatarSkinData*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARID_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::IAvatarSkinData* CreateByDisplayInfo(::Proto::DisplayAvatarDetailInfo* displayAvatarDetailInfo)
+		static ::RPG::Client::IAvatarSkinData* CreateByDisplayInfo(::Proto::DisplayAvatarDetailInfo* a1)
 		{
-			return ((::RPG::Client::IAvatarSkinData*(*)(::Proto::DisplayAvatarDetailInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYDISPLAYINFO_OFFSET))(displayAvatarDetailInfo);
+			return ((::RPG::Client::IAvatarSkinData*(*)(::Proto::DisplayAvatarDetailInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYDISPLAYINFO_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::IAvatarSkinData* CreateBySpecialAvatarId(::System::UInt32 specialAvatarId, ::System::UInt32 worldLevel)
+		static ::RPG::Client::IAvatarSkinData* CreateBySpecialAvatarId(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::IAvatarSkinData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYSPECIALAVATARID_OFFSET))(specialAvatarId, worldLevel);
+			return ((::RPG::Client::IAvatarSkinData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYSPECIALAVATARID_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::IAvatarSkinData* CreateByAvatarSkinId(::System::UInt32 avatarSkinId)
+		static ::RPG::Client::IAvatarSkinData* CreateByAvatarSkinId(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::IAvatarSkinData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARSKINID_OFFSET))(avatarSkinId);
+			return ((::RPG::Client::IAvatarSkinData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARSKINID_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::IAvatarSkinData* CreateByAvatarSkinData(::RPG::Client::IAvatarSkinData* avatarSkinData)
+		static ::RPG::Client::IAvatarSkinData* CreateByAvatarSkinData(::RPG::Client::IAvatarSkinData* a1)
 		{
-			return ((::RPG::Client::IAvatarSkinData*(*)(::RPG::Client::IAvatarSkinData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARSKINDATA_OFFSET))(avatarSkinData);
+			return ((::RPG::Client::IAvatarSkinData*(*)(::RPG::Client::IAvatarSkinData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYAVATARSKINDATA_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::IAvatarSkinData* CreateByAdvPlayerId(::System::UInt32 advPlayerID, ::System::UInt32 skinId)
+		static ::RPG::Client::IAvatarSkinData* CreateByAdvPlayerId(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::IAvatarSkinData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYADVPLAYERID_OFFSET))(advPlayerID, skinId);
+			return ((::RPG::Client::IAvatarSkinData*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARSKINDATAFACTORY_CREATEBYADVPLAYERID_OFFSET))(a1, a2);
 		}
 	};
 }

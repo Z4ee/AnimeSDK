@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Logging
 {
-	inline static constexpr unsigned int LogCategory_TypeDefinitionIndex = 41804;
+	inline static constexpr unsigned int LogCategory_TypeDefinitionIndex = 42607;
 
 	enum class LogCategory : ::System::Int32
 	{

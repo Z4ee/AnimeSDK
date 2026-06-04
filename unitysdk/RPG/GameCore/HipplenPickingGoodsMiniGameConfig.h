@@ -10,12 +10,12 @@ namespace RPG::GameCore { class HipplenMiniGameLoadCharacter; }
 namespace RPG::GameCore { class HipplenPickingGoodsNPCConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_HIPPLENPICKINGGOODSMINIGAMECONFIG_METHOD_2_0EF88568CB06D274_OFFSET UNITYSDK_OFFSET(0x18A05220)
-#define RPG_GAMECORE_HIPPLENPICKINGGOODSMINIGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A055A0)
+#define RPG_GAMECORE_HIPPLENPICKINGGOODSMINIGAMECONFIG_METHOD_2_6B10664144C53C2B_OFFSET UNITYSDK_OFFSET(0x19837630)
+#define RPG_GAMECORE_HIPPLENPICKINGGOODSMINIGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198379A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenPickingGoodsMiniGameConfig_TypeDefinitionIndex = 15904;
+	inline static constexpr unsigned int HipplenPickingGoodsMiniGameConfig_TypeDefinitionIndex = 15957;
 
 	class HipplenPickingGoodsMiniGameConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENPICKINGGOODSMINIGAMECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0EF88568CB06D274(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenPickingGoodsMiniGameConfig*& a2)
+		static ::System::Void Method_2_6B10664144C53C2B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenPickingGoodsMiniGameConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenPickingGoodsMiniGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENPICKINGGOODSMINIGAMECONFIG_METHOD_2_0EF88568CB06D274_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenPickingGoodsMiniGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENPICKINGGOODSMINIGAMECONFIG_METHOD_2_6B10664144C53C2B_OFFSET))(a1, a2);
 		}
 	};
 }

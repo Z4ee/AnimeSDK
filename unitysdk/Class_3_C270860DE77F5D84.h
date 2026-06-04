@@ -6,19 +6,19 @@ namespace RPG::GameCore { class MazePuzzleOrigamiColonyRow; }
 namespace RPG::GameCore { class PlayOrigamiFinishTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C270860DE77F5D84_DISPOSE_OFFSET UNITYSDK_OFFSET(0x962C510)
-#define CLASS_3_C270860DE77F5D84_METHOD_3_EFB791D386A9984D_OFFSET UNITYSDK_OFFSET(0x962C790)
-#define CLASS_3_C270860DE77F5D84_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x962C560)
-#define CLASS_3_C270860DE77F5D84__CTOR_OFFSET UNITYSDK_OFFSET(0x962C4E0)
-#define CLASS_3_C270860DE77F5D84___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x962CC40)
+#define CLASS_3_C270860DE77F5D84_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA9C3440)
+#define CLASS_3_C270860DE77F5D84_METHOD_3_118B343B838CF2BB_OFFSET UNITYSDK_OFFSET(0xA9C36C0)
+#define CLASS_3_C270860DE77F5D84_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA9C3490)
+#define CLASS_3_C270860DE77F5D84__CTOR_OFFSET UNITYSDK_OFFSET(0xA9C3410)
+#define CLASS_3_C270860DE77F5D84___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA9C3B80)
 
-inline static constexpr unsigned int Class_3_C270860DE77F5D84_TypeDefinitionIndex = 48958;
+inline static constexpr unsigned int Class_3_C270860DE77F5D84_TypeDefinitionIndex = 49624;
 
 class Class_3_C270860DE77F5D84 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PlayOrigamiFinishTalk*>
 {
 public:
-	::RPG::GameCore::MazePuzzleOrigamiColonyRow* Field_3_1; // 0x28
-	::System::UInt32 Field_3_0; // 0x30
+	::RPG::GameCore::MazePuzzleOrigamiColonyRow* Field_3_0; // 0x28
+	::System::UInt32 Field_3_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PlayOrigamiFinishTalk* a2)
 	{
@@ -35,9 +35,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C270860DE77F5D84_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Boolean Method_3_EFB791D386A9984D()
+	::System::Boolean Method_3_118B343B838CF2BB()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C270860DE77F5D84_METHOD_3_EFB791D386A9984D_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C270860DE77F5D84_METHOD_3_118B343B838CF2BB_OFFSET))(this);
 	}
 
 	::System::Void __iFixBaseProxy_Dispose()

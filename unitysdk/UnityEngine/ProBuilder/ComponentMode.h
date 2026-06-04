@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ComponentMode_TypeDefinitionIndex = 39943;
+	inline static constexpr unsigned int ComponentMode_TypeDefinitionIndex = 40770;
 
 	enum class ComponentMode : ::System::Int32
 	{

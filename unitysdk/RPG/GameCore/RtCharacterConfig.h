@@ -11,7 +11,7 @@
 #include "unitysdk/RPG/GameCore/WeaponTypeEnum.h"
 #include "unitysdk/RPG/MVector3.h"
 
-class Class_1_2CAAA2FDF9170110;
+class Class_1_1C30CE192ABE4C54;
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CharacterPhaseAnimConfig; }
 namespace RPG::GameCore { class RtCharacterMotionParam; }
@@ -21,13 +21,13 @@ namespace RPG::GameCore { class SkillTransitAnimConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_0174F93AC43CEA4D_OFFSET UNITYSDK_OFFSET(0x18DCA400)
-#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_70FACFFEE942B2B5_OFFSET UNITYSDK_OFFSET(0x18DCA0D0)
-#define RPG_GAMECORE_RTCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC3ED0)
+#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_E8A598B0645C5782_OFFSET UNITYSDK_OFFSET(0x19BE36A0)
+#define RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_F4234ACBBEEBDE7F_OFFSET UNITYSDK_OFFSET(0x19BE39B0)
+#define RPG_GAMECORE_RTCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BDA810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCharacterConfig_TypeDefinitionIndex = 16756;
+	inline static constexpr unsigned int RtCharacterConfig_TypeDefinitionIndex = 16774;
 
 	class RtCharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -51,7 +51,7 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::RtSkillConfig*>* SkillList; // 0x88
 		::Il2CppArray<::System::String*>* AbilityList; // 0x90
 		::Il2CppArray<::RPG::GameCore::SkillAbilityConfig*>* SkillAbilityList; // 0x98
-		::Class_1_2CAAA2FDF9170110* DynamicValues; // 0xA0
+		::Class_1_1C30CE192ABE4C54* DynamicValues; // 0xA0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* CustomValues; // 0xA8
 		::RPG::GameCore::WeaponTypeEnum WeaponType; // 0xB0
 		::RPG::GameCore::ArmorTypeEnum ArmorType; // 0xB4
@@ -71,14 +71,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_70FACFFEE942B2B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtCharacterConfig*& a2)
+		static ::System::Void Method_2_E8A598B0645C5782(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtCharacterConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_70FACFFEE942B2B5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_E8A598B0645C5782_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_0174F93AC43CEA4D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtCharacterConfig* a2)
+		static ::System::Void Method_2_F4234ACBBEEBDE7F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtCharacterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_0174F93AC43CEA4D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtCharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTCHARACTERCONFIG_METHOD_2_F4234ACBBEEBDE7F_OFFSET))(a1, a2);
 		}
 	};
 }

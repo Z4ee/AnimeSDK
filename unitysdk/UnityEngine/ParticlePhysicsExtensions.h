@@ -7,18 +7,18 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define UNITYENGINE_PARTICLEPHYSICSEXTENSIONS_GETTRIGGERPARTICLES_OFFSET UNITYSDK_OFFSET(0x1A4C9420)
+#define UNITYENGINE_PARTICLEPHYSICSEXTENSIONS_GETTRIGGERPARTICLES_OFFSET UNITYSDK_OFFSET(0x1B3171A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticlePhysicsExtensions_TypeDefinitionIndex = 5476;
+	inline static constexpr unsigned int ParticlePhysicsExtensions_TypeDefinitionIndex = 5753;
 
 	class ParticlePhysicsExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Int32 GetTriggerParticles(::UnityEngine::ParticleSystem* ps, ::UnityEngine::ParticleSystemTriggerEventType type, ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem_Particle>* particles)
+		static ::System::Int32 GetTriggerParticles(::UnityEngine::ParticleSystem* a1, ::UnityEngine::ParticleSystemTriggerEventType a2, ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem_Particle>* a3)
 		{
-			return ((::System::Int32(*)(::UnityEngine::ParticleSystem*, ::UnityEngine::ParticleSystemTriggerEventType, ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem_Particle>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLEPHYSICSEXTENSIONS_GETTRIGGERPARTICLES_OFFSET))(ps, type, particles);
+			return ((::System::Int32(*)(::UnityEngine::ParticleSystem*, ::UnityEngine::ParticleSystemTriggerEventType, ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem_Particle>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLEPHYSICSEXTENSIONS_GETTRIGGERPARTICLES_OFFSET))(a1, a2, a3);
 		}
 	};
 }

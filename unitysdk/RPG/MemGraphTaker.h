@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_MEMGRAPHTAKER_TAKE_OFFSET UNITYSDK_OFFSET(0x19D33460)
-#define RPG_MEMGRAPHTAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19D33510)
+#define RPG_MEMGRAPHTAKER_TAKE_OFFSET UNITYSDK_OFFSET(0x1ABB0550)
+#define RPG_MEMGRAPHTAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB0600)
 
 namespace RPG
 {
-	inline static constexpr unsigned int MemGraphTaker_TypeDefinitionIndex = 33239;
+	inline static constexpr unsigned int MemGraphTaker_TypeDefinitionIndex = 33348;
 
 	class MemGraphTaker : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_MEMGRAPHTAKER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Take(::System::String* name)
+		static ::System::Void Take(::System::String* a1)
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_MEMGRAPHTAKER_TAKE_OFFSET))(name);
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_MEMGRAPHTAKER_TAKE_OFFSET))(a1);
 		}
 	};
 }

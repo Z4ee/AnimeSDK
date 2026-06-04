@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ReShaEasterEggStateListener; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_37B23531290BB275_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9584240)
-#define CLASS_3_37B23531290BB275__CTOR_OFFSET UNITYSDK_OFFSET(0x9584210)
+#define CLASS_3_37B23531290BB275_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13624550)
+#define CLASS_3_37B23531290BB275__CTOR_OFFSET UNITYSDK_OFFSET(0x13624520)
 
-inline static constexpr unsigned int Class_3_37B23531290BB275_TypeDefinitionIndex = 49052;
+inline static constexpr unsigned int Class_3_37B23531290BB275_TypeDefinitionIndex = 49718;
 
 class Class_3_37B23531290BB275 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ReShaEasterEggStateListener*>
 {

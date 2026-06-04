@@ -4,16 +4,16 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_8A992B43B742921A_CLEAR_OFFSET UNITYSDK_OFFSET(0x17FCE1C0)
-#define CLASS_1_8A992B43B742921A__CTOR_OFFSET UNITYSDK_OFFSET(0x17FCE210)
+#define CLASS_1_8A992B43B742921A_CLEAR_OFFSET UNITYSDK_OFFSET(0x18E3ECD0)
+#define CLASS_1_8A992B43B742921A__CTOR_OFFSET UNITYSDK_OFFSET(0x18E3ED20)
 
-inline static constexpr unsigned int Class_1_8A992B43B742921A_TypeDefinitionIndex = 38836;
+inline static constexpr unsigned int Class_1_8A992B43B742921A_TypeDefinitionIndex = 39604;
 
 class Class_1_8A992B43B742921A : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_1; // 0x10
-	::UnityEngine::Transform* Field_1_0; // 0x18
+	::UnityEngine::Transform* Field_1_0; // 0x10
+	::UnityEngine::Transform* Field_1_1; // 0x18
 	::System::Single Field_1_2; // 0x20
 
 	::System::Void _ctor()

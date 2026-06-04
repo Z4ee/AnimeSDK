@@ -15,22 +15,22 @@ namespace Epic::OnlineServices::Lobby { class LobbySearchSetParameterOptions; }
 namespace Epic::OnlineServices::Lobby { class LobbySearchSetTargetUserIdOptions; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_COPYSEARCHRESULTBYINDEX_OFFSET UNITYSDK_OFFSET(0x8EB9840)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_FIND_OFFSET UNITYSDK_OFFSET(0x8EB99D0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_GETSEARCHRESULTCOUNT_OFFSET UNITYSDK_OFFSET(0x8EB9C30)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_ONFINDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EB9790)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_RELEASE_OFFSET UNITYSDK_OFFSET(0x8EB9E50)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_REMOVEPARAMETER_OFFSET UNITYSDK_OFFSET(0x8EB9ED0)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETLOBBYID_OFFSET UNITYSDK_OFFSET(0x8EBA100)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETMAXRESULTS_OFFSET UNITYSDK_OFFSET(0x8EBA300)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETPARAMETER_OFFSET UNITYSDK_OFFSET(0x8EBA460)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETTARGETUSERID_OFFSET UNITYSDK_OFFSET(0x8EBA690)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8EB9830)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH__CTOR_OFFSET UNITYSDK_OFFSET(0x8EB9820)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_COPYSEARCHRESULTBYINDEX_OFFSET UNITYSDK_OFFSET(0xA2F4FA0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_FIND_OFFSET UNITYSDK_OFFSET(0xA2F5130)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_GETSEARCHRESULTCOUNT_OFFSET UNITYSDK_OFFSET(0xA2F5390)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_ONFINDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA2F4EE0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_RELEASE_OFFSET UNITYSDK_OFFSET(0xA2F55D0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_REMOVEPARAMETER_OFFSET UNITYSDK_OFFSET(0xA2F5650)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETLOBBYID_OFFSET UNITYSDK_OFFSET(0xA2F5880)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETMAXRESULTS_OFFSET UNITYSDK_OFFSET(0xA2F5A80)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETPARAMETER_OFFSET UNITYSDK_OFFSET(0xA2F5BE0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETTARGETUSERID_OFFSET UNITYSDK_OFFSET(0xA2F5E10)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA2F4F90)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F4F80)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbySearch_TypeDefinitionIndex = 41921;
+	inline static constexpr unsigned int LobbySearch_TypeDefinitionIndex = 42724;
 
 	class LobbySearch : public ::Epic::OnlineServices::Handle
 	{
@@ -49,24 +49,24 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopySearchResultByIndex(::Epic::OnlineServices::Lobby::LobbySearchCopySearchResultByIndexOptions* options, ::Epic::OnlineServices::Lobby::LobbyDetails*& outLobbyDetailsHandle)
+		::Epic::OnlineServices::Result CopySearchResultByIndex(::Epic::OnlineServices::Lobby::LobbySearchCopySearchResultByIndexOptions* a1, ::Epic::OnlineServices::Lobby::LobbyDetails*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchCopySearchResultByIndexOptions*, ::Epic::OnlineServices::Lobby::LobbyDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_COPYSEARCHRESULTBYINDEX_OFFSET))(this, options, outLobbyDetailsHandle);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchCopySearchResultByIndexOptions*, ::Epic::OnlineServices::Lobby::LobbyDetails*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_COPYSEARCHRESULTBYINDEX_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Find(::Epic::OnlineServices::Lobby::LobbySearchFindOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::Lobby::LobbySearchOnFindCallback* completionDelegate)
+		::System::Void Find(::Epic::OnlineServices::Lobby::LobbySearchFindOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::Lobby::LobbySearchOnFindCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchFindOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::LobbySearchOnFindCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_FIND_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchFindOptions*, ::System::Object*, ::Epic::OnlineServices::Lobby::LobbySearchOnFindCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_FIND_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt32 GetSearchResultCount(::Epic::OnlineServices::Lobby::LobbySearchGetSearchResultCountOptions* options)
+		::System::UInt32 GetSearchResultCount(::Epic::OnlineServices::Lobby::LobbySearchGetSearchResultCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchGetSearchResultCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_GETSEARCHRESULTCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchGetSearchResultCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_GETSEARCHRESULTCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Void Release()
@@ -74,34 +74,34 @@ namespace Epic::OnlineServices::Lobby
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_RELEASE_OFFSET))(this);
 		}
 
-		::Epic::OnlineServices::Result RemoveParameter(::Epic::OnlineServices::Lobby::LobbySearchRemoveParameterOptions* options)
+		::Epic::OnlineServices::Result RemoveParameter(::Epic::OnlineServices::Lobby::LobbySearchRemoveParameterOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchRemoveParameterOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_REMOVEPARAMETER_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchRemoveParameterOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_REMOVEPARAMETER_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetLobbyId(::Epic::OnlineServices::Lobby::LobbySearchSetLobbyIdOptions* options)
+		::Epic::OnlineServices::Result SetLobbyId(::Epic::OnlineServices::Lobby::LobbySearchSetLobbyIdOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchSetLobbyIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETLOBBYID_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchSetLobbyIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETLOBBYID_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetMaxResults(::Epic::OnlineServices::Lobby::LobbySearchSetMaxResultsOptions* options)
+		::Epic::OnlineServices::Result SetMaxResults(::Epic::OnlineServices::Lobby::LobbySearchSetMaxResultsOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchSetMaxResultsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETMAXRESULTS_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchSetMaxResultsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETMAXRESULTS_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetParameter(::Epic::OnlineServices::Lobby::LobbySearchSetParameterOptions* options)
+		::Epic::OnlineServices::Result SetParameter(::Epic::OnlineServices::Lobby::LobbySearchSetParameterOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchSetParameterOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETPARAMETER_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchSetParameterOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETPARAMETER_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetTargetUserId(::Epic::OnlineServices::Lobby::LobbySearchSetTargetUserIdOptions* options)
+		::Epic::OnlineServices::Result SetTargetUserId(::Epic::OnlineServices::Lobby::LobbySearchSetTargetUserIdOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchSetTargetUserIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETTARGETUSERID_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Lobby::LobbySearchSetTargetUserIdOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_SETTARGETUSERID_OFFSET))(this, a1);
 		}
 
-		static ::System::Void OnFindCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnFindCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_ONFINDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCH_ONFINDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

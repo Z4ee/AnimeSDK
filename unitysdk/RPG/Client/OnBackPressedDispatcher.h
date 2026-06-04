@@ -6,16 +6,16 @@ namespace RPG::Client { class OnBackPressedCallback; }
 namespace RPG::Client { class OnBackPressedDispatcher_CallbackEntry; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_CLEAR_OFFSET UNITYSDK_OFFSET(0xABE7B90)
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_DISPATCHONBACKPRESSED_OFFSET UNITYSDK_OFFSET(0xABE7A10)
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_REGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0xABE76A0)
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_UNREGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0xABE78A0)
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER__ADDENTRY_OFFSET UNITYSDK_OFFSET(0xABE77D0)
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xABE7C00)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_CLEAR_OFFSET UNITYSDK_OFFSET(0xC2F4D80)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_DISPATCHONBACKPRESSED_OFFSET UNITYSDK_OFFSET(0xC2F4C10)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_REGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0xC2F4870)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_UNREGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0xC2F4AA0)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER__ADDENTRY_OFFSET UNITYSDK_OFFSET(0xC2F49B0)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xC2F4DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnBackPressedDispatcher_TypeDefinitionIndex = 65758;
+	inline static constexpr unsigned int OnBackPressedDispatcher_TypeDefinitionIndex = 66692;
 
 	class OnBackPressedDispatcher : public ::System::Object
 	{
@@ -30,14 +30,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONBACKPRESSEDDISPATCHER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void RegisterCallback(::System::Int32 priority, ::RPG::Client::OnBackPressedCallback* callback)
+		::System::Void RegisterCallback(::System::Int32 a1, ::RPG::Client::OnBackPressedCallback* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::OnBackPressedCallback*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONBACKPRESSEDDISPATCHER_REGISTERCALLBACK_OFFSET))(this, priority, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::Client::OnBackPressedCallback*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONBACKPRESSEDDISPATCHER_REGISTERCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UnregisterCallback(::RPG::Client::OnBackPressedCallback* callback)
+		::System::Void UnregisterCallback(::RPG::Client::OnBackPressedCallback* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OnBackPressedCallback*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONBACKPRESSEDDISPATCHER_UNREGISTERCALLBACK_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OnBackPressedCallback*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONBACKPRESSEDDISPATCHER_UNREGISTERCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void DispatchOnBackPressed()
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONBACKPRESSEDDISPATCHER_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void _AddEntry(::RPG::Client::OnBackPressedDispatcher_CallbackEntry* entry)
+		::System::Void _AddEntry(::RPG::Client::OnBackPressedDispatcher_CallbackEntry* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OnBackPressedDispatcher_CallbackEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONBACKPRESSEDDISPATCHER__ADDENTRY_OFFSET))(this, entry);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OnBackPressedDispatcher_CallbackEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONBACKPRESSEDDISPATCHER__ADDENTRY_OFFSET))(this, a1);
 		}
 	};
 }

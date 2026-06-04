@@ -1,0 +1,225 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ChenLingFesDialogStyleType.h"
+#include "unitysdk/RPG/GameCore/ChenLingFesToastStyleType.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+#include "unitysdk/System/Nullable_1.h"
+
+class Class_1_43BD383C98B4C0C5_208;
+class Class_1_43BD383C98B4C0C5_211;
+class Class_1_50AC12A2F890597C;
+class Class_1_5F4D64A4B97E38F9;
+class Class_1_ED45DA203CB525FD;
+class Class_1_ED45DA203CB525FD_1;
+class Class_1_EFF3E0CA04DCE17C;
+class Class_2_5436AF4270279182;
+namespace RPG::Client::ChenLingFes { class ChenLingFesGamePhaseToastViewModel; }
+namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayFeverViewModel; }
+namespace RPG::Client::ChenLingFes { class ChenLingFesToastRequestViewModel; }
+namespace System { class Action; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_ADD_ONCLEARPENDINGTOASTQUEUE_OFFSET UNITYSDK_OFFSET(0xB626460)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_ADD_ONTOASTREQUEST_OFFSET UNITYSDK_OFFSET(0xB626380)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xB629740)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_GET_FEVERTOASTVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB62B160)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_GET_OPENDAYSTARTTOASTVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB62B140)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_GET_PREPARESTARTTOASTVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB62B120)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_REGISTERNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xB6264C0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_REMOVE_ONCLEARPENDINGTOASTQUEUE_OFFSET UNITYSDK_OFFSET(0xB626400)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_REMOVE_ONTOASTREQUEST_OFFSET UNITYSDK_OFFSET(0xB626300)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_SET_FEVERTOASTVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB62B170)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_SET_OPENDAYSTARTTOASTVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB62B150)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_SET_PREPARESTARTTOASTVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB62B130)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_UNREGISTERNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xB628FC0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__CANEMITFLYTOAST_OFFSET UNITYSDK_OFFSET(0xB629E00)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB629880)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__EMITUIDIALOGREQUEST_OFFSET UNITYSDK_OFFSET(0xB62A800)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__GETFLYTOASTMININTERVAL_OFFSET UNITYSDK_OFFSET(0xB62A190)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__GETSPECIALSHOWCOINNUM_OFFSET UNITYSDK_OFFSET(0xB629F00)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__INIT_OFFSET UNITYSDK_OFFSET(0xB629930)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONDAYEND_OFFSET UNITYSDK_OFFSET(0xB62A5E0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONFEVERUPDATE_OFFSET UNITYSDK_OFFSET(0xB62A020)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONHIDEUIDIALOG_OFFSET UNITYSDK_OFFSET(0xB62AC30)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONSCOREUPDATE_OFFSET UNITYSDK_OFFSET(0xB629B40)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONSHOWTOAST_OFFSET UNITYSDK_OFFSET(0xB62A230)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONSHOWUIDIALOG_OFFSET UNITYSDK_OFFSET(0xB62A770)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONSHOWUITOAST_OFFSET UNITYSDK_OFFSET(0xB62ADD0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONSWITCHDAY_OFFSET UNITYSDK_OFFSET(0xB62A570)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONUPDATEUIDIALOG_OFFSET UNITYSDK_OFFSET(0xB62AA40)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__TRYGETDIALOGPREFABPATH_OFFSET UNITYSDK_OFFSET(0xB62AAD0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__TRYGETTOASTPREFABPATH_OFFSET UNITYSDK_OFFSET(0xB62B070)
+
+namespace RPG::Client::ChenLingFes
+{
+	inline static constexpr unsigned int ChenLingFesToastContainerViewModel_TypeDefinitionIndex = 74066;
+
+	class ChenLingFesToastContainerViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::RPG::Client::ChenLingFes::ChenLingFesGamePhaseToastViewModel* _OpenDayStartToastViewModel_k__BackingField; // 0x20
+		::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*>* OnToastRequest; // 0x28
+		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x30
+		::RPG::Client::ChenLingFes::ChenLingFesGamePhaseToastViewModel* _PrepareStartToastViewModel_k__BackingField; // 0x38
+		::RPG::Client::ChenLingFes::ChenLingFesGameplayFeverViewModel* _FeverToastViewModel_k__BackingField; // 0x40
+		::Class_1_50AC12A2F890597C* _GameplayBridge; // 0x48
+		::System::Action* OnClearPendingToastQueue; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* _LastFlyToastTriggerTimeByEntity; // 0x58
+		::System::Boolean _HasRegisteredNotifyHandlers; // 0x60
+		::System::Nullable_1<::System::Single> _FlyToastMinInterval; // 0x64
+		::System::Nullable_1<::System::UInt32> _SpecialShowCoinNum; // 0x6C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ChenLingFes::ChenLingFesToastContainerViewModel* Create(::Class_1_50AC12A2F890597C* a1, ::Class_1_5F4D64A4B97E38F9* a2)
+		{
+			return ((::RPG::Client::ChenLingFes::ChenLingFesToastContainerViewModel*(*)(::Class_1_50AC12A2F890597C*, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_CREATE_OFFSET))(a1, a2);
+		}
+
+		::System::Void _Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__INIT_OFFSET))(this);
+		}
+
+		::System::Void _OnScoreUpdate(::Class_1_ED45DA203CB525FD_1* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_ED45DA203CB525FD_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONSCOREUPDATE_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 _GetSpecialShowCoinNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__GETSPECIALSHOWCOINNUM_OFFSET))(this);
+		}
+
+		::System::Void _OnFeverUpdate(::Class_1_ED45DA203CB525FD* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_ED45DA203CB525FD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONFEVERUPDATE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _CanEmitFlyToast(::System::Int32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__CANEMITFLYTOAST_OFFSET))(this, a1);
+		}
+
+		::System::Single _GetFlyToastMinInterval()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__GETFLYTOASTMININTERVAL_OFFSET))(this);
+		}
+
+		::System::Void _OnShowToast(::Class_1_EFF3E0CA04DCE17C* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_EFF3E0CA04DCE17C*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONSHOWTOAST_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnSwitchDay(::Class_1_43BD383C98B4C0C5_211* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_211*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONSWITCHDAY_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnDayEnd(::Class_1_43BD383C98B4C0C5_208* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_208*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONDAYEND_OFFSET))(this, a1);
+		}
+
+		::System::Void RegisterNotifyHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_REGISTERNOTIFYHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void UnregisterNotifyHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_UNREGISTERNOTIFYHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void _OnShowUIDialog(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONSHOWUIDIALOG_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnUpdateUIDialog(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONUPDATEUIDIALOG_OFFSET))(this, a1);
+		}
+
+		::System::Void _EmitUIDialogRequest(::Class_2_5436AF4270279182* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_5436AF4270279182*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__EMITUIDIALOGREQUEST_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnHideUIDialog(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONHIDEUIDIALOG_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnShowUIToast(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__ONSHOWUITOAST_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _TryGetDialogPrefabPath(::RPG::GameCore::ChenLingFesDialogStyleType a1, ::System::String*& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChenLingFesDialogStyleType, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__TRYGETDIALOGPREFABPATH_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean _TryGetToastPrefabPath(::RPG::GameCore::ChenLingFesToastStyleType a1, ::System::String*& a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChenLingFesToastStyleType, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__TRYGETTOASTPREFABPATH_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void add_OnToastRequest(::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_ADD_ONTOASTREQUEST_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnToastRequest(::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_REMOVE_ONTOASTREQUEST_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnClearPendingToastQueue(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_ADD_ONCLEARPENDINGTOASTQUEUE_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnClearPendingToastQueue(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_REMOVE_ONCLEARPENDINGTOASTQUEUE_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::ChenLingFes::ChenLingFesGamePhaseToastViewModel* get_PrepareStartToastViewModel()
+		{
+			return ((::RPG::Client::ChenLingFes::ChenLingFesGamePhaseToastViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_GET_PREPARESTARTTOASTVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void set_PrepareStartToastViewModel(::RPG::Client::ChenLingFes::ChenLingFesGamePhaseToastViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingFes::ChenLingFesGamePhaseToastViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_SET_PREPARESTARTTOASTVIEWMODEL_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::ChenLingFes::ChenLingFesGamePhaseToastViewModel* get_OpenDayStartToastViewModel()
+		{
+			return ((::RPG::Client::ChenLingFes::ChenLingFesGamePhaseToastViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_GET_OPENDAYSTARTTOASTVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void set_OpenDayStartToastViewModel(::RPG::Client::ChenLingFes::ChenLingFesGamePhaseToastViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingFes::ChenLingFesGamePhaseToastViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_SET_OPENDAYSTARTTOASTVIEWMODEL_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::ChenLingFes::ChenLingFesGameplayFeverViewModel* get_FeverToastViewModel()
+		{
+			return ((::RPG::Client::ChenLingFes::ChenLingFesGameplayFeverViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_GET_FEVERTOASTVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void set_FeverToastViewModel(::RPG::Client::ChenLingFes::ChenLingFesGameplayFeverViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingFes::ChenLingFesGameplayFeverViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_SET_FEVERTOASTVIEWMODEL_OFFSET))(this, a1);
+		}
+	};
+}

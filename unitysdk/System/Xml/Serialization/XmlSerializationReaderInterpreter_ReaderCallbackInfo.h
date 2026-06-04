@@ -5,8 +5,8 @@
 namespace System::Xml::Serialization { class XmlSerializationReaderInterpreter; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO_READOBJECT_OFFSET UNITYSDK_OFFSET(0x1A01F290)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0168C0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO_READOBJECT_OFFSET UNITYSDK_OFFSET(0x1AE919D0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE88C00)
 
 namespace System::Xml::Serialization
 {
@@ -15,12 +15,12 @@ namespace System::Xml::Serialization
 	class XmlSerializationReaderInterpreter_ReaderCallbackInfo : public ::System::Object
 	{
 	public:
-		::System::Xml::Serialization::XmlSerializationReaderInterpreter* _sri; // 0x10
-		::System::Xml::Serialization::XmlTypeMapping* _typeMap; // 0x18
+		::System::Xml::Serialization::XmlTypeMapping* _typeMap; // 0x10
+		::System::Xml::Serialization::XmlSerializationReaderInterpreter* _sri; // 0x18
 
-		::System::Void _ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* sri, ::System::Xml::Serialization::XmlTypeMapping* typeMap)
+		::System::Void _ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* a1, ::System::Xml::Serialization::XmlTypeMapping* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlSerializationReaderInterpreter*, ::System::Xml::Serialization::XmlTypeMapping*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO__CTOR_OFFSET))(this, sri, typeMap);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlSerializationReaderInterpreter*, ::System::Xml::Serialization::XmlTypeMapping*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* ReadObject()

@@ -9,36 +9,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1768FBE0)
-#define MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1768FC10)
-#define MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1768F690)
-#define MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1768F670)
+#define MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18460AC0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18460AF0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18460AB0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18460A40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WeGameDelegate_AsyncAcquireSessionTicketDelegate_TypeDefinitionIndex = 6752;
+	inline static constexpr unsigned int WeGameDelegate_AsyncAcquireSessionTicketDelegate_TypeDefinitionIndex = 7655;
 
 	class WeGameDelegate_AsyncAcquireSessionTicketDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>* callback)
+		::System::Void Invoke(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_INVOKE_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>* callback, ::System::AsyncCallback* __callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_BEGININVOKE_OFFSET))(this, callback, __callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

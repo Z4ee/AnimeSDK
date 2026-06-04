@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class LoginByPhone; }
 
-#define MIHOYO_SDK_WIN_LOGINBYPHONE___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17724B50)
-#define MIHOYO_SDK_WIN_LOGINBYPHONE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x17725710)
+#define MIHOYO_SDK_WIN_LOGINBYPHONE___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184E22C0)
+#define MIHOYO_SDK_WIN_LOGINBYPHONE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x184E2E70)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginByPhone___c__DisplayClass47_0_TypeDefinitionIndex = 8288;
+	inline static constexpr unsigned int LoginByPhone___c__DisplayClass47_0_TypeDefinitionIndex = 9191;
 
 	class LoginByPhone___c__DisplayClass47_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYPHONE___C__DISPLAYCLASS47_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__0(::MiHoYo::SDK::Win::LoginByPhone* loginDialog)
+		::System::Void _Show_b__0(::MiHoYo::SDK::Win::LoginByPhone* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::LoginByPhone*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYPHONE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET))(this, loginDialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::LoginByPhone*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYPHONE___C__DISPLAYCLASS47_0__SHOW_B__0_OFFSET))(this, a1);
 		}
 	};
 }

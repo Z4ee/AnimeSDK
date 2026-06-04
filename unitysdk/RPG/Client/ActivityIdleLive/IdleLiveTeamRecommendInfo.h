@@ -9,36 +9,36 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveBaseTeamInfo; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamRecommendData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_GETCANSHOWRECOMMENDDATALISTCOUNT_OFFSET UNITYSDK_OFFSET(0x9B82170)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_GETRECOMMENDDATALISTBYTAGLIST_OFFSET UNITYSDK_OFFSET(0x9B81590)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_GETRECOMMENDDATALISTSORTEDBYWEIGHT_OFFSET UNITYSDK_OFFSET(0x9B7D330)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_INIT_OFFSET UNITYSDK_OFFSET(0x9B813B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9B823F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO__HASMATCHEDTAGONCAPTAIN_OFFSET UNITYSDK_OFFSET(0x9B81BD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_GETCANSHOWRECOMMENDDATALISTCOUNT_OFFSET UNITYSDK_OFFSET(0xB16BA40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_GETRECOMMENDDATALISTBYTAGLIST_OFFSET UNITYSDK_OFFSET(0xB16AEF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_GETRECOMMENDDATALISTSORTEDBYWEIGHT_OFFSET UNITYSDK_OFFSET(0xB166AD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_INIT_OFFSET UNITYSDK_OFFSET(0xB16ACB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB16BC20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO__HASMATCHEDTAGONCAPTAIN_OFFSET UNITYSDK_OFFSET(0xB16B520)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendInfo_TypeDefinitionIndex = 69143;
+	inline static constexpr unsigned int IdleLiveTeamRecommendInfo_TypeDefinitionIndex = 69955;
 
 	class IdleLiveTeamRecommendInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo* _AvatarInfo; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*>* _RecommendDataList; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*>* _RecommendDataList; // 0x10
+		::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo* _AvatarInfo; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo* avatarInfo)
+		::System::Void Init(::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_INIT_OFFSET))(this, avatarInfo);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*>* GetRecommendDataListByTagList(::System::Collections::Generic::List_1<::RPG::GameCore::ILBattleAvatarTag>* tagList, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* teamInfo)
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*>* GetRecommendDataListByTagList(::System::Collections::Generic::List_1<::RPG::GameCore::ILBattleAvatarTag>* a1, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::ILBattleAvatarTag>*, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_GETRECOMMENDDATALISTBYTAGLIST_OFFSET))(this, tagList, teamInfo);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::ILBattleAvatarTag>*, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_GETRECOMMENDDATALISTBYTAGLIST_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetCanShowRecommendDataListCount()
@@ -46,14 +46,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_GETCANSHOWRECOMMENDDATALISTCOUNT_OFFSET))(this);
 		}
 
-		::System::Boolean _HasMatchedTagOnCaptain(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* data, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData*>* allAvatarDatas, ::System::Collections::Generic::List_1<::RPG::GameCore::ILBattleAvatarTag>* tagList)
+		::System::Boolean _HasMatchedTagOnCaptain(::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData* a1, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData*>* a2, ::System::Collections::Generic::List_1<::RPG::GameCore::ILBattleAvatarTag>* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::ILBattleAvatarTag>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO__HASMATCHEDTAGONCAPTAIN_OFFSET))(this, data, allAvatarDatas, tagList);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::ILBattleAvatarTag>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO__HASMATCHEDTAGONCAPTAIN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*>* GetRecommendDataListSortedByWeight(::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* teamInfo)
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*>* GetRecommendDataListSortedByWeight(::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*>*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_GETRECOMMENDDATALISTSORTEDBYWEIGHT_OFFSET))(this, teamInfo);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamRecommendData*>*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO_GETRECOMMENDDATALISTSORTEDBYWEIGHT_OFFSET))(this, a1);
 		}
 	};
 }

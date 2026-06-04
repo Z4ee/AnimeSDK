@@ -9,12 +9,12 @@ namespace RPG::GameCore { class TaskListTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTABILITYCONFIGLIST_METHOD_2_52F16213835172D9_OFFSET UNITYSDK_OFFSET(0x18D82D50)
-#define RPG_GAMECORE_RTABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18D82F00)
+#define RPG_GAMECORE_RTABILITYCONFIGLIST_METHOD_2_854486A7FE18E820_OFFSET UNITYSDK_OFFSET(0x19BD6280)
+#define RPG_GAMECORE_RTABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD6430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAbilityConfigList_TypeDefinitionIndex = 16755;
+	inline static constexpr unsigned int RtAbilityConfigList_TypeDefinitionIndex = 16773;
 
 	class RtAbilityConfigList : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYCONFIGLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_52F16213835172D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAbilityConfigList*& a2)
+		static ::System::Void Method_2_854486A7FE18E820(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtAbilityConfigList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAbilityConfigList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYCONFIGLIST_METHOD_2_52F16213835172D9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtAbilityConfigList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTABILITYCONFIGLIST_METHOD_2_854486A7FE18E820_OFFSET))(a1, a2);
 		}
 	};
 }

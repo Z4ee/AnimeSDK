@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_83665B095F1535B5_16;
-class Class_3_E21F6DE9B7FA4D05;
+class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelGraphConfig; }
 namespace RPG::GameCore { class TaskContext; }
@@ -12,42 +12,42 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELGRAPH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6D93A0)
-#define RPG_GAMECORE_LEVELGRAPH_FINISHIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xB6D9D60)
-#define RPG_GAMECORE_LEVELGRAPH_GETTASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xB6D9E90)
-#define RPG_GAMECORE_LEVELGRAPH_GET_CONFIGPATH_OFFSET UNITYSDK_OFFSET(0xB6D9EE0)
-#define RPG_GAMECORE_LEVELGRAPH_GET_GRAPHCONFIG_OFFSET UNITYSDK_OFFSET(0xB6D9ED0)
-#define RPG_GAMECORE_LEVELGRAPH_GET_LEVELGRAPHSTATE_OFFSET UNITYSDK_OFFSET(0xB6D9EF0)
-#define RPG_GAMECORE_LEVELGRAPH_ISLEVELGRAPHEXECUTING_OFFSET UNITYSDK_OFFSET(0xB6D98B0)
-#define RPG_GAMECORE_LEVELGRAPH_ISLEVELGRAPHFINISH_OFFSET UNITYSDK_OFFSET(0xB6D9900)
-#define RPG_GAMECORE_LEVELGRAPH_LEVELGRAPHEND_OFFSET UNITYSDK_OFFSET(0xB6D9850)
-#define RPG_GAMECORE_LEVELGRAPH_LEVELGRAPHINIT_OFFSET UNITYSDK_OFFSET(0xB6D9A90)
-#define RPG_GAMECORE_LEVELGRAPH_LEVELGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xB6D9BD0)
-#define RPG_GAMECORE_LEVELGRAPH_MARKLEVELGRAPHFINISHIMMEDIATELYINPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xB6D9E30)
-#define RPG_GAMECORE_LEVELGRAPH_SETDISPOSECALLBACK_OFFSET UNITYSDK_OFFSET(0xB6D99C0)
-#define RPG_GAMECORE_LEVELGRAPH_SETENDCALLBACK_OFFSET UNITYSDK_OFFSET(0xB6D9950)
-#define RPG_GAMECORE_LEVELGRAPH_TICK_OFFSET UNITYSDK_OFFSET(0xB6D94E0)
-#define RPG_GAMECORE_LEVELGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D8FD0)
+#define RPG_GAMECORE_LEVELGRAPH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE47380)
+#define RPG_GAMECORE_LEVELGRAPH_FINISHIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xCE47DC0)
+#define RPG_GAMECORE_LEVELGRAPH_GETTASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xCE47F80)
+#define RPG_GAMECORE_LEVELGRAPH_GET_CONFIGPATH_OFFSET UNITYSDK_OFFSET(0xCE47FD0)
+#define RPG_GAMECORE_LEVELGRAPH_GET_GRAPHCONFIG_OFFSET UNITYSDK_OFFSET(0xCE47FC0)
+#define RPG_GAMECORE_LEVELGRAPH_GET_LEVELGRAPHSTATE_OFFSET UNITYSDK_OFFSET(0xCE47FE0)
+#define RPG_GAMECORE_LEVELGRAPH_ISLEVELGRAPHEXECUTING_OFFSET UNITYSDK_OFFSET(0xCE478B0)
+#define RPG_GAMECORE_LEVELGRAPH_ISLEVELGRAPHFINISH_OFFSET UNITYSDK_OFFSET(0xCE47900)
+#define RPG_GAMECORE_LEVELGRAPH_LEVELGRAPHEND_OFFSET UNITYSDK_OFFSET(0xCE47F20)
+#define RPG_GAMECORE_LEVELGRAPH_LEVELGRAPHINIT_OFFSET UNITYSDK_OFFSET(0xCE47A90)
+#define RPG_GAMECORE_LEVELGRAPH_LEVELGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xCE47C00)
+#define RPG_GAMECORE_LEVELGRAPH_MARKLEVELGRAPHFINISHIMMEDIATELYINPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xCE47EC0)
+#define RPG_GAMECORE_LEVELGRAPH_SETDISPOSECALLBACK_OFFSET UNITYSDK_OFFSET(0xCE479C0)
+#define RPG_GAMECORE_LEVELGRAPH_SETENDCALLBACK_OFFSET UNITYSDK_OFFSET(0xCE47950)
+#define RPG_GAMECORE_LEVELGRAPH_TICK_OFFSET UNITYSDK_OFFSET(0xCE474F0)
+#define RPG_GAMECORE_LEVELGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0xCE46F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGraph_TypeDefinitionIndex = 53339;
+	inline static constexpr unsigned int LevelGraph_TypeDefinitionIndex = 54052;
 
 	class LevelGraph : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_3_E21F6DE9B7FA4D05*>* _StartSequeceList; // 0x10
-		::System::Action* _endCallBack; // 0x18
-		::System::Action* _DisposeCallBack; // 0x20
-		::RPG::GameCore::LevelGraphConfig* _GraphConfig; // 0x28
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x30
-		::System::Collections::Generic::List_1<::Class_3_E21F6DE9B7FA4D05*>* _InitSequeceList; // 0x38
-		::System::String* _ConfigPath; // 0x40
+		::System::String* _ConfigPath; // 0x10
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
+		::System::Action* _endCallBack; // 0x20
+		::System::Collections::Generic::List_1<::Class_3_07C3C4D2990C49EE*>* _InitSequeceList; // 0x28
+		::RPG::GameCore::LevelGraphConfig* _GraphConfig; // 0x30
+		::System::Collections::Generic::List_1<::Class_3_07C3C4D2990C49EE*>* _StartSequeceList; // 0x38
+		::System::Action* _DisposeCallBack; // 0x40
 		::RPG::GameCore::LevelGraphState _LevelGraphState; // 0x48
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* pLevelEntity, ::RPG::GameCore::LevelGraphConfig* Config, ::System::String* sConfigPath, ::Class_1_83665B095F1535B5_16* flags)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::LevelGraphConfig* a2, ::System::String* a3, ::Class_1_83665B095F1535B5_16* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::LevelGraphConfig*, ::System::String*, ::Class_1_83665B095F1535B5_16*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPH__CTOR_OFFSET))(this, pLevelEntity, Config, sConfigPath, flags);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::LevelGraphConfig*, ::System::String*, ::Class_1_83665B095F1535B5_16*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPH__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Dispose()
@@ -55,9 +55,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPH_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPH_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPH_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsLevelGraphExecuting()
@@ -70,14 +70,14 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPH_ISLEVELGRAPHFINISH_OFFSET))(this);
 		}
 
-		::System::Void SetEndCallBack(::System::Action* endCallBack)
+		::System::Void SetEndCallBack(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPH_SETENDCALLBACK_OFFSET))(this, endCallBack);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPH_SETENDCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void SetDisposeCallback(::System::Action* cb, ::System::Boolean repeat)
+		::System::Void SetDisposeCallback(::System::Action* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPH_SETDISPOSECALLBACK_OFFSET))(this, cb, repeat);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRAPH_SETDISPOSECALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void LevelGraphInit()

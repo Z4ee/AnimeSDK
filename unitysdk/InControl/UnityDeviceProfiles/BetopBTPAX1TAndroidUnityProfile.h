@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_BETOPBTPAX1TANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x17224A50)
-#define INCONTROL_UNITYDEVICEPROFILES_BETOPBTPAX1TANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17225EC0)
+#define INCONTROL_UNITYDEVICEPROFILES_BETOPBTPAX1TANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x18057D90)
+#define INCONTROL_UNITYDEVICEPROFILES_BETOPBTPAX1TANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x18058F10)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int BetopBTPAX1TAndroidUnityProfile_TypeDefinitionIndex = 37245;
+	inline static constexpr unsigned int BetopBTPAX1TAndroidUnityProfile_TypeDefinitionIndex = 37977;
 
 	class BetopBTPAX1TAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{

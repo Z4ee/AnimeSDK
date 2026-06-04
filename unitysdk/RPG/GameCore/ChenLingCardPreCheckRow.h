@@ -8,31 +8,31 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGCARDPRECHECKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187E8D90)
-#define RPG_GAMECORE_CHENLINGCARDPRECHECKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187E9030)
+#define RPG_GAMECORE_CHENLINGCARDPRECHECKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19626150)
+#define RPG_GAMECORE_CHENLINGCARDPRECHECKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196263F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingCardPreCheckRow_TypeDefinitionIndex = 10566;
+	inline static constexpr unsigned int ChenLingCardPreCheckRow_TypeDefinitionIndex = 10604;
 
 	class ChenLingCardPreCheckRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChenLingCardPreCheckType ConditionType; // 0x10
-		::RPG::GameCore::ChenLingGridStatus TargetGridType; // 0x14
-		::RPG::Client::TextID Toast; // 0x18
-		::System::UInt32 ID; // 0x28
-		::RPG::GameCore::ChenLingCardType UseCardType; // 0x2C
-		::System::UInt32 UseCardID; // 0x30
+		::RPG::Client::TextID Toast; // 0x10
+		::RPG::GameCore::ChenLingGridStatus TargetGridType; // 0x20
+		::System::UInt32 ID; // 0x24
+		::System::UInt32 UseCardID; // 0x28
+		::RPG::GameCore::ChenLingCardPreCheckType ConditionType; // 0x2C
+		::RPG::GameCore::ChenLingCardType UseCardType; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGCARDPRECHECKROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ChenLingCardPreCheckRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingCardPreCheckRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingCardPreCheckRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGCARDPRECHECKROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingCardPreCheckRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGCARDPRECHECKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

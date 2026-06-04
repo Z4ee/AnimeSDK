@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
 
-#define RPG_GAMECORE_CHIMERADUELNORMALEFFECTPARAM_METHOD_3_1489FFA34F0562A0_OFFSET UNITYSDK_OFFSET(0x18800450)
-#define RPG_GAMECORE_CHIMERADUELNORMALEFFECTPARAM_METHOD_3_80EC19AA4C0131B0_OFFSET UNITYSDK_OFFSET(0x188004B0)
-#define RPG_GAMECORE_CHIMERADUELNORMALEFFECTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x188004A0)
+#define RPG_GAMECORE_CHIMERADUELNORMALEFFECTPARAM_METHOD_3_0168E2E28520C2C5_OFFSET UNITYSDK_OFFSET(0x19642490)
+#define RPG_GAMECORE_CHIMERADUELNORMALEFFECTPARAM_METHOD_3_C7EE8492F165C34D_OFFSET UNITYSDK_OFFSET(0x19642430)
+#define RPG_GAMECORE_CHIMERADUELNORMALEFFECTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19642480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelNormalEffectParam_TypeDefinitionIndex = 15177;
+	inline static constexpr unsigned int ChimeraDuelNormalEffectParam_TypeDefinitionIndex = 15238;
 
 	class ChimeraDuelNormalEffectParam : public ::RPG::GameCore::BaseChimeraDuelEffectParam
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNORMALEFFECTPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1489FFA34F0562A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNormalEffectParam*& a2)
+		static ::System::Void Method_3_C7EE8492F165C34D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNormalEffectParam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelNormalEffectParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNORMALEFFECTPARAM_METHOD_3_1489FFA34F0562A0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelNormalEffectParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNORMALEFFECTPARAM_METHOD_3_C7EE8492F165C34D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_80EC19AA4C0131B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNormalEffectParam* a2)
+		static ::System::Void Method_3_0168E2E28520C2C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNormalEffectParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelNormalEffectParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNORMALEFFECTPARAM_METHOD_3_80EC19AA4C0131B0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelNormalEffectParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNORMALEFFECTPARAM_METHOD_3_0168E2E28520C2C5_OFFSET))(a1, a2);
 		}
 	};
 }

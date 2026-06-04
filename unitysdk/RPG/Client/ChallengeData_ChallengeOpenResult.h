@@ -5,11 +5,11 @@
 
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHALLENGEDATA_CHALLENGEOPENRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xD4FA0)
+#define RPG_CLIENT_CHALLENGEDATA_CHALLENGEOPENRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x137410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeData_ChallengeOpenResult_TypeDefinitionIndex = 58111;
+	inline static constexpr unsigned int ChallengeData_ChallengeOpenResult_TypeDefinitionIndex = 59033;
 
 	struct alignas(8) ChallengeData_ChallengeOpenResult
 	{
@@ -17,9 +17,9 @@ namespace RPG::Client
 		::RPG::Client::TextID DisableHintTextID; // 0x18
 		::Il2CppArray<::System::Object*>* Params; // 0x28
 
-		::System::Void _ctor(::System::Boolean isOpen, ::RPG::Client::TextID disableHintTextID, ::Il2CppArray<::System::Object*>* param)
+		::System::Void _ctor(::System::Boolean a1, ::RPG::Client::TextID a2, ::Il2CppArray<::System::Object*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEDATA_CHALLENGEOPENRESULT__CTOR_OFFSET))(this, isOpen, disableHintTextID, param);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEDATA_CHALLENGEOPENRESULT__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

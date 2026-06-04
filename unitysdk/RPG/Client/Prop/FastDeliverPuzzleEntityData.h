@@ -9,16 +9,16 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_GET_ISROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xAE179B0)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xAE174F0)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_SET_ISROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xAE179C0)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_STARTROTATE_OFFSET UNITYSDK_OFFSET(0xAE17010)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_TICK_OFFSET UNITYSDK_OFFSET(0xAE17550)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAE179D0)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_GET_ISROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xC55D3F0)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xC55CF30)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_SET_ISROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xC55D400)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_STARTROTATE_OFFSET UNITYSDK_OFFSET(0xC55CA50)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_TICK_OFFSET UNITYSDK_OFFSET(0xC55CF90)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC55D410)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int FastDeliverPuzzleEntityData_TypeDefinitionIndex = 72083;
+	inline static constexpr unsigned int FastDeliverPuzzleEntityData_TypeDefinitionIndex = 73105;
 
 	class FastDeliverPuzzleEntityData : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,16 +30,16 @@ namespace RPG::Client::Prop
 		::System::Single AvgRotatePitchSpeed; // 0x20
 		::UnityEngine::AnimationCurve* RotateCurve; // 0x28
 		::System::Boolean _IsRotateFinish_k__BackingField; // 0x30
-		::UnityEngine::GameObject* Field_5_5; // 0x38
-		::System::Single Field_5_6; // 0x40
-		::System::Single Field_5_7; // 0x44
-		::System::Single Field_5_8; // 0x48
-		::System::Single Field_5_9; // 0x4C
-		::System::Single Field_5_10; // 0x50
-		::UnityEngine::Quaternion Field_5_11; // 0x54
-		::UnityEngine::Quaternion Field_5_12; // 0x64
-		::RPG::GameCore::GameEntity* Field_5_13; // 0x78
-		::System::Boolean Field_5_14; // 0x80
+		::UnityEngine::GameObject* Field_5_7; // 0x38
+		::System::Single Field_5_8; // 0x40
+		::System::Single Field_5_9; // 0x44
+		::System::Single Field_5_10; // 0x48
+		::System::Single Field_5_11; // 0x4C
+		::System::Single Field_5_12; // 0x50
+		::UnityEngine::Quaternion Field_5_13; // 0x54
+		::UnityEngine::Quaternion Field_5_14; // 0x64
+		::RPG::GameCore::GameEntity* Field_5_15; // 0x78
+		::System::Boolean Field_5_16; // 0x80
 
 		::System::Void _ctor()
 		{
@@ -66,9 +66,9 @@ namespace RPG::Client::Prop
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_GET_ISROTATEFINISH_OFFSET))(this);
 		}
 
-		::System::Void set_IsRotateFinish(::System::Boolean value)
+		::System::Void set_IsRotateFinish(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_SET_ISROTATEFINISH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_FASTDELIVERPUZZLEENTITYDATA_SET_ISROTATEFINISH_OFFSET))(this, a1);
 		}
 	};
 }

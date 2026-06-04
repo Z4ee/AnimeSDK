@@ -4,10 +4,10 @@
 
 namespace RPG::Client::NavMap::FiveDim { class Face; }
 
-#define CLASS_1_A3C62CC0DC4BD2F1___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE0056F0)
-#define CLASS_1_A3C62CC0DC4BD2F1___C__DISPLAYCLASS34_0__GETFACEBYSURFACEID_B__0_OFFSET UNITYSDK_OFFSET(0xE005780)
+#define CLASS_1_A3C62CC0DC4BD2F1___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1394E700)
+#define CLASS_1_A3C62CC0DC4BD2F1___C__DISPLAYCLASS34_0__GETFACEBYSURFACEID_B__0_OFFSET UNITYSDK_OFFSET(0x1394E790)
 
-inline static constexpr unsigned int Class_1_A3C62CC0DC4BD2F1___c__DisplayClass34_0_TypeDefinitionIndex = 68904;
+inline static constexpr unsigned int Class_1_A3C62CC0DC4BD2F1___c__DisplayClass34_0_TypeDefinitionIndex = 69716;
 
 class Class_1_A3C62CC0DC4BD2F1___c__DisplayClass34_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A3C62CC0DC4BD2F1___C__DISPLAYCLASS34_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _GetFaceBySurfaceID_b__0(::RPG::Client::NavMap::FiveDim::Face* x)
+	::System::Boolean _GetFaceBySurfaceID_b__0(::RPG::Client::NavMap::FiveDim::Face* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::FiveDim::Face*))((::PBYTE)hIl2Cpp + CLASS_1_A3C62CC0DC4BD2F1___C__DISPLAYCLASS34_0__GETFACEBYSURFACEID_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::FiveDim::Face*))((::PBYTE)hIl2Cpp + CLASS_1_A3C62CC0DC4BD2F1___C__DISPLAYCLASS34_0__GETFACEBYSURFACEID_B__0_OFFSET))(this, a1);
 	}
 };

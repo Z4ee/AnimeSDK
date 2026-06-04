@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CustomMonsterWaveInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9D721496D70EE90E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12920690)
-#define CLASS_3_9D721496D70EE90E__CTOR_OFFSET UNITYSDK_OFFSET(0x12920660)
+#define CLASS_3_9D721496D70EE90E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1434AEA0)
+#define CLASS_3_9D721496D70EE90E__CTOR_OFFSET UNITYSDK_OFFSET(0x1434AE70)
 
-inline static constexpr unsigned int Class_3_9D721496D70EE90E_TypeDefinitionIndex = 50815;
+inline static constexpr unsigned int Class_3_9D721496D70EE90E_TypeDefinitionIndex = 51483;
 
 class Class_3_9D721496D70EE90E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CustomMonsterWaveInfo*>
 {

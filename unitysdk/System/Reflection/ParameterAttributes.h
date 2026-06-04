@@ -3,7 +3,7 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ParameterAttributes_TypeDefinitionIndex = 580;
+	inline static constexpr unsigned int ParameterAttributes_TypeDefinitionIndex = 579;
 
 	enum class ParameterAttributes : ::System::Int32
 	{

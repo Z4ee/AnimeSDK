@@ -3,15 +3,15 @@
 #include "unitysdk/System/Decimal.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_GET_FRACTIONAVG_OFFSET UNITYSDK_OFFSET(0x8DA8B10)
-#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_GET_MAINAVG_OFFSET UNITYSDK_OFFSET(0x8DA8AF0)
-#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_FRACTIONAVG_OFFSET UNITYSDK_OFFSET(0x8DA8B20)
-#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_MAINAVG_OFFSET UNITYSDK_OFFSET(0x8DA8B00)
-#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x8DA8B30)
+#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_GET_FRACTIONAVG_OFFSET UNITYSDK_OFFSET(0xA1F8BD0)
+#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_GET_MAINAVG_OFFSET UNITYSDK_OFFSET(0xA1F8BB0)
+#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_FRACTIONAVG_OFFSET UNITYSDK_OFFSET(0xA1F8BE0)
+#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_MAINAVG_OFFSET UNITYSDK_OFFSET(0xA1F8BC0)
+#define MIHOYO_SDK_REPORTERUTIL_AVGRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xA1F8BF0)
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int AvgResult_TypeDefinitionIndex = 43199;
+	inline static constexpr unsigned int AvgResult_TypeDefinitionIndex = 44002;
 
 	class AvgResult : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace MiHoYo::SDK::ReporterUtil
 			return ((::System::Decimal(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AVGRESULT_GET_MAINAVG_OFFSET))(this);
 		}
 
-		::System::Void set_MainAvg(::System::Decimal value)
+		::System::Void set_MainAvg(::System::Decimal a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Decimal))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_MAINAVG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Decimal))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_MAINAVG_OFFSET))(this, a1);
 		}
 
 		::System::Decimal get_FractionAvg()
@@ -39,9 +39,9 @@ namespace MiHoYo::SDK::ReporterUtil
 			return ((::System::Decimal(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AVGRESULT_GET_FRACTIONAVG_OFFSET))(this);
 		}
 
-		::System::Void set_FractionAvg(::System::Decimal value)
+		::System::Void set_FractionAvg(::System::Decimal a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Decimal))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_FRACTIONAVG_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Decimal))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_AVGRESULT_SET_FRACTIONAVG_OFFSET))(this, a1);
 		}
 	};
 }

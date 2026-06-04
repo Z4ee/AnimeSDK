@@ -9,16 +9,16 @@ namespace Epic::OnlineServices::Sessions { class ActiveSessionGetRegisteredPlaye
 namespace Epic::OnlineServices::Sessions { class ActiveSessionGetRegisteredPlayerCountOptions; }
 namespace Epic::OnlineServices::Sessions { class ActiveSessionInfo; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_COPYINFO_OFFSET UNITYSDK_OFFSET(0x8F36D30)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_GETREGISTEREDPLAYERBYINDEX_OFFSET UNITYSDK_OFFSET(0x8F36FD0)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_GETREGISTEREDPLAYERCOUNT_OFFSET UNITYSDK_OFFSET(0x8F37130)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_RELEASE_OFFSET UNITYSDK_OFFSET(0x8F37350)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8F36D20)
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x8F36D10)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_COPYINFO_OFFSET UNITYSDK_OFFSET(0xA357630)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_GETREGISTEREDPLAYERBYINDEX_OFFSET UNITYSDK_OFFSET(0xA3578F0)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_GETREGISTEREDPLAYERCOUNT_OFFSET UNITYSDK_OFFSET(0xA357A50)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_RELEASE_OFFSET UNITYSDK_OFFSET(0xA357C90)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA357620)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION__CTOR_OFFSET UNITYSDK_OFFSET(0xA357610)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int ActiveSession_TypeDefinitionIndex = 41226;
+	inline static constexpr unsigned int ActiveSession_TypeDefinitionIndex = 42029;
 
 	class ActiveSession : public ::Epic::OnlineServices::Handle
 	{
@@ -33,24 +33,24 @@ namespace Epic::OnlineServices::Sessions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CopyInfo(::Epic::OnlineServices::Sessions::ActiveSessionCopyInfoOptions* options, ::Epic::OnlineServices::Sessions::ActiveSessionInfo*& outActiveSessionInfo)
+		::Epic::OnlineServices::Result CopyInfo(::Epic::OnlineServices::Sessions::ActiveSessionCopyInfoOptions* a1, ::Epic::OnlineServices::Sessions::ActiveSessionInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::ActiveSessionCopyInfoOptions*, ::Epic::OnlineServices::Sessions::ActiveSessionInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_COPYINFO_OFFSET))(this, options, outActiveSessionInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::Sessions::ActiveSessionCopyInfoOptions*, ::Epic::OnlineServices::Sessions::ActiveSessionInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_COPYINFO_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::ProductUserId* GetRegisteredPlayerByIndex(::Epic::OnlineServices::Sessions::ActiveSessionGetRegisteredPlayerByIndexOptions* options)
+		::Epic::OnlineServices::ProductUserId* GetRegisteredPlayerByIndex(::Epic::OnlineServices::Sessions::ActiveSessionGetRegisteredPlayerByIndexOptions* a1)
 		{
-			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID, ::Epic::OnlineServices::Sessions::ActiveSessionGetRegisteredPlayerByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_GETREGISTEREDPLAYERBYINDEX_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID, ::Epic::OnlineServices::Sessions::ActiveSessionGetRegisteredPlayerByIndexOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_GETREGISTEREDPLAYERBYINDEX_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetRegisteredPlayerCount(::Epic::OnlineServices::Sessions::ActiveSessionGetRegisteredPlayerCountOptions* options)
+		::System::UInt32 GetRegisteredPlayerCount(::Epic::OnlineServices::Sessions::ActiveSessionGetRegisteredPlayerCountOptions* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Sessions::ActiveSessionGetRegisteredPlayerCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_GETREGISTEREDPLAYERCOUNT_OFFSET))(this, options);
+			return ((::System::UInt32(*)(::PVOID, ::Epic::OnlineServices::Sessions::ActiveSessionGetRegisteredPlayerCountOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSION_GETREGISTEREDPLAYERCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Void Release()

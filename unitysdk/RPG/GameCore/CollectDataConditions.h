@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_215A9C5B539377B3_OFFSET UNITYSDK_OFFSET(0x188255D0)
-#define RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_909991EEB7C7239B_OFFSET UNITYSDK_OFFSET(0x18825550)
-#define RPG_GAMECORE_COLLECTDATACONDITIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x188255A0)
+#define RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_0E356D6BAA009B09_OFFSET UNITYSDK_OFFSET(0x19666360)
+#define RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_F84C37BFE65BEA6A_OFFSET UNITYSDK_OFFSET(0x196662E0)
+#define RPG_GAMECORE_COLLECTDATACONDITIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19666330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CollectDataConditions_TypeDefinitionIndex = 19838;
+	inline static constexpr unsigned int CollectDataConditions_TypeDefinitionIndex = 19708;
 
 	class CollectDataConditions : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTDATACONDITIONS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_909991EEB7C7239B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CollectDataConditions*& a2)
+		static ::System::Void Method_3_F84C37BFE65BEA6A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CollectDataConditions*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CollectDataConditions*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_909991EEB7C7239B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CollectDataConditions*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_F84C37BFE65BEA6A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_215A9C5B539377B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CollectDataConditions* a2)
+		static ::System::Void Method_3_0E356D6BAA009B09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CollectDataConditions* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CollectDataConditions*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_215A9C5B539377B3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CollectDataConditions*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_0E356D6BAA009B09_OFFSET))(a1, a2);
 		}
 	};
 }

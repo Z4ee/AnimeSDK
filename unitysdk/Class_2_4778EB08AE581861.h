@@ -6,26 +6,26 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_4778EB08AE581861_METHOD_2_06A6F3C551B79E23_OFFSET UNITYSDK_OFFSET(0xD3A5CE0)
-#define CLASS_2_4778EB08AE581861_METHOD_2_1B9CC121BDC8766D_OFFSET UNITYSDK_OFFSET(0xD3A5E10)
-#define CLASS_2_4778EB08AE581861_METHOD_2_7F5959D5B740D04C_OFFSET UNITYSDK_OFFSET(0xD3A5D60)
-#define CLASS_2_4778EB08AE581861_METHOD_2_994AEE4DBD645811_OFFSET UNITYSDK_OFFSET(0xD3A5C30)
-#define CLASS_2_4778EB08AE581861__CTOR_OFFSET UNITYSDK_OFFSET(0xD3A5EA0)
-#define CLASS_2_4778EB08AE581861__ONBIND_OFFSET UNITYSDK_OFFSET(0xD3A5AA0)
-#define CLASS_2_4778EB08AE581861___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xD3A5ED0)
+#define CLASS_2_4778EB08AE581861_METHOD_2_06A6F3C551B79E23_OFFSET UNITYSDK_OFFSET(0xDE3E300)
+#define CLASS_2_4778EB08AE581861_METHOD_2_1B9CC121BDC8766D_OFFSET UNITYSDK_OFFSET(0xDE3E430)
+#define CLASS_2_4778EB08AE581861_METHOD_2_7F5959D5B740D04C_OFFSET UNITYSDK_OFFSET(0xDE3E380)
+#define CLASS_2_4778EB08AE581861_METHOD_2_994AEE4DBD645811_OFFSET UNITYSDK_OFFSET(0xDE3E250)
+#define CLASS_2_4778EB08AE581861__CTOR_OFFSET UNITYSDK_OFFSET(0xDE3E4C0)
+#define CLASS_2_4778EB08AE581861__ONBIND_OFFSET UNITYSDK_OFFSET(0xDE3E0C0)
+#define CLASS_2_4778EB08AE581861___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xDE3E4F0)
 
-inline static constexpr unsigned int Class_2_4778EB08AE581861_TypeDefinitionIndex = 66326;
+inline static constexpr unsigned int Class_2_4778EB08AE581861_TypeDefinitionIndex = 67265;
 
 class Class_2_4778EB08AE581861 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	// static const ::System::String* Field_2_4; // 0x0
-	// static const ::System::String* Field_2_5; // 0x0
-	// static const ::System::String* Field_2_6; // 0x0
-	::UnityEngine::Transform* Field_2_0; // 0x60
-	::UnityEngine::Transform* Field_2_1; // 0x68
-	::UnityEngine::Animation* Field_2_3; // 0x70
-	::UnityEngine::Transform* Field_2_2; // 0x78
+	// static const ::System::String* Field_2_0; // 0x0
+	// static const ::System::String* Field_2_1; // 0x0
+	// static const ::System::String* Field_2_2; // 0x0
+	::UnityEngine::Animation* Field_2_3; // 0x60
+	::UnityEngine::Transform* Field_2_4; // 0x68
+	::UnityEngine::Transform* Field_2_5; // 0x70
+	::UnityEngine::Transform* Field_2_6; // 0x78
 
 	::System::Void _ctor()
 	{

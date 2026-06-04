@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_DIVMUL_OFFSET UNITYSDK_OFFSET(0x19F8D170)
-#define SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_REDUCE_OFFSET UNITYSDK_OFFSET(0x22D0360)
-#define SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_SUBMOD_OFFSET UNITYSDK_OFFSET(0x19F8D2E0)
-#define SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER__CTOR_OFFSET UNITYSDK_OFFSET(0x22D0350)
+#define SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_DIVMUL_OFFSET UNITYSDK_OFFSET(0x1AE03950)
+#define SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_REDUCE_OFFSET UNITYSDK_OFFSET(0x386B3D0)
+#define SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_SUBMOD_OFFSET UNITYSDK_OFFSET(0x1AE03AC0)
+#define SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER__CTOR_OFFSET UNITYSDK_OFFSET(0x386B3C0)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int BigIntegerCalculator_FastReducer_TypeDefinitionIndex = 4859;
+	inline static constexpr unsigned int BigIntegerCalculator_FastReducer_TypeDefinitionIndex = 3826;
 
 	struct alignas(8) BigIntegerCalculator_FastReducer
 	{
@@ -19,24 +19,24 @@ namespace System::Numerics
 		::Il2CppArray<::System::UInt32>* _q2; // 0x28
 		::System::Int32 _muLength; // 0x30
 
-		::System::Void _ctor(::Il2CppArray<::System::UInt32>* modulus)
+		::System::Void _ctor(::Il2CppArray<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER__CTOR_OFFSET))(this, modulus);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Reduce(::Il2CppArray<::System::UInt32>* value, ::System::Int32 length)
+		::System::Int32 Reduce(::Il2CppArray<::System::UInt32>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_REDUCE_OFFSET))(this, value, length);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_REDUCE_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Int32 DivMul(::Il2CppArray<::System::UInt32>* left, ::System::Int32 leftLength, ::Il2CppArray<::System::UInt32>* right, ::System::Int32 rightLength, ::Il2CppArray<::System::UInt32>* bits, ::System::Int32 k)
+		static ::System::Int32 DivMul(::Il2CppArray<::System::UInt32>* a1, ::System::Int32 a2, ::Il2CppArray<::System::UInt32>* a3, ::System::Int32 a4, ::Il2CppArray<::System::UInt32>* a5, ::System::Int32 a6)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::UInt32>*, ::System::Int32, ::Il2CppArray<::System::UInt32>*, ::System::Int32, ::Il2CppArray<::System::UInt32>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_DIVMUL_OFFSET))(left, leftLength, right, rightLength, bits, k);
+			return ((::System::Int32(*)(::Il2CppArray<::System::UInt32>*, ::System::Int32, ::Il2CppArray<::System::UInt32>*, ::System::Int32, ::Il2CppArray<::System::UInt32>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_DIVMUL_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 SubMod(::Il2CppArray<::System::UInt32>* left, ::System::Int32 leftLength, ::Il2CppArray<::System::UInt32>* right, ::System::Int32 rightLength, ::Il2CppArray<::System::UInt32>* modulus, ::System::Int32 k)
+		static ::System::Int32 SubMod(::Il2CppArray<::System::UInt32>* a1, ::System::Int32 a2, ::Il2CppArray<::System::UInt32>* a3, ::System::Int32 a4, ::Il2CppArray<::System::UInt32>* a5, ::System::Int32 a6)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::UInt32>*, ::System::Int32, ::Il2CppArray<::System::UInt32>*, ::System::Int32, ::Il2CppArray<::System::UInt32>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_SUBMOD_OFFSET))(left, leftLength, right, rightLength, modulus, k);
+			return ((::System::Int32(*)(::Il2CppArray<::System::UInt32>*, ::System::Int32, ::Il2CppArray<::System::UInt32>*, ::System::Int32, ::Il2CppArray<::System::UInt32>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_BIGINTEGERCALCULATOR_FASTREDUCER_SUBMOD_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 	};
 }

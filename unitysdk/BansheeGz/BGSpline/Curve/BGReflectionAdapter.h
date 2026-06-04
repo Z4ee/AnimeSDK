@@ -4,42 +4,42 @@
 
 namespace System { class Type; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x17BC3A20)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISABSTRACT_OFFSET UNITYSDK_OFFSET(0x17BC3A50)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISCLASS_OFFSET UNITYSDK_OFFSET(0x17BC3A80)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISSUBCLASSOF_OFFSET UNITYSDK_OFFSET(0x17BC3AD0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISVALUETYPE_OFFSET UNITYSDK_OFFSET(0x17BC3B00)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x18974230)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISABSTRACT_OFFSET UNITYSDK_OFFSET(0x18974260)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISCLASS_OFFSET UNITYSDK_OFFSET(0x18974290)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISSUBCLASSOF_OFFSET UNITYSDK_OFFSET(0x189742E0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISVALUETYPE_OFFSET UNITYSDK_OFFSET(0x18974310)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGReflectionAdapter_TypeDefinitionIndex = 33830;
+	inline static constexpr unsigned int BGReflectionAdapter_TypeDefinitionIndex = 34112;
 
 	class BGReflectionAdapter : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Type* type, ::System::Type* attributeType, ::System::Boolean inherit)
+		static ::Il2CppArray<::System::Object*>* GetCustomAttributes(::System::Type* a1, ::System::Type* a2, ::System::Boolean a3)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::System::Type*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_GETCUSTOMATTRIBUTES_OFFSET))(type, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::System::Type*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_GETCUSTOMATTRIBUTES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean IsAbstract(::System::Type* type)
+		static ::System::Boolean IsAbstract(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISABSTRACT_OFFSET))(type);
+			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISABSTRACT_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsClass(::System::Type* type)
+		static ::System::Boolean IsClass(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISCLASS_OFFSET))(type);
+			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISCLASS_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsSubclassOf(::System::Type* type, ::System::Type* typeToCheck)
+		static ::System::Boolean IsSubclassOf(::System::Type* a1, ::System::Type* a2)
 		{
-			return ((::System::Boolean(*)(::System::Type*, ::System::Type*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISSUBCLASSOF_OFFSET))(type, typeToCheck);
+			return ((::System::Boolean(*)(::System::Type*, ::System::Type*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISSUBCLASSOF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsValueType(::System::Type* type)
+		static ::System::Boolean IsValueType(::System::Type* a1)
 		{
-			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISVALUETYPE_OFFSET))(type);
+			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGREFLECTIONADAPTER_ISVALUETYPE_OFFSET))(a1);
 		}
 	};
 }

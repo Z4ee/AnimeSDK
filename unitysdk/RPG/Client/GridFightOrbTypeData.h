@@ -7,22 +7,22 @@ namespace RPG::Client { class GridFightOrbServerData; }
 namespace RPG::GameCore { class GridFightOrbTypeRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA5191D0)
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xA51BCF0)
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA51BD50)
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA51BCD0)
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xA51BCE0)
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA51BCC0)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xBBC0F60)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xBBC3800)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xBBC3860)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBBC37E0)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xBBC37F0)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBBC37D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbTypeData_TypeDefinitionIndex = 59300;
+	inline static constexpr unsigned int GridFightOrbTypeData_TypeDefinitionIndex = 60235;
 
 	class GridFightOrbTypeData : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightOrbServerData* _ServerData; // 0x10
-		::RPG::GameCore::GridFightOrbTypeRow* _row; // 0x18
+		::RPG::GameCore::GridFightOrbTypeRow* _row; // 0x10
+		::RPG::Client::GridFightOrbServerData* _ServerData; // 0x18
 		::RPG::GameCore::GridFightOrbType _Type_k__BackingField; // 0x20
 
 		::System::Void _ctor()
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBTYPEDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::GridFightOrbTypeData* Create(::RPG::GameCore::GridFightOrbType type)
+		static ::RPG::Client::GridFightOrbTypeData* Create(::RPG::GameCore::GridFightOrbType a1)
 		{
-			return ((::RPG::Client::GridFightOrbTypeData*(*)(::RPG::GameCore::GridFightOrbType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBTYPEDATA_CREATE_OFFSET))(type);
+			return ((::RPG::Client::GridFightOrbTypeData*(*)(::RPG::GameCore::GridFightOrbType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBTYPEDATA_CREATE_OFFSET))(a1);
 		}
 
 		::RPG::GameCore::GridFightOrbType get_Type()
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::GridFightOrbType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::RPG::GameCore::GridFightOrbType value)
+		::System::Void set_Type(::RPG::GameCore::GridFightOrbType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightOrbType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBTYPEDATA_SET_TYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GridFightOrbType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBTYPEDATA_SET_TYPE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Count()

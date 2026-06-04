@@ -7,23 +7,23 @@
 namespace Epic::OnlineServices::Sessions { class AttributeDataValue; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_GET_KEY_OFFSET UNITYSDK_OFFSET(0x8F384D0)
-#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x8F384F0)
-#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_1_OFFSET UNITYSDK_OFFSET(0x8F389A0)
-#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_KEY_OFFSET UNITYSDK_OFFSET(0x8F384E0)
-#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_OFFSET UNITYSDK_OFFSET(0x8F38510)
-#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x8F38500)
-#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8F38AD0)
+#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_GET_KEY_OFFSET UNITYSDK_OFFSET(0xA358E20)
+#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA358E40)
+#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_1_OFFSET UNITYSDK_OFFSET(0xA3592F0)
+#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_KEY_OFFSET UNITYSDK_OFFSET(0xA358E30)
+#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_OFFSET UNITYSDK_OFFSET(0xA358E60)
+#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xA358E50)
+#define EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA359420)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int AttributeData_TypeDefinitionIndex = 41241;
+	inline static constexpr unsigned int AttributeData_TypeDefinitionIndex = 42044;
 
 	class AttributeData : public ::System::Object
 	{
 	public:
-		::System::String* _Key_k__BackingField; // 0x10
-		::Epic::OnlineServices::Sessions::AttributeDataValue* _Value_k__BackingField; // 0x18
+		::Epic::OnlineServices::Sessions::AttributeDataValue* _Value_k__BackingField; // 0x10
+		::System::String* _Key_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -35,9 +35,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void set_Key(::System::String* value)
+		::System::Void set_Key(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_KEY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_KEY_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Sessions::AttributeDataValue* get_Value()
@@ -45,19 +45,19 @@ namespace Epic::OnlineServices::Sessions
 			return ((::Epic::OnlineServices::Sessions::AttributeDataValue*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::Epic::OnlineServices::Sessions::AttributeDataValue* value)
+		::System::Void set_Value(::Epic::OnlineServices::Sessions::AttributeDataValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::AttributeDataValue*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Sessions::AttributeDataValue*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_VALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Sessions::AttributeDataInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Sessions::AttributeDataInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Sessions::AttributeDataInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Sessions::AttributeDataInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_ATTRIBUTEDATA_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

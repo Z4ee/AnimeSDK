@@ -8,16 +8,16 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x18180D40)
-#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_GET_KEY_OFFSET UNITYSDK_OFFSET(0x18180D30)
-#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18180CB0)
-#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18180C70)
-#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18180BE0)
-#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD__CTOR_OFFSET UNITYSDK_OFFSET(0x18180F50)
+#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x18F270E0)
+#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_GET_KEY_OFFSET UNITYSDK_OFFSET(0x18F270D0)
+#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18F27050)
+#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18F27010)
+#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18F26F80)
+#define RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD__CTOR_OFFSET UNITYSDK_OFFSET(0x18F27310)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SpaceZooBackgroundCmd_TypeDefinitionIndex = 35039;
+	inline static constexpr unsigned int SpaceZooBackgroundCmd_TypeDefinitionIndex = 35325;
 
 	class SpaceZooBackgroundCmd : public ::UnityEngine::MonoBehaviour
 	{
@@ -51,9 +51,9 @@ namespace RPG::CustomRP
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::CRPMainCameraDesc& mainCameraDesc)
+		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_EXECUTE_OFFSET))(this, cmd, mainCameraDesc);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_SPACEZOOBACKGROUNDCMD_EXECUTE_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int SlotType_TypeDefinitionIndex = 68581;
+	inline static constexpr unsigned int SlotType_TypeDefinitionIndex = 69393;
 
 	enum class SlotType : ::System::Int32
 	{

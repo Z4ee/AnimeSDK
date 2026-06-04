@@ -7,15 +7,15 @@ namespace Epic::OnlineServices::PlayerDataStorage { class QueryFileOptions; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5FD70)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x5FD00)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x5FC40)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x5FB80)
-#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x5FCF0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x65460)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x653E0)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x65320)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x65260)
+#define EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x653D0)
 
 namespace Epic::OnlineServices::PlayerDataStorage
 {
-	inline static constexpr unsigned int QueryFileOptionsInternal_TypeDefinitionIndex = 41678;
+	inline static constexpr unsigned int QueryFileOptionsInternal_TypeDefinitionIndex = 42481;
 
 	struct alignas(8) QueryFileOptionsInternal
 	{
@@ -23,24 +23,24 @@ namespace Epic::OnlineServices::PlayerDataStorage
 		::System::IntPtr m_LocalUserId; // 0x18
 		::System::IntPtr m_Filename; // 0x20
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Filename(::System::String* value)
+		::System::Void set_Filename(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_FILENAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_FILENAME_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::Epic::OnlineServices::PlayerDataStorage::QueryFileOptions* other)
+		::System::Void Set(::Epic::OnlineServices::PlayerDataStorage::QueryFileOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::QueryFileOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::PlayerDataStorage::QueryFileOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PLAYERDATASTORAGE_QUERYFILEOPTIONSINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

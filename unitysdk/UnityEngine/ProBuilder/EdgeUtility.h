@@ -9,66 +9,66 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_ALLTRIANGLES_OFFSET UNITYSDK_OFFSET(0x1A239110)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x1A238D70)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1A238D00)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETEDGEWITHSHAREDVERTEXHANDLES_OFFSET UNITYSDK_OFFSET(0x1A2381C0)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETFACE_OFFSET UNITYSDK_OFFSET(0x1A239260)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGES_OFFSET UNITYSDK_OFFSET(0x1A237EF0)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGE_OFFSET UNITYSDK_OFFSET(0x1A237F90)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1A238E00)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_VALIDATEEDGE_OFFSET UNITYSDK_OFFSET(0x1A238290)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_ALLTRIANGLES_OFFSET UNITYSDK_OFFSET(0x1B09DF70)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x1B09DAE0)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1B09DA70)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETEDGEWITHSHAREDVERTEXHANDLES_OFFSET UNITYSDK_OFFSET(0x1B09D180)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETFACE_OFFSET UNITYSDK_OFFSET(0x1B09E0A0)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGES_OFFSET UNITYSDK_OFFSET(0x1B09CDE0)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGE_OFFSET UNITYSDK_OFFSET(0x1B09CEA0)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1B09DB70)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_VALIDATEEDGE_OFFSET UNITYSDK_OFFSET(0x1B09D210)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int EdgeUtility_TypeDefinitionIndex = 39909;
+	inline static constexpr unsigned int EdgeUtility_TypeDefinitionIndex = 40736;
 
 	class EdgeUtility : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* GetSharedVertexHandleEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges)
+		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* GetSharedVertexHandleEdges(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* a2)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGES_OFFSET))(mesh, edges);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGES_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::Edge GetSharedVertexHandleEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge)
+		static ::UnityEngine::ProBuilder::Edge GetSharedVertexHandleEdge(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2)
 		{
-			return ((::UnityEngine::ProBuilder::Edge(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGE_OFFSET))(mesh, edge);
+			return ((::UnityEngine::ProBuilder::Edge(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGE_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::ProBuilder::Edge GetEdgeWithSharedVertexHandles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge)
+		static ::UnityEngine::ProBuilder::Edge GetEdgeWithSharedVertexHandles(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2)
 		{
-			return ((::UnityEngine::ProBuilder::Edge(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_GETEDGEWITHSHAREDVERTEXHANDLES_OFFSET))(mesh, edge);
+			return ((::UnityEngine::ProBuilder::Edge(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_GETEDGEWITHSHAREDVERTEXHANDLES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ValidateEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>& validEdge)
+		static ::System::Boolean ValidateEdge(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>& a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_VALIDATEEDGE_OFFSET))(mesh, edge, validEdge);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_VALIDATEEDGE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean Contains(::Il2CppArray<::UnityEngine::ProBuilder::Edge>* edges, ::UnityEngine::ProBuilder::Edge edge)
+		static ::System::Boolean Contains(::Il2CppArray<::UnityEngine::ProBuilder::Edge>* a1, ::UnityEngine::ProBuilder::Edge a2)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::ProBuilder::Edge>*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_OFFSET))(edges, edge);
+			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::ProBuilder::Edge>*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean Contains_1(::Il2CppArray<::UnityEngine::ProBuilder::Edge>* edges, ::System::Int32 x, ::System::Int32 y)
+		static ::System::Boolean Contains_1(::Il2CppArray<::UnityEngine::ProBuilder::Edge>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::ProBuilder::Edge>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_1_OFFSET))(edges, x, y);
+			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::ProBuilder::Edge>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 IndexOf(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges, ::UnityEngine::ProBuilder::Edge edge)
+		static ::System::Int32 IndexOf(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* a2, ::UnityEngine::ProBuilder::Edge a3)
 		{
-			return ((::System::Int32(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_INDEXOF_OFFSET))(mesh, edges, edge);
+			return ((::System::Int32(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_INDEXOF_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::System::Int32>* AllTriangles(::Il2CppArray<::UnityEngine::ProBuilder::Edge>* edges)
+		static ::Il2CppArray<::System::Int32>* AllTriangles(::Il2CppArray<::UnityEngine::ProBuilder::Edge>* a1)
 		{
-			return ((::Il2CppArray<::System::Int32>*(*)(::Il2CppArray<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_ALLTRIANGLES_OFFSET))(edges);
+			return ((::Il2CppArray<::System::Int32>*(*)(::Il2CppArray<::UnityEngine::ProBuilder::Edge>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_ALLTRIANGLES_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ProBuilder::Face* GetFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge)
+		static ::UnityEngine::ProBuilder::Face* GetFace(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2)
 		{
-			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_GETFACE_OFFSET))(mesh, edge);
+			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_GETFACE_OFFSET))(a1, a2);
 		}
 	};
 }

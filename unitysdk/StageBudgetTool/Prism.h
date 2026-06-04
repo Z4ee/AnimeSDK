@@ -7,14 +7,14 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define STAGEBUDGETTOOL_PRISM_METHOD_1_5E3A735B29A1B5B0_OFFSET UNITYSDK_OFFSET(0xB94F4A0)
-#define STAGEBUDGETTOOL_PRISM_METHOD_1_E6E9E20688D7143D_OFFSET UNITYSDK_OFFSET(0xB94F330)
-#define STAGEBUDGETTOOL_PRISM_METHOD_1_FF2FC2568C8F242F_OFFSET UNITYSDK_OFFSET(0xB94F360)
-#define STAGEBUDGETTOOL_PRISM__CTOR_OFFSET UNITYSDK_OFFSET(0xB94F7B0)
+#define STAGEBUDGETTOOL_PRISM_METHOD_1_4C02A9C832395D7A_OFFSET UNITYSDK_OFFSET(0xD094670)
+#define STAGEBUDGETTOOL_PRISM_METHOD_1_57B996E880F6A8CA_OFFSET UNITYSDK_OFFSET(0xD094500)
+#define STAGEBUDGETTOOL_PRISM_METHOD_1_E6E9E20688D7143D_OFFSET UNITYSDK_OFFSET(0xD0944D0)
+#define STAGEBUDGETTOOL_PRISM__CTOR_OFFSET UNITYSDK_OFFSET(0xD094BE0)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int Prism_TypeDefinitionIndex = 44489;
+	inline static constexpr unsigned int Prism_TypeDefinitionIndex = 45035;
 
 	class Prism : public ::System::Object
 	{
@@ -32,14 +32,14 @@ namespace StageBudgetTool
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_PRISM_METHOD_1_E6E9E20688D7143D_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_1_FF2FC2568C8F242F(::UnityEngine::Vector3 a1)
+		::System::Boolean Method_1_57B996E880F6A8CA(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_PRISM_METHOD_1_FF2FC2568C8F242F_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_PRISM_METHOD_1_57B996E880F6A8CA_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Mesh* Method_1_5E3A735B29A1B5B0()
+		::UnityEngine::Mesh* Method_1_4C02A9C832395D7A()
 		{
-			return ((::UnityEngine::Mesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_PRISM_METHOD_1_5E3A735B29A1B5B0_OFFSET))(this);
+			return ((::UnityEngine::Mesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_PRISM_METHOD_1_4C02A9C832395D7A_OFFSET))(this);
 		}
 	};
 }

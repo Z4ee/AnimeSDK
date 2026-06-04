@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionUIGotoType_TypeDefinitionIndex = 18006;
+	inline static constexpr unsigned int MissionUIGotoType_TypeDefinitionIndex = 18033;
 
 	enum class MissionUIGotoType : ::System::Int32
 	{

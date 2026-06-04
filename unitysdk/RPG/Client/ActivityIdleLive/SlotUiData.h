@@ -5,11 +5,11 @@
 class Class_1_679CF71AD3A781CD;
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SLOTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD3200)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SLOTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x135630)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SlotUiData_TypeDefinitionIndex = 69491;
+	inline static constexpr unsigned int SlotUiData_TypeDefinitionIndex = 70303;
 
 	struct alignas(8) SlotUiData
 	{
@@ -20,9 +20,9 @@ namespace RPG::Client::ActivityIdleLive
 		::System::UInt32 EquippedRarity; // 0x28
 		::System::UInt32 SlotIndex; // 0x2C
 
-		::System::Void _ctor(::Class_1_679CF71AD3A781CD* slot)
+		::System::Void _ctor(::Class_1_679CF71AD3A781CD* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_679CF71AD3A781CD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SLOTUIDATA__CTOR_OFFSET))(this, slot);
+			return ((::System::Void(*)(::PVOID, ::Class_1_679CF71AD3A781CD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SLOTUIDATA__CTOR_OFFSET))(this, a1);
 		}
 	};
 }

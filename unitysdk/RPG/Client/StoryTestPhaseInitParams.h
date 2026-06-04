@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_STORYTESTPHASEINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xB1E12D0)
+#define RPG_CLIENT_STORYTESTPHASEINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xC93AEF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryTestPhaseInitParams_TypeDefinitionIndex = 56450;
+	inline static constexpr unsigned int StoryTestPhaseInitParams_TypeDefinitionIndex = 57213;
 
 	class StoryTestPhaseInitParams : public ::System::Object
 	{
 	public:
-		::System::String* StoryConfigPath; // 0x10
-		::System::String* SceneName; // 0x18
+		::System::String* SceneName; // 0x10
+		::System::String* StoryConfigPath; // 0x18
 
 		::System::Void _ctor()
 		{

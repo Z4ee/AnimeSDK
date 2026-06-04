@@ -8,12 +8,12 @@ namespace RPG::GameCore { class TutorialGuideTalkListAdaptConfig; }
 namespace RPG::GameCore { class TutorialGuideTextAdaptConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALJSONCONFIG_METHOD_2_3C180D895DE1BC75_OFFSET UNITYSDK_OFFSET(0x190DBCF0)
-#define RPG_GAMECORE_TUTORIALJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190DC100)
+#define RPG_GAMECORE_TUTORIALJSONCONFIG_METHOD_2_3C87CCB58E0C4CAF_OFFSET UNITYSDK_OFFSET(0x19E2CC20)
+#define RPG_GAMECORE_TUTORIALJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2D020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialJsonConfig_TypeDefinitionIndex = 23417;
+	inline static constexpr unsigned int TutorialJsonConfig_TypeDefinitionIndex = 23066;
 
 	class TutorialJsonConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALJSONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3C180D895DE1BC75(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialJsonConfig*& a2)
+		static ::System::Void Method_2_3C87CCB58E0C4CAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialJsonConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialJsonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALJSONCONFIG_METHOD_2_3C180D895DE1BC75_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialJsonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALJSONCONFIG_METHOD_2_3C87CCB58E0C4CAF_OFFSET))(a1, a2);
 		}
 	};
 }

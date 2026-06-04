@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x173E5590)
-#define MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x173E55C0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x173E52E0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x173E52C0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x181EDCB0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x181EDCE0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x181EDCA0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x181EDC30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_GetProcessWndDelegate_TypeDefinitionIndex = 6661;
+	inline static constexpr unsigned int BiliBiliDelegate_GetProcessWndDelegate_TypeDefinitionIndex = 7564;
 
 	class BiliBiliDelegate_GetProcessWndDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IntPtr Invoke()
@@ -28,14 +28,14 @@ namespace MiHoYo::SDK
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IntPtr EndInvoke(::System::IAsyncResult* result)
+		::System::IntPtr EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_GETPROCESSWNDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

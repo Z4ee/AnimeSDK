@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/Client/Subway/AirshipSubwayEmitter_SubPrefab.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_0_16E4307DCC419505_567;
+class Class_0_16E4307DCC419505_589;
 class Class_1_EE60750735AAF463;
 namespace RPG::Client::Subway { class AirshipSubway; }
 namespace RPG::Client::Subway { class AirshipSubwayTimetable; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER_ALLOC_OFFSET UNITYSDK_OFFSET(0xB1E97F0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER_CREATEMANAGER_OFFSET UNITYSDK_OFFSET(0xB1E9760)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER_RANDOMSUBPREFAB_OFFSET UNITYSDK_OFFSET(0xB1E99C0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER_RELEASE_OFFSET UNITYSDK_OFFSET(0xB1E9BE0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB1E9C40)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER_ALLOC_OFFSET UNITYSDK_OFFSET(0xC943940)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER_CREATEMANAGER_OFFSET UNITYSDK_OFFSET(0xC9438B0)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER_RANDOMSUBPREFAB_OFFSET UNITYSDK_OFFSET(0xC943AF0)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER_RELEASE_OFFSET UNITYSDK_OFFSET(0xC943D00)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER__CTOR_OFFSET UNITYSDK_OFFSET(0xC943D60)
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirshipSubwayEmitter_TypeDefinitionIndex = 72575;
+	inline static constexpr unsigned int AirshipSubwayEmitter_TypeDefinitionIndex = 74398;
 
 	class AirshipSubwayEmitter : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,9 +32,9 @@ namespace RPG::Client::Subway
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER__CTOR_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_567* CreateManager(::System::UInt32 a1, ::System::String* a2)
+		::Class_0_16E4307DCC419505_589* CreateManager(::System::UInt32 a1, ::System::String* a2)
 		{
-			return ((::Class_0_16E4307DCC419505_567*(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER_CREATEMANAGER_OFFSET))(this, a1, a2);
+			return ((::Class_0_16E4307DCC419505_589*(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYEMITTER_CREATEMANAGER_OFFSET))(this, a1, a2);
 		}
 
 		::Class_1_EE60750735AAF463* Alloc(::UnityEngine::Transform* a1)

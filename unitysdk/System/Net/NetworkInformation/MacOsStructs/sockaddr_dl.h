@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET UNITYSDK_OFFSET(0x22D49A0)
+#define SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET UNITYSDK_OFFSET(0x3870680)
 
 namespace System::Net::NetworkInformation::MacOsStructs
 {
@@ -19,9 +19,9 @@ namespace System::Net::NetworkInformation::MacOsStructs
 		::System::Byte sdl_slen; // 0x17
 		::Il2CppArray<::System::Byte>* sdl_data; // 0x18
 
-		::System::Void Read(::System::IntPtr ptr)
+		::System::Void Read(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET))(this, ptr);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET))(this, a1);
 		}
 	};
 }

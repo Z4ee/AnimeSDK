@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapEffect_TypeDefinitionIndex = 11895;
+	inline static constexpr unsigned int MapEffect_TypeDefinitionIndex = 11988;
 
 	enum class MapEffect : ::System::Int32
 	{

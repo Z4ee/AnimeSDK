@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AttachPointEffectAdaptionConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_11930121BB1E8706_OFFSET UNITYSDK_OFFSET(0x18E150B0)
-#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_C72F84EC4E080D9F_OFFSET UNITYSDK_OFFSET(0x18E15180)
-#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E15130)
+#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_32202389B6EC4514_OFFSET UNITYSDK_OFFSET(0x19C33E90)
+#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_6C8099CC4DEE9CB6_OFFSET UNITYSDK_OFFSET(0x19C33F60)
+#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C33F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicAttachPointEffectAdaptionConfig_TypeDefinitionIndex = 19212;
+	inline static constexpr unsigned int SetDynamicAttachPointEffectAdaptionConfig_TypeDefinitionIndex = 19134;
 
 	class SetDynamicAttachPointEffectAdaptionConfig : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_11930121BB1E8706(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig*& a2)
+		static ::System::Void Method_3_32202389B6EC4514(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_11930121BB1E8706_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_32202389B6EC4514_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C72F84EC4E080D9F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig* a2)
+		static ::System::Void Method_3_6C8099CC4DEE9CB6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_C72F84EC4E080D9F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_6C8099CC4DEE9CB6_OFFSET))(a1, a2);
 		}
 	};
 }

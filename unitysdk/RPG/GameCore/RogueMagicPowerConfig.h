@@ -7,12 +7,12 @@ namespace RPG::GameCore { class BaseRogueMagicUltraUnitSpecialFactor; }
 namespace RPG::GameCore { class PassiveUnitEffectTypeMatchFactorConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEMAGICPOWERCONFIG_METHOD_2_1202B961702931B8_OFFSET UNITYSDK_OFFSET(0x18D21CB0)
-#define RPG_GAMECORE_ROGUEMAGICPOWERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D21EF0)
+#define RPG_GAMECORE_ROGUEMAGICPOWERCONFIG_METHOD_2_3B39469EAC257C43_OFFSET UNITYSDK_OFFSET(0x19B45AC0)
+#define RPG_GAMECORE_ROGUEMAGICPOWERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B45CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicPowerConfig_TypeDefinitionIndex = 17024;
+	inline static constexpr unsigned int RogueMagicPowerConfig_TypeDefinitionIndex = 17038;
 
 	class RogueMagicPowerConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICPOWERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1202B961702931B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMagicPowerConfig*& a2)
+		static ::System::Void Method_2_3B39469EAC257C43(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMagicPowerConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicPowerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICPOWERCONFIG_METHOD_2_1202B961702931B8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicPowerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICPOWERCONFIG_METHOD_2_3B39469EAC257C43_OFFSET))(a1, a2);
 		}
 	};
 }

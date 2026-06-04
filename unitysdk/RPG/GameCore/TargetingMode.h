@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetingMode_TypeDefinitionIndex = 52964;
+	inline static constexpr unsigned int TargetingMode_TypeDefinitionIndex = 53674;
 
 	enum class TargetingMode : ::System::Int32
 	{

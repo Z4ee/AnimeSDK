@@ -4,45 +4,45 @@
 #include "unitysdk/UnityEngine/CompressionLevel.h"
 #include "unitysdk/UnityEngine/CompressionType.h"
 
-#define UNITYENGINE_BUILDCOMPRESSION_SET_BLOCKSIZE_OFFSET UNITYSDK_OFFSET(0xD250)
-#define UNITYENGINE_BUILDCOMPRESSION_SET_COMPRESSION_OFFSET UNITYSDK_OFFSET(0x299E0)
-#define UNITYENGINE_BUILDCOMPRESSION_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1D50)
-#define UNITYENGINE_BUILDCOMPRESSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A419430)
-#define UNITYENGINE_BUILDCOMPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0xD3340)
+#define UNITYENGINE_BUILDCOMPRESSION_SET_BLOCKSIZE_OFFSET UNITYSDK_OFFSET(0xDAE0)
+#define UNITYENGINE_BUILDCOMPRESSION_SET_COMPRESSION_OFFSET UNITYSDK_OFFSET(0x2C4C0)
+#define UNITYENGINE_BUILDCOMPRESSION_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x21F0)
+#define UNITYENGINE_BUILDCOMPRESSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B26CE20)
+#define UNITYENGINE_BUILDCOMPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x82420)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BuildCompression_TypeDefinitionIndex = 5421;
+	inline static constexpr unsigned int BuildCompression_TypeDefinitionIndex = 5698;
 
 	struct alignas(4) BuildCompression
 	{
-		static ::UnityEngine::BuildCompression* StaticGet_Uncompressed()
-		{
-			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x3A0);
-		}
 		static ::UnityEngine::BuildCompression* StaticGet_LZ4()
 		{
-			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x3AC);
-		}
-		static ::UnityEngine::BuildCompression* StaticGet_LZMA()
-		{
-			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x3B8);
-		}
-		static ::UnityEngine::BuildCompression* StaticGet_LZ4Runtime()
-		{
-			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x3C4);
+			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x3C0);
 		}
 		static ::UnityEngine::BuildCompression* StaticGet_UncompressedRuntime()
 		{
-			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x3D0);
+			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x3CC);
+		}
+		static ::UnityEngine::BuildCompression* StaticGet_LZ4Runtime()
+		{
+			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x3D8);
+		}
+		static ::UnityEngine::BuildCompression* StaticGet_LZMA()
+		{
+			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x3E4);
+		}
+		static ::UnityEngine::BuildCompression* StaticGet_Uncompressed()
+		{
+			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x3F0);
 		}
 		::UnityEngine::CompressionType _compression; // 0x10
 		::UnityEngine::CompressionLevel _level; // 0x14
 		::System::UInt32 _blockSize; // 0x18
 
-		::System::Void _ctor(::UnityEngine::CompressionType in_compression, ::UnityEngine::CompressionLevel in_level, ::System::UInt32 in_blockSize)
+		::System::Void _ctor(::UnityEngine::CompressionType a1, ::UnityEngine::CompressionLevel a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::CompressionType, ::UnityEngine::CompressionLevel, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_BUILDCOMPRESSION__CTOR_OFFSET))(this, in_compression, in_level, in_blockSize);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::CompressionType, ::UnityEngine::CompressionLevel, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_BUILDCOMPRESSION__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
@@ -50,19 +50,19 @@ namespace UnityEngine
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_BUILDCOMPRESSION__CCTOR_OFFSET))();
 		}
 
-		::System::Void set_compression(::UnityEngine::CompressionType value)
+		::System::Void set_compression(::UnityEngine::CompressionType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::CompressionType))((::PBYTE)hIl2Cpp + UNITYENGINE_BUILDCOMPRESSION_SET_COMPRESSION_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::CompressionType))((::PBYTE)hIl2Cpp + UNITYENGINE_BUILDCOMPRESSION_SET_COMPRESSION_OFFSET))(this, a1);
 		}
 
-		::System::Void set_level(::UnityEngine::CompressionLevel value)
+		::System::Void set_level(::UnityEngine::CompressionLevel a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::CompressionLevel))((::PBYTE)hIl2Cpp + UNITYENGINE_BUILDCOMPRESSION_SET_LEVEL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::CompressionLevel))((::PBYTE)hIl2Cpp + UNITYENGINE_BUILDCOMPRESSION_SET_LEVEL_OFFSET))(this, a1);
 		}
 
-		::System::Void set_blockSize(::System::UInt32 value)
+		::System::Void set_blockSize(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_BUILDCOMPRESSION_SET_BLOCKSIZE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_BUILDCOMPRESSION_SET_BLOCKSIZE_OFFSET))(this, a1);
 		}
 	};
 }

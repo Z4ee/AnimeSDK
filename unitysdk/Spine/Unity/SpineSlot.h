@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINESLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E69440)
+#define SPINE_UNITY_SPINESLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACDF940)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineSlot_TypeDefinitionIndex = 40647;
+	inline static constexpr unsigned int SpineSlot_TypeDefinitionIndex = 41474;
 
 	class SpineSlot : public ::Spine::Unity::SpineAttributeBase
 	{
 	public:
 		::System::Boolean containsBoundingBoxes; // 0x28
 
-		::System::Void _ctor(::System::String* startsWith, ::System::String* dataField, ::System::Boolean containsBoundingBoxes, ::System::Boolean includeNone, ::System::Boolean fallbackToTextField)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESLOT__CTOR_OFFSET))(this, startsWith, dataField, containsBoundingBoxes, includeNone, fallbackToTextField);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINESLOT__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

@@ -20,85 +20,87 @@ namespace HoudiniEngineUnity { class HEU_ThreadedTaskLoadGeo_HEU_LoadObject; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_APPENDLOG_OFFSET UNITYSDK_OFFSET(0x8CC6350)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_BUILDBUFFERIDSMAP_OFFSET UNITYSDK_OFFSET(0x8CC9FF0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_CLEANUP_OFFSET UNITYSDK_OFFSET(0x8CCB1C0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_COOKNODE_OFFSET UNITYSDK_OFFSET(0x8CC6AE0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_CREATEFILENODE_OFFSET UNITYSDK_OFFSET(0x8CCAB80)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_CREATELOGSTRING_OFFSET UNITYSDK_OFFSET(0x8CCB1D0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_DOASSETLOAD_OFFSET UNITYSDK_OFFSET(0x8CCACF0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_DOFILELOAD_OFFSET UNITYSDK_OFFSET(0x8CCA7E0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_DOWORK_OFFSET UNITYSDK_OFFSET(0x8CC5FF0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEINSTANCERBUFFERS_OFFSET UNITYSDK_OFFSET(0x8CC9B70)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEMESHBUFFERS_OFFSET UNITYSDK_OFFSET(0x8CC79A0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEPARTSINSTANCERBUFFER_OFFSET UNITYSDK_OFFSET(0x8CCBA90)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEPOINTATTRIBUTEINSTANCERBUFFER_OFFSET UNITYSDK_OFFSET(0x8CCBE70)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATETERRAINBUFFERS_OFFSET UNITYSDK_OFFSET(0x8CC7EE0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETCOOKNODEID_OFFSET UNITYSDK_OFFSET(0x8CCB400)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETDISPLAYNODEID_OFFSET UNITYSDK_OFFSET(0x8CCAC10)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETLOADBUFFERVOLUMEFROMTILEINDEX_OFFSET UNITYSDK_OFFSET(0x8CCB990)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADFLOATFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8CCB4A0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADLAYERCOLORFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8CCB600)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADLAYERVECTOR2FROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8CCB810)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADNODEBUFFER_OFFSET UNITYSDK_OFFSET(0x8CC6E20)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADOBJECTBUFFERS_OFFSET UNITYSDK_OFFSET(0x8CC6CB0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADSTRINGFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8CCB420)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x8CCB170)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_ONSTOPPED_OFFSET UNITYSDK_OFFSET(0x8CCB1A0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_QUERYPARTS_OFFSET UNITYSDK_OFFSET(0x8CC7300)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETFILEPARM_OFFSET UNITYSDK_OFFSET(0x8CCAC60)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x8CC5FE0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETLOG_OFFSET UNITYSDK_OFFSET(0x8CCB2B0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADASSET_OFFSET UNITYSDK_OFFSET(0x8CC5FB0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADFILE_OFFSET UNITYSDK_OFFSET(0x8CC5F80)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADNODE_OFFSET UNITYSDK_OFFSET(0x8CC5F50)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOAD_OFFSET UNITYSDK_OFFSET(0x8CC5E20)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SLEEP_OFFSET UNITYSDK_OFFSET(0x8CC6CA0)
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO__CTOR_OFFSET UNITYSDK_OFFSET(0x8CCC380)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_APPENDLOG_OFFSET UNITYSDK_OFFSET(0x17F66EC0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_BUILDBUFFERIDSMAP_OFFSET UNITYSDK_OFFSET(0x17F6A5C0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_CLEANUP_OFFSET UNITYSDK_OFFSET(0x17F6B480)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_COOKNODE_OFFSET UNITYSDK_OFFSET(0x17F67030)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_CREATEFILENODE_OFFSET UNITYSDK_OFFSET(0x17F6AE90)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_CREATELOGSTRING_OFFSET UNITYSDK_OFFSET(0x17F6B490)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_DOASSETLOAD_OFFSET UNITYSDK_OFFSET(0x17F6B010)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_DOFILELOAD_OFFSET UNITYSDK_OFFSET(0x17F6ABE0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_DOWORK_OFFSET UNITYSDK_OFFSET(0x17F66BF0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEINSTANCERBUFFERS_OFFSET UNITYSDK_OFFSET(0x17F6A130)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEMESHBUFFERS_OFFSET UNITYSDK_OFFSET(0x17F68020)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEPARTSINSTANCERBUFFER_OFFSET UNITYSDK_OFFSET(0x17F6BFC0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEPOINTATTRIBUTEINSTANCERBUFFER_OFFSET UNITYSDK_OFFSET(0x17F6C580)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATETERRAINBUFFERS_OFFSET UNITYSDK_OFFSET(0x17F685A0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETCOOKNODEID_OFFSET UNITYSDK_OFFSET(0x17F6B6C0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETDISPLAYNODEID_OFFSET UNITYSDK_OFFSET(0x17F6AF20)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETLOADBUFFERVOLUMEFROMTILEINDEX_OFFSET UNITYSDK_OFFSET(0x17F6BEE0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETVALIDASSETCACHEFOLDERPATH_OFFSET UNITYSDK_OFFSET(0x17F66B00)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADFLOATFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17F6B760)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADLAYERCOLORFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17F6B9A0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADLAYERVECTOR2FROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17F6BC80)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADNODEBUFFER_OFFSET UNITYSDK_OFFSET(0x17F67360)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADOBJECTBUFFERS_OFFSET UNITYSDK_OFFSET(0x17F67190)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADSTRINGFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17F6B6E0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x17F6B430)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_ONSTOPPED_OFFSET UNITYSDK_OFFSET(0x17F6B460)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_QUERYPARTS_OFFSET UNITYSDK_OFFSET(0x17F67760)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETFILEPARM_OFFSET UNITYSDK_OFFSET(0x17F6AF80)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x17F66BE0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETLOG_OFFSET UNITYSDK_OFFSET(0x17F6B570)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADASSET_OFFSET UNITYSDK_OFFSET(0x17F66BB0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADFILE_OFFSET UNITYSDK_OFFSET(0x17F66B80)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADNODE_OFFSET UNITYSDK_OFFSET(0x17F66B50)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOAD_OFFSET UNITYSDK_OFFSET(0x17F669A0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SLEEP_OFFSET UNITYSDK_OFFSET(0x17F67180)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO__CTOR_OFFSET UNITYSDK_OFFSET(0x17F6CD80)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_TypeDefinitionIndex = 43673;
+	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_TypeDefinitionIndex = 37649;
 
 	class HEU_ThreadedTaskLoadGeo : public ::HoudiniEngineUnity::HEU_ThreadedTask
 	{
 	public:
-		::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData* _loadData; // 0x30
-		::HoudiniEngineUnity::HEU_SessionBase* _session; // 0x38
-		::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallback* _loadCallback; // 0x40
-		::System::String* _filePath; // 0x48
-		::HoudiniEngineUnity::HEU_BaseSync* _ownerSync; // 0x50
-		::HoudiniEngineUnity::HEU_GenerateOptions _generateOptions; // 0x58
-		::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_LoadType _loadType; // 0x60
+		::System::String* _assetCachePath; // 0x30
+		::System::String* _filePath; // 0x38
+		::HoudiniEngineUnity::HEU_BaseSync* _ownerSync; // 0x40
+		::HoudiniEngineUnity::HEU_SessionBase* _session; // 0x48
+		::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallback* _loadCallback; // 0x50
+		::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData* _loadData; // 0x58
+		::HoudiniEngineUnity::HEU_GenerateOptions _generateOptions; // 0x60
+		::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_LoadType _loadType; // 0x68
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetupLoad(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_LoadType loadType, ::System::Int32 cookNodeID, ::System::String* name, ::System::String* filePath)
+		::System::Void SetupLoad(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_BaseSync* a2, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_LoadType a3, ::System::Int32 a4, ::System::String* a5, ::System::String* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_BaseSync*, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_LoadType, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOAD_OFFSET))(this, session, ownerSync, loadType, cookNodeID, name, filePath);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_BaseSync*, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_LoadType, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOAD_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void SetupLoadNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, ::System::Int32 cookNodeID, ::System::String* name)
+		::System::Void SetupLoadNode(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_BaseSync* a2, ::System::Int32 a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_BaseSync*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADNODE_OFFSET))(this, session, ownerSync, cookNodeID, name);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_BaseSync*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADNODE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetupLoadFile(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, ::System::Int32 cookNodeID, ::System::String* filePath)
+		::System::Void SetupLoadFile(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_BaseSync* a2, ::System::Int32 a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_BaseSync*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADFILE_OFFSET))(this, session, ownerSync, cookNodeID, filePath);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_BaseSync*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADFILE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetupLoadAsset(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, ::System::String* assetPath, ::System::String* name)
+		::System::Void SetupLoadAsset(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_BaseSync* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_BaseSync*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADASSET_OFFSET))(this, session, ownerSync, assetPath, name);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_BaseSync*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETUPLOADASSET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetLoadCallback(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallback* loadCallback)
+		::System::Void SetLoadCallback(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallback* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallback*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETLOADCALLBACK_OFFSET))(this, loadCallback);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallback*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETLOADCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void DoWork()
@@ -106,24 +108,24 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_DOWORK_OFFSET))(this);
 		}
 
-		::System::Boolean CookNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 cookNodeID)
+		::System::Boolean CookNode(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_COOKNODE_OFFSET))(this, session, cookNodeID);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_COOKNODE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean LoadObjectBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_ObjectInfo& objectInfo)
+		::System::Boolean LoadObjectBuffers(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HAPI_ObjectInfo& a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_ObjectInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADOBJECTBUFFERS_OFFSET))(this, session, objectInfo);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_ObjectInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADOBJECTBUFFERS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean LoadNodeBuffer(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadObject* loadObject)
+		::System::Boolean LoadNodeBuffer(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadObject* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADNODEBUFFER_OFFSET))(this, session, nodeID, loadObject);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadObject*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADNODEBUFFER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void BuildBufferIDsMap(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData* loadData)
+		::System::Void BuildBufferIDsMap(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_BUILDBUFFERIDSMAP_OFFSET))(this, loadData);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_BUILDBUFFERIDSMAP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean DoFileLoad()
@@ -136,9 +138,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_DOASSETLOAD_OFFSET))(this);
 		}
 
-		::System::Boolean QueryParts(::System::Int32 nodeID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*& meshParts, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*& volumeParts, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*& instancerParts, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*& curveParts, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*& scatterInstancerParts)
+		::System::Boolean QueryParts(::System::Int32 a1, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*& a2, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*& a3, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*& a4, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*& a5, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*& a6)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*&, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*&, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*&, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*&, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_QUERYPARTS_OFFSET))(this, nodeID, meshParts, volumeParts, instancerParts, curveParts, scatterInstancerParts);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*&, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*&, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*&, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*&, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_QUERYPARTS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void OnComplete()
@@ -156,24 +158,24 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_CLEANUP_OFFSET))(this);
 		}
 
-		::System::String* CreateLogString(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus status, ::System::String* logStr)
+		::System::String* CreateLogString(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_CREATELOGSTRING_OFFSET))(this, status, logStr);
+			return ((::System::String*(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_CREATELOGSTRING_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AppendLog(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus status, ::System::String* logStr)
+		::System::Void AppendLog(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_APPENDLOG_OFFSET))(this, status, logStr);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_APPENDLOG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetLog(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus status, ::System::String* logStr)
+		::System::Void SetLog(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETLOG_OFFSET))(this, status, logStr);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETLOG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CreateFileNode(::System::Int32& fileNodeID)
+		::System::Boolean CreateFileNode(::System::Int32& a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_CREATEFILENODE_OFFSET))(this, fileNodeID);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_CREATEFILENODE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetCookNodeID()
@@ -181,14 +183,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETCOOKNODEID_OFFSET))(this);
 		}
 
-		::System::Int32 GetDisplayNodeID(::System::Int32 objNodeID)
+		::System::Int32 GetDisplayNodeID(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETDISPLAYNODEID_OFFSET))(this, objNodeID);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETDISPLAYNODEID_OFFSET))(this, a1);
 		}
 
-		::System::Boolean SetFileParm(::System::Int32 fileNodeID, ::System::String* filePath)
+		::System::Boolean SetFileParm(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETFILEPARM_OFFSET))(this, fileNodeID, filePath);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SETFILEPARM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Sleep()
@@ -196,54 +198,59 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_SLEEP_OFFSET))(this);
 		}
 
-		::System::Boolean GenerateTerrainBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* volumeParts, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* scatterInstancerParts, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*& volumeBuffers)
+		::System::Boolean GenerateTerrainBuffers(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* a3, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* a4, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*& a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATETERRAINBUFFERS_OFFSET))(this, session, nodeID, volumeParts, scatterInstancerParts, volumeBuffers);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATETERRAINBUFFERS_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void LoadStringFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::String* attrName, ::System::String*& strValue)
+		::System::Void LoadStringFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::String*& a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::System::String*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADSTRINGFROMATTRIBUTE_OFFSET))(this, session, geoID, partID, attrName, strValue);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::System::String*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADSTRINGFROMATTRIBUTE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void LoadFloatFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::String* attrName, ::System::Single& floatValue)
+		::System::Void LoadFloatFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Single& a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Single&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADFLOATFROMATTRIBUTE_OFFSET))(this, session, geoID, partID, attrName, floatValue);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::System::Single&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADFLOATFROMATTRIBUTE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void LoadLayerColorFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::String* attrName, ::UnityEngine::Color& colorValue)
+		::System::Void LoadLayerColorFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::UnityEngine::Color& a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADLAYERCOLORFROMATTRIBUTE_OFFSET))(this, session, geoID, partID, attrName, colorValue);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADLAYERCOLORFROMATTRIBUTE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void LoadLayerVector2FromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::String* attrName, ::UnityEngine::Vector2& vectorValue)
+		::System::Void LoadLayerVector2FromAttribute(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::UnityEngine::Vector2& a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADLAYERVECTOR2FROMATTRIBUTE_OFFSET))(this, session, geoID, partID, attrName, vectorValue);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_LOADLAYERVECTOR2FROMATTRIBUTE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean GenerateMeshBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* meshParts, ::System::Boolean bSplitPoints, ::System::Boolean bUseLODGroups, ::System::Boolean bGenerateUVs, ::System::Boolean bGenerateTangents, ::System::Boolean bGenerateNormals, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*& meshBuffers)
+		::System::Boolean GenerateMeshBuffers(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadObject* a9, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*& a10)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEMESHBUFFERS_OFFSET))(this, session, nodeID, meshParts, bSplitPoints, bUseLODGroups, bGenerateUVs, bGenerateTangents, bGenerateNormals, meshBuffers);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadObject*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEMESHBUFFERS_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::System::Boolean GenerateInstancerBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 nodeID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* instancerParts, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*& instancerBuffers)
+		::System::Boolean GenerateInstancerBuffers(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* a3, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*& a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEINSTANCERBUFFERS_OFFSET))(this, session, nodeID, instancerParts, instancerBuffers);
+			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEINSTANCERBUFFERS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePartsInstancerBuffer(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::String* partName, ::HoudiniEngineUnity::HAPI_PartInfo partInfo)
+		::HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePartsInstancerBuffer(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::HoudiniEngineUnity::HAPI_PartInfo a5)
 		{
-			return ((::HoudiniEngineUnity::HEU_LoadBufferInstancer*(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::HoudiniEngineUnity::HAPI_PartInfo))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEPARTSINSTANCERBUFFER_OFFSET))(this, session, geoID, partID, partName, partInfo);
+			return ((::HoudiniEngineUnity::HEU_LoadBufferInstancer*(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::HoudiniEngineUnity::HAPI_PartInfo))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEPARTSINSTANCERBUFFER_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePointAttributeInstancerBuffer(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::String* partName, ::HoudiniEngineUnity::HAPI_PartInfo partInfo)
+		::HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePointAttributeInstancerBuffer(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::HoudiniEngineUnity::HAPI_PartInfo a5)
 		{
-			return ((::HoudiniEngineUnity::HEU_LoadBufferInstancer*(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::HoudiniEngineUnity::HAPI_PartInfo))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEPOINTATTRIBUTEINSTANCERBUFFER_OFFSET))(this, session, geoID, partID, partName, partInfo);
+			return ((::HoudiniEngineUnity::HEU_LoadBufferInstancer*(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*, ::HoudiniEngineUnity::HAPI_PartInfo))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GENERATEPOINTATTRIBUTEINSTANCERBUFFER_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::HoudiniEngineUnity::HEU_LoadBufferVolume* GetLoadBufferVolumeFromTileIndex(::System::Int32 tileIndex, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* buffers)
+		static ::HoudiniEngineUnity::HEU_LoadBufferVolume* GetLoadBufferVolumeFromTileIndex(::System::Int32 a1, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* a2)
 		{
-			return ((::HoudiniEngineUnity::HEU_LoadBufferVolume*(*)(::System::Int32, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETLOADBUFFERVOLUMEFROMTILEINDEX_OFFSET))(tileIndex, buffers);
+			return ((::HoudiniEngineUnity::HEU_LoadBufferVolume*(*)(::System::Int32, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETLOADBUFFERVOLUMEFROMTILEINDEX_OFFSET))(a1, a2);
+		}
+
+		static ::System::String* GetValidAssetCacheFolderPath(::System::String* a1)
+		{
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_GETVALIDASSETCACHEFOLDERPATH_OFFSET))(a1);
 		}
 	};
 }

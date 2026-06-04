@@ -7,11 +7,11 @@ namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x19FB2050)
-#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x19FB2000)
-#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x19FB2240)
-#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x19FB2330)
-#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB2390)
+#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1AE26FF0)
+#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1AE26FA0)
+#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x1AE27140)
+#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1AE27230)
+#define SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE27290)
 
 namespace System::Xml::Schema
 {
@@ -25,24 +25,24 @@ namespace System::Xml::Schema
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER__CTOR_OFFSET))(this);
 		}
 
-		::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets(::System::Object* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* CheckValueFacets_1(::Il2CppArray<::System::Byte>* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Exception* CheckValueFacets_1(::Il2CppArray<::System::Byte>* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET))(this, value, datatype);
+			return ((::System::Exception*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Boolean MatchEnumeration(::System::Object* a1, ::System::Collections::ArrayList* a2, ::System::Xml::Schema::XmlSchemaDatatype* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_OFFSET))(this, value, enumeration, datatype);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean MatchEnumeration_1(::Il2CppArray<::System::Byte>* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype)
+		::System::Boolean MatchEnumeration_1(::Il2CppArray<::System::Byte>* a1, ::System::Collections::ArrayList* a2, ::System::Xml::Schema::XmlSchemaDatatype* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_1_OFFSET))(this, value, enumeration, datatype);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_BINARYFACETSCHECKER_MATCHENUMERATION_1_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

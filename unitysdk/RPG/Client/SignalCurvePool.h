@@ -8,35 +8,35 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SIGNALCURVEPOOL_GET_CURRENTSCENEPOOL_OFFSET UNITYSDK_OFFSET(0xB16D470)
-#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_02AA17F528A7083C_OFFSET UNITYSDK_OFFSET(0xB16DDC0)
-#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_19035547B38554A7_OFFSET UNITYSDK_OFFSET(0xB16DBA0)
-#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_2AB12BF7608A20EF_OFFSET UNITYSDK_OFFSET(0xB16DE80)
-#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_3C3BC7530E3D1C00_OFFSET UNITYSDK_OFFSET(0xB16DCF0)
-#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_640514F2FC7A7607_1_OFFSET UNITYSDK_OFFSET(0xB16DFD0)
-#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_640514F2FC7A7607_OFFSET UNITYSDK_OFFSET(0xB16DF10)
-#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_6D93101E4CE10A96_OFFSET UNITYSDK_OFFSET(0xB16D4F0)
-#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_8BCB3191E6BEE7CB_OFFSET UNITYSDK_OFFSET(0xB16D490)
-#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_AE4F744DD72146D5_OFFSET UNITYSDK_OFFSET(0xB16E2E0)
-#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_DF1269DF412ABB91_OFFSET UNITYSDK_OFFSET(0xB16E0B0)
-#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_F978A1D172468895_OFFSET UNITYSDK_OFFSET(0xB16D700)
-#define RPG_CLIENT_SIGNALCURVEPOOL_SET_CURRENTSCENEPOOL_OFFSET UNITYSDK_OFFSET(0xB16D480)
-#define RPG_CLIENT_SIGNALCURVEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xB16E3B0)
+#define RPG_CLIENT_SIGNALCURVEPOOL_GET_CURRENTSCENEPOOL_OFFSET UNITYSDK_OFFSET(0xC8C2610)
+#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_2AB12BF7608A20EF_OFFSET UNITYSDK_OFFSET(0xC8C2F50)
+#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_3129BDB20712C068_OFFSET UNITYSDK_OFFSET(0xC8C3110)
+#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_3A5CCD2FDB6F9738_OFFSET UNITYSDK_OFFSET(0xC8C2C70)
+#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_3F07804D8892197E_1_OFFSET UNITYSDK_OFFSET(0xC8C3070)
+#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_3F07804D8892197E_OFFSET UNITYSDK_OFFSET(0xC8C2FE0)
+#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_69CEABFED67045C9_OFFSET UNITYSDK_OFFSET(0xC8C2E20)
+#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_89EF21CA0414B145_OFFSET UNITYSDK_OFFSET(0xC8C2690)
+#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_B260AE72D1F1CB0C_OFFSET UNITYSDK_OFFSET(0xC8C3300)
+#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_CCD88C0D86A5A786_OFFSET UNITYSDK_OFFSET(0xC8C2630)
+#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_F91B0AD50C072273_OFFSET UNITYSDK_OFFSET(0xC8C2EC0)
+#define RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_F978A1D172468895_OFFSET UNITYSDK_OFFSET(0xC8C28A0)
+#define RPG_CLIENT_SIGNALCURVEPOOL_SET_CURRENTSCENEPOOL_OFFSET UNITYSDK_OFFSET(0xC8C2620)
+#define RPG_CLIENT_SIGNALCURVEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xC8C33A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SignalCurvePool_TypeDefinitionIndex = 65407;
+	inline static constexpr unsigned int SignalCurvePool_TypeDefinitionIndex = 66334;
 
 	class SignalCurvePool : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		static ::RPG::Client::SignalCurvePool** StaticGet__instance()
-		{
-			return (::RPG::Client::SignalCurvePool**)Il2CppClass::FromTypeDefinitionIndex(SignalCurvePool_TypeDefinitionIndex)->GetStaticField(0x212F0);
-		}
 		static ::RPG::Client::SignalCurvePool** StaticGet__currentScenePool()
 		{
-			return (::RPG::Client::SignalCurvePool**)Il2CppClass::FromTypeDefinitionIndex(SignalCurvePool_TypeDefinitionIndex)->GetStaticField(0x212F8);
+			return (::RPG::Client::SignalCurvePool**)Il2CppClass::FromTypeDefinitionIndex(SignalCurvePool_TypeDefinitionIndex)->GetStaticField(0x46A10);
+		}
+		static ::RPG::Client::SignalCurvePool** StaticGet__instance()
+		{
+			return (::RPG::Client::SignalCurvePool**)Il2CppClass::FromTypeDefinitionIndex(SignalCurvePool_TypeDefinitionIndex)->GetStaticField(0x46A18);
 		}
 		::System::Collections::Generic::List_1<::RPG::Client::SignalCurvePoolEntry*>* _curves; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::SignalCurvePoolEntry*>* _idToEntry; // 0x20
@@ -57,29 +57,29 @@ namespace RPG::Client
 			return ((::System::Void(*)(::RPG::Client::SignalCurvePool*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_SET_CURRENTSCENEPOOL_OFFSET))(a1);
 		}
 
-		::System::Void Method_3_8BCB3191E6BEE7CB()
+		::System::Void Method_3_CCD88C0D86A5A786()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_8BCB3191E6BEE7CB_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_CCD88C0D86A5A786_OFFSET))(this);
 		}
 
-		::System::Void Method_3_6D93101E4CE10A96()
+		::System::Void Method_3_89EF21CA0414B145()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_6D93101E4CE10A96_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_89EF21CA0414B145_OFFSET))(this);
 		}
 
-		::System::Int32 Method_3_19035547B38554A7(::System::String* a1, ::UnityEngine::AnimationCurve* a2)
+		::System::Int32 Method_3_3A5CCD2FDB6F9738(::System::String* a1, ::UnityEngine::AnimationCurve* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_19035547B38554A7_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_3A5CCD2FDB6F9738_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::AnimationCurve* Method_3_3C3BC7530E3D1C00(::System::Int32 a1)
+		::UnityEngine::AnimationCurve* Method_3_69CEABFED67045C9(::System::Int32 a1)
 		{
-			return ((::UnityEngine::AnimationCurve*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_3C3BC7530E3D1C00_OFFSET))(this, a1);
+			return ((::UnityEngine::AnimationCurve*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_69CEABFED67045C9_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::SignalCurvePoolEntry* Method_3_02AA17F528A7083C(::System::Int32 a1)
+		::RPG::Client::SignalCurvePoolEntry* Method_3_F91B0AD50C072273(::System::Int32 a1)
 		{
-			return ((::RPG::Client::SignalCurvePoolEntry*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_02AA17F528A7083C_OFFSET))(this, a1);
+			return ((::RPG::Client::SignalCurvePoolEntry*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_F91B0AD50C072273_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::SignalCurvePoolEntry*>* Method_3_2AB12BF7608A20EF()
@@ -87,24 +87,24 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::SignalCurvePoolEntry*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_2AB12BF7608A20EF_OFFSET))(this);
 		}
 
-		::System::Void Method_3_640514F2FC7A7607(::System::Int32 a1)
+		::System::Void Method_3_3F07804D8892197E(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_640514F2FC7A7607_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_3F07804D8892197E_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_640514F2FC7A7607_1(::System::Int32 a1)
+		::System::Void Method_3_3F07804D8892197E_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_640514F2FC7A7607_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_3F07804D8892197E_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_3_DF1269DF412ABB91(::System::Int32 a1)
+		::System::Boolean Method_3_3129BDB20712C068(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_DF1269DF412ABB91_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_3129BDB20712C068_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_3_AE4F744DD72146D5(::System::Int32 a1, ::System::String* a2)
+		::System::Boolean Method_3_B260AE72D1F1CB0C(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_AE4F744DD72146D5_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALCURVEPOOL_METHOD_3_B260AE72D1F1CB0C_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_3_F978A1D172468895()

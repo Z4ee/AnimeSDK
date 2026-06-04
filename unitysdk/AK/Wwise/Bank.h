@@ -7,17 +7,17 @@ class AkCallbackManager_BankCallback;
 class WwiseBankReference;
 class WwiseObjectReference;
 
-#define AK_WWISE_BANK_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1A5C24C0)
-#define AK_WWISE_BANK_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1A5C2540)
-#define AK_WWISE_BANK_LOADASYNC_OFFSET UNITYSDK_OFFSET(0x1A5C2A70)
-#define AK_WWISE_BANK_LOAD_OFFSET UNITYSDK_OFFSET(0x1A5C2550)
-#define AK_WWISE_BANK_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1A5C24D0)
-#define AK_WWISE_BANK_UNLOAD_OFFSET UNITYSDK_OFFSET(0x1A5C2EB0)
-#define AK_WWISE_BANK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C3170)
+#define AK_WWISE_BANK_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1B40D540)
+#define AK_WWISE_BANK_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1B40D5C0)
+#define AK_WWISE_BANK_LOADASYNC_OFFSET UNITYSDK_OFFSET(0x1B40DAA0)
+#define AK_WWISE_BANK_LOAD_OFFSET UNITYSDK_OFFSET(0x1B40D5D0)
+#define AK_WWISE_BANK_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1B40D550)
+#define AK_WWISE_BANK_UNLOAD_OFFSET UNITYSDK_OFFSET(0x1B40DE90)
+#define AK_WWISE_BANK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40E120)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int Bank_TypeDefinitionIndex = 40532;
+	inline static constexpr unsigned int Bank_TypeDefinitionIndex = 41359;
 
 	class Bank : public ::AK::Wwise::BaseType
 	{
@@ -34,9 +34,9 @@ namespace AK::Wwise
 			return ((::WwiseObjectReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BANK_GET_OBJECTREFERENCE_OFFSET))(this);
 		}
 
-		::System::Void set_ObjectReference(::WwiseObjectReference* value)
+		::System::Void set_ObjectReference(::WwiseObjectReference* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_BANK_SET_OBJECTREFERENCE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::WwiseObjectReference*))((::PBYTE)hIl2Cpp + AK_WWISE_BANK_SET_OBJECTREFERENCE_OFFSET))(this, a1);
 		}
 
 		::WwiseObjectType get_WwiseObjectType()
@@ -44,14 +44,14 @@ namespace AK::Wwise
 			return ((::WwiseObjectType(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BANK_GET_WWISEOBJECTTYPE_OFFSET))(this);
 		}
 
-		::System::Void Load(::System::Boolean decodeBank, ::System::Boolean saveDecodedBank)
+		::System::Void Load(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + AK_WWISE_BANK_LOAD_OFFSET))(this, decodeBank, saveDecodedBank);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + AK_WWISE_BANK_LOAD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LoadAsync(::AkCallbackManager_BankCallback* callback)
+		::System::Void LoadAsync(::AkCallbackManager_BankCallback* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::AkCallbackManager_BankCallback*))((::PBYTE)hIl2Cpp + AK_WWISE_BANK_LOADASYNC_OFFSET))(this, callback);
+			return ((::System::Void(*)(::PVOID, ::AkCallbackManager_BankCallback*))((::PBYTE)hIl2Cpp + AK_WWISE_BANK_LOADASYNC_OFFSET))(this, a1);
 		}
 
 		::System::Void Unload()

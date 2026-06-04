@@ -6,22 +6,22 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define STRUCT_2_FEC02DE91E0436C1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1921D270)
-#define STRUCT_2_FEC02DE91E0436C1___C__CREATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1921D2C0)
-#define STRUCT_2_FEC02DE91E0436C1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1921D2B0)
+#define STRUCT_2_FEC02DE91E0436C1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19EFAD20)
+#define STRUCT_2_FEC02DE91E0436C1___C__CREATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x19EFAD70)
+#define STRUCT_2_FEC02DE91E0436C1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19EFAD60)
 
-inline static constexpr unsigned int Struct_2_FEC02DE91E0436C1___c_TypeDefinitionIndex = 9008;
+inline static constexpr unsigned int Struct_2_FEC02DE91E0436C1___c_TypeDefinitionIndex = 6872;
 
 class Struct_2_FEC02DE91E0436C1___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::Struct_2_6C64084003D66585, ::Struct_2_3906C24C646CC83F>** StaticGet___9__11_0()
 	{
-		return (::System::Func_2<::Struct_2_6C64084003D66585, ::Struct_2_3906C24C646CC83F>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FEC02DE91E0436C1___c_TypeDefinitionIndex)->GetStaticField(0x3FFC0);
+		return (::System::Func_2<::Struct_2_6C64084003D66585, ::Struct_2_3906C24C646CC83F>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FEC02DE91E0436C1___c_TypeDefinitionIndex)->GetStaticField(0x4870);
 	}
 	static ::Struct_2_FEC02DE91E0436C1___c** StaticGet___9()
 	{
-		return (::Struct_2_FEC02DE91E0436C1___c**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FEC02DE91E0436C1___c_TypeDefinitionIndex)->GetStaticField(0x3FFC8);
+		return (::Struct_2_FEC02DE91E0436C1___c**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_FEC02DE91E0436C1___c_TypeDefinitionIndex)->GetStaticField(0x4878);
 	}
 
 	static ::System::Void _cctor()
@@ -34,8 +34,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_FEC02DE91E0436C1___C__CTOR_OFFSET))(this);
 	}
 
-	::Struct_2_3906C24C646CC83F _Create_b__11_0(::Struct_2_6C64084003D66585 e)
+	::Struct_2_3906C24C646CC83F _Create_b__11_0(::Struct_2_6C64084003D66585 a1)
 	{
-		return ((::Struct_2_3906C24C646CC83F(*)(::PVOID, ::Struct_2_6C64084003D66585))((::PBYTE)hIl2Cpp + STRUCT_2_FEC02DE91E0436C1___C__CREATE_B__11_0_OFFSET))(this, e);
+		return ((::Struct_2_3906C24C646CC83F(*)(::PVOID, ::Struct_2_6C64084003D66585))((::PBYTE)hIl2Cpp + STRUCT_2_FEC02DE91E0436C1___C__CREATE_B__11_0_OFFSET))(this, a1);
 	}
 };

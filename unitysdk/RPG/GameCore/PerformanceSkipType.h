@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipType_TypeDefinitionIndex = 10272;
+	inline static constexpr unsigned int PerformanceSkipType_TypeDefinitionIndex = 10103;
 
 	enum class PerformanceSkipType : ::System::Int32
 	{

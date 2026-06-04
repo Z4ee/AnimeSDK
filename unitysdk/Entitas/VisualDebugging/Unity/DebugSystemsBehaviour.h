@@ -4,13 +4,13 @@
 
 namespace Entitas::VisualDebugging::Unity { class DebugSystems; }
 
-#define ENTITAS_VISUALDEBUGGING_UNITY_DEBUGSYSTEMSBEHAVIOUR_GET_SYSTEMS_OFFSET UNITYSDK_OFFSET(0x12C5A370)
-#define ENTITAS_VISUALDEBUGGING_UNITY_DEBUGSYSTEMSBEHAVIOUR_INIT_OFFSET UNITYSDK_OFFSET(0x12C5A380)
-#define ENTITAS_VISUALDEBUGGING_UNITY_DEBUGSYSTEMSBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x12C5A390)
+#define ENTITAS_VISUALDEBUGGING_UNITY_DEBUGSYSTEMSBEHAVIOUR_GET_SYSTEMS_OFFSET UNITYSDK_OFFSET(0x14707BB0)
+#define ENTITAS_VISUALDEBUGGING_UNITY_DEBUGSYSTEMSBEHAVIOUR_INIT_OFFSET UNITYSDK_OFFSET(0x14707BC0)
+#define ENTITAS_VISUALDEBUGGING_UNITY_DEBUGSYSTEMSBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x14707BD0)
 
 namespace Entitas::VisualDebugging::Unity
 {
-	inline static constexpr unsigned int DebugSystemsBehaviour_TypeDefinitionIndex = 9883;
+	inline static constexpr unsigned int DebugSystemsBehaviour_TypeDefinitionIndex = 9710;
 
 	class DebugSystemsBehaviour : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,9 +27,9 @@ namespace Entitas::VisualDebugging::Unity
 			return ((::Entitas::VisualDebugging::Unity::DebugSystems*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_DEBUGSYSTEMSBEHAVIOUR_GET_SYSTEMS_OFFSET))(this);
 		}
 
-		::System::Void Init(::Entitas::VisualDebugging::Unity::DebugSystems* systems)
+		::System::Void Init(::Entitas::VisualDebugging::Unity::DebugSystems* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::VisualDebugging::Unity::DebugSystems*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_DEBUGSYSTEMSBEHAVIOUR_INIT_OFFSET))(this, systems);
+			return ((::System::Void(*)(::PVOID, ::Entitas::VisualDebugging::Unity::DebugSystems*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_DEBUGSYSTEMSBEHAVIOUR_INIT_OFFSET))(this, a1);
 		}
 	};
 }

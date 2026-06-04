@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RTLEVELGROUPINFO_METHOD_3_DAC9391AEF50EEB0_OFFSET UNITYSDK_OFFSET(0x18DD1CC0)
-#define RPG_GAMECORE_RTLEVELGROUPINFO_METHOD_3_FD1363442F0E8864_OFFSET UNITYSDK_OFFSET(0x18DD1D30)
-#define RPG_GAMECORE_RTLEVELGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD1D10)
+#define RPG_GAMECORE_RTLEVELGROUPINFO_METHOD_3_8FF4208FD319C383_OFFSET UNITYSDK_OFFSET(0x19BEB9F0)
+#define RPG_GAMECORE_RTLEVELGROUPINFO_METHOD_3_B667D5EB41182502_OFFSET UNITYSDK_OFFSET(0x19BEB980)
+#define RPG_GAMECORE_RTLEVELGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEB9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLevelGroupInfo_TypeDefinitionIndex = 16451;
+	inline static constexpr unsigned int RtLevelGroupInfo_TypeDefinitionIndex = 16485;
 
 	class RtLevelGroupInfo : public ::RPG::GameCore::RtLevelGroupInfoBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELGROUPINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DAC9391AEF50EEB0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtLevelGroupInfo*& a2)
+		static ::System::Void Method_3_B667D5EB41182502(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtLevelGroupInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtLevelGroupInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELGROUPINFO_METHOD_3_DAC9391AEF50EEB0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtLevelGroupInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELGROUPINFO_METHOD_3_B667D5EB41182502_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FD1363442F0E8864(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtLevelGroupInfo* a2)
+		static ::System::Void Method_3_8FF4208FD319C383(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtLevelGroupInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtLevelGroupInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELGROUPINFO_METHOD_3_FD1363442F0E8864_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtLevelGroupInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELGROUPINFO_METHOD_3_8FF4208FD319C383_OFFSET))(a1, a2);
 		}
 	};
 }

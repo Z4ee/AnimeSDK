@@ -8,7 +8,7 @@ namespace System::Xml::Linq { class XObject; }
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XObject__Annotations_d__16_1_TypeDefinitionIndex = 4903;
+	inline static constexpr unsigned int XObject__Annotations_d__16_1_TypeDefinitionIndex = 3870;
 
 	template <typename T>
 	class XObject__Annotations_d__16_1 : public ::System::Object

@@ -6,15 +6,15 @@ namespace UnityEngine::Rendering { class DebugUI_Button; }
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
 namespace UnityEngine::UI { class Text; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONACTION_OFFSET UNITYSDK_OFFSET(0x1A329EC0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONDESELECTION_OFFSET UNITYSDK_OFFSET(0x1A329E40)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1A329DC0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1A329D40)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1A329EF0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONACTION_OFFSET UNITYSDK_OFFSET(0x1B1843F0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONDESELECTION_OFFSET UNITYSDK_OFFSET(0x1B184370)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1B1842F0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1B184270)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1B184430)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerButton_TypeDefinitionIndex = 33584;
+	inline static constexpr unsigned int DebugUIHandlerButton_TypeDefinitionIndex = 33866;
 
 	class DebugUIHandlerButton : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
@@ -27,14 +27,14 @@ namespace UnityEngine::Rendering::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget)
+		::System::Void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Widget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_SETWIDGET_OFFSET))(this, widget);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Widget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_SETWIDGET_OFFSET))(this, a1);
 		}
 
-		::System::Boolean OnSelection(::System::Boolean fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous)
+		::System::Boolean OnSelection(::System::Boolean a1, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONSELECTION_OFFSET))(this, fromNext, previous);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERBUTTON_ONSELECTION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnDeselection()

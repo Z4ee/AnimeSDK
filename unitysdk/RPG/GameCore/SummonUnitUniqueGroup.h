@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitUniqueGroup_TypeDefinitionIndex = 14401;
+	inline static constexpr unsigned int SummonUnitUniqueGroup_TypeDefinitionIndex = 14673;
 
 	enum class SummonUnitUniqueGroup : ::System::Int32
 	{

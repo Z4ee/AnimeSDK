@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueExhibitionType_TypeDefinitionIndex = 14199;
+	inline static constexpr unsigned int RogueExhibitionType_TypeDefinitionIndex = 14258;
 
 	enum class RogueExhibitionType : ::System::Int32
 	{

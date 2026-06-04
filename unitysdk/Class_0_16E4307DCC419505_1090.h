@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/DateTime.h"
 
-namespace System { class String; }
+namespace System::IO { class BinaryWriter; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1090_TypeDefinitionIndex = 69203;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1090_TypeDefinitionIndex = 69113;
 
 class Class_0_16E4307DCC419505_1090
 {

@@ -6,21 +6,21 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1A416AE0)
-#define UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1A416B10)
-#define UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A414230)
-#define UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A416AC0)
+#define UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B26A660)
+#define UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B26A690)
+#define UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B268820)
+#define UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B26A5F0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Animator_OnAnimatorDispatchMovementJobFinishDelegate_TypeDefinitionIndex = 5042;
+	inline static constexpr unsigned int Animator_OnAnimatorDispatchMovementJobFinishDelegate_TypeDefinitionIndex = 5136;
 
 	class Animator_OnAnimatorDispatchMovementJobFinishDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -28,14 +28,14 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE_INVOKE_OFFSET))(this);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_ONANIMATORDISPATCHMOVEMENTJOBFINISHDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

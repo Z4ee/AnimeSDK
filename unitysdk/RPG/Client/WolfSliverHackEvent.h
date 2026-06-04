@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_WOLFSLIVERHACKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB4E2080)
+#define RPG_CLIENT_WOLFSLIVERHACKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xCC48370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfSliverHackEvent_TypeDefinitionIndex = 60012;
+	inline static constexpr unsigned int WolfSliverHackEvent_TypeDefinitionIndex = 60947;
 
 	class WolfSliverHackEvent : public ::System::Object
 	{

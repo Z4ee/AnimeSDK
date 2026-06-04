@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_8030D5D085E5A2DA;
+class Class_2_ED63A28D24649D54;
 namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define EFFECT_SETMATERIALPROPERTYBYRULES_ONENABLE_OFFSET UNITYSDK_OFFSET(0xF2F69D0)
-#define EFFECT_SETMATERIALPROPERTYBYRULES__CTOR_OFFSET UNITYSDK_OFFSET(0xF2F6A40)
+#define EFFECT_SETMATERIALPROPERTYBYRULES_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1357D4C0)
+#define EFFECT_SETMATERIALPROPERTYBYRULES__CTOR_OFFSET UNITYSDK_OFFSET(0x1357D530)
 
-inline static constexpr unsigned int Effect_SetMaterialPropertyByRules_TypeDefinitionIndex = 44203;
+inline static constexpr unsigned int Effect_SetMaterialPropertyByRules_TypeDefinitionIndex = 44749;
 
 class Effect_SetMaterialPropertyByRules : public ::UnityEngine::MonoBehaviour
 {
@@ -21,7 +21,7 @@ public:
 	::System::Single Weight; // 0x2C
 	::UnityEngine::MaterialPropertyBlock* matBlock; // 0x30
 	::System::Single _PrevisData; // 0x38
-	::Class_2_8030D5D085E5A2DA* Field_5_6; // 0x40
+	::Class_2_ED63A28D24649D54* Field_5_6; // 0x40
 
 	::System::Void _ctor()
 	{

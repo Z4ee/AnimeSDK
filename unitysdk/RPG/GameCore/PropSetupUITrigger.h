@@ -11,13 +11,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSETUPUITRIGGER_METHOD_3_77D0AB6BD96A31EF_OFFSET UNITYSDK_OFFSET(0x18C77C40)
-#define RPG_GAMECORE_PROPSETUPUITRIGGER_METHOD_3_895B3E23A8ABBD65_OFFSET UNITYSDK_OFFSET(0x18C77A90)
-#define RPG_GAMECORE_PROPSETUPUITRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C77B80)
+#define RPG_GAMECORE_PROPSETUPUITRIGGER_METHOD_3_075D24740D54102A_OFFSET UNITYSDK_OFFSET(0x19A99E40)
+#define RPG_GAMECORE_PROPSETUPUITRIGGER_METHOD_3_67C66A4ED921C224_OFFSET UNITYSDK_OFFSET(0x19A99C90)
+#define RPG_GAMECORE_PROPSETUPUITRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A99D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetupUITrigger_TypeDefinitionIndex = 19333;
+	inline static constexpr unsigned int PropSetupUITrigger_TypeDefinitionIndex = 19244;
 
 	class PropSetupUITrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -45,14 +45,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPUITRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_895B3E23A8ABBD65(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupUITrigger*& a2)
+		static ::System::Void Method_3_67C66A4ED921C224(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupUITrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupUITrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPUITRIGGER_METHOD_3_895B3E23A8ABBD65_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupUITrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPUITRIGGER_METHOD_3_67C66A4ED921C224_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_77D0AB6BD96A31EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupUITrigger* a2)
+		static ::System::Void Method_3_075D24740D54102A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupUITrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupUITrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPUITRIGGER_METHOD_3_77D0AB6BD96A31EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupUITrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPUITRIGGER_METHOD_3_075D24740D54102A_OFFSET))(a1, a2);
 		}
 	};
 }

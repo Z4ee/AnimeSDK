@@ -9,11 +9,11 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::Events { class UnityEvent; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_UIPAGETURNMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB426C90)
+#define RPG_CLIENT_UIPAGETURNMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCB86E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPageTurnMonoPlugin_TypeDefinitionIndex = 65489;
+	inline static constexpr unsigned int UIPageTurnMonoPlugin_TypeDefinitionIndex = 66419;
 
 	class UIPageTurnMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::UIPageTurnBehavior*>
 	{

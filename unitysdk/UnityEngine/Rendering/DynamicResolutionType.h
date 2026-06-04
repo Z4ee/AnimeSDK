@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DynamicResolutionType_TypeDefinitionIndex = 33396;
+	inline static constexpr unsigned int DynamicResolutionType_TypeDefinitionIndex = 33678;
 
 	enum class DynamicResolutionType : ::System::Byte
 	{

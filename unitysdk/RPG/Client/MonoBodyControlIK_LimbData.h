@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoBodyControlIK_LimbData_TypeDefinitionIndex = 63195;
+	inline static constexpr unsigned int MonoBodyControlIK_LimbData_TypeDefinitionIndex = 64112;
 
 	struct alignas(8) MonoBodyControlIK_LimbData
 	{

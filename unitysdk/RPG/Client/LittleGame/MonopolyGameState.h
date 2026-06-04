@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MonopolyGameState_TypeDefinitionIndex = 38804;
+	inline static constexpr unsigned int MonopolyGameState_TypeDefinitionIndex = 39572;
 
 	enum class MonopolyGameState : ::System::Int32
 	{

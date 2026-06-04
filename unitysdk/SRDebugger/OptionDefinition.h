@@ -12,54 +12,54 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SRDEBUGGER_OPTIONDEFINITION_CREATE_OFFSET UNITYSDK_OFFSET(0x19E703F0)
-#define SRDEBUGGER_OPTIONDEFINITION_FROMMETHOD_1_OFFSET UNITYSDK_OFFSET(0x19E70400)
-#define SRDEBUGGER_OPTIONDEFINITION_FROMMETHOD_OFFSET UNITYSDK_OFFSET(0x19E70310)
-#define SRDEBUGGER_OPTIONDEFINITION_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x19E70210)
-#define SRDEBUGGER_OPTIONDEFINITION_GET_ISMETHOD_OFFSET UNITYSDK_OFFSET(0x19E70270)
-#define SRDEBUGGER_OPTIONDEFINITION_GET_ISPROPERTY_OFFSET UNITYSDK_OFFSET(0x19E70280)
-#define SRDEBUGGER_OPTIONDEFINITION_GET_METHOD_OFFSET UNITYSDK_OFFSET(0x19E70290)
-#define SRDEBUGGER_OPTIONDEFINITION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19E701F0)
-#define SRDEBUGGER_OPTIONDEFINITION_GET_PROPERTY_OFFSET UNITYSDK_OFFSET(0x19E702B0)
-#define SRDEBUGGER_OPTIONDEFINITION_GET_SORTPRIORITY_OFFSET UNITYSDK_OFFSET(0x19E70230)
-#define SRDEBUGGER_OPTIONDEFINITION_GET_TARGETTAB_OFFSET UNITYSDK_OFFSET(0x19E70250)
-#define SRDEBUGGER_OPTIONDEFINITION_SET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x19E70220)
-#define SRDEBUGGER_OPTIONDEFINITION_SET_METHOD_OFFSET UNITYSDK_OFFSET(0x19E702A0)
-#define SRDEBUGGER_OPTIONDEFINITION_SET_NAME_OFFSET UNITYSDK_OFFSET(0x19E70200)
-#define SRDEBUGGER_OPTIONDEFINITION_SET_PROPERTY_OFFSET UNITYSDK_OFFSET(0x19E702C0)
-#define SRDEBUGGER_OPTIONDEFINITION_SET_SORTPRIORITY_OFFSET UNITYSDK_OFFSET(0x19E70240)
-#define SRDEBUGGER_OPTIONDEFINITION_SET_TARGETTAB_OFFSET UNITYSDK_OFFSET(0x19E70260)
-#define SRDEBUGGER_OPTIONDEFINITION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19E6FF00)
-#define SRDEBUGGER_OPTIONDEFINITION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19E6FD90)
-#define SRDEBUGGER_OPTIONDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E702D0)
+#define SRDEBUGGER_OPTIONDEFINITION_CREATE_OFFSET UNITYSDK_OFFSET(0x1ACE6DE0)
+#define SRDEBUGGER_OPTIONDEFINITION_FROMMETHOD_1_OFFSET UNITYSDK_OFFSET(0x1ACE6DF0)
+#define SRDEBUGGER_OPTIONDEFINITION_FROMMETHOD_OFFSET UNITYSDK_OFFSET(0x1ACE6CF0)
+#define SRDEBUGGER_OPTIONDEFINITION_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1ACE6BF0)
+#define SRDEBUGGER_OPTIONDEFINITION_GET_ISMETHOD_OFFSET UNITYSDK_OFFSET(0x1ACE6C50)
+#define SRDEBUGGER_OPTIONDEFINITION_GET_ISPROPERTY_OFFSET UNITYSDK_OFFSET(0x1ACE6C60)
+#define SRDEBUGGER_OPTIONDEFINITION_GET_METHOD_OFFSET UNITYSDK_OFFSET(0x1ACE6C70)
+#define SRDEBUGGER_OPTIONDEFINITION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1ACE6BD0)
+#define SRDEBUGGER_OPTIONDEFINITION_GET_PROPERTY_OFFSET UNITYSDK_OFFSET(0x1ACE6C90)
+#define SRDEBUGGER_OPTIONDEFINITION_GET_SORTPRIORITY_OFFSET UNITYSDK_OFFSET(0x1ACE6C10)
+#define SRDEBUGGER_OPTIONDEFINITION_GET_TARGETTAB_OFFSET UNITYSDK_OFFSET(0x1ACE6C30)
+#define SRDEBUGGER_OPTIONDEFINITION_SET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1ACE6C00)
+#define SRDEBUGGER_OPTIONDEFINITION_SET_METHOD_OFFSET UNITYSDK_OFFSET(0x1ACE6C80)
+#define SRDEBUGGER_OPTIONDEFINITION_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1ACE6BE0)
+#define SRDEBUGGER_OPTIONDEFINITION_SET_PROPERTY_OFFSET UNITYSDK_OFFSET(0x1ACE6CA0)
+#define SRDEBUGGER_OPTIONDEFINITION_SET_SORTPRIORITY_OFFSET UNITYSDK_OFFSET(0x1ACE6C20)
+#define SRDEBUGGER_OPTIONDEFINITION_SET_TARGETTAB_OFFSET UNITYSDK_OFFSET(0x1ACE6C40)
+#define SRDEBUGGER_OPTIONDEFINITION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ACE68E0)
+#define SRDEBUGGER_OPTIONDEFINITION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1ACE6760)
+#define SRDEBUGGER_OPTIONDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE6CB0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int OptionDefinition_TypeDefinitionIndex = 35321;
+	inline static constexpr unsigned int OptionDefinition_TypeDefinitionIndex = 35621;
 
 	class OptionDefinition : public ::System::Object
 	{
 	public:
 		::System::String* _Name_k__BackingField; // 0x10
-		::SRF::Helpers::PropertyReference* _Property_k__BackingField; // 0x18
-		::System::String* _Category_k__BackingField; // 0x20
-		::System::String* _TargetTab_k__BackingField; // 0x28
+		::System::String* _Category_k__BackingField; // 0x18
+		::System::String* _TargetTab_k__BackingField; // 0x20
+		::SRF::Helpers::PropertyReference* _Property_k__BackingField; // 0x28
 		::SRF::Helpers::MethodReference* _Method_k__BackingField; // 0x30
 		::System::Int32 _SortPriority_k__BackingField; // 0x38
 
-		::System::Void _ctor(::SRDebugger::OptionDefinitionInitParams* initParams)
+		::System::Void _ctor(::SRDebugger::OptionDefinitionInitParams* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::OptionDefinitionInitParams*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION__CTOR_OFFSET))(this, initParams);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::OptionDefinitionInitParams*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::SRDebugger::OptionDefinitionInitParams* initParams, ::SRF::Helpers::MethodReference* method)
+		::System::Void _ctor_1(::SRDebugger::OptionDefinitionInitParams* a1, ::SRF::Helpers::MethodReference* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::OptionDefinitionInitParams*, ::SRF::Helpers::MethodReference*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION__CTOR_1_OFFSET))(this, initParams, method);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::OptionDefinitionInitParams*, ::SRF::Helpers::MethodReference*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION__CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::SRDebugger::OptionDefinitionInitParams* initParams, ::SRF::Helpers::PropertyReference* property)
+		::System::Void _ctor_2(::SRDebugger::OptionDefinitionInitParams* a1, ::SRF::Helpers::PropertyReference* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRDebugger::OptionDefinitionInitParams*, ::SRF::Helpers::PropertyReference*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION__CTOR_2_OFFSET))(this, initParams, property);
+			return ((::System::Void(*)(::PVOID, ::SRDebugger::OptionDefinitionInitParams*, ::SRF::Helpers::PropertyReference*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Name()
@@ -67,9 +67,9 @@ namespace SRDebugger
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_GET_NAME_OFFSET))(this);
 		}
 
-		::System::Void set_Name(::System::String* value)
+		::System::Void set_Name(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_NAME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_NAME_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Category()
@@ -77,9 +77,9 @@ namespace SRDebugger
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_GET_CATEGORY_OFFSET))(this);
 		}
 
-		::System::Void set_Category(::System::String* value)
+		::System::Void set_Category(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_CATEGORY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_CATEGORY_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_SortPriority()
@@ -87,9 +87,9 @@ namespace SRDebugger
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_GET_SORTPRIORITY_OFFSET))(this);
 		}
 
-		::System::Void set_SortPriority(::System::Int32 value)
+		::System::Void set_SortPriority(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_SORTPRIORITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_SORTPRIORITY_OFFSET))(this, a1);
 		}
 
 		::System::String* get_TargetTab()
@@ -97,9 +97,9 @@ namespace SRDebugger
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_GET_TARGETTAB_OFFSET))(this);
 		}
 
-		::System::Void set_TargetTab(::System::String* value)
+		::System::Void set_TargetTab(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_TARGETTAB_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_TARGETTAB_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsMethod()
@@ -117,9 +117,9 @@ namespace SRDebugger
 			return ((::SRF::Helpers::MethodReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_GET_METHOD_OFFSET))(this);
 		}
 
-		::System::Void set_Method(::SRF::Helpers::MethodReference* value)
+		::System::Void set_Method(::SRF::Helpers::MethodReference* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRF::Helpers::MethodReference*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_METHOD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::SRF::Helpers::MethodReference*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_METHOD_OFFSET))(this, a1);
 		}
 
 		::SRF::Helpers::PropertyReference* get_Property()
@@ -127,24 +127,24 @@ namespace SRDebugger
 			return ((::SRF::Helpers::PropertyReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_GET_PROPERTY_OFFSET))(this);
 		}
 
-		::System::Void set_Property(::SRF::Helpers::PropertyReference* value)
+		::System::Void set_Property(::SRF::Helpers::PropertyReference* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SRF::Helpers::PropertyReference*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_PROPERTY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::SRF::Helpers::PropertyReference*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_SET_PROPERTY_OFFSET))(this, a1);
 		}
 
-		static ::SRDebugger::OptionDefinition* FromMethod(::System::String* name, ::System::Action* callback, ::System::String* category, ::System::Int32 sortPriority, ::System::String* tabName)
+		static ::SRDebugger::OptionDefinition* FromMethod(::System::String* a1, ::System::Action* a2, ::System::String* a3, ::System::Int32 a4, ::System::String* a5)
 		{
-			return ((::SRDebugger::OptionDefinition*(*)(::System::String*, ::System::Action*, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_FROMMETHOD_OFFSET))(name, callback, category, sortPriority, tabName);
+			return ((::SRDebugger::OptionDefinition*(*)(::System::String*, ::System::Action*, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_FROMMETHOD_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::SRDebugger::OptionDefinition* Create(::System::Reflection::PropertyInfo* propertyInfo, ::System::Object* invokeObj)
+		static ::SRDebugger::OptionDefinition* Create(::System::Reflection::PropertyInfo* a1, ::System::Object* a2)
 		{
-			return ((::SRDebugger::OptionDefinition*(*)(::System::Reflection::PropertyInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_CREATE_OFFSET))(propertyInfo, invokeObj);
+			return ((::SRDebugger::OptionDefinition*(*)(::System::Reflection::PropertyInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_CREATE_OFFSET))(a1, a2);
 		}
 
-		static ::SRDebugger::OptionDefinition* FromMethod_1(::System::Reflection::MethodInfo* methodInfo, ::System::Object* invokeObj)
+		static ::SRDebugger::OptionDefinition* FromMethod_1(::System::Reflection::MethodInfo* a1, ::System::Object* a2)
 		{
-			return ((::SRDebugger::OptionDefinition*(*)(::System::Reflection::MethodInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_FROMMETHOD_1_OFFSET))(methodInfo, invokeObj);
+			return ((::SRDebugger::OptionDefinition*(*)(::System::Reflection::MethodInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_OPTIONDEFINITION_FROMMETHOD_1_OFFSET))(a1, a2);
 		}
 	};
 }

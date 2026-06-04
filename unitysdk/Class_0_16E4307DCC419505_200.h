@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace System { class String; }
+class Class_2_68CB91321C3E76A7;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_200_TypeDefinitionIndex = 38694;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_200_TypeDefinitionIndex = 39053;
 
 class Class_0_16E4307DCC419505_200
 {

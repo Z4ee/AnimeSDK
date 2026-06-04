@@ -10,29 +10,29 @@ namespace System { class Type; }
 namespace System::Reflection { class ICustomAttributeProvider; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_REFLECTION_METHODINFO_CREATEDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x179A40D0)
-#define SYSTEM_REFLECTION_METHODINFO_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x179A4070)
-#define SYSTEM_REFLECTION_METHODINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x179A3E80)
-#define SYSTEM_REFLECTION_METHODINFO_GETBASEMETHOD_OFFSET UNITYSDK_OFFSET(0x179A4130)
-#define SYSTEM_REFLECTION_METHODINFO_GETGENERICARGUMENTS_OFFSET UNITYSDK_OFFSET(0x179A3F50)
-#define SYSTEM_REFLECTION_METHODINFO_GETGENERICMETHODDEFINITION_OFFSET UNITYSDK_OFFSET(0x179A3FB0)
-#define SYSTEM_REFLECTION_METHODINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x179A3E90)
-#define SYSTEM_REFLECTION_METHODINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x179A3EA0)
-#define SYSTEM_REFLECTION_METHODINFO_GET_RETURNPARAMETER_OFFSET UNITYSDK_OFFSET(0x179A3F00)
-#define SYSTEM_REFLECTION_METHODINFO_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x179A3EB0)
-#define SYSTEM_REFLECTION_METHODINFO_MAKEGENERICMETHOD_OFFSET UNITYSDK_OFFSET(0x179A4010)
-#define SYSTEM_REFLECTION_METHODINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x179A34A0)
-#define SYSTEM_REFLECTION_METHODINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x179A3600)
-#define SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETIDSOFNAMES_OFFSET UNITYSDK_OFFSET(0x179A4140)
-#define SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETTYPEINFOCOUNT_OFFSET UNITYSDK_OFFSET(0x179A4200)
-#define SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETTYPEINFO_OFFSET UNITYSDK_OFFSET(0x179A41C0)
-#define SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETTYPE_OFFSET UNITYSDK_OFFSET(0x179A4180)
-#define SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x179A4240)
-#define SYSTEM_REFLECTION_METHODINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x179A3E70)
+#define SYSTEM_REFLECTION_METHODINFO_CREATEDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x18756360)
+#define SYSTEM_REFLECTION_METHODINFO_CREATEDELEGATE_OFFSET UNITYSDK_OFFSET(0x18756300)
+#define SYSTEM_REFLECTION_METHODINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x18756110)
+#define SYSTEM_REFLECTION_METHODINFO_GETBASEMETHOD_OFFSET UNITYSDK_OFFSET(0x187563C0)
+#define SYSTEM_REFLECTION_METHODINFO_GETGENERICARGUMENTS_OFFSET UNITYSDK_OFFSET(0x187561E0)
+#define SYSTEM_REFLECTION_METHODINFO_GETGENERICMETHODDEFINITION_OFFSET UNITYSDK_OFFSET(0x18756240)
+#define SYSTEM_REFLECTION_METHODINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18756120)
+#define SYSTEM_REFLECTION_METHODINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x18756130)
+#define SYSTEM_REFLECTION_METHODINFO_GET_RETURNPARAMETER_OFFSET UNITYSDK_OFFSET(0x18756190)
+#define SYSTEM_REFLECTION_METHODINFO_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x18756140)
+#define SYSTEM_REFLECTION_METHODINFO_MAKEGENERICMETHOD_OFFSET UNITYSDK_OFFSET(0x187562A0)
+#define SYSTEM_REFLECTION_METHODINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x18755780)
+#define SYSTEM_REFLECTION_METHODINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x187558E0)
+#define SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETIDSOFNAMES_OFFSET UNITYSDK_OFFSET(0x187563D0)
+#define SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETTYPEINFOCOUNT_OFFSET UNITYSDK_OFFSET(0x18756490)
+#define SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETTYPEINFO_OFFSET UNITYSDK_OFFSET(0x18756450)
+#define SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETTYPE_OFFSET UNITYSDK_OFFSET(0x18756410)
+#define SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x187564D0)
+#define SYSTEM_REFLECTION_METHODINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18756100)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MethodInfo_TypeDefinitionIndex = 578;
+	inline static constexpr unsigned int MethodInfo_TypeDefinitionIndex = 577;
 
 	class MethodInfo : public ::System::Reflection::MethodBase
 	{
@@ -42,19 +42,19 @@ namespace System::Reflection
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::System::Reflection::MethodInfo* left, ::System::Reflection::MethodInfo* right)
+		static ::System::Boolean op_Equality(::System::Reflection::MethodInfo* a1, ::System::Reflection::MethodInfo* a2)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::System::Reflection::MethodInfo* left, ::System::Reflection::MethodInfo* right)
+		static ::System::Boolean op_Inequality(::System::Reflection::MethodInfo* a1, ::System::Reflection::MethodInfo* a2)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_OP_INEQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -87,19 +87,19 @@ namespace System::Reflection
 			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_GETGENERICMETHODDEFINITION_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodInfo* MakeGenericMethod(::Il2CppArray<::System::Type*>* typeArguments)
+		::System::Reflection::MethodInfo* MakeGenericMethod(::Il2CppArray<::System::Type*>* a1)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_MAKEGENERICMETHOD_OFFSET))(this, typeArguments);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_MAKEGENERICMETHOD_OFFSET))(this, a1);
 		}
 
-		::System::Delegate* CreateDelegate(::System::Type* delegateType)
+		::System::Delegate* CreateDelegate(::System::Type* a1)
 		{
-			return ((::System::Delegate*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_CREATEDELEGATE_OFFSET))(this, delegateType);
+			return ((::System::Delegate*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_CREATEDELEGATE_OFFSET))(this, a1);
 		}
 
-		::System::Delegate* CreateDelegate_1(::System::Type* delegateType, ::System::Object* target)
+		::System::Delegate* CreateDelegate_1(::System::Type* a1, ::System::Object* a2)
 		{
-			return ((::System::Delegate*(*)(::PVOID, ::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_CREATEDELEGATE_1_OFFSET))(this, delegateType, target);
+			return ((::System::Delegate*(*)(::PVOID, ::System::Type*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_CREATEDELEGATE_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Reflection::MethodInfo* GetBaseMethod()
@@ -107,9 +107,9 @@ namespace System::Reflection
 			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_GETBASEMETHOD_OFFSET))(this);
 		}
 
-		::System::Void System_Runtime_InteropServices__MethodInfo_GetIDsOfNames(::System::Guid& riid, ::System::IntPtr rgszNames, ::System::UInt32 cNames, ::System::UInt32 lcid, ::System::IntPtr rgDispId)
+		::System::Void System_Runtime_InteropServices__MethodInfo_GetIDsOfNames(::System::Guid& a1, ::System::IntPtr a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::IntPtr a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid&, ::System::IntPtr, ::System::UInt32, ::System::UInt32, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETIDSOFNAMES_OFFSET))(this, riid, rgszNames, cNames, lcid, rgDispId);
+			return ((::System::Void(*)(::PVOID, ::System::Guid&, ::System::IntPtr, ::System::UInt32, ::System::UInt32, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETIDSOFNAMES_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Type* System_Runtime_InteropServices__MethodInfo_GetType()
@@ -117,19 +117,19 @@ namespace System::Reflection
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETTYPE_OFFSET))(this);
 		}
 
-		::System::Void System_Runtime_InteropServices__MethodInfo_GetTypeInfo(::System::UInt32 iTInfo, ::System::UInt32 lcid, ::System::IntPtr ppTInfo)
+		::System::Void System_Runtime_InteropServices__MethodInfo_GetTypeInfo(::System::UInt32 a1, ::System::UInt32 a2, ::System::IntPtr a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETTYPEINFO_OFFSET))(this, iTInfo, lcid, ppTInfo);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETTYPEINFO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void System_Runtime_InteropServices__MethodInfo_GetTypeInfoCount(::System::UInt32& pcTInfo)
+		::System::Void System_Runtime_InteropServices__MethodInfo_GetTypeInfoCount(::System::UInt32& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETTYPEINFOCOUNT_OFFSET))(this, pcTInfo);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_GETTYPEINFOCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Void System_Runtime_InteropServices__MethodInfo_Invoke(::System::UInt32 dispIdMember, ::System::Guid& riid, ::System::UInt32 lcid, ::System::Int16 wFlags, ::System::IntPtr pDispParams, ::System::IntPtr pVarResult, ::System::IntPtr pExcepInfo, ::System::IntPtr puArgErr)
+		::System::Void System_Runtime_InteropServices__MethodInfo_Invoke(::System::UInt32 a1, ::System::Guid& a2, ::System::UInt32 a3, ::System::Int16 a4, ::System::IntPtr a5, ::System::IntPtr a6, ::System::IntPtr a7, ::System::IntPtr a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Guid&, ::System::UInt32, ::System::Int16, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_INVOKE_OFFSET))(this, dispIdMember, riid, lcid, wFlags, pDispParams, pVarResult, pExcepInfo, puArgErr);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Guid&, ::System::UInt32, ::System::Int16, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODINFO_SYSTEM_RUNTIME_INTEROPSERVICES__METHODINFO_INVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 	};
 }

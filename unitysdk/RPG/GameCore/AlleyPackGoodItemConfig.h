@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AlleyPackAnchorsConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYPACKGOODITEMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1869B3B0)
-#define RPG_GAMECORE_ALLEYPACKGOODITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1869B580)
+#define RPG_GAMECORE_ALLEYPACKGOODITEMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19470390)
+#define RPG_GAMECORE_ALLEYPACKGOODITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19470560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyPackGoodItemConfig_TypeDefinitionIndex = 14847;
+	inline static constexpr unsigned int AlleyPackGoodItemConfig_TypeDefinitionIndex = 14911;
 
 	class AlleyPackGoodItemConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYPACKGOODITEMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::AlleyPackGoodItemConfig*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AlleyPackGoodItemConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AlleyPackGoodItemConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYPACKGOODITEMCONFIG_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AlleyPackGoodItemConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYPACKGOODITEMCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

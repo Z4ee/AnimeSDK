@@ -4,16 +4,16 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_GAMECOMPONENTBASE_GET_OWNERREF_OFFSET UNITYSDK_OFFSET(0xB691480)
-#define RPG_GAMECORE_GAMECOMPONENTBASE_INITOWNERREF_OFFSET UNITYSDK_OFFSET(0xB691410)
-#define RPG_GAMECORE_GAMECOMPONENTBASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB66B9B0)
-#define RPG_GAMECORE_GAMECOMPONENTBASE_TICK_OFFSET UNITYSDK_OFFSET(0xB66B8D0)
-#define RPG_GAMECORE_GAMECOMPONENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xB66B870)
-#define RPG_GAMECORE_GAMECOMPONENTBASE__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xB690F10)
+#define RPG_GAMECORE_GAMECOMPONENTBASE_GET_OWNERREF_OFFSET UNITYSDK_OFFSET(0xCDFBB60)
+#define RPG_GAMECORE_GAMECOMPONENTBASE_INITOWNERREF_OFFSET UNITYSDK_OFFSET(0xCDFBAF0)
+#define RPG_GAMECORE_GAMECOMPONENTBASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCDD43C0)
+#define RPG_GAMECORE_GAMECOMPONENTBASE_TICK_OFFSET UNITYSDK_OFFSET(0xCDD42E0)
+#define RPG_GAMECORE_GAMECOMPONENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xCDD4280)
+#define RPG_GAMECORE_GAMECOMPONENTBASE__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xCDFB5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameComponentBase_TypeDefinitionIndex = 53074;
+	inline static constexpr unsigned int GameComponentBase_TypeDefinitionIndex = 53784;
 
 	class GameComponentBase : public ::System::Object
 	{
@@ -25,19 +25,19 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECOMPONENTBASE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECOMPONENTBASE_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECOMPONENTBASE_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void LateUpdate(::System::Single fElapsedTimeInSec)
+		::System::Void LateUpdate(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECOMPONENTBASE_LATEUPDATE_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECOMPONENTBASE_LATEUPDATE_OFFSET))(this, a1);
 		}
 
-		::System::Void InitOwnerRef(::RPG::GameCore::GameEntity* owner)
+		::System::Void InitOwnerRef(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECOMPONENTBASE_INITOWNERREF_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECOMPONENTBASE_INITOWNERREF_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnInitOwnerRef()

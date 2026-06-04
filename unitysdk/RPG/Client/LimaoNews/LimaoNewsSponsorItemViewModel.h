@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+
+class Class_1_2FDE33CCAE591AA8;
+namespace System { class String; }
+
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_GET_CLICKCOMMAND_OFFSET UNITYSDK_OFFSET(0xBDAEC30)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_GET_HINTICONPATH_OFFSET UNITYSDK_OFFSET(0xBDAEC10)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xBDAEC00)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_GET_POSTID_OFFSET UNITYSDK_OFFSET(0xBDAEC20)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_SET_HINTICONPATH_OFFSET UNITYSDK_OFFSET(0xBDAEAE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xBDAEA50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_SET_POSTID_OFFSET UNITYSDK_OFFSET(0xBDAEB70)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xBDAE7E0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL__GOTOPOST_OFFSET UNITYSDK_OFFSET(0xBDAEC40)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xBDAED60)
+
+namespace RPG::Client::LimaoNews
+{
+	inline static constexpr unsigned int LimaoNewsSponsorItemViewModel_TypeDefinitionIndex = 73887;
+
+	class LimaoNewsSponsorItemViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		::System::String* _HintIconPath; // 0x20
+		::System::String* _IconPath; // 0x28
+		::Class_1_2FDE33CCAE591AA8* _ClickCommand; // 0x30
+		::System::UInt32 _PostID; // 0x38
+
+		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::UInt32 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_IconPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_SET_ICONPATH_OFFSET))(this, a1);
+		}
+
+		::System::String* get_HintIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_GET_HINTICONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_HintIconPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_SET_HINTICONPATH_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_PostID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_GET_POSTID_OFFSET))(this);
+		}
+
+		::System::Void set_PostID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_SET_POSTID_OFFSET))(this, a1);
+		}
+
+		::Class_1_2FDE33CCAE591AA8* get_ClickCommand()
+		{
+			return ((::Class_1_2FDE33CCAE591AA8*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL_GET_CLICKCOMMAND_OFFSET))(this);
+		}
+
+		::System::Void _GotoPost()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL__GOTOPOST_OFFSET))(this);
+		}
+
+		::System::Void __ctor_b__0_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMVIEWMODEL___CTOR_B__0_0_OFFSET))(this);
+		}
+	};
+}

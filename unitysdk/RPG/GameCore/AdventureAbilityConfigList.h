@@ -8,12 +8,12 @@ namespace RPG::GameCore { class AdventureModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREABILITYCONFIGLIST_METHOD_2_E5D859DA6DE00C50_OFFSET UNITYSDK_OFFSET(0x1866C7B0)
-#define RPG_GAMECORE_ADVENTUREABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1866C900)
+#define RPG_GAMECORE_ADVENTUREABILITYCONFIGLIST_METHOD_2_324E3E07166E73E2_OFFSET UNITYSDK_OFFSET(0x1943F3C0)
+#define RPG_GAMECORE_ADVENTUREABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1943F500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAbilityConfigList_TypeDefinitionIndex = 16535;
+	inline static constexpr unsigned int AdventureAbilityConfigList_TypeDefinitionIndex = 16566;
 
 	class AdventureAbilityConfigList : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABILITYCONFIGLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E5D859DA6DE00C50(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureAbilityConfigList*& a2)
+		static ::System::Void Method_2_324E3E07166E73E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureAbilityConfigList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureAbilityConfigList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABILITYCONFIGLIST_METHOD_2_E5D859DA6DE00C50_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureAbilityConfigList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABILITYCONFIGLIST_METHOD_2_324E3E07166E73E2_OFFSET))(a1, a2);
 		}
 	};
 }

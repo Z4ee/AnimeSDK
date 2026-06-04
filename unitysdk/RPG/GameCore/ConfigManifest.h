@@ -9,30 +9,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_CONFIGMANIFEST_DISCOVERCONFIGLIST_OFFSET UNITYSDK_OFFSET(0xB625E50)
-#define RPG_GAMECORE_CONFIGMANIFEST_FROMJSON_OFFSET UNITYSDK_OFFSET(0xB625440)
-#define RPG_GAMECORE_CONFIGMANIFEST_GETALLCONFIGTYPES_OFFSET UNITYSDK_OFFSET(0xB624D70)
-#define RPG_GAMECORE_CONFIGMANIFEST_GETCONFIGLISTBYTYPE_OFFSET UNITYSDK_OFFSET(0xB624A20)
-#define RPG_GAMECORE_CONFIGMANIFEST_GET_MANIFESTITEMS_OFFSET UNITYSDK_OFFSET(0xB6249C0)
-#define RPG_GAMECORE_CONFIGMANIFEST_INITIALIZECONFIGMANIFEST_OFFSET UNITYSDK_OFFSET(0xB624660)
-#define RPG_GAMECORE_CONFIGMANIFEST_LOADBYFILEDISCOVERY_OFFSET UNITYSDK_OFFSET(0xB6256D0)
-#define RPG_GAMECORE_CONFIGMANIFEST_LOADMANIFESTITEMBYFILEDISCOVERY_OFFSET UNITYSDK_OFFSET(0xB625830)
-#define RPG_GAMECORE_CONFIGMANIFEST_LOADMANIFEST_OFFSET UNITYSDK_OFFSET(0xB624CF0)
-#define RPG_GAMECORE_CONFIGMANIFEST_RELEASEMANIFEST_OFFSET UNITYSDK_OFFSET(0xB6268C0)
-#define RPG_GAMECORE_CONFIGMANIFEST_TOJSON_OFFSET UNITYSDK_OFFSET(0xB624FD0)
-#define RPG_GAMECORE_CONFIGMANIFEST__CTOR_OFFSET UNITYSDK_OFFSET(0xB626A40)
-#define RPG_GAMECORE_CONFIGMANIFEST__DISCOVERCONFIGLIST_OFFSET UNITYSDK_OFFSET(0xB626130)
+#define RPG_GAMECORE_CONFIGMANIFEST_DISCOVERCONFIGLIST_OFFSET UNITYSDK_OFFSET(0xCD8FE20)
+#define RPG_GAMECORE_CONFIGMANIFEST_FROMJSON_OFFSET UNITYSDK_OFFSET(0xCD8F510)
+#define RPG_GAMECORE_CONFIGMANIFEST_GETALLCONFIGTYPES_OFFSET UNITYSDK_OFFSET(0xCD8EEA0)
+#define RPG_GAMECORE_CONFIGMANIFEST_GETCONFIGLISTBYTYPE_OFFSET UNITYSDK_OFFSET(0xCD8EB30)
+#define RPG_GAMECORE_CONFIGMANIFEST_GET_MANIFESTITEMS_OFFSET UNITYSDK_OFFSET(0xCD8EAD0)
+#define RPG_GAMECORE_CONFIGMANIFEST_INITIALIZECONFIGMANIFEST_OFFSET UNITYSDK_OFFSET(0xCD8E2D0)
+#define RPG_GAMECORE_CONFIGMANIFEST_LOADBYFILEDISCOVERY_OFFSET UNITYSDK_OFFSET(0xCD8F7C0)
+#define RPG_GAMECORE_CONFIGMANIFEST_LOADMANIFESTITEMBYFILEDISCOVERY_OFFSET UNITYSDK_OFFSET(0xCD8F940)
+#define RPG_GAMECORE_CONFIGMANIFEST_LOADMANIFEST_OFFSET UNITYSDK_OFFSET(0xCD8EDC0)
+#define RPG_GAMECORE_CONFIGMANIFEST_RELEASEMANIFEST_OFFSET UNITYSDK_OFFSET(0xCD908B0)
+#define RPG_GAMECORE_CONFIGMANIFEST_TOJSON_OFFSET UNITYSDK_OFFSET(0xCD8F110)
+#define RPG_GAMECORE_CONFIGMANIFEST__CTOR_OFFSET UNITYSDK_OFFSET(0xCD90A00)
+#define RPG_GAMECORE_CONFIGMANIFEST__DISCOVERCONFIGLIST_OFFSET UNITYSDK_OFFSET(0xCD900C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigManifest_TypeDefinitionIndex = 52089;
+	inline static constexpr unsigned int ConfigManifest_TypeDefinitionIndex = 52763;
 
 	class ConfigManifest : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::Class_1_E272722571A79B56*>** StaticGet__ManifestItems()
 		{
-			return (::System::Collections::Generic::List_1<::Class_1_E272722571A79B56*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigManifest_TypeDefinitionIndex)->GetStaticField(0x48F40);
+			return (::System::Collections::Generic::List_1<::Class_1_E272722571A79B56*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigManifest_TypeDefinitionIndex)->GetStaticField(0x673C0);
 		}
 		// static const ::System::String* c_ConfigManifestPath; // 0x0
 		::System::Boolean _IsLoaded; // 0x10
@@ -52,9 +52,9 @@ namespace RPG::GameCore
 			return ((::System::Collections::Generic::List_1<::Class_1_E272722571A79B56*>*(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_GET_MANIFESTITEMS_OFFSET))();
 		}
 
-		::Il2CppArray<::System::String*>* GetConfigListByType(::RPG::GameCore::JsonConfigListType fieldType)
+		::Il2CppArray<::System::String*>* GetConfigListByType(::RPG::GameCore::JsonConfigListType a1)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::RPG::GameCore::JsonConfigListType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_GETCONFIGLISTBYTYPE_OFFSET))(this, fieldType);
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID, ::RPG::GameCore::JsonConfigListType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_GETCONFIGLISTBYTYPE_OFFSET))(this, a1);
 		}
 
 		static ::Il2CppArray<::RPG::GameCore::JsonConfigListType>* GetAllConfigTypes()
@@ -62,34 +62,34 @@ namespace RPG::GameCore
 			return ((::Il2CppArray<::RPG::GameCore::JsonConfigListType>*(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_GETALLCONFIGTYPES_OFFSET))();
 		}
 
-		static ::System::String* ToJson(::RPG::GameCore::ConfigManifest* manifest)
+		static ::System::String* ToJson(::RPG::GameCore::ConfigManifest* a1)
 		{
-			return ((::System::String*(*)(::RPG::GameCore::ConfigManifest*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_TOJSON_OFFSET))(manifest);
+			return ((::System::String*(*)(::RPG::GameCore::ConfigManifest*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_TOJSON_OFFSET))(a1);
 		}
 
-		::System::Void FromJson(::SimpleJSON::JSONNode* node)
+		::System::Void FromJson(::SimpleJSON::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SimpleJSON::JSONNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_FROMJSON_OFFSET))(this, node);
+			return ((::System::Void(*)(::PVOID, ::SimpleJSON::JSONNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_FROMJSON_OFFSET))(this, a1);
 		}
 
-		::System::Void LoadByFileDiscovery(::System::Collections::Generic::HashSet_1<::System::String*>* excludes)
+		::System::Void LoadByFileDiscovery(::System::Collections::Generic::HashSet_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_LOADBYFILEDISCOVERY_OFFSET))(this, excludes);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_LOADBYFILEDISCOVERY_OFFSET))(this, a1);
 		}
 
-		::System::Void LoadManifestItemByFileDiscovery(::Class_1_E272722571A79B56* item, ::System::Collections::Generic::HashSet_1<::System::String*>* excludes)
+		::System::Void LoadManifestItemByFileDiscovery(::Class_1_E272722571A79B56* a1, ::System::Collections::Generic::HashSet_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E272722571A79B56*, ::System::Collections::Generic::HashSet_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_LOADMANIFESTITEMBYFILEDISCOVERY_OFFSET))(this, item, excludes);
+			return ((::System::Void(*)(::PVOID, ::Class_1_E272722571A79B56*, ::System::Collections::Generic::HashSet_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_LOADMANIFESTITEMBYFILEDISCOVERY_OFFSET))(this, a1, a2);
 		}
 
-		static ::Il2CppArray<::System::String*>* DiscoverConfigList(::System::String* sVirtualPath, ::System::Collections::Generic::HashSet_1<::System::String*>* excludes)
+		static ::Il2CppArray<::System::String*>* DiscoverConfigList(::System::String* a1, ::System::Collections::Generic::HashSet_1<::System::String*>* a2)
 		{
-			return ((::Il2CppArray<::System::String*>*(*)(::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_DISCOVERCONFIGLIST_OFFSET))(sVirtualPath, excludes);
+			return ((::Il2CppArray<::System::String*>*(*)(::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST_DISCOVERCONFIGLIST_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void _DiscoverConfigList(::System::String* sBasePath, ::System::String* sVirtualPath, ::System::Collections::Generic::List_1<::System::String*>* pResults, ::System::Collections::Generic::HashSet_1<::System::String*>* excludes)
+		static ::System::Void _DiscoverConfigList(::System::String* a1, ::System::String* a2, ::System::Collections::Generic::List_1<::System::String*>* a3, ::System::Collections::Generic::HashSet_1<::System::String*>* a4)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST__DISCOVERCONFIGLIST_OFFSET))(sBasePath, sVirtualPath, pResults, excludes);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFEST__DISCOVERCONFIGLIST_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Void LoadManifest()

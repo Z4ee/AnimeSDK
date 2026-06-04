@@ -7,11 +7,11 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_265;
-class Class_0_16E4307DCC419505_382;
+class Class_0_16E4307DCC419505_278;
+class Class_0_16E4307DCC419505_401;
 class Class_1_DCED81BA3E7C7B2D;
-class Class_3_E21F6DE9B7FA4D05;
-namespace RPG::Client { class IAvatarInfoProvider; }
+class Class_3_07C3C4D2990C49EE;
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class MemberData; }
 namespace RPG::Client { class Stage; }
 namespace RPG::Client { class TeamData; }
@@ -27,114 +27,116 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AsyncOperation; }
 
-#define RPG_CLIENT_TEAMMANAGER_ALLPLAYERLOADED_OFFSET UNITYSDK_OFFSET(0xB2AAA80)
-#define RPG_CLIENT_TEAMMANAGER_APPLEEXTRAPROPERTYADDITION_OFFSET UNITYSDK_OFFSET(0xB2B0DE0)
-#define RPG_CLIENT_TEAMMANAGER_CANSWITCHTEAMLEADERTO_OFFSET UNITYSDK_OFFSET(0xB2AFE20)
-#define RPG_CLIENT_TEAMMANAGER_CHANGETEAMMEMBERSTORYMODE_OFFSET UNITYSDK_OFFSET(0xB2AB4C0)
-#define RPG_CLIENT_TEAMMANAGER_CREATELOCALPLAYERTEAM_OFFSET UNITYSDK_OFFSET(0xB2AAB90)
-#define RPG_CLIENT_TEAMMANAGER_CREATETEAMMEMBERENTITYS_OFFSET UNITYSDK_OFFSET(0xB2AAFE0)
-#define RPG_CLIENT_TEAMMANAGER_CTRLOTHERENTITY_OFFSET UNITYSDK_OFFSET(0xB2B1D40)
-#define RPG_CLIENT_TEAMMANAGER_DISABLEAVATARREFRESH_OFFSET UNITYSDK_OFFSET(0xB2ACA10)
-#define RPG_CLIENT_TEAMMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2AA100)
-#define RPG_CLIENT_TEAMMANAGER_ENABLEAVATARREFRESH_OFFSET UNITYSDK_OFFSET(0xB2ACA90)
-#define RPG_CLIENT_TEAMMANAGER_GETAVATARBYENTITY_OFFSET UNITYSDK_OFFSET(0xB2B1C40)
-#define RPG_CLIENT_TEAMMANAGER_GETMEMBERDATABYMEMBERENTITY_OFFSET UNITYSDK_OFFSET(0xB2B0470)
-#define RPG_CLIENT_TEAMMANAGER_GETMEMBERENTITYBYAVATARID_OFFSET UNITYSDK_OFFSET(0xB2B03B0)
-#define RPG_CLIENT_TEAMMANAGER_GETMEMBERENTITYBYMEMBERDATA_OFFSET UNITYSDK_OFFSET(0xB2B02D0)
-#define RPG_CLIENT_TEAMMANAGER_GETPLAYERDATABYENTITY_OFFSET UNITYSDK_OFFSET(0xB2B0F20)
-#define RPG_CLIENT_TEAMMANAGER_GET_CURRENTTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xB2A9B40)
-#define RPG_CLIENT_TEAMMANAGER_GET_FAKEAVATAR_OFFSET UNITYSDK_OFFSET(0xB2B4940)
-#define RPG_CLIENT_TEAMMANAGER_GET_ISALLOWEDREFRESH_OFFSET UNITYSDK_OFFSET(0xB2B4AC0)
-#define RPG_CLIENT_TEAMMANAGER_GET_ISMAINCHARACTERONLYTEAM_OFFSET UNITYSDK_OFFSET(0xB2B4A60)
-#define RPG_CLIENT_TEAMMANAGER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xB2B4330)
-#define RPG_CLIENT_TEAMMANAGER_GET_NEXTTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xB2B48B0)
-#define RPG_CLIENT_TEAMMANAGER_GET_REALTEAMLEADERAVATARID_OFFSET UNITYSDK_OFFSET(0xB2B4960)
-#define RPG_CLIENT_TEAMMANAGER_GET_REALTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xB2B4950)
-#define RPG_CLIENT_TEAMMANAGER_GET_STARTCONTROLPOS_OFFSET UNITYSDK_OFFSET(0xB2B48C0)
-#define RPG_CLIENT_TEAMMANAGER_GET_STARTCONTROLROT_OFFSET UNITYSDK_OFFSET(0xB2B4900)
-#define RPG_CLIENT_TEAMMANAGER_GET_TEAMMEMBERLIST_OFFSET UNITYSDK_OFFSET(0xB2B4A50)
-#define RPG_CLIENT_TEAMMANAGER_LOADBACKGROUNDPLAYER_OFFSET UNITYSDK_OFFSET(0xB2AA7B0)
-#define RPG_CLIENT_TEAMMANAGER_REFRESHTEAMEXTRAPROPERTYADDITION_OFFSET UNITYSDK_OFFSET(0xB2AFC40)
-#define RPG_CLIENT_TEAMMANAGER_REFRESHTEAMMEMBERENTITYS_OFFSET UNITYSDK_OFFSET(0xB2ACB20)
-#define RPG_CLIENT_TEAMMANAGER_REMOVETEAMMEMBERENTITY_OFFSET UNITYSDK_OFFSET(0xB2B05C0)
-#define RPG_CLIENT_TEAMMANAGER_RESETAUDIOLISTNERFOLLOWTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xB2B0790)
-#define RPG_CLIENT_TEAMMANAGER_RESETTEAMMEMBERLIST_OFFSET UNITYSDK_OFFSET(0xB2ADD00)
-#define RPG_CLIENT_TEAMMANAGER_REVERTEXTRAPROPERTYADDITION_OFFSET UNITYSDK_OFFSET(0xB2B0AD0)
-#define RPG_CLIENT_TEAMMANAGER_SETUPTEAMLEADERINFO_OFFSET UNITYSDK_OFFSET(0xB2ABA90)
-#define RPG_CLIENT_TEAMMANAGER_SET_CURRENTTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xB2AA3A0)
-#define RPG_CLIENT_TEAMMANAGER_SET_FAKEAVATAR_OFFSET UNITYSDK_OFFSET(0xB2B3FE0)
-#define RPG_CLIENT_TEAMMANAGER_SET_STARTCONTROLPOS_OFFSET UNITYSDK_OFFSET(0xB2B48E0)
-#define RPG_CLIENT_TEAMMANAGER_SET_STARTCONTROLROT_OFFSET UNITYSDK_OFFSET(0xB2B4920)
-#define RPG_CLIENT_TEAMMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0xB2A9FC0)
-#define RPG_CLIENT_TEAMMANAGER_TRYCHANGETOTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xB2B0700)
-#define RPG_CLIENT_TEAMMANAGER_TRYSWITCHTEAMLEADERBYSLOTID_OFFSET UNITYSDK_OFFSET(0xB2AFD60)
-#define RPG_CLIENT_TEAMMANAGER_TRYTRIGGERPLAYERTELEPORT_OFFSET UNITYSDK_OFFSET(0xB2A97C0)
-#define RPG_CLIENT_TEAMMANAGER_UNLOADBACKGROUNDPLAYER_OFFSET UNITYSDK_OFFSET(0xB2AA560)
-#define RPG_CLIENT_TEAMMANAGER__ADDMEMBERSCHANGEDIN_OFFSET UNITYSDK_OFFSET(0xB2ADAC0)
-#define RPG_CLIENT_TEAMMANAGER__BINDINPUTCONTROLLERTOENTITY_OFFSET UNITYSDK_OFFSET(0xB2AC9A0)
-#define RPG_CLIENT_TEAMMANAGER__CANSYNCMEMBERINFO_OFFSET UNITYSDK_OFFSET(0xB2AB830)
-#define RPG_CLIENT_TEAMMANAGER__CHANGEFAKEAVATARSTORYMODE_OFFSET UNITYSDK_OFFSET(0xB2B4260)
-#define RPG_CLIENT_TEAMMANAGER__CHANGETEAMMEMBERSTORYMODE_OFFSET UNITYSDK_OFFSET(0xB2AB510)
-#define RPG_CLIENT_TEAMMANAGER__CHECKTELEPORTANDSTORYMODECONFLICT_OFFSET UNITYSDK_OFFSET(0xB2A9690)
-#define RPG_CLIENT_TEAMMANAGER__CREATEFAKEAVATARENTITY_OFFSET UNITYSDK_OFFSET(0xB2B0CC0)
-#define RPG_CLIENT_TEAMMANAGER__CREATELEADERMEMBERENTITY_OFFSET UNITYSDK_OFFSET(0xB2AB3D0)
-#define RPG_CLIENT_TEAMMANAGER__CREATEMEMBERENTITY_1_OFFSET UNITYSDK_OFFSET(0xB2B0B40)
-#define RPG_CLIENT_TEAMMANAGER__CREATEMEMBERENTITY_OFFSET UNITYSDK_OFFSET(0xB2AB440)
-#define RPG_CLIENT_TEAMMANAGER__CREATEPLAYERSTUB_OFFSET UNITYSDK_OFFSET(0xB2B0D60)
-#define RPG_CLIENT_TEAMMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xB2A9D30)
-#define RPG_CLIENT_TEAMMANAGER__DOSWITCHTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xB2ADEB0)
-#define RPG_CLIENT_TEAMMANAGER__GETENTITYISLOCKCONTROL_OFFSET UNITYSDK_OFFSET(0xB2B17F0)
-#define RPG_CLIENT_TEAMMANAGER__GETENTITYISVISIBLE_OFFSET UNITYSDK_OFFSET(0xB2B1870)
-#define RPG_CLIENT_TEAMMANAGER__INITLIGHTTEAMENTITY_OFFSET UNITYSDK_OFFSET(0xB2AAC10)
-#define RPG_CLIENT_TEAMMANAGER__INITTELEPORTSEQ_OFFSET UNITYSDK_OFFSET(0xB2A9340)
-#define RPG_CLIENT_TEAMMANAGER__ISTEAMMEMBERLISTSYNCED_OFFSET UNITYSDK_OFFSET(0xB2B14D0)
-#define RPG_CLIENT_TEAMMANAGER__ONADVENTUREBUFFSYNC_OFFSET UNITYSDK_OFFSET(0xB2B4650)
-#define RPG_CLIENT_TEAMMANAGER__ONAVATARSYNCDATA_OFFSET UNITYSDK_OFFSET(0xB2B1990)
-#define RPG_CLIENT_TEAMMANAGER__ONTEAMCHANGESTORYMODE_OFFSET UNITYSDK_OFFSET(0xB2B4190)
-#define RPG_CLIENT_TEAMMANAGER__ONTEAMLEADERCHANGEMODEL_OFFSET UNITYSDK_OFFSET(0xB2B4580)
-#define RPG_CLIENT_TEAMMANAGER__ONTEAMLEADERSWITCHED_OFFSET UNITYSDK_OFFSET(0xB2B4120)
-#define RPG_CLIENT_TEAMMANAGER__ONTEAMLINEUPSYNCED_OFFSET UNITYSDK_OFFSET(0xB2B4380)
-#define RPG_CLIENT_TEAMMANAGER__REMOVEMEMBERSCHANGEDOUT_OFFSET UNITYSDK_OFFSET(0xB2ACD40)
-#define RPG_CLIENT_TEAMMANAGER__SETENTITYISLOCKCONTROL_OFFSET UNITYSDK_OFFSET(0xB2B18D0)
-#define RPG_CLIENT_TEAMMANAGER__SETPLAYERENTITYLEADER_OFFSET UNITYSDK_OFFSET(0xB2AC650)
-#define RPG_CLIENT_TEAMMANAGER__SETPLAYERENTITYVISIBILITY_OFFSET UNITYSDK_OFFSET(0xB2AC5C0)
-#define RPG_CLIENT_TEAMMANAGER__SETUPLIGHTTEAMPROPERTYDEF_OFFSET UNITYSDK_OFFSET(0xB2B0A50)
-#define RPG_CLIENT_TEAMMANAGER__SWAPVISIBLEANDPHYSICSATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xB2B16B0)
-#define RPG_CLIENT_TEAMMANAGER__SWITCHCAMERAFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xB2B07F0)
-#define RPG_CLIENT_TEAMMANAGER__SYNCMEMBERINFO_OFFSET UNITYSDK_OFFSET(0xB2AB8C0)
-#define RPG_CLIENT_TEAMMANAGER__TICKTELEPORTSEQ_OFFSET UNITYSDK_OFFSET(0xB2A9B90)
-#define RPG_CLIENT_TEAMMANAGER__UNINITTELEPORTSEQ_OFFSET UNITYSDK_OFFSET(0xB2A95A0)
-#define RPG_CLIENT_TEAMMANAGER__WAITLINEUPREADY_OFFSET UNITYSDK_OFFSET(0xB2AB780)
-#define RPG_CLIENT_TEAMMANAGER__WRITEMEMBERDATATOENTITY_OFFSET UNITYSDK_OFFSET(0xB2B11A0)
+#define RPG_CLIENT_TEAMMANAGER_ALLPLAYERLOADED_OFFSET UNITYSDK_OFFSET(0xC9F9680)
+#define RPG_CLIENT_TEAMMANAGER_APPLEEXTRAPROPERTYADDITION_OFFSET UNITYSDK_OFFSET(0xCA00270)
+#define RPG_CLIENT_TEAMMANAGER_CANSWITCHTEAMLEADERTO_OFFSET UNITYSDK_OFFSET(0xC9FEF80)
+#define RPG_CLIENT_TEAMMANAGER_CHANGETEAMMEMBERSTORYMODE_OFFSET UNITYSDK_OFFSET(0xC9FA250)
+#define RPG_CLIENT_TEAMMANAGER_CREATELOCALPLAYERTEAM_OFFSET UNITYSDK_OFFSET(0xC9F97B0)
+#define RPG_CLIENT_TEAMMANAGER_CREATETEAMMEMBERENTITYS_OFFSET UNITYSDK_OFFSET(0xC9F9C10)
+#define RPG_CLIENT_TEAMMANAGER_CTRLOTHERENTITY_OFFSET UNITYSDK_OFFSET(0xCA012B0)
+#define RPG_CLIENT_TEAMMANAGER_DISABLEAVATARREFRESH_OFFSET UNITYSDK_OFFSET(0xC9FB910)
+#define RPG_CLIENT_TEAMMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC9F8C20)
+#define RPG_CLIENT_TEAMMANAGER_ENABLEAVATARREFRESH_OFFSET UNITYSDK_OFFSET(0xC9FB9B0)
+#define RPG_CLIENT_TEAMMANAGER_GETAVATARBYENTITY_OFFSET UNITYSDK_OFFSET(0xCA011B0)
+#define RPG_CLIENT_TEAMMANAGER_GETMEMBERDATABYMEMBERENTITY_OFFSET UNITYSDK_OFFSET(0xC9FF650)
+#define RPG_CLIENT_TEAMMANAGER_GETMEMBERENTITYBYAVATARID_OFFSET UNITYSDK_OFFSET(0xC9FF5C0)
+#define RPG_CLIENT_TEAMMANAGER_GETMEMBERENTITYBYMEMBERDATA_OFFSET UNITYSDK_OFFSET(0xC9FF520)
+#define RPG_CLIENT_TEAMMANAGER_GETPLAYERDATABYENTITY_OFFSET UNITYSDK_OFFSET(0xCA003B0)
+#define RPG_CLIENT_TEAMMANAGER_GET_CURRENTTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xC9F8550)
+#define RPG_CLIENT_TEAMMANAGER_GET_FAKEAVATAR_OFFSET UNITYSDK_OFFSET(0xCA03F10)
+#define RPG_CLIENT_TEAMMANAGER_GET_ISALLOWEDREFRESH_OFFSET UNITYSDK_OFFSET(0xCA04080)
+#define RPG_CLIENT_TEAMMANAGER_GET_ISMAINCHARACTERONLYTEAM_OFFSET UNITYSDK_OFFSET(0xCA04020)
+#define RPG_CLIENT_TEAMMANAGER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xCA03910)
+#define RPG_CLIENT_TEAMMANAGER_GET_NEXTTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xCA03E80)
+#define RPG_CLIENT_TEAMMANAGER_GET_REALTEAMLEADERAVATARID_OFFSET UNITYSDK_OFFSET(0xCA03F30)
+#define RPG_CLIENT_TEAMMANAGER_GET_REALTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xCA03F20)
+#define RPG_CLIENT_TEAMMANAGER_GET_STARTCONTROLPOS_OFFSET UNITYSDK_OFFSET(0xCA03E90)
+#define RPG_CLIENT_TEAMMANAGER_GET_STARTCONTROLROT_OFFSET UNITYSDK_OFFSET(0xCA03ED0)
+#define RPG_CLIENT_TEAMMANAGER_GET_TEAMMEMBERLIST_OFFSET UNITYSDK_OFFSET(0xCA04010)
+#define RPG_CLIENT_TEAMMANAGER_LOADBACKGROUNDPLAYER_OFFSET UNITYSDK_OFFSET(0xC9F9360)
+#define RPG_CLIENT_TEAMMANAGER_REFRESHTEAMEXTRAPROPERTYADDITION_OFFSET UNITYSDK_OFFSET(0xC9FEDA0)
+#define RPG_CLIENT_TEAMMANAGER_REFRESHTEAMMEMBERENTITYS_OFFSET UNITYSDK_OFFSET(0xC9FBA50)
+#define RPG_CLIENT_TEAMMANAGER_REMOVETEAMMEMBERENTITY_OFFSET UNITYSDK_OFFSET(0xC9FF7A0)
+#define RPG_CLIENT_TEAMMANAGER_RESETAUDIOLISTNERFOLLOWTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xC9FF980)
+#define RPG_CLIENT_TEAMMANAGER_RESETTEAMMEMBERLIST_OFFSET UNITYSDK_OFFSET(0xC9FCEF0)
+#define RPG_CLIENT_TEAMMANAGER_REVERTEXTRAPROPERTYADDITION_OFFSET UNITYSDK_OFFSET(0xC9FFCE0)
+#define RPG_CLIENT_TEAMMANAGER_SETUPTEAMLEADERINFO_OFFSET UNITYSDK_OFFSET(0xC9FA870)
+#define RPG_CLIENT_TEAMMANAGER_SET_CURRENTTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xC9F8F00)
+#define RPG_CLIENT_TEAMMANAGER_SET_FAKEAVATAR_OFFSET UNITYSDK_OFFSET(0xCA035C0)
+#define RPG_CLIENT_TEAMMANAGER_SET_STARTCONTROLPOS_OFFSET UNITYSDK_OFFSET(0xCA03EB0)
+#define RPG_CLIENT_TEAMMANAGER_SET_STARTCONTROLROT_OFFSET UNITYSDK_OFFSET(0xCA03EF0)
+#define RPG_CLIENT_TEAMMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0xC9F8A10)
+#define RPG_CLIENT_TEAMMANAGER_TRYCHANGETOTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xC9FF8E0)
+#define RPG_CLIENT_TEAMMANAGER_TRYSWITCHTEAMLEADERBYSLOTID_OFFSET UNITYSDK_OFFSET(0xC9FEEC0)
+#define RPG_CLIENT_TEAMMANAGER_TRYTRIGGERPLAYERTELEPORT_OFFSET UNITYSDK_OFFSET(0xC9F81F0)
+#define RPG_CLIENT_TEAMMANAGER_UNLOADBACKGROUNDPLAYER_OFFSET UNITYSDK_OFFSET(0xC9F90D0)
+#define RPG_CLIENT_TEAMMANAGER__ADDMEMBERSCHANGEDIN_OFFSET UNITYSDK_OFFSET(0xC9FCD70)
+#define RPG_CLIENT_TEAMMANAGER__BINDINPUTCONTROLLERTOENTITY_OFFSET UNITYSDK_OFFSET(0xC9FB8A0)
+#define RPG_CLIENT_TEAMMANAGER__CANSYNCMEMBERINFO_OFFSET UNITYSDK_OFFSET(0xC9FA5E0)
+#define RPG_CLIENT_TEAMMANAGER__CHANGEFAKEAVATARSTORYMODE_OFFSET UNITYSDK_OFFSET(0xCA03840)
+#define RPG_CLIENT_TEAMMANAGER__CHANGETEAMMEMBERSTORYMODE_OFFSET UNITYSDK_OFFSET(0xC9FA2A0)
+#define RPG_CLIENT_TEAMMANAGER__CHECKTELEPORTANDSTORYMODECONFLICT_OFFSET UNITYSDK_OFFSET(0xC9F80C0)
+#define RPG_CLIENT_TEAMMANAGER__CREATEFAKEAVATARENTITY_OFFSET UNITYSDK_OFFSET(0xCA00150)
+#define RPG_CLIENT_TEAMMANAGER__CREATELEADERMEMBERENTITY_OFFSET UNITYSDK_OFFSET(0xC9FA160)
+#define RPG_CLIENT_TEAMMANAGER__CREATEMEMBERENTITY_1_OFFSET UNITYSDK_OFFSET(0xC9FFD50)
+#define RPG_CLIENT_TEAMMANAGER__CREATEMEMBERENTITY_OFFSET UNITYSDK_OFFSET(0xC9FA1D0)
+#define RPG_CLIENT_TEAMMANAGER__CREATEPLAYERSTUB_OFFSET UNITYSDK_OFFSET(0xCA001F0)
+#define RPG_CLIENT_TEAMMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xC9F8740)
+#define RPG_CLIENT_TEAMMANAGER__DOSWITCHTEAMLEADER_OFFSET UNITYSDK_OFFSET(0xC9FD130)
+#define RPG_CLIENT_TEAMMANAGER__GETENTITYISLOCKCONTROL_OFFSET UNITYSDK_OFFSET(0xCA00D60)
+#define RPG_CLIENT_TEAMMANAGER__GETENTITYISVISIBLE_OFFSET UNITYSDK_OFFSET(0xCA00DE0)
+#define RPG_CLIENT_TEAMMANAGER__INITLIGHTTEAMENTITY_OFFSET UNITYSDK_OFFSET(0xC9F9830)
+#define RPG_CLIENT_TEAMMANAGER__INITTELEPORTSEQ_OFFSET UNITYSDK_OFFSET(0xC9F7D70)
+#define RPG_CLIENT_TEAMMANAGER__ISENTITYFORBIDOFFSTAGE_OFFSET UNITYSDK_OFFSET(0xC9FFED0)
+#define RPG_CLIENT_TEAMMANAGER__ISTARGETSUMMONUNITFORBIDOFFSTAGE_OFFSET UNITYSDK_OFFSET(0xC9FFF90)
+#define RPG_CLIENT_TEAMMANAGER__ISTEAMMEMBERLISTSYNCED_OFFSET UNITYSDK_OFFSET(0xCA00A50)
+#define RPG_CLIENT_TEAMMANAGER__ONADVENTUREBUFFSYNC_OFFSET UNITYSDK_OFFSET(0xCA03C10)
+#define RPG_CLIENT_TEAMMANAGER__ONAVATARSYNCDATA_OFFSET UNITYSDK_OFFSET(0xCA00F00)
+#define RPG_CLIENT_TEAMMANAGER__ONTEAMCHANGESTORYMODE_OFFSET UNITYSDK_OFFSET(0xCA03770)
+#define RPG_CLIENT_TEAMMANAGER__ONTEAMLEADERCHANGEMODEL_OFFSET UNITYSDK_OFFSET(0xCA03B30)
+#define RPG_CLIENT_TEAMMANAGER__ONTEAMLEADERSWITCHED_OFFSET UNITYSDK_OFFSET(0xCA03700)
+#define RPG_CLIENT_TEAMMANAGER__ONTEAMLINEUPSYNCED_OFFSET UNITYSDK_OFFSET(0xCA03960)
+#define RPG_CLIENT_TEAMMANAGER__REMOVEMEMBERSCHANGEDOUT_OFFSET UNITYSDK_OFFSET(0xC9FBC70)
+#define RPG_CLIENT_TEAMMANAGER__SETENTITYISLOCKCONTROL_OFFSET UNITYSDK_OFFSET(0xCA00E40)
+#define RPG_CLIENT_TEAMMANAGER__SETPLAYERENTITYLEADER_OFFSET UNITYSDK_OFFSET(0xC9FB490)
+#define RPG_CLIENT_TEAMMANAGER__SETPLAYERENTITYVISIBILITY_OFFSET UNITYSDK_OFFSET(0xC9FB400)
+#define RPG_CLIENT_TEAMMANAGER__SETUPLIGHTTEAMPROPERTYDEF_OFFSET UNITYSDK_OFFSET(0xC9FFC50)
+#define RPG_CLIENT_TEAMMANAGER__SWAPVISIBLEANDPHYSICSATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xCA00C20)
+#define RPG_CLIENT_TEAMMANAGER__SWITCHCAMERAFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xC9FF9E0)
+#define RPG_CLIENT_TEAMMANAGER__SYNCMEMBERINFO_OFFSET UNITYSDK_OFFSET(0xC9FA670)
+#define RPG_CLIENT_TEAMMANAGER__TICKTELEPORTSEQ_OFFSET UNITYSDK_OFFSET(0xC9F85B0)
+#define RPG_CLIENT_TEAMMANAGER__UNINITTELEPORTSEQ_OFFSET UNITYSDK_OFFSET(0xC9F7FD0)
+#define RPG_CLIENT_TEAMMANAGER__WAITLINEUPREADY_OFFSET UNITYSDK_OFFSET(0xC9FA530)
+#define RPG_CLIENT_TEAMMANAGER__WRITEMEMBERDATATOENTITY_OFFSET UNITYSDK_OFFSET(0xCA005D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamManager_TypeDefinitionIndex = 56042;
+	inline static constexpr unsigned int TeamManager_TypeDefinitionIndex = 56804;
 
 	class TeamManager : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::TaskContext* _TeamLeaderContex; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _TeamMemberList; // 0x18
-		::Class_3_E21F6DE9B7FA4D05* _OnTeleportCrossMapSeq; // 0x20
-		::System::String* _MainControllSource; // 0x28
-		::RPG::GameCore::GameEntity* _currentTeamLeader; // 0x30
-		::RPG::Client::Stage* _MainControlSourceStage; // 0x38
-		::System::Collections::Generic::List_1<::Struct_2_368E776E7CE1A63A>* _PendingHideLocalPlayers; // 0x40
-		::RPG::Client::TeamData* _CurrentTeamData; // 0x48
-		::RPG::GameCore::GameEntity* _FakeAvatarTeamLeader; // 0x50
-		::RPG::GameCore::GameWorld* _GameWorld; // 0x58
-		::Class_3_E21F6DE9B7FA4D05* _OnTeleportNoSwitchInWhite; // 0x60
-		::Class_3_E21F6DE9B7FA4D05* _OnTeleportSeq; // 0x68
-		::RPG::GameCore::GameEntity* _ControlledEntity; // 0x70
-		::Class_3_E21F6DE9B7FA4D05* _OnTeleportNoSwitchIn; // 0x78
-		::RPG::GameCore::GameEntity* _nextTeamLeader; // 0x80
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GameEntity*>* _TeamMemberDict; // 0x88
-		::System::Action* _OnTeleportFinishCallback; // 0x90
-		::Class_3_E21F6DE9B7FA4D05* _CurrentRunningTeleportSeq; // 0x98
-		::System::Boolean _RecoverUseControlEntityPosition; // 0xA0
-		::System::Boolean _IsAllowedRefresh; // 0xA1
-		::System::Boolean _IsTeamLoading; // 0xA2
+		::System::String* _MainControllSource; // 0x10
+		::RPG::GameCore::GameEntity* _FakeAvatarTeamLeader; // 0x18
+		::Class_3_07C3C4D2990C49EE* _OnTeleportSeq; // 0x20
+		::Class_3_07C3C4D2990C49EE* _OnTeleportNoSwitchIn; // 0x28
+		::System::Action* _OnTeleportFinishCallback; // 0x30
+		::System::Collections::Generic::List_1<::Struct_2_368E776E7CE1A63A>* _PendingHideLocalPlayers; // 0x38
+		::RPG::GameCore::GameEntity* _ControlledEntity; // 0x40
+		::Class_3_07C3C4D2990C49EE* _OnTeleportNoSwitchInWhite; // 0x48
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _TeamMemberList; // 0x50
+		::RPG::GameCore::GameEntity* _nextTeamLeader; // 0x58
+		::RPG::Client::Stage* _MainControlSourceStage; // 0x60
+		::RPG::GameCore::TaskContext* _TeamLeaderContex; // 0x68
+		::Class_3_07C3C4D2990C49EE* _CurrentRunningTeleportSeq; // 0x70
+		::RPG::GameCore::GameWorld* _GameWorld; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GameEntity*>* _TeamMemberDict; // 0x80
+		::Class_3_07C3C4D2990C49EE* _OnTeleportCrossMapSeq; // 0x88
+		::RPG::Client::TeamData* _CurrentTeamData; // 0x90
+		::RPG::GameCore::GameEntity* _currentTeamLeader; // 0x98
+		::System::Boolean _IsTeamLoading; // 0xA0
+		::System::Boolean _RecoverUseControlEntityPosition; // 0xA1
+		::System::Boolean _IsAllowedRefresh; // 0xA2
 		::RPG::MVector3 _StartControlPos_k__BackingField; // 0xA4
 		::RPG::MVector3 _StartControlRot_k__BackingField; // 0xB0
 
@@ -153,24 +155,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__UNINITTELEPORTSEQ_OFFSET))(this);
 		}
 
-		::System::Void _CheckTeleportAndStoryModeConflict(::System::Boolean isStoryMode)
+		::System::Void _CheckTeleportAndStoryModeConflict(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CHECKTELEPORTANDSTORYMODECONFLICT_OFFSET))(this, isStoryMode);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CHECKTELEPORTANDSTORYMODECONFLICT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryTriggerPlayerTeleport(::System::Boolean bCrossMap, ::System::Action* callback)
+		::System::Boolean TryTriggerPlayerTeleport(::System::Boolean a1, ::System::Action* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_TRYTRIGGERPLAYERTELEPORT_OFFSET))(this, bCrossMap, callback);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_TRYTRIGGERPLAYERTELEPORT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _TickTeleportSeq(::System::Single fElapsedTimeInSec)
+		::System::Void _TickTeleportSeq(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__TICKTELEPORTSEQ_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__TICKTELEPORTSEQ_OFFSET))(this, a1);
 		}
 
-		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		::System::Void Tick(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_TICK_OFFSET))(this, fElapsedTimeInSec);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_TICK_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -178,44 +180,44 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_DISPOSE_OFFSET))(this);
 		}
 
-		::UnityEngine::AsyncOperation* UnLoadBackGroundPlayer(::System::Action* unloadFinish, ::System::Int32 maxUnloadcnt)
+		::UnityEngine::AsyncOperation* UnLoadBackGroundPlayer(::System::Action* a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::AsyncOperation*(*)(::PVOID, ::System::Action*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_UNLOADBACKGROUNDPLAYER_OFFSET))(this, unloadFinish, maxUnloadcnt);
+			return ((::UnityEngine::AsyncOperation*(*)(::PVOID, ::System::Action*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_UNLOADBACKGROUNDPLAYER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LoadBackGroundPlayer(::System::Action* onLoadFinish, ::System::Boolean isSyncLoad)
+		::System::Void LoadBackGroundPlayer(::System::Action* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_LOADBACKGROUNDPLAYER_OFFSET))(this, onLoadFinish, isSyncLoad);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_LOADBACKGROUNDPLAYER_OFFSET))(this, a1, a2);
 		}
 
-		static ::RPG::Client::TeamManager* CreateLocalPlayerTeam(::RPG::GameCore::GameWorld* gameWorld, ::System::UInt32 planeID)
+		static ::RPG::Client::TeamManager* CreateLocalPlayerTeam(::RPG::GameCore::GameWorld* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::TeamManager*(*)(::RPG::GameCore::GameWorld*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CREATELOCALPLAYERTEAM_OFFSET))(gameWorld, planeID);
+			return ((::RPG::Client::TeamManager*(*)(::RPG::GameCore::GameWorld*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CREATELOCALPLAYERTEAM_OFFSET))(a1, a2);
 		}
 
-		::System::Void CreateTeamMemberEntitys(::RPG::Client::TeamData* teamData)
+		::System::Void CreateTeamMemberEntitys(::RPG::Client::TeamData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CREATETEAMMEMBERENTITYS_OFFSET))(this, teamData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CREATETEAMMEMBERENTITYS_OFFSET))(this, a1);
 		}
 
-		::System::Void ChangeTeamMemberStoryMode(::System::Boolean isStoryMode)
+		::System::Void ChangeTeamMemberStoryMode(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CHANGETEAMMEMBERSTORYMODE_OFFSET))(this, isStoryMode);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CHANGETEAMMEMBERSTORYMODE_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_265*>* _WaitLineupReady()
+		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_278*>* _WaitLineupReady()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_265*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__WAITLINEUPREADY_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_278*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__WAITLINEUPREADY_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_265*>* _CreateLeaderMemberEntity(::System::Boolean bAsyncLoad, ::System::Action* onAsyncLoadFinish)
+		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_278*>* _CreateLeaderMemberEntity(::System::Boolean a1, ::System::Action* a2)
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_265*>*(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATELEADERMEMBERENTITY_OFFSET))(this, bAsyncLoad, onAsyncLoadFinish);
+			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_278*>*(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATELEADERMEMBERENTITY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_265*>* _CreateMemberEntity(::System::Int32 memberDataIdx, ::System::Boolean bAsyncLoad, ::System::Action* onAsyncLoadFinish)
+		::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_278*>* _CreateMemberEntity(::System::Int32 a1, ::System::Boolean a2, ::System::Action* a3)
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_265*>*(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATEMEMBERENTITY_OFFSET))(this, memberDataIdx, bAsyncLoad, onAsyncLoadFinish);
+			return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_278*>*(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATEMEMBERENTITY_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean _CanSyncMemberInfo()
@@ -228,9 +230,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SYNCMEMBERINFO_OFFSET))(this);
 		}
 
-		::System::Void SetupTeamLeaderInfo(::UnityEngine::Vector3 playingMemberStartPos, ::UnityEngine::Quaternion playingMemberStartRot)
+		::System::Void SetupTeamLeaderInfo(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_SETUPTEAMLEADERINFO_OFFSET))(this, playingMemberStartPos, playingMemberStartRot);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_SETUPTEAMLEADERINFO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void DisableAvatarRefresh()
@@ -243,34 +245,34 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_ENABLEAVATARREFRESH_OFFSET))(this);
 		}
 
-		::System::Void RefreshTeamMemberEntitys(::RPG::Client::TeamData* teamData, ::System::Boolean isHeroTypeChanged, ::System::Boolean bForceRefresh)
+		::System::Void RefreshTeamMemberEntitys(::RPG::Client::TeamData* a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_REFRESHTEAMMEMBERENTITYS_OFFSET))(this, teamData, isHeroTypeChanged, bForceRefresh);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_REFRESHTEAMMEMBERENTITYS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void TrySwitchTeamLeaderBySlotID(::System::Int32 slotID)
+		::System::Void TrySwitchTeamLeaderBySlotID(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_TRYSWITCHTEAMLEADERBYSLOTID_OFFSET))(this, slotID);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_TRYSWITCHTEAMLEADERBYSLOTID_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::GameEntity* GetMemberEntityByMemberData(::RPG::Client::MemberData* memberData)
+		::RPG::GameCore::GameEntity* GetMemberEntityByMemberData(::RPG::Client::MemberData* a1)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GETMEMBERENTITYBYMEMBERDATA_OFFSET))(this, memberData);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GETMEMBERENTITYBYMEMBERDATA_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::GameEntity* GetMemberEntityByAvatarID(::System::UInt32 avatarID)
+		::RPG::GameCore::GameEntity* GetMemberEntityByAvatarID(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GETMEMBERENTITYBYAVATARID_OFFSET))(this, avatarID);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GETMEMBERENTITYBYAVATARID_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MemberData* GetMemberDataByMemberEntity(::RPG::GameCore::GameEntity* memberEntity)
+		::RPG::Client::MemberData* GetMemberDataByMemberEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::Client::MemberData*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GETMEMBERDATABYMEMBERENTITY_OFFSET))(this, memberEntity);
+			return ((::RPG::Client::MemberData*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GETMEMBERDATABYMEMBERENTITY_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveTeamMemberEntity(::RPG::GameCore::GameEntity* pRemoveEntity)
+		::System::Void RemoveTeamMemberEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_REMOVETEAMMEMBERENTITY_OFFSET))(this, pRemoveEntity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_REMOVETEAMMEMBERENTITY_OFFSET))(this, a1);
 		}
 
 		::System::Void TryChangeToTeamLeader()
@@ -288,59 +290,69 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_ALLPLAYERLOADED_OFFSET))(this);
 		}
 
-		::System::Void _SetupLightTeamPropertyDef(::RPG::GameCore::GameEntity* pEntity, ::RPG::GameCore::AdventureAbilityComponent* pAdvAbility)
+		::System::Void _SetupLightTeamPropertyDef(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::AdventureAbilityComponent* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::AdventureAbilityComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SETUPLIGHTTEAMPROPERTYDEF_OFFSET))(this, pEntity, pAdvAbility);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::AdventureAbilityComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SETUPLIGHTTEAMPROPERTYDEF_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _InitLightTeamEntity(::System::UInt32 planeID)
+		::System::Void _InitLightTeamEntity(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__INITLIGHTTEAMENTITY_OFFSET))(this, planeID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__INITLIGHTTEAMENTITY_OFFSET))(this, a1);
 		}
 
-		::System::Void _RemoveMembersChangedOut(::Il2CppArray<::RPG::Client::MemberData*>* memberDatas, ::System::Boolean isHeroTypeChanged)
+		::System::Void _RemoveMembersChangedOut(::Il2CppArray<::RPG::Client::MemberData*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MemberData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__REMOVEMEMBERSCHANGEDOUT_OFFSET))(this, memberDatas, isHeroTypeChanged);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MemberData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__REMOVEMEMBERSCHANGEDOUT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _AddMembersChangedIn(::Il2CppArray<::RPG::Client::MemberData*>* memberDatas, ::System::Boolean isHeroTypeChange)
+		::System::Void _AddMembersChangedIn(::Il2CppArray<::RPG::Client::MemberData*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MemberData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ADDMEMBERSCHANGEDIN_OFFSET))(this, memberDatas, isHeroTypeChange);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MemberData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ADDMEMBERSCHANGEDIN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CanSwitchTeamLeaderTo(::System::Int32 slotID, ::System::Boolean forceSwitch)
+		::System::Boolean CanSwitchTeamLeaderTo(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CANSWITCHTEAMLEADERTO_OFFSET))(this, slotID, forceSwitch);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CANSWITCHTEAMLEADERTO_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::GameEntity* _CreateMemberEntity_1(::RPG::Client::MemberData* memberData, ::System::Boolean bAsyncLoad, ::System::Action_1<::RPG::GameCore::GameEntity*>* onAsyncLoadFinish)
+		::System::Boolean _IsTargetSummonUnitForbidOffStage(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MemberData*, ::System::Boolean, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATEMEMBERENTITY_1_OFFSET))(this, memberData, bAsyncLoad, onAsyncLoadFinish);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ISTARGETSUMMONUNITFORBIDOFFSTAGE_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::GameEntity* _CreateFakeAvatarEntity(::Class_1_DCED81BA3E7C7B2D* memberData, ::RPG::GameCore::GameEntity* controlEntity)
+		::System::Boolean _IsEntityForbidOffStage(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::Class_1_DCED81BA3E7C7B2D*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATEFAKEAVATARENTITY_OFFSET))(this, memberData, controlEntity);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ISENTITYFORBIDOFFSTAGE_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::GameEntity* _CreatePlayerStub(::RPG::GameCore::GameEntity* targetEntity)
+		::RPG::GameCore::GameEntity* _CreateMemberEntity_1(::RPG::Client::MemberData* a1, ::System::Boolean a2, ::System::Action_1<::RPG::GameCore::GameEntity*>* a3)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATEPLAYERSTUB_OFFSET))(this, targetEntity);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MemberData*, ::System::Boolean, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATEMEMBERENTITY_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AppleExtraPropertyAddition(::RPG::GameCore::GameEntity* pEntity)
+		::RPG::GameCore::GameEntity* _CreateFakeAvatarEntity(::Class_1_DCED81BA3E7C7B2D* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_APPLEEXTRAPROPERTYADDITION_OFFSET))(this, pEntity);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::Class_1_DCED81BA3E7C7B2D*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATEFAKEAVATARENTITY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RevertExtraPropertyAddition(::RPG::GameCore::GameEntity* pEntity)
+		::RPG::GameCore::GameEntity* _CreatePlayerStub(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_REVERTEXTRAPROPERTYADDITION_OFFSET))(this, pEntity);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATEPLAYERSTUB_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::IAvatarInfoProvider* GetPlayerDataByEntity(::RPG::GameCore::GameEntity* pEntity)
+		::System::Void AppleExtraPropertyAddition(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GETPLAYERDATABYENTITY_OFFSET))(this, pEntity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_APPLEEXTRAPROPERTYADDITION_OFFSET))(this, a1);
+		}
+
+		::System::Void RevertExtraPropertyAddition(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_REVERTEXTRAPROPERTYADDITION_OFFSET))(this, a1);
+		}
+
+		::RPG::AvatarSystem::IAvatar* GetPlayerDataByEntity(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GETPLAYERDATABYENTITY_OFFSET))(this, a1);
 		}
 
 		::System::Void RefreshTeamExtraPropertyAddition()
@@ -348,14 +360,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_REFRESHTEAMEXTRAPROPERTYADDITION_OFFSET))(this);
 		}
 
-		::System::Void _WriteMemberDataToEntity(::RPG::GameCore::GameEntity* memberEntity, ::RPG::Client::MemberData* memberData)
+		::System::Void _WriteMemberDataToEntity(::RPG::GameCore::GameEntity* a1, ::RPG::Client::MemberData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__WRITEMEMBERDATATOENTITY_OFFSET))(this, memberEntity, memberData);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__WRITEMEMBERDATATOENTITY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ResetTeamMemberList(::Il2CppArray<::RPG::Client::MemberData*>* memberDatas)
+		::System::Void ResetTeamMemberList(::Il2CppArray<::RPG::Client::MemberData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MemberData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_RESETTEAMMEMBERLIST_OFFSET))(this, memberDatas);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::MemberData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_RESETTEAMMEMBERLIST_OFFSET))(this, a1);
 		}
 
 		::System::Boolean _IsTeamMemberListSynced()
@@ -363,99 +375,99 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ISTEAMMEMBERLISTSYNCED_OFFSET))(this);
 		}
 
-		::System::Void _SetPlayerEntityVisibility(::RPG::GameCore::GameEntity* playerEntity, ::System::Boolean visible)
+		::System::Void _SetPlayerEntityVisibility(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SETPLAYERENTITYVISIBILITY_OFFSET))(this, playerEntity, visible);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SETPLAYERENTITYVISIBILITY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _SwapVisibleAndPhysicsAttribute(::RPG::GameCore::GameEntity* oldLeader, ::RPG::GameCore::GameEntity* newLeader)
+		::System::Void _SwapVisibleAndPhysicsAttribute(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SWAPVISIBLEANDPHYSICSATTRIBUTE_OFFSET))(this, oldLeader, newLeader);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SWAPVISIBLEANDPHYSICSATTRIBUTE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _SetPlayerEntityLeader(::RPG::GameCore::GameEntity* playerEntity, ::System::Boolean isLeader)
+		::System::Void _SetPlayerEntityLeader(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SETPLAYERENTITYLEADER_OFFSET))(this, playerEntity, isLeader);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SETPLAYERENTITYLEADER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _BindInputControllerToEntity(::RPG::GameCore::GameEntity* pEntity, ::System::Boolean bBind)
+		::System::Void _BindInputControllerToEntity(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__BINDINPUTCONTROLLERTOENTITY_OFFSET))(this, pEntity, bBind);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__BINDINPUTCONTROLLERTOENTITY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _GetEntityIsLockControl(::RPG::GameCore::GameEntity* pEntity)
+		::System::Boolean _GetEntityIsLockControl(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__GETENTITYISLOCKCONTROL_OFFSET))(this, pEntity);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__GETENTITYISLOCKCONTROL_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetEntityIsVisible(::RPG::GameCore::GameEntity* pEntity)
+		::System::Boolean _GetEntityIsVisible(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__GETENTITYISVISIBLE_OFFSET))(this, pEntity);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__GETENTITYISVISIBLE_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetEntityIsLockControl(::RPG::GameCore::GameEntity* pEntity, ::System::Boolean bIsLockControl)
+		::System::Void _SetEntityIsLockControl(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SETENTITYISLOCKCONTROL_OFFSET))(this, pEntity, bIsLockControl);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SETENTITYISLOCKCONTROL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _OnAvatarSyncData(::System::Object* param)
+		::System::Void _OnAvatarSyncData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONAVATARSYNCDATA_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONAVATARSYNCDATA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::IAvatarInfoProvider* GetAvatarByEntity(::RPG::GameCore::GameEntity* ownerRef)
+		::RPG::AvatarSystem::IAvatar* GetAvatarByEntity(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GETAVATARBYENTITY_OFFSET))(this, ownerRef);
+			return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GETAVATARBYENTITY_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::GameEntity* CtrlOtherEntity(::RPG::GameCore::GameEntity* other, ::System::Boolean ctrlOther, ::System::Boolean recoverUseOtherPosition, ::System::UInt32 specialNPCID, ::System::Boolean leavePlayerStubInplace, ::System::Nullable_1<::UnityEngine::Vector3> stubPosition, ::System::Nullable_1<::UnityEngine::Quaternion> stubRotation, ::System::String* stubAnimation, ::System::Nullable_1<::UnityEngine::Vector3> forcePosition, ::System::Nullable_1<::UnityEngine::Quaternion> forceRotation)
+		::RPG::GameCore::GameEntity* CtrlOtherEntity(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::UInt32 a4, ::System::Boolean a5, ::System::Nullable_1<::UnityEngine::Vector3> a6, ::System::Nullable_1<::UnityEngine::Quaternion> a7, ::System::String* a8, ::System::Nullable_1<::UnityEngine::Vector3> a9, ::System::Nullable_1<::UnityEngine::Quaternion> a10)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::String*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CTRLOTHERENTITY_OFFSET))(this, other, ctrlOther, recoverUseOtherPosition, specialNPCID, leavePlayerStubInplace, stubPosition, stubRotation, stubAnimation, forcePosition, forceRotation);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::String*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CTRLOTHERENTITY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::System::Boolean _DoSwitchTeamLeader(::System::Boolean forceSwitch)
+		::System::Boolean _DoSwitchTeamLeader(::System::Boolean a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__DOSWITCHTEAMLEADER_OFFSET))(this, forceSwitch);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__DOSWITCHTEAMLEADER_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnTeamLeaderSwitched(::System::Object* param)
+		::System::Void _OnTeamLeaderSwitched(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONTEAMLEADERSWITCHED_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONTEAMLEADERSWITCHED_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnTeamChangeStoryMode(::System::Object* param)
+		::System::Void _OnTeamChangeStoryMode(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONTEAMCHANGESTORYMODE_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONTEAMCHANGESTORYMODE_OFFSET))(this, a1);
 		}
 
-		::System::Void _ChangeFakeAvatarStoryMode(::System::Boolean isStoryMode)
+		::System::Void _ChangeFakeAvatarStoryMode(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CHANGEFAKEAVATARSTORYMODE_OFFSET))(this, isStoryMode);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CHANGEFAKEAVATARSTORYMODE_OFFSET))(this, a1);
 		}
 
-		::System::Void _ChangeTeamMemberStoryMode(::System::Boolean isStoryMode)
+		::System::Void _ChangeTeamMemberStoryMode(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CHANGETEAMMEMBERSTORYMODE_OFFSET))(this, isStoryMode);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CHANGETEAMMEMBERSTORYMODE_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnTeamLineupSynced(::System::Object* param)
+		::System::Void _OnTeamLineupSynced(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONTEAMLINEUPSYNCED_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONTEAMLINEUPSYNCED_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnTeamLeaderChangeModel(::System::Object* param)
+		::System::Void _OnTeamLeaderChangeModel(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONTEAMLEADERCHANGEMODEL_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONTEAMLEADERCHANGEMODEL_OFFSET))(this, a1);
 		}
 
-		::System::Void _SwitchCameraFollowTarget(::RPG::GameCore::GameEntity* entity)
+		::System::Void _SwitchCameraFollowTarget(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SWITCHCAMERAFOLLOWTARGET_OFFSET))(this, entity);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__SWITCHCAMERAFOLLOWTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnAdventureBuffSync(::Class_0_16E4307DCC419505_382* evt)
+		::System::Void _OnAdventureBuffSync(::Class_0_16E4307DCC419505_401* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONADVENTUREBUFFSYNC_OFFSET))(this, evt);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_401*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ONADVENTUREBUFFSYNC_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_NextTeamLeader()
@@ -468,9 +480,9 @@ namespace RPG::Client
 			return ((::RPG::MVector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GET_STARTCONTROLPOS_OFFSET))(this);
 		}
 
-		::System::Void set_StartControlPos(::RPG::MVector3 value)
+		::System::Void set_StartControlPos(::RPG::MVector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_SET_STARTCONTROLPOS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_SET_STARTCONTROLPOS_OFFSET))(this, a1);
 		}
 
 		::RPG::MVector3 get_StartControlRot()
@@ -478,9 +490,9 @@ namespace RPG::Client
 			return ((::RPG::MVector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GET_STARTCONTROLROT_OFFSET))(this);
 		}
 
-		::System::Void set_StartControlRot(::RPG::MVector3 value)
+		::System::Void set_StartControlRot(::RPG::MVector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_SET_STARTCONTROLROT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_SET_STARTCONTROLROT_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_FakeAvatar()
@@ -488,9 +500,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GET_FAKEAVATAR_OFFSET))(this);
 		}
 
-		::System::Void set_FakeAvatar(::RPG::GameCore::GameEntity* value)
+		::System::Void set_FakeAvatar(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_SET_FAKEAVATAR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_SET_FAKEAVATAR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* get_RealTeamLeader()
@@ -503,9 +515,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GET_CURRENTTEAMLEADER_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentTeamLeader(::RPG::GameCore::GameEntity* value)
+		::System::Void set_CurrentTeamLeader(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_SET_CURRENTTEAMLEADER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_SET_CURRENTTEAMLEADER_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_RealTeamLeaderAvatarID()

@@ -7,26 +7,26 @@ namespace RPG::CustomRP { class VolumetricCloudLayer; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CUSTOMRP_CLOUDTRANSITION_ADDKEYFRAME_OFFSET UNITYSDK_OFFSET(0x1812DD80)
-#define RPG_CUSTOMRP_CLOUDTRANSITION_CREATEKEYFRAME_OFFSET UNITYSDK_OFFSET(0x1812D960)
-#define RPG_CUSTOMRP_CLOUDTRANSITION_FINDPREVANDNEXTKEYFRAMES_OFFSET UNITYSDK_OFFSET(0x1812D8C0)
-#define RPG_CUSTOMRP_CLOUDTRANSITION_GET_TIME_OFFSET UNITYSDK_OFFSET(0x1812E8A0)
-#define RPG_CUSTOMRP_CLOUDTRANSITION_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1812D720)
-#define RPG_CUSTOMRP_CLOUDTRANSITION_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1812E880)
-#define RPG_CUSTOMRP_CLOUDTRANSITION_REMOVEKEYFRAME_OFFSET UNITYSDK_OFFSET(0x1812DC70)
-#define RPG_CUSTOMRP_CLOUDTRANSITION_SETKEYFRAMETIME_OFFSET UNITYSDK_OFFSET(0x1812DA20)
-#define RPG_CUSTOMRP_CLOUDTRANSITION_SET_TIME_OFFSET UNITYSDK_OFFSET(0x1812E8B0)
-#define RPG_CUSTOMRP_CLOUDTRANSITION_START_OFFSET UNITYSDK_OFFSET(0x1812D710)
-#define RPG_CUSTOMRP_CLOUDTRANSITION_UPDATESHADERPARAMS_1_OFFSET UNITYSDK_OFFSET(0x1812E860)
-#define RPG_CUSTOMRP_CLOUDTRANSITION_UPDATESHADERPARAMS_OFFSET UNITYSDK_OFFSET(0x1812DF00)
-#define RPG_CUSTOMRP_CLOUDTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1812E8E0)
-#define RPG_CUSTOMRP_CLOUDTRANSITION__GETNEXTKEYFRAME_OFFSET UNITYSDK_OFFSET(0x1812DBF0)
-#define RPG_CUSTOMRP_CLOUDTRANSITION__GETPREVKEYFRAME_OFFSET UNITYSDK_OFFSET(0x1812DB80)
-#define RPG_CUSTOMRP_CLOUDTRANSITION__KEYFRAMEINDEXVALID_OFFSET UNITYSDK_OFFSET(0x1812E830)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_ADDKEYFRAME_OFFSET UNITYSDK_OFFSET(0x18ED0040)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_CREATEKEYFRAME_OFFSET UNITYSDK_OFFSET(0x18ECFC00)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_FINDPREVANDNEXTKEYFRAMES_OFFSET UNITYSDK_OFFSET(0x18ECFB70)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_GET_TIME_OFFSET UNITYSDK_OFFSET(0x18ED0DC0)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x18ECFA10)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x18ED0DA0)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_REMOVEKEYFRAME_OFFSET UNITYSDK_OFFSET(0x18ECFF20)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_SETKEYFRAMETIME_OFFSET UNITYSDK_OFFSET(0x18ECFD40)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_SET_TIME_OFFSET UNITYSDK_OFFSET(0x18ED0DD0)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_START_OFFSET UNITYSDK_OFFSET(0x18ECFA00)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_UPDATESHADERPARAMS_1_OFFSET UNITYSDK_OFFSET(0x18ED0D80)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_UPDATESHADERPARAMS_OFFSET UNITYSDK_OFFSET(0x18ED0260)
+#define RPG_CUSTOMRP_CLOUDTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x18ED0E00)
+#define RPG_CUSTOMRP_CLOUDTRANSITION__GETNEXTKEYFRAME_OFFSET UNITYSDK_OFFSET(0x18ECFEB0)
+#define RPG_CUSTOMRP_CLOUDTRANSITION__GETPREVKEYFRAME_OFFSET UNITYSDK_OFFSET(0x18ECFE50)
+#define RPG_CUSTOMRP_CLOUDTRANSITION__KEYFRAMEINDEXVALID_OFFSET UNITYSDK_OFFSET(0x18ED0D50)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CloudTransition_TypeDefinitionIndex = 35117;
+	inline static constexpr unsigned int CloudTransition_TypeDefinitionIndex = 35403;
 
 	class CloudTransition : public ::UnityEngine::MonoBehaviour
 	{
@@ -57,34 +57,34 @@ namespace RPG::CustomRP
 			return ((::RPG::CustomRP::CloudTransition_KeyFrame*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_CREATEKEYFRAME_OFFSET))(this);
 		}
 
-		::System::Void SetKeyFrameTime(::RPG::CustomRP::CloudTransition_KeyFrame* frame, ::System::Single time)
+		::System::Void SetKeyFrameTime(::RPG::CustomRP::CloudTransition_KeyFrame* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CloudTransition_KeyFrame*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_SETKEYFRAMETIME_OFFSET))(this, frame, time);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CloudTransition_KeyFrame*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_SETKEYFRAMETIME_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::CustomRP::CloudTransition_KeyFrame* _GetPrevKeyFrame(::RPG::CustomRP::CloudTransition_KeyFrame* frame)
+		::RPG::CustomRP::CloudTransition_KeyFrame* _GetPrevKeyFrame(::RPG::CustomRP::CloudTransition_KeyFrame* a1)
 		{
-			return ((::RPG::CustomRP::CloudTransition_KeyFrame*(*)(::PVOID, ::RPG::CustomRP::CloudTransition_KeyFrame*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION__GETPREVKEYFRAME_OFFSET))(this, frame);
+			return ((::RPG::CustomRP::CloudTransition_KeyFrame*(*)(::PVOID, ::RPG::CustomRP::CloudTransition_KeyFrame*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION__GETPREVKEYFRAME_OFFSET))(this, a1);
 		}
 
-		::RPG::CustomRP::CloudTransition_KeyFrame* _GetNextKeyFrame(::RPG::CustomRP::CloudTransition_KeyFrame* frame)
+		::RPG::CustomRP::CloudTransition_KeyFrame* _GetNextKeyFrame(::RPG::CustomRP::CloudTransition_KeyFrame* a1)
 		{
-			return ((::RPG::CustomRP::CloudTransition_KeyFrame*(*)(::PVOID, ::RPG::CustomRP::CloudTransition_KeyFrame*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION__GETNEXTKEYFRAME_OFFSET))(this, frame);
+			return ((::RPG::CustomRP::CloudTransition_KeyFrame*(*)(::PVOID, ::RPG::CustomRP::CloudTransition_KeyFrame*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION__GETNEXTKEYFRAME_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveKeyFrame(::RPG::CustomRP::CloudTransition_KeyFrame* frame)
+		::System::Void RemoveKeyFrame(::RPG::CustomRP::CloudTransition_KeyFrame* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CloudTransition_KeyFrame*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_REMOVEKEYFRAME_OFFSET))(this, frame);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CloudTransition_KeyFrame*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_REMOVEKEYFRAME_OFFSET))(this, a1);
 		}
 
-		::System::Void AddKeyFrame(::RPG::CustomRP::CloudTransition_KeyFrame* frame)
+		::System::Void AddKeyFrame(::RPG::CustomRP::CloudTransition_KeyFrame* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CloudTransition_KeyFrame*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_ADDKEYFRAME_OFFSET))(this, frame);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CloudTransition_KeyFrame*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_ADDKEYFRAME_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateShaderParams(::UnityEngine::Material* mat)
+		::System::Void UpdateShaderParams(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_UPDATESHADERPARAMS_OFFSET))(this, mat);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_UPDATESHADERPARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateShaderParams_1()
@@ -97,9 +97,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_FINDPREVANDNEXTKEYFRAMES_OFFSET))(this);
 		}
 
-		::System::Boolean _KeyFrameIndexValid(::System::Int32 index)
+		::System::Boolean _KeyFrameIndexValid(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION__KEYFRAMEINDEXVALID_OFFSET))(this, index);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION__KEYFRAMEINDEXVALID_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDidApplyAnimationProperties()
@@ -112,9 +112,9 @@ namespace RPG::CustomRP
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_GET_TIME_OFFSET))(this);
 		}
 
-		::System::Void set_Time(::System::Single value)
+		::System::Void set_Time(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_SET_TIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CLOUDTRANSITION_SET_TIME_OFFSET))(this, a1);
 		}
 	};
 }

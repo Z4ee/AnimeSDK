@@ -7,27 +7,27 @@ namespace System { class String; }
 namespace System::Collections { class IComparer; }
 namespace System::Collections { class IEqualityComparer; }
 
-#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_1_OFFSET UNITYSDK_OFFSET(0x178A1020)
-#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_2_OFFSET UNITYSDK_OFFSET(0x178A1090)
-#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_3_OFFSET UNITYSDK_OFFSET(0x178A1130)
-#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_4_OFFSET UNITYSDK_OFFSET(0x178A1200)
-#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_5_OFFSET UNITYSDK_OFFSET(0x178A1300)
-#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_6_OFFSET UNITYSDK_OFFSET(0x178A1430)
-#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_OFFSET UNITYSDK_OFFSET(0x178A0FE0)
-#define SYSTEM_VALUETUPLE_COMPARETO_OFFSET UNITYSDK_OFFSET(0xD3F10)
-#define SYSTEM_VALUETUPLE_CREATE_OFFSET UNITYSDK_OFFSET(0x178A0FD0)
-#define SYSTEM_VALUETUPLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1674E90)
-#define SYSTEM_VALUETUPLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22A2630)
-#define SYSTEM_VALUETUPLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xD3F10)
-#define SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALCOMPARABLE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x22A26E0)
-#define SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALEQUATABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x22A2680)
-#define SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALEQUATABLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xD3F10)
-#define SYSTEM_VALUETUPLE_SYSTEM_ICOMPARABLE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x22A26D0)
-#define SYSTEM_VALUETUPLE_SYSTEM_IVALUETUPLEINTERNAL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xD3F10)
-#define SYSTEM_VALUETUPLE_SYSTEM_IVALUETUPLEINTERNAL_TOSTRINGEND_OFFSET UNITYSDK_OFFSET(0x22A2730)
-#define SYSTEM_VALUETUPLE_SYSTEM_RUNTIME_COMPILERSERVICES_ITUPLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x22A2740)
-#define SYSTEM_VALUETUPLE_SYSTEM_RUNTIME_COMPILERSERVICES_ITUPLE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xD3F10)
-#define SYSTEM_VALUETUPLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22A26F0)
+#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_1_OFFSET UNITYSDK_OFFSET(0x1865AA00)
+#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_2_OFFSET UNITYSDK_OFFSET(0x1865AA70)
+#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_3_OFFSET UNITYSDK_OFFSET(0x1865AB10)
+#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_4_OFFSET UNITYSDK_OFFSET(0x1865ABE0)
+#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_5_OFFSET UNITYSDK_OFFSET(0x1865ACE0)
+#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_6_OFFSET UNITYSDK_OFFSET(0x1865AE10)
+#define SYSTEM_VALUETUPLE_COMBINEHASHCODES_OFFSET UNITYSDK_OFFSET(0x1865A9C0)
+#define SYSTEM_VALUETUPLE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x136CD0)
+#define SYSTEM_VALUETUPLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1865A9B0)
+#define SYSTEM_VALUETUPLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2BFAAD0)
+#define SYSTEM_VALUETUPLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3832470)
+#define SYSTEM_VALUETUPLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x136CD0)
+#define SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALCOMPARABLE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3832520)
+#define SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALEQUATABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x38324C0)
+#define SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALEQUATABLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x136CD0)
+#define SYSTEM_VALUETUPLE_SYSTEM_ICOMPARABLE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3832510)
+#define SYSTEM_VALUETUPLE_SYSTEM_IVALUETUPLEINTERNAL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x136CD0)
+#define SYSTEM_VALUETUPLE_SYSTEM_IVALUETUPLEINTERNAL_TOSTRINGEND_OFFSET UNITYSDK_OFFSET(0x3832570)
+#define SYSTEM_VALUETUPLE_SYSTEM_RUNTIME_COMPILERSERVICES_ITUPLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3832580)
+#define SYSTEM_VALUETUPLE_SYSTEM_RUNTIME_COMPILERSERVICES_ITUPLE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x136CD0)
+#define SYSTEM_VALUETUPLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3832530)
 
 namespace System
 {
@@ -35,34 +35,34 @@ namespace System
 
 	struct alignas(1) ValueTuple
 	{
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::ValueTuple other)
+		::System::Boolean Equals_1(::System::ValueTuple a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_EQUALS_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean System_Collections_IStructuralEquatable_Equals(::System::Object* other, ::System::Collections::IEqualityComparer* comparer)
+		::System::Boolean System_Collections_IStructuralEquatable_Equals(::System::Object* a1, ::System::Collections::IEqualityComparer* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Collections::IEqualityComparer*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALEQUATABLE_EQUALS_OFFSET))(this, other, comparer);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Collections::IEqualityComparer*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALEQUATABLE_EQUALS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 System_IComparable_CompareTo(::System::Object* other)
+		::System::Int32 System_IComparable_CompareTo(::System::Object* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_ICOMPARABLE_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_ICOMPARABLE_COMPARETO_OFFSET))(this, a1);
 		}
 
-		::System::Int32 CompareTo(::System::ValueTuple other)
+		::System::Int32 CompareTo(::System::ValueTuple a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMPARETO_OFFSET))(this, other);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMPARETO_OFFSET))(this, a1);
 		}
 
-		::System::Int32 System_Collections_IStructuralComparable_CompareTo(::System::Object* other, ::System::Collections::IComparer* comparer)
+		::System::Int32 System_Collections_IStructuralComparable_CompareTo(::System::Object* a1, ::System::Collections::IComparer* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Collections::IComparer*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALCOMPARABLE_COMPARETO_OFFSET))(this, other, comparer);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Collections::IComparer*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALCOMPARABLE_COMPARETO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -70,14 +70,14 @@ namespace System
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_GETHASHCODE_OFFSET))(this);
 		}
 
-		::System::Int32 System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer* comparer)
+		::System::Int32 System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::IEqualityComparer*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALEQUATABLE_GETHASHCODE_OFFSET))(this, comparer);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::IEqualityComparer*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_COLLECTIONS_ISTRUCTURALEQUATABLE_GETHASHCODE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 System_IValueTupleInternal_GetHashCode(::System::Collections::IEqualityComparer* comparer)
+		::System::Int32 System_IValueTupleInternal_GetHashCode(::System::Collections::IEqualityComparer* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::IEqualityComparer*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_IVALUETUPLEINTERNAL_GETHASHCODE_OFFSET))(this, comparer);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::IEqualityComparer*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_IVALUETUPLEINTERNAL_GETHASHCODE_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -95,9 +95,9 @@ namespace System
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_RUNTIME_COMPILERSERVICES_ITUPLE_GET_LENGTH_OFFSET))(this);
 		}
 
-		::System::Object* System_Runtime_CompilerServices_ITuple_get_Item(::System::Int32 index)
+		::System::Object* System_Runtime_CompilerServices_ITuple_get_Item(::System::Int32 a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_RUNTIME_COMPILERSERVICES_ITUPLE_GET_ITEM_OFFSET))(this, index);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_SYSTEM_RUNTIME_COMPILERSERVICES_ITUPLE_GET_ITEM_OFFSET))(this, a1);
 		}
 
 		static ::System::ValueTuple Create()
@@ -105,39 +105,39 @@ namespace System
 			return ((::System::ValueTuple(*)())((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_CREATE_OFFSET))();
 		}
 
-		static ::System::Int32 CombineHashCodes(::System::Int32 h1, ::System::Int32 h2)
+		static ::System::Int32 CombineHashCodes(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_OFFSET))(h1, h2);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 CombineHashCodes_1(::System::Int32 h1, ::System::Int32 h2, ::System::Int32 h3)
+		static ::System::Int32 CombineHashCodes_1(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_1_OFFSET))(h1, h2, h3);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 CombineHashCodes_2(::System::Int32 h1, ::System::Int32 h2, ::System::Int32 h3, ::System::Int32 h4)
+		static ::System::Int32 CombineHashCodes_2(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_2_OFFSET))(h1, h2, h3, h4);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 CombineHashCodes_3(::System::Int32 h1, ::System::Int32 h2, ::System::Int32 h3, ::System::Int32 h4, ::System::Int32 h5)
+		static ::System::Int32 CombineHashCodes_3(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_3_OFFSET))(h1, h2, h3, h4, h5);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_3_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Int32 CombineHashCodes_4(::System::Int32 h1, ::System::Int32 h2, ::System::Int32 h3, ::System::Int32 h4, ::System::Int32 h5, ::System::Int32 h6)
+		static ::System::Int32 CombineHashCodes_4(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_4_OFFSET))(h1, h2, h3, h4, h5, h6);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_4_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Int32 CombineHashCodes_5(::System::Int32 h1, ::System::Int32 h2, ::System::Int32 h3, ::System::Int32 h4, ::System::Int32 h5, ::System::Int32 h6, ::System::Int32 h7)
+		static ::System::Int32 CombineHashCodes_5(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_5_OFFSET))(h1, h2, h3, h4, h5, h6, h7);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_5_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Int32 CombineHashCodes_6(::System::Int32 h1, ::System::Int32 h2, ::System::Int32 h3, ::System::Int32 h4, ::System::Int32 h5, ::System::Int32 h6, ::System::Int32 h7, ::System::Int32 h8)
+		static ::System::Int32 CombineHashCodes_6(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_6_OFFSET))(h1, h2, h3, h4, h5, h6, h7, h8);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VALUETUPLE_COMBINEHASHCODES_6_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 	};
 }

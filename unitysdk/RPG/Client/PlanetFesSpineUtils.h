@@ -16,27 +16,27 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_PLANETFESSPINEUTILS_ADDEMOJIEFFECTCOMPONENT_OFFSET UNITYSDK_OFFSET(0xAD43290)
-#define RPG_CLIENT_PLANETFESSPINEUTILS_ADDMOVECOMPONENT_OFFSET UNITYSDK_OFFSET(0xAD43100)
-#define RPG_CLIENT_PLANETFESSPINEUTILS_ADDTALKCOMPONENT_OFFSET UNITYSDK_OFFSET(0xAD431D0)
-#define RPG_CLIENT_PLANETFESSPINEUTILS_CREATEPLANETFESAVATARENTITY_OFFSET UNITYSDK_OFFSET(0xAD42D60)
-#define RPG_CLIENT_PLANETFESSPINEUTILS_ENABLEIDLESHOW_OFFSET UNITYSDK_OFFSET(0xAD434D0)
-#define RPG_CLIENT_PLANETFESSPINEUTILS_RECORDAVATARTALK_OFFSET UNITYSDK_OFFSET(0xAD43810)
-#define RPG_CLIENT_PLANETFESSPINEUTILS_SETANIMSTATE_OFFSET UNITYSDK_OFFSET(0xAD43640)
-#define RPG_CLIENT_PLANETFESSPINEUTILS_STARTLEVELGRAPH_OFFSET UNITYSDK_OFFSET(0xAD43360)
-#define RPG_CLIENT_PLANETFESSPINEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0xAD43BB0)
-#define RPG_CLIENT_PLANETFESSPINEUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xAD43BA0)
+#define RPG_CLIENT_PLANETFESSPINEUTILS_ADDEMOJIEFFECTCOMPONENT_OFFSET UNITYSDK_OFFSET(0xC481040)
+#define RPG_CLIENT_PLANETFESSPINEUTILS_ADDMOVECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC480EB0)
+#define RPG_CLIENT_PLANETFESSPINEUTILS_ADDTALKCOMPONENT_OFFSET UNITYSDK_OFFSET(0xC480F80)
+#define RPG_CLIENT_PLANETFESSPINEUTILS_CREATEPLANETFESAVATARENTITY_OFFSET UNITYSDK_OFFSET(0xC480B00)
+#define RPG_CLIENT_PLANETFESSPINEUTILS_ENABLEIDLESHOW_OFFSET UNITYSDK_OFFSET(0xC481280)
+#define RPG_CLIENT_PLANETFESSPINEUTILS_RECORDAVATARTALK_OFFSET UNITYSDK_OFFSET(0xC4815C0)
+#define RPG_CLIENT_PLANETFESSPINEUTILS_SETANIMSTATE_OFFSET UNITYSDK_OFFSET(0xC4813F0)
+#define RPG_CLIENT_PLANETFESSPINEUTILS_STARTLEVELGRAPH_OFFSET UNITYSDK_OFFSET(0xC481110)
+#define RPG_CLIENT_PLANETFESSPINEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0xC481950)
+#define RPG_CLIENT_PLANETFESSPINEUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xC481940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesSpineUtils_TypeDefinitionIndex = 61424;
+	inline static constexpr unsigned int PlanetFesSpineUtils_TypeDefinitionIndex = 62348;
 
 	class PlanetFesSpineUtils : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet__LevelGraphPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesSpineUtils_TypeDefinitionIndex)->GetStaticField(0x66C50);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesSpineUtils_TypeDefinitionIndex)->GetStaticField(0xD0B0);
 		}
 
 		::System::Void _ctor()
@@ -49,44 +49,44 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::GameCore::GameEntity* CreatePlanetFesAvatarEntity(::RPG::Client::PlanetFesAvatarData* avatarData, ::UnityEngine::GameObject* gameObject, ::RPG::Client::GraphicSpineMultiTrackController* controller)
+		static ::RPG::GameCore::GameEntity* CreatePlanetFesAvatarEntity(::RPG::Client::PlanetFesAvatarData* a1, ::UnityEngine::GameObject* a2, ::RPG::Client::GraphicSpineMultiTrackController* a3)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::Client::PlanetFesAvatarData*, ::UnityEngine::GameObject*, ::RPG::Client::GraphicSpineMultiTrackController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_CREATEPLANETFESAVATARENTITY_OFFSET))(avatarData, gameObject, controller);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::Client::PlanetFesAvatarData*, ::UnityEngine::GameObject*, ::RPG::Client::GraphicSpineMultiTrackController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_CREATEPLANETFESAVATARENTITY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void AddMoveComponent(::RPG::GameCore::GameEntity* entity, ::RPG::Client::PlanetFesAvatarMoveController* moveController)
+		static ::System::Void AddMoveComponent(::RPG::GameCore::GameEntity* a1, ::RPG::Client::PlanetFesAvatarMoveController* a2)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::PlanetFesAvatarMoveController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_ADDMOVECOMPONENT_OFFSET))(entity, moveController);
+			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::PlanetFesAvatarMoveController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_ADDMOVECOMPONENT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AddTalkComponent(::RPG::GameCore::GameEntity* entity, ::XLua::LuaTable* talkBubblePanel, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::TextID>* showCall, ::System::Action_1<::XLua::LuaTable*>* hideCall)
+		static ::System::Void AddTalkComponent(::RPG::GameCore::GameEntity* a1, ::XLua::LuaTable* a2, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::TextID>* a3, ::System::Action_1<::XLua::LuaTable*>* a4)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::XLua::LuaTable*, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::TextID>*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_ADDTALKCOMPONENT_OFFSET))(entity, talkBubblePanel, showCall, hideCall);
+			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::XLua::LuaTable*, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::TextID>*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_ADDTALKCOMPONENT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void AddEmojiEffectComponent(::RPG::GameCore::GameEntity* entity, ::RPG::Client::PlanetFesAvatarEffectController* effectController, ::UnityEngine::Transform* effectTrans, ::UnityEngine::Canvas* baseCanvas)
+		static ::System::Void AddEmojiEffectComponent(::RPG::GameCore::GameEntity* a1, ::RPG::Client::PlanetFesAvatarEffectController* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Canvas* a4)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::PlanetFesAvatarEffectController*, ::UnityEngine::Transform*, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_ADDEMOJIEFFECTCOMPONENT_OFFSET))(entity, effectController, effectTrans, baseCanvas);
+			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::PlanetFesAvatarEffectController*, ::UnityEngine::Transform*, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_ADDEMOJIEFFECTCOMPONENT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void StartLevelGraph(::RPG::GameCore::GameEntity* entity)
+		static ::System::Void StartLevelGraph(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_STARTLEVELGRAPH_OFFSET))(entity);
+			return ((::System::Void(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_STARTLEVELGRAPH_OFFSET))(a1);
 		}
 
-		static ::System::Void EnableIdleShow(::RPG::GameCore::GameEntity* planetFesAvatarEntity, ::System::Boolean enable)
+		static ::System::Void EnableIdleShow(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_ENABLEIDLESHOW_OFFSET))(planetFesAvatarEntity, enable);
+			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_ENABLEIDLESHOW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetAnimState(::RPG::GameCore::GameEntity* planetFesAvatarEntity, ::System::String* stateName)
+		static ::System::Void SetAnimState(::RPG::GameCore::GameEntity* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_SETANIMSTATE_OFFSET))(planetFesAvatarEntity, stateName);
+			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_SETANIMSTATE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void RecordAvatarTalk(::System::UInt32 avatarID)
+		static ::System::Void RecordAvatarTalk(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_RECORDAVATARTALK_OFFSET))(avatarID);
+			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_RECORDAVATARTALK_OFFSET))(a1);
 		}
 	};
 }

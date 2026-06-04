@@ -5,14 +5,14 @@
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerContainer; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX_NEXT_OFFSET UNITYSDK_OFFSET(0x1A332EE0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1A332CC0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1A332C20)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1A333020)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX_NEXT_OFFSET UNITYSDK_OFFSET(0x1B18D5F0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX_ONSELECTION_OFFSET UNITYSDK_OFFSET(0x1B18D3D0)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX_SETWIDGET_OFFSET UNITYSDK_OFFSET(0x1B18D330)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B18D720)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerVBox_TypeDefinitionIndex = 33609;
+	inline static constexpr unsigned int DebugUIHandlerVBox_TypeDefinitionIndex = 33891;
 
 	class DebugUIHandlerVBox : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
@@ -24,14 +24,14 @@ namespace UnityEngine::Rendering::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget)
+		::System::Void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Widget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX_SETWIDGET_OFFSET))(this, widget);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DebugUI_Widget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX_SETWIDGET_OFFSET))(this, a1);
 		}
 
-		::System::Boolean OnSelection(::System::Boolean fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous)
+		::System::Boolean OnSelection(::System::Boolean a1, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX_ONSELECTION_OFFSET))(this, fromNext, previous);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERVBOX_ONSELECTION_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Rendering::UI::DebugUIHandlerWidget* Next()

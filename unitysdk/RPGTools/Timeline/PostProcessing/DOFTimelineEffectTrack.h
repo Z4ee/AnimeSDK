@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8FFA20)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB8FFC00)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xB8FFCE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD040EE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD041050)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD041130)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFTimelineEffectTrack_TypeDefinitionIndex = 45281;
+	inline static constexpr unsigned int DOFTimelineEffectTrack_TypeDefinitionIndex = 45838;
 
 	class DOFTimelineEffectTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -29,9 +29,9 @@ namespace RPGTools::Timeline::PostProcessing
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph P0, ::UnityEngine::GameObject* P1, ::System::Int32 P2)
+		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, P0, P1, P2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

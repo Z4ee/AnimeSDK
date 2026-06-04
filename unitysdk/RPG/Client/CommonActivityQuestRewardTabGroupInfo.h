@@ -8,36 +8,36 @@ namespace RPG::GameCore { class ActivityQuestRewardTabRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_ADDTAB_OFFSET UNITYSDK_OFFSET(0xA0B9930)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_GET_BGPREFABPATH_OFFSET UNITYSDK_OFFSET(0xA0B9AF0)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_GET_TABGROUPID_OFFSET UNITYSDK_OFFSET(0xA0B9AC0)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_GET_TABINFOLIST_OFFSET UNITYSDK_OFFSET(0xA0B9AE0)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_GET_TABITEMPREFABPATH_OFFSET UNITYSDK_OFFSET(0xA0B9B00)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xA0B9AD0)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_REFRESHALLQUESTDATA_OFFSET UNITYSDK_OFFSET(0xA0B9380)
-#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA0B9870)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_ADDTAB_OFFSET UNITYSDK_OFFSET(0xB6F7B70)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_GET_BGPREFABPATH_OFFSET UNITYSDK_OFFSET(0xB6F7E00)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_GET_TABGROUPID_OFFSET UNITYSDK_OFFSET(0xB6F7DD0)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_GET_TABINFOLIST_OFFSET UNITYSDK_OFFSET(0xB6F7DF0)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_GET_TABITEMPREFABPATH_OFFSET UNITYSDK_OFFSET(0xB6F7E10)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xB6F7DE0)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_REFRESHALLQUESTDATA_OFFSET UNITYSDK_OFFSET(0xB6F7670)
+#define RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB6F7AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CommonActivityQuestRewardTabGroupInfo_TypeDefinitionIndex = 56938;
+	inline static constexpr unsigned int CommonActivityQuestRewardTabGroupInfo_TypeDefinitionIndex = 57726;
 
 	class CommonActivityQuestRewardTabGroupInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::IActivityQuestRewardTabInfo*>* _TabInfoList_k__BackingField; // 0x10
+		::System::String* _TabItemPrefabPath_k__BackingField; // 0x10
 		::System::String* _BgPrefabPath_k__BackingField; // 0x18
-		::System::String* _TabItemPrefabPath_k__BackingField; // 0x20
-		::RPG::Client::TextID _Title_k__BackingField; // 0x28
-		::System::UInt32 _TabGroupID_k__BackingField; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::IActivityQuestRewardTabInfo*>* _TabInfoList_k__BackingField; // 0x20
+		::System::UInt32 _TabGroupID_k__BackingField; // 0x28
+		::RPG::Client::TextID _Title_k__BackingField; // 0x30
 
-		::System::Void _ctor(::RPG::GameCore::ActivityQuestRewardTabRow* row)
+		::System::Void _ctor(::RPG::GameCore::ActivityQuestRewardTabRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityQuestRewardTabRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO__CTOR_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityQuestRewardTabRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void AddTab(::RPG::Client::IActivityQuestRewardTabInfo* tabInfo)
+		::System::Void AddTab(::RPG::Client::IActivityQuestRewardTabInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IActivityQuestRewardTabInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_ADDTAB_OFFSET))(this, tabInfo);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IActivityQuestRewardTabInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYQUESTREWARDTABGROUPINFO_ADDTAB_OFFSET))(this, a1);
 		}
 
 		::System::Void RefreshAllQuestData()

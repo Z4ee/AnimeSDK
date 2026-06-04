@@ -5,11 +5,11 @@
 namespace RPG::Client { class BlendDefinitionInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BLENDDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0x9E9CC30)
+#define RPG_CLIENT_BLENDDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0xB438CA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BlendDefinition_TypeDefinitionIndex = 64074;
+	inline static constexpr unsigned int BlendDefinition_TypeDefinitionIndex = 64995;
 
 	class BlendDefinition : public ::UnityEngine::ScriptableObject
 	{

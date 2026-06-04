@@ -8,12 +8,12 @@ namespace RPG::GameCore { class SubLevelGraphDynamicFloatOverride; }
 namespace RPG::GameCore { class SubLevelGraphDynamicStringOverride; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITGAMEPLAYCONFIG_METHOD_2_CCE29DAACC03778D_OFFSET UNITYSDK_OFFSET(0x18EB6520)
-#define RPG_GAMECORE_SUMMONUNITGAMEPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB6860)
+#define RPG_GAMECORE_SUMMONUNITGAMEPLAYCONFIG_METHOD_2_524973B3A2395B86_OFFSET UNITYSDK_OFFSET(0x19CD61C0)
+#define RPG_GAMECORE_SUMMONUNITGAMEPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD6500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitGameplayConfig_TypeDefinitionIndex = 16709;
+	inline static constexpr unsigned int SummonUnitGameplayConfig_TypeDefinitionIndex = 16732;
 
 	class SummonUnitGameplayConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITGAMEPLAYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CCE29DAACC03778D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitGameplayConfig*& a2)
+		static ::System::Void Method_2_524973B3A2395B86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitGameplayConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitGameplayConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITGAMEPLAYCONFIG_METHOD_2_CCE29DAACC03778D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitGameplayConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITGAMEPLAYCONFIG_METHOD_2_524973B3A2395B86_OFFSET))(a1, a2);
 		}
 	};
 }

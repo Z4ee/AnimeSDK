@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int LogLevel_TypeDefinitionIndex = 39924;
+	inline static constexpr unsigned int LogLevel_TypeDefinitionIndex = 40751;
 
 	enum class LogLevel : ::System::Int32
 	{

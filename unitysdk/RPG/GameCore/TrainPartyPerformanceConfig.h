@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrainPartyPerformance; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG_METHOD_2_EECFEEE9D5AEFB4C_OFFSET UNITYSDK_OFFSET(0x190AD700)
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190AD960)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG_METHOD_2_56780F20D7A07253_OFFSET UNITYSDK_OFFSET(0x19DF83C0)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19DF8610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyPerformanceConfig_TypeDefinitionIndex = 15385;
+	inline static constexpr unsigned int TrainPartyPerformanceConfig_TypeDefinitionIndex = 15448;
 
 	class TrainPartyPerformanceConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_EECFEEE9D5AEFB4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyPerformanceConfig*& a2)
+		static ::System::Void Method_2_56780F20D7A07253(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyPerformanceConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyPerformanceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG_METHOD_2_EECFEEE9D5AEFB4C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyPerformanceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECONFIG_METHOD_2_56780F20D7A07253_OFFSET))(a1, a2);
 		}
 	};
 }

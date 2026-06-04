@@ -7,12 +7,12 @@ namespace RPG::Client::CrowdAnimator { class CapsuleColliderInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA_METHOD_1_3A6C1E569C719E98_OFFSET UNITYSDK_OFFSET(0x9D51B70)
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D51C00)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA_METHOD_1_594EB27689A9970A_OFFSET UNITYSDK_OFFSET(0xB3421D0)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB3422A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceMoodMapConfig_MoodData_TypeDefinitionIndex = 63758;
+	inline static constexpr unsigned int AudienceMoodMapConfig_MoodData_TypeDefinitionIndex = 64679;
 
 	class AudienceMoodMapConfig_MoodData : public ::System::Object
 	{
@@ -28,9 +28,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::AudienceMoodMapConfig_MoodClipData* Method_1_3A6C1E569C719E98(::System::Int32 a1)
+		::RPG::Client::AudienceMoodMapConfig_MoodClipData* Method_1_594EB27689A9970A(::System::Int32 a1)
 		{
-			return ((::RPG::Client::AudienceMoodMapConfig_MoodClipData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA_METHOD_1_3A6C1E569C719E98_OFFSET))(this, a1);
+			return ((::RPG::Client::AudienceMoodMapConfig_MoodClipData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA_METHOD_1_594EB27689A9970A_OFFSET))(this, a1);
 		}
 	};
 }

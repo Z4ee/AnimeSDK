@@ -6,7 +6,7 @@ namespace RPG::GameCore { class LittleGameComponentConfig; }
 namespace RPG::GameCore { class LittleGameEntityConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_15_TypeDefinitionIndex = 23651;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_15_TypeDefinitionIndex = 23494;
 
 class Class_1_534AF681CC2BD5FD_15 : public ::System::Object
 {

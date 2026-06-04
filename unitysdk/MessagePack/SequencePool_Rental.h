@@ -5,22 +5,22 @@
 namespace MessagePack { class SequencePool; }
 namespace Nerdbank::Streams { template <typename T> class Sequence_1; }
 
-#define MESSAGEPACK_SEQUENCEPOOL_RENTAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x229A940)
-#define MESSAGEPACK_SEQUENCEPOOL_RENTAL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x5AF0)
-#define MESSAGEPACK_SEQUENCEPOOL_RENTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x743C0)
+#define MESSAGEPACK_SEQUENCEPOOL_RENTAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3828440)
+#define MESSAGEPACK_SEQUENCEPOOL_RENTAL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x60D0)
+#define MESSAGEPACK_SEQUENCEPOOL_RENTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x80F20)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SequencePool_Rental_TypeDefinitionIndex = 9293;
+	inline static constexpr unsigned int SequencePool_Rental_TypeDefinitionIndex = 7196;
 
 	struct alignas(8) SequencePool_Rental
 	{
 		::MessagePack::SequencePool* owner; // 0x10
 		::Nerdbank::Streams::Sequence_1<::System::Byte>* _Value_k__BackingField; // 0x18
 
-		::System::Void _ctor(::MessagePack::SequencePool* owner, ::Nerdbank::Streams::Sequence_1<::System::Byte>* value)
+		::System::Void _ctor(::MessagePack::SequencePool* a1, ::Nerdbank::Streams::Sequence_1<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::SequencePool*, ::Nerdbank::Streams::Sequence_1<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SEQUENCEPOOL_RENTAL__CTOR_OFFSET))(this, owner, value);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::SequencePool*, ::Nerdbank::Streams::Sequence_1<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SEQUENCEPOOL_RENTAL__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Nerdbank::Streams::Sequence_1<::System::Byte>* get_Value()

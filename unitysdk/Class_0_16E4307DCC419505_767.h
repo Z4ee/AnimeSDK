@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_A35B38E5F9115A76_2.h"
+#include "unitysdk/RPG/Client/GridFightPlayerOp.h"
 
-namespace Google::Protobuf { class ByteString; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_767_TypeDefinitionIndex = 61078;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_767_TypeDefinitionIndex = 60154;
 
 class Class_0_16E4307DCC419505_767
 {

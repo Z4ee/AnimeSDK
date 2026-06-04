@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GrassData; }
 
-#define RPG_GAMECORE_BLOCKGRASSDATA_METHOD_2_C43F21D632E64B3D_OFFSET UNITYSDK_OFFSET(0x1870C8B0)
-#define RPG_GAMECORE_BLOCKGRASSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1870CA40)
+#define RPG_GAMECORE_BLOCKGRASSDATA_METHOD_2_F36B148D56C4DAB0_OFFSET UNITYSDK_OFFSET(0x194DE960)
+#define RPG_GAMECORE_BLOCKGRASSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x194DEAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockGrassData_TypeDefinitionIndex = 18126;
+	inline static constexpr unsigned int BlockGrassData_TypeDefinitionIndex = 18133;
 
 	class BlockGrassData : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKGRASSDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C43F21D632E64B3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockGrassData*& a2)
+		static ::System::Void Method_2_F36B148D56C4DAB0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockGrassData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlockGrassData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKGRASSDATA_METHOD_2_C43F21D632E64B3D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlockGrassData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKGRASSDATA_METHOD_2_F36B148D56C4DAB0_OFFSET))(a1, a2);
 		}
 	};
 }

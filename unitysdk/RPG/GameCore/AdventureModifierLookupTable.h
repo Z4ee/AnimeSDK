@@ -7,12 +7,12 @@ namespace RPG::GameCore { class AdventureModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREMODIFIERLOOKUPTABLE_METHOD_2_C938E7D578CFE95F_OFFSET UNITYSDK_OFFSET(0x186782F0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERLOOKUPTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x186783C0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERLOOKUPTABLE_METHOD_2_12164D3E7F4E6405_OFFSET UNITYSDK_OFFSET(0x19450420)
+#define RPG_GAMECORE_ADVENTUREMODIFIERLOOKUPTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19450500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierLookupTable_TypeDefinitionIndex = 16612;
+	inline static constexpr unsigned int AdventureModifierLookupTable_TypeDefinitionIndex = 16643;
 
 	class AdventureModifierLookupTable : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERLOOKUPTABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C938E7D578CFE95F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureModifierLookupTable*& a2)
+		static ::System::Void Method_2_12164D3E7F4E6405(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureModifierLookupTable*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureModifierLookupTable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERLOOKUPTABLE_METHOD_2_C938E7D578CFE95F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureModifierLookupTable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERLOOKUPTABLE_METHOD_2_12164D3E7F4E6405_OFFSET))(a1, a2);
 		}
 	};
 }

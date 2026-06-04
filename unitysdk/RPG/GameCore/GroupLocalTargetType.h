@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupLocalTargetType_TypeDefinitionIndex = 20129;
+	inline static constexpr unsigned int GroupLocalTargetType_TypeDefinitionIndex = 23205;
 
 	enum class GroupLocalTargetType : ::System::Int32
 	{

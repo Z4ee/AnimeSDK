@@ -20,7 +20,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledExtensions_TypeDefinitionIndex = 5334;
+	inline static constexpr unsigned int PooledExtensions_TypeDefinitionIndex = 5085;
 
 	class PooledExtensions : public ::System::Object
 	{

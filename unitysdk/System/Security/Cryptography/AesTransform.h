@@ -4,12 +4,12 @@
 
 namespace System::Security::Cryptography { class Aes; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_DECRYPT128_OFFSET UNITYSDK_OFFSET(0x19F4AEA0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x19F47610)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ENCRYPT128_OFFSET UNITYSDK_OFFSET(0x19F47630)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_SUBBYTE_OFFSET UNITYSDK_OFFSET(0x19F474E0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F4E6B0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x19F46C20)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_DECRYPT128_OFFSET UNITYSDK_OFFSET(0x1ADC0C80)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x1ADBE740)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ENCRYPT128_OFFSET UNITYSDK_OFFSET(0x1ADBE760)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_SUBBYTE_OFFSET UNITYSDK_OFFSET(0x1ADBE650)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADC3150)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADBDEC0)
 
 namespace System::Security::Cryptography
 {
@@ -66,9 +66,9 @@ namespace System::Security::Cryptography
 		::System::Int32 Nr; // 0x58
 		::System::Int32 Nk; // 0x5C
 
-		::System::Void _ctor(::System::Security::Cryptography::Aes* algo, ::System::Boolean encryption, ::Il2CppArray<::System::Byte>* key, ::Il2CppArray<::System::Byte>* iv)
+		::System::Void _ctor(::System::Security::Cryptography::Aes* a1, ::System::Boolean a2, ::Il2CppArray<::System::Byte>* a3, ::Il2CppArray<::System::Byte>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::Aes*, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM__CTOR_OFFSET))(this, algo, encryption, key, iv);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::Aes*, ::System::Boolean, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::Void _cctor()
@@ -76,24 +76,24 @@ namespace System::Security::Cryptography
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM__CCTOR_OFFSET))();
 		}
 
-		::System::Void ECB(::Il2CppArray<::System::Byte>* input, ::Il2CppArray<::System::Byte>* output)
+		::System::Void ECB(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ECB_OFFSET))(this, input, output);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ECB_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 SubByte(::System::UInt32 a)
+		::System::UInt32 SubByte(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_SUBBYTE_OFFSET))(this, a);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_SUBBYTE_OFFSET))(this, a1);
 		}
 
-		::System::Void Encrypt128(::Il2CppArray<::System::Byte>* indata, ::Il2CppArray<::System::Byte>* outdata, ::Il2CppArray<::System::UInt32>* ekey)
+		::System::Void Encrypt128(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2, ::Il2CppArray<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ENCRYPT128_OFFSET))(this, indata, outdata, ekey);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ENCRYPT128_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Decrypt128(::Il2CppArray<::System::Byte>* indata, ::Il2CppArray<::System::Byte>* outdata, ::Il2CppArray<::System::UInt32>* ekey)
+		::System::Void Decrypt128(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2, ::Il2CppArray<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_DECRYPT128_OFFSET))(this, indata, outdata, ekey);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_DECRYPT128_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

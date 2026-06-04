@@ -6,7 +6,7 @@ class Class_1_5F51D4049EA87B7B;
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-inline static constexpr unsigned int Class_1_6E6B33B2A8A49AE3_Struct_2_F7FD751D4D9BBF3F_TypeDefinitionIndex = 51467;
+inline static constexpr unsigned int Class_1_6E6B33B2A8A49AE3_Struct_2_F7FD751D4D9BBF3F_TypeDefinitionIndex = 52135;
 
 struct alignas(8) Class_1_6E6B33B2A8A49AE3_Struct_2_F7FD751D4D9BBF3F
 {

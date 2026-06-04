@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4D4B66C45A742EF1;
+class Class_1_A46ED100713943F0;
 class Class_1_F4FDF85E8BF452D8___c__DisplayClass18_0;
 
-#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17FB0370)
-#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_1___MAKECHOICE_B__2_OFFSET UNITYSDK_OFFSET(0x17FB1770)
+#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18D88050)
+#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_1___MAKECHOICE_B__2_OFFSET UNITYSDK_OFFSET(0x18D88DD0)
 
-inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c__DisplayClass18_1_TypeDefinitionIndex = 38908;
+inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c__DisplayClass18_1_TypeDefinitionIndex = 39676;
 
 class Class_1_F4FDF85E8BF452D8___c__DisplayClass18_1 : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_1__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __MakeChoice_b__2(::Class_1_4D4B66C45A742EF1* x)
+	::System::Boolean __MakeChoice_b__2(::Class_1_A46ED100713943F0* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_4D4B66C45A742EF1*))((::PBYTE)hIl2Cpp + CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_1___MAKECHOICE_B__2_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_A46ED100713943F0*))((::PBYTE)hIl2Cpp + CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_1___MAKECHOICE_B__2_OFFSET))(this, a1);
 	}
 };

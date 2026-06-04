@@ -7,28 +7,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYRANKICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x186330E0)
-#define RPG_GAMECORE_ACTIVITYRANKICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18633760)
+#define RPG_GAMECORE_ACTIVITYRANKICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19402550)
+#define RPG_GAMECORE_ACTIVITYRANKICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19402BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRankIconRow_TypeDefinitionIndex = 10714;
+	inline static constexpr unsigned int ActivityRankIconRow_TypeDefinitionIndex = 10770;
 
 	class ActivityRankIconRow : public ::System::Object
 	{
 	public:
 		::System::String* CommonRankIconPath; // 0x10
-		::RPG::GameCore::ActivityRank ID; // 0x18
-		::RPG::Client::TextID Text; // 0x20
+		::RPG::Client::TextID Text; // 0x18
+		::RPG::GameCore::ActivityRank ID; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYRANKICONROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityRankIconRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityRankIconRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityRankIconRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYRANKICONROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityRankIconRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYRANKICONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

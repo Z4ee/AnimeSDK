@@ -10,14 +10,17 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class RtCollision2DShapeConfig; }
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
+namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_9E0E6D7ED20C3A97_OFFSET UNITYSDK_OFFSET(0x18DD9B00)
-#define RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_EE94ACD85E603775_OFFSET UNITYSDK_OFFSET(0x18DD99A0)
-#define RPG_GAMECORE_RTTARGETFETCHTARGETINAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD9A60)
+#define RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_352EF45F01E406B8_OFFSET UNITYSDK_OFFSET(0x19BF4550)
+#define RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_5791635F18BE0507_OFFSET UNITYSDK_OFFSET(0x19BF4870)
+#define RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_AB66F85BBBD2B41B_OFFSET UNITYSDK_OFFSET(0x19BF4930)
+#define RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_B7A3FBC3AA2B5F25_OFFSET UNITYSDK_OFFSET(0x19BF43F0)
+#define RPG_GAMECORE_RTTARGETFETCHTARGETINAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF44B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtTargetFetchTargetInArea_TypeDefinitionIndex = 23250;
+	inline static constexpr unsigned int RtTargetFetchTargetInArea_TypeDefinitionIndex = 22918;
 
 	class RtTargetFetchTargetInArea : public ::RPG::GameCore::TargetEvaluator
 	{
@@ -39,14 +42,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTARGETINAREA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_EE94ACD85E603775(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetFetchTargetInArea*& a2)
+		static ::System::Void Method_4_B7A3FBC3AA2B5F25(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetFetchTargetInArea*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetFetchTargetInArea*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_EE94ACD85E603775_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetFetchTargetInArea*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_B7A3FBC3AA2B5F25_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_9E0E6D7ED20C3A97(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetFetchTargetInArea* a2)
+		static ::System::Void Method_4_352EF45F01E406B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetFetchTargetInArea* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetFetchTargetInArea*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_9E0E6D7ED20C3A97_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetFetchTargetInArea*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_352EF45F01E406B8_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_5791635F18BE0507(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetFetchTargetInArea*& a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetFetchTargetInArea*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_5791635F18BE0507_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_AB66F85BBBD2B41B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetFetchTargetInArea* a2)
+		{
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetFetchTargetInArea*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETFETCHTARGETINAREA_METHOD_4_AB66F85BBBD2B41B_OFFSET))(a1, a2);
 		}
 	};
 }

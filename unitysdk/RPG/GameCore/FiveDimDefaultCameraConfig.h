@@ -9,12 +9,12 @@ namespace RPG::GameCore { class FiveDimCameraLensConfig; }
 namespace RPG::GameCore { class FiveDimCameraObserveConfig; }
 namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
 
-#define RPG_GAMECORE_FIVEDIMDEFAULTCAMERACONFIG_METHOD_2_BC2029E236CAF652_OFFSET UNITYSDK_OFFSET(0x188FCF80)
-#define RPG_GAMECORE_FIVEDIMDEFAULTCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188FD120)
+#define RPG_GAMECORE_FIVEDIMDEFAULTCAMERACONFIG_METHOD_2_BC2029E236CAF652_OFFSET UNITYSDK_OFFSET(0x19738630)
+#define RPG_GAMECORE_FIVEDIMDEFAULTCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197387D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDefaultCameraConfig_TypeDefinitionIndex = 15790;
+	inline static constexpr unsigned int FiveDimDefaultCameraConfig_TypeDefinitionIndex = 15845;
 
 	class FiveDimDefaultCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

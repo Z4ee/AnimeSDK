@@ -6,7 +6,7 @@ namespace System { class Type; }
 
 namespace System
 {
-	inline static constexpr unsigned int IServiceProvider_TypeDefinitionIndex = 292;
+	inline static constexpr unsigned int IServiceProvider_TypeDefinitionIndex = 291;
 
 	class IServiceProvider
 	{

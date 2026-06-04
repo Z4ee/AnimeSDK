@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Net { class IWebRequestCreate; }
 
-#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_GET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1A167BD0)
-#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_SET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1A169F30)
-#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A167F10)
+#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_GET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1AFCAD70)
+#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_SET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1AFCDE70)
+#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFCB0C0)
 
 namespace System::Net
 {
@@ -17,13 +17,13 @@ namespace System::Net
 	class WebRequestPrefixElement : public ::System::Object
 	{
 	public:
-		::System::Net::IWebRequestCreate* creator; // 0x10
-		::System::Type* creatorType; // 0x18
-		::System::String* Prefix; // 0x20
+		::System::String* Prefix; // 0x10
+		::System::Net::IWebRequestCreate* creator; // 0x18
+		::System::Type* creatorType; // 0x20
 
-		::System::Void _ctor(::System::String* P, ::System::Net::IWebRequestCreate* C)
+		::System::Void _ctor(::System::String* a1, ::System::Net::IWebRequestCreate* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::IWebRequestCreate*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUESTPREFIXELEMENT__CTOR_OFFSET))(this, P, C);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::IWebRequestCreate*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUESTPREFIXELEMENT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::IWebRequestCreate* get_Creator()
@@ -31,9 +31,9 @@ namespace System::Net
 			return ((::System::Net::IWebRequestCreate*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUESTPREFIXELEMENT_GET_CREATOR_OFFSET))(this);
 		}
 
-		::System::Void set_Creator(::System::Net::IWebRequestCreate* value)
+		::System::Void set_Creator(::System::Net::IWebRequestCreate* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::IWebRequestCreate*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUESTPREFIXELEMENT_SET_CREATOR_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Net::IWebRequestCreate*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUESTPREFIXELEMENT_SET_CREATOR_OFFSET))(this, a1);
 		}
 	};
 }

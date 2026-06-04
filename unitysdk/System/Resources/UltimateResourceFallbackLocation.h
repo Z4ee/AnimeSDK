@@ -3,7 +3,7 @@
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int UltimateResourceFallbackLocation_TypeDefinitionIndex = 534;
+	inline static constexpr unsigned int UltimateResourceFallbackLocation_TypeDefinitionIndex = 533;
 
 	enum class UltimateResourceFallbackLocation : ::System::Int32
 	{

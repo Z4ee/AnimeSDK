@@ -3,20 +3,20 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/Bool.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1CCB0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_IDS_OFFSET UNITYSDK_OFFSET(0x296E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_POSITIONS_OFFSET UNITYSDK_OFFSET(0x5AF0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_VELOCITIES_OFFSET UNITYSDK_OFFSET(0x13C30)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x2A500)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_COUNT_OFFSET UNITYSDK_OFFSET(0xAC20)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_IDS_OFFSET UNITYSDK_OFFSET(0x296F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_POSITIONS_OFFSET UNITYSDK_OFFSET(0x8D10)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_VELOCITIES_OFFSET UNITYSDK_OFFSET(0xAF80)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0xD87E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1D280)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_IDS_OFFSET UNITYSDK_OFFSET(0x2AD20)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_POSITIONS_OFFSET UNITYSDK_OFFSET(0x60D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_VELOCITIES_OFFSET UNITYSDK_OFFSET(0x14410)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x2D770)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_COUNT_OFFSET UNITYSDK_OFFSET(0xB440)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_IDS_OFFSET UNITYSDK_OFFSET(0x2AD30)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_POSITIONS_OFFSET UNITYSDK_OFFSET(0x95B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_VELOCITIES_OFFSET UNITYSDK_OFFSET(0xB7C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x13CFF0)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aePointsData_TypeDefinitionIndex = 40778;
+	inline static constexpr unsigned int aePointsData_TypeDefinitionIndex = 41604;
 
 	struct alignas(8) aePointsData
 	{
@@ -31,9 +31,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::UnityEngine::Formats::Alembic::Sdk::Bool(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_VISIBILITY_OFFSET))(this);
 		}
 
-		::System::Void set_visibility(::UnityEngine::Formats::Alembic::Sdk::Bool value)
+		::System::Void set_visibility(::UnityEngine::Formats::Alembic::Sdk::Bool a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_VISIBILITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::Bool))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_VISIBILITY_OFFSET))(this, a1);
 		}
 
 		::System::IntPtr get_positions()
@@ -41,9 +41,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_POSITIONS_OFFSET))(this);
 		}
 
-		::System::Void set_positions(::System::IntPtr value)
+		::System::Void set_positions(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_POSITIONS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_POSITIONS_OFFSET))(this, a1);
 		}
 
 		::System::IntPtr get_velocities()
@@ -51,9 +51,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_VELOCITIES_OFFSET))(this);
 		}
 
-		::System::Void set_velocities(::System::IntPtr value)
+		::System::Void set_velocities(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_VELOCITIES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_VELOCITIES_OFFSET))(this, a1);
 		}
 
 		::System::IntPtr get_ids()
@@ -61,9 +61,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::System::IntPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_IDS_OFFSET))(this);
 		}
 
-		::System::Void set_ids(::System::IntPtr value)
+		::System::Void set_ids(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_IDS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_IDS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_count()
@@ -71,9 +71,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_GET_COUNT_OFFSET))(this);
 		}
 
-		::System::Void set_count(::System::Int32 value)
+		::System::Void set_count(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_COUNT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEPOINTSDATA_SET_COUNT_OFFSET))(this, a1);
 		}
 	};
 }

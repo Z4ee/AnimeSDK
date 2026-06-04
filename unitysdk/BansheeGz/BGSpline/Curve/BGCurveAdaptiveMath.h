@@ -9,18 +9,18 @@ namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointI; }
 namespace System { class String; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_CALCULATESPLITSECTION_OFFSET UNITYSDK_OFFSET(0x17BAD100)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_INIT_OFFSET UNITYSDK_OFFSET(0x17BAC6D0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_ISUSEDISTANCETOADJUSTTANGENTS_OFFSET UNITYSDK_OFFSET(0x17BAD0F0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVECUBICSPLIT_OFFSET UNITYSDK_OFFSET(0x17BADCE0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVEQUADRATICSPLIT_OFFSET UNITYSDK_OFFSET(0x17BAE480)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RESET_OFFSET UNITYSDK_OFFSET(0x17BAC9D0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17BAEA80)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH__CTOR_OFFSET UNITYSDK_OFFSET(0x17B8EE90)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_CALCULATESPLITSECTION_OFFSET UNITYSDK_OFFSET(0x1895CAC0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_INIT_OFFSET UNITYSDK_OFFSET(0x1895C040)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_ISUSEDISTANCETOADJUSTTANGENTS_OFFSET UNITYSDK_OFFSET(0x1895CAB0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVECUBICSPLIT_OFFSET UNITYSDK_OFFSET(0x1895D8B0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVEQUADRATICSPLIT_OFFSET UNITYSDK_OFFSET(0x1895E0C0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RESET_OFFSET UNITYSDK_OFFSET(0x1895C370)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1895E750)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1893CFA0)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveAdaptiveMath_TypeDefinitionIndex = 33795;
+	inline static constexpr unsigned int BGCurveAdaptiveMath_TypeDefinitionIndex = 34077;
 
 	class BGCurveAdaptiveMath : public ::BansheeGz::BGSpline::Curve::BGCurveBaseMath
 	{
@@ -30,43 +30,43 @@ namespace BansheeGz::BGSpline::Curve
 		// static const ::System::Single DistanceTolerance; // 0x0
 		// static const ::System::Int32 RecursionLimit = 0x18; // 0x0
 		::System::Single toleranceRatio; // 0x78
-		::System::Single toleranceRatioSquared; // 0x7C
+		::System::Boolean ignoreSectionChangedCheckOverride; // 0x7C
 		::System::Single tolerance; // 0x80
-		::System::Boolean ignoreSectionChangedCheckOverride; // 0x84
+		::System::Single toleranceRatioSquared; // 0x84
 
-		::System::Void _ctor(::BansheeGz::BGSpline::Curve::BGCurve* curve, ::BansheeGz::BGSpline::Curve::BGCurveAdaptiveMath_ConfigAdaptive* config)
+		::System::Void _ctor(::BansheeGz::BGSpline::Curve::BGCurve* a1, ::BansheeGz::BGSpline::Curve::BGCurveAdaptiveMath_ConfigAdaptive* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve*, ::BansheeGz::BGSpline::Curve::BGCurveAdaptiveMath_ConfigAdaptive*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH__CTOR_OFFSET))(this, curve, config);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve*, ::BansheeGz::BGSpline::Curve::BGCurveAdaptiveMath_ConfigAdaptive*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Init(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Config* config)
+		::System::Void Init(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Config* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Config*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_INIT_OFFSET))(this, config);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Config*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Reset(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* section, ::BansheeGz::BGSpline::Curve::BGCurvePointI* from, ::BansheeGz::BGSpline::Curve::BGCurvePointI* to, ::System::Int32 pointsCount)
+		::System::Boolean Reset(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* a1, ::BansheeGz::BGSpline::Curve::BGCurvePointI* a2, ::BansheeGz::BGSpline::Curve::BGCurvePointI* a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::BansheeGz::BGSpline::Curve::BGCurvePointI*, ::BansheeGz::BGSpline::Curve::BGCurvePointI*, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RESET_OFFSET))(this, section, from, to, pointsCount);
+			return ((::System::Boolean(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::BansheeGz::BGSpline::Curve::BGCurvePointI*, ::BansheeGz::BGSpline::Curve::BGCurvePointI*, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RESET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean IsUseDistanceToAdjustTangents(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* section, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* prevSection)
+		::System::Boolean IsUseDistanceToAdjustTangents(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* a1, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_ISUSEDISTANCETOADJUSTTANGENTS_OFFSET))(this, section, prevSection);
+			return ((::System::Boolean(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_ISUSEDISTANCETOADJUSTTANGENTS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CalculateSplitSection(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* section, ::BansheeGz::BGSpline::Curve::BGCurvePointI* from, ::BansheeGz::BGSpline::Curve::BGCurvePointI* to)
+		::System::Void CalculateSplitSection(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* a1, ::BansheeGz::BGSpline::Curve::BGCurvePointI* a2, ::BansheeGz::BGSpline::Curve::BGCurvePointI* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::BansheeGz::BGSpline::Curve::BGCurvePointI*, ::BansheeGz::BGSpline::Curve::BGCurvePointI*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_CALCULATESPLITSECTION_OFFSET))(this, section, from, to);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::BansheeGz::BGSpline::Curve::BGCurvePointI*, ::BansheeGz::BGSpline::Curve::BGCurvePointI*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_CALCULATESPLITSECTION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RecursiveQuadraticSplit(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* section, ::System::Double x0, ::System::Double y0, ::System::Double z0, ::System::Double x1, ::System::Double y1, ::System::Double z1, ::System::Double x2, ::System::Double y2, ::System::Double z2, ::System::Int32 level, ::System::Boolean useSecond, ::System::Boolean calcTangents, ::System::Double fromT, ::System::Double toT)
+		::System::Void RecursiveQuadraticSplit(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* a1, ::System::Double a2, ::System::Double a3, ::System::Double a4, ::System::Double a5, ::System::Double a6, ::System::Double a7, ::System::Double a8, ::System::Double a9, ::System::Double a10, ::System::Int32 a11, ::System::Boolean a12, ::System::Boolean a13, ::System::Double a14, ::System::Double a15)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVEQUADRATICSPLIT_OFFSET))(this, section, x0, y0, z0, x1, y1, z1, x2, y2, z2, level, useSecond, calcTangents, fromT, toT);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVEQUADRATICSPLIT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15);
 		}
 
-		::System::Void RecursiveCubicSplit(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* section, ::System::Double x0, ::System::Double y0, ::System::Double z0, ::System::Double x1, ::System::Double y1, ::System::Double z1, ::System::Double x2, ::System::Double y2, ::System::Double z2, ::System::Double x3, ::System::Double y3, ::System::Double z3, ::System::Int32 level, ::System::Boolean calcTangents, ::System::Double fromT, ::System::Double toT)
+		::System::Void RecursiveCubicSplit(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo* a1, ::System::Double a2, ::System::Double a3, ::System::Double a4, ::System::Double a5, ::System::Double a6, ::System::Double a7, ::System::Double a8, ::System::Double a9, ::System::Double a10, ::System::Double a11, ::System::Double a12, ::System::Double a13, ::System::Int32 a14, ::System::Boolean a15, ::System::Double a16, ::System::Double a17)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Int32, ::System::Boolean, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVECUBICSPLIT_OFFSET))(this, section, x0, y0, z0, x1, y1, z1, x2, y2, z2, x3, y3, z3, level, calcTangents, fromT, toT);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_SectionInfo*, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Double, ::System::Int32, ::System::Boolean, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVECUBICSPLIT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17);
 		}
 
 		::System::String* ToString()

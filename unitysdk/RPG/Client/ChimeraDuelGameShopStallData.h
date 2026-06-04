@@ -2,39 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_21C7581DFE99F091_18;
-class Class_1_21C7581DFE99F091_19;
+class Class_1_21C7581DFE99F091_21;
+class Class_1_21C7581DFE99F091_22;
 namespace RPG::Client { class ChimeraDuelGameSessionShopChimera; }
 namespace RPG::Client { class ChimeraDuelGameSessionShopItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GETLEFTSLOTINDEXOFBONUSCHIMERAPAIR_OFFSET UNITYSDK_OFFSET(0xA013C60)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GET_BONUSCHIMERAPAIRCOUNT_OFFSET UNITYSDK_OFFSET(0xA013C10)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GET_CHIMERASLOTCOUNT_OFFSET UNITYSDK_OFFSET(0xA0139B0)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GET_ITEMSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0xA013B20)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_REMOVECHIMERA_OFFSET UNITYSDK_OFFSET(0xA014710)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_REMOVEITEM_OFFSET UNITYSDK_OFFSET(0xA0149D0)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETCHIMERALOCKED_OFFSET UNITYSDK_OFFSET(0xA014B30)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETCHIMERAS_OFFSET UNITYSDK_OFFSET(0xA013CD0)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETITEMLOCKED_OFFSET UNITYSDK_OFFSET(0xA014C30)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETITEMS_OFFSET UNITYSDK_OFFSET(0xA0141F0)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETCHIMERAATSLOT_OFFSET UNITYSDK_OFFSET(0xA013A00)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETCHIMERA_OFFSET UNITYSDK_OFFSET(0xA013AA0)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETITEMATSLOT_OFFSET UNITYSDK_OFFSET(0xA013B70)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA0135A0)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA013380)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GETLEFTSLOTINDEXOFBONUSCHIMERAPAIR_OFFSET UNITYSDK_OFFSET(0xB6924F0)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GET_BONUSCHIMERAPAIRCOUNT_OFFSET UNITYSDK_OFFSET(0xB6924A0)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GET_CHIMERASLOTCOUNT_OFFSET UNITYSDK_OFFSET(0xB692400)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GET_ITEMSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0xB692450)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_REMOVECHIMERA_OFFSET UNITYSDK_OFFSET(0xB68C290)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_REMOVEITEM_OFFSET UNITYSDK_OFFSET(0xB68C680)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETCHIMERALOCKED_OFFSET UNITYSDK_OFFSET(0xB68D150)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETCHIMERAS_OFFSET UNITYSDK_OFFSET(0xB68F6D0)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETITEMLOCKED_OFFSET UNITYSDK_OFFSET(0xB68D220)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETITEMS_OFFSET UNITYSDK_OFFSET(0xB68FCA0)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETCHIMERAATSLOT_OFFSET UNITYSDK_OFFSET(0xB68D7A0)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETCHIMERA_OFFSET UNITYSDK_OFFSET(0xB68E020)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETITEMATSLOT_OFFSET UNITYSDK_OFFSET(0xB68E6C0)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB68BE20)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB68F4B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelGameShopStallData_TypeDefinitionIndex = 58339;
+	inline static constexpr unsigned int ChimeraDuelGameShopStallData_TypeDefinitionIndex = 59269;
 
 	class ChimeraDuelGameShopStallData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _SlottedItems; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* _BonusChimeraPairLeftSlotMarkers; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* _BonusChimeraPairLeftSlotMarkers; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _SlottedItems; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopItem*>* _Items; // 0x20
 		::System::Collections::Generic::List_1<::System::UInt32>* _SlottedChimeras; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopChimera*>* _Chimeras; // 0x30
@@ -44,9 +44,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::RPG::Client::ChimeraDuelGameShopStallData* other)
+		::System::Void _ctor_1(::RPG::Client::ChimeraDuelGameShopStallData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameShopStallData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameShopStallData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ChimeraSlotCount()
@@ -54,14 +54,14 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GET_CHIMERASLOTCOUNT_OFFSET))(this);
 		}
 
-		::RPG::Client::ChimeraDuelGameSessionShopChimera* TryGetChimeraAtSlot(::System::Int32 slotIndex)
+		::RPG::Client::ChimeraDuelGameSessionShopChimera* TryGetChimeraAtSlot(::System::Int32 a1)
 		{
-			return ((::RPG::Client::ChimeraDuelGameSessionShopChimera*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETCHIMERAATSLOT_OFFSET))(this, slotIndex);
+			return ((::RPG::Client::ChimeraDuelGameSessionShopChimera*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETCHIMERAATSLOT_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ChimeraDuelGameSessionShopChimera* TryGetChimera(::System::UInt32 uniqueID)
+		::RPG::Client::ChimeraDuelGameSessionShopChimera* TryGetChimera(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChimeraDuelGameSessionShopChimera*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETCHIMERA_OFFSET))(this, uniqueID);
+			return ((::RPG::Client::ChimeraDuelGameSessionShopChimera*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETCHIMERA_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ItemSlotCount()
@@ -69,9 +69,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GET_ITEMSLOTCOUNT_OFFSET))(this);
 		}
 
-		::RPG::Client::ChimeraDuelGameSessionShopItem* TryGetItemAtSlot(::System::Int32 slotIndex)
+		::RPG::Client::ChimeraDuelGameSessionShopItem* TryGetItemAtSlot(::System::Int32 a1)
 		{
-			return ((::RPG::Client::ChimeraDuelGameSessionShopItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETITEMATSLOT_OFFSET))(this, slotIndex);
+			return ((::RPG::Client::ChimeraDuelGameSessionShopItem*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_TRYGETITEMATSLOT_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_BonusChimeraPairCount()
@@ -79,39 +79,39 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GET_BONUSCHIMERAPAIRCOUNT_OFFSET))(this);
 		}
 
-		::System::Int32 GetLeftSlotIndexOfBonusChimeraPair(::System::Int32 pairIndex)
+		::System::Int32 GetLeftSlotIndexOfBonusChimeraPair(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GETLEFTSLOTINDEXOFBONUSCHIMERAPAIR_OFFSET))(this, pairIndex);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_GETLEFTSLOTINDEXOFBONUSCHIMERAPAIR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetChimeras(::System::Collections::Generic::IEnumerable_1<::Class_1_21C7581DFE99F091_18*>* chimeras)
+		::System::Void SetChimeras(::System::Collections::Generic::IEnumerable_1<::Class_1_21C7581DFE99F091_21*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_21C7581DFE99F091_18*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETCHIMERAS_OFFSET))(this, chimeras);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_21C7581DFE99F091_21*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETCHIMERAS_OFFSET))(this, a1);
 		}
 
-		::System::Void SetItems(::System::Int32 itemMinSlotCount, ::System::Collections::Generic::IEnumerable_1<::Class_1_21C7581DFE99F091_19*>* items)
+		::System::Void SetItems(::System::Int32 a1, ::System::Collections::Generic::IEnumerable_1<::Class_1_21C7581DFE99F091_22*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::IEnumerable_1<::Class_1_21C7581DFE99F091_19*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETITEMS_OFFSET))(this, itemMinSlotCount, items);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::IEnumerable_1<::Class_1_21C7581DFE99F091_22*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETITEMS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveChimera(::System::UInt32 uniqueID)
+		::System::Void RemoveChimera(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_REMOVECHIMERA_OFFSET))(this, uniqueID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_REMOVECHIMERA_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveItem(::System::UInt32 uniqueID)
+		::System::Void RemoveItem(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_REMOVEITEM_OFFSET))(this, uniqueID);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_REMOVEITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void SetChimeraLocked(::System::UInt32 uniqueID, ::System::Boolean locked)
+		::System::Void SetChimeraLocked(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETCHIMERALOCKED_OFFSET))(this, uniqueID, locked);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETCHIMERALOCKED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetItemLocked(::System::UInt32 uniqueID, ::System::Boolean locked)
+		::System::Void SetItemLocked(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETITEMLOCKED_OFFSET))(this, uniqueID, locked);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA_SETITEMLOCKED_OFFSET))(this, a1, a2);
 		}
 	};
 }

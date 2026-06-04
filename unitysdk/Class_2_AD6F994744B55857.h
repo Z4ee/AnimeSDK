@@ -1,0 +1,84 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/PriorityLinkableNodeList_1.h"
+#include "unitysdk/Struct_2_4BFB662CA8913AC0.h"
+
+class Class_0_16E4307DCC419505_427;
+namespace RPG::GameCore { class GameEntity; }
+
+#define CLASS_2_AD6F994744B55857_GET_NEXT_OFFSET UNITYSDK_OFFSET(0xA49C410)
+#define CLASS_2_AD6F994744B55857_GET_OWNER_OFFSET UNITYSDK_OFFSET(0xA49C440)
+#define CLASS_2_AD6F994744B55857_GET_PREV_OFFSET UNITYSDK_OFFSET(0xA49C3F0)
+#define CLASS_2_AD6F994744B55857_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xA49C430)
+#define CLASS_2_AD6F994744B55857_METHOD_2_62593EE2FE331D20_OFFSET UNITYSDK_OFFSET(0xA49C460)
+#define CLASS_2_AD6F994744B55857_METHOD_2_9E191814CA887059_OFFSET UNITYSDK_OFFSET(0xA49C4E0)
+#define CLASS_2_AD6F994744B55857_METHOD_2_AF1BFAC85B7620AB_OFFSET UNITYSDK_OFFSET(0xA49C670)
+#define CLASS_2_AD6F994744B55857_SET_NEXT_OFFSET UNITYSDK_OFFSET(0xA49C420)
+#define CLASS_2_AD6F994744B55857_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xA49C450)
+#define CLASS_2_AD6F994744B55857_SET_PREV_OFFSET UNITYSDK_OFFSET(0xA49C400)
+#define CLASS_2_AD6F994744B55857__CTOR_OFFSET UNITYSDK_OFFSET(0xA49C8D0)
+
+inline static constexpr unsigned int Class_2_AD6F994744B55857_TypeDefinitionIndex = 50236;
+
+class Class_2_AD6F994744B55857 : public ::RPG::PriorityLinkableNodeList_1<::Class_0_16E4307DCC419505_427*>
+{
+public:
+	::Class_0_16E4307DCC419505_427* _Next_k__BackingField; // 0x28
+	::Class_0_16E4307DCC419505_427* _Prev_k__BackingField; // 0x30
+	::RPG::GameCore::GameEntity* _Owner_k__BackingField; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AD6F994744B55857__CTOR_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_427* get_Prev()
+	{
+		return ((::Class_0_16E4307DCC419505_427*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AD6F994744B55857_GET_PREV_OFFSET))(this);
+	}
+
+	::System::Void set_Prev(::Class_0_16E4307DCC419505_427* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_427*))((::PBYTE)hIl2Cpp + CLASS_2_AD6F994744B55857_SET_PREV_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_427* get_Next()
+	{
+		return ((::Class_0_16E4307DCC419505_427*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AD6F994744B55857_GET_NEXT_OFFSET))(this);
+	}
+
+	::System::Void set_Next(::Class_0_16E4307DCC419505_427* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_427*))((::PBYTE)hIl2Cpp + CLASS_2_AD6F994744B55857_SET_NEXT_OFFSET))(this, a1);
+	}
+
+	::System::Int32 get_Priority()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AD6F994744B55857_GET_PRIORITY_OFFSET))(this);
+	}
+
+	::RPG::GameCore::GameEntity* get_Owner()
+	{
+		return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AD6F994744B55857_GET_OWNER_OFFSET))(this);
+	}
+
+	::System::Void set_Owner(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_AD6F994744B55857_SET_OWNER_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_62593EE2FE331D20()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AD6F994744B55857_METHOD_2_62593EE2FE331D20_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_9E191814CA887059()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AD6F994744B55857_METHOD_2_9E191814CA887059_OFFSET))(this);
+	}
+
+	::System::Void Method_2_AF1BFAC85B7620AB(::Struct_2_4BFB662CA8913AC0& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_4BFB662CA8913AC0&))((::PBYTE)hIl2Cpp + CLASS_2_AD6F994744B55857_METHOD_2_AF1BFAC85B7620AB_OFFSET))(this, a1);
+	}
+};

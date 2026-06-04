@@ -7,11 +7,11 @@ namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class Session; }
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SESSIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xB86C160)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SESSIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xCFB5400)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int SessionResult_TypeDefinitionIndex = 47838;
+	inline static constexpr unsigned int SessionResult_TypeDefinitionIndex = 48453;
 
 	class SessionResult : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 		::System::String* EndDate; // 0x18
 		::Il2CppArray<::RPG::QA::ProfilePipeline::RPGLuaProfiler::FrameResult*>* Frames; // 0x20
 
-		::System::Void _ctor(::RPG::QA::ProfilePipeline::RPGLuaProfiler::Session* origin, ::System::Collections::Hashtable* hash)
+		::System::Void _ctor(::RPG::QA::ProfilePipeline::RPGLuaProfiler::Session* a1, ::System::Collections::Hashtable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::QA::ProfilePipeline::RPGLuaProfiler::Session*, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SESSIONRESULT__CTOR_OFFSET))(this, origin, hash);
+			return ((::System::Void(*)(::PVOID, ::RPG::QA::ProfilePipeline::RPGLuaProfiler::Session*, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SESSIONRESULT__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -5,34 +5,34 @@
 namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MIHOYO_SDK_SDKUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17655520)
-#define MIHOYO_SDK_SDKUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17655550)
-#define MIHOYO_SDK_SDKUTIL___C__GETQUERYSTRING_B__10_0_OFFSET UNITYSDK_OFFSET(0x176556C0)
-#define MIHOYO_SDK_SDKUTIL___C__SIGNCOMBOBODY_B__8_0_OFFSET UNITYSDK_OFFSET(0x17655610)
-#define MIHOYO_SDK_SDKUTIL___C__SIGNMDKBODY_B__7_0_OFFSET UNITYSDK_OFFSET(0x17655560)
+#define MIHOYO_SDK_SDKUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18429820)
+#define MIHOYO_SDK_SDKUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18429850)
+#define MIHOYO_SDK_SDKUTIL___C__GETQUERYSTRING_B__10_0_OFFSET UNITYSDK_OFFSET(0x184299C0)
+#define MIHOYO_SDK_SDKUTIL___C__SIGNCOMBOBODY_B__8_0_OFFSET UNITYSDK_OFFSET(0x18429910)
+#define MIHOYO_SDK_SDKUTIL___C__SIGNMDKBODY_B__7_0_OFFSET UNITYSDK_OFFSET(0x18429860)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKUtil___c_TypeDefinitionIndex = 7219;
+	inline static constexpr unsigned int SDKUtil___c_TypeDefinitionIndex = 8122;
 
 	class SDKUtil___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::String*>** StaticGet___9__8_0()
-		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x23250);
-		}
-		static ::System::Comparison_1<::System::String*>** StaticGet___9__7_0()
-		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x23258);
-		}
 		static ::MiHoYo::SDK::SDKUtil___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::SDKUtil___c**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x23260);
+			return (::MiHoYo::SDK::SDKUtil___c**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x1BC30);
+		}
+		static ::System::Comparison_1<::System::String*>** StaticGet___9__8_0()
+		{
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x1BC38);
 		}
 		static ::System::Comparison_1<::System::String*>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x23268);
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x1BC40);
+		}
+		static ::System::Comparison_1<::System::String*>** StaticGet___9__7_0()
+		{
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x1BC48);
 		}
 
 		static ::System::Void _cctor()
@@ -45,19 +45,19 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKUTIL___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _SignMdkBody_b__7_0(::System::String* x, ::System::String* y)
+		::System::Int32 _SignMdkBody_b__7_0(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKUTIL___C__SIGNMDKBODY_B__7_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKUTIL___C__SIGNMDKBODY_B__7_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _SignComboBody_b__8_0(::System::String* x, ::System::String* y)
+		::System::Int32 _SignComboBody_b__8_0(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKUTIL___C__SIGNCOMBOBODY_B__8_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKUTIL___C__SIGNCOMBOBODY_B__8_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _GetQueryString_b__10_0(::System::String* x, ::System::String* y)
+		::System::Int32 _GetQueryString_b__10_0(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKUTIL___C__GETQUERYSTRING_B__10_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKUTIL___C__GETQUERYSTRING_B__10_0_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_367B452FA4E5EC2C;
+
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_GROUPTYPE_OFFSET UNITYSDK_OFFSET(0xB4CA8A0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_LEFTROUNDCOUNT_OFFSET UNITYSDK_OFFSET(0xB4CA8C0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_OBTAINEDSCORE_OFFSET UNITYSDK_OFFSET(0xB4CA8D0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_STAGEINDEX_OFFSET UNITYSDK_OFFSET(0xB4CA8B0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB4CA8E0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL__GETLEFTROUNDCOUNT_OFFSET UNITYSDK_OFFSET(0xB4CA950)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL__GETOBTAINEDSCORE_OFFSET UNITYSDK_OFFSET(0xB4CABC0)
+
+namespace RPG::Client::Challenge::Tierce
+{
+	inline static constexpr unsigned int ChallengeTierceMazeProgressHintViewModel_TypeDefinitionIndex = 74240;
+
+	class ChallengeTierceMazeProgressHintViewModel : public ::System::Object
+	{
+	public:
+		::System::Nullable_1<::System::Int32> _LeftRoundCount_k__BackingField; // 0x10
+		::RPG::GameCore::ChallengeGroupType _GroupType_k__BackingField; // 0x18
+		::System::Nullable_1<::System::Int32> _ObtainedScore_k__BackingField; // 0x1C
+		::System::Int32 _StageIndex_k__BackingField; // 0x24
+
+		::System::Void _ctor(::Class_1_367B452FA4E5EC2C* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_367B452FA4E5EC2C*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL__CTOR_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::ChallengeGroupType get_GroupType()
+		{
+			return ((::RPG::GameCore::ChallengeGroupType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_GROUPTYPE_OFFSET))(this);
+		}
+
+		::System::Int32 get_StageIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_STAGEINDEX_OFFSET))(this);
+		}
+
+		::System::Nullable_1<::System::Int32> get_LeftRoundCount()
+		{
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_LEFTROUNDCOUNT_OFFSET))(this);
+		}
+
+		::System::Nullable_1<::System::Int32> get_ObtainedScore()
+		{
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_OBTAINEDSCORE_OFFSET))(this);
+		}
+
+		static ::System::Nullable_1<::System::Int32> _GetLeftRoundCount(::Class_1_367B452FA4E5EC2C* a1)
+		{
+			return ((::System::Nullable_1<::System::Int32>(*)(::Class_1_367B452FA4E5EC2C*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL__GETLEFTROUNDCOUNT_OFFSET))(a1);
+		}
+
+		static ::System::Nullable_1<::System::Int32> _GetObtainedScore(::Class_1_367B452FA4E5EC2C* a1)
+		{
+			return ((::System::Nullable_1<::System::Int32>(*)(::Class_1_367B452FA4E5EC2C*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL__GETOBTAINEDSCORE_OFFSET))(a1);
+		}
+	};
+}

@@ -11,33 +11,33 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER_EXECUTE_OFFSET UNITYSDK_OFFSET(0x180FF0C0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER_HASEFFECT_OFFSET UNITYSDK_OFFSET(0x180FF050)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18100560)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x180FEFC0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__EXECUTE_OFFSET UNITYSDK_OFFSET(0x180FF2B0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__ISRENDERINVALID_OFFSET UNITYSDK_OFFSET(0x18100200)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDEREFFECT_OFFSET UNITYSDK_OFFSET(0x181002B0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDERMATGROUP_OFFSET UNITYSDK_OFFSET(0x180FFFC0)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_EXECUTE_OFFSET UNITYSDK_OFFSET(0x18EA2130)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_HASEFFECT_OFFSET UNITYSDK_OFFSET(0x18EA20C0)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18EA3500)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA2030)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__EXECUTE_OFFSET UNITYSDK_OFFSET(0x18EA2380)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__ISRENDERINVALID_OFFSET UNITYSDK_OFFSET(0x18EA30E0)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDEREFFECT_OFFSET UNITYSDK_OFFSET(0x18EA31A0)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDERMATGROUP_OFFSET UNITYSDK_OFFSET(0x18EA2EA0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectHelper_TypeDefinitionIndex = 34976;
+	inline static constexpr unsigned int AvatarEffectHelper_TypeDefinitionIndex = 35261;
 
 	class AvatarEffectHelper : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_PassTagIDs()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEffectHelper_TypeDefinitionIndex)->GetStaticField(0x65B60);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEffectHelper_TypeDefinitionIndex)->GetStaticField(0x60800);
 		}
 		::System::Collections::Generic::List_1<::RPG::CustomRP::AvatarEffectHelper_DrawCmd>* _DrawByLightModeCmds; // 0x10
 		::System::UInt32 _RenderLayerMask; // 0x18
 		::System::Boolean _AfterTransparent; // 0x1C
 
-		::System::Void _ctor(::System::Boolean afterTransparent)
+		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__CTOR_OFFSET))(this, afterTransparent);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -50,29 +50,29 @@ namespace RPG::CustomRP
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER_HASEFFECT_OFFSET))(this);
 		}
 
-		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 layerMask)
+		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER_EXECUTE_OFFSET))(this, cmd, layerMask);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER_EXECUTE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _Execute(::RPG::CustomRP::AvatarEffectInfo* avatarEffects, ::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 layerMask)
+		::System::Void _Execute(::RPG::CustomRP::AvatarEffectInfo* a1, ::UnityEngine::Rendering::CommandBuffer* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::AvatarEffectInfo*, ::UnityEngine::Rendering::CommandBuffer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__EXECUTE_OFFSET))(this, avatarEffects, cmd, layerMask);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::AvatarEffectInfo*, ::UnityEngine::Rendering::CommandBuffer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__EXECUTE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean _IsRenderInvalid(::UnityEngine::Renderer* render, ::System::Int32 layerMask, ::System::UInt32 RLM)
+		::System::Boolean _IsRenderInvalid(::UnityEngine::Renderer* a1, ::System::Int32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__ISRENDERINVALID_OFFSET))(this, render, layerMask, RLM);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__ISRENDERINVALID_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _RenderEffect(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Renderer* render, ::UnityEngine::Material* mat, ::System::Int32 subMesh, ::Il2CppArray<::System::Int32>* passIDs, ::System::UInt32 RLM, ::System::Boolean ignoreMpb, ::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder passExeOrder)
+		::System::Void _RenderEffect(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Renderer* a2, ::UnityEngine::Material* a3, ::System::Int32 a4, ::Il2CppArray<::System::Int32>* a5, ::System::UInt32 a6, ::System::Boolean a7, ::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Renderer*, ::UnityEngine::Material*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::UInt32, ::System::Boolean, ::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDEREFFECT_OFFSET))(this, cmd, render, mat, subMesh, passIDs, RLM, ignoreMpb, passExeOrder);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Renderer*, ::UnityEngine::Material*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::UInt32, ::System::Boolean, ::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDEREFFECT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Void _RenderMatGroup(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Renderer* render, ::System::Int32 subMeshCount, ::Il2CppArray<::System::Int32>* subMeshIndices, ::System::Int32 layerMask, ::System::UInt32 RLM, ::System::Boolean ignoreMpb, ::RPG::CustomRP::AvatarEffectInfo_EffectMaterialGroup* matGroup, ::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder eExecutionOrder)
+		::System::Void _RenderMatGroup(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Renderer* a2, ::System::Int32 a3, ::Il2CppArray<::System::Int32>* a4, ::System::Int32 a5, ::System::UInt32 a6, ::System::Boolean a7, ::RPG::CustomRP::AvatarEffectInfo_EffectMaterialGroup* a8, ::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Renderer*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::UInt32, ::System::Boolean, ::RPG::CustomRP::AvatarEffectInfo_EffectMaterialGroup*, ::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDERMATGROUP_OFFSET))(this, cmd, render, subMeshCount, subMeshIndices, layerMask, RLM, ignoreMpb, matGroup, eExecutionOrder);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Renderer*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::UInt32, ::System::Boolean, ::RPG::CustomRP::AvatarEffectInfo_EffectMaterialGroup*, ::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDERMATGROUP_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 	};
 }

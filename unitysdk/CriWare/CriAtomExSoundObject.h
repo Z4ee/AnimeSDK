@@ -5,31 +5,31 @@
 
 namespace CriWare { class CriAtomExPlayer; }
 
-#define CRIWARE_CRIATOMEXSOUNDOBJECT_ADDPLAYER_OFFSET UNITYSDK_OFFSET(0x12BF26D0)
-#define CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_ADDPLAYER_OFFSET UNITYSDK_OFFSET(0x12BF2760)
-#define CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_CREATE_OFFSET UNITYSDK_OFFSET(0x12BF24A0)
-#define CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DELETEALLPLAYERS_OFFSET UNITYSDK_OFFSET(0x12BF2970)
-#define CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DELETEPLAYER_OFFSET UNITYSDK_OFFSET(0x12BF2870)
-#define CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DESTROY_OFFSET UNITYSDK_OFFSET(0x12BF2650)
-#define CRIWARE_CRIATOMEXSOUNDOBJECT_DELETEALLPLAYERS_OFFSET UNITYSDK_OFFSET(0x12BF28F0)
-#define CRIWARE_CRIATOMEXSOUNDOBJECT_DELETEPLAYER_OFFSET UNITYSDK_OFFSET(0x12BF27E0)
-#define CRIWARE_CRIATOMEXSOUNDOBJECT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12BF2560)
-#define CRIWARE_CRIATOMEXSOUNDOBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x12BF29F0)
-#define CRIWARE_CRIATOMEXSOUNDOBJECT_GET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x12BF22B0)
-#define CRIWARE_CRIATOMEXSOUNDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BF22C0)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT_ADDPLAYER_OFFSET UNITYSDK_OFFSET(0x146AEF10)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_ADDPLAYER_OFFSET UNITYSDK_OFFSET(0x146AEFA0)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_CREATE_OFFSET UNITYSDK_OFFSET(0x146AECC0)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DELETEALLPLAYERS_OFFSET UNITYSDK_OFFSET(0x146AF1B0)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DELETEPLAYER_OFFSET UNITYSDK_OFFSET(0x146AF0B0)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DESTROY_OFFSET UNITYSDK_OFFSET(0x146AEE90)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT_DELETEALLPLAYERS_OFFSET UNITYSDK_OFFSET(0x146AF130)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT_DELETEPLAYER_OFFSET UNITYSDK_OFFSET(0x146AF020)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x146AED80)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x146AF230)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT_GET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x146AEAD0)
+#define CRIWARE_CRIATOMEXSOUNDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x146AEAE0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExSoundObject_TypeDefinitionIndex = 36809;
+	inline static constexpr unsigned int CriAtomExSoundObject_TypeDefinitionIndex = 37109;
 
 	class CriAtomExSoundObject : public ::CriWare::CriDisposable
 	{
 	public:
 		::System::IntPtr handle; // 0x20
 
-		::System::Void _ctor(::System::Boolean enableVoiceLimitScope, ::System::Boolean enableCategoryCueLimitScope)
+		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT__CTOR_OFFSET))(this, enableVoiceLimitScope, enableCategoryCueLimitScope);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IntPtr get_nativeHandle()
@@ -42,14 +42,14 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void AddPlayer(::CriWare::CriAtomExPlayer* player)
+		::System::Void AddPlayer(::CriWare::CriAtomExPlayer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExPlayer*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_ADDPLAYER_OFFSET))(this, player);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExPlayer*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_ADDPLAYER_OFFSET))(this, a1);
 		}
 
-		::System::Void DeletePlayer(::CriWare::CriAtomExPlayer* player)
+		::System::Void DeletePlayer(::CriWare::CriAtomExPlayer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExPlayer*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_DELETEPLAYER_OFFSET))(this, player);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExPlayer*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_DELETEPLAYER_OFFSET))(this, a1);
 		}
 
 		::System::Void DeleteAllPlayers()
@@ -62,29 +62,29 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_FINALIZE_OFFSET))(this);
 		}
 
-		static ::System::IntPtr criAtomExSoundObject_Create(::CriWare::CriAtomExSoundObject_Config& config, ::System::IntPtr work, ::System::Int32 work_size)
+		static ::System::IntPtr criAtomExSoundObject_Create(::CriWare::CriAtomExSoundObject_Config& a1, ::System::IntPtr a2, ::System::Int32 a3)
 		{
-			return ((::System::IntPtr(*)(::CriWare::CriAtomExSoundObject_Config&, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_CREATE_OFFSET))(config, work, work_size);
+			return ((::System::IntPtr(*)(::CriWare::CriAtomExSoundObject_Config&, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_CREATE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void criAtomExSoundObject_Destroy(::System::IntPtr soundObject)
+		static ::System::Void criAtomExSoundObject_Destroy(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DESTROY_OFFSET))(soundObject);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DESTROY_OFFSET))(a1);
 		}
 
-		static ::System::Void criAtomExSoundObject_AddPlayer(::System::IntPtr soundObject, ::System::IntPtr player)
+		static ::System::Void criAtomExSoundObject_AddPlayer(::System::IntPtr a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_ADDPLAYER_OFFSET))(soundObject, player);
+			return ((::System::Void(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_ADDPLAYER_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void criAtomExSoundObject_DeletePlayer(::System::IntPtr soundObject, ::System::IntPtr player)
+		static ::System::Void criAtomExSoundObject_DeletePlayer(::System::IntPtr a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DELETEPLAYER_OFFSET))(soundObject, player);
+			return ((::System::Void(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DELETEPLAYER_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void criAtomExSoundObject_DeleteAllPlayers(::System::IntPtr soundObject)
+		static ::System::Void criAtomExSoundObject_DeleteAllPlayers(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DELETEALLPLAYERS_OFFSET))(soundObject);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXSOUNDOBJECT_CRIATOMEXSOUNDOBJECT_DELETEALLPLAYERS_OFFSET))(a1);
 		}
 	};
 }

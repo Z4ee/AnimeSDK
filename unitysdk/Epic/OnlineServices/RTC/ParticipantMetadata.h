@@ -6,17 +6,17 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_GET_KEY_OFFSET UNITYSDK_OFFSET(0x8F17210)
-#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x8F17230)
-#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_1_OFFSET UNITYSDK_OFFSET(0x8F17630)
-#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_KEY_OFFSET UNITYSDK_OFFSET(0x8F17220)
-#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_OFFSET UNITYSDK_OFFSET(0x8F17250)
-#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x8F17240)
-#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8F17740)
+#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_GET_KEY_OFFSET UNITYSDK_OFFSET(0xA33D0C0)
+#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA33D0E0)
+#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_1_OFFSET UNITYSDK_OFFSET(0xA33D4E0)
+#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_KEY_OFFSET UNITYSDK_OFFSET(0xA33D0D0)
+#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_OFFSET UNITYSDK_OFFSET(0xA33D100)
+#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xA33D0F0)
+#define EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA33D600)
 
 namespace Epic::OnlineServices::RTC
 {
-	inline static constexpr unsigned int ParticipantMetadata_TypeDefinitionIndex = 41547;
+	inline static constexpr unsigned int ParticipantMetadata_TypeDefinitionIndex = 42350;
 
 	class ParticipantMetadata : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void set_Key(::System::String* value)
+		::System::Void set_Key(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_KEY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_KEY_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Value()
@@ -44,19 +44,19 @@ namespace Epic::OnlineServices::RTC
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_Value(::System::String* value)
+		::System::Void set_Value(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_VALUE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_VALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::RTC::ParticipantMetadataInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::RTC::ParticipantMetadataInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::RTC::ParticipantMetadataInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::RTC::ParticipantMetadataInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_RTC_PARTICIPANTMETADATA_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

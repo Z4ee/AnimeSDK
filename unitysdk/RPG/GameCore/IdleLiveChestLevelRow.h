@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVECHESTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A0F080)
-#define RPG_GAMECORE_IDLELIVECHESTLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A0F1A0)
+#define RPG_GAMECORE_IDLELIVECHESTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198413A0)
+#define RPG_GAMECORE_IDLELIVECHESTLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198414C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveChestLevelRow_TypeDefinitionIndex = 11187;
+	inline static constexpr unsigned int IdleLiveChestLevelRow_TypeDefinitionIndex = 11234;
 
 	class IdleLiveChestLevelRow : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHESTLEVELROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::IdleLiveChestLevelRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveChestLevelRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveChestLevelRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHESTLEVELROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveChestLevelRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHESTLEVELROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

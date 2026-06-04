@@ -34,40 +34,40 @@ namespace Epic::OnlineServices::P2P { class SetRelayControlOptions; }
 namespace Epic::OnlineServices::P2P { class SocketId; }
 namespace System { class Object; }
 
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ACCEPTCONNECTION_OFFSET UNITYSDK_OFFSET(0x8EE08D0)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYINCOMINGPACKETQUEUEFULL_OFFSET UNITYSDK_OFFSET(0x8EE0A30)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONCLOSED_OFFSET UNITYSDK_OFFSET(0x8EE0CB0)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONESTABLISHED_OFFSET UNITYSDK_OFFSET(0x8EE0E90)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONREQUEST_OFFSET UNITYSDK_OFFSET(0x8EE1070)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLEARPACKETQUEUE_OFFSET UNITYSDK_OFFSET(0x8EE1250)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLOSECONNECTIONS_OFFSET UNITYSDK_OFFSET(0x8EE1510)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLOSECONNECTION_OFFSET UNITYSDK_OFFSET(0x8EE13B0)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETNATTYPE_OFFSET UNITYSDK_OFFSET(0x8EE1670)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETNEXTRECEIVEDPACKETSIZE_OFFSET UNITYSDK_OFFSET(0x8EE1880)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETPACKETQUEUEINFO_OFFSET UNITYSDK_OFFSET(0x8EE19F0)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETPORTRANGE_OFFSET UNITYSDK_OFFSET(0x8EE1D00)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETRELAYCONTROL_OFFSET UNITYSDK_OFFSET(0x8EE1F20)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONINCOMINGCONNECTIONREQUESTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EE05E0)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONINCOMINGPACKETQUEUEFULLCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EE0670)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONPEERCONNECTIONESTABLISHEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EE0700)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONQUERYNATTYPECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EE0790)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONREMOTECONNECTIONCLOSEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x8EE0820)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_QUERYNATTYPE_OFFSET UNITYSDK_OFFSET(0x8EE2130)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_RECEIVEPACKET_OFFSET UNITYSDK_OFFSET(0x8EE23A0)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYINCOMINGPACKETQUEUEFULL_OFFSET UNITYSDK_OFFSET(0x8EE26E0)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONCLOSED_OFFSET UNITYSDK_OFFSET(0x8EE27C0)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONESTABLISHED_OFFSET UNITYSDK_OFFSET(0x8EE28A0)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONREQUEST_OFFSET UNITYSDK_OFFSET(0x8EE2980)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SENDPACKET_OFFSET UNITYSDK_OFFSET(0x8EE2A60)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETPACKETQUEUESIZE_OFFSET UNITYSDK_OFFSET(0x8EE2BC0)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETPORTRANGE_OFFSET UNITYSDK_OFFSET(0x8EE2D20)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETRELAYCONTROL_OFFSET UNITYSDK_OFFSET(0x8EE2E80)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8EE08C0)
-#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x8EE08B0)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ACCEPTCONNECTION_OFFSET UNITYSDK_OFFSET(0xA30FD60)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYINCOMINGPACKETQUEUEFULL_OFFSET UNITYSDK_OFFSET(0xA30FEC0)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONCLOSED_OFFSET UNITYSDK_OFFSET(0xA310170)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONESTABLISHED_OFFSET UNITYSDK_OFFSET(0xA310360)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONREQUEST_OFFSET UNITYSDK_OFFSET(0xA310550)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLEARPACKETQUEUE_OFFSET UNITYSDK_OFFSET(0xA310740)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLOSECONNECTIONS_OFFSET UNITYSDK_OFFSET(0xA310A00)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLOSECONNECTION_OFFSET UNITYSDK_OFFSET(0xA3108A0)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETNATTYPE_OFFSET UNITYSDK_OFFSET(0xA310B60)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETNEXTRECEIVEDPACKETSIZE_OFFSET UNITYSDK_OFFSET(0xA310D80)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETPACKETQUEUEINFO_OFFSET UNITYSDK_OFFSET(0xA310EF0)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETPORTRANGE_OFFSET UNITYSDK_OFFSET(0xA311220)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETRELAYCONTROL_OFFSET UNITYSDK_OFFSET(0xA311460)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONINCOMINGCONNECTIONREQUESTCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA30FA20)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONINCOMINGPACKETQUEUEFULLCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA30FAC0)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONPEERCONNECTIONESTABLISHEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA30FB60)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONQUERYNATTYPECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA30FC00)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONREMOTECONNECTIONCLOSEDCALLBACKINTERNALIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0xA30FCA0)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_QUERYNATTYPE_OFFSET UNITYSDK_OFFSET(0xA311680)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_RECEIVEPACKET_OFFSET UNITYSDK_OFFSET(0xA311920)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYINCOMINGPACKETQUEUEFULL_OFFSET UNITYSDK_OFFSET(0xA311C50)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONCLOSED_OFFSET UNITYSDK_OFFSET(0xA311D30)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONESTABLISHED_OFFSET UNITYSDK_OFFSET(0xA311E10)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONREQUEST_OFFSET UNITYSDK_OFFSET(0xA311EF0)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SENDPACKET_OFFSET UNITYSDK_OFFSET(0xA311FD0)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETPACKETQUEUESIZE_OFFSET UNITYSDK_OFFSET(0xA312130)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETPORTRANGE_OFFSET UNITYSDK_OFFSET(0xA312290)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETRELAYCONTROL_OFFSET UNITYSDK_OFFSET(0xA3123F0)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA30FD50)
+#define EPIC_ONLINESERVICES_P2P_P2PINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA30FD40)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int P2PInterface_TypeDefinitionIndex = 41742;
+	inline static constexpr unsigned int P2PInterface_TypeDefinitionIndex = 42545;
 
 	class P2PInterface : public ::Epic::OnlineServices::Handle
 	{
@@ -101,149 +101,149 @@ namespace Epic::OnlineServices::P2P
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::IntPtr innerHandle)
+		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE__CTOR_1_OFFSET))(this, innerHandle);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result AcceptConnection(::Epic::OnlineServices::P2P::AcceptConnectionOptions* options)
+		::Epic::OnlineServices::Result AcceptConnection(::Epic::OnlineServices::P2P::AcceptConnectionOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::AcceptConnectionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ACCEPTCONNECTION_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::AcceptConnectionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ACCEPTCONNECTION_OFFSET))(this, a1);
 		}
 
-		::System::UInt64 AddNotifyIncomingPacketQueueFull(::Epic::OnlineServices::P2P::AddNotifyIncomingPacketQueueFullOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::P2P::OnIncomingPacketQueueFullCallback* incomingPacketQueueFullHandler)
+		::System::UInt64 AddNotifyIncomingPacketQueueFull(::Epic::OnlineServices::P2P::AddNotifyIncomingPacketQueueFullOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::P2P::OnIncomingPacketQueueFullCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::P2P::AddNotifyIncomingPacketQueueFullOptions*, ::System::Object*, ::Epic::OnlineServices::P2P::OnIncomingPacketQueueFullCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYINCOMINGPACKETQUEUEFULL_OFFSET))(this, options, clientData, incomingPacketQueueFullHandler);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::P2P::AddNotifyIncomingPacketQueueFullOptions*, ::System::Object*, ::Epic::OnlineServices::P2P::OnIncomingPacketQueueFullCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYINCOMINGPACKETQUEUEFULL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyPeerConnectionClosed(::Epic::OnlineServices::P2P::AddNotifyPeerConnectionClosedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallback* connectionClosedHandler)
+		::System::UInt64 AddNotifyPeerConnectionClosed(::Epic::OnlineServices::P2P::AddNotifyPeerConnectionClosedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::P2P::AddNotifyPeerConnectionClosedOptions*, ::System::Object*, ::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONCLOSED_OFFSET))(this, options, clientData, connectionClosedHandler);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::P2P::AddNotifyPeerConnectionClosedOptions*, ::System::Object*, ::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONCLOSED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyPeerConnectionEstablished(::Epic::OnlineServices::P2P::AddNotifyPeerConnectionEstablishedOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::P2P::OnPeerConnectionEstablishedCallback* connectionEstablishedHandler)
+		::System::UInt64 AddNotifyPeerConnectionEstablished(::Epic::OnlineServices::P2P::AddNotifyPeerConnectionEstablishedOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::P2P::OnPeerConnectionEstablishedCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::P2P::AddNotifyPeerConnectionEstablishedOptions*, ::System::Object*, ::Epic::OnlineServices::P2P::OnPeerConnectionEstablishedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONESTABLISHED_OFFSET))(this, options, clientData, connectionEstablishedHandler);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::P2P::AddNotifyPeerConnectionEstablishedOptions*, ::System::Object*, ::Epic::OnlineServices::P2P::OnPeerConnectionEstablishedCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONESTABLISHED_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt64 AddNotifyPeerConnectionRequest(::Epic::OnlineServices::P2P::AddNotifyPeerConnectionRequestOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::P2P::OnIncomingConnectionRequestCallback* connectionRequestHandler)
+		::System::UInt64 AddNotifyPeerConnectionRequest(::Epic::OnlineServices::P2P::AddNotifyPeerConnectionRequestOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::P2P::OnIncomingConnectionRequestCallback* a3)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::P2P::AddNotifyPeerConnectionRequestOptions*, ::System::Object*, ::Epic::OnlineServices::P2P::OnIncomingConnectionRequestCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONREQUEST_OFFSET))(this, options, clientData, connectionRequestHandler);
+			return ((::System::UInt64(*)(::PVOID, ::Epic::OnlineServices::P2P::AddNotifyPeerConnectionRequestOptions*, ::System::Object*, ::Epic::OnlineServices::P2P::OnIncomingConnectionRequestCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ADDNOTIFYPEERCONNECTIONREQUEST_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result ClearPacketQueue(::Epic::OnlineServices::P2P::ClearPacketQueueOptions* options)
+		::Epic::OnlineServices::Result ClearPacketQueue(::Epic::OnlineServices::P2P::ClearPacketQueueOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::ClearPacketQueueOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLEARPACKETQUEUE_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::ClearPacketQueueOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLEARPACKETQUEUE_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CloseConnection(::Epic::OnlineServices::P2P::CloseConnectionOptions* options)
+		::Epic::OnlineServices::Result CloseConnection(::Epic::OnlineServices::P2P::CloseConnectionOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::CloseConnectionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLOSECONNECTION_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::CloseConnectionOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLOSECONNECTION_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result CloseConnections(::Epic::OnlineServices::P2P::CloseConnectionsOptions* options)
+		::Epic::OnlineServices::Result CloseConnections(::Epic::OnlineServices::P2P::CloseConnectionsOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::CloseConnectionsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLOSECONNECTIONS_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::CloseConnectionsOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_CLOSECONNECTIONS_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result GetNATType(::Epic::OnlineServices::P2P::GetNATTypeOptions* options, ::Epic::OnlineServices::P2P::NATType& outNATType)
+		::Epic::OnlineServices::Result GetNATType(::Epic::OnlineServices::P2P::GetNATTypeOptions* a1, ::Epic::OnlineServices::P2P::NATType& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::GetNATTypeOptions*, ::Epic::OnlineServices::P2P::NATType&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETNATTYPE_OFFSET))(this, options, outNATType);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::GetNATTypeOptions*, ::Epic::OnlineServices::P2P::NATType&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETNATTYPE_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result GetNextReceivedPacketSize(::Epic::OnlineServices::P2P::GetNextReceivedPacketSizeOptions* options, ::System::UInt32& outPacketSizeBytes)
+		::Epic::OnlineServices::Result GetNextReceivedPacketSize(::Epic::OnlineServices::P2P::GetNextReceivedPacketSizeOptions* a1, ::System::UInt32& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::GetNextReceivedPacketSizeOptions*, ::System::UInt32&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETNEXTRECEIVEDPACKETSIZE_OFFSET))(this, options, outPacketSizeBytes);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::GetNextReceivedPacketSizeOptions*, ::System::UInt32&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETNEXTRECEIVEDPACKETSIZE_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result GetPacketQueueInfo(::Epic::OnlineServices::P2P::GetPacketQueueInfoOptions* options, ::Epic::OnlineServices::P2P::PacketQueueInfo*& outPacketQueueInfo)
+		::Epic::OnlineServices::Result GetPacketQueueInfo(::Epic::OnlineServices::P2P::GetPacketQueueInfoOptions* a1, ::Epic::OnlineServices::P2P::PacketQueueInfo*& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::GetPacketQueueInfoOptions*, ::Epic::OnlineServices::P2P::PacketQueueInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETPACKETQUEUEINFO_OFFSET))(this, options, outPacketQueueInfo);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::GetPacketQueueInfoOptions*, ::Epic::OnlineServices::P2P::PacketQueueInfo*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETPACKETQUEUEINFO_OFFSET))(this, a1, a2);
 		}
 
-		::Epic::OnlineServices::Result GetPortRange(::Epic::OnlineServices::P2P::GetPortRangeOptions* options, ::System::UInt16& outPort, ::System::UInt16& outNumAdditionalPortsToTry)
+		::Epic::OnlineServices::Result GetPortRange(::Epic::OnlineServices::P2P::GetPortRangeOptions* a1, ::System::UInt16& a2, ::System::UInt16& a3)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::GetPortRangeOptions*, ::System::UInt16&, ::System::UInt16&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETPORTRANGE_OFFSET))(this, options, outPort, outNumAdditionalPortsToTry);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::GetPortRangeOptions*, ::System::UInt16&, ::System::UInt16&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETPORTRANGE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result GetRelayControl(::Epic::OnlineServices::P2P::GetRelayControlOptions* options, ::Epic::OnlineServices::P2P::RelayControl& outRelayControl)
+		::Epic::OnlineServices::Result GetRelayControl(::Epic::OnlineServices::P2P::GetRelayControlOptions* a1, ::Epic::OnlineServices::P2P::RelayControl& a2)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::GetRelayControlOptions*, ::Epic::OnlineServices::P2P::RelayControl&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETRELAYCONTROL_OFFSET))(this, options, outRelayControl);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::GetRelayControlOptions*, ::Epic::OnlineServices::P2P::RelayControl&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_GETRELAYCONTROL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void QueryNATType(::Epic::OnlineServices::P2P::QueryNATTypeOptions* options, ::System::Object* clientData, ::Epic::OnlineServices::P2P::OnQueryNATTypeCompleteCallback* completionDelegate)
+		::System::Void QueryNATType(::Epic::OnlineServices::P2P::QueryNATTypeOptions* a1, ::System::Object* a2, ::Epic::OnlineServices::P2P::OnQueryNATTypeCompleteCallback* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::QueryNATTypeOptions*, ::System::Object*, ::Epic::OnlineServices::P2P::OnQueryNATTypeCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_QUERYNATTYPE_OFFSET))(this, options, clientData, completionDelegate);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::P2P::QueryNATTypeOptions*, ::System::Object*, ::Epic::OnlineServices::P2P::OnQueryNATTypeCompleteCallback*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_QUERYNATTYPE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Epic::OnlineServices::Result ReceivePacket(::Epic::OnlineServices::P2P::ReceivePacketOptions* options, ::Epic::OnlineServices::ProductUserId*& outPeerId, ::Epic::OnlineServices::P2P::SocketId*& outSocketId, ::System::Byte& outChannel, ::Il2CppArray<::System::Byte>*& outData)
+		::Epic::OnlineServices::Result ReceivePacket(::Epic::OnlineServices::P2P::ReceivePacketOptions* a1, ::Epic::OnlineServices::ProductUserId*& a2, ::Epic::OnlineServices::P2P::SocketId*& a3, ::System::Byte& a4, ::Il2CppArray<::System::Byte>*& a5)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::ReceivePacketOptions*, ::Epic::OnlineServices::ProductUserId*&, ::Epic::OnlineServices::P2P::SocketId*&, ::System::Byte&, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_RECEIVEPACKET_OFFSET))(this, options, outPeerId, outSocketId, outChannel, outData);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::ReceivePacketOptions*, ::Epic::OnlineServices::ProductUserId*&, ::Epic::OnlineServices::P2P::SocketId*&, ::System::Byte&, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_RECEIVEPACKET_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void RemoveNotifyIncomingPacketQueueFull(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyIncomingPacketQueueFull(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYINCOMINGPACKETQUEUEFULL_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYINCOMINGPACKETQUEUEFULL_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyPeerConnectionClosed(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyPeerConnectionClosed(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONCLOSED_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONCLOSED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyPeerConnectionEstablished(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyPeerConnectionEstablished(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONESTABLISHED_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONESTABLISHED_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveNotifyPeerConnectionRequest(::System::UInt64 notificationId)
+		::System::Void RemoveNotifyPeerConnectionRequest(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONREQUEST_OFFSET))(this, notificationId);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_REMOVENOTIFYPEERCONNECTIONREQUEST_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SendPacket(::Epic::OnlineServices::P2P::SendPacketOptions* options)
+		::Epic::OnlineServices::Result SendPacket(::Epic::OnlineServices::P2P::SendPacketOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::SendPacketOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SENDPACKET_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::SendPacketOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SENDPACKET_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetPacketQueueSize(::Epic::OnlineServices::P2P::SetPacketQueueSizeOptions* options)
+		::Epic::OnlineServices::Result SetPacketQueueSize(::Epic::OnlineServices::P2P::SetPacketQueueSizeOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::SetPacketQueueSizeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETPACKETQUEUESIZE_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::SetPacketQueueSizeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETPACKETQUEUESIZE_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetPortRange(::Epic::OnlineServices::P2P::SetPortRangeOptions* options)
+		::Epic::OnlineServices::Result SetPortRange(::Epic::OnlineServices::P2P::SetPortRangeOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::SetPortRangeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETPORTRANGE_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::SetPortRangeOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETPORTRANGE_OFFSET))(this, a1);
 		}
 
-		::Epic::OnlineServices::Result SetRelayControl(::Epic::OnlineServices::P2P::SetRelayControlOptions* options)
+		::Epic::OnlineServices::Result SetRelayControl(::Epic::OnlineServices::P2P::SetRelayControlOptions* a1)
 		{
-			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::SetRelayControlOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETRELAYCONTROL_OFFSET))(this, options);
+			return ((::Epic::OnlineServices::Result(*)(::PVOID, ::Epic::OnlineServices::P2P::SetRelayControlOptions*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_SETRELAYCONTROL_OFFSET))(this, a1);
 		}
 
-		static ::System::Void OnIncomingConnectionRequestCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnIncomingConnectionRequestCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONINCOMINGCONNECTIONREQUESTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONINCOMINGCONNECTIONREQUESTCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnIncomingPacketQueueFullCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnIncomingPacketQueueFullCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONINCOMINGPACKETQUEUEFULLCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONINCOMINGPACKETQUEUEFULLCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnPeerConnectionEstablishedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnPeerConnectionEstablishedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONPEERCONNECTIONESTABLISHEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONPEERCONNECTIONESTABLISHEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnQueryNATTypeCompleteCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnQueryNATTypeCompleteCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONQUERYNATTYPECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONQUERYNATTYPECOMPLETECALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 
-		static ::System::Void OnRemoteConnectionClosedCallbackInternalImplementation(::System::IntPtr data)
+		static ::System::Void OnRemoteConnectionClosedCallbackInternalImplementation(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONREMOTECONNECTIONCLOSEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(data);
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_P2P_P2PINTERFACE_ONREMOTECONNECTIONCLOSEDCALLBACKINTERNALIMPLEMENTATION_OFFSET))(a1);
 		}
 	};
 }

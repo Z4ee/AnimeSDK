@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakBoss_IServerAgent_TypeDefinitionIndex = 58172;
+	inline static constexpr unsigned int ChallengePeakBoss_IServerAgent_TypeDefinitionIndex = 59102;
 
 	class ChallengePeakBoss_IServerAgent
 	{

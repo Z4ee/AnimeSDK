@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtFlagRef_1_TypeDefinitionIndex = 49771;
+	inline static constexpr unsigned int RtFlagRef_1_TypeDefinitionIndex = 50438;
 
 	template <typename T>
 	class RtFlagRef_1 : public ::System::Object

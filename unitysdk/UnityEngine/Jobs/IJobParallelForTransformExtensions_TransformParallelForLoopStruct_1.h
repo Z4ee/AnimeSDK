@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Jobs
 {
-	inline static constexpr unsigned int IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1_TypeDefinitionIndex = 4235;
+	inline static constexpr unsigned int IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1_TypeDefinitionIndex = 4409;
 
 	template <typename T>
 	struct IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1

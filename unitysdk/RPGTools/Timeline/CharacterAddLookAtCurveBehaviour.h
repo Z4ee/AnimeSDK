@@ -7,13 +7,13 @@
 namespace RPG::Client { class CharacterMonoAvatar; }
 namespace RPGTools::Timeline { class CharacterAddLookAtCurveData; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8A7940)
-#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A7BF0)
-#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8A7C10)
+#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFEB2D0)
+#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFEB580)
+#define RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFEB590)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterAddLookAtCurveBehaviour_TypeDefinitionIndex = 44724;
+	inline static constexpr unsigned int CharacterAddLookAtCurveBehaviour_TypeDefinitionIndex = 45271;
 
 	class CharacterAddLookAtCurveBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
@@ -31,9 +31,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERADDLOOKATCURVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

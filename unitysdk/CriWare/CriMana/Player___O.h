@@ -6,14 +6,14 @@ namespace CriWare::CriMana { class Player_CuePointCallbackFromNativeDelegate; }
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player___O_TypeDefinitionIndex = 36961;
+	inline static constexpr unsigned int Player___O_TypeDefinitionIndex = 37261;
 
 	class Player___O : public ::System::Object
 	{
 	public:
 		static ::CriWare::CriMana::Player_CuePointCallbackFromNativeDelegate** StaticGet__0___CuePointCallbackFromNative()
 		{
-			return (::CriWare::CriMana::Player_CuePointCallbackFromNativeDelegate**)Il2CppClass::FromTypeDefinitionIndex(Player___O_TypeDefinitionIndex)->GetStaticField(0x8BD0);
+			return (::CriWare::CriMana::Player_CuePointCallbackFromNativeDelegate**)Il2CppClass::FromTypeDefinitionIndex(Player___O_TypeDefinitionIndex)->GetStaticField(0x7DF0);
 		}
 	};
 }

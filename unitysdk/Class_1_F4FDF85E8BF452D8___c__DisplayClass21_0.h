@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore::Match3 { class MatchThree1v1AIPriorityRetainMap; }
 
-#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17FB0B20)
-#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS21_0___GETPRIORITYRETAINCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x17FB17F0)
+#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D88420)
+#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS21_0___GETPRIORITYRETAINCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x18D88E50)
 
-inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c__DisplayClass21_0_TypeDefinitionIndex = 38909;
+inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c__DisplayClass21_0_TypeDefinitionIndex = 39677;
 
 class Class_1_F4FDF85E8BF452D8___c__DisplayClass21_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS21_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __GetPriorityRetainConfig_b__0(::RPG::GameCore::Match3::MatchThree1v1AIPriorityRetainMap* x)
+	::System::Boolean __GetPriorityRetainConfig_b__0(::RPG::GameCore::Match3::MatchThree1v1AIPriorityRetainMap* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::Match3::MatchThree1v1AIPriorityRetainMap*))((::PBYTE)hIl2Cpp + CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS21_0___GETPRIORITYRETAINCONFIG_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::Match3::MatchThree1v1AIPriorityRetainMap*))((::PBYTE)hIl2Cpp + CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS21_0___GETPRIORITYRETAINCONFIG_B__0_OFFSET))(this, a1);
 	}
 };

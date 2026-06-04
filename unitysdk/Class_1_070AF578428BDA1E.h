@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_070AF578428BDA1E__CTOR_OFFSET UNITYSDK_OFFSET(0x17DC92A0)
+#define CLASS_1_070AF578428BDA1E__CTOR_OFFSET UNITYSDK_OFFSET(0x189E71B0)
 
-inline static constexpr unsigned int Class_1_070AF578428BDA1E_TypeDefinitionIndex = 34562;
+inline static constexpr unsigned int Class_1_070AF578428BDA1E_TypeDefinitionIndex = 34845;
 
 class Class_1_070AF578428BDA1E : public ::System::Object
 {
 public:
-	::System::Single Field_1_1; // 0x10
-	::RPG::MVector3 Field_1_0; // 0x14
+	::RPG::MVector3 Field_1_0; // 0x10
+	::System::Single Field_1_1; // 0x1C
 
 	::System::Void _ctor()
 	{

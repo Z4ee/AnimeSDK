@@ -7,13 +7,13 @@
 namespace System { class String; }
 namespace System { class TimeZoneInfo; }
 
-#define SYSTEM_CURRENTSYSTEMTIMEZONE_GETTIMEZONEDATA_OFFSET UNITYSDK_OFFSET(0x178B7AA0)
-#define SYSTEM_CURRENTSYSTEMTIMEZONE_GETUTCOFFSET_OFFSET UNITYSDK_OFFSET(0x178B7A20)
-#define SYSTEM_CURRENTSYSTEMTIMEZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x178B7950)
+#define SYSTEM_CURRENTSYSTEMTIMEZONE_GETTIMEZONEDATA_OFFSET UNITYSDK_OFFSET(0x18670E30)
+#define SYSTEM_CURRENTSYSTEMTIMEZONE_GETUTCOFFSET_OFFSET UNITYSDK_OFFSET(0x18670DB0)
+#define SYSTEM_CURRENTSYSTEMTIMEZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x18670CE0)
 
 namespace System
 {
-	inline static constexpr unsigned int CurrentSystemTimeZone_TypeDefinitionIndex = 433;
+	inline static constexpr unsigned int CurrentSystemTimeZone_TypeDefinitionIndex = 432;
 
 	class CurrentSystemTimeZone : public ::System::TimeZone
 	{
@@ -25,14 +25,14 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CURRENTSYSTEMTIMEZONE__CTOR_OFFSET))(this);
 		}
 
-		::System::TimeSpan GetUtcOffset(::System::DateTime dateTime)
+		::System::TimeSpan GetUtcOffset(::System::DateTime a1)
 		{
-			return ((::System::TimeSpan(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_CURRENTSYSTEMTIMEZONE_GETUTCOFFSET_OFFSET))(this, dateTime);
+			return ((::System::TimeSpan(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_CURRENTSYSTEMTIMEZONE_GETUTCOFFSET_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean GetTimeZoneData(::System::Int32 year, ::Il2CppArray<::System::Int64>*& data, ::Il2CppArray<::System::String*>*& names, ::System::Boolean& daylight_inverted)
+		static ::System::Boolean GetTimeZoneData(::System::Int32 a1, ::Il2CppArray<::System::Int64>*& a2, ::Il2CppArray<::System::String*>*& a3, ::System::Boolean& a4)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::Il2CppArray<::System::Int64>*&, ::Il2CppArray<::System::String*>*&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_CURRENTSYSTEMTIMEZONE_GETTIMEZONEDATA_OFFSET))(year, data, names, daylight_inverted);
+			return ((::System::Boolean(*)(::System::Int32, ::Il2CppArray<::System::Int64>*&, ::Il2CppArray<::System::String*>*&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_CURRENTSYSTEMTIMEZONE_GETTIMEZONEDATA_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

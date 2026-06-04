@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_BOOLEANSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0D6630)
+#define SYSTEM_DIAGNOSTICS_BOOLEANSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF3E920)
 
 namespace System::Diagnostics
 {
@@ -13,9 +13,9 @@ namespace System::Diagnostics
 	class BooleanSwitch : public ::System::Diagnostics::Switch
 	{
 	public:
-		::System::Void _ctor(::System::String* displayName, ::System::String* description)
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_BOOLEANSWITCH__CTOR_OFFSET))(this, displayName, description);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_BOOLEANSWITCH__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

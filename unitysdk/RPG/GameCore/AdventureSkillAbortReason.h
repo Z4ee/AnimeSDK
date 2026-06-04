@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillAbortReason_TypeDefinitionIndex = 52405;
+	inline static constexpr unsigned int AdventureSkillAbortReason_TypeDefinitionIndex = 53105;
 
 	enum class AdventureSkillAbortReason : ::System::Int32
 	{

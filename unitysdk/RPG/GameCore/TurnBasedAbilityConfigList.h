@@ -12,12 +12,12 @@ namespace RPG::GameCore { class VCameraConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TURNBASEDABILITYCONFIGLIST_METHOD_2_41D4756FDE70FD55_OFFSET UNITYSDK_OFFSET(0x190D0CB0)
-#define RPG_GAMECORE_TURNBASEDABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x190D0FA0)
+#define RPG_GAMECORE_TURNBASEDABILITYCONFIGLIST_METHOD_2_75B90BAB1ED990B8_OFFSET UNITYSDK_OFFSET(0x19E22180)
+#define RPG_GAMECORE_TURNBASEDABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19E22460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedAbilityConfigList_TypeDefinitionIndex = 17289;
+	inline static constexpr unsigned int TurnBasedAbilityConfigList_TypeDefinitionIndex = 17294;
 
 	class TurnBasedAbilityConfigList : public ::RPG::GameCore::JsonConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCONFIGLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_41D4756FDE70FD55(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnBasedAbilityConfigList*& a2)
+		static ::System::Void Method_2_75B90BAB1ED990B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnBasedAbilityConfigList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnBasedAbilityConfigList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCONFIGLIST_METHOD_2_41D4756FDE70FD55_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnBasedAbilityConfigList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCONFIGLIST_METHOD_2_75B90BAB1ED990B8_OFFSET))(a1, a2);
 		}
 	};
 }

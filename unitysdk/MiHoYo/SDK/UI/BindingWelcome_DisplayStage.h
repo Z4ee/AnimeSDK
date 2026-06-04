@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int BindingWelcome_DisplayStage_TypeDefinitionIndex = 7414;
+	inline static constexpr unsigned int BindingWelcome_DisplayStage_TypeDefinitionIndex = 8317;
 
 	enum class BindingWelcome_DisplayStage : ::System::Int32
 	{

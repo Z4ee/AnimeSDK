@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/BaseBillBoardSystem_1.h"
 
-class Class_1_24C2E7EF22229C6A;
-class Class_2_9DD8A46984F1AFFD;
+class Class_1_B4357A1C72BABC6B;
+class Class_2_B9E8C2EEAA5C96EC;
 class Class_2_F47F7A3F5E97970D;
-class Class_3_1A92845FAFA5EC77;
+class Class_3_1E4F9B0ED3BF21DE;
 
-#define CLASS_2_AF7D3087DB47CB43__CTOR_OFFSET UNITYSDK_OFFSET(0x123ED750)
-#define CLASS_2_AF7D3087DB47CB43__ISBILLBOARDNEEDSHOW_OFFSET UNITYSDK_OFFSET(0x123ED820)
+#define CLASS_2_AF7D3087DB47CB43__CTOR_OFFSET UNITYSDK_OFFSET(0x13B13580)
+#define CLASS_2_AF7D3087DB47CB43__ISBILLBOARDNEEDSHOW_OFFSET UNITYSDK_OFFSET(0x13B13650)
 
-inline static constexpr unsigned int Class_2_AF7D3087DB47CB43_TypeDefinitionIndex = 70618;
+inline static constexpr unsigned int Class_2_AF7D3087DB47CB43_TypeDefinitionIndex = 71436;
 
-class Class_2_AF7D3087DB47CB43 : public ::RPG::Client::LittleGame::FiveDim::BaseBillBoardSystem_1<::Class_2_9DD8A46984F1AFFD*>
+class Class_2_AF7D3087DB47CB43 : public ::RPG::Client::LittleGame::FiveDim::BaseBillBoardSystem_1<::Class_2_B9E8C2EEAA5C96EC*>
 {
 public:
-	::Class_2_F47F7A3F5E97970D* Field_2_0; // 0x20
-	::Class_3_1A92845FAFA5EC77* Field_2_1; // 0x28
+	::Class_3_1E4F9B0ED3BF21DE* Field_2_0; // 0x20
+	::Class_2_F47F7A3F5E97970D* Field_2_1; // 0x28
 
-	::System::Void _ctor(::Class_1_24C2E7EF22229C6A* a1, ::Class_3_1A92845FAFA5EC77* a2)
+	::System::Void _ctor(::Class_1_B4357A1C72BABC6B* a1, ::Class_3_1E4F9B0ED3BF21DE* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_24C2E7EF22229C6A*, ::Class_3_1A92845FAFA5EC77*))((::PBYTE)hIl2Cpp + CLASS_2_AF7D3087DB47CB43__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_B4357A1C72BABC6B*, ::Class_3_1E4F9B0ED3BF21DE*))((::PBYTE)hIl2Cpp + CLASS_2_AF7D3087DB47CB43__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean _IsBillBoardNeedShow(::Class_2_9DD8A46984F1AFFD* a1)
+	::System::Boolean _IsBillBoardNeedShow(::Class_2_B9E8C2EEAA5C96EC* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_2_9DD8A46984F1AFFD*))((::PBYTE)hIl2Cpp + CLASS_2_AF7D3087DB47CB43__ISBILLBOARDNEEDSHOW_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_B9E8C2EEAA5C96EC*))((::PBYTE)hIl2Cpp + CLASS_2_AF7D3087DB47CB43__ISBILLBOARDNEEDSHOW_OFFSET))(this, a1);
 	}
 };

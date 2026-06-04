@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_PlayMessage_TypeDefinitionIndex = 60904;
+	inline static constexpr unsigned int MissionModule_PlayMessage_TypeDefinitionIndex = 61838;
 
 	struct alignas(4) MissionModule_PlayMessage
 	{

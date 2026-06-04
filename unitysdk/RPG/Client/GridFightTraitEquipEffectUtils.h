@@ -7,15 +7,15 @@ namespace RPG::Client { class GridFightTraitConfigBase; }
 namespace RPG::GameCore { class GridFightTraitEffectLayerParamConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS_GETEQUIPSITEMCONFIGS_OFFSET UNITYSDK_OFFSET(0xA5BBD70)
-#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xA5BC2B0)
-#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDEFFECTID_OFFSET UNITYSDK_OFFSET(0xA5BC190)
-#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDEFFECTLAYERCONFIG_OFFSET UNITYSDK_OFFSET(0xA5BBF60)
-#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDMAXLAYER_OFFSET UNITYSDK_OFFSET(0xA5BBFE0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS_GETEQUIPSITEMCONFIGS_OFFSET UNITYSDK_OFFSET(0xBC2DFB0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xBC2E560)
+#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDEFFECTID_OFFSET UNITYSDK_OFFSET(0xBC2E470)
+#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDEFFECTLAYERCONFIG_OFFSET UNITYSDK_OFFSET(0xBC2E240)
+#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDMAXLAYER_OFFSET UNITYSDK_OFFSET(0xBC2E2C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitEquipEffectUtils_TypeDefinitionIndex = 60211;
+	inline static constexpr unsigned int GridFightTraitEquipEffectUtils_TypeDefinitionIndex = 61146;
 
 	class GridFightTraitEquipEffectUtils : public ::System::Object
 	{
@@ -25,24 +25,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemConfig*>* GetEquipsItemConfigs(::RPG::Client::GridFightTraitConfigBase* traitConfig)
+		static ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemConfig*>* GetEquipsItemConfigs(::RPG::Client::GridFightTraitConfigBase* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemConfig*>*(*)(::RPG::Client::GridFightTraitConfigBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS_GETEQUIPSITEMCONFIGS_OFFSET))(traitConfig);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemConfig*>*(*)(::RPG::Client::GridFightTraitConfigBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS_GETEQUIPSITEMCONFIGS_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::GridFightTraitEffectLayerParamConfigRow* _FindEffectLayerConfig(::RPG::Client::GridFightTraitConfigBase* config)
+		static ::RPG::GameCore::GridFightTraitEffectLayerParamConfigRow* _FindEffectLayerConfig(::RPG::Client::GridFightTraitConfigBase* a1)
 		{
-			return ((::RPG::GameCore::GridFightTraitEffectLayerParamConfigRow*(*)(::RPG::Client::GridFightTraitConfigBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDEFFECTLAYERCONFIG_OFFSET))(config);
+			return ((::RPG::GameCore::GridFightTraitEffectLayerParamConfigRow*(*)(::RPG::Client::GridFightTraitConfigBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDEFFECTLAYERCONFIG_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 _FindEffectID(::RPG::Client::GridFightTraitConfigBase* config)
+		static ::System::UInt32 _FindEffectID(::RPG::Client::GridFightTraitConfigBase* a1)
 		{
-			return ((::System::UInt32(*)(::RPG::Client::GridFightTraitConfigBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDEFFECTID_OFFSET))(config);
+			return ((::System::UInt32(*)(::RPG::Client::GridFightTraitConfigBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDEFFECTID_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 _FindMaxLayer(::RPG::Client::GridFightTraitConfigBase* config)
+		static ::System::UInt32 _FindMaxLayer(::RPG::Client::GridFightTraitConfigBase* a1)
 		{
-			return ((::System::UInt32(*)(::RPG::Client::GridFightTraitConfigBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDMAXLAYER_OFFSET))(config);
+			return ((::System::UInt32(*)(::RPG::Client::GridFightTraitConfigBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECTUTILS__FINDMAXLAYER_OFFSET))(a1);
 		}
 	};
 }

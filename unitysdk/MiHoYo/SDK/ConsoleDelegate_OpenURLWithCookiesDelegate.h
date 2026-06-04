@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x175166B0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x175166F0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1750A3F0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17516690)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18309290)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x183092D0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18306EF0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18309210)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_OpenURLWithCookiesDelegate_TypeDefinitionIndex = 6711;
+	inline static constexpr unsigned int ConsoleDelegate_OpenURLWithCookiesDelegate_TypeDefinitionIndex = 7614;
 
 	class ConsoleDelegate_OpenURLWithCookiesDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Invoke(::System::String* jsonString, ::System::Action* closeCallback)
+		::System::Int32 Invoke(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_INVOKE_OFFSET))(this, jsonString, closeCallback);
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* jsonString, ::System::Action* closeCallback, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::Action* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Action*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_BEGININVOKE_OFFSET))(this, jsonString, closeCallback, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Action*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 EndInvoke(::System::IAsyncResult* result)
+		::System::Int32 EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

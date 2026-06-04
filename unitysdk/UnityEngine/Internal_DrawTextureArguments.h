@@ -10,7 +10,7 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Internal_DrawTextureArguments_TypeDefinitionIndex = 3942;
+	inline static constexpr unsigned int Internal_DrawTextureArguments_TypeDefinitionIndex = 4116;
 
 	struct alignas(8) Internal_DrawTextureArguments
 	{

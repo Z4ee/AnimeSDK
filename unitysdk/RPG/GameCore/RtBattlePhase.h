@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattlePhase_TypeDefinitionIndex = 17141;
+	inline static constexpr unsigned int RtBattlePhase_TypeDefinitionIndex = 17152;
 
 	enum class RtBattlePhase : ::System::Int32
 	{

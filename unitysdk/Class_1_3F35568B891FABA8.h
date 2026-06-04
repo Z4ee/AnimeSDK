@@ -1,0 +1,85 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_9A47B19873DD5A1F.h"
+#include "unitysdk/System/Object.h"
+
+class Class_3_97041AE90E3B2214;
+namespace RPG::GameCore { class ChenLingFesItemRuleGroupRow; }
+namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
+
+#define CLASS_1_3F35568B891FABA8_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA4E5A30)
+#define CLASS_1_3F35568B891FABA8_METHOD_1_1A72AC7AF2C9C69D_OFFSET UNITYSDK_OFFSET(0xA4E6180)
+#define CLASS_1_3F35568B891FABA8_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xA4E6360)
+#define CLASS_1_3F35568B891FABA8_METHOD_1_7649655DED4CC511_OFFSET UNITYSDK_OFFSET(0xA4E6270)
+#define CLASS_1_3F35568B891FABA8_METHOD_1_8F537CE539CF0103_OFFSET UNITYSDK_OFFSET(0xA4E60B0)
+#define CLASS_1_3F35568B891FABA8_METHOD_1_92881F431A0F9887_OFFSET UNITYSDK_OFFSET(0xA4E5D90)
+#define CLASS_1_3F35568B891FABA8_METHOD_1_E60B41B0210068CD_OFFSET UNITYSDK_OFFSET(0xA4E6010)
+#define CLASS_1_3F35568B891FABA8_METHOD_1_F1863250742E712A_OFFSET UNITYSDK_OFFSET(0xA4E5BC0)
+#define CLASS_1_3F35568B891FABA8_METHOD_1_F26CE4FC4BEDB222_OFFSET UNITYSDK_OFFSET(0xA4E5B10)
+#define CLASS_1_3F35568B891FABA8_METHOD_1_F289A5A170401D6B_OFFSET UNITYSDK_OFFSET(0xA4E5F50)
+#define CLASS_1_3F35568B891FABA8__CTOR_OFFSET UNITYSDK_OFFSET(0xA4E59E0)
+
+inline static constexpr unsigned int Class_1_3F35568B891FABA8_TypeDefinitionIndex = 72287;
+
+class Class_1_3F35568B891FABA8 : public ::System::Object
+{
+public:
+	::RPG::GameCore::ChenLingFesItemRuleGroupRow* Field_1_0; // 0x10
+	::System::Collections::Generic::LinkedList_1<::Struct_2_9A47B19873DD5A1F>* Field_1_1; // 0x18
+	::Class_3_97041AE90E3B2214* Field_1_2; // 0x20
+
+	::System::Void _ctor(::Class_3_97041AE90E3B2214* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_97041AE90E3B2214*))((::PBYTE)hIl2Cpp + CLASS_1_3F35568B891FABA8__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3F35568B891FABA8_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_F26CE4FC4BEDB222(::Struct_2_9A47B19873DD5A1F a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_9A47B19873DD5A1F))((::PBYTE)hIl2Cpp + CLASS_1_3F35568B891FABA8_METHOD_1_F26CE4FC4BEDB222_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_92881F431A0F9887(::System::UInt32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_3F35568B891FABA8_METHOD_1_92881F431A0F9887_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::System::Void Method_1_F289A5A170401D6B(::Struct_2_9A47B19873DD5A1F a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_9A47B19873DD5A1F))((::PBYTE)hIl2Cpp + CLASS_1_3F35568B891FABA8_METHOD_1_F289A5A170401D6B_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_E60B41B0210068CD(::Struct_2_9A47B19873DD5A1F& a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Struct_2_9A47B19873DD5A1F&))((::PBYTE)hIl2Cpp + CLASS_1_3F35568B891FABA8_METHOD_1_E60B41B0210068CD_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_8F537CE539CF0103()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3F35568B891FABA8_METHOD_1_8F537CE539CF0103_OFFSET))(this);
+	}
+
+	::System::Void Method_1_1A72AC7AF2C9C69D(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_3F35568B891FABA8_METHOD_1_1A72AC7AF2C9C69D_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 Method_1_7649655DED4CC511()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3F35568B891FABA8_METHOD_1_7649655DED4CC511_OFFSET))(this);
+	}
+
+	::System::Void Method_1_F1863250742E712A(::Struct_2_9A47B19873DD5A1F a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_9A47B19873DD5A1F))((::PBYTE)hIl2Cpp + CLASS_1_3F35568B891FABA8_METHOD_1_F1863250742E712A_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3F35568B891FABA8_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+	}
+};

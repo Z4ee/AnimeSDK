@@ -1,12 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_9BB4D72520EB5607.h"
 
-class Class_0_16E4307DCC419505_722;
-namespace RPG::Client { class GridFightConsumableInfo_GridFightConsumableItemUseParam; }
-namespace RPG::Client { class GridFightConsumableItemData; }
-namespace System { class String; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_732_TypeDefinitionIndex = 59753;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_732_TypeDefinitionIndex = 58799;
 
 class Class_0_16E4307DCC419505_732
 {

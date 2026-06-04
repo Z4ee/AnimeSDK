@@ -5,18 +5,18 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0x8BC5590)
-#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8BC5570)
-#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8BC5550)
-#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0x8BC5830)
-#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0x8BC5580)
-#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0x8BC55B0)
-#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0x8BC5560)
-#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8BC5940)
+#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_GETRESULTCODE_OFFSET UNITYSDK_OFFSET(0xA0DD1C0)
+#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_GET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA0DD1A0)
+#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_GET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA0DD180)
+#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_1_OFFSET UNITYSDK_OFFSET(0xA0DD460)
+#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_CLIENTDATA_OFFSET UNITYSDK_OFFSET(0xA0DD1B0)
+#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_OFFSET UNITYSDK_OFFSET(0xA0DD1E0)
+#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_RESULTCODE_OFFSET UNITYSDK_OFFSET(0xA0DD190)
+#define EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA0DD580)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int DestroySessionCallbackInfo_TypeDefinitionIndex = 41257;
+	inline static constexpr unsigned int DestroySessionCallbackInfo_TypeDefinitionIndex = 42060;
 
 	class DestroySessionCallbackInfo : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_GET_RESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void set_ResultCode(::Epic::OnlineServices::Result value)
+		::System::Void set_ResultCode(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_RESULTCODE_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_ClientData()
@@ -44,9 +44,9 @@ namespace Epic::OnlineServices::Sessions
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_GET_CLIENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ClientData(::System::Object* value)
+		::System::Void set_ClientData(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_CLIENTDATA_OFFSET))(this, a1);
 		}
 
 		::System::Nullable_1<::Epic::OnlineServices::Result> GetResultCode()
@@ -54,14 +54,14 @@ namespace Epic::OnlineServices::Sessions
 			return ((::System::Nullable_1<::Epic::OnlineServices::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_GETRESULTCODE_OFFSET))(this);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Sessions::DestroySessionCallbackInfoInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Sessions::DestroySessionCallbackInfoInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Sessions::DestroySessionCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Sessions::DestroySessionCallbackInfoInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_SESSIONS_DESTROYSESSIONCALLBACKINFO_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

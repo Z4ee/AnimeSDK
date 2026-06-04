@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class LightmapData; }
 
-#define UNITYENGINE_LIGHTMAPSETTINGS_SET_LIGHTMAPS_OFFSET UNITYSDK_OFFSET(0x1A44D780)
+#define UNITYENGINE_LIGHTMAPSETTINGS_SET_LIGHTMAPS_OFFSET UNITYSDK_OFFSET(0x1B29E560)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightmapSettings_TypeDefinitionIndex = 3938;
+	inline static constexpr unsigned int LightmapSettings_TypeDefinitionIndex = 4112;
 
 	class LightmapSettings : public ::UnityEngine::Object
 	{
 	public:
-		static ::System::Void set_lightmaps(::Il2CppArray<::UnityEngine::LightmapData*>* value)
+		static ::System::Void set_lightmaps(::Il2CppArray<::UnityEngine::LightmapData*>* a1)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::LightmapData*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LIGHTMAPSETTINGS_SET_LIGHTMAPS_OFFSET))(value);
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::LightmapData*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_LIGHTMAPSETTINGS_SET_LIGHTMAPS_OFFSET))(a1);
 		}
 	};
 }

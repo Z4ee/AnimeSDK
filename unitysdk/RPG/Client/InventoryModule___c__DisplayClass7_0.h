@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ItemData; }
 
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA63C240)
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS7_0__GETSORTEDMPITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xA64DEC0)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBD41AB0)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS7_0__GETSORTEDMPITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xBD54940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InventoryModule___c__DisplayClass7_0_TypeDefinitionIndex = 60489;
+	inline static constexpr unsigned int InventoryModule___c__DisplayClass7_0_TypeDefinitionIndex = 61423;
 
 	class InventoryModule___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetSortedMPItems_b__0(::RPG::Client::ItemData* a, ::RPG::Client::ItemData* b)
+		::System::Int32 _GetSortedMPItems_b__0(::RPG::Client::ItemData* a1, ::RPG::Client::ItemData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ItemData*, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS7_0__GETSORTEDMPITEMS_B__0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ItemData*, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS7_0__GETSORTEDMPITEMS_B__0_OFFSET))(this, a1, a2);
 		}
 	};
 }

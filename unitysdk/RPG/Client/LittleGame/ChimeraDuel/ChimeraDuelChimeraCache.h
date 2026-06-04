@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0574DA6BF5DF5E24;
-class Class_1_DCE302F7FD05DE84_1;
-class Class_2_49CAB3DE74280C58;
-class Class_2_6AA7CA7493367EF4;
+class Class_1_02098A44CBBFEEE1;
+class Class_1_D2412BD47CB5EDB5;
+class Class_2_B66C1067C0468FBB;
+class Class_2_FB9CF047C8AEAA83;
 namespace RPG::Client { class ChimeraDuelChimeraData; }
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
 namespace RPG::Client { class IChimeraDuelSkillData; }
@@ -15,119 +15,119 @@ namespace RPG::GameCore { class ChimeraDuelPresetChimeraConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CALCULATERANDOMSEEDCOMPONENT_OFFSET UNITYSDK_OFFSET(0xA68C830)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0xA68D220)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFAKE_1_OFFSET UNITYSDK_OFFSET(0xA68C580)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0xA68C2F0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFROMPRESET_1_OFFSET UNITYSDK_OFFSET(0xA68C4D0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFROMPRESET_OFFSET UNITYSDK_OFFSET(0xA68C370)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_1_OFFSET UNITYSDK_OFFSET(0xA68C110)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_2_OFFSET UNITYSDK_OFFSET(0xA68C1F0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_3_OFFSET UNITYSDK_OFFSET(0xA68C270)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_OFFSET UNITYSDK_OFFSET(0xA68BE10)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_GETCHIMERADATA_OFFSET UNITYSDK_OFFSET(0xA68D120)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_GETSKILLDATA_OFFSET UNITYSDK_OFFSET(0xA68CEC0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_GETTONEXTLEVELEXP_OFFSET UNITYSDK_OFFSET(0xA68CDF0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_TOCHIMERALOG_OFFSET UNITYSDK_OFFSET(0xA68C940)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_TOLOG_OFFSET UNITYSDK_OFFSET(0xA68CA40)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA68B910)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA68B970)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_3_OFFSET UNITYSDK_OFFSET(0xA68BA60)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_4_OFFSET UNITYSDK_OFFSET(0xA68BB00)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_5_OFFSET UNITYSDK_OFFSET(0xA68C6A0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_6_OFFSET UNITYSDK_OFFSET(0xA68C760)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_OFFSET UNITYSDK_OFFSET(0xA68B5D0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CALCULATERANDOMSEEDCOMPONENT_OFFSET UNITYSDK_OFFSET(0xBDDCFE0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0xBDDD940)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFAKE_1_OFFSET UNITYSDK_OFFSET(0xBDDCD40)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0xBDDCB50)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFROMPRESET_1_OFFSET UNITYSDK_OFFSET(0xBDDCC90)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFROMPRESET_OFFSET UNITYSDK_OFFSET(0xBDDCBD0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_1_OFFSET UNITYSDK_OFFSET(0xBDDC970)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_2_OFFSET UNITYSDK_OFFSET(0xBDDCA50)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_3_OFFSET UNITYSDK_OFFSET(0xBDDCAD0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_OFFSET UNITYSDK_OFFSET(0xBDDC6D0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_GETCHIMERADATA_OFFSET UNITYSDK_OFFSET(0xBDDD880)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_GETSKILLDATA_OFFSET UNITYSDK_OFFSET(0xBDDD630)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_GETTONEXTLEVELEXP_OFFSET UNITYSDK_OFFSET(0xBDDD560)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_TOCHIMERALOG_OFFSET UNITYSDK_OFFSET(0xBDDD110)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_TOLOG_OFFSET UNITYSDK_OFFSET(0xBDDD210)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xBDDC260)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_2_OFFSET UNITYSDK_OFFSET(0xBDDC2C0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_3_OFFSET UNITYSDK_OFFSET(0xBDDC3D0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_4_OFFSET UNITYSDK_OFFSET(0xBDDC470)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_5_OFFSET UNITYSDK_OFFSET(0xBDDCE60)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_6_OFFSET UNITYSDK_OFFSET(0xBDDCF20)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_OFFSET UNITYSDK_OFFSET(0xBDDBEA0)
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraCache_TypeDefinitionIndex = 71230;
+	inline static constexpr unsigned int ChimeraDuelChimeraCache_TypeDefinitionIndex = 72168;
 
 	class ChimeraDuelChimeraCache : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* EquipmentIDs; // 0x10
-		::System::Int32 CurrentHP; // 0x18
+		::System::UInt32 ID; // 0x18
 		::System::UInt32 Exp; // 0x1C
-		::RPG::GameCore::ChimeraDuelTeamType TeamType; // 0x20
-		::System::Int32 UniqueID; // 0x24
-		::System::Int32 TeamPosition; // 0x28
-		::System::Int32 CurrentAttack; // 0x2C
-		::System::UInt32 ID; // 0x30
-		::System::UInt32 Level; // 0x34
+		::System::Int32 CurrentHP; // 0x20
+		::System::Int32 TeamPosition; // 0x24
+		::System::Int32 UniqueID; // 0x28
+		::System::UInt32 Level; // 0x2C
+		::RPG::GameCore::ChimeraDuelTeamType TeamType; // 0x30
+		::System::Int32 CurrentAttack; // 0x34
 
-		::System::Void _ctor(::Class_2_49CAB3DE74280C58* entity, ::Class_2_6AA7CA7493367EF4* context)
+		::System::Void _ctor(::Class_2_B66C1067C0468FBB* a1, ::Class_2_FB9CF047C8AEAA83* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_49CAB3DE74280C58*, ::Class_2_6AA7CA7493367EF4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_OFFSET))(this, entity, context);
+			return ((::System::Void(*)(::PVOID, ::Class_2_B66C1067C0468FBB*, ::Class_2_FB9CF047C8AEAA83*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::Class_1_0574DA6BF5DF5E24* summonUnit)
+		::System::Void _ctor_1(::Class_1_D2412BD47CB5EDB5* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_0574DA6BF5DF5E24*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_1_OFFSET))(this, summonUnit);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D2412BD47CB5EDB5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::RPG::GameCore::ChimeraDuelTeamType teamType, ::System::Int32 teamPosition, ::RPG::Client::ChimeraDuelGameSessionChimera* chimera)
+		::System::Void _ctor_2(::RPG::GameCore::ChimeraDuelTeamType a1, ::System::Int32 a2, ::RPG::Client::ChimeraDuelGameSessionChimera* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32, ::RPG::Client::ChimeraDuelGameSessionChimera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_2_OFFSET))(this, teamType, teamPosition, chimera);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32, ::RPG::Client::ChimeraDuelGameSessionChimera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ctor_3(::System::UInt32 masterID, ::System::Int32 uniqueID, ::RPG::GameCore::ChimeraDuelTeamType teamType, ::System::Int32 teamPosition)
+		::System::Void _ctor_3(::System::UInt32 a1, ::System::Int32 a2, ::RPG::GameCore::ChimeraDuelTeamType a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_3_OFFSET))(this, masterID, uniqueID, teamType, teamPosition);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_3_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_4(::RPG::GameCore::ChimeraDuelPresetChimeraConfig* config, ::RPG::GameCore::ChimeraDuelTeamType teamType, ::System::Int32 teamPosition)
+		::System::Void _ctor_4(::RPG::GameCore::ChimeraDuelPresetChimeraConfig* a1, ::RPG::GameCore::ChimeraDuelTeamType a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraDuelPresetChimeraConfig*, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_4_OFFSET))(this, config, teamType, teamPosition);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraDuelPresetChimeraConfig*, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_4_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _ctor_5(::System::UInt32 id, ::System::UInt32 level, ::System::UInt32 exp, ::System::Int32 hp, ::System::Int32 atk, ::RPG::GameCore::ChimeraDuelTeamType teamType, ::System::Int32 teamPosition)
+		::System::Void _ctor_5(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Int32 a4, ::System::Int32 a5, ::RPG::GameCore::ChimeraDuelTeamType a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Int32, ::System::Int32, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_5_OFFSET))(this, id, level, exp, hp, atk, teamType, teamPosition);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Int32, ::System::Int32, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_5_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void _ctor_6(::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* other)
+		::System::Void _ctor_6(::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_6_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE__CTOR_6_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Create(::Class_2_49CAB3DE74280C58* entity, ::Class_2_6AA7CA7493367EF4* context)
+		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Create(::Class_2_B66C1067C0468FBB* a1, ::Class_2_FB9CF047C8AEAA83* a2)
 		{
-			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::Class_2_49CAB3DE74280C58*, ::Class_2_6AA7CA7493367EF4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_OFFSET))(entity, context);
+			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::Class_2_B66C1067C0468FBB*, ::Class_2_FB9CF047C8AEAA83*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Create_1(::System::UInt32 masterID, ::System::Int32 uniqueID, ::RPG::GameCore::ChimeraDuelTeamType teamType, ::System::Int32 teamPosition)
+		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Create_1(::System::UInt32 a1, ::System::Int32 a2, ::RPG::GameCore::ChimeraDuelTeamType a3, ::System::Int32 a4)
 		{
-			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::System::UInt32, ::System::Int32, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_1_OFFSET))(masterID, uniqueID, teamType, teamPosition);
+			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::System::UInt32, ::System::Int32, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Create_2(::Class_1_DCE302F7FD05DE84_1* chimera, ::RPG::GameCore::ChimeraDuelTeamType teamType, ::System::Int32 teamPosition)
+		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Create_2(::Class_1_02098A44CBBFEEE1* a1, ::RPG::GameCore::ChimeraDuelTeamType a2, ::System::Int32 a3)
 		{
-			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::Class_1_DCE302F7FD05DE84_1*, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_2_OFFSET))(chimera, teamType, teamPosition);
+			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::Class_1_02098A44CBBFEEE1*, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Create_3(::RPG::GameCore::ChimeraDuelTeamType teamType, ::System::Int32 teamPosition, ::RPG::Client::ChimeraDuelGameSessionChimera* chimera)
+		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Create_3(::RPG::GameCore::ChimeraDuelTeamType a1, ::System::Int32 a2, ::RPG::Client::ChimeraDuelGameSessionChimera* a3)
 		{
-			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32, ::RPG::Client::ChimeraDuelGameSessionChimera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_3_OFFSET))(teamType, teamPosition, chimera);
+			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32, ::RPG::Client::ChimeraDuelGameSessionChimera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATE_3_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* CreateFake(::RPG::GameCore::ChimeraDuelPresetChimeraConfig* config, ::RPG::GameCore::ChimeraDuelTeamType teamType, ::System::Int32 teamPosition)
+		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* CreateFake(::RPG::GameCore::ChimeraDuelPresetChimeraConfig* a1, ::RPG::GameCore::ChimeraDuelTeamType a2, ::System::Int32 a3)
 		{
-			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::RPG::GameCore::ChimeraDuelPresetChimeraConfig*, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFAKE_OFFSET))(config, teamType, teamPosition);
+			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::RPG::GameCore::ChimeraDuelPresetChimeraConfig*, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFAKE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* CreateFromPreset(::System::UInt32 presetID, ::RPG::GameCore::ChimeraDuelTeamType teamType, ::System::Int32 teamPosition)
+		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* CreateFromPreset(::System::UInt32 a1, ::RPG::GameCore::ChimeraDuelTeamType a2, ::System::Int32 a3)
 		{
-			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::System::UInt32, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFROMPRESET_OFFSET))(presetID, teamType, teamPosition);
+			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::System::UInt32, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFROMPRESET_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* CreateFromPreset_1(::RPG::GameCore::ChimeraDuelChimeraPresetRow* row, ::RPG::GameCore::ChimeraDuelTeamType teamType, ::System::Int32 teamPosition)
+		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* CreateFromPreset_1(::RPG::GameCore::ChimeraDuelChimeraPresetRow* a1, ::RPG::GameCore::ChimeraDuelTeamType a2, ::System::Int32 a3)
 		{
-			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::RPG::GameCore::ChimeraDuelChimeraPresetRow*, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFROMPRESET_1_OFFSET))(row, teamType, teamPosition);
+			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::RPG::GameCore::ChimeraDuelChimeraPresetRow*, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFROMPRESET_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* CreateFake_1(::System::UInt32 id, ::System::UInt32 level, ::System::UInt32 exp, ::System::Int32 hp, ::System::Int32 atk, ::RPG::GameCore::ChimeraDuelTeamType teamType, ::System::Int32 teamPosition)
+		static ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* CreateFake_1(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Int32 a4, ::System::Int32 a5, ::RPG::GameCore::ChimeraDuelTeamType a6, ::System::Int32 a7)
 		{
-			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Int32, ::System::Int32, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFAKE_1_OFFSET))(id, level, exp, hp, atk, teamType, teamPosition);
+			return ((::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Int32, ::System::Int32, ::RPG::GameCore::ChimeraDuelTeamType, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELCHIMERACACHE_CREATEFAKE_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Int32 CalculateRandomSeedComponent()

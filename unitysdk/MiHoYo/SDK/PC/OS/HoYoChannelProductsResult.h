@@ -5,13 +5,13 @@
 namespace MiHoYo::SDK::PC::OS { class ProductData; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x175AEE00)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x175AEDF0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x175AEE40)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x18394280)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x18394270)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x183942C0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelProductsResult_TypeDefinitionIndex = 7557;
+	inline static constexpr unsigned int HoYoChannelProductsResult_TypeDefinitionIndex = 8460;
 
 	class HoYoChannelProductsResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
@@ -28,9 +28,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_TOJSON_OFFSET))(this);
 		}
 
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult* FromJson(::System::String* json)
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult* FromJson(::System::String* a1)
 		{
-			return ((::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_FROMJSON_OFFSET))(json);
+			return ((::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELPRODUCTSRESULT_FROMJSON_OFFSET))(a1);
 		}
 	};
 }

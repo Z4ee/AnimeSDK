@@ -3,7 +3,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_MixMode_TypeDefinitionIndex = 40593;
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_MixMode_TypeDefinitionIndex = 41420;
 
 	enum class SkeletonMecanim_MecanimTranslator_MixMode : ::System::Int32
 	{

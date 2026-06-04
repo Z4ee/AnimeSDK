@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
+
+class Class_3_07C3C4D2990C49EE;
+namespace RPG::GameCore { class SwitchCharacterAnchorV2; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_2_03AB5940AB904B3B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14264C20)
+#define CLASS_2_03AB5940AB904B3B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14264F20)
+#define CLASS_2_03AB5940AB904B3B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x14264D00)
+#define CLASS_2_03AB5940AB904B3B_TICK_OFFSET UNITYSDK_OFFSET(0x14264D80)
+#define CLASS_2_03AB5940AB904B3B__CTOR_OFFSET UNITYSDK_OFFSET(0x14264AE0)
+
+inline static constexpr unsigned int Class_2_03AB5940AB904B3B_TypeDefinitionIndex = 49822;
+
+class Class_2_03AB5940AB904B3B : public ::Class_1_5F51D4049EA87B7B
+{
+public:
+	::Class_3_07C3C4D2990C49EE* Field_2_0; // 0x18
+	::RPG::GameCore::SwitchCharacterAnchorV2* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
+
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchCharacterAnchorV2* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchCharacterAnchorV2*))((::PBYTE)hIl2Cpp + CLASS_2_03AB5940AB904B3B__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_03AB5940AB904B3B_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Tick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_03AB5940AB904B3B_TICK_OFFSET))(this, a1);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_03AB5940AB904B3B_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Void OnTaskReset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_03AB5940AB904B3B_ONTASKRESET_OFFSET))(this);
+	}
+};

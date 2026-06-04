@@ -8,12 +8,12 @@ namespace RPG::GameCore { class FSVOverridItem; }
 namespace RPG::GameCore { class GroupPropertyOverrideItem; }
 namespace RPG::GameCore { class PropStateOverrideItem; }
 
-#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDEITEM_METHOD_2_9645F1DE95A7C204_OFFSET UNITYSDK_OFFSET(0x18BE9CE0)
-#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE9F90)
+#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDEITEM_METHOD_2_063EBD27C4C344EF_OFFSET UNITYSDK_OFFSET(0x199FBE80)
+#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x199FC110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipLevelStateOverrideItem_TypeDefinitionIndex = 18067;
+	inline static constexpr unsigned int PerformanceSkipLevelStateOverrideItem_TypeDefinitionIndex = 18091;
 
 	class PerformanceSkipLevelStateOverrideItem : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDEITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9645F1DE95A7C204(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceSkipLevelStateOverrideItem*& a2)
+		static ::System::Void Method_2_063EBD27C4C344EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceSkipLevelStateOverrideItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceSkipLevelStateOverrideItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDEITEM_METHOD_2_9645F1DE95A7C204_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceSkipLevelStateOverrideItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDEITEM_METHOD_2_063EBD27C4C344EF_OFFSET))(a1, a2);
 		}
 	};
 }

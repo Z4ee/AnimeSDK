@@ -5,12 +5,12 @@
 namespace RPG::Client { class ActivityRewardUtils_MultiIDCheckerFunc; }
 namespace RPG::Client { class ActivityRewardUtils_QuestCheckerFunc; }
 
-#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9C58EC0)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS19_0___ISTABGROUPQUESTPASS_B__0_OFFSET UNITYSDK_OFFSET(0x9C59090)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F9BE0)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS19_0___ISACTIVITYREWARDQUESTPASS_B__0_OFFSET UNITYSDK_OFFSET(0xB1F9D70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardUtils___c__DisplayClass19_0_TypeDefinitionIndex = 56951;
+	inline static constexpr unsigned int ActivityRewardUtils___c__DisplayClass19_0_TypeDefinitionIndex = 57738;
 
 	class ActivityRewardUtils___c__DisplayClass19_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS19_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __IsTabGroupQuestPass_b__0(::System::UInt32 id)
+		::System::Boolean __IsActivityRewardQuestPass_b__0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS19_0___ISTABGROUPQUESTPASS_B__0_OFFSET))(this, id);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS19_0___ISACTIVITYREWARDQUESTPASS_B__0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -7,19 +7,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define AKBANK_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A5CF940)
-#define AKBANK_GET_BANKNAME_OFFSET UNITYSDK_OFFSET(0x1A5CFF10)
-#define AKBANK_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1A5CFFA0)
-#define AKBANK_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1A5CFC80)
-#define AKBANK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A5CFE30)
-#define AKBANK_START_OFFSET UNITYSDK_OFFSET(0x1A5CF9E0)
-#define AKBANK_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1A5CFB90)
-#define AKBANK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5D00E0)
-#define AKBANK___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A5D0200)
-#define AKBANK___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A5D02B0)
-#define AKBANK___IFIXBASEPROXY_START_OFFSET UNITYSDK_OFFSET(0x1A5D0210)
+#define AKBANK_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B41A240)
+#define AKBANK_GET_BANKNAME_OFFSET UNITYSDK_OFFSET(0x1B41A840)
+#define AKBANK_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1B41A8D0)
+#define AKBANK_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1B41A5A0)
+#define AKBANK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B41A750)
+#define AKBANK_START_OFFSET UNITYSDK_OFFSET(0x1B41A300)
+#define AKBANK_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1B41A4B0)
+#define AKBANK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B41AA10)
+#define AKBANK___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B41AB00)
+#define AKBANK___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B41AB20)
+#define AKBANK___IFIXBASEPROXY_START_OFFSET UNITYSDK_OFFSET(0x1B41AB10)
 
-inline static constexpr unsigned int AkBank_TypeDefinitionIndex = 40469;
+inline static constexpr unsigned int AkBank_TypeDefinitionIndex = 41296;
 
 class AkBank : public ::AkTriggerHandler
 {
@@ -47,14 +47,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKBANK_START_OFFSET))(this);
 	}
 
-	::System::Void HandleEvent(::UnityEngine::GameObject* in_gameObject)
+	::System::Void HandleEvent(::UnityEngine::GameObject* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKBANK_HANDLEEVENT_OFFSET))(this, in_gameObject);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKBANK_HANDLEEVENT_OFFSET))(this, a1);
 	}
 
-	::System::Void UnloadBank(::UnityEngine::GameObject* in_gameObject)
+	::System::Void UnloadBank(::UnityEngine::GameObject* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKBANK_UNLOADBANK_OFFSET))(this, in_gameObject);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKBANK_UNLOADBANK_OFFSET))(this, a1);
 	}
 
 	::System::Void OnDestroy()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LocalVerifyAccuracyStatusCode_TypeDefinitionIndex = 56474;
+	inline static constexpr unsigned int LocalVerifyAccuracyStatusCode_TypeDefinitionIndex = 57237;
 
 	enum class LocalVerifyAccuracyStatusCode : ::System::Int32
 	{

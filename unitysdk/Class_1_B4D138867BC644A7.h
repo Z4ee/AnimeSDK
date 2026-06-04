@@ -4,9 +4,9 @@
 
 namespace Entitas { class IEntity; }
 
-#define CLASS_1_B4D138867BC644A7_METHOD_1_64537B3993261384_OFFSET UNITYSDK_OFFSET(0x17D4E090)
+#define CLASS_1_B4D138867BC644A7_METHOD_1_64537B3993261384_OFFSET UNITYSDK_OFFSET(0x18B7F3F0)
 
-inline static constexpr unsigned int Class_1_B4D138867BC644A7_TypeDefinitionIndex = 34553;
+inline static constexpr unsigned int Class_1_B4D138867BC644A7_TypeDefinitionIndex = 34836;
 
 class Class_1_B4D138867BC644A7 : public ::System::Object
 {

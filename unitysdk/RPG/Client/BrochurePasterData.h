@@ -11,61 +11,61 @@ namespace RPG::GameCore { class PasterConfigRow; }
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_BROCHUREPASTERDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9EB7700)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GETPASTEDPOSITION_OFFSET UNITYSDK_OFFSET(0x9EB7020)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GETPASTEDROTATION_OFFSET UNITYSDK_OFFSET(0x9EB7060)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GETPASTEDSCALE_OFFSET UNITYSDK_OFFSET(0x9EB70B0)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x9EB7E40)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x9EB7DC0)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ISPASTED_OFFSET UNITYSDK_OFFSET(0x9EB7F70)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9EB7F20)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ITEMROW_OFFSET UNITYSDK_OFFSET(0x9EB7E20)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_PASTERIMAGE_OFFSET UNITYSDK_OFFSET(0x9EB7E70)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_PASTERTEXT_OFFSET UNITYSDK_OFFSET(0x9EB7EA0)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_PROGRESSCOUNT_OFFSET UNITYSDK_OFFSET(0x9EB7F00)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x9EB7E00)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9EB7B30)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x9EB7DE0)
-#define RPG_CLIENT_BROCHUREPASTERDATA_GET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0x9EB7ED0)
-#define RPG_CLIENT_BROCHUREPASTERDATA_ISLOCATIONSAME_OFFSET UNITYSDK_OFFSET(0x9EB6BD0)
-#define RPG_CLIENT_BROCHUREPASTERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x9EB6530)
-#define RPG_CLIENT_BROCHUREPASTERDATA_SETLOCATION_OFFSET UNITYSDK_OFFSET(0x9EB7BF0)
-#define RPG_CLIENT_BROCHUREPASTERDATA_SETPASTED_OFFSET UNITYSDK_OFFSET(0x9EB6B80)
-#define RPG_CLIENT_BROCHUREPASTERDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0x9EB7DD0)
-#define RPG_CLIENT_BROCHUREPASTERDATA_SET_ISPASTED_OFFSET UNITYSDK_OFFSET(0x9EB7F80)
-#define RPG_CLIENT_BROCHUREPASTERDATA_SET_ITEMROW_OFFSET UNITYSDK_OFFSET(0x9EB7E30)
-#define RPG_CLIENT_BROCHUREPASTERDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0x9EB7E10)
-#define RPG_CLIENT_BROCHUREPASTERDATA_SET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x9EB7DF0)
-#define RPG_CLIENT_BROCHUREPASTERDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x9EB73D0)
-#define RPG_CLIENT_BROCHUREPASTERDATA_UPDATEPASTED_OFFSET UNITYSDK_OFFSET(0x9EB6EA0)
-#define RPG_CLIENT_BROCHUREPASTERDATA_UPDATEUNIQUEID_OFFSET UNITYSDK_OFFSET(0x9EB6280)
-#define RPG_CLIENT_BROCHUREPASTERDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x9EB7F90)
-#define RPG_CLIENT_BROCHUREPASTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9EB7B10)
-#define RPG_CLIENT_BROCHUREPASTERDATA__GETSCALE_OFFSET UNITYSDK_OFFSET(0x9EB7B50)
+#define RPG_CLIENT_BROCHUREPASTERDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB453AF0)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GETPASTEDPOSITION_OFFSET UNITYSDK_OFFSET(0xB453400)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GETPASTEDROTATION_OFFSET UNITYSDK_OFFSET(0xB453440)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GETPASTEDSCALE_OFFSET UNITYSDK_OFFSET(0xB453490)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xB454230)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xB4541B0)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ISPASTED_OFFSET UNITYSDK_OFFSET(0xB454360)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xB454310)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ITEMROW_OFFSET UNITYSDK_OFFSET(0xB454210)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_PASTERIMAGE_OFFSET UNITYSDK_OFFSET(0xB454260)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_PASTERTEXT_OFFSET UNITYSDK_OFFSET(0xB454290)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_PROGRESSCOUNT_OFFSET UNITYSDK_OFFSET(0xB4542F0)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xB4541F0)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB453F20)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0xB4541D0)
+#define RPG_CLIENT_BROCHUREPASTERDATA_GET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0xB4542C0)
+#define RPG_CLIENT_BROCHUREPASTERDATA_ISLOCATIONSAME_OFFSET UNITYSDK_OFFSET(0xB452FB0)
+#define RPG_CLIENT_BROCHUREPASTERDATA_RESET_OFFSET UNITYSDK_OFFSET(0xB452870)
+#define RPG_CLIENT_BROCHUREPASTERDATA_SETLOCATION_OFFSET UNITYSDK_OFFSET(0xB453FE0)
+#define RPG_CLIENT_BROCHUREPASTERDATA_SETPASTED_OFFSET UNITYSDK_OFFSET(0xB452F60)
+#define RPG_CLIENT_BROCHUREPASTERDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xB4541C0)
+#define RPG_CLIENT_BROCHUREPASTERDATA_SET_ISPASTED_OFFSET UNITYSDK_OFFSET(0xB454370)
+#define RPG_CLIENT_BROCHUREPASTERDATA_SET_ITEMROW_OFFSET UNITYSDK_OFFSET(0xB454220)
+#define RPG_CLIENT_BROCHUREPASTERDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0xB454200)
+#define RPG_CLIENT_BROCHUREPASTERDATA_SET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0xB4541E0)
+#define RPG_CLIENT_BROCHUREPASTERDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xB453770)
+#define RPG_CLIENT_BROCHUREPASTERDATA_UPDATEPASTED_OFFSET UNITYSDK_OFFSET(0xB453280)
+#define RPG_CLIENT_BROCHUREPASTERDATA_UPDATEUNIQUEID_OFFSET UNITYSDK_OFFSET(0xB4524E0)
+#define RPG_CLIENT_BROCHUREPASTERDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xB454380)
+#define RPG_CLIENT_BROCHUREPASTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB453F00)
+#define RPG_CLIENT_BROCHUREPASTERDATA__GETSCALE_OFFSET UNITYSDK_OFFSET(0xB453F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BrochurePasterData_TypeDefinitionIndex = 62861;
+	inline static constexpr unsigned int BrochurePasterData_TypeDefinitionIndex = 63796;
 
 	class BrochurePasterData : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Vector2* StaticGet__OriginSize()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(BrochurePasterData_TypeDefinitionIndex)->GetStaticField(0x3B50);
-		}
 		static ::System::Single* StaticGet_ProtoScaling()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(BrochurePasterData_TypeDefinitionIndex)->GetStaticField(0x3B58);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(BrochurePasterData_TypeDefinitionIndex)->GetStaticField(0x9400);
+		}
+		static ::UnityEngine::Vector2* StaticGet__OriginSize()
+		{
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(BrochurePasterData_TypeDefinitionIndex)->GetStaticField(0x9404);
 		}
 		::RPG::Client::ItemData* _ItemRow_k__BackingField; // 0x10
 		::RPG::GameCore::PasterConfigRow* _Row_k__BackingField; // 0x18
-		::System::Single _PastedRotation; // 0x20
-		::System::UInt32 _UniqueID_k__BackingField; // 0x24
+		::System::UInt32 _ID_k__BackingField; // 0x20
+		::System::Single _PastedRotation; // 0x24
 		::System::Boolean _IsPasted_k__BackingField; // 0x28
-		::System::Single _PastedScale; // 0x2C
-		::UnityEngine::Vector2 _PastedPosition; // 0x30
-		::System::UInt32 _ID_k__BackingField; // 0x38
+		::UnityEngine::Vector2 _PastedPosition; // 0x2C
+		::System::Single _PastedScale; // 0x34
+		::System::UInt32 _UniqueID_k__BackingField; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -77,29 +77,29 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA__CCTOR_OFFSET))();
 		}
 
-		static ::RPG::Client::BrochurePasterData* Create(::System::UInt32 pasterID)
+		static ::RPG::Client::BrochurePasterData* Create(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::BrochurePasterData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_CREATE_OFFSET))(pasterID);
+			return ((::RPG::Client::BrochurePasterData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void SetPasted(::System::Boolean isPasted)
+		::System::Void SetPasted(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SETPASTED_OFFSET))(this, isPasted);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SETPASTED_OFFSET))(this, a1);
 		}
 
-		::System::Void Sync(::Class_1_D7BA8CEBF1439C63_1* info)
+		::System::Void Sync(::Class_1_D7BA8CEBF1439C63_1* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D7BA8CEBF1439C63_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SYNC_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D7BA8CEBF1439C63_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SYNC_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateUniqueID(::Class_1_D7BA8CEBF1439C63_1* info)
+		::System::Void UpdateUniqueID(::Class_1_D7BA8CEBF1439C63_1* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D7BA8CEBF1439C63_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_UPDATEUNIQUEID_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D7BA8CEBF1439C63_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_UPDATEUNIQUEID_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdatePasted(::UnityEngine::RectTransform* rectTransform)
+		::System::Void UpdatePasted(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_UPDATEPASTED_OFFSET))(this, rectTransform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_UPDATEPASTED_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -122,19 +122,19 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_GETPASTEDSCALE_OFFSET))(this);
 		}
 
-		::System::Void SetLocation(::UnityEngine::RectTransform* rectTransform)
+		::System::Void SetLocation(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SETLOCATION_OFFSET))(this, rectTransform);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SETLOCATION_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IsLocationSame(::UnityEngine::RectTransform* rectTransform)
+		::System::Boolean IsLocationSame(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_ISLOCATIONSAME_OFFSET))(this, rectTransform);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_ISLOCATIONSAME_OFFSET))(this, a1);
 		}
 
-		::System::Single _GetScale(::UnityEngine::RectTransform* rectTransform)
+		::System::Single _GetScale(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA__GETSCALE_OFFSET))(this, rectTransform);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA__GETSCALE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -142,9 +142,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_GET_ID_OFFSET))(this);
 		}
 
-		::System::Void set_ID(::System::UInt32 value)
+		::System::Void set_ID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SET_ID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SET_ID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UniqueID()
@@ -152,9 +152,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_GET_UNIQUEID_OFFSET))(this);
 		}
 
-		::System::Void set_UniqueID(::System::UInt32 value)
+		::System::Void set_UniqueID(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SET_UNIQUEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SET_UNIQUEID_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::PasterConfigRow* get_Row()
@@ -162,9 +162,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::PasterConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_GET_ROW_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::PasterConfigRow* value)
+		::System::Void set_Row(::RPG::GameCore::PasterConfigRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PasterConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PasterConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SET_ROW_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ItemData* get_ItemRow()
@@ -172,9 +172,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_GET_ITEMROW_OFFSET))(this);
 		}
 
-		::System::Void set_ItemRow(::RPG::Client::ItemData* value)
+		::System::Void set_ItemRow(::RPG::Client::ItemData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SET_ITEMROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SET_ITEMROW_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::TravelBrochurePasterType get_Type()
@@ -217,9 +217,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_GET_ISPASTED_OFFSET))(this);
 		}
 
-		::System::Void set_IsPasted(::System::Boolean value)
+		::System::Void set_IsPasted(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SET_ISPASTED_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BROCHUREPASTERDATA_SET_ISPASTED_OFFSET))(this, a1);
 		}
 	};
 }

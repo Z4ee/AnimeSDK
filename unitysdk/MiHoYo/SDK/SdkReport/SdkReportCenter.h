@@ -16,41 +16,41 @@ namespace MiHoYo::SDK::ReporterUtil { template <typename T> class AnalyzerResult
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BEGIN_OFFSET UNITYSDK_OFFSET(0x8DB31B0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_1_OFFSET UNITYSDK_OFFSET(0x8DB1F90)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_OFFSET UNITYSDK_OFFSET(0x8DB1EF0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0x8DB3700)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_END_OFFSET UNITYSDK_OFFSET(0x8DB3310)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_EVENT_OFFSET UNITYSDK_OFFSET(0x8DB2D10)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETEVENTNAME_OFFSET UNITYSDK_OFFSET(0x8DB2F70)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETSTAGENAME_OFFSET UNITYSDK_OFFSET(0x8DB3130)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GET_USERINPUTEVENT_OFFSET UNITYSDK_OFFSET(0x8DB10C0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEGUIEEVENTSIFNEED_OFFSET UNITYSDK_OFFSET(0x8DB20F0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEPAINTIFNEED_OFFSET UNITYSDK_OFFSET(0x8DB39B0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEREPORTSFROMWEBVIEW_OFFSET UNITYSDK_OFFSET(0x8DB2700)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEUPDATEIFNEED_OFFSET UNITYSDK_OFFSET(0x8DB2000)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_ITEM_OFFSET UNITYSDK_OFFSET(0x8DB3470)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_LASTENDEDITEM_OFFSET UNITYSDK_OFFSET(0x8DB35C0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTER_AUTOREPORT_OFFSET UNITYSDK_OFFSET(0x8DB1DF0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTPERFORMANCEINFO_OFFSET UNITYSDK_OFFSET(0x8DB3B30)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORT_OFFSET UNITYSDK_OFFSET(0x8DB3820)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STAGE_OFFSET UNITYSDK_OFFSET(0x8DB2FC0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STARTAUTOREPORT_OFFSET UNITYSDK_OFFSET(0x8DB1CF0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STOPAUTOREPORT_OFFSET UNITYSDK_OFFSET(0x8DB2DF0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_USEDEFAULTAUTOREPORT_OFFSET UNITYSDK_OFFSET(0x8DB1BB0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DB4130)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x8DB1160)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BEGIN_OFFSET UNITYSDK_OFFSET(0xA201E20)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_1_OFFSET UNITYSDK_OFFSET(0xA200CE0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_OFFSET UNITYSDK_OFFSET(0xA200C40)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0xA202370)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_END_OFFSET UNITYSDK_OFFSET(0xA201F80)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_EVENT_OFFSET UNITYSDK_OFFSET(0xA201A50)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETEVENTNAME_OFFSET UNITYSDK_OFFSET(0xA201CB0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETSTAGENAME_OFFSET UNITYSDK_OFFSET(0xA201DA0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GET_USERINPUTEVENT_OFFSET UNITYSDK_OFFSET(0xA1FFE90)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEGUIEEVENTSIFNEED_OFFSET UNITYSDK_OFFSET(0xA200E40)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEPAINTIFNEED_OFFSET UNITYSDK_OFFSET(0xA202620)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEREPORTSFROMWEBVIEW_OFFSET UNITYSDK_OFFSET(0xA2013E0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEUPDATEIFNEED_OFFSET UNITYSDK_OFFSET(0xA200D50)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_ITEM_OFFSET UNITYSDK_OFFSET(0xA2020E0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_LASTENDEDITEM_OFFSET UNITYSDK_OFFSET(0xA202230)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTER_AUTOREPORT_OFFSET UNITYSDK_OFFSET(0xA200B40)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTPERFORMANCEINFO_OFFSET UNITYSDK_OFFSET(0xA2027A0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORT_OFFSET UNITYSDK_OFFSET(0xA202490)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STAGE_OFFSET UNITYSDK_OFFSET(0xA201D00)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STARTAUTOREPORT_OFFSET UNITYSDK_OFFSET(0xA200B10)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STOPAUTOREPORT_OFFSET UNITYSDK_OFFSET(0xA201B30)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_USEDEFAULTAUTOREPORT_OFFSET UNITYSDK_OFFSET(0xA200980)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xA202D70)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER__CTOR_OFFSET UNITYSDK_OFFSET(0xA1FFF30)
 
 namespace MiHoYo::SDK::SdkReport
 {
-	inline static constexpr unsigned int SdkReportCenter_TypeDefinitionIndex = 43194;
+	inline static constexpr unsigned int SdkReportCenter_TypeDefinitionIndex = 43997;
 
 	class SdkReportCenter : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::SdkReport::SdkReportCenter** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::SdkReport::SdkReportCenter**)Il2CppClass::FromTypeDefinitionIndex(SdkReportCenter_TypeDefinitionIndex)->GetStaticField(0x4FBF0);
+			return (::MiHoYo::SDK::SdkReport::SdkReportCenter**)Il2CppClass::FromTypeDefinitionIndex(SdkReportCenter_TypeDefinitionIndex)->GetStaticField(0x10DB0);
 		}
 		// static const ::System::String* UserInputEventName; // 0x0
 		// static const ::System::String* BrowserRenderTimeEventName; // 0x0
@@ -92,104 +92,104 @@ namespace MiHoYo::SDK::SdkReport
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_USEDEFAULTAUTOREPORT_OFFSET))(this);
 		}
 
-		::System::Void Reporter_AutoReport(::MiHoYo::SDK::ReporterUtil::ReporterEvent* sender, ::System::String* stageName, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* result)
+		::System::Void Reporter_AutoReport(::MiHoYo::SDK::ReporterUtil::ReporterEvent* a1, ::System::String* a2, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterEvent*, ::System::String*, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTER_AUTOREPORT_OFFSET))(this, sender, stageName, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterEvent*, ::System::String*, ::MiHoYo::SDK::ReporterUtil::AnalyzerResult_1<::System::Int64>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTER_AUTOREPORT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void BuryPoint(::System::Object* sender, ::MiHoYo::SDK::SdkReport::BuryPointType type, ::System::Int32 eventId, ::System::Int64 param1, ::System::Int64 param2)
+		::System::Void BuryPoint(::System::Object* a1, ::MiHoYo::SDK::SdkReport::BuryPointType a2, ::System::Int32 a3, ::System::Int64 a4, ::System::Int64 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::MiHoYo::SDK::SdkReport::BuryPointType, ::System::Int32, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_OFFSET))(this, sender, type, eventId, param1, param2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::MiHoYo::SDK::SdkReport::BuryPointType, ::System::Int32, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void BuryPoint_1(::MiHoYo::SDK::MiHoYoSDKWebViewManager* webViewManager, ::MiHoYo::SDK::SdkReport::BuryPointType type, ::System::Int32 eventId, ::System::Int64 param1, ::System::Int64 param2)
+		::System::Void BuryPoint_1(::MiHoYo::SDK::MiHoYoSDKWebViewManager* a1, ::MiHoYo::SDK::SdkReport::BuryPointType a2, ::System::Int32 a3, ::System::Int64 a4, ::System::Int64 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*, ::MiHoYo::SDK::SdkReport::BuryPointType, ::System::Int32, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_1_OFFSET))(this, webViewManager, type, eventId, param1, param2);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*, ::MiHoYo::SDK::SdkReport::BuryPointType, ::System::Int32, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void StartAutoReport(::MiHoYo::SDK::SdkReport::EventType eventType, ::System::Int64 interval)
+		::System::Void StartAutoReport(::MiHoYo::SDK::SdkReport::EventType a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STARTAUTOREPORT_OFFSET))(this, eventType, interval);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STARTAUTOREPORT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void StopAutoReport(::MiHoYo::SDK::SdkReport::EventType eventType)
+		::System::Void StopAutoReport(::MiHoYo::SDK::SdkReport::EventType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STOPAUTOREPORT_OFFSET))(this, eventType);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STOPAUTOREPORT_OFFSET))(this, a1);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterEvent* Event(::MiHoYo::SDK::SdkReport::EventType eventType)
+		::MiHoYo::SDK::ReporterUtil::ReporterEvent* Event(::MiHoYo::SDK::SdkReport::EventType a1)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterEvent*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_EVENT_OFFSET))(this, eventType);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterEvent*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_EVENT_OFFSET))(this, a1);
 		}
 
-		::System::String* GetEventName(::MiHoYo::SDK::SdkReport::EventType et)
+		::System::String* GetEventName(::MiHoYo::SDK::SdkReport::EventType a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETEVENTNAME_OFFSET))(this, et);
+			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETEVENTNAME_OFFSET))(this, a1);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterDataSequence* Stage(::MiHoYo::SDK::SdkReport::EventType eventType, ::MiHoYo::SDK::SdkReport::StageType stageType)
+		::MiHoYo::SDK::ReporterUtil::ReporterDataSequence* Stage(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataSequence*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STAGE_OFFSET))(this, eventType, stageType);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataSequence*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STAGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* GetStageName(::MiHoYo::SDK::SdkReport::EventType et, ::MiHoYo::SDK::SdkReport::StageType st)
+		::System::String* GetStageName(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETSTAGENAME_OFFSET))(this, et, st);
+			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETSTAGENAME_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Begin(::MiHoYo::SDK::SdkReport::EventType et, ::MiHoYo::SDK::SdkReport::StageType st, ::System::Int32 eventOwnerId, ::System::Nullable_1<::System::DateTime> utcTime)
+		::System::Void Begin(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3, ::System::Nullable_1<::System::DateTime> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BEGIN_OFFSET))(this, et, st, eventOwnerId, utcTime);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BEGIN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void End(::MiHoYo::SDK::SdkReport::EventType et, ::MiHoYo::SDK::SdkReport::StageType st, ::System::Int32 eventOwnerId, ::System::Nullable_1<::System::DateTime> utcTime)
+		::System::Void End(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3, ::System::Nullable_1<::System::DateTime> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_END_OFFSET))(this, et, st, eventOwnerId, utcTime);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_END_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Item(::MiHoYo::SDK::SdkReport::EventType et, ::MiHoYo::SDK::SdkReport::StageType st, ::System::Int32 index)
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Item(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_ITEM_OFFSET))(this, et, st, index);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_ITEM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* LastEndedItem(::MiHoYo::SDK::SdkReport::EventType et, ::MiHoYo::SDK::SdkReport::StageType st)
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* LastEndedItem(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_LASTENDEDITEM_OFFSET))(this, et, st);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_LASTENDEDITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ClearData(::System::String* eventName)
+		::System::Void ClearData(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_CLEARDATA_OFFSET))(this, eventName);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_CLEARDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void HandleUpdateIfNeed(::MiHoYo::SDK::MiHoYoSDKWebViewManager* webViewManager)
+		::System::Void HandleUpdateIfNeed(::MiHoYo::SDK::MiHoYoSDKWebViewManager* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEUPDATEIFNEED_OFFSET))(this, webViewManager);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEUPDATEIFNEED_OFFSET))(this, a1);
 		}
 
-		::System::Void HandleGUIEeventsIfNeed(::MiHoYo::SDK::MiHoYoSDKWebViewManager* webViewManager)
+		::System::Void HandleGUIEeventsIfNeed(::MiHoYo::SDK::MiHoYoSDKWebViewManager* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEGUIEEVENTSIFNEED_OFFSET))(this, webViewManager);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEGUIEEVENTSIFNEED_OFFSET))(this, a1);
 		}
 
-		::System::Void HandleReportsFromWebView(::MiHoYo::SDK::MiHoYoSDKWebViewManager* webViewManager, ::System::Int32 eventId, ::System::Int64 param1, ::System::Int64 param2)
+		::System::Void HandleReportsFromWebView(::MiHoYo::SDK::MiHoYoSDKWebViewManager* a1, ::System::Int32 a2, ::System::Int64 a3, ::System::Int64 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*, ::System::Int32, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEREPORTSFROMWEBVIEW_OFFSET))(this, webViewManager, eventId, param1, param2);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*, ::System::Int32, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEREPORTSFROMWEBVIEW_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void HandlePaintIfNeed(::MiHoYo::SDK::MiHoYoSDKWebViewManager* webViewManager, ::System::Boolean isBegin)
+		::System::Void HandlePaintIfNeed(::MiHoYo::SDK::MiHoYoSDKWebViewManager* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEPAINTIFNEED_OFFSET))(this, webViewManager, isBegin);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEPAINTIFNEED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ReportPerformanceInfo(::MiHoYo::SDK::JSONNode* reportJson, ::System::String* url, ::System::Double ramCapacity, ::System::String* webViewLaunchId)
+		::System::Void ReportPerformanceInfo(::MiHoYo::SDK::JSONNode* a1, ::System::String* a2, ::System::Double a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*, ::System::String*, ::System::Double, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTPERFORMANCEINFO_OFFSET))(this, reportJson, url, ramCapacity, webViewLaunchId);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*, ::System::String*, ::System::Double, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTPERFORMANCEINFO_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Report(::MiHoYo::SDK::MiHoYoSDKWebViewManager* webViewManager, ::MiHoYo::SDK::SdkReport::EventType eventType, ::MiHoYo::SDK::SdkReport::StageType stageType, ::System::Int64 duration)
+		::System::Void Report(::MiHoYo::SDK::MiHoYoSDKWebViewManager* a1, ::MiHoYo::SDK::SdkReport::EventType a2, ::MiHoYo::SDK::SdkReport::StageType a3, ::System::Int64 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORT_OFFSET))(this, webViewManager, eventType, stageType, duration);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORT_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

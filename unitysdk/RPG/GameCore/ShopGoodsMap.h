@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOPGOODSMAP_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E55B60)
-#define RPG_GAMECORE_SHOPGOODSMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x18E55C50)
+#define RPG_GAMECORE_SHOPGOODSMAP_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C71E80)
+#define RPG_GAMECORE_SHOPGOODSMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x19C71F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopGoodsMap_TypeDefinitionIndex = 11892;
+	inline static constexpr unsigned int ShopGoodsMap_TypeDefinitionIndex = 11985;
 
 	class ShopGoodsMap : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOPGOODSMAP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ShopGoodsMap*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShopGoodsMap*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShopGoodsMap*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOPGOODSMAP_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShopGoodsMap*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOPGOODSMAP_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

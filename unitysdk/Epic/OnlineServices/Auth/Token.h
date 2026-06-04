@@ -8,44 +8,44 @@
 namespace Epic::OnlineServices { class EpicAccountId; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_ACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x8E28800)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x8E287E0)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_APP_OFFSET UNITYSDK_OFFSET(0x8E287A0)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_AUTHTYPE_OFFSET UNITYSDK_OFFSET(0x8E28860)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_CLIENTID_OFFSET UNITYSDK_OFFSET(0x8E287C0)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_EXPIRESAT_OFFSET UNITYSDK_OFFSET(0x8E28840)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_EXPIRESIN_OFFSET UNITYSDK_OFFSET(0x8E28820)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_REFRESHEXPIRESAT_OFFSET UNITYSDK_OFFSET(0x8E288C0)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_REFRESHEXPIRESIN_OFFSET UNITYSDK_OFFSET(0x8E288A0)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_REFRESHTOKEN_OFFSET UNITYSDK_OFFSET(0x8E28880)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_1_OFFSET UNITYSDK_OFFSET(0x8E29660)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_ACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x8E28810)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0x8E287F0)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_APP_OFFSET UNITYSDK_OFFSET(0x8E287B0)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_AUTHTYPE_OFFSET UNITYSDK_OFFSET(0x8E28870)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_CLIENTID_OFFSET UNITYSDK_OFFSET(0x8E287D0)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_EXPIRESAT_OFFSET UNITYSDK_OFFSET(0x8E28850)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_EXPIRESIN_OFFSET UNITYSDK_OFFSET(0x8E28830)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_OFFSET UNITYSDK_OFFSET(0x8E288E0)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHEXPIRESAT_OFFSET UNITYSDK_OFFSET(0x8E288D0)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHEXPIRESIN_OFFSET UNITYSDK_OFFSET(0x8E288B0)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHTOKEN_OFFSET UNITYSDK_OFFSET(0x8E28890)
-#define EPIC_ONLINESERVICES_AUTH_TOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x8E297C0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_ACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0xA282010)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xA281FF0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_APP_OFFSET UNITYSDK_OFFSET(0xA281FB0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_AUTHTYPE_OFFSET UNITYSDK_OFFSET(0xA282070)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_CLIENTID_OFFSET UNITYSDK_OFFSET(0xA281FD0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_EXPIRESAT_OFFSET UNITYSDK_OFFSET(0xA282050)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_EXPIRESIN_OFFSET UNITYSDK_OFFSET(0xA282030)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_REFRESHEXPIRESAT_OFFSET UNITYSDK_OFFSET(0xA2820D0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_REFRESHEXPIRESIN_OFFSET UNITYSDK_OFFSET(0xA2820B0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_GET_REFRESHTOKEN_OFFSET UNITYSDK_OFFSET(0xA282090)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_1_OFFSET UNITYSDK_OFFSET(0xA282E70)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_ACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0xA282020)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xA282000)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_APP_OFFSET UNITYSDK_OFFSET(0xA281FC0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_AUTHTYPE_OFFSET UNITYSDK_OFFSET(0xA282080)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_CLIENTID_OFFSET UNITYSDK_OFFSET(0xA281FE0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_EXPIRESAT_OFFSET UNITYSDK_OFFSET(0xA282060)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_EXPIRESIN_OFFSET UNITYSDK_OFFSET(0xA282040)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_OFFSET UNITYSDK_OFFSET(0xA2820F0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHEXPIRESAT_OFFSET UNITYSDK_OFFSET(0xA2820E0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHEXPIRESIN_OFFSET UNITYSDK_OFFSET(0xA2820C0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHTOKEN_OFFSET UNITYSDK_OFFSET(0xA2820A0)
+#define EPIC_ONLINESERVICES_AUTH_TOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0xA282FD0)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int Token_TypeDefinitionIndex = 42409;
+	inline static constexpr unsigned int Token_TypeDefinitionIndex = 43212;
 
 	class Token : public ::System::Object
 	{
 	public:
-		::System::String* _App_k__BackingField; // 0x10
-		::System::String* _RefreshExpiresAt_k__BackingField; // 0x18
-		::System::String* _ClientId_k__BackingField; // 0x20
-		::System::String* _RefreshToken_k__BackingField; // 0x28
-		::Epic::OnlineServices::EpicAccountId* _AccountId_k__BackingField; // 0x30
+		::System::String* _ClientId_k__BackingField; // 0x10
+		::System::String* _App_k__BackingField; // 0x18
+		::System::String* _RefreshToken_k__BackingField; // 0x20
+		::System::String* _RefreshExpiresAt_k__BackingField; // 0x28
+		::System::String* _ExpiresAt_k__BackingField; // 0x30
 		::System::String* _AccessToken_k__BackingField; // 0x38
-		::System::String* _ExpiresAt_k__BackingField; // 0x40
+		::Epic::OnlineServices::EpicAccountId* _AccountId_k__BackingField; // 0x40
 		::System::Double _RefreshExpiresIn_k__BackingField; // 0x48
 		::System::Double _ExpiresIn_k__BackingField; // 0x50
 		::Epic::OnlineServices::Auth::AuthTokenType _AuthType_k__BackingField; // 0x58
@@ -60,9 +60,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_GET_APP_OFFSET))(this);
 		}
 
-		::System::Void set_App(::System::String* value)
+		::System::Void set_App(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_APP_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_APP_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ClientId()
@@ -70,9 +70,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_GET_CLIENTID_OFFSET))(this);
 		}
 
-		::System::Void set_ClientId(::System::String* value)
+		::System::Void set_ClientId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_CLIENTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_CLIENTID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::EpicAccountId* get_AccountId()
@@ -80,9 +80,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::EpicAccountId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_GET_ACCOUNTID_OFFSET))(this);
 		}
 
-		::System::Void set_AccountId(::Epic::OnlineServices::EpicAccountId* value)
+		::System::Void set_AccountId(::Epic::OnlineServices::EpicAccountId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_ACCOUNTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::EpicAccountId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_ACCOUNTID_OFFSET))(this, a1);
 		}
 
 		::System::String* get_AccessToken()
@@ -90,9 +90,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_GET_ACCESSTOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_AccessToken(::System::String* value)
+		::System::Void set_AccessToken(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_ACCESSTOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_ACCESSTOKEN_OFFSET))(this, a1);
 		}
 
 		::System::Double get_ExpiresIn()
@@ -100,9 +100,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_GET_EXPIRESIN_OFFSET))(this);
 		}
 
-		::System::Void set_ExpiresIn(::System::Double value)
+		::System::Void set_ExpiresIn(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_EXPIRESIN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_EXPIRESIN_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ExpiresAt()
@@ -110,9 +110,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_GET_EXPIRESAT_OFFSET))(this);
 		}
 
-		::System::Void set_ExpiresAt(::System::String* value)
+		::System::Void set_ExpiresAt(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_EXPIRESAT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_EXPIRESAT_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Auth::AuthTokenType get_AuthType()
@@ -120,9 +120,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::Auth::AuthTokenType(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_GET_AUTHTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_AuthType(::Epic::OnlineServices::Auth::AuthTokenType value)
+		::System::Void set_AuthType(::Epic::OnlineServices::Auth::AuthTokenType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::AuthTokenType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_AUTHTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::AuthTokenType))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_AUTHTYPE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RefreshToken()
@@ -130,9 +130,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_GET_REFRESHTOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_RefreshToken(::System::String* value)
+		::System::Void set_RefreshToken(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHTOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHTOKEN_OFFSET))(this, a1);
 		}
 
 		::System::Double get_RefreshExpiresIn()
@@ -140,9 +140,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_GET_REFRESHEXPIRESIN_OFFSET))(this);
 		}
 
-		::System::Void set_RefreshExpiresIn(::System::Double value)
+		::System::Void set_RefreshExpiresIn(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHEXPIRESIN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHEXPIRESIN_OFFSET))(this, a1);
 		}
 
 		::System::String* get_RefreshExpiresAt()
@@ -150,19 +150,19 @@ namespace Epic::OnlineServices::Auth
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_GET_REFRESHEXPIRESAT_OFFSET))(this);
 		}
 
-		::System::Void set_RefreshExpiresAt(::System::String* value)
+		::System::Void set_RefreshExpiresAt(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHEXPIRESAT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_REFRESHEXPIRESAT_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Auth::TokenInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Auth::TokenInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Auth::TokenInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Auth::TokenInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_TOKEN_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

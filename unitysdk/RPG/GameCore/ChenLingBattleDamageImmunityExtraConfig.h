@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEDAMAGEIMMUNITYEXTRACONFIG_METHOD_3_C4B6E4B99E93621B_OFFSET UNITYSDK_OFFSET(0x187E1EE0)
-#define RPG_GAMECORE_CHENLINGBATTLEDAMAGEIMMUNITYEXTRACONFIG_METHOD_3_CDAD6E776AD54219_OFFSET UNITYSDK_OFFSET(0x187E11A0)
-#define RPG_GAMECORE_CHENLINGBATTLEDAMAGEIMMUNITYEXTRACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x187E1190)
+#define RPG_GAMECORE_CHENLINGBATTLEDAMAGEIMMUNITYEXTRACONFIG_METHOD_3_C9067D2162CE0CAB_OFFSET UNITYSDK_OFFSET(0x1961F1E0)
+#define RPG_GAMECORE_CHENLINGBATTLEDAMAGEIMMUNITYEXTRACONFIG_METHOD_3_CC9A4BBF97191255_OFFSET UNITYSDK_OFFSET(0x1961FB90)
+#define RPG_GAMECORE_CHENLINGBATTLEDAMAGEIMMUNITYEXTRACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1961F1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleDamageImmunityExtraConfig_TypeDefinitionIndex = 14961;
+	inline static constexpr unsigned int ChenLingBattleDamageImmunityExtraConfig_TypeDefinitionIndex = 15024;
 
 	class ChenLingBattleDamageImmunityExtraConfig : public ::RPG::GameCore::ChenLingBattleBuffTypeExtraConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEDAMAGEIMMUNITYEXTRACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C4B6E4B99E93621B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleDamageImmunityExtraConfig*& a2)
+		static ::System::Void Method_3_CC9A4BBF97191255(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleDamageImmunityExtraConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleDamageImmunityExtraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEDAMAGEIMMUNITYEXTRACONFIG_METHOD_3_C4B6E4B99E93621B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleDamageImmunityExtraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEDAMAGEIMMUNITYEXTRACONFIG_METHOD_3_CC9A4BBF97191255_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CDAD6E776AD54219(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleDamageImmunityExtraConfig* a2)
+		static ::System::Void Method_3_C9067D2162CE0CAB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleDamageImmunityExtraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleDamageImmunityExtraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEDAMAGEIMMUNITYEXTRACONFIG_METHOD_3_CDAD6E776AD54219_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleDamageImmunityExtraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEDAMAGEIMMUNITYEXTRACONFIG_METHOD_3_C9067D2162CE0CAB_OFFSET))(a1, a2);
 		}
 	};
 }

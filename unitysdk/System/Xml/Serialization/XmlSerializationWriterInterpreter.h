@@ -18,31 +18,31 @@ namespace System::Xml::Serialization { class XmlTypeMapMember; }
 namespace System::Xml::Serialization { class XmlTypeMapMemberAnyElement; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETENUMXMLVALUE_OFFSET UNITYSDK_OFFSET(0x1A029EE0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETLISTCOUNT_OFFSET UNITYSDK_OFFSET(0x1A0296B0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETMEMBERVALUE_OFFSET UNITYSDK_OFFSET(0x1A026550)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETSTRINGVALUE_OFFSET UNITYSDK_OFFSET(0x1A0265F0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_IMPLICITCONVERT_OFFSET UNITYSDK_OFFSET(0x1A01DF70)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_INITCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1A022980)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_MEMBERHASVALUE_OFFSET UNITYSDK_OFFSET(0x1A026340)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEANYELEMENTCONTENT_OFFSET UNITYSDK_OFFSET(0x1A027B00)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEATTRIBUTEMEMBERS_OFFSET UNITYSDK_OFFSET(0x1A025390)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEELEMENTMEMBERS_OFFSET UNITYSDK_OFFSET(0x1A025CB0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEENUMELEMENT_OFFSET UNITYSDK_OFFSET(0x1A029EA0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITELISTCONTENT_OFFSET UNITYSDK_OFFSET(0x1A026FE0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITELISTELEMENT_OFFSET UNITYSDK_OFFSET(0x1A029430)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMEMBERELEMENT_OFFSET UNITYSDK_OFFSET(0x1A026890)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMEMBERS_OFFSET UNITYSDK_OFFSET(0x1A025160)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A024F00)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENTATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1A0252E0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENTELEMENTS_OFFSET UNITYSDK_OFFSET(0x1A025C00)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENT_OFFSET UNITYSDK_OFFSET(0x1A0251A0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECT_OFFSET UNITYSDK_OFFSET(0x1A024620)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEELEMENT_OFFSET UNITYSDK_OFFSET(0x1A029E50)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEVALUEENCODED_OFFSET UNITYSDK_OFFSET(0x1A0290F0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEVALUELITERAL_OFFSET UNITYSDK_OFFSET(0x1A028D50)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEROOT_OFFSET UNITYSDK_OFFSET(0x1A024420)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A024390)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETENUMXMLVALUE_OFFSET UNITYSDK_OFFSET(0x1AE9C0D0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETLISTCOUNT_OFFSET UNITYSDK_OFFSET(0x1AE9B870)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETMEMBERVALUE_OFFSET UNITYSDK_OFFSET(0x1AE987D0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETSTRINGVALUE_OFFSET UNITYSDK_OFFSET(0x1AE98870)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_IMPLICITCONVERT_OFFSET UNITYSDK_OFFSET(0x1AE906F0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_INITCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1AE94B80)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_MEMBERHASVALUE_OFFSET UNITYSDK_OFFSET(0x1AE985C0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEANYELEMENTCONTENT_OFFSET UNITYSDK_OFFSET(0x1AE99C60)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEATTRIBUTEMEMBERS_OFFSET UNITYSDK_OFFSET(0x1AE97570)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEELEMENTMEMBERS_OFFSET UNITYSDK_OFFSET(0x1AE97EB0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEENUMELEMENT_OFFSET UNITYSDK_OFFSET(0x1AE9C090)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITELISTCONTENT_OFFSET UNITYSDK_OFFSET(0x1AE99140)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITELISTELEMENT_OFFSET UNITYSDK_OFFSET(0x1AE9B600)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMEMBERELEMENT_OFFSET UNITYSDK_OFFSET(0x1AE98AB0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMEMBERS_OFFSET UNITYSDK_OFFSET(0x1AE97380)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1AE97140)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENTATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1AE974E0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENTELEMENTS_OFFSET UNITYSDK_OFFSET(0x1AE97E20)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENT_OFFSET UNITYSDK_OFFSET(0x1AE973C0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECT_OFFSET UNITYSDK_OFFSET(0x1AE96880)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEELEMENT_OFFSET UNITYSDK_OFFSET(0x1AE9C040)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEVALUEENCODED_OFFSET UNITYSDK_OFFSET(0x1AE9B2E0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEVALUELITERAL_OFFSET UNITYSDK_OFFSET(0x1AE9AF50)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEROOT_OFFSET UNITYSDK_OFFSET(0x1AE96660)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE965D0)
 
 namespace System::Xml::Serialization
 {
@@ -54,9 +54,9 @@ namespace System::Xml::Serialization
 		::System::Xml::Serialization::XmlMapping* _typeMap; // 0x48
 		::System::Xml::Serialization::SerializationFormat _format; // 0x50
 
-		::System::Void _ctor(::System::Xml::Serialization::XmlMapping* typeMap)
+		::System::Void _ctor(::System::Xml::Serialization::XmlMapping* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlMapping*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER__CTOR_OFFSET))(this, typeMap);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlMapping*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void InitCallbacks()
@@ -64,119 +64,119 @@ namespace System::Xml::Serialization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_INITCALLBACKS_OFFSET))(this);
 		}
 
-		::System::Void WriteRoot(::System::Object* ob)
+		::System::Void WriteRoot(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEROOT_OFFSET))(this, ob);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEROOT_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteObject(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob, ::System::String* element, ::System::String* namesp, ::System::Boolean isNullable, ::System::Boolean needType, ::System::Boolean writeWrappingElem)
+		::System::Void WriteObject(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::Object* a2, ::System::String* a3, ::System::String* a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECT_OFFSET))(this, typeMap, ob, element, namesp, isNullable, needType, writeWrappingElem);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void WriteMessage(::System::Xml::Serialization::XmlMembersMapping* membersMap, ::Il2CppArray<::System::Object*>* parameters)
+		::System::Void WriteMessage(::System::Xml::Serialization::XmlMembersMapping* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlMembersMapping*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMESSAGE_OFFSET))(this, membersMap, parameters);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlMembersMapping*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMESSAGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void WriteObjectElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob, ::System::String* element, ::System::String* namesp)
+		::System::Void WriteObjectElement(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::Object* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENT_OFFSET))(this, typeMap, ob, element, namesp);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void WriteObjectElementAttributes(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob)
+		::System::Void WriteObjectElementAttributes(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENTATTRIBUTES_OFFSET))(this, typeMap, ob);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENTATTRIBUTES_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void WriteObjectElementElements(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob)
+		::System::Void WriteObjectElementElements(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENTELEMENTS_OFFSET))(this, typeMap, ob);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEOBJECTELEMENTELEMENTS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void WriteMembers(::System::Xml::Serialization::ClassMap* map, ::System::Object* ob, ::System::Boolean isValueList)
+		::System::Void WriteMembers(::System::Xml::Serialization::ClassMap* a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::ClassMap*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMEMBERS_OFFSET))(this, map, ob, isValueList);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::ClassMap*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMEMBERS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteAttributeMembers(::System::Xml::Serialization::ClassMap* map, ::System::Object* ob, ::System::Boolean isValueList)
+		::System::Void WriteAttributeMembers(::System::Xml::Serialization::ClassMap* a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::ClassMap*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEATTRIBUTEMEMBERS_OFFSET))(this, map, ob, isValueList);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::ClassMap*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEATTRIBUTEMEMBERS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteElementMembers(::System::Xml::Serialization::ClassMap* map, ::System::Object* ob, ::System::Boolean isValueList)
+		::System::Void WriteElementMembers(::System::Xml::Serialization::ClassMap* a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::ClassMap*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEELEMENTMEMBERS_OFFSET))(this, map, ob, isValueList);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::ClassMap*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEELEMENTMEMBERS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* GetMemberValue(::System::Xml::Serialization::XmlTypeMapMember* member, ::System::Object* ob, ::System::Boolean isValueList)
+		::System::Object* GetMemberValue(::System::Xml::Serialization::XmlTypeMapMember* a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapMember*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETMEMBERVALUE_OFFSET))(this, member, ob, isValueList);
+			return ((::System::Object*(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapMember*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETMEMBERVALUE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean MemberHasValue(::System::Xml::Serialization::XmlTypeMapMember* member, ::System::Object* ob, ::System::Boolean isValueList)
+		::System::Boolean MemberHasValue(::System::Xml::Serialization::XmlTypeMapMember* a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapMember*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_MEMBERHASVALUE_OFFSET))(this, member, ob, isValueList);
+			return ((::System::Boolean(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapMember*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_MEMBERHASVALUE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteMemberElement(::System::Xml::Serialization::XmlTypeMapElementInfo* elem, ::System::Object* memberValue)
+		::System::Void WriteMemberElement(::System::Xml::Serialization::XmlTypeMapElementInfo* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapElementInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMEMBERELEMENT_OFFSET))(this, elem, memberValue);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapElementInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEMEMBERELEMENT_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Object* ImplicitConvert(::System::Object* obj, ::System::Type* type)
+		static ::System::Object* ImplicitConvert(::System::Object* a1, ::System::Type* a2)
 		{
-			return ((::System::Object*(*)(::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_IMPLICITCONVERT_OFFSET))(obj, type);
+			return ((::System::Object*(*)(::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_IMPLICITCONVERT_OFFSET))(a1, a2);
 		}
 
-		::System::Void WritePrimitiveValueLiteral(::System::Object* memberValue, ::System::String* name, ::System::String* ns, ::System::Xml::Serialization::XmlTypeMapping* mappedType, ::System::Xml::Serialization::TypeData* typeData, ::System::Boolean wrapped, ::System::Boolean isNullable)
+		::System::Void WritePrimitiveValueLiteral(::System::Object* a1, ::System::String* a2, ::System::String* a3, ::System::Xml::Serialization::XmlTypeMapping* a4, ::System::Xml::Serialization::TypeData* a5, ::System::Boolean a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*, ::System::String*, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Xml::Serialization::TypeData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEVALUELITERAL_OFFSET))(this, memberValue, name, ns, mappedType, typeData, wrapped, isNullable);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*, ::System::String*, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Xml::Serialization::TypeData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEVALUELITERAL_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void WritePrimitiveValueEncoded(::System::Object* memberValue, ::System::String* name, ::System::String* ns, ::System::Xml::XmlQualifiedName* xsiType, ::System::Xml::Serialization::XmlTypeMapping* mappedType, ::System::Xml::Serialization::TypeData* typeData, ::System::Boolean wrapped, ::System::Boolean isNullable)
+		::System::Void WritePrimitiveValueEncoded(::System::Object* a1, ::System::String* a2, ::System::String* a3, ::System::Xml::XmlQualifiedName* a4, ::System::Xml::Serialization::XmlTypeMapping* a5, ::System::Xml::Serialization::TypeData* a6, ::System::Boolean a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*, ::System::String*, ::System::Xml::XmlQualifiedName*, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Xml::Serialization::TypeData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEVALUEENCODED_OFFSET))(this, memberValue, name, ns, xsiType, mappedType, typeData, wrapped, isNullable);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::String*, ::System::String*, ::System::Xml::XmlQualifiedName*, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Xml::Serialization::TypeData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEVALUEENCODED_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Void WriteListElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob, ::System::String* element, ::System::String* namesp)
+		::System::Void WriteListElement(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::Object* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITELISTELEMENT_OFFSET))(this, typeMap, ob, element, namesp);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITELISTELEMENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void WriteListContent(::System::Object* container, ::System::Xml::Serialization::TypeData* listType, ::System::Xml::Serialization::ListMap* map, ::System::Object* ob, ::System::Text::StringBuilder* targetString)
+		::System::Void WriteListContent(::System::Object* a1, ::System::Xml::Serialization::TypeData* a2, ::System::Xml::Serialization::ListMap* a3, ::System::Object* a4, ::System::Text::StringBuilder* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::ListMap*, ::System::Object*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITELISTCONTENT_OFFSET))(this, container, listType, map, ob, targetString);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::ListMap*, ::System::Object*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITELISTCONTENT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 GetListCount(::System::Xml::Serialization::TypeData* listType, ::System::Object* ob)
+		::System::Int32 GetListCount(::System::Xml::Serialization::TypeData* a1, ::System::Object* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Xml::Serialization::TypeData*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETLISTCOUNT_OFFSET))(this, listType, ob);
+			return ((::System::Int32(*)(::PVOID, ::System::Xml::Serialization::TypeData*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETLISTCOUNT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void WriteAnyElementContent(::System::Xml::Serialization::XmlTypeMapMemberAnyElement* member, ::System::Object* memberValue)
+		::System::Void WriteAnyElementContent(::System::Xml::Serialization::XmlTypeMapMemberAnyElement* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapMemberAnyElement*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEANYELEMENTCONTENT_OFFSET))(this, member, memberValue);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapMemberAnyElement*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEANYELEMENTCONTENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void WritePrimitiveElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob, ::System::String* element, ::System::String* namesp)
+		::System::Void WritePrimitiveElement(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::Object* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEELEMENT_OFFSET))(this, typeMap, ob, element, namesp);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEPRIMITIVEELEMENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void WriteEnumElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob, ::System::String* element, ::System::String* namesp)
+		::System::Void WriteEnumElement(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::Object* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEENUMELEMENT_OFFSET))(this, typeMap, ob, element, namesp);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_WRITEENUMELEMENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::String* GetStringValue(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Xml::Serialization::TypeData* type, ::System::Object* value)
+		::System::String* GetStringValue(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::Xml::Serialization::TypeData* a2, ::System::Object* a3)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Xml::Serialization::TypeData*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETSTRINGVALUE_OFFSET))(this, typeMap, type, value);
+			return ((::System::String*(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Xml::Serialization::TypeData*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETSTRINGVALUE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::String* GetEnumXmlValue(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob)
+		::System::String* GetEnumXmlValue(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::Object* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETENUMXMLVALUE_OFFSET))(this, typeMap, ob);
+			return ((::System::String*(*)(::PVOID, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_GETENUMXMLVALUE_OFFSET))(this, a1, a2);
 		}
 	};
 }

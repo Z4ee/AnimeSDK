@@ -9,13 +9,13 @@ namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class RawImage; }
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER_APPLY_OFFSET UNITYSDK_OFFSET(0xB1A6830)
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER_TRYAPPLY_OFFSET UNITYSDK_OFFSET(0xB1A69D0)
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A6B70)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER_APPLY_OFFSET UNITYSDK_OFFSET(0xC8FBE10)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER_TRYAPPLY_OFFSET UNITYSDK_OFFSET(0xC8FBFA0)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xC8FC130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpritePresetController_TypeDefinitionIndex = 63632;
+	inline static constexpr unsigned int SpritePresetController_TypeDefinitionIndex = 64552;
 
 	class SpritePresetController : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,14 +30,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Apply(::System::String* spriteAsbResPath)
+		::System::Void Apply(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETCONTROLLER_APPLY_OFFSET))(this, spriteAsbResPath);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETCONTROLLER_APPLY_OFFSET))(this, a1);
 		}
 
-		::System::Void TryApply(::System::String* spriteAsbResPath)
+		::System::Void TryApply(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETCONTROLLER_TRYAPPLY_OFFSET))(this, spriteAsbResPath);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETCONTROLLER_TRYAPPLY_OFFSET))(this, a1);
 		}
 	};
 }

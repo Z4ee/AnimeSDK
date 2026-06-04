@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityPropertyIneritType_TypeDefinitionIndex = 15646;
+	inline static constexpr unsigned int AbilityPropertyIneritType_TypeDefinitionIndex = 15704;
 
 	enum class AbilityPropertyIneritType : ::System::Int32
 	{

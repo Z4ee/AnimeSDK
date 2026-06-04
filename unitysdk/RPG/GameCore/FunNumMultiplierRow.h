@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FUNNUMMULTIPLIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x189343B0)
-#define RPG_GAMECORE_FUNNUMMULTIPLIERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x189344F0)
+#define RPG_GAMECORE_FUNNUMMULTIPLIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1976F510)
+#define RPG_GAMECORE_FUNNUMMULTIPLIERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1976F650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FunNumMultiplierRow_TypeDefinitionIndex = 12495;
+	inline static constexpr unsigned int FunNumMultiplierRow_TypeDefinitionIndex = 12583;
 
 	class FunNumMultiplierRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FUNNUMMULTIPLIERROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::FunNumMultiplierRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FunNumMultiplierRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FunNumMultiplierRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FUNNUMMULTIPLIERROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FunNumMultiplierRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FUNNUMMULTIPLIERROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

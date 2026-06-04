@@ -6,17 +6,17 @@ namespace Epic::OnlineServices::Achievements { class UnlockedAchievement; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x7C30)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_GET_ACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x7940)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_GET_UNLOCKTIME_OFFSET UNITYSDK_OFFSET(0x7AA0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x7BC0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_ACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x79F0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x7BB0)
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_UNLOCKTIME_OFFSET UNITYSDK_OFFSET(0x7B20)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8260)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_GET_ACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x7F60)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_GET_UNLOCKTIME_OFFSET UNITYSDK_OFFSET(0x80C0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x81E0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_ACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0x8010)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x81D0)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_UNLOCKTIME_OFFSET UNITYSDK_OFFSET(0x8140)
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int UnlockedAchievementInternal_TypeDefinitionIndex = 42646;
+	inline static constexpr unsigned int UnlockedAchievementInternal_TypeDefinitionIndex = 43449;
 
 	struct alignas(8) UnlockedAchievementInternal
 	{
@@ -29,9 +29,9 @@ namespace Epic::OnlineServices::Achievements
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_GET_ACHIEVEMENTID_OFFSET))(this);
 		}
 
-		::System::Void set_AchievementId(::System::String* value)
+		::System::Void set_AchievementId(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_ACHIEVEMENTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_ACHIEVEMENTID_OFFSET))(this, a1);
 		}
 
 		/*
@@ -42,20 +42,20 @@ namespace Epic::OnlineServices::Achievements
 		*/
 
 		/*
-		::System::Void set_UnlockTime(::System::Nullable_1<::System::DateTimeOffset> value)
+		::System::Void set_UnlockTime(::System::Nullable_1<::System::DateTimeOffset> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_UNLOCKTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_UNLOCKTIME_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Void Set(::Epic::OnlineServices::Achievements::UnlockedAchievement* other)
+		::System::Void Set(::Epic::OnlineServices::Achievements::UnlockedAchievement* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Achievements::UnlockedAchievement*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Achievements::UnlockedAchievement*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_ACHIEVEMENTS_UNLOCKEDACHIEVEMENTINTERNAL_SET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

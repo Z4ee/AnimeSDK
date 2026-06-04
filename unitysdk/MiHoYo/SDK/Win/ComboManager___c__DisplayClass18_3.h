@@ -7,13 +7,13 @@ namespace MiHoYo::SDK { class ComboUserModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class ComboManager___c__DisplayClass18_0; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_3__CTOR_OFFSET UNITYSDK_OFFSET(0x176F6370)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_3__LOGIN_B__12_OFFSET UNITYSDK_OFFSET(0x176F77D0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_3__LOGIN_B__13_OFFSET UNITYSDK_OFFSET(0x176F7770)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_3__CTOR_OFFSET UNITYSDK_OFFSET(0x184B3D20)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_3__LOGIN_B__12_OFFSET UNITYSDK_OFFSET(0x184B5140)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_3__LOGIN_B__13_OFFSET UNITYSDK_OFFSET(0x184B50E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass18_3_TypeDefinitionIndex = 8172;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass18_3_TypeDefinitionIndex = 9075;
 
 	class ComboManager___c__DisplayClass18_3 : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_3__LOGIN_B__13_OFFSET))(this);
 		}
 
-		::System::Void _Login_b__12(::MiHoYo::SDK::Alert_AlertResult result)
+		::System::Void _Login_b__12(::MiHoYo::SDK::Alert_AlertResult a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_3__LOGIN_B__12_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_3__LOGIN_B__12_OFFSET))(this, a1);
 		}
 	};
 }

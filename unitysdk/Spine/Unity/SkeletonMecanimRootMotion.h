@@ -7,19 +7,19 @@
 namespace Spine { class Animation; }
 namespace Spine::Unity { class SkeletonMecanim; }
 
-#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_CALCULATEANIMATIONSMOVEMENTDELTA_OFFSET UNITYSDK_OFFSET(0x19E591E0)
-#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_CALCULATEANIMATIONSROTATIONDELTA_OFFSET UNITYSDK_OFFSET(0x19E59200)
-#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_GETREMAININGROOTMOTION_OFFSET UNITYSDK_OFFSET(0x19E572C0)
-#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_GETROOTMOTIONINFO_OFFSET UNITYSDK_OFFSET(0x19E57F70)
-#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_GET_SKELETONMECANIM_OFFSET UNITYSDK_OFFSET(0x19E57210)
-#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_ONCLIPAPPLIED_OFFSET UNITYSDK_OFFSET(0x19E58980)
-#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_RESET_OFFSET UNITYSDK_OFFSET(0x19E584D0)
-#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_START_OFFSET UNITYSDK_OFFSET(0x19E58500)
-#define SPINE_UNITY_SKELETONMECANIMROOTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E59220)
+#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_CALCULATEANIMATIONSMOVEMENTDELTA_OFFSET UNITYSDK_OFFSET(0x1ACD04B0)
+#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_CALCULATEANIMATIONSROTATIONDELTA_OFFSET UNITYSDK_OFFSET(0x1ACD04D0)
+#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_GETREMAININGROOTMOTION_OFFSET UNITYSDK_OFFSET(0x1ACCEAC0)
+#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_GETROOTMOTIONINFO_OFFSET UNITYSDK_OFFSET(0x1ACCF360)
+#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_GET_SKELETONMECANIM_OFFSET UNITYSDK_OFFSET(0x1ACCEA10)
+#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_ONCLIPAPPLIED_OFFSET UNITYSDK_OFFSET(0x1ACCFD50)
+#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_RESET_OFFSET UNITYSDK_OFFSET(0x1ACCF840)
+#define SPINE_UNITY_SKELETONMECANIMROOTMOTION_START_OFFSET UNITYSDK_OFFSET(0x1ACCF870)
+#define SPINE_UNITY_SKELETONMECANIMROOTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD04F0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonMecanimRootMotion_TypeDefinitionIndex = 40575;
+	inline static constexpr unsigned int SkeletonMecanimRootMotion_TypeDefinitionIndex = 41402;
 
 	class SkeletonMecanimRootMotion : public ::Spine::Unity::SkeletonRootMotionBase
 	{
@@ -40,14 +40,14 @@ namespace Spine::Unity
 			return ((::Spine::Unity::SkeletonMecanim*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIMROOTMOTION_GET_SKELETONMECANIM_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2 GetRemainingRootMotion(::System::Int32 layerIndex)
+		::UnityEngine::Vector2 GetRemainingRootMotion(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIMROOTMOTION_GETREMAININGROOTMOTION_OFFSET))(this, layerIndex);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIMROOTMOTION_GETREMAININGROOTMOTION_OFFSET))(this, a1);
 		}
 
-		::Spine::Unity::SkeletonRootMotionBase_RootMotionInfo GetRootMotionInfo(::System::Int32 layerIndex)
+		::Spine::Unity::SkeletonRootMotionBase_RootMotionInfo GetRootMotionInfo(::System::Int32 a1)
 		{
-			return ((::Spine::Unity::SkeletonRootMotionBase_RootMotionInfo(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIMROOTMOTION_GETROOTMOTIONINFO_OFFSET))(this, layerIndex);
+			return ((::Spine::Unity::SkeletonRootMotionBase_RootMotionInfo(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIMROOTMOTION_GETROOTMOTIONINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -60,9 +60,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIMROOTMOTION_START_OFFSET))(this);
 		}
 
-		::System::Void OnClipApplied(::Spine::Animation* animation, ::System::Int32 layerIndex, ::System::Single weight, ::System::Single time, ::System::Single lastTime, ::System::Boolean playsBackward)
+		::System::Void OnClipApplied(::Spine::Animation* a1, ::System::Int32 a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Animation*, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIMROOTMOTION_ONCLIPAPPLIED_OFFSET))(this, animation, layerIndex, weight, time, lastTime, playsBackward);
+			return ((::System::Void(*)(::PVOID, ::Spine::Animation*, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIMROOTMOTION_ONCLIPAPPLIED_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::UnityEngine::Vector2 CalculateAnimationsMovementDelta()

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_XRPostPresent_TypeDefinitionIndex = 4463;
+	inline static constexpr unsigned int PostLateUpdate_XRPostPresent_TypeDefinitionIndex = 4637;
 
 	struct alignas(1) PostLateUpdate_XRPostPresent
 	{

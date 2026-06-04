@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusTemplateType_TypeDefinitionIndex = 13008;
+	inline static constexpr unsigned int HeliobusTemplateType_TypeDefinitionIndex = 13091;
 
 	enum class HeliobusTemplateType : ::System::Int32
 	{

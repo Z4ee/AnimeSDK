@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEBYDEFENDERFACTION_METHOD_4_11E8DB0D283FEB54_OFFSET UNITYSDK_OFFSET(0x18A98960)
-#define RPG_GAMECORE_MARBLEBYDEFENDERFACTION_METHOD_4_9878885BC41F5FB1_OFFSET UNITYSDK_OFFSET(0x18A98880)
-#define RPG_GAMECORE_MARBLEBYDEFENDERFACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18A98910)
+#define RPG_GAMECORE_MARBLEBYDEFENDERFACTION_METHOD_4_EB90F0FD30C5C6C6_OFFSET UNITYSDK_OFFSET(0x198CBB10)
+#define RPG_GAMECORE_MARBLEBYDEFENDERFACTION_METHOD_4_FB44F957A0A7FAA3_OFFSET UNITYSDK_OFFSET(0x198CBA30)
+#define RPG_GAMECORE_MARBLEBYDEFENDERFACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x198CBAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByDefenderFaction_TypeDefinitionIndex = 15969;
+	inline static constexpr unsigned int MarbleByDefenderFaction_TypeDefinitionIndex = 16021;
 
 	class MarbleByDefenderFaction : public ::RPG::GameCore::MarblePredicateConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYDEFENDERFACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9878885BC41F5FB1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByDefenderFaction*& a2)
+		static ::System::Void Method_4_FB44F957A0A7FAA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByDefenderFaction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByDefenderFaction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYDEFENDERFACTION_METHOD_4_9878885BC41F5FB1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByDefenderFaction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYDEFENDERFACTION_METHOD_4_FB44F957A0A7FAA3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_11E8DB0D283FEB54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByDefenderFaction* a2)
+		static ::System::Void Method_4_EB90F0FD30C5C6C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByDefenderFaction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByDefenderFaction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYDEFENDERFACTION_METHOD_4_11E8DB0D283FEB54_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByDefenderFaction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYDEFENDERFACTION_METHOD_4_EB90F0FD30C5C6C6_OFFSET))(a1, a2);
 		}
 	};
 }

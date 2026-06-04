@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Camera; }
 
-#define RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x22B8C80)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x22B8C50)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3849980)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x3849950)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass_CameraParameters_TypeDefinitionIndex = 34941;
+	inline static constexpr unsigned int DLSSPass_CameraParameters_TypeDefinitionIndex = 35224;
 
 	struct alignas(8) DLSSPass_CameraParameters
 	{
@@ -20,15 +20,15 @@ namespace RPG::CustomRP
 		::System::Single sharpness; // 0x20
 		::UnityEngine::Vector2 taaJitter; // 0x24
 
-		::System::Void _ctor(::UnityEngine::Camera* cam)
+		::System::Void _ctor(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_OFFSET))(this, cam);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_OFFSET))(this, a1);
 		}
 
 		/*
-		::System::Void _ctor_1(::UnityEngine::Camera* cam, ::UnityEngine::Rendering::DLSSData& dlssData)
+		::System::Void _ctor_1(::UnityEngine::Camera* a1, ::UnityEngine::Rendering::DLSSData& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Rendering::DLSSData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_1_OFFSET))(this, cam, dlssData);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Rendering::DLSSData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERAPARAMETERS__CTOR_1_OFFSET))(this, a1, a2);
 		}
 		*/
 	};

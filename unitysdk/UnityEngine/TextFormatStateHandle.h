@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/TextFormatState.h"
 
-#define UNITYENGINE_TEXTFORMATSTATEHANDLE_GETFORMATSTATE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1A4FE170)
-#define UNITYENGINE_TEXTFORMATSTATEHANDLE_GETFORMATSTATE_OFFSET UNITYSDK_OFFSET(0x1A4FE0D0)
-#define UNITYENGINE_TEXTFORMATSTATEHANDLE_SETFORMATSTATE_OFFSET UNITYSDK_OFFSET(0x1A4FE180)
-#define UNITYENGINE_TEXTFORMATSTATEHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FE190)
+#define UNITYENGINE_TEXTFORMATSTATEHANDLE_GETFORMATSTATE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B349C90)
+#define UNITYENGINE_TEXTFORMATSTATEHANDLE_GETFORMATSTATE_OFFSET UNITYSDK_OFFSET(0x1B349BF0)
+#define UNITYENGINE_TEXTFORMATSTATEHANDLE_SETFORMATSTATE_OFFSET UNITYSDK_OFFSET(0x1B349CA0)
+#define UNITYENGINE_TEXTFORMATSTATEHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B349CB0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextFormatStateHandle_TypeDefinitionIndex = 4957;
+	inline static constexpr unsigned int TextFormatStateHandle_TypeDefinitionIndex = 5035;
 
 	class TextFormatStateHandle : public ::System::Object
 	{
@@ -27,14 +27,14 @@ namespace UnityEngine
 			return ((::UnityEngine::TextFormatState(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTFORMATSTATEHANDLE_GETFORMATSTATE_OFFSET))(this);
 		}
 
-		::System::Void SetFormatState(::UnityEngine::TextFormatState& state)
+		::System::Void SetFormatState(::UnityEngine::TextFormatState& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTFORMATSTATEHANDLE_SETFORMATSTATE_OFFSET))(this, state);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTFORMATSTATEHANDLE_SETFORMATSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void GetFormatState_Injected(::UnityEngine::TextFormatState& ret)
+		::System::Void GetFormatState_Injected(::UnityEngine::TextFormatState& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTFORMATSTATEHANDLE_GETFORMATSTATE_INJECTED_OFFSET))(this, ret);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTFORMATSTATEHANDLE_GETFORMATSTATE_INJECTED_OFFSET))(this, a1);
 		}
 	};
 }

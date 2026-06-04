@@ -6,17 +6,17 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_GET_SCORE_OFFSET UNITYSDK_OFFSET(0x8E9C1C0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_GET_USERID_OFFSET UNITYSDK_OFFSET(0x8E9C1A0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_1_OFFSET UNITYSDK_OFFSET(0x8E9C3B0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_OFFSET UNITYSDK_OFFSET(0x8E9C1E0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_SCORE_OFFSET UNITYSDK_OFFSET(0x8E9C1D0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_USERID_OFFSET UNITYSDK_OFFSET(0x8E9C1B0)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x8E9C4C0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_GET_SCORE_OFFSET UNITYSDK_OFFSET(0xA2D87F0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_GET_USERID_OFFSET UNITYSDK_OFFSET(0xA2D87D0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_1_OFFSET UNITYSDK_OFFSET(0xA2D89E0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_OFFSET UNITYSDK_OFFSET(0xA2D8810)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_SCORE_OFFSET UNITYSDK_OFFSET(0xA2D8800)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_USERID_OFFSET UNITYSDK_OFFSET(0xA2D87E0)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0xA2D8B00)
 
 namespace Epic::OnlineServices::Leaderboards
 {
-	inline static constexpr unsigned int LeaderboardUserScore_TypeDefinitionIndex = 42027;
+	inline static constexpr unsigned int LeaderboardUserScore_TypeDefinitionIndex = 42830;
 
 	class LeaderboardUserScore : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace Epic::OnlineServices::Leaderboards
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_GET_USERID_OFFSET))(this);
 		}
 
-		::System::Void set_UserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_UserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_USERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_USERID_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_Score()
@@ -44,19 +44,19 @@ namespace Epic::OnlineServices::Leaderboards
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_GET_SCORE_OFFSET))(this);
 		}
 
-		::System::Void set_Score(::System::Int32 value)
+		::System::Void set_Score(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_SCORE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_SCORE_OFFSET))(this, a1);
 		}
 
-		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Leaderboards::LeaderboardUserScoreInternal> other)
+		::System::Void Set(::System::Nullable_1<::Epic::OnlineServices::Leaderboards::LeaderboardUserScoreInternal> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Leaderboards::LeaderboardUserScoreInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Epic::OnlineServices::Leaderboards::LeaderboardUserScoreInternal>))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_OFFSET))(this, a1);
 		}
 
-		::System::Void Set_1(::System::Object* other)
+		::System::Void Set_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_LEADERBOARDS_LEADERBOARDUSERSCORE_SET_1_OFFSET))(this, a1);
 		}
 	};
 }

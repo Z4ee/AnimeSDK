@@ -21,43 +21,43 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AIRSHIP_AWAKE_OFFSET UNITYSDK_OFFSET(0x9CEAD10)
-#define RPG_CLIENT_AIRSHIP_GET_ENGINECONTROLLER_OFFSET UNITYSDK_OFFSET(0x9CEABE0)
-#define RPG_CLIENT_AIRSHIP_GET_RANDOMFLOATING_OFFSET UNITYSDK_OFFSET(0x9CEAC20)
-#define RPG_CLIENT_AIRSHIP_GET_SPRINGBONE_OFFSET UNITYSDK_OFFSET(0x9CEAC00)
-#define RPG_CLIENT_AIRSHIP_GET_WATERSURFACEEFFECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x9CEAC40)
-#define RPG_CLIENT_AIRSHIP_LOADMODEL_OFFSET UNITYSDK_OFFSET(0x9CEB1E0)
-#define RPG_CLIENT_AIRSHIP_MARKWORKINGSTATE_OFFSET UNITYSDK_OFFSET(0x9CEAC60)
-#define RPG_CLIENT_AIRSHIP_METHOD_5_09AB7406BC1E05C6_OFFSET UNITYSDK_OFFSET(0x9CEC090)
-#define RPG_CLIENT_AIRSHIP_METHOD_5_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0x9CEBF20)
-#define RPG_CLIENT_AIRSHIP_METHOD_5_6F3ED48AF05D074C_OFFSET UNITYSDK_OFFSET(0x9CEB6A0)
-#define RPG_CLIENT_AIRSHIP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9CEC3E0)
-#define RPG_CLIENT_AIRSHIP_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x9CEB120)
-#define RPG_CLIENT_AIRSHIP_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9CEB060)
-#define RPG_CLIENT_AIRSHIP_RELEASEARTMODEL_OFFSET UNITYSDK_OFFSET(0x9CEB500)
-#define RPG_CLIENT_AIRSHIP_SETSCALE_OFFSET UNITYSDK_OFFSET(0x9CEC340)
-#define RPG_CLIENT_AIRSHIP_SET_ENGINECONTROLLER_OFFSET UNITYSDK_OFFSET(0x9CEABF0)
-#define RPG_CLIENT_AIRSHIP_SET_RANDOMFLOATING_OFFSET UNITYSDK_OFFSET(0x9CEAC30)
-#define RPG_CLIENT_AIRSHIP_SET_SPRINGBONE_OFFSET UNITYSDK_OFFSET(0x9CEAC10)
-#define RPG_CLIENT_AIRSHIP_SET_WATERSURFACEEFFECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x9CEAC50)
-#define RPG_CLIENT_AIRSHIP_SYNCLOADMODEL_OFFSET UNITYSDK_OFFSET(0x9CEC7B0)
-#define RPG_CLIENT_AIRSHIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x9CECF80)
-#define RPG_CLIENT_AIRSHIP__CTOR_OFFSET UNITYSDK_OFFSET(0x9CECC60)
-#define RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_0_OFFSET UNITYSDK_OFFSET(0x9CECFC0)
-#define RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_1_OFFSET UNITYSDK_OFFSET(0x9CECFD0)
-#define RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_2_OFFSET UNITYSDK_OFFSET(0x9CECFE0)
-#define RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_3_OFFSET UNITYSDK_OFFSET(0x9CECFF0)
+#define RPG_CLIENT_AIRSHIP_AWAKE_OFFSET UNITYSDK_OFFSET(0xB2DA390)
+#define RPG_CLIENT_AIRSHIP_GET_ENGINECONTROLLER_OFFSET UNITYSDK_OFFSET(0xB2DA020)
+#define RPG_CLIENT_AIRSHIP_GET_RANDOMFLOATING_OFFSET UNITYSDK_OFFSET(0xB2DA060)
+#define RPG_CLIENT_AIRSHIP_GET_SPRINGBONE_OFFSET UNITYSDK_OFFSET(0xB2DA040)
+#define RPG_CLIENT_AIRSHIP_GET_WATERSURFACEEFFECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xB2DA080)
+#define RPG_CLIENT_AIRSHIP_LOADMODEL_OFFSET UNITYSDK_OFFSET(0xB2DAFD0)
+#define RPG_CLIENT_AIRSHIP_MARKWORKINGSTATE_OFFSET UNITYSDK_OFFSET(0xB2DA0A0)
+#define RPG_CLIENT_AIRSHIP_METHOD_5_3EABCBB793AFDAE2_OFFSET UNITYSDK_OFFSET(0xB2DC010)
+#define RPG_CLIENT_AIRSHIP_METHOD_5_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0xB2DBE70)
+#define RPG_CLIENT_AIRSHIP_METHOD_5_E857BF303D293A2B_OFFSET UNITYSDK_OFFSET(0xB2DB500)
+#define RPG_CLIENT_AIRSHIP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB2DC360)
+#define RPG_CLIENT_AIRSHIP_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xB2DABD0)
+#define RPG_CLIENT_AIRSHIP_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB2DA6D0)
+#define RPG_CLIENT_AIRSHIP_RELEASEARTMODEL_OFFSET UNITYSDK_OFFSET(0xB2DB360)
+#define RPG_CLIENT_AIRSHIP_SETSCALE_OFFSET UNITYSDK_OFFSET(0xB2DC2C0)
+#define RPG_CLIENT_AIRSHIP_SET_ENGINECONTROLLER_OFFSET UNITYSDK_OFFSET(0xB2DA030)
+#define RPG_CLIENT_AIRSHIP_SET_RANDOMFLOATING_OFFSET UNITYSDK_OFFSET(0xB2DA070)
+#define RPG_CLIENT_AIRSHIP_SET_SPRINGBONE_OFFSET UNITYSDK_OFFSET(0xB2DA050)
+#define RPG_CLIENT_AIRSHIP_SET_WATERSURFACEEFFECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xB2DA090)
+#define RPG_CLIENT_AIRSHIP_SYNCLOADMODEL_OFFSET UNITYSDK_OFFSET(0xB2DCA80)
+#define RPG_CLIENT_AIRSHIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2DD240)
+#define RPG_CLIENT_AIRSHIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB2DCF30)
+#define RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_0_OFFSET UNITYSDK_OFFSET(0xB2DD280)
+#define RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_1_OFFSET UNITYSDK_OFFSET(0xB2DD290)
+#define RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_2_OFFSET UNITYSDK_OFFSET(0xB2DD2A0)
+#define RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_3_OFFSET UNITYSDK_OFFSET(0xB2DD2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Airship_TypeDefinitionIndex = 55151;
+	inline static constexpr unsigned int Airship_TypeDefinitionIndex = 55885;
 
 	class Airship : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_Field_5_0()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Airship_TypeDefinitionIndex)->GetStaticField(0x281F0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Airship_TypeDefinitionIndex)->GetStaticField(0x60700);
 		}
 		::System::String* prefabPath; // 0x18
 		::UnityEngine::Vector3 prefabPositionOffset; // 0x20
@@ -122,9 +122,9 @@ namespace RPG::Client
 			return ((::CommonShipEngineController*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_GET_ENGINECONTROLLER_OFFSET))(this);
 		}
 
-		::System::Void set_EngineController(::CommonShipEngineController* value)
+		::System::Void set_EngineController(::CommonShipEngineController* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CommonShipEngineController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_SET_ENGINECONTROLLER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::CommonShipEngineController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_SET_ENGINECONTROLLER_OFFSET))(this, a1);
 		}
 
 		::SceneProp_SpringBone* get_SpringBone()
@@ -132,9 +132,9 @@ namespace RPG::Client
 			return ((::SceneProp_SpringBone*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_GET_SPRINGBONE_OFFSET))(this);
 		}
 
-		::System::Void set_SpringBone(::SceneProp_SpringBone* value)
+		::System::Void set_SpringBone(::SceneProp_SpringBone* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SceneProp_SpringBone*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_SET_SPRINGBONE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::SceneProp_SpringBone*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_SET_SPRINGBONE_OFFSET))(this, a1);
 		}
 
 		::AirShipRandomFloating* get_RandomFloating()
@@ -142,9 +142,9 @@ namespace RPG::Client
 			return ((::AirShipRandomFloating*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_GET_RANDOMFLOATING_OFFSET))(this);
 		}
 
-		::System::Void set_RandomFloating(::AirShipRandomFloating* value)
+		::System::Void set_RandomFloating(::AirShipRandomFloating* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::AirShipRandomFloating*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_SET_RANDOMFLOATING_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::AirShipRandomFloating*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_SET_RANDOMFLOATING_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Transform* get_WaterSurfaceEffectTransform()
@@ -152,9 +152,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_GET_WATERSURFACEEFFECTTRANSFORM_OFFSET))(this);
 		}
 
-		::System::Void set_WaterSurfaceEffectTransform(::UnityEngine::Transform* value)
+		::System::Void set_WaterSurfaceEffectTransform(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_SET_WATERSURFACEEFFECTTRANSFORM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_SET_WATERSURFACEEFFECTTRANSFORM_OFFSET))(this, a1);
 		}
 
 		::System::Void MarkWorkingState(::EAirshipWorkingState a1, ::System::Boolean a2)
@@ -182,14 +182,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_LOADMODEL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_6F3ED48AF05D074C(::UnityEngine::GameObject* a1)
+		::System::Void Method_5_E857BF303D293A2B(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_METHOD_5_6F3ED48AF05D074C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_METHOD_5_E857BF303D293A2B_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_09AB7406BC1E05C6(::UnityEngine::GameObject* a1)
+		::System::Void Method_5_3EABCBB793AFDAE2(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_METHOD_5_09AB7406BC1E05C6_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_METHOD_5_3EABCBB793AFDAE2_OFFSET))(this, a1);
 		}
 
 		::System::Void SetScale(::System::Single a1)
@@ -197,9 +197,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_SETSCALE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_51CFFE2AF748ECD7()
+		::System::Void Method_5_508D4DD02D3DB74E()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_METHOD_5_51CFFE2AF748ECD7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_METHOD_5_508D4DD02D3DB74E_OFFSET))(this);
 		}
 
 		::System::Void OnDestroy()
@@ -217,24 +217,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP_SYNCLOADMODEL_OFFSET))(this);
 		}
 
-		::System::Void _LoadModel_b__67_0(::UnityEngine::GameObject* go, ::RPG::Client::OpenWorld::StreamingItemData* data)
+		::System::Void _LoadModel_b__67_0(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_0_OFFSET))(this, go, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _LoadModel_b__67_1(::UnityEngine::GameObject* last, ::UnityEngine::GameObject* now, ::RPG::Client::OpenWorld::StreamingItemData* data)
+		::System::Void _LoadModel_b__67_1(::UnityEngine::GameObject* a1, ::UnityEngine::GameObject* a2, ::RPG::Client::OpenWorld::StreamingItemData* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_1_OFFSET))(this, last, now, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _LoadModel_b__67_2(::UnityEngine::GameObject* go, ::RPG::Client::OpenWorld::StreamingItemData* data)
+		::System::Void _LoadModel_b__67_2(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_2_OFFSET))(this, go, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _LoadModel_b__67_3(::UnityEngine::GameObject* last, ::UnityEngine::GameObject* now, ::RPG::Client::OpenWorld::StreamingItemData* data)
+		::System::Void _LoadModel_b__67_3(::UnityEngine::GameObject* a1, ::UnityEngine::GameObject* a2, ::RPG::Client::OpenWorld::StreamingItemData* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_3_OFFSET))(this, last, now, data);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIP__LOADMODEL_B__67_3_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

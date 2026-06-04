@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int BindHelper_TypeDefinitionIndex = 4261;
+	inline static constexpr unsigned int BindHelper_TypeDefinitionIndex = 4435;
 
 	class BindHelper : public ::System::Object
 	{

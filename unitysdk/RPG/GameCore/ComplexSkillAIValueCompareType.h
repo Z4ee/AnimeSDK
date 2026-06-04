@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIValueCompareType_TypeDefinitionIndex = 14748;
+	inline static constexpr unsigned int ComplexSkillAIValueCompareType_TypeDefinitionIndex = 14813;
 
 	enum class ComplexSkillAIValueCompareType : ::System::Int32
 	{

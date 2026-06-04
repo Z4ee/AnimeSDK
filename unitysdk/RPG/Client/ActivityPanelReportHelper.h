@@ -8,66 +8,66 @@ namespace RPG::Client { class IResidentActivityPanelData; }
 namespace RPG::Client { class RogueResidentActivityPanelData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_ACTIVITYGOTO_OFFSET UNITYSDK_OFFSET(0x9C37B40)
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_EARLYACCESS_OFFSET UNITYSDK_OFFSET(0x9C37C60)
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDEGOTOLEGACYBYMISSION_OFFSET UNITYSDK_OFFSET(0x9C37AD0)
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDEGOTO_OFFSET UNITYSDK_OFFSET(0x9C379B0)
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDETAKEMISSION_OFFSET UNITYSDK_OFFSET(0x9C37670)
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_LEGACYROGUE_OFFSET UNITYSDK_OFFSET(0x9C37D20)
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_WORLDUNLOCK_OFFSET UNITYSDK_OFFSET(0x9C37CC0)
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTSHOWRESIDENTACTIVITYDETAIL_OFFSET UNITYSDK_OFFSET(0x9C37E30)
-#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER__REPORTACTIVITYPANELBTNGOCLICK_OFFSET UNITYSDK_OFFSET(0x9C37790)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_ACTIVITYGOTO_OFFSET UNITYSDK_OFFSET(0xB1D7230)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_EARLYACCESS_OFFSET UNITYSDK_OFFSET(0xB1D7360)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDEGOTOLEGACYBYMISSION_OFFSET UNITYSDK_OFFSET(0xB1D71C0)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDEGOTO_OFFSET UNITYSDK_OFFSET(0xB1D7090)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDETAKEMISSION_OFFSET UNITYSDK_OFFSET(0xB1D6D40)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_LEGACYROGUE_OFFSET UNITYSDK_OFFSET(0xB1D7420)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_WORLDUNLOCK_OFFSET UNITYSDK_OFFSET(0xB1D73C0)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTSHOWRESIDENTACTIVITYDETAIL_OFFSET UNITYSDK_OFFSET(0xB1D7530)
+#define RPG_CLIENT_ACTIVITYPANELREPORTHELPER__REPORTACTIVITYPANELBTNGOCLICK_OFFSET UNITYSDK_OFFSET(0xB1D6E70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPanelReportHelper_TypeDefinitionIndex = 56914;
+	inline static constexpr unsigned int ActivityPanelReportHelper_TypeDefinitionIndex = 57702;
 
 	class ActivityPanelReportHelper : public ::System::Object
 	{
 	public:
-		static ::System::Void ReportActivityPanelBtnGoClick_GuideTakeMission(::RPG::Client::IActivityPanelReportable* panel, ::System::String* uiFrom)
+		static ::System::Void ReportActivityPanelBtnGoClick_GuideTakeMission(::RPG::Client::IActivityPanelReportable* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDETAKEMISSION_OFFSET))(panel, uiFrom);
+			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDETAKEMISSION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReportActivityPanelBtnGoClick_GuideGoto(::RPG::Client::IActivityPanelReportable* panel, ::System::String* uiFrom)
+		static ::System::Void ReportActivityPanelBtnGoClick_GuideGoto(::RPG::Client::IActivityPanelReportable* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDEGOTO_OFFSET))(panel, uiFrom);
+			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDEGOTO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReportActivityPanelBtnGoClick_GuideGotoLegacyByMission(::RPG::Client::IActivityPanelReportable* panel, ::System::UInt32 missionID, ::System::String* uiFrom)
+		static ::System::Void ReportActivityPanelBtnGoClick_GuideGotoLegacyByMission(::RPG::Client::IActivityPanelReportable* a1, ::System::UInt32 a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDEGOTOLEGACYBYMISSION_OFFSET))(panel, missionID, uiFrom);
+			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_GUIDEGOTOLEGACYBYMISSION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ReportActivityPanelBtnGoClick_ActivityGoto(::RPG::Client::IActivityPanelReportable* panel, ::System::String* uiFrom)
+		static ::System::Void ReportActivityPanelBtnGoClick_ActivityGoto(::RPG::Client::IActivityPanelReportable* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_ACTIVITYGOTO_OFFSET))(panel, uiFrom);
+			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_ACTIVITYGOTO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReportActivityPanelBtnGoClick_EarlyAccess(::RPG::Client::IActivityPanelReportable* panel, ::System::String* uiFrom)
+		static ::System::Void ReportActivityPanelBtnGoClick_EarlyAccess(::RPG::Client::IActivityPanelReportable* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_EARLYACCESS_OFFSET))(panel, uiFrom);
+			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_EARLYACCESS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReportActivityPanelBtnGoClick_WorldUnlock(::RPG::Client::IActivityPanelReportable* panel, ::System::String* uiFrom)
+		static ::System::Void ReportActivityPanelBtnGoClick_WorldUnlock(::RPG::Client::IActivityPanelReportable* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_WORLDUNLOCK_OFFSET))(panel, uiFrom);
+			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_WORLDUNLOCK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReportActivityPanelBtnGoClick_LegacyRogue(::RPG::Client::RogueResidentActivityPanelData* panelData, ::System::String* uiFrom)
+		static ::System::Void ReportActivityPanelBtnGoClick_LegacyRogue(::RPG::Client::RogueResidentActivityPanelData* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::RogueResidentActivityPanelData*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_LEGACYROGUE_OFFSET))(panelData, uiFrom);
+			return ((::System::Void(*)(::RPG::Client::RogueResidentActivityPanelData*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTACTIVITYPANELBTNGOCLICK_LEGACYROGUE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void _ReportActivityPanelBtnGoClick(::RPG::Client::IActivityPanelReportable* panel, ::RPG::Client::ActivityPanelBtnGoClickReportGuideType guideType, ::System::UInt32 missionID, ::System::UInt32 gotoID, ::System::String* uiFrom)
+		static ::System::Void _ReportActivityPanelBtnGoClick(::RPG::Client::IActivityPanelReportable* a1, ::RPG::Client::ActivityPanelBtnGoClickReportGuideType a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::RPG::Client::ActivityPanelBtnGoClickReportGuideType, ::System::UInt32, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER__REPORTACTIVITYPANELBTNGOCLICK_OFFSET))(panel, guideType, missionID, gotoID, uiFrom);
+			return ((::System::Void(*)(::RPG::Client::IActivityPanelReportable*, ::RPG::Client::ActivityPanelBtnGoClickReportGuideType, ::System::UInt32, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER__REPORTACTIVITYPANELBTNGOCLICK_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void ReportShowResidentActivityDetail(::RPG::Client::IResidentActivityPanelData* panelData)
+		static ::System::Void ReportShowResidentActivityDetail(::RPG::Client::IResidentActivityPanelData* a1)
 		{
-			return ((::System::Void(*)(::RPG::Client::IResidentActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTSHOWRESIDENTACTIVITYDETAIL_OFFSET))(panelData);
+			return ((::System::Void(*)(::RPG::Client::IResidentActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPANELREPORTHELPER_REPORTSHOWRESIDENTACTIVITYDETAIL_OFFSET))(a1);
 		}
 	};
 }

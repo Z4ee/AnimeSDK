@@ -13,84 +13,84 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_PROJECTION_FINDBESTPLANE_1_OFFSET UNITYSDK_OFFSET(0x1A2BB3A0)
-#define UNITYENGINE_PROBUILDER_PROJECTION_FINDBESTPLANE_OFFSET UNITYSDK_OFFSET(0x1A2B80B0)
-#define UNITYENGINE_PROBUILDER_PROJECTION_GETTANGENTTOAXIS_OFFSET UNITYSDK_OFFSET(0x1A2B9710)
-#define UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_1_OFFSET UNITYSDK_OFFSET(0x1A2B8AD0)
-#define UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_2_OFFSET UNITYSDK_OFFSET(0x1A2B8CE0)
-#define UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_3_OFFSET UNITYSDK_OFFSET(0x1A2B9770)
-#define UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_4_OFFSET UNITYSDK_OFFSET(0x1A2BA020)
-#define UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_OFFSET UNITYSDK_OFFSET(0x1A2B8060)
-#define UNITYENGINE_PROBUILDER_PROJECTION_PROJECTIONAXISTOVECTOR_OFFSET UNITYSDK_OFFSET(0x1A2BB2A0)
-#define UNITYENGINE_PROBUILDER_PROJECTION_SORT_OFFSET UNITYSDK_OFFSET(0x1A2BABC0)
-#define UNITYENGINE_PROBUILDER_PROJECTION_SPHERICALPROJECT_OFFSET UNITYSDK_OFFSET(0x1A2BA690)
-#define UNITYENGINE_PROBUILDER_PROJECTION_VECTORTOPROJECTIONAXIS_OFFSET UNITYSDK_OFFSET(0x1A2B9630)
+#define UNITYENGINE_PROBUILDER_PROJECTION_FINDBESTPLANE_1_OFFSET UNITYSDK_OFFSET(0x1B11D9B0)
+#define UNITYENGINE_PROBUILDER_PROJECTION_FINDBESTPLANE_OFFSET UNITYSDK_OFFSET(0x1B11A610)
+#define UNITYENGINE_PROBUILDER_PROJECTION_GETTANGENTTOAXIS_OFFSET UNITYSDK_OFFSET(0x1B11BD30)
+#define UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_1_OFFSET UNITYSDK_OFFSET(0x1B11B040)
+#define UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_2_OFFSET UNITYSDK_OFFSET(0x1B11B290)
+#define UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_3_OFFSET UNITYSDK_OFFSET(0x1B11BD90)
+#define UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_4_OFFSET UNITYSDK_OFFSET(0x1B11C5C0)
+#define UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_OFFSET UNITYSDK_OFFSET(0x1B11A5C0)
+#define UNITYENGINE_PROBUILDER_PROJECTION_PROJECTIONAXISTOVECTOR_OFFSET UNITYSDK_OFFSET(0x1B11D8B0)
+#define UNITYENGINE_PROBUILDER_PROJECTION_SORT_OFFSET UNITYSDK_OFFSET(0x1B11D0F0)
+#define UNITYENGINE_PROBUILDER_PROJECTION_SPHERICALPROJECT_OFFSET UNITYSDK_OFFSET(0x1B11CBD0)
+#define UNITYENGINE_PROBUILDER_PROJECTION_VECTORTOPROJECTIONAXIS_OFFSET UNITYSDK_OFFSET(0x1B11BC50)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Projection_TypeDefinitionIndex = 39968;
+	inline static constexpr unsigned int Projection_TypeDefinitionIndex = 40795;
 
 	class Projection : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Vector2>* PlanarProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions, ::System::Collections::Generic::IList_1<::System::Int32>* indexes)
+		static ::Il2CppArray<::UnityEngine::Vector2>* PlanarProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2)
 		{
-			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_OFFSET))(positions, indexes);
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_OFFSET))(a1, a2);
 		}
 
-		static ::Il2CppArray<::UnityEngine::Vector2>* PlanarProject_1(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions, ::System::Collections::Generic::IList_1<::System::Int32>* indexes, ::UnityEngine::Vector3 direction)
+		static ::Il2CppArray<::UnityEngine::Vector2>* PlanarProject_1(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_1_OFFSET))(positions, indexes, direction);
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void PlanarProject_2(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions, ::System::Collections::Generic::IList_1<::System::Int32>* indexes, ::UnityEngine::Vector3 direction, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* results)
+		static ::System::Void PlanarProject_2(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2, ::UnityEngine::Vector3 a3, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a4)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_2_OFFSET))(positions, indexes, direction, results);
+			return ((::System::Void(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<::System::Int32>*, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void PlanarProject_3(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Int32 textureGroup, ::UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings)
+		static ::System::Void PlanarProject_3(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Int32 a2, ::UnityEngine::ProBuilder::AutoUnwrapSettings a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32, ::UnityEngine::ProBuilder::AutoUnwrapSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_3_OFFSET))(mesh, textureGroup, unwrapSettings);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32, ::UnityEngine::ProBuilder::AutoUnwrapSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_3_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void PlanarProject_4(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 projection)
+		static ::System::Void PlanarProject_4(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Face* a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_4_OFFSET))(mesh, face, projection);
+			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PLANARPROJECT_4_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::UnityEngine::Vector2>* SphericalProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* vertices, ::System::Collections::Generic::IList_1<::System::Int32>* indexes)
+		static ::Il2CppArray<::UnityEngine::Vector2>* SphericalProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2)
 		{
-			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_SPHERICALPROJECT_OFFSET))(vertices, indexes);
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_SPHERICALPROJECT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* Sort(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* verts, ::UnityEngine::ProBuilder::SortMethod method)
+		static ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* Sort(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* a1, ::UnityEngine::ProBuilder::SortMethod a2)
 		{
-			return ((::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::UnityEngine::ProBuilder::SortMethod))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_SORT_OFFSET))(verts, method);
+			return ((::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::UnityEngine::ProBuilder::SortMethod))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_SORT_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Vector3 GetTangentToAxis(::UnityEngine::ProBuilder::ProjectionAxis axis)
+		static ::UnityEngine::Vector3 GetTangentToAxis(::UnityEngine::ProBuilder::ProjectionAxis a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::ProjectionAxis))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_GETTANGENTTOAXIS_OFFSET))(axis);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::ProjectionAxis))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_GETTANGENTTOAXIS_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Vector3 ProjectionAxisToVector(::UnityEngine::ProBuilder::ProjectionAxis axis)
+		static ::UnityEngine::Vector3 ProjectionAxisToVector(::UnityEngine::ProBuilder::ProjectionAxis a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::ProjectionAxis))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PROJECTIONAXISTOVECTOR_OFFSET))(axis);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::ProBuilder::ProjectionAxis))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_PROJECTIONAXISTOVECTOR_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ProBuilder::ProjectionAxis VectorToProjectionAxis(::UnityEngine::Vector3 direction)
+		static ::UnityEngine::ProBuilder::ProjectionAxis VectorToProjectionAxis(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::ProBuilder::ProjectionAxis(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_VECTORTOPROJECTIONAXIS_OFFSET))(direction);
+			return ((::UnityEngine::ProBuilder::ProjectionAxis(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_VECTORTOPROJECTIONAXIS_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Plane FindBestPlane(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, ::System::Collections::Generic::IList_1<::System::Int32>* indexes)
+		static ::UnityEngine::Plane FindBestPlane(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a1, ::System::Collections::Generic::IList_1<::System::Int32>* a2)
 		{
-			return ((::UnityEngine::Plane(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_FINDBESTPLANE_OFFSET))(points, indexes);
+			return ((::UnityEngine::Plane(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_FINDBESTPLANE_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Plane FindBestPlane_1(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Int32 textureGroup)
+		static ::UnityEngine::Plane FindBestPlane_1(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::Plane(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_FINDBESTPLANE_1_OFFSET))(mesh, textureGroup);
+			return ((::UnityEngine::Plane(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PROJECTION_FINDBESTPLANE_1_OFFSET))(a1, a2);
 		}
 	};
 }

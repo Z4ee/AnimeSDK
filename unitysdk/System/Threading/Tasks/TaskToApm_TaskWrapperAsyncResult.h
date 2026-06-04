@@ -5,26 +5,26 @@
 namespace System::Threading { class WaitHandle; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT_SYSTEM_IASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x178780A0)
-#define SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT_SYSTEM_IASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x17878100)
-#define SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT_SYSTEM_IASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x178780B0)
-#define SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT_SYSTEM_IASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x178780C0)
-#define SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x17877F80)
+#define SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT_SYSTEM_IASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x186310A0)
+#define SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT_SYSTEM_IASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x18631100)
+#define SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT_SYSTEM_IASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x186310B0)
+#define SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT_SYSTEM_IASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x186310C0)
+#define SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x18630F60)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskToApm_TaskWrapperAsyncResult_TypeDefinitionIndex = 930;
+	inline static constexpr unsigned int TaskToApm_TaskWrapperAsyncResult_TypeDefinitionIndex = 929;
 
 	class TaskToApm_TaskWrapperAsyncResult : public ::System::Object
 	{
 	public:
-		::System::Object* m_state; // 0x10
-		::System::Threading::Tasks::Task* Task; // 0x18
+		::System::Threading::Tasks::Task* Task; // 0x10
+		::System::Object* m_state; // 0x18
 		::System::Boolean m_completedSynchronously; // 0x20
 
-		::System::Void _ctor(::System::Threading::Tasks::Task* task, ::System::Object* state, ::System::Boolean completedSynchronously)
+		::System::Void _ctor(::System::Threading::Tasks::Task* a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::Task*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT__CTOR_OFFSET))(this, task, state, completedSynchronously);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::Task*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKTOAPM_TASKWRAPPERASYNCRESULT__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* System_IAsyncResult_get_AsyncState()

@@ -8,35 +8,35 @@ namespace MiHoYo::SDK { class UGCInterface_UgcResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DD4840)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__HTTPPOSTCARRYTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x8DD9060)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__HTTPPOSTCARRYTOKEN_B__1_OFFSET UNITYSDK_OFFSET(0x8DD90E0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA2204D0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__HTTPPOSTCARRYTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0xA224AF0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__HTTPPOSTCARRYTOKEN_B__1_OFFSET UNITYSDK_OFFSET(0xA224B80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface___c__DisplayClass14_0_TypeDefinitionIndex = 43046;
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass14_0_TypeDefinitionIndex = 43849;
 
 	class UGCInterface___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
 		::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>* tokenFailedCallback; // 0x10
 		::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>* callback; // 0x18
-		::System::String* strTaskId; // 0x20
-		::MiHoYo::SDK::UGCInterface* __4__this; // 0x28
+		::MiHoYo::SDK::UGCInterface* __4__this; // 0x20
+		::System::String* strTaskId; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _HttpPostCarryToken_b__0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _HttpPostCarryToken_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__HTTPPOSTCARRYTOKEN_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__HTTPPOSTCARRYTOKEN_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _HttpPostCarryToken_b__1(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _HttpPostCarryToken_b__1(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__HTTPPOSTCARRYTOKEN_B__1_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__HTTPPOSTCARRYTOKEN_B__1_OFFSET))(this, a1);
 		}
 	};
 }

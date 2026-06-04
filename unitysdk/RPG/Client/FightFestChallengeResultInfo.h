@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class FightFestChallengeLevelData; }
 
-#define RPG_CLIENT_FIGHTFESTCHALLENGERESULTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xA373050)
-#define RPG_CLIENT_FIGHTFESTCHALLENGERESULTINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD70F0)
+#define RPG_CLIENT_FIGHTFESTCHALLENGERESULTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xB9C69E0)
+#define RPG_CLIENT_FIGHTFESTCHALLENGERESULTINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13B480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestChallengeResultInfo_TypeDefinitionIndex = 59058;
+	inline static constexpr unsigned int FightFestChallengeResultInfo_TypeDefinitionIndex = 59988;
 
 	struct alignas(8) FightFestChallengeResultInfo
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 		::System::UInt32 LeftTurnCount; // 0x24
 		::System::UInt32 HistoryMaxLeftTurnCount; // 0x28
 
-		static ::RPG::Client::FightFestChallengeResultInfo Create(::RPG::Client::FightFestChallengeLevelData* challengeLevelData, ::RPG::GameCore::ActivityRank rank, ::RPG::GameCore::ActivityRank historyMaxRank, ::System::UInt32 LeftTurnCount, ::System::Boolean isNewHigh, ::System::Boolean isNewNewHighLeftTurnCount)
+		static ::RPG::Client::FightFestChallengeResultInfo Create(::RPG::Client::FightFestChallengeLevelData* a1, ::RPG::GameCore::ActivityRank a2, ::RPG::GameCore::ActivityRank a3, ::System::UInt32 a4, ::System::Boolean a5, ::System::Boolean a6)
 		{
-			return ((::RPG::Client::FightFestChallengeResultInfo(*)(::RPG::Client::FightFestChallengeLevelData*, ::RPG::GameCore::ActivityRank, ::RPG::GameCore::ActivityRank, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTCHALLENGERESULTINFO_CREATE_OFFSET))(challengeLevelData, rank, historyMaxRank, LeftTurnCount, isNewHigh, isNewNewHighLeftTurnCount);
+			return ((::RPG::Client::FightFestChallengeResultInfo(*)(::RPG::Client::FightFestChallengeLevelData*, ::RPG::GameCore::ActivityRank, ::RPG::GameCore::ActivityRank, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTCHALLENGERESULTINFO_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void Dispose()

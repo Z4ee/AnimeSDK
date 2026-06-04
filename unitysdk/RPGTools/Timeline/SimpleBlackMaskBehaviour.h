@@ -5,14 +5,14 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKBEHAVIOUR_METHOD_2_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xB915780)
-#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB9154F0)
-#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xB915800)
-#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB915810)
+#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKBEHAVIOUR_METHOD_2_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xD055FE0)
+#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD055D50)
+#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD056060)
+#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD056070)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SimpleBlackMaskBehaviour_TypeDefinitionIndex = 45039;
+	inline static constexpr unsigned int SimpleBlackMaskBehaviour_TypeDefinitionIndex = 45587;
 
 	class SimpleBlackMaskBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -42,9 +42,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SIMPLEBLACKMASKBEHAVIOUR_METHOD_2_2685B6183E614529_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1)
+		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SIMPLEBLACKMASKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SIMPLEBLACKMASKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBlenderSettings_CustomBlend_TypeDefinitionIndex = 36570;
+	inline static constexpr unsigned int CinemachineBlenderSettings_CustomBlend_TypeDefinitionIndex = 36870;
 
 	struct alignas(8) CinemachineBlenderSettings_CustomBlend
 	{

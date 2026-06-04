@@ -4,19 +4,19 @@
 
 class AkReflectionPathInfo;
 
-#define AKREFLECTIONPATHINFOARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1A60BBC0)
-#define AKREFLECTIONPATHINFOARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1A60BB40)
-#define AKREFLECTIONPATHINFOARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1A60BA90)
-#define AKREFLECTIONPATHINFOARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A60BA50)
+#define AKREFLECTIONPATHINFOARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1B456810)
+#define AKREFLECTIONPATHINFOARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1B456790)
+#define AKREFLECTIONPATHINFOARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1B4566E0)
+#define AKREFLECTIONPATHINFOARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4566A0)
 
-inline static constexpr unsigned int AkReflectionPathInfoArray_TypeDefinitionIndex = 40426;
+inline static constexpr unsigned int AkReflectionPathInfoArray_TypeDefinitionIndex = 41253;
 
 class AkReflectionPathInfoArray : public ::AkBaseArray_1<::AkReflectionPathInfo*>
 {
 public:
-	::System::Void _ctor(::System::Int32 count)
+	::System::Void _ctor(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKREFLECTIONPATHINFOARRAY__CTOR_OFFSET))(this, count);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKREFLECTIONPATHINFOARRAY__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Int32 get_StructureSize()
@@ -24,13 +24,13 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKREFLECTIONPATHINFOARRAY_GET_STRUCTURESIZE_OFFSET))(this);
 	}
 
-	::AkReflectionPathInfo* CreateNewReferenceFromIntPtr(::System::IntPtr address)
+	::AkReflectionPathInfo* CreateNewReferenceFromIntPtr(::System::IntPtr a1)
 	{
-		return ((::AkReflectionPathInfo*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKREFLECTIONPATHINFOARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET))(this, address);
+		return ((::AkReflectionPathInfo*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKREFLECTIONPATHINFOARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET))(this, a1);
 	}
 
-	::System::Void CloneIntoReferenceFromIntPtr(::System::IntPtr address, ::AkReflectionPathInfo* other)
+	::System::Void CloneIntoReferenceFromIntPtr(::System::IntPtr a1, ::AkReflectionPathInfo* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::AkReflectionPathInfo*))((::PBYTE)hIl2Cpp + AKREFLECTIONPATHINFOARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET))(this, address, other);
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::AkReflectionPathInfo*))((::PBYTE)hIl2Cpp + AKREFLECTIONPATHINFOARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET))(this, a1, a2);
 	}
 };

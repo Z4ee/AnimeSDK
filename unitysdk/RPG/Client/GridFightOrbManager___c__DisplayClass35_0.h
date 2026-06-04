@@ -6,13 +6,13 @@ class Class_1_F4BC0015EEAF0CC2;
 namespace RPG::Client { class GridFightInteractableOrb; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA517100)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS35_0__REMOVESPHERE_B__0_OFFSET UNITYSDK_OFFSET(0xA517EE0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS35_0__REMOVESPHERE_B__1_OFFSET UNITYSDK_OFFSET(0xA517F90)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBBE570)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS35_0__REMOVESPHERE_B__0_OFFSET UNITYSDK_OFFSET(0xBBBF250)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS35_0__REMOVESPHERE_B__1_OFFSET UNITYSDK_OFFSET(0xBBBF300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass35_0_TypeDefinitionIndex = 59319;
+	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass35_0_TypeDefinitionIndex = 60254;
 
 	class GridFightOrbManager___c__DisplayClass35_0 : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS35_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RemoveSphere_b__0(::UnityEngine::GameObject* item)
+		::System::Boolean _RemoveSphere_b__0(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS35_0__REMOVESPHERE_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS35_0__REMOVESPHERE_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _RemoveSphere_b__1(::Class_1_F4BC0015EEAF0CC2* x)
+		::System::Boolean _RemoveSphere_b__1(::Class_1_F4BC0015EEAF0CC2* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F4BC0015EEAF0CC2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS35_0__REMOVESPHERE_B__1_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_F4BC0015EEAF0CC2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS35_0__REMOVESPHERE_B__1_OFFSET))(this, a1);
 		}
 	};
 }

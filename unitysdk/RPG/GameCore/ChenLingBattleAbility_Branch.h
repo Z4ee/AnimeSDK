@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChenLingBattlePredicate; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_METHOD_3_17A2A99DA12FFC58_OFFSET UNITYSDK_OFFSET(0x187DE170)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_METHOD_3_E31A47C6FB3DB77D_OFFSET UNITYSDK_OFFSET(0x187DE110)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH__CTOR_OFFSET UNITYSDK_OFFSET(0x187DE160)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_METHOD_3_5499596C08154FEA_OFFSET UNITYSDK_OFFSET(0x1961BB80)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_METHOD_3_F05E3BC3E2575B8B_OFFSET UNITYSDK_OFFSET(0x1961BB20)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1961BB70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_Branch_TypeDefinitionIndex = 14911;
+	inline static constexpr unsigned int ChenLingBattleAbility_Branch_TypeDefinitionIndex = 14974;
 
 	class ChenLingBattleAbility_Branch : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E31A47C6FB3DB77D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_Branch*& a2)
+		static ::System::Void Method_3_F05E3BC3E2575B8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_Branch*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_Branch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_METHOD_3_E31A47C6FB3DB77D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_Branch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_METHOD_3_F05E3BC3E2575B8B_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_17A2A99DA12FFC58(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_Branch* a2)
+		static ::System::Void Method_3_5499596C08154FEA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_Branch* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_Branch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_METHOD_3_17A2A99DA12FFC58_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_Branch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_BRANCH_METHOD_3_5499596C08154FEA_OFFSET))(a1, a2);
 		}
 	};
 }

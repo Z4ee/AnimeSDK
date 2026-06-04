@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleSkillComeFrom_TypeDefinitionIndex = 12805;
+	inline static constexpr unsigned int GridFightRoleSkillComeFrom_TypeDefinitionIndex = 12892;
 
 	enum class GridFightRoleSkillComeFrom : ::System::Int32
 	{

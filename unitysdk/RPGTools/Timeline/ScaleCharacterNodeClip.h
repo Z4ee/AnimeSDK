@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xB90E930)
-#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xB90E920)
-#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xB90EB20)
+#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD04F720)
+#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xD04F710)
+#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xD04F880)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ScaleCharacterNodeClip_TypeDefinitionIndex = 45010;
+	inline static constexpr unsigned int ScaleCharacterNodeClip_TypeDefinitionIndex = 45558;
 
 	class ScaleCharacterNodeClip : public ::UnityEngine::Playables::PlayableAsset
 	{

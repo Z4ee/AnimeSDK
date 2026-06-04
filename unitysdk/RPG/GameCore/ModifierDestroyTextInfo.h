@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO_METHOD_2_9826FD26985A644A_OFFSET UNITYSDK_OFFSET(0x18B344E0)
-#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18B346F0)
+#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO_METHOD_2_139511CE81B3AB53_OFFSET UNITYSDK_OFFSET(0x1994C5B0)
+#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1994C780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierDestroyTextInfo_TypeDefinitionIndex = 16242;
+	inline static constexpr unsigned int ModifierDestroyTextInfo_TypeDefinitionIndex = 16277;
 
 	class ModifierDestroyTextInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERDESTROYTEXTINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9826FD26985A644A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierDestroyTextInfo*& a2)
+		static ::System::Void Method_2_139511CE81B3AB53(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifierDestroyTextInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierDestroyTextInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERDESTROYTEXTINFO_METHOD_2_9826FD26985A644A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifierDestroyTextInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFIERDESTROYTEXTINFO_METHOD_2_139511CE81B3AB53_OFFSET))(a1, a2);
 		}
 	};
 }

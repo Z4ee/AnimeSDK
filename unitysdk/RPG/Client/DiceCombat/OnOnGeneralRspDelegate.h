@@ -7,36 +7,36 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA15E610)
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA15E670)
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xA15E2C0)
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA15E2A0)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB7DD640)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB7DD6A0)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB7DD630)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB7DD5C0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int OnOnGeneralRspDelegate_TypeDefinitionIndex = 69895;
+	inline static constexpr unsigned int OnOnGeneralRspDelegate_TypeDefinitionIndex = 70707;
 
 	class OnOnGeneralRspDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::UInt32 msgId, ::Google::Protobuf::ByteString* msg)
+		::System::Void Invoke(::System::UInt32 a1, ::Google::Protobuf::ByteString* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Google::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_INVOKE_OFFSET))(this, msgId, msg);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Google::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt32 msgId, ::Google::Protobuf::ByteString* msg, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::UInt32 a1, ::Google::Protobuf::ByteString* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::Google::Protobuf::ByteString*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_BEGININVOKE_OFFSET))(this, msgId, msg, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt32, ::Google::Protobuf::ByteString*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

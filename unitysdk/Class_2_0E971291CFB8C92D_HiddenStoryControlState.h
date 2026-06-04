@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_0E971291CFB8C92D_HiddenStoryControlState_TypeDefinitionIndex = 48800;
+inline static constexpr unsigned int Class_2_0E971291CFB8C92D_HiddenStoryControlState_TypeDefinitionIndex = 49466;
 
 enum class Class_2_0E971291CFB8C92D_HiddenStoryControlState : ::System::Int32
 {

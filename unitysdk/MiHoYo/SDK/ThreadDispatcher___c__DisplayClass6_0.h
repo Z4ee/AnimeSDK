@@ -4,12 +4,12 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_THREADDISPATCHER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1765DE40)
-#define MIHOYO_SDK_THREADDISPATCHER___C__DISPLAYCLASS6_0__RUNASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1765DF60)
+#define MIHOYO_SDK_THREADDISPATCHER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1842EF00)
+#define MIHOYO_SDK_THREADDISPATCHER___C__DISPLAYCLASS6_0__RUNASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1842F060)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThreadDispatcher___c__DisplayClass6_0_TypeDefinitionIndex = 7073;
+	inline static constexpr unsigned int ThreadDispatcher___c__DisplayClass6_0_TypeDefinitionIndex = 7976;
 
 	class ThreadDispatcher___c__DisplayClass6_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER___C__DISPLAYCLASS6_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RunAsync_b__0(::System::Object* obj)
+		::System::Void _RunAsync_b__0(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER___C__DISPLAYCLASS6_0__RUNASYNC_B__0_OFFSET))(this, obj);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER___C__DISPLAYCLASS6_0__RUNASYNC_B__0_OFFSET))(this, a1);
 		}
 	};
 }

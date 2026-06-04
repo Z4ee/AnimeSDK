@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyHealData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1AD4A3F17C8E636F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11B79250)
-#define CLASS_3_1AD4A3F17C8E636F__CTOR_OFFSET UNITYSDK_OFFSET(0x11B79220)
+#define CLASS_3_1AD4A3F17C8E636F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13643060)
+#define CLASS_3_1AD4A3F17C8E636F__CTOR_OFFSET UNITYSDK_OFFSET(0x13643030)
 
-inline static constexpr unsigned int Class_3_1AD4A3F17C8E636F_TypeDefinitionIndex = 50896;
+inline static constexpr unsigned int Class_3_1AD4A3F17C8E636F_TypeDefinitionIndex = 51565;
 
 class Class_3_1AD4A3F17C8E636F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyHealData*>
 {

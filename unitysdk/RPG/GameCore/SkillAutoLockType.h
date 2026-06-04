@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillAutoLockType_TypeDefinitionIndex = 17299;
+	inline static constexpr unsigned int SkillAutoLockType_TypeDefinitionIndex = 17304;
 
 	enum class SkillAutoLockType : ::System::Int32
 	{

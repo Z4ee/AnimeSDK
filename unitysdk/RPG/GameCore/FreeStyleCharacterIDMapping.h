@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLECHARACTERIDMAPPING_METHOD_2_2D35DCC7DB947536_OFFSET UNITYSDK_OFFSET(0x189322D0)
-#define RPG_GAMECORE_FREESTYLECHARACTERIDMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x189323F0)
+#define RPG_GAMECORE_FREESTYLECHARACTERIDMAPPING_METHOD_2_2D35DCC7DB947536_OFFSET UNITYSDK_OFFSET(0x1976D460)
+#define RPG_GAMECORE_FREESTYLECHARACTERIDMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1976D580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleCharacterIDMapping_TypeDefinitionIndex = 15435;
+	inline static constexpr unsigned int FreeStyleCharacterIDMapping_TypeDefinitionIndex = 15498;
 
 	class FreeStyleCharacterIDMapping : public ::RPG::GameCore::JsonConfig
 	{

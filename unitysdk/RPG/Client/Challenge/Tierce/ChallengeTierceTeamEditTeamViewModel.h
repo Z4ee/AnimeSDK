@@ -1,0 +1,113 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_06E38C65842C3B24;
+class Class_1_19DB14C0C5CFE108;
+class Class_1_DDF2C200AE487775;
+namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel; }
+namespace System { class Action; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_ADD_ONMODIFIEDBUFFIDCHANGED_OFFSET UNITYSDK_OFFSET(0xB4EAAD0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4EB100)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GETMODIFIEDAVATARBYSLOT_OFFSET UNITYSDK_OFFSET(0xB4EB150)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GET_COUNTOFSLOT_OFFSET UNITYSDK_OFFSET(0xB4EAA00)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GET_ISNEEDFORCESAVE_OFFSET UNITYSDK_OFFSET(0xB4EA7F0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GET_MODIFIEDBUFFID_OFFSET UNITYSDK_OFFSET(0xB4EAA30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GET_RELATEDSTAGE_OFFSET UNITYSDK_OFFSET(0xB4EA7E0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_ITERATEMODIFIEDAVATARROLEIDS_OFFSET UNITYSDK_OFFSET(0xB4EB1D0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_ITERATEMODIFIEDAVATARS_OFFSET UNITYSDK_OFFSET(0xB4EB320)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_REMOVE_ONMODIFIEDBUFFIDCHANGED_OFFSET UNITYSDK_OFFSET(0xB4EAB30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_SETMODIFIEDAVATARBYSLOT_OFFSET UNITYSDK_OFFSET(0xB4EB470)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_SET_MODIFIEDBUFFID_OFFSET UNITYSDK_OFFSET(0xB4EAA40)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL__CHECKISLINEUPCHANGED_OFFSET UNITYSDK_OFFSET(0xB4EA890)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB4EAB90)
+
+namespace RPG::Client::Challenge::Tierce
+{
+	inline static constexpr unsigned int ChallengeTierceTeamEditTeamViewModel_TypeDefinitionIndex = 74276;
+
+	class ChallengeTierceTeamEditTeamViewModel : public ::System::Object
+	{
+	public:
+		::System::Action* OnModifiedBuffIDChanged; // 0x10
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel* _RelatedStage_k__BackingField; // 0x18
+		::Class_1_19DB14C0C5CFE108* _TeamConflictCheckService; // 0x20
+		::Class_1_06E38C65842C3B24* _Tierce; // 0x28
+		::Il2CppArray<::RPG::AvatarSystem::IAvatar*>* _ModifiedAvatars; // 0x30
+		::System::Nullable_1<::System::UInt32> _ModifiedBuffID; // 0x38
+
+		::System::Void _ctor(::Class_1_DDF2C200AE487775* a1, ::Class_1_19DB14C0C5CFE108* a2, ::Class_1_06E38C65842C3B24* a3, ::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel* a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_DDF2C200AE487775*, ::Class_1_19DB14C0C5CFE108*, ::Class_1_06E38C65842C3B24*, ::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel* get_RelatedStage()
+		{
+			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GET_RELATEDSTAGE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsNeedForceSave()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GET_ISNEEDFORCESAVE_OFFSET))(this);
+		}
+
+		::System::Int32 get_CountOfSlot()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GET_COUNTOFSLOT_OFFSET))(this);
+		}
+
+		::System::Nullable_1<::System::UInt32> get_ModifiedBuffID()
+		{
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GET_MODIFIEDBUFFID_OFFSET))(this);
+		}
+
+		::System::Void set_ModifiedBuffID(::System::Nullable_1<::System::UInt32> a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_SET_MODIFIEDBUFFID_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnModifiedBuffIDChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_ADD_ONMODIFIEDBUFFIDCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnModifiedBuffIDChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_REMOVE_ONMODIFIEDBUFFIDCHANGED_OFFSET))(this, a1);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_DISPOSE_OFFSET))(this);
+		}
+
+		::RPG::AvatarSystem::IAvatar* GetModifiedAvatarBySlot(::System::Int32 a1)
+		{
+			return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GETMODIFIEDAVATARBYSLOT_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::System::UInt32>* IterateModifiedAvatarRoleIDs()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_ITERATEMODIFIEDAVATARROLEIDS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::RPG::AvatarSystem::IAvatar*>* IterateModifiedAvatars()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::RPG::AvatarSystem::IAvatar*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_ITERATEMODIFIEDAVATARS_OFFSET))(this);
+		}
+
+		::System::Void SetModifiedAvatarBySlot(::System::Int32 a1, ::RPG::AvatarSystem::IAvatar* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_SETMODIFIEDAVATARBYSLOT_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean _CheckIsLineupChanged()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL__CHECKISLINEUPCHANGED_OFFSET))(this);
+		}
+	};
+}

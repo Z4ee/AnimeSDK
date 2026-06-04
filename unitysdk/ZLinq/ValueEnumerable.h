@@ -31,24 +31,24 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace System::Collections::Generic { template <typename T> class SortedSet_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define ZLINQ_VALUEENUMERABLE_ASVALUEENUMERABLE_OFFSET UNITYSDK_OFFSET(0x1A72BB90)
-#define ZLINQ_VALUEENUMERABLE_RANGE_OFFSET UNITYSDK_OFFSET(0x1A72BC30)
+#define ZLINQ_VALUEENUMERABLE_ASVALUEENUMERABLE_OFFSET UNITYSDK_OFFSET(0x1B52CF70)
+#define ZLINQ_VALUEENUMERABLE_RANGE_OFFSET UNITYSDK_OFFSET(0x1B52D010)
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ValueEnumerable_TypeDefinitionIndex = 6504;
+	inline static constexpr unsigned int ValueEnumerable_TypeDefinitionIndex = 6333;
 
 	class ValueEnumerable : public ::System::Object
 	{
 	public:
-		static ::ZLinq::ValueEnumerable_2<::ZLinq::Linq::FromNonGenericEnumerable_1<::System::Object*>, ::System::Object*> AsValueEnumerable(::System::Collections::IEnumerable* source)
+		static ::ZLinq::ValueEnumerable_2<::ZLinq::Linq::FromNonGenericEnumerable_1<::System::Object*>, ::System::Object*> AsValueEnumerable(::System::Collections::IEnumerable* a1)
 		{
-			return ((::ZLinq::ValueEnumerable_2<::ZLinq::Linq::FromNonGenericEnumerable_1<::System::Object*>, ::System::Object*>(*)(::System::Collections::IEnumerable*))((::PBYTE)hIl2Cpp + ZLINQ_VALUEENUMERABLE_ASVALUEENUMERABLE_OFFSET))(source);
+			return ((::ZLinq::ValueEnumerable_2<::ZLinq::Linq::FromNonGenericEnumerable_1<::System::Object*>, ::System::Object*>(*)(::System::Collections::IEnumerable*))((::PBYTE)hIl2Cpp + ZLINQ_VALUEENUMERABLE_ASVALUEENUMERABLE_OFFSET))(a1);
 		}
 
-		static ::ZLinq::ValueEnumerable_2<::ZLinq::Linq::FromRange, ::System::Int32> Range(::System::Int32 start, ::System::Int32 count)
+		static ::ZLinq::ValueEnumerable_2<::ZLinq::Linq::FromRange, ::System::Int32> Range(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::ZLinq::ValueEnumerable_2<::ZLinq::Linq::FromRange, ::System::Int32>(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZLINQ_VALUEENUMERABLE_RANGE_OFFSET))(start, count);
+			return ((::ZLinq::ValueEnumerable_2<::ZLinq::Linq::FromRange, ::System::Int32>(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZLINQ_VALUEENUMERABLE_RANGE_OFFSET))(a1, a2);
 		}
 	};
 }

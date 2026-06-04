@@ -7,7 +7,7 @@ namespace Cinemachine { class CinemachineBrain_VcamActivatedEvent; }
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineVirtualCameraBase_TransitionParams_TypeDefinitionIndex = 36599;
+	inline static constexpr unsigned int CinemachineVirtualCameraBase_TransitionParams_TypeDefinitionIndex = 36899;
 
 	struct alignas(8) CinemachineVirtualCameraBase_TransitionParams
 	{

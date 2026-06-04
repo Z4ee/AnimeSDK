@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ChenLingBattleAttachPointConfig; }
 namespace RPG::GameCore { class ChenLingBattleEffectTier; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEBULLETVIEW_METHOD_2_CDDE3AD77B5A7F7E_OFFSET UNITYSDK_OFFSET(0x187E1780)
-#define RPG_GAMECORE_CHENLINGBATTLEBULLETVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x187E1ED0)
+#define RPG_GAMECORE_CHENLINGBATTLEBULLETVIEW_METHOD_2_054357962548EC53_OFFSET UNITYSDK_OFFSET(0x1961F440)
+#define RPG_GAMECORE_CHENLINGBATTLEBULLETVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1961FB80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleBulletView_TypeDefinitionIndex = 14874;
+	inline static constexpr unsigned int ChenLingBattleBulletView_TypeDefinitionIndex = 14938;
 
 	class ChenLingBattleBulletView : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETVIEW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CDDE3AD77B5A7F7E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleBulletView*& a2)
+		static ::System::Void Method_2_054357962548EC53(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleBulletView*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleBulletView*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETVIEW_METHOD_2_CDDE3AD77B5A7F7E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleBulletView*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETVIEW_METHOD_2_054357962548EC53_OFFSET))(a1, a2);
 		}
 	};
 }

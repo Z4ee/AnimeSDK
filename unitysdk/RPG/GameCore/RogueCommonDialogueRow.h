@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUECOMMONDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18CF4E20)
-#define RPG_GAMECORE_ROGUECOMMONDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF4F50)
+#define RPG_GAMECORE_ROGUECOMMONDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B1A170)
+#define RPG_GAMECORE_ROGUECOMMONDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1A2A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCommonDialogueRow_TypeDefinitionIndex = 13895;
+	inline static constexpr unsigned int RogueCommonDialogueRow_TypeDefinitionIndex = 13962;
 
 	class RogueCommonDialogueRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECOMMONDIALOGUEROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::RogueCommonDialogueRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCommonDialogueRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCommonDialogueRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECOMMONDIALOGUEROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCommonDialogueRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECOMMONDIALOGUEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

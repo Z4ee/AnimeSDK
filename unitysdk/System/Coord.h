@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int Coord_TypeDefinitionIndex = 456;
+	inline static constexpr unsigned int Coord_TypeDefinitionIndex = 455;
 
 	struct alignas(2) Coord
 	{

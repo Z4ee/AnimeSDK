@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class ThreadPoolQueue; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_THREADPOOLSERVICE_GETCONCURRENTQUEUE_OFFSET UNITYSDK_OFFSET(0x8DCAFD0)
-#define MIHOYO_SDK_THREADPOOLSERVICE_GETQUEUE_OFFSET UNITYSDK_OFFSET(0x8DCF4C0)
-#define MIHOYO_SDK_THREADPOOLSERVICE_GETREPORTDATAQUEUE_OFFSET UNITYSDK_OFFSET(0x8DCF260)
-#define MIHOYO_SDK_THREADPOOLSERVICE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x8DCAF50)
-#define MIHOYO_SDK_THREADPOOLSERVICE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x8DCF220)
-#define MIHOYO_SDK_THREADPOOLSERVICE_STOPREPORTDATAQUEUE_OFFSET UNITYSDK_OFFSET(0x8DCF380)
-#define MIHOYO_SDK_THREADPOOLSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x8DCF200)
+#define MIHOYO_SDK_THREADPOOLSERVICE_GETCONCURRENTQUEUE_OFFSET UNITYSDK_OFFSET(0xA216BF0)
+#define MIHOYO_SDK_THREADPOOLSERVICE_GETQUEUE_OFFSET UNITYSDK_OFFSET(0xA21ABE0)
+#define MIHOYO_SDK_THREADPOOLSERVICE_GETREPORTDATAQUEUE_OFFSET UNITYSDK_OFFSET(0xA21A980)
+#define MIHOYO_SDK_THREADPOOLSERVICE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xA216B70)
+#define MIHOYO_SDK_THREADPOOLSERVICE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xA21A970)
+#define MIHOYO_SDK_THREADPOOLSERVICE_STOPREPORTDATAQUEUE_OFFSET UNITYSDK_OFFSET(0xA21AAA0)
+#define MIHOYO_SDK_THREADPOOLSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xA21A950)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThreadPoolService_TypeDefinitionIndex = 43099;
+	inline static constexpr unsigned int ThreadPoolService_TypeDefinitionIndex = 43902;
 
 	class ThreadPoolService : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::ThreadPoolService** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::ThreadPoolService**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolService_TypeDefinitionIndex)->GetStaticField(0x544C0);
+			return (::MiHoYo::SDK::ThreadPoolService**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolService_TypeDefinitionIndex)->GetStaticField(0x13EA0);
 		}
 		::MiHoYo::SDK::ThreadPoolQueue* m_reportDataQueue; // 0x10
 		::System::Object* m_lock; // 0x18
@@ -37,9 +37,9 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::ThreadPoolService*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLSERVICE_GET_INSTANCE_OFFSET))();
 		}
 
-		static ::System::Void set_Instance(::MiHoYo::SDK::ThreadPoolService* value)
+		static ::System::Void set_Instance(::MiHoYo::SDK::ThreadPoolService* a1)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::ThreadPoolService*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLSERVICE_SET_INSTANCE_OFFSET))(value);
+			return ((::System::Void(*)(::MiHoYo::SDK::ThreadPoolService*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLSERVICE_SET_INSTANCE_OFFSET))(a1);
 		}
 
 		::MiHoYo::SDK::ThreadPoolQueue* GetReportDataQueue()
@@ -52,14 +52,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLSERVICE_STOPREPORTDATAQUEUE_OFFSET))(this);
 		}
 
-		::MiHoYo::SDK::ThreadPoolQueue* GetQueue(::System::Boolean bIsTimingWakeup, ::System::Int32 nWakeupMillisec, ::System::String* strQueueName)
+		::MiHoYo::SDK::ThreadPoolQueue* GetQueue(::System::Boolean a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::MiHoYo::SDK::ThreadPoolQueue*(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLSERVICE_GETQUEUE_OFFSET))(this, bIsTimingWakeup, nWakeupMillisec, strQueueName);
+			return ((::MiHoYo::SDK::ThreadPoolQueue*(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLSERVICE_GETQUEUE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::MiHoYo::SDK::ThreadPoolQueue* GetConcurrentQueue(::System::Boolean bIsTimingWakeup, ::System::Int32 nWakeupMillisec, ::System::Int32 nCount, ::System::String* strQueueName, ::System::Boolean bIsAutoGrow)
+		::MiHoYo::SDK::ThreadPoolQueue* GetConcurrentQueue(::System::Boolean a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4, ::System::Boolean a5)
 		{
-			return ((::MiHoYo::SDK::ThreadPoolQueue*(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLSERVICE_GETCONCURRENTQUEUE_OFFSET))(this, bIsTimingWakeup, nWakeupMillisec, nCount, strQueueName, bIsAutoGrow);
+			return ((::MiHoYo::SDK::ThreadPoolQueue*(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADPOOLSERVICE_GETCONCURRENTQUEUE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

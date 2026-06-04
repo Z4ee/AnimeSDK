@@ -8,36 +8,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x175FA3B0)
-#define MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x175FA3F0)
-#define MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x175F02C0)
-#define MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x175FA390)
+#define MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x183D3440)
+#define MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x183D3480)
+#define MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x183C9DC0)
+#define MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x183D33C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_GetPsStoreProductsDelegate_TypeDefinitionIndex = 6780;
+	inline static constexpr unsigned int PSDelegate_GetPsStoreProductsDelegate_TypeDefinitionIndex = 7683;
 
 	class PSDelegate_GetPsStoreProductsDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Il2CppArray<::System::String*>* productLabels, ::MiHoYo::SDK::PSDelegate_ProductsCallback* callback)
+		::System::Void Invoke(::Il2CppArray<::System::String*>* a1, ::MiHoYo::SDK::PSDelegate_ProductsCallback* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::MiHoYo::SDK::PSDelegate_ProductsCallback*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_INVOKE_OFFSET))(this, productLabels, callback);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::MiHoYo::SDK::PSDelegate_ProductsCallback*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Il2CppArray<::System::String*>* productLabels, ::MiHoYo::SDK::PSDelegate_ProductsCallback* callback, ::System::AsyncCallback* __callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Il2CppArray<::System::String*>* a1, ::MiHoYo::SDK::PSDelegate_ProductsCallback* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::MiHoYo::SDK::PSDelegate_ProductsCallback*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_BEGININVOKE_OFFSET))(this, productLabels, callback, __callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::MiHoYo::SDK::PSDelegate_ProductsCallback*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETPSSTOREPRODUCTSDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices::Auth { class IdToken; }
 
-#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONS_GET_IDTOKEN_OFFSET UNITYSDK_OFFSET(0x8E2AAB0)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONS_SET_IDTOKEN_OFFSET UNITYSDK_OFFSET(0x8E2AAC0)
-#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E2AAD0)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONS_GET_IDTOKEN_OFFSET UNITYSDK_OFFSET(0xA2842E0)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONS_SET_IDTOKEN_OFFSET UNITYSDK_OFFSET(0xA2842F0)
+#define EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA284300)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int VerifyIdTokenOptions_TypeDefinitionIndex = 42413;
+	inline static constexpr unsigned int VerifyIdTokenOptions_TypeDefinitionIndex = 43216;
 
 	class VerifyIdTokenOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::Auth
 			return ((::Epic::OnlineServices::Auth::IdToken*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONS_GET_IDTOKEN_OFFSET))(this);
 		}
 
-		::System::Void set_IdToken(::Epic::OnlineServices::Auth::IdToken* value)
+		::System::Void set_IdToken(::Epic::OnlineServices::Auth::IdToken* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IdToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONS_SET_IDTOKEN_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::IdToken*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_AUTH_VERIFYIDTOKENOPTIONS_SET_IDTOKEN_OFFSET))(this, a1);
 		}
 	};
 }

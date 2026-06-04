@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::PingPong
 {
-	inline static constexpr unsigned int ProjectileOwnerType_TypeDefinitionIndex = 38851;
+	inline static constexpr unsigned int ProjectileOwnerType_TypeDefinitionIndex = 39619;
 
 	enum class ProjectileOwnerType : ::System::Int32
 	{

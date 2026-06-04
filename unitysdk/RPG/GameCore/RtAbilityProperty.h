@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAbilityProperty_TypeDefinitionIndex = 17138;
+	inline static constexpr unsigned int RtAbilityProperty_TypeDefinitionIndex = 17149;
 
 	enum class RtAbilityProperty : ::System::Int32
 	{

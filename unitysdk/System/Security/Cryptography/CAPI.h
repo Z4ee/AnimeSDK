@@ -5,8 +5,8 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFOKEYFROMNAME_OFFSET UNITYSDK_OFFSET(0x1A16D4D0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFONAMEFROMKEY_OFFSET UNITYSDK_OFFSET(0x1A16CE20)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFOKEYFROMNAME_OFFSET UNITYSDK_OFFSET(0x1AFD1540)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFONAMEFROMKEY_OFFSET UNITYSDK_OFFSET(0x1AFD0E90)
 
 namespace System::Security::Cryptography
 {
@@ -15,14 +15,14 @@ namespace System::Security::Cryptography
 	class CAPI : public ::System::Object
 	{
 	public:
-		static ::System::String* CryptFindOIDInfoNameFromKey(::System::String* key, ::System::Security::Cryptography::OidGroup oidGroup)
+		static ::System::String* CryptFindOIDInfoNameFromKey(::System::String* a1, ::System::Security::Cryptography::OidGroup a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Security::Cryptography::OidGroup))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFONAMEFROMKEY_OFFSET))(key, oidGroup);
+			return ((::System::String*(*)(::System::String*, ::System::Security::Cryptography::OidGroup))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFONAMEFROMKEY_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* CryptFindOIDInfoKeyFromName(::System::String* name, ::System::Security::Cryptography::OidGroup oidGroup)
+		static ::System::String* CryptFindOIDInfoKeyFromName(::System::String* a1, ::System::Security::Cryptography::OidGroup a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Security::Cryptography::OidGroup))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFOKEYFROMNAME_OFFSET))(name, oidGroup);
+			return ((::System::String*(*)(::System::String*, ::System::Security::Cryptography::OidGroup))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFOKEYFROMNAME_OFFSET))(a1, a2);
 		}
 	};
 }

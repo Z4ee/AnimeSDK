@@ -3,18 +3,18 @@
 #include "unitysdk/UnityEngine/Rendering/Vector4Parameter.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CUSTOMRP_TRACKBALLPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x181816C0)
+#define RPG_CUSTOMRP_TRACKBALLPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F274A0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int TrackBallParameter_TypeDefinitionIndex = 35168;
+	inline static constexpr unsigned int TrackBallParameter_TypeDefinitionIndex = 35468;
 
 	class TrackBallParameter : public ::UnityEngine::Rendering::Vector4Parameter
 	{
 	public:
-		::System::Void _ctor(::UnityEngine::Vector4 value, ::System::Boolean overrideState)
+		::System::Void _ctor(::UnityEngine::Vector4 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_TRACKBALLPARAMETER__CTOR_OFFSET))(this, value, overrideState);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_TRACKBALLPARAMETER__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

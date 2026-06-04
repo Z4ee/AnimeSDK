@@ -4,15 +4,15 @@
 
 namespace XLua { class ObjectTranslator; }
 
-#define XLUA_OBJECTTRANSLATORPOOL_ADD_OFFSET UNITYSDK_OFFSET(0x11699220)
-#define XLUA_OBJECTTRANSLATORPOOL_FIND_OFFSET UNITYSDK_OFFSET(0x11699230)
-#define XLUA_OBJECTTRANSLATORPOOL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x116991D0)
-#define XLUA_OBJECTTRANSLATORPOOL_REMOVE_OFFSET UNITYSDK_OFFSET(0x11699240)
-#define XLUA_OBJECTTRANSLATORPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x11699210)
+#define XLUA_OBJECTTRANSLATORPOOL_ADD_OFFSET UNITYSDK_OFFSET(0x1331D320)
+#define XLUA_OBJECTTRANSLATORPOOL_FIND_OFFSET UNITYSDK_OFFSET(0x1331D330)
+#define XLUA_OBJECTTRANSLATORPOOL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1331D2D0)
+#define XLUA_OBJECTTRANSLATORPOOL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1331D340)
+#define XLUA_OBJECTTRANSLATORPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1331D310)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectTranslatorPool_TypeDefinitionIndex = 46445;
+	inline static constexpr unsigned int ObjectTranslatorPool_TypeDefinitionIndex = 47035;
 
 	class ObjectTranslatorPool : public ::System::Object
 	{
@@ -29,19 +29,19 @@ namespace XLua
 			return ((::XLua::ObjectTranslatorPool*(*)())((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATORPOOL_GET_INSTANCE_OFFSET))();
 		}
 
-		::System::Void Add(::System::IntPtr L, ::XLua::ObjectTranslator* translator)
+		::System::Void Add(::System::IntPtr a1, ::XLua::ObjectTranslator* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATORPOOL_ADD_OFFSET))(this, L, translator);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATORPOOL_ADD_OFFSET))(this, a1, a2);
 		}
 
-		::XLua::ObjectTranslator* Find(::System::IntPtr L)
+		::XLua::ObjectTranslator* Find(::System::IntPtr a1)
 		{
-			return ((::XLua::ObjectTranslator*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATORPOOL_FIND_OFFSET))(this, L);
+			return ((::XLua::ObjectTranslator*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATORPOOL_FIND_OFFSET))(this, a1);
 		}
 
-		::System::Void Remove(::System::IntPtr L)
+		::System::Void Remove(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATORPOOL_REMOVE_OFFSET))(this, L);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATORPOOL_REMOVE_OFFSET))(this, a1);
 		}
 	};
 }

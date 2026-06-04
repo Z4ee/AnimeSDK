@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A4F3350)
-#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A4F3390)
-#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F3330)
+#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B3401D0)
+#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B340210)
+#define UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3401B0)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int FreeFunctionAttribute_TypeDefinitionIndex = 3712;
+	inline static constexpr unsigned int FreeFunctionAttribute_TypeDefinitionIndex = 3719;
 
 	class FreeFunctionAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute
 	{
@@ -20,14 +20,14 @@ namespace UnityEngine::Bindings
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* name)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_1_OFFSET))(this, name);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* name, ::System::Boolean isThreadSafe)
+		::System::Void _ctor_2(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_2_OFFSET))(this, name, isThreadSafe);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_FREEFUNCTIONATTRIBUTE__CTOR_2_OFFSET))(this, a1, a2);
 		}
 	};
 }

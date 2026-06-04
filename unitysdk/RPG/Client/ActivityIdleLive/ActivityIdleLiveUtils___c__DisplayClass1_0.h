@@ -5,12 +5,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B21550)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__DISPLAYCLASS1_0__GETSOLTDATABYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x9B21560)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB104180)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__DISPLAYCLASS1_0__GETSOLTDATABYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xB106F30)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int ActivityIdleLiveUtils___c__DisplayClass1_0_TypeDefinitionIndex = 69126;
+	inline static constexpr unsigned int ActivityIdleLiveUtils___c__DisplayClass1_0_TypeDefinitionIndex = 69938;
 
 	class ActivityIdleLiveUtils___c__DisplayClass1_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetSoltDataByType_b__0(::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* slot)
+		::System::Boolean _GetSoltDataByType_b__0(::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__DISPLAYCLASS1_0__GETSOLTDATABYTYPE_B__0_OFFSET))(this, slot);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__DISPLAYCLASS1_0__GETSOLTDATABYTYPE_B__0_OFFSET))(this, a1);
 		}
 	};
 }

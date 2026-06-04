@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLECUSTOMACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A9AEA0)
-#define RPG_GAMECORE_MARBLECUSTOMACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A9B030)
+#define RPG_GAMECORE_MARBLECUSTOMACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198CDFD0)
+#define RPG_GAMECORE_MARBLECUSTOMACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198CE150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleCustomActionRow_TypeDefinitionIndex = 11333;
+	inline static constexpr unsigned int MarbleCustomActionRow_TypeDefinitionIndex = 11380;
 
 	class MarbleCustomActionRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLECUSTOMACTIONROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::MarbleCustomActionRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleCustomActionRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleCustomActionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLECUSTOMACTIONROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleCustomActionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLECUSTOMACTIONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

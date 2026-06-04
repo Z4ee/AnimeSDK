@@ -10,30 +10,30 @@ namespace System::Collections { class IList; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_SERIALISATIONHELPERS_READLIST_OFFSET UNITYSDK_OFFSET(0x8C18D80)
-#define HDG_SERIALISATIONHELPERS_READPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0x8C18E80)
-#define HDG_SERIALISATIONHELPERS_READPRIMITIVELIST_OFFSET UNITYSDK_OFFSET(0x8C1B570)
-#define HDG_SERIALISATIONHELPERS_READPRIMITIVES_OFFSET UNITYSDK_OFFSET(0x8C19370)
-#define HDG_SERIALISATIONHELPERS_READPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x8C1B940)
-#define HDG_SERIALISATIONHELPERS_READSERIALISERARRAY_OFFSET UNITYSDK_OFFSET(0x8C18F70)
-#define HDG_SERIALISATIONHELPERS_READUSERSTRUCTARRAY_OFFSET UNITYSDK_OFFSET(0x8C19260)
-#define HDG_SERIALISATIONHELPERS_WRITELIST_OFFSET UNITYSDK_OFFSET(0x8C16630)
-#define HDG_SERIALISATIONHELPERS_WRITEPRIMITIVELIST_OFFSET UNITYSDK_OFFSET(0x8C16870)
-#define HDG_SERIALISATIONHELPERS_WRITEPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x8C185D0)
-#define HDG_SERIALISATIONHELPERS_WRITESERIALISERLIST_OFFSET UNITYSDK_OFFSET(0x8C17B00)
-#define HDG_SERIALISATIONHELPERS_WRITEUSERSTRUCTLIST_OFFSET UNITYSDK_OFFSET(0x8C17E50)
-#define HDG_SERIALISATIONHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x8C1BBC0)
+#define HDG_SERIALISATIONHELPERS_READLIST_OFFSET UNITYSDK_OFFSET(0xA120160)
+#define HDG_SERIALISATIONHELPERS_READPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0xA120260)
+#define HDG_SERIALISATIONHELPERS_READPRIMITIVELIST_OFFSET UNITYSDK_OFFSET(0xA122A40)
+#define HDG_SERIALISATIONHELPERS_READPRIMITIVES_OFFSET UNITYSDK_OFFSET(0xA120760)
+#define HDG_SERIALISATIONHELPERS_READPRIMITIVE_OFFSET UNITYSDK_OFFSET(0xA122E30)
+#define HDG_SERIALISATIONHELPERS_READSERIALISERARRAY_OFFSET UNITYSDK_OFFSET(0xA120340)
+#define HDG_SERIALISATIONHELPERS_READUSERSTRUCTARRAY_OFFSET UNITYSDK_OFFSET(0xA120660)
+#define HDG_SERIALISATIONHELPERS_WRITELIST_OFFSET UNITYSDK_OFFSET(0xA11DA70)
+#define HDG_SERIALISATIONHELPERS_WRITEPRIMITIVELIST_OFFSET UNITYSDK_OFFSET(0xA11DCB0)
+#define HDG_SERIALISATIONHELPERS_WRITEPRIMITIVE_OFFSET UNITYSDK_OFFSET(0xA11F9F0)
+#define HDG_SERIALISATIONHELPERS_WRITESERIALISERLIST_OFFSET UNITYSDK_OFFSET(0xA11EF70)
+#define HDG_SERIALISATIONHELPERS_WRITEUSERSTRUCTLIST_OFFSET UNITYSDK_OFFSET(0xA11F2E0)
+#define HDG_SERIALISATIONHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0xA1230B0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int SerialisationHelpers_TypeDefinitionIndex = 43754;
+	inline static constexpr unsigned int SerialisationHelpers_TypeDefinitionIndex = 44296;
 
 	class SerialisationHelpers : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Type*>** StaticGet_PrimitiveTypes()
 		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(SerialisationHelpers_TypeDefinitionIndex)->GetStaticField(0x3CBC0);
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(SerialisationHelpers_TypeDefinitionIndex)->GetStaticField(0x9320);
 		}
 
 		static ::System::Void _cctor()
@@ -41,64 +41,64 @@ namespace Hdg
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void WriteList(::System::IO::BinaryWriter* bw, ::System::Collections::IList* list, ::Hdg::SerialisationHelpers_ArrayElementType type)
+		static ::System::Void WriteList(::System::IO::BinaryWriter* a1, ::System::Collections::IList* a2, ::Hdg::SerialisationHelpers_ArrayElementType a3)
 		{
-			return ((::System::Void(*)(::System::IO::BinaryWriter*, ::System::Collections::IList*, ::Hdg::SerialisationHelpers_ArrayElementType))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_WRITELIST_OFFSET))(bw, list, type);
+			return ((::System::Void(*)(::System::IO::BinaryWriter*, ::System::Collections::IList*, ::Hdg::SerialisationHelpers_ArrayElementType))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_WRITELIST_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void WritePrimitiveList(::System::IO::BinaryWriter* bw, ::System::Collections::IList* array)
+		static ::System::Void WritePrimitiveList(::System::IO::BinaryWriter* a1, ::System::Collections::IList* a2)
 		{
-			return ((::System::Void(*)(::System::IO::BinaryWriter*, ::System::Collections::IList*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_WRITEPRIMITIVELIST_OFFSET))(bw, array);
+			return ((::System::Void(*)(::System::IO::BinaryWriter*, ::System::Collections::IList*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_WRITEPRIMITIVELIST_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void WriteSerialiserList(::System::IO::BinaryWriter* bw, ::System::Collections::IList* array)
+		static ::System::Void WriteSerialiserList(::System::IO::BinaryWriter* a1, ::System::Collections::IList* a2)
 		{
-			return ((::System::Void(*)(::System::IO::BinaryWriter*, ::System::Collections::IList*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_WRITESERIALISERLIST_OFFSET))(bw, array);
+			return ((::System::Void(*)(::System::IO::BinaryWriter*, ::System::Collections::IList*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_WRITESERIALISERLIST_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void WriteUserStructList(::System::IO::BinaryWriter* bw, ::System::Collections::IList* array)
+		static ::System::Void WriteUserStructList(::System::IO::BinaryWriter* a1, ::System::Collections::IList* a2)
 		{
-			return ((::System::Void(*)(::System::IO::BinaryWriter*, ::System::Collections::IList*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_WRITEUSERSTRUCTLIST_OFFSET))(bw, array);
+			return ((::System::Void(*)(::System::IO::BinaryWriter*, ::System::Collections::IList*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_WRITEUSERSTRUCTLIST_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void WritePrimitive(::System::IO::BinaryWriter* bw, ::System::Object* value)
+		static ::System::Void WritePrimitive(::System::IO::BinaryWriter* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::System::IO::BinaryWriter*, ::System::Object*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_WRITEPRIMITIVE_OFFSET))(bw, value);
+			return ((::System::Void(*)(::System::IO::BinaryWriter*, ::System::Object*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_WRITEPRIMITIVE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReadList(::System::IO::BinaryReader* br, ::System::Collections::IList*& list, ::Hdg::SerialisationHelpers_ArrayElementType& type)
+		static ::System::Void ReadList(::System::IO::BinaryReader* a1, ::System::Collections::IList*& a2, ::Hdg::SerialisationHelpers_ArrayElementType& a3)
 		{
-			return ((::System::Void(*)(::System::IO::BinaryReader*, ::System::Collections::IList*&, ::Hdg::SerialisationHelpers_ArrayElementType&))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READLIST_OFFSET))(br, list, type);
+			return ((::System::Void(*)(::System::IO::BinaryReader*, ::System::Collections::IList*&, ::Hdg::SerialisationHelpers_ArrayElementType&))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READLIST_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Array* ReadPrimitiveArray(::System::IO::BinaryReader* r, ::System::Int32 count)
+		static ::System::Array* ReadPrimitiveArray(::System::IO::BinaryReader* a1, ::System::Int32 a2)
 		{
-			return ((::System::Array*(*)(::System::IO::BinaryReader*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READPRIMITIVEARRAY_OFFSET))(r, count);
+			return ((::System::Array*(*)(::System::IO::BinaryReader*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READPRIMITIVEARRAY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::IList* ReadPrimitiveList(::System::IO::BinaryReader* r)
+		static ::System::Collections::IList* ReadPrimitiveList(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Collections::IList*(*)(::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READPRIMITIVELIST_OFFSET))(r);
+			return ((::System::Collections::IList*(*)(::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READPRIMITIVELIST_OFFSET))(a1);
 		}
 
-		static ::System::Collections::IList* ReadSerialiserArray(::System::IO::BinaryReader* br, ::System::Int32 count)
+		static ::System::Collections::IList* ReadSerialiserArray(::System::IO::BinaryReader* a1, ::System::Int32 a2)
 		{
-			return ((::System::Collections::IList*(*)(::System::IO::BinaryReader*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READSERIALISERARRAY_OFFSET))(br, count);
+			return ((::System::Collections::IList*(*)(::System::IO::BinaryReader*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READSERIALISERARRAY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::IList* ReadUserStructArray(::System::IO::BinaryReader* br, ::System::Int32 count)
+		static ::System::Collections::IList* ReadUserStructArray(::System::IO::BinaryReader* a1, ::System::Int32 a2)
 		{
-			return ((::System::Collections::IList*(*)(::System::IO::BinaryReader*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READUSERSTRUCTARRAY_OFFSET))(br, count);
+			return ((::System::Collections::IList*(*)(::System::IO::BinaryReader*, ::System::Int32))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READUSERSTRUCTARRAY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReadPrimitives(::System::IO::BinaryReader* r, ::System::Collections::IList* array, ::System::Int32 count, ::Hdg::SerialisationHelpers_PrimitiveType primitiveType)
+		static ::System::Void ReadPrimitives(::System::IO::BinaryReader* a1, ::System::Collections::IList* a2, ::System::Int32 a3, ::Hdg::SerialisationHelpers_PrimitiveType a4)
 		{
-			return ((::System::Void(*)(::System::IO::BinaryReader*, ::System::Collections::IList*, ::System::Int32, ::Hdg::SerialisationHelpers_PrimitiveType))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READPRIMITIVES_OFFSET))(r, array, count, primitiveType);
+			return ((::System::Void(*)(::System::IO::BinaryReader*, ::System::Collections::IList*, ::System::Int32, ::Hdg::SerialisationHelpers_PrimitiveType))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READPRIMITIVES_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Object* ReadPrimitive(::System::IO::BinaryReader* r)
+		static ::System::Object* ReadPrimitive(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Object*(*)(::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READPRIMITIVE_OFFSET))(r);
+			return ((::System::Object*(*)(::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READPRIMITIVE_OFFSET))(a1);
 		}
 	};
 }

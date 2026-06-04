@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_UTILITIES_VALIDATIONUTILS_ARGUMENTNOTNULL_OFFSET UNITYSDK_OFFSET(0x17ACE790)
+#define NEWTONSOFT_JSON_UTILITIES_VALIDATIONUTILS_ARGUMENTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1887D1B0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ValidationUtils_TypeDefinitionIndex = 8434;
+	inline static constexpr unsigned int ValidationUtils_TypeDefinitionIndex = 9337;
 
 	class ValidationUtils : public ::System::Object
 	{
 	public:
-		static ::System::Void ArgumentNotNull(::System::Object* value, ::System::String* parameterName)
+		static ::System::Void ArgumentNotNull(::System::Object* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_VALIDATIONUTILS_ARGUMENTNOTNULL_OFFSET))(value, parameterName);
+			return ((::System::Void(*)(::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_VALIDATIONUTILS_ARGUMENTNOTNULL_OFFSET))(a1, a2);
 		}
 	};
 }

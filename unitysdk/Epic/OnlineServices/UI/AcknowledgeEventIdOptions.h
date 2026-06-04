@@ -3,21 +3,21 @@
 #include "unitysdk/Epic/OnlineServices/Result.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_GET_RESULT_OFFSET UNITYSDK_OFFSET(0x8BF23F0)
-#define EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_GET_UIEVENTID_OFFSET UNITYSDK_OFFSET(0x8BF23D0)
-#define EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_SET_RESULT_OFFSET UNITYSDK_OFFSET(0x8BF2400)
-#define EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_SET_UIEVENTID_OFFSET UNITYSDK_OFFSET(0x8BF23E0)
-#define EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8BF2410)
+#define EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_GET_RESULT_OFFSET UNITYSDK_OFFSET(0xA100D40)
+#define EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_GET_UIEVENTID_OFFSET UNITYSDK_OFFSET(0xA100D20)
+#define EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_SET_RESULT_OFFSET UNITYSDK_OFFSET(0xA100D50)
+#define EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_SET_UIEVENTID_OFFSET UNITYSDK_OFFSET(0xA100D30)
+#define EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA100D60)
 
 namespace Epic::OnlineServices::UI
 {
-	inline static constexpr unsigned int AcknowledgeEventIdOptions_TypeDefinitionIndex = 41125;
+	inline static constexpr unsigned int AcknowledgeEventIdOptions_TypeDefinitionIndex = 41928;
 
 	class AcknowledgeEventIdOptions : public ::System::Object
 	{
 	public:
-		::Epic::OnlineServices::Result _Result_k__BackingField; // 0x10
-		::System::UInt64 _UiEventId_k__BackingField; // 0x18
+		::System::UInt64 _UiEventId_k__BackingField; // 0x10
+		::Epic::OnlineServices::Result _Result_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -29,9 +29,9 @@ namespace Epic::OnlineServices::UI
 			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_GET_UIEVENTID_OFFSET))(this);
 		}
 
-		::System::Void set_UiEventId(::System::UInt64 value)
+		::System::Void set_UiEventId(::System::UInt64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_SET_UIEVENTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_SET_UIEVENTID_OFFSET))(this, a1);
 		}
 
 		::Epic::OnlineServices::Result get_Result()
@@ -39,9 +39,9 @@ namespace Epic::OnlineServices::UI
 			return ((::Epic::OnlineServices::Result(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_GET_RESULT_OFFSET))(this);
 		}
 
-		::System::Void set_Result(::Epic::OnlineServices::Result value)
+		::System::Void set_Result(::Epic::OnlineServices::Result a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_SET_RESULT_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Result))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_UI_ACKNOWLEDGEEVENTIDOPTIONS_SET_RESULT_OFFSET))(this, a1);
 		}
 	};
 }

@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6CB380)
-#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6CB330)
-#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_GET_SCEPTER_OFFSET UNITYSDK_OFFSET(0xB6CB3D0)
-#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_INIT_OFFSET UNITYSDK_OFFSET(0xB6CB2E0)
-#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_SET_SCEPTER_OFFSET UNITYSDK_OFFSET(0xB6CB3E0)
-#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xB6CB3F0)
+#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE39750)
+#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE39700)
+#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_GET_SCEPTER_OFFSET UNITYSDK_OFFSET(0xCE397A0)
+#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_INIT_OFFSET UNITYSDK_OFFSET(0xCE396B0)
+#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_SET_SCEPTER_OFFSET UNITYSDK_OFFSET(0xCE397B0)
+#define RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xCE397C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBeforeScepterTrigger_TypeDefinitionIndex = 52378;
+	inline static constexpr unsigned int LevelBeforeScepterTrigger_TypeDefinitionIndex = 53075;
 
-	class LevelBeforeScepterTrigger : public ::Class_1_9988289E7F8AA214
+	class LevelBeforeScepterTrigger : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::GameEntity* _Scepter_k__BackingField; // 0x18
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelBeforeScepterTrigger* Init(::RPG::GameCore::GameEntity* pScepter)
+		::RPG::GameCore::LevelBeforeScepterTrigger* Init(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::GameCore::LevelBeforeScepterTrigger*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_INIT_OFFSET))(this, pScepter);
+			return ((::RPG::GameCore::LevelBeforeScepterTrigger*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -46,9 +46,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_GET_SCEPTER_OFFSET))(this);
 		}
 
-		::System::Void set_Scepter(::RPG::GameCore::GameEntity* value)
+		::System::Void set_Scepter(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_SET_SCEPTER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFORESCEPTERTRIGGER_SET_SCEPTER_OFFSET))(this, a1);
 		}
 	};
 }

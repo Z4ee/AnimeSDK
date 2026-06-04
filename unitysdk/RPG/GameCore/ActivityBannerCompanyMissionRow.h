@@ -6,36 +6,36 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18604660)
-#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18604F80)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193D5160)
+#define RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193D5A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityBannerCompanyMissionRow_TypeDefinitionIndex = 10497;
+	inline static constexpr unsigned int ActivityBannerCompanyMissionRow_TypeDefinitionIndex = 10537;
 
 	class ActivityBannerCompanyMissionRow : public ::System::Object
 	{
 	public:
-		::System::String* MainImagePath; // 0x10
-		::System::String* SubImagePath; // 0x18
+		::System::String* SubImagePath; // 0x10
+		::Il2CppArray<::System::UInt32>* AvatarIDList; // 0x18
 		::Il2CppArray<::System::UInt32>* UnlockMissionList; // 0x20
-		::Il2CppArray<::System::UInt32>* AvatarIDList; // 0x28
+		::System::String* MainImagePath; // 0x28
 		::Il2CppArray<::System::UInt32>* MainMissionIDList; // 0x30
 		::RPG::Client::TextID Title; // 0x38
-		::System::UInt32 BannerID; // 0x48
-		::RPG::Client::TextID SubTitle; // 0x50
+		::RPG::Client::TextID SubTitle; // 0x48
+		::System::UInt32 SortID; // 0x58
 		::RPG::Client::TextID ShortDesc; // 0x60
 		::System::UInt32 ActivityModuleID; // 0x70
-		::System::UInt32 SortID; // 0x74
+		::System::UInt32 BannerID; // 0x74
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONROW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::ActivityBannerCompanyMissionRow*& val)
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityBannerCompanyMissionRow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityBannerCompanyMissionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONROW_FROMBINARY_OFFSET))(array, val);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityBannerCompanyMissionRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYBANNERCOMPANYMISSIONROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 	};
 }

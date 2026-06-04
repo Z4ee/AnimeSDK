@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnumShoesType_TypeDefinitionIndex = 23594;
+	inline static constexpr unsigned int EnumShoesType_TypeDefinitionIndex = 10396;
 
 	enum class EnumShoesType : ::System::Int32
 	{

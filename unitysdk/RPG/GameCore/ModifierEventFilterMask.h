@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierEventFilterMask_TypeDefinitionIndex = 10308;
+	inline static constexpr unsigned int ModifierEventFilterMask_TypeDefinitionIndex = 10139;
 
 	enum class ModifierEventFilterMask : ::System::UInt16
 	{

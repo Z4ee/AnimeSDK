@@ -6,11 +6,11 @@ namespace System { template <typename T> class WeakReference_1; }
 namespace UnityEngine { class Font; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_FONTTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1A594140)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_FONTTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E0060)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_FontTex_TypeDefinitionIndex = 5703;
+	inline static constexpr unsigned int RuntimeAtlasManager_FontTex_TypeDefinitionIndex = 5980;
 
 	class RuntimeAtlasManager_FontTex : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace UnityEngine::UI
 		::System::WeakReference_1<::UnityEngine::Font*>* font; // 0x10
 		::UnityEngine::Texture* fontTex; // 0x18
 
-		::System::Void _ctor(::UnityEngine::Font* f, ::UnityEngine::Texture* t)
+		::System::Void _ctor(::UnityEngine::Font* a1, ::UnityEngine::Texture* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Font*, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_FONTTEX__CTOR_OFFSET))(this, f, t);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Font*, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_FONTTEX__CTOR_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -7,38 +7,38 @@
 
 namespace System { class String; }
 
-#define CLASS_1_F82D36BF01AB5FC4_METHOD_1_23841F75B879070A_OFFSET UNITYSDK_OFFSET(0x17C2AA60)
-#define CLASS_1_F82D36BF01AB5FC4_METHOD_1_664222BCF379D634_OFFSET UNITYSDK_OFFSET(0x17C2A810)
-#define CLASS_1_F82D36BF01AB5FC4_METHOD_1_872ABC1141BB983D_OFFSET UNITYSDK_OFFSET(0x17C2A900)
-#define CLASS_1_F82D36BF01AB5FC4_METHOD_1_A48996EAFBC0AF59_OFFSET UNITYSDK_OFFSET(0x17C2A880)
-#define CLASS_1_F82D36BF01AB5FC4_METHOD_1_DEE90D3447555A55_OFFSET UNITYSDK_OFFSET(0x17C2A9B0)
-#define CLASS_1_F82D36BF01AB5FC4__CCTOR_OFFSET UNITYSDK_OFFSET(0x17C2AB30)
-#define CLASS_1_F82D36BF01AB5FC4__CTOR_OFFSET UNITYSDK_OFFSET(0x17C2AB20)
+#define CLASS_1_F82D36BF01AB5FC4_METHOD_1_23841F75B879070A_OFFSET UNITYSDK_OFFSET(0x18987A20)
+#define CLASS_1_F82D36BF01AB5FC4_METHOD_1_664222BCF379D634_OFFSET UNITYSDK_OFFSET(0x189877D0)
+#define CLASS_1_F82D36BF01AB5FC4_METHOD_1_872ABC1141BB983D_OFFSET UNITYSDK_OFFSET(0x189878C0)
+#define CLASS_1_F82D36BF01AB5FC4_METHOD_1_A48996EAFBC0AF59_OFFSET UNITYSDK_OFFSET(0x18987840)
+#define CLASS_1_F82D36BF01AB5FC4_METHOD_1_DEE90D3447555A55_OFFSET UNITYSDK_OFFSET(0x18987970)
+#define CLASS_1_F82D36BF01AB5FC4__CCTOR_OFFSET UNITYSDK_OFFSET(0x18987AF0)
+#define CLASS_1_F82D36BF01AB5FC4__CTOR_OFFSET UNITYSDK_OFFSET(0x18987AE0)
 
-inline static constexpr unsigned int Class_1_F82D36BF01AB5FC4_TypeDefinitionIndex = 34505;
+inline static constexpr unsigned int Class_1_F82D36BF01AB5FC4_TypeDefinitionIndex = 34788;
 
 class Class_1_F82D36BF01AB5FC4 : public ::System::Object
 {
 public:
-	static ::System::Guid* StaticGet_Field_1_8()
+	static ::RPG::MVector3* StaticGet_Field_1_0()
 	{
-		return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F82D36BF01AB5FC4_TypeDefinitionIndex)->GetStaticField(0x119B0);
+		return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F82D36BF01AB5FC4_TypeDefinitionIndex)->GetStaticField(0xFB00);
 	}
-	static ::RPG::MVector3* StaticGet_Field_1_7()
+	static ::System::Guid* StaticGet_Field_1_1()
 	{
-		return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F82D36BF01AB5FC4_TypeDefinitionIndex)->GetStaticField(0x119C0);
+		return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F82D36BF01AB5FC4_TypeDefinitionIndex)->GetStaticField(0xFB0C);
 	}
-	static ::System::Single* StaticGet_Field_1_9()
+	static ::System::Single* StaticGet_Field_1_2()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F82D36BF01AB5FC4_TypeDefinitionIndex)->GetStaticField(0x119CC);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F82D36BF01AB5FC4_TypeDefinitionIndex)->GetStaticField(0xFB1C);
 	}
-	// static const ::System::Single Field_1_0; // 0x0
-	// static const ::System::Single Field_1_1; // 0x0
-	// static const ::System::Single Field_1_2; // 0x0
-	// static const ::System::Int32 Field_1_3 = 0xFFFFFFFF; // 0x0
-	// static const ::System::UInt32 Field_1_4 = 0x0; // 0x0
-	// static const ::System::UInt32 Field_1_5 = 0x0; // 0x0
-	// static const ::System::UInt32 Field_1_6 = 0xFFFFFFFF; // 0x0
+	// static const ::System::Single Field_1_3; // 0x0
+	// static const ::System::Single Field_1_4; // 0x0
+	// static const ::System::Single Field_1_5; // 0x0
+	// static const ::System::Int32 Field_1_6 = 0xFFFFFFFF; // 0x0
+	// static const ::System::UInt32 Field_1_7 = 0x0; // 0x0
+	// static const ::System::UInt32 Field_1_8 = 0x0; // 0x0
+	// static const ::System::UInt32 Field_1_9 = 0xFFFFFFFF; // 0x0
 	// static const ::System::UInt32 Field_1_10 = 0x0; // 0x0
 
 	::System::Void _ctor()

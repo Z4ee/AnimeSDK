@@ -8,36 +8,36 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x17519F70)
-#define MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x17519FB0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x175199F0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x175199D0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18309BC0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18309C00)
+#define MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18309BB0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18309B30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_ResolvePrivilegeDelegate_TypeDefinitionIndex = 6671;
+	inline static constexpr unsigned int ConsoleDelegate_ResolvePrivilegeDelegate_TypeDefinitionIndex = 7574;
 
 	class ConsoleDelegate_ResolvePrivilegeDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::String* strPrivilege, ::System::Action_1<::System::String*>* callback)
+		::System::Void Invoke(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_INVOKE_OFFSET))(this, strPrivilege, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::String* strPrivilege, ::System::Action_1<::System::String*>* callback, ::System::AsyncCallback* __callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::System::String* a1, ::System::Action_1<::System::String*>* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_BEGININVOKE_OFFSET))(this, strPrivilege, callback, __callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_RESOLVEPRIVILEGEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,7 +5,7 @@ namespace System::Collections { class IDictionaryEnumerator; }
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int IResourceReader_TypeDefinitionIndex = 517;
+	inline static constexpr unsigned int IResourceReader_TypeDefinitionIndex = 516;
 
 	class IResourceReader
 	{

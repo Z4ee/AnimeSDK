@@ -9,18 +9,18 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Reflection { class CustomAttributeData; }
 namespace System::Reflection { class Module; }
 
-#define SYSTEM_REFLECTION_MEMBERINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x179A2080)
-#define SYSTEM_REFLECTION_MEMBERINFO_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x179A1F60)
-#define SYSTEM_REFLECTION_MEMBERINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x179A03F0)
-#define SYSTEM_REFLECTION_MEMBERINFO_GET_METADATATOKEN_OFFSET UNITYSDK_OFFSET(0x179A1FB0)
-#define SYSTEM_REFLECTION_MEMBERINFO_GET_MODULE_OFFSET UNITYSDK_OFFSET(0x179A1FC0)
-#define SYSTEM_REFLECTION_MEMBERINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x17999590)
-#define SYSTEM_REFLECTION_MEMBERINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x179A2070)
-#define SYSTEM_REFLECTION_MEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x179A03C0)
+#define SYSTEM_REFLECTION_MEMBERINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x187544D0)
+#define SYSTEM_REFLECTION_MEMBERINFO_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x187543A0)
+#define SYSTEM_REFLECTION_MEMBERINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18753270)
+#define SYSTEM_REFLECTION_MEMBERINFO_GET_METADATATOKEN_OFFSET UNITYSDK_OFFSET(0x187543F0)
+#define SYSTEM_REFLECTION_MEMBERINFO_GET_MODULE_OFFSET UNITYSDK_OFFSET(0x18754400)
+#define SYSTEM_REFLECTION_MEMBERINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1874D270)
+#define SYSTEM_REFLECTION_MEMBERINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x187544C0)
+#define SYSTEM_REFLECTION_MEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18753240)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MemberInfo_TypeDefinitionIndex = 571;
+	inline static constexpr unsigned int MemberInfo_TypeDefinitionIndex = 570;
 
 	class MemberInfo : public ::System::Object
 	{
@@ -45,19 +45,19 @@ namespace System::Reflection
 			return ((::System::Reflection::Module*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_GET_MODULE_OFFSET))(this);
 		}
 
-		static ::System::Boolean op_Equality(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right)
+		static ::System::Boolean op_Equality(::System::Reflection::MemberInfo* a1, ::System::Reflection::MemberInfo* a2)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_OP_EQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_OP_EQUALITY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean op_Inequality(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right)
+		static ::System::Boolean op_Inequality(::System::Reflection::MemberInfo* a1, ::System::Reflection::MemberInfo* a2)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_OP_INEQUALITY_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* obj)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_EQUALS_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_EQUALS_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()

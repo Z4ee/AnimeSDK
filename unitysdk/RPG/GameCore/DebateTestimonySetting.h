@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DebateSpecialItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEBATETESTIMONYSETTING_METHOD_2_609440819C886D2D_OFFSET UNITYSDK_OFFSET(0x18854220)
-#define RPG_GAMECORE_DEBATETESTIMONYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x18854690)
+#define RPG_GAMECORE_DEBATETESTIMONYSETTING_METHOD_2_F045629A29354653_OFFSET UNITYSDK_OFFSET(0x19693370)
+#define RPG_GAMECORE_DEBATETESTIMONYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x196937E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DebateTestimonySetting_TypeDefinitionIndex = 20782;
+	inline static constexpr unsigned int DebateTestimonySetting_TypeDefinitionIndex = 20708;
 
 	class DebateTestimonySetting : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATETESTIMONYSETTING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_609440819C886D2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DebateTestimonySetting*& a2)
+		static ::System::Void Method_2_F045629A29354653(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DebateTestimonySetting*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DebateTestimonySetting*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATETESTIMONYSETTING_METHOD_2_609440819C886D2D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DebateTestimonySetting*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATETESTIMONYSETTING_METHOD_2_F045629A29354653_OFFSET))(a1, a2);
 		}
 	};
 }

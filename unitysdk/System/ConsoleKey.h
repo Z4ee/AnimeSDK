@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int ConsoleKey_TypeDefinitionIndex = 216;
+	inline static constexpr unsigned int ConsoleKey_TypeDefinitionIndex = 215;
 
 	enum class ConsoleKey : ::System::Int32
 	{

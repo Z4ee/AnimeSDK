@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/CakeRaceMsgId.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_184__CTOR_OFFSET UNITYSDK_OFFSET(0xB79B410)
+#define CLASS_1_43BD383C98B4C0C5_184__CTOR_OFFSET UNITYSDK_OFFSET(0xB29A6B0)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_184_TypeDefinitionIndex = 71549;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_184_TypeDefinitionIndex = 70634;
 
 class Class_1_43BD383C98B4C0C5_184 : public ::System::Object
 {

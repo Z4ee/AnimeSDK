@@ -5,11 +5,11 @@
 namespace RPGTools::Timeline::CharacterStoryMove { class NPCStoryMoveSequence; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVE_NPCSTORYMOVESEQUENCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B1270)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVE_NPCSTORYMOVESEQUENCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF4070)
 
 namespace RPGTools::Timeline::CharacterStoryMove
 {
-	inline static constexpr unsigned int NPCStoryMoveSequenceConfig_TypeDefinitionIndex = 45401;
+	inline static constexpr unsigned int NPCStoryMoveSequenceConfig_TypeDefinitionIndex = 45984;
 
 	class NPCStoryMoveSequenceConfig : public ::UnityEngine::ScriptableObject
 	{

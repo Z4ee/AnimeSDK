@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETPOLICY_OFFSET UNITYSDK_OFFSET(0x1752B060)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1752AFE0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1752D260)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETPOLICY_OFFSET UNITYSDK_OFFSET(0x18313990)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18313910)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x18315C90)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateRegionPolicyProvider_TypeDefinitionIndex = 7307;
+	inline static constexpr unsigned int AgeGateRegionPolicyProvider_TypeDefinitionIndex = 8210;
 
 	class AgeGateRegionPolicyProvider : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider_TypeDefinitionIndex)->GetStaticField(0x18670);
+			return (::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider_TypeDefinitionIndex)->GetStaticField(0x13990);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>*>* m_dicPolicyFactories; // 0x10
 
@@ -34,9 +34,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GET_INSTANCE_OFFSET))();
 		}
 
-		::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy* GetPolicy(::System::String* strRegion)
+		::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy* GetPolicy(::System::String* a1)
 		{
-			return ((::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETPOLICY_OFFSET))(this, strRegion);
+			return ((::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETPOLICY_OFFSET))(this, a1);
 		}
 	};
 }

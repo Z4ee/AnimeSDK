@@ -7,36 +7,36 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1811ECF0)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1811ED20)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1811E780)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1811ECD0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18EC13B0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18EC13E0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18EC1330)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC1340)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureBoundary_FetchTextureDelegate_TypeDefinitionIndex = 34984;
+	inline static constexpr unsigned int CaptureBoundary_FetchTextureDelegate_TypeDefinitionIndex = 35269;
 
 	class CaptureBoundary_FetchTextureDelegate : public ::System::MulticastDelegate
 	{
 	public:
-		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE__CTOR_OFFSET))(this, object, method);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::Texture2D* texture)
+		::System::Void Invoke(::UnityEngine::Texture2D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_INVOKE_OFFSET))(this, texture);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Texture2D* texture, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::Texture2D* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Texture2D*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_BEGININVOKE_OFFSET))(this, texture, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Texture2D*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

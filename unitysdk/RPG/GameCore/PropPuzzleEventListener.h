@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PROPPUZZLEEVENTLISTENER_METHOD_3_A46B32C989A0968D_OFFSET UNITYSDK_OFFSET(0x18C72110)
-#define RPG_GAMECORE_PROPPUZZLEEVENTLISTENER_METHOD_3_F687D4DB5BA8C136_OFFSET UNITYSDK_OFFSET(0x18C72070)
-#define RPG_GAMECORE_PROPPUZZLEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C720D0)
+#define RPG_GAMECORE_PROPPUZZLEEVENTLISTENER_METHOD_3_5A6366B66021B3D7_OFFSET UNITYSDK_OFFSET(0x19A94490)
+#define RPG_GAMECORE_PROPPUZZLEEVENTLISTENER_METHOD_3_CF0E121370511922_OFFSET UNITYSDK_OFFSET(0x19A943F0)
+#define RPG_GAMECORE_PROPPUZZLEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A94450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropPuzzleEventListener_TypeDefinitionIndex = 20426;
+	inline static constexpr unsigned int PropPuzzleEventListener_TypeDefinitionIndex = 20368;
 
 	class PropPuzzleEventListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPPUZZLEEVENTLISTENER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F687D4DB5BA8C136(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropPuzzleEventListener*& a2)
+		static ::System::Void Method_3_CF0E121370511922(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropPuzzleEventListener*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropPuzzleEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPPUZZLEEVENTLISTENER_METHOD_3_F687D4DB5BA8C136_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropPuzzleEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPPUZZLEEVENTLISTENER_METHOD_3_CF0E121370511922_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A46B32C989A0968D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropPuzzleEventListener* a2)
+		static ::System::Void Method_3_5A6366B66021B3D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropPuzzleEventListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropPuzzleEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPPUZZLEEVENTLISTENER_METHOD_3_A46B32C989A0968D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropPuzzleEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPPUZZLEEVENTLISTENER_METHOD_3_5A6366B66021B3D7_OFFSET))(a1, a2);
 		}
 	};
 }

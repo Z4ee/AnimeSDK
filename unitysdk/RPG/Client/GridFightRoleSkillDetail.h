@@ -5,9 +5,9 @@
 #include "unitysdk/RPG/GameCore/GridFightSkillType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_53590B4EB9133BC0;
-class Class_1_C27DD85F9F8C1933;
-class Class_2_CB74A2386357020E;
+class Class_1_00BAD3CF039686DE;
+class Class_1_9FFD4F4C5C064132;
+class Class_2_179B705E4118563C;
 namespace RPG::Client { class GridFightBackRankConfig; }
 namespace RPG::Client { class GridFightCyreneModifyConfig; }
 namespace RPG::Client { class GridFightRole; }
@@ -19,98 +19,98 @@ namespace RPG::GameCore { class GridFightSkillDescModConfigRow; }
 namespace RPG::GameCore { class GridFightSkillSubIconConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEAVATARSERVANTSKILL_OFFSET UNITYSDK_OFFSET(0xA57CEA0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEAVATARSKILL_OFFSET UNITYSDK_OFFSET(0xA57CCD0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEBATTLEEVENTSKILL_OFFSET UNITYSDK_OFFSET(0xA57CF80)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GETBACKRANKMODIFIER_OFFSET UNITYSDK_OFFSET(0xA57F6C0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GETCYRENEMODIFIER_OFFSET UNITYSDK_OFFSET(0xA57F860)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_CONDITIONDESC_OFFSET UNITYSDK_OFFSET(0xA57F370)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_DESC_OFFSET UNITYSDK_OFFSET(0xA57F0A0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ELATIONPRIORITY_OFFSET UNITYSDK_OFFSET(0xA57F670)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_EXTRAEFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0xA57F520)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA57F600)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ISELATION_OFFSET UNITYSDK_OFFSET(0xA57F660)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0xA57F540)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ISREPLACE_OFFSET UNITYSDK_OFFSET(0xA57F5A0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0xA57F620)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xA57F9B0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_SIMPLECONDITIONDESC_OFFSET UNITYSDK_OFFSET(0xA57F260)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_SIMPLEDESC_OFFSET UNITYSDK_OFFSET(0xA57EE50)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_SIMPLEEXTRAEFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0xA57F530)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_SKILLTYPETEXTID_OFFSET UNITYSDK_OFFSET(0xA57F640)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_HASCYRENEMODIFIER_OFFSET UNITYSDK_OFFSET(0xA57F960)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYAVATARSERVANTSKILL_OFFSET UNITYSDK_OFFSET(0xA57ED00)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYAVATARSKILL_OFFSET UNITYSDK_OFFSET(0xA57E9F0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYBATTLEEVENTSKILL_OFFSET UNITYSDK_OFFSET(0xA57EB40)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA57F610)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0xA57F630)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_SKILLTYPETEXTID_OFFSET UNITYSDK_OFFSET(0xA57F650)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__CREATEMODIFIERCOMPILER_OFFSET UNITYSDK_OFFSET(0xA57F1F0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0xA57E9E0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__GETBACKRANKMODIFIER_B__40_0_OFFSET UNITYSDK_OFFSET(0xA57F9C0)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__GETCYRENEMODIFIER_B__42_0_OFFSET UNITYSDK_OFFSET(0xA57FA10)
-#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__GETSIMPLEDESC_OFFSET UNITYSDK_OFFSET(0xA57EE60)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEAVATARSERVANTSKILL_OFFSET UNITYSDK_OFFSET(0xBBEBD90)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEAVATARSKILL_OFFSET UNITYSDK_OFFSET(0xBBEBBC0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEBATTLEEVENTSKILL_OFFSET UNITYSDK_OFFSET(0xBBEBE70)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GETBACKRANKMODIFIER_OFFSET UNITYSDK_OFFSET(0xBBEE880)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GETCYRENEMODIFIER_OFFSET UNITYSDK_OFFSET(0xBBEEA60)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_CONDITIONDESC_OFFSET UNITYSDK_OFFSET(0xBBEE530)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_DESC_OFFSET UNITYSDK_OFFSET(0xBBEE250)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ELATIONPRIORITY_OFFSET UNITYSDK_OFFSET(0xBBEE830)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_EXTRAEFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0xBBEE6E0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xBBEE7C0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ISELATION_OFFSET UNITYSDK_OFFSET(0xBBEE820)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0xBBEE700)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ISREPLACE_OFFSET UNITYSDK_OFFSET(0xBBEE760)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0xBBEE7E0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xBBEEBC0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_SIMPLECONDITIONDESC_OFFSET UNITYSDK_OFFSET(0xBBEE410)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_SIMPLEDESC_OFFSET UNITYSDK_OFFSET(0xBBEE000)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_SIMPLEEXTRAEFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0xBBEE6F0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_SKILLTYPETEXTID_OFFSET UNITYSDK_OFFSET(0xBBEE800)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_HASCYRENEMODIFIER_OFFSET UNITYSDK_OFFSET(0xBBEEB70)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYAVATARSERVANTSKILL_OFFSET UNITYSDK_OFFSET(0xBBEDEB0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYAVATARSKILL_OFFSET UNITYSDK_OFFSET(0xBBEDBA0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYBATTLEEVENTSKILL_OFFSET UNITYSDK_OFFSET(0xBBEDCF0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xBBEE7D0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0xBBEE7F0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_SKILLTYPETEXTID_OFFSET UNITYSDK_OFFSET(0xBBEE810)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__CREATEMODIFIERCOMPILER_OFFSET UNITYSDK_OFFSET(0xBBEE3A0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0xBBEDB90)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__GETBACKRANKMODIFIER_B__40_0_OFFSET UNITYSDK_OFFSET(0xBBEEBD0)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__GETCYRENEMODIFIER_B__42_0_OFFSET UNITYSDK_OFFSET(0xBBEEC20)
+#define RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__GETSIMPLEDESC_OFFSET UNITYSDK_OFFSET(0xBBEE010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleSkillDetail_TypeDefinitionIndex = 59973;
+	inline static constexpr unsigned int GridFightRoleSkillDetail_TypeDefinitionIndex = 60908;
 
 	class GridFightRoleSkillDetail : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* _ExtraEffectIDList; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* _ConditionParamList; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* _SimpleSkillDescParamList; // 0x20
-		::RPG::GameCore::ElationSkillRow* _ElationRow; // 0x28
-		::System::String* _IconPath_k__BackingField; // 0x30
-		::Il2CppArray<::RPG::GameCore::FixPoint>* _DescParamList; // 0x38
-		::Il2CppArray<::RPG::GameCore::FixPoint>* _SimpleConditionParamList; // 0x40
-		::RPG::Client::GridFightRole* _Role; // 0x48
-		::RPG::GameCore::GridFightSkillSubIconConfigRow* _SubIconRow; // 0x50
-		::Il2CppArray<::System::UInt32>* _SimpleExtraEffectIDList; // 0x58
-		::RPG::GameCore::GridFightSkillDescModConfigRow* _ModRow; // 0x60
-		::RPG::Client::TextID _SimpleConditionTextID; // 0x68
-		::RPG::Client::TextID _SimpleSkillDescTextID; // 0x78
-		::System::UInt32 _SkillID; // 0x88
-		::RPG::GameCore::GridFightSkillType _SkillType; // 0x8C
-		::RPG::Client::TextID _ConditionTextID; // 0x90
-		::RPG::Client::TextID _DescTextID; // 0xA0
-		::RPG::Client::TextID _SkillTypeTextID_k__BackingField; // 0xB0
+		::RPG::Client::GridFightRole* _Role; // 0x10
+		::RPG::GameCore::GridFightSkillSubIconConfigRow* _SubIconRow; // 0x18
+		::RPG::GameCore::GridFightSkillDescModConfigRow* _ModRow; // 0x20
+		::Il2CppArray<::System::UInt32>* _ExtraEffectIDList; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _ConditionParamList; // 0x30
+		::System::String* _IconPath_k__BackingField; // 0x38
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _SimpleSkillDescParamList; // 0x40
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _SimpleConditionParamList; // 0x48
+		::RPG::GameCore::ElationSkillRow* _ElationRow; // 0x50
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _DescParamList; // 0x58
+		::Il2CppArray<::System::UInt32>* _SimpleExtraEffectIDList; // 0x60
+		::RPG::Client::TextID _ConditionTextID; // 0x68
+		::RPG::Client::TextID _SimpleConditionTextID; // 0x78
+		::RPG::Client::TextID _DescTextID; // 0x88
+		::RPG::Client::TextID _SkillTypeTextID_k__BackingField; // 0x98
+		::RPG::Client::TextID _SimpleSkillDescTextID; // 0xA8
+		::RPG::GameCore::GridFightSkillType _SkillType; // 0xB8
+		::System::UInt32 _SkillID; // 0xBC
 		::RPG::Client::TextID _NameTextID_k__BackingField; // 0xC0
 
-		::System::Void _ctor(::RPG::Client::GridFightRole* role)
+		::System::Void _ctor(::RPG::Client::GridFightRole* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__CTOR_OFFSET))(this, role);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::GridFightRoleSkillDetail* CreateAvatarSKill(::RPG::Client::GridFightRole* role, ::System::UInt32 skillID, ::System::UInt32 level)
+		static ::RPG::Client::GridFightRoleSkillDetail* CreateAvatarSKill(::RPG::Client::GridFightRole* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::GridFightRoleSkillDetail*(*)(::RPG::Client::GridFightRole*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEAVATARSKILL_OFFSET))(role, skillID, level);
+			return ((::RPG::Client::GridFightRoleSkillDetail*(*)(::RPG::Client::GridFightRole*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEAVATARSKILL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::GridFightRoleSkillDetail* CreateBattleEventSkill(::RPG::Client::GridFightRole* role, ::System::UInt32 skillID)
+		static ::RPG::Client::GridFightRoleSkillDetail* CreateBattleEventSkill(::RPG::Client::GridFightRole* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::GridFightRoleSkillDetail*(*)(::RPG::Client::GridFightRole*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEBATTLEEVENTSKILL_OFFSET))(role, skillID);
+			return ((::RPG::Client::GridFightRoleSkillDetail*(*)(::RPG::Client::GridFightRole*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEBATTLEEVENTSKILL_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::GridFightRoleSkillDetail* CreateAvatarServantSkill(::RPG::Client::GridFightRole* role, ::System::UInt32 skillID, ::System::UInt32 level)
+		static ::RPG::Client::GridFightRoleSkillDetail* CreateAvatarServantSkill(::RPG::Client::GridFightRole* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::GridFightRoleSkillDetail*(*)(::RPG::Client::GridFightRole*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEAVATARSERVANTSKILL_OFFSET))(role, skillID, level);
+			return ((::RPG::Client::GridFightRoleSkillDetail*(*)(::RPG::Client::GridFightRole*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_CREATEAVATARSERVANTSKILL_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void InitByAvatarSkill(::RPG::GameCore::AvatarSkillRow* row)
+		::System::Void InitByAvatarSkill(::RPG::GameCore::AvatarSkillRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYAVATARSKILL_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYAVATARSKILL_OFFSET))(this, a1);
 		}
 
-		::System::Void InitByBattleEventSkill(::RPG::GameCore::BattleEventSkillRow* row)
+		::System::Void InitByBattleEventSkill(::RPG::GameCore::BattleEventSkillRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleEventSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYBATTLEEVENTSKILL_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleEventSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYBATTLEEVENTSKILL_OFFSET))(this, a1);
 		}
 
-		::System::Void InitByAvatarServantSkill(::RPG::GameCore::AvatarServantSkillRow* row)
+		::System::Void InitByAvatarServantSkill(::RPG::GameCore::AvatarServantSkillRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarServantSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYAVATARSERVANTSKILL_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarServantSkillRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_INITBYAVATARSERVANTSKILL_OFFSET))(this, a1);
 		}
 
 		::System::String* get_SimpleDesc()
@@ -158,9 +158,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ICONPATH_OFFSET))(this);
 		}
 
-		::System::Void set_IconPath(::System::String* value)
+		::System::Void set_IconPath(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_ICONPATH_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_ICONPATH_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_NameTextID()
@@ -168,9 +168,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_NAMETEXTID_OFFSET))(this);
 		}
 
-		::System::Void set_NameTextID(::RPG::Client::TextID value)
+		::System::Void set_NameTextID(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_NAMETEXTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_NAMETEXTID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_SkillTypeTextID()
@@ -178,9 +178,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_SKILLTYPETEXTID_OFFSET))(this);
 		}
 
-		::System::Void set_SkillTypeTextID(::RPG::Client::TextID value)
+		::System::Void set_SkillTypeTextID(::RPG::Client::TextID a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_SKILLTYPETEXTID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_SET_SKILLTYPETEXTID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsElation()
@@ -193,14 +193,14 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ELATIONPRIORITY_OFFSET))(this);
 		}
 
-		::Class_2_CB74A2386357020E* _CreateModifierCompiler()
+		::Class_2_179B705E4118563C* _CreateModifierCompiler()
 		{
-			return ((::Class_2_CB74A2386357020E*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__CREATEMODIFIERCOMPILER_OFFSET))(this);
+			return ((::Class_2_179B705E4118563C*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__CREATEMODIFIERCOMPILER_OFFSET))(this);
 		}
 
-		::Class_1_53590B4EB9133BC0* GetBackRankModifier()
+		::Class_1_9FFD4F4C5C064132* GetBackRankModifier()
 		{
-			return ((::Class_1_53590B4EB9133BC0*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GETBACKRANKMODIFIER_OFFSET))(this);
+			return ((::Class_1_9FFD4F4C5C064132*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GETBACKRANKMODIFIER_OFFSET))(this);
 		}
 
 		::System::String* _GetSimpleDesc()
@@ -208,9 +208,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__GETSIMPLEDESC_OFFSET))(this);
 		}
 
-		::Class_1_C27DD85F9F8C1933* GetCyreneModifier()
+		::Class_1_00BAD3CF039686DE* GetCyreneModifier()
 		{
-			return ((::Class_1_C27DD85F9F8C1933*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GETCYRENEMODIFIER_OFFSET))(this);
+			return ((::Class_1_00BAD3CF039686DE*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GETCYRENEMODIFIER_OFFSET))(this);
 		}
 
 		::System::Boolean HasCyreneModifier()
@@ -223,14 +223,14 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightRole*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL_GET_ROLE_OFFSET))(this);
 		}
 
-		::System::Boolean _GetBackRankModifier_b__40_0(::RPG::Client::GridFightBackRankConfig* x)
+		::System::Boolean _GetBackRankModifier_b__40_0(::RPG::Client::GridFightBackRankConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightBackRankConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__GETBACKRANKMODIFIER_B__40_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightBackRankConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__GETBACKRANKMODIFIER_B__40_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetCyreneModifier_b__42_0(::RPG::Client::GridFightCyreneModifyConfig* x)
+		::System::Boolean _GetCyreneModifier_b__42_0(::RPG::Client::GridFightCyreneModifyConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightCyreneModifyConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__GETCYRENEMODIFIER_B__42_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightCyreneModifyConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESKILLDETAIL__GETCYRENEMODIFIER_B__42_0_OFFSET))(this, a1);
 		}
 	};
 }

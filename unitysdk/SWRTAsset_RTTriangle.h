@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int SWRTAsset_RTTriangle_TypeDefinitionIndex = 34871;
+inline static constexpr unsigned int SWRTAsset_RTTriangle_TypeDefinitionIndex = 35154;
 
 struct alignas(4) SWRTAsset_RTTriangle
 {

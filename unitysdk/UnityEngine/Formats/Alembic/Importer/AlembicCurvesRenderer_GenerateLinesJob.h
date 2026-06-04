@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATELINESJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x22D6C40)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATELINESJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3872750)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicCurvesRenderer_GenerateLinesJob_TypeDefinitionIndex = 40873;
+	inline static constexpr unsigned int AlembicCurvesRenderer_GenerateLinesJob_TypeDefinitionIndex = 41699;
 
 	struct alignas(8) AlembicCurvesRenderer_GenerateLinesJob
 	{
@@ -20,9 +20,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 		::Unity::Collections::NativeArray_1<::System::Int32> strideArray; // 0x50
 		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> vertices; // 0x60
 
-		::System::Void Execute(::System::Int32 curveIdx)
+		::System::Void Execute(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATELINESJOB_EXECUTE_OFFSET))(this, curveIdx);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATELINESJOB_EXECUTE_OFFSET))(this, a1);
 		}
 	};
 }

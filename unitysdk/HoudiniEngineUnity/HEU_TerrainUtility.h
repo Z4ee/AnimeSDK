@@ -17,138 +17,162 @@ namespace UnityEngine { class Terrain; }
 namespace UnityEngine { class TerrainData; }
 namespace UnityEngine { class TerrainLayer; }
 
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPENDCONVERTEDHEIGHTFIELDTOALPHAMAP_OFFSET UNITYSDK_OFFSET(0x8CC1440)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPLYDETAILLAYERS_OFFSET UNITYSDK_OFFSET(0x8CC3B90)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPLYSCATTERTREES_OFFSET UNITYSDK_OFFSET(0x8CC2EF0)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_CONVERTHEIGHTFIELDTOALPHAMAP_OFFSET UNITYSDK_OFFSET(0x8CC1230)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_CONVERTHEIGHTMAPHOUDINITOUNITY_OFFSET UNITYSDK_OFFSET(0x8CC0AD0)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GENERATETERRAINFROMVOLUME_OFFSET UNITYSDK_OFFSET(0x8CBF280)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETDETAILMAPFROMPART_OFFSET UNITYSDK_OFFSET(0x8CC0E20)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTFIELDLAYERTYPE_OFFSET UNITYSDK_OFFSET(0x8CC4570)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTMAPFROMPART_OFFSET UNITYSDK_OFFSET(0x8CC0C00)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTRANGEFROMHEIGHTFIELD_OFFSET UNITYSDK_OFFSET(0x8CC0DC0)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETNORMALIZEDHEIGHTMAPFROMPARTWITHMINMAX_OFFSET UNITYSDK_OFFSET(0x8CC02C0)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINDATAEXPORTPATHFROMHEIGHTFIELDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x8CC46C0)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINLAYERINDEXBYNAME_OFFSET UNITYSDK_OFFSET(0x8CC4120)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINLAYERINDEX_OFFSET UNITYSDK_OFFSET(0x8CC4280)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTREEPROTOTYPEINFOSFROMPART_OFFSET UNITYSDK_OFFSET(0x8CC1980)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETVOLUMEPOSITIONOFFSET_OFFSET UNITYSDK_OFFSET(0x8CC17D0)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATEDETAILPROPERTIES_OFFSET UNITYSDK_OFFSET(0x8CC37E0)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATEDETAILPROTOTYPE_OFFSET UNITYSDK_OFFSET(0x8CC3440)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATESCATTERTREES_OFFSET UNITYSDK_OFFSET(0x8CC1CD0)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_SETTERRAINMATERIAL_OFFSET UNITYSDK_OFFSET(0x8CC0190)
-#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_VOLUMELAYERHASATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x8CC4320)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPENDCONVERTEDHEIGHTFIELDTOALPHAMAP_OFFSET UNITYSDK_OFFSET(0x17F5FEF0)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPLYDETAILLAYERS_OFFSET UNITYSDK_OFFSET(0x17F630B0)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPLYSCATTERTREES_OFFSET UNITYSDK_OFFSET(0x17F62210)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_CONVERTHEIGHTFIELDTOALPHAMAP_OFFSET UNITYSDK_OFFSET(0x17F5FD10)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_CONVERTHEIGHTMAPHOUDINITOUNITY_OFFSET UNITYSDK_OFFSET(0x17F5F3A0)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GENERATETERRAINFROMVOLUME_OFFSET UNITYSDK_OFFSET(0x17F5D890)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETATTRIBUTETILE_OFFSET UNITYSDK_OFFSET(0x17F63B90)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETDEFAULTTERRAINMATERIALPATH_OFFSET UNITYSDK_OFFSET(0x17F5F520)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETDEFAULTTERRAINSHADERNAME_OFFSET UNITYSDK_OFFSET(0x17F5F4A0)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETDETAILMAPFROMPART_OFFSET UNITYSDK_OFFSET(0x17F5F8A0)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTFIELDLAYERTYPE_OFFSET UNITYSDK_OFFSET(0x17F639A0)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTMAPFROMPART_OFFSET UNITYSDK_OFFSET(0x17F5F5A0)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTRANGEFROMHEIGHTFIELD_OFFSET UNITYSDK_OFFSET(0x17F5F840)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETNORMALIZEDHEIGHTMAPFROMPARTWITHMINMAX_OFFSET UNITYSDK_OFFSET(0x17F5E910)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINDATAEXPORTPATHFROMHEIGHTFIELDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17F63AE0)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINLAYERINDEXBYNAME_OFFSET UNITYSDK_OFFSET(0x17F63610)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINLAYERINDEX_OFFSET UNITYSDK_OFFSET(0x17F63740)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTREEPROTOTYPEINFOSFROMPART_OFFSET UNITYSDK_OFFSET(0x17F603A0)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETVOLUMEPOSITIONOFFSET_OFFSET UNITYSDK_OFFSET(0x17F601F0)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATEDETAILPROPERTIES_OFFSET UNITYSDK_OFFSET(0x17F62A30)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATEDETAILPROTOTYPE_OFFSET UNITYSDK_OFFSET(0x17F62690)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATESCATTERTREES_OFFSET UNITYSDK_OFFSET(0x17F60710)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_RESAMPLEDATA_OFFSET UNITYSDK_OFFSET(0x17F5F0D0)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_SETTERRAINMATERIAL_OFFSET UNITYSDK_OFFSET(0x17F5E660)
+#define HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_VOLUMELAYERHASATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x17F637E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_TerrainUtility_TypeDefinitionIndex = 43737;
+	inline static constexpr unsigned int HEU_TerrainUtility_TypeDefinitionIndex = 37724;
 
 	class HEU_TerrainUtility : public ::System::Object
 	{
 	public:
-		static ::System::Boolean GenerateTerrainFromVolume(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_VolumeInfo& volumeInfo, ::System::Int32 geoID, ::System::Int32 partID, ::UnityEngine::GameObject* gameObject, ::UnityEngine::TerrainData*& terrainData, ::UnityEngine::Vector3& volumePositionOffset, ::UnityEngine::Terrain*& terrain)
+		static ::System::Boolean GenerateTerrainFromVolume(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HAPI_VolumeInfo& a2, ::System::Int32 a3, ::System::Int32 a4, ::UnityEngine::GameObject* a5, ::UnityEngine::TerrainData*& a6, ::UnityEngine::Vector3& a7, ::UnityEngine::Terrain*& a8, ::System::String* a9)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_VolumeInfo&, ::System::Int32, ::System::Int32, ::UnityEngine::GameObject*, ::UnityEngine::TerrainData*&, ::UnityEngine::Vector3&, ::UnityEngine::Terrain*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GENERATETERRAINFROMVOLUME_OFFSET))(session, volumeInfo, geoID, partID, gameObject, terrainData, volumePositionOffset, terrain);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_VolumeInfo&, ::System::Int32, ::System::Int32, ::UnityEngine::GameObject*, ::UnityEngine::TerrainData*&, ::UnityEngine::Vector3&, ::UnityEngine::Terrain*&, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GENERATETERRAINFROMVOLUME_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::System::Void SetTerrainMaterial(::UnityEngine::Terrain* terrain, ::System::String* specifiedMaterialName)
+		static ::System::Void SetTerrainMaterial(::UnityEngine::Terrain* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Terrain*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_SETTERRAINMATERIAL_OFFSET))(terrain, specifiedMaterialName);
+			return ((::System::Void(*)(::UnityEngine::Terrain*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_SETTERRAINMATERIAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Il2CppArray<::System::Single>* GetNormalizedHeightmapFromPartWithMinMax(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::Int32 heightMapWidth, ::System::Int32 heightMapHeight, ::System::Single& minHeight, ::System::Single& maxHeight, ::System::Single& heightRange, ::System::Boolean bUseHeightRangeOverride)
+		static ::System::String* GetDefaultTerrainShaderName()
 		{
-			return ((::Il2CppArray<::System::Single>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single&, ::System::Single&, ::System::Single&, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETNORMALIZEDHEIGHTMAPFROMPARTWITHMINMAX_OFFSET))(session, geoID, partID, heightMapWidth, heightMapHeight, minHeight, maxHeight, heightRange, bUseHeightRangeOverride);
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETDEFAULTTERRAINSHADERNAME_OFFSET))();
 		}
 
-		static ::Il2CppArray<::System::Int32>* GetDetailMapFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::Int32& detailResolution)
+		static ::System::String* GetDefaultTerrainMaterialPath()
 		{
-			return ((::Il2CppArray<::System::Int32>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETDETAILMAPFROMPART_OFFSET))(session, geoID, partID, detailResolution);
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETDEFAULTTERRAINMATERIALPATH_OFFSET))();
 		}
 
-		static ::System::Boolean GetHeightmapFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 xLength, ::System::Int32 yLength, ::System::Int32 geoID, ::System::Int32 partID, ::Il2CppArray<::System::Single>*& heightValues, ::System::Single& minHeight, ::System::Single& maxHeight)
+		static ::Il2CppArray<::System::Single>* GetNormalizedHeightmapFromPartWithMinMax(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Single& a6, ::System::Single& a7, ::System::Single& a8, ::System::Boolean a9)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTMAPFROMPART_OFFSET))(session, xLength, yLength, geoID, partID, heightValues, minHeight, maxHeight);
+			return ((::Il2CppArray<::System::Single>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single&, ::System::Single&, ::System::Single&, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETNORMALIZEDHEIGHTMAPFROMPARTWITHMINMAX_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::Il2CppArray<::System::Single>* ConvertHeightMapHoudiniToUnity(::System::Int32 heightMapWidth, ::System::Int32 heightMapHeight, ::Il2CppArray<::System::Single>* heightValues)
+		static ::Il2CppArray<::System::Int32>* GetDetailMapFromPart(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4)
 		{
-			return ((::Il2CppArray<::System::Single>*(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_CONVERTHEIGHTMAPHOUDINITOUNITY_OFFSET))(heightMapWidth, heightMapHeight, heightValues);
+			return ((::Il2CppArray<::System::Int32>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETDETAILMAPFROMPART_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Il2CppArray<::System::Single>* ConvertHeightFieldToAlphaMap(::System::Int32 heightMapWidth, ::System::Int32 heightMapHeight, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Single>*>* heightFields)
+		static ::System::Boolean GetHeightmapFromPart(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::Il2CppArray<::System::Single>*& a6, ::System::Single& a7, ::System::Single& a8)
 		{
-			return ((::Il2CppArray<::System::Single>*(*)(::System::Int32, ::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Single>*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_CONVERTHEIGHTFIELDTOALPHAMAP_OFFSET))(heightMapWidth, heightMapHeight, heightFields);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTMAPFROMPART_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::Il2CppArray<::System::Single>* AppendConvertedHeightFieldToAlphaMap(::System::Int32 heightMapWidth, ::System::Int32 heightMapHeight, ::Il2CppArray<::System::Single>* existingAlphaMaps, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Single>*>* heightFields, ::Il2CppArray<::System::Single>* strengths, ::System::Collections::Generic::List_1<::System::Int32>* alphaMapIndices)
+		static ::Il2CppArray<::System::Single>* ConvertHeightMapHoudiniToUnity(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::Single>* a3)
 		{
-			return ((::Il2CppArray<::System::Single>*(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Single>*>*, ::Il2CppArray<::System::Single>*, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPENDCONVERTEDHEIGHTFIELDTOALPHAMAP_OFFSET))(heightMapWidth, heightMapHeight, existingAlphaMaps, heightFields, strengths, alphaMapIndices);
+			return ((::Il2CppArray<::System::Single>*(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_CONVERTHEIGHTMAPHOUDINITOUNITY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Vector3 GetVolumePositionOffset(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::UnityEngine::Vector3 volumePosition, ::System::Single terrainSizeX, ::System::Single heightMapSize, ::System::Int32 mapWidth, ::System::Int32 mapHeight, ::System::Single minHeight)
+		static ::Il2CppArray<::System::Single>* ConvertHeightFieldToAlphaMap(::System::Int32 a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Single>*>* a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETVOLUMEPOSITIONOFFSET_OFFSET))(session, geoID, partID, volumePosition, terrainSizeX, heightMapSize, mapWidth, mapHeight, minHeight);
+			return ((::Il2CppArray<::System::Single>*(*)(::System::Int32, ::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Single>*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_CONVERTHEIGHTFIELDTOALPHAMAP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* GetTreePrototypeInfosFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID)
+		static ::Il2CppArray<::System::Single>* AppendConvertedHeightFieldToAlphaMap(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::Single>* a3, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Single>*>* a4, ::Il2CppArray<::System::Single>* a5, ::System::Collections::Generic::List_1<::System::Int32>* a6)
 		{
-			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTREEPROTOTYPEINFOSFROMPART_OFFSET))(session, geoID, partID);
+			return ((::Il2CppArray<::System::Single>*(*)(::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Single>*>*, ::Il2CppArray<::System::Single>*, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPENDCONVERTEDHEIGHTFIELDTOALPHAMAP_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void PopulateScatterTrees(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::Int32 pointCount, ::HoudiniEngineUnity::HEU_VolumeScatterTrees*& scatterTrees)
+		static ::UnityEngine::Vector3 GetVolumePositionOffset(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::System::Single a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Single a9)
 		{
-			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_VolumeScatterTrees*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATESCATTERTREES_OFFSET))(session, geoID, partID, pointCount, scatterTrees);
+			return ((::UnityEngine::Vector3(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETVOLUMEPOSITIONOFFSET_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::System::Void ApplyScatterTrees(::UnityEngine::TerrainData* terrainData, ::HoudiniEngineUnity::HEU_VolumeScatterTrees* scatterTrees)
+		static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* GetTreePrototypeInfosFromPart(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::TerrainData*, ::HoudiniEngineUnity::HEU_VolumeScatterTrees*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPLYSCATTERTREES_OFFSET))(terrainData, scatterTrees);
+			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTREEPROTOTYPEINFOSFROMPART_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void PopulateDetailPrototype(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::HoudiniEngineUnity::HEU_DetailPrototype*& detailPrototype)
+		static ::System::Void PopulateScatterTrees(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::HoudiniEngineUnity::HEU_VolumeScatterTrees*& a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_DetailPrototype*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATEDETAILPROTOTYPE_OFFSET))(session, geoID, partID, detailPrototype);
+			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_VolumeScatterTrees*&, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATESCATTERTREES_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void PopulateDetailProperties(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::HoudiniEngineUnity::HEU_DetailProperties*& detailProperties)
+		static ::System::Void ApplyScatterTrees(::UnityEngine::TerrainData* a1, ::HoudiniEngineUnity::HEU_VolumeScatterTrees* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_DetailProperties*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATEDETAILPROPERTIES_OFFSET))(session, geoID, partID, detailProperties);
+			return ((::System::Void(*)(::UnityEngine::TerrainData*, ::HoudiniEngineUnity::HEU_VolumeScatterTrees*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPLYSCATTERTREES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ApplyDetailLayers(::UnityEngine::Terrain* terrain, ::UnityEngine::TerrainData* terrainData, ::HoudiniEngineUnity::HEU_DetailProperties* detailProperties, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* heuDetailPrototypes, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Int32>*>* convertedDetailMaps)
+		static ::System::Void PopulateDetailPrototype(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::HoudiniEngineUnity::HEU_DetailPrototype*& a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Terrain*, ::UnityEngine::TerrainData*, ::HoudiniEngineUnity::HEU_DetailProperties*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Int32>*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPLYDETAILLAYERS_OFFSET))(terrain, terrainData, detailProperties, heuDetailPrototypes, convertedDetailMaps);
+			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_DetailPrototype*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATEDETAILPROTOTYPE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 GetTerrainLayerIndexByName(::System::String* layerName, ::Il2CppArray<::UnityEngine::TerrainLayer*>* terrainLayers)
+		static ::System::Void PopulateDetailProperties(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::HoudiniEngineUnity::HEU_DetailProperties*& a4)
 		{
-			return ((::System::Int32(*)(::System::String*, ::Il2CppArray<::UnityEngine::TerrainLayer*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINLAYERINDEXBYNAME_OFFSET))(layerName, terrainLayers);
+			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_DetailProperties*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_POPULATEDETAILPROPERTIES_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Int32 GetTerrainLayerIndex(::UnityEngine::TerrainLayer* layer, ::Il2CppArray<::UnityEngine::TerrainLayer*>* terrainLayers)
+		static ::System::Void ApplyDetailLayers(::UnityEngine::Terrain* a1, ::UnityEngine::TerrainData* a2, ::HoudiniEngineUnity::HEU_DetailProperties* a3, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* a4, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Int32>*>* a5)
 		{
-			return ((::System::Int32(*)(::UnityEngine::TerrainLayer*, ::Il2CppArray<::UnityEngine::TerrainLayer*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINLAYERINDEX_OFFSET))(layer, terrainLayers);
+			return ((::System::Void(*)(::UnityEngine::Terrain*, ::UnityEngine::TerrainData*, ::HoudiniEngineUnity::HEU_DetailProperties*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*, ::System::Collections::Generic::List_1<::Il2CppArray<::System::Int32>*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_APPLYDETAILLAYERS_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean VolumeLayerHasAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID)
+		static ::System::Int32 GetTerrainLayerIndexByName(::System::String* a1, ::Il2CppArray<::UnityEngine::TerrainLayer*>* a2)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_VOLUMELAYERHASATTRIBUTES_OFFSET))(session, geoID, partID);
+			return ((::System::Int32(*)(::System::String*, ::Il2CppArray<::UnityEngine::TerrainLayer*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINLAYERINDEXBYNAME_OFFSET))(a1, a2);
 		}
 
-		static ::HoudiniEngineUnity::HFLayerType GetHeightfieldLayerType(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID, ::System::String* volumeName)
+		static ::System::Int32 GetTerrainLayerIndex(::UnityEngine::TerrainLayer* a1, ::Il2CppArray<::UnityEngine::TerrainLayer*>* a2)
 		{
-			return ((::HoudiniEngineUnity::HFLayerType(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTFIELDLAYERTYPE_OFFSET))(session, geoID, partID, volumeName);
+			return ((::System::Int32(*)(::UnityEngine::TerrainLayer*, ::Il2CppArray<::UnityEngine::TerrainLayer*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINLAYERINDEX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single GetHeightRangeFromHeightfield(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID)
+		static ::System::Boolean VolumeLayerHasAttributes(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Single(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTRANGEFROMHEIGHTFIELD_OFFSET))(session, geoID, partID);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_VOLUMELAYERHASATTRIBUTES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* GetTerrainDataExportPathFromHeightfieldAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Int32 geoID, ::System::Int32 partID)
+		static ::HoudiniEngineUnity::HFLayerType GetHeightfieldLayerType(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4)
 		{
-			return ((::System::String*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINDATAEXPORTPATHFROMHEIGHTFIELDATTRIBUTE_OFFSET))(session, geoID, partID);
+			return ((::HoudiniEngineUnity::HFLayerType(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTFIELDLAYERTYPE_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Single GetHeightRangeFromHeightfield(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3)
+		{
+			return ((::System::Single(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETHEIGHTRANGEFROMHEIGHTFIELD_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::String* GetTerrainDataExportPathFromHeightfieldAttribute(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3)
+		{
+			return ((::System::String*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETTERRAINDATAEXPORTPATHFROMHEIGHTFIELDATTRIBUTE_OFFSET))(a1, a2, a3);
+		}
+
+		static ::Il2CppArray<::System::Single>* ResampleData(::Il2CppArray<::System::Single>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
+		{
+			return ((::Il2CppArray<::System::Single>*(*)(::Il2CppArray<::System::Single>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_RESAMPLEDATA_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Boolean GetAttributeTile(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4)
+		{
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_TERRAINUTILITY_GETATTRIBUTETILE_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

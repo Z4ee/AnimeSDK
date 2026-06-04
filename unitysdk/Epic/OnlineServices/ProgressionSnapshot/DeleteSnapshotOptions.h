@@ -4,13 +4,13 @@
 
 namespace Epic::OnlineServices { class ProductUserId; }
 
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_DELETESNAPSHOTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F0D520)
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_DELETESNAPSHOTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0x8F0D530)
-#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_DELETESNAPSHOTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8F0D540)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_DELETESNAPSHOTOPTIONS_GET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA336410)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_DELETESNAPSHOTOPTIONS_SET_LOCALUSERID_OFFSET UNITYSDK_OFFSET(0xA336420)
+#define EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_DELETESNAPSHOTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA336430)
 
 namespace Epic::OnlineServices::ProgressionSnapshot
 {
-	inline static constexpr unsigned int DeleteSnapshotOptions_TypeDefinitionIndex = 41563;
+	inline static constexpr unsigned int DeleteSnapshotOptions_TypeDefinitionIndex = 42366;
 
 	class DeleteSnapshotOptions : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace Epic::OnlineServices::ProgressionSnapshot
 			return ((::Epic::OnlineServices::ProductUserId*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_DELETESNAPSHOTOPTIONS_GET_LOCALUSERID_OFFSET))(this);
 		}
 
-		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* value)
+		::System::Void set_LocalUserId(::Epic::OnlineServices::ProductUserId* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_DELETESNAPSHOTOPTIONS_SET_LOCALUSERID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::ProductUserId*))((::PBYTE)hIl2Cpp + EPIC_ONLINESERVICES_PROGRESSIONSNAPSHOT_DELETESNAPSHOTOPTIONS_SET_LOCALUSERID_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,20 +3,20 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_DD4A8FEB158CD861;
+class Class_2_B49063F7086F3D85;
 namespace RPG::Client::Prop { class OpticalIllusionPuzzleBoard; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xA9104B0)
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA9105F0)
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA910520)
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_SETBOARDSCRIPT_OFFSET UNITYSDK_OFFSET(0xA910680)
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xA910580)
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xA9106E0)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xC05A580)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC05A6C0)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC05A5F0)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_SETBOARDSCRIPT_OFFSET UNITYSDK_OFFSET(0xC05A750)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xC05A650)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC05A7B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoBackDynamicControl_TypeDefinitionIndex = 65216;
+	inline static constexpr unsigned int MonoBackDynamicControl_TypeDefinitionIndex = 66143;
 
 	class MonoBackDynamicControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,7 +30,7 @@ namespace RPG::Client
 		::Il2CppArray<::UnityEngine::Vector3>* mainRootAspectScale; // 0x48
 		::RPG::Client::Prop::OpticalIllusionPuzzleBoard* pzzuleBoard; // 0x50
 		::System::Single orthographicSizeCorection; // 0x58
-		::Class_2_DD4A8FEB158CD861* _Behavior; // 0x60
+		::Class_2_B49063F7086F3D85* _Behavior; // 0x60
 
 		::System::Void _ctor()
 		{

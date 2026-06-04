@@ -5,18 +5,18 @@
 #include "unitysdk/TMPro/TMP_GlyphAdjustmentRecord.h"
 #include "unitysdk/UnityEngine/TextCore/LowLevel/GlyphPairAdjustmentRecord.h"
 
-#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_GET_FEATURELOOKUPFLAGS_OFFSET UNITYSDK_OFFSET(0x1A35A9C0)
-#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_GET_FIRSTADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x1A35A960)
-#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_GET_SECONDADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x1A35A990)
-#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_FEATURELOOKUPFLAGS_OFFSET UNITYSDK_OFFSET(0x1A35A9D0)
-#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_FIRSTADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x1A35A980)
-#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_SECONDADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x1A35A9B0)
-#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A3537E0)
-#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A358A90)
+#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_GET_FEATURELOOKUPFLAGS_OFFSET UNITYSDK_OFFSET(0x1B1B5610)
+#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_GET_FIRSTADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x1B1B55B0)
+#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_GET_SECONDADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x1B1B55E0)
+#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_FEATURELOOKUPFLAGS_OFFSET UNITYSDK_OFFSET(0x1B1B5620)
+#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_FIRSTADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x1B1B55D0)
+#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_SECONDADJUSTMENTRECORD_OFFSET UNITYSDK_OFFSET(0x1B1B5600)
+#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B1AE5E0)
+#define TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B3790)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_GlyphPairAdjustmentRecord_TypeDefinitionIndex = 40146;
+	inline static constexpr unsigned int TMP_GlyphPairAdjustmentRecord_TypeDefinitionIndex = 40973;
 
 	class TMP_GlyphPairAdjustmentRecord : public ::System::Object
 	{
@@ -25,14 +25,14 @@ namespace TMPro
 		::TMPro::TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord; // 0x24
 		::TMPro::FontFeatureLookupFlags m_FeatureLookupFlags; // 0x38
 
-		::System::Void _ctor(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord)
+		::System::Void _ctor(::TMPro::TMP_GlyphAdjustmentRecord a1, ::TMPro::TMP_GlyphAdjustmentRecord a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_GlyphAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD__CTOR_OFFSET))(this, firstAdjustmentRecord, secondAdjustmentRecord);
+			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_GlyphAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord)
+		::System::Void _ctor_1(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD__CTOR_1_OFFSET))(this, glyphPairAdjustmentRecord);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD__CTOR_1_OFFSET))(this, a1);
 		}
 
 		::TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord()
@@ -40,9 +40,9 @@ namespace TMPro
 			return ((::TMPro::TMP_GlyphAdjustmentRecord(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_GET_FIRSTADJUSTMENTRECORD_OFFSET))(this);
 		}
 
-		::System::Void set_firstAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value)
+		::System::Void set_firstAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_GlyphAdjustmentRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_FIRSTADJUSTMENTRECORD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_GlyphAdjustmentRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_FIRSTADJUSTMENTRECORD_OFFSET))(this, a1);
 		}
 
 		::TMPro::TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord()
@@ -50,9 +50,9 @@ namespace TMPro
 			return ((::TMPro::TMP_GlyphAdjustmentRecord(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_GET_SECONDADJUSTMENTRECORD_OFFSET))(this);
 		}
 
-		::System::Void set_secondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value)
+		::System::Void set_secondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_GlyphAdjustmentRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_SECONDADJUSTMENTRECORD_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_GlyphAdjustmentRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_SECONDADJUSTMENTRECORD_OFFSET))(this, a1);
 		}
 
 		::TMPro::FontFeatureLookupFlags get_featureLookupFlags()
@@ -60,9 +60,9 @@ namespace TMPro
 			return ((::TMPro::FontFeatureLookupFlags(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_GET_FEATURELOOKUPFLAGS_OFFSET))(this);
 		}
 
-		::System::Void set_featureLookupFlags(::TMPro::FontFeatureLookupFlags value)
+		::System::Void set_featureLookupFlags(::TMPro::FontFeatureLookupFlags a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::TMPro::FontFeatureLookupFlags))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_FEATURELOOKUPFLAGS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::TMPro::FontFeatureLookupFlags))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHPAIRADJUSTMENTRECORD_SET_FEATURELOOKUPFLAGS_OFFSET))(this, a1);
 		}
 	};
 }

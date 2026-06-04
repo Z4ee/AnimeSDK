@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ENTITAS_UNSAFEAERC_GET_RETAINCOUNT_OFFSET UNITYSDK_OFFSET(0x12C57230)
-#define ENTITAS_UNSAFEAERC_RELEASE_OFFSET UNITYSDK_OFFSET(0x12C57250)
-#define ENTITAS_UNSAFEAERC_RETAIN_OFFSET UNITYSDK_OFFSET(0x12C57240)
-#define ENTITAS_UNSAFEAERC__CTOR_OFFSET UNITYSDK_OFFSET(0x12C57260)
+#define ENTITAS_UNSAFEAERC_GET_RETAINCOUNT_OFFSET UNITYSDK_OFFSET(0x14704310)
+#define ENTITAS_UNSAFEAERC_RELEASE_OFFSET UNITYSDK_OFFSET(0x14704330)
+#define ENTITAS_UNSAFEAERC_RETAIN_OFFSET UNITYSDK_OFFSET(0x14704320)
+#define ENTITAS_UNSAFEAERC__CTOR_OFFSET UNITYSDK_OFFSET(0x14704340)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int UnsafeAERC_TypeDefinitionIndex = 9839;
+	inline static constexpr unsigned int UnsafeAERC_TypeDefinitionIndex = 9666;
 
 	class UnsafeAERC : public ::System::Object
 	{
@@ -26,14 +26,14 @@ namespace Entitas
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ENTITAS_UNSAFEAERC_GET_RETAINCOUNT_OFFSET))(this);
 		}
 
-		::System::Void Retain(::System::Object* owner)
+		::System::Void Retain(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_UNSAFEAERC_RETAIN_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_UNSAFEAERC_RETAIN_OFFSET))(this, a1);
 		}
 
-		::System::Void Release(::System::Object* owner)
+		::System::Void Release(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_UNSAFEAERC_RELEASE_OFFSET))(this, owner);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ENTITAS_UNSAFEAERC_RELEASE_OFFSET))(this, a1);
 		}
 	};
 }

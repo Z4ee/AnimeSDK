@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByCountOfBaseType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_73F43AB26075C339_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9319350)
-#define CLASS_3_73F43AB26075C339__CTOR_OFFSET UNITYSDK_OFFSET(0x9319270)
+#define CLASS_3_73F43AB26075C339_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1455A080)
+#define CLASS_3_73F43AB26075C339__CTOR_OFFSET UNITYSDK_OFFSET(0x14559FA0)
 
-inline static constexpr unsigned int Class_3_73F43AB26075C339_TypeDefinitionIndex = 51083;
+inline static constexpr unsigned int Class_3_73F43AB26075C339_TypeDefinitionIndex = 51753;
 
 class Class_3_73F43AB26075C339 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByCountOfBaseType*>
 {

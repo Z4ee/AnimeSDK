@@ -10,20 +10,20 @@ namespace System { class String; }
 namespace System::Net { class WebResponse; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_NET_WEBEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1A1639A0)
-#define SYSTEM_NET_WEBEXCEPTION_GET_RESPONSE_OFFSET UNITYSDK_OFFSET(0x1A1639D0)
-#define SYSTEM_NET_WEBEXCEPTION_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x1A1639C0)
-#define SYSTEM_NET_WEBEXCEPTION_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1A163980)
-#define SYSTEM_NET_WEBEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A163530)
-#define SYSTEM_NET_WEBEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A1635B0)
-#define SYSTEM_NET_WEBEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1A15D650)
-#define SYSTEM_NET_WEBEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1A162D00)
-#define SYSTEM_NET_WEBEXCEPTION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1A15C180)
-#define SYSTEM_NET_WEBEXCEPTION__CTOR_6_OFFSET UNITYSDK_OFFSET(0x1A163710)
-#define SYSTEM_NET_WEBEXCEPTION__CTOR_7_OFFSET UNITYSDK_OFFSET(0x1A163630)
-#define SYSTEM_NET_WEBEXCEPTION__CTOR_8_OFFSET UNITYSDK_OFFSET(0x1A163810)
-#define SYSTEM_NET_WEBEXCEPTION__CTOR_9_OFFSET UNITYSDK_OFFSET(0x1A163920)
-#define SYSTEM_NET_WEBEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A163480)
+#define SYSTEM_NET_WEBEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1AFC6A10)
+#define SYSTEM_NET_WEBEXCEPTION_GET_RESPONSE_OFFSET UNITYSDK_OFFSET(0x1AFC6A40)
+#define SYSTEM_NET_WEBEXCEPTION_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x1AFC6A30)
+#define SYSTEM_NET_WEBEXCEPTION_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1AFC69F0)
+#define SYSTEM_NET_WEBEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AFC65A0)
+#define SYSTEM_NET_WEBEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1AFC6620)
+#define SYSTEM_NET_WEBEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1AFC04A0)
+#define SYSTEM_NET_WEBEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1AFC5D20)
+#define SYSTEM_NET_WEBEXCEPTION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1AFBEEF0)
+#define SYSTEM_NET_WEBEXCEPTION__CTOR_6_OFFSET UNITYSDK_OFFSET(0x1AFC6780)
+#define SYSTEM_NET_WEBEXCEPTION__CTOR_7_OFFSET UNITYSDK_OFFSET(0x1AFC66A0)
+#define SYSTEM_NET_WEBEXCEPTION__CTOR_8_OFFSET UNITYSDK_OFFSET(0x1AFC6880)
+#define SYSTEM_NET_WEBEXCEPTION__CTOR_9_OFFSET UNITYSDK_OFFSET(0x1AFC6990)
+#define SYSTEM_NET_WEBEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC64F0)
 
 namespace System::Net
 {
@@ -41,59 +41,59 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* message)
+		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_1_OFFSET))(this, message);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::String* message, ::System::Exception* innerException)
+		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_2_OFFSET))(this, message, innerException);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_3(::System::String* message, ::System::Net::WebExceptionStatus status)
+		::System::Void _ctor_3(::System::String* a1, ::System::Net::WebExceptionStatus a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::WebExceptionStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_3_OFFSET))(this, message, status);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::WebExceptionStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_4(::System::String* message, ::System::Net::WebExceptionStatus status, ::System::Net::WebExceptionInternalStatus internalStatus, ::System::Exception* innerException)
+		::System::Void _ctor_4(::System::String* a1, ::System::Net::WebExceptionStatus a2, ::System::Net::WebExceptionInternalStatus a3, ::System::Exception* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::WebExceptionStatus, ::System::Net::WebExceptionInternalStatus, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_4_OFFSET))(this, message, status, internalStatus, innerException);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::WebExceptionStatus, ::System::Net::WebExceptionInternalStatus, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_4_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_5(::System::String* message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response)
+		::System::Void _ctor_5(::System::String* a1, ::System::Exception* a2, ::System::Net::WebExceptionStatus a3, ::System::Net::WebResponse* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*, ::System::Net::WebExceptionStatus, ::System::Net::WebResponse*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_5_OFFSET))(this, message, innerException, status, response);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*, ::System::Net::WebExceptionStatus, ::System::Net::WebResponse*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_5_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_6(::System::String* message, ::System::String* data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response)
+		::System::Void _ctor_6(::System::String* a1, ::System::String* a2, ::System::Exception* a3, ::System::Net::WebExceptionStatus a4, ::System::Net::WebResponse* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Exception*, ::System::Net::WebExceptionStatus, ::System::Net::WebResponse*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_6_OFFSET))(this, message, data, innerException, status, response);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Exception*, ::System::Net::WebExceptionStatus, ::System::Net::WebResponse*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_6_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void _ctor_7(::System::String* message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response, ::System::Net::WebExceptionInternalStatus internalStatus)
+		::System::Void _ctor_7(::System::String* a1, ::System::Exception* a2, ::System::Net::WebExceptionStatus a3, ::System::Net::WebResponse* a4, ::System::Net::WebExceptionInternalStatus a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*, ::System::Net::WebExceptionStatus, ::System::Net::WebResponse*, ::System::Net::WebExceptionInternalStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_7_OFFSET))(this, message, innerException, status, response, internalStatus);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*, ::System::Net::WebExceptionStatus, ::System::Net::WebResponse*, ::System::Net::WebExceptionInternalStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_7_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void _ctor_8(::System::String* message, ::System::String* data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response, ::System::Net::WebExceptionInternalStatus internalStatus)
+		::System::Void _ctor_8(::System::String* a1, ::System::String* a2, ::System::Exception* a3, ::System::Net::WebExceptionStatus a4, ::System::Net::WebResponse* a5, ::System::Net::WebExceptionInternalStatus a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Exception*, ::System::Net::WebExceptionStatus, ::System::Net::WebResponse*, ::System::Net::WebExceptionInternalStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_8_OFFSET))(this, message, data, innerException, status, response, internalStatus);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Exception*, ::System::Net::WebExceptionStatus, ::System::Net::WebResponse*, ::System::Net::WebExceptionInternalStatus))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_8_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void _ctor_9(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext)
+		::System::Void _ctor_9(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_9_OFFSET))(this, serializationInfo, streamingContext);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION__CTOR_9_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext)
+		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET))(this, serializationInfo, streamingContext);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext)
+		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION_GETOBJECTDATA_OFFSET))(this, serializationInfo, streamingContext);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBEXCEPTION_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::WebExceptionStatus get_Status()

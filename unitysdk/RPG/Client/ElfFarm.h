@@ -9,17 +9,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ELFFARM_GETCELL_OFFSET UNITYSDK_OFFSET(0xA227AE0)
-#define RPG_CLIENT_ELFFARM_GETVCAMERAGO_OFFSET UNITYSDK_OFFSET(0xA227E60)
-#define RPG_CLIENT_ELFFARM_INIT_OFFSET UNITYSDK_OFFSET(0xA227340)
-#define RPG_CLIENT_ELFFARM_SETVCAMERAACTIVE_OFFSET UNITYSDK_OFFSET(0xA227FB0)
-#define RPG_CLIENT_ELFFARM_UNINIT_OFFSET UNITYSDK_OFFSET(0xA2279B0)
-#define RPG_CLIENT_ELFFARM_UPDATEFARM_OFFSET UNITYSDK_OFFSET(0xA2276D0)
-#define RPG_CLIENT_ELFFARM__CTOR_OFFSET UNITYSDK_OFFSET(0xA228160)
+#define RPG_CLIENT_ELFFARM_GETCELL_OFFSET UNITYSDK_OFFSET(0xB8AB7A0)
+#define RPG_CLIENT_ELFFARM_GETVCAMERAGO_OFFSET UNITYSDK_OFFSET(0xB8ABA70)
+#define RPG_CLIENT_ELFFARM_INIT_OFFSET UNITYSDK_OFFSET(0xB8AB180)
+#define RPG_CLIENT_ELFFARM_SETVCAMERAACTIVE_OFFSET UNITYSDK_OFFSET(0xB8ABBC0)
+#define RPG_CLIENT_ELFFARM_UNINIT_OFFSET UNITYSDK_OFFSET(0xB8AB690)
+#define RPG_CLIENT_ELFFARM_UPDATEFARM_OFFSET UNITYSDK_OFFSET(0xB8AB410)
+#define RPG_CLIENT_ELFFARM__CTOR_OFFSET UNITYSDK_OFFSET(0xB8ABD70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfFarm_TypeDefinitionIndex = 63321;
+	inline static constexpr unsigned int ElfFarm_TypeDefinitionIndex = 64238;
 
 	class ElfFarm : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,14 +35,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARM__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::RPG::Client::ElfFarmData* data, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>* artFarmDic)
+		::System::Void Init(::RPG::Client::ElfFarmData* a1, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ElfFarmData*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARM_INIT_OFFSET))(this, data, artFarmDic);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ElfFarmData*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARM_INIT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UpdateFarm(::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>* artFarmDic)
+		::System::Void UpdateFarm(::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARM_UPDATEFARM_OFFSET))(this, artFarmDic);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARM_UPDATEFARM_OFFSET))(this, a1);
 		}
 
 		::System::Void UnInit()
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARM_UNINIT_OFFSET))(this);
 		}
 
-		::RPG::Client::ElfCell* GetCell(::System::UInt32 fieldID, ::System::UInt32 cellID)
+		::RPG::Client::ElfCell* GetCell(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::ElfCell*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARM_GETCELL_OFFSET))(this, fieldID, cellID);
+			return ((::RPG::Client::ElfCell*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARM_GETCELL_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::GameObject* GetVCameraGo()
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARM_GETVCAMERAGO_OFFSET))(this);
 		}
 
-		::System::Void SetVCameraActive(::System::Boolean isActive)
+		::System::Void SetVCameraActive(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARM_SETVCAMERAACTIVE_OFFSET))(this, isActive);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARM_SETVCAMERAACTIVE_OFFSET))(this, a1);
 		}
 	};
 }

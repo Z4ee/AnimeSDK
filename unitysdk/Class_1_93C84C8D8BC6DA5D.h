@@ -5,12 +5,12 @@
 namespace RPG::Client { class SortedEvolveBuildGearEquipInfoLists; }
 namespace RPG::GameCore { class EvolveBuildGearManager; }
 
-#define CLASS_1_93C84C8D8BC6DA5D_GET_SORTLISTS_OFFSET UNITYSDK_OFFSET(0xBAB52E0)
-#define CLASS_1_93C84C8D8BC6DA5D_METHOD_1_5B81A347C4B6B422_OFFSET UNITYSDK_OFFSET(0xBAB5290)
-#define CLASS_1_93C84C8D8BC6DA5D_SET_SORTLISTS_OFFSET UNITYSDK_OFFSET(0xBAB52F0)
-#define CLASS_1_93C84C8D8BC6DA5D__CTOR_OFFSET UNITYSDK_OFFSET(0xBAB5300)
+#define CLASS_1_93C84C8D8BC6DA5D_GET_SORTLISTS_OFFSET UNITYSDK_OFFSET(0x13FFC900)
+#define CLASS_1_93C84C8D8BC6DA5D_METHOD_1_5B81A347C4B6B422_OFFSET UNITYSDK_OFFSET(0x13FFC8B0)
+#define CLASS_1_93C84C8D8BC6DA5D_SET_SORTLISTS_OFFSET UNITYSDK_OFFSET(0x13FFC910)
+#define CLASS_1_93C84C8D8BC6DA5D__CTOR_OFFSET UNITYSDK_OFFSET(0x13FFC920)
 
-inline static constexpr unsigned int Class_1_93C84C8D8BC6DA5D_TypeDefinitionIndex = 49359;
+inline static constexpr unsigned int Class_1_93C84C8D8BC6DA5D_TypeDefinitionIndex = 50026;
 
 class Class_1_93C84C8D8BC6DA5D : public ::System::Object
 {
@@ -32,8 +32,8 @@ public:
 		return ((::RPG::Client::SortedEvolveBuildGearEquipInfoLists*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_93C84C8D8BC6DA5D_GET_SORTLISTS_OFFSET))(this);
 	}
 
-	::System::Void set_SortLists(::RPG::Client::SortedEvolveBuildGearEquipInfoLists* value)
+	::System::Void set_SortLists(::RPG::Client::SortedEvolveBuildGearEquipInfoLists* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::SortedEvolveBuildGearEquipInfoLists*))((::PBYTE)hIl2Cpp + CLASS_1_93C84C8D8BC6DA5D_SET_SORTLISTS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::SortedEvolveBuildGearEquipInfoLists*))((::PBYTE)hIl2Cpp + CLASS_1_93C84C8D8BC6DA5D_SET_SORTLISTS_OFFSET))(this, a1);
 	}
 };

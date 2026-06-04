@@ -5,15 +5,15 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NUMERICS_QUATERNION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x22CF0B0)
-#define SYSTEM_NUMERICS_QUATERNION_EQUALS_OFFSET UNITYSDK_OFFSET(0x22CF070)
-#define SYSTEM_NUMERICS_QUATERNION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x22CF150)
-#define SYSTEM_NUMERICS_QUATERNION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x22CF140)
-#define SYSTEM_NUMERICS_QUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x24C30)
+#define SYSTEM_NUMERICS_QUATERNION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x38695F0)
+#define SYSTEM_NUMERICS_QUATERNION_EQUALS_OFFSET UNITYSDK_OFFSET(0x38695B0)
+#define SYSTEM_NUMERICS_QUATERNION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3869690)
+#define SYSTEM_NUMERICS_QUATERNION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3869680)
+#define SYSTEM_NUMERICS_QUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x259B0)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Quaternion_TypeDefinitionIndex = 4879;
+	inline static constexpr unsigned int Quaternion_TypeDefinitionIndex = 3846;
 
 	struct alignas(4) Quaternion
 	{
@@ -22,19 +22,19 @@ namespace System::Numerics
 		::System::Single Z; // 0x18
 		::System::Single W; // 0x1C
 
-		::System::Void _ctor(::System::Single x, ::System::Single y, ::System::Single z, ::System::Single w)
+		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION__CTOR_OFFSET))(this, x, y, z, w);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION__CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean Equals(::System::Numerics::Quaternion other)
+		::System::Boolean Equals(::System::Numerics::Quaternion a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Numerics::Quaternion))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Numerics::Quaternion))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::System::Object* obj)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_EQUALS_1_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

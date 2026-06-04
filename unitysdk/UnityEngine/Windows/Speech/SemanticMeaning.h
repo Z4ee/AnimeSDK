@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int SemanticMeaning_TypeDefinitionIndex = 4253;
+	inline static constexpr unsigned int SemanticMeaning_TypeDefinitionIndex = 4427;
 
 	struct alignas(8) SemanticMeaning
 	{

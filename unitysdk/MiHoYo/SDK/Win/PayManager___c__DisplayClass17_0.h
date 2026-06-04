@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174A5DF0)
-#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS17_0__GETPRICETIER_B__0_OFFSET UNITYSDK_OFFSET(0x174AC920)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182A5450)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS17_0__GETPRICETIER_B__0_OFFSET UNITYSDK_OFFSET(0x182ABD20)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayManager___c__DisplayClass17_0_TypeDefinitionIndex = 8215;
+	inline static constexpr unsigned int PayManager___c__DisplayClass17_0_TypeDefinitionIndex = 9118;
 
 	class PayManager___c__DisplayClass17_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GetPriceTier_b__0(::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void _GetPriceTier_b__0(::MiHoYo::SDK::NetworkResponseModel* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS17_0__GETPRICETIER_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS17_0__GETPRICETIER_B__0_OFFSET))(this, a1);
 		}
 	};
 }

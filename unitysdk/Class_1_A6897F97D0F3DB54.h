@@ -5,10 +5,10 @@
 namespace ScenenLightManager { class BlockEnvExportDataHeader; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A6897F97D0F3DB54_METHOD_1_DCA5AE7D7A1D296F_OFFSET UNITYSDK_OFFSET(0x1252BA20)
-#define CLASS_1_A6897F97D0F3DB54__CTOR_OFFSET UNITYSDK_OFFSET(0x1252BC40)
+#define CLASS_1_A6897F97D0F3DB54_METHOD_1_DCA5AE7D7A1D296F_OFFSET UNITYSDK_OFFSET(0xAB7D5A0)
+#define CLASS_1_A6897F97D0F3DB54__CTOR_OFFSET UNITYSDK_OFFSET(0xAB7D7C0)
 
-inline static constexpr unsigned int Class_1_A6897F97D0F3DB54_TypeDefinitionIndex = 45765;
+inline static constexpr unsigned int Class_1_A6897F97D0F3DB54_TypeDefinitionIndex = 46348;
 
 class Class_1_A6897F97D0F3DB54 : public ::System::Object
 {

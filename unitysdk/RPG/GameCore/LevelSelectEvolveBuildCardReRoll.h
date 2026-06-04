@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDREROLL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB6DF260)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDREROLL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6DF210)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDREROLL_INIT_OFFSET UNITYSDK_OFFSET(0xB6DF1C0)
-#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDREROLL__CTOR_OFFSET UNITYSDK_OFFSET(0xB6DF2B0)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDREROLL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE4D350)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDREROLL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE4D300)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDREROLL_INIT_OFFSET UNITYSDK_OFFSET(0xCE4D2B0)
+#define RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDREROLL__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4D3A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSelectEvolveBuildCardReRoll_TypeDefinitionIndex = 52372;
+	inline static constexpr unsigned int LevelSelectEvolveBuildCardReRoll_TypeDefinitionIndex = 53069;
 
-	class LevelSelectEvolveBuildCardReRoll : public ::Class_1_9988289E7F8AA214
+	class LevelSelectEvolveBuildCardReRoll : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::UInt32 SelectIndex; // 0x18
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDREROLL__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelSelectEvolveBuildCardReRoll* Init(::System::UInt32 nIndex)
+		::RPG::GameCore::LevelSelectEvolveBuildCardReRoll* Init(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::LevelSelectEvolveBuildCardReRoll*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDREROLL_INIT_OFFSET))(this, nIndex);
+			return ((::RPG::GameCore::LevelSelectEvolveBuildCardReRoll*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSELECTEVOLVEBUILDCARDREROLL_INIT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

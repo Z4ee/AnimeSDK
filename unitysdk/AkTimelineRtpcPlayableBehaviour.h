@@ -8,17 +8,17 @@ namespace AK::Wwise { class RTPC; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1A668490)
-#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_GET_RTPC_OFFSET UNITYSDK_OFFSET(0x1A668450)
-#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_GET_SETGLOBALLY_OFFSET UNITYSDK_OFFSET(0x1A668470)
-#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1A6684A0)
-#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1A668480)
-#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_RTPC_OFFSET UNITYSDK_OFFSET(0x1A668440)
-#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_SETGLOBALLY_OFFSET UNITYSDK_OFFSET(0x1A668460)
-#define AKTIMELINERTPCPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A668430)
-#define AKTIMELINERTPCPLAYABLEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1A668640)
+#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4B36E0)
+#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_GET_RTPC_OFFSET UNITYSDK_OFFSET(0x1B4B36A0)
+#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_GET_SETGLOBALLY_OFFSET UNITYSDK_OFFSET(0x1B4B36C0)
+#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1B4B36F0)
+#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4B36D0)
+#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_RTPC_OFFSET UNITYSDK_OFFSET(0x1B4B3690)
+#define AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_SETGLOBALLY_OFFSET UNITYSDK_OFFSET(0x1B4B36B0)
+#define AKTIMELINERTPCPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B3680)
+#define AKTIMELINERTPCPLAYABLEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1B4B3890)
 
-inline static constexpr unsigned int AkTimelineRtpcPlayableBehaviour_TypeDefinitionIndex = 40433;
+inline static constexpr unsigned int AkTimelineRtpcPlayableBehaviour_TypeDefinitionIndex = 41260;
 
 class AkTimelineRtpcPlayableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 {
@@ -33,9 +33,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR__CTOR_OFFSET))(this);
 	}
 
-	::System::Void set_RTPC(::AK::Wwise::RTPC* value)
+	::System::Void set_RTPC(::AK::Wwise::RTPC* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::AK::Wwise::RTPC*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_RTPC_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::AK::Wwise::RTPC*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_RTPC_OFFSET))(this, a1);
 	}
 
 	::AK::Wwise::RTPC* get_RTPC()
@@ -43,9 +43,9 @@ public:
 		return ((::AK::Wwise::RTPC*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR_GET_RTPC_OFFSET))(this);
 	}
 
-	::System::Void set_setGlobally(::System::Boolean value)
+	::System::Void set_setGlobally(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_SETGLOBALLY_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_SETGLOBALLY_OFFSET))(this, a1);
 	}
 
 	::System::Boolean get_setGlobally()
@@ -53,9 +53,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR_GET_SETGLOBALLY_OFFSET))(this);
 	}
 
-	::System::Void set_gameObject(::UnityEngine::GameObject* value)
+	::System::Void set_gameObject(::UnityEngine::GameObject* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_GAMEOBJECT_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR_SET_GAMEOBJECT_OFFSET))(this, a1);
 	}
 
 	::UnityEngine::GameObject* get_gameObject()
@@ -63,13 +63,13 @@ public:
 		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR_GET_GAMEOBJECT_OFFSET))(this);
 	}
 
-	::System::Void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData frameData, ::System::Object* playerData)
+	::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, playable, frameData, playerData);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable P0, ::UnityEngine::Playables::FrameData P1, ::System::Object* P2)
+	::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, P0, P1, P2);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + AKTIMELINERTPCPLAYABLEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 	}
 };

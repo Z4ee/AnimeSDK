@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_4_3EBB4202ADC83FC3_METHOD_4_0C2DE072D09B1F26_OFFSET UNITYSDK_OFFSET(0x1835BAE0)
-#define CLASS_4_3EBB4202ADC83FC3_METHOD_4_637CBE131CC2826D_OFFSET UNITYSDK_OFFSET(0x1835BA00)
-#define CLASS_4_3EBB4202ADC83FC3__CTOR_OFFSET UNITYSDK_OFFSET(0x1835BA80)
+#define CLASS_4_3EBB4202ADC83FC3_METHOD_4_0C2DE072D09B1F26_OFFSET UNITYSDK_OFFSET(0x195BDEE0)
+#define CLASS_4_3EBB4202ADC83FC3_METHOD_4_637CBE131CC2826D_OFFSET UNITYSDK_OFFSET(0x195BDE00)
+#define CLASS_4_3EBB4202ADC83FC3__CTOR_OFFSET UNITYSDK_OFFSET(0x195BDE80)
 
-inline static constexpr unsigned int Class_4_3EBB4202ADC83FC3_TypeDefinitionIndex = 21318;
+inline static constexpr unsigned int Class_4_3EBB4202ADC83FC3_TypeDefinitionIndex = 21213;
 
 class Class_4_3EBB4202ADC83FC3 : public ::RPG::GameCore::STTaskConfig
 {
 public:
-	::System::String* Field_4_2; // 0x18
-	::System::String* Field_4_4; // 0x20
-	::System::Boolean Field_4_1; // 0x28
+	::System::String* Field_4_0; // 0x18
+	::System::String* Field_4_1; // 0x20
+	::System::Boolean Field_4_2; // 0x28
 	::System::Boolean Field_4_3; // 0x29
-	::System::Boolean Field_4_0; // 0x2A
+	::System::Boolean Field_4_4; // 0x2A
 
 	::System::Void _ctor()
 	{

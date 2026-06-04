@@ -6,17 +6,17 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define ROOTMOTION_NATIVECURVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x31480)
-#define ROOTMOTION_NATIVECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x31470)
-#define ROOTMOTION_NATIVECURVE_GET_ISCREATED_OFFSET UNITYSDK_OFFSET(0x313F0)
-#define ROOTMOTION_NATIVECURVE_INITIALIZEVALUES_OFFSET UNITYSDK_OFFSET(0x31400)
-#define ROOTMOTION_NATIVECURVE_PINGPONG_OFFSET UNITYSDK_OFFSET(0x31500)
-#define ROOTMOTION_NATIVECURVE_REPEAT_OFFSET UNITYSDK_OFFSET(0x314B0)
-#define ROOTMOTION_NATIVECURVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x31460)
+#define ROOTMOTION_NATIVECURVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2FBF0)
+#define ROOTMOTION_NATIVECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x2FBE0)
+#define ROOTMOTION_NATIVECURVE_GET_ISCREATED_OFFSET UNITYSDK_OFFSET(0x2FB60)
+#define ROOTMOTION_NATIVECURVE_INITIALIZEVALUES_OFFSET UNITYSDK_OFFSET(0x2FB70)
+#define ROOTMOTION_NATIVECURVE_PINGPONG_OFFSET UNITYSDK_OFFSET(0x2FC70)
+#define ROOTMOTION_NATIVECURVE_REPEAT_OFFSET UNITYSDK_OFFSET(0x2FC20)
+#define ROOTMOTION_NATIVECURVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x2FBD0)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int NativeCurve_TypeDefinitionIndex = 40992;
+	inline static constexpr unsigned int NativeCurve_TypeDefinitionIndex = 41795;
 
 	struct alignas(8) NativeCurve
 	{
@@ -29,19 +29,19 @@ namespace RootMotion
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_GET_ISCREATED_OFFSET))(this);
 		}
 
-		::System::Void InitializeValues(::System::Int32 count)
+		::System::Void InitializeValues(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_INITIALIZEVALUES_OFFSET))(this, count);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_INITIALIZEVALUES_OFFSET))(this, a1);
 		}
 
-		::System::Void Update(::UnityEngine::AnimationCurve* curve, ::System::Int32 resolution)
+		::System::Void Update(::UnityEngine::AnimationCurve* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*, ::System::Int32))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_UPDATE_OFFSET))(this, curve, resolution);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*, ::System::Int32))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_UPDATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single Evaluate(::System::Single t)
+		::System::Single Evaluate(::System::Single a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_EVALUATE_OFFSET))(this, t);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_EVALUATE_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -49,14 +49,14 @@ namespace RootMotion
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Single Repeat(::System::Single t, ::System::Single length)
+		::System::Single Repeat(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_REPEAT_OFFSET))(this, t, length);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_REPEAT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single Pingpong(::System::Single t, ::System::Single length)
+		::System::Single Pingpong(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_PINGPONG_OFFSET))(this, t, length);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_PINGPONG_OFFSET))(this, a1, a2);
 		}
 	};
 }

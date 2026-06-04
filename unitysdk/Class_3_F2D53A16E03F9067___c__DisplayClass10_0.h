@@ -7,11 +7,11 @@ class Class_3_F2D53A16E03F9067;
 namespace RPG::Client { class BaseGameFlow; }
 namespace System { class Exception; }
 
-#define CLASS_3_F2D53A16E03F9067___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11DD2AE0)
-#define CLASS_3_F2D53A16E03F9067___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x11DD2CE0)
-#define CLASS_3_F2D53A16E03F9067___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x11DD2DC0)
+#define CLASS_3_F2D53A16E03F9067___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14018D70)
+#define CLASS_3_F2D53A16E03F9067___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x14018F70)
+#define CLASS_3_F2D53A16E03F9067___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x14019050)
 
-inline static constexpr unsigned int Class_3_F2D53A16E03F9067___c__DisplayClass10_0_TypeDefinitionIndex = 53646;
+inline static constexpr unsigned int Class_3_F2D53A16E03F9067___c__DisplayClass10_0_TypeDefinitionIndex = 54359;
 
 class Class_3_F2D53A16E03F9067___c__DisplayClass10_0 : public ::System::Object
 {
@@ -24,13 +24,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_F2D53A16E03F9067___C__DISPLAYCLASS10_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __DoEnterGameFlow_b__0(::RPG::Client::BaseGameFlow* gameflow)
+	::System::Void __DoEnterGameFlow_b__0(::RPG::Client::BaseGameFlow* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseGameFlow*))((::PBYTE)hIl2Cpp + CLASS_3_F2D53A16E03F9067___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__0_OFFSET))(this, gameflow);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseGameFlow*))((::PBYTE)hIl2Cpp + CLASS_3_F2D53A16E03F9067___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__0_OFFSET))(this, a1);
 	}
 
-	::System::Void __DoEnterGameFlow_b__1(::System::Exception* ex)
+	::System::Void __DoEnterGameFlow_b__1(::System::Exception* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + CLASS_3_F2D53A16E03F9067___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__1_OFFSET))(this, ex);
+		return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + CLASS_3_F2D53A16E03F9067___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__1_OFFSET))(this, a1);
 	}
 };

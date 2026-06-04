@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MPChangeStatus_TypeDefinitionIndex = 62816;
+	inline static constexpr unsigned int MPChangeStatus_TypeDefinitionIndex = 63750;
 
 	enum class MPChangeStatus : ::System::Int32
 	{

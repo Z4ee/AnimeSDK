@@ -11,43 +11,43 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class PileItem; }
 namespace System { class String; }
 
-#define PROTO_ITEMCOST_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x193448E0)
-#define PROTO_ITEMCOST_CLEARITEM_OFFSET UNITYSDK_OFFSET(0x19344210)
-#define PROTO_ITEMCOST_CLONE_OFFSET UNITYSDK_OFFSET(0x193441D0)
-#define PROTO_ITEMCOST_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x19344250)
-#define PROTO_ITEMCOST_EQUALS_OFFSET UNITYSDK_OFFSET(0x19344220)
-#define PROTO_ITEMCOST_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19344590)
-#define PROTO_ITEMCOST_GET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0x19344070)
-#define PROTO_ITEMCOST_GET_ITEMCASE_OFFSET UNITYSDK_OFFSET(0x19344200)
-#define PROTO_ITEMCOST_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x19343DA0)
-#define PROTO_ITEMCOST_GET_PILEITEM_OFFSET UNITYSDK_OFFSET(0x19343FC0)
-#define PROTO_ITEMCOST_GET_RELICUNIQUEID_OFFSET UNITYSDK_OFFSET(0x19344120)
-#define PROTO_ITEMCOST_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x19344E00)
-#define PROTO_ITEMCOST_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x19344B40)
-#define PROTO_ITEMCOST_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x19343DD0)
-#define PROTO_ITEMCOST_SET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0x193440F0)
-#define PROTO_ITEMCOST_SET_PILEITEM_OFFSET UNITYSDK_OFFSET(0x19344050)
-#define PROTO_ITEMCOST_SET_RELICUNIQUEID_OFFSET UNITYSDK_OFFSET(0x193441A0)
-#define PROTO_ITEMCOST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x193446C0)
-#define PROTO_ITEMCOST_WRITETO_OFFSET UNITYSDK_OFFSET(0x19344720)
-#define PROTO_ITEMCOST__CCTOR_OFFSET UNITYSDK_OFFSET(0x19344F50)
-#define PROTO_ITEMCOST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19343DF0)
-#define PROTO_ITEMCOST__CTOR_OFFSET UNITYSDK_OFFSET(0x19343DE0)
+#define PROTO_ITEMCOST_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A0F7D40)
+#define PROTO_ITEMCOST_CLEARITEM_OFFSET UNITYSDK_OFFSET(0x1A0F76A0)
+#define PROTO_ITEMCOST_CLONE_OFFSET UNITYSDK_OFFSET(0x1A0F7660)
+#define PROTO_ITEMCOST_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A0F76E0)
+#define PROTO_ITEMCOST_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A0F76B0)
+#define PROTO_ITEMCOST_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A0F7A20)
+#define PROTO_ITEMCOST_GET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1A0F7500)
+#define PROTO_ITEMCOST_GET_ITEMCASE_OFFSET UNITYSDK_OFFSET(0x1A0F7690)
+#define PROTO_ITEMCOST_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A0F7280)
+#define PROTO_ITEMCOST_GET_PILEITEM_OFFSET UNITYSDK_OFFSET(0x1A0F74A0)
+#define PROTO_ITEMCOST_GET_RELICUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1A0F75B0)
+#define PROTO_ITEMCOST_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A0F8210)
+#define PROTO_ITEMCOST_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A0F7FA0)
+#define PROTO_ITEMCOST_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A0F72B0)
+#define PROTO_ITEMCOST_SET_EQUIPMENTUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1A0F7580)
+#define PROTO_ITEMCOST_SET_PILEITEM_OFFSET UNITYSDK_OFFSET(0x1A0F74E0)
+#define PROTO_ITEMCOST_SET_RELICUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1A0F7630)
+#define PROTO_ITEMCOST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A0F7B20)
+#define PROTO_ITEMCOST_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A0F7B80)
+#define PROTO_ITEMCOST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0F8480)
+#define PROTO_ITEMCOST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A0F72D0)
+#define PROTO_ITEMCOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F72C0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int ItemCost_TypeDefinitionIndex = 26171;
+	inline static constexpr unsigned int ItemCost_TypeDefinitionIndex = 26142;
 
 	class ItemCost : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::ItemCost*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::ItemCost*>**)Il2CppClass::FromTypeDefinitionIndex(ItemCost_TypeDefinitionIndex)->GetStaticField(0x474F0);
+			return (::Google::Protobuf::MessageParser_1<::Proto::ItemCost*>**)Il2CppClass::FromTypeDefinitionIndex(ItemCost_TypeDefinitionIndex)->GetStaticField(0x2C1E0);
 		}
-		// static const ::System::Int32 PileItemFieldNumber = 0xB; // 0x0
-		// static const ::System::Int32 EquipmentUniqueIdFieldNumber = 0x8; // 0x0
-		// static const ::System::Int32 RelicUniqueIdFieldNumber = 0xD; // 0x0
+		// static const ::System::Int32 PileItemFieldNumber = 0x4; // 0x0
+		// static const ::System::Int32 EquipmentUniqueIdFieldNumber = 0x5; // 0x0
+		// static const ::System::Int32 RelicUniqueIdFieldNumber = 0x7; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
 		::System::Object* item_; // 0x18
 		::Proto::ItemCost_ItemOneofCase itemCase_; // 0x20
@@ -57,9 +57,9 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Proto::ItemCost* other)
+		::System::Void _ctor_1(::Proto::ItemCost* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::ItemCost*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST__CTOR_1_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Proto::ItemCost*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST__CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
@@ -87,9 +87,9 @@ namespace Proto
 			return ((::Proto::PileItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_GET_PILEITEM_OFFSET))(this);
 		}
 
-		::System::Void set_PileItem(::Proto::PileItem* value)
+		::System::Void set_PileItem(::Proto::PileItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::PileItem*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_SET_PILEITEM_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::Proto::PileItem*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_SET_PILEITEM_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_EquipmentUniqueId()
@@ -97,9 +97,9 @@ namespace Proto
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_GET_EQUIPMENTUNIQUEID_OFFSET))(this);
 		}
 
-		::System::Void set_EquipmentUniqueId(::System::UInt32 value)
+		::System::Void set_EquipmentUniqueId(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_SET_EQUIPMENTUNIQUEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_SET_EQUIPMENTUNIQUEID_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_RelicUniqueId()
@@ -107,9 +107,9 @@ namespace Proto
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_GET_RELICUNIQUEID_OFFSET))(this);
 		}
 
-		::System::Void set_RelicUniqueId(::System::UInt32 value)
+		::System::Void set_RelicUniqueId(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_SET_RELICUNIQUEID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_SET_RELICUNIQUEID_OFFSET))(this, a1);
 		}
 
 		::Proto::ItemCost_ItemOneofCase get_ItemCase()
@@ -122,14 +122,14 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_CLEARITEM_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Object* other)
+		::System::Boolean Equals(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_EQUALS_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Equals_1(::Proto::ItemCost* other)
+		::System::Boolean Equals_1(::Proto::ItemCost* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Proto::ItemCost*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_EQUALS_1_OFFSET))(this, other);
+			return ((::System::Boolean(*)(::PVOID, ::Proto::ItemCost*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -142,9 +142,9 @@ namespace Proto
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* output)
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_WRITETO_OFFSET))(this, output);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_WRITETO_OFFSET))(this, a1);
 		}
 
 		::System::Int32 CalculateSize()
@@ -152,14 +152,14 @@ namespace Proto
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_CALCULATESIZE_OFFSET))(this);
 		}
 
-		::System::Void MergeFrom(::Proto::ItemCost* other)
+		::System::Void MergeFrom(::Proto::ItemCost* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::ItemCost*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_MERGEFROM_OFFSET))(this, other);
+			return ((::System::Void(*)(::PVOID, ::Proto::ItemCost*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_MERGEFROM_OFFSET))(this, a1);
 		}
 
-		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* input)
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_MERGEFROM_1_OFFSET))(this, input);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_ITEMCOST_MERGEFROM_1_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FindChestReplaceType_TypeDefinitionIndex = 12570;
+	inline static constexpr unsigned int FindChestReplaceType_TypeDefinitionIndex = 12661;
 
 	enum class FindChestReplaceType : ::System::Int32
 	{

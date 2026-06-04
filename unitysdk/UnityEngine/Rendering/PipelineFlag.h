@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PipelineFlag_TypeDefinitionIndex = 34906;
+	inline static constexpr unsigned int PipelineFlag_TypeDefinitionIndex = 35189;
 
 	enum class PipelineFlag : ::System::Int64
 	{

@@ -10,14 +10,14 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Globalization { class Calendar; }
 
-#define SYSTEM_DATETIMERESULT_INIT_OFFSET UNITYSDK_OFFSET(0x22A6140)
-#define SYSTEM_DATETIMERESULT_SETDATE_OFFSET UNITYSDK_OFFSET(0xD3340)
-#define SYSTEM_DATETIMERESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x22A6180)
-#define SYSTEM_DATETIMERESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x22A6170)
+#define SYSTEM_DATETIMERESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3836130)
+#define SYSTEM_DATETIMERESULT_SETDATE_OFFSET UNITYSDK_OFFSET(0x82420)
+#define SYSTEM_DATETIMERESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x3836170)
+#define SYSTEM_DATETIMERESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3836160)
 
 namespace System
 {
-	inline static constexpr unsigned int DateTimeResult_TypeDefinitionIndex = 265;
+	inline static constexpr unsigned int DateTimeResult_TypeDefinitionIndex = 264;
 
 	struct alignas(8) DateTimeResult
 	{
@@ -43,19 +43,19 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERESULT_INIT_OFFSET))(this);
 		}
 
-		::System::Void SetDate(::System::Int32 year, ::System::Int32 month, ::System::Int32 day)
+		::System::Void SetDate(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERESULT_SETDATE_OFFSET))(this, year, month, day);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERESULT_SETDATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetFailure(::System::ParseFailureKind failure, ::System::String* failureMessageID, ::System::Object* failureMessageFormatArgument)
+		::System::Void SetFailure(::System::ParseFailureKind a1, ::System::String* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ParseFailureKind, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERESULT_SETFAILURE_OFFSET))(this, failure, failureMessageID, failureMessageFormatArgument);
+			return ((::System::Void(*)(::PVOID, ::System::ParseFailureKind, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERESULT_SETFAILURE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetFailure_1(::System::ParseFailureKind failure, ::System::String* failureMessageID, ::System::Object* failureMessageFormatArgument, ::System::String* failureArgumentName)
+		::System::Void SetFailure_1(::System::ParseFailureKind a1, ::System::String* a2, ::System::Object* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ParseFailureKind, ::System::String*, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERESULT_SETFAILURE_1_OFFSET))(this, failure, failureMessageID, failureMessageFormatArgument, failureArgumentName);
+			return ((::System::Void(*)(::PVOID, ::System::ParseFailureKind, ::System::String*, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERESULT_SETFAILURE_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

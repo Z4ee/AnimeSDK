@@ -6,19 +6,19 @@
 
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_GETGENERICINTERFACE_OFFSET UNITYSDK_OFFSET(0x1A728B50)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_GETINITTOKEN_OFFSET UNITYSDK_OFFSET(0x1A728DB0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_GETSTRINGFORHMDERROR_OFFSET UNITYSDK_OFFSET(0x1A728A30)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A7285F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_ISHMDPRESENT_OFFSET UNITYSDK_OFFSET(0x1A728800)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_ISINTERFACEVERSIONVALID_OFFSET UNITYSDK_OFFSET(0x1A728C90)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_ISRUNTIMEINSTALLED_OFFSET UNITYSDK_OFFSET(0x1A728900)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_SHUTDOWNINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A728700)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A72A7E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_GETGENERICINTERFACE_OFFSET UNITYSDK_OFFSET(0x1B5294A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_GETINITTOKEN_OFFSET UNITYSDK_OFFSET(0x1B529700)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_GETSTRINGFORHMDERROR_OFFSET UNITYSDK_OFFSET(0x1B529380)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B528F40)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_ISHMDPRESENT_OFFSET UNITYSDK_OFFSET(0x1B529150)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_ISINTERFACEVERSIONVALID_OFFSET UNITYSDK_OFFSET(0x1B5295E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_ISRUNTIMEINSTALLED_OFFSET UNITYSDK_OFFSET(0x1B529250)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_SHUTDOWNINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B529050)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52BCC0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int OpenVRInterop_TypeDefinitionIndex = 35975;
+	inline static constexpr unsigned int OpenVRInterop_TypeDefinitionIndex = 36275;
 
 	class OpenVRInterop : public ::System::Object
 	{
@@ -28,9 +28,9 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::UInt32 InitInternal(::ZenFulcrum::VR::OpenVRBinding::EVRInitError& peError, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType eApplicationType)
+		static ::System::UInt32 InitInternal(::ZenFulcrum::VR::OpenVRBinding::EVRInitError& a1, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType a2)
 		{
-			return ((::System::UInt32(*)(::ZenFulcrum::VR::OpenVRBinding::EVRInitError&, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_INITINTERNAL_OFFSET))(peError, eApplicationType);
+			return ((::System::UInt32(*)(::ZenFulcrum::VR::OpenVRBinding::EVRInitError&, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_INITINTERNAL_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void ShutdownInternal()
@@ -48,19 +48,19 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_ISRUNTIMEINSTALLED_OFFSET))();
 		}
 
-		static ::System::IntPtr GetStringForHmdError(::ZenFulcrum::VR::OpenVRBinding::EVRInitError error)
+		static ::System::IntPtr GetStringForHmdError(::ZenFulcrum::VR::OpenVRBinding::EVRInitError a1)
 		{
-			return ((::System::IntPtr(*)(::ZenFulcrum::VR::OpenVRBinding::EVRInitError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_GETSTRINGFORHMDERROR_OFFSET))(error);
+			return ((::System::IntPtr(*)(::ZenFulcrum::VR::OpenVRBinding::EVRInitError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_GETSTRINGFORHMDERROR_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr GetGenericInterface(::System::String* pchInterfaceVersion, ::ZenFulcrum::VR::OpenVRBinding::EVRInitError& peError)
+		static ::System::IntPtr GetGenericInterface(::System::String* a1, ::ZenFulcrum::VR::OpenVRBinding::EVRInitError& a2)
 		{
-			return ((::System::IntPtr(*)(::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRInitError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_GETGENERICINTERFACE_OFFSET))(pchInterfaceVersion, peError);
+			return ((::System::IntPtr(*)(::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRInitError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_GETGENERICINTERFACE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsInterfaceVersionValid(::System::String* pchInterfaceVersion)
+		static ::System::Boolean IsInterfaceVersionValid(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_ISINTERFACEVERSIONVALID_OFFSET))(pchInterfaceVersion);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVRINTEROP_ISINTERFACEVERSIONVALID_OFFSET))(a1);
 		}
 
 		static ::System::UInt32 GetInitToken()

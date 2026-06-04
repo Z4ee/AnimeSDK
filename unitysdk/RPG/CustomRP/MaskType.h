@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MaskType_TypeDefinitionIndex = 35190;
+	inline static constexpr unsigned int MaskType_TypeDefinitionIndex = 35490;
 
 	enum class MaskType : ::System::Int32
 	{

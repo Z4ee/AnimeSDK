@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 23442;
+	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 23475;
 
 	enum class ServerPrefsType : ::System::Int32
 	{
@@ -153,5 +153,12 @@ namespace RPG::GameCore
 		Anniversary3RDCollectionDataSeen = 4217,
 		IdleLiveIsDanmuBattle = 4218,
 		IdleLiveIsAutoBattle = 4219,
+		ChallengeTierceOpenGroupIDs = 4301,
+		ChallengeGroupSeenUnlockProgressOfMemory = 4302,
+		ChallengeGroupSeenUnlockProgressOfStory = 4303,
+		ChallengeGroupSeenUnlockProgressOfBoss = 4304,
+		ChallengeTierceSeenEntranceNoticeGroupTypes = 4305,
+		ChallengeTierceSpecialRewardHasSeen = 4306,
+		ChallengeTierceHasSeen = 4307,
 	};
 }

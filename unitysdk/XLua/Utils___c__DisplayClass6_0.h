@@ -5,29 +5,29 @@
 namespace System { class Type; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11748CA0)
-#define XLUA_UTILS___C__DISPLAYCLASS6_0__GENITEMSETTER_B__1_OFFSET UNITYSDK_OFFSET(0x11757780)
+#define XLUA_UTILS___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13440430)
+#define XLUA_UTILS___C__DISPLAYCLASS6_0__GENITEMSETTER_B__1_OFFSET UNITYSDK_OFFSET(0x1344F2D0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass6_0_TypeDefinitionIndex = 46465;
+	inline static constexpr unsigned int Utils___c__DisplayClass6_0_TypeDefinitionIndex = 47055;
 
 	class Utils___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Object*>* arg; // 0x10
+		::Il2CppArray<::System::Type*>* params_type; // 0x10
 		::Il2CppArray<::System::Reflection::PropertyInfo*>* props; // 0x18
-		::Il2CppArray<::System::Type*>* params_type; // 0x20
-		::System::Type* type; // 0x28
+		::System::Type* type; // 0x20
+		::Il2CppArray<::System::Object*>* arg; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS6_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _genItemSetter_b__1(::System::IntPtr L)
+		::System::Int32 _genItemSetter_b__1(::System::IntPtr a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS6_0__GENITEMSETTER_B__1_OFFSET))(this, L);
+			return ((::System::Int32(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_UTILS___C__DISPLAYCLASS6_0__GENITEMSETTER_B__1_OFFSET))(this, a1);
 		}
 	};
 }
